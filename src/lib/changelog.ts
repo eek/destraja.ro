@@ -103,23 +103,39 @@ export const CHANGELOG: ChangeDay[] = [
       {
         kind: 'schimbat',
         title: 'Presa, din indexul nostru de știri',
-        text: 'Citim feed-urile a peste 100 de publicații la fiecare 30 de minute și potrivim articolele cu proiectele. În fiecare dimineață, ChatGPT citește articolele găsite și le păstrează doar pe cele chiar despre proiect, cu un citat, iar codul verifică apoi linkul și citatul, ca până acum. Căutarea pe web cu cele trei modele rămâne o dată pe săptămână, pentru publicațiile fără feed.',
+        text: 'Citim cele 103 feed-uri a 72 de publicații la fiecare 30 de minute și potrivim articolele cu proiectele. În fiecare dimineață, ChatGPT citește articolele găsite și le păstrează doar pe cele chiar despre proiect, cu un citat, iar codul verifică apoi linkul și citatul, ca până acum. Căutarea pe web cu cele trei modele rămâne o dată pe săptămână, pentru publicațiile fără feed.',
         link: { href: '/metodologie#verificare', label: 'Cum verificăm presa' },
+        shot: {
+          id: '2026-11-06-presa-index',
+          alt: 'Secțiunea „În presă” a proiectului B598/2026: 20 de articole, primele de la B1 TV, Libertatea și Mediafax, fiecare cu poziția față de proiect și data.',
+        },
       },
       {
         kind: 'schimbat',
         title: 'Poziția presei, citită și de GLiDE',
         text: 'Unul dintre cele trei modele care spun dacă un articol susține sau critică proiectul e acum GLiDE (Fastino), rulat pe calculatorul nostru, cu greutăți publice. Eticheta apare tot doar unde cel puțin două modele sunt de acord.',
+        shot: {
+          id: '2026-11-06-glide',
+          alt: 'Metodologia, la „Ce fel de articol e?”: cele trei modele care citesc articolele, GLiDE (Fastino), d1-3B (Liquid AI) și GPT-6 Luna, și întrebările la care răspund.',
+        },
       },
       {
         kind: 'schimbat',
         title: 'Formele noi, comparate în aceeași zi',
         text: 'Când pe fișa unui proiect apare o formă nouă, de exemplu cea adoptată de Senat, o analizăm și o comparăm cu cea dinainte chiar în dimineața aceea, iar scorul proiectului trece pe forma nouă. La fel se completează zilnic avizele instituțiilor și lista „ce e bine și ce strică”.',
+        shot: {
+          id: '2026-11-06-forme-noi',
+          alt: '„Cum s-a schimbat pe drum” la PL-x 118/2026: la Cameră proiectul a devenit mai puțin riscant, cu schimbările majore și forma Senatului lângă cea a Camerei.',
+        },
       },
       {
         kind: 'schimbat',
         title: 'Opiniile depuse pe senat.ro, închise implicit',
         text: 'La unele proiecte sunt sute de opinii. Lista e acum închisă pe pagina proiectului și o deschizi cu un clic.',
+        shot: {
+          id: '2026-11-06-opinii-inchise',
+          alt: 'Pagina proiectului B563/2026, cu lista „Opiniile depuse pe senat.ro (67)” închisă, deasupra inițiatorilor, parcursului legislativ și textului integral.',
+        },
       },
     ],
   },
@@ -162,6 +178,10 @@ export const CHANGELOG: ChangeDay[] = [
         kind: 'corectat',
         title: 'Meniul pe tabletă',
         text: 'Între 768 și 1024 de pixeli lățime, linkurile din meniu ieșeau din pagină. Acum meniul complet apare de la 1024 de pixeli, iar sub această lățime îl deschizi din buton.',
+        shot: {
+          id: '2026-11-03-meniu-tableta',
+          alt: 'Prima pagină pe o tabletă de 900 de pixeli, cu meniul deschis din buton: Acasă, Senat, Camera, Agenda, Parlamentari, Presă și date, Metodologie, Alerte.',
+        },
       },
     ],
   },
@@ -197,6 +217,10 @@ export const CHANGELOG: ChangeDay[] = [
         kind: 'nou',
         title: 'Cine a schimbat textul la Cameră',
         text: 'Amendamentele din rapoartele comisiilor, cu autorul fiecăruia, legate de ce s-a schimbat în proiect.',
+        shot: {
+          id: '2026-10-30-amendamente',
+          alt: '„Cine a propus schimbările” la PL-x 105/2026: amendamentele admise în raportul comisiei, fiecare cu articolul, ce schimbă, dacă textul a ieșit mai bine sau mai rău și cine l-a propus.',
+        },
       },
       {
         kind: 'schimbat',
@@ -209,11 +233,19 @@ export const CHANGELOG: ChangeDay[] = [
         kind: 'nou',
         title: 'O imagine pentru fiecare proiect, când îl distribui',
         text: 'Când trimiți linkul unui proiect pe o rețea socială sau într-un mesaj, apare o imagine cu scorul, titlul pe înțeles și termenul. La fel pentru paginile principale.',
+        shot: {
+          id: '2026-10-30-imagine',
+          alt: 'Imaginea care apare când distribui B563/2026: risc ridicat 9,8 din 10, urgență cerută, titlul pe înțeles, rezumatul și termenul consultării.',
+        },
       },
       {
         kind: 'corectat',
         title: 'Memoriul, fără câmpuri de completat de mână',
         text: 'Documentul .docx pentru Senat nu mai conține locuri goale de tipul „numele tău”, iar pagina spune că formularul Senatului cere un cont.',
+        shot: {
+          id: '2026-10-30-memoriu',
+          alt: 'Trusa „Acționează în 60 de secunde” la B563/2026: nota că formularul Senatului cere un cont pe online.senat.ro, memoriul .docx de descărcat și textele gata scrise pentru formular.',
+        },
       },
     ],
   },
@@ -249,6 +281,10 @@ export const CHANGELOG: ChangeDay[] = [
         kind: 'nou',
         title: 'Numele nou: destrajă.ro',
         text: 'Site-ul se numea lastraja.ro și era confundat cu stațiunea Straja. Adresele vechi duc aici.',
+        shot: {
+          id: '2026-10-28-nume',
+          alt: 'Prima pagină pe 28 octombrie, cu noul nume destrajă.ro în colț, satul cu proiectele în consultare și titlul „Stăm de strajă. Să știi ce se pregătește.”',
+        },
       },
       {
         kind: 'nou',
@@ -260,16 +296,28 @@ export const CHANGELOG: ChangeDay[] = [
         kind: 'schimbat',
         title: 'Explicația riscului, într-o fereastră',
         text: 'Pe cardurile proiectelor, explicația riscului se deschide peste pagină, cu cele trei lecturi una lângă alta. Iar în analiza pe articole vine întâi titlul pe înțeles, apoi trimiterea juridică.',
+        shot: {
+          id: '2026-10-28-risc-fereastra',
+          alt: 'Fereastra „De ce acest nivel de risc?” deschisă peste prima pagină pentru B563/2026: rezumatul și cele trei lecturi, Gemini, Claude și ChatGPT, una lângă alta.',
+        },
       },
       {
         kind: 'corectat',
         title: 'Toate opiniile de pe senat.ro',
         text: 'Citeam doar primele zece opinii depuse la un proiect; acum le citim pe toate.',
+        shot: {
+          id: '2026-10-28-opinii-toate',
+          alt: 'Lista „Opiniile depuse pe senat.ro (30)” la B563/2026, deschisă, cu autorul, numărul de înregistrare, data și textul fiecărei opinii.',
+        },
       },
       {
         kind: 'corectat',
         title: 'Temeiul legal din memoriu',
         text: 'Memoriul trimis Senatului se sprijină acum pe consultarea publică a Senatului și pe dreptul de petiție din Constituție (art. 51), nu pe Legea 52/2003, care privește administrația.',
+        shot: {
+          id: '2026-10-28-memoriu-temei',
+          alt: 'E-mailul către comisiile Senatului pentru B523/2026, cu textul complet: punctul de vedere e trimis în consultarea publică a Senatului și în exercitarea dreptului de petiționare din art. 51 din Constituție.',
+        },
       },
     ],
   },
@@ -299,6 +347,10 @@ export const CHANGELOG: ChangeDay[] = [
         kind: 'nou',
         title: 'Textele proiectelor, citite mai bine',
         text: 'Documentele Senatului sunt scanate. Le citim acum cu MinerU și verificăm fiecare pagină cu Tesseract, iar pe pagina proiectului apar ca documente formatate, cu tabele.',
+        shot: {
+          id: '2026-10-27-texte',
+          alt: '„Textul integral din PDF-urile oficiale” la B563/2026, deschis: forma inițiatorului, recunoscută din documentul scanat, cu titlurile și articolele formatate și linkul spre PDF-ul oficial.',
+        },
       },
       {
         kind: 'nou',
@@ -312,6 +364,10 @@ export const CHANGELOG: ChangeDay[] = [
         title: 'Cod și date libere',
         text: 'Codul e public pe GitHub (AGPL-3.0), iar analizele și datele sunt sub licența CC BY 4.0: le poți prelua cu sursa și linkul la destrajă.ro.',
         link: { href: '/presa#citare', label: 'Cum ne citezi' },
+        shot: {
+          id: '2026-10-27-date-libere',
+          alt: 'Secțiunea „Preia liber, cu sursa” din Camera de presă: analizele sub licența CC BY 4.0, cum ne citezi, ce nu intră în licență și linkurile spre licență și spre codul sursă (AGPL-3.0).',
+        },
       },
     ],
   },
@@ -328,16 +384,28 @@ export const CHANGELOG: ChangeDay[] = [
         kind: 'nou',
         title: 'Alerte pe e-mail',
         text: 'Te abonezi cu confirmare pe e-mail și primești un mesaj în zilele lucrătoare în care un proiect nou intră în consultare, se apropie un termen sau scrie presa despre el. Alegi tu de la ce nivel de risc.',
+        shot: {
+          id: '2026-10-26-alerte',
+          alt: 'Pagina „Alerte pe e-mail”: când îți scriem (proiect nou, 3 zile până la termen, presa, corecturi) și formularul cu cele trei niveluri și adresa de e-mail.',
+        },
       },
       {
         kind: 'nou',
         title: 'Contactele parlamentarilor',
         text: 'Pe pagina fiecărui deputat și senator, adresa de e-mail instituțională, telefonul și biroul parlamentar, așa cum sunt publicate pe cdep.ro și senat.ro, ca să le poți scrie direct.',
+        shot: {
+          id: '2026-10-26-contacte',
+          alt: 'Secțiunea „Scrie-i direct” pe pagina deputatei Oana Murariu: circumscripția, e-mailul, telefonul și birourile parlamentare, preluate de pe cdep.ro.',
+        },
       },
       {
         kind: 'nou',
         title: 'Avizele negative CES, pe scurt',
         text: 'Când Consiliul Economic și Social dă aviz negativ, motivele lui apar pe pagina proiectului, cu citatul din aviz.',
+        shot: {
+          id: '2026-10-26-ces',
+          alt: 'Fereastra „Aviz negativ de la CES” deschisă pe pagina B523/2026: numărul și data avizului și motivele, fiecare cu citatul din aviz.',
+        },
       },
     ],
   },
@@ -354,6 +422,10 @@ export const CHANGELOG: ChangeDay[] = [
         kind: 'nou',
         title: 'Semnalează o greșeală',
         text: 'Sub fiecare analiză, un buton pentru a ne spune unde modelele au greșit față de textul oficial.',
+        shot: {
+          id: '2026-10-25-greseala',
+          alt: 'Formularul „Semnalează o greșeală în analiza B563/2026”: ce analiză e greșită, ce nu se potrivește cu textul oficial și verificarea anti-roboți.',
+        },
       },
     ],
   },

@@ -174,7 +174,10 @@ function args(model, mode, codexModel) {
       '-',
     ];
   }
-  return ['--disable-slash-commands', '--agent', web ? 'lastraja-web' : 'lastraja-offline', '--model', 'gemini-4-argon-high', '--output-format', 'stream-json'];
+  // review: recenzia de cod a pipeline-urilor (review-pipelines.mjs, în afara repo-ului), cu agentul care știe că primește
+  // cod de analizat; tot fără unelte.
+  const agent = web ? 'lastraja-web' : mode === 'review' ? 'lastraja-review' : 'lastraja-offline';
+  return ['--disable-slash-commands', '--agent', agent, '--model', 'gemini-4-argon-high', '--output-format', 'stream-json'];
 }
 
 // Doar ce le trebuie CLI-urilor ca să găsească autentificarea din HOME; nimic din .env.

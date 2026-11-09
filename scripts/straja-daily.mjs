@@ -191,15 +191,11 @@ async function main() {
     if (!balance.ok) summary.push('„ce e bine și ce strică” a eșuat');
 
     if (!args.has('--skip-news')) {
-      // În fiecare zi, articolele din indexul de știri (VM-ul de căutare, feed-urile a peste 100 de publicații la 30 de
-      // minute), citite de ChatGPT: un minut în loc de o oră și jumătate. Căutarea pe web cu cele trei modele, pentru
-      // publicațiile fără feed, doar lunea.
+      // În fiecare zi, articolele din indexul de știri (VM-ul de căutare, cele 103 feed-uri ale celor 72 de publicații,
+      // la 30 de minute), citite de ChatGPT: un minut în loc de o oră și jumătate. Căutarea pe web cu cele trei modele,
+      // pentru publicațiile fără feed, rulează lunea după publicare (mai jos).
       const newsIndex = await step('Presă din index', 'node', ['scripts/straja-news.mjs', '--index'], { timeoutMs: 1_800_000 });
       if (!newsIndex.ok) summary.push('presa din index a eșuat');
-      if (monday) {
-        const news = await step('Presă', 'node', ['scripts/straja-news.mjs', '--max-age=20'], { timeoutMs: 5_400_000 });
-        if (!news.ok) summary.push('presa a eșuat');
-      }
     }
 
     if (!args.has('--skip-positions')) {
@@ -222,8 +218,9 @@ async function main() {
     }
 
     if (!args.has('--skip-mps')) {
-      // Fișele parlamentarilor se schimbă rar: o dată pe săptămână ajunge, cu o cerere pe secundă.
-      const mps = await step('Parlamentari', 'node', ['scripts/straja-mps.mjs', ...(monday ? [] : ['--only-new'])], { timeoutMs: 1_800_000 });
+      // Fișele deputaților trec prin pauza de un minut a cdep.ro: în fiecare zi cei noi și cel mult 15 fișe mai vechi de
+      // 3 săptămâni, nu toate lunea (991 de inițiatori nu mai încap în 30 de minute; pe 2 și 9 noiembrie, oprit la 51 și 65).
+      const mps = await step('Parlamentari', 'node', ['scripts/straja-mps.mjs', '--max-age=21', '--cdep-max=15'], { timeoutMs: 1_800_000 });
       if (!mps.ok) summary.push('contactele parlamentarilor au eșuat');
     }
 
@@ -288,6 +285,14 @@ async function main() {
         if (!digest.ok) summary.push('alertele NU au plecat');
         else if (sent) summary.push(`${JSON.parse(sent[1]).sent} e-mailuri`);
       }
+    }
+
+    // Căutarea pe web cu cele trei modele, lunea, după publicare: ține cât îi trebuie fără să întârzie site-ul, iar ce
+    // găsește apare mâine (pe 9 noiembrie a trecut de 90 de minute). Fiecare proiect se salvează pe loc, deci o oprire la
+    // limită nu pierde ce s-a terminat.
+    if (monday && !args.has('--skip-news')) {
+      const news = await step('Presă de pe web', 'node', ['scripts/straja-news.mjs', '--max-age=20'], { timeoutMs: 7_200_000 });
+      if (!news.ok) summary.push('presa de pe web a eșuat');
     }
 
     if (!paused) {

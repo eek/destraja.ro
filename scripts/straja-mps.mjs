@@ -13,6 +13,10 @@
 //   npm run straja:mps -- --only-new   doar inițiatorii care lipsesc din data/mp-contacts.json (fără cereri dacă nu e niciunul)
 //   npm run straja:mps -- --dry-run    doar potrivirea numelor cu listele oficiale, fără fișe și fără scriere
 //   opțiuni: --refresh (descarcă tot din nou)  --offline (doar din cache)  --max-age=6 (zile)
+//            --cdep-max=15  cel mult atâtea fișe de deputat cerute de la cdep.ro în rulare (o cerere pe minut, din pauza
+//                           comună); peste limită folosim copia din cache, oricât de veche, iar o fișă fără copie rămâne
+//                           pe mâine. Cei noi vin primii, apoi fișele mai vechi decât --max-age, câte puțin în fiecare zi.
+//                           Listele membrilor se recitesc după 6 zile, orice --max-age.
 //
 // Scrie data/mp-contacts.json, cu cheia = numele exact din senat-bills.json (sau de pe fișa Camerei, pentru cei care
 // apar doar acolo). Cererile spre cdep.ro așteaptă pauza comună cu celelalte scripturi (scripts/lib/cdep.mjs).
@@ -48,12 +52,15 @@ const OFFLINE = argv.includes('--offline');
 const ONLY_NEW = argv.includes('--only-new');
 const DRY_RUN = argv.includes('--dry-run');
 const MAX_AGE_MS = Number(opt('max-age', 6)) * 864e5;
+const LIST_MAX_AGE_MS = Math.min(MAX_AGE_MS, 6 * 864e5);
+const CDEP_MAX = Number(opt('cdep-max', Infinity));
 
 // ---------- descărcare politicoasă, cu cache ----------
 
 fs.mkdirSync(CACHE_DIR, { recursive: true });
 let lastRequest = 0;
 let requests = 0;
+let cdepProfiles = 0;
 
 const cacheFile = (url) => path.join(CACHE_DIR, `${url.replace(/^https?:\/\//, '').replace(/[^a-zA-Z0-9]+/g, '_').slice(0, 180)}.html`);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -65,13 +72,20 @@ const isoFromRo = (s = '') => {
 };
 
 /** Pagina și ziua în care a fost descărcată (din cache, dacă e destul de nouă). */
-async function getPage(url) {
+async function getPage(url, maxAgeMs = MAX_AGE_MS) {
   const file = cacheFile(url);
   const stat = fs.existsSync(file) ? fs.statSync(file) : null;
-  if (stat && (OFFLINE || (!REFRESH && Date.now() - stat.mtimeMs < MAX_AGE_MS))) {
+  if (stat && (OFFLINE || (!REFRESH && Date.now() - stat.mtimeMs < maxAgeMs))) {
     return { html: fs.readFileSync(file, 'utf8'), fetchedAt: stat.mtimeMs };
   }
   if (OFFLINE) throw new Error(`lipsește din cache: ${url}`);
+  // Fișele de deputat trec prin pauza de un minut a cdep.ro: peste --cdep-max, copia veche sau mâine.
+  const profile = url.startsWith(`${CDEP}/ords/pls/parlam/structura2015.mp?`);
+  if (profile && cdepProfiles >= CDEP_MAX) {
+    if (stat) return { html: fs.readFileSync(file, 'utf8'), fetchedAt: stat.mtimeMs };
+    throw Object.assign(new Error(`peste limita de ${CDEP_MAX} fișe de pe cdep.ro`), { later: true });
+  }
+  if (profile) cdepProfiles++;
 
   let lastErr;
   for (let attempt = 0; attempt < 2; attempt++) {
@@ -247,7 +261,7 @@ function parseConstituencyLabel(label) {
 // ---------- listele oficiale ----------
 
 async function loadDeputies() {
-  const { html, fetchedAt } = await getPage(CDEP_LIST);
+  const { html, fetchedAt } = await getPage(CDEP_LIST, LIST_MAX_AGE_MS);
   const cut = html.search(/Deputati care si-au [îi]ncetat mandatul/i);
   if (cut < 0) throw new Error('cdep.ro: nu găsesc secțiunea deputaților cu mandat încetat; formatul listei s-a schimbat');
   const parse = (part, ended) =>
@@ -274,7 +288,7 @@ async function loadDeputies() {
 }
 
 async function loadSenators() {
-  const { html, fetchedAt } = await getPage(SENAT_LIST);
+  const { html, fetchedAt } = await getPage(SENAT_LIST, LIST_MAX_AGE_MS);
   const byId = new Map();
   for (const [, card] of html.matchAll(/<div class="new-card-without-pics">([\s\S]*?)<\/div>/gi)) {
     const link = /href='FisaSenator\.aspx\?ParlamentarID=([0-9a-f-]{36})'[^>]*>([^<]+)<\/a>/i.exec(card);
@@ -441,7 +455,10 @@ const sortKeys = (obj) => Object.fromEntries(Object.entries(obj).sort(([a], [b])
 async function main() {
   const previous = fs.existsSync(OUT_FILE) ? JSON.parse(fs.readFileSync(OUT_FILE, 'utf8')) : {};
   const wanted = initiators();
-  const todo = [...wanted.entries()].filter(([name]) => !ONLY_NEW || !previous[name]);
+  // Cei fără date de contact întâi, ca limita de cereri spre cdep.ro să le ajungă lor înaintea reîmprospătărilor.
+  const todo = [...wanted.entries()]
+    .filter(([name]) => !ONLY_NEW || !previous[name])
+    .sort(([a], [b]) => Number(Boolean(previous[a])) - Number(Boolean(previous[b])));
   if (!todo.length) {
     console.log(`✅ Toți cei ${wanted.size} parlamentari au deja date de contact; nicio cerere trimisă.`);
     return;
@@ -452,7 +469,7 @@ async function main() {
   console.log(`📋 Liste oficiale: ${lists.cdep.current.length} deputați, ${lists.senat.current.length} senatori în funcție.`);
 
   const out = ONLY_NEW ? { ...previous } : {};
-  const stats = { matched: 0, unmatched: 0, withEmail: 0, withOffice: 0, approx: [] };
+  const stats = { matched: 0, unmatched: 0, withEmail: 0, withOffice: 0, later: 0, approx: [] };
 
   for (const [i, [name, role]] of todo.entries()) {
     // Fără cameră cunoscută (fișe vechi ale Camerei), căutăm întâi printre deputați, apoi printre senatori.
@@ -521,6 +538,12 @@ async function main() {
       if (p.offices.length) stats.withOffice++;
       console.log(`${p.emails.length} e-mail, ${p.phones.length} tel., ${p.offices.length} birouri`);
     } catch (err) {
+      if (err.later) {
+        if (previous[name]) out[name] = previous[name];
+        stats.later++;
+        console.log('rămâne pe mâine (limita cdep.ro)');
+        continue;
+      }
       // La captcha ne oprim; ce lipsește se ia la rularea următoare cu --only-new.
       if (err.fatal) {
         console.log(`⏸️  ${err.message}; ne oprim aici`);
@@ -561,7 +584,8 @@ async function main() {
   }
   fs.writeFileSync(OUT_FILE, JSON.stringify(sortKeys(out), null, 2) + '\n', 'utf8');
 
-  console.log(`\n🎉 ${stats.matched} potriviți, ${stats.unmatched} nepotriviți, ${requests} cereri trimise.`);
+  console.log(`\n🎉 ${stats.matched} potriviți, ${stats.unmatched} nepotriviți, ${requests} cereri trimise (${cdepProfiles} fișe de pe cdep.ro).`);
+  if (stats.later) console.log(`   ${stats.later} fără copie în cache rămân pe mâine (--cdep-max=${CDEP_MAX}).`);
   console.log(`   Cu e-mail: ${stats.withEmail} · cu birou parlamentar: ${stats.withOffice}`);
   if (stats.approx.length) console.log(`   De verificat (potrivire neexactă):\n     ${stats.approx.join('\n     ')}`);
   console.log(`   Salvat în ${path.relative(ROOT, OUT_FILE)}`);

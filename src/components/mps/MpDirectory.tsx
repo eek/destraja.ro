@@ -6,7 +6,7 @@ import { ArrowDown, ArrowUp, ChevronDown, ChevronsUpDown, Mail, Search, X } from
 import type { RiskLevel } from '@/lib/types';
 import { PARTY_ORDER, partyFullName } from '@/lib/site';
 import { RISK, levelFromScore } from '@/lib/risk';
-import { countWord, fmt, initialRows, normalize } from '@/lib/format';
+import { countWord, fmt, initialRows, normalize, slugify } from '@/lib/format';
 import type { MpStat } from '@/lib/stats';
 import { EmptyState, PartyTag, RiskDot, btnSecondary, inputCls, segCls } from '@/components/ui';
 import type { ReactNode } from 'react';
@@ -29,7 +29,8 @@ const roleLabel = (role: string) => (role === 'senator' ? 'Senator' : role === '
 // Statisticile vin calculate de pe server (Senat + Cameră), ca semnăturile tuturor proiectelor să nu ajungă în browser.
 // levels: nivelul de risc al fiecărui proiect, după id. withEmail: parlamentarii cu e-mail pe fișa oficială.
 export default function MpDirectory({ mpStats, levels, withEmail = [] }: { mpStats: MpStat[]; levels: Record<string, RiskLevel>; withEmail?: string[] }) {
-  const emailSet = useMemo(() => new Set(withEmail), [withEmail]);
+  // După slug: Senatul scrie „Ştefăniţă” cu sedilă, Camera „Ștefăniță” cu virgulă; e același om.
+  const emailSet = useMemo(() => new Set(withEmail.map(slugify)), [withEmail]);
 
   const parties = useMemo(() => {
     const n = new Map<string, number>();
@@ -172,7 +173,7 @@ export default function MpDirectory({ mpStats, levels, withEmail = [] }: { mpSta
                         </Link>
                         <PartyTag party={m.party} />
                         <span className="text-xs text-muted">{roleLabel(m.role)}</span>
-                        {emailSet.has(m.name) && (
+                        {emailSet.has(slugify(m.name)) && (
                           <span title="Are un e-mail oficial publicat" className="inline-flex items-center text-muted">
                             <Mail className="h-3.5 w-3.5" aria-hidden />
                             <span className="sr-only">are un e-mail oficial publicat</span>

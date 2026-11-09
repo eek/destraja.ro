@@ -1,0 +1,75 @@
+{
+  "slug": "plx-100-2025",
+  "billId": "PL-x 100/2025",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-09T09:35:35.828Z",
+  "inputHash": "d56ed43687d4",
+  "riskScore": 5.3,
+  "summary": "O lege necesară care repară impozitarea abuzivă a firmelor cu activități mixte și a comercianților de lemne, dar care are erori de redactare în formula bazei de calcul și riscuri de aplicare în cursul anului.",
+  "good": [
+    {
+      "text": "Restrânge impozitul de 0,5% (ICAS) doar la veniturile din codurile CAEN de petrol și gaze, protejând firmele cu activități mixte de taxarea altor venituri.",
+      "article": "art. unic pct. 5",
+      "quote": "VT - venituri totale din livrări/prestări de servicii corespunzătoare codurilor CAEN prevăzute la alin.(1²), determinate cumulat de la începutul anului fiscal/anului fiscal modificat până la sfârșitul trimestrului/anului de calcul, după caz.",
+      "weight": 3
+    },
+    {
+      "text": "Aprobă ordonanța care scoate lemnele de foc, peleții, cărbunele, lubrifianții și antigelul din sfera impozitului destinat sectorului de petrol și gaze.",
+      "article": "art. unic",
+      "quote": "Se aprobă Ordonanța Guvernului nr.3 din 31 ianuarie 2025 pentru modificarea și completarea art.46² din Legea nr.227/2015 privind Codul fiscal, adoptată în temeiul art.1 pct.I.1 din Legea nr.332/2024",
+      "weight": 3
+    },
+    {
+      "text": "Include bateriile de stocare în definiția kiturilor de panouri fotovoltaice care beneficiază de cotă redusă de TVA, încurajând stocarea energiei verzi.",
+      "article": "art. unic pct. 9",
+      "quote": "a) kit panouri fotovoltaice - panou fotovoltaic, invertor, modul comandă, optimizatoare, sisteme de fixare, cablaj și conectică, tablou electric, disjunctoare, cutie contor, contor electric, bateriile de stocare;",
+      "weight": 2
+    },
+    {
+      "text": "Permite scăderea investițiilor în active noi, a amortizării și a accizelor din baza de calcul a impozitului suplimentar din sectorul petrol și gaze.",
+      "article": "art. unic pct. 5",
+      "quote": "I - valoarea imobilizărilor în curs de execuție ocazionate de achiziția/productția de active, înregistrate în evidența contabilă începând cu data de 1 ianuarie 2025, respectiv începând cu prima zi a anului fiscal modificat",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Conține o eroare de redactare în lista veniturilor excluse din impozit: cuvântul „necorporale;” apare izolat, lăsând punctul (iv) neterminat și baza fiscală neclară.",
+      "article": "art. unic pct. 5",
+      "quote": "(iii) veniturile aferente costurilor serviciilor în curs de execuție;\n\nnecorporale;\n\n(iv) veniturile din producția de imobilizări corporale și\n\n(v) veniturile din subvenții;",
+      "weight": 3
+    },
+    {
+      "text": "Modifică în cursul anului formula de calcul a impozitului aplicată cumulat de la începutul anului fiscal, afectând predictibilitatea fiscală pentru firme.",
+      "article": "art. unic pct. 5",
+      "quote": "ICAS - impozit specific pe cifra de afaceri, determinat cumulat de la începutul anului fiscal/anului fiscal modificat până la sfârșitul trimestrului/anului de calcul;",
+      "weight": 2
+    },
+    {
+      "text": "Impune impozitul pe cifra de afaceri și firmelor străine fără sediu permanent în România, ocolind convențiile de evitare a dublei impuneri și riscând litigii.",
+      "article": "art. unic pct. 8",
+      "quote": "5. La articolul 46², după alineatul (13) se introduc nouă noi alineate, alin.(14)-(22), cu următorul cuprins:",
+      "weight": 2
+    },
+    {
+      "text": "Introduce cota redusă de TVA doar pentru bateriile vândute în kit fotovoltaic, nu și separat, printr-un amendament adăugat unei ordonanțe cu alt obiect.",
+      "article": "art. unic pct. 1 și pct. 9",
+      "quote": "6. La articolul 291, alineatul (3⁶) punctul 2, litera a) se modifică și va avea următorul cuprins:",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Corectarea erorii materiale de redactare de la pct. 5 (alin. 2 pct. iv) și asigurarea că noua formulă cumulată nu dezavantajează retroactiv contribuabilii pentru trimestrele deja încheiate.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "plx-359-2025",
+  "billId": "PL-x 359/2025",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-09T09:37:38.877Z",
+  "inputHash": "7f3a17ef9587",
+  "riskScore": 5.5,
+  "summary": "Un scop legitim de descurajare a impostorilor, compromis de înăsprirea disproporționată și nediferențiată a pedepsei pentru orice abatere de autorizare.",
+  "good": [
+    {
+      "text": "Crește pedeapsa cu închisoarea la 1–5 ani pentru cei care practică ilegal profesii importante (precum falșii medici sau avocați), descurajând mai ferm înșelarea cetățenilor.",
+      "article": "art. unic (art. 348 Cod penal)",
+      "quote": "dacă legea specială prevede că săvârșirea unor astfel de fapte se sancționează potrivit legii penale, se pedepsește cu închisoare de la unu la 5 ani.",
+      "weight": 2
+    },
+    {
+      "text": "Majorarea maximului pedepsei peste 1 an urcă automat termenul de prescripție de la 3 la 5 ani, oferind anchetatorilor mai mult timp să finalizeze dosarele complexe.",
+      "article": "art. unic (art. 348 Cod penal)",
+      "quote": "săvârșirea unor astfel de fapte se sancționează potrivit legii penale, se pedepsește cu închisoare de la unu la 5 ani.",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Elimină complet amenda penală și impune exclusiv închisoare (1–5 ani), fără a diferenția între impostorii periculoși și abaterile minore de autorizare care nu produc niciun prejudiciu.",
+      "article": "art. unic (art. 348 Cod penal)",
+      "quote": "dacă legea specială prevede că săvârșirea unor astfel de fapte se sancționează potrivit legii penale, se pedepsește cu închisoare de la unu la 5 ani.",
+      "weight": 3
+    },
+    {
+      "text": "Fixarea maximului la 5 ani atinge pragul procedural care permite arestarea preventivă și interceptările telefonice, măsuri excesive pentru simple nereguli în exercitarea unei activități.",
+      "article": "art. unic (art. 348 Cod penal)",
+      "quote": "săvârșirea unor astfel de fapte se sancționează potrivit legii penale, se pedepsește cu închisoare de la unu la 5 ani.",
+      "weight": 3
+    },
+    {
+      "text": "Pedeapsa mărită se aplică oricărei activități din legi speciale și formulei vagi „în alte condiții decât cele legale”, riscând să penalizeze dur simple dispute de competență profesională.",
+      "article": "art. unic (art. 348 Cod penal)",
+      "quote": "Exercitarea, fără drept, a unei profesii sau activități pentru care legea cere autorizație ori exercitarea acestora în alte condiții decât cele legale",
+      "weight": 2
+    },
+    {
+      "text": "Motivarea invocă prescripția de 5 ani și evitarea renunțării la urmărire penală, însă prescripția creștea și la un maxim de 2 ani, iar renunțarea rămâne permisă pentru pedepse până la 7 ani.",
+      "article": "art. unic (art. 348 Cod penal)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Păstrarea amenzii penale ca alternativă în forma de bază (cu maxim de 2–3 ani închisoare) și introducerea unei forme agravate doar pentru fapte repetate sau profesii ce implică sănătatea ori justiția.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 5,
+    "verified": 5
+  }
+}

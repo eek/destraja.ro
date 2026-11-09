@@ -1,0 +1,83 @@
+{
+  "slug": "plx-194-2025",
+  "billId": "PL-x 194/2025",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-09T09:36:32.549Z",
+  "inputHash": "9545b74d3a18",
+  "riskScore": 2.3,
+  "summary": "O măsură binevenită de digitalizare a instanțelor, care economisește timpul și banii părților la termenele de amânare, dar are câteva lacune procedurale ușor de corectat.",
+  "good": [
+    {
+      "text": "Permite participarea prin videoconferință la începutul ședinței pentru cauzele care se amână fără discuții, economisind timpul și banii părților.",
+      "article": "art. unic (art. 220 alin. (2))",
+      "quote": "asupra stării cauzei și a posibilității de a participă la termenul de judecată prin videoconferință. Dacă cel puțin una dintre părți optează în acest sens, cauza se discută la începutul ședinței prin videoconferință",
+      "weight": 3
+    },
+    {
+      "text": "Părțile sunt anunțate cu cel puțin două zile înainte că procesul este în stare de amânare, evitând deplasări inutile până la instanță.",
+      "article": "art. unic (art. 220 alin. (2))",
+      "quote": "Grefierul de ședință încunoștiințează părțile telefonic cu cel puțin două zile înainte de termenul de judecată, dacă acestea au înaintat instanței datele corespunzătoare în acest scop, asupra stării cauzei",
+      "weight": 3
+    },
+    {
+      "text": "Participarea online este opțională și nu cere acordul adversarului, care poate alege în continuare să vină fizic în sala de judecată.",
+      "article": "art. unic (art. 220 alin. (2))",
+      "quote": "Dacă cel puțin una dintre părți optează în acest sens, cauza se discută la începutul ședinței prin videoconferință, chiar dacă cealaltă parte participă la judecată la sediul instanței.",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Impune grefierului să anunțe părțile doar telefonic, ignorând comunicarea mult mai rapidă și ușor de dovedit prin e-mail sau SMS.",
+      "article": "art. unic (art. 220 alin. (2))",
+      "quote": "Grefierul de ședință încunoștiințează părțile telefonic cu cel puțin două zile înainte de termenul de judecată, dacă acestea au înaintat instanței datele corespunzătoare în acest scop",
+      "weight": 2
+    },
+    {
+      "text": "Nu stabilește cum și până când își exprimă partea opțiunea pentru videoconferință și nici cum se consemnează apelul telefonic al grefierului.",
+      "article": "art. unic (art. 220 alin. (2))",
+      "quote": "Dacă cel puțin una dintre părți optează în acest sens, cauza se discută la începutul ședinței prin videoconferință, chiar dacă cealaltă parte participă la judecată la sediul instanței.",
+      "weight": 2
+    },
+    {
+      "text": "Obligă toate instanțele să asigure videoconferința fără a ține cont dacă sala are echipamente funcționale (13% din instanțe au încă lipsuri).",
+      "article": "art. unic (art. 220 alin. (2))",
+      "quote": "Dacă cel puțin una dintre părți optează în acest sens, cauza se discută la începutul ședinței prin videoconferință, chiar dacă cealaltă parte participă la judecată la sediul instanței.",
+      "weight": 2
+    },
+    {
+      "text": "Nu prevede ce se întâmplă dacă la termen apar cereri noi care cer dezbateri pe loc sau dacă conexiunea video se întrerupe.",
+      "article": "art. unic (art. 220 alin. (2))",
+      "quote": "Instanța identifică înaintea termenului de judecată cauzele prevăzute la alin.(1). Grefierul de ședință încunoștiințează părțile telefonic cu cel puțin două zile înainte de termenul de judecată",
+      "weight": 2
+    },
+    {
+      "text": "Ordinea strigării cauzelor este neclară: legea le plasează la începutul ședinței, dar expunerea de motive le pune după amânările din sală.",
+      "article": "art. unic (art. 220 alin. (2))",
+      "quote": "Dacă cel puțin una dintre părți optează în acest sens, cauza se discută la începutul ședinței prin videoconferință, chiar dacă cealaltă parte participă la judecată la sediul instanței.",
+      "weight": 1
+    },
+    {
+      "text": "Textul adoptat de Senat conține o greșeală gramaticală („posibilității de a participă” în loc de „posibilității de a participa”).",
+      "article": "art. unic (art. 220 alin. (2))",
+      "quote": "dacă acestea au înaintat instanței datele corespunzătoare în acest scop, asupra stării cauzei și a posibilității de a participă la termenul de judecată prin videoconferință.",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Completarea articolului unic prin includerea comunicării prin e-mail sau SMS, stabilirea unui termen pentru exprimarea opțiunii, condiționarea de dotarea tehnică disponibilă și corectarea dezacordului gramatical.",
+    "removes": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.8
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "b614-2026",
+  "billId": "B614/2026",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-09T09:31:51.390Z",
+  "inputHash": "164047e6a2df",
+  "riskScore": 2,
+  "summary": "O lege utilă și echilibrată care extinde firesc dreptul șoferilor de categoria B la motociclete ușoare cu cutie manuală, având doar mici neajunsuri tehnice și de tranziție ușor de corectat.",
+  "good": [
+    {
+      "text": "Permite șoferilor cu categoria B să conducă și motociclete ușoare (A1) cu cutie manuală, nu doar scutere automate, dacă fac cursul practic de 10 ore pe o motocicletă manuală.",
+      "article": "art. I (art. 24¹ alin. (2) lit. g²))",
+      "quote": "În cazul în care cursul de pregătire practică a fost efectuat pe o motocicletă cu transmisie manuală, valabilitatea se extinde atât la motociclete cu transmisie manuală, cât și la motociclete cu transmisie automată.",
+      "weight": 3
+    },
+    {
+      "text": "Menține toate condițiile de siguranță rutieră (vârsta de 24 de ani, 2 ani experiență la categoria B, limitele de putere) și limitează la cutie automată pe cei instruiți pe automată.",
+      "article": "art. I (art. 24¹ alin. (2) lit. g²))",
+      "quote": "În cazul în care cursul de pregătire practică a fost efectuat pe o motocicletă cu transmisie automată, valabilitatea este limitată la motociclete cu transmisie automată.",
+      "weight": 2
+    },
+    {
+      "text": "Obligă înscrierea electronică a tipului de cutie de viteze în registrele oficiale, astfel încât poliția poate verifica rapid în trafic ce fel de motocicletă are voie să conducă șoferul.",
+      "article": "art. I (art. 24¹ alin. (2) lit. g²))",
+      "quote": "Adeverința obținută menționează tipul transmisiei motocicletei pe care s-a efectuat pregătirea practică și se înscrie în Registrul național al cursanților gestionat de către Autoritatea Rutieră Română",
+      "weight": 2
+    },
+    {
+      "text": "Protejează drepturile câștigate: adeverințele obținute înainte de intrarea în vigoare a legii rămân valabile pentru conducerea motocicletelor și scuterelor cu transmisie automată.",
+      "article": "art. II",
+      "quote": "Adeverințele eliberate anterior intrării în vigoare a prezentei legi rămân valabile și conferă dreptul de a conduce motociclete cu transmisie automată.",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Îi obligă pe cei care au făcut deja cele 10 ore pe cutie automată să refacă integral încă 10 ore pentru trecerea la cutie manuală, fără un curs redus doar pentru folosirea ambreiajului.",
+      "article": "art. II",
+      "quote": "Extinderea valabilității la motociclete cu transmisie manuală se obține prin efectuarea, în cadrul unei unități autorizate de pregătire a conducătorilor de vehicule, a pregătirii practice",
+      "weight": 2
+    },
+    {
+      "text": "Acordă ministerului 60 de zile pentru actualizarea normelor după intrarea în vigoare a legii, timp în care școlile auto nu au încă procedura și programa pentru cursurile pe cutie manuală.",
+      "article": "art. III",
+      "quote": "În termen de 60 de zile de la data intrării în vigoare a prezentei legi, ministrul transporturilor și infrastructurii modifică în mod corespunzător Ordinul ministrului transporturilor și infrastructurii nr. 1.783/2024",
+      "weight": 2
+    },
+    {
+      "text": "Nu definește clar diferența tehnică dintre cutia manuală și cea automată (prezența manetei de ambreiaj), lăsând neclară încadrarea motocicletelor semiautomate în școli și la control.",
+      "article": "art. I (art. 24¹ alin. (2) lit. g²))",
+      "quote": "permisele de conducere eliberate pentru categoria B sunt valabile și pentru motociclete cu cilindree maximă de 125 cmc, cu puterea maximă de 11 kW și cu un raport putere/greutate de cel mult 0,1 kW/kg",
+      "weight": 1
+    },
+    {
+      "text": "Trimite greșit la modificarea Ordinului nr. 1.783/2024 (care este doar un ordin de modificare) în loc să ceară modificarea directă a ordinului de bază nr. 733/2013 privind școlile auto.",
+      "article": "art. III",
+      "quote": "modifică în mod corespunzător Ordinul ministrului transporturilor și infrastructurii nr. 1.783/2024, privind modificarea și completarea anexelor nr. 1 și 3 la Ordinul ministrului transporturilor nr. 733/2013",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Prevederea unui modul scurt de diferență pentru posesorii actuali de adeverințe, corelarea intrării în vigoare cu actualizarea Ordinului de bază nr. 733/2013 și definirea transmisiei manuale prin prezența manetei de ambreiaj.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.5
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

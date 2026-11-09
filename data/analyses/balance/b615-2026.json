@@ -1,0 +1,70 @@
+{
+  "slug": "b615-2026",
+  "billId": "B615/2026",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-09T09:31:56.273Z",
+  "inputHash": "5ed1ecbcb0f8",
+  "riskScore": 2.3,
+  "summary": "O măsură fiscală justificată și bine țintită pentru protejarea sportului cu motor, cu mici lacune de redactare și de procedură ușor de corectat.",
+  "good": [
+    {
+      "text": "Scutește de impozitul special mașinile de competiții, al căror preț ridicat provine din dotările obligatorii de siguranță, nu din caracterul de lux.",
+      "article": "art. unic",
+      "quote": "Fac excepție de la plata acestui impozit autovehiculele destinate exclusiv competițiilor sportive",
+      "weight": 3
+    },
+    {
+      "text": "Impune trei condiții cumulative stricte, inclusiv mențiunea în cartea de identitate care restricționează circulația pe drumurile publice, blocând deghizarea mașinilor de lux în mașini de raliu.",
+      "article": "art. unic",
+      "quote": "omologate în acest scop de federația sportivă de specialitate și care au înscrisă această destinație în cartea de identitate a vehiculului.",
+      "weight": 3
+    },
+    {
+      "text": "Aplică scutirea nediscriminatoriu atât persoanelor fizice, cât și persoanelor juridice, fără a favoriza anumite cluburi sau structuri sportive.",
+      "article": "art. unic",
+      "quote": "persoanele fizice și persoanele juridice care au în proprietate autoturisme înmatriculate/înregistrate în România a căror valoare de achiziție individuală depășește 375.000 lei.",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Condiția omologării de către „federația sportivă de specialitate” este vagă, neprecizând instituția exactă sau recunoașterea omologărilor internaționale FIA, ceea ce poate crea blocaje la ANAF.",
+      "article": "art. unic",
+      "quote": "Fac excepție de la plata acestui impozit autovehiculele destinate exclusiv competițiilor sportive, omologate în acest scop de federația sportivă de specialitate",
+      "weight": 2
+    },
+    {
+      "text": "Nu prevede recalcularea sau plata impozitului dacă proprietarul schimbă destinația mașinii din cartea de identitate în mașină obișnuită de stradă în interiorul perioadei de 5 ani.",
+      "article": "art. unic",
+      "quote": "Impozitul se datorează pe o perioadă de 5 ani începând cu anul fiscal în care are loc predarea-primirea autoturismului sau pentru fracțiunea de ani rămasă până la împlinirea perioadei de 5 ani",
+      "weight": 2
+    },
+    {
+      "text": "Reducerea veniturilor bugetare nu este calculată concret, expunerea de motive bazându-se doar pe o estimare nedovedită de 50-60 de vehicule, fără calcule financiare.",
+      "article": "Expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Conține erori de redactare („Articol unic Art.I.-”, confuzie între modificare și completare) și rescrie integral articolul existent, riscând conflicte cu alte modificări ale Codului fiscal.",
+      "article": "art. unic",
+      "quote": "Articol unic Art.I.- Legea nr.227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I, nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare, se completează după cum urmează:",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Clarificarea documentelor și a autorităților de omologare acceptate (inclusiv FIA), impozitarea proporțională dacă destinația din CIV se schimbă în primii 5 ani și corectarea tehnicii legislative.",
+    "removes": [
+      0,
+      1,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.5
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 6
+  }
+}

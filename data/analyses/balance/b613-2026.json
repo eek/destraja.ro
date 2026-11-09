@@ -1,0 +1,95 @@
+{
+  "slug": "b613-2026",
+  "billId": "B613/2026",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-09T09:32:17.623Z",
+  "inputHash": "0f338c797531",
+  "riskScore": 4.5,
+  "summary": "Un proiect cu scop legitim de protejare a banilor partidelor, dar care suferă de interdicții prea largi și de lipsa unei proceduri clare de aplicare.",
+  "good": [
+    {
+      "text": "Interzice liderilor centrali de partid să fie și angajați ai partidului, oprind practica prin care șefii politici își votează singuri salarii din banii formațiunii.",
+      "article": "art. I (art. 13¹ alin. (1))",
+      "quote": "Persoanele care exercită funcții de conducere în cadrul organului executiv de la nivel central al partidului politic nu pot avea, pe durata exercitării acestor funcții, calitatea de salariat al partidului politic.",
+      "weight": 3
+    },
+    {
+      "text": "Interzice și plățile indirecte, onorariile sau avantajele primite prin filialele locale, blocând ocolirea legii prin contracte de consultanță sau firme interpuse.",
+      "article": "art. I (art. 13¹ alin. (2))",
+      "quote": "nu pot primi, direct sau indirect, de la partidul politic ori de la organizațiile sale territoriale remunerații, indemnizații, onorarii ori alte sume, foloase sau avantaje cu caracter patrimonial",
+      "weight": 2
+    },
+    {
+      "text": "Aplică aceleași interdicții și liderilor interimari, prevenind ocolirea legii prin menținerea artificială a conducerii partidului în regim de interimat.",
+      "article": "art. I (art. 13¹ alin. (6))",
+      "quote": "Prevederile alin. (1) – (5) se aplică și persoanelor care exercită interimar, potrivit statutului partidului politic, atribuțiile funcțiilor prevăzute la alin. (1).",
+      "weight": 2
+    },
+    {
+      "text": "Permite decontarea cheltuielilor justificate făcute în interesul partidului, astfel încât liderii să nu fie nevoiți să achite din buzunar costurile de organizare.",
+      "article": "art. I (art. 13¹ alin. (3))",
+      "quote": "Interdicția prevăzută la alin. (2) nu se aplică restituirii sau decontării cheltuielilor efectuate în interesul partidului politic și justificate potrivit legii",
+      "weight": 2
+    },
+    {
+      "text": "Acordă termene rezonabile (30 de zile la numire, 90 de zile pentru funcțiile actuale) pentru ca liderii să aleagă între funcția politică și contractul plătit.",
+      "article": "art. II alin. (1)",
+      "quote": "au obligația de a înlătura situația de incompatibilitate în termen de 90 de zile de la data intrării în vigoare a prezentei legi.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Interzice orice plată chiar și din cotizații sau donații private, ceea ce poate exclude de la conducerea partidelor oamenii care nu au averi sau alte surse de venit.",
+      "article": "art. I (art. 13¹ alin. (1) și (2))",
+      "quote": "remunerații, indemnizații, onorarii ori alte sume, foloase sau avantaje cu caracter patrimonial, indiferent de natura, denumirea ori temeiul juridic al acordării acestora, inclusiv pentru exercitarea funcției de conducere.",
+      "weight": 3
+    },
+    {
+      "text": "Prevede că mandatul de lider încetează de drept, dar nu desemnează nicio instituție (precum AEP sau Tribunalul) care să constate incompatibilitatea și să aplice măsura.",
+      "article": "art. I (art. 13¹ alin. (5))",
+      "quote": "În cazul în care situația de incompatibilitate nu este înlăturată în termenul prevăzut la alin. (4), calitatea de titular al funcției prevăzute la alin. (1) încetează de drept la expirarea termenului.",
+      "weight": 3
+    },
+    {
+      "text": "Termenul de 30 de zile și încetarea mandatului vizează doar incompatibilitățile existente la preluarea funcției, fără o sancțiune clară dacă banii sunt primiți ulterior.",
+      "article": "art. I (art. 13¹ alin. (4) și (5))",
+      "quote": "Persoana care, la data dobândirii unei funcții prevăzute la alin. (1), se află într-una dintre situațiile prevăzute la alin. (1) sau (2) are obligația de a înlătura situația de incompatibilitate în termen de 30 de zile",
+      "weight": 2
+    },
+    {
+      "text": "Interzicerea oricăror alte sume indiferent de temeiul juridic este prea vagă și poate bloca plăți legitime, precum restituirea unui împrumut acordat legal partidului.",
+      "article": "art. I (art. 13¹ alin. (2))",
+      "quote": "ori alte sume, foloase sau avantaje cu caracter patrimonial, indiferent de natura, denumirea ori temeiul juridic al acordării acestora",
+      "weight": 2
+    },
+    {
+      "text": "Permite folosirea fără plafon a bunurilor și serviciilor partidului, lăsând loc pentru mascarea unor beneficii personale (mașini de lux, locuințe) ca cheltuieli de serviciu.",
+      "article": "art. I (art. 13¹ alin. (3))",
+      "quote": "precum și folosirii bunurilor și serviciilor puse la dispoziție de partidul politic exclusiv pentru exercitarea atribuțiilor funcției.",
+      "weight": 2
+    },
+    {
+      "text": "Nu definește clar ce înseamnă funcție de conducere în organul executiv central, lăsând loc de interpretări privind simplii membri votanți ai birourilor naționale.",
+      "article": "art. I (art. 13¹ alin. (1))",
+      "quote": "Persoanele care exercită funcții de conducere în cadrul organului executiv de la nivel central al partidului politic nu pot avea",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Limitarea interdicției la plățile din subvenții publice, excluderea restituirii datoriilor legale și desemnarea autorității care constată încetarea mandatului (inclusiv pe parcursul acestuia).",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 11,
+    "verified": 11
+  }
+}

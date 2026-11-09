@@ -1,0 +1,15 @@
+# PARLAMENTUL ROMÂNIEI SENAT
+
+## L E G E
+
+privind aprobarea Ordonanței de urgență a Guvernului nr.39/2025 pentru asigurarea finanțării obiectivului de investiții „Sediu nou pentru Spitalul de Urgență «Prof. Dr. Dimitrie Gerota»”
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.39 din 8 august 2025 pentru asigurarea finanțării obiectivului de investiții „Sediu nou pentru Spitalul de Urgență «Prof. Dr. Dimitrie Gerota», publicată în Monitorul Oficial al României, Partea I, nr.746 din 8 august 2025.
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 15 septembrie 2025, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+PREȘEDINTEIKAȘENATULUI
+
+MIRCEA ABRUDEAN

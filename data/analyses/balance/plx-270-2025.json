@@ -1,0 +1,75 @@
+{
+  "slug": "plx-270-2025",
+  "billId": "PL-x 270/2025",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-09T09:37:06.426Z",
+  "inputHash": "38f63225e3f7",
+  "riskScore": 2.3,
+  "summary": "O măsură punctuală și utilă pentru deblocarea cofinanțării unui spital nou din PNRR, realizată însă printr-o derogare bugetară și cu mici neclarități de redactare.",
+  "good": [
+    {
+      "text": "Asigură până la 250 de milioane de lei pentru cofinanțarea noului sediu al Spitalului „Prof. Dr. Dimitrie Gerota”, prevenind blocarea proiectului din PNRR.",
+      "article": "art. 1 din OUG",
+      "quote": "să asigure, în anul 2025, finanțare publică națională reprezentând contribuția proprie a beneficiarului obiectivului de investiții „Sediu nou pentru Spitalul de Urgență «Prof. Dr. Dimitrie Gerota»\"",
+      "weight": 3
+    },
+    {
+      "text": "Folosește un excedent deja existent din vânzarea plăcuțelor de înmatriculare, fără a introduce taxe noi și fără a pune presiune suplimentară pe bugetul de stat.",
+      "article": "art. 1 din OUG",
+      "quote": "din sume provenite din excedentul activității finanțate integral din venituri proprii de confecționare și valorificare a plăcilor cu numere de înmatriculare cu fond reflectorizant",
+      "weight": 2
+    },
+    {
+      "text": "Permite reportarea banilor necheltuiți la finalul lui 2025 în anul 2026, dar păstrează obligatorie destinația lor exclusivă pentru construcția noului spital.",
+      "article": "art. 3 din OUG",
+      "quote": "Sumele rămase neutilizate la sfârșitul anului 2025 se reportează în anul următor la nivelul Spitalului de Urgență «Prof. Dr. Dimitrie Gerota»",
+      "weight": 2
+    },
+    {
+      "text": "Stabilește un termen scurt, de 5 zile lucrătoare, și contul bugetar exact pentru virarea banilor către spital, prevenind întârzierile birocratice.",
+      "article": "art. 2 din OUG",
+      "quote": "în contul de venituri bugetare al Spitalului de Urgență «Prof. Dr. Dimitrie Gerota», corespunzător subdiviziunii de venituri bugetare 40.15.03 „Sume utilizate de alte instituții din excedentul anului precedent\".",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Derogă de la Legea finanțelor publice pentru a lua excedentul unei activități autofinanțate din banii șoferilor și a-l muta la o altă instituție din subordinea MAI.",
+      "article": "art. 2 din OUG",
+      "quote": "In termen de 5 zile lucrătoare de la data intrării în vigoare a prezentei ordonanțe de urgență, prin derogare de la prevederile art. 68 alin. (4) din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare",
+      "weight": 2
+    },
+    {
+      "text": "Art. 1 fixează doar un plafon maxim („în limita sumei”), dar art. 2 cere virarea „sumei prevăzute la art. 1”, fără a preciza cine și cum stabilește suma exactă transferată.",
+      "article": "art. 1 și art. 2 din OUG",
+      "quote": "Direcția Generală Permise de Conducere și Înmatriculări virează suma prevăzută la art.1, din contul de excedent al anilor precedenți al activității finanțate integral din venituri proprii",
+      "weight": 1
+    },
+    {
+      "text": "Suma de 250 milioane lei acoperă doar o parte din contribuția proprie de 816 milioane lei necesară proiectului, fără a clarifica de unde va fi acoperit restul cofinanțării.",
+      "article": "art. 1 din OUG",
+      "quote": "înființată pe lângă Direcția Generală Permise de Conducere și Înmatriculări, în limita sumei de 250.000 mii lei.",
+      "weight": 1
+    },
+    {
+      "text": "Nu prevede restituirea către DGPCI a eventualelor sume rămase necheltuite după finalizarea investiției în 2026 și nici raportarea separată a cheltuirii acestui fond.",
+      "article": "art. 3 din OUG",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Clarificarea modului de stabilire a sumei exacte virate în limita plafonului la art. 2 și obligarea la restituirea eventualelor sume rămase neutilizate la finalizarea investiției la art. 3.",
+    "removes": [
+      1,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

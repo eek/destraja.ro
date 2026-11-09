@@ -1,0 +1,89 @@
+{
+  "slug": "plx-418-2025",
+  "billId": "PL-x 418/2025",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-09T09:38:44.107Z",
+  "inputHash": "9c6c24b6cf68",
+  "riskScore": 3,
+  "summary": "Un proiect cu intenție bună pentru autonomia energetică a spitalelor, dar redactat neglijent, cu o contradicție între caracterul opțional al investiției și obligația folosirii ei în crize.",
+  "good": [
+    {
+      "text": "Încurajează spitalele județene și regionale să își producă și să stocheze singure energia verde, reducând facturile și dependența de rețea.",
+      "article": "art. unic pct. 1 (art. 6¹ alin. (1))",
+      "quote": "(1) Unitățile sanitare publice, organize la nivel județean și regional, pot să își asigure necesarul de energie electrică pentru autoconsum din cel puțin o sursă de energie regenerabilă, prin sisteme proprii de producție și stocare a energiei,",
+      "weight": 2
+    },
+    {
+      "text": "Permite finanțarea instalațiilor de energie verde și a bateriilor pentru spitale atât din fonduri europene, cât și din bugetul de stat.",
+      "article": "art. unic pct. 1 (art. 6¹ alin. (4))",
+      "quote": "(4) Finanțarea acestor măsuri se realizează din fonduri europene, bugetul de stat, precum și din alte surse legale.",
+      "weight": 2
+    },
+    {
+      "text": "Prioritizează montarea panourilor fotovoltaice pe acoperișurile și terenurile de lângă spitale, valorificând spațiile disponibile.",
+      "article": "art. unic pct. 1 (art. 6¹ alin. (2))",
+      "quote": "(2) Sursele regenerabile de energie utilizate includ, cu prioritate, energia solară produsă prin panouri fotovoltaice instalate pe acoperișuri sau terenuri adiacente unităților sanitare organizate la nivel județean și regional.",
+      "weight": 1
+    },
+    {
+      "text": "Obligă Guvernul să elaboreze în 6 luni normele de aplicare, necesare pentru stabilirea detaliilor tehnice ale investițiilor.",
+      "article": "art. unic pct. 2",
+      "quote": "2. În termen de 6 luni de la intrarea în vigoare a prezentei legi, Guvernul României aprobă prin hotărâre normele metodologice de punere în aplicare a prezentei legi.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Contradicție: instalarea panourilor și a bateriilor este opțională („pot”), dar folosirea lor în caz de criză este obligatorie („trebuie”), chiar și pentru spitalele care nu le au.",
+      "article": "art. unic pct. 1 (art. 6¹ alin. (1) și (3))",
+      "quote": "unitățile sanitare publice prevăzute de alin.(1) al prezentului articol trebuie să asigure continuitatea autonomă a alimentării cu energie electrică produsă prin surse regenerabile și stocată în baterii la nivel local și prin sisteme de rezervă.",
+      "weight": 3
+    },
+    {
+      "text": "Eroare tehnică: leagă obligația doar de avarii în rețeaua de transport, deși spitalele sunt racordate la rețelele de distribuție, unde apar majoritatea penelor de curent.",
+      "article": "art. unic pct. 1 (art. 6¹ alin. (3))",
+      "quote": "precum și în orice alte situații de forță majoră care determină imposibilitatea furnizării de energie electrică din rețeaua publică de transport a energiei electrice, unitățile sanitare publice prevăzute de alin.(1)",
+      "weight": 2
+    },
+    {
+      "text": "Cere alimentarea autonomă a întregului spital din panouri și baterii în situații de criză, fără a limita cerința la secțiile și aparatura medicală critică.",
+      "article": "art. unic pct. 1 (art. 6¹ alin. (3))",
+      "quote": "trebuie să asigure continuitatea autonomă a alimentării cu energie electrică produsă prin surse regenerabile și stocată în baterii la nivel local și prin sisteme de rezervă.",
+      "weight": 2
+    },
+    {
+      "text": "Definește neclar spitalele vizate („la nivel județean și regional”), lăsând pe dinafară spitalele municipale, orășenești sau institutele medicale naționale.",
+      "article": "art. unic pct. 1 (art. 6¹ alin. (1))",
+      "quote": "(1) Unitățile sanitare publice, organize la nivel județean și regional, pot să își asigure necesarul de energie electrică pentru autoconsum din cel puțin o sursă de energie regenerabilă,",
+      "weight": 2
+    },
+    {
+      "text": "Permite cheltuieli de la bugetul de stat fără o estimare a costurilor de investiție și întreținere, contrazicând motivarea care susține că impactul bugetar este zero.",
+      "article": "art. unic pct. 1 (art. 6¹ alin. (4))",
+      "quote": "(4) Finanțarea acestor măsuri se realizează din fonduri europene, bugetul de stat, precum și din alte surse legale.",
+      "weight": 1
+    },
+    {
+      "text": "Conține erori de redactare în forma adoptată tacit de Senat: cuvântul „organize” în loc de „organizate” și virgulă în loc de punct la finalul alineatului.",
+      "article": "art. unic pct. 1 (art. 6¹ alin. (1))",
+      "quote": "(1) Unitățile sanitare publice, organize la nivel județean și regional, pot să își asigure necesarul de energie electrică pentru autoconsum din cel puțin o sursă de energie regenerabilă, prin sisteme proprii de producție și stocare a energiei,",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Corelarea alin. (1) și (3) astfel încât obligația din crize să vizeze doar consumatorii critici din spitalele deja dotate, la orice pană din rețeaua publică, și corectarea erorilor de redactare.",
+    "removes": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

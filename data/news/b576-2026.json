@@ -1,9 +1,9 @@
 {
   "slug": "b576-2026",
   "billId": "B576/2026",
-  "checkedAt": "2026-11-06T09:26:14.578Z",
+  "checkedAt": "2026-11-09T10:22:59.440Z",
   "models": {
-    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
+    "agy": "ok",
     "claude": "ok",
     "codex": "ok"
   },
@@ -53,6 +53,50 @@
       }
     },
     {
+      "url": "https://www.libertatea.ro/stiri/codul-urbanismului-se-schimba-reguli-noi-terenuri-cladiri-istorice-si-constructii-fara-autorizatie-z66kd8t",
+      "title": "Codul Urbanismului se schimbă din nou: regulile pentru terenuri, clădiri istorice și construcții fără autorizație",
+      "outlet": "Libertatea",
+      "domain": "libertatea.ro",
+      "publishedAt": "2026-10-21",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Inițiativa legislativă, propusă de fostul ministru al dezvoltării, senatorul Cseke Attila, aduce schimbări în reglementarea terenurilor fără documentații urbanistice valabile, în procesul de autorizare a lucrărilor la monumentele istorice, în sancționarea construcțiilor ilegale, dar și în calcularea procentului de ocupare a terenului (POT) de către construcții, conform Profit.ro.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-09",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-09",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.915,
+            "source": "national_news",
+            "sourceP": 0.917,
+            "about": 0.997,
+            "release": 0.165
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.85,
+            "source": "trade_press",
+            "sourceP": 0.479,
+            "about": 0.798,
+            "release": 0.378
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.96,
+            "source": "national_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
+    },
+    {
       "url": "https://www.profit.ro/perspective/schimbari-legislative-pentru-firme/schimbari-codul-urbanismului-lansat-reclamat-corectat-sanctionarea-constructiei-neautorizate-functie-legea-vigoare-reguli-privind-terenuri-planuri-lucrari-cladiri-istorice-calcularea-suprafetei-unei-22862774",
       "title": "Schimbări în Codul urbanismului. Abia lansat, dar reclamat, va fi corectat: Sancționarea construcției neautorizate, în funcție de legea în vigoare. Noi reguli privind terenuri fără planuri, lucrări la clădiri istorice, c",
       "outlet": "Profit.ro",
@@ -60,9 +104,10 @@
       "publishedAt": "2026-10-21",
       "foundBy": [
         "claude",
-        "codex"
+        "codex",
+        "agy"
       ],
-      "quote": "Proiectul, analizat de Profit.ro, a fost inițiat acum chiar de către fostul ministru al Dezvoltării, senatorul Cseke",
+      "quote": "Proiectul, analizat de Profit.ro, a fost inițiat acum chiar de către fostul ministru al Dezvoltării, senatorul Cseke Attila",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -93,6 +138,50 @@
             "sourceP": 0.54,
             "about": 0.997,
             "release": 0.037
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.sfin.ro/modificari-codul-urbanismului",
+      "title": "Modificări propuse pentru Codul urbanismului",
+      "outlet": "Săptămâna Financiară",
+      "domain": "sfin.ro",
+      "publishedAt": "2026-10-21",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Intrat în vigoare la 25 august, Codul urbanismului ar urma să fie modificat printr-un proiect de act normativ inițiat la scurt timp după apariția legii.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-09",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-09",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.96,
+            "source": "trade_press",
+            "sourceP": 0.605,
+            "about": 0.977,
+            "release": 0.037
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.916,
+            "source": "trade_press",
+            "sourceP": 0.65,
+            "about": 0.438,
+            "release": 0.085
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.96,
+            "source": "trade_press",
+            "sourceP": 0.79,
+            "about": 0.98,
+            "release": 0.01
           }
         }
       }
@@ -188,6 +277,50 @@
       }
     },
     {
+      "url": "https://stiriconstructii.ro/stiri/codul-urbanismului-autorizari-simplificate-si-clarificarea-calculului-pot",
+      "title": "Codul urbanismului: autorizări simplificate, POT",
+      "outlet": "StiriConstructii.ro",
+      "domain": "stiriconstructii.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Propunerea legislativă a senatorului Cseke Attila ar introduce autorizări simplificate pe fronturi construite și reguli mai clare pentru calculul POT.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-09",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-09",
+        "text": "pagina",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.974,
+            "source": "trade_press",
+            "sourceP": 0.928,
+            "about": 0.998,
+            "release": 0.045
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.927,
+            "source": "trade_press",
+            "sourceP": 0.732,
+            "about": 0.798,
+            "release": 0.245
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.98,
+            "source": "trade_press",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
       "url": "https://www.constructiv.ro/2026/10/codul-urbanismului-modificat-dupa-intrarea-in-vigoare-reguli-noi-pentru-constructiile-fara-autorizatie-si-calculul-pot",
       "title": "Codul urbanismului, modificat după intrarea în vigoare: reguli noi pentru construcțiile fără autorizație și calculul POT",
       "outlet": "constructiv.ro",
@@ -198,7 +331,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Un proiect legislativ inițiat de senatorul UDMR Cseke Attila, fost ministru al Dezvoltării, urmărește clarificarea unor prevederi care au generat dificultăți de interpretare pentru autoritățile locale și pentru cei care doresc să construiască.",
+      "quote": "Proiectul propune enumerarea explicită a categoriilor de titulari care pot solicita autorizarea lucrărilor.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -285,7 +418,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Proiectul reglementează și situația unităților administrativ-teritoriale pentru care nu a existat un PUG aprobat anterior celui anulat.",
+      "quote": "Una dintre cele mai importante modificări ale Codului Urbanismului, prevăzută în proiectul de lege înaintat de senatorul Cseke Attila, vizează localitățile ale căror planuri urbanistice generale (PUG) au fost anulate definitiv de instanțele judecătorești sau care nu mai au documentații de urbanism valabile (fișier atasat la finalul știrii).",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -329,7 +462,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Codul Urbanismului, intrat în vigoare pe 25 august, ar urma să fie modificat, potrivit unui proiect de lege propus de Cseke Attila, parlamentar UDMR (fișier atasat la finalul știrii).",
+      "quote": "Codul Urbanismului, intrat în vigoare pe 25 august, ar urma să fie modificat, potrivit unui proiect de lege propus de Cseke Attila, parlamentar UDMR",
       "match": "quote",
       "decision": {
         "v": 2,

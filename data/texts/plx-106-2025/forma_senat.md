@@ -1,0 +1,17 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+privind aprobarea Ordonanței de urgență a Guvernului nr.9/2025 pentru reglementarea unor măsuri referitoare la unele proiecte de extindere și schimbare a destinației, conversia sau modernizarea rețelelor de transport și distribuție a gazelor naturale, pentru modificarea și completarea unor acte normative, precum și pentru abrogarea Hotărârii Guvernului nr.1.261/2024 privind aprobarea finanțării din Fondul pentru mediu a proiectelor de extindere și schimbare a destinației, conversia sau modernizarea rețelelor de transport și distribuție a gazelor
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.9 din 6 martie 2025 pentru reglementarea unor măsuri referitoare la unele proiecte de extindere și schimbare a destinației, conversia sau modernizarea rețelelor de transport și distribuție a gazelor naturale, pentru modificarea și completarea unor acte normative, precum și pentru abrogarea Hotărârii Guvernului nr.1.261/2024 privind aprobarea finanțării din Fondul pentru mediu a proiectelor de extindere și schimbare a destinației, conversia sau modernizarea rețelelor de transport și distribuție a gazelor, publicată în Monitorul Oficial al României, Partea I, nr.203 din 7 martie 2025.
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 115 alineatul (5) teza a III-a din Constituția României, republicată.
+
+p. PREȘEDINTEÆ SENATULUI
+
+MIRCEA ABRI DEAN

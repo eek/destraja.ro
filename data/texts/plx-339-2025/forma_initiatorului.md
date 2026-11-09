@@ -1,0 +1,21 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+L E G E pentru modificarea Legii nr. 143/2000, republicată, privind prevenirea și combaterea traficului și consumului ilicit de droguri
+
+## Parlamentul României adoptă prezenta lege:
+
+Articol unic – Legea nr. 143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri, republicată, se modifică după cum urmează:
+
+După alin. (2) al art. 2 din Legea nr. 143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri, republicată în Monitorul Oficial al României, Partea I, nr. 163 din 6 martie 2014, cu modificările și completările ulterioare, se introduce un nou alineat, alin. (3), cu următorul cuprins:
+
+(3) Traficul ilicit de droguri, indiferent de clasificarea substanței ca fiind de risc sau de mare risc, săvârșit în scop comercial, inclusiv prin distribuție, vânzare sau intermediere, se sancționează conform prevederilor alin. (2).
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI

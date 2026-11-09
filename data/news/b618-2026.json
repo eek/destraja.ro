@@ -2,7 +2,7 @@
   "slug": "b618-2026",
   "billId": "B618/2026",
   "checkedAt": "2026-11-05T10:05:23.169Z",
-  "indexCheckedAt": "2026-11-06T14:37:42.773Z",
+  "indexCheckedAt": "2026-11-09T09:42:03.027Z",
   "models": {
     "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
     "claude": "ok",
@@ -99,6 +99,50 @@
       }
     },
     {
+      "url": "https://jurnalul.ro/bani-afaceri/economia/adio-facturi-mari-electricitate-panouri-fotovoltaice-permise-balcon-1048767.html",
+      "title": "Adio facturi mari la electricitate! Panourile fotovoltaice, permise și în balcon",
+      "outlet": "Jurnalul",
+      "domain": "jurnalul.ro",
+      "publishedAt": "2026-11-06",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Un proiect de lege inițiat de Asociația Prosumatorilor propune ca proprietarii de apartamente să poată instala în balcon până la patru panouri fotovoltaice și o baterie de stocare, conectate la instalația electrică a locuinței.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-09",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-09",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.692,
+            "source": "national_news",
+            "sourceP": 0.878,
+            "about": 0.887,
+            "release": 0.015
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.822,
+            "source": "trade_press",
+            "sourceP": 0.324,
+            "about": 0.378,
+            "release": 0.068
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.87,
+            "source": "national_news",
+            "sourceP": 0.94,
+            "about": 0.98,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
       "url": "https://newsweek.ro/actualitate/romanii-si-ar-putea-reduce-facturile-la-curent-cu-peste-50-solutia-pentru-romanii-care-locuiesc-la-bloc",
       "title": "Românii și-ar putea reduce facturile la curent cu peste 50%. Soluția pentru românii care locuiesc la bloc • Newsweek România",
       "outlet": "Newsweek România",
@@ -137,6 +181,50 @@
             "source": "national_news",
             "sourceP": 0.95,
             "about": 0.94,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.stirilekanald.ro/video-panouri-fotovoltaice-la-bloc-doua-proiecte-de-lege-ar-putea-reduce-facturile-locatarilor-20549862",
+      "title": "VIDEO Panouri fotovoltaice la bloc. Două proiecte de lege ar putea reduce facturile locatarilor",
+      "outlet": "Știrile Kanal D",
+      "domain": "stirilekanald.ro",
+      "publishedAt": "2026-11-06",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Două proiecte de lege depuse în Parlament propun instalarea panourilor fotovoltaice atât pe balcoanele apartamentelor, cât și pe acoperișurile blocurilor, prin intermediul asociațiilor de proprietari.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-09",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-09",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.541,
+            "source": "national_news",
+            "sourceP": 0.973,
+            "about": 0.86,
+            "release": 0.019
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.697,
+            "source": "national_news",
+            "sourceP": 0.507,
+            "about": 0.531,
+            "release": 0.037
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.86,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
             "release": 0.01
           }
         }
@@ -182,6 +270,50 @@
             "sourceP": 0.78,
             "about": 0.72,
             "release": 0.02
+          }
+        }
+      }
+    },
+    {
+      "url": "https://tvrinfo.ro/proiect-de-lege-pentru-panouri-fotovoltaice-pe-balcoane",
+      "title": "Proiect de lege pentru panouri fotovoltaice pe balcoane - tvrinfo.ro",
+      "outlet": "TVR Info",
+      "domain": "tvrinfo.ro",
+      "publishedAt": "2026-11-06",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Peste 6,5 milioane de români care locuiesc la bloc ar putea să beneficieze de curentul electric produs de panourile fotovoltaice montate pe balcon, potrivit proiectului de lege depus de curând în Senat.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-09",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-09",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.713,
+            "source": "national_news",
+            "sourceP": 0.978,
+            "about": 0.988,
+            "release": 0.026
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.65,
+            "source": "national_news",
+            "sourceP": 0.466,
+            "about": 0.881,
+            "release": 0.148
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.94,
+            "source": "national_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.01
           }
         }
       }

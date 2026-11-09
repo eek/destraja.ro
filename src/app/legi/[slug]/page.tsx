@@ -31,6 +31,8 @@ import { citation } from '@/lib/export';
 import BillAvize from '@/components/bills/BillAvize';
 import { getRelatedActs, relatedCount } from '@/lib/related';
 import RelatedActs, { RelatedActsLink } from '@/components/bills/RelatedActs';
+import BillHappenings from '@/components/bills/BillHappenings';
+import { getBillHistory, senateHappenings, withdrawn } from '@/lib/istoric';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -77,6 +79,18 @@ export default async function BillDetailPage({ params }: PageProps) {
   const builtOn = todayISO();
   const lite = toLite(bill);
   const c = bill.analysis.consensus;
+  const history = await getBillHistory(slug);
+  // Ce s-a întâmplat de la analiză încoace; analiza e pe forma inițiatorului.
+  const analysedOn = bill.analysis.updatedAt?.slice(0, 10) ?? builtOn;
+  const happenings = senateHappenings(bill, history, analysedOn, (name) => {
+    const s = slugs.get(name.trim());
+    return s ? `/parlamentari/${s}` : null;
+  });
+  const textMoved = bill.timeline.some((t) => t.date.split('-').reverse().join('-') >= analysedOn && /raport|adoptat|respins|forma/i.test(t.action));
+  const happeningsNote = `De la analiza noastră din ${formatDateRo(analysedOn)}, făcută pe forma inițiatorului. ${
+    textMoved ? 'Între timp au apărut documente oficiale despre text, mai jos.' : 'Textul oficial nu s-a schimbat de atunci.'
+  }`;
+  const gone = withdrawn(bill, history);
 
   const byParty: Record<string, typeof bill.initiators> = {};
   for (const init of bill.initiators) {
@@ -157,6 +171,8 @@ export default async function BillDetailPage({ params }: PageProps) {
             )}
           </div>
         </header>
+
+        <BillHappenings items={happenings} note={happeningsNote} builtOn={builtOn} billId={bill.id} />
 
         <ModelsVerdict score={c.riskScore} level={c.riskLevel} summary={c.summaryTlDr} council={bill.analysis.council}>
           {corrected && (
@@ -347,6 +363,18 @@ export default async function BillDetailPage({ params }: PageProps) {
                   </ul>
                 </div>
               ))}
+              {gone.length > 0 && (
+                <div>
+                  <h3 className="text-xs font-semibold text-muted">Și-au retras semnătura ({gone.length})</h3>
+                  <ul className="mt-2 flex flex-wrap gap-1.5">
+                    {gone.map((g) => (
+                      <li key={g.nume} className="inline-flex rounded-md border border-line px-2.5 py-1 text-xs text-muted">
+                        <strong className="font-semibold text-body">{g.nume}</strong>&nbsp;· {[g.partid, `pe ${formatDateRo(g.data)}`].filter(Boolean).join(' · ')}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
           </details>
 

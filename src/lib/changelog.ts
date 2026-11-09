@@ -28,6 +28,21 @@ export interface ChangeDay {
 
 export const CHANGELOG: ChangeDay[] = [
   {
+    date: '2026-11-09',
+    items: [
+      {
+        kind: 'nou',
+        title: 'Ce s-a mai întâmplat cu un proiect',
+        text: 'Sus pe pagina fiecărui proiect vezi ce s-a petrecut de la analiza noastră încoace: avizele noi, cine și-a retras semnătura sau s-a alăturat inițiatorilor (cu numele și partidul, nu doar „se aprobă retragerea”), forma nouă a textului când apare și schimbările anunțate public de cei care decid, marcate „anunțat, încă neoficial”, cu publicațiile care le-au relatat. Anunțurile le scoate ChatGPT din articolele de presă verificate, doar cu un citat găsit cuvânt cu cuvânt în articol. Lista inițiatorilor arată și cine a plecat.',
+        link: { href: '/legi/b563-2026#intamplat', label: 'Vezi ce s-a mai întâmplat cu B563/2026' },
+        shot: {
+          id: '2026-11-09-intamplat',
+          alt: 'Caseta „Ce s-a mai întâmplat” la B563/2026: aviz negativ de la CES pe 5 noiembrie, Rodica Cușnir s-a alăturat inițiatorilor și Simona Spătaru (USR) și Adrian Cozma (PNL) și-au retras semnătura pe 2 noiembrie, iar pe 29 octombrie senatorul Daniel Fenechiu a anunțat, încă neoficial, că modificările Codului civil ies din proiect, relatat de Capital, G4Media și Jurnalul.',
+        },
+      },
+    ],
+  },
+  {
     date: '2026-11-08',
     items: [
       {

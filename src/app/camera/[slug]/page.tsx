@@ -40,6 +40,8 @@ import BillVotes from '@/components/bills/BillVotes';
 import { getBillVotes } from '@/lib/votes';
 import { getRelatedActs, relatedCount } from '@/lib/related';
 import RelatedActs, { RelatedActsLink } from '@/components/bills/RelatedActs';
+import BillHappenings from '@/components/bills/BillHappenings';
+import { chamberHappenings, getBillHistory } from '@/lib/istoric';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -87,6 +89,12 @@ export default async function CameraBillPage({ params }: PageProps) {
   const f = bill.fisa;
   const c = analysis?.consensus;
   const builtOn = todayISO();
+  // Ce s-a întâmplat de la analiză încoace (pașii din fișă, forma nouă comparată, anunțurile din presă); la proiectele încă
+  // neanalizate, în ultimele 30 de zile.
+  const analysedOn = analysis?.updatedAt?.slice(0, 10) ?? null;
+  const since = analysedOn ?? new Date(Date.parse(`${builtOn}T12:00:00Z`) - 30 * 864e5).toISOString().slice(0, 10);
+  const happenings = chamberHappenings(bill, await getBillHistory(slug), since, versions);
+  const happeningsNote = analysedOn ? `De la analiza noastră din ${formatDateRo(analysedOn)}.` : 'În ultimele 30 de zile. Proiectul nu are încă analiza noastră.';
   const stage = stageOf(bill.stadiu);
   const atChamber = ['comisii', 'raport', 'plen', 'altele'].includes(stage);
   // Proiectele din anii trecuți încă în dezbatere (scripts/straja-cdep-vechi.mjs): anul înregistrării se vede lângă număr.
@@ -237,6 +245,8 @@ export default async function CameraBillPage({ params }: PageProps) {
         {f.consultare && (
           <Consultation c={f.consultare} builtOn={builtOn} billId={bill.numar} />
         )}
+
+        <BillHappenings items={happenings} note={happeningsNote} builtOn={builtOn} billId={bill.numar} />
 
         {c && analysis && (
           <ModelsVerdict score={c.riskScore} level={c.riskLevel} council={analysis.council}>

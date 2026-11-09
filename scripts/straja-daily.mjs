@@ -217,6 +217,13 @@ async function main() {
       if (!stance.ok) summary.push('clasificarea presei a eșuat');
     }
 
+    if (!args.has('--skip-news')) {
+      // Ce s-a mai întâmplat: inițiatorii intrați sau ieșiți (din fișele Senatului) și schimbările anunțate în articolele
+      // noi, citite de GPT; cel mult 20 de apeluri pe zi, restul a doua zi.
+      const istoric = await step('Ce s-a mai întâmplat', 'node', ['scripts/straja-istoric.mjs', '--max=20'], { timeoutMs: 1_800_000 });
+      if (!istoric.ok) summary.push('„ce s-a mai întâmplat” a eșuat');
+    }
+
     if (!args.has('--skip-mps')) {
       // Fișele deputaților trec prin pauza de un minut a cdep.ro: în fiecare zi cei noi și cel mult 15 fișe mai vechi de
       // 3 săptămâni, nu toate lunea (991 de inițiatori nu mai încap în 30 de minute; pe 2 și 9 noiembrie, oprit la 51 și 65).

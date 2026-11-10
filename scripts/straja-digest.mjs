@@ -27,6 +27,9 @@
 // Pauză: o dată AAAA-LL-ZZ în .cache/email-paused-until oprește trimiterea până în ziua aceea inclusiv. Evidența nu se
 // mută, așa că prima ediție de după pauză cuprinde și noutățile din zilele oprite.
 //
+// Date de ieri: --send trimite doar dacă lista Senatului a fost citită azi (straja-sync.mjs notează ziua în
+// .cache/senat-sync-day). Altfel se oprește cu eroare, fără să mute evidența, iar noutățile pleacă la ediția următoare.
+//
 // Evidență veche: după mai mult de 7 zile fără nicio ediție (o pauză, o oprire rămasă nerezolvată), --send nu mai trimite
 // de la sine tot ce s-a strâns, la toată lista. Se oprește cu eroare și cere o alegere: --anunt=<nume> (un anunț care
 // explică, apoi noutățile), --tot (ediția strânsă, așa cum e) sau --de-azi (nimic, și o luăm de la zi).
@@ -67,6 +70,8 @@ const pendingFile = LOCAL ? path.join(ROOT, '.cache', 'digest-pending-local.json
 const DAY = argv.find((a) => a.startsWith('--day='))?.slice(6) ?? new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Bucharest' }).format(new Date());
 
 const PAUSE_FILE = path.join(ROOT, '.cache', 'email-paused-until');
+// Ziua ultimei sincronizări reușite a listei Senatului (scripts/straja-sync.mjs).
+const SYNC_DAY_FILE = path.join(ROOT, '.cache', 'senat-sync-day');
 const ANUNT = argv.find((a) => a.startsWith('--anunt='))?.slice(8) ?? null;
 const ANUNT_DIR = path.join(ROOT, 'email', 'anunturi');
 // De la câte zile fără ediție nu mai trimitem de la sine ce s-a strâns: un weekend lung încape, o pauză nu.
@@ -833,6 +838,14 @@ async function main() {
   if (!LOCAL && /^\d{4}-\d{2}-\d{2}$/.test(pausedUntil) && today <= pausedUntil) {
     console.log(`⏸ Trimiterea e oprită până pe ${pausedUntil} inclusiv (${path.relative(ROOT, PAUSE_FILE)}); nu trimitem nimic și nu mutăm evidența.`);
     return;
+  }
+  // Fără lista Senatului citită azi, ediția ar pleca cu datele de ieri: proiecte noi lipsă, termene numărate greșit.
+  // O ediție începută se reia oricum: pleacă cea salvată de site, nu una făcută din datele de acum.
+  const syncDay = fs.existsSync(SYNC_DAY_FILE) ? fs.readFileSync(SYNC_DAY_FILE, 'utf8').trim() : '';
+  if (!LOCAL && !resume && syncDay !== today) {
+    throw new Error(
+      `Lista Senatului n-a fost citită azi (${syncDay ? `ultima sincronizare reușită: ${syncDay}` : 'nicio sincronizare notată'}); nu trimitem nimic și nu mutăm evidența. Întâi: node scripts/straja-sync.mjs`,
+    );
   }
   if (stale) throw new Error(stale);
   // La reluare pleacă doar nivelurile ediției începute: Worker-ul le are salvate și le trimite celor care n-au primit-o.

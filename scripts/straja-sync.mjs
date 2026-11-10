@@ -13,6 +13,8 @@ const DATA_DIR = path.join(ROOT_DIR, 'data');
 const PDF_DIR = path.join(DATA_DIR, 'pdfs');
 const TEXT_DIR = path.join(DATA_DIR, 'texts');
 const BILLS_FILE = path.join(DATA_DIR, 'senat-bills.json');
+// Ziua ultimei sincronizări reușite a întregii liste: fără ea de azi, straja-digest.mjs nu trimite alertele.
+const SYNC_DAY_FILE = path.join(ROOT_DIR, '.cache', 'senat-sync-day');
 
 fs.mkdirSync(DATA_DIR, { recursive: true });
 fs.mkdirSync(PDF_DIR, { recursive: true });
@@ -464,6 +466,10 @@ async function main() {
   }
 
   writeFileAtomic(BILLS_FILE, JSON.stringify(enriched, null, 2));
+  if (!targetFilter) {
+    fs.mkdirSync(path.dirname(SYNC_DAY_FILE), { recursive: true });
+    writeFileAtomic(SYNC_DAY_FILE, todayBucharest() + '\n');
+  }
   console.log(`\n🎉 Salvat ${enriched.length} proiecte în ${BILLS_FILE}`);
 }
 

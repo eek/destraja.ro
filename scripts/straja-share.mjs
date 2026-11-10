@@ -5,6 +5,7 @@
 //
 //   node scripts/straja-share.mjs          → ops/share/camera-AAAA-LL-ZZ.png (și .html)
 //   node scripts/straja-share.mjs --site   → ops/share/site-AAAA-LL-ZZ.png: imaginea postării de lansare, cu ambele camere
+//   --nota="…"                             cu --site: rândul de sub „Actualizat pe …” (implicit „Am adăugat și Camera Deputaților”)
 //
 // CHROME_BIN schimbă calea spre Chrome (implicit cea de pe macOS).
 import fs from 'node:fs';
@@ -20,6 +21,7 @@ const CHROME = process.env.CHROME_BIN || '/Applications/Google Chrome.app/Conten
 const DAY = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Bucharest' }).format(new Date());
 const SIZE = { width: 1080, height: 1350 };
 const TOP = 5;
+const NOTE = process.argv.find((a) => a.startsWith('--nota='))?.slice(7) || 'Am adăugat și Camera Deputaților';
 
 // Culorile temei întunecate a site-ului (src/app/globals.css).
 const OG = { bg: '#1b2230', deep: '#141a25', ink: '#eef0f5', body: '#cdd3de', muted: '#9ca5b5', line: '#333d51', brand: '#bccaee' };
@@ -168,7 +170,7 @@ const siteHtml = `<!doctype html>
 <body>
   <div class="head">
     <img src="${lightLogo}" width="230" height="78" alt="destrajă.ro">
-    <div class="upd"><b>Actualizat pe ${longDay}</b><p>Am adăugat și Camera Deputaților</p></div>
+    <div class="upd"><b>Actualizat pe ${longDay}</b><p>${esc(NOTE)}</p></div>
   </div>
   <h1><span class="m">Stăm de strajă.</span><span class="k">Să știi ce se pregătește.</span></h1>
   <p class="sub">Proiectele de lege din Senat și din Camera Deputaților, citite de Gemini, Claude și ChatGPT. Pe înțelesul tuturor.</p>

@@ -16,8 +16,9 @@
 // 6. rapoartele cititorilor din D1 (straja-reports)
 // 7. memoriile .docx pentru proiectele noi sau corectate (straja-docx <slug>…)
 // 8. verificări, migrațiile D1, build și publicare pe Cloudflare
-// 9. ediția zilnică a alertelor pe e-mail, doar după o publicare reușită (straja-digest --send); o ediție rămasă
-//    neterminată dintr-o zi trecută pleacă întâi, iar cea de azi așteaptă până pleacă aceea toată
+// 9. ediția zilnică a alertelor pe e-mail, doar după o publicare reușită și doar dacă lista Senatului a fost citită
+//    azi (straja-digest --send); o ediție rămasă neterminată dintr-o zi trecută pleacă întâi, iar cea de azi așteaptă
+//    până pleacă aceea toată
 // 10. commit cu datele zilei (doar data, public/docs și public/email, și doar de pe main), apoi push pe GitHub, după ce
 //    preia ce s-a aprobat între timp prin PR. Commit-urile și legătura cu GitHub trec prin 1Password: când e blocat
 //    apare o notificare și mai încercăm de trei ori, la zece minute. Ce rămâne necomis îl comite rularea următoare,
@@ -329,6 +330,7 @@ async function sendDigest(anunt, summary, fail) {
   if (anunt && sent?.sent > 0) fs.rmSync(ANUNT_FILE, { force: true });
   const pause = pausedUntil(digest.tail);
   if (pause) summary.push(`alerte pe pauză până pe ${pause}`);
+  else if (/Lista Senatului n-a fost citită azi/.test(digest.tail)) fail('alertele n-au plecat: lista Senatului n-a fost citită azi');
   else if (/Evidența e din/.test(digest.tail)) fail('alertele n-au plecat: evidența e-mailurilor e veche și cere o alegere (--anunt=<nume>, --tot sau --de-azi; vezi jurnalul)');
   else if (!digest.ok && sent) fail(`alerte oprite de serviciul de e-mail (${sent.stopped}): ${sent.sent} trimise, ${sent.remaining} rămase; se reiau la rularea următoare`);
   else if (!digest.ok) fail('alertele NU au plecat');
@@ -571,7 +573,10 @@ async function main() {
       if (deploy.ok) {
         const results = await step('Rezultatele rapoartelor', 'node', ['scripts/straja-reports.mjs', '--notify']);
         if (!results.ok) fail('rezultatele rapoartelor n-au plecat');
-        await sendDigest(anunt, summary, fail);
+        // Fără lista Senatului de azi ediția ar pleca cu datele de ieri (10 noiembrie: rețeaua a lipsit la pornire și
+        // pasul de e-mail a rulat oricum). Evidența nu se mută, deci noutățile pleacă la rularea următoare.
+        if (sync.ok) await sendDigest(anunt, summary, fail);
+        else fail('alertele n-au plecat: lista Senatului n-a fost citită azi');
       }
     }
 

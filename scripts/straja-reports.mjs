@@ -35,6 +35,7 @@ import { MODEL_KEYS, runModel } from './lib/ai-cli.mjs';
 import { readCdepIndex } from './lib/cdep-index.mjs';
 import { SITE } from '../email/layout.mjs';
 import { reportResultEmail } from '../email/report-result.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -369,7 +370,7 @@ async function triageReport(report, bills) {
     if (report.target === 'consensus') propagate(analysis, patches);
     analysis.corrections = [...(analysis.corrections ?? []), { date: new Date().toISOString(), target: report.target, reportId: report.id }];
     analysis.updatedAt = new Date().toISOString();
-    fs.writeFileSync(file, JSON.stringify(analysis, null, 2), 'utf8');
+    writeFileAtomic(file, JSON.stringify(analysis, null, 2));
   }
   return { status: 'fixed', votes, triage, patches, reasons };
 }
@@ -464,7 +465,7 @@ async function backfillExplanations() {
         changed = true;
       }
     }
-    if (changed) fs.writeFileSync(file, JSON.stringify(data, null, 2) + '\n', 'utf8');
+    if (changed) writeFileAtomic(file, JSON.stringify(data, null, 2) + '\n');
   }
 }
 
@@ -478,7 +479,7 @@ function savePublic(bill, entry) {
   }
   else data.items.push(entry);
   fs.mkdirSync(REPORTS_DIR, { recursive: true });
-  fs.writeFileSync(file, JSON.stringify(data, null, 2) + '\n', 'utf8');
+  writeFileAtomic(file, JSON.stringify(data, null, 2) + '\n');
 }
 
 function digestEntry(report, result) {

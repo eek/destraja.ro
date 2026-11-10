@@ -22,7 +22,8 @@
 //   Senat   fișa proiectului (legis/lista.aspx?nr_cls=L…&an_cls=…) are la „adoptat/respins de Senat” linkul către
 //           https://www.senat.ro/VoturiPlenDetaliu.aspx?AppID=<GUID>: totalurile, pe grupuri și lista nominală. Pentru
 //           proiectele Camerei venite de la Senat (sau trimise apoi la Senat) citim fișa Senatului doar când fișa Camerei
-//           arată o decizie a Senatului care nu e tacită; pentru cele urmărite de la Senat, după termenul consultării.
+//           arată o decizie a Senatului care nu e tacită; pentru cele urmărite de la Senat, după termenul consultării:
+//           zilnic până la primul vot, apoi în ritmul din straja-sync (senatRereadDays), până la un stadiu final.
 //   Comisiile nu votează nominal: din rapoartele deja descărcate de straja-amendments (.cache/cdep-reports) păstrăm
 //           fraza în care raportul spune cu ce majoritate a hotărât comisia.
 //
@@ -35,7 +36,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { CdepBlocked, fetchCdep, parseSheet, parseVote, voteUrl } from './lib/cdep.mjs';
-import { fetchSenat, parseSenatSheetVotes, parseSenatVote, senatNumber, senatSheetUrl } from './lib/senat-votes.mjs';
+import { fetchSenat, parseSenatSheetVotes, parseSenatVote, senatNumber, senatRereadDays, senatSheetUrl } from './lib/senat-votes.mjs';
+import { todayBucharest } from './lib/web.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -131,12 +134,16 @@ const index = readJson(path.join(DATA, 'cdep', 'index.json'), { proiecte: [] });
 const senatBills = readJson(path.join(DATA, 'senat-bills.json'), []);
 const contacts = readJson(path.join(DATA, 'mp-contacts.json'), {});
 const state = readJson(STATE_FILE, { cdep: {}, senat: {} });
-const saveState = () => fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 1));
+const saveState = () => writeFileAtomic(STATE_FILE, JSON.stringify(state, null, 1));
 
 // Parlamentarii după fișa oficială: idm la Cameră, ParlamentarID la Senat → numele de pe site → slug-ul paginii.
+// Două nume pot duce la aceeași fișă (ordinea inversă, un prenume în minus): rămâne cel potrivit cel mai sigur.
+const RULES = ['exact', 'ordine', 'prenume', 'aproximativ'];
+const sure = (c) => RULES.indexOf(c.matchedBy) + 1 || RULES.length + 1;
 const byIdm = new Map();
 const bySenatorId = new Map();
-for (const [name, c] of Object.entries(contacts)) {
+for (const [name, c] of Object.entries(contacts).sort(([, a], [, b]) => sure(b) - sure(a))) {
+  if (!c.matched) continue;
   const idm = c.source?.match(/structura2015\.mp\?idm=(\d+)/)?.[1];
   if (idm && c.chamber === 'cdep') byIdm.set(Number(idm), name);
   const guid = c.source?.match(/ParlamentarID=([0-9a-f-]{36})/i)?.[1];
@@ -201,7 +208,7 @@ function cachedSenatSheet(page) {
   }
   return null;
 }
-const today = new Date().toISOString().slice(0, 10);
+const today = todayBucharest();
 for (const b of senatBills) {
   const page = pageOf(b.slug, 'legi');
   page.bill = b;
@@ -297,7 +304,7 @@ async function cdepPhase() {
           log(`  ✗ fișa ${w.sheet.numar}: pagina nu arată ca o fișă; o lăsăm`);
           continue;
         }
-        fs.writeFileSync(path.join(SHEET_HTML, `${w.sheet.slug}.html`), html);
+        writeFileAtomic(path.join(SHEET_HTML, `${w.sheet.slug}.html`), html);
         refs = cdepRefs(w.sheet).refs;
         log(`  fișa ${w.sheet.numar}: ${refs.length} ${refs.length === 1 ? 'vot' : 'voturi'}`);
       }
@@ -309,7 +316,7 @@ async function cdepPhase() {
           log(`  ✗ votul ${r.idv} (${w.sheet.numar}): pagina nu arată ca un vot; o lăsăm`);
           continue;
         }
-        fs.writeFileSync(file, html);
+        writeFileAtomic(file, html);
         log(`  vot ${r.idv} · ${w.sheet.numar} · ${r.data}`);
         if (++fetched % 10 === 0) rebuild();
       }
@@ -330,8 +337,12 @@ async function senatPhase() {
     if (!p.senat) return false;
     const cached = cachedSenatSheet(p);
     const age = cached ? mtime(cached.file) : 0;
-    // Proiectele urmărite de la Senat: o dată pe zi, până apare votul din plen.
-    if (p.senat.recheck) return !(cached && parseSenatSheetVotes(cached.html).length) && Date.now() - age > 20 * HOUR;
+    // Proiectele urmărite de la Senat: o dată pe zi, până apare votul din plen. După primul vot fișa se recitește mai
+    // departe, în ritmul din straja-sync: votul final poate veni mai târziu (reexaminare, întoarcere de la Cameră).
+    if (p.senat.recheck) {
+      const voted = cached && parseSenatSheetVotes(cached.html).length > 0;
+      return Date.now() - age > (voted ? senatRereadDays(p.bill) : 1) * 24 * HOUR - 4 * HOUR;
+    }
     if (BACKFILL) return age < Math.max(Date.parse(p.senat.since ?? 0) || 0, Date.now() - 20 * HOUR);
     return state.senat[p.slug]?.since !== p.senat.since;
   });
@@ -343,7 +354,7 @@ async function senatPhase() {
       for (const c of p.senat.candidates) {
         const page = await senat(c.url);
         if (!/rptDerulare|Derularea procedurii|SE-row/i.test(page)) continue; // niciun proiect cu numărul ăsta
-        fs.writeFileSync(path.join(SENAT_SHEETS, `${c.key}.html`), page);
+        writeFileAtomic(path.join(SENAT_SHEETS, `${c.key}.html`), page);
         if (senatSheetFits(page, p)) {
           html = page;
           break;
@@ -355,7 +366,7 @@ async function senatPhase() {
         if (cachedPage(file)) continue;
         const detail = await senat(r.url);
         if (!/VOTUL ELECTRONIC/i.test(detail)) throw new Error(`votul ${r.appId} nu arată ca un vot`);
-        fs.writeFileSync(file, detail);
+        writeFileAtomic(file, detail);
       }
       state.senat[p.slug] = { since: p.senat.since, at: new Date().toISOString() };
       saveState();
@@ -520,7 +531,7 @@ function rebuild() {
       votes: list,
     };
     const body = (x) => stringify({ ...x, updatedAt: null });
-    if (!before || body(before) !== body(data)) fs.writeFileSync(outFile, stringify({ ...data, updatedAt: new Date().toISOString() }));
+    if (!before || body(before) !== body(data)) writeFileAtomic(outFile, stringify({ ...data, updatedAt: new Date().toISOString() }));
     counts.pages += list.length ? 1 : 0;
     for (const v of list) counts[v.chamber]++;
   }

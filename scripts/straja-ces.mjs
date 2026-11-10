@@ -8,6 +8,7 @@ import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { runModel } from './lib/ai-cli.mjs';
 import { textName } from './lib/pdf-text.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const BILLS_FILE = path.join(ROOT, 'data', 'senat-bills.json');
@@ -101,7 +102,7 @@ for (const bill of bills) {
   const text = txtPath && fs.existsSync(txtPath) ? fs.readFileSync(txtPath, 'utf8') : '';
   if (!text) {
     // Senatul a trecut avizul în cronologie, dar PDF-ul nu e încă publicat.
-    fs.writeFileSync(outPath, JSON.stringify({ ...base, reasons: [], checkedAt: new Date().toISOString() }, null, 2) + '\n');
+    writeFileAtomic(outPath, JSON.stringify({ ...base, reasons: [], checkedAt: new Date().toISOString() }, null, 2) + '\n');
     console.log(`${bill.id}: aviz nr. ${opinion.number ?? '?'}, textul nu e încă publicat`);
     continue;
   }
@@ -131,7 +132,7 @@ for (const bill of bills) {
       break;
     }
   }
-  fs.writeFileSync(outPath, JSON.stringify({ ...base, reasons, model, textHash: hash, checkedAt: new Date().toISOString() }, null, 2) + '\n');
+  writeFileAtomic(outPath, JSON.stringify({ ...base, reasons, model, textHash: hash, checkedAt: new Date().toISOString() }, null, 2) + '\n');
   written++;
 }
 console.log(`✅ ${written} avize CES rezumate`);

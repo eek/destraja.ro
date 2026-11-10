@@ -4,6 +4,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { clean } from './cdep.mjs';
+import { writeFileAtomic } from './atomic.mjs';
 
 const UA = 'DeStraja/1.0 (+https://destraja.ro; contact@destraja.ro)';
 
@@ -213,8 +214,5 @@ export function statedDate(date, text) {
 
 /** Scrie un JSON întreg sau deloc: o rulare oprită la jumătate nu lasă un fișier stricat. */
 export function writeJsonAtomic(file, data) {
-  fs.mkdirSync(path.dirname(file), { recursive: true });
-  const tmp = `${file}.${process.pid}.tmp`;
-  fs.writeFileSync(tmp, JSON.stringify(data, null, 1) + '\n');
-  fs.renameSync(tmp, file);
+  writeFileAtomic(file, JSON.stringify(data, null, 1) + '\n');
 }

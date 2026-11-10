@@ -20,6 +20,18 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 export const senatSheetUrl = (nr, an) => `${SENAT}/legis/lista.aspx?nr_cls=${nr}&an_cls=${an}`;
 export const senatVoteUrl = (appId) => `${SENAT}/VoturiPlenDetaliu.aspx?AppID=${appId}`;
 
+// Cât de des se recitește fișa unui proiect urmărit de la Senat (straja-sync: fișa întreagă; straja-votes: voturile din
+// plen): zilnic cât s-a mișcat ceva în ultima lună, apoi tot mai rar. După un stadiu final, săptămânal încă două luni
+// (reexaminări, corecturi), apoi deloc.
+const FINAL_STAGE = /retras|respins definitiv|clasat|promulgat|devenit[ăa]? lege|[îi]ncetat/i;
+/** La câte zile recitim fișa proiectului `b` din data/senat-bills.json (Infinity = deloc). */
+export function senatRereadDays(b, now = Date.now()) {
+  const last = (b.timeline ?? []).map((t) => t.date.split('-').reverse().join('-')).sort().at(-1);
+  const idleDays = last ? (now - Date.parse(`${last}T12:00:00Z`)) / 86_400_000 : 0;
+  if (FINAL_STAGE.test(b.stage ?? '')) return idleDays <= 60 ? 7 : Infinity;
+  return idleDays <= 30 ? 1 : idleDays <= 120 ? 3 : idleDays <= 365 ? 7 : 30;
+}
+
 let last = 0;
 /** O pagină de pe senat.ro, la cel puțin PAUSE_MS după cea de dinainte; `quiet` ca la fetchCdep (orele fără rețea). */
 export async function fetchSenat(url, { quiet } = {}) {

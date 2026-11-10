@@ -11,8 +11,8 @@
 //    modele de decizie rulate local, GLiDE și d1-3B (straja-stance)
 // 4. pozițiile organizațiilor (straja-positions --due): proiectele cu risc ridicat sau cu cel mult 3 zile până la
 //    termen zilnic, cele cu risc moderat la 3 zile, restul o dată pe săptămână; cel mult 16 proiecte pe zi
-// 5. datele de contact oficiale ale parlamentarilor (straja-mps): lunea toate fișele, în celelalte zile
-//    doar pentru inițiatorii noi; fără inițiatori noi nu trimite nicio cerere către cdep.ro sau senat.ro
+// 5. datele de contact oficiale ale parlamentarilor (straja-mps): în fiecare zi inițiatorii noi, apoi cel mult 15 fișe
+//    de deputați mai vechi de 3 săptămâni, în pauza comună a cdep.ro
 // 6. rapoartele cititorilor din D1 (straja-reports)
 // 7. memoriile .docx pentru proiectele noi sau corectate (straja-docx <slug>…)
 // 8. verificări, migrațiile D1, build și publicare pe Cloudflare
@@ -32,7 +32,11 @@
 // se șterge după ce anunțul a plecat.
 // Agendele: ordinile de zi ale Senatului le citește VM-ul destraja din 2 în 2 ore (scripts/straja-agenda.mjs); le aducem
 // în data/agenda/senat înainte de build. Gazda prin care ajungem la VM („utilizator@nas”) stă în .cache/agenda-vm, care
-// nu intră în git; fără fișier pasul lipsește, iar dacă VM-ul nu răspunde rămân cele de ieri.
+// nu intră în git; fără fișier pasul lipsește, iar dacă VM-ul nu răspunde rămân cele de ieri. Ordinile de zi ale
+// comisiilor Camerei le citim aici (straja-cdep-agenda → data/agenda/camera), cu pauza comună a cdep.ro.
+// Recitirea fișelor Camerei (scripts/lib/cdep-reread.mjs): cdep.ro n-are flux de noutăți, așa că fișele se recitesc în
+// jurul ședințelor de comisie, după termene și, mai rar, după vârstă. Le citește VM-ul; aici doar îi dăm coada și îi
+// luăm copiile, la începutul și la sfârșitul pașilor Camerei.
 //   --skip-news   fără căutarea în presă
 //   --skip-positions  fără căutarea pozițiilor organizațiilor
 //   --skip-mps    fără datele de contact ale parlamentarilor
@@ -151,8 +155,16 @@ async function main() {
 
     // La o cerere pe minut (cdep.ro, 5 noiembrie), legătura cu Camera are nevoie de 20–40 de minute: listele și fișele
     // proiectelor de la Senat ajunse acolo. Cu 15 minute era oprită înainte să termine (5 și 6 noiembrie).
+    // Întâi, fără nicio fișă cerută de aici: copiile citite de VM de ieri încoace intră în date, iar recitirile
+    // scadente azi (după ordinile de zi de ieri, termene și vârstă) pleacă spre el, ca să citească în timp ce pașii de
+    // mai jos lucrează. Ce aduc ordinile de zi de azi pleacă la „Camera: proiecte”.
+    if (fs.existsSync(AGENDA_VM)) await step('Camera: recitiri către VM', 'node', ['scripts/straja-cdep.mjs', '--max=0'], { timeoutMs: 600_000 });
     const camera = await step('Camera Deputaților', 'node', ['scripts/straja-camera.mjs'], { timeoutMs: 3_600_000 });
     if (!camera.ok) summary.push('legătura cu Camera Deputaților a eșuat');
+    // Ordinile de zi ale comisiilor Camerei: două pagini cu ședințele, apoi PDF-urile noi și cele ale ședințelor de azi
+    // (completările de ultim moment), cel mult 25, câte unul pe minut. Înaintea fișelor, care se recitesc după ele.
+    const cdepAgenda = await step('Camera: ordinile de zi', 'node', ['scripts/straja-cdep-agenda.mjs', '--max=25', '--minute=30'], { timeoutMs: 2_700_000 });
+    if (!cdepAgenda.ok) summary.push('ordinile de zi ale Camerei au rămas de ieri');
     // Proiectele din anii trecuți încă în dezbatere (straja-cdep-vechi): listele anilor 2020–2025 cel mult o dată pe
     // săptămână, fișele doar când lipsesc sau când rândul lor din listă s-a schimbat, cel mult 10 pe zi. În celelalte
     // zile nu cere nimic de la cdep.ro. Analizele lor vin mai jos („Camera: analize”), în aceeași ordine ca anul curent.
@@ -183,8 +195,9 @@ async function main() {
     if (!ces.ok) summary.push('rezumatul avizelor CES a eșuat');
     // Ce spun instituțiile (Guvernul, comisia, Consiliul Legislativ, Consiliul Fiscal) la proiectele de pe ordinea de zi
     // și cu raport: documentele deja citite stau în .cache/avize, deci la model ajung doar cele noi. Cererile la cdep.ro
-    // au pauza comună; ce nu încape în oră rămâne pentru mâine.
-    const avize = await step('Avize', 'node', ['scripts/straja-avize.mjs', '--max=40', '--yield-to=nimic'], { timeoutMs: 3_600_000 });
+    // au pauza comună. Proiectele neverificate și cele schimbate sunt luate primele; după 40 de minute nu mai începe
+    // altele, iar ce rămâne e în față mâine.
+    const avize = await step('Avize', 'node', ['scripts/straja-avize.mjs', '--max=40', '--minute=40', '--yield-to=nimic'], { timeoutMs: 3_600_000 });
     if (!avize.ok) summary.push('avizele instituțiilor au eșuat');
     // Ce e bine și ce strică, pentru proiectele noi și cele cu textul sau scorul schimbat.
     const balance = await step('Ce e bine și ce strică', 'node', ['scripts/straja-balance.mjs', '--risc=toate', '--max=30', '--limita=1800'], { timeoutMs: 3_600_000 });
@@ -260,11 +273,14 @@ async function main() {
       const agenda = await step('Agendele Senatului', 'sh', ['-c', fetchAgenda], { timeoutMs: 120_000 });
       if (!agenda.ok) summary.push('agendele Senatului au rămas de ieri');
     }
-    // Fișele Camerei din anii trecuți citite între timp de VM (scripts/vm/cdep-vm.mjs): HTML-ul vine prin ssh și tar, ca
-    // agendele, și îl citim aici cu același parser; nicio cerere la cdep.ro. Dacă VM-ul nu răspunde, vin mâine.
+    // Fișele Camerei citite între timp de VM (scripts/vm/cdep-vm.mjs), din anul curent și din anii trecuți: HTML-ul vine
+    // prin ssh și tar, ca agendele, și îl citim aici cu același parser; nicio fișă cerută de la cdep.ro. Dacă VM-ul nu
+    // răspunde, vin mâine.
     if (fs.existsSync(AGENDA_VM)) {
-      const vmSheets = await step('Camera: fișele de pe VM', 'node', ['scripts/straja-cdep-vechi.mjs', '--doar-vm'], { timeoutMs: 600_000 });
-      if (!vmSheets.ok) summary.push('fișele Camerei de pe VM au rămas acolo');
+      const vmNow = await step('Camera: fișele de pe VM, anul curent', 'node', ['scripts/straja-cdep.mjs', '--max=0'], { timeoutMs: 600_000 });
+      if (!vmNow.ok) summary.push('fișele Camerei de pe VM au rămas acolo');
+      const vmSheets = await step('Camera: fișele de pe VM, anii trecuți', 'node', ['scripts/straja-cdep-vechi.mjs', '--doar-vm'], { timeoutMs: 600_000 });
+      if (!vmSheets.ok && vmNow.ok) summary.push('fișele Camerei de pe VM au rămas acolo');
     }
 
     const counts = checkData();

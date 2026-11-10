@@ -15,7 +15,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { writeBillTexts } from './lib/pdf-text.mjs';
+import { dropSuperseded, writeBillTexts } from './lib/pdf-text.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PDF_DIR = path.join(ROOT, 'data', 'pdfs');
@@ -30,6 +30,16 @@ const only = args.find((a) => !a.startsWith('--'))?.toLowerCase();
 const mod = await import('pdf-parse/lib/pdf-parse.js');
 const pdfParse = mod.default || mod;
 
+// Documentele din fișa de azi a fiecărui proiect de la Senat: copiile vechi ale acelorași documente ies (dropSuperseded).
+const current = new Map();
+try {
+  for (const b of JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'senat-bills.json'), 'utf8'))) {
+    current.set(b.slug, (b.pdfs ?? []).map((pdf) => `${pdf.type}_${path.basename(pdf.url)}`));
+  }
+} catch {
+  // fără lista Senatului: doar textele
+}
+
 const slugs = fs.readdirSync(PDF_DIR).filter((s) => !s.startsWith('.') && (!only || s.includes(only))).sort();
 const total = slugs.length;
 const methods = {};
@@ -42,11 +52,13 @@ async function worker() {
   for (let slug = slugs.shift(); slug; slug = slugs.shift()) {
     const t0 = Date.now();
     const read = [];
+    const reread = current.has(slug) ? dropSuperseded(path.join(PDF_DIR, slug), current.get(slug)) : [];
     const texts = await writeBillTexts(path.join(PDF_DIR, slug), path.join(TEXT_DIR, slug), {
       pdfParse,
       cacheDir: path.join(ROOT, '.cache', 'ocr'),
       force,
       fresh,
+      reread,
       onDoc: (name, res) => {
         methods[res.method] = (methods[res.method] ?? 0) + 1;
         pages += res.pages || 0;

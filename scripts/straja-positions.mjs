@@ -34,6 +34,7 @@ import {
   billIdRegex, decode, domainOf, fetchPage, isoFromRo, mapLimit, matchDomain, norm, normalizeUrl, pageText, pageTitle, publishedAt, quoteFound,
   todayBucharest, urlKey,
 } from './lib/web.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -288,6 +289,7 @@ async function verify(bill, cand) {
 
   let doc = page?.kind === 'pdf' ? page : null;
   if (!doc && docUrl) {
+    // `docFile` există doar la candidatul dat de mână (--add --doc-file): candidatesFrom() nu-l lasă să vină de la model.
     doc = await load(docUrl, { file: cand.docFile ?? null });
     if (doc.error) {
       if (page?.error) return { status: 'dropped', reason: `${page.error}; documentul: ${doc.error}` };
@@ -430,6 +432,15 @@ function mergePositions(previous, fresh) {
 
 // ---------- un proiect ----------
 
+// Din răspunsul modelului trec mai departe doar câmpurile cerute în prompt. Modelul citește pagini străine, care îl pot
+// păcăli: un „docFile” venit de la el ar face verify() să citească un fișier de pe disc, iar „firstSeenAt” și „alsoAt”
+// ar ajunge în poziția publicată. Acestea vin doar de la noi (--doc-file, --recheck).
+const MODEL_FIELDS = ['issuer', 'issuerType', 'stance', 'documentType', 'title', 'date', 'pageUrl', 'documentUrl', 'quote'];
+const fromModel = (p) => ({
+  ...Object.fromEntries(MODEL_FIELDS.filter((k) => typeof p[k] === 'string').map((k) => [k, p[k]])),
+  ...(Number.isFinite(p.signatories) && { signatories: p.signatories }),
+});
+
 function candidatesFrom(results) {
   const byUrl = new Map();
   const models = {};
@@ -437,10 +448,11 @@ function candidatesFrom(results) {
     const list = r.status === 'ok' && Array.isArray(r.data?.positions) ? r.data.positions : null;
     models[r.model] = r.status === 'ok' ? (list ? 'ok' : 'error: JSON fără „positions”') : `error: ${r.error}`;
     for (const p of (list ?? []).slice(0, MAX_CANDIDATES)) {
-      const url = normalizeUrl(p?.documentUrl) ?? normalizeUrl(p?.pageUrl);
-      if (!url || typeof p !== 'object') continue;
+      if (!p || typeof p !== 'object') continue;
+      const url = normalizeUrl(p.documentUrl) ?? normalizeUrl(p.pageUrl);
+      if (!url) continue;
       const k = `${urlKey(url)}|${p.stance}`;
-      const c = byUrl.get(k) ?? { ...p, foundBy: [] };
+      const c = byUrl.get(k) ?? { ...fromModel(p), foundBy: [] };
       if (!c.foundBy.includes(r.model)) c.foundBy.push(r.model);
       byUrl.set(k, c);
     }
@@ -516,7 +528,7 @@ async function checkBill(bill, { manual = null } = {}) {
     pending,
   };
   fs.mkdirSync(OUT_DIR, { recursive: true });
-  fs.writeFileSync(file, `${JSON.stringify(out, null, 2)}\n`, 'utf8');
+  writeFileAtomic(file, `${JSON.stringify(out, null, 2)}\n`);
   return { out, dropped, candidates: candidates.length, durations, added: positions.filter((p) => !before.has(posKey(p))).length };
 }
 
@@ -598,7 +610,7 @@ async function main() {
   });
 
   fs.mkdirSync(path.dirname(LAST_RUN), { recursive: true });
-  fs.writeFileSync(LAST_RUN, JSON.stringify({ ranAt: new Date().toISOString(), models: MODELS, durationMs: Date.now() - start, bills: summary }, null, 2));
+  writeFileAtomic(LAST_RUN, JSON.stringify({ ranAt: new Date().toISOString(), models: MODELS, durationMs: Date.now() - start, bills: summary }, null, 2));
   const totals = {
     bills: summary.length,
     added: summary.reduce((n, s) => n + s.added, 0),

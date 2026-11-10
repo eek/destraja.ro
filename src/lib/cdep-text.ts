@@ -2,9 +2,12 @@
 
 export type StageKey = 'comisii' | 'raport' | 'plen' | 'altele' | 'senat' | 'promulgare' | 'lege' | 'incheiat';
 
-// Stadiile din lista Camerei, în ordinea drumului. Primele patru înseamnă că proiectul e acum la Cameră.
+// Stadiile din lista Camerei, în ordinea drumului. Primele patru înseamnă că proiectul e acum la Cameră (aceleași ca în
+// AT_CHAMBER din scripts/lib/cdep-index.mjs).
 export const STAGES: { key: StageKey; label: string; match: RegExp; atChamber: boolean }[] = [
-  { key: 'comisii', label: 'La comisii', match: /^la comisii/i, atChamber: true },
+  // „retrimis” (la comisii): plenul l-a întors pentru raport suplimentar. „-”, cu o dată: înscris pe ordinea de zi a
+  // plenului sub rezerva depunerii raportului, uneori de ani de zile; până la raport, proiectul e tot la comisii.
+  { key: 'comisii', label: 'La comisii', match: /^(la comisii|retrimis|-$)/i, atChamber: true },
   { key: 'raport', label: 'Cu raport', match: /^raport/i, atChamber: true },
   { key: 'plen', label: 'Pe ordinea de zi', match: /^pe ordinea de zi/i, atChamber: true },
   // „aviz/ punct de vedere”: proiectul nou așteaptă avizele (CES, Consiliul Legislativ, Guvernul), adesea în consultare publică.

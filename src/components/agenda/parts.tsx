@@ -2,6 +2,10 @@ import type { ReactNode } from 'react';
 import { type AgendaAppearance, dayLabel } from '@/lib/agenda';
 
 export const SOURCE = { senat: 'senat.ro', camera: 'cdep.ro' } as const;
+const CHAMBER = { senat: 'Senat', camera: 'Camera Deputaților' } as const;
+
+/** A cui e ședința, când numele n-o spune: „Comisia pentru muncă…” există și la Senat, și la Cameră. */
+export const chamberOf = (a: AgendaAppearance) => (/senat|camerei deputaților/i.test(a.comisie) ? null : CHAMBER[a.chamber]);
 
 const upper = (s: string) => s.replace(/^./, (c) => c.toUpperCase());
 

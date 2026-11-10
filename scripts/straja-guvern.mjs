@@ -25,6 +25,7 @@ import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
 import { cleanPdfText, readUntrustedPdf } from './lib/pdf-untrusted.mjs';
 import { decode, meta, pageText, todayBucharest } from './lib/web.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT_DIR = path.join(ROOT, 'data', 'guvern');
@@ -69,7 +70,7 @@ async function get(url, { maxAgeH = Infinity, binary = false } = {}) {
   // Firewall-urile răspund uneori cu 200 și o pagină de blocare (FortiWeb) sau de verificare (Cloudflare).
   if (/Web Page Blocked|<title>Just a moment/i.test(head)) throw new Error(`blocat de firewall-ul site-ului: ${url}`);
   fs.mkdirSync(CACHE_DIR, { recursive: true });
-  fs.writeFileSync(file, buf);
+  writeFileAtomic(file, buf);
   return binary ? buf : buf.toString('utf8');
 }
 
@@ -403,7 +404,7 @@ async function readDocument(doc, name, dir, textMeta) {
     return { format, stare: 'necitit', motiv: format === 'zip' ? 'arhivă, necitită' : 'tabel sau format necitit' };
   }
   fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, `${name}.txt`), `${text}\n`);
+  writeFileAtomic(path.join(dir, `${name}.txt`), `${text}\n`);
   textMeta[name] = format === 'pdf' ? 'text' : format;
   return { format, stare: 'text', text: name, ...(pages && { pagini: pages, ...(pages > MAX_PAGES && { paginiCitite: MAX_PAGES }) }) };
 }
@@ -469,7 +470,7 @@ async function main() {
             Object.assign(entry.documente[i], { stare: 'eroare', motiv: err.message.slice(0, 200) });
           }
         }
-        if (Object.keys(textMeta).length) fs.writeFileSync(path.join(dir, '_meta.json'), `${JSON.stringify(textMeta, null, 2)}\n`);
+        if (Object.keys(textMeta).length) writeFileAtomic(path.join(dir, '_meta.json'), `${JSON.stringify(textMeta, null, 2)}\n`);
         const main = entry.documente.find((d) => d.text === 'forma_initiatorului');
         console.log(`   ${main ? '📄' : '⚠️ '} ${slug} ${entry.tip}, până la ${termen}: ${titlu.slice(0, 90)}${main ? '' : ' (fără textul proiectului)'}`);
       } else {
@@ -484,7 +485,7 @@ async function main() {
   for (const p of bySlug.values()) p.deschis = p.termen >= today;
   const proiecte = [...bySlug.values()].sort((a, b) => Number(b.deschis) - Number(a.deschis) || a.termen.localeCompare(b.termen) || a.slug.localeCompare(b.slug));
   fs.mkdirSync(OUT_DIR, { recursive: true });
-  fs.writeFileSync(INDEX_FILE, `${JSON.stringify({ actualizat: new Date().toISOString(), surse, proiecte }, null, 2)}\n`);
+  writeFileAtomic(INDEX_FILE, `${JSON.stringify({ actualizat: new Date().toISOString(), surse, proiecte }, null, 2)}\n`);
   console.log(`✅ ${proiecte.filter((p) => p.deschis).length} proiecte deschise în data/guvern/index.json (${requests} cereri)`);
 }
 

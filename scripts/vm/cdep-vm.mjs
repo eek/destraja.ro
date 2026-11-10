@@ -186,8 +186,11 @@ const commands = {
     const result = await withLock(() => {
       const claims = readJson(file('claims.json'), {});
       const done = ready();
+      // O fișă citită aici pentru același stadiu și încă neluată de Mac nu reintră în coadă: Mac-ul a trimis-o fără să
+      // știe de ea. Dacă îi trebuie una mai nouă, o cere din nou după ce o ia pe aceasta.
+      const waiting = (q) => done.has(q.slug) && readJson(path.join(HTML, `${q.slug}.meta.json`), {}).key === (q.key ?? null);
       // Fără `queue` (de exemplu doar listele de la straja-camera), cozile rămân cum sunt.
-      const queues = Array.isArray(input.queue) ? { ...readQueues(), [source]: queue } : readQueues();
+      const queues = Array.isArray(input.queue) ? { ...readQueues(), [source]: queue.filter((q) => !waiting(q)) } : readQueues();
       if (input.known && typeof input.known === 'object') {
         const known = { ...readJson(file('known.json'), {}), ...input.known };
         writeJson(file('known.json'), known);
@@ -353,9 +356,13 @@ async function run() {
       writeAtomic(path.join(HTML, `${item.slug}.html`), html);
       writeJson(path.join(HTML, `${item.slug}.meta.json`), { slug: item.slug, url: item.url, key: item.key ?? null, fetchedAt: new Date().toISOString() });
       note('vm', item.slug);
-      if (item.source !== 'vechi' && item.key) {
-        await withLock(() => writeJson(file('known.json'), { ...readJson(file('known.json'), {}), [item.slug]: item.key }));
-      }
+      await withLock(() => {
+        if (item.source !== 'vechi' && item.key) writeJson(file('known.json'), { ...readJson(file('known.json'), {}), [item.slug]: item.key });
+        // Fișa citită iese din cozi. Altfel, după ce Mac-ul o ia și revendicarea se învechește, am citi-o a doua oară.
+        const queues = readQueues();
+        const same = (q) => q.slug === item.slug && (q.key ?? null) === (item.key ?? null);
+        if (allQueued(queues).some(same)) writeJson(file('queue.json'), Object.fromEntries(Object.entries(queues).map(([s, list]) => [s, list.filter((q) => !same(q))])));
+      });
       fetched++;
       log(`${item.slug} (${fetched} de la pornire)`);
     } catch (err) {

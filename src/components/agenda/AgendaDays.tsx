@@ -3,7 +3,7 @@ import { ExternalLink } from 'lucide-react';
 import { type AgendaAppearance, dayLabel } from '@/lib/agenda';
 import { trackAttrs } from '@/lib/analytics';
 import { RiskChip, panel } from '@/components/ui';
-import { MeetingWhen, OfficialAgendaLink, purpose } from './parts';
+import { MeetingWhen, OfficialAgendaLink, chamberOf, purpose } from './parts';
 
 /** Ședințele cu proiecte de-ale noastre, pe zile; în fiecare zi, câte un panou pe ședință (comisie sau plen). */
 export default function AgendaDays({ items }: { items: AgendaAppearance[] }) {
@@ -41,6 +41,7 @@ function Meeting({ items }: { items: AgendaAppearance[] }) {
           <p className="text-[15px] font-semibold leading-6 text-ink">{a.comisie}</p>
           <div className="flex flex-wrap gap-x-2 text-sm text-muted">
             <MeetingWhen a={a} withDay={false} />
+            {chamberOf(a) && <span>· {chamberOf(a)}</span>}
             {a.loc && <span>· {a.loc}</span>}
           </div>
         </div>

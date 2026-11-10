@@ -31,6 +31,7 @@ import { C, LEVELS, RISK, SANS, SERIF, SITE, button, emailLayout, esc, footerHtm
 import { pressArticle, STANCE } from '../src/lib/press.ts';
 import { cameraStats } from './lib/camera-stats.mjs';
 import { squaresPng } from './lib/squares-png.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -280,7 +281,7 @@ function squaresImage(name, colors, alt) {
   const { png } = squaresPng(colors, SQUARES);
   fs.mkdirSync(ANUNT_IMG_DIR, { recursive: true });
   const file = path.join(ANUNT_IMG_DIR, `${DAY}-${name}.png`);
-  fs.writeFileSync(file, png);
+  writeFileAtomic(file, png);
   return { url: `${SITE}/email/anunt/${DAY}-${name}.png`, file, alt };
 }
 
@@ -623,7 +624,7 @@ async function send(editions) {
 
 function writeState(next) {
   fs.mkdirSync(path.dirname(stateFile), { recursive: true });
-  fs.writeFileSync(stateFile, JSON.stringify(next, null, 2) + '\n');
+  writeFileAtomic(stateFile, JSON.stringify(next, null, 2) + '\n');
 }
 
 async function main() {

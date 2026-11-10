@@ -23,6 +23,7 @@ import { fileURLToPath } from 'node:url';
 import { articleText, fetchPage, mapLimit, pageTitle, quoteFound, urlKey } from './lib/web.mjs';
 import { DECISION_MODELS, available, decide, extractArticles } from './lib/decide.mjs';
 import { runModel } from './lib/ai-cli.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const NEWS = path.join(ROOT, 'data', 'news');
@@ -215,7 +216,7 @@ async function main() {
       if (wanted.every((k) => answers[k])) ok++;
     });
     // Articolele au fost completate pe loc, în obiectele citite la început; scriem doar fișierele atinse.
-    for (const file of touched) fs.writeFileSync(file, JSON.stringify(docs.get(file), null, 2) + '\n');
+    for (const file of touched) writeFileAtomic(file, JSON.stringify(docs.get(file), null, 2) + '\n');
     return ok;
   };
 

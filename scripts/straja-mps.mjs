@@ -25,6 +25,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { blocked as cdepBlocked, pace as cdepPace } from './lib/cdep.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const BILLS_FILE = path.join(ROOT, 'data', 'senat-bills.json');
@@ -111,7 +112,7 @@ async function getPage(url, maxAgeMs = MAX_AGE_MS) {
       const html = buf.toString('utf8');
       // Pagina de captcha a firewall-ului cdep.ro nu e o fișă: ne oprim, fără s-o păstrăm în cache.
       if (/Firewall Captcha Authentication/i.test(html)) throw Object.assign(cdepBlocked(url), { fatal: true });
-      fs.writeFileSync(file, html, 'utf8');
+      writeFileAtomic(file, html);
       return { html, fetchedAt: Date.now() };
     } catch (err) {
       if (err.fatal) throw err;
@@ -205,7 +206,9 @@ function findMember(name, members) {
     ['exact', (m) => required.join(' ') === m.tokens.join(' ') || all.join(' ') === m.tokens.join(' ')],
     // Doi deputați pot avea aceleași prenume în altă ordine (Stoica Alin-Bogdan, Stoica Bogdan-Alin).
     ['ordine', (m) => sameSet(required, m.tokens) || sameSet(all, m.tokens)],
-    ['prenume', (m) => m.tokens.includes(family) && required.length >= 2 && m.tokens.length >= 2 && (subset(required, m.tokens) || subset(m.tokens, all))],
+    // Numele de familie trebuie să fie chiar al membrului, nu unul dintre prenumele lui: „Vasile Daniel” (fost deputat)
+    // nu e „Suciu Vasile-Daniel”.
+    ['prenume', (m) => m.tokens[0] === family && required.length >= 2 && m.tokens.length >= 2 && (subset(required, m.tokens) || subset(m.tokens, all))],
     [
       'aproximativ',
       (m) => {
@@ -572,6 +575,16 @@ async function main() {
     return;
   }
 
+  // După un captcha bucla se oprește: cine n-a mai fost verificat își păstrează datele de ieri, nu dispare din fișier.
+  let kept = 0;
+  for (const [name] of todo) {
+    if (!out[name] && previous[name]) {
+      out[name] = previous[name];
+      kept++;
+    }
+  }
+  if (kept) console.log(`   ${kept} parlamentari neverificați azi își păstrează datele de ieri.`);
+
   // Dacă o cameră își schimbă formatul fișei, am găsi brusc mult mai puține date. Atunci nu stricăm
   // ce aveam: păstrăm fișierul vechi și ieșim cu eroare, ca rularea zilnică să o semnaleze.
   const count = (obj, key) => Object.values(obj).filter((c) => c.matched && c[key].length > 0).length;
@@ -582,7 +595,7 @@ async function main() {
       throw new Error(`doar ${after} parlamentari cu ${key} față de ${before} înainte; formatul fișelor s-a schimbat? Nu scriu nimic.`);
     }
   }
-  fs.writeFileSync(OUT_FILE, JSON.stringify(sortKeys(out), null, 2) + '\n', 'utf8');
+  writeFileAtomic(OUT_FILE, JSON.stringify(sortKeys(out), null, 2) + '\n');
 
   console.log(`\n🎉 ${stats.matched} potriviți, ${stats.unmatched} nepotriviți, ${requests} cereri trimise (${cdepProfiles} fișe de pe cdep.ro).`);
   if (stats.later) console.log(`   ${stats.later} fără copie în cache rămân pe mâine (--cdep-max=${CDEP_MAX}).`);

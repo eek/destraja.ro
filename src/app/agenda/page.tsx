@@ -9,7 +9,7 @@ import AgendaDays from '@/components/agenda/AgendaDays';
 export const metadata: Metadata = {
   title: 'Agenda săptămânii',
   description:
-    'Ședințele comisiilor și ale plenului Senatului din săptămâna aceasta în care se discută proiecte urmărite pe destrajă.ro: ziua, ora, sala și ordinea de zi oficială.',
+    'Ședințele comisiilor din Senat și din Camera Deputaților și ale plenului Senatului din săptămâna aceasta în care se discută proiecte urmărite pe destrajă.ro: ziua, ora, sala și ordinea de zi oficială.',
 };
 
 // Săptămâna e cea a build-ului, luni–duminică, ora României; site-ul se reface în fiecare zi lucrătoare.
@@ -28,7 +28,8 @@ export default async function AgendaPage() {
     <Container className="pt-10 sm:pt-14 lg:pt-[72px]">
       <h1 className="font-display text-[clamp(2.6rem,6.4vw,4.6rem)] font-normal leading-[1.02] tracking-[-0.03em]">Agenda săptămânii</h1>
       <p className="mt-5 max-w-[44ch] text-lg leading-8 text-muted">
-        Ședințele comisiilor și ale plenului Senatului în care se discută proiecte pe care le urmărim, ca să știi când se decide.
+        Ședințele comisiilor din Senat și din Camera Deputaților și ale plenului Senatului în care se discută proiecte pe care le urmărim, ca să
+        știi când se decide.
       </p>
 
       <section aria-labelledby="saptamana" className="mt-12">
@@ -50,7 +51,7 @@ export default async function AgendaPage() {
               text={
                 readThisWeek
                   ? 'Comisiile și plenul se întâlnesc săptămâna aceasta, dar fără proiectele din consultarea Senatului sau de la Cameră pe care le urmărim.'
-                  : 'Senatul publică ordinile de zi cu câteva zile înainte de ședințe; când apare pe ele un proiect urmărit, îl găsești aici.'
+                  : 'Senatul și comisiile Camerei publică ordinile de zi cu câteva zile înainte de ședințe; când apare pe ele un proiect urmărit, îl găsești aici.'
               }
               action={
                 <Link href="/senat#legi" className={linkCls}>
@@ -77,9 +78,9 @@ export default async function AgendaPage() {
       )}
 
       <p className="mt-12 max-w-2xl text-xs leading-5 text-muted">
-        Datele vin din ordinile de zi publicate pe senat.ro de fiecare comisie și de plen
+        Datele vin din ordinile de zi publicate pe senat.ro de fiecare comisie și de plen și pe cdep.ro de comisiile Camerei Deputaților
         {cititLa ? `, citite ultima dată pe ${formatDateRo(cititLa)}` : ''}. Ordinea de zi se poate schimba până la ședință; ce e valabil scrie pe
-        pagina oficială. Deocamdată doar Senatul: ordinile de zi ale Camerei Deputaților nu sunt încă incluse.
+        pagina oficială. La Cameră, rolul comisiei (raport sau aviz) e cel din fișa proiectului. Plenul Camerei Deputaților nu e încă inclus.
       </p>
     </Container>
   );

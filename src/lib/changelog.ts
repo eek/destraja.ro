@@ -28,6 +28,25 @@ export interface ChangeDay {
 
 export const CHANGELOG: ChangeDay[] = [
   {
+    date: '2026-11-10',
+    items: [
+      {
+        kind: 'nou',
+        title: 'Comisiile Camerei Deputaților, în agendă',
+        text: 'Agenda săptămânii arată acum și ședințele comisiilor din Camera Deputaților în care se discută proiecte pe care le urmărim, cu ziua, ora și sala, din ordinile de zi publicate pe cdep.ro. Pe pagina proiectului vezi când intră în comisie. În jurul ședinței și după termenele din fișă recitim fișa proiectului, așa că raportul sau avizul comisiei ajunge pe site în câteva zile, nu abia când se schimbă stadiul din lista Camerei. Plenul Camerei nu e încă inclus.',
+        link: { href: '/agenda', label: 'Agenda' },
+        shot: { id: '2026-11-10-agenda-camera', alt: 'Agenda săptămânii, marți, 10 noiembrie: Comisia pentru drepturile omului, culte și problemele minorităților naționale din Camera Deputaților, la ora 09:00, în sala comisiei, cu legătura „Ordinea de zi pe cdep.ro” și proiectele din ședință, fiecare cu riscul lui și cu ce i se cere comisiei, raport sau aviz.' },
+      },
+      {
+        kind: 'corectat',
+        title: 'Proiecte întoarse la comisii, arătate ca „Încheiat”',
+        text: 'Opt proiecte din 2026 aflate încă la Cameră apăreau ca încheiate: cele pe care plenul le-a retrimis la comisii pentru raport suplimentar și cele înscrise pe ordinea de zi a plenului înainte ca o comisie să depună raportul. Acum apar „La comisii” și sunt numărate printre proiectele aflate la Cameră.',
+        link: { href: '/camera/plx-348-2026', label: 'Un exemplu: PL-x 348/2026' },
+        shot: { id: '2026-11-10-retrimis', alt: 'Pagina PL-x 348/2026, regulile contra reclamelor „eco” fără dovezi: lângă riscul redus, 2,3, eticheta de stadiu arată acum „La comisii”.' },
+      },
+    ],
+  },
+  {
     date: '2026-11-09',
     items: [
       {

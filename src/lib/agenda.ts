@@ -1,9 +1,10 @@
 // Ordinile de zi ale comisiilor și ale plenului, potrivite la build cu proiectele care au pagină pe site.
 //
 // Senatul: scripts/straja-agenda.mjs rulează pe VM din 2 în 2 ore și scrie data/agenda/senat/<zi>/<comisieId>.json, un
-// fișier pe comisie și zi, cu forma din parseDay (scripts/lib/senat-agenda.mjs). Camera Deputaților n-are încă cititor;
-// când va avea, scrie data/agenda/camera/<zi>/<comisie>.json cu aceeași formă și apare aici fără alt cod (cerințele sunt
-// în cloud-status/agende.md). Fără fișiere (la un contribuitor, înainte de prima citire) totul e gol și nu se afișează nimic.
+// fișier pe comisie și zi, cu forma din parseDay (scripts/lib/senat-agenda.mjs). Camera Deputaților:
+// scripts/straja-cdep-agenda.mjs rulează în actualizarea zilnică și scrie data/agenda/camera/<zi>/<idc>.json cu aceeași
+// formă, din PDF-urile ordinilor de zi ale comisiilor (plenul Camerei nu e citit încă). Fără fișiere (la un contribuitor,
+// înainte de prima citire) totul e gol și nu se afișează nimic.
 //
 // Modulul importă doar tipuri, ca scripturile Node să-l poată folosi direct, fără compilare (ca press.ts în
 // straja-digest.mjs): upcomingAgenda() dă aparițiile din următoarele zile, pentru e-mailuri. AGENDA_DIR schimbă dosarul
@@ -26,7 +27,8 @@ interface RawSession {
 /**
  * Fișierul unei zile a unei comisii (straja-agenda.mjs). Un punct are `capitol`, `nr`, `numar`, `cod`, `b`, `titlu`, `scop`,
  * `termen` și `rezolutie`: la Senat `cod` e codul fișei (Legis/Lista.aspx?cod=…, ca în data/senat-bills.json), `numar` textul
- * linkului („L512/2026”) și `b` numărul de înregistrare pentru dezbatere („b543”); la Cameră `cod` va fi idp-ul fișei.
+ * linkului („L512/2026”) și `b` numărul de înregistrare pentru dezbatere („b543”); la Cameră `cod` e idp-ul fișei, când
+ * o avem, `numar` e „PL-x 9/2026” (sau „L631/2026”, la comisiile comune cu Senatul), iar `scop` e rolul comisiei din fișă.
  */
 interface RawDay {
   comisieId?: unknown;
@@ -136,7 +138,9 @@ function place(s?: RawSession) {
   const etaj = s?.etaj?.trim();
   // În mijlocul rândului: „sala 2135, etaj 2”, oricum le-ar scrie pagina („Sala 2135”, „2135”, „Etaj 2”).
   const label = (word: string, v?: string) => v && (new RegExp(`^${word}\\b`, 'i').test(v) ? word + v.slice(word.length) : `${word} ${v}`);
-  return [label('sala', sala), label('etaj', etaj)].filter(Boolean).join(', ') || null;
+  // Camera scrie tot locul în câmpul sălii („parter, corp B4, camera 28”, „cam 11, et.1, corp B2”): rămâne cum e.
+  const whole = !!sala && /^(camera|cam|etaj|et|parter|corp|nivel)(?![a-zăâîșț])/i.test(sala);
+  return [whole ? sala : label('sala', sala), label('etaj', etaj)].filter(Boolean).join(', ') || null;
 }
 
 // Câmpurile vin din HTML-ul altui site: orice nu e text devine gol, ca un fișier ciudat să nu oprească build-ul.
@@ -194,6 +198,8 @@ interface SenatRow {
   id: string;
   slug: string;
   cod: string;
+  /** „L626/2026”, după ce proiectul intră în dezbatere; până atunci e același cu `id`. */
+  senatNr?: string;
 }
 interface CdepRow {
   slug: string;
@@ -228,7 +234,14 @@ async function loadTracked(root: string): Promise<Tracked> {
     const camera = await readJson<{ idp: number; numar: string }>(path.join(data, 'camera', `${b.slug}.json`));
     add(
       { chamber: 'senat', slug: b.slug, href: `/legi/${b.slug}`, id: b.id, title: analysis.consensus.plainTitle, risk: risk(analysis) },
-      [`senat:${b.cod}`, `nr:${billKey(b.id)}`, camera && `camera:${camera.idp}`, camera && billKey(camera.numar) && `nr:${billKey(camera.numar)}`],
+      [
+        `senat:${b.cod}`,
+        `nr:${billKey(b.id)}`,
+        // Comisiile comune cu Senatul scriu în ordinea de zi numărul de dezbatere, fără link la fișă.
+        billKey(b.senatNr) && `nr:${billKey(b.senatNr)}`,
+        camera && `camera:${camera.idp}`,
+        camera && billKey(camera.numar) && `nr:${billKey(camera.numar)}`,
+      ],
     );
   }
 

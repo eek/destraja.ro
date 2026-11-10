@@ -19,6 +19,7 @@ import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { MODEL_KEYS, runModel } from './lib/ai-cli.mjs';
 import { billSentence, decode, domainOf, fetchPage, isoFromRo, mapLimit, matchDomain, meta, normalizeUrl, pageText, pageTitle, publishedAt, quoteFound, todayBucharest, urlKey } from './lib/web.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -35,8 +36,11 @@ const LAST_RUN = path.join(ROOT, '.cache', 'news-last-run.json');
 // proiect, cu un citat. Apoi aceeași verificare ca la căutare: pagina se deschide și citatul apare în ea.
 //   --min=0.85 (scorul de la care cerem părerea modelului)  --zile=3 (potrivirile din ultimele zile)
 // .cache/news-index are gazda de salt spre VM (destraja-jump, cheia fără 1Password, odată ce NAS-ul o lasă și spre
-// 192.168.154.10; până atunci eek@eek-nas.eek.ro, care cere 1Password deblocat); fără el, --index nu face nimic. Perechile articol–proiect citite deja
-// stau în .cache/news-index-seen.json, ca să nu le dăm modelului de două ori.
+// 192.168.154.10; până atunci eek@eek-nas.eek.ro, care cere 1Password deblocat); fără el, --index nu face nimic.
+// .cache/news-index-seen.json ține starea fiecărei perechi articol–proiect: „done” când a fost citită până la capăt
+// (modelul a spus că nu e despre proiect, sau articolul a trecut ori a picat definitiv verificarea), altfel candidatul și
+// numărul de încercări. Un articol care nu s-a deschis, pentru care modelul n-a răspuns sau al cărui citat nu s-a găsit
+// revine la rularea următoare, de cel mult 3 ori și cel mult 14 zile, și după ce iese din fereastra indexului.
 const NOT_PRESS = ['senat.ro', 'cdep.ro', 'gov.ro', 'just.ro', 'lastraja.ro', 'destraja.ro', 'destraja.md', 'facebook.com', 'instagram.com', 'x.com', 'twitter.com', 'linkedin.com', 'youtube.com', 'tiktok.com', 'reddit.com', 'google.com', 'vertexaisearch.cloud.google.com'];
 const MAX_ARTICLES = 6;
 
@@ -56,6 +60,12 @@ const INDEX_FILE = path.join(ROOT, '.cache', 'news-index');
 const SEEN_FILE = path.join(ROOT, '.cache', 'news-index-seen.json');
 const SEARCH_VM = 'search@192.168.154.10';
 const INDEX_TEXT = 5000;
+const INDEX_PER_BILL = 8;
+const INDEX_TRIES = 3;
+const INDEX_WAIT_DAYS = 14;
+const INDEX_KEEP_DAYS = 90;
+// Motive după care o nouă încercare nu ajută: pagina nu mai există sau nu e un articol de presă.
+const FINAL_REASON = /^(nu e presă|prea vechi|nu e HTML|HTTP (404|410)\b)/;
 
 // ---------- date ----------
 
@@ -155,13 +165,25 @@ function indexCandidates() {
   return bySlug;
 }
 
+/** Starea perechilor articol–proiect: cheia „slug|adresă” → { done, at } sau { tries, since, at, why, cand }. */
 const readSeen = () => {
+  const now = new Date().toISOString();
   try {
-    return new Set(JSON.parse(fs.readFileSync(SEEN_FILE, 'utf8')));
+    const raw = JSON.parse(fs.readFileSync(SEEN_FILE, 'utf8'));
+    // Formatul vechi era o listă de chei, toate socotite citite.
+    if (Array.isArray(raw)) return new Map(raw.map((k) => [k, { done: true, at: now }]));
+    return new Map(Object.entries(raw.items ?? {}));
   } catch {
-    return new Set();
+    return new Map();
   }
 };
+
+function writeSeen(seen) {
+  const age = (iso) => (Date.now() - Date.parse(iso ?? '')) / 864e5;
+  // Cele citite ies din evidență după 90 de zile (indexul nu le mai propune de mult); cele în așteptare, după 14.
+  for (const [k, v] of seen) if (v.done ? age(v.at) > INDEX_KEEP_DAYS : age(v.since) > INDEX_WAIT_DAYS) seen.delete(k);
+  writeFileAtomic(SEEN_FILE, JSON.stringify({ items: Object.fromEntries(seen) }));
+}
 
 function indexPrompt(bill, items) {
   const short = plainTitle(bill);
@@ -186,17 +208,30 @@ Răspunde EXCLUSIV cu acest JSON, câte un rând pentru fiecare articol, în ord
 /** Candidații din index pentru un proiect, trecuți prin ChatGPT: același format ca rezultatele căutării pe web. */
 async function indexResults(bill, cands) {
   const pages = await mapLimit(cands, 4, async (c) => ({ c, page: await fetchPage(c.url) }));
+  // Soarta fiecărui candidat, după adresa lui din index: { retry, why } sau, pentru cele despre proiect, { url }, până
+  // la verificarea din checkBill(). main() socotește citit doar ce a ajuns la un răspuns.
+  const fate = new Map(
+    pages.filter(({ page }) => page.error).map(({ c, page }) => [urlKey(c.url), { retry: !FINAL_REASON.test(page.error), why: `pagina nu s-a deschis (${page.error})` }]),
+  );
   const items = pages
     .filter(({ page }) => !page.error)
-    .map(({ c, page }) => ({ url: page.finalUrl, title: pageTitle(page.html) || c.title, outlet: c.outlet || c.domain, text: pageText(page.html).slice(0, INDEX_TEXT) }));
-  if (!items.length) return [{ model: 'index', status: 'ok', data: { articles: [] }, durationMs: 0 }];
+    .map(({ c, page }) => ({ key: urlKey(c.url), url: page.finalUrl, title: pageTitle(page.html) || c.title, outlet: c.outlet || c.domain, text: pageText(page.html).slice(0, INDEX_TEXT) }));
+  if (!items.length) return [{ model: 'index', status: 'ok', data: { articles: [] }, durationMs: 0, fate }];
   const r = await runModel('codex', indexPrompt(bill, items), { mode: 'offline', timeoutMs: 600000, label: `presa-index ${bill.id}` });
   if (r.status !== 'ok') return [{ ...r, model: 'index' }];
   const answers = Array.isArray(r.data?.articles) ? r.data.articles : [];
-  const articles = answers
-    .filter((a) => a?.about === true && typeof a.quote === 'string' && a.quote.trim() && items[a.n - 1])
-    .map((a) => ({ url: items[a.n - 1].url, quote: a.quote }));
-  return [{ model: 'index', status: 'ok', data: { articles }, durationMs: r.durationMs }];
+  const articles = [];
+  items.forEach((it, i) => {
+    const a = answers.find((x) => Number(x?.n) === i + 1);
+    if (typeof a?.about !== 'boolean') fate.set(it.key, { retry: true, why: 'modelul n-a răspuns pentru el' });
+    else if (!a.about) fate.set(it.key, { retry: false });
+    else if (typeof a.quote !== 'string' || !a.quote.trim()) fate.set(it.key, { retry: true, why: 'modelul n-a dat un citat' });
+    else {
+      articles.push({ url: it.url, quote: a.quote });
+      fate.set(it.key, { url: it.url });
+    }
+  });
+  return [{ model: 'index', status: 'ok', data: { articles }, durationMs: r.durationMs, fate }];
 }
 
 async function checkBill(bill, cands = null) {
@@ -209,7 +244,8 @@ async function checkBill(bill, cands = null) {
   for (const r of results) {
     const list = r.status === 'ok' && Array.isArray(r.data?.articles) ? r.data.articles : null;
     models[r.model] = r.status === 'ok' ? (list ? 'ok' : 'error: JSON fără „articles”') : `error: ${r.error}`;
-    for (const a of (list ?? []).slice(0, MAX_ARTICLES)) {
+    // Limita e pentru căutarea pe web; din index vin cel mult INDEX_PER_BILL, iar ce am tăia aici s-ar pierde.
+    for (const a of (list ?? []).slice(0, cands ? INDEX_PER_BILL : MAX_ARTICLES)) {
       const url = normalizeUrl(a?.url);
       if (!url) continue;
       const k = urlKey(url);
@@ -267,8 +303,21 @@ async function checkBill(bill, cands = null) {
     articles: sortList(lists.articles),
     pending: sortList(lists.pending),
   };
-  fs.writeFileSync(file, `${JSON.stringify(out, null, 2)}\n`, 'utf8');
-  return { out, dropped, candidates: byUrl.size, durations };
+  writeFileAtomic(file, `${JSON.stringify(out, null, 2)}\n`);
+
+  // Din index: candidații despre proiect își află soarta din verificare. Un citat negăsit sau o pagină care n-a răspuns
+  // se reiau; „nu e presă”, „prea vechi” și paginile dispărute sunt răspunsuri.
+  const fate = (cands && results[0]?.fate) || null;
+  if (fate) {
+    const verdicts = new Map(checked.map(({ c, v }) => [urlKey(c.url), v]));
+    for (const [key, f] of fate) {
+      if (!f.url) continue;
+      const url = normalizeUrl(f.url);
+      const v = url && verdicts.get(urlKey(url));
+      fate.set(key, !v ? { retry: true, why: 'n-a ajuns la verificare' } : v.ok || FINAL_REASON.test(v.reason) ? { retry: false } : { retry: true, why: v.reason });
+    }
+  }
+  return { out, dropped, candidates: byUrl.size, durations, fate };
 }
 
 // ---------- main ----------
@@ -296,6 +345,7 @@ async function main() {
   // Din index: doar proiectele cu potriviri pe care modelul nu le-a citit încă, cel mult 8 articole pe proiect.
   let fromIndex = null;
   const seen = readSeen();
+  const now = new Date().toISOString();
   if (INDEX) {
     const bySlug = indexCandidates();
     if (!bySlug) {
@@ -304,10 +354,17 @@ async function main() {
     }
     fromIndex = new Map();
     for (const b of targets) {
-      const fresh = [...new Map((bySlug[b.slug] ?? []).filter((m) => !seen.has(`${b.slug}|${urlKey(m.url)}`)).map((m) => [urlKey(m.url), m])).values()]
-        .sort((x, y) => y.score - x.score)
-        .slice(0, 8);
-      if (fresh.length) fromIndex.set(b.slug, fresh);
+      // Cele rămase de la rulările trecute revin și după ce au ieșit din fereastra de zile a indexului.
+      const waiting = [...seen].filter(([k, v]) => !v.done && v.cand && k.startsWith(`${b.slug}|`)).map(([, v]) => v.cand);
+      const open = [...new Map([...waiting, ...(bySlug[b.slug] ?? [])].filter((m) => !seen.get(`${b.slug}|${urlKey(m.url)}`)?.done).map((m) => [urlKey(m.url), m])).values()].sort(
+        (x, y) => y.score - x.score,
+      );
+      if (open.length) fromIndex.set(b.slug, open.slice(0, INDEX_PER_BILL));
+      // Ce trece de limita de azi rămâne în evidență, la rând pentru rulările următoare.
+      for (const m of open.slice(INDEX_PER_BILL)) {
+        const key = `${b.slug}|${urlKey(m.url)}`;
+        if (!seen.has(key)) seen.set(key, { tries: 0, since: now, at: now, why: 'peste limita rulării', cand: m });
+      }
     }
     targets = targets.filter((b) => fromIndex.has(b.slug));
   }
@@ -326,19 +383,39 @@ async function main() {
   const summary = [];
   await mapLimit(targets, CONCURRENCY, async (bill) => {
     const t = Date.now();
-    const { out, dropped, candidates, durations } = await checkBill(bill, fromIndex?.get(bill.slug) ?? null);
-    if (fromIndex && out.models.index === 'ok') for (const m of fromIndex.get(bill.slug)) seen.add(`${bill.slug}|${urlKey(m.url)}`);
+    const { out, dropped, candidates, durations, fate } = await checkBill(bill, fromIndex?.get(bill.slug) ?? null);
+    const again = [];
+    for (const m of fromIndex?.get(bill.slug) ?? []) {
+      const key = `${bill.slug}|${urlKey(m.url)}`;
+      const old = seen.get(key);
+      const since = old?.since ?? now;
+      // Modelul n-a răspuns deloc: nu e vina articolului, deci nu-i numărăm încercarea.
+      const f = out.models.index === 'ok' ? (fate?.get(urlKey(m.url)) ?? { retry: true, why: 'fără răspuns' }) : null;
+      const tries = (old?.tries ?? 0) + (f ? 1 : 0);
+      if (!f) seen.set(key, { tries, since, at: now, why: 'modelul n-a răspuns', cand: m });
+      else if (!f.retry) seen.set(key, { done: true, at: now });
+      else if (tries >= INDEX_TRIES) {
+        seen.set(key, { done: true, at: now, gaveUp: f.why });
+        again.push(`      ✗ ${m.url}: ${f.why}; am renunțat după ${tries} încercări`);
+      } else {
+        seen.set(key, { tries, since, at: now, why: f.why, cand: m });
+        again.push(`      ↻ ${m.url}: ${f.why}; îl reiau (încercarea ${tries} din ${INDEX_TRIES})`);
+      }
+    }
+    // După fiecare proiect: o rulare oprită la mijloc nu mai dă modelului ce a citit deja.
+    if (fromIndex) writeSeen(seen);
     const status = readers.map((m) => `${m}:${out.models[m] === 'ok' ? 'ok' : 'err'}`).join(' ');
     console.log(
       `  ${bill.id.padEnd(10)} ${status}  ${candidates} linkuri → ${out.articles.length} articole, ${out.pending.length} în așteptare, ${dropped.length} respinse  (${Math.round((Date.now() - t) / 1000)}s)`,
     );
     for (const d of dropped) console.log(`      ✗ ${d.url} [${d.foundBy.join(',')}] ${d.reason}`);
+    for (const line of again) console.log(line);
     summary.push({ slug: bill.slug, billId: bill.id, models: out.models, durations, articles: out.articles.length, pending: out.pending.length, dropped });
   });
 
   fs.mkdirSync(path.dirname(LAST_RUN), { recursive: true });
-  if (INDEX) fs.writeFileSync(SEEN_FILE, JSON.stringify([...seen]));
-  fs.writeFileSync(INDEX ? LAST_RUN.replace('.json', '-index.json') : LAST_RUN, JSON.stringify({ ranAt: new Date().toISOString(), models: readers, durationMs: Date.now() - start, bills: summary }, null, 2));
+  if (INDEX) writeSeen(seen);
+  writeFileAtomic(INDEX ? LAST_RUN.replace('.json', '-index.json') : LAST_RUN, JSON.stringify({ ranAt: new Date().toISOString(), models: readers, durationMs: Date.now() - start, bills: summary }, null, 2));
   console.log(`✅ Gata în ${Math.round((Date.now() - start) / 1000)}s. Detalii: .cache/news-last-run.json`);
 
   // Eșec doar dacă niciun model n-a mers pentru niciun proiect.

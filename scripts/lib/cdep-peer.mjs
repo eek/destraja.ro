@@ -176,8 +176,10 @@ export async function pullVmHtml(dir) {
 const MIRROR = path.join(ROOT, '.cache', 'cdep-mirror');
 const MIRROR_LOCK = `${MIRROR}.lock`;
 const MIRROR_STAMP = path.join(MIRROR, '.adus');
-const MIRROR_KEEP_MS = 3 * 24 * 60 * MIN;
+// Cinci zile: o recitire făcută de VM vineri trebuie să mai fie aici luni dimineață.
+const MIRROR_KEEP_MS = 5 * 24 * 60 * MIN;
 let mirrorIndex = null;
+const bucharestDay = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Bucharest' });
 
 /** Aduce HTML-ul nou de pe VM în copia locală; false dacă n-a mers (fără VM, ssh căzut). */
 export async function syncMirror({ force = false } = {}) {
@@ -237,14 +239,25 @@ export function mirrorEntries() {
     .sort((a, b) => (b.fetchedAt ?? '').localeCompare(a.fetchedAt ?? ''));
 }
 
-/** HTML-ul de la `url` din copie, dacă e citit în ultimele `maxAgeMs` (și, cu `key`, pentru același stadiu); altfel null. */
-export function mirrorGet(url, maxAgeMs, key = null) {
-  if (!peerEnabled) return null;
+const mirrorEntry = (url) => {
   mirrorIndex ??= new Map(mirrorEntries().reverse().map((m) => [m.url, m]));
-  const m = mirrorIndex.get(url);
+  return mirrorIndex.get(url) ?? null;
+};
+
+/**
+ * HTML-ul de la `url` din copie, dacă e citit în ultimele `maxAgeMs` (și, cu `key`, pentru același stadiu; cu `since`,
+ * o zi ca „2026-11-10”, doar dacă e citit în ziua aceea sau după ea, la ora României); altfel null.
+ */
+export function mirrorGet(url, maxAgeMs, key = null, since = null) {
+  if (!peerEnabled) return null;
+  const m = mirrorEntry(url);
   if (!m || Date.now() - Date.parse(m.fetchedAt) > maxAgeMs || (key != null && m.key !== key)) return null;
+  if (since != null && bucharestDay.format(new Date(m.fetchedAt)) < since) return null;
   return fs.readFileSync(path.join(MIRROR, `${m.slug}.html`), 'utf8');
 }
+
+/** Când a citit VM-ul copia de la `url` (ISO), sau null când nu e în copie. */
+export const mirrorFetchedAt = (url) => (peerEnabled ? (mirrorEntry(url)?.fetchedAt ?? null) : null);
 
 /** HTML-ul unei intrări din copie, după slug (pentru fișele cu cheie, ca în straja-cdep-vechi). */
 export const mirrorHtml = (slug) => fs.readFileSync(path.join(MIRROR, `${slug}.html`), 'utf8');

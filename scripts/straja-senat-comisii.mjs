@@ -6,6 +6,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { writeFileAtomic } from './lib/atomic.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'data', 'senat', 'comisii.json');
@@ -54,5 +55,5 @@ const shared = out.filter((c, i) => c.email && out.findIndex((o) => o.email === 
 for (const c of shared) console.log(`⚠️ ${c.email} apare la mai multe comisii (${c.nume}); verifică pagina.`);
 
 fs.mkdirSync(path.dirname(OUT), { recursive: true });
-fs.writeFileSync(OUT, JSON.stringify({ preluat: new Date().toISOString().slice(0, 10), sursa: `${SENAT}/EnumComisii.aspx?Permanenta=1`, generale: [...GENERAL], comisii: out }, null, 2) + '\n');
+writeFileAtomic(OUT, JSON.stringify({ preluat: new Date().toISOString().slice(0, 10), sursa: `${SENAT}/EnumComisii.aspx?Permanenta=1`, generale: [...GENERAL], comisii: out }, null, 2) + '\n');
 console.log(`${out.filter((c) => c.email).length}/${out.length} comisii cu adresă → ${path.relative(ROOT, OUT)}`);

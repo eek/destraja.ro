@@ -9,7 +9,8 @@
 //
 // Scrie data/istoric/<slug>.json:
 //   { slug, initiatori: [{ data, nume, partid, rol, fel: 'retras' | 'adăugat' }],
-//     anunturi: [{ data, cine, ce, surse: [{ url, outlet, citat }] }], citite: { <url>: 'YYYY-MM-DD' } }
+//     anunturi: [{ data, cine, ce, surse: [{ url, outlet, citat }] }], citite: { <url>: 'YYYY-MM-DD' },
+//     ratate: { <url>: { n, zi } } }   articole care nu s-au deschis: se reîncearcă în alte zile, cel mult 3
 // și data/istoric/_initiatori.json, ultima listă văzută pe fiecare proiect, ca să știm mâine ce s-a schimbat.
 //
 // Inițiatorii: doar la Senat, unde fiecare schimbare are rândul ei în fișă („se aprobă retragerea din lista de
@@ -23,6 +24,7 @@ import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { runModel } from './lib/ai-cli.mjs';
 import { articleText, fetchPage, mapLimit, pageText, quoteFound, todayBucharest } from './lib/web.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -35,6 +37,10 @@ const opt = (name, def) => args.find((a) => a.startsWith(`--${name}=`))?.split('
 const ONLY = opt('doar', '')?.split(',').filter(Boolean);
 const MAX_CALLS = Number(opt('max', 20));
 const BATCH = 6;
+// Un articol care nu se deschide (fără rețea, 403, 5xx) se reîncearcă în alte zile; după atâtea zile îl lăsăm.
+const TRIES = 3;
+// Articolul nu mai există sau nu e o pagină: nu are rost reîncercat.
+const GONE = /^(HTTP (404|410)\b|nu e HTML)/;
 const TEXT_CHARS = 6000;
 const today = todayBucharest();
 
@@ -45,7 +51,7 @@ const readJson = (file, def) => {
     return def;
   }
 };
-const writeJson = (file, value) => fs.writeFileSync(file, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
+const writeJson = (file, value) => writeFileAtomic(file, `${JSON.stringify(value, null, 2)}\n`);
 const historyFile = (slug) => path.join(OUT, `${slug}.json`);
 const loadHistory = (slug) => ({ slug, initiatori: [], anunturi: [], citite: {}, ...readJson(historyFile(slug), {}) });
 const saveHistory = (h) => writeJson(historyFile(h.slug), h);
@@ -217,21 +223,30 @@ Răspunde EXCLUSIV cu acest JSON:
 /** Articolele verificate de pasul de presă, încă necitite aici, de la cel mai nou. */
 function unread(slug, h) {
   const news = readJson(path.join(DATA, 'news', `${slug}.json`), null);
-  return (news?.articles ?? []).filter((a) => a.url && !h.citite[a.url]).sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''));
+  return (news?.articles ?? []).filter((a) => a.url && !h.citite[a.url] && h.ratate?.[a.url]?.zi !== today).sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''));
 }
 
 async function readBatch(slug, h, info, batch) {
   const pages = await mapLimit(batch, 3, async (a) => ({ a, page: await fetchPage(a.url) }));
   const items = [];
+  let missed = 0;
   for (const { a, page } of pages) {
     if (page.error) {
-      // Un articol care nu se mai deschide nu blochează coada: îl marcăm citit, cu motivul.
-      h.citite[a.url] = `${today} (${String(page.error).slice(0, 60)})`;
+      // Un articol care nu se mai deschide nu blochează coada, dar nici nu se pierde la prima eroare: fără rețea, toate
+      // articolele necitite ar fi fost marcate citite într-o singură rulare.
+      const why = String(page.error).slice(0, 60);
+      const miss = (h.ratate ??= {})[a.url] ?? { n: 0, zi: null };
+      if (miss.zi !== today) h.ratate[a.url] = { n: miss.n + 1, zi: today };
+      if (GONE.test(why) || h.ratate[a.url].n >= TRIES) {
+        h.citite[a.url] = `${today} (${why})`;
+        delete h.ratate[a.url];
+      } else missed++;
       continue;
     }
     items.push({ ref: `A${items.length + 1}`, url: a.url, outlet: a.outlet ?? a.domain, publishedAt: a.publishedAt ?? null, text: articleText(page.html).slice(0, TEXT_CHARS), full: pageText(page.html) });
   }
-  if (!items.length) return { calls: 0, added: 0 };
+  if (h.ratate && !Object.keys(h.ratate).length) delete h.ratate;
+  if (!items.length) return { calls: 0, added: 0, missed };
 
   const res = await runModel('codex', buildPrompt(info, h.anunturi, items), { mode: 'offline', timeoutMs: 6 * 60_000, label: `istoric-${slug}` });
   if (res.status !== 'ok' || !Array.isArray(res.data?.anunturi)) {
@@ -260,7 +275,10 @@ async function readBatch(slug, h, info, batch) {
     added++;
   }
   h.anunturi.sort((a, b) => a.data.localeCompare(b.data));
-  for (const it of items) h.citite[it.url] = today;
+  for (const it of items) {
+    h.citite[it.url] = today;
+    if (h.ratate) delete h.ratate[it.url];
+  }
   return { calls: 1, added };
 }
 
@@ -284,6 +302,7 @@ async function announcements() {
   let calls = 0;
   let added = 0;
   let failures = 0;
+  let dead = 0;
   for (const q of queue) {
     const info = billInfo(q.slug);
     if (!info) continue;
@@ -293,6 +312,13 @@ async function announcements() {
       calls += r.calls;
       added += r.added;
       fresh += r.added;
+      // Două loturi la rând din care nu s-a deschis niciun articol: mai degrabă n-avem rețea decât au dispărut toate.
+      dead = !r.calls && r.missed ? dead + 1 : 0;
+      if (dead >= 2) {
+        console.log('  ⏸️ două loturi la rând fără niciun articol deschis; restul rămâne pe mâine');
+        saveHistory(q.h);
+        return report(calls, added, true);
+      }
       if (r.failed && ++failures >= 3) {
         console.log('  ⏸️ trei răspunsuri ratate la rând; restul rămâne pe mâine');
         saveHistory(q.h);

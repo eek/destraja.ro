@@ -3,7 +3,7 @@ import { CalendarDays, ExternalLink } from 'lucide-react';
 import type { AgendaAppearance } from '@/lib/agenda';
 import { trackAttrs } from '@/lib/analytics';
 import { panel } from '@/components/ui';
-import { MeetingWhen, OfficialAgendaLink, purpose } from '@/components/agenda/parts';
+import { MeetingWhen, OfficialAgendaLink, chamberOf, purpose } from '@/components/agenda/parts';
 
 /**
  * Ședințele viitoare în care proiectul e pe ordinea de zi (comisii sau plen), din ordinile de zi citite la build.
@@ -28,7 +28,9 @@ export default function BillAgenda({ items, billId }: { items: AgendaAppearance[
             <MeetingWhen a={a} />
             <div className="min-w-0">
               <p className="text-[15px] font-semibold leading-6 text-ink">{a.comisie}</p>
-              {(purpose(a) || a.loc) && <p className="mt-0.5 text-sm leading-6 text-muted">{[purpose(a), a.loc].filter(Boolean).join(' · ')}</p>}
+              {(chamberOf(a) || purpose(a) || a.loc) && (
+                <p className="mt-0.5 text-sm leading-6 text-muted">{[chamberOf(a), purpose(a), a.loc].filter(Boolean).join(' · ')}</p>
+              )}
               {a.url && (
                 <OfficialAgendaLink a={a} track={trackAttrs('official_source_open', { bill_id: billId, source: `${a.chamber}_agenda` })} className="mt-1">
                   <ExternalLink className="ml-1 inline h-3.5 w-3.5 align-[-2px]" aria-hidden />

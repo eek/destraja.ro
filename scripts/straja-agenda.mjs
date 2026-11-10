@@ -91,7 +91,9 @@ for (const c of COMMITTEES) {
     const diff = changes(before, after);
     if (!diff.length && before) continue;
     fs.mkdirSync(path.dirname(file), { recursive: true });
-    fs.writeFileSync(file, JSON.stringify({ ...after, cititLa: new Date().toISOString() }, null, 1) + '\n');
+    // Întreg sau deloc (Mac-ul le copiază cu tar oricând). Fără lib/atomic.mjs: scriptul rulează pe VM doar cu lib/senat-agenda.mjs.
+    fs.writeFileSync(`${file}.tmp`, JSON.stringify({ ...after, cititLa: new Date().toISOString() }, null, 1) + '\n');
+    fs.renameSync(`${file}.tmp`, file);
     for (const d of diff) log.write(JSON.stringify({ la: new Date().toISOString(), comisieId: c.id, comisie: c.name, zi: day, ...d }) + '\n');
     if (!before) published++;
     else changed++;

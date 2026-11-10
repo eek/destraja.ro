@@ -34,8 +34,8 @@ export default async function Image() {
             <span style={{ fontFamily: 'Serif', fontSize: 60, lineHeight: 1.04, color: OG.ink, fontWeight: 600, letterSpacing: -1.3 }}>Când se decide pe legile urmărite</span>
             <span style={{ fontSize: 23, lineHeight: 1.4, color: OG.body, marginTop: 18 }}>
               {bills.size
-                ? `${countWord(bills.size, 'proiect', 'proiecte')} pe ordinea de zi a comisiilor și a plenului Senatului săptămâna aceasta.`
-                : 'Ședințele comisiilor și ale plenului Senatului, cu ziua, ora și sala.'}
+                ? `${countWord(bills.size, 'proiect', 'proiecte')} pe ordinea de zi a comisiilor din Senat și din Camera Deputaților săptămâna aceasta.`
+                : 'Ședințele comisiilor din Senat și din Camera Deputaților, cu ziua, ora și sala.'}
             </span>
             {bills.size > 0 && (
               <div style={{ display: 'flex', marginTop: 'auto' }}>

@@ -21,3 +21,10 @@ output/
 
 # Mediile Python pentru modelele locale (scripts/local-models/README.md)
 scripts/local-models/.venv-*/
+
+# Fișierele temporare ale scrierilor atomice (scripts/lib/atomic.mjs), rămase după un proces oprit.
+*.tmp
+
+# Ieșirea lui `next dev` pornit cu alt director și cache-ul Python al modelelor locale.
+.next-dev/
+__pycache__/

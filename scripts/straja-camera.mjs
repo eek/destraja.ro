@@ -8,7 +8,11 @@
 //   2. După votul Senatului, proiectul primește la Cameră număr PL-x sau Pl-x. Îl căutăm în lista anului după titlu,
 //      iar fișa lui trebuie să scrie „- Senat: L…/an”, același număr L ca fișa Senatului.
 // Când istoricul Senatului n-are BPI, dar inițiatorii sunt deputați, căutăm în lista BP după titlu și inițiatori.
-// Citim listele o dată pe rulare și o fișă doar când e nouă, când i s-a schimbat stadiul în listă sau după 7 zile.
+// Citim listele o dată pe rulare. Fișele PL-x vin din data/cdep/proiecte, unde straja-cdep.mjs le recitește după regulile
+// lui (stadiu nou, ședințe, termene, vârstă); aici cerem doar fișele BP și pe cele care lipsesc de acolo sau au alt stadiu.
+//
+// O legătură găsită rămâne și când căutarea nu mai dă nimic (inițiatori retrași, titlu schimbat, listă goală), cât timp
+// rândul ei e în listele Camerei; o ștergem doar când fișa Camerei scrie alt număr L.
 //
 //   node scripts/straja-camera.mjs [slug]
 import fs from 'node:fs';
@@ -16,6 +20,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { CdepBlocked, fetchCdep, listUrl, parseList, parseSheet, sheetUrl } from './lib/cdep.mjs';
 import { vmCall } from './lib/cdep-peer.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'data', 'camera');
@@ -48,12 +53,14 @@ async function list(kind, year) {
   return lists.get(key);
 }
 
-// Fișa citită de straja-cdep.mjs pentru anul curent (data/cdep/proiecte), dacă e a aceluiași rând și din ultimele zile.
+// Fișa citită de straja-cdep.mjs pentru anul curent (data/cdep/proiecte), dacă e a aceluiași rând și cu stadiul din listă.
+// Fără limită de vârstă: de aici ne trebuie numărul L, care nu se schimbă, iar fișa e recitită acolo când are de ce.
+// Cu limita de 7 zile, fiecare candidat cu fișa mai veche era cerut din nou în fiecare zi (50 de cereri pe 10 noiembrie).
 const slugOf = (row) => `${row.tip.toLowerCase().replace(/[^a-z]/g, '')}-${row.nr}-${row.an}`.replace(/^pl(x)?-/, 'plx-');
 function chamberSheet(row) {
   try {
     const s = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'cdep', 'proiecte', `${slugOf(row)}.json`), 'utf8'));
-    const ok = s.idp === row.idp && s.stadiu === row.stadiu && s.stadiuData === row.stadiuData && Date.now() - Date.parse(s.cititLa) < STALE_DAYS * 86_400_000;
+    const ok = s.idp === row.idp && s.stadiu === row.stadiu && s.stadiuData === row.stadiuData;
     return ok ? s.fisa : null;
   } catch {
     return null;
@@ -126,11 +133,29 @@ try {
       }
     }
 
-    if (!found) {
-      if (previous) fs.rmSync(file);
-      continue;
+    // Căutarea n-a mai găsit nimic, dar aveam o legătură verificată. De obicei nu legătura e greșită, ci căutarea nu mai
+    // e concludentă: s-au retras inițiatori, s-a schimbat titlul sau lista a venit goală. Întâi căutăm rândul cu idp-ul
+    // știut; legătura se șterge doar când fișa Camerei scrie alt număr L decât al nostru.
+    if (!found && previous) {
+      const year = +(previous.numar?.match(/(\d{4})\s*$/)?.[1] ?? bill.id.split('/')[1]);
+      const row = [...(await list('anb', year)), ...(await list('anp', year))].find((r) => r.idp === previous.idp);
+      if (!row) {
+        notes.push(`${bill.id}: ${previous.numar} nu mai apare în listele Camerei pe ${year}; legătura rămâne cum era`);
+        linked++;
+        continue;
+      }
+      const sheet = await sheetFor(row, previous);
+      const isL = (n) => /^L\d+\/\d{4}$/.test(n ?? '');
+      if (isL(sheet.numarSenat) && isL(bill.senatNr) && sheet.numarSenat !== bill.senatNr) {
+        notes.push(`${bill.id}: fișa ${previous.numar} scrie ${sheet.numarSenat}, iar Senatul ${bill.senatNr}; șterg legătura`);
+        fs.rmSync(file);
+        continue;
+      }
+      notes.push(`${bill.id}: căutarea nu mai găsește ${previous.numar}, dar e în lista Camerei; păstrez legătura`);
+      found = { row, sheet, legatura: previous.legatura };
     }
-    const { row, sheet, cale, check } = found;
+    if (!found) continue;
+    const { row, sheet } = found;
     const out = {
       slug: bill.slug,
       idp: row.idp,
@@ -142,11 +167,11 @@ try {
       stadiu: row.stadiu,
       stadiuData: row.stadiuData,
       listStadiu: `${row.stadiu} ${row.stadiuData}`,
-      legatura: { cale, ...check },
+      legatura: found.legatura ?? { cale: found.cale, ...found.check },
       cititLa: previous?.fisa === sheet ? previous.cititLa : new Date().toISOString(),
       fisa: sheet,
     };
-    fs.writeFileSync(file, JSON.stringify(out, null, 1) + '\n');
+    writeFileAtomic(file, JSON.stringify(out, null, 1) + '\n');
     linked++;
   }
 } catch (err) {

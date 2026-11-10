@@ -18,6 +18,7 @@ import { runModel } from './lib/ai-cli.mjs';
 import { clean, quoteKey, verifiedQuote } from './lib/quotes.mjs';
 import { CdepBlocked, fetchCdep, fetchCdepFile, parseSheet } from './lib/cdep.mjs';
 import { readUntrustedPdf } from './lib/pdf-untrusted.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -88,10 +89,10 @@ async function reportUrls(slug) {
   // salvăm cu link-urile.
   const cached = path.join(HTML, `${slug}.html`);
   const fresh = fs.existsSync(cached) && Date.now() - fs.statSync(cached).mtimeMs < 7 * 24 * 3600_000;
-  if (!fresh) fs.writeFileSync(cached, await fetchCdep(sheet.url));
+  if (!fresh) writeFileAtomic(cached, await fetchCdep(sheet.url));
   const fisa = parseSheet(fs.readFileSync(cached, 'utf8'));
   const cititLa = fs.statSync(cached).mtime.toISOString();
-  fs.writeFileSync(path.join(DATA, 'cdep', 'proiecte', `${slug}.json`), JSON.stringify({ ...sheet, cititLa, fisa }, null, 1) + '\n');
+  writeFileAtomic(path.join(DATA, 'cdep', 'proiecte', `${slug}.json`), JSON.stringify({ ...sheet, cititLa, fisa }, null, 1) + '\n');
   return fisa.rapoarte;
 }
 
@@ -101,10 +102,10 @@ async function reportText(slug, url) {
   const pdf = path.join(dir, path.basename(new URL(url).pathname));
   const txt = pdf.replace(/\.pdf$/i, '.txt');
   if (fs.existsSync(txt)) return fs.readFileSync(txt, 'utf8');
-  if (!fs.existsSync(pdf)) fs.writeFileSync(pdf, await fetchCdepFile(url));
+  if (!fs.existsSync(pdf)) writeFileAtomic(pdf, await fetchCdepFile(url));
   const r = await readUntrustedPdf(fs.readFileSync(pdf));
   const text = typeof r === 'string' ? r : (r?.text ?? '');
-  fs.writeFileSync(txt, text);
+  writeFileAtomic(txt, text);
   return text;
 }
 
@@ -194,7 +195,7 @@ async function process1(slug) {
     }
   }
   const counts = { admise: amendments.filter((a) => a.status === 'admis').length, respinse: amendments.filter((a) => a.status === 'respins').length };
-  fs.writeFileSync(
+  writeFileAtomic(
     path.join(OUT, `${slug}.json`),
     JSON.stringify({ slug, billId: sheet?.numar ?? slug, schema: SCHEMA, model, updatedAt: new Date().toISOString(), inputHash, reports: urls, counts, amendments, matches }, null, 1) + '\n',
   );

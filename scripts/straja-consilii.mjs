@@ -16,6 +16,7 @@ import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { decode, pageText, norm, todayBucharest } from './lib/web.mjs';
 import { readUntrustedPdf } from './lib/pdf-untrusted.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'data', 'consilii');
@@ -83,7 +84,7 @@ async function getPdf(url) {
   const buf = await get(url, { binary: true });
   if (buf.subarray(0, 5).toString('latin1') !== '%PDF-') throw new Error('nu e PDF');
   fs.mkdirSync(CACHE, { recursive: true });
-  fs.writeFileSync(f, buf);
+  writeFileAtomic(f, buf);
   return buf;
 }
 
@@ -400,5 +401,5 @@ for (const id of ids) {
   }
   if (!out.eroare) out.preluatOk = TODAY;
   fs.mkdirSync(path.dirname(file), { recursive: true });
-  fs.writeFileSync(file, JSON.stringify(out, null, 2) + '\n');
+  writeFileAtomic(file, JSON.stringify(out, null, 2) + '\n');
 }

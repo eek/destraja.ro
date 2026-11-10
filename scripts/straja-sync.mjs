@@ -2,8 +2,10 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { writeBillTexts } from './lib/pdf-text.mjs';
+import { dropSuperseded, writeBillTexts } from './lib/pdf-text.mjs';
 import { todayBucharest } from './lib/web.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
+import { senatRereadDays } from './lib/senat-votes.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
@@ -70,6 +72,7 @@ async function fetchHtml(url) {
       'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) DeStraja/1.0',
       Accept: 'text/html,application/xhtml+xml',
     },
+    signal: AbortSignal.timeout(60_000),
   });
   if (!res.ok) {
     throw new Error(`HTTP ${res.status} for ${url}`);
@@ -138,6 +141,8 @@ async function parseConsultationList() {
 
 async function parseBillSheet(bill) {
   const html = await fetchHtml(bill.sheetUrl);
+  // O pagină tăiată sau una de eroare servită cu 200 nu e o fișă.
+  if (!/<\/html>/i.test(html) || !/Stadiu\s*:/i.test(html)) throw new Error('pagina primită nu e o fișă întreagă');
 
   // Extract Initiators (look for the detail row "Inițiatori: </td><td>...")
   let initiatorsRaw = '';
@@ -291,7 +296,7 @@ async function parsePublicOpinions(bill) {
     return opinions;
   } catch (err) {
     console.warn(`⚠️ Nu am putut extrage opiniile pentru ${bill.id}:`, err.message);
-    return [];
+    return null;
   }
 }
 
@@ -304,12 +309,14 @@ async function downloadPdfsAndExtractText(bill, shouldDownload = false) {
     const filePath = path.join(billPdfDir, `${pdf.type}_${path.basename(pdf.url)}`);
     if (fs.existsSync(filePath)) continue;
     try {
-      const res = await fetch(pdf.url);
-      if (res.ok) fs.writeFileSync(filePath, Buffer.from(await res.arrayBuffer()));
+      const res = await fetch(pdf.url, { signal: AbortSignal.timeout(180_000) });
+      if (res.ok) writeFileAtomic(filePath, Buffer.from(await res.arrayBuffer()));
     } catch (err) {
       console.warn(`⚠️ Eroare PDF ${pdf.url}:`, err.message);
     }
   }
+  // După numărul L fișa trimite la alte fișiere (26L622ES.PDF în loc de 26b523ES.PDF): rămân doar cele din fișa de azi.
+  const reread = dropSuperseded(billPdfDir, (bill.pdfs || []).map((pdf) => `${pdf.type}_${path.basename(pdf.url)}`));
 
   let pdfParse = null;
   try {
@@ -318,13 +325,74 @@ async function downloadPdfsAndExtractText(bill, shouldDownload = false) {
   } catch {
     return {};
   }
-  return writeBillTexts(billPdfDir, path.join(TEXT_DIR, bill.slug), { pdfParse, cacheDir: path.join(ROOT_DIR, '.cache', 'ocr') });
+  return writeBillTexts(billPdfDir, path.join(TEXT_DIR, bill.slug), { pdfParse, cacheDir: path.join(ROOT_DIR, '.cache', 'ocr'), reread });
 }
 
 function addDays(iso, n) {
   const d = new Date(`${iso}T12:00:00Z`);
   d.setUTCDate(d.getUTCDate() + n);
   return d.toISOString().slice(0, 10);
+}
+
+// O fișă fără parcurs sau fără documente e o pagină stricată: orice proiect are măcar înregistrarea și forma inițiatorului.
+// Una cu mult mai puține rânduri decât ieri la fel; una cu câteva mai puține o credem (Senatul mai corectează), cu un semn.
+function sheetProblem(details, prev) {
+  if (!details.timeline.length) return 'fișa nu are parcurs';
+  if (!details.pdfs.length) return 'fișa nu are documente';
+  if (!prev?.timeline || !prev.pdfs) return null;
+  if (details.timeline.length * 2 < prev.timeline.length) return `fișa are ${details.timeline.length} rânduri, față de ${prev.timeline.length}`;
+  if (details.pdfs.length * 2 < prev.pdfs.length) return `fișa are ${details.pdfs.length} documente, față de ${prev.pdfs.length}`;
+  if (details.timeline.length < prev.timeline.length || details.pdfs.length < prev.pdfs.length) {
+    console.log(`\n⚠️ ${prev.id}: fișa are mai puțin ca ieri (${prev.timeline.length} → ${details.timeline.length} rânduri, ${prev.pdfs.length} → ${details.pdfs.length} documente)`);
+  }
+  return null;
+}
+
+// ── Proiectele ieșite din consultare ──
+// Senatul le scoate din listă când primesc număr L, dar drumul lor abia începe: comisii, avize, raport, vot. Fișa se
+// recitește mai departe (senat.ro n-are limită de cereri): zilnic cât s-a mișcat ceva în ultima lună, apoi tot mai rar.
+// După un stadiu final, săptămânal încă două luni (reexaminări, corecturi), apoi deloc.
+const DAY_MS = 24 * 3_600_000;
+
+function rereadDue(b, now = Date.now()) {
+  if (!b.sheetUrl) return false;
+  const every = senatRereadDays(b, now);
+  // Rularea zilnică nu ajunge la fiecare proiect la aceeași oră: șase ore de joc, ca „zilnic” să nu devină „la două zile”.
+  return now - (b.syncedAt ? Date.parse(b.syncedAt) : 0) >= every * DAY_MS - 6 * 3_600_000;
+}
+
+/** Recitește fișele proiectelor păstrate; ce vine din listă (termen, opinii) și datele noastre rămân cum erau. */
+async function rereadKept(kept) {
+  const due = kept.filter((b) => rereadDue(b));
+  if (!due.length) return;
+  console.log(`🔁 Recitesc ${due.length} din ${kept.length} fișe ale proiectelor ieșite din consultare.`);
+  let changed = 0;
+  let failed = 0;
+  for (const b of due) {
+    try {
+      const details = await parseBillSheet(b);
+      const problem = sheetProblem(details, b);
+      if (problem) throw new Error(problem);
+      const news = [
+        details.stage !== b.stage && `stadiu: ${details.stage}`,
+        details.senatNr && details.senatNr !== b.senatNr && `număr: ${details.senatNr}`,
+        details.timeline.length !== (b.timeline?.length ?? 0) && `${details.timeline.length - (b.timeline?.length ?? 0)} rânduri noi`,
+        details.pdfs.length !== (b.pdfs?.length ?? 0) && `${details.pdfs.length - (b.pdfs?.length ?? 0)} documente noi`,
+      ].filter(Boolean);
+      const next = { ...b, ...details, syncedAt: new Date().toISOString() };
+      await downloadPdfsAndExtractText(next, true);
+      Object.assign(b, next);
+      if (news.length) {
+        changed++;
+        console.log(`   ${b.id}: ${news.join(', ')}`);
+      }
+    } catch (err) {
+      failed++;
+      console.log(`   ${b.id}: EROARE: ${err.message} (păstrez datele anterioare)`);
+    }
+    await new Promise((r) => setTimeout(r, 1000));
+  }
+  console.log(`🔁 ${changed} fișe schimbate, ${due.length - changed - failed} la fel${failed ? `, ${failed} necitite` : ''}.`);
 }
 
 async function main() {
@@ -351,7 +419,10 @@ async function main() {
     process.stdout.write(`🔍 [${i + 1}/${list.length}] Se extrage fișa pentru ${item.id}... `);
     try {
       const details = await parseBillSheet(item);
-      const opinions = await parsePublicOpinions(item);
+      const problem = sheetProblem(details, previous.get(item.id));
+      if (problem) throw new Error(problem);
+      // Opiniile necitite azi rămân cele de ieri.
+      const opinions = (await parsePublicOpinions(item)) ?? previous.get(item.id)?.publicOpinions ?? [];
       const fullBill = {
         ...item,
         ...details,
@@ -362,8 +433,9 @@ async function main() {
       enriched.push(fullBill);
       console.log(`OK (${details.initiators.length} inițiatori, ${details.pdfs.length} PDF-uri, ${opinions.length} opinii)`);
     } catch (err) {
-      console.log(`EROARE: ${err.message}${previous.has(item.id) ? ' (păstrez datele anterioare)' : ''}`);
-      enriched.push(previous.get(item.id) ?? item);
+      // Un proiect nou fără fișă n-are inițiatori, documente sau parcurs: nu-l publicăm pe jumătate, îl luăm la rularea următoare.
+      console.log(`EROARE: ${err.message}${previous.has(item.id) ? ' (păstrez datele anterioare)' : ' (proiect nou; îl reiau la rularea următoare)'}`);
+      if (previous.has(item.id)) enriched.push(previous.get(item.id));
     }
   }
 
@@ -383,6 +455,7 @@ async function main() {
       Object.assign(b, { leftListAt: today, announcedDeadline: b.consultationDeadline, consultationDeadline: closed });
       console.log(`🔒 ${b.id} a ieșit din consultare pe ${today}, înainte de termenul anunțat (${b.announcedDeadline}).`);
     }
+    await rereadKept(kept);
     enriched.push(...kept);
   } else {
     // Cu filtru actualizăm doar proiectele cerute, restul rămân neatinse.
@@ -390,7 +463,7 @@ async function main() {
     enriched.splice(0, enriched.length, ...previous.values());
   }
 
-  fs.writeFileSync(BILLS_FILE, JSON.stringify(enriched, null, 2), 'utf8');
+  writeFileAtomic(BILLS_FILE, JSON.stringify(enriched, null, 2));
   console.log(`\n🎉 Salvat ${enriched.length} proiecte în ${BILLS_FILE}`);
 }
 

@@ -15,6 +15,7 @@ import { fileURLToPath } from 'node:url';
 import { runModel } from './lib/ai-cli.mjs';
 import { readCdepIndex } from './lib/cdep-index.mjs';
 import { clean, quoteKey, verifiedQuote } from './lib/quotes.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -181,7 +182,7 @@ async function worker() {
   for (let b = queue.shift(); b; b = queue.shift()) {
     try {
       const out = await balance(b);
-      fs.writeFileSync(path.join(OUT, `${b.slug}.json`), JSON.stringify(out, null, 2) + '\n');
+      writeFileAtomic(path.join(OUT, `${b.slug}.json`), JSON.stringify(out, null, 2) + '\n');
       done++;
       console.log(`✓ ${b.id}: ${out.good.length} bune, ${out.bad.length} rele, citate ${out.quotes.verified}/${out.quotes.checked}${out.fix ? `, fără ${out.fix.removes.length} → ${out.fix.levelAfter ?? '?'}` : ''}`);
     } catch (err) {

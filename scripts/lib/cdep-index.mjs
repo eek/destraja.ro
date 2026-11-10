@@ -5,8 +5,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-// Stadiile din listă în care proiectul e chiar la Cameră și se mai poate interveni (ca în straja-cdep.mjs).
-export const AT_CHAMBER = /^(la comisii|raport|pe ordinea de zi|în reexaminare|aviz|sesizare)/i;
+// Stadiile din listă în care proiectul e chiar la Cameră și se mai poate interveni. „retrimis” (la comisii) e proiectul
+// întors de plen pentru raport suplimentar; „-”, cu o dată, e cel înscris pe ordinea de zi a plenului sub rezerva
+// depunerii raportului (rămâne așa până vine raportul, uneori ani). Pe site, aceleași stadii sunt în STAGES
+// (src/lib/cdep-text.ts).
+export const AT_CHAMBER = /^(la comisii|retrimis|raport|pe ordinea de zi|-$|în reexaminare|aviz|sesizare)/i;
 
 export const oldYearsDir = (dataDir) => path.join(dataDir, 'cdep', 'ani');
 

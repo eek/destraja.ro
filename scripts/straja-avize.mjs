@@ -3,10 +3,11 @@
 // Consiliului Legislativ și opinia Consiliului Fiscal. Pentru fiecare document: verdictul și 1–3 observații pe scurt,
 // fiecare cu un citat exact, verificat în cod. Rezultatul: data/avize/<slug>.json, afișat pe pagina proiectului.
 //
-//   node scripts/straja-avize.mjs [slug…] [--max=50] [--force] [--paralel=2] [--senat] [--fara-cdep] [--asteapta-captcha]
+//   node scripts/straja-avize.mjs [slug…] [--max=50] [--minute=N] [--force] [--paralel=2] [--senat] [--fara-cdep] [--asteapta-captcha]
 //                                 [--reverifica]
 //
-// Fără slug-uri: proiectele Camerei din anul curent aflate pe ordinea de zi, apoi cele cu raport (cel mult --max).
+// Fără slug-uri: proiectele Camerei din anul curent aflate pe ordinea de zi, apoi cele cu raport. Cu mai multe decât
+// --max, întâi cele neverificate, apoi cele schimbate sau rămase neterminate, apoi restul, de la verificarea cea mai veche.
 // --senat adaugă proiectele urmărite de la Senat care au avizul Consiliului Legislativ (doar acest aviz; textul e deja în
 // data/texts). --fara-cdep nu cere nimic de la cdep.ro (doar senat.ro și ce e în cache). --asteapta-captcha: după un
 // captcha la cdep.ro așteptăm cele două ore de pauză (de cel mult două ori) în loc să sărim documentele de acolo.
@@ -53,6 +54,7 @@ import {
   words,
   writeJsonAtomic,
 } from './lib/avize.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -61,6 +63,9 @@ const CACHE = path.join(ROOT, '.cache', 'avize');
 const SHEET_HTML = path.join(ROOT, '.cache', 'cdep-html');
 const OCR_CACHE = path.join(ROOT, '.cache', 'ocr');
 const CLAIMS = path.join(ROOT, '.cache', 'claims', 'avize');
+// Evidența verificărilor, pe proiect: { slug: { at, pending } }. Fără ea, un proiect fără niciun document (nu scrie nimic
+// în data/avize) ar părea mereu nou, iar unul rămas la jumătate (model eșuat, cdep.ro oprit) ar părea terminat.
+const CHECKED_FILE = path.join(ROOT, '.cache', 'avize-checked.json');
 const SCHEMA = 1;
 // Versiunea instrucțiunilor pentru model, pe fel de document: o schimbare refolosește textele, dar cere din nou modelului.
 // cf 2: o opinie a Consiliului Fiscal tratează adesea mai multe propuneri deodată; modelul o caută doar pe a noastră.
@@ -74,6 +79,8 @@ const args = process.argv.slice(2);
 const opt = (name, def) => args.find((a) => a.startsWith(`--${name}=`))?.split('=').slice(1).join('=') ?? def;
 const slugs = args.filter((a) => !a.startsWith('--'));
 const MAX = Number(opt('max', 50));
+// --minute=N: după N minute nu mai începem proiecte noi (cele începute se termină); pentru pasul din rularea zilnică.
+const DEADLINE = opt('minute') ? Date.now() + Number(opt('minute')) * 60_000 : Infinity;
 const PARALLEL = Number(opt('paralel', 2));
 const FORCE = args.includes('--force');
 const WITH_SENAT = args.includes('--senat');
@@ -264,8 +271,8 @@ async function pdfText(slug, kind, url, source) {
     return { text: '', method: 'gol', pages: layer.pages };
   }
   const meta = { method, pages: layer.pages, noise: Math.round(noise * 1000) / 1000 };
-  fs.writeFileSync(txtPath, text);
-  fs.writeFileSync(metaPath, JSON.stringify(meta) + '\n');
+  writeFileAtomic(txtPath, text);
+  writeFileAtomic(metaPath, JSON.stringify(meta) + '\n');
   return { text, ...meta };
 }
 
@@ -577,6 +584,7 @@ async function processBill(target) {
     writeJsonAtomic(outPath, { slug: target.slug, billId: target.billId, schema: SCHEMA, updatedAt: new Date().toISOString(), documents });
   };
   const ctx = { billId: target.billId, otherIds: target.otherIds, title: target.title };
+  let pending = false;
   for (let item of items) {
     try {
       if (item.later) {
@@ -585,6 +593,7 @@ async function processBill(target) {
       }
       const { entry, status } = await processDoc(target.slug, item, ctx, prevBy[item.kind]);
       console.log(`  ${target.billId} · ${item.kind}: ${status}${entry?.source ? ` (${entry.source})` : ''}`);
+      if (status === 'model eșuat') pending = true;
       if (!entry) continue;
       docs[item.kind] = entry;
       save();
@@ -593,10 +602,39 @@ async function processBill(target) {
       if (entry.textHash) bump(stats.sources, entry.source);
     } catch (err) {
       stats.failed++;
+      pending = true;
       console.log(`  ✗ ${target.billId} · ${item.kind}: ${String(err.message || err).slice(0, 200)}`);
     }
   }
   stats.bills++;
+  // Cu cdep.ro oprit pe parcurs, raportul sau un PDF de acolo a rămas necitit: proiectul revine în față data viitoare.
+  noteChecked(target.slug, pending || Boolean(cdepOff));
+}
+
+/** Ține minte că am trecut prin proiect. Recitim fișierul înainte: pot rula două procese (cel zilnic și unul de recuperare). */
+function noteChecked(slug, pending) {
+  const all = readJson(CHECKED_FILE, {});
+  all[slug] = { at: new Date().toISOString(), ...(pending && { pending: true }) };
+  writeJsonAtomic(CHECKED_FILE, all);
+}
+
+/**
+ * Ordinea de lucru, înainte de limita --max: întâi proiectele prin care n-am trecut niciodată, apoi cele cu fișa recitită
+ * după ultima verificare sau rămase neterminate, apoi restul, de la verificarea cea mai veche. Altfel, cu mai multe
+ * proiecte decât limita, aceleași dintâi ar fi luate zilnic, iar celelalte niciodată. În aceeași treaptă rămâne ordinea
+ * primită (ordinea de zi, apoi rapoartele, cele mai noi întâi).
+ */
+function byNeed(sheets) {
+  const state = readJson(CHECKED_FILE, {});
+  const rows = sheets.map((sheet, i) => {
+    // Proiectele verificate înainte de evidență: data fișierului lor din data/avize.
+    const at = state[sheet.slug]?.at ?? readJson(path.join(OUT, `${sheet.slug}.json`))?.updatedAt ?? null;
+    const tier = !at ? 0 : state[sheet.slug]?.pending || (sheet.cititLa ?? '') > at ? 1 : 2;
+    return { sheet, i, at: at ?? '', tier };
+  });
+  const count = (t) => rows.filter((r) => r.tier === t).length;
+  console.log(`   ${rows.length} proiecte cu raport sau pe ordinea de zi: ${count(0)} neverificate, ${count(1)} schimbate sau neterminate, ${count(2)} verificate`);
+  return rows.sort((a, b) => a.tier - b.tier || (a.tier === 2 ? a.at.localeCompare(b.at) : 0) || a.i - b.i).map((r) => r.sheet);
 }
 
 // ── Ce proiecte ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -639,10 +677,8 @@ function targets() {
     index.proiecte
       .filter((p) => re.test(p.stadiu) && p.inregistrat?.startsWith(String(year)))
       .sort((a, b) => day(b.stadiuData).localeCompare(day(a.stadiuData)) || a.inregistrat.localeCompare(b.inregistrat));
-  const chamber = [...group(/^pe ordinea de zi/i), ...group(/^raport/i)]
+  const chamber = byNeed([...group(/^pe ordinea de zi/i), ...group(/^raport/i)].map((p) => sheetOf(p.slug)).filter(Boolean))
     .slice(0, MAX)
-    .map((p) => sheetOf(p.slug))
-    .filter(Boolean)
     .map(chamberTarget);
   const senate = WITH_SENAT ? senatBills.map(senateTarget).filter(Boolean) : [];
   return [...chamber, ...senate];
@@ -655,6 +691,11 @@ const started = Date.now();
 console.log(`🏛️ Ce spun instituțiile: ${queue.length} proiecte, ${PARALLEL} în paralel${NO_CDEP ? ', fără cdep.ro' : ''}; așteptăm cât există ${YIELD_TO}`);
 async function worker() {
   for (let t = queue.shift(); t; t = queue.shift()) {
+    if (Date.now() > DEADLINE) {
+      console.log(`⏱ Timpul pasului s-a terminat: ${queue.length + 1} proiecte rămân pentru rularea următoare`);
+      queue.length = 0;
+      return;
+    }
     const release = claim(t.slug);
     if (!release) {
       console.log(`· ${t.billId}: îl lucrează alt proces`);

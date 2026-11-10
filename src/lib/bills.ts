@@ -270,7 +270,7 @@ const TEXT_ORDER = ['forma_initiatorului', 'expunere_motive', 'aviz', 'adresa_in
 function textName(pdf: BillPdf) {
   if (pdf.type !== 'aviz' && pdf.type !== 'other') return pdf.type;
   const base = path.basename(pdf.url).replace(/\.pdf$/i, '');
-  return `${pdf.type}_${base.replace(/^\d{2}b\d+/i, '') || base}`;
+  return `${pdf.type}_${base.replace(/^\d{2}[bl]\d+/i, '') || base}`;
 }
 
 export async function getBillExtractedTexts(bill: Pick<EnrichedBill, 'slug' | 'pdfs'>): Promise<BillText[]> {

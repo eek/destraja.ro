@@ -58,9 +58,10 @@ Neverificat pe pagini reale (le-am dedus din cod): cum arată exact `deLa`/`pana
 nu e luată drept oră), `etaj`/`sala` (punem „sala”/„etaj” în față doar dacă lipsesc) și `scop`/`termen`. De verificat pe
 primele fișiere reale de pe VM. Plenul și ședința comună sunt recunoscute după nume („Plenul…”, „Ședința comună…”).
 
-## Ce trebuie să scrie cititorul Camerei (de făcut)
+## Ce scrie cititorul Camerei (făcut pe 2026-11-10, `scripts/straja-cdep-agenda.mjs`)
 
-`data/agenda/camera/<zi>/<idc>.json`, câte unul pe comisie și zi, cu aceeași formă ca la Senat:
+`data/agenda/camera/<zi>/<idc>.json`, câte unul pe comisie și zi, cu aceeași formă ca la Senat (cum e de fapt, mai jos, la
+„Cititorul Camerei”):
 
 - `comisieId`: idc-ul comisiei de pe cdep.ro (ca în `data/cdep/comisii.json`); pentru plen, ceva stabil, de exemplu `plen`;
 - `comisie`: numele întreg; plenul exact „Plenul Camerei Deputaților” (numele care începe cu „Plenul” îl marchează ca plen);
@@ -72,13 +73,14 @@ primele fișiere reale de pe VM. Plenul și ședința comună sunt recunoscute d
   (șiruri goale când lipsesc);
 - `cititLa`: ISO. Opțional, ca la Senat, `schimbari.jsonl` și `citiri.jsonl` alături.
 
-Nimic altceva de schimbat pe site: blocul de pe pagini și `/agenda` le iau automat (textul de pe `/agenda` spune deocamdată
-că sunt doar ordinile de zi ale Senatului; de schimbat odată cu cititorul).
+Blocul de pe pagini și `/agenda` le iau automat. Textele de pe `/agenda` și imaginea de distribuire spun acum și Camera
+Deputaților; plenul Camerei nu e citit încă.
 
 ## Ce urmează
 
-1. Copierea datelor de pe VM la build (vezi mai sus) și o primă verificare pe fișiere reale.
-2. Cititorul Camerei, când cdep.ro e accesibil.
+1. Copierea datelor de pe VM la build (vezi mai sus) și o primă verificare pe fișiere reale: făcut (pasul „Agendele
+   Senatului” din `straja-daily.mjs`).
+2. Cititorul Camerei: făcut, vezi mai jos. Rămâne plenul Camerei.
 3. În e-mail: o secțiune „Săptămâna aceasta în comisii” cu `upcomingAgenda`, fără să trimitem de două ori aceeași ședință
    (evidența în `data/digests/state.json`).
 
@@ -95,3 +97,25 @@ că sunt doar ordinile de zi ale Senatului; de schimbat odată cu cititorul).
   VM-ul ia codul nou.
 - Camera Deputaților: www.cdep.ro tot nu răspunde din cloud (conexiunea TLS e tăiată după ~15 s), deci cititorul Camerei
   rămâne de făcut local.
+
+## Cititorul Camerei (2026-11-10)
+
+- `scripts/straja-cdep-agenda.mjs` (pasul „Camera: ordinile de zi” din actualizarea zilnică, pe Mac, cu pauza comună a
+  cdep.ro: o cerere pe minut) citește `sedinte2015.lista` (ședințele anunțate) și `?tip=-7` (ultimele șapte zile), apoi
+  PDF-urile ordinilor de zi: cele noi și, în ziua ședinței, încă o dată pe cele de azi. Cel mult 25 de PDF-uri pe rulare.
+  Prima rulare: 45 de PDF-uri, 47 de cereri, 36 de fișiere pe 7 zile, 149 de puncte.
+- Ordinea de zi e doar un PDF, iar proiectele apar în el ca text, fără link: le găsim după număr (`billNumbers` din
+  `scripts/lib/cdep-agenda.mjs`; comisiile scriu „PLx 165/2026”, „PL-x nr. 165/2026”, „Plx.165/2026”, „PLx 329 2026” sau
+  numărul fără an, cu data dedesubt). PDF-urile sunt citite doar prin `readUntrustedPdf`, într-un proces separat.
+- Ce diferă de cerințele de mai sus: `cod` e idp-ul din fișa noastră (`data/cdep/proiecte/<slug>.json`), nu dintr-un link,
+  și e `null` când n-avem fișa (10 numere din 149, proiecte din ani neurmăriți sau cu alt stadiu în listă); `titlu` vine
+  din fișă; `scop` e „Raport” sau „Aviz” după comisiile din fișă, gol când fișa nu numește comisia; `termen` e mereu gol;
+  `etaj` e mereu gol, iar tot locul stă în `sala` („parter, corp B4, camera 28”), pe care `place()` îl lasă cum e.
+- O ședință comună apare pe cdep.ro de două ori (o dată pentru fiecare comisie): scriem câte un fișier pe comisie, cu
+  punctele din amândouă PDF-urile. Comisiile comune cu Senatul scriu numărul de la Senat („L631/2026”): îl păstrăm când e
+  al unui proiect urmărit, iar site-ul îl leagă prin `senatNr` din `data/senat-bills.json`.
+- Zilele de „documentare și consultare” nu sunt ședințe și nu se scriu. Zilele trecute rămân cinci săptămâni.
+- Ordinile de zi hotărăsc și când recitim fișele (`scripts/lib/cdep-reread.mjs`): cu o zi înaintea ședinței, apoi la 1, 3
+  și 7 zile după, până apare pe fișă raportul sau avizul comisiei.
+- Verificat cu `getAgenda()` pe fișierele reale: 139 de apariții ale proiectelor urmărite la Cameră, 67 în săptămâna
+  9–15 noiembrie.

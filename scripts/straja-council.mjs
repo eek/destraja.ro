@@ -5,9 +5,10 @@ import { fileURLToPath } from 'node:url';
 import { textName, writeBillTexts } from './lib/pdf-text.mjs';
 import { runModel } from './lib/ai-cli.mjs';
 import { CdepBlocked, fetchCdepFile } from './lib/cdep.mjs';
-import { readCdepIndex } from './lib/cdep-index.mjs';
+import { AT_CHAMBER, readCdepIndex } from './lib/cdep-index.mjs';
 import { unitDiff } from './lib/text-diff.mjs';
 import { clean, quoteKey, verifiedQuote } from './lib/quotes.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
@@ -271,7 +272,7 @@ async function analyzeBillWithCouncil(bill, force = false, { texts: given, versi
     },
   };
 
-  fs.writeFileSync(outFile, JSON.stringify(analysis, null, 2), 'utf8');
+  writeFileAtomic(outFile, JSON.stringify(analysis, null, 2));
   return analysis;
 }
 
@@ -284,7 +285,6 @@ async function analyzeBillWithCouncil(bill, force = false, { texts: given, versi
 // Cu COUNCIL_MODELS, --due ia și analizele cărora le lipsește răspunsul unui model cerut: analizele făcute fără Claude
 // (COUNCIL_MODELS=agy,codex) se completează mai târziu cu COUNCIL_MODELS=claude, fără să se refacă Gemini și ChatGPT.
 const CDEP_DIR = path.join(DATA_DIR, 'cdep');
-const AT_CHAMBER = /^(la comisii|raport|pe ordinea de zi|în reexaminare|aviz|sesizare)/i;
 const PRIORITY = [/^pe ordinea de zi/i, /^raport/i];
 
 // Documentele care ne trebuie din fișa Camerei și numele sub care le păstrăm (scripts/lib/pdf-text.mjs: textName).
@@ -343,7 +343,7 @@ async function downloadChamberPdfs(sheet) {
     // Proiectele trecute pe la Senat au aceleași texte pe senat.ro: le luăm de acolo, ca să cerem puțin de la cdep.ro.
     const alt = SENAT_CODE[type] && senatPdf(sheet.fisa.numarSenat, SENAT_CODE[type]);
     const fromSenat = alt && (await fetchSenatPdf(alt).catch(() => null));
-    fs.writeFileSync(file, fromSenat ?? (await fetchCdepFile(doc.url)));
+    writeFileAtomic(file, fromSenat ?? (await fetchCdepFile(doc.url)));
   }
   return true;
 }
@@ -506,7 +506,7 @@ async function downloadVersions(sheet, plan) {
         if (!v.optional) console.log(`   ⚠️ ${VERSION_LABEL[v.key]} lipsește: ${v.url}`);
         continue;
       }
-      fs.writeFileSync(file, buf);
+      writeFileAtomic(file, buf);
     }
     kept.push(v);
   }
@@ -684,7 +684,7 @@ async function versionsForBill(sheet, force, recompare = false) {
     if (saved && !missingModels(saved)) analyses[v.key] = saved;
     else if (!force && main && mainVersion === v.key) {
       analyses[v.key] = { ...main, version: v.key };
-      fs.writeFileSync(file, JSON.stringify(analyses[v.key], null, 2));
+      writeFileAtomic(file, JSON.stringify(analyses[v.key], null, 2));
     } else {
       analyses[v.key] = await analyzeBillWithCouncil(bill, force, { texts, version: v.key, outFile: file });
     }
@@ -692,7 +692,7 @@ async function versionsForBill(sheet, force, recompare = false) {
   // Analiza principală e a formei celei mai noi; o rescriem și când i s-au completat modelele.
   const latest = withText.at(-1).key;
   if (!main || mainVersion !== latest || analyses[latest].updatedAt > (main.updatedAt ?? '')) {
-    fs.writeFileSync(mainFile, JSON.stringify(analyses[latest], null, 2));
+    writeFileAtomic(mainFile, JSON.stringify(analyses[latest], null, 2));
   }
 
   const summaryFile = path.join(VERSIONS_DIR, `${sheet.slug}.json`);
@@ -729,7 +729,7 @@ async function versionsForBill(sheet, force, recompare = false) {
     })),
     changes,
   };
-  fs.writeFileSync(summaryFile, JSON.stringify(summary, null, 2));
+  writeFileAtomic(summaryFile, JSON.stringify(summary, null, 2));
   const arrow = summary.versions.map((v) => `${v.riskScore}`).join(' → ');
   console.log(`📜 ${bill.id}: ${summary.versions.map((v) => v.key).join(' → ')} = ${arrow}; ${changes.map((c) => c.direction).join(', ')}`);
   return true;
@@ -749,7 +749,7 @@ function writeVersionsStatus(index, read) {
     .map((p) => p.slug);
   const pending = comparable.filter((s) => !fs.existsSync(path.join(VERSIONS_DIR, `${s}.json`)));
   const status = { updatedAt: new Date().toISOString(), comparable: comparable.length, compared: comparable.length - pending.length, pending };
-  fs.writeFileSync(path.join(CDEP_DIR, 'versions-status.json'), JSON.stringify(status, null, 2) + '\n');
+  writeFileAtomic(path.join(CDEP_DIR, 'versions-status.json'), JSON.stringify(status, null, 2) + '\n');
   return status;
 }
 

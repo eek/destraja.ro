@@ -20,6 +20,7 @@ import path from 'node:path';
 import zlib from 'node:zlib';
 import crypto from 'node:crypto';
 import { spawn } from 'node:child_process';
+import { writeFileAtomic } from './atomic.mjs';
 
 const OCR_HOME = process.env.LASTRAJA_OCR_HOME || path.join(os.homedir(), '.local', 'share', 'lastraja-ocr');
 const MINERU_BIN = process.env.MINERU_BIN || path.join(OCR_HOME, 'venv', 'bin', 'mineru-kit');
@@ -55,13 +56,34 @@ const MIN_COVERAGE = 0.85;
 
 // ─── nume și text ────────────────────────────────────────────────────────────────────────────────────────────────
 
-/** Fișierul .txt al unui PDF: tipurile unice își păstrează numele, avizele primesc emitentul (aviz_ES, aviz_LG). */
+/**
+ * Fișierul .txt al unui PDF: tipurile unice își păstrează numele, avizele primesc emitentul (aviz_ES, aviz_LG). Numărul
+ * proiectului din față cade, fie el B sau L: după numărul L Senatul ține același aviz ca 26L622ES.PDF, nu 26b523ES.PDF.
+ */
 export function textName(pdfFile) {
   const base = path.basename(pdfFile).replace(/\.pdf$/i, '');
   const [type, ...rest] = base.split('_');
   if (/^(forma|expunere|adresa)$/.test(type)) return base.replace(/_[^_]+$/, '');
-  const code = rest.join('_').replace(/^\d{2}b\d+/i, '') || rest.join('_');
+  const code = rest.join('_').replace(/^\d{2}[bl]\d+/i, '') || rest.join('_');
   return `${type}_${code}`;
+}
+
+/**
+ * Scoate din folder copiile vechi ale documentelor care sunt și în `current` (fișierele din fișa de azi) sub alt nume.
+ * Întoarce numele textelor de recitit: cele la care fișierul nou nu e același cu cel vechi (Senatul rescanează avizele
+ * când proiectul primește numărul L). O copie veche rămâne cât timp cea nouă nu e descărcată.
+ */
+export function dropSuperseded(pdfDir, current) {
+  const now = new Map(current.map((f) => [textName(f), f]));
+  const reread = [];
+  for (const f of fs.existsSync(pdfDir) ? fs.readdirSync(pdfDir) : []) {
+    if (!/\.pdf$/i.test(f) || current.includes(f)) continue;
+    const kept = now.get(textName(f));
+    if (!kept || !fs.existsSync(path.join(pdfDir, kept))) continue;
+    if (!fs.readFileSync(path.join(pdfDir, f)).equals(fs.readFileSync(path.join(pdfDir, kept)))) reread.push(textName(f));
+    fs.rmSync(path.join(pdfDir, f));
+  }
+  return reread;
 }
 
 /** Diacriticele cu sedilă devin cu virgulă (ş → ș, ţ → ț). */
@@ -1118,9 +1140,10 @@ const RANK = { text: 0, ocr: 1, vision: 1, 'mineru+ocr': 2, mineru: 2 };
  * (Vision sau primele pagini): fără `fast`, acestea se recitesc întregi. Nu aruncă erori pentru un PDF care nu se poate
  * citi: îl sare și păstrează textul vechi. Întoarce textele după nume (forma_initiatorului, expunere_motive, aviz_ES...).
  * `onDoc(name, result)` primește rezultatul fiecărui PDF citit acum (pentru statistici). `skip(name)` lasă necitite acum
- * PDF-urile fără text de care apelantul nu are nevoie (le citește o rulare de mai târziu).
+ * PDF-urile fără text de care apelantul nu are nevoie (le citește o rulare de mai târziu). `reread` sunt numele al căror
+ * PDF a fost înlocuit de altul (dropSuperseded): se citesc din nou, iar textul vechi nu mai are întâietate.
  */
-export async function writeBillTexts(pdfDir, textDir, { pdfParse, cacheDir, force = false, fresh = false, fast = false, skip = () => false, onDoc } = {}) {
+export async function writeBillTexts(pdfDir, textDir, { pdfParse, cacheDir, force = false, fresh = false, fast = false, skip = () => false, reread = [], onDoc } = {}) {
   const texts = {};
   if (!fs.existsSync(pdfDir)) return texts;
   fs.mkdirSync(textDir, { recursive: true });
@@ -1138,7 +1161,7 @@ export async function writeBillTexts(pdfDir, textDir, { pdfParse, cacheDir, forc
     const name = textName(f);
     const missing = !meta[name] || !fs.existsSync(path.join(textDir, `${name}.txt`));
     if (missing && skip(name)) return false;
-    return force || missing || (!fast && partial(name));
+    return force || missing || reread.includes(name) || (!fast && partial(name));
   });
   try {
     await warmMineru(todo.map((f) => path.join(pdfDir, f)), { pdfParse, cacheDir, fresh, fast, label: slug });
@@ -1163,20 +1186,20 @@ export async function writeBillTexts(pdfDir, textDir, { pdfParse, cacheDir, forc
       if (old) texts[name] = old;
       continue;
     }
-    if (old && meta[name] in RANK && RANK[res.method] < RANK[meta[name]]) {
+    if (old && !reread.includes(name) && meta[name] in RANK && RANK[res.method] < RANK[meta[name]]) {
       console.warn(`⚠️ ${slug}/${name}: citit acum doar cu „${res.method}”, păstrăm textul „${meta[name]}” de dinainte`);
       texts[name] = old;
       continue;
     }
     if (res.text.trim().length < 20) continue;
-    fs.writeFileSync(txtPath, res.text, 'utf8');
-    if (res.markdown) fs.writeFileSync(mdPath, res.markdown, 'utf8');
+    writeFileAtomic(txtPath, res.text);
+    if (res.markdown) writeFileAtomic(mdPath, res.markdown);
     else fs.rmSync(mdPath, { force: true });
     meta[name] = res.method;
     texts[name] = res.text;
     onDoc?.(name, res);
   }
-  fs.writeFileSync(metaPath, JSON.stringify(meta, null, 2) + '\n', 'utf8');
+  writeFileAtomic(metaPath, JSON.stringify(meta, null, 2) + '\n');
   for (const f of LEGACY) fs.rmSync(path.join(textDir, f), { force: true });
   return texts;
 }

@@ -8,7 +8,9 @@
 // cu --liste. Din ea păstrăm în data/cdep/ani/<an>.json proiectele aflate acum la Cameră (AT_CHAMBER) și pe cele pe
 // care le urmăream deja, cu stadiul nou: un proiect care pleacă de la Cameră își păstrează pagina. Fișa unui proiect
 // (data/cdep/proiecte/<slug>.json, ca la anul curent) se citește când lipsește sau când rândul din listă îi arată alt
-// stadiu: fără o listă nouă, nicio fișă nu se recitește. Cel mult --max fișe pe rulare (implicit 10).
+// stadiu și, ca la anul curent, se recitește după ședințele de comisie, la termene și la 6–8 săptămâni
+// (lib/cdep-reread.mjs): un aviz sau un raport nou nu schimbă stadiul din listă. Recitirile le face întâi VM-ul; aici
+// ajung doar cele rămase necitite de două zile. Cel mult --max fișe pe rulare (implicit 10).
 //
 // --asteapta e pentru citirea lungă, pornită de mână (caffeinate -i): în zilele lucrătoare, între 08:00 și 09:20, Mac-ul
 // e fără rețea, așa că așteaptă până la 09:20; cât ops/daily.lock al copiei principale numește un proces viu, îi lasă
@@ -26,6 +28,9 @@ import { fileURLToPath } from 'node:url';
 import { CdepBlocked, committeeUrl, fetchCdep, listUrl, parseCommitteeEmail, parseList, parseSheet, sheetUrl } from './lib/cdep.mjs';
 import { AT_CHAMBER, oldYearsDir } from './lib/cdep-index.mjs';
 import { mirrorEntries, mirrorHtml, peerEnabled, peerHello, syncMirror, vmCall } from './lib/cdep-peer.mjs';
+import { byUrgency, dayOf, readHere, readMeetings, rereadDue, rereadSummary } from './lib/cdep-reread.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
+import { todayBucharest } from './lib/web.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -52,7 +57,7 @@ const LIST_EVERY_MS = 7 * 86_400_000 - 3_600_000;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const log = (line) => console.log(`[${new Date().toLocaleTimeString('ro-RO', { timeZone: 'Europe/Bucharest' })}] ${line}`);
 const readJson = (file) => (fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : null);
-const writeJson = (file, data) => fs.writeFileSync(file, JSON.stringify(data, null, 1) + '\n');
+const writeJson = (file, data) => writeFileAtomic(file, JSON.stringify(data, null, 1) + '\n');
 const slugOf = (row) => `${row.tip.toLowerCase().replace(/[^a-z]/g, '')}-${row.nr}-${row.an}`.replace(/^pl(x)?-/, 'plx-');
 
 // ─── Când avem voie să cerem ──────────────────────────────────────────────────────────────────────────────────────
@@ -104,12 +109,15 @@ async function mayRequest() {
 }
 
 let captchas = 0;
-/** fetchCdep, cu așteptarea de mai sus; la captcha sau rețea căzută, cu --asteapta, mai încearcă după pauză. */
-async function request(url) {
+/**
+ * fetchCdep, cu așteptarea de mai sus; la captcha sau rețea căzută, cu --asteapta, mai încearcă după pauză. Cu `fresh`
+ * pagina se cere de la cdep.ro chiar dacă VM-ul are o copie a ei (o fișă: copia potrivită a fost deja căutată).
+ */
+async function request(url, { fresh = false } = {}) {
   for (;;) {
     if (!(await mayRequest())) throw new Pause('fără rețea acum (drumul spre birou) sau rulează actualizarea zilnică');
     try {
-      return await fetchCdep(url);
+      return await fetchCdep(url, { fresh });
     } catch (err) {
       const network = err?.cause?.code && /^(ENOTFOUND|EAI_AGAIN|ECONNRESET|ECONNREFUSED|ETIMEDOUT|UND_ERR_)/.test(err.cause.code);
       if (err instanceof CdepBlocked) {
@@ -207,8 +215,22 @@ const pending = all.filter((p) => {
   return !sheet || changed(p, sheet);
 });
 pending.sort((a, b) => rank(a) - rank(b) || b.inregistrat.localeCompare(a.inregistrat));
+// Recitirile: fișe cu același stadiu în listă, dar cu o ședință de comisie, un termen împlinit sau necitite de mult. Stau
+// la coada cozii, cea mai grabnică ultima: VM-ul ia fișele de acolo.
+const today = todayBucharest();
+const meetings = readMeetings(DATA);
+const rereads = new Map();
+{
+  const first = new Set(pending.map((p) => p.slug));
+  for (const p of all) {
+    const due = first.has(p.slug) ? null : rereadDue(readJson(sheetFile(p.slug)), { today, meetings: meetings.get(p.slug) });
+    if (due) rereads.set(p.slug, due);
+  }
+}
+const dueAtStart = [...rereads.values()];
+const again = all.filter((p) => rereads.has(p.slug)).sort((a, b) => byUrgency(rereads.get(b.slug), rereads.get(a.slug)));
 // Ce e încă de citit, în ordine; o fișă iese de aici când o citim noi sau când vine de pe VM.
-const left = new Map(pending.map((p) => [p.slug, p]));
+const left = new Map([...pending, ...again].map((p) => [p.slug, p]));
 // Versiunea rândului: o fișă citită de VM pentru alt stadiu decât cel din listă nu se folosește.
 const keyOf = (p) => `${p.stadiu}|${p.stadiuData ?? ''}`;
 
@@ -220,7 +242,7 @@ let fromVm = 0;
 /** O fișă citită (de noi sau de VM): HTML-ul în .cache, fișa în data/cdep/proiecte, ca la anul curent. */
 function save(p, html, cititLa) {
   // Ca la anul curent: HTML-ul rămâne o vreme în .cache, ca straja-amendments să nu ceară fișa a doua oară.
-  fs.writeFileSync(path.join(HTML_CACHE, `${p.slug}.html`), html);
+  writeFileAtomic(path.join(HTML_CACHE, `${p.slug}.html`), html);
   const fisa = parseSheet(html);
   const senat = (fisa.numarSenat && ours.get(fisa.numarSenat)) || null;
   if (senat) p.senat = senat;
@@ -255,8 +277,10 @@ async function syncVm() {
     let now = 0;
     for (const meta of mirrorEntries()) {
       const p = left.get(meta.slug);
-      // Citită între timp, sau rândul din listă arată alt stadiu: fișa se cere din nou.
+      // Citită între timp, sau rândul din listă arată alt stadiu: fișa se cere din nou. La o recitire, copia trebuie să fie
+      // din ziua scadentă încoace (cea dinainte e chiar fișa pe care o avem).
       if (!p || meta.key !== keyOf(p)) continue;
+      if (rereads.has(p.slug) && dayOf(meta.fetchedAt) < rereads.get(p.slug).zi) continue;
       vmSheets.push(save(p, mirrorHtml(meta.slug), meta.fetchedAt));
       now++;
     }
@@ -292,7 +316,11 @@ if (!note) {
       if (!(await mayRequest())) throw new Pause('fără rețea acum (drumul spre birou) sau rulează actualizarea zilnică');
       if (Date.now() - lastSync > SYNC_EVERY) await syncVm();
       for (const fisa of vmSheets.splice(0)) await readCommittees(fisa);
-      const p = [...left.values()].find((x) => vmClaims.get(x.slug) !== 'vm');
+      // Întâi fișele lipsă sau cu alt stadiu; dintre recitiri, doar cele pe care VM-ul nu le-a citit la timp.
+      const open = [...left.values()].filter((x) => vmClaims.get(x.slug) !== 'vm');
+      // (sau toate, când VM-ul nu mai răspunde de o oră)
+      const late = (x) => !peerEnabled || Date.now() - lastPush > 3_600_000 || readHere(rereads.get(x.slug), today);
+      const p = open.find((x) => !rereads.has(x.slug)) ?? open.filter(late).sort((a, b) => byUrgency(rereads.get(a.slug), rereads.get(b.slug)))[0];
       if (!p) {
         // Ce a rămas e revendicat de VM: cu --asteapta îl așteptăm și aducem fișele o dată la 5 minute.
         if (!WAIT || !peerEnabled || !left.size) break;
@@ -306,7 +334,7 @@ if (!note) {
         vmClaims.set(p.slug, 'vm');
         continue;
       }
-      const html = await request(p.url);
+      const html = await request(p.url, { fresh: true });
       requests++;
       const fisa = save(p, html, new Date().toISOString());
       read++;
@@ -330,5 +358,5 @@ const missing = all.filter((p) => !fs.existsSync(sheetFile(p.slug))).length;
 const perYear = years.map((y) => `${y.an}: ${y.proiecte.filter((p) => AT_CHAMBER.test(p.stadiu)).length}`).join(', ');
 console.log(
   `🏛️ Camera, anii trecuți: ${all.filter((p) => AT_CHAMBER.test(p.stadiu)).length} proiecte aflate la Cameră (${perYear}); ` +
-    `${listsRead.length ? `liste citite: ${listsRead.join(', ')}; ` : ''}${read} fișe citite${peerEnabled ? `, ${fromVm} aduse de pe VM` : ''}, ${left.size} încă de citit (${missing} lipsă); ${requests} cereri${note}`,
+    `${listsRead.length ? `liste citite: ${listsRead.join(', ')}; ` : ''}${read} fișe citite${peerEnabled ? `, ${fromVm} aduse de pe VM` : ''}, ${left.size} încă de citit (${missing} lipsă); ${rereadSummary(dueAtStart)}; ${requests} cereri${note}`,
 );

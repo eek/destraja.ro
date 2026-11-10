@@ -13,6 +13,7 @@ import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { mirrorGet, peerBlocked, peerTurn, syncMirror } from './cdep-peer.mjs';
+import { writeFileAtomic } from './atomic.mjs';
 
 export const CDEP = 'https://www.cdep.ro';
 export const listUrl = (kind, year) => `${CDEP}/ords/pls/proiecte/upl_pck2015.lista?cam=2&${kind}=${year}`;
@@ -98,7 +99,7 @@ export async function pace({ quiet } = {}) {
       const next = Math.max((times.at(-1) ?? 0) + PAUSE_MS, times.length >= PER_HOUR ? times[times.length - PER_HOUR] + HOUR : 0);
       wait = Math.max(next - now, quiet?.() ?? 0);
       if (wait <= 0) {
-        fs.writeFileSync(PACE_FILE, JSON.stringify([...times, now]));
+        writeFileAtomic(PACE_FILE, JSON.stringify([...times, now]));
         break;
       }
     } finally {
@@ -110,7 +111,7 @@ export async function pace({ quiet } = {}) {
   const { blockedUntil, hold } = await peerTurn();
   if (hold) throw new CdepBlocked(hold);
   if (blockedUntil) {
-    fs.writeFileSync(BLOCK_FILE, String(blockedUntil));
+    writeFileAtomic(BLOCK_FILE, String(blockedUntil));
     throw new CdepBlocked(`cdep.ro a cerut captcha pe VM, de pe același IP; nu mai cerem nimic până la ${new Date(blockedUntil).toLocaleTimeString('ro-RO', { hour: '2-digit', minute: '2-digit' })}`);
   }
 }
@@ -122,7 +123,7 @@ export async function pace({ quiet } = {}) {
  */
 export function blocked(url = CDEP) {
   const announced = readNumber(BLOCK_FILE) > Date.now();
-  fs.writeFileSync(BLOCK_FILE, String(Date.now() + BACKOFF_MS));
+  writeFileAtomic(BLOCK_FILE, String(Date.now() + BACKOFF_MS));
   fs.writeFileSync(CAPTCHA_URL_FILE, `${url}\n`);
   peerBlocked(Date.now() + BACKOFF_MS);
   if (!announced && process.platform === 'darwin') {
@@ -136,18 +137,22 @@ export class CdepBlocked extends Error {}
 
 // Ce a citit VM-ul destraja (scripts/lib/cdep-peer.mjs, copia din .cache/cdep-mirror) vine înaintea oricărei cereri:
 // o listă citită în ultimele 6 ore, o fișă sau altă pagină în ultimele 12. Cine știe stadiul din listă (straja-cdep) cere
-// cu `key` și acceptă o fișă din ultimele 24 de ore, dacă VM-ul a citit-o pentru același stadiu: cea citită de VM după-amiază
-// trebuie să ajungă în rularea de a doua zi, la 09:30. Copia se aduce de pe VM o dată pe proces.
+// cu `key`, adică doar o fișă citită de VM pentru același stadiu, și cu `since`, ziua de la care copia e bună: cea citită de
+// VM după-amiază trebuie să ajungă în rularea de a doua zi, la 09:30. Copia se aduce de pe VM o dată pe proces.
 const MIRROR_AGE = (url) => (url.includes('.lista?') ? 6 : 12) * 3_600_000;
 let mirrorSynced = null;
-export async function fromMirror(url, { key = null } = {}) {
+export async function fromMirror(url, { key = null, since = null } = {}) {
   mirrorSynced ??= syncMirror().catch(() => false);
   await mirrorSynced;
+  // Cu `since` (ziua din care fișa trebuia citită din nou, sau ziua fișei pe care o avem) primim orice copie păstrată,
+  // citită de atunci încoace: și pe cea de vineri după-amiază, luni dimineață.
+  if (since != null) return mirrorGet(url, 5 * 24 * 3_600_000, key, since);
   return key != null ? mirrorGet(url, 24 * 3_600_000, key) : mirrorGet(url, MIRROR_AGE(url));
 }
 
-export async function fetchCdep(url, { quiet } = {}) {
-  const cached = await fromMirror(url);
+/** Pagina de la `url`. Cu `fresh` nu se mulțumește cu copia de pe VM: o recitire vrea pagina de acum. */
+export async function fetchCdep(url, { quiet, fresh = false } = {}) {
+  const cached = fresh ? null : await fromMirror(url);
   if (cached != null) return cached;
   await pace({ quiet });
   const res = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(60_000) });
@@ -334,7 +339,8 @@ const TOTAL_ROWS = { prezenti: /^- Prezenti/i, pentru: /^- Pentru/i, contra: /^-
 
 /**
  * Pagina unui vot din plen (evot2015.Nominal): data și ora, subiectul („Vot final” / „Respingere”, numărul proiectului),
- * totalurile (pe toată Camera și pe grupuri) și lista nominală a celor prezenți, cu `idm`-ul fișei fiecărui deputat.
+ * totalurile (pe toată Camera și pe grupuri) și lista nominală a celor prezenți, cu `idm`-ul fișei fiecărui deputat
+ * (senatorii de la o ședință comună vin cu `senator: true`, fără `idm`).
  * Deputații afiliați unui grup („PSD(afiliat)”) sunt numărați de Cameră la grupul acela; îi păstrăm la fel, cu `afiliat`.
  */
 export function parseVote(html) {
@@ -352,23 +358,32 @@ export function parseVote(html) {
   // Tabelul totalurilor: prima coloană e eticheta, a doua totalul, apoi câte una pe grup, în ordinea din antet.
   const table = html.match(/<b>Optiune:<\/b>([\s\S]*?)<\/table>/i)?.[1] ?? '';
   const rows = [...table.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi)].map((r) => [...r[1].matchAll(/<td[^>]*>([\s\S]*?)(?=<td|$)/gi)].map((c) => clean(c[1])));
-  const header = (table.split(/<tr/i)[0].match(/<td[^>]*>[\s\S]*?(?=<td|$)/gi) ?? []).map((c) => clean(c));
-  const groups = header.slice(1).map(voteParty); // fără „Total”
+  const headRows = table.split(/<tr/i);
+  const cellsOf = (row) => (row.match(/<td[^>]*>[\s\S]*?(?=<td|$)/gi) ?? []).map((c) => clean(c));
+  // La o ședință comună antetul are două rânduri: „Camera Deputatilor” și „Senat”, apoi grupurile fiecăreia. Grupurile
+  // cu același nume din cele două camere se adună.
+  const joint = /colspan/i.test(headRows[0]);
+  const groups = (joint ? cellsOf(headRows[1] ?? '') : cellsOf(headRows[0]).slice(1)).map(voteParty); // fără „Total”
   const num = (s) => (/^\d+$/.test(s ?? '') ? Number(s) : 0);
   const totals = { prezenti: 0, pentru: 0, contra: 0, abtineri: 0, nuAuVotat: 0 };
-  const parties = groups.map((party) => ({ party, prezenti: 0, pentru: 0, contra: 0, abtineri: 0, nuAuVotat: 0 }));
+  const parties = [];
+  const slots = groups.map((party) => parties.find((p) => p.party === party) ?? parties[parties.push({ party, prezenti: 0, pentru: 0, contra: 0, abtineri: 0, nuAuVotat: 0 }) - 1]);
   for (const cells of rows) {
     const key = Object.keys(TOTAL_ROWS).find((k) => TOTAL_ROWS[k].test(cells[0] ?? ''));
     if (!key) continue;
     totals[key] = num(cells[1]);
-    cells.slice(2).forEach((c, i) => parties[i] && (parties[i][key] = num(c)));
+    for (const p of new Set(slots)) p[key] = 0;
+    cells.slice(2).forEach((c, i) => slots[i] && (slots[i][key] += num(c)));
   }
 
+  // La o ședință comună lista îi are și pe senatori, cu o coloană în plus („senator” / „deputat”). `idm`-ul unui senator
+  // (cam=1) e din alt șir de numere decât al deputaților, deci nu-l păstrăm: s-ar lega de fișa unui deputat.
   const members = [];
-  for (const [, idm, nume, grup, vot] of html.matchAll(
-    /structura2015\.mp\?idm=(\d+)[^"]*">([^<]+)<\/a><\/td>\s*<td[^>]*>([^<]*)<\/td>\s*<td[^>]*>\s*([^<]*?)\s*<\/td>/gi,
+  for (const [, idm, cam, nume, tip, grup, vot] of html.matchAll(
+    /structura2015\.mp\?idm=(\d+)(?:&(?:amp;)?cam=(\d))?[^"]*">([^<]+)<\/a><\/td>\s*(?:<td[^>]*>\s*(senator|deputat)\s*<\/td>\s*)?<td[^>]*>([^<]*)<\/td>\s*<td[^>]*>\s*([^<]*?)\s*<\/td>/gi,
   )) {
-    members.push({ idm: +idm, nume: clean(nume), partid: voteParty(grup), ...(/\(afiliat\)/i.test(grup) && { afiliat: true }), vot: CDEP_VOTE[vot.trim()] ?? (vot.trim() || 'nu a votat') });
+    const senator = cam === '1' || /^senator$/i.test(tip ?? '');
+    members.push({ ...(senator ? { senator: true } : { idm: +idm }), nume: clean(nume), partid: voteParty(grup), ...(/\(afiliat\)/i.test(grup) && { afiliat: true }), vot: CDEP_VOTE[vot.trim()] ?? (vot.trim() || 'nu a votat') });
   }
   return { date, time, subiect, detaliu, proiect: bill ? { idp: +bill[1], numar: clean(bill[2]) } : null, totals, parties, members };
 }

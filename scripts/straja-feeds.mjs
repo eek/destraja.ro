@@ -10,6 +10,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { UA, decode, mapLimit } from './lib/web.mjs';
+import { writeFileAtomic } from './lib/atomic.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUTLETS = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'news-outlets.json'), 'utf8'));
@@ -122,6 +123,6 @@ console.log(`\n${withAny}/${domains.length} au un feed sau un sitemap de știri;
 console.log(`Fără nimic: ${rows.filter((r) => !r.f.length).map((r) => r.d).join(' ') || '—'}`);
 if (!only) {
   const out = Object.fromEntries(rows.map(({ d, f }) => [d, f.map(({ url, kind, items, hours }) => ({ url, kind, items, hours }))]));
-  fs.writeFileSync(OUT, `${JSON.stringify({ checkedAt: new Date().toISOString(), outlets: out }, null, 2)}\n`);
+  writeFileAtomic(OUT, `${JSON.stringify({ checkedAt: new Date().toISOString(), outlets: out }, null, 2)}\n`);
   console.log(`Scris în ${path.relative(ROOT, OUT)}`);
 }

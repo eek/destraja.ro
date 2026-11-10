@@ -104,7 +104,10 @@ async function reportText(slug, url) {
   if (fs.existsSync(txt)) return fs.readFileSync(txt, 'utf8');
   if (!fs.existsSync(pdf)) writeFileAtomic(pdf, await fetchCdepFile(url));
   const r = await readUntrustedPdf(fs.readFileSync(pdf));
-  const text = typeof r === 'string' ? r : (r?.text ?? '');
+  // Un raport citit doar în parte o spune la coadă: modelul și cine deschide textul știu că anexa nu e întreagă.
+  const cut = r.pagesRead < r.pages ? `\n\n[… raport citit doar până la pagina ${r.pagesRead} din ${r.pages}]` : '';
+  if (cut) console.log(`  ⚠️ ${slug}: raport citit până la pagina ${r.pagesRead} din ${r.pages} (${path.basename(pdf)})`);
+  const text = `${r.text ?? ''}${cut}`;
   writeFileAtomic(txt, text);
   return text;
 }

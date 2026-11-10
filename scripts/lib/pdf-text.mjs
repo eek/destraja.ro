@@ -31,8 +31,14 @@ const MINERU_ENV = { ...process.env, MINERU_MODEL_SOURCE: 'local', HF_HUB_OFFLIN
 const VISION_BIN = process.env.VISION_OCR_BIN || path.join(OCR_HOME, 'bin', 'vision-ocr');
 // Documentele citite cu Apple Vision în modul rapid, când îl avem (vezi mai sus).
 const VISION_DOCS = new Set(['expunere_motive', 'forma_ordonanta']);
-// Cât așteptăm MinerU: ~7 s pe pagină pe un Mac liber, de câteva ori mai mult când mașina e ocupată.
-const mineruTimeout = (pages) => 10 * 60_000 + 60_000 * Math.max(1, pages);
+// Cât așteptăm MinerU la un document: ~7 s pe pagină pe un Mac liber, vreo 10 când lucrează și altele, plus încărcarea
+// modelelor. Limita e de două-trei ori peste: 3 minute și 20 s pe pagină (5 minute la 6 pagini, 13 la 30). Cu 10 minute
+// și un minut pe pagină, un document de 6 pagini la care MinerU s-a blocat a ținut pasul „Avize” 40 de minute (10
+// noiembrie 2026). `maxMs` e plafonul apelantului, pentru pașii cu timp puțin.
+const mineruTimeout = (pages, maxMs = Infinity) => Math.min(maxMs, 3 * 60_000 + 20_000 * Math.max(1, pages));
+// Un document la care MinerU s-a oprit nu e reîncercat la fiecare rulare: abia după 7 zile, apoi după 14, apoi la câte
+// 28. Evidența ține de conținutul PDF-ului și de versiunea uneltei: un fișier schimbat sau un MinerU nou îl iau de la capăt.
+const MINERU_RETRY_DAYS = [7, 14, 28];
 // Câte pagini dăm odată lui MinerU (o rulare ține 4–9 GB de RAM, în funcție de numărul de pagini).
 const BATCH_PAGES = 80;
 // În modul rapid, câte pagini citim cu OCR dintr-un PDF. Modelele primesc ~14.000 de caractere din formă și 10.000 din
@@ -674,36 +680,58 @@ function hookExit() {
   }
 }
 
-/** Rulează o unealtă externă cu limită de timp; o oprește cu tot cu procesele ei la timeout sau la ieșirea noastră. */
-function runTool(cmd, args, { env = process.env, timeoutMs = 60_000 } = {}) {
+/**
+ * Rulează o unealtă externă cu limită de timp; o oprește cu tot cu procesele ei la timeout sau la ieșirea noastră.
+ * `steps` e pentru o unealtă care lucrează pe rând mai multe fișiere: [{ done, ms }], unde `done` e fișierul care apare
+ * când pasul s-a terminat, iar `ms` limita lui. Ceasul repornește la fiecare pas, deci limita e pe fișier, nu pe rulare,
+ * și numără doar timpul în care am fost treji: un Mac adormit cu unealta pornită nu face din document unul blocat.
+ */
+function runTool(cmd, args, { env = process.env, timeoutMs = 60_000, steps = null } = {}) {
   hookExit();
   return new Promise((resolve, reject) => {
     const child = spawn(cmd, args, { env, stdio: ['ignore', 'pipe', 'pipe'], detached: true });
     children.add(child);
     let out = '';
     let err = '';
-    let timedOut = false;
+    let timedOut = null;
     child.stdout.on('data', (c) => (out = (out + c).slice(-256 * 1024)));
     child.stderr.on('data', (c) => (err = (err + c).slice(-32 * 1024)));
-    const timer = setTimeout(() => {
-      timedOut = true;
+    const stop = (why) => {
+      timedOut = why;
       try {
         process.kill(-child.pid, 'SIGKILL');
       } catch {
         // deja oprit
       }
-    }, timeoutMs);
+    };
+    const mins = (ms) => Math.max(1, Math.round(ms / 60_000));
+    let step = 0;
+    let ran = 0;
+    let last = Date.now();
+    const timer = steps
+      ? setInterval(() => {
+          const now = Date.now();
+          ran += Math.min(now - last, 10_000);
+          last = now;
+          while (step < steps.length - 1 && fs.existsSync(steps[step].done)) {
+            step++;
+            ran = 0;
+          }
+          if (!timedOut && ran > steps[step].ms) stop(`oprit după ${mins(steps[step].ms)} min${steps.length > 1 ? ` la documentul ${step + 1} din ${steps.length}` : ''}`);
+        }, 2000)
+      : setTimeout(() => stop(`oprit după ${mins(timeoutMs)} min`), timeoutMs);
+    const clear = () => (steps ? clearInterval(timer) : clearTimeout(timer));
     child.on('error', (e) => {
-      clearTimeout(timer);
+      clear();
       children.delete(child);
       reject(e);
     });
     child.on('close', (code) => {
-      clearTimeout(timer);
+      clear();
       children.delete(child);
       if (code === 0 && !timedOut) return resolve({ stdout: out, stderr: err });
       const last = err.split('\n').map((l) => l.trim()).filter((l) => l && !/it\/s\]|s\/it\]/.test(l)).at(-1) ?? '';
-      reject(Object.assign(new Error(timedOut ? `${path.basename(cmd)}: oprit după ${Math.round(timeoutMs / 60_000)} min` : `${path.basename(cmd)} cod ${code}: ${last.slice(0, 300)}`), { stderr: err }));
+      reject(Object.assign(new Error(timedOut ? `${path.basename(cmd)}: ${timedOut}` : `${path.basename(cmd)} cod ${code}: ${last.slice(0, 300)}`), { stderr: err, timedOut: Boolean(timedOut) }));
     });
   });
 }
@@ -983,11 +1011,45 @@ async function ocrInput(pdfPath, buf, pages, cacheDir, fast) {
   }
 }
 
+/** Numărul de pagini după qpdf (vine cu ocrmypdf), pentru apelanții fără pdf-parse; 0 când nu se poate afla. */
+async function qpdfPages(pdfPath) {
+  try {
+    return Number((await runTool('qpdf', ['--warning-exit-0', '--show-npages', pdfPath], { timeoutMs: 30_000 })).stdout.trim()) || 0;
+  } catch {
+    return 0;
+  }
+}
+
+const failFile = (cacheDir, hash, tool) => path.join(cacheDir, 'mineru-ratat', `${hash}-${tool.id}.json`);
+/** Eșecul ținut minte al unui document, cât nu e încă de reîncercat: { la, ori, eroare, pana }; altfel null. */
+function mineruFailed(cacheDir, hash, tool) {
+  try {
+    const f = JSON.parse(fs.readFileSync(failFile(cacheDir, hash, tool), 'utf8'));
+    const days = MINERU_RETRY_DAYS[Math.min(Math.max(1, f.ori), MINERU_RETRY_DAYS.length) - 1];
+    const until = Date.parse(f.la) + days * 86_400_000;
+    return Date.now() < until ? { ...f, pana: new Date(until).toISOString().slice(0, 10) } : null;
+  } catch {
+    return null;
+  }
+}
+function noteMineruFailure(cacheDir, doc, tool, error, pages) {
+  const file = failFile(cacheDir, doc.hash, tool);
+  let ori = 0;
+  try {
+    ori = JSON.parse(fs.readFileSync(file, 'utf8')).ori || 0;
+  } catch {
+    // primul eșec
+  }
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  writeFileAtomic(file, JSON.stringify({ la: new Date().toISOString(), ori: ori + 1, eroare: String(error.message).slice(0, 200), pagini: pages, fisier: path.basename(doc.pdfPath) }) + '\n');
+}
+
 /**
  * Rulează MinerU o dată pe mai multe PDF-uri (modelele se încarcă o singură dată) și pune paginile fiecăruia în cache.
- * `docs`: [{ pdfPath, hash, pages }]. Întoarce numărul de documente citite.
+ * `docs`: [{ pdfPath, hash, pages }]. Întoarce numărul de documente citite. Fiecare document are limita lui de timp
+ * (mineruTimeout, cel mult `maxMs`); cel la care MinerU s-a oprit e ținut minte (mineruFailed).
  */
-async function runMineru(docs, { cacheDir, tool, label }) {
+async function runMineru(docs, { cacheDir, tool, label, maxMs }) {
   if (!docs.length) return 0;
   return withMineruLock(() => withMineruSlot(async () => {
     const work = workDir(cacheDir, 'mineru-');
@@ -999,21 +1061,28 @@ async function runMineru(docs, { cacheDir, tool, label }) {
         return p;
       });
       const out = path.join(work, 'out');
-      const pages = docs.reduce((s, d) => s + (d.pages || 30), 0);
+      const outOf = (i) => path.join(out, `in-${i}.json`);
+      // Fără pdf-parse la apelant, numărul de pagini îl dă qpdf; doar când nici el nu-l află socotim 30.
+      const counts = [];
+      for (const d of docs) counts.push(d.pages || (await qpdfPages(d.pdfPath)) || 30);
+      const pages = counts.reduce((s, n) => s + n, 0);
       let error = null;
       try {
-        await runTool(MINERU_BIN, ['parse', ...inputs, '-o', out, ...MINERU_ARGS, '-f', 'middle_json'], { env: MINERU_ENV, timeoutMs: mineruTimeout(pages) });
+        // mineru-kit citește documentele pe rând și scrie rezultatul fiecăruia când l-a terminat.
+        const steps = docs.map((d, i) => ({ done: outOf(i), ms: mineruTimeout(counts[i], maxMs) }));
+        await runTool(MINERU_BIN, ['parse', ...inputs, '-o', out, ...MINERU_ARGS, '-f', 'middle_json'], { env: MINERU_ENV, steps });
       } catch (err) {
         error = err;
       }
       let read = 0;
       docs.forEach((d, i) => {
-        const json = path.join(out, `in-${i}.json`);
+        const json = outOf(i);
         if (!fs.existsSync(json)) return;
         try {
           const mid = JSON.parse(fs.readFileSync(json, 'utf8'));
           const list = [...(mid.pages ?? mid.pdf_info ?? [])].sort((a, b) => (a.page_idx ?? 0) - (b.page_idx ?? 0));
           writeCache(cacheFile(cacheDir, 'mineru', `${d.hash}-${tool.id}`), { producer: mid.metadata?.producer ?? null, pages: dropImages(list) });
+          fs.rmSync(failFile(cacheDir, d.hash, tool), { force: true });
           read++;
         } catch (err) {
           console.warn(`⚠️ ${label}: ieșirea MinerU pentru ${path.basename(d.pdfPath)} nu se poate citi (${err.message})`);
@@ -1021,6 +1090,11 @@ async function runMineru(docs, { cacheDir, tool, label }) {
       });
       if (error) {
         tool.failures++;
+        // Ținem minte doar documentul la care MinerU a stat peste limită: primul fără rezultat. Cele de după el n-au
+        // apucat să fie citite și le ia extractPdfText, câte unul. O ieșire cu eroare costă secunde și poate fi a
+        // instalării, nu a documentului, deci nu se ține minte.
+        const stuck = error.timedOut ? docs.findIndex((d, i) => !fs.existsSync(outOf(i))) : -1;
+        if (stuck >= 0) noteMineruFailure(cacheDir, docs[stuck], tool, error, counts[stuck]);
         console.warn(`⚠️ ${label}: MinerU a eșuat (${error.message}); ${read}/${docs.length} documente citite`);
       } else tool.failures = 0;
       console.log(`  MinerU ${label}: ${docs.length} PDF, ${pages} pagini, ${Math.round((Date.now() - started) / 1000)} s`);
@@ -1060,9 +1134,11 @@ async function layerText(buf, pdfParse) {
  * Textul unui PDF și cum l-am obținut: { text, markdown, method, pages, fallbacks }.
  * method: 'mineru' | 'mineru+ocr' (unele pagini de la Tesseract) | 'ocr' (doar Tesseract) | 'vision' (Apple Vision, pentru
  * VISION_DOCS) | 'text' (stratul PDF-ului).
- * `pdfParse` e pdf-parse încărcat de apelant (poate lipsi); `fresh` ignoră cache-ul OCR; `fast` e modul rapid (vezi sus).
+ * `pdfParse` e pdf-parse încărcat de apelant (poate lipsi); `fresh` ignoră cache-ul OCR și eșecurile ținute minte;
+ * `fast` e modul rapid (vezi sus); `mineruMaxMs` plafonează cât așteptăm MinerU la acest document (vezi mineruTimeout).
+ * Când MinerU se oprește sau e ținut minte ca oprit la acest document, textul vine de la Tesseract ori din stratul PDF-ului.
  */
-export async function extractPdfText(pdfPath, { pdfParse, cacheDir, fresh = false, fast = false, label = path.basename(pdfPath) }) {
+export async function extractPdfText(pdfPath, { pdfParse, cacheDir, fresh = false, fast = false, label = path.basename(pdfPath), mineruMaxMs }) {
   const buf = fs.readFileSync(pdfPath);
   const layer = await layerText(buf, pdfParse);
   const tools = await ocrTools();
@@ -1082,8 +1158,10 @@ export async function extractPdfText(pdfPath, { pdfParse, cacheDir, fresh = fals
   let mine = null;
   if (tools.mineru) {
     mine = !fresh && mineruCached(cacheDir, src.hash, tools.mineru);
-    if (!mine && tools.mineru.failures < 3) {
-      await runMineru([{ pdfPath: src.pdfPath, hash: src.hash, pages: src.pages }], { cacheDir, tool: tools.mineru, label });
+    const failed = !mine && !fresh && mineruFailed(cacheDir, src.hash, tools.mineru);
+    if (failed) console.warn(`ℹ️ ${label}: MinerU s-a oprit la acest document pe ${failed.la.slice(0, 10)} (${failed.eroare}); îl mai încercăm după ${failed.pana}`);
+    else if (!mine && tools.mineru.failures < 3) {
+      await runMineru([{ pdfPath: src.pdfPath, hash: src.hash, pages: src.pages }], { cacheDir, tool: tools.mineru, label, maxMs: mineruMaxMs });
       mine = mineruCached(cacheDir, src.hash, tools.mineru);
     }
     if (tools.mineru.failures >= 3 && !tools.mineru.disabled) {
@@ -1110,7 +1188,7 @@ async function warmMineru(pdfPaths, { pdfParse, cacheDir, fresh, fast, label }) 
     if (fast && tools.vision && VISION_DOCS.has(textName(pdfPath))) continue;
     const buf = fs.readFileSync(pdfPath);
     const doc = await ocrInput(pdfPath, buf, await pageCount(buf, pdfParse), cacheDir, fast);
-    if (!fresh && mineruCached(cacheDir, doc.hash, tools.mineru)) continue;
+    if (!fresh && (mineruCached(cacheDir, doc.hash, tools.mineru) || mineruFailed(cacheDir, doc.hash, tools.mineru))) continue;
     docs.push(doc);
   }
   // Loturi de cel mult BATCH_PAGES pagini (un PDF mai mare merge singur).

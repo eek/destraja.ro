@@ -377,7 +377,8 @@ export interface VersionChange {
   changes: VersionItem[];
   /** Ce e acum în forma nouă, schimbat sau nu (schema 2); partial = modelul a văzut doar începutul unui text lung. */
   remaining?: { problems: RemainingItem[]; good: RemainingItem[]; partial?: boolean } | null;
-  diff: { added: number; removed: number; same: number };
+  /** Fraze adăugate și scoase, partea neschimbată (0–1); schema 4: `cut` din `of` articole schimbate n-au încăput întregi în prompt. */
+  diff: { added: number; removed: number; same: number; cut?: number; of?: number };
   model: string;
   schema?: number;
   updatedAt: string;

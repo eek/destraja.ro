@@ -60,7 +60,7 @@ Proiect civic independent: nu reprezentăm Senatul și nu lucrăm pentru niciun 
 
 ## Cum funcționează
 
-În fiecare zi lucrătoare la 08:00 rulează `npm run straja:daily`:
+În fiecare zi lucrătoare la 09:30 rulează `npm run straja:daily`:
 
 ```mermaid
 flowchart LR
@@ -155,7 +155,7 @@ npm run dev       # http://localhost:3000
 
 ### Lanțul zilnic
 
-`npm run straja:daily` rulează luni–vineri la 08:00 prin launchd (`scripts/install-daily.sh`; `--remove` îl oprește).
+`npm run straja:daily` rulează luni–vineri la 09:30 prin launchd (`scripts/install-daily.sh`; `--remove` îl oprește).
 Are nevoie de:
 - CLI-urile `agy` (Gemini), `claude` și `codex`, autentificate (implicit în `~/.local/bin`, sau căile din `AGY_BIN`,
   `CLAUDE_BIN`, `CODEX_BIN`);
@@ -165,10 +165,23 @@ Are nevoie de:
   doar cu Tesseract, iar fără ocrmypdf rămâne stratul de text al PDF-ului;
 - un token Cloudflare în `.env`.
 
-La final face commit cu datele zilei și push pe GitHub, după ce preia ce s-a aprobat între timp prin PR. Jurnalul e în
-`ops/logs/`, iar la final apare o notificare macOS. Un pas care eșuează nu oprește restul, cu excepția
-verificării datelor: fără date valide nu publicăm. Dacă semnarea commit-urilor cere 1Password deblocat, datele zilei rămân
-necomise până la următorul commit.
+La final face commit cu datele zilei (doar `data/`, `public/docs` și `public/email`, și doar de pe ramura `main`) și push
+pe GitHub, după ce preia ce s-a aprobat între timp prin PR. Jurnalul e în `ops/logs/`, iar la final apare o notificare
+macOS. Un pas care eșuează nu oprește restul, cu excepția verificării datelor: fără date valide nu publicăm.
+
+Ce face rularea când ceva nu merge:
+- fără rețea la pornire așteaptă cel mult 15 minute, iar pasul Senatului, dacă a căzut din lipsă de rețea, se reia o dată;
+- un pas care își depășește limita de timp e oprit cu tot ce a pornit (modelele, OCR-ul), ca să nu rămână procese în urmă;
+- dacă semnarea commit-ului sau GitHub cer 1Password deblocat, apare o notificare și mai încearcă de trei ori, din zece
+  în zece minute. Dacă tot nu merge, datele rămân necomise, cu un semn în `.cache/commit-pending`, și intră în git la
+  începutul rulării următoare;
+- o ediție de e-mail oprită pe drum (`data/digests/pending.json`) se reia înaintea celei de azi.
+
+Supravegherea: rularea anunță site-ul când pornește și când termină (`POST /api/run`, `worker/watch.ts`). Dacă într-o zi
+lucrătoare n-a pornit până la 11:30, n-a terminat până la 18:00 sau a terminat cu pași eșuați, site-ul scrie la
+contact@destraja.ro, o singură dată pentru fiecare fel de problemă. După trei zile la rând fără rulare nu mai scrie până
+la următoarea. `node scripts/straja-daily.mjs --test-alert` cere un mesaj de probă. Cu `--no-deploy` rularea nu anunță
+nimic.
 
 Fiecare pas merge și separat: `npm run straja:sync`, `straja:council <slug>`, `straja:news`, `straja:stance`,
 `straja:positions`, `straja:mps`, `straja:votes`, `straja:reports`, `straja:docx`, `straja:digest`. `--skip-news`, `--skip-positions` și
@@ -211,13 +224,21 @@ celelalte două. Textul raportului nu ajunge niciodată la modelul care scrie co
 ### Alerte pe e-mail
 
 Vizitatorii aleg un nivel (`all`: tot, cu rezumat; `yellow`: risc mediu și ridicat; `red`: doar risc ridicat) și confirmă
-adresa din e-mail. `worker/subscribe.ts` trimite confirmarea prin Cloudflare Email Service (doar de la
-`alerte@destraja.ro`) și ține abonații în D1. Linkurile de preferințe și dezabonare sunt semnate cu `SUBSCRIBE_KEY`;
+adresa din e-mail. `worker/subscribe.ts` trimite confirmarea și ține abonații în D1. Toate e-mailurile pleacă prin Resend
+(`worker/mail.ts`, de la `alerte@destraja.ro`, cu secretul `RESEND_API_KEY`); adresele care resping definitiv mesajele
+sau le marchează ca spam ies din listă prin webhookul Resend (`POST /api/mail/events`, cu `RESEND_WEBHOOK_SECRET`). Linkurile de preferințe și dezabonare sunt semnate cu `SUBSCRIBE_KEY`;
 dezabonarea dintr-un click (`List-Unsubscribe`) șterge adresa.
 
 `npm run straja:digest` scrie ediția zilei în `ops/digest/` (previzualizare). Cu `--send` o trimite prin Worker
 (`POST /api/digest`, cu `DIGEST_TOKEN`) și actualizează `data/digests/state.json`, evidența a ce au primit deja abonații.
 Un nivel primește e-mail doar dacă are ceva nou. Adresele nu ajung pe calculatorul care rulează scriptul.
+
+- `.cache/email-paused-until` cu o dată `AAAA-LL-ZZ` oprește trimiterea până în ziua aceea inclusiv.
+- După mai mult de 7 zile fără nicio ediție, `--send` nu trimite de la sine tot ce s-a strâns: cere `--anunt=<nume>` (un
+  anunț scris de mână în `email/anunturi/<nume>.md`, apoi noutățile), `--tot` (ediția strânsă, așa cum e) sau `--de-azi`
+  (nimic, și evidența se mută la zi). În rularea zilnică anunțul se alege scriind numele lui în `.cache/digest-anunt`.
+- O ediție oprită pe drum de serviciul de e-mail rămâne în `data/digests/pending.json` și se reia la rularea următoare,
+  înaintea ediției zilei, doar către cine n-a primit-o.
 
 ### Statistici
 
@@ -228,8 +249,9 @@ niciodată texte scrise de vizitator.
 ### Local, cu Worker
 
 `npm run preview` folosește cheile de test Turnstile și secretele din `.dev.vars` (ignorat de git) și o bază D1 locală
-(`npx wrangler d1 migrations apply lastraja --local`). E-mailurile nu pleacă: wrangler le scrie în
-`.wrangler/tmp/email/`.
+(`npx wrangler d1 migrations apply lastraja --local`). Cu `RESEND_API_KEY=local` în `.dev.vars` e-mailurile nu pleacă:
+Worker-ul le scrie în consola lui `wrangler dev`. Cu cheia adevărată pleacă de-adevăratelea, deci doar spre adresele de
+probă ale Resend (`delivered@resend.dev`).
 
 ## Contribuie
 

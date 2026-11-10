@@ -1,0 +1,18 @@
+[Unit]
+Description=destrajă.ro: descarcă ordinile de zi ale Camerei (comisii și plen) pentru Mac, în ritmul comun al cdep.ro
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=destraja
+WorkingDirectory=/home/destraja/cdep-vm
+Environment=CDEP_ROLE=vm
+ExecStart=/usr/local/bin/node scripts/vm/cdep-agenda-vm.mjs
+TimeoutStartSec=3600
+MemoryMax=256M
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/destraja/cdep-vm

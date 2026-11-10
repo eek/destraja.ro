@@ -15,6 +15,8 @@ function plainAgreement(rows: { name: string; level: RiskLevel; score: number }[
   // Cu virgulă zecimală, o listă „8,8, 8,6 și 8,4” se citește greu; scorurile stau separate prin puncte.
   const scores = rows.map((r) => fmt(r.score)).join(' · ');
   const levels = [...new Set(rows.map((r) => r.level))];
+  // Un singur răspuns nu e un acord între modele: îl spunem ca atare.
+  if (rows.length === 1) return `Deocamdată a răspuns doar ${rows[0].name}: ${RISK[levels[0]].label.toLowerCase()} (${scores} din 10).`;
   if (levels.length === 1)
     return `${rows.length === 3 ? 'Toate trei îl văd' : `${list(rows.map((r) => r.name))} îl văd`} ca ${RISK[levels[0]].label.toLowerCase()} (${scores} din 10).`;
   return (
@@ -84,7 +86,9 @@ export default function ModelsVerdict({
     return v?.status === 'ok' ? [{ key: m.key, name: m.name, role: m.role, level: v.riskLevel, score: v.riskScore, verdict: v.verdictShort }] : [];
   });
   const spread = rows.length ? Math.max(...rows.map((r) => r.score)) - Math.min(...rows.map((r) => r.score)) : 0;
-  const agree = spread <= 1.5 ? 'Modelele sunt de acord' : spread <= 3 ? 'Acord parțial' : 'Modelele nu sunt de acord';
+  const agree = rows.length === 1 ? 'Un singur model' : spread <= 1.5 ? 'Modelele sunt de acord' : spread <= 3 ? 'Acord parțial' : 'Modelele nu sunt de acord';
+  // Modelele fără răspuns valid (eroare, limită de timp sau încă nerulate): pagina spune câte au răspuns.
+  const missing = MODELS.filter((m) => council[m.key]?.status !== 'ok').map((m) => m.name);
 
   return (
     <section id="modele" aria-labelledby="modele-titlu" className="mt-6 scroll-mt-20 rounded-2xl border border-line bg-surface p-6 sm:p-8">
@@ -93,7 +97,15 @@ export default function ModelsVerdict({
           <h2 id="modele-titlu" className="font-display text-2xl font-semibold text-ink sm:text-[1.75rem]">
             Ce spun cele trei modele
           </h2>
-          {rows.length > 0 && <p className="mt-1.5 max-w-[60ch] text-base leading-relaxed text-body">{plainAgreement(rows)}</p>}
+          {rows.length > 0 && (
+            <p className="mt-1.5 max-w-[60ch] text-base leading-relaxed text-body">
+              {plainAgreement(rows)}
+              {missing.length > 0 &&
+                (rows.length === 1
+                  ? ` Scorul e al unui singur model: ${list(missing)} n-au dat încă un răspuns.`
+                  : ` ${list(missing)} n-a dat încă un răspuns, deci scorul e media celorlalte două.`)}
+            </p>
+          )}
         </div>
         <div className="text-right">
           <div className="flex items-start justify-end gap-1">

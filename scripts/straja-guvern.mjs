@@ -37,7 +37,7 @@ const PAUSE_MS = 3000;
 const MAX_BYTES = 25 * 1024 * 1024;
 // Termenele de consultare țin de obicei 10 zile (cel mult 30): paginile proiectelor mai vechi nu le mai deschidem.
 const WINDOW_DAYS = 31;
-const MAX_PAGES = 60;
+const MAX_PAGES = 300;
 
 const today = todayBucharest();
 const ONLY = process.argv.find((a) => a.startsWith('--sursa='))?.slice(8).split(',');
@@ -333,7 +333,7 @@ const SOFFICE = !TEXTUTIL && hasTool('soffice');
 
 /** Stratul de text al unui PDF: pdf-parse izolat (scripts/lib/pdf-untrusted.mjs) sau pdftotext, tot fără mediu și cu limită de timp. */
 async function pdfText(file, buf) {
-  if (pdfParse) return readUntrustedPdf(buf);
+  if (pdfParse) return readUntrustedPdf(buf, { maxPages: MAX_PAGES });
   if (!PDFTOTEXT) throw new Error('nici pdf-parse, nici pdftotext nu sunt instalate');
   const r = spawnSync('pdftotext', ['-enc', 'UTF-8', '-l', String(MAX_PAGES), file, '-'], { env: TOOL_ENV, timeout: 90_000, maxBuffer: 64 * 1024 * 1024 });
   if (r.status !== 0) throw new Error(`pdftotext: ${String(r.stderr || r.error?.message || '').trim().split('\n').pop()}`.slice(0, 200));
@@ -387,10 +387,12 @@ async function readDocument(doc, name, dir, textMeta) {
   const format = formatOf(buf, doc);
   let text = null;
   let pages = null;
+  let read = null;
   if (format === 'pdf') {
     const r = await pdfText(file, buf);
     pages = r.pages;
-    const read = Math.max(1, Math.min(r.pages || 1, MAX_PAGES));
+    // Paginile citite: mai puține decât are documentul când e foarte lung (limita de pagini, de text sau de timp a cititorului).
+    read = Math.max(1, r.pagesRead ?? Math.min(r.pages || 1, MAX_PAGES));
     // Un PDF scanat are cel mult antetul în stratul de text: sub 200 de litere pe pagină nu e text de folosit.
     if ((r.text.match(/\p{L}/gu) ?? []).length < 200 * read) return { format, stare: 'scanat', pagini: pages };
     text = r.text;
@@ -406,7 +408,7 @@ async function readDocument(doc, name, dir, textMeta) {
   fs.mkdirSync(dir, { recursive: true });
   writeFileAtomic(path.join(dir, `${name}.txt`), `${text}\n`);
   textMeta[name] = format === 'pdf' ? 'text' : format;
-  return { format, stare: 'text', text: name, ...(pages && { pagini: pages, ...(pages > MAX_PAGES && { paginiCitite: MAX_PAGES }) }) };
+  return { format, stare: 'text', text: name, ...(pages && { pagini: pages, ...(read < pages && { paginiCitite: read }) }) };
 }
 
 // ─── Index ───────────────────────────────────────────────────────────────────────────────────────────────────────

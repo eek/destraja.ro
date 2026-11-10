@@ -240,6 +240,12 @@ export default function BillVersions({ data, amendments = null, pages = new Set(
         )}
       </p>
       {(main.headline || main.summary) && <p className="mt-2 max-w-[68ch] text-[15px] leading-7 text-body">{sentence(main.headline || main.summary)}</p>}
+      {main.diff.cut ? (
+        <p className="mt-2 max-w-[68ch] text-sm text-muted">
+          Formele sunt foarte lungi: din {count(main.diff.of ?? main.diff.cut, 'articol schimbat', 'articole schimbate')}, {main.diff.cut} n-au încăput întregi în ce a
+          citit modelul.
+        </p>
+      ) : null}
 
       <ol className="mt-4 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-body" aria-label="Formele textului">
         {versions.map((v, i) => {

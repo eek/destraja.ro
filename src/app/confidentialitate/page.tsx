@@ -236,7 +236,7 @@ export default function PrivacyPage() {
             'Verificarea anti-roboți e făcută de Cloudflare Turnstile și pornește doar când deschizi formularul. Cloudflare primește pentru asta adresa IP și semnale despre browser și le folosește ca să deosebească oamenii de roboți.',
             'Raportul e citit de noi și trimis spre reverificare modelelor Gemini (Google), Claude (Anthropic) și ChatGPT (OpenAI), împreună cu textul oficial al proiectului. De aceea te rugăm să nu scrii date personale în text. Numele și e-mailul nu ajung la modele.',
             'Textul raportului nu îl publicăm. După verificare, pe pagina proiectului, la „Greșeli semnalate”, apar fraza din analiză pe care ai contestat-o, citatul din textul oficial, corectura, dacă a fost nevoie, și numele tău, dacă l-ai scris.',
-            'Dacă îți lași e-mailul, îți trimitem o singură dată rezultatul verificării, prin Cloudflare Email Service, apoi ștergem adresa. Dacă rezultatul nu e gata în 30 de zile, o ștergem oricum. Nu te abonăm la nimic.',
+            'Dacă îți lași e-mailul, îți trimitem o singură dată rezultatul verificării, prin Resend (mai jos, la alerte), apoi ștergem adresa. Dacă rezultatul nu e gata în 30 de zile, o ștergem oricum. Nu te abonăm la nimic.',
             'Păstrăm rapoartele cel mult 90 de zile după ce le-am verificat, apoi le ștergem.',
             'Temeiul este interesul nostru legitim de a corecta analizele publicate (art. 6 alin. 1 lit. f din Regulamentul (UE) 2016/679); pentru nume și e-mail, consimțământul tău, dat când le scrii (art. 6 alin. 1 lit. a). Ne poți cere oricând să scoatem numele de pe pagină, la contact@destraja.ro.',
           ]}
@@ -269,7 +269,7 @@ export default function PrivacyPage() {
             'Te abonezi în doi pași: după formular primești un e-mail cu un link de confirmare. Fără confirmare nu îți trimitem nimic, iar cererea se șterge după 48 de ore.',
             'Formularul folosește aceeași verificare anti-roboți Cloudflare Turnstile ca raportarea greșelilor (mai sus), ca nimeni să nu poată abona adresele altora în masă.',
             'Te dezabonezi dintr-un click, din orice e-mail. Dezabonarea șterge adresa din baza noastră.',
-            'E-mailurile pleacă prin Cloudflare Email Service, iar adresele stau în baza de date Cloudflare D1, în Uniunea Europeană. Nu le dăm nimănui altcuiva și nu le folosim pentru altceva.',
+            'Adresele stau în baza de date Cloudflare D1, în Uniunea Europeană. E-mailurile pleacă prin Resend, un serviciu de expediere din Statele Unite: primește adresa ta și mesajul ca să-l livreze și ține o evidență a livrării. Nu dăm adresele nimănui altcuiva și nu le folosim pentru altceva.',
             'În e-mailuri nu sunt pixeli de urmărire. Linkurile spre destraja.ro au eticheta „alerte” (utm_source), ca statisticile, dacă le-ai acceptat, să numere vizitele venite din e-mail; eticheta nu spune cine ești.',
             'Temeiul este acordul tău (art. 6 alin. 1 lit. a din Regulamentul (UE) 2016/679), pe care îl retragi oricând prin dezabonare.',
           ]}

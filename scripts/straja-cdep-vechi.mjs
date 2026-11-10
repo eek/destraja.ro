@@ -1,10 +1,12 @@
 #!/usr/bin/env node
-// Proiectele înregistrate la Camera Deputaților în anii trecuți (din 2025 înapoi până în 2020) și încă în dezbatere.
-// straja-cdep.mjs citește doar anul curent; un proiect din 2025 aflat încă la comisii (PL-x 400/2025) lipsea de pe site.
+// Proiectele înregistrate la Camera Deputaților în anii trecuți și încă în dezbatere: de acum doi ani înapoi până în
+// 2020 (pastYears din lib/cdep-index.mjs). Anul în curs și cel dinainte sunt ale lui straja-cdep.mjs, cu lista citită în
+// fiecare zi; de aici pleacă un an abia la al doilea 1 ianuarie de după el, cu fișierul lui din data/cdep/ani scris deja.
+// Fără anii trecuți, un proiect din 2025 aflat încă la comisii (PL-x 400/2025) lipsea de pe site.
 //
-//   node scripts/straja-cdep-vechi.mjs [--max=10] [--liste] [--asteapta] [--ani=2025,2024] [--intai=plx-400-2025]
+//   node scripts/straja-cdep-vechi.mjs [--max=10] [--liste] [--asteapta] [--ani=2024,2023] [--intai=plx-400-2024]
 //
-// Lista fiecărui an (o cerere pe an, întâi 2025, apoi 2024 … 2020) se recitește cel mult o dată pe săptămână, sau acum
+// Lista fiecărui an (o cerere pe an, de la cel mai nou spre 2020) se recitește cel mult o dată pe săptămână, sau acum
 // cu --liste. Din ea păstrăm în data/cdep/ani/<an>.json proiectele aflate acum la Cameră (AT_CHAMBER) și pe cele pe
 // care le urmăream deja, cu stadiul nou: un proiect care pleacă de la Cameră își păstrează pagina. Fișa unui proiect
 // (data/cdep/proiecte/<slug>.json, ca la anul curent) se citește când lipsește sau când rândul din listă îi arată alt
@@ -26,7 +28,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { CdepBlocked, committeeUrl, fetchCdep, listUrl, parseCommitteeEmail, parseList, parseSheet, sheetUrl } from './lib/cdep.mjs';
-import { AT_CHAMBER, oldYearsDir } from './lib/cdep-index.mjs';
+import { AT_CHAMBER, currentYears, oldYearsDir, pastYears } from './lib/cdep-index.mjs';
 import { mirrorEntries, mirrorHtml, peerEnabled, peerHello, syncMirror, vmCall } from './lib/cdep-peer.mjs';
 import { byUrgency, dayOf, readHere, readMeetings, rereadDue, rereadSummary } from './lib/cdep-reread.mjs';
 import { writeFileAtomic } from './lib/atomic.mjs';
@@ -41,11 +43,11 @@ const BLOCK_FILE = path.join(ROOT, '.cache', 'cdep-blocked-until');
 const arg = (name, def) => process.argv.find((a) => a.startsWith(`--${name}=`))?.split('=')[1] ?? def;
 const has = (name) => process.argv.includes(`--${name}`);
 
-const THIS_YEAR = new Date().getFullYear();
-const FIRST_YEAR = 2020;
-const YEARS = arg('ani', '')
-  ? arg('ani').split(',').map(Number)
-  : Array.from({ length: THIS_YEAR - FIRST_YEAR }, (_, i) => THIS_YEAR - 1 - i);
+// Anii ceruți cu --ani, fără cei urmăriți de straja-cdep.mjs: două scripturi pe același an și-ar rescrie fișierul și
+// ar pune aceleași fișe în două cozi ale VM-ului.
+const TAKEN = currentYears();
+const ASKED = arg('ani', '') ? arg('ani').split(',').map(Number) : pastYears();
+const YEARS = ASKED.filter((y) => !TAKEN.includes(y));
 const MAX = +arg('max', 10);
 const FORCE_LISTS = has('liste');
 const WAIT = has('asteapta');
@@ -59,6 +61,7 @@ const log = (line) => console.log(`[${new Date().toLocaleTimeString('ro-RO', { t
 const readJson = (file) => (fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : null);
 const writeJson = (file, data) => writeFileAtomic(file, JSON.stringify(data, null, 1) + '\n');
 const slugOf = (row) => `${row.tip.toLowerCase().replace(/[^a-z]/g, '')}-${row.nr}-${row.an}`.replace(/^pl(x)?-/, 'plx-');
+if (YEARS.length < ASKED.length) log(`${ASKED.filter((y) => TAKEN.includes(y)).join(' și ')}: urmărit de straja-cdep.mjs, îl sărim aici`);
 
 // ─── Când avem voie să cerem ──────────────────────────────────────────────────────────────────────────────────────
 // Copia principală e cea către care arată .cache (în copiile de lucru e un link); acolo stă lacătul actualizării zilnice.

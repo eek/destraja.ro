@@ -2,6 +2,9 @@
 // Proiectele aflate la Camera Deputaților: lista anului de pe cdep.ro și fișa fiecărui proiect, citite treptat.
 // Scrie data/cdep/index.json (toate rândurile listei, cu stadiul), data/cdep/proiecte/<slug>.json (fișa citită) și
 // data/cdep/comisii.json (adresa de e-mail a fiecărei comisii întâlnite pe fișe, pentru butonul „Scrie comisiei”).
+// Urmărește la fel și anul dinainte (lista în fiecare zi, aceleași recitiri, aceeași coadă pe VM), scris în
+// data/cdep/ani/<an>.json cu proiectele aflate la Cameră și cu cele urmărite deja: la 1 ianuarie, proiectele anului
+// încheiat rămân aici încă un an și abia apoi trec la straja-cdep-vechi.mjs (currentYears din lib/cdep-index.mjs).
 //
 //   node scripts/straja-cdep.mjs [--an=2026] [--max=50]     (--max=0: doar ce a citit VM-ul, fără nicio fișă cerută de aici)
 //
@@ -16,7 +19,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { CdepBlocked, committeeUrl, fetchCdep, fromMirror, listUrl, parseCommitteeEmail, parseList, parseSheet, sheetUrl } from './lib/cdep.mjs';
-import { AT_CHAMBER } from './lib/cdep-index.mjs';
+import { AT_CHAMBER, currentYears, oldYearsDir } from './lib/cdep-index.mjs';
 import { mirrorFetchedAt, peerEnabled, syncMirror, vmCall } from './lib/cdep-peer.mjs';
 import { byUrgency, dayOf, readHere, readMeetings, rereadDue, rereadSummary } from './lib/cdep-reread.mjs';
 import { writeFileAtomic } from './lib/atomic.mjs';
@@ -28,6 +31,7 @@ const SHEETS = path.join(DIR, 'proiecte');
 const HTML_CACHE = path.join(ROOT, '.cache', 'cdep-html');
 const arg = (name, def) => process.argv.find((a) => a.startsWith(`--${name}=`))?.split('=')[1] ?? def;
 const YEAR = +arg('an', new Date().getFullYear());
+const [, LAST] = currentYears(YEAR);
 const MAX = +arg('max', 50);
 
 const slugOf = (row) => `${row.tip.toLowerCase().replace(/[^a-z]/g, '')}-${row.nr}-${row.an}`.replace(/^pl(x)?-/, 'plx-');
@@ -35,8 +39,11 @@ const slugOf = (row) => `${row.tip.toLowerCase().replace(/[^a-z]/g, '')}-${row.n
 fs.mkdirSync(SHEETS, { recursive: true });
 fs.mkdirSync(HTML_CACHE, { recursive: true });
 const indexFile = path.join(DIR, 'index.json');
-const previous = fs.existsSync(indexFile) ? JSON.parse(fs.readFileSync(indexFile, 'utf8')) : { proiecte: [] };
-const before = new Map(previous.proiecte.map((p) => [p.slug, p]));
+const lastFile = path.join(oldYearsDir(path.join(ROOT, 'data')), `${LAST}.json`);
+const rowsIn = (file) => (fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')).proiecte : []);
+// Rândurile de la rularea trecută, din amândouă fișierele: în prima rulare a anului, proiectele anului încheiat sunt
+// încă în index.json.
+const before = new Map([...rowsIn(indexFile), ...rowsIn(lastFile)].map((p) => [p.slug, p]));
 
 // Proiectele noastre de la Senat, după numărul L sau B, ca să le recunoaștem când ajung la Cameră.
 const ours = new Map();
@@ -45,20 +52,38 @@ for (const b of JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'senat-bills.
   ours.set(b.id, b.slug);
 }
 
-let rows;
+// Listele celor doi ani. Fără amândouă nu scriem și nu trimitem nimic: coada trimisă VM-ului o înlocuiește pe cea de
+// ieri, deci una făcută dintr-un singur an le-ar scoate din ea pe ale celuilalt.
+const lists = {};
+let reading = YEAR;
 try {
-  rows = parseList(await fetchCdep(listUrl('anp', YEAR))).filter((r) => r.tip !== 'BP');
+  for (reading of [YEAR, LAST]) lists[reading] = parseList(await fetchCdep(listUrl('anp', reading))).filter((r) => r.tip !== 'BP');
 } catch (err) {
-  console.log(`✗ lista Camerei pe ${YEAR}: ${err.message}`);
+  console.log(`✗ lista Camerei pe ${reading}: ${err.message}`);
   process.exit(err instanceof CdepBlocked ? 0 : 1);
 }
-if (rows.length < 50 && YEAR === new Date().getFullYear() && new Date().getMonth() > 2) throw new Error(`Lista Camerei are doar ${rows.length} rânduri; formatul s-a schimbat?`);
+// În ianuarie lista anului în curs e goală sau scurtă (cdep.ro răspunde cu pagina obișnuită, fără rânduri); a anului
+// trecut e întreagă.
+if (lists[YEAR].length < 50 && YEAR === new Date().getFullYear() && new Date().getMonth() > 2) throw new Error(`Lista Camerei pe ${YEAR} are doar ${lists[YEAR].length} rânduri; formatul s-a schimbat?`);
+if (lists[LAST].length < 50) throw new Error(`Lista Camerei pe ${LAST} are doar ${lists[LAST].length} rânduri; formatul s-a schimbat?`);
+// O listă nu se scurtează (proiectele încheiate rămân în ea): una cu mai puține rânduri decât cele știute e o pagină de
+// eroare, iar în primele luni ale anului pragul de mai sus n-o prinde.
+for (const y of [YEAR, LAST]) {
+  const had = [...before.keys()].filter((slug) => slug.endsWith(`-${y}`)).length;
+  if (lists[y].length < had * 0.9) throw new Error(`Lista Camerei pe ${y} are ${lists[y].length} rânduri, iar noi știam ${had}; formatul s-a schimbat?`);
+}
 
-const index = rows.map((r) => {
+const rowOf = (r) => {
   const slug = slugOf(r);
   const old = before.get(slug);
   return { slug, idp: r.idp, numar: r.numar, tip: r.tip, inregistrat: r.data, titlu: r.titlu, stadiu: r.stadiu, stadiuData: r.stadiuData, url: sheetUrl(r.idp), ...(old?.senat && { senat: old.senat }) };
-});
+};
+// Anul în curs: toate rândurile listei. Anul trecut, ca la anii dinainte (straja-cdep-vechi.mjs): proiectele aflate acum
+// la Cameră și cele urmărite deja sau cu fișa citită. La 1 ianuarie sunt toate cele din index.json de până atunci, deci
+// niciun proiect nu-și pierde pagina.
+const index = lists[YEAR].map(rowOf);
+const last = lists[LAST].map(rowOf).filter((p) => AT_CHAMBER.test(p.stadiu) || before.has(p.slug) || fs.existsSync(path.join(SHEETS, `${p.slug}.json`)));
+const all = [...index, ...last];
 
 // Consultarea publică de la Cameră nu schimbă stadiul din listă, dar numărul de propuneri crește: cât e deschisă, fișa
 // se recitește o dată pe zi. Fișele citite înainte să urmărim consultarea se recitesc o dată, dacă proiectul e recent
@@ -88,7 +113,7 @@ const partiesLost = (p) => {
 // de citit (până pe 6 noiembrie, indexul se rescria cu stadiul nou și fișa era uitată).
 // Fișele citite deja de VM (din copia locală, vezi lib/cdep.mjs) nu se numără la --max.
 const keyOf = (p) => `${p.stadiu}|${p.stadiuData ?? ''}`;
-const todo = index
+const todo = all
   .filter((p) => {
     const sheet = sheetOf(p.slug);
     if (!sheet) return true;
@@ -102,17 +127,17 @@ const meetings = readMeetings(path.join(ROOT, 'data'));
 const rereads = new Map();
 {
   const first = new Set(todo.map((p) => p.slug));
-  for (const p of index) {
+  for (const p of all) {
     const due = first.has(p.slug) ? null : rereadDue(sheetOf(p.slug), { today, meetings: meetings.get(p.slug) });
     if (due) rereads.set(p.slug, due);
   }
 }
-const queue = [...todo, ...index.filter((p) => rereads.has(p.slug)).sort((a, b) => byUrgency(rereads.get(a.slug), rereads.get(b.slug)))];
+const queue = [...todo, ...all.filter((p) => rereads.has(p.slug)).sort((a, b) => byUrgency(rereads.get(a.slug), rereads.get(b.slug)))];
 
 // Fișele deja citite primesc datele noi din listă (titlul, stadiul) fără o cerere în plus.
 const ROW_KEYS = ['numar', 'tip', 'inregistrat', 'titlu', 'stadiu', 'stadiuData', 'url'];
 const todoSlugs = new Set(todo.map((p) => p.slug));
-for (const p of index) {
+for (const p of all) {
   const file = path.join(SHEETS, `${p.slug}.json`);
   if (todoSlugs.has(p.slug) || !fs.existsSync(file)) continue;
   const sheet = JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -199,23 +224,31 @@ const left = queue.filter((p) => !done.has(p.slug));
 
 // VM-ul destraja citește peste zi ce n-a încăput azi, recitește lista anului la 3 ore și pune singur în coadă fișele
 // cu alt stadiu decât cel știut de noi (scripts/vm/cdep-vm.mjs); mâine le luăm din copia locală, fără cereri.
-const known = Object.fromEntries(index.filter((p) => sheetOf(p.slug)?.stadiu === p.stadiu && sheetOf(p.slug)?.stadiuData === p.stadiuData).map((p) => [p.slug, keyOf(p)]));
+// Coada lui „auto” ține schimbările unei singure liste (fiecare citire o înlocuiește), așa că lista anului trecut o
+// recitește doar pentru copia locală: stadiile ei noi le vedem aici la rularea următoare, fără nicio cerere, și pleacă
+// în coada de mai sus. 'copie' trebuie trimis: fără el, lista ar rămâne pe VM cu 'curent', de când era a anului în curs.
+const known = Object.fromEntries(all.filter((p) => sheetOf(p.slug)?.stadiu === p.stadiu && sheetOf(p.slug)?.stadiuData === p.stadiuData).map((p) => [p.slug, keyOf(p)]));
 await vmCall(
   'push',
   {
     source: 'curent',
     queue: toVm(left),
-    lists: [{ slug: `lista-anp-${YEAR}`, url: listUrl('anp', YEAR), everyMs: 3 * 3_600_000, parse: 'curent' }],
+    lists: [YEAR, LAST].map((y) => ({ slug: `lista-anp-${y}`, url: listUrl('anp', y), everyMs: 3 * 3_600_000, parse: y === YEAR ? 'curent' : 'copie' })),
     known,
   },
   { timeoutMs: 120_000 },
 );
 
-writeFileAtomic(indexFile, JSON.stringify({ an: YEAR, cititLa: new Date().toISOString(), proiecte: index }, null, 1) + '\n');
-const atChamber = index.filter((p) => AT_CHAMBER.test(p.stadiu)).length;
-const missing = index.filter((p) => !fs.existsSync(path.join(SHEETS, `${p.slug}.json`))).length;
+// Anul trecut întâi: dacă rularea se oprește între cele două scrieri, în prima zi a anului, proiectele anului încheiat
+// sunt în amândouă fișierele (cine le citește le ia o singură dată, după slug), nu în niciunul.
+const writtenAt = new Date().toISOString();
+fs.mkdirSync(path.dirname(lastFile), { recursive: true });
+writeFileAtomic(lastFile, JSON.stringify({ an: LAST, cititLa: writtenAt, randuri: lists[LAST].length, proiecte: last }, null, 1) + '\n');
+writeFileAtomic(indexFile, JSON.stringify({ an: YEAR, cititLa: writtenAt, proiecte: index }, null, 1) + '\n');
+const atChamber = all.filter((p) => AT_CHAMBER.test(p.stadiu)).length;
+const missing = all.filter((p) => !fs.existsSync(path.join(SHEETS, `${p.slug}.json`))).length;
 const reread = [...rereads.keys()].filter((slug) => done.has(slug)).length;
 console.log(
-  `🏛️ Camera ${YEAR}: ${index.length} proiecte, ${atChamber} aflate acum la Cameră; ${read} fișe citite aici, ${fromVm} de la VM, ${left.length} lăsate VM-ului, ${missing} încă de citit; ` +
+  `🏛️ Camera ${YEAR}: ${index.length} proiecte, plus ${last.length} urmărite din ${LAST}; ${atChamber} aflate acum la Cameră; ${read} fișe citite aici, ${fromVm} de la VM, ${left.length} lăsate VM-ului, ${missing} încă de citit; ` +
     `${rereadSummary([...rereads.values()])}${rereads.size ? `, ${reread} făcute acum` : ''}${note}`,
 );

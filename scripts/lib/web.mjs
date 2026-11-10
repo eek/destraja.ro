@@ -110,14 +110,43 @@ export function pageTitle(html) {
   );
 }
 
-// Citatul trebuie să apară în pagină: întreg sau, dacă e lung, măcar o bucată continuă de 60 de caractere.
+// Citatul trebuie să apară în pagină aproape întreg: fie cuvânt cu cuvânt, fie cel puțin 9 din 10 cuvinte ale lui, în
+// aceeași ordine, într-un singur pasaj cu cel mult un sfert mai lung decât citatul. Așa trec un cuvânt corectat de model,
+// un „a spus el” sărit sau o paranteză scoasă, dar nu un citat din care doar o bucată e în articol (înainte ajungeau 60
+// de caractere la rând) și nici unul lipit din fraze aflate departe una de alta. Spațiile, diacriticele, ghilimelele și
+// punctuația nu contează (norm).
 export function quoteFound(quote, text) {
   const q = norm(quote);
   const t = norm(text);
   if (q.length < 25) return false;
   if (t.includes(q)) return true;
-  if (q.length < 60) return false;
-  for (let i = 0; i + 60 <= q.length; i += 15) if (t.includes(q.slice(i, i + 60))) return true;
+  const qw = q.split(' ');
+  const tw = t.split(' ');
+  if (qw.length < 5) return false;
+  const need = Math.ceil(qw.length * 0.9);
+  const slack = Math.max(2, Math.ceil(qw.length / 4));
+  // Unde ar putea sta citatul: locurile din pagină în care apar trei cuvinte la rând din el.
+  const at = new Map();
+  for (let i = 0; i + 3 <= qw.length; i++) {
+    const key = qw.slice(i, i + 3).join(' ');
+    if (!at.has(key)) at.set(key, i);
+  }
+  const starts = new Set();
+  for (let j = 0; j + 3 <= tw.length && starts.size < 40; j++) {
+    const i = at.get(`${tw[j]} ${tw[j + 1]} ${tw[j + 2]}`);
+    if (i !== undefined) starts.add(Math.max(0, j - i));
+  }
+  for (const start of starts) {
+    const win = tw.slice(start, start + qw.length + slack);
+    // Cel mai lung șir comun de cuvinte, în ordine, între citat și pasaj.
+    let prev = new Array(win.length + 1).fill(0);
+    for (const w of qw) {
+      const row = [0];
+      for (let k = 1; k <= win.length; k++) row.push(w === win[k - 1] ? prev[k - 1] + 1 : Math.max(prev[k], row[k - 1]));
+      prev = row;
+    }
+    if (prev[win.length] >= need) return true;
+  }
   return false;
 }
 

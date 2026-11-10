@@ -5,14 +5,19 @@
 // /api/report/result          rezultatul verificării, pe e-mail, doar cu DIGEST_TOKEN (report.ts)
 // /api/subscribe, /api/confirm, /api/preferences, /api/unsubscribe   alertele pe e-mail (subscribe.ts)
 // /api/digest, /api/digest/stats   trimiterea ediției zilnice, doar cu DIGEST_TOKEN (digest.ts)
+// /api/mail/events            anunțurile Resend despre adrese care resping mesajele, semnate (mail.ts)
 // /api/cauta                  jurnalul căutărilor de pe /cauta, fără date care să identifice pe cineva (search.ts)
-// cron la 15 minute              confirmările rămase la coadă (subscribe.ts, sendQueued)
+// /api/run                    actualizarea zilnică anunță că a pornit și că a terminat, doar cu DIGEST_TOKEN (watch.ts)
+// cron la 15 minute           confirmările rămase la coadă (subscribe.ts, sendQueued) și supravegherea actualizării
+//                             zilnice: un e-mail când rularea zilei lipsește sau nu se termină (watch.ts, watchRun)
 
 import { handleDigest, handleDigestStats } from './digest';
 import { json, logError } from './http';
+import { handleMailEvents } from './mail';
 import { handleReport, handleReportResult } from './report';
 import { handleSearchLog } from './search';
 import { handleConfirm, handlePreferences, handleSubscribe, handleUnsubscribe, sendQueued } from './subscribe';
+import { handleRun, watchRun } from './watch';
 
 type Handler = (request: Request, env: Env, url: URL) => Promise<Response>;
 
@@ -23,7 +28,9 @@ const POST_ROUTES: Record<string, Handler> = {
   '/api/confirm': handleConfirm,
   '/api/preferences': handlePreferences,
   '/api/digest': handleDigest,
+  '/api/mail/events': handleMailEvents,
   '/api/cauta': handleSearchLog,
+  '/api/run': handleRun,
 };
 
 export default {
@@ -44,8 +51,10 @@ export default {
     if (url.pathname.startsWith('/api/')) return json({ error: 'not_found' }, 404);
     return env.ASSETS.fetch(request);
   },
-  // La 15 minute: confirmările rămase la coadă când s-a atins limita zilnică de e-mailuri (subscribe.ts).
+  // La 15 minute: confirmările rămase la coadă când trimiterea n-a mers din motive care nu țin de adresă (subscribe.ts)
+  // și rularea zilei, dacă lipsește sau nu s-a terminat (watch.ts).
   async scheduled(_controller, env, ctx) {
     ctx.waitUntil(sendQueued(env).catch((err) => logError('queue_failed', err)));
+    ctx.waitUntil(watchRun(env).catch((err) => logError('watch_failed', err)));
   },
 } satisfies ExportedHandler<Env>;

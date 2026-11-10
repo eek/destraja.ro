@@ -380,8 +380,8 @@ export async function runModel(model, prompt, { mode = 'offline', timeoutMs = 30
       res = await call(null);
     }
     // Cu text: true, un răspuns lung care pomenește „rate limit” (de exemplu un document despre un API) nu e o limită atinsă.
-    const quota = /usage limit|rate limit|quota/i.test(res.stdout + res.stderr) && (text ? res.stdout.trim().length < 500 : !/\{[\s\S]*\}/.test(res.stdout.split('\n').slice(-40).join('\n')));
-    if (quota) throw new Error((res.stdout + res.stderr).match(/[^\n]*(usage limit|rate limit|quota)[^\n]*/i)?.[0]?.trim().slice(0, 200) ?? 'limită de utilizare');
+    const quota = /usage limit|weekly limit|session limit|rate limit|quota/i.test(res.stdout + res.stderr) && (text ? res.stdout.trim().length < 500 : !/\{[\s\S]*\}/.test(res.stdout.split('\n').slice(-40).join('\n')));
+    if (quota) throw new Error((res.stdout + res.stderr).match(/[^\n]*(usage limit|weekly limit|session limit|rate limit|quota)[^\n]*/i)?.[0]?.trim().slice(0, 200) ?? 'limită de utilizare');
     if (!res.stdout.trim()) throw new Error(`răspuns gol după ${Math.round((Date.now() - start) / 1000)}s (probabil timp depășit)`);
     let data;
     try {

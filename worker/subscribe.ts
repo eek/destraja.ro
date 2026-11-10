@@ -10,21 +10,22 @@
 // Tokenul de preferințe nu se păstrează: e HMAC(SUBSCRIBE_KEY, id), recalculat la verificare.
 // Răspunsul la abonare e același dacă adresa există sau nu, ca să nu se poată afla cine e abonat.
 
-import { FROM, LEVELS, REPLY_TO, SITE, button, emailLayout, esc, footerHtml, SANS, SERIF, C, type Level } from '../email/layout.mjs';
+import { LEVELS, REPLY_TO, SITE, button, emailLayout, esc, footerHtml, SANS, SERIF, C, type Level } from '../email/layout.mjs';
 import { base64url, json, logError, randomToken, readSiteJson, sha256, verifyTurnstile } from './http';
+import { MailError, sendMail } from './mail';
 
 const LEVEL_SET = new Set<Level>(['all', 'yellow', 'red']);
 export const EMAIL_RE = /^[^\s@<>()[\]\\,;:"]{1,64}@(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}$/;
 const CONFIRM_HOURS = 48;
 // Același e-mail nu primește alt mesaj de confirmare mai devreme de atât, oricâte cereri ar veni.
-const RESEND_MINUTES = 10;
+const REPEAT_MINUTES = 10;
 // Peste atâtea abonări neconfirmate refuzăm temporar, ca nimeni să nu poată trimite mesaje în masă prin noi.
 const MAX_PENDING = 500;
-// Erori care țin de cont, nu de adresă: cererea rămâne la coadă și confirmarea pleacă din cron (sendQueued).
-const QUEUE = new Set(['E_DAILY_LIMIT_EXCEEDED', 'E_RATE_LIMIT_EXCEEDED', 'E_INTERNAL_SERVER_ERROR']);
-// Cât așteaptă o cerere la coadă înainte să fie ștearsă, dacă limita nu se eliberează.
+// Cât așteaptă o cerere la coadă înainte să fie ștearsă, dacă trimiterea nu-și revine.
 const QUEUE_HOURS = 72;
-const queueable = (err: unknown) => QUEUE.has(String((err as { code?: unknown })?.code ?? ''));
+// Erori care țin de cont, de limite sau de serviciu, nu de adresă (mail.ts): cererea rămâne la coadă și confirmarea
+// pleacă din cron (sendQueued).
+const queueable = (err: unknown) => err instanceof MailError && !err.refused;
 
 type Row = { id: string; status: 'pending' | 'active'; level: Level; confirm_sent_at: string | null };
 
@@ -103,15 +104,7 @@ function confirmEmail(kind: ConfirmKind, level: Level, confirmUrl: string | null
 }
 
 async function sendConfirm(env: Env, to: string, mail: { subject: string; html: string; text: string }) {
-  await env.EMAIL.send({
-    to,
-    from: FROM,
-    replyTo: REPLY_TO,
-    subject: mail.subject,
-    html: mail.html,
-    text: mail.text,
-    headers: { 'Auto-Submitted': 'auto-generated' },
-  });
+  await sendMail(env, { to, ...mail, headers: { 'Auto-Submitted': 'auto-generated' } });
 }
 
 // --- rutele ------------------------------------------------------------------------------------
@@ -134,7 +127,7 @@ export async function handleSubscribe(request: Request, env: Env, url: URL) {
   const nowIso = now.toISOString();
   await env.DB.prepare("DELETE FROM subscribers WHERE status = 'pending' AND confirm_expires < ?").bind(nowIso).run();
   const row = await env.DB.prepare('SELECT id, status, level, confirm_sent_at FROM subscribers WHERE email = ?').bind(email).first<Row>();
-  if (row?.confirm_sent_at && now.getTime() - Date.parse(row.confirm_sent_at) < RESEND_MINUTES * 60_000) return json({ ok: true });
+  if (row?.confirm_sent_at && now.getTime() - Date.parse(row.confirm_sent_at) < REPEAT_MINUTES * 60_000) return json({ ok: true });
 
   if (row?.status === 'active' && row.level === level) {
     await env.DB.prepare('UPDATE subscribers SET confirm_sent_at = ? WHERE id = ?').bind(nowIso, row.id).run();
@@ -175,7 +168,7 @@ export async function handleSubscribe(request: Request, env: Env, url: URL) {
   } catch (err) {
     logError('subscribe_mail_failed', err);
     if (queueable(err)) {
-      // Limita contului, nu adresa: păstrăm cererea și trimitem confirmarea din cron când se eliberează limita.
+      // Contul sau serviciul, nu adresa: păstrăm cererea și trimitem confirmarea din cron când trimiterea își revine.
       const until = new Date(now.getTime() + QUEUE_HOURS * 3_600_000).toISOString();
       await env.DB.prepare('UPDATE subscribers SET confirm_sent_at = NULL, confirm_queued_at = ?, confirm_expires = ? WHERE id = ?').bind(nowIso, until, id).run();
       return json({ ok: true, queued: true });
@@ -188,7 +181,7 @@ export async function handleSubscribe(request: Request, env: Env, url: URL) {
   return json({ ok: true });
 }
 
-// Cronul (index.ts): trimite confirmările rămase la coadă, cele mai vechi întâi, până dă din nou de limită.
+// Cronul (index.ts): trimite confirmările rămase la coadă, cele mai vechi întâi, până la prima eroare care nu ține de adresă.
 export async function sendQueued(env: Env) {
   const nowIso = new Date().toISOString();
   const { results } = await env.DB.prepare(

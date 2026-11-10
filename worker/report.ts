@@ -4,8 +4,8 @@
 // opționale: numele apare pe pagina proiectului lângă rezultat, e-mailul primește rezultatul o
 // dată (POST /api/report/result, apelat de scripts/straja-reports.mjs) și apoi se șterge.
 
-import { FROM, REPLY_TO } from '../email/layout.mjs';
 import { json, logError, readSiteJson, secretEquals, verifyTurnstile } from './http';
+import { MailError, sendMail } from './mail';
 import { EMAIL_RE } from './subscribe';
 
 const TARGETS = new Set(['consensus', 'agy', 'claude', 'codex']);
@@ -95,11 +95,11 @@ export async function handleReportResult(request: Request, env: Env) {
   if (!row) return json({ sent: false });
   let sent = true;
   try {
-    await env.EMAIL.send({ to: row.email, from: FROM, replyTo: REPLY_TO, subject, html, text, headers: { 'Auto-Submitted': 'auto-generated' } });
+    await sendMail(env, { to: row.email, subject, html, text, headers: { 'Auto-Submitted': 'auto-generated' }, key: `report/${id}` });
   } catch (err) {
     logError('report_result_failed', err);
-    // Adresa refuzată definitiv nu mai are rost păstrată; altfel scriptul reîncearcă la următoarea rulare.
-    if (String((err as { code?: unknown })?.code ?? '') !== 'E_RECIPIENT_SUPPRESSED') return json({ error: 'send' }, 503);
+    // Adresa refuzată de Resend („Invalid `to` field”) nu mai are rost păstrată; altfel scriptul reîncearcă la următoarea rulare.
+    if (!(err instanceof MailError && err.badAddress)) return json({ error: 'send' }, 503);
     sent = false;
   }
   await env.DB.prepare('UPDATE reports SET email = NULL, notified_at = ? WHERE id = ?').bind(new Date().toISOString(), id).run();

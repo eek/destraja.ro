@@ -72,6 +72,9 @@ const SCHEMA = 1;
 const PROMPT_VERSION = { guvern: 1, raport: 1, cl: 1, cf: 2 };
 const MODELS = ['codex', 'agy'];
 const MODEL_TIMEOUT = 20 * 60_000;
+// Cât așteptăm cel mult MinerU la un document (pdf-text.mjs îl oprește și mai devreme, după numărul de pagini): documentele
+// de aici au câteva pagini, iar pasul zilnic are 40 de minute pentru toate proiectele.
+const MINERU_MAX = 10 * 60_000;
 const MAX_TEXT = 30_000;
 const HOUR = 3_600_000;
 
@@ -260,7 +263,7 @@ async function pdfText(slug, kind, url, source) {
       const r = spawnSync('qpdf', ['--warning-exit-0', pdfPath, '--pages', '.', '1-5', '--', input], { timeout: 120_000 });
       if (r.status !== 0) input = pdfPath;
     }
-    const res = await extractPdfText(input, { pdfParse: null, cacheDir: OCR_CACHE, label: `${slug}/${kind}` });
+    const res = await extractPdfText(input, { pdfParse: null, cacheDir: OCR_CACHE, label: `${slug}/${kind}`, mineruMaxMs: MINERU_MAX });
     if (res.text.trim().length > 100) {
       text = res.text;
       method = res.method;

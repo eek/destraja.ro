@@ -3,6 +3,7 @@
 // doar pe fișă. Trei semne spun când merită o cerere:
 //   1. ședința unei comisii cu proiectul pe ordinea de zi (data/agenda/camera, scris de straja-cdep-agenda.mjs): cu o zi
 //      înainte, apoi la o zi, la trei și la șapte după ultima zi a ședinței, până apare pe fișă documentul comisiei;
+//      pentru plenul Camerei (plen.json), o singură dată, a doua zi după ședință;
 //   2. termenele din fișă: a doua zi după termenul de amendamente și după cel de raport;
 //   3. vârsta: proiectele înregistrate în ultimele 45 de zile la 4–5 zile, cele din ultimul an la vreo trei săptămâni,
 //      cele mai vechi la 6–8 săptămâni.
@@ -94,8 +95,15 @@ const REPORT = /^primire raport/i;
 const OPINION = /^primire aviz de la\s*:\s*$/i;
 const rowsSince = (fisa, re, day) => (fisa?.timeline ?? []).filter((t) => re.test(t?.actiune ?? '') && (isoOfRo(t.data) ?? '') >= day).length;
 const seized = (list, idc) => (list ?? []).some((c) => String(c.idc) === idc);
+// Plenul (plen.json, din ordinea de zi a ședinței): ordinea de zi poartă săptămâni la rând zeci de proiecte la care nu
+// se ajunge, iar un vot dat schimbă stadiul din lista anului, deci fișa se recitește oricum. De aici vine o singură
+// recitire, a doua zi după ședință, pentru ce nu se vede în listă: dezbaterea cu votul amânat, votul final fără
+// majoritate, retrimiterea la comisie. O fișă care are deja un astfel de rând din ziua ședinței încolo nu se mai cere.
+const PLENARY_ID = 'plen';
+const PLENARY =
+  /^dezbatere [iî]n plenul|\b(adoptat[aă]?|respins[aă]?) de (c[aă]tre )?camera deputa[tț]ilor\b|^plenul camerei deputa[tț]ilor\b|^vot final\b|^trimis pentru raport suplimentar/i;
 
-/** Zilele în care ședințele cer fișa: cu o zi înainte, apoi la 1, 3 și 7 zile după, cât documentul comisiei nu e pe fișă. */
+/** Zilele în care ședințele cer fișa: cu o zi înainte, apoi la 1, 3 și 7 zile după, cât documentul comisiei nu e pe fișă; la plen, doar a doua zi. */
 function meetingDays(fisa, meetings, today) {
   const recent = [];
   for (const c of meetings) {
@@ -109,6 +117,10 @@ function meetingDays(fisa, meetings, today) {
   const opinionsIn = opinions.length > 0 && rowsSince(fisa, OPINION, opinions.map((r) => r.first).sort()[0]) >= new Set(opinions.map((r) => r.idc)).size;
   const out = [];
   for (const r of recent) {
+    if (r.idc === PLENARY_ID) {
+      if (!rowsSince(fisa, PLENARY, r.first)) out.push(shiftDay(r.last, 1));
+      continue;
+    }
     out.push(shiftDay(r.first, -1));
     const done =
       r.rol === 'raport' ? rowsSince(fisa, REPORT, r.first) > 0 : r.rol === 'aviz' ? opinionsIn : rowsSince(fisa, REPORT, r.first) + rowsSince(fisa, OPINION, r.first) > 0;

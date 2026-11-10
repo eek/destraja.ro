@@ -74,13 +74,14 @@ primele fișiere reale de pe VM. Plenul și ședința comună sunt recunoscute d
 - `cititLa`: ISO. Opțional, ca la Senat, `schimbari.jsonl` și `citiri.jsonl` alături.
 
 Blocul de pe pagini și `/agenda` le iau automat. Textele de pe `/agenda` și imaginea de distribuire spun acum și Camera
-Deputaților; plenul Camerei nu e citit încă.
+Deputaților, cu plenul ei (`data/agenda/camera/<zi>/plen.json`, din 10 noiembrie).
 
 ## Ce urmează
 
 1. Copierea datelor de pe VM la build (vezi mai sus) și o primă verificare pe fișiere reale: făcut (pasul „Agendele
    Senatului” din `straja-daily.mjs`).
-2. Cititorul Camerei: făcut, vezi mai jos. Rămâne plenul Camerei.
+2. Cititorul Camerei: făcut, vezi mai jos, cu plenul Camerei. Pe VM-ul destraja, `scripts/vm/cdep-agenda-vm.mjs` descarcă
+   ordinile de zi la trei ore, și în weekend; Mac-ul își ia copiile de acolo.
 3. În e-mail: o secțiune „Săptămâna aceasta în comisii” cu `upcomingAgenda`, fără să trimitem de două ori aceeași ședință
    (evidența în `data/digests/state.json`).
 

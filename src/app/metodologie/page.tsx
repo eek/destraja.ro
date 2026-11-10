@@ -62,7 +62,7 @@ const FOLLOWED = [
   },
   { t: 'Ce spun instituțiile', d: 'Guvernul, comisia care face raportul, Consiliul Legislativ și Consiliul Fiscal, pe scurt, fiecare cu citatul din document.' },
   { t: 'Voturile', d: 'Votul nominal din plenul Senatului și al Camerei: rezultatul, cum a votat fiecare partid și fiecare parlamentar.' },
-  { t: 'Agenda', d: 'Ședințele comisiilor și ale plenului Senatului din săptămâna curentă, cu proiectele pe care le urmărim.' },
+  { t: 'Agenda', d: 'Ședințele comisiilor și ale plenului din Senat și din Camera Deputaților, din săptămâna curentă, cu proiectele pe care le urmărim.' },
   { t: 'Presa și organizațiile', d: 'Articolele și pozițiile publice ale ONG-urilor, sindicatelor și patronatelor, verificate pe site-ul lor.' },
   { t: 'Aceeași lege', d: 'Celelalte proiecte care modifică același act, întâi cele aflate încă în dezbatere.' },
   { t: 'Parlamentarii', d: 'Ce proiecte a semnat fiecare deputat și senator, cât de riscante sunt și cum a votat.' },
@@ -195,7 +195,7 @@ export default async function MethodPage() {
     { name: 'Workers', role: 'site-ul static și cele câteva adrese /api' },
     { name: 'D1', role: 'rapoartele cititorilor și abonații' },
     { name: 'Turnstile', role: 'verificarea anti-roboți din formulare' },
-    { name: 'Email Service', role: 'confirmările și alertele zilnice' },
+    { name: 'Resend', role: 'în afara Cloudflare: expediază confirmările și alertele zilnice' },
     { name: 'Wrangler', version: v.wrangler, role: 'migrațiile bazei și publicarea' },
   ];
   const mac: Tool[] = [

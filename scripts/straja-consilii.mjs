@@ -361,8 +361,9 @@ async function verificaPdf(p) {
   const principal = pdfs.find((d) => /proiect/i.test(d.titlu + d.url) && !/anun/i.test(d.titlu + d.url)) ?? pdfs[0];
   if (principal) {
     try {
-      const { text, pages } = await readUntrustedPdf(await getPdf(principal.url));
-      const perPage = Math.round(text.replace(/\s+/g, '').length / Math.max(pages, 1));
+      const { text, pages, pagesRead } = await readUntrustedPdf(await getPdf(principal.url));
+      // Pe paginile citite: un document lung, citit doar în parte, nu trece drept scanat.
+      const perPage = Math.round(text.replace(/\s+/g, '').length / Math.max(pagesRead, 1));
       p.pdf = { url: principal.url, pagini: pages, text: perPage >= 200 ? 'strat de text' : 'scanat (fără text)' };
     } catch (e) {
       p.pdf = { url: principal.url, eroare: String(e.message).slice(0, 120) };

@@ -3,8 +3,8 @@
 // Senatul: scripts/straja-agenda.mjs rulează pe VM din 2 în 2 ore și scrie data/agenda/senat/<zi>/<comisieId>.json, un
 // fișier pe comisie și zi, cu forma din parseDay (scripts/lib/senat-agenda.mjs). Camera Deputaților:
 // scripts/straja-cdep-agenda.mjs rulează în actualizarea zilnică și scrie data/agenda/camera/<zi>/<idc>.json cu aceeași
-// formă, din PDF-urile ordinilor de zi ale comisiilor (plenul Camerei nu e citit încă). Fără fișiere (la un contribuitor,
-// înainte de prima citire) totul e gol și nu se afișează nimic.
+// formă, din PDF-urile ordinilor de zi ale comisiilor, și data/agenda/camera/<zi>/plen.json din ordinea de zi a plenului
+// Camerei. Fără fișiere (la un contribuitor, înainte de prima citire) totul e gol și nu se afișează nimic.
 //
 // Modulul importă doar tipuri, ca scripturile Node să-l poată folosi direct, fără compilare (ca press.ts în
 // straja-digest.mjs): upcomingAgenda() dă aparițiile din următoarele zile, pentru e-mailuri. AGENDA_DIR schimbă dosarul
@@ -29,6 +29,7 @@ interface RawSession {
  * `termen` și `rezolutie`: la Senat `cod` e codul fișei (Legis/Lista.aspx?cod=…, ca în data/senat-bills.json), `numar` textul
  * linkului („L512/2026”) și `b` numărul de înregistrare pentru dezbatere („b543”); la Cameră `cod` e idp-ul fișei, când
  * o avem, `numar` e „PL-x 9/2026” (sau „L631/2026”, la comisiile comune cu Senatul), iar `scop` e rolul comisiei din fișă.
+ * La plenul Camerei `scop` e ce scrie ordinea de zi după titlu: felul legii, votul Senatului, raportul comisiei.
  */
 interface RawDay {
   comisieId?: unknown;

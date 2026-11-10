@@ -83,14 +83,14 @@ export default function InfraMap() {
         'Un Worker pentru /api: rapoarte, abonări, alerte',
         'D1: rapoartele și abonații',
         'Turnstile, împotriva roboților',
-        'Email Service, de la alerte@destraja.ro',
+        'E-mailurile pleacă prin Resend, de la alerte@destraja.ro',
         'Cel mult 5 rapoarte sau abonări pe minut de la o adresă',
       ],
       flows: [{ text: 'pagini și e-mailuri' }, { back: true, text: 'rapoarte și abonări' }],
       extra: (
         <p className="mt-4 text-sm leading-6 text-body">
-          <strong className="font-semibold text-ink">Adresele de e-mail stau doar aici, în D1.</strong> Pe Mac nu ajunge niciuna: scriptul trimite ediția
-          zilei, iar Worker-ul o expediază abonaților.
+          <strong className="font-semibold text-ink">Lista abonaților stă doar aici, în D1.</strong> Pe Mac nu ajunge nicio adresă: scriptul trimite ediția
+          zilei, iar Worker-ul o expediază prin Resend, care primește adresa fiecărui mesaj ca să-l livreze.
         </p>
       ),
     },

@@ -32,8 +32,29 @@ export const CHANGELOG: ChangeDay[] = [
     items: [
       {
         kind: 'nou',
+        title: 'Plenul Camerei Deputaților, în agendă',
+        text: 'Agenda săptămânii arată acum și plenul Camerei Deputaților: proiectele pe care le urmărim de pe ordinea de zi a ședinței, cu ora dezbaterilor, raportul comisiei și votul Senatului. Ordinea de zi a plenului e lungă, așa că nu toate proiectele de pe ea ajung să fie dezbătute în ședința respectivă. Ordinile de zi ale Camerei se citesc acum și în weekend.',
+        link: { href: '/agenda', label: 'Agenda' },
+        shot: { id: '2026-11-10-agenda-plen', alt: 'Agenda săptămânii: panoul „Plenul Camerei Deputaților”, ora 10:00–11:00, cu legătura „Ordinea de zi pe cdep.ro” și proiectele urmărite, fiecare cu riscul lui și cu ce scrie ordinea de zi despre el. La PL-x 8/2026, risc moderat 5,0: lege organică, adoptată de Senat, raport comun de adoptare.' },
+      },
+      {
+        kind: 'schimbat',
+        title: 'Scorul unui proiect așteaptă mai multe modele',
+        text: 'Când la un proiect nou apucă să răspundă un singur model, analiza nu mai apare cu scorul lui: așteptăm celelalte două modele cel mult două zile. Dacă tot nu răspund, o publicăm și scriem pe pagină că e părerea unui singur model. Am rulat din nou și analizele rămase cu unul sau două răspunsuri: toate cele 840 de proiecte analizate au acum câte trei.',
+        link: { href: '/legi/b630-2026', label: 'Un exemplu: B630/2026' },
+        shot: { id: '2026-11-10-trei-modele', alt: 'Secțiunea „Ce spun cele trei modele” la B630/2026: scor 5,3 din 10, risc moderat, „modelele sunt de acord”, iar dedesubt câte un card pentru Gemini (5,0), Claude (5,0) și ChatGPT (6,0), fiecare cu părerea lui pe scurt.' },
+      },
+      {
+        kind: 'schimbat',
+        title: 'Alertele pe e-mail pleacă prin alt serviciu',
+        text: 'E-mailurile destrajă.ro pleacă acum prin Resend, un serviciu de expediere, în locul celui de la Cloudflare, care se oprea la aproximativ 200 de mesaje pe zi: ediția din 2 noiembrie a ajuns doar la 197 de abonați, iar de atunci alertele au stat pe loc. Pagina de confidențialitate spune ce primește noul serviciu: adresa ta și mesajul, ca să-l livreze. O ediție oprită pe drum se reia acum de unde a rămas.',
+        link: { href: '/confidentialitate', label: 'Confidențialitate' },
+        shot: { id: '2026-11-10-email-resend', alt: 'Pagina de confidențialitate, secțiunea „Când te abonezi la alerte”: adresele stau în baza de date Cloudflare D1, în Uniunea Europeană, iar e-mailurile pleacă prin Resend, un serviciu de expediere din Statele Unite, care primește adresa și mesajul ca să-l livreze.' },
+      },
+      {
+        kind: 'nou',
         title: 'Comisiile Camerei Deputaților, în agendă',
-        text: 'Agenda săptămânii arată acum și ședințele comisiilor din Camera Deputaților în care se discută proiecte pe care le urmărim, cu ziua, ora și sala, din ordinile de zi publicate pe cdep.ro. Pe pagina proiectului vezi când intră în comisie. În jurul ședinței și după termenele din fișă recitim fișa proiectului, așa că raportul sau avizul comisiei ajunge pe site în câteva zile, nu abia când se schimbă stadiul din lista Camerei. Plenul Camerei nu e încă inclus.',
+        text: 'Agenda săptămânii arată acum și ședințele comisiilor din Camera Deputaților în care se discută proiecte pe care le urmărim, cu ziua, ora și sala, din ordinile de zi publicate pe cdep.ro. Pe pagina proiectului vezi când intră în comisie. În jurul ședinței și după termenele din fișă recitim fișa proiectului, așa că raportul sau avizul comisiei ajunge pe site în câteva zile, nu abia când se schimbă stadiul din lista Camerei.',
         link: { href: '/agenda', label: 'Agenda' },
         shot: { id: '2026-11-10-agenda-camera', alt: 'Agenda săptămânii, marți, 10 noiembrie: Comisia pentru drepturile omului, culte și problemele minorităților naționale din Camera Deputaților, la ora 09:00, în sala comisiei, cu legătura „Ordinea de zi pe cdep.ro” și proiectele din ședință, fiecare cu riscul lui și cu ce i se cere comisiei, raport sau aviz.' },
       },

@@ -4,29 +4,25 @@
 // Corpul: { day: "AAAA-LL-ZZ", editions: { all?, yellow?, red? } }, fiecare ediție { subject, html, text }
 // cu {{prefs_url}} și {{unsubscribe_url}} în locul linkurilor personale. Prima cerere a zilei salvează
 // edițiile; următoarele le refolosesc. Fiecare cerere trimite un lot, iar scriptul repetă până rămân 0,
-// așa că o rulare întreruptă se reia fără ca cineva să primească ediția de două ori (last_sent_day).
+// așa că o rulare întreruptă se reia fără ca cineva să primească ediția de două ori (last_sent_day, plus cheia de
+// idempotență a fiecărui mesaj, pentru cererea întreruptă între trimitere și notarea ei).
+//
+// Erorile trimiterii (mail.ts): ce ține de cont, de cheie, de limite sau de serviciu oprește lotul (`stopped`) și se reia
+// mai târziu, fără să se șteargă cineva: o configurare greșită n-are voie să golească lista. Adresele care resping
+// definitiv mesajele ies din listă prin anunțurile Resend (/api/mail/events).
 
-import { FROM, REPLY_TO, type Level } from '../email/layout.mjs';
+import type { Level } from '../email/layout.mjs';
 import { json, logError, secretEquals } from './http';
+import { MailError, sendMail } from './mail';
 import { manageToken, prefsUrl, unsubscribeUrl } from './subscribe';
 
 const DAY = /^\d{4}-\d{2}-\d{2}$/;
 const LEVELS: Level[] = ['all', 'yellow', 'red'];
 const BATCH = 25;
 const MAX_HTML = 200_000;
-// Ce fac erorile serviciului de e-mail: adresa scoasă din listă, sau oprim lotul și reîncercăm mai târziu.
-// Doar suprimarea ține de adresă. E_RECIPIENT_NOT_ALLOWED ține de cont (domeniu neînrolat la Email Sending,
-// plan fără trimitere către oricine): dacă am șterge pentru ea, o configurare greșită ar goli toată lista.
-const DROP = new Set(['E_RECIPIENT_SUPPRESSED']);
-const STOP = new Set([
-  'E_RATE_LIMIT_EXCEEDED',
-  'E_DAILY_LIMIT_EXCEEDED',
-  'E_SENDER_NOT_VERIFIED',
-  'E_SENDER_DOMAIN_NOT_AVAILABLE',
-  'E_RECIPIENT_NOT_ALLOWED',
-  'E_ACCOUNT_SUSPENDED',
-  'E_INTERNAL_SERVER_ERROR',
-]);
+// Câte mesaje refuzate pentru conținut (400, 422) încap într-un lot: la al treilea e limpede că ediția însăși e de vină
+// și oprim lotul în loc să o încercăm la toată lista.
+const MAX_REFUSED = 3;
 
 type Edition = { subject: string; html: string; text: string };
 
@@ -69,7 +65,7 @@ export async function handleDigest(request: Request, env: Env) {
 
   const { results: stored } = await env.DB.prepare('SELECT level, subject, html, text FROM digests WHERE day = ?').bind(day).all<Edition & { level: Level }>();
   const editions = new Map(stored.map((e) => [e.level, e]));
-  if (!editions.size) return json({ ok: true, sent: 0, failed: 0, removed: 0, remaining: 0 });
+  if (!editions.size) return json({ ok: true, sent: 0, failed: 0, remaining: 0 });
 
   const levels = [...editions.keys()];
   const marks = levels.map(() => '?').join(', ');
@@ -80,18 +76,17 @@ export async function handleDigest(request: Request, env: Env) {
 
   let sent = 0;
   let failed = 0;
-  let removed = 0;
+  let refused = 0;
   let stopped: string | null = null;
+  const markSent = (id: string) => env.DB.prepare('UPDATE subscribers SET last_sent_day = ? WHERE id = ?').bind(day, id).run();
   for (const s of batch) {
     const e = editions.get(s.level)!;
     const token = await manageToken(env, s.id);
     const prefs = prefsUrl(token);
     const unsub = unsubscribeUrl(token);
     try {
-      await env.EMAIL.send({
+      await sendMail(env, {
         to: s.email,
-        from: FROM,
-        replyTo: REPLY_TO,
         subject: e.subject,
         html: fill(e.html, prefs, unsub),
         text: fill(e.text, prefs, unsub),
@@ -101,20 +96,26 @@ export async function handleDigest(request: Request, env: Env) {
           'List-Id': 'Alertele destrajă <alerte.destraja.ro>',
           'X-Edition': `${day}-${s.level}`,
         },
+        key: `digest/${day}/${s.id}`,
       });
-      await env.DB.prepare('UPDATE subscribers SET last_sent_day = ? WHERE id = ?').bind(day, s.id).run();
+      await markSent(s.id);
       sent++;
     } catch (err) {
-      const code = (err as { code?: string }).code ?? '';
       logError('digest_send_failed', err);
-      if (DROP.has(code)) {
-        await env.DB.prepare('DELETE FROM subscribers WHERE id = ?').bind(s.id).run();
-        removed++;
+      if (!(err instanceof MailError)) {
+        failed++;
+        continue;
+      }
+      // Abonatul a primit deja ediția zilei, cu alt conținut (și-a schimbat între timp nivelul): nu-i mai trimitem una.
+      if (err.duplicate) {
+        await markSent(s.id);
         continue;
       }
       failed++;
-      if (STOP.has(code)) {
-        stopped = code;
+      // O adresă refuzată nu spune nimic despre ediție: rămâne netrimisă, iar lotul merge mai departe.
+      if (err.badAddress) continue;
+      if (!err.refused || ++refused >= MAX_REFUSED) {
+        stopped = err.code;
         break;
       }
     }
@@ -123,7 +124,7 @@ export async function handleDigest(request: Request, env: Env) {
   const remaining = await env.DB.prepare(`SELECT COUNT(*) AS n ${pendingSql}`)
     .bind(...levels, day)
     .first<number>('n');
-  return json({ ok: true, sent, failed, removed, remaining: remaining ?? 0, stopped });
+  return json({ ok: true, sent, failed, remaining: remaining ?? 0, stopped });
 }
 
 /** Câți abonați activi are fiecare nivel; scriptul o folosește ca să nu trimită ediții nimănui. */

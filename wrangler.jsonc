@@ -19,10 +19,10 @@
     { "name": "SUBSCRIBE_LIMIT", "namespace_id": "1002", "simple": { "limit": 5, "period": 60 } },
     { "name": "SEARCH_LIMIT", "namespace_id": "1003", "simple": { "limit": 60, "period": 60 } }
   ],
-  // Confirmările abonării și ediția zilnică pleacă doar de la această adresă.
-  "send_email": [{ "name": "EMAIL", "allowed_sender_addresses": ["alerte@destraja.ro"] }],
+  // E-mailurile pleacă prin Resend (worker/mail.ts), cu secretele RESEND_API_KEY și RESEND_WEBHOOK_SECRET puse cu
+  // `wrangler secret put`; nu au nevoie de nimic aici.
   "observability": { "enabled": true, "head_sampling_rate": 1 },
-  // Confirmările de abonare rămase la coadă când s-a atins limita zilnică de e-mailuri (worker/subscribe.ts).
+  // Confirmările de abonare rămase la coadă când trimiterea n-a mers din motive care nu țin de adresă (worker/subscribe.ts).
   "triggers": { "crons": ["*/15 * * * *"] },
   "routes": [
     { "pattern": "destraja.ro", "custom_domain": true },

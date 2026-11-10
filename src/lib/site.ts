@@ -54,13 +54,13 @@ export function partyFullName(party: string) {
 // Necompletate până le confirmă operatorul; pagina afișează vizibil „de completat”.
 export const OPERATOR_NAME: string | null = 'Radu-Sebastian Amarie (persoană fizică)';
 export const CONTACT_EMAIL: string | null = 'contact@destraja.ro';
-export const POLICY_UPDATED = '7 noiembrie 2026';
+export const POLICY_UPDATED = '10 noiembrie 2026';
 // Cât păstrează Google Analytics datele la nivel de vizitator. Trebuie să fie la fel ca în
 // Google Analytics > Admin > Data retention (implicit 2 luni); rapoartele agregate rămân.
 export const ANALYTICS_RETENTION = '2 luni';
 
 // Alertele pe e-mail apar în meniu, pe prima pagină și pe /abonare doar după ce domeniul trimite e-mailuri
-// (Cloudflare Email Service). Până atunci /abonare spune că pornesc în curând.
+// (prin Resend, worker/mail.ts). Până atunci /abonare spune că pornesc în curând.
 export const ALERTS_LIVE = true;
 
 // Cheia publică a widgetului Turnstile din formularul de raportare a greșelilor (destraja.ro, lastraja.ro și localhost).

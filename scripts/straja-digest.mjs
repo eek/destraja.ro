@@ -16,12 +16,29 @@
 //   --day=AAAA-LL-ZZ                         altă zi decât azi (pentru teste)
 //   --anunt=camera                           ediția specială despre Camera Deputaților: o primesc toate nivelurile,
 //                                            înaintea noutăților zilei (dacă sunt)
+//   --anunt=<nume>                           un anunț scris de mână, din email/anunturi/<nume>.md, trimis la fel
+//   --tot                                    trimite ediția și când evidența e veche (vezi mai jos)
+//   --de-azi                                 fără e-mail: notează ce există acum, ca următoarea ediție să cuprindă doar
+//                                            ce apare de aici înainte (termenele care se închid se anunță în continuare)
 //   --images                                 imaginile anunțului merg în public/email/anunt, ca să fie publicate
 //                                            (straja-daily, înainte de build); fără el, previzualizarea le ține
 //                                            în ops/digest/anunt. La trimitere trebuie să fie deja pe site.
 //
 // Pauză: o dată AAAA-LL-ZZ în .cache/email-paused-until oprește trimiterea până în ziua aceea inclusiv. Evidența nu se
 // mută, așa că prima ediție de după pauză cuprinde și noutățile din zilele oprite.
+//
+// Evidență veche: după mai mult de 7 zile fără nicio ediție (o pauză, o oprire rămasă nerezolvată), --send nu mai trimite
+// de la sine tot ce s-a strâns, la toată lista. Se oprește cu eroare și cere o alegere: --anunt=<nume> (un anunț care
+// explică, apoi noutățile), --tot (ediția strânsă, așa cum e) sau --de-azi (nimic, și o luăm de la zi).
+//
+// O ediție oprită pe drum (serviciul de e-mail, rețeaua) se reia cu aceeași comandă în aceeași zi, sau mai târziu cu
+// --send --day=<ziua ei>: Worker-ul ține minte ediția și cine a primit-o, iar data/digests/pending.json ține minte ce
+// cuprindea (și anunțul ei, dacă a avut unul), ca evidența să se mute exact la ea. Actualizarea zilnică o reia singură, cu
+// ziua ei, înaintea ediției de azi, care așteaptă până pleacă cea veche. Pauza de mai sus se uită la ziua în care
+// trimitem, nu la ziua ediției, deci o ediție veche poate pleca după ce pauza s-a terminat.
+//
+// Lungimea: Gmail taie mesajele de peste ~102 KB. O ediție care ar trece de 90 KB păstrează cardurile întregi pentru
+// termenele apropiate și pentru riscul cel mai mare, iar restul proiectelor apar pe câte un rând.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -45,10 +62,17 @@ const SEND = args.has('--send');
 const LOCAL = args.has('--local');
 const API = LOCAL ? 'http://127.0.0.1:8787' : SITE;
 const stateFile = LOCAL ? LOCAL_STATE_FILE : STATE_FILE;
+// Ediția începută și neterminată: { day, state, levels }.
+const pendingFile = LOCAL ? path.join(ROOT, '.cache', 'digest-pending-local.json') : path.join(DATA, 'digests', 'pending.json');
 const DAY = argv.find((a) => a.startsWith('--day='))?.slice(6) ?? new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Bucharest' }).format(new Date());
 
 const PAUSE_FILE = path.join(ROOT, '.cache', 'email-paused-until');
 const ANUNT = argv.find((a) => a.startsWith('--anunt='))?.slice(8) ?? null;
+const ANUNT_DIR = path.join(ROOT, 'email', 'anunturi');
+// De la câte zile fără ediție nu mai trimitem de la sine ce s-a strâns: un weekend lung încape, o pauză nu.
+const MAX_GAP_DAYS = 7;
+// Gmail taie HTML-ul de peste ~102 KB, cu tot cu linkurile de dezabonare din subsol; linkurile personale îl mai lungesc puțin.
+const HTML_BUDGET = 90_000;
 const CLOSING_DAYS = 3;
 // Un articol vechi găsit abia acum nu e o noutate: îl notăm ca văzut, dar nu îl trimitem.
 const PRESS_MAX_AGE_DAYS = 7;
@@ -206,6 +230,14 @@ ${b.oneLiner ? `<p class="lt-body" style="margin:8px 0 0;font-family:${SANS};fon
 ${pressHtml}
 ${cta ? `<p style="margin:12px 0 0;font-family:${SANS};font-size:14px;line-height:20px;font-weight:600"><a href="${esc(billUrl(b))}" class="lt-link" style="${linkStyle}">${esc(ctaLabel(b))}</a></p>` : ''}
 </td></tr></table>`;
+}
+
+/** Un proiect pe un rând, în edițiile lungi: riscul, numărul, termenul și titlul, fără explicație și fără articole. */
+function billRow(b, press = []) {
+  return `<tr><td class="lt-line" style="padding:11px 0;border-top:1px solid ${C.line}">
+<p style="margin:0 0 4px;font-family:${SANS};font-size:13px;line-height:20px">${riskChip(b.level, b.score)} <span class="lt-muted" style="color:${C.muted}">&nbsp;<span style="white-space:nowrap">${esc(b.id)}</span> · ${esc(deadlineText(b))}${press.length ? ` · ${countWord(press.length, 'articol', 'articole')} în presă` : ''}</span></p>
+<a href="${esc(billUrl(b))}" class="lt-ink" style="font-family:${SERIF};font-size:16px;line-height:22px;color:${C.ink};text-decoration:none">${esc(b.title)}</a>
+</td></tr>`;
 }
 
 // Poziția față de proiect, unde cititorii presei sunt de acord; neutrele nu le marcăm, ca pe cardul de pe site.
@@ -458,6 +490,67 @@ ${small.map((t) => `- ${t.replace(/<[^>]+>/g, '')}`).join('\n')}
   return { subject, lead, intro, html, text, images, stats: s };
 }
 
+// --- anunțuri scrise de mână: email/anunturi/<nume>.md -------------------------------------------
+
+/** Un rând din anunț: **aldin** și [legături](https://…); legăturile spre site primesc eticheta ediției. */
+function inline(md) {
+  let html = '';
+  let text = '';
+  let last = 0;
+  for (const m of md.matchAll(/\*\*([^*]+)\*\*|\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g)) {
+    html += esc(md.slice(last, m.index));
+    text += md.slice(last, m.index);
+    if (m[1]) {
+      html += `<strong class="lt-ink" style="color:${C.ink};font-weight:600">${esc(m[1])}</strong>`;
+      text += m[1];
+    } else {
+      const href = m[3] === SITE || m[3].startsWith(`${SITE}/`) ? track(m[3]) : m[3];
+      html += link(href, m[2]);
+      text += `${m[2]} (${href})`;
+    }
+    last = m.index + m[0].length;
+  }
+  return { html: html + esc(md.slice(last)), text: text + md.slice(last) };
+}
+
+/**
+ * Un anunț scris de mână, pus înaintea noutăților de la Senat, la toate nivelurile. Antetul fișierului (între două linii
+ * „---”) dă `subject`, `lead` (titlul din e-mail), `intro` (primul paragraf, care e și previzualizarea din inbox) și,
+ * opțional, `news` (titlul de deasupra noutăților). Corpul: paragrafe despărțite de un rând gol, „## Titlu”, liste cu
+ * „- ”, **aldin** și [legături](https://…).
+ */
+function writtenAnnouncement(name) {
+  const file = path.join(ANUNT_DIR, `${name}.md`);
+  const where = path.relative(ROOT, file);
+  if (!/^[a-z0-9-]+$/.test(name) || !fs.existsSync(file)) throw new Error(`--anunt=${name}: nu există ${where} (în afară de fișierele de acolo avem doar --anunt=camera)`);
+  const m = /^---\n([\s\S]*?)\n---\n([\s\S]*)$/.exec(fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n'));
+  if (!m) throw new Error(`${where}: lipsește antetul dintre liniile „---”`);
+  const head = {};
+  for (const line of m[1].split('\n')) {
+    const kv = /^([a-z]+):\s*(.+)$/.exec(line);
+    if (kv) head[kv[1]] = kv[2].trim();
+  }
+  for (const k of ['subject', 'lead', 'intro']) if (!head[k]) throw new Error(`${where}: lipsește „${k}:” din antet`);
+  let html = '';
+  let text = '';
+  for (const block of m[2].split(/\n{2,}/).map((b) => b.trim()).filter(Boolean)) {
+    if (block.startsWith('## ')) {
+      const title = block.slice(3).trim();
+      html += `<p class="lt-ink" style="margin:24px 0 6px;font-family:${SERIF};font-size:19px;line-height:25px;color:${C.ink}">${esc(title)}</p>`;
+      text += `\n${title.toUpperCase()}\n`;
+    } else if (block.startsWith('- ')) {
+      const items = block.split(/\n(?=- )/).map((i) => inline(i.slice(2).replace(/\s*\n\s*/g, ' ')));
+      html += `<ul style="margin:0 0 14px;padding:0 0 0 20px">${items.map((i) => `<li class="lt-body" style="margin:0 0 6px;font-family:${SANS};font-size:16px;line-height:26px;color:${C.body}">${i.html}</li>`).join('')}</ul>`;
+      text += `${items.map((i) => `- ${i.text}`).join('\n')}\n`;
+    } else {
+      const p = inline(block.replace(/\s*\n\s*/g, ' '));
+      html += P(p.html);
+      text += `\n${p.text}\n`;
+    }
+  }
+  return { subject: head.subject, lead: head.lead, intro: head.intro, news: head.news, summary: true, html, text, images: [], stats: { anunt: name } };
+}
+
 /** Imaginile din e-mail trebuie să fie deja pe site, exact cele de azi; altfel abonații ar vedea imagini lipsă. */
 async function checkImages(images) {
   for (const img of images) {
@@ -469,7 +562,8 @@ async function checkImages(images) {
 
 // --- o ediție pentru un nivel --------------------------------------------------------------------
 
-function edition(level, data, anunt = null) {
+/** `short`: proiectele care apar pe un rând în loc de card, ca ediția să încapă în HTML_BUDGET (le alege singură). */
+function edition(level, data, anunt = null, short = new Set()) {
   const match = (b) => MATCHES[level](b.level);
   const newBills = data.newBills.filter(match).sort((a, b) => b.score - a.score);
   const closing = data.closing.filter(match).sort((a, b) => a.days - b.days || b.score - a.score);
@@ -482,6 +576,12 @@ function edition(level, data, anunt = null) {
   const ownPress = press.filter((a) => featuredIds.has(a.bill.id));
   const otherPress = press.filter((a) => !featuredIds.has(a.bill.id));
   const pressOf = (b) => ownPress.filter((a) => a.bill.id === b.id);
+  const cards = (bills) => {
+    const full = bills.filter((b) => !short.has(b.id));
+    const rows = bills.filter((b) => short.has(b.id));
+    const more = full.length && rows.length ? P(`Și încă ${countWord(rows.length, 'proiect', 'proiecte')}, pe scurt:`, 'margin:20px 0 6px;font-size:14px;line-height:22px') : '';
+    return full.map((b) => billCard(b, { press: pressOf(b) })).join('') + more + (rows.length ? table(rows.map((b) => billRow(b, pressOf(b))).join('')) : '');
+  };
 
   const levelName = LEVELS[level].label;
   const dateLong = capitalize(formatDay(dayUtc(DAY), { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }));
@@ -517,8 +617,9 @@ function edition(level, data, anunt = null) {
     // Noutățile zilei de la Senat vin după, cu titlul lor; dacă nu sunt, ediția e doar anunțul.
     if (parts.length) {
       const today = `${capitalize(parts.join(', ').replace(/, ([^,]*)$/, ' și $1'))}.`;
-      body += H2('Și azi, la Senat') + P(esc(today));
-      text += `\nȘI AZI, LA SENAT\n${today}\n`;
+      const heading = anunt.news ?? 'Și azi, la Senat';
+      body += H2(heading) + P(esc(today));
+      text += `\n${heading.toUpperCase()}\n${today}\n`;
     }
   }
   const textBill = (b) =>
@@ -529,11 +630,11 @@ function edition(level, data, anunt = null) {
       .join('');
 
   if (newBills.length) {
-    body += H2(newBills.length === 1 ? 'Proiect nou în consultare' : 'Proiecte noi în consultare') + newBills.map((b) => billCard(b, { press: pressOf(b) })).join('');
+    body += H2(newBills.length === 1 ? 'Proiect nou în consultare' : 'Proiecte noi în consultare') + cards(newBills);
     text += `\nPROIECTE NOI ÎN CONSULTARE\n${newBills.map(textBill).join('\n')}\n`;
   }
   if (closing.length) {
-    body += H2('Ultimele zile pentru obiecții') + closing.map((b) => billCard(b, { press: pressOf(b) })).join('');
+    body += H2('Ultimele zile pentru obiecții') + cards(closing);
     text += `\nULTIMELE ZILE PENTRU OBIECȚII\n${closing.map(textBill).join('\n')}\n`;
   }
   if (otherPress.length) {
@@ -560,8 +661,8 @@ function edition(level, data, anunt = null) {
         .join('');
     text += `\nANALIZE CORECTATE\n${corrections.map((c) => `\n- ${c.bill.id}: am corectat ${sections(c.targets)}, după o semnalare confirmată cu textul oficial.\n  ${billUrl(c.bill)}`).join('\n')}\n`;
   }
-  // În anunț, cardul Senatului ține locul rezumatului.
-  if (level === 'all' && !anunt) {
+  // În anunțul despre Cameră, cardul Senatului ține locul rezumatului.
+  if (level === 'all' && (!anunt || anunt.summary)) {
     body += summaryBlock(data.open);
     const counts = ['red', 'yellow', 'green'].map((l) => `${data.open.filter((b) => b.level === l).length} ${RISK[l].label.toLowerCase()}`);
     text += `\nPE SCURT\nÎn consultare acum: ${countWord(data.open.length, 'proiect', 'proiecte')} (${counts.join(', ')}).\n`;
@@ -579,7 +680,20 @@ function edition(level, data, anunt = null) {
   text += `\n—\nPrimești acest e-mail pentru că te-ai abonat la alertele destrajă, nivelul „${levelName}”.\nSchimbă nivelul: {{prefs_url}}\nDezabonează-te: {{unsubscribe_url}}\n\nAnalizele sunt făcute cu AI și pot conține erori; verifică textul oficial pe senat.ro.\n`;
 
   const html = emailLayout({ title: subject, preheader, eyebrow: `${esc(dateLong)} · Alerte: ${esc(levelName.toLowerCase())}`, body, footer });
-  return { subject, html, text, stats: { newBills: newBills.length, closing: closing.length, press: press.length, corrections: corrections.length, ...(anunt && { anunt: ANUNT }) } };
+  // Prea lungă: trecem pe câte un rând întâi proiectele noi cu riscul cel mai mic, apoi termenele cele mai îndepărtate,
+  // și o refacem. Textul simplu le păstrează pe toate întregi: pe el nu-l taie nimeni.
+  let over = Buffer.byteLength(html) - HTML_BUDGET;
+  const rest = [...[...newBills].reverse(), ...[...closing].reverse()].filter((b) => !short.has(b.id));
+  if (over > 0 && rest.length) {
+    const shorter = new Set(short);
+    for (const b of rest) {
+      if (over <= 0) break;
+      over -= Buffer.byteLength(billCard(b, { press: pressOf(b) })) - Buffer.byteLength(billRow(b, pressOf(b)));
+      shorter.add(b.id);
+    }
+    return edition(level, data, anunt, shorter);
+  }
+  return { subject, html, text, stats: { newBills: newBills.length, closing: closing.length, press: press.length, corrections: corrections.length, ...(short.size && { short: short.size }), ...(anunt && { anunt: ANUNT }) } };
 }
 
 // --- trimiterea ----------------------------------------------------------------------------------
@@ -600,7 +714,7 @@ async function activeSubscribers() {
 async function send(editions) {
   const token = digestToken();
   const payload = Object.fromEntries(Object.entries(editions).map(([k, e]) => [k, { subject: e.subject, html: e.html, text: e.text }]));
-  const totals = { sent: 0, failed: 0, removed: 0, remaining: 0 };
+  const totals = { sent: 0, failed: 0, remaining: 0 };
   for (let round = 0; round < 200; round++) {
     const r = await fetch(`${API}/api/digest`, {
       method: 'POST',
@@ -611,13 +725,12 @@ async function send(editions) {
     if (!r.ok) throw new Error(`/api/digest ${r.status} ${body.error ?? ''}`);
     totals.sent += body.sent;
     totals.failed += body.failed;
-    totals.removed += body.removed;
     totals.remaining = body.remaining;
     if (body.stopped) {
       totals.stopped = body.stopped;
       break;
     }
-    if (!body.remaining || body.sent + body.removed === 0) break;
+    if (!body.remaining || body.sent === 0) break;
   }
   return totals;
 }
@@ -639,11 +752,34 @@ async function main() {
     console.log('Prima rulare: am notat ce există acum; de la următoarea ediție trimitem doar noutăți.');
     return;
   }
+  if (args.has('--de-azi')) {
+    if (SEND || ANUNT) throw new Error('--de-azi nu trimite nimic: se folosește singur, fără --send și fără --anunt');
+    const next = snapshot(bills, state, []);
+    writeState(next);
+    fs.rmSync(pendingFile, { force: true });
+    console.log(`Evidența e la zi (${Object.keys(next.bills).length} proiecte, ${next.articles.length} articole): următoarea ediție cuprinde doar ce apare de acum înainte.`);
+    return;
+  }
   const data = collect(bills, state);
-  if (ANUNT && ANUNT !== 'camera') throw new Error(`--anunt=${ANUNT}: nu există; avem doar --anunt=camera`);
   const senateBills = readJson(path.join(DATA, 'senat-bills.json'), []).filter((b) => fs.existsSync(path.join(DATA, 'analyses', `${b.slug}.json`)));
-  const anunt = ANUNT === 'camera' ? cameraAnnouncement(senateBills, [...data.open].sort((a, b) => a.days - b.days || b.score - a.score)) : null;
-  if (anunt) console.log(`📣 anunț: ${JSON.stringify({ ...anunt.stats, top: anunt.stats.top.slice(0, 3).map((b) => b.numar), riskier: anunt.stats.riskier?.billId ?? null })} · imagini în ${path.relative(ROOT, ANUNT_IMG_DIR)}`);
+  // O ediție începută în ziua aceasta și neterminată se reia; alegerea de mai jos s-a făcut când a plecat prima dată.
+  // Reluată fără --anunt, ediția cu anunț rămâne cu anunțul ei.
+  const pending = readJson(pendingFile, null);
+  const resume = pending?.day === DAY;
+  const anuntName = ANUNT ?? (resume ? pending.anunt : null) ?? null;
+  const anunt =
+    anuntName === 'camera' ? cameraAnnouncement(senateBills, [...data.open].sort((a, b) => a.days - b.days || b.score - a.score)) : anuntName ? writtenAnnouncement(anuntName) : null;
+  if (anuntName === 'camera') console.log(`📣 anunț: ${JSON.stringify({ ...anunt.stats, top: anunt.stats.top.slice(0, 3).map((b) => b.numar), riskier: anunt.stats.riskier?.billId ?? null })} · imagini în ${path.relative(ROOT, ANUNT_IMG_DIR)}`);
+  else if (anunt) console.log(`📣 anunț: ${path.relative(ROOT, path.join(ANUNT_DIR, `${anuntName}.md`))}`);
+
+  const gap = Math.round((dayUtc(DAY) - dayUtc(state.day)) / 86_400_000);
+  const stale =
+    gap > MAX_GAP_DAYS && !anunt && !args.has('--tot') && !resume
+      ? `Evidența e din ${formatDay(dayUtc(state.day), { day: 'numeric', month: 'long' })}: de ${gap} zile n-a plecat nicio ediție, iar cea de azi ar duce la toată lista tot ce s-a strâns ` +
+        `(${countWord(data.newBills.length, 'proiect nou', 'proiecte noi')}, ${countWord(data.closing.length, 'termen apropiat', 'termene apropiate')}, ${countWord(data.press.length, 'articol', 'articole')}). ` +
+        `Alege: --anunt=<nume> (un anunț din ${path.relative(ROOT, ANUNT_DIR)}/, apoi noutățile), --tot (ediția așa cum e) sau --de-azi (fără e-mail, de la zi înainte).` +
+        (pending ? ` Ediția din ${pending.day} a rămas neterminată; se reia cu --send --day=${pending.day}.` : '')
+      : null;
   fs.mkdirSync(OUT_DIR, { recursive: true });
   const editions = {};
   for (const level of LEVEL_KEYS) {
@@ -665,30 +801,39 @@ async function main() {
   }
 
   if (!SEND) {
+    if (stale) console.log(`⚠ ${stale}`);
     console.log('Doar previzualizare; cu --send trimitem și actualizăm data/digests/state.json.');
     return;
   }
   const pausedUntil = fs.existsSync(PAUSE_FILE) ? fs.readFileSync(PAUSE_FILE, 'utf8').trim() : '';
-  if (!LOCAL && /^\d{4}-\d{2}-\d{2}$/.test(pausedUntil) && DAY <= pausedUntil) {
+  // Pauza ține de ziua în care trimitem, nu de ziua ediției: o ediție mai veche, reluată după pauză, trebuie să poată pleca.
+  const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Bucharest' }).format(new Date());
+  if (!LOCAL && /^\d{4}-\d{2}-\d{2}$/.test(pausedUntil) && today <= pausedUntil) {
     console.log(`⏸ Trimiterea e oprită până pe ${pausedUntil} inclusiv (${path.relative(ROOT, PAUSE_FILE)}); nu trimitem nimic și nu mutăm evidența.`);
     return;
   }
+  if (stale) throw new Error(stale);
+  // La reluare pleacă doar nivelurile ediției începute: Worker-ul le are salvate și le trimite celor care n-au primit-o.
+  const levels = Object.keys(editions).filter((l) => !resume || pending.levels.includes(l));
   // Și fără abonați mutăm evidența: cine se abonează mâine primește noutățile de mâine, nu tot ce s-a strâns.
-  if (Object.keys(editions).length && !(await activeSubscribers())) {
+  if (levels.length && !(await activeSubscribers())) {
     console.log('Niciun abonat activ încă; nu trimitem nimic.');
-  } else if (Object.keys(editions).length) {
+  } else if (levels.length) {
     if (anunt) await checkImages(anunt.images);
-    const totals = await send(editions);
+    // Notăm ce cuprinde ediția înainte să plece: dacă se oprește pe drum, reluarea mută evidența la ea, nu la datele de atunci.
+    if (!resume) writeFileAtomic(pendingFile, JSON.stringify({ day: DAY, levels, ...(anuntName && { anunt: anuntName }), state: data.nextState }, null, 2) + '\n');
+    const totals = await send(Object.fromEntries(levels.map((l) => [l, editions[l]])));
     console.log(`✅ trimise: ${JSON.stringify(totals)}`);
-    // Oprit de serviciul de e-mail (limită zilnică, domeniu neverificat): nu mutăm state.json, ca aceeași
-    // comandă, rulată din nou, să refacă edițiile și să continue. Ce rămâne după erori la câte o adresă
-    // nu oprește ediția de mâine.
+    // Oprit de serviciul de e-mail (limită, cheie, domeniu neverificat, ediție refuzată): nu mutăm state.json. Ce rămâne
+    // după erori la câte o adresă nu oprește ediția de mâine.
     if (totals.stopped) {
+      console.error(`✗ Oprit de serviciul de e-mail (${totals.stopped}): au rămas ${totals.remaining}. Se reia cu aceeași comandă azi, sau mai târziu cu: node scripts/straja-digest.mjs --send --day=${DAY}`);
       process.exitCode = 1;
       return;
     }
   }
-  writeState(data.nextState);
+  writeState(resume ? pending.state : data.nextState);
+  fs.rmSync(pendingFile, { force: true });
 }
 
 main().catch((err) => {

@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import type { BillPdf, BillVersions, EnrichedBill } from './types';
 import type { CdepBill } from './cdep';
+import { todayISO } from './format';
 
 /** data/istoric/<slug>.json (scripts/straja-istoric.mjs). */
 export interface BillHistory {
@@ -72,7 +73,7 @@ export function senateHappenings(bill: EnrichedBill, history: BillHistory | null
     }
     out.push({ kind: 'oficial', date, ...senateRow(row.action, bill.pdfs) });
   }
-  return withAnnouncements(out, history);
+  return withAnnouncements(out, history, bill.timeline.map((r) => ({ date: iso(r.date), action: r.action })));
 }
 
 /**
@@ -98,11 +99,23 @@ export function chamberHappenings(bill: CdepBill, history: BillHistory | null, s
   if (versions && latest && versions.versions.length > 1 && versions.updatedAt.slice(0, 10) > since) {
     out.push({ kind: 'forma', date: versions.updatedAt.slice(0, 10), text: `O formă nouă a textului (${latest.label}), comparată cu cea dinainte`, href: '#versiuni' });
   }
-  return withAnnouncements(out, history);
+  return withAnnouncements(out, history, bill.fisa.timeline.map((t) => ({ date: iso(t.data), action: t.actiune })));
 }
 
-function withAnnouncements(out: Happening[], history: BillHistory | null) {
+// Un anunț din presă stă în listă cât e doar un anunț. Îl scoatem când fișa arată, din ziua lui încolo, un pas care îl
+// poate duce la îndeplinire (raportul comisiei, votul din plen sau retragerea proiectului): de acolo vorbesc documentele
+// oficiale. Altfel îl scoatem la 60 de zile de la anunț: nepus în practică atâta vreme, nu mai e o noutate. Regula nu
+// citește ce spune anunțul, deci nu-l leagă de un pas anume; „trimis pentru raport” și termenele nu sunt astfel de pași.
+const ANNOUNCEMENT_DAYS = 60;
+const SETTLES = /raport|adoptat|respins|retras de|retragerea ini[țţ]iativei/i;
+const NOT_YET = /^\s*(trimis|termen)/i;
+
+function withAnnouncements(out: Happening[], history: BillHistory | null, steps: { date: string; action: string }[]) {
+  const today = todayISO();
+  const settled = steps.filter((s) => SETTLES.test(s.action) && !NOT_YET.test(s.action)).map((s) => s.date);
+  const age = (date: string) => Math.round((Date.parse(`${today}T12:00:00Z`) - Date.parse(`${date}T12:00:00Z`)) / 86_400_000);
   for (const a of history?.anunturi ?? []) {
+    if (settled.some((d) => d >= a.data) || age(a.data) > ANNOUNCEMENT_DAYS) continue;
     out.push({ kind: 'anunt', date: a.data, who: a.cine, what: a.ce, sources: a.surse.map(({ url, outlet }) => ({ url, outlet })) });
   }
   // Cele mai noi întâi; în aceeași zi, anunțurile după pașii oficiali.

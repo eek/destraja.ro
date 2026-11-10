@@ -1,0 +1,143 @@
+# EXPUNERE DE MOTIVE
+
+la Propunerea legislativă pentru modificarea art. V din Ordonanța de urgență a Guvernului nr. 148/2024 pentru prorogarea unor termene și pentru modificarea unor acte normative, în vederea prorogării termenului de obținere a autorizației de securitate la incendiu pentru serviciile sociale
+
+## 1. Necesitatea și oportunitatea reglementării
+
+Serviciile sociale reprezintă o componentă esențială a sistemului de protecție socială, având un rol fundamental în asigurarea sprijinului, îngrijirii, recuperării și integrării sociale a persoanelor aflate în situații de vulnerabilitate.
+
+În mod particular, serviciile sociale rezidențiale destinate persoanelor adulte cu dizabilități asigură protecția unor beneficiari care, de multe ori, depind în mod direct și permanent de personalul specializat și de infrastructura acestor centre pentru satisfacerea nevoilor de bază, pentru îngrijire și pentru desfășurarea activităților cotidiene.
+
+În prezent, o parte dintre furnizorii de servicii sociale, atât publici, cât și privați, întâmpină dificultăți obiective în obținerea autorizației de securitate la incendiu, generate de particularitățile construcțiilor existente, de complexitatea lucrărilor necesare pentru conformarea la cerințele tehnice în vigoare, de durata procedurilor administrative și de costurile semnificative ale investițiilor.
+
+Aceste dificultăți sunt cu atât mai importante în cazul clădirilor vechi, al centrelor rezidențiale care funcționează în imobile construite anterior intrării în vigoare a actualelor reglementări în domeniul securității la incendiu, precum și al furnizorilor care nu dispun de resurse financiare suficiente pentru realizarea imediată a tuturor lucrărilor de conformare.
+
+Deși necesitatea respectării normelor privind securitatea la incendiu este incontestabilă, aplicarea unor măsuri administrative și sancționatorii fără luarea în considerare a situațiilor concrete poate conduce la suspendarea activității, retragerea licențelor de funcționare sau chiar la închiderea unor servicii sociale.
+
+O asemenea consecință ar putea afecta direct beneficiarii, în special persoanele adulte cu dizabilități, persoanele dependente de îngrijire permanentă și alte categorii de persoane vulnerabile, pentru care identificarea unei alternative de cazare și îngrijire nu este întotdeauna posibilă într-un interval scurt de timp.
+
+Închiderea unui centru social nu reprezintă doar o măsură administrativă care afectează un furnizor de servicii, ci poate determina întreruperea unor relații de îngrijire, pierderea unui mediu familiar și destabilizarea unor persoane care au nevoie de continuitate, predictibilitate și protecție.
+
+Prin urmare, se impune identificarea unei soluții legislative echilibrate, care să permită continuarea activității serviciilor sociale aflate în proces real de conformare la cerințele de securitate la incendiu, fără diminuarea nivelului de protecție a vieții și integrității beneficiarilor și ale personalului.
+
+## 2. Situația existență și problemele identificate
+
+Prin Ordonanța de urgență a Guvernului nr. 148/2024, aprobată cu modificări prin Legea nr. 165/2025, legiutorul a instituit anumite măsuri tranzitorii referitoare la licențierea și relicențierea serviciilor sociale în situația în care furnizorii nu dețin încă autorizația de securitate la incendiu.
+
+Experiența aplicării acestor dispoziții evidențiază însă necesitatea unei reglementări mai clare și mai cuprinzătoare, care să răspundă dificultăților întâmpinate de furnizorii de servicii sociale și să asigure un cadru juridic predictibil pentru continuarea activității acestora.
+
+Problema nu constă în eliminarea obligației de obținere a autorizației de securitate la incendiu, ci în imposibilitatea obiectivă a unor furnizori de a finaliza, în termenele stabilite, toate lucrările și procedurile necesare autorizării.
+
+În numeroase situații, furnizorii au inițiat demersuri pentru obținerea avizelor și autorizațiilor, au contractat servicii de proiectare sau execuție a lucrărilor și au început investițiile necesare, însă durata procedurilor și complexitatea intervențiilor depășesc termenele administrative existente.
+
+În același timp, aplicarea unor sancțiuni exclusiv pentru lipsa autorizației, fără evaluarea demersurilor effective de conformare și a măsurilor concrete de protecție implementate, poate produce efecte disproporționate asupra beneficiarilor serviciilor sociale.
+
+O altă problemă identificată este necesitatea asigurării unui tratament juridic egal pentru furnizorii publici și privați de servicii sociale aflați în situații comparabile. Obligațiile privind protecția beneficiarilor și securitatea la incendiu trebuie să fie aceleași, indiferent de forma juridică de organizare a furnizorului.
+
+Reglementarea propusă urmărește tocmai instituirea unui mecanism tranzitoriu unitar, transparent și condiționat de îndeplinirea unor măsuri concrete de siguranță.
+
+## 3. Soluțiile legislative propuse
+
+Prin prezenta propunere legislativă se urmărește prorogarea până la data de 31 decembrie 2030 a termenului acordat furnizorilor de servicii sociale pentru obținerea autorizației de securitate la incendiu, în condițiile și cu respectarea obligațiilor prevăzute de lege.
+
+Soluția legislativă propusă nu exonerează furnizorii de obligația obținerii autorizației și nu suspendă aplicarea normelor generale privind apărarea împotriva incendiilor. Aceasta instituie un regim tranzitoriu, cu obligații clare și verificabile, care permite continuarea activității serviciilor sociale în condiții de siguranță, până la finalizarea procedurilor de autorizare.
+
+În acest scop, propunerea legislativă cuprinde următoarele măsuri:
+
+## a) Prelungirea perioadei de licențiere și relicențiere
+
+Se permite soluționarea cererilor de licențiere și relicențiere depuse până la data de 30 iunie 2030 inclusiv, fără depunerea documentului privind autorizația de securitate la incendiu, în condițiile stabilite de lege.
+
+Măsura urmărește evitarea blocării procedurilor de licențiere și asigurarea continuității serviciilor sociale.
+
+## b) Instituirea obligației de informare și monitorizare anuală
+
+Furnizorii de servicii sociale au obligația de a continua demersurile pentru obținerea autorizației și de a transmite anual, până la data de 31 martie, compartimentului de specialitate, documente care să ateste stadiul acestor demersuri.
+
+Totodată, până la data de 31 decembrie 2030 inclusiv, aceștia au obligația de a transmite autorizația de securitate la incendiu sau documentul emis de inspectoratul pentru situații de urgență din care rezultă că serviciul social nu se supune autorizării.
+
+Prin această măsură se asigură monitorizarea permanentă a procesului de conformare și se evită transformarea prorogării într-o simplă amânare lipsită de obligații.
+
+## c) Protejarea continuității serviciilor sociale
+
+Se instituie o derogare limitată de la prevederile art. 45 pct. V lit. b) din Legea nr. 307/2006 privind apărarea împotriva incendiilor, astfel încât, până la termenul stabilit, simpla lipsă a autorizației de securitate la incendiu să nu constituie, prin ea însăși, motiv de respingere a cererii de licențiere sau relicențiere și nici temei pentru aplicarea amenzii contravenționale, suspendarea activității, retragerea licenței ori închiderea serviciului social.
+
+Această protecție juridică este condiționată de respectarea obligațiilor legale privind apărarea împotriva incendiilor, a măsurilor dispuse de autoritățile competente și a cerințelor minime de siguranță prevăzute expres de lege.
+
+## d) Introducerea unor condiții obligatorii de siguranță
+
+Pentru a beneficia de regimul tranzitoriu, furnizorii trebuie să îndeplinească în mod cumulativ următoarele condiții: să fi depus cererea pentru emiterea avizului sau autorizației de securitate la incendiu ori să fi încheiat un contract de proiectare sau de execuție a lucrărilor necesare conformării și să dețină și să asigure funcționarea sistemelor de detectare, semnalizare și avertizare a incendiilor, să dețină un plan de evacuare și să organizeze semestrial exerciții de evacuare împreună cu personalul și beneficiarii serviciilor sociale. Aceste condiții reprezintă garanții concrete că prorogarea termenului nu conduce la diminuarea măsurilor de prevenire și protecție împotriva incendiilor.
+
+## e) Asigurarea egalității de tratament între furnizorii publici și privați
+
+Reglementarea se aplică în mod egal furnizorilor publici și privați aflați în situații comparabile, inclusiv serviciilor sociale rezidențiale destinate persoanelor adulte cu dizabilități, indiferent de forma juridică de organizare. Se urmărește eliminarea oricărei discriminări între furnizorii care asigură servicii sociale similare și care au aceleași obligații față de beneficiari.
+
+## f) Menținerea competențelor autorităților de intervenție în situații de pericol
+
+Propunerea legislativă precizează expres că prorogarea termenului nu aduce atingere obligațiilor privind prevenirea și stingerea incendiilor, protecția vieții și integrității persoanelor, dotarea cu mijloace de detectare, semnalizare și avertizare, precum și evacuarea în condiții de siguranță.
+
+De asemenea, autoritățile competente își păstrează dreptul de a dispune toate măsurile prevăzute de lege în cazul identificării unor deficiențe care pun în pericol viața sau integritatea beneficiarilor ori a personalului. Prin urmare, reglementarea nu instituie un regim de imunitate față de controalele autorităților și nu împiedică intervenția acestora atunci când există un pericol real.
+
+## g) Stabilirea unei consecințe juridice clare la expirarea termenului
+
+După data de 31 decembrie 2030, netransmiterea autorizației de securitate la incendiu sau a documentului emis de inspectoratul pentru situații de urgență din care rezultă că serviciul social nu se supune autorizării, atrage retragerea licenței de funcționare, decizia putând fi contestată potrivit art. 29 din Legea nr. 197/2012.Astfel, se stabilește un termen final ferm, care oferă furnizorilor timpul necesar conformării, dar și certitudinea că obligația legală trebuie îndeplinită.
+
+## 4. Respectarea drepturilor persoanelor vulnerabile și a principiului proporționalității
+
+Prezenta inițiativă legislativă are la bază necesitatea protejării drepturilor și intereselor persoanelor vulnerabile, în special ale persoanelor adulte cu dizabilități care beneficiază de servicii sociale rezidențiale.
+
+În analiza oportunității măsurilor legislative trebuie avută în vedere nu numai obligația furnizorilor de a respecta normele tehnice și administrative, ci și obligația statului de a asigura continuitatea serviciilor de protecție socială și de a preveni situațiile în care persoanele vulnerabile sunt expuse unor riscuri suplimentare prin întreruperea bruscă a îngrijirii.
+
+Închiderea unor centre sociale fără identificarea prealabilă a unor soluții alternative adecvate poate genera consecințe grave: separarea beneficiarilor de mediul în care sunt integrați, întreruperea tratamentelor și a programelor de recuperare, deteriorarea stării de sănătate și creșterea riscului de marginalizare socială.
+
+Din această perspectivă, soluția propusă urmărește realizarea unui echilibru între două obligații fundamentale ale statului: protejarea vieții și integrității persoanelor și asigurarea accesului efectiv și continuu la servicii sociale.
+
+Prorogarea termenului nu înseamnă acceptarea funcționării unor centre nesigure. Dimpotrivă, aceasta este condiționată de implementarea unor măsuri concrete de prevenire, de monitorizarea periodică a progresului și de menținerea competențelor autorităților de a interveni ori de câte ori există un pericol pentru beneficiari sau personal.
+
+## 5. Impactul social și economic al reglementării
+
+Adoptarea propunerii legislative va avea un impact social pozitiv, prin reducerea riscului de întrerupere sau desființare a unor servicii sociale necesare persoanelor vulnerabile.
+
+În plan social, măsura va contribui la menținerea continuității serviciilor de îngrijire și asistență social, protejarea beneficiarilor împotriva efectelor negative ale închiderii sau suspendării centrelor, asigurarea stabilității și predictibilității pentru persoanele adulte cu dizabilități și familiile acestora, menținerea locurilor de muncă ale personalului specializat din serviciile sociale, evitarea supraaglomerării altor centre și a transferurilor neplanificate ale beneficiarilor.
+
+În plan economic, reglementarea va permite furnizorilor să planifice și să realizeze etapizat investițiile necesare pentru conformarea la cerințele de securitate la incendiu, fără a fi obligați să suporte, într-un interval nerealist, costuri care pot depăși capacitatea lor financiară.
+
+Totodată, se evită pierderea investițiilor deja realizate în infrastructura socială și se protejează capacitatea existență de furnizare a serviciilor sociale.
+
+## 6. Impactul asupra bugetului general consolidat
+
+Propunerea legislativă nu instituie cheltuieli bugetare directe noi și nu presupune alocarea unor fonduri suplimentare de la bugetul de stat.
+
+Măsurile propuse urmăresc asigurarea unui cadru juridic tranzitoriu pentru furnizorii de servicii sociale, fără a modifica obligațiile generale ale acestora privind realizarea investițiilor necesare pentru obținerea autorizației de securitate la incendiu.
+
+## 7. Compatibilitatea cu legislația europeană și principiile constituționale
+
+Reglementarea propusă este fundamentată pe respectarea demnității umane, a dreptului la viață, a protecției persoanelor cu dizabilități și a principiului egalității în drepturi.
+
+Aceasta este în concordanță cu principiile Convenției ONU privind drepturile persoanelor cu dizabilități, ratificată de România prin Legea nr. 221/2010, precum și cu principiile Cartei drepturilor fundamentale a Uniunii Europene privind demnitatea umană, dreptul la viață, nediscriminarea și integrarea persoanelor cu dizabilități.
+
+De asemenea, măsurile propuse urmăresc respectarea principiului proporționalității, prin instituirea unei perioade tranzitorii determinate, condiționată de îndeplinirea unor obligații concrete de siguranță și de menținerea competențelor autorităților de intervenție în situațiile de pericol.
+
+Reglementarea nu urmărește derogarea de la standardele de protecție a vieții și integrității persoanelor, ci stabilirea unui mecanism realist și echilibrat pentru îndeplinirea obligațiilor legale de către furnizorii de servicii sociale.
+
+## 8. Concluzii
+
+Statul are obligația de a proteja viața și integritatea persoanelor, dar și de a asigura continuitatea serviciilor sociale destinate celor mai vulnerabili membri ai societății.
+
+Nu putem trata protecția socială exclusiv ca pe o succesiune de autorizații, termene și sancțiuni administrative, ignorând consecințele concrete pe care închiderea unui centru le poate avea asupra unor persoane care depind zilnic de serviciile respective.
+
+În același timp, nu putem accepta diminuarea standardelor de securitate la incendiu sau expunerea beneficiarilor la riscuri nejustificate.
+
+Soluția legislativă propusă răspunde ambelor exigențe: acordă furnizorilor un termen realist pentru conformare, impune măsuri concrete și verificabile de siguranță, instituie obligații de monitorizare și păstrează integral competența autorităților de a interveni în situațiile în care viața sau integritatea persoanelor sunt puse în pericol.
+
+Prin această inițiativă nu se solicită eliminarea obligației de autorizare, ci acordarea timpului necesar pentru îndeplinirea acesteia, fără ca beneficiarii să suporte consecințele unor dificultăți administrative, tehnice sau financiare care nu pot fi remediate imediat.
+
+Protejarea persoanelor vulnerabile nu trebuie să însemne doar respectarea formală a unor proceduri administrative, ci și asigurarea efectivă a continuității îngrijirii, a siguranței și a demnității acestora.
+
+Pentru aceste considerente, apreciem că adoptarea prezentei propuneri legislative este necesară, oportună și justificată de interesul public, motiv pentru care supunem Parlamentului României spre dezbatere și adoptare.
+
+Inițiator,
+
+Deputat Mariana Vârgă,
+
+Circumscripția Electorală nr. 42 București

@@ -1,0 +1,27 @@
+Parlamentul României Camera Deputaților Grupul Parlamentar al Partidului Național Liberal
+
+Telefon: (021) 414 10 70
+
+Fax: (021) 414 10 72
+
+E-mail:pnl@cdep.ro
+
+Biroul permanent al Camerei Deputaților Inițiative legislative
+
+Nr. 850 din 04.11.2026
+
+## Către: BIROUL PERMANENT AL CAMEREI DEPUTAȚILOR
+
+În conformitate cu prevederile art. 92 din Regulamentul Camerei Deputaților, republicat, și în temeiul prevederilor art. 74 din Constituția României, republicată, vă înaintăm spre dezbatere și aprobare Propunerea legislativă pentru modificarea și completarea Legii nr. 98/2016 privind achizițiile publice, cu modificările și
+
+completările ulterioare, în procedură de urgență.
+
+Biroul permanent al Senatului
+
+矢:
+
+Pentru inițiatori,
+
+Bp628....10..14.2026
+
+Ciobotă\\uDragoș - Fănică, deputat PNL

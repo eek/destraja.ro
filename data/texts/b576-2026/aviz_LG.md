@@ -1,6 +1,6 @@
 ## AVIZ
 
-# referitor la propunerea legislativă pentru modificarea și completarea Legii nr. 169/2026 privind Codul amenajării teritoriului, urbanismului și construcțiilor
+referitor la propunerea legislativă pentru modificarea și completarea Legii nr. 169/2026 privind Codul amenajării teritoriului, urbanismului și construcțiilor
 
 Analizând propunerea legislativă pentru modificarea și completarea Legii nr. 169/2026 privind Codul amenajării teritoriului, urbanismului și construcțiilor (b576/19.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/5149/26.10.2026 și înregistrată la Consiliul Legislativ cu nr. D885/26.10.2026,
 
@@ -126,7 +126,7 @@ Se impune, de aceea, reanalizarea, sub acest aspect, a textelor propuse prin pro
 
 PRESEDINTE
 
-Florin IORDACHE
+Florin IORDACHE/
 
 București
 

@@ -2,7 +2,7 @@
 
 Nr. înreg.\_\_\_\_
 
-Către,
+## Către,
 
 ## BIROUL PERMANENT AL SENATULUI
 
@@ -10,6 +10,8 @@ Către,
 
 În temeiul art.118 alin. (1) din Regulamentul Camerei Deputaților și al art. 115 alin. (1) din Regulamentul Senatului, vă solicităm dezbaterea și adoptarea propunerii legislative în procedură de urgență.
 
-În numele initiator/ôr.
+În numele initiator/ør,
 
-Cseka Attila - Zpítán Senator UDMR
+Cseke Attila - Záítán
+
+Senator UDMR

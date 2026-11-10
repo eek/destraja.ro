@@ -1,14 +1,15 @@
 {
   "billId": "PL-x 652/2026",
   "slug": "plx-652-2026",
-  "updatedAt": "2026-10-28T21:26:46.804Z",
+  "version": "senat",
+  "updatedAt": "2026-11-10T14:13:42.308Z",
   "consensus": {
     "riskScore": 4,
     "riskLevel": "yellow",
-    "plainTitle": "Înființarea Ghișeului Unic pentru Diaspora (diaspora.gov.ro) și a unor birouri în prefecturi pentru românii care revin în țară",
-    "summaryTlDr": "Deși ideea unui portal unic de consiliere pentru repatriere este utilă și nu impune obligații cetățenilor sau firmelor, legea adoptată tacit de Senat este redactată neglijent: conține trimiteri la articole inexistente, creează posturi obligatorii în toate prefecturile și aruncă toate costurile în bugetul ADR.",
-    "initiatorClaim": "Inițiatorii vor să creeze o platformă digitală unică (diaspora.gov.ro) și puncte fizice de consiliere gratuită care să îi ajute pe românii din străinătate să își echivaleze studiile, să își înscrie copiii la școală, să își găsească de lucru și să își rezolve formalitățile la revenirea în țară.",
-    "realityCheck": "Pentru cetățeni și mediul privat legea nu aduce taxe sau birocrație suplimentară, însă mecanismul instituțional este plin de erori de tehnică legislativă: impune minimum 3 posturi în fiecare prefectură (peste 120 de posturi la nivel național), obligă Autoritatea pentru Digitalizarea României să plătească din bugetul propriu toată aplicarea legii (deși coordonarea este la Departamentul pentru Românii de Pretutindeni) și greșește trimiterile din articolele privind amenzile și normele metodologice.",
+    "plainTitle": "Un ghișeu unic, online și la consulate, pentru românii din diaspora care vor să se întoarcă acasă",
+    "summaryTlDr": "Ideea e utilă și nu pune nicio sarcină pe cetățeni sau firme. Textul are însă erori de trimitere care fac sancțiunile practic inaplicabile, iar finanțarea e nesigură și atribuită altei instituții decât cea care administrează ghișeul.",
+    "initiatorClaim": "Inițiatorii spun că românii din diaspora renunță să revină din cauza birocrației fragmentate și a lipsei unei surse unice de informații. Propun o platformă națională (diaspora.gov.ro) și puncte fizice de consiliere, cu obligații și amenzi pentru instituțiile care nu își actualizează informațiile.",
+    "realityCheck": "Legea creează un portal de informare și consiliere gratuit, coordonat de DRP, și obligă ministerele să publice și să actualizeze informații (art. 6-7). Nu creează drepturi noi, beneficii sau facilități fiscale, deci efectul depinde de calitatea implementării. Amenda de la art. 10 trimite la un articol greșit, iar termenul de 60 de zile de la art. 2 alin. (2) nu spune clar ce cerere trebuie soluționată și de către cine.",
     "affectedGroups": [
       "Toți cetățenii",
       "Angajați & HR",
@@ -16,10 +17,10 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. 3 alin. (5), Art. 10 alin. (1), Art. 11, 13",
-      "proposalContent": "La art. 3 alin. (5) se elimină sintagma „funcționând cu un număr minim de 3 posturi”, atribuțiile fiind preluate de personalul existent. La art. 10 alin. (1), trimiterea la „art. 7 alin. (1)” se înlocuiește cu „art. 6 alin. (1) și (2)”. La art. 11, cheltuielile se suportă din bugetele fiecărei instituții implicate, iar la art. 13 trimiterea se corectează în „art. 12 alin. (1)”.",
-      "argumentation": "Forma adoptată tacit de Senat conține erori materiale grave de trimitere (art. 10 trimite la un inexistent art. 7 alin. 1 pentru sancțiuni, iar art. 13 se autoreferă greșit în loc de art. 12 alin. 1). De asemenea, impunerea a minimum 3 posturi în fiecare prefectură și decontarea tuturor cheltuielilor doar din bugetul ADR încalcă art. 138 alin. (5) din Constituție.",
-      "otherComments": "La art. 2 alin. (2), termenul de 60 de zile pentru simplul sprijin în redactarea și transmiterea documentației este excesiv față de termenul general de 30 de zile din OG nr. 27/2002 și ar trebui redus la 15 zile lucrătoare, iar platforma diaspora.gov.ro trebuie integrată direct cu Punctul de Contact Unic Electronic (PCUe) și portalul EURES existent."
+      "articleRef": "Art. 10 (Sancțiuni)",
+      "proposalContent": "(1) Neîndeplinirea obligațiilor de la art. 6 alin. (1) și (2), neremediată în 30 de zile de la notificarea DRP, constituie contravenție și se sancționează cu amendă de la 5.000 la 20.000 lei, aplicată conducătorului autorității. (2) Constatarea și sancționarea se fac de personalul împuternicit al SGG. (3) Alin. (1) se aplică după emiterea ordinului de la art. 13.",
+      "argumentation": "Art. 10 trimite la «art. 7 alin. (1)», inexistent (obligațiile sunt la art. 6), deci contravenția e imprevizibilă și inaplicabilă (art. 1 alin. 5 Const.). DRP, structură a aparatului Guvernului, nu e potrivit să amendeze miniștri; amenda trebuie să fie proporțională, precedată de notificare și aplicabilă doar după ce platforma și metodologia există.",
+      "otherComments": "Erori conexe: art. 13 trimite la «art. 13 alin. (1)» în loc de art. 12; art. 2 alin. (2) trimite la personalul de la art. 4 (corect: art. 5); art. 4 alin. (1) contopește MAE cu Ministerul Muncii. Art. 11 pune costurile pe bugetul ADR, deși DRP administrează GUD; lipsește fișa financiară și sursa de finanțare (art. 138 alin. 5 Constituție)."
     }
   },
   "council": {
@@ -56,9 +57,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "error",
-      "durationMs": 420007,
-      "error": "timeout după 420s"
+      "durationMs": 91875,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Un ghișeu unic, online și la consulate, pentru românii din diaspora care vor să se întoarcă acasă",
+      "verdictShort": "Ideea e utilă și nu pune nicio sarcină pe cetățeni sau firme. Textul are însă erori de trimitere care fac sancțiunile practic inaplicabile, iar finanțarea e nesigură și atribuită altei instituții decât cea care administrează ghișeul.",
+      "initiatorClaim": "Inițiatorii spun că românii din diaspora renunță să revină din cauza birocrației fragmentate și a lipsei unei surse unice de informații. Propun o platformă națională (diaspora.gov.ro) și puncte fizice de consiliere, cu obligații și amenzi pentru instituțiile care nu își actualizează informațiile.",
+      "realityCheck": "Legea creează un portal de informare și consiliere gratuit, coordonat de DRP, și obligă ministerele să publice și să actualizeze informații (art. 6-7). Nu creează drepturi noi, beneficii sau facilități fiscale, deci efectul depinde de calitatea implementării. Amenda de la art. 10 trimite la un articol greșit, iar termenul de 60 de zile de la art. 2 alin. (2) nu spune clar ce cerere trebuie soluționată și de către cine.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Sănătate & Educație",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 10 alin. (1) sancționează neîndeplinirea obligațiilor de către autoritățile de la «art. 7 alin. (1)». Art. 7 nu are alineate, iar obligațiile sunt de fapt la art. 6. O normă contravențională cu trimitere greșită este imprevizibilă și greu de aplicat.",
+        "Art. 13 fixează termenul de 180 de zile de la hotărârea prevăzută la «art. 13 alin. (1)». Este o trimitere circulară, cea corectă fiind art. 12. Art. 2 alin. (2) trimite la personalul de la «art. 4», deși serviciul de consiliere e reglementat la art. 5.",
+        "Art. 11 pune toate cheltuielile pe bugetul Autorității pentru Digitalizarea României, deși art. 4 alin. (2) face DRP autoritatea responsabilă pentru dezvoltare, administrare și suport. Nu există estimare de cost, deși art. 3 alin. (5) impune minimum 3 posturi în fiecare structură desemnată din instituția prefectului.",
+        "Art. 4 alin. (1) enumeră «Ministerul Afacerilor Externe, Muncii, Familiei, Tineretului și Solidarității Sociale», contopind două ministere distincte. Rezultă o neclaritate privind autoritățile obligate.",
+        "Art. 10 prevede amenzi de 10.000-50.000 lei pentru conducătorii autorităților centrale, deci inclusiv pentru miniștri, aplicate de personalul DRP, o structură din aparatul de lucru al Guvernului. Obligațiile devin sancționabile la 30 de zile de la publicare, deși platforma și metodologia pot apărea abia după circa 9 luni (90 + 180 de zile)."
+      ],
+      "blindSpotsCaught": "Legea a trecut de Senat prin adoptare tacită (art. 75 alin. 2 din Constituție), fără dezbatere, ceea ce explică erorile materiale: trimiteri greșite, «Ia», «Ie», «ceie», «diaspori», «governamentale». Art. 3 alin. (5) impune minimum 3 posturi la prefecturi, în timp ce art. 5 alin. (2) lasă punctele consulare «în limita resurselor disponibile», deci obligațiile sunt asimetrice. Definiția beneficiarului (art. 2 lit. a) cuprinde doar persoanele cu domiciliu sau reședință în străinătate, deci cei deja reîntorși nu mai sunt beneficiari, deși art. 5 alin. (3) vorbește despre «cetățeni reîntorși». Platforma primește documente (art. 3 alin. 3), dar legea nu desemnează operatorul de date și nu stabilește termene de păstrare (GDPR). Domeniul diaspora.gov.ro este fixat prin lege, ceea ce rigidizează soluția tehnică.",
+      "constitutionalityNote": "Scopul este legitim și nu restrânge drepturi fundamentale. Există însă riscuri pe trei planuri. (1) Art. 1 alin. (5): trimiterile greșite de la art. 10 și art. 13, precum și termenul ambiguu de 60 de zile de la art. 2 alin. (2), afectează claritatea și previzibilitatea, mai ales pentru norma sancționatoare. (2) Art. 138 alin. (5): nu este identificată o sursă de finanțare reală, iar costurile sunt alocate ADR, nu entității responsabile. Art. 111 alin. (1) impune obligatoriu solicitarea punctului de vedere al Guvernului pentru inițiativele cu impact bugetar, iar Legea nr. 500/2002 cere fișa financiară. Ambele trebuie verificate. (3) Separația și ierarhia în cadrul executivului: o structură din aparatul Guvernului care amendează miniștri ridică probleme de coerență cu regimul răspunderii ministeriale (Legea nr. 115/1999). Sancționarea persoanei care nu dispune de mijloacele tehnice, înainte ca platforma să existe, ar fi disproporționată.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă: legea nu introduce cerințe noi de acces la profesii reglementate, ci doar informează despre recunoașterea calificărilor (domeniu acoperit de Directiva 2005/36/CE). Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: legea nu impune reguli furnizorilor de servicii ale societății informaționale, ci reglementează un serviciu public propriu, deci notificarea nu pare necesară. Sunt relevante însă trei acte: Regulamentul (UE) 2018/1724 privind Portalul Digital Unic, care acoperă deja proceduri precum mutarea, munca, pensionarea și studiile, deci GUD trebuie interconectat cu portalul național existent pentru a evita dublarea (art. 12 alin. 2 lit. c merge parțial în această direcție); Regulamentul GDPR (UE) 2016/679, pentru documentele transmise prin platformă; și Directiva (UE) 2016/2102 privind accesibilitatea site-urilor organismelor publice. Legea nu are impact asupra concurenței sau a pieței unice.",
+      "senatForm": {
+        "articleRef": "Art. 10 (Sancțiuni)",
+        "proposalContent": "(1) Neîndeplinirea obligațiilor de la art. 6 alin. (1) și (2), neremediată în 30 de zile de la notificarea DRP, constituie contravenție și se sancționează cu amendă de la 5.000 la 20.000 lei, aplicată conducătorului autorității. (2) Constatarea și sancționarea se fac de personalul împuternicit al SGG. (3) Alin. (1) se aplică după emiterea ordinului de la art. 13.",
+        "argumentation": "Art. 10 trimite la «art. 7 alin. (1)», inexistent (obligațiile sunt la art. 6), deci contravenția e imprevizibilă și inaplicabilă (art. 1 alin. 5 Const.). DRP, structură a aparatului Guvernului, nu e potrivit să amendeze miniștri; amenda trebuie să fie proporțională, precedată de notificare și aplicabilă doar după ce platforma și metodologia există.",
+        "otherComments": "Erori conexe: art. 13 trimite la «art. 13 alin. (1)» în loc de art. 12; art. 2 alin. (2) trimite la personalul de la art. 4 (corect: art. 5); art. 4 alin. (1) contopește MAE cu Ministerul Muncii. Art. 11 pune costurile pe bugetul ADR, deși DRP administrează GUD; lipsește fișa financiară și sursa de finanțare (art. 138 alin. 5 Constituție)."
+      },
+      "status": "ok"
     },
     "codex": {
       "model": "codex",

@@ -2,14 +2,14 @@
   "billId": "PL-x 359/2025",
   "slug": "plx-359-2025",
   "version": "senat",
-  "updatedAt": "2026-11-05T13:45:36.420Z",
+  "updatedAt": "2026-11-10T14:14:37.541Z",
   "consensus": {
-    "riskScore": 5.5,
+    "riskScore": 5.3,
     "riskLevel": "yellow",
-    "plainTitle": "Închisoare de la 1 la 5 ani (fără amendă) pentru exercitarea fără drept a unei profesii",
-    "summaryTlDr": "Deși țintește legitim falșii medici și falșii avocați, proiectul elimină complet amenda penală și crește de 5 ori maximul pedepsei pentru o normă-cadru care acoperă zeci de profesii și simple abateri de autorizare. Atingerea pragului de 5 ani activează automat posibilitatea arestării preventive și a interceptărilor telefonice chiar și în dispute de graniță între bresle profesionale.",
-    "initiatorClaim": "Inițiatorii susțin că pedeapsa actuală (3 luni – 1 an sau amendă) este prea blândă pentru a descuraja falșii avocați, falșii medici sau falșii contabili, ducând frecvent la renunțarea la urmărirea penală sau la prescripția faptei în doar 3 ani.",
-    "realityCheck": "Când un impostor păcălește clienți pentru bani, fapta este deja încadrată și ca înșelăciune (art. 244 CP, pedepsită cu 1–5 ani). Prin majorarea la 1–5 ani închisoare (și eliminarea amenzii) direct în art. 348 CP, legea lovește nediferențiat atât impostorii periculoși, cât și profesioniștii reali care activează „în alte condiții decât cele legale” (ex. suspendări administrative pentru neplata cotizațiilor de breaslă, contabili sau consultanți care redactează acte pentru ONRC ori platforme digitale de asistență).",
+    "plainTitle": "Închisoare de la 1 la 5 ani, fără amendă, pentru cine profesează fără autorizație",
+    "summaryTlDr": "Scopul este legitim: falșii avocați și falșii medici fac rău real. Textul lovește însă cu aceeași pedeapsă, mare și fără alternativa amenzii, orice profesie reglementată și chiar abaterile formale, ceea ce ridică probleme serioase de proporționalitate.",
+    "initiatorClaim": "Inițiatorii spun că pedeapsa actuală, de 3 luni la 1 an sau amendă, este prea blândă. Din cauza ei, dosarele se închid prin renunțare la urmărire sau prin prescripție (3 ani), iar impostorii, mai ales falșii avocați, își continuă activitatea.",
+    "realityCheck": "Articolul unic înlocuiește pedeapsa actuală cu închisoare de la 1 la 5 ani și elimină complet amenda. Efectele mecanice sunt trei: prescripția răspunderii penale crește de la 3 la 5 ani (art.154 alin.1 lit.d CP), devine posibil arestul preventiv (art.223 alin.2 CPP, prag de 5 ani) și dispare amenda ca pedeapsă principală. Norma rămâne «în alb», deci se aplică tuturor profesiilor ale căror legi speciale trimit la legea penală. Asta include și situațiile de exercitare «în alte condiții decât cele legale», de exemplu un profesionist suspendat pentru cotizații neplătite sau cu aviz expirat.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Contabili & Fiscalitate",
@@ -17,10 +17,10 @@
       "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Articol unic (modificarea art. 348 Cod penal)",
-      "proposalContent": "La art. 348, alin. (1) păstrează amenda alternativă: „se pedepsește cu închisoare de la 6 luni la 3 ani sau cu amendă”. Se introduce alin. (2): „(2) Dacă fapta privește activități medicale ori de asistență judiciară în fața organelor judiciare sau a produs o pagubă ori un risc pentru sănătate, pedeapsa este închisoarea de la unu la 5 ani.”",
-      "argumentation": "Art. 348 este o normă-cadru ce vizează zeci de profesii și teza vagă „în alte condiții decât cele legale”. Eliminarea amenzii și pragul de 5 ani (care permite arestarea preventivă - art. 223 CPP și interceptările - art. 139 CPP) sunt disproporționate pentru simple abateri de la monopoluri profesionale, dar justificate în cazuri grave (medicină, instanțe).",
-      "otherComments": "Când impostorul induce în eroare clienții pentru bani, fapta constituie deja și înșelăciune (art. 244 CP, pedepsită cu 1-5 ani). Diferențierea pe alineate respectă principiul proporționalității (art. 53 Constituție) și evită incriminarea excesivă a zonelor de graniță dintre consultanță, contabilitate și servicii digitale."
+      "articleRef": "Articol unic – art.348 Cod penal",
+      "proposalContent": "Art.348 (1) Exercitarea, fără drept, a unei profesii sau activități pentru care legea cere autorizație ori exercitarea lor în alte condiții decât cele legale, dacă legea specială prevede sancțiunea penală, se pedepsește cu închisoare de la 6 luni la 3 ani sau cu amendă. (2) Dacă fapta vizează profesia de avocat ori medic, pedeapsa este închisoarea de la 1 la 5 ani.",
+      "argumentation": "Pedeapsa unică de 1-5 ani, fără amendă, se aplică uniform tuturor profesiilor reglementate, inclusiv abaterilor formale (aviz expirat, suspendare). Gradarea respectă proporționalitatea și coerența cu înșelăciunea (art.244: 6 luni-3 ani). Alin.(2) răspunde exact scopului din Expunere (falși avocați și medici) și menține prescripția de 5 ani acolo unde contează.",
+      "otherComments": "Solicităm o evaluare a impactului asupra parchetelor, instanțelor și sistemului penitenciar, inventarierea legilor speciale care trimit la art.348 și punctul de vedere al CSM, UNBR și CMR. Art.318 CPP rămâne aplicabil pentru pedepse de până la 7 ani, deci argumentul din Expunere privind renunțarea la urmărire este parțial eronat."
     }
   },
   "council": {
@@ -58,8 +58,35 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 51090,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Închisoare de la 1 la 5 ani, fără amendă, pentru cine profesează fără autorizație",
+      "verdictShort": "Scopul este legitim: falșii avocați și falșii medici fac rău real. Textul lovește însă cu aceeași pedeapsă, mare și fără alternativa amenzii, orice profesie reglementată și chiar abaterile formale, ceea ce ridică probleme serioase de proporționalitate.",
+      "initiatorClaim": "Inițiatorii spun că pedeapsa actuală, de 3 luni la 1 an sau amendă, este prea blândă. Din cauza ei, dosarele se închid prin renunțare la urmărire sau prin prescripție (3 ani), iar impostorii, mai ales falșii avocați, își continuă activitatea.",
+      "realityCheck": "Articolul unic înlocuiește pedeapsa actuală cu închisoare de la 1 la 5 ani și elimină complet amenda. Efectele mecanice sunt trei: prescripția răspunderii penale crește de la 3 la 5 ani (art.154 alin.1 lit.d CP), devine posibil arestul preventiv (art.223 alin.2 CPP, prag de 5 ani) și dispare amenda ca pedeapsă principală. Norma rămâne «în alb», deci se aplică tuturor profesiilor ale căror legi speciale trimit la legea penală. Asta include și situațiile de exercitare «în alte condiții decât cele legale», de exemplu un profesionist suspendat pentru cotizații neplătite sau cu aviz expirat.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație",
+        "Contabili & Fiscalitate",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art.348 (forma Senatului) elimină amenda ca alternativă. Minimul special urcă de la 3 luni la 1 an, iar maximul de la 1 la 5 ani. Pedeapsa se înmulțește de 5 ori la maxim și de 4 ori la minim.",
+        "Nu există gradare: aceeași pedeapsă se aplică impostorului care se dă drept medic și profesionistului calificat care a profesat cu aviz expirat sau în perioada de suspendare. Formula «în alte condiții decât cele legale» rămâne la fel de largă.",
+        "Apare o incoerență cu restul Codului. Înșelăciunea în forma de bază (art.244 alin.1 CP) se pedepsește cu 6 luni-3 ani, iar uzurparea calității oficiale (art.258 CP) cu 6 luni-3 ani sau amendă. O faptă de pericol abstract ajunge astfel sancționată mai aspru decât frauda efectivă.",
+        "Un argument din Expunere este parțial eronat: renunțarea la urmărire (art.318 CPP) rămâne aplicabilă și după modificare, pentru că se poate folosi la infracțiunile cu pedeapsa de până la 7 ani. Câștigul procedural real este prelungirea prescripției la 5 ani."
+      ],
+      "blindSpotsCaught": "Pragul de 5 ani al maximului special deschide accesul la arestarea preventivă (art.223 alin.2 CPP). Pentru o infracțiune de pericol formal, acesta este un efect disproporționat, nemenționat în Expunere. În plus, Legea nr.51/1995 a avocaturii (art.26) și alte legi speciale trimit la art.348. Avocații suspendați pentru neplata contribuțiilor care mai semnează acte riscă astfel 1-5 ani de închisoare.",
+      "constitutionalityNote": "Norma în alb care trimite la legi speciale accesibile a fost în general acceptată de CCR, deci riscul de neconstituționalitate pe art.1 alin.5 (claritate) este moderat. Formula «în alte condiții decât cele legale» rămâne totuși vagă și depinde de legislația secundară. Legiuitorul are o marjă largă în politica penală, dar o pedeapsă unică, fără amendă și aplicabilă și abaterilor formale, poate fi contestată pe principiul proporționalității (art.1 alin.3, art.53) și al individualizării sancțiunii. Nu se ridică probleme pe art.23 alin.12, deoarece pedeapsa este prevăzută expres de lege.",
+      "euLawNote": "Directiva (UE) 2018/958 se aplică noilor cerințe de acces sau exercitare a profesiilor reglementate. Majorarea unei sancțiuni penale nu introduce o cerință nouă, deci testul de proporționalitate nu este formal obligatoriu. Este totuși recomandabil, pentru că efectul descurajant se extinde la toate profesiile. Prestatorii din alte state UE care activează temporar fără declarația prealabilă cerută de Directiva 2005/36/CE ar putea intra sub incidența formulei «în alte condiții decât cele legale», cu risc de restrângere disproporționată a liberei prestări de servicii (art.56 TFUE). TRIS (2015/1535) nu este aplicabilă, deoarece nu se reglementează servicii ale societății informaționale.",
+      "senatForm": {
+        "articleRef": "Articol unic – art.348 Cod penal",
+        "proposalContent": "Art.348 (1) Exercitarea, fără drept, a unei profesii sau activități pentru care legea cere autorizație ori exercitarea lor în alte condiții decât cele legale, dacă legea specială prevede sancțiunea penală, se pedepsește cu închisoare de la 6 luni la 3 ani sau cu amendă. (2) Dacă fapta vizează profesia de avocat ori medic, pedeapsa este închisoarea de la 1 la 5 ani.",
+        "argumentation": "Pedeapsa unică de 1-5 ani, fără amendă, se aplică uniform tuturor profesiilor reglementate, inclusiv abaterilor formale (aviz expirat, suspendare). Gradarea respectă proporționalitatea și coerența cu înșelăciunea (art.244: 6 luni-3 ani). Alin.(2) răspunde exact scopului din Expunere (falși avocați și medici) și menține prescripția de 5 ani acolo unde contează.",
+        "otherComments": "Solicităm o evaluare a impactului asupra parchetelor, instanțelor și sistemului penitenciar, inventarierea legilor speciale care trimit la art.348 și punctul de vedere al CSM, UNBR și CMR. Art.318 CPP rămâne aplicabil pentru pedepse de până la 7 ani, deci argumentul din Expunere privind renunțarea la urmărire este parțial eronat."
+      },
+      "status": "ok"
     },
     "codex": {
       "model": "codex",

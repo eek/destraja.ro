@@ -2,14 +2,14 @@
   "billId": "Pl-x 378/2026",
   "slug": "plx-378-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T02:00:19.669Z",
+  "updatedAt": "2026-11-10T14:04:16.480Z",
   "consensus": {
-    "riskScore": 2.5,
+    "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "Recunoașterea fișelor individuale de salarii pentru recalcularea pensiilor",
-    "summaryTlDr": "O lege reparatorie și utilă, care obligă Casele de Pensii să accepte adeverințele de venit emise pe baza fișelor nominale de salarii din arhive, nu doar pe baza statelor de plată. Conține însă o mică necorelare în Anexa 6 care ar trebui corectată la comisii pentru a nu crea o nouă chichiță birocratică.",
-    "initiatorClaim": "Inițiatorii vor să elimine refuzurile abuzive ale Caselor Teritoriale de Pensii, care resping adeverințele de venituri anterioare anului 2001 dacă sunt eliberate pe baza fișelor de evidență a salariilor în loc de statele de plată.",
-    "realityCheck": "Legea deblochează valorificarea veniturilor pentru mii de pensionari ale căror foste întreprinderi au păstrat în arhive fișe nominale de retribuții. Totuși, în Anexa 6 s-a strecurat condiția „în situația în care statele de plată nu mai există”, ceea ce riscă să determine funcționarii să ceară o dovadă suplimentară a pierderii statelor de plată sau să oblige cetățenii la costuri arhivistice mari dacă ambele documente există în arhivă.",
+    "plainTitle": "Fișele de salariu vechi vor putea fi folosite ca dovadă a veniturilor pentru calculul pensiei",
+    "summaryTlDr": "Este o lege tehnică și în esență benefică. Închide o portiță birocratică prin care casele de pensii refuzau adeverințele de venit făcute pe baza fișelor de salariu. Redactarea are însă o contradicție internă și o formulă vagă, care pot reaprinde exact litigiile pe care vrea să le elimine.",
+    "initiatorClaim": "Inițiatorii spun că mai multe case teritoriale de pensii au refuzat adeverințele eliberate pe baza fișelor de evidență a retribuțiilor, mai ales pentru perioadele de dinainte de 2001, pe motiv că nu sunt întocmite pe baza statelor de plată. Ei vor ca aceste fișe să fie recunoscute expres ca documente justificative.",
+    "realityCheck": "Art. 139 alin. (2) devine o alternativă egală: adeverința se poate elibera pe baza statelor de plată SAU a fișelor de evidență. Textul introdus în Anexa nr. 6 spune însă altceva: fișele sunt valide doar dacă statele de plată nu mai există și doar dacă «conțin toate elementele necesare». Rezultă două reguli diferite, plus un criteriu nedefinit, lăsat tot la aprecierea casei de pensii. În plus, valorificarea unor venituri nerecunoscute până acum majorează pensii, deci afirmația de impact bugetar zero e discutabilă.",
     "affectedGroups": [
       "Angajați & HR",
       "Justiție & Drepturi Civile",
@@ -17,10 +17,10 @@
       "Contabili & Fiscalitate"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct. 2 (Anexa nr. 6 la Legea 360/2023)",
-      "proposalContent": "La Anexa nr. 6, alin. (2) al secțiunii finale se modifică: „Fișele de evidență a retribuțiilor/salariilor întocmite nominal pentru fiecare salariat sunt recunoscute ca documente justificative valide, având aceeași valoare probatorie cu statele de plată, în măsura în care conțin toate elementele necesare stabilirii venitului lunar realizat.”",
-      "argumentation": "Condiționarea din teza inițială („În situația în care statele de plată nu mai există...”) contrazice art. 139 alin. (2) și riscă să blocheze aplicarea legii: Casele de Pensii vor cere dovada distrugerii statelor de plată, iar arhivatorii nu vor putea folosi fișele nominale (mult mai ieftin de extras pentru cetățeni) dacă statele încă există în depozit.",
-      "otherComments": "Măsura este binevenită și repară o nedreptate birocratică suferită de pensionari la recalculare. Eliminarea condiției absenței statelor de plată va reduce și tarifele percepute de operatorii arhivistici, întrucât extragerea datelor din fișa individuală e mult mai rapidă decât căutarea în sute de state lunare."
+      "articleRef": "Art. unic pct. 2 (Anexa nr. 6, L. 360/2023)",
+      "proposalContent": "Se introduce la art. 139 alin. (2^1): «Fișele de evidență a retribuțiilor/salariilor întocmite nominal au aceeași valoare probatorie ca statele de plată dacă cuprind luna, anul, salariul tarifar, sporurile și celelalte venituri brute.» Anexa nr. 6 se corelează, fără condiția subsidiarității. Legea se aplică și dosarelor în curs.",
+      "argumentation": "Regula de probă trebuie să fie în corpul legii, nu într-un model de formular (L. 24/2000). Textul inițial e contradictoriu: art. 139 pune fișele pe picior de egalitate, iar anexa le admite doar subsidiar. Formula «toate elementele necesare» e vagă și lasă casei de pensii exact discreția pe care legea vrea s-o elimine.",
+      "otherComments": "Expunerea afirmă impact bugetar zero, deși valorificarea noilor venituri majorează pensii. Sunt necesare fișa financiară (art. 15 L. 500/2002), punctul de vedere al Guvernului (art. 111 Constituție) și o normă tranzitorie pentru reevaluarea, la cerere, a adeverințelor respinse anterior."
     }
   },
   "council": {
@@ -56,9 +56,36 @@
     },
     "claude": {
       "model": "claude",
-      "status": "error",
-      "durationMs": 420008,
-      "error": "timeout după 420s"
+      "durationMs": 43502,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Fișele de salariu vechi vor putea fi folosite ca dovadă a veniturilor pentru calculul pensiei",
+      "verdictShort": "Este o lege tehnică și în esență benefică. Închide o portiță birocratică prin care casele de pensii refuzau adeverințele de venit făcute pe baza fișelor de salariu. Redactarea are însă o contradicție internă și o formulă vagă, care pot reaprinde exact litigiile pe care vrea să le elimine.",
+      "initiatorClaim": "Inițiatorii spun că mai multe case teritoriale de pensii au refuzat adeverințele eliberate pe baza fișelor de evidență a retribuțiilor, mai ales pentru perioadele de dinainte de 2001, pe motiv că nu sunt întocmite pe baza statelor de plată. Ei vor ca aceste fișe să fie recunoscute expres ca documente justificative.",
+      "realityCheck": "Art. 139 alin. (2) devine o alternativă egală: adeverința se poate elibera pe baza statelor de plată SAU a fișelor de evidență. Textul introdus în Anexa nr. 6 spune însă altceva: fișele sunt valide doar dacă statele de plată nu mai există și doar dacă «conțin toate elementele necesare». Rezultă două reguli diferite, plus un criteriu nedefinit, lăsat tot la aprecierea casei de pensii. În plus, valorificarea unor venituri nerecunoscute până acum majorează pensii, deci afirmația de impact bugetar zero e discutabilă.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "Contabili & Fiscalitate",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. unic pct. 1 (art. 139 alin. 2): fișele de evidență a retribuțiilor/salariilor sunt puse pe picior de egalitate cu statele de plată, ca temei al adeverinței. Este o clarificare utilă pentru viitorii pensionari și pentru cererile de recalculare.",
+        "Art. unic pct. 2 (Anexa nr. 6): fișele sunt acceptate doar «în situația în care statele de plată nu mai există sau nu se mai regăsesc în arhive». Asta introduce o ierarhie subsidiară care contrazice alternativa simplă de la art. 139 alin. (2). Rezultatul probabil este o practică neunitară.",
+        "Condiția «în măsura în care conțin toate elementele necesare stabilirii venitului lunar realizat» nu enumeră elementele cerute (lună, an, salariu tarifar, sporuri, venituri brute etc.). Discreția administrativă rămâne astfel tocmai în punctul care a generat refuzurile.",
+        "Lipsesc dispozițiile tranzitorii: nu se precizează dacă legea se aplică dosarelor în curs și nici cum pot fi reevaluate adeverințele respinse anterior.",
+        "Expunerea de motive susține că nu există impact bugetar, fără fișă financiară. Recunoașterea unor venituri suplimentare crește însă punctajul și pensia, deci are efect asupra bugetului asigurărilor sociale de stat."
+      ],
+      "blindSpotsCaught": "1) O regulă de drept material probator (aceeași valoare probatorie, caracter subsidiar) este plasată în «Temeiul eliberării adeverinței» dintr-o anexă-formular. Aceasta este o tehnică legislativă deficitară față de Legea nr. 24/2000: normele se pun în corpul legii, iar anexa doar reflectă modelul. 2) Expunerea de motive cere procedură de urgență, dar fișa Camerei indică «Procedură de urgență: NU». Termenul de amendamente (21.05.2026) a trecut, deci propunerile trebuie preluate acum de un deputat în comisie. 3) Numerotarea art. 139 și structura exactă a Anexei nr. 6 trebuie verificate pe forma consolidată a Legii nr. 360/2023, inclusiv modificările ulterioare, pentru a evita o trimitere greșită.",
+      "constitutionalityNote": "Fondul este conform și chiar sprijină art. 47 alin. (2) (dreptul la pensie) și art. 16 (egalitatea în fața legii), pentru că elimină o diferență de tratament determinată de hazardul arhivistic. Problema este de calitate a legii (art. 1 alin. 5): contradicția dintre art. 139 alin. (2) și Anexa nr. 6 și criteriul vag al «elementelor necesare» afectează previzibilitatea. Ca inițiativă parlamentară cu posibil impact asupra BASS, ar trebui să aibă punctul de vedere al Guvernului (art. 111 alin. 1) și o estimare a sursei de finanțare (art. 138 alin. 5). Absența acestora poate genera o critică de neconstituționalitate extrinsecă, potrivit jurisprudenței CCR. Lipsa normelor tranzitorii nu ridică probleme de retroactivitate (art. 15 alin. 2), dar lasă neclară aplicarea în timp.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: legea nu reglementează accesul la profesii sau exercitarea acestora. Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reguli tehnice pentru produse sau servicii ale societății informaționale. Nu apar efecte asupra concurenței sau pieței unice. Operatorii arhivistici autorizați erau deja menționați, deci nu se creează monopol. Regulamentul (CE) nr. 883/2004 privind coordonarea securității sociale nu este afectat: legea privește doar modul intern de probă a veniturilor din perioadele lucrate în România.",
+      "senatForm": {
+        "articleRef": "Art. unic pct. 2 (Anexa nr. 6, L. 360/2023)",
+        "proposalContent": "Se introduce la art. 139 alin. (2^1): «Fișele de evidență a retribuțiilor/salariilor întocmite nominal au aceeași valoare probatorie ca statele de plată dacă cuprind luna, anul, salariul tarifar, sporurile și celelalte venituri brute.» Anexa nr. 6 se corelează, fără condiția subsidiarității. Legea se aplică și dosarelor în curs.",
+        "argumentation": "Regula de probă trebuie să fie în corpul legii, nu într-un model de formular (L. 24/2000). Textul inițial e contradictoriu: art. 139 pune fișele pe picior de egalitate, iar anexa le admite doar subsidiar. Formula «toate elementele necesare» e vagă și lasă casei de pensii exact discreția pe care legea vrea s-o elimine.",
+        "otherComments": "Expunerea afirmă impact bugetar zero, deși valorificarea noilor venituri majorează pensii. Sunt necesare fișa financiară (art. 15 L. 500/2002), punctul de vedere al Guvernului (art. 111 Constituție) și o normă tranzitorie pentru reevaluarea, la cerere, a adeverințelor respinse anterior."
+      },
+      "status": "ok"
     },
     "codex": {
       "model": "codex",

@@ -1,23 +1,23 @@
 {
   "billId": "B613/2026",
   "slug": "b613-2026",
-  "updatedAt": "2026-11-04T06:11:16.013Z",
+  "updatedAt": "2026-11-10T14:07:38.914Z",
   "consensus": {
-    "riskScore": 4.5,
+    "riskScore": 4.3,
     "riskLevel": "yellow",
-    "plainTitle": "Interdicția ca liderii centrali de partid să fie și angajați sau remunerați de propriul partid",
-    "summaryTlDr": "Propunerea are o intenție pozitivă — oprirea liderilor politici de la a-și încasa salarii și onorarii din fondurile partidului (alimentate masiv din subvenții publice) —, însă suferă de lacune procedurale privind modul în care încetează efectiv mandatul liderului incompatibil.",
-    "initiatorClaim": "Inițiatoarea urmărește separarea funcției de decizie politică de interesele financiare personale, împiedicând conducerea executivă centrală a partidelor să își acorde salarii, indemnizații sau contracte din bugetul partidului (inclusiv din subvențiile de la stat).",
-    "realityCheck": "În practică, legea blochează atât salarizarea directă, cât și contractele indirecte (de exemplu, consultanță sau chirii) pentru liderii centrali, dar permite decontarea cheltuielilor și folosirea bunurilor partidului (mașini, sedii, servicii). Totuși, textul nu prevede cine constată „încetarea de drept” a funcției de conducere după 30 de zile și cum se operează modificarea în Registrul partidelor politice de la Tribunalul București, riscând să lase sancțiunea fără efect practic.",
+    "plainTitle": "Șefii de partid nu mai pot fi plătiți de propriul partid",
+    "summaryTlDr": "Scopul este legitim, fiindcă separă puterea de decizie din partid de interesul financiar personal. Textul are însă două probleme: noțiunea de «indirect» este vagă, iar încetarea de drept a mandatului nu are o procedură prin care să fie constatată. Asta poate fi folosit în luptele interne și poate pune în pericol actele semnate de lider, inclusiv listele de candidați.",
+    "initiatorClaim": "Inițiatoarea vrea să interzică un conflict de interese: cei care conduc organul executiv central al unui partid să nu fie și salariați sau beneficiari ai unor plăți de la același partid. Argumentul principal este că partidele pot folosi subvenții de la bugetul de stat pentru cheltuieli de personal.",
+    "realityCheck": "Legea interzice orice plată, de orice fel, venită de la partid sau de la filialele lui către membrii conducerii executive centrale. Rămân permise doar decontarea cheltuielilor justificate și folosirea bunurilor partidului. Interdicția acoperă și banii privați (cotizații, donații), nu doar subvenția publică invocată în Expunere. Legea nu oprește însă mutarea remunerației la stat: liderul poate fi angajat consilier în cabinetul unui ministru sau în biroul unui parlamentar. Efectul secundar este că funcțiile de conducere rămân accesibile mai ales celor cu venituri din funcții publice sau cu avere proprie.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Angajați & HR"
     ],
     "senatForm": {
-      "articleRef": "Art. I (Art. 13^1 alin. (1), (2) și (5))",
-      "proposalContent": "La art. 13^1 alin. (2), sintagma „sau indirect” se detaliază prin referire la rude până la gradul II și societăți controlate de titular. La alin. (5) se adaugă: „Încetarea de drept se constată de organul statutar sau de Tribunalul București, la sesizarea AEP ori a oricărui membru, și se înscrie în Registrul partidelor politice.”",
-      "argumentation": "Fără o procedură de constatare și radiere din Registrul partidelor politice de la Tribunalul București, încetarea de drept a mandatului rămâne inaplicabilă practic și generează insecuritate juridică privind validitatea actelor semnate de conducerea partidului. De asemenea, termenul „indirect” trebuie definit clar conform art. 1 alin. (5) din Constituție.",
-      "otherComments": "Dacă scopul este protejarea banului public, interdicția ar trebui corelată cu Legea nr. 334/2006 (interzicerea remunerării conducerii din subvenții de la bugetul de stat). Aplicarea interdicției și asupra cotizațiilor private la partidele neparlamentare poate dezavantaja liderii care nu dețin deja o demnitate publică remunerată."
+      "articleRef": "Art. I – art. 13¹ alin. (2) și alin. (5)",
+      "proposalContent": "Alin.(2) se completează: «indirect» include plăți prin soț, rude de gradul I sau societăți controlate. Alin.(5): încetarea se constată prin hotărârea organului statutar sau, la cererea oricărui membru, de Tribunalul București, cu efecte de la data constatării; actele semnate anterior rămân valabile.",
+      "argumentation": "Termenii «indirect» și «alte foloase» sunt vagi, iar încetarea de drept fără autoritate care să o constate încalcă previzibilitatea (art. 1 alin. 5 Constituție). Fără precizarea momentului încetării, listele de candidați și actele semnate de un lider aflat în incompatibilitate pot fi contestate, generând insecuritate juridică în perioade electorale.",
+      "otherComments": "Interdicția acoperă și fondurile private (cotizații, donații), nu doar subvenția publică invocată în Expunere. O variantă mai puțin restrictivă (art. 53) ar fi limitarea la subvenții sau un plafon aprobat de congres. Recomandăm și interzicerea transferului remunerației către cabinetele demnitarilor, pentru a nu muta costul la bugetul public."
     }
   },
   "council": {
@@ -52,9 +52,35 @@
     },
     "claude": {
       "model": "claude",
-      "status": "error",
-      "durationMs": 470532,
-      "error": "timeout după 420s"
+      "durationMs": 61386,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Șefii de partid nu mai pot fi plătiți de propriul partid",
+      "verdictShort": "Scopul este legitim, fiindcă separă puterea de decizie din partid de interesul financiar personal. Textul are însă două probleme: noțiunea de «indirect» este vagă, iar încetarea de drept a mandatului nu are o procedură prin care să fie constatată. Asta poate fi folosit în luptele interne și poate pune în pericol actele semnate de lider, inclusiv listele de candidați.",
+      "initiatorClaim": "Inițiatoarea vrea să interzică un conflict de interese: cei care conduc organul executiv central al unui partid să nu fie și salariați sau beneficiari ai unor plăți de la același partid. Argumentul principal este că partidele pot folosi subvenții de la bugetul de stat pentru cheltuieli de personal.",
+      "realityCheck": "Legea interzice orice plată, de orice fel, venită de la partid sau de la filialele lui către membrii conducerii executive centrale. Rămân permise doar decontarea cheltuielilor justificate și folosirea bunurilor partidului. Interdicția acoperă și banii privați (cotizații, donații), nu doar subvenția publică invocată în Expunere. Legea nu oprește însă mutarea remunerației la stat: liderul poate fi angajat consilier în cabinetul unui ministru sau în biroul unui parlamentar. Efectul secundar este că funcțiile de conducere rămân accesibile mai ales celor cu venituri din funcții publice sau cu avere proprie.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Angajați & HR"
+      ],
+      "keyFindings": [
+        "Art. 13¹ alin. (2): expresiile «direct sau indirect» și «alte foloase sau avantaje cu caracter patrimonial» nu sunt definite. Nu este clar dacă intră aici plățile către firma liderului, către soț/soție sau rude, ori contractele cu persoane interpuse.",
+        "Art. 13¹ alin. (5): mandatul încetează «de drept», dar nicio autoritate nu este desemnată să constate încetarea. Nu sunt prevăzute nici procedura, nici calea de contestare, nici momentul exact al încetării. Organele interne nu au obligația să constate, iar Tribunalul București (Registrul partidelor politice) nu primește nicio competență.",
+        "Noțiunea de «funcții de conducere în cadrul organului executiv de la nivel central» depinde de statutul fiecărui partid. Nu este clar dacă se referă doar la președinte, vicepreședinți și secretar general sau la toți membrii organului executiv.",
+        "Interdicția acoperă toate sursele de venit ale partidului, nu doar subvenția de la buget. Măsura merge astfel mai departe decât scopul declarat în Expunere, ceea ce ridică o problemă de proporționalitate (art. 53 Constituție).",
+        "Art. II: termenul tranzitoriu de 90 de zile și cel de 30 de zile pentru situațiile viitoare sunt rezonabile. Legea nu produce efecte retroactive asupra sumelor încasate anterior.",
+        "Legea nu are impact bugetar, nu creează autorități noi și nu impune obligații cetățenilor sau IMM-urilor. Singurul efect marginal privește firmele liderilor care prestau servicii pentru partid."
+      ],
+      "blindSpotsCaught": "Cel mai serios risc ascuns este cel electoral. Dacă mandatul unui președinte sau secretar general încetează de drept fără să știe nimeni, toate actele semnate după expirarea termenului de 30 sau 90 de zile pot fi atacate ca emise de o persoană fără calitate: propuneri de candidați, liste, împuterniciri, contracte. Contracandidații le pot contesta în instanță în plină campanie. Al doilea punct slab: legea nu împiedică mutarea remunerației la bugetul public, prin angajarea liderului în cabinetele demnitarilor sau ca personal parlamentar. Rezultatul ar fi contrar scopului declarat de protejare a banului public. Observații minore: forma «territoriale» din alin. (2) este greșită, iar numele inițiatoarei este scris diferit în Expunere («Rasa Enach») față de fișa Senatului.",
+      "constitutionalityNote": "Art. 8 alin. (2) din Constituție permite legiuitorului să reglementeze organizarea și funcționarea partidelor, deci o incompatibilitate stabilită prin lege nu este, în sine, neconstituțională. Dreptul la muncă (art. 41) nu este afectat substanțial, pentru că persoana poate lucra oriunde altundeva. Libertatea de asociere (art. 40) este afectată doar la nivelul condițiilor de exercitare a unei funcții interne. Problemele reale sunt două. Prima ține de previzibilitate (art. 1 alin. 5): termenii sunt vagi, iar încetarea de drept nu are un mecanism de constatare, ceea ce permite aplicarea arbitrară a unei sancțiuni grave. A doua ține de proporționalitate (art. 53): interdicția se extinde și la fondurile private, deși există variante mai puțin restrictive, cum ar fi limitarea la subvenții sau un plafon aprobat de congres. Riscul de neconstituționalitate este moderat și poate fi eliminat prin amendamente.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, deoarece legea nu reglementează accesul la o profesie reglementată. Directiva (UE) 2015/1535 (TRIS) nu se aplică, deoarece nu sunt vizate servicii ale societății informaționale sau reglementări tehnice. Legea nu afectează piața unică sau concurența. Carta drepturilor fundamentale a UE (art. 12, libertatea de asociere) nu se aplică direct, pentru că legea nu pune în aplicare dreptul Uniunii. Regulamentul (UE, Euratom) nr. 1141/2014 privește doar partidele politice europene. Ca reper rămâne CEDO (art. 11, libertatea de asociere): restricția este «prevăzută de lege» doar dacă este suficient de precisă, ceea ce întărește obiecția privind lipsa de previzibilitate.",
+      "senatForm": {
+        "articleRef": "Art. I – art. 13¹ alin. (2) și alin. (5)",
+        "proposalContent": "Alin.(2) se completează: «indirect» include plăți prin soț, rude de gradul I sau societăți controlate. Alin.(5): încetarea se constată prin hotărârea organului statutar sau, la cererea oricărui membru, de Tribunalul București, cu efecte de la data constatării; actele semnate anterior rămân valabile.",
+        "argumentation": "Termenii «indirect» și «alte foloase» sunt vagi, iar încetarea de drept fără autoritate care să o constate încalcă previzibilitatea (art. 1 alin. 5 Constituție). Fără precizarea momentului încetării, listele de candidați și actele semnate de un lider aflat în incompatibilitate pot fi contestate, generând insecuritate juridică în perioade electorale.",
+        "otherComments": "Interdicția acoperă și fondurile private (cotizații, donații), nu doar subvenția publică invocată în Expunere. O variantă mai puțin restrictivă (art. 53) ar fi limitarea la subvenții sau un plafon aprobat de congres. Recomandăm și interzicerea transferului remunerației către cabinetele demnitarilor, pentru a nu muta costul la bugetul public."
+      },
+      "status": "ok"
     },
     "codex": {
       "model": "codex",

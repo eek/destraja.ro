@@ -1,9 +1,9 @@
 {
   "billId": "guv-mec-20261029-af89c5",
   "slug": "guv-mec-20261029-af89c5",
-  "updatedAt": "2026-11-02T22:49:50.593Z",
+  "updatedAt": "2026-11-10T13:59:54.470Z",
   "consensus": {
-    "riskScore": 2,
+    "riskScore": 2.7,
     "riskLevel": "green",
     "plainTitle": "Ministerul Educației își reorganizează conducerea: apare un ministru delegat pentru școli și se redesenează organigrama",
     "summaryTlDr": "Este un act administrativ intern, de organizare, care pune în aplicare OUG nr. 40/2026 și nu impune obligații cetățenilor sau firmelor. Riscul real vine din câteva formulări neclare privind cine semnează ce și din lipsa estimării costurilor.",
@@ -23,8 +23,32 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 49773,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Reorganizarea Ministerului Educației: introducerea unui ministru delegat pentru învățământul preuniversitar și modificarea organigramei",
+      "verdictShort": "Act normativ tehnic de organizare internă, fără taxe, amenzi sau sarcini birocratice pentru cetățeni ori firme, dar redactat neglijent: lasă neclar numărul total de secretari de stat și omite din textul hotărârii norma tranzitorie promisă în Nota de fundamentare.",
+      "initiatorClaim": "Ministerul Educației și Cercetării urmărește punerea în aplicare a OUG nr. 40/2026 prin integrarea în organigramă a ministrului delegat pentru învățământ preuniversitar, actualizarea structurilor de conducere și adaptarea direcțiilor interne (inclusiv pentru digitalizare și inteligență artificială).",
+      "realityCheck": "Hotărârea reglementează strict arhitectura internă a ministerului și partajarea atribuțiilor între ministrul plin (care păstrează exclusivitatea pe ordinele cu impact financiar) și ministrul delegat. Totuși, sub umbrela unei structuri „suple”, proiectul ridică mai multe structuri la rang de direcție (Corpul de Control, Unitatea de Politici Publice), divizează o direcție generală și creează servicii noi, fără a completa tabelul de impact financiar din Nota de fundamentare.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Angajați & HR"
+      ],
+      "keyFindings": [
+        "Art. unic pct. 1 (noul Art. 13^1): Introduce funcția de ministru delegat pentru învățământ preuniversitar, sub coordonarea ministrului educației; acesta poate emite ordine și instrucțiuni, dar fără impact financiar (care rămân exclusiv la ministrul de resort).",
+        "Art. unic pct. 2 și 3 (Art. 14 alin. 1 și 1^1): Creează o ambiguitate de tehnică legislativă — alin. (1) prevede 6 secretari de stat și 2 subsecretari de stat, iar alin. (1^1) adaugă că ministrul delegat este ajutat de 2 secretari de stat (cu avizul ministrului educației), fără a preciza dacă aceștia fac parte din cei 6 sau se adaugă lor (ajungându-se la 8).",
+        "Anexa nr. 1 și Nota de fundamentare: Se reorganizează direcțiile ministerului (apare Direcția Inteligență Artificială și Digitalizare, iar Corpul de Control și Unitatea de Politici Publice devin direcții), însă termenul de 30 de zile pentru reîncadrarea personalului este menționat doar în Nota de fundamentare, fiind uitat din textul propriu-zis al HG."
+      ],
+      "blindSpotsCaught": "Discrepanță clasică de tehnică legislativă (Legea nr. 24/2000): Nota de fundamentare afirmă că „În termen de 30 de zile de la data intrării în vigoare a prezentei hotărâri, se face încadrarea personalului...”, dar proiectul de HG are doar un Articol Unic și nu conține niciun articol tranzitoriu (Art. II) care să legifereze efectiv acest termen. În plus, titlul proiectului din Nota de fundamentare omite sintagma „și completarea”, deși actul introduce articole și alineate noi.",
+      "constitutionalityNote": "Actul este emis în limitele Art. 108 din Constituție (hotărâri pentru organizarea executării legilor, în speță OUG nr. 40/2026 și Codul administrativ). Totuși, redactarea imprecisă a Art. 14 alin. (1^1) și omisiunea normei tranzitorii din corpul HG afectează cerințele de claritate și previzibilitate normativă consacrate de Art. 1 alin. (5) din Constituție.",
+      "euLawNote": "Nu are incidență asupra dreptului UE. Deși redenumirea unei structuri interne include termenul „Direcția Inteligență Artificială și Digitalizare”, actul vizează exclusiv organigrama internă a ministerului și nu instituie reguli tehnice pentru servicii ale societății informaționale (nu necesită notificare TRIS conform Directivei 2015/1535) și nici restricții asupra profesiilor reglementate (Directiva 2018/958).",
+      "senatForm": {
+        "articleRef": "Art. unic pct. 3 (art. 14 alin. 1^1) și Art. II",
+        "proposalContent": "La art. 14, alin. (1^1) se reformulează: „(1^1) Din numărul total prevăzut la alin. (1), doi secretari de stat îl ajută pe ministrul delegat pentru învățământ preuniversitar, fiind numiți și eliberați din funcție cu avizul ministrului educației și cercetării.” Se adaugă Art. II privind încadrarea personalului în 30 de zile.",
+        "argumentation": "Forma actuală a art. 14 alin. (1^1) este ambiguă (încalcă Legea 24/2000), nefiind clar dacă cei 2 secretari de stat ai ministrului delegat sunt incluși în cei 6 de la alin. (1) sau se adaugă acestora (total 8). De asemenea, termenul de 30 de zile pentru reîncadrarea personalului apare doar în Nota de fundamentare, fiind omis din textul normativ al HG.",
+        "otherComments": "Deși se înființează structuri noi la nivel de direcție și servicii (ex. Direcția Relația cu Parlamentul, Direcția Inteligență Artificială și Digitalizare, Corpul de Control ridicat la rang de direcție), Secțiunea a 4-a din Nota de fundamentare nu conține cifre privind impactul bugetar al noilor funcții de conducere."
+      },
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
@@ -59,8 +83,35 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 87741,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Reorganizarea conducerii și a direcțiilor Ministerului Educației",
+      "verdictShort": "Proiectul este predominant organizatoric: nu introduce taxe, sancțiuni sau restricții pentru cetățeni și firme. Necesită însă clarificarea competențelor ministrului delegat, a numărului de secretari de stat și a costurilor reorganizării.",
+      "initiatorClaim": "Inițiatorul urmărește aplicarea OUG nr. 40/2026, delimitarea responsabilităților pentru învățământul preuniversitar și eficientizarea ministerului. Susține că reorganizarea direcțiilor se realizează în limita posturilor aprobate și fără afectarea raporturilor de serviciu sau de muncă.",
+      "realityCheck": "Proiectul reglementează activitatea ministrului delegat, stabilește conducerea administrativă, înlocuiește organigrama și abrogă prevederi privind un proiect declarat finalizat. Nu rezultă clar dacă cei doi secretari de stat care îl ajută pe ministrul delegat sunt incluși în totalul de șase sau se adaugă acestuia. Încadrarea în numărul aprobat de posturi nu demonstrează singură neutralitatea bugetară, iar protecția personalului descrisă în nota de fundamentare nu echivalează cu o garanție normativă expresă.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Sănătate & Educație"
+      ],
+      "keyFindings": [
+        "Articolul unic pct. 1: trimiterea noului art. 13^1 alin. (3) la atribuțiile generale din art. 5 alin. (1) trebuie delimitată expres la învățământul preuniversitar, pentru a evita suprapunerea competențelor cu ministrul de resort.",
+        "Noul art. 13^1 alin. (2): expresia «ordinele de ministru și instrucțiunile cu impact financiar» permite interpretări diferite privind întinderea excepției. Trebuie precizat care acte sunt rezervate ministrului de resort și ce înseamnă impact financiar.",
+        "Articolul unic pct. 2 și 3: raportul dintre totalul de șase secretari de stat și cei doi care ajută ministrul delegat este insuficient explicit; clarificarea trebuie să respecte efectiv OUG nr. 40/2026.",
+        "Articolul unic pct. 4: sunt prevăzuți doi secretari generali adjuncți. Fără forma anterioară verificată și calcule salariale nu se poate stabili dacă această prevedere generează cheltuieli suplimentare.",
+        "Articolul unic pct. 5: abrogarea art. 17 alin. (5)-(7) este motivată prin finalizarea unui proiect. Fără conținutul dispozițiilor abrogate nu se poate verifica dacă rămân obligații de raportare, audit sau închidere financiară.",
+        "Articolul unic pct. 6: anexa înlocuitoare nu este inclusă în materialul furnizat, iar nota financiară este trunchiată. Termenul de 30 de zile pentru încadrarea personalului apare în nota de fundamentare, dar nu în dispozitivul reprodus."
+      ],
+      "blindSpotsCaught": "Denumirea «Direcția Inteligență Artificială și Digitalizare» nu transformă reorganizarea într-o reglementare a serviciilor AI. Procedural, intervalul 29 octombrie–8 noiembrie nu dovedește respectarea cerinței distincte privind publicarea cu cel puțin 30 de zile lucrătoare înaintea supunerii spre avizare, prevăzută de Legea nr. 52/2003; data avizării nu este furnizată. Termenul de implementare invocat din OUG nu justifică automat procedura de urgență. La data analizei, 10 noiembrie 2026, termenul anunțat pentru propuneri este depășit.",
+      "constitutionalityNote": "Din text nu rezultă o încălcare constituțională evidentă. Art. 1 alin. (5) impune însă competențe și reguli de semnare previzibile. Potrivit art. 108, HG trebuie să organizeze executarea legii, fără să depășească atribuțiile permise de legislația primară. Conformitatea statutului ministrului delegat și a contrasemnării trebuie verificată inclusiv prin raportare la art. 102 și art. 108 alin. (4), după consultarea OUG nr. 40/2026. Art. 23 alin. (12), referitor la pedepse, nu este incident: proiectul nu instituie sancțiuni penale. Identitatea, forma în vigoare și trimiterile actelor citate nu pot fi confirmate numai din extrase.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testul de proporționalitate pentru reglementarea profesiilor; textul nu introduce condiții de acces sau exercitare a unei profesii reglementate. Directiva (UE) 2015/1535 nu impune notificarea TRIS pentru simpla organizare internă a unei direcții IT/AI, în absența unor reglementări tehnice sau reguli privind serviciile societății informaționale. Nu sunt identificate monopoluri, avantaje concurențiale selective ori bariere pentru piața unică. Nu apar obligații birocratice directe pentru cetățeni sau IMM-uri; costurile administrative interne rămân insuficient documentate în extras.",
+      "senatForm": {
+        "articleRef": "Articolul unic pct. 3 – art. 14 alin. (1^1)",
+        "proposalContent": "«(1^1) Ministrul delegat pentru învățământ preuniversitar este ajutat de doi dintre cei șase secretari de stat prevăzuți la alin. (1), numiți și eliberați din funcție prin decizie a prim-ministrului, cu avizul ministrului educației și cercetării.»",
+        "argumentation": "Precizarea elimină interpretarea potrivit căreia cei doi secretari de stat se adaugă totalului de șase, cu posibile consecințe bugetare. Soluția propusă trebuie confruntată cu numărul și repartizarea funcțiilor stabilite prin OUG nr. 40/2026.",
+        "otherComments": "Solicit publicarea organigramei complete și a comparației costurilor înainte/după reorganizare, precum și clarificarea competențelor ministrului delegat. Termenul anunțat, 8 noiembrie 2026, este depășit; eventuala transmitere ulterioară nu garantează examinarea în etapa consultării."
+      },
+      "status": "ok"
     }
   }
 }

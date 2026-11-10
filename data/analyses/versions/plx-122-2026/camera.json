@@ -2,14 +2,14 @@
   "billId": "PL-x 122/2026",
   "slug": "plx-122-2026",
   "version": "camera",
-  "updatedAt": "2026-10-29T10:11:10.083Z",
+  "updatedAt": "2026-11-10T13:58:18.406Z",
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
-    "plainTitle": "Programul „Viața la țară”: agroturism simplificat pentru gospodării, dar cu comision către un operator privat unic și o capcană la norma de venit",
-    "summaryTlDr": "O inițiativă cu intenție bună pentru deschiderea gospodăriilor rurale către turiști, dar viciată de concesionarea încasărilor către un operator privat unic cu comision neplafonat și de o omisiune fiscală care poate lăsa țăranii cu taxe fixe mai mari decât încasările ocazionale.",
-    "initiatorClaim": "Inițiatorii vor să elimine birocrația clasificării turistice și să permită oricărei gospodării țărănești să primească vizitatori pentru prezentarea tradițiilor și activităților agricole, pe baza unui simplu certificat de la primărie și cu impozitare la normă de venit.",
-    "realityCheck": "Legea obligă Ministerul Agriculturii să dezvolte din bani publici platforma națională „Viața la țară”, dar predă administrarea și încasarea banilor unui singur operator privat, care percepe un comision neplafonat prin lege din plățile turiștilor înainte de a le vira sătenilor. În plus, derogarea fiscală omite pragul minim de 12 salarii minime brute al normei de venit din Codul fiscal și plafonul CASS, riscând să supraimpoziteze gospodăriile cu puțini vizitatori.",
+    "plainTitle": "Gospodăriile de la sat pot primi vizitatori plătitori, prin certificat de la primărie și o platformă națională administrată de o firmă privată",
+    "summaryTlDr": "Ideea este bună și chiar simplifică viața gospodăriilor rurale. Problema este execuția: un singur operator privat încasează toți banii, cu un comision pe care legea nu îl limitează, iar regulile importante sunt lăsate pe seama unui site și a unui caiet de sarcini.",
+    "initiatorClaim": "Inițiatorii vor ca orice gospodărie rurală să poată primi turiști și să le prezinte activități tradiționale fără birocrația cerută pensiunilor și fermelor agroturistice. Ei propun un certificat de la primărie, o platformă online națională și impozitare simplă pe normă de venit.",
+    "realityCheck": "Legea creează un registru local, un certificat emis de primărie și o platformă MADR operată de o firmă privată aleasă prin licitație. Firma încasează plățile vizitatorilor, își reține comisionul stabilit prin caietul de sarcini și raportează veniturile la ANAF. Regimul pe normă de venit este real și avantajos, dar legea nu spune dacă plata prin platformă e obligatorie. Nu definește «gospodăria țărănească», nu plafonează comisionul și ignoră siguranța alimentară, răspunderea față de vizitatori și finanțarea măsurilor promise.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "IMM & Antreprenori",
@@ -17,10 +17,10 @@
       "IT & AI"
     ],
     "senatForm": {
-      "articleRef": "Art. 2, Art. 4 alin. (2), Art. 5 și Art. 6",
-      "proposalContent": "La Art. 2 se introduc termene de 10 zile și gratuitate pentru certificat. La Art. 5 lit. f), comisionul operatorului privat se plafonează la max. 3%, iar plata directă la gospodărie rămâne permisă. La Art. 6 alin. (2), derogarea se extinde și la art. 69 alin. (3) și art. 170 din Codul fiscal, pentru ca norma de venit să poată fi sub 12 salarii minime și fără plafon CASS.",
-      "argumentation": "Fără derogare de la art. 69 alin. (3) din Codul fiscal, norma de venit nu poate fi sub 12 salarii minime brute, ceea ce ar obliga țăranii cu încasări ocazionale la impozit și CASS mai mari decât câștigul real. De asemenea, obligarea încasării exclusiv printr-un operator privat cu comision neplafonat în lege creează o rentă de monopol pe o platformă finanțată din bani publici.",
-      "otherComments": "La Art. 3 alin. (2), lista detaliată a activităților eligibile trebuie aprobată prin hotărârea Guvernului de la art. 9, nu doar afișată direct pe platformă, deoarece definește sfera unui regim fiscal derogatoriu. Totodată, operatorul privat care încasează banii și îi virează ulterior trebuie să respecte cerințele Legii nr. 209/2019 privind serviciile de plată."
+      "articleRef": "Art. 3 alin.(2), art. 4 alin.(2), art. 5 lit. f)",
+      "proposalContent": "Art. 4 (2): Platforma se administrează de MADR sau, prin concesiune de servicii atribuită conform Legii nr. 100/2016, de un operator. Comisionul maxim se stabilește prin HG și se afișează public. Art. 5 lit. f): plata online e opțională; beneficiarul poate încasa direct, declarând veniturile. Art. 3 (2): lista activităților se aprobă prin HG.",
+      "argumentation": "Legea impune un singur operator privat, cu comision nelimitat, prin care trec plățile și datele fiscale ale gospodăriilor. Remunerarea din comisioane înseamnă concesiune (Directiva 2014/23), nu licitație. Lista activităților eligibile trebuie aprobată prin act publicat, nu afișată pe un site (art. 1 alin. 5 Constituție).",
+      "otherComments": "Legea e deja adoptată (Lege 139/2026), deci modificarea cere o nouă inițiativă legislativă. Lipsesc: definiția gospodăriei țărănești, motivele de refuz al certificatului, reguli de siguranță alimentară (Reg. 852/2004), sursa de finanțare (art. 138 alin. 5), corelarea cu DAC7 și GDPR pentru datele transmise la ANAF."
     }
   },
   "council": {
@@ -58,9 +58,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "error",
-      "durationMs": 420028,
-      "error": "timeout după 420s"
+      "durationMs": 57589,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Gospodăriile de la sat pot primi vizitatori plătitori, prin certificat de la primărie și o platformă națională administrată de o firmă privată",
+      "verdictShort": "Ideea este bună și chiar simplifică viața gospodăriilor rurale. Problema este execuția: un singur operator privat încasează toți banii, cu un comision pe care legea nu îl limitează, iar regulile importante sunt lăsate pe seama unui site și a unui caiet de sarcini.",
+      "initiatorClaim": "Inițiatorii vor ca orice gospodărie rurală să poată primi turiști și să le prezinte activități tradiționale fără birocrația cerută pensiunilor și fermelor agroturistice. Ei propun un certificat de la primărie, o platformă online națională și impozitare simplă pe normă de venit.",
+      "realityCheck": "Legea creează un registru local, un certificat emis de primărie și o platformă MADR operată de o firmă privată aleasă prin licitație. Firma încasează plățile vizitatorilor, își reține comisionul stabilit prin caietul de sarcini și raportează veniturile la ANAF. Regimul pe normă de venit este real și avantajos, dar legea nu spune dacă plata prin platformă e obligatorie. Nu definește «gospodăria țărănească», nu plafonează comisionul și ignoră siguranța alimentară, răspunderea față de vizitatori și finanțarea măsurilor promise.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "IT & AI"
+      ],
+      "keyFindings": [
+        "Art. 4 alin. (2) și art. 5 lit. f): operaționalizarea platformei e dată unui singur operator privat, care încasează banii vizitatorilor și percepe un comision de intermediere fixat doar prin caietul de sarcini, fără plafon legal. Rezultatul este un intermediar unic, cu putere de piață garantată de lege.",
+        "Art. 3 alin. (2): lista detaliată a activităților eligibile este «prezentată pe Platformă», nu aprobată printr-un act normativ publicat în Monitorul Oficial. Conținutul normativ ajunge astfel pe un site administrat de o firmă privată, ceea ce afectează previzibilitatea legii.",
+        "Art. 2: nu există o definiție a «gospodăriei țărănești», criterii sau termen pentru emiterea certificatului, motive de refuz ori cale de contestare. În plus, certificatul ar «atesta deținerea gospodăriei», deși primăria nu poate atesta proprietatea; poate doar consemna datele din registrul agricol.",
+        "Art. 6: regimul fiscal pe normă de venit este favorabil și clar. Totuși, alin. (2) (ordin comun MADR-MF) și alin. (3) (MADR «transmite» normele către ANAF până la 30 noiembrie) se suprapun parțial. Legea nu spune nimic despre contribuțiile CAS/CASS.",
+        "Art. 7 și art. 9 alin. (2): promite cursuri gratuite, programe de finanțare și o platformă funcțională în 6 luni, inclusiv licitația, fără sursă de finanțare indicată. Termenul este nerealist pentru o procedură de atribuire cu posibile contestații.",
+        "Legea nu are sancțiuni, deci nu ridică probleme de proporționalitate a pedepselor (art. 23 alin. 12 nu e incident). Lipsesc însă regulile minime de siguranță alimentară pentru degustări și de răspundere sau asigurare față de vizitatori."
+      ],
+      "blindSpotsCaught": "Un operator remunerat din comisioanele plătite de vizitatori, nu de minister, preia riscul de exploatare. Juridic, aceasta este o concesiune de servicii (Directiva 2014/23/UE, Legea 100/2016), nu o «licitație publică» clasică, iar formularea greșită poate duce la contestații și întârzieri. Al doilea punct slab: operatorul transmite ANAF date fiscale despre persoane fizice. Asta se suprapune cu obligațiile de raportare din DAC7 (Directiva 2021/514) și cere temei clar GDPR, inclusiv limitarea datelor și calitatea de persoană împuternicită. Titlul vorbește de «agroturism», dar textul nu reglementează cazarea, așa că relația cu OG 58/1998 și cu normele de clasificare rămâne neclară.",
+      "constitutionalityNote": "Nu există încălcări flagrante. Legea e ordinară (art. 76 alin. 2), iar derogările de la Codul fiscal (art. 6, art. 10) sunt permise prin lege de același rang. Riscurile sunt trei. (1) Art. 1 alin. (5): lipsa de claritate și previzibilitate, prin trimiterea listei de activități la o platformă și prin lipsa definiției gospodăriei țărănești. (2) Art. 138 alin. (5): măsurile cu impact bugetar (platformă, cursuri gratuite, programe de finanțare) nu au sursă de finanțare indicată, motiv pentru care CCR a constatat în mod constant neconstituționalitatea. Riscul e atenuat de caracterul declarativ al art. 7. (3) Art. 108 și principiul legalității: un element normativ ajunge în afara unui act publicat oficial.",
+      "euLawNote": "Directiva 2018/958 (test de proporționalitate) este marginal aplicabilă, pentru că legea nu reglementează o profesie. Certificatul de la primărie este însă un regim de autorizare în sensul Directivei 2006/123 (servicii) și trebuie să fie nediscriminatoriu, justificat și proporțional, cu criterii clare. Exclusivitatea unui intermediar unic poate afecta concurența pe piața platformelor de rezervare, dacă plata prin platformă devine condiție pentru regimul fiscal. TRIS (2015/1535): legea nu impune reguli generale serviciilor societății informaționale, ci înființează o platformă de stat, deci riscul de nenotificare e redus. Este totuși recomandată o verificare, în special pentru art. 5 lit. g). Se aplică DAC7, GDPR și Directiva 2014/23 privind concesiunile.",
+      "senatForm": {
+        "articleRef": "Art. 3 alin.(2), art. 4 alin.(2), art. 5 lit. f)",
+        "proposalContent": "Art. 4 (2): Platforma se administrează de MADR sau, prin concesiune de servicii atribuită conform Legii nr. 100/2016, de un operator. Comisionul maxim se stabilește prin HG și se afișează public. Art. 5 lit. f): plata online e opțională; beneficiarul poate încasa direct, declarând veniturile. Art. 3 (2): lista activităților se aprobă prin HG.",
+        "argumentation": "Legea impune un singur operator privat, cu comision nelimitat, prin care trec plățile și datele fiscale ale gospodăriilor. Remunerarea din comisioane înseamnă concesiune (Directiva 2014/23), nu licitație. Lista activităților eligibile trebuie aprobată prin act publicat, nu afișată pe un site (art. 1 alin. 5 Constituție).",
+        "otherComments": "Legea e deja adoptată (Lege 139/2026), deci modificarea cere o nouă inițiativă legislativă. Lipsesc: definiția gospodăriei țărănești, motivele de refuz al certificatului, reguli de siguranță alimentară (Reg. 852/2004), sursa de finanțare (art. 138 alin. 5), corelarea cu DAC7 și GDPR pentru datele transmise la ANAF."
+      },
+      "status": "ok"
     },
     "codex": {
       "model": "codex",

@@ -274,22 +274,37 @@ const textPress = (a, more = []) =>
 
 const table = (rows) => `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">${rows}</table>`;
 
-function summaryBlock(open) {
-  const counts = { red: 0, yellow: 0, green: 0 };
-  for (const b of open) counts[b.level]++;
-  const total = open.length || 1;
+/** Numerele pe niveluri de risc și bara lor, la fel pentru Senat și pentru Cameră. */
+function riskFigures(counts) {
+  const total = counts.red + counts.yellow + counts.green || 1;
   const cell = (lvl) =>
     `<td class="lt-stack" width="33%" valign="top" style="padding:0 8px 0 0"><p class="lt-text-${lvl}" style="margin:0;font-family:${SANS};font-size:28px;font-weight:600;line-height:34px;color:${RISK[lvl].text}">${counts[lvl]}</p><p class="lt-muted" style="margin:2px 0 12px;font-family:${SANS};font-size:13px;line-height:18px;color:${C.muted}">${RISK[lvl].label.toLowerCase()}</p></td>`;
   const bar = ['red', 'yellow', 'green']
     .filter((l) => counts[l])
     .map((l) => `<td width="${Math.max(2, Math.round((counts[l] / total) * 100))}%" bgcolor="${RISK[l].fill}" style="background:${RISK[l].fill};height:8px;font-size:0;line-height:0">&nbsp;</td>`)
     .join('');
+  return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>${cell('red')}${cell('yellow')}${cell('green')}</tr></table>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-radius:4px;overflow:hidden"><tr>${bar}</tr></table>`;
+}
+
+const senateCounts = (open) => {
+  const counts = { red: 0, yellow: 0, green: 0 };
+  for (const b of open) counts[b.level]++;
+  return counts;
+};
+const amendDay = (camera) => formatDay(dayUtc(camera.nextAmend.termen), { day: 'numeric', month: 'long' });
+
+/** Cele două camere: câte proiecte sunt acum la fiecare, pe niveluri de risc, și următorul termen. */
+function summaryBlock(open, camera) {
   const next = [...open].sort((a, b) => a.days - b.days)[0];
+  const small = 'margin:14px 0 0;font-size:14px;line-height:22px';
   return `${H2('Pe scurt')}
 ${P(`În consultare publică la Senat sunt acum <strong>${countWord(open.length, 'proiect', 'proiecte')}</strong>.`, 'margin-bottom:12px')}
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>${cell('red')}${cell('yellow')}${cell('green')}</tr></table>
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-radius:4px;overflow:hidden"><tr>${bar}</tr></table>
-${next ? P(`Următorul termen: <a href="${esc(billUrl(next))}" class="lt-link" style="${linkStyle}">${esc(next.id)}</a>, ${esc(deadlineText(next))}.`, 'margin:14px 0 0;font-size:14px;line-height:22px') : ''}`;
+${riskFigures(senateCounts(open))}
+${next ? P(`Următorul termen: <a href="${esc(billUrl(next))}" class="lt-link" style="${linkStyle}">${esc(next.id)}</a>, ${esc(deadlineText(next))}.`, small) : ''}
+${P(`În dezbatere la Camera Deputaților sunt acum <strong>${countWord(camera.here, 'proiect', 'proiecte')}</strong>.`, 'margin:28px 0 12px')}
+${riskFigures(camera.hereLevels)}
+${P(camera.nextAmend ? `Următorul termen pentru amendamente: ${link(cameraUrl(camera.nextAmend.slug), camera.nextAmend.numar)}, până pe ${esc(amendDay(camera))}.` : 'Niciun termen pentru amendamente deschis acum.', small)}`;
 }
 
 // --- ediția specială: Camera Deputaților ---------------------------------------------------------
@@ -629,13 +644,14 @@ function edition(level, data, anunt = null, short = new Set()) {
       .map((a) => `\n  În presă: ${a.title} (${a.outlet}${stanceLabel(a) ? `, ${stanceLabel(a).toLowerCase()}` : ''}) ${a.url}`)
       .join('');
 
-  if (newBills.length) {
-    body += H2(newBills.length === 1 ? 'Proiect nou în consultare' : 'Proiecte noi în consultare') + cards(newBills);
-    text += `\nPROIECTE NOI ÎN CONSULTARE\n${newBills.map(textBill).join('\n')}\n`;
-  }
+  // Întâi termenele: sunt puține și nu așteaptă, iar proiectele noi pot fi multe după o pauză.
   if (closing.length) {
     body += H2('Ultimele zile pentru obiecții') + cards(closing);
     text += `\nULTIMELE ZILE PENTRU OBIECȚII\n${closing.map(textBill).join('\n')}\n`;
+  }
+  if (newBills.length) {
+    body += H2(newBills.length === 1 ? 'Proiect nou în consultare' : 'Proiecte noi în consultare') + cards(newBills);
+    text += `\nPROIECTE NOI ÎN CONSULTARE\n${newBills.map(textBill).join('\n')}\n`;
   }
   if (otherPress.length) {
     const heading = featured.length ? 'În presă despre celelalte proiecte' : 'În presă';
@@ -663,12 +679,17 @@ function edition(level, data, anunt = null, short = new Set()) {
   }
   // În anunțul despre Cameră, cardul Senatului ține locul rezumatului.
   if (level === 'all' && (!anunt || anunt.summary)) {
-    body += summaryBlock(data.open);
-    const counts = ['red', 'yellow', 'green'].map((l) => `${data.open.filter((b) => b.level === l).length} ${RISK[l].label.toLowerCase()}`);
-    text += `\nPE SCURT\nÎn consultare acum: ${countWord(data.open.length, 'proiect', 'proiecte')} (${counts.join(', ')}).\n`;
+    body += summaryBlock(data.open, data.camera);
+    const counts = (c) => ['red', 'yellow', 'green'].map((l) => `${c[l]} ${RISK[l].label.toLowerCase()}`).join(', ');
+    const amend = data.camera.nextAmend;
+    text +=
+      `\nPE SCURT\nÎn consultare publică la Senat: ${countWord(data.open.length, 'proiect', 'proiecte')} (${counts(senateCounts(data.open))}).\n` +
+      `În dezbatere la Camera Deputaților: ${countWord(data.camera.here, 'proiect', 'proiecte')} (${counts(data.camera.hereLevels)}).\n` +
+      (amend ? `Următorul termen pentru amendamente: ${amend.numar}, până pe ${amendDay(data.camera)}. ${cameraUrl(amend.slug)}\n` : '');
   }
   body += `<div style="margin-top:30px">${button(track(`${SITE}/senat#legi`), 'Toate proiectele în consultare')}</div>`;
-  text += `\nToate proiectele în consultare: ${track(`${SITE}/senat#legi`)}\n`;
+  body += `<div style="margin-top:10px">${button(track(`${SITE}/camera`), 'Ce se dezbate la Cameră')}</div>`;
+  text += `\nToate proiectele în consultare: ${track(`${SITE}/senat#legi`)}\nCe se dezbate la Cameră: ${track(`${SITE}/camera`)}\n`;
 
   const footer = footerHtml({
     reason: `Primești acest e-mail pentru că te-ai abonat la alertele destrajă, nivelul „${esc(levelName)}”. Îți scriem doar în zilele lucrătoare în care apare ceva nou pe nivelul tău.`,
@@ -762,6 +783,7 @@ async function main() {
   }
   const data = collect(bills, state);
   const senateBills = readJson(path.join(DATA, 'senat-bills.json'), []).filter((b) => fs.existsSync(path.join(DATA, 'analyses', `${b.slug}.json`)));
+  data.camera = cameraStats(DATA, senateBills, DAY);
   // O ediție începută în ziua aceasta și neterminată se reia; alegerea de mai jos s-a făcut când a plecat prima dată.
   // Reluată fără --anunt, ediția cu anunț rămâne cu anunțul ei.
   const pending = readJson(pendingFile, null);

@@ -31,6 +31,9 @@ export function cameraStats(DATA, senateBills, today = new Date().toISOString().
   // Termenele încă deschise: amendamentele și consultarea publică a Camerei (src/app/page.tsx).
   const amend = here.map((b) => b.sheet?.fisa.comisii?.termenAmendamente).filter((d) => d && d >= today);
   const consult = here.map((b) => b.sheet?.fisa.consultare?.termen).filter((d) => d && d >= today);
+  // Primul termen de amendamente încă deschis, pentru „Pe scurt” din e-mail.
+  const amendTerm = (b) => b.sheet?.fisa.comisii?.termenAmendamente ?? '';
+  const nextAmend = here.filter((b) => amendTerm(b) >= today).sort((a, b) => amendTerm(a).localeCompare(amendTerm(b)))[0];
   const government = bills.filter((b) => b.sheet && !b.sheet.fisa.initiatori.length).length;
 
   // Comparația formelor: direcția ultimei schimbări, ca în lista de pe site.
@@ -69,6 +72,7 @@ export function cameraStats(DATA, senateBills, today = new Date().toISOString().
       .sort((a, b) => b.score - a.score)
       .map((b) => ({ ...b, bad: readJson(path.join(DATA, 'analyses', 'balance', `${b.slug}.json`), null)?.bad.toSorted((x, y) => y.weight - x.weight)[0]?.text ?? null })),
     amendOpen: amend.length,
+    nextAmend: nextAmend ? { slug: nextAmend.slug, numar: nextAmend.numar, termen: amendTerm(nextAmend) } : null,
     lastTerm: [...amend, ...consult].sort().at(-1) ?? null,
     government,
     compared: versions.length,

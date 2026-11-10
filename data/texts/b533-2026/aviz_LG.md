@@ -1,0 +1,163 @@
+# AVIZ
+
+Biroul permanent al Senatului 1629....12..44.2026...
+
+# referitor la propunerea legislativă pentru modificarea și completarea Legii nr. 179/2022 privind datele deschise și reutilizarea informațiilor din sectorul public
+
+Analizând propunerea legislativă pentru modificarea și completarea Legii nr. 179/2022 privind datele deschise și reutilizarea informațiilor din sectorul public (b533/23.09.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/4515/28.09.2026 și înregistrată la Consiliul Legislativ cu nr. D825/29.09.2026,
+
+## CONSILIUL LEGISLATIV
+
+În temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (3) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
+
+Avizează favorabil propunerea legislativă, cu următoarele observații și propuneri:
+
+1\. Propunerea legislativă are ca obiect de reglementare modificarea și completarea Legii nr. 179/2022 privind datele deschise și reutilizarea informațiilor din sectorul public, în ceea ce privește procedura de soluționare a cererilor de reutilizare, publicarea și reutilizarea seturilor de date cu valoare ridicată, organizarea portalului național de date deschise, mecanismele de conformare, monitorizare și raportare, cerințele privind datele deschise prin proiectare și regimul contravențional.
+
+2\. Prin conținutul său normativ, proiectul face parte din categoria legilor ordinare, iar în aplicarea prevederilor art. 75 alin. (1) din Constituția României, republicată, prima Cameră sesizată este Senatul.
+
+3\. Menționăm că, prin avizul pe care îl emite, Consiliul Legislativ nu se pronunță asupra oportunității soluțiilor legislative preconizate.
+
+4\. Ca observație cu caracter general, semnalăm că propunerea legislativă cuprinde numeroase dispoziții care detaliază structura documentelor, funcționalitățile informatice și modalitățile de monitorizare necesare aplicării legii. Includerea acestor detalii în legislația primară sporește complexitatea reglementării și poate determina necesitatea unor modificări legislative pentru adaptarea la evoluția metodelor și soluțiilor tehnice.
+
+Prin urmare, propunem reanalizarea nivelului de reglementare a acestora, prin păstrarea în lege a obligațiilor, responsabilităților și garanțiilor esențiale și stabilirea detaliilor tehnice și operaționale prin normele metodologice aprobate prin hotărâre a Guvernului. O asemenea delimitare ar facilita cunoașterea și aplicarea legii și ar permite actualizarea coerentă a metodologiilor și documentelor tehnice, fără modificarea repetată a legislației primare.
+
+În acest sens, avem în vedere, în special, următoarele dispoziții propuse prin art. I:
+
+a) la pct. 10, art. 12 alin. (6⁴) și (6⁵) - enumerarea detaliată a funcționalităților portalului național de date deschise și a câmpurilor profilului standard al setului de date publicat sau indexat în portal;
+
+b) la pct. 11, art. 12 alin. (7) teza întâi - în partea privind conținutul tehnic al planurilor de publicare;
+
+c) la pct. 12, art. 12 alin. (9) - referitor la specificațiile tehnice ale sistemelor informatice, astfel încât acestea să respecte principiul datelor deschise prin proiectare;
+
+d) la pct. 18:
+
+\- art. 16² alin. (2) - structura detaliată a înregistrărilor din Registrul național al seturilor de date cu valoare ridicată;
+
+\- art. 16³ alin. (2) - lista indicatorilor și informațiilor afișate în interfața publică de monitorizare, în cadrul obligației legale de monitorizare și informare publică;
+
+\- art. 16⁴ alin. (2) - structura declarației de deținere sau nedeținere a datelor;
+
+\- art. 16⁵ alin. (2) și (8) - structura detaliată a planului de conformare și informațiile afișate în portal privind termenele și prelungirile acestora;
+
+\- art. 16⁶ alin. (2) și (3) - enumerarea stadiilor principale de conformare și a indicatorilor suplimentari;
+
+e) la pct. 20, art. 17 alin. (6) - structura detaliată a raportului anual de sinteză.
+
+Eventualele intervenții trebuie correlate cu dispozițiile privind contravențiile și sancțiunile, astfel încât obligațiile a căror nerespectare este sancționată să rămână suficient determinate, iar detalierea prin normele metodologice să se realizeze în limitele cadrului stabilit prin lege. Totodată, vor fi correlate definițiile și trimiterile afectate de reformularea textelor.
+
+Sub rezerva observației cu caracter general de mai sus, formulăm următoarele observații și propuneri cu privire la textul propunerii legislative.
+
+5\. La art. I, formulăm următoarele observații și propuneri:
+
+5.1. La pct. 1, în textul propus pentru art. 2 lit. I), sintagma „bazat, de regulă, pe standarde deschise” nu permite stabilirea cu claritate a relevanței respectării unui standard pentru calificarea unui format de fișier ca format deschis. Totodată, nu este precizat raportul dintre noțiunea „standarde deschise” și cea de „standard formal deschis”, definită la art. 2 lit. ff) din lege.
+
+5.2. La pct. 2, în textul propus pentru art. 2 lit. hh), enumerarea cuprinde pe același plan noțiunea generală „informații” și categoria particulară „informații privind actualizarea”. De asemenea, pentru unitate de redactare cu actul normativ de bază, propunem ca termenul „Portalul” să debuteze cu literă mică, observație valabilă pentru toate cazurile similare din cuprinsul proiectului. Prin urmare, pentru claritatea exprimării și evidențierea elementelor componente ale profilului standard al setului de date, propunem reformularea definiției astfel:
+
+„hh) profil standard al setului de date – ansamblul minim de informații și resurse aferente unui set de date publicat sau indexat în portalul național de date deschise, care include metadata, licențe, contacte, elemente de documentare tehnică, indicatori tehnici și informații privind actualizarea setului de date”.
+
+La lit. kk), pentru precizia exprimării, propunem înlocuirea cuvântului „termenele” cu sintagma „termenele de remediere”, în corelare cu textele propuse pentru art. 16² alin. (2) lit. p) și alin. (4), care se referă expres la această categorie de termene.
+
+Observația este valabilă și pentru lit. oo).
+
+La lit. II), pentru exprimarea clară a legăturii tuturor elementelor enumerării cu seturile de date, recomandăm ca partea finală a normei să fie redată astfel: „... informații privind seturile de date, sub aspectul publicării, disponibilității, calității, actualizării, accesibilității tehnice și stadiului de conformare”.
+
+5.3. La pct. 3 și 4, întrucât acestea prevăd modificarea unor alineate ale aceluiași articol, propunem comasarea lor într-un singur punct, cu următoarea parte dispozitivă:
+
+„3. La articolul 4, alineatele (2) și (8) se modifică și vor avea următorul cuprins:”.
+
+În continuare vor fi redate textele propuse pentru cele două alineate, iar punctele subsecvente se vor renumerota.
+
+La pct. 4, în textul propus pentru art. 4 alin. (8) teza a doua, sintagma „termenul prevăzut la alin. (8)” se referă la termenul stabilit chiar în prima teză a aceluiași alineat. Pentru concizia și precizia exprimării, propunem înlocuirea acesteia cu sintagma „acest termen”.
+
+Totodată, menționăm că prelungirea termenului de soluționare este prevăzută numai pentru cererile complexe, în timp ce expunerea de motive are în vedere cererile extinse sau complexe. Pentru concordanța cu intenția de reglementare, propunem înlocuirea sintagmei „În cazul cererilor complexe” cu sintagma „În cazul cererilor ample sau complexe”, formulare care corespunde și distincției prevăzute la art. 4 alin. (2) din Directiva (UE) 2019/1024.
+
+5.4. La actualul pct. 5, unde se preconizează completarea art. 6 alin. (1) cu paisprezece noi litere, pentru unitate de redactare cu actul normativ de bază, sugerăm ca la marcarea enumerărilor să nu fie utilizată litera ș); în cazul preluării acestei observații, sintagma „lit. i) - u)” din cadrul părții dispozitive se va scrie sub forma „lit. i) - v)”, iar normele de trimitere din cadrul textului propus pentru alin. (3) al aceluiași articol vor fi revăzute. În situația nepreluării acestei observații, pentru un spor de rigoare redacțională, la marcarea enumerărilor va fi utilizată și litera ț), cu consecința revizuirii atât a părții dispozitive, cât și a normelor de trimitere din cadrul proiectului.
+
+De asemenea, se impune corelarea art. 6 alin. (1) lit. b), nemodificat prin proiect, care sancționează nerespectarea termenului de publicare a datelor potrivit alin. (7) al art. 12, cu noua redactare a acestui alineat, astfel încât să rezulte clar termenele a căror nerespectare atrage răspunderea contravențională și raportul acestora cu termenele de conformare cuprinse în planul de publicare.
+
+Prin urmare, apreciem că este necesară clarificarea și, după caz, completarea regimului contravențional privind neîndeplinirea obligațiilor de întocmire, publicare și actualizare a planului de publicare, prin identificarea expresă a conduitei sancționate și precizarea termenelor de îndeplinire a obligațiilor respective, în corelare cu faptele prevăzute în textele propuse pentru art. 6 alin. (1) lit. o) și p).
+
+Totodată, pentru asigurarea previzibilității și accesibilității reglementării, recomandăm ca normele din cuprinsul lit. i), k) și m) - s) să fie completate cu trimiteri exprese la dispozițiile prin care se stabilesc respectivele obligații, similar celorlalte dispoziții din cuprinsul art. 6 alin. (1).
+
+Pe de altă parte, la actuala lit. §), expresia „dreptul Uniunii Europene” nu este suficient de clară și trebuie reformulată, astfel încât sfera actelor juridice ale Uniunii Europene avută în vedere de text să poată fi determinată cu precizia necesară.
+
+În plus, la actuala lit. u), referirea generică la „condiții tehnice, juridice sau de licențiere care restrâng nejustificat reutilizarea” trebuie completată cu criterii în funcție de care o astfel de restrângere poate fi considerată nejustificată.
+
+5.5. La actualul pct. 7, în textul propus pentru art. 8 alin. (3), recomandăm clarificarea raportului dintre principiul „deschiderii începând cu momentul conceperii” și principiul „datelor deschise prin proiectare”, prezentate ca principii distincte.
+
+Precizăm că deschiderea începând cu momentul conceperii exprimă chiar ideea deschiderii prin proiectare, corespunzătoare componentei „open by design” din principiul prevăzut la art. 5 alin. (2) din Directiva (UE) 2019/1024. Totodată, din definiția propusă pentru art. 2 lit. qq) și din dispozițiile propuse pentru art. 12 alin. (8) - (10) rezultă că principiul datelor deschise prin proiectare concretizează această cerință în privința sistemelor informatice.
+
+5.6. La actualul pct. 10, în textul propus pentru art. 12 alin. (6¹), pentru consecvența redactării și respectarea succesiunii logice a operațiunilor, propunem înlocuirea sintagmei „publicarea, inventarierea, actualizarea și monitorizarea” cu sintagma „inventarierea, publicarea, actualizarea și monitorizarea”, în acord cu ordinea enumerării din alin. (6²).
+
+La alin. (6³), potrivit uzanțelor de redactare, propunem ca expresia „normele metodologice” să fie înlocuită cu sintagma „normele metodologice de aplicare a prezentei legi”.
+
+Observația este valabilă și pentru celelalte situații similare din proiect.
+
+5.7. La actualul pct. 12, în textul propus pentru art. 12 alin. (11), pentru precizarea scopului funcționalității informatice avute în vedere, recomandăm înlocuirea sintagmei „inexistența unei funcționalități informatice adecvate” cu sintagma „lipsa funcționalităților informatice necesare pentru publicarea și reutilizarea datelor”.
+
+De asemenea, întrucât actualizarea presupune existența unui plan de conformare, propunem înlocuirea expresiei „de a actualiza în Portalul național de date deschise un plan de conformare” cu expresia „de a întocmi și actualiza în Portalul național de date deschise planul de conformare prevăzut la art. 16⁵”. Astfel, se precizează că dificultățile enumerate nu exonerează entitatea nici de întocmirea inițială a planului, în corelare cu obligația prevăzută la art. 16⁵ alin. (1).
+
+5.8. La actualele pct. 13 - 17, având în vedere că acestea prevăd modificarea tuturor celor șase alineate existente ale art. 16 și introducerea a patru noi alineate, este necesară comasarea lor într-un singur punct, cu următoarea parte dispozitivă:
+
+„13. Articolul 16 se modifică și va avea următorul cuprins:”.
+
+În continuare, se va reda textul integral al art. 16, alineatele urmând a fi marcate cu cifre arabe, fără a se utiliza indici cifrici. Pe cale de consecință, actualele pct. 14 - 17 se vor elimina, iar punctele subsecvente se vor renumerota. În plus, toate trimiterile la acest articol vor fi revăzute și modificate în mod corespunzător.
+
+În textul propus la pct. 13 pentru art. 16 alin. (1), semnalăm că cele două poziții ale enumerării sunt marcate „e) a)”, respectiv „f)”. Pentru o identificare corectă a elementelor structurale, acestea vor fi marcate „a)”, respectiv „b)”.
+
+Totodată, la actuala lit. f), sintagma „anexa la prezenta lege” se va reda sub forma „anexa care face parte integrantă din prezenta lege”.
+
+5.9. La actualul pct. 14, textul propus pentru art. 16 alin. (1¹) se suprapune parțial cu prima teză a art. 16 alin. (2), propusă la pct. 15, ambele reglementând respectarea cerințelor europene de publicare și reutilizare pentru seturile de date cu valoare ridicată prevăzute la art. 16 alin. (1) lit. a). Pentru evitarea paralelismului, recomandăm concentrarea celor două dispoziții într-un singur text.
+
+La textul propus pentru alin. (1⁴), sintagma ,,prevăzute în anexa la prezenta lege” se va înlocui cu sintagma ,,prevăzute în anexă”. Observația este valabilă, în mod corespunzător, pentru norma propusă la pct. 16 pentru art. 16 alin. (3) partea dispozitivă.
+
+5.10. La actualul pct. 15, în textul propus pentru art. 16 alin. (2) prima teză, pentru claritatea exprimării, propunem înlocuirea expresiei „în măsura și față de entitățile cărora aceste cerințe le sunt aplicabile” cu formularea „în măsura în care aceste cerințe sunt aplicabile și în privința entităților cărora li se aplică”.
+
+5.11. La actualul pct. 17, în textul propus pentru art. 16 alin. (5), recomandăm eliminarea primei teze, întrucât formula potrivit căreia actele delegate și actele de punere în aplicare adoptate de Comisia Europeană „se aplică potrivit dreptului Uniunii Europene” are caracter declarativ, fără a institui o regulă distinctă. Regimul aplicării acestor acte rezultă din dreptul Uniunii Europene, independent de confirmarea sa prin legea națională.
+
+În mod similar, în ceea ce privește art. 16 alin. (6), recomandăm abrogarea acestuia, în locul modificării preconizate. Posibilitatea completării anexei printr-un act normativ de modificare sau completare a legii rezultă din regulile generale privind intervențiile legislative, iar respectarea criteriilor pentru introducerea unor noi seturi de date este deja prevăzută în textul propus pentru art. 16 alin. (3).
+
+Totodată, referirile generice la consultarea interinstituțională și a părților interesate, precum și la evaluarea impactului administrativ, tehnic și financiar nu instituie cerințe specifice față de regulile aplicabile elaborării și fundamentării actelor normative, care rămân incidente și în lipsa acestei dispoziții.
+
+5.12. La actualul pct. 18, propunem eliminarea textului prevăzut pentru art. 16¹ alin. (1), întrucât cerințele privind gratuitatea, formatul deschis și prelucrabil automat, accesul prin API și descărcarea în masă sunt deja prevăzute pentru seturile de date cu valoare ridicată naționale în textul propus la pct. 15 pentru art. 16 alin. (2) lit. a) - d). Pentru seturile de date cu valoare ridicată stabilite la nivelul Uniunii Europene, prima teză a aceluiași alineat prevede aplicarea cerințelor de publicare și reutilizare stabilite prin dreptul Uniunii Europene.
+
+Totodată, recomandăm eliminarea textului propus pentru art. 16¹ alin. (8), întrucât acesta are caracter redundant. Domeniul de aplicare, excluderile și limitările prevăzute la art. 1 privesc întreaga lege, inclusiv dispozițiile nou introduse, iar respectarea regimurilor juridice speciale enumerate se impune și în lipsa acestei mențiuni. În cazul însușirii propunerii, alin. (9) devine alin. (8).
+
+În textul propus pentru art. 16¹ alin. (9) prima teză, propunem înlocuirea formulării „numai în măsura și față de entitățile cărora obligațiile corespunzătoare le sunt aplicabile potrivit dreptului Uniunii Europene” cu expresia „numai în măsura în care obligațiile corespunzătoare sunt aplicabile potrivit dreptului Uniunii Europene și numai în privința entităților cărora li se aplică”.
+
+În ceea ce privește alin. (4) al art. 16⁵, propunem eliminarea acestuia întrucât reia regula prevăzută la art. 12 alin. (11) potrivit căreia dificultățile tehnice sau existența unor costuri administrative nu exonerează entitatea de obligația de actualizare a planului de conformare. În cazul însușirii propunerii, se vor renumerota alineatele subsecvente și se vor corela trimiterile corespunzătoare.
+
+5.13. La actualul pct. 19, partea dispozitivă se va reda sub forma:
+
+„19. La capitolul VI, titlul se modifică și va avea următorul cuprins:”.
+
+5.14. La actualul pct. 20, textul propus pentru art. 17 alin. (2) reia parțial modalitățile de actualizare a informațiilor în portalul național de date deschise, deja reglementate în textul propus la pct. 10 pentru art. 12 alin. (6²). Ambele dispoziții prevăd actualizarea directă în portal sau prin mecanisme automate de preluare, inclusiv prin API și interconectare. Pentru evitarea paralelismului, recomandăm concentrarea reglementării la art. 12 alin. (6²), cu integrarea precizărilor utile din art. 17 alin. (2), urmată de eliminarea acestui din urmă alineat.
+
+5.15. La actualul pct. 22, partea dispozitivă va avea următoarea redactare:
+
+„22. La anexă, titlul se modifică și va avea următorul cuprins:”.
+
+6\. La art. II, având în vedere că nu a fost adoptată hotărârea Guvernului de aprobare a normelor metodologice de aplicare a Legii nr. 179/2022, iar art. 18 alin. (1) din această lege, care constituie temeiul actual pentru aprobarea lor, este propus spre abrogare prin art. I pct. 21, recomandăm reformularea textului astfel încât să prevadă aprobarea normelor metodologice de aplicare a legii în ansamblul său, după cum urmează:
+
+„Art. II. - În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Guvernul aprobă prin hotărâre normele metodologice de aplicare a Legii nr. 179/2022 privind datele deschise și reutilizarea informațiilor din sectorul public, astfel cum a fost modificată și completată prin prezenta lege”.
+
+7\. La art. III alin. (1), recomandăm reanalizarea termenului de 60 de zile, în consultare cu Secretariatul General al Guvernului și Autoritatea pentru Digitalizarea României, în raport cu stadiul infrastructurii informatice existente și cu operațiunile necesare realizării versiunii funcționale minime a registrului și a interfeței de monitorizare.
+
+Totodată, potrivit uzanțelor de redactare, expresia „de la intrarea în vigoare a prezentei legi” se va reda sub forma „de la data intrării în vigoare a prezentei legi”. Observația este valabilă și pentru art. V.
+
+La alin. (2), pentru a rezulta fără echivoc că operaționalizarea presupune doar disponibilitatea funcționalităților informatice necesare efectuării operațiunilor enumerate, propunem ca expresia „asigură cel puțin înscrierea” să fie înlocuită cu expresia „pune la dispoziție cel puțin funcționalitățile necesare pentru înscrierea”.
+
+8\. La art. IV, potrivit uzanțelor de redactare, termenul „operaționalizarea” se va înlocui cu sintagma „data operaționalizării”.
+
+9\. La art. VI alin. (2), pentru identificarea expresă a actului normativ la care se face trimitere, după expresia „art. 12 alin. (8) - (10)” se va introduce sintagma „din Legea nr. 179/2022”.
+
+10\. La art. VII, pentru precizia normei, recomandăm completarea normei de trimitere cu alineatul care prevede aprobarea raportului anual, respectiv alin. (4) al art. 17.
+
+11\. La art. VIII, pentru respectarea unității redacționale în cadrul actelor normative, sintagma „se va republica” se va reda sub forma „va fi republicată”.
+
+PRESEDINTE
+
+Florin IORDACHE
+
+București Nr. 894/22.10.2026

@@ -1,3 +1,7 @@
+# CONSILIUL ECONOMIC ȘI SOCIAL
+
+Str. Dimitrie D. Gerota nr. 7-9, sector 2, București, cod poștal: 020027 Telefoane: 021.310.23.56, 021.316.31.34 Fax: 021.316.31.31 021.310.23.57, 021.316.31.33
+
 Cod fiscal: 10464660
 
 E-mail: ces@ces.ro
@@ -10,13 +14,13 @@ Membru fondator al Asociației Internaționale a Consiliilor Economice și Socia
 
 Nr. 6613/07.10.2026
 
-Biroul permanent al Senatului
-
 ## AVIZ
+
+Biroul permanent al Senatului
 
 ## referitor la propunerea legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice (b532/23.09.2026)
 
-În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice (b532/23.09.2026).
+În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social; republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice (b532/23.09.2026).
 
 ## CONSILIUL ECONOMIC ȘI SOCIAL
 

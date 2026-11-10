@@ -1,0 +1,15 @@
+# PARLAMENTUL ROMÂNIEI SENAT
+
+## LEGE
+
+privind aprobarea Ordonanței de urgență a Guvernului nr.59/2024 pentru modificarea și completarea Legii nr.227/2015 privind Codul fiscal, precum și alte măsuri fiscale
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.59 din 6 iunie 2024 pentru modificarea și completarea Legii nr.227/2015 privind Codul fiscal, precum și alte măsuri fiscale, publicată în Monitorul Oficial al României, Partea I, nr. 534 din 7 iunie 2024.
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 25 iunie 2024, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI
+
+SORIN-MIHAI CÎMPEANU

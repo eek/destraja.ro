@@ -1,7 +1,12 @@
 {
   "slug": "plx-238-2026",
   "billId": "Pl-x 238/2026",
-  "updatedAt": "2026-10-30T09:12:48.611Z",
+  "updatedAt": "2026-11-10T09:34:39.661Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -39,90 +44,79 @@
       "from": "initiator",
       "to": "camera",
       "direction": "mai_putin_riscant",
-      "headline": "Toată OG 2/2001, inclusiv plata a jumătate din amendă, se aplică acum, dar doar la art. 49 alin. (1)",
-      "summary": "Inițial se aplicau doar două articole din legea generală a contravențiilor, unul greșit ales. Acum se aplică toată legea: plata redusă, căile de atac, prescripția. Dar doar pentru faptele de la art. 49 alin. (1).",
+      "headline": "Trimitere la toată OG 2/2001 în loc de două articole, dar doar pentru faptele de la art. 49 alin. (1)",
+      "summary": "Inițial, legea trimitea doar la două articole din OG 2/2001, unul greșit. Acum trimite la toată ordonanța, deci se aplică și plata redusă, și căile de atac. În schimb, regula acoperă doar faptele de la art. 49 alin. (1).",
       "changes": [
         {
-          "title": "Se aplică toată legea contravențiilor, nu doar două articole",
-          "text": "Lista strictă din art. 50 (art. 4 alin. (1) și art. 28) devine trimitere la toată OG 2/2001. Intră și mențiunea plății reduse în procesul-verbal, prescripția, căile de atac.",
+          "title": "Se aplică toată legea generală a contravențiilor",
+          "text": "Art. 50 alin. (2) nu mai enumeră doar art. 4 alin. (1), trimitere eronată, și art. 28. Trimite generic la OG 2/2001, deci acoperă și art. 29, prescripția și căile de atac.",
           "effect": "mai_bine",
           "major": true,
           "article": "art. 50 alin. (2)",
           "before": "se completează cu prevederile art. 4 alin. (1) și art. 28 din Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor",
-          "after": "le sunt aplicabile dispozițiile Ordonanței Guvernului nr. 2/2001, aprobată cu modificări și completări prin Legea nr. 180/2002",
+          "after": "le sunt aplicabile dispozițiile Ordonanței Guvernului nr. 2/2001, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare.",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
           "title": "Regula acoperă doar faptele de la art. 49 alin. (1)",
-          "text": "Inițial erau vizate toate contravențiile din lege. Acum sunt vizate doar cele de la art. 49 alin. (1). Pentru alte fapte, dacă există, se poate susține a contrario că regula nu se aplică.",
+          "text": "Inițial, regula viza toate dispozițiile legii despre contravenții. Acum vizează doar art. 49 alin. (1). Faptele sancționate în alte articole pot rămâne în afara ei, prin interpretare a contrario.",
           "effect": "mai_rau",
           "major": true,
           "article": "art. 50 alin. (2)",
           "before": "Dispozițiile prezentei legi referitoare la constatarea contravențiilor și aplicarea sancțiunilor contravenționale",
-          "after": "Contravențiilor prevăzute la art. 49 alin. (1) le sunt aplicabile",
+          "after": "Contravențiilor prevăzute la art. 49 alin. (1)",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Plata a jumătate din amendă nu mai e scrisă explicit",
-          "text": "Art. 28 (jumătate din minim în 15 zile) nu mai e numit, deși era scopul declarat. Se aplică însă prin trimiterea generală la OG 2/2001.",
+          "title": "Plata a jumătate din amendă nu mai e numită expres",
+          "text": "Art. 28, adică plata a jumătate din minim în 15 zile, nu mai este menționat explicit, deși era scopul declarat. Se aplică doar prin trimiterea generică la OG 2/2001.",
           "effect": "mai_rau",
-          "major": false,
+          "major": true,
           "article": "art. 50 alin. (2)",
-          "before": "art. 28 din Ordonanța Guvernului nr. 2/2001",
-          "after": "dispozițiile Ordonanței Guvernului nr. 2/2001",
+          "before": "art. 28 din Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor",
+          "after": "le sunt aplicabile dispozițiile Ordonanței Guvernului nr. 2/2001",
           "beforeAbsent": false,
           "afterAbsent": false
-        },
-        {
-          "title": "Dispare trimiterea greșită la art. 4 alin. (1)",
-          "text": "Art. 4 alin. (1) din OG 2/2001 privește intrarea în vigoare a actelor care stabilesc contravenții, nu completarea legilor speciale. Trimiterea eronată a fost eliminată.",
-          "effect": "mai_bine",
-          "major": false,
-          "article": "art. 50",
-          "before": "prevederile art. 4 alin. (1)",
-          "after": null,
-          "beforeAbsent": false,
-          "afterAbsent": true
         }
       ],
       "remaining": {
         "problems": [
           {
-            "text": "Se aplică doar contravențiilor de la art. 49 alin. (1), celelalte rămân neacoperite",
+            "text": "Regula acoperă doar art. 49 alin. (1); alte contravenții pot fi excluse a contrario",
             "major": true,
             "article": "art. 50 alin. (2)"
           },
           {
-            "text": "Plata a jumătate din minimul amenzii în 15 zile nu e numită expres",
+            "text": "Plata a jumătate din minim (art. 28) nu e menționată expres",
             "major": false,
             "article": "art. 50 alin. (2)"
           },
           {
-            "text": "Impact bugetar nedocumentat: doar 8.000 lei amenzi la Iași, fără date despre încasări",
+            "text": "Impactul bugetar e nedocumentat; există doar exemplul de 8.000 lei din Iași",
             "major": false,
             "article": null
           }
         ],
         "good": [
           {
-            "text": "Se aplică toată OG 2/2001: plată redusă, căi de atac, prescripție",
+            "text": "Plata redusă, căile de atac și prescripția din OG 2/2001 se aplică",
             "major": true,
             "article": "art. 50 alin. (2)"
           },
           {
-            "text": "A dispărut trimiterea eronată la art. 4 alin. (1) din OG 2/2001",
+            "text": "Nu modifică faptele sancționate, cuantumul amenzilor sau procedura de autorizare",
             "major": false,
             "article": "art. 50 alin. (2)"
           },
           {
-            "text": "Nu schimbă faptele sancționate, cuantumul amenzilor sau procedura de autorizare",
+            "text": "Dispare trimiterea eronată la art. 4 alin. (1) din OG 2/2001",
             "major": false,
             "article": "art. 50 alin. (2)"
           },
           {
-            "text": "Plata redusă poate crește încasările efective și reduce contestațiile în instanță",
+            "text": "Poate crește încasarea efectivă și reduce contestațiile în instanță",
             "major": false,
             "article": null
           }
@@ -136,7 +130,7 @@
       },
       "model": "claude",
       "schema": 3,
-      "updatedAt": "2026-10-30T08:17:34.809Z"
+      "updatedAt": "2026-11-10T09:34:39.661Z"
     }
   ]
 }

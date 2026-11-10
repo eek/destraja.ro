@@ -1,0 +1,88 @@
+{
+  "slug": "plx-582-2023",
+  "billId": "PL-x 582/2023",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-10T10:49:42.335Z",
+  "inputHash": "913ae0374133",
+  "riskScore": 3.7,
+  "summary": "O măsură utilă pentru finalizarea investițiilor locale începute, dar vulnerabilă prin lipsa unui termen maxim și posibilitatea de prelungire la nesfârșit.",
+  "good": [
+    {
+      "text": "Permite primăriilor și consiliilor județene să păstreze bunul și să termine o investiție deja începută după expirarea termenului, evitând abandonarea șantierelor și risipa banilor publici.",
+      "article": "art. unic - art. 292 alin. (12)",
+      "quote": "în situația în care obiectivul de investiții a fost început dar nu a fost realizat până la împlinirea termenului stabilit inițial, sau prelungit potrivit lit.b), iar autoritățile administrației publice locale își asumă continuarea lucrărilor",
+      "weight": 3
+    },
+    {
+      "text": "Obligă autoritățile locale să justifice de ce a întârziat proiectul, din ce bani îl vor termina și de ce investiția rămâne utilă comunității.",
+      "article": "art. unic - art. 292 alin. (14)",
+      "quote": "sunt prezentate, în mod obligatoriu, motivele obiective care au condus la nerealizarea investiției până la împlinirea termenului, sursa/sursele de finanțare avute în vedere pentru finalizarea investiției, precum și justificarea temeinică",
+      "weight": 2
+    },
+    {
+      "text": "Păstrarea bunului la nivel local cere aprobarea Guvernului și motivarea clară a faptului că statul nu mai are nevoie de acel bun.",
+      "article": "art. unic - art. 292 alin. (15) și (16)",
+      "quote": "În instrumentul de prezentare și motivare al hotărârii prevăzute la alin.(15) sunt prezentate, în mod obligatoriu, motivele obiective pentru care autoritatea care a avut în administrare bunul nu este interesată",
+      "weight": 2
+    },
+    {
+      "text": "Obligă primăriile să trimită Guvernului dovada recepției la final sau să anunțe dacă nu mai pot face lucrarea, caz în care bunul revine la stat.",
+      "article": "art. unic - art. 292 alin. (17) lit. a)-b) și alin. (18)",
+      "quote": "să transmită Guvernului procesul-verbal sau orice alt document care atestă recepția investiției, cel târziu la data expirării termenului stabilit prin hotărârea prevăzută la alin.(15);",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Permite reînnoirea la nesfârșit a cererii de păstrare a bunului dacă lucrarea tot nu e gata la noul termen, golind de conținut condiția realizării investiției.",
+      "article": "art. unic - art. 292 alin. (17) lit. c) și alin. (18)",
+      "quote": "în situația prevăzută la alin.(17) lit. c) se aplică în mod corespunzător dispozițiile alin.(13) - (16).",
+      "weight": 3
+    },
+    {
+      "text": "Nu impune o durată maximă pentru noul termen de finalizare și nici nu definește ce înseamnă „investiție începută”, permițând blocarea bunului cu lucrări minime.",
+      "article": "art. unic - art. 292 alin. (12) și (13)",
+      "quote": "în cuprinsul căreia se menționează decizia de a continua lucrările și de a finaliza investiția de interes public local, precum și perioada de timp necesară pentru finalizarea investiției.",
+      "weight": 3
+    },
+    {
+      "text": "Conține o eroare de redactare: pune cererea de păstrare a bunului în sarcina autorităților centrale (art. 287 lit. a), deși în restul textului cererea vine de la autoritățile locale.",
+      "article": "art. unic - art. 292 alin. (12)",
+      "quote": "iar autoritățile administrației publice locale își asumă continuarea lucrărilor și finalizarea investiției de interes public local, autoritățile prevăzute la art.287 lit.a) solicită rămânerea bunului în domeniul public al unității administrativ-teritoriale.",
+      "weight": 2
+    },
+    {
+      "text": "Nu fixează termene pentru depunerea cererii după expirarea termenului inițial și nici pentru adoptarea hotărârii de Guvern, lăsând statutul bunului incert.",
+      "article": "art. unic - art. 292 alin. (13) și (15)",
+      "quote": "Solicitarea prevăzută la alin.(12) se aprobă prin hotărâre a Guvernului, inițiată de autoritățile prevăzute la art.287 lit.a) care aveau în administrare bunul respectiv la momentul trecerii acestuia",
+      "weight": 2
+    },
+    {
+      "text": "Cere doar indicarea „surselor de finanțare avute în vedere”, fără dovada asigurării banilor și fără un grafic de execuție care să prevină noi întârzieri.",
+      "article": "art. unic - art. 292 alin. (14)",
+      "quote": "motivele obiective care au condus la nerealizarea investiției până la împlinirea termenului, sursa/sursele de finanțare avute în vedere pentru finalizarea investiției, precum și justificarea temeinică a menținerii uzului",
+      "weight": 1
+    },
+    {
+      "text": "Trimite incomplet la „lit. b)”, fără a preciza că este vorba de alin. (7) lit. b), deși alin. (12) nu are litere.",
+      "article": "art. unic - art. 292 alin. (12)",
+      "quote": "Prin excepție de la prevederile alin.(7), în situația în care obiectivul de investiții a fost început dar nu a fost realizat până la împlinirea termenului stabilit inițial, sau prelungit potrivit lit.b),",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Eliminarea posibilității de prelungire repetată de la alin. (17) lit. c), plafonarea duratei de finalizare la alin. (13) și corectarea trimiterii la autoritățile locale în alin. (12).",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

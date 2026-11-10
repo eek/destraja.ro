@@ -1,0 +1,35 @@
+# PARLAMENTUL ROMÂNIEI SENAT
+
+LEGE
+
+pentru completarea art.292 din Ordonanța de urgență a Guvernului nr.57/2019 privind Codul administrativ
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- La articolul 292 din Ordonanța de urgență a Guvernului nr.57/2019 privind Codul administrativ, publicată în Monitorul Oficial al României, Partea I, nr.555 din 5 iulie 2019, cu modificările și completările ulterioare, după alineatul (11) se introduc șapte noi alineate, alin.(12) - (18), cu următorul cuprins:
+
+„(12) Prin excepție de la prevederile alin.(7), în situația în care obiectivul de investiții a fost început dar nu a fost realizat până la împlinirea termenului stabilit inițial, sau prelungit potrivit lit.b), iar autoritățile administrației publice locale își asumă continuarea lucrărilor și finalizarea investiției de interes public local, autoritățile prevăzute la art.287 lit.a) solicită rămânerea bunului în domeniul public al unității administrativ-teritoriale.
+
+(13) Solicitarea prevăzută la alin.(12) se transmite Guvernului, însoțită de hotărârea consiliului județean, respectiv a Consiliului General al Municipiului București sau a consiliului local al comunei, al orașului sau al municipiului, după caz, în cuprinsul căreia se menționează decizia de a continua lucrările și de a finaliza investiția de interes public local, precum și perioada de timp necesară pentru finalizarea investiției.
+
+(14) În instrumentul de prezentare și motivare al hotărârii prevăzute la alin.(13) sunt prezentate, în mod obligatoriu, motivele obiective care au condus la nerealizarea investiției până la împlinirea termenului, sursa/sursele de finanțare avute în vedere pentru finalizarea investiției, precum și justificarea temeinică a menținerii uzului sau interesului public județean sau local.
+
+(15) Solicitarea prevăzută la alin.(12) se aprobă prin hotărâre a Guvernului, inițiată de autoritățile prevăzute la art.287 lit.a) care aveau în administrare bunul respectiv la momentul trecerii acestuia din domeniul public al statului în domeniul public al unității administrativ-teritoriale, denumită în continuare autoritatea care a avut în administrare bunul.
+
+(16) În instrumentul de prezentare și motivare al hotărârii prevăzute la alin.(15) sunt prezentate, în mod obligatoriu, motivele obiective pentru care autoritatea care a avut în administrare bunul nu este interesată de revenirea bunului în proprietatea publică a statului.
+
+(17) După adoptarea hotărârii prevăzute la alin.(15), autoritățile administrației publice locale au următoarele obligații:
+
+a) să transmită Guvernului procesul-verbal sau orice alt document care atestă recepția investiției, cel târziu la data expirării termenului stabilit prin hotărârea prevăzută la alin.(15);
+
+b) să notifice autorităților prevăzute la art.287 lit.a) nerealizarea investiției, în situația în care se află în imposibilitatea de a realiza investiția;
+
+c) să solicite rămânerea bunului în domeniul public al unității administrativ-teritoriale, în situația în care obiectivul de investiții a fost început dar nu a fost realizat până la împlinirea termenului stabilit prin hotărârea prevăzută la alin.(15), dar acestea își asumă continuarea lucrărilor și finalizarea investiției de interes public local.
+
+(18) În situația prevăzută la alin.(17) lit.b), se aplică în mod corespunzător dispozițiile alin.(9) - (11), iar în situația prevăzută la alin.(17) lit. c) se aplică în mod corespunzător dispozițiile alin.(13) - (16).”
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 9 octombrie 2023, cu respectarea prevederilor articolului 76 alineatul (1) din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI
+
+SORIN-MIHAI CÎMPEANU

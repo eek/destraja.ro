@@ -1,0 +1,76 @@
+{
+  "slug": "plx-406-2024",
+  "billId": "PL-x 406/2024",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-10T10:48:37.223Z",
+  "inputHash": "d446bd5aa8e4",
+  "riskScore": 5,
+  "summary": "Măsuri utile pentru salariații cu venitul minim și combaterea evaziunii la accize, dar viciate de incriminări penale neclare, aplicate în 13 zile, și de o cheltuială bugetară neplafonată fără legătură cu legea.",
+  "good": [
+    {
+      "text": "Crește de la 200 la 300 lei/lună suma scutită de impozit și contribuții pentru angajații cu salariul minim brut de 3.700 lei, mărind venitul net al salariaților cu venituri mici.",
+      "article": "Art. II din OUG",
+      "quote": "Începând cu veniturile din salarii și asimilate salariilor aferente lunii iulie 2024, suma de 200 lei/lună reprezentând venituri din salarii și asimilate salariilor pentru care nu se datorează impozit pe venit",
+      "weight": 3
+    },
+    {
+      "text": "Prevenirea evaziunii la accize prin condiționarea mutării produselor accizabile în alte depozite sau a livrării tutunului prelucrat de plata anticipată a accizelor la bugetul de stat.",
+      "article": "Art. I pct. 1 și 2 din OUG (art. 345 alin. (3^1)-(3^4), (4) și (5) Cod fiscal)",
+      "quote": "numai în momentul în care antrepozitarul autorizat sau destinatarul înregistrat face dovada plații la bugetul de stat a valorii accizelor aferente cantității ce urmează a fi deplasată fără a avea loc livrarea produselor către cumpărător.",
+      "weight": 2
+    },
+    {
+      "text": "Abrogă obligația rigidă și infracțiunea suprapusă de a depozita produsele accizabile recepționate exclusiv în spațiile declarate, permițând mutarea lor după plata accizelor.",
+      "article": "Art. I pct. 3 și 6 din OUG (art. 375 alin. (1) lit. f) și art. 452 alin. (1) lit",
+      "quote": "3. La articolul 375 alineatul (1), litera f) se abrogă.",
+      "weight": 2
+    },
+    {
+      "text": "Simplifică birocrația prin scutirea destinatarilor certificați de la înregistrarea separată pentru distribuție angro în locurile deja declarate pentru recepția produselor accizabile.",
+      "article": "Art. I pct. 4 din OUG (art. 435 alin. (5) Cod fiscal)",
+      "quote": "Nu intră sub incidența alin. (3) antrepozitarii autorizați pentru locurile autorizate ca antrepozite fiscale, destinatarii înregistrați și destinatarii certificați, pentru locurile declarate pentru recepția produselor accizabile.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Extinde pedeapsa cu închisoarea de la 2 la 7 ani la toate regulile din art. 345 alin. (3)-(3^3), fără a separa clar neplata accizei de simple erori privind documentele sau regularizarea.",
+      "article": "Art. I pct. 5 și 7 din OUG (art. 452 alin. (1) lit. c) și alin. (2) lit. c) Cod ",
+      "quote": "»c) cu închisoare de la 2 ani la 7 ani, cele prevăzute la lit. a), c), d), h), h'), 1), m) și n).\"",
+      "weight": 3
+    },
+    {
+      "text": "Anulează regula de predictibilitate fiscală de 6 luni și impune intrarea în vigoare a noilor obligații și infracțiuni privind accizele în doar 13 zile de la publicare.",
+      "article": "Art. III din OUG",
+      "quote": "Art. III1. - Prin derogare de la prevederile art. 4 alin. (1) din Legea nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare, prevederile art. I intră în vigoare la data de 20 iunie 2024.",
+      "weight": 3
+    },
+    {
+      "text": "Introduce o măsură fără legătură cu Codul fiscal, permițând Ministerului Digitalizării să închirieze și să amenajeze multianual un sediu din bugetul de stat, fără niciun plafon de cost.",
+      "article": "Art. IV din OUG",
+      "quote": "Ministerul Cercetării, Inovării și Digitalizării încheie un contract de închiriere multianual, iar costurile aferente închirierii, precum și costurile aferente amenajării, serviciilor și echipamentelor de securitate, al întreținerii si functionar spațiului sunt asigurate din bugetul de stat",
+      "weight": 2
+    },
+    {
+      "text": "Obligă firmele să achite anticipat acciza la simpla mutare a mărfii între depozite fără vânzare, blocând lichiditățile, iar noțiunea de „alte locuri de depozitare” nu este definită clar.",
+      "article": "Art. I pct. 1 din OUG (art. 345 alin. (3^1) și (3^3) Cod fiscal)",
+      "quote": "Deplasarea produselor prevăzute la art. 354 alin. (1) din locația în care acestea au fost recepționate de către destinatarul înregistrat către alte locuri de depozitare se efectuează numai în momentul în care destinatarul înregistrat face dovada plății",
+      "weight": 2
+    }
+  ],
+  "fix": {
+    "text": "Limitarea infracțiunii strict la deplasarea sau livrarea fără plata accizei, acordarea unui termen rezonabil de conformare și eliminarea articolului neplafonat privind închirierea sediului.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

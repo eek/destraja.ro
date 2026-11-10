@@ -12,4 +12,4 @@ Către:
 
 Inițiator:
 
-Deputat Ștefan Boudar
+Deputat Ștefan Bouda

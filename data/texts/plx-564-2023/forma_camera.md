@@ -1,0 +1,23 @@
+## PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR
+
+LEGE
+
+privind aprobarea Ordonanței de urgență a Guvernului nr. 71/2023 pentru instituirea unei prelungiri a termenelor prevăzute la art. 262 alin. (3²) din Legea nr. 85/2014 privind procedurile de prevenire a insolvenței și de insolvență
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Art. I. – Se aprobă Ordonanța de urgență a Guvernului nr. 71 din 31 august 2023 pentru instituirea unei prelungiri a termenelor prevăzute la art. 262 alin. (3²) din Legea nr. 85/2014 privind procedurile de prevenire a insolvenței și de insolvență, publicată în Monitorul Oficial al României, Partea I, nr. 791 din 1 septembrie 2023.
+
+Art. II. – (1) În cazul operatorilor economici care funcționează în ramurile strategice ale economiei naționale, aflați, la data intrării în vigoare a prezentei legi, într-o procedură de concordat preventiv, durata de derulare a concordatului/planului de restructurare poate fi prelungită, la cererea debitorului, pentru motive justificate, cu cel mult 5 ani.
+
+(2) Administratorul concordatar poate solicita judecătorului sindic, în al cincilea an de derulare a concordatului preventiv/planului de restructurare, omologarea prelungirii duratei de derulare a concordatului preventiv/planului de restructurare, potrivit alin. (1), și a modificării măsurilor corespunzătoare acestei prelungiri.
+
+(3) Cererea prevăzută la alin. (2) va fi însoțită de hotărârea de aprobare de către creditorii concordatari/afectați a prelungirii duratei de derulare a concordatului/planului de restructurare și a modificării măsurilor corespunzătoare acestei prelungiri, adoptată în condițiile de întocmire și votare a concordatului/planului de restructurare, cu creanțele rămase în sold la data votului.
+
+(4) Creditorii concordatari/afectați care au votat împotriva prelungirii termenului concordatului preventiv/planului de restructurare, precum și creditorii neconcordatari își pot recupera creanța prin orice alte modalități prevăzute de lege, inclusiv vor putea formula cereri de deschidere a procedurii insolvenței față de debitor.
+
+Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 26 martie 2024, cu respectarea prevederilor art. 76 alin. (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+## ALFRED - ROBERT SIMONIS

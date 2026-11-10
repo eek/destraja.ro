@@ -1,7 +1,12 @@
 {
   "slug": "plx-240-2026",
   "billId": "PL-x 240/2026",
-  "updatedAt": "2026-10-30T09:12:48.613Z",
+  "updatedAt": "2026-11-10T09:36:53.903Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -32,6 +37,21 @@
         "claude": 2,
         "codex": 3
       }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L338FS.PDF",
+      "source": "senat.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "România ratifică un acord de cooperare militară cu Egiptul",
+      "summaryTlDr": "Este o lege tehnică de ratificare, cu un singur articol, fără taxe, sancțiuni sau obligații pentru cetățeni ori firme. Riscul este scăzut. Singurele rezerve țin de transparența costurilor și de controlul cooperării în industria de apărare.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
     }
   ],
   "changes": [
@@ -39,67 +59,83 @@
       "from": "initiator",
       "to": "camera",
       "direction": "la_fel",
-      "headline": "Ratificarea acordului militar cu Egiptul a trecut tacit de Cameră, cu textul neschimbat",
-      "summary": "Textul de lege a rămas identic: doar se ratifică memorandumul militar cu Egiptul. Camera Deputaților nu l-a votat în termen, așa că a fost adoptat tacit, iar decizia finală îi revine Senatului.",
+      "headline": "Ratificarea acordului militar cu Egiptul a trecut tacit de Cameră, fără nicio modificare de fond",
+      "summary": "Textul ratificării a rămas identic. Acum se menționează doar că, Camera Deputaților nu a votat în termen, iar proiectul se consideră adoptat în forma inițială. Pentru cetățeni și firme nu se schimbă nimic.",
       "changes": [
         {
-          "title": "Adoptat tacit de Camera Deputaților, fără dezbatere",
-          "text": "Proiectul a fost considerat adoptat de Camera Deputaților în forma inițială, pentru că termenul a expirat fără vot (art. 75 alin. (2) din Constituție). Articolul unic nu s-a schimbat.",
+          "title": "Adoptat tacit de Cameră, fără vot",
+          "text": "S-a adăugat mențiunea că proiectul se consideră adoptat de Camera Deputaților în forma inițială, fiindcă termenul de vot a expirat. Este o schimbare de procedură, nu de conținut.",
           "effect": "neutru",
           "major": false,
-          "article": "art. unic",
+          "article": null,
           "before": null,
           "after": "Acest proiect de lege se consideră adoptat de Camera Deputaților în forma inițială, în condițiile art. 75 alin. (2) teza a III-a din Constituția României, republicată.",
           "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Formula de adoptare adaptată etapei parlamentare",
+          "text": "Formula finală a legii a fost înlocuită cu formula pentru un proiect adoptat de o singură Cameră. Este o modificare de tehnică legislativă.",
+          "effect": "neutru",
+          "major": false,
+          "article": null,
+          "before": "Parlamentul României adoptă prezenta lege.",
+          "after": "Camera Deputaților adoptă prezentul proiect de lege.",
+          "beforeAbsent": false,
           "afterAbsent": false
         }
       ],
       "remaining": {
         "problems": [
           {
-            "text": "Conținutul clauzei de jurisdicție pentru militarii în vizită nu este explicat",
+            "text": "Clauza de jurisdicție pentru militarii în vizită nu este explicată public",
             "major": true,
-            "article": "art. unic"
+            "article": null
           },
           {
-            "text": "Impact bugetar declarat zero, deși vizitele și comitetul mixt costă bani MApN",
+            "text": "Impact bugetar declarat zero, deși vizitele și comitetul mixt generează cheltuieli MApN",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Informațiile clasificate sunt protejate doar de principiu, acordul separat încă lipsește",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Denunțarea acordului din 1976 este implicită, fără dispoziție expresă în lege",
             "major": false,
             "article": "art. unic"
           },
           {
-            "text": "Cooperarea în industria de apărare nu are controale specifice descrise",
+            "text": "Cooperarea în industria de apărare nu are mecanisme proprii de control descrise",
             "major": false,
-            "article": "art. unic"
+            "article": null
           },
           {
-            "text": "Informațiile clasificate sunt protejate doar de principiu, acordul separat lipsește",
-            "major": false,
-            "article": "art. unic"
-          },
-          {
-            "text": "Acordul din 1976 este denunțat implicit, nu printr-o dispoziție expresă",
-            "major": false,
-            "article": "art. unic"
-          },
-          {
-            "text": "Camera Deputaților nu a dezbătut proiectul, adoptarea fiind tacită",
+            "text": "Nicio dezbatere de fond la Camera Deputaților, adoptare tacită",
             "major": false,
             "article": "art. unic"
           }
         ],
         "good": [
           {
-            "text": "Nu creează taxe, sancțiuni, licențe sau obligații pentru cetățeni ori firme",
+            "text": "Nu creează taxe, sancțiuni, licențe sau obligații pentru cetățeni sau IMM-uri",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Înlocuiește acordul învechit din 1976 cu un cadru de cooperare actualizat",
             "major": false,
             "article": "art. unic"
           },
           {
-            "text": "Înlocuiește acordul învechit din 1976, simplificând cadrul legal",
+            "text": "Exporturile de armament rămân supuse Legii 232/2016 și Poziției comune PESC",
             "major": false,
-            "article": "art. unic"
+            "article": null
           },
           {
-            "text": "Exporturile de armament rămân sub controlul Legii 232/2016 și normelor UE",
+            "text": "Ratificarea are temei legal clar în Legea 590/2003 privind tratatele",
             "major": false,
             "article": "art. unic"
           }
@@ -113,7 +149,75 @@
       },
       "model": "claude",
       "schema": 3,
-      "updatedAt": "2026-10-30T08:17:10.049Z"
+      "updatedAt": "2026-11-10T09:36:42.481Z"
+    },
+    {
+      "from": "camera",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: legea doar ratifică memorandumul militar cu Egiptul",
+      "summary": "Textul votat de Senat este identic ca fond cu cel adoptat tacit de Cameră. Diferențele sunt doar de redactare („între” a devenit „dintre”) și formula de adoptare, deci nu apar riscuri noi pentru cetățeni sau firme.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Protecția informațiilor clasificate e doar de principiu, acordul separat lipsește încă",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Impactul financiar e trecut „Nu este cazul”, deși vizitele și reuniunile costă",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Textul integral al Memorandumului lipsește, clauzele de jurisdicție nu pot fi verificate",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Denunțarea Acordului din 1976 e implicită, nu prevăzută expres în lege",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "La Cameră adoptare tacită, fără dezbatere de fond",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Legea doar ratifică, fără taxe, sancțiuni sau obligații pentru cetățeni ori firme",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Înlocuiește Acordul din 1976, asanare legislativă utilă",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Costurile sunt acoperite din bugetul existent al MApN",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Senatul, Camera decizională, a dezbătut proiectul pe fond",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-11-10T09:36:53.903Z"
     }
   ]
 }

@@ -1,0 +1,85 @@
+{
+  "slug": "plx-461-2024",
+  "billId": "PL-x 461/2024",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-10T10:49:12.768Z",
+  "inputHash": "d16ee7197b90",
+  "riskScore": 6.3,
+  "summary": "O ordonanță tehnică privind funcțiile din Inspectoratul de Stat în Construcții și acțiunile din energie, deturnată în Parlament printr-un amendament care oferă titularilor de licențe și permise miniere drept de preempțiune la cumpărarea ter",
+  "good": [
+    {
+      "text": "Impune ca orice transfer de acțiuni ale statului de la Ministerul Energiei către alte instituții publice să se facă doar motivat și prin hotărâre de Guvern, asigurând controlul decizional.",
+      "article": "art. unic (art. II din OUG nr. 73/2024)",
+      "quote": "orice transfer de acțiuni deținute de statul român, din administrarea Ministerului Energiei în administrarea unei instituții publice implicate, se realizează numai la propunerea justificată a Ministerului Energiei",
+      "weight": 2
+    },
+    {
+      "text": "Asigură continuitatea conducerii inspectoratelor în construcții după desființarea postului de șef birou și impune studii de masterat pentru ocuparea funcțiilor de inspector-șef.",
+      "article": "art. unic, art. I pct. 2 (Anexa nr. 5¹ nr. crt. 6)",
+      "quote": "Clasa I, studii universitare de licență absolvite cu diplomă de licență sau echivalentă și studii universitare de master absolvite cu diplomă în domeniul administrației publice, managementului",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Acordă firmelor cu licențe sau permise miniere drept de preempțiune la cumpărarea terenurilor statului sau primăriilor la preț evaluat, ocolind concurența la licitație și tema ordonanței.",
+      "article": "art. unic, art. I pct. 1 (art. 364 alin. (1))",
+      "quote": "în cazul vânzării unui teren aflat în proprietatea privată a statului sau a unității administrativ-teritoriale pe care sunt ridicate construcții sau se desfășoară activități miniere pe bază de licență ori permis de exploatare",
+      "weight": 3
+    },
+    {
+      "text": "Pune pe picior de egalitate permisul temporar de exploatare (emis pe cel mult un an, frecvent pentru balastiere) cu licențele pe termen lung, oferind o scurtătură la cumpărarea terenului public.",
+      "article": "art. unic, art. I pct. 1 (art. 364 alin. (1))",
+      "quote": "constructorii de bună-credință ai acestora și titularii licențelor/ permiselor de exploatare beneficiază de un drept de preempțiune la cumpărarea terenului aferent construcțiilor.",
+      "weight": 3
+    },
+    {
+      "text": "Deși adaugă exploatările miniere, textul limitează preempțiunea tot la „terenul aferent construcțiilor”, lăsând neclară suprafața ce poate fi cumpărată când pe teren se fac doar excavări.",
+      "article": "art. unic, art. I pct. 1 (art. 364 alin. (1))",
+      "quote": "titularii licențelor/ permiselor de exploatare beneficiază de un drept de preempțiune la cumpărarea terenului aferent construcțiilor. Prețul de vânzare se stabilește pe baza unui raport de evaluare",
+      "weight": 3
+    },
+    {
+      "text": "Deși vizează și terenurile din domeniul privat al statului, legea prevede aprobarea evaluării și notificarea doar de către consiliul local sau județean, fără a indica autoritatea centrală.",
+      "article": "art. unic, art. I pct. 1 (art. 364 alin. (1) și (2))",
+      "quote": "Prețul de vânzare se stabilește pe baza unui raport de evaluare, aprobat de consiliul local sau județean, după caz.",
+      "weight": 2
+    },
+    {
+      "text": "Nu stabilește cine are prioritate la cumpărare atunci când proprietarul construcțiilor și titularul licenței sau permisului minier de pe același teren sunt persoane diferite.",
+      "article": "art. unic, art. I pct. 1 (art. 364 alin. (2))",
+      "quote": "Proprietarii construcțiilor și titularii licențelor/ permiselor de exploatare prevăzute la alin. (1) sunt notificați în termen de 15 zile asupra hotărârii consiliului local sau județean",
+      "weight": 2
+    },
+    {
+      "text": "În loc să comaseze structurile după desființarea postului de șef birou, legea ridică în grad toți cei 41 de inspectori-șefi județeni la „șef serviciu” și pe cel din București la „director”.",
+      "article": "art. unic, art. I pct. 2 (Anexa nr. 5¹ nr. crt. 6)",
+      "quote": "Conform prevederilor art. 468 alin. (2) lit. b) din prezentul cod | Inspector-șef al municipiului București\nȘef serviciu | Conducere | Conform prevederilor art. 468 alin. (2) lit. a) din prezentul cod | Inspector-șef județean",
+      "weight": 2
+    },
+    {
+      "text": "Cere bună-credință doar constructorilor, nu și titularilor minieri, nu corelează termenii „constructori” și „proprietari” și nu precizează de când curg cele 15 zile pentru notificare.",
+      "article": "art. unic, art. I pct. 1 (art. 364 alin. (1) și (2))",
+      "quote": "și își pot exprima opțiunea de cumpărare în termen de 15 zile de la primirea notificării.",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Eliminarea art. I pct. 1 privind modificarea art. 364 alin. (1) și (2) din Codul administrativ, introdus ca amendament parlamentar pentru a acorda drept de preempțiune titularilor de licențe și permise miniere.",
+    "removes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2.5
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

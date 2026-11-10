@@ -2,7 +2,7 @@
 
 ## CÂTRE
 
-## BIROUL PERMANENT AL SENATULUI
+BIROUL PERMANENT AL SENATULUI
 
 Vă înaintăm alăturat Propunerea legislativă privind instituirea zilei de 26 septembrie ca Ziua Munților Carpați, în vederea dezbaterii și adoptării.
 

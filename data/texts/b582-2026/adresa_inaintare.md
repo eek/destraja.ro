@@ -1,3 +1,5 @@
+Biroul permanent al Senatului
+
 Către: Biroul Permanent al Senatului
 
 În temeiul prevederilor art. 74 alin. (4) din Constituția României, republicată, și ale art. 92 din Regulamentul Senatului, republicat, vă înaintăm spre dezbatere și adoptare propunerea legislativă pentru modificarea art. 6 din Legea nr. 202/1998 privind organizarea Monitorului Oficial al României.
@@ -6,8 +8,8 @@ Către: Biroul Permanent al Senatului
 
 Ana-Cynthia-Ioana PĂUN Senator USR
 
-Sorin-Gheorghe ȘIPOȘ, Senator USR
+Sorin-Gheorghe ȘIPOȘ
 
-Mircea ABRUDEAN
+Senator USR
 
-Senator PNK
+Mircea ABRUDEAN Senator PNE

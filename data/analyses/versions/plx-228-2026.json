@@ -1,7 +1,12 @@
 {
   "slug": "plx-228-2026",
   "billId": "PL-x 228/2026",
-  "updatedAt": "2026-10-29T12:54:52.983Z",
+  "updatedAt": "2026-11-10T09:31:49.068Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -31,6 +36,21 @@
         "agy": 3,
         "claude": 3,
         "codex": 5
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl228_cd228_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Procese penale mai rapide și mai multă protecție pentru victime, inclusiv pentru copiii abuzați sexual",
+      "summaryTlDr": "Este o lege tehnică, în mare parte pozitivă, care transpune mai fidel standardele UE privind victimele și reduce blocajele procedurale. Are însă câteva puncte sensibile: reprezentarea victimelor de un avocat din oficiu, cu termen de refuz de doar 3 zile și prezumție de cunoaștere a actelor, plus eliminarea plângerii împotriva ordonanței procurorului privind competența.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
       }
     }
   ],
@@ -224,6 +244,225 @@
       "model": "claude",
       "schema": 3,
       "updatedAt": "2026-10-29T12:54:52.983Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Avocat obligatoriu pentru victimele unor infracțiuni grave; nu mai poți contesta competența procurorului",
+      "summary": "Acum victimele violenței și ale infracțiunilor sexuale au avocat obligatoriu și sunt audiate de o persoană de același sex. În schimb, nu se mai poate face plângere împotriva ordonanței prin care procurorul se declară competent, iar victima nu mai poate întreba suspectul.",
+      "changes": [
+        {
+          "title": "Avocat obligatoriu pentru victimele unor infracțiuni grave",
+          "text": "Art. 93 alin. (4), nou acum: după începerea urmăririi penale, victimele omorului, vătămării, traficului și infracțiunilor sexuale (inclusiv art. 218 și 219) au obligatoriu avocat.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 93 alin. (4)",
+          "before": null,
+          "after": "când persoana vătămată sau partea civilă este victima uneia dintre infracțiunile prevăzute de art. 197, 199, 209 – 216¹, 218, 218¹, 219, 219¹, 219², 221, 222 și 223 din Codul penal.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Nu mai poți contesta competența asumată de procuror",
+          "text": "Art. 58 alin. (4), nou acum: împotriva ordonanței prin care procurorul constată că este competent nu se mai poate face plângere. Verificarea rămâne doar în camera preliminară.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 58 alin. (4)",
+          "before": null,
+          "after": "(4) Împotriva ordonanței prevăzute la alin. (2) nu poate fi formulată plângere.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Victimele sunt audiate de o persoană de același sex",
+          "text": "Art. 111 alin. (7), adăugat acum: victimele infracțiunilor violente, sexuale și ale traficului sunt audiate de o persoană de același sex. Altfel, audierea se face doar cu acordul victimei.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 111 alin. (7)",
+          "before": null,
+          "after": "precum și în alte cazuri în care, din cauza împrejurărilor comiterii faptei, acest lucru se apreciază ca fiind necesar, se efectuează numai de către o persoană de același sex cu persoana vătămată.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Victima nu mai poate adresa întrebări suspectului",
+          "text": "Art. 111 alin. (2) lit. c): inițial victima putea pune întrebări suspectului și inculpatului. Acum poate pune întrebări doar inculpatului, deci dreptul se restrânge în faza de început a anchetei.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 111 alin. (2) lit. c)",
+          "before": "c) dreptul de a propune administrarea de probe, dreptul de a adresa întrebări suspectului, inculpatului, martorilor și experților",
+          "after": "c) dreptul de a propune administrarea de probe, dreptul de a adresa întrebări inculpatului, martorilor și experților",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Altă poliție anunță victima la evadare",
+          "text": "Art. 81¹ alin. (2): victima nu mai e anunțată de poliția cea mai apropiată, ci de cea din circumscripția ei, „de urgență” în loc de „de îndată”. Măsura educativă trece la alin. (4).",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 81¹ alin. (2)",
+          "before": "organul de poliție cel mai apropiat de locuința victimei, care, de îndată, informează victima infracțiunii și membrii de familie ai acesteia care ar putea fi în pericol.",
+          "after": "organul de poliție în a cărui circumscripție locuiește victima, care, de urgență, informează victima infracțiunii și membrii de familie ai acesteia care ar putea fi în pericol.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Avocat din oficiu impus grupurilor de victime; doar 3 zile pentru refuz",
+            "major": true,
+            "article": "art. 80 alin. (1)"
+          },
+          {
+            "text": "Actele și rechizitoriul comunicate avocatului sunt prezumate cunoscute de toate victimele",
+            "major": true,
+            "article": "art. 80 alin. (1¹)"
+          },
+          {
+            "text": "Ordonanța procurorului privind propria competență nu mai poate fi atacată cu plângere",
+            "major": true,
+            "article": "art. 58 alin. (4)"
+          },
+          {
+            "text": "Victima nu mai are dreptul să pună întrebări suspectului",
+            "major": true,
+            "article": "art. 111 alin. (2) lit. c)"
+          },
+          {
+            "text": "Nouă cerere de revocare a arestului doar pe temeiuri noi",
+            "major": true,
+            "article": "art. 242 alin. (3¹)"
+          },
+          {
+            "text": "Competența depinde de încadrare: viol sau agresiune pe minori rămân la judecătorie",
+            "major": false,
+            "article": "art. 36 alin. (1) lit. a)"
+          },
+          {
+            "text": "Lipsesc dispoziții tranzitorii pentru dosarele aflate deja la judecătorii",
+            "major": false,
+            "article": "art. 36 alin. (1) lit. a)"
+          },
+          {
+            "text": "După primul termen nu mai pot fi ridicate excepții, cu excepția nulității absolute",
+            "major": false,
+            "article": "art. 344 alin. (5)"
+          },
+          {
+            "text": "Termene în continuare fără citare; părțile trebuie să urmărească singure dosarul",
+            "major": false,
+            "article": "art. 343"
+          },
+          {
+            "text": "Citare prin orice mijloc electronic „recunoscut”, cu risc de comunicare nesigură",
+            "major": false,
+            "article": "art. 257 alin. (6¹)"
+          },
+          {
+            "text": "Procurorul poate amâna până la 60 de zile cererile de probe",
+            "major": false,
+            "article": "art. 306 alin. (4¹)"
+          },
+          {
+            "text": "Încheierile din camera preliminară au autoritate de lucru judecat și după restituire",
+            "major": false,
+            "article": "art. 346¹"
+          }
+        ],
+        "good": [
+          {
+            "text": "Victima și familia sunt anunțate cu 5 zile înainte de eliberarea agresorului",
+            "major": true,
+            "article": "art. 81¹"
+          },
+          {
+            "text": "Măsuri de protecție și după hotărârea definitivă sau după clasare",
+            "major": true,
+            "article": "art. 128¹"
+          },
+          {
+            "text": "Avocat obligatoriu pentru victimele infracțiunilor violente și sexuale",
+            "major": true,
+            "article": "art. 93 alin. (4)"
+          },
+          {
+            "text": "Audiere de către o persoană de același sex și înregistrare video obligatorie pentru minori",
+            "major": true,
+            "article": "art. 111 alin. (7), (8)"
+          },
+          {
+            "text": "Martorii care sunt victime vulnerabile, protejați și înregistrați audio-video",
+            "major": true,
+            "article": "art. 130"
+          },
+          {
+            "text": "Adresa victimelor vulnerabile poate rămâne confidențială față de inculpat",
+            "major": true,
+            "article": "art. 289¹, art. 328 alin. (2)"
+          },
+          {
+            "text": "Citare protejată prin poliție sau instituții pentru victimele din adăposturi",
+            "major": true,
+            "article": "art. 260 alin. (5¹), art. 257 alin. (9)"
+          },
+          {
+            "text": "Plângere online pentru infracțiuni violente și sexuale, cu dovadă de înregistrare",
+            "major": true,
+            "article": "art. 289 alin. (5¹), (12)"
+          },
+          {
+            "text": "Victimele sunt informate despre asistență juridică gratuită și compensații",
+            "major": true,
+            "article": "art. 81 lit. h¹), art. 111 alin. (2²)"
+          },
+          {
+            "text": "Suspectul are dreptul să participe la desigilarea datelor informatice",
+            "major": true,
+            "article": "art. 168 alin. (11)"
+          },
+          {
+            "text": "Abuzurile sexuale asupra minorilor trec la tribunal, cu instanțe mai specializate",
+            "major": false,
+            "article": "art. 36 alin. (1) lit. a)"
+          },
+          {
+            "text": "Reunire și disjungere în camera preliminară; se restituie doar partea cu probleme",
+            "major": false,
+            "article": "art. 43 alin. (4), art. 46 alin. (3)"
+          },
+          {
+            "text": "Probele dispuse de o instanță superioară rămân valabile după declinare",
+            "major": false,
+            "article": "art. 50 alin. (2)"
+          },
+          {
+            "text": "Traseu separat în instanță pentru victime și martori protejați",
+            "major": false,
+            "article": "art. 344 alin. (12), art. 361 alin. (9)"
+          },
+          {
+            "text": "Citația arată victimei vulnerabile când prezența ei nu este obligatorie",
+            "major": false,
+            "article": "art. 258 alin. (2¹)"
+          },
+          {
+            "text": "Autoritățile sunt anunțate pentru ocrotirea persoanelor dependente de cel arestat",
+            "major": false,
+            "article": "art. 229 alin. (1)"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 165,
+        "removed": 159,
+        "same": 0.31
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-11-10T09:31:49.068Z"
     }
   ]
 }

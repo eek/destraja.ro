@@ -1,6 +1,8 @@
 # AVIZ
 
-# referitor la propunerea legislativă pentru modificarea art. 6 din Legea nr. 202/1998 privind organizarea Monitorului Oficial al României.
+Biroul permanent al Senatului 632. modificarea 2.11.2026
+
+# referitor la propunerea legislativă pentru modificarea....2. A.A. 202 art. 6 din Legea nr. 202/1998 privind organizarea Monitorului Oficial al României.
 
 Analizând propunerea legislativă pentru modificarea art. 6 din Legea nr. 202/1998 privind organizarea Monitorului Oficial al României. (b582/21.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/5145/26.10.2026 și înregistrată la Consiliul Legislativ cu nr. D884/26.10.2026,
 
@@ -22,7 +24,7 @@ Calea 13 Septembrie nr. 1-3, Palatul Parlamentului, Corp B1, Sector 5, Bucureșt
 
 4\. Menționăm că soluția legislativă propusă trebuie să se subsumeze dispozițiilor art. 6 alin. (1) teza I din Legea nr. 24/2000, republicată, cu modificările și completările ulterioare, conform cărora „Proiectul de act normativ trebuie să instituie reguli necesare, suficiente și posibile care să conducă la o cât mai mare stabilitate și eficiență legislativă. Soluțiile pe care le cuprinde trebuie să fie temeinic fundamentate”.
 
-Cu toate acestea, în Expunerea de motive nu se regăsește o fundamentare riguroasă a impactului juridic, atât pe termen scurt cât și pe termen lung, pe care îl are eliminarea din categoria actelor care se publică în Monitorul Oficial al României a întrebărilor adresate de deputați, respectiv de senatori Guvernului, miniștrilor sau altor conducători ai organelor administrației publice, la care nu s-a răspuns, fără a se ține seama de implicațiile majore ale acestei soluții legislative în ceea ce privește evidența oficială a activității parlamentare și/sau governamentale.
+Cu toate acestea, în Expunerea de motive nu se regăsește o fundamentare riguroasă a impactului juridic, atât pe termen scurt cât și pe termen lung, pe care îl are eliminarea din categoria actelor care se publică în Monitorul Oficial al României a întrebărilor adresate de deputați, respectiv de senatori Guvernului, miniștrilor sau altor conducători ai organelor administrației publice, la care nu s-a răspuns, fără a se ține seama de implicațiile majore ale acestei soluții legislative în ceea ce privește evidența oficială a activității parlamentare și/sau guvernamentale.
 
 5\. Referitor la soluția legislativă preconizată, precizăm că Monitorul Oficial al României nu reprezintă un simplu canal de diseminare a informațiilor publice, ci este instituția oficială de învestire a actelor și faptelor juridice cu atributele certitudinii, autenticității și opozabilității erga omnes.
 
@@ -52,6 +54,6 @@ Față de cele de mai sus, propunerea legislativă nu poate fi adoptată.
 
 PRESEDINTE
 
-Florin LORDACHE
+Florin IORDACHE
 
 București Nr. 904/29.10.2026

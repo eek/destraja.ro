@@ -1,4 +1,6 @@
-Biroul permanent al Senatului Bp 525. 23.09.2026.
+Biroul permanent al Senatului Bp 525, 23.09.2026.
+
+Biroul permanent al Senatului 624....12.11.2026...
 
 Către: Biroul Permanent al Senatului
 
@@ -6,12 +8,12 @@ Către: Biroul Permanent al Senatului
 
 În numele inițiatorilor,
 
-PAUN ANA - CYNTHIA - IOANA
+PAUN ANA - CYNBIA - IOANA
 
-Opriouu Huerel
+Opiniouu Wenzel
 
-VARPA Grid
+VARBA Grid
 
 GIVRGIV ADRIAN
 
-GOLIBAND ALLEN
+ColiBAN Allen

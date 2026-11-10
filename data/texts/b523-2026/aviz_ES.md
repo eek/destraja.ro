@@ -1,8 +1,4 @@
-Cod fiscal: 10464660
-
 E-mail: ces@ces.ro
-
-www.ces.ro
 
 Membru fondator al Asociației Internaționale a Consiliilor Economice și Sociale și Instituțiilor Similare (AICESIS) Membru al Uniunii Consiliilor Economice și Sociale și Instituțiilor Similare Francofone (UCESIF)
 
@@ -12,11 +8,13 @@ Nr. 6612/07.10.2026
 
 Biroul permanent al Senatului
 
-Bp. 523 19 Jeloublé 2026
+Bp....523....19 dezembre 2026
 
 ## AVIZ
 
-## referitor la propunerea legislativă pentru declararea anului 2027 drept "Anul cultural Ion Voicu" (b523/23.09.2026)
+# referitor la propunerea legislativă pentru declararea
+
+anului 2027 drept "Anul cultural Ion (b523/23.09.2026)
 
 În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative pentru declararea anului 2027 drept "Anul cultural Ion Voicu" (b523/23.09.2026).
 
@@ -30,7 +28,7 @@ Bp. 523 19 Jeloublé 2026
 
 \- obiectivele urmărite, în speță organizarea unor concerte aniversare, festivaluri, expoziții, conferințe, emisiuni tematice, proiecte educaționale pentru tineri muzicieni și programe de promovare a patrimoniului muzical românesc, pot fi realizate în cadrul competențelor și mecanismelor instituționale deja existente. De altfel, chiar expunerea de motive arată că aceste activități pot fi organize prin implicarea instituțiilor culturale și educaționale, a autorităților publice și a societății civile;
 
-\- semnalăm, totodată, multiplicarea accentuată, în ultimii ani, a inițiativelor legislative prin care se declară ani, luni sau zile consacrate unor personalități, teme ori domenii de interes public. Efectul cumulat al acestor reglementări este unul contrar intenției fiecăreia dintre ele: cu cât numărul perioadelor astfel consacrate crește, cu atât se erodează vizibilitatea și forța simbolică pe care fiecare urmărea să o obțină. Consacrarea legislativă a unei personalități culturale ar trebui să reprezinte o intervenție cu caracter excepțional, justificată de efecte normative concrete, și nu să devină un mecanism uzual de exprimare a recunoștinței publice; - nu în ultimul rând, multitudinea de inițiative legislative care au ca obiectiv sărbătorirea unor persoane sau evenimente istorice deturnează agenda legislativă de la obiectivele relevante și importante pentru dezvoltarea statului, societății și economiei românești;
+\- semnalăm, totodată, multiplicarea accentuată, în ultimii ani, a inițiativelor legislative prin care se declară ani, luni sau zile consacrate unor personalități; teme ori domenii de interes public. Efectul cumulat al acestor reglementări este unul contrar intenției fiecăreia dintre ele: cu cât numărul perioadelor astfel consacrate crește, cu atât se erodează vizibilitatea și forța simbolică pe care fiecare urmărea să o obțină. Consacrarea legislativă a unei personalități culturale ar trebui să reprezinte o intervenție cu caracter excepțional, justificată de efecte normative concrete, și nu să devină un mecanism uzual de exprimare a recunoștinței publice; - nu în ultimul rând, multitudinea de inițiative legislative care au ca obiectiv sărbătorirea unor persoane sau evenimente istorice deturnează agenda legislativă de la obiectivele relevante și importante pentru dezvoltarea statului, societății și economiei românești;
 
 \- în plus, declararea unui an cultural prin lege poate antrena, chiar în absența unor cheltuieli obligatorii suplimentare, sarcini organizatorice și administrative pentru autoritățile administrației publice centrale și locale și pentru instituțiile culturale aflate în coordonarea sau subordinea acestora. Faptul că fișa financiară prevede suportarea eventualelor cheltuieli din bugetele aprobate ale autorităților și instituțiilor publice implicate, precum și din venituri proprii, sponsorizări și donații, nu înlătură necesitatea ca oportunitatea și eficiența unei asemenea intervenții legislative să fie evaluate în raport cu mecanismele deja disponibile;
 
@@ -46,8 +44,8 @@ by Fudulea
 
 Sterica
 
-14:17:37 EEST
-
 2026.10.08
+
+14:17:37 EEST
 
 Date:

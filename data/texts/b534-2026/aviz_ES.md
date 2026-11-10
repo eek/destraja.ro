@@ -1,20 +1,22 @@
-Cod fiscal: 10464660
-
 E-mail: ces@ces.ro
-
-www.ces.ro
 
 Membru fondator al Asociației Internaționale a Consiliilor Economice și Sociale și Instituțiilor Similare (AICESIS) Membru al Uniunii Consiliilor Economice și Sociale și Instituțiilor Similare Francofone (UCESIF)
 
 „Consiliul Economic și Social este organ consultativ al Parlamentului și al Guvernului în domeniile de specialitate stabilite prin legea sa organică de înființare, organizare și funcționare.” (Art. 141 din Constituția României revizuită)
 
+Biroul permanent al Senatului
+
 Nr. 6735/14.10.2026
 
-## AVIZ
+Bp.534....16.10.2026
 
-## referitor la propunerea legislativă pentru modificarea și completarea Legii nr.207/2015 privind Codul de procedură fiscală (b534/23.09.2026)
+AVIZ
 
-În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative pentru modificarea și completarea Legii nr.207/2015 privind Codul de procedură fiscală (b534/23.09.2026).
+# referitor la propunerea legislativă pentru modificarea si completarea Legii nr.207/2015 privind Codul de procedură Biroul permanent al Senatului fiscală (b534/23.09.2026)
+
+1630....1.2.41.2026.
+
+În-temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative pentru modificarea și completarea Legii nr.207/2015 privind Codul de procedură fiscală (b534/23.09.2026).
 
 ## CONSILIUL ECONOMIC ȘI SOCIAL
 
@@ -24,4 +26,12 @@ Președinte,
 
 Sterică FUDULEA
 
-Digitally signed by Fudulea Sterică Date: 2026.10.15 14:16:19 EEST
+Digitally signed by Fudulea
+
+Sterică
+
+Date:
+
+2026.10.15
+
+14:16:19 EEST

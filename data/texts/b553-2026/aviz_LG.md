@@ -1,0 +1,55 @@
+## AVIZ
+
+referitor la propunerea legislativă pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal și a Legii nr. 208/2015 privind alegerea Senatului și a Camerei Deputaților, precum și pentru organizarea și funcționarea Autorității Electorale Permanente, în vederea instituirii unei bonificații fiscale suplimentare anuale pentru participarea electorală
+
+Analizând propunerea legislativă pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal și a Legii nr. 208/2015 privind alegerea Senatului și a Camerei Deputaților, precum și pentru organizarea și funcționarea Autorității Electorale Permanente, în vederea instituirii unei bonificații fiscale suplimentare anuale pentru participarea electorală (b553/07.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/4794/12.10.2026 și înregistrată la Consiliul Legislativ cu nr. D864/13.10.2026,
+
+## CONSILIUL LEGISLATIV
+
+În temeiul art. 2 alin. 1 lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (4) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
+
+Avizează negativ propunerea legislativă, pentru următoarele considerente:
+
+1\. Prezenta propunere legislativă are ca obiect de reglementare instituirea posibilității acordării, de către consiliile locale și de către Consiliul General al Municipiului București, a unei bonificații fiscale suplimentare anuale de până la 5% persoanelor fizice care achită integral, până la data de 31 martie a fiecărui an, impozitul sau taxa pe clădiri, impozitul sau taxa pe teren și impozitul pe mijloacele de transport și care au realizat participarea electorală completă.
+
+Potrivit Expunerii de motive, „Reglementarea urmărește trei finalități convergente: diminuarea, într-o limită prudentă, a sarcinii fiscale suportate de contribuabili; stimularea plății anticipate și a conformării fiscale voluntare, cu efect asupra predictibilității bugetelor locale; precum și încurajarea participării electorale constante, ca premisă a unei reprezentativități și legitimități democratice sporite”.
+
+2\. Prin conținutul său normativ, propunerea legislativă face parte din categoria legilor organice, fiind incidente prevederile art. 73 alin. (3) lit. a) din Constituția României, republicată, iar în aplicarea dispozițiilor art. 75 alin. (1) din Legea fundamentală, prima Cameră sesizată este Senatul.
+
+3\. Menționăm că, prin avizul pe care îl emite, Consiliul Legislativ nu se pronunță asupra oportunității soluțiilor legislative preconizate.
+
+4\. Referitor la soluția legislativă preconizată, respectiv aceea de a reglementa o bonificație fiscală pentru contribuabili care au participat la toate scrutinurile electorale de referință la care aveau drept de vot, semnalăm că se instituie o discriminare între doi contribuabili aflați în aceeași situație fiscală, care datorează același impozit și îl achită integral până la 31 martie, aceștia putând beneficia de tratament fiscal diferit exclusiv în funcție de participarea electorală.
+
+Diferența de tratament necesită o justificare obiectivă și rezonabilă, în special prin raportare la principiul egalității în drepturi, consacrat de art. 16 alin. (1) din Constituție, și la principiul justei așezări a sarcinilor fiscale, prevăzut de art. 56 alin. (2) din Legea fundamentală.
+
+Prin urmare, se impune reanalizarea soluției legislative din perspectiva respectării acestor principii, nomele fiind, în formulările actuale, susceptibile de încălcarea acestora.
+
+5\. Totodată, din punct de vedere financiar, măsurile propuse sunt de natură să determine diminuarea unor venituri proprii ale bugetelor unităților administrativ-teritoriale, ca urmare a acordării bonificației fiscale suplimentare pentru contribuabilii care îndeplinesc condițiile prevăzute de lege.
+
+Diminuarea veniturilor va depinde de procentul bonificației stabilit anual de autoritatea deliberativă locală, de numărul contribuabililor eligibili, de valoarea obligațiilor fiscale aferente și de gradul de participare a acestora la mecanismul propus.
+
+Întrucât acordarea bonificației este facultativă, iar procentul acesteia poate fi stabilit în limita a 5%, semnalăm că efectul financiar nu este unul uniform la nivel național, ci diferă în funcție de opțiunea fiecărei autorități deliberative locale și de particularitățile bazei fiscale aferente.
+
+În condițiile în care bonificația este cumulabilă cu bonificația pentru plata cu anticipație, fără depășirea unui procent cumulat de 15%, măsura poate conduce la o reducere suplimentară a încasărilor aferente impozitelor și taxelor locale pentru contribuabilii eligibili.
+
+Prin urmare, proiectul este susceptibil să genereze un impact negativ asupra veniturilor proprii ale bugetelor locale, a căror valoare nu poate fi determinată în mod obiectiv în lipsa unor estimări fundamentate privind baza fiscală eligibilă și numărul beneficiarilor potențiali.
+
+Privitor la soluțiile legislative preconizate la art. 489³ alin. (1), (2) și (8) din Codul fiscal, măsura urmărește în mod explicit stimularea participării electorale prin acordarea unui avantaj patrimonial. Trebuie analizat dacă utilizarea unei facilități fiscale locale reprezintă un mijloc adecvat și proporțional pentru atingerea acestui scop.
+
+Referitor la norma de la art. 489³ alin. (2) lit. a), coroborată cu cea de la alin. (8) a aceluiași articol, în ce privește soluția juridică preconizată de pierdere integrală a bonificației pentru neparticiparea la un singur scrutin, apreciem că textele în discuție pot fi susceptibile de neluarea în considerare a proporționalității măsurii, în sensul în care, dacă o persoană avea drept de vot la mai multe scrutinuri de referință, dar nu a participat la unul dintre ele, nu îndeplinește condiția participării electorale complete și pierde întreaga bonificație, chiar dacă a participat la toate celelalte scrutinuri.
+
+În ceea ce privește textul propus pentru art. 489³ alin. (11), apreciem că lăsarea stabilirii procentului la latitudinea fiecărei unități administrativ-teritoriale, prin hotărâre a consiliului local, pe baza unei analize proprii cost-beneficiu, este susceptibilă de a crea discrepanțe majore între localități, respectiv între localitățile bogate (care își vor permite să ofere procentul maxim) și cele sărace (unde prezența la vot este adesea crucială, dar care nu vor acorda nimic din cauza lipsei de fonduri).
+
+Prin urmare, este necesar să se analizeze instituirea, prin lege, a unui mecanism unitar și obligatoriu la nivel național de compensare a pierderilor suferite de bugetele locale, cu evaluarea impactului asupra bugetului de stat în cazul finanțării parțiale a acestora din sumele defalcate din TVA sau din impozitul pe venit, precum și a identificării unor surse de finanțare sustenabile.
+
+6\. În plus, instituirea unor măsuri fiscale și reglementarea drepturilor electorale aparțin unor ramuri de drept diferite, care nu pot fi condiționate.
+
+Totodată, dreptul de vot, consacrat de art. 36 din Constituție, trebuie să fie exercitat în mod liber. Potrivit doctrinei¹, „votul liber exprimat vizează, pe de o parte, faptul că exprimarea voinței cetățenilor în alegeri nu trebuie viciată în niciun fel, iar pe de altă parte, faptul că votul nu este obligatoriu. În România participarea la vot nu este obligatorie pentru niciun fel de alegeri, cetățenii având opțiunea liberă de a participa sau nu la scrutin”.
+
+Prin urmare, votul, care este un drept fundamental al cetățeanului, nu poate fi condiționat de o recompensă financiară, care poate transforma un act de voință liber exprimat într-un comportament motivat de un avantaj material.
+
+Față de cele de mai sus, propunerea legislativă nu poate fi promovată.
+
+București Nr. 924/06.11.2026
+
+¹ Ștefan Deaconu și Elena Simina Tănăsescu – „Constituția României. Comentariu pe articole”, Editura C.H. Beck, București, 2008, pag. 340.

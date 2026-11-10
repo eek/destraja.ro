@@ -1,0 +1,88 @@
+{
+  "slug": "plx-193-2024",
+  "billId": "PL-x 193/2024",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-10T10:48:33.879Z",
+  "inputHash": "86d266490951",
+  "riskScore": 2.3,
+  "summary": "O măsură socială și de debirocratizare necesară pentru iarna 2023-2024, dar redactată imprecis și fără să-i includă pe salariații cu venituri mici din mediul privat.",
+  "good": [
+    {
+      "text": "Păstrează ajutorul de încălzire și suplimentul de energie pentru pensionari și bugetari, ignorând creșterile de pensii și salarii din ianuarie 2024 până în martie 2024.",
+      "article": "art. 1 alin. (1)",
+      "quote": "nu se iau în calcul la stabilirea drepturilor la ajutorul pentru încălzirea locuinței și la suplimentul pentru energie prevăzute la art. 6 și 25 din Legea nr. 226/2021",
+      "weight": 3
+    },
+    {
+      "text": "Menține în plată ajutoarele stabilite înainte de 1 ianuarie 2024 în aceleași sume, evitând blocarea primăriilor și a furnizorilor cu recalcularea a peste 800.000 de dosare.",
+      "article": "art. 1 alin. (2)",
+      "quote": "Drepturile la ajutorul pentru încălzirea locuinței și la suplimentul pentru energie, acordate potrivit prevederilor art. 6 și 25 din Legea nr.226/2021, cu modificările ulterioare, stabilite anterior datei de 1 ianuarie 2024, se mențin în plată",
+      "weight": 3
+    },
+    {
+      "text": "Șterge datoriile deja puse în sarcina beneficiarilor vulnerabili până la intrarea în vigoare a ordonanței, protejându-i de returnarea banilor primiți pentru încălzire.",
+      "article": "art. 2 alin. (1)",
+      "quote": "în situația în care până la intrarea în vigoare a prezentei ordonanțe de urgență au fost constituite debite cu titlu de ajutor pentru încălzirea locuinței sau de supliment pentru energie",
+      "weight": 3
+    },
+    {
+      "text": "Anularea datoriilor se face din oficiu de agențiile sociale, inclusiv pentru sumele trimise deja la ANAF, fără ca oamenii să fie puși pe drumuri cu cereri.",
+      "article": "art. 2 alin. (3)",
+      "quote": "directorul executiv al agenției pentru plăți și inspecție socială județene, respectiv a municipiului București, emite decizie de scutire la plată, pe care o transmite organelor fiscale centrale",
+      "weight": 2
+    },
+    {
+      "text": "Măsura este limitată strict la finalul sezonului rece noiembrie 2023 - martie 2024 și se încadrează în bugetul deja alocat de Ministerul Muncii.",
+      "article": "art. 1 alin. (2)",
+      "quote": "se mențin în plată în aceleași condiții care au stat la baza acordării acestora și în aceleași cuantumuri, până la sfârșitul sezonului rece noiembrie 2023 - martie 2024.",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Protejează doar pensionarii și bugetarii, nu și angajații cu venituri mici din sectorul privat, care pot pierde ajutorul de încălzire la o creștere similară a salariului.",
+      "article": "art. 1 alin. (1)",
+      "quote": "Majorarea valorii punctului de pensie prevăzută de art. 84 alin.(6) din Legea nr. 360/2023 privind sistemul public de pensii, precum majorările de natură salarială prevăzute de art. I din Ordonanța de urgență a Guvernului nr. 115/2023",
+      "weight": 2
+    },
+    {
+      "text": "Scutirea de la plata datoriilor nu se limitează în text la cele provocate de creșterea pensiilor și salariilor, putând șterge și debite apărute din declarații false sau alte motive.",
+      "article": "art. 2 alin. (1)",
+      "quote": "Prin derogare de la prevederile art. 33 alin. (4) din Legea nr. 226/2021, cu modificările ulterioare, în situația în care până la intrarea în vigoare a prezentei ordonanțe de urgență au fost constituite debite",
+      "weight": 2
+    },
+    {
+      "text": "Formularea că toate ajutoarele se mențin „în aceleași condiții” e prea vagă și nu lămurește dacă primăriile mai pot opri plata când beneficiarul obține alte venituri mari sau vinde locuința.",
+      "article": "art. 1 alin. (2)",
+      "quote": "stabilite anterior datei de 1 ianuarie 2024, se mențin în plată în aceleași condiții care au stat la baza acordării acestora și în aceleași cuantumuri, până la sfârșitul sezonului rece",
+      "weight": 2
+    },
+    {
+      "text": "Guvernul susține că legea nu are impact bugetar, dar nu calculează câți bani pierde statul prin ștergerea datoriilor deja trimise spre recuperare la ANAF.",
+      "article": "preambul",
+      "quote": "sumele cu destinație de ajutor pentru încălzirea locuinței și supliment pentru energie au fost fundamentate fără luarea în calcul a potențialelor măsuri de creștere a veniturilor populației, prin adoptarea acestei reglementări nu se va înregistra impact bugetar",
+      "weight": 1
+    },
+    {
+      "text": "Redactare neglijentă: din art. 1 alin. (1) lipsește cuvântul „și” („precum majorările”), iar expunerea de motive dă cifre diferite pentru dosarele afectate (700.000, apoi 800.000).",
+      "article": "art. 1 alin. (1)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Extinderea excepției și pentru creșterea salariului minim din privat și precizarea expresă că menținerea ajutoarelor și ștergerea datoriilor vizează doar efectele acestor majorări legale.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.5
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 9
+  }
+}

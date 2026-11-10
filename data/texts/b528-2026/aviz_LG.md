@@ -4,9 +4,11 @@
 
 Analizând propunerea legislativă pentru completarea Legii nr. 227/2015 privind Codul fiscal (b528/23.09.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/4515/28.09.2026 și înregistrată la Consiliul Legislativ cu nr. D823/29.09.2026,
 
+șr înregistrata la Biroul permanent al Senatului 627....1.2..11..2026...
+
 ## CONSILIUL LEGISLATIV
 
-În temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (3) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
+In temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (3) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
 
 Avizează favorabil propunerea legislativă, cu următoarele observații și propuneri:
 

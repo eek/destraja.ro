@@ -1,0 +1,78 @@
+{
+  "slug": "plx-564-2023",
+  "billId": "PL-x 564/2023",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-10T10:49:46.235Z",
+  "inputHash": "334ca733e441",
+  "riskScore": 7,
+  "summary": "O lege utilă pentru protejarea asiguraților RCA după falimentul unui asigurător, deturnată în Parlament prin adăugarea unei prelungiri cu dedicație a concordatului preventiv pentru anumite companii.",
+  "good": [
+    {
+      "text": "Aprobă prelungirea cu 90 de zile a valabilității polițelor RCA și de garanții emise de asigurătorii în faliment, protejând 1,7 milioane de șoferi și firme de rămânerea bruscă fără asigurare.",
+      "article": "art. I",
+      "quote": "Se aprobă Ordonanța de urgență a Guvernului nr. 71 din 31 august 2023 pentru instituirea unei prelungiri a termenelor prevăzute la art. 262 alin. (3²) din Legea nr. 85/2014",
+      "weight": 2
+    },
+    {
+      "text": "Permite creditorilor care votează împotriva prelungirii concordatului, precum și celor din afara lui, să își recupereze banii prin orice căi legale, inclusiv cerând insolvența debitorului.",
+      "article": "art. II alin. (4)",
+      "quote": "Creditorii concordatari/afectați care au votat împotriva prelungirii termenului concordatului preventiv/planului de restructurare, precum și creditorii neconcordatari își pot recupera creanța prin orice alte modalități prevăzute de lege",
+      "weight": 2
+    },
+    {
+      "text": "Prelungirea cu până la 5 ani a concordatului nu se aplică automat, ci cere motive justificate, aprobarea prin vot a creditorilor și confirmarea de către judecătorul-sindic.",
+      "article": "art. II alin. (1)-(3)",
+      "quote": "Cererea prevăzută la alin. (2) va fi însoțită de hotărârea de aprobare de către creditorii concordatari/afectați a prelungirii duratei de derulare a concordatului/planului de restructurare",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Prelungirea cu 5 ani vizează doar firmele aflate deja în concordat și exact în al cincilea an de procedură, fiind o lege cu dedicație pentru un număr restrâns de debitori.",
+      "article": "art. II alin. (1) și (2)",
+      "quote": "Administratorul concordatar poate solicita judecătorului sindic, în al cincilea an de derulare a concordatului preventiv/planului de restructurare, omologarea prelungirii duratei de derulare a concordatului preventiv/planului de restructurare",
+      "weight": 3
+    },
+    {
+      "text": "Nu definește ce înseamnă „ramurile strategice ale economiei naționale” și nici „motive justificate”, lăsând loc de interpretări arbitrare privind firmele care pot primi prelungirea.",
+      "article": "art. II alin. (1)",
+      "quote": "În cazul operatorilor economici care funcționează în ramurile strategice ale economiei naționale, aflați, la data intrării în vigoare a prezentei legi, într-o procedură de concordat preventiv",
+      "weight": 3
+    },
+    {
+      "text": "Introduce în legea de aprobare a unei ordonanțe despre polițe RCA o regulă fără nicio legătură, despre prelungirea concordatului unor companii, ocolind transparența legislativă.",
+      "article": "art. II",
+      "quote": "durata de derulare a concordatului/planului de restructurare poate fi prelungită, la cererea debitorului, pentru motive justificate, cu cel mult 5 ani.",
+      "weight": 3
+    },
+    {
+      "text": "Suprapune confuz termenii din două variante succesive ale legii insolvenței („concordat preventiv/plan de restructurare”), fără să clarifice ce reguli de vot și procedură se aplică.",
+      "article": "art. II alin. (2)-(4)",
+      "quote": "adoptată în condițiile de întocmire și votare a concordatului/planului de restructurare, cu creanțele rămase în sold la data votului.",
+      "weight": 2
+    },
+    {
+      "text": "Creează o contradicție: deși planul se prelungește cu încă 5 ani prin votul majorității, creditorii care au votat împotrivă pot cere imediat insolvența debitorului, generând blocaje în instanță.",
+      "article": "art. II alin. (3) și (4)",
+      "quote": "inclusiv vor putea formula cereri de deschidere a procedurii insolvenței față de debitor.",
+      "weight": 2
+    }
+  ],
+  "fix": {
+    "text": "Eliminarea integrală a articolului II, păstrând doar aprobarea Ordonanței de urgență nr. 71/2023 la articolul I.",
+    "removes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

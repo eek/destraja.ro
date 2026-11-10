@@ -1,0 +1,61 @@
+OPERATOR DE DATE CU CARACTER PERSONAL NR. 31753
+
+Nesecret —
+
+ANPC NR. 89479/03.11.2026
+
+PARLAMENTUL ROMÂNIEI SENATUL ROMÂNIEI
+
+DOMNULUI MARIO OVIDIU OPREA SECRETAR GENERAL
+
+## STIMATE DOMNULE SECRETAR GENERAL,
+
+Ca urmare a adresei dumneavoastră nr.4510/28.09.2026 înregistrată la Autoritatea Națională pentru Protecția Consumatorilor cu nr. 89479/07.10.2026, prin care ne solicitați un punct de vedere cu privire la două propuneri legislative, vă comunicăm următoarele:
+
+1\. Propunere legislativă pentru completarea Legii nr. 150/2004 privind siguranța alimentelor și a hranei pentru animale (B 519/21.09.2026):
+
+Autoritatea susține oportunitatea introducerii obligației de autocontrol pentru unitățile care comercializează cantități mari de produse alimentare provenite din import sau aparținând unor branduri terțe, în vederea verificării calității, termenelor de valabilitate și siguranței alimentare.
+
+Cu toate acestea, considerăm necesară reevaluarea conținutului propunerii legislative, în vederea asigurării corelării acesteia cu prevederile Regulamentului (UE) nr. 1169/2011 privind informarea consumatorilor cu privire la produsele alimentare. În acest sens, mecanismele de verificare propuse trebuie să respecte dispozițiile art. 24 referitoare la data durabilității minimale și data-limită de consum, precum și prevederile art. 8 privind responsabilitățile operatorilor din sectorul alimentar, astfel încât obligațiile instituite să fie clare și conforme cadrului juridic european aplicabil.
+
+În ceea ce privește prevederile art. II din propunerea legislativă, apreciem că acestea excedează competențelor autorității.
+
+2\. Propunere legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 50/2010 privind contractele de credit pentru consumatori (B 524/23.09.2026):
+
+Ordonanța de urgență a Guvernului nr. 50/2010 privind contractele de credit pentru consumatori a transpus în legislația națională prevederile Directivei 2008/48/CE a Parlamentului European și a Consiliului din 23 aprilie 2008 privind contractele de credit pentru consumatori și de abrogare a Directivei 87/102/CEE a Consiliului, publicată în Jurnalul Oficial al Uniunii Europene seria L nr. 133 din 22 mai 2008.
+
+Ordonanța de urgență a Guvernului nr. 50/2010 urmează să fie abrogată în cadrul procesului de transpunere în legislația națională a Directivei (UE) 2023/2225 a Parlamentului European și a Consiliului din 18 octombrie 2023 privind contractele de credit de consum și de abrogare a Directivei 2008/48/CE, publicată în JO L, 2023/2225, 30.10.2023 dispozițiile acesteia urmând să se aplice în continuare contractelor aflate în derulare, în condițiile prevăzute de noul act normativ.
+
+Astfel, potrivit prevederilor art. 47 din Directiva (UE) 2023/2225 - Abrogare și dispoziții tranzitorii:
+
+„Directiva 2008/48/CE se abrogă cu efect de la 20 noiembrie 2026.
+
+În pofida primului paragraf, Directiva 2008/48/CE continuă să se aplice contractelor de credit existente la 20 noiembrie 2026 până la încetarea acestora.
+
+Cu toate acestea, articolele 23 și 24, articolul 25 alineatul (1) a doua teză, articolul 25 alineatul (2) și articolele 28 și 39 din prezenta directivă se aplică tuturor contractelor de credit pe durată nedeterminată existente la 20 noiembrie 2026.
+
+Trimiterile la directiva abrogată se interpretează ca trimiteri la prezenta directivă și se citesc în conformitate cu tabelul de corespondență din anexa IV."
+
+Iar potrivit prevederilor articolului 48 -Transpunere din aceeași directivă:
+
+„(1) Statele membre adoptă și publică, până la 20 noiembrie 2025, actele cu putere de lege și actele administrative necesare pentru a se conforma prezentei directive. Statele membre comunică de îndată Comisiei textul dispozițiilor respective.
+
+Acestea aplică respectivele dispoziții începând cu 20 noiembrie 2026.
+
+Atunci când statele membre adoptă dispozițiile respective, acestea conțin o trimitere la prezenta directivă sau sunt însoțite de o asemenea trimitere la data publicării lor oficiale. Statele membre stabilesc modalitatea de efectuare a unei astfel de trimiteri și de formulare a acestei mențiuni.
+
+(2) Comisiei îi sunt comunicate de către statele membre textele principalelor dispoziții de drept intern pe care le adoptă în domeniul reglementat de prezenta directivă."
+
+Directiva trebuia trânspusă până la 20 noiembrie 2025, dispozițiile naționale de transpunere urmând să se aplice începând cu 20 noiembrie 2026.
+
+Autoritatea a analizat eventuala oportunitate de reglementare în materia contractelor de credit pentru consumatori în mod unitar, în cadrul procesului de transpunere a Directivei (UE) 2023/2225, pentru a asigura coerența soluțiilor legislative naționale cu cadrul european și cu limitele armonizării instituite de aceasta.
+
+Adoptarea propunerii legislative determină modificarea unui act normativ a cărui abrogare este preconizată într-un viitor apropiat, astfel că, o asemenea abordare riscă să afecteze coerența și predictibilitatea cadrului normativ și să genereze dificultăți de corelare între dispozițiile aplicabile.
+
+Prin urmare, considerăm că oportunitatea și necesitatea intervenției legislative propuse ar trebui reevaluate în raport cu soluțiile care vor fi consacrate prin actul normativ de transpunere, în vederea asigurării respectării cerințelor de sistematizare, stabilitate și corelare legislativă prevăzute de Legea nr. 24/2000 privind normele de tehnică legislativă pentru elaborarea actelor normative, republicată, cu modificările și completările ulterioare.
+
+Cu deosebită considerație,
+
+PRESEDINTE ROMA NÍLÁPIR
+
+BÉKÉSI CSABALAJOS

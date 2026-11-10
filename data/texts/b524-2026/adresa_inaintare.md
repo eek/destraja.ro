@@ -1,4 +1,4 @@
-Biroul permanent al Senatului Bp 524, 23.09.2026.
+Biroul permanent al Senatului
 
 Către: Biroul Permanent al Senatului
 

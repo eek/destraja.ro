@@ -6,7 +6,7 @@ Referitor la: adresa dumneavoastră nr. XXXV 4508/28.09.2026, înregistrată la 
 
 În atenția Domnului Mario - Ovidiu OPREA, Secretar General
 
-# Stimate Domnule Secretar General,
+Stimate Domnule Secretar General,
 
 Întrunit în ședință publică în data de 20 octombrie 2026, Consiliul Național al Audiovizualului a analizat „Propunerea legislativă pentru declararea anului 2027 drept «Anul cultural Ion Voicu»” (b523/23.09.2026) și vă comunicăm opinia instituției:
 
@@ -26,8 +26,8 @@ Prin raportare la prevederile Legii audiovizualului nr. 504/2002, cu modificări
 
 Drept urmare, apreciem că Societatea Română de Radiodifuziune și Societatea Română de Televiziune sunt în măsură să ofere un aviz pe fondul art. 4 din proiectul de Lege, ci nu Consiliul Național al Audiovizualului, întrucât normele propuse nu vizează atribuții în sarcina autorității.
 
-Cu deosebită considerăție
+Cu deosebită consid
 
-VALENTIN-ALEX ASIDRUMIGAN
+VALENTIN-ALEX
 
 VICEPRESEDENTE

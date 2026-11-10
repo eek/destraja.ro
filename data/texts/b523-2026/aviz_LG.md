@@ -2,11 +2,13 @@
 
 # referitor la propunerea legislativă pentru declararea anului 2027 drept „Anul cultural Ion Voicu”
 
-Analizând propunerea legislativă pentru declararea anului 2027 drept „Anul cultural Ion Voicu” (b523/23.09.2026), transmisă de secretarul general al Senatului cu adresa nr. XXXV/4515/28.09.2026 și înregistrată la Consiliul Legislativ cu nr. D818/29.09.2026,
+Analizând propunerea legislativă pentru declararea anului 2027 drept „Anul cultural Ion Voicu” (b523/23.09.2026), transmisă de secretarul general àl Senatului cu adresa nr. XXXV/4515/28.09.2026 și înregistrată la Consiliul Legislativ cu nr. D818/29.09.2026,
+
+Biroul permanent al Senatului 622.12.11.2026.
 
 ## CONSILIUL LEGISLATIV
 
-În temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (3) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
+In temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (3) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
 
 Avizează favorabil propunerea legislativă, cu următoarele observații și propuneri:
 
@@ -38,4 +40,6 @@ PRESEĐINTE
 
 Florin IORDACHE
 
-București Nr. 886/19.10.2026
+București
+
+Nr. 886/19.10.2026

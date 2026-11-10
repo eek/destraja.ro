@@ -1,6 +1,6 @@
 ## AVIZ
 
-# referitor la propunerea legislativă pentru modificarea și completarea art. 65 din Legea nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap
+referitor la propunerea legislativă pentru modificarea și completarea art. 65 din Legea nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap
 
 Analizând propunerea legislativă pentru modificarea și completarea art. 65 din Legea nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap (b526/23.09.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/4515/28.09.2026 și înregistrată la Consiliul Legislativ cu nr. D821/29.09.2026,
 
@@ -46,6 +46,6 @@ Totodată, precizăm că aplicarea acestei soluții legislative poate intra în 
 
 De asemenea, având în vedere faptul că soluția legislativă preconizată la alin. (6), la care se face trimitere, vizează exclusiv locurile de parcare adaptate, rezervate și semnalizate prin semn internațional, pentru parcarea gratuită a mijloacelor de transport pentru persoane cu handicap, ipotezele juridice din enunțul alin. (7) nu se corelează cu cele din alin. (6), astfel încât este necesară revederea acestora.
 
-PREȘEDİNTİ
+PREȘEDINTE
 
-Florin LORDACH
+Florin LORDACHE

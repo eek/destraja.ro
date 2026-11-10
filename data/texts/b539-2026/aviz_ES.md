@@ -4,7 +4,7 @@ E-mail: ces@ces.ro
 
 www.ces.ro
 
-Membru fondator al Asociației Internaționale a Consiliilor Economice și Sociale și Instituților Similare (AICESIS) Membru al Uniunii Consiliilor Economice și Sociale și Instituților Similare Francofone (UCESIF)
+Membru fondator al Asociației Internaționale a Consiliilor Economice și Sociale și Instituțiilor Similare (AICESIS) Membru al Uniunii Consiliilor Economice și Sociale și Instituțiilor Similare Francofone (UCESIF)
 
 „Consiliul Economic și Social este organ consultativ al Parlamentului și al Guvernului în domeniile de specialitate stabilite prin legea sa organică de înființare, organizare și funcționare.” (Art. 141 din Constituția României revizuită)
 
@@ -14,9 +14,11 @@ Biroul permanent al Senatului
 
 ## AVIZ
 
-## referitor la propunerea legislativă pentru completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice (b539/28.09.2026)
+## referitor la propunerea legislativă pentru completarea
 
-În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative pentru completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice (b539/28.09.2026).
+Ordonanței de urgență a Guvernului nr.195/2002 privind circulația Biroul permanent al Senatului pe drumurile publice (b539/28.09.2026)
+
+\_\_\_\_ In temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative pentru completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice (b539/28.09.2026).
 
 ## CONSILIUL ECONOMIC ȘI SOCIAL
 
@@ -38,7 +40,7 @@ Digitally signed by Fudulea Sterică Date: 2026.10.20 12:48:43 EEST
 
 ## Propunere de modificare aferentă
 
-## propunerii legislative pentru completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice (b539/28.09.2026)
+propunerii legislative pentru completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice (b539/28.09.2026)
 
 | Nr. crt. | Text inițial | Text propus | Motivare |
 | --- | --- | --- | --- |

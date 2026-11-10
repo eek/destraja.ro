@@ -1,0 +1,29 @@
+AVIZ
+
+referitor la propunerea legislativă pentru completarea
+
+Analizând propunerea legislativă pentru completarea Ordonanței de urgență a Guvernului nr. 195/2002 privind circulația pe drumurile publice (b539/28.09.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/4655/05.10.2026 și înregistrată la Consiliul Legislativ cu nr. D837/05.10.2026,
+
+## CONSILIUL LEGISLATIV
+
+În temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (3) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
+
+Avizează favorabil propunerea legislativă, cu următoarele observații și propuneri:
+
+1\. Propunerea legislativă are ca obiect de reglementare modificarea și completarea Ordonanței de urgență a Guvernului nr. 195/2002 privind circulația pe drumurile publice, republicată, cu modificările și completările ulterioare, în sensul stabilirii unor reguli referitoare la deplasarea motocicletelor și a mopedelor pe lângă vehiculele aflate în coloană ca urmare a congestiei traficului, pentru fluidizarea circulației pe drumurile publice.
+
+2\. Prin conținutul său normativ, propunerea legislativă face parte din categoria legilor ordinare, iar în aplicarea art. 75 alin. (1) din Constituția României, republicată, prima Cameră sesizată este Senatul.
+
+3\. Precizăm că, prin avizul pe care îl emite, Consiliul Legislativ nu se pronunță asupra oportunității soluțiilor legislative preconizate.
+
+4\. Semnalăm că, în data de 07.10.2026 o propunere legislativă care cuprinde soluții similare celei preconizate prin prezentul proiect a fost adoptată de către Camera Deputaților, în calitate de Cameră decizională, fiind transmisă spre promulgare Președintelui României la data de 17.10.2026.
+
+Prin urmare, este necesar ca analiza soluțiilor legislative din prezentul proiect să aibă în vedere forma actului normativ de bază care va fi în vigoare la momentul adoptării acestora.
+
+Sub rezerva observației de mai sus, la textul propus, în raport cu reglementarea aflată în prezent în vigoare, semnalăm că, la art. II, pentru respectarea unității redacționale în cadrul actelor normative, textul se va reda astfel:
+
+„Art. II. - În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Guvernul va modifica în mod corespunzător, prin hotărâre, Regulamentul de aplicare a Ordonanței de urgență a Guvernului nr. 195/2002 privind circulația pe drumurile publice, aprobat prin Hotărârea Guvernului nr. 1391/2006, cu modificările și completările ulterioare, în vederea punerii în acord cu dispozițiile art. 45¹ din Ordonanța de urgență a Guvernului nr. 195/2002, republicată, cu modificările și completările ulterioare, precum și cu cele aduse prin prezenta lege”.
+
+PRESEDINTE
+
+Florin IORDACHE

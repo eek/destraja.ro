@@ -1,6 +1,6 @@
 Circumscripția electorală Minorități Naționale București, septembrie 2026
 
-CĂTRE,
+CÂTRE,
 
 ## BIROUL PERMANENT AL CAMEREI DEPUTAȚILOR
 

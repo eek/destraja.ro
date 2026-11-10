@@ -1,8 +1,28 @@
 {
   "slug": "plx-229-2026",
   "billId": "PL-x 229/2026",
-  "updatedAt": "2026-10-30T09:12:48.611Z",
+  "updatedAt": "2026-11-10T09:34:10.823Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L019FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Cine îl agresează pe executorul judecătoresc va fi pedepsit la fel ca pentru agresarea unui judecător, procuror sau avocat",
+      "summaryTlDr": "Este o lege penală scurtă, tehnică și în mare parte justificată. Executorii judecătorești primesc aceeași protecție penală întărită pe care o au deja magistrații și avocații. Nu există taxe, monopoluri sau poveri pentru cetățeni, iar singura slăbiciune este o formulare care putea fi mai precisă.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,60 +56,108 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
+      "from": "initiator",
+      "to": "senat",
       "direction": "la_fel",
-      "headline": "Camera a adoptat textul Senatului fără schimbări de fond: executorii primesc protecția ultrajului judiciar",
-      "summary": "Textul adoptat de Cameră este identic ca fond cu cel adoptat de Senat. Diferă doar redactarea formală (spații, abrevieri, camera care adoptă). Executorii judecătorești primesc în continuare aceeași protecție ca magistrații.",
+      "headline": "Textul despre ultrajul contra executorilor judecătorești a rămas identic; s-a schimbat doar forma",
+      "summary": "Noul alin. (5) al art. 279 din Codul penal are același cuprins inițial și acum. Fapte precum amenințarea sau lovirea executorului judecătoresc se pedepsesc ca ultraj judiciar. Diferențele țin doar de formula de adoptare și semnături.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Formula „în legătură cu” poate proteja executorul mai larg decât pe magistrat",
+            "text": "Neclar dacă sunt protejați și membrii familiei executorului judecătoresc",
             "major": true,
-            "article": "art. 279 alin. (5) C.pen."
+            "article": "art. 279 alin. (5)"
           },
           {
-            "text": "Executorul stagiar și angajații biroului executorului rămân în afara protecției",
-            "major": true,
-            "article": "art. 279 alin. (5) C.pen."
-          },
-          {
-            "text": "Executorii fiscali (ANAF, primării) rămân pe ultraj, cu majorare de doar o treime",
-            "major": true,
-            "article": "art. 279 alin. (5) C.pen."
-          },
-          {
-            "text": "Formula „se aplică în mod corespunzător” lasă loc de interpretări diferite",
+            "text": "Raportul cu ultrajul comun (art. 257) și art. 175 nu e clarificat",
             "major": false,
-            "article": "art. 279 alin. (5) C.pen."
-          },
-          {
-            "text": "Raportul cu ultrajul (art. 257) și art. 175 rămâne lăsat practicii judiciare",
-            "major": false,
-            "article": "art. 279 alin. (5) C.pen."
+            "article": "art. 279 alin. (5)"
           }
         ],
         "good": [
           {
-            "text": "Agresiunile asupra executorului judecătoresc se pedepsesc mai aspru, limitele cresc cu jumătate",
+            "text": "Executorii judecătorești primesc protecție penală sporită, ca la ultrajul judiciar",
             "major": true,
-            "article": "art. 279 alin. (5) C.pen."
+            "article": "art. 279 alin. (5)"
           },
           {
-            "text": "Sunt protejați și familia și bunurile executorului, la intimidare sau răzbunare",
+            "text": "Încadrare unitară a faptelor contra executorilor, mai puțină practică neunitară",
+            "major": false,
+            "article": "art. 279 alin. (5)"
+          },
+          {
+            "text": "Nu incriminează conduite legale: opoziția pașnică și contestația la executare rămân permise",
+            "major": false,
+            "article": "art. 279 alin. (5)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-11-10T09:33:53.526Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Textul votat de Cameră este identic cu cel al Senatului: executorii judecătorești, protejați ca magistrații",
+      "summary": "Camera Deputaților a adoptat același text ca Senatul. Diferențele sunt doar de redactare (spații, punctuație). Agresiunile asupra executorilor judecătorești vor fi pedepsite ca ultrajul judiciar, cu limitele pedepsei crescute cu jumătate.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Executorul stagiar și angajații biroului de executare rămân în afara protecției",
             "major": true,
-            "article": "art. 279 alin. (5) C.pen."
+            "article": "art. 279 alin. (5)"
           },
           {
-            "text": "Nu apar infracțiuni noi; opoziția pașnică și contestația la executare rămân legale",
-            "major": false,
-            "article": "art. 279 alin. (5) C.pen."
+            "text": "Executorii fiscali (ANAF, primării) primesc majorare de doar o treime, prin ultraj",
+            "major": true,
+            "article": "art. 279 alin. (5)"
           },
           {
-            "text": "Folosește aceeași tehnică de trimitere aplicată deja avocaților la alin. (4)",
+            "text": "Sintagma «în legătură cu» poate proteja executorul mai larg decât pe magistrat",
             "major": false,
-            "article": "art. 279 alin. (5) C.pen."
+            "article": "art. 279 alin. (5)"
+          },
+          {
+            "text": "Formularea «în mod corespunzător» lasă loc de interpretări diferite în instanțe",
+            "major": false,
+            "article": "art. 279 alin. (5)"
+          },
+          {
+            "text": "Raportul cu ultrajul comun și art. 175 C.pen. nu e clarificat expres",
+            "major": false,
+            "article": "art. 279 alin. (5)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Pedepse mai mari cu jumătate pentru agresiuni asupra executorilor judecătorești",
+            "major": true,
+            "article": "art. 279 alin. (5)"
+          },
+          {
+            "text": "Protecția acoperă și bunurile și familia executorului, când se urmărește intimidarea",
+            "major": true,
+            "article": "art. 279 alin. (5)"
+          },
+          {
+            "text": "Nu creează infracțiuni noi; opoziția pașnică și contestația la executare rămân permise",
+            "major": true,
+            "article": "art. 279 alin. (5)"
+          },
+          {
+            "text": "Folosește aceeași tehnică de trimitere aplicată deja pentru avocați",
+            "major": false,
+            "article": "art. 279 alin. (4)"
           }
         ],
         "partial": false
@@ -101,7 +169,7 @@
       },
       "model": "claude",
       "schema": 3,
-      "updatedAt": "2026-10-30T08:16:32.535Z"
+      "updatedAt": "2026-11-10T09:34:10.823Z"
     }
   ]
 }

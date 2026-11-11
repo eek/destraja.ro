@@ -1,20 +1,24 @@
 {
   "slug": "plx-310-2026",
   "billId": "PL-x 310/2026",
-  "updatedAt": "2026-10-29T13:04:05.006Z",
+  "updatedAt": "2026-11-10T20:46:03.953Z",
+  "plan": [
+    "initiator",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
       "label": "Forma inițiatorului",
       "url": "https://www.senat.ro/legis/PDF/2026/26L117FG.PDF",
       "source": "senat.ro",
-      "riskScore": 5.5,
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Despăgubiri la prețul pieței și reconstrucția locuințelor distruse de dezastre pe banii statului",
-      "summaryTlDr": "O inițiativă cu intenție socială lăudabilă (protejarea păgubiților din explozii sau calamități), dar redactată atât de defectuos încât instituie involuntar dubla despăgubire (și banii la prețul pieței în 90 de zile, și reconstrucția imobilului în 1 an), blochează primăriile cu termene tehnic imposibile și subminează sistemul asigurărilor obligatorii de locuințe (PAD).",
+      "plainTitle": "Despăgubiri la prețul pieții și casa refăcută în un an pentru victimele dezastrelor",
+      "summaryTlDr": "Scopul e corect: oamenii loviți de un dezastru să nu rămână fără casă și fără statutul de proprietar. Textul e însă scris în grabă. Promite bani la prețul pieții, reconstrucție în un an și cazare, fără metodă de evaluare, fără plafon, fără estimare de cost și fără legătură cu asigurările. Așa cum e, riscă să cadă la CCR sau să rămână o promisiune pe care nimeni nu o poate aplica.",
       "scores": {
         "agy": 6,
-        "claude": null,
+        "claude": 4,
         "codex": 5
       }
     },
@@ -39,84 +43,74 @@
       "from": "initiator",
       "to": "senat",
       "direction": "la_fel",
-      "headline": "Senatul a adoptat tacit proiectul în forma inițiatorului; textul art. 18 a rămas neschimbat",
-      "summary": "Senatul nu a schimbat nimic: proiectul se consideră adoptat tacit, în forma inițiatorului. Diferențele sunt doar de redactare și diacritice, deci riscurile rămân: plată dublă posibilă, termene nerealiste, nicio regulă despre cine evaluează pagubele.",
+      "headline": "Senatul a adoptat tacit forma inițiatorului, fără nicio schimbare la despăgubiri sau reconstrucție",
+      "summary": "Senatul nu a schimbat textul: proiectul se consideră adoptat în forma inițială. Art. 18 e identic, deci rămân aceleași riscuri: plată dublă posibilă, despăgubiri fără plafon sau evaluator și termene greu de respectat.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Despăgubirea în bani și reconstrucția se pot cumula: aceeași pagubă, plătită dublu",
+            "text": "Despăgubirea în bani și reconstrucția nu se exclud: același prejudiciu plătit de două ori",
             "major": true,
             "article": "art. 18 alin. (1) și (3)"
           },
           {
-            "text": "Nu spune cine evaluează paguba, la ce dată și ce intră în ea",
+            "text": "Despăgubire la prețul pieții, fără plafon și fără a preciza ce pierderi acoperă",
             "major": true,
             "article": "art. 18 alin. (1)"
           },
           {
-            "text": "Nu scade banii din asigurări și ignoră lipsa asigurării obligatorii PAD",
+            "text": "Și clădirile firmelor sau ale proprietarilor privați ar fi refăcute din bani publici",
             "major": true,
+            "article": "art. 18 alin. (3)"
+          },
+          {
+            "text": "Nu se spune cine evaluează paguba și la ce dată se calculează valoarea",
+            "major": false,
             "article": "art. 18 alin. (1)"
           },
           {
-            "text": "Termenul de 90 de zile curge de la incident, nu de la depunerea cererii",
+            "text": "Cele 90 de zile curg de la incident, nu de la cerere; fără sancțiune",
             "major": false,
             "article": "art. 18 alin. (2)"
           },
           {
-            "text": "Reconstrucția în un an, la „starea inițială”, ignoră autorizarea, achizițiile și normele seismice",
+            "text": "Reconstrucție în un an «la starea inițială», ignorând autorizații, licitații și norme seismice",
             "major": false,
             "article": "art. 18 alin. (3)"
           },
           {
-            "text": "Obligația e pusă pe „primărie”, care nu are personalitate juridică, nu pe UAT",
+            "text": "Obligația e pusă pe «primărie», care nu are personalitate juridică, nu pe UAT",
             "major": false,
-            "article": "art. 18 alin. (3) și (4)"
+            "article": "art. 18 alin. (3)"
+          },
+          {
+            "text": "Folosește «incident», deși restul legii vorbește de «dezastru»",
+            "major": false,
+            "article": "art. 18 alin. (2)"
           }
         ],
         "good": [
           {
-            "text": "Dreptul la ajutoare de urgență și despăgubiri la valoarea de piață, la zi",
-            "major": true,
-            "article": "art. 18 alin. (1)"
-          },
-          {
-            "text": "Primăria trebuie să refacă imobilul, inclusiv racordarea la utilități",
+            "text": "Păgubiții își păstrează statutul de proprietari sau chiriași după reconstrucție",
             "major": true,
             "article": "art. 18 alin. (3)"
           },
           {
-            "text": "Păgubiții rămân proprietari sau chiriași, ca înainte de dezastru",
+            "text": "Primăria plătește cazarea păgubiților până la finalizarea lucrărilor, în condiții cel puțin similare",
             "major": true,
             "article": "art. 18 alin. (3)"
-          },
-          {
-            "text": "Primăria plătește cazarea celor afectați până la terminarea lucrărilor",
-            "major": true,
-            "article": "art. 18 alin. (3)"
-          },
-          {
-            "text": "Guvernul plătește din fondul de urgență dacă primăria nu are bani",
-            "major": true,
-            "article": "art. 18 alin. (4)"
-          },
-          {
-            "text": "Statul poate recupera banii de la cei găsiți vinovați de tragedie",
-            "major": false,
-            "article": "art. 18 alin. (4)"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 5,
-        "removed": 7,
-        "same": 0.44
+        "added": 4,
+        "removed": 5,
+        "same": 0.6
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-29T13:03:52.265Z"
+      "schema": 4,
+      "updatedAt": "2026-11-10T20:46:03.953Z"
     }
   ]
 }

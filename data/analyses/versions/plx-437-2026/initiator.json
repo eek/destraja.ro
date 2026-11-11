@@ -2,24 +2,24 @@
   "billId": "PL-x 437/2026",
   "slug": "plx-437-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T12:41:06.819Z",
+  "updatedAt": "2026-11-10T20:57:47.477Z",
   "consensus": {
-    "riskScore": 5.5,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
-    "plainTitle": "Reținerea permisului șoferilor străini la ieșirea din țară până la plata amenzii rutiere",
-    "summaryTlDr": "Deși scopul de a încasa amenzile de la șoferii nerezidenți este legitim, proiectul este redactat neglijent: blochează restituirea permisului chiar înainte de crearea contului unic de plată și încalcă Convenția de la Viena privind circulația rutieră.",
-    "initiatorClaim": "Inițiatorii doresc să eficientizeze încasarea amenzilor rutiere aplicate cetățenilor străini fără domiciliu în România și să elimine discriminarea față de șoferii și transportatorii români.",
-    "realityCheck": "Legea condiționează restituirea permisului străin la părăsirea României de dovada achitării amenzii, transformând o sancțiune cu efect strict teritorial într-o măsură de sechestru asupra documentului. În plus, obligația șoferului intră în vigoare în 3 zile de la publicare, dar Ministerul Finanțelor primește 90 de zile răgaz pentru a comunica contul în care se poate face plata.",
+    "plainTitle": "Permisul străin suspendat se dă înapoi înainte de plecare doar cu amenda plătită",
+    "summaryTlDr": "Este o modificare tehnică, mică și în general rezonabilă: restituirea anticipată a permisului străin suspendat se condiționează de plata amenzii. Riscul nu vine din abuz, ci din formularea neclară și din raza foarte mică, care nu acoperă problema descrisă în expunerea de motive.",
+    "initiatorClaim": "Inițiatorii spun că statul nu reușește să încaseze amenzile de circulație date șoferilor străini fără domiciliu în România. Asta ar dezavantaja transportatorii români și bugetul de stat. Invocă Directiva 2015/413, Legile 5/2014 și 203/2018 și susținerea UNTRR.",
+    "realityCheck": "Legea îi atinge doar pe titularii unui permis eliberat în străinătate cărora li s-a suspendat dreptul de a conduce și care cer permisul înapoi înainte de sfârșitul suspendării, ca să plece din țară. Aceștia vor trebui să arate că au plătit amenda. Marea masă a amenzilor neîncasate rămâne neatinsă: amenzile fără suspendare, cele constatate cu radarul și cazurile soldate cu avertisment, ca în exemplul de la Vâlcea din expunere. Art. II obligă Ministerul să „comunice” un cont unic, fără să spună cui și cum, iar art. I intră în vigoare fără să aștepte acest cont.",
     "affectedGroups": [
       "Șoferi & Auto",
       "IMM & Antreprenori",
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I și Art. II din proiectul de lege",
-      "proposalContent": "La Art. I, alin. (1¹) se completează în final cu: „pe baza dovezii achitării amenzii, dacă aceasta a fost aplicată, sau a dovezii înregistrării plângerii contravenționale ori a constituirii unei garanții.” La Art. II, prevederile Art. I intră în vigoare la 90 de zile de la publicare, după operaționalizarea contului unic de către Ministerul Finanțelor.",
-      "argumentation": "Condiționarea restituirii permisului străin la ieșirea din țară exclusiv de plata pe loc a amenzii încalcă Convenția de la Viena (art. 42), blochează cazurile în care s-a aplicat avertisment și anulează termenul legal de 15 zile. În plus, Art. I nu poate intra în vigoare înainte ca Ministerul Finanțelor să creeze contul unic prevăzut la Art. II.",
-      "otherComments": "În Art. I s-a strecurat o eroare gramaticală („a fost constată fapta” în loc de „constatată”), iar la Art. II este folosită denumirea veche „Ministerul Finanțelor Publice” în loc de „Ministerul Finanțelor”. În Expunerea de motive a rămas copiat din greșeală un paragraf dintr-o interpelare parlamentară privind prelucrarea datelor solicitate."
+      "articleRef": "Art. I – art. 113 alin. (1¹) OUG 195/2002",
+      "proposalContent": "Art. I, alin.(1¹): sintagma «, pe baza înscrisului care face dovada că amenda a fost achitată» se înlocuiește cu: «. Dacă fapta a fost sancționată și cu amendă, cererea se însoțește de dovada achitării acesteia, inclusiv în cuantum de jumătate din minim. Plata nu afectează dreptul de a formula plângere.»",
+      "argumentation": "Textul nu spune ce se întâmplă când suspendarea nu e însoțită de amendă și nici dacă plata redusă (jumătate din minim) e suficientă. Fără precizare, condiția poate fi citită ca obligație de a plăti integral înainte de expirarea termenului de plângere, ce ar afecta accesul la justiție (art. 21) și previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
+      "otherComments": "Art. II: «Ministerul Finanțelor Publice» se numește azi Ministerul Finanțelor; termenul de 90 de zile curge după intrarea în vigoare a art. I, deci condiția se aplică înainte să fie anunțat contul. Propunem: contul se publică pe site-ul ministerului și al Poliției Române, iar art. I intră în vigoare la 90 de zile de la publicare. Corectură: «constată» → «constatată»."
     }
   },
   "council": {
@@ -55,9 +55,34 @@
     },
     "claude": {
       "model": "claude",
-      "status": "error",
-      "durationMs": 420025,
-      "error": "timeout după 420s"
+      "durationMs": 154001,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Permisul străin suspendat se dă înapoi înainte de plecare doar cu amenda plătită",
+      "verdictShort": "Este o modificare tehnică, mică și în general rezonabilă: restituirea anticipată a permisului străin suspendat se condiționează de plata amenzii. Riscul nu vine din abuz, ci din formularea neclară și din raza foarte mică, care nu acoperă problema descrisă în expunerea de motive.",
+      "initiatorClaim": "Inițiatorii spun că statul nu reușește să încaseze amenzile de circulație date șoferilor străini fără domiciliu în România. Asta ar dezavantaja transportatorii români și bugetul de stat. Invocă Directiva 2015/413, Legile 5/2014 și 203/2018 și susținerea UNTRR.",
+      "realityCheck": "Legea îi atinge doar pe titularii unui permis eliberat în străinătate cărora li s-a suspendat dreptul de a conduce și care cer permisul înapoi înainte de sfârșitul suspendării, ca să plece din țară. Aceștia vor trebui să arate că au plătit amenda. Marea masă a amenzilor neîncasate rămâne neatinsă: amenzile fără suspendare, cele constatate cu radarul și cazurile soldate cu avertisment, ca în exemplul de la Vâlcea din expunere. Art. II obligă Ministerul să „comunice” un cont unic, fără să spună cui și cum, iar art. I intră în vigoare fără să aștepte acest cont.",
+      "affectedGroups": [
+        "Șoferi & Auto",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. I (art. 113 alin. (1¹) din OUG 195/2002): noutatea este condiția „pe baza înscrisului care face dovada că amenda a fost achitată”. Restul alineatului păstrează restituirea anticipată a permisului străin, cu cel mult o zi lucrătoare înainte de părăsirea țării. Suspendarea în sine și cuantumul amenzilor nu se schimbă.",
+        "Textul vorbește de „amenda” fără să spună care: cea din același proces-verbal sau toate amenzile restante, plata integrală sau jumătatea din minim. Nu reglementează nici cazul în care suspendarea nu e însoțită de amendă, situație în care dovada cerută nu poate exista.",
+        "Criteriile nu se potrivesc între ele. Art. I vizează permisul eliberat de o autoritate străină, art. II vorbește de „cetățenii străini”, iar expunerea de „persoane fără domiciliu în România”. Un român cu domiciliul în străinătate și permis străin intră sub art. I, dar nu e vizat de art. II.",
+        "Art. II: termenul de 90 de zile curge de la intrarea în vigoare a art. I, deci condiția de plată se aplică înainte ca „contul unic” să fie anunțat. Lipsesc destinatarul și forma comunicării. Instituția numită „Ministerul Finanțelor Publice” se numește azi Ministerul Finanțelor.",
+        "Impactul bugetar și birocratic este mic. Nu apar taxe, sancțiuni noi sau sarcini pentru IMM-uri. Încasările din amenzile însoțite de suspendare pot crește marginal, iar poliția rutieră are în plus de verificat o dovadă de plată. Efectul asupra „concurenței loiale” dintre transportatori, invocat în expunere, este practic neglijabil."
+      ],
+      "blindSpotsCaught": "Expunerea de motive descrie două probleme: lipsa seriei unice a proceselor-verbale prevăzute de Legea 203/2018 și schimbul transfrontalier de date. Directiva invocată este Directiva (UE) 2024/3237, citată greșit ca „Directiva 3237/2024”, care modifică Directiva 2015/413. Articolele nu rezolvă niciuna dintre aceste probleme. Nu folosesc nici instrumentul care permite deja executarea amenzilor în alt stat UE: Decizia-cadru 2005/214/JAI, transpusă prin Legea 302/2004. Rămâne și o problemă practică: dacă amenda plătită pentru recuperarea permisului e anulată ulterior în instanță, legea nu spune cum primește banii înapoi o persoană care a plecat din țară. Textul are și erori de redactare: „constată” în loc de „constatată” și „Ordonanța de urgență nr. 195/2002” fără „a Guvernului”.",
+      "constitutionalityNote": "Nu se vede o problemă constituțională gravă. Tratamentul diferit față de titularii de permis românesc are o justificare obiectivă: amenzile sunt greu de executat după plecarea din țară. Diferența privește doar o facilitate, restituirea înainte de termen, nu dreptul de a părăsi România (art. 25). Proiectul trece probabil testul art. 16 și al art. 18. Nu se creează o sancțiune nouă, deci art. 23 alin. (12) nu este afectat. Riscurile țin de claritate și previzibilitate (art. 1 alin. (5)): „amenda” nu e definită, cazul suspendării fără amendă lipsește, iar raportul dintre plată și dreptul de plângere contravențională nu e lămurit. Dacă plata ar ajunge să fie tratată ca renunțare la contestare, ar fi afectat accesul liber la justiție (art. 21). Formula de adoptare (art. 75 și art. 76 alin. (2)) este corectă pentru o lege ordinară.",
+      "euLawNote": "Directiva 2018/958, privind testul de proporționalitate pentru profesiile reglementate, nu se aplică, fiindcă nu se reglementează nicio profesie. Nici TRIS 2015/1535 nu se aplică, fiindcă nu există reguli tehnice sau servicii ale societății informaționale. Directiva 2006/126/CE privind permisele de conducere nu împiedică statul să suspende pe teritoriul său dreptul de a conduce al titularului unui permis străin pentru fapte comise acolo. Proiectul nu schimbă suspendarea, ci doar condiția restituirii anticipate. Criteriul „permis străin” îi atinge în special pe cetățenii altor state membre, deci contează nediscriminarea (art. 18 TFUE). Scopul este legitim, executarea efectivă a sancțiunilor, iar măsura condiționează doar o facilitate, așa că pare proporțională. Directiva 2015/413, modificată prin 2024/3237, privește schimbul de date și informarea contravenienților și nu este nici transpusă, nici afectată de acest proiect.",
+      "senatForm": {
+        "articleRef": "Art. I – art. 113 alin. (1¹) OUG 195/2002",
+        "proposalContent": "Art. I, alin.(1¹): sintagma «, pe baza înscrisului care face dovada că amenda a fost achitată» se înlocuiește cu: «. Dacă fapta a fost sancționată și cu amendă, cererea se însoțește de dovada achitării acesteia, inclusiv în cuantum de jumătate din minim. Plata nu afectează dreptul de a formula plângere.»",
+        "argumentation": "Textul nu spune ce se întâmplă când suspendarea nu e însoțită de amendă și nici dacă plata redusă (jumătate din minim) e suficientă. Fără precizare, condiția poate fi citită ca obligație de a plăti integral înainte de expirarea termenului de plângere, ce ar afecta accesul la justiție (art. 21) și previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
+        "otherComments": "Art. II: «Ministerul Finanțelor Publice» se numește azi Ministerul Finanțelor; termenul de 90 de zile curge după intrarea în vigoare a art. I, deci condiția se aplică înainte să fie anunțat contul. Propunem: contul se publică pe site-ul ministerului și al Poliției Române, iar art. I intră în vigoare la 90 de zile de la publicare. Corectură: «constată» → «constatată»."
+      },
+      "status": "ok"
     },
     "codex": {
       "model": "codex",

@@ -2,14 +2,14 @@
   "billId": "PL-x 105/2026",
   "slug": "plx-105-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T14:03:17.801Z",
+  "updatedAt": "2026-11-10T20:37:20.168Z",
   "consensus": {
     "riskScore": 5,
     "riskLevel": "yellow",
-    "plainTitle": "Interzicerea obligării șoferilor de camion să încarce și să descarce marfa",
-    "summaryTlDr": "Intenția de a proteja șoferii de tir de munca de hamal în depozite este legitimă și inspirată din modelul spaniol, dar textul legii este redactat neglijent. Lipsa unui prag de tonaj (ex. peste 7,5 tone), omisiunile din lista de excepții și amenzile de până la 30.000 lei aplicate „după caz” creează blocaje pentru distribuția mică și riscuri de abuz la control.",
-    "initiatorClaim": "Inițiatorii vor să interzică practica prin care șoferii profesioniști de marfă sunt forțați să încarce sau să descarce singuri camioanele, prevenind epuizarea fizică, accidentele de muncă și încălcarea timpilor de odihnă și siguranță rutieră.",
-    "realityCheck": "Deși rezolvă o problemă reală pentru transportul greu la marile lanțuri logistice, legea nu prevede niciun prag de tonaj (spre deosebire de Spania, unde regula vizează vehiculele de peste 7,5 tone) și nu exceptează distribuția fracționată, aprovizionarea micilor magazine sau curieratul. Mai mult, la transporturile specializate (Art. 3), textul permite prin excepție doar „descărcarea”, uitând să menționeze și „încărcarea”, iar amenzile de 10.000–30.000 lei nu stabilesc clar cine răspunde între transportator, furnizor, beneficiar sau casa de expediții.",
+    "plainTitle": "Șoferii de marfă nu mai pot fi obligați să încarce sau să descarce",
+    "summaryTlDr": "Protecție utilă și cerută de mult pentru șoferi, dar scrisă în grabă. Excepțiile sunt o listă deschisă care uită încărcarea și nu există prag de tonaj. Amenda de 10.000–30.000 lei cade «după caz» pe oricine din lanț, fără ca fapta să fie descrisă.",
+    "initiatorClaim": "Inițiatorii spun că șoferii sunt forțați să descarce marfa, deși nu e treaba lor. Asta îi epuizează, le mănâncă din timpul de odihnă și scade siguranța rutieră. Vor ca sarcina să treacă clar pe destinatar, furnizor sau intermediar, după modelul Spaniei.",
+    "realityCheck": "Codul civil spune deja că expeditorul încarcă și destinatarul descarcă, dar numai dacă părțile nu au convenit altfel. Legea face din această regulă una obligatorie: clauza contrară e nulă (art. 4) și se amendează cu 10.000–30.000 lei (art. 5). Legea nu are prag de tonaj și nu definește operațiunile, așa că prinde și curierii, dubele de livrare și paleții coborâți cu oblonul. Excepțiile din art. 3 sunt o listă deschisă și acoperă doar descărcarea. Legea nu fixează nici termen de descărcare, nici plată pentru așteptare. Un destinatar fără personal poate ține camionul pe loc ore întregi, tocmai problema de timp de odihnă invocată.",
     "affectedGroups": [
       "Șoferi & Auto",
       "IMM & Antreprenori",
@@ -17,10 +17,10 @@
       "Agricultură & Mediu"
     ],
     "senatForm": {
-      "articleRef": "Art. 2 alin. (1) și Art. 3",
-      "proposalContent": "La Art. 2 alin. (1), interdicția vizează exclusiv vehiculele cu masa maximă autorizată peste 7,5 tone. La Art. 3, sintagma „operațiuni de descărcare” devine „operațiuni de încărcare/descărcare”, incluzând expres curieratul, distribuția urbană/fracționată și livrările cu hayon/transpaletă, eliminându-se formularea vagă „fără ca excepția să se limiteze numai la acestea”.",
-      "argumentation": "Fără pragul de 7,5 tone (existent în legea din Spania invocată de inițiatori) și fără exceptarea distribuției/curieratului, legea blochează aprovizionarea micilor magazine și livrările curente. În plus, Art. 3 omite „încărcarea” la transporturile specializate, iar lista deschisă de excepții încalcă Art. 1 alin. (5) din Constituție privind previzibilitatea legii contravenționale.",
-      "otherComments": "La Art. 5 este necesară individualizarea clară a subiectului sancțiunii contravenționale (10.000-30.000 lei), deoarece formularea „operatorului, beneficiarului, furnizorului sau intermediarilor, după caz” creează arbitrariu în controalele ITM și sancționează intermediari (case de expediții) care nu dețin control fizic asupra locului de încărcare/descărcare."
+      "articleRef": "Art. 3 – excepțiile de la interdicție",
+      "proposalContent": "Art. 3 – Prevederile art. 2 nu se aplică: a) vehiculelor cu masa maximă autorizată de cel mult 7,5 t; b) încărcării și descărcării la transporturile vrac, de combustibili, cu autobetoniera, de animale vii, la mutări, la transportul de vehicule și la vehiculele cu macara proprie.",
+      "argumentation": "Lista deschisă din art. 3 («fără ca excepția să se limiteze») lasă inspectorul să decidă ce transport e exceptat, deși amenda e de 10.000–30.000 lei: lipsă de previzibilitate (art. 1 alin. 5 Constituție). Art. 3 omite încărcarea (cisterne la depozit, animale vii). Fără prag, sunt prinși și curierii; modelul spaniol din expunere se aplică doar peste 7,5 t.",
+      "otherComments": "Analiza privește forma inițiatorului; textul promulgat ca Legea 100/2026 poate diferi și, fiind adoptat, se corectează doar printr-o lege de modificare. Tot atunci: art. 5 să descrie fiecare faptă și cine răspunde (cel care impune operațiunea), cu minim redus pentru microîntreprinderi, plus un termen maxim de descărcare la destinatar."
     }
   },
   "council": {
@@ -57,9 +57,36 @@
     },
     "claude": {
       "model": "claude",
-      "status": "error",
-      "durationMs": 420026,
-      "error": "timeout după 420s"
+      "durationMs": 908029,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Șoferii de marfă nu mai pot fi obligați să încarce sau să descarce",
+      "verdictShort": "Protecție utilă și cerută de mult pentru șoferi, dar scrisă în grabă. Excepțiile sunt o listă deschisă care uită încărcarea și nu există prag de tonaj. Amenda de 10.000–30.000 lei cade «după caz» pe oricine din lanț, fără ca fapta să fie descrisă.",
+      "initiatorClaim": "Inițiatorii spun că șoferii sunt forțați să descarce marfa, deși nu e treaba lor. Asta îi epuizează, le mănâncă din timpul de odihnă și scade siguranța rutieră. Vor ca sarcina să treacă clar pe destinatar, furnizor sau intermediar, după modelul Spaniei.",
+      "realityCheck": "Codul civil spune deja că expeditorul încarcă și destinatarul descarcă, dar numai dacă părțile nu au convenit altfel. Legea face din această regulă una obligatorie: clauza contrară e nulă (art. 4) și se amendează cu 10.000–30.000 lei (art. 5). Legea nu are prag de tonaj și nu definește operațiunile, așa că prinde și curierii, dubele de livrare și paleții coborâți cu oblonul. Excepțiile din art. 3 sunt o listă deschisă și acoperă doar descărcarea. Legea nu fixează nici termen de descărcare, nici plată pentru așteptare. Un destinatar fără personal poate ține camionul pe loc ore întregi, tocmai problema de timp de odihnă invocată.",
+      "affectedGroups": [
+        "Șoferi & Auto",
+        "IMM & Antreprenori",
+        "Angajați & HR"
+      ],
+      "keyFindings": [
+        "Art. 3: lista transporturilor exceptate e deschisă («fără ca excepția să se limiteze numai la acestea»). Excepția mai depinde și de cât de «obiectiv» o impune natura transportului. Operatorul și destinatarul nu pot ști dinainte dacă sunt exceptați, deși greșeala costă minimum 10.000 lei.",
+        "Art. 3 permite șoferului doar descărcarea. Obligarea lui să încarce rămâne interzisă și la cisterne, unde șoferul încarcă de regulă singur la rampa depozitului. La fel la animalele vii, unde șoferul participă în mod obișnuit la îmbarcare.",
+        "Art. 2 nu are prag de tonaj și nu definește «operațiunile de descărcare/încărcare». Intră curierii, livrările cu duba și paleții coborâți cu oblonul hidraulic. Rămâne neclar dacă fixarea mărfii sau operarea macaralei proprii intră și ele. Modelul spaniol citat în expunere se aplică doar vehiculelor peste 7,5 t.",
+        "Art. 5 sancționează generic «încălcarea prevederilor prezentei legi», fără să descrie fapta. Amenda se dă «după caz» operatorului, beneficiarului, furnizorului sau intermediarului. Minimul de 10.000 lei e același pentru un hipermarket și pentru un magazin de cartier, iar textul nu exclude nici destinatarul persoană fizică.",
+        "Art. 2 alin. (1) protejează doar șoferii «angajați ai operatorilor de transport rutier». Rămân pe dinafară șoferii pe cont propriu (PFA, II). Probabil rămân pe dinafară și șoferii firmelor care își transportă propria marfă (transport în cont propriu).",
+        "Art. 6 dă Inspecției Muncii control la furnizori, beneficiari și intermediari, adică la firme care nu sunt angajatorii șoferului, fără ISCTR. Dovada că șoferul a fost «obligat», nu a ajutat de bunăvoie, va fi greu de făcut. Legea intră în vigoare la 30 de zile (art. 8), dar normele vin abia în 90 (art. 7)."
+      ],
+      "blindSpotsCaught": "Trei chichițe. (1) Art. 2 interzice doar obligarea, dar art. 3 e scris ca permisiune («pot efectua»), ceea ce sugerează o interdicție totală; un inspector poate amenda și când șoferul a ajutat de bunăvoie. (2) Legea nu spune nimic despre transportul internațional, care înseamnă majoritatea curselor românești. Nu e clar dacă se aplică unui contract guvernat de lege străină sau unui operator străin în cabotaj. (3) Nu există termen de descărcare și nici plată pentru așteptare. Riscul se mută astfel de pe spatele șoferului pe timpul lui de odihnă.",
+      "constitutionalityNote": "Scopul e legitim: art. 41 alin. (2) protejează securitatea și sănătatea salariaților. Restrângerea libertății contractuale și economice (art. 45) poate trece testul de proporționalitate din art. 53. Problemele țin de redactare. Lista deschisă din art. 3 nu îndeplinește standardul de claritate și previzibilitate din art. 1 alin. (5). La fel norma de trimitere generală din art. 5 («încălcarea prevederilor prezentei legi»), cu destinatarul amenzii ales «după caz». Standardul e mai strict pentru sancțiuni de acest nivel, care după criteriile Engel ale CEDO au caracter penal. Legea e deja promulgată, deci aceste vicii pot fi ridicate doar pe cale de excepție de neconstituționalitate, într-un litigiu concret (contestarea unui proces-verbal).",
+      "euLawNote": "TRIS (2015/1535) nu se aplică: legea nu privește produse sau servicii ale societății informaționale. Directiva 2018/958 e cel mult tangentă: legea nu condiționează accesul la profesia de șofer, ci repartizează o sarcină în contractul de muncă și de transport. Directiva 2002/15/CE include încărcarea și descărcarea în timpul de lucru al lucrătorilor mobili, dar permite norme naționale mai favorabile. Spania are o interdicție similară din 2022, deci principiul e compatibil cu dreptul UE. Punctul sensibil e libera prestare a serviciilor de transport. Legea s-ar putea aplica operatorilor străini în cabotaj, iar Regulamentul 1072/2009 permite regulile statului gazdă pentru contractul de transport. Ar putea viza și cursele internaționale. În ambele cazuri restricția trebuie să fie clară și proporțională, iar lista deschisă din art. 3 slăbește justificarea.",
+      "senatForm": {
+        "articleRef": "Art. 3 – excepțiile de la interdicție",
+        "proposalContent": "Art. 3 – Prevederile art. 2 nu se aplică: a) vehiculelor cu masa maximă autorizată de cel mult 7,5 t; b) încărcării și descărcării la transporturile vrac, de combustibili, cu autobetoniera, de animale vii, la mutări, la transportul de vehicule și la vehiculele cu macara proprie.",
+        "argumentation": "Lista deschisă din art. 3 («fără ca excepția să se limiteze») lasă inspectorul să decidă ce transport e exceptat, deși amenda e de 10.000–30.000 lei: lipsă de previzibilitate (art. 1 alin. 5 Constituție). Art. 3 omite încărcarea (cisterne la depozit, animale vii). Fără prag, sunt prinși și curierii; modelul spaniol din expunere se aplică doar peste 7,5 t.",
+        "otherComments": "Analiza privește forma inițiatorului; textul promulgat ca Legea 100/2026 poate diferi și, fiind adoptat, se corectează doar printr-o lege de modificare. Tot atunci: art. 5 să descrie fiecare faptă și cine răspunde (cel care impune operațiunea), cu minim redus pentru microîntreprinderi, plus un termen maxim de descărcare la destinatar."
+      },
+      "status": "ok"
     },
     "codex": {
       "model": "codex",

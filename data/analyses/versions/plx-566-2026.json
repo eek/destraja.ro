@@ -1,20 +1,24 @@
 {
   "slug": "plx-566-2026",
   "billId": "PL-x 566/2026",
-  "updatedAt": "2026-10-29T13:13:55.146Z",
+  "updatedAt": "2026-11-10T21:04:05.798Z",
+  "plan": [
+    "initiator",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
       "label": "Forma inițiatorului",
       "url": "https://www.senat.ro/legis/PDF/2026/26L459FG.PDF",
       "source": "senat.ro",
-      "riskScore": 3.5,
+      "riskScore": 3.3,
       "riskLevel": "green",
-      "plainTitle": "Vânzarea bunurilor confiscate de ANAF prin licitații online, magazine online și agenții imobiliare",
-      "summaryTlDr": "O inițiativă utilă de modernizare care scoate ANAF din era licitațiilor pe hârtie și deblochează vânzarea imobilelor în coproprietate, dar care suferă de erori de redactare și lasă prea multă discreție ordinelor interne ANAF privind vânzarea directă.",
+      "plainTitle": "ANAF ar putea vinde bunurile confiscate prin licitații și magazine online",
+      "summaryTlDr": "Idee utilă și în mare tehnică: dă temei explicit pentru licitații online, site-uri specializate și magazine online la vânzarea bunurilor intrate în proprietatea statului. Textul are însă scăpări de redactare și lasă vânzarea directă a bunurilor mobile fără preț minim și fără criterii, lucru pe care comisiile ar trebui să-l repare.",
       "scores": {
         "agy": 4,
-        "claude": null,
+        "claude": 3,
         "codex": 3
       }
     },
@@ -39,12 +43,12 @@
       "from": "initiator",
       "to": "senat",
       "direction": "mai_riscant",
-      "headline": "Senatul a adăugat reduceri de preț la licitații, până la 75% sub evaluare, fără limită de licitații",
-      "summary": "Acum licitațiile pot porni, de la a patra licitație, de la un sfert din valoarea evaluată, iar alcoolul și produsele energetice pot fi distruse fără prag clar. În schimb, coproprietarii și proprietarii terenului sau ai construcției primesc din nou prioritate după fiecare ieftinire.",
+      "headline": "Prețul de pornire la licitațiile statului poate coborî la un sfert din evaluare, fără limită",
+      "summary": "Senatul a introdus reduceri ale prețului de pornire la licitații, până la 25% din evaluare, la oricâte licitații. În schimb, bunurile mobile au acum un preț de referință, iar coproprietarii și proprietarii terenului sau ai construcției sunt anunțați din nou după fiecare reducere.",
       "changes": [
         {
-          "title": "Licitațiile pot porni de la un sfert din evaluare",
-          "text": "Nou la art. 9 alin. (3): prețul de pornire scade cu 25%, 50%, apoi cu 75% din evaluare de la a patra licitație. Nu există limită de licitații, interval minim sau reevaluare.",
+          "title": "Prețul la licitații scade până la un sfert",
+          "text": "Acum, la art. 9 alin. (3), prețul de pornire scade cu 25% la a doua licitație, cu 50% la a treia și cu 75% la toate următoarele, fără limită de număr sau reevaluare. Inițial legea nu prevedea reduceri.",
           "effect": "mai_rau",
           "major": true,
           "article": "art. 9 alin. (3)",
@@ -54,8 +58,19 @@
           "afterAbsent": false
         },
         {
-          "title": "Prioritatea la cumpărare revine după fiecare ieftinire",
-          "text": "Coproprietarii, proprietarul construcției și proprietarul terenului sunt înștiințați din nou și pot cumpăra direct după fiecare reducere de preț (art. 9 alin. 9-11).",
+          "title": "Bunurile mobile se vând la valoarea de evaluare",
+          "text": "La art. 9 alin. (1), bunurile mobile se vând acum la valoarea stabilită de comisia de evaluare, care poate apela la evaluatori sau experți. Inițial textul nu dădea niciun preț de referință.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 9 alin. (1)",
+          "before": "Valorificarea bunurilor mobile intrate în proprietatea privată a statului se poate face prin următoarele metode de valorificare:",
+          "after": "intrate în proprietatea privată a statului se face la valoarea stabilită de comisia de evaluare, care poate apela la serviciile unor evaluatori autorizați sau experți tehnici specializați, proprii sau independenți",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Cei cu drept de preferință, anunțați la fiecare ieftinire",
+          "text": "La art. 9 alin. (9)-(11), coproprietarii, proprietarul construcției și proprietarul terenului sunt înștiințați din nou și pot cumpăra direct după fiecare reducere de preț.",
           "effect": "mai_bine",
           "major": true,
           "article": "art. 9 alin. (9)-(11)",
@@ -65,46 +80,35 @@
           "afterAbsent": false
         },
         {
-          "title": "Bunurile mobile se vând la valoarea evaluată",
-          "text": "Inițial legea nu fixa un preț pentru bunurile mobile. Acum vânzarea se face la valoarea stabilită de comisia de evaluare, care poate apela la evaluatori autorizați (art. 9 alin. 1).",
-          "effect": "mai_bine",
-          "major": true,
-          "article": "art. 9 alin. (1)",
-          "before": "Valorificarea bunurilor mobile intrate în proprietatea privată a statului se poate face prin următoarele metode de valorificare:",
-          "after": "se face la valoarea stabilită de comisia de evaluare, care poate apela la serviciile unor evaluatori autorizați sau experți tehnici specializați",
-          "beforeAbsent": false,
-          "afterAbsent": false
-        },
-        {
-          "title": "Alcoolul și produsele energetice pot fi distruse fără prag",
-          "text": "Nou la art. 12¹: comisia poate distruge bunurile când valoarea lor nu justifică cheltuielile de valorificare, fără prag sau criteriu în lege. Analizele de laborator se cer doar dacă lipsesc buletine valabile.",
-          "effect": "mai_rau",
-          "major": true,
-          "article": "art. 12¹ și art. 12³",
-          "before": null,
-          "after": "În cadrul activității comisiei de preluare și distrugere pot fi distruse bunurile pentru care volumul acestora (valoric) nu justifică angajarea cheltuielilor în vederea valorificării.",
-          "beforeAbsent": true,
-          "afterAbsent": false
-        },
-        {
-          "title": "Bunurile din art. 363-364 Cod administrativ, excluse",
-          "text": "La art. 9 alin. (1) și (2), bunurile care intră sub art. 363 și 364 din Codul administrativ sunt scoase din aceste reguli de vânzare. Textul nu spune ce bunuri sunt acestea.",
+          "title": "Bunurile vizate de Codul administrativ, scoase din aceste reguli",
+          "text": "La art. 9 alin. (1) și (2), bunurile care fac obiectul art. 363 și 364 din Codul administrativ (OUG 57/2019) nu mai sunt valorificate prin aceste metode.",
           "effect": "neutru",
           "major": true,
-          "article": "art. 9 alin. (1) și (2)",
+          "article": "art. 9 alin. (1)-(2)",
           "before": "Valorificarea bunurilor imobile intrate în proprietatea privată a statului se face la valoarea stabilită de comisia de evaluare",
           "after": "Valorificarea bunurilor imobile, altele decât cele care fac obiectul prevederilor art.363 și art.364 din Ordonanța de urgență a Guvernului nr.57/2019, cu modificările și completările ulterioare, intrate în proprietatea privată a statului",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Condiții noi pentru mașinile date gratuit autorităților",
-          "text": "Art. 10 alin. (1) lit. a) e rescris: vehicule, ambulanțe și ambarcațiuni merg gratuit la autorități, culte, Crucea Roșie și ONG-uri sociale. Pentru autorități: fără alerte de furt, minimum EURO 4.",
+          "title": "Vehiculele statului, date gratuit instituțiilor, cultelor și ONG-urilor",
+          "text": "Nou la art. 10 alin. (1) lit. a): vehiculele, ambulanțele și ambarcațiunile merg la Secretariatul General al Guvernului și se dau gratuit autorităților, cultelor, Crucii Roșii și ONG-urilor sociale.",
           "effect": "neutru",
           "major": true,
           "article": "art. 10 alin. (1) lit. a)",
           "before": null,
-          "after": "să nu figureze cu alerte de furt sau interdicții în bazele de date naționale și internaționale și să fie încadrate în norma de poluare de minimum EURO 4;",
+          "after": "Secretariatului General al Guvernului - autovehicule, ambulanțe sanitare cu dotări aferente, ambarcațiuni și motoare atașabile acestora, care vor fi repartizate de comisia interministerială, cu titlu gratuit, ministerelor, autorităților publice centrale și locale",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Alcool și combustibili distruși când valorificarea nu merită",
+          "text": "Nou la art. 12¹: comisia poate distruge alcoolul și produsele energetice când valoarea nu justifică cheltuielile, fără vreun prag. Art. 12³ cere analize de laborator doar dacă lipsesc buletine valabile.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 12¹ și 12³",
+          "before": null,
+          "after": "În cadrul activității comisiei de preluare și distrugere pot fi distruse bunurile pentru care volumul acestora (valoric) nu justifică angajarea cheltuielilor în vederea valorificării.",
           "beforeAbsent": true,
           "afterAbsent": false
         }
@@ -112,93 +116,133 @@
       "remaining": {
         "problems": [
           {
-            "text": "De la a patra licitație, prețul pornește de la 25% din evaluare, fără limită",
+            "text": "Prețul de pornire scade la 25% din evaluare, la oricâte licitații, fără reevaluare",
             "major": true,
-            "article": "art. 9 alin. (3)"
+            "article": "art. 9 alin. (3) lit. d)"
           },
           {
-            "text": "Vânzarea directă a bunurilor mobile e permisă fără nicio condiție",
+            "text": "Legea cere valoarea de evaluare, dar permite licitații mult sub ea",
+            "major": true,
+            "article": "art. 9 alin. (1)-(3)"
+          },
+          {
+            "text": "Vânzarea directă a bunurilor mobile nu are nicio condiție",
             "major": true,
             "article": "art. 9 alin. (1) lit. j)"
           },
           {
-            "text": "Vânzarea directă: neclar cum e ales cumpărătorul și la ce preț",
+            "text": "Nu se spune la ce preț și cum se alege cumpărătorul la vânzarea directă",
             "major": true,
-            "article": "art. 9 alin. (1) lit. j) și alin. (2) lit. f)"
+            "article": "art. 9 alin. (2) lit. f)"
           },
           {
-            "text": "Bunurile pot fi distruse când valoarea nu justifică costurile, fără prag",
-            "major": true,
-            "article": "art. 12¹"
-          },
-          {
-            "text": "Procedurile trec la ordin ANAF, fără reguli minime și fără corelare cu HG 731/2007",
+            "text": "Procedurile, inclusiv alegerea intermediarilor, se fac prin ordin ANAF, fără reguli minime în lege",
             "major": false,
-            "article": "art. 9 alin. (3) și (4)"
+            "article": "art. 9 alin. (3)-(4)"
           },
           {
-            "text": "Legea cere vânzare la evaluare, dar permite licitații mult sub această valoare",
-            "major": false,
-            "article": "art. 9 alin. (1)-(3)"
-          },
-          {
-            "text": "Agenții imobiliare apar printre metodele de vânzare a bunurilor mobile",
+            "text": "„Agenții imobiliare” apar, din eroare, printre metodele pentru bunuri mobile",
             "major": false,
             "article": "art. 9 alin. (1) lit. c)"
           },
           {
-            "text": "Condițiile anti-furt și EURO 4 nu se aplică cultelor și ONG-urilor",
+            "text": "Imobilele exceptate de la alin. (2) sunt trimise tot la metodele din alin. (2)",
+            "major": false,
+            "article": "art. 9 alin. (5)-(11)"
+          },
+          {
+            "text": "Alin. (9) repetă regula din alin. (6)",
+            "major": false,
+            "article": "art. 9 alin. (9)"
+          },
+          {
+            "text": "Nu e descrisă procedura de comparare a ofertelor între mai mulți coproprietari",
+            "major": false,
+            "article": "art. 9 alin. (8)"
+          },
+          {
+            "text": "Prețul cerut e formulat diferit: „cel puțin prețul” la teren, „la prețul” la construcție",
+            "major": false,
+            "article": "art. 9 alin. (10)-(11)"
+          },
+          {
+            "text": "Forma autentică a contractului nu e cerută la vânzarea cotei indivize",
+            "major": false,
+            "article": "art. 9 alin. (6)-(8)"
+          },
+          {
+            "text": "Distrugerea alcoolului și produselor energetice nu are un prag de valoare",
+            "major": false,
+            "article": "art. 12¹"
+          },
+          {
+            "text": "Verificarea de furt și norma EURO 4 nu se cer pentru culte și ONG-uri",
             "major": false,
             "article": "art. 10 alin. (1) lit. a)"
           }
         ],
         "good": [
           {
-            "text": "Coproprietarii și proprietarii terenului sau construcției au prioritate la cumpărare",
+            "text": "Coproprietarii și proprietarii terenului sau construcției au drept de cumpărare înaintea altora",
             "major": true,
             "article": "art. 9 alin. (5)-(11)"
           },
           {
-            "text": "Prioritatea la cumpărare se reia după fiecare reducere de preț",
+            "text": "Înștiințarea lor se reia după fiecare reducere de preț",
             "major": true,
             "article": "art. 9 alin. (9)-(11)"
           },
           {
-            "text": "Bunurile se vând la valoarea stabilită de comisia de evaluare",
+            "text": "Bunurile mobile au acum ca reper valoarea stabilită de comisia de evaluare",
             "major": true,
-            "article": "art. 9 alin. (1) și (2)"
+            "article": "art. 9 alin. (1)"
           },
           {
-            "text": "Termene clare: 30 de zile pentru ofertă, 90 de zile pentru plată",
-            "major": false,
-            "article": "art. 9 alin. (6), (10) și (11)"
+            "text": "Vehicule și ambulanțe pot fi date gratuit Crucii Roșii și ONG-urilor sociale",
+            "major": true,
+            "article": "art. 10 alin. (1) lit. a)"
           },
           {
-            "text": "Imobilele se vând direct abia după un an fără cumpărător",
+            "text": "Imobilele se pot vinde direct doar după un an fără cumpărător",
             "major": false,
             "article": "art. 9 alin. (2) lit. f)"
           },
           {
-            "text": "Vehiculele date gratuit autorităților: fără alerte de furt, minimum EURO 4",
+            "text": "Evaluarea se face de evaluatori autorizați sau experți, proprii sau independenți",
+            "major": false,
+            "article": "art. 9 alin. (1)-(2)"
+          },
+          {
+            "text": "Contractul pentru teren sau construcție se încheie în formă autentică în 30 de zile",
+            "major": false,
+            "article": "art. 9 alin. (10)-(11)"
+          },
+          {
+            "text": "Vehiculele date autorităților nu pot avea alerte de furt și sunt minimum EURO 4",
             "major": false,
             "article": "art. 10 alin. (1) lit. a)"
           },
           {
-            "text": "Analizele de laborator se cer doar când lipsesc buletine valabile",
+            "text": "Analizele de laborator se cer doar dacă lipsesc buletine valabile",
             "major": false,
             "article": "art. 12³"
+          },
+          {
+            "text": "Bunurile din străinătate se vând după legea statului unde se află",
+            "major": false,
+            "article": "art. 9 alin. (12)"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 33,
-        "removed": 15,
-        "same": 0.44
+        "added": 31,
+        "removed": 10,
+        "same": 0.5
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-29T13:13:55.146Z"
+      "schema": 4,
+      "updatedAt": "2026-11-10T21:04:05.798Z"
     }
   ]
 }

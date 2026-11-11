@@ -1,20 +1,24 @@
 {
   "slug": "plx-437-2026",
   "billId": "PL-x 437/2026",
-  "updatedAt": "2026-10-29T12:41:56.084Z",
+  "updatedAt": "2026-11-10T20:58:19.812Z",
+  "plan": [
+    "initiator",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
       "label": "Forma inițiatorului",
       "url": "https://www.senat.ro/legis/PDF/2026/26L221FG.PDF",
       "source": "senat.ro",
-      "riskScore": 5.5,
+      "riskScore": 4.7,
       "riskLevel": "yellow",
-      "plainTitle": "Reținerea permisului șoferilor străini la ieșirea din țară până la plata amenzii rutiere",
-      "summaryTlDr": "Deși scopul de a încasa amenzile de la șoferii nerezidenți este legitim, proiectul este redactat neglijent: blochează restituirea permisului chiar înainte de crearea contului unic de plată și încalcă Convenția de la Viena privind circulația rutieră.",
+      "plainTitle": "Permisul străin suspendat se dă înapoi înainte de plecare doar cu amenda plătită",
+      "summaryTlDr": "Este o modificare tehnică, mică și în general rezonabilă: restituirea anticipată a permisului străin suspendat se condiționează de plata amenzii. Riscul nu vine din abuz, ci din formularea neclară și din raza foarte mică, care nu acoperă problema descrisă în expunerea de motive.",
       "scores": {
         "agy": 5,
-        "claude": null,
+        "claude": 3,
         "codex": 6
       }
     },
@@ -39,13 +43,13 @@
       "from": "initiator",
       "to": "senat",
       "direction": "la_fel",
-      "headline": "Proiect adoptat tacit de Senat, fără schimbări de fond; doar o greșeală de scriere corectată",
-      "summary": "Textul nu s-a schimbat pe fond: Senatul l-a adoptat tacit, în forma inițiatorului, corectând doar „constată” în „constatată” și diacriticele. Problemele rămân: nu e clar ce amendă trebuie plătită și cum plătesc străinii până primesc contul unic.",
+      "headline": "Senatul a adoptat tacit proiectul în forma inițiatorului; s-au corectat doar antetul și o greșeală",
+      "summary": "Senatul a adoptat tacit proiectul în forma inițiatorului. S-au schimbat doar antetul și o greșeală de scriere („constatată”). Riscurile rămân aceleași, mai ales că nu e clar ce amendă trebuie plătită ca să-ți primești înapoi permisul.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Nu reiese ce amendă trebuie plătită: cea din procesul-verbal sau orice restanță",
+            "text": "Nu se precizează ce amendă trebuie plătită: cea din procesul-verbal sau toate restanțele",
             "major": true,
             "article": "art. I"
           },
@@ -55,17 +59,22 @@
             "article": "art. I"
           },
           {
-            "text": "La avertisment plus suspendare nu există amendă, dar textul cere dovada plății",
+            "text": "Nu e reglementată suspendarea fără amendă, când dovada plății nu poate exista",
             "major": true,
             "article": "art. I"
           },
           {
-            "text": "Condiția de plată se aplică înainte ca ministerul să comunice contul pentru străini",
+            "text": "Permis străin la art. I, „cetățeni străini” la art. II: criterii nepotrivite",
             "major": true,
-            "article": "art. I și II"
+            "article": "art. II"
           },
           {
-            "text": "Obligația de a comunica contul nu are destinatar, formă de publicare sau sancțiune",
+            "text": "Plata se cere înainte de comunicarea contului unic pentru nerezidenți",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Comunicarea contului unic nu are destinatar, formă de publicare sau sancțiune",
             "major": false,
             "article": "art. II"
           },
@@ -75,24 +84,24 @@
             "article": "art. II"
           },
           {
-            "text": "Amenzile fără suspendare, inclusiv cele de la camere, rămân greu de recuperat",
+            "text": "Nu acoperă străinii sancționați cu avertisment și amenzile fără suspendare, inclusiv de la camere",
             "major": false,
-            "article": "art. I"
+            "article": null
           }
         ],
         "good": [
           {
-            "text": "Străinii își pot recupera permisul înainte de plecarea din țară, ca până acum",
+            "text": "Restituirea anticipată a permisului străin cere dovada plății amenzii",
             "major": true,
             "article": "art. I"
           },
           {
-            "text": "Plata amenzii devine condiție, ca amenzile șoferilor străini să nu rămână neplătite",
+            "text": "Rămâne posibilă restituirea permisului cu o zi lucrătoare înainte de plecare",
             "major": true,
             "article": "art. I"
           },
           {
-            "text": "Ministerul trebuie să comunice un cont unic pentru plata amenzilor de către străini",
+            "text": "Străinii vor avea un cont unic de încasare pentru plata amenzilor",
             "major": false,
             "article": "art. II"
           }
@@ -100,13 +109,13 @@
         "partial": false
       },
       "diff": {
-        "added": 4,
+        "added": 5,
         "removed": 4,
-        "same": 0
+        "same": 0.17
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-29T12:41:56.084Z"
+      "schema": 4,
+      "updatedAt": "2026-11-10T20:58:19.812Z"
     }
   ]
 }

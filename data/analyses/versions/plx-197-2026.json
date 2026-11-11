@@ -1,20 +1,24 @@
 {
   "slug": "plx-197-2026",
   "billId": "PL-x 197/2026",
-  "updatedAt": "2026-10-29T12:47:02.116Z",
+  "updatedAt": "2026-11-10T20:41:47.210Z",
+  "plan": [
+    "initiator",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
       "label": "Forma inițiatorului",
       "url": "https://www.senat.ro/legis/PDF/2026/26L044FG.PDF",
       "source": "senat.ro",
-      "riskScore": 5,
+      "riskScore": 4.7,
       "riskLevel": "yellow",
-      "plainTitle": "Etichetarea produselor cosmetice prin cod QR în loc de stickere în limba română",
-      "summaryTlDr": "O inițiativă cu intenție bună de debirocratizare pentru importatorii și distribuitorii de cosmetice, dar redactată cu erori tehnice evidente și în conflict direct cu Regulamentul (CE) nr. 1223/2009. Mutarea precauțiilor de siguranță exclusiv pe un cod QR creează riscuri juridice pentru comercianți și riscuri de sănătate pentru consumatorii fără acces imediat la internet.",
+      "plainTitle": "Precauțiile și ingredientele cosmeticelor, mutate de pe ambalaj într-un cod QR",
+      "summaryTlDr": "Problema reală e costul stickerelor în română pentru produsele importate, dar soluția aleasă intră în conflict cu un regulament UE direct aplicabil, care cere ca precauțiile și ingredientele să fie pe ambalaj. Nu are capcane fiscale sau monopoluri, însă poate lăsa firmele într-o zonă juridică riscantă și poate lăsa consumatorul la raft cu mai puține informații, inclusiv pe cel alergic.",
       "scores": {
         "agy": 4,
-        "claude": null,
+        "claude": 4,
         "codex": 6
       }
     },
@@ -23,13 +27,13 @@
       "label": "Forma adoptată de Senat",
       "url": "https://www.cdep.ro/proiecte/2026/100/90/7/se217.pdf",
       "source": "cdep.ro",
-      "riskScore": 5,
+      "riskScore": 4.7,
       "riskLevel": "yellow",
-      "plainTitle": "Etichetarea digitală prin cod QR pentru produsele cosmetice: intenție bună de debirocratizare, dar text vulnerabil juridic",
-      "summaryTlDr": "Proiectul vizează reducerea costurilor cu etichetele fizice lipite manual pe cosmeticele importate, permițând afișarea precauțiilor, funcției produsului și ingredientelor prin cod QR. Din păcate, redactarea conține erori tehnice flagrante (trimitere la o literă inexistentă din Regulamentul UE), se află în tensiune cu aplicabilitatea directă a Regulamentului (CE) nr. 1223/2009 și permite ștergerea paginii web înainte de expirarea produsului.",
+      "plainTitle": "Etichetele cosmeticelor pot trimite la un cod QR în loc de stickerul în limba română",
+      "summaryTlDr": "Este o lege tehnică, cu un scop util: mai puține stickere lipite manual și informații mai ușor de citit. Are însă trei probleme: mută și avertismentele de siguranță în online, trimite la o literă din Regulamentul UE care pare să nu existe și intră în tensiune cu armonizarea deplină a etichetării cosmeticelor la nivel UE.",
       "scores": {
         "agy": 5,
-        "claude": null,
+        "claude": 4,
         "codex": 5
       }
     }
@@ -39,28 +43,39 @@
       "from": "initiator",
       "to": "senat",
       "direction": "la_fel",
-      "headline": "Fond neschimbat la Senat: rămân litera (h) inexistentă și pagina web ținută doar 12 luni",
-      "summary": "Senatul a păstrat regulile inițiale despre codul QR pe cosmetice. A precizat doar că trimiterile sunt la regulamentul european și că versiunile suplimentare de pe site sunt în limbi de circulație internațională. Problemele de fond au rămas.",
+      "headline": "Fond neschimbat: Senatul a precizat trimiterile la Regulamentul UE pentru codul QR pe cosmetice",
+      "summary": "Regulile pentru codul QR pe cosmetice au rămas în fond la fel, cu aceleași probleme. Senatul a precizat că trimiterile sunt la Regulamentul UE și a limitat versiunile suplimentare ale paginii la limbi de circulație internațională.",
       "changes": [
         {
-          "title": "Limbile suplimentare de pe site, restrânse",
-          "text": "La art. 20¹ alin. (1) lit. b), versiunile opționale în alte limbi de pe pagina produsului trebuie să fie acum în limbi de circulație internațională. Româna rămâne obligatorie integral.",
-          "effect": "neutru",
+          "title": "Trimiterile la regulamentul european sunt acum explicite",
+          "text": "Inițial, la art. 20¹ alin. (1) lit. b)–d), trimiterea era doar la „art. 19”, fără să spună din ce act. Acum numesc Regulamentul (CE) nr. 1223/2009. Trimiterea greșită la lit. (h) a rămas.",
+          "effect": "mai_bine",
           "major": false,
-          "article": "art. 20¹ alin. (1) lit. b)",
-          "before": "pagina web pune la dispoziția consumatorului în mod integral informațiile în limba română, putând conține suplimentar și versiuni în alte limbi",
-          "after": "pagina de internet pune la dispoziția consumatorului în mod integral informațiile în limba română, putând conține suplimentar și versiuni în alte limbi de circulație internațională",
+          "article": "art. 20¹ alin. (1) lit. b)–d)",
+          "before": "c) elementele prevăzute la art. 19 alin. (1) lit. (a), (b), (c), (e) și (h) rămân obligatoriu înscrise fizic pe recipient sau pe ambalaj;",
+          "after": "c) elementele prevăzute la art.19 alin.(1) lit.(a), (b), (c), (e) și (h) din Regulamentul (CE) nr.1223/2009 al Parlamentului European și al Consiliului din 30 noiembrie 2009 rămân obligatoriu înscrise fizic pe recipient sau pe ambalaj;",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Trimiterile la regulamentul european, scrise explicit",
-          "text": "La art. 20¹ alin. (1) lit. b), c) și d) e numit acum explicit Regulamentul (CE) nr. 1223/2009. A rămas însă trimiterea la litera (h), care nu există în art. 19 alin. (1).",
+          "title": "Pagina produsului: alte limbi doar de circulație internațională",
+          "text": "La art. 20¹ alin. (1) lit. b), româna rămâne obligatorie. Inițial pagina putea avea în plus versiuni în orice limbă, acum doar în limbi „de circulație internațională”.",
           "effect": "neutru",
           "major": false,
-          "article": "art. 20¹ alin. (1) lit. c)",
-          "before": "elementele prevăzute la art. 19 alin. (1) lit. (a), (b), (c), (e) și (h) rămân obligatoriu înscrise fizic pe recipient sau pe ambalaj",
-          "after": "elementele prevăzute la art.19 alin.(1) lit.(a), (b), (c), (e) și (h) din Regulamentul (CE) nr.1223/2009 al Parlamentului European și al Consiliului din 30 noiembrie 2009 rămân obligatoriu înscrise fizic pe recipient sau pe ambalaj",
+          "article": "art. 20¹ alin. (1) lit. b)",
+          "before": "în limba română, putând conține suplimentar și versiuni în alte limbi, și conține complet și actualizat informațiile",
+          "after": "în limba română, putând conține suplimentar și versiuni în alte limbi de circulație internațională, și conține complet și actualizat informațiile",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Obligația paginii de 12 luni, acum clar în articol",
+          "text": "Inițial, ghilimelele se închideau înainte de alin. (2), care părea astfel în afara art. 20¹. Acum alin. (2) face clar parte din articol. Termenul de 12 luni după ultima unitate din lot a rămas același.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 20¹ alin. (2)",
+          "before": "serviciului de relații cu clienții.” (2) Pagina web prevăzută la alin. (1) trebuie să rămână accesibilă pe întreaga durată de comercializare a produsului",
+          "after": "(2) Pagina de internet prevăzută la alin.(1) trebuie să rămână accesibilă pe întreaga durată de comercializare a produsului și pentru o perioadă de cel puțin 12 luni după punerea pe piață a ultimei unități din lot.",
           "beforeAbsent": false,
           "afterAbsent": false
         }
@@ -68,73 +83,78 @@
       "remaining": {
         "problems": [
           {
-            "text": "Sugerează că precauțiile, funcția și ingredientele nu mai trebuie tipărite pe ambalaj, contrar UE",
-            "major": true,
-            "article": "art. 20¹ alin. (1) lit. c)"
-          },
-          {
-            "text": "Neclar dacă codul QR completează sau înlocuiește eticheta; firmele riscă amenzi ANPC",
+            "text": "Precauțiile de utilizare, inclusiv avertismentele de siguranță, pot lipsi de pe ambalaj",
             "major": true,
             "article": "art. 20¹ alin. (1)"
           },
           {
-            "text": "Avertismentele de siguranță pot ajunge doar în spatele codului QR, greu accesibile fără smartphone",
+            "text": "Neclar dacă QR-ul completează eticheta sau o înlocuiește; posibil conflict cu Regulamentul UE",
             "major": true,
             "article": "art. 20¹ alin. (1)"
           },
           {
-            "text": "Trimite la litera (h) a art. 19 din Regulamentul 1223/2009, care nu există",
-            "major": false,
+            "text": "Cine nu are smartphone sau internet nu are soluție pentru informațiile mutate online",
+            "major": true,
+            "article": "art. 20¹ alin. (1) lit. d)"
+          },
+          {
+            "text": "Trimite la litera (h) din art. 19 al Regulamentului, care pare să nu existe",
+            "major": true,
             "article": "art. 20¹ alin. (1) lit. c)"
           },
           {
-            "text": "Pagina web trebuie păstrată doar 12 luni, sub valabilitatea uzuală a cosmeticelor",
+            "text": "Pagina rămâne obligatorie doar 12 luni după lot, mai puțin decât durata produsului",
             "major": false,
             "article": "art. 20¹ alin. (2)"
           },
           {
-            "text": "Codul QR nefuncțional: consumatorul e trimis la site-ul general ori relații cu clienții",
+            "text": "Varianta de rezervă nu ajută la raft, iar „temporar inaccesibil” nu e definit",
             "major": false,
             "article": "art. 20¹ alin. (1) lit. d)"
           }
         ],
         "good": [
           {
-            "text": "Codul QR nu scade protecția consumatorului și nu scutește firma de obligații",
+            "text": "Toate informațiile de pe pagina produsului trebuie să fie integral în limba română",
             "major": true,
-            "article": "art. 20¹ alin. (1) lit. d)"
+            "article": "art. 20¹ alin. (1) lit. b)"
           },
           {
-            "text": "O parte din mențiunile de etichetare rămân obligatoriu tipărite pe ambalaj",
+            "text": "Unele mențiuni de bază rămân obligatoriu tipărite pe recipient sau ambalaj",
             "major": true,
             "article": "art. 20¹ alin. (1) lit. c)"
           },
           {
-            "text": "Informațiile de pe pagina produsului trebuie să fie integral în limba română",
-            "major": false,
-            "article": "art. 20¹ alin. (1) lit. b)"
-          },
-          {
-            "text": "Codul QR trebuie să fie lizibil, durabil și să ducă direct la pagina produsului",
+            "text": "Codul QR trebuie să fie lizibil, durabil și să ducă direct la produs",
             "major": false,
             "article": "art. 20¹ alin. (1) lit. a)"
           },
           {
-            "text": "Pagina produsului rămâne online cât timp produsul se vinde",
+            "text": "Pagina trebuie să fie completă, actualizată și accesibilă cât timp produsul se vinde",
             "major": false,
-            "article": "art. 20¹ alin. (2)"
+            "article": "art. 20¹ alin. (1) lit. b) și alin. (2)"
+          },
+          {
+            "text": "QR-ul nu poate scădea protecția consumatorului și nu scutește firma de obligații",
+            "major": false,
+            "article": "art. 20¹ alin. (1) lit. d)"
+          },
+          {
+            "text": "Trimiterile la Regulamentul UE sunt acum explicite, fără confuzie cu alte articole",
+            "major": false,
+            "article": "art. 20¹ alin. (1) lit. b)–d)"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 8,
-        "removed": 9,
+        "added": 9,
+        "removed": 10,
         "same": 0
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-29T12:47:02.116Z"
+      "schema": 4,
+      "updatedAt": "2026-11-10T20:41:47.210Z"
     }
   ]
 }

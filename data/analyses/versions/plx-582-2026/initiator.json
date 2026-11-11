@@ -2,14 +2,14 @@
   "billId": "PL-x 582/2026",
   "slug": "plx-582-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T13:14:45.189Z",
+  "updatedAt": "2026-11-10T21:07:20.109Z",
   "consensus": {
     "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Eliminarea adeverinței de asigurat pe hârtie atunci când verificarea se poate face online",
-    "summaryTlDr": "O lege de debirocratizare utilă, care interzice furnizorilor medicali să mai ceară adeverințe fizice de asigurat când statutul pacientului poate fi verificat electronic. Textul conține însă erori de numerotare a alineatelor care trebuie corectate în comisie.",
-    "initiatorClaim": "Inițiatorii vor să transforme verificarea electronică a calității de asigurat în regulă obligatorie și să scutească cetățenii de drumuri inutile pentru obținerea adeverinței de asigurat pe hârtie.",
-    "realityCheck": "Măsura este pozitivă și obligă medicii, spitalele și farmaciile să verifice online calitatea de asigurat, generând o dovadă electronică sigilată de CNAS. Totuși, când sistemele informatice ale CNAS sunt indisponibile tehnic, sarcina prezentării documentelor pe hârtie revine tot pacientului, iar proiectul are greșeli de redactare (două alineate numerotate identic).",
+    "plainTitle": "Gata cu adeverința de asigurat pe hârtie, dacă sistemul CNAS te confirmă",
+    "summaryTlDr": "Este o lege utilă de debirocratizare: medicul, laboratorul și farmacia trebuie să verifice electronic dacă ești asigurat și nu mai au voie să-ți ceară adeverință când sistemul funcționează. Textul are însă greșeli de redactare care slăbesc tocmai garanția principală și conține o adăugire neexplicată despre „alocația de hrană”. Ambele trebuie reparate în comisie.",
+    "initiatorClaim": "Inițiatorii (PNL, USR, UDMR) spun că pacienții sunt încă puși să aducă adeverința de asigurat, deși calitatea lor poate fi verificată electronic. Ei vor ca verificarea electronică să devină regula, iar documentul pe hârtie să rămână doar excepția.",
+    "realityCheck": "Legea obligă furnizorii cu contract CNAS să verifice electronic calitatea de asigurat și interzice cererea adeverinței când verificarea e posibilă. Rezultatul verificării, sigilat electronic calificat de CNAS, are aceeași valoare ca adeverința. În mare parte, legea transformă în obligație o posibilitate pe care legea o recunoaște deja. Chichițele: excepțiile („motive tehnice”) sunt formulate larg și nu trebuie documentate, iar interdicția nu are nicio sancțiune. Art. 343 alin. (3), care ar trebui să garanteze că nu plătești dacă ești confirmat electronic, e redactat ambiguu. Pct. 5 introduce, fără nicio explicație în expunere, „alocația de hrană” pentru persoanele cărora nu li se poate atesta calitatea, cu un posibil cost nebugetat.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Angajați & HR",
@@ -17,10 +17,10 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 2, 3 și 5 (Art. 223 și Art. 232)",
-      "proposalContent": "La Art. I pct. 2 și 3 se corectează dubla numerotare a alin. (1^3) din art. 223 prin renumerotarea alineatelor nou-introduse în alin. (1^4)-(1^8), iar trimiterea din actualul alin. (1^4) se face la alin. (1^1). La pct. 5 se corelează partea dispozitivă (alin. 1) cu numerotarea textului redat (alin. 2) la art. 232 și se îndreaptă erorile materiale („dispositive”).",
-      "argumentation": "În forma actuală, pct. 2 modifică trei alineate dar redă patru (inclusiv un alin. (1^3)), iar pct. 3 introduce încă un alin. (1^3), creând două alineate cu același număr în art. 223. De asemenea, la pct. 5 se dispune modificarea alin. (1) al art. 232, dar textul este numerotat (2). Aceste erori încalcă Legea nr. 24/2000 și art. 1 alin. (5) din Constituție.",
-      "otherComments": "Pentru a evita blocajele când sistemul SIUI al CNAS este indisponibil tehnic (alin. (1^5)), normele metodologice ar trebui să permită interogarea asincronă sau decontarea sub rezerva validării ulterioare, fără a trimite pacientul pe drumuri după adeverințe pe hârtie atunci când serverele CNAS nu funcționează."
+      "articleRef": "Art. I pct. 9 – art. 343 alin. (3)",
+      "proposalContent": "(3) Asigurații prezintă cardul național sau comunică datele necesare verificării electronice. Dacă verificarea electronică confirmă calitatea de asigurat, lipsa cardului sau adeverinței nu atrage plata serviciilor. Serviciile, altele decât cele de la art. 232, se plătesc numai dacă calitatea nu este atestată nici electronic, nici prin documentele de la art. 223 alin. (1⁶).",
+      "argumentation": "Textul pct. 9 e ambiguu: „doar în situația...” poate fi citit ca limitând excepția pentru serviciile de la art. 232, nu plata. Are și erori („calitatea calitatea”, „a adeverința”). Garanția centrală din expunere — nimeni nu plătește când verificarea electronică îl confirmă asigurat — trebuie scrisă neechivoc (art. 1 alin. 5 Constituție, Legea 24/2000).",
+      "otherComments": "Alte corecturi: pct. 2 și 3 creează două alin. (1³); la (1⁴) trimiterea corectă e la alin. (1¹); pct. 5 anunță alin. (1) dar redă un alin. (2) și adaugă „alocația de hrană astfel cum a fost stabilită”, nemotivată și fără sursă de finanțare; încălcarea interdicției de la (1⁴) nu are nicio consecință; statistica anuală să includă adeverințele pe hârtie eliberate."
     }
   },
   "council": {
@@ -56,9 +56,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "error",
-      "durationMs": 420020,
-      "error": "timeout după 420s"
+      "durationMs": 193505,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Gata cu adeverința de asigurat pe hârtie, dacă sistemul CNAS te confirmă",
+      "verdictShort": "Este o lege utilă de debirocratizare: medicul, laboratorul și farmacia trebuie să verifice electronic dacă ești asigurat și nu mai au voie să-ți ceară adeverință când sistemul funcționează. Textul are însă greșeli de redactare care slăbesc tocmai garanția principală și conține o adăugire neexplicată despre „alocația de hrană”. Ambele trebuie reparate în comisie.",
+      "initiatorClaim": "Inițiatorii (PNL, USR, UDMR) spun că pacienții sunt încă puși să aducă adeverința de asigurat, deși calitatea lor poate fi verificată electronic. Ei vor ca verificarea electronică să devină regula, iar documentul pe hârtie să rămână doar excepția.",
+      "realityCheck": "Legea obligă furnizorii cu contract CNAS să verifice electronic calitatea de asigurat și interzice cererea adeverinței când verificarea e posibilă. Rezultatul verificării, sigilat electronic calificat de CNAS, are aceeași valoare ca adeverința. În mare parte, legea transformă în obligație o posibilitate pe care legea o recunoaște deja. Chichițele: excepțiile („motive tehnice”) sunt formulate larg și nu trebuie documentate, iar interdicția nu are nicio sancțiune. Art. 343 alin. (3), care ar trebui să garanteze că nu plătești dacă ești confirmat electronic, e redactat ambiguu. Pct. 5 introduce, fără nicio explicație în expunere, „alocația de hrană” pentru persoanele cărora nu li se poate atesta calitatea, cu un posibil cost nebugetat.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Toți cetățenii",
+        "IMM & Antreprenori",
+        "Angajați & HR"
+      ],
+      "keyFindings": [
+        "Art. 223 alin. (1⁴)–(1⁵) (pct. 3): interzice cererea adeverinței sau a altei dovezi fizice când calitatea de asigurat poate fi verificată electronic. Hârtia rămâne doar pentru sisteme căzute, persoană care nu poate fi identificată sau date lipsă temporar. Acesta e câștigul real al legii pentru pacienți.",
+        "Art. 223 alin. (1²) (pct. 2): rezultatul verificării devine un înscris electronic cu sigiliul electronic calificat și marca temporală calificată ale CNAS, cu aceleași efecte juridice ca adeverința. Conținutul e limitat la datele strict necesare identificării, fără date despre starea de sănătate (alin. (1³) din pct. 2).",
+        "Art. 343 alin. (3) (pct. 9): fraza „cu excepția serviciilor prevăzute la art. 232, doar în situația în care calitatea calitatea de asigurat nu poate fi atestată prin verificare electronică” e ambiguă, pentru că „doar” se poate lega de excepție, nu de plată. Garanția promisă în expunere, că nu plătești dacă verificarea electronică te confirmă, nu e scrisă neechivoc. Textul mai conține erori („a adeverința”, „calitatea calitatea”).",
+        "Pct. 5 (art. 232): anunță modificarea alin. (1), dar redă un text numerotat (2). Introduce „alocația de hrană astfel cum a fost stabilită” pentru persoanele cărora nu li se poate atesta calitatea, fără să spună de cine și cum e stabilită. Expunerea nu pomenește această măsură și afirmă că legea nu extinde pachetul de servicii.",
+        "Tehnică legislativă: pct. 2 conține deja un alin. (1³), iar pct. 3 introduce din nou alin. (1³)–(1⁷). Alin. (1⁴) trimite la instrumentele „prevăzute la alin. (1)”, deși acestea sunt descrise la alin. (1¹). Textul trimite în paralel la ordinul președintelui CNAS (art. 222 alin. (6)), la „normele metodologice privind verificarea electronică” și la contractul-cadru, fără să spună care act stabilește ce.",
+        "Art. 322 alin. (8)–(10) (pct. 7): prevede trasabilitatea și auditarea verificărilor, limitarea la scopurile legale și un raport statistic anual. Raportul numără înscrisurile electronice și cazurile în care verificarea a eșuat, dar nu și adeverințele pe hârtie eliberate, deși expunerea promite acest indicator.",
+        "Art. II–III: legea intră în vigoare la 120 de zile de la publicare, iar ordinul CNAS poate fi emis în până la 90 de zile după intrarea în vigoare. Rezultă o posibilă fereastră de câteva luni în care noile obligații se aplică fără procedura actualizată."
+      ],
+      "blindSpotsCaught": "1) Excepția „din motive tehnice” de la alin. (1⁵) e formulată larg. Furnizorul nu e obligat să consemneze încercarea eșuată de verificare, iar interdicția de la alin. (1⁴) nu are nicio consecință dacă e încălcată. Practic, un cabinet poate cere în continuare adeverința invocând o problemă tehnică, iar pacientul nu are ce contesta. 2) Înscrisul și jurnalele de audit rețin entitatea care a verificat, data și ora. Adunate, ele formează o hartă a vizitelor medicale ale fiecărei persoane (de exemplu, o verificare făcută de un cabinet de psihiatrie sau de oncologie). Potrivit CJUE (C-184/20 OT, C-21/23 Lindenapotheke), date care dezvăluie indirect informații despre sănătate intră sub art. 9 GDPR. Legea nu fixează nicio durată de păstrare și nicio regulă de acces la aceste jurnale. 3) O marcă temporală calificată pentru fiecare verificare înseamnă zeci de milioane de operațiuni pe an. Expunerea pare să afirme că nu apar cheltuieli noi (fragmentul disponibil e trunchiat), fără să explice cine suportă acest cost.",
+      "constitutionalityNote": "Fondul nu ridică probleme constituționale. Măsura reduce sarcinile cetățeanului, sprijină accesul la ocrotirea sănătății (art. 34) și include garanții de protecție a datelor (limitarea scopului, fără date de sănătate în înscris), compatibile cu art. 26. Elementele esențiale, adică regula, interdicția și excepțiile, sunt în lege, iar ordinului CNAS îi revin doar aspecte procedurale, ceea ce e o delegare acceptabilă. Problemele țin de art. 1 alin. (5) (calitatea legii) și de Legea nr. 24/2000: există două alin. (1³), o trimitere greșită la alin. (1), nepotrivirea alin. (1)/(2) la art. 232, formularea ambiguă a art. 343 alin. (3) și sintagma vagă „astfel cum a fost stabilită”. Dacă „alocația de hrană” generează cheltuieli noi din FNUASS, sunt incidente art. 138 alin. (5) din Constituție și art. 15 din Legea nr. 500/2002, care cer fișă financiară și sursă de finanțare. Art. 23 alin. (12) nu e incident, pentru că legea nu creează sancțiuni.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: legea nu impune condiții noi de acces la profesiile medicale sau de exercitare a lor, ci reglementează o procedură din relația contractuală cu CNAS. Serviciile de sănătate sunt oricum excluse din Directiva 2006/123 (art. 2 alin. (2) lit. f)). TRIS (Directiva 2015/1535) nu e incidentă, pentru că legea nu reglementează servicii ale societății informaționale prestate contra cost, ci folosirea unui instrument informatic al administrației publice. Nu e necesară notificarea. Sigiliul și marca temporală calificate sunt coerente cu eIDAS (Regulamentul (UE) 910/2014, modificat prin 2024/1183), care le conferă prezumțiile de integritate, origine și exactitate a datei (art. 35 alin. (2), art. 41 alin. (2)). Pe GDPR, temeiul juridic (art. 6 alin. (1) lit. c)/e)) și limitarea scopului sunt acoperite. Lipsesc limitarea duratei de stocare (art. 5 alin. (1) lit. e)) și reguli pentru jurnalele de verificare, care pot constitui date privind sănătatea (art. 9). Pentru asigurații din alte state membre (cardul european de asigurări de sănătate, formularul S1 – Reg. 883/2004 și 987/2009), interdicția de la alin. (1⁴) se aplică doar când verificarea electronică e posibilă, deci nu ar trebui să blocheze prezentarea documentelor europene. O precizare expresă ar fi utilă. Impactul asupra concurenței e neutru: toți furnizorii cu contract au aceeași obligație și folosesc deja sistemul informatic al CNAS.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 9 – art. 343 alin. (3)",
+        "proposalContent": "(3) Asigurații prezintă cardul național sau comunică datele necesare verificării electronice. Dacă verificarea electronică confirmă calitatea de asigurat, lipsa cardului sau adeverinței nu atrage plata serviciilor. Serviciile, altele decât cele de la art. 232, se plătesc numai dacă calitatea nu este atestată nici electronic, nici prin documentele de la art. 223 alin. (1⁶).",
+        "argumentation": "Textul pct. 9 e ambiguu: „doar în situația...” poate fi citit ca limitând excepția pentru serviciile de la art. 232, nu plata. Are și erori („calitatea calitatea”, „a adeverința”). Garanția centrală din expunere — nimeni nu plătește când verificarea electronică îl confirmă asigurat — trebuie scrisă neechivoc (art. 1 alin. 5 Constituție, Legea 24/2000).",
+        "otherComments": "Alte corecturi: pct. 2 și 3 creează două alin. (1³); la (1⁴) trimiterea corectă e la alin. (1¹); pct. 5 anunță alin. (1) dar redă un alin. (2) și adaugă „alocația de hrană astfel cum a fost stabilită”, nemotivată și fără sursă de finanțare; încălcarea interdicției de la (1⁴) nu are nicio consecință; statistica anuală să includă adeverințele pe hârtie eliberate."
+      },
+      "status": "ok"
     },
     "codex": {
       "model": "codex",

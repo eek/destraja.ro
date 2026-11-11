@@ -1,7 +1,12 @@
 {
   "slug": "plx-105-2026",
   "billId": "PL-x 105/2026",
-  "updatedAt": "2026-10-29T14:09:28.533Z",
+  "updatedAt": "2026-11-10T20:37:58.460Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -10,11 +15,11 @@
       "source": "senat.ro",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Interzicerea obligării șoferilor de camion să încarce și să descarce marfa",
-      "summaryTlDr": "Intenția de a proteja șoferii de tir de munca de hamal în depozite este legitimă și inspirată din modelul spaniol, dar textul legii este redactat neglijent. Lipsa unui prag de tonaj (ex. peste 7,5 tone), omisiunile din lista de excepții și amenzile de până la 30.000 lei aplicate „după caz” creează blocaje pentru distribuția mică și riscuri de abuz la control.",
+      "plainTitle": "Șoferii de marfă nu mai pot fi obligați să încarce sau să descarce",
+      "summaryTlDr": "Protecție utilă și cerută de mult pentru șoferi, dar scrisă în grabă. Excepțiile sunt o listă deschisă care uită încărcarea și nu există prag de tonaj. Amenda de 10.000–30.000 lei cade «după caz» pe oricine din lanț, fără ca fapta să fie descrisă.",
       "scores": {
         "agy": 5,
-        "claude": null,
+        "claude": 5,
         "codex": 5
       }
     },
@@ -54,70 +59,80 @@
       "from": "initiator",
       "to": "senat",
       "direction": "la_fel",
-      "headline": "Senatul a adoptat tacit forma inițiatorului, fără nicio schimbare de fond; problemele rămân",
-      "summary": "Proiectul a fost considerat adoptat tacit de Senat, în forma inițiatorului. Textul e același: s-au corectat doar câteva diacritice și semne de punctuație, deci riscurile pentru șoferi și firme rămân neschimbate.",
+      "headline": "Senatul a adoptat tacit proiectul în forma inițiatorului, fără nicio schimbare de fond",
+      "summary": "Proiectul a trecut tacit de Senat în forma inițiatorului: s-au schimbat doar antetul și mențiunea adoptării. Problemele rămân: excepții vagi, fără prag de tonaj, amenzi mari egale pentru toți și șoferii PFA neprotejați.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Excepția acoperă doar descărcarea; încărcarea la cisterne, betoniere sau animale vii rămâne interzisă",
+            "text": "Excepții deschise și vagi, fără cine decide; greșeala costă minimum 10.000 lei",
             "major": true,
             "article": "art. 3"
           },
           {
-            "text": "Excepții nelimitate și criteriu vag („natura transportului”), fără să spună cine decide",
+            "text": "Excepția acoperă doar descărcarea; încărcarea la cisterne sau animale vii rămâne interzisă",
             "major": true,
             "article": "art. 3"
           },
           {
-            "text": "Fără prag de tonaj: prinde și dubițele, curieratul, distribuția urbană și HoReCa",
+            "text": "Fără prag de tonaj: intră dubițele, curierii și distribuția urbană",
             "major": true,
-            "article": "art. 2, art. 3"
+            "article": "art. 2"
           },
           {
-            "text": "Fapta nu e descrisă: se sancționează generic „încălcarea prevederilor prezentei legi”",
+            "text": "Nu definește operațiunile de descărcare/încărcare: neclar la fixarea mărfii sau macara proprie",
             "major": true,
-            "article": "art. 5"
+            "article": "art. 2"
           },
           {
-            "text": "Nu spune cine plătește amenda: operator, beneficiar, furnizor sau intermediar „după caz”",
-            "major": true,
-            "article": "art. 5"
-          },
-          {
-            "text": "Amendă unică de 10.000–30.000 lei, fără gradare pentru microîntreprinderi",
-            "major": true,
-            "article": "art. 5"
-          },
-          {
-            "text": "Neclar dacă simpla solicitare e contravenție și dacă amenda e per transport sau șofer",
-            "major": true,
-            "article": "art. 5"
-          },
-          {
-            "text": "Protejează doar șoferii angajați; PFA, II și transportul în cont propriu rămân descoperite",
+            "text": "Protejează doar șoferii angajați; PFA-urile și transportul în cont propriu rămân descoperite",
             "major": true,
             "article": "art. 2 alin. (1)"
           },
           {
-            "text": "ITM controlează beneficiari, furnizori și intermediari, deși relațiile lor sunt comerciale, nu de muncă",
-            "major": false,
-            "article": "art. 6"
+            "text": "Amenda sancționează generic încălcarea legii, fără să descrie fapta",
+            "major": true,
+            "article": "art. 5"
           },
           {
-            "text": "Terminologie inconsecventă: „conducători auto angajați” la art. 2, „șoferi” la art. 4",
+            "text": "Nu spune clar cine plătește: operator, beneficiar, furnizor sau intermediar, «după caz»",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Aceeași amendă de 10.000–30.000 lei pentru hipermarketuri și microîntreprinderi",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Neclar dacă simpla solicitare a beneficiarului e deja contravenție",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Neclar dacă amenda se aplică per transport sau per șofer",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Destinatarul persoană fizică nu e exclus explicit de la amendă",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Terminologie inconsecventă: «conducători auto angajați» la art. 2, «șoferi» la art. 4",
             "major": false,
             "article": "art. 4"
           }
         ],
         "good": [
           {
-            "text": "Șoferii angajați nu pot fi obligați să descarce sau să încarce marfa",
+            "text": "Șoferii angajați nu mai pot fi obligați să descarce sau să încarce marfa",
             "major": true,
             "article": "art. 2 alin. (1)"
           },
           {
-            "text": "Descărcarea și încărcarea revin explicit beneficiarului, furnizorului sau intermediarului",
+            "text": "Descărcarea revine beneficiarului, furnizorului sau intermediarului, cu respectarea normelor de securitate",
             "major": true,
             "article": "art. 2 alin. (2)"
           },
@@ -127,31 +142,36 @@
             "article": "art. 4"
           },
           {
-            "text": "Excepții pentru transporturi specializate: vrac, combustibili, betoniere, animale vii",
+            "text": "Excepții explicite pentru vrac, combustibili, autobetoniere și animale vii",
             "major": true,
             "article": "art. 3"
           },
           {
-            "text": "Inspectorii pot verifica documente și la locurile de încărcare sau descărcare",
+            "text": "Controlul îl face Inspecția Muncii, inclusiv la locurile de încărcare și descărcare",
             "major": false,
-            "article": "art. 6 alin. (2)"
+            "article": "art. 6"
           },
           {
-            "text": "Norme de aplicare în 90 de zile și intrare în vigoare după 30 de zile",
+            "text": "Ministerul trebuie să emită normele de aplicare în 90 de zile",
             "major": false,
-            "article": "art. 7, art. 8"
+            "article": "art. 7"
+          },
+          {
+            "text": "Legea intră în vigoare la 30 de zile după publicare",
+            "major": false,
+            "article": "art. 8"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 12,
-        "removed": 11,
-        "same": 0
+        "added": 3,
+        "removed": 2,
+        "same": 0.77
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-29T14:06:54.516Z"
+      "schema": 4,
+      "updatedAt": "2026-11-10T20:37:58.460Z"
     },
     {
       "from": "senat",

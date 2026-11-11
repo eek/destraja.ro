@@ -1,7 +1,11 @@
 {
   "slug": "plx-405-2026",
   "billId": "PL-x 405/2026",
-  "updatedAt": "2026-10-29T12:32:02.870Z",
+  "updatedAt": "2026-11-10T20:55:12.659Z",
+  "plan": [
+    "initiator",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -10,11 +14,11 @@
       "source": "senat.ro",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Derogare pentru SPP de la interdicția achiziției de autoturisme în anul 2026",
-      "summaryTlDr": "Act normativ cu impact strict instituțional și neutru pentru cetățeni sau mediul privat, care permite Serviciului de Protecție și Pază să cumpere autoturisme până la finalul anului 2026 din bugetul deja aprobat. Deși utilă operațional, măsura ilustrează practica derogărilor punctuale prin OUG de la regulile de austeritate bugetară.",
+      "plainTitle": "Excepție pentru SPP: poate cumpăra mașini în 2026, deși instituțiile statului au interdicție",
+      "summaryTlDr": "Este o derogare îngustă și temporară, pentru o singură instituție, plătită din bugetul deja aprobat, așa că riscul pentru cetățeni e mic. Problema reală e opacitatea: nu se spune câte mașini se cumpără și cât costă, iar urgența invocată descrie o problemă veche.",
       "scores": {
         "agy": 3,
-        "claude": null,
+        "claude": 3,
         "codex": 3
       }
     },
@@ -39,55 +43,70 @@
       "from": "initiator",
       "to": "senat",
       "direction": "la_fel",
-      "headline": "Nicio schimbare de fond: Senatul a adoptat tacit ordonanța care permite SPP să cumpere mașini în 2026",
-      "summary": "Senatul a adoptat tacit legea în forma inițială. S-au corectat doar numărul ordonanței și s-au adăugat datele de publicare. SPP poate cumpăra autoturisme până la 31.12.2026, fără limită de număr sau de valoare.",
+      "headline": "Adoptat tacit de Senat, fără modificări de fond: SPP poate cumpăra autoturisme până la 31.12.2026",
+      "summary": "Senatul nu a schimbat nimic de fond. Proiectul a fost adoptat tacit, în forma inițială, cu precizări doar de formă: data OUG-ului și Monitorul Oficial. SPP poate cumpăra mașini până la 31.12.2026, fără plafon de număr sau de preț.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Fără număr maxim de mașini sau valoare-limită pentru achizițiile SPP",
+            "text": "Fără număr maxim de mașini, tip sau preț pe bucată",
             "major": true,
             "article": "art. unic din OUG 27/2026"
           },
           {
-            "text": "Derogarea acoperă orice autoturism, inclusiv mașini de serviciu pentru conducere, nu doar operative",
+            "text": "Plafonul din Legea 43/2026 se poate mări prin orice rectificare bugetară",
             "major": true,
             "article": "art. unic din OUG 27/2026"
           },
           {
-            "text": "Plafonul bugetar poate crește prin orice rectificare a Legii bugetului 43/2026",
+            "text": "Se pot cumpăra și mașini de serviciu pentru conducere, nu doar operative",
             "major": true,
             "article": "art. unic din OUG 27/2026"
           },
           {
-            "text": "Nicio obligație de raportare publică a mașinilor cumpărate prin derogare",
+            "text": "Nicio obligație de raportare a achizițiilor făcute",
             "major": false,
             "article": "art. unic din OUG 27/2026"
           },
           {
-            "text": "Niciun standard de emisii, deși măsura e justificată prin înlocuirea mașinilor Euro 4",
+            "text": "Nu se spune din ce capitol al bugetului SPP vin banii",
             "major": false,
             "article": "art. unic din OUG 27/2026"
           },
           {
-            "text": "Nota de fundamentare bifează „nu se referă” la mediu și buget, contrar propriei justificări",
+            "text": "Nota de fundamentare declară lipsă de impact financiar pentru o cheltuială",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Invocă emisiile Euro 4, dar nu impune niciun standard de emisii",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Adoptat tacit de Senat, fără dezbatere și vot",
             "major": false,
             "article": null
           }
         ],
         "good": [
           {
-            "text": "Achizițiile sunt limitate la fondurile deja aprobate pentru SPP prin bugetul pe 2026",
+            "text": "Derogarea expiră la 31.12.2026, apoi interdicția revine automat",
             "major": true,
             "article": "art. unic din OUG 27/2026"
           },
           {
-            "text": "Excepția se aplică nominal doar SPP, nu altor instituții publice",
+            "text": "Derogarea e nominală, doar pentru SPP, nu și pentru alte instituții",
             "major": true,
             "article": "art. unic din OUG 27/2026"
           },
           {
-            "text": "Derogarea e temporară: interdicția revine automat după 31 decembrie 2026",
+            "text": "Bugetul total aprobat nu crește",
+            "major": true,
+            "article": "art. unic din OUG 27/2026"
+          },
+          {
+            "text": "Permite doar cumpărarea; leasingul și închirierea rămân interzise",
             "major": false,
             "article": "art. unic din OUG 27/2026"
           }
@@ -95,13 +114,13 @@
         "partial": false
       },
       "diff": {
-        "added": 3,
+        "added": 4,
         "removed": 2,
         "same": 0
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-29T12:32:02.870Z"
+      "schema": 4,
+      "updatedAt": "2026-11-10T20:55:12.659Z"
     }
   ]
 }

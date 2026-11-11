@@ -6,9 +6,10 @@
 // roluri prin clasele lt-*; clienții care nu citesc <style> rămân pe varianta deschisă.
 
 export const SITE = 'https://destraja.ro';
-// În e-mailuri scriem numele fără „.ro”: „destrajă.ro” e alt domeniu (xn--destraj-f4a.ro) decât cel din linkuri,
-// iar filtrele anti-spam (rspamd) citesc textul și alt-ul imaginilor ca pe niște linkuri spre el.
-export const FROM = { email: 'alerte@destraja.ro', name: 'destrajă' };
+// În textul e-mailurilor scriem numele fără „.ro”: „destrajă.ro” e alt domeniu (xn--destraj-f4a.ro) decât cel din linkuri,
+// iar filtrele anti-spam (rspamd) citesc textul și alt-ul imaginilor ca pe niște linkuri spre el. Numele expeditorului
+// e cel al site-ului, cu „.ro”: acolo nu e citit ca link, iar în căsuța de e-mail „destrajă” singur nu spunea de unde vine.
+export const FROM = { email: 'alerte@destraja.ro', name: 'destrajă.ro' };
 export const REPLY_TO = 'contact@destraja.ro';
 
 export const LEVELS = {

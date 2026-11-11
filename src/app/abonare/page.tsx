@@ -7,7 +7,7 @@ import SubscribeForm from '@/components/alerts/SubscribeForm';
 export const metadata: Metadata = {
   title: 'Alerte pe e-mail',
   description:
-    'Primește un e-mail în zilele lucrătoare în care un proiect de lege nou intră în consultare la Senat, se apropie un termen sau scrie presa despre el. Alegi tu nivelul de risc.',
+    'Primește un e-mail în zilele lucrătoare în care un proiect de lege nou intră în consultare la Senat sau se apropie un termen. Alegi tu nivelul de risc.',
 };
 
 const TRIGGERS = [

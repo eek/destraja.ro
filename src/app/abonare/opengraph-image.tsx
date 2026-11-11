@@ -22,7 +22,7 @@ export default async function Image() {
           <div style={{ display: 'flex', flexDirection: 'column', width: 520 }}>
             <span style={{ fontFamily: 'Serif', fontSize: 58, lineHeight: 1.05, color: OG.ink, fontWeight: 600, letterSpacing: -1.2 }}>Nu vrei să verifici în fiecare zi? Îți scriem noi.</span>
             <span style={{ fontSize: 23, lineHeight: 1.45, color: OG.body, marginTop: 20 }}>
-              Un e-mail dimineața, doar când un proiect intră în consultare, se apropie un termen sau scrie presa despre el.
+              Un e-mail dimineața, doar când un proiect intră în consultare sau se apropie un termen.
             </span>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', flex: 1, gap: 12, padding: 26, borderRadius: 22, background: OG.brand }}>

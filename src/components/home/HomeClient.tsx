@@ -711,7 +711,7 @@ export default function HomeClient({
             <div className="rounded-[20px] bg-band p-6 text-on-band sm:p-9">
               <h2 className="font-display text-[clamp(1.7rem,3vw,2.3rem)] leading-[1.12] font-medium tracking-[-0.015em] text-on-band">Nu vrei să verifici în fiecare zi? Îți scriem noi.</h2>
               <p className="mt-3 text-base leading-relaxed text-on-band-muted">
-                Un e-mail dimineața, doar când apare ceva nou: un proiect intră în consultare, se apropie un termen sau scrie presa despre el. Alegi tu nivelul:
+                Un e-mail dimineața, doar când apare ceva nou: un proiect intră în consultare sau se apropie un termen. Alegi tu nivelul:
               </p>
               <ul className="mt-5 grid gap-2">
                 {[

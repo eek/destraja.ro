@@ -4,8 +4,11 @@
 // Compară datele de azi cu data/digests/state.json (ce au primit deja abonații) și scrie câte o ediție
 // pentru fiecare nivel: all (tot, cu rezumat), yellow (risc moderat și ridicat), red (doar risc ridicat).
 // Un nivel primește e-mail doar dacă are ceva nou: un proiect intrat în consultare, un proiect care mai
-// are cel mult 3 zile, articole noi în presă sau o analiză corectată. Niciodată tot ce e deschis: fără
-// state.json (prima rulare, evidență pierdută) doar notează ce există acum și nu trimite nimic.
+// are cel mult 3 zile sau o analiză corectată. Niciodată tot ce e deschis: fără state.json (prima rulare,
+// evidență pierdută) doar notează ce există acum și nu trimite nimic.
+//
+// Presa nu trimite e-mailuri: articolele apar doar lângă proiectul despre care scriu, în cardul unui proiect nou
+// sau al unuia cu termenul aproape. Un articol despre alt proiect rămâne pe pagina proiectului.
 //
 // Trimiterea o face Worker-ul (POST /api/digest, cu DIGEST_TOKEN din .env); adresele abonaților nu
 // ajung pe acest calculator. Previzualizările rămân în ops/digest/ (ignorat de git).
@@ -79,9 +82,8 @@ const MAX_GAP_DAYS = 7;
 // Gmail taie HTML-ul de peste ~102 KB, cu tot cu linkurile de dezabonare din subsol; linkurile personale îl mai lungesc puțin.
 const HTML_BUDGET = 90_000;
 const CLOSING_DAYS = 3;
-// Un articol vechi găsit abia acum nu e o noutate: îl notăm ca văzut, dar nu îl trimitem.
+// Lângă un proiect apar doar articolele din ultimele zile.
 const PRESS_MAX_AGE_DAYS = 7;
-const PRESS_SHOWN = 8;
 // Sub cardul unui proiect scos în față, doar primele articole despre el; restul sunt pe pagina lui.
 const OWN_PRESS_SHOWN = 3;
 const LEVEL_KEYS = ['all', 'yellow', 'red'];
@@ -165,13 +167,14 @@ function loadBills() {
   return bills;
 }
 
-// Ce știu abonații după ediția de azi; la prima rulare, tot ce există deja.
-function snapshot(bills, state, closing) {
+// Ce știu abonații după ediția de azi; la prima rulare, tot ce există deja. `featured` sunt proiectele scoase în față
+// azi: doar articolele lor se notează ca arătate, ca presa despre celelalte să poată apărea când le vine termenul.
+function snapshot(bills, state, closing, featured = bills) {
   const open = bills.filter((b) => b.days >= 0);
   return {
     day: DAY,
     bills: Object.fromEntries(bills.map((b) => [b.id, b.level])),
-    articles: [...new Set([...state.articles, ...bills.flatMap((b) => b.articles.map((a) => a.url))])],
+    articles: [...new Set([...state.articles, ...featured.flatMap((b) => b.articles.map((a) => a.url))])],
     corrections: [...new Set([...state.corrections, ...bills.flatMap((b) => b.corrections.map((c) => c.reportId))])],
     // Ținem minte doar proiectele încă deschise, ca fișierul să nu crească la nesfârșit.
     reminded: [...new Set([...state.reminded, ...closing.map((b) => b.id)])].filter((id) => open.some((b) => b.id === id)),
@@ -184,10 +187,11 @@ function collect(bills, state) {
 
   const newBills = open.filter((b) => !(b.id in state.bills));
   const closing = open.filter((b) => b.days <= CLOSING_DAYS && !state.reminded.includes(b.id) && !newBills.includes(b));
+  const featured = [...newBills, ...closing];
   const seenArticles = new Set(state.articles);
   const press = [];
   const seenKeys = new Set();
-  for (const b of open) {
+  for (const b of featured) {
     for (const a of b.articles) {
       if (seenArticles.has(a.url) || (a.publishedAt && a.publishedAt < pressSince)) continue;
       const title = cleanTitle(a.title, a.outlet, a.domain);
@@ -206,7 +210,7 @@ function collect(bills, state) {
     targets: [...new Set(corrections.filter((c) => c.bill === bill).map((c) => c.target))],
   }));
 
-  return { open, newBills, closing, press, corrections: correctionsByBill, nextState: snapshot(bills, state, closing) };
+  return { open, newBills, closing, press, corrections: correctionsByBill, nextState: snapshot(bills, state, closing, featured) };
 }
 
 // --- HTML ----------------------------------------------------------------------------------------
@@ -247,35 +251,18 @@ function billRow(b, press = []) {
 
 // Poziția față de proiect, unde cititorii presei sunt de acord; neutrele nu le marcăm, ca pe cardul de pe site.
 const stanceLabel = (a) => (a.stance && a.stance !== 'neutral' ? STANCE[a.stance].label : null);
+
 const stanceTag = (a) => (stanceLabel(a) ? ` · <strong class="lt-ink" style="color:${C.ink};font-weight:600">${stanceLabel(a)}</strong>` : '');
 
-// Articolele noi grupate pe proiect, în ordinea celui mai nou articol al fiecăruia.
-function byBill(press) {
-  const groups = new Map();
-  for (const a of press) {
-    if (!groups.has(a.bill.id)) groups.set(a.bill.id, { bill: a.bill, articles: [] });
-    groups.get(a.bill.id).articles.push(a);
-  }
-  return [...groups.values()];
-}
-
-/** Un articol; cu `more`, și celelalte articole noi despre același proiect, pe un rând. */
-function pressRow(a, { bill = true, risk = true, more = [] } = {}) {
+/** Un articol, pe un rând. */
+function pressRow(a, { bill = true, risk = true } = {}) {
   const r = RISK[a.bill.level];
   const date = a.publishedAt ? formatDay(dayUtc(a.publishedAt), { day: 'numeric', month: 'long' }) : null;
-  const outlets = [...new Set(more.map((m) => m.outlet))];
-  const critical = more.filter((m) => m.stance === 'critical').length;
-  const moreHtml = more.length
-    ? `<p class="lt-muted" style="margin:4px 0 0;font-family:${SANS};font-size:13px;line-height:19px;color:${C.muted}">Încă ${countWord(more.length, 'articol', 'articole')}${critical ? ` (${countWord(critical, 'critic', 'critice')})` : ''}: ${esc(outlets.slice(0, 3).join(', '))}${outlets.length > 3 ? ' și altele' : ''}, pe <a href="${esc(billUrl(a.bill))}#presa" class="lt-link" style="${linkStyle}">pagina proiectului</a>.</p>`
-    : '';
   return `<tr><td class="lt-line" style="padding:12px 0;border-top:1px solid ${C.line}">
 <a href="${esc(a.url)}" class="lt-ink" style="font-family:${SERIF};font-size:16px;line-height:22px;color:${C.ink};text-decoration:none">${esc(a.title)}</a>
-<p class="lt-muted" style="margin:4px 0 0;font-family:${SANS};font-size:13px;line-height:19px;color:${C.muted}">${esc(a.outlet)}${date ? ` · ${date}` : ''}${stanceTag(a)}${bill ? ` · despre <a href="${esc(billUrl(a.bill))}#presa" class="lt-link" style="${linkStyle}">${esc(a.bill.id)}</a>${risk ? ` <span class="lt-text-${a.bill.level}" style="color:${r.text};font-weight:600">(${r.label.toLowerCase()})</span>` : ''}` : ''}</p>${moreHtml}
+<p class="lt-muted" style="margin:4px 0 0;font-family:${SANS};font-size:13px;line-height:19px;color:${C.muted}">${esc(a.outlet)}${date ? ` · ${date}` : ''}${stanceTag(a)}${bill ? ` · despre <a href="${esc(billUrl(a.bill))}#presa" class="lt-link" style="${linkStyle}">${esc(a.bill.id)}</a>${risk ? ` <span class="lt-text-${a.bill.level}" style="color:${r.text};font-weight:600">(${r.label.toLowerCase()})</span>` : ''}` : ''}</p>
 </td></tr>`;
 }
-
-const textPress = (a, more = []) =>
-  `\n- ${a.title}\n  ${a.outlet}${stanceLabel(a) ? ` · ${stanceLabel(a)}` : ''} · despre ${a.bill.id}\n  ${a.url}${more.length ? `\n  Încă ${countWord(more.length, 'articol', 'articole')}: ${[...new Set(more.map((m) => m.outlet))].join(', ')}` : ''}`;
 
 const table = (rows) => `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">${rows}</table>`;
 
@@ -589,13 +576,10 @@ function edition(level, data, anunt = null, short = new Set()) {
   const closing = data.closing.filter(match).sort((a, b) => a.days - b.days || b.score - a.score);
   const press = data.press.filter((a) => match(a.bill));
   const corrections = data.corrections.filter((c) => match(c.bill));
-  if (!anunt && newBills.length + closing.length + press.length + corrections.length === 0) return null;
-  // Articolele despre proiectele scoase în față stau în cardul lor; restul, separat, ca să nu pară despre ele.
+  // Presa singură nu face o ediție; articolele stau în cardul proiectului despre care scriu.
+  if (!anunt && newBills.length + closing.length + corrections.length === 0) return null;
   const featured = [...newBills, ...closing];
-  const featuredIds = new Set(featured.map((b) => b.id));
-  const ownPress = press.filter((a) => featuredIds.has(a.bill.id));
-  const otherPress = press.filter((a) => !featuredIds.has(a.bill.id));
-  const pressOf = (b) => ownPress.filter((a) => a.bill.id === b.id);
+  const pressOf = (b) => press.filter((a) => a.bill.id === b.id);
   const cards = (bills) => {
     const full = bills.filter((b) => !short.has(b.id));
     const rows = bills.filter((b) => short.has(b.id));
@@ -613,14 +597,10 @@ function edition(level, data, anunt = null, short = new Set()) {
     parts.push(`${countWord(newBills.length, 'proiect nou', 'proiecte noi')} în consultare${redNew && level !== 'red' ? `, ${redNew} cu risc ridicat` : ''}`);
   }
   if (closing.length) parts.push(closing.length === 1 ? `ultimele zile pentru ${closing[0].id}` : `${countWord(closing.length, 'consultare se închide', 'consultări se închid')} curând`);
-  // Presa despre proiectele scoase în față apare în subiect; cea despre alte proiecte doar în deschidere, ca
-  // subiectul să nu promită articole despre proiectul care se închide.
-  if (ownPress.length) parts.push(`${countWord(ownPress.length, 'articol', 'articole')} în presă despre ${featured.length === 1 ? 'el' : 'ele'}`);
-  const otherPart = otherPress.length ? `${countWord(otherPress.length, 'articol', 'articole')} în presă${featured.length ? ' despre alte proiecte' : ''}` : null;
-  if (otherPart) parts.push(otherPart);
+  if (press.length) parts.push(`${countWord(press.length, 'articol', 'articole')} în presă despre ${featured.length === 1 ? 'el' : 'ele'}`);
   if (corrections.length) parts.push(corrections.length === 1 ? `analiza ${corrections[0].bill.id} corectată` : `${corrections.length} analize corectate`);
 
-  const subject = anunt ? anunt.subject : capitalize(parts.filter((p) => p !== otherPart || !featured.length).slice(0, 2).join(' · '));
+  const subject = anunt ? anunt.subject : capitalize(parts.slice(0, 2).join(' · '));
   const lead = anunt ? anunt.lead : `${capitalize(parts.join(', ').replace(/, ([^,]*)$/, ' și $1'))}.`;
   const intro = anunt
     ? anunt.intro
@@ -657,17 +637,6 @@ function edition(level, data, anunt = null, short = new Set()) {
   if (newBills.length) {
     body += H2(newBills.length === 1 ? 'Proiect nou în consultare' : 'Proiecte noi în consultare') + cards(newBills);
     text += `\nPROIECTE NOI ÎN CONSULTARE\n${newBills.map(textBill).join('\n')}\n`;
-  }
-  if (otherPress.length) {
-    const heading = featured.length ? 'În presă despre celelalte proiecte' : 'În presă';
-    // Un rând pe proiect: cel mai nou articol, apoi câte mai sunt, ca un subiect cu multe preluări să nu umple e-mailul.
-    const groups = byBill(otherPress);
-    const shown = groups.slice(0, PRESS_SHOWN);
-    body += H2(heading) + table(shown.map((g) => pressRow(g.articles[0], { risk: level !== 'red', more: g.articles.slice(1) })).join(''));
-    const rest = groups.slice(PRESS_SHOWN);
-    const restCount = rest.reduce((n, g) => n + g.articles.length, 0);
-    if (restCount) body += P(`Încă ${countWord(restCount, 'articol', 'articole')} despre ${countWord(rest.length, 'alt proiect', 'alte proiecte')}, pe paginile lor.`, 'margin:12px 0 0;font-size:14px;line-height:22px');
-    text += `\n${heading.toUpperCase()}\n${shown.map((g) => textPress(g.articles[0], g.articles.slice(1))).join('\n')}\n`;
   }
   if (corrections.length) {
     body +=

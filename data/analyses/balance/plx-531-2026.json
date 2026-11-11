@@ -2,121 +2,85 @@
   "slug": "plx-531-2026",
   "billId": "Pl-x 531/2026",
   "schema": 1,
-  "model": "claude",
-  "updatedAt": "2026-11-02T19:57:11.641Z",
-  "inputHash": "76040c03f21c",
-  "riskScore": 3,
-  "summary": "O ratificare obișnuită de împrumut, fără prevederi abuzive, cu riscurile financiare firești ale unei datorii noi și o delegare largă către Guvern pentru modificarea acordului.",
+  "model": "agy",
+  "updatedAt": "2026-11-11T11:10:48.968Z",
+  "inputHash": "c060e0025795",
+  "riskScore": 2.7,
+  "summary": "O lege standard de ratificare a unui împrumut de la Banca Mondială pentru finanțarea deficitului bugetar, dar care permite modificarea acordului prin simplă hotărâre de Guvern și lasă toată rambursarea pe anul 2044.",
   "good": [
     {
-      "text": "Parlamentul aprobă explicit împrumutul și fixează suma maximă (544 mil. euro), deci Guvernul nu se poate împrumuta mai mult în baza acestei legi.",
+      "text": "Asigură o finanțare de 544 milioane euro pe termen lung (18 ani) de la Banca Mondială, la costuri mai reduse și scadențe mai lungi decât pe piața comercială.",
       "article": "art. 1",
-      "quote": "semnat la Washington, la 16 aprilie 2026, în valoare de 544 milioane de euro, denumit în continuare Acord de împrumut",
-      "weight": 3
+      "quote": "dintre România și Banca Internațională pentru Reconstrucție și Dezvoltare, semnat la Washington, la 16 aprilie 2026, în valoare de 544 milioane de euro, denumit în continuare Acord de împrumut.",
+      "weight": 2
     },
     {
-      "text": "Guvernul poate modifica acordul doar dacă modificarea nu mărește obligațiile financiare ale României, ceea ce pune o limită costurilor.",
+      "text": "Interzice Guvernului să modifice acordul de împrumut dacă schimbările ar crește obligațiile financiare ale României față de bancă.",
       "article": "art. 4 alin. (1)",
-      "quote": "amendamente la conținutul Acordului de împrumut care nu sunt de natură să majoreze obligațiile financiare asumate de România",
+      "quote": "să convină cu Banca Internațională pentru Reconstrucție și Dezvoltare, amendamente la conținutul Acordului de împrumut care nu sunt de natură să majoreze obligațiile financiare asumate de România",
       "weight": 2
     },
     {
-      "text": "Banii intră într-un cont al Ministerului Finanțelor la BNR și se folosesc după legea datoriei publice, deci rămân urmăribili și sub reguli existente.",
+      "text": "Banii împrumutați sunt virați în contul Ministerului Finanțelor de la BNR și gestionați strict prin mecanismele legii datoriei publice.",
       "article": "art. 2",
-      "quote": "virate în contul de valută deschis pe numele Ministerului Finanțelor la Banca Națională a României",
-      "weight": 2
-    },
-    {
-      "text": "Legea spune clar că rambursarea, dobânzile și comisioanele se plătesc prin mecanismul legal al datoriei publice, fără plăți ascunse în afara bugetului.",
-      "article": "art. 3",
-      "quote": "rambursarea capitalului, achitarea dobânzilor, comisioanelor și a altor costuri aferente împrumutului se asigură conform legislației în vigoare privind datoria publică",
+      "quote": "Sumele trase din împrumutul prevăzut la art. 1 și virate în contul de valută deschis pe numele Ministerului Finanțelor la Banca Națională a României se utilizează pe măsura necesităților de finanțare",
       "weight": 1
     },
     {
-      "text": "Orice modificare a acordului trebuie aprobată printr-o hotărâre de Guvern, act publicat, deci modificările nu pot rămâne secrete.",
-      "article": "art. 4 alin. (2)",
-      "quote": "Amendamentele la Acordul de împrumut convenite potrivit alin. (1) se aprobă prin hotărâre a Guvernului.",
-      "weight": 1
-    },
-    {
-      "text": "Potrivit expunerii, împrumutul are scadență lungă (18 ani) și costuri de instituție internațională, mai ieftine de obicei decât împrumutul pe piață.",
-      "article": "expunerea de motive",
+      "text": "Acordul păstrează opțiunea conversiei valutei sau a dobânzii pe parcursul împrumutului, oferind un instrument de protecție împotriva creșterii ratelor.",
+      "article": "Expunerea de motive",
       "quote": null,
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Guvernul poate schimba prin HG un acord ratificat prin lege, fără să revină în Parlament; limita privește doar banii, nu termenele, condițiile sau reformele asumate.",
-      "article": "art. 4 alin. (1) și (2)",
-      "quote": "Se autorizează Guvernul României ca, prin Ministerul Finanțelor, să convină cu Banca Internațională pentru Reconstrucție și Dezvoltare, amendamente la conținutul Acordului de împrumut",
-      "weight": 2
-    },
-    {
-      "text": "Banii acoperă deficitul și datorii vechi, nu sunt rezervați unor investiții; statul se împrumută ca să cheltuie, iar asta nu reduce deficitul.",
+      "text": "Împrumutul de 544 milioane euro nu finanțează investiții directe, ci merge exclusiv în acoperirea deficitului bugetar curent și refinanțarea datoriei vechi.",
       "article": "art. 2",
-      "quote": "se utilizează pe măsura necesităților de finanțare a deficitului bugetului de stat și de refinanțare a datoriei publice guvernamentale",
+      "quote": "se utilizează pe măsura necesităților de finanțare a deficitului bugetului de stat și de refinanțare a datoriei publice guvernamentale, în conformitate cu prevederile Ordonanței de urgență a Guvernului nr. 64/2007",
       "weight": 2
     },
     {
-      "text": "Dobânda e variabilă, legată de EURIBOR, fără plafon; o creștere de 1 punct procentual ar costa în plus circa 5,44 mil. euro pe an.",
-      "article": "expunerea de motive",
+      "text": "Guvernul poate modifica prin simplă hotărâre acordul ratificat prin lege, ocolind Parlamentul și fără obligația de a-l informa, dacă nu crește datoria.",
+      "article": "art. 4 alin. (2)",
+      "quote": "Amendamentele la Acordul de împrumut convenite potrivit alin. (1) se aprobă prin hotărâre a Guvernului.",
+      "weight": 2
+    },
+    {
+      "text": "Toată suma de 544 milioane euro se rambursează într-o singură tranșă în februarie 2044, concentrând tot riscul de refinanțare la o singură scadență.",
+      "article": "Expunerea de motive",
       "quote": null,
       "weight": 2
     },
     {
-      "text": "Toți cei 544 mil. euro se rambursează dintr-odată în 2044, o povară mare împinsă către guvernele viitoare, care probabil vor trebui să se împrumute din nou.",
-      "article": "expunerea de motive",
-      "quote": null,
+      "text": "Dobânda variabilă legată de EURIBOR la 6 luni și comisioanele aferente expun bugetul la creșterea costurilor de finanțare pe parcursul celor 18 ani.",
+      "article": "art. 3",
+      "quote": "Plata serviciului datoriei publice aferent împrumutului prevăzut la art. 1, respectiv rambursarea capitalului, achitarea dobânzilor, comisioanelor și a altor costuri aferente împrumutului se asigură conform legislației în vigoare",
       "weight": 2
     },
     {
-      "text": "Fișa financiară arată doar anii 2026-2030 și nu include rambursarea celor 544 mil. euro, așa că Parlamentul nu vede costul total pe 18 ani.",
-      "article": "expunerea de motive (fișa financiară)",
+      "text": "Deși acordul a fost negociat de Guvern și aprobat de Președinte, legea de ratificare a fost depusă de 4 deputați, ocolind procedura proiectelor guvernamentale.",
+      "article": "Expunerea de motive",
       "quote": null,
       "weight": 1
     },
     {
-      "text": "Împrumutul e în euro, dar se plătește din bani în lei; o depreciere a leului crește costul real, iar fișa se bazează pe un curs estimat.",
-      "article": "expunerea de motive (fișa financiară)",
-      "quote": null,
-      "weight": 1
-    },
-    {
-      "text": "Acordul permite schimbarea monedei și a tipului de dobândă, dar legea nu spune cine decide, în ce limite și cum se informează Parlamentul.",
-      "article": "expunerea de motive",
-      "quote": null,
-      "weight": 1
-    },
-    {
-      "text": "Reformele legate de împrumut apar doar în expunere; legea nu le cuprinde și nu obligă Guvernul să raporteze Parlamentului cum au fost folosiți banii.",
-      "article": "expunerea de motive",
-      "quote": null,
-      "weight": 1
-    },
-    {
-      "text": "Acordul a fost negociat de Guvern, dar ratificarea a venit ca propunere a 4 deputați, nu ca proiect al Guvernului; e permis, dar ocolește procedura obișnuită.",
-      "article": "expunerea de motive (inițiatori)",
-      "quote": null,
-      "weight": 1
-    },
-    {
-      "text": "Expunerea are formulări neglijente și greșeli de redactare, ceea ce scade încrederea în calculele prezentate.",
-      "article": "expunerea de motive (fișa financiară)",
+      "text": "Fișa financiară prezintă doar plățile pe 2026-2030, fără a arăta costul total al dobânzilor pe 18 ani și rambursarea finală de 544 milioane euro din 2044.",
+      "article": "Expunerea de motive",
       "quote": null,
       "weight": 1
     }
   ],
   "fix": {
-    "text": "Art. 4 ar trebui să ceară ratificarea de către Parlament pentru modificările care schimbă condițiile sau angajamentele, nu doar costul, și transmiterea oricărei HG de modificare comisiilor de buget.",
+    "text": "Modificarea art. 4 alin. (2) astfel încât orice amendament la acordul de împrumut și eventualele conversii de dobândă sau valută să fie comunicate obligatoriu Parlamentului.",
     "removes": [
-      0
+      1
     ],
     "levelAfter": "green",
-    "scoreAfter": 2
+    "scoreAfter": 1.8
   },
   "quotes": {
-    "checked": 15,
-    "verified": 7
+    "checked": 10,
+    "verified": 6
   }
 }

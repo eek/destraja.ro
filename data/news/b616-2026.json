@@ -2,7 +2,7 @@
   "slug": "b616-2026",
   "billId": "B616/2026",
   "checkedAt": "2026-11-05T10:04:20.142Z",
-  "indexCheckedAt": "2026-11-06T14:37:31.825Z",
+  "indexCheckedAt": "2026-11-11T11:12:44.754Z",
   "models": {
     "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
     "claude": "ok",
@@ -10,6 +10,182 @@
     "index": "ok"
   },
   "articles": [
+    {
+      "url": "https://adevarul.ro/economie/voucherele-de-vacanta-ar-putea-ajunge-la-1000-de-2570408.html",
+      "title": "Voucherele de vacanță ar putea ajunge la 1.000 de lei. Ce propune ministrul Daniel Zamfir",
+      "outlet": "Adevărul",
+      "domain": "adevarul.ro",
+      "publishedAt": "2026-11-10",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Propunerea legislativă a fost înregistrată la Senat pe 4 noiembrie 2026, sub numărul B616/2026, și vizează completarea articolului 25 din Codul fiscal.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-11",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-11",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.88,
+            "source": "national_news",
+            "sourceP": 0.989,
+            "about": 0.965,
+            "release": 0.156
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.832,
+            "source": "national_news",
+            "sourceP": 0.56,
+            "about": 0.622,
+            "release": 0.223
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "national_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
+    },
+    {
+      "url": "https://business24.ro/valoare-vouchere-vacanta/marire-1000-lei-avantaje-firme-ministrul-economiei-daniel-zamfir-1674384",
+      "title": "Valoarea unui voucher de vacanță ar putea crește la cel puțin 1.000 de lei. Ce beneficii vor avea firmele care dau angajaților asemenea tichete",
+      "outlet": "Business24",
+      "domain": "business24.ro",
+      "publishedAt": "2026-11-10",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Propunerea legislativă a fost înregistrată la Senat pe 4 noiembrie 2026 și vizează completarea articolului 25 din Codul fiscal.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-11",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-11",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.909,
+            "source": "national_news",
+            "sourceP": 0.379,
+            "about": 0.981,
+            "release": 0.173
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.805,
+            "source": "trade_press",
+            "sourceP": 0.473,
+            "about": 0.562,
+            "release": 0.294
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.82,
+            "source": "aggregator",
+            "sourceP": 0.78,
+            "about": 0.99,
+            "release": 0.03
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.capital.ro/daniel-zamfir-vrea-sa-majoreze-voucherele-de-vacanta-pentru-bugetari-la-cel-putin-1-000-de-lei-plus-facilitati-ficale-pentru-angajatii-din-mediul-privat.html",
+      "title": "Daniel Zamfir vrea să majoreze voucherele de vacanță pentru bugetari la cel puțin 1.000 de lei, plus facilități fiscale pentru angajații din mediul privat",
+      "outlet": "Capital",
+      "domain": "capital.ro",
+      "publishedAt": "2026-11-10",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Proiectul legislativ a fost înregistrat la Senat pe 4 noiembrie 2026, sub numărul B616/2026, și vizează completarea articolului 25 din Codul fiscal.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-11",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-11",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.787,
+            "source": "national_news",
+            "sourceP": 0.739,
+            "about": 0.982,
+            "release": 0.234
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.804,
+            "source": "national_news",
+            "sourceP": 0.556,
+            "about": 0.777,
+            "release": 0.321
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.78,
+            "source": "trade_press",
+            "sourceP": 0.86,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.romaniatv.net/vouchere-de-vacanta-de-1-000-de-lei-veste-buna-pentru-bugetari-de-la-ministerul-economiei_9910420.html",
+      "title": "Vouchere de vacanţă de 1.000 de lei. Veste bună pentru bugetari de la Ministerul Economiei",
+      "outlet": "România TV",
+      "domain": "romaniatv.net",
+      "publishedAt": "2026-11-10",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Propunerea legislativă a fost înregistrată la Senat pe 4 noiembrie 2026, sub numărul B616/2026, și vizează completarea articolului 25 din Codul fiscal.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-11",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-11",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.566,
+            "source": "national_news",
+            "sourceP": 0.748,
+            "about": 0.905,
+            "release": 0.09
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.693,
+            "source": "national_news",
+            "sourceP": 0.568,
+            "about": 0.651,
+            "release": 0.223
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.94,
+            "source": "national_news",
+            "sourceP": 0.98,
+            "about": 0.82,
+            "release": 0.04
+          }
+        }
+      }
+    },
     {
       "url": "https://alba24.ro/vouchere-de-vacanta-de-pana-la-1-600-de-lei-in-mediul-privat-firmele-ar-putea-primi-facilitati-fiscale-proiect-la-senat-1166333.html",
       "title": "Vouchere de vacanță de până la 1.600 de lei în mediul privat. Firmele ar putea primi facilități fiscale. Proiect, la Senat",

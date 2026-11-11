@@ -1,0 +1,57 @@
+{
+  "slug": "b628-2026",
+  "billId": "B628/2026",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-11T11:03:18.028Z",
+  "inputHash": "0cfa8467ad5a",
+  "riskScore": 4,
+  "summary": "O măsură menită să simplifice plata utilităților și a încălzirii în instituțiile publice, dar formulată prea larg, astfel încât poate permite achiziții directe fără concurență și pentru echipamente sau servicii conexe.",
+  "good": [
+    {
+      "text": "Simplifică achiziția de utilități și combustibili de încălzire sub 400.000 lei, ajutând școlile, spitalele și primăriile mici să evite blocajele de aprovizionare iarna.",
+      "article": "art. unic pct. 1",
+      "quote": "Prin excepție de la prevederile alin. (5), autoritatea contractantă poate achiziționa direct produse și servicii necesare asigurării utilităților, respectiv apă, canalizare, energie electrică și gaze naturale, precum și combustibili lichizi și solizi pentru încălzire",
+      "weight": 2
+    },
+    {
+      "text": "Limitează noul prag de 400.000 lei doar la domeniul utilităților și al încălzirii, fără a mări plafonul general de achiziție directă pentru restul bunurilor și serviciilor.",
+      "article": "art. unic pct. 1",
+      "quote": "necesare asigurării utilităților, respectiv apă, canalizare, energie electrică și gaze naturale, precum și combustibili lichizi și solizi pentru încălzire, în cazul în care valoarea estimată a achiziției, fără TVA, este mai mică de 400.000 lei.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Mărește cu aproape 50% pragul de atribuire directă (la 400.000 lei fără TVA) pe piețe concurențiale precum energia și gazele, riscând contracte mai scumpe din bani publici.",
+      "article": "art. unic pct. 1",
+      "quote": "respectiv apă, canalizare, energie electrică și gaze naturale, precum și combustibili lichizi și solizi pentru încălzire, în cazul în care valoarea estimată a achiziției, fără TVA, este mai mică de 400.000 lei.",
+      "weight": 2
+    },
+    {
+      "text": "Expresia „produse și servicii necesare asigurării utilităților” este vagă și permite cumpărarea directă, fără licitație, a unor echipamente, contoare, țevi sau servicii de mentenanță.",
+      "article": "art. unic pct. 1",
+      "quote": "Prin excepție de la prevederile alin. (5), autoritatea contractantă poate achiziționa direct produse și servicii necesare asigurării utilităților, respectiv apă, canalizare, energie electrică și gaze naturale",
+      "weight": 2
+    },
+    {
+      "text": "Introduce o derogare permanentă în lege, deși inițiatorii o justifică doar prin scumpirile de moment la energie și prin nevoia urgentă de pregătire a sezonului rece.",
+      "article": "art. unic pct. 1",
+      "quote": "La articolul 7, după alineatul (5) se introduce un nou alineat, alin. (5¹), cu următorul cuprins:",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Restrângerea excepției strict la furnizarea propriu-zisă a utilităților și a combustibililor de încălzire, fără echipamente sau servicii conexe, și aplicarea ei pe o perioadă determinată.",
+    "removes": [
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 5,
+    "verified": 5
+  }
+}

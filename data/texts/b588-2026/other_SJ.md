@@ -1,0 +1,23 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+București 10.11.2026
+
+Nr. 3588
+
+## Doamnei senator
+
+## NADIA-COSMINA CERVA Președintele Comisiei pentru constituționalitate
+
+În temeiul prevederilor art.35 alin.(1) lit.e), a doua liniuță din Regulamentul Senatului, republicat, vă transmitem, alăturat, următoarea propunere legislativă, înregistrată la Biroul permanent al Senatului, în vederea întocmirii avizului prin care urmează să stabiliți competența de dezbatere ca primă Cameră sesizată a acestei propuneri legislative:
+
+\- Propunere legislativă pentru abrogarea art.35 lit. e) din Legea apărării naționale a României nr.45/1994, precum și pentru modificarea și completarea Legii nr.446/2006 privind pregătirea populației pentru apărare (b588/21.10.2026)
+
+Menționăm că, avizul Comisiei pentru constituționalitate va fi supus aprobării plenului Senatului, în cazul în care Camera Deputaților este competentă să dezbată propunerea legislativă menționată în calitate de primă Cameră sesizată.
+
+Cu considerație,
+
+PREȘEDINTĂLE SENATULUI
+
+MIRCEA ABRUDEAN

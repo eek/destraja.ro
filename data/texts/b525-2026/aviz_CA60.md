@@ -1,0 +1,19 @@
+# Comisia economică, industrii, servicii, turism și antreprenoriat Nr. XX/733/10.11.2026
+
+## AVIZ
+
+Asupra Propunere legislativă pentru modificarea și completarea Ordonanței de urgență nr.195/2005 privind protecția mediului
+
+Comisia economică, industrii, servicii, turism și antreprenoriat, prin adresa nr L624/2026, a fost sesizată, în vederea întocmirii avizului, cu Propunerea legislativă pentru modificarea și completarea Ordonanței de urgență nr.195/2005 privind protecția mediului, inițiată de Anghel Răzvan-Paul - senator USR; Bochileanu George-Cătălin - senator USR; Cibu Deaconu Ruxandra - senator USR; Dobra Elena-Adelina - senator USR; Mîndru Cătălin-Emil - senator USR; Mircescu Ion-Narcis - senator USR; Negoi Eugen-Remus - senator USR; Oprinoiu Aurel - senator USR; Pălărie Ștefan - senator USR; Păun Ana-Cynthia-Ioana - senator USR; Rus Vasile-Ciprian - senator USR; Șipoș Sorin-Gheorghe - senator USR; Varga Glad-Aurel - senator PNL; Coliban Allen - deputat USR; Giurgiu Adrian - deputat USR.
+
+În ședința din data de 10 noiembrie 2026, Comisia economică, industrii, servicii, turism și antreprenoriat a analizat propunerea legislativă și a hotărât, cu majoritate de voturi, să adopte aviz negativ.
+
+PREȘEDINTE,
+
+Senator Sorin VLAȘIN
+
+Domnului senator Glad-Aurel VARGA Președintele Comisiei pentru mediu
+
+SECRETAR,
+
+Senator Cătălin SILEGEANU

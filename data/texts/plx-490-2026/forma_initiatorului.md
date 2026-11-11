@@ -1,0 +1,97 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+LEGE
+
+# privind adoptarea de măsuri pentru digitalizarea și eficientizarea activității în domeniul cercetare-dezvoltare și inovare și crearea unui mediu favorabil investițiilor publice și private în domeniul cercetare-dezvoltare și inovare
+
+Parlamentul României adoptă prezenta lege.
+
+Art. 1 – Prezenta lege reglementează măsurile privind digitalizarea și eficientizarea activității în domeniul cercetare-dezvoltare și inovare, denumit în continuare CDI, crearea și dezvoltarea unui mediu favorabil investițiilor publice și private în domeniul CDI.
+
+Art. 2 – (1) În scopul creșterii eficienței operaționale și stimulării performanței sistemului național de CDI, autoritatea de stat pentru cercetare-dezvoltare implementează procese de transformare digitală a mecanismelor prin care își exercită atribuțiile specifice din domeniile cercetării, dezvoltării, inovării și specializării inteligente.
+
+(2) În aplicarea prevederilor alin. (1) se instituie un punct unic de contact electronic la nivelul autorității de stat pentru cercetare-dezvoltare în scopul asigurării transparente apelurilor/competițiilor de proiecte de CDI finanțate din fonduri publice.
+
+(3) Autoritatea de stat pentru cercetare-dezvoltare și celelalte persoane juridice care conduc programe/subprograme de cercetare, denumite în continuare agenții de finanțare, adoptă și integrează soluții informatice destinate implementării programelor CDI finanțate din fonduri publice, cuprinzând lansarea competițiilor/apelurilor de proiecte, evaluarea propunerilor de proiecte, contractarea, raportarea și monitorizarea rezultatelor acestora, precum și instrumente informatice destinate monitorizării și evaluării Strategiei Naționale de Cercetare, Inovare și Specializare Inteligentă elaborată în baza prevederilor art. 3 alin. (2) din Ordonanța Guvernului nr. 57/2002, aprobată cu modificări și completări prin Legea nr. 324/2003, cu modificările și completările ulterioare.
+
+(4) Soluțiile informatice prevăzute la alin. (3) cuprind un ansamblu integrat de resurse hardware, software și servicii digitale securizate, configurate pentru colectarea, stocarea, procesarea, transmiterea și afișarea datelor, permițând utilizatorilor sau sistemelor să interacționeze prin intermediul unor funcționalități specifice, accesibile prin rețea sau prin alte mijloace electronice, asigurând disponibilitatea, interoperabilitatea, după caz, și confidențialitatea datelor, precum și gestionarea unitară a proceselor.
+
+(5) Lista soluțiilor informatice, specificațiile funcționale, standardele de interoperabilitate și modalitățile de utilizare ale acestora se stabilesc prin act administrativ al conducătorului autorității de stat pentru cercetare-dezvoltare.
+
+(6) Soluțiile informatice administrate atât de autoritatea de stat pentru cercetare-dezvoltare cât și de agențiile de finanțare care implementează programe de CDI asigură:
+
+a) accesul direct și automatizat la datele necesare monitorizării Strategiei Naționale de Cercetare, Inovare și Specializare Inteligentă;
+
+b) integrarea cu punctul unic de contact definit la art. 2 alin. (2), oferind acces direct la datele privind lansarea apelurilor/competițiilor de proiecte de CDI finanțate din fonduri publice;
+
+c) transparența și calitatea procesului de evaluare, contractare și monitorizare a programelor/proiectelor de CDI, precum și publicarea și diseminarea rezultatelor tehnico-științifice cu respectarea reglementărilor incidente privind proprietatea intelectuală și a regulilor aplicabile produselor cu dublă utilizare.
+
+(7) Autoritatea de stat pentru cercetare-dezvoltare poate desemna agenții de finanțare pentru administrarea și dezvoltarea soluțiilor informatice, prin act administrativ al conducătorului acesteia.
+
+(8) Agențiile de finanțare constituite la nivel național/regional au obligația de a introduce și actualiza anual informațiile specifice domeniului lor de activitate în cadrul soluțiilor informatice prevăzute la alin. (3).
+
+(9) În completarea prevederilor art. 2 alin. (4) din Legea nr. 183/2024, începând cu anul 2027, ANC prevede în pachetul de informații/ghidul solicitantului aferent competiției/apelului de proiecte obligația ca fiecare unitate sau instituție de drept public care contractează un proiect de cercetare-dezvoltare și inovare finanțat din fonduri publice, să inițieze procesul de obținere a acreditării „Human Resources for Excellence in Research – HRS4R” sau să dețină acreditarea „Human Resources for Excellence in Research – HRS4R”, în conformitate cu Carta europeană a cercetătorilor, prevăzută în anexa II la Recomandarea Consiliului din 18 decembrie 2023 privind un cadru european pentru atragerea și păstrarea în Europa a talentelor din domeniul cercetării, inovării și antreprenoriatului, publicată în Jurnalul Oficial al Uniunii Europene nr. C/2023/1640 din 29 decembrie 2023.
+
+Art. 3 - (1) Observatorul de Cercetare, Dezvolare și Inovare (OCDI) se înființează și se organizează ca structură în cadrul autorității de stat pentru cercetare-dezvoltare.
+
+(2) Autoritatea de stat pentru cercetare-dezvoltare asigură funcționarea OCDI ce reprezintă un ecosistem digital integrat, ca ansamblu multidimensional care reunește infrastructuri tehnologice, baze de date, structuri instituționale, consorții de inovare și utilizatori interconectați printr-un cadru unitar de interoperabilitate, având rolul de a monitoriza performanța sistemului național de CDI și de a furniza analize relevante în vederea fundamentării politicilor și strategiilor în domeniul CDI și al specializării inteligente, prin centralizarea datelor furnizate de soluțiile informatice și interconectarea cu alte platforme și baze de date relevante.
+
+(3) Prin OCDI, se instituie un sistem permanent și integrat prin care se asigură elaborarea, monitorizarea și evaluarea politicilor în domeniul CDI atât la nivel central cât și regional. Agențiile / unitățile / instituțiile care coordonează sau finanțează programe CDI vor pune la dispoziția autorității de stat pentru cercetare-dezvoltare datele necesare pentru îndeplinirea atribuțiilor OCDI.
+
+(4) În vederea asigurării funcționării OCDI, autoritatea de stat pentru cercetare-dezvoltare beneficiază de sprijinul întregului sistem național de CDI.
+
+(5) Cadrul de organizare și funcționare a OCDI, precum și modalitățile de raportare a datelor către OCDI se stabilesc prin ordin la ministrului educației și cercetării, în termen de 90 de zile de la data intrării în vigoare a prezentei legi.
+
+Art. 4 – (1) În vederea creării unui mediu favorabil investițiilor publice și private în domeniul CDI, în colaborare cu autoritățile publice centrale și locale, cu unitățile de cercetare-dezvoltare astfel cum sunt ele reglementate la art. 7 și 8 din Ordonanța Guvernului nr. 57/2002, aprobată cu modificări și completări prin Legea nr. 324/2003, cu modificările și completările ulterioare, cu mediul de afaceri și societatea civilă, autoritatea de stat pentru cercetare-dezvoltare:
+
+a) elaborează și aplică politici de promovare a inovării în sectorul privat, inclusiv de atragere a investițiilor private complementar și în sinergie cu finanțarea publică în domeniul CDI, urmărind consolidarea cooperării între mediul de afaceri și cel de cercetare, inclusiv prin facilitarea parteneriatelor public-privat în domeniul CDI și transferul rezultatelor inovării în economie și către societate;
+
+b) stabilește măsurile necesare care să asigure creșterea investiției private pentru domeniul de știință și tehnologie cu accent pe valorificarea rezultatelor de cercetare-dezvoltare, prin susținerea inovării și a transferului tehnologic;
+
+c) adoptă măsuri, astfel încât, la nivelul tuturor instrumentelor de finanțare la nivel național/regional, ponderea proiectelor de CDI în care o întreprindere să dețină calitatea de lider de parteneriat/partener să fie de cel puțin 27% din totalul proiectelor de CDI, finanțate prin instrumentele de implementare ale Strategiei Naționale de Cercetare, Inovare și Specializare Inteligentă;
+
+d) poate atrage fonduri provenite din competiții/apeluri de proiecte lansate la nivel național, european și internațional în domeniul inovării;
+
+e) propune și dezvoltă, după caz, instrumente de tipul:
+
+i. facilități fiscale sub forma deducerilor fiscale sau a creditelor fiscale ori introducerea unui nivel specific de amortizare a echipamentelor folosite în activitatea de CDI care să stimuleze atragerea de resurse financiare pentru domeniul CDI din mediul privat;
+
+ii. scutirea parțială a contribuțiilor de asigurări sociale ce poate fi aplicabilă angajatorilor sau personalului de cercetare-dezvoltare care lucrează în unități de cercetare-dezvoltare publice sau private;
+
+iii. participarea la fondurile cu capital de risc, în regim public-privat, pentru susținerea investițiilor în inovare pentru domeniile de specializare inteligentă descrise în Strategia Națională de Cercetare, Inovare și Specializare Inteligentă;
+
+iv. programe centrate pe inovare, dezvoltate pe bază de diagnostic, asigurând finanțarea acestora prin instrumente de tip granturi, vouchere, investiții de capital și altele similare precum înființarea de acceleratoare și incubatoare tehnologice și de afaceri, rețele de tip colaborativ, cât și reglementarea spațiilor de testare inovativă de tip sandbox;
+
+v. programe privind stimularea atragerii investițiilor private în domeniul CDI, prin colaborare cu organizațiile care au drept scop sprijinirea dezvoltării întreprinderilor mari, mici și mijlocii, cu parcurile științifice și tehnologice, cu clusterele regionale de inovare, cu camerele de comerț și industrie și cu alți reprezentanți ai mediului de afaceri, precum cei ai fondurilor cu capital de risc, fondurilor de capital, fondurilor de investiții, investitori providențiali/business angels sau acceleratoare de business, după caz;
+
+vi. programe dedicate parteneriatelor în domenii de CDI constituite sub forma unor consorții care conțin cel puțin o unitate de cercetare-dezvoltare și o întreprindere mare, sunt orientate către proiecte de tipul „high risk-high gain” / risc crescut, câștig mare și sunt dedicate dezvoltării celei de a treia misiuni - triplu helix în unitățile de cercetare-dezvoltare.
+
+(2) Autoritatea de stat pentru cercetare-dezvoltare asigură atât cadrul reglementat cât și instrumentele de susținere pentru:
+
+a) operaționalizarea entităților de inovare și transfer tehnologic cu personalitate juridică sau fără personalitate juridică în cadrul unităților de cercetare-dezvoltare;
+
+b) constituirea de unități/ compartimente/ departamente de inovare și transfer tehnologic, astfel:
+
+i. la nivelul autorității de stat pentru cercetare-dezvoltare, ca Unitate Centrală pentru Inovare, în vederea exercitării atribuțiilor prevăzute la alin. (1);
+
+ii. la nivelul agențiilor de finanțare constituite la nivel național/regional în vederea implementării de politici publice și programe în domeniul inovării.
+
+c) susținerea asociațiilor profesionale care activează în domeniul inovării și transferului tehnologic la nivel național/regional;
+
+d) consolidarea sistemului național de inovare, prin implicarea autorităților centrale sau regionale cu atribuții în domeniul CDI, a mediului de știință și tehnologie, a mediului socio-economic și integrarea politicilor și strategiilor specifice.
+
+(3) Autoritatea de stat pentru cercetare-dezvoltare coordonează asistența tehnică și financiară acordată României pentru încurajarea și stimularea dezvoltării investițiilor în domeniul CDI.
+
+(4) Unitatea Centrală pentru Inovare, denumită în continuare RoInovare, se înființează și se organizează ca structură în cadrul Autorității de stat pentru cercetare-dezvoltare pentru îndeplinirea atribuțiilor prevăzute la alin. (1). Autoritatea de stat pentru cercetare-dezvoltare asigură resursele pentru funcționarea RoInovare,
+
+(5) Cadrul de organizare și funcționare a Unității Centrală pentru Inovare se stabilesc prin ordin se stabilesc prin ordin la ministrului educației și cercetării, în termen de 90 de zile de la data intrării în vigoare a prezentei legi.
+
+(6) Cadrul reglementat la alin. (2), lit. b) este stabilit se stabilesc prin ordin se stabilesc prin ordin la ministrului educației și cercetării.
+
+Art. 5 În vederea asigurării predictibilității finanțării publice în domeniul cercetării, dezvoltării și inovării, planificarea bugetară a instrumentelor de implementare pentru Strategia Națională de Cercetare, Inovare și Specializare Inteligentă va avea caracter multianual, alocările bugetare aferente fiecărui instrument stabilindu-se anual prin legile de aprobare ale bugetului de stat avându-se în vedere planificarea multianuală.
+
+Art. 6 Până la data intrării în vigoare a actelor administrative de aplicare emise în executarea prezentei legi se aplică prevederile actelor normative în vigoare, în măsura în care nu contravin acesteia.

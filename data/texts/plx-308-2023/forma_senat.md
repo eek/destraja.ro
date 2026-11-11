@@ -1,0 +1,15 @@
+# PARLAMENTUL ROMÂNIEI SENAT
+
+## LEGE
+
+privind aprobarea Ordonanței de urgență a Guvernului nr.20/2023 pentru modificarea și completarea Legii nr.207/2015 privind Codul de procedură fiscală, precum și pentru modificarea Ordonanței Guvernului nr.6/2019 privind instituirea unor facilități fiscale
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.20 din 5 aprilie 2023 pentru modificarea și completarea Legii nr.207/2015 privind Codul de procedură fiscală, precum și pentru modificarea Ordonanței Guvernului nr.6/2019 privind instituirea unor facilități fiscale, publicată în Monitorul Oficial al României, Partea I, nr.290 din 6 aprilie 2023.
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 2 mai 2023, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+## p. PREȘEDINTELE SENATULUI
+
+Alina-Ștefania Gorghiu

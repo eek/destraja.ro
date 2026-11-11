@@ -1,0 +1,15 @@
+# PARLAMENTUL ROMÂNIEI SENAT
+
+## LEGE
+
+pentru aprobarea Ordonanței de urgență a Guvernului nr.58/2023 privind unele măsuri pentru acordarea unei prime de carieră didactică pentru personalul didactic și didactic auxiliar, precum și unei prime de carieră profesională pentru personalul nedidactic din învățământul de stat, suportate din fonduri externe nerambursabile
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.58 din 12 iunie 2023 privind unele măsuri pentru acordarea unei prime de carieră didactică pentru personalul didactic și didactic auxiliar, precum și unei prime de carieră profesională pentru personalul nedidactic din învățământul de stat, suportate din fonduri externe nerambursabile, publicată în Monitorul Oficial al României, Partea I, nr.518 din 12 iunie 2023.
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 12 septembrie 2023, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI
+
+SORIN-MIHAI CÎMPEANU

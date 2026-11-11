@@ -1,0 +1,21 @@
+## AVIZ
+
+# asupra Propunerii legislative pentru completarea Legii nr.227/2015 privind Codul fiscal
+
+Comisia economică, industrii, servicii, turism și antreprenoriat, prin adresa n627/2026, a fost sesizată, în vederea întocmirii avizului, cu Propunerea legislativă pentru completarea Legii nr.227/2015 privind Codul fiscal, inițiată de Firczak Iulius Marian - deputat UCRR (minorităti).
+
+În ședința din data de 10 noiembrie 2026, Comisia economică, industrii, servicii, turism și antreprenoriat a analizat propunerea legislativă și a hotărât, în unanimitatea de voturi a membrilor prezenți, să adopte aviz negativ.
+
+PREȘEDINTE,
+
+Senator Sorin VLAȘIN
+
+SECRETAR, Senator Cătălin SILEGEANU
+
+Doamnei Senator Maria-Gabriela HORGA
+
+Președinta Comisiei pentru buget, finanțe, activitate bancară și piață de capital/
+
+Domnului Senator Ștefan PĂLĂRIE
+
+Președintele Comisiei pentru învățământ, știință și inovare

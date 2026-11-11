@@ -2,158 +2,84 @@
   "slug": "plx-197-2026",
   "billId": "PL-x 197/2026",
   "schema": 1,
-  "model": "claude",
-  "updatedAt": "2026-11-02T18:06:52.844Z",
-  "inputHash": "985d219f3466",
-  "riskScore": 5,
-  "summary": "O idee utilă de etichetare digitală, scrisă ambiguu și greșit: lit. c) poate fi citită ca permisiune de a scoate de pe ambalaj avertismentele și ingredientele, contrar regulamentului UE.",
+  "model": "agy",
+  "updatedAt": "2026-11-11T11:05:02.539Z",
+  "inputHash": "b4728768f8b4",
+  "riskScore": 4.7,
+  "summary": "O încercare de digitalizare a etichetelor la cosmetice care încalcă regulamentul european, lasă consumatorii fără avertismente fizice de siguranță și conține erori de redactare în fiecare alineat.",
   "good": [
     {
-      "text": "Prevederea spune clar că un cod QR nu poate reduce protecția consumatorului și nu scutește producătorul de nicio obligație legală. Poate fi invocată împotriva unei interpretări abuzive.",
-      "article": "art. unic, art. 20¹ alin. (1) lit. d)",
-      "quote": "utilizarea codului QR sau a identificatorului electronic nu poate diminua nivelul de protecție al consumatorului și nu exonerează persoana responsabilă de obligațiile prevăzute de legislația în vigoare",
+      "text": "Permite afișarea informațiilor despre cosmetice și prin cod QR pe o pagină web în română, unde textul poate fi mărit și citit ușor de persoanele cu vedere slabă.",
+      "article": "art. 20¹ alin. (1) și lit. b)",
+      "quote": "pot fi puse la dispoziția consumatorului și prin mijloace electronice, prin intermediul unui cod QR sau al unui alt identificator electronic echivalent, lizibil și ușor accesibil, aplicat pe recipient sau ambalaj",
       "weight": 2
     },
     {
-      "text": "Pagina accesată prin cod trebuie să conțină toate informațiile în limba română. Alte limbi sunt doar opționale, deci consumatorul român nu e lăsat cu texte străine.",
-      "article": "art. unic, art. 20¹ alin. (1) lit. b)",
-      "quote": "pagina de internet pune la dispoziția consumatorului în mod integral informațiile în limba română, putând conține suplimentar și versiuni în alte limbi de circulație internațională",
+      "text": "Obligă ca scanarea codului QR să ducă direct la pagina dedicată produsului, evitând rătăcirea cumpărătorului pe site-uri generale sau pagini publicitare.",
+      "article": "art. 20¹ alin. (1) lit. a)",
+      "quote": "codul QR sau identificatorul electronic este aplicat într-o manieră lizibilă, durabilă și ușor accesibilă consumatorului și conduce direct la o pagină de internet dedicată produsului;",
       "weight": 2
     },
     {
-      "text": "Codul trebuie să fie lizibil, durabil și să ducă direct la pagina produsului, nu la un site general unde informația trebuie căutată.",
-      "article": "art. unic, art. 20¹ alin. (1) lit. a)",
-      "quote": "codul QR sau identificatorul electronic este aplicat într-o manieră lizibilă, durabilă și ușor accesibilă consumatorului și conduce direct la o pagină de internet dedicată produsului",
-      "weight": 2
-    },
-    {
-      "text": "Numele producătorului, cantitatea, data de valabilitate și numărul lotului rămân obligatoriu tipărite pe produs. Nu pot fi mutate doar online.",
-      "article": "art. unic, art. 20¹ alin. (1) lit. c)",
-      "quote": "elementele prevăzute la art.19 alin.(1) lit.(a), (b), (c), (e) și (h) din Regulamentul (CE) nr.1223/2009",
-      "weight": 2
-    },
-    {
-      "text": "Pagina produsului trebuie să rămână online cât timp produsul se vinde și încă cel puțin 12 luni. Este o garanție minimă de acces, chiar dacă perioada e scurtă.",
-      "article": "art. unic, art. 20¹ alin. (2)",
-      "quote": "trebuie să rămână accesibilă pe întreaga durată de comercializare a produsului",
-      "weight": 1
-    },
-    {
-      "text": "Există o soluție de rezervă dacă codul nu funcționează: site-ul general al firmei sau serviciul pentru clienți.",
-      "article": "art. unic, art. 20¹ alin. (1) lit. d)",
-      "quote": "în situația în care codul QR sau identificatorul electronic este temporar inaccesibil",
-      "weight": 1
-    },
-    {
-      "text": "Folosirea codului QR este o opțiune pentru firme, nu o obligație nouă. Nu impune costuri suplimentare celor care etichetează deja corect.",
-      "article": "art. unic, art. 20¹ alin. (1)",
-      "quote": "pot fi puse la dispoziția consumatorului și prin mijloace electronice",
-      "weight": 1
-    },
-    {
-      "text": "Online, informația poate fi afișată mai mare și mai lizibil decât pe ambalajele mici. Pot scădea și greșelile de pe stickerele lipite manual, dacă legea e aplicată corect.",
-      "article": "art. unic, art. 20¹ alin. (1)",
-      "quote": null,
+      "text": "Precizează expres că folosirea codului QR nu scutește comerciantul sau producătorul de răspunderea legală privind siguranța și informarea consumatorului.",
+      "article": "art. 20¹ alin. (1) lit. d)",
+      "quote": "utilizarea codului QR sau a identificatorului electronic nu poate diminua nivelul de protecție al consumatorului și nu exonerează persoana responsabilă de obligațiile prevăzute de legislația în vigoare;",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Lit. c) nu trece avertismentele, funcția produsului și ingredientele printre informațiile obligatorii pe ambalaj. Se poate înțelege că pot sta doar online, deși regulamentul UE le cere pe produs.",
-      "article": "art. unic, art. 20¹ alin. (1) lit. c)",
-      "quote": "elementele prevăzute la art.19 alin.(1) lit.(a), (b), (c), (e) și (h) din Regulamentul (CE) nr.1223/2009 al Parlamentului European și al Consiliului din 30 noiembrie 2009 rămân obligatoriu înscrise fizic pe recipient sau pe ambalaj",
+      "text": "Permite mutarea precauțiilor de utilizare și a ingredientelor doar pe internet, încălcând Regulamentul UE 1223/2009 și lăsând cumpărătorii fără avertismente fizice de siguranță.",
+      "article": "art. 20¹ alin. (1) și lit. c)",
+      "quote": "elementele prevăzute la art.19 alin.(1) lit.(a), (b), (c), (e) și (h) din Regulamentul (CE) nr.1223/2009 al Parlamentului European și al Consiliului din 30 noiembrie 2009 rămân obligatoriu înscrise fizic pe recipient sau pe ambalaj;",
       "weight": 3
     },
     {
-      "text": "Formularea „și prin mijloace electronice” înseamnă „în plus”, dar scopul declarat este înlocuirea etichetei. Firmele și ANPC nu știu dacă stickerul în română mai e obligatoriu.",
-      "article": "art. unic, art. 20¹ alin. (1) partea introductivă",
-      "quote": "pot fi puse la dispoziția consumatorului și prin mijloace electronice, prin intermediul unui cod QR",
+      "text": "Pagina web cu precauții și ingrediente trebuie păstrată doar 12 luni de la punerea pe piață a lotului, deși cosmeticele sunt valabile și folosite acasă timp de 24-36 de luni.",
+      "article": "art. 20¹ alin. (2)",
+      "quote": "Pagina de internet prevăzută la alin.(1) trebuie să rămână accesibilă pe întreaga durată de comercializare a produsului și pentru o perioadă de cel puțin 12 luni după punerea pe piață a ultimei unități din lot.",
       "weight": 3
     },
     {
-      "text": "Textul trimite la litera (h) a art. 19 alin. (1) din regulamentul UE, dar aceasta nu există, pentru că enumerarea se oprește la (g). Este o greșeală care face norma neclară.",
-      "article": "art. unic, art. 20¹ alin. (1) lit. c)",
-      "quote": "elementele prevăzute la art.19 alin.(1) lit.(a), (b), (c), (e) și (h) din Regulamentul (CE) nr.1223/2009",
-      "weight": 2
+      "text": "Nu oferă nicio alternativă de informare pentru cumpărătorii fără smartphone sau internet, iar când codul QR nu merge trimite clientul la serviciul clienți, fără acces imediat la precauții.",
+      "article": "art. 20¹ alin. (1) lit. d)",
+      "quote": "vor fi puse la dispoziția consumatorilor prin intermediul paginii de internet generale a persoanei responsabile sau al serviciului de relații cu clienții.",
+      "weight": 3
     },
     {
-      "text": "Proiectul cere informațiile pe recipient „sau” pe ambalaj. Regulamentul UE le cere, ca regulă, pe ambele, cu excepții precise. Legea română coboară standardul.",
-      "article": "art. unic, art. 20¹ alin. (1) lit. c)",
-      "quote": "rămân obligatoriu înscrise fizic pe recipient sau pe ambalaj",
-      "weight": 2
-    },
-    {
-      "text": "Pagina cu avertismente și ingrediente poate dispărea la 12 luni după livrarea ultimului lot. Produsul poate fi însă vândut și folosit mai mult timp, iar alergicii pot rămâne fără informații.",
-      "article": "art. unic, art. 20¹ alin. (2)",
-      "quote": "pentru o perioadă de cel puțin 12 luni după punerea pe piață a ultimei unități din lot",
-      "weight": 2
-    },
-    {
-      "text": "Dacă codul nu merge, consumatorul e trimis la site-ul general sau la serviciul pentru clienți. Nu se stabilește în cât timp primește răspuns, deci avertismentele nu sunt disponibile înainte de folosire.",
-      "article": "art. unic, art. 20¹ alin. (1) lit. d)",
-      "quote": "vor fi puse la dispoziția consumatorilor prin intermediul paginii de internet generale a persoanei responsabile sau al serviciului de relații cu clienții",
-      "weight": 2
-    },
-    {
-      "text": "Persoanele fără telefon inteligent sau fără internet, adesea vârstnice, nu pot citi deloc avertismentele și ingredientele mutate online. Textul nu oferă nicio alternativă fără internet.",
-      "article": "art. unic, art. 20¹ alin. (1) lit. a)",
-      "quote": "conduce direct la o pagină de internet dedicată produsului",
-      "weight": 2
-    },
-    {
-      "text": "Pagina trebuie ținută „actualizată”, dar nu se cere păstrarea informațiilor pentru fiecare lot. Cumpărătorul poate vedea ingredientele unei rețete noi, diferite de produsul pe care îl are.",
-      "article": "art. unic, art. 20¹ alin. (1) lit. b)",
-      "quote": "conține complet și actualizat informațiile prevăzute la art.19 alin.(1) lit.(d), (f) și (g) din Regulamentul (CE) nr.1223/2009",
-      "weight": 2
-    },
-    {
-      "text": "Fiind o regulă tehnică pentru produse, proiectul ar trebui notificat Comisiei Europene înainte de adoptare. Textul nu arată că s-a făcut, iar fără notificare legea poate fi inaplicabilă.",
-      "article": "art. unic",
+      "text": "Se contrazice intern: alin. (1) spune „și prin mijloace electronice” (suplimentar etichetei), dar lit. c) tratează codul QR ca înlocuitor al etichetei fizice, expunând firmele la amenzi ANPC.",
+      "article": "art. 20¹ alin. (1) și lit. c)",
       "quote": null,
       "weight": 2
     },
     {
-      "text": "Cere toate informațiile „în limba română” fără excepție pentru ingrediente. Regulamentul UE impune însă denumirile comune europene (INCI), nu traduceri libere.",
-      "article": "art. unic, art. 20¹ alin. (1) lit. b)",
-      "quote": "pagina de internet pune la dispoziția consumatorului în mod integral informațiile în limba română",
-      "weight": 1
+      "text": "Face trimitere la o normă europeană inexistentă — art. 19 alin. (1) lit. (h) din Regulamentul 1223/2009, care are doar literele (a)-(g) — ceea ce face textul neclar și greu de aplicat.",
+      "article": "art. 20¹ alin. (1) lit. c)",
+      "quote": "elementele prevăzute la art.19 alin.(1) lit.(a), (b), (c), (e) și (h) din Regulamentul (CE) nr.1223/2009 al Parlamentului European și al Consiliului din 30 noiembrie 2009",
+      "weight": 2
     },
     {
-      "text": "Termeni ca „echivalent”, „lizibil” sau „ușor accesibil” nu sunt definiți. Nu există nicio cerință tehnică minimă, așa că se pot interpreta diferit la control.",
-      "article": "art. unic, art. 20¹ alin. (1) partea introductivă",
-      "quote": "prin intermediul unui cod QR sau al unui alt identificator electronic echivalent, lizibil și ușor accesibil",
-      "weight": 1
+      "text": "Cere ca toate informațiile de pe site, inclusiv lista ingredientelor (lit. g), să fie integral în română, contrazicând norma UE care impune denumirile internaționale standard (INCI) netraduse.",
+      "article": "art. 20¹ alin. (1) lit. b)",
+      "quote": "pagina de internet pune la dispoziția consumatorului în mod integral informațiile în limba română, putând conține suplimentar și versiuni în alte limbi de circulație internațională",
+      "weight": 2
     },
     {
-      "text": "Textul nu precizează ce sancțiune se aplică dacă pagina lipsește, e incompletă sau codul nu funcționează. Nu spune nici cine verifică aceste condiții.",
-      "article": "art. unic, art. 20¹",
-      "quote": null,
-      "weight": 1
+      "text": "Cere înscrierea fizică a elementelor obligatorii „pe recipient sau pe ambalaj”, deși Regulamentul UE 1223/2009 obligă înscrierea lor pe ambele (atât pe recipient, cât și pe ambalaj).",
+      "article": "art. 20¹ alin. (1) lit. c)",
+      "quote": "din Regulamentul (CE) nr.1223/2009 al Parlamentului European și al Consiliului din 30 noiembrie 2009 rămân obligatoriu înscrise fizic pe recipient sau pe ambalaj;",
+      "weight": 2
     },
     {
-      "text": "Nu se interzice ca pagina accesată prin cod să urmărească utilizatorul sau să ceară date personale ori înregistrare pentru a vedea ingredientele.",
-      "article": "art. unic, art. 20¹ alin. (1) lit. a)",
-      "quote": null,
+      "text": "Cere ca pagina produsului să conțină informații actualizate, fără a impune păstrarea formulei fiecărui lot, riscând ca un client să vadă ingrediente noi, diferite de cele din produsul său.",
+      "article": "art. 20¹ alin. (1) lit. b)",
+      "quote": "și conține complet și actualizat informațiile prevăzute la art.19 alin.(1) lit.(d), (f) și (g) din Regulamentul (CE) nr.1223/2009 al Parlamentului European și al Consiliului din 30 noiembrie 2009;",
       "weight": 1
     }
   ],
-  "fix": {
-    "text": "Lit. c) ar trebui rescrisă astfel încât toate informațiile din art. 19 alin. (1) lit. (a)-(g) să rămână pe recipient și ambalaj, conform regulamentului, iar codul QR să fie explicit doar o informare suplimentară.",
-    "removes": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7
-    ],
-    "levelAfter": "green",
-    "scoreAfter": 2.5
-  },
+  "fix": null,
   "quotes": {
-    "checked": 17,
-    "verified": 17
+    "checked": 11,
+    "verified": 10
   }
 }

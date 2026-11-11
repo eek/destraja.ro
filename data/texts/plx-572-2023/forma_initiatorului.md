@@ -1,0 +1,41 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+## LEGE
+
+pentru desființarea Academiei Oamenilor de Știință din România și pentru abrogarea Legii nr. 31/2007, cu modificările și completarile ulterioare
+
+Parlamentul României adoptă prezenta lege.
+
+## Articolul 1
+
+Academia Oamenilor de Știință din România înființată prin Legea nr. 31/2007, cu modificările și completările ulterioare, se desființează.
+
+## Articolul 2
+
+(1) Patrimoniului Academiei Oamenilor de Știință din România, reprezentand drepturile, obligațiile, contractele, acordurile și litigiile instituției, activele și pasivele, bunurile mobile, inclusiv arhiva, precum și activele aflate în administrarea sau, după caz, în proprietatea acesteia, se vor prelua prin protocol de predare-primire de către Academia Română.
+
+(2) Protocolul de predare-primire prevăzut la alin. (1), se va efectua în termen de 30 zile calendaristice de la data intrării în vigoare a acestei legi, între reprezentanții legali ai Academiei Oamenilor de Stiinta, pe de-o parte și Academia Română, pe de alta parte, pe baza situațiilor financiare întocmite potrivit art.28 alin. (1¹) din Legea Contabilitatii nr. 82/1991, republicata, cu modificarile si completarile ulterioare.
+
+(3) Angajații Academiei Oamenilor de Stiinta din România prevăzut la art. 19 din legea nr. 31/2007, cu modificările ulterioare, vor fi transferați Academiei Române, potrivit legii, în limita numărului maxim de posturi aprobate pentru Academia Română, beneficiind de drepturile salariale acordate, potrivit legii, pentru categoriile de funcții din cadrul Academiei Române.
+
+(4) Încadrarea personalului transferat în numărul de posturi aprobat și pe noile funcții din cadrul Academiei Române, precum și stabilirea drepturilor salariale aferente acestuia se realizează în termen de maximum 30 de zile de la data intrării în vigoare a acestei legi, cu respectarea regimului juridic aplicabil fiecărei categorii de funcții, precum și a condițiilor de ocupare a posturilor din cadrul Academiei Române.
+
+(5) Obligațiile privind raportările financiare aferente ultimei perioade fiscale pentru care Academia Oamenilor de Știință din România datorează astfel de raportări se preiau de către Academia Română.
+
+## Articolul 3
+
+În termen de 60 de zile de la publicarii in Monitorul Oficial al prezentei legi, Legea nr. 31/15 ianuarie 2007 privind reorganizarea și funcționarea Academiei Oamenilor de Știință din România, cu modificările și completările ulterioare, publicată în Monitorul Oficial al României, Partea I, nr. 35 din 18 ianuarie 2007, cu modificările și completările ulterioare, se abrogă.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+Președintele Camerei Deputaților,
+
+ION-MARCEL CIOLACU
+
+Președintele Senatului,
+
+ALINA -ȘTEFANIA GORGHIU

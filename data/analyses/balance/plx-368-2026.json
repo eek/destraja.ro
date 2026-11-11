@@ -2,231 +2,112 @@
   "slug": "plx-368-2026",
   "billId": "PL-x 368/2026",
   "schema": 1,
-  "model": "claude",
-  "updatedAt": "2026-11-02T20:02:17.660Z",
-  "inputHash": "1e94dd911245",
-  "riskScore": 3,
-  "summary": "O lege utilă, cu garanții reale de confidențialitate, slăbită de termene nesincronizate, de o delegare prea largă pentru alte registre și de mai multe goluri tehnice care se pot repara.",
+  "model": "agy",
+  "updatedAt": "2026-11-11T11:08:12.721Z",
+  "inputHash": "b9090b012263",
+  "riskScore": 3.3,
+  "summary": "O inițiativă utilă și necesară pentru monitorizarea endometriozei, dar care conține erori de tehnică legislativă, termene necorelate și neclarități privind arhitectura de pseudonimizare.",
   "good": [
     {
-      "text": "Creează pentru prima dată o evidență națională a endometriozei, ca statul să știe câte paciente sunt, unde sunt și cum evoluează boala.",
-      "article": "art. 1 alin. (1), art. 3 lit. a)",
-      "quote": "Se înființează Registrul Național de Endometrioză, denumit în continuare RNE, ca sistem informațional și informatic de interes național",
+      "text": "Înființează Registrul Național de Endometrioză pentru a urmări evoluția bolii și a fundamenta politicile de sănătate și decontările pe date reale, nu pe estimări.",
+      "article": "art. 1 alin. (1) și art. 3",
+      "quote": "Se înființează Registrul Național de Endometrioză, denumit în continuare RNE, ca sistem informațional și informatic de interes național, destinat colectării, stocării, prelucrării și analizei integrate a datelor medicale pseudonimizate",
       "weight": 3
     },
     {
-      "text": "Interzice expres colectarea numelui, CNP-ului, adresei și datelor de contact, deci riscul de expunere a pacientelor scade.",
+      "text": "Protejează intimitatea pacientelor interzicând expres colectarea numelui, CNP-ului, adresei exacte sau a datelor de contact în registru.",
       "article": "art. 7 alin. (2)",
       "quote": "Nu se colectează date de identificare directă, precum nume, prenume, cod numeric personal, adresă exactă sau date de contact.",
       "weight": 3
     },
     {
-      "text": "Datele pot fi folosite doar în scop medical, statistic și de sănătate publică. Orice altă utilizare este interzisă expres.",
-      "article": "art. 9 alin. (2)",
-      "quote": "Scopul prelucrării este exclusiv medical, statistic și de sănătate publică, fiind interzisă utilizarea datelor în alte scopuri.",
-      "weight": 3
-    },
-    {
-      "text": "Ministerul, INSP și CNAS văd doar date agregate și anonimizate, nu fișe individuale, ceea ce limitează riscul de abuz din partea autorităților.",
-      "article": "art. 8 alin. (2)",
-      "quote": "au acces doar la date aggregate și anonimizate, necesare pentru elaborarea analizelor și rapoartelor de sănătate publică.",
-      "weight": 2
-    },
-    {
-      "text": "Obligația de raportare cade pe spitale și clinici, nu pe medicul individual. Astfel, medicii nu sunt împovărați cu sancțiuni personale distincte.",
-      "article": "art. 5 alin. (3)",
+      "text": "Obligația administrativă de raportare revine spitalelor și clinicilor, protejând medicii de sancțiuni individuale directe pentru procedurile birocratice.",
+      "article": "art. 5 alin. (1) și (3)",
       "quote": "Medicii au rol profesional de furnizare a datelor medicale necesare raportării, fără a dobândi calitatea de subiect sancționabil distinct.",
       "weight": 2
     },
     {
-      "text": "Impune pseudonimizarea datelor în funcționarea curentă și anonimizarea ireversibilă în rapoartele publice, după principiul protecției datelor din proiectare.",
-      "article": "art. 10",
-      "quote": "Datele sunt pseudonimizate la nivel operațional și anonimizate irreversibil pentru rapoartele publice.",
+      "text": "Impune raportarea exclusiv electronică și conectarea cu Dosarul Electronic de Sănătate și platforma CNAS, evitând raportările paralele pe hârtie.",
+      "article": "art. 1 alin. (3) și art. 6 alin. (1)",
+      "quote": "RNE face parte din infrastructura națională de e-Sănătate și se dezvoltă asigurând interoperabilitatea tehnică și semantică cu Platforma Informatică din Asigurările de Sănătate și cu Dosarul Electronic de Sănătate",
       "weight": 2
     },
     {
-      "text": "Pacienta își poate vedea propriile date din registru prin Dosarul Electronic de Sănătate.",
-      "article": "art. 8 alin. (3)",
-      "quote": "Pacientul are dreptul de acces la propriile date prin Dosarul Electronic de Sănătate, în condițiile legii.",
+      "text": "Interzice expres folosirea datelor din registru în alte scopuri decât cele medicale, statistice și de sănătate publică, prevenind exploatarea lor comercială.",
+      "article": "art. 9 alin. (2)",
+      "quote": "Scopul prelucrării este exclusiv medical, statistic și de sănătate publică, fiind interzisă utilizarea datelor în alte scopuri.",
       "weight": 2
     },
     {
-      "text": "Obligă la raportare atât furnizorii publici, cât și pe cei privați, așa că datele vor fi complete, nu doar din spitalele de stat.",
-      "article": "art. 5 alin. (1)",
-      "quote": "revine furnizorilor de servicii medicale autorizați, publici sau privați, care desfășoară activități de diagnostic, tratament sau monitorizare a endometriozei.",
+      "text": "Prioritizează finanțarea dezvoltării registrului din fonduri europene nerambursabile (PNRR și Programul Sănătate), protejând bugetul național.",
+      "article": "art. 12 alin. (1)",
+      "quote": "Dezvoltarea și implementarea RNE se finanțează cu prioritate din fonduri externe nerambursabile, inclusiv prin PNRR și Programul Sănătate.",
       "weight": 2
     },
     {
-      "text": "Lista de date este închisă („exclusiv”), iar vârsta și locul apar doar pe grupe și zone, nu exact. Se colectează doar ce e necesar.",
-      "article": "art. 7 alin. (1)",
-      "quote": "date demografice generale, exprimate prin grupe de vârstă și arii territoriale, fără identificare directă",
-      "weight": 2
-    },
-    {
-      "text": "Registrul se leagă de platforma CNAS și de Dosarul Electronic de Sănătate, ceea ce evită raportări duplicate și evidențe paralele.",
-      "article": "art. 1 alin. (3)",
-      "quote": "se dezvoltă asigurând interoperabilitatea tehnică și semantică cu Platforma Informatică din Asigurările de Sănătate și cu Dosarul Electronic de Sănătate",
-      "weight": 2
-    },
-    {
-      "text": "Folosește instituții existente (Ministerul Sănătății, INSP) și nu creează o nouă structură birocratică.",
-      "article": "art. 1 alin. (2)",
-      "quote": "este administrat operațional de Institutul Național de Sănătate Publică, denumit în continuare INSP",
-      "weight": 1
-    },
-    {
-      "text": "Baza de date și aplicația rămân în proprietatea statului, nu a unui furnizor privat de software.",
+      "text": "Stabilește că baza de date și aplicația informatică sunt proprietate publică a statului, evitând blocarea sistemului la firme private de software.",
       "article": "art. 14",
       "quote": "Baza de date și aplicația informatică aferentă RNE constituie proprietate publică a statului român.",
-      "weight": 1
-    },
-    {
-      "text": "Prevede o sursă de bani pentru funcționarea de durată a registrului, nu doar pentru construirea lui.",
-      "article": "art. 12 alin. (2)",
-      "quote": "Finanțarea activităților recurente se asigură din bugetul Ministerului Sănătății.",
-      "weight": 1
-    },
-    {
-      "text": "Cere ca aplicația să respecte standarde europene de interoperabilitate, ceea ce ușurează schimbul de date și evită soluții închise.",
-      "article": "art. 13 alin. (2)",
-      "quote": "Soluția informatică se dezvoltă pe baza standardelor de interoperabilitate recunoscute la nivel european.",
-      "weight": 1
-    },
-    {
-      "text": "Eventualele registre pentru alte boli trebuie să respecte aceleași reguli de protecție a datelor și limitare a scopului.",
-      "article": "art. 2 alin. (2)",
-      "quote": "se organizează și funcționează cu respectarea principiilor stabilite prin prezenta lege privind protecția datelor, pseudonimizarea informațiilor, interoperabilitatea și limitarea scopului prelucrării",
-      "weight": 1
-    },
-    {
-      "text": "Scopurile registrului sunt enumerate concret, inclusiv fundamentarea programelor și a decontărilor pe date reale.",
-      "article": "art. 3 lit. c)",
-      "quote": "fundamentarea politicilor publice de sănătate, inclusiv a programelor naționale de sănătate și a mecanismelor de finanțare și decontare",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Raportarea electronică devine obligatorie la 30 de zile după publicare, dar aplicația poate apărea abia peste 12 luni de la norme. Clinicile ar fi obligate să raporteze într-un sistem inexistent.",
-      "article": "art. 6 alin. (1)-(2), art. 13 alin. (1), art. 17",
-      "quote": "RNE se operaționalizează în termen de 12 luni de la intrarea în vigoare a normelor metodologice.",
-      "weight": 3
-    },
-    {
-      "text": "Ministrul poate crea prin simplu ordin registre de date medicale pentru orice altă boală, fără vot în Parlament și fără limite clare.",
-      "article": "art. 2 alin. (1)",
+      "text": "Permite ministrului sănătății să înființeze prin ordin registre pentru orice alte boli și să stabilească datele colectate, ocolind Parlamentul.",
+      "article": "art. 2 alin. (1) și (3)",
       "quote": "Prin ordin al ministrului sănătății, la propunerea fundamentată a INSP, pot fi înființate registre naționale similare pentru alte afecțiuni cu prevalență ridicată sau impact semnificativ asupra sănătății publice.",
       "weight": 3
     },
     {
-      "text": "Orice clinică poate accesa fișele individuale, nu doar cea care o tratează efectiv pe pacientă. Lipsesc limitarea la pacienții proprii și jurnalul de acces.",
-      "article": "art. 8 alin. (1)",
-      "quote": "Accesul la datele individuale pseudonimizate este permis exclusiv furnizorilor de servicii medicale, în scopul continuității actului medical.",
+      "text": "Obligă clinicile să raporteze cazurile în 30 de zile de la intrarea în vigoare a legii, deși aplicația informatică va fi gata abia peste cel puțin un an.",
+      "article": "art. 6 alin. (2), art. 13 alin. (1) și art. 17",
+      "quote": "RNE se operaționalizează în termen de 12 luni de la intrarea în vigoare a normelor metodologice.",
       "weight": 3
     },
     {
-      "text": "Datele pseudonimizate rămân date personale după RGPD, chiar fără CNP. Legea le tratează aproape ca anonime și nu le dă toate garanțiile cerute.",
-      "article": "art. 1 alin. (1), art. 10",
-      "quote": "destinat colectării, stocării, prelucrării și analizei integrate a datelor medicale pseudonimizate privind cazurile de endometrioză diagnosticate pe teritoriul României",
+      "text": "Permite furnizorilor medicali și pacientei accesul la dosarul individual fără a explica cum se face legătura fără CNP și fără a limita medicii la propriii pacienți.",
+      "article": "art. 7 alin. (2) și art. 8 alin. (1) și (3)",
+      "quote": "Accesul la datele individuale pseudonimizate este permis exclusiv furnizorilor de servicii medicale, în scopul continuității actului medical.",
       "weight": 2
     },
     {
-      "text": "Nu spune cine generează codul unic, din ce date, cine ține legătura cod–persoană și cum se evită dublurile, deși accesul prin DES depinde de asta.",
-      "article": "art. 4 lit. d), art. 7, art. 8 alin. (3)",
-      "quote": "identificator unic pseudonimizat - cod tehnic generat automat, care permite corelarea datelor medicale fără identificarea directă a pacientului.",
+      "text": "Desemnează INSP ca administrator și operator al bazei de date, dar îi permite acces doar la date anonimizate, o contradicție tehnică și juridică.",
+      "article": "art. 1 alin. (2) și art. 8 alin. (2)",
+      "quote": "Ministerul Sănătății, INSP și Casa Națională de Asigurări de Sănătate au acces doar la date aggregate și anonimizate, necesare pentru elaborarea analizelor și rapoartelor de sănătate publică.",
       "weight": 2
     },
     {
-      "text": "INSP este operatorul datelor, dar are voie să vadă doar date agregate. Rămâne neclar cine administrează tehnic baza și cine răspunde cererilor pacientelor.",
-      "article": "art. 1 alin. (2), art. 8 alin. (2)",
-      "quote": "Ministerul Sănătății, INSP și Casa Națională de Asigurări de Sănătate au acces doar la date aggregate și anonimizate",
-      "weight": 2
-    },
-    {
-      "text": "Normele trebuie „elaborate” în 30 de zile, fără să spună de la ce dată, prin ce act se aprobă și când se publică. Termenul poate fi ocolit ușor.",
-      "article": "art. 16",
-      "quote": "Ministerul Sănătății elaborază normele metodologice în termen de 30 de zile.",
-      "weight": 2
-    },
-    {
-      "text": "Sancțiunile sunt vagi și nu stabilesc nicio contravenție concretă. Mențiunea răspunderii disciplinare poate ajunge tot la medici, contrar art. 5 alin. (3).",
-      "article": "art. 15",
-      "quote": "Nerespectarea obligațiilor prevăzute de prezenta lege atrage răspunderea disciplinară, contractuală, administrativă sau civilă, după caz, în condițiile legislației în vigoare.",
-      "weight": 2
-    },
-    {
-      "text": "Nu fixează cât timp se păstrează datele, ce măsuri de securitate sunt obligatorii și cine controlează accesările.",
-      "article": "art. 7-10",
-      "quote": null,
-      "weight": 2
-    },
-    {
-      "text": "Formula „fără a afecta integritatea datelor statistice” poate fi folosită pentru a refuza ștergerea sau opoziția pacientei, fără criterii clare.",
+      "text": "Condiționează vag drepturile pacientelor asupra datelor personale de „integritatea datelor statistice”, formulare ce poate bloca ștergerea sau opoziția.",
       "article": "art. 11",
       "quote": "Pacienții beneficiază de drepturile prevăzute de legislația privind protecția datelor cu caracter personal, fără a afecta integritatea datelor statistice.",
       "weight": 2
     },
     {
-      "text": "„Actualizarea relevantă” nu este definită. Clinicile nu știu ce schimbare trebuie raportată în 30 de zile, deci pot fi sancționate arbitrar.",
-      "article": "art. 6 alin. (2)",
+      "text": "Cere elaborarea normelor în 30 de zile, fără a preciza actul de aprobare (ordin sau hotărâre de Guvern), termenul de adoptare și de când curg cele 30 de zile.",
+      "article": "art. 16",
+      "quote": "Ministerul Sănătății elaborază normele metodologice în termen de 30 de zile.",
+      "weight": 1
+    },
+    {
+      "text": "Impune raportarea la orice „actualizare relevantă” fără a o defini și invocă răspunderea administrativă fără a stabili ce fapte sunt contravenții și ce amenzi se aplică.",
+      "article": "art. 6 alin. (2) și art. 15",
       "quote": "Termenul de raportare este de maximum 30 de zile calendaristice de la stabilirea diagnosticului sau de la actualizarea relevantă a datelor medicale.",
-      "weight": 2
-    },
-    {
-      "text": "Raportarea cazurilor vechi e lăsată „etapizat” prin norme, fără niciun termen final.",
-      "article": "art. 6 alin. (3)",
-      "quote": "Pentru cazurile existente anterior intrării în vigoare a prezentei legi, raportarea se realizează etapizat, conform normelor metodologice.",
-      "weight": 1
-    },
-    {
-      "text": "Cercetarea este scop declarat, dar legea nu spune cine dă acces cercetătorilor, la ce date și cu ce aviz etic.",
-      "article": "art. 3 lit. d), art. 8",
-      "quote": "susținerea cercetării științifice medicale, în condiții de etică, legalitate și protecție a datelor.",
-      "weight": 1
-    },
-    {
-      "text": "Conținutul concret al datelor („date clinice relevante”, mărimea zonelor) e lăsat pe norme. Zonele prea mici pot face pacientele recognoscibile.",
-      "article": "art. 7 alin. (1) lit. b) și alin. (3)",
-      "quote": "Structura detaliată a setului minim de date se stabilește prin norme metodologice, cu respectarea principiilor proporționalității și minimizării datelor.",
-      "weight": 1
-    },
-    {
-      "text": "Nu există o estimare a costurilor. Construirea se bazează „cu prioritate” pe fonduri externe incerte, inclusiv PNRR, care se apropie de final.",
-      "article": "art. 12 alin. (1)",
-      "quote": "Dezvoltarea și implementarea RNE se finanțează cu prioritate din fonduri externe nerambursabile, inclusiv prin PNRR și Programul Sănătate.",
-      "weight": 1
-    },
-    {
-      "text": "Nu obligă clinica să informeze pacienta că datele ei ajung în registru.",
-      "article": "art. 5-8",
-      "quote": null,
-      "weight": 1
-    },
-    {
-      "text": "Definiția bolii trimite la „ghidurile în vigoare” fără să spună care. Clinicile pot aplica criterii diferite de confirmare.",
-      "article": "art. 4 lit. a)",
-      "quote": "afecțiune ginecologică cronică confirmată conform ghidurilor medicale în vigoare",
-      "weight": 1
-    },
-    {
-      "text": "Textul are greșeli de redactare („incidenteți”, „aggregate”, „territoriale”, „irreversibil”, „elaborază”) care trebuie corectate înainte de adoptare.",
-      "article": "art. 3 lit. a) și b), art. 7, art. 8, art. 10, art. 16",
-      "quote": "monitorizarea epidemiologică a endometriozei, prin determinarea incidenteți și prevalenței la nivel național și regional",
       "weight": 1
     }
   ],
   "fix": {
-    "text": "Eliminarea art. 2 alin. (1), astfel încât alte registre să se creeze doar prin lege, și o normă tranzitorie care amână raportarea până la funcționarea aplicației, cu termen și act clar de aprobare pentru norme.",
+    "text": "Eliminarea art. 2 privind înființarea altor registre prin ordin, corelarea termenului de raportare cu operaționalizarea aplicației și clarificarea mecanismului de pseudonimizare și acces la date.",
     "removes": [
       0,
       1,
-      6
+      2,
+      3
     ],
-    "levelAfter": "yellow",
-    "scoreAfter": 2
+    "levelAfter": "green",
+    "scoreAfter": 1.2
   },
   "quotes": {
-    "checked": 32,
-    "verified": 32
+    "checked": 14,
+    "verified": 14
   }
 }

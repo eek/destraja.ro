@@ -1,0 +1,27 @@
+# Lege
+
+# pentru completarea Ordonanței Guvernului 26/2000 cu privire la asociații și fundații
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic. –Ordonanța Guvernului 26/2000 cu privire la asociații și fundații, republicată în Monitorul Oficial al României, Partea I, nr. 39 din data de 31 ianuarie 2000, cu modificările și completările ulterioare, se completează după cum urmează:
+
+## 1. După articolul 18 se introduce un articol nou, art. 18¹ cu următorul cuprins:
+
+## Art. 18¹
+
+(1) Fundațiile își poate constitui sucursale, ca structuri teritoriale fără personalitate juridică.
+
+(2)Sucursalele se constituie prin hotărâre a consiliului director.
+
+(3) Sucursalele își pot desfășura activitatea numai după înscrierea lor în Registrul asociațiilor și fundațiilor. Cererea de înscriere, însoțită de hotărârea consiliului director, se va depune la grefa judecătoriei în a cărei circumscripție își are sediul fundația, prevederile art. 15-17 aplicându-se în mod corespunzător.
+
+(4) Sucursalele desfășoară activitățile date în competența lor de către fundație.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE
+
+SENATULUI

@@ -1,0 +1,49 @@
+# AVIZ
+
+referitor la propunerea legislativă pentru modificarea și completarea Legii învățământului preuniversitar nr. 198/2023, în vederea acordării burselor de excelență olimpică
+
+Analizând propunerea legislativă pentru modificarea și completarea Legii învățământului preuniversitar nr. 198/2023, în vederea acordării burselor de excelență olimpică (b552/07.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/4794/12.10.2026 și înregistrată la Consiliul Legislativ cu nr. D863/13.10.2026,
+
+## CONSILIUL LEGISLATIV
+
+În temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (3) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
+
+Avizează favorabil propunerea legislativă, cu următoarele observații și propuneri:
+
+1\. Propunerea legislativă are ca obiect de reglementare modificarea și completarea Legii învățământului preuniversitar nr. 198/2023, în sensul instituirii burselor de excelență olimpică I și II pentru elevii din învățământul preuniversitar de stat, particular și confesional.
+
+2\. Prin conținutul său normativ, propunerea legislativă se încadrează în categoria legilor organice, fiind incidente prevederile art. 73 alin. (3) lit. n) din Constituția României, republicată, iar în aplicarea prevederilor art. 75 alin. (1) din Legea fundamentală, prima Cameră sesizată este Camera Deputaților.
+
+3\. Menționăm că, prin avizul pe care îl emite, Consiliul Legislativ nu se pronunță asupra oportunității soluțiilor legislative preconizate.
+
+4\. La titlu, este necesară eliminarea sintagmei „în vederea acordării burselor de excelență olimpică”, ca inadecvată uzanțelor normative.
+
+5\. La art. I, având în vedere că art. II alin. (1) prevede deja actualizarea metodologiei-cadru în vederea aplicării noilor prevederi, propunem eliminarea pct. 1, ca superfluu. În consecință, punctele subsecvente se vor renumerota.
+
+La pct. 5, referitor la textele preconizate pentru art. 108², apreciem că o parte semnificativă a soluțiilor legislative propuse are caracter administrativ și procedural și trebuie reglementate la nivel secundar, prin
+
+Metodologia-cadru de acordare a burselor și cuantumul acestora, aprobată prin Hotărârea Guvernului nr. 732/2025, cu modificările ulterioare. Astfel, s-ar asigura o abordare unitară în privința nivelului de reglementare a categoriilor de burse acordate elevilor din învățământul preuniversitar de stat, particular și confesional.
+
+6\. La art. II alin. (1), pentru un plus de rigoare normativă, sugerăm reformularea textului astfel:
+
+„(1) În termen de 30 de zile de la data intrării în vigoare a prezentului articol, Guvernul, la propunerea Ministerului Educației și Cercetării, va modifica în mod corespunzător Metodologia-cadru de acordare a burselor și cuantumul acestora, aprobată prin Hotărârea Guvernului nr. 732/2025, cu modificările ulterioare”.
+
+Această reformulare exclude teza „Dispozițiile actualizate se aplică de la data intrării în vigoare a art. I”, întrucât data aplicării acestor dispoziții se poate stabili la modificarea Metodologiei-cadru.
+
+La alin. (2) teza a doua, pentru rigoarea exprimării, recomandăm ca sintagma „premiile aferente anului terminal” să fie înlocuită cu sintagma „premiile aferente ultimului an de studii liceale”. De asemenea, apreciem că formularea „în condițiile legislației finanțelor publice” este superfluă și ar trebui eliminată.
+
+Totodată, sugerăm reformularea sau, după caz, eliminarea normei propuse pentru alin. (3), întrucât prima teză este superfluă, iar cea de-a doua este insuficient de precisă în privința procedurilor aplicabile în cazul neactualizării în termen a metodologiei-cadru.
+
+7\. La art. III, pentru o exprimare adecvată, propunem următorul cuprins:
+
+„Art. III. - (1) Prin derogare de la prevederile art. 10 alin. (2) din Legea învățământului preuniversitar nr. 198/2023, cu modificările și completările ulterioare, prezenta lege intră în vigoare în prima zi a primului an școlar care începe la cel puțin 90 de zile de la data publicării prezentei legi în Monitorul Oficial al României, Partea I, cu excepția dispozițiilor art. II, care intră în vigoare la 3 zile de la data publicării”.
+
+În ceea ce privește normele preconizate pentru alin. (2) și (3), propunem eliminarea acestora, întrucât aspectele de detaliu prevăzute la alin. (2) pot fi reglementate prin modificarea metodologiei-cadru, iar cele avute în vedere la alin. (3) sunt superflue.
+
+PRESEDENTE
+
+Florin/IORPACHE
+
+București
+
+Nr. 932/09.11.2026

@@ -1,0 +1,29 @@
+# CONSILIUL LEGISLATIV Biroul permanent al Senatului Bp..../ 10 noiemb/2026
+
+# AVIZ
+
+referitor la propunerea legislativă pentru completarea Ordonanței Guvernului nr. 15/2002 privind aplicarea tarifului de utilizare și a tarifului de trecere pe rețeaua de drumuri naționale din România
+
+Analizând propunerea legislativă pentru completarea Ordonanței Guvernului nr. 15/2002 privind aplicarea tarifului de utilizare și a tarifului de trecere pe rețeaua de drumuri naționale din România (b545/05.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/4794/12.10.2026 și înregistrată la Consiliul Legislativ cu nr. D858/13.10.2026,
+
+## CONSILIUL LEGISLATIV
+
+În temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (4) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
+
+Avizează negativ propunerea legislativă, pentru următoarele considerente:
+
+1\. Propunerea legislativă are ca obiect de reglementare completarea Ordonanței Guvernului nr. 15/2002 privind aplicarea tarifului de utilizare și a tarifului de trecere pe rețeaua de drumuri naționale din România, aprobată cu modificări și completări prin Legea nr. 424/2002, cu modificările și completările ulterioare, în sensul exceptării de la plata tarifului de utilizare a rețelei de drumuri naționale a vehiculelor specializate pentru transportul stupilor în cadrul practicării apiculturii pastorale.
+
+2\. Prin conținutul său normativ, propunerea legislativă face parte din categoria legilor ordinare, iar în aplicarea art. 75 alin. (1) din Constituția României, republicată, prima Cameră sesizată este Senatul.
+
+3\. Precizăm că, prin avizul pe care îl emite, Consiliul Legislativ nu se pronunță asupra oportunității soluțiilor legislative preconizate.
+
+4\. Menționăm că, potrivit art. 24 din Legea nr. 226/2023 privind aplicarea unor tarife rutiere pe rețeaua de drumuri naționale din România, cu modificările și completările ulterioare, Ordonanța Guvernului nr. 15/2002 privind aplicarea tarifului de utilizare și a tarifului de trecere pe rețeaua de drumuri naționale din România, aprobată cu modificări și completări prin Legea nr. 424/2002, cu modificările și completările ulterioare, a fost abrogată la data de 1 octombrie 2026.
+
+Prin urmare, în prezent nu mai este posibilă completarea acestui act normativ, instituirea excepției de la plata tarifului putând fi realizată printr-o intervenție legislativă asupra Legii nr. 226/2023.
+
+Ținând seama de cele de mai sus, reglementarea preconizată nu poate fi promovată în forma propusă prin proiect.
+
+PRESEMENT
+
+Florin LORDACHE

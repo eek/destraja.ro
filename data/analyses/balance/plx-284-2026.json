@@ -2,81 +2,57 @@
   "slug": "plx-284-2026",
   "billId": "Pl-x 284/2026",
   "schema": 1,
-  "model": "claude",
-  "updatedAt": "2026-11-03T07:55:26.326Z",
-  "inputHash": "f355a69b709a",
-  "riskScore": 2,
-  "summary": "O corectură mică și utilă a numelui unei comune, cu câteva scăpări tehnice ușor de reparat, fără nimic care să strice legea.",
+  "model": "agy",
+  "updatedAt": "2026-11-11T11:05:59.052Z",
+  "inputHash": "2e06125abd5a",
+  "riskScore": 1.5,
+  "summary": "O lege utilă și punctuală care repară o veche eroare de tipar în numele comunei Bâra, cu mici scăpări de redactare și fără o regulă expresă pentru actele deja emise.",
   "good": [
     {
-      "text": "Corectează oficial numele comunei din Bira în Bâra. Legea ajunge astfel la aceeași formă folosită deja în buletine și actele de stare civilă, și dispare confuzia dintre documente.",
+      "text": "Corectează denumirea oficială a comunei și a satului de reședință din „Bira” în „Bâra”, reparând o greșeală de tipar din 1981 care a împiedicat actualizarea numelui în 2018.",
       "article": "art. unic",
-      "quote": "La județul Neamț, la litera C. «Comune», numărul curent 7, la comuna Bira, prima coloană «Denumirea comunei»",
+      "quote": "La județul Neamț, la litera C. „Comune”, numărul curent 7, la comuna Bira, prima coloană „Denumirea comunei” și coloana a doua „Satele componente” se modifică și vor avea următorul cuprins:",
       "weight": 3
     },
     {
-      "text": "Schimbă la fel atât numele comunei, cât și pe al satului reședință. Nu mai rămân două grafii diferite pentru aceeași localitate.",
-      "article": "art. unic",
-      "quote": "prima coloană «Denumirea comunei» și coloana a doua «Satele componente» se modifică și vor avea următorul cuprins",
-      "weight": 2
-    },
-    {
-      "text": "Intervenția e strict limitată: satele Negrești și Rediu rămân la fel și nu apar taxe, obligații, sancțiuni sau avantaje pentru cineva.",
+      "text": "Elimină neconcordanțele dintre actele de identitate sau stare civilă (emise deja cu „Bâra”) și alte registre publice în care localitatea încă figura sub forma greșită „Bira”.",
       "article": "art. unic",
       "quote": null,
       "weight": 2
-    },
-    {
-      "text": "Aplică și pentru această comună regula națională de scriere cu â în loc de î, la care fusese sărită din cauza erorii de tipar din 1981.",
-      "article": "art. unic",
-      "quote": null,
-      "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Legea nu spune că buletinele, actele de stare civilă, cărțile funciare și ștampilele emise cu «Bira» rămân valabile. Asta poate da bătăi de cap oamenilor la notari, bănci sau în instanță.",
+      "text": "Nu prevede expres că actele emise anterior cu numele „Bira” rămân valabile și se actualizează gratuit din oficiu, lăsând loc de birocrație sau cheltuieli pentru localnici.",
       "article": "art. unic",
       "quote": null,
       "weight": 2
     },
     {
-      "text": "Nu prevede actualizarea gratuită și din oficiu a registrelor (carte funciară, registrul comerțului, ANAF, evidența populației). Oamenii ar putea fi puși să ceară acte noi pe banii sau timpul lor.",
+      "text": "Partea introductivă anunță greșit că toată anexa legii se înlocuiește, deși se modifică doar un rând din județul Neamț, ceea ce încalcă regulile de redactare legislativă.",
       "article": "art. unic",
-      "quote": null,
-      "weight": 2
-    },
-    {
-      "text": "Formula de început spune că toată anexa „va avea următorul cuprins”. Citită literal, ar înlocui lista tuturor localităților din țară cu un singur rând. Intenția e clară, dar redactarea e greșită.",
-      "article": "art. unic, partea introductivă",
-      "quote": "cu modificările și completările ulterioare, se modifică și va avea următorul cuprins:",
+      "quote": "Anexa la Legea nr.2/1968 privind organizarea administrativă a teritoriului României, republicată în Buletinul Oficial al României, Partea I, nr.54-55 din 27 iulie 1981, cu modificările și completările ulterioare, se modifică și va avea următorul cuprins:",
       "weight": 1
     },
     {
-      "text": "Locuitorii nu sunt consultați formal prin referendum local. Expunerea invocă o derogare, dar legea în sine nu o menționează. Riscul e mic, fiind o corectură, nu un nume nou.",
-      "article": "art. unic",
-      "quote": null,
-      "weight": 1
-    },
-    {
-      "text": "Costurile pentru noile plăcuțe, ștampile și actualizarea evidențelor nu sunt estimate și nici nu se spune cine le plătește.",
+      "text": "Expunerea de motive invocă o derogare de la procedura schimbării prin referendum a numelor de localități (OG 63/2002), dar această derogare lipsește din textul propriu-zis al legii.",
       "article": "art. unic",
       "quote": null,
       "weight": 1
     }
   ],
   "fix": {
-    "text": "Reformulați partea introductivă („La anexă, la județul Neamț, poziția 7 se modifică…”) și adăugați o normă tranzitorie: actele emise cu «Bira» rămân valabile, iar registrele se actualizează gratuit, din oficiu.",
+    "text": "Adăugarea unei dispoziții care să garanteze valabilitatea actelor emise cu denumirea „Bira” și actualizarea lor gratuită, plus corectarea formulei introductive de modificare a anexei.",
     "removes": [
       0,
       1,
       2
     ],
     "levelAfter": "green",
-    "scoreAfter": 1
+    "scoreAfter": 0.5
   },
   "quotes": {
-    "checked": 3,
-    "verified": 3
+    "checked": 4,
+    "verified": 2
   }
 }

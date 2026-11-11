@@ -1,0 +1,15 @@
+# PARLAMENTUL ROMÂNIEI SENAT
+
+## LEGE
+
+privind aprobarea Ordonanței de urgență a Guvernului nr.17/2023 pentru modificarea art.34 alin.(1) din Ordonanța de urgență a Guvernului nr.57/2015 privind salarizarea personalului plătit din fonduri publice în anul 2016, prorogarea unor termene, precum și unele măsuri fiscal-bugetare
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.17 din 22 martie 2023 pentru modificarea art.34 alin.(1) din Ordonanța de urgență a Guvernului nr.57/2015 privind salarizarea personalului plătit din fonduri publice în anul 2016, prorogarea unor termene, precum și unele măsuri fiscal-bugetare, publicată în Monitorul Oficial al României, Partea I, nr.243 din 23 martie 2023.
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 18 aprilie 2023, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+## p. PREȘEDINTELE SENATULUI
+
+Alina-Ștefania Gorghiu

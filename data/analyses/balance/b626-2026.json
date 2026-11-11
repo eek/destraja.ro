@@ -1,0 +1,82 @@
+{
+  "slug": "b626-2026",
+  "billId": "B626/2026",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-11T11:02:19.281Z",
+  "inputHash": "cb346aec5727",
+  "riskScore": 1.7,
+  "summary": "O lege simbolică și complet voluntară, fără riscuri pentru drepturi sau buget, dar redactată neglijent, cu o denumire greșită la art. 4 și dezacorduri gramaticale.",
+  "good": [
+    {
+      "text": "Pauza de la ecrane este voluntară și vizează doar scopul recreativ, fără a crea obligații pentru cetățeni sau restricții în muncă ori educație.",
+      "article": "art. 2 alin. (1)",
+      "quote": "În sensul prezentei legi, „Ziua fără ecrane” reprezintă reducerea sau întreruperea temporară și voluntară a utilizării dispozitivelor digitale în scop recreativ, pentru a încuraja interacțiunile directe",
+      "weight": 3
+    },
+    {
+      "text": "Evenimentele se finanțează doar opțional, în limita bugetelor deja aprobate sau din donații și sponsorizări, fără a impune cheltuieli noi de la buget.",
+      "article": "art. 5",
+      "quote": "Finanțarea activităților prevăzute de prezenta lege se poate asigura din bugetele aprobate ale autorităților și instituțiilor publice participante, în limita creditelor bugetare aprobate și cu respectarea destinației acestora",
+      "weight": 3
+    },
+    {
+      "text": "Marcarea zilei este opțională pentru instituții, școli, ONG-uri și firme, fără a le impune sarcini birocratice, controale sau obligații de raportare.",
+      "article": "art. 3 alin. (1)",
+      "quote": "Cu prilejul „Zilei fără ecrane” poate fi marcată de autoritățile administrației publice centrale și locale, de unitățile de învățământ preuniversitar și universitar, de structurile associative ale patronatelor",
+      "weight": 2
+    },
+    {
+      "text": "Instituțiile și organizațiile care desfășoară activități în parteneriat trebuie să asigure accesibilitatea acestora pentru persoanele cu dizabilități.",
+      "article": "art. 3 alin. (3)",
+      "quote": "Activitățile se pot desfășura în parteneriat, cu respectarea atribuțiilor legale ale organizatorilor și cu asigurarea accesibilității pentru persoanele cu dizabilități.",
+      "weight": 2
+    },
+    {
+      "text": "Radioul și televiziunea publică pot promova ziua doar opțional și cu respectarea autonomiei lor editoriale, fără timpi de antenă impuși prin lege.",
+      "article": "art. 4",
+      "quote": "Societatea Română de Radiodifuziune și Societatea Română de Televiziune pot promova, cu respectarea autonomiei editoriale, obiectivele și activitățile dedicate Zilei de detox digital, inclusiv în perioada premergătoare acesteia.",
+      "weight": 2
+    },
+    {
+      "text": "Încurajează informarea practică despre prevenirea hărțuirii online și recunoașterea dependenței digitale, cu accent pe protejarea sănătății copiilor.",
+      "article": "art. 3 alin. (2) lit. e)",
+      "quote": "activități de informare privind prevenirea hărțuirii în mediul online și recunoașterea semnelor utilizării problematice a tehnologiilor digitale.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Art. 4 folosește denumirea „Ziua de detox digital” în loc de „Ziua fără ecrane” instituită la art. 1, creând o necorelare terminologică în lege.",
+      "article": "art. 4",
+      "quote": "Societatea Română de Radiodifuziune și Societatea Română de Televiziune pot promova, cu respectarea autonomiei editoriale, obiectivele și activitățile dedicate Zilei de detox digital, inclusiv în perioada premergătoare acesteia.",
+      "weight": 2
+    },
+    {
+      "text": "Textul este redactat greșit gramatical: propoziția nu are subiect („Cu prilejul... poate fi marcată”), iar finalul copiat din art. 1 este în dezacord sintactic.",
+      "article": "art. 3 alin. (1)",
+      "quote": "prin care să fie promovată utilizarea echilibrată a tehnologiilor digitale, al conștientizării riscurilor asociate utilizării excesive a acestora și al încurajării activităților educative, culturale, sportive și recreative desfășurate fără dispositive digitale.",
+      "weight": 2
+    },
+    {
+      "text": "Textul legii conține greșeli de ortografie și cuvinte scrise după model englezesc („consțientizare”, „associative”, „dispositive”), afectând claritatea redactării.",
+      "article": "art. 2 alin. (2) și art. 3 alin. (1)",
+      "quote": "Ziua fără ecrane se adresează întregii populații și are caracter educativ și de consțientizare, cu accent pe protejarea dezvoltării și a stării fizice și mentale ale copiilor și adolescenților.",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Înlocuirea sintagmei „Zilei de detox digital” cu „Zilei fără ecrane” la art. 4 și corectarea erorilor gramaticale și ortografice din art. 2 și art. 3.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.5
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

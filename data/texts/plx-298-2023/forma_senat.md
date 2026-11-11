@@ -1,0 +1,67 @@
+# PARLAMENTUL ROMÂNIEI SENAT
+
+# LEGE
+
+pentru modificarea art.68 alin.(2¹) din Legea nr.46/2008 - Codul silvic, precum și pentru modificarea Legii nr.171/2010 privind stabilirea și sancționarea contravențiilor silvice
+
+Senatul adoptă prezentul proiect de lege
+
+Art.I.- La articolul 68 din Legea nr.46/2008 - Codul silvic, republicată în Monitorul Oficial al României, Partea I, nr.611 din 12 august 2015, cu modificările și completările ulterioare, alineatul (2¹) se modifică și va avea următorul cuprins:
+
+„(2¹) Transportul cu orice mijloace de transport al materialelor lemnoase, în volum de peste 5m³, cu excepția cherestelei, în volum de peste 3m³, neînsoțite de documentele specifice de transport prevăzute la alin.(1), constituie infracțiune și se sancționează cu amendă sau cu închisoare de la 6 luni la un an și cu confiscarea materialelor lemnoase și a cherestelei care fac obiectul transportului.”
+
+Art.II.- Legea nr.171/2010 privind stabilirea și sancționarea contravențiilor silvice, publicată în Monitorul Oficial al României, Partea I, nr. 513 din 23 iulie 2010, cu modificările și completările ulterioare, se modifică după cum urmează:
+
+## 1. La articolul 2 litera e¹), punctul (iv) va avea următorul cuprins:
+
+„(iv) între volumul măsurat al materialelor lemnoase transportate și cel înscris în avizul-de însoțire există o diferență, fiind considerată fără proveniență legală diferență de material lemnos constatată; dacă se constată o diferență de cel mult 5 mc, inclusiv, sau o diferență de cel mult 3 mc, inclusiv, în privința cherestelei, cu luarea în considerare a toleranțelor admise, sunt aplicabile prevederile prezentei legi, iar dacă se constată o diferență mai mare de 5 mc sau de 3 mc în privința cherestelei, cu luarea în considerare a toleranțelor admise, sunt aplicabile dispozițiile art.68 din Legea nr.46/2008, republicată, cu modificările și completările ulterioare;"
+
+## 2. La articolului 19 alineatul (2), literele a) - d) vor avea următorul cuprins :
+
+„a) transportul cu orice mijloace de transport al materialelor lemnoase, cu un volum cuprins între 0,1 și 5 mc, inclusiv, neînsoțit de documentele specifice de transport, și transportul cu orice mijloace de transport în cazul cherestelei, cu un volum cuprins între 0,1 și 3 mc, inclusiv, neînsoțit de documentele specifice de transport, așa cum sunt stabilite de normele privind circulația materialelor lemnoase.
+
+Cuantumul amenzii se aplică după cum urmează:
+
+1\. 1.000 lei până la 2.000 lei, pentru un volum cuprins între 0,1 și 1,5 mc, inclusiv;
+
+2\. 2.000 lei până la 4.000 lei, pentru un volum cuprins între 1,51 și 3,00 mc, inclusiv;
+
+3\. 4.000 lei până la 6.000 lei, pentru un volum cuprins între 3,01 și 5,00 mc, inclusiv;
+
+4\. 2.000 lei până la 4.000 lei, pentru un volum cuprins între 0,1 și 3 mc, inclusiv, în cazul transportului de cherestea.
+
+b) transportul cu orice mijloace de transport al materialelor lemnoase, însoțit de documente specifice de transport, așa cum sunt stabilite de normele privind circulația materialelor lemnoase, la care diferența dintre volumul constatat la momentul verificării și cel înscris în avizul de însoțire este de cel mult 5 mc, inclusiv, cu excepția cherestelei, unde diferența maximă de volum este de cel mult 3 mc, inclusiv, cu luarea în considerare a toleranțelor legale și a contragerilor specifice.
+
+Cuantumul amenzii se aplică după cum urmează:
+
+1\. 1.000 lei până la 2.000 lei, pentru un volum cuprins între 0,1 și 1,5 mc, inclusiv;
+
+2\. 2.000 lei până la 4.000 lei, pentru un volum cuprins între 1,51 și 3,00 mc, inclusiv;
+
+3\. 4.000 lei până la 6.000 lei, pentru un volum cuprins între 3,01 și 5,00 mc, inclusiv;
+
+4\. 2.000 lei până la 4.000 lei, pentru un volum cuprins între 0,1 și 3 mc, inclusiv, în cazul transportului de cherestea.
+
+c) transportul cu orice mijloace de transport al materialelor lemnoase fără proveniență legală, așa cum sunt stabilite de normele privind circulația materialelor lemnoase. Cuantumul amenzii care se aplică este cuprins între 5.000 lei până la 10.000 lei, pentru un volum cuprins între 0,1 și 5 mc, inclusiv pentru materiale lemnoase altele decât cheresteaua și între 2.000 lei până la 4.000 lei pentru un volum cuprins între 0,1 și 3mc, inclusiv, pentru cherestea.
+
+d) transportul de materiale lemnoase ale căror caracteristici nu corespund cu cel puțin unul dintre elementele înscrise în avizul de însoțire referitoare la:
+
+(i) volum pe specii/grupe de specii, cu luarea în considerare a toleranțelor/contragerilor specifice;
+
+(ii) specie/grupe de specii.
+
+(iii) numărul de piese de lemn rotund cu diametrul la capătul subțire mai mare sau egal cu 24 cm sau numărul de bucăți/colete de cherestele. Cuantumul amenzii se aplică după cum urmează:
+
+1\. 1.000 lei până la 2.000 lei, pentru un volum cuprins între 0,1 și 1,5 mc, inclusiv;
+
+2\. 2.000 lei până la 4.000 lei, pentru un volum cuprins între 1,51 și 3,00 mc, inclusiv;
+
+3\. 4.000 lei până la 6.000 lei, pentru un volum cuprins între 3,01 și 5,00 mc, inclusiv.
+
+Sancțiunea complementară de confiscare se aplică pentru diferența de volum în plus constată față de volumul pe specii/grupe de specii înscris în avizul de însoțire, cu luarea în considerare a toleranțelor legale și a contragerilor specifice;”
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 24 aprilie 2023, cu respectarea prevederilor articolului 76 alineatul (1) din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI
+
+SORIN-MIHAI-ÇİMPEANU

@@ -158,7 +158,7 @@ async function step(name, cmd, argv, { timeoutMs = 3_600_000 } = {}) {
       const seconds = Math.round((Date.now() - start) / 1000);
       const why = timedOut ? `, oprit la limita de ${Math.round(timeoutMs / 60_000)} min` : error ? ', n-a pornit' : `, cod ${code}`;
       log(`${ok ? '✓' : '✗'} ${name} (${seconds}s${ok ? '' : why})`);
-      resolve({ ok, tail, timedOut, seconds });
+      resolve({ ok, code, tail, timedOut, seconds });
     };
     // Fără ascultătorul de „error”, o comandă care nu poate porni ar opri toată rularea.
     child.on('error', (err) => finish(null, err));
@@ -452,7 +452,8 @@ async function main() {
       // O formă nouă pe fișă (de exemplu cea adoptată de Senat): analiza ei, comparația cu forma dinainte și analiza
       // principală mutată pe ea; apoi câte unul din proiectele încă necomparate.
       const forms = await step('Camera: forme noi', 'node', ['scripts/straja-council.mjs', '--versions', '--max=5'], { timeoutMs: 5_400_000 });
-      if (!forms.ok) fail('comparațiile formelor au eșuat');
+      // Codul 3: Claude, care face comparația, e la limita de utilizare (QUOTA_EXIT în straja-council.mjs).
+      if (!forms.ok) fail(forms.code === 3 && !forms.timedOut ? 'comparațiile formelor așteaptă: Claude e la limita de utilizare' : 'comparațiile formelor au eșuat');
       // Amendamentele din rapoartele comisiilor, cu autorii lor; doar proiectele cu raport sau comparație nouă ajung la model.
       const amendments = await step('Camera: amendamente', 'node', ['scripts/straja-amendments.mjs', '--max=100'], { timeoutMs: 7_200_000 });
       if (!amendments.ok) fail('amendamentele Camerei au eșuat');

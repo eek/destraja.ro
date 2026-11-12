@@ -188,13 +188,17 @@ NOTĂ: în această sesiune nu ai unelte, internet sau fișiere. Nu anunța ce u
 // oprit la jumătatea răspunsului pierde ce a consumat din cotă, iar o limită strânsă (7 minute până pe 4 noiembrie)
 // tăia și răspunsuri lente, dar bune. Un răspuns fără scor sau un JSON stricat se mai încearcă o dată; un timeout nu.
 const MODEL_TIMEOUT_MS = 30 * 60_000;
+// Limita de utilizare a unui cont, cum o spune runModel (scripts/lib/ai-cli.mjs): a doua încercare ar primi același răspuns.
+const QUOTA = /limită de utilizare|usage limit|weekly limit|session limit|hour limit|rate limit|quota/i;
+// Codul de ieșire al unui pas oprit de limita de utilizare, ca rularea zilnică să spună asta, nu „a eșuat”.
+const QUOTA_EXIT = 3;
 
 async function runSingleAi(modelKey, prompt, label, retry = true) {
   const res = await runModel(modelKey, prompt, { mode: 'offline', timeoutMs: MODEL_TIMEOUT_MS, label });
   const scored = res.status === 'ok' && Number.isFinite(res.data?.riskScore);
   if (scored) return { model: modelKey, durationMs: res.durationMs, ...res.data, status: 'ok' };
   const error = res.status === 'ok' ? `răspuns fără analiză: „${JSON.stringify(res.data).slice(0, 120)}”` : res.error;
-  if (retry && !/timeout|timp depășit|limită de utilizare|usage limit|rate limit|quota/i.test(error)) {
+  if (retry && !/timeout|timp depășit/i.test(error) && !QUOTA.test(error)) {
     console.log(`   ↻ ${modelKey} ${label}: ${error.slice(0, 100)}; mai încerc o dată`);
     return runSingleAi(modelKey, prompt + NO_TOOLS_RETRY, label, false);
   }
@@ -736,11 +740,16 @@ async function versionsForBill(sheet, force, recompare = false) {
     const file = path.join(dir, `${v.key}.json`);
     const saved = !force && fs.existsSync(file) ? readJsonFile(file) : null;
     if (saved && !missingModels(saved)) analyses[v.key] = saved;
-    else if (!force && main && mainVersion === v.key) {
-      analyses[v.key] = { ...main, version: v.key };
-      writeFileAtomic(file, JSON.stringify(analyses[v.key], null, 2));
-    } else {
-      analyses[v.key] = await analyzeBillWithCouncil(bill, force, { texts, version: v.key, outFile: file });
+    else {
+      if (!force && main && mainVersion === v.key && (!saved || !missingModels(main))) {
+        analyses[v.key] = { ...main, version: v.key };
+        writeFileAtomic(file, JSON.stringify(analyses[v.key], null, 2));
+      }
+      // Cu COUNCIL_MODELS, și analiza principală poate fi fără modelul cerut: îl completăm în fișierul formei, nu o
+      // luăm așa (pe 11 noiembrie 2026 forma Senatului rămânea fără Claude, iar comparația se făcea fără constatările lui).
+      if (!analyses[v.key] || missingModels(analyses[v.key])) {
+        analyses[v.key] = await analyzeBillWithCouncil(bill, force, { texts, version: v.key, outFile: file });
+      }
     }
   }
   // Analiza principală e a formei celei mai noi; o rescriem și când i s-au completat modelele.
@@ -857,6 +866,14 @@ async function mainVersions(args) {
       if (err instanceof CdepBlocked) {
         console.log(`⏸️  ${err.message}`);
         release();
+        break;
+      }
+      // Comparația o face Claude. Cu el la limita de utilizare, fiecare proiect următor ar da aceeași eroare după ce
+      // celelalte două modele i-ar analiza formele; erorile nu intră în --max, deci pasul nu s-ar opri singur
+      // (11 noiembrie 2026: 33 de forme analizate fără Claude, nicio comparație, 90 de minute).
+      if (QUOTA.test(err.message)) {
+        console.log(`⏸️  ${sheet.numar}: ${err.message}; mă opresc, restul proiectelor așteaptă rularea următoare`);
+        process.exitCode = QUOTA_EXIT;
         break;
       }
       console.log(`⚠️  ${sheet.numar}: ${err.message}`);

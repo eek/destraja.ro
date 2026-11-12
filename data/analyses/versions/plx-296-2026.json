@@ -1,8 +1,28 @@
 {
   "slug": "plx-296-2026",
   "billId": "PL-x 296/2026",
-  "updatedAt": "2026-10-30T09:16:53.240Z",
+  "updatedAt": "2026-11-11T13:30:44.431Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L070FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Program de stat pentru lifturi în blocurile vechi fără lift",
+      "summaryTlDr": "Este o lege utilă și voluntară. Asociațiile de proprietari pot cere un lift plătit din bani publici, iar nimeni nu primește obligații sau sancțiuni. Problemele țin de redactare și de bani: extinderea depinde de fonduri UE care încă nu există, întreținerea rămâne pe proprietari, iar blocurile P+3 invocate în expunerea de motive nu intră în lege.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,37 +56,238 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
+      "from": "initiator",
+      "to": "senat",
       "direction": "mai_putin_riscant",
-      "headline": "Banii de la stat pentru lifturi devin explicit nerambursabili, dar selecția rămâne după ordinea depunerii",
-      "summary": "Acum legea spune clar că banii de la stat nu se returnează și introduce criterii de prioritate. Totuși, ministerul selectează tot în ordinea cererilor, iar sumele de la primărie ar putea fi cerute înapoi proprietarilor fără reguli clare.",
+      "headline": "Programul de lifturi se extinde la toate blocurile cu cel puțin 3 niveluri, de orice vechime",
+      "summary": "Acum intră în program orice bloc cu cel puțin 3 niveluri, iar autorizarea lucrărilor e scutită de taxe. În schimb, liftul din pilot devine al primăriei, proprietarii plătesc toată întreținerea fără sprijin pentru cei vulnerabili, iar banii rămân nesiguri.",
       "changes": [
         {
-          "title": "Banii de la stat nu se mai dau înapoi",
-          "text": "Forma adoptată de cameră prevede expres că finanțarea de la bugetul de stat este nerambursabilă (art. 7 alin. 1). Forma adoptată de senat nu spunea nimic despre asta.",
+          "title": "Intră și blocurile mai mici, de orice vechime",
+          "text": "Inițial: doar blocuri de la P+4 în sus, construite până în 1989. Acum: orice condominiu cu 3 sau mai multe niveluri supraterane, fără limită de an; excepții: monumentele și blocurile RsI/RsII neconsolidate.",
           "effect": "mai_bine",
           "major": true,
-          "article": "art. 7 alin. (1)",
-          "before": null,
-          "after": "Finanțarea acordată de la bugetul de stat prin programul național este nerambursabilă.",
-          "beforeAbsent": true,
-          "afterAbsent": false
-        },
-        {
-          "title": "Apar criterii reale de prioritate pentru blocuri",
-          "text": "Inițial selecția se făcea în ordinea cererilor. Acum prioritatea ține de numărul de persoane vizate, înălțimea și anul clădirii (art. 13 alin. 2), dar art. 9 alin. (2) păstrează ordinea cronologică.",
-          "effect": "mai_bine",
-          "major": true,
-          "article": "art. 13 alin. (2)",
-          "before": "Selecția se va face în ordinea solicitărilor primite de Ministerul Dezvoltării, Lucrărilor Publice și Administrației și vor fi prioritizate în funcție de criteriile prevăzute la art.5",
-          "after": "Criteriile de prioritate la înscrierea în programul național, atât în etapa proiectului-pilot, cât și în etapa derulării la nivel național, țin cont de:",
+          "article": "art. 1 alin. (2)-(3)",
+          "before": "Clădiri de locuințe colective construite în perioada anterioară datei de 31 decembrie 1989 cu regim de înălțime peste P+3 etaje, care nu sunt prevăzute cu lifturi",
+          "after": "Prezenta lege are ca obiect crearea cadrului normativ național care să asigure creșterea accesibilizării fizice a condominiilor cu 3 sau mai multe niveluri supraterane",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Banii de la primărie ar putea fi recuperați",
-          "text": "Sumele din bugetul local sunt nerambursabile doar dacă există o hotărâre a consiliului local. Fără ea, ar putea fi cerute proprietarilor, dar legea nu stabilește cota, termenul sau mecanismul (art. 7 alin. 2).",
+          "title": "Dispare sprijinul pentru întreținere la persoanele vulnerabile",
+          "text": "Inițial, primăriile puteau subvenționa întreținerea liftului pentru cei vulnerabili. Acum toate costurile de exploatare și revizie sunt ale asociației, împărțite între proprietari, fără nicio formă de sprijin.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 12 alin. (4)",
+          "before": "Cheltuielile de exploatare și întreținere a lifturilor instalate în cadrul programului național sunt suportate de asociațiile de proprietari, cu posibilitatea acordării de subvenții sau facilități financiare persoanelor vulnerabile",
+          "after": "Toate cheltuielile de exploatare, întreținere și revizie a instalației liftului, precum și ale instalațiilor alternative/complementare sunt în sarcina asociației de proprietari și se repartizează proprietarilor din condominiu",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Liftul devine al primăriei, locatarii doar îl folosesc",
+          "text": "Regulă nouă: în proiectul pilot primăriile construiesc lifturile și devin proprietarele lor; asociația primește doar dreptul de folosință, deși plătește întreținerea.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 12 alin. (1)-(3)",
+          "before": null,
+          "after": "În cadrul proiectului pilot, lucrările de construire și instalare a lifturilor se realizează de către autoritățile administrației publice locale, care dobândesc proprietatea asupra instalațiilor astfel realizate",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Autorizare fără taxe și cu mai puține acte",
+          "text": "Inițial, scutirile de taxe erau lăsate Guvernului, iar „regimul simplificat” nu era definit. Acum legea scutește direct de taxe și cere mai puține acte: fără carte funciară, fără documentație de urbanism.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 13, art. 14",
+          "before": "Termenele de avizare și autorizare, precum și categoriile de taxe de la care se poate acorda scutire se stabilesc prin hotărâre a Guvernului.",
+          "after": "Lucrările de accesibilizare fizică realizate în temeiul prezentei legi se autorizează cu respectarea prevederilor Legii nr.50/1991, republicată, cu modificările și completările ulterioare, fără perceperea taxelor prevăzute de Legea nr.227/2015",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Pilotul: primul venit, fără garanția unui bloc pe județ",
+          "text": "Inițial cele 100 de lifturi pilot trebuiau să acopere fiecare județ. Acum se aleg în ordinea cererilor, iar criteriul de prioritate e ușor de îndeplinit; se adaugă un termen de 18 luni.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 4 alin. (1) lit. a), art. 5",
+          "before": "a) prima etapă- proiectul pilot constă în realizarea a 100 de proiecte de instalare de lifturi ce vor fi realizate cel puțin unu în fiecare județ în funcție de criteriile de prioritizare de la art. 2;",
+          "after": "Selecția se va face în ordinea solicitărilor primite de Ministerul Dezvoltării, Lucrărilor Publice și Administrației și vor fi prioritizate în funcție de criteriile prevăzute la art.5;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Liftul poate intra în consolidare sau reabilitare termică",
+          "text": "Nou: lifturile, rampele sau platformele pot fi făcute odată cu consolidarea seismică a blocurilor RsI/RsII sau cu reabilitarea termică, prin completarea Legii 212/2022 și a OUG 18/2009.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 15, art. 16",
+          "before": null,
+          "after": "În cadrul lucrărilor de intervenție pentru creșterea performanței energetice a blocurilor de locuințe pot fi realizate, în mod integrat, lucrări de accesibilizare constând în instalarea de lifturi",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nicio sumă sigură: pilotul fără buget, etapa a doua pe fonduri UE viitoare",
+            "major": true,
+            "article": "art. 4 alin. (2), art. 10"
+          },
+          {
+            "text": "Proprietarii plătesc toată întreținerea liftului, fără sprijin pentru cei vulnerabili",
+            "major": true,
+            "article": "art. 12 alin. (4)"
+          },
+          {
+            "text": "Liftul aparține primăriei, proprietarii au doar drept de folosință",
+            "major": true,
+            "article": "art. 12"
+          },
+          {
+            "text": "Neclar dacă înscrierea cere acordul tuturor proprietarilor sau doar majoritatea",
+            "major": true,
+            "article": "art. 7 alin. (2) lit. b)"
+          },
+          {
+            "text": "Selecție practic „primul venit”, criterii foarte largi, „vârstnic” nedefinit",
+            "major": false,
+            "article": "art. 4 alin. (1), art. 5"
+          },
+          {
+            "text": "Pilotul nu mai garantează cel puțin un bloc în fiecare județ",
+            "major": false,
+            "article": "art. 4 alin. (1) lit. a)"
+          },
+          {
+            "text": "Expertiza doar pentru spațiul afectat poate fi insuficientă la blocuri vechi",
+            "major": false,
+            "article": "art. 7 alin. (4)"
+          },
+          {
+            "text": "Neconcordanță: 3 niveluri în lege, peste 3 etaje la modificarea Legii 50",
+            "major": false,
+            "article": "art. 1 alin. (2), art. 14"
+          },
+          {
+            "text": "Autorizare fără act de proprietate sau carte funciară, risc de dispute",
+            "major": false,
+            "article": "art. 13 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Intră toate blocurile cu cel puțin 3 niveluri, indiferent de anul construirii",
+            "major": true,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Autorizarea lucrărilor de accesibilizare nu mai costă taxe",
+            "major": true,
+            "article": "art. 13 alin. (1)"
+          },
+          {
+            "text": "Nu mai e nevoie de documentație de urbanism pentru lifturi și rampe",
+            "major": false,
+            "article": "art. 14"
+          },
+          {
+            "text": "Pot fi instalate și rampe, platforme elevatoare sau scări mecanizate",
+            "major": false,
+            "article": "art. 4 alin. (1) lit. c), art. 6 alin. (2)"
+          },
+          {
+            "text": "Liftul poate fi făcut odată cu consolidarea seismică sau reabilitarea termică",
+            "major": false,
+            "article": "art. 15, art. 16"
+          },
+          {
+            "text": "Blocurile cu risc seismic pot intra odată cu consolidarea sau după",
+            "major": false,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Proiectul pilot are termen: 100 de blocuri în 18 luni",
+            "major": false,
+            "article": "art. 4 alin. (1) lit. a)"
+          },
+          {
+            "text": "Asociațiile neselectate pot cere bani de la primărie sau din fonduri UE",
+            "major": false,
+            "article": "art. 4 alin. (5)"
+          },
+          {
+            "text": "Primăria întocmește documentația tehnică simplificată la cererea asociației",
+            "major": false,
+            "article": "art. 7 alin. (3)"
+          },
+          {
+            "text": "Lifturile se montează fără a strica aspectul arhitectural al blocului",
+            "major": false,
+            "article": "art. 6 alin. (3), art. 8 alin. (3)"
+          },
+          {
+            "text": "Raport anual public despre stadiul programului, trimis Guvernului și Parlamentului",
+            "major": false,
+            "article": "art. 9 lit. c)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 84,
+        "removed": 87,
+        "same": 0.07
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:28:13.471Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Banii de la stat devin nerambursabili, iar liftul e al proprietarilor, nu al primăriei",
+      "summary": "Acum legea spune din ce bani se plătește programul, că banii statului nu se dau înapoi, că liftul e al proprietarilor și după ce criterii se aleg blocurile. Rămân riscuri: banii primăriei ar putea fi ceruți înapoi, iar ministerul selectează tot cronologic.",
+      "changes": [
+        {
+          "title": "Bani de la stat nerambursabili, surse de finanțare precizate",
+          "text": "Art. 5 enumeră sursele (fonduri europene, buget de stat, buget local, donații), iar art. 7 alin. (1) spune că banii de la stat nu se dau înapoi. Sume concrete tot nu sunt.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 5, art. 7 alin. (1)",
+          "before": "a) prima etapă - proiectul pilot se derulează și finanțează de către Ministerul Dezvoltării, Lucrărilor Publice și Administrației",
+          "after": "Finanțarea acordată de la bugetul de stat prin programul național este nerambursabilă.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Liftul devine al proprietarilor, nu al primăriei",
+          "text": "Art. 20 alin. (1): liftul și instalațiile aparțin în cote-părți proprietarilor din bloc. Inițial, la pilot, primăria devenea proprietara. Pe terenul de lângă bloc rămâne al primăriei.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 20 alin. (1)",
+          "before": "În cadrul proiectului pilot, lucrările de construire și instalare a lifturilor se realizează de către autoritățile administrației publice locale, care dobândesc proprietatea asupra instalațiilor astfel realizate, în condițiile prezentei legi.",
+          "after": "Proprietatea asupra liftului și a instalației liftului sau a instalațiilor alternative/complementare destinate sporirii accesibilizării fizice aparține, în cotă-parte indiviză, proprietarilor din condominiu.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Criterii reale de prioritate în locul „primul venit”",
+          "text": "Art. 13 alin. (2) prioritizează blocurile cu mai mulți vârstnici, persoane cu dizabilități sau copii mici, mai înalte și proiectate după 1978. Dar art. 9 alin. (2) cere tot selecție cronologică.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 13 alin. (2)",
+          "before": "respectiv de către autoritățile administrației publice locale cu respectarea a cel puțin unuia dintre următoarele criterii de prioritizare:",
+          "after": "a) numărul persoanelor prevăzute la alin. (1), condominiile în care numărul acestora este mai mare fiind prioritare;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Banii primăriei ar putea fi ceruți înapoi",
+          "text": "Art. 7 alin. (2): sumele din bugetul local sunt nerambursabile doar dacă le declară așa consiliul local. Altfel ar putea fi recuperate de la proprietari, fără cotă, termen sau procedură.",
           "effect": "mai_rau",
           "major": true,
           "article": "art. 7 alin. (2)",
@@ -76,174 +297,158 @@
           "afterAbsent": false
         },
         {
-          "title": "Proiectul pilot, finanțat mai ales din fonduri europene",
-          "text": "Inițial pilotul era finanțat de MDLPA, fără sursă precizată. Acum se finanțează cu precădere din fonduri europene, câte două blocuri pe reședință de județ, dar tot fără o sumă (art. 12).",
+          "title": "Pilotul: câte două blocuri în fiecare reședință de județ",
+          "text": "Art. 12 alin. (1) lit. a): pilotul, de maximum 100 de blocuri, finanțează două blocuri din fiecare reședință de județ sau sector, nu după ordinea cererilor. Celelalte localități așteaptă etapa a doua.",
           "effect": "neutru",
           "major": true,
-          "article": "art. 12 alin. (2) lit. a)",
-          "before": "a) prima etapă - proiectul pilot se derulează și finanțează de către Ministerul Dezvoltării, Lucrărilor Publice și Administrației, care va evalua soluțiile tehnice, juridice și financiare",
-          "after": "prima etapă – proiectul pilot se derulează pe o perioadă de 18 luni și se finanțează cu precădere din fonduri europene",
+          "article": "art. 12 alin. (1) lit. a)",
+          "before": "Selecția se va face în ordinea solicitărilor primite de Ministerul Dezvoltării, Lucrărilor Publice și Administrației și vor fi prioritizate în funcție de criteriile prevăzute la art.5;",
+          "after": "Pentru realizarea primei etape, se acordă finanțare pentru un număr de două condominii din fiecare reședință de județ/subdiviziune administrativ-teritorială, conform mecanismului de finanțare a programului pilot elaborat de Ministerul Investițiilor și Proiectelor Europene;",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Primăria lucrează pe bază de mandat de la proprietari",
-          "text": "Inițial asociațiile erau beneficiari în contractele de finanțare. Acum primăria e beneficiar și lucrează pe bază de mandat. Fără asociație, mandatul se dă de 2/3 dintre proprietari (art. 7 alin. 3).",
-          "effect": "neutru",
-          "major": true,
-          "article": "art. 7 alin. (3)",
-          "before": "respectiv asociațiile de proprietari, în calitate de beneficiari, vor încheia contracte de finanțare.",
-          "after": "Beneficiarii programului național realizează măsurile de intervenție în baza contractului de mandat încheiat cu asociația de proprietari sau, în lipsa acesteia, cu două treimi din numărul total al proprietarilor unităților locative",
-          "beforeAbsent": false,
-          "afterAbsent": false
-        },
-        {
-          "title": "Blocurile cu risc seismic, scoase din program",
-          "text": "Inițial blocurile RsI/RsII puteau intra în program odată cu consolidarea sau după ea. Acum toate sunt excluse și pot primi lifturi doar prin programul de consolidare (art. 1 alin. 3-4).",
+          "title": "Cererile se depun abia după includerea în buget",
+          "text": "Art. 9 alin. (1): platforma pentru cereri se deschide doar după ce programul intră în legea bugetului, deși cele 18 luni ale pilotului curg de la intrarea în vigoare a legii.",
           "effect": "mai_rau",
-          "major": true,
-          "article": "art. 1 alin. (3) lit. b)",
-          "before": "Condominiile expertizate tehnic și încadrate în clasa de risc seismic RsI sau RsII prin raport de expertiză tehnică pot fi incluse în Programul național fie concomitent cu executarea lucrărilor de intervenție pentru creșterea nivelului de siguranță seismică, fie ulterior finalizării acestor lucrări.",
-          "after": "b) condominiile expertizate tehnic și încadrate în clasa de risc seismic RsI sau RsII prin raport de expertiză tehnică.",
-          "beforeAbsent": false,
+          "major": false,
+          "article": "art. 9 alin. (1)",
+          "before": null,
+          "after": "Platforma electronică se va deschide după ce programul va fi cuprins în legea bugetului de stat.",
+          "beforeAbsent": true,
           "afterAbsent": false
         }
       ],
       "remaining": {
         "problems": [
           {
-            "text": "Ministerul selectează în ordine cronologică, în contradicție cu criteriile de prioritate",
+            "text": "Ministerul selectează cererile cronologic, în conflict cu criteriile de prioritate din art. 13",
             "major": true,
             "article": "art. 9 alin. (2)"
           },
           {
-            "text": "Sumele de la primărie pot fi recuperate fără cotă, termen sau mecanism clar",
+            "text": "Banii primăriei ar putea fi recuperați de la proprietari, fără reguli clare",
             "major": true,
             "article": "art. 7 alin. (2)"
           },
           {
-            "text": "Majoritatea de 2/3 obligă minoritatea, inclusiv proprietarii de la parter",
+            "text": "Nicio sumă alocată; totul depinde de bugetele anuale și de fonduri europene",
+            "major": true,
+            "article": "art. 5, art. 12 alin. (2)"
+          },
+          {
+            "text": "Mandatul cu două treimi îi obligă și pe proprietarii care nu vor liftul",
             "major": true,
             "article": "art. 7 alin. (3)"
           },
           {
-            "text": "Nu e clar dacă e nevoie de acordul tuturor proprietarilor sau de majoritate",
+            "text": "Neclar dacă e nevoie de acordul scris al tuturor proprietarilor sau al majorității",
             "major": true,
             "article": "art. 15 alin. (2) lit. b)"
           },
           {
-            "text": "Platforma se deschide doar după alocarea bugetului; termenul pilotului poate expira",
+            "text": "Pilotul finanțează doar blocuri din reședințele de județ și sectoarele Bucureștiului",
             "major": true,
+            "article": "art. 12 alin. (1) lit. a)"
+          },
+          {
+            "text": "Platforma de cereri se deschide doar după includerea programului în bugetul de stat",
+            "major": false,
             "article": "art. 9 alin. (1)"
           },
           {
-            "text": "Pilotul nu are nicio sumă stabilită, doar fonduri europene „cu precădere”",
-            "major": true,
-            "article": "art. 12 alin. (2) lit. a)"
-          },
-          {
-            "text": "Condiția de eligibilitate e îndeplinită de aproape orice bloc; „vârstnic” nedefinit",
-            "major": true,
+            "text": "Aproape orice bloc e eligibil, iar „persoana vârstnică” nu e definită",
+            "major": false,
             "article": "art. 13 alin. (1)"
           },
           {
-            "text": "Expertiza tehnică doar pentru spațiul afectat, riscantă la blocurile vechi",
+            "text": "Expertiza tehnică doar pentru spațiul afectat poate fi insuficientă la blocuri vechi",
             "major": false,
             "article": "art. 15 alin. (4)"
-          },
-          {
-            "text": "Scutirea de urbanism vizează blocuri cu peste 3 etaje, nu 3 niveluri",
-            "major": false,
-            "article": "art. 22"
-          },
-          {
-            "text": "Coordonarea e împărțită între două ministere, cu risc de suprapunere",
-            "major": false,
-            "article": "art. 1 alin. (1)"
           }
         ],
         "good": [
           {
-            "text": "Finanțarea de la bugetul de stat este expres nerambursabilă",
+            "text": "Finanțarea de la bugetul de stat este nerambursabilă",
             "major": true,
             "article": "art. 7 alin. (1)"
           },
           {
-            "text": "Prioritate pentru blocurile cu mai multe persoane vizate, mai înalte",
+            "text": "Liftul devine proprietate comună a proprietarilor din bloc",
+            "major": true,
+            "article": "art. 20 alin. (1)"
+          },
+          {
+            "text": "Prioritate pentru blocurile cu mai multe persoane vulnerabile, mai înalte și mai noi",
             "major": true,
             "article": "art. 13 alin. (2)"
           },
           {
-            "text": "Familiile cu copii mici la etaj fac blocul eligibil",
+            "text": "Surse de finanțare precizate: fonduri europene, buget de stat, buget local, donații",
+            "major": true,
+            "article": "art. 5 alin. (1)"
+          },
+          {
+            "text": "Pot intra și blocurile unde locuiesc familii cu copii mici",
             "major": true,
             "article": "art. 13 alin. (1) lit. d)"
           },
           {
-            "text": "Autorizația de construire pentru lifturi se emite fără taxe",
+            "text": "Autorizație de construire fără taxe și fără acte de proprietate sau carte funciară",
             "major": true,
-            "article": "art. 21 alin. (1)"
+            "article": "art. 21"
           },
           {
-            "text": "Proprietatea asupra liftului e clarificată: cotă-parte indiviză a proprietarilor",
-            "major": true,
-            "article": "art. 20"
-          },
-          {
-            "text": "Lifturile pot fi incluse în consolidarea seismică și reabilitarea termică",
-            "major": true,
-            "article": "art. 23, art. 24"
-          },
-          {
-            "text": "Autorizare fără titlu de proprietate și extras de carte funciară",
-            "major": false,
-            "article": "art. 21 alin. (2)"
-          },
-          {
-            "text": "Autorizare fără documentație de urbanism pentru lucrările de accesibilizare",
+            "text": "Autorizație fără documentație de urbanism pentru lucrările de accesibilizare",
             "major": false,
             "article": "art. 22"
           },
           {
-            "text": "Primăria face documentația tehnică și procedurile la cererea asociației",
+            "text": "Primăria face documentația tehnică simplificată la cererea asociației",
             "major": false,
-            "article": "art. 15 alin. (1), (3)"
+            "article": "art. 15 alin. (3)"
           },
           {
-            "text": "Plan de fundații și studiu geotehnic pentru lifturile amplasate în exterior",
+            "text": "Lifturile pot fi montate odată cu consolidarea seismică sau reabilitarea termică",
             "major": false,
-            "article": "art. 15 alin. (4)"
+            "article": "art. 23, art. 24"
           },
           {
-            "text": "Banii neutilizați se folosesc pentru cererile rămase nefinanțate",
+            "text": "Pe lângă lifturi, sunt permise platforme elevatoare, rampe și scări mecanizate",
             "major": false,
-            "article": "art. 10"
+            "article": "art. 4 lit. a), art. 12 alin. (1) lit. c)"
           },
           {
-            "text": "Inventarul blocurilor fără lift trebuie făcut în 6 luni",
+            "text": "Contracte de finanțare multianuale, iar creditele neutilizate se refolosesc pentru cereri amânate",
             "major": false,
-            "article": "art. 16 alin. (1)"
+            "article": "art. 10, art. 11"
           },
           {
-            "text": "Primăriile pot finanța lifturi prin programe locale proprii",
+            "text": "Primăriile pot finanța lifturi și prin programe locale proprii",
             "major": false,
             "article": "art. 1 alin. (5)"
           },
           {
-            "text": "Secțiune publică pe site-ul ministerului și raport anual de impact social",
+            "text": "Secțiune publică despre program pe site-ul ministerului",
             "major": false,
-            "article": "art. 9 alin. (1), art. 19"
+            "article": "art. 9 alin. (1)"
+          },
+          {
+            "text": "Inventarul blocurilor fără lift, făcut de primării în 6 luni",
+            "major": false,
+            "article": "art. 16 alin. (1)"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 96,
-        "removed": 61,
-        "same": 0.21
+        "added": 79,
+        "removed": 45,
+        "same": 0.36
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:20:39.171Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:30:44.431Z"
     }
   ]
 }

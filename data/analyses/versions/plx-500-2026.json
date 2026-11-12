@@ -1,8 +1,28 @@
 {
   "slug": "plx-500-2026",
   "billId": "PL-x 500/2026",
-  "updatedAt": "2026-10-30T09:33:14.652Z",
+  "updatedAt": "2026-11-11T14:03:54.961Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L413FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Portalul e-SănătateaMea și programările la medic prin platforma CNAS",
+      "summaryTlDr": "Este o lege utilă de digitalizare: pacienții primesc acces online la propriile date medicale, iar programările trec printr-un portal al CNAS. Textul este însă foarte sumar. Nu spune cine este obligat să folosească portalul, ce se întâmplă cu cei fără internet și cum sunt protejate datele despre programări.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,68 +56,141 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
+      "from": "initiator",
+      "to": "senat",
       "direction": "la_fel",
-      "headline": "Camera a păstrat textul Senatului: doar corecturi de redactare, aceleași probleme rămân",
-      "summary": "Forma adoptată de Cameră are același conținut ca forma adoptată de Senat. S-au corectat doar o greșeală de scriere și ghilimelele. Obligația vagă pentru toți furnizorii și lipsa regulilor pentru datele medicale rămân.",
+      "headline": "Senatul a păstrat textul inițiatorului; diferențele sunt doar de formă",
+      "summary": "Senatul a adoptat același text ca inițiatorul. S-au schimbat doar titlul, formula de adoptare și scrierea numerelor de alineate. Problemele rămân: nu e clar căror furnizori li se aplică obligația de a folosi portalul de programări, iar datele medicale nu au reguli proprii de protecție.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "„Toți furnizorii” obligați la programări online, inclusiv privați, farmacii și dispozitive, posibil",
+            "text": "Nu e clar dacă „toți furnizorii” include clinicile private fără contract sau farmaciile",
             "major": true,
-            "article": "art. unic, alin. (2³)"
+            "article": "art. 280 alin. (2³)"
           },
           {
-            "text": "Nu se spune ce programări, prin ce mijloace tehnice și cu ce sancțiuni",
+            "text": "Costul integrării cu programele de cabinet cade pe medici; CNAS nu oferă interfețe gratuite",
             "major": true,
-            "article": "art. unic, alin. (2³)"
+            "article": "art. 280 alin. (2³)"
           },
           {
-            "text": "Datele medicale personale nu au reguli de prelucrare și acces în lege",
+            "text": "Lipsesc reguli pentru datele medicale: operator, categorii de date, acces terți, autentificare",
             "major": true,
-            "article": "art. unic, alin. (2²)"
+            "article": "art. 280 alin. (2²)"
           },
           {
-            "text": "Garanțiile GDPR apar doar în Expunerea de motive, fără forță obligatorie",
+            "text": "Accesul părinților, tutorilor sau aparținătorilor la datele pacientului nu e reglementat",
             "major": true,
-            "article": "art. unic, alin. (2²)"
+            "article": "art. 280 alin. (2²)"
           },
           {
-            "text": "Nicio delegare și niciun termen pentru normele de aplicare ale portalului",
+            "text": "Obligația se aplică din trimestrul IV 2026, fără perioadă de tranziție sau sancțiuni",
             "major": false,
+            "article": "art. 280 alin. (2³)"
+          },
+          {
+            "text": "Nu e clar dacă furnizorii pot folosi în paralel propriile sisteme de programări",
+            "major": false,
+            "article": "art. 280 alin. (2³)"
+          },
+          {
+            "text": "Pacientul nu are un jurnal cu cine i-a consultat datele medicale",
+            "major": false,
+            "article": "art. 280 alin. (2²)"
+          },
+          {
+            "text": "Proiectul pilot nu are organizator, participanți, durată sau criterii de evaluare",
+            "major": false,
+            "article": "art. 280 alin. (2⁴)"
+          },
+          {
+            "text": "Legea nu cere norme metodologice sau ordin CNAS/MS și nici termen pentru ele",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "good": [
+          {
+            "text": "Pacienții primesc acces securizat online la propriile date medicale",
+            "major": true,
+            "article": "art. 280 alin. (2²)"
+          },
+          {
+            "text": "Pacienții se vor putea programa la medici printr-un portal electronic unic",
+            "major": false,
+            "article": "art. 280 alin. (2³)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T14:03:24.775Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a păstrat textul Senatului; s-au corectat doar scrierea și formula de adoptare",
+      "summary": "Camera a păstrat neschimbat fondul textului adoptat de Senat. S-au corectat doar o greșeală de scriere („dispozitive”), ghilimelele și formula de adoptare. Obligația tuturor furnizorilor de a folosi portalul de programări din trimestrul IV 2026 rămâne, la fel și lipsurile despre datele medicale.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "„Toți furnizorii” neclar: pot fi incluse clinici private, farmacii, furnizori de dispozitive",
+            "major": true,
             "article": "art. unic, alin. (2³)"
           },
           {
-            "text": "Pilotul nu are participanți, durată, criterii de evaluare sau raportare publică",
+            "text": "Nu spune ce programări intră în obligație și cum se folosește portalul",
+            "major": true,
+            "article": "art. unic, alin. (2³)"
+          },
+          {
+            "text": "Date medicale fără reguli proprii; garanțiile GDPR doar în Expunerea de motive",
+            "major": true,
+            "article": "art. unic, alin. (2²)"
+          },
+          {
+            "text": "Fără termen pentru normele de aplicare, fără ordin CNAS/MS și fără sancțiuni",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Proiectul-pilot nu are participanți, durată, criterii de evaluare sau raportare publică",
             "major": false,
             "article": "art. unic, alin. (2⁴)"
           },
           {
-            "text": "Pilotul durează cel mult câteva luni; termenul T4 2026 curge oricum",
+            "text": "Termenul din trimestrul IV 2026 curge oricum, indiferent de rezultatul pilotului",
             "major": false,
             "article": "art. unic, alin. (2⁴)"
           }
         ],
         "good": [
           {
-            "text": "Pacienții primesc acces securizat online la propriile informații medicale",
+            "text": "Pacienții primesc acces securizat online la informațiile lor medicale personale",
             "major": true,
             "article": "art. unic, alin. (2²)"
           },
           {
-            "text": "Programări electronice la medici prin portalul unic „e-SănătateaMea”",
+            "text": "Programări online printr-un singur portal, folosit obligatoriu de furnizori",
             "major": true,
             "article": "art. unic, alin. (2³)"
           },
           {
-            "text": "CNAS este numită clar responsabilă de dezvoltarea și administrarea portalului",
+            "text": "CNAS trebuie să pună portalul e-SănătateaMea la dispoziția asiguraților din semestrul II 2026",
             "major": false,
             "article": "art. unic, alin. (2¹)"
           },
           {
-            "text": "Este prevăzut un proiect-pilot înainte de obligativitatea portalului",
+            "text": "Obligația e precedată de un proiect-pilot de testare a portalului",
             "major": false,
             "article": "art. unic, alin. (2⁴)"
           }
@@ -105,13 +198,13 @@
         "partial": false
       },
       "diff": {
-        "added": 4,
+        "added": 3,
         "removed": 3,
-        "same": 0
+        "same": 0.25
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:33:06.994Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T14:03:54.961Z"
     }
   ]
 }

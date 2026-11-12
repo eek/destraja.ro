@@ -1,8 +1,28 @@
 {
   "slug": "plx-489-2026",
   "billId": "PL-x 489/2026",
-  "updatedAt": "2026-10-30T09:31:44.225Z",
+  "updatedAt": "2026-11-11T14:03:47.097Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L294FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "„Pornografia infantilă” devine „materiale cu abuzuri sexuale asupra minorilor”: AI inclus, pedepse reașezate",
+      "summaryTlDr": "Scopul e legitim și aliniat cu standardele europene: o denumire mai corectă, incriminarea imaginilor generate cu AI și a „manualelor” pentru abuzatori, plus excepții pentru adolescenți. Dar textul scade, fără să o spună, pedeapsa pentru deținere și distribuire, are erori de redactare care contrazic chiar excepțiile pentru adolescenți și obligă pe oricine să denunțe „de îndată” orice astfel de faptă, inclusiv una declarată nepedepsită.",
+      "scores": {
+        "agy": 2,
+        "claude": 5,
+        "codex": 5
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,122 +56,267 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
-      "direction": "la_fel",
-      "headline": "Camera a adoptat textul Senatului fără modificări de fond, doar corecturi de redactare",
-      "summary": "Forma adoptată de cameră păstrează neschimbate pedepsele, excepțiile pentru adolescenți și obligația de denunțare. S-au corectat doar diacritice, spațieri și acordul gramatical, deci riscurile și avantajele de acum sunt aceleași ca inițial.",
-      "changes": [],
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Scutiri mai largi pentru adolescenți: imaginile cu sine, nedistribuite, nu mai sunt infracțiune",
+      "summary": "Senatul a lărgit protecția adolescenților: imaginile cu propria persoană, nedifuzate, nu mai sunt infracțiune, iar schimbul consensual acoperă și imaginile cu destinatarul. Cererea de imagini de la un minor: 3–10 ani, nu 2–7.",
+      "changes": [
+        {
+          "title": "Imaginile cu sine, nedifuzate, nu mai sunt infracțiune",
+          "text": "Art. 374 alin. (10): producerea, deținerea și acum și stocarea de imagini care îl arată doar pe autor, nedifuzate, nu mai sunt infracțiune; inițial doar nu se pedepseau, deci rămâneau faptă penală.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 374 alin. (10)",
+          "before": "a) producerea sau deținerea de materiale ce conțin abuzuri sexuale asupra minorilor dacă acestea înfățișează exclusiv pe făptuitor și nu sunt destinate distribuirii ori punerii la dispoziția altor persoane;",
+          "after": "(10) Nu constituie infracțiune producerea, deținerea sau stocarea de materiale ce conțin abuzuri sexuale asupra minorilor dacă acestea înfățișează exclusiv pe făptuitor și nu sunt destinate distribuirii, expunerii, promovării ori punerii la dispoziția altor persoane.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Schimbul consensual între adolescenți, scutit mai larg",
+          "text": "Art. 374 alin. (11) lit. b)–c): scutirea acoperă acum și producerea și stocarea, plus imaginile cu destinatarul sau cu amândoi; inițial, doar trimiterea imaginilor cu expeditorul.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 374 alin. (11) lit. b)–c)",
+          "before": "c) transmiterea de către un minor către un alt minor, cu acordul acestuia, a unor materiale ce conțin abuzuri sexuale asupra minorilor, care îl înfățișează exclusiv pe cel care le transmite",
+          "after": "b) producerea, deținerea, stocarea, precum și transmiterea de către un minor către un alt minor, cu acordul acestuia, a unor materiale ce conțin abuzuri sexuale asupra minorilor, care îl înfățișează exclusiv pe acesta, pe minorul destinatar sau pe aceștia împreună",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Cererea de imagini de la un minor: 3–10 ani",
+          "text": "Art. 374 alin. (7): pedeapsa urcă de la 2–7 ani propuși inițial la 3–10 ani (azi 5–12), iar cererea de a promova materialele intră explicit. Scăderea față de legea în vigoare e mai mică.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 374 alin. (7)",
+          "before": "precum și orice reprezentare a organelor genitale ale unui minor cu scop sexual se pedepsește cu închisoare de la 2 la 7 ani și interzicerea exercitării unor drepturi.",
+          "after": "precum și orice reprezentare a organelor genitale ale unui minor cu scop sexual se pedepsește cu închisoare de la 3 la 10 ani și interzicerea exercitării unor drepturi.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Agravantă nouă: autorul a comis anterior trafic de persoane",
+          "text": "Art. 374 alin. (8) lit. e): limitele pedepsei cresc cu o treime și pentru cine a mai comis trafic de persoane, nu doar trafic de minori, proxenetism sau fapte sexuale asupra minorilor.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 374 alin. (8) lit. e)",
+          "before": "o infracțiune de operațiuni cu materiale ce conțin abuzuri sexuale asupra minorilor, trafic de minori sau proxenetism, limitele speciale ale pedepselor se majorează cu o treime.",
+          "after": "o infracțiune de operațiuni cu materiale ce conțin abuzuri sexuale asupra minorilor, trafic de minori, trafic de persoane sau proxenetism, limitele speciale ale pedepselor se majorează cu o treime.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Alte condiții pentru minorul care cere imagini",
+          "text": "Art. 374 alin. (11) lit. a): scutirea minorului care cere imagini altui minor nu mai cade la înregistrare sau transmitere, ci la promovare sau punere la dispoziția altora; producerea o anulează în continuare.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 374 alin. (11) lit. a)",
+          "before": "iar aceasta nu a fost urmată de producerea, înregistrarea, distribuirea, expunerea ori transmiterea materialelor;",
+          "after": "iar aceasta nu a fost urmată de producerea, distribuirea, expunerea, promovarea ori punerea materialelor la dispoziția altor persoane;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Art. 266: doar obligația de denunț e rescrisă",
+          "text": "Art. 266: acum e rescris doar alin. (1¹), cu aceeași obligație de denunț și pedeapsă de 6 luni–2 ani; inițial erau rescrise și alin. (2)–(3), cu numerotare care nu se potrivea.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 266",
+          "before": "2. Articolul 266 alin. (1¹), (2) și (3) se modifică și va avea cu următorul cuprins:",
+          "after": "La articolul 266, alineatul (1¹) va avea următorul cuprins:",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
       "remaining": {
         "problems": [
           {
-            "text": "Schimburile consensuale între adolescenți rămân fapte prevăzute de legea penală, doar nepedepsite",
-            "major": true,
-            "article": "art. 374 alin. (11)"
-          },
-          {
-            "text": "Părinți, profesori, medici riscă închisoare dacă nu denunță schimburi între adolescenți",
+            "text": "Cine află de schimbul consensual între adolescenți trebuie să-i denunțe, sub pedeapsa închisorii",
             "major": true,
             "article": "art. 266 alin. (1¹)"
           },
           {
-            "text": "Imaginea primită legal ca minor devine deținere pedepsită după împlinirea a 18 ani",
-            "major": true,
-            "article": "art. 374 alin. (1), (11)"
-          },
-          {
-            "text": "Un tânăr de 18 ani cu partener de 17 ani nu are nicio excepție",
-            "major": true,
-            "article": "art. 374 alin. (7), (11)"
-          },
-          {
-            "text": "Copilul victimă a groomingului care trimite o imagine proprie poate comite formal distribuire",
-            "major": true,
-            "article": "art. 374 alin. (1), (10), (11)"
-          },
-          {
-            "text": "Deținerea, distribuirea și solicitarea au pedepse mai mici decât legea în vigoare, aplicabile retroactiv",
+            "text": "Pedepsele pentru deținere și solicitare scad față de azi, inclusiv în dosarele în curs",
             "major": true,
             "article": "art. 374 alin. (1), (7)"
           },
           {
-            "text": "Majorarea cu o treime pare lipită de lit. e), putând fi aplicată doar acolo",
-            "major": true,
-            "article": "art. 374 alin. (8)"
-          },
-          {
-            "text": "Lit. d) rupe structura „de către...” a enumerării circumstanțelor agravante",
-            "major": false,
-            "article": "art. 374 alin. (8) lit. d)"
-          },
-          {
-            "text": "Neclar dacă moderatorii care raportează prin canalele platformei își îndeplinesc obligația",
-            "major": false,
-            "article": "art. 266 alin. (1¹)"
-          }
-        ],
-        "good": [
-          {
-            "text": "Pedepsele sunt ierarhizate coerent: producerea 5-12 ani, peste deținere și solicitare",
-            "major": true,
-            "article": "art. 374 alin. (1)-(3), (7)"
-          },
-          {
-            "text": "Solicitarea nu mai e pedepsită mai grav decât producerea efectivă a materialelor",
-            "major": true,
-            "article": "art. 374 alin. (7)"
-          },
-          {
-            "text": "Materialele cu sine, nedestinate altora, nu constituie infracțiune",
-            "major": true,
-            "article": "art. 374 alin. (10)"
-          },
-          {
-            "text": "Schimburile consensuale între minori cu diferență de maximum 3 ani nu se pedepsesc",
-            "major": true,
-            "article": "art. 374 alin. (11)"
-          },
-          {
-            "text": "Definiția include explicit materialele generate cu inteligență artificială",
+            "text": "Adulții prezentați drept minori intră în definiție, fără condiția ca impresia să fie credibilă",
             "major": true,
             "article": "art. 374 alin. (13)"
           },
           {
-            "text": "Accesarea fără drept a materialelor se pedepsește cu închisoare de la unu la 5 ani",
+            "text": "Minorul care cere imaginea pierde scutirea dacă celălalt o realizează, deși schimbul e scutit",
             "major": true,
-            "article": "art. 374 alin. (6)"
+            "article": "art. 374 alin. (11) lit. a)"
           },
           {
-            "text": "Sunt incriminate programele, manualele și ghidurile concepute pentru comiterea acestor fapte",
-            "major": true,
-            "article": "art. 374 alin. (9)"
-          },
-          {
-            "text": "Pedepse majorate pentru funcționari, rude, îngrijitori și recidiviști",
+            "text": "Majorarea cu o treime, lipită de lit. e), poate fi citită doar pentru ea",
             "major": true,
             "article": "art. 374 alin. (8)"
           },
           {
-            "text": "Confiscarea echipamentelor și foloaselor, inclusiv prin echivalent",
+            "text": "Lit. d) despre vătămarea corporală rupe structura „de către...” a enumerării",
+            "major": false,
+            "article": "art. 374 alin. (8) lit. d)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Pedepse ierarhizate coerent: producerea 5–12 ani, promovarea și solicitarea 3–10, deținerea 2–7",
+            "major": true,
+            "article": "art. 374 alin. (1)–(3), (7)"
+          },
+          {
+            "text": "Imaginile care îl arată doar pe autor, nedifuzate, nu sunt infracțiune",
+            "major": true,
+            "article": "art. 374 alin. (10)"
+          },
+          {
+            "text": "Schimbul consensual între minori cu diferență de cel mult 3 ani nu se pedepsește",
+            "major": true,
+            "article": "art. 374 alin. (11)"
+          },
+          {
+            "text": "Materialele generate cu inteligență artificială intră explicit în definiție",
+            "major": true,
+            "article": "art. 374 alin. (13)"
+          },
+          {
+            "text": "Sunt pedepsite programele concepute pentru aceste fapte, nu AI-ul de uz general",
+            "major": true,
+            "article": "art. 374 alin. (9)"
+          },
+          {
+            "text": "Pedeapsă cu o treime mai mare pentru funcționari, rude, îngrijitori sau autori cu antecedente",
+            "major": true,
+            "article": "art. 374 alin. (8)"
+          },
+          {
+            "text": "Echipamentele și câștigurile se confiscă, inclusiv prin echivalent",
             "major": true,
             "article": "art. 374 alin. (12)"
           },
           {
-            "text": "Terminologia „pornografie infantilă” este înlocuită unitar în toate legile",
+            "text": "Recrutarea pentru spectacole se pedepsește separat doar dacă nu e infracțiune mai gravă",
             "major": false,
-            "article": "art. II, art. III"
+            "article": "art. 374 alin. (4)"
+          },
+          {
+            "text": "Trimiterile la „pornografie infantilă” din alte legi sunt actualizate",
+            "major": false,
+            "article": "art. II–III"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 18,
-        "removed": 17,
-        "same": 0.44
+        "added": 29,
+        "removed": 32,
+        "same": 0.15
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:32:00.025Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T14:02:52.993Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a păstrat textul Senatului; s-au corectat doar greșeli de scriere și trimiteri",
+      "summary": "Camera a adoptat același text ca Senatul: s-au corectat doar diacritice, o greșeală de scriere și formularea unor trimiteri. Rămân pedepsele mai mici pentru deținere și solicitare și obligația de a denunța schimburile de imagini între adolescenți.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Deținerea și distribuirea scad la 2–7 ani față de 3–10 ani în vigoare",
+            "major": true,
+            "article": "art. 374 alin. (1)"
+          },
+          {
+            "text": "Solicitarea adresată unui minor scade de la 5–12 la 3–10 ani",
+            "major": true,
+            "article": "art. 374 alin. (7)"
+          },
+          {
+            "text": "Limitele mai mici se aplică dosarelor în curs și reduc pedepse definitive",
+            "major": true,
+            "article": "art. 374 alin. (1) și (7)"
+          },
+          {
+            "text": "La 18 ani, imaginea primită legal de la partener devine deținere pedepsită",
+            "major": true,
+            "article": "art. 374 alin. (11)"
+          },
+          {
+            "text": "Un tânăr de 18 ani cu partener de 17 ani nu are nicio excepție",
+            "major": true,
+            "article": "art. 374 alin. (7) și (11)"
+          },
+          {
+            "text": "Copilul care trimite propria imagine adultului care i-a cerut-o nu e scutit",
+            "major": true,
+            "article": "art. 374 alin. (1), (10) și (11)"
+          },
+          {
+            "text": "Cine află de schimburi între adolescenți și nu denunță riscă până la 2 ani",
+            "major": true,
+            "article": "art. 266 alin. (1¹)"
+          },
+          {
+            "text": "Majorarea cu o treime, lipită de lit. e), poate părea doar pentru ea",
+            "major": true,
+            "article": "art. 374 alin. (8)"
+          },
+          {
+            "text": "Neclar dacă moderatorii care raportează prin platformă își îndeplinesc obligația",
+            "major": false,
+            "article": "art. 266 alin. (1¹)"
+          },
+          {
+            "text": "Lit. d) rupe structura „de către...” a enumerării împrejurărilor agravante",
+            "major": false,
+            "article": "art. 374 alin. (8) lit. d)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Producerea, pedepsită cu 5–12 ani, nu mai e sub solicitare",
+            "major": true,
+            "article": "art. 374 alin. (1)–(3) și (7)"
+          },
+          {
+            "text": "Producerea și recrutarea minorilor pentru spectacole urcă la 5–12 ani",
+            "major": true,
+            "article": "art. 374 alin. (3) și (4)"
+          },
+          {
+            "text": "Imaginile cu sine, nedistribuite, nu sunt infracțiune",
+            "major": true,
+            "article": "art. 374 alin. (10)"
+          },
+          {
+            "text": "Schimburile consensuale între minori cu diferență de cel mult 3 ani nu se pedepsesc",
+            "major": true,
+            "article": "art. 374 alin. (11)"
+          },
+          {
+            "text": "Definiția acoperă explicit și materialele generate cu inteligență artificială",
+            "major": true,
+            "article": "art. 374 alin. (13)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 8,
+        "removed": 8,
+        "same": 0.76
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T14:03:47.097Z"
     }
   ]
 }

@@ -1,0 +1,64 @@
+{
+  "slug": "b634-2026",
+  "billId": "B634/2026",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-12T10:19:40.850Z",
+  "inputHash": "dd23a856c831",
+  "riskScore": 5.5,
+  "summary": "O inițiativă cu intenție bună pentru micii fermieri, dar redactată neglijent, care încalcă proprietatea privată și cere acte desființate acum 12 ani.",
+  "good": [
+    {
+      "text": "Interzice primăriilor să blocheze total vânzarea produselor agricole în parcări, ajutând micii fermieri să vândă direct cumpărătorilor, fără intermediari.",
+      "article": "art. 13¹ alin. (3)",
+      "quote": "Autoritățile publice locale pot adopta măsuri rezonabile de organizare și protecție a siguranței traficului rutier și pietonal, fără a interzice în mod general vânzarea în parcări persoanelor care îndeplinesc condițiile prezentului articol.",
+      "weight": 3
+    },
+    {
+      "text": "Păstrează obligația fermierilor de a respecta regulile de igienă, siguranță alimentară, ordine publică și fiscalitate, protejând sănătatea și drepturile cumpărătorilor.",
+      "article": "art. 13¹ alin. (3) și (4)",
+      "quote": "Dreptul prevăzut la alin. (1) se exercită cu respectarea normelor sanitare, de igienă alimentară, de protecție a consumatorilor și a reglementărilor privind ordinea publică.",
+      "weight": 2
+    },
+    {
+      "text": "Stabilește clar cum se calculează anual în lei plafonul de 100.000 de euro, la cursul BNR de la finalul anului trecut, evitând confuziile la aplicare.",
+      "article": "art. 13¹ alin. (2)",
+      "quote": "Pentru aplicarea prevederii alin. (1), pragul exprimat în euro se actualizează anual în lei la cursul de referință al Băncii Naționale a României comunicat pentru ultima zi lucrătoare a anului precedent.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Permite vânzarea „în orice loc”, inclusiv în parcări private (ale magazinelor sau blocurilor), fără acordul proprietarului, încălcând dreptul de proprietate din Constituție.",
+      "article": "art. 13¹ alin. (1)",
+      "quote": "pot comercializa produsele agricole și alimentare provenite din propria producție în orice loc, inclusiv în parcări publice sau private deschise spre accesul public, pe baza certificatul de producător valabil",
+      "weight": 3
+    },
+    {
+      "text": "Folosește termenul nedefinit „microproducător” și pragul de „cifră de afaceri”, deși micii fermieri persoane fizice nu au cifră de afaceri, făcând condiția imposibil de verificat.",
+      "article": "art. 13¹ alin. (1)",
+      "quote": "Microproducătorii agricoli care au o cifră de afaceri anuală realizată în ultimul exercițiu financiar, până la echivalentul a 100.000 euro, pot comercializa produsele agricole și alimentare provenite din propria producție",
+      "weight": 3
+    },
+    {
+      "text": "Cere „certificatul de producător”, un act desființat chiar de Legea 145/2014 și înlocuit cu atestatul de producător și carnetul de comercializare, blocând aplicarea legii.",
+      "article": "art. 13¹ alin. (1)",
+      "quote": "în orice loc, inclusiv în parcări publice sau private deschise spre accesul public, pe baza certificatul de producător valabil eliberat conform legislației în vigoare.",
+      "weight": 3
+    }
+  ],
+  "fix": {
+    "text": "Modificarea art. 13¹ alin. (1) pentru a cere acordul proprietarului în parcările private și a înlocui „cifra de afaceri” și „certificatul de producător” cu atestatul de producător și carnetul de comercializare prevăzute de Legea 145/2014.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 6,
+    "verified": 6
+  }
+}

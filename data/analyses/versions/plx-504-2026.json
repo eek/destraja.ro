@@ -1,8 +1,28 @@
 {
   "slug": "plx-504-2026",
   "billId": "PL-x 504/2026",
-  "updatedAt": "2026-10-30T09:35:14.833Z",
+  "updatedAt": "2026-11-11T14:18:56.899Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L418FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Taxele pe apa brută cresc treptat, ca să se repare barajele și digurile",
+      "summaryTlDr": "Este o lege de finanțare a Apelor Române, nu o capcană. Contribuțiile cresc cu circa 10% peste inflație până în 2029, iar ANAR e obligată să investească o parte fixă din bani. Problemele țin de redactare și de garanții: accesul pe proprietăți pentru contoare, calculul pe debitul maxim autorizat și o posibilă dublă indexare a taxei pe MWh.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,53 +56,42 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
-      "direction": "mai_riscant",
-      "headline": "Obligația de a accepta contoarele ANAR se extinde la toți operatorii din anexa contribuțiilor",
-      "summary": "Camera a lărgit cercul firmelor obligate să permită montarea contoarelor ANAR: acum sunt incluși toți operatorii economici din anexa contribuțiilor, nu doar categoriile din tabelul E1. Restul modificărilor sunt precizări de redactare.",
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a schimbat doar detalii; rămân majorările de circa 10% peste inflație la contribuțiile pentru apă",
+      "summary": "Senatul a corectat greșeli de redactare și a precizat că taxa pentru agregatele din albii se plătește pe metru cub, dar a introdus o etichetă greșită în tabelul de penalități. Majorările, contoarele obligatorii și pragul pentru investiții au rămas la fel.",
       "changes": [
         {
-          "title": "Mai multe firme obligate să accepte contoarele ANAR",
-          "text": "Art. II pct. 1 (art. III alin. (1¹) din Legea 122/2020): obligația se aplică acum tuturor operatorilor din anexa nr. 5 la OUG 107/2002, plus categoriile din tabelul E1, nu doar acestora din urmă.",
+          "title": "Contribuția pentru agregate din albii: 9,38 lei/mc",
+          "text": "Anexa cu cuantumul contribuțiilor (lit. D) primește unitatea de măsură care lipsea inițial: cele 9,38 lei pentru exploatarea agregatelor minerale din albii se plătesc pe metru cub.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "anexa nr. 2, lit. D",
+          "before": "Contribuții pentru exploatarea agregatelor minerale din albiile, malurile cursurilor de apă și cuvetele lacurilor de acumulare, precum și fundul apelor maritime interioare și al mării teritoriale | 9,38",
+          "after": "Contribuții pentru exploatarea agregatelor minerale din albiile, malurile cursurilor de apă și cuvetele lacurilor de acumulare, precum și fundul apelor maritime interioare și al mării teritoriale | mc | 9,38",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Etichetă greșită în tabelul de penalități pentru poluare",
+          "text": "În anexa de penalități, rândul pentru consumul chimic de oxigen prin metoda cu bicromat (CCO-Cr) apare acum ca CCO-Mn, deci CCO-Mn are două niveluri de penalitate. Suma de 3,56 lei/kg e neschimbată.",
           "effect": "mai_rau",
-          "major": true,
-          "article": "art. II pct. 1",
-          "before": "Prevederea se aplica operatorilor economici din anexa nr.2 E 1:",
-          "after": "Prevederea se aplică operatorilor economici din anexa nr. 5 la Ordonanța de urgență a Guvernului nr. 107/2002 privind înființarea Administrației Naționale «Apele Române»",
+          "major": false,
+          "article": "anexa nr. 3, lit. A",
+          "before": "Consuin chimic de oxigen (CCO-Cr) (metoda cu bicromat de potasiu) | kg | 3,56",
+          "after": "Consum chimic de oxigen (CCO-Mn) (metoda cu bicromat de potasiu) | kg | 3,56",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Ordinul pe metode indirecte ține cont de noua lege",
-          "text": "Art. V precizează că ordinul privind metodele indirecte de contorizare se emite după Legea 122/2020 așa cum e modificată prin această lege. Termenul de 6 luni rămâne.",
+          "title": "Clarificat de când crește contribuția hidrocentralelor fără contoare",
+          "text": "Art. IV alin. (1) lit. a) precizează că indexarea cu 7,32% a contribuției pe MWh pentru hidrocentralele fără aparate de măsură se aplică de la intrarea în vigoare a acestei legi; inițial actul nu era numit.",
           "effect": "neutru",
           "major": false,
-          "article": "art. V",
-          "before": "aprobă ordinul prevăzut la art.III alin.(4) din Legea nr.122/2020 pentru modificarea și completarea Legii apelor nr.107/1996, cu modificările și completările ulterioare, care se publică în Monitorul Oficial al României, Partea I.",
-          "after": "aprobă ordinul prevăzut la art. III alin. (4) din Legea nr. 122/2020 pentru modificarea și completarea Legii apelor nr. 107/1996, cu modificările ulterioare, precum și cu modificările și completările aduse prin prezenta lege, care se publică",
-          "beforeAbsent": false,
-          "afterAbsent": false
-        },
-        {
-          "title": "Dispare mențiunea explicită despre data noilor anexe",
-          "text": "Art. III pct. 2 nu mai spune „începând cu data intrării în vigoare”. Anexele se înlocuiesc tot la intrarea în vigoare a legii, deci efectul practic rămâne același.",
-          "effect": "neutru",
-          "major": false,
-          "article": "art. III pct. 2",
-          "before": "Începând cu data intrării în vigoare, anexele nr.4 - 7 se modifică și se înlocuiesc cu anexele nr.1 - 4 la prezenta lege.",
-          "after": "Anexele nr. 4 - 7 se modifică și se înlocuiesc cu anexele nr. 1 - 4 la prezenta lege.",
-          "beforeAbsent": false,
-          "afterAbsent": false
-        },
-        {
-          "title": "Pragul de investiții trimite la lista oficială",
-          "text": "Art. I pct. 3 (art. 85⁴ alin. (4)-(5)): pragurile de 12% și 18% se raportează acum la „lista obiectivelor de investiții”, aceeași listă numită în art. 85 alin. (3).",
-          "effect": "neutru",
-          "major": false,
-          "article": "art. I pct. 3",
-          "before": "finanțarea obiectivelor de investiții, conform listei de investiții, este de cel puțin 12 %",
-          "after": "finanțarea obiectivelor de investiții, conform listei obiectivelor de investiții, este de cel puțin 12 %",
+          "article": "art. IV alin. (1) lit. a)",
+          "before": "a) începând cu data intrarii in vigoare, indexarea contribuției la MWh",
+          "after": "a) începând cu data intrării în vigoare a prezentei legi, indexarea contribuției la MWh",
           "beforeAbsent": false,
           "afterAbsent": false
         }
@@ -90,39 +99,19 @@
       "remaining": {
         "problems": [
           {
-            "text": "Majorări de 2%, 4%, 3,7% peste IPC: circa +10% real în trei ani",
+            "text": "Contribuții, tarife și penalități cresc cu circa 10% peste inflație în 2027–2029",
             "major": true,
-            "article": "art. IV alin. (1) lit. b)-d)"
+            "article": "art. IV alin. (1) lit. b)–d)"
           },
           {
-            "text": "Majorările se aplică și penalităților, nu doar contribuțiilor și tarifelor",
+            "text": "Contoare montate de Apele Române fără reguli de cost, acces și despăgubiri",
             "major": true,
-            "article": "art. IV alin. (1) lit. b)-d)"
+            "article": "art. II pct. 1 (art. III alin. (1¹) din Legea nr. 122/2020)"
           },
           {
-            "text": "Hidrocentralele fără contoare plătesc imediat +7,32%, înainte de ordinul privind metodele indirecte",
+            "text": "Calculul indirect, debit maxim autorizat ori timp, poate umfla volumele facturate",
             "major": true,
-            "article": "art. IV alin. (1) lit. a)"
-          },
-          {
-            "text": "Montarea contoarelor e obligatorie indiferent de proprietate; nu se spune cine plătește sau despăgubește",
-            "major": true,
-            "article": "art. II pct. 1"
-          },
-          {
-            "text": "Obligația include instituții publice, unități de cult și toți operatorii din anexa 5",
-            "major": true,
-            "article": "art. II pct. 1"
-          },
-          {
-            "text": "Calculul indirect, debit maxim autorizat × timp, poate supraestima volumele facturate",
-            "major": true,
-            "article": "art. II pct. 2"
-          },
-          {
-            "text": "Nu se reglementează accesul pe proprietate și folosirea datelor colectate",
-            "major": false,
-            "article": "art. II pct. 1"
+            "article": "art. II pct. 2 (art. III alin. (4) din Legea nr. 122/2020)"
           },
           {
             "text": "Regulile concrete de calcul indirect sunt lăsate unui ordin de ministru",
@@ -130,48 +119,180 @@
             "article": "art. V"
           },
           {
-            "text": "Nicio consecință dacă pragul minim pentru investiții nu este respectat",
+            "text": "Pragul minim pentru investiții nu are nicio sancțiune dacă nu e respectat",
             "major": false,
-            "article": "art. I pct. 3"
+            "article": "art. I pct. 3 (art. 85⁴ alin. (4)–(5) din Legea nr. 107/1996)"
+          },
+          {
+            "text": "Indicatorul CCO-Cr apare greșit ca CCO-Mn în tabelul de penalități",
+            "major": false,
+            "article": "anexa nr. 3, lit. A"
           }
         ],
         "good": [
           {
-            "text": "Minimum 12% din cheltuieli pentru investiții în 2027-2031, 18% din 2032",
+            "text": "Minim 12% din cheltuieli pentru investiții în 2027–2031, 18% din 2032",
             "major": true,
-            "article": "art. I pct. 3"
+            "article": "art. I pct. 3 (art. 85⁴ alin. (4)–(5) din Legea nr. 107/1996)"
           },
           {
-            "text": "Irigațiile cu apă brută de suprafață și subteran sunt exceptate de la majorări",
+            "text": "Irigațiile sunt scutite de majorările din 2027–2029",
             "major": true,
-            "article": "art. IV alin. (1) lit. b)-d)"
+            "article": "art. IV alin. (1) lit. b)–d)"
           },
           {
-            "text": "50% din chiriile bunurilor ANAR merg în fondul pentru investiții",
+            "text": "Coeficienți reduși la cota fixă pentru operatori mici și folosire prudentă",
             "major": true,
-            "article": "art. I pct. 2"
+            "article": "anexa nr. 2, note la lit. E"
           },
           {
-            "text": "Utilizatorii sunt notificați în ianuarie despre noul nivel al contribuției",
+            "text": "Efect mic în factura de apă: circa un ban pe metru cub",
             "major": false,
-            "article": "art. IV alin. (2)"
+            "article": "anexa nr. 2, pct. 1.1"
           },
           {
-            "text": "Ordinul privind metodele indirecte trebuie aprobat în cel mult 6 luni",
+            "text": "Fondul de investiții ține cont și de reabilitarea digurilor și barajelor",
             "major": false,
-            "article": "art. V"
+            "article": "art. I pct. 2 (art. 85⁴ alin. (3) din Legea nr. 107/1996)"
           }
         ],
         "partial": true
       },
       "diff": {
-        "added": 60,
-        "removed": 58,
-        "same": 0.62
+        "added": 62,
+        "removed": 54,
+        "same": 0.65
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:34:55.553Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T14:16:17.463Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Obligația de a accepta contoarele ANAR poate cuprinde acum toți operatorii din anexa contribuțiilor",
+      "summary": "Aproape toate diferențele sunt de redactare; taxele și majorările rămân aceleași. De fond, obligația de a permite contoarele ANAR e formulată mai larg și poate cuprinde toți operatorii economici din anexa contribuțiilor, nu doar trei categorii.",
+      "changes": [
+        {
+          "title": "Contoarele ANAR, posibil impuse mai multor operatori",
+          "text": "Art. II pct. 1: obligația de a permite contoarele ANAR privea inițial trei categorii. Acum privește operatorii economici din anexa nr. 5 a OUG 107/2002 «și» acele categorii, deci poate cuprinde toți operatorii.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. II pct. 1 (art. III alin. (1¹) din Legea 122/2020)",
+          "before": "Prevederea se aplica operatorilor economici din anexa nr.2 E 1:",
+          "after": "Prevederea se aplică operatorilor economici din anexa nr. 5 la Ordonanța de urgență a Guvernului nr. 107/2002 privind înființarea Administrației Naționale «Apele Române», aprobată cu modificări prin Legea nr. 404/2003, cu modificările și completările ulterioare, și următoarelor categorii",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Etichete încurcate la penalitățile pentru oxigen",
+          "text": "În anexa de penalități, linia «CCO-Cr» e descrisă ca «metoda cu permanganat», iar «CCO-Mn» ca «cu bicromat». Eticheta și metoda se contrazic, iar penalitățile diferă de aproape trei ori.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "anexa nr. 6 la OUG 107/2002 (penalități)",
+          "before": "Consum chimic de oxigen (CCO-Mn) (metoda cu permanganat de potasiu) | mii kg | 1.282,36",
+          "after": "Consum chimic de oxigen (CCO-Cr) (metoda cu permanganat de potasiu) | mii kg | 1.282,36",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Trimitere corectată pentru cota fixă",
+          "text": "În nota anexei cu tabelele de cotă fixă, trimiterea «conform anexei nr. 1» devine «conform prezentei anexe», adică anexa în care sunt chiar cotele. Obligația de plată rămâne aceeași.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "anexa nr. 5 la OUG 107/2002, note la E.2",
+          "before": "se va supune aplicării cotei fixe conform anexei nr. 1",
+          "after": "se va supune aplicării cotei fixe conform prezentei anexe",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Majorări de 2%, 4%, 3,7% (2027-2029) la contribuții, tarife, penalități, peste inflație",
+            "major": true,
+            "article": "art. IV alin. (1) lit. b)-d)"
+          },
+          {
+            "text": "Contribuția pe MWh a hidrocentralelor fără contoare crește imediat cu 7,32%",
+            "major": true,
+            "article": "art. IV alin. (1) lit. a)"
+          },
+          {
+            "text": "Obligația de a permite contoare ANAR, fără reguli de cost, acces, pagube sau date",
+            "major": true,
+            "article": "art. II pct. 1 (art. III alin. (1¹) din Legea 122/2020)"
+          },
+          {
+            "text": "Formularea poate extinde obligația la toți operatorii economici din anexa nr. 5",
+            "major": true,
+            "article": "art. II pct. 1 (art. III alin. (1¹) din Legea 122/2020)"
+          },
+          {
+            "text": "Metoda indirectă, debit maxim autorizat × timp, poate supraestima volumele plătite",
+            "major": true,
+            "article": "art. II pct. 2 (art. III alin. (4) din Legea 122/2020)"
+          },
+          {
+            "text": "Regulile concrete ale metodelor indirecte vin abia prin ordin, în 6 luni",
+            "major": false,
+            "article": "art. V"
+          },
+          {
+            "text": "Nicio consecință dacă pragul de investiții de 12% sau 18% nu e atins",
+            "major": false,
+            "article": "art. I pct. 3 (art. 85⁴ alin. (4)-(5))"
+          },
+          {
+            "text": "Etichetele CCO-Cr și CCO-Mn contrazic metodele de măsurare la penalități",
+            "major": false,
+            "article": "anexa nr. 6 la OUG 107/2002"
+          }
+        ],
+        "good": [
+          {
+            "text": "Irigațiile sunt scutite de majorările din 2027-2029",
+            "major": true,
+            "article": "art. IV alin. (1) lit. b)-d)"
+          },
+          {
+            "text": "Minimum 12% din cheltuielile proprii pentru investiții în 2027-2031, apoi 18%",
+            "major": true,
+            "article": "art. I pct. 3 (art. 85⁴ alin. (4)-(5))"
+          },
+          {
+            "text": "Alocarea fondului ține cont de reabilitarea digurilor și barajelor",
+            "major": false,
+            "article": "art. I pct. 2 (art. 85⁴ alin. (3))"
+          },
+          {
+            "text": "Utilizatorii sunt anunțați în ianuarie despre noul nivel al contribuției",
+            "major": false,
+            "article": "art. IV alin. (2)"
+          },
+          {
+            "text": "Metoda indirectă doar la imposibilitate tehnică dovedită de montare a contoarelor",
+            "major": false,
+            "article": "art. II pct. 2 (art. III alin. (4) din Legea 122/2020)"
+          },
+          {
+            "text": "Nota despre cota fixă trimite acum la anexa care conține tabelele",
+            "major": false,
+            "article": "anexa nr. 5 la OUG 107/2002"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 36,
+        "removed": 50,
+        "same": 0.78
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T14:18:56.899Z"
     }
   ]
 }

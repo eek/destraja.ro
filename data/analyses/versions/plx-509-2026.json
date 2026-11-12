@@ -1,8 +1,28 @@
 {
   "slug": "plx-509-2026",
   "billId": "PL-x 509/2026",
-  "updatedAt": "2026-10-30T09:35:24.067Z",
+  "updatedAt": "2026-11-11T14:14:32.131Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L332FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Fundațiile pot deschide sucursale în alte localități, fără să înființeze noi persoane juridice",
+      "summaryTlDr": "Este o lege tehnică și utilă. Fundațiile primesc dreptul, pe care asociațiile îl au deja, de a deschide sucursale fără personalitate juridică, ca să-și poată înregistra fiscal angajații din alte județe. Nu aduce taxe, sancțiuni sau monopoluri, doar câteva imprecizii de redactare.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,17 +56,70 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
+      "from": "initiator",
+      "to": "senat",
       "direction": "la_fel",
-      "headline": "Fundațiile pot înființa sucursale; Camera a păstrat textul Senatului, cu doar corecturi de redactare",
-      "summary": "Inițial și acum, legea permite fundațiilor să înființeze sucursale fără personalitate juridică, înscrise în Registru la judecătorie. Camera a făcut doar corecturi de formă, fără schimbări de fond.",
+      "headline": "Senatul a schimbat doar formulări; regulile pentru sucursalele fundațiilor rămân aceleași",
+      "summary": "Față de forma inițiatorului, Senatul a schimbat doar formulări: formula de adoptare, modul de citare a ordonanței și un acord gramatical. Fundațiile pot avea în continuare sucursale fără personalitate juridică, înscrise în registru, în aceleași condiții.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Trimiterea vagă la art. 15-17 poate impune condiții nepotrivite, inclusiv patrimoniu minim",
+            "text": "Trimiterea generică la art. 15-17 lasă grefelor libertate în privința actelor cerute",
+            "major": false,
+            "article": "art. 18¹ alin. (3)"
+          },
+          {
+            "text": "Nu reglementează modificarea, desființarea sau radierea sucursalei",
+            "major": false,
+            "article": "art. 18¹"
+          },
+          {
+            "text": "Nu spune cine reprezintă sucursala față de terți sau față de ANAF",
+            "major": false,
+            "article": "art. 18¹"
+          }
+        ],
+        "good": [
+          {
+            "text": "Fundațiile pot înființa sucursale fără personalitate juridică, la fel ca asociațiile",
             "major": true,
+            "article": "art. 18¹ alin. (1)"
+          },
+          {
+            "text": "Înscrierea în registru oferă actul cerut de ANAF pentru plata salariilor",
+            "major": false,
+            "article": "art. 18¹ alin. (3)"
+          },
+          {
+            "text": "Nu introduce taxe, sancțiuni sau obligații noi; sucursala e facultativă",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 8,
+        "same": 0.38
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T14:14:07.904Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a păstrat textul Senatului; s-au schimbat doar formulări și o greșeală de scriere",
+      "summary": "Camera Deputaților a adoptat același text ca Senatul: fundațiile pot înființa sucursale fără personalitate juridică, înscrise în Registru. Diferențele țin doar de redactare (o greșeală de scriere corectată, numele camerei, data), deci riscul rămâne același.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Trimiterea vagă la art. 15-17 lasă instanța să ceară condiții nepotrivite, ca patrimoniul minim",
+            "major": false,
             "article": "art. 18¹ alin. (3)"
           },
           {
@@ -60,48 +133,43 @@
             "article": "art. 18¹ alin. (4)"
           },
           {
-            "text": "Înscrierea la judecătorie presupune cost: taxă judiciară și eventual avocat",
+            "text": "Înscrierea la judecătorie costă: taxă judiciară și, eventual, avocat",
             "major": false,
             "article": "art. 18¹ alin. (3)"
-          },
-          {
-            "text": "Completarea golurilor prin analogie cu art. 13¹ poate genera practică judiciară neunitară",
-            "major": false,
-            "article": "art. 18¹"
           }
         ],
         "good": [
           {
-            "text": "Fundațiile primesc dreptul expres de a înființa sucursale, ca asociațiile",
+            "text": "Fundațiile primesc dreptul expres de a înființa sucursale fără personalitate juridică",
             "major": true,
-            "article": "art. 18¹ alin. (1)"
+            "article": "art. 18¹ alin. (1)-(2)"
           },
           {
-            "text": "Sucursala se constituie simplu, prin hotărâre a consiliului director",
+            "text": "Regimul sucursalelor fundațiilor e aliniat cu cel al asociațiilor din art. 13¹",
             "major": false,
-            "article": "art. 18¹ alin. (2)"
+            "article": "art. 18¹"
           },
           {
-            "text": "Înscrierea dă hotărârea judecătorească cerută de ANAF pentru înregistrarea ca plătitor de salarii",
+            "text": "Înscrierea produce hotărârea judecătorească cerută de ANAF la înregistrarea ca plătitor de salarii",
             "major": false,
             "article": "art. 18¹ alin. (3)"
           },
           {
-            "text": "Sucursala este facultativă; legea nu creează taxe, sancțiuni sau obligații noi",
+            "text": "Fără taxe, sancțiuni sau obligații noi; sucursala este facultativă",
             "major": false,
-            "article": null
+            "article": "art. 18¹"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 6,
+        "added": 5,
         "removed": 5,
-        "same": 0.25
+        "same": 0.38
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:34:47.221Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T14:14:32.131Z"
     }
   ]
 }

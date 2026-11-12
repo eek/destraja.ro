@@ -1,0 +1,65 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+Lege pentru completarea Ordonanței de urgență a Guvernului nr. 107/2002 privind înființarea Administrației Naționale „Apele Române”, a Legii nr. 82/1993 privind constituirea Rezervației Biosferei Delta Dunării, a Ordonanței de urgență a Guvernului nr. 103/2024 privind reorganizarea unor instituții publice din domeniul mediului, apelor și pădurilor, precum și pentru modificarea și completarea unor acte normative, precum și a Ordonanței de urgență a Guvernului nr. 196/2005 privind Fondul pentru mediu
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I.- După articolul 2 din Ordonanța de urgență a Guvernului nr. 107/2002 privind înființarea Administrației Naționale „Apele Române”, publicată în Monitorul Oficial al României, Partea I, nr. 691 din 20 septembrie 2002, aprobată cu modificări și completări prin Legea nr. 404/2003, cu modificările și completările ulterioare, se introduce un nou articol, articolul 2¹, cu următorul cuprins:
+
+„Art. 2¹ - (1) În scopul realizării acțiunilor de control, a celor de monitorizare cantitativă și calitativă a resurselor de apă precum și pentru intervențiile operative, inclusiv cu ocazia prelevării probelor necesare activității de control sau monitorizare, în exercitarea atribuțiilor de serviciu, activitățile personalului de specialitate, împuternicit conform legii, sunt înregistrate și fixate cu mijloacele foto-audio-video din dotare, fără consimțământul persoanelor vizate. Înregistrările foto-audio-video constituie mijloace de probă.
+
+(2) Imaginile fotografice ori înregistrările audio și/sau video obținute potrivit alin. (1) pot fi păstrate pe o perioadă de 6 luni de la data obținerii acestora, cu excepția situațiilor în care sunt utilizate în cadrul unei proceduri judiciare, caz în care acestea urmează regimul probelor. La împlinirea acestui termen imaginile și/sau înregistrările se distrug, prin proceduri ireversible.
+
+(3) Se interzice prelucrarea datelor cu caracter personal conținute de imaginile fotografice ori înregistrările audio și/sau video în alte scopuri decât cele în care au fost colectate, cu excepția situațiilor prevăzute expres de lege și numai dacă sunt asigurate garanțiile necesare pentru protejarea drepturilor persoanelor vizate.
+
+(4) Prelucrarea datelor cu caracter personal, efectuată de entitățile prevăzute la alin. (1), se realizează cu respectarea prevederilor Regulamentului (UE) 679/2016 al Parlamentului European și al Consiliului din 27 aprilie 2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE, precum și a legislației naționale aplicabile domeniului protecției datelor.
+
+(5) Procedura privind înregistrarea și fixarea cu mijloace foto-audio-video din dotare a activităților specifice prevăzute la alin. (1), precum și stocarea și accesarea acestora, se stabilește prin ordin al conducătorului autorității publice centrale pentru protecția mediului, în termen de 90 de zile de la data intrării în vigoare a prezentei legi.”
+
+Art. II. -După articolul 4⁵ din Legea nr. 82/1993 privind constituirea Rezervației Biosferei Delta Dunării, publicată în Monitorul Oficial al României, Partea 1, nr. 283 din 07 decembrie 1993, cu modificările și completările ulterioare, se introduce un nou articol, art. 4⁶, cu următorul cuprins:
+
+„Art. 4⁶ - (1) În scopul realizării acțiunilor de control, a celor de verificare a îndeplinirii măsurilor de conservare pentru asigurarea statutului de conservare favorabilă, în conformitate cu legislația în vigoare, în exercitarea atribuțiilor de serviciu, activitățile personalului de specialitate, împuternicit conform legii, sunt înregistrate cu mijloacele foto-audio-video din dotare, fără consimțământul persoanelor vizate. Înregistrările foto-audio-video constituie mijloace de probă.
+
+(2) Imaginile fotografice ori înregistrările audio și/sau video obținute potrivit alin. (1) pot fi păstrate pe o perioadă de 6 luni de la data obținerii acestora, cu excepția situațiilor în care sunt utilizate în cadrul unei proceduri judiciare, caz în care acestea urmează regimul probelor. La împlinirea acestui termen imaginile și/sau înregistrările se distrug, prin proceduri irreversibile.
+
+(3) Se interzice prelucrarea datelor cu caracter personal conținute de imaginile fotografice ori înregistrările audio și/sau video în alte scopuri decât cele în care au fost colectate, cu excepția situațiilor prevăzute expres de lege și numai dacă sunt asigurate garanțiile necesare pentru protejarea drepturilor persoanelor vizate.
+
+(4) Prelucrarea datelor cu caracter personal, efectuată de entitățile prevăzute la alin. (1), se realizează cu respectarea prevederilor Regulamentului (UE) 679/2016 al Parlamentului European și al Consiliului din 27 aprilie 2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE, precum și a legislației naționale aplicabile domeniului protecției datelor.
+
+(5) Procedura privind înregistrarea și fixarea cu mijloace foto-audio-video din dotare a activităților specifice prevăzute la alin. (1), precum și stocarea și accesarea acestora, se stabilește prin ordin al conducătorului autorității publice centrale pentru protecția mediului, în termen de 90 de zile de la data intrării în vigoare a prezentei legi.”
+
+Art. III.- După articolul 3 din Ordonanța de urgență a Guvernului nr. 103/2024 privind reorganizarea unor instituții publice din domeniul mediului, apelor și pădurilor, precum și pentru modificarea și completarea unor acte normative, publicată în Monitorul Oficial al României, Partea
+
+1, nr. 870 din 29 august 2024, cu modificările și completările ulterioare, se introduce un nou articol, art. 3¹, cu următorul cuprins:
+
+„Art. 3¹ - (1) În scopul realizării acțiunilor de control pentru administrarea ariilor naturale protejate, al măsurilor de conservare pentru parcurilor naturale și parcurilor naționale precum și monitorizarea specifică a capitalului natural, activitățile personalului de specialitate, împuternicit conform legii, sunt înregistrate cu mijloacele foto-audio-video din dotare, fără consimțământul persoanelor vizate. Înregistrările foto-audio-video constituie mijloace de probă.
+
+(2) Se interzice prelucrarea datelor cu caracter personal conținute de imaginile fotografice ori înregistrările audio și/sau video în alte scopuri decât cele în care au fost colectate, cu excepția situațiilor prevăzute expres de lege și numai dacă sunt asigurate garanțiile necesare pentru protejarea drepturilor persoanelor vizate.
+
+(3) Imaginile fotografice ori înregistrările audio și/sau video obținute potrivit alin. (1) pot fi păstrate pe o perioadă de 6 luni de la data obținerii acestora, cu excepția situațiilor în care sunt utilizate în cadrul unei proceduri judiciare, caz în care acestea urmează regimul probelor. La împlinirea acestui termen imaginile și/sau înregistrările se distrug, prin proceduri irreversible.
+
+(4) Prelucrarea datelor cu caracter personal, efectuată de entitățile prevăzute la alin. (1), se realizează cu respectarea prevederilor Regulamentului (UE) 679/2016 al Parlamentului European și al Consiliului din 27 aprilie 2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE, precum și a legislației naționale aplicabile domeniului protecției datelor.
+
+(5) Procedura privind înregistrarea și fixarea cu mijloace foto-audio-video din dotare a activităților specifice prevăzute la alin. (1), precum și stocarea și accesarea acestora, se stabilește prin ordin al conducătorului autorității publice centrale pentru protecția mediului, în termen de 90 de zile de la data intrării în vigoare a prezentei legi.”
+
+Art. IV.- După articolul 3 din Ordonanța de urgență a Guvernului nr. 196/2005 privind Fondul pentru mediu, publicată în Monitorul Oficial al României, Partea 1, nr. 1193 din 30 decembrie 2005, aprobată cu modificări și completări prin Legea nr. 105/2006, cu modificările și completările ulterioare, se introduce un nou articol, art. 3¹, cu următorul cuprins:
+
+„Art. 3¹ - (1) În scopul realizării acțiunilor de control la operatorii economici autorizați în vederea preluării responsabilității privind realizarea obiectivelor anuale de colectare, reutilizare, reciclare și valorificare a deșeurilor de echipamente electrice și electronice și la operatorii economici autorizați în vederea preluării responsabilității privind realizarea obiectivelor anuale de colectare, reutilizare, reciclare și valorificare a deșeurilor de baterii și acumulatori portabili, de inspecții fiscale și controale inopinate la contribuabilii/plătitorii la Fondul pentru mediu, activitățile personalului de specialitate, împuternicit conform legii, sunt înregistrate cu mijloacele foto-audio-video din dotare, fără consimțământul persoanelor vizate. Înregistrările foto-audio-video constituie mijloace de probă.
+
+(2) Se interzice prelucrarea datelor cu caracter personal conținute de imaginile fotografice ori înregistrările audio și/sau video în alte scopuri decât cele în care au fost colectate, cu excepția situațiilor prevăzute expres de lege și numai dacă sunt asigurate garanțiile necesare pentru protejarea drepturilor persoanelor vizate.
+
+(3) Imaginile fotografice ori înregistrările audio și/sau video obținute potrivit alin. (1) pot fi păstrate pe o perioadă de 6 luni de la data obținerii acestora, cu excepția situațiilor în care sunt utilizate în cadrul unei proceduri judiciare, caz în care acestea urmează regimul probelor. La împlinirea acestui termen imaginile și/sau înregistrările se distrug, prin proceduri irreversibile. (4) Prelucrarea datelor cu caracter personal, efectuată de entitățile prevăzute la alin. (1), se realizează cu respectarea prevederilor Regulamentului (UE) 679/2016 al Parlamentului European și al Consiliului din 27 aprilie 2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE, precum și a legislației naționale aplicabile domeniului protecției datelor. (5) Procedura privind înregistrarea și fixarea cu mijloace foto-audio-video din dotare a activităților specifice prevăzute la alin. (1), precum și stocarea și accesarea acestora, se stabilește prin ordin al conducătorului autorității publice centrale pentru protecția mediului, în termen de 90 de zile de la data intrării în vigoare a prezentei legi.”
+
+Această lege a fost adoptată de Parlamentul României cu respectarea prevederilor art. 75 și ale art. 76 alin (2) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI
+
+Sorin-Mihai GRINDEAU
+
+Mircea ABRUDEAN

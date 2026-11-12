@@ -1,0 +1,71 @@
+{
+  "slug": "plx-10-2023",
+  "billId": "PL-x 10/2023",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-12T10:24:56.758Z",
+  "inputHash": "d99634f895ff",
+  "riskScore": 5,
+  "summary": "O măsură justificată de egalizare salarială în teritoriu pentru APIA, viciată de un articol care extinde prin derogare sporul de condiții vătămătoare la tot ministerul și la AFIR.",
+  "good": [
+    {
+      "text": "Egalizează grila de salarizare a funcționarilor din centrele județene și locale APIA cu cea din aparatul central, reducând riscul plecării specialiștilor în fonduri europene.",
+      "article": "Art. I",
+      "quote": "al Agenției Naționale pentru Reformă Fiscală și unităților subordonate, al Agenției de Plăți și Intervenție pentru Agricultură și unităților subordonate, al celorlalte organe de specialitate ale administrației publice centrale",
+      "weight": 2
+    },
+    {
+      "text": "Aliniază salariile personalului contractual din unitățile teritoriale APIA la nivelul funcțiilor similare din aparatul central, eliminând inechitățile salariale interne.",
+      "article": "Art. II",
+      "quote": "salarizarea personalului contractual din cadrul unităților subordonate ale Agenției de Plăți și Intervenție pentru Agricultură se face la nivelul de salarizare pentru funcții similare din cadrul Agenției de Plăți și Intervenție pentru Agricultură - aparat central.",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Acordă sporuri majorate pentru condiții vătămătoare, prin derogare de la plafonarea bugetară, și pentru angajații MADR și AFIR, depășind titlul și scopul legii (care vizau doar APIA).",
+      "article": "Art. III",
+      "quote": "funcționarii publici și personalul contractual din cadrul aparatului Ministerului Agriculturii și Dezvoltării Rurale, al Agenției pentru Finanțarea Investițiilor Rurale și al Agenției de Plăți și Intervenție pentru Agricultură, precum și al unităților subordonate acestora",
+      "weight": 3
+    },
+    {
+      "text": "Impune acordarea sporului de condiții vătămătoare „în cuantum similar” tuturor angajaților, deși legea cere ca acest spor să depindă strict de riscurile reale de la fiecare loc de muncă.",
+      "article": "Art. III",
+      "quote": "beneficiază în mod nediscriminatoriu și în cuantum similar, începând cu data de 1 ianuarie 2023, de spor pentru condiții vătămătoare în cuantumul stabilit potrivit prevederilor din anexa nr.VIII",
+      "weight": 3
+    },
+    {
+      "text": "Stabilește aplicarea creșterilor salariale și a sporurilor de la 1 ianuarie 2023, termen deja depășit, ceea ce încalcă principiul neretroactivității legii și creează plăți restante la buget.",
+      "article": "Art. II și Art. III",
+      "quote": "Începând cu data de 1 ianuarie 2023, salarizarea personalului contractual din cadrul unităților subordonate ale Agenției de Plăți și Intervenție pentru Agricultură se face la nivelul de salarizare",
+      "weight": 2
+    },
+    {
+      "text": "Trimite la „salariul de bază stabilit potrivit alin.(1)”, deși articolul nu are alineate, și conține o referință confuză („lit.A, lit.I”), îngreunând aplicarea clară a legii.",
+      "article": "Art. III",
+      "quote": "Capitolul II, lit.A, lit.I, art.1 alin.(1) la Legea-cadru nr.153/2017 privind salarizarea personalului plătit din fonduri publice, cu modificările și completările ulterioare, respectiv prin raportare la salariul de bază stabilit potrivit alin.(1).",
+      "weight": 2
+    },
+    {
+      "text": "Încadrează posturile din unitățile teritoriale APIA ca „funcții publice de stat” într-o notă salarială, fără corelare cu regimul funcțiilor publice teritoriale din Codul administrativ.",
+      "article": "Art. I",
+      "quote": "Funcții publice de stat, stabilite și avizate potrivit legii în cadrul aparatului Administrației Prezidențiale, al Parlamentului, al Guvernului, al ministerelor, al Academiei Române, al Avocatului Poporului",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Eliminarea Art. III (care extinde prin derogare sporurile la MADR și AFIR peste obiectul legii) și actualizarea datei de intrare în vigoare din Art. II.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

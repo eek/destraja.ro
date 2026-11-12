@@ -1,0 +1,82 @@
+{
+  "slug": "b635-2026",
+  "billId": "B635/2026",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-12T10:19:37.464Z",
+  "inputHash": "c9adf07d413e",
+  "riskScore": 3,
+  "summary": "O măsură bună pentru tinerii care muncesc pe timpul studiilor, dar redactată neclar și incomplet față de promisiunile inițiatorilor.",
+  "good": [
+    {
+      "text": "Scutește de impozitul pe venit (10%) salariile de până la 3.900 lei ale elevilor și studenților sub 26 de ani, timp de 3 luni pe an, lăsându-le mai mulți bani în mână.",
+      "article": "art. unic pct. 1",
+      "quote": "veniturile din salarii și asimilate salariilor realizate de către elevi sau studenți, cu vârsta până la 26 de ani, aflați într-o formă de școlarizare în decursul a trei luni/an în limita plafonului lunar de cel mult 3900 lei.",
+      "weight": 3
+    },
+    {
+      "text": "Scutește aceleași venituri și de contribuția la pensie (CAS - 25%), crescând semnificativ câștigul net al tinerilor care muncesc pe timpul vacanțelor sau temporar.",
+      "article": "art. unic pct. 2",
+      "quote": "ab) veniturile din salarii și asimilate salariilor realizate de către elevi sau studenți, cu vârsta până la 26 de ani, aflați într-o formă de școlarizare în decursul a trei luni/an în limita plafonului lunar de cel mult 3900 lei.",
+      "weight": 3
+    },
+    {
+      "text": "Limitează facilitatea la cel mult trei luni pe an și la un plafon de 3.900 lei lunar, protejând bugetul de stat de pierderi mari și prevenind abuzurile.",
+      "article": "art. unic pct. 1 și 2",
+      "quote": "aflați într-o formă de școlarizare în decursul a trei luni/an în limita plafonului lunar de cel mult 3900 lei.",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu e clar dacă la un salariu brut peste 3.900 lei se scutește suma de 3.900 lei sau se pierde toată facilitatea, ori dacă plafonul se cumulează la mai mulți angajatori.",
+      "article": "art. unic pct. 1 și 2",
+      "quote": "în decursul a trei luni/an în limita plafonului lunar de cel mult 3900 lei. Procedura de aplicare se stabilește prin ordin al ministrului finanțelor.",
+      "weight": 3
+    },
+    {
+      "text": "Formularea leagă greșit cele trei luni de școlarizare, nu de perioada muncii, și nu spune dacă lunile sunt consecutive sau ce se întâmplă la schimbarea angajatorului.",
+      "article": "art. unic pct. 1 și 2",
+      "quote": "elevi sau studenți, cu vârsta până la 26 de ani, aflați într-o formă de școlarizare în decursul a trei luni/an în limita plafonului lunar",
+      "weight": 3
+    },
+    {
+      "text": "Aplicarea scutirii depinde de un ordin al ministrului finanțelor pentru care legea nu prevede niciun termen-limită, ceea ce poate bloca acordarea facilității în practică.",
+      "article": "art. unic pct. 1 și 2",
+      "quote": "în limita plafonului lunar de cel mult 3900 lei. Procedura de aplicare se stabilește prin ordin al ministrului finanțelor.",
+      "weight": 2
+    },
+    {
+      "text": "Deși motivarea promite scăderea costurilor firmei, textul scutește doar dările angajatului (impozit și CAS), lăsând intacte sănătatea (CASS - 10%) și contribuția firmei (CAM).",
+      "article": "art. unic pct. 2",
+      "quote": "2. La articolul 142 după litera aa¹) se introduce litera ab) cu următorul cuprins:",
+      "weight": 2
+    },
+    {
+      "text": "Deoarece veniturile sunt scutite complet de contribuția la pensie (CAS), tinerii nu acumulează stagiu de cotizare la pensie pentru lunile lucrate cu această facilitate.",
+      "article": "art. unic pct. 2",
+      "quote": "ab) veniturile din salarii și asimilate salariilor realizate de către elevi sau studenți, cu vârsta până la 26 de ani",
+      "weight": 1
+    },
+    {
+      "text": "Lipsa unui termen de intrare în vigoare ignoră regula din Codul fiscal care cere minimum 6 luni de la publicare înainte de aplicarea unor modificări fiscale.",
+      "article": "art. unic",
+      "quote": "Articol unic – Legea nr. 227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I, nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare, se completează după cum urmează:",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Clarificarea formulării privind plafonul brut de 3.900 lei și durata de 3 luni de muncă pe an calendaristic per beneficiar, plus stabilirea unui termen de 30 de zile pentru ordinul ministrului.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

@@ -1,7 +1,12 @@
 {
   "slug": "plx-372-2026",
   "billId": "PL-x 372/2026",
-  "updatedAt": "2026-10-30T09:24:53.392Z",
+  "updatedAt": "2026-11-11T13:39:07.916Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -32,6 +37,21 @@
         "claude": 3,
         "codex": 4
       }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L568FS.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Furnizorii de servicii online trebuie să aibă în UE o adresă oficială unde primesc cererile de probe din dosarele penale",
+      "summaryTlDr": "Lege tehnică, de transpunere obligatorie, care nu dă procurorilor puteri noi. Doar obligă furnizorii digitali să aibă în UE un sediu sau un reprezentant care primește cererile de probe. Problemele sunt de redactare: validarea notificării nu are termen, iar schimbul de date între autorități nu are limite precise.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
     }
   ],
   "changes": [
@@ -39,124 +59,218 @@
       "from": "initiator",
       "to": "camera",
       "direction": "la_fel",
-      "headline": "Camera a adoptat tacit proiectul în forma inițială; s-au schimbat doar diacritice și semne de punctuație",
-      "summary": "Camera Deputaților a adoptat tacit proiectul, fără modificări de fond. Diferențele sunt corecturi de scriere (diacritice, liniuțe, formula de adoptare), deci riscurile și avantajele pentru cetățeni și firme rămân aceleași ca inițial.",
+      "headline": "Camera a adoptat tacit textul inițial: doar corecturi de scriere, fondul e neschimbat",
+      "summary": "Proiectul a trecut tacit de Cameră, în forma inițială. Diferențele sunt doar de redactare: antetul, mențiunea adoptării tacite și corecturi la cuvântul „teritoriul”. Obligațiile, amenzile și cine intră sub lege rămân aceleași, cu aceleași probleme.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "„Exclusiv în România” nu e definit; firmele mici cu câțiva clienți externi nu știu dacă intră sub lege",
+            "text": "Termenul „exclusiv în România” nu e definit; micii furnizori cu clienți străini rămân nesiguri",
             "major": true,
             "article": "art. 3 alin. (2)"
           },
           {
-            "text": "Obligație suplimentară față de directivă: dovada notificării din alt stat trimisă la ANCOM",
+            "text": "Dovada notificării din alt stat trebuie trimisă și ANCOM, peste directivă, sub amendă",
             "major": true,
-            "article": "art. 8 alin. (6)-(7)"
+            "article": "art. 8 alin. (6)-(7), art. 15 alin. (1) lit. d)-e)"
           },
           {
-            "text": "Lipsa dovezii notificării se amendează cu 10.000-100.000 lei, deși informația circulă între autorități",
-            "major": true,
-            "article": "art. 16 alin. (1)"
-          },
-          {
-            "text": "Schimbul de date cu poliția și parchetele trimite la GDPR, nu la Legea 363/2018",
+            "text": "Schimbul de date cu poliția și parchetele ignoră Legea 363/2018; scop și păstrare nedefinite",
             "major": true,
             "article": "art. 6 alin. (3)"
           },
           {
-            "text": "Schimbul de date personale nu are scop, categorii de date sau durată de păstrare",
-            "major": true,
-            "article": "art. 6 alin. (3)"
-          },
-          {
-            "text": "Sediul desemnat trebuie să aibă personalitate juridică; PFA-urile plătesc o entitate terță",
+            "text": "Un PFA sau II nu se poate desemna singur; plătește o entitate terță",
             "major": true,
             "article": "art. 4 pct. 5"
           },
           {
-            "text": "Amendă judiciară minimă de 100.000 lei, inclusiv pentru firme aflate în primul an de activitate",
+            "text": "Termenul de desemnare, 18 august 2026, a trecut deja; textul nu e actualizat",
             "major": true,
-            "article": "art. 15 alin. (2)-(3)"
-          },
-          {
-            "text": "Sancțiunile se prescriu în 3 ani, mult peste regula generală pentru contravenții",
-            "major": true,
-            "article": "art. 20"
-          },
-          {
-            "text": "Termenul de desemnare, 18 august 2026, poate expira înainte de intrarea legii în vigoare",
-            "major": false,
             "article": "art. 10 alin. (1)"
           },
           {
-            "text": "Contestația se face în 15 zile, la judecătoria de la sediul autorității",
-            "major": false,
-            "article": "art. 18"
-          },
-          {
-            "text": "Greșeli de redactare rămase: „territoriul”, „fară”, „comunica”, lipsește „între” la limitele amenzii",
-            "major": false,
-            "article": "art. 5, 7, 12, 13, 15"
+            "text": "Amenda judiciară minimă de 100.000 lei e foarte mare pentru firmele mici",
+            "major": true,
+            "article": "art. 15 alin. (2)-(3)"
           }
         ],
         "good": [
           {
-            "text": "Furnizorii români care oferă servicii doar în România sunt exceptați de noile obligații",
-            "major": true,
-            "article": "art. 3 alin. (2)"
-          },
-          {
-            "text": "Nucleul directivei pare transpus fidel: sediu desemnat în UE, reprezentant legal pentru restul",
+            "text": "Obligația de sediu desemnat sau reprezentant legal, transpusă fidel din directivă",
             "major": true,
             "article": "art. 5 alin. (1)"
           },
           {
-            "text": "Mai mulți furnizori pot folosi același sediu desemnat sau reprezentant legal, cu costuri mai mici",
+            "text": "Furnizorii români care lucrează doar în România nu primesc obligații noi",
             "major": true,
-            "article": "art. 5 alin. (3)"
+            "article": "art. 3 alin. (2)"
           },
           {
-            "text": "Ordinele naționale ajung direct la reprezentant, fără temeiuri noi de acces la date",
+            "text": "Ordinele naționale pot merge direct la reprezentant, fără temeiuri noi de acces la date",
             "major": true,
             "article": "art. 2 lit. d)"
           },
           {
-            "text": "Pentru PFA și întreprinderi familiale amenda se raportează la veniturile brute realizate",
+            "text": "Mai mulți furnizori pot folosi același destinatar, deci costuri mai mici",
             "major": true,
-            "article": "art. 16 alin. (4)"
+            "article": "art. 5 alin. (3)"
           },
           {
-            "text": "Contravenientul poate plăti jumătate din amendă în 15 zile",
-            "major": true,
-            "article": "art. 19 alin. (2)"
-          },
-          {
-            "text": "Amenzi plafonate la 100.000 lei pentru contravențiile din primul an de activitate",
-            "major": true,
-            "article": "art. 16 alin. (3)"
-          },
-          {
-            "text": "Datele de contact ale reprezentanților sunt publice, prin Rețeaua Judiciară Europeană",
+            "text": "Datele de contact ale destinatarilor sunt publice, pe pagina Rețelei Judiciare Europene",
             "major": false,
-            "article": "art. 11"
-          },
-          {
-            "text": "Furnizorul poate fi contactat în română și în altă limbă oficială a UE",
-            "major": false,
-            "article": "art. 9 alin. (1) lit. e)"
+            "article": "art. 11 alin. (1)"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 27,
-        "removed": 26,
-        "same": 0.7
+        "added": 15,
+        "removed": 14,
+        "same": 0.84
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:26:35.896Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:36:24.718Z"
+    },
+    {
+      "from": "camera",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Firmele nu mai trimit la ANCOM dovada notificării din alt stat și primesc 6 luni pentru conformare",
+      "summary": "Firmele nu mai dublează la ANCOM notificarea din alt stat UE și au 6 luni de la intrarea în vigoare, nu o dată deja trecută. În schimb, notificarea contează doar dacă autoritatea o validează, fără termen, iar greșeala ei se amendează cu până la 2% din cifra de afaceri.",
+      "changes": [
+        {
+          "title": "Dispare dovada dublă trimisă la ANCOM",
+          "text": "Inițial, cine își desemna destinatarul în alt stat UE trebuia să trimită și la ANCOM dovada notificării în 30 de zile, sub amendă de 10.000–100.000 lei. Acum obligația și amenda dispar.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 8 alin. (6)-(7), art. 15 alin. (1)",
+          "before": "au ales să desemneze un destinatar responsabil conform art. 5 în alt stat membru al Uniunii Europene decât România, au obligația de a transmite ANCOM dovada notificării autorității centrale din statul membru respectiv",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Amenda mare vizează acum notificarea, validată fără termen",
+          "text": "Inițial se amenda lipsa desemnării. Acum se amendează, cu până la 2% din cifra de afaceri, notificarea incorectă; ea contează drept corectă doar după validarea autorității, care nu are termen.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 15 alin. (1) lit. a), art. 8 alin. (4)",
+          "before": "a obligației de a desemna cel puțin un destinatar responsabil pentru primirea, respectarea și executarea deciziilor și ordinelor, în condițiile art. 5 alin. (1), în termenul prevăzut la art. 10",
+          "after": "a obligației de a notifica în mod corect și complet Autoritatea Centrală a statului membru al Uniunii Europene unde au ales să desemneze un destinatar responsabil conform art. 5, cu respectarea dispozițiilor art. 8 alin. (1) și în termenul prevăzut la art. 10",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Șase luni pentru conformare, nu o dată trecută",
+          "text": "Inițial, termenul de desemnare era 18 august 2026, deja trecut când Senatul a adoptat legea pe 21 octombrie 2026. Acum firmele au 6 luni de la intrarea în vigoare a legii.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 10",
+          "before": "care oferă servicii la data de 18 februarie 2026 au obligația de a desemna sedii desemnate sau de a numi reprezentanți legali până la data de 18 august 2026",
+          "after": "care oferă servicii la data intrării în vigoare a prezentei legi au obligația de a desemna sedii desemnate sau de a numi reprezentanți legali în termen de 6 luni de la data intrării în vigoare a prezentei legi",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Formularul Comisiei Europene înlocuiește decizia ANCOM",
+          "text": "Notificarea se face acum prin formularul de pe platforma Comisiei Europene, cu ghid publicat de ANCOM, nu după forma stabilită printr-o decizie ANCOM supusă consultării publice.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 8 alin. (1)-(4)",
+          "before": "(3) Notificarea prevăzută la alin. (2) se realizează cu respectarea formei, conținutului și a condițiilor stabilite prin decizia ANCOM.",
+          "after": "prin completarea formularului pus la dispoziție pe platforma de notificare a Comisiei Europene",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Amenzile intră în vigoare după 30 de zile",
+          "text": "Inițial toată legea intra în vigoare la 30 de zile de la publicare; acum termenul acesta e prevăzut doar pentru amenzi (art. 15 și 16), restul legii neavând o dată proprie.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 21",
+          "before": "Art. 21. – Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.",
+          "after": "Dispozițiile art. 15 și art. 16 intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I, a prezentei legi.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Notificarea contează doar după validare, fără termen, motivare a respingerii sau cale de atac",
+            "major": true,
+            "article": "art. 8 alin. (4)"
+          },
+          {
+            "text": "Notificarea incorectă sau incompletă se amendează cu până la 2% din cifra de afaceri",
+            "major": true,
+            "article": "art. 15 alin. (1) lit. a), art. 16 alin. (2)"
+          },
+          {
+            "text": "Schimbul de date personale cu poliția trimite doar la GDPR; lipsesc categoriile și durata",
+            "major": true,
+            "article": "art. 6 alin. (3)"
+          },
+          {
+            "text": "Obligația impusă și furnizorilor din alt stat UE participant riscă competențe suprapuse",
+            "major": true,
+            "article": "art. 5 alin. (1) lit. b)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Furnizorii care oferă servicii doar în România sunt exceptați",
+            "major": true,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Obligația de sediu desemnat sau reprezentant legal transpune fidel nucleul directivei",
+            "major": true,
+            "article": "art. 5 alin. (1) lit. a), c) și d)"
+          },
+          {
+            "text": "Nu mai trebuie trimisă la ANCOM dovada notificării făcute în alt stat UE",
+            "major": true,
+            "article": "art. 8"
+          },
+          {
+            "text": "Amenzi plafonate la 100.000 lei în primul an de activitate",
+            "major": true,
+            "article": "art. 16 alin. (3)"
+          },
+          {
+            "text": "Notificarea se face prin formularul unic al Comisiei Europene, cu ghid la ANCOM",
+            "major": false,
+            "article": "art. 8 alin. (1) și (3)"
+          },
+          {
+            "text": "Termen de 6 luni de la intrarea în vigoare pentru desemnare",
+            "major": false,
+            "article": "art. 10"
+          },
+          {
+            "text": "Același sediu desemnat sau reprezentant legal poate fi folosit de mai mulți furnizori",
+            "major": false,
+            "article": "art. 5 alin. (3)"
+          },
+          {
+            "text": "Cererile procurorilor români pot ajunge la reprezentantul din România, fără temeiuri noi de acces",
+            "major": false,
+            "article": "art. 2 lit. d)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 37,
+        "removed": 39,
+        "same": 0.61
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:39:07.916Z"
     }
   ]
 }

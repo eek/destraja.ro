@@ -1,8 +1,28 @@
 {
   "slug": "plx-331-2026",
   "billId": "PL-x 331/2026",
-  "updatedAt": "2026-10-30T09:19:30.745Z",
+  "updatedAt": "2026-11-11T13:27:19.602Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L183FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Institutul Levantului se numește acum „Institutul Levant pentru Cultura Păcii” și devine autonom",
+      "summaryTlDr": "Lege mică, fără efect direct pentru cetățeni sau firme: schimbă numele unui institut de diplomație culturală și actualizează trimiterea la salarizare. Singurul semn de întrebare este cuvântul „autonomă”, introdus fără nicio explicație și fără reguli despre cui răspunde instituția.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 2
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,62 +56,135 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
+      "from": "initiator",
+      "to": "senat",
       "direction": "la_fel",
-      "headline": "Camera a adoptat textul Senatului fără modificări de fond: același nume nou, statut și salarizare",
-      "summary": "Camera Deputaților a păstrat textul votat de Senat. Diferențele sunt doar de formulare legislativă. Institutul primește tot noul nume și statutul de instituție autonomă, iar salarizarea rămâne raportată la administrația centrală.",
+      "headline": "Senatul a adoptat textul inițiatorului fără schimbări de fond; institutul devine ILSACP, autonom",
+      "summary": "Senatul a păstrat textul inițiatorului: redenumirea în ILSACP, statutul de instituție autonomă și salarizarea ca la administrația centrală de specialitate. S-au schimbat doar formulări de tehnică legislativă, așa că riscurile rămân aceleași.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Salarizarea nu are fișă financiară și nici garanție că salariile actuale se păstrează",
+            "text": "„Se înființează” păstrat, fără normă de succesiune pentru patrimoniu, personal și contracte",
             "major": true,
-            "article": "art. 6 alin. (2)"
+            "article": "art. unic pct. 2 (art. 1 alin. (1))"
           },
           {
-            "text": "Statutul „autonomă” nu precizează ordonatorul de credite, controlul și relația cu Senatul",
-            "major": false,
-            "article": "art. 1 alin. (1)"
+            "text": "Nicio fișă financiară sau garanție că salariile aflate în plată se păstrează",
+            "major": true,
+            "article": "art. unic pct. 3 (art. 6 alin. (2))"
           },
           {
-            "text": "Expunerea de motive nu justifică schimbarea statutului institutului",
+            "text": "Autonomia e nedefinită: lipsesc ordonatorul de credite și raportul cu Senatul",
             "major": false,
-            "article": "art. 1 alin. (1)"
+            "article": "art. unic pct. 2 (art. 1 alin. (1))"
           },
           {
-            "text": "Formula „Se înființează” rămâne, fără o normă expresă de succesiune juridică",
+            "text": "Schimbarea de statut în instituție autonomă nu e explicată în expunerea de motive",
             "major": false,
-            "article": "art. 1 alin. (1)"
+            "article": "art. unic pct. 2 (art. 1 alin. (1))"
+          },
+          {
+            "text": "Noua misiune, cultura păcii, nu se reflectă în obiectivele institutului",
+            "major": false,
+            "article": "art. unic pct. 1 și 2"
+          },
+          {
+            "text": "Expunerea cere urgență, dar procedura de urgență nu s-a aplicat",
+            "major": false,
+            "article": null
           }
         ],
         "good": [
           {
-            "text": "Nu introduce taxe, obligații, sancțiuni sau sarcini pentru cetățeni ori IMM-uri",
+            "text": "Salarizarea are o referință clară: personalul contractual din administrația centrală de specialitate",
             "major": true,
-            "article": null
+            "article": "art. unic pct. 3 (art. 6 alin. (2))"
           },
           {
-            "text": "Costurile se limitează la schimbarea identității: ștampile, documente, site",
+            "text": "Institutul rămâne de interes național, cu personalitate juridică",
+            "major": false,
+            "article": "art. unic pct. 2 (art. 1 alin. (1))"
+          },
+          {
+            "text": "Intervenție scurtă: schimbă doar titlul, art. 1 alin. (1) și art. 6 alin. (2)",
             "major": false,
             "article": null
           },
           {
-            "text": "Salarizarea e legată explicit de o categorie din legislația salarizării publice",
+            "text": "Trimiterea la legea de bază menționează și modificările ulterioare",
             "major": false,
-            "article": "art. 6 alin. (2)"
+            "article": "art. unic"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 10,
-        "removed": 8,
-        "same": 0.09
+        "added": 7,
+        "removed": 6,
+        "same": 0.42
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:21:36.594Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:26:58.406Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a păstrat textul Senatului: doar schimbări de formulare, fără efect de fond",
+      "summary": "Camera Deputaților a adoptat același text ca Senatul. S-au schimbat doar formulări de tehnică legislativă și datele adoptării. Noul nume, statutul de instituție autonomă și regula de salarizare au rămas neschimbate.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Salariile actuale nu sunt garantate prin text și lipsește fișa financiară",
+            "major": true,
+            "article": "art. unic pct. 3 (art. 6 alin. 2)"
+          },
+          {
+            "text": "Statutul „autonomă” nu spune cine controlează institutul și cine gestionează creditele",
+            "major": false,
+            "article": "art. unic pct. 2 (art. 1 alin. 1)"
+          },
+          {
+            "text": "Formula „Se înființează” rămâne, fără o normă explicită de succesiune",
+            "major": false,
+            "article": "art. unic pct. 2 (art. 1 alin. 1)"
+          },
+          {
+            "text": "Schimbarea de statut nu este justificată în expunerea de motive",
+            "major": false,
+            "article": "art. unic pct. 2 (art. 1 alin. 1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu introduce taxe, obligații sau sancțiuni pentru cetățeni ori firme",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Costuri mici, doar pentru schimbarea numelui: ștampile, documente, site",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Salarizarea rămâne legată de grila legală a administrației centrale de specialitate",
+            "major": false,
+            "article": "art. unic pct. 3 (art. 6 alin. 2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 7,
+        "same": 0.42
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:27:19.602Z"
     }
   ]
 }

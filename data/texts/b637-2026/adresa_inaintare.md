@@ -1,0 +1,27 @@
+GRUPUL PARLAMENTAR U.D.M.R.
+
+Palatul Parlamentului, Str. Izvor 2-4, Sector V, Of. poștal 5, RO-70550 București Tel/fax: 004021-3142049; Tel: 004021-4021066, 4021067, e-mail: udmr@cdep.ro
+
+Nr: 65-21/288/10·11·2026
+
+## Către
+
+Biroul Permanent al Camerei Deputaților
+
+Biroul permanent al Camerei Deputaților Inițiative legislative
+
+Nr. 860 din 10.11.2026
+
+Biroul permanent al Senatului Bp 637..../14.14,2026
+
+În conformitate cu prevederile art. 74 alin. (1) din Constituția României, republicată, Vă înaintăm alăturat Propunerea legislativă pentru modificarea art. 13 din Ordonanță de urgență 49/2019 privind activitățile de transport alternativ cu autoturism și conducător auto, aprobată cu modificări și completări prin Legea nr. 204/2019
+
+În temeiul art. 118 alin. (1) din Regulamentul Camerei Deputaților și al art. 115 alin. (1) din Regulamentul Senatului, vă solicităm dezbaterea și adoptarea propunerii legislative în procedură de urgență.
+
+Inițiatori,
+
+Marko Attila-Găbor, deputat UDMR
+
+Molnar Andrei, deputat UDMR
+
+Novăk Levente, senator UDMR

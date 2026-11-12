@@ -1,8 +1,28 @@
 {
   "slug": "plx-377-2026",
   "billId": "PL-x 377/2026",
-  "updatedAt": "2026-10-30T09:25:53.407Z",
+  "updatedAt": "2026-11-11T13:37:58.415Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L242FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Cine administrează vânătoarea în zonă trebuie să anunțe primăria în 30 de zile",
+      "summaryTlDr": "Lege mică și utilă: primăriile află cine răspunde de fondul de vânătoare din comună, ceea ce le ușurează procedura de despăgubire pentru pagubele produse de animalele sălbatice. Textul e însă vag la detalii: nu spune de când curge termenul și ce se comunică, iar contractele deja în vigoare rămân neacoperite.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,84 +56,60 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
-      "direction": "mai_putin_riscant",
-      "headline": "Termenul de 30 de zile pentru notificarea primăriilor curge acum clar de la încheierea contractului",
-      "summary": "Inițial nu era clar de când curg cele 30 de zile și se admitea „orice mijloc”. Acum termenul curge de la contract și de la fiecare act adițional, iar căile de notificare sunt precizate, deci gestionarii știu clar când riscă amenda.",
-      "changes": [
-        {
-          "title": "Se știe de când curg cele 30 de zile",
-          "text": "La art. 9 alin. (1²), termenul de 30 de zile curge acum de la data încheierii contractului și de la data fiecărui act adițional. Inițial nu se preciza momentul de început.",
-          "effect": "mai_bine",
-          "major": false,
-          "article": "art. I pct. 1 (art. 9 alin. (1²))",
-          "before": "Gestionarul este obligat ca, în termen de cel mult 30 de zile, să înștiințeze unitățile administrativ-teritoriale pe raza cărora este situat fondul cinegetic",
-          "after": "în termen de cel mult 30 de zile de la data încheierii contractului de gestionare, prevăzut la alin. (1), precum și de la data fiecărui act adițional la acesta",
-          "beforeAbsent": false,
-          "afterAbsent": false
-        },
-        {
-          "title": "Căile de notificare sunt stabilite expres",
-          "text": "În loc de „orice mijloc de comunicare”, notificarea se face acum prin recomandată cu aviz, e-mail sau registratură. Sunt căi ieftine, care lasă dovadă.",
-          "effect": "mai_bine",
-          "major": false,
-          "article": "art. I pct. 1 (art. 9 alin. (1²))",
-          "before": "prin orice mijloc de comunicare",
-          "after": "Notificarea se transmite prin scrisoare recomandată cu aviz de primire, prin poștă electronică sau prin depunere directă la registratura unității administrativ-teritoriale.",
-          "beforeAbsent": false,
-          "afterAbsent": false
-        },
-        {
-          "title": "Obiectul notificării nu mai e menționat",
-          "text": "Inițial, primăria era înștiințată „despre încheierea contractului”. Acum textul spune doar că gestionarul notifică UAT-urile, fără să precizeze conținutul notificării.",
-          "effect": "neutru",
-          "major": false,
-          "article": "art. I pct. 1 (art. 9 alin. (1²))",
-          "before": "despre încheierea contractului prevăzut la alin.(1), precum și despre actele adiționale ale acestuia",
-          "after": "să notifice unitățile administrativ-teritoriale pe raza cărora este situat fondul cinegetic.",
-          "beforeAbsent": false,
-          "afterAbsent": false
-        }
-      ],
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițiatorului; s-a corectat doar o greșeală de punctuație",
+      "summary": "Senatul a adoptat același conținut: gestionarul fondului de vânătoare anunță primăriile în cel mult 30 de zile despre contract și actele adiționale, altfel primește amendă de 500–1.500 lei. Diferențele sunt doar de redactare.",
+      "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Contractele în derulare nu trebuie notificate decât la un nou act adițional",
+            "text": "Fără dispoziții tranzitorii, contractele deja semnate pot rămâne necomunicate primăriilor",
             "major": true,
-            "article": "art. I pct. 1 (art. 9 alin. (1²))"
+            "article": null
           },
           {
-            "text": "Legea nu spune ce trebuie să cuprindă notificarea",
+            "text": "Termenul de 30 de zile nu spune de la ce dată curge",
             "major": false,
             "article": "art. I pct. 1 (art. 9 alin. (1²))"
           },
           {
-            "text": "Nu se cere transmiterea unei copii a contractului de gestionare",
+            "text": "„Orice mijloc de comunicare” face greu de dovedit înștiințarea sau lipsa ei",
+            "major": false,
+            "article": "art. I pct. 1 (art. 9 alin. (1²))"
+          },
+          {
+            "text": "Se cere anunțarea contractului, nu datele de contact ale gestionarului",
+            "major": false,
+            "article": "art. I pct. 1 (art. 9 alin. (1²))"
+          },
+          {
+            "text": "Încetarea sau rezilierea contractului nu trebuie comunicată primăriilor",
             "major": false,
             "article": "art. I pct. 1 (art. 9 alin. (1²))"
           }
         ],
         "good": [
           {
-            "text": "Gestionarul trebuie să notifice toate primăriile pe raza cărora se află fondul",
+            "text": "Gestionarul trebuie să anunțe primăriile despre contract și actele adiționale",
             "major": true,
             "article": "art. I pct. 1 (art. 9 alin. (1²))"
           },
           {
-            "text": "Amenda de 500–1.500 lei este moderată, proporțională cu o obligație informativă",
+            "text": "Nerespectarea se amendează cu 500–1.500 lei, sancțiune proporțională",
             "major": true,
             "article": "art. I pct. 2 (art. 48 alin. (1) lit. b))"
           },
           {
-            "text": "Termenul de 30 de zile curge clar de la contract și fiecare act adițional",
+            "text": "Comunicarea prin orice mijloc e ieftină și simplă pentru gestionar",
             "major": false,
             "article": "art. I pct. 1 (art. 9 alin. (1²))"
           },
           {
-            "text": "Notificarea se poate face ieftin: recomandată, e-mail sau registratură",
+            "text": "Lista de contravenții are acum punctuația corectă între trimiteri",
             "major": false,
-            "article": "art. I pct. 1 (art. 9 alin. (1²))"
+            "article": "art. I pct. 2 (art. 48 alin. (1) lit. b))"
           },
           {
             "text": "Legea intră în vigoare la 30 de zile de la publicare",
@@ -125,12 +121,104 @@
       },
       "diff": {
         "added": 8,
-        "removed": 6,
-        "same": 0.2
+        "removed": 9,
+        "same": 0.27
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:26:59.603Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:37:10.183Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Termenul de 30 de zile pentru anunțarea primăriilor curge acum clar de la încheierea contractului",
+      "summary": "Acum legea spune de când curg cele 30 de zile în care gestionarul fondului de vânătoare anunță primăriile: de la încheierea contractului și de la fiecare act adițional. Anunțul se face prin recomandată, e-mail sau registratură. Amenda rămâne 500–1.500 lei.",
+      "changes": [
+        {
+          "title": "Termenul de 30 de zile curge de la contract",
+          "text": "Inițial nu se spunea de când curg cele 30 de zile. Acum curg de la încheierea contractului de gestionare și de la fiecare act adițional, deci gestionarul știe exact când riscă amenda.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. I pct. 1 (art. 9 alin. (1²))",
+          "before": "Gestionarul este obligat ca, în termen de cel mult 30 de zile, să înștiințeze unitățile administrativ-teritoriale",
+          "after": "în termen de cel mult 30 de zile de la data încheierii contractului de gestionare, prevăzut la alin. (1), precum și de la data fiecărui act adițional la acesta",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Primăriile se anunță prin recomandată, e-mail sau registratură",
+          "text": "Inițial era permis orice mijloc de comunicare. Acum notificarea merge doar prin recomandată cu aviz, e-mail sau registratură: tot ieftin, dar rămâne dovada că primăria a fost anunțată.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. I pct. 1 (art. 9 alin. (1²))",
+          "before": "prin orice mijloc de comunicare",
+          "after": "Notificarea se transmite prin scrisoare recomandată cu aviz de primire, prin poștă electronică sau prin depunere directă la registratura unității administrativ-teritoriale.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Nu se mai spune explicit despre ce e notificarea",
+          "text": "Inițial înștiințarea era despre încheierea contractului și actele adiționale. Acum textul cere doar notificarea primăriilor, tot fără să spună ce date trebuie să conțină.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. I pct. 1 (art. 9 alin. (1²))",
+          "before": "despre încheierea contractului prevăzut la alin.(1), precum și despre actele adiționale ale acestuia",
+          "after": "să notifice unitățile administrativ-teritoriale pe raza cărora este situat fondul cinegetic",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu se stabilește ce conține notificarea: date de contact, durata contractului",
+            "major": true,
+            "article": "art. I pct. 1 (art. 9 alin. (1²))"
+          },
+          {
+            "text": "Fără normă tranzitorie: contractele în derulare scapă până la un act adițional",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Legea nu cere trimiterea unei copii a contractului către primării",
+            "major": false,
+            "article": "art. I pct. 1 (art. 9 alin. (1²))"
+          }
+        ],
+        "good": [
+          {
+            "text": "Primăriile află cine gestionează fondul cinegetic de pe raza lor",
+            "major": true,
+            "article": "art. I pct. 1 (art. 9 alin. (1²))"
+          },
+          {
+            "text": "Amendă moderată, 500–1.500 lei, proporțională cu o obligație de informare",
+            "major": true,
+            "article": "art. I pct. 2 (art. 48 alin. (1) lit. b))"
+          },
+          {
+            "text": "Termen clar: 30 de zile de la contract și de la fiecare act adițional",
+            "major": false,
+            "article": "art. I pct. 1 (art. 9 alin. (1²))"
+          },
+          {
+            "text": "Căi de notificare ieftine și cu dovadă: recomandată, e-mail sau registratură",
+            "major": false,
+            "article": "art. I pct. 1 (art. 9 alin. (1²))"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 5,
+        "same": 0.5
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:37:58.415Z"
     }
   ]
 }

@@ -1,8 +1,28 @@
 {
   "slug": "plx-340-2026",
   "billId": "PL-x 340/2026",
-  "updatedAt": "2026-10-30T09:21:41.287Z",
+  "updatedAt": "2026-11-11T13:32:54.925Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L215FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Adaosul plafonat la alimentele de bază: încă 3 luni, iar procesatorii ies din plafon",
+      "summaryTlDr": "Este o prelungire de rutină a plafonării adaosului comercial, cu o schimbare discretă: procesatorii scapă de plafon, iar importatorii și comercianții rămân sub el. Măsura e utilă social pe termen scurt, dar a ajuns la trei ani de «măsură temporară» prin OUG, cu o motivare reciclată și cu riscul de a trata mai dur produsele aduse din alte state UE.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,15 +56,94 @@
   ],
   "changes": [
     {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără schimbări de fond; plafonul rămâne până la 30 iunie 2026",
+      "summary": "Senatul a aprobat ordonanța așa cum a venit de la Guvern. S-au schimbat doar formula de adoptare și trimiterea la Monitorul Oficial. Plafonul de prețuri rămâne prelungit până la 30 iunie 2026, fără procesatori.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Încă o prelungire a unei plafonări „temporare” în vigoare din 2023",
+            "major": true,
+            "article": "art. 8 din OUG 67/2023"
+          },
+          {
+            "text": "Vânzătorii neînregistrați în România, care vând direct românilor, scapă de plafon",
+            "major": true,
+            "article": "art. 2 din OUG 67/2023"
+          },
+          {
+            "text": "Nicio cifră sau evaluare care să arate efectul plafonului asupra prețurilor",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Justificarea folosește date vechi; scăderea „drastică” a consumului nu are sursă",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Fără analiză a efectului asupra IMM-urilor din distribuție și retail",
+            "major": false,
+            "article": "art. 2 din OUG 67/2023"
+          },
+          {
+            "text": "Risc ca plafonul să devină prețul de referință pe care se aliniază toți",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Urgența a fost creată de Guvern: OUG adoptată în ultima zi",
+            "major": false,
+            "article": "art. 8 din OUG 67/2023"
+          }
+        ],
+        "good": [
+          {
+            "text": "Plafonul pentru unele produse agricole și alimentare continuă până la 30 iunie 2026",
+            "major": true,
+            "article": "art. 8 din OUG 67/2023"
+          },
+          {
+            "text": "Procesatorii ies din plafonare, pentru a ușura presiunea pe producție și procesare",
+            "major": true,
+            "article": "art. 2 din OUG 67/2023"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:31:07.091Z"
+    },
+    {
       "from": "senat",
       "to": "camera",
       "direction": "mai_riscant",
-      "headline": "Camera prelungește plafonarea adaosului până la 31 decembrie 2026 și limitează la 2% comisionul la tichete",
-      "summary": "Inițial, Senatul aproba ordonanța fără modificări. Acum, plafonarea durează până la final de 2026, comisionul la tichete e limitat la 2%, iar sancțiunile vizează doar distribuitorii și comercianții. Unele reguli noi sunt greu de aplicat.",
+      "headline": "Plafonarea adaosului la alimente ține până la 31 decembrie 2026, cu 6 luni peste cererea Guvernului",
+      "summary": "Camera prelungește plafonarea adaosului la unele produse alimentare până la 31 decembrie 2026, cu 6 luni peste cererea Guvernului și fără studiu de impact. Adaugă un comision de cel mult 2% la tichete și rescrie sancțiunea, care nu-i numește pe importatori.",
       "changes": [
         {
-          "title": "Comision de maximum 2% la tichetele de masă",
-          "text": "Art. 6 limitează la 2% comisionul emitenților de tichete, inclusiv Sprijin pentru România, doar pentru produsele din anexă. Nu e clar cum se separă produsele și nu există sancțiune.",
+          "title": "Plafonarea adaosului comercial ține până la 31 decembrie 2026",
+          "text": "Art. 8 din OUG 67/2023: măsura se aplică până la 31 decembrie 2026, nu până la 30 iunie, adică 6 luni peste cât a cerut Guvernul, fără studiu de impact.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 8",
+          "before": null,
+          "after": "Art. 8. - Prezenta ordonanță de urgență se aplică până la data de 31 decembrie 2026 inclusiv.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Comision de cel mult 2% la tichetele de masă",
+          "text": "Art. 6: emitenții de tichete de masă, cadou și sociale, inclusiv Sprijin pentru România, pot cere comercianților cel mult 2%, doar la produsele din anexă. Nu e clar cum se separă coșul; nu apare sancțiune.",
           "effect": "mai_bine",
           "major": true,
           "article": "art. 6",
@@ -54,8 +153,8 @@
           "afterAbsent": false
         },
         {
-          "title": "Amenda vizează doar distribuitorii și comercianții",
-          "text": "Noul art. 7 alin. (1) sancționează doar distribuitorii și comercianții, deși art. 2 include și importatorii. Pentru aceștia, obligația rămâne fără sancțiune clară.",
+          "title": "Contravenția pentru adaos vizează doar distribuitori și comercianți",
+          "text": "Art. 7 alin. (1): depășirea adaosului e contravenție doar pentru distribuitori sau comercianți la amănunt și cash&carry. Importatorii, incluși în plafon la art. 2, nu sunt numiți, deci sancțiunea lor e neclară.",
           "effect": "mai_rau",
           "major": true,
           "article": "art. 7 alin. (1)",
@@ -65,98 +164,87 @@
           "afterAbsent": false
         },
         {
-          "title": "Procesatorii scot definitiv din regula de adaos",
-          "text": "Art. 3 alin. (1) lit. a) se abrogă. Este corelarea cu scoaterea procesatorilor din art. 2, care lipsea în ordonanță.",
-          "effect": "mai_bine",
-          "major": true,
+          "title": "O cotă de adaos din art. 3 se abrogă",
+          "text": "Art. 3 alin. (1) lit. a) se abrogă, fără ca textul să spună ce prevedea; pare corelarea cu scoaterea procesatorilor din plafonare.",
+          "effect": "neutru",
+          "major": false,
           "article": "art. 3 alin. (1) lit. a)",
           "before": null,
-          "after": "1¹. La articolul 3 alineatul (1), litera a) se abrogă.",
+          "after": "La articolul 3 alineatul (1), litera a) se abrogă.",
           "beforeAbsent": true,
-          "afterAbsent": false
-        },
-        {
-          "title": "Plafonarea prețurilor durează până la 31 decembrie 2026",
-          "text": "Art. 8: termenul trece de la 30 iunie la 31 decembrie 2026. Parlamentul dublează prelungirea cerută de Guvern, fără studiu de impact.",
-          "effect": "mai_rau",
-          "major": false,
-          "article": "art. 8",
-          "before": "Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.22 din 31 martie 2026 pentru modificarea Ordonanței de urgență a Guvernului nr.67/2023",
-          "after": "Art. 8. - Prezenta ordonanță de urgență se aplică până la data de 31 decembrie 2026 inclusiv.",
-          "beforeAbsent": false,
           "afterAbsent": false
         }
       ],
       "remaining": {
         "problems": [
           {
-            "text": "Depășirea comisionului de 2% la tichete nu are nicio sancțiune prevăzută",
+            "text": "Prelungire până la 31 decembrie 2026, fără studiu de impact pentru cele 6 luni",
+            "major": true,
+            "article": "art. 8"
+          },
+          {
+            "text": "Importatorii și comerțul intracomunitar sunt în plafon, dar nu în contravenția din art. 7",
+            "major": true,
+            "article": "art. 2, art. 7 alin. (1)"
+          },
+          {
+            "text": "Emitentul tichetelor nu vede coșul, deci plafonul de 2% pe anexă e neclar",
             "major": true,
             "article": "art. 6"
           },
           {
-            "text": "Emitentul de tichete nu vede coșul, deci nu poate separa produsele plafonate",
+            "text": "Depășirea comisionului de 2% nu are sancțiune prevăzută în text",
             "major": true,
             "article": "art. 6"
           },
           {
-            "text": "Importatorii au obligația de plafonare, dar contravenția nu îi vizează clar",
-            "major": true,
-            "article": "art. 7 alin. (1)"
-          },
-          {
-            "text": "Vânzătorii neînregistrați în România scapă de plafon, spre deosebire de comercianții locali",
+            "text": "Vânzătorii neînregistrați în România care vând direct românilor rămân în afara măsurii",
             "major": true,
             "article": "art. 2"
           },
           {
-            "text": "Prelungire de 6 luni fără studiu de impact; măsura temporară devine practic permanentă",
+            "text": "Măsură temporară din 2023, prelungită repetat, fără date despre efectul asupra prețurilor",
             "major": false,
             "article": "art. 8"
           },
           {
-            "text": "Efectul plafonului asupra prețurilor la raft este afirmat fără date sau evaluare",
+            "text": "Preambul cu date vechi; scăderea drastică a consumului în 2025-2026 nu are sursă",
             "major": false,
-            "article": "art. 8"
+            "article": "preambulul OUG 22/2026"
           },
           {
-            "text": "Preambulul se bazează pe date vechi, iar scăderea consumului nu are sursă",
+            "text": "Până la intrarea în vigoare a legii, OUG a funcționat cu norme necorelate",
             "major": false,
-            "article": null
-          },
-          {
-            "text": "Ordonanța a funcționat cu norme necorelate până la intrarea în vigoare a legii",
-            "major": false,
-            "article": "art. 3"
+            "article": "art. 3 alin. (1)"
           }
         ],
         "good": [
           {
-            "text": "Comisionul la tichete pentru alimentele plafonate este limitat la 2% pentru comercianți",
+            "text": "Comision de cel mult 2% la tichetele de masă, cadou și sociale",
             "major": true,
             "article": "art. 6"
           },
           {
-            "text": "Abrogarea corelează regula de adaos cu scoaterea procesatorilor din plafonare",
-            "major": true,
-            "article": "art. 3 alin. (1) lit. a)"
-          },
-          {
-            "text": "Procesatorii ies din plafonare, ca sprijin pentru producție și procesare",
+            "text": "Procesatorii ies din plafonare, cu justificare explicită: sprijin pentru producție",
             "major": true,
             "article": "art. 2"
+          },
+          {
+            "text": "Abrogarea art. 3 alin. (1) lit. a) corectează corelarea pentru procesatori",
+            "major": false,
+            "article": "art. 3 alin. (1)"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 11,
-        "removed": 3,
+        "added": 12,
+        "removed": 4,
         "same": 0
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:23:43.179Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:32:54.925Z"
     }
   ]
 }

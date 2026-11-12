@@ -1,0 +1,27 @@
+## AVIZ
+
+## asupra propunerii legislative privind instituirea zilei de 26 septembrie ca Ziua Munților Carpați – L626/2026
+
+În temeiul prevederilor art. 35 alin.(1) și ale art. 70 din Regulamentul Senatului, republicat, Comisia permanentă comună a Camerei Deputaților și Senatului pentru relația cu UNESCO a fost sesizată, pentru dezbatere și avizare, cu propunerea legislativă privind instituirea zilei de 26 septembrie ca Ziua Munților Carpați – L626/2026.
+
+Conform prevederilor art. 75 din Constituția României, republicată, Camera Deputaților este Cameră decizională.
+
+Potrivit expunerii de motive a propunerii legislative, obiectul de reglementare prevede instituirea zilei de 26 septembrie ca Ziua Muntilor Carpați, precum și stabilirea posibilității organizării unor evenimente dedicate acesteia și a sprijinirii lor logistice și financiare de către autoritățile administrației publice centrale și locale, în limita alocărilor bugetare aprobate.
+
+Membrii Comisiei, în ședința din 11 noiembrie 2026, au analizat propunerea legislativă supusă avizării, expunerea de motive, avizul favorabil al Consiliului Legislativ, cu observații și propuneri, transmis cu adresa nr. 887 din 21.10.2026, avizul negativ al Consiliului Economic și Social, transmis cu adresa nr. 6732 din 19.10.2026.
+
+În urma dezbaterilor, membrii Comisiei au hotărât, cu majoritate de voturi (2 abțineri), avizarea favorabilă a propunerii legislative privind instituirea zilei de 26 septembrie ca Ziua Munților Carpați – L626/2026.
+
+Președinte
+
+Deputat Dumjtrita Gliga
+
+p.Secretar
+
+Senator Eugen- Remus Negoi
+
+Către,
+
+Comisia pentru cultură Comisia pentru cultură și media Președinte Senator Gheorghe-loan Bota
+
+Comisia pentru administrație publică Președinte Senator Csaszar Kăroly Zsolt

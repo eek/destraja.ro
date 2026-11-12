@@ -1,8 +1,28 @@
 {
   "slug": "plx-497-2026",
   "billId": "PL-x 497/2026",
-  "updatedAt": "2026-10-30T09:31:55.821Z",
+  "updatedAt": "2026-11-11T14:00:45.155Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L419FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Clădiri publice recepționate și plătite cu până la 5% din lucrări încă neterminate",
+      "summaryTlDr": "Lege tehnică, utilă pentru finalul PNRR: rezolvă un blocaj real la recepția școlilor, spitalelor și clădirilor renovate. Însă scoate Inspectoratul de Stat în Construcții din recepția care contează și lasă decizia unei comisii în care investitorul poate avea singur majoritatea, iar redactarea neglijentă slăbește limitele de 5% și 120 de zile.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 4
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,23 +56,23 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
+      "from": "initiator",
+      "to": "senat",
       "direction": "la_fel",
-      "headline": "Camera a făcut doar corecturi de redactare; regulile de recepție parțială au rămas aceleași",
-      "summary": "În diferențele disponibile, acum apar doar corecturi de formă: diacritice, greșeli de tipar, renumerotări și citări actualizate. Regulile de fond, inclusiv problemele privind controlul ISC și comisia dominată de investitor, au rămas neschimbate.",
+      "headline": "Senatul n-a schimbat fondul: ISC rămâne absent de la recepția lucrărilor esențiale",
+      "summary": "Senatul a corectat doar trimiteri, numerotări și formulări; regulile au rămas aceleași ca inițial. Riscurile persistă: ISC nu participă la recepția lucrărilor esențiale, iar investitorul poate controla comisia.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "ISC lipsește de la recepția lucrărilor esențiale; nicio verificare specifică în cele 120 de zile",
+            "text": "ISC lipsește de la recepția lucrărilor esențiale; participă doar la recepția finală",
             "major": true,
-            "article": "art. 7 alin. (6)"
+            "article": "art. 7 alin. (6) lit. a)"
           },
           {
-            "text": "Investitorul numește președintele și specialiștii, deci poate controla majoritatea comisiei",
+            "text": "Investitorul numește președintele și specialiștii, deci poate avea singur majoritatea în comisie",
             "major": true,
-            "article": "art. 7 alin. (7) și (10)"
+            "article": "art. 7 alin. (7) și (9)"
           },
           {
             "text": "Pragul de 5% e raportat o dată la contract, altă dată la investiție",
@@ -60,51 +80,41 @@
             "article": "art. 4 alin. (3) lit. d), art. 8 alin. (2) lit. d)"
           },
           {
-            "text": "Definiția lucrărilor auxiliare e generală, fără listă clară a lucrărilor excluse",
-            "major": true,
-            "article": "art. 3 lit. b)"
-          },
-          {
-            "text": "Fără instrucțiuni ministeriale opționale, legea nu se aplică investițiilor din afara PNRR",
+            "text": "Instrucțiunile sunt opționale, dar fără ele legea se aplică doar proiectelor PNRR",
             "major": true,
             "article": "art. 18 alin. (1)"
           },
           {
-            "text": "Recepția pe faze la calea ferată se face fără ISC, cu comisie numită de investitor",
-            "major": true,
-            "article": "art. 17 alin. (3)"
+            "text": "Termenul de 120 de zile se poate prelungi fără limită, pentru „alte cauze”",
+            "major": false,
+            "article": "art. 8 alin. (3)"
           },
           {
-            "text": "Condiția de funcționalitate se cere doar la punerea în funcțiune, contrar definiției",
+            "text": "Lucrările auxiliare sunt definite vag, fără lista din expunerea de motive",
             "major": false,
-            "article": "art. 8 alin. (2) lit. c)"
+            "article": "art. 3 lit. b)"
           },
           {
-            "text": "Termenul de 120 de zile se poate prelungi pentru cauze vagi, fără limită maximă",
+            "text": "Adeverința de plată a cotelor către ISC se eliberează abia la final",
             "major": false,
-            "article": "art. 8 alin. (3), art. 11 alin. (5)"
-          },
-          {
-            "text": "Interzicerea extinderii atribuțiilor de control prin interpretare limitează intervenția autorităților",
-            "major": false,
-            "article": "art. 1 alin. (4)"
-          },
-          {
-            "text": "Clauză vagă de interpretare corelată a dispozițiilor contrare",
-            "major": false,
-            "article": "art. 18 alin. (6)"
+            "article": "art. 7 alin. (6) lit. b)"
           }
         ],
         "good": [
           {
-            "text": "Clădirea nu poate fi folosită dacă lipsesc condițiile pentru punerea în funcțiune",
+            "text": "Lucrările amânate nu pot afecta calitatea, siguranța sau securitatea la incendiu",
             "major": true,
-            "article": "art. 9 alin. (3)"
+            "article": "art. 7 alin. (4)-(5)"
           },
           {
-            "text": "Utilizarea e permisă doar cu toate instalațiile de securitate la incendiu funcționale",
+            "text": "Clădirile supuse avizului de incendiu se folosesc doar cu instalațiile de incendiu funcționale",
             "major": true,
             "article": "art. 10 alin. (3)"
+          },
+          {
+            "text": "Recepția doar pentru plată nu permite folosirea clădirii până la final",
+            "major": true,
+            "article": "art. 9 alin. (2)-(3)"
           },
           {
             "text": "Fără certificat de edificare sau intabulare până la finalizarea tuturor lucrărilor",
@@ -112,22 +122,130 @@
             "article": "art. 11 alin. (6)"
           },
           {
-            "text": "O parte din garanția de bună execuție se reține până la finalizarea lucrărilor auxiliare",
+            "text": "Amenzi pentru încadrare nelegală, lucrări nefinalizate la termen și neregularizare",
+            "major": true,
+            "article": "art. 15 alin. (3)-(4)"
+          },
+          {
+            "text": "O parte din garanția de bună execuție rămâne reținută până la final",
             "major": true,
             "article": "art. 14 alin. (3)"
           },
           {
-            "text": "Amenzi pentru încadrare nelegală, nefinalizare la termen și neregularizare",
-            "major": true,
-            "article": "art. 15 alin. (3) și (4)"
-          },
-          {
-            "text": "Regularizare financiară completă în 30 de zile, cu dobânzi și penalități",
+            "text": "Regularizarea completă a taxelor și cotelor, cu dobânzi și penalități la întârziere",
             "major": true,
             "article": "art. 13"
           },
           {
+            "text": "Fiecare participant răspunde distinct pentru încadrarea lucrărilor",
+            "major": true,
+            "article": "art. 6 alin. (1)"
+          },
+          {
+            "text": "Lipsa racordului electric definitiv nu blochează recepția, dacă nu e vina părților",
+            "major": true,
+            "article": "art. 10 alin. (1)-(2)"
+          },
+          {
             "text": "Mecanismul e opțional și excepțional; regula rămâne recepția unitară",
+            "major": false,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Specialiștii din comisie nu pot fi cei care au proiectat sau executat lucrarea",
+            "major": false,
+            "article": "art. 7 alin. (7) lit. c)"
+          },
+          {
+            "text": "Legea nu poate crea prin interpretare noi atribuții de control sau sancționare",
+            "major": false,
+            "article": "art. 1 alin. (4)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 42,
+        "removed": 48,
+        "same": 0.79
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:59:49.148Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a votat același text ca Senatul, doar cu corecturi de redactare",
+      "summary": "Camera Deputaților a păstrat fondul textului votat de Senat. S-au corectat doar greșeli de scriere și de scanare, diacritice și numerotarea alineatelor din art. 7. Regulile, pragul de 5%, termenele și amenzile au rămas aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "ISC verifică doar la final; în cele 120 de zile nu e control specific",
+            "major": true,
+            "article": "art. 7 alin. (6)"
+          },
+          {
+            "text": "Investitorul numește președintele și specialiștii, putând controla majoritatea comisiei de recepție",
+            "major": true,
+            "article": "art. 7 alin. (7) și (10)"
+          },
+          {
+            "text": "Pragul de 5% se raportează la contract, apoi la investiție: limite neclare",
+            "major": true,
+            "article": "art. 4 alin. (3) lit. d), art. 8 alin. (2) lit. d)"
+          },
+          {
+            "text": "Fără instrucțiuni ministeriale, opționale, legea nu se aplică surselor din afara PNRR",
+            "major": true,
+            "article": "art. 18 alin. (1)"
+          },
+          {
+            "text": "Neafectarea funcționalității se cere doar la punerea în funcțiune, contrar definiției",
+            "major": false,
+            "article": "art. 8 alin. (2) lit. c)"
+          },
+          {
+            "text": "Lucrările auxiliare au o definiție generală, fără listă de lucrări permise",
+            "major": false,
+            "article": "art. 3 lit. b)"
+          },
+          {
+            "text": "Termenul de 120 de zile poate fi depășit fără o limită maximă",
+            "major": false,
+            "article": "art. 8 alin. (3), art. 11 alin. (5)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Clădirea se folosește doar dacă instalațiile de securitate la incendiu funcționează integral",
+            "major": true,
+            "article": "art. 10 alin. (3)"
+          },
+          {
+            "text": "Fără certificat de edificare sau intabulare până la terminarea tuturor lucrărilor",
+            "major": true,
+            "article": "art. 11 alin. (6)"
+          },
+          {
+            "text": "O parte din garanția de bună execuție rămâne reținută până la final",
+            "major": true,
+            "article": "art. 14 alin. (3)"
+          },
+          {
+            "text": "Amenzi pentru încadrare greșită și pentru nefinalizarea lucrărilor auxiliare la termen",
+            "major": true,
+            "article": "art. 15 alin. (3) și (4)"
+          },
+          {
+            "text": "Regularizarea taxelor și cotelor în 30 de zile, cu dobânzi și penalități",
+            "major": true,
+            "article": "art. 13 alin. (3) și (4)"
+          },
+          {
+            "text": "Mecanismul e opțional și excepțional; regula rămâne recepția unică după finalizare",
             "major": false,
             "article": "art. 2 alin. (3), art. 7 alin. (2)"
           },
@@ -137,26 +255,36 @@
             "article": "art. 7 alin. (7) lit. c)"
           },
           {
-            "text": "Răspundere stabilită diferențiat pentru fiecare participant la încadrarea lucrărilor",
+            "text": "Răspunderea pentru încadrarea lucrărilor e împărțită clar între proiectanți, executant și beneficiar",
             "major": false,
             "article": "art. 6"
           },
           {
-            "text": "Lucrările auxiliare nefinalizate trebuie identificate distinct tehnic, fizic și valoric",
+            "text": "Lucrările nefinalizate se consemnează separat, tehnic și valoric, în procesul-verbal",
             "major": false,
-            "article": "art. 8 alin. (2) lit. d), art. 11 alin. (4)"
+            "article": "art. 8 alin. (4), art. 11 alin. (4)"
+          },
+          {
+            "text": "Lucrările auxiliare trebuie terminate, ca regulă, în cel mult 120 de zile",
+            "major": false,
+            "article": "art. 8 alin. (3)"
+          },
+          {
+            "text": "Dacă clădirea nu poate fi pusă în funcțiune, recepția servește doar plăților",
+            "major": false,
+            "article": "art. 9 alin. (2)–(4)"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 84,
-        "removed": 74,
-        "same": 0.6
+        "added": 45,
+        "removed": 35,
+        "same": 0.79
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:32:49.516Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T14:00:45.154Z"
     }
   ]
 }

@@ -1,7 +1,12 @@
 {
   "slug": "plx-483-2026",
   "billId": "Pl-x 483/2026",
-  "updatedAt": "2026-10-30T09:30:16.496Z",
+  "updatedAt": "2026-11-11T13:55:50.960Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -32,6 +37,21 @@
         "claude": 3,
         "codex": 3
       }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L469FS.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Directorii și inspectorii școlari predau iar mai puține ore (plus o amânare strecurată în text)",
+      "summaryTlDr": "Scopul e rezonabil: directorii și inspectorii scapă de norma de predare mărită în 2025 ca măsură de economie, ceea ce le lasă timp pentru conducerea școlilor. Problemele țin de forma legii: un cost bugetar fără sursă de finanțare în text, o amânare de termen (art. II) care nu spune ce amână și intrarea în vigoare în 3 zile, prin derogare de la regula de stabilitate din chiar legea educației.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 3
+      }
     }
   ],
   "changes": [
@@ -39,12 +59,12 @@
       "from": "initiator",
       "to": "camera",
       "direction": "mai_riscant",
-      "headline": "Camera adaugă amânarea neexplicată a unui termen din Legea 198/2023 și grăbește intrarea în vigoare",
-      "summary": "Acum legea amână până la 1 septembrie 2027 un termen din Legea 198/2023 fără să spună ce se amână și intră în vigoare la 3 zile, nu la 5. Excepția de la interdicția plății cu ora e restrânsă la zone izolate geografic și lingvistic.",
+      "headline": "Camera a adăugat amânarea până în 2027 a unui termen din legea învățământului, fără să spună care",
+      "summary": "Acum legea amână până la 1 septembrie 2027 o prevedere din legea învățământului, fără să spună care, și intră în vigoare în 3 zile în loc de 5, prin derogare. Excepția de la interdicția plății cu ora se restrânge la zone izolate geografic și lingvistic.",
       "changes": [
         {
-          "title": "Amânare până în 2027 a unui termen neprecizat",
-          "text": "Prevedere nouă (art. II): termenul din art. 248 alin. (23) din Legea 198/2023 se prorogă până la 1 septembrie 2027. Textul nu spune ce măsură se amână.",
+          "title": "Amânare până în 2027 a unui termen nenumit",
+          "text": "Art. II nou prorogă până la 1 septembrie 2027 termenul din art. 248 alin. (23) din Legea 198/2023. Textul nu spune ce prevedere se amână, iar Expunerea de motive nu explică măsura.",
           "effect": "mai_rau",
           "major": false,
           "article": "art. II",
@@ -54,8 +74,8 @@
           "afterAbsent": false
         },
         {
-          "title": "Legea intră în vigoare mai repede: 3 zile",
-          "text": "Termenul de intrare în vigoare scade de la 5 la 3 zile, prin derogare de la art. 10 alin. (2) din Legea 198/2023. Școlile au și mai puțin timp să refacă încadrările (art. IV).",
+          "title": "Legea intră în vigoare în 3 zile, nu 5",
+          "text": "Art. IV scurtează intrarea în vigoare de la 5 la 3 zile și derogă expres de la art. 10 alin. (2) din Legea 198/2023. Rămâne și mai puțin timp pentru refacerea încadrărilor în timpul anului școlar.",
           "effect": "mai_rau",
           "major": false,
           "article": "art. IV",
@@ -65,13 +85,13 @@
           "afterAbsent": false
         },
         {
-          "title": "Excepția pentru plata cu ora, restrânsă la zone izolate",
-          "text": "Excepția de la interdicția plății cu ora se aplică acum doar în zone „izolate geografic și lingvistic”, nu în orice „zone izolate” (art. I pct. 2, art. 208 alin. 11²).",
+          "title": "Excepția pentru zone izolate devine mai restrânsă",
+          "text": "Art. I pct. 2 (alin. 11²) permite plata cu ora pentru personalul degrevat doar în zone izolate „geografic și lingvistic”, nu în orice zonă izolată. Noțiunea rămâne însă fără definiție sau criterii.",
           "effect": "mai_bine",
           "major": false,
           "article": "art. I pct. 2 (art. 208 alin. 11²)",
-          "before": "(11²) Prin excepție de la prevederile alin. (11¹), se poate aproba efectuarea de activități în regim de plata cu ora, în unități de învățământ preuniversitar din zone izolate, cu aprobarea consiliului de administrație al inspectoratului școlar județean.",
-          "after": "(11²) Prin excepție de la prevederile alin. (11¹), se poate aproba efectuarea de activități în regim de plată cu ora, în unități de învățământ preuniversitar din zone izolate geografic și lingvistic, cu aprobarea consiliului de administrație al inspectoratului școlar județean.",
+          "before": "în unități de învățământ preuniversitar din zone izolate, cu aprobarea consiliului de administrație al inspectoratului școlar județean.",
+          "after": "în unități de învățământ preuniversitar din zone izolate geografic și lingvistic, cu aprobarea consiliului de administrație al inspectoratului școlar județean.",
           "beforeAbsent": false,
           "afterAbsent": false
         }
@@ -79,68 +99,170 @@
       "remaining": {
         "problems": [
           {
-            "text": "Degrevare plătită din bani publici pentru persoane desemnate de sindicate, fără limită numerică",
+            "text": "Predarea personalului degrevat plafonată la 40%: degrevare mult peste limitele din art. LIX",
             "major": true,
             "article": "art. I pct. 1 (art. 208 alin. 11)"
           },
           {
-            "text": "Revenirea la degrevări mai mari depinde de ordinul ministrului, nu e automată",
+            "text": "Abrogarea art. LIX elimină plafoanele de 30% și 50% pentru directori și inspectori",
+            "major": true,
+            "article": "art. III"
+          },
+          {
+            "text": "Procentele efective de degrevare nu sunt în lege, le stabilește ordinul ministrului",
             "major": true,
             "article": "art. I pct. 1 (art. 208 alin. 11)"
           },
           {
-            "text": "Nu e clar dacă plafonul de 40% se aplică și persoanelor desemnate de sindicate",
-            "major": false,
+            "text": "Degrevare plătită public pentru desemnați sindicali, fără număr maxim sau plafon clar",
+            "major": true,
             "article": "art. I pct. 1 (art. 208 alin. 11)"
           },
           {
-            "text": "Excepția pentru zone izolate nu are definiție, criterii sau plafon de ore",
+            "text": "Zonele izolate geografic și lingvistic nu au definiție, criterii sau plafon de ore",
             "major": false,
             "article": "art. I pct. 2 (art. 208 alin. 11²)"
           },
           {
-            "text": "Prorogarea termenului din art. 248 alin. (23) nu spune ce amână și nu e motivată",
+            "text": "Se amână un termen din legea învățământului fără a spune ce prevedere",
             "major": false,
             "article": "art. II"
           },
           {
-            "text": "Intrare în vigoare la 3 zile, fără dispoziții tranzitorii, în timpul anului școlar",
+            "text": "Intrare în vigoare în 3 zile, fără dispoziții tranzitorii, în timpul anului școlar",
             "major": false,
             "article": "art. IV"
           }
         ],
         "good": [
           {
-            "text": "Abrogă limitele de degrevare de 30% pentru directori și 50% pentru inspectori",
-            "major": true,
-            "article": "art. III"
-          },
-          {
-            "text": "Predarea personalului degrevat este plafonată la cel mult 40% din normă",
-            "major": true,
-            "article": "art. I pct. 1 (art. 208 alin. 11)"
-          },
-          {
-            "text": "Personalul degrevat nu poate preda plătit cu ora sau prin cumul",
+            "text": "Personalul degrevat nu mai poate fi plătit cu ora sau prin cumul",
             "major": true,
             "article": "art. I pct. 2 (art. 208 alin. 11¹)"
           },
           {
-            "text": "Excepția de la interdicție este limitată la zone izolate geografic și lingvistic",
+            "text": "Excepția de la interdicție cere aprobarea consiliului de administrație al ISJ",
             "major": false,
             "article": "art. I pct. 2 (art. 208 alin. 11²)"
+          },
+          {
+            "text": "Atribuțiile desemnaților sindicali degrevați trebuie stabilite prin ordinul ministrului",
+            "major": false,
+            "article": "art. I pct. 1 (art. 208 alin. 11)"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 10,
-        "removed": 10,
-        "same": 0.29
+        "added": 9,
+        "removed": 7,
+        "same": 0.44
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:31:25.203Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:54:46.353Z"
+    },
+    {
+      "from": "camera",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Conducerea inspectoratelor școlare poate preda cel mult 30% din normă, iar limita de 40% e formulată clar",
+      "summary": "Acum limita de 40% privește clar orele de predare ale celor degrevați parțial. Pentru conducerea inspectoratelor scade la 30%, cu rotunjire în minus. Rămân problemele: zone izolate nedefinite, degrevări sindicale fără plafon, termen prorogat neexplicat.",
+      "changes": [
+        {
+          "title": "Conducerea inspectoratelor poate preda cel mult 30%",
+          "text": "Art. 208 alin. (11): pentru conducerea inspectoratelor școlare, plafonul de predare scade de la 40% la 30% din normă. Degrevarea lor poate fi deci mai mare decât a directorilor de școli.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. I pct. 1 (art. 208 alin. 11)",
+          "before": "Obligațiile de predare-învățare-evaluare și de practică pedagogică aferente normei didactice degrevate nu pot depăși 40% din norma didactică.",
+          "after": "nu poate depăși 40% din norma didactică prevăzută de art.207 alin.(4), respectiv 30% în cazul personalului didactic de conducere din inspectoratele școlare.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Limita de 40% se aplică clar celor degrevați parțial",
+          "text": "Art. 208 alin. (11): inițial, limita de 40% privea neclar obligațiile „aferente normei degrevate”. Acum privește norma de predare a celor degrevați parțial, raportată la art. 207 alin. (4).",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. I pct. 1 (art. 208 alin. 11)",
+          "before": "Obligațiile de predare-învățare-evaluare și de practică pedagogică aferente normei didactice degrevate nu pot depăși 40% din norma didactică.",
+          "after": "pentru personalul didactic de conducere, de îndrumare și control degrevat parțial nu poate depăși 40% din norma didactică prevăzută de art.207 alin.(4)",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Orele fracționare se rotunjesc în jos",
+          "text": "Art. 208 alin. (11): fracțiunile de oră rezultate din procente se rotunjesc în minus. La o normă de 18 ore, înseamnă cel mult 7 ore de predare (40%) sau 5 ore (30%).",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. I pct. 1 (art. 208 alin. 11)",
+          "before": null,
+          "after": "Fracțiunile de oră rezultate din aplicarea acestor procente se rotunjesc în minus, până la ora întreagă.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "„Zone izolate geografic și lingvistic” nedefinite, fără criterii sau plafon de ore",
+            "major": true,
+            "article": "art. I pct. 2 (art. 208 alin. 11²)"
+          },
+          {
+            "text": "Degrevare pentru delegați sindicali fără plafon numeric, stabilită doar prin ordin",
+            "major": true,
+            "article": "art. I pct. 1 (art. 208 alin. 11)"
+          },
+          {
+            "text": "Sindicatele sunt consultate la normele care îi privesc pe propriii delegați",
+            "major": false,
+            "article": "art. I pct. 1 (art. 208 alin. 11)"
+          },
+          {
+            "text": "Fără minim de predare: ordinul ministrului poate acorda și degrevare totală",
+            "major": false,
+            "article": "art. I pct. 1 (art. 208 alin. 11)"
+          },
+          {
+            "text": "Prorogare neexplicată: nu spune ce amână, lipsește din expunerea de motive",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Interdicția plății cu ora și a cumulului pentru degrevați trece în legea educației",
+            "major": true,
+            "article": "art. I pct. 2 (art. 208 alin. 11¹)"
+          },
+          {
+            "text": "Plafon de predare clar: 40% pentru degrevați parțial, 30% la inspectorate",
+            "major": true,
+            "article": "art. I pct. 1 (art. 208 alin. 11)"
+          },
+          {
+            "text": "Excepția privește doar plata cu ora, nu cumulul, și cere aprobarea CA",
+            "major": false,
+            "article": "art. I pct. 2 (art. 208 alin. 11²)"
+          },
+          {
+            "text": "Rotunjirea în minus a fracțiunilor de oră evită interpretări diferite",
+            "major": false,
+            "article": "art. I pct. 1 (art. 208 alin. 11)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 4,
+        "same": 0.71
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:55:50.960Z"
     }
   ]
 }

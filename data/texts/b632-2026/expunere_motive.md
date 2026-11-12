@@ -1,0 +1,138 @@
+# EXPUNERE DE MOTIVE
+
+## I. PREAMBUL
+
+Prezenta propunere legislativă are ca obiect prevederea expresă a dreptului personalului cu atribuții de control și protecție a mediului din cadrul autorităților și instituțiilor publice cu responsabilități în domeniul gospodăririi apelor, al conservării Rezervației Biosferei Delta Dunării, al regimului silvic și cinegetic, al administrării ariilor naturale protejate și al gestionării Fondului pentru mediu de a utiliza mijloace de înregistrare audio-video a acțiunilor desfășurate în exercitarea atribuțiilor de serviciu, în special în cadrul activităților de control, verificare, monitorizare sau intervenție.
+
+Spre deosebire de reglementările punctuale adoptate până în prezent, care au vizat izolat anumite categorii de personal cu atribuții de control, precum polițiștii, în temeiul Legii nr. 218/2002, sau, mai recent, comisarii Gărzii Naționale de Mediu, în temeiul Ordonanței de urgență a Guvernului nr. 46/2025, prezenta propunere urmărește să acopere, în mod unitar și coerent, întregul spectru al structurilor publice cu atribuții de control în domeniul protecției mediului, apelor și pădurilor, care, deși exercită activități de aceeași natură și se confrontă cu riscuri comparabile, nu beneficiază în prezent de un cadru normativ echivalent. În acest sens, propunerea legislativă urmărește consolidarea protecției personalului cu atribuții din control care își desfășoară activitatea în conformitate cu:
+
+\- Ordonanța de urgență a Guvernului nr. 107/2002 privind înființarea Administrației Naționale „Apele Române”;
+
+\- Legea nr. 82/1993 privind constituirea Rezervației Biosferei Delta Dunării;
+
+\- Ordonanța de urgență a Guvernului nr. 103/2024 privind reorganizarea unor instituții publice din domeniul mediului, apelor și pădurilor, precum și pentru modificarea și completarea unor acte normative;
+
+\- Ordonanța de urgență a Guvernului nr. 196/2005 privind Fondul pentru mediu.
+
+Astfel, prin acest proiect se urmărește, pe de-o parte, sporirea garanțiilor cu privire la siguranța persoanelor cu atribuții de pază și control din cadrul Administrației Naționale „Apele
+
+Române", al Administrației Rezervației Biosferei Delta Dunării, al structurilor de administrare a ariilor naturale protejate și al Administrației Fondului pentru Mediu, iar pe de altă parte, efectivitatea acțiunilor de pază prin posibilitatea utilizării înregistrărilor audio-video ca mijloace de probă în diferite situații ce necesită constatarea și sancționarea faptelor de natură delictuală, contravențională sau penală săvârșite la adresa mediului de către alte persoane.
+
+În concret, este necesar ca entitățile publice care sancționează faptele civile, contravenționale sau penale săvârșite la adresa mediului să poată folosi în cadrul procedurilor judiciare desfășurate înregistrările audio-video pentru a sancționa în mod efectiv faptele ilicite săvârșite. Reglementarea actuală nu prevede o astfel de posibilitate decât pentru situații restrânse, motiv pentru care în anumite situații materialul probator administrat în procedurile judiciare este insuficient pentru a se putea dispune o sancțiune.
+
+Apreciem că personalul cu atribuții de pază și control a fondului silvic, a fondului forestier, a fondului cinegetic, a fondului piscicol, a ariilor naturale protejate, precum și al gestionării Fondului pentru mediu trebuie să beneficieze de un cadru normativ eficient, de așa natură încât activitatea de pază și control să asigure eficiența acțiunilor în sensul protejării mediului, cât și tragerea la răspundere a persoanelor față de care se poate reține răspunderea juridică pentru fapte săvârșite împotriva resurselor de apă, a biodiversității, a fondului forestier și cinegetic sau împotriva regimului ariilor naturale protejate.
+
+Mai mult de atât, apreciem că personalul cu atribuții de pază și control a fondului silvic, a fondului forestier, a fondului cinegetic, a fondului piscicol, a ariilor naturale precum și al gestionării Fondului pentru mediu protejate trebuie să beneficieze de mecanisme de siguranță suplimentare având în vedere specificul activității acestora care se desfășoară, în anumite situații, în prezența unor persoane care săvârșesc fapte delictuale, contravenționale sau penale. În acest sens, posibilitatea utilizării înregistrărilor audio-video poate descuraja posibilul comportament ilicit al destinatarilor vizați, cu consecința directă asupra siguranței personalului antemenționat, deoarece posibilitatea de a fi sancționați crește semnificativ.
+
+Nu în ultimul rând, înregistrarea audio-video a acțiunilor de pază ajută la creșterea transparenteii activității personalului cu atribuții în domeniul protecției mediului, stimulând îndeplinirea corectă a atribuțiilor cu care acesta este învestit, reducând riscurile unor posibile abuzuri.
+
+Totodată, prezenta inițiativă legislativă are rolul de a ocroti Dreptul la un mediu sănătos prevăzut de art. 35 din Constituția României, întrucât întărirea mecanismelor de control și prevenție în domeniul protecției mediului se răsfrânge, în cele din urmă, asupra cetățeanului, beneficiarul unui mediu înconjurător protejat în mod corespunzător.
+
+## II. DIAGNOZĂ
+
+De-a lungul timpului, persoanele cu atribuții de pază a fondului forestier, a fondului cinegetic, a fondului piscicol și a ariilor naturale protejate s-au confruntat cu o serie de situații care au determinat reale pericole asupra vieții sau integrității fizice și psihice a acestora, în contextul depistării și constatării unor fapte ilicite la adresa obiectivelor protejate.
+
+Arătăm, în acest sens, cu titlu exemplificativ, existența unor cazuri tragice ale unor persoane cu atribuții de pază a fondului forestier, a fondului cinegetic, a fondului piscicol și a ariilor naturale protejate care au fost ucise sau care au fost supuse unor fapte de violență din partea unor persoane care erau surprinse în timp ce săvârșeau fapte penale asupra mediului.
+
+Cazul tragic al pădurarului omorât în anul 2019, în timp ce își exercita atribuțiile de pază în cadrul Ocolului Silvic Strâmbu Băiuț, jud. Maramureș a devoalat nu numai riscurile majore la care se supun persoanele cu atribuții de pază a fondului forestier, dar inclusiv dificultățile organelor de cercetare și urmărire penală de a identifica făptuitorii, în contextul în care, în acest caz, făptuitorul a fost identificat abia la un an de la momentul săvârșirii crimei¹.
+
+În anul 2024, un alt pădurar, din cadrul Direcției Silvice Mehedinți a fost agresat fizic de către o persoană surprinsă în cadrul unei acțiuni de furt de lemn. În acea situație, inclusiv directorul Direcției Silvice Mehedinți a comunicat public dificultățile și pericolele cu care se confruntă personalul silvic: „nu este prima dată când acest infractor ne pune probleme atât nouă, cât și polițiștilor din zonă. De mai multe ori ne-a tăiat cauciucurile, și ni s-au distrus cauciucurile la mașini. Furturile sunt repetate acolo”².
+
+În anul 2021, pe raza Ocolul Silvic Curtea de Argeș a fost înregistrat un alt caz extrem de grav în care un pădurar a fost agresat fizic, lovit și biciuit de către un grup de bărbați surprins în timp ce desfășura activități ilegale de furt de material lemnos³.
+
+Mai mult decât atât, sfera cazurilor de agresiune fizică și verbală a fost extinsă și asupra personalului cu atribuții de verificare și control din cadrul Apelor Române. În anul 2025 o inspectoare de la Apele Române din județul Dolj a fost agresată fizic și verbal în timpul unui control efectuat la o spălătorie deținută ilegal⁴.
+
+Situații comparabile se constată și în activitatea de control desfășurată în Rezervația Biosferei Delta Dunării, unde persoanele care exploatează ilegal resursele piscicole recurg frecvent la mijloace de obstrucționare a acțiunilor de control. Cu titlu exemplificativ, în zonele Periteașca și Lacul Meșter, braconierii au tăiat intenționat peste douăzeci de sălcii pentru a bloca accesul pe canale al personalului Administrației Rezervației Biosferei Delta Dunării, tocmai pentru a putea continua, nestingheriți și pe timp de noapte, braconajul somnului aflat în perioada de reproducere⁵.
+
+Numărul cazurilor de violență cu victime din rândul personalului cu atribuții în protecția mediului reclamă necesitatea unei intervenții legislative de așa natură încât aceste persoane să dispună de posibilitatea înregistrării video-audio a acțiunilor de pază desfășurate, cu consecința descurajării comportamentului ilicit și, totodată, cu scopul de a putea fi stocate imagini sau înregistrări care să poată fi utilizate ca mijloace de probă în cauze civile sau penale.
+
+¹ https://www.digi24.ro/stiri/actualitate/justitie/17-ani-de-inchisoare-pentru-ucigasul-padurarului-liviu-pop-1922779
+
+² https://ziare.com/padurar-batut/hot-lemne-mehedinti-focuri-avertisment-1903099
+
+³ https://stirileprotv.ro/stiri/actualitate/padurar-batut-cu-biciul-si-cu-pumnii-de-hotii-de-lemne-zstam-numai-cu-teama-si-cu-frica.html
+
+⁴ https://adevarul.ro/stiri-interne/evenimente/o-inspectoare-de-la-apele-romane-agresata-in-2455073.html
+
+⁵ https://adevarul.ro/stiri-locale/tulcea/video-copaci-taiati-de-braconieri-pentru-a-bloca-1942623.html
+
+În cazul polițiștilor, Legea nr. 218/2002 privind organizarea și funcționarea Poliției Române, republicată, permite acestora înregistrarea audio-video a misiunilor desfășurate în scopul de prevenire, depistare, investigare sau urmărire penală a infracțiunilor sau executării pedepselor, prevenire și combatere a altor fapte ilegale, precum și de menținere a ordinii și siguranței publice:
+
+## Art. 56
+
+(1)În scopul realizării activităților de prevenire, depistare, investigare sau urmărire penală a infracțiunilor sau executării pedepselor, prevenire și combatere a altor fapte ilegale, precum și de menținere a ordinii și siguranței publice:
+
+a) acțiunile polițistului în spații publice, precum și intervenția realizată în condițiile art. 52 ori pentru executarea unui mandat pot fi înregistrate cu mijloacele foto-audio-video din dotare, fără consimțământul persoanelor vizate;
+
+(3)Se interzice prelucrarea datelor cu caracter personal conținute de imaginile fotografice ori înregistrările audio și/sau video în alte scopuri decât cele în care au fost colectate, cu excepția situațiilor prevăzute expres de lege și numai dacă sunt asigurate garanțiile necesare pentru protejarea drepturilor persoanelor vizate.
+
+(4) Poliția Română poate păstra imaginile fotografice ori înregistrările audio și/sau video obținute potrivit alin. (1) sau (2) pe o perioadă de 6 luni de la data obținerii acestora, cu excepția situațiilor în care sunt utilizate în cadrul unei proceduri judiciare, caz în care acestea urmează regimul probelor. La împlinirea acestui termen imaginile și/sau înregistrările se distrug, prin proceduri irreversibile.
+
+Mai recent, legiutiorul a extins acest raționament și asupra comisarilor Gărzii Naționale de Mediu, prin Ordonanța de urgență a Guvernului nr. 46/2025, prin care a fost reorganizată această structură și s-a introdus dreptul comisarilor de a înregistra acțiunile de control cu mijloace foto-audio-video, procedura de punere în aplicare fiind stabilită ulterior prin ordin al ministrului mediului, apelor și pădurilor.
+
+Totodată, prevederi similare au fost introduse și la nivelul Ordonanței de urgență a Guvernului nr. 59/2000 privind Statutul personalului silvic în cadrul prevederilor art. 23¹.
+
+Pe cale de consecință, ține de voința legiuitorului primar de a stabili care sunt acele categorii profesionale din sfera personalului cu atribuții de pază și control care să poată dispune de posibilitatea înregistrării audio-video a acțiunilor desfășurate cu ocazia exercitării atribuțiilor de serviciu, prin prisma interesului public ocrotit.
+
+## III. PROGNOZĂ
+
+Raportat la cele menționate, propunerea legislativă are ca obiect completarea a cinci acte normative distincte, corespunzătoare fiecăreia dintre structurile publice vizate, în sensul introducerii, pentru fiecare categorie vizată, posibilitatea de a înregistra prin echipamentul foto-audio-video din dotare acțiunile desfășurate în cadrul activităților de verificare și control efectuate, fără să fie necesar consimțământul persoanelor vizate.
+
+De asemenea, se prevede în mod expres că fotografiile, filmările și înregistrările obținute cu această ocazie au natura juridică a unor mijloace de probă care pot să fie utilizate în cadrul procedurilor judiciare demarate.
+
+Astfel, conținutul juridic al prezentei inițiative este relativ asemănător, deoarece fiecare articol prevăzut reglementează, de principiu, aceeași dispoziție, dar acesta vizează categorii distincte de personal în funcție de legislația specială pe care o completează.
+
+În concret, prin art. I se completează Ordonanța de urgență a Guvernului nr. 107/2002 privind înființarea Administrației Naționale „Apele Române”, publicată în Monitorul Oficial al României, Partea I, nr. 691 din 20 septembrie 2002, aprobată cu modificări și completări prin Legea nr. 404/2003, cu modificările și completările ulterioare, prin introducerea art. 2¹ care prevede dreptul personalului de specialitate al Apelor Române de a înregistra acțiunile de control, monitorizare cantitativă și calitativă, precum și pe cele privind intervențiile operative.
+
+Prin art. II se completează Legea nr. 82/1993 privind constituirea Rezervației Biosferei „Delta Dunării”, publicată în Monitorul Oficial al României, Partea I, nr. 283 din 7 decembrie 1993, cu modificările și completările ulterioare, cu un nou articol 4⁶ care prevede aceleași drepturi personalului de specialitate, împuternicit conform legii, care realizează acțiuni de control, și de verificare a îndeplinirii măsurilor de conservare pentru asigurarea statutului de conservare favorabilă.
+
+Prin art. III se completează Ordonanța de urgență a Guvernului nr. 103/2024 privind reorganizarea unor instituții publice din domeniul mediului, apelor și pădurilor, precum și pentru modificarea și completarea unor acte normative, publicată în Monitorul Oficial al României, Partea I, nr. 870 din 29 august 2024, cu modificările și completările ulterioare, cu un nou articol 3¹ prin care sunt instituite aceleași drepturi personalului de specialitate care administrează ariile naturale protejate cu scopul de a realiza în mod corespunzător acțiunile de control.
+
+Prin art. IV se completează Ordonanța de urgență a Guvernului nr. 196/2005 privind Fondul pentru mediu, publicată în Monitorul Oficial al României, Partea I, nr. 1193 din 30 decembrie 2005, aprobată cu modificări și completări prin Legea nr. 105/2006, cu modificările și completările ulterioare, cu un nou articol 3¹ care instituie dreptul personalului de specialitate al Administrației Fondului pentru Mediu de a înregistra acțiunile de control desfășurate la operatorii economici care au preluat responsabilitatea privind îndeplinirea obiectivelor anuale de colectare, reutilizare, reciclare și valorificare a deșeurilor de echipamente electrice și electronice și a deșeurilor de baterii și acumulatori portabili, precum și inspecțiile fiscale și controalele inopinate desfășurate la contribuabilii Fondului pentru mediu.
+
+După cum am anticipat, toate cele patru dispoziții introduse în cadrul normativ au aceeași structură și un conținut cvasi-identic. În acest sens, în termen de 90 de zile de la intrarea în vigoare a legii conducătorul autorității publice centrale pentru protecția mediului are obligația de a stabili procedura privind înregistrarea și fixarea cu mijloace foto-audio-video din dotare a activităților specifice prin emiterea unui ordin în acest sens.
+
+De asemenea, în toate cele 5 situații, mijloacele de probă obținute prin înregistrarea activităților specifice cu mijloace foto-audio-video pot să fie păstrate de entitățile respective timp de 6 luni calculate de la data obținerii acestora. Cu toate acestea, în situația în care acestea sunt utilizate într-o procedură judiciară, indiferent că aceasta este de natură civilă sau penală, acestea vor urma regimul juridic al probelor specific în funcție de materia în care sunt administrate.
+
+În fine, pentru a respecta principiul legalității și a asigura proporționalitatea măsurii între drepturile persoanelor vizate și interesul public prelucrarea înregistrărilor audio-video se va realiza, în toate cele cinci situații, cu respectarea Regulamentului (UE) 679/2016 al Parlamentului European și al Consiliului din 27 aprilie 2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE, precum și a legislației naționale aplicabile domeniului protecției datelor.
+
+## IV. CONCLUZII
+
+Având în vedere necesitatea consolidării măsurilor de protecție a resurselor de apă, a Rezervației Biosferei Delta Dunării, a fondului forestier și cinegetic, a ariilor naturale protejate și, în general, a mediului înconjurător, precum și imperativele legate de combaterea faptelor ilegale săvârșite împotriva mediului înconjurător, de asigurarea transparenței activității de control și de protejarea personalului de specialitate în exercitarea atribuțiilor de serviciu, instituirea posibilității înregistrării audio-video a acțiunilor de control reprezintă o măsură oportună, proporțională și justificată.
+
+Implementarea acestei măsuri va contribui semnificativ la prevenirea și documentarea faptelor ilegale îndreptate împotriva mediului, la responsabilizarea și protejarea personalului de specialitate din toate structurile vizate, precum și la îmbunătățirea capacității administrative și operaționale a acestor instituții
+
+Având în vedere aceste considerente, vă propunem spre dezbatere și aprobare prezenta propunere legislativă.
+
+În numele inițiatorilor,
+
+Deputată
+
+Diana-Anda Buzoianu
+
+## LISTA INIȚIATORILOR PROPUNERII LEGISLATIVE
+
+pentru completarea Ordonanței de urgență a Guvernului nr. 107/2002 privind înființarea Administrației Naționale „Apele Române”, a Legii nr. 82/1993 privind constituirea Rezervației Biosferei Delta Dunării, a Ordonanței de urgență a Guvernului nr. 103/2024 privind reorganizarea unor instituții publice din domeniul mediului, apelor și pădurilor, precum și pentru modificarea și completarea unor acte normative, precum și a Ordonanței de urgență a Guvernului nr. 196/2005 privind Fondul pentru mediu
+
+<table>
+<tbody>
+<tr><td>NR.</td><td>DEPUTAT/SENATOR</td><td>PARTID</td><td>SEMNĂTURĂ</td></tr>
+<tr><td>1.</td><td>POULYANNA HANGAN</td><td>USR</td><td rowspan="9"></td></tr>
+<tr><td>2.</td><td>Diana Stopca</td><td>USR</td></tr>
+<tr><td>3.</td><td>VLAO-10 AN SENDROIV</td><td>USR</td></tr>
+<tr><td>4.</td><td>Dimitriv ACEYANSM</td><td>USR</td></tr>
+<tr><td>5.</td><td>ALIH STOIOH</td><td>USR</td></tr>
+<tr><td>6.</td><td>Crusovegan Marian</td><td>PNL</td></tr>
+<tr><td>7.</td><td>ZAKARIAS ZOLTAN</td><td>wefiliat</td></tr>
+<tr><td>8.</td><td>Niklos Zofkin</td><td>UOMR</td></tr>
+<tr><td>9.</td><td></td><td></td></tr>
+<tr><td>10.</td><td></td><td></td><td></td></tr>
+<tr><td>11.</td><td></td><td></td><td></td></tr>
+<tr><td>12.</td><td></td><td></td><td></td></tr>
+<tr><td>13.</td><td></td><td></td><td></td></tr>
+<tr><td>14.</td><td></td><td></td><td></td></tr>
+<tr><td>15.</td><td></td><td></td><td></td></tr>
+<tr><td>16.</td><td></td><td></td><td></td></tr>
+<tr><td>17.</td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

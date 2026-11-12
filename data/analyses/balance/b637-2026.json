@@ -1,0 +1,72 @@
+{
+  "slug": "b637-2026",
+  "billId": "B637/2026",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-12T10:20:36.541Z",
+  "inputHash": "91456559670d",
+  "riskScore": 2.5,
+  "summary": "O măsură utilă pentru deblocarea transportului alternativ în jurul orașelor și spre aeroporturi, dar redactată cu erori de tehnică legislativă care trebuie corectate.",
+  "good": [
+    {
+      "text": "Permite șoferilor de transport alternativ să preia permanent pasageri și din localitățile vecine sau zonele metropolitane, deblocând accesul la aeroporturi și naveta periurbană.",
+      "article": "art. unic pct. 1 (art. 13 alin. (4) lit. a))",
+      "quote": "permanent, în interiorul localității unde își are sediul sau domiciliul precum și în unitățile administrativ-teritoriale limitrofe acesteia, inclusiv în cadrul zonelor metropolitane din care acestea fac parte potrivit prevederilor legale în vigoare.",
+      "weight": 3
+    },
+    {
+      "text": "Permite plecări ocazionale din toată zona metropolitană și preluarea de pasageri la întoarcere, reducând drumurile făcute fără clienți, costurile și poluarea.",
+      "article": "art. unic pct. 1 (art. 13 alin. (4) lit. b))",
+      "quote": "spre alte localități cu posibilitatea efectuării unei curse retur din localitățile tranzitate.",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Articolul unic anunță înlocuirea întregului alineat (4), dar redă doar literele a) și b), riscând să șteargă involuntar partea introductivă despre durata autorizației și copiile conforme.",
+      "article": "art. unic",
+      "quote": "publicată în Monitorul Oficial al României, Partea I, nr. 901 din data de 7 noiembrie 2019 cu modificările și completările ulterioare, se modifică și va avea următorul cuprins:",
+      "weight": 3
+    },
+    {
+      "text": "Înlocuiește regiunea București-Ilfov cu „zonele metropolitane”, care cer asociere voluntară între primării, creând blocaje în comunele din Ilfov ce nu sunt direct lipite de Capitală.",
+      "article": "art. unic pct. 1 (art. 13 alin. (4) lit. a) și b))",
+      "quote": "inclusiv în cadrul zonelor metropolitane din care acestea fac parte potrivit prevederilor legale în vigoare.",
+      "weight": 2
+    },
+    {
+      "text": "Permite curse retur doar din „localitățile tranzitate”, omițând chiar localitatea de destinație și regulile returului, ceea ce lasă loc de interpretări și amenzi la control.",
+      "article": "art. unic pct. 1 (art. 13 alin. (4) lit. b))",
+      "quote": "spre alte localități cu posibilitatea efectuării unei curse retur din localitățile tranzitate.",
+      "weight": 2
+    },
+    {
+      "text": "Omite localitățile vecine (limitrofe) de la plecările ocazionale, deși la litera a) le permite pentru transportul permanent, creând o regulă necorelată dacă nu există zonă metropolitană.",
+      "article": "art. unic pct. 1 (art. 13 alin. (4) lit. b))",
+      "quote": "ocazional, cu plecare din localitatea unde își are sediul sau domiciliul precum și din zonele metropolitane din care acestea fac parte potrivit prevederilor legale în vigoare",
+      "weight": 1
+    },
+    {
+      "text": "Raportează unitățile administrativ-teritoriale vecine la „localitatea” de sediu, confundând satul sau localitatea componentă cu întreaga comună sau oraș.",
+      "article": "art. unic pct. 1 (art. 13 alin. (4) lit. a))",
+      "quote": "permanent, în interiorul localității unde își are sediul sau domiciliul precum și în unitățile administrativ-teritoriale limitrofe acesteia",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Corectarea comenzii de modificare doar pentru literele a) și b), păstrarea regiunii București-Ilfov, corelarea UAT-urilor vecine și includerea expresă a localității de destinație la cursa retur.",
+    "removes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

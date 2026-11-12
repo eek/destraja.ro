@@ -1,0 +1,82 @@
+# EXPUNERE DE MOTIVE
+
+Prezenta inițiativă legislativă urmărește instituirea unui regim fiscal derogatoriu prin care veniturile din salarii și asimilate salariilor realizate de elevi și studenți, cu vârsta de până la 26 de ani, aflați într-o formă de școlarizare, să fie scutite, pe durata a trei luni/an, de la plata contribuției sociale obligatorii și de la impozitul pe venit, în limita unui plafon lunar de cel mult 3.900 lei.
+
+Elevii și studenții au statut special, caracterizat prin resurse financiare limitate și dependență de activitatea educațională, iar suprapunerea sarcinilor fiscale aplicabile salariaților obișnuiți reprezintă o constrângere disproporționată pentru acest segment, descurajând participarea lor pe piața muncii.
+
+Prin adoptarea măsurii se răspunde unei necesități reale, obiectiv fundamentate, asigurându-se: creșterea ratei de angajare a tinerilor, prin stimularea angajatorilor să încadreze elevi și studenți fără a suporta costuri salariale suplimentare generate de sarcina fiscală obișnuită; reducerea abandonului școlar, prin facilitarea accesului la venituri legale, care sprijină continuarea studiilor; dezvoltarea competențelor profesionale timpurii, esențiale pentru integrarea durabilă în piața muncii; flexibilizarea raporturilor de muncă, adaptată nevoilor specifice formării educaționale.
+
+Reglementarea urmărește coerența și predictibilitatea normelor și se întemeiază pe rațiuni economice și sociale solide, astfel că scutirea se acordă numai pentru o perioadă determinată (trei luni/an) și doar în limita unui plafon lunar rezonabil, evitând orice afectare semnificativă a echilibrului bugetar și asigurând menținerea caracterului de măsură punctuală, cu impact controlat.
+
+Măsura are efecte pozitive directe și imediate, transpunându-se în ceea ce-i privește pe tineri în creșterea veniturilor nete, consolidarea autonomiei financiare, acces mai ușor la oportunități profesionale; iar cu privire la angajatori în diminuarea costurilor salariale inițiale, creșterea disponibilității pentru angajarea tinerilor și formarea lor profesională. De asemenea, ar avea drept efecte: reducerea șomajului în rândul tinerilor, stimularea economiei prin integrarea forței de muncă tinere, menținerea tinerilor în sistemul educațional.
+
+În plus, efectul bugetar este limitat, întrucât măsura are caracter restrictiv în timp și valoare, fiind deci compatibilă cu necesitatea menținerii echilibrului bugetar și cu principiile gestionării responsabile a finanțelor publice.
+
+Precizăm că prin adresa de înaintare s-a solicitat Guvernului, în temeiul art. 111 alin. (1) din Constituția României, republicată, să comunice punctul de vedere asupra acestei propuneri legislative și informații privind implicațiile bugetare generate de aceasta - fișă financiară.
+
+## INIȚIATORI:
+
+Deputat AUR Mohammad Murad
+
+Deputat AUR Mugur Mihăescu
+
+Deputat AUR Doru-Lucian Musat
+
+Deputat AUR Petru-Gabriel Negrea
+
+Deputat PSD Vasilică Priceputu
+
+Deputat PSD Augustin-Florin Hagiu
+
+Deputat minorități Stefan Bouda
+
+Deputat PSD Groza-Călin Florin
+
+Deputat PSD Bogdan-Florian Mihuți
+
+ROMÂNIA
+
+Deputat PSD/Aurora-Adela Cotea
+
+Deputat PSD Voicu Vușcan
+
+Deputat UPR Răzvan-Mirel Chiriță
+
+DEPUTAT USR PLUSAR ANDREI
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru completarea Legii nr. 227/2015 privind Codul fiscal
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+|  | Sandy Danica | PSJ |  |
+|  | Luciau forimitz | PSD |  |
+|  | Bod, Bof, Onprecej | J.O.S. Ro |  |
+|  | Tiu Mihai-Adrian | SOS RO |  |
+|  | Cirliga flow | AUR |  |
+|  | BASEA VALENTIN | AVR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru completarea Legii nr. 227/2015 privind Codul fiscal
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td></td><td>STANCU IONEL</td><td>MINO</td><td rowspan="7"></td></tr>
+<tr><td></td><td>Fodor film</td><td>MNO</td></tr>
+<tr><td></td><td>Merha Adrian</td><td>Min</td></tr>
+<tr><td></td><td>Adrian Poge</td><td>PSA</td></tr>
+<tr><td></td><td>Lucian BOSAÑNEL</td><td>PSD</td></tr>
+<tr><td></td><td>BUDACĂ VĂSILĂ</td><td>PSD</td></tr>
+<tr><td></td><td>PLOPEANCI ROBICA</td><td>PSD</td></tr>
+<tr><td></td><td colspan="2">FIRCZAK IULIUS MDAZAN MINO</td><td></td></tr>
+<tr><td></td><td>Cirliger Flori</td><td>KU2</td><td rowspan="2"></td></tr>
+<tr><td></td><td>BASEA VIBLENTIN</td><td>AUR</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

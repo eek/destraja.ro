@@ -1,0 +1,17 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+# privind aprobarea Ordonanței Guvernului nr.4/2021 pentru modificarea și completarea Ordonanței Guvernului nr.43/2000 privind protecția patrimoniului arheologic și declararea unor situri arheologice ca zone de interes național
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța Guvernului nr.4 din 25 august 2021 pentru modificarea și completarea Ordonanței Guvernului nr.43/2000 privind protecția patrimoniului arheologic și declararea unor situri arheologice ca zone de interes național, adoptată în temeiul art.1 pct.VIII.4 din Legea nr.195/2021 privind abilitarea Guvernului de a emite ordonanțe, publicată în Monitorul Oficial al României, Partea I, nr.821 din 27 august 2021.
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 4 octombrie 2021, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+Anca Dana Dragu
+
+PREȘEDINTELE SENATULUI

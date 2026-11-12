@@ -2,14 +2,14 @@
   "billId": "PL-x 500/2026",
   "slug": "plx-500-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-11T10:07:05.861Z",
+  "updatedAt": "2026-11-11T14:02:54.845Z",
   "consensus": {
     "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Portalul „e-SănătateaMea”: acces online la istoricul medical și programări prin CNAS",
-    "summaryTlDr": "O inițiativă utilă de digitalizare din PNRR care oferă pacienților acces online la propriul istoric medical și la programări în sistemul CNAS. Singurul risc practic este împovărarea birocratică a medicilor dacă noul portal de programări nu permite sincronizarea automată (API) cu softurile deja folosite de clinici și cabinete.",
-    "initiatorClaim": "Inițiatorul urmărește digitalizarea sistemului de asigurări de sănătate (jalon PNRR cu termen 31 august 2026) prin lansarea portalului „e-SănătateaMea”, unde asigurații își pot vedea datele medicale, rețetele și serviciile decontate, și prin care se pot programa online la furnizorii medicali.",
-    "realityCheck": "Legea creează baza legală pentru două funcționalități în cadrul PIAS: accesul pacientului la istoricul său medical (din semestrul II 2026) și un portal național de programări obligatoriu pentru toți furnizorii începând cu trimestrul IV 2026. Deși măsura crește transparența pentru pacienți și descurajează decontările fictive, textul nu prevede obligația CNAS de a oferi interfețe API deschise pentru cabinetele care au deja sisteme informatice de programare.",
+    "plainTitle": "Portalul e-SănătateaMea și programările la medic prin platforma CNAS",
+    "summaryTlDr": "Este o lege utilă de digitalizare: pacienții primesc acces online la propriile date medicale, iar programările trec printr-un portal al CNAS. Textul este însă foarte sumar. Nu spune cine este obligat să folosească portalul, ce se întâmplă cu cei fără internet și cum sunt protejate datele despre programări.",
+    "initiatorClaim": "Inițiatorul vrea să dea bază legală portalului e-SănătateaMea, construit de CNAS din fonduri PNRR. Scopul declarat este ca asigurații să-și vadă online istoricul medical, rețetele și documentele, iar programările la furnizorii din sistemul public de asigurări să treacă printr-un singur portal.",
+    "realityCheck": "Legea adaugă patru alineate scurte la art. 280. CNAS face portalul din semestrul II 2026, portalul dă acces la date medicale și la servicii online, iar din trimestrul IV 2026 „toți furnizorii” trebuie să folosească portalul de programări, după un proiect pilot. Textul nu spune cine sunt „toți furnizorii”, ce sancțiune există, dacă programarea la telefon sau la cabinet rămâne posibilă și cine are acces la noua bază centrală de programări. Nu reglementează nici accesul pentru copii sau pentru persoanele aflate în grija altcuiva. Toate aceste detalii rămân la latitudinea CNAS, prin norme pe care legea nici măcar nu le menționează.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Toți cetățenii",
@@ -17,10 +17,10 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Articol unic - Art. 280 alin. (2^2) și (2^3)",
-      "proposalContent": "La alin. (2^2), sintagma „dispositive” se înlocuiește cu „dispozitive”. La alin. (2^3), după cuvintele „să îl utilizeze” se introduce sintagma „pentru serviciile decontate de CNAS, inclusiv prin interfețe tehnice (API) deschise și gratuite pentru sincronizarea automată cu aplicațiile informatice proprii ale furnizorilor, fără dublarea raportării”.",
-      "argumentation": "Majoritatea clinicilor și cabinetelor folosesc deja softuri proprii de programări și gestiune. Obligarea lor să folosească portalul CNAS fără garantarea prin lege a conectării automate prin API riscă să impună dubla introducere manuală a programărilor de către medici. De asemenea, se corectează eroarea materială „dispositive” din alin. (2^2).",
-      "otherComments": "Este necesar ca normele metodologice să clarifice regimul avariilor tehnice ale PIAS, astfel încât furnizorii de servicii medicale să nu fie sancționați contractual atunci când portalul „e-SănătateaMea” este indisponibil sau funcționează cu întreruperi."
+      "articleRef": "Art. 280 alin. (2^3) din Legea nr. 95/2006",
+      "proposalContent": "(2^3) Furnizorii aflați în relație contractuală cu casele de asigurări folosesc portalul de programări pentru serviciile decontate din FNUASS. Pacientul se poate programa și telefonic sau la cabinet, iar furnizorul înregistrează programarea. Datele de programare servesc doar programării și statisticii agregate. Normele se aprobă prin ordin CNAS, după consultare publică.",
+      "argumentation": "Textul adoptat obligă „toți furnizorii”, fără să spună dacă sunt incluși și cei fără contract cu CNAS sau farmaciile, și nu spune ce se întâmplă cu pacienții fără internet. O bază centrală de programări arată ce specialist vede fiecare om (psihiatrie, oncologie), deci scopul și limitele folosirii datelor trebuie scrise în lege (art. 26 Constituție, art. 9 GDPR).",
+      "otherComments": "Legea a fost deja adoptată și promulgată (Legea nr. 157/2026), iar obligația de la alin. (2^3) se aplică din trimestrul IV 2026, adică deja. Propunerea poate sta la baza unei inițiative ulterioare de modificare. Merită cerut și un raport public despre proiectul pilot de la alin. (2^4): ce furnizori au participat și ce probleme au apărut."
     }
   },
   "council": {
@@ -57,9 +57,36 @@
     },
     "claude": {
       "model": "claude",
-      "status": "error",
-      "durationMs": 2779,
-      "error": "You've hit your weekly limit · resets Nov 12, 7pm (Europe/Bucharest)"
+      "durationMs": 128805,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Portalul e-SănătateaMea și programările la medic prin platforma CNAS",
+      "verdictShort": "Este o lege utilă de digitalizare: pacienții primesc acces online la propriile date medicale, iar programările trec printr-un portal al CNAS. Textul este însă foarte sumar. Nu spune cine este obligat să folosească portalul, ce se întâmplă cu cei fără internet și cum sunt protejate datele despre programări.",
+      "initiatorClaim": "Inițiatorul vrea să dea bază legală portalului e-SănătateaMea, construit de CNAS din fonduri PNRR. Scopul declarat este ca asigurații să-și vadă online istoricul medical, rețetele și documentele, iar programările la furnizorii din sistemul public de asigurări să treacă printr-un singur portal.",
+      "realityCheck": "Legea adaugă patru alineate scurte la art. 280. CNAS face portalul din semestrul II 2026, portalul dă acces la date medicale și la servicii online, iar din trimestrul IV 2026 „toți furnizorii” trebuie să folosească portalul de programări, după un proiect pilot. Textul nu spune cine sunt „toți furnizorii”, ce sancțiune există, dacă programarea la telefon sau la cabinet rămâne posibilă și cine are acces la noua bază centrală de programări. Nu reglementează nici accesul pentru copii sau pentru persoanele aflate în grija altcuiva. Toate aceste detalii rămân la latitudinea CNAS, prin norme pe care legea nici măcar nu le menționează.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Toți cetățenii",
+        "IMM & Antreprenori",
+        "IT & AI"
+      ],
+      "keyFindings": [
+        "Art. 280 alin. (2^3) obligă „toți furnizorii” să folosească portalul de programări. Nu precizează dacă e vorba doar de cei cu contract cu casele de asigurări sau și de clinicile private fără contract, de farmacii și de furnizorii de dispozitive medicale, pentru care programarea nu are sens. Nu spune nici dacă furnizorii pot folosi în paralel propriile sisteme sau aplicații private de programări.",
+        "Obligația din alin. (2^3) se aplică din trimestrul IV 2026, deci deja. Legea nu prevede sancțiune și nici perioadă de tranziție. Nu obligă CNAS să ofere gratuit interfețe (API) cu programele informatice de cabinet, așa că integrarea și timpul de lucru cad în sarcina medicilor de familie și a clinicilor mici.",
+        "Alin. (2^2) dă pacienților acces securizat la propriile date medicale, un câștig real de transparență, în spiritul art. 15 GDPR. Textul nu reglementează însă accesul părinților, al tutorilor sau al aparținătorilor. Nu prevede nici un jurnal din care pacientul să vadă cine i-a consultat datele.",
+        "Alin. (2^4) prevede un proiect pilot fără să spună cine îl organizează, cu ce furnizori, pe ce durată și cum se evaluează rezultatele înainte ca obligația să devină generală.",
+        "Nicio prevedere nu garantează un canal alternativ (telefon, ghișeu, cabinet) pentru vârstnici și pentru pacienții fără internet. Legea obligă doar furnizorii să folosească portalul, dar dacă aceștia mută programările exclusiv online, accesul la îngrijire scade tocmai pentru cei mai vulnerabili."
+      ],
+      "blindSpotsCaught": "O componentă PNRR a CNAS, cu termen 31.08.2026, a ajuns în lege pe filiera unei inițiative parlamentare semnate de un singur senator, nu printr-un proiect al Guvernului. Astfel a scăpat de consultarea publică obligatorie pentru actele Guvernului (Legea nr. 52/2003) și de un studiu de impact asupra furnizorilor. Portalul de programări creează și o bază centrală care arată la ce specialist merge fiecare asigurat (psihiatrie, oncologie, boli infecțioase). Sunt date de sănătate noi, iar legea nu le stabilește scopul, termenul de păstrare sau limitele de acces. Analiza pornește de la forma inițiatorului, care are și o greșeală de scriere („dispositive”). Forma finală a Legii nr. 157/2026 poate diferi.",
+      "constitutionalityNote": "Scopul e compatibil cu art. 34 (dreptul la ocrotirea sănătății) și întărește dreptul pacientului de a-și cunoaște datele. Problemele țin de art. 1 alin. (5), adică de claritatea și previzibilitatea legii. Sintagma „toți furnizorii” și termenul „trimestrul IV”, fără regim de tranziție și fără consecințe juridice precizate, nu le dau destinatarilor o regulă clară. Prelucrarea centralizată a datelor de programare atinge art. 26 (viața intimă și privată). Jurisprudența CCR (deciziile nr. 1258/2009 și 440/2014 privind păstrarea datelor, Decizia nr. 17/2015 privind securitatea cibernetică) cere ca asemenea ingerințe să fie prevăzute de o lege clară, cu garanții, nu lăsate în întregime normelor administrative. Nu se vede un viciu evident de neconstituționalitate, dar textul este minimal.",
+      "euLawNote": "Directiva (UE) 2018/958: obligația de a folosi platforma de programări a statului pare mai degrabă o condiție de funcționare în sistemul public de asigurări decât o restricție de acces la profesie, deci testul de proporționalitate e greu aplicabil. Situația s-ar schimba dacă „toți furnizorii” ar include și cabinetele private fără contract cu casele de asigurări. TRIS (2015/1535): regula se adresează furnizorilor medicali, nu specific serviciilor societății informaționale, deci notificarea nu pare necesară. GDPR (art. 6 alin. (1) lit. (e) și art. 9 alin. (2) lit. (h)) cere o bază legală națională cu garanții specifice pentru datele de sănătate, iar textul nu le detaliază. Regulamentul (UE) 2025/327 privind Spațiul european al datelor privind sănătatea (EHDS) va obliga statele să ofere pacienților acces electronic gratuit la date, acces prin reprezentant și informații despre cine le-a consultat. Portalul merge în direcția bună, dar legea nu prevede aceste drepturi. Ca site public, portalul cade și sub Directiva (UE) 2016/2102 privind accesibilitatea.",
+      "senatForm": {
+        "articleRef": "Art. 280 alin. (2^3) din Legea nr. 95/2006",
+        "proposalContent": "(2^3) Furnizorii aflați în relație contractuală cu casele de asigurări folosesc portalul de programări pentru serviciile decontate din FNUASS. Pacientul se poate programa și telefonic sau la cabinet, iar furnizorul înregistrează programarea. Datele de programare servesc doar programării și statisticii agregate. Normele se aprobă prin ordin CNAS, după consultare publică.",
+        "argumentation": "Textul adoptat obligă „toți furnizorii”, fără să spună dacă sunt incluși și cei fără contract cu CNAS sau farmaciile, și nu spune ce se întâmplă cu pacienții fără internet. O bază centrală de programări arată ce specialist vede fiecare om (psihiatrie, oncologie), deci scopul și limitele folosirii datelor trebuie scrise în lege (art. 26 Constituție, art. 9 GDPR).",
+        "otherComments": "Legea a fost deja adoptată și promulgată (Legea nr. 157/2026), iar obligația de la alin. (2^3) se aplică din trimestrul IV 2026, adică deja. Propunerea poate sta la baza unei inițiative ulterioare de modificare. Merită cerut și un raport public despre proiectul pilot de la alin. (2^4): ce furnizori au participat și ce probleme au apărut."
+      },
+      "status": "ok"
     },
     "codex": {
       "model": "codex",

@@ -1,0 +1,51 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+## pentru aprobarea Ordonanței de urgență a Guvernului nr.225/2020 privind modificarea unor acte normative și stabilirea unor măsuri în domeniul agriculturii
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.225 din 30 decembrie 2020 privind modificarea unor acte normative și stabilirea unor măsuri în domeniul agriculturii, publicată în Monitorul Oficial al României, Partea I, nr.1331 din 31 decembrie 2020, cu următoarele modificări și completări:
+
+## 1. Articolul III se modifică și va avea următorul cuprins:
+
+„Art.III.- Termenul prevăzut la articolul 11 din Legea nr.133/2019 pentru înființarea Agenției pentru Calitatea și Marketingul Produselor Agroalimentare, publicată în Monitorul Oficial al României, Partea I, nr.576 din 15 iulie 2019, cu modificările ulterioare, se prorogă până la data de 1 iulie 2021.”
+
+## 2. La articolul VI, alineatul (4) al articolului III se modifică și va avea următorul cuprins:
+
+„(4) Prin excepție de la prevederile alin.(3) la operatorii economici producători de energie electrică care nu au montate echipamente de măsură a volumelor de apă și funcționarea instalațiilor de captare/evacuare a fost acceptată în aceste condiții prin autorizația de gospodărire a apelor, volumele de apă uzinate pentru fiecare unitate de producție se vor calcula în raport cu cantitatea de energie produsă.”
+
+3\. După articolul VI se introduc trei noi articole, art.VII - IX, cu următorul cuprins:
+
+„Art.VII.- Legea nr.150/2020 privind protecția animalelor destinate exportului în țări terțe, publicată în Monitorul Oficial al României, Partea I nr.658 din 24 iulie 2020, se modifică și se completează după cum urmează:
+
+1\. La articolul 5, alineatul (1) se modifică și va avea următorul cuprins:
+
+Art.5.- (1) În cazul călătoriilor navale, la bordul vasului trebuie asigurate servicii de asistență sanitar-veterinară, de către un medic veterinar.
+
+2\. La articolul 7, alineatul (2) se modifică și va avea următorul cuprins:
+
+(2) În cazul exporturilor realizate pe cale rutieră, cu mijloace de transport destinate călătoriilor de lungă durată, în perioada 1 iunie – 31 august suprafața alocată pe cap de animal trebuie crescută cu minimum 10%.
+
+3\. La articolul 7, după alineatul (2) se introduce un nou alineat, alin. (2¹), cu următorul cuprins:
+
+(2¹) În perioadele în care sunt înregistrate temperaturi de peste 35°C, cu privire la exporturile realizate pe cale rutieră sau navală, îmbarcarea animalelor este temporar suspendată.
+
+4\. La articolul 7, alineatele (3) și (4) se modifică și vor avea următorul cuprins:
+
+(3) Ovinele trebuie tunse înainte de începerea călătoriilor care se desfășoară în perioada 1 iunie - 31 august.
+
+(4) În cazul exporturilor realizate pe cale navală, în perioada 1 iunie - 31 august se asigură creșterea cu minimum 15% a suprafeței alocate fiecărui animal, iar compartimentele în care urmează să fie transportate animalele trebuie echipate cu un sistem de ventilație forțată cu o capacitate suficientă de reîmprospătare a întregului volum de aer, ținând cont de înălțimea compartimentului și de tipul acestuia, respectiv dacă acesta este închis sau parțial închis, în conformitate cu regulamentele și normativele în vigoare.
+
+Art.VIII.- La articolul 1 din Ordonanța de urgență a Guvernului nr.82/2011 privind unele măsuri de organizare a activității de îmbunătățiri funciare, publicată în Monitorul Oficial al României, Partea I, nr.694 din 30 septembrie 2011, aprobată cu modificări și completări prin Legea nr.199/2012, cu modificările și completările ulterioare, alineatul (4) se modifică și va avea următorul cuprins:
+
+(4) Numărul maxim de posturi al Agenției și filialelor teritoriale este de 3500.
+
+Art.IX.- Prin derogare de la dispozițiile art.27 alin.(3) din Legea nr.55/2020 privind unele măsuri pentru prevenirea și combaterea efectelor pandemiei de COVID-19, cu modificările și completările ulterioare, pe durata stării de alertă se pot desfășura concursurile pentru ocuparea posturilor vacante din cadrul Agenției Naționale de Îmbunătățiri Funciare."
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 8 februarie 2021, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI Anca/Pana Dragu

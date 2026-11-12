@@ -1,0 +1,25 @@
+# Parlamentul României Senat
+
+# Comisia juridică, de numiri, disciplină, imunități și validări
+
+Nr. XIX/392/10.11.2026
+
+## AVIZ
+
+# la Propunerea legislativă pentru modificarea și completarea Legii nr.179/2022 privind datele deschise și reutilizarea informațiilor din sectorul public
+
+Comisia juridică, de numiri, disciplină, imunități și validări, prin adresa nr. L629/2026, a fost sesizată, în vederea întocmirii avizului, cu Propunerea legislativă pentru modificarea și completarea Legii nr.179/2022 privind datele deschise și reutilizarea informațiilor din sectorul public, inițiată de: Anghel Răzvan-Paul - senator USR; Bochileanu George-Cătălin - senator USR; Cernic Sebastian - senator USR; Ghinea Cristian - senator USR; Mindru Cătălin-Emil - senator USR; Negoi Eugen-Remus - senator USR; Păun Ana-Cynthia-Ioana - senator USR; Rus Vasile-Ciprian - senator USR; Ștefănache Gheorghe - senator Neafiliat; Echert Adrian - deputat USR; Paraschivescu Ovidiu-Romulus - deputat USR; Plujar Andrei George - deputat USR.
+
+În ședința din 10 noiembrie 2026, Comisia juridică, de numiri, disciplină, imunități și validări a analizat propunerea legislativă și a hotărât, cu majoritate de voturi ale celor prezenți, să adopte aviz negativ.
+
+Președinte,
+
+Secretar,
+
+Senator Ion-Cristinel RUJAN
+
+Senator Daniela ȘTEFANESCU
+
+Domnului senator Kâroly Zsolt CSĂSZĂR, Președintele Comisiei pentru administrație publică
+
+Domnului senator Vasile-Ciprian RUS, Președintele Comisiei pentru comunicații, tehnologia informației și inteligență artificială

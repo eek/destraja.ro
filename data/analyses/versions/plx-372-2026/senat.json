@@ -2,24 +2,24 @@
   "billId": "PL-x 372/2026",
   "slug": "plx-372-2026",
   "version": "senat",
-  "updatedAt": "2026-11-11T09:31:00.778Z",
+  "updatedAt": "2026-11-11T13:35:26.047Z",
   "consensus": {
-    "riskScore": 2.5,
+    "riskScore": 2.7,
     "riskLevel": "green",
-    "plainTitle": "Puncte de contact obligatorii pentru firmele IT și telecom în anchetele penale europene (probe electronice)",
-    "summaryTlDr": "Lege tehnică, necesară și echilibrată, care transpune fidel Directiva (UE) 2023/1544 privind obținerea rapidă a probelor electronice în dosarele penale transfrontaliere. Firmele IT românești care operează exclusiv pe piața internă sunt exceptate de la noile obligații birocratice.",
-    "initiatorClaim": "Guvernul urmărește transpunerea Directivei (UE) 2023/1544 pentru a crea un mecanism clar și rapid prin care autoritățile judiciare din UE să poată solicita probe electronice direct de la sediile desemnate sau reprezentanții legali ai furnizorilor de servicii digitale și de comunicații.",
-    "realityCheck": "Textul transpune corect pachetul european „e-Evidence”, desemnând ANCOM drept Autoritate Centrală și protejând IMM-urile locale care oferă servicii doar în România (art. 3 alin. 2) sau permițând mai multor firme să împartă același reprezentant legal (art. 5 alin. 3). Singura chichiță birocratică este la art. 8 alin. (4), unde notificarea depusă de o firmă este considerată legal îndeplinită doar după ce este „validată” de autoritate, fără un termen-limită impus ANCOM.",
+    "plainTitle": "Furnizorii de servicii online trebuie să aibă în UE o adresă oficială unde primesc cererile de probe din dosarele penale",
+    "summaryTlDr": "Lege tehnică, de transpunere obligatorie, care nu dă procurorilor puteri noi. Doar obligă furnizorii digitali să aibă în UE un sediu sau un reprezentant care primește cererile de probe. Problemele sunt de redactare: validarea notificării nu are termen, iar schimbul de date între autorități nu are limite precise.",
+    "initiatorClaim": "Guvernul (MEDAT, cu ANCOM coinițiator) spune că transpune Directiva (UE) 2023/1544. Scopul declarat este ca autoritățile să comunice eficient cu furnizorii de servicii digitale, inclusiv cu cei din afara UE, pentru obținerea probelor electronice, în locul regulilor naționale fragmentate care încurcă piața internă.",
+    "realityCheck": "Legea nu creează temeiuri noi de acces la datele oamenilor: acestea rămân în Codul de procedură penală, în Legea 302/2004 și în Regulamentul (UE) 2023/1543. Ea obligă furnizorii de comunicații electronice, domenii, adrese IP, mesagerie și stocare care oferă servicii în UE să desemneze un sediu sau un reprezentant legal și să-l notifice, iar ANCOM devine autoritate centrală. Chichițele: notificarea e valabilă doar după o «validare» fără termen și fără cale de atac (art. 8 alin. 4), criteriul «număr semnificativ de utilizatori» este vag (art. 4 pct. 2–3), iar schimbul de date între ANCOM, poliție și procurori nu are limite clare (art. 6 alin. 3). Regimul sancționator, menționat la art. 7, nu apare în extrasul primit, deci proporționalitatea amenzilor nu poate fi evaluată.",
     "affectedGroups": [
       "IT & AI",
       "Justiție & Drepturi Civile",
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. 8 alin. (4)",
-      "proposalContent": "La art. 8, alin. (4) se modifică și va avea următorul cuprins: „(4) Autoritatea Centrală competentă verifică și validează notificarea în termen de maximum 10 zile lucrătoare de la transmitere. În lipsa unui refuz motivat comunicat în acest termen, notificarea se consideră validată tacit de la data depunerii.”",
-      "argumentation": "Forma actuală condiționează îndeplinirea obligației legale de validarea ANCOM, fără a institui un termen-limită pentru autoritate. Furnizorii care notifică în termenul legal (art. 10) riscă să fie considerați în culpă din cauza unor întârzieri administrative sau blocaje în platforma electronică, încălcându-se principiul securității juridice.",
-      "otherComments": "Deși legea se află la promulgare, într-o eventuală intervenție ulterioară sau în ghidul ANCOM prevăzut la art. 8 alin. (3) este utilă detalierea criteriilor pentru „număr semnificativ de utilizatori” (art. 4 pct. 2-3), spre a proteja micile firme IT românești cu clienți ocazionali din UE."
+      "articleRef": "Art. 8 alin. (4) – validarea notificării",
+      "proposalContent": "„(4) Notificarea transmisă ANCOM se consideră validată dacă ANCOM nu o respinge motivat în 10 zile lucrătoare de la primire. Respingerea se poate contesta în contencios administrativ. Furnizorul care a notificat în termen nu poate fi sancționat cât timp notificarea e în analiză sau în termenul de completare acordat.”",
+      "argumentation": "Alin. (4) leagă corectitudinea notificării de validarea autorității, dar nu fixează termen, motivare sau cale de atac. Un furnizor care notifică la timp poate rămâne în afara legii doar pentru că ANCOM nu răspunde. Un termen clar și o cale de atac dau previzibilitatea cerută de art. 1 alin. (5) din Constituție și acces la justiție (art. 21).",
+      "otherComments": "Legea e la promulgare: propunerea poate servi unei reexaminări sau unei modificări ulterioare. Tot atunci: art. 6 alin. (3) trimite doar la GDPR și Legea 190/2018, deși poliția și parchetele prelucrează date după Legea 363/2018; e util de precizat ce date se schimbă și în ce scop. Ghidul ANCOM ar trebui să explice și „număr semnificativ de utilizatori”."
     }
   },
   "council": {
@@ -55,9 +55,35 @@
     },
     "claude": {
       "model": "claude",
-      "status": "error",
-      "durationMs": 2920,
-      "error": "You've hit your weekly limit · resets Nov 12, 7pm (Europe/Bucharest)"
+      "durationMs": 138668,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Furnizorii de servicii online trebuie să aibă în UE o adresă oficială unde primesc cererile de probe din dosarele penale",
+      "verdictShort": "Lege tehnică, de transpunere obligatorie, care nu dă procurorilor puteri noi. Doar obligă furnizorii digitali să aibă în UE un sediu sau un reprezentant care primește cererile de probe. Problemele sunt de redactare: validarea notificării nu are termen, iar schimbul de date între autorități nu are limite precise.",
+      "initiatorClaim": "Guvernul (MEDAT, cu ANCOM coinițiator) spune că transpune Directiva (UE) 2023/1544. Scopul declarat este ca autoritățile să comunice eficient cu furnizorii de servicii digitale, inclusiv cu cei din afara UE, pentru obținerea probelor electronice, în locul regulilor naționale fragmentate care încurcă piața internă.",
+      "realityCheck": "Legea nu creează temeiuri noi de acces la datele oamenilor: acestea rămân în Codul de procedură penală, în Legea 302/2004 și în Regulamentul (UE) 2023/1543. Ea obligă furnizorii de comunicații electronice, domenii, adrese IP, mesagerie și stocare care oferă servicii în UE să desemneze un sediu sau un reprezentant legal și să-l notifice, iar ANCOM devine autoritate centrală. Chichițele: notificarea e valabilă doar după o «validare» fără termen și fără cale de atac (art. 8 alin. 4), criteriul «număr semnificativ de utilizatori» este vag (art. 4 pct. 2–3), iar schimbul de date între ANCOM, poliție și procurori nu are limite clare (art. 6 alin. 3). Regimul sancționator, menționat la art. 7, nu apare în extrasul primit, deci proporționalitatea amenzilor nu poate fi evaluată.",
+      "affectedGroups": [
+        "IT & AI",
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 3 alin. (2) scutește furnizorii stabiliți în România care oferă servicii exclusiv în România, la fel ca art. 1 alin. (4) din directivă. ISP-urile și aplicațiile strict locale scapă. O firmă românească de cloud, SaaS cu stocare sau aplicație cu chat care are clienți și în alt stat membru intră însă sub lege, potrivit art. 4 pct. 1 lit. c). Sarcina ei principală este o notificare, iar sediul desemnat poate fi, de regulă, chiar firma.",
+        "Art. 8 alin. (4) consideră notificarea corectă «doar dacă aceasta este validată» de autoritatea centrală, dar extrasul nu prevede termen de validare, motivarea respingerii sau cale de atac. Un furnizor care notifică la timp poate rămâne formal în neregulă din cauza întârzierii autorității.",
+        "Art. 6 alin. (3) permite schimbul de date, inclusiv personale, între ANCOM, poliție, autorități judiciare și alte instituții, «în vederea identificării și localizării furnizorilor», cu trimitere doar la GDPR și la Legea 190/2018. Poliția și parchetele prelucrează însă date după Directiva (UE) 2016/680 și Legea 363/2018, iar legea nu precizează categoriile de date schimbate și nici durata păstrării lor.",
+        "Art. 5 alin. (1) lit. b) impune obligația și furnizorilor stabiliți în alt stat membru participant care oferă servicii în România. Directiva (art. 3 alin. 1 lit. a) atribuie această obligație statului de stabilire. Rezultă un risc de competențe suprapuse, pe care art. 7 alin. (2) îl recunoaște indirect prin trimiterea la «conflicte pozitive sau negative de competență».",
+        "Art. 2 lit. d) aplică regimul și ordinelor emise în temeiul dreptului național. Dacă o platformă străină își alege reprezentantul în România, procurorii români îi pot adresa direct ordinele din CPP. Este un câștig de eficiență fără garanții noi, dar și fără puteri noi."
+      ],
+      "blindSpotsCaught": "Validarea notificării de la art. 8 alin. (4) este o condiție suplimentară față de directivă, care cere doar notificarea în scris a autorității centrale. Legând conformarea de un act al ANCOM fără termen, legea mută riscul întârzierii administrative pe furnizor. Art. 5 alin. (1) lit. b) extinde obligația asupra furnizorilor din alte state participante, deși directiva lasă controlul lor statului de stabilire. Textul ajuns la promulgare păstrează și erori de redactare («territoriul», «ștat», «dup caz», «ca-stocarea») care ar trebui corectate la publicare. Contextul de calendar: termenul de transpunere a expirat la 18 februarie 2026, iar Regulamentul (UE) 2023/1543 se aplică de la 18 august 2026, deci România transpune cu întârziere.",
+      "constitutionalityNote": "Legea este, în ansamblu, compatibilă cu Constituția și pune în aplicare obligații UE (art. 148). Noțiunile vagi preluate din directivă, precum «număr semnificativ de utilizatori» sau «direcționarea activităților», sunt acceptabile din perspectiva art. 1 alin. (5) atunci când sunt interpretate împreună cu dreptul UE, dar ar beneficia de clarificări în ghidul ANCOM. Validarea fără termen și fără cale de atac a notificării (art. 8 alin. 4) ridică probleme de previzibilitate și de acces la justiție (art. 21, art. 52), mai ales dacă de ea depind sancțiuni. Schimbul de date de la art. 6 alin. (3) atinge art. 26 (viața privată). În jurisprudența privind datele (deciziile 1258/2009 și 440/2014), CCR a cerut limite precise de scop, categorii și durată. Aici intensitatea ingerinței e redusă, pentru că vizează identificarea furnizorilor, nu conținutul comunicațiilor utilizatorilor.",
+      "euLawNote": "Este o transpunere în mare parte fidelă a Directivei (UE) 2023/1544, care urmărește tocmai eliminarea obligațiilor naționale divergente de reprezentare, contrare art. 56 TFUE. Legea respectă acest scop: furnizorii pot desemna sediul sau reprezentantul în orice stat membru participant, nu obligatoriu în România. Directiva 2018/958 nu se aplică, fiindcă nu e reglementată o profesie. În privința TRIS (2015/1535), art. 7 alin. (1) lit. a) exceptează de la notificare măsurile de transpunere a actelor UE obligatorii. Adăugirile naționale, precum mecanismul de validare și extinderea de la art. 5 alin. (1) lit. b), sunt procedurale, cu risc redus. Prelucrările din art. 6 alin. (3) făcute de poliție și parchete țin de Directiva (UE) 2016/680, nu de GDPR. Adoptarea reduce riscul unei proceduri de constatare a neîndeplinirii obligațiilor pentru întârzierea transpunerii.",
+      "senatForm": {
+        "articleRef": "Art. 8 alin. (4) – validarea notificării",
+        "proposalContent": "„(4) Notificarea transmisă ANCOM se consideră validată dacă ANCOM nu o respinge motivat în 10 zile lucrătoare de la primire. Respingerea se poate contesta în contencios administrativ. Furnizorul care a notificat în termen nu poate fi sancționat cât timp notificarea e în analiză sau în termenul de completare acordat.”",
+        "argumentation": "Alin. (4) leagă corectitudinea notificării de validarea autorității, dar nu fixează termen, motivare sau cale de atac. Un furnizor care notifică la timp poate rămâne în afara legii doar pentru că ANCOM nu răspunde. Un termen clar și o cale de atac dau previzibilitatea cerută de art. 1 alin. (5) din Constituție și acces la justiție (art. 21).",
+        "otherComments": "Legea e la promulgare: propunerea poate servi unei reexaminări sau unei modificări ulterioare. Tot atunci: art. 6 alin. (3) trimite doar la GDPR și Legea 190/2018, deși poliția și parchetele prelucrează date după Legea 363/2018; e util de precizat ce date se schimbă și în ce scop. Ghidul ANCOM ar trebui să explice și „număr semnificativ de utilizatori”."
+      },
+      "status": "ok"
     },
     "codex": {
       "model": "codex",

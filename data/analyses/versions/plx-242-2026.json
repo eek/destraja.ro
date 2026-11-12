@@ -1,8 +1,28 @@
 {
   "slug": "plx-242-2026",
   "billId": "PL-x 242/2026",
-  "updatedAt": "2026-10-30T09:14:22.798Z",
+  "updatedAt": "2026-11-11T13:22:05.334Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L121FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Cine răspunde în România de stațiile de încărcare electrică, hidrogen și GNL cerute de UE",
+      "summaryTlDr": "Lege tehnică care aplică un regulament UE deja obligatoriu: numește Ministerul Energiei coordonator și ANRE pentru partea de reglementare. Problema reală este întârzierea de aproape doi ani, nu conținutul.",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 3
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,62 +56,120 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
+      "from": "initiator",
+      "to": "senat",
       "direction": "la_fel",
-      "headline": "Camera a aprobat OUG nr. 4/2026 privind combustibilii alternativi fără modificări față de Senat",
-      "summary": "Și Senatul, și Camera aprobă ordonanța exact cum a dat-o Guvernul. Senatul a adoptat-o tacit, iar Camera, ca for decizional, a votat-o pe 13 mai 2026. Pentru cetățeni și firme regulile nu se schimbă.",
+      "headline": "Senatul a adoptat tacit proiectul, fără nicio schimbare de fond",
+      "summary": "Senatul nu a dezbătut proiectul și l-a adoptat tacit, în forma inițială. Diferențele sunt doar în redactarea legii de aprobare (data și Monitorul Oficial ale ordonanței); conținutul ordonanței nu s-a schimbat.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Instituțiile care nu furnizează date nu au termene, indicatori sau sancțiuni",
+            "text": "Nicio consecință dacă ministerele nu furnizează date sau ținta nu e atinsă",
             "major": true,
-            "article": "art. 3"
+            "article": "art. 3 alin. (1)"
           },
           {
-            "text": "Colaborarea ministerelor este obligatorie, dar nu se spune ce urmează dacă lipsește",
-            "major": false,
-            "article": "art. 3 alin. (1)-(2)"
-          },
-          {
-            "text": "Obiectivele pe moduri de transport sunt parafrazate și pot devia de la regulamentul european",
+            "text": "Obiectivele doar parafrazează regulamentul: fără termene, buget sau indicatori naționali",
             "major": false,
             "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Formulare circulară: ministerul se asigură de obiectivele aflate în sarcina sa",
+            "major": false,
+            "article": "art. 3 alin. (1)"
+          },
+          {
+            "text": "Ministerul Transporturilor doar colaborează, deși porturile, aeroporturile și TEN-T țin de transporturi",
+            "major": false,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Senatul nu a dezbătut proiectul; adoptat tacit, decizia revine Camerei Deputaților",
+            "major": false,
+            "article": null
           }
         ],
         "good": [
           {
-            "text": "Ministerul Energiei este autoritatea competentă unică, deci răspunderea e clară",
-            "major": true,
+            "text": "Ministerul Energiei, punct unic de responsabilitate pentru aplicare și raportări către Comisie",
+            "major": false,
             "article": "art. 2 alin. (1), (2) și (4)"
           },
           {
-            "text": "ANRE răspunde de art. 15 alin. (3)-(4) AFIR, coerent cu rolul său",
-            "major": true,
+            "text": "ANRE primește atribuțiile din art. 15 alin. (3)-(4) AFIR, potrivit rolului său",
+            "major": false,
             "article": "art. 2 alin. (3)"
-          },
-          {
-            "text": "Ministerul lucrează cu MTI și MDLPA la monitorizare și raportări",
-            "major": false,
-            "article": "art. 2"
-          },
-          {
-            "text": "Definițiile sunt preluate corect din regulament, fără să fie rescrise",
-            "major": false,
-            "article": "art. 1 alin. (2)"
           }
         ],
         "partial": false
       },
       "diff": {
         "added": 4,
-        "removed": 3,
+        "removed": 2,
         "same": 0
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:17:27.703Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:21:40.025Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Nicio schimbare de fond: Camera a aprobat OUG 4/2026 fără amendamente, în forma de la Senat",
+      "summary": "Camera Deputaților a votat aceeași lege pe care Senatul o adoptase tacit: OUG 4/2026 este aprobată fără modificări. S-au schimbat doar camera care adoptă legea și formula de adoptare, deci riscurile pentru cetățeni și firme rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu se spune ce se întâmplă dacă ministerele nu colaborează sau nu dau date",
+            "major": true,
+            "article": "art. 3 alin. (1)-(2)"
+          },
+          {
+            "text": "Obligațiile sunt doar trimiteri la regulament, fără termene sau indicatori proprii",
+            "major": false,
+            "article": "art. 3 alin. (1)-(2)"
+          },
+          {
+            "text": "Obiectivele pe moduri de transport sunt parafrazate și pot devia de la textul european",
+            "major": false,
+            "article": "art. 3 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Ministerul Energiei este autoritatea unică pentru monitorizarea pieței și raportări",
+            "major": false,
+            "article": "art. 2 alin. (1), (2) și (4)"
+          },
+          {
+            "text": "ANRE primește atribuțiile de reglementare, coerent cu rolul său în rețelele electrice",
+            "major": false,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Definițiile sunt preluate din regulament, fără să fie rescrise",
+            "major": false,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Camera a votat legea ca for decizional, după adoptarea tacită de Senat",
+            "major": false,
+            "article": "articol unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "same": 0.25
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:22:05.334Z"
     }
   ]
 }

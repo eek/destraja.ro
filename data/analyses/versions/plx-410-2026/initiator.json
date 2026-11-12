@@ -2,14 +2,14 @@
   "billId": "PL-x 410/2026",
   "slug": "plx-410-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-11T09:36:22.062Z",
+  "updatedAt": "2026-11-11T13:42:30.726Z",
   "consensus": {
     "riskScore": 6,
     "riskLevel": "yellow",
-    "plainTitle": "Blocarea automată timp de 6 luni a popririlor pe conturile instituțiilor publice printr-o simplă notificare proprie",
-    "summaryTlDr": "Legea permite oricărei instituții publice datoare să își suspende singură, de drept, popririle pe conturile din Trezorerie și din băncile comerciale timp de 6 luni, printr-o simplă hârtie în care declară că nu are bani în buget. Deși urmărește protejarea serviciilor publice, textul elimină controlul judecătoresc prealabil și este redactat confuz, fără a preciza măcar cui trebuie trimisă notificarea sau ce sancțiune concretă riscă ordonatorul care minte.",
-    "initiatorClaim": "Inițiatorii susțin că vor să unifice practica dintre Trezorerie și băncile comerciale privind termenul de grație de 6 luni din OG nr. 22/2002, evitând blocarea conturilor operaționale ale instituțiilor publice (salarii, plăți curente) și reducând numărul proceselor de contestație la executare.",
-    "realityCheck": "În practică, legea transformă o excepție ce trebuia dovedită în fața instanței într-o autosuspendare automată declanșată unilateral de instituția debitoare în 15 zile de la somație. Textul normativ omite să prevadă cui se comunică notificarea lipsei fondurilor (executorului, băncii sau creditorului), nu cere atașarea dovezii demersurilor de rectificare bugetară și lasă cetățenii sau firmele care au câștigat procese definitive împotriva statului fără acces la poprire încă o jumătate de an.",
+    "plainTitle": "Statul poate amâna 6 luni poprirea conturilor doar declarând că n-are bani",
+    "summaryTlDr": "Problema e reală: conturi de spitale, universități sau primării ajung blocate la bancă. Soluția aleasă transformă însă termenul de grație de 6 luni într-un scut automat, fiindcă instituția datoare oprește poprirea printr-o simplă notificare, fără dovezi, fără destinatar clar și fără o sancțiune reală pentru declarații false.",
+    "initiatorClaim": "Inițiatorii spun că termenul de 6 luni din OG 22/2002 se aplică diferit la Trezorerie și la bănci, iar popririle bancare blochează conturi folosite pentru salarii și servicii publice. Vor o regulă unitară care să lase instituțiilor timp să găsească banii, fără să creeze imunitate de executare.",
+    "realityCheck": "Art. 2¹ suspendă de drept orice poprire pe conturile instituțiilor, la Trezorerie sau la bănci, timp de 6 luni de la somație, dacă debitorul notifică în 15 zile «lipsa fondurilor în bugetul aprobat». Notificarea nu trebuie dovedită, textul nu spune cui se trimite și nici cum o poate contesta creditorul, iar «răspunderea» ordonatorului de credite nu are un conținut concret. În realitate amânarea devine automată pentru orice instituție care o declară, sarcina dovezii trece la creditor, iar dobânzile și cheltuielile de executare continuă să crească și se plătesc din bani publici.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "IMM & Antreprenori",
@@ -17,10 +17,10 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 1 - Art. 2¹ alin. (1)-(3) OG 22/2002",
-      "proposalContent": "Alin. (2) și (3) ale art. 2¹ se modifică: „(2) Suspendarea operează doar dacă, în 15 zile de la comunicarea somației, debitoarea comunică executorului judecătoresc și terțului poprit extrasul bugetar certificând lipsa fondurilor și dovada demersurilor de alocare. (3) Comunicarea de date nereale atrage răspunderea patrimonială și penală a ordonatorului de credite.”",
-      "argumentation": "Textul actual al art. 2¹ alin. (2) este neclar (art. 1 alin. 5 din Constituție): nu precizează CUI i se comunică notificarea lipsei fondurilor (executorului, băncii sau creditorului) și permite blocarea popririi pe baza unei simple afirmații unilaterale a debitorului, fără acte doveditoare și fără dovada inițierii demersurilor bugetare cerute de art. 2 din OG 22/2002.",
-      "otherComments": "Alin. (1) și (2) sunt în contradicție logică: alin. (1) instituie o suspendare de drept de 6 luni de la somație, în timp ce alin. (2) amână poprirea cu 15 zile sub condiția unei notificări. De asemenea, alin. (3) proclamă că ordonatorul „răspunde”, dar fără a indica forma răspunderii sau sancțiunea aplicabilă în caz de abuz."
+      "articleRef": "Art. I pct. 1 – art. 2¹ alin. (2) și (3)",
+      "proposalContent": "(2) Poprirea se suspendă numai dacă, în 15 zile de la somație, debitorul transmite executorului și creditorului notificarea lipsei fondurilor, însoțită de execuția bugetară și de extrasele de cont. Altfel, poprirea operează după 15 zile. (3) Notificarea poate fi contestată la instanța de executare; ordonatorul care declară fals lipsa fondurilor răspunde pentru prejudiciu.",
+      "argumentation": "Textul lasă instituția debitoare să-și oprească singură poprirea 6 luni printr-o notificare, fără dovezi, fără destinatar precizat și fără sancțiune. Creditorii (salariați cu drepturi câștigate, firme furnizoare, expropriați) mai pierd 6 luni, iar dobânzile se plătesc din bani publici. Dovada și controlul instanței refac echilibrul cerut de art. 21 și 44 din Constituție.",
+      "otherComments": "Analiza privește forma inițiatorului; legea e deja promulgată (Legea 205/2026), deci propunerea poate sta la baza unei inițiative de modificare. Mai trebuie clarificat dacă suspendarea eliberează sumele deja blocate (salarii, plăți curente) și cum se aplică executărilor începute înainte de intrarea în vigoare."
     }
   },
   "council": {
@@ -58,9 +58,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "error",
-      "durationMs": 2948,
-      "error": "You've hit your weekly limit · resets Nov 12, 7pm (Europe/Bucharest)"
+      "durationMs": 229118,
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Statul poate amâna 6 luni poprirea conturilor doar declarând că n-are bani",
+      "verdictShort": "Problema e reală: conturi de spitale, universități sau primării ajung blocate la bancă. Soluția aleasă transformă însă termenul de grație de 6 luni într-un scut automat, fiindcă instituția datoare oprește poprirea printr-o simplă notificare, fără dovezi, fără destinatar clar și fără o sancțiune reală pentru declarații false.",
+      "initiatorClaim": "Inițiatorii spun că termenul de 6 luni din OG 22/2002 se aplică diferit la Trezorerie și la bănci, iar popririle bancare blochează conturi folosite pentru salarii și servicii publice. Vor o regulă unitară care să lase instituțiilor timp să găsească banii, fără să creeze imunitate de executare.",
+      "realityCheck": "Art. 2¹ suspendă de drept orice poprire pe conturile instituțiilor, la Trezorerie sau la bănci, timp de 6 luni de la somație, dacă debitorul notifică în 15 zile «lipsa fondurilor în bugetul aprobat». Notificarea nu trebuie dovedită, textul nu spune cui se trimite și nici cum o poate contesta creditorul, iar «răspunderea» ordonatorului de credite nu are un conținut concret. În realitate amânarea devine automată pentru orice instituție care o declară, sarcina dovezii trece la creditor, iar dobânzile și cheltuielile de executare continuă să crească și se plătesc din bani publici.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "Proprietari & Imobiliare",
+        "Sănătate & Educație"
+      ],
+      "keyFindings": [
+        "Art. 2¹ alin. (1)–(2): suspendarea de 6 luni pornește doar de la o notificare a debitorului despre «lipsa fondurilor în bugetul aprobat». Textul nu cere nicio dovadă (execuție bugetară, extrase de cont), nu spune cui se trimite notificarea și nu verifică dacă instituția face demersurile pe care i le impune art. 2. Expunerea de motive recunoaște chiar ea că azi efectul termenului depinde de dovedirea lipsei de fonduri, iar legea renunță la această dovadă.",
+        "Art. 2¹ alin. (3): ordonatorul de credite «răspunde» pentru exactitatea notificării, dar textul nu spune ce fel de răspundere este, ce sancțiune se aplică, cine o constată și cum își recuperează creditorul paguba. Instituția își face singură bugetul. Una care nu prevede bani pentru hotărâri judecătorești, deși art. 1 din OG 22/2002 o obligă, poate declara oricând «lipsă de fonduri».",
+        "Redactare contradictorie: alin. (1) suspendă «orice» poprire pe durata celor 6 luni, iar alin. (2) spune că poprirea «va opera în termen de 15 zile» dacă nu există notificare. Nu e clar dacă «în termen de» înseamnă în interiorul celor 15 zile sau după ele. Nu e clar nici ce se întâmplă cu o notificare trimisă în ziua 20, după ce poprirea a operat.",
+        "Expunerea de motive promite o obligație expresă pentru executori și bănci de a aplica suspendarea, plus o derogare de la art. 781–794 din Codul de procedură civilă. Textul nu conține obligația terților popriți și nici lista articolelor, ci doar o derogare generală «în materia popririi». Nu spune nici dacă «suspendarea» deblochează sumele deja indisponibilizate, adică exact problema salariilor invocată de inițiatori.",
+        "Lipsesc dispozițiile tranzitorii pentru popririle în curs. Regula generală din art. 24 CPC ar limita legea nouă la executările începute după intrarea ei în vigoare, dar textul nu o spune. Asta poate naște tocmai litigiile accesorii pe care inițiatorii vor să le evite."
+      ],
+      "blindSpotsCaught": "Textul mută practic sarcina probei. Până acum instituția trebuia să arate că nu are bani. De acum creditorul (salariat cu drepturi câștigate în instanță, furnizor, expropriat) ar trebui să meargă în instanță ca să arate că declarația instituției e falsă, pe o cale pe care legea nici măcar nu o numește. Băncile, ca terți popriți, primesc o regulă care operează «de drept», dar nu află oficial cui și cum se trimite notificarea și riscă să răspundă față de creditor dacă greșesc. Încadrarea ca lege organică pe art. 73 alin. (3) lit. m) (regimul juridic al proprietății) arată că inițiatorii știu că legea atinge dreptul de proprietate al creditorilor. Analiza privește forma inițiatorului. Textul promulgat ca Legea 205/2026 poate diferi.",
+      "constitutionalityNote": "Termenul de 6 luni din OG 22/2002 a fost acceptat de CCR ca protecție a funcționării serviciilor publice, cu condiția să nu ducă la o amânare nelimitată (inițiatorii citează Decizia nr. 598/2021). Noutatea acestei legi este declanșarea automată, pe baza declarației debitorului. Problemele constituționale sunt trei. (1) Art. 1 alin. (5): destinatarul notificării, conținutul ei, sensul sintagmei «în termen de 15 zile» și răspunderea din alin. (3) sunt neclare. (2) Art. 16: un debitor privat obține de regulă suspendarea executării doar prin instanță și cu cauțiune (art. 718 CPC), pe când instituția publică o obține prin propria notificare. (3) Art. 21 alin. (3) și art. 44, coroborate cu art. 20: executarea face parte din procesul echitabil, iar creanța este un bun ocrotit (art. 6 CEDO și art. 1 din Protocolul 1; Hornsby c. Greciei; hotărârea-pilot din ianuarie 2025, Fundația Căminul Studențesc al Bisericii Reformate și Stanomirescu c. României, privind neexecutarea hotărârilor împotriva statului). Legea fiind deja promulgată, aceste critici pot fi ridicate prin excepție de neconstituționalitate în contestațiile la executare. Riscul este moderat: limita de 6 luni salvează principiul, dar lipsa oricărui control asupra notificării îl slăbește.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează accesul la o profesie. Nici TRIS (Directiva 2015/1535) nu este relevantă, pentru că nu există reguli tehnice sau servicii ale societății informaționale. Relevantă indirect este Directiva 2011/7/UE privind întârzierea plăților, transpusă prin Legea 72/2013. Ea obligă autoritățile publice să plătească în 30 de zile (60 în cazuri speciale), iar art. 10 cere obținerea titlului executoriu în 90 de zile. Directiva nu reglementează executarea propriu-zisă, deci nu este încălcată direct. Totuși, o pauză de 6 luni declanșată unilateral îi golește efectul pentru furnizorii statului, mai ales pentru IMM-uri. Pentru creanțele izvorâte din dreptul UE (de pildă restituirea unor taxe încasate contrar dreptului UE), principiul efectivității și art. 47 din Cartă pot fi invocate împotriva unei amânări pe care instanța nu o poate verifica.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 1 – art. 2¹ alin. (2) și (3)",
+        "proposalContent": "(2) Poprirea se suspendă numai dacă, în 15 zile de la somație, debitorul transmite executorului și creditorului notificarea lipsei fondurilor, însoțită de execuția bugetară și de extrasele de cont. Altfel, poprirea operează după 15 zile. (3) Notificarea poate fi contestată la instanța de executare; ordonatorul care declară fals lipsa fondurilor răspunde pentru prejudiciu.",
+        "argumentation": "Textul lasă instituția debitoare să-și oprească singură poprirea 6 luni printr-o notificare, fără dovezi, fără destinatar precizat și fără sancțiune. Creditorii (salariați cu drepturi câștigate, firme furnizoare, expropriați) mai pierd 6 luni, iar dobânzile se plătesc din bani publici. Dovada și controlul instanței refac echilibrul cerut de art. 21 și 44 din Constituție.",
+        "otherComments": "Analiza privește forma inițiatorului; legea e deja promulgată (Legea 205/2026), deci propunerea poate sta la baza unei inițiative de modificare. Mai trebuie clarificat dacă suspendarea eliberează sumele deja blocate (salarii, plăți curente) și cum se aplică executărilor începute înainte de intrarea în vigoare."
+      },
+      "status": "ok"
     },
     "codex": {
       "model": "codex",

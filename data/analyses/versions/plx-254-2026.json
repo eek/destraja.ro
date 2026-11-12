@@ -1,8 +1,28 @@
 {
   "slug": "plx-254-2026",
   "billId": "PL-x 254/2026",
-  "updatedAt": "2026-10-30T09:14:46.189Z",
+  "updatedAt": "2026-11-11T13:21:57.580Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L080FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 1,
+      "riskLevel": "green",
+      "plainTitle": "Târgoviște primește titlul simbolic de „Oraș Voievodal”",
+      "summaryTlDr": "Este o lege pur simbolică, de un singur articol, fără drepturi, obligații, taxe sau costuri, așa că riscul e practic nul. Singurele observații privesc lipsa unei precizări despre efectele titlului și câteva erori istorice din expunerea de motive.",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 1
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,15 +56,79 @@
   ],
   "changes": [
     {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit proiectul în forma inițială; articolul unic are aceleași cuvinte",
+      "summary": "Senatul a adoptat proiectul tacit, fără modificări. Acum diferă doar antetul, ghilimelele din jurul titlului și formula de adoptare. Articolul unic rămâne pur declarativ și nu creează obligații, sancțiuni sau costuri.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "„Principal centru al Evului Mediu românesc” ignoră Moldova și Transilvania, afirmație contestabilă",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Adoptat tacit de Senat, fără dezbatere de fond în prima cameră",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Expunerea de motive are erori istorice și o trimitere neverificată la Legea 361/2018",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Avantajele promise în expunere, ca finanțările sau programele culturale, lipsesc din lege",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu impune cheltuieli, obligații sau sancțiuni pentru cetățeni, firme ori autorități",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Recunoaște simbolic rolul Târgoviștei de fostă capitală domnească a Țării Românești",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 6,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:21:10.992Z"
+    },
+    {
       "from": "senat",
       "to": "camera",
       "direction": "la_fel",
-      "headline": "Formulare istorică mai prudentă și dispare „simbolic”; legea rămâne fără obligații pentru cetățeni",
-      "summary": "Acum, Târgoviște e numit „important centru” medieval, nu „principal centru al Evului Mediu românesc”, iar cuvântul „simbolic” a dispărut. Legea rămâne pur declarativă: fără bani, obligații sau sancțiuni pentru cetățeni ori firme.",
+      "headline": "Dispare „titlu simbolic”: Târgoviște e „declarată” Oraș Voievodal, „important”, nu „principal” centru",
+      "summary": "Camera a reformulat articolul unic. Târgoviște este acum „declarată” Oraș Voievodal, fără cuvântul „simbolic”, și e numită „important”, nu „principal” centru medieval. Legea rămâne pur onorifică: nu aduce obligații, costuri sau sancțiuni.",
       "changes": [
         {
-          "title": "Rolul istoric al Târgoviștei, descris mai prudent",
-          "text": "Articolul unic nu mai spune că Târgoviște a fost „principal centru” al Evului Mediu românesc. Acum spune „important centru” din spațiul românesc. Formularea e mai puțin contestabilă istoric.",
+          "title": "Nu mai scrie că titlul este simbolic",
+          "text": "Articolul unic nu mai „conferă titlul simbolic”, ci „declară” orașul Oraș Voievodal. Și titlul legii pierde cuvântul „simbolic”, așa că faptul că titlul e doar onorific reiese numai implicit.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. unic",
+          "before": "Se conferă municipiului Târgoviște titlul simbolic de Oraș Voievodal",
+          "after": "se declară municipiul Târgoviște ca Oraș Voievodal",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "„Principal” devine „important” centru medieval",
+          "text": "Articolul unic nu mai spune că Târgoviște a fost „principal centru” al Evului Mediu românesc. Acum o numește „important centru” din spațiul românesc medieval, o formulare mai prudentă istoric.",
           "effect": "mai_bine",
           "major": false,
           "article": "art. unic",
@@ -54,31 +138,20 @@
           "afterAbsent": false
         },
         {
-          "title": "Cuvântul „simbolic” a dispărut din titlul legii",
-          "text": "Titlul nu mai precizează că e vorba de un titlu simbolic. Caracterul pur onorific rezultă acum doar implicit.",
-          "effect": "mai_rau",
-          "major": false,
-          "article": null,
-          "before": "pentru conferirea titlului simbolic de Oraș Voievodal municipiului Târgoviște",
-          "after": "pentru declararea municipiului Târgoviște ca Oraș Voievodal",
-          "beforeAbsent": false,
-          "afterAbsent": false
-        },
-        {
-          "title": "Titlul nu mai e „conferit simbolic”, ci „declarat”",
-          "text": "În articolul unic, „se conferă... titlul simbolic” devine „se declară”. Efectul rămâne declarativ, fără drepturi sau obligații noi.",
+          "title": "Fostă reședință domnească și capitală",
+          "text": "Articolul unic numește acum Târgoviște „fostă reședință domnească și capitală a Țării Românești”, în loc de „fostă capitală domnească”. Este o precizare fără efecte practice.",
           "effect": "neutru",
           "major": false,
           "article": "art. unic",
-          "before": "Se conferă municipiului Târgoviște titlul simbolic de Oraș Voievodal",
-          "after": "se declară municipiul Târgoviște ca Oraș Voievodal",
+          "before": "de fostă capitală domnească a Țării Românești",
+          "after": "de fostă reședință domnească și capitală a Țării Românești",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Camera a votat efectiv, Senatul adoptase tacit",
-          "text": "Inițial, proiectul a fost adoptat tacit de Senat, fără dezbatere de fond. Acum a fost adoptat prin vot de Camera Deputaților, pe 16 septembrie 2026.",
-          "effect": "mai_bine",
+          "title": "Votat în Cameră, după adoptarea tacită în Senat",
+          "text": "Inițial, proiectul se considera adoptat tacit de Senat. Acum mențiunea finală arată votul Camerei Deputaților din 16 septembrie 2026. Schimbarea ține doar de procedură.",
+          "effect": "neutru",
           "major": false,
           "article": null,
           "before": "Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2) teza a III-a din Constituția României, republicată.",
@@ -90,53 +163,58 @@
       "remaining": {
         "problems": [
           {
-            "text": "Caracterul pur onorific al titlului rezultă doar implicit, nu e scris explicit",
+            "text": "Caracterul pur onorific reiese doar implicit, fără cuvântul „simbolic”",
             "major": false,
             "article": "art. unic"
           },
           {
-            "text": "Fără norme de aplicare și fără autoritate responsabilă desemnată",
+            "text": "Nu precizează ce înseamnă statutul de Oraș Voievodal și nu numește autoritate responsabilă",
             "major": false,
             "article": "art. unic"
           },
           {
-            "text": "Expunerea de motive conține erori istorice despre primele tipărituri",
+            "text": "Expunerea de motive are erori istorice despre primele tipărituri",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "În Senat a trecut tacit, fără dezbatere de fond",
             "major": false,
             "article": null
           }
         ],
         "good": [
           {
-            "text": "Nu impune obligații, termene sau sancțiuni cetățenilor ori firmelor",
+            "text": "Nu impune obligații, sancțiuni sau costuri și nu are impact asupra bugetului",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Formulare istorică mai prudentă: „important centru” din spațiul românesc medieval",
             "major": false,
             "article": "art. unic"
           },
           {
-            "text": "Fără impact bugetar; eventualele costuri rămân opțiunea Consiliului Local",
+            "text": "Articolul nu preia afirmațiile greșite din expunerea de motive",
             "major": false,
             "article": "art. unic"
           },
           {
-            "text": "Formulare istorică prudentă: „important centru” în perioada medievală",
+            "text": "Camera Deputaților a votat explicit proiectul",
             "major": false,
-            "article": "art. unic"
-          },
-          {
-            "text": "Articolul nu preia afirmațiile eronate din expunerea de motive",
-            "major": false,
-            "article": "art. unic"
+            "article": null
           }
         ],
         "partial": false
       },
       "diff": {
         "added": 4,
-        "removed": 3,
+        "removed": 4,
         "same": 0
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:18:22.967Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:21:57.580Z"
     }
   ]
 }

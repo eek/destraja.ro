@@ -1,0 +1,9 @@
+# ROMANIA Parlamentul României Camera Deputaților
+
+## Câtre Biroul Permanent al Senatului
+
+În temeiul prevederilor art. 74 alin. (4) din Constituția României, republicată, și ale art. 92 din Regulamentul Camerei Deputaților, republicat, vă înaintez spre dezbatere și adoptare propunerea legislativă pentru pentru completarea Ordonanței de urgență a Guvernului nr. 107/2002 privind înființarea Administrației Naționale „Apele Române”, a Legii nr. 82/1993 privind constituirea Rezervației Biosferei Delta Dunării, a Ordonanței de urgență a Guvernului nr. 103/2024 privind reorganizarea unor instituții publice din domeniul mediului, apelor și pădurilor, precum și pentru modificarea și completarea unor acte normative, precum și a Ordonanței de urgență a Guvernului nr. 196/2005 privind Fondul pentru mediu.
+
+În numele inițiatorilor,
+
+Deputată DIANA-ANDA BUZOIANU

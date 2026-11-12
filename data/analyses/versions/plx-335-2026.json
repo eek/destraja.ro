@@ -1,7 +1,12 @@
 {
   "slug": "plx-335-2026",
   "billId": "PL-x 335/2026",
-  "updatedAt": "2026-10-30T09:20:51.318Z",
+  "updatedAt": "2026-11-11T13:33:06.304Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -32,6 +37,21 @@
         "claude": 4,
         "codex": 5
       }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L328FS.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Deblocarea angajărilor de profesori, plus derogări pentru universități și un corp de profesori români trimiși în străinătate",
+      "summaryTlDr": "Nucleul legii e util și chiar urgent: deblochează concursurile pentru zecile de mii de posturi de profesori care se eliberează la 31 august 2026 și pentru posturile de asistent universitar. Forma aprobată aduce însă și derogări care slăbesc controlul: angajări în proiecte fără selecție, solduri universitare mutate inclusiv spre „Alte cheltuieli” și standarde naționale opționale pentru conducătorii de doctorat cu titlu străin.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
     }
   ],
   "changes": [
@@ -39,72 +59,72 @@
       "from": "initiator",
       "to": "camera",
       "direction": "mai_riscant",
-      "headline": "Universitățile pot angaja în proiecte fără selecție și pot folosi soldurile pentru „alte destinații”",
-      "summary": "Deputații au deblocat angajările de personal auxiliar și administrativ în școli. În același timp, au dat universităților libertăți largi, aproape fără limite: banii rămași pot fi folosiți pentru orice decide consiliul, angajările în proiecte se fac fără selecție, iar cercetarea se plătește suprapus cu orele.",
+      "headline": "Universitățile pot angaja în proiecte fără selecție și plăti cercetarea făcută în orele de predare",
+      "summary": "Camera a adăugat reguli noi pentru universități: angajări în proiecte fără selecție, cercetare plătită în orele de predare, solduri cheltuite pe destinații alese de consiliu, standarde opționale la doctorat. Școlile pot angaja și personal auxiliar și administrativ.",
       "changes": [
         {
-          "title": "Universitățile pot angaja în proiecte fără concurs",
-          "text": "Art. II pct. 4 (art. 202 alin. (6) din Legea 199/2023): angajarea pe durată determinată în proiecte se face fără selecție, iar pentru personalul propriu doar prin decizia rectorului. Nu există obligație de publicare.",
+          "title": "Cercetarea plătită separat în aceleași ore cu predarea",
+          "text": "Noul art. 212¹ din Legea 199/2023 permite ca predarea și cercetarea plătită din contracte să se facă în același interval de timp și declară că plata nu e dublă salarizare.",
           "effect": "mai_rau",
           "major": true,
-          "article": "art. II pct. 4 (art. 202 alin. (6) din Legea 199/2023)",
-          "before": null,
-          "after": "angajarea pentru participarea la proiecte de cercetare în domeniul educației și formării profesionale sau în proiecte naționale/europene/internaționale se poate face pe perioadă determinată, fără parcurgerea altor formalități prealabile și/sau procese de selecție",
-          "beforeAbsent": true,
-          "afterAbsent": false
-        },
-        {
-          "title": "Banii rămași ai universităților, cheltuiți fără limite clare",
-          "text": "Art. II pct. 1 (art. 11 alin. (4) din Legea 199/2023): prin derogare de la Legea 500/2002, soldurile pot merge și spre „alte destinații” stabilite de consiliul de administrație, fără limite explicite.",
-          "effect": "mai_rau",
-          "major": true,
-          "article": "art. II pct. 1 (art. 11 alin. (4) din Legea 199/2023)",
-          "before": null,
-          "after": "precum și alte cheltuieli de natura investițiilor sau pentru alte destinații stabilite de către consiliul de administrației al instituției de învățământ superior.",
-          "beforeAbsent": true,
-          "afterAbsent": false
-        },
-        {
-          "title": "Cercetarea plătită separat, în același timp cu predarea",
-          "text": "Art. II pct. 5 (art. 212¹ nou din Legea 199/2023): cadrele didactice pot fi plătite din contracte de cercetare pentru activități făcute în același interval cu norma, iar legea declară că asta nu e dublă salarizare.",
-          "effect": "mai_rau",
-          "major": true,
-          "article": "art. II pct. 5 (art. 212¹ din Legea 199/2023)",
+          "article": "art. 212¹ din Legea 199/2023",
           "before": null,
           "after": "Activitățile didactice și activitățile de cercetare desfășurate în cadrul contractelor de cercetare pot fi realizate concomitent, inclusiv în același interval de timp",
           "beforeAbsent": true,
           "afterAbsent": false
         },
         {
-          "title": "Deblocate angajările de personal auxiliar și administrativ în școli",
-          "text": "Art. III (art. XXII alin. (1¹) din Legea 141/2025): sunt exceptate de la blocaj și concursurile pentru personalul didactic auxiliar și administrativ din preuniversitarul de stat.",
+          "title": "Angajări în proiecte fără selecție, la decizia rectorului",
+          "text": "Art. 202 alin. (6) din Legea 199/2023: angajarea pe perioadă determinată în proiecte de cercetare se face fără formalități sau selecție; pentru propriul personal decide rectorul. Textul nu cere publicarea.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 202 alin. (6) din Legea 199/2023",
+          "before": null,
+          "after": "angajarea pentru participarea la proiecte de cercetare în domeniul educației și formării profesionale sau în proiecte naționale/europene/internaționale se poate face pe perioadă determinată, fără parcurgerea altor formalități prealabile și/sau procese de selecție",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Universitățile pot muta soldurile spre destinații alese de consiliu",
+          "text": "Art. 11 alin. (4) din Legea 199/2023 derogă de la Legea finanțelor publice: soldurile și sumele reportate pot merge și spre „alte destinații” stabilite de consiliul de administrație, fără limite.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 11 alin. (4) din Legea 199/2023",
+          "before": null,
+          "after": "precum și alte cheltuieli de natura investițiilor sau pentru alte destinații stabilite de către consiliul de administrației al instituției de învățământ superior",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Școlile de stat pot angaja auxiliari și administrativi",
+          "text": "Art. III (art. XXII alin. (1¹) din Legea 141/2025): blocajul nu mai oprește concursurile pentru personal didactic auxiliar și administrativ din școli. Posturile de lector, conferențiar și profesor rămân blocate.",
           "effect": "mai_bine",
           "major": true,
           "article": "art. III (art. XXII alin. (1¹) din Legea 141/2025)",
           "before": null,
-          "after": "nu se aplică pentru ocuparea prin concurs sau examen a posturilor didactice de predare, a posturilor pentru personal didactic auxiliar și personal administrativ din învățământul preuniversitar de stat",
+          "after": "Prevederile alin. (1) nu se aplică pentru ocuparea prin concurs sau examen a posturilor didactice de predare, a posturilor pentru personal didactic auxiliar și personal administrativ din învățământul preuniversitar de stat",
           "beforeAbsent": true,
           "afterAbsent": false
         },
         {
-          "title": "Bani de la stat pentru școlile universităților",
-          "text": "Art. I pct. 2¹ (art. 139 alin. (4) din Legea 198/2023): școlile din cadrul universităților de stat primesc finanțare de la bugetul de stat, pe cost standard per elev. Este o cheltuială nouă introdusă de Parlament.",
-          "effect": "neutru",
+          "title": "Standarde naționale opționale pentru conducătorii de doctorat străini",
+          "text": "Art. 69 alin. (8) lit. d) din Legea 199/2023: IOSUD recunoaște conducătorii de doctorat din străinătate după metodologii proprii, în care standardele minimale naționale doar „pot fi” prevăzute.",
+          "effect": "mai_rau",
           "major": true,
-          "article": "art. I pct. 2¹ (art. 139 alin. (4) din Legea 198/2023)",
+          "article": "art. 69 alin. (8) lit. d) din Legea 199/2023",
+          "before": null,
+          "after": "în baza metodologiilor proprii în care pot fi prevăzute și standardele minimale naționale aferente",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Finanțare de la stat pentru școlile universităților",
+          "text": "Art. 139 alin. (4) din Legea 198/2023: școlile înființate în cadrul universităților de stat primesc bani de la bugetul de stat, prin Ministerul Educației, pe cost standard per elev. Este o cheltuială nouă.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 139 alin. (4) din Legea 198/2023",
           "before": null,
           "after": "Finanțarea se asigură prin transferuri de la bugetul de stat, prin bugetul Ministerului Educației și Cercetării, pe baza costului standard per antepreșcolar/preșcolar/elev",
-          "beforeAbsent": true,
-          "afterAbsent": false
-        },
-        {
-          "title": "Conducători de doctorat străini, recunoscuți fără standarde obligatorii",
-          "text": "Art. II pct. 2 (art. 69 alin. (8) lit. d) din Legea 199/2023): fiecare IOSUD îi recunoaște după metodologia proprie, iar standardele minimale naționale sunt doar opționale.",
-          "effect": "mai_rau",
-          "major": false,
-          "article": "art. II pct. 2 (art. 69 alin. (8) lit. d) din Legea 199/2023)",
-          "before": null,
-          "after": "în baza metodologiilor proprii în care pot fi prevăzute și standardele minimale naționale aferente.",
           "beforeAbsent": true,
           "afterAbsent": false
         }
@@ -112,83 +132,204 @@
       "remaining": {
         "problems": [
           {
-            "text": "Angajări în proiecte fără selecție și fără obligație de publicare",
+            "text": "Cercetarea poate fi plătită separat pentru aceleași ore în care se predă",
             "major": true,
-            "article": "art. II pct. 4 (art. 202 alin. (6) din Legea 199/2023)"
+            "article": "art. 212¹ din Legea 199/2023"
           },
           {
-            "text": "Soldurile universităților pot merge la „alte destinații”, fără limite; text cu greșeală",
+            "text": "Angajări în proiecte fără selecție, prin decizia rectorului, fără publicare prevăzută",
             "major": true,
-            "article": "art. II pct. 1 (art. 11 alin. (4) din Legea 199/2023)"
+            "article": "art. 202 alin. (6) din Legea 199/2023"
           },
           {
-            "text": "Plata cercetării suprapusă cu norma didactică, declarată prin lege ca nefiind dublă salarizare",
+            "text": "Soldurile universităților pot merge spre orice destinație aleasă de consiliul de administrație",
             "major": true,
-            "article": "art. II pct. 5 (art. 212¹ din Legea 199/2023)"
+            "article": "art. 11 alin. (4) din Legea 199/2023"
           },
           {
-            "text": "Școlile particulare și confesionale noi pot aștepta circa 12 luni finanțarea",
+            "text": "Standardele minimale naționale sunt opționale la recunoașterea conducătorilor de doctorat străini",
+            "major": true,
+            "article": "art. 69 alin. (8) lit. d) din Legea 199/2023"
+          },
+          {
+            "text": "Finanțarea de bază întârzie pentru școlile particulare și confesionale acreditate în cursul anului",
             "major": true,
             "article": "art. I pct. 2 (art. 138 alin. (10) din Legea 198/2023)"
           },
           {
-            "text": "Posturile de lector, conferențiar și profesor rămân blocate pentru concurs extern",
+            "text": "Posturile de lector, conferențiar și profesor universitar rămân blocate la concurs extern",
             "major": true,
             "article": "art. III (art. XXII alin. (1¹) din Legea 141/2025)"
           },
           {
-            "text": "Standardele naționale pentru conducătorii de doctorat străini sunt doar opționale",
+            "text": "Limita de doctoranzi per conducător amânată până în 2030-2031; decide senatul",
             "major": false,
-            "article": "art. II pct. 2 (art. 69 alin. (8) lit. d) din Legea 199/2023)"
+            "article": "art. 260 alin. (18) din Legea 199/2023"
           },
           {
-            "text": "Limita de doctoranzi per conducător amânată până în 2030-2031",
-            "major": false,
-            "article": "art. II pct. 6 (art. 260 alin. (18) din Legea 199/2023)"
-          },
-          {
-            "text": "Nu e clar când instructorii ofițeri se angajează prin examen în loc de concurs",
+            "text": "Formulare vagă: nu spune când instructorii se angajează prin examen, nu prin concurs",
             "major": false,
             "article": "art. I pct. 3 și 4 (art. 206 din Legea 198/2023)"
           },
           {
-            "text": "Clasele bilingve reduc timpul pentru alte opționale alese de școală",
+            "text": "Clasa bilingvă ia cel puțin 3 ore din opționalele decise de școală",
             "major": false,
             "article": "art. I pct. 1 (art. 92 alin. (4) din Legea 198/2023)"
+          },
+          {
+            "text": "Greșeală de redactare: „consiliul de administrației”",
+            "major": false,
+            "article": "art. 11 alin. (4) din Legea 199/2023"
           }
         ],
         "good": [
           {
-            "text": "Deblocate concursurile pentru profesori, personal auxiliar, administrativ și asistenți universitari",
+            "text": "Concursurile din școli, inclusiv auxiliari și administrativi, și pentru asistenți universitari sunt deblocate",
             "major": true,
             "article": "art. III (art. XXII alin. (1¹) din Legea 141/2025)"
           },
           {
-            "text": "Școlile universităților de stat au finanțare clară, pe cost standard per elev",
+            "text": "Școlile din cadrul universităților de stat primesc finanțare de la stat pe cost standard",
             "major": true,
-            "article": "art. I pct. 2¹ (art. 139 alin. (4) din Legea 198/2023)"
+            "article": "art. 139 alin. (4) din Legea 198/2023"
           },
           {
-            "text": "Condiții de vechime mai flexibile pentru instructorii ofițeri",
+            "text": "Banii rămași pentru burse și cămine pot fi folosiți în anii următori pentru studenți",
+            "major": true,
+            "article": "art. 11 alin. (4) din Legea 199/2023"
+          },
+          {
+            "text": "Instructorii ofițeri pot avea vechime și ca subofițer, maistru militar sau agent",
             "major": false,
             "article": "art. I pct. 3 și 4 (art. 206 din Legea 198/2023)"
           },
           {
-            "text": "Disciplinele bilingve se stabilesc prin ordin publicat în Monitorul Oficial",
+            "text": "Studenții civili școlarizați pentru apărare și ordine publică primesc drepturile prin instituția militară",
             "major": false,
-            "article": "art. I pct. 1 (art. 92 alin. (4) din Legea 198/2023)"
+            "article": "art. 122 alin. (2) din Legea 199/2023"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 27,
+        "added": 32,
         "removed": 2,
         "same": 0
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:23:10.429Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:31:37.700Z"
+    },
+    {
+      "from": "camera",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Universitățile nu mai pot muta soldurile spre orice destinație aleasă de consiliul de administrație",
+      "summary": "Acum, universitățile de stat pot folosi banii rămași doar pentru o listă fixă de destinații, nu pentru orice decide consiliul de administrație, iar angajările fără concurs în proiecte derogă doar de la un articol din legea salarizării. Ambele reduc libertatea de a ocoli regulile.",
+      "changes": [
+        {
+          "title": "Banii rămași ai universităților: listă închisă de destinații",
+          "text": "Art. 11 alin. (4) din Legea 199/2023: soldurile nu mai pot merge la orice destinație aleasă de consiliul de administrație, ci doar la investiții, active financiare, credite de investiții și „Alte cheltuieli”.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 11 alin. (4) din Legea 199/2023",
+          "before": "precum și alte cheltuieli de natura investițiilor sau pentru alte destinații stabilite de către consiliul de administrației al instituției de învățământ superior.",
+          "after": "a altor cheltuieli de natura investițiilor, a activelor financiare, a rambursării împrumuturilor/creditelor contractate pentru investiții și a cheltuielilor încadrate la titlul „Alte cheltuieli”.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Derogarea de la legea salarizării, limitată la un articol",
+          "text": "Art. 202 alin. (6) din Legea 199/2023: angajările în proiecte nu mai derogă de la toată legea salarizării 153/2017, ci doar de la art. 16 alin. (10⁶); restul regulilor de salarizare se aplică.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 202 alin. (6) din Legea 199/2023",
+          "before": "Prin derogare de la prevederile Legii nr. 153/2017 privind salarizarea personalului plătit din fonduri publice",
+          "after": "Prin derogare de la prevederile art.16 alin.(10⁶) din Legea nr.153/2017 privind salarizarea personalului plătit din fonduri publice",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Angajări în proiecte fără concurs, prin decizia rectorului, fără obligație de publicare",
+            "major": true,
+            "article": "art. 202 alin. (6) din Legea 199/2023"
+          },
+          {
+            "text": "Conducători de doctorat din străinătate recunoscuți fără standarde naționale obligatorii",
+            "major": true,
+            "article": "art. 69 alin. (8) lit. d) din Legea 199/2023"
+          },
+          {
+            "text": "Soldurile pot merge și la titlul „Alte cheltuieli”, destinație largă, greu de urmărit",
+            "major": true,
+            "article": "art. 11 alin. (4) din Legea 199/2023"
+          },
+          {
+            "text": "Cercetarea plătită separat poate fi făcută în aceleași ore cu norma didactică",
+            "major": true,
+            "article": "art. 212¹ din Legea 199/2023"
+          },
+          {
+            "text": "Evidența și plata cercetării se stabilesc doar prin regulamentele interne ale universităților",
+            "major": false,
+            "article": "art. 212¹ alin. (5) din Legea 199/2023"
+          },
+          {
+            "text": "Până în 2030-2031, fiecare senat universitar decide câți doctoranzi are un conducător",
+            "major": false,
+            "article": "art. 260 alin. (18) din Legea 199/2023"
+          }
+        ],
+        "good": [
+          {
+            "text": "Școlile din subordinea universităților de stat primesc finanțare pe cost standard per elev",
+            "major": true,
+            "article": "art. 139 alin. (4) din Legea 198/2023"
+          },
+          {
+            "text": "Destinațiile soldurilor universităților sunt enumerate în lege, nu lăsate consiliului de administrație",
+            "major": true,
+            "article": "art. 11 alin. (4) din Legea 199/2023"
+          },
+          {
+            "text": "Banii neridicați pentru burse și cămine rămân pentru studenți în anii următori",
+            "major": true,
+            "article": "art. 11 alin. (4) din Legea 199/2023"
+          },
+          {
+            "text": "Derogarea de la legea salarizării privește doar art. 16 alin. (10⁶)",
+            "major": true,
+            "article": "art. 202 alin. (6) din Legea 199/2023"
+          },
+          {
+            "text": "Posturile didactice și auxiliare din școli pot fi ocupate prin concurs sau examen",
+            "major": true,
+            "article": "art. III din OUG 28/2026 (art. XXII alin. (1¹))"
+          },
+          {
+            "text": "Salariul din proiecte se plătește în limita fondurilor, după regulile finanțatorului",
+            "major": false,
+            "article": "art. 202 alin. (6) din Legea 199/2023"
+          },
+          {
+            "text": "Studenții școlarizați pentru apărare și ordine publică primesc evidență și drepturi militare",
+            "major": false,
+            "article": "art. 122 alin. (2) din Legea 199/2023"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 12,
+        "removed": 8,
+        "same": 0.7
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:33:06.304Z"
     }
   ]
 }

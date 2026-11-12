@@ -1,8 +1,28 @@
 {
   "slug": "plx-448-2026",
   "billId": "PL-x 448/2026",
-  "updatedAt": "2026-10-30T09:29:33.174Z",
+  "updatedAt": "2026-11-11T13:51:22.969Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L263FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Pedepse mai mari pentru cine agresează medici, asistente și infirmieri, și în clinicile private",
+      "summaryTlDr": "Scopul e bun și susținut de toate partidele: protecția penală ajunge și la personalul din privat și la cel auxiliar. Pedepsele sunt însă fixate separat, cu un termen din vechiul Cod penal, iar la câteva fapte grave textul special iese egal, mai blând sau ambiguu față de Codul penal.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,31 +56,148 @@
   ],
   "changes": [
     {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Pedepsele mai aspre pentru agresiuni în unitățile medicale se aplică acum și la personalul nemedical",
+      "summary": "Acum legea acoperă explicit și personalul nemedical din unitățile medicale, așa că pedepsele mari (de pildă minimum 1 an pentru o lovire) se aplică la mai multe fapte. În schimb, a dispărut termenul vechi «vătămare corporală gravă», care făcea textul neclar.",
+      "changes": [
+        {
+          "title": "Pedepsele se extind și la personalul nemedical",
+          "text": "Art. 652 alin. (1) acoperă acum și personalul nemedical din unitățile medicale. Prin trimiterile din alin. (2)–(6), toate pedepsele agravate și protecția familiei se aplică și acestuia.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 652 alin. (1)",
+          "before": "contra personalului medico-sanitar, respectiv personalul medical și auxiliar care își desfășoară activitatea în unități publice ori private de asistență medicală",
+          "after": "contra personalului medical, auxiliar sanitar, respectiv personalului nemedical care își desfășoară activitatea în unități publice ori private de asistență medicală",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare termenul vechi «vătămare corporală gravă»",
+          "text": "Alin. (4) nu mai folosește «vătămarea corporală gravă», noțiune absentă din Codul penal actual. Rămân loviturile sau vătămările cauzatoare de moarte (5–15 ani), iar granița cu alin. (3) e mai clară.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 652 alin. (4)",
+          "before": "(4) Vătămarea corporală gravă sau lovirile cauzatoare de moarte săvârșită împotriva persoanelor prevăzute la alin. (1), aflate în exercițiul funcțiunii ori pentru fapte îndeplinite în exercițiul funcțiunii, se pedepsește cu închisoare de la 5 la 15 ani.",
+          "after": "(4) Lovirile sau vătămările cauzatoare de moarte săvârșite împotriva persoanelor prevăzute la alin.(1), aflate în exercițiul funcțiunii ori pentru fapte îndeplinite în exercițiul funcțiunii, se pedepsesc cu închisoare de la 5 la 15 ani.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "«Orice acte de violență» devine «alte violențe»",
+          "text": "Art. 652 alin. (2) descrie altfel faptele de violență. Pedeapsa rămâne 1–5 ani, fără amendă, iar diferența de sens pare minimă.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 652 alin. (2)",
+          "before": "(2) Lovirea sau orice acte de violență săvârșite împotriva persoanelor prevăzute la alin. (1)",
+          "after": "(2) Lovirea sau alte violențe săvârșite împotriva persoanelor prevăzute la alin.(1)",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Amenințarea: 6 luni–2 ani, mai aspru decât ultrajul contra unui polițist",
+            "major": true,
+            "article": "art. 652 alin. (1)"
+          },
+          {
+            "text": "Amenințarea nu mai pare condiționată de plângerea prealabilă a victimei",
+            "major": true,
+            "article": "art. 652 alin. (1)"
+          },
+          {
+            "text": "Pedepsele disproporționate se aplică acum și pentru agresiuni contra personalului nemedical",
+            "major": true,
+            "article": "art. 652 alin. (1)"
+          },
+          {
+            "text": "Lovirea: minimum 1 an închisoare, fără amendă, chiar pentru o îmbrâncire",
+            "major": true,
+            "article": "art. 652 alin. (2)"
+          },
+          {
+            "text": "Vătămarea corporală are aceeași pedeapsă ca pentru orice victimă, deci nu e agravată",
+            "major": true,
+            "article": "art. 652 alin. (3)"
+          },
+          {
+            "text": "Loviturile cauzatoare de moarte: minim 5 ani, sub cei 6 din Codul penal",
+            "major": true,
+            "article": "art. 652 alin. (4)"
+          },
+          {
+            "text": "Ca lege specială, poate reduce protecția medicilor din spitalele publice față de ultraj",
+            "major": true,
+            "article": "art. 652 alin. (3)–(4)"
+          },
+          {
+            "text": "Omorul: 15–25 ani fără detențiune pe viață; neclar față de omorul calificat",
+            "major": true,
+            "article": "art. 652 alin. (5)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Protejează și personalul din unitățile private, nu doar din cele publice",
+            "major": true,
+            "article": "art. 652 alin. (1)"
+          },
+          {
+            "text": "Amenințarea poate fi pedepsită și doar cu amendă",
+            "major": true,
+            "article": "art. 652 alin. (1)"
+          },
+          {
+            "text": "Fără termenul vechi «vătămare corporală gravă», alin. (4) e mai clar",
+            "major": true,
+            "article": "art. 652 alin. (4)"
+          },
+          {
+            "text": "Faptele contra membrilor de familie ai personalului sunt pedepsite la fel",
+            "major": true,
+            "article": "art. 652 alin. (6)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 8,
+        "same": 0.22
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:49:51.593Z"
+    },
+    {
       "from": "senat",
       "to": "camera",
       "direction": "mai_putin_riscant",
-      "headline": "Unitățile sanitare publice, exceptate de la art. XXII din Legea 141/2025; pot ocupa posturile",
-      "summary": "Pedepsele pentru agresiunile contra personalului medical au rămas identice. Acum legea adaugă un articol nou: spitalele și unitățile sanitare publice sunt exceptate de la o prevedere a legii fiscal-bugetare și își pot ocupa posturile, în limita bugetului aprobat.",
+      "headline": "Nou: unitățile sanitare publice pot ocupa posturi, ca excepție de la Legea 141/2025; pedepsele rămân",
+      "summary": "Pedepsele pentru agresarea personalului medical au rămas exact cum le-a votat Senatul. Camera a adăugat un articol care scoate unitățile sanitare publice de sub o prevedere din Legea 141/2025, astfel că își pot ocupa posturile, în limita bugetului aprobat.",
       "changes": [
         {
-          "title": "Unitățile sanitare publice își pot ocupa posturile",
-          "text": "Art. II, nou: unitățile Ministerului Sănătății, cele ale ministerelor cu rețea sanitară proprie și cele ale autorităților locale sunt exceptate de la art. XXII alin. (1) din Legea nr. 141/2025.",
+          "title": "Unitățile sanitare publice pot ocupa posturi",
+          "text": "Art. II nou: unitățile Ministerului Sănătății și unitățile sanitare ale altor ministere și autorităților locale sunt exceptate de la art. XXII alin. (1) din Legea 141/2025 și pot ocupa posturi în bugetul aprobat.",
           "effect": "mai_bine",
           "major": true,
           "article": "art. II",
           "before": null,
-          "after": "fac excepție de la prevederile alin. (1) al articolului XXII din Legea nr. 141/2025 privind unele măsuri fiscal-bugetare",
+          "after": "unitățile și instituțiile din subordinea Ministerului Sănătății, unitățile sanitare din subordinea ministerelor și instituțiilor cu rețea sanitară proprie, precum și unitățile sanitare din subordinea autorităților locale, posturile putând fi ocupate cu încadrarea în bugetul aprobat.",
           "beforeAbsent": true,
           "afterAbsent": false
         },
         {
-          "title": "Angajările se fac doar în limita bugetului aprobat",
-          "text": "Art. II limitează excepția: posturile pot fi ocupate numai cu încadrarea în bugetul aprobat, deci excepția nu aduce bani în plus peste buget.",
+          "title": "Excepția nu are termen și acoperă tot ministerul",
+          "text": "Art. II se aplică de la intrarea în vigoare, fără dată de încetare, și cuprinde toate unitățile și instituțiile din subordinea Ministerului Sănătății, nu doar spitalele; singura limită e bugetul aprobat.",
           "effect": "neutru",
           "major": false,
           "article": "art. II",
           "before": null,
-          "after": "unitățile și instituțiile din subordinea Ministerului Sănătății, unitățile sanitare din subordinea ministerelor și instituțiilor cu rețea sanitară proprie, precum și unitățile sanitare din subordinea autorităților locale, posturile putând fi ocupate cu încadrarea în bugetul aprobat.",
+          "after": "Art. II. - Începând cu data intrării în vigoare a prezentei legi fac excepție de la prevederile alin. (1) al articolului XXII din Legea nr. 141/2025 privind unele măsuri fiscal-bugetare",
           "beforeAbsent": true,
           "afterAbsent": false
         }
@@ -68,54 +205,59 @@
       "remaining": {
         "problems": [
           {
-            "text": "Amenințarea primește 6 luni–2 ani, mai sever decât amenințarea simplă și ultrajul",
+            "text": "Amenințarea: 6 luni–2 ani, mai sever decât Codul penal și chiar decât ultrajul",
             "major": true,
             "article": "art. 652 alin. (1)"
           },
           {
-            "text": "Fapta pare să nu mai ceară plângere prealabilă, iar împăcarea dispare",
+            "text": "Plângerea prealabilă și împăcarea par să nu mai existe pentru amenințare și lovire",
             "major": true,
             "article": "art. 652 alin. (1)-(2)"
           },
           {
-            "text": "Orice îmbrâncire primește minimum 1 an, fără amendă, peste ultrajul contra polițistului",
+            "text": "Lovire sau îmbrâncire: minimum 1 an, fără amendă, peste ultrajul contra polițiștilor",
             "major": true,
             "article": "art. 652 alin. (2)"
           },
           {
-            "text": "Vătămarea corporală nu este agravată și rămâne sub forma intenționată din Codul penal",
+            "text": "Vătămarea corporală, 2–7 ani: nicio agravare față de Codul penal",
             "major": true,
             "article": "art. 652 alin. (3)"
           },
           {
-            "text": "Minimul de 5 ani la lovirile mortale e sub cei 6 ani din Codul penal",
+            "text": "Lovirile cauzatoare de moarte: minimum 5 ani, sub cei 6 din Codul penal",
             "major": true,
             "article": "art. 652 alin. (4)"
           },
           {
-            "text": "Ca lege specială, poate reduce protecția medicilor din spitalele publice față de ultraj",
+            "text": "Ca lege specială, poate scădea pedepsele față de ultraj pentru personalul de la stat",
             "major": true,
             "article": "art. 652 alin. (3)-(4)"
           },
           {
-            "text": "Omorul nu prevede detențiune pe viață; concursul cu omorul calificat rămâne neclar",
+            "text": "Omorul: 15–25 ani, fără detențiune pe viață; neclar la omorul calificat",
             "major": true,
             "article": "art. 652 alin. (5)"
           },
           {
-            "text": "Pentru membrii de familie nu e clar cum se leagă fapta de profesie",
+            "text": "Pentru membrii de familie nu e clar ce legătură cu profesia trebuie",
             "major": true,
             "article": "art. 652 alin. (6)"
+          },
+          {
+            "text": "Excepția de la Legea 141/2025 nu are termen; limita e doar bugetul aprobat",
+            "major": false,
+            "article": "art. II"
           }
         ],
         "good": [
           {
-            "text": "Protejează personalul medical, auxiliar și nemedical, din unități publice și private",
+            "text": "Protejează personalul medical, auxiliar și nemedical, din unitățile publice și private",
             "major": true,
             "article": "art. 652 alin. (1)"
           },
           {
-            "text": "Protecția se extinde și la membrii de familie ai personalului",
+            "text": "Pedepsele se aplică și pentru agresiunile asupra familiei personalului medical",
             "major": true,
             "article": "art. 652 alin. (6)"
           },
@@ -123,18 +265,28 @@
             "text": "Unitățile sanitare publice pot ocupa posturi, în limita bugetului aprobat",
             "major": true,
             "article": "art. II"
+          },
+          {
+            "text": "Acoperă și faptele comise ulterior, ca răzbunare pentru activitatea profesională",
+            "major": false,
+            "article": "art. 652 alin. (1)"
+          },
+          {
+            "text": "Pentru amenințare, instanța poate alege amenda în loc de închisoare",
+            "major": false,
+            "article": "art. 652 alin. (1)"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 8,
-        "removed": 7,
-        "same": 0.11
+        "added": 5,
+        "removed": 4,
+        "same": 0.5
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:30:27.170Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:51:22.969Z"
     }
   ]
 }

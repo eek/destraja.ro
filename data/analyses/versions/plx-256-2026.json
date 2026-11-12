@@ -1,8 +1,28 @@
 {
   "slug": "plx-256-2026",
   "billId": "PL-x 256/2026",
-  "updatedAt": "2026-10-30T09:15:47.131Z",
+  "updatedAt": "2026-11-11T13:28:07.039Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L048FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Firmele străine care câștigă bani prin intermediari din România ar putea plăti impozit pe profit aici",
+      "summaryTlDr": "Direcția e bună: urmează regula OCDE contra firmelor care evită sediul permanent prin intermediari locali. Totuși textul adaugă criteriul vag «realizarea veniturilor», care nu există la OCDE, renunță la filtrele OCDE și are în practică un efect mai mic decât promite expunerea, pentru că tratatele fiscale au prioritate.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 5
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,58 +56,135 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
-      "direction": "la_fel",
-      "headline": "Textul adoptat de Cameră e identic în fond cu cel al Senatului; diferă doar redactarea",
-      "summary": "Camera a adoptat aceeași regulă ca Senatul, cu modificări doar de redactare: spații, liniuțe, date și semnături. Regula se extinde tot la intermediarii care negociază contracte pentru firme străine, iar ambiguitățile au rămas aceleași.",
-      "changes": [],
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Rolul principal al agentului unei firme străine creează sediu permanent doar dacă e obișnuit",
+      "summary": "Acum, rolul principal la încheierea contractelor unei firme străine îi creează sediu permanent (deci impozit) în România doar dacă e obișnuit și contractele se semnează fără modificări. Dispare «realizarea veniturilor». Apare însă o regulă nouă, neclară, despre negocierea în România.",
+      "changes": [
+        {
+          "title": "Rolul principal contează doar dacă e obișnuit",
+          "text": "Art. I: inițial, orice rol principal în activitatea care duce la contracte crea sediu permanent. Acum contează doar unul exercitat în mod curent, la contracte semnate fără modificări semnificative.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I",
+          "before": "ori joacă rolul principal în activitatea care duce la încheierea contractelor sau la realizarea veniturilor",
+          "after": "are în mod curent rolul principal în procesul de încheiere a contractelor care se semnează în mod obișnuit, fără modificări semnificative din partea societății nerezidente",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare criteriul «realizarea veniturilor»",
+          "text": "Art. I: a dispărut varianta în care rolul principal în «realizarea veniturilor» crea sediu permanent. Era un criteriu vag, fără corespondent în Modelul OCDE.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I",
+          "before": "sau la realizarea veniturilor",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Negocierea în România înseamnă contract încheiat aici",
+          "text": "Art. I, teza finală: cine negociază în România toate elementele unui contract al firmei străine e considerat că l-a încheiat aici, chiar dacă altcineva semnează în afară. E greu de probat.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. I",
+          "before": null,
+          "after": "O persoană care negociază în România toate elementele și detaliile unui contract care angajează compania nerezidentă se consideră că a încheiat contractul în România, chiar dacă acel contract este semnat de o altă persoană în afara României",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Definiție nouă și neclară pentru «încheie contracte»",
+          "text": "Art. I: «încheie contracte» cuprinde și contractele fără negociere activă sau încheiate în România «conform legii», deși semnate afară. Nu se spune care lege, iar textul depășește Modelul OCDE.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. I",
+          "before": null,
+          "after": "Expresia „încheie contracte” vizează situațiile în care un contract este încheiat fără nicio negociere activă a termenilor acelui contract sau este încheiat în România, conform legii, chiar dacă acel contract este semnat în afara României.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Contractele vizate, enumerate; «nerezident» devine «societate»",
+          "text": "Art. I: contează contractele în numele societății nerezidente, cele de transfer sau folosire a bunurilor ei și cele de servicii prestate de ea. Dar «societate» lasă neclar dacă intră persoanele fizice.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. I",
+          "before": "autoritatea de a încheia contracte în numele nerezidentului",
+          "after": "(i) în numele societății nerezidente; sau (ii) pentru a transfera dreptul de proprietate sau pentru a acorda dreptul de utilizare a unor proprietăți deținute de către acea societate",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Se aplică abia de la 1 ianuarie următor",
+          "text": "Art. II nou: modificarea se aplică abia de la 1 ianuarie al anului de după intrarea în vigoare, deci firmele au timp să se pregătească.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. II",
+          "before": null,
+          "after": "Prevederile articolului I se aplică de la data de 1 ianuarie a anului următor intrării în vigoare a prezentei legi.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
       "remaining": {
         "problems": [
           {
-            "text": "Termeni amestecați (persoană, societate, companie) lasă neclar dacă se aplică persoanelor fizice sau fondurilor",
+            "text": "Negocierea completă în România e socotită încheiere a contractului aici; greu de probat",
             "major": true,
             "article": "art. I"
           },
           {
-            "text": "„Fără nicio negociere activă” poate face orice contract nenegociat considerat încheiat de intermediar",
+            "text": "Folosește «societate» și «companie», deci e neclar dacă intră persoanele fizice nerezidente",
             "major": true,
             "article": "art. I"
           },
           {
-            "text": "Negocierea tuturor elementelor în România echivalează cu încheierea aici; ficțiune greu de probat",
-            "major": true,
-            "article": "art. I"
-          },
-          {
-            "text": "Trimiterea „conform legii” nu precizează care lege se aplică",
+            "text": "«Fără nicio negociere activă» și «conform legii», fără lege indicată, sunt ambigue",
             "major": false,
             "article": "art. I"
           },
           {
-            "text": "„Proprietăți” sugerează imobile, deși sunt vizate bunuri de orice fel; posibile dispute cu ANAF",
-            "major": false,
-            "article": "art. I"
-          },
-          {
-            "text": "Publicată la final de 2026, legea riscă să nu respecte termenul de 6 luni",
+            "text": "Publicată târziu în 2026, ar încălca termenul de 6 luni din Codul fiscal",
             "major": false,
             "article": "art. II"
+          },
+          {
+            "text": "Tratatele fiscale clasice au prioritate, deci criteriul nou se aplică limitat",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Nici acum nu definește «agentul dependent», deși expunerea de motive o anunța",
+            "major": false,
+            "article": "art. I"
           }
         ],
         "good": [
           {
-            "text": "Preia aproape literal Modelul OCDE 2017, cu reper interpretativ solid în Comentariul OCDE",
+            "text": "Criteriul «rolului principal» urmează aproape literal Modelul OCDE, cu reper în Comentariul OCDE",
             "major": true,
             "article": "art. I"
           },
           {
-            "text": "Criteriul „rolul principal” acoperă comisionarii și distribuitorii care negociază tot, dar nu semnează",
+            "text": "Rolul principal contează doar dacă e obișnuit; dispare «realizarea veniturilor»",
             "major": true,
             "article": "art. I"
           },
           {
-            "text": "Aplicarea începe de la 1 ianuarie a anului următor, ceea ce ajută previzibilitatea",
+            "text": "Rămân excepțiile de la alin. (4) lit. a)-f), care nu creează sediu permanent",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Regula agentului independent din alin. (6) rămâne neschimbată",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Se aplică de la 1 ianuarie al anului următor, deci firmele se pot pregăti",
             "major": false,
             "article": "art. II"
           }
@@ -95,13 +192,81 @@
         "partial": false
       },
       "diff": {
-        "added": 6,
-        "removed": 5,
-        "same": 0.14
+        "added": 8,
+        "removed": 4,
+        "same": 0
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:18:58.722Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:27:34.987Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a votat textul Senatului fără modificări de fond; diferă doar antetul și data ședinței",
+      "summary": "Camera Deputaților a votat aceleași reguli ca Senatul despre când o firmă străină are sediu permanent în România. Diferă doar antetul, data ședinței și semnătura, așa că riscurile din text rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Termeni amestecați (nerezident, societate, companie): neclar dacă se aplică persoanelor fizice sau fondurilor",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "„Încheiat fără nicio negociere activă” e o traducere trunchiată, citită literal prea largă",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Negocierea tuturor elementelor în România înseamnă contract încheiat aici: ficțiune greu de probat",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "„Proprietăți” traduce „property” și poate fi citit ca imobile, deși vizează orice bunuri",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Trimiterea „conform legii” nu spune despre ce lege e vorba",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Dacă apare la final de 2026, nu respectă cele 6 luni din Codul fiscal",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Criteriul „rolul principal” prinde comisionarii și distribuitorii care negociază tot, dar nu semnează",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Preia aproape literal Modelul OCDE 2017, cu reper interpretativ în Comentariul OCDE",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Aplicare de la 1 ianuarie a anului următor, mai previzibil pentru firme",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "same": 0.63
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:28:07.039Z"
     }
   ]
 }

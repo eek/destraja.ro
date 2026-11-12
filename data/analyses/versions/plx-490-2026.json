@@ -1,8 +1,28 @@
 {
   "slug": "plx-490-2026",
   "billId": "PL-x 490/2026",
-  "updatedAt": "2026-10-30T09:31:55.818Z",
+  "updatedAt": "2026-11-11T13:58:16.687Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L362FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Cercetarea finanțată de stat trece pe platforme digitale, cu un site unic pentru apeluri, un observator și un birou pentru inovare",
+      "summaryTlDr": "Este o lege tehnică cerută de PNRR și în mare parte utilă. Introduce un site unic pentru competițiile de cercetare, centralizează datele și creează două structuri noi în minister. Partea despre investițiile private e mai mult o listă de intenții, iar trei condiții sunt scrise neglijent: cota de 27% de proiecte cu firme, consorțiile cu firmă mare obligatorie și HRS4R obligatoriu din 2027.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,31 +56,75 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
-      "direction": "mai_riscant",
-      "headline": "Beneficiarii care nu publică rezultatele în acces deschis pot fi obligați să returneze banii",
-      "summary": "Acum, cine primește bani publici pentru cercetare și nu publică rezultatele în acces deschis într-un an poate fi obligat să returneze fondurile. Legea nu spune ce înseamnă „rezultate” sau cum se calculează suma și nu dă timp de remediere.",
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Evaluatori aleși aleatoriu și observatori independenți la competițiile de cercetare finanțate public",
+      "summary": "Acum evaluarea competițiilor de cercetare finanțate public are garanții noi (evaluatori aleși aleatoriu, observatori), iar rezultatele se publică în acces deschis. Dispare însă scutirea de contribuții sociale propusă inițial, iar fără platformă IT din 2027 competițiile se pot bloca.",
       "changes": [
         {
-          "title": "Banii se recuperează dacă rezultatele nu sunt publicate",
-          "text": "Art. 2 alin. (22), nou: dacă rezultatele nu sunt publicate în acces deschis într-un an de la finalizare, fondurile se recuperează integral sau parțial, pe baza auditului CNCS. Criteriile nu sunt definite.",
-          "effect": "mai_rau",
+          "title": "Evaluatori aleși aleatoriu și observatori independenți",
+          "text": "Art. 2 alin. (18)-(20), noi: evaluatorii sunt alocați automat și aleatoriu, observatori independenți urmăresc evaluarea, iar proiectele finanțate sunt verificate ex-post prin eșantionare.",
+          "effect": "mai_bine",
           "major": true,
-          "article": "art. 2 alin. (22)",
+          "article": "art. 2 alin. (18)-(20)",
           "before": null,
-          "after": "are obligația recuperării integrale sau parțiale a fondurilor plătite pentru derularea proiectului, proporțional cu gradul de neîndeplinire a obligației prevăzute la alin. (21), în baza auditului realizat de Consiliul Național al Cercetării Științifice",
+          "after": "Autoritatea de stat pentru cercetare-dezvoltare și agențiile de finanțare vor utiliza algoritmi de alocare automată și aleatorie a experților evaluatori, pentru fiecare competiție/apel de proiecte de CDI",
           "beforeAbsent": true,
           "afterAbsent": false
         },
         {
-          "title": "Evaluarea ulterioară include obligatoriu impactul economic și social",
-          "text": "Art. 2 alin. (20): inițial, evaluarea ex-post prin eșantionare „poate include” impactul economic și social. Acum îl include obligatoriu.",
+          "title": "Rezultatele cercetării pe bani publici, în acces deschis",
+          "text": "Art. 2 alin. (21), nou: beneficiarii proiectelor finanțate din bani publici trebuie să publice rezultatele în acces deschis, cu excepții pentru proprietatea intelectuală și securitate.",
           "effect": "mai_bine",
-          "major": false,
-          "article": "art. 2 alin. (20)",
-          "before": "realiza o evaluare ex-post prin eșantionare a proiectelor finanțate care poate include impactul economic și social.",
-          "after": "realiza o evaluare ex-post prin esțanționare a proiectelor finanțate care include impactul economic și social.",
+          "major": true,
+          "article": "art. 2 alin. (21)",
+          "before": null,
+          "after": "Beneficiarii proiectelor de CDI finanțate integral sau parțial din fonduri publice au obligația de a publica rezultatele proiectelor pe pagina de internet dedicată proiectului, ori de a indica sursele unde acestea sunt publicate, în regim de acces deschis",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Fără platformă IT, competițiile nu pot porni din 2027",
+          "text": "Art. 2 alin. (9), nou: din 2027 nicio competiție finanțată public nu poate porni fără soluție IT interoperabilă; standardele vin prin ordin în 90 de zile, fără consecințe dacă întârzie.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 2 alin. (9)",
+          "before": null,
+          "after": "Începând cu anul 2027, nicio competiție/apel de proiecte de cercetare finanțată/finanțat din fonduri publice nu poate fi lansată/lansat în absența utilizării unei soluții informatice care respectă standardele de interoperabilitate.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare scutirea parțială de contribuții sociale pentru cercetare",
+          "text": "Art. 4 alin. (1) lit. e): dintre instrumentele pe care autoritatea le poate propune dispare scutirea parțială de contribuții sociale pentru angajatori sau cercetători.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 4 alin. (1) lit. e)",
+          "before": "ii. scutirea parțială a contribuțiilor de asigurări sociale ce poate fi aplicabilă angajatorilor sau personalului de cercetare-dezvoltare care lucrează în unități de cercetare-dezvoltare publice sau private;",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "O treime din proiecte trebuie să aibă o firmă",
+          "text": "Art. 4 alin. (1) lit. c): pragul proiectelor cu o firmă lider sau parteneră crește de la 27% la o treime. Ajută firmele, dar se numără tot proiecte, nu bani, deci pot apărea parteneriate formale.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 4 alin. (1) lit. c)",
+          "before": "ponderea proiectelor de CDI în care o întreprindere să dețină calitatea de lider de parteneriat/partener să fie de cel puțin 27% din totalul proiectelor de CDI",
+          "after": "numărul proiectelor de CDI în care o întreprindere să dețină calitatea de lider de parteneriat/partener să fie de cel puțin o treime din totalul proiectelor de CDI",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Condiția HRS4R intră în ghidurile tuturor finanțatorilor",
+          "text": "Art. 2 alin. (17): condiția HRS4R pentru instituțiile publice o pun acum autoritatea și toate agențiile de finanțare, nu „ANC”, nedefinit; inițierea procesului rămâne nedefinită.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 2 alin. (17)",
+          "before": "ANC prevede în pachetul de informații/ghidul solicitantului aferent competiției/apelului de proiecte obligația ca fiecare unitate sau instituție de drept public care contractează un proiect de cercetare-dezvoltare și inovare finanțat din fonduri publice",
+          "after": "autoritatea de stat pentru cercetare-dezvoltare și agențiile de finanțare prevăd în pachetele de informații/ghidurile solicitantului aferente competiției/apelului de proiecte de CDI obligația ca fiecare unitate sau instituție de drept public care contractează un proiect de CDI",
           "beforeAbsent": false,
           "afterAbsent": false
         }
@@ -68,64 +132,114 @@
       "remaining": {
         "problems": [
           {
-            "text": "Din 2027 competițiile nu pot porni fără platformă IT; fără perioadă de tranziție",
+            "text": "Din 2027, fără platformă IT interoperabilă, competițiile de cercetare se pot bloca",
             "major": true,
             "article": "art. 2 alin. (9)"
           },
           {
-            "text": "Obligația HRS4R: „inițierea procesului” e nedefinită, fără termen, birocratică pentru institutele mici",
+            "text": "Condiția HRS4R: „inițierea” nedefinită, fără termen, birocrație pentru institutele publice mici",
             "major": true,
             "article": "art. 2 alin. (17)"
           },
           {
-            "text": "Recuperarea banilor: „rezultate” și „grad de neîndeplinire” nedefinite, fără somație sau remediere",
+            "text": "Nu se spune ce date personale primește OCDI și cât le păstrează",
             "major": true,
-            "article": "art. 2 alin. (22)"
+            "article": "art. 3"
           },
           {
-            "text": "Ordinul cu standardele IT are termen de 90 de zile, fără consecințe la întârziere",
-            "major": false,
-            "article": "art. 2 alin. (11)"
-          },
-          {
-            "text": "„Recunoașterea internațională” a evaluatorilor e nedefinită; în nișe pot lipsi evaluatorii",
-            "major": false,
-            "article": "art. 2 alin. (18)"
-          }
-        ],
-        "good": [
-          {
-            "text": "Rezultatele cercetării finanțate public trebuie publicate în acces deschis",
-            "major": true,
-            "article": "art. 2 alin. (21)"
-          },
-          {
-            "text": "Cel puțin o treime din proiectele CDI finanțate trebuie să includă o întreprindere",
+            "text": "Pragul de o treime: neclar pe instrument sau total, numără proiecte, nu bani",
             "major": true,
             "article": "art. 4 alin. (1) lit. c)"
           },
           {
-            "text": "Evaluatorii sunt alocați automat și aleatoriu, după aria tematică",
+            "text": "Întârzierea ordinelor de aplicare, cu termen de 90 de zile, nu are consecințe",
             "major": false,
-            "article": "art. 2 alin. (19)"
+            "article": "art. 2 alin. (11)"
           },
           {
-            "text": "Observatori independenți și evaluare ex-post, inclusiv a impactului economic și social",
+            "text": "„Recunoașterea internațională” cerută evaluatorilor nu este definită",
             "major": false,
-            "article": "art. 2 alin. (20)"
+            "article": "art. 2 alin. (18)"
           },
           {
-            "text": "Competițiile se desfășoară integral digital, cu punct unic electronic de contact",
+            "text": "Eligibilitatea echipei cerută evaluatorilor poate goli corpul de evaluatori în nișe mici",
             "major": false,
-            "article": "art. 2 alin. (1)-(4)"
+            "article": "art. 2 alin. (18)"
           },
           {
-            "text": "Proceduri simplificate pentru achiziția de echipamente, software și reactivi",
+            "text": "Agențiile trebuie să actualizeze informațiile doar o dată pe an",
+            "major": false,
+            "article": "art. 2 alin. (16)"
+          },
+          {
+            "text": "Praguri mai mari de achiziție directă pot reduce concurența pe bani publici",
             "major": false,
             "article": "art. 3 alin. (8)"
           },
           {
-            "text": "Bugetarea multianuală a instrumentelor de finanțare a cercetării, pentru predictibilitate",
+            "text": "Sprijinul „întregului sistem național” pentru OCDI rămâne o formulă fără conținut juridic",
+            "major": false,
+            "article": "art. 3 alin. (5)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Evaluatori alocați automat și aleatoriu, cu evitarea conflictelor de interese",
+            "major": true,
+            "article": "art. 2 alin. (18)-(19)"
+          },
+          {
+            "text": "Observatori independenți și evaluare ex-post prin eșantionare la fiecare competiție",
+            "major": true,
+            "article": "art. 2 alin. (20)"
+          },
+          {
+            "text": "Rezultatele proiectelor finanțate din bani publici se publică în acces deschis",
+            "major": true,
+            "article": "art. 2 alin. (21)"
+          },
+          {
+            "text": "Cel puțin o treime din proiecte trebuie să aibă o firmă implicată",
+            "major": true,
+            "article": "art. 4 alin. (1) lit. c)"
+          },
+          {
+            "text": "Punct unic electronic de contact pentru toate apelurile de cercetare finanțate public",
+            "major": false,
+            "article": "art. 2 alin. (2)-(3)"
+          },
+          {
+            "text": "Procedurile de finanțare a cercetării se desfășoară integral și exclusiv digital",
+            "major": false,
+            "article": "art. 2 alin. (4)"
+          },
+          {
+            "text": "Ordinele de aplicare se publică în Monitorul Oficial",
+            "major": false,
+            "article": "art. 2 alin. (11)"
+          },
+          {
+            "text": "OCDI devine direcție permanentă, independentă metodologic, cu raport anual public",
+            "major": false,
+            "article": "art. 3 alin. (6)"
+          },
+          {
+            "text": "Reguli unitare pentru finanțarea, monitorizarea și evaluarea proiectelor, din strategia următoare",
+            "major": false,
+            "article": "art. 3 alin. (7)"
+          },
+          {
+            "text": "RoInovare: finanțare stabilă și comitet consultativ cu minimum o treime din mediul privat",
+            "major": false,
+            "article": "art. 4 alin. (5)-(8)"
+          },
+          {
+            "text": "Instrumente posibile: credite fiscale, capital de risc, granturi, vouchere și sandbox",
+            "major": false,
+            "article": "art. 4 alin. (1) lit. e)"
+          },
+          {
+            "text": "Bugetare multianuală pentru instrumentele strategiei naționale de cercetare",
             "major": false,
             "article": "art. 5"
           }
@@ -133,13 +247,157 @@
         "partial": false
       },
       "diff": {
-        "added": 43,
-        "removed": 41,
-        "same": 0.48
+        "added": 75,
+        "removed": 31,
+        "same": 0.07
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:31:58.025Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:56:49.952Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Banii de cercetare se recuperează dacă rezultatele nu sunt publicate în acces deschis",
+      "summary": "Acum, dacă un proiect finanțat public nu își publică rezultatele în acces deschis, banii se recuperează integral sau parțial. Legea nu definește însă „rezultatele” și nu prevede o somație. Evaluarea ex-post trebuie să includă impactul economic și social.",
+      "changes": [
+        {
+          "title": "Bani returnați dacă rezultatele nu sunt publice",
+          "text": "Art. 2 alin. (22) e nou: dacă rezultatele nu sunt publicate în acces deschis, în termen de un an de la final, finanțarea se recuperează integral sau parțial după un audit CNCS. „Rezultate” nu e definit.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 2 alin. (22)",
+          "before": null,
+          "after": "autoritatea de stat pentru cercetare-dezvoltare sau agenția de finanțare, după caz, are obligația recuperării integrale sau parțiale a fondurilor plătite pentru derularea proiectului, proporțional cu gradul de neîndeplinire a obligației prevăzute la alin. (21)",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Evaluarea ex-post trebuie să includă impactul economic și social",
+          "text": "Art. 2 alin. (20): evaluarea prin eșantionare a proiectelor finanțate include acum obligatoriu impactul economic și social. Inițial, doar „putea include” acest impact.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 2 alin. (20)",
+          "before": "evaluare ex-post prin eșantionare a proiectelor finanțate care poate include impactul economic și social",
+          "after": "evaluare ex-post prin esțanționare a proiectelor finanțate care include impactul economic și social",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "RoInovare devine obligatoriu instituție separată în 4 ani",
+          "text": "Art. 4 alin. (9): inițial, unitatea de inovare RoInovare „putea” dobândi personalitate juridică. Acum o dobândește obligatoriu, în cel mult 4 ani de la operaționalizare.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 4 alin. (9)",
+          "before": "(9) RoInovare poate dobândi personalitate juridică la propunerea autorității de stat pentru cercetare-dezvoltare",
+          "after": "(9) În termen de 4 ani de la data operaționalizării, RoInovare dobândește personalitate juridică la propunerea autorității de stat pentru cercetare-dezvoltare",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Bugetul anual, în acord cu planificarea multianuală",
+          "text": "Art. 5: alocările anuale pentru cercetare se stabilesc acum „în acord cu” planificarea multianuală, nu doar „avându-se în vedere” planificarea. Câștigul de predictibilitate e mic.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 5",
+          "before": "alocările bugetare aferente fiecărui instrument stabilindu-se anual prin legea de aprobare a bugetului de stat, avându-se în vedere planificarea multianuală",
+          "after": "alocările bugetare aferente fiecărui instrument stabilindu-se anual prin legea bugetului de stat, în acord cu planificarea multianuală",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Colaborarea cu firmele și societatea civilă, doar „după caz”",
+          "text": "Art. 4 alin. (1): măsurile pentru investiții în cercetare se iau în colaborare cu autoritățile, institutele, mediul de afaceri și societatea civilă doar „după caz”, deci colaborarea devine opțională.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 4 alin. (1)",
+          "before": "cu mediul de afaceri și societatea civilă, autoritatea de stat pentru cercetare-dezvoltare:",
+          "after": "cu mediul de afaceri și societatea civilă, după caz, autoritatea de stat pentru cercetare-dezvoltare:",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Recuperarea banilor: „rezultate” și „grad de neîndeplinire” nedefinite, fără somație sau remediere",
+            "major": true,
+            "article": "art. 2 alin. (22)"
+          },
+          {
+            "text": "Din 2027 nicio competiție fără platformă IT; fără tranziție, finanțarea poate îngheța",
+            "major": true,
+            "article": "art. 2 alin. (9)"
+          },
+          {
+            "text": "Obligația HRS4R: „inițierea procesului” nedefinită, birocrație în plus pentru institutele mici",
+            "major": true,
+            "article": "art. 2 alin. (17)"
+          },
+          {
+            "text": "Ordinul cu standardele IT: termen de 90 de zile, fără consecințe la depășire",
+            "major": false,
+            "article": "art. 2 alin. (11)"
+          },
+          {
+            "text": "„Recunoaștere internațională” nedefinită; în nișe mici pot lipsi evaluatorii",
+            "major": false,
+            "article": "art. 2 alin. (18)"
+          },
+          {
+            "text": "Colaborarea cu mediul de afaceri și societatea civilă este doar „după caz”",
+            "major": false,
+            "article": "art. 4 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Evaluatori alocați automat și aleatoriu, după aria tematică a proiectului",
+            "major": true,
+            "article": "art. 2 alin. (19)"
+          },
+          {
+            "text": "Rezultatele cercetării finanțate public trebuie publicate în acces deschis",
+            "major": true,
+            "article": "art. 2 alin. (21)"
+          },
+          {
+            "text": "Cel puțin o treime din proiectele CDI finanțate să aibă o firmă parteneră",
+            "major": true,
+            "article": "art. 4 alin. (1) lit. c)"
+          },
+          {
+            "text": "Observatori independenți la fiecare competiție și evaluare ex-post, inclusiv a impactului",
+            "major": false,
+            "article": "art. 2 alin. (20)"
+          },
+          {
+            "text": "Toate procedurile competițiilor se desfășoară digital, printr-un punct unic de contact",
+            "major": false,
+            "article": "art. 2 alin. (1)-(4)"
+          },
+          {
+            "text": "Planificare bugetară multianuală pentru finanțarea predictibilă a cercetării",
+            "major": false,
+            "article": "art. 5"
+          },
+          {
+            "text": "Facilități fiscale și fonduri de risc propuse pentru investiții private în cercetare",
+            "major": false,
+            "article": "art. 4 alin. (1) lit. e)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 25,
+        "removed": 24,
+        "same": 0.7
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:58:16.687Z"
     }
   ]
 }

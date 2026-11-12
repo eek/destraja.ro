@@ -1,7 +1,12 @@
 {
   "slug": "plx-284-2026",
   "billId": "Pl-x 284/2026",
-  "updatedAt": "2026-10-30T09:16:10.832Z",
+  "updatedAt": "2026-11-11T13:24:35.226Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -32,6 +37,21 @@
         "claude": 1,
         "codex": 3
       }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L380FS.PDF",
+      "source": "senat.ro",
+      "riskScore": 1.3,
+      "riskLevel": "green",
+      "plainTitle": "Comuna Bira din Neamț devine oficial Bâra",
+      "summaryTlDr": "O corectură de nume, fără taxe, sancțiuni sau obligații noi pentru nimeni. Risc minim; singurul lucru care lipsește este o frază despre actele vechi pe care scrie Bira.",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 2
+      }
     }
   ],
   "changes": [
@@ -39,45 +59,45 @@
       "from": "initiator",
       "to": "camera",
       "direction": "la_fel",
-      "headline": "Comuna Bira din Neamț devine Bâra; textul adoptat e doar reformulat, fără schimbări de fond",
-      "summary": "Inițial și acum, legea schimbă doar grafia numelui comunei și al satului de reședință din „Bira” în „Bâra”. Camera a precizat mai exact coloanele modificate și republicarea legii. Nu apar drepturi, obligații sau costuri noi.",
+      "headline": "Forma adoptată de Cameră doar precizează textul: comuna Bira devine tot Bâra, ca inițial",
+      "summary": "Față de forma inițiatorului s-au schimbat doar formulări: trimiterea la republicarea din 1981 și indicarea exactă a coloanelor din anexă. Fondul e același: Bira devine Bâra, satele rămân aceleași, iar actele emise cu vechea grafie tot nu au o regulă de tranziție.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Nu spune că actele emise cu „Bira” rămân valabile",
+            "text": "Nicio regulă de tranziție pentru actele emise cu «Bira»: buletine, stare civilă, carte funciară",
             "major": true,
             "article": "art. unic"
           },
           {
-            "text": "Nu stabilește cine actualizează evidențele și cine plătește costurile",
-            "major": true,
-            "article": "art. unic"
-          },
-          {
-            "text": "Grafiile pot rămâne amestecate, evidența populației folosind deja „BARA”",
+            "text": "Nu spune cine plătește și cum se actualizează evidențele cu vechea grafie",
             "major": false,
             "article": "art. unic"
           },
           {
-            "text": "Formula introductivă sugerează înlocuirea întregii anexe, nu doar a poziției 7",
+            "text": "Formula introductivă sugerează, citită literal, înlocuirea întregii anexe",
             "major": false,
             "article": "art. unic"
           }
         ],
         "good": [
           {
-            "text": "Modifică doar poziția 7; satele Negrești și Rediu rămân neschimbate",
+            "text": "Doar corectează grafia; satele Negrești și Rediu și teritoriul rămân neschimbate",
             "major": false,
             "article": "art. unic"
           },
           {
-            "text": "Corectează o eroare documentată: circumflexul pierdut la republicarea din 1981",
+            "text": "Repară o eroare documentată: circumflexul pierdut la republicarea legii din 1981",
             "major": false,
             "article": "art. unic"
           },
           {
-            "text": "Indică precis coloanele modificate și republicarea legii din 1981",
+            "text": "Indică exact poziția 7 și coloanele din anexă care se modifică",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Corectare de grafie prin lege, fără referendum local costisitor",
             "major": false,
             "article": "art. unic"
           }
@@ -90,8 +110,61 @@
         "same": 0
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:19:17.293Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:24:22.334Z"
+    },
+    {
+      "from": "camera",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Senatul a votat același text, comuna Bira din Neamț devine Bâra",
+      "summary": "Senatul a adoptat același text ca forma votată de Cameră. S-au schimbat doar numele camerei, data ședinței și semnătura președintelui. Comuna și satul reședință Bira din Neamț devin Bâra, iar Negrești și Rediu rămân la fel.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Lipsește regula de tranziție pentru actele și evidențele emise cu forma Bira",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Formula introductivă, citită literal, ar înlocui toată anexa, nu doar poziția 7",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "good": [
+          {
+            "text": "Corectează numele comunei și al satului reședință din Bira în Bâra",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Schimbă doar poziția 7; satele Negrești și Rediu rămân neschimbate",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Nu creează obligații, taxe sau sancțiuni pentru cetățeni ori firme",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Costuri mici, suportate mai ales de primărie: ștampile, indicatoare, nomenclatoare",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 8,
+        "removed": 7,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:24:35.226Z"
     }
   ]
 }

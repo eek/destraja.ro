@@ -3,53 +3,52 @@
   "billId": "Pl-x 284/2026",
   "schema": 1,
   "model": "agy",
-  "updatedAt": "2026-11-11T11:05:59.052Z",
-  "inputHash": "2e06125abd5a",
-  "riskScore": 1.5,
-  "summary": "O lege utilă și punctuală care repară o veche eroare de tipar în numele comunei Bâra, cu mici scăpări de redactare și fără o regulă expresă pentru actele deja emise.",
+  "updatedAt": "2026-11-12T10:21:22.935Z",
+  "inputHash": "2f8b479e95ca",
+  "riskScore": 1.3,
+  "summary": "O lege utilă și punctuală care corectează o veche eroare de tipar în numele comunei Bâra, dar căreia îi lipsește o regulă clară pentru valabilitatea actelor deja emise.",
   "good": [
     {
-      "text": "Corectează denumirea oficială a comunei și a satului de reședință din „Bira” în „Bâra”, reparând o greșeală de tipar din 1981 care a împiedicat actualizarea numelui în 2018.",
+      "text": "Înlocuiește grafia greșită „Bira” cu „Bâra” pentru comună și satul de reședință din județul Neamț, eliminând confuziile administrative dintre evidențele instituțiilor și actele cetățenilor.",
       "article": "art. unic",
       "quote": "La județul Neamț, la litera C. „Comune”, numărul curent 7, la comuna Bira, prima coloană „Denumirea comunei” și coloana a doua „Satele componente” se modifică și vor avea următorul cuprins:",
       "weight": 3
     },
     {
-      "text": "Elimină neconcordanțele dintre actele de identitate sau stare civilă (emise deja cu „Bâra”) și alte registre publice în care localitatea încă figura sub forma greșită „Bira”.",
-      "article": "art. unic",
+      "text": "Finalizează trecerea la ortografia cu „â” prevăzută de Legea nr. 290/2018, care ocolise localitatea deoarece în republicarea din 1981 fusese tipărit greșit „Bira” în loc de „Bîra”.",
+      "article": "expunerea de motive",
       "quote": null,
       "weight": 2
     }
   ],
   "bad": [
     {
-      "text": "Nu prevede expres că actele emise anterior cu numele „Bira” rămân valabile și se actualizează gratuit din oficiu, lăsând loc de birocrație sau cheltuieli pentru localnici.",
+      "text": "Nu prevede expres că actele emise anterior cu denumirea „Bira” rămân valabile și nici că registrele publice sau cadastrul se actualizează din oficiu, fără taxe ori drumuri pentru cetățeni.",
       "article": "art. unic",
       "quote": null,
       "weight": 2
     },
     {
-      "text": "Partea introductivă anunță greșit că toată anexa legii se înlocuiește, deși se modifică doar un rând din județul Neamț, ceea ce încalcă regulile de redactare legislativă.",
+      "text": "Formula introductivă spune că toată anexa legii „se modifică și va avea următorul cuprins”, ceea ce, citit literal, ar înlocui întreaga anexă națională doar cu rândul comunei Bâra.",
       "article": "art. unic",
       "quote": "Anexa la Legea nr.2/1968 privind organizarea administrativă a teritoriului României, republicată în Buletinul Oficial al României, Partea I, nr.54-55 din 27 iulie 1981, cu modificările și completările ulterioare, se modifică și va avea următorul cuprins:",
       "weight": 1
     },
     {
-      "text": "Expunerea de motive invocă o derogare de la procedura schimbării prin referendum a numelor de localități (OG 63/2002), dar această derogare lipsește din textul propriu-zis al legii.",
-      "article": "art. unic",
+      "text": "Expunerea de motive invocă o derogare de la procedura legală de schimbare a denumirii localităților (O.G. nr. 63/2002), însă textul legii nu conține nicio derogare expresă în acest sens.",
+      "article": "expunerea de motive",
       "quote": null,
       "weight": 1
     }
   ],
   "fix": {
-    "text": "Adăugarea unei dispoziții care să garanteze valabilitatea actelor emise cu denumirea „Bira” și actualizarea lor gratuită, plus corectarea formulei introductive de modificare a anexei.",
+    "text": "Adăugarea unui alineat care să confirme valabilitatea actelor emise cu denumirea „Bira” și actualizarea gratuită, din oficiu, a evidențelor, plus corectarea formulei introductive de modificare.",
     "removes": [
       0,
-      1,
-      2
+      1
     ],
     "levelAfter": "green",
-    "scoreAfter": 0.5
+    "scoreAfter": 0.2
   },
   "quotes": {
     "checked": 4,

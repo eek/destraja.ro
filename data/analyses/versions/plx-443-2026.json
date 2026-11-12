@@ -1,8 +1,28 @@
 {
   "slug": "plx-443-2026",
   "billId": "PL-x 443/2026",
-  "updatedAt": "2026-10-30T09:28:48.907Z",
+  "updatedAt": "2026-11-11T13:43:53.228Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L303FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "STS poate cumpăra licențe pentru cloudul guvernamental fără să mai aștepte acordurile Guvernului cu producătorii de software",
+      "summaryTlDr": "Lege tehnică, cu o miză de circa 6 milioane de euro din PNRR. Permite STS să cumpere licențe de sisteme de operare și baze de date fără condițiile de licențiere negociate centralizat de Guvern. Pe termen scurt e utilă. Problema este că derogarea nu expiră, deși a fost justificată doar prin termenul PNRR, iar statul poate ajunge să plătească prețuri comerciale standard.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,53 +56,71 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
+      "from": "initiator",
+      "to": "senat",
       "direction": "la_fel",
-      "headline": "Camera a păstrat textul Senatului; derogarea pentru licențele cloud ale STS rămâne fără termen",
-      "summary": "Între forma adoptată de Senat și cea adoptată de Cameră nu s-a schimbat nimic de fond, doar corecturi de scriere. STS poate cumpăra licențe cloud înaintea acordurilor guvernamentale, fără termen sau plafon, iar finanțarea PNRR pentru cloud poate fi prelungită până la 31 august 2026.",
-      "changes": [],
+      "headline": "Senatul a prelungit până la 31 august 2026 finanțarea PNRR pentru cloudul guvernamental",
+      "summary": "Senatul a adăugat un articol care prelungește până la 31 august 2026 contractul de finanțare PNRR pentru cloudul guvernamental. Derogarea care permite cumpărarea licențelor înaintea acordurilor guvernamentale rămâne neschimbată și fără limită în timp.",
+      "changes": [
+        {
+          "title": "Finanțarea PNRR a cloudului guvernamental, prelungită la 31 august",
+          "text": "Art. II nou modifică Legea 102/2024: contractul de finanțare pentru Investiția I1 din Componenta 7 poate fi prelungit până la 31 august 2026, peste termenul general de 30 iunie 2026.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II",
+          "before": null,
+          "after": "cu excepția jaloanelor și țintelor aferente Investiției Il „Implementarea infrastructurii de Cloud Guvernamental” din cadrul Componentei 7. Transformarea digitală, pentru care durata contractului de finanțare poate fi prelungită până la data de 31 august 2026, inclusiv.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Corectat numărul ordonanței aprobate în titlu",
+          "text": "Inițial, titlul legii indica OUG nr. 37/2026, deși articolul aproba OUG nr. 34/2026. Acum titlul spune corect nr. 34/2026 și anunță și modificarea Legii 102/2024.",
+          "effect": "neutru",
+          "major": false,
+          "article": null,
+          "before": "LEGE privind aprobarea Ordonanței de urgență a Guvernului nr.37/2026 pentru completarea art. 10",
+          "after": "LEGE privind aprobarea Ordonanței de urgență a Guvernului nr.34/2026 pentru completarea art.10",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
       "remaining": {
         "problems": [
           {
-            "text": "STS poate cumpăra licențe înaintea acordurilor guvernamentale, ocolind regula din art. 3 alin. (5¹)",
+            "text": "Licențele pot fi cumpărate înaintea acordurilor guvernamentale, fără limită în timp sau condiția PNRR",
             "major": true,
-            "article": "art. I (art. 10 alin. (12¹) OUG 89/2022)"
+            "article": "art. I (art. 10 alin. (12¹) din OUG 89/2022)"
           },
           {
-            "text": "Derogarea e permanentă: fără termen, plafon valoric sau limitare la finanțarea PNRR",
+            "text": "Licențele cumpărate acum pot lega statul de furnizorii actuali, fără obligație de renegociere",
             "major": true,
-            "article": "art. I (art. 10 alin. (12¹) OUG 89/2022)"
+            "article": "art. I (art. 10 alin. (12¹) din OUG 89/2022)"
           },
           {
-            "text": "Nu spune ce se întâmplă cu contractele STS după acordurile încheiate de MEDAT",
-            "major": true,
-            "article": "art. I (art. 10 alin. (12¹) OUG 89/2022)"
+            "text": "Expunerea invocă Investiția 2, iar art. II vorbește de Investiția I1",
+            "major": false,
+            "article": "art. II"
           },
           {
-            "text": "Acordurile-cadru de până la 4 ani pot genera costuri de licențiere după PNRR",
-            "major": true,
-            "article": "art. I (art. 10 alin. (12¹) OUG 89/2022)"
-          },
-          {
-            "text": "Impactul financiar nu e calculat, deși există riscul ca statul să plătească 6 milioane euro",
-            "major": true,
+            "text": "Impactul financiar asupra bugetului nu este completat în expunerea de motive",
+            "major": false,
             "article": null
           },
           {
-            "text": "Expunerea de motive invocă Investiția 2, dar legea se referă la Investiția I1",
+            "text": "Analiza impactului asupra concurenței lipsește, deși achizițiile sunt de circa 6 milioane euro",
             "major": false,
-            "article": "art. II"
+            "article": null
+          },
+          {
+            "text": "Expunerea se contrazice: spune că nu e excepție, dar introduce o derogare",
+            "major": false,
+            "article": null
           }
         ],
         "good": [
           {
-            "text": "Finanțarea PNRR pentru Cloudul Guvernamental poate fi prelungită până la 31 august 2026",
-            "major": true,
-            "article": "art. II"
-          },
-          {
-            "text": "Pentru celelalte jaloane ale cererii de plată nr. 5 rămâne termenul de 30 iunie 2026",
+            "text": "Finanțarea PNRR a cloudului guvernamental poate continua până la 31 august 2026",
             "major": false,
             "article": "art. II"
           }
@@ -91,12 +129,75 @@
       },
       "diff": {
         "added": 6,
-        "removed": 5,
+        "removed": 2,
         "same": 0
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:28:51.943Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:43:22.739Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a păstrat textul Senatului; diferă doar formulele de adoptare și o literă corectată",
+      "summary": "Camera Deputaților a adoptat același text ca Senatul. Diferă doar numele camerei, data ședinței, semnătura și scrierea corectă a codului Investiției I1. Riscurile rămân aceleași, mai ales derogarea fără termen care lasă STS să cumpere licențe.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "STS poate încheia acorduri-cadru înainte de acordurile guvernamentale prevăzute de lege",
+            "major": true,
+            "article": "art. I (art. 10 alin. (12¹) din OUG 89/2022)"
+          },
+          {
+            "text": "Derogarea nu are termen, plafon de valoare sau limitare la fondurile PNRR",
+            "major": true,
+            "article": "art. I (art. 10 alin. (12¹) din OUG 89/2022)"
+          },
+          {
+            "text": "Acorduri-cadru de până la 4 ani pot încărca bugetul cu licențe după PNRR",
+            "major": true,
+            "article": "art. I (art. 10 alin. (12¹) din OUG 89/2022)"
+          },
+          {
+            "text": "Lipsește regula pentru contractele STS după încheierea acordurilor guvernamentale",
+            "major": false,
+            "article": "art. I (art. 10 alin. (12¹) din OUG 89/2022)"
+          },
+          {
+            "text": "Expunerea de motive nu arată impactul asupra bugetului, deși invocă 6 milioane euro",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Expunerea vorbește de Investiția 2, legea de Investiția I1: neclar ce se salvează",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Termen până la 31 august 2026 poate salva circa 6 milioane euro din PNRR",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Excepția de la 30 iunie 2026 privește doar investiția Cloud Guvernamental",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0.33
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:43:53.228Z"
     }
   ]
 }

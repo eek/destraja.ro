@@ -1,8 +1,28 @@
 {
   "slug": "plx-446-2026",
   "billId": "PL-x 446/2026",
-  "updatedAt": "2026-10-30T09:29:33.173Z",
+  "updatedAt": "2026-11-11T13:52:01.894Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L347FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Terenurile degradate ale statului pot fi concesionate pentru parcuri solare, eoliene și stocare de energie",
+      "summaryTlDr": "Este o lege utilă, cerută de PNRR, cu filtre de mediu reale: exclude Natura 2000 și terenul cu îmbunătățiri funciare și cere evaluare strategică de mediu. Problemele sunt de redactare: o literă care, citită literal, deschide și terenul agricol bun, o procedură de concesionare mutată într-o anexă și un registru care există doar ca titlu.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 4
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,138 +56,90 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
-      "direction": "mai_riscant",
-      "headline": "Zonele de accelerare RES pe terenuri ADS se desemnează prin ordin de ministru, înainte de evaluarea de mediu",
-      "summary": "Acum terenurile statului devin zone de accelerare prin ordinul ministrului agriculturii, prin derogare de la OUG 163/2022. Evaluarea de mediu vine abia la planul în care sunt incluse ulterior. Restul modificărilor sunt de redactare.",
-      "changes": [
-        {
-          "title": "Ministrul agriculturii desemnează direct zonele de accelerare",
-          "text": "Art. 2 alin. (2³): inițial zonele intrau în planul din art. 15³ OUG 163/2022. Acum ministrul le desemnează prin ordin, prin derogare de la art. 15³ alin. (1), iar includerea în plan și evaluarea de mediu vin ulterior.",
-          "effect": "mai_rau",
-          "major": true,
-          "article": "art. I pct. 2 (art. 2 alin. (2³))",
-          "before": "(2³) Zonele de accelerare RES, prevăzute la alin.(2¹) se includ în planul de desemnare a zonelor de accelerare, conform prevederilor art.15³ din Ordonanța de urgență a Guvernului nr.163/2022",
-          "after": "zonele de accelerare RES prevăzute la alin. (2¹) se desemnează prin act al ministrului agriculturii și dezvoltării rurale. Acestea se includ ulterior în planul de desemnare a zonelor de accelerare, conform actului normativ menționat mai sus.",
-          "beforeAbsent": false,
-          "afterAbsent": false
-        },
-        {
-          "title": "Autorizarea se raportează și la modificările din această lege",
-          "text": "Art. III alin. (1) precizează acum că procedura de autorizare se aplică zonelor RES stabilite potrivit Legii 268/2001, inclusiv cu modificările aduse prin prezenta lege.",
-          "effect": "neutru",
-          "major": false,
-          "article": "art. III alin. (1)",
-          "before": "Acvacultură, cu modificările și completările ulterioare, se aplică procedura de autorizare în conformitate cu prevederile art.16-16²",
-          "after": "cu modificările și completările ulterioare, precum si cu cele aduse prin prezenta lege, se aplică procedura de autorizare în conformitate cu prevederile art. 16 - 16²",
-          "beforeAbsent": false,
-          "afterAbsent": false
-        }
-      ],
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițiatorului; a corectat doar greșeli de scriere și numerotări",
+      "summary": "Forma adoptată de Senat e practic aceeași cu a inițiatorului: s-au corectat diacritice, greșeli și numerotări. Rămân aceleași riscuri: criterii neclare pentru terenurile date proiectelor de energie verde și avize de mediu pe bază de examinare simplificată.",
+      "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Lit. c) pare categorie separată: orice teren din afara Natura 2000 devine eligibil",
+            "text": "Neclar dacă lit. c) e condiție sau categorie: și terenuri fertile pot intra",
             "major": true,
             "article": "art. I pct. 2 (art. 2 alin. (2¹))"
           },
           {
-            "text": "Terenurile degradate/neproductive nu cer studii pedologice, spre deosebire de clasele IV–V",
+            "text": "Terenurile „degradate/neproductive” intră fără studii pedologice, spre deosebire de clasele IV–V",
             "major": true,
             "article": "art. I pct. 2 (art. 2 alin. (2¹) lit. b))"
           },
           {
-            "text": "Zonele se desemnează prin ordin înainte de evaluarea de mediu; AA doar „după caz”",
+            "text": "Proiectele pot primi avize fără evaluare de mediu individuală, după o examinare simplificată",
             "major": true,
-            "article": "art. I pct. 2 (art. 2 alin. (2³))"
+            "article": "art. III alin. (8) lit. a)"
           },
           {
-            "text": "Excluderile și evaluarea de mediu vizează literal doar terenurile degradate sau neproductive",
+            "text": "Nivelul minim al redevenței e stabilit de un comitet al ADS, nu de lege",
             "major": true,
-            "article": "art. I pct. 2 (art. 2 alin. (2³)-(2⁴))"
+            "article": "anexa nr. 5, art. 3 alin. (2)"
           },
           {
-            "text": "Avize fără EIA sau AA; evaluări suplimentare „doar” opționale la efecte neprevăzute",
+            "text": "Contractul se reziliază dacă lucrările nu încep în 6 luni, chiar dacă avizele întârzie",
             "major": true,
-            "article": "art. III alin. (8)"
+            "article": "anexa nr. 5, art. 17"
           },
           {
-            "text": "Concedentul poate modifica unilateral contractul din motive de interes public",
-            "major": true,
-            "article": "anexa nr. 5, art. 10 alin. (3)"
+            "text": "Derogă de la art. 302–320 din Codul administrativ, dar trimite apoi la art. 307",
+            "major": false,
+            "article": "art. I pct. 3 și 5 (art. 4 alin. (1) lit. i), art. 6 alin. (3))"
           },
           {
-            "text": "Reziliere automată dacă lucrările nu încep în 6 luni, deși autorizarea poate dura mai mult",
-            "major": true,
-            "article": "anexa nr. 5, art. 17 alin. (1)"
-          },
-          {
-            "text": "Trimiterea la „art. 19–21” nu precizează actul normativ",
+            "text": "Trimiterea la „art.19 - 21” nu spune din ce act normativ e",
             "major": false,
             "article": "art. I pct. 3 (art. 4 alin. (1) lit. i))"
           },
           {
-            "text": "Derogă de la art. 302–320 Cod administrativ, dar aplică art. 307 alin. (2)",
-            "major": false,
-            "article": "art. I pct. 5 (art. 6 alin. (3))"
-          },
-          {
-            "text": "Lista circumstanțelor excepționale pentru prelungirea termenului rămâne deschisă",
+            "text": "Termenul de autorizare se poate prelungi pentru „alte circumstanțe”, listă deschisă",
             "major": false,
             "article": "art. III alin. (10)"
-          },
-          {
-            "text": "Contractul se poate încheia cu un singur ofertant la a doua licitație",
-            "major": false,
-            "article": "anexa nr. 5, art. 7 alin. (6)"
-          },
-          {
-            "text": "Aprobarea tacită se extinde la avizele proiectelor din zonele de accelerare",
-            "major": false,
-            "article": "art. IV alin. (4)"
           }
         ],
         "good": [
           {
-            "text": "Sunt excluse siturile Natura 2000, rutele de migrație și monumentele istorice",
+            "text": "Excluse siturile Natura 2000, rutele de migrație, monumentele istorice și zonele sensibile",
             "major": true,
             "article": "art. I pct. 2 (art. 2 alin. (2⁴))"
           },
           {
-            "text": "Sunt excluse terenurile deservite de infrastructura de îmbunătățiri funciare",
-            "major": true,
-            "article": "art. I pct. 2 (art. 2 alin. (2¹))"
-          },
-          {
-            "text": "Terenurile de clasele IV–V se stabilesc prin studii pedologice și agrochimice",
-            "major": true,
-            "article": "art. I pct. 2 (art. 2 alin. (2¹) lit. a))"
-          },
-          {
-            "text": "Nu se concesionează terenuri în retrocedare, cu titluri de proprietate sau în litigiu",
+            "text": "Nu se concesionează terenuri în retrocedare, în litigiu sau cu titluri de proprietate",
             "major": true,
             "article": "anexa nr. 5, art. 1 alin. (2)"
           },
           {
-            "text": "Concesionare prin licitație publică, cu redevență minimă care nu poate scădea",
+            "text": "Durată de până la 25 de ani, cel mult 49 cu prelungiri",
             "major": true,
-            "article": "anexa nr. 5, art. 8 alin. (2)"
+            "article": "anexa nr. 5, art. 4"
           },
           {
-            "text": "Planul de desemnare trece prin evaluarea de mediu înainte de adoptare",
+            "text": "Subconcesionarea, închirierea și cesionarea contractului sunt interzise",
+            "major": true,
+            "article": "anexa nr. 5, art. 4 alin. (3) și art. 19"
+          },
+          {
+            "text": "Garanție de bună execuție de 50% din redevența primului an",
+            "major": true,
+            "article": "anexa nr. 5, art. 12"
+          },
+          {
+            "text": "Planul zonelor de accelerare trece prin evaluare strategică de mediu înainte de adoptare",
             "major": false,
             "article": "art. I pct. 2 (art. 2 alin. (2³))"
           },
           {
-            "text": "Subconcesionarea, închirierea și cesionarea contractului sunt interzise",
+            "text": "Concesionarea se face doar prin licitație publică cu strigare, anunțată în Monitorul Oficial",
             "major": false,
-            "article": "anexa nr. 5, art. 4 alin. (3), art. 19"
-          },
-          {
-            "text": "Ghișeu unic electronic PCUEL și termen maxim de 6 luni pentru autorizare",
-            "major": false,
-            "article": "art. IV alin. (1)-(3)"
+            "article": "art. I pct. 3; anexa nr. 5, art. 7"
           },
           {
             "text": "Aprobarea tacită nu se aplică proiectelor supuse evaluării impactului asupra mediului",
@@ -175,17 +147,184 @@
             "article": "art. IV alin. (5)"
           },
           {
-            "text": "Prelungirea termenului se motivează în scris și se comunică din timp",
+            "text": "Prelungirea termenului de autorizare: o singură dată, maximum 6 luni, motivată în scris",
+            "major": false,
+            "article": "art. III alin. (10)–(11)"
+          },
+          {
+            "text": "Toate avizele se cer într-un singur sistem electronic, cu termen de 6 luni",
+            "major": false,
+            "article": "art. IV alin. (1)–(3)"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 49,
+        "removed": 44,
+        "same": 0.83
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:49:27.179Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Ministrul agriculturii desemnează zonele pentru energie verde, iar evaluarea de mediu vine abia după",
+      "summary": "Acum zonele pentru energie regenerabilă de pe terenurile ADS se desemnează prin act al ministrului agriculturii, prin derogare de la OUG 163/2022, și intră abia apoi în planul supus evaluării de mediu, deci pot fi concesionate înainte de ea. Restul sunt corecturi de redactare.",
+      "changes": [
+        {
+          "title": "Ministrul desemnează zonele, evaluarea de mediu vine după",
+          "text": "Art. I pct. 2, art. 2 alin. (2³): prin derogare de la OUG 163/2022, zonele se desemnează prin act al ministrului agriculturii și intră abia ulterior în planul supus evaluării de mediu.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. I pct. 2 (art. 2 alin. (2³))",
+          "before": "Zonele de accelerare RES, prevăzute la alin.(2¹) se includ în planul de desemnare a zonelor de accelerare, conform prevederilor art.15³ din Ordonanța de urgență a Guvernului nr.163/2022",
+          "after": "zonele de accelerare RES prevăzute la alin. (2¹) se desemnează prin act al ministrului agriculturii și dezvoltării rurale. Acestea se includ ulterior în planul de desemnare a zonelor de accelerare, conform actului normativ menționat mai sus.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Contractul-model indică articolul privind garanția de bună execuție",
+          "text": "Contractul-cadru, art. 2 alin. (2): trimiterea pentru predarea terenului, lăsată inițial goală, indică acum art. 12 din anexa nr. 5, privind garanția de bună execuție.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "contractul-cadru, art. 2 alin. (2)",
+          "before": null,
+          "after": "Predarea-primirea bunului imobil ce face obiectul concesiunii se efectuează în termen de 10 zile de la data constituirii garanției de bună execuție, astfel cum este prevăzut la art. 12 din anexa nr. 5 la Legea nr. 268/2001",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Concesionarul nu poate cere încetarea contractului după modificarea unilaterală",
+          "text": "Contractul-cadru, art. 8 alin. (15): inițial „încetarea acestuia” putea viza bunul; acum spune clar că, la modificarea unilaterală, concesionarul nu poate cere încetarea contractului.",
+          "effect": "neutru",
+          "major": false,
+          "article": "contractul-cadru, art. 8 alin. (15)",
+          "before": "Concesionarul este obligat să continue exploatarea bunului, în noile condiții stabilite în mod unilateral de concedenț, potrivit art.7 alin.(3), fără a putea solicita încetarea acestuia.",
+          "after": "Concesionarul este obligat să continue exploatarea bunului, în noile condiții stabilite în mod unilateral de concedent, potrivit dispozițiilor art. 7 alin. (3), fără a putea solicita încetarea contractului.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Oricare teren ADS din afara Natura 2000 poate fi desemnat, inclusiv teren agricol bun",
+            "major": true,
+            "article": "art. I pct. 2 (art. 2 alin. (2¹) lit. c))"
+          },
+          {
+            "text": "Zonele se desemnează prin act al ministrului, înaintea evaluării strategice de mediu",
+            "major": true,
+            "article": "art. I pct. 2 (art. 2 alin. (2³))"
+          },
+          {
+            "text": "Avize și autorizații fără EIA sau evaluare adecvată, după o examinare simplificată",
+            "major": true,
+            "article": "art. III alin. (8) lit. a)"
+          },
+          {
+            "text": "Reziliere automată dacă lucrările nu încep în 6 luni, chiar cu autorizări întârziate",
+            "major": true,
+            "article": "anexa nr. 5, art. 17"
+          },
+          {
+            "text": "Concedentul schimbă unilateral condițiile, iar concesionarul nu poate cere încetarea contractului",
+            "major": true,
+            "article": "anexa nr. 5, art. 10 alin. (3)"
+          },
+          {
+            "text": "Terenurile degradate/neproductive nu cer studiu pedologic, spre deosebire de clasele IV–V",
+            "major": false,
+            "article": "art. I pct. 2 (art. 2 alin. (2¹) lit. b))"
+          },
+          {
+            "text": "Evaluarea adecvată a planului se face doar „după caz”",
+            "major": false,
+            "article": "art. I pct. 2 (art. 2 alin. (2³))"
+          },
+          {
+            "text": "Evaluările suplimentare devin opționale, deși RED III cere ca autoritatea să acționeze",
+            "major": false,
+            "article": "art. III alin. (8) lit. b)"
+          },
+          {
+            "text": "Derogă de la art. 302–320 din Codul administrativ, dar trimite apoi la art. 307",
+            "major": false,
+            "article": "art. I pct. 3 și pct. 5"
+          },
+          {
+            "text": "Trimiterea la art. 19–21 nu spune explicit din ce act normativ face parte",
+            "major": false,
+            "article": "art. I pct. 3 (art. 4 alin. (1) lit. i))"
+          },
+          {
+            "text": "Lista „circumstanțelor excepționale” e deschisă, deci termenul de autorizare se poate prelungi ușor",
+            "major": false,
+            "article": "art. III alin. (10)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Exclude Natura 2000, rutele de migrație, monumentele istorice și zonele sensibile",
+            "major": true,
+            "article": "art. I pct. 2 (art. 2 alin. (2⁴))"
+          },
+          {
+            "text": "Nu se concesionează terenuri în retrocedare, cu litigii sau cu titluri de proprietate",
+            "major": true,
+            "article": "anexa nr. 5, art. 1 alin. (2)"
+          },
+          {
+            "text": "Subconcesionarea, închirierea și cesiunea contractului sunt interzise",
+            "major": true,
+            "article": "anexa nr. 5, art. 4 alin. (3) și art. 19"
+          },
+          {
+            "text": "Garanție de bună execuție de 50% din redevența primului an",
+            "major": true,
+            "article": "anexa nr. 5, art. 12"
+          },
+          {
+            "text": "Planul zonelor trece prin evaluare strategică de mediu înainte de adoptare",
+            "major": false,
+            "article": "art. I pct. 2 (art. 2 alin. (2³))"
+          },
+          {
+            "text": "Concesionare doar prin licitație publică cu strigare, anunțată și în Monitorul Oficial",
+            "major": false,
+            "article": "anexa nr. 5, art. 7"
+          },
+          {
+            "text": "Aprobarea tacită nu se aplică proiectelor supuse evaluării impactului asupra mediului",
+            "major": false,
+            "article": "art. IV alin. (5)"
+          },
+          {
+            "text": "Ghișeu electronic unic și termen maxim de 6 luni pentru autorizare",
+            "major": false,
+            "article": "art. IV"
+          },
+          {
+            "text": "Concesionarul raportează trimestrial progresul autorizării față de calendarul din ofertă",
+            "major": false,
+            "article": "contractul-cadru, art. 8 alin. (4)"
+          },
+          {
+            "text": "Prelungirea termenului de autorizare se motivează în scris, înainte de expirare",
             "major": false,
             "article": "art. III alin. (11)"
           },
           {
-            "text": "Se încurajează sisteme agrivoltaice și ecovoltaice pentru biodiversitate",
+            "text": "Măsuri de atenuare pentru biodiversitate, zgomot, poluare și siguranța stocării",
             "major": false,
-            "article": "art. III alin. (9)"
+            "article": "art. III alin. (5)"
           },
           {
-            "text": "Se înființează un Registru național unic al terenurilor statului",
+            "text": "Registru național unic al terenurilor statului administrate de ADS",
             "major": false,
             "article": "art. II"
           }
@@ -193,13 +332,13 @@
         "partial": true
       },
       "diff": {
-        "added": 121,
-        "removed": 118,
-        "same": 0.54
+        "added": 61,
+        "removed": 59,
+        "same": 0.78
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:30:01.744Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:52:01.894Z"
     }
   ]
 }

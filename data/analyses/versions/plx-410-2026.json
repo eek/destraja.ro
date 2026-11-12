@@ -1,8 +1,28 @@
 {
   "slug": "plx-410-2026",
   "billId": "PL-x 410/2026",
-  "updatedAt": "2026-10-30T09:27:25.385Z",
+  "updatedAt": "2026-11-11T13:44:41.182Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L193FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Statul poate amâna 6 luni poprirea conturilor doar declarând că n-are bani",
+      "summaryTlDr": "Problema e reală: conturi de spitale, universități sau primării ajung blocate la bancă. Soluția aleasă transformă însă termenul de grație de 6 luni într-un scut automat, fiindcă instituția datoare oprește poprirea printr-o simplă notificare, fără dovezi, fără destinatar clar și fără o sancțiune reală pentru declarații false.",
+      "scores": {
+        "agy": 6,
+        "claude": 6,
+        "codex": 6
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,59 +56,110 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
-      "direction": "la_fel",
-      "headline": "Fără schimbări de fond: Camera a adoptat același text ca Senatul despre blocarea popririi pe conturile statului",
-      "summary": "Camera a votat același articol ca Senatul, cu diferențe doar de redactare. Instituțiile publice pot amâna și acum până la 6 luni plata datoriilor din conturile bancare, iar regulile rămân neclare.",
-      "changes": [],
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Suspendarea automată a popririlor a dispărut, dar textul nou poate fi citit tot ca blocare pe 6 luni",
+      "summary": "Inițial, orice poprire pe conturile instituțiilor publice era suspendată de drept 6 luni, pe o simplă notificare. Acum art. 2 se aplică doar „în mod corespunzător” conturilor din bănci, fără termenul de 15 zile; e mai puțin dur pentru creditori, dar neclar.",
+      "changes": [
+        {
+          "title": "Nu mai e suspendare automată a popririlor 6 luni",
+          "text": "Art. 2¹: inițial orice poprire pe conturile instituțiilor publice era suspendată de drept 6 luni. Acum art. 2 se aplică „în mod corespunzător”, formulare care poate fi citită tot ca suspendare.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 2¹",
+          "before": "Pe durata termenului de 6 luni prevăzut la art. 2, se suspendă de drept orice măsură de executare silită prin poprire asupra conturilor instituțiilor și autorităților publice",
+          "after": "Prevederile art.2 se aplică în mod corespunzător și sumelor aflate în conturile instituțiilor și autorităților publice deschise la instituțiile de credit, inclusiv în ceea ce privește măsurile de executare silită prin poprire.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Regula nouă privește doar conturile din bănci, nu Trezoreria",
+          "text": "Art. 2¹: inițial regula acoperea conturile de la Trezoreria Statului și de la bănci; acum vizează doar conturile deschise la instituțiile de credit.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 2¹",
+          "before": "indiferent dacă acestea sunt deschise la Trezoreria Statului sau la instituții de credit",
+          "after": "sumelor aflate în conturile instituțiilor și autorităților publice deschise la instituțiile de credit",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare termenul de 15 zile pentru notificarea lipsei fondurilor",
+          "text": "Art. 2¹ alin. (2): a fost scos termenul de 15 zile de la somație. Acum nu se spune nici când, nici cum se invocă lipsa de fonduri, deci simpla invocare poate bloca poprirea.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 2¹ alin. (2)",
+          "before": "va opera în termen de 15 zile de la data comunicării somației, dacă în acel interval instituția sau autoritatea publică debitoare nu a notificat lipsa fondurilor în bugetul aprobat.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Nu mai răspunde nimeni pentru declararea lipsei de fonduri",
+          "text": "Art. 2¹ alin. (3): a fost scoasă răspunderea ordonatorului de credite pentru exactitatea notificării. Inițial era vagă, fără sancțiune; acum nu mai există deloc.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 2¹ alin. (3)",
+          "before": "Ordonatorul de credite al instituției și autorității publice debitoare răspunde pentru exactitatea și veridicitatea datelor comunicate prin notificarea lipsei fondurilor în bugetul aprobat.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Fără derogare de la Codul de procedură civilă",
+          "text": "Art. 2¹ alin. (4): a fost scoasă derogarea de la Codul de procedură civilă în materia popririi. Băncile rămân ținute de regimul general, dar raportul cu regula nouă e neclar.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 2¹ alin. (4)",
+          "before": "Dispozițiile prezentului articol sunt norme speciale și se aplică prin derogare de la dispozițiile Legii nr. 134/2010 privind Codul de procedură civilă, republicat, cu modificările și completările ulterioare, în materia popririi.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        }
+      ],
       "remaining": {
         "problems": [
           {
-            "text": "Poprirea pe conturile instituțiilor poate fi amânată până la 6 luni de la somație",
+            "text": "Trimiterea la art. 2 e ambiguă: suspendare a popririi sau doar reafirmarea termenului",
             "major": true,
             "article": "art. 2¹"
           },
           {
-            "text": "Salariații, IMM-urile și păgubiții așteaptă mai mult, iar penalitățile se plătesc tot din buget",
+            "text": "Lipsa de fonduri nu se dovedește: nu se spune cine o constată, când, cum",
             "major": true,
             "article": "art. 2¹"
           },
           {
-            "text": "„În mod corespunzător” e ambiguu: suspendare de drept sau doar reafirmarea termenului?",
+            "text": "Simpla invocare a lipsei de fonduri poate bloca poprirea, fără termen de notificare",
             "major": true,
             "article": "art. 2¹"
           },
           {
-            "text": "Fără dispoziții tranzitorii; neclar dacă afectează popririle deja înființate",
+            "text": "Creditorii, inclusiv angajați și IMM-uri, pot aștepta încă 6 luni pentru fiecare titlu",
             "major": true,
-            "article": null
-          },
-          {
-            "text": "Lipsa de fonduri nu are procedură: cine o constată, cu ce act",
-            "major": false,
             "article": "art. 2¹"
           },
           {
-            "text": "Lipsește termenul de 15 zile pentru notificarea lipsei fondurilor",
-            "major": false,
+            "text": "Costul întârzierii: finanțare pe seama creditorului, penalități plătite tot din bugetul public",
+            "major": true,
             "article": "art. 2¹"
           },
           {
-            "text": "Rolul băncii neclar: refuz din oficiu, la cerere, încasări viitoare?",
-            "major": false,
-            "article": "art. 2¹"
-          },
-          {
-            "text": "Nicio derogare expresă de la art. 781–794 CPC pentru bănci",
+            "text": "Băncile rămân sub Codul de procedură civilă, fără regula promisă în expunere",
             "major": false,
             "article": "art. 2¹"
           }
         ],
         "good": [
           {
-            "text": "După cele 6 luni creditorul poate trece la executarea silită obișnuită",
-            "major": false,
+            "text": "Nu mai există suspendare de drept a oricărei popriri pe simplă notificare",
+            "major": true,
+            "article": "art. 2¹"
+          },
+          {
+            "text": "Domeniul e mai restrâns: doar conturile deschise la instituțiile de credit",
+            "major": true,
             "article": "art. 2¹"
           }
         ],
@@ -96,12 +167,85 @@
       },
       "diff": {
         "added": 4,
-        "removed": 3,
+        "removed": 11,
         "same": 0
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:28:27.325Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:44:05.256Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a votat același text ca Senatul; diferă doar antetul, data votului și semnătura",
+      "summary": "Camera a adoptat textul Senatului cuvânt cu cuvânt. S-au schimbat doar numele camerei, data votului și semnătura. Riscul rămâne același: plata datoriilor instituțiilor publice din conturile bancare poate fi amânată până la 6 luni, fără o procedură clară.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Angajații și furnizorii pot aștepta încă 6 luni plata din conturile instituțiilor",
+            "major": true,
+            "article": "art. 2¹"
+          },
+          {
+            "text": "Lipsa de fonduri se poate invoca fără dovadă, act sau termen de notificare",
+            "major": true,
+            "article": "art. 2¹"
+          },
+          {
+            "text": "„În mod corespunzător” e neclar: suspendă poprirea sau doar repetă termenul de 6 luni?",
+            "major": true,
+            "article": "art. 2¹"
+          },
+          {
+            "text": "Dobânzile și penalitățile pentru întârziere ajung, în final, tot în sarcina bugetului public",
+            "major": true,
+            "article": "art. 2¹"
+          },
+          {
+            "text": "Banca nu are o regulă clară: refuză poprirea din oficiu sau la cerere?",
+            "major": false,
+            "article": "art. 2¹"
+          },
+          {
+            "text": "Lipsesc suspendarea de drept și derogarea de la Codul de procedură civilă promise",
+            "major": false,
+            "article": "art. 2¹"
+          },
+          {
+            "text": "Nu se spune ce se întâmplă cu sumele care intră ulterior în conturi",
+            "major": false,
+            "article": "art. 2¹"
+          },
+          {
+            "text": "Fără dispoziții tranzitorii; neclar dacă privește popririle deja înființate",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Creditorul păstrează dreptul la executare silită după expirarea celor 6 luni",
+            "major": true,
+            "article": "art. 2¹"
+          },
+          {
+            "text": "Termenul acordat instituțiilor are o limită clară: 6 luni de la somație",
+            "major": false,
+            "article": "art. 2¹"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "same": 0.25
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:44:41.182Z"
     }
   ]
 }

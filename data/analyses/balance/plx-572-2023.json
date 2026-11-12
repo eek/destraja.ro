@@ -1,0 +1,71 @@
+{
+  "slug": "plx-572-2023",
+  "billId": "Pl-x 572/2023",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-12T10:27:55.166Z",
+  "inputHash": "cd7b4c77d821",
+  "riskScore": 3,
+  "summary": "Un proiect util pentru reducerea cheltuielilor bugetare, dar redactat cu erori tehnice privind calendarul desființării, predarea bunurilor și preluarea personalului.",
+  "good": [
+    {
+      "text": "Desființează o instituție publică paralelă cu Academia Română, oprind cheltuirea a circa 5,8 milioane de lei anual din buget pentru indemnizațiile membrilor.",
+      "article": "art. 1 și art. 3",
+      "quote": "Academia Oamenilor de Știință din România înființată prin Legea nr. 31/2007, cu modificările și completările ulterioare, se desființează.",
+      "weight": 3
+    },
+    {
+      "text": "Asigură continuitatea juridică și păstrarea arhivei prin transferul drepturilor, obligațiilor, contractelor și litigiilor către Academia Română.",
+      "article": "art. 2 alin. (1)",
+      "quote": "drepturile, obligațiile, contractele, acordurile și litigiile instituției, activele și pasivele, bunurile mobile, inclusiv arhiva, precum și activele aflate în administrarea sau, după caz, în proprietatea acesteia, se vor prelua",
+      "weight": 2
+    },
+    {
+      "text": "Obligă la predarea patrimoniului pe bază de bilanț contabil și desemnează clar Academia Română să depună ultimele raportări financiare.",
+      "article": "art. 2 alin. (2) și (5)",
+      "quote": "Obligațiile privind raportările financiare aferente ultimei perioade fiscale pentru care Academia Oamenilor de Știință din România datorează astfel de raportări se preiau de către Academia Română.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Instituția dispare la 3 zile de la publicare, dar legea ei se abrogă abia «în termen de 60 de zile», fără o dată exactă și lăsând două luni în vigoare legea unei instituții inexistente.",
+      "article": "art. 1 și art. 3",
+      "quote": "În termen de 60 de zile de la publicarii in Monitorul Oficial al prezentei legi, Legea nr. 31/15 ianuarie 2007 privind reorganizarea și funcționarea Academiei Oamenilor de Știință din România",
+      "weight": 3
+    },
+    {
+      "text": "Cere reprezentanților legali ai AOSR să semneze predarea patrimoniului în 30 de zile după ce instituția a fost deja desființată și și-a pierdut capacitatea juridică.",
+      "article": "art. 1 și art. 2 alin. (2)",
+      "quote": "Protocolul de predare-primire prevăzut la alin. (1), se va efectua în termen de 30 zile calendaristice de la data intrării în vigoare a acestei legi, între reprezentanții legali ai Academiei Oamenilor de Stiinta",
+      "weight": 3
+    },
+    {
+      "text": "Transferă angajații doar în limita posturilor deja aprobate la Academia Română, fără a suplimenta schema și fără a spune ce se întâmplă cu salariații pentru care nu sunt posturi libere.",
+      "article": "art. 2 alin. (3) și (4)",
+      "quote": "vor fi transferați Academiei Române, potrivit legii, în limita numărului maxim de posturi aprobate pentru Academia Română, beneficiind de drepturile salariale acordate, potrivit legii, pentru categoriile de funcții din cadrul Academiei Române.",
+      "weight": 2
+    },
+    {
+      "text": "Omite menționarea expresă a bunurilor imobile, nu separă proprietatea privată de bunurile statului date în administrare și contrazice expunerea de motive privind valorificarea sediului.",
+      "article": "art. 2 alin. (1)",
+      "quote": "activele și pasivele, bunurile mobile, inclusiv arhiva, precum și activele aflate în administrarea sau, după caz, în proprietatea acesteia, se vor prelua prin protocol de predare-primire de către Academia Română.",
+      "weight": 2
+    }
+  ],
+  "fix": {
+    "text": "Corelarea termenelor prin păstrarea capacității juridice pe durata celor 30 de zile necesare predării și abrogarea simultană a Legii nr. 31/2007, clarificând situația imobilelor și a salariaților.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

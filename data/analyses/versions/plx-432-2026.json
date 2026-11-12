@@ -1,8 +1,28 @@
 {
   "slug": "plx-432-2026",
   "billId": "PL-x 432/2026",
-  "updatedAt": "2026-10-30T09:28:29.187Z",
+  "updatedAt": "2026-11-11T13:45:19.496Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L224FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Subvenție pentru fermele de porci, după criza pestei porcine din 2025–2026",
+      "summaryTlDr": "Ajutorul are un scop legitim și un buget modest (140,9 mil. lei). Textul pare însă copiat dintr-o schemă mai veche: trimite la bugetul pe 2024, cere plăți „în fiecare an” până în 2030 pentru o perioadă deja încheiată și dă banii după capacitatea fermei, nu după pierderi, ceea ce poate bloca sau întârzia aprobarea Comisiei Europene.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 6
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,75 +56,188 @@
   ],
   "changes": [
     {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a lăsat fondul neschimbat; finanțarea rămâne legată de bugetul pe 2024, an închis",
+      "summary": "Senatul a făcut doar corecturi de redactare: diacritice, trimiteri, aranjarea formularelor. Fondul e neschimbat: banii vin tot din bugetul pe 2024, ajutorul se dă pe locuri de cazare, nu pe pagube, iar gospodăriile neautorizate rămân excluse.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Banii sunt prevăzuți din bugetul MADR pe 2024, an bugetar deja închis",
+            "major": true,
+            "article": "art. 4 alin. (6)"
+          },
+          {
+            "text": "Ajutorul se calculează pe locuri de cazare, nu pe pierderile dovedite",
+            "major": true,
+            "article": "art. 4 alin. (3) și (5)"
+          },
+          {
+            "text": "Se aplică în toată țara, fără condiția de focar sau restricții la fermă",
+            "major": true,
+            "article": "art. 1 alin. (6)"
+          },
+          {
+            "text": "Gospodăriile fără exploatație autorizată sanitar-veterinar nu pot primi ajutorul",
+            "major": true,
+            "article": "art. 3; art. 4 alin. (1) lit. a)"
+          },
+          {
+            "text": "Cumulul cu orice alte scheme de la buget e permis, fără limită",
+            "major": true,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Nu e clar dacă ajutorul se plătește o dată sau în fiecare an",
+            "major": true,
+            "article": "art. 6; art. 1 alin. (2)"
+          },
+          {
+            "text": "Termenul fix de plată, 30 august, nu ține cont de decizia Comisiei Europene",
+            "major": false,
+            "article": "art. 6 alin. (2)"
+          },
+          {
+            "text": "Formularul cere mișcarea efectivelor până la 1 decembrie 2026, nu 1 februarie 2026",
+            "major": false,
+            "article": "anexa nr. 1"
+          },
+          {
+            "text": "Data verificării falimentului diferă: 1 februarie 2025 în lege, 1 martie 2025 în cerere",
+            "major": false,
+            "article": "art. 4 alin. (1) lit. d)"
+          },
+          {
+            "text": "Greșeli de redactare noi: „territoriul”, „fi pot fi”",
+            "major": false,
+            "article": "art. 1 alin. (6); art. 5 alin. (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Sumele primite nu pot fi poprite în executare silită",
+            "major": true,
+            "article": "art. 1 alin. (8)"
+          },
+          {
+            "text": "Plata devine obligatorie abia după decizia Comisiei Europene",
+            "major": true,
+            "article": "art. 13 alin. (1)"
+          },
+          {
+            "text": "Plafon de 250.000 euro pe întreprindere",
+            "major": true,
+            "article": "art. 4 alin. (4)"
+          },
+          {
+            "text": "Crescătorii care și-au schimbat activitatea după 1 martie 2025 rămân eligibili",
+            "major": true,
+            "article": "art. 4 alin. (2)"
+          },
+          {
+            "text": "Dacă banii nu ajung, sumele se reduc proporțional pentru toți",
+            "major": false,
+            "article": "art. 7 alin. (3)"
+          },
+          {
+            "text": "Cererile se pot trimite și prin fax, poștă sau e-mail",
+            "major": false,
+            "article": "art. 5 alin. (3)"
+          },
+          {
+            "text": "Beneficiarii DR-06 nu redepun documentele deja depuse la APIA",
+            "major": false,
+            "article": "art. 5 alin. (2)"
+          },
+          {
+            "text": "Beneficiarii de peste 10.000 euro sunt publicați pe site-ul APIA",
+            "major": false,
+            "article": "art. 10 alin. (3)"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 52,
+        "removed": 89,
+        "same": 0.6
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:42:54.040Z"
+    },
+    {
       "from": "senat",
       "to": "camera",
       "direction": "mai_putin_riscant",
-      "headline": "Ajutorul acoperă acum costuri reale de biosecuritate, nu locuri de cazare, și se plătește după avizul UE",
-      "summary": "Inițial ajutorul era o sumă fixă pe capacitatea fermei, plătită din bugetul pe 2024. Acum compensează facturi de biosecuritate, are bani pe 2026 și se aplică doar după aprobarea Comisiei Europene. Cumulul nelimitat a rămas.",
+      "headline": "Ajutorul pentru crescătorii de porci acoperă acum costuri dovedite de biosecuritate, nu locuri de cazare",
+      "summary": "Ajutorul nu mai e dat după locurile din fermă, ci pentru costuri de biosecuritate dovedite cu acte, din 2023–2026. Banii vin din bugetul pe 2026 (60 mil. euro) și se plătesc doar după aprobarea Comisiei Europene, dar suma pe cap de animal nu mai e în lege.",
       "changes": [
         {
-          "title": "Se plătesc costuri dovedite, nu capacitatea fermei",
-          "text": "Art. 4: în locul sumei fixe de 100 euro/UVM pe locuri de cazare, se decontează până la 100% din costurile de biosecuritate dovedite prin acte contabile, cu plafon pe cap de animal.",
+          "title": "Ajutor pentru costuri de biosecuritate, nu pe capacitate",
+          "text": "Art. 4: ajutorul nu mai compensează pierderi după locurile de cazare (UVM), ci costuri dovedite cu dezinfectanți, echipamente și sterilizarea furajelor, făcute între 31 august 2023 și 31 august 2026.",
           "effect": "mai_bine",
           "major": true,
-          "article": "art. 4 alin. (5)",
-          "before": "(5) Cuantumul ajutorului este de 100 euro/UVM, echivalent în lei, ratele de conversie fiind de 0,3 UVM pentru porc gras, 0,5 UVM pentru animale de reproducție, respectiv scroafe și scrofițe",
-          "after": "Cuantumul ajutorului de stat este de până la 100% din costurile eligibile, în limita valorii maxime prevăzute la alin. (2) și se acordă pe cap de animal pentru porc gras și/sau, animale de reproducție, respectiv scroafe și scrofițe.",
+          "article": "art. 4 alin. (2)",
+          "before": "(3) Ajutorul de stat prevăzut la art.1 alin.(1) se acordă beneficiarilor, crescători de suine, pentru capacitatea de producție în condiții minime de bunăstare, deținută de beneficiar în perioada 1 martie 2025 - 1 februarie 2026, echivalent UVM",
+          "after": "pentru costurile implementării măsurilor de biosecuritate pentru prevenirea și controlul pestei porcine africane, respectiv costurile cu dezinfectanții, echipamentele de protecție, sterilizarea furajului, sterilizarea materialelor higroscopice",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Bani din bugetul pe 2026, nu pe 2024",
-          "text": "Art. 4 alin. (7): finanțarea trece de la bugetul MADR pe 2024, an închis, la cel pe 2026. Suma totală crește de la 140,9 la 304,6 milioane lei.",
+          "title": "Banii vin din bugetul pe 2026, nu 2024",
+          "text": "Art. 4 alin. (7): suma totală crește de la 140,9 la 304,6 mil. lei (60 mil. euro) și vine din bugetul MADR pe 2026, nu dintr-un an bugetar deja încheiat.",
           "effect": "mai_bine",
           "major": true,
           "article": "art. 4 alin. (7)",
-          "before": "în limita prevederilor bugetare aprobate Ministerului Agriculturii și Dezvoltării Rurale pe anul 2024",
-          "after": "în limita prevederilor bugetare aprobate Ministerului Agriculturii și Dezvoltării Rurale pe anul 2026",
+          "before": "este de 140.886,75 mii lei, echivalentul sumei de 27 milioane 750 mii euro, și se asigură de la bugetul de stat, în limita prevederilor bugetare aprobate Ministerului Agriculturii și Dezvoltării Rurale pe anul 2024",
+          "after": "este de 304.620 mii lei, echivalentul sumei de 60.000 mii euro, și se asigură de la bugetul de stat, în limita prevederilor bugetare aprobate Ministerului Agriculturii și Dezvoltării Rurale pe anul 2026",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Plata vine doar după aprobarea Comisiei Europene",
-          "text": "Art. 1 alin. (5) și art. 13: schema se aplică și obligația de plată apare doar după decizia Comisiei. Scade riscul ca fermierii să fie obligați să returneze bani cu dobândă.",
+          "title": "Plata doar după aprobarea Comisiei Europene",
+          "text": "Art. 1 alin. (5): schema se aplică abia după autorizarea UE; dispare plata obligatorie până la 30 august (art. 6), deci scade riscul ca fermierii să returneze banii cu dobândă.",
           "effect": "mai_bine",
           "major": true,
-          "article": "art. 1 alin. (5)",
-          "before": "Schema se aplică pe întreg territoriul României.",
-          "after": null,
+          "article": "art. 1 alin. (5); art. 6",
+          "before": "(2) Plata ajutorului de stat se efectuează până la data de 30 august a fiecărui an.",
+          "after": "(5) Schema se aplică pe întreg territoriul României, după autorizarea de către Comisia Europeană a ajutorului de stat.",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Plafonul pe firmă crește de la 250.000 la 3 milioane euro",
-          "text": "Art. 4 alin. (6): o singură întreprindere poate primi până la 3 milioane euro. Fermele mari pot lua o parte mai mare dintr-un buget fix, care se reduce proporțional.",
+          "title": "Suma pe animal nu mai apare în lege",
+          "text": "Inițial legea fixa 100 euro/UVM. Acum plafonul pe cap de animal îl calculează ICEADR și îl stabilesc normele (art. 4 alin. (2), (5)), deci fermierul nu știe din lege cât primește.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 4 alin. (2), (5)",
+          "before": "(5) Cuantumul ajutorului este de 100 euro/UVM, echivalent în lei, ratele de conversie fiind de 0,3 UVM pentru porc gras, 0,5 UVM pentru animale de reproducție, respectiv scroafe și scrofițe",
+          "after": "Valoarea maximă a costurilor care se stabilește pe cap de animal pentru porc gras și/sau, animale de reproducție respectiv, scroafe și scofițe, se calculează de către Institutul de Cercetare pentru Economia Agriculturii și Dezvoltare Rurală",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Plafonul pe firmă urcă la 3 milioane euro",
+          "text": "Art. 4 alin. (6): o întreprindere poate primi până la 3 mil. euro, nu 250.000 euro. Fermele mari pot primi mai mult; la buget fix, asta poate micșora sumele celorlalți.",
           "effect": "neutru",
           "major": true,
           "article": "art. 4 alin. (6)",
-          "before": "nu depășește echivalentul în lei a 250.000 euro",
-          "after": "nu depășește echivalentul în lei a 3.000 mii euro",
+          "before": "(4) Valoarea totală ce poate fi acordată pentru întreprinderea care își desfășoară activitatea în domeniul producției primare de produse agricole nu depășește echivalentul în lei a 250.000 euro.",
+          "after": "(6) Valoarea totală ce poate fi acordată pentru întreprinderea care își desfășoară activitatea în domeniul producției primare de produse agricole nu depășește echivalentul în lei a 3.000 mii euro.",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Perioada acoperită se extinde la 2023-2026",
-          "text": "Art. 3: sunt eligibile activitatea și costurile din 31 august 2023 – 31 august 2026, în loc de 1 martie 2025 - 1 februarie 2026.",
+          "title": "Alte acte cerute: facturi, extrase SNIIA, acte contabile",
+          "text": "Art. 5: în locul documentului DSVSA despre capacitate, fermierii depun acte contabile pentru biosecuritate, e-facturi pentru porcii livrați și extrase SNIIA; nu se mai preiau datele din DR-06.",
           "effect": "neutru",
-          "major": true,
-          "article": "art. 3",
-          "before": "care au desfășurat activitate de îngrășare și/sau reproducție a suinelor în perioada 1 martie 2025 - 1 februarie 2026.",
-          "after": "care au desfășurat activitate de reproducție și/sau creștere și/sau îngrășare a suinelor în perioada 31 august 2023 – 31 august 2026",
-          "beforeAbsent": false,
-          "afterAbsent": false
-        },
-        {
-          "title": "Falimentul se verifică la data cererii",
-          "text": "Art. 4 alin. (1) lit. d): condiția de a nu fi în lichidare sau faliment se verifică la depunerea cererii, nu la 1 februarie 2025.",
-          "effect": "mai_bine",
           "major": false,
-          "article": "art. 4 alin. (1) lit. d)",
-          "before": "să nu se afle în lichidare sau faliment la data de 1 februarie 2025",
-          "after": "să nu se afle în lichidare sau faliment la data depunerii cererii de solicitare a ajutorului de stat",
+          "article": "art. 5 alin. (1)",
+          "before": "d) copia documentului emis de direcția județeană sanitar-veterinară și pentru siguranța alimentelor care atestă capacitatea de producție în condiții minime de bunăstare, aferentă unei/unui serii/ciclu de producție",
+          "after": "b) copii ale documentelor contabile înregistrate în perioada 31 august 2023 – 31 august 2026, care dovedesc achiziția de materii și materiale necesare aplicării măsurilor de biosecuritate",
           "beforeAbsent": false,
           "afterAbsent": false
         }
@@ -112,74 +245,79 @@
       "remaining": {
         "problems": [
           {
-            "text": "Cumul nelimitat cu alte scheme; aceleași costuri pot fi decontate de două ori",
+            "text": "Ajutorul se cumulează cu orice altă schemă de stat, fără limită pentru aceleași costuri",
             "major": true,
             "article": "art. 1 alin. (3)"
           },
           {
-            "text": "Banii există doar pe 2026, iar plata în 2026 e improbabilă",
+            "text": "Suma maximă pe cap de animal nu e în lege, ci în norme",
             "major": true,
-            "article": "art. 4 alin. (7)"
+            "article": "art. 4 alin. (2), (5)"
           },
           {
-            "text": "Reducerea proporțională poate lăsa beneficiarii cu sume mult mai mici",
+            "text": "Bani doar din bugetul pe 2026; plata înainte de sfârșitul anului e improbabilă",
             "major": true,
-            "article": "art. 4 alin. (9)"
+            "article": "art. 4 alin. (7), (9)"
           },
           {
-            "text": "Gospodăriile populației, fără formă juridică, nu primesc nimic",
+            "text": "Gospodăriile fără PFA, firmă sau cooperativă nu pot primi ajutorul",
             "major": true,
-            "article": "art. 2 lit. b)"
+            "article": "art. 2 lit. b); art. 4 alin. (1)"
           },
           {
-            "text": "Suma maximă pe cap de animal nu apare în lege, ci în norme",
-            "major": true,
-            "article": "art. 4 alin. (2)"
-          },
-          {
-            "text": "Plafon de 3 milioane euro pe firmă favorizează fermele mari",
+            "text": "Decizia Comisiei poate schimba schema fără o nouă lege votată",
             "major": false,
-            "article": "art. 4 alin. (6)"
+            "article": "art. 13 alin. (2)"
           },
           {
-            "text": "Termenele de depunere și de plată sunt lăsate integral normelor metodologice",
+            "text": "Termenul de depunere și data plății sunt lăsate pe seama normelor",
             "major": false,
             "article": "art. 6 alin. (1)"
           }
         ],
         "good": [
           {
-            "text": "Schema se aplică și se plătește doar după autorizarea Comisiei Europene",
-            "major": true,
-            "article": "art. 1 alin. (5)"
-          },
-          {
-            "text": "Ajutorul compensează costuri reale de biosecuritate, dovedite cu acte contabile",
+            "text": "Ajutorul acoperă costuri reale de biosecuritate, dovedite cu acte contabile",
             "major": true,
             "article": "art. 4 alin. (2)"
           },
           {
-            "text": "Sursa de finanțare este bugetul MADR pe 2026, nu un an închis",
+            "text": "Plata se face doar după autorizarea Comisiei Europene",
+            "major": true,
+            "article": "art. 1 alin. (5); art. 13 alin. (1)"
+          },
+          {
+            "text": "Buget de 60 mil. euro din anul în curs, nu dintr-un an încheiat",
             "major": true,
             "article": "art. 4 alin. (7)"
           },
           {
-            "text": "Sumele primite nu pot fi poprite în executare silită",
+            "text": "Sumele primite nu pot fi poprite în executări silite",
             "major": true,
             "article": "art. 1 alin. (7)"
           },
           {
-            "text": "Pot cere ajutor și deținătorii exploatației care nu sunt proprietarii animalelor",
+            "text": "Schema se bazează pe regulile UE pentru prevenirea bolilor animalelor",
             "major": false,
-            "article": "art. 4 alin. (3)"
+            "article": "art. 1 alin. (2)"
           },
           {
-            "text": "Beneficiarii de peste 10.000 euro sunt publicați pe site-ul APIA",
+            "text": "Dacă banii nu ajung, reducerea e proporțională pentru toți",
+            "major": false,
+            "article": "art. 4 alin. (9)"
+          },
+          {
+            "text": "Normele de aplicare trebuie emise în 45 de zile",
+            "major": false,
+            "article": "art. 14"
+          },
+          {
+            "text": "Beneficiarii peste 10.000 euro sunt publicați pe site-ul APIA",
             "major": false,
             "article": "art. 10 alin. (3)"
           },
           {
-            "text": "Cererile se pot trimite și prin poștă, fax sau e-mail",
+            "text": "Cererea se poate trimite prin e-mail, cu semnătură olografă sau electronică",
             "major": false,
             "article": "art. 5 alin. (2)"
           }
@@ -187,13 +325,13 @@
         "partial": false
       },
       "diff": {
-        "added": 99,
-        "removed": 98,
-        "same": 0.2
+        "added": 92,
+        "removed": 91,
+        "same": 0.3
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:29:06.112Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:45:19.496Z"
     }
   ]
 }

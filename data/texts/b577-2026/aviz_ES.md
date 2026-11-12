@@ -1,0 +1,61 @@
+Cod fiscal: 10464660
+
+E-mail: ces@ces.ro
+
+www.ces.ro
+
+Membru fondator al Asociației Internaționale a Consiliilor Economice și Sociale și Instituțiilor Similare (AICESIS) Membru al Uniunii Consiliilor Economice și Sociale și Instituțiilor Similare Francofone (UCESIF)
+
+„Consiliul Economic și Social este organ consultativ al Parlamentului și al Guvernului în domeniile de specialitate stabilite prin legea sa organică de înființare, organizare și funcționare.” (Art. 141 din Constituția României revizuită)
+
+Nr. 7269/04.11.2026.
+
+Biroul permanent al Senatului
+
+Mniewbie
+
+## AVIZ
+
+## referitor la propunerea legislativă privind intervențiile-asupra fațadelor clădirilor clasate monumente istorice de către primării (b577/20.10.2026)
+
+În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative privind intervențiile asupra fațadelor clădirilor clasate monumente istorice de către primării (b577/20.10.2026).
+
+## CONSILIUL ECONOMIC ȘI SOCIAL
+
+În temeiul art. 5 lit. a) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare. în ședința din data de 4.11.2026, desfășurată online, conform prevederilor art. 30 alin. (1) din Regulamentul de organizare și funcționare, avizează NEFAVORABIL prezentul proiect de act normativ, cu următoarea motivare:
+
+\- protejarea monumentelor istorice și prevenirea degradării patrimoniului construit reprezintă obiective legitime de interes public, care pot justifica instituirea unor obligații în sarcina proprietarilor și, în anumite condiții, intervenția autorităților publice. Cu toate acestea, exercitarea unor asemenea prerogative trebuie să respecte garanțiile dreptului de proprietate privată consacrate de art. 44 din Constituția României și de art. 1 din Protocolul nr. 1 la Convenția europeană a drepturilor omului;
+
+posibilitatea executării unor lucrări asupra unui imobil aparținând unei persoane fizice sau juridice, în absența acordului proprietarului, constituie o ingerință în exercitarea dreptului de proprietate, care trebuie să fie prevăzută prin norme clare și previzibile, să urmărească un interes public legitim și să respecte principiul proporționalității;
+
+\- reglementarea propusă nu stabilește criterii suficient de precise privind situațiile care justifică intervenția fără consimțământ, gradul de degradare necesar pentru declanșarea procedurii, existența unui pericol pentru siguranța publică, condițiile de acces la proprietate și limitele materiale ale lucrărilor care pot fi executate. Absența acestor elemente permite o marjă excesivă de apreciere autorităților locale și poate conduce la intervenții nejustificate asupra unor bunuri private, inclusiv în situații în care conservarea monumentului ar putea fi realizată prin mijloace mai puțin intruzive;
+
+\- Legea nr. 422/2001 privind protejarea monumentelor istorice instituie deja un cadru normativ pentru conservarea, consolidarea, restaurarea și întreținerea monumentelor istorice, reglementând obligațiile proprietarilor, condițiile de realizare a intervențiilor, atribuțiile autorităților competente și mecanismele de finanțare. Potrivit art. 23 și art. 24 din Legea nr. 422/2001, intervențiile asupra monumentelor istorice sunt supuse unui regim juridic special, care stabilește condițiile de avizare și executare a lucrărilor, cerințele privind personalul de specialitate și excepțiile aplicabile anumitor categorii de intervenții. În acest sens, art. 24 alin. (2) reglementează situațiile în care anumite lucrări de întreținere și reparații curente beneficiază de un regim distinct, în timp ce art. 24 alin. (4) stabilește cerințele privind utilizarea personalului de specialitate atestat pentru lucrările prevăzute de lege. De asemenea, art. 36 stabilește obligațiile proprietarilor și titularilor altor drepturi reale asupra monumentelor istorice, inclusiv obligația de a asigura întreținerea, conservarea și executarea lucrărilor necesare, în condițiile legii. Art. 38 reglementează posibilitatea contribuției financiare a statului și a autorităților administrației publice locale la realizarea lucrărilor de protejare a monumentelor istorice, inclusiv prin mecanisme de cofinanțare și parteneriat;
+
+\- totodată, Legea nr. 153/2011 privind măsuri de creștere a calității architectural-ambientale a clădirilor reglementează deja posibilitatea executării unor lucrări de către autoritățile administrației publice locale în locul deținătorilor, precum și garanțiile aplicabile în cazul în care aceștia nu permit accesul pentru executarea lucrărilor. Astfel, art. 9 alin. (3) și (4) stabilește mecanisme privind executarea lucrărilor de către autoritatea locală și autorizarea judecătorească a accesului la imobil în situația refuzului proprietarului. În acest context, noua procedură ar trebui corelată cu mecanismele legale existente, inclusiv în ceea ce privește condițiile în care poate fi realizat accesul la proprietate fără consimțământul deținătorului, pentru a evita instituirea unor proceduri paralele sau diminuarea garanțiilor juridice deja prevăzute de lege;
+
+\- în aceste condiții, adoptarea unei reglementări autonome, care atribuie primăriilor prerogative suplimentare de intervenție asupra fațadelor monumentelor istorice, fără corelarea expresă cu Legea nr. 422/2001, este susceptibilă să genereze suprapuneri de competențe, interpretări divergente și incertitudine privind procedurile aplicabile.
+
+\- propunerea legislativă nu realizează o corelare corespunzătoare cu Legea nr. 169/2026 privind Codul amenajării teritoriului, urbanismului și construcțiilor, intrată în vigoare la 25 august 2026. Art. 284 din acest act normativ reglementează autorizarea lucrărilor de intervenție asupra monumentelor istorice și a construcțiilor situate în zone protejate, inclusiv condițiile în care anumite lucrări de reparații și întreținere pot fi executate în baza notificării și a acordului serviciului public deconcentrat competent în domeniul protejării patrimoniului cultural. Pentru lucrările prevăzute la art. 284 alin. (4), inclusiv reparațiile minore ale finisajelor exterioare, alin. (5) instituie obligația notificării prealabile și a obținerii acordului scris al serviciului public deconcentrat competent, în condițiile prevăzute de lege. Procedura de notificare și de emitere a acordului scris a fost reglementată prin Ordinul ministrului culturii nr. 3.167/2026;
+
+\- prin comparație, art. 4-7 din propunerea legislativă instituie o procedură distinctă de notificare a proprietarului, formulare a observațiilor și începere a lucrărilor, fără să stabilească expres raportul acesteia cu procedurile de avizare și autorizare prevăzute de Cod și de legislația patrimoniului cultural;
+
+\- de asemenea, art. 5-7 din propunerea legislativă prevăd notificarea proprietarului cu cel puțin 20 de zile înaintea intervenției și posibilitatea formulării unor observații sau contestații în termen de 7 zile, însă nu stabilesc criterii suficient de clare pentru evaluarea și soluționarea acestora, nu identifică în mod precis autoritatea competentă să le analizeze și nu reglementează complet efectele formulării lor asupra începerii lucrărilor. În lipsa unor asemenea prevederi, procedura de formulare și soluționare a obiecțiilor proprietarilor rămâne insuficient determinată, ceea ce poate afecta dreptul acestora de a contesta în mod efectiv intervențiile propuse asupra proprietăților lor;
+
+\- simpla condiție ca lucrările să nu afecteze structura de rezistență nu este suficientă pentru a determina regimul juridic al unei intervenții asupra unui monument istoric, întrucât valoarea protejată poate rezulta inclusiv din materialele originale, finisaje, decorațiuni, componente artistice și alte elemente arhitecturale;
+
+\- nu în ultimul rând, fără existența vreunei obligații din partea proprietarilor de a restitui sumele alocate de primărie și fără a se interveni și asupra structurii de rezistență a clădirii, măsura propusă poate duce la irosirea unor fonduri publice și la încurajarea proprietarilor de a nu-și respecta obligațiile pe care le au cu privire la menținerea în bune condiții a proprietății.
+
+\- art. 8 din propunerea legislativă prevede că toate costurile lucrărilor de intervenție sunt suportate integral de primărie, fără a fi stabilite condiții privind disponibilitatea resurselor financiare, prioritizarea investițiilor, procedura de aprobare a cheltuielilor și sursele de finanțare. Art. 138 alin. (5) din Constituția României stabilește că nicio cheltuială bugetară nu poate fi aprobată fără stabilirea sursei de finanțare. În același timp, autonomia locală, consacrată de art. 120 și art. 121 din Constituție, presupune exercitarea competențelor autorităților locale în condițiile legii și cu respectarea principiilor privind administrarea resurselor financiare publice. Expunerea de motive nu cuprinde o evaluare a numărului estimat de monumente istorice care ar putea intra sub incidența reglementării, a costurilor medii ale intervențiilor, a impactului asupra bugetelor locale sau a posibilității de asigurare a unor mecanisme de cofinanțare. Mai mult. art. 38 din Legea nr. 422/2001 reglementează deja posibilitatea finanțării integrale sau parțiale a lucrărilor de protejare a monumentelor istorice, inclusiv prin contribuția autorităților administrației publice locale și prin mecanisme de parteneriat. Totodată, proiectul nu stabilește criterii obiective și transparente pentru selectarea clădirilor, prioritizarea intervențiilor și alocarea fondurilor disponibile, ceea ce poate conduce la diferențe nejustificate de tratament între proprietarii aflați în situații comparabile și poate afecta transparența și fundamentarea utilizării resurselor bugetare;
+
+\- propunerea legislativă conține numeroase formulări cu caracter explicativ sau exemplificativ, inclusiv exemple ipotetice introduse în corpul articolelor normative. Potrivit Legii nr. 24/2000 privind normele de tehnică legislativă pentru elaborarea actelor normative, dispozițiile legislative trebuie formulate într-un limbaj juridic specific, clar, precis și concis, astfel încât să stabilească drepturi, obligații, competențe și proceduri susceptibile de aplicare directă. Introducerea unor exemple explicative în corpul normelor poate genera confuzii privind caracterul obligatoriu al acestora și poate afecta coerența și previzibilitatea reglementării. Utilizarea unor termeni precum „modernizare”, „observații fundamentate”. „riscuri majore”, „contestații minore” și „organism abilitat”, fără definirea sau delimitarea lor juridică, este incompatibilă cu exigențele de precizie și predictibilitate aplicabile normelor care autorizează intervenții asupra dreptului de proprietate;
+
+\- în completarea argumentelor prezentate, menționăm că, deși obiectivul propunerii legislative, respectiv prevenirea degradării monumentelor istorice și protejarea siguranței publice, răspunde unui interes general, soluția legislativă propusă nu justifică suficient necesitatea instituirii unei reglementări distincte și nu asigură corelarea corespunzătoare a noii proceduri cu dispozițiile deja aplicabile. În acest context, condițiile de intervenție, garanțiile acordate proprietarilor și criteriile de finanțare din bugetele locale rămân insuficient determinate;
+
+\- prin urmare, se impune reconsiderarea soluției legislative propuse și evaluarea posibilității realizării obiectivelor urmărite prin modificarea și completarea cadrului normativ existent, cu respectarea garanțiilor dreptului de proprietate, a cerințelor de claritate și previzibilitate a normelor juridice și a principiilor privind utilizarea transparentă și eficientă a fondurilor publice.
+
+Președinte,
+
+Sterică FUDULEA
+
+Digitally signed by Fudulea Sterica Date: 2026.11.10 13:48:44 EET

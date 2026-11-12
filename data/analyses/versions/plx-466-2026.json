@@ -1,8 +1,28 @@
 {
   "slug": "plx-466-2026",
   "billId": "PL-x 466/2026",
-  "updatedAt": "2026-10-30T09:30:08.639Z",
+  "updatedAt": "2026-11-11T13:50:08.335Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L308FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Prima de 1.500 lei pentru profesori pe 2025-2026, cu minimum 975 lei doar pentru cursuri",
+      "summaryTlDr": "Lege benefică și în mare parte tehnică. Reia prima de carieră pentru anul 2025-2026, după ce în 2024-2025 nu s-a acordat deloc, în forma cerută de Comisia Europeană ca să poată fi plătită din fonduri UE. Riscurile sunt mici: pragul de 65% pentru cursuri e mai strict decât cere UE, iar personalul didactic auxiliar e numit în lege, dar lipsește din lista de beneficiari.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,75 +56,143 @@
   ],
   "changes": [
     {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit ordonanța despre prima didactică, fără nicio modificare",
+      "summary": "Senatul nu a schimbat nimic de fond. Proiectul s-a considerat adoptat în forma Guvernului, pentru că Senatul nu s-a pronunțat în termen. Problemele ordonanței rămân: cursurile obligatorii plătite din primă și lipsa unei rezerve de bani.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Minimum 65% din cei 1.500 lei merg obligatoriu pe cursuri acreditate de minister",
+            "major": true,
+            "article": "art. 2 alin. (1³) și art. 3 alin. (3¹) lit. a) OUG 58/2023"
+          },
+          {
+            "text": "Personalul didactic auxiliar poate rămâne în afara listei de beneficiari, deși legea îl numește",
+            "major": true,
+            "article": "art. 6¹ alin. (3) OUG 58/2023"
+          },
+          {
+            "text": "Nicio rezervă de bani și nicio prioritate dacă fondurile PEO nu ajung",
+            "major": true,
+            "article": "art. 2 alin. (1⁴) OUG 58/2023"
+          },
+          {
+            "text": "Nu se spune ce se întâmplă cu sumele nefolosite din primă",
+            "major": true,
+            "article": "art. 3 alin. (3¹) lit. a) OUG 58/2023"
+          },
+          {
+            "text": "Lista cheltuielilor și a cursurilor se stabilește și se schimbă prin ordin, fără criterii",
+            "major": false,
+            "article": "art. 2 alin. (1²) OUG 58/2023"
+          },
+          {
+            "text": "Listele cu CNP nu au termen de păstrare și limitare expresă a scopului",
+            "major": false,
+            "article": "art. 6¹ alin. (2)-(3) OUG 58/2023"
+          }
+        ],
+        "good": [
+          {
+            "text": "Prima se acordă și personalului didactic auxiliar, nu doar profesorilor",
+            "major": true,
+            "article": "art. 2 alin. (1¹) OUG 58/2023"
+          },
+          {
+            "text": "Prima e plătită integral din fonduri europene PEO 2021-2027",
+            "major": false,
+            "article": "art. 2 alin. (1⁴) OUG 58/2023"
+          },
+          {
+            "text": "Transmiterea datelor personale între instituții are temei stabilit prin lege",
+            "major": false,
+            "article": "art. 6¹ alin. (2)-(3) OUG 58/2023"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:48:33.017Z"
+    },
+    {
       "from": "senat",
       "to": "camera",
       "direction": "mai_putin_riscant",
-      "headline": "Profesorii care rămân în sistem pot folosi prima de 1.500 lei până la 31 august 2027",
-      "summary": "Inițial, Senatul aproba ordonanța fără modificări. Acum, Camera dă mai mult timp pentru folosirea primei celor care rămân în învățământ, dar retrage banii nefolosiți ai celor care pleacă. În plus, STS verifică prin REGES cine a rămas în activitate.",
+      "headline": "Cei care rămân în învățământ pot folosi prima de carieră până la 31 august 2027",
+      "summary": "Camera a adăugat modificări: cei care rămân în învățământ pot cheltui prima încă un an, până în 2027, iar celor plecați li se retrag sumele necheltuite. STS verifică prin REGES-ONLINE cine a rămas, iar textul nu prevede informarea celor vizați.",
       "changes": [
         {
-          "title": "Mai mult timp pentru folosirea primei",
-          "text": "Cei care rămân în activitate în 2026-2027 pot cheltui prima pentru 2025-2026 până la 31 august 2027 (școli) sau 30 septembrie 2027 (universități).",
+          "title": "Prima poate fi folosită până în august 2027",
+          "text": "Nou la art. 6¹ alin. (14¹): cei care rămân în învățământ și în 2026-2027 pot folosi prima pentru 2025-2026 până la 31 august 2027 (școli) sau 30 septembrie 2027 (universități).",
           "effect": "mai_bine",
           "major": true,
-          "article": "art. 6¹ alin. (14¹)",
+          "article": "art. 6¹ alin. (14¹) OUG 58/2023",
           "before": null,
-          "after": "Beneficiarii finali ai primei de carieră didactică acordată în anul școlar/universitar 2025-2026 care rămân în activitate în anul școlar/universitar 2026-2027 pot utiliza prima până la finalul anului școlar/universitar 2026-2027",
+          "after": "Beneficiarii finali ai primei de carieră didactică acordată în anul școlar/universitar 2025-2026 care rămân în activitate în anul școlar/universitar 2026-2027 pot utiliza prima până la finalul anului școlar/universitar 2026-2027, respectiv până la data de 31 august 2027",
           "beforeAbsent": true,
           "afterAbsent": false
         },
         {
-          "title": "Banii nefolosiți se retrag celor care pleacă",
-          "text": "Celor care nu mai lucrează în învățământ în 2026-2027 li se retrag sumele rămase neutilizate la finalul anului 2025-2026.",
+          "title": "Sumele necheltuite se retrag celor care au plecat",
+          "text": "Nou la art. 6¹ alin. (15¹): celor care nu mai lucrează în învățământ în 2026-2027 li se retrag sumele din primă rămase necheltuite la finalul anului 2025-2026.",
           "effect": "mai_rau",
           "major": true,
-          "article": "art. 6¹ alin. (15¹)",
+          "article": "art. 6¹ alin. (15¹) OUG 58/2023",
           "before": null,
-          "after": "se retrag sumele din prima de carieră didactică rămase neutilizate la finalul anului școlar/universitar 2025-2026",
+          "after": "care nu mai sunt în activitate în sistemul de învățământ în anul școlar/universitar 2026-2027, se retrag sumele din prima de carieră didactică rămase neutilizate la finalul anului școlar/universitar 2025-2026",
           "beforeAbsent": true,
           "afterAbsent": false
         },
         {
-          "title": "Datele din contractul de muncă ajung la MIPE",
-          "text": "STS verifică prin REGES-ONLINE cine a rămas în activitate și trimite la MIPE liste cu starea contractului fiecăruia. Textul nu prevede informarea persoanei sau corectarea erorilor.",
+          "title": "Liste pentru creșe, școli militare și ale Justiției",
+          "text": "Nou la art. 6¹ alin. (2¹) și (4¹): pentru creșe, colegii militare, școli din apărare, ordine publică și ale Ministerului Justiției, inspectoratele trimit lista beneficiarilor, încărcată apoi de MEC.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 6¹ alin. (2¹) și (4¹) OUG 58/2023",
+          "before": null,
+          "after": "Pentru anul școlar/ universitar 2025-2026, pentru creșele cu personalitate juridică nearondate unei unități de învățământ, pentru care autoritățile administrației publice locale au calitatea de persoană juridică fondatoare, colegiile naționale militare",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "STS verifică prin REGES cine a rămas în sistem",
+          "text": "Nou la art. 6¹ alin. (7¹): STS verifică cine a rămas în activitate și trimite către MIPE liste cu starea contractului din REGES-ONLINE. Textul nu prevede informarea celor vizați sau corectarea erorilor.",
           "effect": "mai_rau",
-          "major": true,
-          "article": "art. 6¹ alin. (7¹)",
+          "major": false,
+          "article": "art. 6¹ alin. (7¹) OUG 58/2023",
           "before": null,
           "after": "lista beneficiarilor finali identificați în anul școlar/universitar 2025-2026 care nu mai sunt în activitate în anul școlar/universitar 2026-2027, cu detaliile obținute din REGES-ONLINE privind starea contractului lor",
           "beforeAbsent": true,
           "afterAbsent": false
         },
         {
-          "title": "Creșe, școli militare și ale Justiției, incluse în liste",
-          "text": "Inspectoratele trimit la MEC listele de beneficiari din creșele locale, colegiile militare, școlile din apărare și ordine publică și cele ale Ministerului Justiției.",
-          "effect": "mai_bine",
-          "major": false,
-          "article": "art. 6¹ alin. (2¹)",
-          "before": null,
-          "after": "pentru creșele cu personalitate juridică nearondate unei unități de învățământ, pentru care autoritățile administrației publice locale au calitatea de persoană juridică fondatoare, colegiile naționale militare",
-          "beforeAbsent": true,
-          "afterAbsent": false
-        },
-        {
-          "title": "Termen-limită pentru încărcarea certificatului de curs",
-          "text": "Certificatul de absolvire se încarcă în maximum 5 luni de la plata cursului, dar nu mai târziu de 31 martie 2028.",
+          "title": "Certificatul de curs, încărcat cel târziu în martie 2028",
+          "text": "Art. 6¹ alin. (22) modificat: dovada absolvirii cursului se încarcă în cel mult 5 luni de la plata cursului, dar nu mai târziu de 31 martie 2028.",
           "effect": "neutru",
           "major": false,
-          "article": "art. 6¹ alin. (22)",
+          "article": "art. 6¹ alin. (22) OUG 58/2023",
           "before": null,
-          "after": "dar nu mai târziu de 31 martie 2028",
+          "after": "În termen de maximum 5 luni de la data utilizării sumei aferente primei de carieră didactică pentru achiziționarea cursurilor de formare profesională, dar nu mai târziu de 31 martie 2028",
           "beforeAbsent": true,
           "afterAbsent": false
         },
         {
           "title": "Procedura de aplicare, aprobată în 20 de zile",
-          "text": "Ordinul comun MIPE–MEC–STS privind procedura pentru 2025-2026 se emite în 20 de zile de la intrarea în vigoare a legii de aprobare.",
-          "effect": "mai_bine",
+          "text": "Art. II alin. (2) modificat: procedura comună MIPE–MEC–STS pentru 2025-2026 se aprobă prin ordin în 20 de zile de la intrarea în vigoare a legii de aprobare.",
+          "effect": "neutru",
           "major": false,
-          "article": "art. II alin. (2)",
+          "article": "art. II alin. (2) OUG 39/2026",
           "before": null,
-          "after": "În termen de 20 de zile de la data intrării în vigoare a legii de aprobare a prezentei ordonanțe de urgență",
+          "after": "În termen de 20 de zile de la data intrării în vigoare a legii de aprobare a prezentei ordonanțe de urgență, procedura specifică de implementare a măsurii de susținere a activității didactice emisă pe suport electronic",
           "beforeAbsent": true,
           "afterAbsent": false
         }
@@ -112,83 +200,78 @@
       "remaining": {
         "problems": [
           {
-            "text": "Minimum 65% din prima merge obligatoriu pe cursuri avizate sau acreditate de MEC",
+            "text": "Minimum 65% din primă doar pe cursuri avizate de MEC, favorizând furnizorii acreditați",
             "major": true,
-            "article": "art. 3 alin. (3¹)"
+            "article": "art. 3 alin. (3¹) OUG 58/2023"
           },
           {
-            "text": "Prima se plătește doar „în limita sumelor alocate”, fără sursă de rezervă",
+            "text": "Plata doar „în limita sumelor alocate”, fără sursă de rezervă sau priorități",
             "major": true,
-            "article": "art. 2 alin. (1⁴)"
+            "article": "art. 2 alin. (1⁴) OUG 58/2023"
           },
           {
-            "text": "Listele cu CNP nu au termen de păstrare și nici o limitare expresă a scopului",
+            "text": "Celor care părăsesc învățământul li se retrag sumele rămase necheltuite",
             "major": true,
-            "article": "art. 6¹ alin. (2)-(3)"
+            "article": "art. 6¹ alin. (15¹) OUG 58/2023"
           },
           {
-            "text": "Datele REGES se transmit fără informarea persoanei și fără procedură de corectare",
-            "major": true,
-            "article": "art. 6¹ alin. (7¹)"
-          },
-          {
-            "text": "Cei care pleacă din învățământ pierd sumele rămase nefolosite",
-            "major": true,
-            "article": "art. 6¹ alin. (15¹)"
-          },
-          {
-            "text": "Lista altor cheltuieli se aprobă prin ordin, fără termen și fără criterii în lege",
+            "text": "Lista cheltuielilor se aprobă prin ordin, fără termen și fără criterii în lege",
             "major": false,
-            "article": "art. 2 alin. (1²)"
+            "article": "art. 2 alin. (1²) OUG 58/2023"
+          },
+          {
+            "text": "Listele cu CNP circulă fără termen de păstrare și fără limitare expresă a scopului",
+            "major": false,
+            "article": "art. 6¹ alin. (2)-(3) OUG 58/2023"
+          },
+          {
+            "text": "Verificarea REGES fără informarea persoanei sau procedură de corectare a erorilor",
+            "major": false,
+            "article": "art. 6¹ alin. (7¹) OUG 58/2023"
           }
         ],
         "good": [
           {
-            "text": "1.500 lei net pentru fiecare beneficiar, pentru anul 2025-2026",
+            "text": "Prima de 1.500 lei net pentru fiecare beneficiar, pentru anul 2025-2026",
             "major": true,
-            "article": "art. 3 alin. (3¹)"
+            "article": "art. 3 alin. (3¹) OUG 58/2023"
           },
           {
-            "text": "Nu apar taxe sau obligații noi pentru cetățeni ori firme",
+            "text": "Cei rămași în sistem pot folosi prima până la 31 august 2027",
             "major": true,
-            "article": null
+            "article": "art. 6¹ alin. (14¹) OUG 58/2023"
           },
           {
-            "text": "Cei care rămân în sistem pot folosi prima până în august sau septembrie 2027",
-            "major": true,
-            "article": "art. 6¹ alin. (14¹)"
-          },
-          {
-            "text": "Prima e plătită integral din fonduri europene, prin Programul Educație și Ocupare",
+            "text": "Finanțare din fonduri europene, fără taxe noi pentru cetățeni sau firme",
             "major": false,
-            "article": "art. 2 alin. (1⁴)"
+            "article": "art. 2 alin. (1⁴) OUG 58/2023"
           },
           {
-            "text": "Prelucrarea datelor personale are temei stabilit prin lege",
+            "text": "Personalul din creșe, școli militare și ale Justiției are cale clară spre listă",
             "major": false,
-            "article": "art. 6¹ alin. (2)-(3)"
+            "article": "art. 6¹ alin. (2¹) OUG 58/2023"
           },
           {
-            "text": "Personalul din creșe, școli militare și ale Justiției intră în centralizare",
+            "text": "Prelucrarea datelor beneficiarilor are temei stabilit prin lege",
             "major": false,
-            "article": "art. 6¹ alin. (2¹)"
+            "article": "art. 6¹ OUG 58/2023"
           },
           {
-            "text": "Termene clare pentru procedura de aplicare și pentru încărcarea certificatelor",
+            "text": "Termene clare: certificat până la 31 martie 2028, procedură în 20 de zile",
             "major": false,
-            "article": "art. II alin. (2); art. 6¹ alin. (22)"
+            "article": "art. 6¹ alin. (22); art. II alin. (2)"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 23,
-        "removed": 3,
+        "added": 31,
+        "removed": 4,
         "same": 0
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:30:34.579Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:50:08.335Z"
     }
   ]
 }

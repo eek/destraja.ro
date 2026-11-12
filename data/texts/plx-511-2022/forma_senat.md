@@ -1,0 +1,17 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru aprobarea Ordonanței de urgență a Guvernului nr.101/2022 privind reglementarea unor măsuri fiscal-bugetare pentru suportarea de la bugetul de stat a sumelor aferente reducerilor procentuale și/sau corecțiilor financiare aplicate pentru abaterile de la conformitatea cu legislația din domeniul achizițiilor publice, precum și a altor creanțe bugetare
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.101 din 29 iunie 2022 privind reglementarea unor măsuri fiscal-bugetare pentru suportarea de la bugetul de stat a sumelor aferente reducerilor procentuale și/sau corecțiilor financiare aplicate pentru abaterile de la conformitatea cu legislația din domeniul achizițiilor publice, precum și a altor creanțe bugetare, publicată în Monitorul Oficial al României, Partea I, nr.653 din 30 iunie 2022.
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 19 septembrie 2022, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+## p. PREȘEDINTELE SENATULUI
+
+Alina-Ștefania Gorghiu

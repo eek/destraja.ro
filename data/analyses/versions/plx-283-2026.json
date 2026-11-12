@@ -1,7 +1,12 @@
 {
   "slug": "plx-283-2026",
   "billId": "PL-x 283/2026",
-  "updatedAt": "2026-10-30T09:15:47.136Z",
+  "updatedAt": "2026-11-11T13:19:13.220Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -32,6 +37,21 @@
         "claude": 4,
         "codex": 5
       }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L292FS.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Regulile pentru împrumutul european de apărare SAFE (până la 16,68 mld. euro), plus câteva modificări pentru primării",
+      "summaryTlDr": "Lege în mare parte tehnică, necesară ca România să poată folosi împrumutul SAFE. Cele două modificări ale Senatului sunt utile. Problemele țin de transparență și de redactare: plafoanele de cheltuieli stau într-un plan pe care textul nu îl face public, art. 8⁷ e formulat ambiguu, iar ordonanța despre apărare conține și articole despre administrația locală.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 3
+      }
     }
   ],
   "changes": [
@@ -39,69 +59,193 @@
       "from": "initiator",
       "to": "camera",
       "direction": "la_fel",
-      "headline": "Fără schimbări de fond: Camera a adoptat tacit legea de aprobare a OUG 21/2026 în forma inițială",
-      "summary": "Camera Deputaților nu a modificat nimic: proiectul a fost considerat adoptat tacit, în forma inițială (art. 115 alin. 5 din Constituție). Ordonanța privind împrumutul SAFE de cca. 16,68 mld. EUR rămâne neschimbată, cu aceleași riscuri.",
-      "changes": [],
+      "headline": "Camera a adoptat tacit ordonanța SAFE, fără nicio modificare față de forma inițială",
+      "summary": "Camera Deputaților nu a schimbat nimic. Ordonanța despre împrumutul SAFE de circa 16,68 mld. EUR e considerată adoptată tacit, în forma inițială. Riscurile rămân aceleași, inclusiv achizițiile greu de urmărit făcute de serviciile secrete.",
+      "changes": [
+        {
+          "title": "Adoptat tacit de Cameră, în forma inițială",
+          "text": "Camera Deputaților nu a adus amendamente. Proiectul se consideră adoptat în forma inițială, potrivit art. 115 alin. (5) din Constituție. Ordonanța aprobată rămâne identică.",
+          "effect": "neutru",
+          "major": false,
+          "article": "Articol unic",
+          "before": null,
+          "after": "Acest proiect de lege se consideră adoptat de Camera Deputaților în forma inițială, în condițiile art. 115 alin. (5) teza a III-a din Constituția României, republicată.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
       "remaining": {
         "problems": [
           {
-            "text": "SRI, SIE, STS și SPP fac achiziții SAFE, multe clasificate, cu transparență redusă",
+            "text": "SRI, SIE, STS, SPP fac achiziții SAFE adesea clasificate, greu de urmărit public",
             "major": true,
             "article": "art. 1^1 alin. (4) lit. a)"
           },
           {
-            "text": "Instituțiile care cheltuie își certifică singure legalitatea cheltuielilor, fără verificare independentă vizibilă",
+            "text": "Instituțiile care cheltuie își confirmă singure cheltuielile; nu apare o verificare independentă",
             "major": true,
-            "article": "art. 1^1 alin. (4) lit. c)"
+            "article": "art. 1 alin. (2) lit. d) și art. 1^1 alin. (4) lit. c)"
           },
           {
-            "text": "Datorie publică de cca. 16,68 mld. EUR, rambursată cu dobânzi de contribuabili",
-            "major": true,
-            "article": "art. 1^1 alin. (3) lit. a)-e)"
-          },
-          {
-            "text": "Planul de investiții e aprobat de CSAT, fără rol explicit al Parlamentului",
+            "text": "Planul de investiții e aprobat de CSAT, fără rol explicit pentru Parlament",
             "major": true,
             "article": "art. 1^1 alin. (2) lit. d)"
           },
           {
-            "text": "Cancelaria Prim-Ministrului negociază cu furnizorii fără să răspundă pentru contracte",
+            "text": "Împrumut de circa 16,68 mld. EUR, datorie publică rambursată din bani publici",
             "major": true,
-            "article": "art. 1^1 alin. (2) lit. c)"
+            "article": "art. 1^1 alin. (3)"
           },
           {
-            "text": "Fonduri împrumutate pentru apărare pot ajunge în proiecte de drumuri cu dublă utilizare",
+            "text": "Bani împrumutați pentru apărare pot ajunge în proiecte de drumuri cu dublă utilizare",
             "major": true,
             "article": "art. 1^1 alin. (1) lit. c)"
           },
           {
-            "text": "Scutirea de TVA cere evidență strictă ca să nu acopere achiziții neeligibile",
+            "text": "Cancelaria Prim-Ministrului negociază cu furnizori, dar nu răspunde pentru contracte",
             "major": false,
-            "article": "art. 1^1 alin. (3) lit. g)"
+            "article": "art. 1^1 alin. (2) lit. c)"
           }
         ],
         "good": [
           {
-            "text": "Scutire legitimă de TVA pentru achizițiile SAFE, certificată de ANAF, conform regulamentului UE",
+            "text": "Achizițiile SAFE sunt scutite de TVA, cu certificate autentificate de ANAF",
             "major": true,
             "article": "art. 1^1 alin. (3) lit. g)"
           },
           {
-            "text": "Ministerul Finanțelor are rol clar pentru semnarea și rambursarea împrumutului",
+            "text": "Rolurile instituțiilor sunt stabilite explicit: cine negociază, cine cumpără, cine rambursează",
             "major": false,
-            "article": "art. 1^1 alin. (3) lit. a)-e)"
+            "article": "art. 1^1"
+          },
+          {
+            "text": "Cheltuielile trebuie atestate printr-o declarație de legalitate, realitate și conformitate",
+            "major": false,
+            "article": "art. 1^1 alin. (4) lit. c)"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 4,
-        "removed": 2,
+        "added": 3,
+        "removed": 1,
+        "same": 0.25
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:13:07.464Z"
+    },
+    {
+      "from": "camera",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Instituțiile pot angaja bani SAFE de la semnarea împrumutului, în limita Planului",
+      "summary": "Acum legea modifică ordonanța: Guvernul împarte banii SAFE pe instituții prin hotărâre în 30 de zile de la semnarea împrumutului, iar instituțiile pot încheia angajamente de la semnare, în limita Planului și a bugetelor. Nu se vede ce prevedea ordonanța înainte, deci efectul net e neclar.",
+      "changes": [
+        {
+          "title": "Contracte SAFE posibile din ziua semnării împrumutului",
+          "text": "Art. 8⁷ permite instituțiilor de apărare și siguranță națională să încheie angajamente de la semnarea împrumutului, deci înainte de hotărârea de repartizare, care poate veni în 30 de zile.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 8⁷ din OUG 62/2025",
+          "before": null,
+          "after": "au dreptul de a încheia angajamente legale în cadrul Instrumentului SAFE, de la data semnării acordului de împrumut",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Angajamentele, limitate de Plan și de bugetele anuale",
+          "text": "Art. 8⁷ leagă angajamentele de sumele din Planul SAFE și de creditele de angajament din bugetele anuale, dar formula „precum și” nu spune clar că ambele limite se aplică deodată.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 8⁷ din OUG 62/2025",
+          "before": null,
+          "after": "în limita sumelor prevăzute în Planul de investiții pentru industria europeană de apărare, precum și a creditelor de angajament cuprinse în bugetele anuale aprobate în condițiile legii",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Guvernul împarte banii SAFE în 30 de zile",
+          "text": "Art. 8² alin. (2) cere ca împărțirea banilor pe instituții, conform Planului, să se facă prin hotărâre de Guvern inițiată de Ministerul Finanțelor, în 30 de zile de la semnarea împrumutului.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 8² alin. (2) din OUG 62/2025",
+          "before": null,
+          "after": "(2) Repartizarea fondurilor acordate României către instituțiile prevăzute la art.1¹ alin.(1) lit.c) se stabilește, în conformitate cu Planul, prin hotărâre a Guvernului inițiată de Ministerul Finanțelor în termen de 30 de zile de la data semnării acordului de împrumut.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Achizițiile includ SRI, SIE, STS și SPP; cheltuieli greu de urmărit public",
+            "major": true,
+            "article": "art. 1¹ alin. (1) lit. c) din OUG 62/2025"
+          },
+          {
+            "text": "Instituțiile care cheltuie își confirmă singure legalitatea cheltuielilor",
+            "major": true,
+            "article": "art. 1 alin. (2) lit. d) și art. 1¹ alin. (4) lit. c) din OUG 62/2025"
+          },
+          {
+            "text": "Nu e clar dacă limitele din Plan și buget se aplică cumulat",
+            "major": true,
+            "article": "art. 8⁷ din OUG 62/2025"
+          },
+          {
+            "text": "Planul devine plafon legal pentru angajamente, dar nu trebuie publicat",
+            "major": true,
+            "article": "art. 1 alin. (2) lit. e) din OUG 62/2025"
+          },
+          {
+            "text": "Împrumut de cca. 16,68 mld. EUR, rambursat din bani publici",
+            "major": true,
+            "article": "art. 1¹ alin. (3) din OUG 62/2025"
+          },
+          {
+            "text": "Angajamentele pot începe înainte de hotărârea de repartizare a banilor",
+            "major": false,
+            "article": "art. 8² alin. (2) și art. 8⁷ din OUG 62/2025"
+          },
+          {
+            "text": "Cancelaria Prim-Ministrului negociază cu furnizorii, dar nu răspunde de contracte",
+            "major": false,
+            "article": "art. 1¹ alin. (2) lit. c) din OUG 62/2025"
+          }
+        ],
+        "good": [
+          {
+            "text": "Angajamentele sunt limitate la sumele din Plan și la creditele bugetare",
+            "major": true,
+            "article": "art. 8⁷ din OUG 62/2025"
+          },
+          {
+            "text": "Repartizarea banilor pe instituții, prin hotărâre de Guvern în 30 de zile",
+            "major": false,
+            "article": "art. 8² alin. (2) din OUG 62/2025"
+          },
+          {
+            "text": "Planul trece prin CSAT și e aprobat prin decizie a Comisiei Europene",
+            "major": false,
+            "article": "art. 1¹ și art. 1 alin. (2) lit. e) din OUG 62/2025"
+          },
+          {
+            "text": "Ministerul Finanțelor reglementează controlul financiar preventiv al cheltuielilor",
+            "major": false,
+            "article": "art. 1¹ alin. (3) din OUG 62/2025"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 9,
+        "removed": 4,
         "same": 0
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:19:07.874Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:19:13.220Z"
     }
   ]
 }

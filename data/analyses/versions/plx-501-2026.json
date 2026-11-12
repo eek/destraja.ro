@@ -1,8 +1,28 @@
 {
   "slug": "plx-501-2026",
   "billId": "PL-x 501/2026",
-  "updatedAt": "2026-10-30T09:33:36.768Z",
+  "updatedAt": "2026-11-11T14:10:41.684Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L414FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Ajutor de criză pentru fermele de porci în 2026",
+      "summaryTlDr": "Este un ajutor de criză tehnic și util pentru crescătorii de porci, cu plafoane clare și puțină birocrație. Riscurile țin de redactare: suma totală e scrisă greșit în „mii lei”, iar eligibilitatea se verifică abia după plată, cu recuperarea banilor până în iunie 2027.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,26 +56,132 @@
   ],
   "changes": [
     {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a corectat doar forma; eroarea din buget a rămas, iar formularul datează cursul la 1 august",
+      "summary": "Senatul a schimbat aproape numai forma; sumele, condițiile și bugetul scris de circa 1.000 de ori prea mare au rămas la fel. Formularul datează acum cursul la 1 august, deși legea spune 1 martie.",
+      "changes": [
+        {
+          "title": "Formularul pune cursul euro la 1 august, nu martie",
+          "text": "În cererea din anexa nr. 1, cursul de 5,0953 lei/euro e datat acum 1 august 2026, deși art. 5 alin. (5) spune 1 martie. Suma nu se schimbă, dar textul se contrazice.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "anexa nr. 1",
+          "before": "Cursul utilizat este cel stabilit la rata de schimb de 5,0953 lei pentru 1 euro comunicat de Banca Națională a României la data de 1 martie 2026.",
+          "after": "Cursul utilizat este cel stabilit la rata de schimb de 5,0953 lei pentru 1 euro comunicat de Banca Națională a României la data de 1 august 2026.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Declarația cere acum CNP și data actului de identitate",
+          "text": "În declarația din cerere (anexa nr. 1), cel care semnează trebuie să treacă acum și data eliberării actului de identitate și CNP-ul.",
+          "effect": "neutru",
+          "major": false,
+          "article": "anexa nr. 1",
+          "before": null,
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Bugetul e scris în mii lei: 58,8 miliarde în loc de 58,8 milioane",
+            "major": true,
+            "article": "art. 5 alin. (3)"
+          },
+          {
+            "text": "Plata vine înainte de verificarea activității, cu restituire și dobânzi în 2027",
+            "major": true,
+            "article": "art. 7 alin. (2), art. 8, art. 14"
+          },
+          {
+            "text": "Pragul de activitate la porcul gras e foarte jos",
+            "major": true,
+            "article": "art. 4 alin. (1) lit. b), art. 8 alin. (1)"
+          },
+          {
+            "text": "Sumele nu pot fi poprite, în dauna creditorilor fermierilor",
+            "major": true,
+            "article": "art. 1 alin. (8)"
+          },
+          {
+            "text": "Ajutorul se dă pe locuri de cazare, nu după pierderile reale",
+            "major": false,
+            "article": "art. 1 alin. (1), art. 5 alin. (2)"
+          },
+          {
+            "text": "Formularul datează cursul la 1 august, legea la 1 martie",
+            "major": false,
+            "article": "anexa nr. 1"
+          },
+          {
+            "text": "Formularul indică doar coduri CAEN pentru bovine, nu pentru porci",
+            "major": false,
+            "article": "anexa nr. 1"
+          }
+        ],
+        "good": [
+          {
+            "text": "Plafonul de 50.000 euro favorizează fermele mici și mijlocii",
+            "major": true,
+            "article": "art. 5 alin. (1)-(2)"
+          },
+          {
+            "text": "Sumele din alte scheme pe aceeași secțiune se scad din plafon",
+            "major": false,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Beneficiarii cu peste 10.000 euro sunt publicați pe site-ul APIA",
+            "major": false,
+            "article": "art. 12 alin. (3)"
+          },
+          {
+            "text": "Documentele depuse deja pentru DR-06 nu mai trebuie depuse din nou",
+            "major": false,
+            "article": "art. 6 alin. (2)"
+          },
+          {
+            "text": "Cererea se poate trimite și prin poștă, fax sau e-mail",
+            "major": false,
+            "article": "art. 6 alin. (3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 52,
+        "removed": 100,
+        "same": 0.62
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T14:07:57.888Z"
+    },
+    {
       "from": "senat",
       "to": "camera",
       "direction": "mai_riscant",
-      "headline": "Firmele SRL și SA nu mai apar printre beneficiarii ajutorului pentru crescătorii de porci",
-      "summary": "Acum doar PFA/II/IF, cooperativele și societățile agricole pot primi ajutorul. SRL-urile și SA-urile nu mai apar. Banii vin din Fondul de rezervă, iar suma totală e scrisă corect. Schema se aplică doar după aprobarea Comisiei Europene.",
+      "headline": "SRL-urile și SA-urile nu mai apar printre beneficiarii ajutorului pentru crescătorii de porci",
+      "summary": "Acum ajutorul merge doar la PFA, întreprinderi individuale și familiale, cooperative și societăți agricole; SRL-urile și SA-urile nu mai apar. În schimb, eroarea din suma totală în lei a fost corectată, iar banii vin din Fondul de rezervă al Guvernului.",
       "changes": [
         {
-          "title": "SRL-urile și SA-urile nu mai pot primi ajutorul",
-          "text": "Inițial, beneficiari erau orice persoane juridice, alături de PFA/II/IF și societăți agricole. Acum lista e închisă: OUG 44/2008, cooperative agricole și societăți agricole (art. 3).",
+          "title": "SRL-urile și SA-urile nu mai apar printre beneficiari",
+          "text": "Art. 3 enumeră acum doar PFA, întreprinderi individuale și familiale, cooperative agricole și societăți agricole. Inițial apăreau toate persoanele juridice, deci și SRL-urile și SA-urile.",
           "effect": "mai_rau",
           "major": true,
           "article": "art. 3",
-          "before": "crescători de suine persoane juridice, întreprinderi individuale sau familiale, persoane fizice autorizate, precum și societăți agricole constituite în baza Legii nr.36/1991",
+          "before": "se acordă beneficiarilor, crescători de suine persoane juridice, întreprinderi individuale sau familiale, persoane fizice autorizate, precum și societăți agricole constituite în baza Legii nr.36/1991",
           "after": "crescători de suine constituiți conform prevederilor Ordonanței de urgență a Guvernului nr. 44/2008 privind desfășurarea activităților economice de către persoanele fizice autorizate, întreprinderile individuale și întreprinderile familiale",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Bani suplimentari din Fondul de rezervă al Guvernului",
-          "text": "Inițial, banii veneau din bugetul deja aprobat al Ministerului Agriculturii. Acum bugetul se suplimentează din Fondul de rezervă, prin hotărâre de Guvern în 10 zile lucrătoare (art. 5 alin. (3)).",
+          "title": "Banii vin acum din Fondul de rezervă",
+          "text": "Art. 5 alin. (3): inițial banii veneau din bugetul deja aprobat al Ministerului Agriculturii. Acum bugetul se suplimentează din Fondul de rezervă, prin hotărâre de Guvern în 10 zile lucrătoare.",
           "effect": "mai_bine",
           "major": true,
           "article": "art. 5 alin. (3)",
@@ -65,8 +191,8 @@
           "afterAbsent": false
         },
         {
-          "title": "Suma totală a schemei, corectată în lei",
-          "text": "Inițial, bugetul era scris în „mii lei”, ceea ce însemna de circa 1.000 de ori mai mult decât echivalentul în euro. Acum suma e în lei și corespunde celor 11.540.120 euro (art. 5 alin. (3)).",
+          "title": "Corectată eroarea de „mii lei” din buget",
+          "text": "Art. 5 alin. (3): inițial scria 58.800.373,436 mii lei, de circa 1.000 de ori mai mult decât cei 11.540.120 euro. Acum suma este în lei și corespunde cursului din lege.",
           "effect": "mai_bine",
           "major": true,
           "article": "art. 5 alin. (3)",
@@ -76,25 +202,36 @@
           "afterAbsent": false
         },
         {
-          "title": "Schema se aplică doar după aprobarea Comisiei Europene",
-          "text": "Acum aplicarea e condiționată explicit de autorizarea CE. Asta reduce riscul ca ajutorul să fie ilegal și să trebuiască returnat. Termenul pentru cereri curge însă de la intrarea în vigoare a legii (art. 1 alin. (6)).",
-          "effect": "neutru",
-          "major": false,
-          "article": "art. 1 alin. (6)",
-          "before": "Schema se aplică pe întreg teritoriul României.",
-          "after": "Schema se aplică pe întreg territoriul României, după autorizarea de către Comisia Europeană a ajutorului de stat.",
-          "beforeAbsent": false,
-          "afterAbsent": false
-        },
-        {
-          "title": "Factura către abator, numită „document de decontare”",
-          "text": "Prevedere nouă. Nu spune ce se decontează, deși ajutorul se calculează pe locuri de cazare. Fermele de reproducție, care vând mai ales purcei, de regulă nu au astfel de facturi (art. 5 alin. (5)).",
+          "title": "Factura către abator, document de decontare neclar",
+          "text": "Art. 5 alin. (5), nou, numește factura de livrare către abator „document de decontare”, fără să spună la ce folosește. Ajutorul se dă pe capacitate, iar fermele de reproducție vând mai ales purcei.",
           "effect": "mai_rau",
           "major": false,
           "article": "art. 5 alin. (5)",
           "before": null,
-          "after": "Documentul de decontare reprezintă factura de livrare către un abator autorizat sanitar-veterinar.",
+          "after": "(5) Documentul de decontare reprezintă factura de livrare către un abator autorizat sanitar-veterinar.",
           "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Schema se aplică doar după aprobarea Comisiei Europene",
+          "text": "Art. 1 alin. (6) leagă acum aplicarea schemei de autorizarea Comisiei Europene. Asta evită plăți fără autorizare, dar dacă aprobarea întârzie, termenele de cerere și plata până la 31.12.2026 pot rămâne fără efect.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 1 alin. (6)",
+          "before": "(6) Schema se aplică pe întreg teritoriul României.",
+          "after": "(6) Schema se aplică pe întreg territoriul României, după autorizarea de către Comisia Europeană a ajutorului de stat.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Formularul cere codul CAEN pentru porci, nu bovine",
+          "text": "În anexa nr. 1, codurile CAEN cerute erau inițial pentru bovine (0141, 0142). Acum este 0146, creșterea porcinelor. Cursul din formular este acum cel de la 1 martie 2026, ca în lege.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "anexa nr. 1",
+          "before": "CAEN 0141 - creștere bovine de lapte, CAEN 0142 - Creșterea altor bovine",
+          "after": "CAEN 0146 creșterea porcinelor, CAEN 0150 - Activități în ferme mixte",
+          "beforeAbsent": false,
           "afterAbsent": false
         }
       ],
@@ -106,73 +243,93 @@
             "article": "art. 3"
           },
           {
-            "text": "Activitatea se verifică după plată; dacă nu e dovedită, banii se returnează cu dobânzi",
+            "text": "Activitatea se verifică abia în ianuarie 2027, după plată; riscă restituire cu penalități",
             "major": true,
-            "article": "art. 4 alin. (1) lit. b), art. 8"
+            "article": "art. 8"
           },
           {
-            "text": "Fermierii protejați de poprire, dar creditorii lor (furnizori de furaje, combustibil) sunt dezavantajați",
-            "major": true,
-            "article": "art. 1 alin. (8)"
-          },
-          {
-            "text": "Termenele de cerere și plată nu țin cont de o eventuală întârziere a aprobării CE",
+            "text": "Cererile curg de la intrarea în vigoare, deși schema așteaptă aprobarea Comisiei Europene",
             "major": false,
-            "article": "art. 1 alin. (6), art. 7"
+            "article": "art. 7 alin. (1)"
           },
           {
-            "text": "Document de decontare neclar; fermele de reproducție nu vând de regulă la abator",
+            "text": "Factura către abator ca document de decontare e neclară pentru fermele de reproducție",
             "major": false,
             "article": "art. 5 alin. (5)"
+          },
+          {
+            "text": "Formularul de cerere se adresează încă tuturor persoanelor juridice, nu ca art. 3",
+            "major": false,
+            "article": "anexa nr. 1"
+          },
+          {
+            "text": "Decizia Comisiei poate schimba direct regulile schemei, fără ca legea să fie modificată",
+            "major": false,
+            "article": "art. 15 alin. (2)"
           }
         ],
         "good": [
           {
-            "text": "Bugetul se suplimentează din Fondul de rezervă prin hotărâre de Guvern în 10 zile",
+            "text": "Plafonul de 50.000 euro pe întreprindere favorizează proporțional fermele mici și mijlocii",
+            "major": true,
+            "article": "art. 5 alin. (1)"
+          },
+          {
+            "text": "Bugetul de 11.540.120 euro, corect în lei, vine din Fondul de rezervă",
             "major": true,
             "article": "art. 5 alin. (3)"
           },
           {
-            "text": "Suma totală a schemei e acum corectă în lei",
-            "major": true,
-            "article": "art. 5 alin. (3)"
-          },
-          {
-            "text": "Plafonul de 50.000 euro avantajează proporțional fermele mici și mijlocii",
-            "major": true,
-            "article": "art. 5 alin. (1)-(2)"
-          },
-          {
-            "text": "Ajutorul nu poate fi poprit, deci ajunge efectiv la crescători",
+            "text": "Ajutorul nu poate fi poprit în executare silită, deci ajunge la fermier",
             "major": true,
             "article": "art. 1 alin. (8)"
           },
           {
-            "text": "Aplicarea după autorizarea CE evită recuperarea ulterioară a unui ajutor ilegal",
+            "text": "Cooperativele agricole sunt menționate explicit printre beneficiari",
             "major": false,
-            "article": "art. 1 alin. (6)"
+            "article": "art. 3"
           },
           {
-            "text": "Dacă cererile depășesc bugetul, ajutorul se reduce proporțional pentru toți",
+            "text": "Dacă cererile depășesc bugetul, ajutorul scade proporțional pentru toți beneficiarii",
             "major": false,
             "article": "art. 9 alin. (3)"
           },
           {
-            "text": "Datele din intervenția DR-06 sunt preluate, fără redepunerea documentelor",
+            "text": "Datele din intervenția DR-06 sunt preluate de APIA, fără documente depuse din nou",
             "major": false,
             "article": "art. 6 alin. (2)"
+          },
+          {
+            "text": "Cererile se pot trimite prin fax, poștă sau e-mail, cu semnătură electronică",
+            "major": false,
+            "article": "art. 6 alin. (3)"
+          },
+          {
+            "text": "Beneficiarii cu peste 10.000 euro sunt publicați pe site-ul APIA",
+            "major": false,
+            "article": "art. 12 alin. (3)"
+          },
+          {
+            "text": "Deciziile de recuperare pot fi contestate la APIA, apoi în contencios administrativ",
+            "major": false,
+            "article": "art. 14 alin. (4)"
+          },
+          {
+            "text": "Formularul cere acum codul CAEN pentru porci și cursul de la 1 martie",
+            "major": false,
+            "article": "anexa nr. 1"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 111,
-        "removed": 96,
-        "same": 0.22
+        "added": 83,
+        "removed": 72,
+        "same": 0.45
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:33:51.502Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T14:10:41.684Z"
     }
   ]
 }

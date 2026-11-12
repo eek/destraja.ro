@@ -1,8 +1,28 @@
 {
   "slug": "plx-383-2026",
   "billId": "PL-x 383/2026",
-  "updatedAt": "2026-10-30T09:26:22.902Z",
+  "updatedAt": "2026-11-11T13:40:31.442Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L241FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "19 noiembrie devine Ziua Națională a Antreprenoriatului Feminin",
+      "summaryTlDr": "Lege simbolică și inofensivă: instituie o zi de marcare, nu o zi liberă, nu obligă pe nimeni și nu aduce taxe sau sancțiuni. Singurul punct de urmărit este sprijinul public pentru evenimente, care ar trebui acordat transparent, nu direct unei organizații anume.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,48 +56,58 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
+      "from": "initiator",
+      "to": "senat",
       "direction": "la_fel",
-      "headline": "Doar modificări de formă: 19 noiembrie rămâne zi simbolică, fără obligații sau costuri noi",
-      "summary": "Camera Deputaților a păstrat textul adoptat de Senat. S-au schimbat doar antetul, data adoptării și scrierea unor trimiteri. Legea rămâne pur simbolică: nu obligă pe nimeni, nu sancționează și nu aduce costuri pentru cetățeni sau firme.",
+      "headline": "Senatul a păstrat textul inițiatorului; s-au corectat doar greșeli de scriere și redactare",
+      "summary": "Senatul a păstrat neschimbat fondul textului inițial. Ziua de 19 noiembrie rămâne o zi de marcare, nu o zi liberă, și nimic nu devine obligatoriu. Acum diferă doar câteva greșeli de scriere corectate și formula de adoptare, deci pentru cetățeni și firme nu se schimbă nimic.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Patronatele, entități private, sunt condiționate de „alocări bugetare aprobate”, noțiune inaplicabilă lor",
+            "text": "Greșeala de scriere „associative” a rămas, deși a fost corectată la art. 2",
+            "major": false,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "„Limita alocărilor bugetare” se aplică impropriu și patronatelor, care sunt entități private",
             "major": false,
             "article": "art. 2 alin. (1)"
           },
           {
-            "text": "Eroare materială „associative” în loc de „asociative”, acum în două locuri",
+            "text": "Nu se precizează cum se aleg beneficiarii sprijinului material public",
             "major": false,
-            "article": "art. 1 alin. (2), art. 2 alin. (1)"
+            "article": "art. 2 alin. (1)"
           },
           {
-            "text": "Enumerarea celor care pot marca ziua omite ONG-urile și operatorii economici",
+            "text": "Temele cerute radioului, televiziunii și AGERPRES au o tentă programatică",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Enumerarea celor care pot marca ziua omite ONG-urile și firmele",
             "major": false,
             "article": "art. 1 alin. (2)"
           }
         ],
         "good": [
           {
-            "text": "Zi doar simbolică, nu zi liberă legală, deci fără costuri pentru angajatori",
-            "major": true,
+            "text": "Ziua nu devine nelucrătoare, deci angajatorii nu au niciun cost",
+            "major": false,
             "article": "art. 1 alin. (1)"
           },
           {
-            "text": "Numai formulări permisive: nicio obligație nouă și nicio sancțiune",
-            "major": true,
+            "text": "Toate prevederile sunt facultative: fără obligații, sancțiuni sau proceduri noi",
+            "major": false,
             "article": "art. 1 alin. (2), art. 2"
           },
           {
-            "text": "Sprijinul public se acordă doar în limita alocărilor bugetare deja aprobate",
-            "major": true,
+            "text": "Eventualele cheltuieli publice rămân în limita bugetelor deja aprobate",
+            "major": false,
             "article": "art. 2 alin. (1)"
           },
           {
-            "text": "SRR, SRTV și AGERPRES „pot” difuza conținut, cu respectarea independenței editoriale",
+            "text": "Radioul, televiziunea publică și AGERPRES „pot” difuza, deci independența editorială e respectată",
             "major": false,
             "article": "art. 2 alin. (2)"
           }
@@ -85,13 +115,71 @@
         "partial": false
       },
       "diff": {
-        "added": 5,
+        "added": 7,
         "removed": 4,
-        "same": 0.29
+        "same": 0
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:26:50.817Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:40:13.725Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a păstrat textul Senatului; diferă doar antetul și o greșeală de scriere la art. 2",
+      "summary": "Camera Deputaților a adoptat aceeași lege ca Senatul: o zi simbolică, fără obligații, sancțiuni sau zi liberă. S-au schimbat doar antetul, data adoptării și o greșeală de scriere („associative”), care acum apare și la art. 2.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Sprijinul patronatelor, entități private, e condiționat de alocări bugetare care nu li se aplică",
+            "major": false,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Greșeală de scriere „associative” în loc de „asociative”, în două articole",
+            "major": false,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Lista celor care pot marca ziua omite ONG-urile și firmele",
+            "major": false,
+            "article": "art. 1 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu e zi liberă legală, deci angajatorii nu au niciun cost",
+            "major": true,
+            "article": "art. 1 alin. (1)"
+          },
+          {
+            "text": "Toate prevederile sunt facultative: nicio obligație și nicio sancțiune pentru cetățeni sau firme",
+            "major": true,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Sprijinul se dă doar în limita alocărilor bugetare aprobate, fără cheltuieli noi",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Radioul, televiziunea publică și AGERPRES „pot” difuza, deci independența editorială e respectată",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0.43
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:40:31.442Z"
     }
   ]
 }

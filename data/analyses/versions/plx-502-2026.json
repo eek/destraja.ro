@@ -1,8 +1,28 @@
 {
   "slug": "plx-502-2026",
   "billId": "PL-x 502/2026",
-  "updatedAt": "2026-10-30T09:35:06.964Z",
+  "updatedAt": "2026-11-11T14:11:22.612Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L415FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Pesta porcină: mistreți vânați în masă, teste la carnea adusă din afară și camioane confiscate",
+      "summaryTlDr": "Scopul e legitim și urgent: pesta porcină a blocat sectorul, iar Comisia Europeană taie din cofinanțare. Legea lasă însă pe seama unor ordine ale ANSVSA restricții nedefinite pe raze de 10 km. Mai face din refuzul unui control și din transportul a 6 porci fără acte infracțiuni, permite confiscarea automată a vehiculului și riscă un conflict cu piața unică prin testarea mărfurilor din alte state membre.",
+      "scores": {
+        "agy": 8,
+        "claude": 6,
+        "codex": 7
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,48 +56,145 @@
   ],
   "changes": [
     {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat fondul textului inițial; s-au corectat doar greșeli de redactare",
+      "summary": "Senatul a adoptat proiectul aproape cuvânt cu cuvânt: s-au corectat greșeli de scriere și trimiteri, iar tabelul cu mișcarea porcilor a fost mutat într-o anexă. Riscurile rămân: vânătoarea tuturor mistreților pe 20 km, zona de 10 km din jurul fermelor și confiscarea automată a vehiculelor.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Recoltarea tuturor mistreților pe 20 km poate dispersa boala, contrar recomandărilor EFSA",
+            "major": true,
+            "article": "art. 13¹"
+          },
+          {
+            "text": "Gestionarii fondurilor cinegetice răspund penal sau contravențional, fără faptă și sancțiune definite",
+            "major": true,
+            "article": "art. 13¹ alin. (3)"
+          },
+          {
+            "text": "Zonă de 10 km în jurul fermelor autorizate, cu măsuri nelimitate prin ordin ANSVSA",
+            "major": true,
+            "article": "art. 10¹"
+          },
+          {
+            "text": "Fermele mici vând porci vii doar în circumscripție; altfel testare individuală, cost nereglementat",
+            "major": true,
+            "article": "art. 10²"
+          },
+          {
+            "text": "Testarea PPA prin ordin lovește importurile și marfa din UE, mai puțin producția internă",
+            "major": true,
+            "article": "art. 27¹ alin. (2)"
+          },
+          {
+            "text": "Transportul neregulamentar e pedepsit simultan ca infracțiune și ca contravenție",
+            "major": true,
+            "article": "art. 33 alin. (1¹) și (4)"
+          },
+          {
+            "text": "Vehiculul se confiscă automat la orice neregulă, fără protecție pentru proprietarul de bună-credință",
+            "major": true,
+            "article": "art. 33 alin. (4)"
+          },
+          {
+            "text": "Despăgubirile pentru porcii uciși, plafonate la 5 capete în gospodării, 50 la fermele mici",
+            "major": true,
+            "article": "anexa nr. 5, art. 1¹"
+          },
+          {
+            "text": "Trimiterea la «art.3 alin.(1) lit. 1)» pare eroare materială pentru lit. l)",
+            "major": false,
+            "article": "art. 10², anexa nr. 5, art. 1¹"
+          },
+          {
+            "text": "Text trunchiat la finanțarea stimulentelor: «în situația aplicării» nu spune a cărei măsuri",
+            "major": false,
+            "article": "art. 14 alin. (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Stimulente de 150–300 euro pentru mistreții găsiți morți sau împușcați și testați",
+            "major": true,
+            "article": "art. 13 alin. (1), art. 14"
+          },
+          {
+            "text": "Sub 6 porci transportați neregulamentar: amendă de 500 lei, fără confiscarea vehiculului",
+            "major": true,
+            "article": "art. 33 alin. (4¹)"
+          },
+          {
+            "text": "Ordinul de testare PPA trebuie să precizeze produsele, laboratoarele și durata măsurii",
+            "major": false,
+            "article": "art. 27¹ alin. (3)"
+          },
+          {
+            "text": "Măsurile din focare și plata veterinarilor, finanțate din Fondul de rezervă al Guvernului",
+            "major": false,
+            "article": "art. 6 alin. (2), art. 14 alin. (5)"
+          },
+          {
+            "text": "Porcii pot fi duși oricând la sacrificare imediată, fără limita circumscripției",
+            "major": false,
+            "article": "art. 10² alin. (3)"
+          },
+          {
+            "text": "Asociațiile țin registre de comercializare, pentru transparența vânzărilor",
+            "major": false,
+            "article": "art. 10 alin. (3)"
+          },
+          {
+            "text": "Autoritatea informează crescătorii și face parteneriate pentru valorificarea porcilor vii",
+            "major": false,
+            "article": "art. 21 alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 25,
+        "removed": 24,
+        "same": 0.76
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T14:08:42.678Z"
+    },
+    {
       "from": "senat",
       "to": "camera",
       "direction": "mai_putin_riscant",
-      "headline": "Închisoarea nu mai e pentru transportul ilegal de porci, ci pentru neprimirea inspectorilor în fermă",
-      "summary": "Acum transportul neregulamentar de porci se pedepsește doar cu amendă și confiscare, fără închisoare, iar testarea PPA impusă prin ordin cere un risc major. Apare însă o infracțiune pentru neprimirea inspectorilor, iar motorina pentru patrule se dă pe fond, nu pe suprafață.",
+      "headline": "Transportul de porci cu nereguli nu mai e infracțiune; rămân amenda și confiscarea",
+      "summary": "Acum transportul a 6 sau mai mulți porci cu nereguli nu mai e și infracțiune, rămân amenda și confiscarea; la sub 6 porci amenda e 300–500 lei, nu fix 500. În schimb, combustibilul pentru patrule se dă pe fond de vânătoare, nu la 1.000 ha.",
       "changes": [
         {
-          "title": "Transportul neregulamentar de porci nu mai e infracțiune",
-          "text": "Inițial, art. 33 alin. (1¹) făcea infracțiune din faptele de transport de la alin. (4), pedepsite și cu amendă. Acum acestea rămân doar contravenții, cu amendă și confiscare.",
+          "title": "Transportul de porci cu nereguli nu mai e infracțiune",
+          "text": "Art. 33 alin. (1¹) nu mai face infracțiune din faptele de la alin. (4); rămân amenda de 10.000–15.000 lei și confiscarea. Dispare cumulul penal-contravențional; nepermiterea accesului la control rămâne infracțiune.",
           "effect": "mai_bine",
           "major": true,
           "article": "art. 33 alin. (1¹)",
-          "before": null,
-          "after": "(4) Complementar sancțiunilor prevăzute la alin. (2), în cazul oricărui transport de 6 sau mai multe porcine neidentificate sau neînsoțite de documente sanitar-veterinare",
-          "beforeAbsent": true,
-          "afterAbsent": false
-        },
-        {
-          "title": "Închisoare pentru neprimirea inspectorilor în exploatație",
-          "text": "Acum art. 33 alin. (1¹) face direct infracțiune din nerespectarea obligației de a permite accesul controlorilor (art. 10 alin. (1) lit. g)), fără o treaptă contravențională.",
-          "effect": "mai_rau",
-          "major": true,
-          "article": "art. 33 alin. (1¹)",
-          "before": null,
+          "before": "(1¹) Prin excepție de la prevederile alin. (1), nerespectarea prevederilor art. 10 alin.(1) lit.g) și faptele sancționate în conformitate cu alin.(4) constituie infracțiune și se pedepsesc cu închisoare de la o lună la 6 luni sau cu amendă.",
           "after": "(1¹) Prin excepție de la prevederile alin. (1), nerespectarea dispozițiilor art. 10 alin. (1) lit. g) constituie infracțiune și se pedepsește cu închisoare de la o lună la 6 luni sau cu amendă.",
-          "beforeAbsent": true,
+          "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Testarea obligatorie PPA, condiționată de un risc major",
-          "text": "Testarea înainte de introducerea porcilor și a cărnii trece de la art. 27¹ la art. 21 alin. (3)-(5). Acum cere un risc major, iar ordinul trebuie să fixeze produsele, laboratoarele și perioada.",
+          "title": "Amendă de 300–500 lei pentru sub 6 porci",
+          "text": "Art. 33 alin. (4¹): la transportul a mai puțin de 6 porcine cu nereguli, amenda nu mai e fixă, de 500 lei, ci între 300 și 500 lei.",
           "effect": "mai_bine",
           "major": true,
-          "article": "art. 21 alin. (3)-(5)",
-          "before": null,
-          "after": "(4) Prin excepție de la prevederile alin. (3), în situația existenței unui risc sanitar-veterinar major determinat de evoluția pestei porcine africane, Autoritatea Națională Sanitară Veterinară și pentru Siguranța Alimentelor poate institui, prin ordin al președintelui acesteia",
-          "beforeAbsent": true,
+          "article": "art. 33 alin. (4¹)",
+          "before": "prevederile anexei nr.3, deținătorul se sancționează cu amendă de 500 lei.",
+          "after": "prevederile anexei nr. 3, deținătorul se sancționează cu amendă de la 300 lei până la 500 lei.",
+          "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Motorina pentru patrule se dă pe fond, nu pe hectare",
-          "text": "La art. 14 alin. (1) lit. d), cei 100 de litri lunar nu mai depind de suprafață. Fondurile cinegetice mai mari de 1.000 ha primesc mai puțin decât inițial.",
+          "title": "Combustibil pentru patrule: pe fond, nu la 1.000 ha",
+          "text": "Art. 14 alin. (1) lit. d): gestionarii primesc 100 litri de combustibil lunar pe fond cinegetic, indiferent de suprafață, nu la fiecare 1.000 ha; fondurile peste 1.000 ha primesc mai puțin.",
           "effect": "mai_rau",
           "major": true,
           "article": "art. 14 alin. (1) lit. d)",
@@ -87,13 +204,35 @@
           "afterAbsent": false
         },
         {
-          "title": "Se precizează ce acte de vânătoare sunt depășite",
-          "text": "La art. 13¹ alin. (2), măsurile CLCB au acum prioritate față de actele anuale emise în baza Legii 407/2006, nu față de „planurile de gestionare cinegetică”.",
+          "title": "Testarea pentru pesta porcină, doar în laboratoare acreditate",
+          "text": "Regulile de testare trec din art. 27¹ în art. 21 alin. (3)–(5); ordinul ANSVSA trebuie să numească laboratoare acreditate, nu doar „acceptate”.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 21 alin. (5) lit. d)",
+          "before": "d) laboratoarele acceptate;",
+          "after": "d) laboratoarele acreditate;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "ANSVSA poate cere oricând convocarea comitetului de urgență",
+          "text": "Art. 21 alin. (2) lit. j) și p): ANSVSA cere întrunirea Comitetului Național pentru Situații de Urgență lunar și ori de câte ori e nevoie, inclusiv în ședință extraordinară.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 21 alin. (2) lit. j), p)",
+          "before": "j) solicită, inclusiv lunar, în situația creșterii gradului de risc cu privire la pesta porcină africană, boală cu declarare obligatorie, întrunirea Comitetului Național pentru Situații Speciale de Urgență, în vederea convocării CNCB;",
+          "after": "j) solicită, lunar și ori de câte ori situația impune, în cazul creșterii gradului de risc cu privire la pesta porcină africană, boală cu declarare obligatorie, întrunirea Comitetului Național pentru Situații de Urgență, în vederea convocării CNCB;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Vânarea mistreților trece înaintea actelor anuale de vânătoare",
+          "text": "Art. 13¹ alin. (2): măsurile CLCB au prioritate față de actele administrative anuale emise în baza Legii nr. 407/2006, nu față de „planurile de gestionare cinegetică”. Obligația rămâne aceeași.",
           "effect": "neutru",
           "major": false,
           "article": "art. 13¹ alin. (2)",
-          "before": "(2) Măsurile dispuse potrivit alin.(1) sunt obligatorii pentru gestionarii fondurilor cinegetice și se aplică cu prioritate față de planurile de gestionare cinegetică.",
-          "after": "(2) Măsurile dispuse potrivit prevederilor alin. (1) sunt obligatorii pentru gestionarii fondurilor cinegetice și se aplică cu prioritate față de actele administrative emise anual de administratorul faunei cinegetice, în baza prevederilor art. 6 alin. (1) din Legea nr. 407/2006",
+          "before": "se aplică cu prioritate față de planurile de gestionare cinegetică.",
+          "after": "se aplică cu prioritate față de actele administrative emise anual de administratorul faunei cinegetice, în baza prevederilor art. 6 alin. (1) din Legea nr. 407/2006",
           "beforeAbsent": false,
           "afterAbsent": false
         }
@@ -101,47 +240,47 @@
       "remaining": {
         "problems": [
           {
-            "text": "Uciderea tuturor mistreților pe 20 km în 30 de zile, greu de realizat",
+            "text": "Vânarea întregului efectiv de mistreți pe 20 km în 30 de zile, greu realizabilă",
             "major": true,
             "article": "art. 13¹ alin. (1)"
           },
           {
-            "text": "Gestionarii răspund contravențional sau penal, fără ca fapta să fie definită",
+            "text": "Gestionarii răspund „contravențional sau penal”, fără ca fapta să fie definită",
             "major": true,
             "article": "art. 13¹ alin. (3)"
           },
           {
-            "text": "Închisoare direct pentru neprimirea inspectorilor, fără amendă contravențională întâi",
+            "text": "Nepermiterea accesului la control e direct infracțiune, fără treaptă contravențională",
             "major": true,
             "article": "art. 33 alin. (1¹)"
           },
           {
-            "text": "Vehiculul se confiscă automat, fără excepție pentru proprietarul de bună-credință",
+            "text": "Confiscarea automată a vehiculului, fără excepție pentru bună-credință sau proporționalitate",
             "major": true,
             "article": "art. 33 alin. (4)"
           },
           {
-            "text": "Zonă permanentă de 10 km cu măsuri nelimitate stabilite prin ordin",
+            "text": "Zonă permanentă de 10 km în jurul fermelor, cu măsuri stabilite doar prin ordin",
             "major": true,
             "article": "art. 10¹"
           },
           {
-            "text": "Mutarea porcilor în afara circumscripției cere teste, fără să se știe cine plătește",
+            "text": "În afara circumscripției, porcii se mută doar cu teste individuale, plătitor nestabilit",
             "major": true,
-            "article": "art. 10²"
+            "article": "art. 10² alin. (2)"
           },
           {
-            "text": "Testarea producției interne „în situații justificate”, noțiune nedefinită",
+            "text": "Testare prin ordin și pentru producția internă, „în situații justificate”, nedefinite",
             "major": true,
             "article": "art. 21 alin. (4)"
           },
           {
-            "text": "Despăgubiri plafonate la 5, respectiv 50 de porci",
+            "text": "Despăgubiri limitate la 5 porci în exploatațiile noncomerciale, 50 în cele înregistrate",
             "major": true,
             "article": "anexa nr. 5 art. 1¹"
           },
           {
-            "text": "Motorina pentru patrule nu ține cont de mărimea fondului",
+            "text": "Combustibil pentru patrule fix pe fond cinegetic, indiferent de suprafață",
             "major": true,
             "article": "art. 14 alin. (1) lit. d)"
           },
@@ -153,24 +292,29 @@
         ],
         "good": [
           {
-            "text": "Stimulent de 300 sau 150 euro pentru mistreții găsiți morți și raportați",
+            "text": "Transportul de porci cu nereguli nu mai e și infracțiune",
+            "major": true,
+            "article": "art. 33 alin. (1¹)"
+          },
+          {
+            "text": "Amendă între 300 și 500 lei pentru transporturi sub 6 porci",
+            "major": true,
+            "article": "art. 33 alin. (4¹)"
+          },
+          {
+            "text": "Stimulent de 300 sau 150 euro pentru fiecare mistreț mort testat și neutralizat",
             "major": true,
             "article": "art. 13 alin. (1)"
           },
           {
-            "text": "Sume plătite gestionarilor pentru mistreții împușcați și testați",
+            "text": "Gestionarii primesc 150–300 euro pentru fiecare mistreț împușcat și testat",
             "major": true,
             "article": "art. 14 alin. (1)"
           },
           {
-            "text": "Măsurile CLCB și sumele pentru vânătoare plătite din Fondul de rezervă",
+            "text": "Măsurile CLCB și vânarea în focare, plătite din Fondul de rezervă al Guvernului",
             "major": true,
-            "article": "art. 6 alin. (2), art. 14 alin. (5)"
-          },
-          {
-            "text": "Testarea obligatorie impusă prin ordin doar la un risc sanitar major",
-            "major": true,
-            "article": "art. 21 alin. (4)"
+            "article": "art. 6 alin. (2); art. 14 alin. (5)"
           },
           {
             "text": "Transportul la abator pentru sacrificare imediată rămâne permis",
@@ -178,41 +322,51 @@
             "article": "art. 10² alin. (3)"
           },
           {
-            "text": "Amendă mică, de 300–500 lei, pentru transporturi sub 6 porci",
+            "text": "Despăgubire integrală pentru porcii uciși din fermele autorizate sanitar-veterinar",
             "major": true,
-            "article": "art. 33 alin. (4¹)"
+            "article": "anexa nr. 5 art. 1¹ lit. c)"
           },
           {
-            "text": "Despăgubire integrală pentru fermele autorizate, inclusiv la uciderea dinaintea confirmării bolii",
+            "text": "Despăgubiri la preț de referință stabilit trimestrial, după prețul pieței",
             "major": true,
-            "article": "anexa nr. 5"
+            "article": "anexa nr. 5 art. 1 pct. 1"
           },
           {
-            "text": "Ordinul de testare trebuie să precizeze produsele, laboratoarele și perioada",
+            "text": "Asociațiile țin registre de comercializare, pentru transparență",
+            "major": true,
+            "article": "art. 10 alin. (3)"
+          },
+          {
+            "text": "Ordinul de testare trebuie să precizeze produse, prelevare, laboratoare acreditate și durata",
             "major": false,
             "article": "art. 21 alin. (5)"
           },
           {
-            "text": "Reguli de confiscare stabilite prin ordin comun ANSVSA–MAI",
+            "text": "Instrucțiuni comune ANSVSA–MAI pentru confiscarea animalelor și vehiculelor",
             "major": false,
             "article": "art. 33 alin. (7)"
           },
           {
-            "text": "60 de zile până la aplicarea delimitării zonelor de monitorizare",
+            "text": "ANSVSA informează crescătorii despre pesta porcină și biosecuritate",
             "major": false,
-            "article": "art. II"
+            "article": "art. 21 alin. (2)"
+          },
+          {
+            "text": "ANSVSA poate cere oricând convocarea comitetului pentru situații de urgență",
+            "major": false,
+            "article": "art. 21 alin. (2) lit. j), p)"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 72,
-        "removed": 63,
-        "same": 0.23
+        "added": 59,
+        "removed": 49,
+        "same": 0.49
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:35:12.049Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T14:11:22.612Z"
     }
   ]
 }

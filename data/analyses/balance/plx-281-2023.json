@@ -1,0 +1,52 @@
+{
+  "slug": "plx-281-2023",
+  "billId": "PL-x 281/2023",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-12T10:25:28.053Z",
+  "inputHash": "4c86999773a2",
+  "riskScore": 4,
+  "summary": "Un instrument util pentru înzestrarea apărării, dar formulat prea larg și fără garanții pentru banii publici.",
+  "good": [
+    {
+      "text": "Permite plata prin acreditiv sau avans pentru contractele de apărare și securitate care se întind pe mai mulți ani, deblocând achizițiile complexe de tehnică și muniție.",
+      "article": "art. unic din OUG (art. 34 alin. (1))",
+      "quote": "pot angaja și utiliza fonduri publice prin utilizarea acreditivelor sau prin efectuarea de plăți în avans pentru achizițiile de active nefinanciare, bunuri materiale, servicii sau/și lucrări",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Elimină regulile standard de control al plăților publice pentru șase instituții de forță, fără să impună un plafon maxim al avansului sau garanții obligatorii de returnare.",
+      "article": "art. unic din OUG (art. 34 alin. (1))",
+      "quote": "Prin derogare de la prevederile art. 52 alin. (1), (3) - (8) și (10) din Legea nr. 500/2002, cu modificările și completările ulterioare, ordonatorii de credite din Ministerul Apărării Naționale",
+      "weight": 3
+    },
+    {
+      "text": "Permite plăți în avans doar pentru că furnizorul „nu dorește să livreze” altfel, o condiție subiectivă care nu cere dovezi și se aplică și achizițiilor din același an.",
+      "article": "art. unic din OUG (art. 34 alin. (1))",
+      "quote": "pentru care perioada de realizare depășește anul bugetar în care a fost realizat angajamentul legal sau pentru care furnizorii nu doresc să livreze produsele în situația în care plata nu se realizează prin utilizarea unor astfel de instrumente.",
+      "weight": 3
+    },
+    {
+      "text": "Extinde excepția la orice bunuri, servicii sau lucrări pentru „misiunile specifice” ale celor șase instituții, o formulare vagă ce poate acoperi aproape orice achiziție curentă.",
+      "article": "art. unic din OUG (art. 34 alin. (1))",
+      "quote": "pentru achizițiile de active nefinanciare, bunuri materiale, servicii sau/și lucrări, destinate executării misiunilor specifice Ministerului Apărării Naționale, Ministerului Afacerilor Interne, Serviciului Român de Informații",
+      "weight": 2
+    }
+  ],
+  "fix": {
+    "text": "Eliminarea condiției subiective privind refuzul furnizorilor, restrângerea excepției strict la echipamente și stocuri critice multianuale și impunerea unor garanții de returnare a avansului.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 4,
+    "verified": 4
+  }
+}

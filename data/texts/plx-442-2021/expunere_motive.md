@@ -1,0 +1,57 @@
+EXPUNERE DE MOTIVE
+
+Secțiunea 1 Titlul proiectului de act normativ
+
+Lege pentru aprobarea Ordonanța Guvernului pentru modificarea și completarea Ordonanței Guvernului nr. 43/2000 privind protecția patrimoniului arheologic și declararea unor situri arheologice ca zone de interes național
+
+Secfiunea a 2-a Motivul emiterii actului normativ 1. Descrierea situației actuale
+
+Potrivit Ordonanței Guvernului nr. 43/2000 privind protecția patrimoniului arheologic și declararea unor situri arheologice ca zone de interes național, republicată, cu modificările și completările ulterioare, Comisia Națională de Arheologie funcționează ca organism științific de specialitate, fără personalitate juridică, cu rol consultativ în domeniul patrimoniului arheologic, pe lângă Ministerul Culturii. Comisia Națională de Arheologie este formată din specialiști în domeniu, care își desfășoară activitatea în institutele de profil arheologic, muzee, precum și în alte instituții.Comisia Națională de Arheologie are în componență 21 de membri și funcționează în conformitate cu regulamentul său de organizare și funcționare, aprobat prin ordin al ministrului culturii. În prezent Comisia Națională de Arheologie concentrează o gamă largă de atribuții care conduc la o aglomerare a activității acesteia (principalele atribuții sunt descrise în art. 16 al Ordonanței Guvernului nr. 43/2000, cu modificările și completările ulterioare). De asemenea, întrunirea Comisiei Naționale de Arheologie se face o dată pe lună, dat fiind faptul că membrii Comisiei Naționale de Arheologie reprezintă întregul teritoriu al țării și un număr crescut de instituții publice în domeniu. Totodată, potrivit prevederilor art. 16 lit. o) din Ordonanța Guvernului nr. 43/2000, cu modificările și completările ulterioare), Comisia Națională de Arheologie soluționează contestații formulate la adresa sa. Astfel, în prezent în practică InclevarA LENTO tipuri de contestații sunt soluționate de comisii numite pentru fiecare caz | Des ceea ce implică un număr mare de resurse concentrate în îndeplinirea acestofata ERNULU
+
+Prezentul proiect de act normativ a fost elaborat în temeiul Legii nr. 195/2021 privind abilitarea Guvernului de a emite ordonanțe, pct. VIII al art. 1, publicată în Monitorul Oficial al României nr. 678 din 09 iulie 2021. 2. Schimbări preconizate
+
+Modificarea și completarea Ordonanței Guvernului nr. 43/2000 are în vedere instituirea posibilității de a se emite autorizații pentru diferite faze ale cercetării arheologice, reducându-se astfel timpul de așteptare pentru autorizare și numărul dosarelor care trebuie procesate. Totodată, prin proiect se propune optimizarea activității Comisiei Naționale de Arheologie prin reglementarea secțiunilor Comisiei și a Biroului Executiv care urmează să îndeplinescă atribuții încredințate lor de către Comisia Națională de Arheologie conform Regulamentului de organizare și funcționare. De asemenea, se are în vedere înființarea Comisiei Naționale pentru Soluționarea Contestațiilor în Domeniul Arheologiei, organism fără personalitate juridică ce funcționează pe lângă Ministerul Culturii, care va avea rolul de a analiza Contestațiile privind propunerile Comisiei Naționale de Arheologiei referitoare la proiectele de cercetare arheologică, rapoartele de cercetare arheologică, planul anual al cercetărilor arheologice sistematice din România, finanțarea cercetării arheologice, aprobarea studiilor de fundamentare și a documentațiilor de urbanism și amenajare a teritoriului, atestarea personalului de specialitate din domeniul cercetării arheologice și înscrierea sa în Registrul arheologilor. Comisia Națională pentru Soluționarea Contestațiilor în domeniul Arheologiei, numită prin ordin al ministrului culturii pentru perioada mandatului Comisiei Naționale de Arheologie se organizează și funcționează în baza unui regulament aprobat prin ordinul ministrului culturii publicat în Monitorul Oficial al României, Partea I.
+
+3\. Alte informații
+
+Nu este cazul.
+
+Secțiunea a 3-a. Impactul socioeconomic al proiectului de act normativ
+
+1\. Impactul macroeconomic | Nu este cazul 1'. Impactul asupra mediului concurențial și domeniului ajutoarelor de stat 2. Impactul asupra mediului de afaceri | AnNHEAOS 2- Impactul asupra sarcinilor | AVHENSO administrative
+
+2 | SINEPHULA
+
+22 Impactul asupra întreprinderilor mici și mijlocii 3. Impactul social 4. Impactul asupra mediului S. Alte-informații -
+
+Secțiunea a 4-a Impactul financiar asupra bugetului general consolidat, atât pe termen scurt, pentru anul curent, cât și pe termen lung (pe 5 ani)
+
+Indicatori | Anul curent | Următorii 4 ani | Media pe 5 ani 1 | 2 | 3 | • 4 5 1. | Modificări ale veniturilor Nu este cazul. bugetare, plus/minus, din care: a) buget de stat, din acesta: (1) impozit pe profit (11) impozit pe venit b) bugete locale: (i) impozit pe profit c) bugetul asigurărilor sociale de stat: (i) contribuții de asiqurări Modificări ale cheltuielilor bugetare, plus/minus, din care: a) buget de stat, din acesta: (i) cheltuieli de personal (ii) bunuri si servicii b) bugete locale: (1) cheltuieli de personal (ii) bunuri și servicii c) bugetul asigurărilor sociale de stat: (i) cheltuieli de personal (ii) bunuri si servicii 3. Impact financiar, plus/minus, din care: a) buget de stat b) bugete locale | AnS 4. Propuneri pentru acoperirea | o creșterii cheltuielilor bugetare VIEI
+
+5\. Propuneri pentru a compensa reducerea veniturilor bugetare 6. | Calcule detaliate privind fundamentarea | modificărilor veniturilor si/sau cheltuielilor bugetare 7. Alte informații | Nu este cazul.
+
+Secțiunea a 5-a Efectele proiectului de act normativ asupra legislației în vigoare
+
+1\. Măsuri normative necesare Nu este cazul. pentru aplicarea prevederilor proiectului de act normativ: a) acte normative în vigoare ce vor fi modificare sau abrogate, ca urmare a intrării în vigoare a proiectului de act normativ; b) acte normative ce urmează a fib)- Regulamentul de Organizare și Funcționare elaborate în vederea implementării al Comisiei Naționale de Arheologie; noilor dispoziții | - Regulamentul de Organizare și Funcționare al Comisiei Naționale pentru Soluționarea Contestațiilor în domeniul Arheologiei. 11. Compatibilitatea proiectului de act Nu este cazul. normativ cu legislația în domeniul achizițiilor publice 2. Conformitatea proiectului de act Nu se referă la acest aspect. normativ cu legislația comunitară în cazul proiectelor ce transpun prevederi comunitare 3.Măsuri normative | necesare Nu se referă la acest aspect. aplicării directe a | actelor normative comunitare 4. Hotărâri ale Curții de Justiție a Nu se referă la acest aspect. Uniunii Europene 5. Alte acte normative și/sau Nu se referă la acest aspect. documente internaționale din care decurg angajamente 6. Alte informații | Nu e cazul.
+
+ONS THENSTO sata AL NIE GUVERE
+
+Secțiunea a Consultările efectuate în vederea elaborării proiectului de act normativ
+
+1\. Informații privind procesul de Nu e cazul. consultare | cu | organizații neguvernamentale, institute de cercetare și alte organisme implicate 2. Fundamentarea | alegerii organizațiilor cu care a avut loc consultarea, precum și a modului care activitatea acestor organizații este legată de obiectul proiectului de act normativ 3. Consultările organizate cu | Au fost întreprinse demersurile legale autoritățile administrației publice | conform Hotărârii Guvernului nr. 521/2005 locale, în situația în care proiectul | privind procedura de consultare a structurilor de act normativ are ca obiect | asociative ale autorităților administrației activități ale acestor autorități, în | publice locale la elaborarea proiectelor de acte condițiile Hotărârii Guvernului | normative. nr. 521/2005 privind procedura | Au fost consultate: Asociația Orașelor din de consultare a structurilor | România, Uniunea Națională a Consiliilor asociative ale autorităților | Județene din România, Asociația Municipiilor administrației publice locale la | din România și Asociația Comunelor din elaborarea proiectelor de acte | România. normative 4. Consultările desfășurate în | Nu este cazul cadrul | consiliilor interministeriale, în conformitate cu | prevederile | Hotărârii Guvernului nr. 750/2005 privind constituirea | consiliilor interministeriale permanente 5. Informații privind avizarea de | Proiectul prezentului act normativ a fost avizat către: | favorabil de Consiliul Legislativ, prin avizul nr. a) Consiliul Legislativ | 688/2021. b) Consiliul Suprem de Apărare a Țării c) Consiliul Economic și Social d) Consiliul Concurenței e) Curtea de Conturi | AANHZANS 6. Alte informații | Nu au fost identificate. SAE TED AL CUA 5 | ANIE GUVERNU
+
+Secțiunea a 7-a Activități de informare publică privind elaborarea și implementarea proiectului de act normativ
+
+1\. Informarea societății civile cu | Proiectul a fost afișat pe site-ul Ministerului privire la necesitatea elaborării Culturii conform prevederilor Legii nr. 52/2003 proiectului de act normativ | privind transparența decizională în administrația publică în data de 26.07.2021, cu termen de consultare, până în data de 04.08.2021. În perioada de consultare a fost primită o singură corespondență conținând o serie de propuneri ce nu au legătură cu obiectul de reglementare al actului normativ. 2. Informarea societății civile cu Nu este cazul privire la eventualul impact asupra mediului în urma implementării proiectului de act normativ, precum și efectele asupra sănătății și securității cetățenilor sau diversității biologice 3. Alte informații | Nu au fost identificate.
+
+Secțiunea a 8-a Măsuri de implementare
+
+1\. Măsurile de punere în aplicare Nu e cazul a proiectului de act normativ de către autoritățile administrației publice centrale și/sau locale - înființarea unor noi organisme sau extinderea competentelor instituțiilor existente | NIVIYE paulo 2. Alte informații | Nu e cazul
+
+6 GUVERNUL DICĂ ANIEL
+
+Față de cele prezentate, a fost elaborat proiectul de Lege privind aprobarea Ordonanței Guvernului pentru modificarea și completarea Ordonanței Guvernului nr. 43/2000 privind protecția patrimoniului arheologic și declararea unor situri arheologice ca zone de interes național, pe care îl supunem Parlamentului spre adoptare.
+
+PRIM-MINISTRU
+
+FLORÍN VASILE CÎ VINISTO ROW

@@ -1,8 +1,28 @@
 {
   "slug": "plx-253-2026",
   "billId": "PL-x 253/2026",
-  "updatedAt": "2026-10-30T09:14:46.188Z",
+  "updatedAt": "2026-11-11T13:22:36.240Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L660FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Sportivii pot veni cu avocat, consilier sau sindicat la negocieri și în fața comisiilor federațiilor",
+      "summaryTlDr": "Lege mică și în mare parte utilă: spune explicit că sportivul nu trebuie să stea singur în fața clubului sau a comisiei de disciplină. Problemele sunt de redactare: „consilierul sportiv” nu e definit, iar lista închisă de reprezentanți îi lasă pe dinafară pe părinții sportivilor minori.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,27 +56,95 @@
   ],
   "changes": [
     {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit textul inițiatorului, fără nicio schimbare de fond",
+      "summary": "Textul nu s-a schimbat: Senatul l-a adoptat tacit, în forma inițiatorului. Diferă doar numerotarea alineatului și antetul. Rămân aceleași probleme: «consilier sportiv» nu e definit, iar lista celor care pot reprezenta sportivii și cluburile e închisă.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "«Consilier sportiv» nedefinit: fără condiții de pregătire, mandat sau reguli privind conflictul de interese",
+            "major": true,
+            "article": "art. 67¹ alin. (1⁵), art. 94¹ alin. (2)"
+          },
+          {
+            "text": "Listă închisă de reprezentanți, mai strictă decât la TAS, invocat în expunerea de motive",
+            "major": true,
+            "article": "art. 94¹ alin. (2)"
+          },
+          {
+            "text": "Părinții sau reprezentanții legali ai sportivilor minori nu sunt menționați printre reprezentanți",
+            "major": false,
+            "article": "art. 94¹ alin. (2)"
+          },
+          {
+            "text": "Consilierul juridic apare la federații, dar lipsește la negocierea contractului sportiv",
+            "major": false,
+            "article": "art. 67¹ alin. (1⁵), art. 94¹ alin. (2) lit. b)"
+          },
+          {
+            "text": "Erori de redactare: «al căror membri sunt», «sau după caz» fără virgule",
+            "major": false,
+            "article": "art. 94¹ alin. (2) lit. a), art. 67¹ alin. (1⁵)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Drept de asistență de avocat, consilier sportiv sau sindicat la contract și conflicte",
+            "major": true,
+            "article": "art. 67¹ alin. (1⁵)"
+          },
+          {
+            "text": "Sportivii și cluburile pot fi reprezentați în fața comisiilor federațiilor sportive",
+            "major": true,
+            "article": "art. 94¹ alin. (2)"
+          },
+          {
+            "text": "Fără taxe, autorizări sau sancțiuni noi; impact bugetar nul",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Păstrează alegerea între instanță și arbitraj instituționalizat, conform Codului de procedură civilă",
+            "major": false,
+            "article": "art. 94¹ alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0.67
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:21:51.166Z"
+    },
+    {
       "from": "senat",
       "to": "camera",
       "direction": "la_fel",
-      "headline": "Asistența la contract și la comisiile federațiilor rămâne neschimbată; doar tehnica legislativă diferă",
-      "summary": "Drepturile de a fi asistat de avocat, consilier sportiv sau sindicat sunt identice. Acum legea doar adaugă un alineat la art. 94¹, nu îl rescrie pe tot, iar câteva formulări sunt corectate.",
+      "headline": "Doar corecturi de formă: alin. (1) al art. 94¹ nu mai e rescris, rămâne cel existent",
+      "summary": "Camera nu mai rescrie tot art. 94¹, ci doar îi adaugă alin. (2), iar regula existentă despre instanță sau arbitraj rămâne neatinsă. Corectează și un acord gramatical. Dreptul de a fi asistat de avocat, consilier sportiv sau sindicat rămâne același.",
       "changes": [
         {
-          "title": "Art. 94¹ completat, nu rescris integral",
-          "text": "Art. 94¹ nu mai e înlocuit în întregime. Se adaugă doar alin. (2), iar alin. (1) existent (instanță sau arbitraj) rămâne neatins.",
+          "title": "Art. 94¹ alin. (1) nu mai este rescris",
+          "text": "Inițial era înlocuit tot art. 94¹, inclusiv alin. (1) despre instanță sau arbitraj. Acum se adaugă doar alin. (2), iar alin. (1) existent rămâne cum este.",
           "effect": "neutru",
           "major": false,
           "article": "art. 94¹",
-          "before": "2. Articolul 94¹ se modifică și va avea următorul cuprins:",
-          "after": "2. La articolul 94¹, după alineatul (1) se introduce un nou alineat, alin. (2), cu următorul cuprins:",
+          "before": "Articolul 94¹ se modifică și va avea următorul cuprins:",
+          "after": "La articolul 94¹, după alineatul (1) se introduce un nou alineat, alin. (2), cu următorul cuprins:",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Formulare corectată privind sindicatul sportivului",
-          "text": "La art. 94¹ alin. (2) lit. a), «al căror membri sunt» devine «ai cărui membri sunt». Înțelesul nu se schimbă, iar acordul gramatical rămâne imperfect.",
-          "effect": "neutru",
+          "title": "Corectat acordul la sindicatul participanților",
+          "text": "La art. 94¹ alin. (2) lit. a), formularea greșită «al căror membri sunt» devine «ai cărui membri sunt». Acum e clar că participanții sunt membri ai sindicatului.",
+          "effect": "mai_bine",
           "major": false,
           "article": "art. 94¹ alin. (2) lit. a)",
           "before": "a) participanții la activitatea sportivă de către avocat, consilier sportiv sau de către un reprezentant al sindicatului al căror membri sunt, conform propriei opțiuni;",
@@ -68,49 +156,49 @@
       "remaining": {
         "problems": [
           {
-            "text": "«Consilier sportiv» nedefinit, fără condiții de calificare sau reguli de conflict de interese",
+            "text": "«Consilier sportiv» nedefinit, fără condiții de calificare sau reguli privind conflictul de interese",
             "major": true,
             "article": "art. 67¹ alin. (1⁵), art. 94¹ alin. (2)"
           },
           {
-            "text": "Consilierul juridic lipsește la negocierea contractului, deși apare la comisiile federațiilor",
+            "text": "Consilierul juridic lipsește la art. 67¹, unde clubul negociază contractul",
             "major": false,
             "article": "art. 67¹ alin. (1⁵)"
           },
           {
-            "text": "Luat literal, și clubul poate fi asistat de sindicatul sportivului",
+            "text": "Luat literal, și clubul poate fi asistat de reprezentantul sindicatului sportivului",
             "major": false,
             "article": "art. 67¹ alin. (1⁵)"
           },
           {
-            "text": "Erori de redactare: «sau după caz» fără virgule, «ai cărui membri sunt»",
+            "text": "«sau după caz» scris fără virgule",
             "major": false,
-            "article": "art. 67¹ alin. (1⁵), art. 94¹ alin. (2) lit. a)"
+            "article": "art. 67¹ alin. (1⁵)"
           }
         ],
         "good": [
           {
-            "text": "Orice parte poate fi asistată la negocierea, încheierea sau modificarea contractului sportiv",
+            "text": "Sportivul poate fi asistat de avocat, consilier sportiv sau sindicat la contract",
             "major": true,
             "article": "art. 67¹ alin. (1⁵)"
           },
           {
-            "text": "Sportivii și cluburile pot fi reprezentați în fața comisiilor federațiilor",
+            "text": "Asistență și reprezentare în fața comisiilor federațiilor, pentru sportivi și structuri",
             "major": true,
             "article": "art. 94¹ alin. (2)"
           },
           {
-            "text": "Doar o facultate: fără obligații, taxe sau sancțiuni noi",
+            "text": "Este doar o facultate: fără obligații, taxe sau sancțiuni noi",
             "major": false,
-            "article": "art. 67¹ alin. (1⁵)"
+            "article": "art. unic"
           },
           {
-            "text": "Consilierul juridic e rezervat corect structurilor sportive, conform Legii nr. 514/2003",
+            "text": "Consilierul juridic este rezervat corect structurilor, conform Legii nr. 514/2003",
             "major": false,
             "article": "art. 94¹ alin. (2) lit. b)"
           },
           {
-            "text": "Regula existentă privind instanța sau arbitrajul rămâne neatinsă",
+            "text": "Alin. (1) existent, despre instanță sau arbitraj, rămâne neschimbat",
             "major": false,
             "article": "art. 94¹ alin. (1)"
           }
@@ -118,13 +206,13 @@
         "partial": false
       },
       "diff": {
-        "added": 8,
-        "removed": 8,
-        "same": 0.2
+        "added": 6,
+        "removed": 7,
+        "same": 0.45
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:18:09.758Z"
+      "schema": 4,
+      "updatedAt": "2026-11-11T13:22:36.240Z"
     }
   ]
 }

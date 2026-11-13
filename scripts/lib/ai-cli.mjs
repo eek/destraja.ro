@@ -131,7 +131,9 @@ function liveFile(model, label) {
   fs.mkdirSync(LIVE_DIR, { recursive: true });
   for (const f of fs.readdirSync(LIVE_DIR)) {
     const full = path.join(LIVE_DIR, f);
-    if (Date.now() - fs.statSync(full).mtimeMs > LIVE_KEEP_MS) fs.rmSync(full, { force: true });
+    // Alt proces care curăță în același timp poate să-l fi șters deja.
+    const stat = fs.statSync(full, { throwIfNoEntry: false });
+    if (stat && Date.now() - stat.mtimeMs > LIVE_KEEP_MS) fs.rmSync(full, { force: true });
   }
   const stamp = new Date().toISOString().replace(/[-:]/g, '').replace('T', '-').slice(0, 15);
   const safe = (label || path.basename(process.argv[1] ?? 'model', '.mjs')).replace(/[^\w.-]+/g, '-').slice(0, 40);

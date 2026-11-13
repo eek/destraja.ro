@@ -264,7 +264,11 @@ async function loadTracked(root: string): Promise<Tracked> {
   return { bills, byKey };
 }
 
-/** Proiectele noastre dintr-un punct: întâi după cod și număr; doar dacă nu se găsește nimic, după numărul „b” (fără an). */
+/**
+ * Proiectele noastre dintr-un punct: întâi după cod și număr; doar dacă nu se găsește nimic, după numărul „b” (fără an),
+ * cum îl știe fișa Camerei pentru un proiect abia ajuns la Senat. Senatul reia numerele „b” în fiecare an: b539 din 2025
+ * a ajuns așa, pe 9 noiembrie 2026, în agendă drept B539/2026.
+ */
 function matchItem(p: Item, chamber: AgendaChamber, zi: string, tracked: Tracked): AgendaBill[] {
   const found = new Set<AgendaBill>();
   for (const key of [p.cod && `${chamber}:${p.cod}`, billKey(p.numar) && `nr:${billKey(p.numar)}`]) {
@@ -272,11 +276,13 @@ function matchItem(p: Item, chamber: AgendaChamber, zi: string, tracked: Tracked
   }
   const b = p.b?.match(/^b(\d+)$/i)?.[1];
   if (!found.size && b) {
-    // Numărul b e pe an; o ordine de zi din ianuarie poate avea un proiect înregistrat în decembrie.
-    const year = Number(zi.slice(0, 4));
+    // Anul numărului b: cel din numărul de dezbatere („L508/2025”) sau cel dinainte (înregistrat în decembrie, intrat în
+    // dezbatere în ianuarie); fără număr de dezbatere, anul ședinței sau cel dinainte.
+    const year = Number(billKey(p.numar)?.split('/')[1] ?? zi.slice(0, 4));
     for (const y of [year, year - 1]) {
-      const hit = tracked.byKey.get(`nr:B${Number(b)}/${y}`);
-      if (hit) {
+      // Un proiect urmărit din aceeași cameră ar fi fost găsit după codul fișei: dacă n-a fost, e alt proiect.
+      const hit = tracked.byKey.get(`nr:B${Number(b)}/${y}`)?.filter((h) => !p.cod || h.chamber !== chamber);
+      if (hit?.length) {
         hit.forEach((h) => found.add(h));
         break;
       }

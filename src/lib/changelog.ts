@@ -28,6 +28,18 @@ export interface ChangeDay {
 
 export const CHANGELOG: ChangeDay[] = [
   {
+    date: '2026-11-12',
+    items: [
+      {
+        kind: 'corectat',
+        title: 'Un proiect greșit în agendă',
+        text: 'La ședința de luni, 9 noiembrie, a Comisiei pentru constituționalitate din Senat, agenda arăta proiectul B539/2026, despre motocicletele care trec printre coloanele oprite la semafor. Pe ordinea de zi era alt proiect, din 2025, înregistrat tot cu numărul b539: Senatul reia aceste numere în fiecare an. Acum ținem cont și de anul proiectului, iar punctul greșit nu mai apare. Am verificat și celelalte apariții din agendă: era singura potrivită greșit. Tot acolo, explicația unui punct nu mai începe cu o virgulă atunci când Senatul nu scrie rolul comisiei.',
+        link: { href: '/agenda', label: 'Agenda' },
+        shot: { id: '2026-11-12-agenda-proiect-gresit', alt: 'Agenda săptămânii, luni, 9 noiembrie: Comisia pentru constituționalitate din Senat, ora 10:00, cu proiectele urmărite de pe ordinea de zi, fără B539/2026.' },
+      },
+    ],
+  },
+  {
     date: '2026-11-10',
     items: [
       {

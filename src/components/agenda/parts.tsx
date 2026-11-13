@@ -12,8 +12,9 @@ const upper = (s: string) => s.replace(/^./, (c) => c.toUpperCase());
 /** „Raport, termen: 10.11.2026”: de ce e proiectul pe ordinea de zi, cum scrie pe pagina oficială. */
 export function purpose(a: AgendaAppearance) {
   // Senatul scrie „RAPORT\n, trimis pentru aviz la … (TERMEN: 22-09-2026)”: îl aducem la forma unei propoziții, iar
-  // termenul nu-l mai adăugăm o dată când e deja în scop.
+  // termenul nu-l mai adăugăm o dată când e deja în scop. Când rolul comisiei lipsește, textul începe cu virgula.
   const why = (a.punct.scop || a.punct.capitol)
+    .replace(/^[,\s]+/, '')
     .replace(/\s+/g, ' ')
     .replace(/ ,/g, ',')
     .replace(/,(?=\S)/g, ', ')

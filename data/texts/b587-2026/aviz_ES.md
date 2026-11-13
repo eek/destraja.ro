@@ -1,0 +1,51 @@
+Cod fiscal: 10464660
+
+E-mail: ces@ces.ro
+
+www.ces.ro
+
+Membru fondator al Asociației Internaționale a Consiliilor Economice și Sociale și Instituțiilor Simiare (AICESIS) Membru al Uniunii Consiliilor Economice și Sociale și Instituțiilor Simiare Francofone (UCESIF)
+
+„Consiliul Economic și Social este organ consultativ al Parlamentului și al Guvernului în domeniile de specialitate stabilite prin legea sa organică de înființare, organizare și funcționare.” (Art. 141 din Constituția României revizuită)
+
+Nr. 7414/11.11.2026
+
+Biroul permanent al Senatului
+
+## AVIZ
+
+Bp....587 12 noiembre 2026
+
+## referitor la propunerea legislativă pentru completarea Legii nr.227/2015 privind Codul fiscal (b587/21.10.2026)
+
+În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative pentru completarea Legii nr.227/2015 privind Codul fiscal (b587/21.10.2026).
+
+## CONSILIUL ECONOMIC ȘI SOCIAL
+
+În temeiul art. 5 lit. a) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, în ședința din data de 11.11.2026, desfășurată online, conform prevederilor art. 30 alin. (1) din Regulamentul de organizare și funcționare, avizează FAVORABIL prezentul proiect de act normativ, cu următoarele observații:
+
+Articolul 138 alin. (5) din Constituția României interzice adoptarea de acte legislative care duc la reducerea veniturilor bugetare fără a stabili o sursă alternativă și clară de finanțare pentru a acoperi deficitul creat. Soluția legislativă doar propune eliminarea taxei, fără a compensa pierderea economică printr-un alt impozit sau prin reducerea cheltuielilor, ceea ce îl face vulnerabil în fața unei eventuale contestări la Curtea Constituțională.
+
+Deși Directiva europeană în materie de TVA (modificată recent) permite statelor membre să aplice cote reduse sau chiar de 0% (scutire cu drept de deducere) pentru produsele de protecție igienică și contracepție, există o barieră procedurală. Directiva impune condiții stricte legate de numărul maxim de categorii de bunuri cărora un stat le poate aplica cota de 0% (maximum 7 puncte din Anexa III a Directivei). Dacă România a atins deja aceste plafoane sau introduce formulări care depășesc textul european, legea poate intra în conflict cu legislația comunitară.
+
+Din punct de vedere al tehnicii legislative, introducerea unei facilități pentru scutecele de copii și produsele pentru incontinență, dar excluderea altor produse la fel de esențiale pentru persoanele vulnerabile (de exemplu: aleze pentru pat, dezinfectanți medicali de uz casnic, creme speciale anti-iritații pentru bebeluși sau bătrâni) poate fi privită ca o încălcare a principiilor neutralității fiscale și egalității în drepturi, creând arbitraj pe piață.
+
+Principalele obstacole juridice nu țin de oportunitatea legii, ci de lipsa corelării cu bugetul de stat, de riscul unei redactări ambigue și de necesitatea punerii în acord cu textul Directivei 2006/112/CE privind sistemul comun al taxei pe valoarea adăugată.
+
+Nu poate fi ignorat argumentul social central care decurge din datele privind sărăcia și excluziunea socială. Potrivit Eurostat, în anul 2025, Bulgaria (29,0%), Grecia (27,5%) și România (27,4%) au înregistrat cele mai ridicate rate ale riscului de sărăcie sau excluziune socială din Uniune, în condițiile în care, la nivel comunitar, 92,7 milioane de persoane (20,9% din populație) se aflau în această situație. Decalajul României față de media europeană este de 6,5%. Ameliorarea recentă este reală, dar lentă, având în vedere că în 2024 România raporta o rată de 27,9%. În valori absolute, numărul persoanelor aflate în risc de sărăcie a scăzut în 2025 la 3,468 milioane, cu 3,5% mai puțin decât în anul precedent.
+
+Structura acestui risc are o dimensiune de gen care afectează direct prima categorie de produse vizate. Datele INS arată că riscul de sărăcie sau excluziune socială lovește mai mult femeile decât bărbații (29,1% față de 25,6%). De asemenea, rata AROPE pentru persoanele din gospodăriile cu copii în întreținere a fost cea mai ridicată în Spania (29,9%), urmată de România (29,4%) și Bulgaria (29,1%). Femeile și familiile cu copii mici sunt, așadar, cele mai expuse grupuri, ele fiind totodată principalii cumpărători ai produselor menstruale și ai scutecelor – cheltuieli lunare, recurrente și imposibil de amânat.
+
+Orice reducere a costurilor din primii ani de viață ai copilului contează pentru familiile tinere, mai ales că gospodăriile cu copii din România au una dintre cele mai mari rate de risc de sărăcie din Uniune. În plus, baza de impozitare afectată de scutire este, în cazul scutecelor pentru copii, în scădere structurală odată cu numărul nașterilor; prin urmare, costul bugetar al acestei componente nu prezintă o tendință de creștere în timp.
+
+La începutul anului 2026, în România existau 3.903,2 mii de persoane cu vârsta de 65 de ani și peste, dintr-o populație rezidentă totală de 19.041,3 mii de persoane, adică
+
+20,5%. Indicele de îmbătrânire demografică a crescut de la 131,3 persoane vârstnice la 100 de persoane tinere (la 1 ianuarie 2025) la 135,9 (la 1 ianuarie 2026). Rata persoanelor cu dizabilități raportată la populația României a fost de 4,32%, iar persoanele cu handicap grav reprezentau 43,26% din total. Proporția covârșitoare a persoanelor îngrijite în familie arată că produsele pentru incontinență sunt plătite în principal din veniturile gospodăriilor, nu din bugetele instituțiilor rezidențiale. Riscul de sărăcie al acestor gospodării este ridicat: datele Eurostat indică faptul că 38,4% dintre persoanele cu dizabilități din România se aflau în risc de sărăcie sau excluziune socială, comparativ cu media UE de 28,7%.
+
+Accesul la produse de igienă menstruală influențează în mod direct prezența la școală a fetelor și participarea femeilor la activități profesionale în condiții de demnitate. Ponderea mare a angajaților plătiți cu salariul minim, concentrați în comerț, industria ușoară, agricultură și servicii, face ca orice reducere a costului bunurilor de primă necesitată să aibă un efect real asupra veniturilor disponibile ale lucrătorilor cu venituri mici.
+
+Deși soluția legislativă propusă poate contribui la facilitarea accesului populației la produse esențiale pentru igienă și sănătate, ea trebuie să respecte cu strictețe dispozițiile art. 138 alin. (5) din Constituția României și plafonul procedural impus de Directiva 2006/112/CE privind sistemul comun al taxei pe valoarea adăugată.
+
+Presedinte,
+
+Sterică FUDULEA

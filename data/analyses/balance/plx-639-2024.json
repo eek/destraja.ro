@@ -1,0 +1,77 @@
+{
+  "slug": "plx-639-2024",
+  "billId": "PL-x 639/2024",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-13T09:06:52.215Z",
+  "inputHash": "32c1a829c572",
+  "riskScore": 4.3,
+  "summary": "Un pachet de măsuri fiscale utile pentru stocurile petroliere de urgență, exportul de tutun brut și industria berii, umbrit de impunerea intempestivă și fără criterii de risc a plății anticipate a accizelor pentru toți antrepozitarii autori",
+  "good": [
+    {
+      "text": "Înlocuiește scumpirea automată cu inflația a accizei la bere cu un calendar fix pentru 2025-2026 și păstrează cota redusă pentru berăriile mici, oferind predictibilitate.",
+      "article": "art. I pct. 1 și art. II",
+      "quote": "»(1°) Prin excepție de la alin. (1) pentru bere, nivelul accizelor este cel prevăzut în anexa nr. 1.\"",
+      "weight": 2
+    },
+    {
+      "text": "Asimilează depozitele pentru stocurile petroliere de urgență și specifice cu antrepozitele fiscale, actualizând trimiterea la Legea 85/2018 pentru siguranța aprovizionării cu energie.",
+      "article": "art. I pct. 4",
+      "quote": "Locurile aferente rezervei de stat și rezervei de mobilizare, locurile în care se constituie și se mențin stocurile de urgență/stocurile specifice, precum și capacitățile de stocare destinate entității centrale de stocare,",
+      "weight": 2
+    },
+    {
+      "text": "Clarifică faptul că restricția de vânzare a tutunului brut doar către procesatori autorizați se aplică doar cumpărătorilor din România, deblocând exportul și livrările în UE.",
+      "article": "art. I pct. 5",
+      "quote": "b) tutunul brut sau tutunul parțial prelucrat poate fi comercializat către un operator economic din România numai dacă acesta este autorizat ca antrepozitar pentru producția de tutun prelucrat",
+      "weight": 2
+    },
+    {
+      "text": "Permite desfășurarea de activități conexe în antrepozitele de produse din tutun încălzit și reglementează simplu renunțarea la producția de tutun clasic, cu notificare prealabilă.",
+      "article": "art. I pct. 6",
+      "quote": "În antrepozitele fiscale de producție prevăzute la alin. (2) pot fi desfășurate și alte activități de producție care au legătură cu activitatea principală desfășurată.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Obligă toți antrepozitarii autorizați din 2024 să achite acciza în avans timp de 36 de luni, înainte de livrare sau mutare în alt depozit, fără analiză de risc, blocând capitalul firmelor noi.",
+      "article": "art. I pct. 3",
+      "quote": "se efectuează numai în momentul în care furnizorul deține documentul de plată care să ateste virarea la bugetul de stat a valorii accizelor aferente cantității ce urmează a fi facturată.",
+      "weight": 3
+    },
+    {
+      "text": "Schimbă regulile în timpul jocului pentru firmele autorizate între ianuarie și octombrie 2024 și le calculează cele 36 de luni de la data OUG, nu de la autorizare, prelungind restricția.",
+      "article": "art. III",
+      "quote": "se aplică pentru operațiunile efectuate începând cu data intrării în vigoare a prezentei ordonanțe de urgență, dată de la care curge și termenul de 36 de luni.",
+      "weight": 3
+    },
+    {
+      "text": "Impune plata anticipată a accizei chiar din ziua publicării în Monitorul Oficial, fără perioadă de tranziție în care firmele vizate să își poată adapta fluxurile de numerar și contractele.",
+      "article": "art. IV",
+      "quote": "Prezenta ordonanță de urgență intră în vigoare la data publicării acesteia in Monitorul Oficial al României, Partea 1, cu excepția prevederitor cart: 1, kpęt. 1 și art. II",
+      "weight": 2
+    },
+    {
+      "text": "Scoate acciza la bere de sub indexarea anuală cu inflația fără să prevadă un termen-limită, lăsând neclar regimul de actualizare a accizei după încheierea calendarului din 2026.",
+      "article": "art. I pct. 1",
+      "quote": "La articolul 342, după alineatul (17), se introduce un nou alineat, alin. (18) cu următorul cuprins: »(1°) Prin excepție de la alin. (1) pentru bere, nivelul accizelor este cel prevăzut în anexa nr. 1.\"",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Aplicarea plății anticipate a accizei doar pe bază de criterii de risc fiscal, calcularea termenului de la data autorizării cu o perioadă de tranziție și limitarea în timp a excepției la bere.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "plx-558-2020",
+  "billId": "PL-x 558/2020",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-13T09:10:15.973Z",
+  "inputHash": "cb6203b695dc",
+  "riskScore": 3.7,
+  "summary": "O lege cu o reparație tehnică utilă pentru asistența socială, dar viciată de privilegierea directă prin lege a șase orașe din Valea Jiului ca „localități izolate” și de erori de redactare.",
+  "good": [
+    {
+      "text": "Stabilește că lista localităților cu spor de izolare din asistența socială se aprobă prin ordin al ministrului muncii, reparând o omisiune din lege care bloca acordarea sporului.",
+      "article": "art. unic pct. 4",
+      "quote": "(4) Localitățile prevăzute la alin.(1) lit.c) se stabilesc prin ordin al ministrului muncii și protecției sociale.",
+      "weight": 3
+    },
+    {
+      "text": "Oferă un spor salarial de până la 20% pentru a atrage și păstra profesori, medici și asistenți sociali în localitățile din Valea Jiului, afectate de depopulare și lipsă de specialiști.",
+      "article": "art. unic pct. 1-3",
+      "quote": "inclusiv în localitățile Petroșani, Vulcan, Lupeni, Petrila, Aninoasa și Uricani din județul Hunedoara, un spor de până la 20% din salariul de bază;",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nominalizează direct în lege doar șase localități din Valea Jiului, creând un privilegiu față de alte foste bazine miniere sau zone sărace care rămân la discreția Guvernului ori a miniștrilor.",
+      "article": "art. unic pct. 1-3",
+      "quote": "în localități izolate, inclusiv în localitățile Petroșani, Vulcan, Lupeni, Petrila, Aninoasa și Uricani din județul Hunedoara, precum și din alte localități stabilite prin hotărâre a Guvernului,",
+      "weight": 3
+    },
+    {
+      "text": "Califică direct drept „localități izolate” șase orașe și municipii conectate la drumuri naționale și cale ferată, deturnând sensul indemnizației de izolare geografică din învățământ.",
+      "article": "art. unic pct. 1",
+      "quote": "Personalul didactic calificat de predare și conducere care își desfășoară activitatea în localități izolate, inclusiv în localitățile Petroșani, Vulcan, Lupeni, Petrila, Aninoasa și Uricani din județul Hunedoara,",
+      "weight": 2
+    },
+    {
+      "text": "Formularea „hotărâre a Guvernului, care nu se ia în calcul la stabilirea limitei” este greșită gramatical: nu rezultă clar că indemnizația (nu hotărârea) e scutită de plafonul sporurilor.",
+      "article": "art. unic pct. 1",
+      "quote": "Diferențierea pe zone și localități se aprobă prin hotărâre a Guvernului, care nu se ia în calcul la stabilirea limitei prevăzute la art.25.",
+      "weight": 2
+    },
+    {
+      "text": "Spre deosebire de indemnizația profesorilor (pct. 1), sporul identic pentru medici și asistenți sociali nu este exceptat de la plafonul legal de 30% al sporurilor, creând un tratament inegal.",
+      "article": "art. unic pct. 2-3",
+      "quote": "pentru personalul care lucrează în unități de asistență socială aflate în localități izolate, situate la altitudine care au căi de acces dificile sau unde atragerea personalului se face cu greutate,",
+      "weight": 2
+    },
+    {
+      "text": "Trimite de două ori în același articol la o hotărâre de Guvern pentru stabilirea localităților, fără a clarifica dacă Guvernul mai poate diferenția zona pentru orașele deja impuse prin lege.",
+      "article": "art. unic pct. 1",
+      "quote": "precum și din alte localități stabilite prin hotărâre a Guvernului, primește o indemnizație de până la 20% din salariul de bază, în raport cu zona geografică respectivă.",
+      "weight": 1
+    },
+    {
+      "text": "Nu impune niciun termen în care ministrul muncii trebuie să emită ordinul cu lista localităților izolate, ceea ce permite întârzierea pe termen nedeterminat a acordării sporului.",
+      "article": "art. unic pct. 4",
+      "quote": "(4) Localitățile prevăzute la alin.(1) lit.c) se stabilesc prin ordin al ministrului muncii și protecției sociale.",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Eliminarea nominalizării directe a celor șase orașe din pct. 1–3 (lăsând stabilirea localităților pe criterii obiective prin HG/ordin) și corectarea formulării privind excepția de la art. 25.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

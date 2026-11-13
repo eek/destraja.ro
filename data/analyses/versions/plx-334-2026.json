@@ -1,7 +1,12 @@
 {
   "slug": "plx-334-2026",
   "billId": "Pl-x 334/2026",
-  "updatedAt": "2026-10-30T09:19:37.569Z",
+  "updatedAt": "2026-11-13T08:58:17.366Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -39,28 +44,39 @@
       "from": "initiator",
       "to": "camera",
       "direction": "la_fel",
-      "headline": "Doar precizări: trimiterea la pragul nivelului minim de trai a fost corectată la art. 54 alin. (3)",
-      "summary": "Acum se trimite corect la articolul care definește nivelul minim de trai, iar formularea despre autoritățile proprietare e mai precisă. Fondul a rămas același: tineri fără definiție, venit personal, locuințe fără criterii de repartizare și sarcini fără bani.",
+      "headline": "Doar corecturi tehnice: trimiterea la pragul de venit pentru tineri indică acum articolul corect",
+      "summary": "Fondul proiectului a rămas același. Tinerii în risc de marginalizare și cu locuire precară intră tot în grupul vulnerabil. Acum s-au corectat o trimitere greșită și câteva formulări, iar lacunele inițiale (definiții, criterii, finanțare) au rămas.",
       "changes": [
         {
-          "title": "Trimiterea la pragul de venit a fost corectată",
-          "text": "La art. 6 lit. p), inițial nivelul minim de trai era definit prin trimitere la art. 53 alin. (3). Acum trimiterea este la art. 54 alin. (3), deci condiția de venit pentru tineri se poate aplica.",
+          "title": "Pragul de venit trimite acum la articolul corect",
+          "text": "La art. 6 lit. p), nivelul minim de trai pentru tineri era trimis greșit la art. 53 alin. (3). Acum trimiterea e la art. 54 alin. (3).",
           "effect": "mai_bine",
           "major": false,
           "article": "art. 6 lit. p)",
-          "before": "sub nivelul minim de trai, definit la alin. (3) de la art. 53 din Legea asistenței sociale",
-          "after": "sub nivelul minim de trai, definit la art. 54 alin. (3)",
+          "before": "cu condiția unui venit personal, conform sferei de cuprindere de la litera pp) a articolului 6 din prezenta lege, sub nivelul minim de trai, definit la alin. (3) de la art. 53 din Legea asistenței sociale",
+          "after": "cu condiția unui venit personal, conform sferei de cuprindere de la lit. pp), sub nivelul minim de trai, definit la art. 54 alin. (3);",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Proprietarul locuințelor este numit mai precis",
-          "text": "La art. 53 alin. (2) lit. d), „autoritățile publice” au devenit „autoritățile administrației publice” centrale sau locale. Criteriile de repartizare a locuințelor tot lipsesc.",
+          "title": "Precizare: locuințe ale autorităților administrației publice",
+          "text": "La art. 53 alin. (2) lit. d), „autorităților publice” devine „autorităților administrației publice”. Criteriile de repartizare tot lipsesc.",
           "effect": "neutru",
           "major": false,
           "article": "art. 53 alin. (2) lit. d)",
           "before": "precum și la alte locuințe aflate în proprietatea autorităților publice centrale sau locale",
-          "after": "precum și la alte locuințe aflate în proprietatea autorităților administrației publice centrale sau locale",
+          "after": "precum și la alte locuințe aflate în proprietatea autorităților administrației publice centrale sau locale.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Proiectul a fost adoptat ca lege organică",
+          "text": "Formula de adoptare trimite acum la art. 76 alin. (1) din Constituție, nu la art. 76 alin. (2). Schimbarea ține de procedura de vot, nu de drepturi.",
+          "effect": "neutru",
+          "major": false,
+          "article": null,
+          "before": "cu respectarea prevederilor art. 75 si ale art. 76 alin. (2) din Constituția României, republicată.",
+          "after": "cu respectarea prevederilor art. 76 alin. (1) din Constituția României, republicată.",
           "beforeAbsent": false,
           "afterAbsent": false
         }
@@ -73,27 +89,27 @@
             "article": "art. 6 lit. p)"
           },
           {
-            "text": "Condițiile de locuire precare sau supraaglomerate nu sunt definite",
+            "text": "Condițiile de locuire „precare” sau „supraaglomerate” nu sunt definite",
             "major": true,
             "article": "art. 6 lit. p)"
           },
           {
-            "text": "Se ia în calcul venitul personal, nu cel al familiei; pot intra și tineri întreținuți",
+            "text": "Venitul se verifică individual, nu pe familie; tinerii din familii bogate pot intra",
             "major": true,
             "article": "art. 6 lit. p)"
           },
           {
-            "text": "Accesul la alte locuințe ale autorităților nu are criterii de repartizare",
+            "text": "Nu există criterii de repartizare pentru celelalte locuințe ale autorităților",
             "major": true,
             "article": "art. 53 alin. (2) lit. d)"
           },
           {
-            "text": "Serviciile sociale locale primesc sarcini noi fără o sursă de finanțare dedicată",
+            "text": "Primăriile primesc sarcini noi fără o sursă de finanțare dedicată",
             "major": true,
             "article": "art. 54 alin. (1)"
           },
           {
-            "text": "Doar tinerilor li se cere condiție de venit, celorlalte categorii vulnerabile nu",
+            "text": "Condiția de venit se aplică doar tinerilor, nu și celorlalte categorii vulnerabile",
             "major": false,
             "article": "art. 6 lit. p)"
           },
@@ -103,58 +119,73 @@
             "article": "art. 6 lit. p)"
           },
           {
-            "text": "Nu distinge domeniul public de cel privat și nu se corelează cu ANL",
+            "text": "Nu se face distincție între domeniul public și cel privat al autorităților",
             "major": false,
             "article": "art. 53 alin. (2) lit. d)"
           },
           {
-            "text": "Lipsește condiția „dacă autoritățile dispun de astfel de locuințe” din expunerea de motive",
+            "text": "Textul nu e corelat cu regimul ANL sau cu Legea 114/1996",
             "major": false,
             "article": "art. 53 alin. (2) lit. d)"
           },
           {
-            "text": "Definiția pachetului minim de la art. 6 lit. ss) nu a fost corelată",
+            "text": "Lipsește condiția ca autoritățile să dispună efectiv de astfel de locuințe",
             "major": false,
-            "article": "art. 54 alin. (1)"
+            "article": "art. 53 alin. (2) lit. d)"
+          },
+          {
+            "text": "Definiția pachetului minim de asistență socială nu a fost actualizată",
+            "major": false,
+            "article": "art. 6 lit. ss)"
           }
         ],
         "good": [
           {
-            "text": "Tinerii trebuie să îndeplinească cumulativ trei condiții, ceea ce limitează grupul",
+            "text": "Tinerii în risc de marginalizare intră explicit în grupul vulnerabil",
             "major": true,
             "article": "art. 6 lit. p)"
           },
           {
-            "text": "Persoanele vulnerabile pot avea acces și la alte locuințe ale statului",
+            "text": "Persoanele vulnerabile pot primi și alte locuințe ale autorităților publice",
             "major": true,
             "article": "art. 53 alin. (2) lit. d)"
           },
           {
-            "text": "Dreptul la o locuință decentă și tinerii vulnerabili intră în pachetul minim",
+            "text": "Dreptul la o locuință decentă apare printre drepturile fundamentale protejate",
             "major": true,
             "article": "art. 54 alin. (1)"
           },
           {
-            "text": "Trimiterea corectă la art. 54 alin. (3) pentru nivelul minim de trai",
+            "text": "Tinerii devin beneficiari explicit ai pachetului minim de asistență socială",
+            "major": true,
+            "article": "art. 54 alin. (1)"
+          },
+          {
+            "text": "Cele trei condiții cumulative limitează categoria la tinerii cu adevărat defavorizați",
             "major": false,
             "article": "art. 6 lit. p)"
           },
           {
-            "text": "Condițiile de locuire intră explicit în măsurile contra sărăciei și excluziunii",
+            "text": "Condițiile de locuire sunt incluse în măsurile împotriva sărăciei",
             "major": false,
             "article": "art. 53 alin. (1)"
+          },
+          {
+            "text": "A fost corectată trimiterea la pragul nivelului minim de trai",
+            "major": false,
+            "article": "art. 6 lit. p)"
           }
         ],
         "partial": false
       },
       "diff": {
         "added": 10,
-        "removed": 14,
-        "same": 0.09
+        "removed": 13,
+        "same": 0.23
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:22:17.910Z"
+      "schema": 4,
+      "updatedAt": "2026-11-13T08:58:17.366Z"
     }
   ]
 }

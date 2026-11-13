@@ -1,0 +1,139 @@
+privind instituirea identificării alternative (non-digitală) la accesarea serviciilor digitale publice de pe territoriul României
+
+Parlamentul României adoptă prezenta lege.
+
+## CAPITOLUL I: Dispoziții generale, definiții și principii
+
+## Art. 1. – Obiectul și scopul reglementării
+
+(1) Prezenta lege reglementează accesul alternativ (non-digital) și prin canal asistat al persoanelor fizice și juridice la serviciile publice digitale de pe territoriul României, asigurând accesul egal și nediscriminatoriu la acestea.
+
+(2) Prezenta lege are ca scop garantarea accesului la serviciile publice prin menținerea unor modalități alternative de acces pentru persoanele carè nu utilizează mijloace electronice, din motive de vârstă, dizabilități, convingeri personale, lipsă a competențelor digitale sau a mijloacelor tehnice.
+
+(3) Dispozițiile prezentei legi se aplică cu respectarea Regulamentului (UE) nr. 2024/1183 al Parlamentului European și al Consiliului de modificare a Regulamentului (UE) nr. 910/2014 în ceea ce privește instituirea cadrului european pentru identitatea digitală.
+
+## Art. 2. – Domeniul de aplicare
+
+(1) Prezenta lege se aplică autorităților și instituțiilor administrației publice centrale și locale, precum și operatorilor economici cu caracter privat care prestează servicii de interes public.
+
+(2) Nu fac obiectul prezentei legi procedurile judiciare, activitățile de urmărire penală și activitățile din domeniul apărării și securității naționale.
+
+## Art. 3. - Definiții
+
+În sensul prezentei legi, termenii și expresile de mai, jos au următoarele semnificații: a) act de identitate pe suport fizic - act de identitate emis în condițiile legislației în vigoare, care permite dovedirea identității titularului prin prezentarea directă a documentului;
+
+b) canal asistat - modalitatea de acces la un serviciu public prin care personalul unei autorități sau instituții publice acordă solicitantului sprijin pentru îndeplinirea operațiunilor necesare, fără a utiliza mijloacele personale de autentificare electronică;
+
+c) identificare analogică (non-digitală) - procesul de verificare și confirmare a identității unei persoane fizice prin prezentarea directă a unui act de identitate valabil pe suport fizic și confruntarea datelor, fără a necesita mijloace electronice;
+
+d) sistem de identificare, alternativă - ansamblul mijloacelor și procedurilor ne-electronice (fizice, poștale, telefonice) prin care se verifică și se confirmă identitatea sau se asigură accesul la serviciul solicitat, atunci când persoana nu utilizează mijloace electronice;
+
+e) interoperabilitate – capacitatea sistemelor informatice de a realiza schimbul și utilizarea datelor, în condițiile Legea 242/2022 privind schimbul de date între sisteme informatice și crearea Platformei naționale de interoperabilitate cu modificările și completările ulterioare;
+
+## Art. 4. – Principii directoare
+
+Furnizarea serviciilor publice se realizează cu respectarea următoarelor principii:
+
+a) accesul egal și nediscriminatoriu la serviciile publice furnizate pe teritoriul României;
+
+b) libertatea de alegere a mijloacelor de identificare și autentificare admise de lege, cu respectarea cerințelor de securitate aplicabile;
+
+c) utilizarea mecanismului național de identificare electronică ROeID este voluntară pentru persoanele care accesează servicii publice;
+
+d) proporționalitatea cerințelor de identificare și autentificare în raport cu natura serviciului și riscurile asociate;
+
+e) , garantarea accesului la serviciile publice pentru persoanele cu dizabilități cât și pentru persoanele care nu utilizează mijloace electronice de identificare;
+
+f) interoperabilitatea sistemelor de identificare digitală cu cele analogice;
+
+g) garantarea dreptului de identificare non-digitală cu respectarea atributelor de identificare a persoanelor fizice prevăzute de Legea 287/2009 privind Codul civil;
+
+h) protecția datelor cu caracter personal, limitarea scopului prelucrării și minimizarea datelor.
+
+CAPITOLUL II: Modalități ' concrete de identificare și interacțiune non-digitală
+
+Art. 5. – Canalele alternative de interacțiune non-digitală pentru accesarea serviciilor publice
+
+Pentru a garanta dreptul de acces la servicii publice al cetățenilor care nu utilizează medii digitale, autoritățile și instituțiile publice sunt obligate să înființeze, să mențină și să pună la dispoziție canale alternative de interacțiune:
+
+(1) Ghișeu fizic. Interacțiunea se realizează prin:
+
+a) prezentarea personală a solicitantului la sediul instituției;
+
+b) identificarea solicitantului pe baza actului de identitate pe suport fizic (clasic, fără cip sau autentificare electronică obligatorie);
+
+c) asistarea solicitantului de către personalul instituției la depunerea de cereri, sesizări și alte documente similare, pe suport de hârtie, instituția având obligația de a pune la dispoziție formulare tipizate gratuite.
+
+(2) Corespondență poștală și curierat. Interacțiunea se realizează prin comunicarea și transmiterea tuturor actelor administrative, a deciziilor, a adeverințelor și a notificărilor solicitate se efectuează în format fizic, prin poștă cu confirmare de primire, către cetățenii care optează pentru acest canal alternativ sau nu dețin spații virtuale private.
+
+(3) Suport' telefonic dedicat. Interacțiunea se realizează prin apel telefonic la informații privind procedurile, documentele necesare, programările' prealabile și consilierea administrativă de bază prin apel telefonic clasic, eliminând obligativitatea utilizării unor aplicații mobile sau formulare online.
+
+(4) Plăți în numerar. Interacțiunea se realizează prin: “”
+
+a) garantarea și exercitarea dreptului solicitanților de a achita taxe, impozite, costuri, tarife, sau oricare alte creanțe în modalitate fizică, prin utilizarea numerarului.
+
+b) Efectuarea plăților în numerar se efectuează la casieriile instituțiilor sau prin parteneriate asigurate cu rețelele de poștă sau alte sisteme de plăți în numerar.
+
+Art. 6. – Canal asistat de interacțiune directă cu persoane vulnerabile și cu persoane cu dizabilități
+
+(1) Persoanele vârstnice, persoanele cu dizabilități, cele cu bariere lingvistice sau cu competențe digitale reduse beneficiază, la cerere, de asistență directă din partea personalului instituției publice sesizate.
+
+(2) Funcționarul competent acordă sprijin solicitanților în completarea formularelor și preia cererile fizice ale acestora, utilizând sistemele informatice interne, fără a impune solicitanților crearea de conturi digitale (de tip ROeID sau portofel digital).
+
+CAPITOLUL III: Reziliența și interoperabilitatea sistemelor multiple de identificare Art. 7. – Interoperabilitatea și interzicerea birocrației redundante
+
+(1) În cazul procesării cererilor pe suport fizic sau asistat adresate de către solicitanți care utilizează identificarea non-digitală, autoritățile publice au obligația de a obține documentele și datele necesare din oficiu, prin intermediul Platformei Naționale de Interoperabilitate, fiind interzisă solicitarea de la cetățean a unor copii suplimentare pentru înscrisuri pe care instituțiile statului le dețin deja.
+
+(2) Indisponibilitatea temporară a sistemelor informatice survenită din diverse cauze (pene, de curent, avarii sau atacuri cibernetice sau alte împrejurări independente de controlul autorității publice) activează automat fluxul alternativ de soluționare a cererilor, în regim analogic, acesta fiind recunoscut ca valabil pentru continuitatea activității administrative.
+
+CAPITOLUL IV: Modalități de protecție a accesului non-digital în utilizarea serviciilor publice
+
+Art. 8 - Protecția juridică a drepturilor
+
+Persoana care se consideră vătămată în dreptul său la acces non-digital la accesarea serviciilor publice 's'e poate adresa instanței competente potrivit Legii contenciosului administrativ nr. 554/2004 sau pe calea dreptului comun, putând solicita încetarea încălcării; asigurarea accesului și repararea prejudiciului.
+
+## CAPITOLUL V: Sancțiuni, finanțare și dispoziții finale
+
+Art. 9. – Sancțiuni contravenționale Constituie 'contravenții următoarele fapte săvârșite de conducătorii autorităților sau instituțiilor publice sau personalul acestora, după caz, și se 'sancționează de 'către autoritățile cù 'atribuții de supraveghere și control al acestora, dar numai după acordarea unui termen de remediere prealabilă (15-90 de zile):
+
+a) Refuzul furnizării unui serviciu public motivat exclusiv de neutilizarea unui mijloc de identificare electronică sau a portofelului digital - amendă de la 10.000 lei la 20.000 lei;
+
+b) Neasigurarea canalului asistat, a ghișeului fizic sau a posibilității de identificare pe baza actului de identitate pe suport fizic - amendă de la 5.000 lei la 15.000 lei;
+
+c) Impunerea 'unui anumit mijloc de identificare electronică se sancționează cu amendă de la 15000 lei la 25000 lei;
+
+d) Contravențiile prevăzute de prezenta lege le sunt aplicabile dispozițiile Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare.
+
+Art. 10. – Finanțare Cheltuielile necesare organizării canalelor alternative și instruirii personalului se asigură din bugetele proprii, din fonduri externe nerambursabile atrase pentru digitalizare și incluziune socială, precum și prin programe guvernamentale de sprijin financiar destinate autorităților locale.
+
+## Art. 11. - Norme metodologice
+
+(1) În termen de 60 de zile de la data intrării în vigoare a prezentei legi, Guvernul aprobă, prin hotărâre, normele metodologice de aplicare a acesteia.
+
+(2), Normele metodologice nu pot institui obligații, excepții, contravenții sau sancțiuni care nu sunt prevăzute de lege și nici cerințe de identificare și autentificare contrare dreptului Uniunii Europene.
+
+(3) Normele metodologice prevăzute la alin. (1) stabilesc:
+
+a) Atribuțiile și competențele concrete ale autorităților din administrația publică centrală și locală privind asigurarea accesului solicitanților la servicii publice prin identificare non-digitală;
+
+b) Modalitățile de verificare și remediere, a neconformităților prevăzute de prezenta lege;
+
+c) Întocmirea calendarului de implementare a prezentei legi; , ,
+
+d) , Modalitățile de realizare a interoperabilității dintre cele două sisteme de identificare (analogic și digital) prevăzute de prezenta lege;
+
+e) Conditile de organizare și funcționare a canalelor asistate.
+
+Art. 12. – Intrarea în vigoare Prezenta lege intră în vigoare la 60 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor, art. 75 și art. 76 alin. (2) din Constituția României.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR PREȘEDINTELE SENATULUI Initiatori
+
+Senator Vela Gheorghe Deputat Kroncsis Sebastian-Andrei Deputat Gavrilă Anamaria Deputat Popa Andrei Cristian
+
+Deputat Cernit Maria
+
+Deputat Irimia Ancuța-Florina
+
+Deputat Gavrilă Bianca-Eugenia

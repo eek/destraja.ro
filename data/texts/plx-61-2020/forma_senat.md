@@ -1,0 +1,43 @@
+# PARLAMENTUL ROMÂNIEI SENAT
+
+## |L E G E|
+
+## privind completarea Legii nr.76/2002 privind sistemul asigurărilor pentru șomaj și stimularea ocupării forței de muncă
+
+## Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Legea nr.76/2002 privind sistemul asigurărilor pentru șomaj și stimularea ocupării forței de muncă, publicată în Monitorul Oficial al României, nr.103 din 6 februarie 2002, se completează după cum urmează:
+
+## I. La articolul 80, alineatul (2) se completează după cum urmează:
+
+„(2) Angajatorii care încadrează în muncă, pe durată nedeterminată, absolvenți din rândul persoanelor cu handicap primesc lunar, pentru fiecare absolvent, sumele prevăzute la alin.(1) pe o perioadă de 18 luni. Pentru persoanele cu handicap, indiferent dacă sunt sau nu absolvenți, care fac parte din categorii vulnerabile, definite în acord cu Legea asistenței sociale nr.292/2011 și angajate în unități protejate autorizate conform Legii nr.448/2006 sau în întreprinderi sociale de inserție autorizate conform Legii nr.219/2015, suma prevăzută la alin.(1) se acordă pe o perioadă de maximum 3 ani de la angajare, diferențiat pe grad de handicap.”
+
+## II. Art.85, alin.(1) se completează după cum urmează:
+
+„Art.85.- (1) Angajatorii care încadrează în muncă, pe perioadă nedeterminată, șomeri în vârstă de peste 45 de ani, șomeri care sunt părinți unici susținători ai familiilor monoparentale, șomeri de lungă durată sau tineri NEET primesc lunar, pe o perioadă de 12 luni, pentru fiecare persoană angajată din aceste categorii, o sumă în cuantum de 2250 lei, cu obligația menținerii raporturilor de muncă sau de serviciu cel puțin 18 luni. Excepția de la această prevedere este pentru angajatorii din categoria unităților protejate autorizate conform Legii nr.448/2006, republicată, cu modificările și completările ulterioare, și a întreprinderilor sociale de inserție autorizate conform Legii nr.219/2015, cu modificările ulterioare, în care subvenția este acordată pentru o perioadă de maximum 36 de luni de la data angajării cu condiția asigurării de măsuri de suport de tranziție a persoanei pe piața clasică a muncii. În cazul angajării persoanelor cu dizabilități greu ocupabile încadrate în categoria de grup vulnerabil conform prevederilor art.6, alin.(1), lit.h) din Legea nr.219/2015, cu modificările ulterioare, și a art.2 lit.a)-f) din normele de aplicare a Legii nr.219/2015, cu modificările ulterioare, subvenția se acordă diferențiat pe grad de handicap astfel:
+
+înmulțit cu 2,5;
+
+a) pentru gradul I de handicap, se acordă subvenția legală
+
+înmulțit cu 2;
+
+b) pentru gradul II de handicap, se acordă subvenția legală
+
+înmulțit cu 1,5.
+
+c) pentru gradul III de handicap, se acordă subvenția legală
+
+## III.Art.85, alin.(4) se completează după cum urmează:
+
+„(4) Angajatorii care încetează raporturile de muncă sau de serviciu ale persoanelor prevăzute la alin.(1) și (2) anterior termenului de 18 luni sunt obligați să restituie, în totalitate, Agențiilor pentru Ocuparea Forței de Muncă sumele încasate pentru fiecare persoană pentru care a încetat raportul de muncă sau de serviciu anterior termenului menționat, plus dobândă de referință a Băncii Naționale a României în vigoare la data încetării raporturilor de muncă sau de serviciu, dacă încetarea acestora a avut loc din motivele prevăzute la art.83 alin.(2). Excepția de la această prevedere este pentru angajatorii din categoria unităților protejate autorizate conform Legii nr.448/2006, republicată, cu modificările și completările ulterioare, și a întreprinderilor sociale de inserție autorizate conform Legii nr.219/2015, cu modificările ulterioare, care trebuie să facă dovada că în perioada de subvenționare de maximum 36 de luni, persoana din grupul vulnerabil a fost angajată pe piața convențională a muncii și a beneficiat de servicii de tranziție între minim 1-3 luni de la angajare la noul loc de muncă sau persoana continuă să lucreze în unitatea protejată sau întreprinderea socială de inserție minim 18 luni fără a beneficia de subvenție sau dacă încetarea raporturilor de muncă a avut loc din motivele prevăzute la art.83 alin.(2).”
+
+## IV. Art.86, alin.(1) se completează după cum urmează:
+
+„Art.86.- (1) Pentru crearea de noi locuri de muncă prin înființarea sau dezvoltarea de întreprinderi mici și mijlocii, unități cooperatiste, întreprinderi individuale, întreprinderi familiale, unități protejate, întreprinderi sociale, inclusiv întreprinderi sociale de inserție, precum și activități independente desfășurate de persoane fizice autorizate se pot acorda, din bugetul asigurărilor pentru șomaj, credite în condiții avantajoase.”
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2) teza a III-a din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI
+
+Titus Corlățean

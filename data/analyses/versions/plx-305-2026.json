@@ -1,7 +1,12 @@
 {
   "slug": "plx-305-2026",
   "billId": "Pl-x 305/2026",
-  "updatedAt": "2026-10-30T09:17:39.141Z",
+  "updatedAt": "2026-11-13T08:56:54.726Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -39,35 +44,60 @@
       "from": "initiator",
       "to": "camera",
       "direction": "la_fel",
-      "headline": "Fără schimbări de fond: proiectul a trecut tacit de Cameră, cu textul inițial neschimbat",
-      "summary": "Camera Deputaților a adoptat proiectul tacit, în forma inițiatorului. S-au schimbat doar formula de adoptare, semnătura și câteva diacritice și puncte. Articolele 1–4 au rămas identice, deci problemele de fond rămân aceleași.",
+      "headline": "Textul nu s-a schimbat: Camera l-a adoptat tacit, în forma inițiatorului",
+      "summary": "Articolele au rămas identice. S-a schimbat doar formula de adoptare: proiectul se consideră adoptat tacit de Camera Deputaților, în forma inițială. Pentru cetățeni și firme riscurile sunt aceleași ca la început.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Unirea e decisă unilateral, fără acordul și fără referendumul Republicii Moldova",
+            "text": "Decide unilateral unirea, fără acordul Republicii Moldova, care nu e parte la act",
             "major": true,
             "article": "art. 2"
           },
           {
-            "text": "Invocă Helsinki, dar omite condiția acordului; poate părea imixtiune în afacerile altui stat",
+            "text": "O lege română nu poate produce juridic unirea; Moldova cere referendum",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Invocă Helsinki, dar omite condiția modificării frontierelor prin acord",
             "major": false,
             "article": "art. 1"
           },
           {
-            "text": "Contradicție: unirea e „decisă”, dar definitivarea ei abia urmează să fie negociată",
+            "text": "Poate fi citită ca imixtiune în afacerile interne ale altui stat",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Unirea e «decisă», dar abia urmează negocieri pentru «definitivarea» ei",
             "major": false,
             "article": "art. 3"
           },
           {
-            "text": "„Abilitează” e folosit impropriu și nu adaugă nicio competență nouă Guvernului",
+            "text": "«Abilitează» Guvernul fără să adauge vreo competență; negocierea ține deja de Guvern",
             "major": false,
             "article": "art. 3"
           },
           {
-            "text": "„Autorități internaționale competente” neidentificate; legea română nu poate obliga state străine",
+            "text": "Formula «de urgență, imediat» nu are conținut verificabil",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "«Autoritățile internaționale competente» nu sunt identificate",
             "major": false,
             "article": "art. 4"
+          },
+          {
+            "text": "Dă sarcini SUA, NATO, ONU și UE; norma nu poate fi executată",
+            "major": false,
+            "article": "art. 4"
+          },
+          {
+            "text": "Frontierele cer lege organică, nu ordinară, conform art. 3 alin. (2) din Constituție",
+            "major": false,
+            "article": null
           }
         ],
         "good": [
@@ -75,18 +105,23 @@
             "text": "Afirmă că frontierele se pot modifica doar pe căi pașnice, diplomatice",
             "major": false,
             "article": "art. 1"
+          },
+          {
+            "text": "Prevede negocieri cu autoritățile de la Chișinău, nu acțiuni unilaterale de forță",
+            "major": false,
+            "article": "art. 3"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 5,
-        "removed": 5,
-        "same": 0.29
+        "added": 3,
+        "removed": 3,
+        "same": 0.57
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:20:13.234Z"
+      "schema": 4,
+      "updatedAt": "2026-11-13T08:56:54.726Z"
     }
   ]
 }

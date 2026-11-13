@@ -1,0 +1,81 @@
+{
+  "slug": "plx-469-2020",
+  "billId": "PL-x 469/2020",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-13T09:09:22.488Z",
+  "inputHash": "952605cfa67f",
+  "riskScore": 3.7,
+  "summary": "Lege de respingere care apără dublarea alocațiilor și o decizie CCR, dar omite să reglementeze efectele juridice din perioada de aplicare a ordonanței și lasă neacoperit un impact bugetar major.",
+  "good": [
+    {
+      "text": "Anulează eșalonarea pe doi ani din ordonanță și permite dublarea imediată a alocațiilor la 300 lei, respectiv 600 lei pentru copiii sub 2 ani sau cu handicap, conform Legii nr. 14/2020.",
+      "article": "Articol unic",
+      "quote": "Articol unic. - Se respinge Ordonanța de urgență a Guvernului nr. 123 din 31 iulie 2020 pentru modificarea art. 3 din Legea nr. 61/1993 privind alocația de stat pentru copii",
+      "weight": 3
+    },
+    {
+      "text": "Pune în aplicare Decizia CCR nr. 593/2020, oprind încercarea Guvernului de a bloca printr-o nouă ordonanță de urgență dublarea alocațiilor stabilită de Parlament de la 1 august 2020.",
+      "article": "Preambul OUG",
+      "quote": "majorarea cuantumului alocației de stat pentru copii, respectiv dublarea cuantumului acésteia acordat în anul 2019 și în condițiile Deciziei Curții Constituționale nr. 593/2020 va produce efecte juridice începând cu data de 1 august 2020",
+      "weight": 3
+    },
+    {
+      "text": "Elimină prevederea din ordonanță care lăsa la discreția Guvernului majorarea alocațiilor prin simplă hotărâre în funcție de buget, păstrând stabilirea cuantumului exclusiv prin lege.",
+      "article": "Art. unic OUG (art. 3 alin. (6))",
+      "quote": "În condițiile în care bugetul de stat poate susține un cuantum mai mare al alocației de stat pentru copii, prin hotărâre a Guvernului se poate stabili un nivel mai ridicat decât cel prevăzut la alin. (5).",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea respinge ordonanța fără să reglementeze efectele produse cât timp a fost în vigoare (art. 115 alin. 8 din Constituție), lăsând neclară plata diferențelor restante către familii.",
+      "article": "Articol unic",
+      "quote": "Se respinge Ordonanța de urgență a Guvernului nr. 123 din 31 iulie 2020 pentru modificarea art. 3 din Legea nr. 61/1993 privind alocația de stat pentru copii, publicată în Monitorul Oficial al României",
+      "weight": 3
+    },
+    {
+      "text": "Respingerea eșalonării generează imediat cheltuieli bugetare de circa 2,3 miliarde lei în 2020 și 6,6 miliarde lei anual, neprevăzute în bugetul de stat și fără indicarea sursei de finanțare.",
+      "article": "Preambul OUG",
+      "quote": "în acest context majorarea alocației de stat pentru copii din luna august 2020 cu un impact bugetar de aproximativ 2,3 miliarde lei care nu poate fi susținut",
+      "weight": 3
+    },
+    {
+      "text": "Ordonanța supusă respingerii amâna dublarea alocațiilor până în iulie 2022, acordând doar câte 20% din diferență în cinci tranșe, contrar voinței Parlamentului și Deciziei CCR nr. 593/2020.",
+      "article": "Art. unic OUG (art. 3 alin. (2)-(4))",
+      "quote": "Incepând cu drepturile bănești aferente lunii august 2020, cuantumul alocației de stat se majorează cu 20 de puncte procentuale, aplicate sumei rezultate din diferența dintre cuantumul prevăzut la alin.(1) și cuantumul acordat anterior",
+      "weight": 2
+    },
+    {
+      "text": "Respingerea integrală a ordonanței elimină și regula utilă prin care fracțiunile în bani rezultate din calculul sau indexarea alocației se rotunjeau la leu în favoarea copilului.",
+      "article": "Art. unic OUG (art. 3 alin. (9))",
+      "quote": "Dacă din calculul cuantumului alocației de stat pentru copii prevăzuț la + % alin. (3) - (5) rezultă fracțiuni în bani, cuantumul se rotunjește la leu în favoarea beneficiarului.",
+      "weight": 2
+    },
+    {
+      "text": "Expunerea de motive afirmă fals că actul nu are impact social, deși tot în document se arată că măsura vizează direct veniturile a 3,6 milioane de copii.",
+      "article": "Expunerea de motive, Secțiunea a 3-a, pct. 3",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Expunerea de motive invocă o excepție de la rotunjire pentru luna iulie 2022 care nu apare formulată ca atare în textul articolului din ordonanță.",
+      "article": "Expunerea de motive, Secțiunea a 2-a, pct. 2",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Completarea articolului unic cu dispoziții tranzitorii care să reglementeze plata diferențelor de alocație pe perioada în care ordonanța a fost în vigoare și păstrarea regulii de rotunjire la leu în favoarea copilului.",
+    "removes": [
+      0,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 7
+  }
+}

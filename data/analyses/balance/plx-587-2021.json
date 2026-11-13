@@ -1,0 +1,82 @@
+{
+  "slug": "plx-587-2021",
+  "billId": "PL-x 587/2021",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-13T09:08:01.172Z",
+  "inputHash": "e173f8fdf443",
+  "riskScore": 4.5,
+  "summary": "Un proiect cu intenția bună de a răsplăti mai mulți sportivi și antrenori, dar redactat neglijent, fără criterii pentru identificarea antrenorilor eligibili și fără estimarea costului bugetar.",
+  "good": [
+    {
+      "text": "Extinde dreptul la rentă viageră pentru sportivii medaliați cu argint și bronz la campionatele mondiale și europene de seniori, oferind sprijin financiar mai multor performeri.",
+      "article": "art. unic pct. 1 și pct. 3",
+      "quote": "o medalie de aur, de argint sau de bronz la campionatele mondiale sau europene de seniori, la campionatele mondiale paralimpice sau campionatele europene paralimpice de seniori",
+      "weight": 2
+    },
+    {
+      "text": "Recunoaște rolul antrenorilor acordându-le dreptul la rentă viageră în procente între 60% și 100%, în funcție de medalia obținută de sportivii pregătiți și de nivelul competiției.",
+      "article": "art. unic pct. 2 și pct. 4",
+      "quote": "- 80% pentru antrenorii ai căror sportivi au obținut prima medalie de argint la jocurile olimpice, la jocurile paralimpice sau pentru prima medalie de aur",
+      "weight": 2
+    },
+    {
+      "text": "Include expres Jocurile Paralimpice și campionatele mondiale și europene paralimpice în condiții de deplină egalitate cu competițiile olimpice, atât pentru sportivi, cât și pentru antrenori.",
+      "article": "art. unic pct. 1, pct. 3 și pct. 4",
+      "quote": "Sportivul de performanță care a obținut o medalie de aur, de argint sau de bronz în probele sportive individuale ori pe echipe din cadrul Jocurilor Olimpice sau Jocurilor Paralimpice",
+      "weight": 2
+    },
+    {
+      "text": "Aplică și antrenorilor regulile de calcul de la art. 64 alin. (5) lit. b) din lege, păstrând un tratament simetric între sportivi și antrenori.",
+      "article": "art. unic pct. 5",
+      "quote": "„b¹) dispozițiile lit.b) se aplică și în cazul antrenorilor;”",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Acordă rentă viageră antrenorilor fără a defini care antrenor este eligibil (de lot, de club, durata pregătirii), riscând plăți multiple pentru aceeași medalie sau decizii arbitrare.",
+      "article": "art. unic pct. 2 și pct. 4",
+      "quote": "„(1²) Beneficiază de rentă viageră și antrenorii sportivilor care au obținut medalii în condițiile alin.(1).”",
+      "weight": 3
+    },
+    {
+      "text": "Nu stabilește momentul și condițiile în care antrenorii pot cere renta (cum ar fi retragerea din activitatea de antrenorat sau documentele doveditoare), lăsând aplicarea legii neclară.",
+      "article": "art. unic pct. 1 și pct. 2",
+      "quote": "are dreptul, la cerere și cu confirmarea Ministerului Tineretului și Sportului, la o rentă viageră.”",
+      "weight": 3
+    },
+    {
+      "text": "Lărgește masiv sfera beneficiarilor de rente viagere pe viață (argint și bronz mondial/european, plus antrenori) fără nicio estimare a numărului de beneficiari și a costului bugetar.",
+      "article": "art. unic pct. 1 - 4",
+      "quote": "- 60% pentru prima medalie de bronz obținută la campionatele mondiale ori europene, la câmpionatele mondiale paralimpice sau campionatele europene paralimpice;”",
+      "weight": 2
+    },
+    {
+      "text": "Permite acordarea rentei pentru probe incluse doar o singură dată în programul olimpic sau paralimpic, chiar dacă proba nu mai avea statut olimpic la data obținerii medaliei.",
+      "article": "art. unic pct. 1",
+      "quote": "la probele sportive individuale sau pe echipe ce au fost incluse cel puțin o dată în programul Jocurilor Olimpice sau al Jocurilor Paralimpice are dreptul",
+      "weight": 1
+    },
+    {
+      "text": "Eroare de tehnică legislativă: textul noii litere a¹) începe direct cu liniuța de la 100%, fără marcarea literei „a¹)” și fără ghilimelele de deschidere.",
+      "article": "art. unic pct. 4",
+      "quote": "- 100% pentru antrenorii ai căror sportivi au obținut prima medalie de aur la jocurile olimpice sau la jocurile paralimpice;",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Definirea clară a criteriilor de eligibilitate pentru antrenori (calitatea oficială la lot/club, perioada minimă de pregătire, condiția retragerii din activitate și regula în cazul mai multor antrenori) și corectarea erorii de redactare de la lit. a¹).",
+    "removes": [
+      0,
+      1,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

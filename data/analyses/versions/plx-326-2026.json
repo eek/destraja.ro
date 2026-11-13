@@ -1,7 +1,12 @@
 {
   "slug": "plx-326-2026",
   "billId": "Pl-x 326/2026",
-  "updatedAt": "2026-10-30T09:18:49.361Z",
+  "updatedAt": "2026-11-13T08:57:46.424Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -39,43 +44,48 @@
       "from": "initiator",
       "to": "camera",
       "direction": "la_fel",
-      "headline": "Fără schimbări de fond: Camera a adoptat tacit textul inițiatorului, cu aceleași patru articole",
-      "summary": "Acum proiectul are exact conținutul inițial. S-au schimbat doar antetul, formula de adoptare și semnătura, pentru că, prin depășirea termenului, Camera l-a adoptat tacit. Riscurile pentru cetățeni și firme rămân aceleași.",
+      "headline": "Camera a adoptat tacit forma inițiatorului; schimbările sunt doar de formă, fără impact de fond",
+      "summary": "Textul de fond este același. S-au schimbat doar antetul, formula de adoptare (proiectul se consideră adoptat tacit de Cameră, în forma inițială), semnătura și o liniuță din art. 3. Riscurile pentru cetățeni și firme rămân cele de la început.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "ANAD, agenție de dopaj, coordonează fără mandat, acces la date, personal sau buget",
-            "major": true,
-            "article": "art. 2"
-          },
-          {
-            "text": "Nicio fișă de impact bugetar pentru noile atribuții ale ANAD",
-            "major": true,
-            "article": "art. 2"
-          },
-          {
-            "text": "Autorități nenumite trebuie să adopte acte pentru dreptul penal, rezervat legii organice",
+            "text": "Autorități nenumite trebuie să adopte acte administrative în materii penale ce cer lege organică",
             "major": true,
             "article": "art. 3"
           },
           {
-            "text": "Nu e desemnată autoritatea de reglementare a pariurilor cerută de art. 9 (ONJN)",
+            "text": "ANAD, agenție antidoping, devine coordonator și platformă națională, deși mandatul ei e dopajul",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "ANAD nu primește acces explicit la datele ONJN, ale operatorilor de pariuri sau ale Poliției",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Nu se prevăd personal, buget sau fișă de impact pentru noile atribuții ANAD",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Nu se desemnează autoritatea de reglementare a pariurilor cerută de Convenție (ONJN)",
             "major": true,
             "article": null
           },
           {
-            "text": "Neclar cine primește raportările despre pariuri suspecte și combate pariurile ilegale",
+            "text": "Neclar cine primește raportările de pariuri suspecte și cine combate pariurile ilegale",
             "major": true,
             "article": null
           },
           {
-            "text": "Fără rezerve: acceptă integral jurisdicția penală (art. 19), fără analiză în expunerea de motive",
+            "text": "Fără rezerve: se acceptă integral regulile de jurisdicție penală, fără analiză în motivare",
             "major": true,
             "article": "art. 4"
           },
           {
-            "text": "Termenul de 90 de zile nu are nicio consecință dacă e încălcat",
+            "text": "Termenul de 90 de zile pentru actele de aplicare nu are nicio consecință",
             "major": false,
             "article": "art. 3"
           },
@@ -83,6 +93,11 @@
             "text": "Nicio declarație interpretativă privind compatibilitatea cu dreptul Uniunii Europene",
             "major": false,
             "article": "art. 4"
+          },
+          {
+            "text": "Proiectul a trecut tacit de Cameră, fără dezbatere și fără corectarea problemelor",
+            "major": false,
+            "article": null
           }
         ],
         "good": [
@@ -92,12 +107,12 @@
             "article": "art. 1"
           },
           {
-            "text": "Există un coordonator național desemnat explicit pentru politici și platforma națională",
+            "text": "Se desemnează explicit o autoritate de coordonare și o platformă națională",
             "major": false,
             "article": "art. 2"
           },
           {
-            "text": "Fixează un termen concret pentru adaptarea legislației naționale",
+            "text": "Se stabilește un termen concret pentru adoptarea actelor de aplicare",
             "major": false,
             "article": "art. 3"
           }
@@ -110,8 +125,8 @@
         "same": 0.5
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:21:27.693Z"
+      "schema": 4,
+      "updatedAt": "2026-11-13T08:57:46.424Z"
     }
   ]
 }

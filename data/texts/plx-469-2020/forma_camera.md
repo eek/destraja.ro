@@ -1,0 +1,17 @@
+PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+LEGE
+
+privind respingerea Ordonanței de urgență a Guvernului nr. 123/2020 pentru modificarea art. 3 din Legea nr. 61/1993 privind alocația de stat pentru copii
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Articol unic. - Se respinge Ordonanța de urgență a Guvernului nr. 123 din 31 iulie 2020 pentru modificarea art. 3 din Legea nr. 61/1993 privind alocația de stat pentru copii, publicată în Monitorul Oficial al României, Partea I, nr. 688 din 31 iulie 2020.
+
+Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 19 august 2020, cu respectarea prevederilor art. 76 alin. (1) din Constituția României, republicată.
+
+## FLORIN IORDACHE
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR

@@ -1,0 +1,83 @@
+{
+  "slug": "plx-516-2021",
+  "billId": "PL-x 516/2021",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-11-13T09:07:29.969Z",
+  "inputHash": "8cc2e5eee150",
+  "riskScore": 3.5,
+  "summary": "Un proiect util care scurtează păsuirea instituțiilor datoare, dar redactat neglijent, cu termene fără dată de început și confuzii procedurale.",
+  "good": [
+    {
+      "text": "Reduce de la 6 luni la o lună termenul de păsuire acordat instituțiilor publice fără fonduri după primirea somației, accelerând recuperarea datoriilor de către cetățeni și firme.",
+      "article": "art. unic pct. 3 (art. 2 alin. (1))",
+      "quote": "Dacă executarea creanței stabilite prin titluri executorii nu poate continua din cauza lipsei de fonduri, instituția debitoare este obligată ca, în termen de o lună să facă demersurile necesare pentru a-și îndeplini obligația de plată.",
+      "weight": 3
+    },
+    {
+      "text": "Scutește cetățenii și firmele de plata taxei de timbru atunci când cer încuviințarea executării silite împotriva instituțiilor statului care nu își plătesc datoriile.",
+      "article": "art. unic pct. 6 (art. 7 alin. (2))",
+      "quote": "Cererile de încuviințare a executării formulate împotriva instituțiilor și autorităților publice sunt scutite de plata taxei de timbru.",
+      "weight": 2
+    },
+    {
+      "text": "Obligă instituțiile debitoare să comunice executorului judecătoresc lista bunurilor și a veniturilor care pot fi urmărite silit, crescând transparența în procedura de executare.",
+      "article": "art. unic pct. 4 (art. 3 alin. (2))",
+      "quote": "La solicitarea organului de executare, instituția debitoare, prin ordonatorul principal de credite bugetare, are obligația de a prezenta lista bunurilor și a veniturilor urmăribile.",
+      "weight": 2
+    },
+    {
+      "text": "Actualizează terminologia juridică prin referirea la „hotărâre judecătorească definitivă”, punând textul în acord cu actualul Cod de procedură civilă.",
+      "article": "art. unic pct. 5 (art. 6 alin. (2))",
+      "quote": "în cazurile în care obligația de plată este stabilită prin hotărâre judecătorească definitivă, instituția debitoare poate solicita instanței care a dat această hotărâre luarea măsurilor prevăzute la alin. (1)",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Impune un termen de 2 luni înainte de executarea silită fără să precizeze de când începe să curgă, generând blocaje și litigii privind momentul în care creditorul poate apela la executor.",
+      "article": "art. unic pct. 1 (art. 1 alin. (3))",
+      "quote": "Instituția debitoare este obligată ca, în termen de 2 luni, să facă demersurile necesare pentru a-și îndeplini obligația de plată.",
+      "weight": 3
+    },
+    {
+      "text": "Condiționează începerea executării silite de trecerea termenului de 2 luni pentru demersuri de plată, fără să suspende prescripția dreptului creditorului în acest interval.",
+      "article": "art. unic pct. 2 (art. 1¹ alin. (1))",
+      "quote": "Neîndeplinirea obligațiilor de plată în condițiile și termenul prevăzute de art.(1), poate determina executarea silită potrivit Codului de procedură civilă, la cererea creditorului.",
+      "weight": 2
+    },
+    {
+      "text": "Prevede eronat că termenul de o lună de după somație suspendă prescripția executării silite (deja întreruptă prin cererea de executare), în loc să reglementeze suspendarea executării.",
+      "article": "art. unic pct. 3 (art. 2 alin. (2))",
+      "quote": "Termenul curge de la data la care instituția debitoare a primit somația de plată comunicată de organul de executare, la cererea creditorului și suspendă cursul prescripției dreptului de a obține executarea silită.",
+      "weight": 2
+    },
+    {
+      "text": "Pune obligația predării listei bunurilor urmăribile exclusiv în sarcina ordonatorului principal de credite (de exemplu, ministrul), fără termen de răspuns sau sancțiune pentru refuz.",
+      "article": "art. unic pct. 4 (art. 3 alin. (2))",
+      "quote": "La solicitarea organului de executare, instituția debitoare, prin ordonatorul principal de credite bugetare, are obligația de a prezenta lista bunurilor și a veniturilor urmăribile.",
+      "weight": 2
+    },
+    {
+      "text": "Menține privilegiul instituțiilor debitoare de a contesta și suspenda executarea silită fără taxă de timbru și fără cauțiune, în timp ce creditorul este scutit doar la încuviințare.",
+      "article": "art. unic pct. 6 (art. 7 alin. (1))",
+      "quote": "formulate de instituțiile și autoritățile publice în cadrul procedurii de executare silită a creanțelor stabilite prin titluri executorii în sarcina acestora sunt scutite de plata taxelor de timbru și a sumelor stabilite cu titlu de cauțiune.",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Precizarea datei de început a termenului de 2 luni cu suspendarea prescripției pe durata lui, corectarea suspendării executării la art. 2 alin. (2) și impunerea unui termen direct instituției debitoare pentru comunicarea listei bunurilor la art. 3 alin. (2).",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

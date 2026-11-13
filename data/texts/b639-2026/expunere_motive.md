@@ -1,0 +1,131 @@
+# 1 EXPUNERE DE MOTIVE
+
+la proiectul de Lege privind instituirea identificării alternative (non-digitală) la accesarea serviciilor digitale publice de pe teritoriul României
+
+## 1. MOTIVUL EMITERII ACTULUI NORMATIV
+
+## 1.1. Descrierea situației actuale și a cerințelor care impun elaborarea actului normativ
+
+România se află într-un proces accentuat de digitalizare a administrației publice, facilitat de investițiile în infrastructura TIC și de implementarea Platformei Naționale de Interoperabilitate (Legea nr. 242/2022). Cu toate acestea, accelerația procesului de digitalizare riscă să creeze o prăpastie socială și administrativă pentru o categorie semnificativă de populație.
+
+Conform datelor statistice privind Indicele Economiei și Societății Digitale (DESI), o parte considerabilă a populației României întâmpină dificultăți majore în utilizarea instrumentelor digitale complexe. Vulnerabilitățile derivă din:
+
+\- Dinamica demografică și îmbătrânirea populației, în special în mediul rural, unde seniorii nu dețin competențe digitale sau dispositive inteligente;
+
+\- Barierele de accesibilitate financiară (sărăcia digitală și energetică) și fizică/neurologică pentru persoanele cu dizabilități;
+
+\- Libertatea de conștiință și convingerile personale/religioase ale unor cetățeni care refuză prelucrarea datelor biometrice sau stocarea datelor de identitate pe cipuri electronice;
+
+\- Lipsa de reziliență cibernetică în caz de avarii, atacuri cibernetice sau întreruperi de energie electrică.
+
+Practica recentă a arătat o tendință neconstituțională a unor instituții publice de a condiționa accesul la servicii administrative de crearea obligatorie de conturi online, utilizarea unor aplicații mobile specifice sau deținerea unui mijloc de identificare electronică național (ROeID) sau european.
+
+## 1.2. Schimbări preconizate
+
+Prezentul proiect de lege garantează legal dreptul la opțiune și libertatea cetățeanului de a alege canalul de interacțiune cu statul (digital sau non-digital/analogic), fără a fi discriminat sau dezavantajat. Se instituie patru canale obligatorii de acces alternativ:
+
+1\. Ghișeul fizic clasic (legitimare cu act de identitate pe suport fizic, fără cip/biometrie, depunere pe hârtie);
+
+2\. Corespondența poștală și curieratul (transmiterea/primirea fizică a actelor administrative);
+
+3\. Suportul telefonic dedicat (consiliere, informații și programări fără aplicații mobile);
+
+4\. Plățile în numerar la casierie sau parteneri autorizați (Poșta Română).
+
+De asemenea, proiectul reglementează „Canalul Asistat”, în cadrul căruia funcționarul public sprijină cetățeanul în completarea și introducerea cererii în sistemele interne, folosind exclusiv credențialele de serviciu, fără a impune crearea de conturi personale pentru solicitant.
+
+## 1.3. Compatibilitatea cu dreptul Uniunii Europene
+
+Proiectul respectă strict Regulamentul (UE) 2024/1183 de modificare a Regulamentului (UE) nr. 910/2014. (eIDAS 2.0). Articolul 5a alin. (15) din Regulamentul (UE) nr. 910/2014 consacră expres caracterul VOLUNTAR al utilizării Portofelului European pentru Identitatea Digitală (EUDI Wallet). Actul normativ național asigură că refuzul sau lipsa portofelului digital ori a mijloacelor de autentificare electronică nu poate duce la restrângerea accesului la serviciile publice.
+
+## 2. IMPACTUL SOCIO-ECONOMIC AL PROIECTULUI DE LEGE
+
+## 2.1. Impactul asupra mediului de afaceri, pieței muncii și incluziunii sociale
+
+Proiectul protejează categoriile vulnerabile de riscul excluziunii sociale și birocratice, garantând accesul egal al persoanelor vârstnice, din medii dezavantajate sau cu dizabilități. Totodată, se asigură egalitatea de tratament pentru operatorii economici privați care exercită servicii de interes public.
+
+## 2.2. Impactul asupra drepturilor și libertăților fundamentale
+
+Propunerea legislativă concretizează garanțiile constituționale privind egalitatea în drepturi (art. 16), viața intimă și privată (art. 26) și libertatea conștiinței (art. 29 din Constituția României), protejând totodată atributele persoanei fizice reglementate de Codul Civil (Legea nr. 287/2009).
+
+## 3. IMPACTUL FINANCIAR ASUPRA BUGETULUI GENERAL CONSOLIDAT
+
+## 3.1. Estimarea impactului bugetar
+
+Proiectul de lege NU necesită crearea unor structuri sau instituții noi, ci utilizează infrastructura și resursele umane existente în cadrul autorităților publice.
+
+## 3.2. Sursele de acoperire
+
+Finanțarea măsurilor de organizare a canalelor alternative, instruire a personalului și logistică se asigură din:
+
+\- Bugetele anuale aprobate ale autorităților și instituțiilor publice;
+
+\- Fonduri externe nerambursabile (Programul Educație și Ocupare, PNRR, PEO - axe destinate incluziunii sociale și digitalizării administrative);
+
+\- Programe guvernamentale de sprijin tehnic și financiar destinate autorităților locale.
+
+## 4. EFECTELE PROIECTULUI DE LEGE ASUPRA SISTEMULUI JURIDIC
+
+## 4.1. Corelarea cu actele normative de nivel superior
+
+Proiectul este corelat cu Legea nr. 242/2022 privind interoperabilitatea (art. 7 impunând preluarea datelor din oficiu de către autorități, interzicând solicitarea dosarului cu șină sau a copiilor de la cetățeni), cu OG nr. 2/2001 privind regimul contravențiilor (art. 9) și cu Legea contenciosului administrativ nr. 554/2004 (art. 8).
+
+## 4.2. Evitarea paralelismelor și suprareglementării
+
+În acord cu exigențele Consiliului Legislativ (Legea nr. 24/2000), actul normativ reglementează sintetic doar normele primare și cadrul de principiu, lăsând detaliile tehnice de organizare în seama Normelor Metodologice ce vor fi aprobate prin Hotărâre de Guvern în termen de 60 de zile (art. 11).
+
+## 5. CONSULTĂRILE EFECTUATE ÎN VEDEREA ELABORĂRII PROIECTULUI
+
+Proiectul a fost elaborat având în vedere propunerile societății civile, ale organizațiilor de protecție a drepturilor omului și ale asociațiilor de seniori și persoane cu dizabilități. Proiectul va fi supus avizării Consiliului Economic și Social (CES) și Consiliului Legislativ.
+
+## INITIATORI
+
+Senator Vela Gheorghe
+
+Deputat Kroncsis Sebastian-Andrei
+
+Deputat Gavrilă Anamaria/
+
+Deputat Popa Andrei Cristian
+
+Deputat Cernit Maria
+
+Deputat Irimia Ancuța-Florina
+
+Deputat Gavrilă Bianca-Eugenia
+
+<table>
+<tbody>
+<tr><td>Nr. crt.</td><td>Nume și Prenume</td><td>Grup parlamentar</td><td rowspan="7">Somnătva</td></tr>
+<tr><td></td><td>ANAMARIA GAVRICA</td><td>TOT</td></tr>
+<tr><td></td><td>CRISTIAN-ALEXANDRU POPA</td><td>POT</td></tr>
+<tr><td></td><td>BANCA-EUGENIA GAVRICA</td><td>POT</td></tr>
+<tr><td></td><td>MARIA OERIT</td><td>POT</td></tr>
+<tr><td></td><td>KroncsisSebostion</td><td>POT</td></tr>
+<tr><td></td><td>VELA GEORGHE</td><td>POT</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+Privind instituirea identificării alternative (non-Propunere legislativă .digitală).la accesarea serviciilor digitale publice de pe teritoriul României
+
+| Nr. crt. | Nume și Prenume | Grup parlamentar | Semnătira |
+| --- | --- | --- | --- |
+| 1 | ANAMARIA GAVRICA | TOT |  |
+| 2 | CRISTIAN-ALEKANDRU POPA | POT |  |
+| 3 | BANCA-EUGENIA GAVRICA | POT |  |
+| 4 | MARCHA OZETT | POT |  |
+| 5 | KRONCSISSEBOSION | POT |  |
+| 6 | VELA GEORGE | POT |  |
+| 7 | ANCUTA-FLORINA IRIMIA | POT | Digitally signed byAncuta-Florina IrimiaDate: 2026.11.11 23:28:20 +02'00' |

@@ -3,60 +3,73 @@
   "billId": "B636/2026",
   "schema": 1,
   "model": "agy",
-  "updatedAt": "2026-11-12T10:20:26.746Z",
-  "inputHash": "d5e4b57cd3a4",
-  "riskScore": 2.5,
-  "summary": "O măsură binevenită care elimină suprataxarea muncii part-time și birocrația aferentă, căreia îi lipsește doar precizarea lunii de la care se aplică noul calcul salarial.",
+  "updatedAt": "2026-11-13T09:05:04.737Z",
+  "inputHash": "bb967dcfcf80",
+  "riskScore": 2.7,
+  "summary": "O măsură bună de eliminare a suprataxării contractelor part-time și a birocrației aferente, căreia îi lipsesc doar norma tranzitorie de aplicare și fișa financiară.",
   "good": [
     {
-      "text": "Elimină suprataxarea cu pensii (CAS) a contractelor part-time, revenind la plata contribuției strict proporțional cu salariul efectiv lucrat, nu la nivelul salariului minim.",
+      "text": "Elimină suprataxarea la pensii (CAS) pentru contractele cu timp parțial, astfel că plata se va face doar pentru venitul efectiv lucrat, nu la nivelul salariului minim brut.",
       "article": "art. unic pct. 1",
-      "quote": "cu modificările și completările ulterioare, se modifică și se completează după cum urmează : 1. La articolul 146. alineatele (5⁶) - (5⁹) se abrogă.",
+      "quote": null,
       "weight": 3
     },
     {
-      "text": "Elimină obligația plății contribuției de sănătate (CASS) la nivelul salariului minim pentru angajații cu timp parțial, reducând costul muncii la timpul efectiv lucrat.",
+      "text": "Elimină suprataxarea la sănătate (CASS) pentru munca cu timp parțial, revenindu-se la taxarea proporțională cu orele lucrate și încurajând angajarea legală cu fracțiune de normă.",
       "article": "art. unic pct. 3",
-      "quote": "Contribuția se plătește până la data de 25 a lunii următoare celei pentru care se plătesc veniturile.” 3. La articolul 168, alineatul (6¹) se abrogă.",
+      "quote": null,
       "weight": 3
     },
     {
-      "text": "Debirocratizează firmele și angajații: elevii, studenții, pensionarii sau cei cu mai multe joburi nu mai trebuie să depună lunar acte și declarații pentru a scăpa de suprataxare.",
+      "text": "Scutește elevii, studenții, pensionarii și salariații cu mai multe contracte de depunerea lunară a declarațiilor și adeverințelor necesare până acum pentru exceptarea de la suprataxare.",
       "article": "art. unic pct. 1",
       "quote": null,
       "weight": 2
     },
     {
-      "text": "Actualizează regula de calcul CAS pentru salariații care își plătesc singuri contribuțiile (angajatori străini), eliminând trimiterea la pragul minim abrogat.",
+      "text": "Corelează textul legii cu eliminarea suprataxării și păstrează termenul clar de plată a contribuțiilor până la data de 25 a lunii următoare celei pentru care se plătesc salariile.",
       "article": "art. unic pct. 2",
-      "quote": "„(8) Calculul contribuției de asigurări sociale datorate de persoanele prevăzute la alin. (2) se realizează de către acestea conform prevederilor alin. (5) și (7), după caz.",
+      "quote": "Calculul contribuției de asigurări sociale datorate de persoanele prevăzute la alin. (2) se realizează de către acestea conform prevederilor alin. (5) și (7), după caz.",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Lipsește precizarea lunii din care se aplică noul calcul salarial, ceea ce poate crea confuzii contabile dacă legea intră în vigoare la mijlocul unei luni.",
+      "text": "Nu conține fișa financiară și nu indică sursa de acoperire a scăderii încasărilor bugetare pe termen scurt, obligație prevăzută de art. 138 alin. (5) din Constituție.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu precizează cu veniturile cărei luni începe aplicarea noului calcul, ceea ce creează neclarități contabile dacă legea intră în vigoare la mijlocul unei luni salariale.",
       "article": "art. unic",
       "quote": null,
       "weight": 2
     },
     {
-      "text": "Scăderea pe termen scurt a încasărilor bugetare din contribuții nu este calculată concret și nu sunt indicate surse de acoperire, deși inițiatorii o recunosc.",
-      "article": "Expunerea de motive",
+      "text": "Elimină orice prag minim chiar și pentru contracte de câteva ore pe lună, fără măsuri împotriva mascării muncii la negru și cu diminuarea contribuției la pensie a salariatului.",
+      "article": "art. unic pct. 1 și 3",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Argumentarea se bazează pe date parțiale din 2022, fără un studiu de impact actualizat care să estimeze câți salariați și ce sume bugetare sunt afectate în prezent.",
+      "article": "expunerea de motive",
       "quote": null,
       "weight": 1
     }
   ],
   "fix": {
-    "text": "Introducerea unui articol care să prevadă expres că modificările se aplică începând cu veniturile aferente lunii următoare publicării legii în Monitorul Oficial.",
+    "text": "Introducerea unui articol tranzitoriu care să aplice măsura începând cu veniturile lunii următoare publicării și atașarea fișei financiare cu impactul bugetar estimat.",
     "removes": [
-      0
+      0,
+      1
     ],
     "levelAfter": "green",
-    "scoreAfter": 0.5
+    "scoreAfter": 1
   },
   "quotes": {
-    "checked": 4,
-    "verified": 3
+    "checked": 5,
+    "verified": 1
   }
 }

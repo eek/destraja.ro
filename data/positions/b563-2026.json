@@ -1,10 +1,10 @@
 {
   "slug": "b563-2026",
   "billId": "B563/2026",
-  "checkedAt": "2026-11-12T10:49:05.666Z",
+  "checkedAt": "2026-11-13T09:33:56.403Z",
   "models": {
-    "agy": "error: timeout după 615s",
-    "claude": "error: You've hit your weekly limit · resets 7pm (Europe/Bucharest)",
+    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
+    "claude": "ok",
     "codex": "ok"
   },
   "positions": [
@@ -730,6 +730,32 @@
   ],
   "pending": [
     {
+      "issuer": "Uniunea Națională a Barourilor din România (UNBR)",
+      "stance": "sustinere",
+      "pageUrl": "https://unbr.ro/comunicat-de-presa-unbr-raspunde-romanian-business-leaders",
+      "documentUrl": "https://unbr.ro/wp-content/uploads/2026/10/20.10.1026_Raspuns-RBL.pdf",
+      "quote": "Proiectul nu interzice platformele LegalTech sau utilizarea inteligenței artificiale.",
+      "claimedSignatories": null,
+      "foundBy": [
+        "claude"
+      ],
+      "reason": "nici pagina, nici documentul nu pomenesc proiectul",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "issuer": "S.P.R. „Diamantul”",
+      "stance": "modificare",
+      "pageUrl": "https://sprd.ro/proiectul-avocatilor-b563-2026-s-p-r-diamantul-cere-ca-sindicatele-sa-si-poata-apara-in-continuare-membrii",
+      "documentUrl": "https://sprd.ro/wp-content/uploads/2026/11/340-EP-observatii-SPR-Diamantul-B563-2026.pdf",
+      "quote": "Cerem ca ajutorul juridic gratuit, dat în afara unei activități organizate și plătite, să nu poată fi tratat ca infracțiune.",
+      "claimedSignatories": null,
+      "foundBy": [
+        "claude"
+      ],
+      "reason": "citatul nu arată poziția „modificare”",
+      "checkedAt": "2026-11-13"
+    },
+    {
       "issuer": "Uniunea Națională a Barourilor din România (UNBR) – Comisia Permanentă",
       "stance": "sustinere",
       "pageUrl": "https://unbr.ro/comunicat-de-presa-cetateanul-trebuie-sa-stie-cine-ii-ofera-servicii-juridice-si-cine-raspunde-pentru-ele-proiectul-de-actualizare-a-legii-profesiei-de-avocat-depus-in-parlament",
@@ -793,19 +819,6 @@
       ],
       "reason": "citatul nu arată poziția „sustinere”",
       "checkedAt": "2026-10-31"
-    },
-    {
-      "issuer": "Uniunea Națională a Barourilor din România (UNBR)",
-      "stance": "sustinere",
-      "pageUrl": "https://unbr.ro/comunicat-de-presa-unbr-raspunde-romanian-business-leaders",
-      "documentUrl": "https://unbr.ro/wp-content/uploads/2026/10/20.10.1026_Raspuns-RBL.pdf",
-      "quote": "UNBR susține analiza efectelor asupra concurenței și examinarea observațiilor formulate în cadrul dezbaterii parlamentare",
-      "claimedSignatories": null,
-      "foundBy": [
-        "claude"
-      ],
-      "reason": "nici pagina, nici documentul nu pomenesc proiectul",
-      "checkedAt": "2026-10-29"
     },
     {
       "issuer": "Uniunea Națională a Barourilor din România (UNBR)",

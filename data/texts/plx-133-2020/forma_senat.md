@@ -1,0 +1,23 @@
+# PARLAMENTUL ROMÂNIEI SENAT
+
+LEGE pentru plafonarea temporară a prețului medicamentelor și a alimentelor de strictă necesitate
+
+## Senatul adoptă prezentul proiect de lege
+
+Art.1.- Se plafonează prețurile în mod specific asupra acelor produse care au legatură cu starea de urgență și anume medicamentele OTC incluse în protocolul de tratament al infecției cu virusul SARS-Cov-2 aprobat prin Ordinul Ministerului Sănătății nr.487/2020, cu modificările ulterioare, respectiv dispozitivele medicale de protecție, materiale sanitare, precum și unele suplimente alimentare, după cum urmează: la prețul de producție/import adaosul comercial maxim pe lanțul de distribuție și vânzare cu amănuntul poate fi de maximum 10%, pe toată perioada stării de urgență și pe o perioadă de cel mult 90 de zile de la data încetării stării de urgență.
+
+Art.2.- Se plafonează prețurile la raft ale alimentelor care fac parte din coșul minim de consum prevăzut prin Ordonanța de Urgență a Guvernului nr.217/2000 privind aprobarea coșului minim de consum lunar, aprobată prin Legea nr.554/2001, cu modificările ulterioare, după cum urmează: la prețurile de livrare ale producătorului, adaosul maxim pe întreg lanțul de distribuție și vânzare cu amănuntul va fi de maximum 10%, pe toată perioada stării de urgență și pe o perioadă de cel mult 90 de zile de la data încetării stării de urgență.
+
+Art.3.-Nerespectarea prevederilor art.1 și 2 constituie contravenție și se sancționează cu amendă începând de la 5 milioane lei, dar nu mai mult de 4% din cifra de afaceri.
+
+Art.4.-Constatarea contravențiilor și aplicarea sancțiunilor prevăzute la art.3 se completează cu dispozițiile Ordonanței Guvernului nr.2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr.180/2002, cu modificările și completările ulterioare, și se vor face de către Consiliul Concurenței, în conformitate cu prevederile art.4 alin.(4) din Legea concurenței nr.21/1996, republicată, cu modificările și completările ulterioare.
+
+Art.5.- Normele metodologice de aplicare a sancțiunilor vor fi aprobate prin ordin comun al ministrului economiei, energiei și mediului de afaceri și al ministrului finanțelor publice, în termen de 10 zile de la intrarea în vigoare a prezentei legi.
+
+Art.6.- Prezenta lege se aplică pe întreaga perioadă a decretării stării de urgență, cât și 30 de zile de la încetarea stării de urgență.
+
+Acest proiect de lege a fost adoptat de Senat în ședința 31 martie 2020, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+Titus Corlățean

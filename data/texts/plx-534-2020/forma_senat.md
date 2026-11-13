@@ -1,0 +1,53 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+## privind înființarea Programului „Inovare și Producție pentru Criza Coronavirus”
+
+Senatul adoptă prezentul proiect de lege
+
+Art.1.- Ministerul Economiei, Energiei și Mediului de Afaceri implementează în perioada stării de urgență instituite prin Decretul nr.195/2020 și în anul ulterior, Programul privind stimularea inovării și producției pentru combaterea efectelor pe care le are răspândirea coronavirusului SARS-CoV-2, denumit în continuare Programul „Inovare și Producție pentru Criza Coronavirus”, sau Programul.
+
+Art.2.- Prin Programul „Inovare și Producție pentru Criza Coronavirus” se acordă un ajutor de minimis propunerilor de luptă împotriva pandemiei COVID-19, care prezintă soluții inovatoare, fie ele tehnologice, organizatorice, manageriale sau de adaptare a proceselor industriale, care ar putea fi direct implementate pentru a testa, trata și proteja populația, a sprijini îngrijirea pacienților și protecția personalului medical, a monitoriza evoluția bolii la nivel individual și social, a contribui la ușurarea constrângerilor din perioada de criză, de exemplu prin soluții digitale, sau orice alte aspecte legate de pandemie și efectele ei.
+
+Art.3.- Pot beneficia de Program universitățile acreditate și institutele de cercetare-dezvoltare astfel cum sunt definite de Ordonanța 57/2002 privind cercetarea științifică și dezvoltarea tehnologică, fundațiile și asociațiile constituite conform Ordonanței 26/2000 cu privire la asociații și fundații, și întreprinderile mici și mijlocii astfel cum sunt definite de Legea nr. 346/2004.
+
+Art.4.- Pentru Program se prevede un buget de 15.000.000 lei, în vederea finanțării propunerilor de interes. Ajutorul de minimis este în sumă de maxim 150.000 lei/beneficiar.
+
+Art.5.- Sumele necesare implementării Programului se asigură de la bugetul de stat în procent de 100% din bugetul Ministerului Economiei, Energiei și Mediului de Afaceri, în cadrul unei scheme de ajutor de minimis asociate acestui program.
+
+Art.6.- În procesul de implementare a Programului, se utilizează mecanismul rambursării cheltuielilor efectuate și cel al decontării cererilor de plată.
+
+Art.7.- În cadrul Programului, se poate acorda, la solicitarea beneficiarului, un avans de până la 50% din totalul cheltuielilor eligibile aprobate.
+
+Art.8.- Propuneri de interes includ, dar nu sunt limitate la:
+
+a) Producția de echipamente de protecție sau tratamente, cum ar fi măști chirurgicale, mănuși, combinezoane, ventilatoare, kituri sau aparate de testare, medicamente, vaccinuri, soluții de decontaminare;
+
+b) Managementul distanței de siguranță între indivizi;
+
+c) Automatizarea sarcinilor pentru curățarea și dezinfectarea echipamentelor sau a încăperilor;
+
+d) Facilitarea desfășurării spitalelor de campanie;
+
+e) Managementul crizelor, structurarea /modularizarea lanțurilor de îngrijire;
+
+f) Producerea de noi soluții de decontaminare pentru toate tipurile de suprafețe, pentru echipamente mici și mari, pentru spații de locuit;
+
+g) Detectarea virusului în mediu;
+
+h) Soluții digitale pentru nevoile persoanelor aflate în carantină și auto-izolare, cum ar fi consilierea psihologică, acordarea de servicii sociale de la distanță, optimizarea activității echipelor de voluntari;
+
+i) Diagnostic rapid și proceduri de screening masiv;
+
+j) Managementul impactului psihologic individual și social.
+
+Art.9.- Etapele necesare în vederea înregistrării pentru obținerea ajutorului de minimis precum și măsurile de natura ajutorului de minimis vor fi implementate prin intermediul unei scheme de ajutor de minimis, care se aprobă prin ordin al ministrului pentru Economie, Energie și Mediul de Afaceri și se derulează cu respectarea criteriilor stabilite de normele europene și de legislația națională în domeniu.
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2) teza a III-a din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI
+
+Robert-Marius Cazanciuc

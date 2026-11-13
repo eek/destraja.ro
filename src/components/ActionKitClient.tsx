@@ -11,7 +11,7 @@ import {
   UserCheck,
 } from 'lucide-react';
 import type { EnrichedBill, InstitutionalEmail } from '@/lib/types';
-import { MODELS } from '@/lib/site';
+import { MODELS, modelFullName } from '@/lib/site';
 import { fmt } from '@/lib/format';
 import { trackAttrs } from '@/lib/analytics';
 import ReportIssue from '@/components/bills/ReportIssue';
@@ -597,7 +597,7 @@ export default function ActionKitClient({ bill, press }: ActionKitClientProps) {
                     </span>
                   </div>
                   <div className="text-[11px] text-muted truncate mt-0.5 hidden sm:block">
-                    {meta.fullName}
+                    {modelFullName(key, m?.modelId)}
                   </div>
                 </button>
               );
@@ -609,7 +609,7 @@ export default function ActionKitClient({ bill, press }: ActionKitClientProps) {
             <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-line">
               <div>
                 <div className="font-semibold text-base">
-                  {MODELS.find((x) => x.key === activeAi)!.fullName}
+                  {modelFullName(activeAi, currentModel?.modelId)}
                 </div>
                 <div className="text-xs text-muted">
                   {MODELS.find((x) => x.key === activeAi)!.role}

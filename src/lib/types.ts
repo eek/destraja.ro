@@ -35,6 +35,8 @@ export interface SenatFormKit {
 export interface AiVerdict {
   model: 'agy' | 'claude' | 'codex';
   modelName: string;
+  /** Versiunea lui Gemini (de exemplu gemini-4-hydrogen-high); lipsește la analizele de dinainte de 13 noiembrie 2026. */
+  modelId?: string;
   cliCommand: string;
   status: 'ok' | 'error';
   riskScore: number;
@@ -435,6 +437,8 @@ export interface BalanceItem {
 export interface BillBalance {
   slug: string;
   model: string;
+  /** Versiunea lui Gemini, când model e agy; lipsește la listele de dinainte de 13 noiembrie 2026 (Argon). */
+  modelId?: string;
   updatedAt: string;
   summary: string | null;
   good: BalanceItem[];

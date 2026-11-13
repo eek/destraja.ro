@@ -4,9 +4,9 @@ import { summarize } from '@/lib/balance-summary';
 import { BalanceBar, balanceVerdict } from './BalanceBlock';
 import { RISK } from '@/lib/risk';
 import { fmt } from '@/lib/format';
+import { modelFullName } from '@/lib/site';
 
 const SHOWN = 3;
-const MODEL_NAME: Record<string, string> = { agy: 'Gemini 4 Argon', claude: 'Claude Opus 5.5', codex: 'ChatGPT (GPT-6.1 Sol)' };
 
 function Item({ item, kind }: { item: BalanceItem; kind: 'good' | 'bad' }) {
   return (
@@ -105,7 +105,7 @@ export default function BillBalance({ data, level }: { data: Balance; level: Ris
         </div>
       )}
       <p className="mt-4 text-xs leading-5 text-muted">
-        Lista e făcută de {MODEL_NAME[data.model] ?? data.model} din textul proiectului. Citatele sunt verificate automat, cuvânt cu cuvânt, în text.
+        Lista e făcută de {modelFullName(data.model, data.modelId)} din textul proiectului. Citatele sunt verificate automat, cuvânt cu cuvânt, în text.
       </p>
     </section>
   );

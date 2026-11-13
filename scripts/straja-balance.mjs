@@ -12,7 +12,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
-import { runModel } from './lib/ai-cli.mjs';
+import { AGY_MODEL, runModel } from './lib/ai-cli.mjs';
 import { readCdepIndex } from './lib/cdep-index.mjs';
 import { clean, quoteKey, verifiedQuote } from './lib/quotes.mjs';
 import { writeFileAtomic } from './lib/atomic.mjs';
@@ -158,6 +158,7 @@ async function balance(b) {
     billId: b.id,
     schema: SCHEMA,
     model,
+    ...(model === 'agy' && { modelId: AGY_MODEL }),
     updatedAt: new Date().toISOString(),
     inputHash: hash(b),
     riskScore: b.analysis.consensus.riskScore,

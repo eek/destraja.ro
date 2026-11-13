@@ -324,6 +324,11 @@ export default async function MethodPage() {
                 </li>
               ))}
             </ul>
+            <p className="mt-4 text-sm leading-6 text-muted">
+              Gemini e Hydrogen din 13 noiembrie 2026. Analizele de dinainte sunt făcute cu Gemini 4 Argon; pe 12 proiecte,
+              cu aceleași instrucțiuni, Hydrogen a făcut mai puține greșeli și exagerări. Fiecare analiză arată modelul care
+              a scris-o.
+            </p>
           </div>
         </Container>
       </section>

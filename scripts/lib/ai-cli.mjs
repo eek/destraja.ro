@@ -63,6 +63,10 @@ skill_mcp_dependency_install = false
 `;
 
 export const MODEL_KEYS = ['agy', 'claude', 'codex'];
+// Modelul Gemini al analizelor: Hydrogen High din 13 noiembrie 2026 (înainte Argon High). Pe 12 proiecte, același prompt,
+// judecat orb de GPT 6.1 Sol, a avut cele mai puține greșeli și exagerări și a fost cel mai rapid (~/work/destraja-eval).
+// AGY_MODEL alege altul (`agy models`), pentru comparații între modele.
+export const AGY_MODEL = process.env.AGY_MODEL || 'gemini-4-hydrogen-high';
 
 const AI_VM_FILE = path.join(ROOT_DIR, '.cache', 'ai-vm');
 const VM_HOST = 'destraja@192.168.153.10';
@@ -179,7 +183,7 @@ function args(model, mode, codexModel) {
   // review: recenzia de cod a pipeline-urilor (review-pipelines.mjs, în afara repo-ului), cu agentul care știe că primește
   // cod de analizat; tot fără unelte.
   const agent = web ? 'lastraja-web' : mode === 'review' ? 'lastraja-review' : 'lastraja-offline';
-  return ['--disable-slash-commands', '--agent', agent, '--model', 'gemini-4-argon-high', '--output-format', 'stream-json'];
+  return ['--disable-slash-commands', '--agent', agent, '--model', AGY_MODEL, '--output-format', 'stream-json'];
 }
 
 // Doar ce le trebuie CLI-urilor ca să găsească autentificarea din HOME; nimic din .env.
@@ -281,7 +285,7 @@ function run(cmd, argv, stdin, timeoutMs, { parse, live, model, vm } = {}) {
       }, IDLE_MS);
       idle.unref();
     };
-    // agy ignoră SIGTERM și rămânea viu ore întregi după expirare, ocupând Argon: după 5 secunde îl oprim forțat.
+    // agy ignoră SIGTERM și rămânea viu ore întregi după expirare, ocupând modelul: după 5 secunde îl oprim forțat.
     const timer = setTimeout(() => {
       if (done) return;
       done = true;

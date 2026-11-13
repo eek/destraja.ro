@@ -4,7 +4,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { textName, writeBillTexts } from './lib/pdf-text.mjs';
-import { runModel } from './lib/ai-cli.mjs';
+import { AGY_MODEL, runModel } from './lib/ai-cli.mjs';
 import { CdepBlocked, fetchCdepFile } from './lib/cdep.mjs';
 import { AT_CHAMBER, readCdepIndex } from './lib/cdep-index.mjs';
 import { articleDiff } from './lib/article-diff.mjs';
@@ -196,7 +196,8 @@ const QUOTA_EXIT = 3;
 async function runSingleAi(modelKey, prompt, label, retry = true) {
   const res = await runModel(modelKey, prompt, { mode: 'offline', timeoutMs: MODEL_TIMEOUT_MS, label });
   const scored = res.status === 'ok' && Number.isFinite(res.data?.riskScore);
-  if (scored) return { model: modelKey, durationMs: res.durationMs, ...res.data, status: 'ok' };
+  // modelId: ce versiune de Gemini a răspuns, ca site-ul să o numească (analizele de dinainte de 13 noiembrie 2026 n-o au: Argon).
+  if (scored) return { model: modelKey, ...(modelKey === 'agy' && { modelId: AGY_MODEL }), durationMs: res.durationMs, ...res.data, status: 'ok' };
   const error = res.status === 'ok' ? `răspuns fără analiză: „${JSON.stringify(res.data).slice(0, 120)}”` : res.error;
   if (retry && !/timeout|timp depășit/i.test(error) && !QUOTA.test(error)) {
     console.log(`   ↻ ${modelKey} ${label}: ${error.slice(0, 100)}; mai încerc o dată`);

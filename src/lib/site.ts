@@ -12,12 +12,21 @@ export const SOURCE_URL: string | null = 'https://github.com/eek/destraja.ro';
 export const FEATURED_ID = 'B563/2026';
 
 export const MODELS = [
-  { key: 'agy', name: 'Gemini', fullName: 'Gemini 4 Argon', vendor: 'Google DeepMind', role: 'Tehnică legislativă, sancțiuni și impact cetățenesc' },
+  { key: 'agy', name: 'Gemini', fullName: 'Gemini 4 Hydrogen', vendor: 'Google DeepMind', role: 'Tehnică legislativă, sancțiuni și impact cetățenesc' },
   { key: 'claude', name: 'Claude', fullName: 'Claude Opus 5.5', vendor: 'Anthropic', role: 'Constituționalitate și drept UE' },
   { key: 'codex', name: 'ChatGPT', fullName: 'ChatGPT (GPT-6.1 Sol)', vendor: 'OpenAI', role: 'Impact economic, IT/AI, IMM și fiscalitate' },
 ] as const;
 
 export type ModelKey = (typeof MODELS)[number]['key'];
+
+/**
+ * Numele modelului care a făcut o analiză. Gemini a trecut de la Argon la Hydrogen pe 13 noiembrie 2026; analizele de
+ * dinainte nu au modelId, deci rămân ale lui Argon.
+ */
+export function modelFullName(key: ModelKey | string, modelId?: string): string {
+  if (key !== 'agy') return MODELS.find((m) => m.key === key)?.fullName ?? key;
+  return modelId && !/hydrogen/.test(modelId) ? `Gemini 4 ${modelId.replace(/^gemini-4-|-(low|medium|high|xhigh)$/g, '').replace(/^./, (c) => c.toUpperCase())}` : modelId ? 'Gemini 4 Hydrogen' : 'Gemini 4 Argon';
+}
 
 export const PARTY_NAMES: Record<string, string> = {
   PSD: 'Partidul Social Democrat',

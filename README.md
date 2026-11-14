@@ -196,6 +196,9 @@ de cod durează secunde, iar o recitire completă (`--fresh`) durează 1,5–2 o
 - `data/texts/<slug>/`: textul fiecărui PDF, în Markdown (`.md`, afișat pe pagina proiectului, cu titluri și tabele) și
   ca text simplu (`.txt`, pentru modele și pentru verificarea citatelor). `_meta.json` spune cum a fost citit:
   `mineru`, `mineru+ocr` (unele pagini de la Tesseract), `ocr` (doar Tesseract) sau `text` (stratul PDF-ului).
+- `data/baseline/<slug>.json`: textul în vigoare al articolelor pe care le modifică proiectul, din forma consolidată de
+  pe legislatie.just.ro (`scripts/straja-baseline.mjs`), cu linkul oficial și momentul preluării. Ce nu se găsește
+  apare ca `not-found`, articolele pe care proiectul le introduce ca `new`. Încă nu intră în promptul consiliului.
 - `data/ces/`, `data/news/`, `data/mp-contacts.json`: avizele CES, presa verificată, contactele parlamentarilor.
 - `data/votes/<slug>.json`: voturile nominale din plen ale proiectului (Camera și Senatul), cu totalurile, grupurile, votul
   fiecărui parlamentar (`mp` e slug-ul paginii lui) și pagina oficială, plus ce spune raportul comisiei despre majoritate.

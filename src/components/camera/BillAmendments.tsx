@@ -25,10 +25,15 @@ function Author({ a, pages }: { a: AmendmentAuthor; pages: Set<string> }) {
   );
 }
 
-/** „A, B și încă 4” sau „comisia”, pentru unul sau mai multe amendamente. */
+/** „Grup parlamentar USR” → „Grupul parlamentar USR”, cum îl scriu rapoartele cel mai des. */
+const groupName = (g: string) => g.replace(/^grup(ul)?\s+parlamentar\b/i, 'Grupul parlamentar');
+
+/** „A, B și încă 4”, un grup parlamentar sau „comisia”, pentru unul sau mai multe amendamente. */
 function Byline({ list, pages }: { list: Amendment[]; pages: Set<string> }) {
   const seen = new Set<string>();
   const authors = list.flatMap((a) => a.authors).filter((a) => !seen.has(a.site ?? a.name) && seen.add(a.site ?? a.name));
+  const groups = [...new Set(list.flatMap((a) => (a.byGroup ? [groupName(a.byGroup)] : [])))];
+  if (!authors.length && groups.length) return <span className="font-semibold text-ink">{groups.join(' și ')}</span>;
   if (!authors.length) {
     const committee = list.find((a) => a.byCommittee)?.byCommittee;
     return <span className="font-semibold text-ink">{!committee || /membrii/i.test(committee) ? 'membrii comisiei' : committee}</span>;

@@ -313,6 +313,8 @@ export interface Amendment {
   authors: AmendmentAuthor[];
   /** Când l-a propus comisia, nu un parlamentar anume. */
   byCommittee: string | null;
+  /** Când l-a propus un grup parlamentar întreg („Grupul parlamentar AUR”); lipsește în fișierele mai vechi. */
+  byGroup?: string | null;
   summary: string;
   quote: string | null;
   /** Efectul schimbărilor din text produse de amendament (doar la cele admise și legate de comparația formelor). */

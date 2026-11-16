@@ -455,7 +455,7 @@ async function main() {
       // Codul 3: Claude, care face comparația, e la limita de utilizare (QUOTA_EXIT în straja-council.mjs).
       if (!forms.ok) fail(forms.code === 3 && !forms.timedOut ? 'comparațiile formelor așteaptă: Claude e la limita de utilizare' : 'comparațiile formelor au eșuat');
       // Amendamentele din rapoartele comisiilor, cu autorii lor; doar proiectele cu raport sau comparație nouă ajung la model.
-      const amendments = await step('Camera: amendamente', 'node', ['scripts/straja-amendments.mjs', '--max=100'], { timeoutMs: 7_200_000 });
+      const amendments = await step('Camera: amendamente', 'node', ['scripts/straja-amendments.mjs', '--max=30'], { timeoutMs: 7_200_000 });
       if (!amendments.ok) fail('amendamentele Camerei au eșuat');
     }
     // Voturile nominale din plen (Camera și Senat) pentru fișele noi sau schimbate: cel mult 15 cereri la cdep.ro, cu

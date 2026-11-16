@@ -28,6 +28,18 @@ export interface ChangeDay {
 
 export const CHANGELOG: ChangeDay[] = [
   {
+    date: '2026-11-16',
+    items: [
+      {
+        kind: 'corectat',
+        title: 'Tabelele din documente se citesc ușor',
+        text: 'Tabelele din documentele oficiale (expuneri de motive, anexe, liste de inițiatori) arătau ca o grilă densă, cu rânduri goale, coloane goale și antetul repetat din fiecare pagină a PDF-ului; unele apăreau ca text cu bare verticale. Acum rândurile și coloanele goale dispar, antetul se vede ca antet, coloanele cu numere rămân înguste, iar pe telefon tabelul se derulează lateral în chenarul lui. Un „tabel” cu o singură coloană, care era de fapt text, se arată ca paragrafe.',
+        link: { href: '/legi/b604-2026', label: 'Un exemplu: B604/2026' },
+        shot: { id: '2026-11-16-tabele', alt: 'Expunerea de motive a proiectului B604/2026, cu tabelul inițiatorilor: antet pe fond, numerele curente într-o coloană îngustă, fără rândurile goale.' },
+      },
+    ],
+  },
+  {
     date: '2026-11-12',
     items: [
       {

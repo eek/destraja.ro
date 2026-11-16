@@ -2,7 +2,7 @@ import Markdown, { type Components } from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
 import rehypeSanitize, { type Options as SanitizeSchema } from 'rehype-sanitize';
-import rehypeTidyTables, { fixPipeTables } from '@/lib/tidy-tables';
+import rehypeTidyTables, { fixPipeTables, type KnownName } from '@/lib/tidy-tables';
 
 // Textul recunoscut dintr-un PDF scanat, în Markdown (scripts/lib/pdf-text.mjs). Se randează la build, fără JS în
 // pagină. HTML brut ajunge aici doar pentru tabelele cu celule unite pe care GFM nu le poate scrie; filtrul de mai
@@ -45,13 +45,15 @@ const doc = [
   '[&_th]:min-w-32 [&_th]:border-b [&_th]:border-line-strong [&_th]:bg-surface [&_th]:px-3 [&_th]:py-2 [&_th]:text-left [&_th]:align-bottom [&_th]:font-semibold [&_th]:text-ink',
   '[&_.narrow]:min-w-0 [&_.narrow]:w-px [&_.narrow]:whitespace-nowrap',
   '[&_tr:last-child>td]:border-b-0 [&_tr.repeat>th]:border-t [&_tr.repeat>th]:border-line-strong',
+  '[&_.unsure]:italic [&_.unsure]:text-muted [&_.table-note]:-mt-1 [&_.table-note]:text-xs [&_.table-note]:text-muted',
   '[&_td+td]:border-l [&_th+th]:border-l [&_td+td]:border-l-line [&_th+th]:border-l-line',
 ].join(' ');
 
-export default function DocumentText({ markdown }: { markdown: string }) {
+/** `names`: inițiatorii oficiali ai proiectului, ca numele din tabelele de semnături să fie corectate după ei. */
+export default function DocumentText({ markdown, names }: { markdown: string; names?: KnownName[] }) {
   return (
     <div className={doc}>
-      <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw, [rehypeSanitize, schema], rehypeTidyTables]} components={components}>
+      <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw, [rehypeSanitize, schema], [rehypeTidyTables, { names }]]} components={components}>
         {fixPipeTables(markdown)}
       </Markdown>
     </div>

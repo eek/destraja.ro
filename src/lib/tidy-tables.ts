@@ -2,7 +2,9 @@
 // pagină, „tabele” cu o singură coloană care sunt de fapt paragrafe și, în Markdown, tabele fără rândul de separare (pe
 // care GFM nu le recunoaște și le lasă ca text cu bare verticale). Aici le curățăm înainte de randare:
 // - fixPipeTables: repară Markdown-ul (separatorul lipsă; o celulă pe rând devine paragraf);
-// - rehypeTidyTables: curăță arborele HTML (rânduri și coloane goale, tabele de o coloană, antet, coloane înguste).
+// - rehypeTidyTables: curăță arborele HTML (rânduri și coloane goale, tabele de o coloană, antet, coloane înguste) și,
+//   când primește lista oficială a inițiatorilor, corectează numele din tabelele de semnături (OCR-ul le strică des:
+//   „AUNCA HARIUS” e Dunca Marius-Alexandru).
 
 type Node = { type: string; tagName?: string; value?: string; properties?: Record<string, unknown>; children?: Node[] };
 
@@ -120,7 +122,104 @@ function tidy(table: Node): Node[] | null | undefined {
   return undefined;
 }
 
-function walk(node: Node) {
+
+// --- Numele din tabelele de semnături, după lista oficială a inițiatorilor (senat.ro) ---
+
+export type KnownName = { name: string; party?: string | null };
+
+const fold = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/-/g, ' ').replace(/[^a-z\s]/g, ' ').replace(/\s+/g, ' ').trim();
+function lev(a: string, b: string) {
+  const d = Array.from({ length: b.length + 1 }, (_, i) => i);
+  for (let i = 1; i <= a.length; i++) {
+    let prev = d[0];
+    d[0] = i;
+    for (let j = 1; j <= b.length; j++) {
+      const t = d[j];
+      d[j] = Math.min(d[j] + 1, d[j - 1] + 1, prev + (a[i - 1] === b[j - 1] ? 0 : 1));
+      prev = t;
+    }
+  }
+  return d[b.length];
+}
+const ratio = (a: string, b: string) => 1 - lev(a, b) / Math.max(a.length, b.length, 1);
+const sortWords = (s: string) => s.split(' ').sort().join(' ');
+/** Formele în care poate apărea un nume în tabel: întreg, numele de familie cu fiecare prenume, în ambele ordini. */
+function forms(name: string) {
+  const w = fold(name.replace(/\([^)]*\)/g, ' ')).split(' ').filter(Boolean);
+  const out = new Set([w.join(' '), [...w].reverse().join(' ')]);
+  for (let i = 1; i < w.length; i++) out.add(`${w[0]} ${w[i]}`).add(`${w[i]} ${w[0]}`);
+  return [...out];
+}
+/** Cât de aproape e celula de un nume: ca atare, cu cuvintele sortate și fără spații (OCR-ul lipește cuvintele). */
+const closeness = (cell: string, vs: string[]) =>
+  Math.max(...vs.map((v) => Math.max(ratio(cell, v), ratio(sortWords(cell), sortWords(v)), ratio(cell.replace(/ /g, ''), v.replace(/ /g, '')))));
+const nameLike = (s: string) => s.length >= 5 && s.length <= 60 && /\p{L}{2}/u.test(s) && !/\d{2}/.test(s);
+const PARTY = /^(PSD|PNL|USR|AUR|UDMR|SOS|POT|PMP|PRO|minorit|neafilia|independent)/i;
+
+/** Scorul fiecărei celule față de fiecare nume cunoscut, apoi potrivire lacomă: fiecare inițiator cel mult o dată. */
+function correctNames(table: Node, known: KnownName[]): { fixed: number; unsure: number } | null {
+  const rows = rowsOf(table).map(({ row }) => cellsIn(row)).filter((cells) => cells.every((c) => c.tagName !== 'th'));
+  const width = Math.max(0, ...rows.map((r) => r.length));
+  const variants = known.map((k) => forms(k.name));
+  let fixed = 0, unsure = 0, any = false;
+  for (let col = 0; col < width; col++) {
+    const cells = rows.map((r) => ({ cell: r[col], row: r })).filter((x) => x.cell && nameLike(text(x.cell).trim()));
+    if (cells.length < 3) continue;
+    const scored = cells.map(({ cell, row }) => {
+      const c = fold(text(cell));
+      const party = row.map((x) => text(x).trim()).find((s) => s !== text(cell).trim() && PARTY.test(s));
+      return { cell, party, scores: variants.map((vs) => closeness(c, vs)) };
+    });
+    // O coloană de nume: cel puțin jumătate din celule se potrivesc sigur cu un inițiator.
+    if (scored.filter((s) => Math.max(...s.scores) >= 0.72).length < cells.length / 2) continue;
+    any = true;
+    const pairs = scored.flatMap((s, i) => s.scores.map((score, k) => ({ i, k, score }))).sort((a, b) => b.score - a.score);
+    const usedCell = new Set<number>(), usedName = new Set<number>();
+    for (const { i, k, score } of pairs) {
+      if (usedCell.has(i) || usedName.has(k) || score < 0.6) continue;
+      const s = scored[i];
+      const second = Math.max(0, ...s.scores.filter((_, j) => j !== k && !usedName.has(j)));
+      const partyOk = !s.party || !known[k].party || fold(s.party).startsWith(fold(known[k].party!).slice(0, 3));
+      // Sigur: aproape identic, sau destul de aproape și clar mai aproape decât următorul nume; partidul din rând contează.
+      if (!(score >= 0.72 || score - second >= 0.12) || (!partyOk && score < 0.85)) continue;
+      usedCell.add(i);
+      usedName.add(k);
+      // Numărăm doar numele chiar schimbate (nu „Mazilu Liviu” scris întreg ca „Mazilu Liviu-Lucian”).
+      if (score < 0.97 && !variants[k].includes(fold(text(s.cell)))) fixed++;
+      s.cell.children = [{ type: 'text', value: known[k].name }];
+    }
+    scored.forEach((s, i) => {
+      if (!usedCell.has(i)) {
+        addClass(s.cell, 'unsure');
+        unsure++;
+      }
+    });
+  }
+  return any ? { fixed, unsure } : null;
+}
+
+// „22 de nume”, nu „22 nume”: de la 20 în sus, numeralul cere „de” (cu excepția celor terminate în 01–19).
+const deNume = (n: number) => (n % 100 >= 1 && n % 100 <= 19 ? `${n} nume` : `${n} de nume`);
+const note = (r: { fixed: number; unsure: number }): Node => ({
+  type: 'element',
+  tagName: 'p',
+  properties: { className: ['table-note'] },
+  children: [
+    {
+      type: 'text',
+      value: [
+        r.fixed ? 'Numele din tabel sunt scrise după lista oficială a inițiatorilor de pe senat.ro; textul recunoscut din PDF le stricase.' : null,
+        r.unsure === 1
+          ? 'Numele în cursiv nu se potrivește sigur cu niciun inițiator de pe senat.ro și a rămas cum e în PDF.'
+          : r.unsure > 1
+            ? `Cele ${deNume(r.unsure)} în cursiv nu se potrivesc sigur cu niciun inițiator de pe senat.ro și au rămas cum sunt în PDF.`
+            : null,
+      ].filter(Boolean).join(' '),
+    },
+  ],
+});
+
+function walk(node: Node, known: KnownName[]) {
   if (!node.children) return;
   const next: Node[] = [];
   for (const child of node.children) {
@@ -131,13 +230,17 @@ function walk(node: Node) {
         next.push(...r);
         continue;
       }
-    } else walk(child);
+      const names = known.length ? correctNames(child, known) : null;
+      next.push(child);
+      if (names && (names.fixed || names.unsure)) next.push(note(names));
+      continue;
+    } else walk(child, known);
     next.push(child);
   }
   node.children = next;
 }
 
 /** Pluginul rehype: rulează după sanitize, ca clasele adăugate aici să rămână. */
-export default function rehypeTidyTables() {
-  return (tree: Node) => walk(tree);
+export default function rehypeTidyTables(options: { names?: KnownName[] } = {}) {
+  return (tree: Node) => walk(tree, options.names ?? []);
 }

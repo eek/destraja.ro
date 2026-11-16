@@ -576,8 +576,10 @@ function edition(level, data, anunt = null, short = new Set()) {
   const closing = data.closing.filter(match).sort((a, b) => a.days - b.days || b.score - a.score);
   const press = data.press.filter((a) => match(a.bill));
   const corrections = data.corrections.filter((c) => match(c.bill));
-  // Presa singură nu face o ediție; articolele stau în cardul proiectului despre care scriu.
-  if (!anunt && newBills.length + closing.length + corrections.length === 0) return null;
+  // Presa singură nu face o ediție; articolele stau în cardul proiectului despre care scriu. Nici termenele care se
+  // închid: fără un proiect nou sau o corectură nu trimitem nimic (16 noiembrie 2026, ca abonații să primească puține
+  // e-mailuri); termenele merg doar împreună cu ceva nou.
+  if (!anunt && newBills.length + corrections.length === 0) return null;
   const featured = [...newBills, ...closing];
   const pressOf = (b) => press.filter((a) => a.bill.id === b.id);
   const cards = (bills) => {
@@ -688,7 +690,7 @@ function edition(level, data, anunt = null, short = new Set()) {
     }
     return edition(level, data, anunt, shorter);
   }
-  return { subject, html, text, stats: { newBills: newBills.length, closing: closing.length, press: press.length, corrections: corrections.length, ...(short.size && { short: short.size }), ...(anunt && { anunt: ANUNT }) } };
+  return { subject, html, text, featured: featured.map((b) => b.id), stats: { newBills: newBills.length, closing: closing.length, press: press.length, corrections: corrections.length, ...(short.size && { short: short.size }), ...(anunt && { anunt: ANUNT }) } };
 }
 
 // --- trimiterea ----------------------------------------------------------------------------------
@@ -795,6 +797,10 @@ async function main() {
     if (kb > 95) console.log(`⚠ ${level}: ${kb} KB, aproape de limita de la care Gmail taie mesajul`);
     console.log(`✉ ${level}: „${e.subject}” ${JSON.stringify(e.stats)} → ${path.relative(ROOT, base)}.html`);
   }
+
+  // Un termen care n-a intrat în nicio ediție nu se notează ca amintit: poate însoți o ediție de mâine, cât e deschis.
+  const shown = new Set(Object.values(editions).flatMap((e) => e.featured));
+  data.nextState = snapshot(bills, state, data.closing.filter((b) => shown.has(b.id)), [...data.newBills, ...data.closing].filter((b) => shown.has(b.id)));
 
   if (!SEND) {
     if (stale) console.log(`⚠ ${stale}`);

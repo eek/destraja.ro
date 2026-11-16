@@ -7,12 +7,12 @@ import SubscribeForm from '@/components/alerts/SubscribeForm';
 export const metadata: Metadata = {
   title: 'Alerte pe e-mail',
   description:
-    'Primește un e-mail în zilele lucrătoare în care un proiect de lege nou intră în consultare la Senat sau se apropie un termen. Alegi tu nivelul de risc.',
+    'Primește un e-mail în zilele lucrătoare în care un proiect de lege nou intră în consultare la Senat, cu termenele care se apropie. Alegi tu nivelul de risc.',
 };
 
 const TRIGGERS = [
   { icon: FilePlus2, title: 'Un proiect nou intră în consultare', text: 'Cu explicația pe înțeles, scorul de risc și termenul până la care poți trimite un punct de vedere.' },
-  { icon: CalendarClock, title: 'Mai sunt 3 zile până la termen', text: 'O singură dată pe proiect, cât mai e timp să obiectezi.' },
+  { icon: CalendarClock, title: 'Mai sunt 3 zile până la termen', text: 'În același e-mail, o singură dată pe proiect, cât mai e timp să obiectezi. Doar pentru termene nu-ți scriem.' },
   { icon: Newspaper, title: 'Presa scrie despre un proiect', text: 'Doar articole verificate, din publicațiile pe care le urmărim.' },
   { icon: PenLine, title: 'Corectăm o analiză', text: 'Când o semnalare se confirmă în textul oficial.' },
 ];

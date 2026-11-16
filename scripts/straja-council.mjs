@@ -326,9 +326,9 @@ async function analyzeBillWithCouncil(bill, force = false, { texts: given, versi
 
 // ─── Camera Deputaților ─────────────────────────────────────────────────────────────────────────────────────────
 // node scripts/straja-council.mjs --camera [slug] [--due] [--max=10]
-// Fără slug, --due alege proiectele fără analiză și neurmărite de la Senat: întâi cele aflate acum la Cameră (ordinea
-// de zi, apoi cele cu raport, apoi celelalte), apoi restul anului (trimise la Senat, la promulgare, legi, respinse), de la
-// cele mai noi. Fiecare rulare face cel mult --max, ca analizele să se strângă treptat. Proiectele din anii trecuți încă
+// Fără slug, --due alege proiectele fără analiză și neurmărite de la Senat: întâi cele de pe ordinea de zi, apoi cele
+// înregistrate anul acesta, apoi cele aflate acum la Cameră (cele cu raport, apoi celelalte), apoi restul (trimise la
+// Senat, la promulgare, legi, respinse), de la cele mai noi. Fiecare rulare face cel mult --max, ca analizele să se strângă treptat. Proiectele din anii trecuți încă
 // în dezbatere (data/cdep/ani, straja-cdep-vechi.mjs) intră în aceeași ordine.
 // Cu COUNCIL_MODELS, --due ia și analizele cărora le lipsește răspunsul unui model cerut: analizele făcute fără Claude
 // (COUNCIL_MODELS=agy,codex) se completează mai târziu cu COUNCIL_MODELS=claude, fără să se refacă Gemini și ChatGPT.
@@ -428,9 +428,14 @@ async function mainChamber(args) {
     const file = path.join(ANALYSES_DIR, `${s}.json`);
     return !fs.existsSync(file) || missingModels(readJsonFile(file));
   };
+  // Proiectele noi înaintea celor vechi cu raport: după ce au intrat anii trecuți (1.700 de proiecte fără analiză, 618
+  // cu raport), un proiect înregistrat pe 9 noiembrie 2026 stătea pe locul 629, adică vreo 80 de zile la 8 pe zi.
+  const year = bucharestDay().slice(0, 4);
   const rank = (p) => {
+    if (PRIORITY[0].test(p.stadiu)) return 0;
+    if (p.inregistrat?.startsWith(year)) return 1;
     const i = PRIORITY.findIndex((re) => re.test(p.stadiu));
-    return i !== -1 ? i : AT_CHAMBER.test(p.stadiu) ? PRIORITY.length : PRIORITY.length + 1;
+    return i !== -1 ? 1 + i : AT_CHAMBER.test(p.stadiu) ? 1 + PRIORITY.length : 2 + PRIORITY.length;
   };
   const targets = slug
     ? [read(slug)].filter(Boolean)

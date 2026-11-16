@@ -1,0 +1,70 @@
+{
+  "slug": "plx-736-2026",
+  "billId": "PL-x 736/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-16T08:33:12.258Z",
+  "inputHash": "f816c189853c",
+  "riskScore": 2.3,
+  "summary": "O lege simbolică cu activități opționale și fără costuri impuse cetățenilor, dar afectată de obligații editoriale și termeni vagi pentru presa publică la art. 3.",
+  "good": [
+    {
+      "text": "Autoritățile publice pot organiza manifestări doar opțional și în limita bugetelor alocate, deci legea nu impune cheltuieli noi sau obligații cetățenilor și firmelor.",
+      "article": "art. 2 alin. (1)",
+      "quote": "pot organiza, cu ocazia sărbătoririi zilei de 17 mai, manifestări educaționale, culturale, artistice, sportive, precum și orice alte activități de acest fel, în limita bugetelor alocate.",
+      "weight": 2
+    },
+    {
+      "text": "Universitățile și școlile pot organiza voluntar dezbateri, ateliere de istorie și evenimente culturale, sprijinind educația civică fără sarcini birocratice obligatorii.",
+      "article": "art. 2 alin. (2)",
+      "quote": "În vederea îndeplinirii scopului prevăzut la art. 1 alin. (2), instituțiile de învățământ superior și unitățile de învățământ preuniversitar pot organiza:",
+      "weight": 2
+    },
+    {
+      "text": "Legea intră în vigoare la 30 de zile de la publicare, oferind instituțiilor publice și media timp suficient pentru pregătire fără aplicare imediată forțată.",
+      "article": "art. 4",
+      "quote": "Prezenta lege intră în vigoare în termen de 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Obligă radioul, televiziunea publică și AGERPRES să producă și să difuzeze materiale tematice, fără limită de buget și fără garanții privind autonomia editorială.",
+      "article": "art. 3",
+      "quote": "Societatea Română de Radiodifuziune, Societatea Română de Televiziune și Agenția Națională de Presă AGERPRES produc, difuzează sau redifuzează, după caz, materiale de promovare a studențimii române",
+      "weight": 2
+    },
+    {
+      "text": "Folosește termeni vagi precum „victimelor agresiunii totalitare” și „personalităților marcante relevante”, fără criterii de selecție, lăsând loc interpretărilor arbitrare.",
+      "article": "art. 3",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Termenul „zi de sărbătoare națională” nu clarifică statutul de zi lucrătoare și poate crea confuzie cu Ziua Națională din Constituție sau cu zilele libere legale.",
+      "article": "art. 1 alin. (1)",
+      "quote": "Se instituie ziua de 17 mai ca Ziua Studențimii Române, zi de sărbătoare națională.",
+      "weight": 1
+    },
+    {
+      "text": "Introduce formulări istorico-politice declarative fără efect juridic („clasei studenților”, „rol determinant”), încălcând rigoarea tehnicii legislative.",
+      "article": "art. 1 alin. (2)",
+      "quote": "recunoașterea oficială a contribuției clasei studenților care a avut un rol determinant în dezvoltarea și constituirea statului român",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Transformarea art. 3 într-o simplă facultate în limita bugetului și eliminarea termenilor vagi ar transforma proiectul într-o lege simbolică fără riscuri practice.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.8
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 6
+  }
+}

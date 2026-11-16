@@ -1,0 +1,45 @@
+ROMANIA
+
+EXPUNERE DE MOTIVE
+
+LEGE privind stabilirea prețului maxim de vânzare pentru apa potabilă îmbuteliată comercializată în spații cu opțiuni limitate pentru consumatori
+
+DESCRIEREA SITUAȚIEI ACTUALE În ultimii ani au existat multiple semnalări a unor practici comerciale răspândite prin care prețul apei potabile îmbuteliate atinge niveluri excesive și nejustificate în anumite spații comerciale unde consumatorul se află într-o poziție vulnerabilă, având opțiuni limitate sau inexistente de a alege. Aceste spații, precum zonele de securitate ale aeroporturilor, gările, autogările și stațiile de servicii de pe autostrăzi, sunt caracterizate ca având o „clientelă captivă". Dreptul de acces la apă potabilă reprezintă o necesitate biologică fundamentală, iar prețurile disproporționat de mari practicate în aceste locații constituie o formă de exploatare a unei nevoi de bază a consumatorului. De la introducerea regulilor de securitate privind lichidele, aerosolii și gelurile, în vara anului 2006, pasagerii sunt obligați să predea sticlele cu apă la punctele de control de securitate din zona aeroportuară, fiind nevoiți apoi să achiziționeze apă la prețuri de trei-patru ori mai mari decât cele din comerțul obișnuit. II. MODIFICAREA PROPUSĂ Prezenta inițiativă legislativă urmărește să corecteze această inechitate și să protejeze consumatorii prin stabilirea unui mecanism de plafonare a prețului pentru un produs de bază - sticla de 500 ml de apă.
+
+Acest demers nu reprezintă o noutate în spațiul Uniunii Europene. State precum Grecia sau Cipru au implementat cu succes o legislație similară, obligând operatorii economici din aeroporturi, gări, porturi și alte locații similare să comercializeze apa la un pret maxim reglementat (în prezent, 0,60 euro). De asemenea, autoritatea aeroportuară din Spania (Aena) a impus un preț maxim de 1 euro pentru sticla de apă în toate aeroporturile pe care le administrează. Asociația europeană a operatorilor de aeroporturi - Airports Council International (ACI) Europe — a adoptat în anul 2016 o recomandare ca aeroporturile europene să perceapă un preț maxim de 1 euro pentru 500 ml de apă. Din păcate, niciun aeroport din România nu respectă această recomandare.
+
+III. MOTIVAREA NECESITĂȚII Propunerea legislativă este fundamentată pe principiul interesului public și al protecției consumatorilor, așa cum este prevăzut și în legislația europeană, intervenind punctual doar în acele piețe specifice unde concurența nu poate funcționa în mod real, iar operatorii economici pot abuza de o poziție dominantă de facto. Prin adoptarea acestei legi, România se aliniază bunelor practici europene și asigură respectarea unui drept fundamental al cetățenilor săi, fără a afecta în mod disproporționat mediul de afaceri, reglementarea vizând un singur produs de bază, într-un format standardizat și în locații clar definite. Având în vedere cele expuse, supunem dezbaterii și aprobării celor două camere ale Parlamentului României prezenta propunere legislativă.
+
+În numele inițiatorilor, ȘTEFAN TANASĂ Deputat USR
+
+LISTA SUSȚINĂTORILOR Propunere Legislativă - LEGE privind stabilirea prețului maxim de vânzare pentru apa potabilă îmbuteliată comercializată în spații cu opțiuni limitate pentru consumatori
+
+Grup Nr. | Nume și prenume | Deputat/Senator | Semnătură parlamentar
+
+1\. | DRAGUES CU CEZAR | USR DEPUTAT
+
+SENDROjU VLAD 104N | DEPUTAT | USR GHEORGHIU ANDREI | DEPUTAT | uSe ALEGANDRU | NEPUTAT HARIUS- NICOLAE | USR 5. | Eulearco Felix Seputal 6. BOTEZ MiHAI - CÂTALIC | DEP | USK 7. SEP | USR BLAGA SANIEL 8. CORINA ATANASIU DEP | USR 9. | USR GW RGIU ADRIAN | DEP
+
+10\. Paraschivesm Ovidin | Deputat | USR
+
+LISTA SUSȚINĂTORILOR Propunere Legislativă - LEGE privind stabilirea prețului maxim de vânzare pentru apa potabilă îmbuteliată comercializată în spații cu opțiuni limitate pentru consumatori
+
+11\. PLUSAR ANDREi | DEPUTAT | USr 12. monil Ingurom repetos | USR 13. | QSR RIGMAM CIPRiAM | DEPUTAT
+
+14\. LAZAR TEODOR | | USR
+
+15\. VADUVA DUMITRI | DEPOTAT | USR 16. WiEMER ADRiAN | DEPUTAT USK 17. SEMATOR | USR
+
+18\.
+
+19\.
+
+20\.
+
+21\.
+
+22\.
+
+23\.
+
+25\.

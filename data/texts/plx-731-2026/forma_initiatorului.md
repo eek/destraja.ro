@@ -1,0 +1,29 @@
+CAMERA DEPUTAȚILOR
+
+SENATUL ROMÂNIEI
+
+## LEGE
+
+pentru modificarea articolului IX alin. (5) din Ordonanța de urgență a Guvernului nr. 44/2022 privind stabilirea unor măsuri în cadrul sistemului de sănătate, precum și pentru interpretarea, modificarea și completarea unor acte normative
+
+Parlamentul României adoptă prezenta lege.
+
+## Art. I
+
+La articolul IX din Ordonanța de urgență a Guvernului nr. 44/2022 privind stabilirea unor măsuri în cadrul sistemului de sănătate, precum și pentru interpretarea, modificarea și completarea unor acțe normative, publicată în Monitorul Oficial al României, Partea I, nr. 373 din 14 aprilie 2022, aprobată cu modificări și completări prin Legea nr. 378/2023, cu modificările și completările ulterioare, alineatul (5) se modifică și va avea următorul cuprins:
+
+„(5) În cadrul monitorizării prevăzute la alin. (4), pentru persoanele asigurate diagnosticate cu boli cardiovasculare, boli cerebrovasculare, boli neurologice sau afecțiuni rare, se decontează toate investigațiile de înaltă performanță sau de medicină nucleară necesare monitorizării, dintre cele prevăzute în pachetul de servicii medicale de bază, conform indicației medicului specialist. Pentru persoanele asigurate diagnosticate cu diabet zaharat sau boală cronică renală, se decontează, în cadrul monitorizării prevăzute la alin. (4), o singură investigație de înaltă performanță sau de medicină nucleară într-un an calendaristic, dintre cele prevăzute în pachetul de servicii medicale de bază. Aceste persoane pot beneficia, pentru afecțiunea de bază sau pentru alte afecțiuni intercurente, de investigații de înaltă performanță sau de medicină nucleară, în condițiile prevăzute în același pachet de servicii.”
+
+## Art. II
+
+(1) În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Guvernul va pune în concordanță cu dispozițiile art. I Hotărârea Guvernului nr. 521/2023 pentru aprobarea pachetelor de servicii și a Contractului-cadru care reglementează condițiile acordării asistenței medicale, a medicamentelor și a dispozitivelor medicale, în cadrul sistemului de asigurări sociale de sănătate, cu modificările și completările ulterioare.
+
+(2) În același termen, ministrul sănătății și președintele Casei Naționale de Asigurări de Sănătate vor pune în concordanță cu dispozițiile art. I Normele metodologică aprobate prin Ordinul ministrului sănătății și al președintelui Casei Naționale de Asigurări de Sănătate nr. 1.857/441/2023, cu modificările și completările ulterioare, precum și celelalte acte normative subsecvente emise în domeniul lor de competență.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+INIȚIATOR:
+
+Deputat Simona-Elena Macovei Ilie
+
+Semnătura: \_\_\_\_

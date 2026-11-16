@@ -1,0 +1,29 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru modificarea și completarea Legii cetățeniei române nr. 21/1991
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic. - Legea cetățeniei române nr. 21/1991, republicată în Monitorul Oficial al României, Partea I, nr. 576 din 13 august 2010, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. După articolul 8² se introduce un nou articol, art. 8³, cu următorul cuprins: „Art. 8³. - (1) Cetățenia română se poate acorda, la cerere, cu posibilitatea stabilirii domiciliului în țară sau cu menținerea acestuia în străinătate, persoanei fără cetățenie sau cetățeanului străin care este căsătorit cu un cetățean român și conviețuiște cu acesta în străinătate, de cel puțin 10 ani de la data înregistrării sau transcrierii căsătoriei în registrele de stare civilă române, dacă îndeplinește condițiile prevăzute la art. 8 alin.(1) fit. b)- g).
+
+(2) La calculul termenului prevăzut la alin. (1) se cumulează toate perioadele de conviețuire dintre soți, indiferent dacă acestea s-au desfășurat pe territoriul României sau în afara acestuia.
+
+2\. La articolul 13, alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) Cererile de acordare sau de redobândire a cetățeniei române întemeiate pe dispozițiile art. 8¹, 8³, 10 și 11 pot fi depuse și la misiunile diplomatice sau la oficiile consulare ale României din statul pe teritoriul căruia solicitantul își are domiciliul sau reședința legală. În cazul în care cererile au fost depuse la misiunile diplomatice sau la oficiile consulare ale României, acestea vor fi trimise de îndată Comisiei pentru cetățenie din cadrul Autorității Naționale pentru Cetățenie.”
+
+## 3. La articolul 20, alineatul (16) se modifică și va avea următorul cuprins:
+
+„(16) Dispozițiile alin. (14) și (15) se aplică în mod corespunzător și în cazul persoanelor cărora li s-a aprobat cererea de acordare a cetățeniei române în condițiile prevăzute la art. 8¹ sau 8³.”
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2) teza a III-a din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+MIRCEA ABRUDEAN

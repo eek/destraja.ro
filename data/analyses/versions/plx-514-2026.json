@@ -1,8 +1,28 @@
 {
   "slug": "plx-514-2026",
   "billId": "PL-x 514/2026",
-  "updatedAt": "2026-10-30T09:36:44.267Z",
+  "updatedAt": "2026-11-16T08:20:55.757Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L386FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 1.3,
+      "riskLevel": "green",
+      "plainTitle": "8 septembrie devine Ziua Națională a Atletismului Românesc",
+      "summaryTlDr": "Lege simbolică și benignă: nu impune obligații, taxe, sancțiuni sau zi liberă, ci doar permite organizarea de evenimente din bugetele existente. Singurele probleme sunt de tehnică legislativă: numerotare greșită a alineatelor și o greșeală de redactare.",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 2
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,57 +56,115 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
+      "from": "initiator",
+      "to": "senat",
       "direction": "la_fel",
-      "headline": "Fără schimbări de fond: ziua de 8 septembrie rămâne doar simbolică, cu activități facultative",
-      "summary": "Forma adoptată de Cameră are același conținut ca forma adoptată de Senat. Diferențele sunt doar de redactare: ghilimele, spațieri, o greșeală de tipar și formula finală. Pentru cetățeni și firme nu se schimbă nimic.",
+      "headline": "Doar corecturi de redactare: renumerotare la art. 2 și formula de adoptare a Senatului",
+      "summary": "Forma adoptată de Senat corectează doar redactarea. Alineatul greșit numerotat devine (2), „organize” devine „organizate”, iar formula finală indică adoptarea de Senat. Pentru cetățeni și firme nu se schimbă nimic.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Legea spune că nu costă nimic, dar instituțiile pot cheltui din bugetele existente",
+            "text": "Sprijinul logistic al autorităților e plasat la articolul despre SRR/SRTV, nu la art. 2",
             "major": false,
-            "article": "art. 4"
+            "article": "art. 3"
+          },
+          {
+            "text": "Efect pur declarativ: fără obligații, termene sau indicatori de urmărire",
+            "major": false,
+            "article": "art. 2"
           }
         ],
         "good": [
           {
-            "text": "8 septembrie nu devine zi liberă, deci nu apar costuri pentru angajatori",
-            "major": false,
+            "text": "Ziua nu e nelucrătoare, deci nu afectează angajatorii sau Codul muncii",
+            "major": true,
             "article": "art. 1"
           },
           {
-            "text": "Autoritățile și școlile doar pot organiza manifestări; nu au obligații sau sancțiuni",
+            "text": "Activitățile autorităților și școlilor sunt facultative, în limita bugetelor aprobate",
             "major": false,
             "article": "art. 2"
           },
           {
-            "text": "Federațiile, cluburile și ONG-urile participă voluntar, din resursele lor proprii",
+            "text": "SRR și SRTV decid potrivit propriei politici editoriale, cu independență respectată",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Nu necesită alocări bugetare suplimentare, coerent cu caracterul facultativ",
+            "major": false,
+            "article": "art. 4"
+          },
+          {
+            "text": "Numerotarea alineatelor și greșeala „organize” au fost corectate",
             "major": false,
             "article": "art. 2"
-          },
-          {
-            "text": "Radioul și televiziunea publică decid singure dacă difuzează emisiuni despre această zi",
-            "major": false,
-            "article": "art. 3"
-          },
-          {
-            "text": "Sprijinul autorităților locale este facultativ și se acordă în limita bugetelor aprobate",
-            "major": false,
-            "article": "art. 3"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 9,
-        "removed": 8,
-        "same": 0
+        "added": 5,
+        "removed": 6,
+        "same": 0.44
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:35:49.094Z"
+      "schema": 4,
+      "updatedAt": "2026-11-16T08:20:44.402Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: textul adoptat de Cameră e identic cu cel al Senatului, cu excepția formulei finale",
+      "summary": "Acum diferă doar camera care a adoptat textul, data ședinței, semnătura și o greșeală de scriere la art. 2. Ziua rămâne simbolică: activitățile sunt facultative și nu apar obligații noi pentru cetățeni sau firme.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Activitățile se plătesc din bugetele existente, deși art. 4 sugerează costuri zero",
+            "major": false,
+            "article": "art. 4"
+          },
+          {
+            "text": "Greșeală de scriere: „organize” în loc de „organizate”",
+            "major": false,
+            "article": "art. 2"
+          }
+        ],
+        "good": [
+          {
+            "text": "Ziua nu este nelucrătoare, deci nu aduce costuri pentru angajatori",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Toate activitățile sunt facultative, fără termene, raportări sau sancțiuni",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Independența editorială a radioului și televiziunii publice este respectată",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Nu sunt necesare alocări suplimentare la bugetul de stat sau local",
+            "major": false,
+            "article": "art. 4"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0.56
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-16T08:20:55.757Z"
     }
   ]
 }

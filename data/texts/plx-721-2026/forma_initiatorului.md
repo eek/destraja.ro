@@ -1,0 +1,45 @@
+# LEGE
+
+# pentru pentru modificarea și completarea art.220 din Legea învățământului preuniversitar nr.198/2023
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I: Articolul 220 din Legea învățământului preuniversitar nr. 198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 613 din 5 iulie 2023, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. Alineatul (4) se modifică și va avea următoarul cuprins:
+
+„(4) Personalul de conducere, de îndrumare și control din învățământul preuniversitar de stat beneficiază de concediu de odihnă anual cu o durată de 35 de zile lucrătoare. Prevederile prezentului alineat se aplică directorilor și directorilor adjuncți din unitățile de învățământ și din unitățile de educație extrașcolară, personalului de conducere din casele corpului didactic, din centrele județene de resurse și asistență educațională/Centrul Municipiului București de Resurse și Asistență Educațională și din centrele de formare continuă în limbile minorităților naționale, precum și personalului didactic de conducere, de îndrumare și control din inspectoratele școlare județene/Inspectoratul Școlar al Municipiului București.
+
+2\. După alineatul (4) se introduc patru alineate noi, alin. (4¹), (4²), (4³) și (4⁴), cu următoarul cuprins:
+
+(4¹) La durata concediului de odihnă stabilită la alin. (4) se adaugă un concediu de odihnă suplimentar, în funcție de vechimea totală în muncă recunoscută potrivit legii, astfel:
+
+a) 3 zile lucrătoare, pentru o vechime mai mică de 5 ani;
+
+b) 5 zile lucrătoare, pentru o vechime între 5 și 15 ani;
+
+c) 7 zile lucrătoare, pentru o vechime de peste 15 ani.
+
+(4²) Pentru asigurarea efectuării concediului, Ministerul Educației și Cercetării stabilește anual, prin ordin al ministrului, după consultarea federațiilor sindicale reprezentative la nivel de sector de negociere colectivă, o perioadă protejată la nivel național, cuprinsă în intervalul 1 iulie – 31 august, de cel puțin 14 zile calendaristice consecutive, care să cuprindă cel puțin 10 zile lucrătoare. Perioada se stabilește și se publică până la 31 decembrie pentru anul calendaristic următor, cu corelarea calendarelor activităților din sistem.
+
+(4³) În perioada protejată, Ministerul Educației și Cercetării, inspectoratele școlare și celelalte instituții aflate în subordinea ori coordonarea ministerului nu programează examene, concursuri, inspecții, controale planificate, ședințe sau instruiri obligatorii care presupun participarea personalului prevăzut la alin. (4). Nu solicită elaborarea ori transmiterea de situații, rapoarte, date sau documente și nu stabilesc termene de raportare, încărcare ori validare a datelor care presupun activitatea acestuia în perioada protejată.
+
+(4⁴) Prin excepție de la alin. (4³), sunt permise exclusiv măsurile care nu pot fi amânate, necesare în caz de forță majoră sau pentru prevenirea ori înlăturarea unui pericol iminent pentru viața, sănătatea sau securitatea persoanelor ori pentru integritatea patrimoniului. Rechemarea din concediu se dispune de autoritatea competentă prin act scris și motivat, cu respectarea obligațiilor angajatorului prevăzute la art. 151 alin. (2) din Legea nr. 53/2003 – Codul muncii, republicată, cu modificările și completările ulterioare.
+
+Art.II. – (1) În termen de 60 zile de la intrarea în vigoare a prezentei legi, Ministerul Educației și Cercetării modifică în mod corespunzător:
+
+a) Ordinul 7930/2024 pentru aprobarea Normelor metodologice privind efectuarea concediului de odihnă al personalului didactic, de conducere, de îndrumare și control și al personalului de cercetare din învățământul de stat;
+
+b) Contractul Colectiv de Munca 1104/2025 Unic la Nivel de Sector de Negociere Colectivă Învățământ Preuniversitar, înregistrat la M.M.F.T.S.S. - U.P.D.S.P.S..
+
+(2) Concediul suplimentar prevăzut la art. I, pct. 2, alin. (4¹) înlocuiește, pentru personalul prevăzut la alin. (4), concediul suplimentar general de 3–7 zile lucrătoare prevăzut de contractul colectiv de muncă unic la nivel de sector de negociere colectivă învățământ preuniversitar și nu se cumulează cu acesta.
+
+Art. III. - (1) Prin derogare de la prevederile art. 10 alin. (2) din Legea învățământului preuniversitar nr. 198/2023, cu modificările și completările ulterioare, prezenta lege intră în vigoare la 3 zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+(2) Prevederile prezentei legi se aplică începând cu anul școlar 2026-2027.
+
+Aceasta lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI

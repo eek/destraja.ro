@@ -1,0 +1,49 @@
+ROMANIA
+
+ENA ROMANIA
+
+EXPUNERE DE MOTIVE
+
+Titlul proiectului actului normativ Constatarea din oficiu a prescripției și protecția debitorilor impotriva executărilor abuzive
+
+Executarea silită este un mecanism legitim într-un stat de drept, dar în România actuală produce abuzuri grave. Deși Codul civil și Codul de procedură civilă stabilesc termene clare de prescripție (3 ani pentru creanțe de drept privat, 10 ani pentru hotărâri judecătorești, 5 ani pentru creanțe fiscale), în practică datorii de 10-15 ani continuă să fie executate.
+
+Problemele majore identificate sunt: - Instanțele nu verifica prescripția din oficiu; - Debitorul are doar 15 zile să conteste executarea, termen nerealist pentru cetățenii simpli; - Comunicarea actelor este fictivă, prin depuneri la poștă sau afișări, fără dovada reală a luării la cunoștință; - Recuperatorii cumpără creanțe prescrise și pornesc executări abuzive; - Notificările simple sunt folosite abuziv ca „întreruperi" ale prescripției.
+
+Obiectivele proiectului Prezenta lege se aplică executărilor silite împotriva persoanelor fizice și nu afectează procedurile fiscale sau comerciale aplicabile persoanelor juridice.
+
+1\. Instanța și executorul vor verifica din oficiu prescripția. 2. Prescripția devine nulitate absolută, invocabilă oricând. 3. Comunicarea actelor devine efectivă: confirmare de primire, refuz consemnat de poștă, două încercări, apoi afișare. 4. Prescripția se întrerupe doar prin recunoașterea scrisă a datoriei sau prin acte judiciare reale. Notificările unilaterale nu mai întrerup termenul. 5. Creanțele prescrise nu mai pot fi executate după cesiune. 6. Executările în curs beneficiază procedural de invocarea prescripției, chiar daca termenul de 15 zile a expirat. 7. Legea se completează cu Codul civil și introduce posibilitatea de comunicare electronică certificată.
+
+ROMÂNIA
+
+SENAT ROMANIA
+
+Clarificari
+
+\- Retroactivitate: Legea nu modifică termenele de prescripție existente și nu produce efecte retroactive. Aplicarea în executările aflate deja pe rol este o normă procedurală, admisă de jurisprudența Curții Constituționale, care nu afectează fondul raporturilor juridice născute anterior.
+
+\- Aplicarea prevederilor art. 6 asupra procedurilor de executare în curs are caracter exclusiv procedural și nu produce efecte retroactive asupra raporturilor juridice născute anterior. Scopul este asigurarea securității raporturilor juridice și aplicarea unitară a termenelor de prescripție prevăzute de lege, în acord cu jurisprudența Curții Constituționale (Deciziile nr. 67/2015, nr. 297/2018, nr. 711/2020).
+
+\- Comunicarea actelor: Reglementarea comunicării efective a actelor (confirmare, refuz consemnat, două încercări, apoi afișare) nu îngreunează procedura, ci asigură echilibrul între celeritatea executării și dreptul debitorului la apărare, conform standardelor europene.
+
+\- Întreruperea prescripției: Transmiterea de notificări unilaterale nu poate întrerupe prescripția, intrucât nu constituie acte judiciare. Reglementarea propusă este în acord cu practica europeană (Franța, Germania), unde doar recunoașterea expresă a datoriei sau actele judiciare reale întrerup termenul.
+
+\- Cesiunea de creanțe: Se interzice doar executarea silită a creanțelor prescrise, nu și tranzacționarea lor ca drepturi contractuale. Astfel, libertatea contractuală nu este restrânsă, ci doar adusă în acord cu efectele prescripției extinctive prevăzute deja de Codul civil.
+
+\- Creanțele bugetare: Proiectul nu modifică termenele de prescripție fiscală (5 ani, respectiv 10 ani), ci doar întărește aplicarea lor prin verificarea din oficiu, consolidând securitatea juridică și respectarea legislației fiscale în vigoare.
+
+\- Instanțele de judecată: Verificarea prescripției din oficiu nu încarcă instanțele, ci le degrevează: verificarea se face simplu, pe baza datei titlului, fiind mult mai puțin consumatoare de timp decât soluționarea contestațillor la executare.
+
+ROMÂNIA
+
+SENA ROMANIA
+
+Constituționalitate și practici europene - Constituția (art. 1 alin. 5, art. 21, art. 44) și CEDO (art. 6, Protocolul 1 art. 1) impun securitatea juridică și echilibrul intre creditori și debitori. - CCR a recunoscut constant că termenele de prescripție sunt garanții ale stabilității juridice și că normele procedurale pot fi aplicate imediat și asupra proceselor în curs. - Franța (2 ani), Germania (3 ani), Marea Britanie (6 ani), Spania (mecanismuldación en pagoi) au reglementări similare sau mai stricte.
+
+Concluzie
+
+Această lege nu șterge datorii, ci doar oprește executările abuzive pentru creanțe prescrise. Este o măsură socială, europeană și constituțională, care protejează cetățenii, întărește justiția și aliniază România la standardele europene.
+
+Adoptarea rapidă a acestei legi va pune capăt practicilor abuzive care afectează cetățenii și va reduce volumul litigiilor inutile din instanțe, contribuind la degrevarea sistemului judiciar.
+
+Inițiator: Deputat Lucian-Nicolae ANDRUȘCĂ

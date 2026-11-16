@@ -1,0 +1,61 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+# LEGE privind avertizarea și alarmarea populației în situațiile de urgență generate de cutremure
+
+Parlamentul României adoptă prezenta lege
+
+## Art. 1
+
+(1) Prezenta lege reglementează implementarea și operarea Sistemului „Alertă cutremur”, prin care este realizată avertizarea timpurie și alarmarea populației în situații de urgență generate de cutremure, la nivel local și național, în funcție de magnitudinea inițială estimată a seismelor.
+
+(2) Sistemul „Alertă cutremur” se realizează prin aducerea la cunoștința populației a informațiilor referitoare la iminența producerii unor situații de urgență generate de cutremure, anterior producerii acestora, cu prezentarea informațiilor preliminare referitoare la seism, prin transmiterea de mesaje SMS prin intermediul rețelelor celulare, inclusiv prin intermediul mesajelor RO-ALERT, respectiv prin canale audiovizuale, cu prioritate și gratuit.
+
+(3) În sensul prezentei legi, prin mesaje SMS se înțelege acel serviciu de comunicații electronice care asigură transmiterea unor mesaje sub formă de text, între terminale conectate la o rețea de comunicații electronice, utilizând protocoale standardizate de rețea, astfel cum acestea sunt definite în Ordonanța de urgență a Guvernului nr. 111/2011 privind comunicațiile electronice, publicată în Monitorul Oficial al României, Partea I, nr. 925 din 27.12.2011, cu modificările și completările ulterioare, și în actele de reglementare ale Autorității Naționale pentru Administrare și Reglementare în Comunicații – ANCOM.
+
+(4) În sensul prezentei legi, prin mesaje RO-ALERT se înțelege acele mesaje de avertizare a populației vizate de producerea unei situații de urgență, astfel cum sunt definite în Ordonanța de urgență a Guvernului nr. 46/2019 privind operarea Sistemului de avertizare a populației în situații de urgență „RO-ALERT”, publicată în Monitorul Oficial al României, Partea I, nr. 528 din 27.06.2019.
+
+(5) În sensul prezentei legi, prin canale audiovizuale se înțelege orice serviciu media audiovizual, astfel cum acesta este definit în Legea audiovizualului nr. 504/2002, publicată în Monitorul Oficial al României, Partea I, nr. 534 din 22.07.2002.
+
+## Art. 2
+
+Mesajul de alertă conține cel puțin următoarele:
+
+a) ora detectării producerii seismului;
+
+b) locul producerii seismului, prin indicarea latitudinii și longitudinii;
+
+c) magnitudinea locală estimată a seismului;
+
+d) adâncimea estimată a seismului.
+
+## Art. 3
+
+Mesajul de alertă se creează prin intermediul unei aplicații informatice dedicate realizate de Serviciul de Telecomunicații Speciale, în baza informațiilor furnizate de Institutul Național de Cercetare-Dezvoltare pentru Fizica Pământului – INCDFP, care comunică datele pentru cutremurele de adâncime intermediară (mai adânci de 60 km) având magnitudinea locală estimată ML>4 și cutremure crustale (cu adâncimi de până în 60 km) având magnitudinea locală estimată ML>3,5, produse pe territoriul României sau în imediata apropiere, prin transmiterea unor seturi de date stabilite prin normele de punere în aplicare a legii.
+
+## Art. 4
+
+(1) Mesajul de alertă se transmite operatorilor, astfel cum aceștia sunt definiți în Ordonanța de urgență a Guvernului nr. 111/2011 privind comunicațiile electronice, publicată în Monitorul Oficial al României, Partea I, nr. 925 din 27.12.2011, și furnizorilor de servicii media audiovizuale, astfel cum aceștia sunt definiți în Legea audiovizualului nr. 504/2002, publicată în Monitorul Oficial, Partea I, nr. 534 din 22.07.2002, care asigură aducerea la cunoștință publică a mesajului.
+
+(2) Mesajul de alertă se transmite uneia sau tuturor persoanelor prevăzute la alin. (1), în funcție de magnitudinea locală estimată a cutremurului, în condițiile stabilite în normele de aplicare a prezentei legi.
+
+## Art. 5
+
+Transmiterea mesajelor de alertă prin mesaje SMS sau prin canale audiovizuale se realizează în condițiile stabilite de autoritățile cu atribuții de reglementare în domeniu, respectiv prin decizii emise de Autoritatea Națională pentru Administrare și Reglementare în Comunicații – ANCOM și decizii emise de Consiliul Național al Audiovizualului.
+
+## Art. 6
+
+(1) În situația în care transmiterea mesajului de alertă este realizată prin Sistemul de avertizare a populației în situații de urgență „RO-ALERT”, regulile de diseminare teritorială se adaptează la caracteristicile specifice acestui sistem.
+
+(2) Modalitatea și condițiile de conectare, precum și mecanismul de comunicare a alertei între sistemele Institutului Național de Cercetare-Dezvoltare pentru Fizica Pământului – INCDFP și sistemul „RO-ALERT” se stabilesc prin protocol încheiat între acest institut și Departamentul pentru Situații de Urgență, Inspectoratul General pentru Situații de Urgență și Serviciul de Telecomunicații Speciale.
+
+## Art. 7
+
+(1) În termen de 6 luni de la intrarea în vigoare a prezentei legi, Ministerul Dezvoltării, Lucrărilor Publice și Administrației și Ministerul Afacerilor Interne, prin ordin comun, adoptă normele de punere în aplicare a legii.
+
+(2) Protocolul prevăzut la art. 6, alin. (2) din prezenta lege se încheie în termen de 4 luni de la intrarea în vigoare a acesteia.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.

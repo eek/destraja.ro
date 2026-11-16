@@ -1,0 +1,52 @@
+{
+  "slug": "plx-734-2026",
+  "billId": "PL-x 734/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-16T08:32:32.237Z",
+  "inputHash": "673630bd900b",
+  "riskScore": 2,
+  "summary": "Un proiect cu intenție bună, dar adoptat fără garanțiile de conflict de interese și limitele de timp promise în expunerea de motive.",
+  "good": [
+    {
+      "text": "Permite consilierilor juridici să fie asistenți personali fără a-și pierde profesia, protejând dreptul la muncă și veniturile celor care îngrijesc persoane cu handicap grav.",
+      "article": "art. I (art. 11 lit. d))",
+      "quote": "„d) funcția de asistent personal al persoanei cu handicap grav și de asistent personal profesionist al persoanei cu handicap grav sau accentuat.”",
+      "weight": 3
+    }
+  ],
+  "bad": [
+    {
+      "text": "Lipsesc condițiile promise în motivare privind absența conflictului de interese, existând riscul ca un consilier juridic să fie plătit ca asistent de chiar instituția pe care o reprezintă.",
+      "article": "art. I (art. 11 lit. d))",
+      "quote": "„d) funcția de asistent personal al persoanei cu handicap grav și de asistent personal profesionist al persoanei cu handicap grav sau accentuat.”",
+      "weight": 2
+    },
+    {
+      "text": "Extinde excepția și la asistentul personal profesionist, care îngrijește la domiciliu, fără reguli privind cumulul normelor și timpul efectiv de muncă, riscând afectarea îngrijirii.",
+      "article": "art. I (art. 11 lit. d))",
+      "quote": "„d) funcția de asistent personal al persoanei cu handicap grav și de asistent personal profesionist al persoanei cu handicap grav sau accentuat.”",
+      "weight": 2
+    },
+    {
+      "text": "Amână intrarea în vigoare cu 90 de zile fără o justificare tehnică, întârziind aplicarea unei completări de un singur alineat care nu cere norme de aplicare.",
+      "article": "art. II",
+      "quote": "Art.II - Prezenta lege intră în vigoare la 90 de zile de la data publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Să se introducă în art. I condiții clare privind lipsa conflictului de interese, respectarea timpului de muncă și limitarea la cazuri compatibile cu îngrijirea efectivă.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 4,
+    "verified": 4
+  }
+}

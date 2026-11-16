@@ -1,0 +1,76 @@
+{
+  "slug": "plx-717-2026",
+  "billId": "PL-x 717/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-16T08:29:06.959Z",
+  "inputHash": "15a78d704da4",
+  "riskScore": 5.7,
+  "summary": "Un proiect cu intenție bună de limitare a abuzurilor cu comodate, dar scris neglijent, riscând blocarea leasingului și confuzii la depunerea actelor.",
+  "good": [
+    {
+      "text": "Limitarea la un singur comodat per operator autorizat reduce abuzurile flotelor mari care ascund venituri, fără a bloca micii șoferi ce folosesc o mașină de familie.",
+      "article": "art. unic (art. 13 alin. (2))",
+      "quote": "numai pentru autoturismele deținute în proprietate, închiriere sau pentru un singur autoturism deținut în baza unui contract de comodat.",
+      "weight": 2
+    },
+    {
+      "text": "Obligarea la contract de comodat autentificat notarial oferă dată certă și ajută autoritățile să verifice mai ușor cine folosește mașina în transportul alternativ.",
+      "article": "art. unic (art. 13 alin. (1) lit. d))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Menținerea termenului clar de 15 zile lucrătoare în care ARR trebuie să elibereze copia conformă protejează operatorii împotriva întârzierilor birocratice.",
+      "article": "art. unic (art. 13 alin. (1))",
+      "quote": "eliberează operatorului de transport alternativ, în termen de 15 zile lucrătoare de la înregistrarea cererii, câte o copie conformă a acesteia",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Lista restrictivă din text permite copia conformă numai pentru proprietate, închiriere sau un comodat, omițând leasingul și riscând blocarea mașinilor luate în leasing.",
+      "article": "art. unic (art. 13 alin. (2))",
+      "quote": "Copia conformă a autorizației pentru transportul alternativ se eliberează operatorului de transport alternativ autorizat numai pentru autoturismele deținute în proprietate, închiriere sau pentru un singur autoturism deținut în baza unui contract de comodat.",
+      "weight": 3
+    },
+    {
+      "text": "Textul cere depunerea documentelor enumerate fără formula după caz și reține la lit. d) doar comodatul, lăsând neclar ce acte dovedesc închirierea sau proprietatea.",
+      "article": "art. unic (art. 13 alin. (1) lit. d))",
+      "quote": "câte o copie conformă a acesteia după depunerea următoarelor documente, în copie:",
+      "weight": 3
+    },
+    {
+      "text": "Limita de un comodat se aplică per operator autorizat, nu per șofer, deci poate fi ocolită prin înființarea mai multor firme și nu protejează exclusiv PFA-urile.",
+      "article": "art. unic (art. 13 alin. (2))",
+      "quote": "se eliberează operatorului de transport alternativ autorizat numai pentru autoturismele deținute în proprietate, închiriere sau pentru un singur autoturism deținut",
+      "weight": 2
+    },
+    {
+      "text": "Expunerea de motive cere eliminarea totală a comodatului pentru evaziune fiscală, dar textul adoptat lasă un comodat per operator fără nicio analiză care să justifice pragul.",
+      "article": "art. unic (art. 13 alin. (2))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Obligația autentificării notariale pentru comodat aduce taxe și birocrație suplimentară micilor operatori, fără a împiedica înțelegerile fictive între rude sau afiliați.",
+      "article": "art. unic (art. 13 alin. (1) lit. d))",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Includerea expresă a leasingului la alin. (2) și adăugarea formulei după caz și a contractului de închiriere la alin. (1) lit. d) ar elimina blocajele juridice.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 3.5
+  },
+  "quotes": {
+    "checked": 5,
+    "verified": 5
+  }
+}

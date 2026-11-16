@@ -1,0 +1,57 @@
+ROMANIA
+
+EXPUNERE DE MOTIVE
+
+Prezenta propunere legislativă are ca scop revitalizarea stilurilor arhitecturale autohtone întâlnite în spațiul românesc prin stabilirea acestora ca normă de construire atunci când obiectul lucrărilor de construire este reprezentat de clădiri de tip administrativ aflate în proprietatea Statului Român. Un al doilea scop urmărit prin prezenta propunere legislativă este acela de a îmbunătăți viața cetățenilor prin promovarea unei arhitecturi cu o estetică plăcută și care oferă individului un sentiment de apartenență la cultura țării și a regiunii din care face parte. De asemenea, astfel, se vor promova particularitățile estetice și arhitectonice ale fiecărei regiuni istorice în parte, aspect care va întări sentimentul de apartenență și cel identitar al locuitorilor. Din punct de vedere al contextului istoric subliniem că, după obținerea independenței, Statul Român a înregistrat o dezvoltare accelerată. Această dezvoltare a fost realizată prin munca înaintașilor noștri iar efectele acestei munci se văd și astăzi prin clădirile istorice rămase moștenire. Subliniem că această dezvoltare rapidă a fost cauzată și de marea dorință a românilor de a ajunge din urmă țările occidentale. Astfel, timp de câteva decenii, orașele României au suferit o transformare arhitecturală și urbanistică accelerată. Stilurile arhitecturale utilizate au fost atât de natură autohtonă, cât și de natură străină în concordanță cu moda arhitecturală a vremurilor din spațiul european. Atenția la estetică și importanța dată unei dezvoltări urbane specifice orașelor europene moderne sunt dovezi ale dorinței românilor și administrației statului de a stabili clar apartenența istorică a României la familia europeană. Mai mult de atât, realizarea unor clădiri impresionante arhitectural pentru administrația publică a avut ca efect consolidarea Statului Român prin faptul că a inspirat sentimente de apartenență și solemnitate cetățenilor. Din păcate, această dezvoltare a fost oprită brusc și violent. După instaurarea definitivă a comunismului în 1947 orice dezvoltare arhitecturală specifică spațiului românesc și european a fost oprită. Din acel moment arhitectura de inspirație sovietică a fost preferată în realizarea construcțiilor administrative și civile. Utilizarea din acel moment a unor curente arhitecturale cum ar fi brutalismul a avut ca scop principal ștergerea identității naționale și înlăturarea sentimentelor de apartenență a cetățenilor. În final, a fost impus un
+
+ROMÂNIA
+
+si stil arhitectural omogen în tot spațiul de influență sovietică. Dovada clară a acestui scop o reprezintă fenomenul demolărilor agresive de fond construit vechi realizate de autoritățile comuniste. Istoricul Dinu C. Giurescu a afirmat că iÎn timpul elaborării acestui studiu, structura și aria clădită a cel puțin 29 orașe din România erau distruse în proporție de 85-90%, fiind înlocuite cu blocuri de apartamente de un caracter total diferiti. Lucrarea domnului Giurescu din care a fost extrasă informația prezentată se numește „Distrugerea trecutului României" și demonstrează natura ideologică a distrugerilor de patrimoniu realizate de regimul comunist. Din păcate, experiența comunistă a lăsat traume adânci în societatea românească, iar stilurile arhitecturale ce au fost utilizate în trecut nu au reușit să renască. Din această cauză, în ultimii 35 de ani dezvoltarea urbană a României a fost haotică, iar stilurile arhitecturale utilizate atât la construcțiile civile, cât și la construcțiile administrative, nu au ținut cont de identitatea și cultura națională și nici de elementele arhitectonice specifice local sau regional. Acest aspect este unul tragic intrucat regimul comunist a oprit brutal dezvoltarea arhitecturală naturală a României. Astfel, observăm că, după 1990, stilul de arhitectură preferat utilizat pentru construcții publice a fost tot brutalismul ori variații ale acestuia. Acest stil arhitectural s-a bucurat de popularitate chiar și în vestul Europei însă limitările acestuia sunt astăzi bine documentate și sunt marcate de o tendință accentuată de degradare, o popularitate scăzută din punct de vedere estetic și identitar și o lipsă a oricărui element de apartenență. Mai mult de atât, menționăm că o principală critică a soluțiilor de arhitectură și a propunerilor urbanistice ale renumitului arhitect Le Corbusier (important reprezentat al curentului brutalist) sunt bazate pe indiferența acestuia față de zonele construite vechi și pe efectul de izolare urbană a claselor sărace. În acest context, menționăm inclusiv politica actuală a Uniunii Europene prin care se încearcă îndepărtarea de stilurile brutaliste prin promovarea unei viziuni marcate de cultură și creativitate. Această politică a Uniunii Europene este cel mai bine reprezentată prin inițiativa „Noul Bauhaus european". Având în vedere cele de mai sus, considerăm că promovarea arhitecturii naționale autohtone prin utilizarea acesteia la construcția clădirilor administrative va aduce o serie de beneficii societății românești. Aceste noi clădiri administrative vor inspira populația și vor trezi în aceasta sentimente de respect, apartenență și solemnitate. Stilurile arhitecturale utilizate trebuie să respecte identitatea națională și regională a cetățenilor. Un alt efect va fi acela de a readuce la viață aceste stiluri arhitecturale întrucât familiarizarea populației României cu diversele
+
+ROMANIĄ
+
+tipuri de arhitectură clasică poate duce la începerea utilizării acestora în construcția clădirilor civile. în aceste condiții, considerăm că adoptarea acestui proiect de lege este justificată și necesară pentru asigurarea unui viitor pentru cultura arhitectonică a României. In temeiul art. 111 alin. (1) din Constituția României, republicată, vă adresăm rugămintea de a solicita Guvernului să comunice punctul de vedere asupra prezentei propuneri legislative.
+
+INIȚIATORI: Senator AUR Marius - Valentin Roman — Deputat AUR Ionelia - Florența Priescu —
+
+LISTA Susținătorilor propunerii legislative - Lege pentru reglementarea esteticii arhitecturale a clădirilor administrative din România
+
+Nr. | Numele și prenumele | Grupul | Semnătura parlamentar Ko lel EduARD | DUR GHEORGHE IONEL | AUR
+
+LUCiAN NIUSDE | AUR
+
+4\. | SORiN MANCACiY | AUR 5. | TILEA STRY | BABER VALENTIM AUR 6. Constestinescu Ando-Claudi AUR COst4 CORENDEN | AR MIOLĂU SAMUEL-HiRGIL | AUR 10. | GURLUÏ fiLViU-aCrAViANI AUR
+
+11\. | GROSU VERONiC | Bun 12. | PADIU GOORGEL | AUR
+
+13 | Vulpou Darel | AUR
+
+LISTA Susținătorilor propunerii legislative - Lege pentru reglementarea esteticii arhitecturale a clădirilor administrative din România
+
+Nr. | Numele și prenumele | Grupul | Semnătura parlamentar ARIA ANA -ECENA 14 - | ÜRUGEANU | A.U.R. SERBAN 5. | GiANINA | AUR SiMion 16 . | GEORGE MICOLAE | AUR PASCARIU 17. | MIHAI -COSMIN | 'AUR 18. | ATTIMON DAD | AUR PUSCASU 19. | PETRE | AUR H, STV 20. | OSMIN | AUR Pr'esue lonelio | HUR 21.. COLEÇA ILIE ALIN | AUR 22. 23. | Muteom Nelerin CALIN GHE 24. | MATIBS | suis
+
+95\. | ¡AGAR MOYCA | AUR 20. | LAURA GHERASIM | AUR
+
+LISTA Susținătorilor propunerii legislative - Lege pentru reglementarea esteticii arhitecturale a clădirilor administrative din România
+
+Nr. | Numele și prenumele | Grupul | Semnătura parlamentar LOVIN RAMONA | AUR 27-
+
+BiRO DANiEL-RÂZVAN 28. | AUR
+
+29- | BORDiAN ALEXANDRU | AOR
+
+30\. | AUR belescu Frezin bazelon 31- AVRAMESCU STEFÂNITA -ALIM | AUR
+
+32\. | Butura Custiva-Jiva | AUR PĂLMESM SÍLVIU-TITUS AUR 33 .
+
+34\. | Tanasé Don | FuR NEGOESCU MIHAI BOGDAN 35 .
+
+AUTATRIKA MANTREA - AUR 36 . DASCALU CRISTIXA AUK 3·. | EMANUELA 38. | LiDiA VANiM TODOR | AUR iOSUB COSMIN TEODOR | AUR 39
+
+LISTA Susținătorilor propunerii legislative - Lege pentru reglementarea esteticii arhitecturale a clădirilor administrative din România
+
+Nr. | Numele și prenumele | Grupul | Semnătura parlamentar PETRIȘOR-GABRiEL PEIU | AUR 2 Andrei Stinlau | AVR 3 Tetu Grotge ao) | AUR 4 | MEGMU CORMZUM | AuR 5 VLAHU NiCOLAE | AUR 6 DANTELA STEFÂNESCU AVR' Sordu Mircea-donat • AUR Siligeonu Godolin | AUK Virntu Vascin Ahor CHECAru KAIRCIA BUR Barcari Dosino: . AUR\< PĂUCEAN FERMANDES LUMINITA 13 | STELEA MICUUNA | • AUR
+
+LISTA Susținătorilor propunerii legislative - Lege pentru reglementarea esteticii arhitecturale a clădirilor administrative din România
+
+Nr. | Numele și prenumele | Grupul | Semnătura parlamentar COMSTAIMÎÎNESCU RODICA | AuR 15 | SIPOS EUGEN | ALR 16 | PLĂEȘU LAURENTIU | AUR 17. | VASILE MARiAXI | AUR 18. | Roman Manus-Valentin | AUR 19- | Spau Sunitier | DUlk 20. | LAVRiC fORiN | AUR 24. | COSTACHE CHERTiF | AUR 22. | Staia Cipian - Liti | FUR 25. | Voretu Orestian | ! 24. PARASCA TEOFIL | AIR 25. | Joob Citruan | ! AUR 26, | Geamanu Stefan

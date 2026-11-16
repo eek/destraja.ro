@@ -1,0 +1,64 @@
+{
+  "slug": "plx-728-2026",
+  "billId": "PL-x 728/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-16T08:31:40.293Z",
+  "inputHash": "4d6670408fac",
+  "riskScore": 1.7,
+  "summary": "O lege simbolică de comemorare culturală, fără obligații financiare noi, dar cu mici neclarități și greșeli de redactare.",
+  "good": [
+    {
+      "text": "Finanțarea evenimentelor este complet opțională și limitată strict la bugetele deja aprobate ale instituțiilor, fără a impune cheltuieli publice noi.",
+      "article": "art. 2 alin. (2)",
+      "quote": "pot aloca fonduri din bugetele proprii pentru a organiza sau sprijini logistic și/sau financiar manifestările culturale, artistice, educaționale, științifice sau programe de promovare, organizare în vederea respectării prevederilor alin. (1), în limita alocărilor bugetare aprobate.",
+      "weight": 2
+    },
+    {
+      "text": "Radioul și televiziunea publică pot decide singure dacă realizează și difuzează emisiuni tematice, fără a le fi impusă o obligație editorială.",
+      "article": "art. 2 alin. (3)",
+      "quote": "Societatea Română de Radiodifuziune și Societatea Română de Televiziune pot realiza și difuza programe și materiale dedicate „Anului Kós Kăroly”.",
+      "weight": 1
+    },
+    {
+      "text": "Actul are doar rol comemorativ și cultural, fără să impună taxe, amenzi, autorizări sau alte obligații cetățenilor ori firmelor.",
+      "article": "art. 1",
+      "quote": "Se instituie anul 2027 ca „Anul Kós Kăroly”, pentru marcarea împlinirii a 50 de ani de la moartea arhitectului, scriitorului și omului de cultură Kós Kăroly.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Formularea „se organizează” pare obligatorie, dar nu desemnează niciun responsabil și contrazice alineatul (2), unde implicarea este opțională.",
+      "article": "art. 2 alin. (1)",
+      "quote": "Cu prilejul sărbătoririi „Anului Kós Kăroly”, se organizează evenimente culturale, artistice, educaționale sau științifice dedicate vieții, operei și moștenirii lui Kós Kăroly.",
+      "weight": 2
+    },
+    {
+      "text": "Permite instituțiilor să finanțeze sau să sprijine manifestări și promovări fără a preciza criterii clare de acordare a banilor publici.",
+      "article": "art. 2 alin. (2)",
+      "quote": "pot aloca fonduri din bugetele proprii pentru a organiza sau sprijini logistic și/sau financiar manifestările culturale, artistice, educaționale, științifice sau programe de promovare",
+      "weight": 1
+    },
+    {
+      "text": "Proiectul conține greșeli evidente de redactare: numele „Kós Károly” este scris greșit cu „ă”, iar cuvântul „organizare” apare în loc de „organizate”.",
+      "article": "titlu, art. 1 și art. 2",
+      "quote": "manifestările culturale, artistice, educaționale, științifice sau programe de promovare, organizare în vederea respectării prevederilor alin. (1), în limita alocărilor bugetare aprobate.",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Clarificarea caracterului opțional al organizării la art. 2 alin. (1) și corectarea greșelilor de scriere a numelui și a cuvântului „organizate”.",
+    "removes": [
+      0,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.5
+  },
+  "quotes": {
+    "checked": 6,
+    "verified": 6
+  }
+}

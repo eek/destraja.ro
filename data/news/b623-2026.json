@@ -1,10 +1,12 @@
 {
   "slug": "b623-2026",
   "billId": "B623/2026",
-  "checkedAt": null,
+  "checkedAt": "2026-11-16T09:49:12.337Z",
   "indexCheckedAt": "2026-11-10T10:51:30.740Z",
   "models": {
-    "index": "ok"
+    "agy": "ok",
+    "claude": "ok",
+    "codex": "ok"
   },
   "articles": [
     {
@@ -14,9 +16,10 @@
       "domain": "jurnalul.ro",
       "publishedAt": "2026-11-10",
       "foundBy": [
-        "index"
+        "index",
+        "claude"
       ],
-      "quote": "Operatorii rețelelor electrice vor primi mână liberă să taie arborii care pun în pericol liniile de curent, inclusiv pe cei care se află în afara culoarelor de protecție a instalațiilor electrice, fără autorizație de exploatare și fără marcarea prealabilă a copacilor, potrivit unui proiect de lege depus recent la Parlament.",
+      "quote": "introduce un articol distinct în Codul silvic",
       "match": "quote",
       "firstSeenAt": "2026-11-10",
       "decision": {
@@ -52,5 +55,59 @@
       }
     }
   ],
-  "pending": []
+  "pending": [
+    {
+      "url": "https://gddhd.ro/politic-si-politici/senatorul-cristian-resmerita-printre-initiatorii-unui-proiect-de-lege-pentru-prevenirea-avariilor-la-retelele-electrice",
+      "title": "Senatorul Cristian Resmeriță, printre inițiatorii unui proiect de lege pentru prevenirea avariilor la rețelele electrice | Gazeta de dimineata",
+      "outlet": "gddhd.ro",
+      "domain": "gddhd.ro",
+      "publishedAt": "2026-11-10",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Senatorul PSD de Hunedoara, Cristian Resmeriță, se numără printre inițiatorii unui proiect de lege",
+      "match": "quote",
+      "firstSeenAt": "2026-11-16"
+    },
+    {
+      "url": "https://monitorulzilei.ro/2026/11/10/arborii-care-pun-in-pericol-liniile-electrice-ar-putea-fi-taiati-fara-autorizatie-ce-modificari-sunt-propuse-in-codul-silvic",
+      "title": "Arborii care pun în pericol liniile electrice ar putea fi tăiați fără autorizație. Ce modificări sunt propuse în Codul silvic - MonitorulZilei.ro",
+      "outlet": "MonitorulZilei.ro",
+      "domain": "monitorulzilei.ro",
+      "publishedAt": "2026-11-10",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Măsura este prevăzută într-un proiect legislativ depus recent la Parlament, care modifică atât Codul silvic, cât și Legea energiei electrice și a gazelor naturale.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-16"
+    },
+    {
+      "url": "https://rtvd.ro/copacii-periculosi-de-langa-liniile-electrice-taiati-fara-autorizatie-si-fara-marcaj-ce-schimbari-pregatesc-parlamentarii-in-codul-silvic",
+      "title": "Copacii periculoși de lângă liniile electrice, tăiați fără autorizație și fără marcaj. Ce schimbări pregătesc parlamentarii în Codul silvic &bull; RTVD",
+      "outlet": "RTVD",
+      "domain": "rtvd.ro",
+      "publishedAt": "2026-11-10",
+      "foundBy": [
+        "agy",
+        "claude"
+      ],
+      "quote": "Proiectul pus zilele trecute în dezbaterea senatorilor",
+      "match": "quote",
+      "firstSeenAt": "2026-11-16"
+    },
+    {
+      "url": "https://national.ro/dezvaluiri/anomalie-legislativa-angajatii-retelelor-electrice-risca-pana-la-7-ani-de-inchisoare-cand-intervin-la-avarii",
+      "title": "Intervenții la rețele electrice: risc penal la tăierea arborilor",
+      "outlet": "Național – Dezvăluiri, Scandaluri Politice și Știri din România",
+      "domain": "national.ro",
+      "publishedAt": "2026-11-09",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "se semnalează într-un proiect de lege depus la Senat, care corectează aceste inadvertențe grave.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-16"
+    }
+  ]
 }

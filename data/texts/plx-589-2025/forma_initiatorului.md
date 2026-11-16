@@ -1,0 +1,43 @@
+CAMERA DEPUTAȚILOR
+
+SENATUL ROMÂNIEI
+
+## LEGE
+
+# pentru completarea Legii nr.95/2006 privind reforma în domeniul sănătății
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic.- Legea nr.95/2006 privind reforma în domeniul sănătății, republicată în Monitorul Oficial al României, Partea I, nr.652 din 28 august 2015, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. După articolul 25 se introduce un nou articol, art. 25¹, cu următorul cuprins:
+
+„Art. 25¹ - (1) Se instituie Programul național de dozare anuală gratuită a vitaminei D, coordonat de Ministerul Sănătății, derulat prin medicii de familie și unitățile sanitare aflate în relație contractuală cu Casa Națională de Asigurări de Sănătate, destinat tuturor persoanelor asigurate în sistemul public de sănătate.
+
+(2) Ministerul Sănătății, prin direcțiile de sănătate publică, organizează anual campanii de informare și educație medicală privind importanța menținerii unui nivel optim de vitamina D și modalitățile de prevenire a deficitului.
+
+(3) Finanțarea programului prevăzut la alin. (1) se asigură din bugetul Ministerului Sănătății, prin Fondul Național Unic de Asigurări Sociale de Sănătate, precum și din alte surse legal constituite, inclusiv fonduri externe nerambursabile.”
+
+2\. La Titlul VIII - „Asigurările sociale de sănătate”, Capitolul II - „Pachetul de servicii de bază acordat persoanelor asigurate”, după articolul 224 se introduce un nou articol, art. 224¹, cu următorul cuprins:
+
+„Art.224¹ - Determinarea nivelului vitaminei D se include în pachetul paraclinic uzual de analize medicale, fiind disponibilă anual, gratuit, pentru toate persoanele asigurate în sistemul public de sănătate, indiferent de vârstă, în cadrul controalelor preventive realizate prin medicii de familie și unitățile sanitare aflate în relație contractuală cu Casa Națională de Asigurări de Sănătate.
+
+## 3. Dispoziții finale
+
+(1) Prezenta lege intră în vigoare la 30 de zile de la publicarea în Monitorul Oficial.
+
+(2) Ministerul Sănătății, în colaborare cu Casa Națională de Asigurări de Sănătate, elaborează normele metodologice de aplicare a prezentului program, care se aprobă prin hotărâre a Guvernului, în termen de 90 de zile de la intrarea în vigoare a prezentei legi.”
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art.75 și ale art.76 din Constituția României, republicată.
+
+PREȘEDINTE
+
+PREȘEDINTE
+
+CAMERA DEPUTAȚILOR
+
+SENATUL ROMÂNIEI
+
+GRINDEANU SORIN-MIHAI
+
+ABRUDEAN MIRCEA

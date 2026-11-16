@@ -1,0 +1,33 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru modificarea Ordonanței de urgență a Guvernului nr. 21/2022 privind instituirea cadrului legal pentru acordarea unui ajutor de stat pentru restructurarea Societății „Complexul Energetic Oltenia”- S.A.
+
+Senatul adoptă prezentul proiect de lege
+
+Art.I.- Ordonanța de urgență a Guvernului nr. 21/2022 privind instituirea cadrului legal pentru acordarea unui ajutor de stat pentru restructurarea Societății „Complexul Energetic Oltenia” - S.A., publicată în Monitorul Oficial al României, Partea I, nr.245 din 11 martie 2022, aprobată cu modificări prin Legea nr.185/2022, cu modificările ulterioare, se modifică după cum urmează:
+
+## 1. La articolul 3, alineatul (1) va avea următorul cuprins:
+
+„Art.3.- (1) Se autorizează Ministerul Energiei să acorde Societății granturi reprezentând contravaloarea în lei a sumei de 848,6 milioane euro ca parte a ajutorului de stat pentru restructurare sub forma de grant autorizat în valoare totală de 1.090 milioane euro, pentru implementarea Planului de restructurare, până în anul 2026 inclusiv, în scopul finanțării cheltuielilor cu certificatele de gaze cu emisii de efect de seră în perioada 2021 - 2025, din care 241,4 milioane euro, grant acordat în baza Ordonanței de urgență a Guvernului nr. 21/2021 pentru aprobarea acordării unui ajutor de stat de restructurare Societății „Complexul Energetic Oltenia” - S.A., cu modificările ulterioare.”
+
+## 2. La articolul 4, alineatul (3) va avea următorul cuprins:
+
+„(3) Se autorizează Ministerul Energiei să solicite includerea sumelor prevăzute la alin.(1) în bugetul de stat pentru anul 2027, cu excepția sumei de 425.838,4 mii lei reprezentând finanțarea cheltuielilor cu certificatele de emisii de gaze cu efect de seră corespunzătoare emisiilor de gaze provenite de la instalațiile societății. Plata aportului în numerar în conformitate cu hotărârea adunării generale extraordinare a acționarilor societății pentru aprobarea majorării capitalului social se va realiza în semestrul I al anului 2027, prin bugetul Ministerului Energiei.”
+
+## 3. La articolul 5, alineatul (2) va avea următorul cuprins:
+
+„(2) Tragerile din împrumuturile destinate acoperii cheltuielilor prevăzute la alin.(1) se efectuează până la data de 31 decembrie 2029.”
+
+Art.II.- Prin excepție de la prevederile art.3 alin.(3) din Ordonanța de urgență a Guvernului nr. 21/2022 privind instituirea cadrului legal pentru acordarea unui ajutor de stat pentru restructurarea Societății „Complexul Energetic Oltenia” - S.A., aprobată cu modificări prin Legea nr.185/2022, cu modificările ulterioare, diferența de grant în sumă de 425.838,4 mii lei, ce se acordă în anul 2026 pentru finanțarea cheltuielilor cu certificatele de emisii de gaze cu efect de seră, corespunzătoare emisiilor de gaze provenite de la instalațiile societății, se aprobă a fi acordat până la data de 31 decembrie 2026 de la bugetul de stat, prin bugetul Ministerului Energiei.
+
+Art.III.- Nerespectarea de către Societatea „Complexul Energetic Oltenia” - S.A. a destinației sumelor acordate potrivit prevederilor prezentei legi determină aplicarea de către Ministerul Energiei a măsurilor necesare în vederea recuperării ajutoarelor de stat și a dobânzilor aferente, potrivit art.33 - 38 din Ordonanța de urgență a Guvernului nr.77/2014 privind procedurile naționale în domeniul ajutorului de stat, precum și pentru modificarea și completarea Legii concurenței nr.21/1996, aprobată cu modificări și completări prin Legea nr.20/2015, cu modificările și completările ulterioare, și normelor europene în domeniul recuperării ajutoarelor de stat.
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 9 noiembrie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+MIRCEA ABRÚDEAN

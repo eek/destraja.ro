@@ -1,7 +1,12 @@
 {
   "slug": "plx-520-2026",
   "billId": "Pl-x 520/2026",
-  "updatedAt": "2026-10-30T09:38:07.454Z",
+  "updatedAt": "2026-11-16T08:23:40.266Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -32,6 +37,21 @@
         "claude": 3,
         "codex": 4
       }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L460FS.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Parlamentul aprobă împrumutul UE de 16,68 miliarde euro pentru apărare și drumuri strategice (SAFE)",
+      "summaryTlDr": "Este o lege tehnică de aprobare a unui împrumut UE standardizat, avantajos ca dobândă și scadență (45 de ani, 10 ani grație), fără obligații directe pentru cetățeni sau firme. Riscul real stă în controlul parlamentar slab: Art. 3 permite modificarea acordului prin hotărâre de Guvern, iar legea nu prevede nicio raportare către Parlament.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
     }
   ],
   "changes": [
@@ -40,7 +60,7 @@
       "to": "camera",
       "direction": "la_fel",
       "headline": "Fără schimbări de fond: Camera a adoptat împrumutul SAFE de 16,68 mld. euro în forma inițiatorului",
-      "summary": "Camera a păstrat textul inițial. S-au corectat doar diacritice, ghilimele și formula de adoptare. Riscurile rămân: costuri necuantificate în lege și amendamente aprobate de Guvern prin HG, fără Parlament.",
+      "summary": "Camera a păstrat neschimbate suma, costurile și puterile Guvernului. S-au modificat doar formula de adoptare, antetul și o greșeală de scriere, așa că riscurile pentru cetățeni și firme rămân aceleași ca inițial.",
       "changes": [],
       "remaining": {
         "problems": [
@@ -50,39 +70,39 @@
             "article": "art. 1"
           },
           {
-            "text": "Dobânda și costurile de lichiditate și regie sunt variabile, necuantificate în lege",
+            "text": "Dobânda și celelalte costuri nu sunt fixate, deci costul total pentru buget e necunoscut",
             "major": true,
             "article": "art. 2"
           },
           {
-            "text": "Guvernul aprobă amendamente la acord prin HG, fără informarea Parlamentului",
+            "text": "Guvernul poate aproba prin HG amendamente la acord, fără să informeze Parlamentul",
             "major": true,
             "article": "art. 3"
           },
           {
-            "text": "Amendamentele cu jaloane, termene sau condiționalități noi nu sunt excluse expres",
+            "text": "Amendamentele cu obligații nefinanciare (jaloane, termene, condiții) nu sunt excluse expres",
             "major": true,
             "article": "art. 3"
           },
           {
-            "text": "Parlamentul aprobă doar suma; repartizarea banilor pe instituții se face prin HG",
+            "text": "Parlamentul aprobă doar suma totală; împărțirea banilor se face prin HG",
             "major": true,
-            "article": null
+            "article": "art. 1"
           }
         ],
         "good": [
           {
-            "text": "Costul urmează finanțarea UE, probabil mai ieftin decât împrumutul României pe piață",
+            "text": "Costurile urmează costul de finanțare al UE, probabil sub dobânda pieței",
             "major": true,
             "article": "art. 2"
           },
           {
-            "text": "Amendamentele aprobate de Guvern nu pot majora obligațiile financiare ale României",
+            "text": "Amendamentele aprobate prin HG nu pot majora obligațiile financiare ale României",
             "major": true,
             "article": "art. 3"
           },
           {
-            "text": "Sursa plății este stabilită clar: bugetul MF - Acțiuni generale, capitolul 55.01",
+            "text": "Sursa de plată a dobânzilor și costurilor e precizată clar în buget",
             "major": false,
             "article": "art. 2"
           }
@@ -90,13 +110,76 @@
         "partial": false
       },
       "diff": {
-        "added": 9,
-        "removed": 9,
-        "same": 0
+        "added": 4,
+        "removed": 4,
+        "same": 0.56
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:36:53.305Z"
+      "schema": 4,
+      "updatedAt": "2026-11-16T08:23:23.267Z"
+    },
+    {
+      "from": "camera",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat același text ca și Camera: doar redactare, împrumutul SAFE rămâne neschimbat",
+      "summary": "Față de forma adoptată de cameră, cea adoptată de senat schimbă doar redactarea: „între” devine „dintre”, plus antetul, data adoptării și semnătura. Suma împrumutului, plata costurilor și puterile Guvernului rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Datorie publică nouă de 16,68 mld. euro, plătită din bugetul de stat",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Dobânda și costurile urmează costul de finanțare al UE, nu sunt fixate",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Guvernul modifică acordul prin HG, fără Parlament; jaloanele și condiționalitățile nu sunt excluse",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Parlamentul aprobă doar suma totală, nu destinația cheltuielilor",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Nicio obligație de raportare către Parlament privind trageri, fonduri sau amendamente",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Amendamentele aprobate prin HG nu pot majora obligațiile financiare ale României",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Finanțare pe termen lung, probabil mai ieftină decât împrumutul României pe piață",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Sursa bugetară pentru dobânzi și alte costuri este indicată explicit",
+            "major": false,
+            "article": "art. 2"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0.56
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-16T08:23:40.266Z"
     }
   ]
 }

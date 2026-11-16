@@ -1,0 +1,66 @@
+{
+  "slug": "plx-726-2026",
+  "billId": "PL-x 726/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-16T08:31:15.648Z",
+  "inputHash": "236f86474c35",
+  "riskScore": 3.3,
+  "summary": "Un scop echitabil pentru pensionarii militari de bună-credință, dar redactat neglijent, fără normă tranzitorie și fără calculul impactului bugetar.",
+  "good": [
+    {
+      "text": "Scutește și pensionarii militari de bună-credință de returnarea sumelor plătite în plus din eroarea statului, la fel ca în sistemul public.",
+      "article": "art. unic (art. 1)",
+      "quote": "debitele constituite sau care urmează a fi constituite în sarcina beneficiarilor din sistemul public de pensii/sistemul de pensii militare de stat, reprezentând sume încasate necuvenit",
+      "weight": 3
+    },
+    {
+      "text": "Actualizează legea veche cu trimiterea la noua lege a pensiilor publice, astfel încât scutirea de datorii să rămână aplicabilă fără blocaje.",
+      "article": "art. unic (art. 1)",
+      "quote": "Prin derogare de la prevederile Legii nr. 360/2023 privind sistemul public de pensii, cu modificările și completările ulterioare",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Renunță la recuperarea datoriilor militare prezente și viitoare fără fișă financiară și fără nicio estimare a banilor pierduți de buget.",
+      "article": "art. unic (art. 1)",
+      "quote": "debitele constituite sau care urmează a fi constituite în sarcina beneficiarilor din sistemul public de pensii/sistemul de pensii militare de stat",
+      "weight": 3
+    },
+    {
+      "text": "Lipsește norma tranzitorie promisă în motivare, lăsând neclară soarta datoriilor militare deja stabilite și aflate în curs de recuperare.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Folosește bara oblică între sisteme și derogă în bloc de la două legi întregi, nu de la articolele de recuperare, permițând interpretări.",
+      "article": "art. unic (art. 1)",
+      "quote": "Prin derogare de la prevederile Legii nr. 360/2023 privind sistemul public de pensii, cu modificările și completările ulterioare și ale Legii nr. 223/2015",
+      "weight": 2
+    },
+    {
+      "text": "Are greșeli de redactare: titlul scrie «protecție social» și «completarea», iar textul spune «se modifică și se completează» și repetă «art. 1».",
+      "article": "titlu și art. unic",
+      "quote": "pentru completarea Legii nr. 125/2014 privind scutirea de la plată a unor debite provenite din pensii și pentru stabilirea unor măsuri de protecție social, cu modificările și completările ulterioare",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Trebuie adăugate fișa financiară și norma tranzitorie promisă, iar titlul și articolul unic trebuie rescrise clar, fără erori de redactare, bara oblică și derogarea în bloc.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 5,
+    "verified": 5
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "plx-740-2026",
+  "billId": "PL-x 740/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-16T08:33:58.887Z",
+  "inputHash": "934bf53aebd0",
+  "riskScore": 1.7,
+  "summary": "Un proiect declarativ și neobligatoriu, cu un scop comemorativ legitim și fără costuri impuse, afectat doar de mici scăpări de redactare.",
+  "good": [
+    {
+      "text": "Protejează bugetul public: sprijinul financiar, material și logistic nu este obligatoriu și se acordă strict în limita resurselor deja disponibile.",
+      "article": "art. 3 alin. (1)",
+      "quote": "pot acorda sprijin material, financiar și logistic pentru organizarea de evenimente culturale și educative dedicate Zilei comemorării victimelor ocupației sovietice a Basarabiei, Bucovinei de Nord și Ținutului Herța, în limita resurselor financiare și logistice disponibile.",
+      "weight": 2
+    },
+    {
+      "text": "Nu impune obligații, taxe, sancțiuni sau control editorial: serviciile publice de presă, radio și TV au doar opțiunea, nu obligația, de a difuza materiale.",
+      "article": "art. 4",
+      "quote": "în calitate de servicii publice, pot produce, difuza sau redifuza conținut editorial care promovează memoria victimelor ocupației sovietice a Basarabiei, Bucovinei de Nord și Ținutului Herța.",
+      "weight": 2
+    },
+    {
+      "text": "Instituie un cadru oficial de comemorare a victimelor ocupației sovietice și permite activități educative și culturale, inclusiv prin organizațiile minorităților.",
+      "article": "art. 2",
+      "quote": "instituțiile publice de cultură din țară și străinătate, precum și organizațiile aparținând minorităților naționale pot organiza activități culturale, sociale, educative și artistice prin care să fie promovate istoria românilor și memoria victimelor ocupației sovietice.",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Cere asociațiilor și fundațiilor partenere să aibă ca obiect de activitate chiar promovarea acestei zile, ceea ce poate exclude organizațiile de istorie și educație.",
+      "article": "art. 3 alin. (2)",
+      "quote": "pot organiza manifestări culturale în colaborare cu muzee, centre culturale, școli, instituții religioase, asociații și fundații care au ca obiect de activitate promovarea Zilei comemorării victimelor ocupației sovietice a Basarabiei, Bucovinei de Nord și Ținutului Herța.",
+      "weight": 2
+    },
+    {
+      "text": "Titlul folosește formula «Nordului Bucovinei», iar articolele 1–4 scriu «Bucovinei de Nord», creând o neconcordanță asupra denumirii oficiale a zilei.",
+      "article": "titlu și art. 1–4",
+      "quote": "pentru instituirea zilei de 28 iunie ca „Ziua comemorării victimelor ocupației sovietice a Basarabiei, Nordului Bucovinei și Ținutului Herța”",
+      "weight": 1
+    },
+    {
+      "text": "Nu stabilește criterii clare de selecție pentru acordarea sprijinului financiar și logistic, lăsând decizia la latitudinea fiecărei autorități.",
+      "article": "art. 3 alin. (1)",
+      "quote": "pot acorda sprijin material, financiar și logistic pentru organizarea de evenimente culturale și educative dedicate Zilei comemorării victimelor ocupației sovietice a Basarabiei, Bucovinei de Nord și Ținutului Herța",
+      "weight": 1
+    },
+    {
+      "text": "Folosește termenul impropriu de «celebrare anuală» pentru o zi de comemorare a victimelor, o formulare nepotrivită semantic și protocolar.",
+      "article": "art. 4",
+      "quote": "Cu ocazia celebrării anuale a Zilei comemorării victimelor ocupației sovietice a Basarabiei, Bucovinei de Nord și Ținutului Herța",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Eliminarea cerinței ca ONG-urile partenere să aibă ca obiect exact promovarea acestei zile și uniformizarea denumirii între titlu și articole.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.5
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

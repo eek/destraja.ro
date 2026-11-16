@@ -1,10 +1,12 @@
 {
   "slug": "b636-2026",
   "billId": "B636/2026",
-  "checkedAt": null,
+  "checkedAt": "2026-11-16T09:59:56.937Z",
   "indexCheckedAt": "2026-11-13T09:10:34.644Z",
   "models": {
-    "index": "ok"
+    "agy": "ok",
+    "claude": "ok",
+    "codex": "ok"
   },
   "articles": [
     {
@@ -14,9 +16,10 @@
       "domain": "alba24.ro",
       "publishedAt": "2026-11-12",
       "foundBy": [
-        "index"
+        "index",
+        "claude"
       ],
-      "quote": "Un proiect de lege înregistrat recent la Senat propune eliminarea mecanismului de suprataxare a contractelor cu timp parțial.",
+      "quote": "Inițiativa este semnată de parlamentari PNL, PSD și USR.",
       "match": "quote",
       "firstSeenAt": "2026-11-13",
       "decision": {
@@ -50,6 +53,19 @@
           }
         }
       }
+    },
+    {
+      "url": "https://www.digi24.ro/digieconomic/consumer/supraimpozitarea-contractelor-part-time-ar-putea-fi-eliminata-proiect-depus-la-senat-126787",
+      "title": "Supraimpozitarea contractelor part-time ar putea fi eliminată. Proiect depus la Senat",
+      "outlet": "Digi24",
+      "domain": "digi24.ro",
+      "publishedAt": "2026-11-12",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Contribuțiile sociale pentru contractele de muncă cu timp parțial ar putea fi calculate în funcție de venitul efectiv al angajatului, fără raportarea obligatorie la salariul minim brut pe economie, potrivit unui proiect de modificare a Codului fiscal, depus miercuri, 11 noiembrie, la Senat.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-16"
     }
   ],
   "pending": []

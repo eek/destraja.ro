@@ -1,0 +1,89 @@
+{
+  "slug": "plx-716-2026",
+  "billId": "PL-x 716/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-16T08:29:19.790Z",
+  "inputHash": "9dc37d598abb",
+  "riskScore": 3.7,
+  "summary": "Un proiect cu intenție și garanții bune pentru creditori, dar cu neclarități și asimetrii în modul de aplicare și sancționare.",
+  "good": [
+    {
+      "text": "Asociații își pot recupera împrumuturile doar dacă firma nu are datorii restante la salariați, buget și furnizori și își acoperă plățile din următoarele 30 de zile.",
+      "article": "art. I, art. 67 alin. (2⁴)",
+      "quote": "dacă, la data restituirii, societatea nu are obligații certe, lichide și exigibile neachitate față de salariați, bugetul general consolidat ori creditori neafiliați și dacă, după restituire, disponibilitățile bănești acoperă",
+      "weight": 3
+    },
+    {
+      "text": "Permite firmelor cu pierderi să returneze împrumuturile primite de la asociați când situația o permite, încurajând finanțarea lor în perioade grele.",
+      "article": "art. I, art. 67 alin. (2⁴)",
+      "quote": "Prin excepție, împrumuturile primite de la acționari sau asociați, evidențiate distinct în contabilitatea societății, pot fi restituite, integral sau parțial",
+      "weight": 2
+    },
+    {
+      "text": "Menține interdicția generală de restituire pentru firmele subcapitalizate și cere evidențierea separată a împrumuturilor în contabilitate, prevenind scoaterea necontrolată a banilor.",
+      "article": "art. I, art. 67 alin. (2⁴)",
+      "quote": "au activul net mai mic decât jumătate din capitalul social subscris nu pot restitui împrumuturile primite de la acționari, asociați ori alte persoane afiliate",
+      "weight": 2
+    },
+    {
+      "text": "Limitează răspunderea pentru datoriile la stat la suma restituită ilegal, evitând sancțiuni financiare disproporționate față de valoarea împrumutului.",
+      "article": "art. I, art. 67 alin. (2⁵)",
+      "quote": "răspund solidar pentru obligațiile bugetare restante datorate de societate și administrate de organul fiscal central, în limita sumelor acordate ori restituite cu încălcarea interdicțiilor.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Excepția folosește termeni neclari și nu spune cum sunt tratate taxele eșalonate, facturile contestate ori banii blocați în conturi, lipsind și obligația de a întocmi un act doveditor.",
+      "article": "art. I, art. 67 alin. (2⁴)",
+      "quote": "societatea nu are obligații certe, lichide și exigibile neachitate față de salariați, bugetul general consolidat ori creditori neafiliați și dacă, după restituire, disponibilitățile bănești acoperă",
+      "weight": 2
+    },
+    {
+      "text": "Excepția îi ajută doar pe acționari și asociați, lăsând blocate fără explicație împrumuturile de la firme din același grup, precum firmele-surori.",
+      "article": "art. I, art. 67 alin. (2⁴)",
+      "quote": "Prin excepție, împrumuturile primite de la acționari sau asociați, evidențiate distinct în contabilitatea societății, pot fi restituite, integral sau parțial",
+      "weight": 2
+    },
+    {
+      "text": "Răspunderea solidară protejează doar taxele administrate de ANAF, lăsând fără această garanție bugetele locale, salariații și furnizorii neplătiți.",
+      "article": "art. I, art. 67 alin. (2⁵)",
+      "quote": "răspund solidar pentru obligațiile bugetare restante datorate de societate și administrate de organul fiscal central, în limita sumelor acordate ori restituite",
+      "weight": 2
+    },
+    {
+      "text": "Verificarea banilor doar pentru următoarele 30 de zile nu dovedește că firma va supraviețui și nu îi protejează pe creditorii cu plăți scadente imediat după acest termen.",
+      "article": "art. I, art. 67 alin. (2⁴)",
+      "quote": "disponibilitățile bănești acoperă obligațiile certe și lichide față de aceștia, a căror scadență intervine în următoarele 30 de zile.",
+      "weight": 2
+    },
+    {
+      "text": "Textul spune greșit că firma răspunde solidar pentru propriile ei datorii la stat, deși firma este oricum obligată să le plătească singură.",
+      "article": "art. I, art. 67 alin. (2⁵)",
+      "quote": "societatea și persoana căreia i-au fost acordate ori restituite împrumuturi cu încălcarea acestor dispoziții răspund solidar pentru obligațiile bugetare restante datorate de societate",
+      "weight": 1
+    },
+    {
+      "text": "Expunerea de motive justifică eliminarea totală a interdicției printr-un alt articol, neexplicând deloc excepția cu condiții și regulile adoptate efectiv de Senat.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Clarificați în art. 67 alin. (2⁴) termenii financiari, tratamentul datoriilor eșalonate sau contestate și al firmelor afiliate, iar în alin. (2⁵) extindeți răspunderea solidară la tot bugetul consolidat și corectați redactarea.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

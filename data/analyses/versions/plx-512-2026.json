@@ -1,8 +1,28 @@
 {
   "slug": "plx-512-2026",
   "billId": "PL-x 512/2026",
-  "updatedAt": "2026-10-30T09:36:44.262Z",
+  "updatedAt": "2026-11-16T08:18:32.511Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L358FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Scutece pentru adulți compensate 80% de Casa de Sănătate, pe rețetă de la specialist",
+      "summaryTlDr": "Este o lege socială benignă și utilă: nu creează taxe, sancțiuni sau monopoluri. Problemele sunt de tehnică legislativă și de finanțare. Textul este atât de scurt încât dreptul riscă să rămână pe hârtie până la norme de aplicare pe care legea nici măcar nu le cere explicit.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,59 +56,64 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
+      "from": "initiator",
+      "to": "senat",
       "direction": "la_fel",
-      "headline": "Fără schimbări de fond: scutecele pentru adulți rămân compensate 80%, cu aceleași lacune ca inițial",
-      "summary": "Forma adoptată de Cameră reformulează doar câteva expresii din art. 2². Dreptul, procentul de 80%, prescrierea de către specialist și lipsurile rămân aceleași: prețul de referință nu e definit, sursa de bani lipsește și nu există termen pentru norme.",
+      "headline": "Senatul a păstrat neschimbat dreptul la scutece pentru adulți compensate 80%; s-a modificat doar forma",
+      "summary": "Textul de fond este identic: asigurații primesc scutece pentru adulți compensate 80%, pe rețeta medicului specialist. S-au schimbat doar formula de adoptare și structura articolului. Problemele inițiale rămân: preț nedefinit, lipsa banilor și a regulilor de aplicare.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "„Preț de referință” nedefinit, fără autoritate sau act care să-l stabilească",
+            "text": "„Prețul de referință” nu este definit și nu are un mecanism de stabilire",
             "major": true,
             "article": "art. 2²"
           },
           {
-            "text": "Cheltuială permanentă din FNUASS fără estimare de cost și fără sursă de finanțare",
+            "text": "Doar medicul specialist prescrie; vârstnicii imobilizați au greu acces, medicul de familie exclus",
             "major": true,
             "article": "art. 2²"
           },
           {
-            "text": "Coplată uniformă de 20%, fără scutiri pentru pensionari săraci sau handicap grav",
+            "text": "Cheltuială nouă și permanentă din FNUASS, fără sursă de finanțare",
             "major": true,
             "article": "art. 2²"
           },
           {
-            "text": "Doar „scutece pentru adulți”: rămân în afară alte absorbante și copiii cu dizabilități",
+            "text": "Risc de neconstituționalitate față de art. 138 alin. (5) din Constituție",
             "major": true,
             "article": "art. 2²"
           },
           {
-            "text": "Fără termen de aplicare și fără delegare pentru norme, deci risc de literă moartă",
+            "text": "Coplata de 20% este uniformă, fără scutiri pentru pensionari săraci sau handicap grav",
+            "major": true,
+            "article": "art. 2²"
+          },
+          {
+            "text": "Lipsesc cantitățile, perioada și procedura de eliberare; nu există termen pentru norme",
             "major": false,
             "article": "art. 2²"
           },
           {
-            "text": "Prescriere doar de medicul specialist, medicul de familie nu este menționat",
-            "major": false,
-            "article": "art. 2²"
-          },
-          {
-            "text": "Cantitățile, perioada și procedura de eliberare nu sunt stabilite în lege",
+            "text": "Nu există o intrare în vigoare amânată pentru corelarea cu bugetul",
             "major": false,
             "article": "art. 2²"
           }
         ],
         "good": [
           {
-            "text": "Asigurații primesc dreptul la scutece pentru adulți compensate în proporție de 80%",
+            "text": "Asigurații primesc un drept nou: scutece pentru adulți compensate 80%",
             "major": true,
             "article": "art. 2²"
           },
           {
-            "text": "Dreptul se aplică indiferent dacă afecțiunea este temporară sau permanentă",
+            "text": "Dreptul se aplică atât afecțiunilor temporare, cât și celor permanente",
             "major": true,
+            "article": "art. 2²"
+          },
+          {
+            "text": "Dreptul este introdus direct în Legea drepturilor pacientului, ca articol distinct",
+            "major": false,
             "article": "art. 2²"
           }
         ],
@@ -96,12 +121,103 @@
       },
       "diff": {
         "added": 4,
-        "removed": 3,
+        "removed": 8,
         "same": 0
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:36:20.192Z"
+      "schema": 4,
+      "updatedAt": "2026-11-16T08:18:13.597Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Compensarea de 80% la scutecele pentru adulți rămâne neschimbată; acum doar reformulări de text",
+      "summary": "Forma adoptată de Cameră păstrează dreptul la scutece pentru adulți compensate 80%, pe prescripția medicului specialist. S-a schimbat doar formularea: „sistemul de asigurări sociale de sănătate” în loc de CNAS și „un preț de referință” în loc de „prețul de referință”.",
+      "changes": [
+        {
+          "title": "Beneficiarii: asigurații din sistemul de asigurări sociale",
+          "text": "La art. 2², trimiterea la „sistemul Casei Naționale de Asigurări de Sănătate” devine „sistemul de asigurări sociale de sănătate”. Cercul beneficiarilor rămâne practic același.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 2²",
+          "before": "Pacienții asigurați în sistemul Casei Naționale de Asigurări de Sănătate au dreptul să beneficieze de scutece pentru adulți",
+          "after": "Pacienții asigurați în cadrul sistemului de asigurări sociale de sănătate au dreptul la scutece pentru adulți",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "„Prețul de referință” devine „un preț de referință”",
+          "text": "La art. 2², articolul hotărât dispare. Formularea nedefinită face și mai puțin clar la ce preț se raportează compensarea de 80%, care rămâne neschimbată.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 2²",
+          "before": "compensate în proporție de 80% din prețul de referință",
+          "after": "compensate în proporție de 80% dintr-un preț de referință",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "„Preț de referință” nedefinit, fără autoritatea și actul care îl stabilesc",
+            "major": true,
+            "article": "art. 2²"
+          },
+          {
+            "text": "Cheltuială permanentă din FNUASS fără estimare de cost și sursă de finanțare",
+            "major": true,
+            "article": "art. 2²"
+          },
+          {
+            "text": "Prescriere doar de medicul specialist; medicul de familie nu e menționat",
+            "major": true,
+            "article": "art. 2²"
+          },
+          {
+            "text": "Coplata de 20% e uniformă, fără scutiri pentru pensionari săraci sau handicap grav",
+            "major": true,
+            "article": "art. 2²"
+          },
+          {
+            "text": "Doar „scutece pentru adulți”: exclude alte absorbante și copiii cu dizabilități",
+            "major": true,
+            "article": "art. 2²"
+          },
+          {
+            "text": "Lipsesc cantitățile, perioada și procedura de eliberare a scutecelor",
+            "major": false,
+            "article": "art. 2²"
+          },
+          {
+            "text": "Fără termen de aplicare și fără delegare expresă pentru norme; risc de literă moartă",
+            "major": false,
+            "article": "art. 2²"
+          }
+        ],
+        "good": [
+          {
+            "text": "Drept nou la scutece pentru adulți compensate în proporție de 80%",
+            "major": true,
+            "article": "art. 2²"
+          },
+          {
+            "text": "Se aplică indiferent dacă afecțiunea este temporară sau permanentă",
+            "major": true,
+            "article": "art. 2²"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "same": 0.25
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-16T08:18:32.511Z"
     }
   ]
 }

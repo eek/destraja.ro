@@ -1,0 +1,76 @@
+{
+  "slug": "plx-723-2026",
+  "billId": "Pl-x 723/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-16T08:31:02.918Z",
+  "inputHash": "d8d2b4512f95",
+  "riskScore": 2.3,
+  "summary": "O lege cu scop bun pentru mobilitatea elevilor, dar afectată de închiderea listei cazurilor speciale și de câteva omisiuni de redactare.",
+  "good": [
+    {
+      "text": "Deschide sesiunea specială de bacalaureat pentru absolvenții admiși condiționat sau înscriși la universități acreditate din UE ori state terțe când diploma este cerută mai devreme.",
+      "article": "art. I (art. 103 alin. (6) lit. a))",
+      "quote": "absolventul clasei a XII-a/a XIII-a face dovada că a fost admis condiționat sau că participă la un concurs de admitere la o instituție de învățământ superior acreditată",
+      "weight": 3
+    },
+    {
+      "text": "Păstrează expres în lege accesul la sesiunea specială pentru elevii din loturile olimpice și competițiile sportive sau artistice internaționale.",
+      "article": "art. I (art. 103 alin. (6) lit. b))",
+      "quote": "elevii din clasa a XII-a/a XIII-a participanți la loturile olimpice și la competițiile sportive și artistice internaționale care se desfășoară în perioada sesiunii normale de bacalaureat",
+      "weight": 2
+    },
+    {
+      "text": "Obligă Ministerul Educației și Cercetării să actualizeze metodologia de bacalaureat în 30 de zile de la intrarea în vigoare, pentru aplicare rapidă.",
+      "article": "art. II",
+      "quote": "În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Ministerul Educației și Cercetării va modifica metodologia de organizare",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Enumerarea devine închisă prin lit. c) («alte cazuri speciale stabilite prin lege»); cazurile medicale grave sau forța majoră vor cere o nouă lege.",
+      "article": "art. I (art. 103 alin. (6))",
+      "quote": "Constituie cazuri temeinic justificate, în sensul prezentului alineat, următoarele situații:",
+      "weight": 3
+    },
+    {
+      "text": "Condiția privește doar termenul diplomei, lăsând neacoperiți elevii ale căror examene de admitere se suprapun cu probele sesiunii normale de bacalaureat.",
+      "article": "art. I (art. 103 alin. (6) lit. a))",
+      "quote": "iar termenul impus de instituție pentru prezentarea diplomei de bacalaureat este anterior datei de eliberare a acesteia în sesiunea normală",
+      "weight": 2
+    },
+    {
+      "text": "Formula «se poate organiza» menține sesiunea specială facultativă, fără a consacra un drept clar al candidatului eligibil și fără termene de soluționare.",
+      "article": "art. I (art. 103 alin. (6))",
+      "quote": "în cazuri temeinic justificate, se poate organiza și o sesiune de bacalaureat specială, aprobată prin ordin al ministrului educației",
+      "weight": 2
+    },
+    {
+      "text": "Trimite la metodologia «în vigoare la data adoptării», nu la data intrării în vigoare, creând neclaritate dacă metodologia se schimbă între vot și publicare.",
+      "article": "art. II",
+      "quote": "va modifica metodologia de organizare și desfășurare a examenului de bacalaureat, în vigoare la data adoptării prezentei legi",
+      "weight": 1
+    },
+    {
+      "text": "Nu stabilește ce acte dovedesc admiterea condiționată ori acreditarea universității din state terțe și nu clarifică folosirea adeverințelor în locul diplomei.",
+      "article": "art. I (art. 103 alin. (6) lit. a))",
+      "quote": "admis condiționat sau că participă la un concurs de admitere la o instituție de învățământ superior acreditată dintr-un stat membru al Uniunii Europene sau dintr-un stat terț",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Dacă lit. c) ar permite și situații medicale ori de forță majoră reglementate prin metodologie, iar lit. a) ar acoperi și suprapunerea datelor de examen, proiectul ar deveni echilibrat.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "plx-731-2026",
+  "billId": "Pl-x 731/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-16T08:32:00.222Z",
+  "inputHash": "8083e308c078",
+  "riskScore": 3,
+  "summary": "O lege benefică pentru pacienții cu boli grave, cu mici lipsuri de claritate la boli asociate, tranziție și impact bugetar.",
+  "good": [
+    {
+      "text": "Elimină plafonul de o investigație pe an în regimul Monitor pentru boli cardiovasculare, cerebrovasculare, neurologice și rare, decontând tot ce recomandă medicul specialist.",
+      "article": "Art. I",
+      "quote": "se decontează toate investigațiile de înaltă performanță sau de medicină nucleară necesare monitorizării, dintre cele prevăzute în pachetul de servicii medicale de bază, conform indicației medicului specialist.",
+      "weight": 3
+    },
+    {
+      "text": "Păstrează controale contra abuzului: se decontează doar investigații din pachetul de bază, necesare monitorizării și indicate de medicul specialist.",
+      "article": "Art. I",
+      "quote": "necesare monitorizării, dintre cele prevăzute în pachetul de servicii medicale de bază, conform indicației medicului specialist.",
+      "weight": 2
+    },
+    {
+      "text": "Garantează pacienților cu diabet sau boală cronică renală acces la investigații suplimentare, atât pentru boala de bază, cât și pentru alte afecțiuni, în pachetul de bază.",
+      "article": "Art. I",
+      "quote": "Aceste persoane pot beneficia, pentru afecțiunea de bază sau pentru alte afecțiuni intercurente, de investigații de înaltă performanță sau de medicină nucleară, în condițiile prevăzute în același pachet de servicii.",
+      "weight": 2
+    },
+    {
+      "text": "Obligă Guvernul, Ministerul Sănătății și CNAS să actualizeze Contractul-cadru și normele în 30 de zile, pentru aplicarea unitară a noilor reguli.",
+      "article": "Art. II alin. (1) și (2)",
+      "quote": "În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Guvernul va pune în concordanță cu dispozițiile art. I Hotărârea Guvernului nr. 521/2023",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu clarifică ce regulă se aplică dacă un pacient are și diabet/boală renală, și o boală cardiovasculară sau neurologică, riscând limitarea nejustificată la o investigație/an.",
+      "article": "Art. I",
+      "quote": "Pentru persoanele asigurate diagnosticate cu diabet zaharat sau boală cronică renală, se decontează, în cadrul monitorizării prevăzute la alin. (4), o singură investigație de înaltă performanță sau de medicină nucleară într-un an calendaristic",
+      "weight": 2
+    },
+    {
+      "text": "Nu prevede norme tranzitorii pentru perioada de 30 de zile până la modificarea normelor CNAS, ceea ce poate bloca sau întârzia decontarea trimiterilor aflate în curs.",
+      "article": "Art. II",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Lipsește evaluarea impactului financiar pe 5 ani asupra bugetului de sănătate, fișa financiară fiind doar cerută Guvernului, nu atașată proiectului.",
+      "article": "Expunerea de motive, pct. VIII",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Conține greșeli de redactare («acțe normative», «Normele metodologică»), semn că textul necesită revizie tehnică înainte de adoptarea finală.",
+      "article": "Art. I și Art. II alin. (2)",
+      "quote": "Normele metodologică aprobate prin Ordinul ministrului sănătății și al președintelui Casei Naționale de Asigurări de Sănătate nr. 1.857/441/2023",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Să se precizeze expres în Art. I că în caz de boli asociate se aplică regimul fără plafon și să se introducă în Art. II o regulă tranzitorie pentru trimiterile în curs.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 6
+  }
+}

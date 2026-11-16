@@ -1,13 +1,12 @@
 {
   "slug": "b614-2026",
   "billId": "B614/2026",
-  "checkedAt": "2026-11-05T09:55:00.420Z",
+  "checkedAt": "2026-11-16T09:44:25.805Z",
   "indexCheckedAt": "2026-11-09T22:34:48.176Z",
   "models": {
     "agy": "ok",
     "claude": "ok",
-    "codex": "ok",
-    "index": "ok"
+    "codex": "ok"
   },
   "articles": [
     {
@@ -61,9 +60,10 @@
       "domain": "zf.ro",
       "publishedAt": "2026-11-08",
       "foundBy": [
-        "index"
+        "index",
+        "claude"
       ],
-      "quote": "Şoferii care deţin permis de conducere categoria B ar putea primi dreptul de a conduce şi motociclete de 125 cmc cu transmisie manuală, dacă au urmat cursurile practice pe un astfel de vehicul.",
+      "quote": "Iniţiativa legislativă păstrează condiţiile introduse în 2024 pentru conducerea motocicletelor de 125 cmc",
       "match": "quote",
       "firstSeenAt": "2026-11-09",
       "decision": {
@@ -99,15 +99,29 @@
       }
     },
     {
+      "url": "https://evz.ro/permisul-categoria-b-ar-putea-permite-conducerea-de-motociclete-cu-cutie-manuala-ce-conditii-trebuie-respectate.html",
+      "title": "Permisul categoria B ar putea permite motociclete manuale",
+      "outlet": "Evenimentul Zilei",
+      "domain": "evz.ro",
+      "publishedAt": "2026-11-07",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Propunerea legislativă a fost înregistrată la Senat pe 3 noiembrie 2026, cu numărul B614/2026.",
+      "match": "bill-id",
+      "firstSeenAt": "2026-11-16"
+    },
+    {
       "url": "https://adevarul.ro/stiri-interne/societate/soferii-cu-permis-categoria-b-ar-putea-scapa-de-o-2569390.html",
       "title": "Șoferii cu permis categoria B ar putea scăpa de o restricție: ce motociclete ar putea conduce fără examen",
       "outlet": "Adevărul",
       "domain": "adevarul.ro",
       "publishedAt": "2026-11-06",
       "foundBy": [
-        "index"
+        "index",
+        "claude"
       ],
-      "quote": "Șoferii care dețin permis de conducere categoria B ar putea primi dreptul de a conduce și motociclete cu transmisie manuală, nu doar automată, așa cum prevede legislația în vigoare.",
+      "quote": "O propunere legislativă în acest sens a fost înregistrată recent la Senat și vizează modificarea Codului rutier.",
       "match": "quote",
       "firstSeenAt": "2026-11-06",
       "decision": {
@@ -152,7 +166,7 @@
         "claude",
         "index"
       ],
-      "quote": "Astfel, șoferi i care au permis categoria B vor primi dreptul de a conduce motociclete de 125 cmc cu transmisie manuală, nu doar automate, așa cum prevede legislația actuală, potrivit unui proiect legislativ depus marți la Parlament.",
+      "quote": "O propunere legislativă pentru modificarea și completarea Ordonanței de Urgență nr.195/2002",
       "match": "quote",
       "firstSeenAt": "2026-11-05",
       "decision": {
@@ -233,6 +247,32 @@
     }
   ],
   "pending": [
+    {
+      "url": "https://www.gorjonline.ro/soferii-cu-permis-categoria-b-ar-putea-conduce-si-motociclete-cu-transmisie-manuala-ce-schimbari-pregateste-un-nou-proiect-de-lege",
+      "title": "Șoferii cu permis categoria B ar putea conduce și motociclete cu transmisie manuală. Ce schimbări pregătește un nou proiect de lege - GorjOnline - Zi de zi informați!",
+      "outlet": "GorjOnline - Zi de zi informați!",
+      "domain": "gorjonline.ro",
+      "publishedAt": "2026-11-06",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Propunerea legislativă a fost înregistrată la Senat pe 4 noiembrie 2026",
+      "match": "quote",
+      "firstSeenAt": "2026-11-16"
+    },
+    {
+      "url": "https://jurnalulregional.ro/schimbare-in-codul-rutier-soferii-cu-permis-b-vor-putea-conduce-si-motociclete-cu-transmisie-manuala",
+      "title": "Schimbare în Codul Rutier: șoferii cu permis B vor putea conduce și motociclete cu transmisie manuală | Jurnalul Regional",
+      "outlet": "Jurnalul Regional",
+      "domain": "jurnalulregional.ro",
+      "publishedAt": "2026-11-05",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Astfel, șoferii care au permis categoria B vor primi dreptul de a conduce motociclete de 125 cmc cu transmisie manuală, nu doar automate, așa cum prevede legislația actuală, potrivit unui proiect legislativ depus marți la Parlament.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-16"
+    },
     {
       "url": "https://salutiasi.ro/schimbare-in-codul-rutier-soferii-cu-permis-b-vor-putea-conduce-si-motociclete-cu-transmisie-manuala",
       "title": "Schimbare în Codul Rutier: șoferii cu permis B vor putea conduce și motociclete cu transmisie manuală",

@@ -1,10 +1,12 @@
 {
   "slug": "b633-2026",
   "billId": "B633/2026",
-  "checkedAt": null,
+  "checkedAt": "2026-11-16T09:56:42.864Z",
   "indexCheckedAt": "2026-11-13T09:10:31.373Z",
   "models": {
-    "index": "ok"
+    "agy": "ok",
+    "claude": "ok",
+    "codex": "ok"
   },
   "articles": [
     {
@@ -14,9 +16,10 @@
       "domain": "alba24.ro",
       "publishedAt": "2026-11-13",
       "foundBy": [
-        "index"
+        "index",
+        "claude"
       ],
-      "quote": "Propunerea legislativă privind „regimul înregistrărilor efectuate cu ocazia controalelor din partea autorităților și instituțiilor publice”, înregistrată pe 11 noiembrie la Senat, urmărește stabilirea unor reguli unitare pentru înregistrările audio-video realizate în timpul inspecțiilor și verificărilor oficiale.",
+      "quote": "Proiectul prevede interzicerea folosirii dispozitivelor personale pentru înregistrarea activităților de control.",
       "match": "quote",
       "firstSeenAt": "2026-11-13",
       "decision": {
@@ -50,7 +53,47 @@
           }
         }
       }
+    },
+    {
+      "url": "https://www.gandul.ro/actualitate/adio-spectacolului-controalelor-pe-facebook-functionarii-publici-nu-vor-mai-avea-voie-sa-filmeze-controalele-cu-telefonul-propriu-si-sa-le-transmita-live-pe-facebook-sau-tiktok-o-noua-lege-ar-impune-21062777",
+      "title": "Adio spectacolului controalelor pe Facebook! Funcționarii publici nu vor mai avea voie să filmeze controalele cu telefonul propriu și să le transmită live pe Facebook sau TikTok. O nouă lege ar impune folosirea unor came",
+      "outlet": "Gândul",
+      "domain": "gandul.ro",
+      "publishedAt": "2026-11-12",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Potrivit unei legi noi, vor fi folosite numai camere oficiale, iar imaginile devin automat secrete de serviciu.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.realitatea.net/stiri/social/interdictie-pentru-functionarii-care-filmeaza-controalele-cu-telefonul-personal-care-este-propunerea-byxijo",
+      "title": "Interdicție pentru funcționarii care filmează controalele cu telefonul personal. Care este propunerea",
+      "outlet": "Realitatea",
+      "domain": "realitatea.net",
+      "publishedAt": "2026-11-12",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Propunerea, înregistrată la Senat, se referă la toate autoritățile și instituțiile publice care au atribuții de control.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-16"
     }
   ],
-  "pending": []
+  "pending": [
+    {
+      "url": "https://national.ro/dezvaluiri/functionarii-nu-mai-au-voie-sa-filmeze-controalele-cu-telefonul-ce-risca-cei-care-posteaza-imaginile-pe-retele-sociale",
+      "title": "Filmarea controalelor, interzisă printr-un proiect AUR-PSD",
+      "outlet": "Național – Dezvăluiri, Scandaluri Politice și Știri din România",
+      "domain": "national.ro",
+      "publishedAt": "2026-11-15",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Prevederea se regăsește într-un proiect de lege depus la Senat și inițiat de deputați de la AUR și PSD.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-16"
+    }
+  ]
 }

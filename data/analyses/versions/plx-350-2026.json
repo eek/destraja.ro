@@ -1,7 +1,12 @@
 {
   "slug": "plx-350-2026",
   "billId": "Pl-x 350/2026",
-  "updatedAt": "2026-10-30T09:24:45.322Z",
+  "updatedAt": "2026-11-16T08:11:46.867Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -39,26 +44,37 @@
       "from": "initiator",
       "to": "camera",
       "direction": "mai_riscant",
-      "headline": "Mai puțină protecție penală pentru cercetătorii în securitate: uneltele de test nu mai sunt acoperite",
-      "summary": "Inițial, cercetătorii de bună-credință care raportau vulnerabilități erau scutiți pentru toate infracțiunile informatice (art. 360-365 C.pen.). Acum scutirea acoperă doar accesul, interceptarea și transferul de date. Scrierea sau deținerea unui script de test poate fi în continuare infracțiune.",
+      "headline": "Scutirea penală pentru cercetătorii în securitate cibernetică acoperă acum mai puține fapte",
+      "summary": "Inițial, cercetătorii care raportau vulnerabilități erau scutiți de răspundere pentru toate infracțiunile de la art. 360-365 C.pen. Acum scutirea acoperă doar accesul ilegal, interceptarea și transferul de date, nu și scripturile de test (art. 365).",
       "changes": [
         {
-          "title": "Mai puține fapte scutite de pedeapsă pentru cercetători",
-          "text": "Scutirea din art. 365¹ C.pen. nu mai acoperă art. 360 alin. (2), 362, 363 și 365. Cine creează sau deține un script de test poate fi cercetat penal.",
+          "title": "Scripturile de test nu mai sunt protejate penal",
+          "text": "Art. 365¹ C.pen. nu mai include art. 365 și art. 360 alin. (2). Cine creează, deține sau transmite un instrument de test poate fi cercetat penal, chiar dacă respectă condițiile.",
           "effect": "mai_rau",
           "major": true,
-          "article": "art. 365¹ C.pen.",
+          "article": "art. II (art. 365¹ C.pen.)",
           "before": "Art. 365¹ Faptele prevăzute în art. 360 – 365 nu constituie infracțiune atunci când sunt săvârșite de o persoană fizică sau juridică",
-          "after": "Faptele prevăzute la art. 360 alin. (1) și (3), art. 361 și art. 364 nu constituie infracțiune atunci când sunt săvârșite de o persoană fizică sau juridică",
+          "after": "Art. 365¹. – Faptele prevăzute la art. 360 alin. (1) și (3), art. 361 și art. 364 nu constituie infracțiune atunci când sunt săvârșite de o persoană fizică sau juridică",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Comitetul DNSC devine explicit consultativ, fără personalitate juridică",
-          "text": "Art. 36 alin. (1¹) din OUG 155/2024 precizează acum că acest comitet este consultativ și nu are personalitate juridică. Componența și statutul rămân neschimbate.",
+          "title": "Alterarea datelor și perturbarea sistemelor ies din scutire",
+          "text": "Art. 362 și art. 363 nu mai sunt acoperite. Efectul practic e mic, pentru că oricum condițiile din OUG interziceau modificarea datelor și întreruperea serviciilor.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. II (art. 365¹ C.pen.)",
+          "before": "Art. 365¹ Faptele prevăzute în art. 360 – 365 nu constituie infracțiune",
+          "after": "Art. 365¹. – Faptele prevăzute la art. 360 alin. (1) și (3), art. 361 și art. 364 nu constituie infracțiune",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Comitetul DNSC este doar consultativ, fără personalitate juridică",
+          "text": "Art. I (art. 36 alin. (1¹) OUG 155/2024) precizează natura comitetului. Compunerea, statutul și lipsa termenelor rămân neschimbate.",
           "effect": "neutru",
           "major": false,
-          "article": "art. 36 alin. (1¹) OUG 155/2024",
+          "article": "art. I (art. 36 alin. (1¹) OUG 155/2024)",
           "before": "DNSC se consultă cu un comitet format din autoritățile de la art. 11 – 12 și art. 14 – 17 din Legea nr. 58/2023",
           "after": "DNSC se consultă cu un comitet consultativ, fără personalitate juridică, format din autoritățile prevăzute la art. 11, 12, 14 – 17 din Legea nr. 58/2023",
           "beforeAbsent": false,
@@ -68,78 +84,88 @@
       "remaining": {
         "problems": [
           {
-            "text": "Scutirea nu acoperă alterarea datelor (art. 362) și perturbarea sistemelor (art. 363)",
+            "text": "Crearea sau deținerea scripturilor de test (art. 365) rămâne infracțiune",
             "major": true,
-            "article": "art. 365¹ C.pen."
-          },
-          {
-            "text": "Crearea, deținerea sau trimiterea unui script de test rămâne pedepsibilă (art. 365)",
-            "major": true,
-            "article": "art. 365¹ C.pen."
+            "article": "art. II (art. 365¹ C.pen.)"
           },
           {
             "text": "Transferul de date e scutit, dar accesul pentru obținerea datelor nu",
             "major": true,
-            "article": "art. 365¹ C.pen."
+            "article": "art. II (art. 365¹ C.pen.)"
           },
           {
-            "text": "Condițiile apar doar prin trimitere la OUG; modificarea OUG schimbă ce e infracțiune",
+            "text": "Condițiile scutirii sunt doar în OUG, prin trimitere, nu în Codul penal",
             "major": true,
-            "article": "art. 365¹ C.pen."
+            "article": "art. II (art. 365¹ C.pen.)"
           },
           {
-            "text": "Publicarea e interzisă fără acordul DNSC, fără limită de timp",
+            "text": "Modificarea OUG schimbă indirect ce e infracțiune, fără modificarea Codului penal",
             "major": true,
-            "article": "art. 36 alin. (5)-(6) OUG 155/2024"
+            "article": "art. II (art. 365¹ C.pen.)"
           },
           {
-            "text": "Termenul de raportare de 48 de ore poate descuraja raportarea vulnerabilităților",
+            "text": "Interdicția de publicare fără acordul DNSC nu are limită de timp",
             "major": true,
-            "article": "art. 36 alin. (5)-(6) OUG 155/2024"
+            "article": "art. II (art. 36 alin. (5)-(6) OUG)"
           },
           {
-            "text": "Statutul comitetului nu are termen de adoptare și nici obligație de publicare",
+            "text": "Nu se reglementează ce fac autoritățile cu vulnerabilitățile primite",
+            "major": true,
+            "article": "art. I (art. 36 alin. (1¹) OUG)"
+          },
+          {
+            "text": "Raportarea în cel mult 48 de ore poate descuraja cercetătorii",
             "major": false,
-            "article": "art. 36 alin. (1¹) OUG 155/2024"
+            "article": "art. II (art. 36 alin. (5)-(6) OUG)"
           },
           {
-            "text": "Legea nu spune ce se întâmplă cu vulnerabilitățile împărtășite autorităților",
+            "text": "Statutul comitetului e făcut de DNSC, fără termen și fără publicare",
             "major": false,
-            "article": "art. 36 alin. (1¹) OUG 155/2024"
+            "article": "art. I (art. 36 alin. (1¹) OUG)"
+          },
+          {
+            "text": "Nu există termene de consultare a comitetului",
+            "major": false,
+            "article": "art. I (art. 36 alin. (1¹) OUG)"
           }
         ],
         "good": [
           {
-            "text": "Port sigur penal pentru cercetătorii de bună-credință care raportează vulnerabilități",
+            "text": "Apare un port sigur penal pentru cercetarea și raportarea de bună-credință",
             "major": true,
-            "article": "art. 365¹ C.pen."
+            "article": "art. II (art. 365¹ C.pen.)"
           },
           {
-            "text": "Protecția se aplică atât persoanelor fizice, cât și firmelor",
+            "text": "Accesul ilegal, interceptarea și transferul de date sunt scutite, dacă se respectă condițiile",
             "major": true,
-            "article": "art. 365¹ C.pen."
+            "article": "art. II (art. 365¹ C.pen.)"
           },
           {
-            "text": "Condițiile cumulative interzic copierea și modificarea datelor sau spargerea parolelor",
+            "text": "Scutirea se aplică atât persoanelor fizice, cât și firmelor",
             "major": true,
-            "article": "art. 36 alin. (5)-(6) OUG 155/2024"
+            "article": "art. II (art. 365¹ C.pen.)"
           },
           {
-            "text": "DNSC se consultă cu un comitet interinstituțional privind vulnerabilitățile",
+            "text": "Condițiile interzic copierea și modificarea datelor sau spargerea parolelor",
             "major": false,
-            "article": "art. 36 alin. (1¹) OUG 155/2024"
+            "article": "art. II (art. 36 alin. (5)-(6) OUG)"
+          },
+          {
+            "text": "Natura comitetului este clară: consultativ, fără personalitate juridică",
+            "major": false,
+            "article": "art. I (art. 36 alin. (1¹) OUG)"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 5,
-        "removed": 7,
+        "added": 6,
+        "removed": 8,
         "same": 0
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:25:51.778Z"
+      "schema": 4,
+      "updatedAt": "2026-11-16T08:11:46.867Z"
     }
   ]
 }

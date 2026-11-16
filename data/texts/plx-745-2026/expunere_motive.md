@@ -1,0 +1,141 @@
+ROMANIA
+
+LEGE privind instituirea unor măsuri temporare de anulare a obligațiilor bugetare accesorii
+
+EXPUNERE DE MOTIVE
+
+SECȚIUNEA 1. TITLUL ȘI OBIECTUL PROPUNERII LEGISLATIVE
+
+Titlul propunerii legislative esteiLege privind instituirea unor măsuri temporare de anulare a obligațiilor bugetare accesorii". Obiectul reglementării îl constituie stabilirea unei facilități fiscale cu durată limitată, prin care dobânzile, penalitățile de întârziere, penalitățile de nedeclarare, majorările de întârziere și celelalte accesorii aferente obligațiilor bugetare principale eligibile se anulează în proporție de 100%, numai dacă debitorul stinge integral principalul, își achită obligațiile curente, își îndeplinește obligațiile declarative și depune cererea în termenul prevăzut de lege.
+
+Reglementarea este concepută ca o intervenție autonomă și completă, aplicabilă creanțelor administrate de organul fiscal central, de organele vamale, de organele fiscale locale, precum și de alte autorități sau instituții publice, cu adaptările expres prevăzute. Pentru bugetele locale, aplicarea este opțională și depinde de hotărârea autorității deliberative competente.
+
+SECȚIUNEA 2. MOTIVUL EMITERII ACTULUI NORMATIV
+
+2.1. Situația care reclamă intervenția legislativă
+
+Acumularea obligațiilor bugetare restante produce un efect dublu. Bugetele publice nu încasează la timp resursele necesare finanțării serviciilor publice, iar debitorii intră într-un mecanism de creștere continuă a sarcinii de plată, deoarece principalului i se adaugă dobânzi și penalități. Pentru o parte dintre debitorii viabili, valoarea accesoriilor poate reduce capacitatea reală de achitare a principalului și poate favoriza prelungirea arieratelor, executarea silită fară rezultate suficiente, intrarea în insolvență sau retragerea din activitatea economică.
+
+Instrumentele ordinare prevăzute de Codul de procedură fiscală, inclusiv executarea silită, compensarea, eșalonarea și restructurarea, rămân esențiale și continuă să se aplice. Totuși, ele nu oferă întotdeauna un stimulent suficient pentru plata rapidă și integrală a principalului în cazul datoriilor vechi. Măsura propusă completează temporar aceste instrumente. Statul renunță la creanțe accesorii numai după ce obține conduita urmărită, respectiv stingerea principalului și conformarea la zi.
+
+Există un precedent normativ relevant în Ordonanța de urgență a Guvernului nr. 107/2024. În fundamentarea acelei reglementări, Guvernul a indicat, pentru anul 2024, creanțe bugetare
+
+ROMANIA neîncasate de 175 miliarde lei și un portofoliu potențial eligibil de 71,8 miliarde lei, din care 60,5 miliarde lei principal și 11,3 miliarde lei accesorii, aferent unui număr de 330.735 contribuabili persoane juridice și 848.705 contribuabili persoane fizice. Estimarea de atunci a avut în vedere încasarea a până la 15% din creanțele eligibile. Aceste valori au numai rol de precedent și de reper metodologic. Ele nu pot substitui datele ANAF și ale Ministerului Finanțelor actualizate la 31 august 2026. Cerință de fundamentare financiară. Inainte de adoptare, impactul trebuie cuantificat prin fișa financiară întocmită pe baza stocului real de principal și accesorii la data de referință, a gradului de recuperabilitate și a scenariilor de participare. Expunerea de motive nu prezintă drept certe valori care nu sunt publice sau validate instituțional. 2.2. Obiectivele urmărite Primul obiectiv. Creșterea încasărilor din obligații bugetare principale prin transformarea facilității într-un stimulent direct pentru plata integrală într-un interval de 120 de zile de la intrarea în vigoare a legii. Al doilea obiectiv. Readucerea debitorilor în circuitul de conformare fiscală, prin condiția achitării obligațiilor curente și a depunerii tuturor declarațiilor fiscale înainte de formularea cererii. Al treilea obiectiv. Reducerea costurilor administrative și judiciare asociate urmăririi unor accesorii a căror recuperare este incertă sau presupune un interval îndelungat, fără renunțarea la principal. Al patrulea obiectiv. Protejarea activității economice viabile, a locurilor de muncă și a continuității profesiilor independente, în măsura în care debitorul dovedește capacitatea de a achita principalul și de a rămâne la zi. Al cincilea obiectiv. Asigurarea unui tratament general, previzibil și verificabil, fără criterii sectoriale, regionale sau discreționare, cu respectarea normelor constituționale și a dreptului Uniunii Europene.
+
+2.3. Soluțiile normative propuse Articolele 1 și 2 definesc finalitatea, beneficiarii și noțiunile utilizate. Legea se aplică
+
+momentul anterior aplicării legii evită crearea unei perioade în care contribuabilii ar putea fi stimulați să amâne în mod deliberat plata pentru a intra în facilitate. Articolele 3 și 4 delimitează creanțele eligibile și excluderile. Sunt acoperite obligațiile principale scadente, anumite diferențe stabilite prin decizii de impunere, obligațiile aferente perioadelor fiscale încheiate declarate cu întârziere sau rectificate și titlurile executorii transmise spre recuperare. Nu sunt anulate principalul, ajutoarele de stat sau de minimis de recuperat și
+
+ROMANIA dobânzile aferente, resursele care se cuvin bugetului Uniunii Europene în cazurile nepermise de dreptul european, sancțiunile și creanțele rezultate din hotărâri penale definitive și nici obligațiile a căror anulare este interzisă de norme superioare.
+
+Articolul 5 instituie condițiile cumulative. Debitorul trebuie să stingă principalul eligibil, obligațiile curente care nu intră în facilitate, să depună toate declarațiile și să formuleze cererea în termen. Astfel, anularea accesoriilor nu este automată și nu constituie o recompensă pentru neplată, ci contraprestația legală pentru plata principalului și revenirea la conformare.
+
+Articolele 6-10 tratează situațile care, în lipsa unor norme exprese, ar genera tratament neunitar: declarațiile rectificative, impunerea din oficiu, principalul stins anterior, controalele fiscale în curs, înlesnirile la plată și insolvența. Aceste norme asigură previzibilitatea, evită excluderile arbitrare și păstrează regulile speciale privind ordinea de plată și procedurile de insolvență.
+
+Articolele 11 și 12 reglementează notificarea, amânarea accesoriilor, suspendarea executării numai pentru accesoriile susceptibile de anulare, emiterea deciziei și calea de contestație. Executarea principalului nu este suspendată. Articolele 13 și 14 adaptează măsura la bugetele locale și la creanțele administrate de alte autorități. Articolul 15 asigură respectarea dreptului ajutorului de stat, iar articolul 16 instituie raportarea publică agregată. Articolele 17 și 18 stabilesc normele de aplicare și intrarea în vigoare.
+
+2.4. Alternative analizate
+
+Menținerea exclusivă a regimului existent. Această variantă păstrează integral creanțele accesorii, dar nu oferă un stimulent suplimentar pentru lichidarea rapidă a principalului. A fost considerată insuficientă pentru un portofoliu de creanțe vechi sau dificil de recuperat.
+
+Eșalonarea generală fără anulare. Această soluție reduce presiunea imediată asupra lichidității, dar poate prelungi recuperarea și menține povara accesoriilor. Regimul de eșalonare rămâne disponibil, iar proiectul îl corelează cu facilitatea.
+
+Anularea parțială ori diferențiată. Procentele diferențiate în funcție de categoria debitorului, sector sau mărimea datoriei ar complica administrarea și ar crește riscul unor diferențe de tratament greu de justificat. Proiectul preferă o regulă unică, condiționată strict de plata principalului.
+
+Anularea necondiționată. Această variantă a fost respinsă, deoarece ar afecta disciplina fiscală, ar dezavantaja contribuabilii conformi și nu ar garanta încasarea principalului.
+
+SECȚIUNEA 3. IMPACTUL SOCIOECONOMIC
+
+3.1. Impactul macroeconomic și asupra colectării
+
+Efectul urmărit pe termen scurt este accelerarea intrărilor de numerar din principal. Din punct de vedere economic, accesoriile au rolul de a compensa întârzierea și de a descuraja neplata.
+
+Atunci când acumularea lor face improbabilă stingerea integrală a debitului, o renunțare condiționată poate crește valoarea actuală a sumelor efectiv încasate. Eficiența măsurii depinde însă de diferența dintre încasarea suplimentară de principal determinată de facilitate și valoarea accesoriilor care ar fi fost, în mod realist, recuperate în lipsa ei.
+
+Măsura nu reprezintă o reducere permanentă a nivelului de impozitare și nu modifică baza de impunere sau cotele fiscale. Ea are caracter temporar și vizează exclusiv stingerea unui stoc de creanțe. Pe termen mediu, revenirea beneficiarilor la plata curentă poate îmbunătăți conformarea voluntară. Acest efect trebuie verificat prin raportul prevăzut la art. 16 al proiectului.
+
+3.2. Impactul asupra mediului de afaceri
+
+Pentru întreprinderile viabile care au acumulat arierate, proiectul poate elibera lichiditate și poate reduce riscul blocajului financiar după plata principalului. Efectele posibile sunt menținerea activității, evitarea unor insolvențe, stabilizarea relațiilor comerciale și păstrarea locurilor de muncă. Întreprinderile mici și profesioniștii independenți pot resimți un efect relativ mai puternic, deoarece accesul lor la finanțare și capacitatea de absorbție a costurilor fiscale sunt mai reduse.
+
+Există și riscul de hazard moral. Repetarea frecventă a unor facilități similare poate crea așteptarea că neplata va fi recompensată. Proiectul limitează acest risc prin data de referință anterioară aplicării, durata scurtă, plata integrală a principalului, obligația de a rămâne la zi, lipsa oricărei anulări discreționare și publicarea rezultatelor. O eventuală inițiativă viitoare de același tip ar trebui justificată separat, pe baza unei evaluări ex post.
+
+3.3. Impactul social
+
+Persoanele fizice, persoanele fizice autorizate, întreprinderile individuale, întreprinderile familiale și profesiile liberale beneficiază de aceleași condiții obiective. Pentru acestea, măsura poate facilita ieșirea din supraîndatorare fiscală fără anularea datoriei principale. Efectul social indirect poate consta în păstrarea veniturilor din activitate, menținerea locurilor de muncă și reducerea presiunii generate de executarea accesoriilor.
+
+Proiectul nu creează prestații sociale și nu transferă fonduri publice către beneficiari. In același timp, orice diminuare a veniturilor din accesorii poate afecta resursele disponibile pentru servicii publice. De aceea, beneficiul social trebuie evaluat împreună cu efectul net asupra veniturilor bugetare, iar aplicarea la nivel local este lăsată la aprecierea autorității deliberative care cunoaște situația propriului buget.
+
+3.4. Impactul asupra concurenței și asupra contribuabililor conformi
+
+Facilitatea este deschisă oricărui debitor care îndeplinește condițiile legii și nu depinde de sector, dimensiune, formă de proprietate, localizare ori apartenență la o categorie nominalizată. Organul fiscal nu poate negocia procentul și nu poate selecta beneficiarii. Această configurație reduce riscul unei distorsionări selective a concurenței.
+
+ROMANIA Contribuabilii care și-au achitat la termen obligațiile pot percepe măsura ca inechitabilă. Diferența de tratament are însă o justificare obiectivă: beneficiarii trebuie să achite integral principalul și toate obligațiile curente, iar renunțarea vizează numai accesoriile, în scopul recuperării accelerate a unei creanțe existente. Caracterul excepțional, termenul limitat și evaluarea publică sunt garanții necesare pentru ca măsura să nu slăbească încrederea contribuabililor conformi.
+
+SECȚIUNEA 4. IMPACTUL FINANCIAR ASUPRA BUGETULUI GENERAL CONSOLIDAT
+
+4.1. Natura impactului
+
+Propunerea are două efecte bugetare de sens contrar. Primul este pozitiv și constă în încasarea anticipată sau suplimentară a obligațiilor principale. Al doilea este negativ și constă în anularea accesoriilor care ar fi putut fi recuperate în lipsa facilității, la care se pot adăuga costurile administrative și eventualele restituiri ori compensări prevăzute de lege. Impactul net nu este egal cu valoarea nominală a accesoriilor anulate, deoarece o parte dintre acestea poate avea o probabilitate redusă de recuperare.
+
+Metodologia corectă de calcul este următoarea: impactul net asupra veniturilor este egal cu principalul suplimentar încasat datorită facilității, minus accesoriile care ar fi fost recuperate în scenariul fără intervenție, minus costurile administrative și fluxurile de restituire sau compensare. Calculul trebuie realizat distinct pentru bugetul de stat, bugetele asigurărilor sociale, bugetele fondurilor speciale, bugetele locale și celelalte componente relevante ale bugetului general consolidat.
+
+4.2. Orizontul de evaluare pe 5 ani
+
+Perioada | Efect asupra veniturilor | Efect asupra cheltuielilor și administrării en 102 | terat Anul intrării în | Încasări accelerate din principal; | Adaptarea sistemelor, soluționarea vigoare | diminuarea creanțelor accesorii. | notificărilor și cererilor; eventuale compensări.
+
+Anul următor | Încasări și ajustări reziduale pentru | Restituiri sau compensări permise de controale fiscale și cereri soluționate | lege; raportare și litigii administrative. ulterior. Anii 2-4 ulteriori | Nu se generează facilități noi; pot exista | Costuri reduse de monitorizare, raportare efecte reziduale din contestații și | și soluționare a litigiilor rămase. corecții.
+
+Tabelul descrie natura efectelor. Valorile nominale se înscriu în fișa financiară pe baza datelor validate de Ministerul Finanțelor și ANAF.
+
+ROMANIA 4.3. Date și scenarii necesare
+
+Fișa financiară trebuie să utilizeze cel puțin următoarele date: stocul obligațiilor principale la 31 august 2026; accesoriile aferente; sumele contestate; creanțele suspendate; eșalonările; debitorii aflați în insolvență; creanțele cu probabilitate redusă de recuperare; istoricul încasărilor din măsuri comparabile; numărul potențialilor beneficiari; costurile informatice și de personal; impactul distinct asupra bugetelor locale. Scenariul de bază trebuie însoțit de un scenariu prudent și unul superior, fără a transfera automat procentul estimat în anul 2024 asupra portofoliului din
+
+Potrivit art. 15 din Legea nr. 500/2002 și regulilor de responsabilitate fiscal-bugetară, pentru o propunere legislativă care poate diminua veniturile este necesară fișa financiară cu efectele pentru anul curent și următorii 4 ani, ipotezele și metodologia de calcul, precum și măsurile necesare pentru ca impactul să fie compatibil cu obiectivele fiscal-bugetare. În aplicarea art. 111 alin. (1) din Constituție, informarea Guvernului trebuie solicitată în cadrul procedurii parlamentare.
+
+SECȚIUNEA 5. MĂSURILE DE IMPLEMENTARE
+
+5.1. Responsabilități instituționale
+
+Ministerul Finanțelor și ANAF vor elabora procedura pentru creanțele administrate de organul fiscal central și de organele vamale. Autoritățile și instituțiile care administrează alte creanțe vor adopta proceduri proprii cu avizul Ministerului Finanțelor. Autoritățile deliberative locale vor decide dacă aplică măsura și vor aproba procedura locală în limitele stabilite de lege.
+
+Procedura secundară va cuprinde exclusiv elemente de executare: modelele notificării, cererii și deciziilor, certificatul de atestare fiscală, evidența accesoriilor amânate, regulile tehnice de compensare și restituire și schimbul de informații. Ea nu poate modifica procentul de anulare, termenul, condițiile sau excluderile, deoarece aceste elemente aparțin domeniului legii.
+
+5.2. Impactul administrativ și informatic
+
+Implementarea presupune identificarea automată a obligațiilor eligibile, recalcularea accesoriilor, emiterea certificatelor și deciziilor, suspendarea executării pentru accesoriile amânate și raportarea rezultatelor. Utilizarea mijloacelor electronice reduce costurile pentru contribuabili și administrație. Fișa financiară trebuie să estimeze costurile de adaptare a sistemelor informatice, volumul de muncă suplimentar și eventualele nevoi temporare de personal.
+
+5.3. Monitorizare și evaluare ex post
+
+ANAF va publica, în format agregat și fără date cu caracter personal, numărul cererilor, soluțiile, principalul stins și accesoriile anulate. Ministerul Finanțelor va prezenta Guvernului și Parlamentului un raport privind impactul asupra veniturilor și conformării. Evaluarea trebuie să
+
+ROMANIA compare rezultatele cu scenariul fără intervenție și să urmărească cel puțin rata de participare, principalul suplimentar colectat, costul administrativ, valoarea accesoriilor anulate, comportamentul beneficiarilor după facilitate și efectul asupra arieratelor.
+
+SECȚIUNEA 6. CONCLUZII
+
+Propunerea legislativă răspunde unei probleme reale de colectare printr-un mecanism temporar, condiționat și verificabil. Soluția păstrează integral obligațiile principale, impune plata obligațiilor curente, se aplică general și nediscriminatoriu, exclude creanțele protejate de dreptul penal, de normele privind ajutorul de stat și de dreptul Uniunii Europene și oferă garanții procedurale și căi de atac.
+
+Din perspectiva economică și socială, măsura poate accelera veniturile publice, poate readuce la conformare debitori viabili și poate limita costurile insolvenței și executării îndelungate. Beneficiile trebuie însă raportate la riscul de hazard moral și la renunțarea la accesorii realist recuperabile. Din acest motiv, caracterul excepțional, data de referință, termenul limitat, plata integrală a principalului, publicitatea rezultatelor și evaluarea ex post sunt componente indispensabile.
+
+Față de cele prezentate, supunem Parlamentului României spre dezbatere și adoptare Propunerea legislativă privind instituirea unor măsuri temporare de anulare a obligațiilor bugetare accesorii.
+
+Inițiator: Deputat Gabriela PORUMBOIU Grup Parlamentar UNIȚI pentru ROMANIA
+
+ROMANIA
+
+TABEL SEMNĂTURI ' pentru sustinerea LEGII privind instituirea unor măsuri temporare de anulare a obligațiilor bugetare accesorii Nr. | Nume | Partid / | Semnătura GRUP PARLAMENTAR PORUmBOiU GABRIELA | UPR MATEi SERGiU | UDR GROZA CALiN FLORiN | VPR UAR | UPR 6. | FĂGET MĂDALIN - LAUREITO | UPR GROFU Daniel | UPR 8. | UPR Chirita Razvan - Mizel.
+
+10\.
+
+11\.
+
+12\.
+
+13\.
+
+14\.
+
+15\.
+
+Inițiator: Deputat Gabriela PORUMBOIU Grup Parlamentar UNIȚI pentru ROMÂNIA

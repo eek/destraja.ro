@@ -1,10 +1,12 @@
 {
   "slug": "b629-2026",
   "billId": "B629/2026",
-  "checkedAt": null,
+  "checkedAt": "2026-11-16T09:55:45.144Z",
   "indexCheckedAt": "2026-11-11T11:12:54.733Z",
   "models": {
-    "index": "ok"
+    "agy": "ok",
+    "claude": "ok",
+    "codex": "ok"
   },
   "articles": [
     {
@@ -14,9 +16,10 @@
       "domain": "dcbusiness.ro",
       "publishedAt": "2026-11-11",
       "foundBy": [
-        "index"
+        "index",
+        "claude"
       ],
-      "quote": "A fost înregistrată la Senat pentru dezbateri şi vot o propunere legislativă pentru modificarea şi completarea Ordonanţei de urgenţă a Guvernului nr.80/2013 privind taxele judiciare de timbru, precum şi pentru modificarea Legii nr.227/2015 privind Codul fiscal.",
+      "quote": "Propunerea legislativă prevede:",
       "match": "quote",
       "firstSeenAt": "2026-11-11",
       "decision": {
@@ -50,7 +53,88 @@
           }
         }
       }
+    },
+    {
+      "url": "https://www.cotidianul.ro/banii-din-taxele-judiciare-de-timbru-ar-putea-avea-o-noua-destinatie-ce-prevede-proiectul-de-lege",
+      "title": "Banii din taxele judiciare de timbru ar putea avea o nouă destinație. Ce prevede proiectul de lege",
+      "outlet": "Cotidianul",
+      "domain": "cotidianul.ro",
+      "publishedAt": "2026-11-06",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Banii colectați din taxele judiciare de timbru ar putea fi folosiți pentru modernizarea instanțelor, parchetelor și penitenciarelor, potrivit unui proiect de lege propus de USR.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-16"
+    },
+    {
+      "url": "https://agerpres.ro/comunicate/2026/11/05/comunicat-de-presa---deputat-mihai-alexandru-badea-usr--1610439",
+      "title": "Comunicat de presă - Deputat Mihai-Alexandru Badea (USR)",
+      "outlet": "Agerpres",
+      "domain": "agerpres.ro",
+      "publishedAt": null,
+      "foundBy": [
+        "agy",
+        "claude"
+      ],
+      "quote": "Ieri, 4 noiembrie 2026, am depus o propunere legislativă pentru modificarea și completarea OUG nr. 80/2013",
+      "match": "quote",
+      "firstSeenAt": "2026-11-16"
     }
   ],
-  "pending": []
+  "pending": [
+    {
+      "url": "https://www.amosnews.ro/mihai-alexandru-badeausr-taxele-judiciare-de-timbru-sursa-stabila-de-finantare-pentru-infrastructura-justitiei",
+      "title": "Mihai-Alexandru Badea(USR): Taxele judiciare de timbru, sursă stabilă de finanțare pentru infrastructura Justiției -",
+      "outlet": "amosnews.ro",
+      "domain": "amosnews.ro",
+      "publishedAt": "2026-11-06",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "am depus o propunere legislativă pentru modificarea și completarea OUG nr. 80/2013 privind taxele judiciare de timbru",
+      "match": "quote",
+      "firstSeenAt": "2026-11-16"
+    },
+    {
+      "url": "https://ziarulfaclia.ro/primariile-ar-putea-ramane-fara-incasarile-din-taxa-judiciara-de-timbru",
+      "title": "Primăriile ar putea rămâne fără încasările din taxa judiciară de timbru - Stiri Cluj Faclia",
+      "outlet": "Stiri Cluj Faclia",
+      "domain": "ziarulfaclia.ro",
+      "publishedAt": "2026-11-06",
+      "foundBy": [
+        "agy",
+        "claude"
+      ],
+      "quote": "Și asta dacă Parlamentul va adopta o propunere legislativă inițiată de deputata USR de Cluj, Oana Murariu",
+      "match": "quote",
+      "firstSeenAt": "2026-11-16"
+    },
+    {
+      "url": "https://apuseni.info/oana-murariu-usr-propune-ca-banii-din-taxele-judiciare-de-timbru-sa-fie-investiti-in-modernizarea-instantelor-justitia-nu-primeste-nimic-inapoi-din-aceste-fonduri",
+      "title": "Oana Murariu (USR) propune ca banii din taxele judiciare de timbru să fie investiți în modernizarea instanțelor: „Justiția nu primește nimic înapoi din aceste fonduri” - Apuseni Info",
+      "outlet": "Apuseni Info",
+      "domain": "apuseni.info",
+      "publishedAt": "2026-11-05",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Deputata USR de Cluj Oana Murariu a înregistrat o nouă propunere legislativă",
+      "match": "quote",
+      "firstSeenAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.clujust.ro/oana-murariu-usr-taxele-platite-pentru-activitatea-instantelor-trebuie-investite-in-imbunatatiri-in-domeniu",
+      "title": "Oana Murariu (USR): Taxele plătite pentru activitatea instanțelor trebuie investite în îmbunătățiri în domeniu - CLUJUST",
+      "outlet": "CLUJUST",
+      "domain": "clujust.ro",
+      "publishedAt": "2026-11-05",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Măsura este prevăzută într-o nouă propunere legislativă înregistrată de deputata Oana Murariu (USR).",
+      "match": "quote",
+      "firstSeenAt": "2026-11-16"
+    }
+  ]
 }

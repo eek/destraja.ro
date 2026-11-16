@@ -1,13 +1,12 @@
 {
   "slug": "b606-2026",
   "billId": "B606/2026",
-  "checkedAt": "2026-11-09T11:22:35.116Z",
+  "checkedAt": "2026-11-16T09:38:38.573Z",
   "indexCheckedAt": "2026-11-10T10:51:31.483Z",
   "models": {
-    "agy": "error: timeout după 615s",
-    "claude": "error: timeout după 600s",
-    "codex": "error: timeout după 600s",
-    "index": "ok"
+    "agy": "ok",
+    "claude": "ok",
+    "codex": "ok"
   },
   "articles": [
     {
@@ -17,7 +16,8 @@
       "domain": "zf.ro",
       "publishedAt": "2026-11-10",
       "foundBy": [
-        "index"
+        "index",
+        "agy"
       ],
       "quote": "Proiectul iniţial, înregistrat la Senat pe 30 octombrie şi retras pe 2 noiembrie, aplica automat cotele de 3% şi 6% şi câştigurilor obţinute prin intermediari din UE fără sediu permanent în România.",
       "match": "quote",
@@ -151,7 +151,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Proiectul fusese înregistrat la Senat pe 30 octombrie, cu numărul B606/2026.",
+      "quote": "Senatorul AUR Petrişor Peiu a retras luni, 2 noiembrie, proiectul prin care investitorii care folosesc brokeri din UE",
       "match": "quote",
       "firstSeenAt": "2026-11-04",
       "decision": {
@@ -195,7 +195,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Proiectul conține și o prevedere cu efect retroactiv.",
+      "quote": "Un proiect de lege inițiat de senatorul AUR Petrișor Peiu propune eliminarea diferenței fiscale",
       "match": "quote",
       "firstSeenAt": "2026-11-02",
       "decision": {
@@ -239,7 +239,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Proiectul a fost publicat vineri pe site-ul AUR şi este susţinut de 61 de parlamentari ai partidului.",
+      "quote": "Proiectul introduce în Codul fiscal un nou articol, 96^2.",
       "match": "quote",
       "firstSeenAt": "2026-11-02",
       "decision": {
@@ -277,6 +277,19 @@
   ],
   "pending": [
     {
+      "url": "https://www.businessmagazin.ro/actualitate/petrisor-peiu-aur-retrage-proiectul-care-ar-fi-aliniat-impozitul-pe-castigurile-prin-brokeri-din-ue-la-3-sau-6-ca-la-brokerii-romani-pentru-a-l-rescrie-senatorul-il-va-redepune-23273411",
+      "title": "Petrişor Peiu, AUR, retrage proiectul care ar fi aliniat impozitul pe câştigurile prin brokeri din UE la 3% sau 6%, ca la brokerii români, pentru a-l rescrie. Senatorul îl va redepune",
+      "outlet": "BusinessMagazin",
+      "domain": "businessmagazin.ro",
+      "publishedAt": "2026-11-03",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Proiectul fusese înregistrat la Senat pe 30 octombrie, cu numărul B606/2026.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-16"
+    },
+    {
       "url": "https://www.comisarul.ro/articol/proiect-de-lege-controversat-al-liderului-aur-petr_1645038.html",
       "title": "Proiect de lege controversat al liderului AUR Petrişor Peiu, acţionar la 20 de companii listate la bursă",
       "outlet": "comisarul.ro",
@@ -285,7 +298,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Noua măsură ar urma să se aplice inclusiv retroactiv.",
+      "quote": "Propunerea legislativă, publicată vineri pe pagina oficială a formațiunii politice",
       "match": "quote",
       "firstSeenAt": "2026-11-02",
       "decision": {
@@ -374,7 +387,7 @@
         "claude",
         "agy"
       ],
-      "quote": "Proiectul ar aduce aceleași cote pentru brokerii vizați din UE și SEE, dar nu și reținerea impozitului de către broker.",
+      "quote": "Proiectul a fost înaintat Biroului permanent al Senatului pentru solicitarea punctului de vedere al Guvernului și a avizelor.",
       "match": "quote",
       "firstSeenAt": "2026-11-02",
       "decision": {
@@ -416,7 +429,8 @@
       "domain": "flux24.ro",
       "publishedAt": "2026-10-31",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
       "quote": "Proiectul a fost publicat vineri pe site-ul AUR şi este susţinut de 61 de parlamentari ai partidului.",
       "match": "quote",

@@ -1,0 +1,35 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+## LEGE
+
+# pentru modificarea și completarea Ordonanței de Urgență a Guvernului nr. 107/2024 pentru reglementarea unor măsuri fiscal-bugetare în domeniul gestionării creanțelor bugetare și a deficitului bugetar pentru bugetul general consolidat al României în anul 2024, precum și pentru modificarea și completarea unor acte normative
+
+Parlamentul României adoptă prezenta lege
+
+Articol unic. – Ordonanța de urgență a Guvernului nr. 107/2024 pentru reglementarea unor măsuri fiscal-bugetare în domeniul gestionării creanțelor bugetare și a deficitului bugetar pentru bugetul general consolidat al României în anul 2024, precum și pentru modificarea și completarea unor acte normative, publicată în Monitorul Oficial al României, Partea I, nr. 905 din 6 septembrie 2024, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul I alineatul (2), litera b) se modifică și va avea următorul cuprins:
+
+„b) diferențele de obligații bugetare principale stabilite prin decizii de impunere comunicate până la data de 31 august 2024 inclusiv, chiar dacă pentru acestea nu s-a împlinit termenul de plată prevăzut la art. 156 alin. (1) din Legea nr. 207/2015 privind Codul de procedură fiscală, cu modificările și completările ulterioare, precum și diferențele de obligații bugetare principale aferente perioadelor fiscale de până la data de 31 august 2024 inclusiv, stabilite de organul fiscal central prin decizie de impunere emisă și comunicată ulterior intrării în vigoare a prezentei ordonanțe de urgență, ca urmare a unui control fiscal;”
+
+2\. La articolul II, după alineatul (1) se introduce un nou alineat, alin. (2), cu următorul cuprins:
+
+„(2) Dobânzile, penalitățile și toate accesoriiile aferente obligațiilor bugetare principale, restante la data de 31 august 2024 inclusiv, individualizate în decizii de impunere emise ca urmare a unui control fiscal și pentru care s-a comunicat decizia de impunere ulterior intrării în vigoare a prezentei ordonanțe de urgență se anulează dacă sunt îndeplinite cumulativ următoarele condiții:
+
+a) toate diferențele de obligații bugetare principale individualizate în decizia de impunere sunt stinse prin orice modalitate prevăzută de art. 22 din Legea nr. 207/2015, cu modificările și completările ulterioare, până la termenul de plată prevăzut la art. 156 alin. (1) și (3) din aceeași lege;
+
+b) debitorul depune cererea de anulare a accesoriiilor, sub sancțiunea decăderii, în termen de 90 de zile de la comunicarea deciziei de impunere"
+
+3\. La articolul IX, după alineatul (1) se introduce un nou alineat, alin. (1¹), cu următorul cuprins:
+
+(1¹) Debitorii care obțin eșalonarea la plată a obligațiilor fiscale individualizate prin decizii de impunere emise ca urmare a unui control fiscal și pentru care s-a comunicat decizia ulterior intrării în vigoare a prezentei ordonanțe de urgență, pot beneficia de anularea dobânzilor, penalităților și a tuturor accesoriiilor, în condițiile prevăzute la art. II alin. (2).”
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Senatului
+
+Președintele Camerei Deputaților

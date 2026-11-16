@@ -1,0 +1,23 @@
+# PARLAMENTUL ROMÂNIEI
+
+## CAMERA DEPUTAȚILOR
+
+SENAT
+
+## LEGE
+
+pentru abrogarea art. XXXI din Legea nr. 141/2025 privind unele măsuri fiscal-bugetare
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic. – Articolul XXXI din Legea nr. 141/2025 privind unele măsuri fiscal-bugetare, publicată în Monitorul Oficial al României, Partea I, nr. 699 din 25 iulie 2025, se abrogă.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI
+
+Inițiator: Deputat Monica Ionescu
+
+Circumscripția Neamț, Neafiliat

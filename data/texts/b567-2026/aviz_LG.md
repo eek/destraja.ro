@@ -1,0 +1,45 @@
+Biroul permanent al Senatului Bp....567 13 marsieu bse 2025
+
+# AVIZ
+
+# referitor la propunerea legislativă pentru modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii
+
+Analizând propunerea legislativă pentru modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii (b567/14.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/4999/19.10.2026 și înregistrată la Consiliul Legislativ cu nr. D879/20.10.2026,
+
+## CONSILIUL LEGISLATIV
+
+În temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (3) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
+
+Avizează favorabil propunerea legislativă, cu următoarele observații și propuneri:
+
+1\. Propunerea legislativă are ca obiect de reglementare modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii, cu modificările ulterioare, urmărindu-se instituirea unei măsuri de protecție socială, în sensul recunoașterii dreptului la pensie pentru limită de vârstă pentru persoanele care au fost diagnosticate cu neoplasm malign, la împlinirea vârstei de 60 de ani, cu condiția realizării cel puțin a stagiului minim de cotizare contributiv prevăzut de lege.
+
+2\. Prin conținutul său normativ, propunerea legislativă se încadrează în categoria legilor organice, fiind incidente prevederile art. 73 alin. (3) lit. p) din Constituția României, republicată, iar în aplicarea dispozițiilor art. 75 alin. (1) din Legea fundamentală, prima Cameră sesizată este Senatul.
+
+3\. Precizăm că, prin avizul pe care îl emite, Consiliul Legislativ nu se pronunță asupra oportunității soluțiilor legislative preconizate.
+
+4\. Atragem atenția că formula introductivă - „Parlamentul României adoptă prezenta lege” - apare de două ori.
+
+5\. La art. I pct. 1 referitor la textul preconizat pentru art. 53¹ alin. (1), semnalăm că în actuala redactare subminează scopul reglementării enunțat în Expunerea de motive, fiind susceptibil de neconstituționalitate, deoarece dă naștere în mod arbitrar la situații de discriminare între persoanele ale căror vârste standard de pensionare se regăsesc în anexa în nr. 5 și persoanele ai căror ani de naștere sunt ulteriori ultimului an prevăzut în anexa nr. 5, dar și față de persoanele diagnosticate după împlinirea vârstei de 60 de ani; prin urmare, este necesară eliminarea sintagmei „și care nu au împlinit vârsta standard de pensionare prevăzută în anexa nr.5” și înlocuirea sintagmei „la împlinirea vârstei de 60 de ani” prin sintagma „dacă au împlinit vârsta de 60 de ani”.
+
+## 6. La art. III, atragem atenția asupra următoarelor aspecte:
+
+\- normele de aplicare nu pot fi adoptate fără avea un temei legal în vigoare, deci raportarea trebuie făcută la data intrării în vigoare a legii, nu la data publicării acesteia;
+
+\- partea finală „în vederea stabilirii procedurii de depunere și verificare a documentelor medicale, precum și a procedurii de soluționare a cererilor formulate în temeiul art. I”, trebuie eliminată deoarece intervențiile legislative asupra normelor de aplicare a Legii nr. 360/2023 vor viza și executarea prevederilor art. II, nu doar a prevederilor art. I și se pot referi și alte aspecte decât cele cuprinse în textul citat mai sus, propus spre eliminare;
+
+\- termenul de 60 de zile este mult prea lung, dat fiind că intervențiile asupra Normele de aplicare a Legii nr. 360/2023 privind sistemul public de pensii, aprobate prin Hotărârea Guvernului nr. 181/2024 nu vor fi numeroase și nici nu necesită un proces lung de reflecție și redactare. Un termen de 15 - 20 zile de la intrarea în vigoare a legii care face obiectul prezentului proiect este suficient.
+
+În considerarea celor de mai sus și pentru respectarea uzanțelor normative, recomandăm următoarea formulare:
+
+„Art. III. – În termen de 15 de zile de la data intrării în vigoare a prezentei legi, Normele de aplicare a Legii nr. 360/2023 privind sistemul public de pensii, aprobate prin Hotărârea Guvernului nr. 181/2024, se modifică și se completează, la propunerea Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale, prin hotărâre a Guvernului".
+
+7\. Întrucât procedura legislativă, așa cum se observă din practică, este de durată, un termen de 90 de zile de la publicare pentru intrarea în vigoare este deosebit de lung și, de asemenea, subminează intenția de reglementare; ca atare, propunem ca data de intrare în vigoare să fie, cea generală prevăzută în Constituție, „la 3 zile de la publicare”, motiv pentru care textul actual al art. IV va fi eliminat.
+
+Pe de altă parte, dat fiind că adesea termenul de emitere a normelor metodologice este mult depășit, destinatarii măsurilor preconizate prin prezenta propunere se pot afla în imposibilitate practică de a beneficia de prevederile legii, determinată de interpretări greșite ale caselor de pensii. De aceea, propunem ca la art. IV să fie redat următorul text:
+
+„Art. IV. – Drepturile prevăzute la art. I și art. II, se acordă începând cu data intrării în vigoare a prezentei legi, indiferent de data intrării în vigoare a modificărilor și completărilor Normelor de aplicare a Legii nr. 360/2023, aprobate prin Hotărârea Guvernului nr. 181/2024”.
+
+PRESEDENTE
+
+Florin/LORDACHE

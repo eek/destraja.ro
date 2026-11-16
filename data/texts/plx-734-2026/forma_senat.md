@@ -1,0 +1,21 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru completarea art. 11 din Legea nr. 514/2003 privind organizarea și exercitarea profesiei de consilier juridic
+
+Senatul adoptă prezentul proiect de lege
+
+Art. I - La articolul 11 din Legea nr. 514/2003 privind organizarea și exercitarea profesiei de consilier juridic, publicată în Monitorul Oficial al României, Partea I, nr. 867 din 5 decembrie 2003, cu modificările și completările ulterioare, după litera c) se introduce o nouă literă, lit. d), cu următorul cuprins:
+
+„d) funcția de asistent personal al persoanei cu handicap grav și de asistent personal profesionist al persoanei cu handicap grav sau accentuat.”
+
+Art.II - Prezenta lege intră în vigoare la 90 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2) teza a III-a din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+MIRCEA ABRUDEAN

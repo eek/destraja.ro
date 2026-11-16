@@ -1,0 +1,95 @@
+{
+  "slug": "plx-718-2026",
+  "billId": "Pl-x 718/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-16T08:29:44.572Z",
+  "inputHash": "261a40afdb03",
+  "riskScore": 3.3,
+  "summary": "O inițiativă utilă pentru sănătatea mintală a adolescenților de 16+, dar afectată de obligația de a anunța părinții chiar și în caz de abuz și de o evaluare cognitivă neclară.",
+  "good": [
+    {
+      "text": "Permite minorilor de 16 ani să ceară singuri servicii de psihologie clinică, consiliere psihologică și psihoterapie, fără acordul părinților, când aceștia refuză ori lipsesc.",
+      "article": "Art. I și Art. II pct. 1 alin. (2)",
+      "quote": "Minorul care a împlinit vârsta de 16 ani poate consimți singur și fără încuviințarea reprezentanților legali, pentru a beneficia de evaluare psihologică clinică, consiliere psihologică și psihoterapie.",
+      "weight": 3
+    },
+    {
+      "text": "Elevii de cel puțin 16 ani pot merge singuri la cabinetele de asistență psihopedagogică din școli, facilitând accesul gratuit la sprijin, mai ales în mediul rural.",
+      "article": "Art. III",
+      "quote": "Minorul care a împlinit vârsta de 16 ani se poate adresa singur și fără încuviințarea reprezentanților legali cabinetelor de asistență psihopedagogică din unitățile de învățământ pentru servicii de consiliere școlară și psihologică.",
+      "weight": 3
+    },
+    {
+      "text": "Aplică rapid accesul elevilor la consilierea școlară, la 3 zile de la publicare, prin derogare de la termenul mai lung din Legea învățământului preuniversitar.",
+      "article": "Art. V",
+      "quote": "Prin derogare de la art. 10, alin. (2) din Legea învățământului preuniversitar nr. 198/2023, art. III intră în vigoare la 3 zile de la data publicării prezentei legi în Monitorul Oficial al României, Partea I.",
+      "weight": 2
+    },
+    {
+      "text": "Obligă Ministerul Sănătății, CNAS și Ministerul Educației să actualizeze normele de aplicare în 90 de zile, pentru ca instituțiile să adapteze procedurile la noile reguli.",
+      "article": "Art. IV",
+      "quote": "În termen de 90 de zile de la data intrării în vigoare a prezentei legi, Ministerul Sănătății, Casa Națională de Asigurări de Sănătate și Ministerul Educației vor modifica în mod corespunzător normele metodologice",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Obligă specialistul să anunțe imediat reprezentanții legali chiar și în caz de abuz sever, fără excepție când părintele e agresorul, expunând minorul la represalii.",
+      "article": "Art. II pct. 2",
+      "quote": "situații de abuz sever sau suspiciunea rezonabilă a unei afecțiuni care impune intervenție medicală, acesta are obligația de a informa de îndată reprezentanții legali ai minorului și, după caz, autoritățile competente.",
+      "weight": 3
+    },
+    {
+      "text": "Folosește termeni vagi ca „abuz sever” și „afecțiune care impune intervenție medicală”, ceea ce poate anula confidențialitatea aproape mereu și descurajează adolescenții să ceară ajutor.",
+      "article": "Art. II pct. 2",
+      "quote": "specialistul identifică un risc iminent de autovătămare, vătămare a altor persoane, situații de abuz sever sau suspiciunea rezonabilă a unei afecțiuni care impune intervenție medicală",
+      "weight": 3
+    },
+    {
+      "text": "Impune o evaluare prealabilă a capacității cognitive fără a defini criteriile, cine o plătește, cine consimte la ea sau dacă o face același psiholog, creând o barieră arbitrară.",
+      "article": "Art. II pct. 1",
+      "quote": "Accesul minorului la serviciile prevăzute la alin. (2) se realizează numai după evaluarea capacității cognitive a acestuia efectuată de către un psiholog cu drept de liberă practică.",
+      "weight": 2
+    },
+    {
+      "text": "Cere evaluare cognitivă în sistemul sanitar, dar nu și la cabinetele școlare, și folosește termeni diferiți („psihologie clinică” față de „evaluare psihologică clinică”), creând confuzie.",
+      "article": "Art. I, Art. II pct. 1 și Art. III",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Legea intră în vigoare în 3 zile, dar normele se modifică abia în 90 de zile, fără reguli tranzitorii pentru decontare sau pentru corelarea consilierii școlare cu serviciile clinice.",
+      "article": "Art. IV și Art. V",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Anunță introducerea unui singur „nou alineat nou”, alin. (2), dar textul introduce și alin. (3) și reproduce alin. (1), încălcând regulile de tehnică legislativă.",
+      "article": "Art. II pct. 1",
+      "quote": "La articolul 16, după alineatul (1) se introduce un nou alineat nou, alin. (2) și va avea următorul cuprins:",
+      "weight": 1
+    },
+    {
+      "text": "Indică greșit publicarea Legii învățământului preuniversitar nr. 198/2023 în Monitorul Oficial nr. 83 din 7 februarie 2013, o dată anterioară cu zece ani adoptării legii.",
+      "article": "Art. III",
+      "quote": "La articolul 106 din Legea învățământului preuniversitar nr.198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 83 din 7 februarie 2013, cu modificările și completările ulterioare",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Eliminarea evaluării cognitive preliminare neclare din art. II pct. 1 alin. (3) și refacerea art. II pct. 2 pentru a excepta părinții suspectați de abuz, sesizând întâi DGASPC și clarificând excepțiile de confidențialitate.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

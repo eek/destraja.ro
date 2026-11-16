@@ -1,0 +1,51 @@
+ROMÂNIA
+
+SENA
+
+EXPUNERE DE MOTIVE
+
+Prezenta inițiativă legislativă propune instituirea datei de 17 mai ca „Ziua Studențimii Române", în semn de recunoaștere a contribuției remarcabile pe care studenții au avut-o, de-a lungul istoriei moderne și contemporane, la afirmarea valorilor naționale, apărarea libertății și consolidarea democrației în România. Necesitatea consacrării unei zile naționale dedicate derivă din absența unei recunoașteri oficiale a rolului pe care studențimea română l-a avut în marile momente ale devenirii naționale. De la generația pașoptistă și Congresul de la Putna din 1871, până la rezistența anticomunistă din anii '50 și lupta pentru democratizarea țării după 1989, studenții au reprezentat constant una dintre cele mai active și lucide forțe ale societății românești. Tradiția angajamentului civic al studențimii române își are originile în prima jumătate a secolului al XIX-lea, când tinerii români formați în marile centre universitare europene au adus în tară idealurile Revoluției de la 1848 și au contribuit decisiv la afirmarea aspirațiilor de libertate, unitate și independență națională. Un alt moment definitoriu al acestei tradiții I-a reprezentat Congresul de la Putna din 1871, organizat de societățile studențești românești și care l-a avut printre principalii inițiatori pe Mihai Eminescu, când, pentru întâia dată, studenți din toate provinciile istorice românești s-au reunit într-o manifestare de amploare, afirmând public unitatea culturală și identitară a națiunii române. în secolul al XX-lea, studențimea s-a aflat în prima linie a rezistenței împotriva totalitarismului comunist. În 1956, solidari cu mișcările democratice izbucnite în Europa de Est, studențil români au formulat revendicări privind libertatea de exprimare, respectarea drepturilor fundamentale și retragerea trupelor sovietice. Aceste acțiuni au fost reprimate brutal, sute de tineri fiind arestați și condamnați.
+
+ROMANIA
+
+SENA
+
+Aceeași vocație civică s-a manifestat și în anul 1990, când studențimea română a avut un rol central în Fenomenul Piața Universității, cea mai amplă demonstrație a tineretului universitar din istoria României și cel mai lung act de rezistență civică și democratică din Europa de Est de după căderea Cortinei de Fier, o mișcare-reper a memoriei civice românești. Această amplă mobilizare civică organizată de Liga Studenților, căreia i s-au alăturat și alte organizații post-revoluționare, a reprezentat expresia unei generații care a apărat valorile democratice și a susținut necesitatea desprinderii definitive de moștenirea comunistă într-un moment decisiv pentru viitorul țării. Timp de aproape două luni, Piața Universității a reprezentat simbolul rezistenței democratice în România și un act de veritabil sacrificiu, dat fiind că implicarea studențimii de atunci a fost suprimată cu o violență maximă în zilele de 13-15 iunie 1990. Prin sacrificiul și perseverența celor implicați, acest episod a intrat definitiv în patrimoniul moral și democratic al României și al Europei, după cum declara marele scriitor Eugen Ionescu: „Mă gândesc la ce s-a întâmplat în Piața Universității și am impresia că România acum s-a deșteptat. 'Deșteaptă-te Române' este un cântec vechi, însă adevărata deșteptare s-a produs acum. Cred că tinerii din Piața Universității, cu Marian Munteanu în frunte, sunt adevărații eroi. Au vrut libertate si o vor încă, au vrut sinceritate. N-au spus decât adevărul. Eu sunt alături de ei. În fața fenomenului românesc actual rămâi uimit fiindcă ce s-a făcut în România nu s-a făcut nici în Polonia, nici în Ungaria, nici în Cehoslovacia". La rândul său, profesorul și poetul Ioan Alexandru sublinia, chiar în seara zilei de 17 mai 1990, din balconul Universității, adresându-se manifestanților: "Iubiți frați! Ne aflăm sub icoana Maicii Domnului de la Mănăstirea Putna, unde de o jumătate de mileniu Maica Domnului, la mormântul sfântului nostru Ștefan cel Mare, priveghează asupra destinului poporului român. Maica Domnului este ocrotitoarea și a acestei Piețe nemuritoare în istoria poporului român de acum încolo!"
+
+ROMANIA
+
+SEN
+
+În acest context, data de 17 mai 1990, propusă ca data de celebrare a Zilei Studențimii Române își vădește o profundă semnificație istorică, spirituală, culturală și simbolică, reprezentând momentul de maximă amploare al manifestațiilor din Piața Universității (cu peste 200.000 de manifestanți în acea zi), fenomen care întruchipează cel mai fidel valorile care au definit studențimea română de-a lungul timpului: curajul civic, spiritul de sacrificiu și atașamentul față de libertate și democrație. Din aceste considerente, apreciem că această dată este cea mai potrivită pentru a fi consacrată drept Ziua Studențimii Române.
+
+Instituirea Zilei Studențimii Române la data de 17 mai reprezintă, astfel, un act de recunoaștere a unei tradiții istorice de angajament civic și responsabilitate publică. Ea oferă totodată un prilej de reflecție asupra rolului pe care studenții l-au avut și îl pot avea în dezvoltarea societății românești, reafirmând valorile curajului, libertății, solidarității și participării democratice. Prin urmare, considerăm că instituirea Zilei Studențimii Române la data de 17 mai constituie un gest necesar de recuperare a memoriei colective și de afirmare a contribuției unei categorii sociale care a reprezentat, în repetate rânduri, conștiința civică a națiunii. În temeiul art. 111 alin. (1) din Constituția României, republicată, vă adresăm rugămintea de a solicita Guvernului să comunice punctul de vedere asupra prezentei propuneri legislative
+
+INIȚIATOR:
+
+Senator AUR - Marius-Valentin Roman
+
+LISTA Susținătorilor propunerii legislative - Lege pentru instituirea zilei de 17 mai ca Ziua Studențimii Romăne Nr. | Numele și prenumele | Grupul | Semnătura parlamentar 1 | PELU PETRIȘOR-GABRIEL | AUR 2- | Plöeșu Laurențiu | AUR 3 Petre Geige CoBa | seek 4 | Stean geaman | AUR D IN SIPOS CRiSTIAN ALR 6. Barcari Dorina | AUR 7 | VLAHe diCOLtE 8 | C CIPRIAN A.U.R Andrei Dirlăn | AVR 10 | STOICA CARiAN -TITi | A.V.R. Parasea Jeufl AURE 12. CRISTIMA SUMITREICU | sUR 13. CONSALE NEȘCU POSIKA AUR STEFĂNESCAUK,
+
+LISTA Susținătorilor propunerii legislative - Lege pentru instituirea zilei de 17 mai ca Ziua Studențimii Române
+
+Nr. | Numele și prenumele | Grupul | Semnătura parlamentar 15 | ROMAN MARÍUS-VALENTIN | AUR | Aue D | CHENTE C 18 SPAU DUMITRU | A.U.R 19 | Vlosan Vanti AVE 20. | Silgonu Coblin AVR CHELARU MIRÇI 22 | Lavric Sorin | AUR 23 | VASILE MARiAN | AUR
+
+LISTA Susținătorilor propunerii legislative - Lege pentru instituirea zilei de 17 mai ca Ziua Studențimii Române
+
+Nr. | Numele și prenumele | Grupul | Semnătura parlamentar ȘİMiON GEORGE | AUR LICOLA E 2- | AVRÂMESCA STEFANITA- ALIM AUR 3. Butură Cistica-Jưva | HUR Vulpoiu Dorel | AUR DASCĂLO CRISTINA AUR ordad sadeOs
+
+· | jAGAR HOMICA | AUR MITREA BUMITRINA | AUR 9. | FLOREA GIBRIEZ | AU A BADEA NELU | AUR 10\_ | VALENTIM GURLUi SiLViU-OCTAVIAN | AUR PUȘCASU PETRE | AUR NEGUESCU MIHAÎ-BOGDAN | AUR
+
+TILEA DUMITRU fUR
+
+LISTA Susținătorilor propunerii legislative - Lege pentru instituirea zilei de 17 mai ca Ziua Studențimii Române Nr. | Numele și prenumele | Grupul | Semnătura parlamentar 5 \< ȘERBAM GiAMIMA | AUR 16. Valcercu Florin: Basgotra AUR 17- LAICASA DATI toR 18. MiHAESCU MOGUR AUR POPESCu ANTONis | pur 19. | GABI ARIADNA - ELENA 20. | CÎRLIGEANL | A.LIR. Hegüeu Petu-Calarial AUR Bautan | AUR 23. MIMORESCU' MIC AUR. 24. | MUSST LuCiD | Aur ieseB cosmie TEODOR AR
+
+26 | SoriN MANCAcis AIR 24. Luaïau T Gorin | HUR FUSCASU GHEORGHE MIHAI CLADAIO | AUR
+
+LISTA Susținătorilor propunerii legislative - Lege pentru instituirea zilei de 17 mai ca Ziua Studențimii Române
+
+Nr. | Numele și prenumele | Grupul | Semnătura parlamentar 29- | Pr'esu lonelio | HUR 30 | DARSTAN TIRENW | AUR CIsNon CiORNZi 31 | DAMIEL- CATĂLİN | BUR 32 | GHERASIM | LAUPy | AUR PASCARIU 33 | MiHAI -COSMIN | AUR CiPRIAN 34 | PARASCHIV | AVe 4030% ELENA | AUR 36 | OAncEA sil viu | A UN NEGOESCU MIHAI-BOGDAN AUR 37 38 MUStT LUCiD Constantineseu Andra AUR 10 Popovici Traniu - larnal | AVIZ TAGAL MOMICA | AUK DASCĂLU CRISTINA EMANUELA | LAUR
+
+LISTA Susținătorilor propunerii legislative - Lege pentru instituirea zilei de 17 mai ca Ziua Studențimii Române
+
+Nr. | Numele și prenumele | Grupul | Semnătura parlamentar COLESA ILIE-ALIAs | AUR DIANA | AUR ENACHE

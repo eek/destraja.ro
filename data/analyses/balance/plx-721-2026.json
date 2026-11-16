@@ -1,0 +1,94 @@
+{
+  "slug": "plx-721-2026",
+  "billId": "Pl-x 721/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-16T08:30:28.076Z",
+  "inputHash": "f9dc1d7a81cc",
+  "riskScore": 3,
+  "summary": "O lege utilă pentru protejarea concediului directorilor și inspectorilor, dar stricată de obligarea ministerului să modifice unilateral un contract colectiv și de aplicarea în mijlocul anului școlar.",
+  "good": [
+    {
+      "text": "Stabilește prin lege un concediu de 35 de zile plus 3–7 zile pentru vechime (38–42 în total) pentru directori și inspectori, asigurându-le timp real de odihnă.",
+      "article": "Art. I pct. 1 și pct. 2 alin. (4¹)",
+      "quote": "Personalul de conducere, de îndrumare și control din învățământul preuniversitar de stat beneficiază de concediu de odihnă anual cu o durată de 35 de zile lucrătoare.",
+      "weight": 3
+    },
+    {
+      "text": "Creează o fereastră protejată de minimum 14 zile vara, în care ministerul și inspectoratele nu pot impune ședințe, controale sau raportări, făcând concediul efectiv.",
+      "article": "Art. I pct. 2 alin. (4²) și (4³)",
+      "quote": "o perioadă protejată la nivel național, cuprinsă în intervalul 1 iulie – 31 august, de cel puțin 14 zile calendaristice consecutive, care să cuprindă cel puțin 10 zile lucrătoare.",
+      "weight": 3
+    },
+    {
+      "text": "Limitează rechemarea din concediu doar la forță majoră sau pericol iminent, prin ordin scris și motivat, cu plata cheltuielilor și prejudiciilor angajatului.",
+      "article": "Art. I pct. 2 alin. (4⁴)",
+      "quote": "Rechemarea din concediu se dispune de autoritatea competentă prin act scris și motivat, cu respectarea obligațiilor angajatorului prevăzute la art. 151 alin. (2) din Legea nr. 53/2003",
+      "weight": 2
+    },
+    {
+      "text": "Obligă ministerul să consulte sindicatele și să publice perioada protejată până la 31 decembrie pentru anul următor, oferind predictibilitate.",
+      "article": "Art. I pct. 2 alin. (4²)",
+      "quote": "Perioada se stabilește și se publică până la 31 decembrie pentru anul calendaristic următor, cu corelarea calendarelor activităților din sistem.",
+      "weight": 2
+    },
+    {
+      "text": "Evită cumulul dublu al zilelor de concediu suplimentar, înlocuind suplimentul general din contractul colectiv fără a tăia alte concedii speciale.",
+      "article": "Art. II alin. (2)",
+      "quote": "înlocuiește, pentru personalul prevăzut la alin. (4), concediul suplimentar general de 3–7 zile lucrătoare prevăzut de contractul colectiv de muncă unic la nivel de sector",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Obligă ministerul să modifice singur Contractul Colectiv de Muncă în 60 de zile, lucru imposibil juridic deoarece un contract colectiv se schimbă doar prin negociere cu sindicatele.",
+      "article": "Art. II alin. (1) lit. b)",
+      "quote": "Contractul Colectiv de Munca 1104/2025 Unic la Nivel de Sector de Negociere Colectivă Învățământ Preuniversitar, înregistrat la M.M.F.T.S.S. - U.P.D.S.P.S..",
+      "weight": 3
+    },
+    {
+      "text": "Ocolește regula de stabilitate din legea educației și aplică legea din anul școlar 2026-2027, deja început, creând confuzie în calculul concediului pe parcursul anului.",
+      "article": "Art. III alin. (1) și (2)",
+      "quote": "Prevederile prezentei legi se aplică începând cu anul școlar 2026-2027.",
+      "weight": 2
+    },
+    {
+      "text": "Nu prevede nicio sancțiune sau mecanism de remediere dacă ministerul ori inspectoratele încalcă interdicția de a cere rapoarte sau de a chema directorii în perioada protejată.",
+      "article": "Art. I pct. 2 alin. (4³)",
+      "quote": "Nu solicită elaborarea ori transmiterea de situații, rapoarte, date sau documente și nu stabilesc termene de raportare, încărcare ori validare a datelor care presupun activitatea acestuia",
+      "weight": 2
+    },
+    {
+      "text": "Interdicția vizează doar ministerul și instituțiile subordonate, nu și primăriile sau alte autorități de control, care le pot cere în continuare date și verificări vara.",
+      "article": "Art. I pct. 2 alin. (4³)",
+      "quote": "În perioada protejată, Ministerul Educației și Cercetării, inspectoratele școlare și celelalte instituții aflate în subordinea ori coordonarea ministerului nu programează examene, concursuri, inspecții",
+      "weight": 2
+    },
+    {
+      "text": "Blocarea activităților ministerului într-o fereastră națională unică nu garantează automat aprobarea concediului fiecărui director și nici nu reglementează cine asigură continuitatea școlii.",
+      "article": "Art. I pct. 2 alin. (4²) și (4³)",
+      "quote": "nu programează examene, concursuri, inspecții, controale planificate, ședințe sau instruiri obligatorii care presupun participarea personalului prevăzut la alin. (4).",
+      "weight": 1
+    },
+    {
+      "text": "Conține greșeli de redactare juridică: teza a doua a alin. (4³) nu are subiect exprimat, lipsește ghilimeaua de închidere la alin. (4), iar titlul repetă cuvântul «pentru».",
+      "article": "Titlul legii, Art. I pct. 1 și pct. 2 alin. (4³)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Elimină obligația ministerului de a modifica unilateral Contractul Colectiv de Muncă (înlocuind-o cu negocierea unui act adițional) și amână aplicarea pentru următorul an școlar.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

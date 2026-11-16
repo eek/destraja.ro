@@ -1,0 +1,39 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+LEGE pentru modificarea și completarea Legii învățământului superior nr. 199/2023
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. - Legea învățământului superior nr. 199/2023, publicată în Monitorul Oficial al României, Partea I, nr. 614 din 5 iulie 2023, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 126 alineatul (1), după litera a), se introduce o nouă literă, lit. a¹), cu următorul cuprins:
+
+„a¹) principiul interzicerii oricărei forme de hărțuire, inclusiv hărțuire sexuală;”
+
+2\. La articolul 168 alineatul (4), după litera c), se introduce o nouă literă, lit. d), cu următorul cuprins:
+
+„d) abaterile care se referă la orice fapte de hărțuire, inclusiv hărțuire sexuală.”
+
+3\. După articolul 168 se introduce un nou articol, art. 168¹, cu următorul cuprins:
+
+„Art 168¹ - Instituțiile de învățământ superior au obligația de a institui proceduri clare și accesibile pentru prevenirea, sesizarea, analizarea și soluționarea cazurilor de hărțuire, inclusiv hărțuire sexuală, cu asigurarea protecției persoanei vătămate împotriva represaliilor și a accesului acesteia la măsuri de sprijin și consiliere.”
+
+4\. La Anexa „Lista definițiilor termenilor și expresiilor utilizați în cuprinsul legii”, punctul 34 se modifică și va avea următorul cuprins:
+
+„34. Hărțuire sexuală reprezintă orice formă de comportament nedorit, cu conotație sexuală, exprimat verbal, nonverbal sau fizic de un membru al comunității academice, având ca scop sau efect lezarea demnității unui student sau oricărui membru al comunității academice și, în special, crearea unui mediu de intimidare, ostil, degradant, umilitor sau jignitor, dacă nu este săvârșită în astfel de condiții încât, potrivit legii penale, să constituie infracțiune.”
+
+Art. II. - „În termen de 6 luni de la intrarea în vigoare a prezentei legi, Senatele universitare actualizează carta universitară, regulamentele și metodologiile de organizare și funcționare a instituțiilor de învățământ superior, precum și codurile de etică și deontologie universitară, în conformitate cu dispozițiile prezentei legi.”
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+Sorin Mihai GRINDEANU
+
+PREȘEDINTELE SENATULUI
+
+Mircea ABRUDEAN

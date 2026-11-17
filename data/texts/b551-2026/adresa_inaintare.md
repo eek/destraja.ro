@@ -6,10 +6,12 @@
 
 În temeiul art. 111 alin. (1) din Constituția României, republicată, vă adresăm rugămintea de a solicita Guvernului să comunice punctul de vedere asupra prezentei propuneri legislative.
 
-De asemenea, adresăm rugămintea de a solicita avizele Consiliului Legislativ , Consiliului Economic și Social și Consiliului Concurenței.
+De asemenea, adresăm rugămintea de a solicita avizele Consiliului Legislativ, Consiliului Economic și Social și Consiliului Concurenței.
 
-## INITIATORI:
+## INIȚIATORI:
 
-Senator AUR- George-Çezar Petre
+Senator AUR- George-Cezar Petre
+
+(1) \\fracyx = \\fracxy + 1
 
 Senator AUR- Petrișor-Gabriel Peiu

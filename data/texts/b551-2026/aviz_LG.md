@@ -1,5 +1,3 @@
-## AVIZ
-
 referitor la propunerea legislativă privind instituirea unei scheme de ajutor de stat pentru reducerea temporară a prețului energiei electrice pentru întreprinderile din sectoarele electro-intensive expuse comerțului internațional
 
 Analizând propunerea legislativă privind instituirea unei scheme de ajutor de stat pentru reducerea temporară a prețului energiei electrice pentru întreprinderile din sectoarele electro-intensive expuse comerțului internațional (b551/07.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/4794/12.10.2026 și înregistrată la Consiliul Legislativ cu nr. D862/13.10.2026,
@@ -42,7 +40,7 @@ Totodată, semnalăm că Expunerea de motive reia argumentația din acte juridic
 
 6\. Referitor la soluțiile legislative preconizate în prezenta propunere, în raport de obiectivele urmărite, în ceea ce privește fondul și forma reglementării, subliniem că în România există reglementări în vigoare privitoare la scheme de ajutor de stat pentru marii consumatori de energie. Exemplificăm, în cele ce urmează:
 
-a) Legea nr. 220/2008 pentru stabilirea sistemului de promovare a producerii energiei din surse regenerabile de energie, republicată, cu modificările și completările ulterioare, care instituie o schemă de exceptare partțială de la certificatele verzi, în proporție de 75% sau 85%, în funcție de codul CAEN, a consumatorilor finali electro-intensivi de la plata certificatelor verzi, administrată prin Ministerul Energiei;
+a) Legea nr. 220/2008 pentru stabilirea sistemului de promovare a producerii energiei din surse regenerabile de energie, republicată, cu modificările și completările ulterioare, care instituie o schemă de exceptare parțială de la certificatele verzi, în proporție de 75% sau 85%, în funcție de codul CAEN, a consumatorilor finali electro-intensivi de la plata certificatelor verzi, administrată prin Ministerul Energiei;
 
 b) Ordonanța de urgență a Guvernului nr. 138/2022 privind instituirea unei scheme de ajutor de stat acordat întreprinderilor din sectoarele considerate a fi expuse unui risc real de relocare a emisiilor de dioxid de carbon din cauza costurilor indirecte semnificative pe care le suportă efectiv ca urmare a transferării costurilor emisiilor de gaze cu efect de seră în prețul energiei electrice, precum și pentru modificarea și completarea unor acte normative în domeniul energiei, aprobată cu modificări și completări prin Legea nr. 130/2024, cu modificările și completările ulterioare, care reglementează schema de compensare a costurilor indirecte cu emisiile de gaze cu efect de seră, cu o durată de valabilitate pe perioada 2022-2031, instituită pentru compensarea emisiilor indirecte aferente anilor 2021-2030, iar plata ajutorului de stat se efectuează în perioada 2022-2031, prin bugetul Ministerului Energiei. Această schemă oferă sprijin financiar nerambursabil pentru întreprinderile din sectoare electro-intensive expuse riscului de relocare a emisiilor de carbon;
 
@@ -80,7 +78,7 @@ Senatul adoptă legi, hotărâri și moțiuni (...)", iar, potrivit art. 108 ali
 
 Parlamentul nu poate adopta, în locul Guvernului, o schemă de ajutor de stat, împreună cu procedura în fața Consiliului Concurenței, astfel cum este aceasta reglementată prin Ordonanța de urgență a Guvernului nr. 77/2014⁵, care prevede consultări cu anumite ministere, obținerea avizului Ministerului Finanțelor în ceea ce privește încadrarea în politicile economico-bugetare și financiare ale Guvernului, obținerea punctului de vedere al ministerului care coordonează politica în domeniul fondurilor europene, în ceea ce privește asigurarea complementarității respectivei măsuri de ajutor de stat sau ajutor de minimis cu programele finanțate din fonduri europene etc. Aceste din urmă activități aparțin Guvernului, în temeiul art. 102 alin. (1) și art. 108 alin. (1) din Constituția României, republicată.
 
-Prin urmare, pentru a îndeplini exigențele constituționale, legea adoptată de Parlament trebuie să formuleze doar norma primară și să nu se transforme într-un act de conducere curentă a administrației. Atunci când schema de ajutor de stat adoptată stabilește măsuri administrative concrete – cine implementează, în ce termen, cu ce fel de resurse, prin ce proceduri, sub ce indicatori, cu ce raportare și monitorizare – se situează în sfera funcției executive⁶.
+Prin urmare, pentru a îndeplini exigențele constituționale, legea adoptată de Parlament trebuie să formuleze doar norma primară și să nu se transforme într-un act de conducere curentă a administrației. Atunci când schema de ajutor de stat adoptată stabilește măsuri administrative concrete – cine implementează, în ce termen, cu ce fel de resurse , prin ce proceduri, sub ce indicatori, cu ce raportare și monitorizare – se situează în sfera funcției executive⁶.
 
 7\. În ceea ce privește textele proiectului, subliniem că acestea prezintă deficiențe de tehnică legislativă și de guvernanță. Exemplificăm, în continuare, câteva aspecte referitoare la redactarea necorespunzătoare a prezentei propuneri legislative:
 
@@ -108,4 +106,4 @@ d) semnalăm o altă vulnerabilitate de guvernanță la art. 13 alin. (3), care 
 
 Față de aspectele mai sus menționate, apreciem că soluțiile legislative preconizate în proiect nu pot fi promovate în forma prezentată, întrucât sunt susceptibile să încalce prevederile Constituției, în ceea ce privește raporturile dintre Parlament și Guvern, precum și regimul juridic al actelor acestora, nu acoperă toate categoriile de întreprinderi beneficiare de ajutor de stat și nu oferă instrumente de garantare pentru retehnologizare și eficiență energetică, astfel cum sunt acestea reglementate în Cadrul pentru măsuri de ajutor de stat de sprijinire a Pactului pentru o industrie curată (CISAF).
 
-Florin IORDACHE
+Florin|IORDACHE

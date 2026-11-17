@@ -1,8 +1,8 @@
-# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR ROBERT ALECU – DEPUTAT Circumscripția electorală nr. 04 – Bacău
+# PARLAMENTUL ROMÂNIEI CAMERĂ DEPUTAȚILOR ROBERT ALECU – DEPUTAT Circumscripția electorală nr. 04 – Bacău
 
 București, 7 octombrie 2026
 
-## Câtre Biroul permanent al Senatului
+## Către Biroul permanent al Senatului
 
 Subsemnatul, Robert Alecu, deputat ales în circumscripția electorală nr. 04 – Bacău, în temeiul art. 74 alin. (1), (4) și (5) și al art. 75 alin. (1) din Constituția României, republicată, precum și al art. 92 alin. (1), (2), (4) și alin. (7) pct. 2, coroborat cu art. 93 alin. (1) din Regulamentul Senatului, republicat, vă înaintez Senatului, în calitate de primă Cameră sesizată, spre dezbatere și adoptare, propunerea legislativă pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal și a Legii nr. 208/2015 privind alegerea Senatului și a Camerei Deputaților, precum și pentru organizarea și funcționarea Autorității Electorale Permanente, în vederea instituirii unei bonificații fiscale suplimentare anuale pentru participarea electorală.
 

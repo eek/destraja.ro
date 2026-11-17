@@ -1,7 +1,12 @@
 {
   "slug": "plx-174-2026",
   "billId": "PL-x 174/2026",
-  "updatedAt": "2026-10-29T12:45:23.653Z",
+  "updatedAt": "2026-11-17T09:15:45.953Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -31,6 +36,21 @@
         "agy": 2,
         "claude": 2,
         "codex": 4
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl174_cd174_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Cine plătește reciclarea electronicelor vechi: se aliniază datele la regulile UE",
+      "summaryTlDr": "Este o lege tehnică de transpunere, utilă și întârziată, fără taxe sau sancțiuni noi. Are însă câteva scăpări de redactare care pot crea confuzie: o suprapunere de o zi între regimuri și lipsa unei reguli clare pentru panourile fotovoltaice vechi.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
       }
     }
   ],
@@ -102,6 +122,97 @@
       "model": "claude",
       "schema": 3,
       "updatedAt": "2026-10-29T12:43:25.977Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Camera a corectat o greșeală care inversa sensul marcării DEEE: „resortate” a devenit „nesortate”",
+      "summary": "Acum textul vorbește corect despre deșeuri municipale „nesortate”, cum prevede directiva. Mențiunea de transpunere a fost mutată în ordonanță. Golurile de finanțare pentru panourile vechi și suprapunerea datei de 1 ianuarie 2007 rămân.",
+      "changes": [
+        {
+          "title": "Greșeala „resortate” corectată în „nesortate”",
+          "text": "La art. 34 alin. (5), scopul marcării se referă acum la deșeurile municipale nesortate, conform directivei. Inițial, cuvântul „resortate” răsturna sensul normei.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 34 alin. (5)",
+          "before": "În scopul reducerii la minimum a eliminării DEEE ca deșeuri municipale resortate și pentru a facilita colectarea lor separată",
+          "after": "În scopul reducerii la minimum a eliminării DEEE ca deșeuri municipale nesortate și pentru a facilita colectarea lor separată",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Mențiunea de transpunere a directivelor, mutată în ordonanță",
+          "text": "Inițial, legea spunea că ea însăși transpune Directiva 2024/884. Acum se modifică mențiunea din ordonanță, care indică ambele directive (2012/19/UE și 2024/884).",
+          "effect": "neutru",
+          "major": false,
+          "article": "pct. 7 (mențiunea de transpunere)",
+          "before": "Prezenta lege transpune în legislația națională Directiva (UE) 2024/884 a Parlamentului European și a Consiliului din 13 martie 2024 de modificare a Directivei 2012/19/UE privind deșeurile de echipamente electrice și electronice (DEEE)",
+          "after": "Prezenta ordonanță de urgență transpune în legislația națională Directiva 2012/19/UE a Parlamentului European și a Consiliului din 4 iulie 2012 privind deșeurile de echipamente electrice și electronice (DEEE)",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Ziua de 1 ianuarie 2007 intră și în regimul istoric, și în cel nou",
+            "major": true,
+            "article": "art. 32 alin. (1), art. 28 alin. (1), art. 33 alin. (1)"
+          },
+          {
+            "text": "Nu se spune cine finanțează DEEE din panouri introduse înainte de 13.08.2012",
+            "major": true,
+            "article": "art. 28 alin. (1) lit. b), art. 32 alin. (1), art. 33"
+          },
+          {
+            "text": "Nu se spune cine finanțează EEE open scope introduse între 2007 și 14.08.2018",
+            "major": true,
+            "article": "art. 28 alin. (1) lit. c), art. 33 alin. (1) lit. c)"
+          },
+          {
+            "text": "Standardul este scris greșit „SREN nr. 50419:2022” în loc de „SR EN 50419:2022”",
+            "major": false,
+            "article": "art. 37 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Răspunderea pentru panouri și EEE open scope nu mai e retroactivă (CJUE C-181/20)",
+            "major": true,
+            "article": "art. 28 alin. (1), art. 33 alin. (1)"
+          },
+          {
+            "text": "Fiecare producător plătește pentru deșeurile provenite din propriile produse",
+            "major": true,
+            "article": "art. 28 alin. (2)"
+          },
+          {
+            "text": "Marcajul datei de introducere pe piață este aliniat la noile date de aplicare",
+            "major": false,
+            "article": "art. 37 alin. (2)-(3)"
+          },
+          {
+            "text": "Scopul marcării vizează corect deșeurile municipale nesortate",
+            "major": false,
+            "article": "art. 34 alin. (5)"
+          },
+          {
+            "text": "Mențiunea de transpunere indică ambele directive DEEE",
+            "major": false,
+            "article": "pct. 7"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 13,
+        "removed": 11,
+        "same": 0.63
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-17T09:15:45.953Z"
     }
   ]
 }

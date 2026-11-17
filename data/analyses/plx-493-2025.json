@@ -1,0 +1,121 @@
+{
+  "billId": "Pl-x 493/2025",
+  "slug": "plx-493-2025",
+  "version": "initiator",
+  "updatedAt": "2026-11-17T09:07:48.276Z",
+  "consensus": {
+    "riskScore": 4.7,
+    "riskLevel": "yellow",
+    "plainTitle": "Victimele violenței domestice ar putea vedea în timp real zona aproximativă în care se află agresorul monitorizat",
+    "summaryTlDr": "Scopul este legitim și protector, iar măsura rămâne la decizia instanței, nu se aplică automat. Textul este însă redactat neglijent: nu spune pe ce criterii, pe ce durată și cu ce garanții de protecție a datelor se acordă accesul, iar termenele pentru dispozitive sunt nerealiste și nu are finanțare.",
+    "initiatorClaim": "Inițiatorii vor ca sistemul de monitorizare electronică să nu mai fie doar reactiv, adică să nu mai dea alerte doar când agresorul este deja aproape. Victima ar primi informații despre zona aproximativă a agresorului, ca să poată evita singură contactul.",
+    "realityCheck": "Legea permite instanței să ordoneze ca victima să primească un flux continuu, chiar și fără alertă, cu poziția aproximativă a agresorului, la o rază de circa 1 km. Mecanismul nu are criterii de risc, durată, regim de revocare, interdicție de divulgare a datelor sau sancțiuni pentru folosirea lor abuzivă. Un flux continuu permite reconstituirea rutinei zilnice a persoanei, iar în localitățile mici 1 km poate însemna practic adresa exactă. Art. III cere adaptarea dispozitivelor în 30 de zile sau licitații în 60 de zile, fără să numească autoritatea responsabilă și fără sursă de finanțare.",
+    "affectedGroups": [
+      "Justiție & Drepturi Civile",
+      "IT & AI",
+      "IMM & Antreprenori"
+    ],
+    "senatForm": {
+      "articleRef": "Art. I pct. 3 – art. 3 alin. (1) L. 146/2021",
+      "proposalContent": "Prin excepție, instanța care emite ordinul de protecție poate dispune motivat accesul persoanei protejate la informații de localizare aproximativă, numai dacă evaluarea riscului indică risc ridicat. Datele nu se stochează pe dispozitivul persoanei protejate și nu pot fi divulgate terților. Măsura se revocă la încetarea riscului.",
+      "argumentation": "Textul actual nu precizează ce instanță decide, pe ce criterii, pe ce durată și cum sunt protejate datele. Fluxul continuu, inclusiv fără alertă, permite reconstituirea rutinei persoanei supravegheate și poate fi folosit abuziv. Art. 26 și 53 din Constituție și art. 8 CEDO cer criterii clare și garanții proporționale.",
+      "otherComments": "Erori materiale: «dispositiv»; «republicată în MO nr. 948 din 15 octombrie 2029» (dată imposibilă). Art. III: termene de 30/60 zile nerealiste față de Legea 98/2016, fără autoritate responsabilă și fără sursă de finanțare. Sunt necesare fișa financiară (art. 15 Legea 500/2002) și corelarea cu Directiva (UE) 2016/680."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "modelId": "gemini-4-hydrogen-high",
+      "durationMs": 33424,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Victimele violenței domestice ar putea vedea pe hartă, în timp real, zona aproximativă a agresorului",
+      "verdictShort": "Intenția de a oferi victimelor protecție preventivă este legitimă, dar textul suferă de grave deficiențe de tehnică legislativă, riscuri privind protecția datelor și termene tehnice nerealiste de 30-60 de zile fără finanțare.",
+      "initiatorClaim": "Inițiatorii susțin că sistemul actual de brățări electronice este doar reactiv și propun ca instanța să poată acorda victimei acces în timp real la localizarea aproximativă (rază de 1 km) a agresorului, pentru a evita întâlnirile periculoase.",
+      "realityCheck": "Legea obligă statul să transmită continuu către un particular poziția aproximativă a persoanei supravegheate, chiar și în lipsa unei alerte sau la mare distanță, fără a interzice stocarea sau distribuirea datelor și fără a clarifica algoritmul de anonimizare. În plus, impune adaptarea tuturor dispozitivelor SIME în 30 de zile sau inițierea de licitații pentru altele noi în 60 de zile, fără buget alocat.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "IT & AI"
+      ],
+      "keyFindings": [
+        "Art. I pct. 2 și 3 (art. 2 lit. h¹ și art. 3 alin. 1 din Legea 146/2021) permit transmiterea în timp real către victimă a unui perimetru de ~1 km în lipsa oricărei alerte, fără a stabili cum se evită deducerea poziției exacte (dacă cercul este centrat pe persoană) și fără sancțiuni pentru utilizarea abuzivă a datelor.",
+        "Art. III impune termene nerealiste și fără acoperire bugetară: 30 de zile pentru adaptarea tehnică a tuturor dispozitivelor SIME existente sau 60 de zile pentru inițierea licitațiilor de înlocuire.",
+        "Textul conține erori materiale grave de tehnică legislativă: la Art. II indică publicarea Legii 217/2003 în M.Of. din „15 octombrie 2029” (în loc de 2020), iar la Art. I folosește termeni greșiți sau impreciși precum „dispositiv” și „precizie metricală”."
+      ],
+      "blindSpotsCaught": "Modificând definițiile generale din Legea 146/2021 (art. 2, 3 și 12), accesul în timp real se extinde implicit și la alte proceduri judiciare (ex. control judiciar), nu doar la ordinele de protecție; totodată, legea nu prevede nicio interdicție sau sancțiune dacă persoana protejată fotografiază, stochează sau face publică localizarea agresorului.",
+      "constitutionalityNote": "Proiectul ridică probleme pe Art. 1 alin. (5) privind calitatea și previzibilitatea legii (concept tehnic neclar de „perimetru de aproximativ 1 km fără precizie metricală”, erori materiale), pe Art. 26 și Art. 53 (proporționalitatea ingerinței în viața privată prin monitorizare continuă accesibilă unui terț chiar și când nu există risc de proximitate) și pe Art. 138 alin. (5) (impunerea de cheltuieli bugetare pentru adaptarea/achiziția SIME fără indicarea sursei de finanțare).",
+      "euLawNote": "Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii) și Directiva (UE) 2015/1535 (TRIS, vizând reglementări comerciale digitale) nu sunt direct incidente, însă prelucrarea și transferul de date de localizare în timp real către persoane private intră sub incidența Directivei (UE) 2016/680 (protecția datelor în materie penală) și GDPR, necesitând garanții stricte de minimizare, securitate și limitare a scopului, absente din text. Licitațiile de la Art. III trebuie să respecte Directiva 2014/24/UE.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 2, 3 și Art. III",
+        "proposalContent": "La Art. I pct. 2, localizarea aproximativă să se afișeze doar prin zone de alertă extinse (ex. 2-5 km), fără coordonate sau istoric. La pct. 3, accesul să fie limitat la durata strictă a ordinului, cu interdicția salvării/distribuirii datelor. La Art. III, termenul de adaptare tehnică să devină 180 de zile, condiționat de avizul ANSPDCP și fișa financiară.",
+        "argumentation": "Accesul continuu în timp real la poziția agresorului (chiar la 1 km), în lipsa unei alerte, riscă să încalce Art. 26 din Constituție și Directiva (UE) 2016/680, facilitând urmărirea reciprocă sau scurgerile de date. Termenul de 30/60 zile pentru adaptare sau licitații încalcă Legea 98/2016 și Art. 138 alin. (5) din Constituție prin lipsa sursei de finanțare.",
+        "otherComments": "Corectați eroarea materială de la Art. II (M.Of. nr. 948 din 15 octombrie 2020, nu 2029) și greșelile de redactare din Art. I („dispositiv”, „precizie metricală”). Solicitați punctul de vedere tehnic al MAI/IGPR privind capacitatea reală a SIME și impactul bugetar înaintea raportului final."
+      },
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 66976,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Victimele violenței domestice ar putea vedea în timp real zona aproximativă în care se află agresorul monitorizat",
+      "verdictShort": "Scopul este legitim și protector, iar măsura rămâne la decizia instanței, nu se aplică automat. Textul este însă redactat neglijent: nu spune pe ce criterii, pe ce durată și cu ce garanții de protecție a datelor se acordă accesul, iar termenele pentru dispozitive sunt nerealiste și nu are finanțare.",
+      "initiatorClaim": "Inițiatorii vor ca sistemul de monitorizare electronică să nu mai fie doar reactiv, adică să nu mai dea alerte doar când agresorul este deja aproape. Victima ar primi informații despre zona aproximativă a agresorului, ca să poată evita singură contactul.",
+      "realityCheck": "Legea permite instanței să ordoneze ca victima să primească un flux continuu, chiar și fără alertă, cu poziția aproximativă a agresorului, la o rază de circa 1 km. Mecanismul nu are criterii de risc, durată, regim de revocare, interdicție de divulgare a datelor sau sancțiuni pentru folosirea lor abuzivă. Un flux continuu permite reconstituirea rutinei zilnice a persoanei, iar în localitățile mici 1 km poate însemna practic adresa exactă. Art. III cere adaptarea dispozitivelor în 30 de zile sau licitații în 60 de zile, fără să numească autoritatea responsabilă și fără sursă de finanțare.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "IT & AI"
+      ],
+      "keyFindings": [
+        "Art. I pct. 2 (art. 2 lit. h¹ din Legea 146/2021) definește precizia ca «un perimetru de aproximativ 1 kilometru». Dublul «aproximativ» face standardul tehnic imprecis. Definiția nu spune cât de des se actualizează datele și nici dacă se păstrează un istoric.",
+        "Art. I pct. 3 introduce excepția într-un alineat care, de fapt, protejează viața privată a persoanei supravegheate. Textul nu precizează ce instanță decide (doar cea care emite ordinul de protecție sau și cea penală, în cazul controlului judiciar), pe ce criterii (doar «circumstanțele concrete»), pe ce durată și cum se revocă măsura.",
+        "Formula «inclusiv în lipsa unei alerte» (art. 3, art. 12 din Legea 146/2021 și noua lit. d) din art. 38 alin. (5) al Legii 217/2003) transformă măsura dintr-una punctuală într-o urmărire permanentă. Nu există nicio obligație de confidențialitate pentru persoana protejată și nicio sancțiune dacă datele sunt divulgate sau folosite pentru a provoca o confruntare.",
+        "Art. III impune adaptarea dispozitivelor în 30 de zile sau inițierea licitațiilor în 60 de zile. Termenele sunt nerealiste față de procedurile din Legea 98/2016, nu se numește autoritatea care administrează SIME și nu se indică sursa de finanțare. Expunerea de motive afirmă doar că «costurile sunt minime», fără nicio cifră.",
+        "Erori materiale: «dispositiv» (art. 2 lit. f), «persoana protejata», «localizarea aproximativă» (dezacord gramatical). Legea 217/2003 apare ca «republicată în Monitorul Oficial nr. 948 din 15 octombrie 2029», o dată imposibilă. Referința la republicare trebuie verificată și corectată."
+      ],
+      "blindSpotsCaught": "Fișa Camerei leagă măsura de art. 38 alin. (1) din Legea 217/2003, dar textul o introduce ca lit. d) după art. 38 alin. (5) lit. c). Corelarea trebuie verificată cu forma în vigoare a articolului. Mai grav, prelucrarea datelor de localizare în context penal intră sub incidența Directivei (UE) 2016/680, transpusă prin Legea 363/2018, care cere ca legea să stabilească scopul, durata stocării, cine are acces și jurnalizarea accesărilor. Proiectul nu reglementează niciunul dintre aceste elemente. Expunerea de motive invocă «studii internaționale» fără nicio sursă, iar o afirmație centrală este formulată la condițional («ar înregistra rate mai scăzute»), deci nu are suport empiric demonstrat.",
+      "constitutionalityNote": "Scopul este compatibil cu Constituția: statul are obligația pozitivă de a proteja viața și integritatea fizică și psihică (art. 22), iar decizia aparține unui judecător. Problemele țin de modul de reglementare. Restrângerea dreptului la viață privată (art. 26) trebuie să respecte art. 53, adică să fie necesară, proporțională și prevăzută de o lege clară. Lipsa criteriilor, a duratei și a garanțiilor privind datele ridică probleme de claritate și previzibilitate în sensul art. 1 alin. (5), conform jurisprudenței CCR și CEDO (art. 8). Art. III generează cheltuieli bugetare fără sursă de finanțare și, după datele disponibile, fără fișă financiară, ceea ce încalcă art. 138 alin. (5) din Constituție și art. 15 din Legea 500/2002. CCR a sancționat în mod constant astfel de omisiuni. Este necesar și punctul de vedere al Guvernului (art. 111).",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, deoarece proiectul nu reglementează accesul la o profesie. Nici Directiva (UE) 2015/1535 (TRIS) nu pare aplicabilă: proiectul nu impune reguli tehnice pentru produse sau servicii ale societății informaționale oferite pe piață, ci configurează un sistem public, achiziționat de stat. Relevante sunt Directiva (UE) 2016/680 (prelucrarea datelor în materie penală) și, după caz, GDPR. Este nevoie de consultarea ANSPDCP și de reglementarea limitării scopului, a duratei de stocare și a securității datelor. Directiva (UE) 2024/1385 privind combaterea violenței împotriva femeilor și a violenței domestice susține ordinele de protecție eficiente, inclusiv prin monitorizare electronică. Proiectul este în spiritul ei, dar trebuie să respecte și drepturile procedurale ale persoanei supravegheate. Achizițiile prevăzute la Art. III rămân supuse Directivei 2014/24/UE, transpusă prin Legea 98/2016.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 3 – art. 3 alin. (1) L. 146/2021",
+        "proposalContent": "Prin excepție, instanța care emite ordinul de protecție poate dispune motivat accesul persoanei protejate la informații de localizare aproximativă, numai dacă evaluarea riscului indică risc ridicat. Datele nu se stochează pe dispozitivul persoanei protejate și nu pot fi divulgate terților. Măsura se revocă la încetarea riscului.",
+        "argumentation": "Textul actual nu precizează ce instanță decide, pe ce criterii, pe ce durată și cum sunt protejate datele. Fluxul continuu, inclusiv fără alertă, permite reconstituirea rutinei persoanei supravegheate și poate fi folosit abuziv. Art. 26 și 53 din Constituție și art. 8 CEDO cer criterii clare și garanții proporționale.",
+        "otherComments": "Erori materiale: «dispositiv»; «republicată în MO nr. 948 din 15 octombrie 2029» (dată imposibilă). Art. III: termene de 30/60 zile nerealiste față de Legea 98/2016, fără autoritate responsabilă și fără sursă de finanțare. Sunt necesare fișa financiară (art. 15 Legea 500/2002) și corelarea cu Directiva (UE) 2016/680."
+      },
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 131130,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Victima poate vedea zona în care se află agresorul",
+      "verdictShort": "Scopul este legitim și poate îmbunătăți protecția victimelor. Forma furnizată are însă o eroare de amplasare a măsurii, garanții insuficiente pentru accesul continuu la localizare și obligații tehnice nefundamentate financiar.",
+      "initiatorClaim": "Inițiatorii vor ca victimele să poată evita întâlnirile cu agresorii înainte de declanșarea unei alerte. Ei susțin că localizarea aproximativă ar crește siguranța, cu afectarea limitată a vieții private și costuri mici.",
+      "realityCheck": "Proiectul permite instanței să acorde acces în timp real la localizarea aproximativă, inclusiv fără alertă; accesul nu devine automat pentru toate victimele. Introducerea acestei posibilități între condițiile monitorizării din art. 38 alin. (5) poate însă produce interpretarea că accesul este o condiție suplimentară pentru dispunerea monitorizării. Aproximarea la un kilometru nu anonimizează persoana și nu împiedică deducerea rutinei sale din consultări repetate.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "IT & AI",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. II pct. 1 introduce noua literă d) în art. 38 alin. (5), care reglementează condițiile monitorizării electronice. Accesul victimei trebuie formulat ca măsură facultativă distinctă, pentru a evita condiționarea neintenționată a monitorizării.",
+        "Art. I pct. 2 definește un «perimetru de aproximativ 1 kilometru», fără să precizeze dacă este vorba despre rază, diametru sau altă regulă de aproximare. Definiția nu garantează că afișarea repetată nu permite deducerea unei poziții mai precise.",
+        "Art. I pct. 3 invocă circumstanțele concrete, dar nu stabilește expres criterii de risc, durata accesului, condițiile retragerii și limitele istoricului accesibil. Controlul judecătoresc este o garanție utilă, însă nu înlocuiește delimitarea legală a ingerinței.",
+        "Art. III impune adaptarea dispozitivelor în 30 de zile sau inițierea achizițiilor în 60 de zile. Nu identifică expres instituția responsabilă și nu fixează termenul final al operaționalizării; accesul acordat de instanță poate rămâne temporar imposibil tehnic.",
+        "Textul nu introduce taxe, amenzi, profesii rezervate sau un furnizor exclusiv și nu impune obligații generale cetățenilor ori IMM-urilor. Există însă costuri publice pentru software, securitate, instruire și eventuale echipamente; fragmentul expunerii nu le cuantifică și nu documentează studiile invocate.",
+        "Art. II indică republicarea Legii nr. 217/2003 la «15 octombrie 2029», dată viitoare față de inițiativa din 2025. Referința trebuie verificată și corectată în documentul oficial, pentru a distinge eroarea legislativă de o posibilă eroare de extragere."
+      ],
+      "blindSpotsCaught": "Problema principală este plasarea accesului victimei într-o enumerare de condiții pentru monitorizare: o facilitate de protecție poate deveni, prin interpretare, o piedică pentru aplicarea brățării. Separat, localizarea aproximativă rămâne dată personală, iar accesul continuu poate dezvălui domiciliul, locul de muncă sau deplasări sensibile. Afișarea trebuie să indice și vechimea informației, pentru a evita o falsă senzație de siguranță.",
+      "constitutionalityNote": "Protejarea vieții și integrității victimei susține obiectivul proiectului, potrivit art. 22 din Constituție. Accesul continuu la localizarea persoanei supravegheate interferează cu art. 26 și trebuie justificat prin necesitate și proporționalitate, conform art. 53; autorizarea judiciară și aproximarea poziției reduc ingerința, fără să rezolve toate garanțiile lipsă. Ambiguitatea perimetrului și amplasarea greșită a măsurii ridică probleme de claritate potrivit art. 1 alin. (5). Art. 23 alin. (12) nu este direct incident, deoarece proiectul nu instituie infracțiuni sau pedepse. Pentru cheltuielile suplimentare trebuie verificate respectarea art. 111 alin. (1), când este aplicabil, și identificarea sursei de finanțare potrivit art. 138 alin. (5); din fragment nu se poate constata încălcarea procedurii.",
+      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile privind accesul la profesii reglementate și exercitarea lor; proiectul nu intră în acest domeniu. Directiva (UE) 2015/1535 nu devine aplicabilă automat fiindcă există software: trebuie verificat dacă funcționalitățile obligatorii ale echipamentelor constituie reglementări tehnice notificabile prin TRIS. Textul nu reglementează expres AI sau un serviciu al societății informaționale. Regimul datelor trebuie determinat după scopul prelucrării și autoritatea implicată: GDPR sau, dacă sunt îndeplinite condițiile sale, Directiva (UE) 2016/680, transpusă prin Legea nr. 363/2018. Sunt necesare minimizarea datelor, securitatea accesului, limitarea păstrării și evaluarea necesității unei evaluări de impact. Achizițiile trebuie să păstreze concurența și cerințele nediscriminatorii; proiectul nu instituie un monopol.",
+      "senatForm": {
+        "articleRef": "Art. II pct. 1 – art. 38 din Legea nr. 217/2003",
+        "proposalContent": "După art. 38 alin. (5) se introduce alin. (5¹): «La cererea victimei, instanța poate dispune motivat accesul la localizarea aproximativă, dacă este necesar și proporțional cu riscul constatat. Accesul este limitat la durata monitorizării, nu condiționează dispunerea acesteia și nu include istoricul deplasărilor.»",
+        "argumentation": "Alin. (5) stabilește condițiile monitorizării; adăugarea lit. d) poate transforma accesul victimei într-o condiție suplimentară pentru brățară. Un alineat distinct păstrează caracterul facultativ și introduce garanții de necesitate, proporționalitate și durată, în acord cu art. 26 și 53 din Constituție.",
+        "otherComments": "Analiza privește textul furnizat; dosarul și forma actuală nu au putut fi verificate online. Termenul indicat, 04.12.2025, a trecut; preluarea amendamentului trebuie verificată la comisie. Sunt necesare corelarea art. I, reguli de securitate a datelor, fundamentarea costurilor și verificarea datei republicării."
+      },
+      "status": "ok"
+    }
+  }
+}

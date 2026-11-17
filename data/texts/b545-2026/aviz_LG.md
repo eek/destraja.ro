@@ -1,8 +1,12 @@
-# CONSILIUL LEGISLATIV Biroul permanent al Senatului Bp..../ 10 noiemb/2026
+Bp 545 10 novembre 2026
 
 # AVIZ
 
-referitor la propunerea legislativă pentru completarea Ordonanței Guvernului nr. 15/2002 privind aplicarea tarifului de utilizare și a tarifului de trecere pe rețeaua de drumuri naționale din România
+# referitor la propunerea legislativă pentru completarea Ordonanței Guvernului nr. 15/2002 privind aplicarea tarifului de utilizare și a tarifului de trecere pe
+
+Biroul permanent al Senatute 644 116 11 2026 Analizand
+
+Biroul permanent al Senaturiețeaua de drumuri naționale din România
 
 Analizând propunerea legislativă pentru completarea Ordonanței Guvernului nr. 15/2002 privind aplicarea tarifului de utilizare și a tarifului de trecere pe rețeaua de drumuri naționale din România (b545/05.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/4794/12.10.2026 și înregistrată la Consiliul Legislativ cu nr. D858/13.10.2026,
 
@@ -24,6 +28,6 @@ Prin urmare, în prezent nu mai este posibilă completarea acestui act normativ,
 
 Ținând seama de cele de mai sus, reglementarea preconizată nu poate fi promovată în forma propusă prin proiect.
 
-PRESEMENT
+PRESEDINTE
 
 Florin LORDACHE

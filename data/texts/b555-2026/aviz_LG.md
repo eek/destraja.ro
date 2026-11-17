@@ -4,9 +4,11 @@ referitor la propunerea legislativă privind instituirea zilei de 30 ianuarie ca
 
 Analizând propunerea legislativă privind instituirea zilei de 30 ianuarie ca „Ziua Națională a Profesorului de Religie” (b555/07.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/4794/12.10.2026 și înregistrată la Consiliul Legislativ cu nr. D866/13.10.2026,
 
+Biroul permanent al Senatului 16.11.2026
+
 ## CONSILIUL LEGISLATIV
 
-În temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (3) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
+650..../.....În.temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (3) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
 
 Avizează favorabil propunerea legislativă, cu următoarele observații și propuneri:
 
@@ -34,7 +36,7 @@ La alin. (3), recomandăm eliminarea normei, întrucât lipsa obligației alocă
 
 PRESEDENTE
 
-Florin IORDACHE
+Florin LORDACHE,
 
 București
 

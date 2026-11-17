@@ -1,10 +1,11 @@
 {
   "slug": "plx-376-2026",
   "billId": "PL-x 376/2026",
-  "updatedAt": "2026-11-10T20:52:11.594Z",
+  "updatedAt": "2026-11-17T09:18:28.941Z",
   "plan": [
     "initiator",
-    "senat"
+    "senat",
+    "camera"
   ],
   "versions": [
     {
@@ -34,6 +35,21 @@
       "scores": {
         "agy": 6,
         "claude": 5,
+        "codex": 6
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl376_cd376_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Statul nu mai poate vinde acțiuni la companiile sale până la finalul lui 2027",
+      "summaryTlDr": "Înghețarea temporară a privatizărilor este o opțiune politică legitimă și compatibilă în principiu cu Constituția și cu dreptul UE. Textul are însă formulări vagi și o cotă permanentă de alocare (art. 46² lit. b) care discriminează fondurile din alte state UE după locul unde investesc.",
+      "scores": {
+        "agy": 6,
+        "claude": 6,
         "codex": 6
       }
     }
@@ -206,6 +222,117 @@
       "model": "claude",
       "schema": 4,
       "updatedAt": "2026-11-10T20:52:11.594Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Doar precizări de redactare: interdicția de vânzare a acțiunilor statului până în 2027 rămâne aceeași",
+      "summary": "Camera a păstrat interdicția de a vinde acțiunile statului până la finalul lui 2027 și aceleași excepții. A schimbat doar formulări: insolvența trebuie „deschisă”, nu „declanșată”, și s-a precizat la ce societăți se aplică vânzarea pe bursă.",
+      "changes": [
+        {
+          "title": "Insolvența trebuie să fie deschisă, nu doar declanșată",
+          "text": "La art. 1 alin. (2), excepția pentru firmele în insolvență folosește acum termenul „deschisă”, cel din legea insolvenței. Inițial scria „declanșată”, termen mai vag.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 1 alin. (2)",
+          "before": "sau pentru care a fost declanșată, prin hotărâre judecătorească definitivă, procedura de insolvență",
+          "after": "sau pentru care a fost deschisă, prin hotărâre judecătorească definitivă, procedura de insolvență",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Precizat la ce societăți se aplică vânzarea pe bursă",
+          "text": "La art. 3 alin. (2), „alte societăți” devine „alte societăți la care statul are calitatea de acționar”. Textul se aliniază astfel cu art. 1, fără să schimbe cine e vizat.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 3 alin. (2)",
+          "before": "precum și la alte societăți pot fi înstrăinate pe piețe reglementate sau sisteme alternative de tranzacționare autorizate conform legii.",
+          "after": "precum și la alte societăți la care statul are calitatea de acționar pot fi înstrăinate pe piețe reglementate sau sisteme alternative de tranzacționare autorizate conform legii.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Interdicția vizează orice societate cu acțiuni de stat, fără listă de companii strategice",
+            "major": true,
+            "article": "art. 1 alin. (1)"
+          },
+          {
+            "text": "Nu se precizează dacă pragul de 5 milioane lei e valoare nominală, contabilă sau bursieră",
+            "major": true,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Pierderile pe 5 ani: neclar ce interval și ce situații financiare contează",
+            "major": true,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Contractele semnate dar nefinalizate rămân blocate, cu risc de despăgubiri și arbitraje",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Excepțiile permit vânzarea doar pe bursă, greu de aplicat la firme nelistate",
+            "major": true,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Nulitatea absolută sancționează doar art. 3 alin. (2), nu și vânzarea interzisă de art. 1",
+            "major": true,
+            "article": "art. 3 alin. (3)"
+          },
+          {
+            "text": "Suspendarea legilor privatizării „în mod corespunzător” nu indică articolele vizate",
+            "major": false,
+            "article": "art. 3 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Excepții pentru firme cu pierderi, în insolvență sau cu participații mici",
+            "major": true,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Sunt permise majorări de capital și obligațiuni convertibile fără vânzarea acțiunilor statului",
+            "major": true,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "La emisiunile noi, cel puțin 50% din acțiuni merg la investitorii de retail",
+            "major": true,
+            "article": "art. 4"
+          },
+          {
+            "text": "Interdicția e temporară, doar până la 31 decembrie 2027",
+            "major": false,
+            "article": "art. 1 alin. (1)"
+          },
+          {
+            "text": "Vânzările permise se fac doar pe piețe reglementate, transparent",
+            "major": false,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Majorările de capital nu pot duce la pierderea controlului statului",
+            "major": false,
+            "article": "art. 4"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 6,
+        "same": 0.63
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-17T09:18:28.941Z"
     }
   ]
 }

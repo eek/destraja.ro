@@ -10,19 +10,17 @@ Membru fondator al Asociației Internaționale a Consiliilor Economice și Socia
 
 Nr. 6927/21.10.2026
 
-Biroul permanent al Senatului
-
 ## AVIZ
-
-Bp 555 1 26.10.226
 
 ## referitor la propunerea legislativă privind instituirea zilei de 30 ianuarie ca "Ziua Națională a Profesorului de Religie" (b555/7.10.2026)
 
 În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative privind instituirea zilei de 30 ianuarie ca "Ziua Națională a Profesorului de Religie" (b555/7.10.2026).
 
+Biroul permanent al Senatului
+
 ## CONSILIUL ECONOMIC ȘI SOCIAL
 
-În temeiul art. 5 lit. a) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, în ședința din data de 21.10.2026, desfășurată online, conform prevederilor art. 30 alin. (1) din Regulamentul de organizare și funcționare, avizează NEFAVORABIL prezentul proiect de act normativ, cu următoarea motivare:
+In temeiul art. 5 lit. a) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, în ședința din data de 21.10.2026, desfășurată online, conform prevederilor art. 30 alin. (1) din Regulamentul de organizare și funcționare, avizează NEFAVORABIL prezentul proiect de act normativ, cu următoarea motivare:
 
 \- cadrul legal existent reglementează deja o zi a profesorului, toți profesorii, indiferent de disciplină, fiind celebrați pe data de 5 octombrie. În România, pe lângă data internațională din octombrie, există și o zi națională dedicată, Ziua Învățătorului, sărbătorită pe 5 iunie (data nașterii pedagogului Gheorghe Lazăr);
 
@@ -42,10 +40,10 @@ Digitally signed
 
 by Fudulea
 
-09:24:06 CEST
+Sterica
 
 2026.10.23
 
-Sterică
+09:24:06 CEST
 
 Date:

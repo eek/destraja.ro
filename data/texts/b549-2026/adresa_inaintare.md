@@ -1,4 +1,6 @@
-## BIROUL PERMANENT AL SENATULUI
+CÂTRE,
+
+# BIROUL PERMANENT AL SENATULUI
 
 În conformitate cu prevederile art. 74 alin. (1) și ale art. 75 din Constituția României, republicată, precum și cu prevederile art. 92 alin. (2) și (4) din Regulamentul Senatului, republicat, vă înaintăm propunerea legislativă intitulată „Lege pentru modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii” spre dezbatere și adoptare.
 
@@ -12,4 +14,4 @@ Deputat AUR Ramona Lovin
 
 Senator AUR Ștefan Geamănu
 
-Deputat AUR Daniel Cătălin Ciornei \_\_\_\_
+Deputat AUR Daniel Cătălin Ciornei

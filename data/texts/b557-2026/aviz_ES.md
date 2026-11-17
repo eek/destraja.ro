@@ -10,9 +10,17 @@ Membru fondator al Asociației Internaționale a Consiliilor Economice și Socia
 
 Nr. 6929/21.10.2026
 
-## AVIZ
+Biroul permanent al Senatului
 
-## referitor la propunerea legislativă pentru completarea art.47 din Legea nr.307/2006 privind apărarea împotriva incendiilor (b557/7.10.2026)
+AVIZ
+
+Bp.....557....1..26.10.2026
+
+referitor la propunerea legislativă pentru completarea
+
+art.47 din Legea nr.307/2006 privind apărarea împotriva incendiilor (b557/7.10.2026) Biroul permanent al Senatului
+
+652.16.11.2026. ganizarea si funcționarea
 
 În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative pentru completarea art.47 din Legea nr.307/2006 privind apărarea împotriva incendiilor (b557/7.10.2026).
 
@@ -26,7 +34,7 @@ considerăm că măsurile propuse prin soluția legislativă introduc criterii d
 
 \- aplicarea măsurilor introduse prin propunerea legislativă doar pentru o categorie de clădiri, menținând un regim distinct pentru celelalte, generează o situație discriminatorie în raport cu operatorii economici care se confruntă cu aceleași dificultăți ce stau la baza proiectului și care, cu toate că au demarat deja procedurile pentru obținerea autorizației, riscă să fie amendați cu toate că situația de fapt a lipsei autorizației nu rezidă în culpa acestora.
 
-\- considerăm că, în baza art. 135 din Constituție, statul are obligația constituțională de a asigura proțecția concurenței loiale și tratamentul egal al tuturor operatorilor economici, indiferent de forma de proprietate (publică sau privată).
+\- considerăm că, în baza art. 135 din Constituție, statul are obligația constituțională de a asigura proțecția concurenței loiale și tratamentul égal al tuturor operatorilor economici, indiferent de forma de proprietate (publică sau privată).
 
 Președinte,
 
@@ -40,4 +48,4 @@ propunerii legislative pentru completarea art. 47 din Legea nr.307/2006 privind 
 
 | Nr. crt. | Text inițial | Text propus | Motivare |
 | --- | --- | --- | --- |
-| 1. | După alineatul (8) se introduce un nou alineat, alin. (8¹), cu următorul cuprins:(8¹) Prin excepție de la alin. (7), pentru construcțiile aparținând domeniului public sau privat al statului ori al unităților administrativ-teritoriale, precum și pentru construcțiile aflate în administrarea autorităților și instituțiilor publice, sancțiunea avertismentului poate fi aplicată în cazul în care persoana juridică responsabilă face dovada inițierii demersurilor necesare pentru obținerea autorizației de securitate la incendiu și prezintă un program de conformare aprobat, cu termene și surse de finanțare identificate. | (81) Prin excepție de la alin. (7), pentru continuarea funcționării fără autorizație de securitate la incendiu a construcțiilor și amenajărilor supuse autorizării, existente și aflate în exploatare la data intrării în vigoare a Ordonanței de urgență a Guvernului nr. 17/2026 privind modificarea și completarea unor acte normative, sancțiunea avertismentului poate fi aplicată, indiferent de forma de proprietate a beneficiarului investiției ori de domeniul de activitate, în cazul în care persoana juridică responsabilă face dovada inițierii demersurilor necesare pentru obținerea autorizației de securitate la incendiu și prezintă un program de conformare aprobat la nivelul entității juridice beneficiare, cu termene și surse de finanțare identificate.Programul vá fi comunicat către inspectorat în termen de 12 luni de la intrarea în vigoare a legii prin care se introduce prezentul alineat. | Conformarea construcțiilor și amenajărilor existente poate necesita expertizare, proiectare, avizare și executarea unor lucrări. Aceleași demersuri sunt necesare pentru obiectivele publice și pentru cele private.Avertismentul trebuie raportat la situația tehnică a obiectivului și la măsurile de conformare, nu la forma de proprietate sau la domeniul de activitate. |
+| 1. | După alineatul (8) se introduce un nou alineat, alin. (8¹), cu următorul cuprins:(8¹) Prin excepție de la alin. (7), pentru construcțiile aparținând domeniului public sau privat al statului ori al unităților administrativ-teritoriale, precum și pentru construcțiile aflate în administrarea autorităților și instituțiilor publice, sancțiunea avertismentului poate fi aplicată în cazul în care persoana juridică responsabilă face dovada inițierii demersurilor necesare pentru obținerea autorizației de securitate la incendiu și prezintă un program de conformare aprobat, cu termene și surse de finanțare identificate. | (8¹) Prin excepție de la alin. (7), pentru continuarea funcționării fără autorizație de securitate la incendiu a construcțiilor și amenajărilor supuse autorizării, existente și aflate în exploatare la data intrării în vigoare a Ordonanței de urgență a Guvernului nr. 17/2026 privind modificarea și completarea unor acte normative, sancțiunea avertismentului poate fi aplicată, indiferent de forma de proprietate a beneficiarului investiției ori de domeniul de activitate, în cazul în care persoana juridică responsabilă face dovada inițierii demersurilor necesare pentru obținerea autorizației de securitate la incendiu și prezintă un program de conformare aprobat la nivelul entității juridice beneficiare, cu termene și surse de finanțare identificate. Programul va fi comunicat către inspectorat în termen de 12 luni de la intrarea în vigoare a legii prin care se introduce prezentul alineat. | Conformarea construcțiilor și amenajărilor existente poate necesita expertizare, proiectare, avizare și executarea unor lucrări. Aceleași demersuri sunt necesare pentru obiectivele publice și pentru cele private. Avertismentul trebuie raportat la situația tehnică a obiectivului și la măsurile de conformare, nu la forma de proprietate sau la domeniul de activitate. |

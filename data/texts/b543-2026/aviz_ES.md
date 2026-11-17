@@ -1,22 +1,34 @@
+E-mail: ces@ces.ro
+
+www.ces.ro
+
 Membru fondator al Asociației Internaționale a Consiliilor Economice și Sociale și Instituțiilor Similare (AICESIS) Membru al Uniunii Consiliilor Economice și Sociale și Instituțiilor Similare Francofone (UCESIF)
 
-„Consiliul Economic și Social este organ consultativ al Parlamentului și al Guvernului în domeniile de specialitate stabilite prin legea sa organică de înființare, organizare și funcționare.” (Art. 141 din Constituția României revicuită)
+„Consiliul Economic și Social este organ consultativ al Parlamentului și al Guvernului în domeniile de specialitate stabilite prin legea sa organică de înființare, organizare și funcționare.” (Art. 141 din Constituția României revizuită)
 
 Nr. 6920/21.10.2026
 
+Biroul permanent al Senatului
+
 ## AVIZ
+
+Bp 543 1 26.10.2026
 
 ## referitor la propunerea legislativă pentru modificarea și completarea Codului amenajării teritoriului, urbanismului și construcțiilor (Legea nr.169/2026) (b543/5.10.2026)
 
 În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative pentru modificarea și completarea Codului amenajării teritoriului, urbanismului și construcțiilor (Legea nr.169/2026) (b543/5.10.2026)
 
-## CONSILIUL ECONOMIC ȘI SOCIAL
+Biroul permanent al Senatului
+
+## CONSILIUL ECONOMIC ȘI SOCIA
+
+L642....156..51.2026
 
 În temeiul art. 5 lit. a) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, în ședința din data de 21.10.2026, desfășurată online, conform prevederilor art. 30 alin. (1) din Regulamentul de organizare și funcționare, avizează NEFAVORABIL prezentul proiect de act normativ, cu următoarea motivare:
 
 \- prin motivarea ce însoțește inițiativa legislativă se arată că aceasta urmărește instituirea unui regim procedural simplificat pentru edificarea, în mediul rural, inclusiv în perimetrul ariilor naturale protejate, a unor construcții noi cu destinația exclusivă de lăcaș de cult, având o suprafață construită desfășurată de maximum 130 mp. În același timp, inițiativa instituie exceptarea de la reglementările specifice din domeniul protecției mediului, în special de la cele care au ca obiect conservarea biodiversității;
 
-\- expunerea de motive nu argumentează excepția pe care inițiativa o aduce în domeniul reglementărilor procedurilor de mediu, cî face trimitere la modelul Peisajului Monahal Vânători-Neamț, aflat în Parcul Natural Vânători Neamț (arie naturală protejată). De altfel, acesta este un exemplu care arată tocmai că ariile naturale protejate nu reprezintă un impediment în derularea proiectelor unităților de cult ce țin de viața monahală;
+\- expunerea de motive nu argumentează excepția pe care inițiativa o aduce în domeniul reglementărilor procedurilor de mediu, ci face trimitere la modelul Peisajului Monahal Vânători-Neamț, aflat în Parcul Natural Vânători Neamț (arie naturală protejată). De altfel, acesta este un exemplu care arată tocmai că ariile naturale protejate nu reprezintă un impediment în derularea proiectelor unităților de cult ce țin de viața monahală;
 
 \- argumentul inițiatorului este acela că „soluția juridică rezonabilă este concilierea celor două valori de interes public: protejarea patrimoniului natural și protejarea libertății religioase și a patrimoniului cultural-spiritual”. Cu toate acestea, punerea în aplicare a concilierii presupune, în optica acestuia, excluderea protecției patrimoniului natural prin exceptarea de la procedurile de mediu;
 
@@ -46,14 +58,4 @@ Președinte,
 
 Sterică FUDULEA
 
-Digitally signed
-
-by Fudulea
-
-Sterică
-
-Date:
-
-2026.10.22
-
-13:16:43 CEST
+Digitally signed by Fudulea Sterica Date: 2026.10.22 13:16:43 CEST

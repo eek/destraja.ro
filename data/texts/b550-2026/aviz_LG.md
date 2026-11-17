@@ -1,5 +1,7 @@
 ## AVIZ
 
+referitor la propunerea legislativă pentru instituirea zilei de 5 martie ca „Ziua națională a auditorului energetic”
+
 Analizând propunerea legislativă pentru instituirea zilei de 5 martie ca „Ziua națională a auditorului energetic” (b550/07.10.2026), transmisă de secretarul general al Senatului cu adresa nr. XXXV/4794/12.10.2026 și înregistrată la Consiliul Legislativ cu nr. D861/13.10.2026,
 
 ## CONSILIUL LEGISLATIV
@@ -8,7 +10,7 @@ Analizând propunerea legislativă pentru instituirea zilei de 5 martie ca „Zi
 
 Avizează favorabil propunerea legislativă, cu următoarele observații și propuneri:
 
-1\. Propunerea legislativă are ca obiect de reglementare instituirea zilei de 5 martie ca „Ziua națională a auditorului energetic”, dedicată recunoașterii contribuției profesioniștilor din domeniul auditului și managementului energetic la îmbunătățirea eficienței·energetice.
+1\. Propunerea legislativă are ca obiect de reglementare instituirea zilei de 5 martie ca „Ziua națională a auditorului energetic”, dedicată recunoașterii contribuției profesioniștilor din domeniul auditului și managementului energetic la îmbunătățirea eficienței energetice.
 
 2\. Prin conținutul său normativ, propunerea legislativă face parte din categoria legilor ordinare, iar în aplicarea prevederilor art. 75 alin. (1) din Constituția României, republicată, prima Cameră sesizată este Senatul.
 
@@ -24,6 +26,6 @@ Totodată, întrucât partea finală a alineatului, începând cu sintagma „î
 
 6\. La art. 3, pentru fluența normei, recomandăm reformularea părții finale a acesteia astfel: „... ale autorităților și instituțiilor publice, precum și ale celorlalte entități prevăzute la art. 2”.
 
-PREȘEDİNTE®
+PRESEDINTE®
 
 Florin IORDACHE

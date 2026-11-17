@@ -1,0 +1,63 @@
+ROMANIA
+
+EXPUNERE DE MOTIVE
+
+Propunerea de modificare legislativă are ca scop ameliorarea unor nereguli din domeniul sănătății. Elementul principal care a dat naștere modificării legislative înaintate este reprezentat de tragicul caz al unui adolescent de 16 ani care și-a pierdut viața după ce a ajuns la Spitalul Județean de Urgență din Târgu Jiu în noiembrie 2024.
+
+In acest sens, menționăm că aceste caz este unul tragic și a fost intens mediatizat. Principala critică adusă în această cauză a fost lipsa de intervenție a personalului medical.
+
+în fapt, Medicul de gardă ce ar fi trebuit să administreze serviciile medicale corespunzătoare minorului aflat în stare gravă nu a intervenit din cauza prevederilor legale de la acel moment care nu permiteau intervenția unui medic ce nu avea competența corespunzătoare. În final, un medic nu a intervenit în fața unei vieți aflate în pericol deoarece legea nu i-o permitea clar iar frica unei eventuale răspunderi de natură juridică a dictat decizia medicului. În acest sens, trebuie să constatăm că lipsa de personal specializat, prevederile legale defectuoase și lipsa transportului medical urgent reprezintă cauzele acestei tragedii.
+
+Într-un sistem medical care funcționează în condiții corespunzătoare, medicul trebuie să realizez activitatea într-un mediu conform și într-un cadru legal clar. Astfel, medicul nu ar trebui să se teamă de o eventuală răspundere juridică pentru fiecare caz medical asupra căruia a lucrat. Acest caz tragic nu este un accident izolat, ci un simptom al unui sistem bolnav, în care regulile sunt făcute fără să tină cont de realitatea din spitale. Iar realitatea este că România suferă de pe urma lipsei de medici pediatri!
+
+intre timp, Guvernul a venit cu o modificare prin Ordonanța 130/2024, dar această schimbare este departe de a fi suficientă! Textul legal stabilește că medicii care nu au specializare pediatrică vor putea interveni doar dacă transferul la alt spital nu este posibil! Vedem cum, din nou, un text legal suferă de pe urma neclarității și impune limite ce sunt în contradicție cu situația faptică din spitale.
+
+ROmANIA
+
+Consider că atunci când vorbim de cazuri medicale urgente ce au in prim plan minori iar secundele fac diferența dintre viață și moarte, nu ne permitem niciun fel de limitări de timp. Minorii au un organism mai sensibil iar starea lor se poate înrăutăți mult mai rapid decât în cazul unei persoane adulte.
+
+Consider că actualul text legal este neclar iar impunerea limitării de a stabili dacă transferul la un alt spital este posibil sau nu este de natură să favorizeze apariția unor noi tragedii asemănătoare cu cea de la Târgu-Jiu. În fapt, se impune medicilor să analizeze opțiunile de transfer raportat la starea pacientului și să decidă dacă transferul este posibil. O primă problemă este că această analiză va duce la pierderea de timp prețios pentru pacient. O altă problemă este că se păstrează posibilitatea ca personalul medical să răspundă pentru daunele și prejudiciile produse în exercitarea profesiei în ipoteza în care s-ar stabili că transferul unui pacient ar fi fost posibil dar nu a fost efectuat. Mai mult de atât, ne putem imagina situații în care personalul medical decide că transportul poate fi realizat însă această decizie să fie una greșită. In acest sens, subliniem că simplificarea textului legal și înlăturarea prevederilor referitoare la transport este necesară.
+
+În vederea celor de mai sus, considerăm că actualul text legal pune mult prea multă presiune pe personalul medical implicat și suferă de același tip de carențe ca textul legal anterior. Modificarea pe care o propunem o să înlăture aceste neajunsuri ale textului legal și va simplifica procedura ce trebuie urmată în cazurile medicale urgente ce implică pacienți cu vârsta de până la 18 ani.
+
+In temeiul art. 111 alin. (1) din Constituția României, republicată, vă adresăm rugămintea de a solicita Guvernului să comunice punctul de vedere asupra prezentei propuneri legislative.
+
+INIȚIATORI:
+
+Deputat AUR Ionelia-Florenta Priescu
+
+Senator AUR Ștefan Geamanu
+
+LISTA Susținătorilor propunerii legislative - Lege pentru modificarea alineatului (3) al articolului 654 din Legea nr. 95/2006 privind reforma în domeniul sănătății
+
+Nr. | Numele și prenumele | Grupul | Semnătura parlamentar 28 | NEGOESCU MIHAI-BOGDAN | AUR
+
+29 | BORDiAN ALEXANARU | AUR POPESCU ANTONIO | AUR 30 GABI {ERBAN GIANIKA | AUR 31. CACINO 321 | AUR A MATiBS RADU FABiAN-CiSiiA | AVR PASCARIU 34 | AUR MIHAi -COSMIN 35. | ARETIMON | DAN 36 | DOBO& ELENH | AUR FAUNESCU SILXÍU-TITUS | AUR 38. | Tanasă Dan | AHR 39. ENACHE MUHN-ADRIAN | AURS ho. | Dumu thera litrea AUR
+
+LISTA Susținătorilor propunerii legislative - Lege pentru modificarea alineatului (3) al articolului 654 din Legea nr. 95/2006 privind reforma în domeniul sănătății
+
+Nr. | Numele și prenumele | Grupul | Semnătura / parlamentar 1 | GHERASIM LAURA VADIM - TUDOR 2. | LiDIA | AUR SORiN MUNCACiN | AUR 4. | CRISTIYA- EMATVEZA HUR DASCĂLE 5 | BoatTdEn | AUR BAREA HELU VALENTIN | AUR GURLUi tiLViV-UCFAViAN | AVA
+
+PARASCHIV CARtAN CiN | AUR\_ PUSCASU PETRE | AUR SIMiON (TEORGE 10. | TUCOLAE | AUR. 11 Veleru Flerin Bogdan | AUR 12 | AGAR | AUR 13 | MIÎMDRESeU MIC | AUR
+
+LISTA Susținătorilor propunerii legislative - Lege pentru modificarea alineatului (3) al articolului 654 din Legea nr. 95/2006 privind reforma în domeniul sănătății
+
+Nr. | Numele și prenumele | Grupul | Semnătura parlamentar GHEORGHE MIHAI AUR CLAUDIU 15 | Priesc Tonetia | AUR
+
+16 | LOVIN RAMOHA | AUR 17 | GROSU VERONICH 18 | GHEORGHF TONEL | AUR CIORNEi DANiEL 19. | CETÂLİN | AUR 20 | Amuteon Naleriv | AUR Butura Cristiva Jiva | AUR 22. PopoViCi FLORINI CORNEL | AUR MICLEA 23 | IUR SAMHEL-ViRGIL 24 Vulpoiu Dorel | AUR 25 Comom Dragos | AUR IOSUB | ACR 26 | COSMIN TEODOR BiRO 27 | DANNEL-RÂZVAN | AUR
+
+LISTA Susținătorilor propunerii legislative - Lege pentru modificarea alineatului (3) al articolului 654 din Legea nr. 95/2006 privind reforma în domeniul sănătății
+
+Nr. | Numele și prenumele | Grupul | Semnătura parlamentar PETRISOR PEIU | AUR 2. | Laurentin Plăezu | AUR 3. | Silgeone Btolin | AUR Vtelea Miculua | AUR
+
+SIPOS CRISTIAN I ALIR
+
+CONSTANTIMESCU RODICA Aue 7 | VASILE MARIAN | AVR 8. POTEČA VACALCA | AUR ROMAN 9 | MARÍUS-VALENTIN | AUR Păuceau Fernandes 10 | AUR Luminita VLAHU HiCOLAE | AUR 12 | Levric Sorin | AUR 13 | Sandu Mirceo-lont AIR
+
+LISTA Susținătorilor propunerii legislative - Lege pentru modificarea alineatului (3) al articolului 654 din Legea nr. 95/2006 privind reforma în domeniul sănătății
+
+Nr. | Numele și prenumele | Grupul | Semnătura parlamentar IACOB C. CÌPRIAH | AUR 15 | Styon Geaman | AUR 16 | Barcasi Dorina | AUR 17 PETRE GEAPJE CEZAR - AUf 18 | SPAU DUTITRU | AUR ORINTINA SUMITRESCI SUR CHELARE MIRGA sUR Chistiar, VAtT4 | fur 22 | Costache Chertit | AUR IAMiELA 23 | STEFÂNESCO AUR 24 Andrei Lirlăn AUR 25 | STOICA CIPRIAN TITL | AV.R
+
+LISTA Susținătorilor propunerii legislative - Lege pentru modificarea alineatului (3) al articolului 654 din Legea nr. 95/2006 privind reforma în domeniul sănătății
+
+Nr. | Numele și prenumele | Grupul | Semnătura parlamentar

@@ -12,28 +12,20 @@ CÂTRE,
 
 Initiatori,
 
-2 Luei'an MARGINEAN
+2 Lucian MARGINEAN
 
-3\. GRADR QAF'AF'11
+3\. GRADR CATA'11
 
-4\. ONEA OLSGA
+4\. ONEA OLGA
 
-5\. VELA i. GurongGuc
+5\. VELA i. Gurongue
 
-6\. Foeloca Livić Zuliau
+6\. Foeloca Liviú Zulíau
 
-7\. PinctEA Pouc - Cijariani
+7\. PiñrEA Poul - Cijariah
 
 8\. STOICA CIPRIAN - TITI
 
-g₁ N/a/aiescu Luca
+g\_r N/á/aíescu Luca
 
-10\. OHEABU CIRUTA
-
-11\. IOMEI CARO
-
-12\. CONSTANUESCU RODICU
-
-B : CERVA HADIA COSMINA
-
-1h. CUSNIK RODI'CA
+10\. @HecAbu C'irRitA

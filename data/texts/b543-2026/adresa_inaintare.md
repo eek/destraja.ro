@@ -4,7 +4,7 @@
 
 Totodată, vă rog să dispuneți solicitarea avizului Consiliului Legislativ, a avizului Consiliului Economic și Social, precum și a punctului de vedere al Guvernului, potrivit dispozițiilor legale și regulamentare aplicabile.
 
-## INIȚIATOR:
+INIȚIATOR:
 
 DEPUTAT GEORGE BECALI
 

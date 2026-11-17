@@ -1,7 +1,12 @@
 {
   "slug": "plx-522-2026",
   "billId": "Pl-x 522/2026",
-  "updatedAt": "2026-10-30T09:38:36.374Z",
+  "updatedAt": "2026-11-17T09:29:24.067Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -32,156 +37,371 @@
         "claude": 4,
         "codex": 4
       }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L462FS.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Lege pentru încălzire mai curată: lemn doar din surse verificate și bani pentru schimbarea sobelor vechi",
+      "summaryTlDr": "Legea e în mare parte utilă și necesară (jalonul 128 din PNRR și RED III), iar înlocuirea sobelor este voluntară. Riscurile vin din obligațiile privind biomasa, care se aplică imediat și fără perioadă de tranziție, din definiții vagi și din trimiteri interne incoerente.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 4
+      }
     }
   ],
   "changes": [
     {
       "from": "initiator",
       "to": "camera",
-      "direction": "la_fel",
-      "headline": "Camera a făcut doar corecturi de redactare; obligațiile privind biomasa rămân neschimbate",
-      "summary": "În textul comparat, Camera a schimbat doar formulări, diacritice și trimiteri la alte legi. Obligațiile pentru vânzătorii de lemne și pentru centrale, amenzile și programele de înlocuire a sobelor au rămas ca inițial.",
-      "changes": [],
+      "direction": "mai_putin_riscant",
+      "headline": "Amenzile pentru biomasă și rapoarte s-au redus la jumătate, dar a dispărut garanția încălzirii individuale",
+      "summary": "Amenzile pentru firme s-au redus la jumătate, iar termenul pentru contoare în blocuri s-a amânat până în 2030. Nu mai apare însă precizarea că zonele unitare de încălzire nu afectează dreptul oamenilor de a folosi soluții individuale.",
+      "changes": [
+        {
+          "title": "Amenzile pentru biomasă și rapoarte, reduse la jumătate",
+          "text": "Toate amenzile de la art. 5 alin. (2) au fost înjumătățite. De exemplu, pentru furnizarea de biomasă nesustenabilă, amenda era inițial 15.000–30.000 lei și acum este 7.500–15.000 lei.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 5 alin. (2)",
+          "before": "b) contravențiile prevăzute la alin. (1) lit. b), cu amendă de la 15.000 lei la 30.000 lei;",
+          "after": "b) cele prevăzute la alin. (1) lit. b), cu amendă de la 7.500 lei la 15.000 lei;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare garanția dreptului la încălzire individuală",
+          "text": "Inițial, art. 8 modifica definiția zonei unitare de încălzire din Legea 325/2006 și preciza că aceasta nu afectează soluțiile individuale ale consumatorilor. Modificarea a fost scoasă.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 8 (Legea nr. 325/2006, art. 5 pct. 37)",
+          "before": "Stabilirea zonei unitare nu aduce atingere dreptului consumatorului final de a utiliza soluții individuale de încălzire.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Contoarele în blocuri devin obligatorii abia din 2030",
+          "text": "Termenul pentru montarea contoarelor în condominiile racordate la termoficare se amână de la 31 decembrie 2027 la 31 decembrie 2030.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 7 pct. 2",
+          "before": "este obligatorie montarea contoarelor până la data de 31 decembrie 2027 pentru individualizarea consumurilor de energie pentru încălzire/răcire și apă caldă la nivelul fiecărui apartament sau spațiu cu altă destinație.",
+          "after": "este obligatorie montarea contoarelor până la data de 31 decembrie 2030 pentru individualizarea consumurilor de energie pentru încălzire/răcire și apă caldă la nivelul fiecărui apartament sau spațiu cu altă destinație.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "O prevedere din legea termoficării, suspendată până în 2030",
+          "text": "Art. 11 alin. (4) este nou și suspendă art. 47 alin. (3) din Legea 325/2006 până la 31 decembrie 2030. Textul nu spune ce prevede articolul suspendat.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 11 alin. (4)",
+          "before": null,
+          "after": "(4) Se suspendă aplicarea prevederilor art. 47 alin. (3) din Legea serviciului public de alimentare cu energie termică nr. 325/2006, republicată în Monitorul Oficial al României, Partea I, nr. 217 din 16 martie 2023, cu completările ulterioare, până la data de 31 decembrie 2030.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Pierderile din rețele nu mai depind de audit energetic",
+          "text": "A fost scoasă modificarea art. 43 alin. (6) din Legea 325/2006. Aceasta lega pierderile recunoscute în tarifele de termoficare de un audit energetic autorizat.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 8 (Legea nr. 325/2006, art. 43 alin. (6))",
+          "before": "(6) Pierderile reale de energie termică în rețele termice luate în calcul la aprobarea tarifelor pentru serviciul de transport și distribuție a energiei termice se determină pe baza auditului energetic realizat de o persoană fizică sau juridică autorizată în conformitate cu prevederile legii;",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Regulile programelor de sprijin, aprobate de patru ministere",
+          "text": "Cadrul metodologic pentru programele de sprijin se aprobă acum prin ordin comun al patru miniștri. Inițial îl aproba doar ministrul investițiilor.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 10 alin. (1)",
+          "before": "Ministrul Investițiilor și Proiectelor Europene aprobă, prin ordin, cadrul metodologic pentru elaborarea și implementarea programelor de sprijin prevăzute la art. 4 alin. (1)",
+          "after": "se aprobă prin ordin comun al ministrului investițiilor și proiectelor europene, ministrului energiei, ministrului dezvoltării, lucrărilor publice și administrației și ministrului mediului, apelor și pădurilor.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
       "remaining": {
         "problems": [
           {
-            "text": "Orice vânzător de lemne de foc, oricât de mic, trebuie să vândă doar biomasă sustenabilă",
+            "text": "Orice vânzător de biomasă, inclusiv micile depozite de lemne, poate furniza doar biomasă sustenabilă",
             "major": true,
             "article": "art. 3 alin. (3)"
           },
           {
-            "text": "Definiția biomasei sustenabile folosește criterii vagi, peste trimiterile la OUG 163/2022 și la Reg. 2023/1115",
+            "text": "Definiția biomasei sustenabile amestecă criterii vagi cu trimiteri legale, deci e imprevizibilă",
             "major": true,
             "article": "art. 2 lit. b)"
           },
           {
-            "text": "Centralele trebuie să folosească biomasă certificabilă, dar furnizorii sunt obligați doar la biomasă sustenabilă",
+            "text": "Instalațiile trebuie să folosească biomasă certificabilă, furnizorii livrează doar biomasă sustenabilă",
             "major": true,
             "article": "art. 3 alin. (1), (3)"
           },
           {
-            "text": "Obligațiile privind biomasa se aplică de la intrarea în vigoare, fără perioadă de tranziție",
+            "text": "Obligațiile privind biomasa se aplică imediat, fără perioadă de tranziție",
             "major": true,
             "article": "art. 3 alin. (1), (3)"
           },
           {
-            "text": "Primul raport pentru „anul anterior” poate acoperi o perioadă dinaintea legii",
+            "text": "Zonele unitare cu o singură soluție de încălzire nu mai garantează explicit opțiunea individuală",
             "major": true,
-            "article": "art. 3 alin. (4)"
+            "article": "art. 7 pct. 4 (art. 14¹ alin. (3) lit. b))"
           },
           {
-            "text": "Verificarea de către un terț acreditat este obligatorie și costisitoare pentru operatori",
-            "major": true,
-            "article": "art. 3 alin. (5)-(6)"
-          },
-          {
-            "text": "Amenzi de 7.500–15.000 lei pentru vânzători, pe baza unui criteriu neclar",
-            "major": true,
-            "article": "art. 5 alin. (1) lit. b), alin. (2) lit. b)"
-          },
-          {
-            "text": "Amenda pentru un raport netrimis e mai mare decât pentru biomasă necertificabilă",
-            "major": true,
-            "article": "art. 5 alin. (2)"
-          },
-          {
-            "text": "Programele de înlocuire a sobelor nu au o sumă garantată, ci doar fonduri existente",
+            "text": "Finanțarea programelor nu are o sumă garantată, depinde de limitele bugetare",
             "major": true,
             "article": "art. 4 alin. (12)"
           },
           {
-            "text": "Pierderile operatorilor de termoficare se recuperează integral prin prețuri, deci din facturi",
-            "major": true,
-            "article": "art. 8 pct. 11"
-          },
-          {
-            "text": "Contoarele sau repartitoarele devin obligatorii în blocuri până la 31 decembrie 2030",
-            "major": true,
-            "article": "art. 7 pct. 2"
-          },
-          {
-            "text": "Același raport anual trebuie trimis la patru instituții diferite",
+            "text": "Primul raport anual poate acoperi o perioadă anterioară intrării în vigoare",
             "major": false,
             "article": "art. 3 alin. (4)"
           },
           {
-            "text": "Termenul pentru metodologie, 31 august 2026, a trecut deja la adoptare",
+            "text": "Același raport trebuie trimis la patru instituții, cu verificare obligatorie de la terț",
+            "major": false,
+            "article": "art. 3 alin. (4)-(6)"
+          },
+          {
+            "text": "Termenul pentru metodologie, 31 august 2026, a trecut deja",
             "major": false,
             "article": "art. 10 alin. (1)"
           },
           {
-            "text": "Suspendarea art. 47 alin. (3) din Legea 325/2006 nu este explicată",
+            "text": "Suspendarea art. 47 alin. (3) din Legea 325/2006 nu este explicată în text",
             "major": false,
             "article": "art. 11 alin. (4)"
           }
         ],
         "good": [
           {
-            "text": "Înlocuirea sobelor și centralelor este voluntară, doar la cererea deținătorului",
+            "text": "Înlocuirea sobelor și centralelor este voluntară, iar folosirea lor nu este interzisă",
             "major": true,
-            "article": "art. 4 alin. (6)"
+            "article": "art. 4 alin. (6), (13)"
           },
           {
-            "text": "Legea nu interzice folosirea sobelor existente, nici a celor pe lemne",
-            "major": true,
-            "article": "art. 4 alin. (13)"
-          },
-          {
-            "text": "Obligația de biomasă certificabilă vizează doar instalațiile de la 7,5 MW sau 2 MW",
+            "text": "Obligația de biomasă certificabilă vizează doar instalațiile de peste 7,5 MW, respectiv 2 MW",
             "major": true,
             "article": "art. 3 alin. (1)"
           },
           {
-            "text": "Metodologia trebuie să cuprindă protecția gospodăriilor sărace energetic și vulnerabile",
+            "text": "Amenzi mai mici, individualizate după gravitate și proporționalitate",
             "major": true,
-            "article": "art. 10 alin. (1)"
+            "article": "art. 5 alin. (2), (8)"
           },
           {
-            "text": "Amenda se poate plăti la jumătate din minim în 15 zile",
+            "text": "Operatorii de termoficare își recuperează integral pierderile din creșterea costurilor variabile",
             "major": true,
-            "article": "art. 5 alin. (3)"
+            "article": "art. 8 pct. 11 (art. 43 alin. (11))"
           },
           {
-            "text": "Sancțiunile se individualizează proporțional cu gravitatea faptei",
+            "text": "Contoarele individuale în blocuri devin obligatorii abia din 2030",
             "major": false,
-            "article": "art. 5 alin. (8)"
+            "article": "art. 7 pct. 2"
           },
           {
-            "text": "Deșeurile municipale și industriale nu intră sub regulile pentru biomasă",
+            "text": "Deșeurile municipale și industriale sunt excluse din obligațiile privind biomasa",
             "major": false,
             "article": "art. 3 alin. (8)"
           },
           {
-            "text": "Raportările trebuie să folosească platformele existente, ca să nu se dubleze",
+            "text": "Raportările se fac pe platformele existente, fără dublarea obligațiilor",
             "major": false,
             "article": "art. 4 alin. (14)"
           },
           {
-            "text": "Ministerul Energiei publică anual un raport de progres",
-            "major": false,
-            "article": "art. 4 alin. (9)"
-          },
-          {
-            "text": "Contractele și planurile în vigoare rămân aplicabile până la expirare",
+            "text": "Contractele și planurile existente rămân valabile până la expirare",
             "major": false,
             "article": "art. 11 alin. (1)"
           },
           {
-            "text": "Prețurile locale la termoficare se avizează în maximum 30 de zile",
+            "text": "Amenda se poate plăti la jumătate din minim în 15 zile",
             "major": false,
-            "article": "art. 8 pct. 9"
+            "article": "art. 5 alin. (3)"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 97,
-        "removed": 91,
-        "same": 0.37
+        "added": 71,
+        "removed": 69,
+        "same": 0.58
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:38:13.148Z"
+      "schema": 4,
+      "updatedAt": "2026-11-17T09:28:30.624Z"
+    },
+    {
+      "from": "camera",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Fondul legii rămâne același; acum lipsește doar mențiunea explicită a plății a jumătate din amendă",
+      "summary": "Forma adoptată de Senat păstrează aceleași obligații pentru biomasă, rapoarte și amenzi. Schimbările sunt mai ales de redactare. Plata a jumătate din minimul amenzii nu mai e scrisă în lege, dar rămâne posibilă prin OG 2/2001, care se aplică în continuare.",
+      "changes": [
+        {
+          "title": "Plata a jumătate din amendă nu mai e scrisă",
+          "text": "Art. 5 nu mai spune explicit că amenda se poate plăti la jumătate din minim în 15 zile. Rămâne trimiterea generală la OG 2/2001, care prevede același drept.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 5 alin. (3)",
+          "before": "(3) Contravenientul poate achita, în termen de cel mult 15 zile de la data înmânării sau comunicării procesului-verbal, jumătate din minimul amenzii prevăzute de actul normativ, agentul constatator făcând mențiune despre această posibilitate în procesul-verbal.",
+          "after": "(3) Contravențiilor prevăzute la alin. (1) le sunt aplicabile dispozițiile Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Contravenția pentru rapoarte a pierdut trimiterea la articol",
+          "text": "La art. 5 alin. (1) lit. c) textul se oprește la „prevăzute”, fără trimitere la art. 3 alin. (4). Pare o eroare de redactare, dar face neclară fapta sancționată.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 5 alin. (1) lit. c)",
+          "before": "c) netransmiterea rapoartelor privind durabilitatea biomasei forestiere prevăzute la art. 3 alin. (4);",
+          "after": "c) netransmiterea rapoartelor privind durabilitatea biomasei forestiere prevăzute",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Biomasa nu mai e dată ca exemplu de tehnologie emergentă",
+          "text": "În definiția tehnologiilor emergente din Legea 325/2006 au dispărut exemplele „solar, geotermal, biomasă”. Lista rămâne deschisă („fără a se limita la”).",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 8 pct. 3",
+          "before": "e) integrarea surselor regenerabile (solar, geotermal, biomasă);",
+          "after": "e) integrarea surselor regenerabile de energie;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Spitalele și școlile nu mai sunt numite explicit",
+          "text": "Obligația primăriilor de a racorda clădirile publice la termoficare nu mai dă exemple. Spitalele și școlile rămân incluse, fiind instituții publice.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 7 pct. 4 (art. 14¹ alin. (3) lit. d))",
+          "before": "d) racordează la sistemele centralizate de încălzire și răcire clădirile aparținând instituțiilor publice si a serviciilor publice deconcentrate (spitale, instituții de învățământ, etc.);",
+          "after": "d) racordează la sistemele centralizate de încălzire și răcire clădirile aparținând instituțiilor publice și serviciilor publice deconcentrate;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Obligațiile pentru biomasă se aplică imediat, fără perioadă de tranziție",
+            "major": true,
+            "article": "art. 3 alin. (1) și (3)"
+          },
+          {
+            "text": "Fără prag de mărime: pot fi vizați și micii vânzători de lemne de foc",
+            "major": true,
+            "article": "art. 3 alin. (3)"
+          },
+          {
+            "text": "Definiția biomasei sustenabile e parțial declarativă și greu de verificat",
+            "major": true,
+            "article": "art. 2 lit. b)"
+          },
+          {
+            "text": "Același raport anual trimis la patru instituții, cu verificare obligatorie de terț acreditat",
+            "major": true,
+            "article": "art. 3 alin. (4)–(6)"
+          },
+          {
+            "text": "Contravenția de la lit. c) nu indică ce rapoarte sunt sancționate",
+            "major": true,
+            "article": "art. 5 alin. (1) lit. c)"
+          },
+          {
+            "text": "Finanțarea programelor depinde de bugete existente, fără sumă garantată",
+            "major": true,
+            "article": "art. 4 alin. (12)"
+          },
+          {
+            "text": "Pierderile operatorilor se recuperează integral în prețuri, ceea ce poate scumpi căldura",
+            "major": true,
+            "article": "art. 8 pct. 11"
+          },
+          {
+            "text": "Contoare sau repartitoare obligatorii în blocuri până în 2030, cu costuri pentru proprietari",
+            "major": true,
+            "article": "art. 7 pct. 2"
+          },
+          {
+            "text": "Alin. (11) trimite la o „traiectorie” din alin. (7), care conține doar ținte",
+            "major": false,
+            "article": "art. 4 alin. (7) și (11)"
+          },
+          {
+            "text": "Termenul pentru metodologie (31 august 2026) a trecut înainte de adoptare",
+            "major": false,
+            "article": "art. 10 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Înlocuirea sobelor și centralelor e voluntară, doar la cererea deținătorului",
+            "major": true,
+            "article": "art. 4 alin. (6)"
+          },
+          {
+            "text": "Legea nu interzice și nu obligă la înlocuirea instalațiilor existente",
+            "major": true,
+            "article": "art. 4 alin. (13)"
+          },
+          {
+            "text": "Deșeurile municipale și industriale sunt exceptate de la regulile pentru biomasă",
+            "major": true,
+            "article": "art. 3 alin. (8)"
+          },
+          {
+            "text": "Contractele și procedurile aflate în curs rămân valabile până la expirare",
+            "major": true,
+            "article": "art. 11 alin. (1) și (3)"
+          },
+          {
+            "text": "Sancțiunile se individualizează după gravitate, cu respectarea proporționalității",
+            "major": false,
+            "article": "art. 5 alin. (7)"
+          },
+          {
+            "text": "Raportările se fac pe cât posibil prin platformele existente",
+            "major": false,
+            "article": "art. 4 alin. (14)"
+          },
+          {
+            "text": "Ținte cantitative clare pentru numărul de unități de încălzire înlocuite",
+            "major": false,
+            "article": "art. 4 alin. (5)"
+          },
+          {
+            "text": "Soluțiile regenerabile au prioritate; biomasa doar dacă alternativele nu sunt fezabile",
+            "major": false,
+            "article": "art. 4 alin. (3)–(4)"
+          },
+          {
+            "text": "ANRE trebuie să avizeze modificarea prețurilor în cinci zile lucrătoare",
+            "major": false,
+            "article": "art. 8 pct. 11"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 50,
+        "removed": 52,
+        "same": 0.7
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-17T09:29:24.066Z"
     }
   ]
 }

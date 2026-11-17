@@ -1,0 +1,117 @@
+# PARLAMENTUL ROMÂNIEI
+
+## CAMERA DEPUTAȚILOR
+
+SENATUL
+
+## LEGE
+
+pentru modificarea și completarea Legii educației fizice și sportului nr. 69/2000
+
+Parlamentul României adoptă prezenta lege:
+
+Art. I.
+
+Legea educației fizice și sportului nr. 69/2000, publicată în Monitorul Oficial al României, Partea I, nr. 200 din 9 mai 2000, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. După articolul 67¹ se introduce un articol nou, articolul 67², cu următorul cuprins:
+
+## „Art. 67² — Plafonarea remunerațiilor în structurile sportive finanțate din fonduri publice
+
+(1) Dispozițiile prezentului articol se aplică următoarelor categorii de structuri sportive, denumite în continuare entități beneficiare, care, în cursul unui exercițiu financiar, primesc finanțare din fonduri publice:
+
+a) federațiile sportive naționale;
+
+b) cluburile sportive;
+
+c) ligile profesioniste, asociațiile sportive județene și municipale, precum și orice altă structură sportivă persoană juridică fără scop patrimonial;
+
+d) Comitetul Olimpic și Sportiv Român, cu excepția dispozițiilor derogatorii prevăzute în legi speciale.
+
+(2) Prin finanțare din fonduri publice se înțelege, în sensul prezentului articol, orice sumă primită, direct sau indirect, din:
+
+a) bugetul de stat sau bugetele locale, inclusiv prin contracte încheiate conform art. 69 alin. (1) din prezenta lege sau prin finanțări nerambursabile acordate conform Legii nr. 350/2005;
+
+b) venituri proprii ale instituțiilor publice utilizate pentru finanțarea structurilor sportive;
+
+c) fonduri europene gestionate de autoritățile publice române;
+
+d) resurse constituite din beneficii fiscale acordate de stat terților care, în schimb, realizează plăți către entitatea beneficiară, inclusiv sponsorizări și donații deductibile fiscal potrivit Codului fiscal.
+
+(3) Entitățile beneficiare au obligația ca remunerația brută lunară, în orice formă (salariu, indemnizație, drepturi de autor, contract de prestări servicii, drepturi de imagine sau asimilate), acordată oricărei persoane care deține o funcție de conducere sau de control ori care face parte din aparatul administrativ al entității beneficiare, să nu depășească echivalentul a 8 (opt) ori câștigul salarial mediu brut lunar pe economie, comunicat de Institutul Național de Statistică pentru luna anterioară plății.
+
+(3¹) Plafonul prevăzut la alin. (3) nu se aplică sportivilor. Plafonul se aplică și antrenorilor și celuilalt personal tehnic, pentru remunerația plătită din sumele prevăzute la alin. (2) lit. a)—c). Prin derogare, președintele Agenției Naționale pentru Sport poate aproba, prin ordin motivat emis la cererea entității beneficiare, depășirea plafonului pentru un antrenor, atunci când remunerația corespunde nivelului practicat pe plan internațional pentru funcția respectivă. Ordinul se publică pe pagina de internet a Agenției Naționale pentru Sport.
+
+(4) Plafonul prevăzut la alin. (3) se aplică cumulat remunerațiilor obținute de aceeași persoană de la una sau mai multe entități beneficiare, inclusiv prin entitățile afiliate acestora în sensul art. 7 pct. 26 lit. c) din Codul fiscal.
+
+(5) Pe lângă remunerația prevăzută la alin. (3), persoanele cu funcții de conducere pot primi, din aceleași surse, o indemnizație de performanță anuală de până la 50% din remunerația anuală de bază, condiționată de îndeplinirea cumulativă a următoarelor criterii, constatate pentru exercițiul financiar precedent:
+
+a) obținerea de către entitatea beneficiară a cel puțin două rezultate sportive verificabile dintre cele prevăzute la alin. (5¹), raportate la obiectivele asumate prin contractul încheiat cu autoritatea publică finanțatoare;
+
+b) depunerea și publicarea pe pagina proprie de internet a raportului anual de audit financiar extern, întocmit de un auditor financiar membru al Camerei Auditorilor Financiari din România;
+
+c) absența cheltuielilor neeligibile constatate prin raport definitiv al Curții de Conturi pentru exercițiul respectiv;
+
+d) îndeplinirea integrală a obligațiilor contractuale asumate față de autoritatea publică finanțatoare, inclusiv a obligațiilor privind alocarea minimă de resurse către sportivii sub 18 ani, atunci când acestea sunt prevăzute în contract;
+
+e) plata integrală, în termen de cel mult 90 de zile de la aprobare, a premiilor datorate sportivilor și antrenorilor pentru rezultatele obținute în exercițiul respectiv.
+
+(5¹) Categoriile de rezultate sportive verificabile prevăzute la alin. (5) lit. a) sunt:
+
+a) medalii obținute la Jocurile Olimpice, Jocurile Paralimpice, Campionatele Mondiale sau Campionatele Europene de seniori, în discipline recunoscute de federație;
+
+b) medalii obținute la Jocurile Olimpice de Tineret, Campionatele Mondiale sau Campionatele Europene pentru categoria de vârstă sub 18 ani;
+
+c) calificarea reprezentativei naționale sau a cluburilor afiliate la fazele finale ale competițiilor internaționale majore pe disciplina respectivă;
+
+d) poziționarea entității sau a reprezentativei naționale în prima jumătate a clasamentului internațional pe discipline, raportat la media ultimelor 3 exerciții financiare;
+
+e) creșterea cu cel puțin 10% a numărului de sportivi legitimați sub 18 ani, raportată la media ultimelor 3 exerciții financiare;
+
+f) extinderea, în exercițiul respectiv, a rețelei de academii, centre regionale sau baze sportive proprii, funcționale pentru sportivii sub 18 ani, cu cel puțin o unitate față de exercițiul financiar anterior.
+
+(6) Nu intră sub incidența plafonului prevăzut la alin. (3) remunerațiile obținute de o persoană exclusiv din surse private, în înțelesul veniturilor pentru care plătitorul nu beneficiază, direct sau indirect, de un avantaj fiscal recunoscut de legislația română și care nu provin de la entitățile beneficiare prevăzute la alin. (1) sau de la entitățile afiliate acestora.
+
+(1) 证明: y₁ 与 y₂ 相等式有两个不等实数根，即 y₁ 和 y₂ 的根等于 y₁ ，且 y₂ 的根等于 y₁ 。
+
+(7) Nu intră sub incidența prezentului articol remunerațiile acordate potrivit Legii-cadru nr. 153/2017 privind salarizarea personalului plătit din fonduri publice.
+
+(8) Nerespectarea obligațiilor prevăzute la alin. (3)—(5¹) atrage:
+
+a) obligația entității beneficiare de a vira suma plătită peste plafon sau fără temei legal, în termen de 30 de zile de la constatare, la bugetele din care provine finanțarea publică, proporțional cu ponderea fiecărei surse prevăzute la alin. (2); partea corespunzătoare surselor prevăzute la alin. (2) lit. c) și d) se virează la bugetul de stat;
+
+b) suspendarea finanțării din fonduri publice, în sensul alin. (2), pentru o perioadă de 12 luni începând cu exercițiul financiar următor celui în care s-a produs încălcarea, cu excepția sumelor destinate premierii sportivilor și antrenorilor, pregătirii și participării loturilor naționale la competiții internaționale oficiale și programelor pentru sportivii sub 18 ani.
+
+(9) Constatarea încălcărilor prevăzute la alin. (8) se face prin ordin al președintelui Agenției Naționale pentru Sport, pe baza raportului anual al entității, a controalelor efectuate de autoritatea finanțatoare și a rapoartelor Curții de Conturi. Ordinul poate fi atacat la instanța de contencios administrativ competentă, în termen de 30 de zile de la comunicare.”
+
+## Art. II.
+
+În termen de 60 de zile de la data intrării în vigoare a prezentei legi, Agenția Națională pentru Sport elaborează și supune aprobării Guvernului normele metodologice, care se aprobă prin hotărâre a Guvernului în termen de 30 de zile de la transmitere, pentru:
+
+a) metodologia de verificare a îndeplinirii rezultatelor sportive prevăzute la art. 67² alin. (5¹), inclusiv ponderile aplicabile pe discipline sportive, precum și documentele justificative acceptate;
+
+b) modul de calcul al remunerației cumulate prevăzute la art. 67² alin. (4), inclusiv regulile aplicabile remunerațiilor în natură și beneficiilor conexe;
+
+c) procedura de constatare, contestare și executare prevăzută la art. 67² alin. (8) și (9);
+
+d) procedura de derogare prevăzută la art. 67² alin. (3¹) și formatul situației prevăzute la art. 67² alin. (3²).
+
+## Art. III.
+
+Prezenta lege nu se aplică plăților efectuate anterior datei de intrare în vigoare. Prezenta lege intră în vigoare la 3 luni de la data publicării în Monitorul Oficial al României, Partea I. Pentru contractele în derulare la data intrării în vigoare, dispozițiile art. 67² se aplică începând cu primul exercițiu financiar care începe după 12 luni de la data intrării în vigoare a prezentei legi. Pe durata perioadei tranzitorii, autoritățile publice finanțatoare nu pot încheia acte adiționale la contractele în derulare care au ca efect majorarea remunerațiilor peste plafonul prevăzut la art. 67² alin. (3).
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Camerei Deputaților,
+
+Sorin-Mihai GRINDEANU
+
+Președintele Senatului,
+
+Mircea ABRUDEAN
+
+Inițiator:
+
+Deputat Cristian-Alexandru POPA
+
+PARTIDUL OAMENILOR TINERI

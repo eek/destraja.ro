@@ -1,4 +1,4 @@
-# AVIZ referitor la propunerea legislativă privind organizarea și funcționarea Institutului Român pentru Drepturile Omului
+## AVIZ referitor la propunerea legislativă privind organizarea și funcționarea Institutului Român pentru Drepturile Omului
 
 Analizând propunerea legislativă privind organizarea și funcționarea Institutului Român pentru Drepturile Omului (b548/07.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/4794/12.10.2026 și înregistrată la Consiliul Legislativ cu nr. D859/13.10.2026,
 
@@ -46,13 +46,13 @@ Totodată, la alin. (3), relevăm că utilizarea expresiei „instituții de în
 
 10\. La art. 14, care enumeră entitățile cu care IRDO cooperează, propunem ca textul să vizeze și alte instituții publice cu atribuții în domeniul drepturilor omului, cum ar fi: Ministerul Afacerilor Interne și Poliția Română, Ministerul Justiției, Autoritatea Națională pentru Protecția Drepturilor Copilului și Adopție, Autoritatea Națională pentru Protecția Drepturilor Persoanelor cu Dizabilități sau Agenția Națională pentru Egalitate de Șanse între Femei și Bărbați. De asemenea, întrucât art. 1 alin. (1) stabilește că IRDO este instituție aflată sub control parlamentar, sugerăm ca norma să aibă în vedere și comisiile de specialitate privind drepturile omului ale Camerei Deputaților și Senatului.
 
-11\. La art. 15 alin. (1), semnalăm că nu se precizează care este domeniul în care își desfășoară activitatea entitățile cu care IRDO cooperează, respectiv „institute de cercetare, organisme ale Uniunii
+11\. La art. 15 alin. (1), semnalăm că nu se precizează care este domeniul în care își desfășoară activitatea entitățile cu care IRDO cooperează, respectiv ,,institute de cercetare, organisme ale Uniunii
 
 Europene, Consiliului Europei, Organizației Națiunilor Unite și (...) alte organizații internaționale de profil".
 
 12\. La art. 16, pentru precizie normativă, este necesar ca textul să prevadă despre ale cui atribuții este vorba.
 
-Totodată, pentru evitarea apariției de dubii în interpretare și aplicare, semnalăm că utilizarea sintagmei „în condițiile și cu respectarea termenelor prevăzute de legislația aplicabilă” este prea generală, motiv pentru care se impune reformularea textului.
+Totodată, pentru evitarea aparitei de dubii în interpretare și aplicare, semnalăm că utilizarea sintagmei „în condițiile și cu respectarea termenelor prevăzute de legislația aplicabilă” este prea generală, motiv pentru care se impune reformularea textului.
 
 13\. La art. 17 alin. (1), norma nu precizează modalitatea prin care IRDO „asigură consultarea” avută în vedere. Pentru claritate, în cazul în care se dorește consultarea de către IRDO a entităților avute în vedere, este necesară înlocuirea expresiei „asigură consultarea” prin verbul „se consultă”.
 
@@ -108,6 +108,8 @@ Reiterăm observația, în mod corespunzător, și pentru alin. (3).
 
 PRESEINTE
 
-Florin/ORDAGHE
+Florin/IOREAGHE
 
 București
+
+Nr. 927/09.11.2026

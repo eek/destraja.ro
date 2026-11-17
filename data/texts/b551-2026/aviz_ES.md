@@ -10,11 +10,17 @@ Membru fondator al Asociației Internaționale a Consiliilor Economice și Socia
 
 Nr. 7042/28.10.2026
 
+Biroul permanent al Senatului
+
+Bp 551/30.10.2026
+
 ## AVIZ
 
-## referitor la propunerea legislativă privind instituirea unei scheme de ajutor de stat pentru reducerea temporară a prețului energiei electrice pentru întreprinderile din sectoarele electro-intensive expuse comerțului internațional (b551/07.10.2026)
+referitor la propunerea legislativă privind instituirea unei scheme de ajutor de stat pentru reducerea temporară a prețului energiei electrice pentru întreprinderile din sectoarele electro-intensive
 
-În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative privind instituirea unei scheme de ajutor de stat pentru reducerea temporară a prețului energiei electrice pentru întreprinderile din sectoarele electro-intensive expuse comerțului internațional (b551/07.10.2026).
+Biroul permanent al Senatului expuse comerțului internațional (b551/07.10.2026)
+
+In temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative privind instituirea unei scheme de ajutor de stat pentru reducerea temporară a prețului energiei electrice pentru întreprinderile din sectoarele electro-intensive expuse comerțului internațional (b551/07.10.2026).
 
 ## CONSILIUL ECONOMIC ȘI SOCIAL
 
@@ -44,4 +50,4 @@ există o presiune reală a costurilor cu energia asupra economiei românești �
 
 p. Președinte,
 
-Sterică FUDULEA
+Sterică RÚDULEA

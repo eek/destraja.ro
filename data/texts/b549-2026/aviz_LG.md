@@ -1,6 +1,4 @@
-# AVIZ
-
-# referitor la propunerea legislativă pentru modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii
+referitor la propunerea legislativă pentru modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii
 
 Analizând propunerea legislativă pentru modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii (b549/07.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/4794/12.10.2026 și înregistrată la Consiliul Legislativ cu nr. D860/13.10.2026,
 
@@ -38,7 +36,7 @@ Drept consecință, este de analizat dacă în privința persoanelor ce fac part
 
 ⁴ „Au dreptul la pensie de invaliditate angajații români care prestează muncă în străinătate din dispoziția angajatorilor români, în condițiile legii și ale regulamentelor europene sau acordurilor bilaterale privind coordonarea sistemelor de securitate socială, după caz, dacă au înregistrat un accident de muncă și dețin un document emis conform regulamentelor europene de coordonare a sistemelor de securitate socială nr. 883/2004 și nr. 987/2009 care să ateste faptul că fac obiectul legislației de securitate socială din România, respectiv documentul portabil A1”.
 
-⁵ ,(1) În sistemul public de pensii, plata pensiei/indemnizației pentru însoțitor se suspendă începând cu luna următoare celei în care a intervenit una dintre următoarele cauze:
+5 „(1) În sistemul public de pensii, plata pensiei/indemnizației pentru însoțitor se suspendă începând cu luna următoare celei în care a intervenit una dintre următoarele cauze:
 
 a) pensionarul și-a stabilit domiciliul pe territoriul altui stat cu care România a încheiat convenție de reciprocitate în domeniul asigurărilor sociale, dacă, potrivit prevederilor acesteia, pensia se plătește de către celălalt stat;".
 
@@ -50,7 +48,7 @@ a) pensionarul și-a stabilit domiciliul pe territoriul altui stat cu care Româ
 
 7\. Cu privire la textele preconizate pentru cele două teze ale art. 93 alin. (1²), semnalăm că acestea trebuie reconsiderate integral, deoarece reiau în altă exprimare prevederile art. 7 (Calculul provizoriu al prestațiilor și al cotizațiilor) din Regulamentul (CE) nr. 987/2009 al Parlamentului European și al Consiliului din 16 septembrie 2009 de stabilire a procedurii de punere în aplicare a Regulamentului (CE) nr. 883/2004 privind coordonarea sistemelor de securitate socială, potrivit cărora: „(1) Dacă nu se specifică altfel în regulamentul de punere în aplicare, în cazul în care o persoană este eligibilă să primească o prestație sau este obligată să plătească o cotizație, în conformitate cu dispozițiile regulamentului de bază, și instituția competentă nu dispune de toate informațiile privind situația dintr-un alt stat membru, necesare pentru a calcula definitiv cuantumul prestației sau al cotizației respective, acea instituție, la cererea persoanei în cauză, acordă respectiva prestație sau calculează respectiva cotizație cu titlu provizoriu, în cazul în care un astfel de calcul este posibil, pe baza informațiilor aflate la dispoziția instituției respective.
 
-(2) Prestația sau cotizația în cauză se recalculează odată ce instituția în cauză primește dovezile sau documentele justificative necesare”.
+(2) Prestația sau cotizația în cauză se recalculează odată ce instituția în cauză primește dovezile sau documentele justificative necesare".
 
 Întrucât regulamentele Uniunii Europene se aplică direct, așa cum am menționat mai sus, dispozițiile interne conținând soluții legislative similare vor genera paralelisme legislative, iar pentru înlăturarea acestora se va aplica norma de tehnică legislativă prevăzută la art. 16 alin. (1) teza a II-a din Legea nr. 24/2000, republicată, cu modificările și completările ulterioare, conform căreia „Pentru sublinierea unor conexiuni legislative se utilizează norma de trimitere”.
 
@@ -68,16 +66,16 @@ Totodată, pentru corelare cu textul propus pentru art. II, precum și pentru as
 
 9\. La pct. 4, referitor la textul preconizat pentru art. 124 lit. e¹), pentru o redactare în acord cu stilul normativ și pentru respectarea art. 50 alin. (1) din Legea nr. 24/2000, propunem reformularea după cum urmează:
 
-„e¹) aplică procedurile prevăzute la art. 123 lit. k¹;”.
+„e¹) aplică procedurile prevăzute la art. 123 lit. k¹);”.
 
 10\. La art. II, pentru suplețea normei și pentru respectarea uzanțelor normative, propunem următoarea reformulare:
 
 „Art. II. - În termen de 30 de zile de la data intrării în vigoare a prezentei legi, președintele Casei Naționale de Pensii Publice emite ordinul prevăzut la art. 123 lit. k¹) din Legea nr. 360/2023 privind sistemul public de pensii, cu modificările și completările ulterioare și cu cele aduse prin prezenta lege”.
 
-P. PRESEDINTE ROMÁT
+P. PRESEDINTE ROMÁL
 
-ROMA.V
+ROMÁV
 
-Florin IORDACHE
+Florih IÓRDACHE
 
 București Nr. 923/06.11.2026

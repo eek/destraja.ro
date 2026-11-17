@@ -1,7 +1,12 @@
 {
   "slug": "plx-521-2026",
   "billId": "Pl-x 521/2026",
-  "updatedAt": "2026-10-30T09:38:07.457Z",
+  "updatedAt": "2026-11-17T09:23:15.202Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -38,73 +43,73 @@
     {
       "from": "initiator",
       "to": "camera",
-      "direction": "mai_riscant",
-      "headline": "Europarlamentarii nu mai sunt în lista celor care își declară averea; liderii patronatelor intră",
-      "summary": "Acum, europarlamentarii și comisarii europeni români nu mai apar printre cei obligați să își declare averea, iar conducerea patronatelor este adăugată. Interimatul secretarului general ANI e limitat, iar interdicția vagă pentru membrii CNI a fost scoasă.",
+      "direction": "mai_putin_riscant",
+      "headline": "Declarațiile de interese financiare ale demnitarilor devin publice, iar sancțiunile se înăspresc",
+      "summary": "Acum declarațiile de interese financiare ale demnitarilor se publică, fără date personale. Sancțiunile pentru incompatibilitate cresc, iar excepțiile pentru aleșii locali se restrâng. Apar însă noi obligații pentru conducerea patronatelor și mai puține garanții pentru beneficiarii actelor.",
       "changes": [
         {
-          "title": "Europarlamentarii și comisarii români scoși din lista declaranților",
-          "text": "Inițial, membrii din România în Parlamentul European și în Comisia Europeană erau obligați să își declare averea. Acum pct. 46 nu îi mai cuprinde, deși alte articole încă îi menționează.",
-          "effect": "mai_rau",
+          "title": "Declarațiile de interese financiare devin publice online",
+          "text": "Agenția generează automat și publică pe site, timp de 5 ani, declarații de interese financiare pentru demnitari și alte funcții. CNP-ul, adresele și conturile sunt excluse (art. II pct. 2, art. 2 alin. 6-10).",
+          "effect": "mai_bine",
           "major": true,
-          "article": "art. 1 alin. (1) pct. 46 din Legea 176/2010",
-          "before": "46. membrii din România în Parlamentul European și membrii în Comisia Europeană din partea României.",
-          "after": null,
-          "beforeAbsent": false,
-          "afterAbsent": true
-        },
-        {
-          "title": "Conducerea patronatelor trebuie să își declare averea",
-          "text": "Se adaugă conducătorii federațiilor și confederațiilor patronale, entități de drept privat. Obligația nu depinde de gestionarea unor bani publici.",
-          "effect": "mai_rau",
-          "major": true,
-          "article": "art. 1 alin. (1) pct. 46 din Legea 176/2010",
+          "article": "art. II pct. 2 (art. 2 alin. 6-10 din L. 176/2010)",
           "before": null,
-          "after": "46. președinții, vicepreședinții, secretarii și trezorierii federațiilor și confederațiilor patronale.",
+          "after": "(7) Agenția asigură publicarea declarațiilor de interese financiare pe pagina de internet a Agenției, în termen de cel mult 60 de zile de la generare conform alin. (6), pentru următoarele categorii de persoane:",
           "beforeAbsent": true,
           "afterAbsent": false
         },
         {
-          "title": "Dispare interdicția vagă pentru membrii CNI",
-          "text": "Art. 35² nu mai apare, iar încălcarea lui nu mai este motiv de revocare la art. 37 alin. (3). Revocarea devine mai previzibilă, dar o regulă de integritate dispare.",
-          "effect": "neutru",
+          "title": "Sancțiuni mai dure pentru incompatibilitate și conflict de interese",
+          "text": "Funcția încetează de drept, iar interdicția de până la 3 ani privește orice funcție publică sau eligibilă. Au dispărut reducerea pentru impact financiar mic, plafonul de 50% și scutirea excepțională (art. 25).",
+          "effect": "mai_bine",
           "major": true,
-          "article": "art. 35² și art. 37 alin. (3) din Legea 144/2007",
-          "before": "Persoanei care exercita funcția de membru al Consiliului ii este interzis sa desfășoare, direct sau prin persoane interpuse, activități care sunt în legătură directă sau indirectă cu atribuțiile exercitate în calitate de membru al Consiliului.",
+          "article": "art. II pct. 18-19 (art. 25 din L. 176/2010)",
+          "before": "(2⁶) Prin excepție de la alin. (2⁴) și (2⁵), în cazul conflictelor de interese, inspectorul de integritate poate dispune motivat, în mod excepțional, neaplicarea interdicției prevăzute la alin. (2) dacă sunt îndeplinite condițiile prevăzute la alin. (2⁴) lit. a) și b)",
+          "after": "Persoana prevazuta la alin. (1) față de care s-a constatat în mod definitv existența conflictului de interese sau starea de incompatibilitate este decazută din dreptul de a exercita orice funcție sau demnitate publică ori eligibilă din cele prevăzute de prezenta lege",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Aleșii locali nu mai sunt scutiți la votul bugetului",
+          "text": "A dispărut scutirea de conflict de interese la votul pe buget, pe rectificări și pe studii de fezabilitate. Excepția pentru actele fără marjă de apreciere se limitează la competențele exclusive (art. V, art. 228 Cod administrativ).",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. V (art. 228 din OUG 57/2019)",
+          "before": "„(1¹) Nu se află în situație de conflict de interese alesul local care propune, în cazul primarului, respectiv votează, în cazul consilierului local, bugetul, rectificări bugetare sau studii de fezabilitate pentru lucrări edilitare în cadrul unității administrativ-teritoriale",
+          "after": "„(1¹) Nu se află în situație de conflict de interese alesul local care emite sau participă la emiterea sau adoptarea unui act administrativ în exercitarea competențelor legale atunci cand legea îi atribuie o competență exclusivă, fără posibilitate de delegare",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Beneficiarii actelor pierd protecții la anularea acestora",
+          "text": "Au fost scoase două protecții de la art. 23: actul colegial nu mai e nul doar când votul în conflict a fost decisiv, iar acțiunea în constatare nu mai cere notificarea prealabilă a beneficiarului.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 23 din L. 176/2010",
+          "before": "„(1¹) În cazul actelor administrative adoptate de organe colegiale, nulitatea absolută prevăzută la alin. (1) intervine numai dacă, în lipsa votului persoanei aflate în conflict de interese, actul nu ar fi întrunit majoritatea cerută de lege pentru adoptare.”",
           "after": null,
           "beforeAbsent": false,
           "afterAbsent": true
         },
         {
-          "title": "Conducerea interimară a ANI, limitată la 60 de zile",
-          "text": "Secretarul general conduce ANI doar dacă lipsesc atât președintele, cât și vicepreședintele, cel mult 60 de zile. Face doar administrare curentă, fără numiri și fără repartizări în afara sistemului aleatoriu.",
+          "title": "Conducerea patronatelor trebuie să-și declare averea",
+          "text": "În lista de la art. 1 alin. (1) pct. 46, europarlamentarii și comisarii europeni sunt înlocuiți cu conducerea federațiilor și confederațiilor patronale, entități de drept privat.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. II pct. 1 (art. 1 alin. 1 pct. 46 din L. 176/2010)",
+          "before": "46. membrii din România în Parlamentul European și membrii în Comisia Europeană din partea României.",
+          "after": "46. președinții, vicepreședinții, secretarii și trezorierii federațiilor și confederațiilor patronale.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Interimatul secretarului general ANI, limitat și controlat",
+          "text": "Secretarul general conduce ANI doar dacă lipsesc atât președintele, cât și vicepreședintele, cel mult 60 de zile, și numai pentru administrare curentă. Nu poate face numiri și nu poate repartiza dosare (art. 13 alin. 5 lit. b).",
           "effect": "mai_bine",
           "major": false,
-          "article": "art. 13 alin. (5) lit. b) din Legea 144/2007",
+          "article": "art. I pct. 1 (art. 13 alin. 5 lit. b din L. 144/2007)",
           "before": "b) îndeplinește, calitatea de ordonator principal de credite și de reprezentant legal, pe perioada vacanței funcției de președintele sau vicepreședinte al Agenției, sau în situația în care aceștia se află în împosibilitatea exercitării atribuțiilor;",
-          "after": "exercită, pentru o perioadă de cel mult 60 de zile, calitatea de ordonator principal de credite și de reprezentant legal doar în cazul în care atât funcția de președinte, cât și funcția de vicepreședinte sunt vacante",
-          "beforeAbsent": false,
-          "afterAbsent": false
-        },
-        {
-          "title": "Consilierii de stat adăugați la pct. 3",
-          "text": "Lista de la pct. 3 îi cuprinde acum și pe consilierii de stat, alături de consilierii prezidențiali și onorifici.",
-          "effect": "neutru",
-          "major": true,
-          "article": "art. 1 alin. (1) pct. 3 din Legea 176/2010",
-          "before": "3. consilierii prezidențiali, consilierii onorifici ;",
-          "after": "3. consilierii prezidențiali, consilierii de stat, consilierii onorifici;",
-          "beforeAbsent": false,
-          "afterAbsent": false
-        },
-        {
-          "title": "Președintele ANI nu mai e obligat la ședințele CNI",
-          "text": "Inițial, președintele ANI participa la ședințele Consiliului. Acum participarea este opțională.",
-          "effect": "neutru",
-          "major": false,
-          "article": "art. 40 alin. (4¹) din Legea 144/2007",
-          "before": "La ședințele Consiliului participă președintele, iar în lipsa acestuia un reprezentant din cadrul Agenției",
-          "after": "La ședințele Consiliului poate participa președintele, iar în lipsa acestuia un reprezentant din cadrul Agenției",
+          "after": "b) exercită, pentru o perioadă de cel mult 60 de zile, calitatea de ordonator principal de credite și de reprezentant legal doar în cazul în care atât funcția de președinte, cât și funcția de vicepreședinte sunt vacante ori titularii se află simultan în imposibilitatea exercitării atribuțiilor.",
           "beforeAbsent": false,
           "afterAbsent": false
         }
@@ -112,128 +117,123 @@
       "remaining": {
         "problems": [
           {
-            "text": "Revocare CNI pentru „diferențe semnificative” fără trimitere clară la avere nejustificată",
+            "text": "Semnare doar cu semnătură calificată (plătită) sau CEI, fără mijloc gratuit sau tranziție",
             "major": true,
-            "article": "art. 37 alin. (3) din Legea 144/2007"
+            "article": "art. II pct. 2 (art. 2 alin. 1 din L. 176/2010)"
           },
           {
-            "text": "„Neîndeplinirea atribuțiilor legale” rămâne motiv de revocare deschis interpretării",
+            "text": "Obligații de declarare pentru conducerea federațiilor sportive, sindicatelor și patronatelor private",
             "major": true,
-            "article": "art. 37 alin. (3) din Legea 144/2007"
+            "article": "art. II pct. 1 (art. 1 alin. 1 pct. 44-46)"
           },
           {
-            "text": "Depunere exclusiv electronică, cu semnătură plătită, fără tranziție sau mijloc gratuit",
+            "text": "Averile acestor lideri privați vor fi și publicate online",
             "major": true,
-            "article": "art. 2 alin. (1) din Legea 176/2010"
+            "article": "art. II pct. 2 (art. 2 alin. 7 pct. 39-42)"
           },
           {
-            "text": "Conducători de entități private obligați să declare averea, fără legătură cu bani publici",
+            "text": "Formula foarte largă: personal din proiecte finanțate din fonduri bugetare",
             "major": true,
-            "article": "art. 1 alin. (1) pct. 44-46 din Legea 176/2010"
+            "article": "art. II pct. 1 (art. 1 alin. 1 pct. 10)"
           },
           {
-            "text": "Formula foarte largă privind personalul din proiecte finanțate din fonduri bugetare",
+            "text": "Europarlamentarii lipsesc din lista obligaților, dar apar la publicare și la art. 5",
             "major": true,
-            "article": "art. 1 alin. (1) pct. 10 din Legea 176/2010"
+            "article": "art. II pct. 1, pct. 2 și pct. 8"
           },
           {
-            "text": "Europarlamentarii lipsesc din listă, dar apar la publicare și la depunere",
+            "text": "Fără termen de opțiune pentru cei deveniți incompatibili prin noile reguli",
             "major": true,
-            "article": "art. 1 alin. (1), art. 2 alin. (7) pct. 41, art. 5 alin. (4) din Legea 176/2010"
+            "article": "art. VI"
           },
           {
-            "text": "Declarația de avere cuprinde doar declarantul și copiii minori, nu și soțul",
+            "text": "Actul colegial poate fi nul chiar dacă votul în conflict nu a contat",
             "major": true,
-            "article": "art. 3 alin. (2) din Legea 176/2010"
+            "article": "art. 23 din L. 176/2010"
           },
           {
-            "text": "Declarațiile complete nu mai sunt publice; se publică doar un extras generat",
+            "text": "Revocare CNI pentru „diferențe semnificative” fără constatare definitivă explicită",
             "major": true,
-            "article": "art. 2 alin. (4)-(7) din Legea 176/2010"
+            "article": "art. I pct. 4 (art. 37 alin. 3 din L. 144/2007)"
           },
           {
-            "text": "Comunicarea se consideră făcută la 15 zile de la încărcarea în e-DAI",
-            "major": true,
-            "article": "art. 2¹ alin. (8) din Legea 176/2010"
+            "text": "„Neîndeplinirea atribuțiilor legale” rămâne deschisă interpretării, lista nefiind exhaustivă",
+            "major": false,
+            "article": "art. I pct. 4 (art. 37 alin. 3 din L. 144/2007)"
           },
           {
             "text": "Nu se spune ce se întâmplă după cele 60 de zile de interimat",
             "major": false,
-            "article": "art. 13 alin. (5) lit. b) din Legea 144/2007"
+            "article": "art. I pct. 1 (art. 13 alin. 5 lit. b)"
           },
           {
-            "text": "Candidații semnează olograf, dar trebuie să transmită exclusiv prin e-DAI",
+            "text": "Anexa 5: venituri „raportat la salariul minim”, dar pragurile sunt în euro",
             "major": false,
-            "article": "art. 2 alin. (2) din Legea 176/2010"
-          },
-          {
-            "text": "Sesizările nesemnate sau fără date de identificare se clasează automat",
-            "major": false,
-            "article": "art. 12 alin. (3¹) din Legea 176/2010"
+            "article": "anexa nr. 5 (anexa nr. 3 la lege)"
           }
         ],
         "good": [
           {
-            "text": "Raportul de evaluare făcut fără informarea persoanei este lovit de nulitate absolută",
+            "text": "Declarații de interese financiare publice, cu date personale sensibile excluse",
             "major": true,
-            "article": "art. 13 alin. (2) din Legea 176/2010"
+            "article": "art. II pct. 2 (art. 2 alin. 6-9)"
           },
           {
-            "text": "Interdicția de până la 3 ani se individualizează proporțional",
+            "text": "Interdicție de până la 3 ani pentru orice funcție, individualizată proporțional",
             "major": true,
-            "article": "art. 25 alin. (2) și (2³) din Legea 176/2010"
+            "article": "art. II pct. 18-19 (art. 25)"
           },
           {
-            "text": "Datele personale sensibile sunt excluse din declarațiile publicate",
+            "text": "Excepțiile de la conflictul de interese pentru aleșii locali sunt restrânse",
             "major": true,
-            "article": "art. 2 alin. (8) din Legea 176/2010"
+            "article": "art. V"
           },
           {
-            "text": "Interimatul secretarului general e limitat, iar CNI și Senatul sunt informate în 24 ore",
-            "major": false,
-            "article": "art. 13 alin. (5) lit. b) din Legea 144/2007"
+            "text": "Legea nouă se aplică doar faptelor ulterioare, iar celor anterioare legea veche",
+            "major": true,
+            "article": "art. XI"
           },
           {
-            "text": "Criteriu clar de revocare: absența nemotivată la 3 ședințe consecutive sau 6 anual",
+            "text": "Candidații pot semna și olograf declarațiile",
             "major": false,
-            "article": "art. 37 alin. (3) din Legea 144/2007"
+            "article": "art. II pct. 2 (art. 2 alin. 2)"
           },
           {
-            "text": "Declarantul poate cere oricând comunicarea prin poștă, cu confirmare de primire",
+            "text": "Comunicarea cu inspectorii se poate face oricând și prin poștă, la cerere",
             "major": false,
-            "article": "art. 2¹ alin. (6) din Legea 176/2010"
+            "article": "art. II pct. 3 (art. 2¹ alin. 6)"
           },
           {
-            "text": "Declarația se poate rectifica în 40 de zile, timp în care nu începe evaluarea",
+            "text": "Secretarul general interimar nu poate numi și nu poate redistribui dosare",
             "major": false,
-            "article": "art. 7 din Legea 176/2010"
+            "article": "art. I pct. 1 (art. 13 alin. 5 lit. b)"
           },
           {
-            "text": "Nu mai trebuie depusă o nouă declarație dacă nu au intervenit modificări",
+            "text": "CNI și Senatul sunt informați în 24 de ore despre interimat",
             "major": false,
-            "article": "art. 4 alin. (4)-(5) din Legea 176/2010"
+            "article": "art. I pct. 1 (art. 13 alin. 5 lit. b)"
           },
           {
-            "text": "Pragul „diferențelor semnificative” are acum și echivalent în lei",
+            "text": "Criteriu clar de revocare: 3 absențe consecutive sau 6 pe an",
             "major": false,
-            "article": "art. 18 alin. (1) din Legea 176/2010"
+            "article": "art. I pct. 4 (art. 37 alin. 3)"
           },
           {
-            "text": "Depunerea online prin e-DAI reduce birocrația pe hârtie",
+            "text": "A dispărut interdicția vagă de activități „direct sau indirect” legate de atribuții",
             "major": false,
-            "article": "art. 2 din Legea 176/2010"
+            "article": "art. I (fost art. 35² din L. 144/2007)"
           }
         ],
         "partial": true
       },
       "diff": {
-        "added": 413,
-        "removed": 201,
-        "same": 0.38
+        "added": 327,
+        "removed": 123,
+        "same": 0.54
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:37:55.754Z"
+      "schema": 4,
+      "updatedAt": "2026-11-17T09:23:15.202Z"
     }
   ]
 }

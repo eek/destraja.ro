@@ -1,3 +1,9 @@
+Cod fiscal: 10464660
+
+E-mail: ces@ces.ro
+
+www.ces.ro
+
 Membru fondator al Asociației Internaționale a Consiliilor Economice și Sociale și Instituțiilor Similare (AICESIS) Membru al Uniunii Consiliilor Economice și Sociale și Instituțiilor Similare Francofone (UCESIF)
 
 „Consiliul Economic și Social este organ consultativ al Parlamentului și al Guvernului în domeniile de specialitate stabilite prin legea sa organică de înființare, organizare și funcționare.” (Art. 141 din Constituția României revizuită)
@@ -8,13 +14,17 @@ Biroul permanent al Senatului
 
 # PUNCTE DE VEDERE
 
-## referitoare la propunerea legislativă pentru modificarea și completarea Legii nr.143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri, precum și pentru modificarea art.271 din Legea nr.86/2006 privind Codul vamal al României (b544/5.10.2026)
+Bp....544....126.10.226
+
+# referitoare la propunerea legislativă pentru modificarea și completarea Legii nr.143/2000 privind prevenirea și combaterea trafficului și consumului ilicit de droguri, precum și pentru modificarea art.271 din Legea nr.86/2006 privind Codul vamal al României | Senatului (b544/5.10.2026)
+
+Biroul permanent al Senatului 643. 156. 15. 2026. In temei
 
 În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative pentru modificarea și completarea Legii nr.143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri, precum și pentru modificarea art.271 din Legea nr.86/2006 privind Codul vamal al României (b544/5.10.2026).
 
 În temeiul art. 6 alin. (7) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 33 alin. (4) din Regulamentul de organizare și funcționare, în ședința din data de .21.10.2026, desfășurată online, conform prevederilor Hotărârii Plenului nr.86/17.05.2022, părțile reprezentate în Plenul Consiliului Economic și Social și-au exprimat următoarele puncte de vedere:
 
-➢ reprezentanții părții patronale și reprezentanții părții sindicale au votat pentru avizarea NEFAVORABILĂ a proiectului de act normativ, cu următoarea motivare:
+reprezentanții părții patronale și reprezentanții părții sindicale au votat pentru avizarea NEFAVORABILĂ a proiectului de act normativ, cu următoarea motivare:
 
 \- propunerea legislativă transformă în contravenții activitățile de cultivare, producere, fabricare, preparare, cumpărare, deținere atât de droguri de risc, cât și de droguri de mare risc pentru consum propriu, fără drept, fapte care în prezent sunt pedepsite cu închisoare. În primul rând, propunerea legislativă nu definește consumul propriu și nici nu stabilește o anumită cantitate. Mai mult decât atât, exemplele prezentate ca model în expunerea de motive (Portugalia, Cehia, Republica Moldova) folosesc praguri stabilite pe substanțe. Înlocuirea cu o pedeapsă mult mai blândă a acestor tipuri de fapte, amendă în loc de închisoare, nu poate conduce decât la o încurajare a consumului și, ca atare, o escaladare a fenomenului infracțional de acest tip;
 

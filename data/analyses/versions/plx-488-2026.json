@@ -1,7 +1,12 @@
 {
   "slug": "plx-488-2026",
   "billId": "PL-x 488/2026",
-  "updatedAt": "2026-10-29T12:50:36.983Z",
+  "updatedAt": "2026-11-17T09:22:00.984Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -27,6 +32,21 @@
       "riskLevel": "yellow",
       "plainTitle": "Conducte și depozite de gaze pe repede-înainte: avize fără termen, păduri gratuite și acces în zonele de biodiversitate",
       "summaryTlDr": "Scopul e legitim: depozitele de gaze contează pentru iarnă, iar includerea înmagazinării în Legea 185/2016 are logică. Problema e pachetul de derogări din forma Senatului: avize valabile până la recepție, păduri publice ocupate gratuit pe toată durata existenței, acces în zonele prioritare pentru biodiversitate și o indemnizație pentru proprietari formulată restrictiv, toate acordate prin HG fără criterii.",
+      "scores": {
+        "agy": 6,
+        "claude": 6,
+        "codex": 7
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl488_cd488_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Depozitele și conductele de gaze trec mai repede prin păduri, terenuri agricole și zone protejate, cu mai puține avize",
+      "summaryTlDr": "Scopul, securitatea energetică prin depozite și conducte, este legitim. Totuși, textul folosește scurtături riscante: derogări generale în zone prioritare pentru biodiversitate, avize valabile pe termen nelimitat și un articol despre OUG 9/2025 care pare adăugat doar la Camera decizională.",
       "scores": {
         "agy": 6,
         "claude": 6,
@@ -203,6 +223,158 @@
       "model": "claude",
       "schema": 3,
       "updatedAt": "2026-10-29T12:50:36.982Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a adăugat redistribuirea economiilor din proiectele de rețele de gaze finanțate prin OUG 9/2025",
+      "summary": "Nucleul proiectului e același: derogări largi pentru păduri, terenuri agricole și zone de biodiversitate. Acum legea permite și mutarea banilor economisiți din proiectele de rețele de gaze către alți beneficiari, cu aprobarea ministerului.",
+      "changes": [
+        {
+          "title": "Banii economisiți pot fi mutați la alți beneficiari",
+          "text": "Art. III nou completează OUG 9/2025. Economiile din proiectele de extindere și conversie a rețelelor de gaze pot fi redistribuite altor beneficiari, ca să-și termine proiectele. Textul nu dă criterii de selecție.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. III",
+          "before": null,
+          "after": "Economiile rezultate în urma implementării proiectelor prevăzute în anexă, determinate ca diferență între valoarea finanțării aprobate și valoarea cheltuielilor eligibile efectiv realizate și cele estimate a fi decontate, pot fi redistribuite către alți beneficiari",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Ministerul aprobă realocarea prin act adițional",
+          "text": "Art. III: Ministerul Investițiilor și Proiectelor Europene aprobă realocarea, la cererea beneficiarilor, în limita bugetului deja stabilit. Nu se adaugă cheltuieli noi.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. III",
+          "before": null,
+          "after": "Alocarea economicilor către alți beneficiari se aprobă de către Ministerul Investițiilor și Proiectelor Europene prin act adițional la contractele de finanțare, la solicitarea beneficiarilor, în limita anvelopei financiare de la art. 1 alin. (2).",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Legea modifică acum și OUG 9/2025",
+          "text": "Titlul legii s-a extins: legea completează acum și OUG 9/2025 privind finanțarea rețelelor de gaze. Prevederea e adăugată într-o lege despre alt subiect.",
+          "effect": "neutru",
+          "major": false,
+          "article": null,
+          "before": "LEGE pentru modificarea și completarea Legii nr.185/2016 privind unele măsuri necesare pentru implementarea proiectelor de importanță națională în domeniul gazelor naturale",
+          "after": "precum și privind completarea Ordonanței de urgență a Guvernului nr. 9/2025 pentru reglementarea unor măsuri referitoare la unele proiecte de extindere și schimbare a destinației",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Guvernul declară proiectele de importanță națională prin HG, fără criterii sau consultare",
+            "major": true,
+            "article": "art. I pct. 1 (art. 1 alin. (3))"
+          },
+          {
+            "text": "Regimul derogatoriu se extinde la depozitele de înmagazinare, inclusiv ale operatorilor privați",
+            "major": true,
+            "article": "art. I pct. 1 (art. 1 alin. (2))"
+          },
+          {
+            "text": "«Lucrările» includ operarea și exploatarea, deci derogările acoperă toată viața instalațiilor",
+            "major": true,
+            "article": "art. I pct. 2 (art. 2 lit. k))"
+          },
+          {
+            "text": "Toate proiectele sunt declarate prin lege de siguranță și securitate națională",
+            "major": true,
+            "article": "art. I pct. 2 (art. 2 lit. m))"
+          },
+          {
+            "text": "Proiecte permise în zone prioritare pentru biodiversitate, fără evaluare sau compensare în text",
+            "major": true,
+            "article": "art. I pct. 12 (art. 23 alin. (1¹))"
+          },
+          {
+            "text": "Pădurile statului și ale UAT ocupate gratuit pe toată durata existenței instalațiilor",
+            "major": true,
+            "article": "art. I pct. 3 (art. 3 alin. (1))"
+          },
+          {
+            "text": "Terenuri forestiere publice și private ale UAT scoase definitiv din fondul forestier",
+            "major": true,
+            "article": "art. I pct. 4 (art. 3 alin. (2¹))"
+          },
+          {
+            "text": "Terenuri agricole scoase din circuit fără avizul organelor agricole și fără tarif",
+            "major": true,
+            "article": "art. I pct. 7 (art. 4 alin. (1) și (6))"
+          },
+          {
+            "text": "Indemnizațiile acoperă doar limitarea folosinței pe durata efectuării lucrărilor",
+            "major": true,
+            "article": "art. I pct. 8 (art. 8 alin. (1) lit. a))"
+          },
+          {
+            "text": "Noile reguli se aplică și procedurilor de avizare aflate deja în curs",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Redistribuirea economiilor se face fără criterii de selecție a beneficiarilor",
+            "major": true,
+            "article": "art. III"
+          },
+          {
+            "text": "Lipsește o estimare a veniturilor pierdute din tarife și chirii",
+            "major": false,
+            "article": "art. I pct. 7 (art. 4 alin. (6))"
+          },
+          {
+            "text": "Autorizație nouă de construire fără certificat de urbanism și fără avize noi",
+            "major": false,
+            "article": "art. I pct. 11 (art. 22 alin. (8))"
+          },
+          {
+            "text": "Avizele și autorizațiile rămân valabile până la finalizarea lucrărilor, indiferent de emitere",
+            "major": false,
+            "article": "art. I pct. 10 (art. 22 alin. (6))"
+          }
+        ],
+        "good": [
+          {
+            "text": "Proprietarii privați de păduri primesc chirie și despăgubire pentru pierderea de creștere",
+            "major": true,
+            "article": "art. I pct. 5 (art. 3 alin. (3))"
+          },
+          {
+            "text": "Economiile pot finaliza proiecte de rețele de gaze, fără depășirea bugetului aprobat",
+            "major": true,
+            "article": "art. III"
+          },
+          {
+            "text": "Indemnizațiile se stabilesc pe baza rapoartelor unor evaluatori autorizați",
+            "major": false,
+            "article": "art. I pct. 8 (art. 8 alin. (2))"
+          },
+          {
+            "text": "Avizul trebuie reconfirmat dacă s-a schimbat regimul de protecție al zonei",
+            "major": false,
+            "article": "art. I pct. 11 (art. 22 alin. (8))"
+          },
+          {
+            "text": "Predarea terenului forestier se face în prezența Gărzii Forestiere",
+            "major": false,
+            "article": "art. I pct. 6 (art. 3 alin. (13))"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 11,
+        "removed": 9,
+        "same": 0.79
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-17T09:22:00.984Z"
     }
   ]
 }

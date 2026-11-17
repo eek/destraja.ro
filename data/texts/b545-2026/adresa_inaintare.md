@@ -8,11 +8,11 @@ Nr. 6b-21/225/30.09.2026
 
 Biroui permanent al Senatului
 
-Biroul permanent al Camerei Deputaților Inițiative legislative
-
-Către,
+Biroul permanent al Camerei Deputaților Initițative legislative
 
 Nr. 737 din 30.09.2026
+
+Către,
 
 Biroul Permanent al Camerei Deputaților
 
@@ -20,4 +20,8 @@ Biroul Permanent al Camerei Deputaților
 
 Inițiatori,
 
-Kolcsăr Kăroly – Deputat UDMR
+Kolcsár Kăroly – Deputat UDMR
+
+Biroul permanent al Senatului
+
+L644....156..15..2026

@@ -1,10 +1,12 @@
-București - România, Casa Academiei, Calea 13 Septembrie Nr. 13, Sector 5, Telefon/fax: 40-21-3184826, Telefon: 40-21-3188106/3544, www.consiliulfiscal.ro Nr. 79/11.11.2026
+București - România, Casa Academiei, Calea 13 Septembrie Nr. 13, Sector 5, Telefon/fax: 40-21-3184826, Telefon: 40-21-3188106/3544, www.consiliulfiscal.ro
 
-## Către: PARLAMENTUL ROMÂNIE!, SENAT
+Nr. 79/11.11.2026
 
-## Domnului Secretar General Mario-Ovidiu Oprea
+Către: PARLAMENTUL ROMÂNIEI, SENAT
 
-## Stimate domnule Secretar General,
+Domnului Secretar General Mario-Ovidiu Oprea
+
+Stimate domnule Secretar General,
 
 Ca răspuns la adresa dvs. nr. XXXV/4793 din 12.10.2026, prin care ați solicitat, în baza art. 53 alin. (2) lit. e) al Legii nr. 69/2010 a responsabilității fiscal-bugetare republicate (LRFB), opinia Consiliului Fiscal cu privire la o serie de propuneri legislative, vă comunicăm următoarele:
 
@@ -14,27 +16,37 @@ Ca răspuns la adresa dvs. nr. XXXV/4793 din 12.10.2026, prin care ați solicita
 
 \- În cazul propunerilor legislative care conduc la diminuarea veniturilor bugetare, conform art. 21, „se va elabora fișa financiară potrivit prevederilor art. 15 din Legea nr. 500/2002, care trebuie să îndeplinească cel puțin una dintre următoarele condiții: (a) să aibă avizul Ministerului Finanțelor Publice și al Consiliului Fiscal, conform căruia impactul financiar a fost luat în calcul în prognoza veniturilor bugetare și nu afectează țintele bugetare anuale și pe termen mediu; (b) să fie însoțită de propuneri de măsuri de compensare a impactului financiar respectiv, prin majorarea altor venituri bugetare”.
 
-\- 7 Din analiza propuenerilor, legislative, transmise prin adresa mai sus menționată, rezultă următoareles.
+• Din analiza propunerilor, legislative, transmise prin adresa mai sus menționată, rezultă următoarele:
 
 1\. Nu au fost întrunite cerințele prevăzute la art. 15 alin. (1) din LRFB, care reglementează propunerile de acte normative care conduc la majorarea cheltuielilor bugetare, pentru:
 
-\- Propunerea legislativă pentru modificarea și completarea Legii nr. 143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri, precum și pentru modificarea art. 271 din Legea nr. 86/2006 privind Codul vamal al României (b544/05.10.2026), care prevede, între altele, (i) evaluarea persoanelor sancționate contravențional pentru fapte privind drogurile destinate consumului propriu și includerea acestora, cu acordul lor și în funcție de nevoile identificate, în programe de asistență medicală, psihologică și socială, (ii) posibilitatea amenajării în unitățile sanitare a unor spații autorizate în care adulții diagnosticați cu dependență să consume propriile droguri sub supravegherea personalului medical, pregătit să intervină în caz de supradoză, cu eventuale costuri publice pentru amenajare, dotare, funcționare și instruirea personalului. Pe de altă parte, prin dezincriminarea unor fapte, inițiativa legislativă are potențialul de a reduce costurile asociate cu procedurile penale și detenția persoanelor condamnate, iar amenzile contravenționale introduse sunt făcute venit la bugetul de stat și direcționate pentru finanțarea programelor de prevenire a consumului de droguri și de asistență a consumatorilor. Astfel, pentru estimarea impactului bugetar, este necesară elaborarea și prezentarea fișei financiare, însoțită de ipotezele și metodologia de calcul utilizată, în conformitate cu prevederile art. 15 alin. (1) din LRFB;
+L643
+
+2026 .
+
+\\therefore S\_n + 1 = \\frac12 \\times 0 S\_n + 2 = \\frac12 \\times 0
+
+Propunerea legislativă pentru modificarea și completarea Legii nr. 143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri, precum și pentru modificarea art. 271 din Legea nr. 86/2006 privind Codul vamal al României (b544/05.10.2026), care prevede, între altele, (i) evaluarea persoanelor sancționate contravențional pentru fapte privind drogurile destinate consumului propriu și includerea acestora, cu acordul lor și în funcție de 'nevoile identificate, în programe de asistență medicală, psihologică și socială, (ii) posibilitatea amenajării în unitățile sanitare a unor spații autorizate în care adulții diagnosticați cu dependență să consume propriile droguri sub supravegherea personalului medical, pregătit să intervenă în caz de supradoză, cu eventuale costuri publice pentru amenajare, dotare, funcționare și instruirea personalului. Pe de altă parte, prin dezincriminarea unor fapte, inițiativa legislativă are potențialul de a reduce costurile asociate cu procedurile penale și detenția persoanelor condamnate, iar amenzile contravenționale introduse sunt făcute venit la bugetul de stat și direcționate pentru finanțarea programelor de prevenire a consumului de droguri și de asistență a consumatorilor. Astfel, pentru estimarea impactului bugetar, este necesară elaborarea și prezentarea fișei financiare, însoțită de ipotezele și metodologia de calcul utilizată, în conformitate cu prevederile art. 15 alin. (1) din LRFB;
 
 Propunerea legislativă privind organizarea și funcționarea Institutului Român pentru Drepturile Omului (b548/07.10.2026), care prevede, între altele, (i) reorganizarea conducerii Institutului prin instituirea funcțiilor de președinte și vicepreședinte, salarizate la nivel de secretar de stat, respectiv subsecretar de stat, (ii) acordarea membrilor Consiliului Consultativ pentru Drepturile Omului a unei indemnizații pentru participarea la ședințe, reprezentând 10% din indemnizația lunară brută a președintelui Institutului, pentru cel mult patru ședințe anual și cu respectarea excepțiilor prevăzute de lege, precum și decontarea cheltuielilor de transport și cazare, (iii) realizarea și publicarea unui registru electronic pentru urmărirea obligațiilor și recomandărilor internaționale în domeniul drepturilor omului și extinderea activităților de monitorizare, analiză și raportare;
 
 Propunerea legislativă privind instituirea unei scheme de ajutor de stat pentru reducerea temporară a prețului energiei electrice pentru întreprinderile din sectoarele electro-intensive expuse comerțului internațional (b551/07.10.2026), care prevede compensarea unei părți din costul energiei electrice pentru întreprinderile eligibile, pentru o perioadă de cel mult trei ani consecutivi, sumele necesare fiind asigurate de la bugetul de stat, prin bugetul
 
-## B\_p552 / ₂₀₂₆
-
 Ministerului Energiei, în limita a cel mult 350 milioane euro anual, respectiv, cel mult 1.050 milioane euro în total;
 
+## B\_p552 / ₂₀₂₆
+
 Propunerea legislativă pentru modificarea și completarea Legii învățământului preuniversitar nr. 198/2023, în vederea acordării burselor de excelență olimpică (b552/07.10.2026), care prevede (i) acordarea burselor de excelență olimpică I, în cuantum lunar de 25%-100% din salariul minim brut pe țară garantat în plată, în funcție de distincțiile obținute la competițiile internaționale eligibile, (ii) acordarea burselor de excelență olimpică II, în cuantum lunar de 700 de lei, pentru premiile I-III obținute la etapa națională a olimpiadelor școlare, (iii) acordarea unui premiu egal cu valoarea a 12 burse lunare pentru elevii care obțin distincții eligibile în ultimul an de liceu, drepturile fiind finanțate de la bugetul de stat pentru elevii din învățământul de stat, particular și confesional;
+
+## P554|0026
 
 Propunerea legislativă pentru modificarea și completarea art. 183 din Legea învățământului preuniversitar nr. 198/2023 și pentru modificarea art. 12 din anexa nr. I la Legea-cadru nr. 153/2017 privind salarizarea personalului plătit din fonduri publice (b554/07.10.2026), care are în vedere majorarea remunerației pentru activitatea didactică desfășurată în regim de plată cu ora în învățământul preuniversitar de stat, prin calcularea tarifului orar brut în raport cu de patru ori norma didactică săptămânală, în locul numărului mediu lunar de ore lucrătoare, inclusiv pentru cadrele didactice asociate și pensionate;
 
 \- Propunerea legislativă pentru completarea art. 149 din Legea învățământului superior nr. 199/2023 (b556/07.10.2026), care prevede că Ministerul Educației și Cercetări poate asigura finanțarea programelor de studii universitare destinate formării de specialiști în domeniul limbilor rare, în situațiile în care numărul redus de studenți nu permite asigurarea sustenabilității programului prin mecanismul finanțării de bază.
 
 În consecință, pentru a răspunde solicitării de a emite opinia sa asupra acestor propuneri legislative, Consiliul Fiscal solicită documentele stipulate la art. 15 alin. (1) din LRFB.
+
+## Bp 545/2026.
 
 2\. Nu au fost întrunite cerințele prevăzute la art. 21 din LRFB, care reglementează propunerile de acte normative care conduc la diminuarea veniturilor bugetare, pentru propunerea legislativă pentru completarea Ordonanței Guvernului nr. 15/2002 privind aplicarea tarifului de utilizare și a tarifului de trecere pe rețeaua de drumuri naționale din România (b545/05.10.2026), care prevede exceptarea de la plata rovinietei a vehiculelor specializate pentru transportul stupilor în cadrul practicării apiculturii pastorale, omologate în acest scop de Registrul Auto Român și utilizate exclusiv pentru transportul stupilor în pastoral.
 
@@ -46,17 +58,13 @@ Propunerea legislativă pentru modificarea și completarea art. 183 din Legea î
 
 4\. În ceea ce privește următoarele propuneri legislative, Consiliul Fiscal constată că, deoarece nu există indicii că adoptarea acestora va determina o majorare a cheltuielilor bugetare și/sau o diminuare a veniturilor bugetare (situații reglementate de prevederile LRFB menționate anterior), nu este necesară opinia sa:
 
-## Bp54g/2026.
+\- Propunerea legislativă pentru modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii (b549/07.10.2026); L646/2026,
 
-\- Propunerea legislativă pentru modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii (b549/07.10.2026);
+\- Propunerea legislativă pentru instituirea zilei de 5 martie ca „Ziua națională a auditorului energetic” (b550/07.10.2026); L647/2026
 
-## B\_pSSO/2016.
+B\_p \\leqslant S \\leqslant 1 / 2026.
 
-\- Propunerea legislativă pentru instituirea zilei de 5 martie ca „Ziua națională a auditorului energetic” (b550/07.10.2026);
-
-B\_p \\cdot \\fracSSS2026.
-
-\- Propunerea legislativă privind instituirea zilei de 30 ianuarie ca „Ziua Națională a Profesorului de Religie” (b555/07.10.2026).
+\- Propunerea legislativă privind instituirea zilei de 30 ianuarie ca „Ziua Națională a Profesorului de Religie” (b555/07.10.2026). L650/2026.
 
 Cu stimă,
 

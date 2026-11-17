@@ -19,6 +19,15 @@ export default function SiteFooter({ syncedAt }: { syncedAt: string | null }) {
             destrajă.ro: radarul cetățenesc al proiectelor de lege din Parlament: cele în consultare publică la Senat și cele în dezbatere la
             Camera Deputaților. Proiect civic independent; nu reprezentăm Parlamentul și nu lucrăm pentru niciun partid.
           </p>
+          {/* Cine face site-ul: unii cititori credeau că e anonim. */}
+          <p className="mt-3 max-w-sm text-sm leading-6 text-muted">
+            Făcut și întreținut de <strong className="font-semibold text-body">Radu-Sebastian Amarie</strong>, ca proiect civic. Pentru un mesaj, îi
+            poți scrie{' '}
+            <a href="https://www.facebook.com/raduamarie" target="_blank" rel="noopener" className="font-semibold text-body underline underline-offset-4 hover:text-ink">
+              pe Facebook
+            </a>
+            .
+          </p>
           {syncedAt && <p className="mt-3 text-xs text-muted">Date preluate de pe senat.ro și cdep.ro la {formatDateRo(syncedAt)}.</p>}
           {/* Alt proiect open source al autorului. Fără noreferrer, ca acolo să se vadă că vizitatorii vin de aici. */}
           <p className="mt-6 max-w-sm text-sm leading-6 text-muted">

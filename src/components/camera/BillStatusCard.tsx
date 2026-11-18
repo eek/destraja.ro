@@ -20,10 +20,12 @@ export default function BillStatusCard({ status, readAt, builtOn }: { status: Bi
       <h2 className="mt-2 text-xl font-semibold leading-7 text-ink">{status.title}</h2>
       {status.role && <p className="mt-1 text-sm text-muted">{status.role}</p>}
       {status.detail && <p className="mt-1.5 text-[15px] leading-7 text-body">{status.detail}</p>}
-      <p className="mt-4 text-[15px] leading-7 text-body">
-        <span className="font-semibold text-ink">Urmează: </span>
-        {status.next}
-      </p>
+      {status.nextLabel && status.next && (
+        <p className="mt-4 text-[15px] leading-7 text-body">
+          <span className="font-semibold text-ink">{status.nextLabel}: </span>
+          {status.next}
+        </p>
+      )}
       {status.deadlines.length > 0 && (
         <ul className="mt-4 grid gap-2 border-t border-line pt-4">
           {status.deadlines.map((d) => (

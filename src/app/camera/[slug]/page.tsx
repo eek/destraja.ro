@@ -111,7 +111,7 @@ export default async function CameraBillPage({ params }: PageProps) {
   const initiator = initiatorLabel(f);
 
   // Termenul pentru raport doar cât proiectul e la comisii; după, ar fi o dată veche.
-  const committeeDetail = !['avize', 'comisii'].includes(status.key)
+  const committeeDetail = status.hasReport
     ? 'raport depus'
     : f.comisii?.termenRaport
       ? `raport până pe ${formatDateRo(f.comisii.termenRaport)}`
@@ -275,13 +275,13 @@ export default async function CameraBillPage({ params }: PageProps) {
               Unde este proiectul
             </h2>
             <p className="text-sm text-muted">
-              Pe fișa Camerei: {f.stadiu ?? bill.stadiu}
+              Pe fișa Camerei: {status.sheetStage || bill.stadiu}
             </p>
           </div>
           {now >= 0 ? (
             <RouteSteps steps={steps} now={now} />
           ) : (
-            <p className="mt-4 text-[15px] leading-7 text-body">{status.title}. {status.detail}</p>
+            <p className="mt-4 text-[15px] leading-7 text-body">{[status.title, status.detail].filter(Boolean).join('. ')}</p>
           )}
           <p className="mt-6 border-t border-line pt-4 text-sm leading-6 text-body">
             {senateFirst

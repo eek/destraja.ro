@@ -5,6 +5,8 @@ import { CHANGELOG, type ChangeKind } from '@/lib/changelog';
 import { formatDateRo } from '@/lib/format';
 import { Container } from '@/components/ui';
 import ChangelogShot from '@/components/site/ChangelogShot';
+import ChangeJournal from '@/components/site/ChangeJournal';
+import { getJournal } from '@/lib/jurnal';
 
 export const metadata: Metadata = {
   title: 'Ce e nou',
@@ -18,7 +20,8 @@ const KIND: Record<ChangeKind, { label: string; cls: string }> = {
   corectat: { label: 'Corectat', cls: 'border border-line-strong text-body' },
 };
 
-export default function ChangelogPage() {
+export default async function ChangelogPage() {
+  const journal = await getJournal();
   return (
     <Container className="py-12 sm:py-16">
       <div className="max-w-3xl">
@@ -30,7 +33,11 @@ export default function ChangelogPage() {
           <a href="mailto:contact@destraja.ro" className="font-semibold text-link underline underline-offset-4 hover:decoration-2">
             contact@destraja.ro
           </a>
-          .
+          . Mai jos, după cele importante, e și{' '}
+          <a href="#jurnal-complet" className="font-semibold text-link underline underline-offset-4 hover:decoration-2">
+            jurnalul complet
+          </a>
+          , cu fiecare schimbare.
         </p>
       </div>
 
@@ -70,6 +77,8 @@ export default function ChangelogPage() {
           </li>
         ))}
       </ol>
+
+      <ChangeJournal days={journal} />
     </Container>
   );
 }

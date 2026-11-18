@@ -177,15 +177,17 @@ async function parseBillSheet(bill) {
   const stageMatch = html.match(/Stadiu\s*:[\s\S]*?<td[^>]*>([\s\S]*?)<\/td>/i);
   const stage = stageMatch ? stripTags(stageMatch[1]) : 'înregistrat la Senat pt. dezbatere';
 
-  // Extract PDFs
-  const pdfMatches = [...html.matchAll(/<a[^>]+href=["']([^"']*\/legis\/PDF\/[^"']+\.pdf[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi)];
+  // Extract PDFs. Fișa are două liste: cea de sus, cu adrese „/legis/PDF/…”, și cea de la pașii din Biroul permanent, cu
+  // adrese relative la /Legis („PDF\2026\26b563FGA.pdf”). Doar în a doua apar documentele noi, de exemplu forma
+  // actualizată a inițiatorului (B563/2026, 16 noiembrie 2026), pe care până acum n-o citeam.
+  const pdfMatches = [...html.matchAll(/<a[^>]+href=["']((?:[^"']*\/legis\/|PDF[\\/])PDF[^"']*?\.pdf[^"']*|[^"']*\/legis\/PDF\/[^"']+\.pdf[^"']*|PDF[\\/][^"']+\.pdf[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi)];
   const pdfs = [];
   const seenUrls = new Set();
 
   for (const pm of pdfMatches) {
     let rawHref = pm[1].replace(/\\/g, '/').split('?')[0];
     if (!rawHref.startsWith('http')) {
-      rawHref = `${SENAT_BASE}/${rawHref.replace(/^\//, '')}`;
+      rawHref = /^PDF\//i.test(rawHref) ? `${SENAT_BASE}/Legis/${rawHref}` : `${SENAT_BASE}/${rawHref.replace(/^\//, '')}`;
     }
     if (seenUrls.has(rawHref.toLowerCase())) continue;
     seenUrls.add(rawHref.toLowerCase());
@@ -203,6 +205,13 @@ async function parseBillSheet(bill) {
       url: rawHref,
     });
   }
+
+  // Forma actualizată a inițiatorului înlocuiește forma inițială ca text analizat; cea inițială rămâne, cu alt nume.
+  if (pdfs.some((p) => p.type === 'forma_initiatorului' && /actualizat/i.test(p.label))) {
+    for (const p of pdfs) if (p.type === 'forma_initiatorului' && !/actualizat/i.test(p.label)) p.type = 'forma_initiatorului_initiala';
+  }
+  // Adresa care înaintează forma actualizată nu ia locul adresei de înaintare a proiectului.
+  for (const p of pdfs) if (p.type === 'adresa_inaintare' && /actualizat/i.test(p.label)) p.type = 'adresa_inaintare_forma_actualizata';
 
   // Extract Timeline events
   const timeline = [];

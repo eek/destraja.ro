@@ -1,6 +1,7 @@
 import { ImageResponse } from 'next/og';
 import { getBillVersions, getCdepAnalysis, getCdepBill, getCdepSlugs } from '@/lib/cdep';
-import { dayDiff, shortCommittee, stageLabel, stageOf } from '@/lib/cdep-text';
+import { dayDiff, shortCommittee } from '@/lib/cdep-text';
+import { resolveStatus } from '@/lib/bill-status';
 import { RISK } from '@/lib/risk';
 import { fmt, formatDateRo, todayISO } from '@/lib/format';
 import { Glyph, OG, OG_SIZE, clip, logoSrc, ogFonts } from '@/og/og';
@@ -55,7 +56,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
             <img src={logo} width={178} height={60} alt="" />
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', fontSize: 22, color: OG.muted, lineHeight: 1.4 }}>
               <span style={{ color: OG.ink, fontWeight: 600 }}>
-                Camera Deputaților · {open ? `amendamente până pe ${formatDateRo(deadline)}` : stageLabel(stageOf(bill.stadiu))}
+                Camera Deputaților · {open ? `amendamente până pe ${formatDateRo(deadline)}` : resolveStatus(bill, todayISO()).chip}
               </span>
               <span>{committee ? clip(shortCommittee(committee), 60) : c ? 'Evaluat de Gemini, Claude și ChatGPT' : 'Fișa de pe cdep.ro'}</span>
             </div>

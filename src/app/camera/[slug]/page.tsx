@@ -15,7 +15,9 @@ import {
   initiatorLabel,
   registeredYear,
 } from '@/lib/cdep';
-import { dayDiff, shortCommittee, shortDate, stageLabel, stageOf } from '@/lib/cdep-text';
+import { dayDiff, shortCommittee, shortDate } from '@/lib/cdep-text';
+import { resolveStatus } from '@/lib/bill-status';
+import BillStatusCard from '@/components/camera/BillStatusCard';
 import { RISK } from '@/lib/risk';
 import { formatDateRo, todayISO } from '@/lib/format';
 import { trackAttrs } from '@/lib/analytics';
@@ -95,7 +97,9 @@ export default async function CameraBillPage({ params }: PageProps) {
   const since = analysedOn ?? new Date(Date.parse(`${builtOn}T12:00:00Z`) - 30 * 864e5).toISOString().slice(0, 10);
   const happenings = chamberHappenings(bill, await getBillHistory(slug), since, versions);
   const happeningsNote = analysedOn ? `De la analiza noastră din ${formatDateRo(analysedOn)}.` : 'În ultimele 30 de zile. Proiectul nu are încă analiza noastră.';
-  const stage = stageOf(bill.stadiu);
+  // Stadiul din pașii și stadiul fișei (citită zilnic), nu din lista Camerei, care rămâne uneori în urmă.
+  const status = resolveStatus(bill, builtOn);
+  const stage = status.stage;
   const atChamber = ['comisii', 'raport', 'plen', 'altele'].includes(stage);
   // Proiectele din anii trecuți încă în dezbatere (scripts/straja-cdep-vechi.mjs): anul înregistrării se vede lângă număr.
   const year = registeredYear(bill);
@@ -106,6 +110,12 @@ export default async function CameraBillPage({ params }: PageProps) {
   const firstDate = f.timeline[0]?.data;
   const initiator = initiatorLabel(f);
 
+  // Termenul pentru raport doar cât proiectul e la comisii; după, ar fi o dată veche.
+  const committeeDetail = status.hasReport
+    ? 'raport depus'
+    : f.comisii?.termenRaport
+      ? `raport până pe ${formatDateRo(f.comisii.termenRaport)}`
+      : 'avize și raport';
   const steps: RouteStep[] = senateFirst
     ? [
         { label: 'Depus', detail: [initiator, f.numarSenat ? `la Senat, cu nr. ${f.numarSenat}` : 'la Senat'].filter(Boolean).join(', ') },
@@ -113,13 +123,13 @@ export default async function CameraBillPage({ params }: PageProps) {
           label: 'Senatul',
           detail: senateVote ? `prima cameră; l-a ${/respins/i.test(senateVote.actiune) ? 'respins' : 'adoptat'} pe ${formatDateRo(iso(senateVote.data))}` : 'prima cameră',
         },
-        { label: 'Comisiile Camerei', detail: f.comisii?.termenRaport ? `raport până pe ${formatDateRo(f.comisii.termenRaport)}` : 'avize și raport' },
+        { label: 'Comisiile Camerei', detail: committeeDetail },
         { label: 'Plenul Camerei', detail: 'decide la final' },
         { label: 'Promulgare', detail: 'și Monitorul Oficial' },
       ]
     : [
         { label: 'Depus', detail: [initiator, firstDate && `pe ${formatDateRo(iso(firstDate))}`].filter(Boolean).join(', ') || 'la Cameră' },
-        { label: 'Comisiile Camerei', detail: f.comisii?.termenRaport ? `raport până pe ${formatDateRo(f.comisii.termenRaport)}` : 'avize și raport' },
+        { label: 'Comisiile Camerei', detail: committeeDetail },
         { label: 'Plenul Camerei', detail: 'prima cameră' },
         { label: 'Senatul', detail: 'decide la final' },
         { label: 'Promulgare', detail: 'și Monitorul Oficial' },
@@ -188,7 +198,7 @@ export default async function CameraBillPage({ params }: PageProps) {
                 </span>
               )}
               <span className={`rounded-md px-2 py-0.5 text-xs font-semibold ${stage === 'plen' ? 'bg-brand text-on-brand' : 'bg-sunken text-body'}`}>
-                {stageLabel(stage)}
+                {status.chip}
               </span>
               <span className="tabular-nums text-muted">
                 {bill.numar}
@@ -242,6 +252,8 @@ export default async function CameraBillPage({ params }: PageProps) {
           </div>
         </header>
 
+        <BillStatusCard status={status} readAt={bill.cititLa} builtOn={builtOn} />
+
         {f.consultare && (
           <Consultation c={f.consultare} builtOn={builtOn} billId={bill.numar} />
         )}
@@ -263,14 +275,13 @@ export default async function CameraBillPage({ params }: PageProps) {
               Unde este proiectul
             </h2>
             <p className="text-sm text-muted">
-              Stadiul oficial la Cameră: {bill.stadiu}
-              {bill.stadiuData && `, din ${bill.stadiuData}`}
+              Pe fișa Camerei: {status.sheetStage || bill.stadiu}
             </p>
           </div>
           {now >= 0 ? (
             <RouteSteps steps={steps} now={now} />
           ) : (
-            <p className="mt-4 text-[15px] leading-7 text-body">Procedura s-a încheiat la Cameră: {bill.stadiu}.</p>
+            <p className="mt-4 text-[15px] leading-7 text-body">{[status.title, status.detail].filter(Boolean).join('. ')}</p>
           )}
           <p className="mt-6 border-t border-line pt-4 text-sm leading-6 text-body">
             {senateFirst

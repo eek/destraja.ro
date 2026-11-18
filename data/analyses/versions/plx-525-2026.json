@@ -1,8 +1,28 @@
 {
   "slug": "plx-525-2026",
   "billId": "PL-x 525/2026",
-  "updatedAt": "2026-10-30T09:40:39.669Z",
+  "updatedAt": "2026-11-18T10:26:13.617Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L450FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Încă două luni pentru cumpărătorii de locuințe cu TVA de 9%, după pana sistemului ANCPI",
+      "summaryTlDr": "Este o lege tehnică și în esență benignă. Mută termenul pentru TVA de 9% la locuințe de la 31 iulie la 1 octombrie 2026 și nu introduce taxe, sancțiuni sau monopoluri. Problemele reale sunt de redactare, de lipsă a cuantificării bugetare și de un posibil decalaj temporal la intrarea în vigoare.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 2
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,82 +56,237 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
-      "direction": "la_fel",
-      "headline": "Camera a păstrat textul Senatului: doar corecturi de formă, regimul TVA 9% și restituirea rămân la fel",
-      "summary": "Acum textul e identic ca fond cu cel inițial. Diferențele sunt doar de redactare: antetul, ghilimelele, spațierea trimiterilor și semnătura. Cota de 9%, plafoanele, termenele și restituirea diferenței de TVA nu s-au schimbat.",
-      "changes": [],
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Se introduce restituirea diferenței de TVA pentru locuințele cumpărate la cota standard după 1 august 2026",
+      "summary": "Acum, cine a cumpărat o locuință cu TVA standard între 1 august 2026 și intrarea în vigoare a legii poate cere înapoi diferența până la 9%. Primăriile pot face la fel. Termenele scad cu o zi, la 30 septembrie 2026, iar procedura de restituire e lăsată pe seama ANAF.",
+      "changes": [
+        {
+          "title": "Restituirea TVA pentru cei care au plătit cota standard",
+          "text": "Art. II alin. (1)-(3) e nou. Persoanele care au cumpărat cu cota standard între 1 august 2026 și intrarea în vigoare pot cere diferența până la 9%, pentru o singură locuință, cea cu primul fapt generator.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. II alin. (1)-(3)",
+          "before": null,
+          "after": "poate solicita restituirea sumei rezultate din diferența între cota standard de TVA și cota redusă de TVA de 9%, pentru o singură locuință achiziționată",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Și primăriile pot cere restituirea diferenței de TVA",
+          "text": "Art. II alin. (4) e nou. Primăriile care au cumpărat cu cota standard clădiri pentru chirie subvenționată în aceeași perioadă pot cere diferența, fără plafon de suprafață sau valoare.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. II alin. (4)",
+          "before": null,
+          "after": "pot solicita restituirea sumei rezultate din diferența între cota standard de TVA și cota redusă de TVA de 9%, dacă au fost încheiate până la data de 1 august 2025 acte juridice între vii care au ca obiect plata în avans pentru achiziționarea acestora.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Perioada pentru TVA de 9% se termină pe 30 septembrie",
+          "text": "Art. I alin. (1): inițial perioada era 1 august 2025 - 1 octombrie 2026 inclusiv. Acum începe la intrarea în vigoare și se termină pe 30 septembrie 2026 inclusiv, cu o zi mai devreme.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. I alin. (1)",
+          "before": "poate achiziționa în perioada 1 august 2025-1 octombrie 2026 inclusiv o singură locuință cu cota redusă de TVA de 9%",
+          "after": "În perioada cuprinsă între data intrării în vigoare a prezentei legi și data de 30 septembrie 2026 inclusiv",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Livrarea și actele notariale, cu o zi mai devreme",
+          "text": "Art. I alin. (1) lit. b) și alin. (3): termenul pentru livrarea locuinței și pentru autentificarea actelor trece de la 1 octombrie la 30 septembrie 2026.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. I alin. (1) lit. b) și alin. (3)",
+          "before": "care nu poate depăși data de 1 octombrie 2026",
+          "after": "care nu poate depăși data de 30 septembrie 2026",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Termenul pentru primării scurtat cu o zi",
+          "text": "Art. I alin. (4): cota de 9% pentru clădirile cumpărate de primării se aplică acum până la 1 octombrie 2026. Inițial termenul era 2 octombrie 2026.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. I alin. (4)",
+          "before": "„(4) Până la data de 2 octombrie 2026 se aplică o cotă redusă de TVA de 9% pentru livrarea de clădiri",
+          "after": "(4) Până la data de 1 octombrie 2026 se aplică o cotă redusă de TVA de 9% pentru livrarea de clădiri",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Cererile de restituire, de la 1 octombrie 2026",
+          "text": "Art. II alin. (5) e nou. Cererile se pot depune din 1 octombrie 2026, după o procedură stabilită prin ordin ANAF în 30 de zile.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II alin. (5)",
+          "before": null,
+          "after": "(5) Restituirea sumelor prevăzute la alin.(1) și (4) poate fi solicitată începând cu data de 1 octombrie 2026, potrivit procedurii aprobate în termen de 30 de zile de la data intrării în vigoare a prezentei legi",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
       "remaining": {
         "problems": [
           {
-            "text": "Restituirea diferenței de TVA e cheltuială bugetară directă, deși se afirmă impact zero",
+            "text": "Impact bugetar necuantificat al cotei de 9% și al restituirilor, deși expunerea îl neagă",
             "major": true,
-            "article": "art. II"
+            "article": "art. I și art. II"
           },
           {
-            "text": "Primăriile primesc restituire fără plafon de suprafață, valoare sau număr de clădiri",
+            "text": "Restituirea către primării nu are plafon de suprafață, valoare sau număr de clădiri",
             "major": true,
             "article": "art. II alin. (4)"
           },
           {
-            "text": "Se restituie doar locuința cu primul fapt generator, cumpărătorul nu poate alege",
-            "major": true,
-            "article": "art. II alin. (3)"
-          },
-          {
-            "text": "Lipsesc termen de depunere, termen de plată și dobânzi pentru întârzierea restituirii",
+            "text": "Lipsesc termenul de depunere, termenul de plată și dobânzile pentru restituiri întârziate",
             "major": false,
             "article": "art. II alin. (5)"
           },
           {
-            "text": "Procedura de restituire e lăsată integral pe seama unui ordin ANAF",
+            "text": "Termenul de 30 septembrie nu concordă cu 1 octombrie din expunere și fișă",
             "major": false,
-            "article": "art. II alin. (5)"
+            "article": "art. I alin. (1) și (3)"
           },
           {
-            "text": "Termen inconsecvent: 30 septembrie inclusiv pentru persoane, «până la 1 octombrie» pentru primării",
+            "text": "Formularea pentru primării, «până la 1 octombrie», diferă de «30 septembrie inclusiv»",
             "major": false,
-            "article": "art. I alin. (1), (3), (4)"
+            "article": "art. I alin. (4)"
+          },
+          {
+            "text": "Termenul de livrare prelungit ajută și dezvoltatorii întârziați cu construcția",
+            "major": false,
+            "article": "art. I alin. (1) lit. b)"
           }
         ],
         "good": [
           {
-            "text": "TVA 9% doar pentru locuințe de cel mult 120 mp și 600.000 lei",
+            "text": "Nu apar beneficiari noi: doar cei cu act de avans încheiat până la 1 august 2025",
             "major": true,
-            "article": "art. I alin. (1)"
+            "article": "art. I alin. (1) lit. d)"
           },
           {
-            "text": "Cei care au plătit cota standard pot recupera diferența până la 9%",
+            "text": "Cei care au plătit cota standard în intervalul fără lege își recuperează diferența",
             "major": true,
             "article": "art. II alin. (1)"
           },
           {
-            "text": "O singură locuință cu cotă redusă de persoană începând din 2023",
+            "text": "Restituirea se face pentru o singură locuință, cea cu primul fapt generator",
             "major": true,
-            "article": "art. I alin. (1) lit. c)"
+            "article": "art. II alin. (3)"
           },
           {
-            "text": "Avans de 20% obligatoriu pentru antecontractele din iulie 2025, contra abuzurilor",
+            "text": "Se păstrează plafoanele de 120 mp și 600.000 lei pentru persoane fizice",
             "major": true,
-            "article": "art. I alin. (2), art. II alin. (2)"
+            "article": "art. I și art. II alin. (1) lit. a)"
           },
           {
-            "text": "Notarii verifică registrul și consemnează cota de TVA aplicată în acte",
+            "text": "Notarii verifică Registrul, ceea ce previne folosirea dublă a cotei reduse",
             "major": false,
             "article": "art. I alin. (3)"
+          },
+          {
+            "text": "Procedura ANAF trebuie aprobată în 30 de zile și publicată în Monitorul Oficial",
+            "major": false,
+            "article": "art. II alin. (5)"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 13,
-        "removed": 12,
-        "same": 0.55
+        "added": 26,
+        "removed": 15,
+        "same": 0.1
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:39:11.650Z"
+      "schema": 4,
+      "updatedAt": "2026-11-18T10:25:52.865Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Camera a păstrat textul Senatului despre TVA 9% la locuințe și restituiri",
+      "summary": "Camera a adoptat aceleași reguli ca Senatul. Diferențele sunt doar de redactare: antetul, data adoptării și formulări ca „data de”. Cota de 9%, plafoanele, restituirile și termenele au rămas neschimbate.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Restituirea diferenței de TVA costă bugetul, deși expunerea neagă orice impact negativ",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Primăriile primesc 9% sau restituire fără plafon de suprafață, valoare ori număr",
+            "major": true,
+            "article": "art. II alin. (4)"
+          },
+          {
+            "text": "Termen inconsecvent: 30 septembrie 2026 inclusiv, dar pentru primării „până la 1 octombrie 2026”",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Nu există termen de soluționare, de plată sau dobânzi pentru restituirile întârziate",
+            "major": false,
+            "article": "art. II alin. (5)"
+          },
+          {
+            "text": "Procedura de restituire este lăsată integral pe seama unui ordin ANAF",
+            "major": false,
+            "article": "art. II alin. (5)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Cota de 9% rămâne pentru cei cu antecontract și avans până la 1 august 2025",
+            "major": true,
+            "article": "art. I alin. (1)"
+          },
+          {
+            "text": "Cine a plătit cota standard după 1 august 2026 poate cere diferența înapoi",
+            "major": true,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Plafoane clare: o locuință, maximum 120 mp și 600.000 lei fără TVA",
+            "major": true,
+            "article": "art. I alin. (1)"
+          },
+          {
+            "text": "Pentru antecontractele din iulie 2025 se cere avans de 20% plătit la timp",
+            "major": true,
+            "article": "art. I alin. (2)"
+          },
+          {
+            "text": "Restituirea se acordă doar pentru prima locuință cumpărată, ceea ce limitează abuzurile",
+            "major": true,
+            "article": "art. II alin. (3)"
+          },
+          {
+            "text": "Notarii verifică Registrul și consemnează cota de TVA aplicată",
+            "major": false,
+            "article": "art. I alin. (3)"
+          },
+          {
+            "text": "ANAF trebuie să emită procedura de restituire în 30 de zile",
+            "major": false,
+            "article": "art. II alin. (5)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 5,
+        "same": 0.83
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-18T10:26:13.617Z"
     }
   ]
 }

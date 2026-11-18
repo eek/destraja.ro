@@ -1,0 +1,90 @@
+{
+  "slug": "plx-753-2026",
+  "billId": "Pl-x 753/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-18T11:05:07.061Z",
+  "inputHash": "806c7eba66d9",
+  "riskScore": 3.3,
+  "summary": "Un scop bun de protejare a profesorilor, dar cu lacune de redactare care lasă neacoperite fapte grave și categorii de personal.",
+  "good": [
+    {
+      "text": "Crește cu un sfert pedepsele pentru amenințarea sau lovirea profesorilor, ceea ce poate descuraja agresiunile împotriva acestora.",
+      "article": "art. I (art. 206¹ alin. (1))",
+      "quote": "se sancționează cu pedeapsa prevăzută de lege pentru acea infracțiune, ale cărei limite speciale se majorează cu o pătrime.",
+      "weight": 3
+    },
+    {
+      "text": "Extinde protecția și în afara școlii sau a orelor de curs, dacă atacul are legătură cu munca profesorului.",
+      "article": "art. I (art. 206¹ alin. (2))",
+      "quote": "se aplică indiferent dacă fapta a fost săvârșită în incinta unității de învățământ sau în afara acesteia",
+      "weight": 2
+    },
+    {
+      "text": "Nu introduce taxe, avize sau obligații birocratice pentru cetățeni și firme și nu necesită norme de aplicare ulterioare.",
+      "article": "art. II",
+      "quote": "Prezenta lege intră în vigoare la 3 zile de la data publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu acoperă vătămarea corporală gravă: o palmă primește pedeapsă mărită, însă o lovitură care provoacă o fractură rămâne neagravată.",
+      "article": "art. I (art. 206¹ alin. (1))",
+      "quote": "Amenințarea ori lovirea sau alte violențe săvârșite împotriva unui cadru didactic aflat în exercitarea atribuțiilor de serviciu",
+      "weight": 3
+    },
+    {
+      "text": "Termenul «cadru didactic» este neclar și nu arată dacă sunt protejați și directorii, educatorii sau personalul auxiliar din școli.",
+      "article": "art. I (art. 206¹ alin. (1))",
+      "quote": "împotriva unui cadru didactic aflat în exercitarea atribuțiilor de serviciu ori în legătură cu exercitarea acestora",
+      "weight": 3
+    },
+    {
+      "text": "Nu stabilește dacă ancheta pornește din oficiu sau doar la plângerea victimei, nici dacă împăcarea mai oprește procesul.",
+      "article": "art. I (art. 206¹ alin. (1))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Permite pedepsirea mai aspră și pentru conflicte pur personale petrecute în timpul programului, fără legătură cu meseria de profesor.",
+      "article": "art. I (art. 206¹ alin. (1))",
+      "quote": "aflat în exercitarea atribuțiilor de serviciu ori în legătură cu exercitarea acestora se sancționează cu pedeapsa prevăzută de lege",
+      "weight": 2
+    },
+    {
+      "text": "Nu trimite expres la articolele din Codul penal și împrăștie pedepsele penale în legea educației, complicând aplicarea lor.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Articolul nou este numerotat greșit «Art. 206I» în text, deși partea introductivă îl numește «206¹», ceea ce poate crea confuzii.",
+      "article": "art. I",
+      "quote": "cu modificările și completările ulterioare, se introduce articolul 206¹ cu următorul cuprins:",
+      "weight": 1
+    },
+    {
+      "text": "Susține un impact bugetar zero fără calcule, deși pedepsele mai mari pot aduce cheltuieli indirecte în justiție și penitenciare.",
+      "article": "Expunerea de motive, Secțiunea a 4-a",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Trebuie reformulat art. 206¹ alin. (1) pentru a include vătămarea corporală, a defini clar categoriile de personal protejate, a cere legătura cu serviciul și a preciza regimul plângerii prealabile.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

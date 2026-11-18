@@ -1,0 +1,31 @@
+# PARLAMENTUL ROMÂNIEI GRUP PARLAMENTAR S.O.S. ROMÂNIA
+
+Către,
+
+# BIROUL PERMANENT AL SENATULUI ROMÂNIEI
+
+În conformitate cu prevederile art.74 alin.(1) și ale art.75 alin.(1) din Constituția României, republicată și cu cele ale art.92 alin.(1) din Regulamentul Senatului României, republicat, cu modificările și completările ulterioare,
+
+vă înaintăm alăturat spre înregistrare și dezbatere
+
+Propunerea legislativă pentru completarea Legii nr.227/2015 privind Codul fiscal
+
+Solicităm declanșarea procedurii legislative, solicitarea avizelor Consiliului Legislativ și Consiliului Economic și Social, precum și a punctului de vedere al Guvernului.
+
+Solicităm, de asemenea, informarea Guvernului asupra implicațiilor financiare, în condițiile art.111 alin.(1) din Constituție, și documentația financiară prevăzută de legislația finanțelor publice și a responsabilității fiscal-bugetare, în măsura incidenței acesteia.
+
+Propunerea este înaintată Senatului ca primă Cameră sesizată, cu verificarea încadrării și a competenței legislative în procedura parlamentară.
+
+Nu solicităm procedură de urgență în absența unei fundamentări factuale distincte.
+
+Anexe pentru înregistrare:
+
+1.expunerea de motive;
+
+2.textul propunerii legislative;
+
+3.lista inițiatorilor și susținătorilor.
+
+INIȚIATOR:
+
+BAȘ ANA-MARCELA -deputat S.O.S.România

@@ -1,7 +1,12 @@
 {
   "slug": "plx-227-2026",
   "billId": "PL-x 227/2026",
-  "updatedAt": "2026-10-29T12:52:55.899Z",
+  "updatedAt": "2026-11-18T09:18:46.934Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -30,6 +35,21 @@
       "scores": {
         "agy": 5,
         "claude": 5,
+        "codex": 6
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl227_cd227_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Închisoare pentru căsătoriile forțate și pentru „măritișul” copiilor sub 16 ani",
+      "summaryTlDr": "Legea are un scop legitim, protejează copiii și transpune obligații UE. Are însă câteva defecte de redactare care trebuie reparate în reexaminare: o clemență excesivă pentru autorii care denunță, o agravantă care nu cere o condamnare definitivă și mesaje TV care anunță o infracțiune înainte ca aceasta să existe.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
         "codex": 6
       }
     }
@@ -162,6 +182,166 @@
       "model": "claude",
       "schema": 3,
       "updatedAt": "2026-10-29T12:52:55.899Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Prestatorii de nunți nu mai răspund penal, dar pedepsele pentru căsătoria forțată scad",
+      "summary": "Acum dispar pedepsele pentru fotografi, restaurante sau preoți, iar datele de intrare în vigoare deja trecute sunt înlocuite. În schimb, pedepsele sunt mai mici, unele protecții pentru victime au fost scoase, iar primirea de bani pentru o căsătorie devine exploatare.",
+      "changes": [
+        {
+          "title": "Prestatorii de servicii de nuntă nu mai riscă închisoare",
+          "text": "A fost scos alin. (7) din art. 209¹, care pedepsea organizatorii de petreceri, preoții, fotografii, transportatorii și cazările dacă „ar fi trebuit să știe” că minorul are sub 16 ani.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I pct. 2 (art. 209¹)",
+          "before": "(7) Se pedepsește cu închisoarea de la 6 luni la 2 ani sau amenda fapta persoanei care, deși ar fi trebuit să știe că minorul este victima uneia dintre faptele prevăzute la alin.(4)-(6):",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Banii primiți pentru o căsătorie devin exploatare",
+          "text": "Art. 182 lit. g) include acum obținerea de bani sau foloase în schimbul unei căsătorii. Asta poate atrage răspunderea pentru trafic de minori și pentru practicile de zestre.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. I pct. 1 (art. 182 lit. g)",
+          "before": "„g) obligarea la practicarea maternității de substituție sau la căsătoria ori conviețuirea forțată;",
+          "after": "g) obligarea la încheierea unei căsătorii sau la conviețuirea într-o relație asemănătoare aceleia dintre soți, precum și obținerea de bani sau alte foloase materiale în schimbul încheierii unei căsătorii sau al conviețuirii într-o relație asemănătoare aceleia dintre soți;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Denunțul nu mai aduce scăparea totală de pedeapsă",
+          "text": "Inițial, cine denunța fapta nu era pedepsit deloc. Acum pedeapsa se reduce la jumătate, cu posibilă suspendare chiar fără condițiile legale, inclusiv la faptele contra copiilor sub 14 ani.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I pct. 2 (art. 209¹ alin. 7)",
+          "before": "(13) Nu se pedepsește persoana care denunță fapta mai înainte ca organul de urmărire penală să fi fost sesizat cu privire la aceasta.",
+          "after": "beneficiază de reducerea la jumătate a limitelor pedepsei prevăzute de lege și poate beneficia de suspendarea executării pedepsei sub supraveghere, chiar dacă nu sunt îndeplinite condițiile prevăzute de lege pentru aceasta.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Pedepse mai mici și mai puține moduri de comitere",
+          "text": "Forma de bază scade de la 3-7 ani la 1-5 ani, iar cea agravată de la 3-10 la 2-7 ani. Au fost scoase răpirea, inducerea în eroare și obținerea frauduloasă a avizelor.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. I pct. 2 (art. 209¹ alin. 1 și 3)",
+          "before": "e) prin obținerea în mod fraudulos a avizelor, încuviințărilor sau autorizării prevăzute de lege pentru încheierea căsătoriei, se pedepsește cu închisoarea de la 3 la 7 ani și interzicerea exercitării unor drepturi.",
+          "after": "se pedepsește cu închisoarea de la 1 la 5 ani și interzicerea exercitării unor drepturi dacă fapta a fost săvârșită:",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Scoase agravanta morții victimei, tentativa și confiscarea",
+          "text": "Din art. 209¹ dispar mai multe prevederi: pedeapsa de 12-18 ani dacă victima moare, pedepsirea tentativei, neimputarea victimei, concursul de infracțiuni și confiscarea banilor.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. I pct. 2 (art. 209¹)",
+          "before": "(8) Dacă faptele prevăzute la alin.(1)-(6) au fost urmate de moartea victimei pedeapsa este închisoarea de la 12 la 18 ani și interzicerea exercitării unor drepturi.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Intrarea în vigoare nu mai e la date trecute",
+          "text": "Partea penală intră acum în vigoare la 3 luni de la publicare, nu la 1 martie 2026. Spoturile TV nu mai expiră la 30 iunie 2026.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. III",
+          "before": "Art.III.- Prevederile art.I intră în vigoare la data de 1 martie 2026.",
+          "after": "Art. III. - Prevederile art. I intră în vigoare în termen de 3 luni de la data publicării prezentei legi în Monitorul Oficial al României, Partea I.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Agravanta „a mai comis anterior” nu cere condamnare definitivă",
+            "major": true,
+            "article": "art. 209¹ alin. (3) lit. e)"
+          },
+          {
+            "text": "Denunțătorul poate primi suspendare fără condiții, chiar la victime sub 14 ani",
+            "major": true,
+            "article": "art. 209¹ alin. (7)"
+          },
+          {
+            "text": "Banii primiți pentru căsătorie pot fi tratați ca trafic de minori, inclusiv zestrea",
+            "major": true,
+            "article": "art. 182 lit. g)"
+          },
+          {
+            "text": "Lipsesc agravanta morții victimei, tentativa și confiscarea banilor",
+            "major": true,
+            "article": "art. 209¹"
+          },
+          {
+            "text": "Pedepsele de bază și agravate sunt mai mici decât inițial",
+            "major": true,
+            "article": "art. 209¹ alin. (1), (3)"
+          },
+          {
+            "text": "Spoturile TV anunță pedepse înainte ca fapta să devină infracțiune",
+            "major": false,
+            "article": "art. II-IV"
+          },
+          {
+            "text": "Lit. i) se poate suprapune cu infracțiunile din legea adopției",
+            "major": false,
+            "article": "art. 182 lit. i)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Prestatorii de servicii de nuntă nu mai riscă răspundere penală vagă",
+            "major": true,
+            "article": "art. 209¹"
+          },
+          {
+            "text": "Căsătoria și conviețuirea forțate devin infracțiune distinctă",
+            "major": true,
+            "article": "art. 209¹ alin. (1)"
+          },
+          {
+            "text": "Pedepsit transportul victimei în alt stat pentru a o forța să se căsătorească",
+            "major": true,
+            "article": "art. 209¹ alin. (2)"
+          },
+          {
+            "text": "Consimțământul minorului sub 16 ani nu înlătură răspunderea",
+            "major": true,
+            "article": "art. 209¹ alin. (6)"
+          },
+          {
+            "text": "Pedeapsă mai mare când victima are sub 14 ani",
+            "major": true,
+            "article": "art. 209¹ alin. (5) lit. b)"
+          },
+          {
+            "text": "Denunțul nu mai garantează scăparea completă de pedeapsă",
+            "major": true,
+            "article": "art. 209¹ alin. (7)"
+          },
+          {
+            "text": "Datele de intrare în vigoare nu mai sunt deja trecute",
+            "major": false,
+            "article": "art. III-IV"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 28,
+        "removed": 47,
+        "same": 0.15
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-18T09:18:46.934Z"
     }
   ]
 }

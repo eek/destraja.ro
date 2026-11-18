@@ -1,0 +1,70 @@
+{
+  "slug": "plx-495-2025",
+  "billId": "PL-x 495/2025",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-18T11:07:06.395Z",
+  "inputHash": "635654f359bd",
+  "riskScore": 4,
+  "summary": "Un scop bun de salvare a vieții minorilor în urgențe, dar slăbit de redactare imprecisă și de contradicția cu propria motivare.",
+  "good": [
+    {
+      "text": "Permite medicilor de adulți să intervină în urgențe care pun în pericol viața minorilor când lipsesc pediatrii și transferul nu e posibil.",
+      "article": "art. unic (art. 654 alin. (3))",
+      "quote": "în situațiile de urgență care pun în pericol iminent viața pacientului cu vârsta de până la 18 ani atunci când serviciile medicale nu pot fi acordate de medici specialiști sau primari în specialități pediatrice",
+      "weight": 3
+    },
+    {
+      "text": "Limitează exonerarea la intervențiile de bună-credință ale medicilor din specialități corespondente bolii, fără a acorda o imunitate generală.",
+      "article": "art. unic (art. 654 alin. (3))",
+      "quote": "medicii specialiști în specialitățile correspondente specialităților pediatrice specifice patologiei pacientului nu sunt răspunzători pentru eventualele daune și prejudicii produse în exercitarea profesiunii, atunci când aceștia acționează cu bună-credință.",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Exonerează medicul doar pe criteriul subiectiv al bunei-credințe, fără să delimiteze culpa gravă sau încălcarea protocoalelor medicale de urgență.",
+      "article": "art. unic (art. 654 alin. (3))",
+      "quote": "nu sunt răspunzători pentru eventualele daune și prejudicii produse în exercitarea profesiunii, atunci când aceștia acționează cu bună-credință.",
+      "weight": 3
+    },
+    {
+      "text": "Menține condiția imposibilității transferului fără termen de timp, contrazicând motivarea și lăsând medicul expus dacă ulterior se apreciază că transferul era posibil.",
+      "article": "art. unic (art. 654 alin. (3))",
+      "quote": "iar transferul acestuia, potrivit prevederilor art.109, nu poate fi realizat",
+      "weight": 3
+    },
+    {
+      "text": "Invocă absența medicilor specialiști sau primari pediatri, dar protejează doar medicii specialiști, lăsând neclară situația medicilor primari de adulți, a rezidenților sau de familie.",
+      "article": "art. unic (art. 654 alin. (3))",
+      "quote": "atunci când serviciile medicale nu pot fi acordate de medici specialiști sau primari în specialități pediatrice, iar transferul acestuia, potrivit prevederilor art.109, nu poate fi realizat, medicii specialiști în specialitățile correspondente",
+      "weight": 2
+    },
+    {
+      "text": "Nu clarifică dacă spitalul preia răspunderea civilă pentru pagubele produse, existând riscul ca pacientul minor vătămat să nu poată obține despăgubiri.",
+      "article": "art. unic (art. 654 alin. (3))",
+      "quote": "Prin excepție de la prevederile alin.(2) lit.b), în situațiile de urgență care pun în pericol iminent viața pacientului cu vârsta de până la 18 ani",
+      "weight": 2
+    },
+    {
+      "text": "Conține eroarea de redactare „correspondente” în loc de „corespondente” chiar în formularea care definește categoriile de medici exonerați.",
+      "article": "art. unic (art. 654 alin. (3))",
+      "quote": "medicii specialiști în specialitățile correspondente specialităților pediatrice specifice patologiei pacientului",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Delimitarea exonerării de culpa gravă și protocoale și adăugarea reperului „în timp util” la imposibilitatea transferului ar reduce major riscurile de interpretare.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 2.5
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

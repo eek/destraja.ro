@@ -1,0 +1,41 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+## LEGE
+
+pentru modificarea și completarea Legii nr. 286/2009 privind Codul penal, publicată în Monitorul Oficial al României, Partea I, nr. 510 din 24 iulie 2009, cu modificările și completările ulterioare
+
+\- "Niciuna mai puțin"
+
+Parlamentul României adoptă prezenta lege.
+
+## Art. I
+
+Legea nr. 286/2009 privind Codul penal, publicată în Monitorul Oficial al României, Partea I, nr. 510 din 24 iulie 2009, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. După articolul 188 se introduce un nou articol, articolul 188^1, cu următorul cuprins:
+
+## Art. 188^1 - Feminicidul
+
+(1) Uciderea unei femei, săvârșită din motive legate de sex sau gen, în oricare dintre următoarele împrejurări, constituie infracțiunea de feminicid și se pedepsește cu închisoarea pe viață sau cu închisoare de la 15 la 30 de ani și interzicerea exercitării unor drepturi:
+
+a) făptuitorul este sau a fost soțul, concubinul, partenerul intim ori o persoană cu care victima a avut o relație afectivă, indiferent de existența coabitării;
+
+b) victima și-a exprimat în mod clar refuzul de a iniția sau continua o relație afectivă, sexuală ori de conviețuire cu făptuitorul;
+
+c) victima a fost anterior supusă, de către același făptuitor, unor acte de violență fizică, psihică, sexuală ori economică, motivate de sex sau gen;
+
+d) fapta are legătură cu traficul de persoane ori cu exploatarea victimei în contexte discriminatorii sau opresive, pe criterii de sex sau gen;
+
+e) fapta este săvârșită în cadrul unor practici culturale, religioase, ideologice sau ritualice care au ca scop discriminarea, subordonarea ori încălcarea drepturilor fundamentale ale femeii. (2) Textative as redenacate.
+
+(2) Tentativa se pedepsește.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI (L.S.)
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR (L.S.)

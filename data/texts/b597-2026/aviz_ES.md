@@ -1,0 +1,53 @@
+Cod fiscal: 10464660
+
+E-mail: ces@ces.ro
+
+Membru fondator al Asociației Internaționale a Consiliilor Economice și Sociale și Instituțiilor Similare (AICESIS) Membru al Uniunii Consiliilor Economice și Sociale și Instituțiilor Similare Francofone (UCESIF)
+
+„Consiliul Economic și Social este organ consultativ al Parlamentului și al Guvernului în domeniile de specialitate stabilite prin legea sa organică de înființare, organizare și funcționare.” (Art. 141 din Constituția României revîzuită)
+
+Nr. 7420/11.11.2026
+
+Biroul permanent al Senatului
+
+## AVIZ
+
+## referitor la propunerea legislativă privind dezvoltarea sigură a sistemelor de inteligență artificială de vârf și prevenirea riscurilor catastrofale pentru cetățeanul român (b597/28.10.2026)
+
+În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative privind dezvoltarea sigură a sistemelor de inteligență artificială de vârf și prevenirea riscurilor catastrofale pentru cetățeanul român (b597/28.10.2026).
+
+## CONSILIUL ECONOMIC ȘI SOCIAL
+
+În temeiul art. 5 lit. a) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, în ședința din data de 11.11.2026, desfășurată online, conform prevederilor art. 30 alin. (1) din Regulamentul de organizare și funcționare, avizează NEFAVORABIL prezentul proiect de act normativ, cu următoarea motivare:
+
+Suprapunerea reglementării naționale cu dispozițiile Regulamentului (UE) 2024/1689 și riscul depășirii competențelor naționale
+
+Regulamentul (UE) 2024/1689 stabilește deja un cadru armonizat privind inteligența artificială, inclusiv pentru modelele de uz general care prezintă risc sistemic. Art. 51–55 din regulament stabilesc criteriile de identificare a acestor modele și obligațiile dezvoltatorilor privind evaluarea și atenuarea riscurilor, testarea adversarială. raportarea incidentelor grave și asigurarea securității cibernetice. În mod deosebit, art. 88 din regulament atribuie Comisiei Europene competențe exclusive de supraveghere și asigurare a respectării obligațiilor prevăzute în capitolul V, exercitate prin Oficiul pentru IA;
+
+\- în acest context, instituirea unui regim național paralel, prin care dezvoltatorii sunt supuși unor cerințe suplimentare de autorizare și evaluare pentru aceleași modele, ridică probleme serioase de compatibilitate cu repartizarea competențelor stabilită de dreptul Uniunii Europene;
+
+\- invocarea protecției securității naționale justifică examinarea unor măsuri specifice în limitele competențelor păstrate de statele membre, însă nu permite extinderea automată a unui regim derogatoriu asupra tuturor activităților economice care implică inteligența artificială.
+
+Instituirea unei autorizații naționale prealabile cu efect restrictiv asupra activităților economice
+
+Art. 7–11 din propunerea legislativă instituie obligații de notificare, evaluare și autorizare prealabilă a anumitor sisteme de inteligență artificială, în condițiile stabilite de noua reglementare. Aceste obligații pot determina întârzieri în dezvoltarea și introducerea pe piață a sistemelor, costuri suplimentare pentru operatorii economici și dificultăți în realizarea investițiilor tehnologice. Regimul propus trebuie examinat inclusiv prin raportare la libera circulație a bunurilor și serviciilor, libertatea de stabilire și principiul proporționalității. În lipsa unei delimitări clare față de procedurile europene existente, autorizația națională riscă să devină o condiție suplimentară de acces pe piață pentru operatorii care respectă deja cerințele Regulamentului (UE) 2024/1689:
+
+Delimitarea insuficientă a competențelor Autorității pentru Siguranța Inteligenței Artificiale
+
+România a identificat deja ANCOM (Autoritatea Națională pentru Administrare și Reglementare în Comunicații) drept autoritate de supraveghere a pieței și púnct național unic de contact pentru aplicarea Regulamentului privind inteligența artificială, alături de alte autorități sectoriale competente. În aceste condiții, noua structură administrativă trebuie analizată prin raportare la arhitectura instituțională existentă și la competențele Oficiului european pentru IA. Organizarea în cadrul ANCOM, concomitent cu instituirea unor garanții speciale de autonomie funcțională și cu atribuirea unor competențe proprii, necesită clarificări privind subordonarea țadministrativă, responsabilitatea decizițională, controlul jurisdicțional și răspunderea pentru actele emise.
+
+Necesitatea respectării principiului proporționalității obligațiilor și al neutralității tehnologice
+
+Propunerea legislativă introduce obligații extinse privind documentarea capacităților sistemelor, evaluarea independentă, raportarea incidentelor, verificarea infrastructurii de calcul, jurnalizarea operațiunilor și instituirea unor mecanisme de oprire. Deși asemenea instrumente pot fi justificate pentru anumite categorii de sisteme cu riscuri deosebite, aplicarea lor trebuie corelată cu natura, amploarea și probabilitatea producerii riscurilor effective. În forma propusă, pragurile tehnice și criteriile de clasificare necesită o fundamentare suplimentară privind capacitatea lor de a identifica în mod fiabil sistemele susceptibile să genereze consecințe grave.
+
+Utilizarea unor criterii rigide poate conduce la suprareglementarea unor sisteme fâră risc comparabil și la omiterea unor sisteme care prezintă riscuri semnificative, dar nu îndeplinesc pragurile prestabilite.
+
+Riscul instituirii unor restricții excesive asupra activităților de cercetare, dezvoltare și inovare
+
+Obligațiile de autorizare, acces la infrastructura tehnică, evaluare independentă și dezvăluire a anumitor informații pot genera costuri semnificative pentru întreprinderile mici și mijlocii, institutele de cercetare și dezvoltatorii aflați în etapele inițiale ale inovării. Aceste efecte trebuie analizate prin raportare la art. 2 din Regulamentul (UE) 2024/1689, care stabilește excluderi și reguli speciale privind anumite activități de cercetare și dezvoltare. Proiectul trebuie să asigure delimitarea între dezvoltarea experimentală, cercetarea științifică, testarea în condiții reale și introducerea efectivă pe piață a sistemelor. Trebuie evaluate consecințele economice ale obligațiilor de acces la informații tehnice sensibile, inclusiv asupra protecției secretelor comerciale, securității cibernetice și competitivității întreprinderilor.
+
+Vulnerabilități privind regimul răspunderii civile, contravenționale și penale
+
+În materia sancțiunilor contravenționale, trebuie evitată suprapunerea cu regimul prevăzut de art. 99 din Regulamentul (UE) 2024/1689 și trebuie respectat principiul proporționalității. În privința răspunderii penale, este necesară o delimitare precisă a elementelor constitutive ale infracțiunilor, inclusiv a conduitei interzise, formei de vinovăție și condițiilor în care se poate angaja răspunderea persoanelor fizice și juridice. Utilizarea unor noțiuni tehnice insuficient determinate poate afecta previzibilitatea normei penale, în raport cu art. 1 alin. (5) și art. 23 alin. (12) din Constituție.
+
+Președinte,

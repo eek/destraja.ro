@@ -1,0 +1,82 @@
+{
+  "slug": "plx-748-2026",
+  "billId": "Pl-x 748/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-18T11:04:10.893Z",
+  "inputHash": "201f22de6964",
+  "riskScore": 2.7,
+  "summary": "Un proiect util împotriva hărțuirii în universități, dar slăbit de excluderea faptelor penale din definiție și de lipsa unor garanții procedurale minime.",
+  "good": [
+    {
+      "text": "Lărgește definiția hărțuirii sexuale la orice comportament nedorit care lezează demnitatea, fără a mai cere dovedirea repetitivității sau a stării de temere din legea penală.",
+      "article": "Art. I pct. 4 (Anexa pct. 34)",
+      "quote": "Hărțuire sexuală reprezintă orice formă de comportament nedorit, cu conotație sexuală, exprimat verbal, nonverbal sau fizic de un membru al comunității academice, având ca scop sau efect lezarea demnității unui student sau oricărui membru al comunității academice",
+      "weight": 3
+    },
+    {
+      "text": "Obligă universitățile să creeze proceduri accesibile de raportare și soluționare a hărțuirii, să protejeze victimele de represalii și să le asigure sprijin și consiliere.",
+      "article": "Art. I pct. 3 (art. 168¹)",
+      "quote": "Instituțiile de învățământ superior au obligația de a institui proceduri clare și accesibile pentru prevenirea, sesizarea, analizarea și soluționarea cazurilor de hărțuire, inclusiv hărțuire sexuală, cu asigurarea protecției persoanei vătămate împotriva represaliilor",
+      "weight": 3
+    },
+    {
+      "text": "Include expres orice fapte de hărțuire, inclusiv hărțuirea sexuală, în categoria abaterilor prevăzute de lege, facilitând tragerea la răspundere în mediul universitar.",
+      "article": "Art. I pct. 2 (art. 168 alin. (4) lit. d))",
+      "quote": "abaterile care se referă la orice fapte de hărțuire, inclusiv hărțuire sexuală.",
+      "weight": 2
+    },
+    {
+      "text": "Introduce principiul interzicerii oricărei forme de hărțuire, inclusiv hărțuirea sexuală, ca regulă de bază în funcționarea instituțiilor de învățământ superior.",
+      "article": "Art. I pct. 1 (art. 126 alin. (1) lit. a¹))",
+      "quote": "principiul interzicerii oricărei forme de hărțuire, inclusiv hărțuire sexuală",
+      "weight": 1
+    },
+    {
+      "text": "Impune un termen clar de 6 luni pentru ca universitățile să își actualizeze carta, regulamentele interne și codurile de etică conform noilor reguli.",
+      "article": "Art. II",
+      "quote": "În termen de 6 luni de la intrarea în vigoare a prezentei legi, Senatele universitare actualizează carta universitară, regulamentele și metodologiile de organizare și funcționare a instituțiilor de învățământ superior",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Definiția exclude faptele care constituie infracțiune, ceea ce poate bloca sau amâna sancționarea disciplinară în universitate până la o decizie penală, contrar scopului legii.",
+      "article": "Art. I pct. 4 (Anexa pct. 34)",
+      "quote": "crearea unui mediu de intimidare, ostil, degradant, umilitor sau jignitor, dacă nu este săvârșită în astfel de condiții încât, potrivit legii penale, să constituie infracțiune.",
+      "weight": 3
+    },
+    {
+      "text": "Textul nu interzice medierea între profesor și student și nu impune termene, confidențialitate sau măsuri provizorii, lăsând nivelul de protecție la latitudinea fiecărei universități.",
+      "article": "Art. I pct. 3 (art. 168¹)",
+      "quote": "Instituțiile de învățământ superior au obligația de a institui proceduri clare și accesibile pentru prevenirea, sesizarea, analizarea și soluționarea cazurilor de hărțuire, inclusiv hărțuire sexuală",
+      "weight": 2
+    },
+    {
+      "text": "Legea sancționează orice hărțuire, dar definește doar hărțuirea sexuală; hărțuirea morală sau discriminatorie rămâne nedefinită și fără trimitere la legile speciale, creând neclaritate.",
+      "article": "Art. I pct. 2 (art. 168 alin. (4) lit. d))",
+      "quote": "abaterile care se referă la orice fapte de hărțuire, inclusiv hărțuire sexuală.",
+      "weight": 2
+    },
+    {
+      "text": "Acordă 6 luni senatelor pentru actualizarea regulamentelor fără a stabili reguli tranzitorii de protecție și fără nicio sancțiune dacă universitățile nu respectă termenul.",
+      "article": "Art. II",
+      "quote": "În termen de 6 luni de la intrarea în vigoare a prezentei legi, Senatele universitare actualizează carta universitară, regulamentele și metodologiile de organizare și funcționare a instituțiilor de învățământ superior",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Eliminarea tezei care exclude infracțiunile din definiția hărțuirii sexuale și completarea art. 168¹ cu interdicția medierii, confidențialitate și termene maxime de soluționare.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

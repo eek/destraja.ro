@@ -1,0 +1,75 @@
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+|LEGE|
+
+## pentru completarea Legii nr. 286/2009 privind Codul Penal
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Art. I. - Legea nr. 286/2009 privind Codul Penal, publicată în Monitorul Oficial al României, Partea I, nr. 510 din 24 iulie 2009, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. La articolul 182, după litera f) se introduc trei noi litere, lit. g) h) și i), cu următorul cuprins:
+
+g) obligarea la încheierea unei căsătorii sau la conviețuirea într-o relație asemănătoare aceleia dintre soți, precum și obținerea de bani sau alte foloase materiale în schimbul încheierii unei căsătorii sau al conviețuirii într-o relație asemănătoare aceleia dintre soți;
+
+h) obligarea unei persoane să obțină sau să poarte o sarcină pentru o altă persoană, precum și obținerea de bani sau alte foloase materiale în schimbul obținerii sau purtării, de către o persoană, a unei sarcini pentru o altă persoană;
+
+i) preluarea ori predarea unui copil în vederea adoptării acestuia de către o altă persoană prin încălcarea procedurii legale privind adopția, precum și obligarea sau inducerea în eroare la consimțirea unei adopții ori obținerea de bani sau alte foloase materiale în schimbul adopției.
+
+2\. După articolul 209 se introduce un nou articol, art. 209¹, cu următorul cuprins:
+
+Art. 209¹. - Căsătoria forțată sau conviețuirea forțată
+
+(1) Determinarea unei persoane majore sau a unui minor care a împlinit vârsta de 16 ani la încheierea unei căsătorii sau la conviețuirea într-o relație asemănătoare aceleia dintre soți, se pedepsește cu închisoarea de la 1 la 5 ani și interzicerea exercitării unor drepturi dacă fapta a fost săvârșită:
+
+a) prin constrângere sau abuz de autoritate;
+
+b) profitând de starea de vulnerabilitate vădită a victimei, cauzată de vârstă, boală, dizabilitate fizică sau psihică ori o situație de dependență;
+
+c) prin oferirea, darea, acceptarea sau primirea de bani ori de alte foloase în schimbul consimțământului persoanei care are autoritate asupra victimei.
+
+(2) Cu pedeapsa prevăzută la alin. (1) se sancționează și transportarea sau însoțirea unei persoane majore sau a unui minor care a împlinit vârsta de 16 ani într-un alt stat decât cel în care locuiește, precum și determinarea victimei să călătorească pe teritoriul unui asemenea stat ori împiedicarea să se întoarcă în statul în care locuia, cu scopul de a o forța să încheie o căsătorie sau să convietuiască într-o relație asemănătoare aceleia dintre soți.
+
+(3) Pedeapsa este închisoarea de la 2 la 7 ani și interzicerea exercitării unor drepturi dacă faptele prevăzute la alin. (1) și (2) sunt comise în una din următoarele împrejurări:
+
+a) făptuitorul are asupra sa o armă, un obiect, un dispozitiv, o substanță sau un animal ce pot pune în pericol viața, sănătatea ori integritatea corporală a persoanelor;
+
+b) fapta a avut ca urmare vătămarea corporală sau a fost urmată de încercarea de sinucidere a victimei;
+
+c) victima se află în îngrijirea, ocrotirea, educarea, paza sau tratamentul făptuitorului;
+
+d) fapta a fost săvârșită în condițiile art. 77 lit. h);
+
+e) fapta a fost săvârșită de către o persoană care a mai comis anterior o infrațiune de căsătorie forțată sau conviețuire forțată;
+
+f) fapta a fost săvârșită de un funcționar public în exercitarea atribuțiilor de serviciu.
+
+(4) Determinarea unui minor care nu a împlinit vârsta de 16 ani să conviețuiască într-o relație asemănătoare aceleia dintre soți se pedepsește cu închisoarea de la 2 la 7 ani și interzicerea exercitării unor drepturi.
+
+(5) Pedeapsa este închisoarea de la 3 la 10 ani și interzicerea exercitării unor drepturi dacă fapta prevăzută la alin. (4) este comisă:
+
+a) în condițiile prevăzute la alin. (1)-(3);
+
+b) față de un minor care nu a împlinit vârsta de 14 ani.
+
+(6) Consimțământul minorului victimă care nu a împlinit vârsta de 16 ani nu constituie cauză justificativă.
+
+(7) Persoana care a comis o faptă prevăzută la alin. (1)-(5), care denunță faptă mai înainte ca organul de urmărire penală să fi fost sesizat cu privire la aceasta ori care, în timpul urmăririi penale ori al judecății, furnizează organului judiciar informații utile pentru aflarea adevărului și care nu puteau fi obținute în alt mod sau denunță și facilitează identificarea și tragerea la răspundere penală a altor persoane care au săvârșit astfel de fapte penale, beneficiază de reducerea la jumătate a limitelor pedepsei prevăzute de lege și poate beneficia de suspendarea executării pedepsei sub supraveghere, chiar dacă nu sunt îndeplinite condițiile prevăzute de lege pentru aceasta.
+
+Art. II. - Timp de patru luni de zile de la data intrării în vigoare a prezentei legi, la sfârșitul calupurilor publicitare, difuzate în intervalul orar 18.00 -22.00, cu excepția programelor dedicate copiilor, posturile de radio și televiziune sunt obligate să difuzeze, alternativ, următoarele mesaje de avertizare, cel puțin o dată pe zi fiecare:
+
+„Determinarea unui minor cu vârsta mai mică de 16 ani la stabilirea unei relații asemănătoare aceleia dintre soți încalcă drepturile fundamentale ale copiilor și se pedepsește cu închisoarea.”
+
+„Constrângerea unei persoane majore sau minore la încheierea unei căsătorii sau la conviețuire asemănătoare aceleia dintre soți, se pedepsește cu închisoare.”
+
+Art. III. - Prevederile art. I intră în vigoare în termen de 3 luni de la data publicării prezentei legi în Monitorul Oficial al României, Partea I.
+
+Art. IV. - Prevederile art. II intră în vigoare la trei zile de la data publicării prezentei legi în Monitorul Oficial al României Partea I.
+
+Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 16 septembrie 2026, cu respectarea prevederilor art. 76 alin. (1) din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA-ELENA INTOTERO

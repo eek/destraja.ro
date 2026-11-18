@@ -1,0 +1,86 @@
+{
+  "slug": "plx-493-2025",
+  "billId": "Pl-x 493/2025",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-18T11:07:07.082Z",
+  "inputHash": "36f38b3aaa52",
+  "riskScore": 4.7,
+  "summary": "Un scop bun de protecție a victimelor, dar slăbit de reguli vagi privind urmărirea continuă, lipsa garanțiilor de confidențialitate, termene nerealiste și erori de redactare.",
+  "good": [
+    {
+      "text": "Accesul la localizarea aproximativă nu este automat, ci poate fi decis doar de instanță în funcție de situația concretă, pentru a preveni violențele.",
+      "article": "Art. I pct. 3 (art. 3 alin. (1))",
+      "quote": "instanța poate decide ca, în raport de circumstanțele concrete și în vederea prevenirii unor fapte de violență sau încălcări ale ordinului de protecție, persoana protejata să poată avea acces",
+      "weight": 2
+    },
+    {
+      "text": "Legea interzice transmiterea coordonatelor exacte către victimă și limitează folosirea datelor de localizare aproximativă exclusiv la prevenirea contactului cu agresorul.",
+      "article": "Art. I pct. 2 (art. 2 alin. (1) lit. h¹))",
+      "quote": "date procesate și afișate într-o formă agregată, fără precizie metricală sau coordonate exacte, corespunzătoare unui perimetru de aproximativ 1 kilometru față de poziția reală, transmise persoanei protejate, exclusiv în scop preventiv.",
+      "weight": 2
+    },
+    {
+      "text": "Organul de supraveghere sau operatorul tehnic este obligat să instruiască persoana protejată cum să acceseze datele și să o informeze despre limitările sistemului.",
+      "article": "Art. I pct. 5 (art. 12 alin. (2))",
+      "quote": "instruiesc/instruiește persoana protejată cu privire la modul de utilizare a dispozitivelor electronice de supraveghere, inclusiv privind accesarea informațiilor de localizare aproximativă, și o informează cu privire la limitările acestora",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Permite urmărirea în timp real și în lipsa unei alerte, fără a stabili criterii de risc, durata măsurii, limitele istoricului sau cum poate fi revocată de instanță.",
+      "article": "Art. I pct. 3 (art. 3 alin. (1))",
+      "quote": "persoana protejata să poată avea acces în timp real la datele privind informațiile de localizarea aproximativă, inclusiv în lipsa unei alerte.",
+      "weight": 3
+    },
+    {
+      "text": "Legea nu impune persoanei protejate nicio obligație de confidențialitate și nu prevede sancțiuni dacă datele de localizare sunt divulgate altora sau folosite pentru provocări.",
+      "article": "Art. I pct. 3 și Art. II pct. 1",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Formula «aproximativ 1 kilometru» nu spune dacă e rază sau diametru și nici cum se împiedică deducerea poziției exacte prin centrarea cercului sau actualizări dese.",
+      "article": "Art. I pct. 2 (art. 2 alin. (1) lit. h¹))",
+      "quote": "date procesate și afișate într-o formă agregată, fără precizie metricală sau coordonate exacte, corespunzătoare unui perimetru de aproximativ 1 kilometru față de poziția reală",
+      "weight": 3
+    },
+    {
+      "text": "Impune termene nerealiste (30 de zile pentru adaptare sau 60 pentru licitații), fără a indica instituția responsabilă, sursa de finanțare sau termenul de punere în funcțiune.",
+      "article": "Art. III",
+      "quote": "În termen de 30 de zile de la intrarea legii în vigoare se vor adapta dispozitivele de supraveghere actuale pentru ca acestea să fie apte din punct de vedere tehnic",
+      "weight": 2
+    },
+    {
+      "text": "Textul nu clarifică dacă măsura se aplică și în dosare penale (control judiciar) sau doar la ordine de protecție, iar noua literă d) din Legea 217/2003 nu o delimitează ca facultativă.",
+      "article": "Art. I pct. 3 și Art. II pct. 1",
+      "quote": "d) accesul victimei în timp real la informațiile de localizare aproximativă ale agresorului prin intermediul dispozitivului electronic de supraveghere, inclusiv în lipsa unei alerte.",
+      "weight": 2
+    },
+    {
+      "text": "Redefinirea dispozitivului electronic obligă toate echipamentele să poată transmite localizarea aproximativă, putând bloca folosirea brățărilor actuale până la adaptare sau înlocuire.",
+      "article": "Art. I pct. 1 (art. 2 alin. (1) lit. f))",
+      "quote": "echipament hardware și, după caz, software, apt să transmită SIME, automat și sistematic, datele de localizare ale persoanei supravegheate, precum și informații de localizare aproximativă",
+      "weight": 2
+    },
+    {
+      "text": "Proiectul conține o eroare materială gravă la indicarea datei de republicare a Legii nr. 217/2003 în Monitorul Oficial, menționând anul imposibil «15 octombrie 2029».",
+      "article": "Art. II",
+      "quote": "Legea nr. 217/2003 pentru prevenirea și combaterea violenței domestice, republicată în Monitorul Oficial al României, Partea I, nr. 948 din 15 octombrie 2029, cu modificările ulterioare",
+      "weight": 1
+    },
+    {
+      "text": "Textul are mai multe greșeli de redactare și termeni greșiți în definiții și articole («dispositiv», «precizie metricală», «informațiile de localizarea»), ceea ce scade claritatea legii.",
+      "article": "Art. I pct. 1, 2 și 3",
+      "quote": "f) dispositiv electronic de supraveghere – echipament hardware și, după caz, software, apt să transmită SIME, automat și sistematic, datele de localizare ale persoanei supravegheate",
+      "weight": 1
+    }
+  ],
+  "fix": null,
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

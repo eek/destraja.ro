@@ -1,0 +1,89 @@
+{
+  "slug": "plx-420-2025",
+  "billId": "PL-x 420/2025",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-18T11:05:44.547Z",
+  "inputHash": "77cb9546417b",
+  "riskScore": 3,
+  "summary": "O lege utilă pentru transparența și echitatea justiției sportive, afectată însă de neclarități tehnice privind termenele, entitatea sancționată și intrarea în vigoare.",
+  "good": [
+    {
+      "text": "Obligă comisiile disciplinare sportive să citeze părțile și să le permită să își susțină și să își combată argumentele înainte de decizie.",
+      "article": "art. I pct. 1 (art. 47 lit. f)",
+      "quote": "soluționarea cererilor în materie disciplinară în condiții de contradictorialitate și numai după citarea părților.",
+      "weight": 3
+    },
+    {
+      "text": "Impune motivarea în scris în cel mult 30 de zile și comunicarea deciziilor disciplinare, din oficiu în apel și la cerere în primă instanță.",
+      "article": "art. I pct. 2 (art. 47¹ alin. (1)-(2))",
+      "quote": "Autoritățile disciplinare au obligația de a motiva hotărârile pronunțate în primă instanță la solicitarea părții interesate, iar cele pronunțate în calea de atac, se motivează din oficiu.",
+      "weight": 3
+    },
+    {
+      "text": "Cere publicarea pe internet a hotărârilor motivate, cu anonimizarea datelor personale, ceea ce crește transparența și protejează viața privată.",
+      "article": "art. I pct. 2 (art. 47¹ alin. (3))",
+      "quote": "Hotărârile motivate, prevăzute la alin.(1), se publică și pe pagina de internet a autorității disciplinare cu obligația anonimizării datelor cu caracter personal ale persoanelor fizice menționate în hotărâre.",
+      "weight": 2
+    },
+    {
+      "text": "Introduce amenzi de 2.000–6.000 lei pentru nemotivarea sau nepublicarea deciziilor, făcând regulile aplicabile fără sancțiuni disproporționate.",
+      "article": "art. I pct. 3-4 (art. 88 lit. q, art. 89 alin. (1) lit. g))",
+      "quote": "cu amendă de la 2000 lei la 6000 lei pentru persoanele juridice, faptele prevăzute la art.88 lit.q).",
+      "weight": 2
+    },
+    {
+      "text": "Stabilește că dosarele disciplinare aflate deja pe rol se judecă după regulile vechi, evitând schimbarea regulilor în timpul procedurii.",
+      "article": "art. II",
+      "quote": "Cererile în materie disciplinară care nu au fost soluționate în mod definitiv până la data intrării în vigoare a prezentei legi, se soluționează potrivit normelor legale în vigoare la data introducerii cererii la autoritatea disciplinară.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu fixează un termen până la care partea poate cere motivarea, dar lasă termenul de 30 de zile să curgă de la pronunțare, și nu stabilește nici termen de comunicare.",
+      "article": "art. I pct. 2 (art. 47¹ alin. (1)-(2))",
+      "quote": "Motivarea hotărârilor prevăzute la alin.(1) se face în termen de maximum 30 de zile de la pronunțarea soluției și se comunică părților interesate.",
+      "weight": 2
+    },
+    {
+      "text": "Amendează doar persoane juridice, deși obligația revine autorităților disciplinare (adesea comisii fără personalitate juridică), lăsând neclar cine răspunde.",
+      "article": "art. I pct. 3-4 (art. 88 lit. q, art. 89 alin. (1) lit. g))",
+      "quote": "cu amendă de la 2000 lei la 6000 lei pentru persoanele juridice, faptele prevăzute la art.88 lit.q).",
+      "weight": 2
+    },
+    {
+      "text": "Cere publicarea fără un termen limită pe «pagina de internet a autorității disciplinare», deși comisiile interne nu au site propriu separat de federație sau club.",
+      "article": "art. I pct. 2 (art. 47¹ alin. (3))",
+      "quote": "Hotărârile motivate, prevăzute la alin.(1), se publică și pe pagina de internet a autorității disciplinare cu obligația anonimizării datelor cu caracter personal ale persoanelor fizice menționate în hotărâre.",
+      "weight": 2
+    },
+    {
+      "text": "Formularea ambiguă a excepției («precum și prin completările aduse prin prezenta lege») face imposibil de stabilit clar dacă legea intră în vigoare la 30 sau la 90 de zile.",
+      "article": "art. III",
+      "quote": "cu excepția art.88 lit.q) din Legea educației fizice și sportului nr.69/2000, cu modificările și completările ulterioare, precum și prin completările aduse prin prezenta lege, care intră în vigoare la 90 de zile",
+      "weight": 2
+    },
+    {
+      "text": "Noua contravenție sancționează doar încălcarea regulilor de motivare și publicare (art. 47¹), nu și pe cea a citării și contradictorialității (art. 47 lit. f).",
+      "article": "art. I pct. 3 (art. 88 lit. q))",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Ar trebui stabilite termene clare pentru cererea de motivare, comunicare și publicarea pe site-ul federației ori clubului (art. 47¹) și precizat explicit că structura sportivă cu personalitate juridică din care face parte comisia răspunde contravențional (art. 89 alin. (1) lit. g)).",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

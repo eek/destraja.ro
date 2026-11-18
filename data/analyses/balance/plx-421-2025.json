@@ -1,0 +1,70 @@
+{
+  "slug": "plx-421-2025",
+  "billId": "PL-x 421/2025",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-18T11:05:42.975Z",
+  "inputHash": "182820fd2a3a",
+  "riskScore": 2,
+  "summary": "Un proiect util pentru transparența în sport, dar cu formulări incomplete privind protecția datelor, termenele și tipurile de sancțiuni.",
+  "good": [
+    {
+      "text": "Obligarea ANS să publice anual rapoartele de control și audit face verificările transparente și ajută la supravegherea banilor din sport.",
+      "article": "art. unic (art. 49 alin. (3))",
+      "quote": "Agenția Națională pentru Sport are obligația de a publica anual, pe pagina de internet proprie, rapoartele de control și audit întocmite la structurile sportive",
+      "weight": 3
+    },
+    {
+      "text": "Publicarea listei sancțiunilor cu motivul, data și suma aplicată descurajează abaterile și arată clar cum sunt sancționate neregulile.",
+      "article": "art. unic (art. 49 alin. (3))",
+      "quote": "lista sancțiunilor aplicate, indicând cel puțin denumirea persoanei juridice, motivul sancționării, data aplicării sancțiunii și cuantumul acesteia.",
+      "weight": 3
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea cere publicarea rapoartelor de control fără reguli de anonimizare, ceea ce poate expune date personale ale sportivilor, antrenorilor sau angajaților.",
+      "article": "art. unic (art. 49 alin. (3))",
+      "quote": "rapoartele de control și audit întocmite la structurile sportive",
+      "weight": 2
+    },
+    {
+      "text": "Publicarea „anual” nu are termen-limită clar, durată minimă de păstrare pe site și nici sancțiune dacă ANS nu respectă obligația.",
+      "article": "art. unic (art. 49 alin. (3))",
+      "quote": "Agenția Națională pentru Sport are obligația de a publica anual, pe pagina de internet proprie",
+      "weight": 2
+    },
+    {
+      "text": "Menționarea doar a „cuantumului” sancțiunii lasă neacoperite măsurile fără valoare în bani, cum sunt avertismentele, suspendările sau retragerile de finanțare.",
+      "article": "art. unic (art. 49 alin. (3))",
+      "quote": "denumirea persoanei juridice, motivul sancționării, data aplicării sancțiunii și cuantumul acesteia.",
+      "weight": 2
+    },
+    {
+      "text": "Lista sancțiunilor nu precizează dacă acestea sunt definitive sau contestate în instanță, riscând să afecteze imaginea unor cluburi care câștigă ulterior procesul.",
+      "article": "art. unic (art. 49 alin. (3))",
+      "quote": "lista sancțiunilor aplicate, indicând cel puțin denumirea persoanei juridice, motivul sancționării, data aplicării sancțiunii și cuantumul acesteia.",
+      "weight": 1
+    },
+    {
+      "text": "Obligația de publicare vizează toate structurile sportive, nu doar pe cele finanțate din bani publici, depășind scopul din expunerea de motive.",
+      "article": "art. unic (art. 49 alin. (3))",
+      "quote": "rapoartele de control și audit întocmite la structurile sportive",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Ar trebui introdusă obligația de anonimizare a datelor personale din rapoarte și stabilit un termen-limită calendaristic precis, cu durată de păstrare și răspundere pentru nepublicare.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

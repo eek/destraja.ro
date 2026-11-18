@@ -1,0 +1,64 @@
+{
+  "slug": "plx-746-2026",
+  "billId": "Pl-x 746/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-18T11:03:26.426Z",
+  "inputHash": "557d50a74fc2",
+  "riskScore": 2.3,
+  "summary": "Extindere corectă a accesului prin concurs la magistratură, afectată de o eroare de procedură constituțională și de formulări neclare.",
+  "good": [
+    {
+      "text": "Juriștii cu 5 ani vechime din AEP pot intra în magistratură doar prin concurs, îndeplinind aceleași condiții de integritate și fără locuri rezervate sau scutiri de probe.",
+      "article": "art. I",
+      "quote": "Pot fi numiți în magistratură, pe bază de concurs, dacă îndeplinesc condițiile prevăzute la art. 5 alin. (3)",
+      "weight": 2
+    },
+    {
+      "text": "CSM trebuie să actualizeze regulamentul de concurs la propunerea INM și să îl publice în Monitorul Oficial, păstrând regulile profesionale ale admiterii.",
+      "article": "art. II",
+      "quote": "Plenul Consiliului Superior al Magistraturii, la propunerea Institutului Național al Magistraturii, modifică în mod corespunzător Regulamentul privind concursul de admitere în magistratură",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea folosește formula pentru legi ordinare, deși modifică statutul magistraților, care cere lege organică și votul majorității absolute, riscând neconstituționalitatea.",
+      "article": "formula de adoptare",
+      "quote": "Aceasta lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.",
+      "weight": 3
+    },
+    {
+      "text": "Nu se precizează ce funcții din AEP sunt de specialitate juridică și nu se cere expres licența în drept, ceea ce poate duce la contestații privind înscrierea candidaților.",
+      "article": "art. I",
+      "quote": "persoanele care au îndeplinit funcții de specialitate juridică în aparatul Parlamentului, Administrației Prezidențiale, Guvernului, ministerelor, Curții Constituționale, Avocatului Poporului, Curții de Conturi, Consiliului Legislativ, Autorității Electorale Permanente",
+      "weight": 2
+    },
+    {
+      "text": "Alineatul este rescris integral în loc să fie completat punctual, riscând să șteargă din greșeală alte modificări aduse legii între timp.",
+      "article": "art. I",
+      "quote": "alineatul (1) se modifică și va avea următorul cuprins:",
+      "weight": 2
+    },
+    {
+      "text": "Termenul de 30 de zile pentru schimbarea regulamentului este scurt, nu are sancțiune dacă este depășit și nu clarifică ce se întâmplă cu concursurile aflate deja în desfășurare.",
+      "article": "art. II",
+      "quote": "În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Plenul Consiliului Superior al Magistraturii, la propunerea Institutului Național al Magistraturii, modifică",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Trebuie corectată formula de adoptare la art. 76 alin. (1) pentru lege organică și precizată expres condiția studiilor superioare juridice pentru funcțiile din AEP.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 6,
+    "verified": 6
+  }
+}

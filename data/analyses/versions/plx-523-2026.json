@@ -1,8 +1,28 @@
 {
   "slug": "plx-523-2026",
   "billId": "PL-x 523/2026",
-  "updatedAt": "2026-10-30T09:38:36.377Z",
+  "updatedAt": "2026-11-18T09:22:37.465Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L448FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Bonusuri anuale pentru angajații ANAF și ai Vămii, plus un procent de până la 3% din sumele mari recuperate",
+      "summaryTlDr": "Scopul este legitim: e un jalon PNRR, iar fluctuația de personal din ANAF și AVR este reală. Totuși, art. 6 leagă direct câștigul controlorilor de cuantumul sumelor impuse și încasate, iar textul este redactat neclar și delegă aproape tot mecanismul unor ordine și hotărâri de guvern.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,31 +56,42 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
-      "direction": "mai_putin_riscant",
-      "headline": "Camera a corectat trimiterea greșită privind indicatorii de care depinde tăierea salariului la ANAF și Vamă",
-      "summary": "Pe fond, aproape nimic nu s-a schimbat. Acum, tăierea salariului pentru calificativul „satisfăcător” trimite corect la indicatorii aprobați prin ordin al ministrului. Problemele mari rămân: primele de 3% neclare și conflictul de interese.",
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Stimulentele de 3% pentru inspectori se plătesc acum de la bugetul de stat, fără plafon clar",
+      "summary": "Acum bonusurile de până la 3% din sumele mari încasate vin de la bugetul de stat, iar regulile lor le stabilește șeful ANAF sau al Vămii, nu ministrul finanțelor. Scade controlul asupra banilor publici și crește tentația unor impuneri agresive.",
       "changes": [
         {
-          "title": "Trimiterea la indicatorii de performanță a fost corectată",
-          "text": "La art. 3 alin. (2), indicatorii a căror neîndeplinire atrage diminuarea salariului trimit acum la art. 1 alin. (1), nu la un alineat care nu stabilea niciun indicator.",
-          "effect": "mai_bine",
-          "major": false,
-          "article": "art. 3 alin. (2)",
-          "before": "nu realizează indicatorii de performanță stabiliți potrivit alin.(1) și obține calificativul „satisfăcător”",
-          "after": "nu realizează indicatorii de performanță stabiliți potrivit art. 1 alin. (1) și obține calificativul „satisfăcător”",
+          "title": "Bonusurile pentru sume mari, plătite de la bugetul de stat",
+          "text": "Art. 6 alin. (4): stimulentele de până la 3% nu mai vin din bugetele ANAF și Vămii, ci de la bugetul de stat. Nu e clar dacă intră în plafonul de 12% din art. 2.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 6 alin. (4)",
+          "before": "(4) Acordarea stimulentelor financiare potrivit dispozițiilor alin. (1) se realizează din bugetele Agenției Naționale de Administrare Fiscală, respectiv al Autorității Vamale Române, în limita de 3% din cuantumul creanțelor",
+          "after": "(4) Acordarea stimulentelor financiare potrivit dispozițiilor alin. (1) se realizează de la bugetul de stat, prin bugetul Agenției Naționale de Administrare Fiscală, respectiv al Autorității Vamale Române, în limita a 3% din cuantumul creanțelor",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Ordonanța abrogată este identificată prin Monitorul Oficial",
-          "text": "La art. 7 s-a adăugat datele de publicare ale OUG 132/2024. Abrogarea art. VIII rămâne neschimbată.",
+          "title": "Șefii ANAF și Vămii fac singuri regulile bonusurilor",
+          "text": "Art. 6 alin. (5): procedura nu mai e aprobată de ministrul finanțelor după regulile fondurilor speciale din Legea 500/2002, ci de președintele Agenției sau al Autorității.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 6 alin. (5)",
+          "before": "(5) Procedura și metodologia specifică de constituire a fondului din care se acordă stimulentele financiare se stabilesc și se aprobă prin ordin al ministrului finanțelor, cu respectarea prevederilor legale referitoare la fondurile speciale prevăzute de Legea nr. 500/2002",
+          "after": "(5) Procedura de acordare a stimulentelor financiare prevăzute la alin.(1) se aprobă prin ordin al președintelui Agenției, respectiv al Autorității.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Se precizează sursa de plată a recompenselor anuale",
+          "text": "Art. 2: se adaugă că recompensele anuale, plafonate la 12% din salariile de bază, se plătesc din bugetul Agenției, respectiv al Autorității.",
           "effect": "neutru",
           "major": false,
-          "article": "art. 7",
-          "before": "pentru modificarea și completarea unor acte normative, cu completările ulterioare, se abrogă.",
-          "after": "pentru modificarea și completarea unor acte normative, publicată în Monitorul Oficial al României, Partea I, nr. 1169 din 22 noiembrie 2024, cu completările ulterioare, se abrogă.",
+          "article": "art. 2",
+          "before": "nu poate depăși 12% din sumele prevăzute pentru cheltuielile cu salariile de bază în bugetul aprobat al Agenției, respectiv al Autorității, pentru anul respectiv.",
+          "after": "nu poate depăși 12% din sumele prevăzute pentru cheltuielile cu salariile de bază în bugetul aprobat pentru anul respectiv și se plătesc din bugetul Agenției, respectiv al Autorității.",
           "beforeAbsent": false,
           "afterAbsent": false
         }
@@ -68,84 +99,209 @@
       "remaining": {
         "problems": [
           {
-            "text": "Nu e clar dacă 3% se aplică întregii sume sau doar peste prag",
-            "major": true,
-            "article": "art. 6 alin. (4)"
-          },
-          {
-            "text": "Nu există plafon individual sau anual pentru primele pe dosare mari",
-            "major": true,
-            "article": "art. 6 alin. (4)"
-          },
-          {
-            "text": "Nu e clar dacă primele de 3% intră în plafonul de 12%",
-            "major": true,
-            "article": "art. 6 alin. (4)"
-          },
-          {
-            "text": "Șefii și juriștii care pledează în instanță primesc prime din sumele încasate",
-            "major": true,
-            "article": "art. 6 alin. (2)"
-          },
-          {
-            "text": "Pragul de un milion nu e precizat pe titlu, contribuabil sau dosar",
-            "major": true,
-            "article": "art. 6 alin. (1)"
-          },
-          {
-            "text": "Primele nu se restituie dacă titlul e desființat ulterior",
+            "text": "Pragul de un milion de euro: neclar dacă e per titlu, contribuabil sau dosar",
             "major": true,
             "article": "art. 6"
           },
           {
-            "text": "Indicatorii sunt lăsați pe seama ordinului ministrului, fără interdicții privind amenzile",
+            "text": "Neclar dacă dobânzile și penalitățile intră în baza de calcul a bonusului",
             "major": true,
-            "article": "art. 1 alin. (1), art. 5"
+            "article": "art. 6"
           },
           {
-            "text": "Calificativul „satisfăcător” aduce automat tăierea salariului, fără procedură sau apărare",
+            "text": "Nicio restituire a bonusului dacă titlul e desființat sau suma restituită",
+            "major": true,
+            "article": "art. 6"
+          },
+          {
+            "text": "Titlurile necontestate de firme fără resurse pot aduce bonusuri pentru impuneri discutabile",
+            "major": true,
+            "article": "art. 6 alin. (1)"
+          },
+          {
+            "text": "Neclar dacă stimulentele de la bugetul de stat intră în plafonul de 12%",
+            "major": true,
+            "article": "art. 2, art. 6"
+          },
+          {
+            "text": "Stimulentele nu au plafon absolut sau individual; impact bugetar imprevizibil",
+            "major": true,
+            "article": "art. 6 alin. (4)"
+          },
+          {
+            "text": "Diminuare salarială automată pentru „satisfăcător”, fără procedură disciplinară și apărare",
             "major": true,
             "article": "art. 3 alin. (2)"
           },
           {
-            "text": "Excluderea din bonus pentru „nu a contribuit” sau „abateri” nu are criterii",
+            "text": "Excludere pentru „nu a contribuit” sau abateri etice, fără criterii și constatare definitivă",
             "major": true,
             "article": "art. 4 lit. a), d)"
           },
           {
-            "text": "Pragul pentru prime coboară de la 10 la 1 milion euro și include Vama",
-            "major": true,
-            "article": "art. 7"
+            "text": "Trimitere circulară: alin. (1) nu stabilește indicatorii invocați",
+            "major": false,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Trimiterea la art. 485 alin. (7) lit. c) din Codul administrativ trebuie verificată",
+            "major": false,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Procedura bonusurilor, stabilită de șeful instituției, fără control ministerial",
+            "major": false,
+            "article": "art. 6 alin. (5)"
           }
         ],
         "good": [
           {
-            "text": "Recompensele depind de lipsa abuzurilor și viciilor de procedură în control",
-            "major": true,
-            "article": "art. 1 alin. (2) lit. f)"
-          },
-          {
-            "text": "Bonusurile anuale totale au plafon de 12% din salariile de bază",
+            "text": "Recompensele anuale au plafon total de 12% din cheltuielile cu salariile de bază",
             "major": true,
             "article": "art. 2"
           },
           {
-            "text": "Primele se calculează doar pe sume definitive și efectiv încasate",
+            "text": "Recompensele sunt condiționate de absența abuzurilor și viciilor de procedură",
+            "major": true,
+            "article": "art. 1 alin. (2) lit. f)"
+          },
+          {
+            "text": "Stimulentele se acordă doar pentru sume definitive și efectiv încasate",
             "major": true,
             "article": "art. 6 alin. (1), (4)"
           },
           {
-            "text": "Cine a fost sancționat disciplinar în acel an nu primește bonus",
-            "major": false,
+            "text": "Personalul sancționat disciplinar în anul respectiv nu primește recompense",
+            "major": true,
             "article": "art. 4 lit. b)"
           },
           {
-            "text": "Stimulentul pentru un caz excepțional se acordă o singură dată",
+            "text": "Stimulentul pentru un caz de performanță excepțională se acordă o singură dată",
             "major": false,
             "article": "art. 6 alin. (3)"
           },
           {
-            "text": "Trimiterea la indicatorii de performanță este acum corectă",
+            "text": "Indicatorii și criteriile se aprobă prin hotărâre de Guvern în 90 de zile",
+            "major": false,
+            "article": "art. 5"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 12,
+        "removed": 10,
+        "same": 0.59
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-18T09:22:08.217Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "S-a corectat doar trimiterea la indicatorii care duc la tăierea salariului; fondul legii rămâne același",
+      "summary": "Forma adoptată de Cameră corectează o trimitere greșită de la art. 3: indicatorii care pot duce la diminuarea salariului sunt acum cei aprobați prin ordin al ministrului. Celelalte diferențe sunt de formă. Riscurile din forma adoptată de Senat rămân.",
+      "changes": [
+        {
+          "title": "Clar ce indicatori duc la tăierea salariului",
+          "text": "La art. 3 alin. (2), trimiterea circulară la „alin.(1)” devine trimitere la art. 1 alin. (1), adică la indicatorii aprobați prin ordin al ministrului finanțelor. Sancțiunea automată rămâne.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 3 alin. (2)",
+          "before": "nu realizează indicatorii de performanță stabiliți potrivit alin.(1) și obține calificativul „satisfăcător”",
+          "after": "nu realizează indicatorii de performanță stabiliți potrivit art. 1 alin. (1) și obține calificativul „satisfăcător”",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu e clar dacă 3% se aplică la toată suma sau doar peste prag",
+            "major": true,
+            "article": "art. 6 alin. (4)"
+          },
+          {
+            "text": "Primele pe dosare mari nu au plafon individual și nu e clar dacă intră în 12%",
+            "major": true,
+            "article": "art. 6 alin. (4)"
+          },
+          {
+            "text": "Șefii și juriștii care pledează în instanță primesc bani din dosarele câștigate",
+            "major": true,
+            "article": "art. 6 alin. (2)"
+          },
+          {
+            "text": "Pragul de un milion nu e definit pe titlu, contribuabil sau dosar; accesorii neclare",
+            "major": true,
+            "article": "art. 6 alin. (1)"
+          },
+          {
+            "text": "Nu există restituirea primelor dacă titlul e desființat ulterior",
+            "major": true,
+            "article": "art. 6"
+          },
+          {
+            "text": "Pragul coboară de la 10 la 1 milion euro, extins și la Vamă",
+            "major": true,
+            "article": "art. 7"
+          },
+          {
+            "text": "Indicatorii sunt lăsați pe seama ordinului ministrului; amenzile pot deveni criteriu",
+            "major": true,
+            "article": "art. 1 alin. (1), art. 5"
+          },
+          {
+            "text": "Calificativul „satisfăcător” aduce tăierea salariului fără procedură disciplinară sau apărare",
+            "major": true,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Excluderea din bonus pentru „necontribuție” sau abateri de etică nu are criterii",
+            "major": true,
+            "article": "art. 4 lit. a) și d)"
+          },
+          {
+            "text": "Trimiterea la art. 485 alin. (7) lit. c) din Codul administrativ trebuie verificată",
+            "major": false,
+            "article": "art. 3 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Recompensele sunt condiționate de lipsa abuzurilor și a viciilor de procedură în control",
+            "major": true,
+            "article": "art. 1 alin. (2) lit. f)"
+          },
+          {
+            "text": "Stimulentele se dau doar pe sume definitive și efectiv încasate",
+            "major": true,
+            "article": "art. 6 alin. (1) și (4)"
+          },
+          {
+            "text": "Recompensele anuale au un plafon total de 12% din salariile de bază",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Legea proclamă principiile imparțialității și prevenirii conflictelor de interese",
+            "major": false,
+            "article": "art. 1 alin. (2) lit. e)"
+          },
+          {
+            "text": "Cei sancționați disciplinar în anul respectiv nu primesc recompense",
+            "major": false,
+            "article": "art. 4 lit. b)"
+          },
+          {
+            "text": "Stimulentele se acordă o singură dată, doar personalului activ în anul anterior",
+            "major": false,
+            "article": "art. 6 alin. (3)"
+          },
+          {
+            "text": "Indicatorii care atrag sancțiunea sunt acum identificați corect",
             "major": false,
             "article": "art. 3 alin. (2)"
           }
@@ -153,13 +309,13 @@
         "partial": false
       },
       "diff": {
-        "added": 20,
-        "removed": 19,
-        "same": 0.31
+        "added": 5,
+        "removed": 5,
+        "same": 0.83
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:38:22.498Z"
+      "schema": 4,
+      "updatedAt": "2026-11-18T09:22:37.465Z"
     }
   ]
 }

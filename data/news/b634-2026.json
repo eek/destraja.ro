@@ -2,11 +2,102 @@
   "slug": "b634-2026",
   "billId": "B634/2026",
   "checkedAt": "2026-11-16T09:55:40.539Z",
+  "indexCheckedAt": "2026-11-18T11:08:24.284Z",
   "models": {
     "agy": "ok",
     "claude": "ok",
-    "codex": "ok"
+    "codex": "ok",
+    "index": "ok"
   },
-  "articles": [],
+  "articles": [
+    {
+      "url": "https://www.puterea.ro/proiect-de-lege-micii-producatori-ar-putea-vinde-in-parcari-publice-si-private-doar-cu-certificatul-de-producator",
+      "title": "Micii producători ar putea vinde în parcări, fără taxe",
+      "outlet": "Puterea",
+      "domain": "puterea.ro",
+      "publishedAt": "2026-11-17",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Un proiect de lege înregistrat la Senat ar permite fermierilor cu activități de dimensiuni reduse să vândă în orice spațiu accesibil publicului, cu condiția să dețină un certificat valabil de producător.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-18",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-18",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.919,
+            "source": "national_news",
+            "sourceP": 0.654,
+            "about": 0.998,
+            "release": 0.053
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.843,
+            "source": "trade_press",
+            "sourceP": 0.262,
+            "about": 0.893,
+            "release": 0.223
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.97,
+            "source": "national_news",
+            "sourceP": 0.91,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.romaniatv.net/micii-producatori-vor-putea-sa-isi-vanda-produsele-in-parcari-publice-si-private-proiect_9923752.html",
+      "title": "Micii producători vor putea să își vândă produsele în parcări publice și private - Proiect",
+      "outlet": "România TV",
+      "domain": "romaniatv.net",
+      "publishedAt": "2026-11-17",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Un proiect de lege pentru completarea Legii nr. 145/2014 propune ca producătorii cu o cifră de afaceri anuală de până la 100.000 de euro să poată vinde produse agricole și alimentare în orice loc, inclusiv în parcări publice sau private deschise accesului public, în baza certificatului de producător valabil, potrivit agrointel.ro .",
+      "match": "quote",
+      "firstSeenAt": "2026-11-18",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-18",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "national_news",
+            "sourceP": 0.66,
+            "about": 0.997,
+            "release": 0.095
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.828,
+            "source": "national_news",
+            "sourceP": 0.55,
+            "about": 0.881,
+            "release": 0.321
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.94,
+            "source": "national_news",
+            "sourceP": 0.83,
+            "about": 0.99,
+            "release": 0.03
+          }
+        }
+      }
+    }
+  ],
   "pending": []
 }

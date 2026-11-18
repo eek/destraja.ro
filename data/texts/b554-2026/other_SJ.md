@@ -1,0 +1,21 @@
+# PARLAMENTUL ROMÂNIEI SENAT
+
+București 17.11.2026 Nr. 3552, 3554
+
+## Doamnei senator
+
+## RODICA CUȘNIR Președintele Comisiei pentru constituționalitate
+
+În temeiul prevederilor art.35 alin.(1) lit.e), a doua liniuță din Regulamentul Senatului, republicat, vă transmitem, alăturat, următoarele propuneri legislative, înregistrate la Biroul permanent al Senatului, în vederea întocmirii avizelor prin care urmează să stabiliți competența de dezbatere ca primă Cameră sesizată a acestor propuneri legislative:
+
+1\. Propunere legislativă pentru modificarea și completarea Legii învățământului preuniversitar nr.198/2023, în vederea acordării burselor de excelență olimpică (b552/07.10.2026)
+
+2\. Propunere legislativă pentru modificarea și completarea art.183 din Legea învățământului preuniversitar nr.198/2023 și pentru modificarea art.12 din anexa nr.I la Legea-cadru nr.153/2017 privind salarizarea personalului plătit din fonduri publice (b554/07.10.2026)
+
+Menționăm că, avizele Comisiei pentru constituționalitate vor fi supuse aprobării plenului Senatului, în cazul în care Camera Deputaților este competentă să dezbată propunerile legislative menționate în calitate de primă Cameră sesizată.
+
+Cu considerație,
+
+## p. PREȘEDINTELE SENATULUI
+
+MIHAI COTET

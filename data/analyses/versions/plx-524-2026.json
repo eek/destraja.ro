@@ -1,8 +1,28 @@
 {
   "slug": "plx-524-2026",
   "billId": "PL-x 524/2026",
-  "updatedAt": "2026-10-30T09:40:00.911Z",
+  "updatedAt": "2026-11-18T10:23:13.683Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L449FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Trei trepte noi de carieră pentru funcționarii publici, iar ANFP se ocupă și de personalul contractual",
+      "summaryTlDr": "Reformă tehnică cerută de PNRR, fără efecte directe pentru firme sau cetățeni: adaugă trei niveluri peste gradul „superior” și dă ANFP un rol și pentru personalul contractual. Riscurile rămân în interiorul administrației: accesul la promovare depinde de o notă 5/5 dată de evaluator, iar costul noilor grade nu e lămurit.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,15 +56,214 @@
   ],
   "changes": [
     {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Contractualii pot deveni funcționari publici prin transformarea posturilor, timp de 12 luni",
+      "summary": "Senatul a adăugat înregistrarea video a probelor de recrutare, reguli de tranziție (concursurile în curs continuă, gradele se păstrează) și reguli pentru concursurile locale. A introdus însă și numirea contractualilor ca funcționari publici prin transformarea posturilor.",
+      "changes": [
+        {
+          "title": "Contractualii devin funcționari prin transformarea posturilor",
+          "text": "Art. VI, nou: timp de 12 luni, prin excepție de la art. 464, angajații contractuali pe durată nedeterminată pot fi numiți funcționari publici prin transformarea posturilor.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. VI",
+          "before": null,
+          "after": "în termen de 12 luni de la data intrării în vigoare a prezentei legi, calitatea de funcționar public se poate dobândi și prin transformarea posturilor aferente personalului contractual în posturi aferente funcțiilor publice",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Probele de recrutare se filmează obligatoriu",
+          "text": "Anexa nr. 10, art. 126, nou: toate probele din etapa de recrutare, cu excepția verificării eligibilității, se înregistrează audio-video. Înregistrările pot fi folosite la suspiciuni de fraudă și la contestații.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "anexa nr. 10 art. 126",
+          "before": null,
+          "after": "Toate probele de concurs din etapa de recrutare, cu excepția probei de verificare a eligibilității candidaților, se înregistrează audio-video.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Experții și inspectorii fără control devin consilieri",
+          "text": "Art. II, nou: până la 1 ianuarie 2027, funcțiile de expert și inspector clasa I care nu au atribuții de inspecție și control se transformă în consilier, iar gradele profesionale se păstrează.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. II",
+          "before": null,
+          "after": "cu obligația să transforme funcțiile publice de expert, clasa I și de inspector, clasa I, care nu au prevăzute în fișa postului atribuții de inspecție și control, în funcții publice de consilier, clasa I, cu menținerea gradelor profesionale corespunzătoare pentru funcțiile publice ocupate.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Mandatul de viceprimar contează ca vechime",
+          "text": "Art. 152 alin. (9), nou: durata mandatului de viceprimar se socotește vechime în muncă și în specialitatea studiilor absolvite.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 152 alin. (9)",
+          "before": null,
+          "after": "(9) Durata mandatului viceprimarului constituie vechime în muncă și în specialitatea studiilor absolvite.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Promovarea la nivelul 2 abia din 2027",
+          "text": "Art. VII, nou: funcționarii își păstrează gradul profesional. Concursurile de promovare în gradul superior nivel 2 se pot organiza abia de la 1 ianuarie 2027.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. VII",
+          "before": null,
+          "after": "pot organiza concurs/examen de promovare în gradul profesional superior nivel 2 pentru funcționarii publici de execuție clasa I încadrați în grad profesional superior începând cu data de 1 ianuarie 2027.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Concursurile deja începute continuă după regulile vechi",
+          "text": "Art. IV, nou: concursurile notificate la ANFP înainte de intrarea în vigoare a legii, precum și mutările deja inițiate, se finalizează după regulile valabile la începutul lor.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. IV",
+          "before": null,
+          "after": "se desfășoară în continuare până la finalizarea acestora, în conformitate cu prevederile legale în vigoare la data demarării procedurii de concurs.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Șeful alege competența și dă nota 5/5 care decide dreptul de a candida",
+            "major": true,
+            "article": "art. 479 alin. (1¹), (1³)"
+          },
+          {
+            "text": "Contractualii pot deveni funcționari publici prin transformarea posturilor, fără concurs obișnuit",
+            "major": true,
+            "article": "art. VI"
+          },
+          {
+            "text": "Condițiile de 3 ani în grad și 1 an în instituție contrazic expunerea de motive",
+            "major": true,
+            "article": "art. 479 alin. (1²), (3)"
+          },
+          {
+            "text": "Baza plafoanelor de 20% și 8% e neclară; nu reiese dacă se cumulează",
+            "major": false,
+            "article": "art. 393 alin. (7)-(8)"
+          },
+          {
+            "text": "ANFP doar monitorizează contractualii, fără sancțiuni și fără coordonare cu Inspecția Muncii",
+            "major": false,
+            "article": "art. 401 alin. (5)"
+          },
+          {
+            "text": "Formulări diferite: „aceluiași domeniu” la detașare, „acelorași domenii” la transfer",
+            "major": false,
+            "article": "art. 505 alin. (12), art. 506 alin. (8²)"
+          },
+          {
+            "text": "Termenul de 30 septembrie 2026 trecuse deja la adoptarea din Senat",
+            "major": false,
+            "article": "art. III alin. (2)"
+          },
+          {
+            "text": "Erori de text: „secretului de serviciu și tea;”, „1)” în loc de „l)”",
+            "major": false,
+            "article": "art. 549¹, art. 553²"
+          }
+        ],
+        "good": [
+          {
+            "text": "Contractualii sunt supuși regimului incompatibilităților, conflictelor de interese și răspunderii disciplinare",
+            "major": true,
+            "article": "art. 550, art. 553²"
+          },
+          {
+            "text": "Adaptări obligatorii la concurs pentru candidații cu dizabilități",
+            "major": true,
+            "article": "anexa nr. 12 art. 55-61"
+          },
+          {
+            "text": "Contractualii pot refuza în scris semnarea documentelor pe care le consideră ilegale",
+            "major": true,
+            "article": "art. 553 alin. (3)"
+          },
+          {
+            "text": "Funcționarii își păstrează gradele, iar concursurile în curs continuă după regulile vechi",
+            "major": true,
+            "article": "art. IV, art. VII"
+          },
+          {
+            "text": "Probele de recrutare se înregistrează audio-video",
+            "major": false,
+            "article": "anexa nr. 10 art. 126"
+          },
+          {
+            "text": "Nota 5/5 nu intră în calificativul final",
+            "major": false,
+            "article": "art. 479 alin. (1⁴)"
+          },
+          {
+            "text": "Posturile de nivel superior care devin vacante revin la gradele obișnuite",
+            "major": false,
+            "article": "art. 393 alin. (6)"
+          },
+          {
+            "text": "Fără verificarea competențelor la mutarea în același domeniu funcțional",
+            "major": false,
+            "article": "art. 505 alin. (12), art. 506 alin. (8²)"
+          },
+          {
+            "text": "Contestații prin platformă și acces la contencios administrativ la concursurile locale",
+            "major": false,
+            "article": "anexa nr. 12 art. 45-52"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 788,
+        "removed": 107,
+        "same": 0.17,
+        "cut": 39,
+        "of": 145
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-18T10:22:08.641Z"
+    },
+    {
       "from": "senat",
       "to": "camera",
       "direction": "mai_riscant",
-      "headline": "Concursul pentru gradele superioare nu mai testează competențele generale; contează doar nota șefului",
-      "summary": "Acum concursul de promovare în nivelurile superioare 2-4 nu mai are probe pentru competențele generale, ci doar pentru cele specifice. Singurul filtru pentru competențele generale rămâne nota 5 dată de șeful direct. Restul schimbărilor sunt corecturi de formulare.",
+      "headline": "Administratorul public, scos din regulile de concurs; noile norme de concurs, amânate până la final de 2030",
+      "summary": "Acum administratorul public e scos din regulile de concurs și competențe ale personalului contractual. Noile norme de concurs se amână cu aproape doi ani. La promovarea în gradele superioare nu se mai testează competențele generale, deci contează mai mult nota dată de șef.",
       "changes": [
         {
-          "title": "Concursul de promovare nu mai testează competențele generale",
-          "text": "Art. 478 alin. (5): inițial concursul pentru nivelurile superioare 2-4 avea probe și pentru competențele generale. Acum are probe doar pentru cele specifice, deci contează mai mult nota dată de evaluatorul ierarhic.",
+          "title": "Administratorul public scos din regulile pentru contractuali",
+          "text": "Inițial, administratorul public era dat ca exemplu de personal contractual de specialitate. Acum regulile de concurs, promovare și competențe nu i se aplică, iar regimul lui rămâne cel din art. 244 (art. 539 alin. 10, art. 554¹ alin. 8).",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 539 alin. (2) lit. a) și alin. (10); art. 554¹ alin. (8)",
+          "before": "cum ar fi administratorul public, conducătorii serviciilor publice deconcentrate prevăzuți la art. 280 alin. (2) care nu sunt funcționari publici",
+          "after": "(10) Dispozițiile alin. (2) lit. a) și ale alin. (3)-(8) nu se aplică funcției de administrator public.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Noile reguli de concurs amânate până la final de 2030",
+          "text": "Anexa nr. 12, cu normele de organizare a concursurilor, intră în vigoare pe 31 decembrie 2030, nu pe 1 ianuarie 2029. Până atunci se prelungește regimul tranzitoriu din OUG nr. 121/2023 (art. 597 alin. 1 lit. m).",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 597 alin. (1) lit. m)",
+          "before": "m) prevederile anexei nr. 12 intră în vigoare la data de 1 ianuarie 2029.",
+          "after": "m) prevederile anexei nr. 12 intră în vigoare la data de 31 decembrie 2030.”",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "La promovare nu se mai testează competențele generale",
+          "text": "Examenele pentru nivelurile superioare 2-4 aveau probe suplimentare pentru competențele generale. Acum au probe doar pentru competențele specifice, deci accesul depinde mai mult de nota dată de evaluator (art. 478 alin. 5).",
           "effect": "mai_rau",
           "major": false,
           "article": "art. 478 alin. (5)",
@@ -54,113 +273,151 @@
           "afterAbsent": false
         },
         {
-          "title": "Se clarifică pentru cine gradul superior este plafonul",
-          "text": "Art. 393 alin. (2) lit. d) e reformulat. Acum spune clar că gradul superior este nivelul maxim doar pentru clasele II și III, nu și pentru clasa I.",
-          "effect": "mai_bine",
-          "major": false,
-          "article": "art. 393 alin. (2) lit. d)",
-          "before": "d) superior, ca nivel maxim pentru funcția publică de execuție, clasele II și III;",
-          "after": "d) superior; pentru funcția publică de execuție, clasele II și III gradul superior este nivelul maxim;",
+          "title": "Personalul contractual cu regim special, definit doar prin anexă",
+          "text": "Inițial, la art. 539 alin. (2) lit. f), ministerele de interne și apărare erau numite direct în text. Acum categoria se stabilește doar prin lista din anexa nr. 13, în care a fost adăugată Academia Oamenilor de Știință.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 539 alin. (2) lit. f); anexa nr. 13 art. 1",
+          "before": "f) personal contractual cu regim special reglementat de legislația specifică aplicabilă, încadrat la nivelul ministerelor cu atribuții în domeniul afacerilor interne și apărării, precum și în cadrul altor autorități și instituții publice prevăzute în anexa nr. 13.",
+          "after": "f) personal contractual cu regim special reglementat de legislația specifică aplicabilă, încadrat la nivelul autorităților și instituțiilor publice prevăzute în anexa nr. 13.",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Dispare precizarea „din maximum 5” la nota necesară",
-          "text": "Art. 479 alin. (1¹) cere în continuare nota 5 la competența generală. Doar mențiunea scalei „din maximum 5” a fost scoasă, iar condiția rămâne aceeași.",
+          "title": "ANRE trecută la personal contractual cu regim special",
+          "text": "Autoritatea Națională de Reglementare în Domeniul Energiei nu mai e printre autoritățile obligate să-și armonizeze cadrele de competențe (anexa 13 art. 2). Acum apare la cele cu personal contractual cu regim special (art. 1).",
+          "effect": "neutru",
+          "major": true,
+          "article": "anexa nr. 13 art. 1-2",
+          "before": "a) Autoritatea Națională de Reglementare în Domeniul Energiei;",
+          "after": "m)Autoritatea Națională de Reglementare în Domeniul Energiei.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Comisiile de concurs, constituite înainte de publicarea anunțului",
+          "text": "Un articol nou (art. IX) rescrie art. VII alin. (9) din OUG 121/2023. Comisiile de concurs și de contestații se constituie prin act al conducătorului, cel târziu la publicarea anunțului.",
           "effect": "neutru",
           "major": false,
-          "article": "art. 479 alin. (1¹)",
-          "before": "prin notarea sa cu nota/calificativul 5 din maximum 5, conform grilei de notare din anexa nr. 6¹.",
-          "after": "prin notarea sa cu nota/calificativul 5, conform grilei de notare din anexa nr. 6¹.",
-          "beforeAbsent": false,
+          "article": "art. IX",
+          "before": null,
+          "after": "(9) În vederea organizării și desfășurării concursurilor de recrutare, de la momentul înștiințării Agenției Naționale a Funcționarilor Publici, dar nu mai târziu de data publicării anunțului privind concursul în condițiile legii, se constituie comisii de concurs",
+          "beforeAbsent": true,
           "afterAbsent": false
         }
       ],
       "remaining": {
         "problems": [
           {
-            "text": "Accesul la concurs depinde de nota 5 dată de șeful direct",
-            "major": true,
-            "article": "art. 479 alin. (1¹), (1³)"
-          },
-          {
-            "text": "Competența notată e aleasă tot de evaluator, doar după consultarea funcționarului",
-            "major": true,
-            "article": "art. 479 alin. (1³)"
-          },
-          {
-            "text": "Nota e scoasă din calificativ; nu e clar dacă poate fi contestată",
-            "major": true,
-            "article": "art. 479 alin. (1⁴)"
-          },
-          {
-            "text": "Vechimea revine ca filtru: 3 ani în grad și un an în instituție",
-            "major": true,
-            "article": "art. 479 alin. (3), (1²)"
-          },
-          {
-            "text": "Plafoane 20% și 8%: baza de calcul și rotunjirea sunt neclare",
+            "text": "Baza plafoanelor de 20% și 8% e neclară, la fel rotunjirea",
             "major": true,
             "article": "art. 393 alin. (7)-(8)"
           },
           {
-            "text": "Concursul nu mai verifică competențele generale pentru nivelurile superioare 2-4",
-            "major": false,
-            "article": "art. 478 alin. (5)"
+            "text": "Accesul la promovare depinde de nota 5 dată de șeful direct",
+            "major": true,
+            "article": "art. 479 alin. (1¹), (1³)"
           },
           {
-            "text": "Formulări diferite: „aceluiași domeniu” la detașare, „acelorași domenii” la transfer",
-            "major": false,
-            "article": "art. 505 alin. (12), art. 506 alin. (8²)"
+            "text": "Nota de acces nu intră în calificativ; nu e clar dacă poate fi contestată",
+            "major": true,
+            "article": "art. 479 alin. (1⁴)-(1⁵)"
           },
           {
-            "text": "Greșeli de redactare: „va avea cu următorul cuprins”, „elaborază”, „clasa l”",
-            "major": false,
-            "article": "art. 393, art. 401 alin. (5)"
+            "text": "Vechimea de 3 ani în grad și un an în instituție revine ca filtru",
+            "major": true,
+            "article": "art. 479 alin. (3), (1²)"
           },
           {
-            "text": "Alineate plasate după ghilimelele de închidere ale textului citat",
+            "text": "Administratorul public e exceptat de la concurs și cadrele de competențe",
+            "major": true,
+            "article": "art. 539 alin. (10); art. 554¹ alin. (8)"
+          },
+          {
+            "text": "Probele de promovare nu mai verifică competențele generale, deși anexa 10 le cere",
             "major": false,
-            "article": "art. 539 alin. (10), art. 554¹ alin. (8)"
+            "article": "art. 478 alin. (5); anexa nr. 10 art. 157 alin. (3)"
+          },
+          {
+            "text": "Formulări diferite la detașare și transfer: „aceluiași domeniu”, „acelorași domenii”",
+            "major": false,
+            "article": "art. 505 alin. (12); art. 506 alin. (8²)"
+          },
+          {
+            "text": "Normele noi de concurs (anexa 12) se aplică abia din 31 decembrie 2030",
+            "major": false,
+            "article": "art. 597 alin. (1) lit. m)"
+          },
+          {
+            "text": "Nu e clar cine plătește deplasarea reprezentantului ANFP, din cauza termenului „acesteia”",
+            "major": false,
+            "article": "anexa nr. 12 art. 57 alin. (4)"
+          },
+          {
+            "text": "Rămân greșeli de redactare: „clasa l”, „elaborază”, „transparente”, „1)” în loc de „l)”",
+            "major": false,
+            "article": "art. 393 alin. (8); art. 401 alin. (5); art. 550 alin. (9)"
           }
         ],
         "good": [
           {
-            "text": "Nivelurile noi există doar la clasa I și revin la grad inferior la vacantare",
+            "text": "Gradele superioare noi, doar pentru clasa I, prin transformare, reversibile la vacantare",
             "major": true,
-            "article": "art. 393 alin. (4)-(6)"
+            "article": "art. 393 alin. (3)-(6)"
           },
           {
-            "text": "Mandatul viceprimarului se socotește vechime în muncă și în specialitate",
+            "text": "Mandatul de viceprimar contează ca vechime în muncă și în specialitate",
             "major": true,
             "article": "art. 152 alin. (9)"
           },
           {
-            "text": "Personalul contractual primește îndatoriri, reguli de incompatibilitate și răspundere disciplinară",
+            "text": "Incompatibilitatea constatată definitiv devine motiv de încetare pentru administratorul public",
             "major": true,
-            "article": "art. 549¹, art. 550, art. 553²"
+            "article": "art. 244 alin. (8) lit. c¹)"
           },
           {
-            "text": "Personalul contractual poate refuza în scris semnarea documentelor pe care le consideră ilegale",
+            "text": "Personalul contractual are îndatoriri, incompatibilități și răspundere disciplinară clar reglementate",
             "major": true,
-            "article": "art. 553 alin. (3)-(4)"
+            "article": "art. 549¹, 550, 553-553³"
           },
           {
-            "text": "Detașarea și transferul în același domeniu nu mai cer verificarea competențelor",
+            "text": "Contractualii de specialitate se angajează prin concurs, după normele funcționarilor publici",
+            "major": true,
+            "article": "art. 554¹ alin. (1)"
+          },
+          {
+            "text": "Plafoanele de 20% și 8% limitează inflația de grade superioare",
             "major": false,
-            "article": "art. 505 alin. (12), art. 506 alin. (8²)"
+            "article": "art. 393 alin. (7)-(9); art. 478 alin. (6)"
+          },
+          {
+            "text": "Detașarea și transferul în același domeniu nu mai cer reverificarea competențelor",
+            "major": false,
+            "article": "art. 505 alin. (12); art. 506 alin. (8²)"
+          },
+          {
+            "text": "Probele de concurs din etapa de recrutare se înregistrează audio-video",
+            "major": false,
+            "article": "anexa nr. 10 art. 126"
+          },
+          {
+            "text": "ANFP primește atribuții de gestiune și monitorizare pentru personalul contractual",
+            "major": false,
+            "article": "art. 401 alin. (5)"
           }
         ],
         "partial": true
       },
       "diff": {
-        "added": 356,
-        "removed": 370,
-        "same": 0.59
+        "added": 210,
+        "removed": 233,
+        "same": 0.77,
+        "cut": 3,
+        "of": 62
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:38:36.449Z"
+      "schema": 4,
+      "updatedAt": "2026-11-18T10:23:13.683Z"
     }
   ]
 }

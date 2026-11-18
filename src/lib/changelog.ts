@@ -28,6 +28,43 @@ export interface ChangeDay {
 
 export const CHANGELOG: ChangeDay[] = [
   {
+    date: '2026-11-18',
+    items: [
+      {
+        kind: 'nou',
+        title: 'Unde e proiectul acum și ce urmează',
+        text: 'Pe pagina fiecărui proiect de la Cameră, imediat sub descriere, vezi unde e acum (la comisii, pe ordinea de zi, adoptat, la Președinte, la Curtea Constituțională), ultimul pas cu data lui și ce urmează. Termenele spun ce fel de termene sunt: de procedură (raportul, amendamentele) sau doar programate, care se pot schimba. Nu ghicim date pe care fișa nu le are, cum e ziua în care legea ajunge la Președinte, și spunem când un termen a trecut fără pasul așteptat. Stadiul vine din fișa Camerei, citită zilnic, nu din lista Camerei, care rămânea uneori în urmă: un proiect adoptat apărea încă „cu raport”. Formularul pentru comisie dispare după ce comisia a terminat.',
+        link: { href: '/camera/plx-110-2026', label: 'Un exemplu: Pl-x 110/2026' },
+        shot: { id: '2026-11-18-unde-e-acum', alt: 'Pagina proiectului Pl-x 110/2026, cu secțiunea „Unde e acum”: Adoptat de Parlament, Camera Deputaților l-a adoptat pe 18 noiembrie 2026, cu voturile, și ce urmează: promulgarea.' },
+      },
+      {
+        kind: 'nou',
+        title: 'Jurnalul complet',
+        text: 'Sub lista de pe această pagină e acum jurnalul complet: toate schimbările de la lansare, nu doar cele importante, câte un rând pe zi și pe schimbare, inclusiv ce se schimbă în culise, la felul în care adunăm datele și facem analizele. Rândurile sunt rezumate automat, cu Gemini, din istoricul codului, care e public pe GitHub; fiecare are legătura la schimbarea din cod.',
+        link: { href: '/noutati#jurnal-complet', label: 'Jurnalul complet' },
+        shot: { id: '2026-11-18-jurnal', alt: 'Secțiunea „Jurnalul complet” de pe pagina Ce e nou, cu ziua de 18 noiembrie deschisă și schimbările ei, câte un rând.' },
+      },
+      {
+        kind: 'nou',
+        title: 'Mulțumiri celor care au ajutat',
+        text: 'O pagină nouă îi numește pe cei care au contribuit la site: codul pentru textul în vigoare al articolelor modificate, de pe legislatie.just.ro, un instrument care scrie punctul de vedere împreună cu cititorul și observațiile trimise pe GitHub. Mulțumim și cititorilor care semnalează greșeli. Pagina spune și cum poate ajuta oricine.',
+        link: { href: '/contributori', label: 'Mulțumiri' },
+        shot: { id: '2026-11-18-multumiri', alt: 'Pagina „Mulțumiri”, cu cei trei care au contribuit pe GitHub, ce a adus fiecare și legăturile la propuneri și cod.' },
+      },
+    ],
+  },
+  {
+    date: '2026-11-17',
+    items: [
+      {
+        kind: 'schimbat',
+        title: 'Cine face site-ul',
+        text: 'Unii cititori credeau că site-ul e anonim. Subsolul spune acum că destrajă.ro e făcut și întreținut de Radu-Sebastian Amarie, ca proiect civic, cu legătura spre Facebook pentru mesaje.',
+        shot: { id: '2026-11-17-subsol', alt: 'Subsolul site-ului, cu fraza „Făcut și întreținut de Radu-Sebastian Amarie, ca proiect civic” și legătura spre Facebook.' },
+      },
+    ],
+  },
+  {
     date: '2026-11-16',
     items: [
       {

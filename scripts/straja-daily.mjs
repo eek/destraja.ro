@@ -517,6 +517,8 @@ async function main() {
     }
 
     // Rezultatele pe e-mail pleacă după publicare, ca pagina să le arate deja.
+    // Jurnalul complet de pe /noutati: câte un rând în română pentru fiecare schimbare nouă din cod (Gemini).
+    await step('Jurnalul complet', 'node', ['scripts/straja-jurnal.mjs'], { timeoutMs: 1_800_000 });
     const reports = await step('Rapoarte', 'node', ['scripts/straja-reports.mjs', '--defer-notify'], { timeoutMs: 3_600_000 });
     const triaged = reports.tail.match(/✅ (\{.*\}) · în așteptare: (\{.*\})/);
     if (!reports.ok) fail('rapoartele au eșuat');

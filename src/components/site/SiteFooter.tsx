@@ -21,8 +21,11 @@ export default function SiteFooter({ syncedAt }: { syncedAt: string | null }) {
           </p>
           {/* Cine face site-ul: unii cititori credeau că e anonim. */}
           <p className="mt-3 max-w-sm text-sm leading-6 text-muted">
-            Făcut și întreținut de <strong className="font-semibold text-body">Radu-Sebastian Amarie</strong>, ca proiect civic. Pentru un mesaj, îi
-            poți scrie{' '}
+            Făcut și întreținut de <strong className="font-semibold text-body">Radu-Sebastian Amarie</strong>, ca proiect civic, cu ajutorul{' '}
+            <Link href="/contributori" className="font-semibold text-body underline underline-offset-4 hover:text-ink">
+              celor care au contribuit
+            </Link>
+            . Pentru un mesaj, îi poți scrie{' '}
             <a href="https://www.facebook.com/raduamarie" target="_blank" rel="noopener" className="font-semibold text-body underline underline-offset-4 hover:text-ink">
               pe Facebook
             </a>

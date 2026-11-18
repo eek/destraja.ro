@@ -6,8 +6,9 @@ import path from 'node:path';
 import type { Amendment, BalanceSummary, BillAmendments, BillAnalysis, BillVersions, CdepSigned } from './types';
 import { getBalanceSummary } from './balance';
 import { getMpContacts } from './mp-contacts';
-import { slugify } from './format';
+import { slugify, todayISO } from './format';
 import { stageOf, type StageKey } from './cdep-text';
+import { resolveStatus } from './bill-status';
 
 export type { StageKey };
 
@@ -203,7 +204,7 @@ export async function getCdepList(): Promise<CdepListItem[]> {
         ...row,
         an: registeredYear(row),
         senat: row.senat ?? bill?.senat,
-        stage: stageOf(row.stadiu),
+        stage: bill ? resolveStatus({ ...bill, stadiu: row.stadiu }, todayISO()).stage : stageOf(row.stadiu),
         cameraDecizionala: bill?.fisa.cameraDecizionala ?? null,
         initiator: bill ? initiatorLabel(bill.fisa) : null,
         raport: bill?.fisa.comisii?.raport.map((c) => c.nume) ?? [],
@@ -258,7 +259,7 @@ async function loadSigned(): Promise<CdepSigned[]> {
         slug: row.slug,
         officialTitle: row.titlu,
         stadiu: row.stadiu,
-        passed: ['lege', 'promulgare'].includes(stageOf(row.stadiu)),
+        passed: ['lege', 'promulgare'].includes(resolveStatus({ ...bill, stadiu: row.stadiu }, todayISO()).stage),
         textChange: last && last.direction !== 'la_fel' && last.to !== 'initiator' ? { direction: last.direction, after: last.to } : null,
         initiators: bill.fisa.initiatori.map((i) => ({
           name: i.nume,

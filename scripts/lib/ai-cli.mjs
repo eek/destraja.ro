@@ -63,10 +63,12 @@ skill_mcp_dependency_install = false
 `;
 
 export const MODEL_KEYS = ['agy', 'claude', 'codex'];
-// Modelul Gemini al analizelor: Hydrogen High din 13 noiembrie 2026 (înainte Argon High). Pe 12 proiecte, același prompt,
-// judecat orb de GPT 6.1 Sol, a avut cele mai puține greșeli și exagerări și a fost cel mai rapid (~/work/destraja-eval).
+// Modelul Gemini al analizelor: Neon High din 19 noiembrie 2026 (înainte Hydrogen High, din 13 noiembrie; înainte Argon High).
+// Pe 10 proiecte, cu tot textul, judecat orb de Claude și GPT 6.2 Sol: găsește mai mult decât Hydrogen (13 din 20 de
+// judecăți) și Argon (14 din 20), cu scoruri apropiate de ale celorlalte modele. Carbon găsește și mai mult, dar umflă
+// scorurile, greșește cel mai des și e de 4,5 ori mai lent (~/work/destraja-eval/models-2026-11/REPORT.md).
 // AGY_MODEL alege altul (`agy models`), pentru comparații între modele.
-export const AGY_MODEL = process.env.AGY_MODEL || 'gemini-4-hydrogen-high';
+export const AGY_MODEL = process.env.AGY_MODEL || 'gemini-4-neon-high';
 
 const AI_VM_FILE = path.join(ROOT_DIR, '.cache', 'ai-vm');
 const VM_HOST = 'destraja@192.168.153.10';

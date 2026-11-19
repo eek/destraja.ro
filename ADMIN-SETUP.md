@@ -1,4 +1,11 @@
-# Admin panel: setup steps awaiting approval
+# Admin panel: setup
+
+**Done on 2026-11-19** through the API: team `raduamarie.cloudflareaccess.com` (already existed, with the one-time PIN
+login), policy „destrajă admin: doar Radu, cu PIN” (id `8c150c5e-…`), app „destrajă admin” (id `afd9170b-…`) on
+`destraja.ro/admin` and `destraja.ro/api/admin`, 24 h sessions, and the three Worker secrets. Checked: both paths redirect
+to the Access login, `lastraja.ro/api/admin/*` answers 403, a forged JWT header doesn't get through. The same team also
+has two unrelated apps (Fir, Nea Bâțu atelier); leave them alone. The steps below are kept as the record of how.
+
 
 The `/admin/rapoarte` panel (branch `admin`) lists reader reports from D1. It lets you filter them, open one, and set its
 status and a private note. Nothing below has been run against the live account. Each step needs your yes.

@@ -2,7 +2,7 @@
   "billId": "Pl-x 682/2026",
   "slug": "plx-682-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-19T16:39:48.416Z",
+  "updatedAt": "2026-11-19T17:42:00.682Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -38,8 +38,8 @@
     "initiatorClaim": "Inițiatorii vor să transpună Directiva (UE) 2023/970 privind transparența salarială și directivele 2024/1499 și 2024/1500 privind organismele de egalitate, ca să reducă diferențele nejustificate de salariu dintre femei și bărbați și să întărească ANES și CNCD.",
     "realityCheck": "Art. I obligă toți angajatorii să afișeze salariul sau intervalul salarial înainte de interviu, le interzice să întrebe de salariul anterior și le impune să comunice la cerere salariile medii pe sexe. Angajatorii cu cel puțin 100 de lucrători trebuie să raporteze la ANES, iar la o diferență nejustificată de cel puțin 5% fac evaluări comune; amenzile sunt de 3–5 salarii minime, respectiv 5–10 la repetare. Art. IV rescrie însă și OG 137/2000 dincolo de directive: hărțuirea morală devine doar conduită intenționată, de lungă durată și bazată pe un criteriu discriminatoriu, art. 11 alin. (5) e reformulat ambiguu, iar CNCD capătă filtru de admisibilitate, excepții de competență, imunitate pentru Colegiul director și un rol diminuat în procese.",
     "affectedGroups": [
-      "Angajați & HR",
       "IMM & Antreprenori",
+      "Angajați & HR",
       "Justiție & Drepturi Civile",
       "Sănătate & Educație"
     ],
@@ -53,9 +53,40 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "error",
-      "durationMs": 6,
-      "error": "spawn E2BIG"
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 127943,
+      "sourceEndMarker": "SF-7B8FF3CC",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Transparență salarială cu „cal troian”: slăbește legea hărțuirii morale și dă imunitate CNCD",
+      "verdictShort": "Deși transpune o directivă europeană obligatorie și utilă privind transparența salariilor, proiectul strecoară pe furiș în Art. IV modificări grave la OG 137/2000 — amputând protecția împotriva hărțuirii morale la locul de muncă și extinzând selecția confesională la școli de stat. În plus, conține erori majore de redactare care fac neaplicabile chiar articole-cheie privind sarcina probei și termenele de răspuns.",
+      "initiatorClaim": "Inițiatorii susțin că proiectul transpune Directiva (UE) 2023/970 privind transparența salarială și Directivele (UE) 2024/1499 și 2024/1500 privind organismele de egalitate (ANES și CNCD), fără implicații financiare bugetare, pentru a elimina decalajul salarial de gen.",
+      "realityCheck": "Pe lângă regulile europene de transparență salarială (Art. I–III), Art. IV rescrie fără nicio mențiune în Expunerea de motive regimul hărțuirii morale din OG 137/2000 (cerând dovada intenției, durată lungă și criteriu de discriminare, și eliminând stresul/epuizarea fizică), permite oricărei școli confesionale de stat să refuze elevi pe motiv religios și acordă imunitate juridică membrilor Colegiului director CNCD. Totodată, obligă Guvernul să suplimenteze bugetul și posturile CNCD, contrazicând afirmația de „zero impact financiar”, și impune tuturor firmelor, inclusiv microîntreprinderilor, organizarea unui „compartiment/sistem de remunerare”.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație"
+      ],
+      "keyFindings": [
+        "Regres sever la hărțuirea morală la locul de muncă (Art. IV pct. 1–2): modifică art. 2 alin. (5^1) din OG 137/2000 cerând cumulativ conduită „de lungă durată”, „intenționată” și bazată pe un criteriu de discriminare de la art. 2 alin. (1), și abrogă art. 2 alin. (5^2) (stresul, epuizarea fizică și degradarea climatului de lucru). În prezent, legea protejează orice angajat indiferent de criteriu sau intenție — iar art. 2 alin. (5^7), neabrogat, spune exact opusul: „Intenția nu trebuie dovedită”.",
+        "Extinderea refuzului pe criteriu confesional la școli de stat (Art. IV pct. 3): art. 11 alin. (5) din OG 137/2000 permite acum refuzul înscrierii pe motiv de statut confesional doar în școlile „pentru pregătirea personalului de cult”; proiectul extinde excepția la orice „unitate ori instituție de învățământ confesional, de stat sau particular”, fără nicio justificare în expunerea de motive.",
+        "Imunitate juridică și filtru necontradictoriu la CNCD (Art. IV pct. 8 și 11): introduce imunitatea juridică a membrilor Colegiului director pentru opinii și acte îndeplinite în atribuții (art. 25 alin. 6^1), exclude expres din competența CNCD categorii precum deținuții sau actele personalului clerical (art. 20 alin. 1^1) și permite respingerea petițiilor fără citarea părților pentru „absența unor indicii minime” (art. 20 alin. 1^2–1^5).",
+        "Norme mutilate prin erori grave de redactare (Art. I art. 7 alin. 4 și art. 13 alin. 3): termenul în care angajatorul trebuie să clarifice datele salariale incomplete nu are cifră („în termen de zile lucrătoare”), iar regula răsturnării sarcinii probei în instanță are cuvinte lipsă care o fac neinteligibilă („lucrătorii, victime ale vor prezenta fapte... nu a avut loc principiului egalității”).",
+        "Suprareglementare pentru IMM-uri și sancțiuni (Art. I art. 4 alin. 1, art. 7, art. 20): obligă toți angajatorii (inclusiv microîntreprinderile) să organizeze un „compartiment/sistem de remunerare”, scurtează termenul de răspuns la cererile salariaților la 30 de zile lucrătoare (Directiva prevede 2 luni) și instituie amenzi ITM de 3–5 salarii minime brute (5–10 la repetare).",
+        "Contradicție în Codul Muncii privind confidențialitatea salariului (Art. II pct. 1 vs. pct. 6): noul art. 16 alin. (1^4) interzice necondiționat restricționarea prin CIM a divulgării salariului de către angajat, în timp ce noul art. 163 alin. (3) permite dezvăluirea doar „prin excepție” și strict în scopul egalității de gen, păstrând regula generală de confidențialitate."
+      ],
+      "blindSpotsCaught": "Proiectul lasă neatins art. 2 alin. (5^7) din OG 137/2000 („Intenția de a prejudicia... nu trebuie dovedită”), creând o antinomie directă cu noul art. 2 alin. (5^1) care cere fapte „intenționate”. Mai mult, Art. IV pct. 19 abrogă prin lege HG nr. 1194/2001 de organizare a CNCD fără norme tranzitorii, Art. II pct. 5 scrie „principiu legalității de tratament” în loc de „egalității”, Art. I art. 21(3) lit. a) și Art. IV pct. 10 (art. 22 alin. 5) trimit la alineate greșite/inexistente, iar Art. IV pct. 14 elimină citarea obligatorie a CNCD în instanțele de judecată.",
+      "constitutionalityNote": "Risc ridicat de neconstituționalitate pe trei paliere: (1) Art. 1 alin. (5) – lipsă gravă de claritate și previzibilitate prin termene fără număr de zile (art. 7 alin. 4), fraza trunchiată privind sarcina probei (art. 13 alin. 3), trimiteri greșite și contradicția frontală dintre art. 2 alin. (5^1) și alin. (5^7) din OG 137/2000; (2) Art. 138 alin. (5) – Expunerea de motive neagă impactul financiar și nu indică sursa de finanțare, deși Art. IV pct. 16 (art. 29 alin. 3) obligă Guvernul să suplimenteze bugetul și numărul de posturi ale CNCD; (3) Art. 16 și Art. 32 – restrângerea accesului în unități de învățământ confesional de stat pe criteriu religios.",
+      "euLawNote": "Termenele de transpunere ale Directivei (UE) 2023/970 (7 iunie 2026) și ale Directivelor (UE) 2024/1499 și 2024/1500 (19 iunie 2026) sunt deja depășite, expunând România la infringement. Totuși, transpunerea din proiect este viciată: eroarea de redactare de la art. 13 alin. (3) compromite transpunerea art. 18 din Directiva 2023/970 (sarcina probei), obligația de „compartiment” de la art. 4 alin. (1) adaugă gold-plating inutil pentru IMM-uri, iar excluderile largi din competența CNCD (ex. deținuți) și limitarea acțiunii în justiție a CNCD doar la acte administrative (art. 19 alin. 3) pot intra în conflict cu standardele de eficacitate ale Directivelor 2024/1499 și 2024/1500. Directivele (UE) 2018/958 (profesii reglementate) și (UE) 2015/1535 (TRIS) nu sunt incidente.",
+      "senatForm": {
+        "articleRef": "ART. IV pct. 1, 2, 3 și 11 (modif. OG 137/2000)",
+        "proposalContent": "Eliminarea pct. 1, 2, 3 și 11 din ART. IV, menținând forma în vigoare a art. 2 alin. (5^1) și (5^2) privind hărțuirea morală, a art. 11 alin. (5) din OG 137/2000 privind învățământul pentru pregătirea personalului de cult și renunțând la imunitatea juridică a membrilor Colegiului director CNCD (art. 25 alin. 6^1).",
+        "argumentation": "Aceste modificări nu au legătură cu Directivele UE 2023/970, 2024/1499 sau 2024/1500 și nu sunt justificate în expunerea de motive. Art. IV pct. 1-2 reduc grav protecția angajaților contra hărțuirii morale, cerând intenție (contradictoriu cu art. 2 alin. 5^7) și criteriu de discriminare. Pct. 3 permite refuzul elevilor în școli confesionale de stat.",
+        "otherComments": "Corectați și viciile din Art. I-II: completați numărul de zile lipsă la art. 7(4), refaceți fraza mutilată despre sarcina probei la art. 13(3), clarificați art. 4(1) ca IMM-urile să nu facă „compartiment” separat, corectați „legalității” în „egalității” la art. 159(5) Codul Muncii și solicitați fișă financiară pentru suplimentarea bugetului CNCD."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
@@ -151,7 +182,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-19T16:39:48.416Z",
+      "replacedAt": "2026-11-19T17:42:00.682Z",
       "reasons": [
         "metoda"
       ]

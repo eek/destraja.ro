@@ -1,7 +1,7 @@
 {
   "billId": "B553/2026",
   "slug": "b553-2026",
-  "updatedAt": "2026-11-19T16:49:30.496Z",
+  "updatedAt": "2026-11-19T17:37:59.811Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -30,7 +30,7 @@
     "key": "f651f158125273e3"
   },
   "consensus": {
-    "riskScore": 6,
+    "riskScore": 5.7,
     "riskLevel": "yellow",
     "plainTitle": "Reducere de până la 5% la impozitul pe casă, teren și mașină pentru cei care au votat la toate alegerile",
     "summaryTlDr": "Proiectul este redactat cu grijă la protecția datelor, dar transformă prezența la vot într-o condiție fiscală. Cine lipsește la un singur tur pierde bonificația ani la rând, iar statul ajunge să țină un registru nominal al celor care nu au votat.",
@@ -52,9 +52,39 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "error",
-      "durationMs": 3275,
-      "error": "cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 41m54s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 41m54s.\",\"status\":\"RESOURCE_EXHAUSTED\","
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 94215,
+      "sourceEndMarker": "SF-348F3636",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Reducere de până la 5% la impozitele locale pentru cei care merg la toate alegerile",
+      "verdictShort": "O inițiativă cu intenție civică și garanții GDPR atent redactate, dar afectată de paradoxuri juridice, efecte fiscale regresive și un mecanism birocratic greu de susținut. Crearea unei baze naționale AEP–STS cu istoricul prezenței la vot pe 9–10 ani și verificarea manuală a fiecărui refuz pot genera costuri și blocaje disproporționate față de o bonificație locală facultativă de maximum 5%.",
+      "initiatorClaim": "Inițiatorul susține că bonificația suplimentară de până la 5% va încuraja participarea constantă la toate tipurile de alegeri, va stimula plata anticipată a impozitelor locale până la 31 martie și va atenua presiunea fiscală asupra persoanelor fizice, respectând autonomia locală și secretul votului.",
+      "realityCheck": "În prezent, Codul fiscal permite deja consiliilor locale să acorde o bonificație de până la 10% pentru plata anticipată (art. 462, 467, 472), iar Legea nr. 208/2015 limitează datele din Registrul electoral „exclusiv proceselor electorale” (art. 29 alin. 2). Proiectul adaugă până la 5% suplimentar (plafon cumulat 15%), dar rupe scopul exclusiv electoral al registrului pentru a construi o infrastructură AEP–STS costisitoare, impune o regulă „totul sau nimic” fără excepții medicale sau de forță majoră și cere depunerea anuală a unei cereri. Deși bonificația e facultativă pentru primării și se aplică abia după viitoarele alegeri post-operaționalizare, efectul este regresiv și creează blocaje operaționale la AEP.",
+      "affectedGroups": [
+        "Proprietari & Imobiliare",
+        "Șoferi & Auto",
+        "Contabili & Fiscalitate",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Extinderea scopului Registrului electoral (Art. II pct. 1–2): față de legea actuală, unde datele din art. 29 alin. (2) al Legii nr. 208/2015 sunt destinate „exclusiv proceselor electorale”, proiectul permite prelucrarea lor fiscală și constituirea unei baze centrale AEP–STS cu evidența participării la vot păstrată pe tot ciclul electoral plus 5 ani de la 1 iulie al anului următor (până la 9–10 ani, conform art. 110¹ alin. 15).",
+        "Paradoxul eligibilității „totul sau nimic” (Art. I pct. 4, art. 489³ alin. 7–8): absența la un singur scrutin (inclusiv din cauze medicale sau forță majoră, nereglementate ca excepții) anulează bonificația până la 5 ani; în schimb, persoanele fără drept de vot la niciun scrutin de referință — inclusiv cele cu interdicție judecătorească definitivă de la alin. (7) lit. d) — sunt considerate automat eligibile.",
+        "Blocaj administrativ și costuri necuantificate (art. 110¹ alin. 5, 17 și Art. IV alin. 3): legea interzice comunicarea unui rezultat negativ exclusiv automatizat, obligând personalul AEP să verifice manual fiecare refuz și să confrunte listele electorale fizice, în timp ce dezvoltarea și operarea sistemului IT (AEP și STS) nu au impact financiar estimat, trimițând generic la creditele bugetare anuale.",
+        "Efect regresiv și inegalitate teritorială (art. 489³ alin. 1, 11–12): reducerea procentuală (până la 5%, cumulată până la 15% cu bonificația actuală de 10%) oferă economii mult mai mari în sumă absolută proprietarilor de imobile și vehicule scumpe din localități bogate, în timp ce chiriașii și locuitorii din UAT-uri fără resurse nu primesc nimic pentru același vot."
+      ],
+      "blindSpotsCaught": "Coroborarea art. 489³ alin. (7) lit. d) cu alin. (8) produce o anomalie gravă: o persoană căreia i s-a interzis dreptul de vot prin hotărâre judecătorească definitivă pe durata scrutinurilor de referință îndeplinește automat condiția de participare electorală completă, pe când un alegător internat în spital în ziua votului pierde bonificația până la următorul scrutin din aceeași categorie. Totodată, art. 110¹ alin. (5) și (17) obligă AEP la verificări manuale și pe liste fizice înainte de fiecare răspuns „neeligibil”, riscând blocarea fluxului fiscal în trimestrul I, iar art. 489³ alin. (23) încarcă primăriile cu verificarea ajutorului de stat/de minimis pentru bunurile persoanelor fizice folosite în activități economice.",
+      "constitutionalityNote": "Proiectul ridică tensiuni serioase cu art. 16 alin. (1) și art. 56 alin. (2) din Constituție (egalitatea și justa așezare a sarcinilor fiscale), deoarece diferențiază sarcina fiscală în funcție de comportamentul electoral, acordă avantaje absolute mai mari averilor mari și tratează mai favorabil persoanele interzise judecătorește de la vot decât cetățenii împiedicați obiectiv să voteze. Legarea unei reduceri de impozit de exercitarea votului introduce o presiune financiară indirectă asupra libertății votului (art. 36), care include și dreptul la abținere. Deși garanțiile privind secretul votului și viața privată (art. 26) sunt bine structurate, stocarea multianuală de 9–10 ani și absența sursei concrete de finanțare (art. 138 alin. 5, deși s-a solicitat fișa financiară a Guvernului) necesită corecții.",
+      "euLawNote": "Pe Regulamentul (UE) 2016/679 (GDPR), proiectul include garanții apreciabile (răspuns binar către primării, interzicerea profilării, DPIA, consultare ANSPDCP, intervenție umană în spiritul art. 22), dar crearea unei baze centralizate cu istoricul participării electorale păstrate până la 9–10 ani în scop fiscal necesită o justificare strictă de proporționalitate și limitare a scopului (art. 5 alin. 1 lit. b, c, e). Art. 489³ alin. (9) respectă corect drepturile cetățenilor UE la europarlamentare, iar alin. (23) semnalează corect incidența normelor privind ajutorul de stat (art. 107 TFUE) pentru bunurile utilizate economic. Directivele (UE) 2018/958 și (UE) 2015/1535 (TRIS) nu sunt incidente, serviciul electronic fiind unul exclusiv public-administrativ.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 4 (art. 489³) și Art. II pct. 2",
+        "proposalContent": "La art. 489³ alin. (8), eliminați eligibilitatea automată a persoanelor cu interdicție judecătorească de vot și introduceți excepții pentru forță majoră sau cauze medicale. La art. 110¹ alin. (15) și (17), reduceți stocarea datelor electorale și limitați verificarea manuală AEP la cazurile contestate de contribuabil.",
+        "argumentation": "Textul creează un paradox contrar art. 16 din Constituție: persoanele fără drept de vot prin hotărâre judecătorească pot deveni eligibile, iar absenții din motive medicale pierd bonificația până la 5 ani. În plus, verificarea manuală a fiecărui refuz blochează AEP în trimestrul I, iar păstrarea datelor 9-10 ani depășește proporționalitatea GDPR.",
+        "otherComments": "Solicităm obținerea fișei financiare a Guvernului (art. 138 alin. 5 Constituție) și a avizului ANSPDCP înainte de adoptare, pentru a verifica dacă investiția IT și costurile AEP/STS se justifică pentru o bonificație facultativă de max. 5%. Evaluați și efectul regresiv al reducerii procentuale în raport cu art. 56 alin. (2) din Constituție."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
@@ -150,7 +180,7 @@
         "codex": 6
       },
       "corrections": 0,
-      "replacedAt": "2026-11-19T16:49:30.496Z",
+      "replacedAt": "2026-11-19T17:37:59.811Z",
       "reasons": [
         "reluare"
       ]

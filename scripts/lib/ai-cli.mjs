@@ -363,7 +363,8 @@ export function extractJsonFromText(raw = '') {
 // stream-json): la fiecare parte modelul răspunde doar „ok”, iar cerința e în ultima. Testat pe 18 noiembrie 2026: un
 // text de 400.000 de caractere în 4 părți a ajuns întreg (modelul a găsit un cuvânt de la final). Limitele sunt în
 // octeți UTF-8 ai mesajului serializat, nu în caractere: diacriticele ocupă câte doi.
-const AGY_SINGLE_BYTES = 140_000;
+// Un singur mesaj pleacă ca argument (-p): pe Linux un argument are cel mult 128 KiB (MAX_ARG_STRLEN), altfel spawn E2BIG.
+const AGY_SINGLE_BYTES = 120_000;
 const AGY_PART_BYTES = 100_000;
 const agyMessage = (content) => JSON.stringify({ event: 'user', message: { role: 'user', content } });
 

@@ -2,7 +2,7 @@
   "billId": "PL-x 100/2026",
   "slug": "plx-100-2026",
   "version": "senat",
-  "updatedAt": "2026-11-19T16:47:59.603Z",
+  "updatedAt": "2026-11-19T17:42:01.092Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,7 +31,7 @@
     "key": "74151768db4e7df8"
   },
   "consensus": {
-    "riskScore": 4,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
     "plainTitle": "Ordonanța-omnibus din sănătate: ghiduri medicale date colegiilor, răspundere pentru malpraxis extinsă, angajări scoase de sub înghețare",
     "summaryTlDr": "Multe măsuri sunt utile: spitalul răspunde și pentru medicii colaboratori, rezidențiatul se simplifică, iar înghețarea posturilor nu mai blochează sănătatea și 112. Însă statul cedează colegiilor profesionale controlul asupra ghidurilor și al experților din malpraxis, iar textul are norme trunchiate și o motivare a urgenței pentru măsuri care nici nu apar în ordonanță.",
@@ -39,9 +39,9 @@
     "realityCheck": "Ordonanța e în vigoare din 19.12.2025, iar legea doar o aprobă fără modificări, cum a făcut tacit Senatul. Mecanic, Ministerul Sănătății pierde avizul pe ghiduri și aprobarea listei de experți din malpraxis, iar ambele trec la colegii, care prin lege apără și interesele membrilor lor. La pachet vin și măsuri fără legătură cu titlul: o suspendare din Legea-cadru a salarizării valabilă pentru tot sectorul public în 2026 (art. VII) și o derogare de la Legea finanțelor publice expirată deja la 24.12.2025 (art. IX).",
     "affectedGroups": [
       "Sănătate & Educație",
-      "Justiție & Drepturi Civile",
       "Angajați & HR",
-      "Toți cetățenii"
+      "Justiție & Drepturi Civile",
+      "IMM & Antreprenori"
     ],
     "senatForm": {
       "articleRef": "Art. I pct. 8 (art. 199¹ din Legea 95/2006)",
@@ -53,9 +53,41 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "error",
-      "durationMs": 19,
-      "error": "spawn E2BIG"
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 131396,
+      "sourceEndMarker": "SF-29B6E6E0",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Ordonanța-omnibus din sănătate: reforme utile la rezidențiat și malpraxis, dar cu portițe la ANDIS, angajări și legi necorelate",
+      "verdictShort": "OUG nr. 84/2025 aduce măsuri benefice pentru pacienți și rezidenți, dar ascunde chichițe de guvernanță, derogări fiscale nejustificate și necorelări majore. Adoptarea tacită la Senat face obligatorii amendamentele în Camera Deputaților.",
+      "initiatorClaim": "Guvernul susține că ordonanța deblochează actualizarea ghidurilor medicale, protejează pacienții în cazurile de malpraxis, modernizează rezidențiatul, salvează cabinetele de medicină de familie și asigură continuitatea serviciilor medicale și a apelurilor 112 fără impact bugetar.",
+      "realityCheck": "Pe lângă măsuri reale și utile (răspunderea solidară a clinicilor pentru medicii colaboratori, termene stricte pentru certificatele de specialist, recunoașterea examenelor europene), actul este un «trenuleț» care strecoară suspendarea interdicției cumulului pensie-salariu în tot sistemul bugetar (Art. VII) și derogări la finanțele publice (Art. IX), elimină interdicția de prelungire a interimatelor la ANDIS (Art. V) și omite din excepția de la înghețarea angajărilor spitalele aflate în subordinea autorităților locale (Art. VI). Mai mult, statutul de utilitate publică pentru medicii de familie — justificat pe larg în preambul — lipsește complet din articolele legii.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "IMM & Antreprenori",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Interimate nelimitate la ANDIS (Art. V): elimină teza care interzicea prelungirea mandatului interimar de 6 luni pentru președintele și vicepreședintele agenției care gestionează investițiile în spitale, deschizând calea numirilor temporare succesive fără concurs.",
+        "Excepție discriminatorie și ambiguă la blocarea angajărilor (Art. VI): permite deblocarea prin memorandum a posturilor din spitalele Ministerului Sănătății și ale ministerelor cu rețea proprie, dar omite spitalele din subordinea primăriilor și consiliilor județene; la 112/STS (alin. 15) formulează ambiguu «poate ocupa posturile vacante» fără a menționa expres concursul.",
+        "Acapararea dublei competențe de către colegiile profesionale (Art. I pct. 1, 9, 10, 12): CMR și CMSR preiau exclusiv avizarea ghidurilor medicale (fără MS) și aprobarea listei experților de malpraxis, deși prin lege au misiunea de a apăra interesele membrilor lor; sancțiunile pentru experții care refuză cazurile, promise în expunerea de motive, lipsesc din text.",
+        "Măsuri-fantomă și pasageri clandestini: preambulul motivează urgența prin recunoașterea cabinetelor de medicină de familie ca entități de utilitate publică, dar nu există niciun articol pe acest subiect; în schimb, Art. VII suspendă în 2026 interdicția cumulului pensie-salariu pentru toți bugetarii, iar Art. IX derogă de la Legea finanțelor publice până la 24 decembrie 2025.",
+        "Impact bugetar declarat «zero» în mod nerealist (Art. I pct. 7): stabilește salariul de bază pentru asistentul medical-șef/coordonator la nivelul maxim de studii superioare și vechime plus 20% (indiferent de vechimea reală), dar Secțiunea a 4-a a expunerii de motive este goală.",
+        "Măsuri pozitive de păstrat: extinderea răspunderii solidare a spitalelor/clinicilor și pentru medicii cu contract de prestări servicii PFI/SRL (Art. I pct. 11), termenele de 5+3 zile lucrătoare pentru eliberarea titlului de specialist și asimilarea examenelor europene (Art. II), precum și exceptarea rezidențiatului și a integrării clinice de la înghețarea posturilor (Art. VI alin. 13)."
+      ],
+      "blindSpotsCaught": "Art. IV elimină plafonul de o oră/zi în ambulatoriul integrat (Art. III din Legea nr. 163/2025), lăsând programul exclusiv la decizia managerului, însă chiar la 12 zile după OUG nr. 84/2025 Guvernul a rescris din nou Art. III din Legea nr. 163/2025 prin OUG nr. 91/2025 (MO nr. 1223/31.12.2025); aprobarea necorelată riscă blocaj legislativ. De asemenea, Art. I pct. 2 (art. 92¹) lasă autorizarea ambulanțelor private la mâna unui ordin comun MAI–MS fără criterii legale, deși MAI coordonează SMURD (operator public concurent), iar Art. III mută integral decizia și criteriile de transfer al spitalelor CFR la o comisie din Ministerul Transporturilor, fără prioritatea Ministerului Sănătății invocată în expunerea de motive.",
+      "constitutionalityNote": "Probleme serioase față de art. 115 alin. (4) (lipsa motivării urgenței pentru Art. VII și Art. IX; motivare fictivă în preambul pentru medicii de familie, absenți din text), art. 1 alin. (5) privind calitatea și previzibilitatea legii (caracter «omnibus», delegări în alb către ordine de ministru la art. 92¹ și Art. III, paralelism legislativ între art. 185 alin. 2 și 2¹, ambiguitatea de la Art. VI alin. 15), art. 138 alin. (5) (lipsa fișei financiare și a sursei de finanțare pentru majorarea salarială din Art. I pct. 7) și art. 16 alin. (1) (omiterea spitalelor autorităților locale din Art. VI alin. 14). Proiectul a trecut tacit de Senat (art. 115 alin. 5 teza a III-a).",
+      "euLawNote": "Directiva (UE) 2018/958 privind testul de proporționalitate nu a fost evaluată în expunerea de motive (Secțiunea 5.3 este goală), deși transferul exclusiv al ghidurilor de practică și al listei experților de malpraxis către organismele profesionale (Art. I pct. 1, 9, 10, 12) și regimul separat al rezidenților militari (Art. II pct. 5) ating reglementarea profesiilor. Co-reglementarea autorizării ambulanțelor private de către MAI (operatorul SMURD) prin Art. I pct. 2 ridică riscuri de distorsionare a concurenței pe piața serviciilor, iar permisiunea perpetuării interimatului la ANDIS (Art. V) vulnerabilizează guvernanța investițiilor PNRR. Pozitivă pentru mobilitatea în UE (Directiva 2005/36/CE) este asimilarea punctajelor de la examenele europene (Art. II pct. 2). Directiva TRIS (UE) 2015/1535 nu este incidentă.",
+      "senatForm": {
+        "articleRef": "Art. V și Art. VI din OUG nr. 84/2025",
+        "proposalContent": "La Art. V, se reintroduce teza: „Perioada maximă de 6 luni nu poate fi prelungită.” La Art. VI alin. (14), se includ expres și unitățile sanitare publice din subordinea autorităților administrației publice locale. La Art. VI alin. (15), se precizează expres ocuparea posturilor „prin concurs sau examen, în condițiile legii”.",
+        "argumentation": "Eliminarea interdicției de prelungire la ANDIS permite interimatul perpetuu peste investițiile din sănătate. Omiterea spitalelor din subordinea autorităților locale din excepția de la blocarea angajărilor creează discriminare față de majoritatea spitalelor publice. La alin. (15) trebuie precizat clar concursul sau examenul.",
+        "otherComments": "Solicităm corelarea Art. IV cu OUG nr. 91/2025 (care a modificat deja art. III din Legea 163/2025), introducerea unei fișe financiare reale (art. 138 alin. 5 Constituție) pentru Art. I pct. 7 și garanții de imparțialitate privind lista experților de malpraxis (art. 680) și normele pentru ambulanțe (art. 92¹)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
@@ -154,7 +186,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-19T16:47:59.603Z",
+      "replacedAt": "2026-11-19T17:42:01.092Z",
       "reasons": [
         "metoda"
       ]

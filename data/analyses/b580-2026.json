@@ -1,7 +1,7 @@
 {
   "billId": "B580/2026",
   "slug": "b580-2026",
-  "updatedAt": "2026-11-19T16:49:17.004Z",
+  "updatedAt": "2026-11-19T17:37:51.061Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -30,7 +30,7 @@
     "key": "b6fc12eedb561977"
   },
   "consensus": {
-    "riskScore": 4.5,
+    "riskScore": 5,
     "riskLevel": "yellow",
     "plainTitle": "Un nou „Avocat al Poporului” doar pentru azile, centre și alte servicii sociale",
     "summaryTlDr": "Ideea e utilă: un mediator independent între furnizorii de servicii sociale și autorități, cu recomandări neobligatorii. Partea care contează însă stă la art. 24–26, unde obligațiile procedurale impuse ISU, DSP, ANPIS și celorlalte autorități de control, sancționate cu nelegalitatea actului și formulate cu praguri vagi, pot întârzia închiderea unor servicii nesigure.",
@@ -52,9 +52,38 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "error",
-      "durationMs": 3020,
-      "error": "cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 42m16s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 42m16s.\",\"status\":\"RESOURCE_EXHAUSTED\","
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 83461,
+      "sourceEndMarker": "SF-24D0F043",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Un nou „Avocat” bugetar pentru furnizorii de servicii sociale și frâne procedurale la închiderea centrelor",
+      "verdictShort": "Deși urmărește un obiectiv legitim — evitarea închiderilor bruște ale centrelor sociale din blocaje birocratice — proiectul creează o nouă instituție bugetară fără fișă financiară și introduce obligații procedurale care pot bloca în instanță sancțiunile organelor de control (ISU, DSP, ANPIS).",
+      "initiatorClaim": "Inițiatorii susțin în Expunerea de Motive că furnizorii publici și privați de servicii sociale se confruntă cu întârzieri, interpretări neunitare și blocaje administrative (precum autorizația ISU, lipsă la 1.043 din 5.384 de servicii în octombrie 2024), fiind necesară o autoritate autonomă dedicată bunei administrări și continuității îngrijirii beneficiarilor.",
+      "realityCheck": "În practică, legea înființează o autoritate autonomă nouă (35 de posturi, rang de secretar/subsecretar de stat, cost estimat orientativ la 7 mil. lei/an fără fișă financiară) ale cărei recomandări sunt neobligatorii (art. 23 alin. 4). Cel mai puternic efect mecanic nu vine din instituție, ci din art. 24–27: orice autoritate (inclusiv ISU, DSP, ANSVSA) trebuie să realizeze în scris o evaluare medico-socială a impactului asupra beneficiarilor și să ofere minimum 10 zile lucrătoare pentru punct de vedere înainte de suspendarea/închiderea unui serviciu, lipsa evaluării atrăgând nelegalitatea actului în contencios administrativ.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Justiție & Drepturi Civile",
+        "IMM & Antreprenori",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 24–27 și art. 1 alin. (3) lit. b): Obligă inclusiv autoritățile tehnice (securitate la incendiu, sanitar, siguranță alimentară) să întocmească o evaluare scrisă privind situația medicală, relațiile familiale și alternativele de relocare ale beneficiarilor (art. 25), iar lipsa acestei evaluări devine expres motiv de nelegalitate în contencios administrativ (art. 24 alin. 4), cu excepția nedefinită a unui „pericol imediat și grav”.",
+        "Art. 39 alin. (2), art. 44 și art. 49 alin. (2): Creează o autoritate administrativă autonomă nouă cu până la 35 de posturi (inclusiv demnitari) și buget propriu estimat orientativ la 7 milioane lei anual, fără a anexa fișa financiară impusă de Legea nr. 500/2002 și recunoscând chiar în nota de la final că cifrele sunt orientative.",
+        "Art. 51 (completarea Legii contenciosului administrativ nr. 554/2004): Introduce art. 1 alin. (3^1) și art. 7^1 fără a prelua mecanismele existente la art. 1 alin. (3) pentru Avocatul Poporului — nu stabilește dacă furnizorul devine de drept reclamant, nu cere însușirea acțiunii la primul termen și nu fixează instanța competentă teritorial.",
+        "Art. 50 (completarea Legii asistenței sociale nr. 292/2011): Introduce art. 38^1, cu caracter preponderent declarativ, consacrând dreptul furnizorilor la tratament administrativ legal și proporțional și dreptul de a sesiza noua instituție, fără a-i exonera de standardele de calitate."
+      ],
+      "blindSpotsCaught": "Trei detalii subtile ies în evidență: (1) Textul depus la Senat conține la final o secțiune „Notă:” cu observații interne de redactare rămase neșterse (inclusiv „De verificat în forma consolidată a Legii nr. 554/2004 că numerotările alin. (3^1) de la art. 1 și art. 7^1 nu sunt deja ocupate”), alături de erori materiale („valuează”, „depuis”, „integranță”). (2) Art. 7^1 este introdus în Legea nr. 554/2004 imediat după articolul dedicat procedurii prealabile, deși nu reglementează scutirea de procedura prealabilă, ci doar repetă art. 32 din proiect, lăsând neclar riscul de litispendență între acțiunea noii instituții și cea a furnizorului. (3) Inconsecvență la integritate: art. 8 lit. e) blochează numirea doar pentru infracțiuni cu intenție, dar art. 10 alin. (1) lit. e) și alin. (3) prevăd încetarea/suspendarea mandatului pentru orice infracțiune (inclusiv din culpă).",
+      "constitutionalityNote": "Există riscuri serioase de neconstituționalitate din două direcții: (1) Art. 138 alin. (5) și art. 111 alin. (1) din Constituție — proiectul generează cheltuieli bugetare permanente (estimate la 7 mil. lei/an) fără fișă financiară și cu o trimitere generică la Legea nr. 500/2002 pentru primul an (art. 49 alin. 2), practică sancționată constant de CCR; (2) Art. 1 alin. (5) privind claritatea și previzibilitatea legii — nedefinirea „pericolului imediat și grav” (art. 24, 27), atribuirea de evaluări medico-sociale unor autorități fără competență legală în domeniu sub sancțiunea nulității actului, lacunele procedurale din art. 51 (Legea 554/2004), temeiul vag de revocare (art. 10 alin. 2) și notele de lucru rămase în textul normativ. Formal, înființarea ca autoritate autonomă prin lege organică respectă art. 117 alin. (3) și art. 76 alin. (1), dar suprapunerea practică pe protecția beneficiarilor necesită o delimitare mai strictă față de rolul constituțional al Avocatului Poporului (art. 58–60).",
+      "euLawNote": "Proiectul nu reglementează servicii ale societății informaționale sau reguli tehnice de produs (Directiva (UE) 2015/1535 – TRIS nu este incidentă) și nu introduce restricții noi privind accesul la profesii reglementate (Directiva (UE) 2018/958 privind testul de proporționalitate nu este declanșată). Totuși, apar două puncte sensibile de drept UE: (1) RGPD (Regulamentul (UE) 2016/679, art. 9) — art. 25 obligă autorități de control fără profil medical (ISU, ANSVSA) să colecteze, să consemneze în scris și să comunice furnizorului date privind „situația medicală relevantă” a beneficiarilor vulnerabili, fără garanții și temeiuri specifice dincolo de o trimitere generală la art. 45; (2) Concurență și echitate pe piața serviciilor sociale — termenele obligatorii de conformare (min. 30 de zile, art. 26 alin. 2) și frânele la suspendare pot crea avantaje de facto pentru operatorii economici neconformi (art. 16 lit. e)) în raport cu furnizorii care au suportat costurile de autorizare.",
+      "senatForm": {
+        "articleRef": "Art. 24-27, art. 49 alin. (2) și art. 51",
+        "proposalContent": "1. Definirea „pericolului imediat și grav” (art. 24-27) și atribuirea evaluării de impact social doar autorităților cu competență socială, nu ISU/DSP. 2. Corelarea art. 51 cu art. 1 alin. (3) din Legea 554/2004 (calitate procesuală, însușirea acțiunii, competență). 3. Eliminarea secțiunii „Notă:” din finalul textului.",
+        "argumentation": "Sancționarea cu nelegalitate (art. 24 alin. 4) a lipsei evaluării medicale/sociale cerute organelor tehnice (ISU, ANSVSA) riscă să anuleze controale esențiale. Omiterea regulilor de calitate procesuală și competență la art. 51, față de art. 1 alin. (3) din Legea 554/2004, afectează claritatea legii (art. 1 alin. 5 Constituție).",
+        "otherComments": "Lipsește fișa financiară prevăzută de Legea nr. 500/2002 (impact estimat la 7 mil. lei/an, 35 posturi), generând risc de neconstituționalitate pe art. 138 alin. (5). Merită evaluată alternativ o structură dedicată la Avocatul Poporului, în locul unei noi autorități autonome, și corectarea erorilor materiale din text."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
@@ -146,7 +175,7 @@
         "codex": 5
       },
       "corrections": 0,
-      "replacedAt": "2026-11-19T16:49:17.004Z",
+      "replacedAt": "2026-11-19T17:37:51.061Z",
       "reasons": [
         "reluare"
       ]

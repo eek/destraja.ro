@@ -2,7 +2,7 @@
   "billId": "PL-x 306/2026",
   "slug": "plx-306-2026",
   "version": "senat",
-  "updatedAt": "2026-11-19T16:47:05.709Z",
+  "updatedAt": "2026-11-19T17:42:07.258Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,7 +31,7 @@
     "key": "cf7bcda49ff678fd"
   },
   "consensus": {
-    "riskScore": 4.5,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
     "plainTitle": "Șomaj și locuri de muncă subvenționate: primă de 27.000 lei pentru tinerii NEET, condiții mai stricte la stimulente",
     "summaryTlDr": "Este în mare parte o lege utilă și tehnică, care corelează Legea 76/2002 cu economia socială și cu fondurile UE 2021–2027 și introduce o primă reală pentru tinerii NEET. Sub eticheta de «extindere» se ascund însă și restrângeri: pragul de vârstă crește de la 45 la 50 de ani, intervalul până la pensie scade de la 5 la 2 ani, iar prima NEET se restituie integral și cu interdicție de 24 de luni după demisie.",
@@ -40,8 +40,8 @@
     "affectedGroups": [
       "Angajați & HR",
       "IMM & Antreprenori",
-      "Contabili & Fiscalitate",
-      "Justiție & Drepturi Civile"
+      "Justiție & Drepturi Civile",
+      "Contabili & Fiscalitate"
     ],
     "senatForm": {
       "articleRef": "Art. I pct. 15 – art. 76^5 alin. (5) L. 76/2002",
@@ -53,9 +53,38 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "error",
-      "durationMs": 11,
-      "error": "spawn E2BIG"
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 135549,
+      "sourceEndMarker": "SF-D8866A9D",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Prima de 27.000 lei pentru tinerii NEET, dar cu tăieri ascunse pentru 45+ și capcane la demisie",
+      "verdictShort": "Aprobarea OUG 11/2026 aduce măsuri utile (primă de stabilitate pentru tineri, sprijin pentru victime ale violenței domestice, debirocratizare), dar ascunde tăieri majore pentru șomerii de peste 45 de ani și cei aproape de pensie, plus capcane juridice grave pentru angajații care demisionează.",
+      "initiatorClaim": "Guvernul susține că OUG este necesară de urgență pentru a adapta Legea 76/2002 la fondurile europene 2021–2027, a introduce prima de stabilitate de 27.000 lei pentru tinerii NEET, a sprijini economia socială și a preveni abuzurile cu subvențiile de ocupare.",
+      "realityCheck": "Pe lângă facilitățile anunțate, textul taie silențios subvenția de angajare pentru persoanele între 45 și 50 de ani (prag ridicat la 50 de ani) și scurtează de la 5 ani la doar 2 ani perioada de subvenționare înainte de pensie, reducând totodată plafonul asigurării facultative de șomaj de la 5 salarii medii la 5 salarii minime. În plus, tinerii NEET riscă să returneze integral prima de până la 27.000 lei chiar dacă schimbă locul de muncă în 60 de zile, iar șomerii angajați prin subvenții care demisionează sunt excluși 24 de luni de la măsuri similare.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Contradicție directă în art. 76^5: alin. (4) promite tinerilor NEET păstrarea primei de stabilitate (27.000 lei) dacă schimbă angajatorul în 60 de zile, dar alin. (5) îi obligă să restituie integral toți banii dacă încetează contractul prin demisie sau acordul părților în sub 24 de luni, fără excepție pentru alin. (4) sau pentru abuzurile angajatorului.",
+        "Tăieri neanunțate sau minimizate pentru lucrătorii maturi: art. 85 alin. (5) taie fereastra de subvenționare a angajării înainte de pensie de la 5 ani la 2 ani (modificare complet omisă din secțiunea 2.3 a Expunerii de motive), art. 85 alin. (1) urcă pragul de vârstă de la 45 la 50 de ani, iar art. 22 alin. (2) înjumătățește practic plafonul venitului asigurat facultativ (de la 5x câștigul salarial mediu brut la 5x salariul minim brut).",
+        "Sancțiune disproporționată la demisie (art. 95 alin. (1^1a)-(1^1b)): persoanele angajate prin măsuri de stimulare care demisionează nu mai pot accesa astfel de măsuri timp de 24 de luni de la reînregistrare; excepția pentru «încălcări grave» ale angajatorului cere o hotărâre judecătorească definitivă sau un act definitiv al organelor abilitate, practic imposibil de obținut în timp util.",
+        "Discriminare de gen în art. 85 alin. (1): noua subvenție lunară de 2.250 lei se acordă angajatorilor exclusiv pentru «mame» șomere cu cel puțin 3 copii minori în întreținere, excluzând tații șomeri aflați în exact aceeași situație.",
+        "Măsuri pozitive reale: eliminarea reînnoirii cererii la 6 luni (art. 61 alin. 2), 180 de zile fără penalități la restituirea voluntară a indemnizațiilor necuvenite (art. 47 alin. 4), extinderea protecției victimelor violenței domestice cu 12 luni după expirarea ordinului de protecție (art. 16 lit. g), sprijin pentru întreprinderile sociale de inserție (art. 93^4) și servicii online până la 31.12.2026 (art. 54 alin. 2)."
+      ],
+      "blindSpotsCaught": "Tăierea subvenției pentru angajarea șomerilor aflați înainte de pensie de la 5 ani la 2 ani (art. 85 alin. 5) lipsește complet din secțiunea «Schimbări preconizate» a Expunerii de motive, deși explică economia imediată de 72,5 mil. lei din primul an. De asemenea, art. 93^4 alin. (1) elimină plafonarea subvenției la nivelul salariului de bază (fixând-o la 4x ISR), ceea ce poate depăși salariul la normă parțială, iar textul are erori materiale evidente (pct. 16 modifică lit. b dar o notează «c)», art. II alin. 1 scrie «prezentei legi» în loc de «ordonanțe de urgență», art. V e trunchiat).",
+      "constitutionalityNote": "Probleme serioase pe patru paliere: (1) Art. 115 alin. (4) — lipsa urgenței reale, proiectul fiind pus în consultare încă din 07.11.2025 și adoptat ca OUG abia pe 05.03.2026 pentru politici structurale multianuale; (2) Art. 16 alin. (1) — discriminare directă pe criteriu de sex prin limitarea subvenției la «mame» cu 3+ copii; (3) Art. 1 alin. (5) — impredictibilitate din contradicția art. 76^5 alin. (4)-(5), termenul nedefinit «încălcări grave» (art. 95 alin. 1^1b) și erorile de redactare; (4) Art. 138 alin. (5) — fișa financiară lasă goale rubricile privind sursa de finanțare, deși estimează cheltuieli suplimentare la BAS de 398–720 mil. lei/an din anul 2.",
+      "euLawNote": "Directiva (UE) 2018/958 (profesii reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente (art. 54 alin. 2 vizează doar digitalizarea serviciilor publice proprii ale ANOFM). Totuși, limitarea subvenției din art. 85 alin. (1) exclusiv la «mame» contravine legislației UE privind egalitatea de gen la ocupare (Directiva 2006/54/CE, art. 21/23 Carta UE), iar extinderea subvenției de 4x ISR pe până la 3 ani (plus 2 ani post-contract) către întreprinderile sociale de inserție fără avizul Consiliului Concurenței și fără plafon de salariu de bază riscă neconformitatea cu regulile UE privind ajutoarele de stat (GBER / Regulamentul 651/2014). Corectarea art. 85^2 la Regulamentul (UE) 2021/1060 este conformă.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 15 (art. 76^5 alin. (5))",
+        "proposalContent": "La art. 76^5 alin. (5), se adaugă o teză finală: «Obligația de restituire nu se aplică în situația prevăzută la alin. (4), precum și în cazul demisiei determinate de neîndeplinirea obligațiilor de către angajator, potrivit art. 81 alin. (8) din Legea nr. 53/2003, sau al încetării în condițiile art. 95 alin. (1^1b).»",
+        "argumentation": "Alin. (4) permite tinerilor NEET să schimbe angajatorul în 60 de zile păstrând prima, dar alin. (5) impune restituirea integrală (până la 27.000 lei) la demisie sau acordul părților, fără excepție pentru alin. (4) ori abuzul angajatorului. Contradicția încalcă art. 1 alin. (5) din Constituție și creează risc de captivitate profesională.",
+        "otherComments": "Corectați și: 1) art. 85(1) — «părinți» în loc de «mame» cu 3+ copii (art. 16 Constituție); 2) art. 85(5) — reanalizați tăierea subvenției prepensionare de la 5 la 2 ani; 3) art. 95(1^1b) — eliminați cerința hotărârii definitive; 4) erorile de redactare la art. I pct. 16 (lit. c în loc de b), art. II(1) și art. V."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
@@ -155,7 +184,7 @@
         "codex": 5
       },
       "corrections": 0,
-      "replacedAt": "2026-11-19T16:47:05.709Z",
+      "replacedAt": "2026-11-19T17:42:07.258Z",
       "reasons": [
         "metoda"
       ]

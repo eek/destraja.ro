@@ -2,7 +2,7 @@
   "billId": "PL-x 215/2026",
   "slug": "plx-215-2026",
   "version": "senat",
-  "updatedAt": "2026-11-19T16:47:54.198Z",
+  "updatedAt": "2026-11-19T17:41:50.207Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,7 +31,7 @@
     "key": "02bab598733415cd"
   },
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 5.3,
     "riskLevel": "yellow",
     "plainTitle": "Datele publice ale băncilor ajung pe portalul european ESAP, iar Senatul a adăugat reguli noi pentru acționarii din privatizarea în masă",
     "summaryTlDr": "Partea de transpunere ESAP este tehnică, utilă și benignă. Riscul vine din Art. VII, adăugat fără legătură cu directiva: campanii zilnice obligatorii la TV și radio publice pe banii emitenților, sume din fracțiuni de acțiuni devenite imprescriptibile printr-o formulare confuză și o trimitere greșită în Art. IX.",
@@ -40,8 +40,8 @@
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
-      "IT & AI",
-      "Toți cetățenii"
+      "Toți cetățenii",
+      "IT & AI"
     ],
     "senatForm": {
       "articleRef": "Art.VII pct.3 (Legea 24/2017, art.91 alin.5¹-5²)",
@@ -53,9 +53,36 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "error",
-      "durationMs": 18,
-      "error": "spawn E2BIG"
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 119511,
+      "sourceEndMarker": "SF-4DC9B4C3",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Transpunere UE pentru date financiare (ESAP), „încărcată” la Senat cu reclame obligatorii la TVR și Radio România pentru firmele listate",
+      "verdictShort": "Partea de bază a legii este o transpunere tehnică necesară a Directivei UE ESAP, dar Senatul a lipit de ea modificări la Legea 24/2017 care impun companiilor listate campanii publicitare imposibile și costisitoare exclusiv la TVR și Radio România, plus obligații nefinanțate pentru CNA și erori grave de redactare.",
+      "initiatorClaim": "Guvernul a inițiat proiectul în procedură de urgență exclusiv pentru a transpune Directiva (UE) 2023/2864 (Directiva ESAP), al cărei termen a expirat la 10 ianuarie 2026, desemnând BNR, ASF și CNSM ca organisme de colectare pentru Punctul Unic de Acces European ce va deveni operațional din 2030.",
+      "realityCheck": "Articolele I–VI și VIII transpun corect obligațiile ESAP (raportări în format electronic cu metadate și cod LEI din 10 ianuarie 2030). Însă la Senat au fost introduse fără consultare publică Art. VII și Art. IX, complet străine de ESAP: ele modifică Legea nr. 24/2017, obligând orice firmă listată care are acționari „cuponari” din anii '90 să difuzeze zilnic, timp de 2 săptămâni, la ore de maximă audiență, începând chiar de a doua zi după aprobare, spoturi exclusiv la TVR și Radio România ori de câte ori un eveniment corporativ generează fracțiuni de acțiuni, și impunând ASF și CNA campanii naționale fără sursă de finanțare.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Monopol publicitar forțat și termen imposibil (Art. VII pct. 3 – art. 91 alin. 5¹ din Legea nr. 24/2017): orice emitent cu acționari din Programul de Privatizare în Masă (marea majoritate a firmelor listate, inclusiv IMM-uri de pe AeRO) trebuie să difuzeze zilnic, minimum 2 săptămâni, la ore de maximă audiență, materiale audio, video și grafice exclusiv prin televiziunea și radioul public (TVR și SRR), începând din ziua imediat următoare aprobării evenimentului corporativ — practic imposibil în 24 de ore și fără plafon de costuri sau prag de materialitate.",
+        "Obligații nefinanțate pentru CNA și erori grave de redactare (Art. VII pct. 2–3 și Art. IX): art. 91 alin. (5²) obligă CNA (finanțat de la bugetul de stat) și ASF la campanii naționale privind evenimente corporative fără studiu de impact sau sursă de finanțare; art. 91 alin. (5) elimină prescripția de 3 ani introdusă recent prin Legea nr. 238/2025 pentru compensarea fracțiunilor de acțiuni, dar scrie absurd „acțiunile având asupra lor drept de proprietate” (în loc de „acționarii”); iar Art. IX trimite eronat la „art. VII, pct. 4” (consolidarea valorii nominale) în loc de „art. VII, pct. 5” (deținătorii PPM din art. 91¹).",
+        "Transpunerea ESAP (Art. I–VI și VIII) este tehnică și necesară: desemnează BNR, ASF și CNSM ca organisme de colectare pentru ESAP începând cu 10 ianuarie 2030 și extinde sancțiunile sectoriale existente (inclusiv din OUG 98/2006 art. 46 și Legea 233/2022 art. 48 alin. 2 lit. l) la nerespectarea obligațiilor de transmitere în format ESAP."
+      ],
+      "blindSpotsCaught": "În afara „calului troian” legislativ adăugat la Senat (Art. VII și IX într-un proiect de urgență pur european, fără consultare publică și fără avizul Consiliului Legislativ sau CES pe aceste articole), însăși fișa oficială a Camerei Deputaților conține o eroare gravă de obiect: descrie modificarea Legii nr. 69/2010 și transpunerea Directivei (UE) 2024/1265 privind cadrele bugetare și Consiliul Fiscal, deși textul real al PL-x 215/2026 nu are nicio legătură cu Legea 69/2010. În plus, Art. VII pct. 4 (art. 91 alin. 8) relaxează condițiile de dobândire a acțiunilor proprii la consolidare doar la art. 103¹ alin. (1) lit. b) și d) din Legea 31/1990, eliminând referirea la restul condițiilor (inclusiv lit. c privind acțiunile integral liberate).",
+      "constitutionalityNote": "Art. VII și Art. IX ridică probleme serioase față de art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii): formularea „acțiunile având asupra lor drept de proprietate” din art. 91 alin. (5) este juridic lipsită de sens, termenul de pornire a campaniei TV/radio „cu ziua ulterioară” aprobării AGEA din art. 91 alin. (5¹) este imposibil de executat, iar trimiterea din Art. IX la „art. VII, pct. 4” în loc de pct. 5 viciază aplicarea normei. Totodată, art. 91 alin. (5²) încalcă art. 138 alin. (5) din Constituție, impunând cheltuieli bugetare noi pentru CNA fără indicarea sursei de finanțare și fără fișă financiară. Nu în ultimul rând, introducerea la Senat a unor modificări fără legătură cu obiectul inițial de urgență al proiectului contravine rigorilor de tehnică legislativă și consultare publică.",
+      "euLawNote": "Articolele I–VI și VIII transpun corect art. 1, 9, 10, 11 și 16 din Directiva (UE) 2023/2864 (ESAP), unde România a depășit deja termenul de transpunere (10 ianuarie 2026) și riscă procedură de infringement; acestea nu necesită notificare TRIS (Directiva 2015/1535) și nu intră sub incidența Directivei 2018/958. În schimb, Art. VII pct. 3 (art. 91 alin. 5¹) este problematic sub raportul dreptului UE: obligarea companiilor private listate să cumpere publicitate zilnică la ore de vârf exclusiv de la radiodifuzorii publici (TVR și Radio România), excluzând media privată și canalele digitale, creează o cerere captivă discriminatorie susceptibilă să distorsioneze concurența, să afecteze libera prestare a serviciilor (art. 56 TFUE) și să ridice riscuri de ajutor de stat neautorizat (art. 107 TFUE). De asemenea, restrângerea condițiilor de răscumpărare la art. 91 alin. (8) (omisiunea lit. c din art. 103¹ Legea 31/1990) trebuie verificată prin prisma art. 60–61 din Directiva (UE) 2017/1132.",
+      "senatForm": {
+        "articleRef": "Art. VII pct. 2 și 3, precum și Art. IX",
+        "proposalContent": "Eliminarea Art. VII pct. 3 (art. 91 alin. 5¹ și 5² din Legea 24/2017). La Art. VII pct. 2, corectarea expresiei „acțiunile având asupra lor drept de proprietate” în „acționarii” și clarificarea mecanismului de consemnare a sumelor. La Art. IX, corectarea trimiterii din „art. VII, pct. 4” în „art. VII, pct. 5”.",
+        "argumentation": "Alin. 5¹ impune emitenților cu acționari PPM spoturi zilnice, 14 zile, la ore de vârf, exclusiv la TVR/SRR, din ziua următoare AGEA — imposibil practic, costisitor și discriminatoriu pe piața media. Alin. 5² obligă CNA la campanii fără finanțare (art. 138 alin. 5 Constituție). Art. VII pct. 2 și Art. IX conțin erori materiale.",
+        "otherComments": "Art. VII și IX au fost adăugate la Senat într-un proiect de urgență dedicat exclusiv Directivei ESAP (2023/2864), fără consultare publică sau studiu de impact. Informarea acționarilor PPM ar trebui reglementată separat, proporțional (prin BVB, ASF, Depozitarul Central). De corectat și fișa cdep.ro, care descrie eronat Legea 69/2010."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
@@ -150,7 +177,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-19T16:47:54.198Z",
+      "replacedAt": "2026-11-19T17:41:50.207Z",
       "reasons": [
         "metoda"
       ]

@@ -1,7 +1,7 @@
 {
   "billId": "B551/2026",
   "slug": "b551-2026",
-  "updatedAt": "2026-11-19T16:50:51.168Z",
+  "updatedAt": "2026-11-19T17:37:43.814Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -30,17 +30,17 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 4.5,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
     "plainTitle": "Reducere de preț la curent, plătită de stat, pentru marile fabrici energofage (max. 1,05 mld. €)",
     "summaryTlDr": "Schemă în linii mari corectă, copiată fidel după secțiunea 4.5 CISAF și condiționată de autorizarea Comisiei. Problemele țin de redactare și de previzibilitate: legea fixează doar plafoane, nu și reducerea efectivă, transferă bani publici consistenți către un număr mic de companii mari și nu vine cu fișă de impact bugetar.",
     "initiatorClaim": "Inițiatorii spun că industriile electro-intensive din România pierd competitivitatea din cauza prețului mare al energiei și riscă să se relocheze în afara UE. Propun un sprijin temporar, permis de CISAF, care să păstreze capacitățile de producție și să accelereze decarbonizarea.",
     "realityCheck": "Statul ar plăti ex post, din veniturile ETS, până la 350 mil. €/an companiilor din sectoarele din anexa 1 OACME. Reducerea se aplică la cel mult 50% din consum și la cel mult 50% din prețul PZU, cu un prag minim de preț efectiv de 50 €/MWh, iar beneficiarul trebuie să reinvestească 50% din ajutor în decarbonizare în 48 de luni. Chichițele: nivelul concret al reducerii nu este stabilit nicăieri, «prețul efectiv suportat» nu e definit, iar mai multe trimiteri interne sunt greșite. La bugetul insuficient, ajutorul se reduce proporțional, ceea ce poate face ca avansurile de 70% să fie restituite cu dobândă.",
     "affectedGroups": [
-      "Angajați & HR",
+      "IMM & Antreprenori",
       "Agricultură & Mediu",
       "Toți cetățenii",
-      "IMM & Antreprenori"
+      "Angajați & HR"
     ],
     "senatForm": {
       "articleRef": "Art. 11 alin. (2) și (3)",
@@ -52,9 +52,38 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "error",
-      "durationMs": 3313,
-      "error": "cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 41m7s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 41m7s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"e"
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 80106,
+      "sourceEndMarker": "SF-AA69D9CD",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Ajutor de stat de 1 miliard de euro pentru factura la curent a marii industrii",
+      "verdictShort": "Deși ideea de sprijin pentru industria energo-intensivă urmează cadrul european CISAF, proiectul are defecte serioase de redactare, lipsindu-i anexa cu beneficiarii și fișa financiară pentru 1,05 miliarde EUR. Mai grav, conține trimiteri eronate și portițe discreționare la recuperarea banilor care riscă să blocheze aprobarea la Bruxelles.",
+      "initiatorClaim": "Inițiatorii susțin că vor să oprească dezindustrializarea și relocarea fabricilor mari consumatoare de energie în afara UE, oferindu-le o reducere temporară a costului energiei electrice în schimbul investițiilor în decarbonizare și eficiență energetică.",
+      "realityCheck": "Legea instituie o schemă de până la 350 mil. EUR/an (1,05 mld. EUR total, până în 2029) pentru reducerea ex post cu cel mult 50% a prețului PZU pentru jumătate din consumul eligibil, cu prag minim de 50 EUR/MWh și obligație de reinvestire verde de 50%. În realitate, proiectul alocă venituri din certificatele CO2 (ETS) deja grevate de alte obligații fără dovada disponibilității financiare, nu atașează anexa legală cu codurile CAEN eligibile și lasă loc de arbitrariu la delegarea administrării către o S.A. și la renunțarea la penalități.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Agricultură & Mediu",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Impact bugetar de 1,05 miliarde EUR fără fișă financiară (Art. 4): sursa indicată — veniturile din licitarea certificatelor de emisii ETS — este deja angajată parțial în alte scheme naționale (ex. OUG 138/2022, Fondul pentru Mediu), fără o evaluare a fondurilor libere.",
+        "Anexa cu sectoarele eligibile lipsește fizic din lege (Art. 2 lit. a, Art. 6 alin. 1): textul declară „parte integrantă din prezenta lege” o anexă cu corespondența codurilor CAEN din România, dar proiectul nu conține nicio anexă.",
+        "Trimiteri greșite și reguli neconforme la recuperarea banilor (Art. 10 alin. 2, Art. 17 alin. 3, Art. 20 alin. 4-5): Art. 17(3) trimite la o dobândă inexistentă în Art. 20(3), Art. 20(4) folosește dobânda de politică monetară BNR în loc de dobânda de recuperare impusă de UE, iar Art. 20(5) permite renunțarea la penalități pe „motive tehnice” nedefinite.",
+        "Delegare vagă către o societate pe acțiuni (Art. 5 alin. 2): Ministerul Energiei poate delega atribuții de administrare către Banca de Investiții și Dezvoltare - S.A., fără a preciza limitele delegării sau interdicția transferului actelor de autoritate publică (titluri de creanță, control).",
+        "Ambiguitate la calculul pragului de 50 EUR/MWh (Art. 10 alin. 3 vs. Art. 11 alin. 3): ajutorul se calculează după un preț unic PZU, indiferent de sursa de aprovizionare, dar pragul minim vizează „prețul efectiv suportat de beneficiar”, creând neclarități pentru firmele cu producție proprie sau contracte PPA."
+      ],
+      "blindSpotsCaught": "Pe lângă trimiterile juridice rupte (Art. 10 alin. 2 trimite la Art. 5 alin. 2 în loc de alin. 3; Art. 17 alin. 3 trimite la Art. 20 alin. 3 unde nu există nicio dobândă), proiectul conține o contradicție subtilă între Art. 13 alin. (4) — care cere „motive tehnice obiective, demonstrate printr-o documentație tehnică” pentru prelungirea termenului investiției — și Art. 20 alin. (5), care permite Ministerului Energiei să renunțe la penalități pe simple „motive tehnice” necalificate. De asemenea, formula finală clasifică eronat legea ca organică (Art. 76 alin. 1 Constituție).",
+      "constitutionalityNote": "Risc ridicat de neconstituționalitate pe două paliere: (1) Art. 138 alin. (5) (stabilirea unei surse reale de finanțare) coroborat cu Art. 111 alin. (1), deoarece alocarea a 350 mil. EUR/an din venituri ETS deja direcționate prin alte acte normative nu este însoțită de fișă financiară; (2) Art. 1 alin. (5) privind calitatea și previzibilitatea legii, din cauza absenței anexei declarate parte integrantă, a trimiterilor eronate la alineate greșite și a delegării nedelimitate către BID S.A. În plus, încadrarea ca lege organică (Art. 76 alin. 1) depășește domeniile din Art. 73 alin. (3), fiind o lege ordinară (Art. 76 alin. 2).",
+      "euLawNote": "Pe fond, arhitectura schemei urmărește secțiunea 4.5 din Comunicarea Comisiei C/2025/3602 (CISAF) și respectă clauza de standstill din Art. 108 alin. (3) TFUE prin condiționarea aplicării de decizia Comisiei Europene (Art. 3 alin. 1, Art. 22). Totuși, stabilirea dobânzii de recuperare la nivelul ratei BNR (Art. 20 alin. 4) și renunțarea vagă la penalități (Art. 20 alin. 5) intră în conflict cu Regulamentul (UE) 2015/1589 și Regulamentul (CE) nr. 794/2004 privind recuperarea ajutoarelor de stat, iar utilizarea fondurilor ETS trebuie corelată strict cu Art. 10 alin. (3) din Directiva 2003/87/CE. Directivele (UE) 2018/958 (profesii reglementate) și 2015/1535 (TRIS) nu sunt incidente, fiind o măsură de ajutor de stat supusă procedurii dedicate TFUE.",
+      "senatForm": {
+        "articleRef": "Art. 4, 5(2), 6(1), 17(3) și 20",
+        "proposalContent": "1) Atașarea anexei cu codurile CAEN (Art. 6) și a fișei financiare privind disponibilitatea reală a veniturilor ETS (Art. 4). 2) Limitarea delegării către BID S.A. la acte tehnice (Art. 5). 3) Corectarea trimiterilor din Art. 10(2) și 17(3), aplicarea dobânzii UE de recuperare și definirea strictă a scutirii de penalități (Art. 20).",
+        "argumentation": "Lipsa anexei și trimiterile greșite încalcă Art. 1(5) Constituție. Alocarea a 1,05 mld. EUR din venituri ETS deja angajate, fără fișă financiară, încalcă Art. 138(5). Dobânda BNR și renunțarea vagă la penalități pe „motive tehnice” (Art. 20) contravin normelor UE privind recuperarea ajutoarelor de stat și pot bloca autorizarea Comisiei.",
+        "otherComments": "Se impune corectarea formulei de adoptare la Art. 76(2) Constituție (lege ordinară, nu organică), solicitarea avizului Consiliului Concurenței (OUG 77/2014) și clarificarea corelației dintre prețul unic de referință PZU (Art. 10) și „prețul efectiv suportat” de minim 50 EUR/MWh (Art. 11 alin. 3) în cazul beneficiarilor cu producție proprie sau PPA."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
@@ -148,7 +177,7 @@
         "codex": 5
       },
       "corrections": 0,
-      "replacedAt": "2026-11-19T16:50:51.168Z",
+      "replacedAt": "2026-11-19T17:37:43.814Z",
       "reasons": [
         "reluare"
       ]

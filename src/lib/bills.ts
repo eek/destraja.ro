@@ -71,7 +71,9 @@ async function load() {
       console.warn(`[bills] ${bill.id} nu are analiză; nu îl afișăm încă`);
       continue;
     }
-    analysis.consensus.citizenOneLiner ??= oneLiners[bill.slug];
+    // Frazele din citizen-one-liners.json au fost scrise de mână la lansare, pentru analizele de atunci. Pentru o analiză
+    // refăcută cu tot textul (are coverage) pot spune altceva decât ea: B563 promitea încă contractele, scoase din formă.
+    if (!analysis.coverage) analysis.consensus.citizenOneLiner ??= oneLiners[bill.slug];
     analysis.consensus.institutionalEmails = checkSenatEmails(analysis.consensus.institutionalEmails, validSenat, bill.id);
     if (synced && (!syncedAt || synced > syncedAt)) syncedAt = synced;
     bills.push({

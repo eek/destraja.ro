@@ -83,6 +83,8 @@ export interface BillAnalysis {
   billId: string;
   slug: string;
   updatedAt: string;
+  /** Cât din text au citit modelele: există doar la analizele cu tot textul (whole-text-v1, din 19 noiembrie 2026). */
+  coverage?: { method: string; reachedEnd?: boolean; billChars?: number };
   consensus: {
     riskScore: number;
     riskLevel: RiskLevel;

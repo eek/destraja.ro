@@ -56,12 +56,13 @@ const INSERTS_AFTER = /\bdup[ăa]\s+(?:articolul|art\.)\s*[\d.]+(?:\s*\^\s*\d+)?
 // (legea de aprobare modifică articolul I al ordonanței, care modifică altă lege), „Articolul III din Legea nr. 141/2025
 // … se modifică”. Articolul atins e cel roman (pe portal „Articolul III”, ca „iii”); articolul 6^1 e al celeilalte legi,
 // nu al actului modificat, deci nu-l luăm. Fără „i”: „art. în…” nu e un număr roman.
-const ROMAN_REF = /\b[Aa]rt(?:icolul|icolului|icolele|\.)\s*([IVXL]+)\b/g;
+// „La articolul unic punctul 2, articolul 8…” (PL-x 340/2026): articolul atins e articolul unic al ordonanței.
+const ROMAN_REF = /\b[Aa]rt(?:icolul|icolului|icolele|\.)\s*([IVXL]+|unic)\b(?:\s*\^\s*(\d+))?/g;
 /** Primul articol numit, arab sau roman, după poziție; ultimul, cu `last`. */
 function articleRef(text, { last = false } = {}) {
   const refs = [
     ...[...text.matchAll(ART_REF)].map((m) => ({ index: m.index, num: articleNum(m) })),
-    ...[...text.matchAll(ROMAN_REF)].map((m) => ({ index: m.index, num: m[1].toLowerCase() })),
+    ...[...text.matchAll(ROMAN_REF)].map((m) => ({ index: m.index, num: `${m[1].toLowerCase()}${m[2] ? `^${m[2]}` : ''}` })),
   ].sort((a, b) => a.index - b.index);
   return (last ? refs.at(-1) : refs[0])?.num ?? null;
 }
@@ -112,8 +113,12 @@ function tipAct(kind) {
   return 'LEGE';
 }
 
+// „…, aprobată cu modificări prin Legea nr. 55/2024, se modifică…”: legea de aprobare nu e actul modificat. Pe rândurile
+// rupte la scanare (PL-x 78/2026) ea e primul act de pe rând și ar fi luată drept subiect.
+const APPROVED_BY = /aprobat[ăa](?:\s+cu\s+modific[ăa]ri(?:\s+și\s+complet[ăa]ri)?)?\s+prin\s*$/i;
+const ACT_G = new RegExp(ACT.source, 'giu');
 function findAct(line) {
-  const m = ACT.exec(line);
+  const m = [...line.matchAll(ACT_G)].find((x) => !APPROVED_BY.test(line.slice(Math.max(0, x.index - 60), x.index)));
   if (!m) return null;
   const { kind, numar, numar2, an, an2, an3 } = m.groups;
   return { tipAct: tipAct(kind), numar: numar ?? numar2, an: an ?? an2 ?? an3, reference: m[0].replace(/\s+/g, ' '), index: m.index };
@@ -194,9 +199,11 @@ function joinHeaders(lines) {
       let joined = line;
       for (let j = 1; j <= 2 && i + j < lines.length; j++) {
         const next = lines[i + j];
-        // Un rând care e singur rând de început („Art. 25 – Modificarea O.G. nr. 2/2001” / „…articolul 18 din Ordonanța
-        // Guvernului nr. 2/2001 se modifică…”) nu se lipește de titlul de deasupra.
-        if (POINT.test(next) || LABEL.test(next) || isStep(next) || headerAct(next)) break;
+        // O propoziție nouă care e singură rând de început („Art. 25 – Modificarea O.G. nr. 2/2001” / „La data desființării,
+        // articolul 18 din Ordonanța Guvernului nr. 2/2001 se modifică…”) nu se lipește de titlul de deasupra. Una care
+        // continuă rândul („…Ordonanței Guvernului nr.” / „12/2024 …, aprobată prin Legea nr. 314/2024, se modifică…”,
+        // PL-x 171/2026) se lipește: actul modificat e cel de pe primul rând, nu legea de aprobare.
+        if (POINT.test(next) || LABEL.test(next) || isStep(next) || (headerAct(next) && /^[A-ZĂÂÎȘȚ„]/.test(next))) break;
         joined = `${joined} ${next}`;
         if (headerAct(joined.replace(LABEL, ''))) {
           line = joined;
@@ -518,7 +525,9 @@ const label = (num) => `Art. ${/^[ivxl]+$/.test(num) ? num.toUpperCase() : num}`
  * Secțiunea din prompt și ce se înregistrează în analiză. `text` e null când proiectul nu modifică un act găsit în text.
  * @returns {{ text: string|null, meta: object }}
  */
-export function baselinePrompt(baseline, file, { max = PROMPT_MAX } = {}) {
+export function baselinePrompt(baseline, file, { max: total = PROMPT_MAX } = {}) {
+  // Loc pentru introducere și nota de la final, ca toată secțiunea să rămână sub limită.
+  const max = total - 800;
   const meta = {
     method: baseline.method,
     file: path.relative(ROOT, file),
@@ -527,7 +536,7 @@ export function baselinePrompt(baseline, file, { max = PROMPT_MAX } = {}) {
     fetchedAt: baseline.fetchedAt,
     acts: baseline.acts.length,
     actsFound: baseline.acts.filter((a) => a.status === 'found').length,
-    articlesFound: 0,
+    articlesFound: baseline.acts.flatMap((a) => a.articles).filter((a) => a.status === 'found').length,
     articlesShown: 0,
     chars: 0,
     truncated: false,
@@ -542,13 +551,16 @@ export function baselinePrompt(baseline, file, { max = PROMPT_MAX } = {}) {
   };
   for (const act of baseline.acts) {
     const name = `${act.reference}${act.title ? ` (${shortTitle(act.title)})` : ''}`;
-    if (act.status !== 'found') {
-      push(`\n=== ${name}: actul nu a fost găsit pe legislatie.just.ro (${act.reason}).`);
+    // Și rândurile actelor intră în limită: un proiect-omnibus modifică zeci de acte (PL-x 41/2026).
+    const head = act.status === 'found' ? `\n=== ${name}, forma consolidată preluată pe ${dayRo(act.fetchedAt)}: ${act.url}` : `\n=== ${name}: actul nu a fost găsit pe legislatie.just.ro (${act.reason}).`;
+    if (used + head.length > max) {
+      left += act.articles.length;
+      meta.truncated = true;
       continue;
     }
-    push(`\n=== ${name}, forma consolidată preluată pe ${dayRo(act.fetchedAt)}: ${act.url}`);
+    push(head);
+    if (act.status !== 'found') continue;
     for (const a of act.articles) {
-      if (a.status === 'found') meta.articlesFound++;
       let block;
       if (a.status === 'found') {
         // Textul de pe portal începe cu eticheta („Articolul 3”), pe care o scriem deja în rândul de deasupra.

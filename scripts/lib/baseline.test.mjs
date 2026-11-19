@@ -76,6 +76,18 @@ Oficial al României, Partea I, nr.343 din 16 aprilie 2025, se modifică și se 
   assert.deepEqual(read(text), [{ act: 'ORDONANȚĂ DE URGENȚĂ 25/2025', amended: ['1'], new: [], unresolved: [] }]);
 });
 
+test('rândul rupt chiar după „nr.”: actul e cel de pe primul rând, nu legea de aprobare (PL-x 171/2026)', () => {
+  const text = `Art. I - Ordonanța de urgență a Guvernului nr. 85/2024 privind reorganizarea Ministerului Agriculturii, precum și pentru modificarea Ordonanței Guvernului nr.
+12/2024 privind o schemă de ajutor de stat, publicată în Monitorul Oficial, aprobată cu modificări prin Legea nr. 314/2024, se modifică și se completează după cum urmează:
+1. Articolul 4 se modifică și va avea următorul cuprins:`;
+  assert.deepEqual(read(text), [{ act: 'ORDONANȚĂ DE URGENȚĂ 85/2024', amended: ['4'], new: [], unresolved: [] }]);
+  // Rupt după „publicată în Mo”, cu legea de aprobare pe rândul al doilea (PL-x 78/2026).
+  const t2 = `Art. III. – Ordonanța de urgență a Guvernului nr. 49/2023 privind consolidarea spitalelor, publicată în Mo
+României, Partea I, nr. 468 din 26 mai 2023, aprobată prin Legea nr. 55/2024, cu modificările ulterioare, se modifică și se completează după cum urmează:
+2. La articolul 11, după alineatul (2) se introduce un nou alineat, alin. (2^1), cu următorul cuprins:`;
+  assert.deepEqual(read(t2), [{ act: 'ORDONANȚĂ DE URGENȚĂ 49/2023', amended: ['11'], new: [], unresolved: [] }]);
+});
+
 test('un titlu deasupra rândului de început nu se lipește de el (Pl-x 481/2026)', () => {
   const text = `Art. 25 - Modificarea Ordonanței Guvernului nr.2/2001
 La data desființării, articolul 18 din Ordonanța Guvernului nr.2/2001 privind regimul juridic al contravențiilor se modifică și va avea următorul cuprins:
@@ -114,6 +126,9 @@ test('legea de aprobare: „Se aprobă Ordonanța … cu următoarea modificare�
   const text = `Articol unic.- Se aprobă Ordonanța Guvernului nr.4 din 30 ianuarie 2026 pentru modificarea Legii nr. 182/2000, publicată în Monitorul Oficial, cu următoarea modificare:
 - La articolul I punctul 1, alineatul (4) al articolului 23 va avea următorul cuprins:`;
   assert.deepEqual(read(text), [{ act: 'ORDONANȚĂ 4/2026', amended: ['i'], new: [], unresolved: [] }]);
+  const unic = `Articol unic. – Se aprobă Ordonanța de urgență a Guvernului nr. 22 din 31 martie 2026 privind unele măsuri, cu următoarele modificări:
+2. La articolul unic punctul 2, articolul 8 va avea următorul cuprins:`;
+  assert.deepEqual(read(unic), [{ act: 'ORDONANȚĂ DE URGENȚĂ 22/2026', amended: ['unic'], new: [], unresolved: [] }]);
 });
 
 test('anexele și capitolele rămân explicit fără articol; „Articol unic” între rânduri nu lasă o instrucțiune pierdută', () => {
@@ -138,6 +153,12 @@ Art. 2 (1) Măsurile se realizează cu respectarea Legii nr. 422/2001 privind pr
 test('portalul: „Articolul III” al unei legi de modificare are numărul „iii”', () => {
   const html = `<span class="S_ART"><span class="S_ART_TTL">Articolul III</span><span class="S_ART_BDY" style="display:block">Textul.</span></span>`;
   assert.deepEqual(parseConsolidatedArticles(html).map((a) => a.num), ['iii']);
+  // Articolul roman care introduce alte articole: eticheta e doar primul titlu (OUG nr. 89/2025).
+  const nested = `<span class="S_ART"><span class="S_ART_TTL">Articolul I</span><span class="S_ART_BDY" style="display:block">Codul se modifică:<span class="S_ART"><span class="S_ART_TTL">Articolul 359</span>Text.</span></span></span>` +
+    `<span class="S_ART"><span class="S_ART_TTL">Articolul V^1</span><span class="S_ART_BDY">Altul.</span></span>`;
+  assert.deepEqual(parseConsolidatedArticles(nested).map((a) => [a.num, a.label]), [['i', 'Articolul I'], ['v^1', 'Articolul V^1']]);
+  const unic = `<span class="S_ART"><span class="S_ART_TTL">ARTICOL UNIC</span><span class="S_ART_BDY">Se aprobă.</span></span>`;
+  assert.deepEqual(parseConsolidatedArticles(unic).map((a) => a.num), ['unic']);
 });
 
 test('secțiunea din prompt: articolele găsite, cele noi, limita și nicio secțiune fără acte', () => {

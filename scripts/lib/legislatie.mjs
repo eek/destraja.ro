@@ -203,6 +203,10 @@ export function parseConsolidatedArticles(rawHtml) {
   let buf = [];
   let label = [];
   let inArtTtl = false;
+  // Doar primul titlu al articolului e eticheta lui: articolele cu cifre romane ale legilor de modificare conțin
+  // articolele pe care le introduc, cu titlurile lor („Articolul I” + „Articolul 359” + …), iar eticheta lipită
+  // („Articolul IArticolul 359”) pierdea numărul (19 noiembrie 2026: OUG nr. 89/2025, Legea nr. 239/2025).
+  let labelDone = false;
   let m;
   while ((m = tokenRe.exec(rawHtml)) !== null) {
     const tok = m[0];
@@ -239,10 +243,11 @@ export function parseConsolidatedArticles(rawHtml) {
         artDepth = stack.length;
         buf = [];
         label = [];
+        labelDone = false;
         continue;
       }
       if (artDepth >= 0) {
-        if (cls === 'S_ART_TTL') inArtTtl = true;
+        if (cls === 'S_ART_TTL' && !labelDone) inArtTtl = true;
         if (cls === 'S_NTA_TTL' || cls === 'S_NTA_PAR') buf.push(`\n${MARK_NOTE}`);
         else if (cls === 'S_PAR') buf.push(`\n${MARK_PAR}`);
         else if (block) buf.push('\n');
@@ -258,11 +263,13 @@ export function parseConsolidatedArticles(rawHtml) {
     if (hiddenDepth || artDepth < 0) continue;
     if (stack.length < artDepth) {
       const lbl = label.join('').replace(/\s+/g, ' ').trim();
-      // Articolele de peste 999 apar ca „Articolul 1.270” (separator de mii).
-      const numM = /^(?:articolul|art\.?)\s*((?:[0-9]{1,3}(?:\.[0-9]{3})+|[0-9]+)(?:\^[0-9]+)?|[IVXLCDM]+)\b/i.exec(lbl);
+      // Articolele de peste 999 apar ca „Articolul 1.270” (separator de mii); cele romane și ca „Articolul V^1”.
+      const numM = /^(?:articol(?:ul)?|art\.?)\s*((?:[0-9]{1,3}(?:\.[0-9]{3})+|[0-9]+)(?:\^[0-9]+)?|[IVXLCDM]+(?:\^[0-9]+)?|unic)(?![\p{L}\d])/iu.exec(lbl);
       const { content, notes } = splitArticleLines(buf.join(''));
       articles.push({
-        num: numM ? numM[1].toLowerCase().replace(/\./g, '') : String(articles.length + 1),
+        // Fără număr citibil nu inventăm unul: „#5” nu se potrivește cu niciun articol cerut (înainte era poziția, „5”,
+        // care putea fi luată drept articolul 5).
+        num: numM ? numM[1].toLowerCase().replace(/\./g, '') : `#${articles.length + 1}`,
         label: lbl,
         content,
         notes,
@@ -270,7 +277,10 @@ export function parseConsolidatedArticles(rawHtml) {
       artDepth = -1;
       continue;
     }
-    if (top.cls === 'S_ART_TTL') inArtTtl = false;
+    if (top.cls === 'S_ART_TTL' && inArtTtl) {
+      inArtTtl = false;
+      labelDone = true;
+    }
     if (top.block || top.cls === 'S_NTA_TTL' || top.cls === 'S_ART_TTL') buf.push('\n');
   }
   return articles;
@@ -340,7 +350,9 @@ async function soapSearch(params) {
       const items = await soapSearchOnce(params, key);
       if (items.length || !canRetry) return items;
     } catch (err) {
-      if (!canRetry) throw err;
+      // „TOKEN INVALID SAU EXPIRAT! REGENERATI TOKEN” vine și la un token de sub un minut (19 noiembrie 2026): îl
+      // regenerăm o dată oricât de nou ar fi.
+      if (!(canRetry || (attempt === 0 && /TOKEN INVALID/i.test(err.message)))) throw err;
     }
   }
 }
@@ -361,12 +373,16 @@ async function consolidatedArticles(link) {
   const articles = parseConsolidatedArticles(html);
   if (articles.length) return { url, articles };
   const ref = /class="S_REF"><A href="[^"]*DetaliiDocumentAfis\/(\d+)/i.exec(html);
-  if (!ref) throw new Error(`pagina ${url} nu conține articole (${pageSnippet(html)})`);
+  if (!ref) throw new NoArticles(`pagina ${url} nu conține articole (${pageSnippet(html)})`);
   const refUrl = `${PORTAL}/Public/DetaliiDocument/${ref[1]}`;
   const refArticles = parseConsolidatedArticles(await getPage(refUrl));
-  if (!refArticles.length) throw new Error(`pagina ${refUrl} nu conține articole`);
+  if (!refArticles.length) throw new NoArticles(`pagina ${refUrl} nu conține articole`);
   return { url: refUrl, articles: refArticles };
 }
+
+// Portalul a răspuns, dar pagina actului n-are articole citibile (19 noiembrie 2026: documentele 11908 și 281934): nu e o
+// pană, deci nu se reia zilnic ca una; actul apare ca negăsit, cu motivul, și se mai caută o dată pe săptămână.
+class NoArticles extends Error {}
 
 /** Eroare de rețea sau de portal (nu „actul nu există”): rularea o raportează și nu scrie nimic pentru proiect. */
 export class PortalError extends Error {}
@@ -406,6 +422,7 @@ export async function fetchAct({ tipAct, numar, an }, { url: knownUrl } = {}) {
     const { url, articles } = await consolidatedArticles(items[0].link);
     return { found: true, url, title: items[0].titlu, articles };
   } catch (err) {
+    if (err instanceof NoArticles) return { found: false, reason: `pagina actului de pe portal nu are articole citibile (${err.message.slice(0, 120)})` };
     throw new PortalError(err.name === 'TimeoutError' ? `fără răspuns în ${TIMEOUT_MS / 1000} s` : String(err.message || err).slice(0, 300));
   }
 }

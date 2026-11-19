@@ -1,7 +1,7 @@
 import { ArrowDown, ArrowRight, ArrowUp } from 'lucide-react';
 import type { BillAnalysis, BillVersions } from '@/lib/types';
 import type { AvizDoc } from '@/lib/avize';
-import { type ScoreHistoryEntry, type ScoreMove, type ScoreReason, FIRST_CHARS, REASON_LABEL, agyOf, sameMethodPair, scoreMove, showOnPage } from '@/lib/score-history';
+import { type ScoreHistoryEntry, type ScoreMove, type ScoreReason, REASON_LABEL, agyOf, sameMethodPair, scoreMove, showOnPage } from '@/lib/score-history';
 import { MODELS, type ModelKey, modelFullName } from '@/lib/site';
 import { RISK } from '@/lib/risk';
 import { fmt } from '@/lib/format';
@@ -37,7 +37,7 @@ function causes(m: ScoreMove, an: BillAnalysis, versions: BillVersions | null) {
     // Data formei, dacă o știm (la Senat); altfel numele ei. Numele complet stă oricum sub scor.
     out.push(`proiectul are o formă nouă${v?.date ? ` (din ${day(v.date)})` : name ? ` (${name})` : ''}`);
   }
-  if (m.reasons.includes('metoda')) out.push('analiza citește acum tot textul, nu doar primele 14.000 de caractere');
+  if (m.reasons.includes('metoda')) out.push('analiza a fost refăcută cu metoda actualizată');
   if (m.reasons.includes('model') && m.models) out.push(`Gemini e alt model (${modelFullName('agy', m.models.after)} în loc de ${modelFullName('agy', m.models.before)})`);
   if (m.reasons.includes('corectura')) out.push('am corectat o greșeală semnalată de un cititor');
   return out;
@@ -57,11 +57,8 @@ function sentence(m: ScoreMove, an: BillAnalysis, versions: BillVersions | null)
   }
   const head = `Scor recalculat pe ${when}: era ${fmt(m.from)}, acum e ${fmt(m.to)}.`;
   if (m.reasons.includes('metoda')) {
-    const part = m.readBefore
-      ? ` Analiza de dinainte citea doar primele ${chars(FIRST_CHARS)} de caractere din ${chars(m.readBefore.total)} (${Math.min(99, Math.max(1, Math.round((FIRST_CHARS / m.readBefore.total) * 100)))}%), deci nu vedea restul textului, unde stau adesea dispozițiile finale și modificările altor legi.`
-      : ' Analiza de dinainte citea doar primele 14.000 de caractere.';
     const model = m.reasons.includes('model') && m.models ? ` S-a schimbat și Gemini (${modelFullName('agy', m.models.after)} în loc de ${modelFullName('agy', m.models.before)}).` : '';
-    return `${head} Textul proiectului nu s-a schimbat.${part} Acum citește tot textul.${model}`;
+    return `${head} Textul proiectului nu s-a schimbat; analiza a fost refăcută cu metoda actualizată.${model}`;
   }
   if (m.reasons.includes('model') && m.models)
     return `${head} Textul și metoda sunt aceleași; s-a schimbat modelul Gemini (${modelFullName('agy', m.models.after)} în loc de ${modelFullName('agy', m.models.before)}).`;
@@ -77,11 +74,29 @@ function sentence(m: ScoreMove, an: BillAnalysis, versions: BillVersions | null)
 function pairVerdict(m: ScoreMove, pair: NonNullable<ReturnType<typeof sameMethodPair>>) {
   const d = Math.round((pair.to.riskScore - pair.from.riskScore) * 10) / 10;
   const pts = (n: number) => (Math.abs(n) === 1 ? '1 punct' : `${fmt(Math.abs(n))} puncte`);
-  const old = m.all.includes('metoda') ? 'unei citiri parțiale' : 'unei citiri diferite';
+  const old = m.all.includes('metoda') ? 'analizei făcute cu metoda de dinainte' : 'unei analize diferite';
   if (Math.abs(d) < 0.3) return `Citite la fel, cele două forme au cam același scor; ${fmt(m.from)} era scorul ${old}.`;
   if (m.delta !== 0 && Math.sign(d) !== Math.sign(m.delta))
     return `Citită la fel, forma nouă e ${d > 0 ? 'mai riscantă' : 'mai puțin riscantă'} decât cea veche, deși scorul afișat ${verb(m.delta)}: ${fmt(m.from)} era scorul ${old}.`;
   return `Formele diferă cu ${pts(d)}${m.delta !== 0 ? `, iar scorul afișat s-a mișcat cu ${pts(m.delta)}` : ''}: ${fmt(m.from)} era scorul ${old}.`;
+}
+
+/**
+ * Ce s-a îmbunătățit și ce s-a înrăutățit între forma de dinainte și cea de acum, din comparația formelor: titlurile
+ * schimbărilor majore întâi, cel mult trei pe fiecare parte. Fără comparație pentru exact aceste forme, nimic.
+ */
+function formEffects(versions: BillVersions | null, from: string | null | undefined, to: string | null | undefined) {
+  const c = versions?.changes.find((x) => x.to === to && (!from || x.from === from));
+  if (!c) return null;
+  const pick = (e: 'mai_bine' | 'mai_rau') =>
+    c.changes
+      .filter((x) => x.effect === e)
+      .sort((a, b) => Number(Boolean(b.major)) - Number(Boolean(a.major)))
+      .slice(0, 3)
+      .map((x) => x.title ?? x.text);
+  const better = pick('mai_bine');
+  const worse = pick('mai_rau');
+  return better.length || worse.length ? { better, worse } : null;
 }
 
 /** Un aviz sau un punct de vedere oficial: cine, ce a spus (dacă se știe) și ziua (AAAA-LL-ZZ). */
@@ -130,10 +145,9 @@ function Point({ score, when, note, now = false }: { score: number; when: string
  * era citit tot. Lungimea textului vechi o știm doar din analiza următoare pe aceeași formă (`chars`); altfel ne luăm după
  * motivul schimbării (`readMore`: analiza următoare a văzut mai mult), iar fără niciunul spunem doar limita.
  */
-function readNote(method: string, chars: number | null, readMore: boolean) {
-  if (method !== 'first-14k') return 'tot textul';
-  if (chars !== null) return chars > FIRST_CHARS ? 'primele 14.000 de caractere' : 'tot textul';
-  return readMore ? 'primele 14.000 de caractere' : 'cel mult 14.000 de caractere';
+// Nu mai arătăm cât din text citea metoda veche (19 noiembrie 2026, la cererea editorului): rândurile spun doar forma.
+function readNote(_method: string, _chars: number | null, _readMore: boolean): string | null {
+  return null;
 }
 const textChars = (an: BillAnalysis) => (an.coverage?.billChars != null ? an.coverage.billChars + (an.coverage.ordinanceChars ?? 0) : null);
 const SHORT_FORM: Record<string, string> = { initiator: 'forma inițiatorului', actualizata: 'forma actualizată', senat: 'forma Senatului', camera: 'forma Camerei', proiect: 'proiectul' };
@@ -154,6 +168,7 @@ export default function ScoreTrajectory({ analysis, versions = null, opinions: g
   const nowForm = analysis.coverage?.form ?? analysis.version ?? null;
   // Perechea formelor citite la fel are rost doar când s-a schimbat și citirea (metoda sau modelul): altfel traiectoria
   // însăși compară două forme citite la fel. Doar formele din traiectorie, nu ultimele două din comparație.
+  const effects = m.kind === 'text' ? formEffects(versions, prev.form, nowForm) : null;
   const pair = m.kind === 'text' && m.all.some((r) => r === 'metoda' || r === 'model') ? sameMethodPair(versions, prev.form, nowForm) : null;
   const opinions = newOpinions(given, m.fromDate);
   const prevChars = prev.textChars ?? (prev.form && prev.form === nowForm ? textChars(analysis) : null);
@@ -200,6 +215,30 @@ export default function ScoreTrajectory({ analysis, versions = null, opinions: g
 
         <div className="min-w-0 text-[15px] leading-7 text-body">
           <p>{sentence(m, analysis, versions)}</p>
+          {effects && (
+            <div className="mt-2 grid gap-x-6 gap-y-2 text-sm leading-6 sm:grid-cols-2">
+              {effects.better.length > 0 && (
+                <div>
+                  <p className="font-semibold text-risk-green-text">Ce s-a îmbunătățit</p>
+                  <ul className="mt-0.5 list-disc pl-4 text-body">
+                    {effects.better.map((x) => (
+                      <li key={x}>{x}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {effects.worse.length > 0 && (
+                <div>
+                  <p className="font-semibold text-risk-red-text">Ce s-a înrăutățit</p>
+                  <ul className="mt-0.5 list-disc pl-4 text-body">
+                    {effects.worse.map((x) => (
+                      <li key={x}>{x}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          )}
           {pair && (
             <div className="mt-2 border-t border-line pt-2">
               <p className="flex flex-wrap items-baseline gap-x-2 text-sm text-muted">
@@ -267,14 +306,14 @@ export function ScoreHistory({ analysis, versions = null }: { analysis: BillAnal
     const newer = all[k - 1];
     const len = r.chars ?? (newer && newer.form && newer.form === r.form ? newer.chars : null);
     const read = readNote(r.method, len, Boolean(history[k - 1]?.reasons.includes('metoda')));
-    const shown = r.method === 'whole-text-v1' && r.chars ? `tot textul (${chars(r.chars)} de caractere)` : read;
+    const shown = read;
     return { ...r, read: shown, reasons: history[k]?.reasons ?? null };
   });
   return (
     <div id="istoric-scor" className="mt-6 scroll-mt-20 border-t border-line pt-5">
       <h3 className="text-sm font-semibold text-ink">Istoricul scorului</h3>
       <p className="mt-1 max-w-[68ch] text-sm leading-6 text-muted">
-        Fiecare analiză a acestui proiect, de la cea de acum la cea mai veche păstrată: forma textului, cât din el au citit modelele, modelul Gemini și ce s-a schimbat
+        Fiecare analiză a acestui proiect, de la cea de acum la cea mai veche păstrată: forma textului, modelul Gemini și ce s-a schimbat
         față de analiza anterioară.
       </p>
       <ol className="mt-3 divide-y divide-line">

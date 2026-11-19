@@ -3,7 +3,7 @@ import type { ModelKey } from './site';
 
 /**
  * De ce s-a mișcat scorul față de analiza de dinainte (scripts/lib/score-history.mjs): o formă nouă a textului, citirea
- * întregului text în locul primelor 14.000 de caractere, alt model Gemini, o corectură sau doar o reluare a analizei.
+ * metoda actualizată, alt model Gemini, o corectură sau doar o reluare a analizei.
  */
 export type ScoreReason = 'text' | 'metoda' | 'model' | 'corectura' | 'reluare';
 
@@ -26,7 +26,7 @@ export interface ScoreHistoryEntry {
 
 export const REASON_LABEL: Record<ScoreReason, string> = {
   text: 'Formă nouă',
-  metoda: 'Citire integrală',
+  metoda: 'Metodă actualizată',
   model: 'Alt model',
   corectura: 'Corectură',
   reluare: 'Reanaliză',

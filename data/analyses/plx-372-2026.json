@@ -1,119 +1,185 @@
 {
   "billId": "PL-x 372/2026",
   "slug": "plx-372-2026",
-  "version": "senat",
-  "updatedAt": "2026-11-11T13:35:26.047Z",
+  "version": "camera",
+  "updatedAt": "2026-11-19T16:46:34.558Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "camera",
+    "billChars": 28309,
+    "ordinanceChars": 0,
+    "memoChars": 26085,
+    "memoSupplied": 26085,
+    "marker": "SF-18B0C381"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-372-2026.json",
+    "form": "camera",
+    "textHash": "18b0c381fc2c8afc",
+    "fetchedAt": "2026-11-19T10:56:47.805Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 2.7,
-    "riskLevel": "green",
-    "plainTitle": "Furnizorii de servicii online trebuie să aibă în UE o adresă oficială unde primesc cererile de probe din dosarele penale",
-    "summaryTlDr": "Lege tehnică, de transpunere obligatorie, care nu dă procurorilor puteri noi. Doar obligă furnizorii digitali să aibă în UE un sediu sau un reprezentant care primește cererile de probe. Problemele sunt de redactare: validarea notificării nu are termen, iar schimbul de date între autorități nu are limite precise.",
-    "initiatorClaim": "Guvernul (MEDAT, cu ANCOM coinițiator) spune că transpune Directiva (UE) 2023/1544. Scopul declarat este ca autoritățile să comunice eficient cu furnizorii de servicii digitale, inclusiv cu cei din afara UE, pentru obținerea probelor electronice, în locul regulilor naționale fragmentate care încurcă piața internă.",
-    "realityCheck": "Legea nu creează temeiuri noi de acces la datele oamenilor: acestea rămân în Codul de procedură penală, în Legea 302/2004 și în Regulamentul (UE) 2023/1543. Ea obligă furnizorii de comunicații electronice, domenii, adrese IP, mesagerie și stocare care oferă servicii în UE să desemneze un sediu sau un reprezentant legal și să-l notifice, iar ANCOM devine autoritate centrală. Chichițele: notificarea e valabilă doar după o «validare» fără termen și fără cale de atac (art. 8 alin. 4), criteriul «număr semnificativ de utilizatori» este vag (art. 4 pct. 2–3), iar schimbul de date între ANCOM, poliție și procurori nu are limite clare (art. 6 alin. 3). Regimul sancționator, menționat la art. 7, nu apare în extrasul primit, deci proporționalitatea amenzilor nu poate fi evaluată.",
+    "riskScore": 5.3,
+    "riskLevel": "yellow",
+    "plainTitle": "Marile platforme online trebuie să aibă un reprezentant în UE care să răspundă la cererile de probe electronice din dosarele penale",
+    "summaryTlDr": "Este o transpunere tehnică, utilă și obligatorie, a Directivei (UE) 2023/1544. Legea vine însă cu nouă luni întârziere și păstrează un termen (18 august 2026) care a expirat înainte de intrarea ei în vigoare, deși nerespectarea lui se amendează. Calibrarea amenzilor este și ea scăpată de sub control.",
+    "initiatorClaim": "Guvernul vrea ca anchetatorii să poată trimite rapid ordine de obținere a probelor electronice unui destinatar clar, aflat în UE, al fiecărui furnizor de servicii online. Așa ar dispărea fragmentarea regulilor naționale care împiedică piața unică.",
+    "realityCheck": "Legea obligă furnizorii de comunicații electronice, de nume de domenii și de servicii de comunicare sau stocare (cloud, mesagerie, rețele sociale) care oferă servicii în UE să desemneze un sediu sau un reprezentant legal. ANCOM devine Autoritatea Centrală care primește notificările. Problemele sunt trei: termenul de conformare de la art. 10 alin. (1) a expirat înainte ca legea să existe, deși art. 15 alin. (1) lit. a) îl sancționează; amenzile «între 10.000 lei și 2% din cifra de afaceri» devin incoerente pentru firmele mici, unde 2% poate fi sub minim; art. 8 alin. (6)-(7) adaugă o obligație de raportare către ANCOM pe care directiva nu o prevede.",
     "affectedGroups": [
       "IT & AI",
-      "Justiție & Drepturi Civile",
-      "IMM & Antreprenori"
+      "IMM & Antreprenori",
+      "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. 8 alin. (4) – validarea notificării",
-      "proposalContent": "„(4) Notificarea transmisă ANCOM se consideră validată dacă ANCOM nu o respinge motivat în 10 zile lucrătoare de la primire. Respingerea se poate contesta în contencios administrativ. Furnizorul care a notificat în termen nu poate fi sancționat cât timp notificarea e în analiză sau în termenul de completare acordat.”",
-      "argumentation": "Alin. (4) leagă corectitudinea notificării de validarea autorității, dar nu fixează termen, motivare sau cale de atac. Un furnizor care notifică la timp poate rămâne în afara legii doar pentru că ANCOM nu răspunde. Un termen clar și o cale de atac dau previzibilitatea cerută de art. 1 alin. (5) din Constituție și acces la justiție (art. 21).",
-      "otherComments": "Legea e la promulgare: propunerea poate servi unei reexaminări sau unei modificări ulterioare. Tot atunci: art. 6 alin. (3) trimite doar la GDPR și Legea 190/2018, deși poliția și parchetele prelucrează date după Legea 363/2018; e util de precizat ce date se schimbă și în ce scop. Ghidul ANCOM ar trebui să explice și „număr semnificativ de utilizatori”."
+      "articleRef": "Art. 10 (corelat cu art. 15 alin. (1) lit. a))",
+      "proposalContent": "Art. 10 (1) Furnizorii de servicii prevăzuți la art. 5 alin. (1) care oferă servicii la data intrării în vigoare a prezentei legi desemnează sedii desemnate sau numesc reprezentanți legali în termen de 60 de zile de la această dată. (2) Furnizorii care încep să ofere servicii ulterior au această obligație în termen de 6 luni de la data începerii.",
+      "argumentation": "Termenul de 18.08.2026 a expirat înainte de intrarea în vigoare a legii (art. 21: 30 de zile de la publicare), iar art. 15 alin. (1) lit. a) sancționează nerespectarea lui. Fapta ar fi contravenție din prima zi, pentru o perioadă în care obligația nu exista în dreptul intern, contrar art. 15 alin. (2) și art. 1 alin. (5) din Constituție.",
+      "otherComments": "Legea e la promulgare, deci corectura mai poate veni doar prin cererea de reexaminare a Președintelui (art. 77 alin. 2) sau prin sesizarea CCR (art. 146 lit. a). Tot atunci ar trebui corectate: lipsa lui «între» la art. 15 alin. (3), minimul peste maxim când 2% din cifra de afaceri e sub prag (art. 15-16) și art. 8 alin. (6)-(7), obligație peste directivă."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 45673,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Puncte de contact obligatorii pentru firmele IT și telecom în anchetele penale europene (probe electronice)",
-      "verdictShort": "Lege tehnică, necesară și echilibrată, care transpune fidel Directiva (UE) 2023/1544 privind obținerea rapidă a probelor electronice în dosarele penale transfrontaliere. Firmele IT românești care operează exclusiv pe piața internă sunt exceptate de la noile obligații birocratice.",
-      "initiatorClaim": "Guvernul urmărește transpunerea Directivei (UE) 2023/1544 pentru a crea un mecanism clar și rapid prin care autoritățile judiciare din UE să poată solicita probe electronice direct de la sediile desemnate sau reprezentanții legali ai furnizorilor de servicii digitale și de comunicații.",
-      "realityCheck": "Textul transpune corect pachetul european „e-Evidence”, desemnând ANCOM drept Autoritate Centrală și protejând IMM-urile locale care oferă servicii doar în România (art. 3 alin. 2) sau permițând mai multor firme să împartă același reprezentant legal (art. 5 alin. 3). Singura chichiță birocratică este la art. 8 alin. (4), unde notificarea depusă de o firmă este considerată legal îndeplinită doar după ce este „validată” de autoritate, fără un termen-limită impus ANCOM.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 105346,
+      "sourceEndMarker": "SF-18B0C381",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Reprezentanți obligatorii pentru firmele tech și amenzi judiciare de la 100.000 lei la 2% din cifra globală",
+      "verdictShort": "Deși transpune o directivă europeană necesară pentru obținerea probelor electronice în dosare penale, legea introduce sancțiuni disproporționate cu prag minim de 100.000 lei pe procedură sumară penală, birocrație suplimentară peste norma UE și un termen-limită fix deja depășit.",
+      "initiatorClaim": "Guvernul susține că proiectul transpune fidel Directiva (UE) 2023/1544 pentru a crea un mecanism rapid și previzibil de cooperare între autoritățile penale și furnizorii de servicii digitale, accelerând obținerea probelor electronice și sporind securitatea juridică.",
+      "realityCheck": "În practică, orice furnizor IT, cloud, mesagerie, telecom sau chiar PFA/startup din România care are utilizatori în alt stat UE intră sub un regim sancționator extrem: amenzi contravenționale ANCOM de până la 2% din cifra de afaceri globală și amenzi judiciare între 100.000 lei și 2% aplicabile inclusiv pentru formulări vagi precum «necooperarea la primirea deciziilor». În plus, legea obligă firmele care și-au desemnat deja reprezentant în alt stat UE să raporteze suplimentar la ANCOM sub amenințarea amenzii și stabilește un termen de conformare fix (18 august 2026) care devine retroactiv.",
       "affectedGroups": [
         "IT & AI",
-        "Justiție & Drepturi Civile",
-        "IMM & Antreprenori"
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 3 alin. (2) exceptează expres furnizorii de servicii stabiliți în România care oferă servicii exclusiv pe teritoriul național, evitând împovărarea inutilă a firmelor IT și de hosting strict locale.",
-        "Art. 5 alin. (1) și (3) obligă furnizorii cu activitate transfrontalieră (telecom, domenii/IP, cloud, platforme de comunicare) să desemneze un sediu sau reprezentant legal pentru ordinele judiciare, dar permite partajarea aceluiași reprezentant între mai mulți furnizori pentru reducerea costurilor.",
-        "Art. 8 alin. (4) prevede că notificarea datelor de contact este considerată corectă și completă doar dacă este validată de Autoritatea Centrală (ANCOM), fără a fixa un termen-limită de răspuns pentru instituție."
+        "Amenzi judiciare disproporționate pe procedură sumară (Art. 15 alin. 2-3 și Art. 17 alin. 2): prag minim rigid de 100.000 lei (până la 2% din cifra de afaceri mondială, ori 100.000-200.000 lei în primul an) aplicabile inclusiv reprezentanților persoane fizice, pentru fapte vagi precum «obligația de a coopera la primirea deciziilor», contestabile doar prin procedura restrânsă a art. 284 din Codul de procedură penală.",
+        "Gold-plating birocratic peste Directiva UE (Art. 8 alin. 6-7 și Art. 15 alin. 1 lit. d-e): firmele stabilite sau care oferă servicii în România și care și-au desemnat deja un reprezentant în alt stat membru UE sunt obligate să trimită ANCOM dovada notificării și orice modificare în 30 de zile, sub sancțiunea amenzii de 10.000-100.000 lei.",
+        "Termen de conformare retroactiv/imposibil (Art. 10 alin. 1 coroborat cu Art. 8 alin. 3 și Art. 21): legea cere desemnarea reprezentantului până la 18 august 2026 (sub amendă de până la 2% din cifra globală), deși intră în vigoare abia la 30 de zile după publicare, iar ANCOM trebuie să adopte ulterior, cu consultare publică, decizia privind forma notificării.",
+        "Expunere de motive formală și adoptare tacită: proiectul a trecut tacit de Camera Deputaților (art. 75 alin. 2 teza a III-a Constituție), iar Secțiunea a 3-a din Expunerea de motive susține la toate rubricile că legea «nu se referă» la impactul asupra mediului de afaceri, digitalizării sau drepturilor fundamentale.",
+        "Risc de dublă sancționare și derogări defavorabile (Art. 15 alin. 2, Art. 18 și Art. 20): sancționarea neexecutării ordinelor prin această lege se suprapune cu sancțiunile din Regulamentul (UE) 2023/1543, prescripția contravențională crește la 3 ani, iar toate plângerile contra ANCOM se mută exclusiv la judecătoria din raza sediului autorității (București)."
       ],
-      "blindSpotsCaught": "La art. 8 alin. (4), condiționarea îndeplinirii obligației legale de „validarea” administrativă a ANCOM, corelată cu termenul strict de la art. 10, transferă riscul întârzierilor birocratice pe umerii operatorului economic. De asemenea, criteriul „numărului semnificativ de utilizatori” din alt stat membru (art. 4 pct. 2 și 3), preluat din directivă, lasă o marjă de interpretare pentru firmele SaaS din România care au site-uri în limba engleză și clienți ocazionali din UE.",
-      "constitutionalityNote": "Legea respectă exigențele constituționale privind cooperarea judiciară și protecția datelor (art. 6 alin. 3 face trimitere expresă la garanțiile GDPR și Legea nr. 190/2018). Sub aspectul art. 1 alin. (5) din Constituție (previzibilitatea legii), lipsa unui termen de validare la art. 8 alin. (4) și numeroasele erori materiale de tehnoredactare din forma adoptată de Senat („territoriul”, „ștat”, „dup caz”) nu afectează fondul constituțional, dar denotă grabă în redactare.",
-      "euLawNote": "Proiectul asigură transpunerea obligatorie a Directivei (UE) 2023/1544 și funcționarea conexă a Regulamentului (UE) 2023/1543 privind ordinele europene de divulgare și păstrare a probelor electronice. Fiind un act de armonizare directă a dreptului UE în materie de cooperare judiciară penală, nu ridică bariere nejustificate pe piața unică și nu necesită notificare separată TRIS pe Directiva (UE) 2015/1535.",
+      "blindSpotsCaught": "Art. 4 pct. 1 lit. c) definește categoria «servicii ale societății informaționale» — decisivă pentru a stabili cine riscă amenzi de 2% din cifra de afaceri globală — prin trimitere la o Hotărâre de Guvern (HG nr. 1016/2004), act infralegal modificabil unilateral de Executiv. De asemenea, Art. 15 alin. (1) lit. g) sancționează reprezentantul legal (10.000-100.000 lei) dacă nu «se asigură» că furnizorul i-a dat resurse suficiente, transferând neclar răspunderea între mandant și mandatar, iar Art. 19 alin. (2) permite plata în 15 zile a jumătății din amenda aplicată (nu din minim), ceea ce în cazul procentului din cifra de afaceri rămâne extrem de împovărător.",
+      "constitutionalityNote": "Textul prezintă vicii serioase raportat la Art. 1 alin. (5) și Art. 23 alin. (12) din Constituție (claritatea și previzibilitatea normei sancționatorii) prin incriminarea unor noțiuni nedefinite («obligația de a coopera», «resurse necesare») și prin definirea subiecților sancționabili prin trimitere la o HG. Art. 10 alin. (1) încalcă principiul neretroactivității (Art. 15 alin. 2) impunând o dată calendaristică depășită (18 august 2026) sancționată cu până la 2% din cifra globală. Aplicarea procedurii art. 284 CPP (concepută pentru amenzi judiciare de până la 5.000 lei) unor sancțiuni cu caracter penal în sens CEDO (minim 100.000 lei – 2% cifra globală) afectează accesul efectiv la justiție (Art. 21) și proporționalitatea (Art. 44 și Art. 53).",
+      "euLawNote": "Proiectul transpune cu întârziere Directiva (UE) 2023/1544 (termen-limită 18 februarie 2026), însă introduce măsuri naționale suplimentare (gold-plating) la Art. 8 alin. (6)-(7) care obligă furnizorii cu reprezentant în alt stat membru UE să notifice separat ANCOM. Aceasta contravine logicii ghișeului unic și portalului Rețelei Judiciare Europene din Directivă și poate constitui o cerință națională suplimentară privind serviciile societății informaționale supusă notificării prealabile în baza Directivei (UE) 2015/1535 (TRIS), cu risc de inopozabilitate pe piața unică. Directiva (UE) 2018/958 nu este direct incidentă (nu privește profesii reglementate), dar pragul minim fix de 100.000 lei și suprapunerea sancțiunilor cu art. 15 din Regulamentul (UE) 2023/1543 tensionează principiul proporționalității (art. 49 alin. 3 Carta DFUE) și regula ne bis in idem (art. 50 Carta DFUE).",
       "senatForm": {
-        "articleRef": "Art. 8 alin. (4)",
-        "proposalContent": "La art. 8, alin. (4) se modifică și va avea următorul cuprins: „(4) Autoritatea Centrală competentă verifică și validează notificarea în termen de maximum 10 zile lucrătoare de la transmitere. În lipsa unui refuz motivat comunicat în acest termen, notificarea se consideră validată tacit de la data depunerii.”",
-        "argumentation": "Forma actuală condiționează îndeplinirea obligației legale de validarea ANCOM, fără a institui un termen-limită pentru autoritate. Furnizorii care notifică în termenul legal (art. 10) riscă să fie considerați în culpă din cauza unor întârzieri administrative sau blocaje în platforma electronică, încălcându-se principiul securității juridice.",
-        "otherComments": "Deși legea se află la promulgare, într-o eventuală intervenție ulterioară sau în ghidul ANCOM prevăzut la art. 8 alin. (3) este utilă detalierea criteriilor pentru „număr semnificativ de utilizatori” (art. 4 pct. 2-3), spre a proteja micile firme IT românești cu clienți ocazionali din UE."
+        "articleRef": "Art. 8 alin. (6)-(7), Art. 10 (1), Art. 15 (2)",
+        "proposalContent": "Se elimină Art. 8 alin. (6)-(7) și Art. 15 alin. (1) lit. d)-e). La Art. 10 alin. (1), data de 18 august 2026 se înlocuiește cu 6 luni de la intrarea în vigoare a deciziei ANCOM de la Art. 8 alin. (3). La Art. 15 alin. (2), minimul amenzii se reduce la 5.000 lei, lit. c) se elimină ca vagă, iar sancțiunea devine contestabilă cu dublu grad de jurisdicție.",
+        "argumentation": "Dubla notificare la ANCOM adaugă birocrație peste Directiva 2023/1544. Termenul 18 august 2026 devine retroactiv (art. 15 Constituție) în lipsa deciziei ANCOM. Minimul de 100.000 lei și formula vagă «a coopera» încalcă proporționalitatea și claritatea legii (art. 1 alin. 5), iar procedura art. 284 CPP nu oferă garanții adecvate pentru amenzi de până la 2%.",
+        "otherComments": "Proiectul a trecut tacit de Cameră, iar Expunerea de motive neagă fals orice impact asupra IMM-urilor, digitalizării sau drepturilor omului. Fiind la promulgare, se impune reexaminare ori sesizare CCR. În plus, Art. 4 pct. 1 lit. c) nu trebuie să definească subiecții sancționabili prin trimitere la HG 1016/2004."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 138668,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Furnizorii de servicii online trebuie să aibă în UE o adresă oficială unde primesc cererile de probe din dosarele penale",
-      "verdictShort": "Lege tehnică, de transpunere obligatorie, care nu dă procurorilor puteri noi. Doar obligă furnizorii digitali să aibă în UE un sediu sau un reprezentant care primește cererile de probe. Problemele sunt de redactare: validarea notificării nu are termen, iar schimbul de date între autorități nu are limite precise.",
-      "initiatorClaim": "Guvernul (MEDAT, cu ANCOM coinițiator) spune că transpune Directiva (UE) 2023/1544. Scopul declarat este ca autoritățile să comunice eficient cu furnizorii de servicii digitale, inclusiv cu cei din afara UE, pentru obținerea probelor electronice, în locul regulilor naționale fragmentate care încurcă piața internă.",
-      "realityCheck": "Legea nu creează temeiuri noi de acces la datele oamenilor: acestea rămân în Codul de procedură penală, în Legea 302/2004 și în Regulamentul (UE) 2023/1543. Ea obligă furnizorii de comunicații electronice, domenii, adrese IP, mesagerie și stocare care oferă servicii în UE să desemneze un sediu sau un reprezentant legal și să-l notifice, iar ANCOM devine autoritate centrală. Chichițele: notificarea e valabilă doar după o «validare» fără termen și fără cale de atac (art. 8 alin. 4), criteriul «număr semnificativ de utilizatori» este vag (art. 4 pct. 2–3), iar schimbul de date între ANCOM, poliție și procurori nu are limite clare (art. 6 alin. 3). Regimul sancționator, menționat la art. 7, nu apare în extrasul primit, deci proporționalitatea amenzilor nu poate fi evaluată.",
+      "durationMs": 70642,
+      "sourceEndMarker": "SF-18B0C381",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Marile platforme online trebuie să aibă un reprezentant în UE care să răspundă la cererile de probe electronice din dosarele penale",
+      "verdictShort": "Este o transpunere tehnică, utilă și obligatorie, a Directivei (UE) 2023/1544. Legea vine însă cu nouă luni întârziere și păstrează un termen (18 august 2026) care a expirat înainte de intrarea ei în vigoare, deși nerespectarea lui se amendează. Calibrarea amenzilor este și ea scăpată de sub control.",
+      "initiatorClaim": "Guvernul vrea ca anchetatorii să poată trimite rapid ordine de obținere a probelor electronice unui destinatar clar, aflat în UE, al fiecărui furnizor de servicii online. Așa ar dispărea fragmentarea regulilor naționale care împiedică piața unică.",
+      "realityCheck": "Legea obligă furnizorii de comunicații electronice, de nume de domenii și de servicii de comunicare sau stocare (cloud, mesagerie, rețele sociale) care oferă servicii în UE să desemneze un sediu sau un reprezentant legal. ANCOM devine Autoritatea Centrală care primește notificările. Problemele sunt trei: termenul de conformare de la art. 10 alin. (1) a expirat înainte ca legea să existe, deși art. 15 alin. (1) lit. a) îl sancționează; amenzile «între 10.000 lei și 2% din cifra de afaceri» devin incoerente pentru firmele mici, unde 2% poate fi sub minim; art. 8 alin. (6)-(7) adaugă o obligație de raportare către ANCOM pe care directiva nu o prevede.",
       "affectedGroups": [
         "IT & AI",
         "IMM & Antreprenori",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 3 alin. (2) scutește furnizorii stabiliți în România care oferă servicii exclusiv în România, la fel ca art. 1 alin. (4) din directivă. ISP-urile și aplicațiile strict locale scapă. O firmă românească de cloud, SaaS cu stocare sau aplicație cu chat care are clienți și în alt stat membru intră însă sub lege, potrivit art. 4 pct. 1 lit. c). Sarcina ei principală este o notificare, iar sediul desemnat poate fi, de regulă, chiar firma.",
-        "Art. 8 alin. (4) consideră notificarea corectă «doar dacă aceasta este validată» de autoritatea centrală, dar extrasul nu prevede termen de validare, motivarea respingerii sau cale de atac. Un furnizor care notifică la timp poate rămâne formal în neregulă din cauza întârzierii autorității.",
-        "Art. 6 alin. (3) permite schimbul de date, inclusiv personale, între ANCOM, poliție, autorități judiciare și alte instituții, «în vederea identificării și localizării furnizorilor», cu trimitere doar la GDPR și la Legea 190/2018. Poliția și parchetele prelucrează însă date după Directiva (UE) 2016/680 și Legea 363/2018, iar legea nu precizează categoriile de date schimbate și nici durata păstrării lor.",
-        "Art. 5 alin. (1) lit. b) impune obligația și furnizorilor stabiliți în alt stat membru participant care oferă servicii în România. Directiva (art. 3 alin. 1 lit. a) atribuie această obligație statului de stabilire. Rezultă un risc de competențe suprapuse, pe care art. 7 alin. (2) îl recunoaște indirect prin trimiterea la «conflicte pozitive sau negative de competență».",
-        "Art. 2 lit. d) aplică regimul și ordinelor emise în temeiul dreptului național. Dacă o platformă străină își alege reprezentantul în România, procurorii români îi pot adresa direct ordinele din CPP. Este un câștig de eficiență fără garanții noi, dar și fără puteri noi."
+        "Art. 10 alin. (1) obligă furnizorii care oferă servicii la 18.02.2026 să desemneze reprezentantul până la 18.08.2026. Legea intră în vigoare abia la 30 de zile de la publicare (art. 21), deci după acest termen. Cum art. 15 alin. (1) lit. a) sancționează depășirea termenului, contravenția ar fi consumată din prima zi de aplicare, pentru o perioadă în care obligația nu exista în dreptul intern. Același efect îi lovește pe cei care au început activitatea între februarie și mai 2026 (art. 10 alin. (2)).",
+        "Art. 15 alin. (2) introduce o «amendă judiciară» de la 100.000 lei până la 2% din cifra de afaceri mondială pentru neexecutarea ordinelor și lipsa de cooperare. O aplică «autoritatea competentă să asigure executarea» (art. 17 alin. (2)), adică posibil procurorul, iar contestarea se face după art. 284 CPP. Este un ordin de mărime cu totul diferit de amenzile judiciare din Codul de procedură penală, fără criterii de individualizare în lege.",
+        "Art. 16 alin. (2) (de la 10.000 lei la 2% din cifra de afaceri) și art. 15 alin. (2) (de la 100.000 lei la 2%) produc un maxim mai mic decât minimul pentru orice firmă cu cifra de afaceri sub 500.000 lei, respectiv sub 5 milioane lei. Legea nu spune ce se aplică atunci. Art. 15 alin. (3) are și o eroare de redactare: «va fi cuprinsă 100.000 lei și 200.000 lei», fără «între».",
+        "Art. 8 alin. (6)-(7), împreună cu art. 15 alin. (1) lit. d)-e), obligă furnizorii care și-au desemnat reprezentantul în alt stat membru să trimită separat și ANCOM dovada notificării, sub sancțiunea amenzii de până la 100.000 lei. Directiva prevede notificarea doar către autoritatea centrală din statul desemnării.",
+        "Art. 6 alin. (3) permite schimbul de date personale între ANCOM, poliție și autorități judiciare invocând doar GDPR și Legea nr. 190/2018. Prelucrările făcute de organele judiciare intră însă sub Legea nr. 363/2018 (Directiva 2016/680), nu sub GDPR. Scopul și categoriile de date schimbate nu sunt delimitate.",
+        "Expunerea de motive declară «nu se referă» la impactul asupra drepturilor fundamentale, asupra mediului de afaceri și asupra bugetului, deși legea instituie amenzi de până la 2% din cifra de afaceri mondială și o nouă atribuție pentru ANCOM. Mențiunea despre avizul Consiliului Legislativ este trunchiată."
       ],
-      "blindSpotsCaught": "Validarea notificării de la art. 8 alin. (4) este o condiție suplimentară față de directivă, care cere doar notificarea în scris a autorității centrale. Legând conformarea de un act al ANCOM fără termen, legea mută riscul întârzierii administrative pe furnizor. Art. 5 alin. (1) lit. b) extinde obligația asupra furnizorilor din alte state participante, deși directiva lasă controlul lor statului de stabilire. Textul ajuns la promulgare păstrează și erori de redactare («territoriul», «ștat», «dup caz», «ca-stocarea») care ar trebui corectate la publicare. Contextul de calendar: termenul de transpunere a expirat la 18 februarie 2026, iar Regulamentul (UE) 2023/1543 se aplică de la 18 august 2026, deci România transpune cu întârziere.",
-      "constitutionalityNote": "Legea este, în ansamblu, compatibilă cu Constituția și pune în aplicare obligații UE (art. 148). Noțiunile vagi preluate din directivă, precum «număr semnificativ de utilizatori» sau «direcționarea activităților», sunt acceptabile din perspectiva art. 1 alin. (5) atunci când sunt interpretate împreună cu dreptul UE, dar ar beneficia de clarificări în ghidul ANCOM. Validarea fără termen și fără cale de atac a notificării (art. 8 alin. 4) ridică probleme de previzibilitate și de acces la justiție (art. 21, art. 52), mai ales dacă de ea depind sancțiuni. Schimbul de date de la art. 6 alin. (3) atinge art. 26 (viața privată). În jurisprudența privind datele (deciziile 1258/2009 și 440/2014), CCR a cerut limite precise de scop, categorii și durată. Aici intensitatea ingerinței e redusă, pentru că vizează identificarea furnizorilor, nu conținutul comunicațiilor utilizatorilor.",
-      "euLawNote": "Este o transpunere în mare parte fidelă a Directivei (UE) 2023/1544, care urmărește tocmai eliminarea obligațiilor naționale divergente de reprezentare, contrare art. 56 TFUE. Legea respectă acest scop: furnizorii pot desemna sediul sau reprezentantul în orice stat membru participant, nu obligatoriu în România. Directiva 2018/958 nu se aplică, fiindcă nu e reglementată o profesie. În privința TRIS (2015/1535), art. 7 alin. (1) lit. a) exceptează de la notificare măsurile de transpunere a actelor UE obligatorii. Adăugirile naționale, precum mecanismul de validare și extinderea de la art. 5 alin. (1) lit. b), sunt procedurale, cu risc redus. Prelucrările din art. 6 alin. (3) făcute de poliție și parchete țin de Directiva (UE) 2016/680, nu de GDPR. Adoptarea reduce riscul unei proceduri de constatare a neîndeplinirii obligațiilor pentru întârzierea transpunerii.",
+      "blindSpotsCaught": "Camera Deputaților a adoptat proiectul tacit (art. 75 alin. (2) teza a III-a din Constituție), fără dezbatere, iar regimul amenzii judiciare a fost introdus ulterior, la cererea Ministerului Justiției, pentru corelarea cu proiectul separat de aplicare a Regulamentului (UE) 2023/1543. Dacă și acel proiect sancționează neexecutarea aceluiași ordin european de divulgare, există riscul unei duble sancționări pentru aceeași faptă (ne bis in idem, art. 50 din Cartă). Art. 15 alin. (2) nu prevede nicio regulă de concurs cu acel regim. Mai e o problemă: art. 2 lit. d) extinde mecanismul și la ordinele emise pur intern, ceea ce directiva permite, dar legea nu spune cum se raportează această cale la art. 3 alin. (3), care păstrează adresarea directă către furnizorii stabiliți în România.",
+      "constitutionalityNote": "Cel mai serios punct este retroactivitatea de facto. Termenul de la art. 10 alin. (1) este anterior intrării în vigoare, iar art. 15 alin. (1) lit. a) îl sancționează, ceea ce pune problema art. 15 alin. (2) din Constituție (neretroactivitatea, aplicabilă și contravențiilor potrivit jurisprudenței CCR) și a previzibilității cerute de art. 1 alin. (5). Limitele amenzilor care pot deveni inversate (minimul peste maxim) și lipsa criteriilor de individualizare pentru amenda judiciară de până la 2% din cifra de afaceri pot fi contestate pe temeiul calității legii și al proporționalității (art. 53). Accesul liber la justiție (art. 21) pare asigurat prin plângerea contravențională (art. 18) și prin art. 284 CPP. Fixarea competenței la judecătoria de la sediul ANCOM nu este, în sine, neconstituțională.",
+      "euLawNote": "Legea transpune Directiva (UE) 2023/1544 cu întârziere: termenul a fost 18.02.2026, deci România este expusă unei proceduri de constatare a neîndeplinirii obligațiilor. Pragul de 2% din cifra de afaceri mondială copiază modelul Regulamentului 2023/1543 și este compatibil cu cerința unor sancțiuni efective, proporționale și disuasive. Obligația suplimentară de la art. 8 alin. (6)-(7) pare să contravină interdicției din directivă de a impune furnizorilor obligații suplimentare față de cele decurgând din ea, deci este gold-plating cu efect restrictiv asupra libertății de a presta servicii (art. 56 TFUE). Directiva (UE) 2018/958 nu se aplică, deoarece nu e vorba de profesii reglementate. Pe TRIS (2015/1535): măsurile care doar transpun un act UE obligatoriu sunt exceptate de la notificare, dar cerința suplimentară vizează serviciile societății informaționale și ar fi trebuit cel puțin analizată din perspectiva notificării.",
       "senatForm": {
-        "articleRef": "Art. 8 alin. (4) – validarea notificării",
-        "proposalContent": "„(4) Notificarea transmisă ANCOM se consideră validată dacă ANCOM nu o respinge motivat în 10 zile lucrătoare de la primire. Respingerea se poate contesta în contencios administrativ. Furnizorul care a notificat în termen nu poate fi sancționat cât timp notificarea e în analiză sau în termenul de completare acordat.”",
-        "argumentation": "Alin. (4) leagă corectitudinea notificării de validarea autorității, dar nu fixează termen, motivare sau cale de atac. Un furnizor care notifică la timp poate rămâne în afara legii doar pentru că ANCOM nu răspunde. Un termen clar și o cale de atac dau previzibilitatea cerută de art. 1 alin. (5) din Constituție și acces la justiție (art. 21).",
-        "otherComments": "Legea e la promulgare: propunerea poate servi unei reexaminări sau unei modificări ulterioare. Tot atunci: art. 6 alin. (3) trimite doar la GDPR și Legea 190/2018, deși poliția și parchetele prelucrează date după Legea 363/2018; e util de precizat ce date se schimbă și în ce scop. Ghidul ANCOM ar trebui să explice și „număr semnificativ de utilizatori”."
+        "articleRef": "Art. 10 (corelat cu art. 15 alin. (1) lit. a))",
+        "proposalContent": "Art. 10 (1) Furnizorii de servicii prevăzuți la art. 5 alin. (1) care oferă servicii la data intrării în vigoare a prezentei legi desemnează sedii desemnate sau numesc reprezentanți legali în termen de 60 de zile de la această dată. (2) Furnizorii care încep să ofere servicii ulterior au această obligație în termen de 6 luni de la data începerii.",
+        "argumentation": "Termenul de 18.08.2026 a expirat înainte de intrarea în vigoare a legii (art. 21: 30 de zile de la publicare), iar art. 15 alin. (1) lit. a) sancționează nerespectarea lui. Fapta ar fi contravenție din prima zi, pentru o perioadă în care obligația nu exista în dreptul intern, contrar art. 15 alin. (2) și art. 1 alin. (5) din Constituție.",
+        "otherComments": "Legea e la promulgare, deci corectura mai poate veni doar prin cererea de reexaminare a Președintelui (art. 77 alin. 2) sau prin sesizarea CCR (art. 146 lit. a). Tot atunci ar trebui corectate: lipsa lui «între» la art. 15 alin. (3), minimul peste maxim când 2% din cifra de afaceri e sub prag (art. 15-16) și art. 8 alin. (6)-(7), obligație peste directivă."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 86118,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Un punct de contact pentru firmele care dețin probe electronice",
-      "verdictShort": "Extrasul descrie o lege predominant tehnică și utilă cooperării judiciare, fără indicii suficiente pentru un verdict alarmist. Riscul identificabil privește validarea notificărilor; evaluarea sancțiunilor rămâne imposibilă fără continuarea textului.",
-      "initiatorClaim": "Guvernul urmărește transpunerea Directivei (UE) 2023/1544 și eliminarea dificultăților de comunicare cu furnizorii care dețin probe electronice. Promite obținerea mai rapidă a probelor și obligații mai previzibile pentru firme.",
-      "realityCheck": "Art. 5 obligă furnizorii vizați să desemneze un sediu sau un reprezentant responsabil de primirea și executarea ordinelor emise în baza instrumentelor enumerate la art. 2; legea nu creează, prin acest mecanism, o competență generală nouă de acces la date. Art. 3 alin. (2) exceptează furnizorii stabiliți în România care servesc exclusiv piața românească, iar art. 5 alin. (3) permite reprezentarea comună, reducând costurile. Art. 8 alin. (4) condiționează însă îndeplinirea notificării de validarea autorității, fără un termen de validare vizibil în extras.",
+      "durationMs": 105924,
+      "sourceEndMarker": "SF-18B0C381",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Cine primește ordinele pentru probe digitale și ce amenzi riscă",
+      "verdictShort": "Legea creează un mecanism util pentru cooperarea judiciară, fără să instituie prin ea însăși supraveghere generalizată. Forma analizată are însă probleme serioase: termene deja expirate, limite de amendă contradictorii pentru operatorii mici și obligații administrative suplimentare insuficient justificate.",
+      "initiatorClaim": "Inițiatorii urmăresc transpunerea Directivei (UE) 2023/1544, astfel încât autoritățile să poată comunica eficient ordinele pentru obținerea probelor electronice. Desemnarea unui destinatar în UE ar trebui să reducă dificultățile cooperării transfrontaliere și incertitudinea furnizorilor.",
+      "realityCheck": "Legea obligă anumite categorii de furnizori să desemneze un sediu sau reprezentant în UE, să asigure resursele acestuia și să îndeplinească formalități de notificare, sub două regimuri distincte de sancționare. Furnizorii stabiliți în România care servesc exclusiv piața românească sunt exceptați, iar mai mulți furnizori pot utiliza același reprezentant, ceea ce limitează costurile. Problemele principale sunt termenele fără adaptare la promulgarea întârziată, amenzile dificil de aplicat coerent operatorilor mici și raportarea suplimentară către ANCOM chiar când destinatarul este desemnat în alt stat.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "IT & AI",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 5 și art. 8–9 introduc costuri de reprezentare, notificare și actualizare pentru furnizorii vizați, inclusiv IMM-uri. Extrasul nu instituie taxe sau obligații administrative directe pentru cetățeni și nu permite cuantificarea cheltuielilor suplimentare ale ANCOM.",
-        "Art. 8 alin. (4) poate face conformarea dependentă de rapiditatea autorității. Trebuie verificat dacă articolele neincluse prevăd termene, remedierea notificărilor incomplete și protecție împotriva sancționării pentru întârzieri imputabile autorității.",
-        "Art. 6 desemnează ANCOM ca autoritate de supraveghere a obligațiilor de reprezentare, fără să îi confere în extras atribuția generală de autorizare a accesului la probe. Pentru schimburile de date prevăzute la alin. (3), regimul aplicabil trebuie stabilit după scopul prelucrării, inclusiv eventuala incidență a Legii nr. 363/2018."
+        "Art. 10, coroborat cu art. 21: termenul de 18 august 2026 este deja depășit la data evaluării, 19 noiembrie 2026, când proiectul este indicat ca fiind la promulgare. Pot fi expirate și termenele individuale de șase luni. Lipsesc dispoziții tranzitorii pentru conformarea după intrarea în vigoare; trecutul nu poate fi sancționat în baza unei legi ulterioare.",
+        "Art. 15 alin. (2) și art. 16 alin. (2): minimul fix poate depăși maximul procentual. La o cifră de afaceri anuală de 1.000.000 lei, plafonul de 2% este 20.000 lei, sub minimul amenzii judiciare de 100.000 lei. Pentru contravenții, contradicția apare sub o cifră de afaceri de 500.000 lei, deoarece minimul este 10.000 lei.",
+        "Art. 15 alin. (3) prevede amenzi judiciare de 100.000–200.000 lei inclusiv când cifra de afaceri nu poate fi determinată; reprezentantul poate fi și persoană fizică. Art. 16 alin. (3) rezolvă numai situația primului an de activitate pentru amenzile procentuale contravenționale, fără o soluție expresă pentru operatorii mai vechi cu cifră de afaceri nulă sau nedeterminabilă.",
+        "Art. 8 alin. (6)–(7) și art. 15 alin. (1) lit. d)–e): desemnarea într-un alt stat membru generează și obligația transmiterii către ANCOM a dovezii notificării și a actualizărilor, sub amendă de 10.000–100.000 lei. Este o sarcină administrativă suplimentară, al cărei raport cu armonizarea europeană trebuie justificat.",
+        "Art. 18–20 schimbă semnificativ regimul contravențional: contestația se depune la judecătoria sediului autorității constatatoare, plata redusă reprezintă jumătate din amenda aplicată, iar prescripția aplicării sancțiunii devine trei ani. Aceste derogări pot crește costurile și expunerea financiară ale operatorilor.",
+        "Art. 15 alin. (2) și art. 17 alin. (2) instituie amenzi judiciare, distincte de contravențiile controlate de ANCOM. Remediul procedural este cel rezultat din aplicarea corespunzătoare a art. 284 CPP; contestația contravențională de 15 zile din art. 18 nu trebuie confundată cu acesta.",
+        "Art. 11 trimite la publicarea informațiilor notificate conform art. 9, categorie care include și declarația privind resursele, precum și datele reprezentanților persoane fizice. Delimitarea explicită a informațiilor publice ar reduce riscul divulgării unor date care nu sunt necesare contactării destinatarului.",
+        "Expunerea de motive declară lipsa impactului asupra mediului de afaceri și a drepturilor fundamentale, deși textul introduce costuri de reprezentare, organizare, notificare și sancțiuni importante. Nu sunt cuantificate nici resursele necesare ANCOM; această omisiune nu dovedește singură o încălcare constituțională bugetară.",
+        "Art. 21 încheie legea fără abrogări sau modificări exprese ale altor legi și fără termen pentru adoptarea deciziei ANCOM prevăzute la art. 8. Derogările cu efect practic sunt în special cele din art. 16 și art. 18–20; lipsa unui calendar pentru normele de notificare afectează posibilitatea conformării."
       ],
-      "blindSpotsCaught": "Extrasul se întrerupe la art. 9 alin. (1) lit. c), iar art. 8 trimite la un art. 10 nefurnizat: termenele, sancțiunile și eventualele garanții ulterioare nu pot fi presupuse. Identificatorii, stadiul și documentele integrale nu au putut fi verificate extern. Dacă stadiul indicat, la promulgare, este corect, termenul pentru amendamente este depășit, iar un e-mail către comisie nu redeschide procedura; propunerea poate deveni relevantă într-o eventuală reexaminare sau modificare legislativă.",
-      "constitutionalityNote": "Nu rezultă din extras o neconstituționalitate evidentă. Art. 1 alin. (5) din Constituție impune ca mecanismul validării, termenele și răspunderea pentru neconformare să fie clare și previzibile. Art. 23 alin. (12) privește stabilirea și aplicarea pedepselor penale; nu justifică singur o critică a acestor obligații administrative, iar extrasul nu conține incriminări. Respectarea art. 26, 28 și 53 trebuie evaluată și prin normele care autorizează obținerea datelor: desemnarea unui destinatar nu înlocuiește condițiile legale și controlul aplicabile fiecărui ordin.",
-      "euLawNote": "Mecanismul descris corespunde în linii generale obiectivului Directivei (UE) 2023/1544 și permite alegerea destinatarului într-un stat membru eligibil, fără a impune tuturor furnizorilor un reprezentant în România. Directiva (UE) 2018/958 privește restricțiile asupra accesului la profesii reglementate sau exercitării acestora; extrasul nu instituie o asemenea restricție, deci nu rezultă obligația testului special prevăzut de aceasta. Pentru TRIS, caracterul digital al serviciilor nu este suficient: art. 7 alin. (1) lit. (a) din Directiva (UE) 2015/1535 exceptează măsurile prin care statele se conformează actelor obligatorii ale Uniunii. Eventualele cerințe naționale suplimentare trebuie analizate separat; simpla invocare a transpunerii nu le exceptează automat. Nu apare o reglementare distinctă a inteligenței artificiale și nu este demonstrat un monopol.",
+      "blindSpotsCaught": "Principalul detaliu este conflictul dintre calendarul european preluat în art. 10 și intrarea în vigoare viitoare, la 30 de zile după publicare, fără perioadă tranzitorie. Separat, procentul de 2% nu garantează proporționalitatea: pentru operatorii mici produce chiar un maxim inferior minimului legal. Analiza privește forma Camerei Deputaților furnizată; adoptarea tacită menționată la final nu dovedește că Senatul a promulgabilizat exact același text, iar forma definitivă trebuie confruntată înaintea unui demers juridic.",
+      "constitutionalityNote": "Problemele cele mai solide privesc art. 1 alin. (5) din Constituție: limite de sancționare contradictorii, lipsa regulilor tranzitorii și corelarea insuficientă a obligației de notificare cu actul ANCOM necesar aplicării ei. Art. 15 alin. (2) exclude sancționarea unor conduite anterioare intrării în vigoare; identificarea unei categorii de furnizori printr-o dată trecută nu reprezintă, singură, retroactivitate. Garanția legalității din art. 23 alin. (12) trebuie analizată în raport cu natura sancțiunilor, inclusiv cu caracterul punitiv al celor contravenționale, fără confundarea lor cu pedepsele penale. Minimele ridicate pentru persoane fizice și operatori mici ridică probleme de proporționalitate în raport cu art. 44 și 45, iar competența teritorială din art. 18 trebuie apreciată prin prisma accesului efectiv la justiție, garantat de art. 21. Publicarea datelor necesită respectarea art. 26. Nu rezultă automat neconstituționalitatea întregului mecanism și nici o încălcare demonstrată a art. 138 alin. (5) doar din lipsa estimărilor financiare.",
+      "euLawNote": "Mecanismul urmărește legitim Directiva (UE) 2023/1544 și poate reduce fragmentarea pieței unice; posibilitatea unui reprezentant comun și desemnarea în alt stat membru sunt elemente favorabile concurenței. Obligațiile suplimentare din art. 8 alin. (6)–(7) trebuie confruntate cu interdicția directivei de a impune obligații suplimentare în această materie, iar amenzile trebuie să rămână efective, proporționale și disuasive. Directiva (UE) 2018/958 privește proporționalitatea reglementării profesiilor: desemnarea unui reprezentant nu instituie aici, prin ea însăși, o profesie reglementată sau un monopol profesional. TRIS, potrivit Directivei (UE) 2015/1535, nu devine obligatoriu numai pentru că sunt implicați furnizori digitali; art. 7 alin. (1) lit. a) exceptează măsurile care execută obligații obligatorii ale UE, în limitele acestora. Eventualele cerințe naționale suplimentare necesită analiză separată pentru a stabili dacă reprezintă reguli notificabile privind serviciile societății informaționale; extrasul nu dovedește existența sau absența notificării. Art. 11 trebuie aplicat conform minimizării datelor din GDPR. Legea nu creează un temei autonom pentru orice acces la date: legalitatea ordinelor și garanțiile procedurale rezultă din instrumentele enumerate la art. 2.",
       "senatForm": {
-        "articleRef": "Art. 8 alin. (4)",
-        "proposalContent": "Pentru notificările adresate ANCOM, obligația se consideră îndeplinită la data transmiterii tuturor informațiilor prevăzute la art. 9. ANCOM comunică motivat eventualele lipsuri în 10 zile lucrătoare și acordă minimum 10 zile lucrătoare pentru completare. Întârzierea validării de către ANCOM nu este imputabilă furnizorului.",
-        "argumentation": "Conformarea trebuie să depindă de conduita furnizorului, nu de durata procesării administrative. Textul propus păstrează verificarea informațiilor, introduce termene previzibile și protejează inclusiv IMM-urile împotriva consecințelor întârzierii autorității, în acord cu art. 1 alin. (5) din Constituție.",
-        "otherComments": "Propunere limitată la notificările către ANCOM, fără impunerea unor termene autorităților străine. Necesită corelare cu articolele nefurnizate privind termenele și sancțiunile. La promulgare, poate fi valorificată printr-o eventuală reexaminare sau modificare legislativă; petiția cetățeanului nu este amendament parlamentar."
+        "articleRef": "Art. 10 alin. (3) – nou",
+        "proposalContent": "(3) Termenele de desemnare și notificare prevăzute de prezenta lege nu pot expira mai devreme de 90 de zile de la intrarea sa în vigoare. Neîndeplinirea acestor obligații anterior intrării în vigoare nu se sancționează.",
+        "argumentation": "Termenul de 18 august 2026 este deja depășit, iar unele termene individuale pot fi expirate la intrarea în vigoare. Este necesară o perioadă efectivă de conformare și prevenirea interpretărilor retroactive, potrivit art. 1 alin. (5) și art. 15 alin. (2) din Constituție. Întârzierea transpunerii nu justifică sancționarea trecutului.",
+        "otherComments": "La promulgare, un e-mail către comisie nu mai intră în procedura obișnuită de amendare. Textul poate fundamenta un demers pentru reexaminare, solicitată de Președinte potrivit art. 77 alin. (2). Verificați forma definitivă a Senatului; separat, trebuie corectate limitele contradictorii ale amenzilor."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-11T13:35:26.047Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-19T16:46:34.558Z",
+      "reasons": [
+        "text",
+        "metoda",
+        "model"
+      ]
+    }
+  ]
 }

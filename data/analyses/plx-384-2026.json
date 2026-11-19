@@ -2,102 +2,137 @@
   "billId": "PL-x 384/2026",
   "slug": "plx-384-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T02:01:53.895Z",
+  "updatedAt": "2026-11-19T16:46:06.775Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 17489,
+    "ordinanceChars": 0,
+    "memoChars": 5285,
+    "memoSupplied": 5285,
+    "marker": "SF-57162876"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-384-2026.json",
+    "form": "senat",
+    "textHash": "57162876faf5fbd0",
+    "fetchedAt": "2026-11-19T10:19:53.024Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 6,
+    "riskScore": 6.3,
     "riskLevel": "yellow",
-    "plainTitle": "Fermierii pot da 0,5 euro/ha asociațiilor agricole, direct din contul de subvenție",
-    "summaryTlDr": "Ideea unei cotizații voluntare pentru asociațiile fermierilor e legitimă și ieftină pentru plătitori, dar textul adoptat de Senat e haotic. Criteriile de reprezentativitate se contrazic, iar debitul direct legat de contul de subvenție e formulat ca obligație pentru toți fermierii. Filtrele de acces favorizează câteva federații mari, deja instalate.",
-    "initiatorClaim": "Organizațiile profesionale și interprofesionale agricole nu au finanțare stabilă ca să urmărească și să influențeze politica agricolă și PAC. O contribuție voluntară a fermierilor, colectată prin APIA și bănci, le-ar profesionaliza și le-ar reduce dependența de banii MADR.",
-    "realityCheck": "Fermierii cu cel puțin 10 ha (sau echivalent animale) bifează în cererea unică plata a 0,5 euro/ha către o asociație dintr-o listă aprobată anual de MADR. Banca le ia suma automat a doua zi după ce intră subvenția. Lista e filtrată prin criterii contradictorii și greu de atins: 200 de membri cu vechime de 10 ani, 5 angajați permanenți, loc în grupuri consultative naționale sau europene, „notorietate”. Practic, lista se reduce la câteva federații consacrate. În plus, art. 4 alin. (10) e scris ca obligație pentru toți fermierii cu cont bancar, nu doar pentru cei care au optat.",
+    "plainTitle": "Fermierii pot dona 0,5 euro/ha din subvenție asociațiilor agricole mari, prin debit direct",
+    "summaryTlDr": "Ideea unei cotizații voluntare de 0,5 euro/ha este rezonabilă, dar textul e contradictoriu și ar putea fi citit ca debit bancar obligatoriu. Criteriile de reprezentativitate favorizează câteva organizații vechi și mari, iar procedura are trimiteri greșite și o adresă de e-mail scrisă greșit chiar în lege.",
+    "initiatorClaim": "Inițiatorii spun că organizațiile profesionale agricole nu au finanțare stabilă ca să-i reprezinte pe fermieri în elaborarea politicilor PAC. Propun ca fermierii să poată direcționa voluntar o mică sumă pe hectar către organizații recunoscute.",
+    "realityCheck": "Legea fixează 0,5 euro/ha sau echivalent UVM pentru fermierii activi cu cel puțin 10 ha, colectați prin debit direct din contul de subvenție a doua zi după plată (art. 4 alin. (10)-(12)). Accesul la bani e rezervat organizațiilor care trec un set suprapus și contradictoriu de filtre: 200 de membri cu vechime de 10 ani, conferințe anuale 5 ani la rând, praguri de 3%, 5 angajați pe durată nedeterminată, prezență în grupuri consultative UE și hotărâre de reprezentativitate în baza legii dialogului social, ori criteriul vag de «notorietate». Rezultatul practic e o barieră de intrare pentru asociațiile noi sau mici, iar formularea «vor încheia» pune sub semnul întrebării caracterul voluntar.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "IMM & Antreprenori",
-      "Contabili & Fiscalitate",
-      "Justiție & Drepturi Civile"
+      "Justiție & Drepturi Civile",
+      "Contabili & Fiscalitate"
     ],
     "senatForm": {
-      "articleRef": "Art. 4 alin. (10)-(12)",
-      "proposalContent": "(10) Numai fermierii care au optat potrivit alin. (6) semnează cu banca un mandat de debitare directă, revocabil oricând, fără costuri. (11) Banca virează cotizația organizației nominalizate în cel mult 5 zile lucrătoare de la încasarea subvenției, numai în baza mandatului. (12) Refuzul sau lipsa mandatului nu afectează plata subvenției și nici alte drepturi.",
-      "argumentation": "Actualul alin. (10) obligă toți fermierii cu cerere unică și cont bancar să încheie convenția de debit direct, indiferent dacă au optat, ceea ce contrazice caracterul voluntar din art. 1 și 3. Un mandat de debitare impus prin lege nu exprimă consimțământul liber cerut de regulile SEPA, iar băncilor li se impun operațiuni fără reguli clare de cost și răspundere.",
-      "otherComments": "De corectat și: art. 3 alin. (2) trimite la OUG 11/2021 (anii 2021-2022), art. 4 alin. (1) la Reg. 1306/2013, abrogat de Reg. (UE) 2021/2116; alin. (5) și (8) se contrazic privind angajații; adresa de e-mail din art. 5 are o greșeală („aqricole”) și nu își are locul într-o lege; pragul de 10 ha îi exclude pe micii fermieri de la plata voluntară."
+      "articleRef": "Art. 4 alin. (10) și (11)",
+      "proposalContent": "Art. 4 alin. (10): «Numai fermierii care au optat pentru plata cotizației potrivit alin. (6) pot încheia cu banca un mandat de debitare directă, cu indicarea asociației beneficiare și a sumei. Mandatul este revocabil oricând, fără costuri, iar lipsa opțiunii nu poate afecta în niciun fel plata subvenției.»",
+      "argumentation": "Forma actuală («vor încheia») poate fi citită ca obligație pentru toți fermierii cu cont bancar, ceea ce contrazice caracterul voluntar din titlu și art. 3. Debitarea directă presupune mandatul expres al plătitorului (Legea nr. 209/2019). Formularea propusă asigură previzibilitatea (art. 1 alin. (5) Constituție) și protejează fermierii care nu optează.",
+      "otherComments": "Corelați art. 4 alin. (5) cu alin. (8) (5 angajați) și alin. (4) cu alin. (7) și (15). Eliminați adresa de e-mail greșită («aqricole»). Trimiterea din art. 4 alin. (1) să fie la art. 3. Actualizați trimiterile la OUG 11/2021 și Reg. 907/2014. Înființați comisia de contestații și înlocuiți criteriul «notorietății» din alin. (13) lit. c)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 59376,
-      "riskScore": 6,
-      "riskLevel": "yellow",
-      "plainTitle": "Cotizație din subvențiile APIA direcționată doar către marile organizații agricole „de notorietate”",
-      "verdictShort": "Deși cotizația de 0,5 euro/hectar este declarată voluntară, legea folosește infrastructura publică APIA pentru a direcționa banii exclusiv către un cerc închis de organizații mari. Textul adoptat de Senat conține contradicții flagrante de la un alineat la altul, trimiteri la legi expirate și criterii subiective („organizație de notorietate, etalon”).",
-      "initiatorClaim": "Inițiatorii susțin că vor să creeze un mecanism voluntar și transparent prin care fermierii să poată redirecționa din subvenții o cotizație către organizațiile profesionale și interprofesionale, pentru a stimula competiția sănătoasă între acestea și a le profesionaliza în raport cu politicile europene.",
-      "realityCheck": "În loc să încurajeze competiția, Art. 4 instituie bariere de intrare croite pentru câteva federații deja consacrate (200 de membri cu vechime de 10 ani, minimum 5 angajați permanenți, 4 conferințe pe an timp de 5 ani consecutivi) sau permite alegerea arbitrară a unei organizații considerate „de notorietate” și „etalon”. În plus, Art. 4 alin. (10) este redactat imperativ, obligând la deschiderea unui cont atașat în regim de debit direct fără a mai menționa că obligația li se aplică doar fermierilor care au bifat opțiunea voluntară.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 80428,
+      "sourceEndMarker": "SF-57162876",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Cotizație «voluntară» pe subvențiile fermierilor, direcționată prin bănci către un club închis de asociații",
+      "verdictShort": "Sub pretextul unei cotizații voluntare pentru susținerea fermierilor, proiectul ridică bariere oligopoliste care direcționează banii către câteva organizații vechi și conține contradicții grave ce încalcă standardele constituționale de claritate a legii.",
+      "initiatorClaim": "Inițiatorii susțin că fermierii vor putea direcționa voluntar 1-5 lei/ha către asociații profesionale reprezentative, întărind capacitatea acestora de a reprezenta sectorul în relația cu autoritățile naționale și UE și crescând absorbția fondurilor PAC.",
+      "realityCheck": "În realitate, textul adoptat de Senat stabilește o sumă fixă de 0,5 euro/ha (sau echivalent UVM) și impune criterii de acces extrem de restrictive (200 de membri cu vechime de minimum 10 ani, 5 angajați permanenți, 4 conferințe pe an timp de 5 ani), dublate de o excepție arbitrară («organizație etalon de notorietate»). Deși cotizația este numită voluntară, Art. 4 alin. (10) obligă imperativ toți fermierii cu cont bancar care depun cerere unică APIA să încheie convenții de debit direct pe contul de subvenții, în timp ce deturnarea fondurilor se sancționează cu o amendă simbolică și inaplicabilă.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Contradicție directă în același articol: Art. 4 alin. (5) prevede că „numărul de salariați nu constituie indicator determinant pentru stabilirea reprezentativității”, însă chiar trei alineate mai jos, Art. 4 alin. (8) impune obligatoriu „minimum 5 angajați permanenți cu contracte de muncă pe termen nedeterminat”. Similar, alin. (8) cere o vechime a organizației de minimum 5 ani, dar alin. (4) lit. a) cere 200 de membri cu o vechime de minimum 10 ani.",
-        "Criterii arbitrare și neconstituționale de selecție: Art. 4 alin. (13) lit. c) stabilește că, dacă nicio organizație nu îndeplinește criteriile formale de la lit. a) sau b), „se va opta pentru organizația recunoscută de sectoarele respective ca fiind de notorietate, este considerată etalon pentru sector” — noțiuni pur subiective, lăsate la discreția unei comisii din MADR.",
-        "Redactare imperativă privind conturile bancare de subvenții: Deși Art. 3 alin. (1) și Art. 4 alin. (6) vorbesc de o opțiune voluntară pentru fermierii cu peste 10 ha, Art. 4 alin. (10) prevede imperativ că „Fermierii care depun cerere unică de plată și au cont bancar deschis vor încheia un acord/convenție de plată atașat contului de încasare a subvenției” în regim de debit direct, generând confuzie și birocrație bancară la depunerea cererilor APIA.",
-        "Trimitere la legislație ieșită din vigoare și confuzie privind beneficiarii: Art. 3 alin. (2) definește fermierii activi prin trimitere la OUG nr. 11/2021 (act normativ aplicabil doar în anii 2021 și 2022), iar Art. 3 alin. (3) alocă sumele exclusiv organizațiilor reprezentative, în timp ce Art. 4 alin. (6) și Art. 6 alin. (1) desemnează ca beneficiare asociațiile profesionale membre în acestea."
+        "Oligopol și autocontradicții flagrante (Art. 4 alin. 4, 5, 8 și 13): Alin. (5) prevede că numărul de salariați nu este determinant, dar alin. (8) impune obligatoriu cel puțin 5 angajați permanenți; alin. (4) cere 200 de membri cu vechime de 10 ani și 4 conferințe anual timp de 5 ani, blocând organizațiile noi, în timp ce alin. (13) lit. c) lasă o portiță arbitrară pentru «organizații de notorietate/etalon».",
+        "Capcana debitului direct impus pe subvenții (Art. 4 alin. 10–12): Formularea «Fermierii care depun cerere unică de plată și au cont bancar deschis vor încheia un acord/convenție de plată...» nu este condiționată de exprimarea opțiunii voluntare și impune băncilor viramente automate a doua zi după încasarea subvenției, fără reguli privind comisioanele sau revocarea.",
+        "Sancțiune simbolică și inaplicabilă pentru deturnarea banilor (Art. 7 alin. 6–7): Cheltuirea ilegală a cotizațiilor (potențial milioane de euro anual) se sancționează cu o amendă de doar 5.000–10.000 lei, fără obligația de restituire a sumelor și fără ca legea să desemneze cine constată și aplică contravenția.",
+        "Discrepanță între Expunerea de Motive și lege: Expunerea promite o contribuție flexibilă de «1-5 lei/ha, conform opțiunii personale», însă Art. 4 alin. (1) fixează cuantumul unic la 0,5 euro/ha sau echivalent UVM pentru exploatațiile de cel puțin 10 ha (Art. 3 alin. 2).",
+        "Colectare masivă de date personale (Art. 4 alin. 13 lit. f): Obligă asociațiile să transmită anual către MADR lista completă a membrilor, cu adrese și date de contact, fără garanții privind protecția datelor personale."
       ],
-      "blindSpotsCaught": "Pe lângă discrepanța dintre Expunerea de motive (care vorbește de o sumă variabilă de 1-5 lei/ha la alegerea fermierului) și Art. 4 alin. (1) (care fixează suma la 0,5 euro/ha), Art. 4 alin. (13) lit. f) obligă asociațiile să trimită anual pe e-mail la MADR „lista la zi a membrilor, cu informații privind adrese și date de contact”, o colectare masivă de date personale ale fermierilor fără garanții de securitate și contrară principiului minimizării datelor din GDPR.",
-      "constitutionalityNote": "Proiectul încalcă flagrant Art. 1 alin. (5) din Constituție privind calitatea, claritatea și previzibilitatea legii (jurisprudența constantă a CCR și Legea nr. 24/2000). Contradicțiile interne dintre Art. 4 alin. (5) și alin. (8), dintre Art. 3 alin. (3) și Art. 6 alin. (1), trimiterea la OUG nr. 11/2021 (aplicabilă doar pentru 2021-2022) și folosirea unor sintagme nedefinite legal precum „organizație de notorietate” sau „considerată etalon pentru sector” (Art. 4 alin. 13 lit. c) creează arbitrariu administrativ și încalcă egalitatea în drepturi (Art. 16) și libertatea de asociere (Art. 40).",
-      "euLawNote": "Deși cotizațiile voluntare nu încalcă în sine Art. 107 TFUE (ajutorul de stat), utilizarea infrastructurii publice de plăți a APIA (gestionară a fondurilor FEGA/FEADR) exclusiv în favoarea unor entități selectate pe criterii disproporționate (20 de conferințe în 5 ani, 5 salariați permanenți) sau pe baza „notorietății” distorsionează concurența între formele asociative din agricultură, contrar principiilor Regulamentului (UE) nr. 1308/2013 (OCP). De asemenea, transmiterea anuală a adreselor și datelor de contact ale tuturor membrilor (Art. 4 alin. 13 lit. f) contravine art. 5 alin. (1) lit. c) din Regulamentul (UE) 2016/679 (GDPR).",
+      "blindSpotsCaught": "Legea conține trimiteri la acte deja expirate sau abrogate: OUG nr. 11/2021 (valabilă doar pentru 2021–2022) și Regulamentele (UE) nr. 1306/2013 și nr. 907/2014 (abrogate din 2023). În plus, calendarul este imposibil matematic: depunerea se face până la 15 februarie, verificarea și contestația pot dura 30 de zile (până pe 17 martie), dar MADR trebuie să publice lista finală pe 1 martie (Art. 6 alin. 1). Legea conține și o trimitere greșită la Art. 3 în Art. 7 alin. (4) și fixează în textul legii o adresă de e-mail a unei direcții din minister.",
+      "constitutionalityNote": "Proiectul prezintă vicii severe de neconstituționalitate raportat la Art. 1 alin. (5) (calitatea și previzibilitatea legii): contradicții interne directe în Art. 4 (alin. 5 vs. alin. 8; valabilitate certificare 5 ani la Art. 5 alin. 3 vs. depunere anuală integrală la Art. 4 alin. 14), trimiteri la acte abrogate și omisiunea stabilirii agentului constatator pentru contravenția din Art. 7 alin. (6) (viciu sancționat constant de CCR, neputând fi suplinit prin HG). Criteriile arbitrare («notorietate/etalon») și barierele artificiale afectează neutralitatea statului, libertatea de asociere (Art. 40) și concurența loială (Art. 135).",
+      "euLawNote": "Mecanismul de reținere/debit direct legat de cererea unică APIA și redactarea imperativă a Art. 4 alin. (10) riscă să încalce Art. 44 din Regulamentul (UE) 2021/2116 (principiul plății integrale a subvențiilor PAC către fermieri); legea citează eronat regulamentele PAC abrogate (1306/2013 și 907/2014). Contrar afirmației din Expunerea de Motive, Art. 107 TFUE nu exclude automat calificarea ca ajutor de stat dacă statul facilitează colectarea selectivă pentru un oligopol. Apar riscuri pe GDPR (Art. 4 alin. 13 lit. f – predarea datelor membrilor) și PSD2 (mandate de debit direct impuse băncilor). Directivele (UE) 2018/958 și 2015/1535 (TRIS) nu sunt incidente direct.",
       "senatForm": {
-        "articleRef": "Art. 3 alin. (2) și Art. 4 alin. (4)-(10), (13)",
-        "proposalContent": "La Art. 3 alin. (2) se înlocuiește trimiterea la OUG 11/2021 cu cadrul PAC 2023-2027. La Art. 4 se elimină criteriile restrictive/contradictorii de la alin. (4), (8) și (13) lit. c), iar la alin. (10) se precizează expres că acordul de debit direct se încheie doar de către fermierii care au optat voluntar conform alin. (6), fără deschiderea unui cont bancar suplimentar.",
-        "argumentation": "Art. 4 alin. (5) prevede că numărul de salariați nu este determinant, dar alin. (8) impune minimum 5 angajați permanenți, iar alin. (4) cere 200 de membri cu vechime de 10 ani și 20 de conferințe în 5 ani. Alin. (13) lit. c) folosește termeni vagi („notorietate”, „etalon”), încălcând Art. 1 alin. (5) din Constituție, iar alin. (10) este redactat imperativ pentru toți fermierii.",
-        "otherComments": "Trebuie corelat Art. 3 alin. (3) (alocarea exclusivă către organizațiile reprezentative) cu Art. 4 alin. (6) și Art. 6 alin. (1) (care desemnează ca beneficiare asociațiile profesionale membre). De asemenea, la Art. 4 alin. (13) lit. f), transmiterea anuală pe e-mail la MADR a adreselor tuturor membrilor încalcă principiul minimizării datelor din Regulamentul GDPR."
-      }
+        "articleRef": "Art. 4 alin. (4), (8), (10)-(13) și Art. 7",
+        "proposalContent": "Eliminarea criteriilor restrictive din Art. 4 alin. (4), (8) și (13) lit. c) (vechime 10 ani, conferințe, 5 angajați, «notorietate»). Clarificarea la Art. 4 alin. (10) că debitul direct se încheie strict de fermierii care optează voluntar, cu drept de revocare. Stabilirea agentului constatator și a obligației de restituire la Art. 7 alin. (6).",
+        "argumentation": "Art. 4 se autocontrazice (alin. 5 exclude criteriul salariaților, alin. 8 impune 5 angajați) și creează un oligopol prin bariere arbitrare. Alin. (10) formulează debitul direct imperativ pentru toți fermierii, contrar caracterului voluntar și Reg. (UE) 2021/2116. Art. 7 alin. (6) nu indică agentul constatator, încălcând Art. 1 alin. (5) din Constituție.",
+        "otherComments": "Actualizați trimiterile abrogate: OUG 11/2021 și Reg. (UE) 1306/2013 și 907/2014 (înlocuite de Reg. 2021/2116). Corectați termenele imposibile (depunere 15 feb + 30 zile verificare/contestație vs. afișare 1 mart), eliminați adresa de email din lege, corectați trimiterea la Art. 3 din Art. 7 alin. (4) și protejați datele membrilor conform GDPR."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 188038,
+      "durationMs": 64152,
+      "sourceEndMarker": "SF-57162876",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Fermierii pot da 0,5 euro/ha asociațiilor agricole, direct din contul de subvenție",
-      "verdictShort": "Ideea unei cotizații voluntare pentru asociațiile fermierilor e legitimă și ieftină pentru plătitori, dar textul adoptat de Senat e haotic. Criteriile de reprezentativitate se contrazic, iar debitul direct legat de contul de subvenție e formulat ca obligație pentru toți fermierii. Filtrele de acces favorizează câteva federații mari, deja instalate.",
-      "initiatorClaim": "Organizațiile profesionale și interprofesionale agricole nu au finanțare stabilă ca să urmărească și să influențeze politica agricolă și PAC. O contribuție voluntară a fermierilor, colectată prin APIA și bănci, le-ar profesionaliza și le-ar reduce dependența de banii MADR.",
-      "realityCheck": "Fermierii cu cel puțin 10 ha (sau echivalent animale) bifează în cererea unică plata a 0,5 euro/ha către o asociație dintr-o listă aprobată anual de MADR. Banca le ia suma automat a doua zi după ce intră subvenția. Lista e filtrată prin criterii contradictorii și greu de atins: 200 de membri cu vechime de 10 ani, 5 angajați permanenți, loc în grupuri consultative naționale sau europene, „notorietate”. Practic, lista se reduce la câteva federații consacrate. În plus, art. 4 alin. (10) e scris ca obligație pentru toți fermierii cu cont bancar, nu doar pentru cei care au optat.",
+      "plainTitle": "Fermierii pot dona 0,5 euro/ha din subvenție asociațiilor agricole mari, prin debit direct",
+      "verdictShort": "Ideea unei cotizații voluntare de 0,5 euro/ha este rezonabilă, dar textul e contradictoriu și ar putea fi citit ca debit bancar obligatoriu. Criteriile de reprezentativitate favorizează câteva organizații vechi și mari, iar procedura are trimiteri greșite și o adresă de e-mail scrisă greșit chiar în lege.",
+      "initiatorClaim": "Inițiatorii spun că organizațiile profesionale agricole nu au finanțare stabilă ca să-i reprezinte pe fermieri în elaborarea politicilor PAC. Propun ca fermierii să poată direcționa voluntar o mică sumă pe hectar către organizații recunoscute.",
+      "realityCheck": "Legea fixează 0,5 euro/ha sau echivalent UVM pentru fermierii activi cu cel puțin 10 ha, colectați prin debit direct din contul de subvenție a doua zi după plată (art. 4 alin. (10)-(12)). Accesul la bani e rezervat organizațiilor care trec un set suprapus și contradictoriu de filtre: 200 de membri cu vechime de 10 ani, conferințe anuale 5 ani la rând, praguri de 3%, 5 angajați pe durată nedeterminată, prezență în grupuri consultative UE și hotărâre de reprezentativitate în baza legii dialogului social, ori criteriul vag de «notorietate». Rezultatul practic e o barieră de intrare pentru asociațiile noi sau mici, iar formularea «vor încheia» pune sub semnul întrebării caracterul voluntar.",
       "affectedGroups": [
         "Agricultură & Mediu",
-        "IMM & Antreprenori"
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 4 alin. (10): „Fermierii care depun cerere unică de plată și au cont bancar deschis vor încheia un acord/convenție de plată” îi obligă pe toți, nu doar pe cei care au optat potrivit alin. (6). Asta contrazice caracterul voluntar din art. 1 și art. 3. Alin. (11)-(12) impun băncii să mute automat suma a doua zi după încasarea subvenției, fără termene, costuri sau răspundere stabilite.",
-        "Art. 4 alin. (1) fixează un cuantum de 0,5 euro/ha „sau echivalent UVM”, deși expunerea de motive promite 1-5 lei/ha „conform opțiunii personale”. Conversia UVM-hectar nu e definită. Trimiterea la „fermierii prevăzuți la art. 1” e goală, pentru că art. 1 nu indică niciun fermier.",
-        "Art. 3 alin. (2) limitează plătitorii la fermierii activi cu minimum 10 ha sau echivalent UVM și trimite la OUG 11/2021, care privea schemele din 2021-2022. Art. 4 alin. (6) vorbește însă despre toți fermierii care depun cerere unică. Nu e clar cine poate opta, iar micii fermieri sunt excluși chiar de la contribuția voluntară.",
-        "Reprezentativitatea e definită de patru ori, contradictoriu. Art. 4 alin. (4) cere cumulativ 200 de membri cu vechime de 10 ani și conferințe anuale timp de 5 ani. Alin. (7) cere alternativ 3% din suprafață, efective sau producție. Alin. (8) cere 5 ani de activitate și 5 angajați permanenți, deși alin. (5) spune că numărul de salariați nu e determinant. Alin. (9) cere loc într-un grup consultativ național sau european.",
-        "Art. 4 alin. (13) spune că cerințele sunt cumulative „cu excepția celor de la lit. c)”, iar alin. (15) spune că lit. a)-c) „pot fi mutual exclusive”. Lit. c) permite alegerea organizației „de notorietate”, „considerată etalon pentru sector”. Aceste criterii nu au conținut juridic și lasă selecția la discreția ministerului.",
-        "Beneficiarul se schimbă de la un articol la altul. Titlul și art. 4 alin. (6) vorbesc de asociații membre în organizații reprezentative, art. 1 și art. 3 alin. (3) de organizațiile înseși, iar art. 4 alin. (12) de „organizația/organizațiile beneficiare”.",
-        "Art. 5 alin. (1) înscrie în lege o direcție internă a MADR și o adresă de e-mail cu greșeală („politici.aqricole@madr.ro”). „Comisia de specialitate” și „comisia de soluționare a contestațiilor” nu au compoziție sau procedură. Nici termenele nu se leagă: dosarele se depun până la 15 februarie, verificarea durează 15 zile, contestația 10 zile, soluționarea 5 zile, deci procedura depășește data de 1 martie la care trebuie publicată lista (art. 6 alin. 1).",
-        "Certificarea e valabilă 5 ani (art. 5 alin. 3), dar documentele se depun anual (art. 4 alin. 14), iar lista se reface anual (art. 6 alin. 1): trei regimuri suprapuse. Fermierii care plătesc nu primesc nicio raportare publică, singurul raport anual merge la MADR. „Monitorizarea” promisă fermierilor în expunere nu apare în textul extras, care se oprește la art. 7 lit. l)."
+        "Art. 4 alin. (10): «Fermierii care depun cerere unică de plată și au cont bancar deschis vor încheia un acord/convenție de plată» sună ca o obligație generală, nu limitată la cei care au optat conform alin. (6). Asta contrazice titlul și art. 3. Nu sunt reglementate revocarea acordului și costurile bancare.",
+        "Criteriile de reprezentativitate se bat cap în cap. Art. 4 alin. (5) spune că numărul de salariați nu e determinant, iar alin. (8) cere minimum 5 angajați permanenți pe durată nedeterminată. Alin. (4) cere două criterii cumulative, alin. (7) cel puțin unul din trei praguri de 3%. Alin. (13) spune «cumulativ, cu excepția lit. c)», iar alin. (15) că lit. a)-c) «pot fi mutual exclusive».",
+        "Art. 4 alin. (13) lit. a) cere hotărâre de reprezentativitate în baza Legii nr. 367/2022 a dialogului social, făcută pentru sindicate și patronate, deci greu accesibilă asociațiilor de fermieri. Lit. c) admite organizația «de notorietate», «etalon pentru sector», criteriu discreționar și neverificabil.",
+        "Art. 4 alin. (9) cere apartenența la comitete de monitorizare sau la grupurile de dialog civil ale Comisiei Europene. Locurile acolo sunt limitate și deja ocupate de organizațiile existente, deci condiția închide piața pentru alții.",
+        "Nu e clar cine primește banii. Art. 3 alin. (3) și art. 4 alin. (12) vorbesc de organizații, art. 4 alin. (6), art. 5 și art. 6 de asociațiile membre ale acestora. Lipsește regula de împărțire când fermierul nominalizează mai mulți beneficiari.",
+        "Erori de trimitere: art. 4 alin. (1) trimite la «fermierii prevăzuți la art. 1», dar ei sunt definiți la art. 3. Art. 7 alin. (4) trimite la «documentația prevăzută la art. 3», dar ea e la art. 4 alin. (13). Art. 3 alin. (2) folosește OUG nr. 11/2021, aplicabilă doar anilor 2021-2022. Art. 4 alin. (1) citează Reg. (UE) 907/2014 și 1306/2013, înlocuite de cadrul PAC 2023-2027 (Reg. (UE) 2021/2116 și Reg. delegat (UE) 2022/127).",
+        "Art. 5 alin. (1) și art. 7 alin. (4) trec în lege adresa «politici.aqricole@madr.ro» (cu «q»), probabil greșită. Art. 5 alin. (5) trimite contestațiile la o «Comisie de soluționare a contestațiilor» care nu este înființată nicăieri în text.",
+        "Expunerea de motive vorbește de 1-5 lei/ha la alegerea fermierului, dar legea fixează 0,5 euro/ha. Echivalența «UVM la 10 ha» și conversia euro/UVM nu sunt definite.",
+        "Sancțiunea de 5.000-10.000 lei pentru folosirea banilor în alte scopuri (art. 7 alin. (6)) este proporționată. Lipsește însă obligația de restituire a sumelor deturnate."
       ],
-      "blindSpotsCaught": "Art. 4 alin. (9) condiționează accesul la cotizație de prezența într-un comitet de monitorizare sau într-un grup de dialog civil al Comisiei Europene. Comitetele de monitorizare sunt constituite chiar de autoritatea de management din MADR. În grupurile de dialog civil, organizațiile naționale intră de regulă prin federațiile europene din care fac parte. Rezultă un cerc închis: ministerul care alege membrii comitetelor certifică apoi cine încasează banii fermierilor. Organizațiile noi sau neafiliate la federații europene sunt practic excluse. Tot aici, art. 4 alin. (13) lit. a) cere o hotărâre „definitivă și irevocabilă”, noțiune eliminată din procedura civilă odată cu noul Cod din 2013.",
-      "constitutionalityNote": "Caracterul voluntar scoate cotizația de sub art. 56 și art. 139 (impozite și taxe doar prin lege), dar numai dacă rămâne voluntară în fapt. Art. 4 alin. (10) obligă toți fermierii cu cont bancar să încheie convenția de debit direct. Astfel, riscă să transforme mecanismul într-o prelevare cvasifiscală și să atingă libertatea negativă de asociere (art. 40) și dreptul de proprietate (art. 44). Textul nu respectă exigențele de claritate și previzibilitate din art. 1 alin. (5), așa cum le aplică jurisprudența constantă a CCR. Criteriile de reprezentativitate se contrazic (art. 4 alin. 5 vs. alin. 8; alin. 13 vs. alin. 15), organismele de decizie nu sunt definite, termenele sunt incompatibile cu lista de la 1 martie, iar trimiterile sunt la acte depășite. Pragul de 10 ha, care îi împiedică pe micii fermieri chiar să contribuie voluntar, ridică o problemă de egalitate (art. 16) nejustificată în expunere. Selecția prin „notorietate” și „etalon” (art. 4 alin. 13 lit. c) contravine obligației statului de a asigura concurența loială (art. 135 alin. 2 lit. a). Art. 23 alin. (12) nu e incident, textul extras neprevăzând sancțiuni. Controlul judecătoresc rămâne posibil în baza Legii nr. 554/2004, deși legea nu îl menționează.",
-      "euLawNote": "Directiva 2018/958 nu se aplică: legea nu reglementează accesul la o profesie sau exercitarea ei. Nici Directiva TRIS 2015/1535 nu se aplică: textul nu conține reglementări tehnice sau reguli pentru servicii ale societății informaționale, iar modificarea formularului APIA e internă. Cadrul relevant este Reg. (UE) 1308/2013, art. 157-158 și 164-165, privind recunoașterea organizațiilor interprofesionale și contribuțiile financiare din sector. Schema națională ar trebui corelată cu acest cadru, nu să creeze un regim paralel. Expunerea afirmă că art. 107 alin. (1) TFUE „confirmă” lipsa ajutorului de stat, ceea ce e greșit: articolul doar definește ajutorul, iar testul aplicabil vine din jurisprudența CJUE (Pearle, C-345/02; Doux Élevage, C-677/11). Fondurile sunt private, voluntare și nu tranzitează bugetul, deci riscul e redus. Colectarea gratuită prin APIA și bănci și selecția beneficiarilor de către MADR trebuie totuși evaluate. Debitul direct trebuie să respecte Reg. (UE) 260/2012 (SEPA), care presupune mandatul liber al plătitorului. Trimiterile la Reg. 1306/2013 (abrogat prin Reg. 2021/2116) și la Reg. Delegat 907/2014 (înlocuit prin Reg. Delegat 2022/127) sunt depășite. Cerința unei hotărâri judecătorești românești sau a unui ordin de recunoaștere național (art. 4 alin. 13 lit. a-b) poate exclude organizații din alte state membre (art. 49 TFUE). Transmiterea către MADR a listelor de membri cu adrese impune minimizarea datelor, conform GDPR.",
+      "blindSpotsCaught": "Formula «certificare valabilă 5 ani» (art. 5 alin. (3)) coexistă cu depunerea anuală a dosarului și cu aprobarea anuală în 15 zile (art. 4 alin. (14), art. 5 alin. (1)), deci nu se știe care act dă de fapt dreptul la bani. Termenul de 30 de zile pentru normele metodologice (art. 8) e nerealist pentru un mecanism care implică APIA, băncile și MADR. Băncilor li se impune o operațiune automată «a doua zi», fără cadru contractual și fără corelare cu regulile debitului direct din Legea nr. 209/2019, care cer mandatul expres al plătitorului. Folosirea sintagmei «definitivă și irevocabilă» e depășită după noul Cod de procedură civilă.",
+      "constitutionalityNote": "Contribuția fiind voluntară, nu încalcă art. 40 (libertatea de asociere) sau art. 56 (contribuții doar prin lege). Riscul real ține de art. 1 alin. (5), privind calitatea legii: normele contradictorii din art. 4, criteriul «notorietății», trimiterile greșite și comisia de contestații neînființată sunt tipul de neclaritate sancționat constant de CCR. Dacă art. 4 alin. (10) e citit ca obligație de a încheia acordul de debit, apar probleme cu art. 44 (dreptul de proprietate asupra subvenției încasate). Criteriile care favorizează organizațiile vechi pot ridica întrebări și pe art. 16 (egalitate), întrucât statul facilitează prin APIA colectarea doar pentru unele asociații.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă nu se reglementează accesul la o profesie. Directiva (UE) 2015/1535 (TRIS) nici ea, fiindcă nu sunt vizate servicii ale societății informaționale. Pe ajutor de stat, art. 107 TFUE nu «confirmă» nimic, cum afirmă expunerea de motive. Argumentul corect vine din jurisprudența CJUE (C-677/11 Doux Élevage): cotizațiile private ale membrilor nu constituie resurse de stat. Fiind voluntare și plătite din banii fermierului după încasarea subvenției, riscul e redus. Facilitarea selectivă prin APIA și criteriile restrictive (art. 4 alin. (9)) pot însă denatura concurența între organizații. Trimiterile la Reg. 1306/2013 și 907/2014 trebuie actualizate la Reg. (UE) 2021/2116 și Reg. delegat (UE) 2022/127. Prelucrarea opțiunii fermierului în cererea unică cere temei GDPR clar, care lipsește din text.",
       "senatForm": {
-        "articleRef": "Art. 4 alin. (10)-(12)",
-        "proposalContent": "(10) Numai fermierii care au optat potrivit alin. (6) semnează cu banca un mandat de debitare directă, revocabil oricând, fără costuri. (11) Banca virează cotizația organizației nominalizate în cel mult 5 zile lucrătoare de la încasarea subvenției, numai în baza mandatului. (12) Refuzul sau lipsa mandatului nu afectează plata subvenției și nici alte drepturi.",
-        "argumentation": "Actualul alin. (10) obligă toți fermierii cu cerere unică și cont bancar să încheie convenția de debit direct, indiferent dacă au optat, ceea ce contrazice caracterul voluntar din art. 1 și 3. Un mandat de debitare impus prin lege nu exprimă consimțământul liber cerut de regulile SEPA, iar băncilor li se impun operațiuni fără reguli clare de cost și răspundere.",
-        "otherComments": "De corectat și: art. 3 alin. (2) trimite la OUG 11/2021 (anii 2021-2022), art. 4 alin. (1) la Reg. 1306/2013, abrogat de Reg. (UE) 2021/2116; alin. (5) și (8) se contrazic privind angajații; adresa de e-mail din art. 5 are o greșeală („aqricole”) și nu își are locul într-o lege; pragul de 10 ha îi exclude pe micii fermieri de la plata voluntară."
-      }
+        "articleRef": "Art. 4 alin. (10) și (11)",
+        "proposalContent": "Art. 4 alin. (10): «Numai fermierii care au optat pentru plata cotizației potrivit alin. (6) pot încheia cu banca un mandat de debitare directă, cu indicarea asociației beneficiare și a sumei. Mandatul este revocabil oricând, fără costuri, iar lipsa opțiunii nu poate afecta în niciun fel plata subvenției.»",
+        "argumentation": "Forma actuală («vor încheia») poate fi citită ca obligație pentru toți fermierii cu cont bancar, ceea ce contrazice caracterul voluntar din titlu și art. 3. Debitarea directă presupune mandatul expres al plătitorului (Legea nr. 209/2019). Formularea propusă asigură previzibilitatea (art. 1 alin. (5) Constituție) și protejează fermierii care nu optează.",
+        "otherComments": "Corelați art. 4 alin. (5) cu alin. (8) (5 angajați) și alin. (4) cu alin. (7) și (15). Eliminați adresa de e-mail greșită («aqricole»). Trimiterea din art. 4 alin. (1) să fie la art. 3. Actualizați trimiterile la OUG 11/2021 și Reg. 907/2014. Înființați comisia de contestații și înlocuiți criteriul «notorietății» din alin. (13) lit. c)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 126028,
+      "durationMs": 63277,
+      "sourceEndMarker": "SF-57162876",
       "riskScore": 7,
       "riskLevel": "red",
-      "plainTitle": "Cotizație agricolă voluntară, cu acces restrictiv la banii fermierilor",
-      "verdictShort": "Finanțarea voluntară a reprezentării fermierilor este utilă, dar forma analizată favorizează organizațiile deja consolidate și nu protejează suficient libertatea de plată. Riscul ridicat rezultă din condițiile restrictive și mecanismul bancar ambiguu, nu din existența demonstrată a unei taxe obligatorii.",
-      "initiatorClaim": "Inițiatorii urmăresc finanțarea stabilă a organizațiilor agricole, pentru servicii mai bune și reprezentarea profesionistă a fermierilor. Expunerea promite contribuții alese individual, transparență și concurență între organizații.",
-      "realityCheck": "Textul stabilește o cotizație anuală de 0,5 euro/ha sau echivalent UVM, nu intervalul opțional de 1–5 lei/ha descris în motivare, și rezervă mecanismul unor beneficiari validați prin condiții restrictive. Deși art. 3 declară plata voluntară și art. 4 alin. (6) prevede acordul, alin. (10) formulează general obligația încheierii convenției bancare pentru solicitanții APIA cu cont, fără să o limiteze expres la cei care au optat. Banii sunt transferați după încasarea subvenției, nu reținuți explicit de APIA, dar lipsesc reguli clare privind revocarea, repartizarea și evitarea debitărilor repetate.",
+      "plainTitle": "Cotizație agricolă voluntară, cu acces privilegiat pentru organizațiile consacrate",
+      "verdictShort": "Finanțarea voluntară a reprezentării fermierilor este legitimă, dar proiectul introduce bariere severe în favoarea organizațiilor deja instalate. În plus, obligațiile privind debitarea contului nu sunt delimitate suficient de clar de opțiunea voluntară.",
+      "initiatorClaim": "Inițiatorii urmăresc finanțarea stabilă a organizațiilor agricole pentru consultanță, reprezentare și participare la politicile agricole. Expunerea de motive promite alegerea beneficiarilor, transparență și concurență pentru contribuțiile fermierilor.",
+      "realityCheck": "Textul stabilește o cotizație anuală de 0,5 euro/ha sau echivalent UVM, virată printr-un mecanism bancar după încasarea subvenției, către beneficiari validați de MADR. Accesul este limitat prin cerințe de vechime, conferințe, personal și participare în structuri consultative, care avantajează organizațiile consacrate. Deși cotizația este declarată voluntară, formularea generală a obligației de încheiere a convenției bancare creează incertitudine; proiectul nu prevede însă o sancțiune pentru refuzul fermierului de a contribui.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "IMM & Antreprenori",
@@ -105,23 +140,49 @@
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 4 alin. (4), (8) și (9) cumulează cerințe precum minimum 200 de membri cu vechime de minimum 10 ani, un istoric de conferințe, minimum 5 angajați permanenți și participarea la anumite grupuri consultative. Acestea pot exclude organizații noi sau eficiente, chiar dacă reprezintă economic fermieri; nu instituie însă un monopol legal unic, deoarece art. 6 alin. (3) permite recunoașteri concomitente.",
-        "Art. 4 alin. (5) declară că numărul salariaților nu este determinant, dar alin. (8) impune minimum 5 angajați cu contracte pe durată nedeterminată. Raportul dintre pragurile economice de 3%, condițiile istorice și certificările alternative nu este explicat suficient.",
-        "Art. 4 alin. (13) lit. c) permite alegerea unei organizații considerate de notorietate sau etalon, fără să precizeze cine constată aceste calități și prin ce probe. Derogarea poate favoriza discreționar un beneficiar; alin. (15) nu rezolvă această lipsă de criterii.",
-        "Art. 3 alin. (2) limitează mecanismul la fermieri cu minimum 10 ha și/sau animale echivalente, dar textul nu stabilește conversia UVM–hectare și calculul pentru exploatațiile mixte. Pentru suprafețe, contribuția este de 5 euro/an la 10 ha și 500 euro/an la 1.000 ha, dacă fermierul optează.",
-        "Art. 4 alin. (10)-(12) nu precizează dacă debitarea intervine numai la prima încasare din an sau și la tranșele ulterioare. Alegerea mai multor beneficiari nu este însoțită de o regulă de împărțire a aceleiași cotizații și de un plafon anual explicit.",
-        "Art. 4 alin. (13)-(14), art. 5 și art. 6 adaugă dosare anuale, certificate fiscale, verificări MADR, adaptarea cererilor APIA și operațiuni bancare. Materialul furnizat nu cuantifică aceste costuri și nu stabilește cine suportă comisioanele; contribuțiile private nu reprezintă, prin ele însele, cheltuieli bugetare.",
-        "Art. 3 alin. (2) trimite la cadrul plăților agricole pentru 2021–2022, iar art. 4 alin. (1) invocă Regulamentul nr. 907/2014, abrogat de la 1 ianuarie 2023, cu excepții tranzitorii. Trimiterile trebuie actualizate pentru mecanismul nou. [Regulamentul 2022/127, art. 40](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A02022R0127-20260807)"
+        "Art. 4 alin. (4) cere cumulativ cel puțin 200 de membri cu o vechime de minimum 10 ani și conferințe naționale și regionale organizate în fiecare dintre ultimii 5 ani. Nu explică vechimea relevantă a membrilor și exclude organizațiile noi chiar dacă reprezintă economic un sector important.",
+        "Art. 4 alin. (8) impune minimum 5 angajați permanenți cu contracte pe durată nedeterminată, deși alin. (5) declară că numărul salariaților nu este indicator determinant. Alin. (9) condiționează accesul și de participarea în anumite grupuri consultative, favorizând organizațiile deja acceptate instituțional.",
+        "Art. 4 alin. (7) prezintă pragurile alternative de 3% drept suficiente pentru reprezentativitate, dar alin. (4), (8) și (9) adaugă alte condiții obligatorii. Raportul dintre aceste filtre și recunoașterile prevăzute la alin. (13) nu este clar.",
+        "Art. 4 alin. (13) lit. c) permite selectarea unei organizații considerate «de notorietate» și «etalon», fără o procedură obiectivă de stabilire a acestor calități. Alin. (15) tratează lit. a)–c) ca alternative, dar nu precizează dacă această cale derogă și de la celelalte condiții de reprezentativitate.",
+        "Art. 4 alin. (6) cere exprimarea opțiunii, însă alin. (10) spune că fermierii cu cerere de plată și cont bancar «vor încheia» convenția. Lipsesc reguli exprese privind refuzul fără consecințe asupra subvenției, revocarea mandatului și repartizarea sumei între mai mulți beneficiari.",
+        "Art. 3 alin. (2) introduce pragul de 10 ha sau echivalent în animale, fără o regulă proprie clară de conversie UVM–hectare. Art. 4 nu clarifică suficient calculul pentru exploatațiile mixte, iar trimiterea la schemele pentru 2021–2022 necesită corelare cu regimul aplicabil.",
+        "Art. 7 alin. (2)–(3) condiționează menținerea eligibilității de demonstrarea realizării a minimum patru obiective anual. Această condiție poate penaliza organizațiile specializate și nu este adaptată cuantumului efectiv încasat.",
+        "Art. 7 alin. (6)–(7) prevede amendă de 5.000–10.000 lei pentru utilizarea banilor în alte scopuri, dar nu desemnează expres agenții constatatori și nu instituie un mecanism clar de recuperare a sumelor. Trimiterea generală la OG nr. 2/2001 nu rezolvă toate aceste lipsuri.",
+        "Art. 8 prevede elaborarea normelor în 30 de zile, fără un calendar tranzitoriu pentru prima aplicare a termenelor din ianuarie–martie. Nu există articole ulterioare care să corecteze mecanismul, derogări finale ori abrogări exprese."
       ],
-      "blindSpotsCaught": "Beneficiarul nu este identificat uniform: art. 3 alin. (3) rezervă alocarea organizațiilor reprezentative, iar art. 4 alin. (6) și art. 6 operează cu asociații membre ale acestora; circuitul banilor trebuie clarificat. Calendarul este vulnerabil: verificarea unui dosar depus la 15 februarie și eventualele contestații pot depăși publicarea listei la 1 martie. Extrasul se întrerupe la art. 7 alin. (1) lit. l), astfel că nu se poate concluziona că forma integrală nu conține controale, sancțiuni sau dispoziții finale.",
-      "constitutionalityNote": "Există vulnerabilități serioase de claritate și previzibilitate raportate la art. 1 alin. (5): caracterul voluntar versus convenția formulată obligatoriu, criteriile suprapuse, derogarea de notorietate și calculul contribuției. Condițiile istorice și de personal necesită justificare obiectivă și proporțională în raport cu egalitatea, libertatea de asociere și protecția concurenței, potrivit art. 16, 40 și 135 alin. (2) lit. a). O debitare fără consimțământ valabil ar ridica și probleme privind proprietatea, protejată de art. 44. Art. 23 alin. (12) privește legalitatea pedepselor; fragmentul nu instituie pedepse, deci nu justifică o critică autonomă pe acest temei. Sunt riscuri de neconstituționalitate, nu o constatare definitivă. [Constituția României](https://www.senat.ro/pagini/constitutia/constitutia.htm)",
-      "euLawNote": "Directiva 2018/958 privește restricțiile privind accesul la profesii reglementate ori exercitarea acestora în sensul Directivei 2005/36/CE. Textul analizat reglementează finanțarea organizațiilor, fără cerințe de calificare profesională; aplicabilitatea directivei nu este demonstrată doar prin denumirea de cotizație profesională. Barierele de acces la finanțare necesită totuși justificare proporțională. [Directiva 2018/958, art. 1–2](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32018L0958) Nu rezultă obligație TRIS: nu sunt stabilite specificații tehnice pentru produse sau reguli care vizează explicit servicii digitale/AI; e-mailul și formularul APIA nu sunt suficiente. [Directiva 2015/1535, art. 1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32015L1535) Plata integrală a sprijinului trebuie respectată; un transfer ulterior, autorizat de fermier, nu echivalează automat cu o reținere nelegală. [Regulamentul 2021/2116, art. 44](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A02021R2116-20260818) Afirmația motivării că art. 107 alin. (1) TFUE exclude asemenea cotizații din ajutorul de stat este prea categorică. Sunt decisive natura resurselor, controlul public și celelalte condiții cumulative; hotărârea Doux Élevage privește un mecanism concret cu resurse private, nu o exceptare generală a organizațiilor recunoscute. [CJUE, C-677/11](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A62011CJ0677)",
+      "blindSpotsCaught": "Filtrul decisiv nu este cuantumul redus al cotizației, ci combinația dintre istoricul conferințelor, vechimea membrilor, cei 5 angajați și accesul anterior la consultări. Excepția bazată pe «notorietate» nu oferă o alternativă transparentă. Separat, expunerea de motive vorbește despre alegerea unei sume de 1–5 lei/ha, dar norma stabilește 0,5 euro/ha; numai norma ar produce efecte juridice.",
+      "constitutionalityNote": "Principala vulnerabilitate privește art. 1 alin. (5) din Constituție: condiții contradictorii de eligibilitate, calcul insuficient precizat și delimitare neclară a consimțământului la plată. Barierele fără justificare obiectivă ridică probleme de egalitate de tratament și de proporționalitate în raport cu libertatea de asociere și libertatea economică, protejate de art. 40 și 45. O debitare fără consimțământ valabil ar afecta și proprietatea, protejată de art. 44, dar textul nu permite concluzia că orice fermier este deja obligat neechivoc să plătească. Pentru contravenție, reperul central este legalitatea și previzibilitatea normei sancționatorii; art. 23 alin. (12) privește direct pedepsele penale și nu trebuie aplicat mecanic amenzii contravenționale. Neconstituționalitatea nu este automată.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică direct: proiectul nu instituie condiții de acces la o profesie reglementată sau de exercitare a acesteia. Nici notificarea TRIS conform Directivei (UE) 2015/1535 nu rezultă din text: folosirea e-mailului, a site-urilor și a formularelor APIA nu constituie, prin ea însăși, reglementarea unui serviciu al societății informaționale. Barierele de acces la finanțare trebuie totuși justificate obiectiv și proporțional. Art. 107 alin. (1) TFUE nu declară asemenea cotizații exceptate automat de la ajutorul de stat, contrar expunerii de motive; calificarea depinde inclusiv de existența resurselor de stat și a controlului public. Plata bancară ulterioară încasării subvenției, autorizată efectiv de fermier, nu echivalează automat cu o reținere nepermisă din fondurile PAC. Proiectul generează costuri administrative pentru MADR, APIA, bănci și asociații, fără o estimare în text; cotizația privată voluntară nu este, prin ea însăși, impozit.",
       "senatForm": {
-        "articleRef": "Art. 4 alin. (6), (10)-(12)",
-        "proposalContent": "Alin. (6) și (10)-(12) se înlocuiesc cu: «Plata se face numai cu acordul expres, anual și revocabil al fermierului și mandat distinct de debitare, după încasarea integrală a subvenției. Refuzul ori revocarea nu afectează sprijinul APIA. Mandatul indică suma anuală totală și repartizarea între beneficiari; debitările cumulate nu pot depăși această sumă.»",
-        "argumentation": "Art. 3 declară plata voluntară, dar art. 4 alin. (10) impune convenția tuturor solicitanților cu cont bancar. Acordul distinct și revocabil protejează libertatea de opțiune și proprietatea. Plafonul anual previne debitarea repetată la plata în tranșe a subvenției ori multiplicarea cotizației când sunt aleși mai mulți beneficiari.",
-        "otherComments": "Separat, eliminați barierele istorice și de personal din art. 4 alin. (4), (8)-(9), păstrând criterii economice verificabile. Înlocuiți derogarea de «notorietate» de la alin. (13) lit. c) cu criterii obiective. Termenul de amendamente indicat, 21.05.2026, a trecut; memoriul poate fi transmis comisiei, iar un deputat poate cere preluarea, potrivit procedurii."
-      }
+        "articleRef": "Art. 4 alin. (4), (8), (9) și (13) lit. c)",
+        "proposalContent": "Alineatele (4) și (9), precum și alineatul (13) litera c) se elimină. Alineatul (8) se modifică și va avea următorul cuprins: «(8) Organizația trebuie să aibă personalitate juridică și membri activi.»",
+        "argumentation": "Vechimea, istoricul conferințelor, numărul fix de salariați și participarea anterioară la consultări favorizează organizațiile consacrate, fără a demonstra reprezentarea economică actuală. Calea bazată pe notorietate permite aprecieri discreționare. Pragurile economice trebuie aplicate transparent și egal.",
+        "otherComments": "Se impune și corelarea alin. (6) și (10)–(12): mandat bancar numai după acord expres, revocabil, fără condiționarea subvenției. Trebuie precizate conversia UVM–hectare, repartizarea între beneficiari, autoritatea competentă să aplice amenda și calendarul primei campanii."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T02:01:53.895Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 7
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-19T16:46:06.775Z",
+      "reasons": [
+        "metoda",
+        "model"
+      ]
+    }
+  ]
 }

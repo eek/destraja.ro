@@ -1,14 +1,41 @@
 {
   "billId": "B624/2026",
   "slug": "b624-2026",
-  "updatedAt": "2026-11-10T14:06:36.719Z",
+  "updatedAt": "2026-11-19T16:45:19.857Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 17176,
+    "ordinanceChars": 0,
+    "memoChars": 10956,
+    "memoSupplied": 10956,
+    "marker": "SF-33721A50"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/b624-2026.json",
+    "form": "initiator",
+    "textHash": "33721a50ffc26091",
+    "fetchedAt": "2026-11-19T11:19:54.345Z",
+    "acts": 5,
+    "actsFound": 5,
+    "actsRepealed": 0,
+    "articlesFound": 6,
+    "articlesShown": 6,
+    "articleCap": 8000,
+    "articlesCut": 2,
+    "chars": 38745,
+    "truncated": false,
+    "included": true,
+    "key": "a68379980d8509ea"
+  },
   "consensus": {
-    "riskScore": 4.3,
+    "riskScore": 5,
     "riskLevel": "yellow",
-    "plainTitle": "Nu mai poți fi debranșat de la curent, gaz, apă sau căldură pentru datorii mici și nici fără o ofertă de plată în rate",
-    "summaryTlDr": "Scopul este legitim și benefic: protejează consumatorii vulnerabili, pe cei dependenți de aparate medicale și pe cei care contestă facturile, și transpune parțial o obligație UE restantă. Redactarea are însă erori de trimitere, termeni nedefiniți și o interdicție absolută de debranșare fără mecanism de acoperire a costului, așa că textul trebuie corectat serios înainte de adoptare.",
-    "initiatorClaim": "Inițiatorii spun că protecția împotriva debranșării este fragmentară și condiționată de crize energetice. Ei vor să oprească debranșările pentru datorii de câteva zeci de lei, urmate de taxe de reconectare mai mari decât datoria, și să transpună art. 28a din Directiva (UE) 2019/944, introdus prin Directiva (UE) 2024/1711.",
-    "realityCheck": "Legea interzice debranșarea sub un prag egal cu maximul dintre 50 euro și factura medie lunară. Impune o notificare cu 30 de zile înainte, ofertă obligatorie de eșalonare pe 3-6 luni și taxă de reconectare plafonată la costul efectiv. Interzice pe tot parcursul anului debranșarea consumatorilor vulnerabili, indiferent de datorie, fără să spună cine suportă consumul neplătit pe termen nelimitat. Expunerea de motive promite efecte transversale (comunicații electronice, definiție extinsă a «deconectării», interdicții sezoniere), dar acestea nu apar în textul articolelor disponibil.",
+    "plainTitle": "Fără tăierea curentului, gazului, apei, căldurii sau internetului pentru datorii mici",
+    "summaryTlDr": "Ideea e bună și urmează modele europene: prag minim de datorie, notificare cu 30 de zile, eșalonare obligatorie și taxă de reconectare la cost. Redactarea are însă erori serioase: art. III modifică un articol greșit din Legea 325/2006, iar interdicția totală și nelimitată pentru consumatorii vulnerabili nu are nicio sursă de finanțare.",
+    "initiatorClaim": "Inițiatorii spun că protecția împotriva deconectării e fragmentată și limitată la situații de criză, că se taie servicii pentru datorii de câteva zeci de lei urmate de taxe de reconectare mai mari decât datoria și că România nu a transpus art. 28a din Directiva (UE) 2019/944, introdus prin Directiva (UE) 2024/1711.",
+    "realityCheck": "Proiectul introduce același mecanism în Legea 123/2012 (art. 23^1), Legea 51/2006 (art. 36^1) și OUG 111/2011 (art. 84 alin. 18-22). Deconectarea e interzisă sub un prag egal cu cea mai mare valoare dintre 50 euro și factura medie pe 12 luni. Peste prag, furnizorul trebuie să parcurgă o procedură prealabilă: notificare, ofertă de eșalonare de 3 sau 6 luni și termen de 15 zile. Deconectarea e interzisă oricând pentru vulnerabili, pentru cei afectați de sărăcie energetică, pentru dependenții de aparatură medicală și pe durata contestațiilor. Creanța rămâne exigibilă, dar pentru vulnerabili dispare orice pârghie de constrângere și nu e prevăzut cine suportă datoriile acumulate. Art. III aplică procedura pentru neplată unui articol care reglementează debranșarea voluntară și elimină termenul de 45 de zile în care operatorul trebuie s-o execute.",
     "affectedGroups": [
       "Toți cetățenii",
       "Proprietari & Imobiliare",
@@ -16,91 +43,100 @@
       "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 1 – art. 23¹ Legea nr. 123/2012",
-      "proposalContent": "Se recomandă: (1) definirea termenilor «consumator», «deconectare» și «datorie restantă» (cu/fără accesorii); (2) corectarea trimiterii din alin. (4) la alin. (1); (3) cursul BNR raportat la scadența celei mai vechi facturi; (4) corelarea regulilor pentru gaze cu Titlul II și art. 194; (5) mecanism de acoperire a costului pentru consumatorii vulnerabili.",
-      "argumentation": "Art. 1 alin. (5) din Constituție impune norme clare. «Consumator» nu este definit în Legea 123/2012 (care folosește «client»), deci nu e clar dacă se aplică și firmelor. Trimiterea la alin. (3) din alin. (4) e eronată, iar «ziua emiterii facturii» e ambiguă când există mai multe facturi. Alin. (11) fără compensare ridică probleme de proporționalitate (art. 53).",
-      "otherComments": "Art. II preia mecanic textul în Legea 51/2006 («furnizor» vs «operator»), iar în textul disponibil nu apare modificarea art. 32 din L. 241/2006, lege specială care permite debranșarea după 30 de zile. Expunerea invocă definiția extinsă a deconectării și comunicațiile electronice, absente din text. Corelare necesară cu art. 64 alin. (2) L. 123/2012."
+      "articleRef": "Art. III – art. 33 alin. (5) Legea 325/2006",
+      "proposalContent": "Eliminarea art. III sau reformularea lui: art. 33 din Legea 325/2006 privește debranșarea voluntară la cererea utilizatorului, nu neplata. Propunem păstrarea alin. (5) în vigoare, cu termenul de 45 de zile, și introducerea trimiterii la art. 36^1 din Legea 51/2006 în norma care reglementează restricționarea pentru neplată sau în contractul-cadru.",
+      "argumentation": "Art. 33 alin. (1)-(3) privește debranșarea cerută de asociație sau de utilizatorul care trece la încălzire individuală. Textul propus impune o procedură pentru datorii, inaplicabilă aici, și elimină termenul maxim de 45 de zile în care operatorul execută debranșarea, afectând chiar consumatorii. Încalcă art. 1 alin. (5) din Constituție.",
+      "otherComments": "Corectați și: art. 93 alin. (2), nu alin. (1) pct. 2 lit. b) din Legea 123/2012; «prin excepție de la alin. (1)», nu (3), la art. 23^1 alin. (4); definiți «consumator» (doar persoane fizice?) și «utilizator dependent de echipamente medicale» în Legea 51/2006; în OUG 111/2011, alin. (21) trimite la un plan de eșalonare inexistent; adăugați norme tranzitorii."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 84144,
-      "riskScore": 5,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 99539,
+      "sourceEndMarker": "SF-33721A50",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Interzicerea deconectării de la curent, gaze, apă și căldură pentru datorii mici sau pentru persoanele vulnerabile",
-      "verdictShort": "O inițiativă cu scop social legitim — care oprește deconectările abuzive pentru restanțe minore și plafonează taxele de reconectare —, dar redactată cu lacune tehnice și fără surse de finanțare. Obligarea furnizorilor de a livra utilități pe termen nelimitat clienților vulnerabili, fără nicio compensare de la stat, riscă să fie declarată neconstituțională sau să împingă costurile restante în facturile celorlalți cetățeni buni-platnici.",
-      "initiatorClaim": "Inițiatorii vor să transpună Directiva (UE) 2024/1711 și să unifice protecția consumatorilor prin introducerea unui prag minim sub care deconectarea este interzisă (50 euro sau media facturilor pe 12 luni), eșalonarea obligatorie a datoriilor, plafonarea taxei de reconectare la costul tehnic efectiv și interzicerea debranșării persoanelor vulnerabile sau dependente de aparate medicale.",
-      "realityCheck": "Deși pragul de 50 euro și plafonarea taxei de reconectare rezolvă abuzuri reale, legea creează o protecție socială pe banii operatorilor: interzice deconectarea consumatorilor vulnerabili tot anul, indiferent de mărimea datoriei, dar în Expunerea de Motive recunoaște expres că statul nu oferă nicio compensare financiară furnizorilor. În plus, din cauza confuziei terminologice dintre „consumator/utilizator” și „client casnic”, pragul mediei pe 12 luni și eșalonarea gratuită s-ar aplica involuntar și firmelor, iar simpla contestare în instanță a unei facturi blochează deconectarea timp de ani de zile.",
+      "plainTitle": "Protecție împotriva deconectării de la utilități și telecom, dar cu erori grave care blochează debranșările voluntare și transferă necompensat costurile",
+      "verdictShort": "Intenția de a opri deconectările abuzive pentru datorii mici și de a proteja clienții vulnerabili este legitimă, dar proiectul este redactat grav defectuos: blochează accidental debranșarea voluntară de la termoficare, conține sancțiuni inaplicabile sau disproporționate și transferă nelimitat povara neplății fără compensare.",
+      "initiatorClaim": "Inițiatorii susțin că instituie un cadru unitar pentru a preveni deconectarea abuzivă de la energie, apă, termoficare și telecom pentru datorii mici, transpunând totodată art. 28a din Directiva (UE) 2024/1711 privind protecția clienților vulnerabili, fără impact bugetar.",
+      "realityCheck": "În realitate, proiectul instituie un prag de protecție (maximul dintre 50 euro și media facturilor pe 12 luni) formulat ambiguu încât poate acoperi și companii, interzice pe tot anul deconectarea clienților vulnerabili/afectați de sărăcie energetică fără vreun fond de compensare și introduce erori severe de tehnică legislativă. Cel mai grav, modificarea art. 33 alin. (5) din Legea 325/2006 lovește în debranșarea voluntară la cerere (eliminând termenul de 45 de zile și cerând procedura de neplată), iar amenzile din energie trimit la un text inexistent.",
       "affectedGroups": [
         "Toți cetățenii",
         "Proprietari & Imobiliare",
-        "IMM & Antreprenori"
-      ],
-      "keyFindings": [
-        "Prag de protecție și eșalonare obligatorie (Art. I - art. 23¹ alin. 1-6 și Art. II - art. 36¹ alin. 1-6): Deconectarea este interzisă dacă restanța este sub 50 euro sau sub media ultimelor 12 facturi (timp de maximum 12 luni consecutive), iar pentru sume mai mari furnizorul este obligat să notifice clientul cu 30 de zile înainte și să îi ofere eșalonare pe 3-6 luni fără costuri suplimentare.",
-        "Imunitate totală la deconectare fără decontare de la buget (art. 23¹ alin. 11 și art. 36¹ alin. 11): Consumatorii vulnerabili, cei în sărăcie energetică și cei dependenți de echipamente medicale nu pot fi deconectați de la curent, gaze, apă sau termoficare pe tot parcursul anului, indiferent de cuantumul datoriei acumulate, fără ca statul să despăgubească furnizorii sau operatorii locali de apă și termoficare.",
-        "Confuzie între persoane fizice și firme în textul normativ: Doar alin. (13) din art. 23¹ și alin. (12) din art. 36¹ specifică „persoană fizică”; în restul alineatelor se folosesc termenii generali de „consumator” și „utilizator” (care în Legea 51/2006 include persoanele juridice), ceea ce extinde interdicțiile de deconectare și la operatori economici.",
-        "Blocarea deconectării prin litigii (art. 23¹ alin. 13 și art. 36¹ alin. 12): Orice persoană fizică poate împiedica deconectarea până la rămânerea definitivă a unei hotărâri judecătorești (2-3 ani) prin simpla contestare formală a sumei facturate, fără niciun filtru de admisibilitate sau cauțiune.",
-        "Sancțiuni drastice pentru operatori (Art. I pct. 3): Amenzi între 10.000 și 200.000 lei aplicate de ANPC furnizorilor sau operatorilor de rețea pentru orice abatere de la noua procedură de notificare și eșalonare."
-      ],
-      "blindSpotsCaught": "Proiectul conține cel puțin trei erori tehnice majore: (1) Art. III se întrerupe brusc în mijlocul frazei („se efectuează numai de către...”) în forma depusă; (2) În Legea nr. 51/2006 se folosește termenul „furnizor”, deși legea-cadru a utilităților publice operează exclusiv cu noțiunea de „operator”; (3) La art. 23¹ alin. (2) pct. 1, pragul de 50 euro se calculează la cursul BNR „pentru ziua emiterii facturii”, deși alin. (3) prevede că restanța poate cumula mai multe facturi emise în luni diferite, făcând imposibilă determinarea unui curs unic.",
-      "constitutionalityNote": "Proiectul ridică probleme serioase de constituționalitate raportat la Art. 1 alin. (5) (calitatea și previzibilitatea legii — folosirea neunitară a noțiunilor de „consumator”, „client final” și „operator”, plus trunchierea Art. III) și la Art. 44 și Art. 135 coroborate cu Art. 47 din Constituție. Jurisprudența Curții Constituționale stabilește constant că protecția socială a cetățenilor vulnerabili este o obligație a statului, care nu poate fi transferată integral și pe termen nelimitat în sarcina patrimoniului unor operatori privați sau locali fără o justă compensare (trimiterea furnizorilor la executarea silită de drept comun împotriva unor persoane insolvabile fiind pur iluzorie).",
-      "euLawNote": "Inițiativa invocă transpunerea art. 28a din Directiva (UE) 2019/944 (introdus prin Directiva 2024/1711). Totuși, directiva europeană prevede că protecția clienților vulnerabili împotriva debranșării se asigură ca parte a politicilor sociale ale statelor membre (art. 28 și 29), prin sisteme de asigurări sociale sau ajutoare financiare pentru plata facturilor, nu prin obligarea furnizorilor din piața concurențială să livreze energie gratuit fără mecanism de recuperare. Nu intră sub incidența Directivei (UE) 2015/1535 (TRIS) sau a Directivei 2018/958 privind profesiile reglementate.",
-      "senatForm": {
-        "articleRef": "Art. I pct. 1 (art. 23^1) și Art. II pct. 1",
-        "proposalContent": "1. Înlocuirea termenului „consumator/utilizator” cu „client casnic/utilizator casnic” la alin. (1)-(10) și înlocuirea „furnizor” cu „operator” în Legea 51/2006. 2. La alin. (11), completarea interdicției de deconectare a consumatorilor vulnerabili cu un mecanism de decontare din bugetul asigurărilor sociale/fondul de solidaritate pentru facturile neîncasate după 6 luni.",
-        "argumentation": "Legea 123/2012 folosește noțiunea de „client casnic”, iar Legea 51/2006 pe cea de „operator”; fără clarificare, pragul mediei pe 12 luni s-ar aplica și companiilor. Totodată, interdicția absolută de deconectare pe tot anul (alin. 11), fără compensarea pierderilor de către stat, transferă sarcina protecției sociale (art. 47 Constituție) exclusiv pe operatorii economici.",
-        "otherComments": "La alin. (2) pct. 1 trebuie precizat că echivalentul a 50 euro se calculează la cursul BNR din ziua notificării de deconectare, nu „din ziua emiterii facturii”, deoarece restanța poate cumula mai multe facturi emise în zile diferite. Măsurile privind pragul minim și plafonarea taxei de reconectare sunt însă oportune și echilibrate."
-      },
-      "status": "ok"
-    },
-    "claude": {
-      "model": "claude",
-      "durationMs": 93797,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Nu mai poți fi debranșat de la curent, gaz, apă sau căldură pentru datorii mici și nici fără o ofertă de plată în rate",
-      "verdictShort": "Scopul este legitim și benefic: protejează consumatorii vulnerabili, pe cei dependenți de aparate medicale și pe cei care contestă facturile, și transpune parțial o obligație UE restantă. Redactarea are însă erori de trimitere, termeni nedefiniți și o interdicție absolută de debranșare fără mecanism de acoperire a costului, așa că textul trebuie corectat serios înainte de adoptare.",
-      "initiatorClaim": "Inițiatorii spun că protecția împotriva debranșării este fragmentară și condiționată de crize energetice. Ei vor să oprească debranșările pentru datorii de câteva zeci de lei, urmate de taxe de reconectare mai mari decât datoria, și să transpună art. 28a din Directiva (UE) 2019/944, introdus prin Directiva (UE) 2024/1711.",
-      "realityCheck": "Legea interzice debranșarea sub un prag egal cu maximul dintre 50 euro și factura medie lunară. Impune o notificare cu 30 de zile înainte, ofertă obligatorie de eșalonare pe 3-6 luni și taxă de reconectare plafonată la costul efectiv. Interzice pe tot parcursul anului debranșarea consumatorilor vulnerabili, indiferent de datorie, fără să spună cine suportă consumul neplătit pe termen nelimitat. Expunerea de motive promite efecte transversale (comunicații electronice, definiție extinsă a «deconectării», interdicții sezoniere), dar acestea nu apar în textul articolelor disponibil.",
-      "affectedGroups": [
-        "Toți cetățenii",
         "IMM & Antreprenori",
-        "Proprietari & Imobiliare",
         "Sănătate & Educație",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 23¹ alin. (11) din L. 123/2012 și art. 36¹ alin. (11) din L. 51/2006: interdicție absolută și permanentă de debranșare a consumatorilor vulnerabili, indiferent de cuantumul datoriei. Nu există mecanism de compensare (expunerea afirmă explicit că nu se instituie transferuri), deci costul se mută pe furnizori, operatori și, indirect, pe ceilalți consumatori sau pe bugetele locale care finanțează operatorii de apă și termoficare.",
-        "Art. 23¹ folosește termenul «consumator», deși Legea 123/2012 operează cu «client final» sau «client casnic». Alin. (13) se limitează expres la «persoană fizică», ceea ce sugerează că pragul și procedura de la alin. (1)-(10) s-ar aplica și clienților noncasnici, inclusiv marilor consumatori industriali. Pentru aceștia, pragul calculat ca «factură medie lunară» poate ajunge la sume foarte mari.",
-        "Art. 23¹ alin. (4) face excepție «de la alin. (3)», deși logic excepția este de la alin. (1). Alin. (4) condiționează debranșarea de neacceptarea «planului de eșalonare», dar planul este reglementat doar pentru datoriile de peste prag (alin. 5-6), iar alin. (10) exclude duratele minime sub prag. Rezultă o incoerență internă.",
-        "Pragul se calculează «la cursul BNR din ziua emiterii facturii», dar datoria restantă poate cuprinde mai multe facturi emise la date diferite. Nu se precizează nici dacă «datoria restantă» include penalitățile (accesoriile), deși alin. (5) lit. b) le tratează distinct.",
-        "Art. 23¹ este plasat după art. 23, în Titlul I (energie electrică), deși reglementează și gazele naturale. Sancțiunea este introdusă la art. 93 (contravenții în sectorul energiei electrice), nu și în capitolul de contravenții pentru gaze naturale. Se creează un risc de neaplicare a sancțiunii pentru furnizorii de gaze.",
-        "Art. I pct. 3 modifică «art. 93 alin. (1) pct. 2 lit. b)». Trimiterea trebuie verificată față de structura reală a art. 93, unde cuantumurile amenzilor sunt stabilite la alineatul de sancțiuni. Rescrierea integrală a listei de puncte poate elimina accidental contravenții introduse ulterior.",
-        "Art. II preia mecanic textul în Legea 51/2006, folosind «furnizorul solicită deconectarea», deși în serviciile comunitare operatorul este cel care sistează direct, iar terminologia legii este «operator» și «utilizator». Lit. j) adăugată la art. 47 alin. (4) trebuie corelată cu alineatul de sancțiuni, altfel contravenția rămâne fără amendă.",
-        "Aspecte pozitive reale: atestarea dependenței de echipamente medicale fără menționarea diagnosticului (protecția datelor de sănătate), suspendarea debranșării pe durata contestațiilor la furnizor, autoritate, SAL și instanță, sarcina probei pe furnizor (alin. 9), reconectare gratuită după o debranșare nelegală și interdicția sistării la nivel de condominiu pentru restanțe individuale."
+        "Blocarea debranșării voluntare la termoficare (Art. III): În prezent, art. 33 alin. (5) din Legea 325/2006 obligă operatorul să execute debranșarea voluntară cerută de proprietar în maximum 45 de zile. Proiectul șterge termenul de 45 de zile și condiționează debranșarea voluntară de parcurgerea procedurii de neplată din art. 36^1 Legea 51/2006, confundând debranșarea la cerere cu sistarea pentru datorii.",
+        "Interdicție absolută fără compensare și fără definiții operaționale (Art. I pct. 1 - art. 23^1 alin. 11-12; Art. II pct. 1 - art. 36^1 alin. 11): Spre deosebire de legea actuală (unde protecția în energie opera în situații de criză), proiectul interzice deconectarea pe tot anul, indiferent de cuantumul datoriei, pentru consumatorii vulnerabili, afectați de sărăcie energetică și dependenți medicali, fără mecanism de suport public și fără a defini în Legea 51/2006 utilizatorul vulnerabil/dependent medical.",
+        "Sancțiuni inaplicabile în energie și risc de 5% din cifra de afaceri la utilități locale (Art. I pct. 3; Art. II pct. 2): În Legea 123/2012, proiectul modifică un text inexistent («art. 93 alin. (1) pct. 2 lit. b)» în loc de alin. (2) lit. b)) și omite Titlul II (gaze naturale). În Legea 51/2006, plasarea faptei la art. 47 alin. (4) lit. j) atrage, la recidivă (art. 47 alin. 4^1 în vigoare), amenda de 5% din cifra de afaceri pentru operatorii de apă și termie.",
+        "Regim nefuncțional și disproporționat în telecom (Art. V - art. 84 alin. 18-22 OUG 111/2011): În prezent, art. 84 alin. (12) impune notificare și 60 de zile de suspendare parțială înainte de deconectare. Proiectul impune pragul de 50 euro (echivalentul a 5-10 luni la abonamente mici), nu blochează suspendarea propriu-zisă și, la alin. (21), trimite greșit la alin. (3) și la un «plan de eșalonare» nereglementat în OUG 111/2011.",
+        "Ambiguitate privind persoanele juridice (Art. I art. 23^1; Art. II art. 36^1): Deși interdicția pentru sume contestate vizează expres «persoana fizică», pragul de protecție egal cu media facturilor pe 12 luni se referă generic la «consumator»/«utilizator», riscând să permită firmelor mari să acumuleze datorii egale cu o factură lunară medie fără risc de deconectare."
       ],
-      "blindSpotsCaught": "1) Expunerea de motive descrie el însăși conflictul cu art. 32 din Legea 241/2006, care, ca lege specială, permite debranșarea de la apă după 30 de zile plus 5 zile lucrătoare. În textul disponibil nu apare modificarea acestei legi, așa că norma generală nou introdusă în Legea 51/2006 riscă să fie înlăturată de regula lex specialis. 2) Art. 64 alin. (2) din L. 123/2012, care limitează protecția vulnerabililor la situații de criză, nu este abrogat sau corelat. 3) Legea interzice debranșarea, dar nu și rezilierea contractului sau refuzul reînnoirii, ceea ce lasă o portiță de ocolire. 4) Pentru apă și termoficare, «utilizatorul dependent de echipamente medicale» nu este definit, spre deosebire de energie. 5) Competența de constatare dată ANPC pentru pct. 56 se suprapune cu cea a ANRE, cu risc de dublă sancționare.",
-      "constitutionalityNote": "Scopul (protecția sănătății, art. 34; protecția consumatorilor, art. 135 alin. 2 lit. a) este legitim, iar inițiativa respectă art. 74 și art. 111. Probleme: (a) art. 1 alin. (5), claritate și previzibilitate: termeni nedefiniți («consumator», «datorie restantă», «deconectare»), o trimitere internă eronată la alin. (4) și un mod ambiguu de calcul al pragului; (b) art. 44, 45 și 53: obligația de a furniza nelimitat, fără plată și fără compensare, consumatorilor vulnerabili poate fi considerată o restrângere disproporționată a dreptului de proprietate și a libertății economice a furnizorilor. CCR a admis măsuri de protecție socială, dar sarcina financiară este de regulă asumată de stat. Celelalte mecanisme (prag, notificare, eșalonare, plafonarea taxei) sunt proporționale, deoarece creanța rămâne exigibilă. Fișa financiară trebuie verificată conform art. 15 din Legea 500/2002, având în vedere impactul indirect asupra operatorilor publici locali.",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă, întrucât nu se reglementează accesul la profesii. Notificarea TRIS (Directiva 2015/1535) nu este necesară, pentru că nu există reguli tehnice privind servicii ale societății informaționale sau produse. Propunerea transpune, parțial și corect ca direcție, art. 28a din Directiva (UE) 2019/944, modificată prin Directiva 2024/1711 (termen depășit la 17.01.2025), iar pentru gaze trebuie corelată cu prevederile echivalente din Directiva (UE) 2024/1788. Măsurile se aplică nediscriminatoriu tuturor furnizorilor, deci nu există efecte anticoncurențiale directe. Lipsa unui mecanism de acoperire a costurilor poate afecta însă disproporționat furnizorii mici și independenți față de cei integrați, cu risc de ieșire de pe piață. Dacă statul introduce ulterior o compensare, aceasta trebuie analizată din perspectiva ajutorului de stat și a obligațiilor de serviciu public (art. 106 TFUE).",
+      "blindSpotsCaught": "Cea mai subtilă și gravă capcană este Art. III: art. 33 din Legea 325/2006 reglementează debranșarea voluntară a proprietarilor care vor centrală proprie, nu deconectarea pentru neplată; modificarea alin. (5) suprimă termenul legal de 45 de zile și creează un blocaj absurd. În plus, introducerea contravenției la art. 47 alin. (4) din Legea 51/2006 activează automat, fără ca expunerea de motive să menționeze, sancțiunea draconică de 5% din cifra de afaceri pentru încălcări repetate prevăzută de art. 47 alin. (4^1) în vigoare.",
+      "constitutionalityNote": "Proiectul prezintă vicii serioase față de art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii) prin trimiteri la texte inexistente (art. 93 alin. 1 pct. 2 lit. b Legea 123/2012), norme contradictorii (Art. III și art. 84 alin. 21 OUG 111/2011) și termeni nedefiniți operațional («consumator afectat de sărăcie energetică», «utilizator dependent de echipamente medicale» în Legea 51/2006). Interdicția permanentă și neplafonată de deconectare, fără compensație publică, riscă încălcarea art. 44 și art. 135 coroborate cu art. 53 (sarcină disproporționată asupra furnizorilor și operatorilor), iar impactul asupra operatorilor locali de apă/termie afectează indirect bugetele UAT-urilor (art. 138 alin. 5).",
+      "euLawNote": "Proiectul vizează corect transpunerea art. 28a din Directiva (UE) 2019/944 (introdus prin Directiva (UE) 2024/1711, termen expirat la 17 ianuarie 2025), însă directiva impune statelor măsuri de protecție socială adecvate, nu transferul integral și necompensat al neplății asupra furnizorilor din piața unică. Pentru Art. V (comunicații electronice), instituirea unui prag național de 50 euro trebuie verificată față de principiul armonizării depline din art. 101 al Directivei (UE) 2018/1972 (Codul European al Comunicațiilor Electronice). Directivele (UE) 2018/958 (profesii reglementate) și (UE) 2015/1535 (TRIS) nu sunt incidente.",
       "senatForm": {
-        "articleRef": "Art. I pct. 1 – art. 23¹ Legea nr. 123/2012",
-        "proposalContent": "Se recomandă: (1) definirea termenilor «consumator», «deconectare» și «datorie restantă» (cu/fără accesorii); (2) corectarea trimiterii din alin. (4) la alin. (1); (3) cursul BNR raportat la scadența celei mai vechi facturi; (4) corelarea regulilor pentru gaze cu Titlul II și art. 194; (5) mecanism de acoperire a costului pentru consumatorii vulnerabili.",
-        "argumentation": "Art. 1 alin. (5) din Constituție impune norme clare. «Consumator» nu este definit în Legea 123/2012 (care folosește «client»), deci nu e clar dacă se aplică și firmelor. Trimiterea la alin. (3) din alin. (4) e eronată, iar «ziua emiterii facturii» e ambiguă când există mai multe facturi. Alin. (11) fără compensare ridică probleme de proporționalitate (art. 53).",
-        "otherComments": "Art. II preia mecanic textul în Legea 51/2006 («furnizor» vs «operator»), iar în textul disponibil nu apare modificarea art. 32 din L. 241/2006, lege specială care permite debranșarea după 30 de zile. Expunerea invocă definiția extinsă a deconectării și comunicațiile electronice, absente din text. Corelare necesară cu art. 64 alin. (2) L. 123/2012."
+        "articleRef": "Art. I pct. 1, 3; Art. II; Art. III; Art. V",
+        "proposalContent": "Eliminarea Art. III (vizează debranșarea voluntară la termie), corectarea trimiterilor eronate (art. 93 alin. 2 lit. b Legea 123/2012; art. 84 alin. 12 OUG 111/2011), limitarea pragului strict la persoane fizice și corelarea interdicțiilor permanente pentru clienții vulnerabili cu un mecanism de compensare/sprijin și definiții clare.",
+        "argumentation": "Art. III modifică art. 33 alin. 5 din Legea 325/2006 (debranșare voluntară), eliminând termenul de 45 zile și impunând procedura de neplată. Art. I pct. 3 trimite la un text inexistent, iar art. 84 alin. 21 din OUG 111/2011 la un plan de eșalonare nereglementat. Interdicția absolută fără compensare încalcă art. 1 alin. 5, 44 și 135 din Constituție.",
+        "otherComments": "Scopul de protecție contra deconectărilor abuzive și transpunerea art. 28a din Directiva (UE) 2024/1711 sunt utile, dar textul necesită corelare cu Titlul II al Legii 123/2012 (gaze), revizuirea riscului de amendă de 5% din cifra de afaceri (art. 47 alin. 4^1 Legea 51/2006) și verificarea compatibilității Art. V cu Directiva (UE) 2018/1972."
       },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 96421,
+      "sourceEndMarker": "SF-33721A50",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Fără tăierea curentului, gazului, apei, căldurii sau internetului pentru datorii mici",
+      "verdictShort": "Ideea e bună și urmează modele europene: prag minim de datorie, notificare cu 30 de zile, eșalonare obligatorie și taxă de reconectare la cost. Redactarea are însă erori serioase: art. III modifică un articol greșit din Legea 325/2006, iar interdicția totală și nelimitată pentru consumatorii vulnerabili nu are nicio sursă de finanțare.",
+      "initiatorClaim": "Inițiatorii spun că protecția împotriva deconectării e fragmentată și limitată la situații de criză, că se taie servicii pentru datorii de câteva zeci de lei urmate de taxe de reconectare mai mari decât datoria și că România nu a transpus art. 28a din Directiva (UE) 2019/944, introdus prin Directiva (UE) 2024/1711.",
+      "realityCheck": "Proiectul introduce același mecanism în Legea 123/2012 (art. 23^1), Legea 51/2006 (art. 36^1) și OUG 111/2011 (art. 84 alin. 18-22). Deconectarea e interzisă sub un prag egal cu cea mai mare valoare dintre 50 euro și factura medie pe 12 luni. Peste prag, furnizorul trebuie să parcurgă o procedură prealabilă: notificare, ofertă de eșalonare de 3 sau 6 luni și termen de 15 zile. Deconectarea e interzisă oricând pentru vulnerabili, pentru cei afectați de sărăcie energetică, pentru dependenții de aparatură medicală și pe durata contestațiilor. Creanța rămâne exigibilă, dar pentru vulnerabili dispare orice pârghie de constrângere și nu e prevăzut cine suportă datoriile acumulate. Art. III aplică procedura pentru neplată unui articol care reglementează debranșarea voluntară și elimină termenul de 45 de zile în care operatorul trebuie s-o execute.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație",
+        "Proprietari & Imobiliare"
+      ],
+      "keyFindings": [
+        "Art. I (art. 23^1 alin. 2 din Legea 123/2012): pragul relativ (factura medie pe 12 luni) înseamnă că o factură lunară obișnuită neplătită nu poate duce singură la deconectare. Este o protecție reală, dar furnizorii vor suporta un risc de credit mai mare.",
+        "Art. 23^1 alin. (11) și art. 36^1 alin. (11): interdicția de deconectare a consumatorilor vulnerabili e totală, pe tot anul și indiferent de datorie. Proiectul nu prevede compensare, fond social sau mecanism de acoperire a datoriilor. Costul ajunge la furnizori ori în tarifele celorlalți clienți, iar furnizorii pe piață concurențială pot evita astfel de clienți.",
+        "Art. III: art. 33 din Legea 325/2006 reglementează debranșarea voluntară, cerută de asociația de proprietari sau de utilizatorul care trece la încălzire individuală, nu neplata. Noul alin. (5) impune aici procedura pentru datorii, care nu se poate aplica, și elimină termenul de maximum 45 de zile în care operatorul execută debranșarea. Efectul îi dezavantajează chiar pe consumatori.",
+        "Termenul «consumator» din art. 23^1 nu e definit. Alin. (13) se referă expres la «persoană fizică», ceea ce sugerează că restul articolului acoperă și persoanele juridice. Dacă e așa, un client industrial ar beneficia de un prag egal cu factura lui medie lunară și de dreptul la eșalonare, iar textul devine imprevizibil.",
+        "Trimiteri greșite: art. I pct. 3 modifică «art. 93 alin. (1) pct. 2 lit. b)», însă alin. (1) pct. 2 nu are litere, iar sancțiunile sunt, după toate aparențele, la alin. (2). Art. 23^1 alin. (4) și art. 36^1 alin. (4) spun «prin excepție de la alin. (3)», deși logic excepția e de la alin. (1).",
+        "Art. 23^1 alin. (4) și echivalentele sale: pentru datoria sub prag mai veche de 12 luni se cere procedura de la alin. (5) și refuzul planului de eșalonare. Alin. (5) se aplică însă doar datoriilor peste prag, iar pentru cele sub prag nu e obligatorie nicio ofertă de eșalonare, deci mecanismul e circular. În OUG 111/2011, noul alin. (21) trimite la un «plan de eșalonare» pe care proiectul nu îl introduce în acest act.",
+        "Art. II: în Legea 51/2006 apare «consumatorul/utilizatorul dependent de echipamente medicale», definit doar în Legea 123/2012, iar textul folosește «furnizorul», nu «operatorul», cum folosește legea-cadru. Noua contravenție de la art. 47 alin. (4) lit. j) se pedepsește cu amendă de 30.000-50.000 lei, iar la repetare, conform alin. (4^1) în vigoare, cu 5% din cifra de afaceri, inclusiv pentru operatorii regionali de apă cu capital public.",
+        "Art. IV păstrează dreptul de sistare după 30 de zile din art. 32 alin. (1) din Legea 241/2006 și scoate termenul de 5 zile lucrătoare. Rămâne însă comunicarea prin curier sau scrisoare recomandată, cu notificarea considerată făcută la refuz, ceea ce intră în tensiune cu «mijlocul convenit contractual» din art. 36^1 alin. (5) lit. a).",
+        "Partea pozitivă: taxa de reconectare e plafonată la costul tehnic efectiv și reconectarea e gratuită după o deconectare ilegală. Pentru dependenții de aparatură medicală, atestarea nu menționează diagnosticul, ceea ce e o soluție bună pentru protecția datelor (GDPR)."
+      ],
+      "blindSpotsCaught": "Proiectul nu are dispoziții tranzitorii pentru procedurile de deconectare în curs la intrarea în vigoare și nu obligă ANRE, ANRSC sau ANCOM să își actualizeze regulamentele și contractele-cadru în cele 90 de zile. Cursul BNR «din ziua emiterii facturii» devine ambiguu când datoria cuprinde mai multe facturi. Pentru un abonament de telecomunicații de 10-15 euro, pragul de 50 euro permite câteva luni de serviciu neplătit fără deconectare, peste regimul de suspendare de 60 de zile din art. 84 alin. (12), care rămâne în vigoare. Formula de la art. V («se modifică și va avea următorul cuprins») e greșită: pentru o completare corectă este «se modifică și se completează după cum urmează», iar referința nu menționează legea de aprobare a OUG 111/2011.",
+      "constitutionalityNote": "Scopul este legitim, fiind susținut de art. 47 (nivel de trai decent), art. 34 (sănătate) și art. 135 alin. (2) lit. a) (protecția intereselor consumatorilor). Problemele sunt în primul rând de claritate și previzibilitate, potrivit art. 1 alin. (5): art. III modifică un articol care nu are legătură cu tema, sunt trimiteri greșite la alin. (3) și la art. 93 alin. (1) pct. 2 lit. b), «consumator» nu e definit, iar mecanismul de la alin. (4) e circular. Interdicția absolută și nelimitată în timp pentru vulnerabili, fără vreo formă de acoperire a creanțelor, poate fi contestată din perspectiva art. 44 (proprietatea, inclusiv creanța) și art. 45 (libertatea economică), ca restrângere excesivă în sensul art. 53. Curtea Constituțională a admis însă restrângeri similare când sunt proporționale, iar creanța nu se stinge, ceea ce scade riscul. Proiectul a fost inițiat de parlamentari, așa că avizul Guvernului e cerut conform art. 111, iar impactul asupra operatorilor publici de apă și termoficare ar trebui evaluat.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează accesul la o profesie. Nici TRIS (2015/1535) nu se aplică: nu există reguli tehnice și nici reguli privind serviciile societății informaționale. Pe energie, proiectul transpune substanțial art. 28a din Directiva 2019/944, cu standardul de protecție deplină a vulnerabililor și interdicția deconectării pe durata unei plângeri. Pe gaze, s-ar potrivi cu prevederile similare din Directiva (UE) 2024/1788, dar trimiterea nu e făcută. Pe telecomunicații este un risc real: Codul european al comunicațiilor electronice (Directiva 2018/1972) impune armonizare maximă pentru drepturile utilizatorilor finali (art. 101). Măsurile în caz de neplată sunt permise prin anexa I, cu condiția să fie proporționale și publicate. Pentru ca un prag legal fix să nu fie considerat divergent, ar trebui încadrat explicit în facilitățile din art. 88 și 115 din Directivă.",
+      "senatForm": {
+        "articleRef": "Art. III – art. 33 alin. (5) Legea 325/2006",
+        "proposalContent": "Eliminarea art. III sau reformularea lui: art. 33 din Legea 325/2006 privește debranșarea voluntară la cererea utilizatorului, nu neplata. Propunem păstrarea alin. (5) în vigoare, cu termenul de 45 de zile, și introducerea trimiterii la art. 36^1 din Legea 51/2006 în norma care reglementează restricționarea pentru neplată sau în contractul-cadru.",
+        "argumentation": "Art. 33 alin. (1)-(3) privește debranșarea cerută de asociație sau de utilizatorul care trece la încălzire individuală. Textul propus impune o procedură pentru datorii, inaplicabilă aici, și elimină termenul maxim de 45 de zile în care operatorul execută debranșarea, afectând chiar consumatorii. Încalcă art. 1 alin. (5) din Constituție.",
+        "otherComments": "Corectați și: art. 93 alin. (2), nu alin. (1) pct. 2 lit. b) din Legea 123/2012; «prin excepție de la alin. (1)», nu (3), la art. 23^1 alin. (4); definiți «consumator» (doar persoane fizice?) și «utilizator dependent de echipamente medicale» în Legea 51/2006; în OUG 111/2011, alin. (21) trimite la un plan de eșalonare inexistent; adăugați norme tranzitorii."
+      },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 169438,
-      "riskScore": 4,
+      "durationMs": 101852,
+      "sourceEndMarker": "SF-33721A50",
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Protecție împotriva debranșării pentru datorii mici și pentru consumatorii vulnerabili",
-      "verdictShort": "Proiectul oferă protecții sociale utile, fără să șteargă datoriile sau să introducă taxe noi. Necesită însă corectarea unor contradicții și delimitarea clară a beneficiarilor, procedurilor și sancțiunilor.",
-      "initiatorClaim": "Inițiatorii urmăresc evitarea debranșărilor disproporționate pentru restanțe mici, protejarea persoanelor vulnerabile și garantarea eșalonării. Invocă și necesitatea completării transpunerii normelor europene privind protecția împotriva debranșării de la electricitate.",
-      "realityCheck": "Textul interzice deconectarea sub un prag calculat ca maxim între 50 euro și factura medie, introduce notificarea cu minimum 30 de zile înainte și eșalonări, păstrând creanțele recuperabile. Protecțiile permanente pentru persoanele vulnerabile transferă furnizorilor riscuri de încasare, fără un mecanism explicit de acoperire a costurilor. Analiza privește extrasul furnizat, întrerupt la art. III: forma integrală, legislația consolidată și stadiul transpunerii UE nu au putut fi verificate online.",
+      "plainTitle": "Protecție împotriva deconectării pentru datorii mici",
+      "verdictShort": "Proiectul oferă protecții sociale utile, dar necesită corecturi înainte de adoptare. Leagă greșit debranșarea voluntară de procedura pentru datornici și lasă neclarități importante privind sancțiunile și protecția efectivă împotriva suspendării serviciilor.",
+      "initiatorClaim": "Inițiatorii urmăresc să împiedice deconectările disproporționate pentru datorii mici, să protejeze persoanele vulnerabile și să limiteze costurile reconectării. Invocă și necesitatea transpunerii protecțiilor europene privind alimentarea cu energie electrică.",
+      "realityCheck": "Proiectul introduce praguri de protecție, proceduri de notificare și eșalonare pentru energie și utilități, fără să șteargă datoriile sau să înlăture expres recuperarea lor în instanță. Protecția pentru comunicații este mai restrânsă: procedura nouă de eșalonare nu este reprodusă, iar suspendarea și limitarea serviciului nu sunt expres interzise sub prag. Modificarea privind termoficarea afectează inclusiv debranșările cerute voluntar și elimină termenul actual de maximum 45 de zile pentru efectuarea lor.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Proprietari & Imobiliare",
@@ -109,25 +145,51 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Protecție utilă: art. I pct. 1, art. 23¹ alin. (5)-(10), și art. II pct. 1, art. 36¹ alin. (5)-(10), impun notificare, ofertă de eșalonare și suspendarea deconectării în condițiile prevăzute. Duratele minime sunt de 3 sau 6 luni, dar textul nu clarifică suficient raportul dintre lipsa costurilor suplimentare și penalitățile contractuale existente.",
-        "Contradicție concretă: art. 23¹ alin. (4) permite deconectarea pentru restanțe sub prag menținute peste 12 luni, dacă sunt îndeplinite condițiile suplimentare. Alin. (16) cere însă furnizorului să declare că datoria atinge pragul. Declarația nu poate fi dată conform realității în ipoteza excepției.",
-        "Calcul incomplet: art. 23¹ alin. (2) și art. 36¹ alin. (2) nu stabilesc cursul aplicabil unei datorii formate din facturi emise în zile diferite și nici tratamentul regularizărilor, facturilor stornate sau situației fără istoric de facturare. Nu rezultă fără echivoc dacă accesoriile intră în datoria comparată cu pragul.",
-        "Beneficiari insuficient delimitați: interdicțiile generale folosesc termenii consumator și utilizator, fără limitare expresă la persoane fizice, în timp ce protecția sumelor contestate este expres rezervată acestora. Trebuie clarificat dacă pragul și eșalonarea se aplică și IMM-urilor, precum și criteriile vulnerabilității pentru apă și termoficare.",
-        "Procedură susceptibilă de blocaj: alin. (8) din ambele articole suspendă deconectarea până la răspunsul privind modificarea eșalonării, fără termen expres de răspuns. Lipsesc reguli clare privind facturile curente, notificarea încălcării ratelor și dovada continuării contestației la autoritate sau instanță.",
-        "Protecția medicală este justificată, iar limitarea certificatului la dependența de echipament, fără diagnostic, reduce expunerea datelor medicale. Totuși, interdicțiile formulate general trebuie delimitate de întreruperile tehnice necesare siguranței; interdicția deconectării pentru datorii nu garantează alimentare neîntreruptă în caz de avarie.",
-        "Regimul sancționator necesită verificare: art. I pct. 3 indică art. 93 alin. (1), pct. 2, lit. b), trimitere structurală suspectă pentru modificarea amenzii. În extras, sancțiunea de 10.000-200.000 lei acoperă global încălcarea art. 23¹, fără diferențiere expresă între abateri procedurale și deconectări grave. Cuantumul nu este automat disproporționat, dar individualizarea trebuie justificată.",
-        "Impact economic: nu apar taxe noi sau ștergeri de creanțe în fragment. Apar costuri de notificare, evidență, verificare a eligibilității și finanțare a eșalonărilor. Interdicțiile permanente pot amplifica arieratele; efectul asupra tarifelor și operatorilor publici trebuie estimat, fără a presupune automat o cheltuială bugetară directă."
+        "Art. I și II: pragul este maximul dintre echivalentul a 50 euro și media facturilor, calculat separat pe contract și loc de consum. Protecția nu reprezintă o scutire de plată: deconectarea devine posibilă inclusiv sub prag după peste 12 luni consecutive, cu procedură prealabilă și dacă eșalonarea nu este acceptată ori respectată.",
+        "Art. I, art. 23¹ alin. (5)-(10), și art. II, art. 36¹ alin. (5)-(10): notificarea trebuie transmisă cu minimum 30 de zile înainte, iar consumatorul are 15 zile pentru acceptare, modificare sau plată. Pentru datoriile cel puțin egale cu pragul, eșalonarea este obligatorie, fără costuri suplimentare, pe minimum 3 sau 6 luni; sub prag, aceste durate minime nu se aplică.",
+        "Art. III: în prezent, art. 33 din Legea nr. 325/2006 reglementează debranșări/deconectări solicitate de utilizatori, inclusiv pentru instalarea unei surse proprii de încălzire. Proiectul le condiționează de procedura pentru restanțe și elimină termenul de maximum 45 de zile; interdicția existentă privind efectuarea lor în sezonul de încălzire rămâne în vigoare.",
+        "Art. V: art. 84 alin. (12) în vigoare distinge suspendarea de deconectare și păstrează minimum 60 de zile între acestea pentru serviciile fixe vizate. Noua interdicție sub prag privește numai deconectarea; proiectul nu introduce definiția extinsă, care să includă limitarea, anunțată în expunerea de motive.",
+        "Art. V, noul art. 84 alin. (21): excepția după 12 luni presupune existența unui plan de eșalonare, dar trimiterea la alin. (3) nu instituie un drept explicit la eșalonarea restanțelor. Facilitatea expresă de la alin. (3) lit. d) privește tarifele de conectare, nu facturile restante.",
+        "Art. I pct. 3 indică art. 93 alin. (1) pct. 2 lit. b), deși dispoziția urmărită este grila de sancțiuni de la alin. (2) lit. b). Punctul 2 al alin. (1) descrie deja o altă contravenție. În forma extrasă, amenda urmărită de 10.000-200.000 lei nu este atașată corect noii fapte; eroarea trebuie verificată și în documentul original.",
+        "Art. II pct. 2: noua contravenție intră în grila existentă de 30.000-50.000 lei. Prin art. 47 alin. (4¹), nemodificat, încălcarea repetată intră și sub sancțiunea existentă de 5% din cifra de afaceri. Proiectul extinde astfel aplicabilitatea acestei sancțiuni la noile obligații, inclusiv procedurale.",
+        "Art. I, art. 23¹ alin. (16), cere ca solicitarea către operator să declare atingerea pragului. Această condiție este incompatibilă cu excepția de la alin. (4), care permite deconectarea pentru o datorie inferioară pragului rămasă neachitată peste 12 luni.",
+        "Art. IV: în prezent, debranșarea de la apă poate urma după 5 zile lucrătoare de la primirea notificării, cu respectarea condițiilor existente privind restanța. Proiectul înlocuiește acest interval cu procedura nouă, care presupune minimum 30 de zile înaintea deconectării. Regulile nemodificate privind reluarea serviciului și protecția condominiilor continuă să se aplice și trebuie corelate cu eșalonarea și reconectarea gratuită.",
+        "Art. I și II: protecția anuală a persoanelor vulnerabile și protecția medicală sunt utile, dar identificarea beneficiarilor și comunicarea statutului către furnizori trebuie clarificate, mai ales pentru apă și termoficare. Introducerea protecției pentru gaze în titlul privind energia electrică, împreună cu sancțiunile aferente acestuia, necesită corelare cu regimul distinct al gazelor.",
+        "Art. VI prevede intrarea în vigoare în termen de 90 de zile, fără reguli tranzitorii pentru notificări în curs, eșalonări existente sau deconectări deja executate. Este necesară o dată determinabilă precis și delimitarea aplicării la situațiile în desfășurare; textul nu instituie expres o reconectare generală a tuturor persoanelor deconectate anterior."
       ],
-      "blindSpotsCaught": "Pe lângă contradicția dintre alin. (4) și (16), alin. (6) prevede minimum 3 luni pentru datorii sub dublul pragului, categorie care include și datorii sub prag, dar alin. (10) exclude aceste durate minime pentru datoriile sub prag. Trebuie precizat regimul restanțelor sub prag mai vechi de 12 luni. De asemenea, expunerea de motive promite protecție transversală împotriva limitării serviciului, însă fragmentul energetic folosește predominant deconectarea; echivalența juridică nu poate fi presupusă din motivare.",
-      "constitutionalityNote": "Scopul este compatibil cu protecția sănătății și nivelului de trai, potrivit art. 34 și 47 din Constituție. Vulnerabilitatea principală ține de art. 1 alin. (5): contradicțiile, destinatarii neclari și trimiterile sancționatorii incerte reduc previzibilitatea. Art. 23 alin. (12) privește pedepsele penale și nu trebuie invocat automat pentru orice amendă contravențională. Restrângerea posibilității de deconectare trebuie echilibrată cu proprietatea, libertatea economică și concurența, protejate prin art. 44, 45 și 135; păstrarea creanței și a recuperării judiciare susține proporționalitatea. Art. 111 alin. (1) și art. 138 alin. (5) devin relevante în condițiile lor constituționale privind efectele bugetare, nu doar pentru că operatorii suportă costuri.",
-      "euLawNote": "Art. 28a din Directiva (UE) 2019/944, introdus prin Directiva (UE) 2024/1711, susține protejarea clienților vulnerabili și a celor afectați de sărăcie energetică împotriva debranșării de la electricitate. Nu rezultă însă că UE impune exact pragul de 50 euro sau extinderea identică la gaze, apă și termoficare. Pretinsul deficit de transpunere și termenul invocat trebuie confruntate cu legislația națională actualizată. Directiva (UE) 2018/958 privește testarea proporționalității reglementărilor profesionale, nu orice obligație comercială; fragmentul nu indică restricții de acces la profesii. Directiva (UE) 2015/1535 nu devine aplicabilă doar fiindcă motivarea menționează internetul: extrasul nu conține o regulă tehnică identificabilă privind servicii digitale sau AI. Nu se instituie un monopol evident; obligațiile uniforme pot afecta însă diferit lichiditatea furnizorilor mici, ceea ce justifică evaluarea concurențială.",
+      "blindSpotsCaught": "Două efecte importante rezultă din trimiteri: procedura pentru neplată ajunge să condiționeze debranșarea voluntară de la termoficare, iar noua contravenție pentru utilități atrage mecanismul existent al amenzii de 5% din cifra de afaceri pentru încălcări repetate. În plus, expunerea promite acoperirea limitării serviciului, dar textele operative folosesc predominant «deconectarea»; numai protecția specială de la art. 36¹ alin. (11) enumeră expres și sistarea sau limitarea.",
+      "constitutionalityNote": "Scopul protejării sănătății și nivelului de trai este legitim, în raport cu art. 34 și 47 din Constituție. Principalele vulnerabilități țin de art. 1 alin. (5): trimiterea sancționatorie greșită, contradicția dintre prag și excepția după 12 luni, aplicarea procedurii pentru datornici debranșărilor voluntare și delimitarea insuficientă a măsurilor interzise. În materia contravențiilor sunt necesare obligații și sancțiuni previzibile; art. 23 alin. (12) privește direct pedepsele penale, iar analiza contravențională nu trebuie confundată automat cu aceasta. Art. 44 și 45 cer un echilibru proporțional între protecția beneficiarilor și sarcinile furnizorilor; interdicțiile sociale nu sunt neconstituționale prin simpla lor existență. Lipsa unei scheme de compensare justifică evaluarea economică, dar nu dovedește singură încălcarea art. 138 alin. (5), deoarece proiectul nu instituie expres o cheltuială bugetară. Menționarea art. 76 alin. (1) nu justifică singură caracterul organic al legii, care depinde de materia efectiv reglementată.",
+      "euLawNote": "Art. 28a din Directiva (UE) 2019/944, introdus prin Directiva (UE) 2024/1711, susține protecția clienților vulnerabili și a celor afectați de sărăcie energetică împotriva deconectării electricității, precum și protecția în contextul reclamațiilor. Proiectul urmărește această direcție, dar transpunerea completă și pretinsul deficit nu pot fi confirmate numai din extrasele furnizate; trebuie verificat întregul cadru național. Directiva (UE) 2018/958 privește proporționalitatea reglementării profesiilor și nu se aplică automat obligațiilor comerciale ale furnizorilor de utilități. Directiva (UE) 2015/1535 nu impune automat notificarea TRIS pentru orice regulă privind telecomunicațiile: proiectul nu reglementează specific servicii digitale sau AI, iar cadrul comunicațiilor electronice are reguli și excluderi proprii. Nu se instituie un monopol sau o barieră explicită la intrarea pe piață, însă amânarea încasărilor, administrarea eșalonărilor și riscul creanțelor nerecuperate pot afecta mai puternic furnizorii mici. Protecțiile nu trebuie să împiedice întreruperile necesare pentru siguranță, iar delimitarea lor de măsurile pentru neplată trebuie exprimată clar.",
       "senatForm": {
-        "articleRef": "Art. I pct. 1: art. 23¹ alin. (4), (16)",
-        "proposalContent": "La alin. (16), declarația furnizorului va atesta fie atingerea pragului și îndeplinirea alin. (5), fie îndeplinirea cumulativă a condițiilor alin. (4), precum și inexistența altor interdicții. Corelați expres excepția de la alin. (4) cu regimul eșalonării din alin. (6) și (10).",
-        "argumentation": "Alin. (4) permite deconectarea pentru restanțe sub prag mai vechi de 12 luni, dar alin. (16) cere declararea atingerii pragului. Condițiile sunt incompatibile în această situație. Corelarea elimină blocajul și asigură previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
-        "otherComments": "Susțin protecția împotriva deconectărilor disproporționate. Solicitați clarificarea calculului pragului, a beneficiarilor și a termenului de răspuns la cererile de eșalonare, corectarea trimiterii sancționatorii de la art. I pct. 3 și evaluarea costurilor pentru operatori. Extrasul analizat este incomplet la art. III."
+        "articleRef": "Art. III – art. 33 alin. (5) din Legea 325/2006",
+        "proposalContent": "La art. 33 alin. (5), se menține forma în vigoare, inclusiv termenul de maximum 45 de zile. Procedura art. 36¹ din Legea nr. 51/2006 se aplică exclusiv măsurilor luate de furnizor pentru neplată, nu deconectărilor/debranșărilor solicitate de utilizator.",
+        "argumentation": "Art. 33 alin. (1)-(3) privește debranșări voluntare, inclusiv pentru instalarea unei surse proprii de încălzire. Procedura pentru datornici nu corespunde acestor situații. Eliminarea termenului de 45 de zile permite amânarea soluționării cererilor și poate prelungi suportarea costurilor serviciului.",
+        "otherComments": "Corectați trimiterea sancționatorie din art. I pct. 3 și declarația impusă de art. 23¹ alin. (16). Acoperiți expres suspendarea și limitarea pentru neplată. Clarificați eșalonarea restanțelor telecom și evaluați proporționalitatea aplicării amenzii existente de 5% din cifra de afaceri la noile încălcări."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-10T14:06:36.719Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-19T16:45:19.857Z",
+      "reasons": [
+        "metoda",
+        "model"
+      ]
+    }
+  ]
 }

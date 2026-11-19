@@ -24,6 +24,8 @@ interface Summary {
 interface Vote {
   verdict?: string;
   injection?: boolean;
+  /** De ce a ales verdictul, într-o propoziție (din 19 noiembrie 2026; rapoartele mai vechi nu-l au). */
+  reason?: string;
   claimFound?: boolean;
   evidenceFound?: boolean;
 }
@@ -502,6 +504,7 @@ function ReportDetail({
                   <span className="text-muted">
                     fraza {v.claimFound ? 'găsită' : 'negăsită'} · citatul {v.evidenceFound ? 'găsit' : 'negăsit'}
                   </span>
+                  {v.reason && <span className="basis-full text-body">{v.reason}</span>}
                 </li>
               ))}
             </ul>

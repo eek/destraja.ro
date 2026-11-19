@@ -197,7 +197,9 @@ async function parseBillSheet(bill) {
     if (/forma\s+(?:actualizat[ăa]\s+a\s+)?ini[țţ]iatorului|FGA?\.PDF/i.test(label + ' ' + rawHref)) type = 'forma_initiatorului';
     else if (/expunerea\s+de\s+motive|EM\.PDF/i.test(label + ' ' + rawHref)) type = 'expunere_motive';
     else if (/adresa\s+de\s+[îi]naintare|AD\.PDF/i.test(label + ' ' + rawHref)) type = 'adresa_inaintare';
-    else if (/aviz|CES|consiliul/i.test(label + ' ' + rawHref)) type = 'aviz';
+    // „adresa pentru aviz la Consiliul legislativ…” e cererea de avize, nu un aviz.
+    else if (/^adresa\s+pentru\s+aviz/i.test(label)) type = 'other';
+    else if (/aviz|opinia|CES|consiliul/i.test(label + ' ' + rawHref)) type = 'aviz';
 
     pdfs.push({
       type,

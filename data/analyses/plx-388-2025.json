@@ -1,0 +1,154 @@
+{
+  "billId": "Pl-x 388/2025",
+  "slug": "plx-388-2025",
+  "version": "initiator",
+  "updatedAt": "2026-11-19T16:31:54.990Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 2381,
+    "ordinanceChars": 0,
+    "memoChars": 3170,
+    "memoSupplied": 3170,
+    "marker": "SF-5A6E9D6A"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-388-2025.json",
+    "form": "initiator",
+    "textHash": "5a6e9d6a42a03142",
+    "fetchedAt": "2026-11-19T16:29:06.843Z",
+    "acts": 2,
+    "actsFound": 2,
+    "actsRepealed": 0,
+    "articlesFound": 2,
+    "articlesShown": 2,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 3883,
+    "truncated": false,
+    "included": true,
+    "key": "3b2b1ba9cdedba71"
+  },
+  "consensus": {
+    "riskScore": 3.7,
+    "riskLevel": "green",
+    "plainTitle": "Locuință de protocol și cazare pe bani publici doar pentru cine n-are casă în București",
+    "summaryTlDr": "Lege anti-privilegiu cu miză bugetară mică. Art. I închide corect portița „locuinței necorespunzătoare” pentru miniștri și asimilați. Art. II e însă scris pe dos: cu „sau” în loc de „și”, nu taie cazarea celor cu casă în București și o poate extinde celor cu domiciliul în Capitală. Comisiile trebuie să-l repare.",
+    "initiatorClaim": "Inițiatorii vor să elimine un privilegiu. Demnitarii și secretarii generali ai Parlamentului care au deja o locuință în zona în care lucrează nu ar mai primi locuință de protocol, cazare la hotel sau transport decontat din bani publici, ca exemplu de moderație în criza de deficit.",
+    "realityCheck": "Art. I funcționează. Elimină condiția ca locuința proprie să corespundă unor criterii stabilite prin HG, deci orice locuință deținută exclusiv sau în coproprietate în localitatea de muncă blochează atribuirea unei locuințe de protocol. Art. II leagă condițiile prin „sau”, așa că e suficientă una singură: secretarul general cu domiciliul în alt județ primește în continuare cazare și transport chiar dacă are apartament în București, iar cel cu domiciliul în București care stă cu chirie capătă un drept pe care azi nu-l are. Pierd dreptul doar cei cu domiciliul în Ilfov care dețin o locuință în București sau în Ilfov.",
+    "affectedGroups": [
+      "Toți cetățenii",
+      "Angajați & HR",
+      "Proprietari & Imobiliare"
+    ],
+    "senatForm": {
+      "articleRef": "Art. II (art. 43 alin. 2-3 din Legea nr. 7/2006)",
+      "proposalContent": "La art. II, în alin. (2) și (3) ale art. 43, condiția devine: „care nu au domiciliul în municipiul București sau în județul Ilfov și nu dețin, singuri sau împreună cu alte persoane, o locuință în municipiul București sau în județul Ilfov”. Formula „se completează” se înlocuiește cu „alin. (2) și (3) se modifică”.",
+      "argumentation": "Cu „sau”, ajunge o singură condiție: cine are domiciliul în alt județ primește cazare și transport chiar dacă deține locuință în București, iar cine are domiciliul în București, dar stă cu chirie, capătă un drept nou. Invers față de expunerea de motive. „Singuri sau împreună” prinde și locuința comună a soților, ținută în devălmășie, nu în coproprietate.",
+      "otherComments": "La art. I, bariera vizează doar localitatea de muncă (București): o casă deținută în Ilfov nu împiedică atribuirea locuinței de protocol, deși art. II include Ilfovul. Și aici „coproprietate” lasă afară devălmășia soților (art. 632 C. civ.); ajută „singuri sau împreună”. Lipsește o normă tranzitorie pentru contractele de închiriere în curs."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 86452,
+      "sourceEndMarker": "SF-5A6E9D6A",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Restrângerea locuințelor de protocol și a decontărilor pentru șefii din Parlament, dar cu o eroare de redactare cu efect invers",
+      "verdictShort": "Intenția legii este bună și nu afectează cetățenii sau firmele, însă o eroare logică majoră la Art. II („sau” în loc de „și nici”) îi sabotează propriul scop și poate extinde decontările la hotel. Proiectul are nevoie de corecții în comisii și trebuie adoptat ca lege organică.",
+      "initiatorClaim": "Inițiatorii USR susțin că elimină privilegii nejustificate din bani publici, blocând locuințele de protocol și decontările de hotel/transport pentru demnitarii și secretarii generali ai Parlamentului care dețin deja o locuință în zona în care lucrează.",
+      "realityCheck": "Art. I chiar închide o portiță din OG 19/2002 (eliminând condiția ca locuința proprie a miniștrilor sau vicepreședinților Parlamentului să corespundă criteriilor din HG), dar omite județul Ilfov și nu reglementează contractele deja în derulare. La Art. II, în loc să cumuleze condițiile negative, textul folosește „sau” între două negații („nu au domiciliul... sau nu dețin...”), ceea ce menține decontările pentru proprietarii cu domiciliul în provincie și deschide ușa decontării de hotel pentru secretarii generali cu domiciliul în București care stau cu chirie.",
+      "affectedGroups": [
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Eroare logică critică la Art. II (art. 43 alin. (2) și (3) din Legea nr. 7/2006): formularea „care nu au domiciliul în municipiul București sau județul Ilfov sau nu dețin în proprietate... o altă locuință” stabilește condiții alternative, nu cumulative. Pe textul literal, cine are domiciliul în provincie și deține apartament în București rămâne eligibil la hotel și 4 drumuri/lună, iar cine are domiciliul în București fără a fi proprietar devine nou eligibil.",
+        "Efect real pozitiv, dar incomplet la Art. I (art. 4 alin. (3) din OG nr. 19/2002): față de legea în vigoare, dispare portița „care să corespundă criteriilor aprobate prin hotărâre a Guvernului” pentru vicepreședinții Camerelor, miniștri, președintele Consiliului Legislativ și Avocatul Poporului. Totuși, interdicția vizează doar „localitatea în care își desfășoară activitatea” (fără județul Ilfov, spre deosebire de Art. II) și nu acoperă bunurile proprii ale soțului/soției.",
+        "Risc de neconstituționalitate procedurală: formula de atestare indică art. 76 alin. (2) din Constituție (lege ordinară), deși Art. II modifică Legea nr. 7/2006 privind statutul funcționarului public parlamentar, domeniu de lege organică conform art. 73 alin. (3) lit. j) și art. 76 alin. (1).",
+        "Scăpări de tehnică legislativă și absența normelor tranzitorii: Art. II menționează „se completează” deși modifică alin. (2)-(3) și doar reia nemodificat alin. (1) în vigoare (tichetele de masă), preia impropriu sintagma „o altă locuință” din Art. I, omite cuvântul „județul” înainte de „Ilfov” la alin. (3), citează greșit titlul OG 19/2002 și nu clarifică soarta contractelor RA-APPS aflate în curs."
+      ],
+      "blindSpotsCaught": "Capcana Booleană din Art. II (`nu A sau nu B` în loc de `nu A și nici nu B`) inversează efectul fiscal urmărit, iar combinarea în același proiect a unei ordonanțe ordinare (OG 19/2002) cu statutul funcționarului public parlamentar (Legea 7/2006) obligă Parlamentul să voteze întreaga lege cu majoritate de lege organică (art. 76 alin. (1)), contrar formulei din proiect.",
+      "constitutionalityNote": "Două vulnerabilități reale: (1) Art. 1 alin. (5) privind claritatea și previzibilitatea legii este afectat de disjuncția „sau” din Art. II alin. (2)-(3), care produce interpretări contradictorii și absurde (inclusiv decontarea a 4 deplasări București-București pentru cei domiciliați în Capitală fără proprietate); (2) Art. 73 alin. (3) lit. j) coroborat cu art. 76 alin. (1) impune adoptarea ca lege organică, deoarece se modifică statutul funcționarilor publici parlamentari (Legea 7/2006), nu ca lege ordinară cum prevede clauza finală propusă.",
+      "euLawNote": "Fără incidență în dreptul Uniunii Europene. Proiectul vizează exclusiv drepturi locative și decontări interne pentru un număr restrâns de demnitari și înalți funcționari parlamentari; nu reglementează profesii (Directiva (UE) 2018/958 nu se aplică), nu conține norme tehnice sau servicii digitale/AI (fără obligație de notificare TRIS conform Directivei (UE) 2015/1535) și nu afectează piața internă sau concurența.",
+      "senatForm": {
+        "articleRef": "Art. II (art. 43 alin. (2)-(3) Legea 7/2006)",
+        "proposalContent": "La Art. II, art. 43 alin. (2) și (3) se modifică prin înlocuirea sintagmei „sau nu dețin în proprietate exclusivă sau în coproprietate o altă locuință” cu „și nici nu dețin în proprietate exclusivă sau în coproprietate o locuință”, iar la alin. (3) se adaugă „județul” înainte de „Ilfov”. La Art. II, „se completează” devine „se modifică”.",
+        "argumentation": "Conjuncția „sau” între două negații („nu au... sau nu dețin...”) face condițiile alternative, invers scopului legii: cine are domiciliul în provincie dar deține casă în București/Ilfov rămâne eligibil, iar cine are domiciliul în București fără proprietate ar putea cere hotel. „Și nici” impune cumulul și claritatea normei (art. 1 alin. 5 Constituție).",
+        "otherComments": "1) Legea 7/2006 este organică (art. 73 alin. 3 lit. j Constituție), deci proiectul trebuie adoptat cu art. 76 alin. (1), nu alin. (2), evitând riscul la CCR. 2) La Art. I, extindeți criteriul și la județul Ilfov, corectați titlul OG 19/2002 și clarificați regimul contractelor RA-APPS în derulare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 168100,
+      "sourceEndMarker": "SF-5A6E9D6A",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Locuință de protocol și cazare pe bani publici doar pentru cine n-are casă în București",
+      "verdictShort": "Lege anti-privilegiu cu miză bugetară mică. Art. I închide corect portița „locuinței necorespunzătoare” pentru miniștri și asimilați. Art. II e însă scris pe dos: cu „sau” în loc de „și”, nu taie cazarea celor cu casă în București și o poate extinde celor cu domiciliul în Capitală. Comisiile trebuie să-l repare.",
+      "initiatorClaim": "Inițiatorii vor să elimine un privilegiu. Demnitarii și secretarii generali ai Parlamentului care au deja o locuință în zona în care lucrează nu ar mai primi locuință de protocol, cazare la hotel sau transport decontat din bani publici, ca exemplu de moderație în criza de deficit.",
+      "realityCheck": "Art. I funcționează. Elimină condiția ca locuința proprie să corespundă unor criterii stabilite prin HG, deci orice locuință deținută exclusiv sau în coproprietate în localitatea de muncă blochează atribuirea unei locuințe de protocol. Art. II leagă condițiile prin „sau”, așa că e suficientă una singură: secretarul general cu domiciliul în alt județ primește în continuare cazare și transport chiar dacă are apartament în București, iar cel cu domiciliul în București care stă cu chirie capătă un drept pe care azi nu-l are. Pierd dreptul doar cei cu domiciliul în Ilfov care dețin o locuință în București sau în Ilfov.",
+      "affectedGroups": [
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I (OG nr. 19/2002, art. 4 alin. (3)): azi, vicepreședinții Camerelor, miniștrii și asimilații, președintele Consiliului Legislativ și Avocatul Poporului pot primi locuință de protocol dacă locuința pe care o dețin în oraș nu „corespunde criteriilor aprobate prin hotărâre a Guvernului”. Proiectul taie această clauză, așa că orice locuință deținută exclusiv sau în coproprietate în localitatea de muncă blochează atribuirea.",
+        "Art. II (Legea nr. 7/2006, art. 43 alin. (2)-(3)): formula „care nu au domiciliul în București sau Ilfov sau nu dețin... o altă locuință” leagă condițiile disjunctiv. Secretarul general cu domiciliul în provincie păstrează cazarea și cele 4 deplasări lunare chiar dacă are locuință în București. Cel cu domiciliul în București care nu deține locuință câștigă dreptul la hotel și la „deplasări” între București și București. Efectul e invers celui anunțat în expunerea de motive.",
+        "Incoerență între articole: art. II include județul Ilfov, art. I se oprește la „localitatea în care își desfășoară activitatea”. Un ministru cu casă la Voluntari sau la Otopeni poate primi în continuare locuință de protocol în București.",
+        "Formula „proprietate exclusivă sau coproprietate”, preluată din textul actual al art. 4 alin. (3), nu prinde locuința cumpărată de soți în comunitate de bunuri. Codul civil o încadrează la devălmășie (art. 339), pe care art. 632 o distinge expres de coproprietate. Cazul cel mai frecvent poate scăpa de condiție la o lectură literală.",
+        "Miza bugetară e simbolică: vizează câteva persoane (secretarii generali și adjuncții celor două Camere și puținii demnitari cu locuință de protocol). Proiectul nu are fișă financiară și nu atinge drepturile de cazare ale deputaților și senatorilor (Legea nr. 96/2006), după care sunt calibrate cele ale secretarilor generali.",
+        "Redactare: art. II spune că art. 43 „se completează”, dar de fapt alin. (2) și (3) se modifică, iar alin. (1) e reprodus identic. Alin. (3) scrie „București sau Ilfov” fără „județul”, iar „o altă locuință” nu are termen de referință. Lipsește o normă tranzitorie pentru contractele de închiriere a locuințelor de protocol aflate în curs."
+      ],
+      "blindSpotsCaught": "Chichița principală e conjuncția: „nu au domiciliul... sau nu dețin” cere doar una dintre condiții, deci textul nu face ce declară expunerea de motive și, pentru cei cu domiciliul în București fără locuință proprie, extinde un avantaj. A doua: „proprietate exclusivă sau coproprietate” lasă afară devălmășia soților (art. 339 și 632 Cod civil), forma obișnuită de proprietate în căsătorie, atât la locuințele de protocol, cât și la secretarii generali. Formula „singuri sau împreună cu alte persoane” ar acoperi toate situațiile.",
+      "constitutionalityNote": "Pe fond, condiționarea unor avantaje (locuință de protocol, cazare, transport) de lipsa unei locuințe proprii e un criteriu obiectiv și rezonabil, compatibil cu art. 16. Avantajele nu sunt bunuri protejate de art. 44 și nici drepturi câștigate, deci pot fi restrânse pentru viitor (art. 15 alin. (2)). Lipsa unei norme tranzitorii pentru contractele în curs lasă totuși loc de interpretare. Problema reală e de claritate și previzibilitate (art. 1 alin. (5)): art. II spune gramatical altceva decât intenția declarată. Dacă se reține lectura literală, care extinde dreptul la cazare și transport, apare o cheltuială nouă fără sursă de finanțare (art. 138 alin. (5)). De verificat și caracterul organic: Legea nr. 7/2006 privește statutul unei categorii de funcționari publici (art. 73 alin. (3) lit. j), iar proiectul invocă art. 76 alin. (2).",
+      "euLawNote": "Neutru față de dreptul UE. Proiectul nu reglementează accesul la profesii, deci Directiva (UE) 2018/958 nu se aplică. Nu conține reguli tehnice sau reguli privind serviciile societății informaționale, deci nu cere notificare TRIS (Directiva 2015/1535). Nu afectează concurența, piața unică sau ajutoarele de stat. Verificarea proprietăților prin cartea funciară implică prelucrări de date personale cu temei legal clar (art. 6 alin. (1) lit. c)-e) GDPR). Nu are impact asupra cetățenilor sau IMM-urilor.",
+      "senatForm": {
+        "articleRef": "Art. II (art. 43 alin. 2-3 din Legea nr. 7/2006)",
+        "proposalContent": "La art. II, în alin. (2) și (3) ale art. 43, condiția devine: „care nu au domiciliul în municipiul București sau în județul Ilfov și nu dețin, singuri sau împreună cu alte persoane, o locuință în municipiul București sau în județul Ilfov”. Formula „se completează” se înlocuiește cu „alin. (2) și (3) se modifică”.",
+        "argumentation": "Cu „sau”, ajunge o singură condiție: cine are domiciliul în alt județ primește cazare și transport chiar dacă deține locuință în București, iar cine are domiciliul în București, dar stă cu chirie, capătă un drept nou. Invers față de expunerea de motive. „Singuri sau împreună” prinde și locuința comună a soților, ținută în devălmășie, nu în coproprietate.",
+        "otherComments": "La art. I, bariera vizează doar localitatea de muncă (București): o casă deținută în Ilfov nu împiedică atribuirea locuinței de protocol, deși art. II include Ilfovul. Și aici „coproprietate” lasă afară devălmășia soților (art. 632 C. civ.); ajută „singuri sau împreună”. Lipsește o normă tranzitorie pentru contractele de închiriere în curs."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 65379,
+      "sourceEndMarker": "SF-5A6E9D6A",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Locuințe de protocol mai restrictive, dar o portiță pentru cazare și transport",
+      "verdictShort": "Proiectul restrânge justificat accesul la locuințe de protocol, dar condiția pentru cazarea și transportul conducerii administrative a Parlamentului este redactată greșit. Folosirea lui „sau” între două condiții negative păstrează beneficii pentru unii proprietari și poate introduce beneficiari noi.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea cheltuielilor publice pentru locuințe, cazare și transport atunci când beneficiarul are deja o locuință proprie în zona unde lucrează. Ei prezintă modificările drept eliminarea unor privilegii nejustificate.",
+      "realityCheck": "Art. I exclude atribuirea unei locuințe de protocol dacă persoana deține orice locuință, inclusiv în coproprietate, în localitatea unde lucrează, eliminând filtrul actual al criteriilor aprobate de Guvern. Art. II permite însă beneficiile dacă este îndeplinită oricare dintre condițiile negative: domiciliu în afara Bucureștiului și Ilfovului sau lipsa unei locuințe în această zonă. Astfel, proprietarul domiciliat în alt județ rămâne eligibil, iar persoana domiciliată în București fără locuință proprie devine eligibilă, deși acum este exclusă prin criteriul domiciliului.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Proprietari & Imobiliare",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I: în prezent, numai proprietatea unei locuințe care corespunde criteriilor guvernamentale împiedică atribuirea locuinței de protocol; proiectul elimină această calificare. Lista funcțiilor eligibile și regulile de decontare din celelalte alineate nu sunt modificate.",
+        "Art. I: coproprietatea este deja relevantă în legea actuală. Noutatea este că inclusiv o cotă redusă dintr-o locuință necorespunzătoare poate deveni motiv de excludere, fără evaluarea posibilității efective de folosire.",
+        "Art. II, art. 43 alin. (2) și (3): „sau” creează condiții alternative. Pentru a exclude atât persoanele cu domiciliul în zonă, cât și proprietarii din zonă, condițiile negative trebuie îndeplinite cumulativ.",
+        "Art. II: persoanele domiciliate în Ilfov care dețin o locuință în București sau Ilfov pierd eligibilitatea, în timp ce proprietarii domiciliați în afara acestei zone o păstrează. Efectul nu corespunde criteriului uniform anunțat în motivare.",
+        "Tichetele de masă, suma de 70% din tariful hotelier și cele patru deplasări lunare sunt deja prevăzute de lege. Proiectul schimbă eligibilitatea, nu introduce aceste beneficii și nu le majorează cuantumul.",
+        "Textul nu conține dispoziții tranzitorii pentru locuințele de protocol deja atribuite și nici nu dispune expres încetarea contractelor existente. Expunerea furnizată nu cuantifică economiile și eventualele cheltuieli suplimentare rezultate din schimbarea beneficiarilor."
+      ],
+      "blindSpotsCaught": "Problema centrală este diferența dintre intenție și logica textului: „nu are domiciliul în zonă SAU nu are proprietate în zonă” exclude numai persoana care are simultan domiciliul și proprietate acolo. În plus, extinderea eligibilității la persoane domiciliate în București fără proprietate face incoerentă aplicarea beneficiului pentru deplasări între București și localitatea de domiciliu.",
+      "constitutionalityNote": "Art. 1 alin. (5) este relevant pentru claritatea condițiilor de eligibilitate și coerența reglementării; contradicția cu motivarea trebuie corectată, dar nu dovedește singură neconstituționalitatea. Tratamentul diferit al proprietarilor în funcție de domiciliu necesită justificare obiectivă potrivit art. 16. Nu există sancțiuni penale, astfel că art. 23 alin. (12) nu este incident. Pentru efectele bugetare trebuie verificate solicitarea informațiilor Guvernului potrivit art. 111 alin. (1) și, dacă rezultă cheltuieli suplimentare, respectarea art. 138 alin. (5). Mențiunea adoptării conform art. 76 alin. (2) necesită verificare în raport cu domeniul organic al statutului funcționarilor publici, prevăzut de art. 73 alin. (3) lit. j); simpla modificare a unei legi organice nu impune automat caracter organic fiecărei dispoziții.",
+      "euLawNote": "Proiectul nu restricționează accesul la profesii reglementate sau exercitarea acestora, astfel că testul din Directiva (UE) 2018/958 nu este incident. Nu introduce reglementări tehnice ori reguli privind servicii ale societății informaționale, deci nu rezultă obligația notificării TRIS potrivit Directivei (UE) 2015/1535. Nu instituie monopoluri, restricții concurențiale evidente sau sarcini directe pentru IMM-uri; impactul principal privește beneficiarii și bugetele instituțiilor publice.",
+      "senatForm": {
+        "articleRef": "Art. II – art. 43 alin. (2) și (3)",
+        "proposalContent": "La alin. (2) și (3), condiția referitoare la domiciliu și proprietate se înlocuiește cu: «care nu au domiciliul nici în municipiul București, nici în județul Ilfov și nu dețin în proprietate exclusivă sau în coproprietate nicio locuință în municipiul București ori în județul Ilfov».",
+        "argumentation": "Conjuncția „sau” permite acordarea beneficiilor proprietarilor domiciliați în afara zonei și persoanelor domiciliate în București fără proprietate. Condițiile cumulative aliniază textul cu scopul declarat: excluderea persoanelor care au domiciliul ori dețin o locuință în București sau Ilfov.",
+        "otherComments": "Solicit cuantificarea impactului bugetar și clarificarea situației locuințelor de protocol deja atribuite. Termenul indicat, 30.10.2025, este depășit; observația poate fi trimisă comisiilor raportoare, dar preluarea ca amendament depinde de procedura parlamentară aplicabilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    }
+  }
+}

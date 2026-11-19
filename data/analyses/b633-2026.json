@@ -1,101 +1,136 @@
 {
   "billId": "B633/2026",
   "slug": "b633-2026",
-  "updatedAt": "2026-11-12T15:14:06.938Z",
+  "updatedAt": "2026-11-19T16:21:44.949Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 16971,
+    "ordinanceChars": 0,
+    "memoChars": 44807,
+    "memoSupplied": 44807,
+    "marker": "SF-4D884517"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/b633-2026.json",
+    "form": "initiator",
+    "textHash": "4d8845173f523cbd",
+    "fetchedAt": "2026-11-19T09:23:24.512Z",
+    "acts": 0,
+    "actsFound": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 6.7,
-    "riskLevel": "yellow",
-    "plainTitle": "Inspectorii nu mai pot filma controalele cu telefonul personal, iar toate filmările din controale devin secrete",
-    "summaryTlDr": "Scopul e bun: proiectul oprește inspectorii care transmit live controalele pe rețelele sociale și pune ordine în camerele de serviciu. Problema este că declară secrete toate înregistrările din controale și e scris atât de larg încât poate fi folosit și împotriva omului controlat care vrea să filmeze un inspector.",
-    "initiatorClaim": "Inițiatorii spun că unii funcționari filmează sau transmit live controalele cu telefonul personal și distrug reputația oamenilor și firmelor înainte să se stabilească vreo vină. Ei vor reguli unitare pentru dispozitivele de serviciu și pentru protecția înregistrărilor.",
-    "realityCheck": "Legea obligă personalul de control să folosească doar dispozitive de serviciu. Cere registre, proceduri interne, păstrarea filmărilor cel puțin 3–5 ani și informarea persoanei controlate, iar acestea sunt măsuri utile. În schimb, art. 10 face toate înregistrările din control, «indiferent de suport», secrete de serviciu, cu răspundere penală după art. 304 Cod penal. Art. 4 alin. (2) interzice impersonal orice dispozitiv personal, deci poate fi invocat și împotriva cetățeanului care filmează. Nicio instituție nu este obligată să înregistreze controalele: transparența rămâne opțională, iar secretul devine regula.",
+    "riskScore": 7,
+    "riskLevel": "red",
+    "plainTitle": "Fără telefoane la controale: filmările inspectorilor devin secret de serviciu",
+    "summaryTlDr": "Pornește de la o problemă reală, inspectorii care fac live-uri cu firmele controlate, dar o rezolvă disproporționat: orice filmare dintr-un control al statului devine secret de serviciu. Protecția celor controlați se transformă în opacitate pentru cei care controlează.",
+    "initiatorClaim": "Inițiatorii vor să oprească funcționarii care filmează cu telefonul personal sau transmit live controalele pe rețele sociale. Spun că astfel de imagini produc prejudicii de imagine ireversibile pentru oameni și firme înainte de orice verdict și că e nevoie de reguli unitare pentru înregistrările oficiale.",
+    "realityCheck": "Legea cere instituțiilor camere de serviciu, registre, servere și păstrarea filmărilor minimum 3–5 ani, dar nu obligă pe nimeni să filmeze controlul. Nici nu are o sancțiune proprie pentru inspectorul care face live: art. 15–16 vizează doar conducerea. Miezul real e art. 10: toate filmările devin secret de serviciu, deci ies din accesul public, iar instituția nu le mai poate publica decât după o declasificare neclară. Divulgarea lor, chiar și a unui abuz, intră sub art. 304 C.pen. Firma controlată are acces doar pe calea GDPR, care nu protejează persoanele juridice, iar art. 4 alin. (2), scris impersonal, poate fi invocat și împotriva celui controlat care filmează.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Justiție & Drepturi Civile",
-      "Toți cetățenii",
-      "Contabili & Fiscalitate"
+      "Angajați & HR",
+      "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 4 alin. (2) și art. 10 alin. (1)",
-      "proposalContent": "Art. 4 alin. (2): „Personalului de control îi este interzisă utilizarea dispozitivelor personale pentru înregistrări în timpul controlului.” Alin. (5): „Prezenta lege nu limitează dreptul persoanei controlate de a înregistra controlul.” Art. 10 alin. (1): înregistrările de serviciu sunt nepublice, nu secrete de serviciu; se aplică art. 13 din Legea 544/2001.",
-      "argumentation": "Art. 4 alin. (2) și art. 3 lit. c) pot fi citite ca interzicând și controlatului să filmeze, iar art. 10 secretizează orice înregistrare, «indiferent de suport». Poate dispărea proba abuzurilor în contestații (art. 21, 24 Const.), contrar art. 13 din Legea 544/2001. Scopul legitim, oprirea live-urilor inspectorilor, se atinge fără secretizare generală (art. 53).",
-      "otherComments": "Art. 6 alin. (1) lit. a) obligă toate autoritățile, și primăriile, la dispozitive și stocare 3-5 ani, fără sursă de finanțare în text (art. 138 alin. 5 Const.). Art. 16 nu spune cine e amendat: șeful sau instituția. Art. 10 alin. (1) și (3) se contrazic: secret prin lege sau prin decizia șefului echipei? Art. 4 alin. (4) nu cere ștergerea de pe telefonul personal."
+      "articleRef": "Art. 10 alin. (1) și (3); art. 4 alin. (2)",
+      "proposalContent": "Art. 10 alin. (1) devine: „Înregistrările sunt nepublice și nu pot fi difuzate de personalul de control. Clasificarea ca secret de serviciu se face numai caz cu caz, motivat, potrivit Legii nr. 182/2002.” Persoana controlată, inclusiv persoana juridică, primește la cerere copia filmării. La art. 4 alin. (2) se precizează că interdicția privește doar personalul de control.",
+      "argumentation": "Clasificarea în bloc a înregistrărilor ca secret de serviciu contravine art. 33 din Legea 182/2002, care interzice secretizarea informațiilor de interes public sau personal, și art. 31 Const. Expune penal (art. 304 C.pen.) funcționarii-avertizori și lasă firmele controlate fără acces garantat la probe. Scopul legitim, oprirea live-urilor, cere doar interdicția de difuzare.",
+      "otherComments": "Art. 2 alin. (1) lit. c) include autorități independente (BNR, ANSPDCP, ANRE), dar art. 16 și 18 le trimit la un „minister de resort”, în tensiune cu independența cerută de dreptul UE. Art. 14 fixează doar durate minime de păstrare, nu maxime (art. 5 GDPR). Lipsește fișa financiară (art. 15 din Legea 500/2002), iar art. 21 abrogă implicit „dispozițiile contrare”."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 85812,
-      "riskScore": 6,
-      "riskLevel": "yellow",
-      "plainTitle": "Interzicerea filmării controalelor cu telefonul personal și secretizarea înregistrărilor",
-      "verdictShort": "Deși legea pornește de la intenția legitimă de a opri inspectorii statului să mai facă spectacol pe TikTok sau Facebook în timpul controalelor la firme, textul propus secretizează excesiv toate înregistrările ca „secrete de serviciu” și riscă să fie folosit abuziv pentru a interzice chiar persoanelor controlate să filmeze abuzurile inspectorilor.",
-      "initiatorClaim": "Inițiatorii vor să oprească practica funcționarilor de control care filmează cu telefoanele personale sau transmit live pe rețelele sociale controalele la operatori economici, distrugând iremediabil reputația firmelor înainte ca vreo vinovăție să fie stabilită definitiv în instanță.",
-      "realityCheck": "Mecanismul tehnic al legii creează trei capcane majore: (1) Art. 4 alin. (2) este formulat impersonal și interzice utilizarea oricărui dispozitiv personal în timpul controlului, putând fi invocat de inspectori pentru a interzice antreprenorului sau cetățeanului să înregistreze eventualele abuzuri; (2) Art. 10 alin. (1) declară automat toate înregistrările drept „informații secrete de serviciu”, iar Art. 13 alin. (4) permite refuzarea accesului persoanei controlate la filmări dacă s-ar „compromite informații clasificate” sau o anchetă în curs; (3) Art. 4 alin. (4) lasă o portiță prin care șeful echipei de control poate autoriza verbal folosirea telefonului personal invocând o „urgență”.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 104043,
+      "sourceEndMarker": "SF-4D884517",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Secrete de serviciu pentru toate filmările din controalele statului",
+      "verdictShort": "Sub pretextul legitim de a opri live-urile abuzive ale inspectorilor pe rețelele sociale, proiectul transformă toate înregistrările controalelor în „secrete de serviciu” sub incidența Codului penal, creând riscuri grave pentru transparență, dreptul la apărare și bugetele publice.",
+      "initiatorClaim": "Inițiatorii susțin că vor să interzică funcționarilor să filmeze controalele cu telefoanele personale și să le transmită live pe rețelele sociale, protejând reputația, viața privată și prezumția de nevinovăție a firmelor și cetățenilor.",
+      "realityCheck": "În practică, Art. 10(1) clasifică automat orice filmare de control drept „informație secretă de serviciu” sub art. 304 Cod penal, ceea ce blochează accesul public la nereguli grave (sănătate, mediu) și permite instituțiilor să refuze chiar persoanei controlate accesul la probele video prin capcana din Art. 13(4). În plus, formularea impersonală a Art. 4(2) poate fi folosită pentru a interzice cetățenilor să filmeze abuzurile inspectorilor, iar Art. 16 uită să sancționeze contravențional chiar funcționarul care folosește telefonul personal.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Justiție & Drepturi Civile",
+        "Angajați & HR",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 10 alin. (1) și Art. 13 alin. (4) creează un blocaj în apărarea contribuabilului: toate înregistrările devin ope legis „informații secrete de serviciu” (informații clasificate potrivit Legii nr. 182/2002), în timp ce Art. 13 alin. (4) permite autorității să refuze accesul persoanei controlate la filmare dacă accesul „ar prejudicia interesele unei anchete în curs sau ar compromite informații clasificate”.",
-        "Art. 4 alin. (1) și (2) suferă de lipsă de previzibilitate: alin. (1) extinde obligația la „orice alte persoane care participă la activitățile de control”, iar alin. (2) interzice la modul general „utilizarea oricărui dispozitiv personal pentru captura de imagini, înregistrare audio sau înregistrare audio-video în timpul unui control”, fără a limita expres interdicția doar la funcționarii statului.",
-        "Art. 4 alin. (4) anulează practic interdicția pentru inspectori, permițând șefului echipei de control să autorizeze verbal, pe loc, folosirea telefonului personal pentru documentarea unor „aspecte esențiale”.",
-        "Art. 6 și Art. 16 alin. (1) lit. a) obligă toate instituțiile centrale și locale cu atribuții de control să achiziționeze bodycam-uri/dispozitive cu metadate nemodificabile și sisteme de stocare pentru informații clasificate, sub sancțiunea amenzii de 10.000–30.000 lei aplicate conducătorului instituției."
+        "Art. 10 alin. (1) transformă ope legis toate înregistrările controalelor (de la ANPC și Garda de Mediu la Poliția Locală) în „informații secrete de serviciu” sub sancțiunea penală a art. 304 Cod penal, sufocând transparența publică și investigațiile de presă.",
+        "Capcană juridică Art. 10(1) + Art. 13(4): deoarece toate filmările devin informații clasificate (secret de serviciu conform Legii 182/2002), Art. 13(4) permite autorității să refuze accesul persoanei controlate la propria filmare pe motiv că „ar compromite informații clasificate”.",
+        "Art. 4 alin. (2) interzice impersonal „utilizarea oricărui dispozitiv personal... în timpul unui control”, fără a limita expres interdicția la inspectori — riscând ca cetățenii și antreprenorii să fie opriți să filmeze abuzuri în legitimă apărare.",
+        "Art. 14 alin. (1) obligă la stocarea filmărilor minimum 3 ani chiar și pentru controale de rutină fără nicio abatere (și fără termen maxim), încălcând principiul minimizării datelor din GDPR.",
+        "Art. 16 nu prevede nicio amendă pentru inspectorul care filmează cu telefonul personal, sancționând doar șefii de instituții (10.000–30.000 lei) pentru lipsa echipamentelor sau a registrelor, în condițiile în care Art. 20 nu alocă nicio sursă reală de finanțare."
       ],
-      "blindSpotsCaught": "Clasificarea automată (ope legis) a oricărei filmări de control ca „secret de serviciu” (Art. 10 alin. 1) atrage incidența Legii nr. 182/2002 și a HG nr. 781/2002, ceea ce înseamnă că fiecare primărie sau inspectorat local ar avea nevoie de structură de securitate, registru special de evidență a informațiilor clasificate și sisteme informatice acreditate pentru a stoca banalul fișier video al unui control de rutină. Mai mult, în textul proiectului există o eroare de numerotare (Art. 7 nu are titlu de articol, fiind lipit sub Art. 6 cu mențiunea parazită „ROMANIA”).",
-      "constitutionalityNote": "Propunerea ridică probleme de constituționalitate raportat la Art. 1 alin. (5) din Constituție (principiul legalității, clarității și previzibilității legii), întrucât Art. 3 lit. d), Art. 4 alin. (2) și Art. 10 alin. (1) nu delimitează strict înregistrările făcute de agenții statului de cele realizate de persoana controlată în exercitarea dreptului la apărare (Art. 24 Constituție) sau de camerele de supraveghere proprii ale firmei. De asemenea, condiționarea accesului persoanei controlate la înregistrare prin excepțiile largi din Art. 13 alin. (4) încalcă egalitatea armelor și dreptul la un proces echitabil (Art. 21 alin. 3 Constituție).",
-      "euLawNote": "Sub incidența Regulamentului (UE) 2016/679 (GDPR), Art. 15 garantează dreptul de acces al persoanei vizate la datele prelucrate (inclusiv vocea și imaginea sa). Clasificarea în bloc a tuturor înregistrărilor administrative drept „secrete de serviciu” încalcă principiul proporționalității restricțiilor prevăzut de Art. 23 GDPR. Nu există impact pe Directiva (UE) 2018/958 (nu reglementează profesii) și nici obligație de notificare TRIS conform Directivei (UE) 2015/1535 (vizează proceduri administrative interne ale autorităților publice, nu servicii ale societății informaționale).",
+      "blindSpotsCaught": "Cea mai gravă chichiță este cercul vicios dintre Art. 10(1) și Art. 13(4) care îi poate bloca antreprenorului accesul la filmarea propriului control în instanță, combinată cu absența oricărei contravenții în Art. 16 pentru folosirea telefonului personal de către inspector (exact problema din expunerea de motive). De asemenea, Art. 16(2) nu desemnează cine sancționează autoritățile autonome (BNR, ASF, ANRE), din text lipsește numerotarea „Art. 7”, iar clasificarea automată scoate divulgările din controale de sub protecția avertizorilor (Directiva UE 2019/1937).",
+      "constitutionalityNote": "Vulnerabilități majore față de: Art. 31 (restrângere disproporționată a dreptului la informație de interes public prin secretizare automată), Art. 21 și Art. 24 (afectarea accesului la justiție și a dreptului la apărare prin refuzul accesului la înregistrări în Art. 13(4)), Art. 1 alin. (5) (lipsă de previzibilitate la Art. 4(2), „perioada imediat anterioară” din Art. 4(3) și abrogarea generică din Art. 21 contrară Legii 24/2000), Art. 73 alin. (3) lit. h) și Art. 76 alin. (1) (proiectul e propus ca lege ordinară, deși extinde incriminarea din art. 304 CP și regimul organic al Legii 182/2002) și Art. 138 alin. (5) (obligații financiare masive pentru toate instituțiile și UAT-urile fără fișă financiară și sursă de finanțare).",
+      "euLawNote": "Intră în conflict direct cu Regulamentul (UE) 2016/679 (GDPR): Art. 14(1) încalcă art. 5 alin. (1) lit. c) și e) (stocare minimă de 3 ani fără maxim, chiar și la controale fără abateri), iar combinația Art. 10(1)–Art. 13(4) golește de conținut dreptul de acces (art. 15 GDPR). De asemenea, subminează Directiva (UE) 2019/1937 (protecția avertizorilor), deoarece informațiile clasificate sunt excluse din domeniul Legii 361/2022. Directiva (UE) 2018/958 (profesii reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente direct, însă normele tehnice pentru dispozitive din Art. 7 și Art. 17 trebuie să evite bariere tehnice nejustificate pe piața unică.",
       "senatForm": {
-        "articleRef": "Art. 4 alin. (2), Art. 10 alin. (1), Art. 13 (4)",
-        "proposalContent": "1. La Art. 4 alin. (2), după „dispozitiv personal” se adaugă „de către personalul de control”, protejând dreptul celui controlat de a filma. 2. La Art. 10 alin. (1), sintagma „informații secrete de serviciu” se înlocuiește cu „informații nepublice”, iar la Art. 13 alin. (4) se garantează accesul necondiționat al persoanei controlate la înregistrări.",
-        "argumentation": "Art. 4 alin. (2) interzice impersonal folosirea oricărui dispozitiv personal în timpul controlului, putând fi folosit abuziv spre a opri firma/cetățeanul să filmeze abuzurile inspectorilor. În plus, încadrarea tuturor înregistrărilor ca „secrete de serviciu” (Art. 10) permite blocarea accesului celui controlat la probe, în baza excepției din Art. 13 alin. (4).",
-        "otherComments": "Deși scopul opririi transmisiunilor live pe rețelele sociale de către inspectori este legitim, Art. 4 alin. (4) lasă o portiță prin care șeful echipei de control poate autoriza verbal folosirea telefonului personal. De asemenea, aplicarea legii conform Legii nr. 182/2002 ar impune tuturor primăriilor sisteme acreditate ORNISS pentru stocarea oricărui clip video."
+        "articleRef": "Art. 4 alin. (2), Art. 10, Art. 13(4), Art. 14",
+        "proposalContent": "1. Limitați expres Art. 4(2) la personalul de control, păstrând dreptul cetățeanului de a filma. 2. Eliminați clasificarea automată „secret de serviciu” (Art. 10) și introduceți amenzi pentru inspectorii care difuzează imagini. 3. Garantați accesul persoanei controlate la probele video (Art. 13) și stabiliți un termen maxim de stocare la Art. 14.",
+        "argumentation": "Oprirea live-urilor inspectorilor e legitimă, dar clasificarea automată „secret de serviciu” (art. 304 CP) încalcă Art. 31 Constituție, blochează avertizorii (Dir. 2019/1937) și anulează accesul la probe (Art. 13(4)). Stocarea de minim 3 ani fără abateri încalcă Art. 5 GDPR, iar Art. 4(2) poate bloca cetățenii să filmeze abuzuri.",
+        "otherComments": "Proiectul impune achiziții masive de camere și servere securizate în toate instituțiile și primăriile fără fișă financiară (Art. 138(5) Constituție), omite numerotarea „Art. 7”, conține o abrogare generică neclară (Art. 21) și uită să sancționeze contravențional la Art. 16 tocmai inspectorul care filmează cu telefonul personal."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 228505,
+      "durationMs": 331293,
+      "sourceEndMarker": "SF-4D884517",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Inspectorii nu mai pot filma controalele cu telefonul personal, iar toate filmările din controale devin secrete",
-      "verdictShort": "Scopul e bun: proiectul oprește inspectorii care transmit live controalele pe rețelele sociale și pune ordine în camerele de serviciu. Problema este că declară secrete toate înregistrările din controale și e scris atât de larg încât poate fi folosit și împotriva omului controlat care vrea să filmeze un inspector.",
-      "initiatorClaim": "Inițiatorii spun că unii funcționari filmează sau transmit live controalele cu telefonul personal și distrug reputația oamenilor și firmelor înainte să se stabilească vreo vină. Ei vor reguli unitare pentru dispozitivele de serviciu și pentru protecția înregistrărilor.",
-      "realityCheck": "Legea obligă personalul de control să folosească doar dispozitive de serviciu. Cere registre, proceduri interne, păstrarea filmărilor cel puțin 3–5 ani și informarea persoanei controlate, iar acestea sunt măsuri utile. În schimb, art. 10 face toate înregistrările din control, «indiferent de suport», secrete de serviciu, cu răspundere penală după art. 304 Cod penal. Art. 4 alin. (2) interzice impersonal orice dispozitiv personal, deci poate fi invocat și împotriva cetățeanului care filmează. Nicio instituție nu este obligată să înregistreze controalele: transparența rămâne opțională, iar secretul devine regula.",
+      "plainTitle": "Fără telefoane la controale: filmările inspectorilor devin secret de serviciu",
+      "verdictShort": "Pornește de la o problemă reală, inspectorii care fac live-uri cu firmele controlate, dar o rezolvă disproporționat: orice filmare dintr-un control al statului devine secret de serviciu. Protecția celor controlați se transformă în opacitate pentru cei care controlează.",
+      "initiatorClaim": "Inițiatorii vor să oprească funcționarii care filmează cu telefonul personal sau transmit live controalele pe rețele sociale. Spun că astfel de imagini produc prejudicii de imagine ireversibile pentru oameni și firme înainte de orice verdict și că e nevoie de reguli unitare pentru înregistrările oficiale.",
+      "realityCheck": "Legea cere instituțiilor camere de serviciu, registre, servere și păstrarea filmărilor minimum 3–5 ani, dar nu obligă pe nimeni să filmeze controlul. Nici nu are o sancțiune proprie pentru inspectorul care face live: art. 15–16 vizează doar conducerea. Miezul real e art. 10: toate filmările devin secret de serviciu, deci ies din accesul public, iar instituția nu le mai poate publica decât după o declasificare neclară. Divulgarea lor, chiar și a unui abuz, intră sub art. 304 C.pen. Firma controlată are acces doar pe calea GDPR, care nu protejează persoanele juridice, iar art. 4 alin. (2), scris impersonal, poate fi invocat și împotriva celui controlat care filmează.",
       "affectedGroups": [
-        "IMM & Antreprenori",
         "Justiție & Drepturi Civile",
+        "IMM & Antreprenori",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 4 alin. (2) și art. 3 lit. c): interdicția nu spune cui se adresează. «Dispozitiv personal» înseamnă telefonul oricărei persoane fizice, iar art. 4 alin. (1) include «orice alte persoane care participă» la control. Textul nu spune nicăieri că persoana controlată, avocatul sau contabilul ei pot filma, așa că un inspector poate invoca legea ca să interzică filmarea.",
-        "Art. 10 alin. (1): toate înregistrările din control și metadatele lor devin secrete de serviciu și intră sub art. 304 Cod penal. Un funcționar care face publică filmarea unui abuz comis de colegi riscă dosar penal. Asta contrazice art. 13 din Legea 544/2001, după care informațiile care ascund încălcarea legii de către o instituție nu pot fi clasificate.",
-        "Art. 13 alin. (4): persoana controlată poate primi refuz de acces dacă accesul «ar compromite informații clasificate». Cum art. 10 clasifică toate înregistrările, excepția poate înlocui regula exact când omul are nevoie de probă în contestație.",
-        "Art. 6 și art. 14: toate autoritățile centrale și locale (inclusiv primăriile) trebuie să cumpere dispozitive, stocare securizată și backup și să păstreze filmările cel puțin 3 ani, chiar și pentru controalele fără constatări. Textul extras nu arată nicio sursă de finanțare.",
-        "Art. 16: amenzi de 10.000–30.000 lei pentru lipsa dispozitivelor, procedurilor sau registrului, aplicate de ministere sau de prefecți. Textul nu spune dacă plătește șeful sau instituția; dacă plătește instituția, banii trec doar dintr-un buget public în altul. Fapta centrală din Expunerea de motive, inspectorul care filmează cu telefonul, nu are contravenție proprie.",
-        "Partea bună pentru firme și cetățeni: art. 9 obligă instituția să le spună dinainte că pot fi filmați și în ce scop, iar art. 13 alin. (3) cere un registru al fiecărui acces la înregistrări. Pentru IMM-uri legea nu aduce costuri sau formalități noi."
+        "Art. 10 alin. (1): toate înregistrările din controale, „indiferent de suport”, cu tot cu metadate, devin prin lege secrete de serviciu, cu trimitere la art. 304 C.pen. (divulgarea se pedepsește cu până la 3 ani închisoare). Asta intră în conflict cu art. 33 din Legea 182/2002, care interzice secretizarea informațiilor destinate informării cetățenilor asupra unor probleme de interes public sau personal.",
+        "Efectul practic al art. 10: instituția nu mai poate publica, nici măcar anonimizat, imagini din propriile controale (de pildă un depozit cu alimente expirate sau o fabrică închisă pentru poluare) fără o declasificare pe care legea nu o descrie. Presa și publicul nu mai pot obține filmarea nici când controlul e de interes public.",
+        "Art. 13 alin. (4): persoana controlată are acces doar „conform legislației privind protecția datelor”, care nu protejează persoanele juridice, și poate fi refuzată dacă accesul „ar compromite informații clasificate”. Cum art. 10 face toate filmările clasificate, excepția poate fi invocată mereu, iar firma care contestă amenda rămâne fără un drept clar la probă.",
+        "Art. 10 alin. (3) contrazice alin. (1): dacă legea clasifică deja totul, nu e clar ce mai „clasifică inițial” șeful echipei de control. În plus, Legea 182/2002 (art. 31) lasă stabilirea secretelor de serviciu în seama conducătorului instituției, nu a echipei din teren.",
+        "Art. 4 alin. (2) interzice impersonal „utilizarea oricărui dispozitiv personal” în timpul controlului, iar alin. (1) vizează și „orice alte persoane care participă” la control. Art. 2 alin. (2) limitează legea la personalul de control, dar textul poate fi invocat împotriva patronului, contabilului sau avocatului care filmează inspecția ca să se apere.",
+        "Legea nu obligă la filmarea controalelor: art. 9 cere doar informarea despre „posibilitatea” înregistrării. Inspectorul care face live nu primește o sancțiune proprie. Art. 16 amendează cu 10.000–30.000 lei „conducerea autorității”, fără să fie clar dacă plătește conducătorul sau instituția, adică bani publici.",
+        "Art. 2 și art. 3 lit. a) definesc controlul foarte larg și exclud doar siguranța națională, cercetarea penală și justiția. Legea prinde astfel și controalele rutiere ale poliției, ANAF, ITM, Garda de Mediu, DSP, autoritățile independente și auditurile Curții de Conturi, pe toate trimițându-le la un „minister de resort” (art. 16 și 18).",
+        "Art. 14 cere păstrarea filmărilor minimum 3 ani (5 dacă s-a dat o sancțiune), fără limită maximă. Art. 6 și 20 pun pe bugetele centrale și locale camere, servere securizate și instruire, fără nicio cifră: expunerea de motive nu estimează costul și nu există fișă financiară. Art. 21 abrogă „toate dispozițiile contrare” fără să le numească.",
+        "Partea utilă: registrul de acces (art. 13 alin. 3), metadatele nemodificabile (art. 7) și termenul de 48 de ore pentru descărcare (art. 12) sunt garanții reale contra manipulării filmărilor. Interdicția pentru inspectori de a filma cu telefonul propriu răspunde unei probleme reale, iar firmele nu suportă costuri noi."
       ],
-      "blindSpotsCaught": "Trei chichițe. (1) Art. 10 se contrazice: alin. (1) declară secretul prin lege, alin. (3) lasă «clasificarea inițială» în seama șefului echipei de control, iar alin. (2) tratează separat «informațiile clasificate conform Legii 182/2002», deși secretele de serviciu sunt chiar una dintre clasele acelei legi. (2) Dacă toate filmările devin informații clasificate, ele pot ieși din protecția avertizorilor de integritate, pentru că Directiva (UE) 2019/1937 nu afectează regulile naționale despre informațiile clasificate. (3) Art. 4 alin. (4) permite telefonul personal în urgențe și cere transferul pe dispozitivul de serviciu, dar nu cere ștergerea de pe telefon, adică exact copia pe care art. 5 alin. (1) o interzice. Textul extras se oprește după art. 16, deși art. 7, 12 și 16 trimit la art. 17 și 19, care lipsesc din extras.",
-      "constitutionalityNote": "Scopul este legitim: protejarea vieții private (art. 26) și a prezumției de nevinovăție (art. 23 alin. 11). Interzicerea live-urilor făcute de funcționari cu telefonul personal este o măsură proporțională. Problemele sunt patru. (a) Previzibilitatea (art. 1 alin. 5): nu reiese cui se adresează art. 4 alin. (2) și ce înseamnă «perioada imediat anterioară» sau «legătură directă», iar art. 10 se contrazice intern. (b) Dreptul la informație și libertatea de exprimare (art. 31, art. 30): secretizarea generală a felului în care agenții statului își exercită atribuțiile restrânge accesul la informații de interes public fără analiza de necesitate și de măsură minimă cerută de art. 53. (c) Accesul la justiție și dreptul la apărare (art. 21, art. 24, art. 52): persoana care nu poate filma și poate primi refuz de acces la filmările oficiale își pierde proba în contestație. (d) Bugetul (art. 138 alin. 5 și art. 111): legea creează cheltuieli noi pentru toate autoritățile, inclusiv cele locale (art. 120), fără sursă de finanțare indicată, iar CCR a sancționat în mod repetat astfel de omisiuni.",
-      "euLawNote": "Directiva 2018/958 nu se aplică, pentru că legea nu reglementează accesul la o profesie și nu afectează concurența. TRIS 2015/1535: legea nu reglementează servicii ale societății informaționale. Cerințele tehnice din art. 7 privesc echipamentele folosite de instituții, nu punerea produselor pe piață, deci notificarea pare neobligatorie; normele de la art. 17 trebuie totuși verificate dacă vor impune specificații de produs. Cel mai relevant este GDPR (Regulamentul 2016/679), fiindcă filmările sunt date personale. Păstrarea minimă de 3 ani pentru controalele fără constatări poate încălca limitarea stocării (art. 5 alin. 1 lit. e). Excepțiile vagi de la dreptul de acces din art. 13 alin. (4) trebuie să respecte condițiile art. 23 GDPR. Clasificarea generală riscă, în plus, să golească de conținut protecția avertizorilor din Directiva 2019/1937.",
+      "blindSpotsCaught": "Potrivit Legii 182/2002, secretul de serviciu este o clasă de informații clasificate. Directiva (UE) 2019/1937 privind avertizorii nu afectează normele despre informațiile clasificate (art. 3 alin. 3 lit. a). Prin urmare, un inspector care dezvăluie o filmare cu o mită sau un abuz ar putea pierde protecția de avertizor și ar rămâne expus la art. 304 C.pen. Legea care pretinde că protejează cetățenii ajunge să protejeze și controlorii de propriile filmări. La fel, filmările Gărzii de Mediu din controale de poluare sunt informații de mediu, iar Directiva 2003/4/CE nu permite refuzul lor în bloc.",
+      "constitutionalityNote": "Scopul e legitim: viața privată (art. 26) și prezumția de nevinovăție (art. 23 alin. 11), invocată de inițiatori, justifică interdicția ca inspectorii să filmeze cu telefonul propriu și să publice imagini. Mijlocul e însă greu de apărat la testul de proporționalitate al art. 53. Secretizarea generală a tuturor înregistrărilor restrânge dreptul la informație (art. 31) fără analiză caz cu caz. Poate lăsa și persoana juridică controlată fără acces la probe, cu efect asupra dreptului la apărare (art. 24) și a accesului la justiție (art. 21). Previzibilitatea (art. 1 alin. 5) e slabă: „perioada imediat anterioară” controlului (art. 4 alin. 3), subiectul nedefinit al interdicției de la art. 4 alin. (2), contradicția dintre art. 10 alin. (1) și (3), „răspunderea administrativă” de la art. 15 și abrogarea implicită de la art. 21. Cheltuielile noi pe bugetele centrale și locale fără fișă financiară ridică problema art. 138 alin. (5) și art. 111, temei pe care CCR a mai declarat legi neconstituționale. Includerea „auditurilor” atinge și Curtea de Conturi (art. 140), autoritate independentă fără minister de resort.",
+      "euLawNote": "GDPR: filmarea controalelor are temei în art. 6 alin. (1) lit. c) și e). Art. 14 din proiect fixează însă doar durate minime de păstrare, nu maxime, contrar limitării stocării (art. 5 alin. 1 lit. e). Restrângerea accesului pentru o „anchetă în curs” (art. 13 alin. 4) nu are precizările cerute de art. 23 alin. (2) GDPR. Clasificarea în bloc atinge Directiva 2019/1937 (avertizori), care nu acoperă informațiile clasificate, și Directiva 2003/4/CE privind informațiile de mediu, care cere refuzuri motivate caz cu caz. Includerea fără excepții a autorităților de supraveghere (art. 2 alin. 1 lit. c), raportarea la un minister și sancționarea de către acesta intră în tensiune cu independența cerută pentru BNR (art. 130 TFUE), ANSPDCP (art. 52 GDPR), Consiliul Concurenței (Directiva 2019/1), ANRE și ANCOM. Directiva 2018/958 nu se aplică, fiindcă nu se reglementează accesul la o profesie. Nici TRIS 2015/1535 nu se aplică: cerințele tehnice privesc echipamente cumpărate de instituții pentru uz propriu, nu produse sau servicii digitale puse pe piață.",
       "senatForm": {
-        "articleRef": "Art. 4 alin. (2) și art. 10 alin. (1)",
-        "proposalContent": "Art. 4 alin. (2): „Personalului de control îi este interzisă utilizarea dispozitivelor personale pentru înregistrări în timpul controlului.” Alin. (5): „Prezenta lege nu limitează dreptul persoanei controlate de a înregistra controlul.” Art. 10 alin. (1): înregistrările de serviciu sunt nepublice, nu secrete de serviciu; se aplică art. 13 din Legea 544/2001.",
-        "argumentation": "Art. 4 alin. (2) și art. 3 lit. c) pot fi citite ca interzicând și controlatului să filmeze, iar art. 10 secretizează orice înregistrare, «indiferent de suport». Poate dispărea proba abuzurilor în contestații (art. 21, 24 Const.), contrar art. 13 din Legea 544/2001. Scopul legitim, oprirea live-urilor inspectorilor, se atinge fără secretizare generală (art. 53).",
-        "otherComments": "Art. 6 alin. (1) lit. a) obligă toate autoritățile, și primăriile, la dispozitive și stocare 3-5 ani, fără sursă de finanțare în text (art. 138 alin. 5 Const.). Art. 16 nu spune cine e amendat: șeful sau instituția. Art. 10 alin. (1) și (3) se contrazic: secret prin lege sau prin decizia șefului echipei? Art. 4 alin. (4) nu cere ștergerea de pe telefonul personal."
+        "articleRef": "Art. 10 alin. (1) și (3); art. 4 alin. (2)",
+        "proposalContent": "Art. 10 alin. (1) devine: „Înregistrările sunt nepublice și nu pot fi difuzate de personalul de control. Clasificarea ca secret de serviciu se face numai caz cu caz, motivat, potrivit Legii nr. 182/2002.” Persoana controlată, inclusiv persoana juridică, primește la cerere copia filmării. La art. 4 alin. (2) se precizează că interdicția privește doar personalul de control.",
+        "argumentation": "Clasificarea în bloc a înregistrărilor ca secret de serviciu contravine art. 33 din Legea 182/2002, care interzice secretizarea informațiilor de interes public sau personal, și art. 31 Const. Expune penal (art. 304 C.pen.) funcționarii-avertizori și lasă firmele controlate fără acces garantat la probe. Scopul legitim, oprirea live-urilor, cere doar interdicția de difuzare.",
+        "otherComments": "Art. 2 alin. (1) lit. c) include autorități independente (BNR, ANSPDCP, ANRE), dar art. 16 și 18 le trimit la un „minister de resort”, în tensiune cu independența cerută de dreptul UE. Art. 14 fixează doar durate minime de păstrare, nu maxime (art. 5 GDPR). Lipsește fișa financiară (art. 15 din Legea 500/2002), iar art. 21 abrogă implicit „dispozițiile contrare”."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 127312,
+      "durationMs": 76272,
+      "sourceEndMarker": "SF-4D884517",
       "riskScore": 8,
       "riskLevel": "red",
       "plainTitle": "Înregistrările controalelor devin automat secrete de serviciu",
-      "verdictShort": "Protejarea persoanelor împotriva expunerii abuzive este legitimă, dar secretizarea tuturor înregistrărilor poate îngreuna contestarea abuzurilor. Propunerea necesită modificări substanțiale privind accesul la probe, limitele filmării și păstrarea datelor.",
-      "initiatorClaim": "Inițiatorii urmăresc să oprească filmările și transmisiunile publice abuzive făcute de inspectori cu telefoanele personale. Ei invocă protejarea reputației persoanelor controlate și securizarea înregistrărilor oficiale.",
-      "realityCheck": "Textul impune folosirea dispozitivelor instituției atunci când se înregistrează, fără să oblige explicit la filmarea fiecărui control. În schimb, declară toate înregistrările și metadatele secrete de serviciu, condiționează accesul de autorizare și stabilește perioade minime lungi de păstrare. Interdicția dispozitivelor personale este formulată suficient de larg încât să genereze incertitudine privind înregistrările făcute de persoanele controlate sau de alți participanți.",
+      "verdictShort": "Protejarea persoanelor filmate de inspectori este legitimă, dar proiectul secretizează automat toate înregistrările și poate îngreuna documentarea abuzurilor. Sunt necesare modificări substanțiale pentru protejarea accesului la probe, a transparenței și a vieții private.",
+      "initiatorClaim": "Inițiatorii urmăresc oprirea filmărilor și transmisiunilor neautorizate realizate de inspectori cu telefoanele personale, care pot prejudicia reputația persoanelor și firmelor controlate. Propun echipamente oficiale, stocare securizată și reguli unitare de gestionare.",
+      "realityCheck": "Proiectul impune folosirea dispozitivelor oficiale atunci când se înregistrează, fără să oblige expres la înregistrarea fiecărui control. Secretizează însă toate înregistrările și metadatele, condiționează accesul de autorizarea instituției și permite refuzarea accesului pentru protejarea informațiilor clasificate, generând un mecanism potențial circular. Formularea interdicției dispozitivelor personale poate afecta și participanți din afara echipei de control, iar obligațiile principale devin aplicabile înainte de finalizarea pregătirii instituțiilor.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
@@ -104,24 +139,52 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 10 alin. (1) secretizează automat toate înregistrările și metadatele, fără evaluarea concretă a sensibilității lor. Protecția datelor personale nu justifică, prin ea însăși, clasificarea integrală.",
-        "Art. 13 alin. (4) permite refuzarea accesului dacă acesta ar compromite informații clasificate, deși art. 10 clasifică toate înregistrările. Nu rezultă un refuz automat în orice situație, dar mecanismul poate transforma accesul într-o garanție greu de exercitat.",
-        "Art. 4 alin. (1)-(3) nu delimitează suficient destinatarii interdicției și nici perioada «imediat anterioară» controlului. Trebuie protejată explicit documentarea legală a abuzurilor de către persoanele controlate.",
-        "Art. 14 stabilește minimum 3 ani chiar pentru controale fără constatări semnificative și minimum 5 ani pentru cele cu sancțiuni, fără un plafon legal general. Duratele necesită justificare diferențiată și reguli de conservare a probelor pentru litigii.",
-        "Art. 16 prevede amenzi de 10.000–30.000 lei pentru deficiențe instituționale, dar nu identifică suficient subiectul sancționat și folosește noțiuni precum «condiții de securitate adecvate». Nu instituie expres o amendă pentru cetățeanul care filmează.",
-        "Art. 6–8 și 11–14 presupun achiziții, stocare securizată, copii de siguranță, registre și instruire. Extrasul nu introduce taxe pentru IMM-uri, dar generează cheltuieli publice și sarcini administrative importante.",
-        "Art. 10 trimite la art. 304 Cod penal; această trimitere nu face automat infracțiune orice divulgare. Trebuie îndeplinite condițiile incriminării, iar raportările și divulgările protejate de lege trebuie respectate."
+        "Art. 10 clasifică automat toate înregistrările și metadatele ca secrete de serviciu, fără evaluarea prejudiciului pe care divulgarea fiecărui conținut l-ar produce. Protecția datelor personale nu justifică, singură, secretizarea integrală.",
+        "Art. 13 alin. (4) permite refuzarea accesului dacă acesta ar compromite informații clasificate, deși art. 10 clasifică toate înregistrările. Nu rezultă că orice cerere trebuie respinsă, dar lipsește un mecanism clar pentru acces parțial, anonimizare și contestarea refuzului.",
+        "Art. 4 alin. (1) include «orice alte persoane care participă» la control, iar alin. (2) formulează interdicția dispozitivelor personale fără delimitarea expresă a destinatarilor. Raportarea la art. 2 nu elimină suficient incertitudinea pentru persoana controlată, avocat sau alți participanți.",
+        "Art. 4 alin. (3) extinde interdicția și asupra perioadei «imediat anterioare» controlului, fără limită temporală verificabilă. Excepția din alin. (4) depinde de autorizarea șefului echipei și nu protejează explicit documentarea abuzurilor de către persoana controlată.",
+        "Art. 4 și art. 9 nu instituie expres înregistrarea obligatorie a fiecărui control. Prin urmare, interzicerea unor înregistrări independente nu este compensată prin garantarea existenței unei înregistrări oficiale complete.",
+        "Art. 10 trimite la art. 304 Cod penal, dar nu transformă automat orice filmare sau publicare într-o infracțiune: trebuie îndeplinite elementele incriminării aplicabile. Art. 16 nu sancționează contravențional, în mod expres, încălcarea interdicțiilor din art. 4 și 5, contrar impresiei create de motivare.",
+        "Art. 14 stabilește termene minime de 3 sau 5 ani și durata procedurii judiciare plus 3 ani, fără plafon general ori revizuire periodică a necesității. Păstrarea unor înregistrări poate fi justificată probatoriu, dar termenele nu sunt fundamentate diferențiat pentru toate controalele.",
+        "Art. 16 prevede amenzi de 10.000–30.000 lei fără delimitarea suficientă a persoanei sancționate pentru fiecare faptă. Competența inspectorilor ministeriali nu acoperă clar autoritățile independente, iar controlul prefectului trebuie delimitat de orice subordonare a autorităților locale.",
+        "Art. 19 acordă 6 luni pentru proceduri și registre, dar nu amână expres aplicarea interdicțiilor și a majorității obligațiilor. În lipsa unei date ulterioare, operează regula constituțională a intrării în vigoare la 3 zile de la publicare; normele tehnice sunt prevăzute abia în termen de 90 de zile.",
+        "Art. 19 alin. (3) păstrează regimul juridic al înregistrărilor anterioare, dar impune gestionarea lor conform legii noi: trebuie precizat că aceasta nu înseamnă reclasificare automată. Art. 21 abrogă generic toate dispozițiile contrare, fără identificarea normelor sectoriale afectate.",
+        "Art. 6 și 20 transferă instituțiilor costurile echipamentelor, stocării, securizării și instruirii. Nu apar taxe sau achiziții obligatorii pentru cetățeni ori IMM-uri; există însă cheltuieli publice necuantificate și posibile costuri indirecte pentru obținerea probelor și contestarea refuzurilor.",
+        "Proiectul are componente utile: inventarierea echipamentelor, registrele de acces, transferul securizat, informarea și copiile de siguranță. Aceste garanții justifică reglementarea, dar nu înlocuiesc criteriile privind necesitatea filmării și proporționalitatea secretizării."
       ],
-      "blindSpotsCaught": "Secretizarea generală și excepția de la acces pentru informații clasificate se pot alimenta reciproc. Textul nu separă suficient transmiterea publică abuzivă de furnizarea legală a probelor către avocat, instanță, organe competente sau prin mecanismele de avertizare în interes public. Extrasul se întrerupe după art. 16: conținutul art. 17–19 și dispozițiile finale nu pot fi presupuse.",
-      "constitutionalityNote": "Există riscuri serioase raportate la art. 1 alin. (5): destinatari neclari ai interdicției, întindere temporală nedeterminată și elemente insuficient precizate ale răspunderii contravenționale. Art. 23 alin. (12) este relevant pentru legalitatea pedepsei în materia penală; nu trebuie prezentat ca temei automat identic pentru orice amendă contravențională. Secretizarea generală și accesul insuficient garantat la probe ridică probleme privind art. 21, 24, 30 și 31. Captarea și păstrarea datelor trebuie să respecte art. 26 și condițiile art. 53 atunci când restrâng drepturi. Protejarea reputației constituie un obiectiv legitim, dar necesitatea și proporționalitatea fiecărei restricții trebuie demonstrate. Cheltuielile impuse reclamă verificarea cerințelor art. 111 alin. (1) și art. 138 alin. (5), fără a putea constata din extras lipsa documentelor financiare.",
-      "euLawNote": "GDPR este reperul principal pentru datele persoanelor fizice: scopuri determinate, necesitate, minimizarea captării, termene justificate, securitate și acces efectiv. Restrângerea drepturilor trebuie să îndeplinească art. 23 GDPR; eticheta de informație clasificată nu înlocuiește această analiză. Lipsa consimțământului nu face automat ilegală înregistrarea oficială: poate exista alt temei legal. Directiva (UE) 2018/958 privește restricțiile privind accesul la profesii reglementate sau exercitarea lor; extrasul nu introduce evident asemenea restricții. Directiva (UE) 2015/1535 nu devine aplicabilă doar fiindcă sunt folosite camere și sisteme informatice. Cerințele tehnice pentru dispozitive, inclusiv viitoarele norme, trebuie însă examinate pentru a stabili dacă reprezintă reglementări tehnice notificabile prin TRIS. Nu există în extras reglementarea unor servicii AI, un monopol comercial sau o barieră explicită de acces pe piață; costurile de conformare și specificațiile de achiziție pot totuși afecta concurența.",
+      "blindSpotsCaught": "Problema centrală rezultă din combinarea art. 10 cu art. 13: instituția produce înregistrarea, aceasta devine automat secretă, iar aceeași instituție autorizează accesul și poate invoca protecția clasificării. În plus, art. 21 poate genera conflicte cu reguli sectoriale și garanții de transparență, fără abrogări identificate. Expunerea de motive afirmă compatibilitatea generală și sancționarea practicilor, dar aceste afirmații nu suplinesc limitele și garanțiile absente din dispozitiv.",
+      "constitutionalityNote": "Există riscuri serioase raportate la art. 1 alin. (5), pentru destinatarii și întinderea interdicțiilor, clasificare, sancțiuni și abrogarea generică. Art. 23 alin. (12) este relevant pentru previzibilitatea consecințelor penale ale trimiterii la art. 304, fără ca simpla înregistrare să devină automat infracțiune. Secretizarea și limitarea documentării controalelor trebuie evaluate prin art. 21, 24, 26, 30, 31 și 53: protejarea reputației este legitimă, dar restricțiile trebuie să fie necesare, proporționale și însoțite de remedii efective. Accesul instanțelor la probe trebuie corelat expres cu procedurile aplicabile. Atribuțiile prefectului trebuie să respecte autonomia locală și art. 123 alin. (4). Pentru cheltuielile suplimentare trebuie verificate cerințele art. 111 alin. (1) și art. 138 alin. (5); documentele furnizate nu permit constatarea lipsei unei solicitări adresate Guvernului. Formula adoptării ca lege ordinară necesită reevaluare dacă soluția finală intervine material în domeniul infracțiunilor, rezervat legii organice.",
+      "euLawNote": "GDPR impune scopuri determinate, necesitate, minimizarea datelor și limitarea stocării, potrivit art. 5 și 6. Informarea din art. 9 al proiectului nu acoperă singură toate cerințele art. 13 GDPR și nici informarea celorlalte persoane surprinse. Restrângerea accesului la date trebuie să respecte art. 23 GDPR, inclusiv garanții concrete; clasificarea națională nu exclude automat aplicarea regulamentului. Pentru eventuale date sensibile trebuie analizate și condițiile art. 9 GDPR. Consimțământul persoanei filmate nu este obligatoriu pentru orice înregistrare legală a unei autorități, contrar generalizării din motivare. Libertatea presei și protecția avertizorilor impun corelări cu art. 85 GDPR și Directiva (UE) 2019/1937. Directiva (UE) 2018/958 privește restricțiile asupra accesului la profesii reglementate sau exercitării lor; proiectul nu introduce asemenea condiții, astfel că testul acesteia nu este declanșat doar prin reglementarea inspectorilor. Pentru TRIS, Directiva (UE) 2015/1535 nu se aplică automat deoarece sunt folosite camere și sisteme informatice: trebuie verificat dacă cerințele obligatorii pentru dispozitive, inclusiv cele viitoare din norme, constituie reglementări tehnice notificabile. Nu se reglementează expres servicii AI și nu se instituie un monopol sau o rezervare de piață; achizițiile trebuie să păstreze specificații neutre și acces concurențial.",
       "senatForm": {
-        "articleRef": "Art. 4, 10, 13, 14 și 16",
-        "proposalContent": "Limitați interdicția dispozitivelor personale la personalul de control. Eliminați secretizarea automată și protejați punctual informațiile sensibile. Garantați accesul la probe și raportările protejate de lege. Stabiliți termene maxime de păstrare, subiecți contravenționali expliciți și competențe clare de constatare.",
-        "argumentation": "Secretizarea generală, corelată cu excepția de la acces pentru informații clasificate, poate împiedica apărarea. Formulările imprecise afectează previzibilitatea. Sunt relevante art. 1 alin. (5), 21, 24, 26, 30, 31 și 53 din Constituție, precum și art. 5, 15 și 23 GDPR. Restricțiile trebuie justificate și proporționale.",
-        "otherComments": "Analiza privește extrasul furnizat; verificarea externă a dosarului și a legislației nu a fost posibilă. Textul se întrerupe după art. 16, astfel că art. 17–19 nu pot fi evaluate. Solicitați fundamentarea costurilor, analiza duratelor de păstrare și verificarea eventualei obligații TRIS pentru cerințele tehnice."
+        "articleRef": "Art. 4, art. 10 și art. 13 alin. (4)",
+        "proposalContent": "Eliminați clasificarea automată; permiteți clasificarea individuală motivată. Garantați accesul la probe, inclusiv prin anonimizare, și contestarea refuzului. Limitați interdicția dispozitivelor personale la personalul de control, cu păstrarea garanțiilor pentru înregistrările legale ale persoanelor controlate și avertizorilor.",
+        "argumentation": "Clasificarea tuturor înregistrărilor, combinată cu refuzul accesului pentru protejarea informațiilor clasificate, poate împiedica apărarea și documentarea abuzurilor. Restricțiile trebuie să respecte art. 21, 24, 30, 31 și 53 din Constituție și art. 23 GDPR. Protecția reputației nu justifică secretizarea nediferențiată.",
+        "otherComments": "Amânați aplicarea obligațiilor până la dotare și adoptarea normelor. Fundamentați costurile și retenția; clarificați persoanele sancționate și competențele de control. Înlocuiți abrogarea generică din art. 21 cu dispoziții exprese și precizați regimul înregistrărilor anterioare."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 6.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-12T15:14:06.938Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 6,
+        "claude": 6,
+        "codex": 8
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-19T16:21:44.949Z",
+      "reasons": [
+        "metoda",
+        "model"
+      ]
+    }
+  ]
 }

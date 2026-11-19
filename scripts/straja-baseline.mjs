@@ -60,6 +60,8 @@ const readJson = (file) => {
     return null;
   }
 };
+// Ce s-a citit din text, fără ce a venit de pe portal: actele, care sunt abrogate întregi și numerele articolelor.
+const readingOf = (acts) => JSON.stringify(acts.map((a) => [actKey(a), !!a.repealed, a.articles.map((x) => `${x.num}${x.status === 'new' ? '+' : ''}`)]));
 const daysAgo = (iso) => (Date.now() - Date.parse(iso ?? 0)) / 86_400_000;
 
 /**
@@ -83,7 +85,7 @@ function targets() {
 
 // ─── --stats: acoperirea, din fișierele scrise ─────────────────────────────────────────────────────────────────
 function coverage(list) {
-  const c = { bills: 0, withActs: 0, noAct: 0, acts: 0, actsFound: 0, actsNotFound: 0, articles: 0, found: 0, notFound: 0, new: 0, unresolved: 0 };
+  const c = { bills: 0, withActs: 0, noAct: 0, acts: 0, actsFound: 0, actsNotFound: 0, actsRepealed: 0, articles: 0, found: 0, notFound: 0, new: 0, unresolved: 0 };
   const reasons = {};
   const why = (r) => (reasons[r] = (reasons[r] ?? 0) + 1);
   const uniqueActs = new Set();
@@ -96,6 +98,7 @@ function coverage(list) {
     for (const a of b.acts) {
       c.acts++;
       uniqueActs.add(actKey(a));
+      if (a.repealed) c.actsRepealed++;
       if (a.status === 'found') c.actsFound++;
       else {
         c.actsNotFound++;
@@ -135,7 +138,7 @@ async function main() {
       console.log(`${t.billId} (${f.form}): ${acts.length ? '' : 'nu modifică un act'}`);
       for (const a of acts) {
         const ls = (s) => a.articles.filter((x) => x.status === s).map((x) => x.num).join(', ') || '-';
-        console.log(`  ${a.reference} → modificate: ${ls('amended')} · noi: ${ls('new')}${a.unresolved.length ? ` · fără articol: ${a.unresolved.length}` : ''}`);
+        console.log(`  ${a.reference} → ${a.repealed ? 'abrogat în întregime · ' : ''}modificate: ${ls('amended')} · noi: ${ls('new')}${a.unresolved.length ? ` · fără articol: ${a.unresolved.length}` : ''}`);
       }
     }
     return console.log(`Fără text: ${noText}`);
@@ -210,6 +213,8 @@ async function main() {
     if (p.method !== BASELINE_METHOD) return 'metodă nouă';
     if (p.form !== it.form) return 'formă nouă';
     if (p.textHash !== textHashOf(it.text)) return 'text schimbat';
+    // Același text, citit altfel de o versiune nouă a lib/baseline.mjs (articole dintr-o listă, un act abrogat întreg).
+    if (readingOf(amendedArticles(it.text)) !== readingOf(p.acts)) return 'citire nouă';
     for (const a of p.acts) {
       const e = store.index[actKey(a)];
       if (a.status === 'found' && e?.found && e.hash !== a.hash) return 'act schimbat';

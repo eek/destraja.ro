@@ -200,11 +200,13 @@ de cod durează secunde, iar o recitire completă (`--fresh`) durează 1,5–2 o
   pe legislatie.just.ro (`scripts/straja-baseline.mjs`, `scripts/lib/baseline.mjs`), pentru toate proiectele cu text de
   la Senat și de la Cameră, pe forma analizată (`form`), cu linkul oficial și momentul preluării. Ce nu se găsește
   apare ca `not-found` (cu motivul), articolele pe care proiectul le introduce ca `new`, instrucțiunile fără articol
-  (anexe, capitole) în `unresolved`. `data/baseline/_acts.json` ține actele citite, cu adresa, ziua ultimei verificări
+  (anexe, capitole) în `unresolved`; un act abrogat în întregime are `repealed: true` (și tot textul, dacă e scurt).
+  `data/baseline/_acts.json` ține actele citite, cu adresa, ziua ultimei verificări
   și amprenta textului; actele întregi stau o zi în `.cache/legislatie`. Rularea zilnică reface proiectele noi sau
   schimbate și recitește legile o dată pe săptămână. Intră în promptul consiliului doar cu `COUNCIL_BASELINE=1`
-  (secțiunea „TEXTUL ÎN VIGOARE AL ARTICOLELOR MODIFICATE”, cel mult 40.000 de caractere), iar analiza spune ce bază a
-  folosit (`baseline`). `npm test` rulează testele cititorului.
+  (secțiunea „TEXTUL ÎN VIGOARE AL ARTICOLELOR MODIFICATE”, cel mult 40.000 de caractere, între 1.500 și 8.000 pe
+  articol, după câte sunt, cu alineatele atinse de proiect păstrate întâi), iar analiza spune ce bază a folosit
+  (`baseline`). `npm test` rulează testele cititorului.
 - `data/ces/`, `data/news/`, `data/mp-contacts.json`: avizele CES, presa verificată, contactele parlamentarilor.
 - `data/votes/<slug>.json`: voturile nominale din plen ale proiectului (Camera și Senatul), cu totalurile, grupurile, votul
   fiecărui parlamentar (`mp` e slug-ul paginii lui) și pagina oficială, plus ce spune raportul comisiei despre majoritate.

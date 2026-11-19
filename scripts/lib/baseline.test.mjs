@@ -2,13 +2,14 @@
 // Fără rețea: node --test scripts/lib/
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { amendedArticles, baselinePrompt, BASELINE_METHOD } from './baseline.mjs';
+import { amendedArticles, baselinePrompt, BASELINE_METHOD, cutArticle, shortTitle, touchedParagraphs } from './baseline.mjs';
 import { parseConsolidatedArticles } from './legislatie.mjs';
 
 // Actul, articolele modificate, cele noi și motivele instrucțiunilor fără articol, pe scurt.
 const read = (text) =>
   amendedArticles(text).map((a) => ({
     act: `${a.tipAct} ${a.numar}/${a.an}`,
+    ...(a.repealed && { repealed: true }),
     amended: a.articles.filter((x) => x.status === 'amended').map((x) => x.num),
     new: a.articles.filter((x) => x.status === 'new').map((x) => x.num),
     unresolved: a.unresolved.map((u) => u.reason),
@@ -196,4 +197,143 @@ test('secțiunea din prompt: articolele găsite, cele noi, limita și nicio sec�
   assert.equal(small.meta.articlesShown, 1);
   assert.match(small.text, /NU AU ÎNCĂPUT: încă 1 articole/);
   assert.equal(baselinePrompt({ ...baseline, acts: [] }, '/tmp/b.json').text, null);
+});
+
+test('lista de articole după „și” și abrogarea unui act întreg pe același rând (PL-x 485/2025)', () => {
+  const text = `Art.30.
+
+La data intrării în vigoare a prezentei legi, art.10 alin.(4) și 17¹ din Ordonanța de urgență a Guvernului nr.30/2007 privind organizarea și funcționarea Ministerului Afacerilor Interne, publicată în Monitorul Oficial al României, Partea I, nr.309 din 9 mai 2007, aprobată cu modificări prin Legea nr.15/2008 și Ordonanța de urgență a Guvernului nr.120/2005 privind operaționalizarea Direcției generale anticorupție din cadrul Ministerului Afacerilor Interne, publicată în Monitorul Oficial al României, Partea I, nr.809 din 6 septembrie 2005, aprobată cu modificări prin Legea nr.383/2005, se abrogă.`;
+  assert.deepEqual(read(text), [
+    { act: 'ORDONANȚĂ DE URGENȚĂ 30/2007', amended: ['10', '17^1'], new: [], unresolved: [] },
+    { act: 'ORDONANȚĂ DE URGENȚĂ 120/2005', repealed: true, amended: [], new: [], unresolved: [] },
+  ]);
+  // Alineatul (4) e ținut minte lângă art. 10; 17^1 se abrogă întreg.
+  const [oug] = amendedArticles(text);
+  assert.deepEqual(touchedParagraphs(oug.articles[0].instructions, '10'), ['4']);
+  assert.equal(touchedParagraphs(oug.articles[1].instructions, '17^1'), null);
+});
+
+test('enumerări: „art. 5, 7 și 9¹”, „art. 3 alin. (2) și art. 4”, punctele nu sunt articole (Pl-x 187, Pl-x 218, Pl-x 594/2026)', () => {
+  const text = `Art. I. – Legea nr. 303/2022 privind statutul judecătorilor și procurorilor se modifică după cum urmează:
+1. Articolele 5, 7 și 9¹ se abrogă.
+2. La articolul 3 alineatul (2) și articolul 4 se abrogă.
+3. La articolul 12, punctele 3 și 4 se abrogă.
+4. Art. 22^1 și 22^2, se modifică și vor avea următorul cuprins:
+Art. II. – Ordonanța Guvernului nr. 8/2011 se modifică după cum urmează:
+1. Articolele VII și VIII se abrogă.`;
+  assert.deepEqual(read(text), [
+    { act: 'LEGE 303/2022', amended: ['5', '7', '9^1', '3', '4', '12', '22^1', '22^2'], new: [], unresolved: [] },
+    { act: 'ORDONANȚĂ 8/2011', amended: ['vii', 'viii'], new: [], unresolved: [] },
+  ]);
+});
+
+test('abrogarea unui act întreg și ce nu e una (PL-x 461, PL-x 286, PL-x 523, PL-x 487/2026)', () => {
+  // Abrogat în întregime: niciun articol numit, doar descrierea actului până la „se abrogă”.
+  const whole = `Art. 7. – La data intrării în vigoare a prezentei legi, Legea nr. 9/1991 privind înființarea Institutului Român pentru Drepturile Omului, publicată în Monitorul Oficial al României, Partea I, nr. 24 din 30 ianuarie 1991, cu modificările și completările ulterioare, se abrogă.`;
+  assert.deepEqual(read(whole), [{ act: 'LEGE 9/1991', repealed: true, amended: [], new: [], unresolved: [] }]);
+  // Două acte legate prin „și”, după „cu modificările și completările ulterioare” (PL-x 487/2026).
+  const two = `(2) La data intrării în vigoare a prezentei legi, Ordonanța de Urgență a Guvernului nr. 147/2022 privind înființarea Agenției Române pentru Investiții și Comerț Exterior, publicată în Monitorul Oficial al României, nr. 1048 din 28 octombrie 2022, cu modificările și completările ulterioare și Hotararea Guvernului nr. 153/2023 privind organizarea și funcționarea Agenției, publicată în Monitorul Oficial, se abrogă.`;
+  assert.deepEqual(read(two).map((a) => [a.act, a.repealed]), [['ORDONANȚĂ DE URGENȚĂ 147/2022', true], ['HOTĂRÂRE 153/2023', true]]);
+  // Legile de aprobare legate între ele nu sunt abrogate.
+  const approvals = `Art. 5. – Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată prin Legea nr. 180/2002 și Legea nr. 20/2009, se abrogă.`;
+  assert.deepEqual(read(approvals).map((a) => [a.act, a.repealed]), [['ORDONANȚĂ 2/2001', true]]);
+  // Un alt alineat între act și „se abrogă” (rânduri lipite, PL-x 286/2026): se abrogă altceva, nu Legea nr. 98/2016.
+  const other = `Art. XXVII. - (1) În organizarea activității achizițiilor publice, potrivit Legii nr. 98/2016 privind achizițiile publice, instituțiile publice înființează un compartiment intern specializat. (2) La data intrării în vigoare a prezentei ordonanțe de urgență, se abrogă art. 2 alin. (1) din Normele metodologice.`;
+  assert.deepEqual(read(other), [{ act: 'LEGE 98/2016', amended: [], new: [], unresolved: ['instrucțiunea nu numește un articol'] }]);
+  // „Articolul VIII din Ordonanța…” e articolul ordonanței, nu al proiectului (PL-x 523/2026).
+  const roman = `Articolul VIII din Ordonanța de urgență a Guvernului nr. 132/2024 pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare, se abrogă.`;
+  assert.deepEqual(read(roman), [{ act: 'ORDONANȚĂ DE URGENȚĂ 132/2024', amended: ['viii'], new: [], unresolved: [] }]);
+  // O parte a actului nu e actul întreg.
+  const chapter = `Art. 3. – Capitolul II din Legea nr. 51/1995 privind profesia de avocat se abrogă.`;
+  assert.equal(read(chapter)[0].repealed, undefined);
+});
+
+test('alineatele atinse, din instrucțiuni', () => {
+  assert.deepEqual(touchedParagraphs(['3. La articolul 8, alineatul (2) se modifică și va avea următorul cuprins:'], '8'), ['2']);
+  assert.deepEqual(touchedParagraphs(['1. Alineatul (2) se modifică:', '2. După alineatul (3) se introduce un nou alineat, alin. (3^1), cu următorul cuprins:'], '183'), ['2', '3', '3^1']);
+  assert.deepEqual(touchedParagraphs(['5. La articolul 4, alineatele (1) și (3) se abrogă.'], '4'), ['1', '3']);
+  assert.equal(touchedParagraphs(['1. Articolul 13 se modifică și va avea următorul cuprins:'], '13'), null);
+  assert.equal(touchedParagraphs(['2. La articolul 14, litera h) se abrogă.'], '14'), null);
+});
+
+test('articolul tăiat la margine de alineat, cu alineatele atinse întâi', () => {
+  const art = ['(1) Primul alineat.', `(2) ${'a'.repeat(900)}`, `(3) ${'b'.repeat(900)}`, '(4) Alineatul modificat de proiect.', `(5) ${'c'.repeat(900)}`].join('\n');
+  const plain = cutArticle(art, 1500);
+  assert.match(plain, /^\(1\) Primul alineat\.\n\(2\) a+\n\[…\]\n\[ARTICOL PRESCURTAT: lipsesc \d+ de caractere/);
+  assert.doesNotMatch(plain, /\(4\)/);
+  const touched = cutArticle(art, 1500, ['4']);
+  assert.match(touched, /\(4\) Alineatul modificat de proiect\./);
+  assert.match(touched, /s-au păstrat întâi alineatele atinse de proiect: \(4\)/);
+  // Ordinea din lege rămâne; ce lipsește e marcat.
+  assert.ok(touched.indexOf('(1) Primul') < touched.indexOf('(4) Alineatul'));
+  assert.match(touched, /\[…\]\n\(4\)/);
+  assert.equal(cutArticle(art, 10_000), art);
+});
+
+test('omnibus: capul pe articol scade cu numărul articolelor, iar secțiunea rămâne sub 40.000 (Pl-x 530/2026)', () => {
+  const paras = (n) => Array.from({ length: 8 }, (_, i) => `(${i + 1}) ${`Alineatul ${i + 1} al articolului ${n}. `.repeat(12)}`).join('\n');
+  const articles = Array.from({ length: 20 }, (_, i) => ({
+    num: String(i + 1),
+    status: 'found',
+    label: `Articolul ${i + 1}`,
+    text: `Articolul ${i + 1}\n${paras(i + 1)}`,
+    notes: [],
+    instructions: [`${i + 1}. La articolul ${i + 1}, alineatul (7) se modifică și va avea următorul cuprins:`],
+  }));
+  const baseline = {
+    method: BASELINE_METHOD,
+    form: 'camera',
+    textHash: 'x',
+    acts: [{ reference: 'Legea nr. 176/2010', status: 'found', url: 'https://legislatie.just.ro/Public/DetaliiDocument/122147', articles }],
+  };
+  const { text, meta } = baselinePrompt(baseline, '/tmp/b.json');
+  assert.ok(text.length <= 40_000, `${text.length}`);
+  assert.equal(meta.articlesShown, 20);
+  assert.ok(meta.articleCap >= 1500 && meta.articleCap < 8000, `${meta.articleCap}`);
+  assert.equal(meta.articlesCut, 20);
+  // Alineatul pe care îl modifică proiectul e păstrat la fiecare articol.
+  for (let i = 1; i <= 20; i++) assert.ok(text.includes(`(7) Alineatul 7 al articolului ${i}.`), `art. ${i}`);
+  // Cu 60 de articole nici 1.500 pe articol nu ajung: capul rămâne 1.500 și restul e numărat.
+  const many = { ...baseline, acts: [{ ...baseline.acts[0], articles: [...articles, ...articles, ...articles].map((a, i) => ({ ...a, num: String(i + 1) })) }] };
+  const big = baselinePrompt(many, '/tmp/b.json');
+  assert.ok(big.text.length <= 40_000);
+  assert.equal(big.meta.articleCap, 1500);
+  assert.ok(big.meta.articlesShown > 13 && big.meta.articlesShown < 60);
+  assert.match(big.text, /NU AU ÎNCĂPUT: încă \d+ articole/);
+});
+
+test('actul abrogat în întregime, în prompt: spus pe nume, cu textul doar dacă încape', () => {
+  const baseline = {
+    method: BASELINE_METHOD,
+    form: 'senat',
+    textHash: 'x',
+    acts: [
+      {
+        reference: 'Ordonanța de urgență a Guvernului nr.120/2005',
+        status: 'found',
+        repealed: true,
+        url: 'https://legislatie.just.ro/Public/DetaliiDocument/64869',
+        actArticles: 2,
+        actChars: 60,
+        actText: [
+          { num: '1', label: 'Articolul 1', text: 'Articolul 1\nSe operaționalizează Direcția.' },
+          { num: '2', label: 'Articolul 2', text: 'Articolul 2\nDispoziții finale.' },
+        ],
+        articles: [],
+      },
+    ],
+  };
+  const { text, meta } = baselinePrompt(baseline, '/tmp/b.json');
+  assert.match(text, /--- Proiectul abrogă actul în întregime \(2 articole\)\. Textul lui în vigoare:\nArticolul 1\nSe operaționalizează Direcția\.\nArticolul 2/);
+  assert.equal(meta.actsRepealed, 1);
+  const big = { ...baseline, acts: [{ ...baseline.acts[0], actChars: 90_000, actText: undefined }] };
+  assert.match(baselinePrompt(big, '/tmp/b.json').text, /abrogă actul în întregime \(2 articole\)\. Textul lui \(90000 de caractere\) nu a încăput aici\./);
+});
+
+test('titlul de pe portal fără emitent, cu sau fără două puncte (B596/2026)', () => {
+  assert.equal(
+    shortTitle('LEGE nr. 165 din 10 iulie 2018 privind acordarea biletelor de valoare EMITENT Parlamentul PUBLICAT ÎN \n Monitorul Oficial nr. 599 din 13 iulie 2018'),
+    'LEGE nr. 165 din 10 iulie 2018 privind acordarea biletelor de valoare',
+  );
+  assert.equal(shortTitle('LEGE nr. 51 din 7 iunie 1995 pentru organizarea profesiei de avocat EMITENT: PARLAMENTUL PUBLICAT ÎN: MONITORUL OFICIAL'), 'LEGE nr. 51 din 7 iunie 1995 pentru organizarea profesiei de avocat');
 });

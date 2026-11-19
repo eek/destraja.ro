@@ -7,6 +7,7 @@
 // /api/digest, /api/digest/stats   trimiterea ediției zilnice, doar cu DIGEST_TOKEN (digest.ts)
 // /api/mail/events            anunțurile Resend despre adrese care resping mesajele, semnate (mail.ts)
 // /api/cauta                  jurnalul căutărilor de pe /cauta, fără date care să identifice pe cineva (search.ts)
+// /api/mcp                    MCP-ul public, doar citire, fără cont (mcp.ts); orice metodă, nu doar POST
 // /api/run                    actualizarea zilnică anunță că a pornit și că a terminat, doar cu DIGEST_TOKEN (watch.ts)
 // /admin*, /api/admin/*       panoul rapoartelor, doar după Cloudflare Access și verificarea JWT-ului lui (access.ts, admin.ts)
 // cron la 15 minute           confirmările rămase la coadă (subscribe.ts, sendQueued) și supravegherea actualizării
@@ -17,6 +18,7 @@ import { handleAdmin } from './admin';
 import { handleDigest, handleDigestStats } from './digest';
 import { json, logError } from './http';
 import { handleMailEvents } from './mail';
+import { handleMcp } from './mcp';
 import { handleReport, handleReportResult } from './report';
 import { handleSearchLog } from './search';
 import { handleConfirm, handlePreferences, handleSubscribe, handleUnsubscribe, sendQueued } from './subscribe';
@@ -58,6 +60,7 @@ export default {
         const user = await requireAdmin(request, env, url);
         return user instanceof Response ? user : await handleAdmin(request, env, url, user);
       }
+      if (url.pathname === '/api/mcp') return await handleMcp(request, env);
       if (url.pathname === '/api/unsubscribe') return await handleUnsubscribe(request, env, url);
       if (url.pathname === '/api/digest/stats' && request.method === 'GET') return await handleDigestStats(request, env);
       const handler = POST_ROUTES[url.pathname];

@@ -28,6 +28,18 @@ export interface ChangeDay {
 
 export const CHANGELOG: ChangeDay[] = [
   {
+    date: '2026-11-20',
+    items: [
+      {
+        kind: 'nou',
+        title: 'Proiecte uitate',
+        text: 'O pagină nouă arată proiectele care stau la Camera Deputaților fără niciun pas procedural: peste 1.500 de proiecte înregistrate din 2020 încoace n-au mai avut niciun pas de peste un an, iar cele mai vechi așteaptă din februarie 2020. Vezi unde stau (la comisii, fără raport, sau cu raportul gata, în așteptarea plenului), comisiile cu cele mai multe proiecte fără raport și ce s-a întâmplat cu proiectele înregistrate în fiecare an: câte au devenit legi, câte au fost respinse și câte încă așteaptă. Lista cuprinde toate proiectele aflate la Cameră, cu filtre după etapă, comisie, an și vechime, și se poate trimite cu filtrele alese. Pentru cele mai multe, Camera are ultimul cuvânt și nu are un termen, iar proiectele nu expiră la alegeri; pagina explică de ce.',
+        link: { href: '/uitate', label: 'Proiecte uitate' },
+        shot: { id: '2026-11-20-proiecte-uitate', alt: 'Pagina „Proiecte uitate”: câte proiecte sunt în dezbatere la Cameră și câte n-au mai avut niciun pas de peste un an, graficul pe vechimi, cifrele principale și începutul listei celor mai vechi, cu PL-x 39/2020, legea muntelui, fără pas din 17 februarie 2020.' },
+      },
+    ],
+  },
+  {
     date: '2026-11-18',
     items: [
       {

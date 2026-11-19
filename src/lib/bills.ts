@@ -1,7 +1,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import type { BillAnalysis, BillLite, BillNews, BillPdf, BillPositions, CameraLink, CesOpinion, EnrichedBill, InstitutionalEmail, PressSummary } from './types';
-import { daysUntil } from './format';
+import { daysUntil, todayISO } from './format';
+import { listMove } from './score-history';
 import { getBalanceSummary } from './balance';
 import { recentPress } from './stats';
 import { positionsSummary } from './positions';
@@ -141,6 +142,8 @@ export function toLite(b: EnrichedBill): BillLite {
     press: pressSummary(b.news),
     positions: positionsSummary(b.positions?.positions ?? []),
     balance: b.balance,
+    // Mișcarea scorului din ultimele 30 de zile, peste prag (src/lib/score-history.ts), pentru săgeata de pe card.
+    scoreMove: listMove(b.analysis, todayISO()),
     analysis: {
       consensus: {
         riskScore: c.riskScore,

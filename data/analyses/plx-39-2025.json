@@ -9,7 +9,8 @@
     "ordinanceChars": 19590,
     "memoChars": 39511,
     "memoSupplied": 39511,
-    "marker": "SF-04BDC712"
+    "marker": "SF-04BDC712",
+    "form": "senat"
   },
   "consensus": {
     "riskScore": 6.3,
@@ -143,5 +144,28 @@
       "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-09T08:31:06.613Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-19T12:03:55.509Z",
+      "reasons": [
+        "metoda",
+        "model"
+      ],
+      "backfilled": true
+    }
+  ]
 }

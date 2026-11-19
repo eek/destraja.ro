@@ -43,6 +43,8 @@ import { getBillVotes } from '@/lib/votes';
 import { getRelatedActs, relatedCount } from '@/lib/related';
 import RelatedActs, { RelatedActsLink } from '@/components/bills/RelatedActs';
 import BillHappenings from '@/components/bills/BillHappenings';
+import ScoreTrajectory, { ScoreHistory, avizeOpinions } from '@/components/bills/ScoreTrajectory';
+import { getBillAvize } from '@/lib/avize';
 import { chamberHappenings, getBillHistory } from '@/lib/istoric';
 
 interface PageProps {
@@ -71,7 +73,7 @@ const LAW_TYPE: Record<string, string> = { ordinar: 'Ordinară', organic: 'Organ
 
 export default async function CameraBillPage({ params }: PageProps) {
   const { slug } = await params;
-  const [bill, analysis, committees, versions, versionsStatus, balance, amendments, agenda, reports, votes, related] = await Promise.all([
+  const [bill, analysis, committees, versions, versionsStatus, balance, amendments, agenda, reports, votes, related, avize] = await Promise.all([
     getCdepBill(slug),
     getCdepAnalysis(slug),
     getCommittees(),
@@ -83,6 +85,7 @@ export default async function CameraBillPage({ params }: PageProps) {
     getBillReports(slug),
     getBillVotes(slug),
     getRelatedActs({ camera: slug }),
+    getBillAvize(slug),
   ]);
   const mpPages = amendments || votes ? await getMpPageSlugs() : new Set<string>();
   const comparing = !versions && versionsStatus?.pending.includes(slug);
@@ -206,6 +209,7 @@ export default async function CameraBillPage({ params }: PageProps) {
                 {older && ` · înregistrat în ${year}`}
               </span>
             </div>
+            {analysis && <ScoreTrajectory analysis={analysis} versions={versions} opinions={avizeOpinions(avize?.documents ?? [])} />}
             <h1 className="font-display mt-5 text-[clamp(1.7rem,3.6vw,2.6rem)] font-normal leading-[1.15]">{c?.plainTitle ?? bill.titlu}</h1>
             {c && <p className="mt-4 text-lg leading-8 text-ink">{c.summaryTlDr}</p>}
             {c && <p className="mt-4 text-sm leading-6 text-muted">Titlul oficial: {bill.titlu}</p>}
@@ -262,6 +266,7 @@ export default async function CameraBillPage({ params }: PageProps) {
 
         {c && analysis && (
           <ModelsVerdict score={c.riskScore} level={c.riskLevel} council={analysis.council}>
+            <ScoreHistory analysis={analysis} versions={versions} />
             <ReportIssue billId={bill.numar} target="consensus" />
           </ModelsVerdict>
         )}

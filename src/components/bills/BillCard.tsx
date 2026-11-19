@@ -8,7 +8,7 @@ import { countWord, deadlineInfo, DEADLINE_TONE, fmt } from '@/lib/format';
 import { agreement, modelScore, oneLiner } from '@/lib/stats';
 import { trackAttrs } from '@/lib/analytics';
 import { PartyTag, RiskChip, RiskDot, btnPrimary, btnSecondary } from '@/components/ui';
-import { CardStrip, RiskChipFace, cardCls, cardLedeCls, cardTitleCls, riskChipCls } from './card-parts';
+import { CardStrip, RiskChipFace, ScoreMovePill, cardCls, cardLedeCls, cardTitleCls, riskChipCls } from './card-parts';
 import RiskInfo from './RiskInfo';
 import { Flags } from './Flags';
 import BalanceBlock from './BalanceBlock';
@@ -38,7 +38,7 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
       <div className="flex flex-1 flex-col p-5 sm:p-6">
         <div className="flex items-center justify-between gap-3">
           {/* Cipul deschide explicația scorului: o fereastră peste pagină, ca să nu lungească un singur card din grilă. */}
-          <span className="flex items-center gap-0.5">
+          <span className="flex flex-wrap items-center gap-0.5">
             <button
               type="button"
               popoverTarget={`risc-${bill.slug}`}
@@ -50,6 +50,7 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
               <RiskChipFace level={c.riskLevel} score={c.riskScore} />
             </button>
             <RiskInfo />
+            {bill.scoreMove && <ScoreMovePill move={bill.scoreMove} now={c.riskScore} />}
           </span>
           <span className="text-xs font-medium tabular-nums text-muted">{bill.id}</span>
         </div>

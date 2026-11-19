@@ -9,7 +9,8 @@
     "ordinanceChars": 0,
     "memoChars": 65913,
     "memoSupplied": 60000,
-    "marker": "SF-F2A7348F"
+    "marker": "SF-F2A7348F",
+    "form": "camera"
   },
   "consensus": {
     "riskScore": 5.7,
@@ -158,5 +159,28 @@
       "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T08:06:16.278Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "camera",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-18T13:28:52.666Z",
+      "reasons": [
+        "metoda",
+        "model"
+      ],
+      "backfilled": true
+    }
+  ]
 }

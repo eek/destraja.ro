@@ -1,4 +1,6 @@
+import { ArrowDown, ArrowUp } from 'lucide-react';
 import type { RiskLevel } from '@/lib/types';
+import { type ListMove, REASON_LABEL } from '@/lib/score-history';
 import { RISK } from '@/lib/risk';
 import { fmt } from '@/lib/format';
 import { Glyph } from '@/components/ui';
@@ -30,3 +32,21 @@ export function RiskChipFace({ level, score }: { level: RiskLevel; score: number
 
 export const cardTitleCls = 'font-display mt-4 text-[1.3rem] leading-[1.25] text-ink';
 export const cardLedeCls = 'mt-2.5 line-clamp-3 text-[15px] leading-relaxed text-body';
+
+/**
+ * Lângă cipul de risc, când scorul s-a mișcat cu cel puțin un punct în ultimele 30 de zile: săgeata și scorul de dinainte,
+ * în gri (culorile riscului rămân ale scorului de acum: un scor scăzut, dar tot ridicat, nu e „verde”). De ce s-a mișcat
+ * spune pagina proiectului; aici doar în titlu și pentru cititoarele de ecran.
+ */
+export function ScoreMovePill({ move, now }: { move: ListMove; now: number }) {
+  const down = now < move.from;
+  const why = move.reasons.map((r) => REASON_LABEL[r].toLowerCase()).join(', ');
+  const label = `Scorul ${down ? 'a scăzut' : 'a crescut'}, era ${fmt(move.from)}${move.kind === 'recalc' ? ' (recalculat)' : ''}: ${why}`;
+  return (
+    <span title={label} className="inline-flex min-h-6 items-center gap-0.5 whitespace-nowrap rounded-full bg-sunken px-2 text-xs font-semibold tabular-nums text-body">
+      {down ? <ArrowDown className="h-3 w-3" aria-hidden /> : <ArrowUp className="h-3 w-3" aria-hidden />}
+      <span aria-hidden>era {fmt(move.from)}</span>
+      <span className="sr-only">{label}</span>
+    </span>
+  );
+}

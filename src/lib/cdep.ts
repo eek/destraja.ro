@@ -3,6 +3,7 @@
 // ține propunerea de amendament pentru comisie (aceleași patru câmpuri: articol, text propus, motivare, observații).
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { type ListMove, listMove } from './score-history';
 import type { Amendment, BalanceSummary, BillAmendments, BillAnalysis, BillVersions, CdepSigned } from './types';
 import { getBalanceSummary } from './balance';
 import { getMpContacts } from './mp-contacts';
@@ -74,7 +75,7 @@ export interface CdepListItem extends CdepRow {
   termenAmendamente: string | null;
   termenRaport: string | null;
   /** oneLiner: rezumatul modelelor, tăiat cât încape pe un card. */
-  risk: { level: BillAnalysis['consensus']['riskLevel']; score: number; plainTitle: string; oneLiner: string } | null;
+  risk: { level: BillAnalysis['consensus']['riskLevel']; score: number; plainTitle: string; oneLiner: string; move: ListMove | null } | null;
   /** Încotro a mers textul la ultima schimbare de fond și după ce cameră (din comparația formelor). */
   textChange: { direction: 'mai_riscant' | 'mai_putin_riscant'; after: 'senat' | 'camera' } | null;
   /** Ce e bine și ce strică în textul proiectului, pe scurt (scripts/straja-balance.mjs). */
@@ -210,9 +211,9 @@ export async function getCdepList(): Promise<CdepListItem[]> {
         raport: bill?.fisa.comisii?.raport.map((c) => c.nume) ?? [],
         termenAmendamente: bill?.fisa.comisii?.termenAmendamente ?? null,
         termenRaport: bill?.fisa.comisii?.termenRaport ?? null,
-        risk: c ? { level: c.riskLevel, score: c.riskScore, plainTitle: c.plainTitle, oneLiner: clip(c.citizenOneLiner || c.summaryTlDr, 260) } : null,
+        risk: c ? { level: c.riskLevel, score: c.riskScore, plainTitle: c.plainTitle, oneLiner: clip(c.citizenOneLiner || c.summaryTlDr, 260), move: listMove(analysis, todayISO()) } : null,
         textChange:
-          last && last.direction !== 'la_fel' && last.to !== 'initiator' ? { direction: last.direction, after: last.to } : null,
+          last && last.direction !== 'la_fel' && last.to !== 'initiator' && last.to !== 'actualizata' ? { direction: last.direction, after: last.to } : null,
         balance: row.senat ? null : await getBalanceSummary(row.slug),
         consultare: bill?.fisa.consultare ? { termen: bill.fisa.consultare.termen, propuneri: bill.fisa.consultare.propuneri } : null,
       };
@@ -260,7 +261,7 @@ async function loadSigned(): Promise<CdepSigned[]> {
         officialTitle: row.titlu,
         stadiu: row.stadiu,
         passed: ['lege', 'promulgare'].includes(resolveStatus({ ...bill, stadiu: row.stadiu }, todayISO()).stage),
-        textChange: last && last.direction !== 'la_fel' && last.to !== 'initiator' ? { direction: last.direction, after: last.to } : null,
+        textChange: last && last.direction !== 'la_fel' && last.to !== 'initiator' && last.to !== 'actualizata' ? { direction: last.direction, after: last.to } : null,
         initiators: bill.fisa.initiatori.map((i) => ({
           name: i.nume,
           role: i.rol ?? chamberOf.get(slugify(i.nume)) ?? '',

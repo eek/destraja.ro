@@ -9,7 +9,8 @@
     "ordinanceChars": 0,
     "memoChars": 3987,
     "memoSupplied": 3987,
-    "marker": "SF-4CE7447F"
+    "marker": "SF-4CE7447F",
+    "form": "initiator"
   },
   "consensus": {
     "riskScore": 7.7,
@@ -135,5 +136,28 @@
       "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 7.7,
+      "riskLevel": "red",
+      "analyzedAt": "2026-10-28T22:45:51.552Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 8,
+        "claude": 7,
+        "codex": 8
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-19T13:01:34.083Z",
+      "reasons": [
+        "metoda",
+        "model"
+      ],
+      "backfilled": true
+    }
+  ]
 }

@@ -8,7 +8,8 @@
     "ordinanceChars": 0,
     "memoChars": 40199,
     "memoSupplied": 40199,
-    "marker": "SF-B255C7A0"
+    "marker": "SF-B255C7A0",
+    "form": "actualizata"
   },
   "consensus": {
     "riskScore": 7,
@@ -159,6 +160,30 @@
       "target": "consensus",
       "reportId": "manual-2026-11-19-b563-k1",
       "note": "Am corectat o notă greșită pusă de noi. Mai devreme scriseserăm că nu e clar dacă lit. k¹) rămâne în proiect. De fapt, forma actualizată a inițiatorului (16 noiembrie 2026) scoate lit. k¹) din forma inițială (publicitatea mobiliară) și lit. k³) (arbitrajul) și renumerotează celelalte litere: actele de înființare, modificare și încetare a persoanelor juridice devin noua lit. k¹) și rămân în proiect. Analiza modelelor era corectă; am revenit la textul ei."
+    }
+  ],
+  "history": [
+    {
+      "riskScore": 9.8,
+      "riskLevel": "red",
+      "analyzedAt": "2026-10-23T11:54:57.121Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 9.8,
+        "claude": 9.7,
+        "codex": 9.8
+      },
+      "corrections": 1,
+      "replacedAt": "2026-11-19T11:32:00.070Z",
+      "reasons": [
+        "text",
+        "metoda",
+        "model"
+      ],
+      "backfilled": true
     }
   ]
 }

@@ -32,6 +32,9 @@ import BillAvize from '@/components/bills/BillAvize';
 import { getRelatedActs, relatedCount } from '@/lib/related';
 import RelatedActs, { RelatedActsLink } from '@/components/bills/RelatedActs';
 import BillHappenings from '@/components/bills/BillHappenings';
+import ScoreTrajectory, { ScoreHistory, senateOpinions } from '@/components/bills/ScoreTrajectory';
+import BillVersions from '@/components/camera/BillVersions';
+import { getBillVersions } from '@/lib/cdep';
 import { getBillHistory, senateHappenings, withdrawn } from '@/lib/istoric';
 
 interface PageProps {
@@ -73,6 +76,8 @@ export default async function BillDetailPage({ params }: PageProps) {
   const votes = await getBillVotes(slug);
   const mpPages = votes ? await getMpPageSlugs() : new Set<string>();
   const related = await getRelatedActs({ senat: slug });
+  // Forma inițială și cea actualizată a inițiatorului, citite la fel și comparate (straja-council.mjs --versions --senat).
+  const versions = await getBillVersions(slug);
   const manual = manualCorrections(bill.analysis.corrections, reports);
   const corrected = manual.length > 0 || reports.some((r) => r.status === 'fixed');
   const news = bill.news;
@@ -139,6 +144,7 @@ export default async function BillDetailPage({ params }: PageProps) {
                 {bill.id} · cod Senat {bill.cod}
               </span>
             </div>
+            <ScoreTrajectory analysis={bill.analysis} versions={versions} opinions={senateOpinions(bill.timeline)} />
             <h1 className="font-display mt-5 text-[clamp(1.9rem,4.2vw,3rem)] font-normal leading-[1.1]">{c.plainTitle}</h1>
             <p className="mt-4 text-lg leading-8 text-ink sm:text-xl sm:leading-9">{oneLiner(lite)}</p>
             <p className="mt-4 text-sm leading-6 text-muted">Titlul oficial: {bill.officialTitle}</p>
@@ -185,8 +191,10 @@ export default async function BillDetailPage({ params }: PageProps) {
             Ce a găsit fiecare model în text
             <ChevronDown className="h-4 w-4" aria-hidden />
           </a>
+          <ScoreHistory analysis={bill.analysis} versions={versions} />
         </ModelsVerdict>
         <BillReports reports={reports} manual={manual} />
+        {versions && <BillVersions data={versions} />}
         <BillAvize slug={slug} />
         {balance && <BillBalance data={balance} level={c.riskLevel} />}
 

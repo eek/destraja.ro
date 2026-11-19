@@ -11,10 +11,16 @@ import { AmendmentCredit } from './BillAmendments';
 type Key = BillVersion['key'];
 type Effect = VersionItem['effect'];
 
-const AT: Record<Key, string> = { initiator: 'La inițiator', senat: 'La Senat', camera: 'La Cameră' };
-const FORM: Record<Key, string> = { initiator: 'forma inițiatorului', senat: 'forma Senatului', camera: 'forma Camerei' };
-const STEP: Record<Key, string> = { initiator: 'Inițiator', senat: 'Senat', camera: 'Cameră' };
-const WHO: Record<Key, string> = { initiator: 'inițiatorul', senat: 'Senatul', camera: 'Camera' };
+// „actualizata”: la Senat, forma actualizată cu care inițiatorul și-a înlocuit forma inițială (B563/2026).
+const AT: Record<Key, string> = { initiator: 'La inițiator', senat: 'La Senat', camera: 'La Cameră', actualizata: 'În forma actualizată' };
+const FORM_NAMES: Record<Key, string> = { initiator: 'forma inițiatorului', senat: 'forma Senatului', camera: 'forma Camerei', actualizata: 'forma actualizată' };
+const STEP_NAMES: Record<Key, string> = { initiator: 'Inițiator', senat: 'Senat', camera: 'Cameră', actualizata: 'Forma actualizată' };
+const WHO: Record<Key, string> = { initiator: 'inițiatorul', senat: 'Senatul', camera: 'Camera', actualizata: 'inițiatorul' };
+/** Lângă forma actualizată, forma inițiatorului e „forma inițială”. */
+const names = (updated: boolean) => ({
+  form: updated ? { ...FORM_NAMES, initiator: 'forma inițială' } : FORM_NAMES,
+  step: updated ? { ...STEP_NAMES, initiator: 'Forma inițială' } : STEP_NAMES,
+});
 
 const count = (n: number, one: string, many: string) => (n === 1 ? `1 ${one}` : `${n} ${many}`);
 /** La fel, dar „nicio problemă majoră” în loc de „0 probleme majore”. */
@@ -50,7 +56,7 @@ function EffectCounts({ items }: { items: { effect: Effect }[] }) {
 }
 
 /** Textul de dinainte și de după, cum apare în cele două forme oficiale. */
-function Quotes({ item, from, to, latest }: { item: VersionItem; from: Key; to: Key; latest: Key }) {
+function Quotes({ item, from, to, latest, form: FORM }: { item: VersionItem } & Where) {
   const side = (label: string, form: Key, quote: string | null | undefined, absent: boolean | undefined, missing: string, strong: boolean) => (
     <figure className="rounded-lg bg-sunken p-3">
       <figcaption className="text-xs font-semibold text-muted">
@@ -76,7 +82,7 @@ const hasQuotes = (i: VersionItem) => Boolean(i.before || i.after);
 const summaryCls =
   'inline-flex min-h-8 cursor-pointer list-none items-center gap-1 text-sm font-semibold text-link underline decoration-1 underline-offset-4 hover:decoration-2 [&::-webkit-details-marker]:hidden';
 
-type Where = { from: Key; to: Key; latest: Key };
+type Where = { from: Key; to: Key; latest: Key; form: Record<Key, string> };
 
 /** O schimbare majoră: titlul, explicația și, la prima, citatele deschise. */
 function MajorChange({ item, where, open, credit }: { item: VersionItem; where: Where; open: boolean; credit?: ReactNode }) {
@@ -197,7 +203,9 @@ export default function BillVersions({ data, amendments = null, pages = new Set(
   const from = byKey[main.from]!;
   const to = byKey[main.to]!;
   const latest = versions.at(-1)!;
-  const where = (c: VersionChange): Where => ({ from: c.from, to: c.to, latest: latest.key });
+  const updated = versions.some((v) => v.key === 'actualizata');
+  const { form: FORM, step: STEP } = names(updated);
+  const where = (c: VersionChange): Where => ({ from: c.from, to: c.to, latest: latest.key, form: FORM });
 
   // Comparațiile vechi (schema 1) n-au importanța schimbărilor: atunci le arătăm pe toate ca majore.
   const weighted = main.changes.some((c) => c.major !== undefined);
@@ -219,11 +227,13 @@ export default function BillVersions({ data, amendments = null, pages = new Set(
   const delta = Math.round((to.riskScore - from.riskScore) * 10) / 10;
   const mismatch = (improving && delta >= 0.3) || (worsening && delta <= -0.3);
   const quoted = main.changes.some(hasQuotes);
+  // Formele citite cu aceeași metodă și același Gemini: diferența de scor e a textului. null = comparații mai vechi, fără metodă.
+  const readAlike = versions.every((v) => v.method) ? versions.every((v) => v.method === versions[0].method && (v.agyModel ?? null) === (versions[0].agyModel ?? null)) : null;
 
   return (
     <section aria-labelledby="versiuni" className={`${panel} mt-6 p-6 sm:p-7`}>
       <h2 id="versiuni" className="text-base font-semibold text-ink">
-        Cum s-a schimbat pe drum
+        {updated ? 'Cum s-a schimbat textul' : 'Cum s-a schimbat pe drum'}
       </h2>
 
       <p className="mt-3 font-display text-2xl leading-snug text-ink [text-wrap:balance] sm:text-[1.7rem]">
@@ -419,6 +429,13 @@ export default function BillVersions({ data, amendments = null, pages = new Set(
           Scorurile celor trei modele, pe fiecare formă
           <ChevronDown className="h-3.5 w-3.5 transition-transform group-open:rotate-180" aria-hidden />
         </summary>
+        {readAlike !== null && (
+          <p className="mt-3 max-w-[68ch] text-sm leading-6 text-body">
+            {readAlike
+              ? 'Formele au fost citite la fel: tot textul fiecăreia, cu aceleași modele. Diferența dintre scoruri vine din text, în marja de până la un punct dintre două analize.'
+              : 'Formele n-au fost citite la fel (altă metodă sau alt model Gemini), așa că diferența dintre scoruri nu vine doar din text.'}
+          </p>
+        )}
         <ul className="mt-3 divide-y divide-line">
           {versions.map((v) => {
             const scored = MODELS.filter((m) => v.scores[m.key] !== null).length;

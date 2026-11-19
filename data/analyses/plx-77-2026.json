@@ -9,7 +9,8 @@
     "ordinanceChars": 0,
     "memoChars": 170716,
     "memoSupplied": 60000,
-    "marker": "SF-04CB759D"
+    "marker": "SF-04CB759D",
+    "form": "camera"
   },
   "consensus": {
     "riskScore": 8.3,
@@ -169,5 +170,28 @@
       "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T10:21:33.784Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "camera",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-18T14:29:11.366Z",
+      "reasons": [
+        "metoda",
+        "model"
+      ],
+      "backfilled": true
+    }
+  ]
 }

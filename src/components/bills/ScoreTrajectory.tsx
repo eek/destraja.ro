@@ -51,7 +51,8 @@ function sentence(m: ScoreMove, an: BillAnalysis, versions: BillVersions | null)
   const when = day(m.date);
   if (m.kind === 'text') {
     const head = m.delta === 0 ? `Scorul a rămas ${fmt(m.to)} după actualizarea din ${when}` : `Scorul ${verb(m.delta)} de la ${fmt(m.from)} la ${fmt(m.to)} pe ${when}`;
-    if (c.length === 1) return `${head}: ${c[0]}, citită cu aceeași metodă.`;
+    // „Citită la fel” doar când nimic altceva nu s-a schimbat (nici modelul, chiar dacă nu-l arătăm ca motiv).
+    if (c.length === 1) return `${head}: ${c[0]}${m.all.length === 1 ? ', citită la fel ca forma de dinainte' : ''}.`;
     return `${head}, din ${c.length === 2 ? 'două motive' : 'mai multe motive'} deodată: ${list(c)}.`;
   }
   const head = `Scor recalculat pe ${when}: era ${fmt(m.from)}, acum e ${fmt(m.to)}.`;
@@ -80,17 +81,31 @@ function pairVerdict(m: ScoreMove, pair: NonNullable<ReturnType<typeof sameMetho
   if (Math.abs(d) < 0.3) return `Citite la fel, cele două forme au cam același scor; ${fmt(m.from)} era scorul ${old}.`;
   if (m.delta !== 0 && Math.sign(d) !== Math.sign(m.delta))
     return `Citită la fel, forma nouă e ${d > 0 ? 'mai riscantă' : 'mai puțin riscantă'} decât cea veche, deși scorul afișat ${verb(m.delta)}: ${fmt(m.from)} era scorul ${old}.`;
-  return `Citite la fel, formele diferă cu ${pts(d)}${m.delta !== 0 ? `, iar scorul afișat s-a mișcat cu ${pts(m.delta)}` : ''}: ${fmt(m.from)} era scorul ${old}.`;
+  return `Formele diferă cu ${pts(d)}${m.delta !== 0 ? `, iar scorul afișat s-a mișcat cu ${pts(m.delta)}` : ''}: ${fmt(m.from)} era scorul ${old}.`;
 }
 
-/** Avizele și punctele de vedere oficiale apărute de la analiza de dinainte: nu intră în scor, dar cititorii le leagă de el. */
-function newOpinions(avize: AvizDoc[], since: string) {
+/** Un aviz sau un punct de vedere oficial: cine, ce a spus (dacă se știe) și ziua (AAAA-LL-ZZ). */
+export type Opinion = { who: string; verdict: string | null; date: string };
+
+/** Din pașii fișei Senatului: „primire aviz de la Consiliul Legislativ - cu nr. 946/19.11.2026 (negativ) …”. */
+export function senateOpinions(timeline: { date: string; action: string }[]): Opinion[] {
+  return timeline.flatMap((t) => {
+    const m = t.action.match(/^primire (?:aviz|punct de vedere) de la (.+?) - cu nr\.[^()]*(?:\((negativ|favorabil[^)]*)\))?/i);
+    const d = t.date.match(/^(\d{2})-(\d{2})-(\d{4})$/);
+    return m && d ? [{ who: m[1].trim(), verdict: m[2] ? `aviz ${m[2].toLowerCase()}` : null, date: `${d[3]}-${d[2]}-${d[1]}` }] : [];
+  });
+}
+
+/** Din documentele citite (data/avize): doar cele cu data scrisă în ele. */
+export function avizeOpinions(avize: AvizDoc[]): Opinion[] {
   const names: Record<string, string> = { cl: 'Consiliul Legislativ', cf: 'Consiliul Fiscal', guvern: 'Guvernul' };
   const verdict: Record<string, string> = { negativ: 'aviz negativ', favorabil: 'aviz favorabil', favorabil_cu_observatii: 'aviz favorabil, cu observații' };
-  return avize
-    .filter((d) => d.date && d.date > since && names[d.kind])
-    .map((d) => `${names[d.kind]}${verdict[d.verdict] ? `, ${verdict[d.verdict]}` : d.kind === 'guvern' ? ', punct de vedere' : ''}, ${day(d.date!)}`);
+  return avize.flatMap((d) => (d.date && names[d.kind] ? [{ who: names[d.kind], verdict: verdict[d.verdict] ?? (d.kind === 'guvern' ? 'punct de vedere' : null), date: d.date }] : []));
 }
+
+/** Cele apărute după analiza de dinainte: nu intră în scor, dar cititorii le leagă de el. */
+const newOpinions = (list: Opinion[], since: string) =>
+  list.filter((o) => o.date > since).map((o) => `${o.who.replace(/ş/g, 'ș').replace(/ţ/g, 'ț')}${o.verdict ? `, ${o.verdict}` : ''}, ${day(o.date)}`);
 
 function Arrow({ delta, className }: { delta: number; className?: string }) {
   const Icon = delta < 0 ? ArrowDown : delta > 0 ? ArrowUp : ArrowRight;
@@ -131,7 +146,7 @@ const linkCls = 'font-semibold text-link underline decoration-1 underline-offset
  * Traiectoria scorului, în antetul paginii: de la cât la cât, când și de ce. Nu apare dacă scorul nu s-a mișcat peste
  * prag (un punct, sau o jumătate de punct peste o graniță de risc) și nici forma nu s-a schimbat.
  */
-export default function ScoreTrajectory({ analysis, versions = null, avize = [] }: { analysis: BillAnalysis; versions?: BillVersions | null; avize?: AvizDoc[] }) {
+export default function ScoreTrajectory({ analysis, versions = null, opinions: given = [] }: { analysis: BillAnalysis; versions?: BillVersions | null; opinions?: Opinion[] }) {
   const m = scoreMove(analysis);
   if (!showOnPage(m)) return null;
   const prev = analysis.history![0];
@@ -140,7 +155,7 @@ export default function ScoreTrajectory({ analysis, versions = null, avize = [] 
   // Perechea formelor citite la fel are rost doar când s-a schimbat și citirea (metoda sau modelul): altfel traiectoria
   // însăși compară două forme citite la fel. Doar formele din traiectorie, nu ultimele două din comparație.
   const pair = m.kind === 'text' && m.all.some((r) => r === 'metoda' || r === 'model') ? sameMethodPair(versions, prev.form, nowForm) : null;
-  const opinions = newOpinions(avize, m.fromDate);
+  const opinions = newOpinions(given, m.fromDate);
   const prevChars = prev.textChars ?? (prev.form && prev.form === nowForm ? textChars(analysis) : null);
   const noteBefore = [m.kind === 'text' ? shortForm(prev.form, updated) : null, readNote(prev.method, prevChars, m.all.includes('metoda'))].filter(Boolean).join(', ');
   const noteNow = [m.kind === 'text' ? shortForm(nowForm, updated) : null, readNote(analysis.coverage?.method ?? 'first-14k', textChars(analysis), false)].filter(Boolean).join(', ');

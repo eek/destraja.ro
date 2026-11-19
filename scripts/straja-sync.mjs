@@ -194,7 +194,7 @@ async function parseBillSheet(bill) {
 
     const label = stripTags(pm[2]).replace(/^-\s*/, '').trim();
     let type = 'other';
-    if (/forma\s+ini[țţ]iatorului|FG\.PDF/i.test(label + ' ' + rawHref)) type = 'forma_initiatorului';
+    if (/forma\s+(?:actualizat[ăa]\s+a\s+)?ini[țţ]iatorului|FGA?\.PDF/i.test(label + ' ' + rawHref)) type = 'forma_initiatorului';
     else if (/expunerea\s+de\s+motive|EM\.PDF/i.test(label + ' ' + rawHref)) type = 'expunere_motive';
     else if (/adresa\s+de\s+[îi]naintare|AD\.PDF/i.test(label + ' ' + rawHref)) type = 'adresa_inaintare';
     else if (/aviz|CES|consiliul/i.test(label + ' ' + rawHref)) type = 'aviz';

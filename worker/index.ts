@@ -8,9 +8,12 @@
 // /api/mail/events            anunțurile Resend despre adrese care resping mesajele, semnate (mail.ts)
 // /api/cauta                  jurnalul căutărilor de pe /cauta, fără date care să identifice pe cineva (search.ts)
 // /api/run                    actualizarea zilnică anunță că a pornit și că a terminat, doar cu DIGEST_TOKEN (watch.ts)
+// /admin*, /api/admin/*       panoul rapoartelor, doar după Cloudflare Access și verificarea JWT-ului lui (access.ts, admin.ts)
 // cron la 15 minute           confirmările rămase la coadă (subscribe.ts, sendQueued) și supravegherea actualizării
 //                             zilnice: un e-mail când rularea zilei lipsește sau nu se termină (watch.ts, watchRun)
 
+import { requireAdmin } from './access';
+import { handleAdmin } from './admin';
 import { handleDigest, handleDigestStats } from './digest';
 import { json, logError } from './http';
 import { handleMailEvents } from './mail';
@@ -20,6 +23,19 @@ import { handleConfirm, handlePreferences, handleSubscribe, handleUnsubscribe, s
 import { handleRun, watchRun } from './watch';
 
 type Handler = (request: Request, env: Env, url: URL) => Promise<Response>;
+
+const isAdminPage = (path: string) => path === '/admin' || path.startsWith('/admin/');
+
+/** Paginile panoului: aceleași fișiere statice, dar doar după verificare și fără indexare sau cache. */
+async function adminPage(request: Request, env: Env, url: URL) {
+  const user = await requireAdmin(request, env, url);
+  if (user instanceof Response) return user;
+  const res = await env.ASSETS.fetch(request);
+  const out = new Response(res.body, res);
+  out.headers.set('x-robots-tag', 'noindex, nofollow');
+  out.headers.set('cache-control', 'no-store');
+  return out;
+}
 
 const POST_ROUTES: Record<string, Handler> = {
   '/api/report': handleReport,
@@ -37,6 +53,11 @@ export default {
   async fetch(request, env): Promise<Response> {
     const url = new URL(request.url);
     try {
+      if (isAdminPage(url.pathname)) return await adminPage(request, env, url);
+      if (url.pathname === '/api/admin' || url.pathname.startsWith('/api/admin/')) {
+        const user = await requireAdmin(request, env, url);
+        return user instanceof Response ? user : await handleAdmin(request, env, url, user);
+      }
       if (url.pathname === '/api/unsubscribe') return await handleUnsubscribe(request, env, url);
       if (url.pathname === '/api/digest/stats' && request.method === 'GET') return await handleDigestStats(request, env);
       const handler = POST_ROUTES[url.pathname];

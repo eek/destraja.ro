@@ -40,7 +40,7 @@ export const PAINT = {
   activ: { fill: 'var(--brand)', opacity: 0.28 },
   nemiscat: { fill: 'var(--brand)' },
   lege: { fill: 'var(--muted)' },
-  incheiat: { fill: 'var(--line-strong)' },
+  incheiat: { fill: 'var(--faint)' },
   altundeva: { fill: 'var(--muted)', hatch: true },
   necunoscut: { fill: 'var(--faint)', opacity: 0.4 },
 } satisfies Record<string, Paint>;

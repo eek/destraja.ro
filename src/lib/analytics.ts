@@ -39,17 +39,22 @@ declare global {
 let loaded = false;
 let active = false;
 
+// Alegerea din pagina curentă, pentru browserele care blochează stocarea locală: fără ea, fereastra de acord (care
+// blochează site-ul până alegi) nu s-ar mai închide. Ține până la reîncărcarea paginii.
+let pageChoice: Consent | null = null;
+
 export function readConsent(): Consent | null {
   try {
     const [choice, at] = (localStorage.getItem(CONSENT_KEY) ?? '').split(':');
     if ((choice === 'granted' || choice === 'denied') && Date.now() - Number(at) < CONSENT_DAYS * 864e5) return choice;
   } catch {
-    // Fără stocare locală nu avem acord salvat.
+    // Fără stocare locală nu avem acord salvat; rămâne cel din pagina curentă.
   }
-  return null;
+  return pageChoice;
 }
 
 export function saveConsent(choice: Consent) {
+  pageChoice = choice;
   try {
     localStorage.setItem(CONSENT_KEY, `${choice}:${Date.now()}`);
     // Mesajul vechi, doar informativ, din prima versiune a site-ului.
@@ -63,6 +68,7 @@ export function saveConsent(choice: Consent) {
 }
 
 export function clearConsent() {
+  pageChoice = null;
   try {
     localStorage.removeItem(CONSENT_KEY);
   } catch {

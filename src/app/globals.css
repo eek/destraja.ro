@@ -39,6 +39,12 @@
   --on-band: #f3f5fa;
   --on-band-muted: #c3cde0;
 
+  /* Butoanele ferestrei de acord: verde pentru Accept, roșu pentru Refuz, la fel de pline și de mari; text alb peste 6:1. */
+  --consent-accept: #2b6a3c;
+  --consent-accept-hover: #22572f;
+  --consent-refuse: #a8261b;
+  --consent-refuse-hover: #8c1f16;
+
   --shadow-color: 32 28 18;
   /* Posterul satului din hero, afișat până pornește scena 3D (și fără WebGL). */
   --sat-poster: url("/sat/sat-poster-light.webp");
@@ -76,6 +82,10 @@
     --band: #2a3754;
     --on-band: #eef0f5;
     --on-band-muted: #b3bdd0;
+    --consent-accept: #2f7a45;
+    --consent-accept-hover: #2a7040;
+    --consent-refuse: #b8352a;
+    --consent-refuse-hover: #a92e24;
     --shadow-color: 0 0 0;
     --sat-poster: url("/sat/sat-poster-dark.webp");
     color-scheme: dark;
@@ -112,6 +122,10 @@
   --band: #2a3754;
   --on-band: #eef0f5;
   --on-band-muted: #b3bdd0;
+  --consent-accept: #2f7a45;
+  --consent-accept-hover: #2a7040;
+  --consent-refuse: #b8352a;
+  --consent-refuse-hover: #a92e24;
   --shadow-color: 0 0 0;
   --sat-poster: url("/sat/sat-poster-dark.webp");
   color-scheme: dark;
@@ -147,6 +161,10 @@
   --color-on-band: var(--on-band);
   --color-on-band-muted: var(--on-band-muted);
   --color-focus: var(--focus);
+  --color-consent-accept: var(--consent-accept);
+  --color-consent-accept-hover: var(--consent-accept-hover);
+  --color-consent-refuse: var(--consent-refuse);
+  --color-consent-refuse-hover: var(--consent-refuse-hover);
 
   --font-sans: var(--font-public), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-display: var(--font-serif), Georgia, "Times New Roman", serif;

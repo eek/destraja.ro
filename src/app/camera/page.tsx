@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { getCdepIndex, getCdepList, getCdepSlugs, getVersionsStatus } from '@/lib/cdep';
 import { formatDateRo, todayISO } from '@/lib/format';
 import { Container } from '@/components/ui';
@@ -53,7 +54,15 @@ export default async function CameraPage() {
           </div>
         )}
 
-        <p className="mt-8 max-w-2xl text-xs leading-5 text-muted">
+        <p className="mt-8 max-w-2xl text-[15px] leading-7 text-body">
+          De cât timp așteaptă proiectele aflate aici și ce s-a întâmplat cu cele din anii trecuți:{' '}
+          <Link href="/uitate" className="font-semibold text-link underline decoration-1 underline-offset-4 hover:decoration-2">
+            Proiecte uitate
+          </Link>
+          .
+        </p>
+
+        <p className="mt-6 max-w-2xl text-xs leading-5 text-muted">
           Datele vin din lista proiectelor înregistrate la Camera Deputaților în {year}
           {oldest < year && `, din listele anilor ${oldest}–${year - 1} pentru proiectele încă în dezbatere,`} și din fișa fiecărui proiect de pe cdep.ro
           {index ? `, citite pe ${formatDateRo(index.cititLa.slice(0, 10))}` : ''}. Analiza modelelor AI apare pe proiectele noi și pe cele programate la

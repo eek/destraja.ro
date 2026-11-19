@@ -135,6 +135,9 @@ export const WAITS: { key: WaitKey; label: string; hint: string }[] = [
   { key: 'reexaminare', label: 'În reexaminare', hint: 'Întors de Președinte sau după o decizie a Curții Constituționale.' },
 ];
 
+/** De aici încep fișele citite (scripts/lib/cdep-index.mjs, FIRST_YEAR). */
+export const FIRST_YEAR = 2020;
+
 /** Partea din stadiile resolveStatus care înseamnă „acum la Cameră” (ca pe /camera). */
 export const AT_CHAMBER_STAGES: StageKey[] = ['comisii', 'raport', 'plen', 'altele'];
 
@@ -162,6 +165,8 @@ export interface WaitingBill {
   /** Aprobă sau respinge o ordonanță (de urgență sau simplă): ordonanța se aplică deja, de la publicare. */
   ordonanta: boolean;
   initiator: 'guvern' | 'parlamentari';
+  /** Senatul, ca primă cameră, l-a adoptat tacit: i-a trecut termenul constituțional fără vot (art. 75 alin. 2). */
+  tacit: boolean;
   /** Comisiile sesizate pentru raport (numele scurte). */
   comisii: string[];
   /** Camera e camera decizională (are ultimul cuvânt). */
@@ -211,13 +216,20 @@ export interface UitateData {
   /** Cele mai vechi, după zilele de la ultimul pas (apoi după vechimea totală). */
   longest: WaitingBill[];
   oldest: WaitingBill | null;
+  /** Câte dintre cele mai vechi au venit adoptate tacit de Senat. */
+  tacitInLongest: number;
   /** Proiectele de aprobare a unei ordonanțe, dintre cele aflate la Cameră. */
   ordonante: { total: number; over1: number };
-  initiators: { key: 'guvern' | 'parlamentari'; total: number; over1: number }[];
+  initiators: { key: 'guvern' | 'parlamentari'; total: number; over1: number; ordonante: number }[];
   /** Camera decizională vs. prima cameră, dintre cele fără pas de peste un an. */
   decisional: { decizionala: number; prima: number; neclar: number };
   committees: CommitteeQueue[];
   cohorts: Cohort[];
+  /**
+   * Proiectele înregistrate înainte de 2020 încă la Cameră după lista anului (fără fișe citite: nu știm de când stau).
+   * Doar anii pentru care avem lista în data/cdep/stadii; restul rămân necitiți.
+   */
+  older: { years: { an: number; atChamber: number; randuri: number; cititLa: string }[]; atChamber: number };
   /**
    * De ce totalul diferă de numărătoarea după lista Camerei: lista rămâne uneori în urmă față de fișe (un proiect adoptat
    * apare încă „raport”). `listAtChamber`: la Cameră după stadiul din listă; `sheetLeft`: dintre ele, plecate după fișă;
@@ -320,6 +332,7 @@ export function computeUitate(input: UitateInput): UitateData {
         band,
         ordonanta: ordinance(row.titlu),
         initiator: bill && bill.fisa.initiatori.length === 0 ? 'guvern' : 'parlamentari',
+        tacit: !!bill?.fisa.timeline.some((t) => /senat/.test(plain(t.camera ?? '')) && /depasirii termenului/.test(plain(t.actiune))),
         comisii: (bill?.fisa.comisii?.raport ?? []).map((c) => shortCommittee(c.nume)),
         decizionala: !dec ? null : /camer/.test(dec) && !/senat/.test(dec) ? true : /senat/.test(dec) && !/camer/.test(dec) ? false : null,
       });
@@ -350,7 +363,7 @@ export function computeUitate(input: UitateInput): UitateData {
   }
 
   // Pe ani: lista completă a anului dacă o avem (toate rândurile), altfel doar rândurile urmărite.
-  const years = new Set<number>([...rows.map(registeredYear), ...input.stadii.keys()]);
+  const years = new Set<number>([...rows.map(registeredYear), ...[...input.stadii.keys()].filter((y) => y >= FIRST_YEAR)]);
   const cohorts: Cohort[] = [...years]
     .sort((a, b) => a - b)
     .map((an) => {
@@ -405,7 +418,13 @@ export function computeUitate(input: UitateInput): UitateData {
     longest,
     oldest: longest[0] ?? null,
     ordonante: { total: count((b) => b.ordonanta), over1: stale.filter((b) => b.ordonanta).length },
-    initiators: (['guvern', 'parlamentari'] as const).map((key) => ({ key, total: count((b) => b.initiator === key), over1: stale.filter((b) => b.initiator === key).length })),
+    initiators: (['guvern', 'parlamentari'] as const).map((key) => ({
+      key,
+      total: count((b) => b.initiator === key),
+      over1: stale.filter((b) => b.initiator === key).length,
+      ordonante: count((b) => b.initiator === key && b.ordonanta),
+    })),
+    tacitInLongest: longest.filter((b) => b.tacit).length,
     decisional: {
       decizionala: stale.filter((b) => b.decizionala === true).length,
       prima: stale.filter((b) => b.decizionala === false).length,
@@ -413,6 +432,13 @@ export function computeUitate(input: UitateInput): UitateData {
     },
     committees: [...queues.values()].sort((a, b) => b.pestUnAn - a.pestUnAn || b.asteapta - a.asteapta || a.nume.localeCompare(b.nume)),
     cohorts,
+    older: (() => {
+      const ys = [...input.stadii.values()]
+        .filter((y) => y.an < FIRST_YEAR)
+        .sort((a, b) => a.an - b.an)
+        .map((y) => ({ an: y.an, randuri: y.randuri, cititLa: y.cititLa, atChamber: y.proiecte.filter((r) => AT_CHAMBER_STAGES.includes(stageOf(r.stadiu ?? ''))).length }));
+      return { years: ys, atChamber: ys.reduce((s, y) => s + y.atChamber, 0) };
+    })(),
     reconcile: {
       trackedRows: input.trackedRows,
       trackedLeft: rows.filter((r) => registeredYear(r) !== input.an && !here(r)).length,

@@ -126,6 +126,7 @@ console.log(`Cel mai vechi: ${d.oldest?.numar}, ${d.oldest?.days} zile de la „
 console.log(`Unde: ${d.byWait.map((w) => `${w.key} ${w.count} (${w.over1} > 1 an, ${w.subRezerva} sub rezervă)`).join('; ')}`);
 console.log(`Ordonanțe: ${d.ordonante.total} (${d.ordonante.over1} > 1 an); inițiatori: ${d.initiators.map((i) => `${i.key} ${i.total}/${i.over1}`).join(', ')}`);
 console.log(`Decizională (peste 1 an): ${JSON.stringify(d.decisional)}`);
+console.log(`Înainte de 2020 (doar listele): ${d.older.years.map((y) => `${y.an}: ${y.atChamber}/${y.randuri}`).join(', ')}`);
 console.log(`Reconciliere: ${JSON.stringify(d.reconcile)}`);
 for (const c of d.cohorts) console.log(`  ${c.an}${c.complet ? '' : ' (doar urmărite)'}: ${c.inregistrate} — ${Object.entries(c.counts).map(([k, v]) => `${k} ${v}`).join(', ')}`);
 if (process.argv.includes('--detalii')) {

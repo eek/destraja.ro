@@ -21,6 +21,10 @@
 //   COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 //   OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
 export const PORTAL = 'https://legislatie.just.ro';
 const SOAP_URL = `${PORTAL}/apiws/FreeWebService.svc/SOAP`;
 const SOAP_ACTION = 'http://tempuri.org/IFreeWebService/';
@@ -46,12 +50,43 @@ const KNOWN_DOCS = {
   'LEGE 169/2026': '314302', // Codul amenajării teritoriului, urbanismului și construcțiilor
 };
 
-// Câte o cerere la câteva secunde, pentru toată rularea (SOAP și pagini).
-let lastRequest = 0;
+// Câte o cerere la câteva secunde (SOAP și pagini), și între procese: rularea zilnică (straja-baseline) și analizele
+// Camerei, care pot rula în mai multe loturi deodată (straja-council --camera, COUNCIL_BASELINE=1), împart aceeași pauză
+// prin .cache/legislatie/last-request. Lacătul e un dosar (mkdir e atomic); unul mai vechi de un minut e al unui proces
+// oprit la mijloc.
+const PACE_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', '..', '.cache', 'legislatie');
+const PACE_FILE = path.join(PACE_DIR, 'last-request');
+const PACE_LOCK = path.join(PACE_DIR, 'lock');
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+/** Cererile făcute de proces către portal, pentru raportul rulării. */
+export const requestStats = { count: 0 };
+
+async function waitTurn() {
+  fs.mkdirSync(PACE_DIR, { recursive: true });
+  for (;;) {
+    try {
+      fs.mkdirSync(PACE_LOCK);
+      break;
+    } catch {
+      try {
+        if (Date.now() - fs.statSync(PACE_LOCK).mtimeMs > 60_000) fs.rmSync(PACE_LOCK, { recursive: true, force: true });
+      } catch {}
+      await sleep(200);
+    }
+  }
+  try {
+    const last = Number(fs.existsSync(PACE_FILE) ? fs.readFileSync(PACE_FILE, 'utf8') : 0) || 0;
+    const wait = last + PAUSE_MS - Date.now();
+    if (wait > 0) await sleep(wait);
+    fs.writeFileSync(PACE_FILE, String(Date.now()));
+  } finally {
+    fs.rmSync(PACE_LOCK, { recursive: true, force: true });
+  }
+}
+
 async function politeFetch(url, init = {}) {
-  const wait = lastRequest + PAUSE_MS - Date.now();
-  if (wait > 0) await new Promise((r) => setTimeout(r, wait));
-  lastRequest = Date.now();
+  await waitTurn();
+  requestStats.count++;
   try {
     return await fetch(url, {
       ...init,
@@ -59,7 +94,10 @@ async function politeFetch(url, init = {}) {
       headers: { 'User-Agent': UA, 'Accept-Language': 'ro-RO,ro;q=0.9', ...init.headers },
     });
   } finally {
-    lastRequest = Date.now();
+    // Pauza se numără de la sfârșitul cererii: o pagină de câțiva MB (Codul fiscal) nu scurtează pauza următoare.
+    try {
+      fs.writeFileSync(PACE_FILE, String(Date.now()));
+    } catch {}
   }
 }
 
@@ -337,12 +375,14 @@ export class PortalError extends Error {}
  * Actul cu tipul, numărul și anul date, în forma consolidată la zi. `found: false` înseamnă că portalul a răspuns,
  * dar actul nu a putut fi identificat fără să ghicim (niciun rezultat sau mai multe acte cu același număr).
  * @param {{ tipAct: string, numar: string, an: string }} act
+ * @param {{ url?: string }} [opts]
  */
-export async function fetchAct({ tipAct, numar, an }) {
+export async function fetchAct({ tipAct, numar, an }, { url: knownUrl } = {}) {
   try {
+    // `url`: adresa găsită la o rulare trecută (data/baseline/_acts.json); actul nu se mai caută, se citește direct.
     const known = KNOWN_DOCS[`${tipAct} ${numar}/${an}`];
-    if (known) {
-      const { url, articles } = await consolidatedArticles(`${PORTAL}/Public/DetaliiDocument/${known}`);
+    if (known || knownUrl) {
+      const { url, articles } = await consolidatedArticles(knownUrl ?? `${PORTAL}/Public/DetaliiDocument/${known}`);
       return { found: true, url, title: null, articles };
     }
     // Căutarea după an întoarce și acte din anii apropiați: anul actului e cel din titlu („LEGE nr. 51 din 7 iunie 1995”).

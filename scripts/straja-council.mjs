@@ -10,6 +10,7 @@ import { AT_CHAMBER, readCdepIndex } from './lib/cdep-index.mjs';
 import { articleDiff } from './lib/article-diff.mjs';
 import { clean, quoteKey, verifiedQuote } from './lib/quotes.mjs';
 import { writeFileAtomic } from './lib/atomic.mjs';
+import { baselineForAnalysis, formText } from './lib/baseline.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
@@ -93,7 +94,20 @@ function councilInput(bill, texts, version) {
   return { form, fg, em, marker, coverage: { method: WHOLE_TEXT_METHOD, billChars: main.length, ordinanceChars: oug.length, memoChars: em.length, memoSupplied: Math.min(em.length, EXPUNERE_MAX), marker } };
 }
 
-function buildCouncilPrompt(bill, texts, version) {
+// COUNCIL_BASELINE=1: promptul primește și textul în vigoare al articolelor pe care le modifică proiectul, de pe
+// legislatie.just.ro (scripts/lib/baseline.mjs), după expunerea de motive; analiza înregistrează ce bază a folosit
+// (`baseline`). Oprit până îl aprobăm: schimbă promptul, deci și scorurile. Fără el promptul e exact cel de până acum.
+const USE_BASELINE = process.env.COUNCIL_BASELINE === '1';
+
+/** Baza pentru forma analizată, sau null fără COUNCIL_BASELINE ori fără textul formei. */
+async function councilBaseline(bill, texts, version, wanted) {
+  if (!USE_BASELINE) return null;
+  const form = formText(texts, bill.chamber ? (version ?? latestVersion(texts)) : 'initiator');
+  if (!form) return null;
+  return baselineForAnalysis({ billId: bill.id, slug: bill.slug, ...form }, { version: Boolean(wanted) });
+}
+
+function buildCouncilPrompt(bill, texts, version, baselineText = null) {
   const { form, fg, em, marker } = councilInput(bill, texts, version);
   const fgSnippet = fg && `${fg}\n\n[SFÂRȘITUL TEXTULUI · COD DE VERIFICARE: ${marker}]`;
   const emSnippet = em.length > EXPUNERE_MAX ? `${em.slice(0, EXPUNERE_MAX)}\n\n[EXPUNEREA CONTINUĂ: încă ${em.length - EXPUNERE_MAX} caractere nu sunt incluse]` : em;
@@ -157,7 +171,7 @@ ${fgSnippet || '[PDF scanat ca imagine sau indisponibil text]'}
 
 TEXT EXTRAS DIN ${gov ? 'NOTA DE FUNDAMENTARE / REFERATUL DE APROBARE' : 'EXPUNEREA DE MOTIVE'}:
 ${emSnippet || '[PDF scanat ca imagine sau indisponibil text]'}
-
+${baselineText ? `\n${baselineText}\n` : ''}
 REGULI DE RIGOARE:
 1. Nu exagera și nu inventa articole care nu există. Separă clar pretextul din Expunerea de Motive de efectul mecanic real al articolelor.
 2. Verifică: (a) Claritatea/previzibilitatea legii (Art. 1 alin. 5 / Art. 23 alin. 12 Constituție), (b) Impactul asupra concurenței și Directiva (UE) 2018/958 privind testul de proporționalitate, (c) Directiva (UE) 2015/1535 (TRIS) dacă reglementează servicii digitale/AI, (d) Impactul bugetar sau birocratic asupra cetățenilor/IMM-urilor.
@@ -254,7 +268,9 @@ async function analyzeBillWithCouncil(bill, force = false, { texts: given, versi
 
   const texts = given ?? (await extractPdfTextsForBill(bill));
   const version = bill.chamber ? (wanted ?? latestVersion(texts)) : undefined;
-  const prompt = buildCouncilPrompt(bill, texts, version);
+  const baseline = await councilBaseline(bill, texts, version, wanted);
+  if (baseline) console.log(`   📚 baza: ${baseline.meta.included ? `${baseline.meta.articlesShown} articole în vigoare din ${baseline.meta.actsFound} acte, ${baseline.meta.chars} caractere${baseline.meta.truncated ? ' (tăiată)' : ''}` : baseline.meta.reason}`);
+  const prompt = buildCouncilPrompt(bill, texts, version, baseline?.text);
   const { coverage } = councilInput(bill, texts, version);
   // PROMPT_DUMP_DIR=<dosar>: doar scrie promptul în <slug>.txt, pentru o comparație între modele; fără apeluri, fără analiză.
   if (process.env.PROMPT_DUMP_DIR) {
@@ -327,6 +343,8 @@ async function analyzeBillWithCouncil(bill, force = false, { texts: given, versi
     updatedAt: new Date().toISOString(),
     // Cât din text au primit modelele (tot textul normativ, de la whole-text-v1) și codul de la final.
     coverage,
+    // Textul în vigoare din prompt (COUNCIL_BASELINE=1): fișierul, forma, câte articole au încăput și amprenta secțiunii.
+    ...(baseline && { baseline: baseline.meta }),
     consensus: {
       riskScore: avgScore,
       riskLevel,

@@ -385,7 +385,8 @@ async function analyzeBillWithCouncil(bill, force = false, { texts: given, versi
   // Când doar s-au completat modelele lipsă ale aceleiași analize, istoria rămâne cum era: nu e un rezultat nou.
   const replaced = readJsonFile(outFile);
   const completed = Boolean(existing) && [agyRes, claudeRes, codexRes].some((r) => r === existing.council?.[r.model]);
-  const history = completed ? replaced?.history : nextHistory(replaced, analysis);
+  // La completare, scorul se poate mișca: ziua schimbării devine cea de acum, ca pagina să nu o lege de o zi mai veche.
+  const history = completed ? replaced?.history?.map((h, i) => (i === 0 ? { ...h, replacedAt: analysis.updatedAt } : h)) : nextHistory(replaced, analysis);
   if (history?.length) analysis.history = history;
 
   writeFileAtomic(outFile, JSON.stringify(analysis, null, 2));
@@ -918,11 +919,19 @@ async function senateVersionsForBill(bill, force = false, recompare = false) {
   fs.mkdirSync(dir, { recursive: true });
   const main = readJsonFile(path.join(ANALYSES_DIR, `${bill.slug}.json`));
   if (!main) return false;
+  // Analiza principală trebuie să fie a formei actualizate, citită întreagă: același cod de la finalul textului. Altfel
+  // (forma actualizată a apărut, dar analiza principală nu s-a refăcut încă) am publica scorul formei vechi ca al celei noi.
+  if (main.coverage?.marker !== councilInput(bill, texts, 'actualizata').marker) {
+    console.log(`⏭️  ${bill.id}: analiza principală nu e încă a formei actualizate; o comparăm după ce se reface`);
+    return false;
+  }
   const pdf = (type) => bill.pdfs.find((p) => p.type === type)?.url ?? bill.sheetUrl;
   // Când a aprobat Senatul forma actualizată (pasul din fișă), altfel ziua în care am citit-o.
-  const replacedOn = bill.timeline.find((t) => /forma actualizat/i.test(t.action))?.date.split('-').reverse().join('-') ?? null;
+  // Fișa Senatului scrie datele „16-11-2026”.
+  const iso = (d) => (/^\d{2}-\d{2}-\d{4}$/.test(d ?? '') ? d.split('-').reverse().join('-') : null);
+  const replacedOn = iso(bill.timeline.find((t) => /forma actualizat/i.test(t.action))?.date);
   const plan = [
-    { key: 'initiator', url: pdf('forma_initiatorului_initiala'), source: 'senat.ro', date: bill.timeline[0]?.date.split('-').reverse().join('-') ?? null },
+    { key: 'initiator', url: pdf('forma_initiatorului_initiala'), source: 'senat.ro', date: iso(bill.timeline[0]?.date) },
     { key: 'actualizata', url: pdf('forma_initiatorului'), source: 'senat.ro', date: replacedOn },
   ];
   const analyses = {};
@@ -1056,6 +1065,8 @@ async function mainVersions(args) {
     });
     for (const bill of due) {
       if (done >= max) break;
+      const release = claim(`senat-${bill.slug}`);
+      if (!release) continue;
       try {
         if (await senateVersionsForBill(bill, force)) done++;
       } catch (err) {
@@ -1065,6 +1076,8 @@ async function mainVersions(args) {
           return;
         }
         failed++;
+      } finally {
+        release();
       }
     }
   }

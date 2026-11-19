@@ -7,7 +7,7 @@ import { RISK } from '@/lib/risk';
 import { trackAttrs } from '@/lib/analytics';
 import { btnPrimary, btnSecondary } from '@/components/ui';
 import BalanceBlock from '@/components/bills/BalanceBlock';
-import { CardStrip, RiskChipFace, cardCls, cardLedeCls, cardTitleCls, riskChipCls } from '@/components/bills/card-parts';
+import { CardStrip, RiskChipFace, ScoreMovePill, cardCls, cardLedeCls, cardTitleCls, riskChipCls } from '@/components/bills/card-parts';
 import RiskInfo from '@/components/bills/RiskInfo';
 import { TextChange } from './CameraShowcase';
 import { longDate } from './CameraOverview';
@@ -51,7 +51,7 @@ export default function CameraCard({ p, today, year, withPage }: { p: CdepListIt
       <div className="flex flex-1 flex-col p-5 sm:p-6">
         <div className="flex items-center justify-between gap-3">
           {p.risk && href ? (
-            <span className="flex items-center gap-0.5">
+            <span className="flex flex-wrap items-center gap-0.5">
               <Link
                 href={`${href}#modele`}
                 aria-label={`${RISK[p.risk.level].label} ${fmt(p.risk.score)} din 10. De ce acest nivel de risc?`}
@@ -61,6 +61,7 @@ export default function CameraCard({ p, today, year, withPage }: { p: CdepListIt
                 <RiskChipFace level={p.risk.level} score={p.risk.score} />
               </Link>
               <RiskInfo />
+              {p.risk.move && <ScoreMovePill move={p.risk.move} now={p.risk.score} />}
             </span>
           ) : (
             <span className="inline-flex min-h-8 items-center rounded-full bg-sunken px-2.5 text-xs font-semibold text-muted">Fără analiză încă</span>

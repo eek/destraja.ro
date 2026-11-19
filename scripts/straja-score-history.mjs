@@ -53,7 +53,14 @@ for (const f of files) {
   const file = path.join(DIR, f);
   const slug = f.slice(0, -5);
   const now = parse(fs.readFileSync(file, 'utf8'));
-  if (!now?.consensus || now.coverage?.method !== WHOLE || now.history?.length) continue;
+  if (!now?.consensus || now.coverage?.method !== WHOLE) continue;
+  // coverage.form îl scrie straja-council.mjs de pe 19 noiembrie 2026; analizelor de dinainte li-l punem din texte.
+  const form = !now.coverage.form ? formAt(slug, now, null) : null;
+  if (form) now.coverage = { ...now.coverage, form };
+  if (now.history?.length) {
+    if (form && !DRY) writeFileAtomic(file, JSON.stringify(now, null, 2));
+    continue;
+  }
   const rel = `data/analyses/${f}`;
   let prev = null;
   let at = null;

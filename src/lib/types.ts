@@ -1,3 +1,4 @@
+import type { ScoreHistoryEntry } from './score-history';
 export type RiskLevel = 'red' | 'yellow' | 'green';
 
 export interface Initiator {
@@ -109,6 +110,12 @@ export interface BillAnalysis {
   // Analize refăcute după rapoarte de cititori confirmate de toate cele trei modele
   // (scripts/straja-reports.mjs). Nu conțin textul raportului.
   corrections?: AnalysisCorrection[];
+  /** Forma analizată, la Cameră (și la analizele pe forme de la Senat). */
+  version?: string;
+  /** Cât din text au primit modelele (de la whole-text-v1, 19 noiembrie 2026: tot textul normativ). */
+  coverage?: { method: string; form?: string; billChars?: number; ordinanceChars?: number; memoChars?: number; memoSupplied?: number; marker?: string | null };
+  /** Rezultatele de dinainte, când analiza a fost refăcută (cel mai nou primul; src/lib/score-history.ts). */
+  history?: ScoreHistoryEntry[];
 }
 
 export interface AnalysisCorrection {
@@ -335,7 +342,8 @@ export interface BillAmendments {
 
 /** O formă a textului unui proiect (a inițiatorului, adoptată de Senat, adoptată de Cameră), cu analiza ei. */
 export interface BillVersion {
-  key: 'initiator' | 'senat' | 'camera';
+  /** La Senat, „actualizata” e forma actualizată a inițiatorului, care o înlocuiește pe cea inițială („initiator”). */
+  key: 'initiator' | 'senat' | 'camera' | 'actualizata';
   label: string;
   url: string;
   source: string;
@@ -344,6 +352,11 @@ export interface BillVersion {
   plainTitle: string;
   summaryTlDr: string;
   scores: Record<ModelKey, number | null>;
+  /** Când a apărut forma (AAAA-LL-ZZ), dacă știm (formele de la Senat). */
+  date?: string | null;
+  /** Cum a fost citită: metoda (whole-text-v1 sau first-14k) și modelul Gemini; lipsesc la comparațiile mai vechi. */
+  method?: string;
+  agyModel?: string | null;
 }
 
 /**
@@ -400,6 +413,7 @@ export interface BillVersions {
 /** Ce ajunge în browser pe paginile de listă: fără PDF-uri, cronologie, opinii și kitul de acțiune. */
 export interface BillLite {
   id: string;
+  scoreMove?: import('./score-history').ListMove | null;
   slug: string;
   cod: string;
   officialTitle: string;

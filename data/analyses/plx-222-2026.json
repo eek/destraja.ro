@@ -2,129 +2,212 @@
   "billId": "Pl-x 222/2026",
   "slug": "plx-222-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T05:45:01.830Z",
+  "updatedAt": "2026-11-19T16:48:00.440Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 281598,
+    "ordinanceChars": 0,
+    "memoChars": 51667,
+    "memoSupplied": 51667,
+    "marker": "SF-B5F097B6"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-222-2026.json",
+    "form": "initiator",
+    "textHash": "b5f097b6922771d8",
+    "fetchedAt": "2026-11-19T10:35:20.201Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 5.7,
-    "riskLevel": "yellow",
-    "plainTitle": "O lege-umbrelă pentru reciclare, reparare și mai puține deșeuri",
-    "summaryTlDr": "Scopul este legitim și util. Partea de text disponibilă este însă mai ales declarativă și se suprapune cu reguli care există deja: OUG 92/2021, HG 1074/2021 privind SGR și regulamentele UE direct aplicabile. Riscul real vine din delegarea masivă către hotărâri de Guvern și din posibile reguli naționale paralele pentru produse.",
-    "initiatorClaim": "Inițiatorii spun că România reciclează sub 14% din deșeurile municipale și depozitează peste 75% din ele. De aceea ar avea nevoie de o lege-cadru unitară, care să dea forță obligatorie Strategiei Economiei Circulare și să prevină procedurile de infringement.",
-    "realityCheck": "Partea disponibilă (art. 1–4) conține doar scopul, principiile și definițiile, iar legea se aplică tuturor persoanelor fizice și juridice, din orice sector, fără praguri pentru IMM-uri. Obligațiile concrete sunt mutate în titluri ulterioare (textul trimite cel puțin la Titlul XV) și în norme metodologice aprobate prin HG, care devin obligatorii pentru toți. Chichițele vizibile sunt trei: o obligație de achiziții verzi strecurată într-o definiție, definiții SGR care dublează HG 1074/2021 și un pașaport digital al produsului care se suprapune cu Regulamentul (UE) 2024/1781 (ESPR).",
+    "riskScore": 8,
+    "riskLevel": "red",
+    "plainTitle": "Legea economiei circulare: obiective bune, dar abrogă legea deșeurilor și a ambalajelor fără să pună ceva în loc",
+    "summaryTlDr": "Intenția e legitimă și utilă, însă mecanica textului e periculoasă. Proiectul abrogă integral OUG 92/2021 și Legea 249/2015 fără să le preia conținutul, lasă Guvernul să stabilească taxe prin HG sau ordin și impune interdicții naționale de produse care se ciocnesc cu regulamentele UE deja aplicabile.",
+    "initiatorClaim": "Inițiatorii vor un cadru unitar care să transforme Strategia națională din 2022 în obligații juridice. Invocă reciclarea municipală sub 14%, depozitarea a peste 75% din deșeuri și riscul de infringement.",
+    "realityCheck": "Textul creează multe structuri: Comitet interministerial, o „Platformă” consultativă, o altă platformă digitală cu aproape același nume (PNEC, art. 91), SNTD, SNMAEC și un fond special. Peste ele pune zeci de raportări, interdicții de piață din 2030 și amenzi de până la 20.000 lei pentru persoane fizice. În paralel, art. 111 desființează la 90 de zile tocmai actele care transpun azi directivele UE privind deșeurile și ambalajele. Numeroase obligații de fond (taxe, procente minime, liste de produse, niveluri ale penalităților) sunt delegate Guvernului sau miniștrilor. Unele termene, cum ar fi 1 ianuarie 2026, sunt deja expirate.",
     "affectedGroups": [
+      "Toți cetățenii",
       "IMM & Antreprenori",
       "Agricultură & Mediu",
-      "Contabili & Fiscalitate",
-      "IT & AI"
+      "Contabili & Fiscalitate"
     ],
     "senatForm": {
-      "articleRef": "Art. 2 – alin. (7) nou",
-      "proposalContent": "Alin. (7) nou: „Legea se aplică fără a aduce atingere Regulamentelor (UE) 2024/1781 și 2025/40. Pașaportul digital al produsului, cerințele de proiectare ecologică și sistemul de garanție-returnare se reglementează doar în limitele acestora, iar orice regulă tehnică națională privind produsele se notifică în prealabil potrivit Directivei (UE) 2015/1535.”",
-      "argumentation": "ESPR (Reg. 2024/1781) și PPWR (Reg. 2025/40) sunt direct aplicabile și reglementează deja pașaportul digital, ecodesignul și garanția-returnare. O schemă națională paralelă ar dubla obligațiile firmelor, ar putea bloca produse legal vândute în alte state membre (art. 34 TFUE), iar regulile tehnice nenotificate prin TRIS nu pot fi aplicate (CJUE, C-194/94).",
-      "otherComments": "Art. 3 alin. (3) dă prioritate „principiului protecției mediului”, care nu figurează în lista de la alin. (1). Definiția „achiziții publice verzi” (art. 4) impune criterii de mediu obligatorii, deși Legea 98/2016 ca regulă le permite, nu le impune; propun „criterii de mediu și circularitate, în condițiile Legii nr. 98/2016”."
+      "articleRef": "Art. 111 alin. (1) lit. a) și b)",
+      "proposalContent": "Se elimină lit. a) și b). Alin. (1) devine: „(1) OUG nr. 92/2021 și Legea nr. 249/2015 rămân în vigoare; Guvernul le corelează cu prezenta lege în 12 luni. Abrogarea lor se poate face numai prin lege care preia expres regimul autorizării, OIREP, SGR și țintele transpuse din Directivele 2008/98/CE și 94/62/CE.”",
+      "argumentation": "Legea abrogă integral, la 90 de zile, actele care transpun directivele UE privind deșeurile și ambalajele, fără să le preia conținutul (autorizare, OIREP, depozitare, taxa de depozitare). Art. 46, 48, 49 trimit chiar la OUG 92/2021 abrogată. Rezultă vid legislativ, încălcarea art. 1 alin. (5) din Constituție și risc de infringement.",
+      "otherComments": "Mai trebuie revăzute: art. 85 (taxe stabilite prin HG/ordin, contrar art. 56 și 139 din Constituție), art. 4 alin. (4) (lege modificată prin HG), termenele deja expirate din art. 44 alin. (4) și 46 alin. (5), amenzile pentru gospodării și notificarea TRIS a cerințelor de produs (art. 33, 38–41, 45)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 57654,
-      "riskScore": 6,
-      "riskLevel": "yellow",
-      "plainTitle": "Legea-cadru a economiei circulare: noi raportări digitale, audit de circularitate și un posibil operator privat de trasabilitate",
-      "verdictShort": "Deși invocă modernizarea reciclării și alinierea la Pactul Verde European, proiectul suprapune un nou strat birocratic peste legislația deșeurilor deja existentă (OUG 92/2021). Legea introduce mecanisme de raportare, audituri de circularitate și o platformă națională de trasabilitate care ar putea fi dată în administrarea unei entități private.",
-      "initiatorClaim": "Inițiatorii susțin că România are nevoie de o lege-cadru unitară pentru a crește rata de reciclare (aflată sub 14%), a transpune Strategia Națională privind Economia Circulară din 2022 și a evita procedurile de infringement din partea Comisiei Europene.",
-      "realityCheck": "În realitate, proiectul dublează reglementări deja în vigoare (OUG 92/2021 privind deșeurile, Legea 249/2015 privind ambalajele, HG 1074/2021 privind SGR) și pregătește terenul pentru noi obligații birocratice aplicabile tuturor firmelor (art. 2), precum „auditul de circularitate”, „pașaportul digital al produsului” și raportări în platforme noi. Mai mult, la art. 4 pct. 14 se prevede desemnarea unei „entități publice sau private” ca operator al sistemului național de trasabilitate circulară, deschizând ușa unui potențial monopol privat pe raportările obligatorii ale companiilor.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 112480,
+      "sourceEndMarker": "SF-B5F097B6",
+      "riskScore": 8,
+      "riskLevel": "red",
+      "plainTitle": "Economia circulară prin taxe date din pix de Guvern și abrogarea bruscă a legii deșeurilor",
+      "verdictShort": "Sub pretextul alinierii la Pactul Verde European, proiectul deleagă neconstituțional stabilirea de taxe verzi și penalități zilnice neplafonate către Guvern și abrogă brusc întreaga legislație a deșeurilor și ambalajelor, creând un vid juridic major. Textul conține contradicții grave de tehnică legislativă și interdicții naționale de piață incompatibile cu dreptul UE.",
+      "initiatorClaim": "Inițiatorii susțin că instituie un cadru unitar pentru economia circulară, menit să crească reciclarea deșeurilor municipale de sub 14% spre țintele UE de 65%, să digitalizeze trasabilitatea fluxurilor de materiale și să prevină procedurile de infringement.",
+      "realityCheck": "În realitate, art. 111 alin. (1) abrogă integral OUG nr. 92/2021 și Legea nr. 249/2015 la 90 de zile de la publicare — înainte ca normele de aplicare (6–12 luni) să existe — dezincriminând infracțiunile de mediu din OUG 92/2021 și lăsând România fără transpunerea completă a directivelor UE. Totodată, art. 85 și 86 permit Guvernului și miniștrilor să instituie „taxe verzi” și penalități zilnice fără plafon legal, iar art. 33–45 impun interdicții naționale de comercializare, blocaje la autorizațiile de construire și obligații cumulative nerealiste pentru fermieri, IMM-uri și gospodării.",
       "affectedGroups": [
+        "Toți cetățenii",
         "IMM & Antreprenori",
         "Agricultură & Mediu",
         "Contabili & Fiscalitate",
-        "IT & AI",
-        "Toți cetățenii"
+        "Proprietari & Imobiliare",
+        "Sănătate & Educație",
+        "Șoferi & Auto"
       ],
       "keyFindings": [
-        "Domeniu de aplicare atotcuprinzător fără praguri de scutire pentru IMM-uri (Art. 2 alin. 1): legea se aplică tuturor persoanelor fizice și juridice care produc, introduc pe piață, distribuie sau utilizează produse, materiale și resurse, indiferent de sectorul economic.",
-        "Risc de monopol privat pe infrastructura de raportare (Art. 4 alin. 1 pct. 14): „operatorul sistemului național de trasabilitate circulară” poate fi o „entitate publică sau privată” desemnată să administreze platforma digitală națională de monitorizare a fluxurilor de produse și resurse.",
-        "Sarcini birocratice și costuri noi de conformare (Art. 4 alin. 1): se introduc conceptele de „audit de circularitate” (evaluare independentă a fluxurilor de materiale și energie dintr-o organizație sau lanț de aprovizionare), „mecanisme de raportare” pe platforme standardizate și „Comitetul Interministerial pentru Coordonarea Economiei Circulare”.",
-        "Delegare largă prin legislație secundară (Art. 3 alin. 5 și Art. 4 pct. 7-8): indicatorii minimi de performanță, indicele de circularitate și normele metodologice obligatorii pentru toate entitățile sunt lăsate spre stabilire ulterioară prin hotărâri ale Guvernului.",
-        "Deficiențe de tehnică legislativă și paralelism normativ: chiar la Art. 4 alin. (1) primele două definiții sunt nenumerotate, numerotarea începând de la a treia definiție, iar definițiile pentru biodeșeuri, materii prime secundare și operatorul SGR dublează OUG nr. 92/2021 și HG nr. 1074/2021."
+        "Abrogare-capcană și vid legislativ (art. 111 alin. 1 vs. art. 113): abrogă integral OUG nr. 92/2021 (inclusiv infracțiunile privind arderea/îngroparea deșeurilor) și Legea nr. 249/2015 la 90 de zile, deși proiectul însuși face trimitere la OUG 92/2021 ca lege activă (art. 46–49) și recunoaște în art. 114 alin. (1) că transpune doar parțial directivele UE.",
+        "Taxe prin hotărâre de Guvern sau ordin de ministru (art. 85): permite instituirea de „taxe verzi”, baza de impunere, categoriile de contribuabili și scutirile prin HG sau ordin comun MMAP–MF, încălcând frontal monopolul legii în materie fiscală.",
+        "Penalități financiare zilnice neplafonate, paralele cu amenzile (art. 86): lasă la latitudinea HG stabilirea nivelului minim/maxim, a formulei de calcul și a autorităților aplicatoare pentru penalități zilnice separate de amenzile contravenționale (de până la 200.000 lei la art. 100), creând risc de dublă sancționare.",
+        "Blocarea autorizațiilor de construire și obligații cumulative imposibile (art. 39, 42, 44): art. 42 alin. (2) condiționează eliberarea autorizațiilor de construire/desființare de „design for disassembly” și cote de materiale reciclate; art. 39 alin. (2) lit. a) cere ca toate ambalajele să fie cumulativ reutilizabile ȘI reciclabile ≥90%; art. 44 alin. (2) obligă toți fermierii și comercianții agroalimentari, cumulativ, la agricultură regenerativă, redistribuire și valorificare în biomasă/biocombustibili.",
+        "Biocrație duplicată și fond extrabugetar nou (art. 5, 26, 50, 87, 91, 94): creează un nou Fond Național pentru Economia Circulară în afara bugetului de stat (dublând Fondul pentru Mediu) și patru sisteme/platforme digitale suprapuse, cu costuri recurente estimate în expunerea de motive la zeci și sute de milioane de euro fără fișă financiară.",
+        "Deficiențe grave de redactare care fac legea inaplicabilă: lipsește complet Titlul X, art. 10 conține trimiteri necompletate („art. ...”), art. 114 alin. (3) lit. b) pct. (iv) păstrează o notă internă de lucru („dacă a fost integrat în prezenta lege”), art. 34 alin. (4) sancționează contravențional chiar alineatul privind obligația ministerului de a da norme, iar art. 44 alin. (4) și 46 alin. (5) impun termene retroactive (1 ianuarie 2026)."
       ],
-      "blindSpotsCaught": "Proiectul reglementează la nivel național „pașaportul digital al produsului” (Art. 4 pct. 17) și impune reguli asupra produselor importate/exportate pe piața internă a UE (Art. 2 alin. 4), ignorând faptul că la nivel european a intrat deja în vigoare Regulamentul (UE) 2024/1781 privind proiectarea ecologică pentru produse sustenabile (ESPR), care este direct aplicabil și interzice statelor membre să creeze pașapoarte digitale naționale paralele ce fragmentează piața unică.",
-      "constitutionalityNote": "Sub aspectul art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), proiectul încalcă art. 16 din Legea nr. 24/2000 privind evitarea paralelismelor legislative, suprapunându-se peste OUG nr. 92/2021, Legea nr. 249/2015 și HG nr. 1074/2021. De asemenea, trimiterea din Art. 3 alin. (5) la norme metodologice emise prin HG care „devin obligatorii pentru toate entitățile” riscă să delege Guvernului stabilirea unor obligații primare nedefinite clar în lege.",
-      "euLawNote": "1. Piața Unică și Regulamentul (UE) 2024/1781 (ESPR): Reglementarea prin lege națională a „pașaportului digital al produsului” (Art. 4 pct. 17) și aplicarea cerințelor asupra schimburilor intracomunitare (Art. 2 alin. 4) riscă să încalce aplicabilitatea directă a Regulamentului (UE) 2024/1781 și art. 34 TFUE. 2. Directiva (UE) 2015/1535 (TRIS): Orice reglementare tehnică națională privind produsele și trasabilitatea digitală obligatorie necesită notificare prealabilă la Comisia Europeană, sub sancțiunea inopozabilității. 3. Directiva (UE) 2018/958: Dacă „auditul de circularitate” va fi condiționat de atestări profesionale noi, este obligatoriu testul de proporționalitate.",
+      "blindSpotsCaught": "Proiectul conține mai multe capcane ascunse: (1) abrogă OUG nr. 92/2021 în art. 111 alin. (1) în timp ce în art. 46–49 o invocă drept cadru obligatoriu, eliminând implicit infracțiunile de mediu din OUG 92/2021; (2) art. 61 alin. (1) modifică guvernanța SGR transformând operatorul într-o asociație non-profit în care autoritățile centrale de mediu au drept de veto; (3) art. 102 alin. (5) trimite plângerile contravenționale pe OG 2/2001 spre judecare după Legea contenciosului administrativ nr. 554/2004, creând blocaj procedural; (4) citează eronat acte UE (art. 39 atribuie Regulamentului 2024/1781 obiectul ambalajelor, deși este Regulamentul Ecodesign, iar art. 38 bazează pașaportul digital general pe Regulamentul 2019/2021 dedicat ecranelor electronice); (5) omite notificarea TRIS (Directiva 2015/1535) pentru regulile tehnice și de comerț electronic din art. 33–45.",
+      "constitutionalityNote": "Proiectul prezintă vicii severe de neconstituționalitate: (1) Art. 139 alin. (1) și art. 56 — art. 85 deleagă stabilirea taxelor verzi, a bazei de impunere, a contribuabililor și a scutirilor către HG sau ordin comun de ministru, deși taxele pot fi stabilite exclusiv prin lege; (2) Art. 1 alin. (5) (calitatea și previzibilitatea legii) și legalitatea sancțiunilor — art. 86 instituie penalități zilnice fără plafoane în lege, art. 75 alin. (6) și 79 alin. (5) fac trimiteri neclare la „contravenție ori infracțiune” fără incriminare, numeroase fapte declarate contravenții în art. 33–45 nu se regăsesc în art. 99, iar textul conține goluri („art. ...”), un titlu lipsă (Titlul X), termene retroactive (1 ian. 2026) și contradicții interne flagrante (art. 111 vs. art. 46–49, art. 102 alin. 5); (3) Art. 138 alin. (5) — impune cheltuieli bugetare masive (programele din art. 105–107, platforme IT, granturi de minimum 50 mil. euro/an) fără indicarea sursei concrete de finanțare.",
+      "euLawNote": "Proiectul intră în conflict direct cu dreptul UE pe patru paliere: (1) Directiva (UE) 2015/1535 (TRIS) — impunerea prin lege și HG naționale de cerințe tehnice obligatorii, eco-etichetare, pașaport digital la 18 luni, interdicții de introducere pe piață (art. 33, 37–41) și obligații specifice pentru comerțul electronic/servicii ale societății informaționale (art. 45) necesită notificare prealabilă la Comisia Europeană, altfel normele devin inopozabile; (2) Piața unică (art. 34 TFUE) și aplicabilitatea directă a regulamentelor UE (art. 288 TFUE) — interdicțiile naționale și cotele de conținut reciclat stabilite prin HG se suprapun și contravin armonizării europene din ESPR (Reg. 2024/1781) și legislația UE a ambalajelor; (3) Risc imediat de infringement (art. 258 TFUE) prin abrogarea integrală a OUG nr. 92/2021 și a Legii nr. 249/2015 în condițiile unei transpuneri doar parțiale; (4) Ajutor de stat (art. 107–108 TFUE) — schemele fiscale și granturile (art. 35, 78, 85, 89, 107) necesită notificare/autorizare. Directiva (UE) 2018/958 privind profesiile reglementate nu este declanșată direct, dar cerințele de autorizare/acreditare (art. 36, 54, 72) trebuie supuse testului de proporționalitate.",
       "senatForm": {
-        "articleRef": "Art. 2 alin. (1) și Art. 4 alin. (1) pct. 14",
-        "proposalContent": "La art. 2, după alin. (1) se introduce alin. (1^1): „Microîntreprinderile și IMM-urile sunt exceptate de la obligațiile de raportare și audit de circularitate.” La art. 4 alin. (1) pct. 14, sintagma „entitate publică sau privată” se înlocuiește cu „autoritate publică centrală, prin infrastructura digitală existentă a AFM/ANPM, fără tarife suplimentare”.",
-        "argumentation": "Aplicarea nediferențiată a raportărilor și auditului de circularitate tuturor firmelor (art. 2) sufocă IMM-urile cu birocrație dublă față de OUG 92/2021. Totodată, desemnarea unei „entități private” ca operator unic al sistemului național de trasabilitate (art. 4 pct. 14) creează risc de monopol privat pe o bază de date obligatorie prin lege.",
-        "otherComments": "Proiectul creează paralelism legislativ (contrar art. 16 din Legea 24/2000) cu OUG 92/2021, Legea 249/2015 și Regulamentul (UE) 2024/1781 privind proiectarea ecologică și pașaportul digital al produsului. Se impune corelarea strictă cu normele UE direct aplicabile și eliminarea suprapunerilor cu raportările deja existente la AFM și ANPM."
-      }
+        "articleRef": "Art. 85, Art. 86 și Art. 111 alin. (1)",
+        "proposalContent": "Eliminarea delegării stabilirii taxelor verzi (art. 85) și a penalităților zilnice neplafonate (art. 86) prin HG/ordin, precum și eliminarea abrogării imediate a OUG nr. 92/2021 și Legii nr. 249/2015 din art. 111 alin. (1) până la adoptarea normelor și preluarea infracțiunilor de mediu.",
+        "argumentation": "Art. 85 încalcă art. 139 alin. (1) din Constituție (taxele se stabilesc doar prin lege). Art. 86 lasă penalitățile zilnice fără plafon legal la latitudinea Guvernului (încălcând art. 1 alin. (5)). Abrogarea OUG 92/2021 la 90 de zile creează vid legislativ și dezincriminează infracțiunile de mediu înaintea adoptării normelor.",
+        "otherComments": "Proiectul necesită rescriere și notificare la Comisia Europeană conform Directivei (UE) 2015/1535 (TRIS) pentru interdicțiile de piață și comerțul electronic (art. 33-45). Corectați erorile grave de redactare: lipsa Titlului X, trimiterile «art. ...» (art. 10), termenele expirate (1 ian. 2026) și cele 4 platforme digitale suprapuse."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 135413,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "O lege-umbrelă pentru reciclare, reparare și mai puține deșeuri",
-      "verdictShort": "Scopul este legitim și util. Partea de text disponibilă este însă mai ales declarativă și se suprapune cu reguli care există deja: OUG 92/2021, HG 1074/2021 privind SGR și regulamentele UE direct aplicabile. Riscul real vine din delegarea masivă către hotărâri de Guvern și din posibile reguli naționale paralele pentru produse.",
-      "initiatorClaim": "Inițiatorii spun că România reciclează sub 14% din deșeurile municipale și depozitează peste 75% din ele. De aceea ar avea nevoie de o lege-cadru unitară, care să dea forță obligatorie Strategiei Economiei Circulare și să prevină procedurile de infringement.",
-      "realityCheck": "Partea disponibilă (art. 1–4) conține doar scopul, principiile și definițiile, iar legea se aplică tuturor persoanelor fizice și juridice, din orice sector, fără praguri pentru IMM-uri. Obligațiile concrete sunt mutate în titluri ulterioare (textul trimite cel puțin la Titlul XV) și în norme metodologice aprobate prin HG, care devin obligatorii pentru toți. Chichițele vizibile sunt trei: o obligație de achiziții verzi strecurată într-o definiție, definiții SGR care dublează HG 1074/2021 și un pașaport digital al produsului care se suprapune cu Regulamentul (UE) 2024/1781 (ESPR).",
+      "durationMs": 83817,
+      "sourceEndMarker": "SF-B5F097B6",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Legea economiei circulare: obiective bune, dar abrogă legea deșeurilor și a ambalajelor fără să pună ceva în loc",
+      "verdictShort": "Intenția e legitimă și utilă, însă mecanica textului e periculoasă. Proiectul abrogă integral OUG 92/2021 și Legea 249/2015 fără să le preia conținutul, lasă Guvernul să stabilească taxe prin HG sau ordin și impune interdicții naționale de produse care se ciocnesc cu regulamentele UE deja aplicabile.",
+      "initiatorClaim": "Inițiatorii vor un cadru unitar care să transforme Strategia națională din 2022 în obligații juridice. Invocă reciclarea municipală sub 14%, depozitarea a peste 75% din deșeuri și riscul de infringement.",
+      "realityCheck": "Textul creează multe structuri: Comitet interministerial, o „Platformă” consultativă, o altă platformă digitală cu aproape același nume (PNEC, art. 91), SNTD, SNMAEC și un fond special. Peste ele pune zeci de raportări, interdicții de piață din 2030 și amenzi de până la 20.000 lei pentru persoane fizice. În paralel, art. 111 desființează la 90 de zile tocmai actele care transpun azi directivele UE privind deșeurile și ambalajele. Numeroase obligații de fond (taxe, procente minime, liste de produse, niveluri ale penalităților) sunt delegate Guvernului sau miniștrilor. Unele termene, cum ar fi 1 ianuarie 2026, sunt deja expirate.",
       "affectedGroups": [
         "IMM & Antreprenori",
-        "Agricultură & Mediu"
+        "Agricultură & Mediu",
+        "Toți cetățenii",
+        "Proprietari & Imobiliare",
+        "Contabili & Fiscalitate",
+        "Șoferi & Auto",
+        "Justiție & Drepturi Civile",
+        "IT & AI"
       ],
       "keyFindings": [
-        "Art. 2 alin. (1) se aplică tuturor persoanelor fizice și juridice care produc, distribuie, folosesc sau colectează produse, «indiferent de sector». Nu există nicio excepție sau prag pentru microîntreprinderi, iar sarcina reală depinde de titlurile ulterioare.",
-        "Art. 3 alin. (5): normele metodologice adoptate prin HG, la propunerea MMAP, «devin obligatorii pentru toate autoritățile, instituțiile și entitățile». Legea dă cadrul, dar conținutul operativ al obligațiilor îl va decide Guvernul.",
-        "Art. 3 alin. (3) dă prioritate, în caz de conflict, «principiului protecției mediului», deși acest principiu nu apare în lista de la alin. (1). Este o eroare de trimitere care slăbește previzibilitatea normei.",
-        "Art. 4 definește «achizițiile publice verzi» ca proceduri cu «criterii obligatorii de mediu și circularitate». Este o obligație normativă ascunsă într-o definiție, necorelată cu Legea nr. 98/2016, care poate scumpi licitațiile și poate îndepărta IMM-urile.",
-        "Art. 4 pct. 7 și 16 definesc «indicatorul minim de performanță» și «operatorul SGR» exclusiv prin raportare la sistemul garanție-returnare. Astfel dublează HG 1074/2021, iar definițiile trebuie aliniate la cerințele minime ale Regulamentului (UE) 2025/40 (PPWR).",
-        "Art. 4 pct. 2, 14 și 17 introduc un Comitet Interministerial, un operator al sistemului național de trasabilitate (o entitate «publică sau privată desemnată», fără procedură competitivă vizibilă) și un pașaport digital al produsului. Toate generează costuri bugetare, fără o fișă financiară vizibilă."
+        "Art. 111 alin. (1) lit. a)–b) abrogă integral OUG 92/2021 (regimul deșeurilor) și Legea 249/2015 (ambalaje). Proiectul nu preia regimul autorizării, licențierea OIREP, regulile de depozitare și nici țintele transpuse. Art. 46, 48 și 49 trimit chiar la OUG 92/2021 pe care o abrogă, iar HG 1074/2021 (SGR) își pierde baza legală. Rezultatul ar fi vid legislativ și, paradoxal, risc de infringement.",
+        "Art. 85 alin. (2) permite ca baza de impunere, contribuabilii și cuantumul „taxelor verzi” să fie stabilite prin HG sau ordin comun de ministru. Art. 56 și 139 alin. (1) din Constituție cer ca impozitele și taxele să fie stabilite prin lege. Separat, art. 86 introduce penalități pe zi, distincte de amenzi, ale căror niveluri minim și maxim sunt lăsate integral normelor metodologice.",
+        "Art. 39 alin. (2) lit. a) cere cumulativ ca toate ambalajele să fie reutilizabile ȘI reciclabile în proporție de 90%. Art. 33 alin. (6), 40 alin. (7) și 41 alin. (7) interzic introducerea pe piață a unor produse pe criterii naționale. Aceste reguli intră în coliziune cu regulamentele UE direct aplicabile (ESPR 2024/1781, PPWR 2025/40). Art. 39 citează greșit Reg. 2024/1781 ca regulament „privind ambalajele”, iar art. 38 citează Reg. 2019/2021 (ecodesign pentru afișaje) ca bază pentru pașaportul digital.",
+        "Sancțiunile sunt disproporționate și imprecise. Art. 64 face contravenție din nesepararea biodeșeurilor în gospodărie. Prin art. 99 lit. b) și art. 100 pct. B, persoanele fizice riscă 2.000–10.000 lei, plus „suspendarea activității” și confiscare. Faptele de la art. 99 lit. j) și s) („neîndeplinirea obligațiilor de informare a publicului”, „obligații de finanțare”) sunt vagi. Multe articole declară o faptă contravenție „potrivit Titlului XIV”, dar fapta nu apare în lista din art. 99 (de ex. art. 31 alin. (6), pentru o platformă fără personalitate juridică).",
+        "Termenele sunt imposibile sau deja trecute. Art. 44 alin. (4) și art. 46 alin. (5) curg de la 1 ianuarie 2026, deși legea intră în vigoare abia la 90 de zile de la publicare. Art. 47 alin. (3) obligă fiecare UAT să atingă 60% reciclare în 2027, față de un nivel național de circa 14%. Art. 44 alin. (2) impune tuturor fermierilor, cumulativ, practici regenerative, rotația culturilor și fertilizanți organici.",
+        "Art. 102 alin. (5)–(6) trimite contestarea amenzilor la Legea contenciosului administrativ 554/2004 și declară că măsurile complementare nu se suspendă la contestare. Ambele soluții contrazic OG 2/2001, care dă competența judecătoriei și efect suspensiv plângerii.",
+        "Art. 42 alin. (2) condiționează emiterea oricărei autorizații de construire sau desființare de un procent minim de materiale reciclate stabilit prin HG și de „design for disassembly”. Este o barieră birocratică nouă pentru orice proprietar sau dezvoltator."
       ],
-      "blindSpotsCaught": "Expunerea de motive invocă riscul de infringement pentru Directivele 2018/851 și 2018/850, deși recunoaște că OUG 92/2021 le transpune deja. Regulamentele 2020/852 și 2023/1542 sunt direct aplicabile și nu au nevoie de transpunere. În schimb, expunerea omite cele două acte UE care chiar contează: Regulamentul (UE) 2024/1781 (ESPR), care reglementează pașaportul digital al produsului, și Regulamentul (UE) 2025/40 (PPWR), aplicabil din 12 august 2026, care stabilește cerințele pentru garanție-returnare. Textul are și erori materiale («collaborative», «territoriul», «innovative», «extractția»), iar primele două definiții nu sunt numerotate. Analiza acoperă doar art. 1–4 din extras, care este trunchiat.",
-      "constitutionalityNote": "Scopul are temei solid în art. 35 (dreptul la mediu sănătos) și art. 135 alin. (2) lit. e) din Constituție. Problemele țin de art. 1 alin. (5): trimiterea greșită din art. 3 alin. (3), obligațiile introduse prin definiții și delegarea largă către HG reduc claritatea și previzibilitatea. Potrivit jurisprudenței CCR, normele de aplicare nu pot adăuga obligații primare la lege. Legea creează structuri și platforme cu costuri bugetare. Dacă lipsește informarea Guvernului (art. 111 alin. (1)) sau sursa de finanțare (art. 138 alin. (5) și art. 15 din Legea nr. 500/2002), legea este expusă unei declarări de neconstituționalitate. Eventualele restricții asupra libertății economice (art. 45) trebuie să fie proporționale (art. 53). Sancțiunile nu apar în extras.",
-      "euLawNote": "Pașaportul digital al produsului și cerințele de ecoproiectare sunt reglementate direct de ESPR (Regulamentul 2024/1781). ESPR interzice statelor membre să restricționeze introducerea pe piață a produselor conforme, deci o schemă națională paralelă ar fi riscantă. Sistemul garanție-returnare trebuie să respecte PPWR (Regulamentul 2025/40). Cerințele tehnice naționale privind produsele trebuie notificate prealabil prin TRIS (Directiva 2015/1535); altfel sunt inaplicabile față de particulari (CJUE, C-194/94 CIA Security). Ele trebuie să respecte și art. 34–36 TFUE și recunoașterea reciprocă (Regulamentul 2019/515). Directiva 2018/958 nu pare declanșată de textul vizibil, dar devine aplicabilă dacă titlurile ulterioare impun auditori de circularitate atestați. Desemnarea operatorului de trasabilitate fără procedură transparentă poate ridica probleme de achiziții publice și de ajutor de stat.",
+      "blindSpotsCaught": "Art. 4 alin. (4) permite modificarea definițiilor legii prin hotărâre de Guvern, deci un act inferior ar modifica legea. Art. 21 dă Comitetului rol de „adoptare a deciziilor”, iar art. 25 alin. (5) îi neagă orice competență obligatorie. Registrul VSU (art. 43 alin. (6)) e dat în administrarea unei platforme consultative fără personalitate juridică, confundată cu PNEC de la art. 91. Numerotarea e defectuoasă: lipsește Titlul X, art. 3 alin. (5) trimite la „Titlul XV” pentru dispozițiile finale, art. 99 lit. l) și n) trimit la autorizații din „Titlul IX” (care e despre biodeșeuri), iar art. 10 conține trimiteri goale („art. ...”). Art. 61 impune ca operatorul SGR să fie asociație fără scop patrimonial, cu ministerul membru cu drept de veto, ceea ce afectează structura operatorului existent fără dispoziție tranzitorie. Art. 87 constituie fondul „în afara bugetului de stat”, contrar unității bugetare din Legea 500/2002. Fișa Camerei indică inițiatori PSD/UPR, însă tabelul anexat expunerii îi prezintă drept parlamentari POT.",
+      "constitutionalityNote": "Art. 1 alin. (5) (claritate și previzibilitate) este afectat de: abrogarea fără înlocuire de la art. 111, trimiterile la acte abrogate, contradicțiile interne (art. 21 vs. art. 25, art. 111 alin. (3) vs. alin. (5)), termenele expirate și contravențiile fără corespondent în art. 99. Art. 56 și 139 alin. (1) sunt încălcate de delegarea stabilirii taxelor prin HG sau ordin (art. 85). Art. 108 și ierarhia actelor normative sunt încălcate prin modificarea definițiilor legii prin HG (art. 4 alin. (4)). Art. 138 alin. (5): proiectul creează cheltuieli noi (fond, programe, platforme, programe finanțate din bugetul asigurărilor pentru șomaj) cu estimări din expunere, dar fără fișa financiară și punctul de vedere al Guvernului cerute de art. 15 din Legea 500/2002. Art. 21 (acces liber la justiție) poate fi afectat de deturnarea procedurii OG 2/2001 prin art. 102. CCR a sancționat repetat astfel de vicii.",
+      "euLawNote": "TRIS (Directiva 2015/1535): cerințele naționale de produs sunt reglementări tehnice și trebuie notificate Comisiei înainte de adoptare. E vorba de criterii de ecodesign, eticheta ecologică, pașaportul digital național, procentele de material reciclat, interdicțiile din 2030 pentru textile, EEE și ambalaje, precum și obligațiile de informare impuse platformelor online (art. 45 alin. (3)). Fără notificare, regulile sunt inopozabile particularilor (jurisprudența CIA Security). Armonizare UE: ESPR (Reg. 2024/1781) și PPWR (Reg. 2025/40) sunt regulamente direct aplicabile care stabilesc deja la nivel UE pașaportul digital, clasele de reciclabilitate și interdicția de distrugere a bunurilor nevândute. Cerințe naționale paralele sau mai stricte riscă să încalce art. 34 TFUE și principiul preeminenței. Abrogarea OUG 92/2021 și a Legii 249/2015 fără transpunere echivalentă ar însemna netranspunerea Directivelor 2008/98/CE, 94/62/CE și 1999/31/CE, adică exact infringementul invocat ca motiv. Directiva 2018/958 are relevanță redusă: proiectul nu reglementează direct profesii, iar certificarea prin organisme acreditate și auditul de către auditori financiari folosesc categorii existente.",
       "senatForm": {
-        "articleRef": "Art. 2 – alin. (7) nou",
-        "proposalContent": "Alin. (7) nou: „Legea se aplică fără a aduce atingere Regulamentelor (UE) 2024/1781 și 2025/40. Pașaportul digital al produsului, cerințele de proiectare ecologică și sistemul de garanție-returnare se reglementează doar în limitele acestora, iar orice regulă tehnică națională privind produsele se notifică în prealabil potrivit Directivei (UE) 2015/1535.”",
-        "argumentation": "ESPR (Reg. 2024/1781) și PPWR (Reg. 2025/40) sunt direct aplicabile și reglementează deja pașaportul digital, ecodesignul și garanția-returnare. O schemă națională paralelă ar dubla obligațiile firmelor, ar putea bloca produse legal vândute în alte state membre (art. 34 TFUE), iar regulile tehnice nenotificate prin TRIS nu pot fi aplicate (CJUE, C-194/94).",
-        "otherComments": "Art. 3 alin. (3) dă prioritate „principiului protecției mediului”, care nu figurează în lista de la alin. (1). Definiția „achiziții publice verzi” (art. 4) impune criterii de mediu obligatorii, deși Legea 98/2016 ca regulă le permite, nu le impune; propun „criterii de mediu și circularitate, în condițiile Legii nr. 98/2016”."
-      }
+        "articleRef": "Art. 111 alin. (1) lit. a) și b)",
+        "proposalContent": "Se elimină lit. a) și b). Alin. (1) devine: „(1) OUG nr. 92/2021 și Legea nr. 249/2015 rămân în vigoare; Guvernul le corelează cu prezenta lege în 12 luni. Abrogarea lor se poate face numai prin lege care preia expres regimul autorizării, OIREP, SGR și țintele transpuse din Directivele 2008/98/CE și 94/62/CE.”",
+        "argumentation": "Legea abrogă integral, la 90 de zile, actele care transpun directivele UE privind deșeurile și ambalajele, fără să le preia conținutul (autorizare, OIREP, depozitare, taxa de depozitare). Art. 46, 48, 49 trimit chiar la OUG 92/2021 abrogată. Rezultă vid legislativ, încălcarea art. 1 alin. (5) din Constituție și risc de infringement.",
+        "otherComments": "Mai trebuie revăzute: art. 85 (taxe stabilite prin HG/ordin, contrar art. 56 și 139 din Constituție), art. 4 alin. (4) (lege modificată prin HG), termenele deja expirate din art. 44 alin. (4) și 46 alin. (5), amenzile pentru gospodării și notificarea TRIS a cerințelor de produs (art. 33, 38–41, 45)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 133388,
-      "riskScore": 7,
+      "durationMs": 122042,
+      "sourceEndMarker": "SF-B5F097B6",
+      "riskScore": 9,
       "riskLevel": "red",
-      "plainTitle": "Reguli noi pentru reciclare, cu amenzi și înlocuirea legislației deșeurilor",
-      "verdictShort": "Reducerea risipei și încurajarea reparării sunt obiective utile. Forma integrală verificată prezintă însă riscuri serioase de incoerență legislativă, costuri de conformare și sancționare disproporționată.",
-      "initiatorClaim": "Inițiatorii promit să reducă depozitarea deșeurilor, să păstreze resursele în economie și să prevină încălcarea obligațiilor europene, prin coordonare instituțională, investiții și trasabilitate digitală.",
-      "realityCheck": "Evaluarea include forma integrală oficială, deoarece fragmentul furnizat se oprește la definiții. Art. 111 abrogă integral OUG nr. 92/2021 și Legea nr. 249/2015, deși normele și conformarea sunt etapizate ulterior: apare riscul pierderii unor reguli existente înaintea înlocuirii lor complete. [Forma inițiatorului](https://www.senat.ro/Legis/PDF/2026/26L065FG.pdf?nocache=true)",
+      "plainTitle": "Economie circulară cu taxe delegate Guvernului și goluri în legislația deșeurilor",
+      "verdictShort": "Obiectivele de mediu sunt utile, dar forma propusă are riscuri juridice majore: abrogă imediat legislația de bază a deșeurilor și ambalajelor, înaintea construirii unui înlocuitor complet. În plus, permite stabilirea elementelor esențiale ale taxelor prin hotărâri de Guvern sau ordine ministeriale.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea risipei, creșterea reciclării și reunirea politicilor de economie circulară într-un cadru obligatoriu. Ei promit trasabilitate digitală, investiții, locuri de muncă și reducerea riscului de infringement.",
+      "realityCheck": "Proiectul instituie obligații extinse de proiectare, certificare, colectare, finanțare și raportare, împreună cu platforme, registre, programe și sancțiuni. Art. 111 abrogă integral două acte fundamentale, deși noua lege declară numai o transpunere parțială, iar funcționarea mecanismelor sale depinde de acte ulterioare. Expunerea de motive descrie beneficii anticipate și mecanisme care nu sunt toate consacrate în articole; acestea nu pot completa juridic lacunele textului.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "IT & AI",
         "Contabili & Fiscalitate",
-        "Agricultură & Mediu",
+        "Angajați & HR",
+        "Șoferi & Auto",
+        "Proprietari & Imobiliare",
         "Justiție & Drepturi Civile",
+        "Sănătate & Educație",
+        "Agricultură & Mediu",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 99–100: raportările incomplete pot atrage amenzi de 10.000–50.000 lei pentru persoane juridice; sunt prevăzute și confiscarea ori suspendarea activității. Individualizarea există, dar proporționalitatea necesită verificare. [Text oficial](https://www.senat.ro/Legis/PDF/2026/26L065FG.pdf?nocache=true)",
-        "Art. 113 alin. (3): sancțiunile se aplică după intrarea în vigoare a normelor aferente domeniului, nu automat odată cu legea. [Text oficial](https://www.senat.ro/Legis/PDF/2026/26L065FG.pdf?nocache=true)",
-        "Art. 55–58: raportarea digitală, rapoartele anuale și auditul schemelor REP implică sarcini administrative; suprapunerea raportărilor trebuie eliminată. [Text oficial](https://www.senat.ro/Legis/PDF/2026/26L065FG.pdf?nocache=true)",
-        "Consiliul Fiscal a constatat neîndeplinirea cerințelor de fundamentare financiară pentru această inițiativă și a solicitat documentele necesare. Costurile platformelor, controalelor și programelor de sprijin nu pot fi tratate ca neutre bugetar. [Opinia Consiliului Fiscal](https://www.senat.ro/Legis/PDF/2026/26L065CF.pdf?nocache=true)",
-        "Cerințele naționale suplimentare pentru proiectarea și etichetarea produselor pot crește costurile IMM-urilor și îngreuna accesul pe piață; CES semnalează explicit aceste riscuri. [Avizul CES](https://www.senat.ro/legis/PDF/2026/26L065ES.PDF?nocache=true)",
-        "Finanțările selective trebuie încadrate în regulile ajutorului de stat; Consiliul Concurenței avertizează asupra recuperării ajutoarelor ilegale, cu dobândă. [Avizul Consiliului Concurenței](https://www.senat.ro/legis/PDF/2026/26L065CC.PDF?nocache=true)"
+        "Art. 111 alin. (1), coroborat cu art. 109–110 și art. 113: OUG nr. 92/2021 și Legea nr. 249/2015 sunt abrogate integral la intrarea în vigoare a legii, în timp ce normele și infrastructura urmează ulterior. Nu există o clauză suficientă care să mențină până la înlocuire întregul regim al obligațiilor, autorizărilor și sancțiunilor existente.",
+        "Art. 111 alin. (1) lit. a) și art. 104: abrogarea OUG nr. 92/2021 afectează inclusiv incriminările sale. Art. 104 reglementează sesizarea organelor penale, fără să înlocuiască aceste incriminări. Pentru conduitele care nu rămân incriminate prin alte norme poate interveni dezincriminarea, inclusiv cu efecte asupra cauzelor existente; este necesară o verificare faptă cu faptă.",
+        "Art. 85 alin. (1)–(2): taxele verzi și contribuțiile sunt lăsate actelor subsecvente, iar baza de impunere, contribuabilii, calculul și scutirile pot fi stabilite prin HG sau ordin comun. Simpla trimitere la Codul fiscal nu înlocuiește stabilirea prin legislație primară a elementelor esențiale ale obligației fiscale.",
+        "Art. 86 și art. 96 alin. (4) lit. e): limitele penalităților zilnice, calculul și autoritățile competente sunt delegate normelor metodologice, iar ministerul primește atribuția de a stabili sancțiuni pentru raportare. Lipsesc delimitări suficiente între contribuții, amenzi și penalități; cumularea pentru aceeași conduită necesită examinarea proporționalității și, dacă măsurile au caracter punitiv, a principiului ne bis in idem.",
+        "Art. 99–100 nu asigură corespondența completă cu toate articolele care declară încălcări drept contravenții. De exemplu, încălcările privind pașaportul digital sau reparabilitatea nu au o încadrare și o amendă identificate fără echivoc. Formule precum «funcționarea necorespunzătoare» a SGR și «neîndeplinirea obligațiilor referitoare la finanțare» sunt prea largi pentru sancțiuni de până la 200.000 lei.",
+        "Art. 100 permite confiscarea echipamentelor și suspendarea activității inclusiv pentru categoria care cuprinde raportări incomplete. Trimiterea la legislația generală și criteriile de individualizare oferă garanții, dar nu justifică automat asemenea măsuri pentru orice abatere administrativă; sunt necesare condiții și limite specifice.",
+        "Art. 102 alin. (5)–(6) și art. 103 alin. (4) amestecă plângerea contravențională din OG nr. 2/2001 cu procedura contenciosului administrativ. Art. 102 alin. (6) înlătură expres suspendarea de drept pentru măsurile complementare, astfel încât o suspendare a activității poate produce efecte înaintea verificării judiciare, dacă instanța nu acordă suspendarea la cerere.",
+        "Art. 110 permite termene de implementare de până la 24 de luni și conformare de până la 36 de luni, fără să clarifice raportul cu termenele speciale mai scurte. Art. 113 alin. (3) condiționează sancțiunile de publicarea normelor aferente fiecărui domeniu, ceea ce face calendarul aplicării dependent de executiv. Aceste dispoziții nu conservă automat regimul abrogat.",
+        "Art. 44 alin. (4) și art. 46 alin. (5) fixează obligații de la 1 ianuarie 2026, dată deja depășită în cursul procedurii legislative prezentate. Ele trebuie rescrise pentru aplicare prospectivă; obligațiile noi nu pot fundamenta sancționarea conduitelor anterioare intrării lor în vigoare.",
+        "Art. 39 alin. (1) atribuie greșit Regulamentului (UE) 2024/1781 obiectul ambalajelor: acesta privește proiectarea ecologică a produselor sustenabile. Cadrul european relevant pentru ambalaje este Regulamentul (UE) 2025/40, cu calendar propriu. Art. 38 invocă Regulamentul (UE) 2019/2021, referitor la afișaje electronice, ca fundament general pentru pașaportul digital.",
+        "Art. 39 alin. (2) cere cumulativ ambalaje reutilizabile și reciclabilitate de minimum 90%, depășind o simplă obligație de colectare sau reciclare. Art. 33 și art. 38–42 adaugă cerințe naționale și interdicții de piață care trebuie verificate în raport cu armonizarea europeană, actele delegate aplicabile și libera circulație a produselor.",
+        "Art. 47 alin. (3) impune fiecărei UAT minimum 60% pregătire pentru reutilizare și reciclare până în 2027 și 65% până în 2030. Calendarul general al Directivei 2008/98/CE este 55% în 2025, 60% în 2030 și 65% în 2035. Țintele naționale mai ambițioase nu sunt automat ilegale, dar textul le prezintă impropriu ca reproducere a cerinței europene și nu fundamentează capacitatea fiecărei UAT de a le realiza.",
+        "Art. 40 alin. (4) prezintă colectarea separată a textilelor ca obligatorie din 2027, deși termenul general european este 1 ianuarie 2025. Noua lege nu poate folosi acest calendar pentru amânarea obligațiilor europene existente, mai ales concomitent cu abrogarea regimului general al deșeurilor.",
+        "Art. 53 alin. (4) permite impunerea schemelor REP colective, iar art. 54 cere schemelor colective formă asociativă și o conducere independentă de interesele comerciale directe ale membrilor. Art. 61 impune operatorului SGR statut de entitate asociativă fără scop patrimonial și participare publică cu veto, fără reguli suficient de clare pentru continuitatea operatorului existent, contractelor, activelor și garanțiilor.",
+        "Art. 59–60 extinde expres SGR la băuturi lactate, cu excepții tehnice, și instituie obligații inclusiv pentru consumatori privind returnarea și curățarea ambalajelor. Art. 99–100 nu identifică însă fără echivoc o amendă distinctă pentru simpla nereturnare de către consumator; nu se poate afirma că aceasta este sancționată automat.",
+        "Art. 5, art. 10, art. 26 și art. 91 suprapun o platformă digitală, un organism consultativ cu nume apropiat și o altă platformă digitală, cu administratori diferiți. SNTD și SNMAEC adaugă alte mecanisme. Art. 55 și art. 57 dublează substanțial raportarea REP, iar art. 98 cere raportul național până la 31 martie, aceeași dată-limită pentru mai multe raportări care îl alimentează.",
+        "Art. 83 acordă prioritate legii speciale, dar art. 111 alin. (3) păstrează legislația specială numai dacă nu contravine noii legi. Art. 111 alin. (5) sugerează înlocuirea unor acte păstrate prin norme și programe ulterioare: HG și ordinele ministeriale nu pot abroga legi. Art. 4 alin. (4) permite inclusiv completarea definițiilor legale prin HG, cu riscul modificării indirecte a sferei obligațiilor.",
+        "Art. 42 condiționează autorizațiile de construire și desființare de criterii suplimentare, inclusiv procente de materiale reciclate stabilite ulterior. Art. 44 alin. (2) impune cumulativ inclusiv practici agricole producătorilor, procesatorilor, distribuitorilor și comercianților, fără adaptare suficientă la activitatea efectivă a fiecăruia.",
+        "Art. 87 creează un fond în afara bugetului de stat, alimentat inclusiv din taxe și penalități încă insuficient definite. Platformele, infrastructura și programele din art. 105–108 presupun cheltuieli publice suplimentare. Estimările din expunerea de motive nu sunt alocări aprobate și nu demonstrează singure sustenabilitatea finanțării sau eligibilitatea proiectelor pentru fonduri europene."
       ],
-      "blindSpotsCaught": "Art. 111 alin. (5) permite o lectură în care norme și strategii ulterioare înlocuiesc inclusiv acte legislative: ierarhia normelor trebuie protejată expres. Separat, pașaportul digital din art. 38 trebuie corelat cu Regulamentul (UE) 2024/1781 și actele delegate aplicabile produselor. [Proiect](https://www.senat.ro/Legis/PDF/2026/26L065FG.pdf?nocache=true), [Regulamentul european](https://eur-lex.europa.eu/eli/reg/2024/1781/oj)",
-      "constitutionalityNote": "Scopul este compatibil cu art. 35 privind mediul sănătos. Există însă vulnerabilități raportate la art. 1 alin. (5): obligațiile sancționabile trebuie să fie clare, iar actele executive nu pot modifica legislația primară. Art. 23 alin. (12) consacră legalitatea pedepselor; pentru contravențiile analizate, critica trebuie construită precis pe legalitate, previzibilitate și proporționalitate, fără confundarea lor cu infracțiunile. Cheltuielile suplimentare impun verificarea sursei de finanțare potrivit art. 138 alin. (5); observația Consiliului Fiscal nu echivalează singură cu o constatare de neconstituționalitate. [Constituția](https://www.cdep.ro/ords/pls/dic/site.page?id=339&idl=1), [Consiliul Fiscal](https://www.senat.ro/Legis/PDF/2026/26L065CF.pdf?nocache=true)",
-      "euLawNote": "Directiva 2018/958 privește restricțiile asupra profesiilor reglementate, nu orice obligație impusă firmelor; simpla utilizare a auditorilor autorizați nu dovedește instituirea unei restricții profesionale noi. TRIS, potrivit Directivei 2015/1535, trebuie verificat și pentru cerințe tehnice obligatorii privind produsele, etichetarea sau reciclarea, cu examinarea excepțiilor și a termenelor de așteptare; o platformă de raportare nu declanșează singură procedura, iar existența unei notificări nu este confirmată aici. Concurența și libera circulație cer evitarea obligațiilor naționale incompatibile cu armonizarea europeană. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/ro/ALL/?uri=CELEX%3A32018L0958), [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=celex%3A32015L1535), [Avizul CES](https://www.senat.ro/legis/PDF/2026/26L065ES.PDF?nocache=true)",
+      "blindSpotsCaught": "Capcana principală este succesiunea art. 111 și art. 113: legislația de bază dispare înainte ca noul regim sancționator să devină aplicabil, iar termenele tranzitorii nu repară această ruptură. Separat, art. 82 permite inspecții inclusiv la compostarea individuală, ceea ce necesită respectarea inviolabilității domiciliului; simpla competență de control nu autorizează intrarea forțată. Art. 114 păstrează chiar formula condițională «Registrul Național al Performanței Contractuale, dacă a fost integrat», fără o instituire clară. Expunerea de motive promite un mecanism de avertizare și un plan corectiv în 90 de zile care nu apar ca atare în dispozitiv.",
+      "constitutionalityNote": "Cele mai puternice obiecții privesc art. 1 alin. (5), pentru lipsa previzibilității, contradicțiile și abrogarea fără continuitate normativă, și art. 139 alin. (1), pentru delegarea elementelor esențiale ale fiscalității către HG și ordine. Art. 61 alin. (1) și art. 108 alin. (2) limitează posibilitatea executivului de a modifica legea prin acte de aplicare. Legalitatea sancțiunilor trebuie examinată prin art. 1 alin. (5) și, în materia penală, art. 23 alin. (12); garanțiile specifice materiei penale pot deveni relevante și pentru sancțiuni contravenționale punitive. Art. 15 alin. (2) este relevant atât pentru datele deja depășite, cât și pentru eventuala dezincriminare. Confiscarea, suspendarea activității și restricțiile de piață reclamă analiza art. 44 și art. 45, iar procedurile judiciare trebuie clarificate în raport cu art. 21 și art. 24. Controalele în gospodării trebuie să respecte art. 27. Pentru cheltuielile noi trebuie verificate art. 138 alin. (5), documentarea surselor și solicitarea informațiilor Guvernului potrivit art. 111 alin. (1); documentele furnizate nu dovedesc dacă toate aceste formalități au fost îndeplinite. Scopul legitim protejat de art. 35 nu înlătură aceste cerințe.",
+      "euLawNote": "Abrogarea actelor care asigură transpunerea, fără preluarea integrală a obligațiilor relevante, poate produce neconformitate și crește riscul de infringement; declarația de transpunere parțială din art. 114 nu acoperă lipsurile. Regulamentele sunt direct aplicabile, dar data intrării în vigoare poate diferi de data aplicării, distincție omisă la art. 7 alin. (3). Cerințele pentru produse, ambalaje, etichete și pașapoarte trebuie confruntate cu Regulamentele 2024/1781 și 2025/40, cu actele lor de aplicare și cu art. 34–36 TFUE; protecția mediului nu permite ignorarea armonizării pieței interne. Directiva 2015/1535 poate impune notificare TRIS pentru reglementările tehnice privind produse și pentru cerințele care vizează în mod specific servicii ale societății informaționale, inclusiv unele obligații de comerț electronic din art. 45; trebuie verificată notificarea proiectului și respectarea perioadei de așteptare aplicabile. Simpla folosire a platformelor sau încurajarea AI la art. 33 alin. (5) nu declanșează automat TRIS. Directiva 2018/958 privește restricțiile asupra accesului la profesii reglementate și exercitării lor: nu este un test obligatoriu general pentru orice obligație impusă unei firme; devine relevantă dacă cerințele de audit sau certificare introduc ori modifică asemenea restricții profesionale. Obligativitatea schemelor colective REP și condițiile operatorului SGR necesită evaluarea proporționalității și concurenței, inclusiv în raport cu art. 8a din Directiva 2008/98/CE și art. 101–102, respectiv art. 106 TFUE, după caz. Granturile și facilitățile trebuie încadrate în regulile ajutorului de stat. Nu rezultă din textele furnizate existența sau absența unei notificări TRIS ori a evaluărilor necesare.",
       "senatForm": {
-        "articleRef": "Art. 111 alin. (1) și (5)",
-        "proposalContent": "La articolul 111, alineatele (1) și (5) se elimină.",
-        "argumentation": "Abrogarea integrală a legislației deșeurilor și ambalajelor, înaintea verificării preluării tuturor obligațiilor europene, creează riscuri de lacune normative. Normele metodologice și strategiile nu pot abroga legi sau ordonanțe. Modificările ulterioare trebuie făcute expres, prin acte de nivel corespunzător.",
-        "otherComments": "Propunere cetățenească pentru comisiile de raport ale Camerei Deputaților, preluabilă de un deputat. Termenul afișat, 02.04.2026, este depășit; petiția nu echivalează cu un amendament parlamentar depus în termen. Sursa: [Fișa Camerei](https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23126)."
-      }
+        "articleRef": "Art. 111 alin. (1)",
+        "proposalContent": "Alineatul (1) se elimină.",
+        "argumentation": "Abrogarea integrală a OUG nr. 92/2021 și a Legii nr. 249/2015, fără preluarea completă a obligațiilor și sancțiunilor, creează lacune și risc de dezincriminare. Menținerea lor permite corelări punctuale, cu respectarea art. 1 alin. (5) și art. 148 din Constituție.",
+        "otherComments": "Se solicită separat corectarea art. 111 alin. (3)–(5), pentru păstrarea neechivocă a legislației speciale. Sunt necesare și amendamente la art. 85–86 privind rezerva legii în materie fiscală, precum și o verificare completă a continuității incriminărilor."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T05:45:01.830Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 7
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-19T16:48:00.440Z",
+      "reasons": [
+        "metoda",
+        "model"
+      ]
+    }
+  ]
 }

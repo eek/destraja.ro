@@ -2,120 +2,181 @@
   "billId": "PL-x 289/2026",
   "slug": "plx-289-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T03:53:27.114Z",
+  "updatedAt": "2026-11-19T16:47:10.126Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 784,
+    "ordinanceChars": 22629,
+    "memoChars": 26658,
+    "memoSupplied": 26658,
+    "marker": "SF-35B751CE"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-289-2026.json",
+    "form": "senat",
+    "textHash": "35b751ceb2e94225",
+    "fetchedAt": "2026-11-19T11:20:12.299Z",
+    "acts": 5,
+    "actsFound": 5,
+    "actsRepealed": 0,
+    "articlesFound": 8,
+    "articlesShown": 8,
+    "articleCap": 8000,
+    "articlesCut": 1,
+    "chars": 25090,
+    "truncated": false,
+    "included": true,
+    "key": "a43c800dd472f939"
+  },
   "consensus": {
-    "riskScore": 2.7,
+    "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "Transferuri instant în euro: BNR primește puterile de control cerute de UE",
-    "summaryTlDr": "Lege tehnică și utilă. Pune în aplicare regulile UE pentru plățile instant în euro și le deschide fintech-urilor accesul la sistemele de plăți și la conturi la BNR. Problemele țin de redactare și de transparența deciziilor BNR, nu de fond.",
-    "initiatorClaim": "Guvernul spune că România a ratat termenul de 9 aprilie 2025 pentru aplicarea Regulamentului (UE) 2024/886. Fără OUG, Comisia Europeană ar duce cazul 2025/2145 la Curtea de Justiție, cu o sumă forfetară de minimum 1.636.000 euro și penalități de până la 105.264 euro pe zi.",
-    "realityCheck": "Obligațiile mari (transfer în 10 secunde, același preț ca transferul obișnuit, verificarea numelui beneficiarului) vin direct din regulamentul UE și s-ar aplica și fără această lege. OUG face patru lucruri: numește BNR autoritate de control, inclusiv pentru verificarea clienților față de listele de sancțiuni; îi permite BNR să scutească, an de an, băncile fără lichiditate în euro de plățile instant în euro din conturi în lei; scutește de amendă opririle anunțate pentru mentenanță; dă instituțiilor de plată și celor de monedă electronică acces la conturi la BNR și la sistemele de decontare. Efecte secundare: clienții unui prestator scutit pot rămâne ani la rând fără transfer instant în euro din contul în lei, iar BNR decide liber și fără termen dacă deschide conturi.",
+    "plainTitle": "Plăți instant în euro: Parlamentul confirmă regulile aplicate deja din martie",
+    "summaryTlDr": "Este o lege tehnică de aplicare a unui regulament UE direct obligatoriu și nu ascunde taxe, monopoluri sau sancțiuni noi pentru cetățeni. Problemele reale sunt două: o formulare ambiguă la derogarea pentru conturile în lei și amenzi foarte mici pentru bănci în Legea nr. 231/2015, pe care proiectul nu le atinge.",
+    "initiatorClaim": "Guvernul spune că OUG pune în aplicare Regulamentul (UE) 2024/886 privind transferurile credit instant în euro și evită faza contencioasă a procedurii de infringement 2025/2145, cu riscul unei sume forfetare de minimum 1,636 mil. euro și al unor penalități zilnice.",
+    "realityCheck": "Ordonanța este în vigoare din 5 martie 2026, iar textul consolidat de pe legislatie.just.ro conține deja modificările ei. Legea de aprobare doar le confirmă, fără amendamente din partea Senatului. Pe fond, OUG confirmă BNR ca autoritate de control pentru plățile instant și pentru verificarea sancțiunilor internaționale. Introduce o derogare anuală, acordată de BNR, pentru PSP care nu pot oferi plăți instant în euro din conturi în lei din lipsă de lichiditate în euro. Mai permite conturi de protecție a fondurilor la BNR, la discreția acesteia, și stabilește condițiile de acces al instituțiilor de plată și al emitenților de monedă electronică la sistemele de plăți desemnate. Obligațiile grele pentru bănci (10 secunde, verificarea beneficiarului, comisioane egale cu transferurile obișnuite) decurg direct din regulament, nu din acest text.",
     "affectedGroups": [
+      "Toți cetățenii",
       "IMM & Antreprenori",
-      "Contabili & Fiscalitate",
-      "IT & AI",
-      "Toți cetățenii"
+      "IT & AI"
     ],
     "senatForm": {
-      "articleRef": "Art. II pct. 2 – art. 38 alin. (3) L. 209/2019",
-      "proposalContent": "Alin. (3) se completează cu o teză finală: „Decizia, precum și condițiile prevăzute la alin. (4), se publică pe site-ul Băncii Naționale a României și se aplică transparent și nediscriminatoriu tuturor instituțiilor de plată și emitente de monedă electronică. Fiecare cerere primește răspuns motivat în cel mult 60 de zile.”",
-      "argumentation": "Textul lasă BNR să decidă dacă deschide conturi de protecție a fondurilor, fără termen și fără obligația de a-și motiva decizia. Pentru o instituție de plată mică, contul la banca centrală înseamnă să nu țină banii clienților la o bancă concurentă. Publicitatea și motivarea nu îi iau BNR marja de apreciere, dar fac regula previzibilă (art. 1 alin. (5) din Constituție).",
-      "otherComments": "La art. 4¹ alin. (3) din L. 231/2015, „plafon de minim 25000 de euro per operațiune” nu arată dacă pragul e limita sub care serviciul rămâne obligatoriu sau suma de la care se aplică scutirea; ar trebui reluată formularea din Regulament. La art. 4², „Comisia” trebuie scris „Comisia Europeană”. Trimiterea „art. 11 alin. (1) (1b)” din art. 3 alin. (1¹) trebuie clarificată."
+      "articleRef": "Art. I pct. 4 – art. 4¹ alin. (3) L. 231/2015",
+      "proposalContent": "Art. 4¹ alin. (3) se modifică: „(3) Derogarea prevăzută la alin. (1) poate fi acordată doar în condițiile și în limitele prevăzute la art. 5a din Regulamentul (UE) nr. 260/2012, inclusiv cele privind transferurile credit în euro neefectuate instant din conturi denominate în lei și pragul valoric de 25.000 euro per operațiune.”",
+      "argumentation": "Sintagma „plafon de minim 25000 de euro per operațiune” e ambiguă: nu reiese dacă 25.000 euro e minimul limitei pe care o poate fixa PSP sau un prag sub care derogarea nu operează. O normă care condiționează derogarea de la o obligație din regulament trebuie să fie clară (art. 1 alin. 5 Constituție) și să nu deformeze textul UE direct aplicabil.",
+      "otherComments": "De corectat la aprobare: „territoriul”, „rezilienta”, trimiterea „art.11 alin. (1) (1b)” și formula „autoritățile competente ale statului membru de origine” din art. 404² alin. (2), preluată mecanic din directivă. Merită reevaluată amenda de 10.000–100.000 lei din art. 7 L. 231/2015, mică pentru bănci față de cerința UE de sancțiuni disuasive."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 49568,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 100707,
+      "sourceEndMarker": "SF-35B751CE",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Plăți instant în euro în 10 secunde și accesul Fintech-urilor la sistemele de decontare (Aprobarea OUG 5/2026)",
-      "verdictShort": "O lege tehnică necesară și benefică pentru consumatori și firme, care transpune regulile UE privind transferurile instant în euro la aceleași costuri cu transferurile standard și deschide accesul instituțiilor de plată (Fintech) la sistemele de decontare. Singura rezervă vizează marja largă de apreciere lăsată BNR în privința deschiderii conturilor de protecție a fondurilor.",
-      "initiatorClaim": "Guvernul urmărește evitarea sancțiunilor din procedura de infringement (Cauza 2025/2145) prin alinierea legislației naționale la Regulamentul (UE) 2024/886 privind plățile instant în euro și prin reglementarea accesului instituțiilor de plată și emitente de monedă electronică la sistemele de plăți.",
-      "realityCheck": "Ordonanța transpune corect obligațiile europene: băncile și procesatorii de plăți vor trebui să execute transferurile în euro în maximum 10 secunde și să verifice corespondența IBAN-nume pentru prevenirea fraudelor. Totuși, la Art. II pct. 2, deschiderea conturilor de protecție a fondurilor direct la BNR pentru Fintech-uri este condiționată de o formulare subiectivă („în condițiile în care este încredințată că...”), fără un termen-limită pentru emiterea reglementărilor BNR.",
+      "plainTitle": "Plăți instant în euro și acces direct pentru fintech-uri în sistemele de plăți",
+      "verdictShort": "Lege tehnică, necesară și pro-concurențială, care aliniază România la Regulamentul UE privind plățile instant în euro și oprește procedura de infringement. Nu ascunde capcane majore pentru cetățeni sau IMM-uri, necesitând doar câteva clarificări redacționale și procedurale.",
+      "initiatorClaim": "Guvernul arată că OUG nr. 5/2026 creează cadrul național de aplicare a Regulamentului (UE) 2024/886 privind transferurile credit instant în euro (procesate în 10 secunde, la aceleași tarife ca transferurile standard și cu verificarea beneficiarului) și evită sesizarea CJUE în procedura de infringement (Cauza 2025/2145), unde România riscă amenzi de minimum 1,636 milioane EUR plus penalități zilnice.",
+      "realityCheck": "În realitate, proiectul aprobă modificări tehnice deja intrate în vigoare la 5 martie 2026, care deschid accesul direct al instituțiilor de plată și al emitenților de monedă electronică la sistemele de plăți desemnate (Legea 253/2004 și OUG 99/2006), permit păstrarea fondurilor protejate în conturi la BNR (la decizia băncii centrale), extind supravegherea BNR pe transferuri instant și sancțiuni internaționale și stabilesc amenzile din art. 408 OUG 99/2006 la 50.000–500.000 lei. Nu introduce taxe noi pentru cetățeni sau IMM-uri obișnuite, dar lasă neclare criteriile și termenul de evaluare a fintech-urilor la art. 404² alin. (5) și formulează ambiguu plafonul de derogare de 25.000 euro.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "IMM & Antreprenori",
+        "IT & AI"
+      ],
+      "keyFindings": [
+        "Acces direct și concurență sporită (Art. IV și Art. V pct. 1–2): instituțiile de plată și instituțiile emitente de monedă electronică intră în definiția de «instituție» din Legea nr. 253/2004 și pot participa direct la sistemele de plăți desemnate, fără a mai depinde exclusiv de băncile comerciale, sub condiția unor cerințe de guvernanță, securitate TIC (DORA) și plan de lichidare (art. 404² OUG nr. 99/2006).",
+        "Protecția fondurilor la BNR și supraveghere extinsă (Art. I–III): instituțiile de plată (art. 38 Legea nr. 209/2019) și emitenții de monedă electronică (art. 34 Legea nr. 210/2019) pot păstra fondurile clienților în conturi de protecție deschise la BNR, dacă BNR decide activarea acestei facilități; totodată, BNR primește atribuții de control pe sancțiuni internaționale, audit IT și inspecții la operatorii tehnici de infrastructuri de plăți (art. 3–4 Legea nr. 231/2015).",
+        "Sancțiuni actualizate și excepții proporționale (Art. I pct. 5 și Art. V pct. 3): amenda aplicabilă de BNR participanților și administratorilor de sisteme de plăți potrivit art. 408 alin. (1) lit. b) din OUG nr. 99/2006 este stabilită între 50.000 și 500.000 lei, iar art. 7 alin. (5) din Legea nr. 231/2015 exceptează de la sancțiuni indisponibilitățile scurte și planificate de mentenanță anunțate în prealabil clienților.",
+        "Ambiguități punctuale de aplicare (Art. I pct. 4 și Art. V pct. 2): la art. 404² alin. (5) din OUG nr. 99/2006, alegerea între auto-evaluare și decizia explicită a autorității competente este lăsată administratorului de sistem fără criterii obiective și fără un termen de emitere pentru BNR, iar la art. 4¹ alin. (3) din Legea nr. 231/2015 expresia «în limita unui plafon de minim 25000 de euro per operațiune» este ambiguă."
+      ],
+      "blindSpotsCaught": "Trei detalii subtile de procedură și tehnică legislativă: (1) Art. III modifică expres art. 34 alin. (1) din Legea nr. 210/2019 privind moneda electronică, însă acest act normativ lipsește complet din preambulul OUG nr. 5/2026 și din lista actelor modificate din Expunerea de motive (Secțiunile 2.2, 2.3 și 5.1); (2) Art. V pct. 2 (art. 404² alin. 5 din OUG nr. 99/2006) delegă administratorului sistemului de plăți alegerea între auto-evaluare și decizia explicită a BNR, fără a obliga la aplicare uniformă și fără un termen maxim de răspuns pentru BNR; (3) la Art. I pct. 1 apare o trimitere redacțională defectuoasă («art.11 alin. (1) (1b)»), iar la art. 4² se menționează generic «Comisia» în loc de Comisia Europeană.",
+      "constitutionalityNote": "Urgența adoptării OUG nr. 5/2026 (art. 115 alin. 4 din Constituție) este solid fundamentată de faza precontencioasă a procedurii de infringement Cauza 2025/2145 (termen de răspuns prelungit până la 8 februarie 2026) și riscul iminent de sancțiuni financiare la CJUE; proiectul a fost adoptat de Senat ca lege ordinară conform art. 76 alin. (2). Singurele rezerve minore privesc claritatea și previzibilitatea legii (art. 1 alin. 5): formularea confuză a plafonului de 25.000 euro din art. 4¹ alin. (3) al Legii nr. 231/2015 și lipsa criteriilor/termenelor de soluționare la art. 404² alin. (5) din OUG nr. 99/2006. Sancțiunile din art. 408 OUG nr. 99/2006 sunt administrative/contravenționale și au limite clar stabilite (fără incidente pe art. 23 alin. 12).",
+      "euLawNote": "Proiectul este aliniat în esență cu Regulamentul (UE) 2024/886 și transpune modificările aduse Directivei (UE) 2015/2366 (PSD2) și Directivei 98/26/CE (SFD), având un efect net pozitiv asupra concurenței și pieței unice (pentru statele non-euro, obligațiile de transfer instant în euro intră treptat în aplicare între ianuarie 2027 și iunie 2028). Directiva (UE) 2018/958 privind testul de proporționalitate nu este incidentă (nu reglementează profesii reglementate), iar Directiva (UE) 2015/1535 (TRIS) nu impune notificare separată deoarece actul pune în aplicare obligații imperative ale unui regulament UE. Este utilă totuși rafinarea art. 4¹ alin. (3) din Legea nr. 231/2015 pentru conformitate deplină cu art. 5a alin. (8) din Regulamentul (UE) nr. 260/2012.",
+      "senatForm": {
+        "articleRef": "Art. V pct. 2 (art. 404² alin. 5 OUG 99/2006)",
+        "proposalContent": "La art. 404² alin. (5), modalitatea de evaluare să fie stabilită de administratorul de sistem prin reguli obiective, transparente și nediscriminatorii, iar pentru lit. a) să se prevadă un termen maxim de 30 de zile în care BNR emite decizia explicită, cu motivarea în scris a oricărei respingeri.",
+        "argumentation": "Forma actuală lasă la discreția administratorului de sistem alegerea între auto-evaluare și decizia autorității, fără criterii obiective și fără termen legal de răspuns pentru BNR. Clarificarea previne barierele indirecte pentru fintech-uri și asigură previzibilitatea legii (art. 1 alin. 5 Constituție).",
+        "otherComments": "Propunem și clarificarea art. I pct. 4 (art. 4¹ alin. 3 din Legea 231/2015), unde «în limita unui plafon de minim 25000 de euro» este ambiguă față de art. 5a alin. (8) din Reg. (UE) 260/2012, corectarea trimiterii «art. 11 alin. (1) (1b)» și menționarea Legii 210/2019 în expunerea de motive."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 66205,
+      "sourceEndMarker": "SF-35B751CE",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Plăți instant în euro: Parlamentul confirmă regulile aplicate deja din martie",
+      "verdictShort": "Este o lege tehnică de aplicare a unui regulament UE direct obligatoriu și nu ascunde taxe, monopoluri sau sancțiuni noi pentru cetățeni. Problemele reale sunt două: o formulare ambiguă la derogarea pentru conturile în lei și amenzi foarte mici pentru bănci în Legea nr. 231/2015, pe care proiectul nu le atinge.",
+      "initiatorClaim": "Guvernul spune că OUG pune în aplicare Regulamentul (UE) 2024/886 privind transferurile credit instant în euro și evită faza contencioasă a procedurii de infringement 2025/2145, cu riscul unei sume forfetare de minimum 1,636 mil. euro și al unor penalități zilnice.",
+      "realityCheck": "Ordonanța este în vigoare din 5 martie 2026, iar textul consolidat de pe legislatie.just.ro conține deja modificările ei. Legea de aprobare doar le confirmă, fără amendamente din partea Senatului. Pe fond, OUG confirmă BNR ca autoritate de control pentru plățile instant și pentru verificarea sancțiunilor internaționale. Introduce o derogare anuală, acordată de BNR, pentru PSP care nu pot oferi plăți instant în euro din conturi în lei din lipsă de lichiditate în euro. Mai permite conturi de protecție a fondurilor la BNR, la discreția acesteia, și stabilește condițiile de acces al instituțiilor de plată și al emitenților de monedă electronică la sistemele de plăți desemnate. Obligațiile grele pentru bănci (10 secunde, verificarea beneficiarului, comisioane egale cu transferurile obișnuite) decurg direct din regulament, nu din acest text.",
       "affectedGroups": [
         "IMM & Antreprenori",
-        "Contabili & Fiscalitate",
         "IT & AI",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 2-4 (modificarea Legii nr. 231/2015): Extinde supravegherea BNR asupra transferurilor credit instant în euro și permite acordarea unei derogări anuale (în limita unui plafon de minimum 25.000 euro/operațiune) doar pentru prestatorii cu acces limitat la lichidități în euro care nu oferă nici transferuri standard în euro din conturi în lei.",
-        "Art. I pct. 5 (art. 7 alin. (5) din Legea nr. 231/2015): Exonerează băncile și PSP-urile de sancțiuni pentru indisponibilitatea plăților instant în timpul lucrărilor de mentenanță planificate și scurte, doar cu condiția informării prealabile a clienților.",
-        "Art. II și Art. IV (modificarea Legii nr. 209/2019 și a Legii nr. 253/2004): Elimină barierele istorice pentru instituțiile de plată și emitente de monedă electronică (Fintech), permițându-le participarea directă la sistemele de decontare și păstrarea fondurilor clienților în conturi de protecție."
+        "Art. I pct. 4 (art. 4¹ L. 231/2015): BNR poate scuti un PSP, pentru câte un an, de obligația de a oferi transferuri instant în euro din conturi în lei, pe baza accesului acestuia la lichiditate în euro. Formularea „plafon de minim 25000 de euro per operațiune” de la alin. (3) este ambiguă. Nu reiese dacă 25.000 euro este minimul limitei pe care o poate fixa PSP sau un prag de aplicare. Fișa textului în vigoare indică art. 4¹ ca negăsit în forma consolidată, deși OUG este în vigoare, deci merită verificat în Monitorul Oficial.",
+        "Art. I pct. 5 (art. 7 alin. 5 L. 231/2015): băncile nu sunt sancționate pentru indisponibilitatea plăților instant în perioadele de mentenanță planificată, dacă perioadele sunt scurte și previzibile și clienții au fost informați în prealabil. Excepția este preluată din regulament. Amenda de bază din art. 7 alin. (1) lit. b) rămâne însă de 10.000–100.000 lei, sumă modestă pentru instituții de credit, iar proiectul nu o modifică.",
+        "Art. II (art. 38 alin. 3–4 L. 209/2019): instituțiile de plată pot ține fondurile clienților în conturi separate la BNR, dar numai dacă BNR decide să deschidă astfel de conturi, după criterii largi (stabilitate financiară, concurență, risc sistemic) și condiții stabilite prin reglementări proprii. Este o opțiune, nu un drept, ceea ce corespunde marjei lăsate de regulament.",
+        "Art. IV (art. 2 alin. 1 pct. 2 și 6 L. 253/2004): instituțiile de plată și emitenții de monedă electronică devin explicit „instituții” care pot participa la sistemele de decontare desemnate, cu protecția caracterului definitiv al decontării. Măsura deschide concurența în plăți față de bănci și este pozitivă pentru fintech-uri.",
+        "Art. V pct. 2 (art. 404² OUG 99/2006): pentru participarea la sisteme, IP/IEME trebuie să aibă o descriere a protecției fondurilor, a guvernanței și a controlului intern (cu trimitere la DORA, art. 6–7 din Regulamentul (UE) 2022/2554) și un plan de lichidare. Conformitatea se poate evalua, la alegerea administratorului de sistem, fie prin decizia autorității competente, fie printr-o simplă auto-evaluare a participantului. Varianta a doua este ușoară pentru firme, dar mută riscul de verificare pe operatorul sistemului.",
+        "Art. V pct. 3 (art. 408 alin. 1 lit. b OUG 99/2006): amenda pentru participanții și administratorii sistemelor de plăți este de 50.000–500.000 lei, nivel deja reflectat în textul consolidat în vigoare. Destinatarii sunt instituții financiare, deci intervalul nu apare disproporționat."
       ],
-      "blindSpotsCaught": "La Art. II pct. 2 (art. 38 alin. (3)-(4) din Legea nr. 209/2019), BNR primește o putere discreționară largă de a decide dacă deschide conturi de protecție a fondurilor pentru instituțiile de plată („în condițiile în care este încredințată că...”), fără stabilirea unui termen legal în care banca centrală trebuie să emită reglementările specifice. În plus, textul conține erori materiale de redactare, precum trimiterea la «art.11 alin. (1) (1b)» la Art. I pct. 1 și «territoriul» la Art. I pct. 3.",
-      "constitutionalityNote": "Actul normativ respectă exigențele art. 115 alin. (4) din Constituție privind existența unei situații extraordinare (iminența avizului motivat și a sesizării CJUE în Cauza 2025/2145). Din perspectiva art. 1 alin. (5) privind calitatea și previzibilitatea legii, formularea de la art. 38 alin. (3) din Legea nr. 209/2019 („este încredințată că”) și erorile materiale de trimitere pot fi remediate prin amendamente în Camera Deputaților.",
-      "euLawNote": "Proiectul asigură punerea în aplicare a Regulamentului (UE) 2024/886 și transpune modificările aduse Directivei (UE) 2015/2366 (PSD2) și Directivei 98/26/CE (SFD). Măsurile sunt pro-concurențiale, conforme cu principiul proporționalității (Directiva 2018/958/UE) și consolidează piața unică de plăți în euro (SEPA).",
+      "blindSpotsCaught": "Urgența invocată se sprijină pe termenul de răspuns către Comisie, prelungit până la 08.02.2026. OUG a fost adoptată pe 12.02.2026, după acel termen, și publicată abia pe 5.03.2026. Întârzierea este în mare parte imputabilă Executivului: termenul de transpunere era 9 aprilie 2025, iar proiectul a fost pus în transparență în octombrie 2025. Art. 404² alin. (2) lit. a) păstrează formula mecanică din directivă „astfel cum stabilesc autoritățile competente ale statului membru de origine” și omite opțiunea contului la BNR introdusă chiar de art. II. Mai apar erori de redactare în forma publicată: „territoriul”, „rezilienta” și trimiterea neclară „art.11 alin. (1) (1b)”.",
+      "constitutionalityNote": "Sub aspectul art. 115 alin. (4), riscul de neconstituționalitate este redus. CCR a acceptat în mod constant ca situație extraordinară evitarea unor sancțiuni pecuniare UE iminente într-o procedură de infringement deja declanșată, chiar dacă întârzierea este imputabilă Guvernului. Art. 115 alin. (6) nu este încălcat, pentru că OUG nu afectează drepturi fundamentale și nu reglementează instituții fundamentale ale statului. Competențele BNR sunt de reglementare și supraveghere sectorială, deja existente. Problema principală ține de art. 1 alin. (5) (claritate și previzibilitate): sintagma „plafon de minim 25000 de euro per operațiune” din art. 4¹ alin. (3) permite interpretări opuse privind sfera derogării. Procedural, Senatul a adoptat proiectul ca primă cameră cu majoritatea prevăzută la art. 76 alin. (2), iar Camera Deputaților este decizională, ceea ce este corect pentru o lege ordinară de aprobare a unei OUG.",
+      "euLawNote": "Actul pune în aplicare Regulamentul (UE) 2024/886, direct aplicabil, și asigură conformitatea cu modificările aduse PSD2 (Directiva 2015/2366) și Directivei 98/26/CE. Pe dreptul UE, efectul este de reducere a riscului, nu de creare. Directiva 2018/958 (testul de proporționalitate) nu este relevantă, deoarece nu se reglementează profesii. TRIS 2015/1535 nu se aplică, fiindcă nu se introduc reglementări tehnice naționale privind servicii ale societății informaționale dincolo de ce impune regulamentul. Pe concurență, efectul este pozitiv: accesul IP/IEME la sistemele desemnate și regula de nediscriminare din art. 404¹ alin. (4)–(5) slăbesc poziția dominantă a băncilor în infrastructura de plăți. Rămâne un punct de urmărit: regulamentul cere sancțiuni efective, proporționale și disuasive. Amenda de 10.000–100.000 lei din art. 7 L. 231/2015 poate fi considerată insuficient de disuasivă pentru bănci mari, în special pentru încălcări ale obligației privind comisioanele sau ale verificării beneficiarului.",
       "senatForm": {
-        "articleRef": "Art. II pct. 2 (art. 38 alin. 4 Legea 209/2019)",
-        "proposalContent": "La Art. II pct. 2, art. 38 alin. (4) din Legea nr. 209/2019 se modifică astfel: «(4) Condițiile obiective, nediscriminatorii și proporționale ce trebuie îndeplinite de solicitanți pentru deschiderea conturilor de protecție a fondurilor se stabilesc prin reglementări emise de Banca Națională a României în termen de 90 de zile de la intrarea în vigoare a prezentei legi.»",
-        "argumentation": "Forma actuală lasă la aprecierea subiectivă a BNR («în condițiile în care este încredințată că...») deschiderea conturilor de protecție pentru instituțiile de plată și de monedă electronică (Fintech), fără un termen-limită pentru emiterea normelor secundare. Impunerea unor criterii obiective și a unui termen de 90 de zile asigură previzibilitatea legii și concurența reală.",
-        "otherComments": "Se recomandă și corectarea erorii materiale de la Art. I pct. 1 (art. 3 alin. (1¹) din Legea nr. 231/2015), unde trimiterea «art.11 alin. (1) (1b)» trebuie redactată corect «art. 11 alin. (1b)» din Regulamentul (UE) nr. 260/2012, precum și corectarea erorii de redactare «territoriul» de la Art. I pct. 3 (art. 4 lit. b)."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 151030,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Transferuri instant în euro: BNR primește puterile de control cerute de UE",
-      "verdictShort": "Lege tehnică și utilă. Pune în aplicare regulile UE pentru plățile instant în euro și le deschide fintech-urilor accesul la sistemele de plăți și la conturi la BNR. Problemele țin de redactare și de transparența deciziilor BNR, nu de fond.",
-      "initiatorClaim": "Guvernul spune că România a ratat termenul de 9 aprilie 2025 pentru aplicarea Regulamentului (UE) 2024/886. Fără OUG, Comisia Europeană ar duce cazul 2025/2145 la Curtea de Justiție, cu o sumă forfetară de minimum 1.636.000 euro și penalități de până la 105.264 euro pe zi.",
-      "realityCheck": "Obligațiile mari (transfer în 10 secunde, același preț ca transferul obișnuit, verificarea numelui beneficiarului) vin direct din regulamentul UE și s-ar aplica și fără această lege. OUG face patru lucruri: numește BNR autoritate de control, inclusiv pentru verificarea clienților față de listele de sancțiuni; îi permite BNR să scutească, an de an, băncile fără lichiditate în euro de plățile instant în euro din conturi în lei; scutește de amendă opririle anunțate pentru mentenanță; dă instituțiilor de plată și celor de monedă electronică acces la conturi la BNR și la sistemele de decontare. Efecte secundare: clienții unui prestator scutit pot rămâne ani la rând fără transfer instant în euro din contul în lei, iar BNR decide liber și fără termen dacă deschide conturi.",
-      "affectedGroups": [
-        "Toți cetățenii",
-        "IMM & Antreprenori"
-      ],
-      "keyFindings": [
-        "Art. I pct. 1 (art. 3 alin. (1¹) L. 231/2015): BNR devine autoritatea care controlează verificarea clienților față de listele de sancțiuni internaționale. Regulamentul cere prestatorilor să își verifice clienții cel puțin zilnic, în locul verificării fiecărui transfer instant. Amenzile vin din OUG 202/2008.",
-        "Art. I pct. 4 (art. 4¹ L. 231/2015): BNR poate scuti pe câte un an, cu prelungiri anuale fără limită, un prestator fără acces la lichiditate în euro de obligația de a oferi transferuri instant în euro din conturi în lei. Condiția e ca prestatorul să nu ofere din aceste conturi nici transferuri obișnuite în euro. Sintagma „plafon de minim 25000 de euro per operațiune” e ambiguă.",
-        "Art. I pct. 5 (art. 7 alin. (5) L. 231/2015): nu se dau amenzi când transferurile instant sunt oprite pentru mentenanță anunțată în prealabil. „Scurte și previzibile” nu are o durată maximă, deci BNR apreciază de la caz la caz.",
-        "Art. II (art. 38 alin. (3)-(4) L. 209/2019): instituțiile de plată pot ține banii clienților într-un cont la BNR, dar numai dacă BNR decide să deschidă astfel de conturi. Legea nu prevede termen de răspuns, obligație de motivare sau criterii publice; condițiile se stabilesc integral prin reglementări BNR.",
-        "Art. IV (art. 2 alin. (1) pct. 2 L. 253/2004): instituțiile de plată și cele emitente de monedă electronică intră în definiția participanților la sistemele de decontare. Pot participa astfel direct la infrastructura de plăți, fără să mai treacă neapărat printr-o bancă. Măsura e pro-concurență."
-      ],
-      "blindSpotsCaught": "Fișa Camerei prezintă ca obiect al legii termenul de 10 secunde, prețul egal și verificarea beneficiarului. Acestea sunt însă obligații directe din regulament. Legea română decide doar cine controlează, cine poate fi scutit și ce nu se sancționează. Textul primit se oprește la Legea 253/2004, așa că modificările la OUG 99/2006 (instituții de credit), anunțate în titlu și în preambul, nu au putut fi verificate. Mici erori de redactare: „Comisia” fără „Europeană” la art. 4², trimiterea „art. 11 alin. (1) (1b)” la art. 3 alin. (1¹), „territoriul” la art. 4 lit. b).",
-      "constitutionalityNote": "Risc constituțional scăzut. Urgența cerută de art. 115 alin. (4) e motivată concret: cazul de infringement 2025/2145 și sancțiuni cuantificate. E totuși o urgență creată chiar de Guvern, care a adoptat OUG la 10 luni după termen. OUG nu atinge drepturi fundamentale (art. 115 alin. (6)), iar noile atribuții ale BNR sunt tehnice și nu îi schimbă statutul. La previzibilitate (art. 1 alin. (5)) sunt două puncte slabe: formularea plafonului de 25.000 euro din art. 4¹ alin. (3) și criteriile vagi după care BNR deschide sau nu conturi (art. 38 alin. (3) L. 209/2019). Legea de aprobare urmează procedura art. 76 alin. (2), cu Camera Deputaților cameră decizională.",
-      "euLawNote": "Legea pune în aplicare Regulamentul (UE) 2024/886, direct aplicabil. Transpune și modificările pe care acesta le aduce Directivei 2015/2366 (protecția fondurilor clienților, inclusiv la banca centrală) și Directivei 98/26/CE (participarea instituțiilor de plată și de monedă electronică la sistemele desemnate). Directiva 2018/958 nu se aplică, pentru că nu se reglementează o profesie. TRIS (2015/1535) nu impune notificare: art. 7 alin. (1) scutește măsurile prin care statul se conformează unui act UE obligatoriu. Riscul juridic real e altul. Art. 4¹ și art. 7 alin. (5) reformulează textul regulamentului, iar jurisprudența CJUE (Variola, 34/73) interzice reproducerea unui regulament într-un mod care îi ascunde natura sau îi schimbă sensul. Orice diferență de formulare cedează în fața regulamentului. Pe concurență, efectul net e pozitiv: fintech-urile primesc acces la infrastructura de plăți fără să depindă obligatoriu de o bancă.",
-      "senatForm": {
-        "articleRef": "Art. II pct. 2 – art. 38 alin. (3) L. 209/2019",
-        "proposalContent": "Alin. (3) se completează cu o teză finală: „Decizia, precum și condițiile prevăzute la alin. (4), se publică pe site-ul Băncii Naționale a României și se aplică transparent și nediscriminatoriu tuturor instituțiilor de plată și emitente de monedă electronică. Fiecare cerere primește răspuns motivat în cel mult 60 de zile.”",
-        "argumentation": "Textul lasă BNR să decidă dacă deschide conturi de protecție a fondurilor, fără termen și fără obligația de a-și motiva decizia. Pentru o instituție de plată mică, contul la banca centrală înseamnă să nu țină banii clienților la o bancă concurentă. Publicitatea și motivarea nu îi iau BNR marja de apreciere, dar fac regula previzibilă (art. 1 alin. (5) din Constituție).",
-        "otherComments": "La art. 4¹ alin. (3) din L. 231/2015, „plafon de minim 25000 de euro per operațiune” nu arată dacă pragul e limita sub care serviciul rămâne obligatoriu sau suma de la care se aplică scutirea; ar trebui reluată formularea din Regulament. La art. 4², „Comisia” trebuie scris „Comisia Europeană”. Trimiterea „art. 11 alin. (1) (1b)” din art. 3 alin. (1¹) trebuie clarificată."
-      }
+        "articleRef": "Art. I pct. 4 – art. 4¹ alin. (3) L. 231/2015",
+        "proposalContent": "Art. 4¹ alin. (3) se modifică: „(3) Derogarea prevăzută la alin. (1) poate fi acordată doar în condițiile și în limitele prevăzute la art. 5a din Regulamentul (UE) nr. 260/2012, inclusiv cele privind transferurile credit în euro neefectuate instant din conturi denominate în lei și pragul valoric de 25.000 euro per operațiune.”",
+        "argumentation": "Sintagma „plafon de minim 25000 de euro per operațiune” e ambiguă: nu reiese dacă 25.000 euro e minimul limitei pe care o poate fixa PSP sau un prag sub care derogarea nu operează. O normă care condiționează derogarea de la o obligație din regulament trebuie să fie clară (art. 1 alin. 5 Constituție) și să nu deformeze textul UE direct aplicabil.",
+        "otherComments": "De corectat la aprobare: „territoriul”, „rezilienta”, trimiterea „art.11 alin. (1) (1b)” și formula „autoritățile competente ale statului membru de origine” din art. 404² alin. (2), preluată mecanic din directivă. Merită reevaluată amenda de 10.000–100.000 lei din art. 7 L. 231/2015, mică pentru bănci față de cerința UE de sancțiuni disuasive."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 151260,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Plăți instant în euro și acces mai larg pentru firmele de plăți",
-      "verdictShort": "Proiectul este predominant tehnic și util pentru clienți și concurență. Riscul moderat provine din formularea defectuoasă a derogării pentru conturile în lei, care trebuie corectată înaintea aprobării.",
-      "initiatorClaim": "Guvernul urmărește adaptarea legislației la normele europene privind plățile instant și accesul instituțiilor de plată la sistemele de decontare. Invocă întârzierea implementării și procedura de infringement pentru justificarea urgenței.",
-      "realityCheck": "Articolul unic aprobă fără modificări ordonanța, care extinde supravegherea BNR, accesul operatorilor nebancari și mecanismele de protejare a fondurilor clienților. Regula executării în 10 secunde și protecțiile privind comisioanele provin din regulamentul european direct aplicabil, cu termene diferențiate, nu sunt create autonom de această lege. Problema concretă este derogarea națională pentru conturile în lei: include primirea transferurilor și descrie ambiguu pragul valoric.",
+      "durationMs": 86335,
+      "sourceEndMarker": "SF-35B751CE",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Plăți instant în euro și acces mai larg la sistemele de plăți",
+      "verdictShort": "Proiectul este predominant tehnic și favorabil concurenței, fără taxe noi pentru populație. Principala problemă de clarificat este formularea derogării privind transferurile din conturi în lei, care poate crea confuzie asupra operațiunilor exceptate.",
+      "initiatorClaim": "Guvernul urmărește adaptarea legislației la Regulamentul (UE) 2024/886, facilitarea plăților instant în euro și accesul instituțiilor de plată și de monedă electronică la sistemele de plăți. Invocă și evitarea continuării procedurii de infringement pentru depășirea termenelor europene.",
+      "realityCheck": "Forma Senatului aprobă OUG nr. 5/2026 fără modificări; majoritatea dispozițiilor analizate sunt deja în vigoare potrivit consolidărilor furnizate, astfel că aprobarea nu le introduce pentru prima dată. Ordonanța adaptează competențele BNR, protejarea fondurilor și accesul la infrastructura de plăți, în timp ce obligațiile privind executarea în 10 secunde și comisioanele provin din regulamentul european, cu termene proprii de aplicare. Există derogări limitate și costuri de conformare pentru prestatori, dar nu rezultă un monopol sau obligații administrative directe noi pentru cetățeni.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 4, noul art. 4¹ alin. (1) și (3): norma UE permite derogarea numai pentru trimiterea transferurilor peste un plafon stabilit de autoritate, de minimum 25.000 euro. Textul românesc include și primirea și spune «în limita unui plafon», creând risc de aplicare contrară regulamentului. [Regulamentul 2024/886](https://eur-lex.europa.eu/eli/reg/2024/886/oj)",
-        "Art. II–IV favorizează concurența: includ instituțiile de plată și emitenții de monedă electronică între instituțiile participante și permit protejarea fondurilor prin conturi la BNR. Deschiderea acestor conturi rămâne condiționată de decizia BNR și de cerințe prudențiale; includerea în definiție nu garantează automat admiterea într-un sistem.",
-        "Extrasul primit omite art. V, verificat în ordonanța oficială: acesta impune acces indirect obiectiv, proporțional și nediscriminatoriu, motivarea refuzurilor și documentație privind protejarea fondurilor, guvernanța și lichidarea. Totodată, art. V pct. 3 stabilește amenda din art. 408 alin. (1) lit. b) la 50.000–500.000 lei pentru participanții și administratorii sistemelor, nu pentru clienții care efectuează plăți. Cuantumul nu dovedește singur disproporționalitatea. [OUG nr. 5/2026, text integral](https://legislatie.just.ro/Public/DetaliiDocumentAfis/308068)",
-        "Art. I pct. 5 reproduce o excepție europeană limitată de la sancționarea indisponibilității: întreținerea trebuie să fie previzibilă și scurtă, iar utilizatorii informați în prealabil; există și ipoteza indisponibilității planificate a întregii scheme. Nu este o imunitate generală pentru defecțiuni sau neexecutarea plăților.",
-        "Pentru clienți și IMM-uri, ordonanța nu instituie taxe fiscale ori declarații noi. Costurile directe de infrastructură, audit și conformare revin operatorilor, cu posibilă reflectare indirectă în tarife; impactul financiar nu poate fi cuantificat din documentele furnizate. Regulamentul plafonează comisionul plății instant la cel al transferului obișnuit corespunzător și impune gratuitatea verificării beneficiarului. [Art. 5b introdus prin Regulamentul 2024/886](https://eur-lex.europa.eu/eli/reg/2024/886/oj)"
+        "Articolul unic aprobă integral OUG nr. 5/2026. Notele consolidărilor indică aplicarea modificărilor din 5 martie 2026; etichetele informative care prezintă art. 4¹ și art. 404² drept articole încă inexistente nu justifică tratarea lor ca noutăți produse abia prin legea de aprobare.",
+        "Art. I pct. 4, noul art. 4¹: BNR poate acorda derogări anuale, reînnoibile după reevaluarea accesului la lichidități în euro. Expresia «derogarea [...] doar în limita unui plafon de minim 25000 de euro» trebuie clarificată pentru a distinge plafonul serviciului obligatoriu de operațiunile exceptate; derogarea nu trebuie interpretată ca scutire generală pentru transferurile mici.",
+        "Art. I pct. 5, art. 7 alin. (5): excluderea sancțiunilor privește accesibilitatea conturilor în anumite perioade de mentenanță sau indisponibilitate planificată, cu informarea prealabilă a utilizatorilor. Nu reprezintă imunitate pentru fraude, orice întrerupere ori încălcarea altor obligații și nu elimină prin ea însăși răspunderea contractuală.",
+        "Art. II și III permit protejarea fondurilor inclusiv în conturi la BNR, dacă aceasta decide deschiderea lor. Separarea fondurilor și protecția față de creditorii prestatorului rămân aplicabile; proiectul nu transformă aceste fonduri în depozite garantate automat printr-o schemă de garantare.",
+        "Art. IV include instituțiile de plată, instituțiile emitente de monedă electronică și Banca de Investiții și Dezvoltare în definiția instituției participante. Accesul rămâne condiționat de regulile și cerințele aplicabile sistemului, fără admitere automată.",
+        "Art. V pct. 1 păstrează accesul obiectiv, proporțional și nediscriminatoriu și cere motivarea completă a refuzului accesului indirect. Excepția pentru sistemele formate exclusiv din prestatorii aceluiași grup nu este o exceptare generală a sistemelor deschise de la regulile concurențiale.",
+        "Art. V pct. 2, art. 404² alin. (5): administratorul sistemului alege între o decizie a autorității de supraveghere și o declarație de autoevaluare pentru verificarea condițiilor. Autoevaluarea nu înlătură cerințele materiale ori supravegherea BNR, dar aplicarea consecventă a acestei opțiuni contează pentru concurență și siguranță.",
+        "Art. V pct. 3 stabilește amenda de 50.000–500.000 lei pentru încălcările prevăzute la art. 408, imputabile participanților sau administratorilor sistemelor, nu clienților obișnuiți. Același interval figurează deja în consolidarea furnizată; cuantumul anterior OUG nu este documentat aici.",
+        "Nu sunt instituite taxe pentru cetățeni sau IMM-uri și nu sunt prevăzute abrogări ori dispoziții tranzitorii naționale distincte la final. Prestatorii suportă însă adaptări informatice, documentație și controale; expunerea de motive nu cuantifică aceste costuri, iar rubricile bugetare necompletate nu demonstrează un impact financiar nul."
       ],
-      "blindSpotsCaught": "Termenul național de implementare din 2025 nu trebuie confundat cu termenele comerciale principale din 2027 pentru PSP din România. [Calendarul UE](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AL_202501979). Amenzile potențiale de infringement invocate în motivare nu sunt datorii deja stabilite și nici sancțiuni transferate cetățenilor. Termenul parlamentar de amendamente, 16.04.2026, este deja depășit la data analizei; sugestia cetățenească nu constituie automat amendament parlamentar. [Fișa Camerei Deputaților](https://www.cdep.ro/ords/pls/proiecte/upl_pck.proiect?cam=2&idp=23178)",
-      "constitutionalityNote": "Art. 1 alin. (5) impune clarificarea întinderii derogării și a sensului plafonului, mai ales deoarece obligațiile sunt însoțite de sancțiuni. Art. 23 alin. (12) privește legalitatea pedepselor; aici nu sunt introduse infracțiuni, iar previzibilitatea sancțiunilor administrative se examinează în principal prin art. 1 alin. (5). Art. 115 alin. (4) cere demonstrarea unei situații extraordinare concrete: întârzierea transpunerii nu justifică automat ordonanța, însă apropierea sesizării CJUE poate susține urgența, conform [Deciziei CCR nr. 802/2009](https://legislatie.just.ro/Public/DetaliiDocumentAfis/108031). Cronologia prezentată justifică verificarea acestei iminențe, nu un verdict automat de neconstituționalitate. Conflictul punctual cu regulamentul european trebuie eliminat și prin raportare la art. 148.",
-      "euLawNote": "Regulamentul este direct aplicabil, iar legea națională nu poate extinde derogarea europeană. Directiva 2018/958, art. 2, privește accesul la profesii reglementate prin calificări profesionale; autorizarea și supravegherea PSP nu declanșează prin ele însele acel test. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32018L0958). TRIS nu devine aplicabil doar pentru că plățile folosesc infrastructură digitală: art. 1 alin. (4) din Directiva 2015/1535 exclude materiile acoperite de legislația UE privind serviciile financiare. Textul analizat nu reglementează distinct servicii AI. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535). Accesul nediscriminatoriu sprijină piața unică; condițiile BNR trebuie aplicate proporțional și transparent.",
+      "blindSpotsCaught": "Controlul parlamentar privește și conținutul ordonanței deja aplicabile, nu doar articolul unic de aprobare. Trimiterea finală la art. 408 privește sancțiunile pentru infrastructura de plăți și nu trebuie confundată cu regimul sancțiunilor internaționale, pentru care art. I pct. 1 trimite separat la OUG nr. 202/2008. Obligația raportării anuale a derogărilor către Comisie, introdusă prin art. 4², asigură transparență instituțională, dar nu înlocuiește delimitarea clară a derogării.",
+      "constitutionalityNote": "Nu rezultă din text o neconstituționalitate evidentă. Art. 1 alin. (5) cere însă clarificarea plafonului derogării și aplicarea previzibilă a excepției pentru mentenanță; pentru sancțiunile administrative sunt relevante legalitatea, proporționalitatea și accesul la justiție, fără ca art. 23 alin. (12), referitor la pedepse, să fie aplicat automat oricărei amenzi administrative. Sub art. 115 alin. (4), procedura europeană de infringement constituie un argument concret pentru urgență, dar termenele depășite și întârzierea intervenției Guvernului justifică examinarea caracterului extraordinar și a imposibilității amânării; simpla invocare a obligațiilor europene nu este suficientă prin ea însăși. Aprobarea parlamentară nu înlătură eventualele vicii constituționale originare ale OUG. Datele furnizate nu permit verificarea tuturor condițiilor procedurale de intrare în vigoare.",
+      "euLawNote": "Regulamentul (UE) 2024/886 este direct aplicabil în componentele sale regulamentare și modifică totodată directive pentru care sunt necesare măsuri naționale; obligațiile europene nu trebuie confundate cu explicațiile din expunerea de motive. Derogarea de lichiditate trebuie interpretată strict în limitele art. 5a din Regulamentul nr. 260/2012, iar regimul sancțiunilor pentru verificările privind sancțiunile financiare trebuie evaluat prin trimiterea la OUG nr. 202/2008, fără a presupune că amenda din art. 408 îl acoperă. Directiva (UE) 2018/958 nu instituie un test general pentru orice restricție economică: textul nu introduce aici condiții de acces la o profesie reglementată în sensul acesteia. Nu rezultă o obligație de notificare TRIS doar deoarece plățile folosesc tehnologie digitală; cadrul Directivei (UE) 2015/1535 exclude serviciile financiare relevante, iar textul nu reglementează distinct servicii AI. Accesul nediscriminatoriu susține piața unică și concurența, cu păstrarea cerințelor de stabilitate financiară.",
       "senatForm": {
-        "articleRef": "Art. I pct. 4 – art. 4¹ alin. (1) și (3)",
-        "proposalContent": "La alin. (1), «de trimitere și primire» se înlocuiește cu «de trimitere». Alin. (3): «Derogarea se aplică numai operațiunilor peste plafonul stabilit de Banca Națională a României, de minimum 25.000 euro, și numai în perioadele în care PSP nu trimite și nici nu primește transferuri credit neinstant în euro aferente conturilor în lei.»",
-        "argumentation": "Art. 5a alin. (2) din Regulamentul (UE) nr. 260/2012 permite derogarea numai pentru trimitere și numai peste plafonul stabilit de autoritate. Textul național include nejustificat primirea și folosește ambiguu «în limita unui plafon». Corectarea protejează utilizatorii și elimină conflictul cu norma UE direct aplicabilă.",
-        "otherComments": "Propunere pentru comisiile de raport ale Camerei Deputaților, aferentă PL-x 289/2026. Alin. (2) rămâne aplicabil evaluării lichidității și prelungirilor anuale. Termenul de amendamente indicat, 16.04.2026, este depășit; sugestia cetățenească necesită preluare și valorificare potrivit procedurii parlamentare."
-      }
+        "articleRef": "Art. I pct. 4 — art. 4¹ alin. (3)",
+        "proposalContent": "(3) Derogarea se aplică exclusiv operațiunilor care depășesc plafonul stabilit prin aprobare, de cel puțin 25.000 euro pe operațiune, și numai în perioadele în care PSP nu trimite și nu primește transferuri credit în euro neefectuate instant din conturi în lei, cu respectarea art. 5a din Regulamentul (UE) nr. 260/2012.",
+        "argumentation": "Sintagma «derogarea [...] în limita unui plafon» poate inversa sensul excepției. Textul trebuie să distingă plafonul până la care serviciul rămâne obligatoriu de operațiunile exceptate, pentru previzibilitate și conformitate cu regulamentul european.",
+        "otherComments": "Propunerea privește OUG nr. 5/2026 și poate fi introdusă ca modificare prin legea de aprobare. Comisiile trebuie să confrunte formularea cu versiunea oficială a art. 5a și să verifice corelarea alin. (1), astfel încât derogarea să nu apară ca scutire generală."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T03:53:27.114Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-19T16:47:10.126Z",
+      "reasons": [
+        "metoda",
+        "model"
+      ]
+    }
+  ]
 }

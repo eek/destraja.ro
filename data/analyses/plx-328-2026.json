@@ -2,124 +2,190 @@
   "billId": "PL-x 328/2026",
   "slug": "plx-328-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T02:44:30.846Z",
+  "updatedAt": "2026-11-19T16:46:46.076Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 750,
+    "ordinanceChars": 40485,
+    "memoChars": 23547,
+    "memoSupplied": 23547,
+    "marker": "SF-D3EF5356"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-328-2026.json",
+    "form": "senat",
+    "textHash": "d3ef53562104a6cc",
+    "fetchedAt": "2026-11-19T10:22:27.856Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 4.7,
+    "riskScore": 5.7,
     "riskLevel": "yellow",
-    "plainTitle": "Gaze pentru populație până în martie 2027: preț calculat după formulă și gaz românesc la 110 lei/MWh",
-    "summaryTlDr": "Măsura temporară este în general utilă pentru gospodării și pentru termoficare, pentru că producătorii interni sunt obligați să livreze gaz la 110 lei/MWh. În schimb, plafonul fix dispare: factura devine o formulă calculată lunar de fiecare furnizor, cu dezechilibre și ajustări pe care clientul nu le poate verifica.",
-    "initiatorClaim": "Guvernul spune că, la expirarea plafonării din OUG nr. 6/2025, ofertele furnizorilor depășeau plafonul cu cel puțin 8%, iar unele chiar cu 20%. Susține că o liberalizare bruscă ar fi adus inflație, ca la energia electrică (2,3 puncte procentuale, după BNR), și propune o tranziție treptată spre piața liberă până la intrarea în producție a Neptun Deep, în 2027.",
-    "realityCheck": "OUG obligă producătorii interni să vândă la 110 lei/MWh gazul necesar stocurilor pentru casnici și termoficare (art. 6). Fiecare furnizor își stabilește lunar prețul ca sumă a mai multor componente (art. 1–3): costul mediu de achiziție, dezechilibrele de până la 10%, cel mult 15 lei/MWh pentru furnizare, tarifele reglementate, TVA și accizele. Clientul plătește valoarea mai mică dintre acest preț și cel din contract. Expunerea de motive invocă sărăcia energetică, dar sprijinul ajunge la toate gospodăriile, indiferent de venit, iar costul nu iese din buget, ci este mutat la producători, inclusiv la Romgaz, controlată de stat. În textul disponibil nu există un calendar de reducere treptată: schema se oprește integral la 31 martie 2027.",
+    "plainTitle": "Gaze pentru populație până în martie 2027: producătorii vând la 110 lei/MWh, furnizorii facturează după o formulă de cost",
+    "summaryTlDr": "Este o plasă de siguranță temporară și utilă pentru gospodării. Are însă un cost ascuns: prețul la producător poate fi schimbat prin hotărâre de Guvern fără criterii, ANRE poate rescrie anexa unei ordonanțe de urgență, iar amenzile sunt foarte mari, mai ales pentru firmele nou intrate pe piață.",
+    "initiatorClaim": "Guvernul spune că vrea să evite un șoc de preț și un nou salt al inflației la expirarea OUG nr. 6/2025, pe 31 martie 2026. Scopul declarat este o trecere treptată la piața liberă pentru casnici, până la intrarea în producție a Neptun Deep și până la pregătirea ajutoarelor țintite pentru sărăcia energetică.",
+    "realityCheck": "OUG nu mai stabilește un plafon fix în lei pentru factura casnicului. Fiecare furnizor calculează prețul final din costul de achiziție (în principal gaz din producția internă la 110 lei/MWh, plus costuri de transport și înmagazinare), o componentă de furnizare de cel mult 15 lei/MWh, tarifele reglementate și taxele, iar clientul plătește valoarea mai mică dintre acest preț și cel din contract (art. 1-3). Costul este mutat pe producători, care sunt obligați să vândă sub prețul pieței, iar statul renunță, fără vreo cifrare, la impozitul pe veniturile suplimentare pentru aceste cantități (art. 7). Clienții noncasnici ies din schemă fără ca textul să o spună explicit.",
     "affectedGroups": [
       "Toți cetățenii",
-      "Proprietari & Imobiliare",
       "IMM & Antreprenori",
+      "Proprietari & Imobiliare",
       "Contabili & Fiscalitate"
     ],
     "senatForm": {
-      "articleRef": "Art. 2 alin. (3) din OUG nr. 12/2026",
-      "proposalContent": "(3) Componenta de achiziție pentru luna de facturare n+1 conține obligatoriu o componentă de ajustare, pozitivă sau negativă, egală cu diferența dintre valoarea realizată în luna n-1 și componenta de achiziție inclusă în prețul facturat pentru luna n-1. Ajustarea se afișează distinct pe factură, iar ANRE verifică trimestrial calculul.",
-      "argumentation": "Acum ajustarea „poate” fi inclusă, deci furnizorul o poate aplica doar când costul realizat a depășit cel facturat, iar diferențele în favoarea clientului rămân la furnizor. Ajustarea obligatorie, în ambele sensuri și afișată pe factură, face prețul verificabil și previzibil (art. 1 alin. (5) din Constituție). Datele există deja la furnizor.",
-      "otherComments": "Termenul de amendamente (30.04.2026) a trecut, iar OUG se aplică din martie 2026; propunerea rămâne utilă pentru dezbaterea din comisie sau pentru o inițiativă separată. De analizat și art. 2 alin. (1) lit. b): dezechilibrele furnizorului, până la 10% din CMP, trec în factura casnicilor; o limită mai mică ar stimula prognoze corecte."
+      "articleRef": "Art. 8 alin. (7) din OUG nr. 12/2026",
+      "proposalContent": "(7) În cazul în care contravenientul nu are cifră de afaceri determinabilă potrivit alin. (3), pentru nerespectarea obligațiilor prevăzute la alin. (1) se aplică amendă de la 50.000 lei la 1.000.000 lei, individualizată în funcție de gravitatea faptei și de cantitățile de gaze naturale afectate.",
+      "argumentation": "Forma actuală impune unui furnizor nou-intrat, fără cifră de afaceri, o amendă minimă de 1.000.000 lei chiar pentru o abatere minoră, de multe ori peste amenda unui furnizor mic activ (1% din cifra de afaceri). Pragul descurajează intrarea pe piață și încalcă proporționalitatea. Alin. (7) se suprapune și cu alin. (3), care acoperă deja parțial acest caz.",
+      "otherComments": "Art. 10 apare fără dată de intrare în vigoare a art. 8 („la data ... 2026”) – de verificat în MO nr. 178/2026 și corectat. Anexa pct. 5 trimite la „pct. 2” în loc de pct. 1; pct. 9 ultimul paragraf dublează pct. 11; art. 1 alin. (3) are cuvinte lipsă („producătorilor de numai pentru”). Art. 6 alin. (7) lasă ANRE să modifice anexa unei OUG."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 62119,
-      "riskScore": 5,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 93086,
+      "sourceEndMarker": "SF-D3EF5356",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Formula de calcul a facturilor la gaze pentru populație (aprilie 2026 – martie 2027) după eliminarea plafonului fix",
-      "verdictShort": "Ordonanța evită un șoc tarifar brusc la 1 aprilie 2026 prin obligarea producătorilor interni să vândă gazul cu 110 lei/MWh și plafonarea marjei de furnizare la 15 lei/MWh. Totuși, plafonul fix de 0,31 lei/kWh dispare și este înlocuit cu un preț calculat lunar, care transferă direct în factura cetățenilor costul gazelor mai scumpe din import în lunile geroase de iarnă.",
-      "initiatorClaim": "Guvernul susține că instituie un mecanism tranzitoriu pentru perioada 1 aprilie 2026 – 31 martie 2027, menit să asigure stabilitatea și predictibilitatea prețului la gaze naturale pentru consumatorii casnici și producătorii de energie termică (CET-uri), pregătind trecerea treptată la piața liberalizată până la intrarea în producție a perimetrului Neptun Deep în 2027.",
-      "realityCheck": "În realitate, ordonanța înlocuiește plafonul fix la consumator și compensarea de la bugetul de stat cu o formulă de tip „cost-plus” (Art. 1 și Art. 2), prin care prețul facturat fluctuează lunar în funcție de costul mediu ponderat de achiziție, dezechilibre (până la 10%) și regularizări din urmă cu două luni (luna n-1). Deși prețul gazului din producția internă este fixat la 110 lei/MWh (Art. 6), în zilele de iarnă în care producția internă și depozitele nu acoperă vârful de consum, furnizorii vor introduce în formulă gaze din import sau de pe piața SPOT la preț concurențial, iar diferența va fi suportată integral de populație, nu de bugetul de stat.",
+      "plainTitle": "Preț reglementat prin formulă la gazele pentru populație (2026–2027), cu vânzare forțată la 110 lei/MWh și riscuri constituționale",
+      "verdictShort": "OUG 12/2026 înlocuiește vechea plafonare cu un mecanism temporar de tip cost-plus (fără plafon final fix) și obligă producătorii să vândă la 110 lei/MWh, dar conține vicii serioase de neconstituționalitate, sancțiuni contradictorii și zero calcule de impact bugetar. Deși scopul tranziției e legitim, legea a trecut tacit de Senat și expune România la proceduri de infringement ale UE.",
+      "initiatorClaim": "Guvernul susține că prelungește protecția consumatorilor casnici și a termoficării în perioada 1 aprilie 2026 – 31 martie 2027 pentru a evita un șoc inflaționist similar liberalizării energiei electrice, asigurând stocurile de iarnă de 90% și o tranziție treptată până la exploatarea Neptun Deep.",
+      "realityCheck": "În realitate, ordonanța nu mai garantează un plafon maxim fix în factura populației: dacă gazul intern necontractat la 110 lei/MWh nu ajunge (cantitățile pre-contractate sunt excluse prin Anexa pct. 4), prețul de pe piața SPOT/import și până la 10% dezechilibre trec direct în factură (art. 2), iar firmele (non-casnicii) sunt liberalizate brusc, deși furnizorii rămân obligați să înmagazineze gaze și pentru ele. În plus, Guvernul acordă scutiri de taxe și reduce baza redevențelor (art. 6 alin. 6 și art. 7) fără a completa impactul bugetar și își arogă dreptul de a schimba prin HG și ordin ANRE un act cu putere de lege.",
       "affectedGroups": [
         "Toți cetățenii",
+        "IMM & Antreprenori",
         "Proprietari & Imobiliare",
-        "IMM & Antreprenori"
+        "Contabili & Fiscalitate"
       ],
       "keyFindings": [
-        "Dispariția plafonului fix și facturarea variabilă lunară (Art. 1 și Art. 2): Prețul final nu mai este fixat la 0,31 lei/kWh, ci devine suma dintre costul mediu ponderat de achiziție (CMP), marja de furnizare (max. 15 lei/MWh), tarifele ANRE și taxe; conform Art. 2 alin. (3), factura lunii n+1 include și o componentă de ajustare pentru diferențele dintre costul estimat și cel realizat în luna n-1, ceea ce reduce predictibilitatea facturilor de iarnă.",
-        "Obligația de livrare la preț reglementat de 110 lei/MWh pentru producători (Art. 6 alin. 1): Producătorii interni onshore și offshore, indiferent de data începerii activității, sunt obligați să vândă gazele necesare consumului casnic, termoficării și înmagazinării (stoc minim de 90% conform Art. 5) la 110 lei/MWh (în scădere de la 120 lei/MWh în reglementarea anterioară), mutând întreaga povară a schemei de pe bugetul de stat pe producători și pe consumatori (pentru cota de import).",
-        "Erori materiale și neglijențe de redactare în textul oficial al OUG: La Art. 1 alin. (3) lipsește sintagma „energie termică” („precum și producătorilor de numai pentru cantitatea...”), la Art. 2 alin. (2) variabila din formulă este scrisă „Qpci”, dar în legendă este definită greșit drept „Opci”, iar în preambul apar dezacorduri gramaticale („factorii externi determinați de determinat presiuni semnificative asupra pieței internaționale a prețurile manifestă”)."
+        "Modificarea legii prin acte inferioare: art. 6 alin. (2) permite schimbarea prețului de 110 lei/MWh prin simplă Hotărâre de Guvern după criterii vagi („evoluția geopolitică”), iar art. 6 alin. (7) permite ANRE să modifice Anexa care face parte integrantă din ordonanță.",
+        "Scutiri fiscale fără impact bugetar calculat: art. 7 scutește producătorii de impozitul pe veniturile suplimentare (OG 7/2013 și art. 20 din Legea offshore 256/2018), iar art. 6 alin. (6) leagă redevențele de prețul de 110 lei/MWh, însă Secțiunea a 4-a din Expunerea de motive (impactul financiar) este complet goală.",
+        "Sancțiuni draconice, contradictorii și trimiteri greșite: art. 8 alin. (1) impune amenzi de 1%-5% din cifra de afaceri (fără drept de plată la jumătate și cu prescripție de 2 ani), art. 8 alin. (7) intră în conflict direct cu alin. (3) pentru firmele fără cifră de afaceri în anul anterior, iar Anexa pct. 5 face trimitere greșită la pct. 2 (în loc de pct. 1), deși e sancționată cu 100.000–1.000.000 lei.",
+        "Alocare administrativă a pieței și presiune de cash-flow: Anexa pct. 13 obligă Transgaz (OTS) să cupleze forțat furnizorii mari cu producătorii mici și invers, iar Anexa pct. 9 obligă furnizorii și CET-urile să constituie garanții financiare sau să plătească în avans cu 2 zile lucrătoare înainte de livrare."
       ],
-      "blindSpotsCaught": "În Expunerea de Motive (secțiunea 2.2), Guvernul recunoaște deschis adevăratul motiv pentru care menține prețurile reglementate generalizate pentru toată populația (inclusiv pentru consumatorii cu venituri mari): eșecul interinstituțional în operaționalizarea sprijinului țintit pentru sărăcia energetică (la tichetele de energie electrică, din 1,3 milioane de potențiali beneficiari doar 712.000 au primit tichete). De asemenea, la Art. 4 alin. (1), împărțirea consumului total al asociației de proprietari în mod egal la numărul de spații locative din condominiu nu mai are relevanță practică în absența unor tranșe de consum plafonate, fiind un rest legislativ copiat mecanic din vechile ordonanțe.",
-      "constitutionalityNote": "Proiectul a trecut tacit de Senat în baza Art. 115 alin. (5) teza a III-a din Constituție. Sub aspectul calității legii (Art. 1 alin. 5 din Constituție și Legea nr. 24/2000), erorile materiale din Art. 1 alin. (3) și neconcordanța simbolurilor matematice din formula de la Art. 2 alin. (2) („Qpci” vs. „Opci”) trebuie corectate în Camera Deputaților. Sub aspectul Art. 45 și Art. 135 (libertatea economică și economia de piață), impunerea prețului de 110 lei/MWh producătorilor este justificată de Guvern ca măsură temporară de protecție socială (până la 31 martie 2027), însă lipsa unei țintiri exclusiv către consumatorii vulnerabili slăbește testul de proporționalitate.",
-      "euLawNote": "Măsura ridică probleme de compatibilitate cu Directiva 2009/73/CE și noul Pachet privind piețele gazelor naturale (Directiva UE 2024/1788), precum și cu jurisprudența CJUE (cauza C-265/08, Federutility). Comisia Europeană a declanșat deja procedura de infringement împotriva României pentru plafonarea prețului angro la producători și distorsionarea pieței interne de gaze; prelungirea prețului reglementat de 110 lei/MWh la producători până în martie 2027 pentru toți clienții casnici, fără criterii de vulnerabilitate, menține riscul de sancțiuni europene.",
+      "blindSpotsCaught": "În Expunerea de motive, Secțiunile 3.4.2 și 5.3 susțin că ordonanța „nu se referă” la dreptul UE, concurență sau ajutoare de stat — deși Anexa pct. 16 aplică explicit Regulamentul (UE) 2017/1938, art. 6 impune prețuri reglementate angro interzise în principiu de piața unică, iar art. 7 acordă scutiri fiscale selective. Totodată, art. 4 păstrează calculul consumului mediu pe apartament copiat din vechile scheme cu praguri de consum, deși noua ordonanță nu mai are praguri, iar Anexa pct. 11 dublează cuvânt cu cuvânt un paragraf din pct. 9.",
+      "constitutionalityNote": "Risc ridicat pe art. 1 alin. (5) (calitatea și previzibilitatea legii; ierarhia normelor) din cauza modificării prețului din OUG prin HG (art. 6 alin. 2) și a anexei prin ordin ANRE (art. 6 alin. 7), a conflictului dintre art. 8 alin. (3) și alin. (7) și a trimiterii eronate din Anexa pct. 5. Ridică probleme și pe art. 115 alin. (4) (expirarea OUG 6/2025 la 31 martie 2026 era previzibilă cu un an înainte, nu o urgență imprevizibilă), art. 44/45/135 (restrângerea libertății contractuale și economice fără criterii stricte) și art. 138 alin. (5) / Legea 500/2002 (diminuarea veniturilor din redevențe și taxe fără fișă financiară). Adoptarea tacită în Senat (art. 115 alin. 5) a eliminat dezbaterea camerei de reflecție.",
+      "euLawNote": "Directiva (UE) 2018/958 (profesii reglementate) și Directiva (UE) 2015/1535 (TRIS/servicii digitale) nu sunt incidente. În schimb, OUG 12/2026 creează riscuri majore față de Directiva (UE) 2024/1788 privind piața internă de gaze naturale și jurisprudența CJUE (cauzele Federutility și ANODE): reglementarea prețului angro la 110 lei/MWh pentru toți producătorii (onshore/offshore) și plafonarea marjei pentru toți casnicii (nu doar vulnerabili) riscă proceduri de infringement. Alocarea internă obligatorie poate fi calificată drept restricție cantitativă la export (art. 35 TFUE), iar scutirile din art. 7 și redevența recalculată (art. 6 alin. 6) necesită verificare pe art. 107 TFUE (ajutor de stat), omisă complet de inițiator.",
       "senatForm": {
-        "articleRef": "Art. 1 alin. (3) și Art. 2 alin. (2)-(3) din OUG",
-        "proposalContent": "La art. 1 alin. (3) din OUG, sintagma „producătorilor de numai pentru” se înlocuiește cu „producătorilor de energie termică, numai pentru”. La art. 2 alin. (2), simbolul „Opci” din legenda formulei se înlocuiește cu „Qpci”, iar la alin. (3) regularizarea lunară din factura clienților casnici se plafonează la cel mult 5% față de luna anterioară.",
-        "argumentation": "Textul OUG nr. 12/2026 conține erori materiale care încalcă Legea nr. 24/2000 (omisiunea cuvintelor „energie termică” la art. 1 alin. 3 și neconcordanța dintre variabila „Qpci” din formulă și „Opci” din legendă). În plus, limitarea ajustării din luna n+1 previne șocurile de facturare în lunile de iarnă când intră în coș gaze din import la preț SPOT.",
-        "otherComments": "În Expunerea de motive, Guvernul recunoaște că prelungește intervenția generalizată în piață deoarece mecanismul țintit pentru consumatorii vulnerabili funcționează deficitar. Solicităm comisiilor raportoare să impună un calendar ferm de operaționalizare a sprijinului pentru sărăcia energetică până la 31 martie 2027, pentru a evita sancțiunile UE."
-      }
+        "articleRef": "Art. 6(2),(7), Art. 8(7) și Anexa pct. 5",
+        "proposalContent": "1. La art. 6, alin. (2) și (7) se abrogă (modificarea prețului de 110 lei/MWh și a anexei să se facă doar prin lege). 2. La art. 8, alin. (7) se modifică: amenda de 1-10 mil. lei se aplică exclusiv firmelor nou-înființate fără cifră de afaceri anterioară, eliminând conflictul cu alin. (3). 3. La pct. 5 din anexă, trimiterea la «pct. 2» se corectează cu «pct. 1».",
+        "argumentation": "Art. 6(2) și (7) permit modificarea unui act cu putere de lege prin HG și ordin ANRE, încălcând art. 1(5) și art. 115 din Constituție. Art. 8(7) contrazice art. 8(3) pentru firmele fără cifră de afaceri în anul anterior, creând insecuritate juridică. Pct. 5 din anexă face trimitere eronată la pct. 2 (în loc de pct. 1), deși e sancționat cu până la 1 mil. lei.",
+        "otherComments": "Solicităm completarea impactului bugetar (Secțiunea 4 e goală) pentru scutirile din art. 7 și redevențele din art. 6(6), plus analiza de conformitate cu dreptul UE (Directiva 2024/1788, art. 107 TFUE). Recomandăm eliminarea dublurii din Anexa pct. 11 (identic cu pct. 9) și garanții procedurale clare pentru amenzile ANPC pe cifra de afaceri."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 210418,
-      "riskScore": 4,
+      "durationMs": 83223,
+      "sourceEndMarker": "SF-D3EF5356",
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Gaze pentru populație până în martie 2027: preț calculat după formulă și gaz românesc la 110 lei/MWh",
-      "verdictShort": "Măsura temporară este în general utilă pentru gospodării și pentru termoficare, pentru că producătorii interni sunt obligați să livreze gaz la 110 lei/MWh. În schimb, plafonul fix dispare: factura devine o formulă calculată lunar de fiecare furnizor, cu dezechilibre și ajustări pe care clientul nu le poate verifica.",
-      "initiatorClaim": "Guvernul spune că, la expirarea plafonării din OUG nr. 6/2025, ofertele furnizorilor depășeau plafonul cu cel puțin 8%, iar unele chiar cu 20%. Susține că o liberalizare bruscă ar fi adus inflație, ca la energia electrică (2,3 puncte procentuale, după BNR), și propune o tranziție treptată spre piața liberă până la intrarea în producție a Neptun Deep, în 2027.",
-      "realityCheck": "OUG obligă producătorii interni să vândă la 110 lei/MWh gazul necesar stocurilor pentru casnici și termoficare (art. 6). Fiecare furnizor își stabilește lunar prețul ca sumă a mai multor componente (art. 1–3): costul mediu de achiziție, dezechilibrele de până la 10%, cel mult 15 lei/MWh pentru furnizare, tarifele reglementate, TVA și accizele. Clientul plătește valoarea mai mică dintre acest preț și cel din contract. Expunerea de motive invocă sărăcia energetică, dar sprijinul ajunge la toate gospodăriile, indiferent de venit, iar costul nu iese din buget, ci este mutat la producători, inclusiv la Romgaz, controlată de stat. În textul disponibil nu există un calendar de reducere treptată: schema se oprește integral la 31 martie 2027.",
+      "plainTitle": "Gaze pentru populație până în martie 2027: producătorii vând la 110 lei/MWh, furnizorii facturează după o formulă de cost",
+      "verdictShort": "Este o plasă de siguranță temporară și utilă pentru gospodării. Are însă un cost ascuns: prețul la producător poate fi schimbat prin hotărâre de Guvern fără criterii, ANRE poate rescrie anexa unei ordonanțe de urgență, iar amenzile sunt foarte mari, mai ales pentru firmele nou intrate pe piață.",
+      "initiatorClaim": "Guvernul spune că vrea să evite un șoc de preț și un nou salt al inflației la expirarea OUG nr. 6/2025, pe 31 martie 2026. Scopul declarat este o trecere treptată la piața liberă pentru casnici, până la intrarea în producție a Neptun Deep și până la pregătirea ajutoarelor țintite pentru sărăcia energetică.",
+      "realityCheck": "OUG nu mai stabilește un plafon fix în lei pentru factura casnicului. Fiecare furnizor calculează prețul final din costul de achiziție (în principal gaz din producția internă la 110 lei/MWh, plus costuri de transport și înmagazinare), o componentă de furnizare de cel mult 15 lei/MWh, tarifele reglementate și taxele, iar clientul plătește valoarea mai mică dintre acest preț și cel din contract (art. 1-3). Costul este mutat pe producători, care sunt obligați să vândă sub prețul pieței, iar statul renunță, fără vreo cifrare, la impozitul pe veniturile suplimentare pentru aceste cantități (art. 7). Clienții noncasnici ies din schemă fără ca textul să o spună explicit.",
       "affectedGroups": [
         "Toți cetățenii",
+        "IMM & Antreprenori",
         "Proprietari & Imobiliare",
-        "IMM & Antreprenori"
+        "Contabili & Fiscalitate"
       ],
       "keyFindings": [
-        "Art. 6 alin. (1): producătorii cu extracție onshore și/sau offshore, „indiferent de data începerii acestei activități”, trebuie să livreze la 110 lei/MWh cantitățile necesare furnizorilor și termocentralelor. Formularea poate prinde și producția nouă din Marea Neagră, dacă pornește înainte de 31 martie 2027.",
-        "Art. 1 alin. (2)–(3): clientul plătește valoarea cea mai mică dintre prețul din contract și prețul calculat, ceea ce este o protecție reală. Excepția o reprezintă clienții preluați în regim de ultimă instanță, cărora li se aplică direct formula.",
-        "Art. 2 alin. (1) lit. b) și alin. (3): dezechilibrele furnizorului, până la 10% din costul mediu ponderat, trec în factură. Ajustarea pentru luna n-1 „poate” fi inclusă, deci furnizorul o poate aplica doar când îi este favorabilă.",
-        "Art. 2 alin. (2): când gazul la 110 lei/MWh nu ajunge, cantitățile cumpărate la preț concurențial (Pc) intră în formulă fără nicio limită. Prețul final nu are un plafon fix.",
-        "Art. 3 și art. 5: marja de furnizare este limitată la 15 lei/MWh. În schimb, furnizorii și termocentralele trebuie să constituie până la 31 octombrie 2026 stocuri minime care, cumulat, ajung la cel puțin 90% din capacitatea națională de înmagazinare, iar costul înmagazinării intră în prețul plătit de client.",
-        "Art. 1 alin. (1): schema acoperă doar clienții casnici și termocentralele, pentru gazul destinat populației. IMM-urile și ceilalți clienți noncasnici plătesc prețul pieței."
+        "Art. 6 alin. (1): producătorii interni sunt obligați să livreze la 110 lei/MWh, în ordinea de prioritate: stocare pentru CC, stocare pentru PET, consum curent CC, consum curent PET. Art. 6 alin. (2) permite modificarea prețului prin HG „în funcție de evoluțiile” pieței și de evoluția geopolitică, fără plafon, formulă sau criterii. Art. 6 alin. (3) obligă părțile să prevadă în contracte clauze care să permită această modificare.",
+        "Art. 6 alin. (7): ANRE „va actualiza modul de calcul” stabilit în anexă. Anexa face parte integrantă din OUG, deci are forță de lege, iar o autoritate administrativă primește astfel puterea de a modifica un act cu forță de lege.",
+        "Art. 7: cantitățile vândute la 110 lei/MWh sunt scutite de impozitul din OG nr. 7/2013 și de art. 20 din Legea nr. 256/2018. Secțiunea 4 din expunerea de motive (impactul bugetar) este goală, iar fișa financiară cerută de art. 15 din Legea nr. 500/2002 lipsește, deși veniturile bugetului scad.",
+        "Art. 8: amenzile sunt de 1-5% din cifra de afaceri. Pentru persoanele juridice nou-înființate sau fără cifră de afaceri, alin. (7) prevede între 1.000.000 și 10.000.000 lei. Sunt excluse plafonul general din art. 8 alin. (2) lit. a) din OG nr. 2/2001 și posibilitatea de a plăti jumătate din minim (art. 28), iar termenul de prescripție este de 2 ani în loc de 6 luni.",
+        "Art. 8 alin. (1) sancționează global „obligațiile prevăzute la art. 1-6”, inclusiv articole care nu conțin obligații clare, cum sunt art. 4 sau art. 6 alin. (2). Tipicitatea contravenției este astfel slabă.",
+        "Art. 4 (împărțirea consumului asociației de proprietari la numărul de apartamente) este preluat din schemele anterioare, unde existau praguri de consum. Schema actuală nu mai are niciun prag, deci norma nu mai are obiect practic.",
+        "Art. 10 apare în textul primit fără dată („intră în vigoare la data ... 2026”). Momentul de la care se aplică sancțiunile din art. 8 nu poate fi stabilit din acest text.",
+        "Anexa, pct. 13: OTS atribuie cantitățile după cota de piață, cu referiri la „primii furnizori cu cota de piață cea mai mare”, fără să precizeze câți sunt aceștia. Mecanismul este netransparent și favorizează jucătorii dominanți."
       ],
-      "blindSpotsCaught": "Senatul nu a dezbătut ordonanța: a fost adoptată tacit, în temeiul art. 115 alin. (5) teza a III-a. OUG se aplică din martie 2026, termenul de amendamente (30.04.2026) a trecut, iar proiectul este tot la comisii, cu aproximativ 5 luni înainte ca schema să expire. Orice amendament ar produce efecte cel mult câteva luni. Art. 4 explică modul în care se împarte consumul pe apartamente în condominii, dar în textul disponibil nu se vede la ce servește acest calcul. Textul extras conține și erori de redactare, de exemplu la art. 1 alin. (3): „producătorilor de numai pentru”. Dacă ele apar și în Monitorul Oficial, legea de aprobare le poate corecta.",
-      "constitutionalityNote": "Art. 115 alin. (4): urgența invocă în primul rând expirarea schemei la 31 martie 2026, o dată cunoscută de un an, iar jurisprudența CCR cere ca situația extraordinară să nu fie creată de întârzierea Guvernului. Mai solide sunt argumentele legate de iarna grea, de stocurile europene și de contextul geopolitic. Art. 115 alin. (6): obligația de a vinde la 110 lei/MWh atinge dreptul de proprietate (art. 44) și libertatea economică (art. 45), drepturi pe care o ordonanță de urgență nu le poate afecta. Apărarea se sprijină pe caracterul temporar al măsurii, pe interesul general și pe faptul că resursele subsolului sunt proprietate publică (art. 136 alin. (3)). Totuși, proporționalitatea cerută de art. 53 slăbește pe măsură ce intervenția se prelungește, an de an, din 2021. Art. 1 alin. (5): prețul este previzibil ca metodă de calcul, dar nu și ca sumă, iar ajustarea facultativă din art. 2 alin. (3) reduce și mai mult previzibilitatea pentru consumator.",
-      "euLawNote": "Directiva 2009/73/CE (art. 3) și hotărârea CJUE Federutility (C-265/08) permit intervenția statului în prețul gazelor pentru clienții finali doar dacă urmărește un interes economic general și este proporțională, limitată în timp, transparentă și nediscriminatorie. Schema este limitată la 12 luni, dar este generală (toate gospodăriile, nu doar cele vulnerabile) și continuă măsuri aplicate din noiembrie 2021. Asta o expune criticii, mai ales că noul pachet al gazelor (Directiva (UE) 2024/1788) favorizează intervențiile țintite. Obligația de a livra producția internă la preț reglementat poate fi analizată ca restricție cu efect echivalent la export (art. 35 TFUE). Vânzarea sub prețul pieței de către Romgaz, controlată de stat, ridică întrebări de ajutor de stat (art. 107 TFUE). Directiva (UE) 2018/958 nu se aplică, pentru că textul nu reglementează profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu este relevantă, pentru că textul nu conține reguli tehnice pentru produse sau servicii digitale.",
+      "blindSpotsCaught": "Expunerea de motive (pct. 3.4.1) recunoaște că actul „liberalizează complet” piața pentru noncasnici. Textul OUG nu spune asta, efectul vine din simpla omisiune a acestor clienți. La pct. 3.4.2, expunerea declară că actul nu are impact asupra concurenței și ajutorului de stat, dar la pct. 2.3 se simte obligată să argumenteze că scutirea fiscală „nu conferă un avantaj economic selectiv”. Anexa conține erori de trimitere: pct. 5 trimite la „pct. 2” în loc de pct. 1, iar ultimul paragraf al pct. 9 este dublat la pct. 11. Art. 1 alin. (3) are cuvinte lipsă („producătorilor de numai pentru”). Art. 2 alin. (3) formulează confuz ajustarea dintre lunile n-1 și n+1. Senatul a adoptat proiectul tacit (art. 115 alin. (5) din Constituție), deci fără dezbatere. Suntem la 19 noiembrie 2026, iar schema se aplică de 7 luni și jumătate. Orice amendament la prețul de 110 lei/MWh sau la componentele de cost ar trebui să fie strict pentru viitor, ca să nu încalce neretroactivitatea (art. 15 alin. (2) din Constituție).",
+      "constitutionalityNote": "Urgența (art. 115 alin. (4)) este motivată credibil: expira schema anterioară, era nevoie de stocuri pentru iarnă, iar ofertele de pe piață depășeau plafonul. Riscurile constituționale sunt următoarele. (1) Art. 115 alin. (6): OUG impune producătorilor vânzarea la preț administrat și clauze contractuale obligatorii, ceea ce afectează dreptul de proprietate (art. 44) și libertatea economică (art. 45). Măsura e apărabilă prin caracterul temporar și prin art. 135 alin. (2) lit. b) și f), dar doar dacă rămâne proporțională (art. 53). (2) Claritatea și previzibilitatea (art. 1 alin. (5)) sunt afectate de art. 6 alin. (2), care lasă la HG un element esențial (prețul) fără criterii, și de art. 6 alin. (7), care permite ANRE să modifice o anexă cu forță de lege, cu încălcarea ierarhiei actelor normative. (3) Amenda minimă de 1.000.000 lei pentru firmele nou-înființate (art. 8 alin. (7)), excluderea plății a jumătate din minim și trimiterea globală la art. 1-6 ridică probleme de proporționalitate și de tipicitate a contravenției. (4) Lipsa datei din art. 10, în textul primit, face incertă aplicarea în timp a sancțiunilor. Aceasta trebuie verificată în Monitorul Oficial nr. 178/2026.",
+      "euLawNote": "Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) nu se aplică: OUG nu reglementează accesul la vreo profesie. Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu sunt reglementate servicii ale societății informaționale. Dreptul UE relevant este altul. (a) Dreptul UE al pieței gazelor (Directiva 2009/73/CE, înlocuită de Directiva (UE) 2024/1788): intervenția publică în stabilirea prețului pentru casnici este permisă doar dacă urmărește un interes economic general, este proporțională, limitată în timp, nediscriminatorie și transparentă (CJUE, Federutility C-265/08 și ANODE C-121/15). Durata fixă, de un an, ajută, dar aplicarea generală tuturor casnicilor, nu doar celor vulnerabili, și preluarea costului doar de producătorii interni trebuie justificate mai solid. (b) Ajutorul de stat (art. 107 TFUE): scutirea selectivă de impozit pentru producători (art. 7) poate constitui ajutor. Nu reiese din text că s-a făcut o notificare la Comisie sau o încadrare într-o excepție de la notificare. (c) Regulamentul (UE) 2017/1938: ținta de 90% și traiectoria din pct. 16 al anexei sunt aliniate la obligațiile UE privind stocarea gazelor.",
       "senatForm": {
-        "articleRef": "Art. 2 alin. (3) din OUG nr. 12/2026",
-        "proposalContent": "(3) Componenta de achiziție pentru luna de facturare n+1 conține obligatoriu o componentă de ajustare, pozitivă sau negativă, egală cu diferența dintre valoarea realizată în luna n-1 și componenta de achiziție inclusă în prețul facturat pentru luna n-1. Ajustarea se afișează distinct pe factură, iar ANRE verifică trimestrial calculul.",
-        "argumentation": "Acum ajustarea „poate” fi inclusă, deci furnizorul o poate aplica doar când costul realizat a depășit cel facturat, iar diferențele în favoarea clientului rămân la furnizor. Ajustarea obligatorie, în ambele sensuri și afișată pe factură, face prețul verificabil și previzibil (art. 1 alin. (5) din Constituție). Datele există deja la furnizor.",
-        "otherComments": "Termenul de amendamente (30.04.2026) a trecut, iar OUG se aplică din martie 2026; propunerea rămâne utilă pentru dezbaterea din comisie sau pentru o inițiativă separată. De analizat și art. 2 alin. (1) lit. b): dezechilibrele furnizorului, până la 10% din CMP, trec în factura casnicilor; o limită mai mică ar stimula prognoze corecte."
-      }
+        "articleRef": "Art. 8 alin. (7) din OUG nr. 12/2026",
+        "proposalContent": "(7) În cazul în care contravenientul nu are cifră de afaceri determinabilă potrivit alin. (3), pentru nerespectarea obligațiilor prevăzute la alin. (1) se aplică amendă de la 50.000 lei la 1.000.000 lei, individualizată în funcție de gravitatea faptei și de cantitățile de gaze naturale afectate.",
+        "argumentation": "Forma actuală impune unui furnizor nou-intrat, fără cifră de afaceri, o amendă minimă de 1.000.000 lei chiar pentru o abatere minoră, de multe ori peste amenda unui furnizor mic activ (1% din cifra de afaceri). Pragul descurajează intrarea pe piață și încalcă proporționalitatea. Alin. (7) se suprapune și cu alin. (3), care acoperă deja parțial acest caz.",
+        "otherComments": "Art. 10 apare fără dată de intrare în vigoare a art. 8 („la data ... 2026”) – de verificat în MO nr. 178/2026 și corectat. Anexa pct. 5 trimite la „pct. 2” în loc de pct. 1; pct. 9 ultimul paragraf dublează pct. 11; art. 1 alin. (3) are cuvinte lipsă („producătorilor de numai pentru”). Art. 6 alin. (7) lasă ANRE să modifice anexa unei OUG."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 111397,
-      "riskScore": 5,
+      "durationMs": 85665,
+      "sourceEndMarker": "SF-D3EF5356",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Gaze cu preț controlat temporar, dar fără garanția unei facturi fixe",
-      "verdictShort": "Protecția temporară a populației este utilă, însă forma analizată permite variația facturilor și păstrează riscuri pentru concurență. Sunt necesare reguli mai clare pentru regularizări și o justificare solidă a sancțiunilor aplicabile operatorilor nou-înființați.",
-      "initiatorClaim": "Guvernul urmărește evitarea scumpirilor bruște după expirarea schemei anterioare, refacerea stocurilor și trecerea treptată la prețuri liberalizate. Sprijinul destinat punctual persoanelor afectate de sărăcia energetică este prezentat ca obiectiv de pregătit.",
-      "realityCheck": "Art. 1–3 instituie o formulă obligatorie de preț bazată pe costuri, cu maximum 15 lei/MWh pentru furnizare și, în afara furnizării de ultimă instanță, protecția prețului contractual mai mic. Cei 110 lei/MWh din art. 6 reprezintă prețul anumitor livrări din producția internă, nu prețul final al facturii; achizițiile concurențiale, tarifele, taxele și ajustările pot modifica suma plătită. Mecanismul acoperă clienții casnici indiferent de venit și anumite consumuri pentru termoficare, fără să instituie prin articolele reproduse un ajutor individual condiționat de vulnerabilitate.",
+      "plainTitle": "Gaze pentru populație: preț controlat temporar și amenzi foarte mari",
+      "verdictShort": "Protecția temporară a populației are o utilitate reală, dar mecanismul nu garantează o factură constantă. Principalele riscuri sunt sancțiunile disproporționate pentru firmele fără cifră de afaceri, transferarea costurilor de achiziție în facturi și insuficienta fundamentare a efectelor fiscale și concurențiale.",
+      "initiatorClaim": "Guvernul urmărește evitarea unui șoc de preț după încetarea schemei precedente și refacerea stocurilor pentru iarna 2026–2027. Perioada tranzitorie ar permite pregătirea sprijinului destinat consumatorilor vulnerabili.",
+      "realityCheck": "Art. 1–3 introduc un preț calculat din costurile de achiziție, furnizare, tarife și taxe, cu aplicarea prețului contractual dacă este mai mic, exceptând furnizarea de ultimă instanță. Prețul de 110 lei/MWh privește anumite livrări ale producătorilor, nu factura finală, iar achizițiile concurențiale, dezechilibrele și ajustările pot majora suma plătită. Actul impune stocuri și transferuri obligatorii între operatori, acordă exceptări fiscale producătorilor și nu instituie efectiv viitorul ajutor țintit pentru consumatorii vulnerabili.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Proprietari & Imobiliare",
+        "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 1 alin. (2) oferă o protecție concretă: se facturează minimum dintre prețul contractual și cel rezultat din formulă. Art. 1 alin. (3) menține formula pentru furnizarea de ultimă instanță, dar nu păstrează comparația cu prețul fostului contract.",
-        "Art. 2 alin. (1) lit. b) permite recuperarea dezechilibrului efectiv, în limita a 10% din CMP; nu introduce automat o suprataxă de 10%. Alin. (3) permite regularizări pentru luna n-1 în luna n+1, însă ar trebui să precizeze explicit semnul diferenței, restituirea economiilor și prezentarea calculului pe factură.",
-        "Art. 5 impune constituirea unui stoc agregat de minimum 90% din capacitatea națională, repartizat potrivit anexei, nu 90% pentru fiecare furnizor separat. Finanțarea stocurilor și calculele lunare pot apăsa mai mult asupra operatorilor mici; articolele reproduse nu cer cetățenilor dosare pentru accesarea mecanismului.",
-        "Art. 4 utilizează consumul anual mediu pe spațiu locativ pentru condominii și anumite ansambluri rezidențiale. Media nu identifică consumul efectiv al fiecărei locuințe; norma trebuie corelată explicit cu regulile de măsurare și repartizare, fără a deduce automat că toate apartamentele trebuie facturate identic.",
-        "Completare din textul oficial integral: art. 6 alin. (2) permite modificarea prețului de 110 lei/MWh prin hotărâre a Guvernului, iar art. 7 exceptează cantitățile vizate de la două regimuri de impozitare a veniturilor suplimentare. Există astfel un posibil impact asupra încasărilor publice, care nu poate fi cuantificat din documentele reproduse. [OUG nr. 12/2026, forma inițială](https://static.anaf.ro/static/10/Anaf/legislatie/OUG_12_2026.pdf).",
-        "Completare din textul oficial integral: art. 8 alin. (1) prevede amenzi de 1–5% din cifra de afaceri, definită la alin. (3) prin raportare la activitatea licențiată. Alin. (7) prevede 1–10 milioane lei pentru persoane juridice nou-înființate și/sau fără cifră de afaceri în anul anterior. Diferența poate dezavantaja intrarea pe piață și cere justificare proporțională; sancțiunile nu vizează gospodăriile. [Art. 8](https://static.anaf.ro/static/10/Anaf/legislatie/OUG_12_2026.pdf)."
+        "Art. 1–3: protecția constă într-o formulă de preț și într-o marjă de furnizare de maximum 15 lei/MWh, nu într-un plafon numeric al facturii. Art. 2 permite includerea dezechilibrului realizat până la 10% din CMP; acesta este un plafon, nu un adaos automat.",
+        "Art. 2 alin. (3): ajustarea pentru luna n+1 privește costurile lunii n-1, dar textul nu precizează suficient sensul diferenței, caracterul obligatoriu al restituirii costurilor supraestimate sau tratamentul clienților care schimbă furnizorul. Formularea poate genera facturări și regularizări contestate.",
+        "Art. 6 alin. (2) și (7): Guvernul poate modifica prețul de 110 lei/MWh, iar ANRE poate actualiza modul de calcul din anexă. Criteriile sunt largi, fără limite cantitative sau garanții procedurale proprii suficient de precise; predictibilitatea promisă rămâne relativă.",
+        "Art. 6 alin. (5)–(6) și art. 7: păstrarea declarată a regimului acordurilor petroliere trebuie corelată cu ordinul privind redevența calculată ținând seama de 110 lei/MWh. Exceptările de la impozitarea veniturilor suplimentare sunt efecte normative certe; dimensiunea pierderii de venituri și eventualele compensări nu sunt cuantificate în expunere.",
+        "Art. 8 alin. (3) și (7): o firmă existentă fără cifră de afaceri în anul anterior poate intra atât sub regula folosirii unei cifre de afaceri istorice, cât și sub amenda fixă de 1–10 milioane lei. Suprapunerea afectează previzibilitatea, iar minimul de un milion poate apăsa disproporționat asupra unui operator mic sau nou.",
+        "Art. 8 alin. (8)–(9): sunt excluse inclusiv plata redusă prevăzută de art. 28 alin. (1) din OG nr. 2/2001 și aplicarea avertismentului în condițiile art. 29, iar prescripția aplicării amenzii este de doi ani. Aceste opțiuni sporesc severitatea regimului, fără să elimine dreptul la contestarea sancțiunii.",
+        "Anexa pct. 9 și 13–15: garanția financiară sau plata anticipată, contractarea repartizată prin OTS și prioritatea accesului la înmagazinare creează obligații financiare și administrative reale pentru operatori. Repartizarea după cotele de piață nu instituie singură un monopol, dar necesită justificarea tratamentului diferențiat și a efectelor asupra intrării pe piață.",
+        "Anexa pct. 4, 5 și 12: contractele producătorilor încheiate anterior sunt protejate la determinarea disponibilului, iar obligațiile se ajustează dacă producția disponibilă nu acoperă cantitățile calculate. Prin urmare, întregul consum protejat nu este garantat la 110 lei/MWh; diferența poate proveni din achiziții concurențiale.",
+        "Art. 4: împărțirea consumului anual al condominiului la numărul spațiilor locative nu reflectă consumul individual. Trebuie precizat scopul calculului și raportul cu regulile de repartizare a cheltuielilor, pentru a evita interpretarea sa ca obligație de facturare egală indiferent de consum.",
+        "Art. 10 conține în extras o dată incompletă pentru intrarea în vigoare a sancțiunilor, iar formula CMP este deteriorată. Aceste elemente trebuie confruntate cu documentul oficial înainte de atribuirea unor vicii textului adoptat; expunerea de motive nu poate completa dispozițiile normative lipsă."
       ],
-      "blindSpotsCaught": "Extrasul se întrerupe la art. 6 și omite prevederi fiscale și contravenționale relevante, verificate în forma oficială inițială. Formula deteriorată și cuvintele lipsă din transcriere nu trebuie transformate automat în acuzații de neclaritate a legii. Adoptarea tacită de către Senat este permisă constituțional și nu reprezintă o validare a constituționalității conținutului. Analiza privește forma inițială aprobată fără amendamente, distinctă de modificările ulterioare ale ordonanței. [Fișa Senatului](https://www.senat.ro/legis/lista.aspx?an_cls=2026&nr_cls=L149).",
-      "constitutionalityNote": "Art. 1 alin. (5) impune claritate și previzibilitate: regularizările din art. 2 alin. (3) și trimiterea contravențională generală la obligațiile art. 1–6 necesită o delimitare verificabilă. Art. 23 alin. (12) privește legalitatea pedepselor și nu justifică, singur, calificarea acestor amenzi administrative drept pedepse penale. Intervenția asupra prețurilor trebuie justificată în raport cu proprietatea, libertatea economică și protecția concurenței, potrivit art. 44, 45 și 135. Pentru art. 115 alin. (4), expirarea previzibilă a schemei precedente nu dovedește singură situația extraordinară; factorii suplimentari invocați trebuie susținuți concret. Nu rezultă automat o neconstituționalitate din documentele analizate. [Constituția României](https://legislatie.just.ro/Public/FormaPrintabila/00000G0CLS5H2O3H8WS2Q0KMRGZN20AC).",
-      "euLawNote": "Directiva (UE) 2018/958 privește accesul la profesii reglementate și exercitarea lor; nu este testul sectorial aplicabil acestei scheme de gaze. [Art. 2](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018L0958). Nu sunt identificate reguli pentru servicii digitale/AI ori specificații tehnice ale produselor care să fundamenteze obligația notificării TRIS; simpla reglementare economică a prețului nu demonstrează aplicabilitatea Directivei 2015/1535. [Directiva TRIS](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1591780802624&uri=CELEX%3A32015L1535). Reperul sectorial este Directiva (UE) 2024/1788, în special art. 4 și 6, cu termen de transpunere la 5 august 2026, în interiorul perioadei schemei. Intervenția tranzitorie pentru gospodării este posibilă, dar cere proporționalitate, tratament nediscriminatoriu, măsuri pentru concurență și limitarea efectelor asupra pieței angro. Caracterul temporar și alegerea prețului contractual mai mic sunt favorabile; alocarea gazului intern și povara asupra noilor furnizori necesită justificare. Nu este demonstrată instituirea unui monopol sau existența unui ajutor de stat ilegal. [Directiva privind piața gazelor](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32024L1788).",
+      "blindSpotsCaught": "Anexa are efecte obligatorii importante: pct. 5 trimite, pentru declanșarea termenului OTS, la informațiile de la pct. 2, deși datele inițiale sunt enumerate la pct. 1; pct. 13 organizează relațiile comerciale după cote de piață. În plus, art. 6 alin. (7) permite ANRE să actualizeze o metodologie cuprinsă chiar în anexă, parte integrantă a ordonanței: trebuie delimitată ajustarea tehnică de modificarea elementelor esențiale rezervate legiuitorului.",
+      "constitutionalityNote": "Riscurile principale privesc art. 1 alin. (5) din Constituție: reguli sancționatorii suprapuse, ajustări insuficient definite și delegări prea largi. Art. 23 alin. (12) privește direct legalitatea pedepsei; pentru contravenții, analiza previzibilității se întemeiază în primul rând pe art. 1 alin. (5), împreună cu garanțiile procesului echitabil. Amenzile și obligațiile comerciale trebuie evaluate și prin prisma proprietății, libertății economice și concurenței, potrivit art. 44, 45 și 135. Preambulul oferă argumente pentru urgență, însă expirarea unei scheme cunoscute nu demonstrează singură situația extraordinară cerută de art. 115 alin. (4); aprobarea parlamentară nu vindecă eventualele vicii originare. Lipsa cuantificării exceptărilor fiscale este o deficiență de fundamentare, fără a demonstra singură încălcarea art. 138 alin. (5), referitor la cheltuieli bugetare.",
+      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile asupra accesului la profesii reglementate și exercitării lor, nu orice intervenție economică; textul nu oferă un temei evident pentru aplicarea sa. Procedura TRIS din Directiva (UE) 2015/1535 nu este declanșată de acest mecanism de preț și stocare: nu sunt identificate reguli tehnice notificabile ori norme pentru servicii ale societății informaționale sau AI. Controlul relevant privește cadrul european al pieței gazelor, inclusiv succesiunea temporală a Directivelor 2009/73/CE și (UE) 2024/1788: intervenția trebuie justificată, temporară, proporțională și nediscriminatorie. Sunt necesare verificarea obligațiilor de notificare aplicabile intervenției asupra prețurilor și corelarea stocurilor cu Regulamentul (UE) 2017/1938, în forma aplicabilă. Exceptările fiscale și regimul redevențelor necesită analiza art. 107–108 TFUE; caracterul compensatoriu afirmat în expunere nu exclude automat ajutorul de stat, dar nici existența unei exceptări nu dovedește singură un ajutor incompatibil.",
       "senatForm": {
-        "articleRef": "OUG nr. 12/2026, art. 2 alin. (3)",
-        "proposalContent": "(3) În luna n+1, componenta de achiziție se ajustează cu diferența dintre valoarea realizată pentru luna n-1 și valoarea inclusă în facturarea acelei luni. Diferența negativă reduce factura, iar cea pozitivă o majorează, cu respectarea art. 1 alin. (2). Furnizorul prezintă distinct pe factură perioada, datele de calcul și suma ajustării.",
-        "argumentation": "Clarifică semnul diferenței și obligă furnizorul să transfere clientului și economiile, nu doar creșterile de cost. Explicarea separată a ajustării permite verificarea facturii și contestarea erorilor, fără eliminarea protecției oferite de prețul contractual mai mic.",
-        "otherComments": "Propunere cetățenească pentru comisiile de raport ale Camerei Deputaților, preluabilă de un deputat. Termenul comunicat, 30.04.2026, este depășit la data analizei; transmiterea unei petiții nu echivalează cu depunerea unui amendament parlamentar în termen."
-      }
+        "articleRef": "Art. 8 alin. (7) din OUG nr. 12/2026",
+        "proposalContent": "Alineatul (7) se modifică astfel: «Pentru persoanele juridice care nu au înregistrat cifră de afaceri în niciun exercițiu financiar, încălcarea obligațiilor prevăzute la alin. (1) se sancționează cu amendă de la 100.000 la 1.000.000 lei, individualizată în funcție de gravitatea și durata faptei, prejudiciu și capacitatea economică.»",
+        "argumentation": "Textul actual suprapune alin. (7) peste regula cifrei de afaceri istorice de la alin. (3) și poate impune unui operator mic o amendă minimă de un milion de lei. Propunerea delimitează situațiile și păstrează sancțiuni semnificative, cu criterii de proporționalitate și previzibilitate.",
+        "otherComments": "Propunere adresată comisiilor raportoare ale Camerei Deputaților, pentru preluare de către un deputat. Separat, solicitați verificarea art. 10 și a formulelor în documentul oficial, precum și publicarea evaluării impactului fiscal și concurențial."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T02:44:30.846Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-19T16:46:46.076Z",
+      "reasons": [
+        "metoda",
+        "model"
+      ]
+    }
+  ]
 }

@@ -1,14 +1,42 @@
 {
   "billId": "Pl-x 661/2026",
   "slug": "plx-661-2026",
-  "updatedAt": "2026-10-28T21:35:26.212Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-19T16:42:08.243Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 30530,
+    "ordinanceChars": 0,
+    "memoChars": 14154,
+    "memoSupplied": 14154,
+    "marker": "SF-ABE30620"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-661-2026.json",
+    "form": "initiator",
+    "textHash": "abe306203772128e",
+    "fetchedAt": "2026-11-19T09:38:17.941Z",
+    "acts": 2,
+    "actsFound": 2,
+    "actsRepealed": 0,
+    "articlesFound": 4,
+    "articlesShown": 4,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 15221,
+    "truncated": false,
+    "included": true,
+    "key": "2cca0dd5c2f8a4f1"
+  },
   "consensus": {
-    "riskScore": 3.7,
-    "riskLevel": "green",
-    "plainTitle": "Centre de colectare și depozitare pentru fermieri și evidență electronică a livrărilor",
-    "summaryTlDr": "Lege-cadru bine intenționată și scrisă atent ca să nu încalce piața unică: fără monopol, fără obligații pentru fermieri, fără favorizarea originii naționale. Punctul slab: promisiunea centrală, banii pe marfa livrată cu acte, e doar facultativă și, formulată pe cantitate, greu de împăcat cu regulile UE de ajutor de stat.",
-    "initiatorClaim": "Potrivit Expunerii de motive, fermierii produc, dar nu au unde să colecteze, să răcească, să sorteze și să vândă marfa cu acte, așa că rămân la mâna intermediarilor informali, iar cooperativele se blochează administrativ. Soluția propusă: centre regionale acreditate, evidență electronică a livrărilor, sprijin pentru marfa livrată fiscalizat și raportarea rezultatelor Casei Unirea.",
-    "realityCheck": "În mecanica ei, legea e mai ales programatică: obligă MADR la inventar (120 de zile), hartă de investiții (180 de zile), registru public al centrelor acreditate, SELA și un ghid pentru achiziții publice, dar nu garantează niciun leu, sprijinul fiind lăsat la decizia Guvernului (art. 21: „poate institui”). Obligațiile reale cad pe centrele finanțate public (acces nediscriminatoriu, tarife bazate pe costuri, refuz motivat, recuperarea banilor la schimbarea destinației) și pe cei care raportează livrările în SELA, iar multe detalii sunt delegate normelor metodologice. Modificările anunțate la legea cooperației, carnetul de comercializare și piețe nu apar în textul extras, deci efectul lor asupra vânzătorilor din piețe nu poate fi evaluat.",
+    "riskScore": 5,
+    "riskLevel": "yellow",
+    "plainTitle": "Centre regionale de colectare și depozitare pentru fermieri, cooperative mai ușor de ținut în viață și controale contra revânzătorilor din piețe",
+    "summaryTlDr": "Proiectul este în mare parte programatic și util: centre de colectare cu acces deschis, sprijin pentru livrări cu acte, cooperative care nu mai sunt blocate de formalități. Problemele sunt la sancțiuni: aceeași faptă ajunge să fie pedepsită de trei texte, cu un interval unic de 2.000–100.000 lei. Mai multe modificări aduse altor legi nu au text normativ concret.",
+    "initiatorClaim": "Expunerea de motive spune că România are producție, dar nu are infrastructura care s-o transforme în marfă vândută corect. Fermierul rămâne prins între intermediari informali, risipă și piețe în care revânzătorii se dau drept producători. Proiectul propune centre acreditate, evidență electronică, sprijin pe cantitate livrată fiscalizat, deblocarea cooperativelor și raportare despre Casa Unirea.",
+    "realityCheck": "Mecanic, legea creează un cadru și lasă aproape tot pe seama normelor metodologice (art. 7, 15, 21, 24, 41, 49). Scheme de sprijin «poate institui» Guvernul, iar banii sunt «în limita sumelor aprobate» (art. 51), deci efectul financiar imediat e redus. Partea cu dinți reali e regimul contravențional: art. 40 lit. b) dublează art. 16 lit. h) din Legea 145/2014 aflat deja în vigoare (7.500–15.000 lei) și noul text din art. 43 pct. 3 (5.000–20.000 lei), iar art. 41 aplică un singur interval, 2.000–100.000 lei, pentru opt fapte foarte diferite, cu agenți constatatori stabiliți prin norme. Modificările cele mai concrete și benefice sunt cele pentru cooperative: termen de remediere de 12 luni (art. 27, art. 76^5), continuitatea membrilor PFA radiați, notificare de 60 de zile înainte de declararea inactivității fiscale și reactivare în 5 zile lucrătoare (art. 45).",
     "affectedGroups": [
       "Agricultură & Mediu",
       "IMM & Antreprenori",
@@ -16,86 +44,24 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 21 alin. (2)",
-      "proposalContent": "Art. 21 alin. (2) va avea cuprinsul: „(2) Sprijinul se calculează pe costurile eligibile ale serviciilor de colectare, sortare, refrigerare, analiză, ambalare, transport și trasabilitate prestate pentru producător, nu pe prețul sau cantitatea produselor puse pe piață. Livrarea fiscalizată înregistrată în SELA este condiție de eligibilitate.”",
-      "argumentation": "Art. 21 alin. (2) leagă sprijinul de „cantitate”. Reg. (UE) 1408/2013 (de minimis agricol) și 2023/2831 exclud expres ajutorul fixat pe baza prețului sau cantității produselor puse pe piață; un ajutor per kg ar cere notificare la Comisie, cu șanse mici. Calculul pe costul serviciilor păstrează scopul (livrare cu acte) și face schema aplicabilă.",
-      "otherComments": "Alte puncte: (1) art. 9 alin. (3) – „agregat” să aibă prag (min. 3 operatori, niciunul peste 50% din volum), altfel media publicată dezvăluie prețul unui concurent; (2) art. 17 alin. (2) – „utilizare preferențială” nedefinită; prioritatea membrilor după regulament public să nu fie sancționată; (3) art. 20 alin. (3) – fapte și sancțiuni stabilite în lege."
+      "articleRef": "Art. 40 lit. b) și art. 41 alin. (1) și (3)",
+      "proposalContent": "Se elimină art. 40 lit. b), fapta fiind deja sancționată de art. 16 lit. h) din Legea nr. 145/2014. La art. 41 se stabilesc, pentru fiecare faptă din art. 40, limite distincte ale amenzii și sancțiunile complementare aplicabile; pentru persoane fizice amenda nu depășește 10.000 lei. Agenții constatatori se prevăd expres în lege, pe categorii de fapte.",
+      "argumentation": "Revânzarea mărfii terților pe carnet ar fi sancționată de 3 norme: art. 40 lit. b) (2.000–100.000 lei), noul text din art. 16 al Legii 145/2014 (5.000–20.000 lei) și art. 16 lit. h) în vigoare (7.500–15.000 lei). Un interval unic pentru 8 fapte diferite și agenți stabiliți prin norme încalcă previzibilitatea (art. 1 alin. 5 Const.) și OG 2/2001.",
+      "otherComments": "Art. 43 pct. 2–3 și art. 44 nu conțin textul normativ propus, doar descriu intenția, contrar Legii 24/2000. Anexele 1 și 2, invocate de art. 15 și 19, trebuie incluse în lege ca parte integrantă. Art. 76^5 trebuie corelat cu condițiile din art. 27 alin. (3). Este necesară fișa financiară (art. 111 și 138 alin. 5 Const.)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 61807,
-      "riskScore": 4,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 92446,
+      "sourceEndMarker": "SF-ABE30620",
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Centre de colectare pentru fermieri și un nou sistem electronic (SELA) de raportare a livrărilor agricole",
-      "verdictShort": "Deși poartă un titlu suveranist, proiectul este surprinzător de echilibrat juridic: evită plafonările de prețuri, monopolurile de stat sau cotele protecționiste ilegale în UE. Totuși, păcătuiește prin birocrație suplimentară, creând un nou sistem informatic de raportare a fiecărei livrări și a prețurilor (SELA) peste RO e-Factura și o nouă procedură de acreditare peste avizele ANSVSA.",
-      "initiatorClaim": "Inițiatoarea propune crearea unei rețele naționale de centre de colectare, sortare și depozitare frigorifică, deblocarea administrativă a cooperativelor agricole și transparentizarea activității Casei de Comerț „Unirea”, pentru ca fermierii să nu mai fie captivi intermediarilor la poarta fermei.",
-      "realityCheck": "Legea creează doar un cadru programatic (fără finanțare garantată, lăsată la latitudinea viitoarelor Hotărâri de Guvern), dar instituie imediat birocrație nouă: o procedură de „acreditare” la MADR care nu înlocuiește niciun aviz existent (ANSVSA, mediu, DSP) și un sistem informatic paralel (SELA). Cooperativele și centrele vor trebui să raporteze în SELA fiecare lot, document fiscal și prețul de achiziție, dublând raportările existente în RO e-Factura și RO e-Transport.",
-      "affectedGroups": [
-        "Agricultură & Mediu",
-        "IMM & Antreprenori",
-        "Contabili & Fiscalitate"
-      ],
-      "keyFindings": [
-        "Dublarea raportărilor digitale (Art. 18-19 și Anexa nr. 2): Se înființează Sistemul electronic de evidență a livrărilor agroalimentare (SELA), unde cooperativele și centrele trebuie să introducă pentru fiecare livrare cantitatea brută/recepționată, soiul, documentul fiscal, codul lotului și prețul de achiziție, deși datele fiscale și de transport sunt deja raportate în RO e-Factura și RO e-Transport.",
-        "Suprapunere de avize și acreditări (Art. 13 și Art. 15 alin. 2): Centrele agroalimentare trebuie să obțină o „acreditare” nouă de la MADR pentru a intra în program, dar Art. 15 alin. (2) prevede expres că această acreditare „nu substituie autorizările, înregistrările sau avizele cerute de legislația sanitar-veterinară, sanitară, fiscală, de mediu sau de protecție a muncii”.",
-        "Garanții exprese împotriva derapajelor economice (Art. 1 alin. 3, Art. 14 și Art. 23 alin. 3): Spre deosebire de alte inițiative similare, textul interzice explicit monopolul de stat, păstrează vânzarea directă liberă, obligă centrele finanțate din bani publici la acces deschis și tarife nediscriminatorii și interzice criteriile protecționiste bazate pe originea națională în achizițiile publice."
-      ],
-      "blindSpotsCaught": "În Art. 5 alin. (2), societatea de stat Casa Română de Comerț Agroalimentar „Unirea” S.A. (operator economic concurent pe piață) este inclusă pe lista entităților prin care se implementează Programul, în timp ce Anexa nr. 2 obligă centrele private și cooperativele să raporteze în SELA „prețul de achiziție” pe fiecare livrare și destinația mărfii. De asemenea, în Fișa sintetică din Expunerea de motive se menționează modificarea HG nr. 933/2018 prin lege, ceea ce încalcă ierarhia actelor normative (Legea nr. 24/2000).",
-      "constitutionalityNote": "Sub aspectul Art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), Art. 20 alin. (3) prevede că declararea fictivă sau alterarea datelor în SELA „atrage răspundere contravențională, civilă sau penală”, fără a defini faptele contravenționale, sancțiunile și agenții constatatori conform OG nr. 2/2001. De asemenea, modificarea unei Hotărâri de Guvern (HG nr. 933/2018) printr-o lege parlamentară încalcă principiul separației puterilor în stat. Sub aspectul Art. 138 alin. (5), inițiatorul a formulat normele de sprijin ca facultative pentru Guvern, atenuând riscul de neconstituționalitate bugetară.",
-      "euLawNote": "Proiectul este atent calibrat pentru a evita încălcarea Art. 34 TFUE (libera circulație a mărfurilor), Art. 23 alin. (3) interzicând expres obligațiile de achiziție exclusivă pe criteriul originii naționale și înlocuindu-le cu criterii de prospețime, sezonalitate și lanț scurt. De asemenea, Art. 21 alin. (3) condiționează schemele de sprijin de respectarea normelor UE privind ajutorul de stat (Art. 107-108 TFUE). Totuși, colectarea granulară a prețurilor de achiziție în timp real (Anexa nr. 2) necesită garanții stricte conform Art. 101 TFUE (concurență) pentru a preveni schimbul indirect de informații comerciale sensibile.",
-      "senatForm": {
-        "articleRef": "Art. 18 alin. (3), Art. 19 și Anexa nr. 2",
-        "proposalContent": "La art. 18, alin. (3) se modifică și va avea următorul cuprins: „(3) SELA preia automat datele fiscale și cantitative din sistemele RO e-Factura și RO e-Transport prin interoperabilitate, fără a impune operatorilor raportarea dublă a acelorași livrări.” Din Anexa nr. 2 se elimină cerința raportării prețului de achiziție pe fiecare livrare individuală.",
-        "argumentation": "Fermierii, cooperativele și centrele de colectare raportează deja livrările și facturile în RO e-Factura și RO e-Transport. Introducerea manuală a fiecărui lot, document fiscal și preț de achiziție într-un nou sistem informatic (SELA) la MADR încalcă principiul debirocratizării (o singură dată) și expune date comerciale sensibile privind prețurile individuale de achiziție.",
-        "otherComments": "La art. 13 și art. 15 alin. (2), acreditarea MADR se suprapune peste autorizațiile ANSVSA, DSP și de mediu existente. Recomandăm ca acreditarea să se acorde automat în baza autorizațiilor sanitar-veterinare valabile și a unei declarații pe propria răspundere privind capacitatea de depozitare, fără o nouă procedură birocratică de avizare."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 204797,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Centre de colectare și depozitare pentru fermieri și evidență electronică a livrărilor",
-      "verdictShort": "Lege-cadru bine intenționată și scrisă atent ca să nu încalce piața unică: fără monopol, fără obligații pentru fermieri, fără favorizarea originii naționale. Punctul slab: promisiunea centrală, banii pe marfa livrată cu acte, e doar facultativă și, formulată pe cantitate, greu de împăcat cu regulile UE de ajutor de stat.",
-      "initiatorClaim": "Potrivit Expunerii de motive, fermierii produc, dar nu au unde să colecteze, să răcească, să sorteze și să vândă marfa cu acte, așa că rămân la mâna intermediarilor informali, iar cooperativele se blochează administrativ. Soluția propusă: centre regionale acreditate, evidență electronică a livrărilor, sprijin pentru marfa livrată fiscalizat și raportarea rezultatelor Casei Unirea.",
-      "realityCheck": "În mecanica ei, legea e mai ales programatică: obligă MADR la inventar (120 de zile), hartă de investiții (180 de zile), registru public al centrelor acreditate, SELA și un ghid pentru achiziții publice, dar nu garantează niciun leu, sprijinul fiind lăsat la decizia Guvernului (art. 21: „poate institui”). Obligațiile reale cad pe centrele finanțate public (acces nediscriminatoriu, tarife bazate pe costuri, refuz motivat, recuperarea banilor la schimbarea destinației) și pe cei care raportează livrările în SELA, iar multe detalii sunt delegate normelor metodologice. Modificările anunțate la legea cooperației, carnetul de comercializare și piețe nu apar în textul extras, deci efectul lor asupra vânzătorilor din piețe nu poate fi evaluat.",
-      "affectedGroups": [
-        "Agricultură & Mediu",
-        "IMM & Antreprenori",
-        "Contabili & Fiscalitate"
-      ],
-      "keyFindings": [
-        "Garanții explicite pro-piață: art. 1 alin. (3) exclude monopolul și interdicția vânzării directe, art. 5 alin. (3) face participarea voluntară, iar art. 23 alin. (3) interzice criteriul originii naționale în achiziții. „Suveranitatea alimentară” din titlu e tradusă prin criterii neutre (prospețime, lanț scurt, reducerea risipei).",
-        "Art. 21: sprijinul pentru cantitatea livrată cu acte, ideea centrală din Expunere (pct. 2), este doar o posibilitate („Guvernul poate institui, prin hotărâre”), fără sumă, termen sau sursă de finanțare. Criteriul „în funcție de cantitate” (alin. 2) intră în conflict cu regulile UE de minimis.",
-        "Art. 11 alin. (3), art. 14 și art. 17: centrele construite cu bani publici trebuie să primească orice producător în limita capacității, cu tarife publice fundamentate pe costuri și refuz motivat în scris. „Utilizarea preferențială” a infrastructurii atrage recuperarea finanțării, dar termenul nu e definit și poate lovi cooperativele care își prioritizează membrii.",
-        "Art. 19 și Anexa 2: pentru fiecare livrare, SELA reține identitatea producătorului, cantitatea, documentul fiscal, lotul și prețul de achiziție, adică 11 categorii de date introduse de centre și cooperative. Art. 9 cere minimizarea datelor și evaluare de impact înainte de lansare, iar art. 15 alin. (3) permite categorii mai ușoare pentru centrele mici.",
-        "Art. 8: termene ferme pentru MADR (inventar în 120 de zile, hartă de investiții aprobată prin HG în 180 de zile, actualizată anual). Raportul anual cu structură minimă (Anexa 3) cuprinde contractele, datoriile și litigiile Casei Unirea, util pentru controlul parlamentar.",
-        "Sancțiunile sunt doar trimise: art. 17 alin. (2) („sancțiuni, în condițiile legii”) și art. 20 alin. (3) („răspundere contravențională, civilă sau penală”) nu stabilesc în partea vizibilă fapte, amenzi sau autoritate constatatoare. Modificările la Legile 566/2004, 145/2014, 81/2022, 207/2015, 217/2016, 321/2009 și HG 933/2018 nu apar în textul extras."
-      ],
-      "blindSpotsCaught": "Instrumentul-vedetă se lovește de dreptul UE al ajutoarelor de stat. Art. 21 alin. (2) permite sprijin „în funcție de cantitate”, dar Reg. (UE) 1408/2013 (de minimis agricol) exclude expres ajutorul fixat pe baza prețului sau cantității produselor puse pe piață, iar Reg. (UE) 2023/2831 face același lucru pentru procesatori și comercianți. Clauza generală de conformitate (art. 21 alin. 3) nu salvează formula: un ajutor per kilogram ar fi ajutor de funcționare, greu de autorizat de Comisie. Al doilea detaliu: „prețurile agregate pe verigi” (art. 6 lit. e, art. 9 alin. 3, art. 12 lit. h) nu au un prag minim de operatori. Într-un bazin cu 2-3 cumpărători, media publicată de stat devine prețul unui concurent identificabil și un posibil semnal de coordonare între intermediari (schimb de informații, art. 101 TFUE).",
-      "constitutionalityNote": "Temeiul (art. 135) e corect, iar participarea voluntară, lipsa monopolului și menținerea vânzării directe respectă libertatea economică (art. 45). Primul risc ține de art. 111 și art. 138 alin. (5): art. 8, 13 și 18 creează cheltuieli obligatorii (inventar, acreditare, SELA, raport anual) fără sursă identificată. Adoptarea fără punctul de vedere și fișa financiară ale Guvernului a fost sancționată repetat de CCR, iar Expunerea (pct. 8) recunoaște ea însăși această nevoie. Al doilea risc privește previzibilitatea (art. 1 alin. 5): „utilizarea preferențială” (art. 17) nu e definită, sancțiunile sunt trimise generic, iar delegarea către norme metodologice nu are, în partea vizibilă, un termen. Al treilea ține de tehnica legislativă (Legea 24/2000): art. 2 enumeră scopuri fără parte introductivă, art. 19 are alineate nenumerotate, iar textul conține termeni greșiți („aggregate”, „associative”, „Analyze”). Dacă partea finală modifică HG 933/2018 printr-o lege, un act infralegal capătă rang de lege și nu mai poate fi ajustat de Guvern. Prelucrarea datelor în SELA e compatibilă cu art. 26 datorită garanțiilor din art. 9.",
-      "euLawNote": "Directiva 2018/958 nu se aplică: legea nu reglementează accesul la o profesie, iar acreditarea centrelor e o condiție de participare la Program, nu o autorizație de funcționare. Dacă ar deveni autorizație, ar intra sub art. 9-10 din Directiva 2006/123. TRIS 2015/1535: SELA e un sistem administrativ al MADR, nu o regulă pentru servicii ale societății informaționale, deci nu e notificabil ca atare. Modificările la Legile 145/2014 și 321/2009 (carnet digital, delimitarea producătorului de comerciant), absente din textul extras, trebuie verificate dacă impun cerințe de marcare a produselor. Sunt conforme: art. 23 alin. (3), care exclude criteriul originii naționale (art. 34 TFUE, Directiva 2014/24); loturile adaptate producătorilor mici (art. 23 alin. 2), în linia art. 46 din directivă; evaluarea de impact din art. 9 alin. (2), conformă art. 35 GDPR. Clauzele din Anexa 4 sunt compatibile cu Directiva 2019/633, de armonizare minimă, transpusă prin Legea 81/2022. Problema reală e art. 21 alin. (2): ajutorul calculat pe cantitate e exclus din regimurile de minimis și ar necesita notificare la Comisie.",
-      "senatForm": {
-        "articleRef": "Art. 21 alin. (2)",
-        "proposalContent": "Art. 21 alin. (2) va avea cuprinsul: „(2) Sprijinul se calculează pe costurile eligibile ale serviciilor de colectare, sortare, refrigerare, analiză, ambalare, transport și trasabilitate prestate pentru producător, nu pe prețul sau cantitatea produselor puse pe piață. Livrarea fiscalizată înregistrată în SELA este condiție de eligibilitate.”",
-        "argumentation": "Art. 21 alin. (2) leagă sprijinul de „cantitate”. Reg. (UE) 1408/2013 (de minimis agricol) și 2023/2831 exclud expres ajutorul fixat pe baza prețului sau cantității produselor puse pe piață; un ajutor per kg ar cere notificare la Comisie, cu șanse mici. Calculul pe costul serviciilor păstrează scopul (livrare cu acte) și face schema aplicabilă.",
-        "otherComments": "Alte puncte: (1) art. 9 alin. (3) – „agregat” să aibă prag (min. 3 operatori, niciunul peste 50% din volum), altfel media publicată dezvăluie prețul unui concurent; (2) art. 17 alin. (2) – „utilizare preferențială” nedefinită; prioritatea membrilor după regulament public să nu fie sancționată; (3) art. 20 alin. (3) – fapte și sancțiuni stabilite în lege."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 64234,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Centre de colectare și depozitare pentru fermieri, cu evidența electronică a livrărilor",
-      "verdictShort": "Proiectul urmărește un obiectiv util și protejează explicit vânzarea directă și participarea voluntară. Riscul moderat provine din mecanismul subvențiilor, regulile insuficient precizate de acreditare și costurile administrative, nu dintr-un monopol demonstrat.",
-      "initiatorClaim": "Inițiatoarea urmărește reducerea pierderilor agricole și creșterea puterii de negociere a fermierilor prin depozitare, asociere și comercializare fiscalizată. Promite și simplificarea cooperativelor, combaterea comerțului mascat și evaluarea publică a Casei Unirea.",
-      "realityCheck": "Articolele furnizate instituie Programul, acreditarea centrelor și SELA, dar art. 21 doar permite Guvernului să creeze scheme de sprijin: nu garantează subvenții, prețuri mai bune sau cumpărarea recoltei. Participarea este voluntară, însă accesul la sprijin poate favoriza canalele asociative și centrele acreditate față de vânzările directe fiscalizate. Extrasul se întrerupe la art. 24 alin. (2), astfel că modificările cooperativelor, sancțiunile ulterioare și raportarea Casei Unirea nu pot fi confirmate numai din expunerea de motive.",
+      "plainTitle": "Centre regionale pentru fermieri, digitalizare și deblocarea cooperativelor, dar cu sancțiuni neclare și modificări neterminate",
+      "verdictShort": "Intenția legii este constructivă și evită capcanele protecționiste (fără monopol de stat, fără plafonare de prețuri și fără cote naționale), însă textul este juridic neterminat și vulnerabil constituțional. Conține amenzi „la grămadă” până la 100.000 lei, triplă sancționare pentru aceeași faptă, anexe lipsă din corpul legii și modificări redactate doar ca rezumate.",
+      "initiatorClaim": "Inițiatorul susține că legea creează o rețea voluntară de centre agroalimentare acreditate, digitalizează trasabilitatea livrărilor (SELA) și carnetul de comercializare, deblochează birocratic cooperativele agricole, combate comerțul mascat în piețe și obligă Casa Unirea la raportare anuală către Parlament.",
+      "realityCheck": "Pe fond, programul este voluntar (Art. 5), păstrează regulile concurenței și aduce soluții reale pentru cooperative (termen de remediere de 12 luni la scăderea membrilor și 60 de zile înainte de inactivitatea fiscală ANAF, Art. 42 și Art. 45). În practică însă, legea nu poate funcționa în forma actuală: Art. 43 pct. 2-3 și Art. 44 modifică Legile 145/2014 și 81/2022 fără a scrie efectiv textul articolelor, Anexele 1 și 2 obligatorii (Art. 15 și Art. 19) au rămas în Expunerea de motive, iar Art. 40-41 instituie amenzi nediferențiate de 2.000–100.000 lei și lasă desemnarea agenților constatatori pe seama Guvernului.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "IMM & Antreprenori",
@@ -103,22 +69,124 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 1 alin. (3), art. 5 alin. (3) și art. 11–14 păstrează vânzarea directă legală, participarea voluntară și accesul nediscriminatoriu la infrastructura finanțată public. Menționarea Casei Unirea la art. 5 alin. (2) nu îi acordă exclusivitate.",
-        "Art. 21 alin. (2) permite calcularea sprijinului după cantitatea livrată. Pentru producția agricolă primară, această formulă este exclusă din domeniul ajutorului de minimis agricol prin art. 1 alin. (1) lit. (a) din Regulamentul nr. 1408/2013; trebuie identificat un alt temei european admisibil. Clauza generală de conformitate din alin. (3) nu rezolvă singură problema. [Regulamentul nr. 1408/2013](https://eur-lex.europa.eu/eli/reg/2013/1408/2024-12-16/eng)",
-        "Art. 13 nu precizează în extras termenul de acreditare, durata acesteia sau regulile retragerii. Acreditarea suplimentară poate împovăra centrele mici, deoarece art. 15 alin. (2) menține toate autorizările existente.",
-        "Art. 14 alin. (2) admite excepții de la interdicția condiționării accesului prin contracte exclusiviste. Capacitățile rezervate și contractele ferme pot avea justificări comerciale, dar lipsesc în extras limitele care să împiedice blocarea accesului concurenților.",
-        "Art. 18–20 creează o evidență suplimentară, fără înlocuirea documentelor fiscale. Interoperabilitatea poate reduce munca repetitivă, însă extrasul nu garantează raportarea unică și nu identifică suficient de clar cine introduce și corectează fiecare categorie de date.",
-        "Inventarul, acreditarea, SELA și investițiile implică cheltuieli publice și costuri de conformare. Extrasul nu le cuantifică; enumerarea surselor posibile în expunerea de motive nu dovedește disponibilitatea finanțării."
+        "Regim contravențional nepredictibil și triplă sancționare (Art. 40-41 și Art. 43 pct. 3): Art. 41 stabilește o singură plajă de amendă (2.000–100.000 lei) pentru 8 fapte complet diferite, sancțiuni de suspendare/interdicție fără durată maximă și deleagă desemnarea agenților constatatori la norme metodologice; în plus, vânzarea produselor de la terți cu atestat de producător ajunge sancționată în 3 locuri diferite (2.000–100.000 lei la Art. 40 lit. b, 5.000–20.000 lei + suspendare 6 luni la Art. 43 pct. 3 și 7.500–15.000 lei deja în vigoare la art. 16 lit. h din Legea 145/2014).",
+        "Modificări legislative „schițate”, fără text normativ efectiv (Art. 43 pct. 2-3 și Art. 44): proiectul descrie doar intenția („se introduc alineate privind...”, „se introduce definiția...”), fără a formula textul noilor articole din Legea 145/2014 și Legea 81/2022; mai mult, art. 13 din Legea 145/2014 impune deja delimitarea și semnalizarea a minimum 40% din spații pentru producători.",
+        "Anexe obligatorii absente din lege (Art. 15 alin. 1 și Art. 19): legea obligă centrele acreditate să respecte standardul din Anexa nr. 1 și să raporteze datele din Anexa nr. 2, dar textul legii se încheie la Art. 52 fără nicio anexă și fără clauza că anexele fac parte integrantă din lege — ele apar doar în Expunerea de motive.",
+        "Pierdere accidentală de date economice la cooperative (Art. 42 pct. 1): modificarea art. 76^2 alin. (3) din Legea 566/2004 trece raportarea ONRC către MADR de la anual la trimestrial, dar elimină obligația actuală de a transmite cifra de afaceri, profitul/pierderile, codul CAEN, numărul de membri și de angajați.",
+        "Efecte pozitive reale pentru cooperative și transparență (Art. 27, Art. 38-39, Art. 45): introducerea art. 92^1 în Codul de procedură fiscală oferă cooperativelor agricole 60 de zile de conformare înainte de inactivarea fiscală pentru cauze formale (mandat/sediu expirat) și reactivare în 5 zile lucrătoare, iar Casa Unirea este supusă raportării anuale detaliate fără a primi monopol."
       ],
-      "blindSpotsCaught": "Anexele sunt reproduse în materialul prezentat drept expunere de motive: trebuie verificat dacă apar efectiv și în dispozitivul legii, deoarece simpla lor includere în motivare nu le conferă forță normativă. Art. 19 folosește «cel puțin», lăsând deschisă extinderea datelor colectate; agregarea la publicare nu rezolvă accesul autorităților la datele individuale. Totodată, art. 23 alin. (3) exclude preferința națională explicită, dar criteriile logistice pot produce discriminare indirectă dacă sunt construite pentru favorizarea furnizorilor locali.",
-      "constitutionalityNote": "Scopul este compatibil cu art. 135 privind economia de piață și valorificarea factorilor de producție. Art. 1 alin. (5) impune clarificarea acreditării, obligațiilor SELA și limitelor normelor metodologice. Art. 20 alin. (3) nu stabilește singur infracțiuni sau pedepse; nu permite sancționarea penală fără o incriminare aplicabilă, conform art. 23 alin. (12). Pentru finanțare trebuie verificate informarea Guvernului, potrivit art. 111 alin. (1), și sursele cerute de art. 138 alin. (5); extrasul nu demonstrează încălcarea lor. Garanțiile privind datele trebuie completate în raport cu art. 26. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355)",
-      "euLawNote": "Directiva 2018/958 privește accesul la profesii reglementate prin calificări profesionale; acreditarea infrastructurii agroalimentare nu o activează automat. Proporționalitatea restricțiilor economice rămâne necesară. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018L0958) SELA este o evidență administrativă, iar extrasul nu reglementează AI: digitalizarea nu declanșează singură notificarea TRIS. Trebuie însă analizate eventualele cerințe tehnice obligatorii pentru produse agricole, inclusiv cele legate de stimulente financiare; Directiva 2015/1535 acoperă și asemenea situații. Nu se poate constata lipsa notificării din extras. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1730190859396&uri=CELEX%3A32015L1535) Sprijinul necesită verificarea temeiului concret, cumulului și, când este obligatorie, autorizarea Comisiei. Criteriile achizițiilor trebuie să fie obiective, proporționale și legate de obiectul contractului; formula «lanț scurt» nu justifică singură preferințe geografice. [Directiva 2014/24](https://eur-lex.europa.eu/eli/dir/2014/24/2022-01-01/eng/pdf)",
+      "blindSpotsCaught": "Pe lângă faptul că Anexele 1-4 sunt lipite în Expunerea de motive (lipsind din textul normativ propriu-zis), Art. 42 omite să introducă formal punctul de completare pentru art. 76^3–76^9 din Legea 566/2004 și dublează normele din Capitolul VI (paralelism legislativ contrar Legii 24/2000). De asemenea, pentru platforma SELA (Art. 18-19) nu se stabilește în lege durata de stocare a datelor personale și comerciale, iar excepția de „risc fiscal real” din Art. 45 nu este definită în Codul de procedură fiscală.",
+      "constitutionalityNote": "Risc ridicat de neconstituționalitate pe Art. 1 alin. (5) (calitatea și previzibilitatea legii): Art. 41 alin. (1) și (3) încalcă cerințele privind individualizarea sancțiunilor și stabilirea prin lege a agenților constatatori (conform jurisprudenței CCR și OG 2/2001); Art. 43 pct. 2-3 și Art. 44 nu conțin norme juridice redactate efectiv; trimiterile din Art. 15 și Art. 19 la anexe inexistente în corpul legii lipsesc normele de conținut. Sub aspectul Art. 111 alin. (1) și Art. 138 alin. (5), deși Art. 51 menționează „în limita sumelor aprobate anual”, legea impune statului obligații cu termene fixe (inventar în 120 de zile, SELA în 12 luni, digitalizarea carnetului, notificări ONRC/ANAF, centre-pilot în 24 de luni), necesitând obligatoriu fișa financiară de la Guvern.",
+      "euLawNote": "Proiectul este atent calibrat să evite încălcarea directă a pieței unice: interzice criteriul originii naționale în achizițiile publice (Art. 23 alin. 3), nu impune monopol sau plafonare de prețuri și condiționează schemele de sprijin de regulile UE privind ajutorul de stat, de minimis și PAC (Art. 21 alin. 3). Rămân totuși trei puncte sensibile la implementare: (1) criteriile de „lanț scurt” și „impact logistic” din ghidul ANAP/MADR (Art. 23) nu trebuie să creeze discriminări mascate față de furnizorii din alte state membre (Art. 34 TFUE); (2) publicarea lunară a intervalelor de preț pe verigi (Art. 34) necesită agregare strictă pentru a preveni coordonarea tacită (Art. 101 TFUE); (3) acreditarea centrelor (Art. 13) trebuie să respecte proporționalitatea conform Directivei Servicii 2006/123/CE, iar standardele tehnice din viitoarele norme vor trebui verificate sub Directiva (UE) 2015/1535 (TRIS) dacă impun cerințe de ambalare/etichetare pentru mărfuri; Directiva (UE) 2018/958 nu este incidentă direct.",
       "senatForm": {
-        "articleRef": "Art. 21 alin. (3)",
-        "proposalContent": "(3) Schemele respectă normele UE privind ajutorul de stat, de minimis și PAC. Ajutoarele pentru producția agricolă primară calculate după prețul ori cantitatea produselor comercializate nu se acordă în baza Regulamentului (UE) nr. 1408/2013. Când notificarea este obligatorie, plata se face numai după autorizarea Comisiei Europene.",
-        "argumentation": "Art. 1 alin. (1) lit. (a) din Regulamentul (UE) nr. 1408/2013 exclude ajutoarele calculate după prețul sau cantitatea produselor comercializate. Art. 21 alin. (2) permite tocmai această formulă. Clarificarea previne scheme neeligibile și recuperarea ajutoarelor de la agricultori.",
-        "otherComments": "Propunere cetățenească pentru comisiile de industrii și agricultură ale Camerei Deputaților, spre preluare de un deputat. Termenul indicat, 13.10.2026, a trecut; depunerea observației nu garantează înregistrarea ca amendament. Evaluarea privește extrasul; textul se întrerupe la art. 24 alin. (2)."
-      }
+        "articleRef": "Art. 40 lit. b), Art. 41 și Art. 43 pct. 3",
+        "proposalContent": "Eliminarea Art. 40 lit. b) și Art. 43 pct. 3 (dublează art. 16 lit. h) din Legea 145/2014). La Art. 41: limite de amendă individualizate pe fiecare faptă din Art. 40, durata maximă a suspendării acreditării/interdicției și stabilirea expresă prin lege a autorităților constatatoare (MADR, ANSVSA, ANAF, ANPC), nu prin norme.",
+        "argumentation": "Art. 41 încalcă art. 1 alin. (5) din Constituție și OG 2/2001: prevede o amendă unică (2.000-100.000 lei) pentru 8 fapte diferite, interdicții fără termen și deleagă stabilirea agenților constatatori la norme. În plus, comerțul mascat apare cu 3 sancțiuni diferite (Art. 40 lit. b, Art. 43 pct. 3 și art. 16 lit. h din Legea 145/2014).",
+        "otherComments": "Mai trebuie corectate: (1) mutarea Anexelor 1-4 din Expunerea de motive în corpul legii (Art. 15 și 19 trimit la ele); (2) redactarea efectivă a textelor normative la Art. 43 pct. 2 și Art. 44 (acum sunt doar descrieri); (3) fișa financiară (art. 111/138 Constituție) și păstrarea indicatorilor economici din art. 76^2 al Legii 566/2004."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 63525,
+      "sourceEndMarker": "SF-ABE30620",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Centre regionale de colectare și depozitare pentru fermieri, cooperative mai ușor de ținut în viață și controale contra revânzătorilor din piețe",
+      "verdictShort": "Proiectul este în mare parte programatic și util: centre de colectare cu acces deschis, sprijin pentru livrări cu acte, cooperative care nu mai sunt blocate de formalități. Problemele sunt la sancțiuni: aceeași faptă ajunge să fie pedepsită de trei texte, cu un interval unic de 2.000–100.000 lei. Mai multe modificări aduse altor legi nu au text normativ concret.",
+      "initiatorClaim": "Expunerea de motive spune că România are producție, dar nu are infrastructura care s-o transforme în marfă vândută corect. Fermierul rămâne prins între intermediari informali, risipă și piețe în care revânzătorii se dau drept producători. Proiectul propune centre acreditate, evidență electronică, sprijin pe cantitate livrată fiscalizat, deblocarea cooperativelor și raportare despre Casa Unirea.",
+      "realityCheck": "Mecanic, legea creează un cadru și lasă aproape tot pe seama normelor metodologice (art. 7, 15, 21, 24, 41, 49). Scheme de sprijin «poate institui» Guvernul, iar banii sunt «în limita sumelor aprobate» (art. 51), deci efectul financiar imediat e redus. Partea cu dinți reali e regimul contravențional: art. 40 lit. b) dublează art. 16 lit. h) din Legea 145/2014 aflat deja în vigoare (7.500–15.000 lei) și noul text din art. 43 pct. 3 (5.000–20.000 lei), iar art. 41 aplică un singur interval, 2.000–100.000 lei, pentru opt fapte foarte diferite, cu agenți constatatori stabiliți prin norme. Modificările cele mai concrete și benefice sunt cele pentru cooperative: termen de remediere de 12 luni (art. 27, art. 76^5), continuitatea membrilor PFA radiați, notificare de 60 de zile înainte de declararea inactivității fiscale și reactivare în 5 zile lucrătoare (art. 45).",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Triplă incriminare a revânzării mărfii cumpărate de la terți: art. 40 lit. b) + art. 41 (2.000–100.000 lei), noua contravenție din art. 16 al Legii 145/2014 introdusă prin art. 43 pct. 3 (5.000–20.000 lei și suspendare până la 6 luni) și art. 16 lit. h) aflat deja în vigoare (7.500–15.000 lei). Agentul constatator nu va ști ce normă aplică, iar riscul de dublă sancționare este real.",
+        "Art. 41 alin. (1) nu corelează fapta cu sancțiunea: un singur interval de amendă și o listă de sancțiuni complementare (suspendare, interdicție, confiscare) «după gravitate», pentru fapte de la nepublicarea tarifelor până la deturnarea fondurilor. Alin. (3) lasă identificarea agenților constatatori pe seama normelor, deși OG nr. 2/2001 cere ca acestea să fie stabilite prin actul normativ de sancționare.",
+        "Art. 43 pct. 2 și 3 și art. 44 pct. 1–3 nu conțin textul propus, ci doar descriu intenția («se introduc alineate privind...», «se introduce definiția...»). Dacă rămân așa, aceste puncte nu pot produce efecte juridice clare și încalcă Legea nr. 24/2000.",
+        "Cooperative (art. 27–29, 42, 45): ONRC transmite datele trimestrial, nu anual ca în prezent (art. 76^2 alin. 3 în vigoare). Se introduc un termen de remediere de 12 luni când numărul membrilor scade sub minim, continuitatea calității de membru pentru PFA/II/IF radiate și notificarea prealabilă de 60 de zile înainte de inactivitatea fiscală. Sunt măsuri concrete și utile, dar art. 76^5 omite condițiile din art. 27 alin. (3) (să nu fie în dizolvare, insolvență sau inactivitate voluntară), deci cele două texte se contrazic.",
+        "Art. 21 (sprijin pe cantitate livrată) poate deveni ajutor de funcționare, greu compatibil cu regulile UE dacă nu e încadrat strict în de minimis agricol (Reg. 1408/2013) sau în ABER agricol (Reg. 2022/2472). Textul doar trimite generic la «normele UE».",
+        "Art. 14 și 17 sunt pozitive: centrele finanțate public au acces nediscriminatoriu, tarife publicate și fundamentate pe costuri, refuzul trebuie motivat în scris, iar contractele exclusiviste sunt interzise. Acestea sunt bune garanții anti-captură a infrastructurii publice."
+      ],
+      "blindSpotsCaught": "Anexele 1 și 2, la care trimit direct art. 15 alin. (1) și art. 19, apar în documentație după expunerea de motive, sub titlul «Anexe normative», nu în corpul legii. Nicio dispoziție nu le declară parte integrantă, iar Anexa 3 (structura raportului către Parlament) nu este invocată nicăieri în art. 38. Art. 42 introduce art. 76^3–76^9 fără formula «după articolul 76^2 se introduc...» și fără numerotarea punctelor. Art. 32 alin. (2) permite vânzarea mărfii terților «cu excepțiile prevăzute de lege», dar nu indică nicio excepție. Art. 23 alin. (3) interzice doar achiziția «exclusiv» pe criteriul originii naționale, iar criteriile de «lanț scurt», «impact logistic» și «distanță» rămân deschise unei favorizări indirecte a ofertanților locali. Capitolul IX poartă titlul «Casa Română de Comerț Agroalimentar UNIREA», dar nu reglementează societatea, ci doar raportarea despre ea.",
+      "constitutionalityNote": "Nu există conflicte frontale cu art. 135 (economie de piață), art. 44 (proprietate) sau art. 45 (libertate economică), pentru că participarea este voluntară, iar art. 1 alin. (3) și art. 37 alin. (3) exclud monopolul și plafonarea prețurilor. Riscurile sunt pe art. 1 alin. (5) (calitatea legii): sancțiuni fără corespondență faptă–sancțiune, agenți constatatori delegați normelor, termenul nedefinit «comercializare sistematică», texte de modificare fără conținut normativ (art. 43–44) și reglementări paralele contradictorii (art. 27 față de art. 76^5). Pe art. 111 și art. 138 alin. (5): proiectul generează cheltuieli (SELA, inventar, acreditare, raportări), deci punctul de vedere al Guvernului și fișa financiară (art. 15 din Legea 500/2002) sunt obligatorii înainte de adoptare. Formula «în limita sumelor aprobate» nu suplinește lipsa lor, potrivit jurisprudenței CCR.",
+      "euLawNote": "Directiva 2018/958 se aplică profesiilor reglementate și nu este relevantă aici, pentru că acreditarea centrelor nu instituie o profesie. TRIS 2015/1535: SELA este un sistem administrativ, nu un serviciu al societății informaționale, deci notificarea nu pare obligatorie; standardul minim al centrelor ar trebui totuși verificat dacă normele vor impune cerințe tehnice de produs sau echipamente. Ajutor de stat (art. 107–108 TFUE): schemele din art. 21–22 trebuie notificate sau încadrate în Reg. 2022/2472 ori 1408/2013. Achiziții publice (Directiva 2014/24, art. 67): criteriile de prospețime și lanț scurt trebuie legate de obiectul contractului, nu de proximitatea geografică a ofertantului (CJUE, C-21/88). Directiva 2019/633 permite statelor reguli mai stricte, deci adăugarea refuzului nejustificat de recepție printre practicile neloiale (art. 44 pct. 2) este compatibilă. Publicarea agregată a prețurilor (art. 34) este acceptabilă dacă granularitatea nu facilitează coluziunea (art. 101 TFUE).",
+      "senatForm": {
+        "articleRef": "Art. 40 lit. b) și art. 41 alin. (1) și (3)",
+        "proposalContent": "Se elimină art. 40 lit. b), fapta fiind deja sancționată de art. 16 lit. h) din Legea nr. 145/2014. La art. 41 se stabilesc, pentru fiecare faptă din art. 40, limite distincte ale amenzii și sancțiunile complementare aplicabile; pentru persoane fizice amenda nu depășește 10.000 lei. Agenții constatatori se prevăd expres în lege, pe categorii de fapte.",
+        "argumentation": "Revânzarea mărfii terților pe carnet ar fi sancționată de 3 norme: art. 40 lit. b) (2.000–100.000 lei), noul text din art. 16 al Legii 145/2014 (5.000–20.000 lei) și art. 16 lit. h) în vigoare (7.500–15.000 lei). Un interval unic pentru 8 fapte diferite și agenți stabiliți prin norme încalcă previzibilitatea (art. 1 alin. 5 Const.) și OG 2/2001.",
+        "otherComments": "Art. 43 pct. 2–3 și art. 44 nu conțin textul normativ propus, doar descriu intenția, contrar Legii 24/2000. Anexele 1 și 2, invocate de art. 15 și 19, trebuie incluse în lege ca parte integrantă. Art. 76^5 trebuie corelat cu condițiile din art. 27 alin. (3). Este necesară fișa financiară (art. 111 și 138 alin. 5 Const.)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 113816,
+      "sourceEndMarker": "SF-ABE30620",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Centre pentru vânzarea recoltelor, evidență digitală și reguli noi pentru cooperative",
+      "verdictShort": "Proiectul are obiective utile și exclude expres monopolul, cumpărarea obligatorie după origine și plafonarea generală a prețurilor. Totuși, sancțiunile insuficient delimitate și modificările legislative lăsate la nivel de instrucțiuni necesită corectare înainte de adoptare.",
+      "initiatorClaim": "Inițiatoarea urmărește reducerea pierderilor agricole și creșterea veniturilor producătorilor prin colectare, refrigerare, asociere și vânzări fiscalizate. Promite simplificarea cooperativelor, combaterea comercianților care se prezintă drept producători și transparență privind Casa Unirea.",
+      "realityCheck": "Legea creează un program coordonat de MADR, acreditări, evidența electronică SELA și obligații administrative, dar ajutoarele rămân facultative pentru Guvern, iar investițiile depind de bugetele aprobate. Participarea producătorilor la Program este voluntară, însă regulile pentru piețe și modificările fiscale au aplicare proprie, dincolo de această participare. Textul dublează unele obligații existente și permite alegerea între sancțiuni foarte diferite fără suficiente criterii și limite stabilite în lege.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Justiție & Drepturi Civile",
+        "Agricultură & Mediu",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 1 alin. (3), art. 5 alin. (3), art. 23 alin. (3), art. 37 și art. 39 conțin garanții reale: participare voluntară, păstrarea vânzării directe legale, lipsa exclusivității pentru Casa Unirea și interzicerea achizițiilor exclusiv după origine națională. Proiectul nu instituie o obligație generală de predare a recoltei către stat.",
+        "Art. 40–41 prevăd, pentru opt categorii diferite de fapte, aceeași plajă de amendă de 2.000–100.000 lei și posibilitatea suspendării acreditării, interdicției temporare sau confiscării beneficiilor. Lipsesc repartizarea sancțiunilor pe fapte, durata maximă a suspendării și interdicției și regulile de cumul. Individualizarea potrivit OG nr. 2/2001 rămâne aplicabilă, dar nu rezolvă toate aceste omisiuni.",
+        "Comerțul cu produse cumpărate de la terți sub acoperirea carnetului este deja sancționat: art. 16 lit. h) din Legea nr. 145/2014 prevede amendă de 7.500–15.000 lei. Art. 43 pct. 3 propune pentru vânzarea sistematică amendă de 5.000–20.000 lei și suspendare de până la șase luni, fără să înlocuiască expres norma existentă; art. 40 lit. b) adaugă încă o încadrare apropiată. Trebuie delimitate faptele și exclusă dubla sancționare pentru aceeași faptă.",
+        "Separarea spațiilor producătorilor de cele ale comercianților nu este o noutate: art. 13 din Legea nr. 145/2014 impune deja spații distincte și semnalizate, cu minimum 40% rezervate producătorilor și reguli pentru PFA/II/IF. Art. 33 și art. 43 adaugă verificări și informare, dar nu abrogă procentul existent și nici derogarea sezonieră din decembrie–martie.",
+        "Art. 43 pct. 2–3 și art. 44 descriu intervenții legislative fără să redacteze integral alineatele, definiția și articolul care trebuie introduse. Formule precum «se introduc alineate privind» sau «se introduce art. 6^1 privind» nu oferă textul normativ care să poată fi integrat neechivoc în legile modificate.",
+        "Art. 15 și art. 19 trimit la anexele nr. 1 și 2 pentru standardele centrelor și datele SELA. În materialul furnizat, anexele apar după încheierea proiectului, în expunerea de motive. Ele trebuie atașate și asumate formal ca parte a legii; prezentarea lor în documentul justificativ nu le conferă singură forță normativă.",
+        "Art. 42 schimbă raportarea ONRC către MADR din anuală în trimestrială și adaugă explicit evenimente precum radierea, suspendarea și modificarea organelor statutare. Totuși, noua enumerare nu mai garantează expres transmiterea tuturor indicatorilor actuali, precum cifra de afaceri, profitul/pierderea și numărul de membri și angajați. Registrul național există deja; proiectul îi schimbă alimentarea cu date.",
+        "Art. 27 și articolele propuse 76^5–76^6 acordă continuitate cooperativelor cu membri insuficienți și permit păstrarea calității de membru după radierea PFA/II/IF, în anumite condiții. Aceste soluții sunt utile, dar textele paralele nu au condiții identice: art. 27 exclude anumite situații de dizolvare sau insolvență, pe când noul art. 76^5 nu reproduce aceste limite.",
+        "Art. 45 propune pentru anumite cauze formale de inactivitate fiscală notificare, remediere în 60 de zile și reactivare în cinci zile lucrătoare de la documentația completă. Excepția «risc fiscal real» nu este definită aici, iar procedura trebuie corelată cu art. 92 și cu art. 29, fără a presupune că garanțiile fiscale generale dispar.",
+        "Art. 14 alin. (2) permite excepții de la interdicția condiționării accesului de contracte exclusiviste pentru capacități rezervate, contracte ferme sau programe publice. Publicarea anterioară oferă transparență, însă lipsesc limite privind durata și proporția capacității rezervate, ceea ce poate restrânge efectiv accesul micilor producători la infrastructura finanțată public.",
+        "Art. 21 permite, fără să oblige Guvernul, instituirea schemelor de sprijin. Art. 51 identifică surse generale de finanțare, dar materialul nu cuantifică investițiile, costurile SELA, personalul sau raportările. Nu rezultă un drept imediat la subvenție, un centru în fiecare județ ori o reducere garantată a prețului alimentelor.",
+        "Art. 49–52 combină intrarea în vigoare la 30 de zile cu norme metodologice în 120 de zile, SELA-pilot în 12 luni și centre-pilot în 24 de luni. Lipsesc reguli tranzitorii suficient de clare pentru obligațiile și sancțiunile care depind de infrastructura nefuncțională; termenele de implementare nu amână automat fiecare obligație corespunzătoare."
+      ],
+      "blindSpotsCaught": "Problemele importante sunt și în dispozițiile finale: art. 43 suprapune sancțiuni peste o contravenție deja existentă, iar art. 44 formulează completări fără text normativ integral. Anexele prezentate în expunerea de motive nu trebuie confundate cu anexele adoptate ale legii. În plus, caracterul voluntar al Programului nu face facultative obligațiile generale introduse pentru piețe sau modificările Codului de procedură fiscală. Nu există în text o abrogare expresă a garanțiilor generale de contestare.",
+      "constitutionalityNote": "Obiectivele economice și alimentare sunt compatibile, în principiu, cu art. 34, 47 și 135 din Constituție. Vulnerabilitatea principală privește art. 1 alin. (5): sancțiuni insuficient determinate, modificări legislative incomplete, condiții neuniforme în norme paralele și delegarea către norme metodologice a unor elemente importante de aplicare. Art. 23 alin. (12) privește direct legalitatea pedepsei penale; pentru contravențiile de aici, analiza trebuie fundamentată în primul rând pe previzibilitate, proporționalitate și garanțiile aplicabile materiei contravenționale. Suspendarea activității, interdicția și confiscarea trebuie delimitate în raport cu art. 44 și 45, iar accesul la justiție prevăzut de art. 21 rămâne garantat inclusiv prin dreptul comun. Art. 51 indică surse de finanțare, deci nu se poate afirma că sursa lipsește complet; trebuie însă documentate costurile și respectarea art. 111 alin. (1) și art. 138 alin. (5). Din documentele furnizate nu se poate stabili dacă informarea Guvernului și fișa financiară au fost solicitate sau primite.",
+      "euLawNote": "Garanțiile de nediscriminare și lipsa exclusivității sunt pozitive. Criteriile de prospețime, lanț scurt sau impact logistic trebuie totuși justificate și proporționale în fiecare achiziție, fără a masca preferințe geografice incompatibile cu piața internă și Directiva 2014/24/UE. Art. 21 alin. (3) nu înlocuiește verificarea fiecărei scheme în raport cu ajutorul de stat, eventualele exceptări și obligația de notificare/suspendare a acordării ajutorului. Directiva 2018/958 privește accesul la profesii reglementate și exercitarea lor: acreditarea unei infrastructuri agroalimentare nu atrage automat aplicarea acesteia; din text nu rezultă o nouă profesie reglementată. Nici SELA, ca sistem administrativ digital, nu declanșează automat TRIS potrivit Directivei 2015/1535. Trebuie analizate concret eventualele reguli tehnice obligatorii pentru produse sau cerințe vizând specific servicii ale societății informaționale, inclusiv în actele de aplicare. Proiectul nu reglementează AI. În raport cu GDPR, minimizarea, analiza de impact și publicarea agregată sunt utile, dar trebuie precizate responsabilitățile, accesul, păstrarea datelor și garanțiile schimburilor interinstituționale. Agregarea prețurilor trebuie să prevină și identificarea indirectă a operatorilor ori facilitarea coordonării anticoncurențiale.",
+      "senatForm": {
+        "articleRef": "Art. 41 alin. (1)",
+        "proposalContent": "Faptele de la art. 40 lit. a), e), g) și h) se sancționează cu amendă de la 10.000 la 50.000 lei, iar cele de la lit. c), d) și f), de la 2.000 la 10.000 lei. Fapta de la lit. b) se sancționează exclusiv potrivit Legii nr. 145/2014. Se aplică OG nr. 2/2001.",
+        "argumentation": "Se diferențiază frauda de încălcările obligațiilor administrative și se elimină sancțiunile suplimentare fără durată maximă și condiții clare. Trimiterea la regimul special pentru comerțul mascat reduce suprapunerile. Recuperarea finanțării rămâne posibilă potrivit art. 17 și regimului legal aplicabil.",
+        "otherComments": "Este necesară și corelarea art. 43 pct. 3 cu art. 16 lit. h) din Legea nr. 145/2014, printr-o singură normă clară. Art. 43–44 trebuie redactate integral, iar anexele invocate trebuie incluse formal în lege. Propunerea poate fi preluată ca amendament de un deputat în comisiile Camerei."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T21:35:26.212Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-19T16:42:08.243Z",
+      "reasons": [
+        "metoda",
+        "model"
+      ]
+    }
+  ]
 }

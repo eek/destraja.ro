@@ -2,14 +2,41 @@
   "billId": "PL-x 737/2026",
   "slug": "plx-737-2026",
   "version": "senat",
-  "updatedAt": "2026-11-15T20:15:01.732Z",
+  "updatedAt": "2026-11-19T16:36:17.533Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 23146,
+    "ordinanceChars": 0,
+    "memoChars": 18489,
+    "memoSupplied": 18489,
+    "marker": "SF-02AF02A5"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-737-2026.json",
+    "form": "senat",
+    "textHash": "02af02a5b52aa62f",
+    "fetchedAt": "2026-11-19T09:30:39.311Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 6.7,
-    "riskLevel": "yellow",
-    "plainTitle": "Interzicerea rețelelor sociale pentru copiii sub 15 ani și verificarea obligatorie a vârstei pentru toți utilizatorii",
-    "summaryTlDr": "Scopul este legitim și susținut de date serioase. Mecanismul are însă probleme: impune o obligație de rezultat care, în practică, cere verificarea vârstei tuturor utilizatorilor, inclusiv a adulților, și intră în coliziune frontală cu DSA și cu principiul țării de origine. Fără notificare TRIS, legea riscă să nu poată fi aplicată.",
-    "initiatorClaim": "Inițiatorii vor să protejeze copiii de efectele rețelelor sociale asupra sănătății mintale, de cyberbullying, grooming și challenge-uri periculoase. Ca soluție, propun un prag de 15 ani după modelul francez și responsabilizarea directă a platformelor.",
-    "realityCheck": "Legea interzice accesul sub 15 ani (art. 2). Pentru a demonstra respectarea interdicției, platformele trebuie să verifice efectiv vârsta, iar declarația pe proprie răspundere nu este suficientă (art. 2 alin. 4, art. 4). Conturile existente trebuie verificate în 6 luni (art. 6), deci și milioanele de adulți vor trebui să-și dovedească vârsta. Art. 7 introduce un regim de semnalare și eliminare în 48h pentru conținut legal, dar „cu risc”, definit prin liste deschise, iar decizia aparține platformei, fără control judiciar.",
+    "riskScore": 7,
+    "riskLevel": "red",
+    "plainTitle": "Fără rețele sociale sub 15 ani: verificarea vârstei devine obligatorie pentru toți utilizatorii",
+    "summaryTlDr": "Scopul e legitim și răspunderea cade corect doar pe platforme, nu pe copii sau părinți. Textul intră însă în coliziune cu dreptul UE (DSA, principiul țării de origine, TRIS), are trimiteri greșite și amenzi minime rigide, iar asta îl expune la inaplicabilitate și la contestații.",
+    "initiatorClaim": "Inițiatorii vor să protejeze sănătatea mintală și siguranța copiilor față de cyberbullying, grooming, provocări periculoase și design adictiv. Pentru asta interzic accesul sub 15 ani și obligă platformele să verifice efectiv vârsta, după modelul francez și al blueprint-ului Comisiei Europene.",
+    "realityCheck": "Pentru că declarația de vârstă nu mai e suficientă (art. 2 alin. 4), orice utilizator din România, inclusiv adulții, va trebui să-și dovedească vârsta printr-un mecanism tehnic, iar conturile existente trebuie reverificate (art. 6). Legea dă ANCOM putere să ordone eliminarea de conținut legal, dar „cu risc grav”, cu o definiție deschisă care trimite la orientări UE viitoare (art. 1 lit. g, art. 8 alin. 2 lit. d). Pentru firmele mici, amenda minimă este de 0,5% din cifra de afaceri globală (art. 9 alin. 2). Pentru marile platforme, aproape tot ce contează rămâne la Comisia Europeană.",
     "affectedGroups": [
       "Toți cetățenii",
       "IT & AI",
@@ -17,54 +44,59 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. 4 alin. (2)-(3) și Art. 2 alin. (4)",
-      "proposalContent": "Art. 4 alin. (2)-(3) se înlocuiesc: «(2) Obligația de la alin. (1) este de diligență sporită și se consideră îndeplinită dacă furnizorul aplică o soluție de verificare a vârstei conformă orientărilor Comisiei adoptate în temeiul art. 28 DSA, de tip dublu-anonim, fără stocarea datelor de identitate.» La art. 2 alin. (4), «alin. (1)» se înlocuiește cu «alin. (2)».",
-      "argumentation": "Obligația de rezultat (art. 4) impune practic identificarea tuturor utilizatorilor, inclusiv adulți (art. 6), contrar minimizării datelor (art. 5 GDPR, art. 26 Constituție) și fără criteriu clar de îndeplinire („substanțial și verificabil”), ceea ce încalcă previzibilitatea (art. 1 alin. 5). Standardul UE de diligență evită conflictul cu DSA și sancțiuni arbitrare.",
-      "otherComments": "Solicităm notificarea TRIS (Dir. 2015/1535) înainte de vot, sub sancțiunea inopozabilității. Art. 1 lit. a) pct. 2 e trunchiat; art. 1 lit. f)-g) au liste deschise și trimit la soft law UE. Art. 7 permite eliminarea în 48h a conținutului legal, fără control judiciar. Clarificați aplicarea față de furnizorii din alte state UE (C-376/22)."
+      "articleRef": "Art. 9 alin. (2)",
+      "proposalContent": "Art. 9 alin. (2) devine: „Contravențiile se sancționează cu amendă de până la 2% din cifra de afaceri anuală din exercițiul financiar anterior, individualizată potrivit alin. (8).” Se introduce alin. (2^1): „Obligațiile nu se aplică micro- și întreprinderilor mici, cu excepțiile prevăzute la art. 19 din Regulamentul (UE) 2022/2065.”",
+      "argumentation": "Minimul de 0,5% din cifra globală, pentru orice abatere, împiedică individualizarea cerută de alin. (8) și lovește disproporționat furnizorii mici. DSA scutește micro- și întreprinderile mici de art. 28 (art. 19); legea le impune mai mult decât UE. Suspendarea, pusă alternativ la alin. (2), contrazice alin. (3).",
+      "otherComments": "Corectați și: art. 9 alin. (6) trimite la art. 52-54 DSA, dar amenzile Comisiei sunt la art. 73-74; numerotarea dublă a alin. (6); art. 2 alin. (4) trimite la alin. (1) în loc de (2); art. 1 lit. a) pct. 2 e trunchiat. Proiectul trebuie notificat TRIS (Directiva 2015/1535) înainte de adoptare."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 47894,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 72123,
+      "sourceEndMarker": "SF-02AF02A5",
       "riskScore": 7,
       "riskLevel": "red",
-      "plainTitle": "Interdicție de acces sub 15 ani pe rețelele sociale și verificare obligatorie a tuturor conturilor în 6 luni",
-      "verdictShort": "Sub un obiectiv legitim de protecție a minorilor, proiectul impune platformelor o obligație de rezultat și reverificarea tuturor conturilor existente în 6 luni, ceea ce forțează în practică identificarea fiecărui utilizator adult din România. În plus, textul adoptat de Senat are erori grave de redactare și intră în coliziune directă cu Regulamentul UE privind serviciile digitale (DSA) și cu procedura de notificare TRIS.",
-      "initiatorClaim": "Inițiatorii invocă date alarmante privind debutul timpuriu pe rețelele sociale (în medie la 5 ani), hărțuirea online, grooming-ul și impactul asupra sănătății mintale a copiilor, arătând că regulile declarative și controlul parental sunt insuficiente. Ei propun transpunerea modelului francez prin interzicerea accesului sub 15 ani, protecție sporită între 15 și 18 ani și responsabilizarea directă a platformelor.",
-      "realityCheck": "În realitate, combinarea interdicției absolute sub 15 ani cu o «obligație de rezultat» (Art. 4) și cu verificarea tuturor conturilor deja active în cel mult 6 luni (Art. 6) va obliga platformele să ceară dovezi de vârstă (acte, verificare bancară sau estimare biometrică) de la milioane de adulți. Totodată, Art. 7 impune restricționarea sau eliminarea în 48 de ore a conținutului «cu risc», chiar dacă nu este ilegal («fără a fi în mod necesar ilegal» la Art. 1 lit. f), încurajând autocenzura. Textul furnizat din forma Senatului se oprește la Art. 7 alin. (10), astfel încât regimul sancționator menționat în fișa Camerei nu poate fi evaluat din acest extras.",
+      "plainTitle": "Interzicerea rețelelor sociale sub 15 ani și verificarea vârstei tuturor utilizatorilor din România",
+      "verdictShort": "Deși urmărește un scop social legitim — protecția copiilor online — forma adoptată tacit de Senat intră în coliziune directă cu dreptul UE (DSA și TRIS), impune verificarea vârstei pentru toți cetățenii adulți cu conturi existente și oferă ANCOM puteri vagi de eliminare a conținutului legal.",
+      "initiatorClaim": "Inițiatorii susțin că vor să protejeze sănătatea mintală și siguranța copiilor împotriva cyberbullying-ului, grooming-ului, provocărilor periculoase și designului adictiv, impunând un prag clar de 15 ani și responsabilizând platformele online, după modelul francez.",
+      "realityCheck": "În practică, art. 2 și art. 6 obligă verificarea vârstei pentru toate conturile noi și existente în 6 luni, afectând viața privată a tuturor adulților în absența unei infrastructuri anonimizate (EUDI Wallet), fără a permite măcar accesul sub 15 ani cu acord parental. Mai grav, din cauza regulilor UE, sancțiunile dure de 0,5%–2% din cifra de afaceri globală și blocarea serviciului (art. 9) nu pot lovi direct marile platforme stabilite în alte state membre, ci amenință platformele mici, locale sau hibride (inclusiv comunități de gaming), în timp ce art. 8 alin. (2) lit. d) permite ANCOM să ordone ștergerea de conținut legal definit vag.",
       "affectedGroups": [
         "Toți cetățenii",
         "IT & AI",
         "Justiție & Drepturi Civile",
-        "IMM & Antreprenori"
+        "IMM & Antreprenori",
+        "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Obligație de rezultat și verificare retroactivă a tuturor conturilor (Art. 4 și Art. 6): platformele trebuie să prevină «substanțial și verificabil» accesul sub 15 ani și să verifice vârsta tuturor utilizatorilor cu conturi active în 6 luni, afectând anonimatul și accesul adulților (inclusiv prin limitarea conturilor suspectate până la verificare, conform Art. 6 alin. 3).",
-        "Eliminare în 48 de ore pentru conținut legal, pe criterii vagi (Art. 1 lit. f)-g) și Art. 7): definițiile includ noțiuni subiective precum «dezvoltarea morală» sau «informații false sau înșelătoare», iar Art. 7 obligă platformele să ia măsuri în 48 de ore la notificări privind riscuri grave și iminente, fără control judecătoresc.",
-        "Viciu de tehnică legislativă și conflict de competență (Art. 1, Art. 4 și Art. 5): textul adoptat de Senat conține o frază neterminată la Art. 1 lit. a) pct. 2 («conținut generat de»), dublarea textului în Art. 4 alin. (1) și atribuie ANCOM supravegherea platformelor accesibile în România, ignorând competența statului de stabilire din DSA."
+        "Verificare universală a vârstei pentru toți românii (Art. 2 și Art. 6): Toate conturile active la intrarea în vigoare trebuie verificate în 6 luni prin metode non-declarative, ceea ce obligă implicit și milioanele de adulți să își dovedească vârsta pe rețele sociale și platforme hibride (Art. 11).",
+        "Cenzură administrativă pe conținut legal (Art. 1 lit. f-g, Art. 7 și Art. 8 alin. 2 lit. d): Definițiile de «conținut cu risc» și «risc grav» sunt neexhaustive («fără a se limita la acestea», «dezvoltarea morală») și includ conținut care «nu este în mod necesar ilegal», dar ANCOM primește dreptul de a emite ordine de eliminare fără hotărâre judecătorească prealabilă.",
+        "Obligație de rezultat imposibil de garantat și asimetrie sancționatorie (Art. 4 și Art. 9): Platformele răspund printr-o «obligație de rezultat» pentru blocarea minorilor sub 15 ani, însă sancțiunile locale (0,5%–2% din cifra de afaceri globală sau suspendarea serviciului) vizează platformele non-VLOP, în timp ce giganții (VLOP) sunt redirecționați exclusiv spre Comisia Europeană (Art. 9 alin. 6).",
+        "Erori grave de redactare și tehnică legislativă în forma adoptată tacit de Senat: Art. 1 lit. a) pct. 2 are propoziția tăiată («conținut generat de»), Art. 4 alin. (1) are fraza dublată, Art. 9 are două alineate numerotate (6), lipsește trimiterea la OG nr. 2/2001, iar Art. 9 alin. (1) sancționează contravențional doar art. 2–4, nu și art. 6–7."
       ],
-      "blindSpotsCaught": "Art. 1 lit. g) permite extinderea categoriilor de «conținut cu risc grav» prin simple «orientări, recomandări sau alte instrumente» ale instituțiilor UE, delegând dinamic definirea unor obligații juridice către acte de tip soft law. În plus, forma oficială adoptată de Senat conține erori materiale evidente necorectate înainte de transmiterea la Camera Deputaților: text trunchiat la Art. 1 lit. a) pct. 2, «simt» în loc de «sunt» la Art. 1 lit. e) și numerotare/frază dublată în interiorul Art. 4 alin. (1).",
-      "constitutionalityNote": "Există vulnerabilități serioase raportat la Art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii), din cauza erorilor de redactare din Art. 1 și Art. 4 și a definițiilor largi din Art. 1 lit. f)-g). Măsura verificării obligatorii a tuturor conturilor existente în 6 luni (Art. 6) ridică riscuri majore față de Art. 26 (viața privată), iar obligația de a restricționa/elimina în 48h conținut neilegal afectează Art. 30 și Art. 31 (libertatea de exprimare și dreptul la informație), în condițiile Art. 53 (proporționalitate) și Art. 148 (prioritatea dreptului UE).",
-      "euLawNote": "Proiectul intră în coliziune cu Regulamentul (UE) 2022/2065 (DSA): art. 56 DSA conferă competență de supraveghere asupra marilor platforme Comisiei Europene și coordonatorului din statul de stabilire (principiul țării de origine), nu ANCOM; obligația de rezultat din Art. 4 depășește standardul de diligență din art. 28 DSA și tensionează interdicția monitorizării generale (art. 8 DSA). Reglementând servicii ale societății informaționale, legea necesită obligatoriu notificare prealabilă la Comisia Europeană conform Directivei (UE) 2015/1535 (TRIS) cu perioadă de standstill de 3 luni, altfel devine inopozabilă. Directiva (UE) 2018/958 (profesii reglementate) nu este aplicabilă direct, însă costurile de conformare (sisteme de age assurance, evaluări documentate în 48h) dezavantajează disproporționat IMM-urile digitale românești.",
+      "blindSpotsCaught": "Legea a trecut tacit de Senat cu erori brute de copy-paste și omite o capcană majoră de drept european: fără notificarea prealabilă obligatorie prin sistemul TRIS (Directiva 2015/1535) și din cauza conflictului cu principiul țării de origine din DSA, prevederile riscă să fie juridic inopozabile marilor rețele sociale (stabilite în Irlanda), dar direct executorii și sufocante pentru platformele mici/românești și aplicațiile hibride de jocuri sau comunități (Art. 11 alin. 1 și 3).",
+      "constitutionalityNote": "Proiectul ridică vicii serioase față de Art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii) din cauza definițiilor deschise și subiective ale conținutului nociv, a erorilor de redactare (propoziții incomplete, dublarea alin. 6 din Art. 9) și a absenței procedurii contravenționale complete. Permisiunea acordată ANCOM (Art. 8 alin. 2 lit. d) de a ordona eliminarea conținutului legal fără filtru judiciar vulnerabilizează Art. 30 (libertatea de exprimare) și Art. 31 (dreptul la informație) raportate la Art. 53. Interdicția absolută fără opțiunea consimțământului parental și verificarea obligatorie a tuturor conturilor existente afectează Art. 26 (viața privată și familială), iar conflictul cu DSA încalcă Art. 148 alin. (2).",
+      "euLawNote": "Proiectul intră în coliziune cu Regulamentul (UE) 2022/2065 (DSA), care realizează o armonizare maximă a obligațiilor platformelor privind protecția minorilor (art. 28 și 34) și consacră principiul țării de origine (art. 56 DSA și art. 3 Directiva 2000/31/CE): ANCOM nu poate impune obligații naționale suplimentare platformelor stabilite în alte state UE. Instituind cerințe tehnice pentru servicii ale societății informaționale, proiectul intră obligatoriu sub incidența Directivei (UE) 2015/1535 (TRIS); adoptarea fără notificare și perioadă de standstill îl face inopozabil. Verificarea universală a vârstei creează tensiuni cu GDPR (minimizarea datelor și art. 8 privind acordul parental). Directiva (UE) 2018/958 nu este aplicabilă, legea nereglementând accesul la profesii reglementate.",
       "senatForm": {
-        "articleRef": "Art. 4 alin. (2)-(3) și Art. 6 alin. (1)-(2)",
-        "proposalContent": "La Art. 4, înlocuirea „obligației de rezultat” cu obligația de diligență proporțională conform art. 28 DSA. La Art. 6, condiționarea verificării conturilor existente de operaționalizarea Portofelului UE de Identitate Digitală (eIDAS2) și interzicerea expresă a colectării de acte de identitate sau date biometrice.",
-        "argumentation": "O obligație de rezultat și verificarea tuturor conturilor în 6 luni forțează platformele să ceară acte sau biometrie tuturor adulților, încălcând GDPR și art. 26 din Constituție. Măsura depășește cadrul de diligență al art. 28 DSA și riscă excluderea utilizatorilor adulți până la apariția unei soluții anonime.",
-        "otherComments": "Corectați și erorile de redactare din forma Senatului (fraza neterminată la Art. 1 lit. a) pct. 2, textul dublat la Art. 4 alin. (1)), clarificați noțiunile vagi de la Art. 1 lit. f)-g) și Art. 7 (conținut legal eliminat în 48h) și notificați proiectul Comisiei Europene conform Directivei (UE) 2015/1535 (TRIS) înainte de votul final."
+        "articleRef": "Art. 1, Art. 4, Art. 6, Art. 8(2)d și Art. 9",
+        "proposalContent": "1) Remedierea erorilor de redactare (art. 1, 4, 9). 2) Transformarea obligației de rezultat (art. 4) în obligație de diligență. 3) Eliminarea art. 8 alin. (2) lit. d) privind ordinul ANCOM de ștergere a conținutului legal. 4) Condiționarea art. 6 de operaționalizarea EUDI Wallet, pentru a proteja anonimatul adulților, și corelarea sancțiunilor cu DSA.",
+        "argumentation": "Textul adoptat tacit încalcă armonizarea maximă și principiul țării de origine din DSA, lovind disproporționat platformele non-VLOP. Ordinul ANCOM de ștergere a conținutului legal vag definit contravine art. 1 alin. (5) și art. 30 din Constituție, iar verificarea tuturor conturilor existente fără EUDI Wallet vulnerabilizează viața privată.",
+        "otherComments": "Fiind normă tehnică pentru servicii digitale, proiectul trebuie notificat obligatoriu Comisiei Europene prin procedura TRIS (Directiva 2015/1535) înainte de adoptare; altfel legea este inopozabilă. Recomand introducerea acordului parental verificat, clarificarea competenței instanțelor și trimiterea la OG nr. 2/2001."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 60976,
+      "durationMs": 80358,
+      "sourceEndMarker": "SF-02AF02A5",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Interzicerea rețelelor sociale pentru copiii sub 15 ani și verificarea obligatorie a vârstei pentru toți utilizatorii",
-      "verdictShort": "Scopul este legitim și susținut de date serioase. Mecanismul are însă probleme: impune o obligație de rezultat care, în practică, cere verificarea vârstei tuturor utilizatorilor, inclusiv a adulților, și intră în coliziune frontală cu DSA și cu principiul țării de origine. Fără notificare TRIS, legea riscă să nu poată fi aplicată.",
-      "initiatorClaim": "Inițiatorii vor să protejeze copiii de efectele rețelelor sociale asupra sănătății mintale, de cyberbullying, grooming și challenge-uri periculoase. Ca soluție, propun un prag de 15 ani după modelul francez și responsabilizarea directă a platformelor.",
-      "realityCheck": "Legea interzice accesul sub 15 ani (art. 2). Pentru a demonstra respectarea interdicției, platformele trebuie să verifice efectiv vârsta, iar declarația pe proprie răspundere nu este suficientă (art. 2 alin. 4, art. 4). Conturile existente trebuie verificate în 6 luni (art. 6), deci și milioanele de adulți vor trebui să-și dovedească vârsta. Art. 7 introduce un regim de semnalare și eliminare în 48h pentru conținut legal, dar „cu risc”, definit prin liste deschise, iar decizia aparține platformei, fără control judiciar.",
+      "plainTitle": "Fără rețele sociale sub 15 ani: verificarea vârstei devine obligatorie pentru toți utilizatorii",
+      "verdictShort": "Scopul e legitim și răspunderea cade corect doar pe platforme, nu pe copii sau părinți. Textul intră însă în coliziune cu dreptul UE (DSA, principiul țării de origine, TRIS), are trimiteri greșite și amenzi minime rigide, iar asta îl expune la inaplicabilitate și la contestații.",
+      "initiatorClaim": "Inițiatorii vor să protejeze sănătatea mintală și siguranța copiilor față de cyberbullying, grooming, provocări periculoase și design adictiv. Pentru asta interzic accesul sub 15 ani și obligă platformele să verifice efectiv vârsta, după modelul francez și al blueprint-ului Comisiei Europene.",
+      "realityCheck": "Pentru că declarația de vârstă nu mai e suficientă (art. 2 alin. 4), orice utilizator din România, inclusiv adulții, va trebui să-și dovedească vârsta printr-un mecanism tehnic, iar conturile existente trebuie reverificate (art. 6). Legea dă ANCOM putere să ordone eliminarea de conținut legal, dar „cu risc grav”, cu o definiție deschisă care trimite la orientări UE viitoare (art. 1 lit. g, art. 8 alin. 2 lit. d). Pentru firmele mici, amenda minimă este de 0,5% din cifra de afaceri globală (art. 9 alin. 2). Pentru marile platforme, aproape tot ce contează rămâne la Comisia Europeană.",
       "affectedGroups": [
         "IT & AI",
         "IMM & Antreprenori",
@@ -73,33 +105,37 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 4 alin. (2)-(3) transformă protecția într-o obligație de rezultat („prevenire substanțială și verificabilă”), fără un criteriu măsurabil de conformitate. Furnizorul nu poate ști dinainte când este în regulă, iar sancțiunea devine imprevizibilă.",
-        "Art. 6 impune verificarea vârstei tuturor conturilor active în 6 luni. Efectul real este o colectare masivă de date despre adulți, în tensiune cu minimizarea datelor (art. 5 GDPR), pe care legea o invocă formal.",
-        "Art. 1 lit. f) și g) definesc conținutul „cu risc” prin liste deschise („fără a se limita la acestea”). Lit. g) trimite inclusiv la orientări și recomandări UE fără forță obligatorie, astfel că sfera conținutului restricționabil se poate extinde fără lege.",
-        "Art. 7 alin. (5)-(6) permite eliminarea în 48h a conținutului legal, pe baza evaluării proprii a platformei. Combinat cu sancțiunile, acest regim stimulează eliminarea preventivă excesivă (over-blocking).",
-        "Definiția furnizorului (art. 1 lit. c) include și persoanele fizice. Definiția rețelei sociale (lit. a) este largă: forumuri, servere comunitare, secțiuni de comentarii sau platforme social-gaming românești mici pot intra sub aceleași obligații ca Meta sau TikTok.",
-        "Textul are erori tehnice care afectează claritatea: art. 1 lit. a) pct. 2 este trunchiat („conținut generat de”); art. 2 alin. (4) trimite la alin. (1) în loc de alin. (2); art. 4 alin. (1) este duplicat; art. 3 folosește alternativ „furnizorii platformelor” și „furnizorii de servicii de rețele sociale”; art. 3 alin. (5) vizează „minorii sub 18 ani”, deși cei sub 15 sunt deja excluși."
+        "Art. 2 alin. (4) + art. 4: verificarea doar declarativă e interzisă și obligația este „de rezultat”. Practic, toți utilizatorii, inclusiv adulții, trec prin age assurance, ceea ce atinge anonimatul și viața privată.",
+        "Art. 9 alin. (2): amendă între 0,5% și 2% din cifra de afaceri anuală globală, fără prag minim fix și fără scutire pentru microîntreprinderi și întreprinderi mici. DSA (art. 19) le scutește tocmai de art. 28 privind minorii, deci legea impune firmelor mici mai mult decât UE.",
+        "Art. 9 alin. (6) trimite la art. 52-54 DSA pentru amenzile Comisiei aplicate VLOP. Aceste articole privesc însă sancțiunile statelor membre și cererile de investigare; amenzile Comisiei sunt la art. 73-74. În plus, alin. (6) apare de două ori.",
+        "Art. 9 alin. (1) sancționează doar art. 2, 3 și 4. Încălcarea art. 6 (conturi existente) și art. 7 (notificare, termen de 48 h) nu este contravenție, deși art. 8 alin. (3) spune că ANCOM aplică sancțiuni la neconformare.",
+        "Art. 9 alin. (2) prevede suspendarea ca alternativă la amendă, în timp ce alin. (3) o rezervă instanței. „Instanța competentă” și procedura nu sunt precizate, iar trimiterea la OG nr. 2/2001 lipsește (agent constatator, prescripție, cale de atac).",
+        "Art. 1 lit. g), ultima liniuță: categoriile de conținut „cu risc grav” se completează prin orientări și recomandări ale instituțiilor UE (soft law, trimitere dinamică). Pe această bază se poate dispune eliminarea în 48 h (art. 7 alin. 6) sau prin ordin ANCOM (art. 8 alin. 2 lit. d).",
+        "Art. 6 cere verificarea conturilor existente în 6 luni de la intrarea în vigoare, deci la 12 luni de la publicare. Obligația de rezultat de la art. 2 și art. 4 se aplică însă din prima zi, ceea ce creează o tensiune între termene.",
+        "Erori de redactare: art. 1 lit. a) pct. 2 este trunchiat („conținut generat de”); art. 2 alin. (4) trimite la alin. (1) în loc de alin. (2)-(3); la art. 4 alin. (1) textul este dublat."
       ],
-      "blindSpotsCaught": "Principalul punct orb ține de dreptul UE. Marile platforme sunt stabilite în Irlanda, iar CJUE (C-376/22, Google Ireland și alții, nov. 2023) a statuat că un stat membru nu poate impune obligații generale și abstracte furnizorilor stabiliți în alt stat membru, din cauza principiului țării de origine (art. 3 Dir. 2000/31). Art. 1 lit. c) recunoaște formal „competențele DSA”, dar nu rezolvă conflictul. În plus, ANCOM este numit coordonator DSA, deși nu are competență DSA asupra VLOP-urilor, aflate în competența exclusivă a Comisiei. Textul extras nu conține regimul sancționator anunțat în fișa Camerei, deci proporționalitatea amenzilor nu poate fi evaluată.",
-      "constitutionalityNote": "Scopul se sprijină pe art. 49 (protecția copiilor) și pe art. 24 din Carta UE. Restrângerea art. 30-31 (exprimare, informare), art. 26 (viață privată) și art. 48 (dreptul părinților de a decide educația copiilor) trebuie să treacă testul art. 53 (necesitate, proporționalitate). Interdicția absolută, fără opțiune de consimțământ parental, și verificarea generalizată a adulților sunt vulnerabile la acest test. Pe linia jurisprudenței CCR privind colectarea masivă de date (de ex. Decizia 1258/2009), riscul este real. Trimiterile dinamice la soft law UE, listele deschise și textul trunchiat afectează claritatea și previzibilitatea cerute de art. 1 alin. (5).",
-      "euLawNote": "(1) DSA (Reg. 2022/2065) armonizează deplin obligațiile platformelor, iar art. 28 reglementează deja protecția minorilor. Obligațiile naționale suplimentare (art. 3 alin. 4-5, art. 7) riscă să fie preemptate, iar art. 7 creează un al doilea regim de notificare paralel cu art. 16 DSA. (2) Dir. 2015/1535 (TRIS): legea conține reguli privind serviciile societății informaționale, deci notificarea prealabilă la Comisie, cu termen de stand-still de 3 luni, este obligatorie. Lipsa notificării face normele inopozabile particularilor (CJUE C-194/94 CIA Security). (3) Dir. 2018/958 (test de proporționalitate) nu este aplicabilă, deoarece nu reglementează profesii. (4) Piața unică: derogările permise de art. 3 alin. (4) Dir. 2000/31 trebuie să fie măsuri individuale, notificate, nu obligații generale.",
+      "blindSpotsCaught": "Cea mai importantă problemă nu se vede în text: aproape toate rețelele vizate sunt stabilite în alt stat membru (de regulă Irlanda). Potrivit CJUE, cauza C-376/22 Google Ireland (2023), statul de destinație nu poate impune furnizorilor din alt stat obligații generale și abstracte, din cauza art. 3 din Directiva 2000/31 (comerț electronic). Excepțiile de la art. 3 alin. (4) cer măsuri punctuale și notificare prealabilă. Proiectul nu conține nici clauza de notificare TRIS cerută de Directiva 2015/1535. Un exemplu concret de suprapunere: art. 3 alin. (5) lit. a) interzice publicitatea bazată pe profilare pentru minori, interdicție care există deja în art. 28 alin. (2) DSA. Copierea obligațiilor DSA în legea națională, dublată de sancțiuni proprii, contravine armonizării maxime a DSA.",
+      "constitutionalityNote": "Protecția copiilor (art. 49) justifică restrângeri, iar art. 10 este bine gândit: copiii și părinții nu sunt sancționați. Previzibilitatea cerută de art. 1 alin. (5) este însă afectată de definiția deschisă de la art. 1 lit. f)-g), de trimiterea dinamică la soft law european, de instanța nedeterminată de la art. 9 alin. (3) și de trimiterile greșite. Eliminarea conținutului legal la ordinul unei autorități administrative (art. 8 alin. 2 lit. d) atinge art. 30 (libertatea de exprimare) și cere un control judecătoresc clar. Verificarea vârstei pentru toți utilizatorii atinge art. 26 (viața privată), iar proporționalitatea ei (art. 53) depinde de soluțiile tehnice, pe care legea nu le definește. Amenda minimă procentuală, aplicabilă indiferent de gravitate, ridică probleme de proporționalitate a sancțiunii. Prin art. 148, dreptul UE are prioritate în caz de conflict.",
+      "euLawNote": "Directiva 2018/958 nu se aplică, fiindcă proiectul nu reglementează profesii. TRIS (Directiva 2015/1535) se aplică în mod clar, pentru că legea stabilește reguli pentru servicii ale societății informaționale. Fără notificare și fără perioada de standstill, CJUE consideră norma inaplicabilă particularilor (jurisprudența CIA Security). Directiva 2000/31, prin principiul țării de origine și cauza C-376/22, limitează aplicarea legii la furnizorii stabiliți în alte state membre. DSA este un regulament de armonizare maximă: art. 28 reglementează deja protecția minorilor, art. 19 scutește firmele mici, iar art. 56 dă Comisiei competență exclusivă pentru VLOP în privința riscurilor sistemice. Art. 9 alin. (6) recunoaște formal competența Comisiei, dar cu trimiteri greșite. Verificarea vârstei trebuie să respecte GDPR (art. 5, minimizarea datelor) și Orientările Comisiei din 2025 privind art. 28 DSA. Este recomandabilă o soluție compatibilă cu EUDI Wallet.",
       "senatForm": {
-        "articleRef": "Art. 4 alin. (2)-(3) și Art. 2 alin. (4)",
-        "proposalContent": "Art. 4 alin. (2)-(3) se înlocuiesc: «(2) Obligația de la alin. (1) este de diligență sporită și se consideră îndeplinită dacă furnizorul aplică o soluție de verificare a vârstei conformă orientărilor Comisiei adoptate în temeiul art. 28 DSA, de tip dublu-anonim, fără stocarea datelor de identitate.» La art. 2 alin. (4), «alin. (1)» se înlocuiește cu «alin. (2)».",
-        "argumentation": "Obligația de rezultat (art. 4) impune practic identificarea tuturor utilizatorilor, inclusiv adulți (art. 6), contrar minimizării datelor (art. 5 GDPR, art. 26 Constituție) și fără criteriu clar de îndeplinire („substanțial și verificabil”), ceea ce încalcă previzibilitatea (art. 1 alin. 5). Standardul UE de diligență evită conflictul cu DSA și sancțiuni arbitrare.",
-        "otherComments": "Solicităm notificarea TRIS (Dir. 2015/1535) înainte de vot, sub sancțiunea inopozabilității. Art. 1 lit. a) pct. 2 e trunchiat; art. 1 lit. f)-g) au liste deschise și trimit la soft law UE. Art. 7 permite eliminarea în 48h a conținutului legal, fără control judiciar. Clarificați aplicarea față de furnizorii din alte state UE (C-376/22)."
+        "articleRef": "Art. 9 alin. (2)",
+        "proposalContent": "Art. 9 alin. (2) devine: „Contravențiile se sancționează cu amendă de până la 2% din cifra de afaceri anuală din exercițiul financiar anterior, individualizată potrivit alin. (8).” Se introduce alin. (2^1): „Obligațiile nu se aplică micro- și întreprinderilor mici, cu excepțiile prevăzute la art. 19 din Regulamentul (UE) 2022/2065.”",
+        "argumentation": "Minimul de 0,5% din cifra globală, pentru orice abatere, împiedică individualizarea cerută de alin. (8) și lovește disproporționat furnizorii mici. DSA scutește micro- și întreprinderile mici de art. 28 (art. 19); legea le impune mai mult decât UE. Suspendarea, pusă alternativ la alin. (2), contrazice alin. (3).",
+        "otherComments": "Corectați și: art. 9 alin. (6) trimite la art. 52-54 DSA, dar amenzile Comisiei sunt la art. 73-74; numerotarea dublă a alin. (6); art. 2 alin. (4) trimite la alin. (1) în loc de (2); art. 1 lit. a) pct. 2 e trunchiat. Proiectul trebuie notificat TRIS (Directiva 2015/1535) înainte de adoptare."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 110477,
-      "riskScore": 7,
+      "durationMs": 90035,
+      "sourceEndMarker": "SF-02AF02A5",
+      "riskScore": 8,
       "riskLevel": "red",
-      "plainTitle": "Rețele sociale interzise sub 15 ani și verificarea vârstei utilizatorilor",
-      "verdictShort": "Protecția copiilor este un obiectiv legitim, iar setările de siguranță sunt utile. Riscul ridicat vine din interdicția generală, verificarea extinsă a vârstei și obligațiile insuficient delimitate, care necesită garanții și justificări mai solide.",
-      "initiatorClaim": "Inițiatorii urmăresc reducerea expunerii copiilor la dependență, exploatare sexuală, violență și provocări periculoase. Ei susțin că regulile voluntare ale platformelor și supravegherea parentală nu asigură protecție suficientă.",
-      "realityCheck": "Art. 2 interzice accesul sub 15 ani fără excepție pentru acordul părinților, iar art. 6 obligă platformele să verifice în șase luni conturile existente care nu au trecut prin verificări eficiente, inclusiv conturi ale adulților. Pentru adolescenți sunt prevăzute măsuri utile, precum conturi private și limitarea mesajelor nesolicitate, dar verificarea vârstei și gestionarea notificărilor generează costuri și riscuri pentru confidențialitate. Extrasul se întrerupe la art. 7 alin. (10), astfel încât sancțiunile și eventualele garanții ulterioare nu pot fi evaluate.",
+      "plainTitle": "Rețele sociale interzise sub 15 ani, cu verificarea vârstei tuturor",
+      "verdictShort": "Protecția copiilor justifică intervenția, dar forma analizată combină o interdicție generală cu verificări extinse, posibilitatea eliminării unor conținuturi legale și suspendarea serviciilor. Garanțiile existente reduc unele riscuri, însă nu rezolvă problemele de proporționalitate și de compatibilitate cu dreptul UE.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea dependenței digitale, a expunerii la conținut nociv, a hărțuirii și a exploatării minorilor. Susțin că responsabilizarea platformelor și verificarea vârstei pot proteja copiii fără costuri disproporționate sau afectarea vieții private.",
+      "realityCheck": "Art. 2 interzice accesul sub 15 ani fără excepție pentru acordul parental și fără distincție între simpla consultare și participarea activă; art. 6 cere verificarea conturilor existente care nu au trecut deja prin mecanisme eficiente, inclusiv ale adulților. Art. 7–8 permit eliminarea conținutului cu risc grav fără a cere expres ca acesta să fie ilegal, iar art. 9 prevede amenzi raportate la cifra de afaceri globală și suspendarea judiciară a serviciului. Sunt utile conturile private, limitarea contactelor nesolicitate și excluderea sancționării familiilor, dar afirmațiile despre costuri reduse și compatibilitate europeană nu sunt demonstrate prin simpla lor enunțare în expunerea de motive.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "IT & AI",
@@ -108,26 +144,48 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 2 instituie o interdicție generală sub 15 ani, fără diferențiere explicită după riscul serviciului, funcționalitatea utilizată sau scopul educațional. Expunerea de motive descrie riscuri reale, dar extrasul nu demonstrează de ce măsurile mai puțin restrictive ar fi insuficiente și de ce pragul ales este necesar.",
-        "Art. 2 alin. (2) cere toate măsurile necesare, iar art. 4 califică obligația drept una de rezultat, deși alin. (3) vorbește despre prevenire substanțială. Tensiunea dintre aceste standarde face incert dacă eludarea individuală a verificării poate atrage răspunderea furnizorului.",
-        "Art. 6 impune verificarea conturilor existente în cel mult șase luni, dacă verificarea anterioară nu a fost eficientă. Obligația privește utilizatorii în general; principiile de minimizare sunt menționate, dar extrasul nu oferă un mecanism expres de contestare a clasificării greșite a vârstei.",
-        "Art. 3 alin. (5) lit. a) prevede doar dezactivarea implicită a publicității bazate pe profilare. Art. 28 alin. (2) DSA interzice prezentarea acesteia atunci când furnizorul știe cu un grad rezonabil de certitudine că destinatarul este minor; o eventuală reactivare nu poate înlătura interdicția europeană.",
-        "Art. 7 alin. (6) nu impune ștergerea automată în 48 de ore a oricărui conținut reclamat. Termenul privește adoptarea unor măsuri după o notificare suficient motivată și evaluarea unui risc grav și iminent; eliminarea este numai una dintre măsurile enumerate.",
-        "Art. 1 lit. f)-g) include categorii deschise și formulări evaluative, inclusiv normalizarea unor comportamente și categorii identificate prin instrumente europene fără caracter obligatoriu. Aplicarea asupra conținutului legal necesită criterii care să protejeze informarea medicală, educația, arta și dezbaterea publică.",
-        "Art. 7 alin. (8) prevede contestații interne, ceea ce reprezintă o garanție utilă. Totuși, extrasul nu detaliază motivarea și comunicarea deciziei către autorul conținutului sau termenele de soluționare; drepturile conferite direct de DSA rămân aplicabile în domeniul său.",
-        "Verificarea vârstei, adaptarea platformei, analiza notificărilor și păstrarea evidențelor minimum 12 luni produc costuri recurente, proporțional mai greu de suportat de furnizorii mici. Art. 5 adaugă sarcini autorităților; extrasul nu permite cuantificarea impactului bugetar și nu instituie explicit o taxă pentru cetățeni.",
-        "Definiția de la art. 1 lit. a) pct. 2, începutul art. 4 și finalul art. 7 prezintă întreruperi sau duplicări în materialul transmis. Acestea trebuie confruntate cu documentul oficial înainte de a fi imputate legii ca defecte autentice de redactare."
+        "Art. 2 și art. 4 instituie o interdicție generală sub 15 ani și o obligație de rezultat. Totuși, art. 4 alin. (3) vorbește despre prevenire «în mod substanțial», fără praguri verificabile: nu rezultă clar când eludarea verificării devine contravenție imputabilă furnizorului.",
+        "Art. 6 extinde verificarea la toate conturile active neverificate eficient, nu doar la cele suspectate că aparțin copiilor. Nu impune transmiterea actului de identitate, dar nici nu detaliază garanții privind păstrarea dovezilor de vârstă, separarea identității de cont și contestarea încadrării greșite.",
+        "Art. 1 lit. f)–g) folosește categorii deschise și trimiteri la viitoare orientări sau recomandări europene. Coroborate cu art. 8 alin. (2) lit. d), acestea permit intervenții administrative asupra unor conținuturi potențial legale; protejarea minorilor nu justifică automat eliminarea accesului adulților.",
+        "Art. 9 alin. (2) stabilește un minimum de amendă de 0,5% din cifra de afaceri anuală globală, inclusiv pentru furnizori mici. Suspendarea are garanția intervenției instanței și presupune încălcări grave, repetate și persistente, dar lipsesc durata maximă și o procedură suficient precizată.",
+        "Art. 3 alin. (5) lit. a) cere doar dezactivarea implicită a publicității bazate pe profilare. Pentru utilizatorii despre care platforma știe cu suficientă certitudine că sunt minori, art. 28 alin. (2) DSA stabilește o interdicție, care nu poate deveni o simplă setare reactivabilă.",
+        "Art. 8 alin. (3) anunță sancționarea neconformării la măsurile ANCOM, însă art. 9 alin. (1) definește drept contravenții numai încălcările art. 2–4. Încălcarea autonomă a obligațiilor de notificare, evidență sau verificare tranzitorie nu este sancționată distinct și clar.",
+        "Art. 11 include funcționalitățile sociale din jocuri și servicii hibride, dar exclude anumite servicii educaționale, medicale și comunicațiile predominant private. Delimitarea prin scopul «principal» sau utilizarea «preponderentă» poate produce încadrări inegale și costuri de conformare care favorizează furnizorii mari; nu este instituit un monopol tehnic expres.",
+        "Art. 15 amână intrarea în vigoare cu șase luni, iar art. 6 acordă încă șase luni pentru verificarea conturilor existente. Regimul tranzitoriu trebuie corelat expres cu interdicția și sancțiunile aplicabile de la intrarea în vigoare. Textul furnizat nu conține abrogări sau modificări ale altor legi; fraza incompletă din definiție și numerotările duplicate trebuie confruntate cu documentul autentic înainte de a fi tratate drept defecte legislative certe."
       ],
-      "blindSpotsCaught": "Trimiterea generică la DSA nu rezolvă eventualele conflicte cu armonizarea europeană, competențele transfrontaliere sau interdicția publicității bazate pe profilarea minorilor. Directiva 2018/958 nu este un test general pentru orice restricție economică: privește reglementarea profesiilor și nu apare direct aplicabilă aici. Separat, obligațiile dedicate platformelor justifică verificarea notificării TRIS, fără a presupune că aceasta a lipsit.",
-      "constitutionalityNote": "Obiectivul se sprijină pe art. 49 privind protecția copiilor, dar trebuie conciliat cu viața privată, libertatea de exprimare și accesul la informație, protejate de art. 26, 30 și 31. Interdicția generală și verificarea vârstei trebuie justificate potrivit art. 53 prin necesitate, proporționalitate și examinarea alternativelor; interesul superior al copilului nu dispensează legiuitorul de această analiză. Art. 1 alin. (5) reclamă destinatari, conduite și criterii de răspundere previzibile, inclusiv delimitarea serviciilor vizate și a riscului grav. Art. 23 alin. (12) privește pedepsele și nu poate fundamenta automat o critică penală în lipsa unor dispoziții penale prezentate; pentru eventuale contravenții sunt necesare analiza normelor sancționatoare integrale și exigențele corespunzătoare de legalitate. Sunt vulnerabilități de examinat, nu o constatare definitivă de neconstituționalitate.",
-      "euLawNote": "DSA armonizează obligațiile serviciilor intermediare în domeniul său; obligațiile naționale suplimentare de moderare, verificare și reducere a riscurilor trebuie delimitate de acest cadru. Un prag național de vârstă nu poate fi declarat automat incompatibil, dar implementarea sa trebuie verificată inclusiv prin art. 28 alin. (3), care nu impune colectarea suplimentară de date pentru respectarea articolului respectiv. Art. 19 DSA prevede exceptări pentru anumite întreprinderi mici, iar art. 34 vizează platformele și motoarele de căutare foarte mari; proiectul nu poate presupune un regim european identic pentru toți furnizorii. Art. 56 DSA și principiul țării de origine din Directiva 2000/31/CE limitează exercitarea competențelor asupra furnizorilor transfrontalieri; simpla accesibilitate în România nu conferă ANCOM competență universală. Prelucrarea datelor necesită temei și garanții GDPR, inclusiv evaluarea impactului când sunt îndeplinite condițiile art. 35; pragul consimțământului din art. 8 GDPR nu este o interdicție generală de acces la servicii. Directiva 2018/958 nu apare aplicabilă deoarece nu este reglementat accesul la o profesie. Pentru obligațiile care vizează expres servicii ale societății informaționale trebuie verificată notificarea conform Directivei 2015/1535 și respectarea perioadei de așteptare; lipsa notificării, dacă era obligatorie, poate conduce la inopozabilitatea regulilor tehnice respective față de particulari.",
+      "blindSpotsCaught": "Art. 9 alin. (6) trimite greșit la art. 52–54 DSA pentru sancțiunile Comisiei: acestea privesc sancțiuni naționale, plângeri și despăgubiri, în timp ce amenzile Comisiei sunt reglementate la art. 74. Comisia nu primește printr-o lege română competența de a sancționa obligații naționale distincte. Suplimentar, art. 7 alin. (10) impune păstrarea notificărilor minimum 12 luni, fără un termen maxim sau criterii explicite de ștergere.",
+      "constitutionalityNote": "Scopul beneficiază de sprijinul art. 49 din Constituție, iar lipsa sancțiunilor pentru copii și părinți este justificată. Totuși, interdicția generală, verificarea tuturor conturilor și eliminarea conținutului trebuie evaluate prin art. 26, 30, 31 și 53: necesitate, alternative mai puțin restrictive și proporționalitate, inclusiv pentru drepturile copiilor. Definițiile deschise, standardul neclar al rezultatului și necorelarea contravențiilor ridică probleme prin art. 1 alin. (5). Art. 23 alin. (12) privește nemijlocit pedepsele; pentru contravențiile proiectului, cerințele de legalitate și previzibilitate trebuie fundamentate distinct, fără echivalarea automată cu răspunderea penală. Există vulnerabilități serioase, nu o neconstituționalitate deja constatată.",
+      "euLawNote": "DSA armonizează obligațiile de diligență ale intermediarilor; obligațiile naționale suplimentare din art. 3–8 trebuie delimitate de domeniul armonizat. O regulă națională privind vârsta accesului nu este automat exclusă, dar nici validată doar prin invocarea protecției copilului. Art. 56 DSA distribuie competențele după stabilirea furnizorului și categoria obligației, nu doar după prezența utilizatorilor în România; pentru furnizorii din alte state membre contează și principiul țării de origine din Directiva 2000/31/CE. Suspendarea dispusă folosind competențele DSA trebuie să respecte condițiile restrictive și garanțiile art. 51. Art. 8 GDPR reglementează consimțământul pentru anumite prelucrări, nu stabilește o vârstă generală de acces; art. 28 alin. (3) DSA nu impune prin el însuși colectarea suplimentară de date pentru identificarea minorilor. Directiva 2018/958 privește reglementarea profesiilor și nu se aplică direct acestor obligații ale platformelor, dar costurile și restrângerile concurenței necesită justificare proporțională. Proiectul intră, în principiu, în sfera regulilor privind serviciile societății informaționale din Directiva 2015/1535: trebuie verificată notificarea TRIS și respectarea perioadei de statu-quo. Documentele furnizate nu dovedesc nici notificarea, nici absența ei; omiterea notificării, dacă era obligatorie, poate face regulile tehnice respective inopozabile particularilor. Costurile tehnice pentru IMM-uri și sarcinile ANCOM nu sunt cuantificate, deși expunerea le prezintă ca limitate.",
       "senatForm": {
-        "articleRef": "Art. 2 – înlocuire integrală",
-        "proposalContent": "(1) Furnizorii aplică măsuri adecvate și proporționale pentru protecția minorilor, potrivit dreptului UE. (2) Verificarea vârstei se aplică numai când este necesară, prin soluții care atestă exclusiv pragul de vârstă și nu permit urmărirea utilizatorului. (3) Utilizatorii pot contesta gratuit evaluarea vârstei și obține reexaminarea acesteia.",
-        "argumentation": "Interdicția generală sub 15 ani trebuie înlocuită cu protecție proporțională riscului. Soluția propusă reduce restrângerea accesului la informație, limitează prelucrarea datelor și introduce remedierea erorilor de verificare, în acord cu art. 26, 31 și 53 din Constituție și cu dreptul UE.",
-        "otherComments": "Corelați titlul art. 2 și art. 4 și 6; la art. 3 alin. (5) lit. a), preluați interdicția DSA, nu doar dezactivarea implicită. Analiza privește extrasul incomplet. Identitatea dosarului, forma integrală și notificarea TRIS nu au putut fi verificate extern; regimul sancționator nu este disponibil."
+        "articleRef": "Art. 8 alin. (2) lit. d)",
+        "proposalContent": "d) emiterea unui ordin motivat de restricționare a accesului minorilor la conținutul cu risc grav, cu individualizarea conținutului și a duratei măsurii și indicarea căii de atac. Eliminarea se poate dispune numai pentru conținut ilegal, în temeiul normei încălcate și cu respectarea competențelor și garanțiilor Regulamentului (UE) 2022/2065;",
+        "argumentation": "Definiția riscului grav nu presupune caracterul ilegal al conținutului. Eliminarea sa pentru toți utilizatorii poate afecta disproporționat libertatea de exprimare și informare. Restricția de acces pentru minori protejează copilul, iar eliminarea necesită un temei distinct de ilegalitate și garanții procedurale.",
+        "otherComments": "Necesită corelare cu art. 7 alin. (5) și verificarea competențelor din art. 56 DSA. Termenul indicat pentru amendamente, 18.11.2026, a expirat; transmiterea unei propuneri cetățenești nu echivalează cu depunerea unui amendament parlamentar admisibil."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 6.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-15T20:15:01.732Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 7,
+        "claude": 6,
+        "codex": 7
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-19T16:36:17.533Z",
+      "reasons": [
+        "metoda",
+        "model"
+      ]
+    }
+  ]
 }

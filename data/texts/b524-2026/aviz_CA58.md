@@ -1,0 +1,23 @@
+# Parlamentul României
+
+# Senat
+
+Comisia pentru comunicații, tehnologia informației și inteligență artificială Nr. LXIX/300/17.11.2026
+
+## AVIZ
+
+la Propunerea legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.50/2010 privind contractele de credit pentru consumatori
+
+Comisia pentru comunicații, tehnologia informației și inteligență artificială a fost sesizată cu adresa L623/2026, pentru dezbaterea și avizarea Propunerii legislative pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.50/2010 privind contractele de credit pentru consumatori, inițiată de: Anghel Răzvan-Paul - senator USR; Bochileanu George-Cătălin - senator USR; Cernic Sebastian - senator USR; Cibu Deaconu Ruxandra - senator USR; Dobra Elena-Adelina - senator USR; Mircescu Ion-Narcis - senator USR; Negoi Eugen-Remus - senator USR; Oprinoiu Aurel - senator USR; Păun Ana-Cynthia-Ioana - senator USR; Rus Vasile-Ciprian - senator USR.
+
+În ședința din data de 17.11.2026, membrii Comisiei au analizat propunerea legislativă și au hotărât, cu unanimitate de voturi, să adopte aviz favorabil, fără amendamente.
+
+PREȘEDINTE Senator, Vasile-Ciprian RUȘ
+
+SECRETAR
+
+Senator, Grigore-Adrian PEIU
+
+Doamnei senator Maria-Gabriela HORGA - Președintele Comisiei pentru buget, finanțe, activitate bancară și piață de capital
+
+Domnului senator Sorin VLAȘIN - Președintele Comisiei economice, industrii, servicii, turism și antreprenoriat

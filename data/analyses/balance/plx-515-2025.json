@@ -1,0 +1,92 @@
+{
+  "slug": "plx-515-2025",
+  "billId": "Pl-x 515/2025",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-19T10:30:25.783Z",
+  "inputHash": "ebd7f15e62a7",
+  "riskScore": 3.3,
+  "summary": "Un scop util, compromis de greșeli tehnice grave, praguri prea mici, reguli neclare, lipsa finanțării și o procedură de aplicare necorelată.",
+  "good": [
+    {
+      "text": "Creează cadrul legal pentru un sistem național de avertizare seismică timpurie, cu transmiterea gratuită și prioritară a alertelor către populație.",
+      "article": "art. 1 alin. (1)-(2)",
+      "quote": "reglementează implementarea și operarea Sistemului „Alertă cutremur”, prin care este realizată avertizarea timpurie și alarmarea populației în situații de urgență generate de cutremure",
+      "weight": 2
+    },
+    {
+      "text": "Folosește sistemul RO-ALERT existent, adaptat teritorial, și prevede conectarea directă a institutului de seismologie cu structurile de urgență.",
+      "article": "art. 6 alin. (1)-(2)",
+      "quote": "regulile de diseminare teritorială se adaptează la caracteristicile specifice acestui sistem",
+      "weight": 2
+    },
+    {
+      "text": "Implică și posturile TV și radio în difuzarea cu prioritate a alertelor, ceea ce poate ajunge la persoanele fără telefon mobil sau conectate la televizor.",
+      "article": "art. 1 alin. (2) și art. 4 alin. (1)",
+      "quote": "furnizorilor de servicii media audiovizuale, astfel cum aceștia sunt definiți în Legea audiovizualului nr. 504/2002",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Impune trimiterea de SMS-uri clasice și confundă RO-ALERT cu SMS-ul; SMS-urile ajung cu întârziere și blochează rețeaua în cele câteva zeci de secunde disponibile.",
+      "article": "art. 1 alin. (2)-(3)",
+      "quote": "prin transmiterea de mesaje SMS prin intermediul rețelelor celulare, inclusiv prin intermediul mesajelor RO-ALERT, respectiv prin canale audiovizuale, cu prioritate și gratuit",
+      "weight": 3
+    },
+    {
+      "text": "Vorbește despre informarea populației „anterior producerii” cutremurelor, deși seismele nu pot fi prezise, iar art. 2 arată că alerta pornește abia după detectarea producerii.",
+      "article": "art. 1 alin. (2)",
+      "quote": "aducerea la cunoștința populației a informațiilor referitoare la iminența producerii unor situații de urgență generate de cutremure, anterior producerii acestora",
+      "weight": 3
+    },
+    {
+      "text": "Nu stabilește cine decide declanșarea alertei, dacă sistemul e complet automat și cine corectează o alertă falsă, lăsând aceste reguli esențiale la discreția unor norme și protocoale.",
+      "article": "art. 3-6",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Obligă la trimiterea de coordonate tehnice (latitudine, longitudine, adâncime), greu de înțeles în câteva secunde de panică, dar nu cere instrucțiuni simple de protecție pentru cetățeni.",
+      "article": "art. 2",
+      "quote": "locul producerii seismului, prin indicarea latitudinii și longitudinii",
+      "weight": 3
+    },
+    {
+      "text": "Pragurile de raportare sunt foarte mici (3,5 și 4), iar difuzarea depinde de magnitudine, nu de intensitatea resimțită local; alertele dese și inutile pot face oamenii să ignore sistemul.",
+      "article": "art. 3 și art. 4 alin. (2)",
+      "quote": "cutremurele de adâncime intermediară (mai adânci de 60 km) având magnitudinea locală estimată ML>4 și cutremure crustale (cu adâncimi de până în 60 km) având magnitudinea locală estimată ML>3,5",
+      "weight": 3
+    },
+    {
+      "text": "Împuternicește două ministere (Dezvoltare și Interne) să dea norme prin ordin comun, deși nu au autoritate asupra STS, coordonat de CSAT, și nici asupra institutului de seismologie.",
+      "article": "art. 7 alin. (1)",
+      "quote": "Ministerul Dezvoltării, Lucrărilor Publice și Administrației și Ministerul Afacerilor Interne, prin ordin comun, adoptă normele de punere în aplicare a legii.",
+      "weight": 2
+    },
+    {
+      "text": "Obligă STS să creeze o aplicație dedicată și să interconecteze sistemele cu institutul de seismologie fără a estima costurile și fără a indica de unde vin banii publici.",
+      "article": "art. 3 și art. 6 alin. (2)",
+      "quote": "Mesajul de alertă se creează prin intermediul unei aplicații informatice dedicate realizate de Serviciul de Telecomunicații Speciale, în baza informațiilor furnizate",
+      "weight": 2
+    },
+    {
+      "text": "Termenele nu sunt corelate: protocolul se semnează la 4 luni, înaintea normelor de la 6 luni care stabilesc datele transmise, iar pentru deciziile ANCOM, CNA și lansare nu există termen.",
+      "article": "art. 5 și art. 7",
+      "quote": "Protocolul prevăzut la art. 6, alin. (2) din prezenta lege se încheie în termen de 4 luni de la intrarea în vigoare a acesteia.",
+      "weight": 2
+    },
+    {
+      "text": "Obligă toți operatorii de comunicații și furnizorii TV/radio să difuzeze alerte, fără a delimita clar cine este vizat, cum se întrerupe emisia și cine suportă costurile tehnice.",
+      "article": "art. 4 alin. (1)-(2) și art. 5",
+      "quote": "Mesajul de alertă se transmite uneia sau tuturor persoanelor prevăzute la alin. (1), în funcție de magnitudinea locală estimată a cutremurului, în condițiile stabilite în normele de aplicare",
+      "weight": 2
+    }
+  ],
+  "fix": null,
+  "quotes": {
+    "checked": 11,
+    "verified": 11
+  }
+}

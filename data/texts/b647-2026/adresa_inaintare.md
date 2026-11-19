@@ -1,0 +1,11 @@
+# PARLAMENTUL ROMÂNIEI
+
+## CÂTRE
+
+## BIROUL PERMANENT AL SENATULUI
+
+Vă înaintăm alăturat Propunerea legislativă privind instituirea anului 2027 ca „Anul Alexandru Papiu Ilarian”, în vederea dezbaterii și adoptării.
+
+Inițiator,
+
+Deputat Dumitrița Gliga

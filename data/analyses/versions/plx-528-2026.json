@@ -1,8 +1,28 @@
 {
   "slug": "plx-528-2026",
   "billId": "PL-x 528/2026",
-  "updatedAt": "2026-10-30T09:41:55.162Z",
+  "updatedAt": "2026-11-19T09:28:44.149Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L457FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Statul cumpără gaz din Marea Neagră pe 7 ani (cca. 12,8 mld. lei) și amână plata capitalului pentru Banca de Dezvoltare",
+      "summaryTlDr": "Legea pare tehnică, dar lasă Guvernul să angajeze aproape 13 miliarde de lei pe 7 ani printr-un simplu memorandum, fără plafon în lege și fără control parlamentar efectiv. Prorogarea pentru BID e benignă, însă redactarea e neglijentă.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 4
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,31 +56,128 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
-      "direction": "la_fel",
-      "headline": "Camera a păstrat textul Senatului: plafonul pentru achizițiile de gaz rămâne stabilit de Guvern",
-      "summary": "Camera nu a schimbat nimic de fond față de forma Senatului: diferă doar antetul, data adoptării, semnătura și unele spații sau prescurtări. Rămân aceleași riscuri: fără plafon legal pentru credite și contracte care leagă bugetele pe circa 7 ani.",
-      "changes": [],
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Plafonul pentru achizițiile ANRSPS se aprobă prin hotărâre publicată, nu prin memorandum",
+      "summary": "Inițial, Guvernul aproba nivelul creditelor de angajament ale ANRSPS printr-un memorandum. Acum îl aprobă prin hotărâre, care se publică și poate fi atacată în instanță. Modificările bugetului trebuie să rămână în limita acestei hotărâri. Suma tot nu e fixată prin lege.",
+      "changes": [
+        {
+          "title": "Hotărâre de Guvern în loc de memorandum",
+          "text": "La art. I alin. (1), nivelul creditelor de angajament se aprobă acum prin hotărâre de Guvern inițiată de SGG. Hotărârea se publică în Monitorul Oficial și poate fi controlată în contencios.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. I alin. (1)",
+          "before": "Nivelul creditelor de angajament se aprobă de către Guvern, prin memorandum inițiat de Administrația Națională a Rezervelor de Stat și Probleme Speciale.",
+          "after": "Nivelul creditelor de angajament se aprobă de către Guvern, prin hotărâre inițiată de Secretariatul General al Guvernului, la propunerea Administrației Naționale a Rezervelor de Stat și Probleme Speciale.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Modificările bugetului ANRSPS, limitate de hotărâre",
+          "text": "La art. I alin. (2), ordonatorul principal își poate modifica anexele bugetului doar în limita stabilită prin hotărârea de Guvern. Inițial, textul nu prevedea nicio limită.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. I alin. (2)",
+          "before": "să le comunice Ministerului Finanțelor în termen de 10 zile de la efectuarea acestora.",
+          "after": "să le comunice Ministerului Finanțelor în termen de 10 zile de la efectuarea acestora, în limita stabilită potrivit hotărârii prevăzute la alin. (1).",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "A dispărut articolul general despre scopul legii",
+          "text": "Articolul introductiv despre scopul măsurilor fiscal-bugetare a fost scos, odată cu împărțirea pe capitole. Nu are efect de fond.",
+          "effect": "neutru",
+          "major": false,
+          "article": null,
+          "before": "Art. I. – Prezenta lege instituie unele măsuri fiscal-bugetare, precum și măsuri pentru modificarea și completarea unor propuneri legislative, în scopul consolidării sustenabilității finanțelor publice",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        }
+      ],
       "remaining": {
         "problems": [
           {
-            "text": "Legea nu fixează plafonul creditelor de angajament; nivelul îl stabilește Guvernul prin hotărâre",
+            "text": "Legea nu fixează plafonul creditelor de angajament (cca 12,79 mld. lei); îl stabilește Guvernul",
             "major": true,
             "article": "art. I alin. (1)"
           },
           {
-            "text": "Contractele multianuale angajează bugetele până în jurul lui 2033, inclusiv viitoare legislaturi",
+            "text": "Contractele multianuale angajează bugetele pe 7 ani, inclusiv ale viitoarelor legislaturi",
             "major": true,
             "article": "art. I alin. (3)"
           },
           {
-            "text": "Plățile anuale nu apar în lege și nu se indică sursa de finanțare",
+            "text": "Lipsesc reguli privind valorificarea gazului, pierderile și raportarea către Parlament",
             "major": true,
             "article": "art. I alin. (3)"
           },
           {
-            "text": "Lipsesc reguli privind valorificarea gazului, pierderile și raportarea periodică către Parlament",
+            "text": "Ordonatorul își modifică singur anexele; Ministerul Finanțelor e informat abia ulterior",
+            "major": false,
+            "article": "art. I alin. (2)"
+          },
+          {
+            "text": "Termenul pentru BID, normă autonomă fără modificarea art. 67 din Legea 43/2026",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Plafonul se aprobă prin hotărâre publicată, care poate fi atacată în contencios",
+            "major": false,
+            "article": "art. I alin. (1)"
+          },
+          {
+            "text": "Modificările anexelor bugetare trebuie să rămână în limita stabilită prin hotărâre",
+            "major": false,
+            "article": "art. I alin. (2)"
+          },
+          {
+            "text": "Prelungirea termenului pentru vărsămintele la BID nu are efect bugetar",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 8,
+        "same": 0.38
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-19T09:28:27.162Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a adoptat textul Senatului fără modificări de fond; s-au schimbat doar antetul, data și semnătura",
+      "summary": "Acum textul este identic ca fond cu cel adoptat de Senat. Diferă doar camera care adoptă, data ședinței (31 iulie în loc de 30 iulie 2026) și semnătura președintelui. Riscurile și garanțiile proiectului rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Legea nu fixează un plafon pentru creditele de angajament; Guvernul îl stabilește prin hotărâre",
+            "major": true,
+            "article": "art. I alin. (1)"
+          },
+          {
+            "text": "Contractele multianuale angajează bugetele pe circa 7 ani, inclusiv ale viitoarelor legislaturi",
+            "major": true,
+            "article": "art. I alin. (3)"
+          },
+          {
+            "text": "Plățile anuale și sursa lor de finanțare nu sunt prevăzute în lege",
+            "major": true,
+            "article": "art. I alin. (3)"
+          },
+          {
+            "text": "Lipsesc reguli privind valorificarea gazului, pierderile și raportările periodice către Parlament",
             "major": false,
             "article": "art. I alin. (3)"
           },
@@ -70,19 +187,19 @@
             "article": "art. II"
           },
           {
-            "text": "Termenul pentru vărsămintele la BID e repus după expirarea celui inițial",
+            "text": "Termenul inițial expirase la adoptare, deci e repunere în termen, nu prorogare",
             "major": false,
             "article": "art. II"
           }
         ],
         "good": [
           {
-            "text": "Nivelul creditelor se aprobă prin hotărâre publicată, atacabilă în contencios, nu prin memorandum",
+            "text": "Nivelul creditelor se aprobă prin hotărâre de Guvern publicată, atacabilă în contencios",
             "major": false,
             "article": "art. I alin. (1)"
           },
           {
-            "text": "Modificările din anexele bugetului sunt limitate de hotărâre și comunicate Ministerului Finanțelor",
+            "text": "Modificările bugetare trebuie comunicate Ministerului Finanțelor în termen de 10 zile",
             "major": false,
             "article": "art. I alin. (2)"
           },
@@ -95,13 +212,13 @@
         "partial": false
       },
       "diff": {
-        "added": 6,
-        "removed": 5,
-        "same": 0.25
+        "added": 3,
+        "removed": 3,
+        "same": 0.63
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:39:48.376Z"
+      "schema": 4,
+      "updatedAt": "2026-11-19T09:28:44.149Z"
     }
   ]
 }

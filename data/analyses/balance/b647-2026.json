@@ -1,0 +1,52 @@
+{
+  "slug": "b647-2026",
+  "billId": "B647/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-19T10:21:48.187Z",
+  "inputHash": "e4e632e29e62",
+  "riskScore": 1,
+  "summary": "O lege simbolică și neobligatorie care protejează bugetul prin plafonarea cheltuielilor, având doar mici neclarități legate de coordonare și criterii de finanțare.",
+  "good": [
+    {
+      "text": "Cheltuielile sunt limitate strict la bugetele deja aprobate și la regulile legale existente, prevenind apariția unor datorii sau cheltuieli publice suplimentare automate.",
+      "article": "art. 2 alin. (2)",
+      "quote": "pot aloca fonduri din bugetele proprii pentru organizarea și desfășurarea manifestărilor, în limita creditelor bugetare aprobate, precum și din alte surse legal constituite, în condițiile legii.",
+      "weight": 2
+    },
+    {
+      "text": "Permite instituțiilor să susțină evenimente culturale și educaționale fără a le impune obligații rigide sau sancțiuni dacă nu dispun de resurse.",
+      "article": "art. 2 alin. (1)",
+      "quote": "pot organiza sau sprijini manifestări culturale, științifice și educaționale dedicate vieții și activității lui Alexandru Papiu Ilarian.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Instituțiile pot aloca bani fără criterii clare de selecție a proiectelor sau obligații de raportare, lăsând loc unor cheltuieli discreționare din bugetele aprobate.",
+      "article": "art. 2 alin. (2)",
+      "quote": "Autoritățile și instituțiile publice prevăzute la alin. (1) pot aloca fonduri din bugetele proprii pentru organizarea și desfășurarea manifestărilor, în limita creditelor bugetare aprobate",
+      "weight": 1
+    },
+    {
+      "text": "Formularea pur opțională și lipsa unui coordonator național fac ca legea să nu garanteze concret organizarea vreunei activități și permit inițiative fragmentate.",
+      "article": "art. 2 alin. (1)",
+      "quote": "Parlamentul României, Administrația Prezidențială, Guvernul, autoritățile administrației publice locale, precum și instituțiile publice aflate în subordinea sau coordonarea acestora pot organiza sau sprijini manifestări",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Stabilirea unui coordonator național și a unor criterii transparente pentru alocarea fondurilor ar elimina riscul cheltuielilor fragmentate sau discreționare.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.5
+  },
+  "quotes": {
+    "checked": 4,
+    "verified": 4
+  }
+}

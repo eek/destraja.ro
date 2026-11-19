@@ -1,0 +1,94 @@
+{
+  "slug": "b651-2026",
+  "billId": "B651/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-19T10:23:58.991Z",
+  "inputHash": "f73299eed19a",
+  "riskScore": 2,
+  "summary": "O lege prudentă cu garanții procesuale solide, dar cu formulări redundante și efecte patrimoniale neclare.",
+  "good": [
+    {
+      "text": "Simplul ordin de protecție nu creează automat o prezumție de violență economică în procesul civil, prevenind abuzurile și protejând dreptul la apărare.",
+      "article": "art. II pct. 1 (art. 249¹ alin. (4))",
+      "quote": "Existența unui ordin de protecție sau a unui ordin de protecție provizoriu nu creează prin ea însăși o prezumție privind existența violenței economice în litigiul dedus judecății.",
+      "weight": 3
+    },
+    {
+      "text": "Păstrează intacte regulile regimului matrimonial și ale contribuției la bunurile comune, evitând modificarea automată a cotelor de proprietate la partaj.",
+      "article": "art. I pct. 1 (art. 320¹ alin. (3))",
+      "quote": "Dispozițiile prezentului articol nu aduc atingere regimului matrimonial, regulilor privind dovada drepturilor patrimoniale și nici criteriilor prevăzute de prezentul cod pentru stabilirea contribuției soților la dobândirea bunurilor comune.",
+      "weight": 3
+    },
+    {
+      "text": "Permite instanței să țină cont de violența economică la stabilirea culpei în divorț, dar numai dacă faptele sunt dovedite și au vătămat grav căsnicia.",
+      "article": "art. I pct. 3 (art. 379 alin. (3))",
+      "quote": "La stabilirea culpei în desfacerea căsătoriei, instanța poate avea în vedere existența unor fapte de violență economică, astfel cum sunt definite de Legea nr. 217/2003",
+      "weight": 3
+    },
+    {
+      "text": "Obligă persoana care cere despăgubiri să dovedească existența și valoarea pagubei după regulile obișnuite, prevenind cererile nefondate.",
+      "article": "art. II pct. 1 (art. 249¹ alin. (5))",
+      "quote": "Existența și întinderea prejudiciului se dovedesc de către reclamant, potrivit dreptului comun.",
+      "weight": 2
+    },
+    {
+      "text": "Oferă exemple concrete de fapte și acte, precum extrase bancare sau rapoarte sociale, ajutând victimele și judecătorii să identifice mai ușor abuzul financiar.",
+      "article": "art. II pct. 1 (art. 249¹ alin. (2)-(3))",
+      "quote": "În dovedirea existenței violenței economice, instanța poate avea în vedere, fără ca enumerarea să fie limitativă, împrejurări precum:",
+      "weight": 2
+    },
+    {
+      "text": "Preia definiția violenței economice direct din legea violenței domestice, menținând aceleași criterii în toată legislația.",
+      "article": "art. I pct. 1 (art. 320¹ alin. (1))",
+      "quote": "prin violență economică se înțelege forma de violență definită la art. 4 alin. (1) lit. e) din Legea nr. 217/2003 pentru prevenirea și combaterea violenței domestice",
+      "weight": 1
+    },
+    {
+      "text": "Aplică noile reguli doar proceselor pornite după intrarea în vigoare, respectând previzibilitatea proceselor deja începute.",
+      "article": "art. III alin. (1)-(2)",
+      "quote": "Cauzele aflate pe rolul instanțelor la data intrării în vigoare a prezentei legi rămân supuse legii în vigoare la data introducerii cererii.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Promite luarea în calcul a violenței economice în litigiile de avere, dar blochează efectele asupra partajului fără a spune ce măsuri concrete poate lua instanța.",
+      "article": "art. I pct. 1 (art. 320¹ alin. (2)-(4))",
+      "quote": "Existența violenței economice poate fi avută în vedere de instanță, în condițiile legii, la soluționarea raporturilor patrimoniale dintre soți sau foști soți, în măsura în care faptele respective sunt relevante pentru obiectul cauzei.",
+      "weight": 2
+    },
+    {
+      "text": "Include categoria deschisă „alte conduite relevante”, fără legătură cu definiția din legea violenței domestice, permițând interpretări imprevizibile.",
+      "article": "art. I pct. 2 (art. 320² alin. (2) lit. d))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Repetă de trei ori aceeași regulă cu condiții ușor diferite între art. 320¹ și art. 320², creând un paralelism care încalcă tehnica legislativă.",
+      "article": "art. I pct. 1-2 (art. 320¹ alin. (2), (4) și art. 320² alin. (1))",
+      "quote": "instanța poate avea în vedere existența unor fapte de violență economică, dovedite potrivit legii, atunci când acestea au influențat exercitarea drepturilor patrimoniale ale uneia dintre părți ori executarea obligațiilor ce decurg din căsătorie.",
+      "weight": 2
+    },
+    {
+      "text": "Încarcă Codul de procedură civilă cu liste de probe și reguli de apreciere care există deja în dreptul comun, fără efect procedural propriu.",
+      "article": "art. II pct. 1 (art. 249¹ alin. (1)-(3) și (6))",
+      "quote": "În litigiile în care se invocă existența violenței economice, părțile își dovedesc susținerile potrivit dispozițiilor generale privind probațiunea prevăzute de prezentul cod.",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Ar trebui clarificate efectele concrete permise în litigiile de avere (comasând alineatele repetate din art. 320¹) și eliminată sau legată strict de Legea nr. 217/2003 formula deschisă de la art. 320² alin. (2) lit. d).",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

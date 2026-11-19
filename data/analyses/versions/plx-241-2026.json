@@ -1,7 +1,12 @@
 {
   "slug": "plx-241-2026",
   "billId": "PL-x 241/2026",
-  "updatedAt": "2026-10-30T09:13:55.261Z",
+  "updatedAt": "2026-11-19T09:08:45.324Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -32,6 +37,21 @@
         "claude": 1,
         "codex": 2
       }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L363FS.PDF",
+      "source": "senat.ro",
+      "riskScore": 1.3,
+      "riskLevel": "green",
+      "plainTitle": "România ratifică acordul de sediu pentru Secretariatul regional anti-dezastre de la Sarajevo",
+      "summaryTlDr": "Este o lege de ratificare pur tehnică, cu două articole, fără costuri, taxe sau sancțiuni pentru cetățeni. Obligațiile reale cad aproape în întregime pe Bosnia și Herțegovina, ca stat gazdă.",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 2
+      }
     }
   ],
   "changes": [
@@ -39,12 +59,12 @@
       "from": "initiator",
       "to": "camera",
       "direction": "la_fel",
-      "headline": "Camera a adoptat tacit ratificarea, fără vot și fără dezbatere; textul a rămas neschimbat",
-      "summary": "Conținutul legii nu s-a schimbat: tot ratifică doar Acordul privind Secretariatul pentru prevenirea dezastrelor. Acum se arată doar că Camera l-a adoptat tacit, prin depășirea termenului. Decizia finală aparține Senatului.",
+      "headline": "Camera Deputaților a adoptat tacit ratificarea, fără modificări de conținut; urmează Senatul",
+      "summary": "Textul ratificării este același ca inițial. Acum doar se menționează că Camera l-a adoptat tacit, fără vot și fără dezbatere. Pentru cetățeni și firme nu se schimbă nimic: nu apar obligații, taxe sau sancțiuni noi.",
       "changes": [
         {
-          "title": "Adoptat tacit de Cameră, fără vot",
-          "text": "Acum textul precizează că proiectul se consideră adoptat de Camera Deputaților în forma inițială, prin depășirea termenului (art. 75 alin. (2) teza a III-a din Constituție), fără dezbatere.",
+          "title": "Camera a adoptat proiectul tacit, fără vot",
+          "text": "S-a adăugat mențiunea că proiectul se consideră adoptat de Camera Deputaților în forma inițială, după depășirea termenului din art. 75 alin. (2) din Constituție.",
           "effect": "neutru",
           "major": false,
           "article": null,
@@ -54,8 +74,8 @@
           "afterAbsent": false
         },
         {
-          "title": "Formula de adoptare trece la Camera Deputaților",
-          "text": "Inițial, formula era cea a Parlamentului. Acum este cea a Camerei Deputaților, ca etapă intermediară. Este o modificare de tehnică legislativă, fără efect asupra fondului.",
+          "title": "Încă proiect de lege, decizia finală la Senat",
+          "text": "Formula de adoptare a Parlamentului a fost înlocuită cu cea a Camerei Deputaților. Textul este încă proiect, nu lege adoptată definitiv.",
           "effect": "neutru",
           "major": false,
           "article": null,
@@ -68,31 +88,31 @@
       "remaining": {
         "problems": [
           {
-            "text": "Declarația României privind neaplicarea provizorie apare doar în Expunerea de motive, nu în lege",
+            "text": "Declarația României privind neaplicarea provizorie lipsește din textul legii",
             "major": false,
-            "article": "Articol unic"
+            "article": "art. unic"
           },
           {
-            "text": "Camera a adoptat proiectul tacit, fără vot și fără dezbatere",
+            "text": "Adoptat tacit de Cameră, fără vot și fără dezbatere parlamentară",
             "major": false,
             "article": null
           }
         ],
         "good": [
           {
-            "text": "Ratificare pură: nu creează taxe, sancțiuni sau obligații noi pentru cetățeni ori firme",
+            "text": "Nu creează obligații, taxe sau sancțiuni noi pentru cetățeni ori firme",
             "major": true,
-            "article": "Articol unic"
+            "article": "art. unic"
           },
           {
-            "text": "Obligațiile României se limitează la corespondență, publicații și scutiri vamale pentru uz oficial",
+            "text": "Obligațiile României se limitează la corespondență, publicații și scutiri vamale oficiale",
             "major": false,
-            "article": "Articol unic"
+            "article": "art. unic"
           },
           {
-            "text": "Acordul se aplică României doar după intrarea în vigoare, nu provizoriu de la semnare",
+            "text": "Acordul se aplică României doar după intrarea în vigoare, nu provizoriu",
             "major": false,
-            "article": "Articol unic"
+            "article": "art. unic"
           }
         ],
         "partial": false
@@ -103,8 +123,84 @@
         "same": 0.25
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:17:24.760Z"
+      "schema": 4,
+      "updatedAt": "2026-11-19T09:08:21.403Z"
+    },
+    {
+      "from": "camera",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul confirmă prin lege că Acordul se aplică doar după intrarea în vigoare pentru România",
+      "summary": "Acum legea preia explicit declarația făcută la semnare: Acordul nu se aplică provizoriu, ci doar după intrarea în vigoare pentru România. Senatul a votat proiectul, pe când Camera îl adoptase tacit. Pentru cetățeni și firme nu se schimbă nimic.",
+      "changes": [
+        {
+          "title": "Fără aplicare provizorie, confirmat în textul legii",
+          "text": "S-a adăugat art. II, care reia declarația de la semnare: Acordul se aplică României doar de la intrarea în vigoare. Clarifică momentul aplicării, fără efect direct pentru cetățeni.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II",
+          "before": null,
+          "after": "Guvernul României declară că, în considerarea procedurilor legale interne, Acordul nu se aplică provizoriu de la data semnării pentru România.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Proiectul a fost votat, nu adoptat tacit",
+          "text": "Inițial, Camera a adoptat proiectul tacit, prin depășirea termenului. Acum Senatul l-a adoptat în ședința din 16 noiembrie 2026, în condițiile art. 76 alin. (2) din Constituție.",
+          "effect": "neutru",
+          "major": false,
+          "article": null,
+          "before": "Acest proiect de lege se consideră adoptat de Camera Deputaților în forma inițială, în condițiile art. 75 alin. (2) teza a III-a din Constituția României, republicată.",
+          "after": "Acest proiect de lege a fost adoptat de Senat în ședința din 16 noiembrie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Camera a adoptat tacit, fără dezbatere; s-a votat doar în Senat",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Acordul aduce privilegii și imunități pentru oficialii și experții Secretariatului",
+            "major": false,
+            "article": "art. I"
+          }
+        ],
+        "good": [
+          {
+            "text": "Legea doar ratifică; nu creează taxe, sancțiuni sau obligații pentru cetățeni ori firme",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Exclude aplicarea provizorie, coerent cu Legea nr. 590/2003 și controlul parlamentar",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Impact bugetar declarat zero; costurile sunt suportate de statul gazdă",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "România are obligații limitate: corespondență, publicații și scutiri vamale",
+            "major": false,
+            "article": "art. I"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-19T09:08:45.324Z"
     }
   ]
 }

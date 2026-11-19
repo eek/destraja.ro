@@ -1,0 +1,39 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+## LEGE
+
+privind modificarea și completarea Legii nr. 254/2013 privind executarea pedepselor și a măsurilor privative de libertate dispuse de organele judiciare în cursul procesului penal
+
+În temeiul art. 1 alin. (3) și (5) și art. 69 din Constituția României, Parlamentul României adoptă prezenta lege:
+
+## Articol unic:
+
+Legea nr. 254/2013 privind executarea pedepselor și a măsurilor privative de libertate dispuse de organele judiciare în cursul procesului penal, publicată în Monitorul Oficial al României, Partea I, nr. 514 din 14 august 2013, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+La articolul 99, după alineatul (1) se introduce un nou alineat, alin. (1¹), cu următorul cuprins:
+
+„(1¹) Persoanele condamnate pentru infracțiuni care au produs un prejudiciu material ori financiar nu pot beneficia de liberare condiționată decât după achitarea integrală a prejudiciului stabilit prin hotărâre judecătorească definitivă, inclusiv a dobânzilor și penalităților aferente, după caz.”
+
+## La articolul 99, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) În cazul în care persoana condamnată dovedește că a depus diligențe reale și constante pentru acoperirea prejudiciului, dar acesta nu a putut fi recuperat integral din motive neimputabile acesteia, instanța de judecată poate dispune amânarea liberării condiționate până la o nouă verificare, la un termen ce nu poate depăși 6 luni.”
+
+La articolul 100, după litera d) se introduce o nouă literă, lit. d¹), cu următorul cuprins:
+
+„d¹) să fi achitat integral prejudiciul stabilit prin hotărâre judecătorească definitivă, în cazul infracțiunilor care au produs consecințe patrimoniale.”
+
+Prezenta lege intră în vigoare la 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și art. 76 alin. (1) din Constituția României, republicată.
+
+Președintele Camerei Deputaților, Sorin-Mihai GRINDEANU
+
+Președintele Senatului,
+
+Mircea ABRUDEAN
+
+Inițiator: Deputat Gabriela PORUMBOIU PARTIDUL OAMENILOR TINERI

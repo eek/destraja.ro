@@ -1,0 +1,47 @@
+# Parlamentul României Camera Deputaților
+
+Biroul permanent al Senatului Bp 6/3 3.11.2026
+
+614, 615.
+
+București, 2 noiembrie 2026 Nr.BPI 811,812,813
+
+# Domnule președinte,
+
+Avem onoarea să vă înaintăm alăturat, în original, în vederea dezbaterii și adoptării, potrivit art.75 alin.(1) din Constituția României, următoarele propuneri legislative:
+
+1\. Propunerea legislativă pentru completarea Legii partidelor politice nr.14/2003 (BPI 811.2026)
+
+\- initiator: doamna deputat Enachi Raisa, neafiliată;
+
+\- prima Cameră sesizată: Senatul, potrivit art.75 alin.(1) teza a II-a din Constituția României;
+
+\- Camera decizională: Camera Deputaților.
+
+2\. Propunerea legislativă pentru modificarea și completarea Ordonanței de Urgență nr.195/2002 privind circulația pe drumurile publice (BPI 812/2026)
+
+\- inițiatori: doamnele deputat Neacșu Andreea-Firuța, Stănescu Vetuța, Matei Aneta, Cîmpianu Andreea-Petronela, 'Pistru-Popa Simona-Geanina, Gorghiu Alina-Ștefania, domnii deputați Crușoveanu Marian, Ciobotaru Dragoș-Fănică, Jianu Iosif-Florin, Huțucă Bogdan-Iulian, Oprea Octavian, Cîmpean Ovidiu-Vasile, Bogdan Ionel-Ovidiu, Andronache Gabriel, Fechet Mircea, Burduja Sebastian-Ioan, Cotinescu Ilie-Aurelian, Ciobanu Adrian-Virgil, Cadar Răzvan-Olimpiu, Moiseev Alexandrin, Mititelu Eduard-Tatian, Rusu Sebastian-Mihai, Popa Alexandru, Grupul parlamentar al P.N.L.;
+
+\- prima Cameră sesizată: Senatul, potrivit art.75 alin.(1) teza a II-a din Constituția României;
+
+\- Camera decizională: Camera Deputaților.
+
+3\. Propunerea legislativă privind modificarea Legii nr.227/2015 privind Codul fiscal (BPI 813/2026)
+
+\- inițiatori: doamnele deputat Moș Patricia-Simina-Arina, Gorghiu Alina-Ștefania, Matei Aneta, domnii deputați Rusu Sebastian-Mihai,Teslariu Andrei-Ionuț, Culeafă Mihai, Cozma Adrian-Felician, Bogdan Ionel-Ovidiu, Dobre Ciprian-Minodor, Roșca Mircea, Știrbu Gigel-Sorinel, Moiseev Alexandrin, Ciobotaru Dragoș-Fănică, Oprea Octavian, Cotinescu
+
+Ilie-Aurelian, Fechet Mircea, Șerban George Cătălin, Năcuță Sorin, Țiplea Dumitru, Huțucă Bogdan-Iulian, Huțucă Bogdan-Iulian, Mititelu Eduard-Tatian, Andrei Alexandru-Ioan, Pandea Ciprian, Grupul parlamentar P.N.L., doamna deputat Zahoranszki Brigitta-Eva, domnii deputați Gál Kăroly, Könczei Csaba, Kolcsár Anquetil-Kăroly, Bende Sândor, Grupul parlamentar al U.D.M.R., doamnele deputat Adomnicăi Mirela Elena, Rinder Ana-Smaranda, domnii deputați Solomon Adrian, Neață Eugen, Grupul parlamentar al P.S.D.;
+
+\- prima Cameră sesizată: Senatul, potrivit art.75 alin.(1) teza a II-a din Constituția României;
+
+\- Camera decizională: Camera Deputaților.
+
+Propunerile legislative au fost înregistrate la Biroul permanent al Camerei Deputaților care, în ședința din data de 2 noiembrie 2026, a stabilit că domeniul reglementat de acestea este de competența decizională a Camerei Deputaților, Senatul fiind prima Cameră sesizată.
+
+Cu stimă,
+
+p.PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+Bogdan-Gruia IVAN
+
+Domnului Mircea ABRUDEAN PREȘEDINTELE SENATULUI

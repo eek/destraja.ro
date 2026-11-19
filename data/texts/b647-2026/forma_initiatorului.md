@@ -1,0 +1,21 @@
+# PARLAMENTUL ROMÂNIEI
+
+# Lege
+
+# privind instituirea anului 2027 ca “Anul Alexandru Papiu Ilarian”
+
+Parlamentul României adoptă prezenta lege:
+
+Art. 1. – Se instituie anul 2027 ca „Anul Alexandru Papiu Ilarian”, pentru marcarea împlinirii a 200 de ani de la nașterea lui Alexandru Papiu Ilarian.
+
+Art. 2. – (1) Parlamentul României, Administrația Prezidențială, Guvernul, autoritățile administrației publice locale, precum și instituțiile publice aflate în subordinea sau coordonarea acestora pot organiza sau sprijini manifestări culturale, științifice și educaționale dedicate vieții și activității lui Alexandru Papiu Ilarian.
+
+(2) Autoritățile și instituțiile publice prevăzute la alin. (1) pot aloca fonduri din bugetele proprii pentru organizarea și desfășurarea manifestărilor, în limita creditelor bugetare aprobate, precum și din alte surse legal constituite, în condițiile legii.
+
+Președintele Senatului
+
+Mircea Abrudean
+
+Președintele Camerei Deputaților
+
+Sorin-Mihai Grindeanu

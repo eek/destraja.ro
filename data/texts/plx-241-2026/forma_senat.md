@@ -1,0 +1,17 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru ratificarea Acordului dintre Consiliul de Miniștri al Bosniei și Herțegovina și Guvernele celorlalte părți la Inițiativa de Pregătire și Prevenire a Dezastrelor din Sud-Estul Europei privind aranjamentele țării gazdă pentru Secretariatul Inițiativei de Pregătire și Prevenire a Dezastrelor din Sud-Estul Europei, deschis spre semnare la 4 aprilie 2018, la Ankara și semnat de Guvernul României la 4 iulie 2018, la Sarajevo
+
+Senatul adoptă prezentul proiect de lege
+
+Art.I.- Se ratifică Acordul dintre Consiliul de Miniștri al Bosniei și Herțegovina și Guvernele celorlalte părți la Inițiativa de Pregătire și Prevenire a Dezastrelor din Sud-Estul Europei privind aranjamentele țării gazdă pentru Secretariatul Inițiativei de Pregătire și Prevenire a Dezastrelor din Sud-Estul Europei, deschis spre semnare la 4 aprilie 2018, la Ankara și semnat de Guvernul României la 4 iulie 2018, la Sarajevo.
+
+Art.II.- Cu ocazia depunerii instrumentului de ratificare, România formulează următoarea declarație: «Referitor la art.28 alin.(3) din Acordul dintre Consiliul de Miniștri al Bosniei și Herțegovina și Guvernele celorlalte părți la Inițiativa de Pregătire și Prevenire a Dezastrelor din Sud-Estul Europei privind aranjamentele țării gazdă pentru Secretariatul Inițiativei de Pregătire și Prevenire a Dezastrelor din Sud-Estul Europei, Guvernul României declară că, în considerarea procedurilor legale interne, Acordul nu se aplică provizoriu de la data semnării pentru România. Prin urmare, pentru Guvernul României, Acordul se aplică de la data intrării în vigoare pentru partea română».
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 16 noiembrie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI

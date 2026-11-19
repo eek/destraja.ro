@@ -1,0 +1,13 @@
+Parlamentul României Senat
+
+Către,
+
+## Biroul Permanent al Senatului
+
+În temeiul prevederilor art. 74 alin. (1) din Constituția României, republicată, vă înaintăm spre dezbatere și aprobare „Propunerea legislativă pentru modificarea si completarea Legii nr. 350/2005 privind regimul finanțărilor nerambursabile din fonduri publice alocate pentru activități non profit de interes general și completarea Legii educației fizice și sportului nr. 69/2000”.
+
+În temeiul art. 115 din Regulamentul Senatului, republicat, solicităm procedură de urgență.
+
+Inițiatori:
+
+SEPUTAT PSD CIPRIAN-CONSTANTIN GERBAN

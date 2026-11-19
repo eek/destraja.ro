@@ -1,0 +1,29 @@
+# EXPUNERE DE MOTIVE
+
+# Lege pentru modificarea și completarea Ordonanței de Urgență nr. 155/2001 privind aprobarea programului de gestionare a câinilor fără stăpân
+
+## I. Necesitatea intervenției legislative
+
+Ordonanța de urgență a Guvernului nr. 155/2001 stabilește o perioadă de cazare de 14 zile lucrătoare pentru câinii fără stăpân. Întrucât preluarea în adopție este posibilă din a opta zi lucrătoare, intervalul garantat pentru adopție înainte de emiterea unei eventuale decizii de eutanasiere este de șapte zile lucrătoare. În același timp, art. 17 din normele aprobate prin Hotărârea Guvernului nr. 1.059/2013 prevede publicarea online a datei și a locului capturării pe loturi. Pentru persoana care își caută câinele sau dorește să adopte, fotografia animalului și identificarea adăpostului în care acesta se află sunt informațiile care îi permit să acționeze.
+
+Distanța până la adăpost poate îngreuna preluarea animalului chiar și atunci când acesta a fost identificat. În documentele supuse consultării publice în 2024 cu privire la modificarea normelor metodologice, Autoritatea Națională Sanitară Veterinară și pentru Siguranța Alimentelor a consemnat cazuri în care câinii au fost transportați la peste 400 km de locul capturării. În octombrie 2025, Federația Națională pentru Protecția Animalelor a susținut cazarea câinilor în adăposturile publice proprii ale autorităților locale sau în alte adăposturi publice din același județ.
+
+## II. Soluțiile propuse
+
+Propunerea legislativă prelungește la 30 de zile lucrătoare termenul minim anterior emiterii deciziei de eutanasiere pentru câinii nerevendicați și neadoptați. Termenul curge din prima zi lucrătoare care urmează înregistrării câinelui la intrarea în primul adăpost. Preluarea în adopție fiind posibilă din a opta zi lucrătoare, intervalul garantat pentru adopție înaintea unei asemenea decizii crește la 23 de zile lucrătoare.
+
+Serviciul specializat sau operatorul publică, în cel mult 48 de ore de la înregistrarea câinelui în primul adăpost, o fișă individuală cu fotografie, asociată informațiilor deja publicate despre data și locul capturării. Fișa indică adăpostul în care se află câinele și data împlinirii termenului minim de cazare. În cazul unui transfer, serviciul sau operatorul actualizează fișa în cel mult 24 de ore. Emitentul atașează deciziei de eutanasiere dovada îndeplinirii obligațiilor de publicare. Dacă o obligație a fost încălcată, emiterea deciziei presupune ca fișa completă și actualizată să fi fost accesibilă publicului neîntrerupt cel puțin șapte zile lucrătoare de la remediere.
+
+Câinii se cazează în județul în care au fost capturați. Dacă adăposturile din județ care pot deservi legal serviciul nu dispun de locuri, autoritatea deliberativă poate aproba cazarea în cel mai apropiat adăpost disponibil dintr-un județ limitrof, în funcție de distanța rutieră. Hotărârea se motivează și se publică înaintea transportului. La transferurile ulterioare între adăposturi, regula se aplică prin raportare la locul capturării inițiale, cu excepțiile prevăzute pentru tratament veterinar ori evacuare.
+
+Încălcarea condițiilor de cazare sau de transfer, nerespectarea obligațiilor privind fișa individuală și emiterea deciziei de eutanasiere cu încălcarea noilor condiții se sancționează cu amendă de la 5.000 lei la 10.000 lei.
+
+## III. Efectele bugetare și aplicarea legii
+
+Prelungirea termenului poate crește cheltuielile cu hrana, întreținerea și îngrijirea câinilor care, potrivit regimului actual, ar fi părăsit adăpostul înainte de împlinirea celor 30 de zile lucrătoare. Cheltuielile se suportă potrivit art. 7 alin. (5) din Ordonanța de urgență a Guvernului nr. 155/2001. Cuantificarea lor necesită date privind durata efectivă a cazării, gradul de ocupare și costul zilnic complet al întreținerii în adăposturi. Inițiatorul va solicita Guvernului fișa financiară prevăzută la art. 15 din Legea nr. 500/2002 privind finanțele publice.
+
+Guvernul va pune normele metodologice în acord cu noile termene, condiții de cazare, obligații de publicare și sancțiuni. Pentru câinii aflați deja în adăposturi, proiectul acordă zece zile lucrătoare pentru publicarea fișelor și prevede încetarea efectelor deciziilor de eutanasiere încă neexecutate. Contractele și protocoalele în derulare se adaptează regulii territoriale în cel mult 180 de zile de la intrarea în vigoare a noilor dispoziții.
+
+INIȚIATOR,
+
+SENATOR CĂTĂLIN SILEGEANU

@@ -1,0 +1,29 @@
+# Parlamentul României Senat
+
+Comisia juridică, de numiri, disciplină, imunități și validări
+
+Nr. XIX/401/17.11.2026
+
+## AVIZ
+
+la Propunerea legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.60/2019 privind reglementarea unor măsuri pentru stingerea unor obligații fiscale și bugetare, precum și unele măsuri referitoare la obligațiile de plată aferente împrumuturilor din venituri din privatizare și împrumuturilor contractate de statul român de la instituții de credit și subîmprumutate operatorilor economici
+
+Comisia juridică, de numiri, disciplină, imunități și validări, prin adresa nr. L637/2026, a fost sesizată, în vederea întocmirii avizului, cu Propunerea legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.60/2019 privind reglementarea unor măsuri pentru stingerea unor obligații fiscale și bugetare, precum și unele măsuri referitoare la obligațiile de plată aferente împrumuturilor din venituri din privatizare și împrumuturilor contractate de statul român de la instituții de credit și subîmprumutate operatorilor economici, inițiată de Federovici Doina-Elena - senator PSD; Presură Alexandra - senator PSD; Tănăsescu Alina-Elena - senator PSD; Câciu Adrian - deputat PSD; Cotea (Geamănu) Aurora-Adela - deputat PSD; Marinescu Radu - deputat PSD; Neacșu Marian - deputat PSD; Peța-Ștefănescu Eliza-Mădălina - deputat PSD; Stoenică Irina-Florentina - deputat PSD.
+
+În ședința din 17 noiembrie 2026, Comisia juridică, de numiri, disciplină, imunități și validări a analizat propunerea legislativă și a hotărât, cu majoritate de voturi ale celor prezenți, să adopte aviz favorabil, fără amendamente.
+
+Președinte,
+
+Secretar,
+
+Senator Ion-Cristinel-RUJAN
+
+Senator Daniela ȘTEFANESCU
+
+Doamnei senator HORGA Maria-Gabriela,
+
+Președintele Comisiei pentru buget, finanțe, activitate bancară și piață de capital
+
+Domnului senator VLAȘIN Sorin, Președintele Comisiei economice, industrii, servicii, turism și antreprenoriat
+
+Întocmit, consilier Adina Minciu

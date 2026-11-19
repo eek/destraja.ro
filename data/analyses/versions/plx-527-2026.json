@@ -1,8 +1,28 @@
 {
   "slug": "plx-527-2026",
   "billId": "PL-x 527/2026",
-  "updatedAt": "2026-10-30T09:40:39.671Z",
+  "updatedAt": "2026-11-19T09:26:14.085Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L454FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 7.7,
+      "riskLevel": "red",
+      "plainTitle": "Lege-omnibus: plafon la adaosul la carburanți, export de motorină doar cu aprobare, taxă de 60% pe țițeiul onshore, plus fonduri pentru ROMATSA și gaze Neptun Deep",
+      "summaryTlDr": "Câteva măsuri tehnice utile, cum ar fi scutirea TVA cu certificat obținut ulterior sau plata a 60% din decontările la energie, sunt amestecate cu un regim de criză care poate deveni permanent prin hotărâre de Guvern. Acest regim aduce control de preț, autorizare discreționară a exporturilor, inclusiv a livrărilor intra-UE, amenzi raportate la cifra de afaceri și o contribuție pe venituri brute care lovește practic un singur producător onshore.",
+      "scores": {
+        "agy": 8,
+        "claude": 8,
+        "codex": 7
+      }
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -36,31 +56,185 @@
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
+      "from": "initiator",
+      "to": "senat",
       "direction": "mai_putin_riscant",
-      "headline": "Corectată trimiterea greșită din norma tranzitorie: regulile noi vizează clar și firmele aflate deja în procedură",
-      "summary": "Acum norma tranzitorie trimite corect la Codul de procedură fiscală (art. IV), nu la impozitul pe moștenire. Dispare o confuzie, dar firmele aflate deja în prevenirea insolvenței intră sigur sub regulile noi. Restul fondului rămâne neschimbat.",
+      "headline": "Senatul a scos plafonarea adaosului la carburanți, criza declarată prin HG și acordul pentru export",
+      "summary": "Acum lipsește tot capitolul despre criza carburanților: plafonul de adaos, acordul pentru export, amenzile din cifra de afaceri, dar și reducerea accizei la motorină. Au apărut scutirea de impozit pe moșteniri și TollRo pentru camioane.",
       "changes": [
         {
-          "title": "Norma tranzitorie trimite acum la articolul corect",
-          "text": "Art. VI alin. (1) trimitea inițial la art. III (impozitul pe moștenire). Acum trimite la art. IV, deci regulile fiscale noi se aplică clar și firmelor aflate deja în prevenirea insolvenței.",
+          "title": "Dispare plafonarea adaosului și criza prelungibilă prin HG",
+          "text": "Inițial, Guvernul putea declara prin HG crize prelungibile nelimitat, cu plafon de adaos și amenzi de 1-2% din cifra de afaceri. Acum fostele art. V, VI și XXI au fost scoase.",
           "effect": "mai_bine",
+          "major": true,
+          "article": "fostele art. V, VI, XXI",
+          "before": "Guvernul poate declara situația de criză pe piața țițeiului și/sau a produselor petroliere, prin hotărâre, la propunerea comună a Ministerului Finanțelor și a Ministerului Energiei, pentru o perioadă de cel mult 3 luni",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Exportul de motorină nu mai cere acordul ministerelor",
+          "text": "Inițial, contractele de export și de livrare intracomunitară cereau aviz fără criterii și fără termen, sub sancțiunea amenzii din cifra de afaceri și a confiscării. Acum fostele art. VII și XXII au fost scoase.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "fostele art. VII, XXII",
+          "before": "încheierea și/sau executarea contractelor de export și/sau de livrare intracomunitară de motorină și țiței se pot realiza de către operatorii economici exclusiv cu acordul prealabil scris",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Fără impozit pe moșteniri într-o fereastră scurtă",
+          "text": "Nou, art. III: nu se plătește impozit pe succesiune dacă termenul de 2 ani se împlinește între 14 iulie și 30 septembrie 2026 și succesiunea s-a finalizat până la 30 septembrie 2026.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. III",
+          "before": null,
+          "after": "nu se datorează impozit pentru succesiunile dezbătute și finalizate până la data de 30 septembrie 2026 inclusiv, pentru care termenul de doi ani de la data decesului autorului succesiunii se împlinește în perioada 14 iulie - 30 septembrie 2026.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare reducerea accizei la motorină pe timp de criză",
+          "text": "Inițial, acciza la motorină putea scădea cu 5-25% când cresc cotațiile și prețul la pompă. Odată cu ea a fost scoasă și contribuția pe veniturile excepționale ale producătorilor de țiței.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "fostele art. VIII-XVII și anexa nr. 1",
+          "before": "se instituie un mecanism temporar de diminuare a nivelului accizei aplicabil motorinei standard comercializate pe piața internă",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Taxa TollRo pentru camioane de la 31 august 2026",
+          "text": "Nou, art. IX modifică Legea 226/2023: de la 31 august 2026 se aplică TollRo vehiculelor de marfă de peste 3,5 tone, iar vehiculele mixte sunt asimilate celor de marfă.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. IX",
+          "before": null,
+          "after": "Începând cu data de 31 august 2026 se introduce TollRo care se aplică pe domeniul SETRE România, pentru toate vehiculele înmatriculate care sunt folosite pe acesta, concepute și construite pentru transportul de marfă cu masă totală maximă autorizată (MTMA) mai mare de 3,5 tone",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Furnizorii de energie nu mai primesc avans de 60%",
+          "text": "Inițial, avansul la cererile de decontare a compensațiilor la energie și gaze urca la 60%, iar furnizorii puteau cere diferența. Acum aceste prevederi, fostele art. XXXI-XXXIV, au fost scoase.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "fostele art. XXXI-XXXIV",
+          "before": "a) 60% din valoarea solicitată prin cererea de decontare, depusă conform prevederilor alin. (5)",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Trimiterea greșită la art. III (impozit moșteniri) face norma tranzitorie inaplicabilă",
+            "major": true,
+            "article": "art. VI alin. (1)"
+          },
+          {
+            "text": "Rambursările pot fi compensate cu datorii contestate a căror executare e suspendată",
+            "major": true,
+            "article": "art. IV pct. 4"
+          },
+          {
+            "text": "Firmele aflate în concordat preventiv sau restructurare nu mai pot obține eșalonare",
+            "major": true,
+            "article": "art. IV pct. 7 și 10"
+          },
+          {
+            "text": "Excluderea de la eșalonare se aplică și cererilor depuse anterior, încă nesoluționate",
+            "major": true,
+            "article": "art. VI alin. (2)"
+          },
+          {
+            "text": "Fereastră îngustă pentru scutire, fără restituirea impozitului deja încasat de notari",
+            "major": true,
+            "article": "art. III"
+          },
+          {
+            "text": "Obligațiile din înlesnirile OG 6/2019 nu pot intra în restructurare, nici în proceduri începute",
+            "major": true,
+            "article": "art. V"
+          },
+          {
+            "text": "Termenul de 31 august 2026 pentru TollRo poate fi depășit la adoptare",
+            "major": false,
+            "article": "art. IX"
+          },
+          {
+            "text": "Greșeli de redactare: „1¹)” în loc de „l¹)”, „competenț”",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Scutire de impozit pe moștenire pentru succesiunile finalizate până la 30 septembrie 2026",
+            "major": true,
+            "article": "art. III"
+          },
+          {
+            "text": "Scutirea de TVA se aplică retroactiv dacă certificatul de scutire e obținut ulterior",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Creanțele reduse prin restructurare se anulează la închidere, dacă planul e respectat",
+            "major": true,
+            "article": "art. IV pct. 13"
+          },
+          {
+            "text": "TVA de rambursat după confirmarea acordului se compensează doar cu datorii din afara planului",
+            "major": false,
+            "article": "art. IV pct. 5"
+          },
+          {
+            "text": "Finanțare temporară fără dobândă pentru companiile publice blocate de litigii internaționale",
+            "major": false,
+            "article": "art. VII"
+          },
+          {
+            "text": "Certificatul ROMATSA nu poate fi retras ca simplă autorizație de funcționare",
+            "major": false,
+            "article": "art. VIII"
+          },
+          {
+            "text": "COSR și ANS pot finanța apărarea sportivilor în litigii internaționale",
+            "major": false,
+            "article": "art. XI"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 43,
+        "removed": 345,
+        "same": 0.6
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-19T09:25:38.412Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Trimitere corectată: noile reguli fiscale pentru firmele în restructurare vizează și pe cele deja în procedură",
+      "summary": "Singura schimbare de fond: inițial, norma tranzitorie trimitea greșit la impozitul pe moștenire; acum trimite la regulile ANAF pentru firmele în restructurare. Acestea se aplică clar și firmelor deja în procedură, cu părțile bune și cele rele. Restul sunt corecturi de formă.",
+      "changes": [
+        {
+          "title": "Regulile pentru restructurare vizează clar firmele deja în procedură",
+          "text": "Art. VI alin. (1) trimitea inițial la art. III (moștenire). Acum trimite la art. IV, deci regulile ANAF pentru prevenirea insolvenței se aplică și firmelor aflate deja în procedură.",
+          "effect": "neutru",
           "major": true,
           "article": "art. VI alin. (1)",
           "before": "Art.VI.- (1) Prevederile art.III se aplică și debitorilor care, la data intrării în vigoare a prezentei legi, se află în procedurile de prevenire a insolvenței prevăzute de Legea nr.85/2014",
           "after": "Art. VI. – (1) Prevederile art. IV se aplică și debitorilor care, la data intrării în vigoare a prezentei legi, se află în procedurile de prevenire a insolvenței prevăzute de Legea nr. 85/2014",
-          "beforeAbsent": false,
-          "afterAbsent": false
-        },
-        {
-          "title": "Corectată litera greșită la scutirea directă de TVA",
-          "text": "Art. II (art. 294 alin. (1¹) Cod fiscal) trimitea la o literă inexistentă, „1¹)”. Acum trimite la lit. l¹), deci se știe exact cine beneficiază de scutire.",
-          "effect": "mai_bine",
-          "major": false,
-          "article": "art. II",
-          "before": "prevăzute la alin. (1) lit. j), l), 1¹) și m), pe bază de certificat de scutire.",
-          "after": "prevăzute la alin. (1) lit. j), l), l¹) și m), pe bază de certificat de scutire.",
           "beforeAbsent": false,
           "afterAbsent": false
         }
@@ -68,37 +242,42 @@
       "remaining": {
         "problems": [
           {
-            "text": "Rambursările de TVA pot fi compensate cu datorii cu executarea suspendată de instanță",
+            "text": "Datoriile cu executare suspendată de instanță pot fi compensate cu rambursările de TVA",
             "major": true,
-            "article": "art. IV pct. 4 (art. 166 CPF)"
+            "article": "art. IV pct. 4"
           },
           {
-            "text": "Firmele în prevenirea insolvenței primesc eșalonare doar dacă ies din procedură înainte de decizie",
+            "text": "Firmele aflate în prevenirea insolvenței nu pot primi eșalonare la plată de la ANAF",
             "major": true,
-            "article": "art. IV pct. 7 și 10 (art. 186, art. 209¹ CPF)"
+            "article": "art. IV pct. 7, 10"
           },
           {
             "text": "Intrarea în prevenirea insolvenței duce la pierderea eșalonării existente",
             "major": true,
-            "article": "art. IV pct. 8 și 11 (art. 194, art. 209⁴ CPF)"
+            "article": "art. IV pct. 8, 11"
           },
           {
-            "text": "Condiția nouă se aplică și cererilor de eșalonare depuse anterior și nesoluționate",
+            "text": "Excluderea de la eșalonare se aplică și cererilor depuse anterior și nesoluționate",
             "major": true,
             "article": "art. VI alin. (2)"
           },
           {
-            "text": "TVA de recuperat dinaintea confirmării planului nu se reportează, ci se compensează cu ratele planului",
+            "text": "TVA de recuperat dinaintea planului nu se reportează, ci se compensează cu ratele",
             "major": true,
-            "article": "art. IV pct. 6 (art. 167 alin. 13 CPF)"
+            "article": "art. IV pct. 6"
           },
           {
-            "text": "Datoriile de care depinde menținerea eșalonării nu pot intra în planul de restructurare",
+            "text": "Datoriile de care depinde eșalonarea nu pot intra în acordul de restructurare",
             "major": true,
-            "article": "art. IV pct. 9 și 12, art. V"
+            "article": "art. IV pct. 9, 12; art. V"
           },
           {
-            "text": "Scutirea de impozit pe moștenire nu are mecanism de restituire a sumelor deja încasate",
+            "text": "Scutirea de impozit pe moștenire acoperă o fereastră foarte îngustă",
+            "major": true,
+            "article": "art. III"
+          },
+          {
+            "text": "Nu există restituire pentru impozitul pe moștenire deja plătit după 14 iulie",
             "major": true,
             "article": "art. III"
           }
@@ -107,34 +286,34 @@
           {
             "text": "Ratele viitoare din acord sau plan nu mai sunt considerate restanțe",
             "major": true,
-            "article": "art. IV pct. 1-2 (art. 157 alin. 2 CPF)"
+            "article": "art. IV pct. 1"
           },
           {
-            "text": "Datoriile reduse prin plan se anulează la închiderea procedurii, dacă planul e respectat",
+            "text": "Sumele reduse prin plan nu se cer în procedură și se anulează la închidere",
             "major": true,
-            "article": "art. IV pct. 13-14 (art. 266 CPF)"
+            "article": "art. IV pct. 2, 13, 14"
           },
           {
-            "text": "Fără impozit pe moștenire pentru succesiunile din fereastra 14 iulie – 30 septembrie 2026",
+            "text": "Fără impozit pe moștenire pentru unele succesiuni finalizate până la 30 septembrie 2026",
             "major": true,
             "article": "art. III"
           },
           {
-            "text": "Scutirea directă de TVA se poate aplica retroactiv dacă certificatul vine ulterior",
-            "major": true,
-            "article": "art. II"
+            "text": "Norma tranzitorie trimite acum corect la regulile din Codul de procedură fiscală",
+            "major": false,
+            "article": "art. VI alin. (1)"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 48,
-        "removed": 48,
-        "same": 0.41
+        "added": 10,
+        "removed": 12,
+        "same": 0.9
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:40:13.057Z"
+      "schema": 4,
+      "updatedAt": "2026-11-19T09:26:14.085Z"
     }
   ]
 }

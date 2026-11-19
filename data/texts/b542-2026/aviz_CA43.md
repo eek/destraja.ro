@@ -1,0 +1,21 @@
+Comisia pentru energie, infrastructură energetică și resurse minerale
+
+Nr. XXI /573/18.11.2026
+
+## AVIZ
+
+La Propunerea legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.60/2019 privind reglementarea unor măsuri pentru stingerea unor obligații fiscale și bugetare, precum și unele măsuri referitoare la obligațiile de plată aferente împrumuturilor din venituri din privatizare și împrumuturilor contractate de statul român de la instituții de credit și subîmprumutate operatorilor economici
+
+Comisia pentru energie, infrastructură energetică și resurse minerale, prin adresa nr. L637/2026, a fost sesizată, în vederea întocmirii avizului, cu Propunere legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.60/2019 privind reglementarea unor măsuri pentru stingerea unor obligații fiscale și bugetare, precum și unele măsuri referitoare la obligațiile de plată aferente împrumuturilor din venituri din privatizare și împrumuturilor contractate de statul român de la instituții de credit și subîmprumutate operatorilor economici, inițiată de către: Federovici Doina-Elena - senator PSD; Presură Alexandra - senator PSD; Tănăsescu Alina-Elena - senator PSD; Câciu Adrian - deputat PSD; Cotea (Geamănu) Aurora-Adela - deputat PSD; Marinescu Radu - deputat PSD; Neacșu Marian - deputat PSD; Peța-Ștefănescu Eliza-Mădălina - deputat PSD; Stoenică Irina-Florentina - deputat PSD.
+
+În ședința din 18 noiembrie 2026, Comisia pentru energie, infrastructură energetică și resurse minerale a analizat propunerea legislativă și a hotărât, cu majoritate de voturi, să adopte aviz negativ.
+
+Președinte,
+
+Senator ANTAL Istvân-Lorânt
+
+Secretar,
+
+Senator Ovidiu JITARU
+
+Doamnei senator Maria-Gabriela HORGA Președintele Comisiei pentru buget, finanțe, activitate bancară și piață de capital

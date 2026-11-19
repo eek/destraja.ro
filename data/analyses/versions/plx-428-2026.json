@@ -1,7 +1,12 @@
 {
   "slug": "plx-428-2026",
   "billId": "PL-x 428/2026",
-  "updatedAt": "2026-10-29T12:36:33.854Z",
+  "updatedAt": "2026-11-19T09:15:09.749Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -31,6 +36,21 @@
         "agy": 3,
         "claude": 3,
         "codex": 3
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl428_cd428_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Legea pentru Festivalul Olimpic 2027, la care Camera a adăugat bani pentru cluburile primăriilor: până la 5 milioane lei pe an, fără concurs de proiecte",
+      "summaryTlDr": "OUG-ul inițial este tehnic și în mare parte benign. Camera Deputaților i-a atașat însă un amendament fără legătură cu Festivalul Olimpic: fiecare primărie sau consiliu județean poate plăti până la 5 milioane lei pe an, ca „cotizație”, asociațiilor sportive la care este asociat, fără competiția cerută de Legea 350/2005.",
+      "scores": {
+        "agy": 6,
+        "claude": 7,
+        "codex": 5
       }
     }
   ],
@@ -91,6 +111,155 @@
       "model": "claude",
       "schema": 3,
       "updatedAt": "2026-10-29T12:33:36.759Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Primăriile pot da cluburilor până la 5 milioane lei/an fiecare, fără concurs de proiecte",
+      "summary": "Camera a adăugat o prevedere fără legătură cu evenimentele olimpice. UAT-urile pot plăti cotizații de până la 5 milioane lei/an asociațiilor sportive la care sunt asociate, fără procedura competitivă din Legea 350/2005 și cu control slab.",
+      "changes": [
+        {
+          "title": "Fonduri publice pentru cluburi fără concurs de proiecte",
+          "text": "Noua lit. i) de la art. 18¹ alin. (2) permite cotizații fără procedura din Legea 350/2005: fără apel public, evaluare competitivă, contract sau cofinanțare.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 18¹ alin. (2) lit. i)",
+          "before": null,
+          "after": "fără aplicarea procedurii de acordare a finanțărilor nerambursabile prevăzute de Legea nr. 350/2005",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Cotizație de până la 5 milioane lei pe an",
+          "text": "Fiecare UAT asociată poate plăti până la 5.000.000 lei/an. Dacă o asociație are mai mulți asociați publici, plafonul se poate cumula.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 18¹ alin. (2) lit. i)",
+          "before": null,
+          "after": "în limita maximă de 5.000.000 lei/an pentru fiecare unitate administrativ-teritorială asociată",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Destinație vagă a banilor primiți",
+          "text": "Banii pot fi folosiți pentru „funcționarea și realizarea scopului statutar”. Formularea poate acoperi salarii și transferuri din sportul profesionist.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 18¹ alin. (2) lit. i)",
+          "before": null,
+          "after": "Sumele alocate cu titlu de cotizație se utilizează pentru funcționarea și realizarea scopului statutar al asociației",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Raportare doar către consiliul care a dat banii",
+          "text": "Raportul anual se depune până la 31 martie numai la autoritatea deliberativă. Nu există obligație de publicare, sancțiuni sau restituire a sumelor nejustificate.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 18¹ alin. (2) lit. i)",
+          "before": null,
+          "after": "beneficiarul prezintă autorității deliberative care a aprobat cotizația raportul privind execuția bugetară aferentă sumelor primite, însoțit de documentele justificative privind utilizarea acestora",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Aprobare prin hotărâre de consiliu local",
+          "text": "Cotizația se aprobă prin hotărâre a consiliului, în limita creditelor bugetare cu această destinație. Decizia rămâne discreționară.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 18¹ alin. (2) lit. i)",
+          "before": null,
+          "after": "Cotizația se aprobă prin hotărâre a autorității deliberative a administrației publice locale, în limita creditelor bugetare aprobate cu această destinație",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Cotizații de până la 5 milioane lei/an, fără procedura din Legea 350/2005",
+            "major": true,
+            "article": "art. 18¹ alin. (2) lit. i)"
+          },
+          {
+            "text": "Plafonul se poate cumula când o asociație are mai mulți asociați publici",
+            "major": true,
+            "article": "art. 18¹ alin. (2) lit. i)"
+          },
+          {
+            "text": "Destinație vagă; poate finanța salarii și transferuri din sportul profesionist",
+            "major": true,
+            "article": "art. 18¹ alin. (2) lit. i)"
+          },
+          {
+            "text": "Fără publicarea rapoartelor, sancțiuni sau restituirea sumelor nejustificate",
+            "major": true,
+            "article": "art. 18¹ alin. (2) lit. i)"
+          },
+          {
+            "text": "Comitet de organizare obligatoriu pentru orice eveniment sub egida Mișcării Olimpice",
+            "major": true,
+            "article": "art. 20³ alin. (1)–(2)"
+          },
+          {
+            "text": "Lipsesc inițiativa, termenul, patrimoniul, votul, răspunderea și destinația bunurilor la dizolvare",
+            "major": true,
+            "article": "art. 20³ alin. (3)–(4)"
+          },
+          {
+            "text": "Cooptarea partenerilor privați fără criterii; risc de conflict de interese",
+            "major": true,
+            "article": "art. 20³ alin. (5)"
+          },
+          {
+            "text": "Amendament fără legătură cu obiectul ordonanței, introdus după votul Senatului",
+            "major": false,
+            "article": "art. 18¹ alin. (2) lit. i)"
+          },
+          {
+            "text": "Textul confundă membrii asociației cu organele de conducere",
+            "major": false,
+            "article": "art. 20³ alin. (3)–(4)"
+          },
+          {
+            "text": "Alineat fără subiect; nu precizează forma acordului Guvernului",
+            "major": false,
+            "article": "art. 20² alin. (1¹)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Plafon anual maxim pentru cotizația fiecărei unități administrativ-teritoriale",
+            "major": true,
+            "article": "art. 18¹ alin. (2) lit. i)"
+          },
+          {
+            "text": "Beneficiarii trebuie să dețină certificat de identitate sportivă",
+            "major": false,
+            "article": "art. 18¹ alin. (2) lit. i)"
+          },
+          {
+            "text": "Cotizația se aprobă prin hotărâre de consiliu, în limita creditelor bugetare",
+            "major": false,
+            "article": "art. 18¹ alin. (2) lit. i)"
+          },
+          {
+            "text": "Raport anual cu documente justificative, până la 31 martie",
+            "major": false,
+            "article": "art. 18¹ alin. (2) lit. i)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 8,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-19T09:15:09.749Z"
     }
   ]
 }

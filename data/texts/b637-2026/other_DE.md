@@ -1,0 +1,35 @@
+București, 11 noiembrie 2026 Nr.BPI 859,860
+
+# Domnule președinte,
+
+Bp.636%
+
+Avem onoarea să vă înaintăm alăturat, în original, în vederea dezbaterii și adoptării, potrivit art.75 alin.(1) din Constituția României, următoarele propuneri legislative:
+
+2026 1. Propunerea legislativă pentru modificarea Legii nr.227/2015 privind Codul fiscal (BPI 859/2026)
+
+\- inițiatori: doamnele deputat Turcan Raluca, Moș Patricia-Simina-Arina, Neacșu Andreea-Firuța, Stănescu Vetuța, Pistru-Popa Simona-Geanina, domnii deputați Sighiartău Robert-Ionatan, Andronache Gabriel, Bogdan Ionel-Ovidiu, Gal Călin-Grațian, Oprea Octavian, Ciobotaru Dragoș-Fănică, Huțucă Bogdan-Iulian, Crușoveanu Marian, Cîmpean Ovidiu-Vasile, Rusu Sebastian-Mihai, Cozma Adrian-Felician, Roșca Mircea, Știrbu Gigel-Sorinel, Vela Ion-Marcel, Fechet Mircea, Burduja Sebastian-Ioan, Moiseev Alexandrin, Jianu Iosif-Florin, Ciobanu Adrian-Virgil, Cadar Răzvan-Olimpiu, doamna senator Horga Maria-Gabriela, domnii senatori Mircea Abrudean, Fenechiu Cătălin-Daniel, Grupurile parlamentare ale P.N.L., doamnele deputat Țoiu Oana-Silvia, Stoica Diana, Murariu Oana, domnii deputați Stoica Alin-Bogdan, Gima George, Șendroiu Vlad-Ioan, Miruță Radu-Dinel, Gheorghiu Andrei-Florin, Plujar Andrei George, Văduva Dumitru, Grupul parlamentar al U.S.R.;
+
+\- prima Cameră sesizată: Senatul, potrivit art. 75 alin.(1) teza a II-a din Constituția României; - Camera decizională: Camera Deputaților.
+
+2\. Propunerea legislativă pentru modificarea art.13 din Ordonanța de urgență 49/2019 privind activitățile de transport alternativ cu autoturism și conducător auto, aprobată cu modificări și completări prin Legea nr.204/2019 (BPI 860/2026)
+
+\- inițiatori: doamnele deputat Kântor Boglărka, Zahoranszki Brigitta-Eva, domnii deputați Marko Attila-Găbor, Molnar Andrei, Kolcsár Anquetil-Kăroly, Nagy Szabolcs, Miklos Zoltân, Magyar Lorând-Bălint, Gál Kăroly, Könczei Csaba, Seres Denes, Ladânyi Lăszlo-Zsolt, Kelemen Hunor, Szabo Ödön, Csoma Botond, Kulcsâr-Terza Jozsef-György, Bende Sândor, doamnele senator Kondor Agota, domnii senatori Novak Levente, Csăszâr Kăroly Zsolt, Kovâcs Maté, Tasnadi Istvan-Szilard, Turos Lorând, Fejer Lăszlo-Ödön, Cseke Attila-Zoltan, Antal Istvan-Lorânt, Grupurile parlamentare ale U.D.M.R., doamna senator Stoiciu Victoria, neafiliată, domnul deputat Paraschivescu Ovidiu-Romulus, Grupul parlamentar U.S.R., domnii deputați Ciobotaru Dragoș-Fănică, Crușoveanu Marian,
+
+Rusu Sebastian-Mihai, domnii senatori Niculescu-Țâgârlaș Cristian-Augustin, Varga Glad-Aurel, Veștea Mihail, Grupurile parlamentare ale P.N.L., domnii deputați Cojocaru Petru-Bogdan, Popa Maricel, Băișanu Ștefan-Alexandru, Hagiu Augustin-Florin, doamna senator Federovici Doina-Elena, domnii senatori Mazilu Liviu-Lucian, Cazanciuc Robert-Marius, Stroe Felix, Cașcaval Dan, Grupul parlamentar al P.S.D.;
+
+\- procedură de urgență solicitată de inițiatori;
+
+\- prima Cameră sesizată: Senatul, potrivit art.75 alin.(1) teza a II-a din Constituția României;
+
+\- Camera decizională: Camera Deputaților.
+
+Propunerile legislative au fost înregistrate la Biroul permanent al Camerei Deputaților care, în ședința din data de 11 noiembrie 2026, a stabilit că domeniul reglementat de acestea este de competența decizională a Camerei Deputaților, Senatul fiind prima Cameră sesizată.
+
+Cu stimă,
+
+p.PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+Bogdan-Gruia IVAN
+
+Domnului Mircea ABRUDEAN PREȘEDINTELE SENATULUI

@@ -1,0 +1,87 @@
+# ROMÂNIA PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+Lege pentru completarea Legii nr. 307/2006 privind apărarea împotriva incendiilor
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. – Legea nr. 307/2006 privind apărarea împotriva incendiilor, republicată în Monitorul Oficial al României, Partea I, nr. 297 din 17 aprilie 2019, cu modificările și completările ulterioare, se completează după cum urmează:
+
+## 1. După articolul 2 se introduce un nou articol, art. 2¹, cu următorul cuprins: Art. 2¹
+
+(1) În aplicarea prezentei legi, pentru locuințele individuale și apartamentele din clădirile de locuit, măsurile de prevenire, verificare și sancționare se dispun de către autoritățile competente, în mod proporțional cu nivelul de risc de incendiu, stabilit potrivit reglementărilor tehnice în vigoare.
+
+(2) Măsurile prevăzute la alin. (1) se stabilesc de către autoritățile competente fără a institui obligații disproporționate în raport cu nivelul de risc de incendiu și cu destinația locuinței.
+
+(3) În cazul constatării unor nerespectări ale obligațiilor prevăzute de prezenta lege privind apărarea împotriva incendiilor în locuințele individuale și apartamentele din clădirile de locuit, personalul cu atribuții de control dispune, după caz, măsuri de remediere și stabilește un termen rezonabil pentru conformare, anterior aplicării sancțiunilor contravenționale, cu excepția situațiilor care prezintă un pericol iminent pentru viața, sănătatea sau integritatea persoanelor.
+
+(4) Aplicarea prezentului articol nu aduce atingere obligațiilor specifice prevăzute de prezenta lege.
+
+## 2. După articolul 19 se introduce un nou articol, art. 19¹, cu următorul cuprins: Art. 19¹
+
+(1) În scopul protejării vieții, sănătății și integrității persoanelor, locuințele individuale și apartamentele din clădirile de locuit în care domiciliază sau locuiesc persoane din categoriile vulnerabile se dotează cu detectoare autonome de fum, conforme cu reglementările tehnice în vigoare.
+
+(2) În locuințele prevăzute la alin. (1) în care există echipamente care utilizează combustibili se dotează și cu detectoare de monoxid de carbon, conforme cu reglementările tehnice în vigoare.
+
+(3) Obligațiile prevăzute la alin. (1) și (2) se aplică etapizat, după cum urmează:
+
+a) în termen de 12 luni de la intrarea în vigoare a prezentei legi pentru locuințele în care locuiesc persoane încadrate în grad grav sau accentuat de handicap;
+
+b) în termen de 24 de luni pentru locuințele în care locuiesc persoane cu vârsta de peste 65 de ani care trăiesc singure ori exclusiv împreună cu alte persoane vârstnice;
+
+ROMANIA
+
+c) în termen de 36 de luni pentru celelalte categorii vulnerabile prevăzute la alin. (6).
+
+Normele metodologice stabilesc exclusiv procedura de implementare și monitorizare a obligațiilor prevăzute de prezentul alineat.
+
+(4) Pentru construcțiile noi sau pentru cele supuse autorizării, în care urmează să domicilieze persoane din categoriile vulnerabile, obligațiile prevăzute la alin. (1) și (2) se aplică obligatoriu anterior recepției la terminarea lucrărilor.
+
+(5) Proprietarii sau, după caz, utilizatorii locuințelor prevăzute la alin. (1) au obligația de a asigura instalarea și menținerea în stare de funcționare a dispozitivelor prevăzute la alin. (1) și (2).
+
+(6) Detectoarele autonome de fum și detectoarele de monoxid de carbon utilizate în aplicarea prezentului articol trebuie să respecte standardele europene aplicabile și să fie certificate potrivit legislației în vigoare.
+
+(7) În sensul prezentului articol, prin categorii vulnerabile se înțelege:
+
+a) persoanele și familiile beneficiare ale venitului minim de incluziune;
+
+b) persoanele încadrate în grad grav sau accentuat de handicap;
+
+c) persoanele care beneficiază de servicii sociale rezidențiale sau la domiciliu;
+
+d) persoanele cu vârsta de peste 65 de ani care locuiesc singure sau exclusiv împreună cu alte persoane vârstnice;
+
+e) alte categorii stabilite expres prin lege ca fiind în risc de excluziune socială sau vulnerabilitate.
+
+3\. După articolul 48 se introduce un nou capitol, Capitolul V¹, un nou articol, art. 48¹, cu următorul cuprins:
+
+CAPITOLUL V¹: Programe de prevenire și sprijin pentru protecția populației împotriva incendiilor și intoxicațiilor cu monoxid de carbon
+
+## Art. 48¹
+
+(1) Autoritățile administrației publice locale pot derula, în colaborare cu Inspectoratul General pentru Situații de Urgență, programe de sprijin pentru dotarea locuințelor aparținând categoriilor vulnerabile cu detectoare autonome de fum și detectoare de monoxid de carbon.
+
+(2) Sunt eligibile pentru accesarea programelor prevăzute la alin. (1) persoanele și familiile care se încadrează în categoriile vulnerabile prevăzute la art. 19¹ alin. (6). Normele metodologice aprobate prin hotărâre a Guvernului stabilesc procedura de accesare, documentele justificative și mecanismul de implementare.
+
+(3) Programele prevăzute la alin. (1) se pot finanța din:
+
+a) sume alocate de la bugetul de stat prin bugetul Ministerului Afacerilor Interne;
+
+b) fonduri externe nerambursabile;
+
+c) donații și sponsorizări, în condițiile legii;
+
+d) alte surse legal constituite.
+
+(4) Autoritățile administrației publice locale pot contribui la finanțarea programelor prevăzute la alin. (1) prin hotărâre a consiliului local și în limita fondurilor aprobate prin bugetele locale.
+
+4\. După articolul 47 se introduce un nou articol, art. 47¹, cu următorul cuprins:
+
+## Art. 47¹
+
+(1) Normele metodologice privind instalarea, utilizarea și întreținerea detectoarelor autonome de fum și de monoxid de carbon prevăzute la art. 19¹ se aprobă prin hotărâre a Guvernului, la propunerea Ministerului Afacerilor Interne, în termen de 90 de zile de la intrarea în vigoare a prezentei legi.
+
+Art. II – Prezenta lege intră în vigoare la 90 de zile de la publicarea în Monitorul Oficial al României, Partea I.

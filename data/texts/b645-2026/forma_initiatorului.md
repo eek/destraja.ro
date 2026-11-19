@@ -1,0 +1,57 @@
+# PARLAMENTUL ROMÂNIEI
+
+Senatul României
+
+Camera Deputaților
+
+## LEGE
+
+pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 155/2001 privind aprobarea programului de gestionare a câinilor fără stăpân
+
+Parlamentul României adoptă prezenta lege.
+
+## Articolul I
+
+Ordonanța de urgență a Guvernului nr. 155/2001 privind aprobarea programului de gestionare a câinilor fără stăpân, publicată în Monitorul Oficial al României, Partea I, nr. 794 din 13 decembrie 2001, aprobată cu modificări și completări prin Legea nr. 227/2002, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 4, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Câinii fără stăpân se cazează în adăposturile serviciilor specializate. Termenul minim de staționare înainte de emiterea deciziei prevăzute la art. 7 alin. (2) este de 30 de zile lucrătoare și curge din prima zi lucrătoare care urmează datei înregistrării câinelui la intrarea în primul adăpost. La sediul adăpostului și la sediul serviciului specializat se afișează informațiile privind adăpostul, programul de vizitare și posibilitatea de revendicare sau adopție.”
+
+2\. La articolul 4, după alineatul (5) se introduc două noi alineate, alin. (6) și (7), cu următorul cuprins:
+
+„(6) Câinii capturați în cadrul serviciilor specializate se cazează în județul în care au fost capturați. În lipsa locurilor disponibile în adăposturile care pot deservi legal serviciul în acel județ, autoritatea deliberativă care a organizat serviciul poate aproba cazarea în adăpostul disponibil dintr-un județ limitrof aflat la cea mai mică distanță rutieră de localitatea capturării. Hotărârea motivată se publică înainte de transport. Regula se aplică și transferurilor între adăposturi, prin raportare la locul capturării inițiale, cu excepția transferurilor temporare pentru tratament recomandat în scris de medicul veterinar sau pentru evacuare dispusă de autoritatea sanitar-veterinară competentă. În sensul prezentului alineat, municipiul București se asimilează unui județ limitrof județului Ilfov. Pentru adăposturile publice amenajate în afara municipiului de Consiliul General al Municipiului București se aplică regimul teritorial prevăzut de normele metodologice.
+
+(7) În cel mult 48 de ore de la înregistrarea câinelui la intrarea în primul adăpost, serviciul specializat sau, după caz, operatorul serviciului completează informațiile publicate online pentru revendicare și adopție cu o fișă individuală pentru fiecare câine aflat în custodia serviciului. Fișa cuprinde fotografia, numărul unic de identificare atribuit la prima cazare, adăpostul în care se află câinele și data împlinirii termenului prevăzut la alin. (1), cu trimitere la datele publicate privind locul și data capturării. Fișa rămâne accesibilă pe durata cazării și se actualizează în cel mult 24 de ore de la fiecare transfer.”
+
+3\. La articolul 7 alineatul (1), litera b) se modifică și va avea următorul cuprins:
+
+„b) după expirarea termenului prevăzut la lit. a) și până la împlinirea termenului prevăzut la art. 4 alin. (1), câinii pot fi revendicați de proprietari sau adoptați de persoane fizice ori juridice, din țară sau din străinătate, în condițiile legii;”.
+
+4\. La articolul 7, după alineatul (3) se introduce un nou alineat, alin. (3¹), cu următorul cuprins:
+
+„(3¹) Decizia prevăzută la alin. (2) se emite numai după expirarea termenului prevăzut la art. 4 alin. (1) și se însoțește de dovada îndeplinirii obligațiilor de la art. 4 alin. (7). Dacă aceste obligații au fost încălcate, decizia se poate emite numai după ce fișa completă și actualizată a fost accesibilă publicului neîntrerupt timp de cel puțin 7 zile lucrătoare de la remediere. În cazul serviciilor organizate de consiliile județene, împuternicirea prevăzută la alin. (2) se acordă de președintele consiliului județean.”
+
+5\. La articolul 14 alineatul (1), după litera d) se introduc două noi litere, lit. e) și f), cu următorul cuprins:
+
+„e) nerespectarea, de către operatorul serviciului sau, în cazul gestiunii directe, de către persoana juridică de drept public în cadrul căreia este organizat serviciul, a condițiilor de cazare ori de transfer prevăzute la art. 4 alin. (6) sau a obligațiilor privind fișa individuală prevăzute la art. 4 alin. (7), cu amendă de la 5.000 lei la 10.000 lei;
+
+f) emiterea deciziei de eutanasiere cu încălcarea art. 7 alin. (3¹), cu amendă de la 5.000 lei la 10.000 lei."
+
+## Articolul II
+
+(1) Pentru câinii aflați în adăposturi la intrarea în vigoare a art. I, termenul de 30 de zile lucrătoare se calculează de la prima înregistrare în adăpost, potrivit art. 4 alin. (1) din Ordonanța de urgență a Guvernului nr. 155/2001. Fișa se publică în termen de 10 zile lucrătoare de la intrarea în vigoare a art. I. Decizia de eutanasiere se poate emite în condițiile art. 7 alin. (3¹), după ce fișa a fost accesibilă publicului neîntrerupt timp de cel puțin 7 zile lucrătoare.
+
+(2) Deciziile de eutanasiere emise în temeiul art. 7 alin. (2) și neexecutate la intrarea în vigoare a art. I își încetează efectele la acea dată.
+
+(3) Art. 4 alin. (6) se aplică noilor cazări și transferurilor efectuate după intrarea în vigoare a art. I. Pentru contractele și protocoalele în derulare, precum și pentru contractele atribuite în urma unor proceduri inițiate anterior acelei date, dispozițiile art. 4 alin. (6) se aplică cel târziu la 180 de zile de la intrarea în vigoare a art. I.
+
+## Articolul III
+
+În termen de 45 de zile de la publicarea prezentei legi, Guvernul pune în acord cu aceasta normele metodologice aprobate prin Hotărârea Guvernului nr. 1.059/2013 și dispozițiile contravenționale aferente, inclusiv în privința termenelor, a cazării și a obligațiilor de publicare. Modificările intră în vigoare odată cu art. I.
+
+## Articolul IV
+
+Prezenta lege intră în vigoare la 60 de zile de la publicarea în Monitorul Oficial al României, Partea I, cu excepția art. III, care intră în vigoare la 3 zile de la publicare.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor Articolului 75 și ale Articolului 76 alin. (2) din Constituția României, republicată.

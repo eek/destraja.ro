@@ -1,0 +1,90 @@
+{
+  "slug": "plx-439-2025",
+  "billId": "PL-x 439/2025",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-hydrogen-high",
+  "updatedAt": "2026-11-19T10:28:06.870Z",
+  "inputHash": "7efc65fb70fe",
+  "riskScore": 3.7,
+  "summary": "Un scop bun de transparență a banilor publici în sport, afectat de obligații neclare privind datele personale, declarațiile de avere și blocarea finanțării fără remediere.",
+  "good": [
+    {
+      "text": "Federațiile sportive nu mai pot primi bani publici dacă nu publică pe site datele financiare și de organizare cerute de lege, fără a se adăuga amenzi noi.",
+      "article": "art. unic pct. 2 (art. 71 alin. (4))",
+      "quote": "Autoritățile publice nu pot acorda finanțare federațiilor sportive naționale, cluburilor sportive de drept public și cluburilor sportive de drept privat finanțate din fonduri publice în proporție de cel puțin 50% din bugetul total anual",
+      "weight": 3
+    },
+    {
+      "text": "Stabilește un termen clar de cel mult 150 de zile de la finalul anului financiar pentru publicarea bugetului, surselor financiare, bilanțului și execuției bugetare.",
+      "article": "art. unic pct. 1 (art. 37 alin. (3) lit. c))",
+      "quote": "să comunice anual, prin publicare pe pagina proprie de internet, sursele financiare, bugetul și bilanțul contabil și execuția bugetară anuală, în termen de cel mult 150 zile de la încheierea exercițiului financiar anterior;",
+      "weight": 3
+    },
+    {
+      "text": "Adaugă obligația publicării regulamentului de organizare și funcționare, a grilei de salarizare și a registrului bunurilor, sporind controlul asupra cheltuielilor.",
+      "article": "art. unic pct. 1 (art. 37 alin. (3) lit. b) și d))",
+      "quote": "să permită vizualizarea, pe pagina proprie de internet, a regulamentului de organizare și funcționare, a statutului federației, precum și a altor acte constitutive, dacă este cazul;",
+      "weight": 2
+    },
+    {
+      "text": "Actualizează legea înlocuind trimiterea la fostul Minister al Sportului cu Agenția Națională pentru Sport, autoritatea care finanțează federațiile.",
+      "article": "art. unic pct. 1 (art. 37 alin. (3))",
+      "quote": "Federațiile sportive naționale care primesc finanțare de la bugetul de stat, prin intermediul Agenției Naționale pentru Sport, au următoarele obligații în domeniul transparenței publice:",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Impune publicarea declarațiilor de avere și de interese fără a spune ale cui sunt și fără model legal, deși conducerile federațiilor sunt structuri private necuprinse în Legea 176/2010.",
+      "article": "art. unic pct. 1 (art. 37 alin. (3) lit. d))",
+      "quote": "Registrul imobilizărilor, declarațiile de avere și de interese, precum și alte materiale de interes public.",
+      "weight": 3
+    },
+    {
+      "text": "Cere publicarea remunerațiilor, veniturilor din contracte sportive, rolului persoanei și a registrului imobilizărilor fără anonimizare, expunând date și venituri individuale, inclusiv ale minorilor.",
+      "article": "art. unic pct. 1 (art. 37 alin. (3) lit. d))",
+      "quote": "cuantumul remunerațiilor, precum și cuantumul altor venituri acordate pe baza contractelor de activitate sportivă și calitatea în care persoana respectivă participă la activitatea sportivă,",
+      "weight": 3
+    },
+    {
+      "text": "Blochează finanțarea dacă datele nu sunt publicate până la depunerea cererii, fără notificare ori termen de remediere și fără a corela cererile de la începutul anului cu termenul de 150 de zile.",
+      "article": "art. unic pct. 2 (art. 71 alin. (4))",
+      "quote": "dacă acestea nu și-au îndeplinit, până la data depunerii cererii de finanțare, obligația de comunicare, prin publicare pe pagina de internet proprie, a datelor și informațiilor prevăzute la art.29 alin.(4) și (5) și art.37 alin.(3), după caz.",
+      "weight": 3
+    },
+    {
+      "text": "Obligă la publicarea și actualizarea în 5 zile a expresiei vagi „alte materiale de interes public”, ceea ce permite autorităților să refuze arbitrar finanțarea unei federații.",
+      "article": "art. unic pct. 1 și 2 (art. 37 alin. (3) lit. d) și art. 71 alin. (4))",
+      "quote": "calitatea în care persoana respectivă participă la activitatea sportivă, Registrul imobilizărilor, declarațiile de avere și de interese, precum și alte materiale de interes public.",
+      "weight": 2
+    },
+    {
+      "text": "Impune un termen de 5 zile, fără a preciza dacă sunt lucrătoare sau calendaristice, pentru actualizarea unor date care se schimbă des, precum numărul sportivilor legitimați pe vârste.",
+      "article": "art. unic pct. 1 (art. 37 alin. (3) lit. d))",
+      "quote": "să publice pe pagina proprie de internet și să actualizeze în termen de 5 zile, atunci când intervin modificări,",
+      "weight": 2
+    },
+    {
+      "text": "Formularea privind pragul de 50% finanțare publică este ambiguă și nu clarifică dacă acest prag privește și federațiile sau cum se aplică interdicția federațiilor fără bani de la ANS.",
+      "article": "art. unic pct. 2 (art. 71 alin. (4))",
+      "quote": "federațiilor sportive naționale, cluburilor sportive de drept public și cluburilor sportive de drept privat finanțate din fonduri publice în proporție de cel puțin 50% din bugetul total anual,",
+      "weight": 2
+    }
+  ],
+  "fix": {
+    "text": "La art. 37 alin. (3) lit. d) trebuie anonimizate datele personale și eliminate declarațiile de avere și expresia privind alte materiale, iar la art. 71 alin. (4) introdus un termen de remediere și corelarea cu termenul de 150 de zile.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

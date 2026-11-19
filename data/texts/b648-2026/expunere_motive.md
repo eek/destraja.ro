@@ -1,0 +1,66 @@
+## EXPUNERE DE MOTIVE
+
+la propunerea legislativă pentru modificarea și completarea Legii nr. 350/2005 privind regimul finanțărilor nerambursabile din fonduri publice alocate pentru activități nonprofit de interes general și pentru completarea Legii educației fizice și sportului nr. 69/2000
+
+În derularea proiectelor de interes general, aprobarea unei finanțări nerambursabile nu rezolvă, în toate cazurile, problema resurselor necesare pentru efectuarea plăților la termen. Atunci când decontarea presupune achitarea prealabilă a facturilor sau a altor obligații de plată, beneficiarul trebuie să acopere temporar din fonduri proprii inclusiv partea de cheltuială pentru care a obținut finanțarea. Această sarcină este resimțită în special de organizațiile cu resurse proprii limitate, pentru care intervalul dintre scadența obligațiilor și decontarea cheltuielilor poate duce la amânarea unor activități prevăzute în proiect.
+
+Pentru a răspunde acestei dificultăți, prezenta inițiativă propune introducerea unui mecanism al cererilor de plată, care poate fi prevăzut în contractul de finanțare sau în acordul-cadru de finanțare multianuală. Beneficiarul va putea solicita virarea sumelor aferente unor cheltuieli eligibile, justificate prin facturi, state de plată sau alte documente prevăzute de lege, înainte de achitarea părții acoperite prin finanțare. Autoritatea finanțatoare va verifica și autoriza cheltuielile înainte de virarea sumelor, în limita finanțării aprobate și a creditelor bugetare disponibile. Ulterior, beneficiarul va depune decontul și va face dovada achitării obligațiilor finanțate, precum și a contribuției proprii.
+
+Stabilirea unor termene pentru verificarea cererilor, virarea sumelor și depunerea decontului permite beneficiarilor să își planifice plățile în raport cu calendarul proiectului. În același scop, ultima cerere de plată va putea fi achitată înainte de validarea rapoartelor finale, cu menținerea obligațiilor de raportare și a controlului asupra utilizării fondurilor. Pentru sumele neutilizate sau a căror utilizare nu este justificată, inițiativa reglementează procedura de restituire și recuperare, precum și dreptul beneficiarului de a contesta decizia de recuperare.
+
+Propunerea permite, de asemenea, acordarea a cel mult două finanțări de la aceeași autoritate, pentru aceeași activitate nonprofit, în cursul unui an fiscal, cu interdicția finanțării de două ori a aceleiași cheltuieli sau a aceleiași părți din cheltuială.
+
+În cazul finanțărilor din bugetele locale, autoritățile vor putea publica programele anuale și atribui contracte și în perioada de execuție bugetară provizorie, în limitele și condițiile prevăzute de lege. Măsura este deosebit de relevantă pentru activitățile programate la începutul anului, a căror desfășurare poate fi afectată de data aprobării bugetului local.
+
+Aceleași dificultăți de plată pot apărea și în derularea programelor sportive finanțate pe bază de contract. Din acest motiv, inițiativa prevede aplicarea corespunzătoare a mecanismului cererilor de plată și a procedurii de recuperare a sumelor și în cazul acestor programe, cu respectarea regulilor de selecție și de contribuție proprie prevăzute de Legea nr. 69/2000.
+
+Față de cele prezentate; supunem Parlamentului spre dezbatere și adoptare prezenta propunere legislativă.
+
+Inițiator:
+
+DEPUTAT PSA CIPRIAN-COXISTANTIN SERBAN,
+
+| Nr.crt. | Nume și prenume | Grup |
+| --- | --- | --- |
+| 1. | SPINCEANU VLAO FLOREJUN | PSA |
+| 2. | TRIF BOGDAN | PSD |
+| 3. | CILNII IONEL | PSD |
+| 4 | TUSA DIANA | PSD |
+| 5 | TUTATVEO WATALIA ELICA | PSD |
+| 6. | TOASER BOGDANP ANDREI | PSD |
+| 7. | BOGDAN CIUCIT | PSD |
+| 8 | STOENIEA IRUNA | PSD |
+| 9 | MANTA CLAUDIM | PSD |
+| 10 | Cofea Adela | PSD |
+| 11 | GOROR MIRCEA | PSD |
+| 12. | SROKE CATTENIA | PSD |
+| 13. | PAPA MARCEL | PSD |
+| 14. | SHAROILY ION | PSD |
+| 15. | ANKUZERI WEDAN | PSD |
+| 16. | CONSTANTIVEU FRAGI | PSD |
+| 17. | CHIRICA LIGEL AKIN | PSD |
+| 18. | CAUHEH HOLSBAXI | PSD |
+| 19. | GROJA CACIN F2ORIN | PSD |
+| 20. | Angel TILVR | P.S.D. |
+
+[NO TEXT]
+
+| Nr.crt. | Nume și prenume | Grup | Semnătură |
+| --- | --- | --- | --- |
+| 21. | BORS MABAGIN | PSD |  |
+| 22. | Sanolu șo rica | PSB |  |
+| 23. | COYOGARU BOGDAN | PSD |  |
+| 24 | TOMA iUE | PSY |  |
+| 25 | MIHATI BOGDAN | PSA |  |
+| 26 | KEGINAOCIU ȘUGEN | PSX |  |
+| 27 | MIHA MARIAN | PSD |  |
+| 28. | DOCINEASCHI ANAREI | PSD |  |
+| 29 | PASSAR RODICA | PSD |  |
+| 30 | MIHALCEZĂ LOAN | PSD |  |
+| 31 | ENE CORINA | PSD |  |
+| 32 | WEBER MIHAI | PSJ |  |
+| 33 | MAICHEGU MIRELA | PSJ |  |
+| 34 | CÀCIU HÀELAN | PSA |  |
+| 35. | ADOMNICĂI HIRELA | PSD |  |
+| 36 | GEORGESEO GHE. DANIEL | PSD |  |
+|  |  |  | ○ |

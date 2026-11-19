@@ -1,0 +1,35 @@
+# AVIZ
+
+# referitor la propunerea legislativă pentru modificarea art. 94 alin. (2) lit. a) din Legea nr. 208/2015 privind alegerea Senatului și a Camerei Deputaților, precum și pentru organizarea și funcționarea Autorității Electorale Permanente
+
+Analizând propunerea legislativă pentru modificarea art. 94 alin. (2) lit. a) din Legea nr. 208/2015 privind alegerea Senatului și a Camerei Deputaților, precum și pentru organizarea și funcționarea Autorității Electorale Permanente (b573/19.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/5175/26.10.2026 și înregistrată la Consiliul Legislativ cu nr. D890/27.10.2026,
+
+## CONSILIUL LEGISLATIV
+
+În temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (3) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
+
+Avizează favorabil propunerea legislativă, cu următoarele observații și propuneri:
+
+1\. Prezenta propunere legislativă are ca obiect de reglementare modificarea art. 94 alin. (2) lit. a) din Legea nr. 208/2015 privind alegerea Senatului și a Camerei Deputaților, precum și pentru organizarea și funcționarea Autorității Electorale Permanente, cu modificările și completările ulterioare.
+
+Potrivit Expunerii de motive, „Prezenta propunere legislativă urmărește modificarea art. 94 alin. (2) lit. a) din Legea nr. 208/2015 și menținerea exclusivă a pragului de 5% din totalul voturilor valabil exprimate la nivel național, întrucât reglementarea condițiilor de acces la repartizarea mandatelor parlamentare trebuie să asigure un raport coerent între susținerea electorală obținută de competitorii politici și posibilitatea acestora de a participa la exercitarea puterii legislative în perspectiva în care reprezentativitatea Parlamentului constituie una dintre premisele fundamentale ale legitimității democratice a autorității legislative, aceasta exercitând atribuțiile în temeiul mandatului conferit prin voința corpului electoral. În actuala configurație normativă se consacră două modalități alternative de îndeplinire a pragului electoral: obținerea a 5% din totalul voturilor valabil exprimate la nivel național sau obținerea a 20% din voturile valabil exprimate în cel puțin patru circumscripții electorale".
+
+2\. Prin conținutul său normativ, propunerea legislativă face parte din categoria legilor organice, fiind incidente dispozițiile art. 73 alin. (3) lit. a) din Constituția României, republicată, iar în aplicarea prevederilor art. 75 alin. (1) din Legea fundamentală, prima Cameră sesizată este Senatul.
+
+3\. Menționăm că, prin avizul pe care îl emite, Consiliul Legislativ nu se pronunță asupra oportunității soluțiilor legislative preconizate.
+
+4\. Cu privire la soluția legislativă preconizată prin proiect, întrucât aceasta vizează modificarea unui element esențial care ține de sistemul electoral propriu-zis, modificare ce a făcut obiectul mai multor propuneri legislative (cu titlu de exemplu amintim proiectele înregistrate la Senat cu nr. b3/05.02.2016, respectiv b314/04.06.2020), apreciem că sunt incidente considerentele reținute de Curtea Constituțională în jurisprudența sa, referitoare la principiul stabilității legislației electorale, consacrat de Codul de bune practici în materie electorală al Comisiei de la Veneția. Astfel, în Decizia nr. 150/2020, Curtea Constituțională a reținut următoarele:
+
+„Având în vedere că stabilitatea dreptului este un element important al credibilității procesului electoral, iar modificarea frecventă a normelor și caracterul lor complex pot dezorienta alegătorul, Codul de bune practici în materie electorală recomandă statelor asigurarea unei stabilități în ceea ce privește legislația în această materie, stipulând că trebuie evitată modificarea frecventă sau cu puțin timp (mai puțin de un an) înainte de referendum a legilor în materie.
+
+Aceste recomandări, reținute de Curtea Constituțională în jurisprudența sa constantă (...), nu pot fi ignore, chiar dacă nu au caracter obligatoriu. Curtea, luând în discuție forța juridică a dispozițiilor Codului bunelor practici în materie electorală, a reținut că, „într-adevăr, acest act nu are un caracter obligatoriu, însă recomandările sale constituie coordonate ale unui scrutin democratic, în raport cu care statele - care se caracterizează ca aparținând acestui tip de regim - își pot manifesta opțiunea liberă în materie electorală, cu respectarea drepturilor fundamentale ale omului, în general, și a dreptului de a fi ales și de a alege, în special”. De altfel, Codul bunelor practici în materie electorală este reținut ca document internațional relevant și în jurisprudența Curții Europene a Drepturilor Omului (de exemplu, Hotărârea din 11 iunie 2009, pronunțată în Cauza Petkov și alții împotriva Bulgariei, sau Hotărârea din 2 martie 2010, pronunțată în Cauza Grosaru împotriva României)”.
+
+Față de aceste aspecte, apreciem că limita temporală de un an reprezintă o garanție minimă împotriva modificării intempestive a regulilor electorale, dar nu înlătură obligația autorităților legiuitoare de a respecta, în orice moment, exigențele de stabilitate, previzibilitate și securitate juridică.
+
+5\. Sub rezerva celor de mai sus, pentru respectarea exigențelor de redactare a actelor normative, expresia „Articol Unic” se va reda sub forma „Articol unic”.
+
+PRESEDANTE
+
+Florin IORDACHE
+
+București Nr. 944/17.11.2026

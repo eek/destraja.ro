@@ -1,0 +1,17 @@
+# Parlamentul României Cameră Deputaților
+
+Biroul p. 539 28.09.2026
+
+București, 28 septembrie 2026 Nr. BPI 720
+
+## Domnule președinte,
+
+Avem onoarea să vă înaintăm alăturat, în original, Propunerea legislativă pentru completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice (BPI 720/2026), inițiată de doamna deputat Enachi Raisa, neafiliată, în vederea dezbaterii și adoptării, potrivit art.75 alin.(1) din Constituția României.
+
+În ședința din data de 28 septembrie 2026, Biroul permanent al Camerei Deputaților a stabilit că domeniul reglementat de această inițiativă legislativă este de competența decizională a Camerei Deputaților, Senatul fiind prima Cameră sesizată.
+
+Cu stimă,
+
+P.PREȘEDINTELE CAMEREI DEPUTATILOR
+
+Natalia-Elénia INTOTERO

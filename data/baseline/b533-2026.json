@@ -1,8 +1,11 @@
 {
   "billId": "B533/2026",
   "slug": "b533-2026",
+  "form": "initiator",
+  "textFile": "forma_initiatorului",
   "textHash": "2cbcee9694336387",
-  "fetchedAt": "2026-10-29T09:07:47.793Z",
+  "method": "baseline-v2",
+  "fetchedAt": "2026-11-19T09:27:44.751Z",
   "source": "legislatie.just.ro",
   "note": "Forma consolidată de pe legislatie.just.ro are caracter informativ; textul oficial este cel publicat în Monitorul Oficial.",
   "acts": [
@@ -14,6 +17,8 @@
       "status": "found",
       "url": "https://legislatie.just.ro/Public/DetaliiDocument/256414",
       "title": "LEGE nr. 179 din 9 iunie 2022 privind datele deschise şi reutilizarea informaţiilor din sectorul public EMITENT Parlamentul PUBLICAT ÎN \n Monitorul Oficial nr. 577 din 14 iunie 2022",
+      "fetchedAt": "2026-11-19T09:27:44.747Z",
+      "hash": "ab188532036970f5",
       "articles": [
         {
           "num": "2",
@@ -115,8 +120,14 @@
         }
       ],
       "unresolved": [
-        "19. Denumirea capitolului VI se modifică și va avea următorul cuprins:",
-        "22. Titlul anexei se modifică și va avea următorul cuprins:"
+        {
+          "instruction": "19. Denumirea capitolului VI se modifică și va avea următorul cuprins:",
+          "reason": "nu e un articol (titlu, capitol, secțiune, mențiunea de transpunere)"
+        },
+        {
+          "instruction": "22. Titlul anexei se modifică și va avea următorul cuprins:",
+          "reason": "anexă"
+        }
       ]
     }
   ]

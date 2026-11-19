@@ -184,7 +184,7 @@ la următoarea. `node scripts/straja-daily.mjs --test-alert` cere un mesaj de pr
 nimic.
 
 Fiecare pas merge și separat: `npm run straja:sync`, `straja:council <slug>`, `straja:news`, `straja:stance`,
-`straja:positions`, `straja:mps`, `straja:votes`, `straja:reports`, `straja:docx`, `straja:digest`. `--skip-news`, `--skip-positions` și
+`straja:positions`, `straja:mps`, `straja:votes`, `straja:reports`, `straja:docx`, `straja:digest`, `straja:baseline`. `--skip-news`, `--skip-positions` și
 `--skip-mps` sar peste pașii respectivi în rularea zilnică. Textele PDF-urilor se refac cu
 `node scripts/straja-texts.mjs --force [slug]`; rezultatele OCR rămân în `.cache/ocr`, așa că o refacere după o schimbare
 de cod durează secunde, iar o recitire completă (`--fresh`) durează 1,5–2 ore.
@@ -197,8 +197,14 @@ de cod durează secunde, iar o recitire completă (`--fresh`) durează 1,5–2 o
   ca text simplu (`.txt`, pentru modele și pentru verificarea citatelor). `_meta.json` spune cum a fost citit:
   `mineru`, `mineru+ocr` (unele pagini de la Tesseract), `ocr` (doar Tesseract) sau `text` (stratul PDF-ului).
 - `data/baseline/<slug>.json`: textul în vigoare al articolelor pe care le modifică proiectul, din forma consolidată de
-  pe legislatie.just.ro (`scripts/straja-baseline.mjs`), cu linkul oficial și momentul preluării. Ce nu se găsește
-  apare ca `not-found`, articolele pe care proiectul le introduce ca `new`. Încă nu intră în promptul consiliului.
+  pe legislatie.just.ro (`scripts/straja-baseline.mjs`, `scripts/lib/baseline.mjs`), pentru toate proiectele cu text de
+  la Senat și de la Cameră, pe forma analizată (`form`), cu linkul oficial și momentul preluării. Ce nu se găsește
+  apare ca `not-found` (cu motivul), articolele pe care proiectul le introduce ca `new`, instrucțiunile fără articol
+  (anexe, capitole) în `unresolved`. `data/baseline/_acts.json` ține actele citite, cu adresa, ziua ultimei verificări
+  și amprenta textului; actele întregi stau o zi în `.cache/legislatie`. Rularea zilnică reface proiectele noi sau
+  schimbate și recitește legile o dată pe săptămână. Intră în promptul consiliului doar cu `COUNCIL_BASELINE=1`
+  (secțiunea „TEXTUL ÎN VIGOARE AL ARTICOLELOR MODIFICATE”, cel mult 40.000 de caractere), iar analiza spune ce bază a
+  folosit (`baseline`). `npm test` rulează testele cititorului.
 - `data/ces/`, `data/news/`, `data/mp-contacts.json`: avizele CES, presa verificată, contactele parlamentarilor.
 - `data/votes/<slug>.json`: voturile nominale din plen ale proiectului (Camera și Senatul), cu totalurile, grupurile, votul
   fiecărui parlamentar (`mp` e slug-ul paginii lui) și pagina oficială, plus ce spune raportul comisiei despre majoritate.

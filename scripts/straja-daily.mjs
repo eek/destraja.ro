@@ -3,7 +3,8 @@
 // `npm run straja:daily`.
 //
 // 1. senat.ro → data/senat-bills.json, cu PDF-urile noi și textul lor: scanările citite cu MinerU și verificate pagină cu
-//    pagină cu Tesseract (straja-sync, scripts/lib/pdf-text.mjs)
+//    pagină cu Tesseract (straja-sync, scripts/lib/pdf-text.mjs); apoi textul în vigoare al articolelor modificate, de pe
+//    legislatie.just.ro, pentru proiectele noi sau schimbate și pentru legile cu textul schimbat (straja-baseline)
 // 2. analiza celor trei modele pentru proiectele noi (straja-council <slug>), apoi motivele avizelor negative CES (straja-ces);
 //    la Cameră, și amendamentele din rapoartele comisiilor, cu autorii lor (straja-amendments), apoi voturile nominale din
 //    plen ale fișelor noi sau schimbate, la Cameră și la Senat (straja-votes)
@@ -417,6 +418,19 @@ async function main() {
     const after = readBills().length;
     if (sync.ok) summary.push(`${after - before >= 0 ? after - before : 0} proiecte noi`);
     else fail('sincronizarea a eșuat');
+
+    // Textul în vigoare al articolelor pe care le modifică proiectele (straja-baseline → data/baseline), înaintea
+    // analizelor: proiectele noi de la Senat, cele de la Cameră cu textul sau forma schimbată de ieri încoace, și cele cu
+    // o lege recitită care s-a schimbat (cel mult 60 de acte pe zi, fiecare o dată pe săptămână). Un act se cere o dată
+    // pe zi, cu pauza portalului; după 25 de minute nu mai începe altele, iar ce rămâne vine mâine. Analizele îl
+    // folosesc doar cu COUNCIL_BASELINE=1; fără el pasul doar ține datele la zi.
+    const baseline = await step('Textul în vigoare', 'node', ['scripts/straja-baseline.mjs', '--acts=60', '--minutes=25'], { timeoutMs: 2_100_000 });
+    const based = baseline.tail.match(/✅ baseline: (\{.*\})/);
+    if (!baseline.ok) fail('textul în vigoare (legislatie.just.ro) n-a fost actualizat');
+    else if (based) {
+      const b = JSON.parse(based[1]);
+      log(`Textul în vigoare: ${b.written} proiecte refăcute din ${b.due} de văzut, ${b.actsChanged} legi schimbate din ${b.actsRefreshed} recitite, ${b.requests} cereri`);
+    }
 
     const missing = readBills().filter((b) => !fs.existsSync(analysisPath(b.slug)));
     // Cele trei modele rulează în paralel, fiecare cu limita lui de 30 de minute (straja-council.mjs).

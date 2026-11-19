@@ -1,8 +1,11 @@
 {
   "billId": "B524/2026",
   "slug": "b524-2026",
+  "form": "initiator",
+  "textFile": "forma_initiatorului",
   "textHash": "8266b3c02ad35da3",
-  "fetchedAt": "2026-10-29T09:06:53.121Z",
+  "method": "baseline-v2",
+  "fetchedAt": "2026-11-19T11:19:57.470Z",
   "source": "legislatie.just.ro",
   "note": "Forma consolidată de pe legislatie.just.ro are caracter informativ; textul oficial este cel publicat în Monitorul Oficial.",
   "acts": [
@@ -14,6 +17,8 @@
       "status": "found",
       "url": "https://legislatie.just.ro/Public/DetaliiDocument/119472",
       "title": "ORDONANŢĂ DE URGENŢĂ nr. 50 din 9 iunie 2010 privind contractele de credit pentru consumatori EMITENT: GUVERNUL PUBLICAT ÎN: MONITORUL OFICIAL nr. 389 din 11 iunie 2010",
+      "fetchedAt": "2026-11-19T11:17:15.178Z",
+      "hash": "b6f88aec31d091dc",
       "articles": [
         {
           "num": "44",
@@ -54,8 +59,14 @@
         }
       ],
       "unresolved": [
-        "1. Denumirea Capitolului III se modifică și va avea următorul cuprins: CAPITOLUL III Obligația de a verifica identitatea și de a evalua bonitatea consumatorului și accesul la bazele de date",
-        "2. După articolul 30 se introduce un nou articol, art. 30t, cu următorul cuprins:"
+        {
+          "instruction": "1. Denumirea Capitolului III se modifică și va avea următorul cuprins: CAPITOLUL III Obligația de a verifica identitatea și de a evalua bonitatea consumatorului și accesul la bazele de date",
+          "reason": "nu e un articol (titlu, capitol, secțiune, mențiunea de transpunere)"
+        },
+        {
+          "instruction": "2. După articolul 30 se introduce un nou articol, art. 30t, cu următorul cuprins:",
+          "reason": "articolul nou nu are număr citibil"
+        }
       ]
     }
   ]

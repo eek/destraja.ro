@@ -213,6 +213,8 @@ export interface UitateData {
   over4: number;
   bands: { key: BandKey; count: number }[];
   byWait: { key: WaitKey; count: number; over1: number; subRezerva: number }[];
+  /** Toate proiectele aflate la Cameră, de la cel care așteaptă de cel mai mult timp (lista cu filtre de pe pagină). */
+  all: WaitingBill[];
   /** Cele mai vechi, după zilele de la ultimul pas (apoi după vechimea totală). */
   longest: WaitingBill[];
   oldest: WaitingBill | null;
@@ -345,10 +347,11 @@ export function computeUitate(input: UitateInput): UitateData {
   const isOver = (b: WaitingBill, y: number) => b.last !== null && olderThan(b.last.date, y, today);
   const stale = waiting.filter((b) => isOver(b, 1));
 
-  const longest = [...waiting]
-    .filter((b) => b.days !== null)
-    .sort((a, b) => b.days! - a.days! || b.totalDays - a.totalDays || a.numar.localeCompare(b.numar, 'ro', { numeric: true }))
-    .slice(0, LONGEST);
+  // Toate, de la cel care așteaptă de cel mai mult timp; cele fără dată sigură la coadă.
+  const all = [...waiting].sort(
+    (a, b) => (b.days ?? -1) - (a.days ?? -1) || b.totalDays - a.totalDays || a.numar.localeCompare(b.numar, 'ro', { numeric: true }),
+  );
+  const longest = all.filter((b) => b.days !== null).slice(0, LONGEST);
 
   // Comisiile: doar proiectele care așteaptă raportul (sau raportul suplimentar); un raport comun contează la fiecare.
   const queues = new Map<string, CommitteeQueue>();
@@ -415,6 +418,7 @@ export function computeUitate(input: UitateInput): UitateData {
       over1: count((b) => b.wait === w.key && isOver(b, 1)),
       subRezerva: count((b) => b.wait === w.key && b.subRezerva),
     })),
+    all,
     longest,
     oldest: longest[0] ?? null,
     ordonante: { total: count((b) => b.ordonanta), over1: stale.filter((b) => b.ordonanta).length },

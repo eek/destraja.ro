@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Verifică cifrele paginii /uitate (src/lib/uitate.ts) pe datele de azi: sumele se închid și regulile pasului procedural
 // se poartă cum spune metodologia. Rulează: node scripts/check-uitate.mjs [--azi=2026-11-19] [--detalii]
-// Compilează src/lib/uitate.ts cu esbuild (vine cu wrangler) într-un fișier temporar și îl încarcă.
+// Compilează src/lib/uitate.ts și src/lib/uitate-list.ts cu esbuild (vine cu wrangler) într-un fișier temporar și îl încarcă.
 import { build } from 'esbuild';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -17,7 +17,7 @@ const today = arg('azi', new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Bu
 
 const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'uitate-')), 'uitate.mjs');
 await build({
-  entryPoints: [path.join(ROOT, 'src/lib/uitate.ts')],
+  stdin: { contents: "export * from './src/lib/uitate.ts'; export * from './src/lib/uitate-list.ts';", resolveDir: ROOT, loader: 'ts' },
   bundle: true,
   platform: 'node',
   format: 'esm',
@@ -118,6 +118,26 @@ check('cele mai vechi sunt în ordine și au link', () => {
   for (const b of d.longest) assert.ok(b.href, b.numar);
 });
 check('fără proiecte numărate de două ori', () => assert.equal(d.reconcile.duplicates, 0));
+check('lista cu filtre are toate proiectele de la Cameră, fiecare o dată', () => {
+  const rows = d.all.map(U.toListRow);
+  assert.equal(rows.length, d.total);
+  assert.equal(new Set(rows.map((r) => r.s)).size, d.total);
+  assert.deepEqual(U.unpackRows(JSON.parse(JSON.stringify(U.packRows(rows, today)))), rows);
+});
+check('filtrele listei dau aceleași cifre ca graficele', () => {
+  const rows = d.all.map(U.toListRow);
+  const n = (patch) => U.applyFilters(rows, { ...U.EMPTY, ...patch }).length;
+  for (const w of d.byWait) assert.equal(n({ etapa: w.key }), w.count, `stadiul ${w.key}`);
+  for (const b of d.bands) assert.equal(n({ vechime: b.key }), b.count, `vechimea ${b.key}`);
+  for (const c of d.committees) assert.ok(n({ comisie: c.nume }) >= c.asteapta, `comisia ${c.nume}`);
+  assert.equal(n({ init: 'guvern' }) + n({ init: 'parlamentari' }), d.total);
+  assert.equal(n({ ord: true }), d.ordonante.total);
+  assert.equal(n({ q: 'PL-x 58/2020' }), 1);
+});
+check('adresa filtrelor (#proiecte?…) se citește înapoi la fel', () => {
+  const f = { ...U.EMPTY, etapa: 'comisii', comisie: 'Juridică, de disciplină și imunități', an: '2021', tacit: true, q: 'vânătorii', ordine: 'vechi', pe: 20, pag: 3 };
+  assert.deepEqual(U.fromHash(U.toHash(f)), f);
+});
 
 const n = (x) => x.toLocaleString('ro-RO');
 console.log(`\nLa ${today}: ${n(d.total)} proiecte la Cameră; fără pas de peste 1 an: ${n(d.over1)}, 2 ani: ${n(d.over2)}, 4 ani: ${n(d.over4)}`);

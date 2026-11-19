@@ -299,7 +299,7 @@ export default async function MethodPage() {
             />
             <dl className="mt-8 divide-y divide-line border-y border-line">
               {[
-                { t: 'Același text', d: 'Fișa proiectului, textul formei analizate (până la 14.000 de caractere) și expunerea de motive (până la 10.000).' },
+                { t: 'Același text', d: 'Fișa proiectului, tot textul formei analizate și expunerea de motive (până la 10.000 de caractere).' },
                 { t: 'Fără unelte', d: 'Primesc textul în cerere și răspund cu JSON. Nu pot naviga, rula comenzi sau scrie fișiere.' },
                 { t: 'Cel mult 30 de minute', d: 'Dacă un model nu răspunde, mai încercăm o dată; dacă nici atunci, scorul comun se face din celelalte.' },
                 { t: 'Scorurile rămân la vedere', d: 'Pe pagina fiecărui proiect vezi scorul fiecărui model și unde nu sunt de acord.' },

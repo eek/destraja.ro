@@ -110,8 +110,9 @@ function councilInput(bill, texts, version) {
 
 // COUNCIL_BASELINE=1: promptul primește și textul în vigoare al articolelor pe care le modifică proiectul, de pe
 // legislatie.just.ro (scripts/lib/baseline.mjs), după expunerea de motive; analiza înregistrează ce bază a folosit
-// (`baseline`). Oprit până îl aprobăm: schimbă promptul, deci și scorurile. Fără el promptul e exact cel de până acum.
-const USE_BASELINE = process.env.COUNCIL_BASELINE === '1';
+// (`baseline`). Pornit din 19 noiembrie 2026, după comparația pe 10 proiecte (~/work/destraja-eval/baseline-ab: cu textul
+// în vigoare, analizele au câștigat 48 din 60 de judecăți). COUNCIL_BASELINE=0 îl oprește, pentru comparații.
+const USE_BASELINE = process.env.COUNCIL_BASELINE !== '0';
 
 /** Baza pentru forma analizată, sau null fără COUNCIL_BASELINE ori fără textul formei. */
 async function councilBaseline(bill, texts, version, wanted) {

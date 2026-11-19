@@ -423,7 +423,7 @@ async function main() {
     // analizelor: proiectele noi de la Senat, cele de la Cameră cu textul sau forma schimbată de ieri încoace, și cele cu
     // o lege recitită care s-a schimbat (cel mult 60 de acte pe zi, fiecare o dată pe săptămână). Un act se cere o dată
     // pe zi, cu pauza portalului; după 25 de minute nu mai începe altele, iar ce rămâne vine mâine. Analizele îl
-    // folosesc doar cu COUNCIL_BASELINE=1; fără el pasul doar ține datele la zi.
+    // folosesc din 19 noiembrie 2026 (COUNCIL_BASELINE=0 le-ar opri).
     const baseline = await step('Textul în vigoare', 'node', ['scripts/straja-baseline.mjs', '--acts=60', '--minutes=25'], { timeoutMs: 2_100_000 });
     const based = baseline.tail.match(/✅ baseline: (\{.*\})/);
     if (!baseline.ok) fail('textul în vigoare (legislatie.just.ro) n-a fost actualizat');

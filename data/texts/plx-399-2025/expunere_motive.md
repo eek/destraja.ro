@@ -1,0 +1,63 @@
+ROMANIA
+
+EXPUNERE DE MOTIVE
+
+I. PREAMBUL |11 Prezenta propunere legislativă are ca obiect prevederea expresă a dreptului anumitor categorii de personal silvic cu atribuții de pază a fondului silvic fondului forestier, a fondului cinegetic, a fondului piscicol și a ariilor naturale protejate de a utiliza mijloace de înregistrare audio-video a operațiunilor realizate în stera atribuțiilor de serviciu. I≥] | Astfel, prin acest proiect se urmărește, pe de-o parte, sporirea garanțiilor cu privire la siguranța persoanelor cu atribuții de pază a fondului silvic, a fondului forestier, a fondului cinegetic, a fondului piscicol și a ariilor naturale protejate, iar pe de altă parte, efectivitatea acțiunilor de pază prin posibilitatea utilizării înregistrărilor audio-video ca mijloace de probă în diferite situații ce necesită constatarea și sancționarea faptelor de natură delictuală, contravențională sau penală săvârșite la adresa mediului de către alte persoane. T ≤1 | Apreciem că personalul silvic cu atribuții de pază a fondului silvic, a fondului forestier, a fondului cinegetic, a fondului piscicol și a ariilor naturale protejate trebuie să beneficieze de un cadru normativ eficient, de așa natură încât activitatea de pază și control să asigure eficiența acțiunilor în sensul protejării mediului, dar și tragerea la răspundere a persoanelor față de care se poate reține răspunderea juridică pentru prejudicii cauzate în cadrul a fondului forestier, a fondului cinegetic, a fondului piscicol și a ariilor naturale protejate. Nu în ultimul rând, înregistrarea audio-video a acțiunilor de pază ajută la creșterea transparenței activității personalului silvic, stimulând îndeplinirea corectă a atribuțiilor cu care acesta este învestit, reducând riscurile unor posibile abuzuri.
+
+II. DIAGNOZĂ 151 | De-a lungul timpului, persoanele cu atribuții de pază a fondului forestier, a fondului cinegetic, a fondului piscicol și a ariilor naturale protejate s-au confruntat cu o serie de situații care au determinat reale pericole asupra vieții sau integrității fizice și psihice a acestora, în contextul depistării și constatării unor fapte prejudiciabile la adresa obiectivelor protejate.
+
+, •' Arătăm, în acest sens, cu titlu exemplificativ, existența unor cazuri tragice ale unor persoane cu atribuții de pază a fondului forestier, a fondului cinegetic, a fondului piscicol și a ariilor naturale
+
+protejate care au fost omorâte sau care fost supuse unor fapte de violență din partea unor persoane care erau surprinse în timp ce săvârșeau fapte penale asupra mediului, în special, prin furtul ilegal de lemn.
+
+Cazul tragic al pădurarului omorât în anul 2019, în timp ce își exercita atribuțiile de pază în cadrul Ocolului Silvic Strâmbu Băiuț, jud. Maramureș a devoalat nu numai riscurile majore la care se supun persoanele cu atribuții de pază a fondului forestier, dar inclusiv dificultățile organelor de cercetare și urmărire penală de a identifica făptuitorii, în contextul în care, în acest caz, făptuitorul a fost identificat abia la un an de la momentul săvârșirii crimei'.
+
+18 1 In anul 2024, un alt pădurar, din cadrul Direcției Silvice Mehedinți a fost agresat fizic de către o persoană surprinsă în cadrul unei acțiuni de furt de lemn. În acea situație, inclusiv directorul Direcției Silvice Mehedinți a comunicat public dificultățile și pericolele cu care se confruntă personalul silvic: „nu este prima dată când acest infractor ne pune probleme atât nouă, cât și polițiștilor din zonă. De mai multe ori ne-a tăiat cauciucurile, și ni s-au distrus cauciucurile la mașini. Furturile sunt repetate acolo"2.
+
+În anul 2021, pe raza Ocolul Silvic Curtea de Argeș a fost înregistrat un alt caz extrem de grav în care un pădurar a fost agresat fizic, lovit și biciuit de către un grup de bărbați surprins în timp ce desfășura activități ilegale de furt de material lemnos.
+
+[10] Numărul cazurilor de violență cu victime din rândul personalului silvic reclamă necesitatea unei intervenții legislative de așa natură încât aceste persoane să dispună de posibilitatea înregistrării video-audio a acțiunilor de pază desfășurate, cu consecința descurajării comportamentului ilicit și, totodată, cu scopul de a putea fi stocate imagini sau înregistrări care să poată fi utilizate ca mijloace de probă în cauze civile sau penale.
+
+[11} În cazul polițiștilor, Legea nr. 218/2002 privind organizarea și funcționarea Poliției Române, republicată, permite acestora înregistrarea audio-video a misiunilor desfășurate în scopul de prevenire, depistare, investigare sau urmărire penală a infracțiunilor sau executării pedepselor, prevenire și combatere a altor fapte ilegale, precum și de menținere a ordinii și siguranței publice:
+
+Art. 56 (I) În scopul realizării activităților de prevenire, depistare, investigare sau urmărire penală a infracțiunilor sau executării pedepselor, prevenire și combatere a altor fapte ilegale, precum și de menținere a ordinii și siguranței publice:
+
+https://www.digi24.ro/stiri/actualitate/justitie/17-ani-de-inchisoare-pentru-ucigasul-pădurarului-liviu-pop-1922779 ≥ https://ziare.com/padurar-batut/hot-lemne-mehedinți-focuri-avertisment-1903099 https://stirileprotv.ro/stiri/actualitate/padurar-batut-cu-biciul-si-cu-pumnii-de-hotii-de-lemne-zstam-numai-cu-teama-si-cu-frica.html
+
+a) acțiunile polițistului în spații publice, precum și intervenția realizată în condițiile art. 52 ori pentru executarea unui mandat pot fi înregistrate cu mijloacele foto-audio-video din dotare, fără consimțământul persoanelor vizate; (3)Se interzice prelucrarea datelor cu caracter personal conținute de imaginile fotografice ori înregistrările audio și/sau video în alte scopuri decât cele în care au fost colectate, cu excepția situațiilor prevăzute expres de lege și numai dacă sunt asigurate garanțiile necesare pentru protejarea drepturilor persoanelor vizate. (4) Poliția Română poate păstra imaginile fotografice ori înregistrările audio și/sau video obținute potrivit alin. (1) sau (2) pe o perioadă de 6 luni de la data obținerii acestora, cu excepția situațiilor în care sunt utilizate în cadrul unei proceduri judiciare, caz în care acestea urmează regimul probelor. La împlinirea acestui termen imaginile și/sau înregistrările se distrug, prin proceduri ireversibile.
+
+[121 Pe cale de consecință, ține de voința legiuitorului primar de a stabili care sunt acele categorii profesionale din sfera personalului cu atribuții de pază și control care să poată dispune de posibilitatea înregistrării audio-video a acțiunilor desfășurate cu ocazia exercitării atribuțiilor de serviciu, asigurând, prin prisma interesului public ocrotit, echilibrul just între prerogativele de putere publică ale acestor categorii de personal și drepturile persoane fizice.
+
+III. PROGNOZĂ I'jl Raportat la cele menționate, propunerea legislativă are ca obiect completarea Ordonanței de urgență a Guvernului nr. 59/2000 privind Statutul personalului silvic, publicată în Monitorul Oficial al Românici, Partea I, nr. 238 din 30 mai 2000, cu modificările și completările ulterioare, În sensul prevederii unui nou articol cu următorul cuprins:
+
+„23' (1) În scopul realizării atribuțiilor de serviciu privind paza fondului forestier, a fondului cinegetic, a fondului piscicol și a ariilor naturale protejate, acțiunile personalului silvic prevăzut la art. 2 lit. a) - f) și n) pot fi înregistrate cu mijloacele foto-audio-video din dotare, fără consimțământul persoanelor vizate. (2) Se interzice prelucrarea datelor cu caracter personal conținute de imaginile fotografice ori înregistrările audio și/sau video în alte scopuri decât cele în care au fost colectate, cu excepția situațiilor prevăzute expres de lege și numai dacă sunt asigurate garanțiile necesare pentru protejarea drepturilor persoanelor vizate. (3) Imaginile fotografice ori înregistrările audio și/sau video obținute potrivit alin. (1) pot fi păstrate pe o perioadă de 6 luni de la data obținerii acestora, cu excepția situațiilor în care sunt utilizate în cadrul unei proceduri judiciare, caz în care acestea urmează regimul probelor. La împlinirea acestui termen imaginile și/sau înregistrările se distrug, prin proceduri ireversibile.
+
+(4) Prelucrarea datelor cu caracter personal, efectuată de entitățile prevăzute la alin. (1), se realizează cu respectarea prevederilor Regulamentului (UL) 679/2016 al Parlamentului European și al Consiliului din 27 aprilie 2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE, precum și a legislației naționale aplicabile domeniului protecției datelor."
+
+" x ‡ | Astfel, în mod similar reglementării din Legea nr. 218/2002 privind organizarea și funcționarea Poliției Române, republicată, se va conferi dreptul înregistrării audio-video a acțiunilor de pază desfășurate de categoriilor de personal cu atribuții de pază care își desfășoară activitatea în cadrul următoarelor autorități sau instituții publice: a) autoritatea publică centrală care răspunde de silvicultură și de vânătoare, precum și în structurile teritoriale de specialitate ale acesteia; b) structurile administratorilor fondului forestier proprietate publică a statului și bazele experimentale; c) ocoalele silvice de regim; d) structurile silvice de rang superior prevăzute la art. 13 din Legea nr. 46/2008 - Codul silvic, republicată, cu modificările și completările ulterioare; e) structurile de gestionare a faunei cinegetice; f) administrațiile ariilor naturale protejate; n) unitățile și subunitățile din structurile administratorului fondului forestier proprietate publică a statului care gestionează activitățile de creștere, exploatare și ameliorare a cabalinelor de rasă din patrimoniul statului.
+
+1151 Textul legal preconizat instituie acele garanții necesare privind protecția datelor cu caracter personal în sensul în care înregistrările audio-video surprinse pot fi prelucrate exclusiv în vederea îndeplinirii atribuțiilor de serviciu, respectiv în vederea utilizării acestora în cadrul procedurilor judiciare.
+
+Nu în ultimul rând, prelucrarea înregistrărilor audio-video se va realiza în acord cu prevederile Regulamentului (UE) 679/2016 al Parlamentului European și al Consiliului din 27 aprilie 2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE, precum și a legislației naționale aplicabile domeniului protecției datelor.
+
+IV. CONCLUZII Având în vedere necesitatea consolidării măsurilor de protecție a fondului forestier, a fondului cinegetic, a fondului piscicol și a ariilor naturale protejate, precum și imperativele legate de combaterea tăierilor ilegale, asigurarea transparenței în activitatea personalului silvic și protejarea acestuia în exercitarea atribuțiilor de serviciu, instituirea obligativității înregistrării video a acțiunilor de pază reprezintă o măsură oportună, proporțională și justificată.
+
+Implementarea acestei măsuri va contribui semnificativ la prevenirea și documentarea faptelor ilegale îndreptate împotriva mediului, responsabilizarea personalului silvic, protejarea acestuia, precum și îmbunătățirea capacității administrative și operaționale a acestor structuri de pază. În acest context, adoptarea prezentei propuneri legislative este nu doar justificată, ci și necesară pentru asigurarea unei gestiuni durabile, transparente și eficiente a mediului înconjurător, în conformitate cu interesele generale ale societății și cu obligațiile asumate de statul român în materie de protecție a mediului.
+
+Având în vedere aceste considerente, vă propunem spre dezbatere și aprobare prezenta propunere legislativă.
+
+În numele inițiatorilor,
+
+: DIANA -ANDA | BUZCIANU GLAI | VARGA
+
+¡SDe MARIUS ZAKARDAS ZOLTANO ANDRÉI ALEXANDRU tOgAN
+
+TRiF BOGDAN GHEORGHE , 1
+
+Lista susținătorilor LEGE pentru completarea Ordonanței de urgență a Guvernului nr. 59/2000 privind Statutul personalului silvic
+
+Nr. | Parlamentar | Partid | Semnătură 1 | GIURGIU ADRIAN | USR 2 | GURLUÍ diLViO - OC TINIAN | AVR Menteanu Naleziu | AUR rusoveano Marias 5 | Bosate Tite | AUR
+
+Lista susținătorilor LEGE pentru completarea Ordonanței de urgență a Guvernului nr. 59/2000 privind Statutul personalului silvic
+
+Nr. | Parlamentar | Partid | Semnătură 1 | PRUN SYMTHA | uSe SiLOS, SOLM GHROROME ÜSR ANGHEL RÖZUAN | USR Rodeanu Bordan | USR CRISTIAN BRIAN | USR GiMA GORGO | USR DiMITRiV ALEZAnM | OSM MURARIU OANA | USR HANGAN POLLYANNA | USR BULAI IULIAY | USR Morussi George | USR

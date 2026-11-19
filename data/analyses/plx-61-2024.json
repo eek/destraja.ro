@@ -137,5 +137,28 @@
       "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-10T09:09:35.495Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-19T12:20:31.381Z",
+      "reasons": [
+        "metoda",
+        "model"
+      ],
+      "backfilled": true
+    }
+  ]
 }

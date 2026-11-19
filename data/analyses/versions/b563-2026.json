@@ -1,0 +1,259 @@
+{
+  "slug": "b563-2026",
+  "billId": "B563/2026",
+  "updatedAt": "2026-11-19T13:25:58.930Z",
+  "plan": [
+    "initiator",
+    "actualizata"
+  ],
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițială a inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26b563FG.PDF",
+      "source": "senat.ro",
+      "date": "2026-10-14",
+      "riskScore": 8,
+      "riskLevel": "red",
+      "plainTitle": "Avocații primesc monopol pe contracte, recuperări de datorii, arbitraj și sfaturi juridice online",
+      "summaryTlDr": "Sub haina protecției clientului și a secretului profesional, proiectul extinde masiv monopolul avocaților asupra unor activități deschise azi oricui, de la contractele scrise la recuperarea creanțelor și consultanța prin AI. Unele garanții de secret profesional sunt legitime, dar nucleul proiectului este o rezervare de piață fără testul de proporționalitate cerut de UE și cu norme penale vagi.",
+      "scores": {
+        "agy": 8,
+        "claude": 8,
+        "codex": 8
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-hydrogen-high"
+    },
+    {
+      "key": "actualizata",
+      "label": "Forma actualizată a inițiatorului",
+      "url": "https://www.senat.ro/Legis/PDF/2026/26b563FGA.pdf",
+      "source": "senat.ro",
+      "date": "2026-11-16",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Avocații primesc mai multe atribuții, monopol pe divorțurile cu copii și o cale rapidă de a închide site-uri juridice neautorizate",
+      "summaryTlDr": "Proiectul are părți bune: secretul profesional e adaptat la cloud, victimele infracțiunilor primesc asistență gratuită, iar onorariile din oficiu sunt plătite la timp. Aceste părți stau însă alături de o rezervare de piață pentru avocați, impusă direct părinților care divorțează. Mai conține o infracțiune formulată vag și presiune penală asupra serviciilor LegalTech/AI, toate pe procedură de urgență și fără fișă financiară.",
+      "scores": {
+        "agy": 7,
+        "claude": 7,
+        "codex": 7
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-hydrogen-high"
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "actualizata",
+      "direction": "mai_putin_riscant",
+      "headline": "Dispare obligația contractelor scrise de avocat, dar avocatul devine obligatoriu în cauzele cu copii",
+      "summary": "Acum nu mai e propusă redactarea obligatorie de avocat a contractelor sub semnătură privată și nici exclusivitatea avocaților pe activitățile noi. În schimb, avocatul devine obligatoriu și în toate procedurile privind autoritatea părintească.",
+      "changes": [
+        {
+          "title": "Contractele obișnuite nu mai trebuie scrise de avocat",
+          "text": "Articolul care modifica art. 1241 din Codul civil a fost eliminat. Contractele cerute în formă scrisă sub semnătură privată nu mai trebuie întocmite de avocat.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. II (forma inițială), Codul civil art. 1241",
+          "before": "(2) Atunci când legea cere, pentru validitatea sau pentru dovedirea contractului, forma scrisă sub semnătură privată, înscrisul constatator se întocmește de avocat, dacă legea nu prevede altfel.",
+          "after": "Articolul II se elimină.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Activitățile noi nu mai sunt rezervate doar avocaților",
+          "text": "Nu se mai modifică art. 3 alin. (2) și rămâne textul în vigoare. Noul alin. (1¹) spune că și alte persoane pot face activitățile de la lit. g¹)-g⁴). Publicitatea mobiliară (RNPM) și arbitrajul ies din listă.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 3 alin. (2) și alin. (1¹)",
+          "before": "(2) Activitățile prevăzute la alin. (1) se exercită numai de avocat, cu excepția celor care sunt stabilite în mod expres prin lege și în competența altor profesii juridice.",
+          "after": "Se elimină modificarea alin. (2); se păstrează textul în vigoare.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Avocat obligatoriu și în procesele privind autoritatea părintească",
+          "text": "Obligația de a fi asistat de avocat în divorțul cu copii minori se extinde la toate procedurile privind exercițiul autorității părintești. Mențiunea că obligația se aplică «în mod proporțional» dispare.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 3 alin. (1) lit. k³)",
+          "before": "obligația se aplică în mod proporțional, cu asigurarea asistenței juridice din oficiu sau a ajutorului public judiciar, potrivit legii, pentru persoanele care îndeplinesc condițiile legale",
+          "after": "precum și în toate procedurile care au ca obiect exercițiul autorității părintești; obligația se aplică cu asigurarea asistenței juridice gratuite pentru persoanele care îndeplinesc condițiile pentru acordarea ajutorului public judiciar în materie civilă",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Infracțiunea privind cuvântul «avocat» se extinde la combinații",
+          "text": "Art. 59 alin. (6) pedepsește acum și folosirea denumirilor protejate în combinație cu alte cuvinte. Pot fi atinse denumiri de branduri, ONG-uri sau domenii internet.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 59 alin. (6)",
+          "before": "sau a denumirilor specifice formelor de exercitare a profesiei de avocat, precum și folosirea însemnelor specifice profesiei",
+          "after": "sau a denumirilor specifice formelor de exercitare a profesiei de avocat, singure sau în combinație cu alte denumiri sau sintagme, precum și folosirea însemnelor",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Definiția consultanței juridice devine mai îngustă",
+          "text": "Art. 3¹ cere acum un serviciu profesional și o opinie individualizată, asumată de avocat. Alte profesii reglementate sunt excluse. Clauza «indiferent de tehnologie» rămâne.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 3¹",
+          "before": "consultanța juridică constă într-un serviciu personalizat care vizează furnizarea unei opinii sau a unui sfat, pe baza aplicării normelor de drept",
+          "after": "consultanța juridică reprezintă serviciul furnizat cu titlu profesional altei persoane",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Literele k) au fost renumerotate",
+          "text": "Fosta lit. k⁴) (recuperare creanțe) devine k²), fosta k⁵) (divorț) devine k³), fosta k⁶) (curator special) devine k⁴), iar fosta k⁷) devine k⁵). Noua lit. k¹) privește actele persoanelor juridice.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 3 alin. (1) lit. k¹)-k⁵)",
+          "before": "k⁴) desfășurarea de activități juridice pentru recuperarea creanțelor",
+          "after": "k²) desfășurarea de activități juridice pentru recuperarea creanțelor",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Avocat obligatoriu în divorțurile cu copii, inclusiv la notar sau primărie",
+            "major": true,
+            "article": "art. 3 alin. (1) lit. k³)"
+          },
+          {
+            "text": "Avocat obligatoriu în toate procedurile privind autoritatea părintească, cost nou pentru familii",
+            "major": true,
+            "article": "art. 3 alin. (1) lit. k³)"
+          },
+          {
+            "text": "Consultanța juridică se definește «indiferent de tehnologie»; aplicațiile LegalTech pot fi vizate",
+            "major": true,
+            "article": "art. 3¹ alin. (3)"
+          },
+          {
+            "text": "Infracțiune pentru expresii «de natură să inducă publicul în eroare», formulare vagă",
+            "major": true,
+            "article": "art. 59 alin. (7)"
+          },
+          {
+            "text": "Denumirea «avocat» în combinație cu alte sintagme devine infracțiune",
+            "major": true,
+            "article": "art. 59 alin. (6)"
+          },
+          {
+            "text": "UNBR poate cere ordine de eliminare a conținutului online, cu termen de 5 zile",
+            "major": true,
+            "article": "art. 25¹ alin. (1)-(3)"
+          },
+          {
+            "text": "Costuri noi din ajutorul public judiciar, fără estimare de impact",
+            "major": true,
+            "article": "art. 3 alin. (1) lit. k³), k⁴)"
+          },
+          {
+            "text": "Hotărâre executorie, doar recurs în 5 zile, art. 10 din Legea 50/2024 exclus",
+            "major": false,
+            "article": "art. 25¹ alin. (5)"
+          },
+          {
+            "text": "UNBR poate sesiza Poliția pentru ordine administrative împotriva conținutului",
+            "major": false,
+            "article": "art. 25¹ alin. (6)-(10)"
+          },
+          {
+            "text": "Clauză deschisă: «orice alte activități stabilite prin lege»",
+            "major": false,
+            "article": "art. 3 alin. (1) lit. k⁵)"
+          },
+          {
+            "text": "Expunerea de motive vorbește de «apel», textul legii de «recurs»",
+            "major": false,
+            "article": "art. 25¹ alin. (5)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu mai e obligatoriu ca avocatul să redacteze contractele sub semnătură privată",
+            "major": true,
+            "article": "art. II (forma inițială)"
+          },
+          {
+            "text": "Nu se mai introduce exclusivitatea avocaților; art. 3 alin. (2) rămâne neschimbat",
+            "major": true,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Alte persoane pot rămâne executori testamentari, curatori sau mandatari",
+            "major": true,
+            "article": "art. 3 alin. (1¹)"
+          },
+          {
+            "text": "Recuperarea creanțelor rămâne permisă și altor persoane, potrivit legii",
+            "major": true,
+            "article": "art. 3 alin. (1) lit. k²)"
+          },
+          {
+            "text": "Publicitatea mobiliară și arbitrajul nu mai apar printre activitățile avocatului",
+            "major": true,
+            "article": "art. 3 alin. (1) lit. k)"
+          },
+          {
+            "text": "Informațiile generale, instrumentele standardizate și alte profesii sunt excluse din consultanță",
+            "major": true,
+            "article": "art. 3¹ alin. (2), (4)"
+          },
+          {
+            "text": "Interzis onorariul de succes pe compensația primită de victimele infracțiunilor",
+            "major": true,
+            "article": "art. 30 alin. (6)"
+          },
+          {
+            "text": "Avocatul din asistența gratuită nu poate cere bani beneficiarului",
+            "major": true,
+            "article": "art. 74"
+          },
+          {
+            "text": "Curatorul special al minorului este plătit public, fără verificarea veniturilor părinților",
+            "major": true,
+            "article": "art. 3 alin. (1) lit. k⁴)"
+          },
+          {
+            "text": "Ordinele online au garanții: citare, proporționalitate, fără monitorizare generală",
+            "major": false,
+            "article": "art. 25¹ alin. (3), (4), (11)"
+          },
+          {
+            "text": "Avocați cu pregătire specializată pentru victime, minori și solicitanți de azil",
+            "major": false,
+            "article": "art. 77¹"
+          },
+          {
+            "text": "Onorariile din asistența judiciară au cont distinct și dobânzi pentru întârzieri",
+            "major": false,
+            "article": "art. 84 alin. (2), (3¹)"
+          },
+          {
+            "text": "Secretul profesional se extinde la corespondență și la domiciliul avocatului",
+            "major": false,
+            "article": "art. 34 alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 136,
+        "removed": 50,
+        "same": 0.2
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-19T13:25:58.930Z"
+    }
+  ]
+}

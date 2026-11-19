@@ -127,5 +127,28 @@
       "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 1.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T09:28:05.039Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "camera",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-19T09:08:06.179Z",
+      "reasons": [
+        "text",
+        "model"
+      ],
+      "backfilled": true
+    }
+  ]
 }

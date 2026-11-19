@@ -1,0 +1,157 @@
+{
+  "billId": "Pl-x 363/2025",
+  "slug": "plx-363-2025",
+  "version": "initiator",
+  "updatedAt": "2026-11-19T16:12:09.305Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1462,
+    "ordinanceChars": 0,
+    "memoChars": 1723,
+    "memoSupplied": 1723,
+    "marker": "SF-BAF05008"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-363-2025.json",
+    "form": "initiator",
+    "textHash": "baf05008c45f4b37",
+    "fetchedAt": "2026-11-19T16:09:46.597Z",
+    "acts": 0,
+    "actsFound": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
+  "consensus": {
+    "riskScore": 6.3,
+    "riskLevel": "yellow",
+    "plainTitle": "Pensiile profesorilor ar crește odată cu salariile celor aflați la catedră",
+    "summaryTlDr": "O promisiune generoasă pentru profesorii pensionari, scrisă în cinci articole fără formulă de calcul, fără cost estimat și fără sursă de bani. Așa cum e redactată, legea nu poate fi aplicată automat, iar data ei de intrare în vigoare a trecut deja.",
+    "initiatorClaim": "Inițiatorul spune că pensiile profesorilor au rămas în urma salariilor din educație, care au crescut mult în ultimii ani. Cere un mecanism automat de actualizare, după modelul magistraților.",
+    "realityCheck": "Legea leagă pensiile contributive ale foștilor profesori de orice majorare salarială din învățământ. Nu spune însă după ce formulă se face actualizarea, dacă ea se adaugă indexării anuale sau cine se socotește «cadru didactic» pensionar. Esențialul rămâne pe seama unor norme scrise în 60 de zile de Ministerul Educației și CNPP, iar costul, posibil mare și permanent, nu e estimat și nu are sursă de finanțare.",
+    "affectedGroups": [
+      "Sănătate & Educație",
+      "Angajați & HR",
+      "Toți cetățenii",
+      "Justiție & Drepturi Civile"
+    ],
+    "senatForm": {
+      "articleRef": "Art. II (formula de actualizare)",
+      "proposalContent": "Art. II: «Pensiile din sistemul public ale persoanelor pensionate ca personal didactic de predare din învățământul de stat se majorează la 1 ianuarie cu diferența pozitivă dintre creșterea procentuală medie a salariilor de bază din grila didactică în anul anterior și indexarea aplicată în același an potrivit Legii nr. 360/2023.»",
+      "argumentation": "Art. II nu spune la ce se raportează «proporțional» și nici dacă actualizarea se adaugă indexării anuale; Art. I cere vechime în muncă, Art. II vechime în învățământ. Fără formulă, costul nu poate fi estimat, CNPP nu poate aplica legea automat, iar textul riscă neconstituționalitatea pentru lipsă de claritate (art. 1 alin. 5). Varianta propusă evită dubla majorare.",
+      "otherComments": "Art. V: 1 ianuarie 2026 a trecut; propun «la 1 ianuarie a anului următor publicării». Expunerea de motive nu estimează costul și nu indică sursa de finanțare (art. 138 alin. 5 din Constituție). Regula ar trebui introdusă în Legea nr. 360/2023, nu într-o lege paralelă, iar normele de la Art. IV aprobate prin hotărâre a Guvernului."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 71424,
+      "sourceEndMarker": "SF-BAF05008",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Promisiune fără formulă și fără bani: actualizarea pensiilor profesorilor după salariile din activitate",
+      "verdictShort": "Un proiect cu intenție declarată simpatică, dar redactat ca o coajă goală: nu are formulă de calcul, nu indică sursa banilor și e neconstituțional din cel puțin patru motive. Aplicat așa, ar bloca sistemul de pensii în procese și ar crea o gaură bugetară necalculată.",
+      "initiatorClaim": "Inițiatorul (deputatul AUR Georgel Badiu) susține că vrea să elimine discrepanța dintre pensiile contributive ale profesorilor și salariile celor rămași în activitate, oferind cadrelor didactice un mecanism de actualizare automată similar cu cel al magistraților.",
+      "realityCheck": "În realitate, legea are doar 5 articole vagi, fără nicio formulă de calcul și fără a modifica Legea pensiilor publice (360/2023), pasând totul la norme metodologice. Impune o actualizare «automată» de către Casa de Pensii — care nu deține datele despre gradele didactice și sporurile pensionarilor — exclude profesorii din privat și lasă statul să descopere ulterior de unde scoate fondurile necesare.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Angajați & HR",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I-II nu conțin nicio formulă de calcul pentru corelarea unei pensii contributive cu salariile și sporurile curente, ba chiar se contrazic: Art. I se raportează la «vechimea în muncă», iar Art. II la «vechimea în învățământ».",
+        "Lipsesc complet fișa financiară și sursa de finanțare; Expunerea de motive recunoaște explicit că evaluarea impactului bugetar și alocarea fondurilor sunt lăsate pe seama autorităților după adoptare.",
+        "Art. III obligă «Casa Națională de Pensii» (corect: CNPP) la actualizare automată fără cerere, deși instituția nu are în evidențe gradele didactice și sporurile istorice ale pensionarilor, iar Art. IV delegă esența mecanismului către norme metodologice.",
+        "Art. I limitează aplicarea exclusiv la învățământul preuniversitar și universitar «de stat», excluzând cadrele didactice din învățământul privat acreditat, deși contribuie identic la sistemul public de pensii."
+      ],
+      "blindSpotsCaught": "Două capcane majore la finalul textului: (1) formula de adoptare invocă art. 76 alin. (2) din Constituție (lege ordinară), deși regimul pensiilor și protecției sociale necesită lege organică (art. 73 alin. 3 lit. p); (2) Art. V fixează intrarea în vigoare la 1 ianuarie 2026 — o dată deja depășită, ceea ce ar face legea retroactivă (contrar art. 15 alin. 2 din Constituție) dacă ar fi adoptată nemodificată.",
+      "constitutionalityNote": "Vulnerabilitate severă la CCR pe multiple temeiuri: art. 138 alin. (5) (cheltuială bugetară majoră fără sursă de finanțare), art. 1 alin. (5) (lipsă totală de previzibilitate, absența formulei de calcul, contradicție între Art. I și II, necorelare cu Legea 360/2023 și delegare excesivă la norme în Art. IV), art. 16 alin. (1) (discriminarea profesorilor din privat și ruperea echității față de alți contribuabili), art. 73 alin. (3) lit. p) coroborat cu art. 76 alin. (1) (calificare greșită ca lege ordinară) și art. 15 alin. (2) (retroactivitatea termenului din Art. V).",
+      "euLawNote": "Nu intră sub incidența Directivei (UE) 2018/958 (nu restricționează accesul la profesii reglementate) și nici a Directivei (UE) 2015/1535 / TRIS (nu vizează servicii digitale sau reglementări tehnice). În schimb, intră în coliziune directă cu angajamentele României din PNRR privind sustenabilitatea și principiul contributivității în sistemul public de pensii, agravând riscurile din Procedura de Deficit Excesiv (art. 126 TFUE).",
+      "senatForm": {
+        "articleRef": "Art. I - Art. V (întregul proiect)",
+        "proposalContent": "Solicit respingerea proiectului în forma actuală (eliminarea Art. I-V). Orice majorare a pensiilor cadrelor didactice trebuie reglementată prin modificarea Legii nr. 360/2023, cu formulă clară de calcul, includerea profesorilor din învățământul privat acreditat, termen realist de aplicare și fișă financiară cu sursă certă de finanțare.",
+        "argumentation": "Textul încalcă Constituția: art. 138(5) (lipsă sursă de finanțare), art. 1(5) (nu are formulă de calcul și contrazice Art. I cu Art. II între vechime în muncă și în învățământ), art. 16 (exclude profesorii din mediul privat), art. 73(3)p (necesită lege organică, nu ordinară) și art. 15(2) (data de 1 ianuarie 2026 a trecut deja).",
+        "otherComments": "CNPP nu deține baze de date cu gradele didactice și sporurile istorice ale pensionarilor, deci „actualizarea automată” din Art. III este inaplicabilă. În plus, crearea unui mecanism paralel de indexare fără impact bugetar periclitează sustenabilitatea sistemului public de pensii și angajamentele României din PNRR și procedura de deficit excesiv."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 142687,
+      "sourceEndMarker": "SF-BAF05008",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Pensiile profesorilor ar crește odată cu salariile celor aflați la catedră",
+      "verdictShort": "O promisiune generoasă pentru profesorii pensionari, scrisă în cinci articole fără formulă de calcul, fără cost estimat și fără sursă de bani. Așa cum e redactată, legea nu poate fi aplicată automat, iar data ei de intrare în vigoare a trecut deja.",
+      "initiatorClaim": "Inițiatorul spune că pensiile profesorilor au rămas în urma salariilor din educație, care au crescut mult în ultimii ani. Cere un mecanism automat de actualizare, după modelul magistraților.",
+      "realityCheck": "Legea leagă pensiile contributive ale foștilor profesori de orice majorare salarială din învățământ. Nu spune însă după ce formulă se face actualizarea, dacă ea se adaugă indexării anuale sau cine se socotește «cadru didactic» pensionar. Esențialul rămâne pe seama unor norme scrise în 60 de zile de Ministerul Educației și CNPP, iar costul, posibil mare și permanent, nu e estimat și nu are sursă de finanțare.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. II: formula «proporțional cu funcția, gradul didactic și vechimea» nu definește niciun calcul. Nu se știe dacă pensia crește cu același procent ca salariul sau se recalculează raportat la salariul actual al unui post echivalent, iar cele două lecturi diferă enorm ca impact bugetar.",
+        "Art. I și Art. II folosesc criterii diferite pentru același calcul: Art. I cere «vechimea în muncă», Art. II cere «vechimea în învățământ».",
+        "Proiectul nu spune dacă actualizarea se cumulează cu indexarea anuală din Legea nr. 360/2023, deci există risc de dublă majorare. Nu spune nici cum se tratează cei pensionați pe funcții sau grade reorganizate între timp în grila salarială.",
+        "Art. III promite actualizare automată, fără cerere. CNPP nu ține însă evidența structurată a funcției, gradului și vechimii în învățământ la pensionare, ci cel mult le are în dosarele de pensie pe hârtie. În practică, pensionarii ar fi trimiși după adeverințe la școli și arhive.",
+        "Art. V fixează intrarea în vigoare la 1 ianuarie 2026, dată deja trecută. O lege adoptată acum ar produce efecte retroactive (art. 15 alin. 2 și art. 78 din Constituție).",
+        "Lipsesc estimarea impactului bugetar și sursa de finanțare cerute de art. 138 alin. (5) din Constituție, de art. 15 din Legea nr. 500/2002 și de Legea nr. 69/2010. Cheltuiala ar fi permanentă și fără plafon, în condițiile procedurii de deficit excesiv.",
+        "Beneficiarii nu sunt definiți: nu se știe dacă intră personalul didactic auxiliar sau cei care au predat doar o parte din carieră. Pensionarii din învățământul privat sunt excluși prin chiar textul Art. I."
+      ],
+      "blindSpotsCaught": "Comparația cu magistrații e înșelătoare. Magistrații au pensie de serviciu, calculată din indemnizație, nu pensie contributivă din puncte. Proiectul altoiește o regulă de pensie de serviciu pe o pensie contributivă fără să modifice Legea nr. 360/2023, creând un regim paralel, contrar art. 14 și 16 din Legea nr. 24/2000. Formula finală invocă art. 76 alin. (2), adică lege ordinară, deși pensiile țin de protecția socială, domeniu de lege organică (art. 73 alin. 3 lit. p), așa că încadrarea trebuie verificată. Textul tratează doar majorările salariale și nu spune ce se întâmplă când salariile sunt înghețate sau reduse.",
+      "constitutionalityNote": "Proiectul are probleme serioase de constituționalitate. (1) Art. 1 alin. (5): lipsa formulei face legea imprevizibilă și deleagă elementul esențial unor norme metodologice. (2) Art. 15 alin. (2) și art. 78: data de 1 ianuarie 2026 a trecut. (3) Art. 138 alin. (5) și art. 111 alin. (1): proiectul creează o cheltuială nouă fără sursă de finanțare, iar CCR a admis în repetate rânduri obiecții pe acest temei. (4) Art. 16 și art. 47 alin. (2): un tratament preferențial pentru o singură categorie de pensionari contributivi, rupt de contribuțiile plătite, trebuie justificat obiectiv, iar expunerea de motive invocă doar echitatea. (5) Caracterul de lege ordinară e discutabil.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă proiectul nu reglementează accesul la o profesie. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică, în lipsa unor servicii digitale sau reglementări tehnice. Piața unică nu e afectată. Relevante sunt regulile fiscale ale UE: România se află în procedura de deficit excesiv (art. 126 TFUE, Regulamentul (CE) nr. 1467/97, modificat în 2024), iar o cheltuială permanentă, neplafonată și neestimată contravine traiectoriei bugetare asumate. Directiva 2011/85/UE cere ca astfel de măsuri să fie integrate în cadrul bugetar pe termen mediu. Plata pensiilor către beneficiari din alte state membre (Regulamentul (CE) nr. 883/2004) nu e afectată.",
+      "senatForm": {
+        "articleRef": "Art. II (formula de actualizare)",
+        "proposalContent": "Art. II: «Pensiile din sistemul public ale persoanelor pensionate ca personal didactic de predare din învățământul de stat se majorează la 1 ianuarie cu diferența pozitivă dintre creșterea procentuală medie a salariilor de bază din grila didactică în anul anterior și indexarea aplicată în același an potrivit Legii nr. 360/2023.»",
+        "argumentation": "Art. II nu spune la ce se raportează «proporțional» și nici dacă actualizarea se adaugă indexării anuale; Art. I cere vechime în muncă, Art. II vechime în învățământ. Fără formulă, costul nu poate fi estimat, CNPP nu poate aplica legea automat, iar textul riscă neconstituționalitatea pentru lipsă de claritate (art. 1 alin. 5). Varianta propusă evită dubla majorare.",
+        "otherComments": "Art. V: 1 ianuarie 2026 a trecut; propun «la 1 ianuarie a anului următor publicării». Expunerea de motive nu estimează costul și nu indică sursa de finanțare (art. 138 alin. 5 din Constituție). Regula ar trebui introdusă în Legea nr. 360/2023, nu într-o lege paralelă, iar normele de la Art. IV aprobate prin hotărâre a Guvernului."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 69221,
+      "sourceEndMarker": "SF-BAF05008",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Pensiile profesorilor ar crește odată cu salariile profesorilor activi",
+      "verdictShort": "Proiectul oferă profesorilor pensionari un avantaj concret, dar lasă neprecizate formula majorării și finanțarea. Aceste lipsuri pot produce calcule contestabile, tratamente diferite și cheltuieli publice greu de anticipat.",
+      "initiatorClaim": "Inițiatorul urmărește reducerea diferenței dintre veniturile profesorilor pensionari și salariile personalului activ. Invocă echitatea și mecanismul de actualizare aplicabil magistraților.",
+      "realityCheck": "Art. II introduce o actualizare repetată, declanșată de majorarea salariilor, sporurilor și indemnizațiilor profesorilor activi, fără să precizeze formula matematică sau relația cu indexarea generală a pensiilor. Textul nu transformă explicit pensiile profesorilor în pensii de serviciu, dar creează un mecanism ocupațional distinct de actualizare. Aplicarea este automată pentru beneficiari, însă necesită identificarea unor echivalențe salariale și schimburi de date între administrații.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. II nu stabilește dacă pensia crește cu procentul majorării salariului de bază, al venitului salarial total sau prin alt calcul. Cuvântul «proporțional» nu rezolvă această ambiguitate.",
+        "Art. I folosește «vechimea în muncă», iar art. II folosește «vechimea în învățământ». Diferența poate modifica încadrarea salarială de referință și suma acordată.",
+        "Art. II include sporurile și indemnizațiile fără să distingă drepturile permanente de cele condiționate de activitatea efectivă. Nu reglementează nici cumularea actualizării cu indexările din sistemul public.",
+        "Art. III elimină cererea pensionarului, ceea ce reduce birocrația pentru beneficiar. Totuși, proiectul nu stabilește circuitul datelor, termenele operaționale sau soluția pentru funcțiile didactice care nu mai au corespondent.",
+        "Proiectul generează cheltuieli recurente, dar textul și expunerea furnizate nu cuantifică impactul și nu indică sursa de finanțare. Nu introduce taxe, sancțiuni sau obligații directe pentru IMM-uri.",
+        "Art. IV permite aprobarea normelor abia în cele 60 de zile următoare intrării în vigoare, deși dreptul ar trebui aplicat deja. Art. V fixează 1 ianuarie 2026; dacă legea este adoptată ulterior, calendarul trebuie reformulat."
+      ],
+      "blindSpotsCaught": "Promisiunea din expunerea de motive că autoritățile vor avea timp să pregătească normele înainte de aplicare nu corespunde art. IV, care pornește termenul după intrarea în vigoare. În plus, normele metodologice nu pot suplini lipsa din lege a elementelor esențiale ale formulei de calcul. Textul furnizat nu conține derogări, abrogări sau dispoziții tranzitorii care să clarifice raportul cu sistemul general de pensii.",
+      "constitutionalityNote": "Există un risc serios privind claritatea și previzibilitatea, potrivit art. 1 alin. (5): cuantumul dreptului nu poate fi determinat suficient din lege. Art. 23 alin. (12) nu este incident, deoarece proiectul nu stabilește pedepse. Tratamentul distinct trebuie justificat obiectiv în raport cu art. 16; comparația cu magistrații nu demonstrează singură nici necesitatea egalizării, nici neconstituționalitatea măsurii. Art. 47 alin. (2) permite legiuitorului să configureze drepturile de pensie. Pentru cheltuielile suplimentare trebuie respectate art. 138 alin. (5) și procedura de informare a Guvernului prevăzută de art. 111 alin. (1); documentele furnizate nu permit verificarea întregului parcurs procedural. Trebuie verificată și încadrarea legii față de domeniul organic din art. 73 alin. (3) lit. p), întrucât formula finală indică adoptarea ca lege ordinară. Art. V trebuie corelat cu art. 78 și, dacă se urmăresc efecte pentru perioade anterioare, cu art. 15 alin. (2).",
+      "euLawNote": "Directiva (UE) 2018/958 nu impune aici testul de proporționalitate: proiectul nu introduce condiții de acces sau de exercitare a unei profesii reglementate. Directiva (UE) 2015/1535 și notificarea TRIS nu sunt incidente, deoarece nu există reglementări tehnice pentru produse sau servicii ale societății informaționale. Nu rezultă restricții directe asupra concurenței ori avantaje acordate unor întreprinderi. Pentru eventualii beneficiari cu perioade lucrate în alte state membre, aplicarea trebuie să respecte normele europene de coordonare a securității sociale.",
+      "senatForm": {
+        "articleRef": "Art. II",
+        "proposalContent": "Pensiile prevăzute la art. I se majorează de la data creșterii salariale, cu procentul creșterii salariului de bază corespunzător funcției, gradului didactic și vechimii în învățământ la pensionare. Sporurile și indemnizațiile nu intră în referință. Pentru aceeași dată se aplică pensiei în plată numai creșterea mai favorabilă dintre această majorare și indexarea legală.",
+        "argumentation": "Formula propusă face majorarea calculabilă, exclude drepturile salariale dependente de condiții individuale de muncă și clarifică raportul cu indexarea generală. Elementele esențiale ale dreptului trebuie stabilite prin lege, pentru respectarea art. 1 alin. (5) din Constituție.",
+        "otherComments": "Pentru Comisiile pentru muncă și pentru învățământ ale Camerei Deputaților: solicitați evaluarea impactului și identificarea finanțării; corelați art. I cu art. II și asigurați aprobarea normelor înainte de aplicare. Reformulați art. V dacă adoptarea intervine după 1 ianuarie 2026."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    }
+  }
+}

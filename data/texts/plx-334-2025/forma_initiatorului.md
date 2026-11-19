@@ -1,0 +1,45 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+## LEGE
+
+pentru modificarea și completarea Legii nr. 31/1990 privind societățile
+
+Parlamentul României adoptă prezenta lege
+
+Art. I – Legea nr. 31/1990 privind societățile, republicată în Monitorul Oficial al României, Partea I, nr. 1066 din 17 noiembrie 2004, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 138² alineatul (2), litera h) se modifică și va avea următorul cuprins:
+
+„h) să nu fi fost administrator neexecutiv al societății mai mult de trei mandate acordate de adunarea generală a acționarilor sau mai mult de opt ani consecutivi în această calitate;”
+
+2\. La articolul 138² alineatul (2), după litera i) se introduce o nouă literă, lit. j), cu următorul cuprins:
+
+„i) să nu fi primit, în ultimii cinci ani anteriori numirii în funcție, nicio remunerație financiară sau alt beneficiu patrimonial direct de la un acționar semnificativ al societății.”
+
+3\. La articolul 153⁴, după alineatul (3) se introduc trei noi alineate, alin. (3¹-3³), cu următorul cuprins:
+
+„(3¹) Membrii consiliului de supraveghere pot solicita individual informații directoratului despre funcționarea societății, cu informarea președintelui consiliului. (3²) Directoratul poate refuza motivat cererea de informații a unui membru al consiliului de supraveghere, cu informarea consiliului de supraveghere.
+
+(3³) Dacă cererea de informații a unui membru al consiliului de supraveghere este susținută de un al doilea membru, directoratul are obligația de a răspunde în maxim șapte zile de la data la care solicitarea de informații este asumată de doi membri."
+
+4\. La articolul 153⁴, alineatul (4) se modifică și va avea următorul cuprins: „(4) Fiecare membru al consiliului de supraveghere are acces la informațiile transmise consiliului sau oricărui membru individual, directoratul având obligația de a asigura accesul nediscriminatoriu la informații pentru toți membrii consiliului de supraveghere.”
+
+## 5. La articolul 153⁶, după alineatul (5) se introduce un nou alineat, alin. (6), cu următorul cuprins:
+
+„(6) În cazul societăților listate la care se organizează vot cumulativ pentru alegerea consiliului de supraveghere, membrul ales cu cel mai mare număr de voturi în urma votului cumulativ devine președinte al consiliului de supraveghere. Președintele consiliului este desemnat în ordinea voturilor obținute de membrii aleși, dacă funcția este refuzată de cel care are numărul de voturi cel mai mare. Dacă doi sau mai mulți membri au același număr de voturi, se organizează un tur de vot suplimentar pentru desemnarea președintelui consiliului doar între cei care sunt la egalitate, până la departajarea candidaților.”
+
+6\. La articolul 153¹⁰, după alineatul (3) se introduce un nou alineat, alin. (4), cu următorul cuprins:
+
+„(4) În cazul comitetului de audit și al comitetului de nominalizare, președintele fiecărui comitet trebuie desemnat dintre membrii consiliului de supraveghere care au statut de independent, dacă există astfel de membri. Persoana desemnată ca președinte al comitetului nu poate exercita simultan și funcția de președinte al consiliului de supraveghere.”
+
+Art. II – Legea nr. 31/1990 privind societățile, republicată în Monitorul Oficial al României, Partea I, nr. 1066 din 17 noiembrie 2004, cu modificările și completările ulterioare, precum și cu modificările și completările aduse prin prezenta lege, se va republica în Monitorul Oficial al României, Partea I, dându-se textelor o nouă numerotare.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Senatului
+
+Președintele Camerei Deputaților

@@ -1,0 +1,47 @@
+ROMANIA
+
+LEGE privind includerea Parcului Rozelor din municipiul Timișoara pe lista monumentelor istorice
+
+Expunere de motive solicitare inițiere procedură de clasare a Parcului Rozelor din Timișoara ca monument istoric
+
+Context și necesitate Parcul Rozelor din Timișoara este unul dintre cele mai importante spații verzi ale orașului și o adevărată emblemă a patrimoniului istoric și cultural al municipiului. Acesta se remarcă prin diversitatea sa florală, în special prin colecțiile de trandafiri, dar și prin valoarea sa peisagistică și arhitecturală, având o tradiție de peste 100 de ani. Cu toate acestea, în prezent, parcul se află într-o stare avansată de degradare, iar numeroase elemente ale acestuia - alei, structuri de apă, mobilier urban și vegetație - sunt afectate de neglijență și lipsa unui plan de restaurare eficient.
+
+Importanța culturală si istorică a Parcului Rozelor Patrimoniu istoric: Parcul Rozelor reprezintă o fereastră către istoria orașului Timișoara, având o semnificație istorică deosebită în perioada interbelică și în perioada de după al Doilea Război Mondial. A fost un loc de întâlnire al cetățenilor și un simbol al evoluției urbanistice a Timișoarei. Valoare culturală: Parcul este un loc de patrimoniu botanic, cu o colecție valoroasă de trandafiri, care atrag anual vizitatori din întreaga țară și din afacerea locală. Totodată, parcul reprezintă un spațiu dedicat recreerii și educației ecologice, având potențialul de a deveni un centru important pentru educația de mediu și pentru promovarea biodiversității. Simbol al Timișoarei: Parcul Rozelor este unul dintre simbolurile orașului Timișoara, având o importanță deosebită pentru identitatea locală și pentru
+
+ROMANIA comunitate, fiind un loc de relaxare, dar și de celebrări publice, festivități și evenimente culturale internaționale. Starea actuală a Parcului Rozelor În prezent, Parcul Rozelor se află într-o stare avansată de degradare. Din cauza neglijenței și a lipsei unei protecții legale adecvate, parcul riscă să piardă elemente semnificative ale moștenirii sale culturale. Având în vedere importanța Parcului Rozelor pentru patrimoniul cultural, istoric și ecologic al Timișoarei, este imperativ ca autoritățile să ia măsuri urgente pentru protejarea acestuia prin clasificarea oficială ca monument istoric. Această clasificare va asigura protecția legală a parcului și va permite accesarea unor fonduri europene și naționale pentru restaurare și întreținere. Pentru a preveni pierderea ireversibilă a unui important obiectiv istoric și cultural al Timișoarei și pentru a asigura protecția și conservarea Parcului Rozelor, este necesar un demers urgent de clasare a acestuia drept monument istoric. Demersul pentru protejarea și restaurarea acestui parc va contribui nu doar la salvarea unui patrimoniu deosebit, dar și la dezvoltarea durabilă a orașului și la îmbunătățirea calității vieții locuitorilor săi. Astfel, ne angajăm să păstrăm pentru viitoarele generații un simbol al Timișoarei, un loc de recreere și de învățătura despre natură și istoria orașului nostru.
+
+Contextul istoric și cultural al Parcului Rozelor Parcul Rozelor, o bijuterie a patrimoniului timișorean, denumit anterior Parcul trandafirilor, Rosarium, Parcul de Cultură și Odihnă "Ștefan Plavăț", este unul din parcurile din Timișoara amenajat în Cartierul Cetate extra muros.
+
+Parcul a fost înființat în anul 1891, odată cu Parcul Copiilor. În 1891, orașul găzduiește o importantă Expoziție universală (industrială, comercială și agrară), a cărei mândrie era o grădină regală care va fi vizitată de împăratul Franz Joseph și care îl va consacra pe Wilhelm Mühle ca unul dintre cei mai
+
+ROMANIA importanți florari ai Europei. Mühle a donat expoziției un parc în care a expus nu mai puțin de 300 de varietăți de trandafiri. Alături de Wenceslas Franz Niemitz, Wilhelm Mühle a fost unul dintre cei mai importanți florari ai orașului; ambii au fost însărcinați cu planificarea și execuția Grădinii Regale de Trandafiri, care a fost inaugurată la 19 iulie 1891 și a fost predecesoarea Parcului Rozelor de astăzi. Prin munca sa, a făcut ca Timișoara să fie cunoscută încă de la începutul secolului al XX-lea drept Orașul rozelor. A ajuns cel mai important florar al Ungariei. Florile lui se vindeau în toată Europa de Sud-Est, dar și la Budapesta și Viena. Regina Ungariei, dar și reginele României și Serbiei comandaseră coroane și buchete de flori din grădina lui. Pentru activitatea sa, Wilhelm Mühle a fost decorat cu ordinul austro-ungar „Crucea de aur de merit cu coroană". Fiul lui Wilhelm, Ărpăd Mühle, a continuat afacerea tatălui său după moartea sa. La nivel internațional au fost înregistrate 13 noi soiuri de trandafiri create de el. Cu Ărpăd, parcul a devenit cel mai mare rosarium din sud-estul Europei în perioada interbelică, cu peste 1.200 de tipuri de trandafiri din Europa, America și Asia. Amenajarea peisagistică a parcului a început în 1929 de către arhitecții peisagiști Arpăd Mühle, fiul lui Wilhelm Mühle, și Mihai Demetrovici, șeful serviciului de horticultură din perioada respectivă. Parcul a fost amenajat în stil englezesc, cu alei, baldachine și rondouri de trandafiri. In perioada interbelică numele parcului era Rosarium și aici existau peste 1.200 de varietăți de trandafiri, etichetate. Tot în această perioadă a fost amenajat și teatrul în aer liber. În 1944 parcul a fost distrus în urma bombardamentelor. Intre anii 1953-1965 parcul a fost refăcut după daunele suferite în timpul celui de-al Doilea Război Mondial, restabilindu-și splendoarea, în el organizându-se diverse spectacole în aer liber. Tot în parc exista o bază sportivă, amenajată iarna ca patinoar, iar vara ca teren de tenis. In 2012 parcul a fost reamenajat.
+
+ROMANIA Wilhelm Mühle, care a contribuit la crearea parcurilor orașului, a fost numit postum cetățean de onoare al municipiului Timișoara pe 2 august 2013 pentru vasta sa activitate ce a condus la promovarea municipiului Timișoara în întreaga Europă. În aceeași zi, bustul său a fost dezvelit în Parcul Rozelor imediat lângă intrarea principală. Parcul Rozelor reprezintă un element semnificativ al patrimoniului cultural al Municipiului Timișoara, cu o istorie de peste 134 ani și cu un rol esențial în viața culturală și socială a comunității locale. De-a lungul decadelor, parcul a fost un loc de recreere, educație și adunare socială, având un impact semnificativ asupra dezvoltării urbane și culturale a regiunii. Parcul Rozelor este considerat un simbol al Timișoarei, oraș cunoscut drept "Orașul Trandafirilor", datorită colecției sale impresionante de trandafiri. Necesitatea protejării patrimoniului Având în vedere importanța istorică, culturală și estetică a Parcului Rozelor, este imperativ ca acesta să beneficieze de protecție legislativă, pentru a preveni deteriorarea acestuia în fața dezvoltării urbane sau a unor intervenții necontrolate. Beneficiile pentru comunitate Declararea Parcului Rozelor ca monument istoric va contribui la protejarea și conservarea acestuia pentru generațiile viitoare. Totodată, va reprezenta un factor important în atragerea de turiști și va spori valoarea culturală a Municipiului Timișoara, contribuind la dezvoltarea turismului și a identității culturale a regiunii.
+
+Pentru toate aceste considerente, se propune adoptarea prezentului proiect de lege în regim de urgență.
+
+Inițiator: Deputat Corcheș Codruța Maria PARTIDUL OAMENILOR TINERI
+
+ROMANIA
+
+TABEL SEMNĂTURI pentru sustinerea LEGII privind includerea Parcului Rozelor din municipiul Timișoara pe lista monumentelor istorice
+
+Nr. | Nume | Partid | Semnătură
+
+\*HBRUSed WedAM KUReltE | POT 2. | RĂDUCEA GHEORGHE IALENTIY | POT 3. ANDREI CSiLLAf | POT NICOLAE DAN- MIHAi | POT 5. | MATEi SERSiU- 2 UCiAN ĐOT 6. | GROFU Daniel | POT Piclisan Thearghe Petre | 8. | GAVRILA BLANCA-ELGENIA | POT 9. | POT ANAMARIĂ GAVRILA 10. CRISTIAN-ALEXANDRU POPA | POT 11. SiHL AURORA TASICA | POT 12. PORUMBOI GABRiELA | POT 13. | CERTIT MACIA | POT 14. Kroncsis Sebastian | POT
+
+Inițiator: Deputat CORCHEȘ Codruța Maria PARTIDUL OAMENILOR TINERI
+
+ROMANIA Nr. | Nume | Partid | Semnătură
+
+15\. CIORNỜI SAHIEL -CÂTĂLIN | AUR 16. CALIM GHRORGHE MATIBS | AUR 17. RAMOHA COLiN | 18. OAMPAN CRiSTIAN | FOT 19. ALBU DUMITRITA. | poT 20. | Termia CAucuta | Por 21. | →OT CHIRITA RAZVAN 22. VADIM - TUSOR LDIA AUR 23. BAȘ-ANA - SIDEELA | S.05 Ro 24. 104 Nicalos Nº/ivel | S.0. S . Ro 25. | Buechi' | 5.0.5.40 26. Pansatin ou Ancho Made S.O.5 Ro Famy Josi - 710vr | SOS x0 28. | 1u Militai | S.OS RO 29. ¡ƠNESCU TUDOR S.OS. RO 30. CARAGAȚA FLORiN | S.09 RO 31. OLTENASU SORiN SO.S.RO 32. LAZĂROi '¡DAN 5.0.5. RO 33. PLOPEANCI ROSiCA | 5.05.R0
+
+Inițiator: Deputat CORCHES Codruța Maria PARTIDUL OAMENIL OR TINERI
+
+ROMANIA
+
+Nr. | Nume | Partid | Semnătură
+
+34\. Toget Modalii lumenzo | SoS. 35. Macove Ille finüno Gfruc | 8.0.5. 36. uibuc Litrian | S.05. 37. GOlDESCu IOMEr 5.0.8. 38. COLERI AUITZ. 39. | NEAFILIAT MOISEEU ALEXANDRIN 40. | SZOKE ECATGRiNA X GAFILiA; 41. Jasa reu Stefan HErxench Neoficial 42. | MEI COYMIN | Nestilet 43. | SOs ANDREi GUSĂ 44. TOADER ELENH-LAURH | S.O.S.20 45. VIDRA MLAD - ANDREI S.O5. RO 45. TESLARIU ANDREi - iOHUI | NEAFiLiAT 47. | S.0.S Ro CÍMPiANU ANARGCA PETRONELA 48. GROZA CĂLIN FLORiN... | 49. (NEGOESCU MÎMAT-BOGDAN | 37 TM ALR 50. VARGĂ MARIANA | S.0.542 51. Aldea Mariana Vali POT 52.
+
+Inițiator: Deputat CORCHEȘ Codruța Maria PARTIDUL OAMENIL ORZINERI

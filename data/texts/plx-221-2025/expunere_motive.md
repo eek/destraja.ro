@@ -1,0 +1,25 @@
+ROMANIA
+
+EXPUNERE DE MOTIVE
+
+LEGE pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice
+
+I. DESCRIEREA SITUAȚIEI ACTUALE In contextul în care traficul rutier devine din ce în ce mai aglomerat, gestionarea eficientă a fluxului de trafic este esențială pentru prevenirea accidentelor și reducerea timpului de călătorie. În prezent, blocarea unei benzi de circulație din diverse motive - lucrări, accidente, obstacole sau pur si simplu îngustarea drumului, conduce la crearea unor ambuteiaje, întrucât legislația din țara noastră nu reglementează o regulă esențială în domeniul conducerii defensive - regula fermoarului. Regula fermoarului, cunoscută și sub denumirea de ‚procedura fermoarului", presupune ca atunci când circulația se desfășoară pe două sau mai multe benzi pe sens, iar o bandă de circulație se închide ori este blocată din orice motive, șoferii din banda care se termină trebuie să se integreze alternativ cu vehiculele din banda alăturată. Aceasta înseamnă că un vehicul din banda care se închide se va integra, urmat de un
+
+II. MODIFICAREA PROPUSĂ Modificarea legislativă ce face obiectul acestei propuneri legislative, vizează integrarea în OUG nr.195/2002 privind circulația pe drumurile publice a iregulii fermoarului" și transformarea acesteia, din regulă de conducere defensivă, în regulă de circulație. Având în vedere faptul că încălcarea regulii fermoarului nu creează un pericol major pentru siguranța circulației, ci afectează în principal fluența traficului, nerespectarea acestei reguli trebuie tratată cu un nivel corespunzător de gravitate în cadrul sistemului sancționator. Astfel, nerespectarea regulii fermoarului va constitui o faptă contravențională prevăzută în clasa I de sancțiuni. Incadrarea în cea mai blândă clasă de sancțiuni reflectă în mod echilibrat necesitatea de a încuraja respectarea acesteia, fără a impune sancțiuni disproporționate. Această abordare va contribui la o mai bună acceptare a noii reguli de către conducătorii auto și la îmbunătățirea fluenței traficului, fără a introduce măsuri punitive excesive.
+
+III. MOTIVAREA NECESITĂȚII Regula fermoarului vizează fluidizarea traficului în zonele în care două benzi se îngustează într-una singură, prin alternarea intrării vehiculelor de pe fiecare bandă, ca într-un fermoar. Datorită avantajelor acesteia, regula fermoarului este deja implementată în legislația rutieră din Germania, Austria, Elveția, Olanda, Slovacia. În contextul în care provocările de trafic devin tot mai acute, reglementarea clară a comportamentului șoferilor devine o necesitate. Implementarea legislativă a acestei reguli, va contribui la reducerea congestiei, prevenirea accidentelor și va face ca traficul să se desfășoare mai fluent în situații de îngustare a benzilor. Având în vedere cele expuse, supunem dezbaterii și aprobării celor două camere ale Parlamentului României prezenta propunere legislativă.
+
+În numele inițiatorilor, MIHAI-CĂTĂLIN BOȚEZ\< Deputat USR
+
+OPRINOIU AUREL - Senator USR
+
+LISTA SUSȚINĂTORILOR Propunere Legislativă - LEGE pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice
+
+Deputat/Senator | Grup Nr. | Nume și prenume | Semnătură parlamentar 1. | MINDEU CĂTĂLIN- EMIL | SEIVATOR | USR 2 | PALIM ANA-CYNTHIA-DANA | SEMATOR | USR 3 | RUS VASiLE CiPRIAN | SENATOR | USR 4 | SIPOS SORH-GHISDRGHE | SEMATOR | USR 5 NEGRI EUGEN REMOS | STaTER | VIR Bodea Marius | senatar | USR STETĂMACHE CHEORLI SELIND 8 ANGHEL RĂZVAN PAUL | Sevet | VER J ȘTÊTÕMACHÊ SĘ4OVZ 10 | DEPUTAT | USR BULEARCĂ FELIX
+
+LISTA SUSȚINĂTORILOR Propunere Legislativă - LEGE pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice
+
+Deputat/Senator | Grup Nr. | Nume și prenume | Semnătură parlamentar CRiSTiANI GHiNSA | SEN | USR SATAW-MILISW LORNCG | DEP | usn SToicH fim BORAtE | USR hadu direiță | DEF | USR GIURGIU ADRIAN | \_ DEP | USR BULAI IULIAN | MEP | USR BERESC MONiCA | DẸP | VSR odeanu Bogdan | DEP | USe Millas Faltéu | UIHRDEP | OJHR Stabó Ödon | Apetat LAZAR TEODOR | DEP | USR SENDROIU VL40-10AN | DEP | USR PLOAR ANDREI GEOIZGE | DEP | USR GHEORGHIV ANBREI | DED | uSR 1
+
+STELIAN ION | DE D | USR Dimit niv Acatansm | DRP | osn CZZAR DRAGOES Cu | DEP- | 4S2 DEU | OSR oraschivescn Ovidin Rennuln | DEP | USR NĂCUTĂ SORIN | DEP | ANL Morussi George | DEI | Usr ATANASiU CORiNA | AE P | VSK MURARIU OANA | DEP | USR TANABĂ ȘTOFAN | REP | USR USR ÜSR DEP. | USR CRISTIAN BRIAN | DEP | VSR BLAGA DANIEL | DEP | USR

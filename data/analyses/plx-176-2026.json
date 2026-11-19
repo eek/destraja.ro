@@ -2,129 +2,189 @@
   "billId": "PL-x 176/2026",
   "slug": "plx-176-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T06:31:45.243Z",
+  "updatedAt": "2026-11-19T16:16:13.412Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 16882,
+    "ordinanceChars": 0,
+    "memoChars": 17977,
+    "memoSupplied": 17977,
+    "marker": "SF-7FCDF030"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-176-2026.json",
+    "form": "senat",
+    "textHash": "7fcdf030114bea41",
+    "fetchedAt": "2026-11-19T11:20:26.477Z",
+    "acts": 4,
+    "actsFound": 4,
+    "articlesFound": 15,
+    "articlesShown": 14,
+    "chars": 37571,
+    "truncated": true,
+    "included": true,
+    "key": "938916c64b4ec40a"
+  },
   "consensus": {
-    "riskScore": 4.3,
+    "riskScore": 5.7,
     "riskLevel": "yellow",
-    "plainTitle": "Taxele locale ale bucureștenilor merg la Primăria Generală, care împarte apoi banii sectoarelor",
-    "summaryTlDr": "Reforma are legitimitate democratică reală, prin referendumul din 2024, și nu introduce nicio taxă nouă pentru bucureșteni. Problemele țin de execuție: textul mută toți banii la bugetul municipiului, dar lasă neclar cine controlează și execută creanțele, în ce termen se virează banii și de la ce dată se aplică.",
-    "initiatorClaim": "Inițiatorul spune că pune în aplicare referendumul local din 24 noiembrie 2024 (64,39% „da”, prezență 40,97%). Vrea să corecteze dezechilibrul dintre PMB (~6 mld. lei în 2023, din care ~3 mld. pe subvenții STB și termoficare) și sectoare (~9 mld. lei cumulat), cu fonduri alocate sectoarelor de CGMB după criterii precum populația, suprafața, investițiile și gradul de colectare.",
-    "realityCheck": "Partea vizibilă a textului face un singur lucru. Toate impozitele și taxele locale din București (clădiri, teren, auto, reclamă, spectacole, alte taxe, majorări, amenzi, taxe judiciare de timbru) devin venit al bugetului municipiului, nu al sectoarelor. Contribuabilii nu plătesc mai mult, se schimbă doar destinatarul. Sectoarele își păstrează atribuțiile (școli, asistență socială, salubrizare) și obligația de a colecta și vira banii (art. 490 alin. 2), dar rămân fără venituri fiscale proprii și depind anual de hotărârea majorității din CGMB. Formula de redistribuire către sectoare (modificarea Legii 273/2006, descrisă în Expunere) nu apare în extrasul analizat, deci tocmai miezul reformei nu poate fi verificat.",
+    "plainTitle": "Taxele locale din București merg la Primăria Generală, care decide cât primește fiecare sector",
+    "summaryTlDr": "Reforma are o țintă legitimă și sprijinul referendumului, dar textul dă CGMB un cec în alb: banii pentru sectoare nu au formulă, termen sau soluție de rezervă, iar legea nu are dispoziții tranzitorii. Taxele nu cresc. Riscul real e un blocaj bugetar sau o împărțire arbitrară a banilor.",
+    "initiatorClaim": "Inițiatorul vrea să aplice referendumul din 24 noiembrie 2024 și să corecteze dezechilibrul dintre Primăria Generală, care plătește transportul, termoficarea și marile investiții, și sectoare, care păstrează toate taxele locale. Banii ar urma să intre într-un buget unic și să fie împărțiți sectoarelor după criterii de necesitate și performanță.",
+    "realityCheck": "Toate impozitele și taxele locale din București devin venit al bugetului municipiului, la fel amenzile, taxele judiciare de timbru și impozitul pe venit. Sectoarele colectează în continuare, virează integral banii, apoi primesc «în parte» cât decide CGMB, pe criterii deschise, inclusiv «alte criterii» stabilite tot de CGMB. Art. 32 alin. (3) schimbă în plus cota dintre stat și București la «100%», deși întrebarea de la referendum nu privea această cotă, și nu evaluează efectul asupra bugetului de stat. Lipsesc termenul hotărârii, o regulă pentru cazul în care CGMB nu o adoptă și dispoziții tranzitorii pentru bugetele sectoarelor aflate în execuție.",
     "affectedGroups": [
+      "Toți cetățenii",
       "Proprietari & Imobiliare",
-      "IMM & Antreprenori",
       "Contabili & Fiscalitate",
-      "Șoferi & Auto"
+      "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Articol nou – dispoziții tranzitorii",
-      "proposalContent": "Articol nou: „Prezenta lege se aplică de la 1 ianuarie a anului următor publicării. Sumele plătite de contribuabili în conturile sectoarelor după această dată se consideră plătite la termen, fără majorări de întârziere, și se virează de sector, în cel mult 5 zile lucrătoare, la bugetul local al municipiului București.”",
-      "argumentation": "Dacă legea se aplică la 3 zile de la publicare, în mijlocul exercițiului bugetar, ar lăsa fără venituri bugetele de sector deja aprobate (școli, asistență socială, salubrizare). Art. 490 alin. (2) nu fixează termen de virare, iar contribuabilii nu trebuie penalizați pentru schimbarea conturilor. Previzibilitatea cere o dată clară (art. 1 alin. (5) din Constituție).",
-      "otherComments": "De clarificat și: cine e organ fiscal și parte în contestații și executare silită (sectorul sau municipiul); art. 8 alin. (3) din OG 2/2001, a cărui excepție pentru București e circulară; ponderile criteriilor de repartizare și un termen pentru hotărârea anuală a CGMB, ca sectoarele să nu depindă de majoritatea politică."
+      "articleRef": "Art. V pct. 2, art. 32³ din Legea 273/2006",
+      "proposalContent": "Se elimină lit. g) și se adaugă alin.(2)-(3): „(2) Hotărârea prevăzută la alin.(1) se adoptă anual, până la 31 octombrie, după consultarea scrisă a consiliilor sectoarelor, și stabilește ponderea fiecărui criteriu. (3) Până la adoptarea ei, sectoarele primesc lunar 1/12 din sumele repartizate sau încasate în anul anterior.”",
+      "argumentation": "Art. 32³ lasă repartizarea „în parte”, pe orice criteriu ales de CGMB (lit. g), fără termen și fără soluție dacă hotărârea nu se adoptă. Sectoarele plătesc școli, asistență socială și salarii; un blocaj în CGMB le-ar lăsa fără bani. Termenul, consultarea promisă în expunere și regula de rezervă dau previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
+      "otherComments": "Art. 32 alin. (3) nou alocă „100%” din impozitul pe venit fără să numească bugetul și fără excepția pentru pensii; trebuie precizat bugetul și cuantificat efectul asupra bugetului de stat. Art. IV introduce un alin. (1¹) care există deja în art. 40 din OUG 80/2013 (corect: (1²)). Lipsesc data intrării în vigoare și dispozițiile tranzitorii pentru bugetele în execuție."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 78320,
-      "riskScore": 4,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 111822,
+      "sourceEndMarker": "SF-7FCDF030",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Centralizarea taxelor locale și a amenzilor din București la Primăria Generală (transpunerea referendumului din 2024)",
-      "verdictShort": "Legea transpune legitim votul bucureștenilor de la referendumul din 24 noiembrie 2024 fără a majora taxele, dar conține scăpări tehnice de redactare care pot bloca emiterea deciziilor de impunere și recuperarea costurilor de reabilitare termică de către sectoare.",
-      "initiatorClaim": "Inițiatorii urmăresc punerea în aplicare a referendumului local din 24 noiembrie 2024 prin colectarea într-un buget unic la Primăria Municipiului București (PMB) a impozitelor și taxelor locale, a amenzilor și a cotelor din impozitul pe venit, urmând ca CGMB să repartizeze fondurile către cele 6 sectoare pe bază de criterii obiective.",
-      "realityCheck": "Proiectul nu crește nicio taxă pentru cetățeni sau firme, ci mută destinația tuturor veniturilor fiscale locale și a amenzilor de la bugetele sectoarelor la bugetul PMB. Totuși, redactarea Art. I pct. 10 (art. 490 alin. 2 Cod fiscal) lasă în aer competența de „stabilire și control” a impozitelor (păstrând la sectoare doar „colectarea și virarea”), nu prevede un termen de virare a banilor și elimină temeiul prin care sectoarele își recuperează sumele avansate pentru reabilitarea termică a blocurilor.",
-      "affectedGroups": [
-        "Proprietari & Imobiliare",
-        "IMM & Antreprenori",
-        "Contabili & Fiscalitate",
-        "Șoferi & Auto",
-        "Toți cetățenii"
-      ],
-      "keyFindings": [
-        "Art. I pct. 1–9 și pct. 11 (modificarea art. 455, 463, 468, 475, 477, 478, 480, 486, 488 și 494 din Codul fiscal): Toate impozitele pe clădiri, terenuri, auto, spectacole, taxele HoReCa și de publicitate din Capitală devin venituri integrale ale bugetului Municipiului București, fără modificarea cotelor sau a plafoanelor de impozitare.",
-        "Art. I pct. 10 (art. 490 alin. (2) Cod fiscal): Direcțiile de taxe ale sectoarelor (DGITL 1–6) rămân responsabile exclusiv pentru „colectarea și virarea integrală” a veniturilor către PMB, fiind omisă din text atribuția de „stabilire și control” prevăzută la alin. (1), ceea ce creează un vid de competență privind cine emite deciziile de impunere și cine face inspecția fiscală.",
-        "Art. I pct. 8 (art. 486 alin. (6) Cod fiscal) și Art. III (art. 8 din OG nr. 2/2001): Se elimină consiliile locale ale sectoarelor dintre autoritățile care pot institui taxa de recuperare a reabilitării termice a blocurilor (deși sectoarele au finanțat masiv aceste lucrări), iar toate amenzile contravenționale locale și rutiere aplicate bucureștenilor sunt redirecționate integral către bugetul PMB."
-      ],
-      "blindSpotsCaught": "1) Hazarde operaționale la Art. 490 alin. (2): sectoarele suportă integral costul administrativ al aparatului de colectare (DGITL), dar virează 100% din încasări către PMB, fără ca legea să fixeze un termen de virare sau un mecanism de decontare, și fără a clarifica dacă plățile contribuabililor se fac în IBAN-urile sectoarelor sau direct la PMB. 2) La Art. 475 alin. (3) se menține trimiterea perimată la Ordinul INS nr. 337/2007 (CAEN Rev. 2), deși de la 1 ianuarie 2025 a intrat în vigoare CAEN Rev. 3 (Ordinul INS nr. 377/2024). 3) Lipsesc normele tranzitorii pentru serviciul datoriei publice aferent împrumuturilor deja contractate de sectoare în baza veniturilor proprii.",
-      "constitutionalityNote": "Sub aspectul Art. 2 alin. (1) din Constituție, proiectul dă eficiență voinței exprimate prin referendumul local validat din 24 noiembrie 2024. Totuși, raportat la Art. 1 alin. (5) (claritatea și previzibilitatea legii) și Art. 120–121 (autonomia locală), necorelarea dintre art. 490 alin. (1) și alin. (2) privind omisiunea atribuțiilor de „stabilire și control” la nivelul subdiviziunilor administrativ-teritoriale, precum și absența unor norme tranzitorii care să protejeze angajamentele de credit în derulare ale sectoarelor, pot genera blocaje instituționale și litigii de contencios administrativ și constituțional.",
-      "euLawNote": "Proiectul este neutru față de Directiva (UE) 2018/958 (nu reglementează profesii) și Directiva (UE) 2015/1535 TRIS (nu instituie reglementări tehnice sau digitale). Din perspectiva Cartei Europene a Autonomiei Locale (art. 9 – resursele financiare ale autorităților locale), redistribuirea resurselor între municipiu și subdiviziunile sale este permisă, cu condiția ca fondurile alocate ulterior de CGMB să rămână proporționale cu atribuțiile legale lăsate în sarcina sectoarelor.",
-      "senatForm": {
-        "articleRef": "Art. I pct. 8 și 10 (art. 486 și 490 Cod fiscal)",
-        "proposalContent": "La art. 490, alin. (2) se modifică: „(2) În cazul municipiului București, autoritățile subdiviziunilor și organele lor speciale asigură stabilirea, controlul, colectarea și virarea până la data de 5 a lunii următoare a veniturilor de la alin. (1) către bugetul municipiului București.” La art. 486 alin. (6) se mențin consiliile locale ale sectoarelor.",
-        "argumentation": "Forma adoptată de Senat la art. 490 alin. (2) menționează doar „colectarea și virarea”, omițând „stabilirea și controlul” impozitelor locale, ceea ce ar lăsa fără temei legal emiterea deciziilor de impunere și inspecția fiscală de către DGITL-urile de sector. De asemenea, eliminarea sectoarelor din art. 486 alin. (6) blochează recuperarea ratelor pentru reabilitarea termică.",
-        "otherComments": "Sunt necesare norme tranzitorii privind: (1) intrarea în vigoare de la 1 ianuarie a anului bugetar următor, pentru a nu bulversa execuția bugetară în curs și conturile IBAN de plată; (2) garantarea serviciului datoriei publice pentru împrumuturile deja contractate de sectoare; (3) actualizarea trimiterii CAEN la Ordinul INS nr. 377/2024 în art. 475 alin. (3)."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 204739,
-      "riskScore": 5,
-      "riskLevel": "yellow",
-      "plainTitle": "Taxele locale ale bucureștenilor merg la Primăria Generală, care împarte apoi banii sectoarelor",
-      "verdictShort": "Reforma are legitimitate democratică reală, prin referendumul din 2024, și nu introduce nicio taxă nouă pentru bucureșteni. Problemele țin de execuție: textul mută toți banii la bugetul municipiului, dar lasă neclar cine controlează și execută creanțele, în ce termen se virează banii și de la ce dată se aplică.",
-      "initiatorClaim": "Inițiatorul spune că pune în aplicare referendumul local din 24 noiembrie 2024 (64,39% „da”, prezență 40,97%). Vrea să corecteze dezechilibrul dintre PMB (~6 mld. lei în 2023, din care ~3 mld. pe subvenții STB și termoficare) și sectoare (~9 mld. lei cumulat), cu fonduri alocate sectoarelor de CGMB după criterii precum populația, suprafața, investițiile și gradul de colectare.",
-      "realityCheck": "Partea vizibilă a textului face un singur lucru. Toate impozitele și taxele locale din București (clădiri, teren, auto, reclamă, spectacole, alte taxe, majorări, amenzi, taxe judiciare de timbru) devin venit al bugetului municipiului, nu al sectoarelor. Contribuabilii nu plătesc mai mult, se schimbă doar destinatarul. Sectoarele își păstrează atribuțiile (școli, asistență socială, salubrizare) și obligația de a colecta și vira banii (art. 490 alin. 2), dar rămân fără venituri fiscale proprii și depind anual de hotărârea majorității din CGMB. Formula de redistribuire către sectoare (modificarea Legii 273/2006, descrisă în Expunere) nu apare în extrasul analizat, deci tocmai miezul reformei nu poate fi verificat.",
+      "plainTitle": "Buget unic la Primăria Capitalei: idee votată la referendum, dar lege cu capcane de blocaj și risc de neconstituționalitate",
+      "verdictShort": "Deși transpune un referendum local validat și nu introduce taxe noi, forma adoptată tacit de Senat este plină de omisiuni grave: poate bloca financiar sectoarele, conține erori de tehnică legislativă și riscă respingerea la CCR din cauza impactului neasumat asupra bugetului de stat.",
+      "initiatorClaim": "Inițiatorul urmărește aplicarea referendumului local din 24 noiembrie 2024, centralizând la Primăria Municipiului București impozitele, taxele locale, amenzile și impozitul pe venit, pentru ca CGMB să le distribuie echitabil către sectoare și marile proiecte ale Capitalei, fără a crește taxele.",
+      "realityCheck": "Legea mută integral veniturile locale ale sectoarelor la PMB și crește permanent cota de impozit pe venit pentru București de la 71,5% (fără pensii) la 100% (inclusiv pensii), dar fără fișă financiară și fără a numi destinatarul în textul art. 32 alin. (3). În plus, lasă repartizarea către sectoare la discreția totală a CGMB — fără prag minim, fără termen, fără mecanism de avarie în caz de blocaj politic și fără norme tranzitorii pentru creditele și proiectele aflate în derulare ale sectoarelor.",
       "affectedGroups": [
         "Toți cetățenii",
         "Proprietari & Imobiliare",
-        "Șoferi & Auto",
+        "Contabili & Fiscalitate",
         "IMM & Antreprenori",
+        "Sănătate & Educație",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Impact ascuns asupra bugetului de stat (Art. V pct. 1 — art. 32 alin. (3) din Legea 273/2006): legea de bază alocă acum Bucureștiului 71,5% din impozitul pe venit (fără pensii), iar proiectul urcă permanent cota la 100% (inclusiv pensii) fără fișă financiară și fără a indica sursa de acoperire; în plus, textul omite să precizeze cui se alocă efectiv acești bani.",
+        "Risc major de paralizare a sectoarelor (Art. V pct. 2 — art. 32³ din Legea 273/2006): veniturile se împart sectoarelor «în parte», după criterii pur exemplificative («precum» și «alte criterii»), fără o cotă minimă garantată pentru școli, DGASPC, salubrizare sau rate la credite și fără soluție de avarie dacă CGMB nu are majoritate.",
+        "Lipsă totală de norme tranzitorii și termene de virare (Art. I pct. 10 — art. 490 alin. (2) Cod fiscal): legea intră în vigoare la 3 zile de la publicare, în mijlocul anului bugetar, obligând sectoarele să colecteze și să vireze integral taxele la PMB, fără termen de virare și fără reguli pentru restituirile/compensările contribuabililor sau datoriile garantate cu venituri proprii.",
+        "Eliminarea competenței sectoarelor pentru taxa de reabilitare termică (Art. I pct. 8 — art. 486 alin. (6) Cod fiscal): scoate consiliile locale de sector dintre autoritățile care pot institui taxa de recuperare a cotei proprietarilor (OUG 18/2009), creând un vid pentru programele de anvelopare derulate de sectoare."
+      ],
+      "blindSpotsCaught": "Două capcane majore trecute neobservate prin adoptarea tacită la Senat: (1) Art. IV introduce un nou alin. (1¹) la art. 40 din OUG 80/2013 privind taxele judiciare de timbru, însă alin. (1¹) există deja în lege (introdus prin Legea 324/2024, reglementând plata în numerar a taxelor la ghișeele instanțelor), creând o coliziune normativă care riscă să suprime această facilitate; (2) Art. V pct. 3-4 abrogă art. 33 alin. (6) și modifică art. 33 alin. (7) din Legea 273/2006, eliminând sancțiunea nulității absolute rapide în contencios administrativ (cu termen de 5 zile) pentru hotărârile de repartizare bugetară din București, păstrând-o doar pentru județe.",
+      "constitutionalityNote": "Vulnerabilități serioase pe două paliere ale Constituției: (1) Art. 138 alin. (5) și art. 111 alin. (1) — majorarea permanentă a cotei de impozit pe venit pentru București de la 71,5% la 100% afectează bugetul de stat, dar Expunerea de motive neagă existența unui impact financiar și lipsește fișa financiară; (2) Art. 1 alin. (5) privind calitatea și previzibilitatea legii — dublarea art. 40 alin. (1¹) în OUG 80/2013, lipsa destinatarului din art. 32 alin. (3), absența oricărui termen/mecanism de deblocare la art. 32³ și intrarea în vigoare fără norme tranzitorii. Deși sectoarele sunt subdiviziuni și nu UAT-uri distincte (art. 3 alin. 3), golirea lor completă de garanții financiare fără corelarea cu atribuțiile legale obligatorii contravine art. 9 din Carta Europeană a Autonomiei Locale (ratificată prin Legea 199/1997).",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează profesii) și nici a Directivei (UE) 2015/1535 / TRIS (nu vizează norme tehnice sau servicii digitale). Nu afectează regulile pieței unice europene și nu constituie ajutor de stat, întrucât operează exclusiv o redistribuire bugetară internă între autorități publice locale.",
+      "senatForm": {
+        "articleRef": "Art. V pct. 1-2 (Legea 273/2006, art. 32, 32³)",
+        "proposalContent": "La art. 32 alin. (3), menționarea explicită a bugetului PMB ca destinatar. La art. 32³, introducerea unui termen pentru hotărârea CGMB, a unei cote minime pentru cheltuielile obligatorii și creditele sectoarelor, a unei formule de avarie în caz de blocaj în CGMB și a aplicării de la 1 ianuarie.",
+        "argumentation": "Forma actuală lasă art. 32 alin. (3) fără destinatar și riscă paralizarea financiară a sectoarelor (școli, DGASPC, salubrizare, credite) dacă CGMB nu are majoritate. Intrarea în vigoare în cursul anului fără norme tranzitorii încalcă art. 1 alin. (5) din Constituție și art. 9 din Carta Europeană a Autonomiei Locale.",
+        "otherComments": "Corectați și 3 vicii din forma Senatului: 1) Art. IV introduce art. 40 alin. (1¹) în OUG 80/2013, deși există deja (Legea 324/2024); 2) Art. 32 alin. (3) urcă cota de la 71,5% la 100% fără fișă financiară (risc CCR art. 138 alin. 5); 3) Art. 490 alin. (2) nu are termen de virare, iar art. 33 alin. (7) elimină nulitatea pt. CGMB."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 238595,
+      "sourceEndMarker": "SF-7FCDF030",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Taxele locale din București merg la Primăria Generală, care decide cât primește fiecare sector",
+      "verdictShort": "Reforma are o țintă legitimă și sprijinul referendumului, dar textul dă CGMB un cec în alb: banii pentru sectoare nu au formulă, termen sau soluție de rezervă, iar legea nu are dispoziții tranzitorii. Taxele nu cresc. Riscul real e un blocaj bugetar sau o împărțire arbitrară a banilor.",
+      "initiatorClaim": "Inițiatorul vrea să aplice referendumul din 24 noiembrie 2024 și să corecteze dezechilibrul dintre Primăria Generală, care plătește transportul, termoficarea și marile investiții, și sectoare, care păstrează toate taxele locale. Banii ar urma să intre într-un buget unic și să fie împărțiți sectoarelor după criterii de necesitate și performanță.",
+      "realityCheck": "Toate impozitele și taxele locale din București devin venit al bugetului municipiului, la fel amenzile, taxele judiciare de timbru și impozitul pe venit. Sectoarele colectează în continuare, virează integral banii, apoi primesc «în parte» cât decide CGMB, pe criterii deschise, inclusiv «alte criterii» stabilite tot de CGMB. Art. 32 alin. (3) schimbă în plus cota dintre stat și București la «100%», deși întrebarea de la referendum nu privea această cotă, și nu evaluează efectul asupra bugetului de stat. Lipsesc termenul hotărârii, o regulă pentru cazul în care CGMB nu o adoptă și dispoziții tranzitorii pentru bugetele sectoarelor aflate în execuție.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "Proprietari & Imobiliare",
         "Contabili & Fiscalitate",
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. I pct. 1-9 și 11 (Codul fiscal, art. 455, 463, 468, 475-480, 486, 488, 494): în București, impozitele pe clădiri, teren și mijloace de transport, taxele de reclamă și spectacole și celelalte taxe locale, inclusiv majorările de întârziere și amenzile aferente, se fac venit integral la bugetul municipiului. După Expunere, e vorba de circa 3 mld. lei pe an. Nivelul taxelor nu se modifică.",
-        "Art. I pct. 10 (art. 490 alin. 2): sectoarele rămân responsabile de „colectarea și virarea integrală”, dar textul nu fixează termen de virare, nu spune cine face stabilirea, controlul și executarea silită și nu acoperă costul colectării. Creditorul (municipiul) și organul fiscal (sectorul) devin entități diferite, ceea ce complică contestațiile și litigiile.",
-        "Art. III (OG 2/2001, art. 8 alin. 3-4): amenzile aplicate bucureștenilor merg integral la bugetul municipiului. Fraza pentru persoane juridice („cu excepția celor care se fac venit la bugetul de stat”) e circulară și poate fi citită ca extinzând regula față de restul țării.",
-        "Art. I pct. 11 (art. 494 alin. 10 lit. b) și Art. IV (OUG 80/2013): taxele judiciare de timbru plătite de bucureșteni trec la bugetul municipiului. Extrasul se oprește la Art. IV, deci modificarea Legii 273/2006 (cotele din impozitul pe venit și criteriile de repartizare către sectoare) nu poate fi verificată.",
-        "În extrasul disponibil nu apare nicio dată de aplicare și nicio dispoziție tranzitorie. Dacă legea se aplică la 3 zile de la publicare, bugetele de sector deja aprobate pentru anul în curs rămân fără venituri, iar Art. II dă Guvernului doar 30 de zile pentru adaptarea normelor din HG 1/2016."
+        "Art. I (Codul fiscal, art. 455, 463, 468, 477, 478, 480, 488, 494): în București, impozitele pe clădiri, teren și mijloace de transport, taxele de publicitate, impozitul pe spectacole și celelalte taxe locale devin venit al bugetului municipiului, nu al sectoarelor. Impozitul pe vehiculele grele (art. 494 alin. (5)) trece integral la municipiu; azi se împarte 60% sectoare, 40% municipiu. Cuantumurile nu se schimbă.",
+        "Art. I pct. 10 (art. 490 alin. (2) Cod fiscal): sectoarele colectează în continuare taxele, dar le virează integral municipiului. Textul nu stabilește un termen de virare și nu spune cine suportă costul colectării.",
+        "Art. V pct. 2 (art. 32³ nou din Legea 273/2006): CGMB repartizează «în parte» către sectoare taxele, amenzile, taxele de timbru și impozitul pe venit. Criteriile sunt date doar ca exemple, iar lit. g) permite «alte criterii» stabilite tot de CGMB. Lipsesc ponderile, un minim garantat, termenul, consultarea sectoarelor promisă în expunerea de motive și o regulă pentru cazul în care hotărârea nu se adoptă.",
+        "Art. V pct. 1 (art. 32 alin. (3)): textul permanent de azi dă Bucureștiului 71,5% din impozitul pe venit, fără impozitul pe pensii. Noul text spune «100%», fără să numească bugetul care primește banii, fără excepția pentru pensii, și elimină cota de 7% pentru echilibrare. Expunerea de motive susține că veniturile agregate nu se schimbă, dar nu are o secțiune de impact financiar.",
+        "Art. V pct. 3–4: abrogă art. 33 alin. (6), la care trimite azi art. 32 alin. (4) pentru echilibrarea bugetelor din București. Noua sancțiune de nulitate din art. 33 alin. (7) vizează doar deciziile direcțiilor de finanțe și hotărârile consiliilor județene, nu și hotărârea CGMB de la art. 32³.",
+        "Art. IV introduce în art. 40 din OUG 80/2013 un alin. (1¹), dar acest alineat există deja: încasarea în numerar la ghișeele instanțelor, introdusă prin Legea 324/2024. Numerotarea trebuie corectată. Formula «cu excepția celor care constituie venit la bugetul de stat» nu spune ce taxe vizează.",
+        "Legea nu are dată de intrare în vigoare și nici dispoziții tranzitorii. Ar intra în vigoare la 3 zile de la publicare, în mijlocul exercițiului bugetar, peste bugetele deja aprobate ale sectoarelor. Pentru modificările Codului fiscal, art. 4 din cod cere, ca regulă, minimum 6 luni de la publicare, așa că părți ale reformei s-ar putea aplica de la date diferite."
       ],
-      "blindSpotsCaught": "Referendumul cerea doar ca CGMB să aprobe repartizarea, nu ca toți banii să treacă prin bugetul PMB. O variantă mai puțin invazivă ar respecta votul fără a transforma sectoarele în simpli colectori: CGMB fixează anual cotele, iar Trezoreria împarte automat la sursă. Criteriul „gradului de colectare” atenuează, dar nu elimină, lipsa de stimulent: sectorul încasează, dar nu mai păstrează nimic din ce încasează. Referendumul local nu obligă juridic Parlamentul, așa că legea e o opțiune politică legitimă, nu o obligație. Detaliu tehnic: art. 475 alin. (3) reia trimiterea la CAEN Rev. 2 (Ordinul INS 337/2007), deși între timp a fost adoptată CAEN Rev. 3.",
-      "constitutionalityNote": "Fondul ține de marja de apreciere a legiuitorului: sectoarele sunt subdiviziuni create prin lege, iar repartizarea veniturilor în București e stabilită tot prin lege, deci Parlamentul o poate schimba. Riscurile sunt două. (1) Claritate și previzibilitate (art. 1 alin. 5): art. 490 alin. (2) nu delimitează competențele fiscale dintre sector și municipiu, art. 8 alin. (3) din OG 2/2001 e formulat circular, iar lipsa din extras a unei date de aplicare la început de an fiscal poate perturba execuția bugetară. (2) Autonomia locală (art. 120 alin. 1) și Carta europeană a autonomiei locale, ratificată prin Legea 199/1997 (aplicabilă prin art. 11 din Constituție): art. 9 alin. (3) din Cartă cere ca o parte din resursele autorităților locale să provină din taxe și impozite locale. Sectoarele au consilii și primari aleși și își păstrează atribuțiile, dar rămân fără venituri fiscale proprii. Art. 139 alin. (2) nu e încălcat, pentru că nivelul taxelor îl stabilește tot un consiliu local (CGMB). Referendumul local legitimează politic proiectul, dar nu îl impune constituțional.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: proiectul nu reglementează accesul la profesii sau condițiile de exercitare a acestora. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reglementări tehnice sau reguli privind serviciile societății informaționale. Nu se modifică cote de impozitare și nu apar bariere pe piața unică sau ajutoare de stat. Singura legătură practică cu UE: capacitatea sectoarelor de a cofinanța proiecte cu fonduri europene va depinde de alocarea anuală a CGMB. De aceea, criteriul „asigurarea cofinanțării” din Expunere ar trebui să apară explicit în lege. Carta autonomiei locale ține de Consiliul Europei, nu de dreptul UE.",
+      "blindSpotsCaught": "Art. IV creează un al doilea alin. (1¹) în art. 40 din OUG 80/2013. Art. 32 alin. (3) spune «100%» fără bugetul destinatar și fără excepția actuală pentru pensii. Art. 486 alin. (6) scoate consiliile locale ale sectoarelor dintre cele care pot institui taxa de reabilitare termică. Art. 486 alin. (2) nu mai spune clar dacă sectoarele pot institui taxe pentru echipamente. Art. 486 alin. (4) are și o greșeală de redactare: «la bugetului local».",
+      "constitutionalityNote": "Parlamentul poate reorganiza finanțele Capitalei. Sectoarele sunt subdiviziuni stabilite prin lege, nu prin Constituție, iar Constituția nu le garantează venituri anume. Referendumul local nu obligă Parlamentul, dar proiectul nici nu îl contrazice. Problema principală e calitatea legii (art. 1 alin. (5)): art. 32³ nu are ponderi, termen sau regulă de rezervă și include un criteriu deschis (lit. g). Lipsa dispozițiilor tranzitorii face legea greu de aplicat în cursul anului. Pe art. 120–121 (autonomie locală): sectoarele rămân fără venituri proprii, dar își păstrează obligațiile legale (școli, asistență socială). Fără o repartizare previzibilă, situația contravine corelării resurselor cu atribuțiile din art. 9 al Cartei europene a autonomiei locale, ratificată prin Legea 199/1997. Dacă «100%» de la art. 32 alin. (3) mută venituri de la bugetul de stat, devin incidente art. 111 alin. (1) (informarea Guvernului), art. 138 alin. (5) și art. 15 din Legea 500/2002. Documentele analizate nu conțin o fișă financiară. Adoptarea tacită la Senat (art. 75 alin. (2)) este regulamentară.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează accesul la profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reguli tehnice sau servicii ale societății informaționale. Proiectul nu atinge concurența, ajutorul de stat sau piața unică, iar nivelul taxelor plătite de firme rămâne același. Singura legătură europeană e cofinanțarea proiectelor sectoarelor din fonduri UE: criteriul de la lit. e) o menționează, dar fără sume garantate, așa că angajamentele de cofinanțare deja semnate de sectoare ar depinde de o hotărâre anuală a CGMB. Carta europeană a autonomiei locale ține de Consiliul Europei, nu de dreptul UE.",
       "senatForm": {
-        "articleRef": "Articol nou – dispoziții tranzitorii",
-        "proposalContent": "Articol nou: „Prezenta lege se aplică de la 1 ianuarie a anului următor publicării. Sumele plătite de contribuabili în conturile sectoarelor după această dată se consideră plătite la termen, fără majorări de întârziere, și se virează de sector, în cel mult 5 zile lucrătoare, la bugetul local al municipiului București.”",
-        "argumentation": "Dacă legea se aplică la 3 zile de la publicare, în mijlocul exercițiului bugetar, ar lăsa fără venituri bugetele de sector deja aprobate (școli, asistență socială, salubrizare). Art. 490 alin. (2) nu fixează termen de virare, iar contribuabilii nu trebuie penalizați pentru schimbarea conturilor. Previzibilitatea cere o dată clară (art. 1 alin. (5) din Constituție).",
-        "otherComments": "De clarificat și: cine e organ fiscal și parte în contestații și executare silită (sectorul sau municipiul); art. 8 alin. (3) din OG 2/2001, a cărui excepție pentru București e circulară; ponderile criteriilor de repartizare și un termen pentru hotărârea anuală a CGMB, ca sectoarele să nu depindă de majoritatea politică."
-      }
+        "articleRef": "Art. V pct. 2, art. 32³ din Legea 273/2006",
+        "proposalContent": "Se elimină lit. g) și se adaugă alin.(2)-(3): „(2) Hotărârea prevăzută la alin.(1) se adoptă anual, până la 31 octombrie, după consultarea scrisă a consiliilor sectoarelor, și stabilește ponderea fiecărui criteriu. (3) Până la adoptarea ei, sectoarele primesc lunar 1/12 din sumele repartizate sau încasate în anul anterior.”",
+        "argumentation": "Art. 32³ lasă repartizarea „în parte”, pe orice criteriu ales de CGMB (lit. g), fără termen și fără soluție dacă hotărârea nu se adoptă. Sectoarele plătesc școli, asistență socială și salarii; un blocaj în CGMB le-ar lăsa fără bani. Termenul, consultarea promisă în expunere și regula de rezervă dau previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
+        "otherComments": "Art. 32 alin. (3) nou alocă „100%” din impozitul pe venit fără să numească bugetul și fără excepția pentru pensii; trebuie precizat bugetul și cuantificat efectul asupra bugetului de stat. Art. IV introduce un alin. (1¹) care există deja în art. 40 din OUG 80/2013 (corect: (1²)). Lipsesc data intrării în vigoare și dispozițiile tranzitorii pentru bugetele în execuție."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 95531,
-      "riskScore": 4,
+      "durationMs": 89975,
+      "sourceEndMarker": "SF-7FCDF030",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Taxele Bucureștiului ajung la bugetul Capitalei",
-      "verdictShort": "Proiectul poate susține finanțarea integrată a Bucureștiului, fără să introducă prin dispozițiile analizate un nou impozit sau sancțiuni mai mari. Riscul moderat privește delimitarea competențelor fiscale și continuitatea finanțării sectoarelor; extrasul incomplet nu permite evaluarea întregului mecanism.",
-      "initiatorClaim": "Inițiatorul urmărește aplicarea referendumului din 24 noiembrie 2024 și corectarea dezechilibrului financiar dintre municipalitate și sectoare. Susține că repartizarea decisă de CGMB ar permite finanțarea serviciilor și investițiilor potrivit nevoilor întregului oraș.",
-      "realityCheck": "Art. I redirecționează către bugetul Municipiului București veniturile fiscale locale enumerate, iar art. III redirecționează veniturile din amenzi care revin bugetelor locale, păstrând excepția veniturilor bugetului de stat. Colectarea rămâne expres în sarcina autorităților sectoarelor, deci schimbarea beneficiarului bugetar nu înseamnă automat mutarea ghișeelor sau desființarea bugetelor sectoarelor. Repartizarea impozitului pe venit și criteriile promise apar în expunerea de motive, dar dispozițiile operative corespunzătoare nu sunt cuprinse în extrasul furnizat.",
+      "plainTitle": "Banii Bucureștiului se adună la municipiu, iar Consiliul General decide împărțirea",
+      "verdictShort": "Coordonarea finanțelor Capitalei poate fi utilă, dar proiectul concentrează decizia asupra veniturilor fără să stabilească o formulă suficient de previzibilă pentru finanțarea sectoarelor. Riscul principal este repartizarea discreționară și blocarea serviciilor locale, nu introducerea unor taxe noi.",
+      "initiatorClaim": "Inițiatorul urmărește aplicarea rezultatului referendumului din 24 noiembrie 2024 și corectarea dezechilibrelor dintre municipiu și sectoare. Susține că administrarea integrată a veniturilor va permite finanțarea coerentă a serviciilor și investițiilor Capitalei.",
+      "realityCheck": "Proiectul mută la bugetul municipiului veniturile fiscale locale vizate, amenzile și taxele judiciare de timbru, cu păstrarea excepțiilor pentru bugetul de stat, iar sectoarele continuă colectarea și virează integral veniturile prevăzute de noul art. 490 alin. (2). CGMB decide repartizarea către sectoare, fără ponderi legale, un nivel minim de finanțare sau un mecanism special pentru întârzierea hotărârii; bugetele sectoarelor continuă să existe. Alocarea de 100% din impozitul pe venit și eliminarea excepției explicite pentru veniturile din pensii depășesc simpla redistribuire internă descrisă în motivare și necesită evaluarea impactului asupra bugetului de stat.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Șoferi & Auto",
         "Proprietari & Imobiliare",
         "Justiție & Drepturi Civile",
+        "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 1-3 și 11 mută veniturile din impozitele pe clădiri, terenuri și mijloace de transport către bugetul municipalității. Modificarea destinației încasărilor nu majorează, prin ea însăși, obligația contribuabilului.",
-        "Art. I pct. 4 atribuie CGMB stabilirea taxelor prevăzute la art. 475 alin. (1)-(4). Plafoanele nominale de 4.000 și 8.000 lei pentru autorizarea anumitor activități existau anterior; nu trebuie prezentate ca taxe nou-create. [Reglementarea anterioară](https://legislatie.just.ro/Public/DetaliiDocumentAfis/172600).",
-        "Art. I pct. 10, noul art. 490 alin. (2), păstrează colectarea la sectoare și impune virarea integrală către municipalitate, dar nu precizează termenul virării și nici raportul suficient de clar cu atribuțiile de stabilire și control din alin. (1).",
-        "Art. II acordă Guvernului 30 de zile pentru adaptarea normelor metodologice; acest termen nu echivalează cu amânarea aplicării legii. Extrasul nu permite confirmarea existenței unor dispoziții tranzitorii privind plățile, restituirile, creanțele restante și execuția bugetelor.",
-        "Pentru cetățeni și IMM-uri, costurile suplimentare posibile sunt administrative: adaptarea instrucțiunilor de plată și gestionarea eventualelor necorelări între evidențe. Nu este introdusă expres obligația redepunerii declarațiilor; pentru administrații, virarea și reconcilierea încasărilor presupun costuri de implementare necuantificate în fragment."
+        "Art. I pct. 1-11 schimbă în principal beneficiarul veniturilor: pentru clădiri, terenuri și celelalte venituri vizate, banii ajung la municipiu. Nu sunt introduse prin aceste modificări cote fiscale mai mari sau contravenții noi; cuantumurile și limitele reproduse la art. 475 existau deja.",
+        "Art. V pct. 2, noul art. 32³, permite repartizarea pe baza unor criterii «precum» cele enumerate și adăugarea altora prin hotărâre a CGMB. Lipsesc ponderile, limitele pentru partea reținută de municipiu și garanțiile specifice de continuitate a finanțării sectoarelor; regulile generale de transparență și control judecătoresc rămân aplicabile.",
+        "Art. V pct. 1 înlocuiește mecanismul permanent de la art. 32 alin. (3), care repartizează 71,5% și exclude impozitul pe veniturile din pensii, cu o alocare de 100%, fără această excludere. Derogările bugetare anuale trebuie verificate separat; din extrase nu se poate calcula sigur diferența față de execuția efectivă din 2026.",
+        "Art. V pct. 3 abrogă art. 33 alin. (6), iar pct. 4 elimină trimiterea la acesta din sancțiunea specială a nulității. Mecanismul bucureștean este înlocuit cu noile reguli, fără ca noul art. 32³ să fie inclus în acea sancțiune specială; aceasta nu elimină contenciosul administrativ general.",
+        "Art. I pct. 10 păstrează regula generală privind stabilirea, controlul și colectarea și adaugă obligația sectoarelor de colectare și virare integrală. Sectoarele suportă astfel activitatea de colectare, dar proiectul nu stabilește un calendar special al virărilor sau finanțarea acestui serviciu.",
+        "Art. IV propune introducerea art. 40 alin. (1¹), deși forma consolidată furnizată conține deja un alineat cu acest număr, referitor la încasarea taxelor la instanțe. Este necesară renumerotarea completării, cu păstrarea mecanismului existent; textul propus nu îl abrogă expres.",
+        "Art. I pct. 8 elimină menționarea expresă a consiliilor locale de sector dintre autoritățile care pot institui taxa de reabilitare termică. Modificarea privește și competența fiscală, nu doar destinația banilor, și trebuie corelată cu finanțările și recuperările contribuțiilor proprietarilor potrivit OUG nr. 18/2009.",
+        "Art. I pct. 11, art. 494 alin. (5), transferă integral municipiului veniturile speciale din impozitul pe anumite mijloace de transport, dar păstrează utilizarea lor exclusivă pentru drumuri. Centralizarea nu permite folosirea acestor sume pentru orice cheltuială.",
+        "Art. II acordă Guvernului 30 de zile pentru actualizarea normelor, dar nu amână expres aplicarea reformei până atunci. Lipsesc reguli speciale pentru anul bugetar în curs, solduri, restituiri, creanțe restante și angajamente existente; normele metodologice nu pot suplini garanțiile care trebuie stabilite prin lege."
       ],
-      "blindSpotsCaught": "Referendumul privește cine aprobă repartizarea veniturilor; nu stabilește el însuși centralizarea integrală a încasărilor sau dispariția celor șapte bugete. Centralizarea este soluția legislativă aleasă. În plus, extrasul se întrerupe la art. IV: lipsa din extras a garanțiilor de repartizare nu dovedește lipsa lor din proiect, iar formulările rupte la art. 494 alin. (10) trebuie tratate ca posibile erori de extragere.",
-      "constitutionalityNote": "Art. 1 alin. (5) impune delimitarea previzibilă a competențelor fiscale și corelarea regulilor de aplicare. Art. 120 și 121 justifică verificarea autonomiei locale și a resurselor necesare atribuțiilor sectoarelor, fără să garanteze o anumită cotă fiscală imuabilă; centralizarea veniturilor nu este automat neconstituțională. Art. 139 alin. (2) permite stabilirea impozitelor și taxelor locale în limitele legii. Art. 23 alin. (12), privind legalitatea pedepsei, nu fundamentează aici o critică directă: fragmentul nu introduce pedepse sau sancțiuni noi. O concluzie definitivă necesită textul integral și regulile efective de repartizare. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355?isFormaDeBaza=True).",
-      "euLawNote": "Nu rezultă monopoluri, privilegii pentru operatori sau restricții discriminatorii asupra concurenței și pieței unice. Directiva (UE) 2018/958 privește restricțiile privind accesul la profesii reglementate ori exercitarea lor; simpla redistribuire a veniturilor fiscale nu declanșează testul său obligatoriu. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng). Fragmentul nu instituie specificații tehnice pentru produse sau reguli destinate în mod specific serviciilor digitale ori AI, astfel că nu identific un temei pentru notificarea TRIS. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535).",
+      "blindSpotsCaught": "În partea finală, proiectul schimbă și relația financiară cu bugetul de stat prin alocarea de 100% din impozitul pe venit, deși expunerea prezintă reforma ca redistribuire exclusiv internă. Totodată, promisiunile unui «buget unic» și ale consultării sectoarelor nu sunt transpuse astfel în articole: bugetele distincte rămân, iar consultarea nu este prevăzută expres în noul mecanism. Cererea de urgență anexată motivării nu dovedește aprobarea procedurii; fișa oficială indică procedură obișnuită.",
+      "constitutionalityNote": "Centralizarea la nivel municipal nu este, în sine, neconstituțională: art. 121 alin. (3) permite organizarea autorităților în subdiviziunile municipiilor potrivit legii, iar autonomia locală nu garantează cote fiscale imuabile. Totuși, marja foarte largă de repartizare, fără parametri suficienți și fără tranziție bugetară, ridică probleme de previzibilitate potrivit art. 1 alin. (5), în legătură cu autonomia locală din art. 120 și cadrul bugetar și fiscal din art. 138-139. Referendumul local nu înlocuiește aceste exigențe și nici evaluarea resurselor necesare atribuțiilor păstrate de sectoare. Pentru modificarea bugetelor trebuie verificată solicitarea informării Guvernului potrivit art. 111 alin. (1); documentele furnizate nu permit constatarea unei încălcări procedurale. Calendarul aplicării trebuie corelat cu art. 78 din Constituție și regulile relevante din art. 4 al Codului fiscal. Art. 23 alin. (12), privind legalitatea pedepsei, nu este un reper direct pentru această redistribuire de venituri, care nu introduce pedepse.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testarea proporționalității restricțiilor asupra profesiilor reglementate; proiectul nu introduce asemenea restricții. Nu rezultă norme tehnice pentru produse sau reguli specifice serviciilor societății informaționale care să declanșeze notificarea TRIS potrivit Directivei (UE) 2015/1535; menționarea publicității nu este suficientă. Nu apar monopoluri, restricții directe asupra pieței unice sau avantaje selective acordate întreprinderilor. Pot exista costuri administrative de adaptare a conturilor și evidențelor, dar textul nu impune expres IMM-urilor raportări suplimentare. Carta europeană a autonomiei locale este un tratat al Consiliului Europei, nu drept al UE; invocarea ei în motivare nu demonstrează singură adecvarea finanțării.",
       "senatForm": {
-        "articleRef": "Art. I pct. 10 – art. 490 alin. (2)",
-        "proposalContent": "(2) În municipiul București, organele fiscale locale ale sectoarelor asigură stabilirea, controlul și colectarea veniturilor prevăzute la alin. (1), pe care le virează integral la bugetul local al municipiului București în cel mult 5 zile lucrătoare de la încasare. Schimbarea bugetului beneficiar nu impune contribuabililor redepunerea declarațiilor fiscale.",
-        "argumentation": "Textul distinge colectarea de stabilire și control fără să delimiteze suficient competențele. Precizarea organului fiscal și a termenului de virare previne conflictele administrative și întârzierile. Menținerea declarațiilor depuse evită costuri inutile pentru cetățeni și firme.",
-        "otherComments": "Propunere cetățenească pentru cele trei comisii sesizate în fond ale Camerei Deputaților, spre eventuala preluare de un deputat. Analiza privește extrasul furnizat, întrerupt la art. IV; regulile de repartizare și tranziție trebuie verificate în textul integral. Termenul indicat pentru amendamente, 23.03.2026, este depășit."
-      }
+        "articleRef": "Art. V pct. 2 – art. 32³ alin. (1)",
+        "proposalContent": "(1) Veniturile se repartizează sectoarelor prin hotărâre motivată a CGMB, după consultarea acestora, înaintea aprobării bugetelor locale. Criteriile și ponderile se publică anterior consultării. Repartizarea este nediscriminatorie și asigură cu prioritate resursele pentru atribuțiile legale, serviciul datoriei și cofinanțările contractate.",
+        "argumentation": "Sectoarele păstrează atribuții și obligații de plată, dar pierd veniturile directe vizate. Criteriile exemplificative, fără ponderi și garanții de finanțare, permit alocări imprevizibile. Amendamentul susține aplicarea referendumului cu respectarea art. 1 alin. (5) și art. 120 din Constituție.",
+        "otherComments": "Sunt necesare și reguli tranzitorii pentru primul an și întârzierea repartizării, evaluarea efectului cotei de 100% asupra bugetului de stat și corelarea cu derogările bugetare anuale. La art. IV, completarea trebuie renumerotată: art. 40 alin. (1¹) există deja în forma consolidată furnizată."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T06:31:45.243Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 4,
+        "claude": 5,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-19T16:16:13.412Z",
+      "reasons": [
+        "metoda",
+        "model"
+      ]
+    }
+  ]
 }

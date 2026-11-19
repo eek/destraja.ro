@@ -1,0 +1,29 @@
+# Parlamentul României
+
+Camera Deputaților
+
+Senat
+
+LEGE
+
+privind modificarea și completarea Art. 3 din Legea nr. 367/2022 privind dialogul social
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic. Articolul 3 din Legea nr. 367/2022 din 19 decembrie 2022 privind dialogul social, publicată în Monitorul Oficial nr. 1238 din 22 decembrie 2022, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+\- după alin. (2) se introduce un nou alineat, alin. (2^1), cu următorul cuprins:
+
+(2^1) Persoanele prevăzute la alin. (1), ale căror contracte individuale de muncă sau raporturi juridice de muncă sau de serviciu au încetat, care contestă încetarea contractelor individuale de muncă sau a raporturilor de muncă sau de serviciu sau se judecă pentru drepturi aferente perioadei anterioare încetării acestor raporturi, își păstrează calitatea de membri de sindicat până la soluționarea definitivă a proceselor în care se judecă, dacă sunt apărate de sindicat în condițiile legii. Aceste persoane nu vor fi luate în considerare la stabilirea numărului de membri de sindicat în raport cu care se constată reprezentativitatea sindicatului.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin.(1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR,
+
+PREȘEDINTELE
+
+SENATULUI,
+
+București,
+
+Nr. ...... .

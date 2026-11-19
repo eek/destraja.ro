@@ -1,0 +1,69 @@
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+SENATUL
+
+## LEGE
+
+privind modificarea și completarea Legii nr. 334/2006 privind finanțarea activității partidelor politice și a campaniilor electorale
+
+În temeiul art. 1 alin. (3) și (5) și art. 69 din Constituția României, Parlamentul României adoptă prezenta lege:
+
+Articol unic. – Legea nr. 334/2006 sprivind finanțarea activității partidelor politice și a campaniilor electorale, publicată în Monitorul Oficial al României, Partea I, nr. 651 din 27 Iulie 2006, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. Articolul 3 se modifică și va avea următorul cuprins:
+
+Art. 3. – (1) Finanțarea publică a partidelor politice se acordă proporțional cu: a) numărul de voturi valabil exprimate obținute la alegerile parlamentare și locale;
+
+b) activitatea politică desfășurată între perioadele electorale;
+
+c) gradul de transparență financiară și respectarea obligațiilor de raportare;
+
+d) participarea la lucrările parlamentare și implicarea în activități comunitare.
+
+(2) Subvențiile pot fi reduse proporțional, până la 100%, în cazul constatării unor perioade de inactivitate politică semnificativă, aplicării de sancțiuni legale ori nerespectării obligațiilor de transparență și raportare.
+
+2\. După articolul 3 se introduce un nou articol, articolul 3¹, cu următorul cuprins: Art. 3¹ – Plafonarea bugetară și măsuri de protecție fiscală:
+
+(1) Bugetul anual alocat pentru finanțarea publică a partidelor politice nu poate depăși 0,01% din produsul intern brut al României, estimat pentru anul bugetar respectiv.
+
+(2) Sumele alocate și neutilizate în cursul unui exercițiu bugetar se restituie automat bugetului de stat.
+
+(3) În situația în care deficitul bugetar anual al României depășește pragul de 3% din PIB, subvențiile acordate partidelor politice se reduc automat cu 50% în anul următor.
+
+3\. După articolul 3¹ se introduce un nou articol, articolul 3², cu următorul cuprins:
+
+Art. 3² – Obligații de raportare și transparență publică:
+
+(1) Partidele politice beneficiare de finanțare publică au obligația de a publica, anual, cel târziu până la data de 31 martie a anului următor, următoarele documente:
+
+a) un raport detaliat privind activitățile desfășurate din fonduri publice;
+
+b) situația cheltuielilor efectuate;
+
+c) proiectele și inițiativele politice sprijinite în perioada de raportare.
+
+(2) Raportul prevăzut la alin. (1) se publică atât pe site-ul oficial al partidului politic, cât și pe site-ul Autorității Electorale Permanente.
+
+(3) Nerespectarea obligației de raportare atrage suspendarea acordării subvenției pentru exercițiul bugetar următor.
+
+4\. Articolul 24 se modifică și va avea următorul cuprins:
+
+Art. 24 – Toate cheltuielile efectuate din fonduri publice sunt înregistrate într-un registru digital public, accesibil în timp real, arhivat electronic pentru o perioadă de 10 ani.
+
+## Dispoziții finale
+
+(1) Prezenta lege intră în vigoare în 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 alin. (1) și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Camerei Deputaților,
+
+Președintele Interimar al Senatului,
+
+ȘERBAN Ciprian-Constantin
+
+BOLOJAN Ilie
+
+Inițiator: Deputat MATEI Sergiu-Lucian PARTIDUL OAMENILOR TINERI

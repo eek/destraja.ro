@@ -1,0 +1,11 @@
+Expunere de motive
+
+Prezenta inițiativă legislativă are ca obiect de reglementare instituirea imposibilității ca o persoană să fie titularul a două sau mai multe contracte individuale de muncă, rapoarte de serviciu sau să fie beneficiarul a două sau mai multe acte de numire în cadrul autorităților și instituțiilor publice centrale și locale, precum și în cadrul regiilor autonome, societăților naționale, companiilor naționale și societăților comerciale la care capitalul social este deținut integral sau majoritar de stat ori de o unitate administrativ-teritorială, în condițiile în care acestea sunt retribuite prin indemnizații sau salarii de la bugetul de stat. O astfel de măsură urmărește: - Evitarea conflictului de interese - când o persoană ocupă simultan mai multe funcții, ar putea apărea situații de incompatibilitate sau interese contradictorii. - Optimizarea cheltuielilor publice - limitarea numărului de contracte ar putea reduce povara financiară asupra bugetului public, prin evitarea supraîncărcării financiare a instituțiilor sau companiilor de stat. - Asigurarea unei mai bune distribuiri a resurselor umane - limitarea cumulului de funcții permite ca mai multe persoane să ocupe posturi în instituții și să fie implicate activ în activitatea acestora. - Această restricție s-ar aplica autorităților publice centrale și locale, regiilor autonome, societăților naționale și comerciale cu capital majoritar de stat, și ar fi relevantă în cazul în care veniturile persoanelor respective provin din bugetul de stat, fie sub forma indemnizațiilor, fie sub forma salarillor. Prezenta inițiativă legislativă prevede o serie de excepții de la regula interzicerii cumulului de funcții sau acte de numire în sectorul public. Aceste excepții sunt introduse pentru a permite anumitor categorii de persoane să ocupe mai multe funcții sau să obțină venituri din surse multiple, în anumite condiții.
+
+Excepțiile prevăzute la art.2 asigură o flexibilitate necesară pentru anumite categorii protesionale sau sociale, permițând cumulul de funcții în anumite cazuri speciale, fără a contraveni scopului general al legii.
+
+Față de aceste argumente, supunem aprobării Parlamentului prezenta Lege.
+
+Inițiator:
+
+Nr. | Grup Crt. | Nume/Prenume | Parlamentar | Semnățura -POPESCU VLAD-PIEDCLE | PSD (PUSL Catéricù Steluta | ASA (PUST STOIAN MARIA | PSD (TU54)

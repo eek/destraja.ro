@@ -1,0 +1,151 @@
+{
+  "billId": "Pl-x 184/2025",
+  "slug": "plx-184-2025",
+  "version": "initiator",
+  "updatedAt": "2026-11-19T14:45:11.800Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 5119,
+    "ordinanceChars": 0,
+    "memoChars": 7086,
+    "memoSupplied": 7086,
+    "marker": "SF-F25435B0"
+  },
+  "consensus": {
+    "riskScore": 8.3,
+    "riskLevel": "red",
+    "plainTitle": "Lege despre inteligența artificială: câteva idei bune, dar închisoare pentru reguli vagi",
+    "summaryTlDr": "Câteva principii sănătoase sunt îngropate sub pedepse de 2–5 ani de închisoare pentru fapte descrise vag și sub amenzi de până la 100 de milioane de lei: niciun judecător-robot, un om în deciziile administrative, dreptul la explicații. Ca model AI, văd o lege care ignoră complet Regulamentul UE privind IA, deja în vigoare, și care poate face infracțiune din simpla folosire a unui program de decizie care nu-și poate explica rezultatul.",
+    "initiatorClaim": "Inițiatorii spun că România nu are un cadru pentru inteligența artificială. Susțin că supravegherea în masă, discriminarea algoritmică, deepfake-urile electorale și deciziile opace cer reguli stricte și pedepse severe, inclusiv închisoare, ca să descurajeze abuzurile.",
+    "realityCheck": "Legea are 12 articole și conține câteva interdicții rezonabile: fără hotărâri judecătorești date de IA, fără decizii administrative fără om, iar medicul validează deciziile medicale. Nu numește însă nicio autoritate care să certifice, să auditeze sau să controleze. Partea cu efect imediat sunt sancțiunile penale din art. 10–11, scrise atât de larg încât o firmă sau o instituție care folosește un sistem de decizie automată fără „explicabilitate” expune oameni la 2–5 ani de închisoare. Definiția IA din art. 2 cuprinde orice sistem informatic care „ia decizii”, iar auditul anual independent din art. 6 ar lovi IMM-urile, fără să spună cine îl face și cât costă.",
+    "affectedGroups": [
+      "IT & AI",
+      "IMM & Antreprenori",
+      "Justiție & Drepturi Civile",
+      "Sănătate & Educație"
+    ],
+    "senatForm": {
+      "articleRef": "Art. 11 (și art. 10) – Sancțiuni",
+      "proposalContent": "Art. 11 se înlocuiește: «Nerespectarea obligațiilor de transparență și explicare prevăzute la art. 7 constituie contravenție și se sancționează, în limitele art. 99 din Regulamentul (UE) 2024/1689, de autoritatea desemnată prin lege, cu amenzi cu minim și maxim, mai mici pentru IMM-uri.» Se elimină pedeapsa închisorii.",
+      "argumentation": "Art. 11 pedepsește cu 2–5 ani de închisoare lipsa „explicabilității”, fără autoritate de control, fără minim al amenzii și fără a spune dacă amenda e penală sau contravențională. Contravine art. 1 alin. (5) și art. 23 alin. (12) din Constituție și dublează Regulamentul UE privind IA, direct aplicabil, care cere sancțiuni proporționale.",
+      "otherComments": "Art. 10 cere aceeași corectură: faptele sunt vagi („supraveghere excesivă”), „nediscriminatorie” spune opusul a ce se vrea, amenda de până la 100 mil. lei ocolește art. 137 C.pen., iar autoritățile publice nu răspund penal (art. 135 C.pen.). Definiția IA din art. 2 ar trebui preluată din Regulamentul (UE) 2024/1689. Proiectul trebuie notificat în TRIS."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 62131,
+      "sourceEndMarker": "SF-F25435B0",
+      "riskScore": 9,
+      "riskLevel": "red",
+      "plainTitle": "Lege paralelă pentru AI cu închisoare și amenzi de 100 de milioane de lei",
+      "verdictShort": "Un proiect redactat precar care ignoră Regulamentul european AI Act și introduce pedepse cu închisoarea de 2–5 ani și amenzi de până la 100 milioane lei pentru concepte tehnice vagi precum lipsa „explicabilității”. Fără nicio autoritate de supraveghere desemnată, legea ar bloca juridic firmele IT, IMM-urile și instituțiile care folosesc software modern.",
+      "initiatorClaim": "Inițiatorii susțin că România nu are un cadru legal adecvat pentru inteligența artificială și vor să protejeze drepturile fundamentale împotriva supravegherii masive, discriminării algoritmice, manipulării electorale și deciziilor automate opace.",
+      "realityCheck": "În realitate, legea dublează și contrazice Regulamentul (UE) 2024/1689 (AI Act), obligând la audit anual independent orice sistem AI folosit în decizii (Art. 6) și pedepsind penal cu 2–5 ani de închisoare și amenzi de până la 100 milioane lei lipsa „explicabilității” (Art. 11) sau noțiuni nedefinite ca „manipularea opiniei publice” (Art. 10). Textul nu desemnează nicio autoritate care să certifice, auditeze sau sancționeze și intră în vigoare în 90 de zile fără norme de aplicare.",
+      "affectedGroups": [
+        "IT & AI",
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 11 incriminează cu 2–5 ani de închisoare și amendă de până la 100.000.000 lei orice entitate care dezvoltă sau folosește AI în decizii automate fără „transparență și explicabilitate” — un standard nedefinit și adesea imposibil tehnic pentru modelele neuronale moderne (deep learning/LLM).",
+        "Art. 10 introduce infracțiuni complet imprevizibile („manipularea opiniei publice”, „supraveghere excesivă”, „încălcarea drepturilor fundamentale”) și amenzi penale în sume fixe (500.000–100.000.000 lei) pentru persoane juridice, inclusiv instituții și ONG-uri, cu trimitere inexistentă în Codul penal la „prevederile pentru infracțiuni economice”.",
+        "Art. 6 alin. (2) impune audit anual de către o „entitate independentă” pentru absolut orice sistem AI implicat în procese decizionale, indiferent de nivelul de risc sau mărimea firmei, iar Art. 7 alin. (2) obligă la oferirea opțiunii de interacțiune umană pentru orice interacțiune cu un AI.",
+        "Art. 9 interzice „deepfake-urile menite să manipuleze opinia publică” fără a defini termenul și fără excepții pentru satiră, pamflet sau artă, deschizând calea spre cenzură arbitrară."
+      ],
+      "blindSpotsCaught": "Proiectul suferă de vid instituțional total: impune certificări (Art. 4), aprobări (Art. 5), audituri independente anuale (Art. 6) și amenzi de până la 100 milioane lei (Art. 10–11) în termen de 90 de zile (Art. 12), fără a numi nicio autoritate de supraveghere sau constatare. În plus, instituie reglementări tehnice pentru servicii digitale fără procedura obligatorie de notificare europeană TRIS (Directiva 2015/1535) și ignoră complet existența AI Act-ului european.",
+      "constitutionalityNote": "Proiectul prezintă vicii grave de neconstituționalitate: încalcă Art. 1 alin. (5) (claritatea și previzibilitatea legii) și Art. 23 alin. (12) (legalitatea incriminării și a pedepsei) prin infracțiuni vagi și incompatibile cu sistemul zilelor-amendă din Art. 137 Cod penal. Încalcă Art. 148 alin. (2) privind prioritatea regulamentelor UE direct aplicabile, Art. 30 (libertatea de exprimare, prin interzicerea nedefinită a deepfake-urilor și a „manipulării opiniei publice”) și Art. 45 coroborat cu Art. 53 (restrângerea disproporționată a libertății economice).",
+      "euLawNote": "Intră în conflict frontal cu Regulamentul (UE) 2024/1689 (AI Act), care este direct aplicabil și armonizează deplin definiția AI, clasificarea pe riscuri, obligațiile dezvoltatorilor și sancțiunile — statele membre nu pot crea regimuri paralele care blochează piața unică. Art. 8 și Art. 9 alin. (2) dublează și contrazic GDPR și Regulamentul (UE) 2022/2065 (DSA). Obligațiile impuse furnizorilor de software și platformelor digitale necesită notificare prealabilă la Comisia Europeană conform Directivei (UE) 2015/1535 (TRIS), în lipsa căreia normele devin inopozabile particularilor; totodată, barierele impuse încalcă principiul proporționalității pe piața unică.",
+      "senatForm": {
+        "articleRef": "Art. 1-12 (întregul proiect – respingere)",
+        "proposalContent": "Solicit raport de respingere a Pl-x 184/2025 și armonizarea legislației naționale strict în limitele Regulamentului (UE) 2024/1689 (AI Act). În subsidiar, eliminarea Art. 6 alin. (2), Art. 10 și Art. 11, redefinirea AI conform AI Act și desemnarea clară a autorității naționale de supraveghere.",
+        "argumentation": "Proiectul încalcă Art. 1 alin. (5) și Art. 23 alin. (12) din Constituție prin infracțiuni vagi (2-5 ani închisoare și amenzi de 100 mil. lei pentru lipsa „explicabilității”). Contrazice AI Act (Reg. UE 2024/1689), DSA și GDPR, dublează reglementările UE și impune audituri anuale fără autoritate desemnată.",
+        "otherComments": "Adoptarea fără notificarea Comisiei Europene conform Directivei (UE) 2015/1535 (TRIS) face legea inopozabilă particularilor. Totodată, amenzile penale în sume fixe (Art. 10) încalcă sistemul zilelor-amendă din Art. 137 Cod penal, iar termenul de 90 de zile fără norme de aplicare blochează mediul IT."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 224369,
+      "sourceEndMarker": "SF-F25435B0",
+      "riskScore": 8,
+      "riskLevel": "red",
+      "plainTitle": "Lege despre inteligența artificială: câteva idei bune, dar închisoare pentru reguli vagi",
+      "verdictShort": "Câteva principii sănătoase sunt îngropate sub pedepse de 2–5 ani de închisoare pentru fapte descrise vag și sub amenzi de până la 100 de milioane de lei: niciun judecător-robot, un om în deciziile administrative, dreptul la explicații. Ca model AI, văd o lege care ignoră complet Regulamentul UE privind IA, deja în vigoare, și care poate face infracțiune din simpla folosire a unui program de decizie care nu-și poate explica rezultatul.",
+      "initiatorClaim": "Inițiatorii spun că România nu are un cadru pentru inteligența artificială. Susțin că supravegherea în masă, discriminarea algoritmică, deepfake-urile electorale și deciziile opace cer reguli stricte și pedepse severe, inclusiv închisoare, ca să descurajeze abuzurile.",
+      "realityCheck": "Legea are 12 articole și conține câteva interdicții rezonabile: fără hotărâri judecătorești date de IA, fără decizii administrative fără om, iar medicul validează deciziile medicale. Nu numește însă nicio autoritate care să certifice, să auditeze sau să controleze. Partea cu efect imediat sunt sancțiunile penale din art. 10–11, scrise atât de larg încât o firmă sau o instituție care folosește un sistem de decizie automată fără „explicabilitate” expune oameni la 2–5 ani de închisoare. Definiția IA din art. 2 cuprinde orice sistem informatic care „ia decizii”, iar auditul anual independent din art. 6 ar lovi IMM-urile, fără să spună cine îl face și cât costă.",
+      "affectedGroups": [
+        "IT & AI",
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 11: orice entitate care dezvoltă sau folosește IA pentru decizii automate fără „transparență și explicabilitate” riscă o amendă de până la 100 mil. lei, iar persoanele fizice „responsabile” riscă 2–5 ani de închisoare. Amenda nu are minim. Textul nu spune dacă amenda e penală sau contravențională, cine constată fapta și ce explicație e suficientă. Cum „explicabilitatea” e definită ca o calitate a sistemului (art. 2 pct. 3), simpla folosire a unui model greu de explicat poate deveni infracțiune.",
+        "Art. 10 alin. (1): infracțiunea înseamnă folosirea IA „în scopuri care încalcă drepturile și libertățile fundamentale”, inclusiv prin „manipulare” sau „supraveghere excesivă”, termeni nedefiniți. Pedeapsa e 2–5 ani. Firmele primesc amenzi fixe de 500.000–100.000.000 lei, cu mult peste sistemul zilelor-amendă din art. 137 C.pen., unde plafonul rămâne sub 2 mil. lei pentru fapte cu maximum 5 ani. Textul trimite și la „infracțiuni economice”, o categorie care nu există în Codul penal.",
+        "Art. 10 alin. (1) lit. b) pune „instituțiile” printre cei sancționați penal, deși autoritățile publice nu răspund penal (art. 135 C.pen.). Art. 10 alin. (2) lit. b) obligă autoritatea să despăgubească victimele și o supune unor „controale suplimentare” ale unor instituții pe care nu le numește.",
+        "Art. 2 definește IA ca „orice sistem informatic” capabil de învățare, raționament sau luarea deciziilor, mult mai larg decât Regulamentul UE. Art. 6 alin. (2) cere audit anual, făcut de o „entitate independentă”, pentru orice sistem IA folosit în procesul decizional. Combinate, cele două lovesc direct IMM-urile, fără să spună cine poate audita, după ce standard și cu ce cost.",
+        "Art. 9: deepfake-urile „menite să manipuleze opinia publică” sunt interzise fără excepții pentru satiră, parodie sau artă, iar interdicția se suprapune cu infracțiunea vagă de „manipulare a opiniei publice” din art. 10. Platformele trebuie să eticheteze conținutul generat de IA, deși nu îl pot detecta sigur. Obligația nu are sancțiune proprie și nici autoritate de control.",
+        "Art. 4 alin. (2) cere certificare, iar art. 5 alin. (1) cere aprobare de la „autoritățile competente”, fără ca vreuna să fie numită. Software-ul IA medical e deja reglementat ca dispozitiv medical cu marcaj CE prin Regulamentul (UE) 2017/745. Legea nu prevede nicăieri norme de aplicare, termene sau o autoritate de supraveghere.",
+        "Părți bune: interzicerea hotărârilor judecătorești date de IA (art. 4 alin. 1), omul obligatoriu în deciziile administrative (art. 3 alin. 2), validarea de către medic (art. 5 alin. 2), dreptul la explicații și la un interlocutor uman (art. 7). În mare, ele reiau însă GDPR (art. 22) și Regulamentul UE privind IA (art. 14, 50, 86), iar „intervenția umană” nu e definită."
+      ],
+      "blindSpotsCaught": "Proiectul nu pomenește nicăieri Regulamentul (UE) 2024/1689 privind IA (AI Act). Regulamentul e în vigoare din 1 august 2024, iar interdicțiile lui se aplică din 2 februarie 2025. Expunerea de motive vorbește doar de „diverse inițiative europene”. Regulamentul obligă statele să desemneze autorități și să stabilească sancțiuni (art. 70 și 99). Proiectul nu face niciuna, ci creează un regim paralel. Mai e o capcană de redactare: art. 2 definește „decizii algoritmice semnificative”, dar termenul nu mai apare în niciun articol. Astfel art. 7 și art. 11 se aplică oricărei decizii automate, oricât de mărunte, iar filtrul „semnificativ” rămâne fără efect. La art. 10 alin. (2) lit. a), „nediscriminatorie”, adică fără discriminare, pare traducerea greșită a lui „indiscriminate”, adică nediferențiată. Literal, textul pedepsește supravegherea care nu discriminează.",
+      "constitutionalityNote": "Art. 10 și 11 descriu infracțiuni prin formule ca „scopuri care încalcă drepturile fundamentale”, „supraveghere excesivă” sau lipsa „explicabilității”, fără elementele precise ale faptei. CCR cere ca norma penală să fie clară și previzibilă (art. 1 alin. 5 și art. 23 alin. 12; de exemplu Decizia nr. 405/2016), deci aceste texte riscă serios să fie declarate neconstituționale. Interdicția deepfake-urilor „menite să manipuleze opinia publică” (art. 9) restrânge libertatea de exprimare (art. 30) fără excepții pentru satiră sau parodie și fără test de proporționalitate (art. 53). Auditul anual obligatoriu pentru orice sistem decizional (art. 6) atinge libertatea economică (art. 45) fără o justificare de proporționalitate. Auditul sistemelor din administrație și despăgubirile plătite de autorități au impact bugetar, dar proiectul nu arată sursa de finanțare (art. 138 alin. 5; punctul de vedere al Guvernului, art. 111). Pozitiv: interdicția hotărârilor judecătorești date de IA (art. 4) se potrivește cu art. 124–126, potrivit cărora justiția se înfăptuiește de instanțe. Formula finală invocă art. 76 alin. (1), deci legea e tratată ca organică, cum cere art. 73 alin. (3) lit. h) pentru infracțiuni.",
+      "euLawNote": "Regulamentul (UE) 2024/1689 privind IA e direct aplicabil. El armonizează regulile pentru dezvoltarea și folosirea IA tocmai ca statele să nu impună restricții proprii decât unde le permite (considerentul 1). Proiectul adaugă cerințe naționale paralele: altă definiție a IA (art. 2 din proiect față de art. 3 pct. 1 din regulament), audit anual pentru orice sistem (art. 6), certificări și aprobări fără organism desemnat (art. 4, 5). Impune etichetarea și platformelor (art. 9), deși regulamentul pune obligația pe furnizori și implementatori (art. 50), iar DSA (Reg. 2022/2065) armonizează deplin obligațiile platformelor. Regulamentul cere sancțiuni „efective, proporționate și disuasive”, cu plafoane de 35, 15 sau 7,5 mil. euro, mai mici pentru IMM-uri (art. 99), nu închisoare pentru lipsa explicațiilor. IA medicală intră deja sub Regulamentul (UE) 2017/745, iar o „aprobare” națională în plus ar putea bloca dispozitive cu marcaj CE (art. 24). Art. 8 dublează GDPR (art. 9 și 22) și Regulamentul (UE) 2024/900 privind publicitatea politică. TRIS (Directiva 2015/1535): obligațiile platformelor și cerințele de certificare sau aprobare sunt reguli tehnice. Trebuie notificate Comisiei, cu o perioadă de așteptare de 3 luni, altfel nu pot fi opuse particularilor (CJUE, CIA Security, C-194/94). Directiva 2018/958 nu se aplică direct, fiindcă proiectul nu reglementează o profesie. Dacă normele de aplicare ar rezerva auditul IA unor auditori atestați, ar fi nevoie de testul de proporționalitate.",
+      "senatForm": {
+        "articleRef": "Art. 11 (și art. 10) – Sancțiuni",
+        "proposalContent": "Art. 11 se înlocuiește: «Nerespectarea obligațiilor de transparență și explicare prevăzute la art. 7 constituie contravenție și se sancționează, în limitele art. 99 din Regulamentul (UE) 2024/1689, de autoritatea desemnată prin lege, cu amenzi cu minim și maxim, mai mici pentru IMM-uri.» Se elimină pedeapsa închisorii.",
+        "argumentation": "Art. 11 pedepsește cu 2–5 ani de închisoare lipsa „explicabilității”, fără autoritate de control, fără minim al amenzii și fără a spune dacă amenda e penală sau contravențională. Contravine art. 1 alin. (5) și art. 23 alin. (12) din Constituție și dublează Regulamentul UE privind IA, direct aplicabil, care cere sancțiuni proporționale.",
+        "otherComments": "Art. 10 cere aceeași corectură: faptele sunt vagi („supraveghere excesivă”), „nediscriminatorie” spune opusul a ce se vrea, amenda de până la 100 mil. lei ocolește art. 137 C.pen., iar autoritățile publice nu răspund penal (art. 135 C.pen.). Definiția IA din art. 2 ar trebui preluată din Regulamentul (UE) 2024/1689. Proiectul trebuie notificat în TRIS."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 83963,
+      "sourceEndMarker": "SF-F25435B0",
+      "riskScore": 8,
+      "riskLevel": "red",
+      "plainTitle": "Reguli pentru AI, cu închisoare pentru obligații neclare",
+      "verdictShort": "Proiectul urmărește protejarea cetățenilor, dar introduce pedepse cu închisoarea pentru conduite definite prea vag. Transparența și controlul uman sunt obiective utile; incriminările și obligațiile generale de audit necesită rescriere substanțială.",
+      "initiatorClaim": "Inițiatorii invocă prevenirea supravegherii abuzive, discriminării algoritmice și manipulării informației. Ei propun transparență, intervenție umană și sancțiuni severe pentru protejarea drepturilor fundamentale.",
+      "realityCheck": "Art. 6 impune audit independent anual oricărui sistem AI utilizat în procesul decizional, fără diferențiere după risc, dimensiunea operatorului sau impactul deciziei. Art. 10–11 prevăd închisoare de la 2 la 5 ani și amenzi foarte mari, folosind noțiuni insuficient delimitate, inclusiv manipularea opiniei publice și lipsa explicabilității. Art. 12 oferă doar 90 de zile până la intrarea în vigoare, fără mecanisme tranzitorii pentru auditare, certificare sau aprobări.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 10 incriminează încălcarea drepturilor prin AI folosind expresii precum „manipularea opiniei publice” și „supravegherea excesivă”, fără delimitări suficiente între conduita penală, comunicarea legitimă și alte încălcări deja reglementate. Problema este previzibilitatea incriminării, nu simpla severitate a pedepsei.",
+        "Art. 11 atașează închisoarea de la 2 la 5 ani nerespectării transparenței și explicabilității, fără standarde operaționale suficiente. Natura amenzii de până la 100.000.000 lei și raportul dintre răspunderea entității și cea a persoanelor fizice rămân neclare.",
+        "Art. 6 alin. (2) cere audit independent anual pentru orice sistem AI folosit în procesul decizional. Lipsesc praguri de risc, standarde de audit și condiții pentru auditori; rezultă costuri recurente și bariere pentru IMM-uri, fără ca textul să instituie expres un monopol.",
+        "Art. 4 alin. (2) și art. 5 alin. (1) cer certificări și aprobări fără să identifice suficient autoritățile, procedurile și raportul cu reglementările sectoriale existente. În sănătate trebuie evitată dublarea nejustificată a cerințelor europene pentru dispozitive medicale.",
+        "Art. 9 interzice deepfake-urile destinate manipulării opiniei publice fără să definească termenul sau să delimiteze satira, creația artistică și exprimarea politică. Obligația platformelor de a eticheta întregul conținut generat de AI este mai largă decât o obligație limitată la conținutul înșelător.",
+        "Art. 10 alin. (1) lit. b) include generic instituțiile între persoanele juridice sancționabile penal și trimite vag la „infracțiuni economice”. Textul trebuie corelat cu art. 135 din Codul penal, inclusiv excluderile și limitele răspunderii penale a autorităților și instituțiilor publice, precum și cu sistemul amenzii penale.",
+        "Art. 3 și 7 aduc garanții utile prin control uman și dreptul la explicații, însă nu stabilesc termene de răspuns, proceduri de contestare sau autorități responsabile. Art. 8 nu poate transforma consimțământul explicit într-o autorizare generală a profilării politice.",
+        "Proiectul generează cheltuieli potențiale pentru audituri, validări medicale, certificări și personal care asigură intervenția umană. Documentele furnizate nu cuantifică aceste costuri și nu permit calcularea impactului bugetar; nu sunt instituite expres taxe noi."
+      ],
+      "blindSpotsCaught": "Art. 12 nu conține derogări, abrogări sau modificări ale altor legi: introduce numai termenul de 90 de zile. Lipsesc dispozițiile care să facă obligațiile de audit și certificare aplicabile în practică. Definiția „deciziilor algoritmice semnificative” din art. 2 nu limitează auditul din art. 6, care privește orice sistem utilizat în procesul decizional. Formula finală privind art. 76 alin. (1) indică adoptarea ca lege organică, dar nu remediază imprecizia infracțiunilor.",
+      "constitutionalityNote": "Există un risc major de neconstituționalitate în raport cu art. 1 alin. (5) și art. 23 alin. (12): destinatarii trebuie să poată identifica suficient de precis conduita pentru care riscă închisoarea. Art. 10–11 nu delimitează adecvat faptele, iar explicațiile din expunerea de motive nu pot completa elementele incriminării. Interdicțiile privind manipularea opiniei publice și deepfake-urile ridică probleme suplimentare sub art. 30 și art. 53, prin posibila restrângere disproporționată a exprimării legitime. Obligațiile universale de audit trebuie justificate și prin raportare la libertatea economică din art. 45. Incriminările aparțin domeniului legii organice, potrivit art. 73 alin. (3) lit. h); formula de adoptare este compatibilă cu această cerință, fără a demonstra respectarea efectivă a procedurii parlamentare.",
+      "euLawNote": "Regulamentul (UE) 2024/1689 privind inteligența artificială era deja adoptat la inițierea proiectului. Definiția națională a AI, auditarea generală, certificările și etichetarea trebuie verificate față de definițiile, clasificarea riscurilor și obligațiile europene, inclusiv art. 50; suprapunerea nu dovedește automat incompatibilitatea, dar cerințele naționale suplimentare au nevoie de un temei compatibil cu armonizarea europeană. GDPR, în special art. 9 și 22, nu permite tratarea consimțământului ca justificare universală pentru profilare politică sau decizii automatizate; pentru anumite prelucrări ale organelor de aplicare a legii este relevantă Directiva (UE) 2016/680. Directiva (UE) 2018/958 nu se aplică automat oricărei bariere economice: testul său privește restricțiile asupra accesului la profesii reglementate ori exercitării acestora. Ar deveni relevant dacă auditarea sau certificarea ar fi rezervată unor asemenea profesii. Separat, costurile și restricțiile trebuie evaluate pentru proporționalitate și compatibilitate cu piața unică. Pentru Directiva (UE) 2015/1535 trebuie verificat dacă dispozițiile constituie reglementări tehnice notificabile, inclusiv reguli care vizează în mod specific servicii ale societății informaționale. Documentele nu dovedesc efectuarea sau omiterea notificării TRIS; dacă notificarea era obligatorie și lipsește, normele tehnice respective pot deveni inopozabile particularilor.",
+      "senatForm": {
+        "articleRef": "Art. 10 și art. 11",
+        "proposalContent": "Articolele 10 și 11 se elimină.",
+        "argumentation": "Incriminările folosesc noțiuni insuficient delimitate și sancționează lipsa transparenței cu închisoarea, fără standarde previzibile. Sunt necesare respectarea art. 1 alin. (5), art. 23 alin. (12) și art. 53 din Constituție și corelarea cu Codul penal și Regulamentul (UE) 2024/1689. Eliminarea nu înlătură aplicarea infracțiunilor existente.",
+        "otherComments": "Termenul indicat pentru amendamente, 16.06.2025, este depășit. Memoriul poate fi adresat comisiilor juridică și pentru tehnologia informației ale Camerei Deputaților, dar nu constituie singur un amendament parlamentar. Preluarea sa de către un deputat depinde de procedura și stadiul efectiv al dosarului."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    }
+  }
+}

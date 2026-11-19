@@ -1,0 +1,25 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+## LEGE
+
+pentru modificarea art. 3 din Ordonanța de Urgență a Guvernului nr. 46/2022 privind măsurile de punere în aplicare a Regulamentului (UE) 2019/452 al Parlamentului European și al Consiliului din 19 martie 2019 de stabilire a unui cadru pentru examinarea investițiilor străine directe în Uniune, precum și pentru modificarea și completarea Legii concurenței nr. 21/1996,
+
+Parlamentul României adoptă prezenta lege
+
+Art. I – Articolul 3 din Ordonanța de Urgență a Guvernului nr. 46/2022 privind măsurile de punere în aplicare a Regulamentului (UE) 2019/452 al Parlamentului European și al Consiliului din 19 martie 2019 de stabilire a unui cadru pentru examinarea investițiilor străine directe în Uniune, precum și pentru modificarea și completarea Legii concurenței nr. 21/1996, publicată în Monitorul Oficial al României, Partea I, nr. 379 din 18 aprilie 2022, aprobată cu modificări și completări prin Legea nr. 164/2023, cu modificările și completările ulterioare, se modifică după cum urmează:
+
+## 1. La alineatul (1), litera b) va avea următorul cuprins:
+
+„b) a căror valoare depășește pragul de 5.000.000 de euro, calculat la cursul de schimb comunicat de Banca Națională a României valabil pentru ultima zi a exercițiului financiar din anul anterior realizării operațiunii, dar nu mai puțin de 10% din drepturile de vot ale unei companii.”
+
+## 2. Alineatul (2) se abrogă.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Senatului
+
+Președintele Camerei Deputaților

@@ -1,6 +1,7 @@
 {
   // `npm run build` produce site-ul static în out/. Worker-ul din worker/index.ts răspunde doar
-  // la /api/* (rapoartele de erori și alertele pe e-mail); restul cererilor vin direct din out/.
+  // la /api/* (rapoartele de erori și alertele pe e-mail) și la /admin* (panoul rapoartelor, care verifică
+  // JWT-ul Cloudflare Access înainte să servească pagina); restul cererilor vin direct din out/.
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "lastraja",
   "main": "worker/index.ts",
@@ -10,7 +11,7 @@
     "binding": "ASSETS",
     "not_found_handling": "404-page",
     "html_handling": "auto-trailing-slash",
-    "run_worker_first": ["/api/*"]
+    "run_worker_first": ["/api/*", "/admin", "/admin/*"]
   },
   "d1_databases": [{ "binding": "DB", "database_name": "lastraja", "database_id": "44d27d60-fce7-485b-ab48-b632623c36ef", "migrations_dir": "migrations" }],
   // Cel mult 5 rapoarte pe minut de la aceeași adresă, în fiecare locație Cloudflare.
@@ -20,7 +21,8 @@
     { "name": "SEARCH_LIMIT", "namespace_id": "1003", "simple": { "limit": 60, "period": 60 } }
   ],
   // E-mailurile pleacă prin Resend (worker/mail.ts), cu secretele RESEND_API_KEY și RESEND_WEBHOOK_SECRET puse cu
-  // `wrangler secret put`; nu au nevoie de nimic aici.
+  // `wrangler secret put`; nu au nevoie de nimic aici. La fel panoul /admin (worker/access.ts, ADMIN-SETUP.md):
+  // ACCESS_TEAM_DOMAIN, ACCESS_AUD și ADMIN_EMAILS sunt secrete, ca adresa să nu stea în repo.
   "observability": { "enabled": true, "head_sampling_rate": 1 },
   // Confirmările de abonare rămase la coadă când trimiterea n-a mers din motive care nu țin de adresă (worker/subscribe.ts).
   "triggers": { "crons": ["*/15 * * * *"] },

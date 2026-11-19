@@ -356,6 +356,46 @@ export function extractJsonFromText(raw = '') {
   throw new Error('răspunsul nu conține JSON valid');
 }
 
+// agy taie orice mesaj mai mare de vreo 170 KB („<truncated N bytes>”), fie ca argument, fie pe stdin. Un prompt mai
+// mare pleacă în bucăți de cel mult AGY_PART_BYTES, ca mesaje succesive în aceeași conversație (--input-format
+// stream-json): la fiecare parte modelul răspunde doar „ok”, iar cerința e în ultima. Testat pe 18 noiembrie 2026: un
+// text de 400.000 de caractere în 4 părți a ajuns întreg (modelul a găsit un cuvânt de la final). Limitele sunt în
+// octeți UTF-8 ai mesajului serializat, nu în caractere: diacriticele ocupă câte doi.
+const AGY_SINGLE_BYTES = 140_000;
+const AGY_PART_BYTES = 100_000;
+const agyMessage = (content) => JSON.stringify({ event: 'user', message: { role: 'user', content } });
+
+/** Promptul în mesajele pentru agy: unul singur dacă încape, altfel părți tăiate la capăt de rând. */
+export function agyParts(prompt) {
+  if (Buffer.byteLength(agyMessage(prompt)) <= AGY_SINGLE_BYTES) return null;
+  const head = (k, n) => `[PARTEA ${k} DIN ${n} a aceluiași mesaj. Nu răspunde încă: scrie doar „ok” până primești ultima parte.]\n\n`;
+  const budget = AGY_PART_BYTES - Buffer.byteLength(agyMessage(head(99, 99))) - 200;
+  const fits = (s) => Buffer.byteLength(JSON.stringify(s)) <= budget;
+  const chunks = [];
+  let cur = '';
+  for (const line of prompt.split(/(?<=\n)/)) {
+    if (fits(cur + line)) {
+      cur += line;
+      continue;
+    }
+    if (cur) chunks.push(cur);
+    // Un rând mai lung decât o parte întreagă (text extras fără rânduri) se taie și el.
+    let rest = line;
+    while (!fits(rest)) {
+      let n = rest.length;
+      while (n > 1 && !fits(rest.slice(0, n))) n = Math.floor(n * 0.8);
+      chunks.push(rest.slice(0, n));
+      rest = rest.slice(n);
+    }
+    cur = rest;
+  }
+  if (cur) chunks.push(cur);
+  const n = chunks.length;
+  return chunks.map((c, i) =>
+    agyMessage(i < n - 1 ? head(i + 1, n) + c : `[PARTEA ${n} DIN ${n}, ultima. Acum ai tot mesajul: răspunde la cerința din el.]\n\n${c}`),
+  );
+}
+
 /**
  * Rulează un model și întoarce JSON-ul din răspuns.
  * @returns {Promise<{ model: string, status: 'ok', data: any, durationMs: number } | { model: string, status: 'error', error: string, durationMs: number }>}
@@ -370,10 +410,15 @@ export async function runModel(model, prompt, { mode = 'offline', timeoutMs = 30
     const argv = args(model, mode, codexModel);
     // agy primește promptul ca argument; ceilalți îl citesc din stdin. Jurnalul intern al lui agy (cererile HTTP) arată,
     // când un apel durează, dacă modelul încă lucrează sau dacă agy reîncearcă (doar local: pe VM ar rămâne acolo).
+    const parts = model === 'agy' ? agyParts(prompt) : null;
+    if (parts) fs.appendFileSync(live, `# agy: promptul pleacă în ${parts.length} părți\n`);
     const call = (vm) => {
       const stream = { parse: STREAM[model], live, model, vm };
+      const agyArgs = [...argv, ...(vm ? [] : ['--log-file', live.replace(/\.log$/, '.agy.txt')]), '--print-timeout', `${Math.round(timeoutMs / 1000)}s`];
       return model === 'agy'
-        ? run(BINS.agy, [...argv, ...(vm ? [] : ['--log-file', live.replace(/\.log$/, '.agy.txt')]), '--print-timeout', `${Math.round(timeoutMs / 1000)}s`, '-p', prompt], null, timeoutMs + 15000, stream)
+        ? parts
+          ? run(BINS.agy, [...agyArgs, '--input-format', 'stream-json', '-p', ''], `${parts.join('\n')}\n`, timeoutMs + 15000, stream)
+          : run(BINS.agy, [...agyArgs, '-p', prompt], null, timeoutMs + 15000, stream)
         : run(BINS[model], argv, prompt, timeoutMs, stream);
     };
     const vm = vmJump();
@@ -388,6 +433,14 @@ export async function runModel(model, prompt, { mode = 'offline', timeoutMs = 30
     // Cu text: true, un răspuns lung care pomenește „rate limit” (de exemplu un document despre un API) nu e o limită atinsă.
     const quota = /usage limit|weekly limit|session limit|hour limit|rate limit|quota/i.test(res.stdout + res.stderr) && (text ? res.stdout.trim().length < 500 : !/\{[\s\S]*\}/.test(res.stdout.split('\n').slice(-40).join('\n')));
     if (quota) throw new Error((res.stdout + res.stderr).match(/[^\n]*(usage limit|weekly limit|session limit|hour limit|rate limit|quota)[^\n]*/i)?.[0]?.trim().slice(0, 200) ?? 'limită de utilizare');
+    if (parts) {
+      // Fiecare parte trebuie să aibă un rezultat reușit, iar nimic din ce a primit agy nu trebuie să fi fost tăiat.
+      const results = (res.raw ?? '').split('\n').filter((l) => l.includes('"event":"result"')).map((l) => { try { return JSON.parse(l).result ?? {}; } catch { return {}; } });
+      if (/<truncated \d+ bytes>/.test(res.raw ?? '')) throw new Error('agy a tăiat o parte din prompt');
+      // Ultimul rezultat poate lipsi când agy nu se închide singur după un răspuns întreg (vezi settleIfComplete).
+      if (results.length && (results.length < parts.length - 1 || results.some((r) => r.status && r.status !== 'SUCCESS')))
+        throw new Error(`agy: ${results.filter((r) => r.status === 'SUCCESS').length} din ${parts.length} părți primite (${results.find((r) => r.status !== 'SUCCESS')?.error ?? 'conversație întreruptă'})`);
+    }
     if (!res.stdout.trim()) throw new Error(`răspuns gol după ${Math.round((Date.now() - start) / 1000)}s (probabil timp depășit)`);
     let data;
     try {

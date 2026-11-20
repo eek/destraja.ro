@@ -81,7 +81,7 @@ export default function AgendaCalendar({ data }: { data: CalendarData }) {
 
   return (
     <div className="mt-10 grid items-start gap-8 lg:grid-cols-[440px_minmax(0,1fr)] lg:gap-10">
-      <div id="calendar" className="scroll-mt-24 lg:sticky lg:top-24">
+      <div id="calendar" className="scroll-mt-24 lg:[@media(min-height:880px)]:sticky lg:top-24">
         <div role="group" aria-label="Vederea calendarului" className="inline-flex rounded-lg bg-sunken p-1">
           {(
             [

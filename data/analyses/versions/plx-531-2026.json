@@ -1,7 +1,12 @@
 {
   "slug": "plx-531-2026",
   "billId": "Pl-x 531/2026",
-  "updatedAt": "2026-10-30T09:42:49.994Z",
+  "updatedAt": "2026-11-20T08:45:21.992Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -16,22 +21,43 @@
         "agy": 3,
         "claude": 3,
         "codex": 3
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "camera",
       "label": "Forma adoptată de Cameră",
       "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl531_cd531_26.pdf",
       "source": "cdep.ro",
-      "riskScore": 3,
+      "riskScore": 2.7,
       "riskLevel": "green",
-      "plainTitle": "Ratificarea împrumutului de 544 milioane euro de la Banca Mondială (BIRD) pentru acoperirea deficitului bugetar",
-      "summaryTlDr": "Lege tehnică standard de ratificare a unui împrumut suveran în condiții financiare avantajoase față de piețele comerciale, dar promovată atipic prin inițiativă parlamentară în loc de proiect al Guvernului.",
+      "plainTitle": "Parlamentul aprobă un împrumut de 544 milioane euro de la Banca Mondială pentru acoperirea deficitului bugetar",
+      "summaryTlDr": "Este o lege tehnică de ratificare, cu efect strict financiar-public și fără obligații directe pentru cetățeni sau firme. Singurul punct sensibil este delegarea către Guvern a dreptului de a modifica acordul prin HG, fără niciun mecanism de informare a Parlamentului.",
       "scores": {
         "agy": 3,
-        "claude": null,
+        "claude": 2,
         "codex": 3
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L466FS.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "România ratifică un împrumut de 544 milioane euro de la Banca Mondială pentru acoperirea deficitului",
+      "summaryTlDr": "Este o lege tehnică de ratificare, standard ca formă, care nu creează obligații directe pentru cetățeni sau firme. Singurul punct sensibil este Art. 4, care permite Guvernului să modifice ulterior Acordul prin hotărâre, fără un nou vot în Parlament.",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 3
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
     }
   ],
   "changes": [
@@ -39,43 +65,43 @@
       "from": "initiator",
       "to": "camera",
       "direction": "la_fel",
-      "headline": "Fără schimbări de fond: Camera a adoptat împrumutul BIRD de 544 mil. euro în forma inițiatorului",
-      "summary": "Textul adoptat de Cameră este, pe fond, identic cu cel inițial. Diferențele sunt doar de redactare și de formula de adoptare. Riscurile rămân aceleași: bani pentru deficit, rambursare integrală în 2044 și amendamente aprobate prin HG.",
+      "headline": "Fără schimbări de fond: Camera a adoptat împrumutul de 544 mil. EUR de la BIRD în forma inițiatorului",
+      "summary": "Camera Deputaților a adoptat proiectul cu aceleași articole ca în forma inițiatorului. S-au schimbat doar antetul, formula de adoptare, temeiul constituțional al procedurii și semnătura, deci riscurile pentru cetățeni și firme rămân aceleași.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Banii acoperă deficitul și refinanțarea datoriei, nu proiecte de investiții",
-            "major": true,
-            "article": "art. 2"
-          },
-          {
-            "text": "544 mil. euro se rambursează într-o singură zi, la 15.02.2044",
+            "text": "Rambursare integrală într-o singură zi în 2044, risc mare de refinanțare",
             "major": true,
             "article": "art. 1"
           },
           {
-            "text": "Dobânda variabilă EURIBOR plus marjă și comisioane pot scumpi împrumutul",
+            "text": "Banii finanțează deficitul și datoria, nu sunt legați de proiecte concrete",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Dobândă variabilă legată de EURIBOR, costul real poate crește în timp",
             "major": true,
             "article": "art. 3"
           },
           {
-            "text": "Guvernul modifică Acordul prin HG, fără a reveni în Parlament",
+            "text": "Guvernul poate modifica Acordul prin HG, fără aprobarea Parlamentului",
             "major": true,
             "article": "art. 4"
           },
           {
-            "text": "Limita nu acoperă schimbări de condiții, calendar, valută sau dobândă",
+            "text": "Limita amendamentelor nu acoperă schimbări de condiții, calendar sau conversii",
             "major": true,
             "article": "art. 4"
           },
           {
-            "text": "Costul total până în 2044 nu este prezentat, doar 2026–2030",
+            "text": "Nicio obligație de informare a Parlamentului despre amendamentele convenite",
             "major": false,
-            "article": null
+            "article": "art. 4"
           },
           {
-            "text": "Acordul guvernamental a fost depus de 4 deputați, ocolind procedura obișnuită",
+            "text": "Costul total al împrumutului până în 2044 nu este prezentat",
             "major": false,
             "article": null
           }
@@ -83,16 +109,21 @@
         "good": [
           {
             "text": "Amendamentele aprobate prin HG nu pot majora obligațiile financiare ale României",
-            "major": false,
+            "major": true,
             "article": "art. 4"
           },
           {
-            "text": "Utilizarea banilor urmează regulile legale privind datoria publică (OUG 64/2007)",
+            "text": "Suma ratificată este clar stabilită: 544 milioane de euro",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Utilizarea banilor se face în cadrul legal al OUG 64/2007",
             "major": false,
             "article": "art. 2"
           },
           {
-            "text": "Plata ratelor, dobânzilor și comisioanelor are un mecanism legal clar",
+            "text": "Plata datoriei urmează mecanismul general și clar al datoriei publice",
             "major": false,
             "article": "art. 3"
           }
@@ -100,13 +131,76 @@
         "partial": false
       },
       "diff": {
-        "added": 8,
-        "removed": 8,
-        "same": 0
+        "added": 3,
+        "removed": 3,
+        "same": 0.63
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:40:58.810Z"
+      "schema": 4,
+      "updatedAt": "2026-11-20T08:45:09.918Z"
+    },
+    {
+      "from": "camera",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: senatul a păstrat textul camerei, cu modificări doar de redactare",
+      "summary": "Acum textul diferă de cel inițial doar prin antet, data ședinței, semnătură și câteva corecturi de scriere. Împrumutul de 544 mil. euro, folosirea banilor și regulile pentru amendamente au rămas neschimbate.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Banii nu au destinație precisă, acoperă general deficitul și refinanțarea datoriei",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Dobândă variabilă legată de EURIBOR, deci costul real al împrumutului este incert",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Rambursare integrală la o singură dată, deci risc de refinanțare concentrat",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Guvernul aprobă amendamente prin HG, fără obligația de a informa Parlamentul",
+            "major": false,
+            "article": "art. 4"
+          },
+          {
+            "text": "Acordul permite conversii de valută sau dobândă, deci apare și risc valutar",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Amendamentele convenite de Guvern nu pot majora obligațiile financiare ale României",
+            "major": true,
+            "article": "art. 4"
+          },
+          {
+            "text": "Suma împrumutului, 544 milioane euro, este stabilită clar în lege",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Datoria se plătește prin mecanismul obișnuit al datoriei publice, conform legii",
+            "major": false,
+            "article": "art. 3"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0.5
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-20T08:45:21.992Z"
     }
   ]
 }

@@ -2,230 +2,151 @@
   "slug": "b551-2026",
   "billId": "B551/2026",
   "schema": 1,
-  "model": "claude",
-  "updatedAt": "2026-11-02T17:34:39.637Z",
-  "inputHash": "a9bfc09802e1",
-  "riskScore": 3.9,
-  "summary": "O schemă bine construită pe cadrul european, cu limite clare și condiții verzi, dar cu greșeli de redactare și câteva portițe de discreție pentru minister; afirmația că lipsește notificarea la Comisie nu se sprijină pe text.",
+  "model": "agy",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-20T09:36:16.237Z",
+  "inputHash": "8b8ac8374eb5",
+  "riskScore": 4.7,
+  "summary": "O schemă utilă pentru industrie și tranziția verde, dar scrisă neglijent, cu anexa lipsă, fără dovada banilor și cu reguli neclare de calcul și recuperare.",
   "good": [
     {
-      "text": "Schema intră în aplicare doar după ce Comisia Europeană o aprobă, iar ministerul e obligat să o notifice, deci nu se plătește ajutor ilegal înainte de autorizare.",
-      "article": "art. 3 alin. (1), art. 22",
-      "quote": "Schema se aplică de la data comunicării deciziei Comisiei Europene de autorizare",
-      "weight": 3
-    },
-    {
-      "text": "Firmele trebuie să investească cel puțin jumătate din ajutor în energie verde, stocare, eficiență sau electrificare, nu doar să încaseze banii.",
-      "article": "art. 13 alin. (1)-(2)",
+      "text": "Obligă firmele să reinvestească cel puțin jumătate din ajutor în energie verde, stocare sau eficiență energetică, interzicând creșterea consumului de combustibili fosili.",
+      "article": "art. 13 alin. (1)-(3) și (7)",
       "quote": "Beneficiarul alocă cel puțin 50 % din valoarea ajutorului primit pentru un an de referință investițiilor prevăzute la alin. (2).",
       "weight": 3
     },
     {
-      "text": "Ajutorul are limite clare: cel mult jumătate din consum, cel mult jumătate din preț, iar firma plătește oricum minimum 50 euro/MWh.",
-      "article": "art. 9 alin. (1), art. 11 alin. (2)-(3)",
-      "quote": "Reducerea nu poate conduce la un preț efectiv suportat de beneficiar pentru consumul eligibil mai mic de 50 euro/MWh.",
+      "text": "Schema pornește doar după aprobarea Comisiei Europene, durează cel mult 3 ani consecutivi pentru fiecare firmă și interzice orice plată după 31 decembrie 2030.",
+      "article": "art. 3 alin. (1)-(3) și art. 22",
+      "quote": "Schema se aplică de la data comunicării deciziei Comisiei Europene de autorizare, iar ajutorul poate fi acordat pentru costurile eligibile aferente anilor de referință care se încheie cel târziu la data de 31 decembrie 2029.",
       "weight": 3
     },
     {
-      "text": "Costul total pentru buget este plafonat: maximum 1,05 miliarde euro în total și 350 milioane pe an, cu plăți oprite după 2030.",
-      "article": "art. 4 alin. (1), art. 3 alin. (3)",
-      "quote": "Bugetul total estimat al schemei este de cel mult 1.050 milioane euro, iar bugetul anual este de cel mult 350 milioane euro.",
+      "text": "Plafonează cheltuiala la 350 milioane euro pe an și împarte banii proporțional între toate firmele eligibile dacă cererile depășesc bugetul, fără drept la despăgubiri.",
+      "article": "art. 4 alin. (1), (3) și art. 18 alin. (1)-(2)",
+      "quote": "În cazul în care valoarea cumulată a ajutoarelor solicitate depășește bugetul anual prevăzut la art. 4 alin. (1), bugetul disponibil se repartizează între toți solicitanții eligibili proporțional cu valoarea ajutorului calculată pentru fiecare dintre aceștia potrivit art. 11.",
       "weight": 3
     },
     {
-      "text": "Legea spune de unde vin banii: bugetul Ministerului Energiei, din veniturile din vânzarea certificatelor de emisii, deci nu creează o cheltuială fără sursă.",
-      "article": "art. 4 alin. (2)",
-      "quote": "Sumele necesare se asigură de la bugetul de stat, prin bugetul Ministerului Energiei",
-      "weight": 2
-    },
-    {
-      "text": "Investițiile finanțate nu pot crește folosirea combustibililor fosili, ceea ce protejează mediul.",
-      "article": "art. 13 alin. (3) și (7)",
-      "quote": "Investițiile nu pot avea ca obiect creșterea capacității de utilizare a combustibililor fosili.",
-      "weight": 2
-    },
-    {
-      "text": "Ministerul publică anual lista beneficiarilor, sumele primite și investițiile făcute, deci oricine poate vedea unde merg banii.",
+      "text": "Obligă Ministerul Energiei să publice anual, până la 30 iunie, lista beneficiarilor, sumele primite, consumul eligibil și investițiile făcute, asigurând transparența banilor publici.",
       "article": "art. 19 alin. (2)",
-      "quote": "publică, până la data de 30 iunie a fiecărui an, un raport privind aplicarea schemei, care cuprinde lista beneficiarilor, sumele acordate",
+      "quote": "Ministerul Energiei verifică anual îndeplinirea condițiilor de către fiecare beneficiar și publică, până la data de 30 iunie a fiecărui an, un raport privind aplicarea schemei, care cuprinde lista beneficiarilor, sumele acordate, consumul eligibil și investițiile realizate.",
       "weight": 2
     },
     {
-      "text": "Banii se recuperează integral dacă firma a mințit în dosar și parțial dacă nu face investițiile promise.",
-      "article": "art. 20 alin. (1)-(2)",
-      "quote": "Ajutorul se recuperează integral în cazul în care beneficiarul a obținut acordul de finanțare pe baza unor date sau documente inexacte ori incomplete",
+      "text": "Exclude de la bani publici firmele cu datorii la bugetul de stat sau local, pe cele în insolvență ori dificultate financiară și pe cele care nu au returnat ajutoare ilegale.",
+      "article": "art. 7 lit. c)-d) și art. 8 alin. (1)-(2)",
+      "quote": "Nu pot beneficia de ajutor întreprinderile care fac obiectul unei decizii de recuperare a unui ajutor de stat declarat ilegal și incompatibil cu piața internă, până la restituirea integrală a sumelor, inclusiv a dobânzilor aferente.",
       "weight": 2
     },
     {
-      "text": "Sunt excluse firmele în dificultate, cele cu datorii la stat și cele care nu au returnat ajutoare ilegale anterioare.",
-      "article": "art. 7 lit. c)-d), art. 8 alin. (1)-(2)",
-      "quote": "Nu pot beneficia de ajutor întreprinderile care fac obiectul unei decizii de recuperare a unui ajutor de stat declarat ilegal și incompatibil cu piața internă",
+      "text": "Limitează sprijinul la cel mult jumătate din consumul măsurat de operatorul de rețea și impune separarea consumului eligibil la firmele cu activități mixte, verificată de un auditor.",
+      "article": "art. 8 alin. (3) și art. 9 alin. (1)-(2)",
+      "quote": "în cazul întreprinderilor cu activități mixte, ajutorul se acordă exclusiv pentru consumul aferent activității eligibile, determinat pe baza contorizării separate sau, în lipsa acesteia, a unei metode de repartizare fundamentate tehnic, verificate de un auditor energetic autorizat.",
       "weight": 2
     },
     {
-      "text": "Firma nu poate aduna mai multe ajutoare pentru aceleași costuri peste limita permisă, inclusiv cu schema existentă pentru costurile indirecte ale emisiilor.",
+      "text": "Împiedică dubla subvenționare a acelorași costuri, limitând cumulul cu alte ajutoare de stat sau cu schema de compensare a emisiilor indirecte din OUG 138/2022.",
       "article": "art. 12 alin. (1)-(3)",
-      "quote": "poate fi cumulat cu alte ajutoare de stat sau de minimis numai dacă nu se depășesc intensitatea maximă a ajutorului sau cuantumul maxim aplicabil",
+      "quote": "Ajutorul acordat în temeiul prezentei legi poate fi cumulat cu alte ajutoare de stat sau de minimis numai dacă nu se depășesc intensitatea maximă a ajutorului sau cuantumul maxim aplicabil.",
       "weight": 2
     },
     {
-      "text": "Calculul se face după plată, pe consum măsurat de operatorul de rețea și pe un preț unic publicat de bursă, deci e greu de umflat artificial.",
-      "article": "art. 9 alin. (2), art. 10, art. 17 alin. (1)",
-      "quote": "Prețul de referință angro este unic pentru toți beneficiarii și este independent de modalitatea de aprovizionare a fiecăruia.",
-      "weight": 2
-    },
-    {
-      "text": "Dacă banii nu ajung, toți solicitanții primesc proporțional mai puțin, fără favoritisme sau ordine de sosire.",
-      "article": "art. 18",
-      "quote": "Reducerea proporțională se aplică uniform tuturor solicitanților eligibili, nu constituie modificare a acordului de finanțare și nu dă dreptul la despăgubiri.",
-      "weight": 1
-    },
-    {
-      "text": "La firmele cu activități mixte se plătește doar pentru consumul activității eligibile, verificat prin contorizare sau de un auditor energetic.",
-      "article": "art. 8 alin. (3)",
-      "quote": "ajutorul se acordă exclusiv pentru consumul aferent activității eligibile, determinat pe baza contorizării separate",
-      "weight": 1
-    },
-    {
-      "text": "Ajutorul pentru o firmă durează cel mult 3 ani consecutivi, deci rămâne temporar.",
-      "article": "art. 3 alin. (2)",
-      "quote": "Ajutorul individual se acordă unui beneficiar pentru o perioadă cumulată de cel mult 3 ani consecutivi",
-      "weight": 1
-    },
-    {
-      "text": "Parcurile verzi construite de alții prin contracte pe termen lung contează doar cât a plătit efectiv firma și doar până la jumătate din obligație.",
-      "article": "art. 15 alin. (2)",
-      "quote": "Valoarea recunoscută nu poate depăși 50 % din obligația prevăzută la art. 13 alin. (1).",
-      "weight": 1
-    },
-    {
-      "text": "Legea nu plafonează prețurile și nu intervine în piața de energie, deci nu distorsionează prețul pentru ceilalți consumatori.",
+      "text": "Acordă sprijinul ulterior fără să plafoneze prețurile și fără să intervină în formarea prețului pe piața angro, protejând funcționarea pieței de energie.",
       "article": "art. 11 alin. (5)",
       "quote": "Prezenta lege nu instituie un preț final garantat al energiei electrice, nu plafonează prețurile și nu intervine în mecanismele de formare a prețului pe piața angro.",
+      "weight": 2
+    },
+    {
+      "text": "Oferă un bonus de până la 10% firmelor care alocă cel puțin 80% din investiții pentru flexibilitatea consumului de energie, ajutând stabilitatea rețelei.",
+      "article": "art. 14 alin. (1)-(2)",
+      "quote": "dacă demonstrează că cel puțin 80 % din valoarea totală a investiției realizate în temeiul art. 13 este destinată creșterii flexibilității cererii, inclusiv oferirii de rezervă din combustibili nefosili.",
       "weight": 1
     },
     {
-      "text": "Ministerul trebuie să răspundă în 30 de zile lucrătoare, iar o respingere trebuie motivată.",
+      "text": "Impune Ministerului Energiei un termen clar de 30 de zile lucrătoare pentru soluționarea cererilor și obligația de a motiva în scris orice respingere.",
       "article": "art. 16 alin. (3)",
-      "quote": "emite acordul de finanțare sau decizia de respingere motivată, în termen de cel mult 30 de zile lucrătoare de la data depunerii documentației complete",
-      "weight": 1
-    },
-    {
-      "text": "Bonusul de 10% se dă doar firmelor care pun cel puțin 80% din investiție în flexibilitate, iar trei sferturi din bonus trebuie reinvestite.",
-      "article": "art. 14",
-      "quote": "Beneficiarul alocă cel puțin 75% din sprijinul suplimentar investițiilor prevăzute la art. 13 alin. (2).",
+      "quote": "Ministerul Energiei verifică îndeplinirea condițiilor și emite acordul de finanțare sau decizia de respingere motivată, în termen de cel mult 30 de zile lucrătoare de la data depunerii documentației complete.",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Legea fixează doar limite maxime pentru reducere, nu și cum se calculează exact, așa că ministerul poate decide singur cât primește fiecare firmă.",
-      "article": "art. 11 alin. (1) și (4)",
-      "quote": "Ajutorul îmbracă forma unei reduceri acordate ex post asupra costului energiei electrice aferente consumului eligibil, calculată prin raportare la prețul de referință angro.",
+      "text": "Anexa cu sectoarele eligibile și corespondența codurilor CAEN lipsește fizic din lege, deși textul o declară parte integrantă, lăsând neclar exact ce firme se pot înscrie.",
+      "article": "art. 2 lit. a) și art. 6 alin. (1)",
+      "quote": "Regulile de identificare a acestor sectoare și subsectoare și de stabilire a corespondenței cu codurile de activitate aplicabile în România sunt prevăzute în anexa 1 la OACME care face parte integrantă din prezenta lege.",
       "weight": 3
     },
     {
-      "text": "Ministerul poate prelungi oricât termenul investițiilor și renunța la penalități pentru vagi „motive tehnice”, ceea ce deschide ușa la favoritism.",
-      "article": "art. 13 alin. (4), art. 20 alin. (5)",
-      "quote": "Ministerul Energiei renunță la impunerea de penalități dacă beneficiarul demonstrează că nerespectarea termenului de finalizare este cauzată de forța majoră sau din motive tehnice.",
+      "text": "Angajează până la 1,05 miliarde euro din veniturile certificatelor ETS fără o fișă financiară care să arate dacă banii sunt disponibili, aceste surse fiind deja folosite în alte scheme.",
+      "article": "art. 4 alin. (1)-(2)",
+      "quote": "Bugetul total estimat al schemei este de cel mult 1.050 milioane euro, iar bugetul anual este de cel mult 350 milioane euro.",
       "weight": 3
     },
     {
-      "text": "Firma nu e obligată să-și păstreze producția sau angajații în România; poate încasa ajutorul și apoi închide fabrica fără să returneze banii.",
-      "article": "art. 20",
-      "quote": null,
+      "text": "Stabilește doar limite maxime de 50% pentru consumul eligibil și reducerea de preț, fără a spune cine fixează nivelul concret și după ce regulă, lăsând loc discreției Ministerului Energiei.",
+      "article": "art. 9 alin. (1) și art. 11 alin. (2)-(4)",
+      "quote": "Valoarea ajutorului anual se determină ca produs între consumul eligibil, exprimat în MWh, și reducerea unitară, exprimată în euro/MWh, stabilită cu respectarea alin. (2) și (3).",
+      "weight": 3
+    },
+    {
+      "text": "Permite delegarea administrării schemei către o societate pe acțiuni (Banca de Investiții și Dezvoltare), fără limite și fără a interzice transferul controlului sau al titlurilor de creanță.",
+      "article": "art. 5 alin. (2)",
+      "quote": "Ministerul Energiei poate delega atribuții de administrare a schemei către Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului și către Banca de Investiții și Dezvoltare - S.A.",
+      "weight": 3
+    },
+    {
+      "text": "Folosește noțiunea nedefinită de «preț efectiv suportat» pentru pragul de 50 euro/MWh și nu are metodologie pentru autoconsum sau contracte ieftine (PPA), creând risc de supracompensare.",
+      "article": "art. 10 alin. (3) și art. 11 alin. (3)",
+      "quote": "Reducerea nu poate conduce la un preț efectiv suportat de beneficiar pentru consumul eligibil mai mic de 50 euro/MWh.",
       "weight": 2
     },
     {
-      "text": "Dobânda la banii returnați după regularizare trimite la un alineat care nu stabilește nicio dobândă, deci nu se știe cât se plătește.",
-      "article": "art. 17 alin. (3), art. 20 alin. (3)",
+      "text": "Aplică dobânda de politică monetară a BNR în locul dobânzii de recuperare impuse de dreptul UE pentru ajutoarele de stat și intră în contradicție cu regula de la alin. (6).",
+      "article": "art. 20 alin. (4) și (6)",
+      "quote": "beneficiarul datorează penalități de întârziere de 0,01% pe zi din valoarea ajutorului acordat, la care se adaugă dobândă la nivelul ratei dobânzii de politică monetară stabilită de Banca Națională a României",
+      "weight": 2
+    },
+    {
+      "text": "Permite Ministerului Energiei să scutească firmele de penalități pentru «motive tehnice» complet nedefinite și fără notificare prealabilă, deschizând ușa deciziilor arbitrare.",
+      "article": "art. 20 alin. (5)",
+      "quote": "Ministerul Energiei renunță la impunerea de penalități dacă beneficiarul demonstrează că nerespectarea termenului de finalizare este cauzată de forța majoră sau din motive tehnice.",
+      "weight": 2
+    },
+    {
+      "text": "Impune recuperarea întregului ajutor chiar pentru erori minore și calculează penalitățile la toată suma primită (nu la investiția restantă), din luna 48, ignorând prelungirile aprobate.",
+      "article": "art. 20 alin. (1) și (4)",
+      "quote": "Ajutorul se recuperează integral în cazul în care beneficiarul a obținut acordul de finanțare pe baza unor date sau documente inexacte ori incomplete care au determinat acordarea ajutorului ori au influențat cuantumul acestuia.",
+      "weight": 2
+    },
+    {
+      "text": "Conține trimiteri greșite: art. 17(3) cere o dobândă inexistentă în art. 20(3), iar art. 10(2) trimite la articolul despre delegare în loc de cel privind publicarea prețului de către ANRE.",
+      "article": "art. 10 alin. (2) și art. 17 alin. (3)",
       "quote": "Diferențele rezultate în urma regularizării se restituie de beneficiar în termen de 30 de zile de la comunicare, împreună cu dobânda calculată potrivit art. 20 alin. (3).",
       "weight": 2
     },
     {
-      "text": "Banii din certificatele de emisii sunt limitați și folosiți deja și pentru alte scheme; dacă nu ajung, alte programe climatice pot rămâne descoperite.",
-      "article": "art. 4 alin. (2)",
-      "quote": "din veniturile obținute de România din licitarea certificatelor de emisii de gaze cu efect de seră",
-      "weight": 2
+      "text": "Permite avansuri trimestriale de 70% pe baza prețului din anul anterior fără garanții, iar dacă prețul pieței scade, cere firmei dobândă la regularizare deși nu a greșit cu nimic.",
+      "article": "art. 17 alin. (2)-(3)",
+      "quote": "În cursul anului de referință, beneficiarul poate primi plăți în avans, trimestrial, în limita a 70% din valoarea estimată a ajutorului anual, calculată prin utilizarea prețului de referință angro aferent anului anterior.",
+      "weight": 1
     },
     {
-      "text": "Plafonul de 350 milioane e fixat în lege, dar și „stabilit” anual prin legea bugetului; e neclar dacă suma poate fi redusă, iar firmele nu pot planifica.",
-      "article": "art. 4 alin. (3)",
-      "quote": "Plafonul anual prevăzut la alin. (1) se stabilește prin legea bugetului de stat pentru fiecare an de aplicare a schemei și nu poate fi depășit.",
-      "weight": 2
+      "text": "Nu corelează bonusul de 10% pentru flexibilitate cu pragul minim de 50 euro/MWh și îl omite din formula de reducere proporțională atunci când bugetul anual este insuficient.",
+      "article": "art. 14 alin. (1) și art. 18 alin. (1)",
+      "quote": "Beneficiarul poate primi un sprijin suplimentar de cel mult 10 % din valoarea ajutorului determinat potrivit art. 11 alin. (4)",
+      "weight": 1
     },
     {
-      "text": "Proiectul creează cheltuieli publice din inițiativă parlamentară; adoptat fără punctul de vedere și impactul financiar de la Guvern, riscă neconstituționalitatea.",
-      "article": "art. 4; expunerea de motive",
-      "quote": null,
-      "weight": 2
-    },
-    {
-      "text": "Nu există un plafon pe firmă, iar banii se împart proporțional cu consumul, deci câțiva consumatori uriași pot lua cea mai mare parte din bani.",
-      "article": "art. 18 alin. (1)",
-      "quote": "bugetul disponibil se repartizează între toți solicitanții eligibili proporțional cu valoarea ajutorului calculată pentru fiecare dintre aceștia potrivit art. 11.",
-      "weight": 2
-    },
-    {
-      "text": "Legea vorbește de o anexă proprie, dar spune și că anexa unui act european „face parte” din ea; lista sectoarelor și corespondența cu codurile CAEN nu sunt clare.",
-      "article": "art. 2 lit. a), art. 6 alin. (1)",
-      "quote": "Regulile de identificare a acestor sectoare și subsectoare și de stabilire a corespondenței cu codurile de activitate aplicabile în România sunt prevăzute în anexa 1 la OACME care face parte integrantă din prezenta lege.",
-      "weight": 2
-    },
-    {
-      "text": "Condiția ca investiția să reducă costurile sistemului energetic e lăsată în întregime pe seama unei hotărâri de Guvern, fără criterii în lege.",
-      "article": "art. 13 alin. (3), art. 21",
+      "text": "Nu fixează criterii minime în lege pentru a verifica dacă investițiile chiar reduc costurile sistemului energetic, lăsând întreaga metodologie exclusiv la decizia Guvernului.",
+      "article": "art. 13 alin. (3) și art. 21",
       "quote": "Contribuția se demonstrează pe baza indicatorilor și a metodologiei stabilite prin normele metodologice prevăzute la art. 21.",
-      "weight": 2
-    },
-    {
-      "text": "Avansurile de până la 70% se plătesc fără nicio garanție; dacă firma intră în insolvență, banii pot fi greu de recuperat.",
-      "article": "art. 17 alin. (2)",
-      "quote": "beneficiarul poate primi plăți în avans, trimestrial, în limita a 70% din valoarea estimată a ajutorului anual",
-      "weight": 1
-    },
-    {
-      "text": "Penalitatea pentru întârzierea investiției e mică (circa 3,65% pe an), deci poate fi mai ieftin pentru firmă să întârzie decât să investească la timp.",
-      "article": "art. 20 alin. (4)",
-      "quote": "beneficiarul datorează penalități de întârziere de 0,01% pe zi din valoarea ajutorului acordat",
-      "weight": 1
-    },
-    {
-      "text": "Ministerul poate delega administrarea banilor altui minister și unei bănci de stat fără reguli despre ce, cum și cine răspunde.",
-      "article": "art. 5 alin. (2)",
-      "quote": "Ministerul Energiei poate delega atribuții de administrare a schemei către Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului și către Banca de Investiții și Dezvoltare - S.A.",
-      "weight": 1
-    },
-    {
-      "text": "Ministerul poate declara eligibile sectoare noi pe baza unui raport plătit de solicitant, cu verificare lăsată la aprecierea sa, chiar dacă e limitată de decizia Comisiei.",
-      "article": "art. 6 alin. (2)",
-      "quote": "Eligibilitatea sectorului sau subsectorului se recunoaște de Ministerul Energiei numai după verificarea și însușirea demonstrației",
-      "weight": 1
-    },
-    {
-      "text": "Greșeli de redactare: trimitere greșită la art. 5 alin. (2) în loc de (3), frază neterminată la art. 20 alin. (3), greșeli de scriere.",
-      "article": "art. 10 alin. (2), art. 20 alin. (3)-(4)",
-      "quote": "Prețul de referință angro se exprimă în euro/MWh și se publică de ANRE potrivit art. 5 alin. (2).",
-      "weight": 1
-    },
-    {
-      "text": "Firmele au doar 5 zile lucrătoare să răspundă la clarificări, iar legea nu spune ce se întâmplă dacă depășesc termenul.",
-      "article": "art. 16 alin. (4)",
-      "quote": "ministerul solicită clarificări, la care solicitantul răspunde în cel mult 5 zile lucrătoare",
       "weight": 1
     }
   ],
-  "fix": {
-    "text": "Să se scrie în art. 11 formula exactă a reducerii, iar prelungirea termenului și renunțarea la penalități (art. 13 alin. 4, art. 20 alin. 5) să aibă criterii obiective și o durată maximă.",
-    "removes": [
-      0,
-      1
-    ],
-    "levelAfter": "green",
-    "scoreAfter": 2.5
-  },
+  "fix": null,
   "quotes": {
-    "checked": 32,
-    "verified": 32
+    "checked": 22,
+    "verified": 22
   }
 }

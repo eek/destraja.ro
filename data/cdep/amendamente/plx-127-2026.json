@@ -1,26 +1,48 @@
 {
  "slug": "plx-127-2026",
  "billId": "PL-x 127/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-10-30T14:00:40.053Z",
- "inputHash": "098b8df0c185",
+ "updatedAt": "2026-11-20T09:14:42.847Z",
+ "inputHash": "a1ed8acf63aa",
  "reports": [
   "https://www.cdep.ro/comisii/administratie/pdf/2026/rp127.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp127.pdf",
+   "sha256": "14c756a9299ef266",
+   "parts": 1,
+   "rows": 3,
+   "unchanged": 2,
+   "admise": 1,
+   "respinse": 0,
+   "truncated": false
+  }
+ ],
+ "completeness": "complete",
+ "problems": [],
  "counts": {
   "admise": 1,
-  "respinse": 0
+  "respinse": 0,
+  "anuntate": 3,
+  "nemodificate": 2
  },
  "amendments": [
   {
    "nr": "3",
+   "report": "rp127.pdf",
    "article": "art. 2 alin. (1)",
    "status": "admis",
    "authors": [],
    "byCommittee": "membrii Comisiei",
-   "summary": "Precizează că sărbătorirea Anului poate fi „marcată” (nu „organizată”) și menționează explicit organizațiile neguvernamentale în locul „societății civile”.",
+   "byGroup": null,
+   "summary": "Înlocuiește „poate fi organizată” cu „poate fi marcată” și „societatea civilă” cu mențiunea explicită „inclusiv organizații neguvernamentale”.",
    "quote": "Sărbătorirea Anului Grigore Constantin Moisil poate fi marcată de către autoritățile administrației publice centrale și locale",
+   "inForce": null,
+   "before": "Art.2.- (1) Sărbătorirea Anului Grigore Constantin Moisil poate fi organizată de către autoritățile administrației publice centrale și locale, de către instituțiile aflate în subordinea sau coordonarea acestora, precum și de către societatea civilă, persoane fizice și persoane juridice, prin organizarea și/sau participarea la programe și manifestări culturale, educative, cu caracter social sau științific.\n\n(2) Autoritățile administrației publice centrale și locale, precum și instituțiile aflate în subordinea sau coordonarea acestora pot acorda sprijin logistic și pot aloca fonduri din bugetele proprii în vederea organizării și derulării în bune condiții a manifestărilor prevăzute la alin.(1), în limita alocațiilor bugetare aprobate.",
+   "after": "Art.2.- (1) Sărbătorirea Anului Grigore Constantin Moisil poate fi marcată de către autoritățile administrației publice centrale și locale, de către instituțiile aflate în subordinea sau coordonarea acestora, precum și de către persoane fizice și persoane juridice, inclusiv organizații neguvernamentale, prin organizarea și/sau participarea la programe și manifestări culturale, educative, cu caracter social sau științific.\n\n(2) Nemodificat",
+   "motivation": "Conform avizului Consiliului Legislativ",
    "effects": [
     "neutru"
    ]
@@ -29,12 +51,14 @@
  "matches": [
   {
    "change": "1:0",
+   "report": "rp127.pdf",
    "amendments": [
     "3"
    ]
   },
   {
    "change": "1:1",
+   "report": "rp127.pdf",
    "amendments": [
     "3"
    ]

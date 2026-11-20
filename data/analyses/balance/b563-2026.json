@@ -3,179 +3,156 @@
   "billId": "B563/2026",
   "schema": 1,
   "model": "agy",
-  "updatedAt": "2026-10-30T10:22:04.626Z",
-  "inputHash": "361ceecb92e7",
-  "riskScore": 9.8,
-  "summary": "Sub pretextul modernizării profesiei de avocat, proiectul instituie un monopol avocațial masiv asupra întocmirii oricăror contracte scrise, a procedurilor la Registrul Comerțului și a aplicațiilor digitale ori AI, afectând grav libertatea e",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-20T09:34:23.508Z",
+  "inputHash": "2af6a21c5295",
+  "riskScore": 7,
+  "summary": "Un pachet mixt: aduce garanții utile pentru victime, minori și secretul profesional, dar impune privilegii, costuri forțate și sancțiuni vagi în favoarea breslei.",
   "good": [
     {
-      "text": "Garantează dreptul cetățeanului de a fi asistat de avocat în orice procedură administrativă sau jurisdicțională, împiedicând autoritățile să interzică abuziv accesul apărătorului.",
-      "article": "Art. I pct. 9 (art. 3 alin. (2²) din Legea 51/1995)",
+      "text": "Obligă barourile să desemneze doar avocați specializați pentru minori abuzați, victime ale traficului de persoane și solicitanți de azil, oferind o apărare mai bună persoanelor vulnerabile.",
+      "article": "art. I pct. 22, art. 77¹ alin. (1)",
+      "quote": "Barourile desemnează numai avocați înscriși în Registrul de asistență judiciară care au pregătire specializată atestată, corespunzătoare obiectului cauzei și nevoilor persoanei asistate",
+      "weight": 3
+    },
+    {
+      "text": "Interzice avocaților să ceară onorarii de succes sau să rețină bani din compensațiile acordate de stat victimelor infracțiunilor, protejând integral sprijinul financiar al acestora.",
+      "article": "art. I pct. 12, art. 30 alin. (6)",
+      "quote": "Avocatul nu poate conveni un onorariu de succes pentru obținerea compensației financiare sau a avansului din aceasta, acordate victimei unei infracțiuni potrivit Legii nr. 211/2004",
+      "weight": 3
+    },
+    {
+      "text": "Clarifică finanțarea asistenței gratuite pentru victimele infracțiunilor și interzice strict avocaților plătiți de stat să ceară bani de la beneficiari, sancționând abaterile.",
+      "article": "art. I pct. 20 și 24, art. 74 și art. 82¹",
+      "quote": "Avocatul care acordă asistență judiciară potrivit prezentului capitol nu are dreptul să pretindă ori să primească de la client ori de la cel apărat sau asistat și nici să rețină din sumele cuvenite acestuia niciun fel de remunerație",
+      "weight": 3
+    },
+    {
+      "text": "Asigură copiilor un curator special plătit din fondurile de ajutor public în procedurile unde le sunt afectate drepturile, fără ca sprijinul să depindă de veniturile părinților.",
+      "article": "art. I pct. 7, art. 3 alin. (1) lit. k⁴)",
+      "quote": "asistența juridică se suportă din fondurile destinate ajutorului public judiciar și nu este condiționată de dovedirea veniturilor părinților sau ale reprezentantului legal.",
+      "weight": 3
+    },
+    {
+      "text": "Stabilește conturi bugetare dedicate și termene clare cu penalități pentru plata avocaților din oficiu, prevenind blocajele care afectează dreptul la apărare al persoanelor fără venituri.",
+      "article": "art. I pct. 25 și 26, art. 84 alin. (2) și (3¹)",
+      "quote": "Sumele de bani alocate în acest cont sau subcont nu vor putea fi utilizate în alte scopuri.",
+      "weight": 2
+    },
+    {
+      "text": "Extinde protecția secretului profesional la fișierele și comunicările digitale, inclusiv cele stocate în cloud, apărând confidențialitatea dintre cetățean și avocat în mediul modern.",
+      "article": "art. I pct. 13, art. 34 alin. (1)",
+      "quote": "datele, informațiile, comunicările, corespondența, actele, lucrările și orice alte materiale cu caracter profesional sunt inviolabile, indiferent de suportul, forma, modalitatea de creare, comunicare, prelucrare ori stocare",
+      "weight": 2
+    },
+    {
+      "text": "Permite avocaților să păstreze și să folosească dispozitivele electronice în instanțe, parchete și locuri de deținere, cu limite proporționale pentru securitate, facilitând apărarea efectivă.",
+      "article": "art. I pct. 14, art. 34 alin. (5) și (6)",
+      "quote": "Avocatul are dreptul de a păstra asupra sa dispozitivele electronice și de a le utiliza în scop profesional în sediile instanțelor judecătorești, parchetelor, organelor de cercetare penală, în locurile de deținere",
+      "weight": 2
+    },
+    {
+      "text": "Garantează accesul avocatului la documentele necesare de la instituțiile publice și prezența sa în orice procedură administrativă sau judiciară, întărind dreptul la apărare al cetățeanului.",
+      "article": "art. I pct. 8, art. 3 alin. (2¹) și (2²)",
       "quote": "Prezența avocatului în orice procedură jurisdicțională și administrativă, indiferent de specificul acesteia sau de faza în care se află, nu poate fi restricționată atâta timp cât persoana asistată sau reprezentată este implicată în procedura respectivă.",
       "weight": 2
     },
     {
-      "text": "Protejează confidențialitatea datelor clienților și atunci când sunt stocate în cloud sau la furnizori IT externi, permițând percheziția ori ridicarea lor doar de procuror, cu mandat.",
-      "article": "Art. I pct. 13 (art. 34 alin. (1) din Legea 51/1995)",
-      "quote": "Pentru asigurarea secretului profesional, datele, informațiile, comunicările, actele, lucrările și celelalte materiale cu caracter profesional sunt inviolabile, indiferent de suportul, forma, modalitatea de creare, comunicare, prelucrare ori stocare",
+      "text": "Exclude explicit din sfera consultanței rezervate informarea generală, cercetarea, presa, modelele standardizate și activitatea altor profesii reglementate, protejând accesul public la informație.",
+      "article": "art. I pct. 9, art. 3¹ alin. (2) și (4)",
+      "quote": "Nu constituie consultanță juridică furnizarea de informații generale privind dreptul și nici activitățile de documentare, cercetare, publicare sau furnizare de instrumente juridice standardizate",
       "weight": 2
     },
     {
-      "text": "Clarifică faptul că informarea juridică generală, cercetarea, publicarea și modelele standard de documente nu constituie consultanță juridică rezervată avocaților.",
-      "article": "Art. I pct. 10 (art. 3¹ alin. (2) din Legea 51/1995)",
-      "quote": "Nu constituie consultanță juridică furnizarea de informații generale privind dreptul și nici activitățile de documentare, cercetare, publicare sau furnizare de instrumente juridice standardizate, în măsura în care acestea nu presupun analiza juridică a unei situații concrete.",
+      "text": "Reglementează mecanismele de plată tip escrow prin avocat cu obligarea păstrării banilor clienților în conturi separate și trasabile, crescând siguranța tranzacțiilor private.",
+      "article": "art. I pct. 3, art. 3 alin. (1) lit. g¹)",
+      "quote": "fondurile clienților se păstrează în conturi distincte de cele utilizate pentru fondurile proprii ale avocatului sau ale formei de exercitare a profesiei, cu afectațiune specială, nu intră în patrimoniul acestora",
       "weight": 2
     },
     {
-      "text": "Reglementează conturile fiduciare (escrow) ale avocaților cu obligația păstrării banilor clienților separat de patrimoniul avocatului și cu reguli stricte de evidență și restituire.",
-      "article": "Art. I pct. 4 (art. 3 alin. (1) lit. g¹) din Legea 51/1995)",
-      "quote": "fondurile se păstrează separat de patrimoniul avocatului, se utilizează numai potrivit mandatului și sunt supuse unor reguli de evidență, trasabilitate, verificare și restituire stabilite prin statutul profesiei de avocat și prin normele aplicabile;",
-      "weight": 2
-    },
-    {
-      "text": "Reduce birocrația recunoscând împuternicirea avocațială ca dovadă a mandatului față de terți, cu respectarea formei autentice acolo unde legea o cere pentru validitatea actului.",
-      "article": "Art. I pct. 12 (art. 28 alin. (1¹) din Legea 51/1995)",
-      "quote": "Împuternicirea avocațială face dovada mandatului pentru actele și operațiunile prevăzute în cuprinsul său, cu respectarea cerințelor de formă ale mandatului prevăzute de lege pentru validitatea actului juridic ce urmează a fi încheiat prin reprezentant",
-      "weight": 2
-    },
-    {
-      "text": "Permite avocaților să folosească laptopul și telefonul în scop profesional în instanțe, parchete și instituții publice, înlesnind apărarea modernă și accesul rapid la dosarul electronic.",
-      "article": "Art. I pct. 14 (art. 34 alin. (5) din Legea 51/1995)",
-      "quote": "Accesul avocatului în aceste locuri nu poate fi condiționat de predarea ori depozitarea dispozitivelor. Utilizarea acestora de către avocat se va face astfel încât să nu fie afectată activitatea curentă în aceste locuri.",
+      "text": "Precizează că noile activități conexe ale avocaților (escrow, păstrare acte, curatelă, tutelă) nu blochează alte profesii sau persoane să desfășoare aceleași activități potrivit legii.",
+      "article": "art. I pct. 4, art. 3 alin. (1¹)",
+      "quote": "Dispozițiile alin. (1) lit. g¹)-g⁴) nu aduc atingere competențelor altor profesii reglementate și nici dreptului altor persoane de a desfășura aceste activități sau de a fi numite",
       "weight": 1
     },
     {
-      "text": "Interzice expres avocatului să fie și mediator, și apărător al unei părți în același dosar, prevenind conflictele de interese și protejând imparțialitatea medierii.",
-      "article": "Art. I pct. 3 (art. 3 alin. (1) lit. f) din Legea 51/1995)",
-      "quote": "Avocatul nu poate cumula în aceeași cauză activități de apărare, asistare și reprezentare juridică a unei părți cu activitatea de mediere.;",
-      "weight": 1
-    },
-    {
-      "text": "Permite firmelor să își găzduiască temporar sediul la cabinetul avocatului (maximum un an) nu doar la înființare, ci și la mutarea sediului sau la deschiderea unui sediu secundar.",
-      "article": "Art. I pct. 5 (art. 3 alin. (1) lit. h) din Legea 51/1995)",
-      "quote": "pentru scopul limitat al constituirii legale și autorizării funcționării societății comerciale sau, după caz, pentru mutarea sediului ori pentru stabilirea unui sediu secundar al societății în cauză, pentru o perioadă limitată de cel mult un an;",
-      "weight": 1
-    },
-    {
-      "text": "Obligă expres avocații care desfășoară activități de recuperare a creanțelor să respecte regulile de protecție a consumatorilor și interdicția practicilor agresive sau înșelătoare.",
-      "article": "Art. I pct. 7 (art. 3 alin. (1) lit. k⁴) din Legea 51/1995)",
-      "quote": "cu respectarea legislației privind protecția consumatorilor, protecția datelor și prevenirea practicilor comerciale agresive sau înșelătoare;",
-      "weight": 1
-    },
-    {
-      "text": "Instituie obligația autorităților publice de a consulta în timp util corpul profesional al avocaților înainte de adoptarea actelor normative care privesc direct exercitarea profesiei.",
-      "article": "Art. I pct. 18 (art. 65 lit. w) din Legea 51/1995)",
-      "quote": "În acest scop, autoritățile și instituțiile publice consultă U.N.B.R. într-o perioadă rezonabilă de timp și în mod efectiv, într-o etapă care permite formularea observațiilor și propunerilor înainte de adoptarea sau emiterea actului normativ.",
+      "text": "Unifică modul în care avocatul își dovedește mandatul față de terți prin împuternicirea avocațială, simplificând procedurile și reducând birocrația pentru clienți.",
+      "article": "art. I pct. 11, art. 28 alin. (1¹)",
+      "quote": "În exercitarea mandatului prevăzut la alin. (1), pentru toate activitățile de la art.3 avocatul se legitimează față de terți prin împuternicirea avocațială emisă în baza contractului de asistență juridică.",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Obligă cetățenii și firmele să apeleze la avocat pentru întocmirea oricărui contract scris cerut de lege pentru validitate sau dovadă (peste 250 lei), blocând libertatea contractuală.",
-      "article": "Art. II pct. 1 (art. 1241 alin. (2) Cod civil)",
-      "quote": "Atunci când legea cere, pentru validitatea sau pentru dovedirea contractului, forma scrisă sub semnătură privată, înscrisul constatator se întocmește de avocat, dacă legea nu prevede altfel.",
-      "weight": 3
-    },
-    {
-      "text": "Restrânge excepțiile de la monopolul avocaților doar la „alte profesii juridice”, scoțând în afara legii și expunând la dosar penal contabilii, consultanții fiscali sau platformele digitale.",
-      "article": "Art. I pct. 8 (art. 3 alin. (2) din Legea 51/1995)",
-      "quote": "Activitățile prevăzute la alin. (1) se exercită numai de avocat, cu excepția celor care sunt stabilite în mod expres prin lege și în competența altor profesii juridice.",
-      "weight": 3
-    },
-    {
-      "text": "Impune întocmirea de către avocat a oricărui act adițional la contractele scrise, îngreunând și scumpind nejustificat modificările curente dintre firme sau cetățeni.",
-      "article": "Art. II pct. 3 (art. 1243 alin. (2) Cod civil)",
-      "quote": "Obligația prevăzută la art. 1241 alin. (2) se aplică modificării contractului numai în măsura în care legea cere, pentru modificarea respectivă, forma scrisă sub semnătură privată pentru validitate sau pentru dovadă.",
-      "weight": 3
-    },
-    {
-      "text": "Creează o capcană: spune că actul făcut fără avocat nu e nul decât dacă legea prevede expres, dar art. 25 din Legea 51/1995 prevede deja nulitatea actelor efectuate public de neavocați.",
-      "article": "Art. II pct. 2 (art. 1242 alin. (3) Cod civil)",
-      "quote": "Nerespectarea obligației prevăzute la art. 1241 alin. (2) nu atrage nulitatea contractului decât dacă legea prevede în mod expres această sancțiune.",
-      "weight": 3
-    },
-    {
-      "text": "Transformă orice sfat pe un caz concret în monopol avocațial „indiferent de tehnologia utilizată”, interzicând aplicațiile AI, generatoarele digitale de acte și sfaturile contabililor.",
-      "article": "Art. I pct. 10 (art. 3¹ alin. (1) și (3) din Legea 51/1995)",
-      "quote": "Calificarea unei activități drept consultanță juridică se realizează potrivit alin. (1), indiferent de mijlocul sau tehnologia utilizată pentru furnizarea acesteia.",
-      "weight": 3
-    },
-    {
-      "text": "Dă UNBR (asociația concurenților de pe piață) dreptul să ceară închiderea site-urilor sau aplicațiilor rivale și identificarea utilizatorilor, cu judecată în 5 zile și decizie executorie imediat.",
-      "article": "Art. I pct. 11 (art. 25¹ alin. (1)-(4) din Legea 51/1995)",
-      "quote": "Cererile prevăzute la alin. (1) și (2) se judecă de instanța competentă potrivit legii, de urgență și cu precădere. Primul termen de judecată se stabilește în cel mult 5 zile de la înregistrarea cererii.",
-      "weight": 3
-    },
-    {
-      "text": "Rezervă profesiilor juridice redactarea și depunerea actelor de înființare sau modificare a firmelor la Registrul Comerțului și înscrierile în RNPM, excluzând contabilii și platformele online.",
-      "article": "Art. I pct. 7 (art. 3 alin. (1) lit. k¹) și k²) din Legea 51/1995)",
-      "quote": "redactarea și depunerea actelor privind înființarea, modificarea și încetarea persoanelor juridice, cu excepția actelor pentru care legea prevede forma autentică sau o altă competență exclusivă, în condițiile legii;",
-      "weight": 3
-    },
-    {
-      "text": "Obligă firmele private să predea documente și informații la simpla cerere scrisă a oricărui avocat, fără controlul prealabil al unui judecător, creând risc major de abuz și presiuni.",
-      "article": "Art. I pct. 9 (art. 3 alin. (2¹) din Legea 51/1995)",
-      "quote": "Instituțiile publice și persoanele juridice de drept privat furnizează avocatului, în condițiile legii și în măsura necesară exercitării mandatului profesional, informațiile și înscrisurile solicitate pentru apărarea sau reprezentarea clientului",
-      "weight": 3
-    },
-    {
-      "text": "Obligă soții cu copii minori să plătească avocați la divorț chiar și când se înțeleg amiabil la notar sau la primărie, crescând costurile pentru familii și cheltuielile din buget pentru oficii.",
-      "article": "Art. I pct. 7 (art. 3 alin. (1) lit. k⁵) din Legea 51/1995)",
+      "text": "Impune avocat obligatoriu în toate divorțurile cu copii minori, inclusiv cele amiabile la notar, și în procedurile privind autoritatea părintească, creând costuri forțate familiilor.",
+      "article": "art. I pct. 7, art. 3 alin. (1) lit. k³)",
       "quote": "asistarea obligatorie a soților în procedurile de divorț, indiferent de calea procedurală aleasă, în condițiile Codului civil și ale Codului de procedură civilă, în cazul în care există copii minori",
       "weight": 3
     },
     {
-      "text": "Instituie monopoluri profesionale masive fără testul de proporționalitate și analiza de impact economic obligatorii conform Legii 245/2020 și Directivei UE 2018/958.",
-      "article": "Expunerea de motive (pct. 2) și ansamblul proiectului",
-      "quote": null,
+      "text": "Pedepsirea cu închisoare până la 3 ani a „oricărei expresii” sau combinații cu termenul „avocat” care ar induce în eroare din context este prea vagă și amenință libertatea de exprimare.",
+      "article": "art. I pct. 16 și 17, art. 59 alin. (6)–(8)",
+      "quote": "folosirea fără drept a oricărei denumiri, titulaturi sau expresii care, prin modul de prezentare ori prin contextul în care sunt utilizate, sunt de natură să inducă publicul în eroare",
       "weight": 3
     },
     {
-      "text": "Prin includerea în lista activităților rezervate din art. 3, împiedică rudele sau apropiații care nu au profesie juridică să mai fie numiți executori testamentari, tutori sau curatori.",
-      "article": "Art. I pct. 4 (art. 3 alin. (1) lit. g³)-g⁵) din Legea 51/1995)",
-      "quote": "g³ ) activități de executor testamentar, în condițiile legii; g⁴) activități de consiliere judiciară, curatelă și tutelă specială;",
+      "text": "Oferă UNBR un mecanism fulger de ștergere a conținutului online și identificare a utilizatorilor, cu termen în 5 zile și hotărâre imediat executorie, slăbind garanțiile dreptului la apărare.",
+      "article": "art. I pct. 10, art. 25¹ alin. (1)–(5)",
+      "quote": "Hotărârea este executorie și poate fi atacată numai cu recurs, în termen de 5 zile de la comunicare.",
+      "weight": 3
+    },
+    {
+      "text": "Include orice tehnologie (AI, aplicații LegalTech) în monopolul consultanței juridice pentru situații concrete, expunând inovația la dosare penale și blocări, printr-o definiție circulară.",
+      "article": "art. I pct. 9, art. 3¹ alin. (1) și (3)",
+      "quote": "Calificarea unei activități drept consultanță juridică se realizează potrivit alin. (1), indiferent de mijlocul sau tehnologia utilizată pentru furnizarea acesteia.",
+      "weight": 3
+    },
+    {
+      "text": "Permite UNBR să sesizeze simultan instanța și Poliția pentru același conținut online, iar ordinele Poliției nu se suspendă nici în timpul procesului, creând risc de abuz și măsuri contradictorii.",
+      "article": "art. I pct. 10, art. 25¹ alin. (6)–(10)",
+      "quote": "Procedurile desfășurate în fața instanței civile și, respectiv, în fața Poliției Române sunt independente și pot fi inițiate și desfășurate concomitent.",
       "weight": 2
     },
     {
-      "text": "Rezervă arbitrajul și notificarea sau negocierea pentru recuperarea datoriilor exclusiv profesiilor juridice, eliminând arbitrii tehnicieni/economiști și firmele de recuperare a creanțelor.",
-      "article": "Art. I pct. 7 (art. 3 alin. (1) lit. k³) și k⁴) din Legea 51/1995)",
-      "quote": "k³) activități de arbitraj, inclusiv arbitraj ad-hoc și arbitraj instituțional; k⁴) desfășurarea de activități juridice pentru recuperarea creanțelor, prin notificare, negociere, reprezentare",
+      "text": "Dă actelor atestate de avocat forță probantă deplină până la înscrierea în fals față de oricine, deși avocatul reprezintă o singură parte și nu este autoritate publică imparțială.",
+      "article": "art. I pct. 1, art. 3 alin. (1) lit. c)",
+      "quote": "actele atestate de avocat fac dovadă deplină față de orice persoană, până la înscrierea în fals, cu privire la constatările făcute personal de către avocat.",
       "weight": 2
     },
     {
-      "text": "Permite avocaților să facă mediere fără autorizarea și supravegherea Consiliului de Mediere, creând un dublu standard față de mediatorii autorizați și ocolind formarea specifică.",
-      "article": "Art. I pct. 3 (art. 3 alin. (1) lit. f) din Legea 51/1995)",
-      "quote": "În exercitarea activității de mediator, avocatul nu este condiționat de îndeplinirea formalităților de autorizare prevăzute pentru persoanele care exercită exclusiv profesia de mediator și nu este supus supravegherii profesionale a Consiliului de Mediere.",
+      "text": "Permite avocaților definitivi să se înscrie în Tabloul mediatorilor fără formare specifică, examen sau autorizare, creând un privilegiu nejustificat și scăzând garanțiile de calitate în mediere.",
+      "article": "art. I pct. 2, art. 3 alin. (1) lit. f)",
+      "quote": "persoanele care au dobândit titlul profesional de avocat definitiv se înscriu, la cerere, în Tabloul mediatorilor, fără altă autorizare.",
       "weight": 2
     },
     {
-      "text": "Incriminează cu închisoare până la 3 ani folosirea „oricărei expresii” care prin context ar putea induce în eroare, o formulare vagă ce încalcă claritatea legii penale și permite abuzuri.",
-      "article": "Art. I pct. 17 (art. 59 alin. (7) din Legea 51/1995)",
-      "quote": "Cu pedeapsa prevăzută la alin. (6) se sancționează și folosirea fără drept a oricărei denumiri, titulaturi sau expresii care, prin modul de prezentare ori prin contextul în care sunt utilizate, sunt de natură să inducă publicul în eroare",
+      "text": "Nu clarifică sancțiunile, conflictele de interese între soți, aplicarea ajutorului public la notar sau situația copiilor necomuni pentru divorțul obligatoriu cu avocat, generând haos în practică.",
+      "article": "art. I pct. 7, art. 3 alin. (1) lit. k³)",
+      "quote": "obligația se aplică cu asigurarea asistenței juridice gratuite pentru persoanele care îndeplinesc condițiile pentru acordarea ajutorului public judiciar în materie civilă",
       "weight": 2
     },
     {
-      "text": "Extinde obligația redactării de către avocat și la contractele încheiate electronic, trimițând vag la o „lege specială” inexistentă și blocând comerțul online și contractarea digitală.",
-      "article": "Art. II pct. 4 (art. 1245 alin. (2) Cod civil)",
-      "quote": "În cazul contractelor încheiate prin mijloace electronice, obligația prevăzută la art. 1241 alin. (2) se aplică în condițiile și cu respectarea legii speciale.",
+      "text": "Permite blocarea imediată a controalelor fiscale sau administrative prin simpla invocare a secretului profesional, obligând instituțiile statului să deschidă procese la curtea de apel.",
+      "article": "art. I pct. 15, art. 34¹ alin. (3)",
+      "quote": "Atunci când, cu ocazia unei măsuri prevăzute la alin. (1), avocatul invocă secretul profesional cu privire la anumite date, aplicații sau materiale, acestea nu pot fi examinate până la stabilirea caracterului protejat al acestora.",
       "weight": 2
     },
     {
-      "text": "Blochează examinarea datelor la simpla invocare a secretului profesional în timpul controalelor, fără a stabili cine, în ce termen și prin ce procedură decide dacă datele sunt protejate.",
-      "article": "Art. I pct. 15 (art. 34¹ alin. (3) din Legea 51/1995)",
-      "quote": "Atunci când, cu ocazia unei măsuri prevăzute la alin. (1), avocatul invocă secretul profesional cu privire la anumite date, aplicații sau materiale, acestea nu pot fi examinate până la stabilirea, potrivit legii, a caracterului protejat al acestora.",
+      "text": "Obligă toate autoritățile să consulte UNBR „într-o perioadă rezonabilă și în mod efectiv”, fără termene clare, oferind pretext pentru contestarea și blocarea proiectelor de acte normative.",
+      "article": "art. I pct. 18, art. 65 lit. w)",
+      "quote": "În acest scop, autoritățile și instituțiile publice consultă U.N.B.R. într-o perioadă rezonabilă de timp și în mod efectiv, într-o etapă care permite formularea observațiilor și propunerilor înainte de adoptarea sau emiterea actului normativ.",
       "weight": 1
     },
     {
-      "text": "Interzice penitenciarelor și centrelor de reținere să ceară depunerea telefoanelor și laptopurilor la intrare, creând vulnerabilități de siguranță greu de controlat în locurile de deținere.",
-      "article": "Art. I pct. 14 (art. 34 alin. (5) din Legea 51/1995)",
-      "quote": "Avocatul are dreptul de a păstra asupra sa dispozitivele electronice și să le utilizeze în scop profesional în sediile instanțelor judecătorești, parchetelor, organelor de cercetare penală, în locurile de deținere",
+      "text": "Textul conține note redacționale necurățate, greșeli de redactare și necorelări cu titlul și expunerea de motive (unde mai apar articole eliminate), afectând claritatea legii.",
+      "article": "art. I și art. II",
+      "quote": "Renumerotarea ca art. II rezultă din eliminarea articolului privind Codul civil.",
       "weight": 1
     }
   ],
   "fix": null,
   "quotes": {
-    "checked": 27,
-    "verified": 26
+    "checked": 23,
+    "verified": 23
   }
 }

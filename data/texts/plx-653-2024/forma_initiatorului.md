@@ -1,0 +1,61 @@
+## LEGE
+
+pentru modificarea și completarea Legii educației fizice și sportului nr. 69/2000
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic. – Legea educației fizice și sportului nr. 69/2000, publicată în Monitorul Oficial al României, Partea I, nr. 200 din 9 mai 2000, cu modificările ulterioare, se modifică și se completează după cum urmează:
+
+1\. Art. 7 - Se abrogă
+
+2\. Art. 12(3) - Se abrogă
+
+3\. Art. 17 alin.2 lit. b se abrogă.
+
+4\. Art. 18 alin. 1 lit.i se modifică și va avea următorul conținut:
+
+i) repartizează bugetul activității sportive, constituit potrivit prezentei legi, pentru activitatea proprie și cea a instituțiilor din subordinea sa;
+
+5\. Art. 20^1 și art. 20^2 - Se abrogă
+
+6\. Art. 24 alin. 2 se modifică și va avea următorul conținut:
+
+(2) Structurile sportive de drept privat oficial recunoscute se pot afilia după cum urmează:
+
+a) la asociațiile județene, respectiv a municipiului București, pe ramuri de sport, constituite potrivit prevederilor art. 34, pentru participarea la competițiile oficiale locale;
+
+b) la federația sportivă națională corespunzătoare, constituită potrivit prevederilor art. 35-41, pentru participarea la competițiile oficiale naționale sau internaționale.
+
+6\. Art. 29 se modifică și va avea următorul conținut:
+
+## Articolul 29
+
+(1) Cluburile sportive de drept public sunt persoane juridice, înființate ca instituții publice în subordinea organelor administrației de stat sau a instituțiilor de învățământ superior de stat și au drept obiect de activitate implementarea la nivel local a politicilor publice ale Guvernului.
+
+(2) Se abrogă
+
+(3) Înființarea, organizarea și funcționarea cluburilor sportive de drept public în subordinea instituțiilor de învățământ superior de stat se face prin ordin al ministrului educației naționale și cercetării științifice, la solicitarea acestora.
+
+7\. Art. 35 alin. 1 se modifică și va avea următorul conținut:
+
+1\) Federațiile sportive naționale sunt structuri sportive de interes național, constituite prin asocierea cluburilor sportive de drept privat și asociațiilor județene și ale municipiului București, pe ramuri de sport.
+
+8\. Art. 36 alin. 4 și 6 se abrogă - Se abrogă
+
+9\. Art. 45 (1) - partea introductuvă, se modifică astfel:
+
+(1) Structurile sportive dețin exclusivitatea:
+
+Art. 49, se modifică astfel:
+
+(1) Ministerul Tineretului și Sportului exercită supravegherea și controlul tuturor structurilor sportive de drept public, potrivit prevederilor prezentei legi și regulamentului de aplicare a acesteia.
+
+(2) Acțiunea de supraveghere și control se exercita și de:
+
+a) direcțiile pentru tineret și sport județene, respectiv a municipiului București, pentru asociațiile și cluburile sportive de drept public din zona teritorială;
+
+b) federațiile sportive naționale, pentru cluburile sportive, asociațiile județene și ale municipiului București, pe ramuri de sport, ligile profesioniste și cluburile sportive profesioniste din ramura de sport respectivă
+
+10\. Articolul 69 alin. 1 se modifică astfel:
+
+Presedintele Senatului

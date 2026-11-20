@@ -1,20 +1,71 @@
 {
  "slug": "plx-158-2026",
  "billId": "PL-x 158/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-10-30T14:12:22.210Z",
- "inputHash": "729042e0982c",
+ "updatedAt": "2026-11-20T09:19:03.092Z",
+ "inputHash": "18f596376897",
  "reports": [
   "https://www.cdep.ro/comisii/administratie/pdf/2026/rp158.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp158.pdf",
+   "sha256": "2aa866fbe580d481",
+   "parts": 1,
+   "rows": 3,
+   "unchanged": 1,
+   "admise": 2,
+   "respinse": 0,
+   "truncated": false
+  }
+ ],
+ "completeness": "incomplete",
+ "problems": [
+  "texte propuse neverificate"
+ ],
  "counts": {
-  "admise": 1,
-  "respinse": 0
+  "admise": 2,
+  "respinse": 0,
+  "anuntate": 3,
+  "nemodificate": 1
  },
  "amendments": [
   {
+   "nr": "2",
+   "report": "rp158.pdf",
+   "article": "art. unic",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "Alin Chirilă",
+     "role": "deputat",
+     "party": "PSD",
+     "site": "Chirilă Virgil Alin"
+    },
+    {
+     "name": "Florin-Claudiu Roman",
+     "role": "deputat",
+     "party": "PNL",
+     "site": "Roman Florin-Claudiu"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Modifică partea introductivă a articolului unic pentru a introduce două litere noi, f1) și f2), în loc de una singură, la art. 16 alin. (3) din Legea nr. 215/2016.",
+   "quote": null,
+   "inForce": null,
+   "before": null,
+   "after": null,
+   "motivation": null,
+   "unverified": [
+    "after",
+    "before"
+   ]
+  },
+  {
    "nr": "3",
+   "report": "rp158.pdf",
    "article": "art. 16 alin. (3) lit. f²)",
    "status": "admis",
    "authors": [
@@ -32,8 +83,19 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Adaugă două asociații ale veteranilor militari (ANVR și AMVVD) pe lista entităților care pot depune câte o coroană la ceremoniile oficiale.",
+   "byGroup": null,
+   "summary": "Adaugă lit. f2) cu două asociații ale veteranilor militari pe lista entităților care pot depune coroane în cadrul ceremoniilor oficiale.",
    "quote": null,
+   "inForce": null,
+   "before": null,
+   "after": null,
+   "motivation": null,
+   "unverified": [
+    "after",
+    "before",
+    "inForce",
+    "motivation"
+   ],
    "effects": [
     "neutru",
     "mai_rau"
@@ -43,12 +105,14 @@
  "matches": [
   {
    "change": "1:0",
+   "report": "rp158.pdf",
    "amendments": [
     "3"
    ]
   },
   {
    "change": "1:1",
+   "report": "rp158.pdf",
    "amendments": [
     "3"
    ]

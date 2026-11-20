@@ -1,8 +1,30 @@
 {
   "slug": "plx-532-2026",
   "billId": "PL-x 532/2026",
-  "updatedAt": "2026-10-30T09:42:50.000Z",
+  "updatedAt": "2026-11-20T08:53:48.462Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L455FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Parlamentul aprobă prin lege planul României pentru protejarea naturii până în 2030",
+      "summaryTlDr": "Lege-cadru benignă, care aprobă un document strategic și nu impune direct taxe, sancțiuni sau obligații cetățenilor. Problemele sunt de redactare: două articole care se suprapun, un document de consultanță aprobat ca atare și o strategie greu de actualizat pentru că e aprobată prin lege.",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 3
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -16,7 +38,9 @@
         "agy": 2,
         "claude": 4,
         "codex": 3
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "camera",
@@ -31,93 +55,167 @@
         "agy": 2,
         "claude": 3,
         "codex": 3
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     }
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
-      "direction": "la_fel",
-      "headline": "Forma adoptată de Cameră păstrează neschimbat fondul textului Senatului; diferențele sunt doar de redactare",
-      "summary": "Acum textul legii este identic ca fond cu cel inițial. Diferă doar camera care l-a adoptat, data, punctuația, diacriticele și câteva corecturi sau greșeli în cuprinsul și lista de abrevieri din anexă. Riscul pentru cetățeni și firme rămâne același.",
-      "changes": [],
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Strategia nu mai poate impune direct obligații sau restricții; proprietarilor li se promit compensații",
+      "summary": "Acum legea spune că strategia și planul sunt doar programatice. Restricțiile asupra proprietății sau afacerilor cer o lege separată, analiză de impact și, după caz, compensații. Asta reduce riscul pentru cetățeni și firme, dar aduce texte neclare și proceduri mai lungi.",
+      "changes": [
+        {
+          "title": "Strategia nu mai poate crea direct obligații",
+          "text": "Noul art. 1 alin. (2) declară strategia și planul programatice. Obligațiile, interdicțiile sau restrângerile de drepturi cer măsuri legislative distincte.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 1 alin. (2)",
+          "before": null,
+          "after": "(2) Strategia națională și Planul național de acțiune au caracter programatic și nu pot constitui temei direct pentru instituirea de obligații, interdicții sau restrângeri ale exercițiului unor drepturi fără adoptarea unor măsuri legislative distincte.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Proprietatea privată, protejată de restricții fără lege expresă",
+          "text": "Art. 2 nou: nu se pot impune restricții suplimentare asupra proprietății, terenurilor sau afacerilor legale fără bază legală expresă, proporționalitate și compensații, după caz.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 2",
+          "before": null,
+          "after": "Implementarea Strategiei naționale nu poate determina instituirea unor restricții suplimentare asupra proprietății private, utilizării terenurilor sau desfășurării activităților economice legale fără existența unei baze legale exprese",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Fără obligații peste cerințele obligatorii ale UE",
+          "text": "Art. 5 nou: anexele nu pot impune sarcini peste actele obligatorii ale UE. Orice măsură în plus cere o lege și o analiză de impact.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 5",
+          "before": null,
+          "after": "Măsurile prevăzute în anexe nu pot institui în sarcina persoanelor fizice și juridice obligații, restricții sau sarcini financiare care depășesc cerințele rezultate din actele obligatorii ale Uniunii Europene în materie.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Fermierii primesc compensare integrală pentru restricții",
+          "text": "În strategie s-au introdus principii pentru agricultură. Orice limitare a terenurilor agricole vine cu compensare integrală, calculată pe pierderea reală de venit.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "anexa nr. I",
+          "before": null,
+          "after": "2. Principiul „restricție = compensare” – Orice măsură care limitează utilizarea terenurilor agricole sau reduce potențialul productiv al exploatațiilor se aplică numai cu instituirea unor mecanisme de compensare financiară integrală, calculată pe baza pierderii reale de venit.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Analiză de impact și consultare înaintea măsurilor",
+          "text": "Art. 1 alin. (3): măsurile care afectează afaceri sau proprietăți se aplică doar după analiză de impact economic și social și consultare publică.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 1 alin. (3)",
+          "before": null,
+          "after": "(3) Măsurile prevăzute în Planul național de acțiune care afectează activități economice sau dreptul de proprietate se aplică numai după realizarea unei analize de impact economic și social și organizarea consultării publice.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Avizul consiliilor locale, cu aprobare tacită după 60 de zile",
+          "text": "Art. 3 nou cere avizul consultativ al consiliilor locale sau județene înainte de măsurile cu efect local. Tăcerea timp de 60 de zile valorează aviz favorabil.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 3",
+          "before": null,
+          "after": "Consiliul are obligația de a se pronunța prin hotărâre în maximum 60 de zile de la data solicitării transmise de autoritatea publică competentă. Neadoptarea hotărârii de consiliu în termenul stabilit echivalează cu un aviz favorabil.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
       "remaining": {
         "problems": [
           {
-            "text": "Avizul consultativ trebuie dat prin hotărâre „cu caracter normativ”, contradicție juridică",
-            "major": false,
-            "article": "art. 3"
-          },
-          {
-            "text": "Folosește „consiliu comunal/orășenesc”, noțiuni inexistente în Codul administrativ",
-            "major": false,
-            "article": "art. 3"
-          },
-          {
-            "text": "Nu definește măsurile cu efecte locale, consiliile de consultat sau sancțiunea neconsultării",
-            "major": false,
-            "article": "art. 3"
-          },
-          {
-            "text": "Termenul de 60 de zile pentru fiecare consiliu poate produce întârzieri în lanț",
-            "major": false,
-            "article": "art. 3"
-          },
-          {
-            "text": "Plafonul la cerințele UE intră în conflict cu angajamente CBD și Kunming-Montreal",
-            "major": false,
+            "text": "Limita UE intră în conflict cu CBD și Kunming-Montreal; măsuri incerte",
+            "major": true,
             "article": "art. 5"
           },
           {
-            "text": "Țintele de 30% și 10% arii protejate depind de legi viitoare",
-            "major": false,
-            "article": "art. 5"
+            "text": "Ministerul Apărării are exceptare generală, fără criterii, prin prioritatea securității naționale",
+            "major": true,
+            "article": "anexa nr. I, cap. 3"
           },
           {
-            "text": "Noțiunea „proiecte de interes strategic național ori european” nu este definită",
+            "text": "Aviz consultativ dat prin hotărâre „cu caracter normativ”: contradicție juridică",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "„Consiliu comunal/orășenesc” nu există în Codul administrativ",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Termenul de 60 de zile pentru fiecare UAT poate produce întârzieri în lanț",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "„Proiecte de interes strategic” nedefinite și fără listă de referință",
             "major": false,
             "article": "art. 1 alin. (4)"
           },
           {
-            "text": "Greșeli de redactare în cuprinsul anexei („extincte”, „speciilor sălbatic”)",
+            "text": "Date contradictorii în anexă: rezervații, SAC, ciclu de raportare, anul aderării la CBD",
             "major": false,
             "article": "anexa nr. I"
+          },
+          {
+            "text": "Planul din anexa II conține text scanat greșit, greu de citit",
+            "major": false,
+            "article": "anexa nr. II"
           }
         ],
         "good": [
           {
-            "text": "Strategia și Planul nu pot crea direct obligații, interdicții sau restrângeri de drepturi",
+            "text": "Strategia și planul nu pot crea direct obligații sau restrângeri de drepturi",
             "major": true,
             "article": "art. 1 alin. (2)"
           },
           {
-            "text": "Restricțiile noi pe proprietate cer bază legală expresă, proporționalitate și compensații",
+            "text": "Restricțiile asupra proprietății cer bază legală expresă și compensații",
             "major": true,
             "article": "art. 2"
           },
           {
-            "text": "Obligațiile peste cerințele UE se pot institui doar prin lege, cu analiză de impact",
+            "text": "Obligațiile peste minimul UE cer lege și analiză de impact",
             "major": true,
             "article": "art. 5"
           },
           {
-            "text": "Măsurile care afectează proprietatea sau afacerile cer analiză de impact și consultare publică",
+            "text": "Compensare integrală pentru limitarea terenurilor agricole",
             "major": true,
+            "article": "anexa nr. I"
+          },
+          {
+            "text": "Analiză de impact și consultare publică înaintea măsurilor care afectează afaceri",
+            "major": false,
             "article": "art. 1 alin. (3)"
           },
           {
-            "text": "Proiectele strategice pot fi blocate doar după evaluare individuală și motivată",
+            "text": "Proiectele strategice se blochează doar după evaluare individuală și motivată",
             "major": false,
             "article": "art. 1 alin. (4)"
           },
           {
-            "text": "Ministerul Mediului raportează anual Parlamentului despre implementare și impact",
+            "text": "Raport anual către Parlament privind implementarea și impactul",
             "major": false,
             "article": "art. 1 alin. (5)"
           },
           {
-            "text": "Registru electronic public cu beneficiarii și valoarea proiectelor finanțate",
+            "text": "Registru electronic public al proiectelor finanțate și beneficiarilor",
             "major": false,
             "article": "art. 1 alin. (6)"
           },
@@ -127,21 +225,138 @@
             "article": "art. 1 alin. (7)"
           },
           {
-            "text": "Consiliile locale și județene sunt consultate înaintea măsurilor cu efecte locale",
+            "text": "Consiliile locale sunt consultate înaintea măsurilor cu efect local",
             "major": false,
             "article": "art. 3"
+          },
+          {
+            "text": "Organizațiile agricole sunt consultate obligatoriu la măsurile sectoriale",
+            "major": false,
+            "article": "anexa nr. I"
+          },
+          {
+            "text": "Structură clarificată: strategia, planul și anexele sunt aprobate separat",
+            "major": false,
+            "article": "art. 1, art. 4, art. 6"
           }
         ],
         "partial": true
       },
       "diff": {
-        "added": 373,
-        "removed": 378,
-        "same": 0.75
+        "added": 1185,
+        "removed": 119,
+        "same": 0.21,
+        "cut": 3,
+        "of": 16
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:41:43.276Z"
+      "schema": 4,
+      "updatedAt": "2026-11-20T08:53:18.021Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a păstrat neschimbat fondul legii: schimbări doar de redactare, diacritice și scanare",
+      "summary": "Articolele legii au rămas identice ca fond. Diferențele sunt de formă: emitentul, data adoptării, „2” scris „doi”, renumerotări în cuprins și corecturi sau greșeli de scanare în anexe. Riscul pentru cetățeni și firme este același.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Plafonul la cerințele UE intră în conflict cu măsuri din CBD și Kunming-Montreal",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Aviz consultativ cerut prin hotărâre „cu caracter normativ”: contradicție juridică",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Folosește „consiliu comunal/orășenesc”, noțiuni inexistente în Codul administrativ",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Nu definește ce măsuri „produc efecte” și câte consilii se consultă",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Nu prevede consecința situației în care avizul consiliului nu este cerut",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Termen de 60 de zile pentru fiecare consiliu poate produce întârzieri în lanț",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Țintele de 30% și 10% arii protejate depind de legi viitoare",
+            "major": false,
+            "article": "art. 5"
+          },
+          {
+            "text": "„Interes strategic” nedefinit, mai ales în agricultură; textul e în mare parte declarativ",
+            "major": false,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Anexele conțin numeroase greșeli de scriere și fragmente deformate la scanare",
+            "major": false,
+            "article": "art. 6"
+          }
+        ],
+        "good": [
+          {
+            "text": "Strategia și Planul sunt programatice și nu pot crea direct obligații sau interdicții",
+            "major": true,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Restricțiile noi asupra proprietății cer lege expresă, proporționalitate și, după caz, compensații",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Măsurile peste cerințele UE se pot institui numai prin lege, cu analiză de impact",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Analiză de impact și consultare publică înainte de măsuri care afectează proprietatea",
+            "major": true,
+            "article": "art. 1 alin. (3)"
+          },
+          {
+            "text": "Proiectele strategice pot fi blocate doar după o evaluare individuală și motivată",
+            "major": false,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Raport anual către Parlament și registru public al proiectelor finanțate",
+            "major": false,
+            "article": "art. 1 alin. (5)-(6)"
+          },
+          {
+            "text": "Strategia se evaluează la fiecare doi ani, cu propuneri de actualizare",
+            "major": false,
+            "article": "art. 1 alin. (7)"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 305,
+        "removed": 310,
+        "same": 0.8,
+        "cut": 3,
+        "of": 6
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-20T08:53:48.462Z"
     }
   ]
 }

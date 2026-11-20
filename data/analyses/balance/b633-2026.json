@@ -3,49 +3,56 @@
   "billId": "B633/2026",
   "schema": 1,
   "model": "agy",
-  "updatedAt": "2026-11-13T09:06:15.711Z",
-  "inputHash": "7b5ea657f3b8",
-  "riskScore": 6.7,
-  "summary": "O intenție bună de a opri inspectorii să mai difuzeze controalele pe rețelele sociale, dar compromisă de secretizarea automată a filmărilor și de interdicția generală de a filma cu telefonul propriu.",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-20T09:32:08.192Z",
+  "inputHash": "ebab3575e2f3",
+  "riskScore": 7,
+  "summary": "Scopul de a opri filmările abuzive ale inspectorilor este bun, dar secretizarea automată a tuturor controalelor și formularea vagă a interdicției creează riscuri grave pentru transparență și dreptul la apărare.",
   "good": [
     {
-      "text": "Interzice copierea sau distribuirea filmărilor din control pe telefoane personale ori către persoane neautorizate, oprind expunerea publică a celor controlați pe rețelele sociale.",
+      "text": "Obligă inspectorii să folosească doar aparate de serviciu și interzice distribuirea filmărilor, oprind abuzul live-urilor pe rețele sociale în timpul controalelor.",
       "article": "art. 5 alin. (1)",
       "quote": "Este interzisă reproducerea, copierea, transferul sau distribuirea înregistrărilor efectuate cu ocazia controalelor către dispositive personale sau către persoane neautorizate.",
       "weight": 3
     },
     {
-      "text": "Obligă inspectorii să informeze persoana controlată de la început și sub semnătură că poate fi filmată, care este scopul și cum poate accesa înregistrarea.",
-      "article": "art. 9 alin. (1) și (2)",
-      "quote": "Înaintea sau la începutul controlului, persoana controlată este informată, pe cale scrisă sau verbală cu consemnare în procesul-verbal, despre:",
+      "text": "Impune ca aparatele de filmare să înregistreze neîntrerupt, cu dată și oră nemodificabile și protecție la ștergere, prevenind manipularea probelor video.",
+      "article": "art. 7 alin. (1)",
+      "quote": "să dispună de mecanisme de protecție împotriva modificării sau ștergerii neautorizate a înregistrărilor;",
       "weight": 3
     },
     {
-      "text": "Dispozitivele de serviciu trebuie să genereze automat metadate nemodificabile (dată, oră, durată) și să fie protejate împotriva editării sau ștergerii abuzive a probelor.",
-      "article": "art. 7 alin. (1) lit. b) și d) (nenumerotat)",
-      "quote": "să dispună de mecanisme de protecție împotriva modificării sau ștergerii neautorizate a înregistrărilor;",
+      "text": "Obligă autoritățile să anunțe persoana controlată, la începutul controlului, că poate fi filmată și care îi sunt drepturile, consemnând asta în procesul-verbal.",
+      "article": "art. 9 alin. (1)",
+      "quote": "Înaintea sau la începutul controlului, persoana controlată este informată, pe cale scrisă sau verbală cu consemnare în procesul-verbal, despre:",
       "weight": 2
     },
     {
-      "text": "Fiecare filmare primește număr unic în registru, iar orice acces ulterior este jurnalizat (cine, când, cât timp și cu ce scop a văzut-o), prevenind scurgerile de informații.",
+      "text": "Impune un registru oficial al filmărilor și un registru de acces care notează cine și de ce a văzut fiecare înregistrare, prevenind ascunderea sau scurgerea probelor.",
       "article": "art. 11 alin. (1) și art. 13 alin. (3)",
       "quote": "Orice acces la înregistrări se consemnează într-un registru de acces, cu indicarea datei, orei, identității persoanei care a accesat, scopului accesului și duratei acestuia.",
       "weight": 2
     },
     {
-      "text": "Dacă procesul-verbal de control este contestat în justiție, filmarea trebuie păstrată pe toată durata procesului plus 3 ani, astfel încât proba video să nu fie ștearsă.",
-      "article": "art. 14 alin. (1) lit. c)",
-      "quote": "durata procedurii judiciare plus 3 ani, pentru controalele care fac obiectul unor contestații sau proceduri judiciare.",
+      "text": "Cere transferul filmărilor pe sisteme securizate în maximum 48 de ore și copii de siguranță periodice, reducând riscul pierderii sau alterării probelor.",
+      "article": "art. 12 alin. (1) și (4)",
+      "quote": "Înregistrările se transferă în cel mult 48 de ore de la finalizarea controlului pe sistemele de stocare securizate ale autorității sau instituției publice.",
       "weight": 2
     },
     {
-      "text": "Impune descărcarea filmărilor pe servere securizate în cel mult 48 de ore de la control și realizarea de copii de siguranță, reducând riscul pierderii lor.",
-      "article": "art. 12 alin. (1) și (4)",
-      "quote": "Înregistrările se transferă în cel mult 48 de ore de la finalizarea controlului pe sistemele de stocare securizate ale autorității sau instituției publice.",
+      "text": "Obligă instituțiile să cumpere aparate de serviciu, să instruiască personalul și să aibă proceduri clare, sub sancțiunea amenzii de până la 30.000 de lei.",
+      "article": "art. 6 alin. (1) și art. 16 alin. (1)",
+      "quote": "să asigure un număr suficient de dispositive de serviciu adecvate și funcționale pentru înregistrare, proporțional cu volumul și natura activităților de control desfășurate;",
+      "weight": 2
+    },
+    {
+      "text": "Exclude expres cercetarea penală, activitățile judiciare și siguranța națională, evitând blocarea anchetelor și a actului de justiție.",
+      "article": "art. 2 alin. (3)",
+      "quote": "Prezenta lege nu se aplică activităților desfășurate de structurile specializate în domeniul siguranței naționale, activităților de cercetare penală și activităților judiciare.",
       "weight": 1
     },
     {
-      "text": "Instituțiile de control trebuie să raporteze anual numărul de filmări, incidentele de securitate și sancțiunile aplicate, asigurând un control statistic asupra practicii.",
+      "text": "Introduce raportarea anuală a numărului de înregistrări, incidente de securitate și sancțiuni aplicate, permițând monitorizarea respectării legii.",
       "article": "art. 18 alin. (1)",
       "quote": "Autoritățile și instituțiile publice prevăzute la art. 2 au obligația de a transmite anual, până la data de 31 martie a fiecărui an, către ministerul de resort sau, după caz, către prefect, un raport privind implementarea prezentei legi",
       "weight": 1
@@ -53,79 +60,73 @@
   ],
   "bad": [
     {
-      "text": "Interzice la modul general folosirea oricărui telefon personal în timpul controlului, fără a excepta persoana controlată sau avocatul ei, care pot fi împiedicați să filmeze abuzurile.",
-      "article": "art. 4 alin. (1) și (2) și art. 3 lit. c)",
+      "text": "Transformă automat toate filmările din controale și datele lor în secrete de serviciu sub pedeapsa închisorii, blocând presa, transparența și informarea publică.",
+      "article": "art. 10 alin. (1)",
+      "quote": "au caracterul de informații secrete de serviciu, și se supun regimului juridic privind divulgarea informațiilor secrete de serviciu sau nepublice, în conformitate cu prevederile art. 304 din Codul penal.",
+      "weight": 3
+    },
+    {
+      "text": "Permite refuzul accesului la filmare dacă ar compromite informații clasificate, deși toate filmările sunt clasificate, și exclude firmele prin trimiterea doar la protecția datelor personale.",
+      "article": "art. 13 alin. (4)",
+      "quote": "Persoana controlată poate solicita acces la înregistrările care o privesc, în conformitate cu prevederile legale privind protecția datelor cu caracter personal, cu excepția situațiilor în care acest acces ar prejudicia interesele unei anchete în curs sau ar compromite informații clasificate.",
+      "weight": 3
+    },
+    {
+      "text": "Interzice impersonal orice dispozitiv personal în timpul controlului și include „orice alte persoane”, riscând ca cetățenii, firmele sau avocații să fie opriți să filmeze abuzuri.",
+      "article": "art. 4 alin. (1) și (2)",
       "quote": "Este interzisă utilizarea oricărui dispozitiv personal pentru captura de imagini, înregistrare audio sau înregistrare audio-video în timpul unui control sau în legătură directă cu acesta.",
       "weight": 3
     },
     {
-      "text": "Transformă automat toate filmările în secrete de serviciu sub sancțiunea Codului penal, contrar Legii 544/2001 care interzice secretizarea datelor ce ascund încălcări ale legii.",
-      "article": "art. 10 alin. (1)",
-      "quote": "Toate înregistrările realizate cu ocazia controalelor, indiferent de suport, precum și metadatele aferente acestora, au caracterul de informații secrete de serviciu, și se supun regimului juridic privind divulgarea informațiilor secrete de serviciu sau nepublice",
-      "weight": 3
-    },
-    {
-      "text": "Permite instituției să refuze accesul persoanei controlate la filmare dacă ar compromite informații clasificate, or art. 10 clasifică din oficiu toate filmările ca secrete de serviciu.",
-      "article": "art. 13 alin. (4)",
-      "quote": "cu excepția situațiilor în care acest acces ar prejudicia interesele unei anchete în curs sau ar compromite informații clasificate.",
-      "weight": 3
-    },
-    {
-      "text": "Șeful echipei de control poate aproba verbal, pe loc, folosirea telefonului personal al inspectorului pentru „aspecte esențiale”, anulând în practică interdicția pentru funcționari.",
-      "article": "art. 4 alin. (4)",
-      "quote": "În situații excepționale, justificate de urgența sau necesitatea imediată a documentării unor aspecte esențiale, șeful echipei de control poate autoriza verbal utilizarea temporară a unui dispozitiv personal",
-      "weight": 3
-    },
-    {
-      "text": "Obligă toate instituțiile centrale și primăriile să cumpere camere omologate și servere pentru date clasificate, din bugetul propriu, sub amenzi de până la 30.000 lei pentru conducători.",
-      "article": "art. 6 alin. (1) lit. a), art. 16 alin. (1) lit. a) și art. 20",
-      "quote": "să asigure un număr suficient de dispositive de serviciu adecvate și funcționale pentru înregistrare, proporțional cu volumul și natura activităților de control desfășurate;",
+      "text": "Obligă la stocarea filmărilor minimum 3 ani chiar și pentru controale curate fără abateri și fără un termen maxim, încălcând regula europeană a minimizării datelor.",
+      "article": "art. 14 alin. (1)",
+      "quote": "Termenele de păstrare a înregistrărilor se stabilesc de fiecare autoritate sau instituție publică în funcție de natura controalelor efectuate și de prevederile legale aplicabile actelor administrative rezultate din control, dar nu mai puțin de:",
       "weight": 2
     },
     {
-      "text": "Amenzile vizează doar șefii instituțiilor pentru lipsa camerelor sau a registrelor, fără a sancționa contravențional inspectorul care filmează abuziv cu telefonul personal.",
-      "article": "art. 16 alin. (1)",
-      "quote": "Constituie contravenție și se sancționează cu amendă de la 10.000 lei la 30.000 lei următoarele fapte, dacă nu sunt săvârșite în astfel de condiții încât să constituie infracțiuni:",
+      "text": "Extinde interdicția telefoanelor la o perioadă vagă dinaintea controlului, iar excepția depinde de acordul verbal al șefului echipei, fără obligația ștergerii ulterioare de pe telefon.",
+      "article": "art. 4 alin. (3) și (4)",
+      "quote": "dar și în perioada imediat anterioară desfășurării controlului, în legătură directă cu acesta.",
       "weight": 2
     },
     {
-      "text": "Extinde interdicția de a filma și „în perioada imediat anterioară” controlului, înainte ca inspectorii să se legitimeze, când cetățeanul nici nu poate ști că a început un control.",
-      "article": "art. 4 alin. (3)",
-      "quote": "de la momentul prezentării documentelor de legitimare și până la finalizarea procesului-verbal sau a altui document încheiat ca urmare a controlului, dar și în perioada imediat anterioară desfășurării controlului",
-      "weight": 2
-    },
-    {
-      "text": "Impune stocarea filmărilor pe minimum 3 ani chiar și când nu s-a găsit nicio neregulă, fără un termen maxim de păstrare, ceea ce încalcă principiul minimizării stocării datelor personale.",
-      "article": "art. 14 alin. (1) lit. a) și b)",
-      "quote": "Termenele de păstrare a înregistrărilor se stabilesc de fiecare autoritate sau instituție publică în funcție de natura controalelor efectuate și de prevederile legale aplicabile actelor administrative rezultate din control",
-      "weight": 2
-    },
-    {
-      "text": "Oferă oricărui șef de echipă de control puterea de a clasifica inițial înregistrările pe teren, deși Legea 182/2002 rezervă acest drept unor funcții strict desemnate în instituție.",
+      "text": "Contrazice secretizarea automată și dă șefului echipei din teren puterea de clasificare, deși Legea 182/2002 o rezervă șefului instituției, fără o procedură clară de declasificare.",
       "article": "art. 10 alin. (3)",
       "quote": "Clasificarea inițială a înregistrărilor se efectuează de către șeful echipei de control, iar, dacă este cazul, declasificarea sau reclasificarea se realizează conform proceduril legale aplicabile informațiilor clasificate.",
       "weight": 2
     },
     {
-      "text": "Creează confuzie privind arhivele existente, spunând simultan că filmările vechi rămân sub legea veche, dar că trebuie gestionate conform noii legi (deci secretizate și reînregistrate).",
+      "text": "Nu prevede amenzi pentru inspectorii care filmează ilegal fără a publica și nu stabilește cine sancționează autoritățile autonome care nu depind de ministere sau prefecți.",
+      "article": "art. 16 alin. (1) și (2)",
+      "quote": "Constatarea contravențiilor și aplicarea sancțiunilor se fac de către inspectorii din cadrul structurilor de control intern ale ministerelor de resort sau, după caz, de către prefercți pentru instituțiile publice locale.",
+      "weight": 2
+    },
+    {
+      "text": "Impune primăriilor și instituțiilor cumpărarea de aparate și sisteme securizate pentru informații clasificate, sub sancțiunea amenzii, dar fără finanțare suplimentară.",
+      "article": "art. 20 alin. (1) și (2)",
+      "quote": "Cheltuielile necesare implementării legii se suportă din bugetele autorităților și instituțiilor publice prevăzute la art. 2, în limita fondurilor aprobate anual cu această destinație.",
+      "weight": 2
+    },
+    {
+      "text": "Cere gestionarea imediată a filmărilor vechi după noile reguli chiar de la intrarea în vigoare, deși instituțiile au la dispoziție 6 luni să facă procedurile și registrele.",
       "article": "art. 19 alin. (3)",
-      "quote": "Înregistrările efectuate anterior intrării în vigoare a prezentei legi rămân supuse regimului juridic aplicabil la data efectuării lor, dar vor fi gestionate conform prevederilor prezentei legi",
+      "quote": "Înregistrările efectuate anterior intrării în vigoare a prezentei legi rămân supuse regimului juridic aplicabil la data efectuării lor, dar vor fi gestionate conform prevederilor prezentei legi începând cu data intrării acesteia în vigoare.",
       "weight": 1
     },
     {
-      "text": "Abrogă la grămadă „toate dispozițiile contrare”, afectând regulile speciale de bodycam ale Poliției sau ANAF, iar art. 7 nu este numerotat în text, fiind înlocuit cu cuvântul „ROMANIA”.",
-      "article": "art. 21 și art. 7 (nenumerotat)",
+      "text": "Folosește o abrogare generică a tuturor regulilor contrare, fără a preciza ce articole din legile speciale de control dispar, creând confuzie în aplicare.",
+      "article": "art. 21",
       "quote": "La data intrării în vigoare a legii, se abrogă toate dispozițiile contrare din actele normative anterioare.",
       "weight": 1
     }
   ],
   "fix": {
-    "text": "Limitarea expresă a interdicției de la art. 4 doar la personalul de control (fără portița verbală de la alin. 4) și eliminarea secretizării automate de la art. 10 și a blocajului de acces de la art. 13 alin. (4).",
+    "text": "Eliminarea secretizării automate din art. 10 (înlocuită cu confidențialitate și acces garantat pentru persoane fizice și juridice în art. 13) și limitarea expresă a interdicției din art. 4 strict la inspectori.",
     "removes": [
       0,
       1,
       2,
-      3
+      5
     ],
     "levelAfter": "yellow",
     "scoreAfter": 3.5

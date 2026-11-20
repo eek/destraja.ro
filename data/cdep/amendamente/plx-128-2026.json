@@ -1,115 +1,212 @@
 {
  "slug": "plx-128-2026",
  "billId": "PL-x 128/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-10-30T14:10:26.444Z",
- "inputHash": "e11009c94901",
+ "updatedAt": "2026-11-20T09:16:28.428Z",
+ "inputHash": "b735db78ee5e",
  "reports": [
   "https://www.cdep.ro/comisii/tehnologia_informatiei/pdf/2026/rp128.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp128.pdf",
+   "sha256": "dfbfa4354a641587",
+   "parts": 1,
+   "rows": 35,
+   "unchanged": 25,
+   "admise": 10,
+   "respinse": 0,
+   "truncated": false
+  }
+ ],
+ "completeness": "complete",
+ "problems": [],
  "counts": {
-  "admise": 8,
-  "respinse": 0
+  "admise": 10,
+  "respinse": 0,
+  "anuntate": 35,
+  "nemodificate": 25
  },
  "amendments": [
   {
    "nr": "4",
+   "report": "rp128.pdf",
    "article": "art. 2 lit. h)",
    "status": "admis",
    "authors": [],
    "byCommittee": null,
+   "byGroup": null,
    "summary": "Include numerele de telefon oficiale ale entităților publice în definiția resurselor digitale publice.",
-   "quote": "h) resurse digitale publice - ansamblul de date informatice, cum sunt domeniile instituționale, subdomeniile instituționale, site-uri, portaluri, numere de telefon oficiale ale entităților publice"
+   "quote": null,
+   "inForce": null,
+   "before": "h) resurse digitale publice - ansamblul de date informatice, cum sunt domeniile instituționale, subdomeniile instituționale, site-uri, portaluri, aplicații software, baze de date, licențe, codul sursă, API-urile echipamente hardware, precum și alte date informatice, care sunt utilizate, deținute sau administrate de entitățile publice;",
+   "after": "h) resurse digitale publice - ansamblul de date informatice, cum sunt domeniile instituționale, subdomeniile instituționale, site-uri, portaluri, numere de telefon oficiale ale entităților publice, aplicații software, baze de date, licențe, codul sursă, API-urile echipamente hardware, precum și alte date informatice, care sunt utilizate, deținute sau administrate de entitățile publice;",
+   "motivation": "Pentru coerență legislativă, dacă se introduce un registru specializat al numerelor de telefon oficiale, acestea trebuie incluse și în sfera resurselor digitale publice definite de lege. Pentru corelare cu art. 8 alin. (2) lit. c)."
   },
   {
    "nr": "6",
+   "report": "rp128.pdf",
    "article": "art. 3 alin. (3)-(5)",
    "status": "admis",
    "authors": [],
    "byCommittee": null,
-   "summary": "Trimite la Legea nr. 58/2023 pentru securitatea cibernetică a PNIDP și înlocuiește menționarea explicită a ADR, STS și DNSC la cooperarea instituțională cu autoritățile competente.",
-   "quote": "Măsurile privind securitatea cibernetică a PNIDP, precum și prevenirea și contracararea amenințărilor, riscurilor și vulnerabilităților la adresa acesteia, se realizează potrivit competențelor stabilite de Legea nr. 58/2023",
+   "byGroup": null,
+   "summary": "Trimite securitatea cibernetică a PNIDP la Legea nr. 58/2023 și înlocuiește nominalizarea ADR, STS și DNSC cu autorități și instituții publice competente.",
+   "quote": null,
+   "inForce": null,
+   "before": "(3) Directoratul Național de Securitate Cibernetică, denumit în continuare DNSC, poate stabili cerințe specifice de securitate cibernetică a datelor informatice cuprinse în PNIDP, monitorizează conformarea cu aceste cerințe și cooperează cu ADR și STS în gestionarea riscurilor cibernetice în condițiile legii.\n\n(4) În termen de 90 de zile de la data intrării în vigoare a prezentei legi, mecanismele de cooperare instituțională dintre ADR, STS și DNSC pentru aplicarea acesteia se stabilesc prin ordinul comun al președintelui ADR, directorului STS și directorului DNSC, care se publică în Monitorul Oficial al României, Partea I.",
+   "after": "(3) Măsurile privind securitatea cibernetică a PNIDP, precum și prevenirea și contracararea amenințărilor, riscurilor și vulnerabilităților la adresa acesteia, se realizează potrivit competențelor stabilite de Legea nr. 58/2023 privind securitatea și apărarea cibernetică a României, precum și pentru modificarea și completarea unor acte normative.\n\n(4) Directoratul Național de Securitate Cibernetică, denumit în continuare DNSC, poate stabili cerințe specifice de securitate cibernetică a datelor informatice cuprinse în PNIDP, monitorizează conformarea cu aceste cerințe și cooperează cu autoritățile și instituțiile publice competente în gestionarea riscurilor cibernetice în condițiile legii.\n\n(5) În termen de 90 de zile de la data intrării în vigoare a prezentei legi, mecanismele de cooperare instituțională pentru aplicarea acesteia se stabilesc prin ordinul comun al conducătorilor autorităților și instituțiilor publice competente, care se publică în Monitorul Oficial al României, Partea I.",
+   "motivation": "Pentru asigurarea securității și apărării cibernetice așa cum este stabilit de legislația incidentă în domeniu – respectiv Legea nr.58/2023 privind securitatea și apărarea cibernetică a României, precum și pentru modificarea și completarea unor acte normative, cu completările și modificările ulterioare și pentru evitarea unor paralelisme legislative.",
    "effects": [
     "mai_rau"
    ]
   },
   {
    "nr": "7",
+   "report": "rp128.pdf",
    "article": "art. 4 lit. g)",
    "status": "admis",
    "authors": [],
    "byCommittee": null,
-   "summary": "Înlocuiește menționarea explicită a DNSC și STS cu sintagma generală „autoritățile și instituțiile publice competente” în domeniul securității cibernetice.",
-   "quote": "g) colaborează cu autoritățile și instituțiile publice competente în domeniul securității cibernetice prevăzute de Legea nr.58/2023."
+   "byGroup": null,
+   "summary": "Elimină enumerarea DNSC și STS și scurtează trimiterea la Legea nr. 58/2023 în atribuțiile de colaborare ale ADR.",
+   "quote": "colaborează cu autoritățile și instituțiile publice competente în domeniul securității cibernetice prevăzute de Legea nr.58/2023.",
+   "inForce": null,
+   "before": "g) colaborează cu DNSC, STS și autoritățile competente în domeniul securității cibernetice prevăzute de Legea nr.58/2023 privind securitatea și apărarea cibernetică a României, precum și pentru modificarea și completarea unor acte normative.",
+   "after": "g) colaborează cu autoritățile și instituțiile publice competente în domeniul securității cibernetice prevăzute de Legea nr.58/2023.",
+   "motivation": "Tehnică legislativă - titlul acestei legi a fost enumerat prima dată la art. 3 alin. (3)."
   },
   {
    "nr": "9",
+   "report": "rp128.pdf",
    "article": "art. 6 alin. (4)",
    "status": "admis",
    "authors": [],
    "byCommittee": null,
-   "summary": "Restrânge interdicția de finanțare și achiziție doar la soluțiile de modernizare a resurselor digitale publice neînregistrate în platformă.",
-   "quote": "(4) Nu pot fi finanțate, respectiv achiziționate soluții de modernizare a resurselor digitale publice neînregistrate în PNIDP.",
+   "byGroup": null,
+   "summary": "Restrânge interdicția de finanțare și achiziție doar la soluțiile de modernizare a resurselor digitale publice neînregistrate în PNIDP.",
+   "quote": "Nu pot fi finanțate, respectiv achiziționate soluții de modernizare a resurselor digitale publice neînregistrate în PNIDP.",
+   "inForce": null,
+   "before": "(4) Nu pot fi finanțate, achiziționate și nu pot face obiectul modernizării resurse digitale publice neînregistrate în PNIDP.",
+   "after": "(4) Nu pot fi finanțate, respectiv achiziționate soluții de modernizare a resurselor digitale publice neînregistrate în PNIDP.",
+   "motivation": null,
    "effects": [
     "mai_bine"
    ]
   },
   {
    "nr": "12",
-   "article": "art. 8 alin. (2)",
+   "report": "rp128.pdf",
+   "article": "art. 8 alin. (2) lit. c)",
    "status": "admis",
    "authors": [],
    "byCommittee": null,
-   "summary": "Introduce registrul numerelor de telefon oficiale ale entităților publice pe lista registrelor specializate din cadrul PNIDP.",
-   "quote": "c) registrul numerelor de telefon oficiale ale entităților publice;",
+   "byGroup": null,
+   "summary": "Introduce registrul numerelor de telefon oficiale ale entităților publice în lista registrelor specializate și renumerotează literele următoare.",
+   "quote": "registrul numerelor de telefon oficiale ale entităților publice;",
+   "inForce": null,
+   "before": null,
+   "after": "c) registrul numerelor de telefon oficiale ale entităților publice;",
+   "motivation": "Numerele de telefon utilizate de instituțiile publice reprezintă canale oficiale de comunicare instituțională și trebuie evidențiate unitar, la fel ca adresele de poștă electronică, site-urile și celelalte resurse digitale publice. Introducerea acestui registru contribuie la trasabilitate, la validarea canalelor oficiale de contact și la reducerea riscului de fraudă, spoofing sau confuzie în relația cu cetățenii.",
    "effects": [
     "mai_bine"
    ]
   },
   {
    "nr": "19",
+   "report": "rp128.pdf",
    "article": "art. 14 lit. d)",
    "status": "admis",
    "authors": [],
    "byCommittee": null,
-   "summary": "Înlocuiește nominalizarea ADR, STS și DNSC cu „autoritățile și instituțiile publice competente” în cadrul auditului și controalelor de securitate cibernetică.",
-   "quote": "d) colaborarea cu autoritățile și instituțiile publice competente potrivit legii în cadrul auditului și al controalelor de securitate cibernetică;"
+   "byGroup": null,
+   "summary": "Înlocuiește nominalizarea ADR, STS și DNSC cu autoritățile și instituțiile publice competente potrivit legii, în atribuțiile responsabilului digital.",
+   "quote": "colaborarea cu autoritățile și instituțiile publice competente potrivit legii în cadrul auditului și al controalelor de securitate cibernetică;",
+   "inForce": null,
+   "before": "d) colaborarea cu ADR, STS și DNSC în cadrul auditului și al controalelor de securitate cibernetică;",
+   "after": "d) colaborarea cu autoritățile și instituțiile publice competente potrivit legii în cadrul auditului și al controalelor de securitate cibernetică;",
+   "motivation": null
   },
   {
-   "nr": "22",
-   "article": "art. 16 alin. (3)-(5)",
+   "nr": "20",
+   "report": "rp128.pdf",
+   "article": "art. 15 alin. (3)",
    "status": "admis",
    "authors": [],
    "byCommittee": null,
-   "summary": "Restrânge rolul STS la testări tehnice și prevede că măsurile specifice de securitate cibernetică pentru PNIDP sunt asigurate de autoritățile competente potrivit Legii nr. 58/2023.",
-   "quote": "(4) Măsurile specifice de securitate cibernetică privind PNIDP se asigură de autoritățile și instituțiile publice competente, potrivit Legii nr.58/2023."
+   "byGroup": null,
+   "summary": "Elimină repetarea sintagmei „de îndată” din prevederea privind notificarea incidentelor de securitate cibernetică către DNSC.",
+   "quote": "realizează de îndată notificarea incidentelor de securitate cibernetică către DNSC, prin Platforma națională pentru raportarea incidentelor de securitate cibernetică",
+   "inForce": null,
+   "before": "(3) Responsabilii digitali ai entităților publice prevăzute la art.7 alin.(1) din Ordonanța de urgență a Guvernului nr. 155/2024 privind instituirea unui cadru pentru securitatea cibernetică a rețelelor și sistemelor informatice din spațiul cibernetic național civil, aprobată cu modificări și completări prin Legea nr.124/2025 realizează de îndată notificarea incidentelor de securitate cibernetică de îndată către DNSC, prin Platforma națională pentru raportarea incidentelor de securitate cibernetică prevăzută la art.20 din Legea nr.58/2023.",
+   "after": "(3) Responsabilii digitali ai entităților publice prevăzute la art.7 alin.(1) din Ordonanța de urgență a Guvernului nr. 155/2024 privind instituirea unui cadru pentru securitatea cibernetică a rețelelor și sistemelor informatice din spațiul cibernetic național civil, aprobată cu modificări și completări prin Legea nr.124/2025 realizează de îndată notificarea incidentelor de securitate cibernetică către DNSC, prin Platforma națională pentru raportarea incidentelor de securitate cibernetică prevăzută la art.20 din Legea nr.58/2023.",
+   "motivation": "Pentru a evita repetarea sintagmei de îndată"
+  },
+  {
+   "nr": "22",
+   "report": "rp128.pdf",
+   "article": "art. 16 alin. (3)-(4)",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Limitează rolul STS la testări tehnice și prevede că măsurile de securitate cibernetică revin autorităților competente potrivit Legii nr. 58/2023.",
+   "quote": "Măsurile specifice de securitate cibernetică privind PNIDP se asigură de autoritățile și instituțiile publice competente, potrivit Legii nr.58/2023.",
+   "inForce": null,
+   "before": "(3) STS asigură, potrivit competentelor legale, măsuri operaționale de securitate cibernetică și testări tehnice asupra serviciilor furnizate pentru PNIDP.",
+   "after": "(3) STS asigură, potrivit competențelor stabilite de lege, testări tehnice asupra serviciilor furnizate pentru PNIDP.\n\n(4) Măsurile specifice de securitate cibernetică privind PNIDP se asigură de autoritățile și instituțiile publice competente, potrivit Legii nr.58/2023.",
+   "motivation": null
   },
   {
    "nr": "26",
+   "report": "rp128.pdf",
    "article": "art. 19 alin. (5)",
    "status": "admis",
    "authors": [],
    "byCommittee": null,
-   "summary": "Stabilește că respingerea cererii de reutilizare a unei resurse digitale se face prin decizie a președintelui ADR, nu prin ordin.",
-   "quote": "Cererea poate fi respinsă motivat, prin decizia Președintelui ADR, pentru motive de imposibilitate tehnică, limitări ori interdicții legale și/sau contractuale"
+   "byGroup": null,
+   "summary": "Înlocuiește „ordin al Președintelui ADR” cu „decizia Președintelui ADR” pentru actul de respingere a cererii de reutilizare a resurselor digitale.",
+   "quote": "Cererea poate fi respinsă motivat, prin decizia Președintelui ADR, pentru motive de imposibilitate tehnică, limitări ori interdicții legale",
+   "inForce": null,
+   "before": "(5) Cererea poate fi respinsă motivat, prin ordin al Președintelui ADR, pentru motive de imposibilitate tehnică, limitări ori interdicții legale și/sau contractuale, riscuri de securitate cibernetică, indisponibilitatea temporară, precum și pentru alte motive obiective similare care nu permit ca resursa digitală publică să fie reutilizată de o altă entitate publică. Motivarea respingerii cererii se transmite responsabilului digital al entității publice solicitante.",
+   "after": "(5) Cererea poate fi respinsă motivat, prin decizia Președintelui ADR, pentru motive de imposibilitate tehnică, limitări ori interdicții legale și/sau contractuale, riscuri de securitate cibernetică, indisponibilitatea temporară, precum și pentru alte motive obiective similare care nu permit ca resursa digitală publică să fie reutilizată de o altă entitate publică. Motivarea respingerii cererii se transmite responsabilului digital al entității publice solicitante.",
+   "motivation": "Conform art.8 alin. (4) din HG nr.89/2020, președintele ADR emite decizii."
+  },
+  {
+   "nr": "33",
+   "report": "rp128.pdf",
+   "article": "art. 24 alin. (1)-(2)",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Actualizează trimiterea la art. 16 alin. (5) după renumerotare și înlocuiește denumirea completă a Autorității pentru Digitalizarea României cu acronimul ADR.",
+   "quote": "Constatarea contravențiilor și aplicarea sancțiunilor prevăzute la alin.(l) se fac de către personalul împuternicit din cadrul ADR.",
+   "inForce": null,
+   "before": "Art.24.- (1) Constituie contravenție, dacă nu au fost săvârșite în astfel de condiții încât să fie considerate, potrivit legii penale, infracțiuni, nerespectarea de către responsabilii digitali sau de conducătorii entităților publice a obligațiilor art.6 alin.(1)-(3), art. 12 alin.(2), art. 16 alin.(4), art. 19 alin.(l) și se sancționează cu amendă de la 5.000 lei la 10.000 lei.\n\n(2) Constatarea contravențiilor și aplicarea sancțiunilor prevăzute la alin.(l) se fac de către personalul împuternicit din cadrul Autorității pentru Digitalizarea României.",
+   "after": "Art.24.- (1) Constituie contravenție, dacă nu au fost săvârșite în astfel de condiții încât să fie considerate, potrivit legii penale, infracțiuni, nerespectarea de către responsabilii digitali sau de conducătorii entităților publice a obligațiilor art.6 alin.(1)-(3), art. 12 alin.(2), art. 16 alin.(5), art. 19 alin.(l) și se sancționează cu amendă de la 5.000 lei la 10.000 lei.\n\n(2) Constatarea contravențiilor și aplicarea sancțiunilor prevăzute la alin.(l) se fac de către personalul împuternicit din cadrul ADR.",
+   "motivation": "În urma modificării alin. (4) al art.16 a devenit alin. (5).\n\nTehnică legislativă"
   }
  ],
  "matches": [
   {
    "change": "1:0",
+   "report": "rp128.pdf",
    "amendments": [
     "9"
    ]
   },
   {
    "change": "1:2",
+   "report": "rp128.pdf",
    "amendments": [
     "12"
    ]
   },
   {
    "change": "1:3",
+   "report": "rp128.pdf",
    "amendments": [
     "6"
    ]

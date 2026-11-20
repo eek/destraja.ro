@@ -2,192 +2,139 @@
   "slug": "b553-2026",
   "billId": "B553/2026",
   "schema": 1,
-  "model": "claude",
-  "updatedAt": "2026-11-02T17:34:34.166Z",
-  "inputHash": "69767843cd96",
-  "riskScore": 6.1,
-  "summary": "O lege atent construită tehnic, cu garanții bune pentru date, dar ideea ei de bază, reducerea de impozit doar pentru cine a votat, este chiar problema și nu se poate repara prin modificări.",
+  "model": "agy",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-20T09:37:24.470Z",
+  "inputHash": "1bcf79bc5002",
+  "riskScore": 5.7,
+  "summary": "Un proiect dotat cu garanții tehnice rezonabile pe hârtie, dar viciat structural prin legarea votului de impozitele pe proprietate, inechități majore, stocarea îndelungată a datelor și risc de blocaj la AEP.",
   "good": [
     {
-      "text": "Primăria află doar dacă omul e «eligibil» sau «neeligibil». Nu află la ce alegeri a votat, unde, la ce oră sau cum.",
-      "article": "art. I pct. 4 (art. 489³ alin. (16)); art. II pct. 2 (art. 110¹ alin. (10))",
+      "text": "Primăria primește doar rezultatul «eligibil» sau «neeligibil», fără detalii despre scrutinuri, secție, oră sau opțiune politică, protejând secretul votului.",
+      "article": "Art. I pct. 4, art. 489³ alin. (16)",
       "quote": "Organul fiscal local primește numai rezultatul «eligibil» sau «neeligibil» ori, după caz, starea procedurală «verificare în curs», pentru anul fiscal indicat",
       "weight": 3
     },
     {
-      "text": "Verificarea se uită doar dacă omul s-a prezentat la vot. Nu verifică pe cine a votat și nici dacă votul a fost valabil, deci secretul votului rămâne protejat.",
-      "article": "art. I pct. 4 (art. 489³ alin. (8))",
-      "quote": "Verificarea privește exclusiv existența acestei înregistrări și nu poate include opțiunea electorală, conținutul buletinului de vot ori valabilitatea votului individual exprimat.",
-      "weight": 3
-    },
-    {
-      "text": "Datele nu pot fi folosite de partide, în campanii, în sondaje sau pentru a ghici opțiunile politice ale oamenilor.",
-      "article": "art. II pct. 2 (art. 110¹ alin. (13))",
+      "text": "Interzice folosirea datelor pentru profilare politică, campanii ori sondaje, accesul partidelor și pornirea sistemului fără evaluare GDPR și consultarea ANSPDCP.",
+      "article": "Art. II pct. 2, art. 110¹ alin. (13) și (21)",
       "quote": "Datele și rezultatele obținute nu pot fi utilizate pentru profilare politică, comunicare electorală, campanie, sondaje, publicitate, stabilirea ori inferarea opțiunilor politice",
-      "weight": 3
-    },
-    {
-      "text": "Primăria poate verifica pe cineva doar dacă acea persoană a făcut cerere. Este interzisă scoaterea de liste cu cine a votat și cine nu.",
-      "article": "art. II pct. 2 (art. 110¹ alin. (7))",
-      "quote": "Sunt interzise interogările fără cerere și extragerea de liste de persoane eligibile ori neeligibile în alte scopuri decât soluționarea cererilor individuale înregistrate.",
       "weight": 2
     },
     {
-      "text": "Un refuz nu poate fi dat doar de calculator. Un om de la AEP verifică datele înainte, iar persoana află exact la ce scrutin și de ce a fost respinsă.",
-      "article": "art. II pct. 2 (art. 110¹ alin. (16)–(17))",
-      "quote": "Înaintea comunicării unui rezultat negativ, datele și încadrarea sunt verificate de o persoană desemnată de Autoritatea Electorală Permanentă.",
+      "text": "Obligă consiliile locale să publice o analiză cost-beneficiu înainte de vot și le interzice să impună condiții suplimentare ori procente diferențiate.",
+      "article": "Art. I pct. 4, art. 489³ alin. (11)",
+      "quote": "Autoritatea deliberativă nu poate adăuga condiții de eligibilitate electorală și nu poate acorda procente diferite în funcție de numărul sau categoria scrutinurilor la care persoana a participat.",
       "weight": 2
     },
     {
-      "text": "Rezultatul poate fi contestat la AEP, cu termene clare, iar apoi în instanță. Dacă eroarea se corectează mai târziu, impozitul se recalculează chiar și după expirarea termenelor.",
-      "article": "art. II pct. 2 (art. 110¹ alin. (18)–(20)); art. I pct. 4 (art. 489³ alin. (21))",
-      "quote": "Decizia de soluționare a contestației, care constituie procedură prealabilă, poate fi atacată în condițiile Legii contenciosului administrativ nr. 554/2004",
-      "weight": 2
-    },
-    {
-      "text": "Dacă sistemul informatic nu merge sau verificarea întârzie, omul nu pierde bonificația, cu condiția să fi depus cererea și să fi plătit la timp.",
-      "article": "art. I pct. 4 (art. 489³ alin. (15) și (19))",
+      "text": "Protejează contribuabilul față de erori și defecțiuni IT: indisponibilitatea nu îl descalifică, refuzul se suspendă la contestație, iar rectificarea recalculează taxa din oficiu.",
+      "article": "Art. I pct. 4, art. 489³ alin. (15), (20) și (21)",
       "quote": "Indisponibilitatea tehnică nu poate fi calificată drept neîndeplinire a condiției de eligibilitate.",
       "weight": 2
     },
     {
-      "text": "Fiecare consiliu local decide dacă acordă bonificația și trebuie să publice înainte o analiză a costurilor și a pierderilor de venituri.",
-      "article": "art. I pct. 4 (art. 489³ alin. (1) și (11))",
-      "quote": "pe baza unei analize cost-beneficiu publicate odată cu proiectul hotărârii",
+      "text": "Oferă o cale clară de contestare la AEP (cu explicații detaliate) și în instanță, iar AEP transmite din oficiu primăriei orice rectificare ulterioară.",
+      "article": "Art. II pct. 2, art. 110¹ alin. (16), (18)–(20)",
+      "quote": "Persoana vizată poate contesta rezultatul la Autoritatea Electorală Permanentă în termen de 30 de zile de la comunicarea prevăzută la alin. (16).",
       "weight": 2
     },
     {
-      "text": "Consiliul local nu poate adăuga condiții proprii și nu poate da procente diferite după alegerile la care a participat omul. Regula e aceeași pentru toți din localitate.",
-      "article": "art. I pct. 4 (art. 489³ alin. (11))",
-      "quote": "Autoritatea deliberativă nu poate adăuga condiții de eligibilitate electorală și nu poate acorda procente diferite în funcție de numărul sau categoria scrutinurilor",
+      "text": "Păstrează intactă bonificația actuală de până la 10% și permite o reducere suplimentară de până la 5% pentru cetățenii care plătesc impozitele locale până la 31 martie.",
+      "article": "Art. I pct. 4, art. 489³ alin. (1) și (12)",
+      "quote": "Bonificația prevăzută la alin. (1) se cumulează cu bonificația acordată potrivit art. 462 alin. (2), art. 467 alin. (2) sau art. 472 alin. (2), după caz, fără ca procentul cumulat să depășească 15%.",
       "weight": 2
     },
     {
-      "text": "Legea nu se aplică retroactiv. Contează doar alegerile ținute după pornirea sistemului, deci oamenii cunosc regula înainte să voteze.",
-      "article": "art. V alin. (3); art. I pct. 4 (art. 489³ alin. (17))",
-      "quote": "Sunt luate în considerare exclusiv scrutinurile electorale de referință organizate după data publicării hotărârii prevăzute la art. IV alin. (2).",
+      "text": "Se aplică doar alegerilor organizate după pornirea sistemului, exclude scrutinurile anulate sau parțiale și nu penalizează românii înscriși pe liste electorale în alte state UE.",
+      "article": "Art. I pct. 4, art. 489³ alin. (5), (6) și (9)",
+      "quote": "Alegerile locale parțiale nu sunt luate în considerare. Scrutinurile sau tururile de scrutin anulate potrivit legii ori prin hotărârea definitivă a autorității competente nu produc efecte asupra eligibilității.",
       "weight": 2
     },
     {
-      "text": "Cine nu avea drept de vot nu este dezavantajat: tinerii sub 18 ani, cei fără cetățenie sau domiciliu potrivit și cei cu interdicție legală.",
-      "article": "art. I pct. 4 (art. 489³ alin. (7)–(8))",
-      "quote": "Dacă persoana nu a avut drept de vot la niciunul dintre scrutinurile de referință ale anului fiscal, condiția se consideră îndeplinită pentru întregul an fiscal respectiv.",
-      "weight": 2
-    },
-    {
-      "text": "Orice mod legal de vot contează: la secție, în străinătate, la urna mobilă sau prin corespondență.",
-      "article": "art. I pct. 4 (art. 489³ alin. (8)); art. II pct. 2 (art. 110¹ alin. (22))",
-      "quote": "prin oricare dintre modalitățile legale de exercitare a dreptului de vot, la fiecare scrutin electoral de referință stabilit potrivit alin. (4)–(7)",
+      "text": "Separă tehnic serviciul de aplicațiile electorale, interzice extragerea de liste în masă și limitează normele subsecvente ca să nu adauge condiții noi.",
+      "article": "Art. II pct. 2, art. 110¹ alin. (1), (7) și Art. III alin. (3)",
+      "quote": "Sunt interzise interogările fără cerere și extragerea de liste de persoane eligibile ori neeligibile în alte scopuri decât soluționarea cererilor individuale înregistrate.",
       "weight": 1
     },
     {
-      "text": "Înainte de pornire, sistemul trebuie evaluat pentru riscurile asupra datelor personale, cu consultarea autorității de protecție a datelor, dacă e cazul.",
-      "article": "art. II pct. 2 (art. 110¹ alin. (21)); art. IV alin. (2)",
-      "quote": "Înainte de operaționalizarea serviciului, Autoritatea Electorală Permanentă efectuează evaluarea impactului asupra protecției datelor",
+      "text": "Individualizează bonificația în caz de coproprietate, astfel încât un proprietar eligibil nu pierde reducerea pe cota sa din cauza celuilalt, și respectă regulile UE de ajutor de stat.",
+      "article": "Art. I pct. 4, art. 489³ alin. (3) și (23)",
+      "quote": "În cazul coproprietății ori al unei obligații fiscale datorate de mai multe persoane, bonificația se aplică numai cotei din obligația fiscală anuală datorate de contribuabilul care îndeplinește condițiile prevăzute la alin. (2).",
       "weight": 1
     },
     {
-      "text": "AEP trebuie să publice stadiul lucrărilor și cât s-a cheltuit, ceea ce permite controlul public al costurilor.",
-      "article": "art. IV alin. (4)",
-      "quote": "Autoritatea Electorală Permanentă publică, la 6 luni de la intrarea în vigoare a prezentului articol și la expirarea termenului prevăzut la alin. (1), stadiul implementării, cheltuielile efectuate și cele estimate",
-      "weight": 1
-    },
-    {
-      "text": "Primăriile nu își pot face evidențe proprii despre cine a votat, nici dacă sistemul central întârzie.",
-      "article": "art. IV alin. (4); art. II pct. 2 (art. 110¹ alin. (12))",
+      "text": "Impune AEP rapoarte publice la 6 și 12 luni despre stadiu și cheltuieli și interzice primăriilor să improvizeze verificări paralele dacă sistemul întârzie.",
+      "article": "Art. IV alin. (4)",
       "quote": "Întârzierea operaționalizării nu permite folosirea unor evidențe sau proceduri locale alternative pentru stabilirea eligibilității electorale.",
-      "weight": 1
-    },
-    {
-      "text": "Cele două bonificații împreună nu pot trece de 15%, iar procentele se adună simplu. Asta limitează pierderile bugetelor locale.",
-      "article": "art. I pct. 4 (art. 489³ alin. (12))",
-      "quote": "se cumulează cu bonificația acordată potrivit art. 462 alin. (2), art. 467 alin. (2) sau art. 472 alin. (2), după caz, fără ca procentul cumulat să depășească 15%.",
-      "weight": 1
-    },
-    {
-      "text": "La bunurile cu mai mulți proprietari, fiecare primește bonificația doar pe partea lui, deci un coproprietar nu e afectat de faptul că altul nu a votat.",
-      "article": "art. I pct. 4 (art. 489³ alin. (3))",
-      "quote": "bonificația se aplică numai cotei din obligația fiscală anuală datorate de contribuabilul care îndeplinește condițiile",
-      "weight": 1
-    },
-    {
-      "text": "Românii din alt stat UE care au votat acolo la europarlamentare nu sunt penalizați pentru că nu au votat și în România.",
-      "article": "art. I pct. 4 (art. 489³ alin. (9))",
-      "quote": "scrutinul pentru alegerea membrilor din România nu se include în setul de referință al persoanei care, la data scrutinului, era înscrisă în lista electorală a statului membru",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Un impozit pe casă, teren sau mașină ajunge să depindă de mersul la vot, nu de bun. Cei care nu votează plătesc mai mult, deși votul e un drept, nu o obligație (art. 16, 36, 56 din Constituție).",
-      "article": "art. I pct. 4 (art. 489³ alin. (2) lit. a))",
-      "quote": "a realizat participarea electorală completă, stabilită potrivit alin. (4)–(9)",
+      "text": "Schimbă scopul Registrului electoral (acum strict pentru alegeri) spre fiscalitate, legând avantajele financiare de prezența la vot și punând presiune indirectă pe dreptul de abținere.",
+      "article": "Art. II pct. 1, art. 29 alin. (2)",
+      "quote": "Datele și informațiile conținute în Registrul electoral sunt destinate proceselor electorale, precum și verificării eligibilității pentru bonificația fiscală suplimentară anuală pentru participarea electorală, exclusiv în condițiile și cu garanțiile prevăzute la art. 110¹.",
       "weight": 3
     },
     {
-      "text": "Bolnavii, persoanele cu dizabilități și cei plecați sau la muncă în ziua votului nu au nicio scuză acceptată. O singură absență justificată înseamnă pierderea bonificației.",
-      "article": "art. I pct. 4 (art. 489³ alin. (7))",
-      "quote": "Nu sunt luate în considerare scrutinurile electorale de referință la care persoana",
+      "text": "Creează o bază centrală AEP–STS cu evidența nominală a participării sau absenței la fiecare scrutin, păstrată până la 9–10 ani — risc major GDPR și țintă pentru scurgeri sau abuzuri.",
+      "article": "Art. II pct. 2, art. 110¹ alin. (3) și (15)",
+      "quote": "se păstrează pe durata în care scrutinul produce efecte fiscale și timp de 5 ani calculați de la data de 1 iulie a anului următor",
       "weight": 3
     },
     {
-      "text": "Totul sau nimic: cine a votat la 4 din 5 scrutinuri pierde tot, la fel ca cel care nu a votat niciodată. Penalizează și cine alege conștient să nu voteze la un scrutin.",
-      "article": "art. I pct. 4 (art. 489³ alin. (8))",
+      "text": "Acordă automat bonificația celor fără drept de vot la niciun scrutin (străini non-UE sau condamnați cu interdicție judecătorească), dar o refuză cetățeanului care a lipsit o singură dată.",
+      "article": "Art. I pct. 4, art. 489³ alin. (7) lit. d) și alin. (8)",
+      "quote": "Dacă persoana nu a avut drept de vot la niciunul dintre scrutinurile de referință ale anului fiscal, condiția se consideră îndeplinită pentru întregul an fiscal respectiv.",
+      "weight": 3
+    },
+    {
+      "text": "Impune regula rigidă «totul sau nimic», fără excepții pentru spitalizare ori forță majoră: absența la un singur tur sau scrutin anulează reducerea timp de 4–5 ani.",
+      "article": "Art. I pct. 4, art. 489³ alin. (8) și (10)",
       "quote": "Condiția se apreciază unitar și nu se fracționează în funcție de numărul scrutinurilor la care contribuabilul a participat.",
-      "weight": 2
+      "weight": 3
     },
     {
-      "text": "Beneficiază doar cei care au case, terenuri sau mașini și pot plăti tot impozitul până la 31 martie. Fiind procent, cine are bunuri mai scumpe câștigă mai mult. Cei săraci rămân pe dinafară.",
-      "article": "art. I pct. 4 (art. 489³ alin. (1))",
-      "quote": "pentru plata integrală, până la data de 31 martie inclusiv, a impozitului sau taxei pe clădiri, a împozitului sau taxei pe teren și a impozitului pe mijloacele de transport datorate pentru întregul an.",
-      "weight": 2
+      "text": "Risc sever de blocaj la AEP: interzice refuzurile automatizate și obligă angajații să verifice manual fiecare rezultat negativ și să confrunte listele electorale fizice.",
+      "article": "Art. II pct. 2, art. 110¹ alin. (5) și (17)",
+      "quote": "Înaintea comunicării unui rezultat negativ, datele și încadrarea sunt verificate de o persoană desemnată de Autoritatea Electorală Permanentă. Nu se comunică un rezultat negativ întemeiat exclusiv pe prelucrare automatizată.",
+      "weight": 3
     },
     {
-      "text": "Statul creează și păstrează ani de zile o evidență nominală cu cine a votat și cine nu, la fiecare scrutin. Chiar cu garanții, o asemenea bază de date poate fi folosită abuziv.",
-      "article": "art. II pct. 2 (art. 110¹ alin. (2)–(3))",
-      "quote": "Pentru fiecare scrutin, Autoritatea Electorală Permanentă constituie o evidență distinctă, cuprinzând exclusiv identificatorul persoanei, identificatorul și categoria scrutinului, existența dreptului de vot, înregistrarea participării sau a neparticipării",
-      "weight": 2
+      "text": "Efect regresiv și discriminatoriu social: exclude chiriașii și pe cei fără bunuri impozabile, iar reducerea procentuală dă sume mult mai mari proprietarilor bogați pentru același vot.",
+      "article": "Art. I pct. 4, art. 489³ alin. (1) și (12)",
+      "quote": "consiliile locale și Consiliul General al Municipiului București pot acorda contribuabililor persoane fizice o bonificație fiscală suplimentară de până la 5% inclusiv, pentru plata integrală, până la data de 31 martie inclusiv",
+      "weight": 3
     },
     {
-      "text": "Costul noului sistem informatic de la AEP și STS nu este estimat nicăieri și se plătește de la bugetul de stat, pentru o reducere de cel mult 5% pe care multe primării nici nu o vor acorda.",
-      "article": "art. IV alin. (3)",
+      "text": "Costuri bugetare necuantificate: nu estimează cheltuielile pentru sistemul IT (AEP–STS) și personal, trimițând generic la bugetele anuale, riscând costuri mai mari decât beneficiile.",
+      "article": "Art. IV alin. (3)",
       "quote": "Sumele necesare dezvoltării, operaționalizării și funcționării serviciului se asigură de la bugetul de stat, prin bugetele Autorității Electorale Permanente și Serviciului de Telecomunicații Speciale, în limita creditelor bugetare aprobate anual cu această destinație.",
       "weight": 2
     },
     {
-      "text": "Datele din Registrul electoral, făcute doar pentru alegeri, primesc un scop fiscal. Se creează un precedent pentru folosirea datelor electorale și în alte scopuri.",
-      "article": "art. II pct. 1 (art. 29 alin. (2))",
-      "quote": "Datele și informațiile conținute în Registrul electoral sunt destinate proceselor electorale, precum și verificării eligibilității pentru bonificația fiscală suplimentară anuală pentru participarea electorală",
+      "text": "Creează inegalitate teritorială: fiind facultativă și plătită din bugetele locale, localitățile bogate își permit bonificația de 5%, în timp ce comunele sărace nu vor acorda nimic.",
+      "article": "Art. I pct. 4, art. 489³ alin. (1) și Art. IV alin. (3)",
+      "quote": "Diminuarea veniturilor locale și costurile locale de administrare sunt suportate din bugetele unităților administrativ-teritoriale care decid acordarea bonificației, cu respectarea legislației finanțelor publice locale.",
       "weight": 2
     },
     {
-      "text": "Același vot e răsplătit într-o comună și nu în cea vecină. Consilierii aleși pot folosi bonificația ca gest electoral înaintea alegerilor, ceea ce creează inegalitate între cetățeni.",
-      "article": "art. I pct. 4 (art. 489³ alin. (1))",
-      "quote": "consiliile locale și Consiliul General al Municipiului București pot acorda contribuabililor persoane fizice o bonificație fiscală suplimentară de până la 5% inclusiv",
-      "weight": 2
-    },
-    {
-      "text": "Pentru o sumă mică e nevoie de o procedură grea: cerere anuală, verificare la AEP, suspendări, contestații de până la câteva luni, plăți în plus și restituiri.",
-      "article": "art. I pct. 4 (art. 489³ alin. (2) lit. b), (19)–(20)); art. II pct. 2 (art. 110",
+      "text": "Adaugă birocrație anuală inutilă: spre deosebire de reducerea actuală de 10%, cetățenii trebuie să depună cerere în fiecare an până la 31 martie și, la întârzieri, să ceară restituirea.",
+      "article": "Art. I pct. 4, art. 489³ alin. (2) lit. b) și alin. (19)",
       "quote": "a depus cererea de acordare a bonificației până la data de 31 martie a anului fiscal pentru care aceasta se solicită",
       "weight": 2
     },
     {
-      "text": "Primăriile care acordă bonificația pierd venituri și suportă singure costurile de administrare și analizele anuale, ceea ce e greu pentru comunele mici.",
-      "article": "art. IV alin. (3); art. I pct. 4 (art. 489³ alin. (11))",
-      "quote": "Diminuarea veniturilor locale și costurile locale de administrare sunt suportate din bugetele unităților administrativ-teritoriale care decid acordarea bonificației",
-      "weight": 1
-    },
-    {
-      "text": "Datele despre participarea fiecărei persoane se păstrează mult timp: cât scrutinul produce efecte, deci până la 5 ani, plus încă 5 ani după aceea.",
-      "article": "art. II pct. 2 (art. 110¹ alin. (15))",
-      "quote": "Datele minime prevăzute la alin. (3) se păstrează pe durata în care scrutinul produce efecte fiscale și timp de 5 ani",
+      "text": "Exclude bonificația din regimul scutirilor și reducerilor locale de la art. 489¹, permițând acordarea ei în afara limitelor aplicabile celorlalte facilități locale.",
+      "article": "Art. I pct. 4, art. 489³ alin. (13)",
+      "quote": "Bonificația prevăzută de prezentul articol are regimul juridic al bonificațiilor pentru plata cu anticipație reglementate de art. 462 alin. (2), art. 467 alin. (2) și art. 472 alin. (2) și nu constituie scutire sau reducere în sensul art. 489¹.",
       "weight": 1
     }
   ],
   "fix": null,
   "quotes": {
-    "checked": 29,
-    "verified": 29
+    "checked": 20,
+    "verified": 20
   }
 }

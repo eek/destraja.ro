@@ -1,7 +1,12 @@
 {
   "slug": "plx-530-2026",
   "billId": "Pl-x 530/2026",
-  "updatedAt": "2026-10-30T09:42:49.992Z",
+  "updatedAt": "2026-11-20T08:43:03.819Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -16,7 +21,9 @@
         "agy": 5,
         "claude": 3,
         "codex": 4
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "camera",
@@ -31,178 +38,388 @@
         "agy": 4,
         "claude": 3,
         "codex": 3
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L464FS.PDF",
+      "source": "senat.ro",
+      "riskScore": 7.3,
+      "riskLevel": "red",
+      "plainTitle": "Reforma ANI: declarații de avere nepublice, fișe publice pe intervale de valori, interdicții de până la 3 ani și excepții noi pentru aleșii locali",
+      "summaryTlDr": "Este în mare parte o lege tehnică și utilă, care digitalizează procedurile ANI și răspunde Deciziei CCR nr. 297/2025. Totuși, conține trei puncte sensibile: încetarea de drept a mandatelor pentru constatări definitive anterioare legii (art.X), o scutire largă de conflict de interese pentru actele normative ale aleșilor locali (art.V) și publicarea fișelor soților demnitarilor.",
+      "scores": {
+        "agy": 8,
+        "claude": 6,
+        "codex": 8
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
     }
   ],
   "changes": [
     {
       "from": "initiator",
       "to": "camera",
-      "direction": "mai_putin_riscant",
-      "headline": "Soții demnitarilor și europarlamentarii români trebuie să își declare averea și interesele",
-      "summary": "Camera a extins declararea averii la soții și partenerii marilor demnitari și la europarlamentari. A obligat ANI să motiveze clasarea sesizărilor. Transparența crește. Sarcina nouă cade însă pe persoane private, iar textul nu spune unde depun soții declarațiile.",
+      "direction": "mai_riscant",
+      "headline": "Cei găsiți deja incompatibili își pierd funcția de drept, inclusiv pentru cazuri anterioare legii",
+      "summary": "Acum, cei găsiți definitiv incompatibili înainte de lege își pierd funcția la 30 de zile după intrarea ei în vigoare. Clauza care limita legea la fapte noi a dispărut. Soții demnitarilor declară averea, iar o incompatibilitate a aleșilor locali a fost scoasă.",
       "changes": [
         {
-          "title": "Soții marilor demnitari își declară averea",
-          "text": "Soții și partenerii Președintelui, parlamentarilor, membrilor Guvernului și secretarilor de stat depun declarații de avere și interese în aceleași termene (art. 4 alin. (9) L176/2010).",
-          "effect": "mai_bine",
+          "title": "Pierderea funcției pentru incompatibilități constatate înainte de lege",
+          "text": "Art. X nou: cine are o incompatibilitate sau un conflict de interese constatat definitiv înainte de lege și nu a ieșit din interdicția de 3 ani își pierde de drept funcția la 30 de zile de la intrarea legii în vigoare.",
+          "effect": "mai_rau",
           "major": true,
-          "article": "art. 4 alin. (9) din Legea 176/2010",
+          "article": "art. X",
           "before": null,
-          "after": "cu consilierii de stat din cadrul Cancelariei Prim-ministrului, are obligația de a completa și depune declarațiile de avere și declarațiile de interese, în aceleași termene și condiții prevăzute la alin. (1) - (7).",
+          "after": "Pesoanelor față de care, până la data intrării în vigoare a prezentei legi, s-a constatat în mod definitiv starea de incompatibilitate sau de conflict de interese și pentru care nu s-a împlinit termenul de 3 ani aferent interdicției prevăzute de lege",
           "beforeAbsent": true,
           "afterAbsent": false
         },
         {
-          "title": "Interesele financiare ale soților devin publice",
-          "text": "Declarațiile de interese financiare ale soților și partenerilor marilor demnitari se publică pe site-ul ANI (art. 2 alin. (7) pct. 43 L176/2010).",
-          "effect": "mai_bine",
+          "title": "Dispare garanția că legea se aplică doar faptelor noi",
+          "text": "Inițial, un articol spunea că noile reguli se aplică exclusiv faptelor săvârșite după intrarea legii în vigoare, iar cazurile vechi rămân sub legea veche. Acest articol a fost scos.",
+          "effect": "mai_rau",
           "major": true,
-          "article": "art. 2 alin. (7) pct. 43 din Legea 176/2010",
+          "article": "art. XI din forma inițiatorului",
+          "before": "(1) Dispozițiile prezentei legi se aplică exclusiv incidentelor de integritate săvârșite ulterior intrării în vigoare prezentei legi.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Soții și partenerii demnitarilor trebuie să declare averea",
+          "text": "Soțul, soția sau partenerul Președintelui, al parlamentarilor și al membrilor Guvernului depun acum declarații de avere și de interese, în aceleași termene. Declarațiile lor de interese financiare se publică.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. II pct. 5 (art. 4 alin. (9) din Legea 176/2010)",
           "before": null,
-          "after": "43. soțul, soția sau persoana care are relații asemănătoare acelora dintre soți cu Președintele României, cu deputații, cu senatorii, cu primministrul",
+          "after": "(9) Soțul, soția sau persoana care are relații asemănătoare acelora dintre soți cu Președintele României, cu deputații, cu senatorii, cu primministrul,",
           "beforeAbsent": true,
           "afterAbsent": false
         },
         {
-          "title": "Europarlamentarii și comisarii români intră pe listă",
-          "text": "Europarlamentarii și comisarul european din partea României sunt incluși explicit printre cei obligați să declare averea. Ei trebuie să o actualizeze anual (art. 1 alin. (1) pct. 47 și art. 4 alin. (2) L176/2010).",
-          "effect": "mai_bine",
+          "title": "Aleșii locali pot lucra la asociații intercomunitare",
+          "text": "Angajarea unui ales local la o asociație de dezvoltare intercomunitară din care face parte localitatea lui nu mai este incompatibilitate. Rămâne incompatibilă doar angajarea la agenția pentru dezvoltare regională.",
+          "effect": "mai_rau",
           "major": true,
-          "article": "art. 1 alin. (1) pct. 47 din Legea 176/2010",
-          "before": "46. președinții, vicepreședinții, secretarii și trezorierii federațiilor și confederațiilor patronale.",
-          "after": "47. membrii din România în Parlamentul European și membrii în Comisia Europeană din partea României.",
+          "article": "art. III pct. 13 (art. 88 alin. (1) lit. k) din Legea 161/2003)",
+          "before": "k) calitatea de angajat cu contract individual de muncă în cadrul asociației de dezvoltare intercomunitară sau al agenției pentru dezvoltare regională al cărei membru este unitatea administrativ-teritorială în care alesul local își exercită mandatul.",
+          "after": "k) calitatea de angajat cu contract individual de muncă în cadrul agenției pentru dezvoltare regională al cărei membru este unitatea administrativ-teritorială în care alesul local își exercită mandatul.",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Clasarea sesizărilor trebuie motivată și comunicată",
-          "text": "Sesizările nesemnate sau fără date de identificare se clasează acum prin rezoluție motivată. Rezoluția se comunică autorului și persoanei vizate (art. 12 alin. (3¹) L176/2010).",
+          "title": "Interdicția de 3 ani curge de la raportul definitiv",
+          "text": "Art. 25 a fost rescris. Interdicția de până la 3 ani curge acum de la rămânerea definitivă a raportului sau a hotărârii, nu de la încetarea funcției. Dispar alin. (2¹) și (2²) din forma inițiatorului.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II pct. 17 (art. 25 alin. (2) din Legea 176/2010)",
+          "before": "Persoana prevazuta la alin. (1) față de care s-a constatat în mod definitv existența conflictului de interese sau starea de incompatibilitate este decazută din dreptul de a exercita orice funcție sau demnitate publică ori eligibilă din cele prevăzute de prezenta lege pe o perioadă de până la 3 ani",
+          "after": "(2) Persoana prevăzută la alin. (1) are interdicția de a mai ocupa o funcție sau demnitate publică ori eligibilă, dintre cele prevăzute de prezenta lege, pe o perioadă de pănă la 3 ani, care operează de la data rămânerii definitive a raportului de evaluare sau a hotărârii judecătorești",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Sesizările incomplete se clasează prin decizie motivată",
+          "text": "Clasarea unei sesizări nesemnate sau fără datele autorului se face acum prin rezoluție motivată. Rezoluția se comunică autorului și persoanei vizate.",
           "effect": "mai_bine",
           "major": false,
-          "article": "art. 12 alin. (3¹) din Legea 176/2010",
+          "article": "art. II pct. 12 (art. 12 alin. (3¹) din Legea 176/2010)",
           "before": "(3¹) Sesizarea care nu este semnată olograf sau electronic, nu are atașată dovada calității de reprezentant ori nu conține datele de identificare ale autorului se clasează.",
           "after": "(3¹) Sesizarea care nu este semnată olograf sau electronic, nu are atașată dovada calității de reprezentant ori nu conține datele de identificare ale autorului se clasează prin rezoluție motivată, comunicată autorului sesizării și persoanei vizate, după caz.",
           "beforeAbsent": false,
           "afterAbsent": false
-        },
-        {
-          "title": "Renunțare la abrogarea unor alineate din art. 3",
-          "text": "Forma inițiatorului abroga art. 3 alin. (4)-(7) din Legea 176/2010. Camera a scos această abrogare, așa că alineatele rămân în vigoare. Conținutul lor nu reiese din text.",
-          "effect": "neutru",
-          "major": false,
-          "article": "art. 3 alin. (4)-(7) din Legea 176/2010",
-          "before": "La articolul 3, alineatele (4) - (7) se abrogă.",
-          "after": null,
-          "beforeAbsent": false,
-          "afterAbsent": true
         }
       ],
       "remaining": {
         "problems": [
           {
-            "text": "Depunere doar prin e-DAI cu semnătură calificată; nu se spune cine suportă costul",
+            "text": "Funcții pierdute de drept pentru incompatibilități constatate înainte de lege",
             "major": true,
-            "article": "art. 2 alin. (1) din Legea 176/2010"
+            "article": "art. X alin. (1)"
           },
           {
-            "text": "Conducerea federațiilor sportive, sindicale și patronale, entități private, trebuie să declare averea",
+            "text": "Lipsește clauza care limita aplicarea legii la faptele ulterioare intrării în vigoare",
             "major": true,
-            "article": "art. 1 alin. (1) pct. 44-46 din Legea 176/2010"
+            "article": null
+          },
+          {
+            "text": "Conducerea unor federații sportive, sindicale și patronale private obligată la declarații publice",
+            "major": true,
+            "article": "art. II pct. 1 (art. 1 alin. (1) pct. 44-46 din Legea 176/2010)"
+          },
+          {
+            "text": "Soții și partenerii demnitarilor, persoane private, obligați la declarații publicate",
+            "major": true,
+            "article": "art. II pct. 5 (art. 4 alin. (9) din Legea 176/2010)"
+          },
+          {
+            "text": "Depunere doar prin e-DAI cu semnătură electronică; nu se spune cine suportă costul",
+            "major": true,
+            "article": "art. II pct. 2 (art. 2 alin. (1) din Legea 176/2010)"
+          },
+          {
+            "text": "Angajarea aleșilor locali la asociații intercomunitare nu mai e incompatibilitate",
+            "major": true,
+            "article": "art. III pct. 13 (art. 88 alin. (1) lit. k) din Legea 161/2003)"
           },
           {
             "text": "Pragul de 10.000 de euro nu precizează cursul și data de referință",
-            "major": true,
-            "article": "art. 37 alin. (3) din Legea 144/2007; art. 18 din Legea 176/2010"
-          },
-          {
-            "text": "Soții, persoane private, își văd interesele financiare publicate pe internet",
-            "major": true,
-            "article": "art. 2 alin. (7) pct. 43 din Legea 176/2010"
-          },
-          {
-            "text": "Nu e clar unde și prin cine se înrolează și depun soții",
             "major": false,
-            "article": "art. 5 alin. (3) și art. 6 lit. b) din Legea 176/2010"
+            "article": "art. I pct. 4 (art. 37 alin. (3) din Legea 144/2007)"
           },
           {
-            "text": "Comunicarea se consideră făcută la 15 zile de la încărcarea în e-DAI",
+            "text": "Nu se spune ce se întâmplă după cele 60 de zile de interimat",
             "major": false,
-            "article": "art. 2¹ alin. (8) din Legea 176/2010"
-          },
-          {
-            "text": "Legea nu spune ce se întâmplă după cele 60 de zile de interimat",
-            "major": false,
-            "article": "art. 13 alin. (5) lit. b) din Legea 144/2007"
+            "article": "art. I pct. 1 (art. 13 alin. (5) lit. b) din Legea 144/2007)"
           },
           {
             "text": "Competența privind „ușile rotative” nu are norme de fond în textul analizat",
             "major": false,
-            "article": "art. 13 alin. (2) din Legea 144/2007"
+            "article": "art. I pct. 1 (art. 13 alin. (2) din Legea 144/2007)"
           }
         ],
         "good": [
           {
-            "text": "Soții și partenerii marilor demnitari declară averea și interesele",
+            "text": "Secretarul general interimar are puteri strict limitate, protecție împotriva capturării ANI",
             "major": true,
-            "article": "art. 4 alin. (9) din Legea 176/2010"
+            "article": "art. I pct. 1 (art. 13 alin. (5) lit. b) din Legea 144/2007)"
           },
           {
-            "text": "Europarlamentarii și comisarii români sunt incluși explicit printre declaranți",
+            "text": "Interdicția de până la 3 ani se individualizează proporțional, cu reduceri",
             "major": true,
-            "article": "art. 1 alin. (1) pct. 47 din Legea 176/2010"
+            "article": "art. II pct. 17 (art. 25 alin. (2¹) din Legea 176/2010)"
           },
           {
-            "text": "Raportul de evaluare fără informarea și invitarea persoanei este nul absolut",
+            "text": "Raportul de evaluare făcut fără informarea persoanei este lovit de nulitate absolută",
             "major": true,
-            "article": "art. 13 alin. (2) din Legea 176/2010"
+            "article": "art. II pct. 14 (art. 13 alin. (2) din Legea 176/2010)"
           },
           {
-            "text": "Absențele nemotivate repetate devin motiv clar de revocare a membrilor CNI",
+            "text": "Declarațiile complete rămân confidențiale; din extrasul publicat se exclud datele personale",
             "major": true,
-            "article": "art. 37 alin. (3) din Legea 144/2007"
+            "article": "art. II pct. 2 (art. 2 alin. (5) și (8) din Legea 176/2010)"
           },
           {
-            "text": "Activitatea inspectorilor cu studii juridice devine vechime în specialitate juridică",
-            "major": true,
-            "article": "art. 18 alin. (3¹) din Legea 144/2007"
-          },
-          {
-            "text": "Secretarul general interimar are puteri strict limitate, ca garanție contra capturării ANI",
+            "text": "Membrii CNI care lipsesc nemotivat repetat pot fi revocați",
             "major": false,
-            "article": "art. 13 alin. (5) lit. b) din Legea 144/2007"
+            "article": "art. I pct. 4 (art. 37 alin. (3) din Legea 144/2007)"
+          },
+          {
+            "text": "Activitatea inspectorilor cu studii juridice devine vechime juridică",
+            "major": false,
+            "article": "art. I pct. 2 (art. 18 alin. (3¹) din Legea 144/2007)"
+          },
+          {
+            "text": "ANI gestionează explicit raportările avertizorilor în interes public",
+            "major": false,
+            "article": "art. I pct. 1 (art. 13 alin. (2) din Legea 144/2007)"
           },
           {
             "text": "Clasarea sesizărilor se face prin rezoluție motivată, comunicată părților",
             "major": false,
-            "article": "art. 12 alin. (3¹) din Legea 176/2010"
+            "article": "art. II pct. 12 (art. 12 alin. (3¹) din Legea 176/2010)"
           },
           {
-            "text": "Declaranții pot opta oricând pentru comunicare prin poștă recomandată",
+            "text": "Declaranții pot alege oricând comunicarea prin poștă cu confirmare de primire",
             "major": false,
-            "article": "art. 2¹ alin. (6) din Legea 176/2010"
-          },
-          {
-            "text": "Candidații pot semna declarațiile și olograf",
-            "major": false,
-            "article": "art. 2 alin. (2) din Legea 176/2010"
-          },
-          {
-            "text": "ANI primește explicit rolul de a proteja avertizorii în interes public",
-            "major": false,
-            "article": "art. 13 alin. (2) din Legea 144/2007"
+            "article": "art. II pct. 3 (art. 2¹ alin. (6) din Legea 176/2010)"
           }
         ],
         "partial": true
       },
       "diff": {
-        "added": 86,
-        "removed": 88,
-        "same": 0.87
+        "added": 63,
+        "removed": 63,
+        "same": 0.91
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:40:51.888Z"
+      "schema": 4,
+      "updatedAt": "2026-11-20T08:41:54.009Z"
+    },
+    {
+      "from": "camera",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Acum, orice incompatibilitate sau conflict de interese constatat definitiv duce la pierderea de drept a mandatului",
+      "summary": "Acum, orice constatare definitivă de incompatibilitate sau conflict de interese duce automat la pierderea funcției. În schimb, incompatibilitatea cu funcții în firme se aplică doar la firmele cu activitate comercială „sistematică și efectivă”, criteriu vag. Pe partea bună, apar soții președinților de CJ și un termen de 45 de zile pentru opțiune.",
+      "changes": [
+        {
+          "title": "Pierderea automată a funcției pentru orice constatare definitivă",
+          "text": "Art. 25 alin. (2) din L.176/2010: interdicția nu mai privește doar pe cel care a emis acte în conflict de interese, ci pe orice persoană constatată definitiv. Mandatul încetează de drept la aceeași dată.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. II pct. 17 (art. 25 alin. (2) din Legea 176/2010)",
+          "before": "(2) Persoana prevăzută la alin. (1) are interdicția de a mai ocupa o funcție sau demnitate publică ori eligibilă, dintre cele prevăzute de prezenta lege, pe o perioadă de pănă la 3 ani",
+          "after": "(2) Persoana constatată în mod definitiv că s-a aflat în conflict de interese sau în stare de incompatibilitate, inclusiv cea a cărei faptă constituie abatere disciplinară conform alin. (1), are interdicția de a mai ocupa o funcție sau demnitate publică ori eligibilă",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Incompatibilitatea cu funcții în firme se restrânge",
+          "text": "Funcțiile de conducere în societăți comerciale sunt incompatibile doar dacă firma desfășoară „sistematic și efectiv” activități comerciale. Criteriul este vag și lasă loc pentru firme aparent inactive.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. III pct. 4 (art. 82 alin. (1) lit. a))",
+          "before": "cenzor la societățile reglementate de Legea societăților nr. 31/1990, republicată, cu modificările și completările ulterioare, inclusiv băncile sau alte instituții de credit",
+          "after": "cenzor la societățile reglementate de Legea societăților nr.31/1990, republicată, cu modificările și completările ulterioare, care desfășoară sistematic și efectiv activități comerciale, inclusiv bâncile",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Soții președinților de consilii județene declară și sunt publicați",
+          "text": "Lista soților/partenerilor obligați să depună declarații și ale căror declarații de interese financiare se publică include acum și pe cei ai președinților consiliilor județene.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. II pct. 2 și pct. 5 (art. 2 alin. (6) pct. 43, art. 4 alin. (9))",
+          "before": "cu consilierii de stat din cadrul Cancelariei Prim-ministrului.",
+          "after": "cu consilierii de stat din cadrul Cancelariei Prim-ministrului, cu președinții consiliilor județene.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "45 de zile pentru renunțarea la funcțiile incompatibile",
+          "text": "Persoanele care devin incompatibile prin noua lege au 45 de zile de la intrarea în vigoare ca să renunțe la una dintre funcții. Nu mai sunt sancționate direct.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. X alin. (3)",
+          "before": null,
+          "after": "(3) Persoanele care prin aplicarea prevederilor prezentei legi devin incompatibile sunt obligate să renunțe la una dintre funcțiile sau calitățile incompatibile în cel mult 45 de zile de la data intrării în vigoare a prezentei legi.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Candidații nu mai depun obligatoriu prin e-DAI",
+          "text": "Dispare obligația candidaților de a se înrola într-o secțiune distinctă e-DAI. Declarațiile lor se transmit potrivit art. 3 alin. (4)-(7). Textul alineatului apare trunchiat.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II pct. 2 (art. 2 alin. (2)-(3) din Legea 176/2010)",
+          "before": "(3) Persoanele prevăzute la art. 1 alin. (1) pct. 39 sunt obligate să se înroleze și să depună declarațiile de avere și declarațiile de interese într-o secțiune distinctă a platformei e-DAI.",
+          "after": "și de interese semnate cu semnătură electronică, după caz, calificată sau semnătură avansată, încorporată în cartea electronica de identitate, ori cu semnătură olografă și se transmit în condițiile art.3 alin.(4)-(7).",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Angajarea inspectorilor prin transfer, doar 6 luni",
+          "text": "Perioada în care inspectorii de integritate pot fi numiți prin transfer, fără concurs, scade de la 36 la 6 luni.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. XII",
+          "before": "Art. XII. - Pe o perioadă de 36 de luni de la data intrării în vigoare a prezentei legi, în situația neocupării posturilor vacante prin concurs",
+          "after": "Art.XII.- Pe o perioadă de 6 de luni de la data intrării în vigoare a prezentei legi, în situația neocupării posturilor vacante prin concurs",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Constatări anterioare legii duc automat la încetarea mandatului, fără individualizare",
+            "major": true,
+            "article": "art. X alin. (1)"
+          },
+          {
+            "text": "Mandatul încetează de drept pentru orice constatare, nu doar pentru acte emise",
+            "major": true,
+            "article": "art. II pct. 17 (art. 25 alin. (2) din Legea 176/2010)"
+          },
+          {
+            "text": "Aleșii locali scutiți de conflict de interese la orice act normativ",
+            "major": true,
+            "article": "art. V (art. 228 alin. (1¹)-(1²) Cod administrativ)"
+          },
+          {
+            "text": "Calculul reducerilor interdicției e neclar; conflictul de interese lipsește la litera c)",
+            "major": true,
+            "article": "art. II pct. 18 (art. 25 alin. (2¹) din Legea 176/2010)"
+          },
+          {
+            "text": "Soții declaranți lipsesc din art. 1 alin. (1); sancțiunile față de ei sunt incerte",
+            "major": true,
+            "article": "art. II pct. 2 și pct. 5"
+          },
+          {
+            "text": "Criteriul vag „sistematic și efectiv activități comerciale” la incompatibilități",
+            "major": true,
+            "article": "art. III pct. 4 (art. 82 alin. (1) lit. a))"
+          },
+          {
+            "text": "Nu se spune ce urmează după cele 60 de zile de interimat",
+            "major": false,
+            "article": "art. I pct. 1 (art. 13 alin. (5) lit. b) din Legea 144/2007)"
+          },
+          {
+            "text": "Competența pe „uși rotative” nu are normele de fond care să-i dea conținut",
+            "major": false,
+            "article": "art. I pct. 1 (art. 13 alin. (2) din Legea 144/2007)"
+          },
+          {
+            "text": "Textul despre declarațiile candidaților este trunchiat și greu de aplicat",
+            "major": false,
+            "article": "art. II pct. 2 (art. 2 alin. (2))"
+          }
+        ],
+        "good": [
+          {
+            "text": "Soții demnitarilor, inclusiv ai președinților de CJ, declară averea; declarațiile se publică",
+            "major": true,
+            "article": "art. II pct. 2 și pct. 5"
+          },
+          {
+            "text": "Cei deveniți incompatibili au 45 de zile să aleagă o funcție",
+            "major": true,
+            "article": "art. X alin. (3)"
+          },
+          {
+            "text": "Interdicția pentru cazurile noi poate fi redusă de inspector, individualizat",
+            "major": true,
+            "article": "art. II pct. 18 (art. 25 alin. (2¹) din Legea 176/2010)"
+          },
+          {
+            "text": "Raportul de evaluare făcut fără informarea persoanei este nul absolut",
+            "major": true,
+            "article": "art. II pct. 14 (art. 13 alin. (2) din Legea 176/2010)"
+          },
+          {
+            "text": "Secretarul general interimar nu poate reorganiza ANI și nici numi șefi",
+            "major": false,
+            "article": "art. I pct. 1 (art. 13 alin. (5) lit. b) din Legea 144/2007)"
+          },
+          {
+            "text": "ANI gestionează explicit raportările avertizorilor în interes public",
+            "major": false,
+            "article": "art. I pct. 1 (art. 13 alin. (2) din Legea 144/2007)"
+          },
+          {
+            "text": "Membrii CNI pot fi revocați după absențe nemotivate repetate",
+            "major": false,
+            "article": "art. I pct. 4 (art. 37 alin. (3) din Legea 144/2007)"
+          },
+          {
+            "text": "Activitatea inspectorilor juriști contează ca vechime juridică",
+            "major": false,
+            "article": "art. I pct. 2 (art. 18 alin. (3¹) din Legea 144/2007)"
+          },
+          {
+            "text": "Declarantul își poate rectifica declarația 40 de zile, înainte de evaluare",
+            "major": false,
+            "article": "art. II pct. 9 (art. 7 din Legea 176/2010)"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 66,
+        "removed": 67,
+        "same": 0.91
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-20T08:43:03.819Z"
     }
   ]
 }

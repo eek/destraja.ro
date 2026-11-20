@@ -1,7 +1,12 @@
 {
   "slug": "plx-529-2026",
   "billId": "PL-x 529/2026",
-  "updatedAt": "2026-10-29T12:53:49.870Z",
+  "updatedAt": "2026-11-20T08:32:15.182Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -16,7 +21,9 @@
         "agy": 6,
         "claude": 4,
         "codex": 4
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "senat",
@@ -31,7 +38,26 @@
         "agy": 5,
         "claude": 3,
         "codex": 4
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl529_cd529_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Cum poate statul să încheie înțelegeri amiabile în procese privind bunurile sale",
+      "summaryTlDr": "Ideea e utilă: statul primește o procedură clară pentru a stinge procese prin tranzacție, cu evaluare, memorandum și control al Curții de Conturi. Forma adoptată nu mai corespunde însă cu ce anunță inițiatorii. Pragul de 500.000 lei și aprobarea prin ordin de ministru au dispărut. În plus, textul are erori de redactare care îl fac greu de aplicat.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 3
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
     }
   ],
   "changes": [
@@ -139,6 +165,161 @@
       "model": "claude",
       "schema": 3,
       "updatedAt": "2026-10-29T12:52:05.298Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Toate tranzacțiile statului cu bunuri private cer acum HG; dispare pragul de 500.000 lei și ordinul",
+      "summary": "Acum orice tranzacție a statului privind bunuri private, chiar mică sau cu bunuri mobile, cere hotărâre de Guvern. Tranzacțiile doar în bani pierd calea de aprobare. Apar în schimb o definiție a tranzacției și controlul Curții de Conturi.",
+      "changes": [
+        {
+          "title": "Dispare aprobarea prin ordin pentru tranzacții mici",
+          "text": "La art. 364² alin. (1), tranzacțiile de până la 500.000 lei nu se mai aprobă prin ordin de ministru. Toate cer acum HG și memorandum, ceea ce poate întârzia rezolvarea litigiilor mărunte.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 364² alin. (1)",
+          "before": "c) ordin al ministrului sau al conducătorului organului ori instituției administrației publice centrale competente, după obiectul sau scopul tranzacției, pentru tranzacțiile a căror valoare este mai mică sau egală cu 500.000 lei.",
+          "after": "(1) Tranzacțiile încheiate de către stat se aprobă prin hotărâre a Guvernului, pentru tranzacțiile care au ca obiect drepturi și obligații asupra unor bunuri proprietate privată a statului.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Tranzacțiile doar în bani rămân fără aprobare clară",
+          "text": "Inițial, orice tranzacție peste 500.000 lei se aproba prin HG, indiferent de obiect. Acum alin. (1) acoperă doar tranzacțiile cu bunuri, așa că despăgubirile și creanțele nu mai au o autoritate de aprobare expresă.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 364² alin. (1)",
+          "before": "b) hotărâre a Guvernului, pentru tranzacțiile a căror valoare este mai mare de 500.000 lei;",
+          "after": "asupra unor bunuri proprietate privată a statului",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Regula se extinde de la imobile la orice bunuri",
+          "text": "La alin. (1) a fost scos cuvântul „imobile”. Aprobarea prin HG se aplică acum și tranzacțiilor cu bunuri mobile ale statului.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 364² alin. (1)",
+          "before": "a) hotărâre a Guvernului, pentru tranzacțiile care au ca obiect drepturi și obligații asupra unor bunuri imobile proprietate privată a statului;",
+          "after": "(1) Tranzacțiile încheiate de către stat se aprobă prin hotărâre a Guvernului, pentru tranzacțiile care au ca obiect drepturi și obligații asupra unor bunuri proprietate privată a statului.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Curtea de Conturi controlează tranzacțiile cu bunuri ale statului",
+          "text": "Noul alin. (7) dă Curții de Conturi rolul de a verifica competența, procedura, evaluarea, prețul și eventualul prejudiciu adus statului.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 364² alin. (7)",
+          "before": null,
+          "after": "(7) Curtea de Conturi a României controlează modul în care s-a realizat tranzacția, aprobată potrivit prevederilor prezentului articol, a unui bun aflat în proprietatea privată a statului, având rol de audit și control",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Se definește ce înseamnă tranzacție",
+          "text": "Noul alin. (6) trimite la contractul de tranzacție din Codul civil și include în mod expres și faza executării silite.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 364² alin. (6)",
+          "before": null,
+          "after": "prin care se previn sau se sting litigii, inclusiv în faza executării silite, prin concesii sau renunțări reciproce la drepturi ori prin transferul unor drepturi de la una la cealaltă dintre părți.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Memorandum și evaluare pentru toate tranzacțiile",
+          "text": "La alin. (2) și (4) a fost scoasă trimiterea la lit. a) și b). Memorandumul prealabil și calculul valorii se aplică acum oricărei tranzacții, deci nu mai există tranzacții mici fără regulă de calcul.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 364² alin. (2), (4)",
+          "before": "Oportunitatea și necesitatea negocierii și încheierii unei tranzacții care îndeplinește condițiile prevăzute la alin.(1) lit.a) și b)",
+          "after": "Oportunitatea și necesitatea negocierii care îndeplinește condițiile prevăzute la alin. (1)",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Orice tranzacție, chiar foarte mică, cere hotărâre de Guvern, deci blocaj administrativ",
+            "major": true,
+            "article": "art. 364² alin. (1)"
+          },
+          {
+            "text": "Tranzacțiile pur pecuniare nu au autoritate de aprobare stabilită expres",
+            "major": true,
+            "article": "art. 364² alin. (1), (6)"
+          },
+          {
+            "text": "Nu există standard de evaluare pentru bunuri mobile și renunțări la creanțe",
+            "major": true,
+            "article": "art. 364² alin. (4)"
+          },
+          {
+            "text": "Propunerea vine de la cine are drept asupra „imobilului”; neclar pentru bunuri mobile",
+            "major": false,
+            "article": "art. 364² alin. (2)"
+          },
+          {
+            "text": "Memorandumurile de aprobare a mandatului nu se publică în Monitorul Oficial",
+            "major": false,
+            "article": "art. 364² alin. (2)"
+          },
+          {
+            "text": "Controlul Curții de Conturi vorbește de vânzare sau concesionare, nu de tranzacție",
+            "major": false,
+            "article": "art. 364² alin. (7)"
+          },
+          {
+            "text": "Formularea „negocierii care îndeplinește condițiile” e neclară",
+            "major": false,
+            "article": "art. 364² alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Imobilele se evaluează la valoarea de piață de un evaluator",
+            "major": true,
+            "article": "art. 364² alin. (4)"
+          },
+          {
+            "text": "Oportunitatea, negociatorii și mandatul se aprobă în prealabil de Guvern prin memorandum",
+            "major": false,
+            "article": "art. 364² alin. (2)"
+          },
+          {
+            "text": "Justificarea interesului public național este obligatorie în nota de fundamentare",
+            "major": false,
+            "article": "art. 364² alin. (5)"
+          },
+          {
+            "text": "Curtea de Conturi verifică evaluarea, prețul și eventualul prejudiciu",
+            "major": false,
+            "article": "art. 364² alin. (7)"
+          },
+          {
+            "text": "Tranzacția e definită prin Codul civil, inclusiv în executarea silită",
+            "major": false,
+            "article": "art. 364² alin. (6)"
+          },
+          {
+            "text": "Tranzacția intră în vigoare odată cu hotărârea de Guvern care o aprobă",
+            "major": false,
+            "article": "art. 364² alin. (3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 10,
+        "removed": 11,
+        "same": 0.17
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-20T08:32:15.182Z"
     }
   ]
 }

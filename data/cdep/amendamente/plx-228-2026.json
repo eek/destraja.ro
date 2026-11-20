@@ -1,20 +1,39 @@
 {
  "slug": "plx-228-2026",
  "billId": "PL-x 228/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-11-10T09:39:22.917Z",
- "inputHash": "1e20a3c576c3",
+ "updatedAt": "2026-11-20T09:24:29.208Z",
+ "inputHash": "95328a45f845",
  "reports": [
   "https://www.cdep.ro/comisii/juridica/pdf/2026/rp228.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp228.pdf",
+   "sha256": "c30f50ad4c92883b",
+   "parts": 1,
+   "rows": 129,
+   "unchanged": 109,
+   "admise": 20,
+   "respinse": 0,
+   "truncated": false
+  }
+ ],
+ "completeness": "incomplete",
+ "problems": [
+  "20 admise + 109 nemodificate din 140 rânduri anunțate"
+ ],
  "counts": {
-  "admise": 12,
-  "respinse": 0
+  "admise": 20,
+  "respinse": 0,
+  "anuntate": 140,
+  "nemodificate": 109
  },
  "amendments": [
   {
    "nr": "7",
+   "report": "rp228.pdf",
    "article": "art. 58 alin. (4)",
    "status": "admis",
    "authors": [
@@ -26,14 +45,42 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Se interzice formularea unei plângeri împotriva ordonanței prin care procurorul își declină competența.",
+   "byGroup": null,
+   "summary": "Interzice formularea unei plângeri împotriva ordonanței prin care procurorul își declină competența.",
    "quote": "(4) Împotriva ordonanței prevăzute la alin. (2) nu poate fi formulată plângere",
+   "inForce": "Art. 58: Verificarea competenței\n(1)Organul de urmărire penală este dator să își verifice competența imediat după sesizare.\n(2)Dacă procurorul constată că nu este competent să efectueze sau să supravegheze urmărirea penală, dispune de îndată, prin ordonanță, declinarea de competență și trimite cauza procurorului competent.\n(3)Dacă organul de cercetare penală constată că nu este competent să efectueze urmărirea penală, trimite de îndată cauza procurorului care exercită supravegherea, în vederea sesizării organului competent.",
+   "before": null,
+   "after": "La articolul 58, dupa alin. (3) se introduce un nou alineat, alin. (4), cu următorul cuprins:\n\n(4) Împotriva ordonanței prevăzute la alin. (2) nu poate fi formulată plângere\".",
+   "motivation": null,
    "effects": [
     "mai_rau"
    ]
   },
   {
+   "nr": "15",
+   "report": "rp228.pdf",
+   "article": "art. 81¹ alin. (1)",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "TUȘA ADRIANA DIANA",
+     "role": "deputat",
+     "party": null,
+     "site": "Tuşa Adriana-Diana"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Elimină o eroare de redactare (indicele de la cuvântul «făptuitorului») din textul privind informarea victimei la eliberare.",
+   "quote": "cu cel puțin 5 zile înainte de momentul eliberării inculpatului, condamnatului sau făptuitorului internat medical",
+   "inForce": null,
+   "before": "Art.81¹.- (1) Procurorul, judecătorul de cameră preliminară sau instanța de judecată pe rolul căreia se află cauza, respectiv judecătorul delegat cu executarea de la instanța de executare, informează victima infracțiunii și membrii de familie ai acesteia, care ar putea fi în pericol, despre împrejurarea că persoana aflată în arest preventiv, în arest la domiciliu sau în executarea unei pedepse ori măsuri educative privative de libertate, respectiv care este internată medical, va fi eliberată. Dacă data eliberării este cunoscută, informarea victimei infracțiunii și a membrilor de familie ai acesteia se realizează cu cel puțin 5 zile înainte de momentul eliberării inculpatului, condamnatului sau făptuitorului¹ internat medical, iar în celelalte cazuri informarea se realizează de îndată.",
+   "after": "Art.81¹.- (1) Procurorul, judecătorul de cameră preliminară sau instanța de judecată pe rolul căreia se află cauza, respectiv judecătorul delegat cu executarea de la instanța de executare, informează victima infracțiunii și membrii de familie ai acesteia, care ar putea fi în pericol, despre împrejurarea că persoana aflată în arest preventiv, în arest la domiciliu sau în executarea unei pedepse ori măsuri educative privative de libertate, respectiv care este internată medical, va fi eliberată. Dacă data eliberării este cunoscută, informarea victimei infracțiunii și a membrilor de familie ai acesteia se realizează cu cel puțin 5 zile înainte de momentul eliberării inculpatului, condamnatului sau făptuitorului internat medical, iar în celelalte cazuri informarea se realizează de îndată.",
+   "motivation": "Trebuie eliminat indicele de la cuvândul \"făptuitorului\""
+  },
+  {
    "nr": "16",
+   "report": "rp228.pdf",
    "article": "art. 81¹ alin. (2)",
    "status": "admis",
    "authors": [
@@ -45,14 +92,20 @@
     }
    ],
    "byCommittee": null,
-   "summary": "În caz de evadare a agresorului, victima și familia ei sunt informate de urgență de organul de poliție în a cărui circumscripție locuiește victima.",
-   "quote": "organul de poliție în a cărui circumscripție locuiește victima, care, de urgență, informează victima infracțiunii și membrii de familie ai acesteia care ar putea fi în pericol.",
+   "byGroup": null,
+   "summary": "Clarifică faptul că poliția din circumscripția victimei o anunță de urgență în caz de evadare și scoate măsurile educative din acest alineat.",
+   "quote": "organul de poliție în a cărui circumscripție locuiește victima, care, de urgență, informează victima infracțiunii și membrii de familie ai acesteia",
+   "inForce": null,
+   "before": "(2) În cazul evadării din locul în care inculpatul sau condamnatul execută măsura preventivă privativă de libertate, pedeapsa închisorii ori a detențiunii pe viață sau execută o măsură educativă, administrația locului de deținere sau în care se execută măsura educativă, precum și unitatea de poliție care controlează executarea arestului la domiciliu înștiințează imediat organul judiciar prevăzut la alin.(1), precum și organul de poliție cel mai apropiat de locuința victimei, care, de îndată, informează victima infracțiunii și membrii de familie ai acesteia care ar putea fi în pericol.",
+   "after": "(2)În cazul evadării din locul în care inculpatul sau condamnatul execută măsura preventivă privativă de libertate, pedeapsa închisorii ori a detențiunii pe viață, administrația locului de deținere sau organul de poliție care supraveghează respectarea executării măsurii arestului la domiciliu înștiințează, de îndată, organul judiciar prevăzut la alin. (1), precum și organul de poliție în a cărui circumscripție locuiește victima, care, de urgență, informează victima infracțiunii și membrii de familie ai acesteia care ar putea fi în pericol.",
+   "motivation": "Amendamentul corectează reținerea unor situații juridice eronate (de ex. părăsirea locului unde se execută măsura educativă nu este evadare), stabilește în mod clar organul de poliție (în a cărui circumscripție locuiește victima) și dă cursivitate textului fără a modifica substanța acestuia.",
    "effects": [
     "neutru"
    ]
   },
   {
    "nr": "18",
+   "report": "rp228.pdf",
    "article": "art. 81¹ alin. (4)",
    "status": "admis",
    "authors": [
@@ -64,11 +117,20 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Regulile de informare și protecție a victimei se aplică și când făptuitorul părăsește locul unde execută o măsură educativă privativă de libertate.",
-   "quote": null
+   "byGroup": null,
+   "summary": "Extinde aplicarea regulilor de informare și protecție a victimei la părăsirea locului unde se execută o măsură educativă privativă de libertate.",
+   "quote": null,
+   "inForce": null,
+   "before": null,
+   "after": "(4) Dispozițiile alin. (1) –(3) se aplică în mod corespunzător în cazul părăsirii locului în care se execută o măsură educativă privativă de libertate ori a unității sanitare de specialitate în cazul internării medicale provizorii, internării nevoluntare sau a măsurii de siguranță a internării medicale.",
+   "motivation": null,
+   "unverified": [
+    "before"
+   ]
   },
   {
    "nr": "20",
+   "report": "rp228.pdf",
    "article": "art. 93 alin. (4)",
    "status": "admis",
    "authors": [
@@ -80,14 +142,20 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Asistența juridică a victimei devine obligatorie doar după începerea urmăririi penale și se extinde la infracțiunea de determinare de acte sexuale între minori (art. 219² CP).",
-   "quote": "După începerea urmăririi penale, asistența juridică este obligatorie când persoana vătămată sau partea civilă este o persoană lipsită de capacitate",
+   "byGroup": null,
+   "summary": "Stabilește că avocatul e obligatoriu pentru victimele unor infracțiuni grave după începerea urmăririi penale și adaugă art. 219² din Codul penal.",
+   "quote": "După începerea urmăririi penale, asistența juridică este obligatorie când persoana vătămată sau partea civilă este o persoană lipsită de capacitate de exercițiu",
+   "inForce": "(4)Asistența juridică este obligatorie când persoana vătămată sau partea civilă este o persoană lipsită de capacitate de exercițiu ori cu capacitate de exercițiu restrânsă sau când persoana vătămată sau partea civilă este victima uneia dintre infracțiunile prevăzute de art. 197, 199, 209-216¹, 218, 218¹, 219, 219¹, 221, 222 și 223 din Codul penal.",
+   "before": null,
+   "after": "La articolul 93 alineatul (4) se modifică și va avea următorul cuprins:\n\n(4) După începerea urmăririi penale, asistența juridică este obligatorie când persoana vătămată sau partea civilă este o persoană lipsită de capacitate de exercițiu ori cu capacitate de exercițiu restrânsă sau când persoana vătămată sau partea civilă este victima uneia dintre infracțiunile prevăzute de art. 197, 199, 209-216¹, 218, 218¹, 219, 219¹, 219², 221, 222 și 223 din Codul penal.",
+   "motivation": "Text nou, este un remediu pentru a asigura legalitatea primelor declarații ale victimelor, date imediat după înregistrarea plângerii, înainte de începerea urmăririi penale in rem. Practic, textele propuse inițial la punctul 14, pentru art. 111 - introducerea alin. (11) și (12) – sunt concentrate în modificarea propusă pentru art. 93 alin. (4). Ulterior acestei prime declarații (care este în favoarea victimei și punctul de plecare al investigației penale) asistența juridică a persoanei vătămate este obligatorie, astfel încât standardul de protecție se menține\n\nDe introdus art. 219² (determinarea sau înlesnirea întreținerii de acte sexuale sau de natură sexuală între minori) în categoria infracțiunilor pentru care asistența juridică este obligatorie pentru victimă. Este o omisiune în actualul Cod pentru că art. a fost introdus in anul 2024 fără să fie urmat de modificarea art. 93 alin. 4",
    "effects": [
     "mai_bine"
    ]
   },
   {
    "nr": "24",
+   "report": "rp228.pdf",
    "article": "art. 111 alin. (2) lit. c)",
    "status": "admis",
    "authors": [
@@ -99,14 +167,20 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Se elimină dreptul persoanei vătămate de a adresa întrebări suspectului, păstrându-se acest drept doar față de inculpat, martori și experți.",
+   "byGroup": null,
+   "summary": "Elimină cuvântul «suspectului» din lista persoanelor cărora persoana vătămată le poate adresa întrebări.",
    "quote": "dreptul de a propune administrarea de probe, dreptul de a adresa întrebări inculpatului, martorilor și experților, dreptul de a consulta dosarul",
+   "inForce": "c) dreptul de a propune administrarea de probe, de a ridica excepții și de a pune concluzii, în condițiile prevăzute de lege;",
+   "before": "12. La articolul 111 alineatul (2), literele c) - e) se modifică și vor avea următorul cuprins:\n\n„c) dreptul de a propune administrarea de probe, dreptul de a adresa întrebări suspectului, inculpatului, martorilor și experților, dreptul de a consulta dosarul, dreptul de a ridica excepții și de a pune concluzii, în condițiile prevăzute de lege, precum și dreptul de a formula orice alte cereri ce țin de soluționarea laturii penale a cauzei;",
+   "after": "Nemodificat\n\n„c) dreptul de a propune administrarea de probe, dreptul de a adresa întrebări inculpatului, martorilor și experților, dreptul de a consulta dosarul, dreptul de a ridica excepții și de a pune concluzii, în condițiile prevăzute de lege, precum și dreptul de a formula orice alte cereri ce țin de soluționarea laturii penale a cauzei;",
+   "motivation": null,
    "effects": [
     "mai_rau"
    ]
   },
   {
    "nr": "29",
+   "report": "rp228.pdf",
    "article": "art. 111 alin. (5)",
    "status": "admis",
    "authors": [
@@ -118,11 +192,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Corectează formularea privind informarea persoanei vătămate la prima audiere despre posibilitatea de a fi anunțată dacă făptuitorul internat medical evadează sau este eliberat.",
-   "quote": "în cazul în care față de acesta se va lua măsura de siguranță a internării medicale sau internarea medicală provizorie, poate să fie informată"
+   "byGroup": null,
+   "summary": "Introduce alin. (7) în partea dispozitivă și face reglaje de punctuație și timp verbal la alin. (5) privind informarea victimei despre internarea medicală.",
+   "quote": "respectiv în cazul în care față de acesta se va lua măsura de siguranță a internării medicale sau internarea medicală provizorie",
+   "inForce": "(5) Persoanei vătămate i se aduce la cunoștință cu ocazia primei audieri faptul că, în cazul în care inculpatul va fi privat de libertate, respectiv condamnat la o pedeapsă privativă de libertate, poate să fie informată cu privire la punerea în libertate în orice mod sau evadarea acestuia.",
+   "before": "14. La articolul 111, alineatele (5) și (8) se modifică și vor avea următorul cuprins:\n\n„(5) Persoanei vătămate i se aduce la cunoștință cu ocazia primei audieri de către organul de urmărire penală și de către instanța de judecată faptul că, în cazul în care inculpatul va fi privat de libertate, va fi condamnat la o pedeapsă privativă de libertate, respectiv atunci când față de acesta s-a luat măsura de siguranță a internării medicale sau internarea medicală provizorie, poate să fie informată cu privire la punerea în libertate în orice mod sau evadarea acestuia, inclusiv din unitatea în care executa măsura internării medicale.",
+   "after": "La articolul 111, alineatele (5), (7) și (8) se modifică și vor avea următorul cuprins:\n\n(5) Persoanei vătămate i se aduce la cunoștință, cu ocazia primei audieri, de către organul de urmărire penală și de către instanța de judecată, faptul că, în cazul în care inculpatul va fi privat de libertate, va fi condamnat la o pedeapsă privativă de libertate, respectiv în cazul în care față de acesta se va lua măsura de siguranță a internării medicale sau internarea medicală provizorie, poate să fie informată cu privire la punerea în libertate în orice mod sau evadarea acestuia, inclusiv din unitatea în care executa măsura internării medicale.",
+   "motivation": "Modificarea de la art. 5 face reglaje minimale de exprimare și punere în acord a timpurilor verbelor utilizate în text fără însă a aduce modificări substanței acestuia."
   },
   {
    "nr": "30",
+   "report": "rp228.pdf",
    "article": "art. 111 alin. (7)",
    "status": "admis",
    "authors": [
@@ -134,14 +214,20 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Audierea victimei de către o persoană de alt sex se poate face doar cu acordul victimei, după consultarea avocatului și, după caz, a psihologului sau consilierului.",
-   "quote": "audierea și, după caz, reaudierea poate fi realizată de o persoană care nu este de același sex cu persoana vătămată, numai cu acordul acesteia",
+   "byGroup": null,
+   "summary": "Adaugă art. 219² și prevede că audierea victimei de o persoană de alt sex se face doar cu acordul victimei, după consultarea avocatului și psihologului.",
+   "quote": "numai cu acordul acesteia, după consultarea avocatului său și, după caz, a psihologului sau a specialistului în consilierea victimelor.",
+   "inForce": "(7) Audierea și, după caz, reaudierea de către organele de cercetare penală a persoanelor vătămate care au fost victime ale infracțiunilor prevăzute la art. 197, 199, 209 – 216¹, 218, 218¹, 219, 219¹, 221, 222, 223 și 374 din Codul penal, precum și în alte cazuri în care, din cauza împrejurărilor comiterii faptei, acest lucru se apreciază ca fiind necesar se efectuează numai de către o persoană de același sex cu persoana vătămată. Dacă acest lucru nu este posibil, fără a aduce atingere bunei desfășurări a procesului ori drepturilor și intereselor părților, audierea acestor persoane vătămate și, după caz, reaudierea lor poate fi realizată de o persoană care nu este de același sex cu persoana vătămată, cu acordul avocatului și al unui psiholog sau al altui specialist în consilierea victimelor.",
+   "before": null,
+   "after": "(7) Audierea și, după caz, reaudierea de către organele de cercetare penală a persoanelor vătămate care au fost victime ale infracțiunilor prevăzute la art. 197, 199, 209 – 216¹, 218, 218¹, 219, 219¹, 219², 221, 222, 223 și 374 din Codul penal, precum și în alte cazuri în care, din cauza împrejurărilor comiterii faptei, acest lucru se apreciază ca fiind necesar, se efectuează numai de către o persoană de același sex cu persoana vătămată. Dacă acest lucru nu este posibil, audierea și, după caz, reaudierea poate fi realizată de o persoană care nu este de același sex cu persoana vătămată, numai cu acordul acesteia, după consultarea avocatului său și, după caz, a psihologului sau a specialistului în consilierea victimelor.",
+   "motivation": "Amendamentul de la alin. 7 corectează o anomalie juridică existentă în actuala formă a Codului. Dublul acord al avocatului și al psihologului sau al altui specialist în consilierea victimelor pune probleme în practică, iar condiționarea sexului polițistului care face audierea de acordul unor persoane care, la rândul lor pot fi de alt sex decât victima, lasă fără eficiență practică acest mecanism de protecție De altfel, din discuțiile cu supraviețuitoarele traficului de persoane a rezultat că au fost situații în care victimele femei/fete au preferat să fie audiate de un polițist bărbat sau nu au manifestat vreo preferință cu privire la genul polițistului, ci relevantă a fost calitatea interacțiunii. În consecință, prevederea referitoare la acordul persoanei vătămate este prioritară (și satisface standardul stabilit în acest fel prin art. 23 lit. d din Directiva 2012/29/UE); dacă victima are avocat ales sau desemnat, acesta o va putea consilia în alegerea ei, iar organul de cercetare penală va proceda la audiere numai după consultarea avocatului și, după caz, a psihologului (obligatoriu, dacă victima are sub 14 ani) sau a specialistului în consilierea victimelor\n\nSe pune virgula după cuvântul necesar",
    "effects": [
     "mai_bine"
    ]
   },
   {
    "nr": "41",
+   "report": "rp228.pdf",
    "article": "art. 168 alin. (9)",
    "status": "admis",
    "authors": [
@@ -153,11 +239,20 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Trimite la regulile de la percheziția domiciliară privind participarea la desigilarea sistemelor informatice și mută regulile pentru suspect sau inculpat la alin. (11).",
-   "quote": "are dreptul să participe la desigilare și la efectuarea copiilor, dispozițiile art. 159 alin. (10) și (11) aplicându-se în mod corespunzător."
+   "byGroup": null,
+   "summary": "Mută prevederea privind participarea suspectului/inculpatului la alin. (11) și trimite la art. 159 alin. (10)-(11) pentru persoana de la care s-au ridicat dispozitivele.",
+   "quote": "care are dreptul să participe la desigilare și la efectuarea copiilor, dispozițiile art. 159 alin. (10) și (11) aplicându-se în mod corespunzător.",
+   "inForce": null,
+   "before": "19. La articolul 168, alineatul (9) se modifică și va avea următorul cuprins:\n\n„(9) În vederea executării percheziției dispuse, pentru asigurarea integrității datelor informatice stocate pe obiectele ridicate, procurorul dispune efectuarea de copii. Data la care urmează să se efectueze desigilarea și efectuarea copiilor se comunică persoanei fizice sau reprezentantului persoanei juridice de la care a fost ridicat sistemul informatic sau suportul de stocare, care are dreptul să participe la desigilare și la efectuarea copiilor. Suspectul sau inculpatul are dreptul să participe la desigilarea sistemului informatic sau a suportului de stocare care îi aparține și la efectuarea copiilor, iar când acesta este reținut ori arestat, va fi adus în acest scop, cu excepția cazului în care refuză, în scris, să participe. Lipsa persoanelor legal citate nu împiedică desfășurarea procedurii.”",
+   "after": "La articolul 168, alineatele (9) și 11 vor avea următorul cuprins:\n\n„(9) În vederea executării percheziției dispuse, pentru asigurarea integrității datelor informatice stocate pe obiectele ridicate, procurorul dispune efectuarea de copii. Data la care urmează să se efectueze desigilarea și efectuarea copiilor se comunică persoanei fizice sau reprezentantului persoanei juridice de la care a fost ridicat sistemul informatic sau suportul de stocare, care are dreptul să participe la desigilare și la efectuarea copiilor, dispozițiile art. 159 alin. (10) și (11) aplicându-se în mod corespunzător. Lipsa persoanelor legal citate nu împiedică desfășurarea procedurii.”",
+   "motivation": null,
+   "unverified": [
+    "inForce"
+   ]
   },
   {
    "nr": "42",
+   "report": "rp228.pdf",
    "article": "art. 168 alin. (11)",
    "status": "admis",
    "authors": [
@@ -169,11 +264,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Stabilește dreptul suspectului sau inculpatului de a participa la desigilarea sistemului informatic și la copierea datelor, sau reprezentarea prin avocat dacă nu poate fi adus.",
-   "quote": "În cazul în care suspectul sau inculpatul nu poate fi adus, desigilarea și efectuarea copiilor se fac în prezența avocatului ales ori numit din oficiu."
+   "byGroup": null,
+   "summary": "Reglementează participarea suspectului/inculpatului reținut sau a avocatului său la desigilarea și copierea dispozitivelor informatice ce au legătură cu cauza.",
+   "quote": "În cazul în care suspectul sau inculpatul nu poate fi adus, desigilarea și efectuarea copiilor se fac în prezența avocatului ales ori numit din oficiu.",
+   "inForce": "(11) Percheziția în sistem informatic sau a unui suport de stocare a datelor informatice se efectuează în prezența suspectului ori a inculpatului, dispozițiile art. 159 alin. (10) și (11) aplicându-se în mod corespunzător.",
+   "before": null,
+   "after": "(11) Suspectul sau inculpatul are dreptul să participe la desigilarea sistemului informatic sau a suportului de stocare care îi aparține sau are legătură cu cauza în care este inculpat sau suspect, și la efectuarea copiilor, iar când acesta este reținut ori arestat, va fi adus în acest scop, cu excepția cazului în care refuză, în scris, să participe. În cazul în care suspectul sau inculpatul nu poate fi adus, desigilarea și efectuarea copiilor se fac în prezența avocatului ales ori numit din oficiu.",
+   "motivation": null
   },
   {
    "nr": "59",
+   "report": "rp228.pdf",
    "article": "art. 281 alin. (1) lit. f)",
    "status": "admis",
    "authors": [
@@ -209,11 +310,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Elimină lipsa asistenței juridice obligatorii a persoanei vătămate și a celorlalte părți din cazurile de nulitate absolută, păstrând doar suspectul și inculpatul.",
-   "quote": "f) asistarea de către avocat a suspectului, respectiv a inculpatului, atunci când asistența este obligatorie."
+   "byGroup": null,
+   "summary": "Elimină lipsa avocatului persoanei vătămate și al celorlalte părți dintre cazurile de nulitate absolută, păstrând doar suspectul și inculpatul.",
+   "quote": "f) asistarea de către avocat a suspectului, respectiv a inculpatului, atunci când asistența este obligatorie.",
+   "inForce": "Art.281-Nulitățile absolute\n(1) Determină întotdeauna aplicarea nulității încălcarea dispozițiilor privind :\n..........................................\nf) asistarea de către avocat a suspectului și a persoanei vătămate, respectiv a inculpatului și a celorlalte părți, atunci când asistența este obligatorie.",
+   "before": null,
+   "after": "La articolul 281 alineatul (1) litera f) se modifică și va avea următorul cuprins:\n\nf) asistarea de către avocat a suspectului, respectiv a inculpatului, atunci când asistența este obligatorie.",
+   "motivation": "Reglementarea actuală a nulității absolute în cazul lipsei asistenței juridice a persoanei vătămate este excesiv formalistă, întrucât nu ține cont de absența unei vătămări concrete care, în loc să protejeze persoana vătămată, conferă posibilitatea suspectului și inculpatului de a invoca nerespectarea unor dispoziții procesuale în situații în care nici măcar nu este obligat să justifice un interes. Astfel se creează premisa tergiversării soluționării dosarului penal, inclusiv în contextul în care persoana vătămată ar susține că nu i s-a produs o vătămare procesuală și ar dori continuarea procesului. În acest sens, este și opinia Parchetului de pe lângă ICCJ, care în procesul de elaborare a Metodologiei de investigare a infracțiunilor de violență domestică a constatat ca disfuncționalitate legislativă intervenirea nulității absolute atunci când persoana vătămată nu este audiată în prezența unui avocat, considerând prevederea excesivă și, în loc să protejeze persoana vătămată sau partea civilă, conferă, de fapt, posibilitatea suspectului sau inculpatului să tergiverseze soluționarea procesului penal. Ca soluție pentru înlăturarea disfuncționalității legislative, Parchetul de pe lângă ICCJ propune eliminarea din categoria nulităților absolute a cazului privind încălcarea dispozițiilor privind asistarea de către avocat a persoanei vătămate și părții civile, atunci când asistența este obligatorie."
   },
   {
    "nr": "64",
+   "report": "rp228.pdf",
    "article": "art. 289 alin. (5¹)",
    "status": "admis",
    "authors": [
@@ -225,46 +332,191 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Clarifică faptul că plângerea penală poate fi trimisă prin e-mail fără semnătură electronică dacă vizează oricare dintre infracțiunile enumerate.",
-   "quote": "În cazul în care fapta care formează obiectul plângerii este o infracțiune prevăzută de art.188 - 223, art.374 sau art.378 - 380 din Codul penal"
+   "byGroup": null,
+   "summary": "Înlocuiește conjuncția «și» cu «sau» în enumerarea infracțiunilor pentru care plângerea penală poate fi trimisă electronic fără semnătură electronică.",
+   "quote": "este o infracțiune prevăzută de art.188 - 223, art.374 sau art.378 - 380 din Codul penal, plângerea poate fi trimisă",
+   "inForce": "(5) Plângerea în formă electronică îndeplinește condițiile de formă numai dacă este certificată prin semnătură electronică, în conformitate cu prevederile legale.",
+   "before": "34. La articolul 289, după alineatul (5) se introduce un nou alineat, alin.(5¹) cu următorul cuprins:\n\n„(5¹) În cazul în care fapta care formează obiectul plângerii este o infracțiune prevăzută de art.188 - 223, art.374 și art.378 - 380 din Codul penal, plângerea poate fi trimisă organului de urmărire penală prin poștă electronică sau mesagerie electronică, fără îndeplinirea condiției prevăzute la alin.(5). Persoana care formulează plângerea atașează copia actului de identitate, iar în cazul în care nu are acces la acesta, orice dovadă privind identitatea sa, putând atașa și mijloace de probă compatibile cu transmiterea în formă electronică.”",
+   "after": "„(5¹) În cazul în care fapta care formează obiectul plângerii este o infracțiune prevăzută de art.188 - 223, art.374 sau art.378 - 380 din Codul penal, plângerea poate fi trimisă organului de urmărire penală prin poștă electronică sau mesagerie electronică, fără îndeplinirea condiției prevăzute la alin.(5). Persoana care formulează plângerea atașează copia actului de identitate, iar în cazul în care nu are acces la acesta, orice dovadă privind identitatea sa, putând atașa și mijloace de probă compatibile cu transmiterea în formă electronică.”",
+   "motivation": "Amendamentul modifică conjuncția coordonatoare copulativă simplă “și” în conjuncția coordonatoare disjunctivă “sau” din considerente de tehnică legislative.\nNu sunt vizate alte modificări"
   },
   {
-   "nr": "71-75",
+   "nr": "71",
+   "report": "rp228.pdf",
    "article": "art. 294²",
    "status": "admis",
    "authors": [],
    "byCommittee": "Comisia juridică, de disciplină și imunități",
-   "summary": "Elimină articolul nou propus privind măsurile de ocrotire în caz de deces al unei victime, deoarece prevederile au fost deja incluse în Legea nr. 53/2026.",
-   "quote": null
+   "byGroup": null,
+   "summary": "Elimină punctul 37 care introducea art. 294² privind măsurile de ocrotire în caz de deces al victimei, prevederile fiind deja în Legea nr. 53/2026.",
+   "quote": null,
+   "inForce": null,
+   "before": "37. După articolul 294¹ se introduce un articol nou, art.294², cu următorul cuprins:\n\n„Luarea măsurilor de ocrotire în caz de deces al unei victime ca urmare a unei fapte prevăzute de legea penală",
+   "after": "37. Se elimină",
+   "motivation": null,
+   "unverified": [
+    "motivation"
+   ]
+  },
+  {
+   "nr": "72",
+   "report": "rp228.pdf",
+   "article": "art. 294² alin. (1)",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": "Comisia juridică, de disciplină și imunități",
+   "byGroup": null,
+   "summary": "Elimină alin. (1) al art. 294² privind înștiințarea autorităților pentru ocrotirea persoanelor aflate în grija unei victime decedate.",
+   "quote": null,
+   "inForce": null,
+   "before": "Art.294².- (1) Când sesizarea are ca obiect o infracțiune urmare căreia victima a decedat, organul de urmărire penală verifică dacă în ocrotirea acesteia se află un minor, o persoană căreia i s-a instituit tutela sau curatela, tutela specială sau consilierea judiciară ori o persoană care, datorită vârstei, bolii sau altei cauze, au nevoie de ajutor și înștiințează autoritatea competentă, de îndată, în vederea luării măsurilor legale de ocrotire pentru persoanele respective.",
+   "after": "Se elimină",
+   "motivation": null
+  },
+  {
+   "nr": "73",
+   "report": "rp228.pdf",
+   "article": "art. 294² alin. (2)",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": "Comisia juridică, de disciplină și imunități",
+   "byGroup": null,
+   "summary": "Elimină alin. (2) al art. 294² privind aplicarea măsurilor de ocrotire după stabilirea identității unei victime neidentificate.",
+   "quote": null,
+   "inForce": null,
+   "before": "(2) În cazul victimei neidentificate prevederile alin.(1) se aplică de îndată ce se stabilește identitatea acesteia.",
+   "after": "Se elimină",
+   "motivation": null
+  },
+  {
+   "nr": "74",
+   "report": "rp228.pdf",
+   "article": "art. 294² alin. (3)",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": "Comisia juridică, de disciplină și imunități",
+   "byGroup": null,
+   "summary": "Elimină alin. (3) al art. 294² privind măsurile de ocrotire când victima nu își poate îngriji apropiații din motive de sănătate.",
+   "quote": null,
+   "inForce": null,
+   "before": "(3) Dispozițiile alin. (1) se aplică și în alte cazuri în care, din pricina stării de sănătate fizică sau psihică a victimei, aceasta nu își poate îndeplini obligațiile față de persoanele aflate în ocrotirea sau în îngrijirea acesteia.",
+   "after": "Se elimină",
+   "motivation": null
+  },
+  {
+   "nr": "75",
+   "report": "rp228.pdf",
+   "article": "art. 294² alin. (4)",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": "Comisia juridică, de disciplină și imunități",
+   "byGroup": null,
+   "summary": "Elimină alin. (4) al art. 294² privind procesul-verbal confidențial de înștiințare a autorităților de ocrotire.",
+   "quote": null,
+   "inForce": null,
+   "before": "(4) Modul de îndeplinire a obligației de înștiințare a autorității competente, prevăzute la alin.(1) - (3), se consemnează într-un proces-verbal, care se păstrează în condiții de confidențialitate.”",
+   "after": "Se elimină",
+   "motivation": null
+  },
+  {
+   "nr": "99",
+   "report": "rp228.pdf",
+   "article": "art. 344 alin. (8)",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "TUȘA ADRIANA DIANA",
+     "role": "deputat",
+     "party": null,
+     "site": "Tuşa Adriana-Diana"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Elimină o eroare de redactare (indicele de la cuvântul «termen») din prevederea privind termenul unic de depunere a înscrisurilor.",
+   "quote": "judecătorul de cameră preliminară nu poate acorda decât un singur termen, care nu poate depăși 7 zile.",
+   "inForce": null,
+   "before": "(8) Pentru prezentarea înscrisurilor care în mod obiectiv nu au putut fi depuse în condițiile prevăzute la alin.(7), judecătorul de cameră preliminară nu poate acorda decât un singur termen¹, care nu poate depăși 7 zile.",
+   "after": "(8) Pentru prezentarea înscrisurilor care în mod obiectiv nu au putut fi depuse în condițiile prevăzute la alin.(7), judecătorul de cameră preliminară nu poate acorda decât un singur termen, care nu poate depăși 7 zile.",
+   "motivation": "Se elimină indicele de la cuvântul \"termen"
+  },
+  {
+   "nr": "103",
+   "report": "rp228.pdf",
+   "article": "art. 344 alin. (12)",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "TUȘA ADRIANA DIANA",
+     "role": "deputat",
+     "party": null,
+     "site": "Tuşa Adriana-Diana"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Corectează trimiterea din «alin.331¹» în «art.331¹» în prevederea privind stabilirea unui circuit separat în incinta instanței.",
+   "quote": "judecătorul de cameră preliminară, prin rezoluție, de urgență, fără citarea părților și fără participarea procurorului, stabilește un circuit separat în incinta instanței",
+   "inForce": null,
+   "before": "(12) În situațiile prevăzute la alin.331¹, precum și atunci când se apreciază necesar, judecătorul de cameră preliminară, prin rezoluție, de urgență, fără citarea părților și fără participarea procurorului, stabilește un circuit separat în incinta instanței, diferit de cel accesibil publicului sau inculpaților, pentru persoana vătămată, partea, martorul sau alt subiect procesual către sala de judecată sau către incintele concepute sau adaptate în scopul audierii acesteia.”",
+   "after": "(12) În situațiile prevăzute la art.331¹, precum și atunci când se apreciază necesar, judecătorul de cameră preliminară, prin rezoluție, de urgență, fără citarea părților și fără participarea procurorului, stabilește un circuit separat în incinta instanței, diferit de cel accesibil publicului sau inculpaților, pentru persoana vătămată, partea, martorul sau alt subiect procesual către sala de judecată sau către incintele concepute sau adaptate în scopul audierii acesteia.”",
+   "motivation": "Tehnică legislativă"
+  },
+  {
+   "nr": "129",
+   "report": "rp228.pdf",
+   "article": "art. 488⁶",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "TUȘA ADRIANA DIANA",
+     "role": "deputat",
+     "party": null,
+     "site": "Tuşa Adriana-Diana"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Corectează norma dispozitivă de la art. 488⁶ prin renumerotare și eliminarea mențiunii eronate a alin. (3), care fusese eliminat.",
+   "quote": "alineatele (1), (2) și (7) se modifică și vor avea următorul cuprins:",
+   "inForce": "Art. 488⁶: Soluții (1) Când apreciază contestația ca fiind întemeiată, judecătorul de drepturi și libertăți sau instanța admite contestația și stabilește termenul în care procurorul să rezolve cauza potrivit art. 327, respectiv instanța de judecată să soluționeze cauza, precum și termenul în care o nouă contestație nu poate fi formulată.\n*) Prin Decizia nr. 7/2022, Înalta Curte de Casație și Justiție admite recursul în interesul legii și stabilește că, în interpretarea și aplicarea unitară a dispozițiilor art. 488 6 alin. (1) din Codul de procedură penală raportat la art. 285 din același cod și art. 154 din Codul penal, în cauzele având ca obiect contestații privind durata procesului în cazul faptelor ai căror autori nu au fost identificați (sau identificabili), deși organele de urmărire penală au depus diligențele necesare în acest scop, se stabilesc termene în vederea",
+   "before": "61. La articolul 488⁶, alineatele (1), (2), (3) și (7) se modifică și vor avea următorul cuprins:\n\n„Art.488⁶.- (1) Când apreciază contestația ca fiind întemeiată, judecătorul de drepturi și libertăți, judecătorul de cameră preliminară sau instanța admite contestația și stabilește termenul în care procurorul să rezolve cauza potrivit art.327, respectiv judecătorul de cameră preliminară sau instanța de judecată să soluționeze cauza, precum și termenul în care o nouă contestație nu poate fi formulată.",
+   "after": "59. La articolul 488⁶, alineatele (1), (2) și (7) se modifică și vor avea următorul cuprins:\n\nNemodificat",
+   "motivation": "Se corectează norma dispozitivă\nSe corectează și eroarea survenită prin preluarea în alin. 3 (care a fost eliminat și nu trebuia să apară în forma adoptată de Senat)"
   }
  ],
  "matches": [
   {
    "change": "1:0",
+   "report": "rp228.pdf",
    "amendments": [
     "20"
    ]
   },
   {
    "change": "1:1",
+   "report": "rp228.pdf",
    "amendments": [
     "7"
    ]
   },
   {
    "change": "1:2",
+   "report": "rp228.pdf",
    "amendments": [
     "30"
    ]
   },
   {
    "change": "1:3",
+   "report": "rp228.pdf",
    "amendments": [
     "24"
    ]
   },
   {
    "change": "1:4",
+   "report": "rp228.pdf",
    "amendments": [
     "16"
    ]

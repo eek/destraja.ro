@@ -1,0 +1,157 @@
+{
+  "billId": "PL-x 412/2025",
+  "slug": "plx-412-2025",
+  "version": "senat",
+  "updatedAt": "2026-11-20T08:17:19.558Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 5379,
+    "ordinanceChars": 0,
+    "memoChars": 1713,
+    "memoSupplied": 1713,
+    "marker": "SF-E74BC4B5"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-412-2025.json",
+    "form": "senat",
+    "textHash": "e74bc4b55f9f3e97",
+    "fetchedAt": "2026-11-20T08:15:31.290Z",
+    "acts": 3,
+    "actsFound": 3,
+    "actsRepealed": 0,
+    "articlesFound": 3,
+    "articlesShown": 3,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 7383,
+    "truncated": false,
+    "included": true,
+    "key": "6b3483966f3fb0de"
+  },
+  "consensus": {
+    "riskScore": 5,
+    "riskLevel": "yellow",
+    "plainTitle": "Fără bani de cazare pentru parlamentarii și șefii de aparat care au deja casă în București sau Ilfov",
+    "summaryTlDr": "Scopul e corect și nu afectează cetățenii sau firmele, dar textul are o greșeală logică: folosește „sau” în loc de „și”. Citit literal, poate lărgi cercul beneficiarilor în loc să-l restrângă. În plus, rescrierea integrală a art. 41 elimină tacit o restricție mai strictă adoptată în iulie 2025.",
+    "initiatorClaim": "Inițiatoarea vrea să elimine plata cazării, a diurnei și a transportului din bani publici pentru parlamentarii și secretarii generali care au deja o locuință în București sau Ilfov. Vrea și ca locuințele de protocol să nu fie date celor care au deja o casă în localitatea în care lucrează.",
+    "realityCheck": "Textul cere ca beneficiarul să „nu aibă domiciliul în București/Ilfov SAU să nu dețină o locuință acolo”, deci condițiile sunt alternative. Primește bani și cel cu domiciliul în București care stă în chirie, și cel care are apartament în București dar domiciliul în provincie, exact cazul pe care proiectul voia să-l elimine. Art. I rescrie integral art. 41 din Legea 96/2006 fără alin. (2^1), introdus prin Legea 139/2025, care excludea deja de la suma forfetară pe cei care au domiciliul în București/Ilfov sau o locuință acolo, inclusiv a soțului/soției. Proiectul a fost adoptat tacit de Senat, deci textul nu a fost actualizat față de această lege.",
+    "affectedGroups": [
+      "Toți cetățenii",
+      "Proprietari & Imobiliare",
+      "Angajați & HR",
+      "Justiție & Drepturi Civile"
+    ],
+    "senatForm": {
+      "articleRef": "Art. I (art.41 L.96/2006) și Art. III",
+      "proposalContent": "La art.41 alin.(1), (2), (3) lit.b)-c) și (4) din L.96/2006, sintagma „nu au domiciliul... sau nu dețin” se înlocuiește cu „nu au domiciliul... și nu dețin, ei sau soțul/soția, în proprietate exclusivă, coproprietate sau devălmășie”. Se menține alin.(2^1) introdus prin L.139/2025. Aceeași corectură la art.43 alin.(2)-(3) din L.7/2006.",
+      "argumentation": "Cu „sau”, condițiile devin alternative: primește diurnă/sumă de cazare și cine are domiciliul în București dar nu deține locuință, și cine deține locuință acolo dar are domiciliul în altă parte, contrar scopului. Rescrierea integrală a art.41 elimină tacit alin.(2^1), care viza și locuința soțului. Încalcă art.1 alin.(5) din Constituție.",
+      "otherComments": "Art.II: art.4(3) din OG 19/2002 conține deja condiția nedeținerii unei locuințe (OUG 64/2024); proiectul doar elimină trimiterea la criteriile din HG. Formula „se completează și va avea următorul cuprins” e improprie (L.24/2000), corect: „se modifică”. Lege organică (art.73 alin.3 lit.c), vot cu majoritate absolută."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 108257,
+      "sourceEndMarker": "SF-E74BC4B5",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Tăierea banilor de cazare pentru parlamentari și demnitari cu case, dar redactată pe dos",
+      "verdictShort": "Intenția de a opri decontarea cazării și diurnei pentru demnitarii cu locuințe este corectă, însă forma adoptată tacit de Senat conține o eroare logică gravă («sau» în loc de «și») care produce efectul invers. În plus, proiectul abrogă tacit interdicția deja în vigoare privind locuința soțului/soției (Legea 139/2025) și încalcă procedura constituțională a ședinței comune.",
+      "initiatorClaim": "Inițiatoarea susține că elimină o cheltuială publică nejustificată, condiționând banii de cazare, diurna, transportul și locuințele de protocol de nedeținerea unei locuințe în București/Ilfov sau în localitatea de activitate.",
+      "realityCheck": "În 5 alineate (Art. I și Art. III), formula «nu au domiciliul ... sau nu dețin o locuință» califică literal atât proprietarii din București/Ilfov cu buletin în provincie, cât și chiriașii cu domiciliul în București, putând extinde cheltuielile în loc să le reducă. Mai mult, rescrierea integrală a art. 41 din Legea 96/2006 șterge alin. (2^1) introdus în iulie 2025, relaxând regula actuală pentru locuințele deținute ca bun propriu de soț/soție. Singura înăsprire reală și funcțională este la Art. II, care elimină portița «criteriilor prin HG» la atribuirea locuințelor de protocol RA-APPS.",
+      "affectedGroups": [
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Eroare logică fatală («sau» în loc de «și») la Art. I (art. 41 alin. 1, 2 și 3 lit. b) și Art. III (art. 43 alin. 2 și 3): fiind suficiente una sau alta dintre condițiile negative, un parlamentar sau secretar general cu apartamente în București, dar cu domiciliul în alt județ, rămâne eligibil, iar un rezident în București care stă în chirie devine eligibil pentru diurnă și cazare.",
+        "Slăbire involuntară a legii în vigoare la Art. I: în prezent, art. 41 alin. (2^1) din Legea 96/2006 (introdus prin Legea 139/2025) blochează deja suma forfetară de cazare și atunci când locuința din București/Ilfov este bun propriu al soțului/soției; rescrierea întregului art. 41 fără alin. (2^1) abrogă implicit această interdicție.",
+        "Efect pozitiv real, dar prezentat inexact, la Art. II (art. 4 alin. 3 din OG 19/2002): interdicția de a primi locuință de protocol RA-APPS dacă demnitarul deține deja o locuință în localitate există deja în lege, însă proiectul elimină excepția permisivă «care să corespundă criteriilor aprobate prin hotărâre a Guvernului» (dar omite în continuare județul Ilfov și proprietatea soțului).",
+        "Viciu major de procedură constituțională: modificarea Legii nr. 96/2006 privind statutul și drepturile parlamentarilor a fost comasată cu alte două legi și adoptată tacit de Senat pe procedură bicamerală ordinară, deși Constituția impune ședință comună a celor două Camere."
+      ],
+      "blindSpotsCaught": "Adoptarea tacită la Senat (art. 75 alin. 2 teza a III-a) a lăsat neobservate trei defecte majore: (1) abrogarea implicită a art. 41 alin. (2^1) din Legea 96/2006, intrat în vigoare la 27.07.2025 prin Legea 139/2025; (2) inversarea logică prin conjuncția «sau» și preluarea improprie a sintagmei «o altă locuință» în art. 41 și art. 43; (3) neconcordanța de tehnică legislativă din Art. I și III («se completează», deși articolele sunt modificate/înlocuite integral) și citarea eronată a titlului OG 19/2002 la Art. II.",
+      "constitutionalityNote": "Risc foarte ridicat de neconstituționalitate, atât extrinsecă, cât și intrinsecă. Extrinsec, Art. I modifică Legea nr. 96/2006 privind statutul și drepturile deputaților și senatorilor prin procedură bicamerală separată (cu adoptare tacită la Senat), încălcând art. 65 alin. (2) lit. j) din Constituție, care impune adoptarea în ședință comună a celor două Camere. Intrinsec, conjuncția «sau» în loc de «și» contravine scopului declarat al legii și încalcă cerințele de claritate, precizie și previzibilitate a legii impuse de art. 1 alin. (5) din Constituție.",
+      "euLawNote": "Proiectul vizează exclusiv drepturi financiare și locative interne ale parlamentarilor, demnitarilor și funcționarilor publici parlamentari, fără impact asupra pieței unice, concurenței, profesiilor reglementate (Directiva (UE) 2018/958 nu este incidentă) sau serviciilor digitale/reglementărilor tehnice (Directiva (UE) 2015/1535 TRIS nu este aplicabilă).",
+      "senatForm": {
+        "articleRef": "Art. I (art. 41) și Art. III (art. 43)",
+        "proposalContent": "La Art. I (art. 41 alin. 1, 2, 3 lit. b) și Art. III (art. 43 alin. 2, 3), înlocuiți «sau nu dețin» cu «și nu dețin». Păstrați art. 41 alin. (2^1) din Legea 96/2006 (bunul propriu al soțului/soției) și disjungeți Art. I pentru ședință comună. La Art. II, includeți și județul Ilfov, respectiv soțul/soția.",
+        "argumentation": "Formula «nu au domiciliul ... sau nu dețin» califică atât proprietarii din București/Ilfov cu domiciliul în provincie, cât și chiriașii bucureșteni, contrar scopului legii și art. 1 alin. (5) din Constituție. În plus, rescrierea art. 41 abrogă alin. (2^1) din Legea 139/2025, relaxând regula privind locuința soțului/soției.",
+        "otherComments": "Modificarea Legii 96/2006 în procedură bicamerală (adoptare tacită la Senat) încalcă art. 65 alin. (2) lit. j) Constituție, care impune ședință comună. Corectați titlul citat al OG 19/2002 la Art. II, formula «se completează» (în loc de «se modifică») și sintagma improprie «o altă locuință» din Art. I și III."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 51374,
+      "sourceEndMarker": "SF-E74BC4B5",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Fără bani de cazare pentru parlamentarii și șefii de aparat care au deja casă în București sau Ilfov",
+      "verdictShort": "Scopul e corect și nu afectează cetățenii sau firmele, dar textul are o greșeală logică: folosește „sau” în loc de „și”. Citit literal, poate lărgi cercul beneficiarilor în loc să-l restrângă. În plus, rescrierea integrală a art. 41 elimină tacit o restricție mai strictă adoptată în iulie 2025.",
+      "initiatorClaim": "Inițiatoarea vrea să elimine plata cazării, a diurnei și a transportului din bani publici pentru parlamentarii și secretarii generali care au deja o locuință în București sau Ilfov. Vrea și ca locuințele de protocol să nu fie date celor care au deja o casă în localitatea în care lucrează.",
+      "realityCheck": "Textul cere ca beneficiarul să „nu aibă domiciliul în București/Ilfov SAU să nu dețină o locuință acolo”, deci condițiile sunt alternative. Primește bani și cel cu domiciliul în București care stă în chirie, și cel care are apartament în București dar domiciliul în provincie, exact cazul pe care proiectul voia să-l elimine. Art. I rescrie integral art. 41 din Legea 96/2006 fără alin. (2^1), introdus prin Legea 139/2025, care excludea deja de la suma forfetară pe cei care au domiciliul în București/Ilfov sau o locuință acolo, inclusiv a soțului/soției. Proiectul a fost adoptat tacit de Senat, deci textul nu a fost actualizat față de această lege.",
+      "affectedGroups": [
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I, art. 41 alin. (1), (2), (3) lit. b) și (4): formula „nu au domiciliul... sau nu dețin... o altă locuință” face condițiile alternative. Pentru a obține diurna sau suma de cazare e suficient să lipsească una dintre ele, nu ambele. Efectul probabil e opus scopului din expunerea de motive. Corect ar fi „și nu dețin”.",
+        "Art. I: art. 41 este rescris integral (alin. 1-4) fără alin. (2^1), în vigoare din 27.07.2025 (Legea 139/2025). Acel alineat excludea de la suma forfetară și pe parlamentarul al cărui soț/soție deține locuința, ca bun propriu sau comun. Noul text vizează doar „proprietate exclusivă sau coproprietate” a parlamentarului, deci o locuință aflată doar în proprietatea soțului nu mai contează. Iar bunul comun al soților (devălmășie) e, juridic, distinct de coproprietate. Rezultatul e un regres față de legea actuală.",
+        "Art. III, art. 43 alin. (2)-(3) din Legea 7/2006: aceeași eroare cu „sau” apare la secretarii generali și adjuncții lor. Proiectul adaugă și județul Ilfov, care azi lipsește. Asta restrânge efectiv dreptul la cazare doar dacă „sau” e corectat.",
+        "Art. II: art. 4 alin. (3) din OG 19/2002 condiționează deja atribuirea locuinței de protocol de nedeținerea unei locuințe (modificare prin OUG 64/2024). Singura schimbare reală este eliminarea condiției ca acea locuință „să corespundă criteriilor aprobate prin HG”. Asta e o înăsprire reală și rezonabilă, dar mai mică decât sugerează expunerea de motive.",
+        "Expunerea de motive spune că sumele se acordă „exclusiv în funcție de domiciliu”. Pentru suma forfetară a parlamentarilor afirmația e depășită de Legea 139/2025. Rămâne valabilă pentru diurnă (alin. 1) și pentru art. 43 din Legea 7/2006."
+      ],
+      "blindSpotsCaught": "Formula de introducere „se completează și va avea următorul cuprins” urmată de rescrierea integrală a articolului e improprie după Legea 24/2000; corect ar fi „se modifică”. Formula abrogă implicit alin. (2^1) din art. 41, fără nicio mențiune expresă. Proiectul a fost adoptat tacit de Senat (art. 75 alin. 2 Constituție), deci nimeni nu l-a corelat cu Legea 139/2025, adoptată între timp. Titlul OG 19/2002 citat în art. II diferă de titlul în vigoare. La art. 43 alin. (3), sintagma „București sau Ilfov” omite cuvântul „județul”. În fine, decontarea transportului rămâne legată de „localitatea de domiciliu”, chiar dacă beneficiarul are o locuință în București.",
+      "constitutionalityNote": "Scopul (limitarea cheltuielilor publice pentru cei care au deja locuință) e legitim, iar diferențierea după existența unei locuințe e obiectivă și rezonabilă, deci nu încalcă art. 16. Problema principală ține de art. 1 alin. (5), adică claritatea și previzibilitatea legii: folosirea lui „sau” între două condiții negative creează o normă ambiguă, care poate fi aplicată contrar scopului declarat. Eliminarea tacită a alin. (2^1) generează și ea incoerență normativă. Statutul deputaților și senatorilor e materie de lege organică (art. 73 alin. 3 lit. c), deci Camera decizională trebuie să adopte legea cu majoritate absolută. Adoptarea tacită la Senat e constituțională.",
+      "euLawNote": "Proiectul nu reglementează profesii, servicii sau piețe, deci Directiva (UE) 2018/958 privind testul de proporționalitate nu se aplică. Nu atinge servicii digitale sau reglementări tehnice, deci nu e nevoie de notificare TRIS (Directiva 2015/1535). Nu are impact asupra pieței unice, concurenței, IMM-urilor sau cetățenilor obișnuiți. Efectul bugetar e strict intern Parlamentului și poate fi economie sau cheltuială, în funcție de interpretarea lui „sau”.",
+      "senatForm": {
+        "articleRef": "Art. I (art.41 L.96/2006) și Art. III",
+        "proposalContent": "La art.41 alin.(1), (2), (3) lit.b)-c) și (4) din L.96/2006, sintagma „nu au domiciliul... sau nu dețin” se înlocuiește cu „nu au domiciliul... și nu dețin, ei sau soțul/soția, în proprietate exclusivă, coproprietate sau devălmășie”. Se menține alin.(2^1) introdus prin L.139/2025. Aceeași corectură la art.43 alin.(2)-(3) din L.7/2006.",
+        "argumentation": "Cu „sau”, condițiile devin alternative: primește diurnă/sumă de cazare și cine are domiciliul în București dar nu deține locuință, și cine deține locuință acolo dar are domiciliul în altă parte, contrar scopului. Rescrierea integrală a art.41 elimină tacit alin.(2^1), care viza și locuința soțului. Încalcă art.1 alin.(5) din Constituție.",
+        "otherComments": "Art.II: art.4(3) din OG 19/2002 conține deja condiția nedeținerii unei locuințe (OUG 64/2024); proiectul doar elimină trimiterea la criteriile din HG. Formula „se completează și va avea următorul cuprins” e improprie (L.24/2000), corect: „se modifică”. Lege organică (art.73 alin.3 lit.c), vot cu majoritate absolută."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 102333,
+      "sourceEndMarker": "SF-E74BC4B5",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Bani de cazare pentru demnitari: restricții care pot extinde beneficiile",
+      "verdictShort": "Obiectivul economisirii banilor publici este legitim, dar textul poate produce efectul invers. Folosirea lui „sau” și înlocuirea integrală a art. 41 slăbesc condițiile de acordare a unor beneficii deja reglementate.",
+      "initiatorClaim": "Inițiatoarea urmărește eliminarea cheltuielilor publice pentru cazarea persoanelor care dețin deja o locuință în zona unde lucrează. Prezintă proiectul ca pe o condiționare suplimentară, destinată reducerii deficitului și alinierii regimurilor aplicabile demnitarilor.",
+      "realityCheck": "În articolele I și III, lipsa domiciliului și lipsa proprietății sunt legate prin „sau”: este suficientă îndeplinirea uneia dintre condiții, astfel încât domiciliul în afara zonei permite beneficiul chiar dacă persoana deține acolo o locuință. Înlocuirea integrală a art. 41 omite alin. (2^1), care exclude deja de la suma pentru cazare parlamentarii cu domiciliul ori cu locuințe proprii sau ale soțului/soției în București–Ilfov. Articolul II înăsprește efectiv atribuirea locuințelor de protocol, eliminând evaluarea locuinței deținute potrivit criteriilor aprobate de Guvern.",
+      "affectedGroups": [
+        "Proprietari & Imobiliare",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I, art. 41 alin. (1): acum, domiciliul în București–Ilfov exclude diurna pentru participarea la lucrările Parlamentului. După proiect, un parlamentar domiciliat aici, care nu deține o locuință în zonă, poate deveni eligibil prin alternativa introdusă cu „sau”.",
+        "Art. I, art. 41 alin. (2): acum, alin. (2^1) exclude suma pentru cazare dacă parlamentarul are domiciliul în zonă sau dacă el ori soțul/soția deține acolo o locuință. Textul propus permite acordarea sumei unui proprietar cu domiciliul în afara zonei și nu mai păstrează expres excluderea pentru proprietatea soțului/soției.",
+        "Omiterea alin. (2^1) contează deoarece proiectul redă întregul art. 41 prin formula „va avea următorul cuprins”. Nu este simpla nerepetare a unei garanții dintr-o altă lege, ci înlocuirea articolului care conține chiar excluderea.",
+        "Art. I, art. 41 alin. (3) lit. b): alternativa „nu domiciliază sau nu dețin” permite beneficiul atât unui proprietar care domiciliază în altă circumscripție, cât și unui locuitor al circumscripției care nu este proprietar. Condiția nu realizează restricția cumulativă anunțată în motivare.",
+        "Art. I, art. 41 alin. (3) lit. c) și alin. (4): sunt introduse restricții efective pentru deplasările în localități, respectiv circumscripții unde beneficiarul deține o locuință. La alin. (4), deținerea unei locuințe într-un punct al circumscripției poate afecta eligibilitatea pentru deplasări în întreaga circumscripție.",
+        "Art. II: interdicția pentru proprietari și coproprietari există deja. Noutatea este eliminarea sintagmei „care să corespundă criteriilor aprobate prin hotărâre a Guvernului”, ceea ce poate exclude inclusiv titularul unei cote foarte mici ori al unei locuințe improprii utilizării.",
+        "Art. III: cazarea la hotel, alternativa de 70% din tariful minim negociat și cele patru deplasări lunare există deja. Condiția nouă, formulată disjunctiv, poate include și persoane domiciliate în București care nu dețin o locuință în București–Ilfov; simpla proprietate în zonă nu exclude persoanele domiciliate în afara ei.",
+        "Nu apar taxe, sancțiuni sau obligații administrative directe pentru cetățeni ori IMM-uri. Economiile nu sunt cuantificate, iar extinderea eligibilității poate majora unele cheltuieli; declarația pe propria răspundere pentru suma forfetară exista deja."
+      ],
+      "blindSpotsCaught": "Comparația cu legea în vigoare schimbă verdictul: restricția privind locuința parlamentarului sau a soțului/soției există deja, prin modificarea din iulie 2025, iar proiectul o pierde la rescriere. Separat, art. I privește drepturi ale parlamentarilor, materie pentru care Constituția prevede ședința comună a Camerelor; traseul indicat, cu Senat primă Cameră și Camera Deputaților decizională, necesită verificare procedurală. Art. II privește atribuirea locuințelor și nu dispune expres încetarea automată a contractelor existente.",
+      "constitutionalityNote": "Există vulnerabilități raportate la art. 1 alin. (5): necorelarea cu alin. (2^1) în vigoare, folosirea formulei „se completează” concomitent cu înlocuirea întregului articol și neclaritatea expresiei „o altă locuință” afectează coerența reglementării. Conectorul „sau” are însă un efect logic identificabil; contradicția cu expunerea de motive nu dovedește singură neconstituționalitatea. Excluderea oricărui coproprietar, indiferent de cotă și de posibilitatea efectivă de folosire, necesită justificare prin raportare la art. 16, fără a constitui prin ea însăși o privare de proprietate. Pentru art. I trebuie verificată respectarea art. 65 alin. (2) lit. j), privind ședința comună, precum și a art. 73 alin. (3) lit. c) și art. 76 alin. (1), privind legea organică și majoritatea necesară; adoptarea tacită menționată nu înlătură această problemă. Art. 23 alin. (12) nu este incident direct: proiectul nu instituie pedepse. Acestea sunt vulnerabilități identificate pe documentele furnizate, nu o constatare definitivă de neconstituționalitate.",
+      "euLawNote": "Directiva (UE) 2018/958 nu impune aici testul special de proporționalitate: proiectul reglementează beneficii aferente unor funcții publice, fără să introducă restricții privind accesul la o profesie reglementată sau exercitarea acesteia în sensul directivei. Nu sunt reglementate servicii digitale, AI ori cerințe tehnice care să indice obligația notificării TRIS potrivit Directivei (UE) 2015/1535. Din text nu rezultă monopoluri, avantaje selective pentru întreprinderi sau restricții directe ale concurenței și pieței unice.",
+      "senatForm": {
+        "articleRef": "Art. I",
+        "proposalContent": "Articolul I se elimină.",
+        "argumentation": "Art. 41 alin. (2^1), în vigoare, exclude deja suma pentru cazare pentru domiciliul ori locuința parlamentarului sau a soțului/soției în București–Ilfov. Rescrierea pierde această excludere și folosește „sau”, extinzând eligibilitatea. Eliminarea art. I păstrează protecția actuală până la redactarea unei soluții coerente.",
+        "otherComments": "La art. III, condițiile privind lipsa domiciliului și lipsa proprietății trebuie cumulate prin „și”. La art. II trebuie justificată excluderea coproprietarilor fără posibilitate efectivă de locuire. Verificați procedura ședinței comune pentru drepturile parlamentarilor, potrivit art. 65 alin. (2) lit. j) din Constituție."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    }
+  }
+}

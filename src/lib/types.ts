@@ -129,6 +129,8 @@ export interface AnalysisCorrection {
 /** Articole de presă găsite de scripts/straja-news.mjs și verificate pe pagina sursei. */
 export interface BillNews {
   checkedAt: string;
+  /** Ultima rulare din indexul de știri (straja-news --index), când e mai nouă decât căutarea pe web. */
+  indexCheckedAt?: string;
   articles: PressArticle[];
 }
 

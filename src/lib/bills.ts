@@ -209,7 +209,10 @@ export async function getBillNews(slug: string): Promise<BillNews | null> {
       articles.push(article);
     }
     articles.sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''));
-    return { checkedAt: raw.checkedAt, articles };
+    // Indexul de știri trece zilnic prin toate proiectele Senatului, chiar și când nu găsește nimic nou pentru unul anume.
+    const run = await fs.readFile(path.join(ROOT, 'data', 'news-index-run.json'), 'utf8').then((s) => JSON.parse(s).lastRun as string, () => undefined);
+    const indexCheckedAt = [raw.indexCheckedAt, run].filter(Boolean).sort().at(-1);
+    return { checkedAt: raw.checkedAt, ...(indexCheckedAt && { indexCheckedAt }), articles };
   } catch {
     return null;
   }

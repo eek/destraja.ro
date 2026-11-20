@@ -330,9 +330,12 @@ async function main() {
 
   let targets = TARGET
     ? bills.filter((b) => b.slug === TARGET || b.id.toLowerCase() === TARGET || b.slug.includes(TARGET))
-    : ALL
+    : ALL || INDEX
       ? bills
       : bills.filter((b) => (isoFromRo(b.consultationDeadline) ?? '') >= today);
+  // Din index luăm toate proiectele Senatului: potrivirile le face VM-ul pentru toate, iar un proiect rămâne în presă și
+  // după consultare (B563 n-a mai fost verificat după 9 noiembrie, deși era cel mai discutat). Căutarea pe web, mai
+  // scumpă, rămâne pentru proiectele în consultare.
   const fresh = (b) => {
     try {
       const { checkedAt } = JSON.parse(fs.readFileSync(path.join(NEWS_DIR, `${b.slug}.json`), 'utf8'));
@@ -353,6 +356,8 @@ async function main() {
       return;
     }
     fromIndex = new Map();
+    // O rulare completă a citit potrivirile tuturor proiectelor: data ei e „Verificat la” pe site și pentru cele fără noutăți.
+    if (!TARGET) fs.writeFileSync(path.join(DATA, 'news-index-run.json'), `${JSON.stringify({ lastRun: now })}\n`);
     for (const b of targets) {
       // Cele rămase de la rulările trecute revin și după ce au ieșit din fereastra de zile a indexului.
       const waiting = [...seen].filter(([k, v]) => !v.done && v.cand && k.startsWith(`${b.slug}|`)).map(([, v]) => v.cand);

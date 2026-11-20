@@ -107,7 +107,7 @@ export default function BillNews({ billId, news, builtOn }: { billId: string; ne
           În presă
           {news.articles.length > 0 && <span className="ml-2.5 text-muted tabular-nums">{news.articles.length}</span>}
         </h2>
-        <p className="text-xs text-muted">Verificat la {formatDateRo(news.checkedAt)}</p>
+        <p className="text-xs text-muted">Verificat la {formatDateRo([news.checkedAt, news.indexCheckedAt].filter(Boolean).sort().at(-1)!)}</p>
       </div>
       {news.articles.length === 0 ? (
         <p className={`${panel} mt-4 flex items-start gap-3 p-5 text-[15px] leading-7 text-body sm:p-6`}>

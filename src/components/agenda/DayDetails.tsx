@@ -1,6 +1,6 @@
 'use client';
 
-import { type Dispatch, type ReactNode, type RefObject, type SetStateAction, useEffect, useMemo, useState } from 'react';
+import { type ReactNode, type RefObject, useState } from 'react';
 import Link from 'next/link';
 import { ChevronDown, ExternalLink, Search } from 'lucide-react';
 import type { AgendaChamber } from '@/lib/agenda';
@@ -29,38 +29,47 @@ const HEAVY_SESSIONS = 4;
 const WEIGHT: OutcomeKind[] = ['adoptat', 'respins', 'retrimis', 'raport', 'aviz', 'amanat', 'dezbatut', 'alt'];
 const mainKind = (o: AgendaOutcome[]) => WEIGHT.find((k) => o.some((x) => x.kind === k)) ?? null;
 
-const fullDate = (iso: string) => new Intl.DateTimeFormat('ro-RO', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${iso}T12:00:00Z`));
+export const fullDate = (iso: string) => new Intl.DateTimeFormat('ro-RO', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${iso}T12:00:00Z`));
 const dayMonth = (iso: string) => new Intl.DateTimeFormat('ro-RO', { day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(`${iso}T12:00:00Z`));
+
+/** „Citim ordinile de zi ale Senatului din 26 octombrie 2026 și pe ale Camerei Deputaților din 3 noiembrie 2026.” */
+export function startSentence(start: Record<AgendaChamber, string | null>) {
+  const parts = [start.senat && `ale Senatului din ${fullDate(start.senat)}`, start.camera && `ale Camerei Deputaților din ${fullDate(start.camera)}`].filter(Boolean);
+  return parts.length ? `Citim ordinile de zi ${parts.join(' și pe ')}.` : 'Încă n-am citit nicio ordine de zi.';
+}
 
 /** A cui e ședința, când numele n-o spune: „Comisia pentru muncă…” există și la Senat, și la Cameră. */
 const chamberOf = (s: CalSession) => (/senat|camerei deputaților/i.test(s.comisie) ? null : CHAMBER_NAME[s.chamber]);
 
+/**
+ * Ziua aleasă. Componenta se montează din nou la fiecare zi (key), deci filtrele și ședințele deschise pornesc de la zero:
+ * un filtru rămas de pe altă zi n-ar mai avea butonul lui pe ecran.
+ */
 export default function DayDetails({
   ix,
   zi,
   today,
-  filters,
-  setFilters,
   headingRef,
   onSelect,
 }: {
   ix: CalIndex;
   zi: string;
   today: string;
-  filters: Filters;
-  setFilters: Dispatch<SetStateAction<Filters>>;
   headingRef: RefObject<HTMLHeadingElement | null>;
   onSelect: (zi: string) => void;
 }) {
-  const s = summarize(ix, zi, today);
-  const sessions = useMemo(() => ix.data.days[zi] ?? [], [ix, zi]);
+  const [filters, setFilters] = useState<Filters>(NO_FILTERS);
+  const s = summarize(ix, zi);
+  const sessions = ix.data.days[zi] ?? [];
   const past = zi < today;
   const isToday = zi === today;
+  // Rezultatele sunt căutate la build, doar pentru zilele dinaintea lui; până la actualizarea următoare o zi trecută după
+  // build (sâmbăta, duminica) n-are încă rezultate căutate.
+  const searched = zi < ix.data.builtFor;
   const bills = ix.data.bills;
 
-  const daysWith = Object.keys(ix.data.days).sort();
-  const nextDay = daysWith.find((d) => d > zi) ?? null;
-  const prevDay = [...daysWith].reverse().find((d) => d < zi) ?? null;
+  const nextDay = ix.daysWith.find((d) => d > zi) ?? null;
+  const prevDay = ix.daysWith.findLast((d) => d < zi) ?? null;
 
   const q = normalize(filters.q.trim());
   const match = (sess: CalSession, it: CalItem) => {
@@ -78,15 +87,13 @@ export default function DayDetails({
   const shownCount = shown.reduce((n, x) => n + x.items.length, 0);
 
   const heavy = s.appearances > HEAVY_ITEMS || sessions.length > HEAVY_SESSIONS;
-  const [open, setOpen] = useState<Set<string>>(new Set());
-  const [all, setAll] = useState<Set<string>>(new Set());
-  useEffect(() => {
-    setOpen(new Set(heavy ? sessions.slice(0, 1).map((x) => x.key) : sessions.map((x) => x.key)));
-    setAll(new Set());
-  }, [zi, heavy, sessions]);
+  // Calculat la prima randare, ca pagina statică să aibă deja ședințele deschise.
+  const [open, setOpen] = useState<Set<string>>(() => new Set((heavy ? sessions.slice(0, 1) : sessions).map((x) => x.key)));
+  const [all, setAll] = useState<Set<string>>(() => new Set());
 
   const allItems = sessions.flatMap((x) => x.items);
   const withOutcome = allItems.filter((it) => it.outcomes.length);
+  const sameDay = withOutcome.filter((it) => it.outcomes.some((o) => !o.later)).length;
   const kinds = new Map<OutcomeKind, number>();
   for (const it of withOutcome) {
     const k = mainKind(it.outcomes)!;
@@ -120,7 +127,7 @@ export default function DayDetails({
         {CHAMBERS.map((c) =>
           s.by[c].coverage === 'pending' && !(s.bills === 0 && CHAMBERS.every((x) => s.by[x].coverage !== 'read')) ? (
             <p key={c} className="mt-1 text-sm leading-6 text-muted">
-              Ordinea de zi de la {c === 'senat' ? 'Senat' : 'Camera Deputaților'} pentru această zi nu e publicată încă.
+              Ordinea de zi de la {c === 'senat' ? 'Senat' : 'Camera Deputaților'} pentru această zi nu e încă publicată sau citită.
             </p>
           ) : null,
         )}
@@ -132,21 +139,30 @@ export default function DayDetails({
         <>
           {past && (
             <div className="mt-5 rounded-xl bg-sunken px-4 py-3.5 text-[15px] leading-7 text-body">
-              {withOutcome.length ? (
+              {!searched ? (
+                <p>
+                  <span className="font-semibold text-ink">Ce s-a întâmplat:</span> căutăm rezultatele la fiecare actualizare a site-ului, în zilele
+                  lucrătoare; pentru ziua aceasta le căutăm la următoarea.
+                </p>
+              ) : withOutcome.length ? (
                 <p>
                   <span className="font-semibold text-ink">Ce s-a întâmplat:</span> rezultat găsit pentru {withOutcome.length} din{' '}
                   {countWord(allItems.length, 'punct', 'puncte')} de pe ordinile de zi
-                  {kinds.size > 0 && ` (${summaryKinds(kinds)})`}. Pentru celelalte nu avem încă un rezultat.
+                  {kinds.size > 0 && ` (${summaryKinds(kinds)})`}
+                  {sameDay < withOutcome.length &&
+                    `; ${withOutcome.length - sameDay === 1 ? 'unul e un pas înregistrat' : `${withOutcome.length - sameDay} sunt pași înregistrați`} în zilele următoare`}
+                  . Pentru celelalte nu avem încă un rezultat.
                 </p>
               ) : (
                 <p>
-                  <span className="font-semibold text-ink">Ce s-a întâmplat:</span> nu avem încă niciun rezultat pentru această zi. Îl aflăm din ordinile
-                  de zi ale Senatului, din fișele proiectelor și din voturile din plen, de obicei în câteva zile.
+                  <span className="font-semibold text-ink">Ce s-a întâmplat:</span> nu avem încă niciun rezultat pentru această zi. Rezultatele apar aici
+                  când le găsim într-o sursă oficială pe care o citim (ordinea de zi a Senatului, fișa proiectului, votul din plen); pentru unele ședințe
+                  nu apar deloc.
                 </p>
               )}
             </div>
           )}
-          {isToday && <p className="mt-5 text-sm leading-6 text-muted">Ședințele sunt azi; ce s-a hotărât apare aici după ce îl publică Senatul și Camera, de obicei în câteva zile.</p>}
+          {isToday && <p className="mt-5 text-sm leading-6 text-muted">Ședințele sunt azi; ce s-a hotărât apare aici după ce găsim într-o sursă oficială, la o actualizare următoare a site-ului.</p>}
 
           <div className="mt-5 flex flex-col gap-3">
             <div className="flex flex-wrap items-center gap-2">
@@ -172,7 +188,7 @@ export default function DayDetails({
                   Doar risc ridicat <span className="font-normal tabular-nums">{redCount}</span>
                 </Toggle>
               )}
-              {past && withOutcome.length > 0 && (
+              {past && searched && withOutcome.length > 0 && (
                 <Toggle on={filters.withOutcome} onClick={() => setFilters((f) => ({ ...f, withOutcome: !f.withOutcome }))}>
                   Doar cu rezultat <span className="font-normal tabular-nums">{withOutcome.length}</span>
                 </Toggle>
@@ -209,7 +225,7 @@ export default function DayDetails({
                 items={items}
                 ix={ix}
                 zi={zi}
-                past={past}
+                past={past && searched}
                 open={filtering || open.has(sess.key)}
                 canToggle={!filtering}
                 showAll={filtering || all.has(sess.key)}
@@ -280,22 +296,25 @@ function Empty({
 }) {
   const noData = CHAMBERS.every((c) => s.by[c].coverage === 'none');
   const pending = !noData && CHAMBERS.every((c) => s.by[c].coverage !== 'read');
+  const notYetRead = pending && zi <= today;
   const title = noData
     ? 'Nu avem date pentru această zi'
     : pending
-      ? 'Ordinea de zi nu e publicată încă'
+      ? notYetRead
+        ? 'Încă n-am citit ordinea de zi'
+        : 'Ordinea de zi nu e publicată încă'
       : CHAMBERS.some((c) => ix.readSets[c].has(zi))
         ? 'Niciun proiect urmărit pe ordinea de zi'
         : 'Nicio ședință cu ordine de zi';
   const text = noData
-    ? `Citim ordinile de zi ale Senatului din ${ix.start.senat ? fullDate(ix.start.senat) : '–'}${ix.start.camera ? ` și pe ale Camerei Deputaților din ${fullDate(ix.start.camera)}` : ''}.`
-    : pending
-      ? 'Senatul și comisiile Camerei publică ordinile de zi cu câteva zile înainte de ședințe; când apare pe ele un proiect urmărit, îl găsești aici.'
-      : !CHAMBERS.some((c) => ix.readSets[c].has(zi))
-        ? 'Nici Senatul, nici Camera Deputaților n-au publicat ordini de zi pentru ziua aceasta.'
-        : zi < today
-          ? 'Comisiile sau plenul s-au întrunit, dar fără proiectele pe care le urmărim pe ordinea de zi.'
-          : 'Comisiile sau plenul au ordini de zi publicate, dar fără proiectele pe care le urmărim.';
+    ? startSentence(ix.start)
+    : notYetRead
+      ? 'Ordinile de zi le citim la fiecare actualizare a site-ului, în zilele lucrătoare; pe cele pentru ziua aceasta le citim la următoarea.'
+      : pending
+        ? 'Senatul și comisiile Camerei publică ordinile de zi cu câteva zile înainte de ședințe; când apare pe ele un proiect urmărit, îl găsești aici.'
+        : !CHAMBERS.some((c) => ix.readSets[c].has(zi))
+          ? 'N-am găsit ordini de zi ale Senatului sau ale Camerei Deputaților pentru ziua aceasta.'
+          : 'Pe ordinile de zi citite pentru ziua aceasta nu e niciun proiect pe care îl urmărim.';
   return (
     <div className="mt-6 rounded-2xl border border-dashed border-line-strong px-6 py-10 text-center">
       <p className="font-display text-2xl text-ink">{title}</p>
@@ -400,8 +419,8 @@ function SessionSheet({
             </p>
           )}
           <ul className="mt-4 divide-y divide-line border-t border-line">
-            {items.slice(0, visible).map((it) => (
-              <BillRow key={it.b} it={it} ix={ix} zi={zi} past={past} />
+            {items.slice(0, visible).map((it, i) => (
+              <BillRow key={`${it.b}-${i}`} it={it} ix={ix} past={past} />
             ))}
           </ul>
           {visible < items.length && (
@@ -419,7 +438,7 @@ function SessionSheet({
   );
 }
 
-function BillRow({ it, ix, zi, past }: { it: CalItem; ix: CalIndex; zi: string; past: boolean }) {
+function BillRow({ it, ix, past }: { it: CalItem; ix: CalIndex; past: boolean }) {
   const b = ix.data.bills[it.b];
   return (
     <li className="py-4 last:pb-1">
@@ -446,24 +465,23 @@ function BillRow({ it, ix, zi, past }: { it: CalItem; ix: CalIndex; zi: string; 
         (it.outcomes.length ? (
           <div className="mt-3 space-y-2">
             {it.outcomes.map((o, i) => (
-              <Outcome key={i} o={o} zi={zi} />
+              <Outcome key={i} o={o} />
             ))}
           </div>
         ) : (
-          <p className="mt-2 text-sm leading-6 text-faint">Nu avem încă un rezultat pentru această zi.</p>
+          <p className="mt-2 text-sm leading-6 text-muted">Nu avem încă un rezultat pentru această zi.</p>
         ))}
     </li>
   );
 }
 
-function Outcome({ o, zi }: { o: AgendaOutcome; zi: string }) {
+function Outcome({ o }: { o: AgendaOutcome }) {
   return (
     <div className="border-l-2 border-brand pl-3 text-sm leading-6">
       <p className="text-body">
-        <span className="sr-only">Rezultat: </span>
+        {o.later ? <span className="text-muted">Ulterior, pe {dayMonth(o.date)}: </span> : <span className="sr-only">Rezultat: </span>}
         <span className="font-semibold text-ink">{o.text}</span>
         {o.detail && <span className="tabular-nums"> · {o.detail}</span>}
-        {o.date !== zi && <span className="text-muted"> · pe {dayMonth(o.date)}</span>}
       </p>
       <p className="text-muted">
         Sursa:{' '}

@@ -28,6 +28,18 @@ export interface ChangeDay {
 
 export const CHANGELOG: ChangeDay[] = [
   {
+    date: '2026-11-21',
+    items: [
+      {
+        kind: 'schimbat',
+        title: 'Agenda e acum un calendar',
+        text: 'Agenda Parlamentului nu mai e o listă lungă cu toată săptămâna, ci un calendar, pe luni sau pe săptămâni. Fiecare zi arată câte proiecte urmărite sunt pe ordinea de zi la Senat și la Camera Deputaților, dacă unele sunt în plen și dacă vreunul are risc ridicat; zilele cu ordinea de zi încă nepublicată arată altfel decât cele fără niciun proiect urmărit. Alegi o zi și vezi ședințele ei, întâi plenul, apoi comisiile, cu ora, sala și ordinea de zi oficială; poți păstra doar o cameră, doar proiectele cu risc ridicat sau căuta un proiect. Pentru zilele trecute vezi și ce s-a hotărât: adoptat sau respins în plen, cu voturile, raportul sau avizul comisiei, retrimis la comisie, amânat. Fiecare rezultat are sursa oficială: ordinea de zi a Senatului, fișa proiectului sau votul. Când nu găsim niciun rezultat, scriem asta și nu presupunem nimic. Ziua aleasă rămâne în adresă, ca s-o poți trimite cuiva.',
+        link: { href: '/agenda?zi=2026-11-18', label: 'Agenda din 18 noiembrie' },
+        shot: { id: '2026-11-21-calendar', alt: 'Agenda Parlamentului ca un calendar: luna noiembrie 2026, cu numărul de proiecte urmărite în fiecare zi la Senat și la Cameră, și ziua de 18 noiembrie aleasă, cu plenul Camerei Deputaților și rezultatele: proiecte adoptate, cu voturile și sursa fiecăruia.' },
+      },
+    ],
+  },
+  {
     date: '2026-11-20',
     items: [
       {

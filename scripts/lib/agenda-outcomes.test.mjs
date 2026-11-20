@@ -65,9 +65,12 @@ test('plenul aprobă retrimiterea la comisii', () => {
 test('raportul primit de Cameră se leagă doar de comisiile raportului (după idc), în două săptămâni', () => {
   const com = app({ comisieId: '11', comisie: 'Comisia juridică, de disciplină și imunități', plen: false, zi: '2026-11-10' });
   const rows = [{ camera: 'Camera Deputaților', data: '17.11.2026', actiune: 'primire raport favorabil (61 amend. admise) de la:' }];
-  assert.equal(outcomesFor(com, camera(rows, ['11']), TODAY)[0].text, 'Raport favorabil, cu 61 de amendamente admise');
+  const [r] = outcomesFor(com, camera(rows, ['11']), TODAY);
+  assert.equal(r.text, 'Raport favorabil, cu 61 de amendamente admise, primit de Cameră');
+  assert.equal(r.later, true, 'primit după ziua ședinței');
   assert.deepEqual(outcomesFor(com, camera(rows, ['5']), TODAY), [], 'comisie pentru aviz: raportul nu e al ei');
-  assert.deepEqual(outcomesFor({ ...com, zi: '2026-11-01' }, camera(rows, ['11']), TODAY), [], 'peste 14 zile');
+  assert.equal(outcomesFor({ ...com, zi: '2026-11-03' }, camera(rows, ['11']), TODAY).length, 1, 'exact 14 zile');
+  assert.deepEqual(outcomesFor({ ...com, zi: '2026-11-02' }, camera(rows, ['11']), TODAY), [], 'peste 14 zile');
 });
 
 test('Senatul: rezoluția comisiei de pe ordinea de zi, iar „Adoptat” la o comisie e avizul sau raportul ei', () => {
@@ -92,7 +95,7 @@ test('Senatul: avizul transmis de aceeași comisie, cu diacriticele cu sedilă d
   };
   const o = outcomesFor(com, src, TODAY);
   assert.equal(o.length, 1);
-  assert.equal(o[0].text, 'Aviz favorabil');
+  assert.equal(o[0].text, 'Aviz favorabil transmis');
   assert.equal(o[0].date, '2026-11-12');
 });
 
@@ -109,4 +112,26 @@ test('Senatul, plenul: „Respins” pe ordinea de zi și votul din aceeași zi 
 test('următoarea apariție la același organ', () => {
   const list = [app({ zi: '2026-11-16' }), app({ zi: '2026-11-18' }), app({ zi: '2026-11-18', comisieId: '11', plen: false })];
   assert.deepEqual(nextAtSameBody(list), ['2026-11-18', null, null]);
+});
+
+test('un vot fără majoritate nu e numărat ca respingere', () => {
+  const src = { ...none, votes: [{ chamber: 'cdep', url: 'https://www.cdep.ro/vot', date: '2026-11-18', question: 'adoptare', result: 'fara-majoritate', totals: { pentru: 150, contra: 20, abtineri: 5 }, subject: 'Vot final' }] };
+  const [o] = outcomesFor(app(), src, TODAY);
+  assert.equal(o.kind, 'alt');
+  assert.match(o.text, /fără majoritatea cerută/);
+});
+
+test('adoptarea tacită păstrează precizarea, iar abținerile lipsă nu devin „nicio abținere”', () => {
+  const plen = app({ chamber: 'senat', comisieId: 'p', comisie: 'Plenul Senatului', url: 'https://www.senat.ro/odz', zi: '2026-11-02', punct: { ...app().punct, scop: 'Adoptat' } });
+  const src = { ...none, camera: { url: 'https://www.cdep.ro/fisa', raport: [], timeline: [{ camera: 'Senat', data: '02.11.2026', actiune: 'adoptat de Senat ca urmare a depasirii termenului de adoptare, potrivit art.75 alin.(2) teza a III-a din Constitutie' }] } };
+  const o = outcomesFor(plen, src, TODAY);
+  assert.equal(o.length, 1);
+  assert.equal(o[0].text, 'Adoptat tacit de Senat (termenul a expirat)');
+  assert.equal(o[0].later, false);
+  assert.equal(totalsText({ pentru: 62, contra: 46, abtineri: null }), '62 pentru, 46 contra');
+});
+
+test('„Respins” la o comisie a Senatului e hotărârea comisiei, nu respingerea proiectului', () => {
+  assert.deepEqual(senateResolution('Respins', 'RAPORT'), { kind: 'alt', text: 'Respins în comisie' });
+  assert.deepEqual(senateResolution('Adoptat cu amendamente', 'RAPORT comun'), { kind: 'raport', text: 'Raport adoptat în comisie cu amendamente' });
 });

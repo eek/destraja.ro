@@ -31,7 +31,7 @@ export default async function AgendaPage() {
         scrie pe pagina oficială. La Cameră, rolul comisiei (raport sau aviz) e cel din fișa proiectului. Rezultatele zilelor trecute vin doar din
         surse oficiale, potrivite după proiect și dată: rezoluțiile scrise de Senat pe ordinea de zi după ședință, voturile din plen și pașii din
         fișele proiectelor de pe senat.ro și cdep.ro (un raport sau un aviz din cel mult două săptămâni după ședința comisiei, un vot din plen din ziua
-        ședinței sau din următoarele două zile, și doar până când proiectul revine pe ordinea de zi a aceleiași comisii sau a plenului). Când nu găsim niciunul, scriem că nu avem încă un rezultat; asta nu înseamnă că proiectul a fost amânat.
+        ședinței sau din următoarele două zile, și doar până când proiectul revine pe ordinea de zi a aceleiași comisii sau a plenului). Un pas din zilele de după ședință (un raport primit de Cameră, un aviz transmis) apare ca „Ulterior”, cu data lui. Când nu găsim niciunul, scriem că nu avem încă un rezultat; asta nu înseamnă că proiectul a fost amânat.
       </p>
     </Container>
   );

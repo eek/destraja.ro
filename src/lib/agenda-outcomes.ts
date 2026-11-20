@@ -39,6 +39,11 @@ export interface AgendaOutcome {
   detail: string | null;
   /** Ziua pasului (YYYY-MM-DD); poate fi după ziua ședinței (un raport primit peste câteva zile). */
   date: string;
+  /**
+   * Pasul e scris în ziua ședinței de chiar ședința (ordinea de zi recitită, votul din plen sau rândul din fișă din aceeași
+   * zi); altfel e un pas ulterior din fișă, în fereastra ședinței, pe care pagina îl arată ca atare („Ulterior, pe …”).
+   */
+  later: boolean;
   sources: OutcomeSource[];
 }
 
@@ -62,7 +67,8 @@ export interface OutcomeSources {
 }
 
 export const PLEN_DAYS = 3;
-export const COMMITTEE_DAYS = 14;
+// Ferestrele, cu ziua ședinței inclusă: plenul în ziua lui și în următoarele două zile, comisia în cel mult 14 zile după.
+export const COMMITTEE_DAYS = 15;
 
 // „02-11-2026” (Senat) sau „02.11.2026” (Camera) → „2026-11-02”.
 const iso = (d: string) => {
@@ -86,36 +92,46 @@ export const norm = (s: string) =>
 // Ca countWord din format.ts („20 de amendamente”, „115 amendamente”), copiat ca modulul să nu importe decât tipuri.
 const plural = (n: number, one: string, many: string) => (n === 1 ? `1 ${one}` : `${n}${(n % 100 === 0 && n !== 0) || n % 100 >= 20 ? ' de' : ''} ${many}`);
 
-/** „106 pentru, 0 contra, nicio abținere” sau, la o întrebare de respingere, „72 pentru respingere, 22 contra, …”. */
-export function totalsText(t: { pentru: number; contra: number; abtineri: number }, question: 'adoptare' | 'respingere' = 'adoptare') {
-  const abt = t.abtineri ? plural(t.abtineri, 'abținere', 'abțineri') : 'nicio abținere';
-  return `${t.pentru} ${question === 'respingere' ? 'pentru respingere' : 'pentru'}, ${t.contra} contra, ${abt}`;
+/**
+ * „106 pentru, 0 contra, nicio abținere” sau, la o întrebare de respingere, „72 pentru respingere, 22 contra, …”. Fără
+ * abțineri în sursă nu scriem nimic despre ele (nu „nicio abținere”).
+ */
+export function totalsText(t: { pentru: number; contra: number; abtineri?: number | null }, question: 'adoptare' | 'respingere' = 'adoptare') {
+  const head = `${t.pentru} ${question === 'respingere' ? 'pentru respingere' : 'pentru'}, ${t.contra} contra`;
+  if (t.abtineri == null || !Number.isFinite(t.abtineri)) return head;
+  return `${head}, ${t.abtineri ? plural(t.abtineri, 'abținere', 'abțineri') : 'nicio abținere'}`;
 }
 
 /** „pentru= 62 contra=46 abțineri=1”, „pentru=245, contra=0, abtineri=0” → cifrele, din rândul fișei. */
 function rowTotals(action: string) {
   const n = (w: string) => Number(action.match(new RegExp(`${w}\\s*=\\s*(\\d+)`, 'i'))?.[1] ?? NaN);
   const t = { pentru: n('pentru'), contra: n('contra'), abtineri: n('ab[țţt]ineri') };
-  return Number.isFinite(t.pentru) && Number.isFinite(t.contra) ? { ...t, abtineri: Number.isFinite(t.abtineri) ? t.abtineri : 0 } : null;
+  return Number.isFinite(t.pentru) && Number.isFinite(t.contra) ? { ...t, abtineri: Number.isFinite(t.abtineri) ? t.abtineri : null } : null;
 }
 
 const CHAMBER_SITE = { senat: 'senat.ro', camera: 'cdep.ro' } as const;
 
 /**
- * Rezoluția unei comisii a Senatului, scrisă pe ordinea de zi după ședință. „Adoptat” la o comisie înseamnă că și-a
- * adoptat raportul sau avizul (după rolul din coloana scopului), nu că proiectul a fost adoptat.
+ * Rezoluția unei comisii a Senatului, scrisă pe ordinea de zi după ședință. E hotărârea comisiei, nu a Senatului: nu e
+ * niciodată „adoptat” sau „respins” ca proiect. „Adoptat” înseamnă că și-a adoptat raportul sau avizul (rolul vine din
+ * coloana scopului).
  */
 export function senateResolution(rez: string, scop = ''): { kind: OutcomeKind; text: string } {
   const t = rez.replace(/\s+/g, ' ').trim();
-  if (/^adoptat$/i.test(t)) {
-    const role = scop.replace(/^[,\s]+/, '');
-    if (/^raport/i.test(role)) return { kind: 'raport', text: 'Raport adoptat în comisie' };
-    if (/^aviz/i.test(role)) return { kind: 'aviz', text: 'Aviz adoptat în comisie' };
-    return { kind: 'alt', text: 'Adoptat în comisie' };
+  const n = norm(t);
+  const role = norm(scop);
+  const doc = role.startsWith('raport') ? 'Raport' : role.startsWith('aviz') ? 'Aviz' : null;
+  if (n.startsWith('amanat')) return { kind: 'amanat', text: 'Amânat' };
+  if (n.startsWith('raport')) return { kind: 'raport', text: upper(t) };
+  if (n.startsWith('aviz')) return { kind: 'aviz', text: upper(t) };
+  if (n.startsWith('adoptat')) {
+    const rest = t.replace(/^adoptat[ăa]?\s*/i, '');
+    return { kind: doc === 'Raport' ? 'raport' : doc === 'Aviz' ? 'aviz' : 'alt', text: `${doc ? `${doc} adoptat` : 'Adoptat'} în comisie${rest ? ` ${rest}` : ''}` };
   }
-  const kind: OutcomeKind = /^amânat/i.test(t) ? 'amanat' : /^raport/i.test(t) ? 'raport' : /^aviz/i.test(t) ? 'aviz' : /adoptat/i.test(t) ? 'adoptat' : /respins/i.test(t) ? 'respins' : 'alt';
-  return { kind, text: t.charAt(0).toUpperCase() + t.slice(1) };
+  if (n.startsWith('respins')) return { kind: 'alt', text: `${upper(t)} în comisie` };
+  return { kind: 'alt', text: upper(t) };
 }
+const upper = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
 /** „Comisia … transmite avizul cu nr. XIX/180-FAVORABIL cu amendamente”, „… depune raportul cu nr. …-NEGATIV”. */
 function senateCommitteeRow(action: string, comisie: string): { kind: OutcomeKind; text: string } | null {
@@ -127,7 +143,8 @@ function senateCommitteeRow(action: string, comisie: string): { kind: OutcomeKin
   const fav = /favorabil/i.test(m[2]);
   return {
     kind: raport ? 'raport' : 'aviz',
-    text: `${raport ? 'Raport' : 'Aviz'} ${fav ? 'favorabil' : 'negativ'}${m[3] ? ' cu amendamente' : ''}`,
+    // „depus” / „transmis”: pasul din fișă (poate fi documentul hotărât în ședință, trimis după), nu hotărârea însăși.
+    text: `${raport ? 'Raport' : 'Aviz'} ${fav ? 'favorabil' : 'negativ'}${m[3] ? ' cu amendamente' : ''} ${raport ? 'depus' : 'transmis'}`,
   };
 }
 
@@ -148,7 +165,8 @@ function plenaryRow(action: string, chamber: 'senat' | 'camera'): { kind: Outcom
   if (/^[îi]ncetarea procedurii legislative prin respingere definitiv/i.test(a) && chamber === 'senat') {
     return { kind: 'respins', text: 'Respins definitiv de Senat', detail: null };
   }
-  if (/retransmiterea la comisii|retrimiterea la comisi|retrimis la comisi/i.test(a)) {
+  // Doar retrimiterea aprobată de plen, nu o cerere de retrimitere.
+  if (/^(plenul .*aprob[ăa] (retransmiterea|retrimiterea) la comisi|retrimis la comisi)/i.test(a)) {
     return { kind: 'retrimis', text: 'Retrimis la comisie', detail: null };
   }
   if (chamber === 'camera' && /^dezbatere [îi]n plenul Camerei/i.test(a)) {
@@ -165,10 +183,11 @@ function chamberReportRow(action: string): { kind: OutcomeKind; text: string } |
   const extra = m[1] ? ` ${m[1].trim().toLowerCase()}` : '';
   const what = !m[2] ? '' : /respingere/i.test(m[2]) ? ' de respingere' : ' favorabil';
   const admise = m[3].match(/(\d+)\s+amend\.?\s+admise/i)?.[1];
-  const ou = /ordonan/i.test(m[3]) ? ' aprobării ordonanței' : '';
+  // „favorabil aprobarii ordonantei de urgenta”; o respingere a ordonanței rămâne „de respingere”, fără alt adaos.
+  const ou = /aprob[aă]rii ordonan/i.test(m[3]) && !/resping/i.test(a) ? ' aprobării ordonanței' : '';
   return {
     kind: 'raport',
-    text: `Raport${extra}${what}${ou}${admise ? `, cu ${plural(Number(admise), 'amendament admis', 'amendamente admise')}` : ''}`,
+    text: `Raport${extra}${what}${ou}${admise ? `, cu ${plural(Number(admise), 'amendament admis', 'amendamente admise')}` : ''}, primit de Cameră`,
   };
 }
 
@@ -185,17 +204,21 @@ export function outcomesFor(a: AgendaAppearance, src: OutcomeSources, today: str
   const agendaSource: OutcomeSource | null = a.url ? { label: `Ordinea de zi pe ${CHAMBER_SITE[a.chamber]}`, url: a.url } : null;
   const senateSheet: OutcomeSource | null = src.senat?.url ? { label: 'Fișa proiectului pe senat.ro', url: src.senat.url } : null;
   const chamberSheet: OutcomeSource | null = src.camera?.url ? { label: 'Fișa proiectului pe cdep.ro', url: src.camera.url } : null;
-  const push = (o: Omit<AgendaOutcome, 'sources'> & { sources: (OutcomeSource | null)[] }) => {
+  const push = (o: Omit<AgendaOutcome, 'sources' | 'later'> & { sources: (OutcomeSource | null)[] }) => {
     const sources = o.sources.filter((s): s is OutcomeSource => !!s);
     if (!sources.length) return;
     // Același pas din două surse (ordinea de zi și fișa, fișa și votul): un singur rând, cu toate sursele și cu cifrele.
-    const same = out.find((x) => x.kind === o.kind && x.date === o.date);
+    // Doar hotărârea plenului (adoptat, respins) se unește după fel și zi; ea păstrează formularea mai precisă („tacit”,
+    // „definitiv”). Rapoartele și avizele se unesc doar cu același text.
+    const plenary = o.kind === 'adoptat' || o.kind === 'respins';
+    const same = out.find((x) => x.kind === o.kind && x.date === o.date && (plenary || x.text === o.text));
     if (same) {
+      if (plenary && /tacit|definitiv/.test(o.text) && !/tacit|definitiv/.test(same.text)) same.text = o.text;
       same.detail ??= o.detail;
       for (const s of sources) if (!same.sources.some((x) => x.url === s.url)) same.sources.push(s);
       return;
     }
-    out.push({ ...o, sources });
+    out.push({ ...o, sources, later: o.date > a.zi });
   };
 
   if (a.chamber === 'senat' && !a.plen) {
@@ -249,11 +272,12 @@ export function outcomesFor(a: AgendaAppearance, src: OutcomeSources, today: str
     for (const v of src.votes) {
       if (v.chamber !== chamber || !inWindow(v.date) || !v.result) continue;
       const who = a.chamber === 'senat' ? 'Senat' : 'Camera Deputaților';
-      const kind: OutcomeKind = v.result === 'adoptat' ? 'adoptat' : 'respins';
+      // Un vot fără majoritatea cerută nu e o respingere: rămâne „alt rezultat”, cu textul lui.
+      const kind: OutcomeKind = v.result === 'adoptat' ? 'adoptat' : v.result === 'respins' ? 'respins' : 'alt';
       const text = v.result === 'adoptat' ? `Adoptat de ${who}` : v.result === 'respins' ? `Respins de ${who}` : `Vot fără majoritatea cerută în ${who}`;
       const detail = totalsText(v.totals, v.question);
       const site = a.chamber === 'senat' ? 'senat.ro' : 'cdep.ro';
-      const same = out.find((x) => x.kind === kind && x.date === v.date);
+      const same = kind !== 'alt' && out.find((x) => x.kind === kind && x.date === v.date);
       if (same) same.detail = detail;
       push({ kind, text, detail, date: v.date, sources: [{ label: `Votul pe ${site}`, url: v.url }] });
     }

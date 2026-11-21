@@ -2,7 +2,7 @@
 // o singură dată (după index), ședințele pe zile (plenul întâi, apoi comisiile, după oră), punctele în ordinea oficială,
 // fiecare cu rezultatele găsite după ziua ședinței (agenda-outcomes.ts), și zilele citite pe fiecare cameră.
 import { type AgendaAppearance, type AgendaChamber, getAgenda } from './agenda';
-import { type AgendaOutcome, loadOutcomeSources, nextAtSameBody, outcomesFor } from './agenda-outcomes';
+import { type AgendaOutcome, loadChamberRecords, loadOutcomeSources, nextAtSameBody, outcomesFor } from './agenda-outcomes';
 import type { RiskLevel } from './types';
 import { purpose } from '@/components/agenda/parts';
 
@@ -32,6 +32,8 @@ export interface CalSession {
   oraFinal: string | null;
   loc: string | null;
   url: string | null;
+  /** La plenul Camerei, sumarul stenogramei din ziua aceea, când e publicat (data/cdep/plen). */
+  stenograma: string | null;
   items: CalItem[];
 }
 
@@ -52,6 +54,7 @@ export async function getCalendarData(today: string): Promise<CalendarData> {
   const { appearances, read, cititLa } = await getAgenda();
   const sources = await loadOutcomeSources(appearances.map((a) => a.bill));
   const next = nextAtSameBody(appearances);
+  const records = await loadChamberRecords();
 
   const bills: CalBill[] = [];
   const billIndex = new Map<string, number>();
@@ -69,14 +72,28 @@ export async function getCalendarData(today: string): Promise<CalendarData> {
     const key = `${a.zi}|${a.chamber}|${a.comisieId}`;
     let s = sessions.get(key);
     if (!s) {
-      s = { key: `${a.chamber}-${a.comisieId}`, zi: a.zi, chamber: a.chamber, comisie: a.comisie, plen: a.plen, ora: a.ora, oraFinal: a.oraFinal, loc: a.loc, url: a.url, items: [], nr: new Map() };
+      const steno = a.chamber === 'camera' && a.plen ? records.plen.get(a.zi)?.stenograma : null;
+      s = {
+        key: `${a.chamber}-${a.comisieId}`,
+        zi: a.zi,
+        chamber: a.chamber,
+        comisie: a.comisie,
+        plen: a.plen,
+        ora: a.ora,
+        oraFinal: a.oraFinal,
+        loc: a.loc,
+        url: a.url,
+        stenograma: steno?.tip === 'camera' && a.zi < today ? steno.url : null,
+        items: [],
+        nr: new Map(),
+      };
       sessions.set(key, s);
     }
     const item: CalItem = {
       b: billOf(a),
       numar: /\d/.test(a.punct.numar) && a.punct.numar !== a.bill.id ? a.punct.numar : null,
       purpose: purpose(a),
-      outcomes: outcomesFor(a, sources.get(a.bill.href)!, today, next[i]),
+      outcomes: outcomesFor(a, sources.get(a.bill.href)!, today, next[i], records),
     };
     s.items.push(item);
     s.nr.set(item, a.punct.nr);

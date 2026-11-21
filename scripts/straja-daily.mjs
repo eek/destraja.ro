@@ -50,6 +50,9 @@
 // Recitirea fișelor Camerei (scripts/lib/cdep-reread.mjs): cdep.ro n-are flux de noutăți, așa că fișele se recitesc în
 // jurul ședințelor de comisie, după termene și, mai rar, după vârstă. Le citește VM-ul; aici doar îi dăm coada și îi
 // luăm copiile, la începutul și la sfârșitul pașilor Camerei.
+// Ce s-a întâmplat în ședințele Camerei, pentru calendarul agendei (scripts/straja-cdep-plen.mjs): sumarul stenogramei
+// fiecărei zile de plen (după ce apare, la câteva zile), voturile electronice ale zilei până atunci și paginile de
+// documente ale comisiilor cu ședințe recente; cel mult 12 cereri, de obicei 2–8.
 //   --skip-news   fără căutarea în presă
 //   --skip-positions  fără căutarea pozițiilor organizațiilor
 //   --skip-mps    fără datele de contact ale parlamentarilor
@@ -450,6 +453,12 @@ async function main() {
     // (completările de ultim moment), cel mult 25, câte unul pe minut. Înaintea fișelor, care se recitesc după ele.
     const cdepAgenda = await step('Camera: ordinile de zi', 'node', ['scripts/straja-cdep-agenda.mjs', '--max=25', '--minute=30'], { timeoutMs: 2_700_000 });
     if (!cdepAgenda.ok) fail('ordinile de zi ale Camerei au rămas de ieri');
+    // Ce s-a întâmplat în ședințele de până ieri: stenograma plenului (o cerere pentru calendarul stenogramelor, cel mult
+    // o dată la 20 de ore, și una pentru fiecare zi nouă din el), voturile zilelor de plen fără stenogramă (o dată pe
+    // zi) și paginile de documente ale comisiilor cu proiecte încă fără aviz sau raport (cel mult 8, fiecare cel mult o
+    // dată la două zile). Fără nimic nou de căutat nu cere nimic.
+    const cdepPlen = await step('Camera: ce s-a întâmplat în ședințe', 'node', ['scripts/straja-cdep-plen.mjs', '--max=12', '--minute=15'], { timeoutMs: 1_200_000 });
+    if (!cdepPlen.ok) fail('rezultatele ședințelor Camerei au rămas de ieri');
     // Proiectele din anii trecuți încă în dezbatere (straja-cdep-vechi): listele anilor 2020–2025 cel mult o dată pe
     // săptămână, fișele doar când lipsesc sau când rândul lor din listă s-a schimbat, cel mult 10 pe zi. În celelalte
     // zile nu cere nimic de la cdep.ro. Analizele lor vin mai jos („Camera: analize”), în aceeași ordine ca anul curent.

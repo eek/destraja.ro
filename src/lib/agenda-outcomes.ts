@@ -11,11 +11,18 @@
 //      favorabil … de la:” (comisiile raportului, după idc), „adoptat de Camera Deputatilor … pentru=…”, „respinsa de catre
 //      Camera Deputatilor”, „plenul … aproba retransmiterea la comisii”, „dezbatere în plenul …”; rândurile Senatului din
 //      fișă („adoptat de Senat”, „respinsa de catre Senat”).
+//   5. Ședința de plen a Camerei, din înregistrările cdep.ro (data/cdep/plen/<zi>.json, scripts/straja-cdep-plen.mjs):
+//      sumarul stenogramei spune ce puncte s-au dezbătut și ce s-a hotărât la fiecare („rămas pentru votul final”,
+//      „retrimisă comisiei”, „adoptat”); un proiect de pe ordinea de zi care lipsește din sumar n-a fost dezbătut în ziua
+//      aceea. Până apare stenograma (câteva zile), voturile electronice ale zilei arată măcar ce s-a votat.
+//   6. Documentele comisiilor Camerei (data/cdep/comisii-documente/<idc>.json): avizele și rapoartele de pe pagina comisiei, cu data
+//      lor; fișa proiectului nu spune de la ce comisie e un aviz, pagina comisiei da.
 //
 // Un pas din fișă se leagă de o apariție dacă e din aceeași ședință (aceeași comisie, același plen) și cade între ziua
 // ei și următoarea apariție a proiectului la același organ, cel mult PLEN_DAYS (plen) sau COMMITTEE_DAYS (comisie) zile
-// mai târziu. Avizele comisiilor Camerei („primire aviz de la:”) nu spun pe fișă de la ce comisie sunt: nu le folosim.
-// Fără niciun rând potrivit, apariția rămâne fără rezultat și pagina o spune.
+// mai târziu. Avizele comisiilor Camerei („primire aviz de la:”) nu spun pe fișă de la ce comisie sunt: le luăm de pe
+// pagina comisiei (6). Fără niciun rând potrivit, apariția rămâne fără rezultat și pagina o spune; „nedezbătut” doar când
+// sumarul stenogramei din ziua aceea există și proiectul nu e în el.
 //
 // Modulul importă doar tipuri, ca testul din scripts/lib să-l poată încărca direct cu Node.
 import fs from 'node:fs/promises';
@@ -23,7 +30,7 @@ import path from 'node:path';
 import type { AgendaAppearance } from './agenda';
 import type { PlenaryVote } from './types';
 
-export type OutcomeKind = 'adoptat' | 'respins' | 'raport' | 'aviz' | 'retrimis' | 'amanat' | 'dezbatut' | 'alt';
+export type OutcomeKind = 'adoptat' | 'respins' | 'raport' | 'aviz' | 'retrimis' | 'amanat' | 'dezbatut' | 'alt' | 'nedezbatut';
 
 export interface OutcomeSource {
   /** „Ordinea de zi pe senat.ro”, „Votul pe cdep.ro”, „Fișa proiectului pe senat.ro”. */
@@ -66,7 +73,61 @@ export interface OutcomeSources {
   votes: Pick<PlenaryVote, 'chamber' | 'url' | 'date' | 'question' | 'result' | 'totals' | 'subject'>[];
 }
 
+/** Un punct din sumarul stenogramei unei zile de plen a Camerei (scripts/lib/cdep-plen.mjs, parseStenoDay). */
+export interface StenoItem {
+  ids: number;
+  idm: string;
+  nr: string;
+  /** Cheile proiectelor din text: „PLX 488/2026”, „PHCD 74/2026” (chamberKey). */
+  numere: string[];
+  /** Ce scrie în italice la capăt, fără paranteze: „rămas pentru votul final”, „retrimisă comisiei”, „adoptat”. */
+  nota: string;
+  /** Punctul stă sub „Supunerea la votul final a:”. */
+  votFinal: boolean;
+  /** Stă sub declarații politice, interpelări sau întrebări: proiectul e doar pomenit, nu dezbătut. */
+  mentiune?: boolean;
+}
+
+/** Un vot electronic din ziua unei ședințe de plen a Camerei (parseEvotDay). */
+export interface DayVote {
+  idv: number;
+  descriere: string;
+  detaliu: string;
+  numar: string | null;
+  idp: number | null;
+  pentru: number | null;
+  contra: number | null;
+  abtineri: number | null;
+}
+
+/** O zi de plen a Camerei, cum o scrie scripts/straja-cdep-plen.mjs în data/cdep/plen/<zi>.json. */
+export interface ChamberPlenDay {
+  zi: string;
+  /** `tip` 'comuna' e o ședință comună cu Senatul, nu plenul Camerei: nu spune nimic despre ordinea de zi a Camerei. */
+  /** `complet` fals: vreun punct din pagină n-a putut fi citit, deci sumarul nu dovedește că un proiect lipsește. */
+  stenograma?: { url: string; tip: 'camera' | 'comuna'; complet?: boolean; puncte: StenoItem[] } | null;
+  voturi?: { url: string; voturi: DayVote[] } | null;
+}
+
+/** Un aviz sau raport de pe pagina de documente a unei comisii a Camerei (data/cdep/comisii-documente/<idc>.json). */
+export interface CommitteeDoc {
+  tip: 'aviz' | 'raport';
+  data: string;
+  pdf: string;
+  idp: number;
+  numar: string;
+  /** La un raport comun, idc-urile comisiilor lui. */
+  comune: string[];
+}
+
+/** Înregistrările Camerei, pe zile (plenul) și pe comisii (idc). */
+export interface ChamberRecords {
+  plen: Map<string, ChamberPlenDay>;
+  comisii: Map<string, CommitteeDoc[]>;
+}
+
 export const PLEN_DAYS = 3;
+
 // Ferestrele, cu ziua ședinței inclusă: plenul în ziua lui și în următoarele două zile, comisia în cel mult 14 zile după.
 export const COMMITTEE_DAYS = 15;
 
@@ -169,7 +230,9 @@ function plenaryRow(action: string, chamber: 'senat' | 'camera'): { kind: Outcom
   if (/^(plenul .*aprob[ăa] (retransmiterea|retrimiterea) la comisi|retrimis la comisi)/i.test(a)) {
     return { kind: 'retrimis', text: 'Retrimis la comisie', detail: null };
   }
-  if (chamber === 'camera' && /^dezbatere [îi]n plenul Camerei/i.test(a)) {
+  // „dezbatere în plenul Camerei … pentru ședințele … din zilele de 16 și 18 noiembrie” e doar programarea (stenograma
+  // zilei de 16 noiembrie n-o are); dezbaterea propriu-zisă e rândul cu stenograma („consultati stenograma sedintei”).
+  if (chamber === 'camera' && /^dezbatere [îi]n plenul Camerei/i.test(a) && !/\bpentru [șşs]edin/i.test(a)) {
     return { kind: 'dezbatut', text: 'Dezbătut în plen', detail: null };
   }
   return null;
@@ -191,11 +254,51 @@ function chamberReportRow(action: string): { kind: OutcomeKind; text: string } |
   };
 }
 
+// Ca numberKey din scripts/lib/cdep-plen.mjs (copiat, ca modulul să nu importe decât tipuri): „PL-x 488/2026” →
+// 'PLX 488/2026', „PH CD 79/2026” → 'PHCD 79/2026'; PL, PL-x și Pl-x au același șir de numere la Cameră.
+export function chamberKey(s: string | null | undefined): string | null {
+  const m = /\b(PL\s*-?\s*[xX]|Pl\s*-?\s*[xX]|PL|Pl|PH\s*-?\s*CD|PHC)\s*(?:nr\.?\s*)?(\d{1,4})\s*\/\s*(\d{4})\b/.exec(s ?? '');
+  if (!m) return null;
+  const t = m[1].replace(/[\s-]/g, '').toUpperCase();
+  return `${t === 'PL' ? 'PLX' : t === 'PHC' ? 'PHCD' : t} ${Number(m[2])}/${m[3]}`;
+}
+
+const STENO_SITE = 'https://www.cdep.ro/ords/pls/steno';
+const stenoItemUrl = (p: StenoItem) => `${STENO_SITE}/steno2015.stenograma?ids=${p.ids}&idm=${p.idm}&idl=1`;
+const dayVoteUrl = (v: DayVote) => `${STENO_SITE}/evot2015.Nominal?idv=${v.idv}`;
+
 /**
- * Rezultatele unei apariții. `until` e ziua următoarei apariții a proiectului la același organ (exclusiv), dacă există.
+ * Ce spune sumarul stenogramei despre un punct: nota în italice („rămas pentru votul final”, „retrimisă comisiei”,
+ * „adoptat”, „respinsă”, „adoptată ca urmare a depășirii termenului constituțional”). Un punct fără notă a fost doar
+ * dezbătut; o notă necunoscută rămâne „alt rezultat”, cu textul ei.
+ */
+export function stenoNote(nota: string): { kind: OutcomeKind; text: string } {
+  const n = norm(nota);
+  const who = 'Camera Deputaților';
+  // „adoptată propunerea de respingere”, „respinsă cererea de retrimitere”: hotărâri despre o cerere, nu despre proiect.
+  if (/\b(propunerea|propunere|cererea|cerere|solicitarea|solicitare|motiunea)\b/.test(n)) return { kind: 'alt', text: upper(nota) };
+  if (/^adoptat/.test(n)) return /depasirii termenului/.test(n) ? { kind: 'adoptat', text: `Adoptat tacit de ${who} (termenul a expirat)` } : { kind: 'adoptat', text: `Adoptat de ${who}` };
+  if (/^respins/.test(n)) return { kind: 'respins', text: `Respins de ${who}` };
+  if (/retrimis|retransmis/.test(n)) return { kind: 'retrimis', text: 'Retrimis la comisie' };
+  if (/ramas[ae]? pentru votul final/.test(n)) return { kind: 'dezbatut', text: 'Dezbătut, rămas pentru votul final' };
+  if (/amanat|amanare/.test(n)) return { kind: 'amanat', text: upper(nota) };
+  if (!n) return { kind: 'dezbatut', text: 'Luat în dezbatere, fără o hotărâre notată în sumar' };
+  if (/^(retras|scos)/.test(n)) return { kind: 'alt', text: upper(nota) };
+  return { kind: 'alt', text: upper(nota) };
+}
+
+/**
+ * Rezultatele unei apariții.
+ `until` e ziua următoarei apariții a proiectului la același organ (exclusiv), dacă există.
  * Nimic pentru zilele care n-au trecut: ședința de azi încă n-a avut loc la ora build-ului (dimineața).
  */
-export function outcomesFor(a: AgendaAppearance, src: OutcomeSources, today: string, until: string | null = null): AgendaOutcome[] {
+export function outcomesFor(
+  a: AgendaAppearance,
+  src: OutcomeSources,
+  today: string,
+  until: string | null = null,
+  records: ChamberRecords | null = null,
+): AgendaOutcome[] {
   if (a.zi >= today) return [];
   const cap = shift(a.zi, a.plen ? PLEN_DAYS : COMMITTEE_DAYS);
   const end = until && until < cap ? until : cap;
@@ -210,7 +313,9 @@ export function outcomesFor(a: AgendaAppearance, src: OutcomeSources, today: str
     // Același pas din două surse (ordinea de zi și fișa, fișa și votul): un singur rând, cu toate sursele și cu cifrele.
     // Doar hotărârea plenului (adoptat, respins) se unește după fel și zi; ea păstrează formularea mai precisă („tacit”,
     // „definitiv”). Rapoartele și avizele se unesc doar cu același text.
-    const plenary = o.kind === 'adoptat' || o.kind === 'respins';
+    // Dezbaterea și retrimiterea din aceeași zi sunt tot un singur pas, oricum l-ar formula sursa; rămâne prima formulare
+    // (stenograma, care vine întâi, e cea mai precisă).
+    const plenary = o.kind === 'adoptat' || o.kind === 'respins' || o.kind === 'dezbatut' || o.kind === 'retrimis';
     const same = out.find((x) => x.kind === o.kind && x.date === o.date && (plenary || x.text === o.text));
     if (same) {
       if (plenary && /tacit|definitiv/.test(o.text) && !/tacit|definitiv/.test(same.text)) same.text = o.text;
@@ -249,6 +354,11 @@ export function outcomesFor(a: AgendaAppearance, src: OutcomeSources, today: str
     }
   }
 
+  const key = a.chamber === 'camera' ? chamberKey(a.punct.numar) : null;
+  // idp-ul e al fișei unei legi (upl_pck2015); hotărârile Camerei (PHCD) au alt șir de idp-uri, deci nu potrivim după el.
+  const lawIdp = !key || key.startsWith('PLX ');
+  const sameBill = (numar: string | null, idp: number | null) => (!!key && numar === key) || (lawIdp && !!idp && !!a.punct.cod && String(idp) === a.punct.cod);
+
   if (a.chamber === 'camera' && !a.plen && src.camera?.raport.includes(a.comisieId)) {
     for (const r of src.camera.timeline) {
       const d = iso(r.data);
@@ -257,8 +367,37 @@ export function outcomesFor(a: AgendaAppearance, src: OutcomeSources, today: str
     }
   }
 
+  // Avizele și rapoartele de pe pagina comisiei: ale ei, pentru același proiect, datate în fereastra ședinței. Raportul
+  // e de obicei și pe fișă („primire raport favorabil … de la:”, cu direcția lui): atunci documentul e încă o sursă.
+  if (a.chamber === 'camera' && !a.plen) {
+    for (const d of records?.comisii.get(a.comisieId) ?? []) {
+      if (!inWindow(d.data) || !sameBill(d.numar, d.idp)) continue;
+      const doc: OutcomeSource = { label: d.tip === 'raport' ? 'Raportul comisiei pe cdep.ro' : 'Avizul comisiei pe cdep.ro', url: d.pdf };
+      // Același raport doar când rândul din fișă e la cel mult trei zile de data documentului (raportul suplimentar e altul).
+      const near = (x: AgendaOutcome) => Math.abs(Date.parse(x.date) - Date.parse(d.data)) <= 3 * 86_400_000;
+      const fromSheet = d.tip === 'raport' ? out.find((x) => x.kind === 'raport' && near(x) && x.sources.some((s) => s.url === chamberSheet?.url)) : undefined;
+      if (fromSheet) {
+        if (!fromSheet.sources.some((s) => s.url === doc.url)) fromSheet.sources.push(doc);
+        continue;
+      }
+      // Lista comisiei spune doar că documentul e al ei și data lui, nu și când a fost trimis sau din ce ședință vine.
+      const text = d.tip === 'aviz' ? 'Aviz al comisiei' : d.comune.length > 1 ? 'Raport comun al comisiilor' : 'Raport al comisiei';
+      push({ kind: d.tip, text, detail: null, date: d.data, sources: [doc] });
+    }
+  }
+
+  // Plenul Camerei: întâi sumarul stenogramei din ziua ședinței (formularea lui rămâne la pașii din aceeași zi).
+  const plenDay = a.chamber === 'camera' && a.plen ? records?.plen.get(a.zi) : undefined;
+  const steno = plenDay?.stenograma?.tip === 'camera' ? plenDay.stenograma : null;
+  if (steno && key) {
+    for (const p of steno.puncte.filter((p) => p.numere.includes(key) && !p.mentiune)) {
+      push({ ...stenoNote(p.nota), detail: null, date: a.zi, sources: [{ label: 'Stenograma ședinței pe cdep.ro', url: stenoItemUrl(p) }] });
+    }
+  }
+
   if (a.chamber === 'camera' && a.plen) {
     for (const r of src.camera?.timeline ?? []) {
+
       if (/senat/i.test(r.camera ?? '')) continue;
       const d = iso(r.data);
       const hit = inWindow(d) && plenaryRow(r.actiune, 'camera');
@@ -281,14 +420,52 @@ export function outcomesFor(a: AgendaAppearance, src: OutcomeSources, today: str
       if (same) same.detail = detail;
       push({ kind, text, detail, date: v.date, sources: [{ label: `Votul pe ${site}`, url: v.url }] });
     }
-    // Un vot final face redundantă dezbaterea din aceeași zi.
-    if (out.some((o) => o.kind === 'adoptat' || o.kind === 'respins')) {
-      for (let i = out.length - 1; i >= 0; i--) if (out[i].kind === 'dezbatut') out.splice(i, 1);
+    // Până apare stenograma: voturile electronice ale zilei pentru proiect. Pagina nu spune dacă votul a trecut, deci
+    // spunem doar ce s-a votat, cu cifrele. Când avem deja hotărârea din aceeași zi (din fișă sau din votul nominal),
+    // votul zilei e doar încă o sursă pentru ea.
+    if (a.chamber === 'camera' && !steno) {
+      const numbers = (d: string | null) => d?.match(/^(\d+) pentru.*?, (\d+) contra/)?.slice(1).join('|') ?? null;
+      for (const v of plenDay?.voturi?.voturi ?? []) {
+        if (!sameBill(v.numar, v.idp) || v.pentru == null || v.contra == null) continue;
+        const final = /^vot final/i.test(v.descriere);
+        const sendBack = /retrimitere la comisie/i.test(v.descriere);
+        if (!final && !sendBack) continue;
+        // „adoptare” / „respingere” e primul cuvânt al detaliului; un titlu cu „respingerea OUG” nu e o întrebare de respingere.
+        const respingere = /^\s*respingere\b/i.test(v.detaliu);
+        const detail = totalsText({ pentru: v.pentru, contra: v.contra, abtineri: v.abtineri }, respingere ? 'respingere' : 'adoptare');
+        const source: OutcomeSource = { label: 'Votul pe cdep.ro', url: dayVoteUrl(v) };
+        const idv = new RegExp(`idv=${v.idv}(?!\\d)`);
+        // Același vot: aceeași sursă (idv) sau, pentru votul final, hotărârea din aceeași zi cu aceleași cifre.
+        const same =
+          out.find((x) => x.sources.some((s) => idv.test(s.url))) ??
+          out.find((x) => x.date === a.zi && (final ? x.kind === 'adoptat' || x.kind === 'respins' : x.kind === 'retrimis') && (!final || numbers(x.detail) === `${v.pentru}|${v.contra}`));
+        if (same) {
+          same.detail ??= detail;
+          if (!same.sources.some((s) => idv.test(s.url))) same.sources.push(source);
+          continue;
+        }
+        const text = final ? `Supus votului final${respingere ? ' (pentru respingere)' : ''}` : 'Vot asupra retrimiterii la comisie';
+        out.push({ kind: 'alt', text, detail, date: a.zi, later: false, sources: [source] });
+      }
     }
+    // Un vot final face redundantă dezbaterea din aceeași zi.
+    // Doar în aceeași zi: dezbaterea de luni rămâne lângă votul final de miercuri.
+    for (let i = out.length - 1; i >= 0; i--) {
+      if (out[i].kind === 'dezbatut' && out.some((o) => (o.kind === 'adoptat' || o.kind === 'respins') && o.date === out[i].date)) out.splice(i, 1);
+    }
+  }
+
+  // Nedezbătut: doar cu sumarul întreg al stenogramei din ziua aceea, fără proiect în el (nici pomenit) și fără niciun alt
+  // pas din aceeași zi (un vot sau un rând din fișă ar contrazice sumarul: atunci nu spunem nimic).
+  const inSteno = !!steno && !!key && steno.puncte.some((p) => p.numere.includes(key));
+  const votedThatDay = (plenDay?.voturi?.voturi ?? []).some((v) => sameBill(v.numar, v.idp));
+  if (steno && key && steno.complet !== false && !inSteno && !votedThatDay && !out.some((o) => o.date === a.zi)) {
+    out.push({ kind: 'nedezbatut', text: 'Nu a fost dezbătut în această ședință', detail: null, date: a.zi, later: false, sources: [{ label: 'Sumarul ședinței pe cdep.ro', url: steno.url }] });
   }
 
   return out.sort((x, y) => x.date.localeCompare(y.date));
 }
+
 
 // —— Citirea surselor, la build ——
 
@@ -331,7 +508,25 @@ export async function loadOutcomeSources(hrefs: { chamber: 'senat' | 'camera'; s
   return out;
 }
 
-/** Pentru fiecare apariție (în ordinea dată): ziua următoarei apariții a aceluiași proiect la același organ. */
+/** Zilele de plen ale Camerei și documentele comisiilor ei (scripts/straja-cdep-plen.mjs); goale fără fișiere. */
+export async function loadChamberRecords(root = process.cwd()): Promise<ChamberRecords> {
+  const dir = path.join(root, 'data', 'cdep');
+  const list = async (d: string) => (await fs.readdir(path.join(dir, d)).catch(() => [] as string[])).filter((f) => f.endsWith('.json'));
+  const plen = new Map<string, ChamberPlenDay>();
+  for (const f of await list('plen')) {
+    const day = await readJson<ChamberPlenDay>(path.join(dir, 'plen', f));
+    if (day?.zi) plen.set(day.zi, day);
+  }
+  const comisii = new Map<string, CommitteeDoc[]>();
+  for (const f of await list('comisii-documente')) {
+    const c = await readJson<{ idc: string | number; documente?: CommitteeDoc[] }>(path.join(dir, 'comisii-documente', f));
+    if (c?.idc != null) comisii.set(String(c.idc), c.documente ?? []);
+  }
+  return { plen, comisii };
+}
+
+/** Pentru fiecare apariție (în ordinea dată): ziua următoarei apariții
+ a aceluiași proiect la același organ. */
 export function nextAtSameBody(appearances: AgendaAppearance[]) {
   const key = (a: AgendaAppearance) => `${a.chamber}|${a.plen ? 'plen' : a.comisieId}|${a.bill.href}`;
   const days = new Map<string, string[]>();

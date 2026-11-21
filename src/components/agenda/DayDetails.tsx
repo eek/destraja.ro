@@ -28,6 +28,15 @@ const HEAVY_SESSIONS = 4;
 /** Ordinea în care un rezultat spune cel mai mult, pentru rezumatul zilei. */
 const WEIGHT: OutcomeKind[] = ['adoptat', 'respins', 'retrimis', 'raport', 'aviz', 'amanat', 'dezbatut', 'alt'];
 const mainKind = (o: AgendaOutcome[]) => WEIGHT.find((k) => o.some((x) => x.kind === k)) ?? null;
+/**
+ * „Nedezbătut” (stenograma plenului Camerei arată că proiectul n-a ajuns în dezbatere în ziua aceea) e un fapt, nu un
+ * rezultat: se numără separat, iar „Doar cu rezultat” nu-l arată.
+ */
+/** „57 din cele 59 de puncte”, „toate cele 3 puncte”, „singurul punct”, „1 din cele 2 puncte”. */
+const ofAll = (part: number, total: number, one: string, many: string) =>
+  part === total ? (total === 1 ? `singurul ${one}` : `toate cele ${countWord(total, one, many)}`) : `${part} din cele ${countWord(total, one, many)}`;
+const hasResult = (it: CalItem) => it.outcomes.some((o) => o.kind !== 'nedezbatut');
+const notDebated = (it: CalItem) => !hasResult(it) && it.outcomes.some((o) => o.kind === 'nedezbatut');
 
 export const fullDate = (iso: string) => new Intl.DateTimeFormat('ro-RO', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${iso}T12:00:00Z`));
 const dayMonth = (iso: string) => new Intl.DateTimeFormat('ro-RO', { day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(`${iso}T12:00:00Z`));
@@ -75,7 +84,7 @@ export default function DayDetails({
   const match = (sess: CalSession, it: CalItem) => {
     if (filters.chamber !== 'toate' && sess.chamber !== filters.chamber) return false;
     if (filters.red && bills[it.b].risk?.level !== 'red') return false;
-    if (filters.withOutcome && !it.outcomes.length) return false;
+    if (filters.withOutcome && !hasResult(it)) return false;
     if (q) {
       const b = bills[it.b];
       return normalize(`${b.title} ${b.id} ${it.numar ?? ''} ${sess.comisie}`).includes(q);
@@ -92,7 +101,11 @@ export default function DayDetails({
   const [all, setAll] = useState<Set<string>>(() => new Set());
 
   const allItems = sessions.flatMap((x) => x.items);
-  const withOutcome = allItems.filter((it) => it.outcomes.length);
+  const withOutcome = allItems.filter(hasResult);
+  const skipped = allItems.filter(notDebated).length;
+  const unknown = allItems.length - withOutcome.length - skipped;
+  // „Nedezbătut” vine doar din stenograma plenului Camerei: îl raportăm la punctele de pe ordinea de zi a plenului.
+  const plenCamera = sessions.filter((x) => x.chamber === 'camera' && x.plen).reduce((n, x) => n + x.items.length, 0);
   const sameDay = withOutcome.filter((it) => it.outcomes.some((o) => !o.later)).length;
   const kinds = new Map<OutcomeKind, number>();
   for (const it of withOutcome) {
@@ -144,19 +157,28 @@ export default function DayDetails({
                   <span className="font-semibold text-ink">Ce s-a întâmplat:</span> căutăm rezultatele la fiecare actualizare a site-ului, în zilele
                   lucrătoare; pentru ziua aceasta le căutăm la următoarea.
                 </p>
-              ) : withOutcome.length ? (
+              ) : withOutcome.length || skipped ? (
                 <p>
-                  <span className="font-semibold text-ink">Ce s-a întâmplat:</span> rezultat găsit pentru {withOutcome.length} din{' '}
-                  {countWord(allItems.length, 'punct', 'puncte')} de pe ordinile de zi
-                  {kinds.size > 0 && ` (${summaryKinds(kinds)})`}
-                  {sameDay < withOutcome.length &&
-                    `; ${withOutcome.length - sameDay === 1 ? 'unul e un pas înregistrat' : `${withOutcome.length - sameDay} sunt pași înregistrați`} în zilele următoare`}
-                  . Pentru celelalte nu avem încă un rezultat.
+                  <span className="font-semibold text-ink">Ce s-a întâmplat:</span>{' '}
+                  {withOutcome.length > 0 && (
+                    <>
+                      rezultat găsit pentru {withOutcome.length} din {countWord(allItems.length, 'punct', 'puncte')} de pe ordinile de zi
+                      {kinds.size > 0 && ` (${summaryKinds(kinds)})`}
+                      {sameDay < withOutcome.length &&
+                        `; ${withOutcome.length - sameDay === 1 ? 'unul e un pas înregistrat' : `${withOutcome.length - sameDay} sunt pași înregistrați`} în zilele următoare`}
+                      {skipped > 0 ? '; ' : '. '}
+                    </>
+                  )}
+                  {skipped > 0 &&
+                    `${ofAll(skipped, plenCamera, 'punct', 'puncte')} de pe ordinea de zi a plenului Camerei ${
+                      skipped === 1 ? 'n-a fost dezbătut' : 'n-au fost dezbătute'
+                    } în ziua aceasta, după stenograma ședinței. `}
+                  {unknown > 0 && (withOutcome.length + skipped === 0 ? '' : unknown === 1 ? 'Pentru celălalt nu avem încă un rezultat.' : 'Pentru celelalte nu avem încă un rezultat.')}
                 </p>
               ) : (
                 <p>
                   <span className="font-semibold text-ink">Ce s-a întâmplat:</span> nu avem încă niciun rezultat pentru această zi. Rezultatele apar aici
-                  când le găsim într-o sursă oficială pe care o citim (ordinea de zi a Senatului, fișa proiectului, votul din plen); pentru unele ședințe
+                  când le găsim într-o sursă oficială pe care o citim (ordinea de zi a Senatului, fișa proiectului, votul din plen, stenograma plenului Camerei, documentele comisiilor Camerei); pentru unele ședințe
                   nu apar deloc.
                 </p>
               )}
@@ -362,7 +384,9 @@ function SessionSheet({
 }) {
   const bills = ix.data.bills;
   const red = items.filter((it) => bills[it.b].risk?.level === 'red').length;
-  const done = items.filter((it) => it.outcomes.length).length;
+  const done = items.filter(hasResult).length;
+  const skipped = items.filter(notDebated).length;
+  const skippedAll = sess.items.filter(notDebated).length;
   const visible = showAll ? items.length : initialRows(items.length, ROWS);
   const bodyId = `sedinta-${zi}-${sess.key}`;
   const when = sess.ora ? `ora ${sess.ora}${sess.oraFinal ? `–${sess.oraFinal}` : ''}` : 'ora nu e anunțată';
@@ -380,7 +404,8 @@ function SessionSheet({
               {red} cu risc ridicat
             </span>
           )}
-          {past && <span>{done ? `${done} cu rezultat` : 'fără rezultat încă'}</span>}
+          {past && (done > 0 || !skipped) && <span>{done ? `${done} cu rezultat` : 'fără rezultat încă'}</span>}
+          {past && skipped > 0 && <span>{countWord(skipped, 'nedezbătut', 'nedezbătute')}</span>}
         </span>
       </span>
       {canToggle && <ChevronDown aria-hidden className={`mt-1 h-5 w-5 shrink-0 text-muted transition-transform ${open ? 'rotate-180' : ''}`} />}
@@ -399,24 +424,50 @@ function SessionSheet({
       </h3>
       {open && (
         <div id={bodyId} className="-mt-2 px-5 pb-5 sm:px-6 sm:pb-6">
-          {sess.url && (
-            <a
-              href={sess.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              {...trackAttrs('official_source_open', { source: `${sess.chamber}_agenda`, page: 'agenda' })}
-              className="inline-block text-sm font-semibold text-link underline underline-offset-4 hover:decoration-2"
-            >
-              Ordinea de zi pe {SITE[sess.chamber]}
-              <ExternalLink className="ml-1 inline h-3.5 w-3.5 align-[-2px]" aria-hidden />
-              <span className="sr-only"> (se deschide într-o filă nouă)</span>
-            </a>
-          )}
-          {sess.plen && sess.chamber === 'camera' && sess.items.length > 15 && (
+          <div className="flex flex-wrap gap-x-5 gap-y-2">
+            {sess.url && (
+              <a
+                href={sess.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                {...trackAttrs('official_source_open', { source: `${sess.chamber}_agenda`, page: 'agenda' })}
+                className="inline-block text-sm font-semibold text-link underline underline-offset-4 hover:decoration-2"
+              >
+                Ordinea de zi pe {SITE[sess.chamber]}
+                <ExternalLink className="ml-1 inline h-3.5 w-3.5 align-[-2px]" aria-hidden />
+                <span className="sr-only"> (se deschide într-o filă nouă)</span>
+              </a>
+            )}
+            {sess.stenograma && (
+              <a
+                href={sess.stenograma}
+                target="_blank"
+                rel="noopener noreferrer"
+                {...trackAttrs('official_source_open', { source: 'camera_steno', page: 'agenda' })}
+                className="inline-block text-sm font-semibold text-link underline underline-offset-4 hover:decoration-2"
+              >
+                Stenograma ședinței pe cdep.ro
+                <ExternalLink className="ml-1 inline h-3.5 w-3.5 align-[-2px]" aria-hidden />
+                <span className="sr-only"> (se deschide într-o filă nouă)</span>
+              </a>
+            )}
+          </div>
+          {sess.plen && sess.chamber === 'camera' && past && sess.stenograma && skippedAll > 0 ? (
             <p className="mt-2 text-sm leading-6 text-muted">
-              Ordinea de zi a plenului Camerei e lungă și se reia de la o ședință la alta: multe proiecte de pe ea nu ajung să fie dezbătute în ziua
-              respectivă.
+              Ordinea de zi a plenului Camerei e lungă și se reia de la o ședință la alta. După stenograma ședinței,{' '}
+              {`${ofAll(skippedAll, sess.items.length, 'proiect urmărit', 'proiecte urmărite')} de pe ea ${
+                skippedAll === 1 ? 'n-a fost dezbătut' : 'n-au fost dezbătute'
+              } în ziua aceasta.`}
             </p>
+          ) : (
+            sess.plen &&
+            sess.chamber === 'camera' &&
+            sess.items.length > 15 && (
+              <p className="mt-2 text-sm leading-6 text-muted">
+                Ordinea de zi a plenului Camerei e lungă și se reia de la o ședință la alta: multe proiecte de pe ea nu ajung să fie dezbătute în ziua
+                respectivă.{past && ' Ce s-a dezbătut aflăm din stenograma ședinței, publicată de Cameră la câteva zile după.'}
+              </p>
+            )
           )}
           <ul className="mt-4 divide-y divide-line border-t border-line">
             {items.slice(0, visible).map((it, i) => (
@@ -437,6 +488,7 @@ function SessionSheet({
     </div>
   );
 }
+
 
 function BillRow({ it, ix, past }: { it: CalItem; ix: CalIndex; past: boolean }) {
   const b = ix.data.bills[it.b];
@@ -476,11 +528,13 @@ function BillRow({ it, ix, past }: { it: CalItem; ix: CalIndex; past: boolean })
 }
 
 function Outcome({ o }: { o: AgendaOutcome }) {
+  // Un proiect nedezbătut nu are un rezultat: linia e mai discretă decât a unei hotărâri.
+  const quiet = o.kind === 'nedezbatut';
   return (
-    <div className="border-l-2 border-brand pl-3 text-sm leading-6">
+    <div className={`border-l-2 ${quiet ? 'border-line-strong' : 'border-brand'} pl-3 text-sm leading-6`}>
       <p className="text-body">
-        {o.later ? <span className="text-muted">Ulterior, pe {dayMonth(o.date)}: </span> : <span className="sr-only">Rezultat: </span>}
-        <span className="font-semibold text-ink">{o.text}</span>
+        {o.later ? <span className="text-muted">Ulterior, pe {dayMonth(o.date)}: </span> : <span className="sr-only">{quiet ? 'În ziua ședinței: ' : 'Rezultat: '}</span>}
+        <span className={quiet ? 'font-medium text-body' : 'font-semibold text-ink'}>{o.text}</span>
         {o.detail && <span className="tabular-nums"> · {o.detail}</span>}
       </p>
       <p className="text-muted">

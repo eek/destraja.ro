@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { nextAtSameBody, outcomesFor, senateResolution, totalsText } from '../../src/lib/agenda-outcomes.ts';
+import { nextAtSameBody, outcomesFor, senateResolution, stenoNote, totalsText } from '../../src/lib/agenda-outcomes.ts';
 
 const bill = { chamber: 'camera', slug: 'plx-1-2026', href: '/camera/plx-1-2026', id: 'PL-x 1/2026', title: 'Un proiect', risk: null };
 const app = (over = {}) => ({
@@ -134,4 +134,116 @@ test('adoptarea tacită păstrează precizarea, iar abținerile lipsă nu devin 
 test('„Respins” la o comisie a Senatului e hotărârea comisiei, nu respingerea proiectului', () => {
   assert.deepEqual(senateResolution('Respins', 'RAPORT'), { kind: 'alt', text: 'Respins în comisie' });
   assert.deepEqual(senateResolution('Adoptat cu amendamente', 'RAPORT comun'), { kind: 'raport', text: 'Raport adoptat în comisie cu amendamente' });
+});
+
+// —— Plenul Camerei din stenogramă și voturile zilei; documentele comisiilor ——
+
+const STENO_URL = 'https://www.cdep.ro/ords/pls/steno/steno2015.data?cam=2&dat=20261111&idl=1';
+const day = (puncte, over = {}) => ({ plen: new Map([['2026-11-18', { zi: '2026-11-18', stenograma: { url: STENO_URL, tip: 'camera', puncte }, ...over }]]), comisii: new Map() });
+const item = (nr, numere, nota, votFinal = false) => ({ ids: 9087, idm: nr.replace('.', '.00'), nr, numere, nota, votFinal });
+
+test('stenograma: dezbătut și rămas pentru votul final, apoi adoptat la votul final, cu votul nominal ca a doua sursă', () => {
+  const rec = day([item('4', ['PLX 1/2026'], 'rămas pentru votul final'), item('7.1', ['PLX 1/2026'], 'adoptat', true)]);
+  const src = { ...none, votes: [{ chamber: 'cdep', url: 'https://www.cdep.ro/ords/pls/steno/evot2015.Nominal?idv=37516', date: '2026-11-18', question: 'adoptare', result: 'adoptat', totals: { pentru: 215, contra: 0, abtineri: 0 }, subject: 'Vot final' }] };
+  const o = outcomesFor(app(), src, TODAY, null, rec);
+  assert.equal(o.length, 1, 'votul final face redundantă dezbaterea');
+  assert.equal(o[0].text, 'Adoptat de Camera Deputaților');
+  assert.equal(o[0].detail, '215 pentru, 0 contra, nicio abținere');
+  assert.deepEqual(o[0].sources.map((s) => s.label), ['Stenograma ședinței pe cdep.ro', 'Votul pe cdep.ro']);
+  assert.match(o[0].sources[0].url, /steno2015\.stenograma\?ids=9087&idm=7\.001/);
+});
+
+test('stenograma: retrimisă comisiei, rămasă pentru votul final, adoptată tacit', () => {
+  assert.equal(outcomesFor(app(), none, TODAY, null, day([item('10', ['PLX 1/2026'], 'retrimisă comisiei')]))[0].text, 'Retrimis la comisie');
+  const [d] = outcomesFor(app(), none, TODAY, null, day([item('3', ['PLX 1/2026'], 'rămasă pentru votul final')]));
+  assert.deepEqual([d.kind, d.text, d.later], ['dezbatut', 'Dezbătut, rămas pentru votul final', false]);
+  assert.equal(outcomesFor(app(), none, TODAY, null, day([item('8', ['PLX 1/2026'], 'adoptată ca urmare a depășirii termenului constituțional')]))[0].text, 'Adoptat tacit de Camera Deputaților (termenul a expirat)');
+});
+
+test('nedezbătut doar cu sumarul stenogramei, doar pentru un punct cu număr și doar fără alt pas în aceeași zi', () => {
+  const rec = day([item('4', ['PLX 9/2026'], 'rămas pentru votul final')]);
+  const [o] = outcomesFor(app(), none, TODAY, null, rec);
+  assert.deepEqual([o.kind, o.text, o.sources[0].url], ['nedezbatut', 'Nu a fost dezbătut în această ședință', STENO_URL]);
+  assert.deepEqual(outcomesFor(app(), none, TODAY, null, null), [], 'fără stenogramă nu spunem nimic');
+  assert.deepEqual(outcomesFor(app({ punct: { ...app().punct, numar: '' } }), none, TODAY, null, rec), [], 'fără număr nu putem ști');
+  const comuna = day([], { stenograma: { url: STENO_URL, tip: 'comuna', puncte: [] } });
+  assert.deepEqual(outcomesFor(app(), none, TODAY, null, comuna), [], 'ședința comună nu e plenul Camerei');
+  const sheet = camera([{ camera: 'Camera Deputaților', data: '18.11.2026', actiune: 'adoptat de Camera Deputatilor' }]);
+  assert.deepEqual(outcomesFor(app(), sheet, TODAY, null, rec).map((x) => x.kind), ['adoptat'], 'fișa contrazice sumarul: nu spunem „nedezbătut”');
+  assert.deepEqual(outcomesFor(app({ zi: TODAY }), none, TODAY, null, rec), [], 'nici azi');
+});
+
+test('„dezbatere în plenul … pentru ședințele din zilele de …” e programarea, nu dezbaterea', () => {
+  const src = camera([{ camera: 'Camera Deputaților', data: '18.11.2026', actiune: 'dezbatere în plenul Camerei Deputatilor pentru ședințele Camerei Deputaților din zilele de 16 și 18 noiembrie 2026' }]);
+  assert.deepEqual(outcomesFor(app(), src, TODAY), []);
+  const real = camera([{ camera: 'Camera Deputaților', data: '18.11.2026', actiune: 'dezbatere în plenul Camerei Deputatilor consultati stenograma sedintei' }]);
+  assert.equal(outcomesFor(app(), real, TODAY)[0].text, 'Dezbătut în plen');
+});
+
+test('voturile zilei, până la stenogramă: ce s-a votat, fără să spunem dacă a trecut; votul cunoscut nu se repetă', () => {
+  const vot = (over) => ({ idv: 37518, descriere: 'Vot final', detaliu: 'adoptare', numar: 'PLX 1/2026', idp: null, pentru: 234, contra: 0, abtineri: 1, ...over });
+  const rec = (voturi) => ({ plen: new Map([['2026-11-18', { zi: '2026-11-18', voturi: { url: 'https://www.cdep.ro/evot', voturi } }]]), comisii: new Map() });
+  const [o] = outcomesFor(app(), none, TODAY, null, rec([vot()]));
+  assert.deepEqual([o.kind, o.text, o.detail], ['alt', 'Supus votului final', '234 pentru, 0 contra, 1 abținere']);
+  assert.match(o.sources[0].url, /evot2015\.Nominal\?idv=37518$/);
+  const sheet = camera([{ camera: 'Camera Deputaților', data: '18.11.2026', actiune: 'adoptat de Camera Deputatilor rezultat vot pentru=234, contra=0, abtineri=1' }]);
+  const both = outcomesFor(app(), sheet, TODAY, null, rec([vot()]));
+  assert.deepEqual(both.map((x) => x.text), ['Adoptat de Camera Deputaților']);
+  assert.equal(both[0].sources.length, 2);
+  const idp = outcomesFor(app({ punct: { ...app().punct, cod: '22901' } }), none, TODAY, null, rec([vot({ numar: 'PLX 20/2026', idp: 22901 })]));
+  assert.equal(idp.length, 1, 'după idp-ul fișei');
+  const back = outcomesFor(app(), none, TODAY, null, rec([vot({ descriere: 'PL-x 1/2026 Retrimitere la comisie', detaliu: '' }), vot({ idv: 1, descriere: 'Stabilire timpi dezbatere' })]));
+  assert.deepEqual(back.map((x) => x.text), ['Vot asupra retrimiterii la comisie']);
+});
+
+test('comisiile Camerei: avizul de pe pagina comisiei e al ei; raportul din fișă primește documentul ca sursă', () => {
+  const com = app({ comisieId: '11', comisie: 'Comisia juridică, de disciplină și imunități', plen: false, zi: '2026-11-17' });
+  const doc = (over) => ({ tip: 'aviz', data: '2026-11-19', pdf: 'https://www.cdep.ro/comisii/juridica/pdf/2026/av1.pdf', idp: 1, numar: 'PLX 1/2026', comune: [], ...over });
+  const rec = (docs, idc = '11') => ({ plen: new Map(), comisii: new Map([[idc, docs]]) });
+  const [a] = outcomesFor(com, none, TODAY, null, rec([doc()]));
+  assert.deepEqual([a.kind, a.text, a.later, a.date], ['aviz', 'Aviz al comisiei', true, '2026-11-19']);
+  assert.deepEqual(outcomesFor(com, none, TODAY, null, rec([doc()], '5')), [], 'avizul altei comisii');
+  assert.deepEqual(outcomesFor(com, none, TODAY, null, rec([doc({ data: '2026-11-16' })])), [], 'document de dinaintea ședinței');
+  assert.deepEqual(outcomesFor(com, none, TODAY, '2026-11-18', rec([doc()])), [], 'după următoarea ședință a comisiei cu proiectul');
+  const rows = [{ camera: 'Camera Deputaților', data: '18.11.2026', actiune: 'primire raport favorabil de la:' }];
+  const r = outcomesFor(com, camera(rows, ['11']), TODAY, null, rec([doc({ tip: 'raport', data: '2026-11-18', pdf: 'https://www.cdep.ro/rp1.pdf' })]));
+  assert.equal(r.length, 1);
+  assert.equal(r[0].text, 'Raport favorabil, primit de Cameră');
+  assert.deepEqual(r[0].sources.map((s) => s.label), ['Fișa proiectului pe cdep.ro', 'Raportul comisiei pe cdep.ro']);
+  const joint = outcomesFor(com, none, TODAY, null, rec([doc({ tip: 'raport', comune: ['3', '11'] })]));
+  assert.equal(joint[0].text, 'Raport comun al comisiilor');
+});
+
+test('dezbătut luni, adoptat miercuri: dezbaterea de luni rămâne și nu devine „nedezbătut”', () => {
+  const rec = day([item('4', ['PLX 1/2026'], 'rămas pentru votul final')]);
+  rec.plen.set('2026-11-16', { ...rec.plen.get('2026-11-18'), zi: '2026-11-16' });
+  const sheet = camera([{ camera: 'Camera Deputaților', data: '18.11.2026', actiune: 'adoptat de Camera Deputatilor' }]);
+  const o = outcomesFor(app({ zi: '2026-11-16' }), sheet, TODAY, null, rec);
+  assert.deepEqual(o.map((x) => [x.kind, x.date]), [['dezbatut', '2026-11-16'], ['adoptat', '2026-11-18']]);
+});
+
+test('un proiect doar pomenit (declarații politice) sau un sumar citit pe jumătate nu dovedesc nimic', () => {
+  const mention = day([{ ...item('1.3', ['PLX 1/2026'], ''), mentiune: true }, item('4', ['PLX 9/2026'], 'adoptat')]);
+  assert.deepEqual(outcomesFor(app(), none, TODAY, null, mention), []);
+  const partial = day([item('4', ['PLX 9/2026'], 'adoptat')]);
+  partial.plen.get('2026-11-18').stenograma.complet = false;
+  assert.deepEqual(outcomesFor(app(), none, TODAY, null, partial), []);
+});
+
+test('notele despre o cerere nu sunt hotărârea asupra proiectului', () => {
+  assert.equal(stenoNote('adoptată propunerea de respingere').kind, 'alt');
+  assert.equal(stenoNote('respinsă cererea de retrimitere la comisie').kind, 'alt');
+  assert.equal(stenoNote('rămase pentru votul final').kind, 'dezbatut');
+  assert.equal(stenoNote('').text, 'Luat în dezbatere, fără o hotărâre notată în sumar');
+});
+
+test('voturile zilei: două voturi finale rămân două; „respingerea” din titlu nu e o întrebare de respingere; idp doar la legi', () => {
+  const vot = (over) => ({ idv: 1, descriere: 'Vot final', detaliu: 'adoptare', numar: 'PLX 1/2026', idp: null, pentru: 100, contra: 90, abtineri: 3, ...over });
+  const rec = (voturi) => ({ plen: new Map([['2026-11-18', { zi: '2026-11-18', voturi: { url: 'https://www.cdep.ro/evot', voturi } }]]), comisii: new Map() });
+  const two = outcomesFor(app(), none, TODAY, null, rec([vot({ detaliu: 'respingere' }), vot({ idv: 2, pentru: 200, contra: 5 })]));
+  assert.deepEqual(two.map((x) => x.text), ['Supus votului final (pentru respingere)', 'Supus votului final']);
+  const title = outcomesFor(app(), none, TODAY, null, rec([vot({ detaliu: '- Proiectul de Lege pentru respingerea OUG nr. 1/2026' })]));
+  assert.equal(title[0].text, 'Supus votului final');
+  const phcd = app({ punct: { ...app().punct, numar: 'PHCD 79/2026', cod: '1455' } });
+  assert.deepEqual(outcomesFor(phcd, none, TODAY, null, rec([vot({ numar: 'PLX 5/2026', idp: 1455 })])), []);
 });

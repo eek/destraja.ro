@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Capturi pentru calendarul agendei: desktop 1440 și telefon 390, tema deschisă și cea închisă.
 //   node shots/shoot.mjs <base-url> <out-dir> <nume>=<cale>[@full] …
+//   SCROLL=<selector> ajunge la un element, OPEN=<id> deschide o ședință și ajunge la ea; THEMES, SIZES, WAIT
 import path from 'node:path';
 import os from 'node:os';
 import fs from 'node:fs';
@@ -29,6 +30,15 @@ for (const spec of specs) {
       const page = await ctx.newPage();
       await page.goto(base + p, { waitUntil: 'networkidle', timeout: 120_000 });
       await page.waitForTimeout(Number(process.env.WAIT ?? 1500));
+      // OPEN: id-ul corpului unei ședințe („sedinta-2026-11-11-camera-plen”): o deschide dacă e închisă și ajunge la ea.
+      if (process.env.OPEN) {
+        const btn = page.locator(`button[aria-controls="${process.env.OPEN}"]`).first();
+        if (await btn.count()) {
+          if ((await btn.getAttribute('aria-expanded')) === 'false') await btn.click();
+          await btn.evaluate((n) => { n.scrollIntoView({ block: 'start' }); window.scrollBy(0, -90); });
+          await page.waitForTimeout(400);
+        }
+      }
       if (process.env.SCROLL) {
         const el = page.locator(process.env.SCROLL).first();
         if (await el.count()) await el.evaluate((n) => { n.scrollIntoView({ block: 'start' }); window.scrollBy(0, -90); });

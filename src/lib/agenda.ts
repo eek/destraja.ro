@@ -70,7 +70,8 @@ export interface AgendaAppearance {
   loc: string | null;
   /** Ordinea de zi oficială. */
   url: string | null;
-  punct: { nr: string; numar: string; capitol: string; scop: string; termen: string; rezolutie: string };
+  /** `cod`: la Cameră idp-ul fișei, la Senat codul fișei, când ordinea de zi îl are. */
+  punct: { nr: string; numar: string; cod?: string | null; capitol: string; scop: string; termen: string; rezolutie: string };
   bill: AgendaBill;
 }
 
@@ -319,7 +320,7 @@ async function load(dir: string, root: string): Promise<AgendaData> {
           plen: PLEN.test(d.comisie),
           loc: place(when),
           url: d.url,
-          punct: { nr: p.nr, numar: p.numar, capitol: p.capitol, scop: p.scop, termen: p.termen, rezolutie: p.rezolutie },
+          punct: { nr: p.nr, numar: p.numar, cod: p.cod, capitol: p.capitol, scop: p.scop, termen: p.termen, rezolutie: p.rezolutie },
           bill,
         });
       }

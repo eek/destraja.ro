@@ -1,87 +1,37 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
-import { getAgenda, weekOf } from '@/lib/agenda';
-import { addDays, countWord, formatDateRo, todayISO } from '@/lib/format';
-import { shortDate } from '@/lib/cdep-text';
-import { Container, EmptyState, linkCls } from '@/components/ui';
-import AgendaDays from '@/components/agenda/AgendaDays';
+import { getCalendarData } from '@/lib/agenda-calendar';
+import { formatDateRo, todayISO } from '@/lib/format';
+import { Container } from '@/components/ui';
+import AgendaCalendar from '@/components/agenda/AgendaCalendar';
 
 export const metadata: Metadata = {
-  title: 'Agenda săptămânii',
+  title: 'Agenda Parlamentului',
   description:
-    'Ședințele comisiilor și ale plenului din Senat și din Camera Deputaților, din săptămâna aceasta, în care se discută proiecte urmărite pe destrajă.ro: ziua, ora, sala și ordinea de zi oficială.',
+    'Calendarul ședințelor comisiilor și ale plenului din Senat și din Camera Deputaților în care se discută proiecte urmărite pe destrajă.ro: ziua, ora, sala, ordinea de zi oficială și, pentru zilele trecute, ce s-a hotărât.',
 };
 
-// Săptămâna e cea a build-ului, luni–duminică, ora României; site-ul se reface în fiecare zi lucrătoare.
+// Datele sunt cele din ziua build-ului (ora României); site-ul se reface în fiecare zi lucrătoare. Ziua aleasă vine din
+// adresă (?zi=AAAA-LL-ZZ), citită în browser: pagina statică arată ziua de azi.
 export default async function AgendaPage() {
-  const today = todayISO();
-  const week = weekOf(today);
-  const next = weekOf(addDays(week.start, 7));
-  const { appearances, read, cititLa } = await getAgenda();
-  const thisWeek = appearances.filter((a) => a.zi >= week.start && a.zi <= week.end);
-  const nextWeek = appearances.filter((a) => a.zi >= next.start && a.zi <= next.end);
-  const readThisWeek = new Set(read.filter((r) => r.zi >= week.start && r.zi <= week.end).map((r) => `${r.chamber}|${r.zi}`)).size;
-  const bills = new Set(thisWeek.map((a) => a.bill.href)).size;
-  const range = (w: { start: string; end: string }) => `${shortDate(w.start)} – ${shortDate(w.end)}`;
+  const data = await getCalendarData(todayISO());
 
   return (
     <Container className="pt-10 sm:pt-14 lg:pt-[72px]">
-      <h1 className="font-display text-[clamp(2.6rem,6.4vw,4.6rem)] font-normal leading-[1.02] tracking-[-0.03em]">Agenda săptămânii</h1>
-      <p className="mt-5 max-w-[44ch] text-lg leading-8 text-muted">
-        Ședințele comisiilor și ale plenului, din Senat și din Camera Deputaților, în care se discută proiecte pe care le urmărim, ca să
-        știi când se decide.
+      <h1 className="font-display text-[clamp(2.6rem,6.4vw,4.6rem)] font-normal leading-[1.02] tracking-[-0.03em]">Agenda Parlamentului</h1>
+      <p className="mt-5 max-w-[52ch] text-lg leading-8 text-muted">
+        Ședințele comisiilor și ale plenului, din Senat și din Camera Deputaților, în care se discută proiecte pe care le urmărim. Alege o zi
+        ca să vezi ce e pe ordinea de zi; pentru zilele trecute, și ce s‑a hotărât.
       </p>
 
-      <section aria-labelledby="saptamana" className="mt-12">
-        <div className="flex flex-wrap items-baseline justify-between gap-2 border-b border-line pb-3">
-          <h2 id="saptamana" className="font-display text-3xl font-normal">
-            Săptămâna aceasta
-          </h2>
-          <p className="text-sm tabular-nums text-muted">
-            {range(week)}
-            {bills > 0 && ` · ${countWord(bills, 'proiect', 'proiecte')}`}
-          </p>
-        </div>
-        <div className="mt-6">
-          {thisWeek.length ? (
-            <AgendaDays items={thisWeek} />
-          ) : (
-            <EmptyState
-              title={readThisWeek ? 'Niciun proiect urmărit pe ordinea de zi' : 'Nicio ordine de zi publicată încă'}
-              text={
-                readThisWeek
-                  ? 'Comisiile și plenul se întâlnesc săptămâna aceasta, dar fără proiectele din consultarea Senatului sau de la Cameră pe care le urmărim.'
-                  : 'Senatul și comisiile Camerei publică ordinile de zi cu câteva zile înainte de ședințe; când apare pe ele un proiect urmărit, îl găsești aici.'
-              }
-              action={
-                <Link href="/senat#legi" className={linkCls}>
-                  Vezi proiectele din consultare
-                </Link>
-              }
-            />
-          )}
-        </div>
-      </section>
+      <AgendaCalendar data={data} />
 
-      {nextWeek.length > 0 && (
-        <section aria-labelledby="saptamana-viitoare" className="mt-16">
-          <div className="flex flex-wrap items-baseline justify-between gap-2 border-b border-line pb-3">
-            <h2 id="saptamana-viitoare" className="font-display text-3xl font-normal">
-              Săptămâna viitoare
-            </h2>
-            <p className="text-sm tabular-nums text-muted">{range(next)}</p>
-          </div>
-          <div className="mt-6">
-            <AgendaDays items={nextWeek} />
-          </div>
-        </section>
-      )}
-
-      <p className="mt-12 max-w-2xl text-xs leading-5 text-muted">
+      <p className="mt-16 max-w-2xl text-xs leading-5 text-muted">
         Datele vin din ordinile de zi publicate pe senat.ro de fiecare comisie și de plen și pe cdep.ro de comisiile și de plenul Camerei Deputaților
-        {cititLa ? `, citite ultima dată pe ${formatDateRo(cititLa)}` : ''}. Ordinea de zi se poate schimba până la ședință; ce e valabil scrie pe
-        pagina oficială. La Cameră, rolul comisiei (raport sau aviz) e cel din fișa proiectului. Ordinea de zi a plenului Camerei e lungă: nu
-        toate proiectele de pe ea ajung să fie dezbătute în ședința respectivă.
+        {data.cititLa ? `, citite ultima dată pe ${formatDateRo(data.cititLa)}` : ''}. Ordinea de zi se poate schimba până la ședință; ce e valabil
+        scrie pe pagina oficială. La Cameră, rolul comisiei (raport sau aviz) e cel din fișa proiectului. Rezultatele zilelor trecute vin doar din
+        surse oficiale, potrivite după proiect și dată: rezoluțiile scrise de Senat pe ordinea de zi după ședință, voturile din plen și pașii din
+        fișele proiectelor de pe senat.ro și cdep.ro (un raport sau un aviz din cel mult două săptămâni după ședința comisiei, un vot din plen din ziua
+        ședinței sau din următoarele două zile, și doar până când proiectul revine pe ordinea de zi a aceleiași comisii sau a plenului). Un pas din zilele de după ședință (un raport primit de Cameră, un aviz transmis) apare ca „Ulterior”, cu data lui. Când nu găsim niciunul, scriem că nu avem încă un rezultat; asta nu înseamnă că proiectul a fost amânat.
       </p>
     </Container>
   );

@@ -47,7 +47,7 @@ export default function SiteFooter({ syncedAt }: { syncedAt: string | null }) {
             <h2 className="text-sm font-semibold text-ink">Site</h2>
             <ul className="mt-3 space-y-2">
               <li><Link href="/senat#legi" className={linkCls}>Legi în consultare</Link></li>
-              <li><Link href="/agenda" className={linkCls}>Agenda săptămânii</Link></li>
+              <li><Link href="/agenda" className={linkCls}>Agenda Parlamentului</Link></li>
               <li><Link href="/uitate" className={linkCls}>Proiecte uitate</Link></li>
               <li><Link href="/parlamentari" className={linkCls}>Parlamentari</Link></li>
               <li><Link href="/presa" className={linkCls}>Presă și date</Link></li>

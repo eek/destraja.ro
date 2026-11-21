@@ -367,6 +367,11 @@ details[open] > summary .chevron {
   }
 }
 
+/* Calendarul agendei: hașura zilelor cu ordinea de zi încă nepublicată (diferită de „niciun proiect”, care are o liniuță). */
+.cal-hatch {
+  background-image: repeating-linear-gradient(135deg, var(--line-strong) 0 1px, transparent 1px 7px);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

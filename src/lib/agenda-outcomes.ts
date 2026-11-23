@@ -62,11 +62,12 @@ export interface SenateSheet {
   timeline: { date: string; action: string }[];
 }
 
-/** Fișa Camerei a proiectului: rândurile și comisiile sesizate pentru raport (idc). */
+/** Fișa Camerei a proiectului: rândurile, comisiile sesizate pentru raport (idc) și numele comisiilor de pe fișă, după idc. */
 export interface ChamberSheet {
   url: string | null;
   timeline: { camera: string | null; data: string; actiune: string }[];
   raport: string[];
+  comisii?: Record<string, string>;
 }
 
 export interface OutcomeSources {
@@ -225,14 +226,14 @@ function plenaryRow(action: string, chamber: 'senat' | 'camera'): { kind: Outcom
   if (new RegExp(`^respins[ăa]? de (catre )?${who}`, 'i').test(a)) {
     return { kind: 'respins', text: `Respins de ${whoText}`, detail: t ? totalsText(t, respingere ? 'respingere' : 'adoptare') : null };
   }
-  if (/^[îi]ncetarea procedurii legislative prin respingere definitiv/i.test(a) && (chamber === 'senat' || /de c[aă]tre Camer/i.test(a))) {
+  if (/^[îi]ncetarea procedurii legislative prin respingere definitiv/i.test(a) && (chamber === 'senat') !== /de c[aă]tre Camer/i.test(a)) {
     return { kind: 'respins', text: `Respins definitiv de ${whoText}`, detail: null };
   }
   // Votul final fără majoritatea cerută nu e o respingere. Textul e al votului nominal (mai jos), ca rândurile să se unească;
   // când plenul l-a retrimis atunci comisiei, pasul e retrimiterea, cu cifrele votului.
   if (chamber === 'camera' && /^vot final (adoptare|respingere)\b/i.test(a)) {
     const detail = t ? totalsText(t, /^vot final respingere/i.test(a) ? 'respingere' : 'adoptare') : null;
-    if (/retrimiterea la comisi/i.test(a)) return { kind: 'retrimis', text: 'Retrimis la comisie după votul final', detail };
+    if (/(?<!\bnu )\bs-a dispus (retrimiterea|retransmiterea) la comisi/i.test(a)) return { kind: 'retrimis', text: 'Retrimis la comisie după votul final', detail };
     if (/nu a fost [îi]ntrunit[ăa] majoritatea|f[ăa]r[ăa] majoritate/i.test(a)) return { kind: 'alt', text: `Vot fără majoritatea cerută în ${whoText}`, detail };
   }
   // Doar retrimiterea aprobată de plen, nu o cerere de retrimitere.
@@ -243,7 +244,7 @@ function plenaryRow(action: string, chamber: 'senat' | 'camera'): { kind: Outcom
   // zilei de 16 noiembrie n-o are); dezbaterea propriu-zisă e rândul cu stenograma („consultati stenograma sedintei”).
   // Nota din paranteză e ca în sumarul stenogramei: „( retrimis comisiei )”, „( rămas pentru votul final )”.
   if (chamber === 'camera' && /^dezbatere [îi]n plenul Camerei/i.test(a) && !/\bpentru [șşs]edin/i.test(a)) {
-    const nota = a.match(/^dezbatere [îi]n plenul Camerei Deputa\S*\s*\(\s*([^)]*?)\s*\)/i)?.[1];
+    const nota = a.match(/^dezbatere [îi]n plenul Camerei Deputa[^\s(]*\s*\(\s*([^)]*?)\s*\)/i)?.[1];
     return nota ? { ...stenoNote(nota), detail: null } : { kind: 'dezbatut', text: 'Dezbătut în plen', detail: null };
   }
   return null;
@@ -382,12 +383,13 @@ export function outcomesFor(
   // Rapoartele și avizele din fișă: ale comisiei după numele ei de pe rând. Un rând fără nume (fișă citită înainte de
   // 23 noiembrie 2026) leagă raportul de comisiile raportului, după idc, ca până atunci; un aviz fără nume, de nimeni.
   if (a.chamber === 'camera' && !a.plen && src.camera) {
-    const me = norm(a.comisie);
+    // Numele din ordinea de zi și, ca rezervă la o diferență de formulare, numele comisiei cu același idc de pe fișă.
+    const me = new Set([norm(a.comisie), norm(src.camera.comisii?.[a.comisieId] ?? '')].filter(Boolean));
     for (const r of src.camera.timeline) {
       const d = iso(r.data);
       if (/senat/i.test(r.camera ?? '') || !inWindow(d)) continue;
       const names = rowCommittees(r.actiune).map(norm);
-      const mine = names.length ? names.includes(me) : null;
+      const mine = names.length ? names.some((n) => me.has(n)) : null;
       const report = chamberReportRow(r.actiune);
       if (report && (mine ?? src.camera.raport.includes(a.comisieId))) push({ ...report, detail: null, date: d, sources: [chamberSheet] });
       else if (mine && /^primire aviz de la:/i.test(r.actiune.trim())) push({ kind: 'aviz', text: 'Aviz al comisiei', detail: null, date: d, sources: [chamberSheet] });
@@ -398,13 +400,18 @@ export function outcomesFor(
   // e de obicei și pe fișă („primire raport favorabil … de la:”, cu direcția lui; „primire aviz de la:”): atunci e încă o
   // sursă pentru rândul din fișă.
   if (a.chamber === 'camera' && !a.plen) {
+    const matched = new Set<AgendaOutcome>();
     for (const d of records?.comisii.get(a.comisieId) ?? []) {
       if (!inWindow(d.data) || !sameBill(d.numar, d.idp)) continue;
       const doc: OutcomeSource = { label: d.tip === 'raport' ? 'Raportul comisiei pe cdep.ro' : 'Avizul comisiei pe cdep.ro', url: d.pdf };
-      // Același document doar când rândul din fișă e la cel mult trei zile de data lui (raportul suplimentar e altul).
-      const near = (x: AgendaOutcome) => Math.abs(Date.parse(x.date) - Date.parse(d.data)) <= 3 * 86_400_000;
-      const fromSheet = out.find((x) => x.kind === d.tip && near(x) && x.sources.some((s) => s.url === chamberSheet?.url));
+      // Același document: raportul când rândul din fișă e la cel mult trei zile de data lui (raportul suplimentar e altul);
+      // avizul când comisia raportoare l-a primit în ziua lui sau în cel mult zece zile după (fișa îl scrie la primire).
+      // Fiecare rând din fișă ține loc unui singur document.
+      const days = (x: AgendaOutcome) => (Date.parse(x.date) - Date.parse(d.data)) / 86_400_000;
+      const near = (x: AgendaOutcome) => (d.tip === 'raport' ? Math.abs(days(x)) <= 3 : days(x) >= -1 && days(x) <= 10);
+      const fromSheet = out.find((x) => x.kind === d.tip && !matched.has(x) && near(x) && x.sources.some((s) => s.url === chamberSheet?.url));
       if (fromSheet) {
+        matched.add(fromSheet);
         if (!fromSheet.sources.some((s) => s.url === doc.url)) fromSheet.sources.push(doc);
         continue;
       }
@@ -504,7 +511,7 @@ interface SenatRow {
 }
 interface CdepFile {
   url?: string;
-  fisa?: { timeline?: ChamberSheet['timeline']; comisii?: { raport?: { idc: number }[] } } | null;
+  fisa?: { timeline?: ChamberSheet['timeline']; comisii?: { raport?: { idc: number; nume?: string }[]; aviz?: { idc: number; nume?: string }[] } | null } | null;
 }
 
 async function readJson<T>(file: string): Promise<T | null> {
@@ -517,7 +524,12 @@ async function readJson<T>(file: string): Promise<T | null> {
 
 const chamberSheet = (f: CdepFile | null): ChamberSheet | null =>
   f?.fisa?.timeline
-    ? { url: f.url ?? null, timeline: f.fisa.timeline, raport: (f.fisa.comisii?.raport ?? []).map((c) => String(c.idc)) }
+    ? {
+        url: f.url ?? null,
+        timeline: f.fisa.timeline,
+        raport: (f.fisa.comisii?.raport ?? []).map((c) => String(c.idc)),
+        comisii: Object.fromEntries([...(f.fisa.comisii?.raport ?? []), ...(f.fisa.comisii?.aviz ?? [])].filter((c) => c.nume).map((c) => [String(c.idc), c.nume!])),
+      }
     : null;
 
 /** Sursele fiecărui proiect din agendă, după `href`. */

@@ -259,7 +259,8 @@ function waitOf(status: ReturnType<typeof resolveStatus>): WaitKey {
   if (status.key === 'reexaminare' || status.key === 'ccr_admis') return 'reexaminare';
   if (status.stage === 'raport') return 'raport';
   if (status.stage === 'plen') return 'plen';
-  if (status.key === 'comisii' && /suplimentar/.test(status.title)) return 'suplimentar';
+  // „Retrimis la comisii pentru un raport suplimentar / un nou raport”, „Retrimis de plen la comisii” (resolveStatus).
+  if (status.key === 'comisii' && /^Retrimis/.test(status.title)) return 'suplimentar';
   if (status.stage === 'altele') return 'reexaminare';
   return 'comisii';
 }

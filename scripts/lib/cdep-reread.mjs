@@ -117,12 +117,18 @@ function meetingDays(fisa, meetings, today) {
       if (run.at(-1) >= shiftDay(today, -MEETING_WINDOW)) recent.push({ idc: c.idc, comisie: c.comisie ?? '', rol, first: run[0], last: run.at(-1) });
     }
   }
-  // Avizul unei comisii a venit când un rând de aviz de după ședință îi poartă numele. Pe rândurile fără nume (fișe citite
-  // înainte de 23 noiembrie 2026) le socotim venite când sunt cel puțin câte comisii de aviz au avut proiectul în ședință.
+  // Numele unei comisii: din ordinea de zi și, ca rezervă, cel de pe fișă pentru același idc.
+  const fisaName = (idc) => [...(fisa?.comisii?.raport ?? []), ...(fisa?.comisii?.aviz ?? [])].find((c) => String(c.idc) === idc)?.nume ?? '';
+  const keys = (r) => new Set([nameKey(r.comisie), nameKey(fisaName(r.idc))].filter(Boolean));
+  const namedFor = (r) => opinionsSince(fisa, r.first).some((t) => committeesOf(t.actiune).some((k) => keys(r).has(k)));
+  // Avizul unei comisii a venit când un rând de aviz de după ședință îi poartă numele. Rândurile fără nume (fișe citite
+  // înainte de 23 noiembrie 2026) le socotim pentru comisiile de aviz rămase fără rând cu nume: venite când sunt cel puțin
+  // câte comisii au rămas.
   const opinions = recent.filter((r) => r.rol === 'aviz');
+  const left = new Set(opinions.filter((r) => !namedFor(r)).map((r) => r.idc));
   const unnamedIn =
-    opinions.length > 0 && opinionsSince(fisa, opinions.map((r) => r.first).sort()[0]).filter((t) => !committeesOf(t.actiune).length).length >= new Set(opinions.map((r) => r.idc)).size;
-  const opinionIn = (r) => unnamedIn || opinionsSince(fisa, r.first).some((t) => committeesOf(t.actiune).includes(nameKey(r.comisie)));
+    left.size > 0 && opinionsSince(fisa, opinions.map((r) => r.first).sort()[0]).filter((t) => !committeesOf(t.actiune).length).length >= left.size;
+  const opinionIn = (r) => namedFor(r) || unnamedIn;
   const out = [];
   for (const r of recent) {
     if (r.idc === PLENARY_ID) {
@@ -131,7 +137,7 @@ function meetingDays(fisa, meetings, today) {
     }
     out.push(shiftDay(r.first, -1));
     // O comisie care nu e pe fișă printre cele sesizate: orice raport, avizul ei sau un aviz fără nume.
-    const anyOpinion = () => opinionsSince(fisa, r.first).some((t) => !committeesOf(t.actiune).length || committeesOf(t.actiune).includes(nameKey(r.comisie)));
+    const anyOpinion = () => namedFor(r) || opinionsSince(fisa, r.first).some((t) => !committeesOf(t.actiune).length);
     const done = r.rol === 'raport' ? rowsSince(fisa, REPORT, r.first) > 0 : r.rol === 'aviz' ? opinionIn(r) : rowsSince(fisa, REPORT, r.first) > 0 || anyOpinion();
     if (!done) out.push(shiftDay(r.last, 1), shiftDay(r.last, 3), shiftDay(r.last, 7));
   }

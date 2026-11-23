@@ -151,6 +151,11 @@ function readSheet(s: string): SheetRead | null {
   return null;
 }
 
+// Retrimiterea hotărâtă de plen, nu o cerere de retrimitere: „s-a dispus retrimiterea la comisie” (după un vot final),
+// nota dezbaterii „( retrimis comisiei )”, „plenul … aproba retransmiterea la comisii”. Textul e fără diacritice (plain).
+const SENT_BACK = /(?<!\bnu )\bs-a dispus (retrimiterea|retransmiterea) la comisi|^dezbatere in plen[^(]*\(\s*retrimis|^plenul camerei deputatilor aproba (retransmiterea|retrimiterea) la comisi/;
+const FAILED_VOTE = /nu a fost intrunita majoritatea|fara majoritate/;
+
 // Stările de după votul final al Parlamentului, în ordine: stadiul fișei nu le poate da înapoi.
 const AFTER_VOTE: StatusKey[] = ['adoptat_parlament', 'depus_ccr', 'la_presedinte', 'sesizat_ccr', 'ccr_admis', 'ccr_respins', 'promulgat'];
 
@@ -195,7 +200,10 @@ export function resolveStatus(bill: { stadiu: string; fisa: CdepSheet; titlu?: s
   const adoptedBy = new Set<Chamber>();
   let agenda: string[] = [];
   let hasReport = false;
+  // Întors la comisii după primul raport: `supplementary` ține starea, `resent` spune ce scrie fișa („raport suplimentar”,
+  // „un nou raport”) sau doar că l-a retrimis plenul, fără felul raportului.
   let supplementary = false;
+  let resent: 'suplimentar' | 'nou' | 'plen' = 'suplimentar';
   let reexamBy: 'presedinte' | 'ccr' | null = null;
   // După o reexaminare cerută de Președinte sau după o decizie a Curții care respinge obiecțiile, Președintele are 10
   // zile de la primire, nu 20, și nu mai poate cere încă o reexaminare (art. 77 alin. 3 din Constituție).
@@ -219,15 +227,20 @@ export function resolveStatus(bill: { stadiu: string; fisa: CdepSheet; titlu?: s
         supplementary = false;
       }
     } else if (/^trimis pentru (un nou )?raport/.test(p)) {
-      if (/suplimentar|un nou raport/.test(p) && folded && ['raport', 'plen'].includes(folded)) {
+      const again = /suplimentar/.test(p) ? 'suplimentar' : /un nou raport/.test(p) ? 'nou' : null;
+      if (again && folded && ['raport', 'plen'].includes(folded)) {
         supplementary = true;
-        set('comisii', `Retrimis la comisii pentru un raport suplimentar, pe ${ro(date)}.`);
+        resent = again;
+        set('comisii', `Retrimis la comisii pentru ${again === 'nou' ? 'un nou raport' : 'un raport suplimentar'}, pe ${ro(date)}.`);
         agenda = [];
+      } else if (again && folded === 'comisii' && supplementary) {
+        // Trimiterea care urmează retrimiterii hotărâte de plen spune felul raportului; data și pasul rămân ale plenului.
+        resent = again;
       } else if (!folded || folded === 'adoptat_prima' || folded === 'respins_prima') set('comisii', `Trimis la comisii pe ${ro(date)}.`, evChamber ?? at);
     } else if (/^primire raport/.test(p) && (!folded || ['avize', 'comisii', 'raport', 'plen', 'reexaminare'].includes(folded))) {
       const amend = Number(p.match(/\((\d+) amend\. admise/)?.[1] ?? 0);
       const kind = /respingere/.test(p) ? ' de respingere' : /favorabil/.test(p) ? ' favorabil' : '';
-      const d = `Raport${supplementary ? ' suplimentar' : ''}${kind}${amend ? `, cu ${amend === 1 ? 'un amendament admis' : `${amend} amendamente admise`}` : ''}, primit pe ${ro(date)}.`;
+      const d = `Raport${supplementary && resent === 'suplimentar' ? ' suplimentar' : supplementary && resent === 'nou' ? ' nou' : ''}${kind}${amend ? `, cu ${amend === 1 ? 'un amendament admis' : `${amend} amendamente admise`}` : ''}, primit pe ${ro(date)}.`;
       hasReport = true;
       supplementary = false;
       agenda = [];
@@ -236,18 +249,19 @@ export function resolveStatus(bill: { stadiu: string; fisa: CdepSheet; titlu?: s
     } else if (/^inscris pe ordinea de zi/.test(p) && (!folded || ['avize', 'comisii', 'raport', 'plen', 'reexaminare'].includes(folded))) {
       agenda = agendaDates(t.actiune);
       if (folded === 'raport' || (folded !== 'reexaminare' && !/sub rezerva/.test(p))) set('plen', details.plen ?? null);
-    } else if (
-      /retrimiterea la comisi|^dezbatere in plen.*\(\s*retrimis|^plenul camerei deputatilor aproba retransmiterea/.test(p) &&
-      folded &&
-      ['comisii', 'raport', 'plen'].includes(folded)
-    ) {
+    } else if (SENT_BACK.test(p) && folded && ['comisii', 'raport', 'plen'].includes(folded)) {
       // Plenul l-a întors la comisii: după dezbatere sau după un vot final fără majoritate („s-a dispus retrimiterea la
       // comisie pentru un nou raport”, PL-x 429/2026). Rândurile acestea au de obicei celula datei goală, deci până pe
-      // 23 noiembrie 2026 lipseau din fișele noastre.
+      // 23 noiembrie 2026 lipseau din fișele noastre. Felul raportului și eșecul votului doar când rândul le scrie.
+      const kindHere = /un nou raport/.test(p) ? 'nou' : /raport suplimentar/.test(p) ? 'suplimentar' : 'plen';
+      // Trimiterea la comisii poate sta pe fișă chiar deasupra notei dezbaterii (PL-x 163/2022): ea spune deja felul raportului.
+      if (folded === 'comisii' && supplementary && kindHere === 'plen') continue;
       supplementary = true;
+      resent = kindHere;
       agenda = [];
-      const failed = /^vot final/.test(p) ? `, după un vot final fără majoritate${votes(p)}` : '';
-      set('comisii', `Retrimis de plen la comisii pentru un nou raport${failed}, pe ${ro(date)}.`);
+      const failed = /^vot final/.test(p) && FAILED_VOTE.test(p) ? `, după un vot final fără majoritate${votes(p)}` : '';
+      const kind = resent === 'nou' ? ' pentru un nou raport' : resent === 'suplimentar' ? ' pentru un raport suplimentar' : '';
+      set('comisii', `Retrimis de plen la comisii${kind}${failed}, pe ${ro(date)}.`);
     } else if (/(^|\s)adoptat[a]? de (catre )?(senat|camera)/.test(p)) {
       const both = /camera deputatilor si (de )?senat/.test(p);
       const c = chamberInText(p) ?? evChamber ?? at;
@@ -346,7 +360,10 @@ export function resolveStatus(bill: { stadiu: string; fisa: CdepSheet; titlu?: s
   } else {
     key = sheet.key;
     if (sheet.at) at = sheet.at;
-    if ('supplementary' in sheet && sheet.supplementary) supplementary = true;
+    if ('supplementary' in sheet && sheet.supplementary && !supplementary) {
+      supplementary = true;
+      resent = 'suplimentar';
+    }
   }
   let detail: string | null = details[key] ?? null;
   if (key === 'lege') detail = details.promulgat ?? null;
@@ -375,8 +392,16 @@ export function resolveStatus(bill: { stadiu: string; fisa: CdepSheet; titlu?: s
       break;
     case 'comisii': {
       stage = atSenate ? 'senat' : 'comisii';
-      title = supplementary ? 'Retrimis la comisii pentru un raport suplimentar' : atSenate ? 'La comisiile Senatului' : 'La comisiile Camerei';
-      next = `${supplementary ? 'Raportul suplimentar' : 'Raportul comisiei'}, apoi votul în plen.`;
+      title = supplementary
+        ? resent === 'nou'
+          ? 'Retrimis la comisii pentru un nou raport'
+          : resent === 'plen'
+            ? 'Retrimis de plen la comisii'
+            : 'Retrimis la comisii pentru un raport suplimentar'
+        : atSenate
+          ? 'La comisiile Senatului'
+          : 'La comisiile Camerei';
+      next = `${supplementary ? (resent === 'suplimentar' ? 'Raportul suplimentar' : 'Raportul nou al comisiei') : 'Raportul comisiei'}, apoi votul în plen.`;
       const c = f.comisii;
       if (!atSenate && c?.termenAmendamente && c.termenAmendamente >= today && !supplementary)
         deadlines.push({ kind: 'procedural', label: 'Termen pentru amendamente', date: c.termenAmendamente });

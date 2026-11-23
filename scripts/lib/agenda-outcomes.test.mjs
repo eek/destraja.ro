@@ -303,3 +303,21 @@ test('plenul Camerei: votul final fără majoritate cu retrimitere, dezbaterea c
   const end = camera([{ camera: 'Camera Deputaților', data: '18.11.2026', actiune: 'încetarea procedurii legislative prin respingere definitiva de catre Camera Deputatilor' }]);
   assert.deepEqual(outcomesFor(app(), end, TODAY).map((x) => [x.kind, x.text]), [['respins', 'Respins definitiv de Camera Deputaților']]);
 });
+
+test('fără retrimitere hotărâtă nu spunem „retrimis”; „respingere definitivă de către Cameră” nu e a Senatului', () => {
+  const no = camera([{ camera: 'Camera Deputaților', data: '18.11.2026', actiune: 'vot final adoptare - nu a fost întrunită majoritatea absolută rezultat vot : pentru=110 contra=16 abtineri=107 nu s-a dispus retrimiterea la comisie' }]);
+  assert.deepEqual(outcomesFor(app(), no, TODAY).map((x) => x.kind), ['alt']);
+  const senat = app({ chamber: 'senat', comisieId: 'plen', comisie: 'Plenul Senatului', url: 'https://www.senat.ro/odz' });
+  const row = { camera: 'Senat', data: '18.11.2026', actiune: 'încetarea procedurii legislative prin respingere definitiva de catre Camera Deputatilor' };
+  assert.deepEqual(outcomesFor(senat, camera([row]), TODAY), []);
+});
+
+test('avizul din fișă se leagă de cel mult un document al comisiei, primit în ziua lui sau după', () => {
+  const com = app({ comisieId: '3', comisie: 'Comisia pentru industrii și servicii', plen: false, zi: '2026-11-10' });
+  const rows = [{ camera: 'Camera Deputaților', data: '19.11.2026', actiune: 'primire aviz de la: Comisia pentru industrii și servicii' }];
+  const doc = (data, pdf) => ({ tip: 'aviz', data, pdf, idp: 1, numar: 'PLX 1/2026', comune: [] });
+  const rec = { plen: new Map(), comisii: new Map([['3', [doc('2026-11-12', 'https://www.cdep.ro/a.pdf'), doc('2026-11-20', 'https://www.cdep.ro/b.pdf')]]]) };
+  const o = outcomesFor(com, camera(rows), '2026-11-24', null, rec);
+  assert.equal(o.length, 2, 'primit pe 19 noiembrie: avizul din 12 e același, cel din 20 e altul');
+  assert.deepEqual(o.map((x) => [x.date, x.sources.length]), [['2026-11-19', 2], ['2026-11-20', 1]]);
+});

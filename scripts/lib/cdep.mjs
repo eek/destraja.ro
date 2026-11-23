@@ -222,8 +222,8 @@ export function parseList(html) {
   return rows;
 }
 
-// Culoarea celulei cu data, în derularea procedurii: albastru la Senat, portocaliu la Cameră.
-const SIDE = /bgcolor="?#(dfefff|fff0d8)/i;
+// Culoarea celulei cu data, în derularea procedurii: albastru la Senat, portocaliu la Cameră, galben pal după votul final.
+const SIDE = /bgcolor="?#(dfefff|fff0d8|ffffe8)/i;
 
 /**
  * Rândurile primului tabel din `html`, fiecare cu celulele lui ({ open: eticheta <td>, html: conținutul }). Tabelele din
@@ -275,7 +275,7 @@ export function procedureRows(html) {
 const actionText = (html = '') =>
   clean(
     html.replace(/<table\b[\s\S]*?<\/table>/gi, (t) => {
-      const names = [...t.matchAll(/structura2015\.co\?idc=\d+[^"]*">([^<]+)<\/a>/g)].map((m) => clean(m[1]));
+      const names = [...t.matchAll(/structura2015\.co\?[^"'>]*?\bidc=\d+[^>]*>([\s\S]*?)<\/a>/gi)].map((m) => clean(m[1])).filter(Boolean);
       return names.length ? ` ${names.join('; ')} — ` : ' ';
     }),
   ).replace(/(\s—)+$/, '').replace(/—(\s—)+/g, '—');
@@ -316,7 +316,7 @@ export function parseSheet(html) {
     const first = clean(cells[0]?.html);
     const date = first.match(/^\d{2}\.\d{2}\.\d{4}$/)?.[0];
     if (date) day = date;
-    else if (!day || first !== '' || !/bgcolor/i.test(cells[0]?.open ?? '')) continue;
+    else if (!day || first !== '' || !SIDE.test(cells[0]?.open ?? '')) continue;
     const action = cells.slice(1).map((c) => actionText(c.html)).find((c) => c.length > 3);
     if (!action) continue;
     // Camera se vede după culoarea celulei cu data, și a celei goale: albastru la Senat, portocaliu la Cameră; galbenul

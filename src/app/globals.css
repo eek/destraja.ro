@@ -56,6 +56,16 @@
   --viz-age-2: #c65b93;
   --viz-age-3: #ac3273;
   --viz-age-4: #851b55;
+  /* /monitorul-oficial: o singură nuanță, de la hârtie la bleumarin (actele pe zi); zilele fără acte au --mo-0, cele
+     necitite hașură în --mo-hatch. Treptele urcă monoton în luminozitate, în ambele teme. */
+  --mo-0: #ece8de;
+  --mo-1: #d3dbe9;
+  --mo-2: #a9b9d4;
+  --mo-3: #7790b8;
+  --mo-4: #4a6697;
+  --mo-5: #172c54;
+  --mo-hatch: #b4ab98;
+  --mo-other: #c9c2b2;
 
   --shadow-color: 32 28 18;
   /* Posterul satului din hero, afișat până pornește scena 3D (și fără WebGL). */
@@ -107,6 +117,14 @@
     --viz-age-2: #c0558d;
     --viz-age-3: #da74a7;
     --viz-age-4: #eca0c4;
+    --mo-0: #2a3242;
+    --mo-1: #34446a;
+    --mo-2: #4c6496;
+    --mo-3: #6f89c0;
+    --mo-4: #9cb1e0;
+    --mo-5: #d4def8;
+    --mo-hatch: #5a6680;
+    --mo-other: #556079;
     --shadow-color: 0 0 0;
     --sat-poster: url("/sat/sat-poster-dark.webp");
     color-scheme: dark;
@@ -156,6 +174,14 @@
   --viz-age-2: #c0558d;
   --viz-age-3: #da74a7;
   --viz-age-4: #eca0c4;
+  --mo-0: #2a3242;
+  --mo-1: #34446a;
+  --mo-2: #4c6496;
+  --mo-3: #6f89c0;
+  --mo-4: #9cb1e0;
+  --mo-5: #d4def8;
+  --mo-hatch: #5a6680;
+  --mo-other: #556079;
   --shadow-color: 0 0 0;
   --sat-poster: url("/sat/sat-poster-dark.webp");
   color-scheme: dark;
@@ -381,4 +407,12 @@ details[open] > summary .chevron {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* /monitorul-oficial: hașura „necitit încă” și dungile unui segment (al doilea semnal, pe lângă culoare). */
+.mo-hatch {
+  background: repeating-linear-gradient(45deg, var(--mo-hatch) 0 1px, var(--paper) 1px 4px);
+}
+.mo-stripes {
+  background-image: repeating-linear-gradient(-45deg, transparent 0 2px, var(--surface) 2px 3px);
 }

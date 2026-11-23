@@ -18,7 +18,13 @@
   "ratelimits": [
     { "name": "REPORT_LIMIT", "namespace_id": "1001", "simple": { "limit": 5, "period": 60 } },
     { "name": "SUBSCRIBE_LIMIT", "namespace_id": "1002", "simple": { "limit": 5, "period": 60 } },
-    { "name": "SEARCH_LIMIT", "namespace_id": "1003", "simple": { "limit": 60, "period": 60 } }
+    { "name": "SEARCH_LIMIT", "namespace_id": "1003", "simple": { "limit": 60, "period": 60 } },
+    // MCP-ul public (worker/mcp.ts): 180 de mesaje pe minut de la aceeași adresă (sau prefix IPv6 /64). Claude și ChatGPT
+    // cheamă serverele MCP din adrese comune ale lor, iar o conversație trimite 4–10 mesaje; citirile sunt fișiere statice.
+    { "name": "MCP_LIMIT", "namespace_id": "1004", "simple": { "limit": 180, "period": 60 } },
+    // Căutarea după sens din MCP (cauta.destraja.ro, care are și limitele lui): 30 pe minut de la aceeași adresă; peste
+    // limită, MCP-ul caută în titluri și spune asta în răspuns.
+    { "name": "MCP_SEARCH_LIMIT", "namespace_id": "1005", "simple": { "limit": 30, "period": 60 } }
   ],
   // E-mailurile pleacă prin Resend (worker/mail.ts), cu secretele RESEND_API_KEY și RESEND_WEBHOOK_SECRET puse cu
   // `wrangler secret put`; nu au nevoie de nimic aici. La fel panoul /admin (worker/access.ts, ADMIN-SETUP.md):

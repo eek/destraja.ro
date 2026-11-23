@@ -28,6 +28,18 @@ export interface ChangeDay {
 
 export const CHANGELOG: ChangeDay[] = [
   {
+    date: '2026-11-23',
+    items: [
+      {
+        kind: 'nou',
+        title: 'destrajă.ro în asistentul tău AI',
+        text: 'Poți adăuga destrajă.ro în Claude, ChatGPT sau alt asistent AI și îl poți întreba direct despre proiectele de lege: „ce proiecte cu risc ridicat au consultarea deschisă săptămâna asta?”, „explică-mi PL-x nr. 110/2026” sau „ajută-mă să scriu un punct de vedere la B563/2026”. Asistentul găsește proiectul după număr, după adresa paginii sau după o întrebare obișnuită și citește aceleași date ca site-ul: unde e proiectul acum, analiza celor trei modele, cu legătura la textul oficial, și ce poți face. Termenele spun pentru cine sunt, ca un vot programat sau termenul de amendamente al deputaților să nu pară ultima zi în care îți poți spune părerea. Adresele comisiilor vin de pe paginile lor oficiale. E gratuit, fără cont și doar citire: asistentul nu trimite nimic în numele tău. Pagina nouă arată adresa și pașii pentru fiecare asistent.',
+        link: { href: '/mcp', label: 'destrajă.ro în asistentul tău AI' },
+        shot: { id: '2026-11-23-mcp', alt: 'Pagina „destrajă.ro în asistentul tău AI”: ce e, adresa serverului MCP, destraja.ro/api/mcp, cu butonul de copiere, și începutul pașilor pentru a-l adăuga în Claude.' },
+      },
+    ],
+  },
+  {
     date: '2026-11-21',
     items: [
       {

@@ -47,9 +47,27 @@ const before = new Map([...rowsIn(indexFile), ...rowsIn(lastFile)].map((p) => [p
 
 // Proiectele noastre de la Senat, după numărul L sau B, ca să le recunoaștem când ajung la Cameră.
 const ours = new Map();
+// Data înregistrării la Senat, ca să nu legăm după număr singur: fișa Camerei poate avea anul greșit (Pl-x 182/2026 scrie
+// L646/2026, deși era la Senat din noiembrie 2025; L646/2026 e B549/2026, înregistrat pe 7 octombrie 2026).
+const senatRegistered = new Map();
 for (const b of JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'senat-bills.json'), 'utf8'))) {
   if (b.senatNr) ours.set(b.senatNr, b.slug);
   ours.set(b.id, b.slug);
+  const reg = (b.timeline ?? []).find((t) => /Înregistrat la Senat/i.test(t.action))?.date?.match(/^(\d{2})-(\d{2})-(\d{4})$/);
+  if (reg) senatRegistered.set(b.slug, `${reg[3]}-${reg[2]}-${reg[1]}`);
+}
+const isoRo = (d) => d?.replace(/^(\d{2})\.(\d{2})\.(\d{4})$/, '$3-$2-$1');
+/** Proiectul nostru de la Senat pentru fișa asta, doar dacă fusese înregistrat la Senat înainte de primul pas de la Senat din fișă. */
+function senatFor(fisa) {
+  const slug = (fisa.numarSenat && ours.get(fisa.numarSenat)) || null;
+  if (!slug) return null;
+  const reg = senatRegistered.get(slug);
+  const firstSenate = fisa.timeline.filter((r) => r.camera === 'Senat').map((r) => isoRo(r.data)).sort()[0];
+  if (reg && firstSenate && reg > firstSenate) {
+    console.log(`  ⚠ ${fisa.numarSenat}: fișa are pași la Senat din ${firstSenate}, dar ${slug} a fost înregistrat pe ${reg}; nu le leg`);
+    return null;
+  }
+  return slug;
 }
 
 // Listele celor doi ani. Fără amândouă nu scriem și nu trimitem nimic: coada trimisă VM-ului o înlocuiește pe cea de
@@ -188,7 +206,7 @@ async function take(p) {
   // Păstrăm și HTML-ul o săptămână: straja-amendments îl refolosește în loc să ceară fișa a doua oară.
   writeFileAtomic(path.join(HTML_CACHE, `${p.slug}.html`), html);
   const fisa = parseSheet(html);
-  const senat = (fisa.numarSenat && ours.get(fisa.numarSenat)) || null;
+  const senat = senatFor(fisa);
   if (senat) p.senat = senat;
   // `cititLa` e momentul în care pagina a fost cerută de la cdep.ro, și când a cerut-o VM-ul.
   const cititLa = (cached != null && mirrorFetchedAt(p.url)) || new Date().toISOString();

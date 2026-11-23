@@ -1,0 +1,33 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+## LEGE
+
+## pentru modificarea art.101 din Legea învățământului preuniversitar nr. 198/2023
+
+Senatul adoptă prezentul proiect de lege
+
+Art.I.- Articolul 101 din Legea învățământului preuniversitar nr.198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 613 din 5 iulie 2023, cu modificările și completările ulterioare, se modifică după cum urmează:
+
+1\. Alineatul (2) se abrogă.
+
+2\. Alineatul (4) se modifică și va avea următorul cuprins:
+
+„(4) Locurile rămase neocupate după repartizarea prevăzută la alin. (3) se atribuie pe baza rezultatelor obținute la evaluarea națională, conform opțiunilor exprimate, prin repartiție computerizată.”
+
+3\. Alineatele (5) - (9) se abrogă.
+
+4\. Alineatul (10) se modifică și va avea următorul cuprins:
+
+„(10) Prin excepție de la prevederile alin. (3) și (4), unitățile de învățământ organizează, pentru filiera vocațională, anterior susținerii evaluării naționale, probe de aptitudini specifice pentru admitere.”
+
+Art.II.- (1) Prin derogare de la prevederile art.10 alin.(2) din Legea învățământului preuniversitar nr.198/2023, cu modificările și completările ulterioare, prezenta lege intră în vigoare la 3 zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+(2) Prevederile prezentei legi se aplică începând cu anul școlar 2026-2027.
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 8 septembrie 2026, cu respectarea prevederilor articolului 76 alineatul (1) din Constituția României, republicată.
+
+PREȘEDINTELE, SENATULUI
+
+MIRCEA ABRUDEAN

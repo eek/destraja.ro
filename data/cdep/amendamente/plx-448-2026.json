@@ -1,21 +1,68 @@
 {
  "slug": "plx-448-2026",
  "billId": "PL-x 448/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-11-12T10:05:43.983Z",
- "inputHash": "8c1d23428bac",
+ "updatedAt": "2026-11-23T09:33:33.963Z",
+ "inputHash": "4d86fda8db69",
  "reports": [
   "https://www.cdep.ro/comisii/juridica/pdf/2026/rp448.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp448.pdf",
+   "sha256": "baa5871b4c9ece8d",
+   "parts": 1,
+   "rows": 4,
+   "unchanged": 1,
+   "admise": 3,
+   "respinse": 1,
+   "truncated": false
+  }
+ ],
+ "completeness": "complete",
+ "problems": [],
  "counts": {
-  "admise": 1,
-  "respinse": 1
+  "admise": 3,
+  "respinse": 1,
+  "anuntate": 4,
+  "nemodificate": 1
  },
  "amendments": [
   {
+   "nr": "1",
+   "report": "rp448.pdf",
+   "article": "Titlul legii",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Completează titlul legii pentru a reflecta și exceptarea de la prevederile art. XXII alin. (1) din Legea nr. 141/2025 privind unele măsuri fiscal-bugetare.",
+   "quote": "precum și pentru exceptarea de la prevederile alin.(1) al Art.XXII din Legea nr.141/2025 privind unele măsuri fiscal-bugetare",
+   "inForce": null,
+   "before": "Titlul legii Lege pentru modificarea art.652 din Legea nr.95/2006 privind reforma în domeniul sănătății",
+   "after": "Titlul legii Lege pentru modificarea art.652 din Legea nr.95/2006 privind reforma în domeniul sănătății, precum și pentru exceptarea de la prevederile alin.(1) al Art.XXII din Legea nr.141/2025 privind unele măsuri fiscal-bugetare",
+   "motivation": "Pentru respectarea normelor de tehnică legislativă."
+  },
+  {
+   "nr": "2",
+   "report": "rp448.pdf",
+   "article": "Art. I",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Renumerotează articolul unic al legii ca Art. I, ca urmare a introducerii unui nou articol.",
+   "quote": null,
+   "inForce": null,
+   "before": "Articol unic. - Articolul 652 din Legea nr. 95/2006 privind reforma în domeniul sănătății, republicată în Monitorul Oficial al României, Partea I, nr. 652 din 28 august 2015, cu modificările și completările ulterioare, se modifică și va avea următorul cuprins:",
+   "after": "Art. I.- nemodificat",
+   "motivation": "Pentru respectarea normelor de tehnică legislativă."
+  },
+  {
    "nr": "4",
-   "article": "art. II",
+   "report": "rp448.pdf",
+   "article": "Art. II",
    "status": "admis",
    "authors": [
     {
@@ -80,8 +127,13 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Exceptează instituțiile din subordinea Ministerului Sănătății și unitățile sanitare publice de la blocarea ocupării posturilor prevăzută de Legea nr. 141/2025, în limita bugetului aprobat.",
-   "quote": "Începând cu data intrării în vigoare a prezentei legi fac excepție de la prevederile alin. (1) al articolului XXII din Legea nr. 141/2025 privind unele măsuri fiscal-bugetare",
+   "byGroup": null,
+   "summary": "Introduce Art. II care exceptează unitățile și instituțiile sanitare publice de la blocarea posturilor din Legea nr. 141/2025, permițând ocuparea lor în limita bugetului aprobat.",
+   "quote": "unitățile sanitare din subordinea autorităților locale, posturile putând fi ocupate cu încadrarea în bugetul aprobat.",
+   "inForce": null,
+   "before": null,
+   "after": "\"Art. II. - Începând cu data intrării în vigoare a prezentei legi fac excepție de la prevederile alin. (1) al articolului XXII din Legea nr. 141/2025 privind unele măsuri fiscal-bugetare, publicată în Monitorul Oficial al României, Partea I, nr. 699 din 25 iulie 2025, cu modificările și completările ulterioare, unitățile și instituțiile din subordinea Ministerului Sănătății, unitățile sanitare din subordinea ministerelor și instituțiilor cu rețea sanitară proprie, precum și unitățile sanitare din subordinea autorităților locale, posturile putând fi ocupate cu încadrarea în bugetul aprobat.\"",
+   "motivation": null,
    "effects": [
     "mai_bine",
     "neutru"
@@ -89,6 +141,7 @@
   },
   {
    "nr": "1",
+   "report": "rp448.pdf",
    "article": "art. 652 alin. (6)",
    "status": "respins",
    "authors": [
@@ -100,19 +153,26 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Reformulează prevederea privind pedepsele pentru faptele comise împotriva membrilor de familie ai personalului din unitățile sanitare publice, pentru claritate juridică.",
-   "quote": "Aceleași pedepse prevăzute la alin (1) –(5) se aplică și în cazul faptelor comise împotriva membrilor familiilor personalului medical auxiliar sau sanitar"
+   "byGroup": null,
+   "summary": "Reformulează art. 652 alin. (6) pentru a înlocui termenul „se sancționează” cu „aceleași pedepse se aplică” și restrânge protecția membrilor de familie la unitățile publice.",
+   "quote": "Aceleași pedepse prevăzute la alin (1) –(5) se aplică și în cazul faptelor comise împotriva membrilor familiilor personalului medical auxiliar sau sanitar",
+   "inForce": null,
+   "before": "”Art.652 – alin.(6) Cu aceeași pedeapsă se sancționează faptele comise în condițiile alin.(1) – (5), dacă privesc un membru de familie al persoanelor prevăzute la alin.(1) .”",
+   "after": "”Aceleași pedepse prevăzute la alin (1) –(5) se aplică și în cazul faptelor comise împotriva membrilor familiilor personalului medical auxiliar sau sanitar, respectiv personalului nemedical care își desfășoară activitatea în unități publice, indiferent de forma de exercitare a profesiei.”",
+   "motivation": "1.Argumentare pentru rigoarea textului: în forma actuală, textul este neclar, nu se înțelege regimul pedepselor, se face referire la ”sancțiuni” sau ”sancționare”, care are o altă semnificație în penal. 2.Respins la vot"
   }
  ],
  "matches": [
   {
    "change": "1:0",
+   "report": "rp448.pdf",
    "amendments": [
     "4"
    ]
   },
   {
    "change": "1:1",
+   "report": "rp448.pdf",
    "amendments": [
     "4"
    ]

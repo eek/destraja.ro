@@ -1,49 +1,77 @@
 {
  "slug": "plx-254-2026",
  "billId": "PL-x 254/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-11-12T09:53:27.003Z",
- "inputHash": "9620acc9d3ca",
+ "updatedAt": "2026-11-23T09:14:22.842Z",
+ "inputHash": "1f2298bd1e6c",
  "reports": [
   "https://www.cdep.ro/comisii/cultura/pdf/2026/rp254.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp254.pdf",
+   "sha256": "2ddf049b0f625121",
+   "parts": 1,
+   "rows": 2,
+   "unchanged": 0,
+   "admise": 2,
+   "respinse": 0,
+   "truncated": false
+  }
+ ],
+ "completeness": "complete",
+ "problems": [],
  "counts": {
   "admise": 2,
-  "respinse": 0
+  "respinse": 0,
+  "anuntate": 2,
+  "nemodificate": 0
  },
  "amendments": [
   {
    "nr": "1",
-   "article": "titlul legii",
+   "report": "rp254.pdf",
+   "article": "Titlul legii",
    "status": "admis",
    "authors": [
     {
      "name": "Daniel Blaga",
-     "role": "deputat",
+     "role": null,
      "party": "USR",
      "site": "Blaga Daniel-Codruţ"
     }
    ],
    "byCommittee": null,
-   "summary": "Modifică titlul legii, înlocuind conferirea titlului simbolic cu declararea municipiului Târgoviște ca Oraș Voievodal.",
-   "quote": "LEGE pentru declararea municipiului Târgoviște ca Oraș Voievodal"
+   "byGroup": null,
+   "summary": "Modifică titlul legii din conferirea titlului simbolic de Oraș Voievodal în declararea municipiului Târgoviște ca Oraș Voievodal.",
+   "quote": "LEGE pentru declararea municipiului Târgoviște ca Oraș Voievodal",
+   "inForce": null,
+   "before": "LEGE pentru conferirea titlului simbolic de Oraș Voievodal municipiului Târgoviște",
+   "after": "LEGE pentru declararea municipiului Târgoviște ca Oraș Voievodal",
+   "motivation": "Pentru practică unitară – a se vedea legea nr. 13/2016 și legea nr. 361/2018"
   },
   {
    "nr": "2",
+   "report": "rp254.pdf",
    "article": "art. unic",
    "status": "admis",
    "authors": [
     {
      "name": "Daniel Blaga",
-     "role": "deputat",
+     "role": null,
      "party": "USR",
      "site": "Blaga Daniel-Codruţ"
     }
    ],
    "byCommittee": null,
-   "summary": "Reformulează articolul unic, declarând Târgoviște ca Oraș Voievodal și nuanțând rolul său istoric de fostă reședință domnească, capitală și important centru medieval.",
-   "quote": "important centru politic, administrativ și cultural din spațiul românesc în perioada medievală, se declară municipiul Târgoviște ca Oraș Voievodal.",
+   "byGroup": null,
+   "summary": "Reformulează articolul unic: declară municipiul Târgoviște ca Oraș Voievodal, eliminând caracterul simbolic, și ajustează descrierea rolului său istoric.",
+   "quote": "de fostă reședință domnească și capitală a Țării Românești și de important centru politic, administrativ și cultural",
+   "inForce": null,
+   "before": "Articol unic.- Se conferă municipiului Târgoviște titlul simbolic de Oraș Voievodal, în semn de recunoaștere a rolului său istoric de fostă capitală domnească Țării Românești și de principal centru politic, administrativ și cultural al Evului Mediu românesc.",
+   "after": "Articol unic.- În semn de recunoaștere a rolului său istoric de fostă reședință domnească și capitală a Țării Românești și de important centru politic, administrativ și cultural din spațiul românesc în perioada medievală, se declară municipiul Târgoviște ca Oraș Voievodal.",
+   "motivation": "Conform avizului CL",
    "effects": [
     "mai_rau",
     "mai_bine",
@@ -54,18 +82,21 @@
  "matches": [
   {
    "change": "1:0",
+   "report": "rp254.pdf",
    "amendments": [
     "2"
    ]
   },
   {
    "change": "1:1",
+   "report": "rp254.pdf",
    "amendments": [
     "2"
    ]
   },
   {
    "change": "1:2",
+   "report": "rp254.pdf",
    "amendments": [
     "2"
    ]

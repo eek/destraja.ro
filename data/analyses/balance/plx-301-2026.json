@@ -3,125 +3,168 @@
   "billId": "Pl-x 301/2026",
   "schema": 1,
   "model": "agy",
-  "updatedAt": "2026-10-30T10:53:47.168Z",
-  "inputHash": "0bbbee0d617a",
-  "riskScore": 7.7,
-  "summary": "Un proiect menit să reducă supraaglomerarea din penitenciare, dar profund viciat de un prag uriaș de 7 ani fără excepții pentru corupție la locul de muncă, mecanisme inaplicabile copiate din Codul penal comunist din 1969 și confuzii institu",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-23T10:01:51.677Z",
+  "inputHash": "91120271454e",
+  "riskScore": 7.3,
+  "summary": "O idee utilă de descongestionare a penitenciarelor, dar scrisă atât de defectuos încât creează portițe pentru infractori gravi, nedreptăți și blocaje instituționale.",
   "good": [
     {
-      "text": "Obligă la reținerea a 25-50% din veniturile din muncă ale condamnatului, bani care merg cu prioritate la despăgubirea victimei și apoi la bugetul de stat.",
-      "article": "art. I (art. 98² alin. (1) lit. a))",
-      "quote": "pentru acoperirea integrală a obligațiilor civile stabilite de către instanță, afară de cazul în care partea civilă a renunțat la despăgubiri; 2. la bugetul statului;",
+      "text": "Banii reținuți din salariul condamnatului la locul de muncă merg mai întâi la despăgubirea victimelor și abia apoi la stat, crescând șansele recuperării pagubelor.",
+      "article": "art. 98² alin. (1) lit. a)",
+      "quote": "care se distribuie cu următoarea ordine de precădere: 1. pentru acoperirea integrală a obligațiilor civile stabilite de către instanță, afară de cazul în care partea civilă a renunțat la despăgubiri; 2. la bugetul statului;",
+      "weight": 3
+    },
+    {
+      "text": "Introducerea executării prin muncă sau la domiciliu, cu 60-120 de zile de muncă în folosul comunității, poate reduce aglomerația și costurile din penitenciare.",
+      "article": "art. 98¹, art. 98⁶ și art. 98⁷ alin. (2) lit. e)",
+      "quote": "să presteze o muncă neremunerată în folosul comunității pe o perioadă cuprinsă între 60-120 de zile, în condițiile stabilite de instanța de judecată;",
       "weight": 2
     },
     {
-      "text": "Interzice executarea pedepsei acasă pentru crime, fapte de corupție, trafic de droguri de mare risc și infracțiuni sexuale grave, protejând siguranța publică.",
-      "article": "art. I (art. 98⁶ alin. (2) lit. c))",
+      "text": "De la executarea la domiciliu sunt excluse infracțiunile contra vieții, corupția, drogurile de mare risc, o parte din infracțiunile sexuale, evadarea și fugarii.",
+      "article": "art. 98⁶ alin. (2) lit. b)-d)",
       "quote": "infracțiuni contra vieții, contra libertății și integrității sexuale dintre cele prevăzute de art. 218 alin. (3), (3²), art. 218¹, art. 219¹, art. 219², art. 221, art. 222-222¹, infracțiuni de corupție, traficul ilicit de droguri de mare risc;",
       "weight": 2
     },
     {
-      "text": "Impune monitorizarea permanentă cu brățară electronică și muncă în folosul comunității pentru cei care execută pedeapsa acasă, reducând costurile cu penitenciarele.",
-      "article": "art. I (art. 98⁷ alin. (2) lit. e) și alin. (4))",
+      "text": "Condamnații la domiciliu sunt monitorizați permanent prin brățară electronică, iar poliția poate face verificări inopinate, reducând riscul de sustragere.",
+      "article": "art. 98⁷ alin. (4) și art. 98⁸ alin. (2)",
       "quote": "Pe parcursul executării pedepsei la domiciliu, persoanele condamnate vor fi monitorizate în permanență prin intermediul unei brățări electronice.",
       "weight": 2
     },
     {
-      "text": "Protejează sporurile pentru condiții vătămătoare sau periculoase de muncă, exceptându-le de la reținerea de 25-50% aplicată veniturilor condamnatului.",
-      "article": "art. I (art. 98² alin. (1) lit. a))",
-      "quote": "din totalul veniturilor cuvenite, potrivit legii, pentru munca prestată, cu excepția sporurilor acordate pentru activitatea desfășurată în locuri de muncă cu condiții vătămătoare sau periculoase",
+      "text": "Pe durata pedepsei la locul de muncă, condamnatul nu poate ocupa funcții de conducere și, după fapta comisă, nici funcții publice, educative sau de gestiune.",
+      "article": "art. 98² alin. (1) lit. f)",
+      "quote": "condamnatul nu poate ocupa funcții de conducere, iar în raport cu fapta săvârșită nu poate ocupa funcții care implică exercițiul autorității de stat, funcții instructiv-educative ori de gestiune.",
+      "weight": 2
+    },
+    {
+      "text": "Sporurile pentru condiții periculoase nu intră în rețineri, iar procentul reținut ține cont de persoanele aflate în întreținerea condamnatului, protejându-i familia.",
+      "article": "art. 98² alin. (1) lit. a)",
+      "quote": "cu excepția sporurilor acordate pentru activitatea desfășurată în locuri de muncă cu condiții vătămătoare sau periculoase",
+      "weight": 1
+    },
+    {
+      "text": "Amenda penală rămâne de executat separat, iar încheierea anticipată a pedepsei după două treimi depinde de buna purtare și de achitarea integrală a despăgubirilor.",
+      "article": "art. 98¹ alin. (4), art. 98⁵ alin. (1) și art. 98¹⁰ alin. (1)",
+      "quote": "Dacă persoana condamnată a executat cel puțin două treimi din durata pedepsei, a dat dovezi temeinice de îndreptare, a avut o bună conduită, a fost disciplinat și stăruitor în muncă, a achitat în integralitate obligațiile civile",
+      "weight": 1
+    },
+    {
+      "text": "Condamnatul la domiciliu poate părăsi locuința fără aprobare prealabilă în situații de urgență sau stare de necesitate, protejându-i viața și siguranța.",
+      "article": "art. 98⁸ alin. (3)",
+      "quote": "Nu este necesar acordul prealabil al judecătorului de supraveghere a privării de libertate atunci când persoana condamnată părăsește domiciliu și se află într-o cauză justificativă sau de neimputabilitate.",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Permite oricărui condamnat la cel mult 7 ani închisoare, inclusiv pentru corupție, tâlhărie sau trafic de persoane, să scape de detenție dacă aduce acordul scris al unui angajator.",
-      "article": "art. I (art. 98¹ alin. (1)-(2))",
+      "text": "Executarea la locul de muncă permite pedepse până la 7 ani fără să excludă corupția, omorul, violul, traficul de droguri, tâlhăria sau fugarii, creând o portiță majoră.",
+      "article": "art. 98¹ alin. (1)-(2)",
       "quote": "Executarea pedepsei la locul de muncă poate fi dispusă și în caz de concurs de infracțiuni, dacă pedeapsa aplicată pentru concursul de infracțiuni este de cel mult 7 ani închisoare",
       "weight": 3
     },
     {
-      "text": "Prevede că munca la o altă unitate se face fără contract de muncă, iar la angajatorul actual contractul se suspendă, fiind imposibil de aplicat legal în Codul muncii și REVISAL.",
-      "article": "art. I (art. 98² alin. (5)-(7))",
+      "text": "La executarea la domiciliu lipsesc din excluderi violul în forma de bază, agresiunea sexuală și violența domestică; agresorul ar putea executa pedeapsa în aceeași casă cu victima.",
+      "article": "art. 98⁶ alin. (2) lit. c)",
+      "quote": "contra libertății și integrității sexuale dintre cele prevăzute de art. 218 alin. (3), (3²), art. 218¹, art. 219¹, art. 219², art. 221, art. 222-222¹",
+      "weight": 3
+    },
+    {
+      "text": "Condamnatul muncește fără contract de muncă sau cu el suspendat și fără vechime, lăsând neclare protecția la accidente, răspunderea angajatorului și drepturile din Constituție.",
+      "article": "art. 98² alin. (1) lit. c) și alin. (5)-(7)",
       "quote": "În cazul executării pedepsei într-o altă unitate decât cea în care își desfășura activitatea condamnatul la data aplicării pedepsei, contractul de muncă încheiat încetează. Pedeapsa se execută fără a se încheia contract de muncă.",
       "weight": 3
     },
     {
-      "text": "Creează o contradicție gravă: corupția, crima și traficul de droguri sunt excluse de la executarea acasă, dar sunt permise la executarea pedepsei la locul de muncă până la 7 ani.",
-      "article": "art. I (art. 98¹ alin. (1) și art. 98⁶ alin. (2) lit. c))",
-      "quote": "d) există acordul scris al unității în care infractorul urmează să execute pedeapsa;",
+      "text": "Reținerea de 25-50% din venit trimite la o lege inexistentă, nu se corelează cu plafonul din Codul muncii și încarcă firmele fără procedură clară; asigurările sociale scad corespunzător.",
+      "article": "art. 98² alin. (1) lit. a)-b)",
+      "quote": "se reține o cotă de 25-50%, stabilită potrivit legii, în raport cu cuantumul veniturilor și cu îndatoririle condamnatului pentru întreținerea altor persoane",
       "weight": 3
     },
     {
-      "text": "Condiționează executarea pedepsei acasă de plata daunelor și cheltuielilor judiciare în 6 luni, transformând măsura într-un privilegiu doar pentru condamnații cu bani.",
-      "article": "art. I (art. 98⁶ alin. (1) lit. e) și art. 98⁷ alin. (2) lit. f))",
+      "text": "Accesul la alternative depinde de bani și relații: munca cere acordul unui angajator fără sprijin pentru șomeri, iar domiciliul cere plata integrală în 6 luni, discriminând săracii.",
+      "article": "art. 98¹ alin. (1) lit. d), art. 98⁶ alin. (1) lit. e) și art. 98⁹ alin. (4)",
       "quote": "inculpatul își ia angajamentul de a achita cheltuielile judiciare și obligațiile civile față de partea civilă, în termen de 6 luni de la rămânerea definitivă a hotărârii de condamnare",
       "weight": 3
     },
     {
-      "text": "Trimite la închisoare condamnatul care își pierde total capacitatea de muncă dacă nu a achitat integral despăgubirile civile, pedepsind oamenii invalizi pentru că sunt săraci.",
-      "article": "art. I (art. 98³ alin. (5))",
-      "quote": "ținând seama de împrejurările care au determinat incapacitatea de muncă și doar dacă persoana condamnată a achitat în integralitate obligațiile civile stabilite de instanță, instanța poate dispune suspendarea executării pedepsei sub supraveghere",
+      "text": "Cine își pierde total capacitatea de muncă își pierde executarea la muncă și poate evita închisoarea doar dacă a plătit integral despăgubirile, pedepsind boala și lipsa banilor.",
+      "article": "art. 98³ alin. (5) și art. 98⁹ alin. (5)",
+      "quote": "doar dacă persoana condamnată a achitat în integralitate obligațiile civile stabilite de instanță, instanța poate dispune suspendarea executării pedepsei sub supraveghere chiar dacă nu sunt întrunite condițiile prevăzute în art. 91.",
       "weight": 3
     },
     {
-      "text": "Permite trimiterea în penitenciar dacă angajatul „nu-și îndeplinește corespunzător îndatoririle” la muncă, fără a cere rea-credință, expunând condamnatul la șantajul angajatorului.",
-      "article": "art. I (art. 98³ alin. (4))",
-      "quote": "Dacă persoana condamnată se sustrage de la prestarea activității în cadrul unității sau nu-și îndeplinește în mod corespunzător îndatoririle ce-i revin la locul de muncă ori nu respectă măsurile de supraveghere",
+      "text": "Există două articole numerotate 98⁹, iar cel privind anularea la domiciliu copiază greșit textul de la locul de muncă, blocând aplicarea și creând trimiteri neclare.",
+      "article": "art. 98⁹ (al doilea) și art. 98¹⁰ alin. (3)",
+      "quote": "până la rămânerea definitivă a hotărârii prin care s-a dispus executarea pedepsei la locul de muncă și aceasta se descoperă mai înainte ca pedeapsa să fi fost executată la locul de muncă",
       "weight": 3
     },
     {
-      "text": "Reține 25-50% din venit fără o lege care să explice calculul sau virarea banilor de către firme și anulează vechimea în muncă, deși din salariul rămas se opresc contribuții sociale.",
-      "article": "art. I (art. 98² alin. (1) lit. a)-c))",
-      "quote": "drepturile de asigurări sociale se stabilesc în procentele legale aplicate la venitul net cuvenit condamnatului, după reținerea cotei prevăzute la lit. a);",
-      "weight": 3
-    },
-    {
-      "text": "Exclude de la închisoarea la domiciliu doar unele infracțiuni grave, omițând traficul de persoane, traficul de minori, violul în formă simplă, tortura sau evaziunea fiscală mare.",
-      "article": "art. I (art. 98⁶ alin. (2) lit. c))",
-      "quote": "faptele comise constituie infracțiuni contra vieții, contra libertății și integrității sexuale dintre cele prevăzute de art. 218 alin. (3), (3²), art. 218¹, art. 219¹, art. 219², art. 221, art. 222-222¹, infracțiuni de corupție",
-      "weight": 2
-    },
-    {
-      "text": "Inventează o funcție inexistentă, „judecătorul delegat cu executarea din cadrul unui penitenciar”, și suprapune haotic atribuțiile poliției, probațiunii și a doi judecători diferiți.",
-      "article": "art. I (art. 98⁷ alin. (1)-(2) și art. 98⁸ alin. (1) și (3))",
+      "text": "Supravegherea la domiciliu e atribuită unei funcții inexistente (judecător delegat dintr-un penitenciar) și împărțită confuz cu poliția, probațiunea și judecătorul de supraveghere.",
+      "article": "art. 98⁷ alin. (1)-(2) și art. 98⁸ alin. (1), (3)",
       "quote": "Supravegherea executării la domiciliu a pedepsei închisorii este efectuată de un judecător delegat cu executarea din cadrul unui penitenciar din circumscripția domiciliului unde persoana condamnata execută măsura",
-      "weight": 2
+      "weight": 3
     },
     {
-      "text": "Obligă DGASPC să ajute condamnații fără adăpost să obțină locuințe sociale, deși conform Legii 114/1996 locuințele sociale sunt atribuite de primării și consiliile locale, nu de DGASPC.",
-      "article": "art. I (art. 98⁷ alin. (3))",
+      "text": "Proiectul obligă DGASPC să asigure locuințe sociale condamnaților fără casă, deși DGASPC nu deține locuințe sociale; măsura devine imposibil de aplicat în practică.",
+      "article": "art. 98⁷ alin. (3)",
       "quote": "Pentru respectarea principiului egalității în fața legii, persoanele care nu au un domiciliu unde să execute pedeapsa închisorii la domiciliu vor beneficia de sprijinul DGASPC pentru acordarea unei locuințe sociale.",
       "weight": 2
     },
     {
-      "text": "Transformă închisoarea la domiciliu în muncă la unitate pentru cei fără bani de daune, fără a cere acordul unui angajator sau îndeplinirea condițiilor pentru executarea la locul de muncă.",
-      "article": "art. I (art. 98⁹ [primul] alin. (4))",
-      "quote": "nu are posibilitatea materială de a achita cheltuielile judiciare și obligațiile civile față de partea civilă, în termen de 6 luni de la rămânerea definitivă a hotărârii de condamnare, atunci instanța poate revoca executarea pedepsei închisorii la domiciliu",
+      "text": "Legea intră în vigoare cu 90 de zile înaintea normelor Guvernului, blocând aplicarea, și trimite spre hotărâri de guvern reguli penale care țin constituțional de lege organică.",
+      "article": "art. II alin. (1)-(2)",
+      "quote": "În termen de 90 de zile de la intrarea în vigoare a prezentei legi, Guvernul va adopta normele de aplicare și hotărârile necesare punerii în aplicare a dispozițiilor prezentei legi.",
       "weight": 2
     },
     {
-      "text": "Condiționează încetarea pedepsei după două treimi din durată de plata integrală a daunelor civile, fără nicio excepție pentru cei care dovedesc că nu au mijloace materiale să plătească.",
-      "article": "art. I (art. 98⁵ alin. (1) și art. 98¹⁰ alin. (1))",
-      "quote": "Dacă persoana condamnată a executat cel puțin două treimi din durata pedepsei, a dat dovezi temeinice de îndreptare, a avut o bună conduită, a fost disciplinat și stăruitor în muncă, a achitat în integralitate obligațiile civile",
+      "text": "Lipsesc modificările la Codul de procedură penală și legile de executare: nu e clar cine asigură brățările electronice, cum funcționează mandatul și cum se contestă deciziile.",
+      "article": "art. 98² alin. (4), art. 98⁷ alin. (4) și art. 98⁸",
+      "quote": "Pedeapsa se execută la locul de muncă în baza mandatului de executare a pedepsei.",
       "weight": 2
     },
     {
-      "text": "Interzice condamnatului anumite funcții „în raport cu fapta săvârșită”, formulare vagă care nu lămurește dacă interdicția se aplică automat sau doar când o stabilește expres judecătorul.",
-      "article": "art. I (art. 98² alin. (1) lit. f))",
-      "quote": "condamnatul nu poate ocupa funcții de conducere, iar în raport cu fapta săvârșită nu poate ocupa funcții care implică exercițiul autorității de stat, funcții instructiv-educative ori de gestiune.",
+      "text": "La locul de muncă nu sunt prevăzute măsuri obligatorii de supraveghere și nici cine verifică disciplina sau sesizează instanța dacă condamnatul nu respectă programul.",
+      "article": "art. 98² alin. (3) și art. 98³ alin. (4)",
+      "quote": "Instanța poate dispune ca cel condamnat să respecte și una sau mai multe din obligațiile prevăzute în art. 93.",
       "weight": 2
     },
     {
-      "text": "Conține erori grave de redactare și copy-paste: două articole au numărul 98⁹, anularea pedepsei la domiciliu vorbește greșit despre „locul de muncă”, iar articolele 98¹-98¹⁰ sunt puse după art. 106.",
-      "article": "art. I (art. 98⁹ [al doilea] alin. (1))",
-      "quote": "până la rămânerea definitivă a hotărârii prin care s-a dispus executarea pedepsei la locul de muncă și aceasta se descoperă mai înainte ca pedeapsa să fi fost executată la locul de muncă",
+      "text": "Părăsirea domiciliului este permisă pentru „alte activități” legate de drepturile fundamentale, formulare vagă care permite abuzuri și poate goli măsura de conținut.",
+      "article": "art. 98⁷ alin. (1) lit. d)",
+      "quote": "alte activități care au legătură cu drepturile fundamentale ale omului prevăzute de Constituția României.",
+      "weight": 2
+    },
+    {
+      "text": "Regulile de revocare sunt contradictorii (obligatorii într-un loc, facultative în altul), iar la incapacitatea de muncă trimit la „măsuri civile” neclare în dreptul penal.",
+      "article": "art. 98⁶ alin. (1) lit. e) și art. 98⁹ alin. (4)-(5)",
+      "quote": "ținând seama de împrejurările care au determinat incapacitatea de muncă de la rămânerea definitivă a hotărârii de condamnare la această pedeapsă, dispune măsurile civile stabilite prin lege.",
+      "weight": 2
+    },
+    {
+      "text": "Dreptul de a fi ales este interzis automat tuturor condamnaților, fără evaluarea individuală a judecătorului în raport cu fapta, ceea ce poate încălca standardele CEDO.",
+      "article": "art. 98² alin. (2) și art. 98⁷ alin. (5)",
+      "quote": "Pe durata executării pedepsei, condamnatului i se interzice dreptul electoral de a fi ales.",
+      "weight": 1
+    },
+    {
+      "text": "La domiciliu lipsește excepția din art. 42 Cod penal (condamnări anterioare din culpă, amnistiate sau din minoritate), deși ea există la locul de muncă, creând tratament inegal.",
+      "article": "art. 98⁶ alin. (1) lit. b)",
+      "quote": "inculpatul nu a fost condamnat anterior la pedeapsa închisorii mai mare de 3 ani, cu excepția cazului în care a intervenit reabilitarea sau s-a împlinit termenul de reabilitare;",
+      "weight": 1
+    },
+    {
+      "text": "Textul conține numeroase erori de redactare și termeni juridici greșiți („pluralitatea infracțională”, „înaintea expirării”, cuvinte dublate), care generează interpretări neunitare.",
+      "article": "art. 98⁹ alin. (1)-(2) și (4)",
+      "quote": "atunci instanța poate revoca executarea pedepsei închisorii la domiciliu, dispunând executarea pedepsei executarea pedepsei la locul de muncă.",
       "weight": 1
     }
   ],
   "fix": null,
   "quotes": {
-    "checked": 18,
-    "verified": 18
+    "checked": 25,
+    "verified": 25
   }
 }

@@ -2,198 +2,145 @@
   "slug": "plx-273-2026",
   "billId": "Pl-x 273/2026",
   "schema": 1,
-  "model": "claude",
-  "updatedAt": "2026-11-02T18:17:51.706Z",
-  "inputHash": "ea544053ef09",
-  "riskScore": 6,
-  "summary": "Un scop legitim, plata la timp a firmelor de către stat, compromis de un text tehnic defectuos, cu contradicții și mecanisme riscante în mai multe articole, nu doar într-unul.",
+  "model": "agy",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-23T09:57:24.981Z",
+  "inputHash": "ad2153147aea",
+  "riskScore": 7,
+  "summary": "Scop legitim de disciplinare a plăților statului, dar redactat cu erori grave, contradicții interne și mecanisme care pot bloca serviciile publice și bugetul.",
   "good": [
     {
-      "text": "Fixează clar un termen maxim de 30 de zile pentru plată, socotit de la recepția fără obiecțiuni sau de la finalizarea etapei, în acord cu termenul de bază din Directiva 2011/7/UE.",
-      "article": "art. 4 alin. (1)",
-      "quote": "termenul de plată a creanțelor comerciale este de cel mult 30 de zile calendaristice de la",
-      "weight": 2
-    },
-    {
-      "text": "Ministerul Finanțelor publică lunar lista instituțiilor cu facturi restante, cu sume și vechime. Cetățenii și firmele pot vedea cine nu plătește.",
+      "text": "Ministerul Finanțelor publică lunar lista instituțiilor cu facturi restante, arătând sumele și vechimea lor, ceea ce ajută firmele și cetățenii să vadă cine nu plătește.",
       "article": "art. 6 alin. (4)",
       "quote": "Ministerul Finanțelor publică lunar pe site-ul propriu lista instituțiilor și autorităților publice care au facturi restante, cu indicarea valorii și vechimii acestora.",
       "weight": 2
     },
     {
-      "text": "Dacă instituția refuză recepția, firma poate cere un expert tehnic judiciar ales aleatoriu, ca să nu rămână blocată la nesfârșit.",
-      "article": "art. 5 alin. (1)-(2)",
-      "quote": "Expertul este desemnat aleatoriu din Registrul național al experților tehnici judiciari și întocmește un raport de constatare.",
-      "weight": 2
-    },
-    {
-      "text": "Sunt nule condițiile de plată adăugate după recepție fără acord în contract și clauzele care elimină dobânzile de întârziere.",
-      "article": "art. 8 alin. (1) lit. b)-c)",
-      "quote": "condiționările suplimentare de plată post-recepție, care nu sunt prevăzute la nivel contractual și agreate de către părți",
-      "weight": 2
-    },
-    {
-      "text": "Dobânzile de întârziere se plătesc din bugetul instituției care a întârziat, nu din bani de la centru, ceea ce responsabilizează conducerea.",
-      "article": "art. 5 alin. (7)",
-      "quote": "Dobânzile și penalitățile se suportă din bugetul instituției debitoare și nu pot fi acoperite din transferuri de la bugetul de stat.",
-      "weight": 2
-    },
-    {
-      "text": "Statul garantează în ultimă instanță plata furnizorului, iar Ministerul Finanțelor poate recupera apoi banii de la instituția datoare.",
-      "article": "art. 6 alin. (2)-(3)",
-      "quote": "Ministerul Finanțelor are drept de regres asupra instituției beneficiare.",
-      "weight": 1
-    },
-    {
-      "text": "O plată parțială nu oprește executarea pentru rest, iar dobânzile continuă să curgă și după emiterea certificatului.",
-      "article": "art. 5 alin. (9)-(10)",
-      "quote": "Plata parțială a sumelor cuprinse în certificatul de plată restantă nu exonerează autoritatea contractantă de a fi executată silit pentru restul sumei",
-      "weight": 1
-    },
-    {
-      "text": "Firma își poate recupera cheltuielile rezonabile făcute pentru a-și încasa banii, iar instituția nu poate elimina acest drept prin contract.",
-      "article": "art. 13",
-      "quote": "creditorul are dreptul la o compensație privitoare la orice cheltuială suplimentară rezonabilă efectuată pentru recuperarea creanței",
-      "weight": 1
-    },
-    {
-      "text": "Instituția trebuie să spună în 5 zile lucrătoare de ce nu acceptă o factură, ca să nu poată tergiversa fără motiv.",
-      "article": "art. 4 alin. (6)",
-      "quote": "Instituția publică are obligația de a notifica, în maximum 5 zile lucrătoare de la înregistrarea facturii, eventualele motive de neacceptare.",
-      "weight": 1
-    },
-    {
-      "text": "Contractele deja semnate rămân valabile, deci legea nu se aplică retroactiv.",
-      "article": "art. 4 alin. (3)",
-      "quote": "Prevederile prezentei legi nu aduc atingere valabilității contractelor încheiate anterior intrării sale în vigoare",
-      "weight": 1
-    },
-    {
-      "text": "Instituțiile trebuie să publice lunar datoriile restante, scadențele și motivele întârzierii; conducătorul răspunde disciplinar dacă nu o face.",
-      "article": "art. 7",
+      "text": "Fiecare instituție trebuie să publice lunar datoriile restante, scadențele și motivele întârzierilor, iar conducătorii care ascund aceste date riscă sancțiuni disciplinare.",
+      "article": "art. 7 alin. (1)–(2)",
       "quote": "Nerespectarea acestor obligații atrage răspunderea disciplinară a ordonatorului de credite.",
-      "weight": 1
+      "weight": 2
     },
     {
-      "text": "Curtea de Conturi verifică anual dacă legea este respectată.",
-      "article": "art. 15 alin. (1)",
-      "quote": "Curtea de Conturi verifică anual respectarea dispozițiilor prezentei legi.",
+      "text": "Anulează clauzele abuzive prin care instituțiile impun termene de plată peste 30 de zile fără motiv, condiții noi după recepție sau elimină dobânzile de întârziere.",
+      "article": "art. 8 alin. (1)",
+      "quote": "clauzele contractuale care impun termene de plată mai mari de 30 de zile, fără justificare obiectivă;",
+      "weight": 2
+    },
+    {
+      "text": "Curtea de Conturi verifică anual plățile și poate imputa șefilor sau contabililor vinovați penalitățile de întârziere, ca să nu le suporte doar bugetul public.",
+      "article": "art. 9 alin. (3) și art. 15 alin. (1)",
+      "quote": "Dobânzile și penalitățile achitate în baza art. 5 alin. (6) pot fi imputate ordonatorului de credit, contabilului-șef, directorului economic sau persoanei responsabile, după caz, prin dispoziție a Curții de Conturi.",
+      "weight": 2
+    },
+    {
+      "text": "Permite firmelor să își recupereze cheltuielile rezonabile făcute pentru a încasa banii de la stat, iar instituțiile nu pot scoate acest drept din contracte.",
+      "article": "art. 13",
+      "quote": "creditorul are dreptul la o compensație privitoare la orice cheltuială suplimentară rezonabilă efectuată pentru recuperarea creanței, fără posibilitatea autorităților publice de a deroga de la aceste drepturi prin clauze contractuale.",
+      "weight": 2
+    },
+    {
+      "text": "Protejează contractele deja semnate cu bună-credință înainte de intrarea în vigoare a legii, evitând schimbarea bruscă a regulilor pentru acordurile aflate în derulare.",
+      "article": "art. 4 alin. (3)",
+      "quote": "Prevederile prezentei legi nu aduc atingere valabilității contractelor încheiate anterior intrării sale în vigoare, în măsura în care clauzele referitoare la termenele de plată nu contravin ordinii publice",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Orice instituție cu o factură restantă de peste 30 de zile nu mai poate face nicio achiziție nouă. Fără excepții, spitale sau primării pot rămâne fără medicamente, hrană sau utilități.",
+      "text": "Interzice instituțiilor cu facturi restante peste 30 de zile să încheie orice contract nou, fără excepții pentru urgențe, medicamente sau utilități, putând bloca spitale, școli și primării.",
       "article": "art. 8 alin. (2)",
       "quote": "Instituțiile publice care înregistrează facturi restante mai vechi de 30 de zile nu pot încheia noi contracte de achiziție publică până la stingerea integrală a obligațiilor.",
       "weight": 3
     },
     {
-      "text": "Contradicție directă: art. 4 spune că Trezoreria plătește numai după ordonanțare, dar art. 10 și 11 o obligă să plătească din oficiu chiar fără ordonanțare.",
-      "article": "art. 4 alin. (5); art. 10 (art. 57¹ alin. (2)); art. 11 (art. 72¹ alin. (2))",
-      "quote": "În cazul în care, la data scadenței, ordonanțarea lipsește, Trezoreria notifică ordonatorul și efectuează plata din oficiu, în termen de 5 zile lucrătoare",
+      "text": "Obligă Ministerul Finanțelor să plătească sau să fie executat silit solidar pentru datoriile oricărei instituții, inclusiv locale, fără sursă de finanțare, creând un risc bugetar major.",
+      "article": "art. 6 alin. (1)–(2) și art. 12",
+      "quote": "operatorul economic este îndreptățit să solicite executarea silită împotriva Ministerului Finanțelor, în solidar cu instituția debitoare.",
       "weight": 3
     },
     {
-      "text": "Factura necontestată în 5 zile devine acceptată și poate fi plătită automat de Trezorerie, ocolind controlul financiar. Asta deschide drumul plății unor facturi nejustificate sau frauduloase.",
-      "article": "art. 4 alin. (6) coroborat cu art. 10-11",
-      "quote": "Instituția publică are obligația de a notifica, în maximum 5 zile lucrătoare de la înregistrarea facturii, eventualele motive de neacceptare. În lipsa notificării, factura se consideră acceptată de drept.",
+      "text": "Se contrazice direct: art. 4 cere ordonanțare pentru plată, dar art. 10 și 11 obligă Trezoreria să plătească din oficiu fără ordonanțare, ocolind controlul cheltuielilor publice.",
+      "article": "art. 4 alin. (5), art. 10 și art. 11",
+      "quote": "În cazul în care, la data scadenței, ordonanțarea lipsește, Trezoreria notifică ordonatorul și efectuează plata din oficiu, în termen de 5 zile lucrătoare, reținând automat sumele din creditele bugetare aprobate.",
       "weight": 3
     },
     {
-      "text": "Raportul unui expert cerut prin procedură provizorie ajunge să stea la baza unui titlu executoriu. Legea nu spune ce instanță îl emite, în ce termen și cum se poate contesta.",
-      "article": "art. 2 lit. c); art. 5 alin. (1), (3), (8)",
+      "text": "Permite obținerea unui titlu executoriu contra statului printr-o procedură de urgență, doar pe baza raportului unui expert, fără judecarea fondului și fără cale de atac reglementată.",
+      "article": "art. 5 alin. (1)–(3) și alin. (8)",
       "quote": "Raportul constituie probă suficientă pentru emiterea certificatului de plată restantă.",
       "weight": 3
     },
     {
-      "text": "Ministerul Finanțelor e obligat să dea bani oricărei instituții datoare în 10 zile, fără sursă de finanțare stabilită. Asta încurajează risipa și încalcă regula constituțională a sursei de finanțare.",
-      "article": "art. 6 alin. (1)-(2); art. 12",
-      "quote": "Ministerul Finanțelor are obligația de a aloca fondurile necesare în termen de 10 zile lucrătoare.",
+      "text": "Confundă instituțiile datoare cu firmele ofertante în Legea achizițiilor: introduce excluderea ofertanților după lista instituțiilor cu restanțe și le cere firmelor să remedieze datorii neclare.",
+      "article": "art. 14",
+      "quote": "care figurează în lista publică a instituțiilor cu plăți restante peste termenul legal prevăzut de legea specială privind plata creanțelor comerciale, cu scadență depășită cu mai mult de 30 de zile",
       "weight": 3
     },
     {
-      "text": "Trezoreria ia automat bani din bugetul aprobat, deși creditele bugetare nu garantează că banii există. Poate tăia din salarii sau ajutoare și afectează autonomia locală.",
-      "article": "art. 10 (art. 57¹ alin. (2)); art. 11 (art. 72¹ alin. (2))",
-      "quote": "plata se efectuează din oficiu, cu notificarea prealabilă a ordonatorului, în termen de 5 zile lucrătoare, reținându-se automat sumele din bugetul local aprobat",
-      "weight": 2
-    },
-    {
-      "text": "Modificarea legii achizițiilor confundă instituția datoare cu firma ofertantă: firmele ar fi excluse pentru restanțe care sunt ale instituțiilor. Textul e absurd sau inaplicabil.",
-      "article": "art. 14 pct. 1-2",
-      "quote": "care figurează în lista publică a instituțiilor cu plăți restante peste termenul legal prevăzut de legea specială privind plata creanțelor comerciale",
-      "weight": 2
-    },
-    {
-      "text": "Începutul termenului de 30 de zile diferă: înregistrarea facturii (art. 2 și art. 4 alin. 4) sau recepția ori finalizarea etapei (art. 4 alin. 1). Firma și instituția pot calcula scadențe diferite.",
-      "article": "art. 2 lit. e); art. 4 alin. (1) și (4)",
+      "text": "Stabilește repere contradictorii pentru termenul de 30 de zile (înregistrarea facturii, recepția sau finalizarea etapei) și admite implicit termene mai lungi, generând litigii privind scadența.",
+      "article": "art. 2 lit. e), art. 4 alin. (1), alin. (4) și art. 8 alin. (1) lit. a)",
       "quote": "Trezoreria Statului efectuează plata automată a facturilor ajunse la termen potrivit alin. (1), în termen de cel mult 30 de zile de la data înregistrării acestora.",
       "weight": 2
     },
     {
-      "text": "Admite termene mai lungi de 30 de zile dacă sunt „justificate”, fără plafon. Contrazice termenul imperativ din art. 4 și plafonul de 60 de zile din Directiva 2011/7/UE.",
-      "article": "art. 8 alin. (1) lit. a)",
-      "quote": "clauzele contractuale care impun termene de plată mai mari de 30 de zile, fără justificare obiectivă",
-      "weight": 2
-    },
-    {
-      "text": "Contabilii și conducătorii răspund personal pentru întârzieri chiar dacă instituția nu are bani. Imputarea direct „prin dispoziție a Curții de Conturi” ocolește procedura normală de stabilire a vinovăției.",
-      "article": "art. 9 alin. (2)-(3); art. 15 alin. (1)",
-      "quote": "pot fi imputate ordonatorului de credit, contabilului-șef, directorului economic sau persoanei responsabile, după caz, prin dispoziție a Curții de Conturi",
-      "weight": 2
-    },
-    {
-      "text": "Nu e clar dacă dobânzile la nivel fiscal se adaugă dobânzilor din Legea 72/2013 sau le înlocuiesc. Asta poate duce la plăți duble din bani publici sau la procese.",
-      "article": "art. 5 alin. (5); art. 13",
-      "quote": "se datorează în plus față de creanțele comerciale devenite exigibile, dobânzi și penalități de întârziere, conform nivelului prevăzut de legislația fiscală privind obligațiile bugetare",
-      "weight": 2
-    },
-    {
-      "text": "Alineatele (5) și (6) ale art. 5 spun aproape același lucru, iar art. 9 trimite la al doilea. E o eroare de redactare care creează confuzie.",
-      "article": "art. 5 alin. (5)-(6); art. 9 alin. (3)",
-      "quote": "Pentru sumele exigibile neachitate în termen, se datorează dobânzi și penalități de întârziere, conform nivelului prevăzut de legislația fiscală privind obligațiile bugetare.",
-      "weight": 1
-    },
-    {
-      "text": "Definiția facturii acceptate cere respectarea art. 3–7 din Legea 72/2013, deși art. 4 derogă chiar de la art. 5–7. Trimiterile se bat cap în cap.",
-      "article": "art. 2 lit. f); art. 4 alin. (1)",
-      "quote": "care nu a fost contestată motivat în termen de 5 zile lucrătoare de la înregistrare, cu respectarea art. 3–7 din Legea nr. 72/2013",
-      "weight": 1
-    },
-    {
-      "text": "Legea 72/2013 stabilește deja termenul de 30 de zile, dobânzile și despăgubirile. Proiectul creează un regim paralel în loc să rezolve aplicarea regulilor existente.",
+      "text": "Derogă de la art. 5–7 din Legea 72/2013, eliminând termenul de 60 de zile permis spitalelor publice și contractelor complexe, ceea ce poate arunca rapid unitățile sanitare în blocaj.",
       "article": "art. 4 alin. (1)",
       "quote": "Prin derogare de la art. 5–7 din Legea nr. 72/2013 privind măsurile pentru combaterea întârzierii în executarea obligațiilor de plată",
+      "weight": 2
+    },
+    {
+      "text": "Consideră factura acceptată automat dacă instituția nu o contestă motivat în 5 zile lucrătoare, termen mult prea scurt pentru verificarea lucrărilor complexe, cu risc de plăți necuvenite.",
+      "article": "art. 2 lit. f) și art. 4 alin. (6)",
+      "quote": "Instituția publică are obligația de a notifica, în maximum 5 zile lucrătoare de la înregistrarea facturii, eventualele motive de neacceptare. În lipsa notificării, factura se consideră acceptată de drept.",
+      "weight": 2
+    },
+    {
+      "text": "Dublează inutil prevederile despre penalități și suprapune dobânzile fiscale cu dobânzile comerciale din Legea 72/2013, lăsând neclar ce penalități se aplică și creând risc de dublă taxare.",
+      "article": "art. 5 alin. (5)–(6) și art. 13",
+      "quote": "Pentru sumele exigibile neachitate în termen, se datorează dobânzi și penalități de întârziere, conform nivelului prevăzut de legislația fiscală privind obligațiile bugetare.",
+      "weight": 2
+    },
+    {
+      "text": "Interzice acoperirea penalităților din transferuri de la bugetul de stat, ceea ce contrazice art. 6 și este inaplicabil instituțiilor finanțate integral din bugetul de stat.",
+      "article": "art. 5 alin. (7)",
+      "quote": "Dobânzile și penalitățile se suportă din bugetul instituției debitoare și nu pot fi acoperite din transferuri de la bugetul de stat.",
+      "weight": 2
+    },
+    {
+      "text": "Intră în vigoare la 30 de zile de la publicare, dar normele de aplicare se aprobă abia în 60 de zile după aceea, blocând aplicarea coerentă a mecanismelor noi.",
+      "article": "art. 15 alin. (2) și alin. (4)",
+      "quote": "În termen de 60 de zile de la intrarea în vigoare a prezentei legi, Guvernul aprobă prin hotărâre normele metodologice de aplicare.",
+      "weight": 2
+    },
+    {
+      "text": "Impune răspundere materială și disciplinară șefilor și contabililor pentru orice întârziere, fără a cere existența vinei, putând pedepsi funcționari și când lipsesc fondurile.",
+      "article": "art. 9 alin. (2)",
+      "quote": "Ordonatorul de credite, contabilul-șef, directorul economic sau persoana responsabilă, după caz, răspund material și disciplinar pentru neexecutarea obligațiilor de plată în termen.",
       "weight": 1
     },
     {
-      "text": "Legea se aplică și unor entități publice care nu lucrează prin Trezorerie. Nici Trezoreria nu are acces la facturi și recepții, deci plata automată e greu de pus în practică.",
-      "article": "art. 3 lit. c); art. 4 alin. (4)",
-      "quote": "entități de drept public care desfășoară activități economice prin raporturi contractuale cu operatori economici",
-      "weight": 1
-    },
-    {
-      "text": "Definiția operatorului economic cere scop de profit. Exclude furnizorii fără scop lucrativ, deși directiva UE îi protejează și pe aceștia.",
+      "text": "Restrânge protecția legii doar la entitățile care urmăresc profit, excluzând universități, institute de cercetare sau ONG-uri care furnizează servicii statului prin contracte publice.",
       "article": "art. 2 lit. a)",
       "quote": "orice entitate cu personalitate juridică sau fizică autorizată, care desfășoară activități economice, comerciale, de furnizare bunuri, prestare servicii sau execuție lucrări, în scopul obținerii unui profit",
       "weight": 1
     },
     {
-      "text": "Mai multe articole trimit vag la „legea specială”, fără să o numească, iar abrogarea „oricărei dispoziții contrare” lasă neclar ce normă se mai aplică.",
-      "article": "art. 11, art. 12, art. 14; art. 15 alin. (3)",
-      "quote": "pentru creanțele constatate prin certificatul de plată restantă prevăzut de legea specială privind plata creanțelor comerciale de către stat",
+      "text": "Definește autoritatea contractantă prin tot art. 4 alin. (1) din Legea 98/2016, dar restrânge aplicarea legii doar la lit. a), lăsând neclar dacă sunt incluse și alte entități publice.",
+      "article": "art. 2 lit. b) și art. 3 lit. a)",
+      "quote": "autorităților contractante definite potrivit art. 4 alin. (1) lit. a) din Legea nr. 98/2016 privind achizițiile publice;",
       "weight": 1
     },
     {
-      "text": "Pentru contractele vechi, condiții vagi ca „ordinea publică” și „buna-credință” lasă loc de interpretări și litigii despre ce termen se aplică.",
-      "article": "art. 4 alin. (3)",
-      "quote": "în măsura în care clauzele referitoare la termenele de plată nu contravin ordinii publice și au fost stabilite în mod liber, cu bună-credință, între părți",
+      "text": "Folosește o formulă vagă de abrogare („orice dispoziție contrară”), fără a preciza ce articole din legile existente dispar, creând incertitudine juridică pentru instituții și instanțe.",
+      "article": "art. 15 alin. (3)",
+      "quote": null,
       "weight": 1
     }
   ],
   "fix": null,
   "quotes": {
-    "checked": 30,
-    "verified": 30
+    "checked": 20,
+    "verified": 20
   }
 }

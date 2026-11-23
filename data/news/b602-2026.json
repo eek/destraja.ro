@@ -1,13 +1,12 @@
 {
   "slug": "b602-2026",
   "billId": "B602/2026",
-  "checkedAt": "2026-11-16T09:37:24.685Z",
+  "checkedAt": "2026-11-23T11:00:05.165Z",
   "indexCheckedAt": "2026-11-19T10:30:39.359Z",
   "models": {
     "agy": "ok",
     "claude": "ok",
-    "codex": "ok",
-    "index": "ok"
+    "codex": "ok"
   },
   "articles": [
     {
@@ -17,9 +16,11 @@
       "domain": "gandul.ro",
       "publishedAt": "2026-11-18",
       "foundBy": [
-        "index"
+        "index",
+        "agy",
+        "claude"
       ],
-      "quote": "Inițiativa figurează în evidențele parlamentare din 28 octombrie, cu numărul B602/2026 .",
+      "quote": "Inițiativa figurează în evidențele parlamentare din 28 octombrie, cu numărul B602/2026.",
       "match": "quote",
       "firstSeenAt": "2026-11-19",
       "decision": {
@@ -200,7 +201,7 @@
         "agy",
         "claude"
       ],
-      "quote": "a depus un proiect de lege pentru înființarea, organizarea și funcționarea Școlii Naționale de Diplomație",
+      "quote": "Proiectul de lege urmează să parcurgă procedura parlamentară de dezbatere și adoptare.",
       "match": "quote",
       "firstSeenAt": "2026-11-04",
       "decision": {
@@ -245,7 +246,7 @@
         "claude",
         "agy"
       ],
-      "quote": "proiect de lege care prevede înființarea Școlii Naționale de Diplomație",
+      "quote": "Conform inițiativei legislative, Școala Națională de Diplomație ar urma să ofere mai multe forme de pregătire",
       "match": "quote",
       "firstSeenAt": "2026-11-04",
       "decision": {
@@ -290,7 +291,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Școala Națională de Diplomație va include și un segment important dedicat relațiilor internaționale",
+      "quote": "Deputatul AUR Cosmin Corendea a depus un proiect de lege pentru înființarea, organizarea și funcționarea Școlii Naționale de Diplomație",
       "match": "quote",
       "firstSeenAt": "2026-11-04",
       "decision": {
@@ -327,6 +328,33 @@
     }
   ],
   "pending": [
+    {
+      "url": "https://psnews.ro/romania-scoala-nationala-diplomatie-proiect-deputat-aur",
+      "title": "România ar putea avea o Școală Națională de Diplomație. Ce prevede proiectul depus de un deputat AUR",
+      "outlet": "PS News",
+      "domain": "psnews.ro",
+      "publishedAt": "2026-11-19",
+      "foundBy": [
+        "agy",
+        "claude"
+      ],
+      "quote": "Inițiativa figurează în evidențele parlamentare din 28 octombrie, cu numărul B602/2026.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    },
+    {
+      "url": "https://newsedge.ro/stiri/cosmin-corendea-aur-scoala-nationala-de-diplomatie-43725",
+      "title": "Școala Națională de Diplomație, proiect depus la Senat. IDR ar urma să fie desființat | NewsEdge",
+      "outlet": "NewsEdge",
+      "domain": "newsedge.ro",
+      "publishedAt": "2026-11-04",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Deputatul AUR Cosmin Corendea a inițiat un proiect de lege care prevede înființarea Școlii Naționale de Diplomație.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    },
     {
       "url": "https://reper24.ro/aur-a-depus-un-proiect-de-lege-pentru-infiintarea-scolii-nationale-de-diplomatie",
       "title": "AUR a depus un proiect de lege pentru înființarea Școlii Naționale de Diplomație",
@@ -503,6 +531,19 @@
           }
         }
       }
+    },
+    {
+      "url": "https://ro24tv.ro/proiect-aur-pentru-infiintarea-scolii-nationale-de-diplomatie",
+      "title": "Proiect AUR pentru înființarea Școlii Naționale de Diplomație",
+      "outlet": "RO24TV",
+      "domain": "ro24tv.ro",
+      "publishedAt": "2026-11-03",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Deputatul AUR Cosmin Corendea, în calitatea sa de vicepreședinte al Comisiei pentru Politică Externă din Camera Deputaților, a inițiat un demers legislativ pentru constituirea Școlii Naționale de Diplomație.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
     },
     {
       "url": "https://epochtimes-romania.com/news/experta-in-spatiul-ex-sovietic-aur-vrea-sa-formeze-diplomatii-romaniei-invocand-traditia-din-anii-50---396933",

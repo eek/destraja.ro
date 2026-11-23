@@ -1,20 +1,52 @@
 {
  "slug": "plx-335-2026",
  "billId": "PL-x 335/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-11-12T09:55:47.360Z",
- "inputHash": "17f11a73125e",
+ "updatedAt": "2026-11-23T09:21:01.629Z",
+ "inputHash": "8cf119099c9b",
  "reports": [
   "https://www.cdep.ro/comisii/invatamant/pdf/2026/rp335.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp335.pdf",
+   "sha256": "730ca7af6cdd8593",
+   "parts": 1,
+   "rows": 18,
+   "unchanged": 8,
+   "admise": 10,
+   "respinse": 0,
+   "truncated": false
+  }
+ ],
+ "completeness": "complete",
+ "problems": [],
  "counts": {
-  "admise": 7,
-  "respinse": 0
+  "admise": 10,
+  "respinse": 0,
+  "anuntate": 18,
+  "nemodificate": 8
  },
  "amendments": [
   {
+   "nr": "2",
+   "report": "rp335.pdf",
+   "article": "Articol unic",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Modifică articolul unic al legii de aprobare a OUG 28/2026 pentru a include formula „cu următoarele modificări și completări”.",
+   "quote": "luarea unor măsuri în domeniul educației, cu următoarele modificări și completări:",
+   "inForce": null,
+   "before": "Articol unic. - Se aprobă Ordonanța de urgență a Guvernului nr.28/2026 pentru modificarea și completarea unor acte normative și luarea unor măsuri în domeniul educației.",
+   "after": "Articol unic. - Se aprobă Ordonanța de urgență a Guvernului nr.28/2026 pentru modificarea și completarea unor acte normative și luarea unor măsuri în domeniul educației, cu următoarele modificări și completări:",
+   "motivation": "Respectarea normelor de tehnică legislativă"
+  },
+  {
    "nr": "7",
+   "report": "rp335.pdf",
    "article": "Art. I pct. 2¹ (art. 139 alin. (4) din Legea nr. 198/2023)",
    "status": "admis",
    "authors": [
@@ -32,14 +64,35 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Extinde finanțarea de la bugetul de stat și pentru unitățile de învățământ preuniversitar înființate în subordinea universităților de stat, nu doar în cadrul lor.",
-   "quote": "acreditate, înființate în cadrul sau în subordinea instituțiilor de învățământ superior de stat, beneficiază de finanțarea pentru cheltuielile prevăzute la alin. (2).",
+   "byGroup": null,
+   "summary": "Include și școlile înființate în subordinea universităților de stat printre unitățile finanțate de la bugetul de stat pe baza costului standard per elev.",
+   "quote": null,
+   "inForce": "Art. 139 - (4) Pentru unitățile de învățământ preuniversitar acreditate/autorizate să funcționeze provizoriu, înființate în cadrul instituțiilor de învățământ superior de stat, finanțarea pentru cheltuielile prevăzute la alin. (2) se asigură prin transferuri de la bugetul de stat, prin bugetul Ministerului Educației, pe baza costului standard per antepreșcolar/preșcolar/elev, și se cuprinde în contractul complementar încheiat cu instituția de învățământ superior de stat.",
+   "before": null,
+   "after": "1. La articolul I, după punctul 2 se introduce un nou punct, pct. 2¹, cu următorul cuprins: ”2¹. La articolul 139, alineatul (4) se modifică și va avea următorul cuprins: «(4) Unitățile de învățământ preuniversitar autorizate să funcționeze provizoriu sau acreditate, înființate în cadrul sau în subordinea instituțiilor de învățământ superior de stat, beneficiază de finanțarea pentru cheltuielile prevăzute la alin. (2). Finanțarea se asigură prin transferuri de la bugetul de stat, prin bugetul Ministerului Educației și Cercetării, pe baza costului standard per antepreșcolar/preșcolar/elev, și se cuprinde în contractul complementar încheiat cu instituția de învățământ superior de stat.»”",
+   "motivation": "Pentru claritate",
    "effects": [
     "mai_bine"
    ]
   },
   {
+   "nr": "10",
+   "report": "rp335.pdf",
+   "article": "Art. II, partea introductivă",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Reformulează partea introductivă a Art. II pentru a permite introducerea mai multor modificări și completări la Legea învățământului superior nr. 199/2023.",
+   "quote": "La articolul II, partea introductivă se modifică și va avea următorul cuprins:",
+   "inForce": null,
+   "before": "Art. II. - La articolul 122 din Legea învățământului superior nr. 199/2023, publicată în Monitorul Oficial al României, Partea I, nr. 614 din 5 iulie 2023, cu modificările și completările ulterioare, alineatul (2) se modifică și va avea următorul cuprins:",
+   "after": "2. II. La articolul II, partea introductivă se modifică și va avea următorul cuprins: „Art. II. - Legea învățământului superior nr. 199/2023, publicată în Monitorul Oficial al României, Partea I, nr. 614 din 5 iulie 2023, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:”",
+   "motivation": "Respectarea normelor de tehnică legislativă"
+  },
+  {
    "nr": "11",
+   "report": "rp335.pdf",
    "article": "Art. II pct. 1 (art. 11 alin. (4) din Legea nr. 199/2023)",
    "status": "admis",
    "authors": [
@@ -57,14 +110,20 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Permite universităților de stat să redistribuie soldurile bugetare și către alte destinații stabilite de consiliul de administrație, precum și reportarea burselor nerepartizate.",
+   "byGroup": null,
+   "summary": "Permite universităților de stat să redistribuie soldurile bugetare și spre alte destinații stabilite de consiliul de administrație, incluzând și bursele nerepartizate.",
    "quote": "sau pentru alte destinații stabilite de către consiliul de administrației al instituției de învățământ superior.",
+   "inForce": "Art. 11 - (4) Prin derogare de la prevederile art. 66 alin. (2) din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, instituțiile de învățământ superior de stat sunt autorizate, prin prezenta lege, să redistribuie creditele bugetare din soldul la finanțarea de bază, sumele rămase neconsumate și reportate din anii precedenți pentru obiective de investiții noi, sumele rămase necheltuite din investiții finalizate, pentru obiective de investiții noi, pentru obiective de investiții în continuare, precum și alte cheltuieli de natura investițiilor. Sumele rămase în sold, pentru facilități de transport pentru studenți, subvenții pentru cămine-cantine și sumele pentru bursele studenților neridicate în termen pot fi utilizate în anii următori pentru acordarea de burse pentru studenți, precum și alte cheltuieli de natura investițiilor pentru infrastructura de cămine, cantine, pentru susținerea activităților centrelor pentru consiliere și orientare în carieră.",
+   "before": null,
+   "after": "”1. La articolul 11, alineatul (4) va avea următorul cuprins: «(4) Prin derogare de la prevederile art. 66 alin. (2) din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, instituțiile de învățământ superior de stat sunt autorizate, prin prezenta lege, să redistribuie creditele bugetare din soldul la finanțarea de bază, sumele rămase neconsumate și reportate din anii precedenți pentru obiective de investiții noi, sumele rămase necheltuite din investiții finalizate, pentru obiective de investiții noi, pentru obiective de investiții în continuare, precum și alte cheltuieli de natura investițiilor sau pentru alte destinații stabilite de către consiliul de administrației al instituției de învățământ superior. Sumele rămase în sold, pentru facilități de transport pentru studenți, subvenții pentru cămine-cantine și sumele pentru bursele studenților neridicate/nerepartizate pot fi utilizate în anii următori pentru acordarea de burse pentru studenți, precum și alte cheltuieli de natura investițiilor pentru infrastructura de cămine, cantine, pentru susținerea activităților centrelor pentru consiliere și orientare în carieră.»”",
+   "motivation": null,
    "effects": [
     "mai_rau"
    ]
   },
   {
    "nr": "12",
+   "report": "rp335.pdf",
    "article": "Art. II pct. 2 (art. 69 alin. (8) lit. d) din Legea nr. 199/2023)",
    "status": "admis",
    "authors": [
@@ -82,14 +141,35 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Permite universităților (IOSUD) să recunoască prin metodologii proprii calitatea de conducător de doctorat obținută în state terțe, standardele minimale naționale fiind opționale.",
-   "quote": "în baza metodologiilor proprii în care pot fi prevăzute și standardele minimale naționale aferente.",
+   "byGroup": null,
+   "summary": "Permite IOSUD să recunoască abilitarea conducătorilor de doctorat din state terțe prin metodologii proprii, unde standardele minimale naționale devin opționale.",
+   "quote": "prin recunoașterea și emiterea atestatului de recunoaștere a abilitării de către IOSUD, în baza metodologiilor proprii în care pot fi prevăzute și standardele minimale naționale aferente.",
+   "inForce": "Art. 69 - (8) Specialiștii care au dobândit dreptul legal de a conduce doctorate în instituții de învățământ superior sau de cercetare-dezvoltare din străinătate pot obține atestatul de abilitare după cum urmează: a) specialiștii care au calitatea de conducător de doctorat în unul dintre statele membre ale Uniunii Europene sau ale Spațiului Economic European ori în Confederația Elvețiană dobândesc automat calitatea de conducător de doctorat în România prin recunoașterea și emiterea atestatului de recunoaștere a abilitării de către instituțiile organizatoare de studii universitare de doctorat; b) specialiștii care au calitatea de conducător de doctorat în una dintre instituțiile de învățământ superior din afara țărilor prevăzute la lit. a), aflate printre cele mai prestigioase instituții de învățământ superior ale lumii, dobândesc automat calitatea de conducător de doctorat în România prin recunoașterea și emiterea atestatului de recunoaștere a abilitării de către instituțiile organizatoare de studii universitare de doctorat. Ministerul Educației stabilește o listă a instituțiilor de învățământ superior, din afara țărilor prevăzute la lit. a), aflate printre cele mai prestigioase instituții de învățământ superior ale lumii, în baza unei metodologii aprobate prin ordin al ministrului educației, care se publică în Monitorul Oficial al României, Partea I; c) specialiștii care sunt conducători de doctorat în cadrul unor instituții din străinătate, altele decât cele prevăzute la lit. a) sau b), dobândesc calitatea de conducător de doctorat în România prin recunoașterea și emiterea atestatului de recunoaștere a abilitării de către instituțiile organizatoare de studii universitare de doctorat în baza unei convenții internaționale de recunoaștere reciprocă; d) specialiștii care sunt conducători de doctorat în cadrul unor instituții din străinătate, altele decât cele prevăzute la lit. a)-c), dobândesc calitatea de conducător de doctorat în România conform prevederilor alin. (5) și (6). (9) Un conducător de doctorat poate îndruma studenți-doctoranzi numai în domeniul pentru care a obținut acest drept. (10) Prin excepție de la prevederile alin. (9), la înființare, un nou domeniu de studii universitare de doctorat poate funcționa cu conducători de doctorat din aceeași ramură de știință. (11) Abilitarea se poate desfășura în limba română sau într-o limbă oficială a Uniunii Europene.",
+   "before": null,
+   "after": "”2. La articolul 69 alineatul (8), litera d) va avea următorul cuprins: «d) specialiștii care au calitatea de conducător de doctorat în cadrul unor instituții din străinătate, altele decât cele prevăzute la lit. a)-c), dobândesc calitatea de conducător de doctorat în România prin recunoașterea și emiterea atestatului de recunoaștere a abilitării de către IOSUD, în baza metodologiilor proprii în care pot fi prevăzute și standardele minimale naționale aferente.»”",
+   "motivation": "Instituțiile de învățământ superior, respectiv instituțiile organizatoare de studii universitare de doctorat din România recunosc începând cu anul 2016, în baza metodologiilor proprii, calitatea de conducător de doctorat obținută în străinătate și, în corelare totodată, cu recunoașterea diplomei de doctor și a funcției didactice, pe care instituțiile de învățământ superior, respectiv instituțiile organizatoare de studii universitare de doctorat o asigură în baza expertizei și a autonomiei universitare. Dispozițiile actuale din Legea învățământului superior nr. 199/2023, cu modificările și completările ulterioare, conțin prevederi care nu permit recunoașterea de către instituțiile din România a calității de conducător de doctorat obținută într-un stat terț. În prezent, acești specialiști dobândesc calitatea de conducător de doctorat în România doar prin procesul de abilitare la nivelul MEC, conform prevederilor alin. (5) și (6) din art. 69. Pentru asigurarea accesului în învățământul universitar din România a specialiștilor din state terțe și a specialiștilor europeni, inclusiv români, care au obținut calitatea de conducător de doctorat într-un stat terț, luând în considerare faptul că, potrivit legii, internaționalizarea sistemului de învățământ românesc, ca instrument de creștere a calității educației și cercetării, este responsabilitatea fiecărei instituții de învățământ superior și vizează și resursele umane ca o componentă a ecosistemului academic, este necesară modificarea cadrului legal actual pentru a fi aplicabil începând cu anul universitar 2025-2026. Prin modificarea propusă instituțiile de învățământ superior din România pot recunoaște calitatea de conducător de doctorat obținută într-un stat terț. Prevederile alin. (6) art. 69 se aplică doar pentru abilitarea obținută în România.",
    "effects": [
     "mai_rau"
    ]
   },
   {
+   "nr": "13",
+   "report": "rp335.pdf",
+   "article": "Art. II pct. 3 (art. 122 alin. (2) din Legea nr. 199/2023)",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Numerotează modificarea art. 122 alin. (2) ca punctul 3 al Art. II și înlocuiește conjuncția „sau” cu „ori” din rațiuni de tehnică legislativă.",
+   "quote": "ori într-o instituție cu atribuții în domeniul apărării, ordinii publice și securității naționale, după caz,",
+   "inForce": "Art. 122 - (1) O persoană dobândește statutul de student și de membru al unei comunități universitare numai prin înmatriculare, în urma admiterii sale într-o instituție de învățământ superior acreditată sau organizație furnizoare de educație autorizată să funcționeze provizoriu. (2) Persoana care are statutul prevăzut la alin. (1), școlarizată în instituții de învățământ superior civil, pentru nevoi ale Ministerului Apărării Naționale, Ministerului Afacerilor Interne sau ale altor instituții cu atribuții în domeniul apărării, informațiilor, ordinii publice și securității naționale, este luată în evidență și într-o instituție de învățământ superior militar, de informații, de ordine publică și de securitate națională, în vederea îndeplinirii serviciului militar activ și acordării drepturilor aferente, în condițiile stabilite prin ordin al conducătorului instituției. (3) Persoanele care au statutul prevăzut la alin. (2) pot fi școlarizate pentru nevoi ale Ministerului Apărării Naționale, Ministerului Afacerilor Interne sau ale altor instituții cu atribuții în domeniul apărării, al informațiilor, al ordinii publice și al securității naționale, dacă au fost declarate admis/apt la finalizarea proceselor de selecție specifice acestor instituții. Aceste persoane dobândesc calitatea de studenți militari/studenți de poliție, cu toate drepturile și obligațiile ce decurg din aceasta. (4) Procedurile prin care se pun în aplicare prevederile alin. (2) și (3) se stabilesc prin ordin al ministrului/conducătorului instituției de resort. (5) O persoană poate fi admisă și înmatriculată ca student concomitent la cel mult două programe de studii, indiferent de instituțiile de învățământ care le oferă. În cazul studenților care beneficiază de mobilitate definitivă între instituții de învățământ superior sau programe de studii, subvențiile urmează studentul. (6) În vederea evaluării competențelor și admiterii într-un program de studii, instituțiile de învățământ superior organizează concurs de admitere pentru fiecare program și ciclu de studiu.",
+   "before": "„(2) Persoana care are statutul prevăzut la alin. (1), școlarizată în instituții de învățământ superior civil, pentru nevoi ale Ministerului Apărării Naționale, Ministerului Afacerilor Interne sau ale altor instituții cu atribuții în domeniul apărării, informațiilor, ordinii publice și securității naționale, este luată în evidență și într-o instituție de învățământ superior militar, de informații, de ordine publică și de securitate națională sau într-o instituție cu atribuții în domeniul apărării, ordinii publice și securității naționale, după caz, în vederea îndeplinirii serviciului militar activ și acordării drepturilor aferente, în condițiile stabilite prin ordin al conducătorului instituției.”",
+   "after": "”3. La articolul 122, alineatul (2) va avea următorul cuprins: «(2) Persoana care are statutul prevăzut la alin. (1), școlarizată în instituții de învățământ superior civil, pentru nevoi ale Ministerului Apărării Naționale, Ministerului Afacerilor Interne sau ale altor instituții cu atribuții în domeniul apărării, informațiilor, ordinii publice și securității naționale, este luată în evidență și într-o instituție de învățământ superior militar, de informații, de ordine publică și de securitate națională ori într-o instituție cu atribuții în domeniul apărării, ordinii publice și securității naționale, după caz, în vederea îndeplinirii serviciului militar activ și acordării drepturilor aferente, în condițiile stabilite prin ordin al conducătorului instituției.»”",
+   "motivation": "Respectarea normelor de tehnică legislativă"
+  },
+  {
    "nr": "14",
+   "report": "rp335.pdf",
    "article": "Art. II pct. 4 (art. 202 alin. (6) din Legea nr. 199/2023)",
    "status": "admis",
    "authors": [
@@ -107,14 +187,20 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Introduce o derogare de la Legea salarizării nr. 153/2017 pentru angajarea pe perioadă determinată, fără selecție prealabilă, a personalului în proiecte de cercetare sau educaționale.",
-   "quote": "Prin derogare de la prevederile Legii nr. 153/2017 privind salarizarea personalului plătit din fonduri publice, cu modificările și completările ulterioare, angajarea pentru participarea la proiecte de cercetare",
+   "byGroup": null,
+   "summary": "Introduce derogarea de la Legea salarizării nr. 153/2017 pentru angajarea pe perioadă determinată, fără selecție și prin decizia rectorului, în proiecte de cercetare.",
+   "quote": "Prin derogare de la prevederile Legii nr. 153/2017 privind salarizarea personalului plătit din fonduri publice, cu modificările și completările ulterioare,",
+   "inForce": "Art. 202 - (6) Angajarea pentru participarea la proiecte de cercetare în domeniul educației și formării profesionale sau în proiecte naționale/europene/internaționale se poate face pe perioadă determinată, fără parcurgerea altor formalități prealabile și/sau procese de selecție, pentru personalul nominalizat în listele de personal ca membri în echipa proiectului, precum și pentru personalul instituției de învățământ superior. În cazul personalului din instituția de învățământ superior, angajarea în cadrul unui proiect se realizează în baza deciziei rectorului, prin încheierea unui contract individual de muncă, fără afectarea normei de bază a angajatului. Salariul va fi acordat în limita fondurilor disponibile, conform prevederilor din contractul de finanțare/regulilor finanțatorului.",
+   "before": null,
+   "after": "”4. La articolul 202, alineatul (6) se modifică și va avea următorul cuprins: «(6) Prin derogare de la prevederile Legii nr. 153/2017 privind salarizarea personalului plătit din fonduri publice, cu modificările și completările ulterioare, angajarea pentru participarea la proiecte de cercetare în domeniul educației și formării profesionale sau în proiecte naționale/europene/ internaționale se poate face pe perioadă determinată, fără parcurgerea altor formalități prealabile și/sau procese de selecție, pentru personalul nominalizat în listele de personal ca membri în echipa proiectului, precum și pentru personalul instituției de învățământ superior. În cazul personalului din instituția de învățământ superior, angajarea în cadrul unui proiect se realizează în baza deciziei rectorului, prin încheierea unui contract individual de muncă, fără afectarea normei de bază a angajatului. Salariul va fi acordat în limita fondurilor disponibile, conform prevederilor din contractul de finanțare/regulilor finanțatorului.»”",
+   "motivation": null,
    "effects": [
     "mai_rau"
    ]
   },
   {
    "nr": "15",
+   "report": "rp335.pdf",
    "article": "Art. II pct. 5 (art. 212¹ din Legea nr. 199/2023)",
    "status": "admis",
    "authors": [
@@ -132,14 +218,21 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Permite cadrelor didactice universitare să desfășoare și să fie remunerate pentru activități în contracte de cercetare concomitent cu orele din norma didactică, fără a fi considerată dublă salarizare.",
-   "quote": "Activitățile didactice și activitățile de cercetare desfășurate în cadrul contractelor de cercetare pot fi realizate concomitent, inclusiv în același interval de timp",
+   "byGroup": null,
+   "summary": "Permite desfășurarea și remunerarea separată a activităților de cercetare concomitent și în același interval de timp cu predarea, precizând că nu constituie dublă salarizare.",
+   "quote": "Activitățile didactice și activitățile de cercetare desfășurate în cadrul contractelor de cercetare pot fi realizate concomitent, inclusiv în același interval de timp,",
+   "inForce": null,
+   "before": null,
+   "after": "”5. După articolul 212, se introduce un nou articol, art. (212¹), cu următorul cuprins: «Art. 212¹ - (1) Activitățile de cercetare științifică, desfășurate de personalul didactic și de cercetare în baza contractelor de cercetare, finanțate din fonduri publice sau private, vor fi remunerate din bugetul acestor contracte, potrivit prevederilor contractuale și legislației aplicabile. (2) Remunerarea activităților prevăzute la alin. (1) este compatibilă cu îndeplinirea normei universitare și nu este condiționată de realizarea acestora în afara timpului aferent normei universitare. (3) Activitățile didactice și activitățile de cercetare desfășurate în cadrul contractelor de cercetare pot fi realizate concomitent, inclusiv în același interval de timp, atunci când natura acestora permite integrarea didactică și științifică, fără ca această suprapunere să afecteze dreptul la remunerarea activităților de cercetare din bugetul contractelor respective. (4) Remunerarea activităților desfășurate în cadrul contractelor de cercetare nu constituie dublă salarizare, întrucât aceasta corespunde unor obligații distincte asumate prin contracte de cercetare, diferite de obligațiile aferente funcției didactice finanțate din fonduri publice. (5) Modalitatea de planificare, evidență, evaluare și remunerare a activităților desfășurate în cadrul contractelor de cercetare se stabilește prin regulamentele interne ale instituțiilor de învățământ superior, cu respectarea autonomiei universitare și a prevederilor contractelor de finanțare.»”",
+   "motivation": "Pentru clarificarea regimului juridic aplicabil activităților de cercetare științifică desfășurate de personalul didactic și de cercetare din învățământul superior, în special a celor realizate în baza contractelor de cercetare finanțate din fonduri publice sau private, naționale ori internaționale. În lipsa unor prevederi exprese, cadrul normativ actual generează interpretări neunitare cu privire la raportul dintre norma universitară, activitățile de cercetare și remunerarea acestora din bugetele contractelor de cercetare. Această situație a condus, în practică, la dificultăți administrative, la reținerea instituțiilor în utilizarea fondurilor de cercetare pentru plata resursei umane și, implicit, la diminuarea atractivității participării cadrelor didactice la proiecte de cercetare competitive. Activitatea academică presupune, prin natura sa, integrarea activităților didactice cu activitățile de cercetare. Cercetarea reprezintă fundamentul procesului didactic, iar implicarea cadrelor didactice în proiecte de cercetare contribuie direct la creșterea calității actului educațional, la actualizarea conținuturilor de învățământ și la formarea studenților în concordanță cu evoluțiile științifice și tehnologice. Activitățile de cercetare desfășurate în cadrul contractelor de cercetare sunt compatibile cu norma universitară și pot fi realizate concomitent cu activitățile didactice, inclusiv în același interval de timp, atunci când natura acestora permite integrarea didactică și științifică. Totodată, se reglementează expres posibilitatea remunerării activităților de cercetare din bugetul contractelor de cercetare, în condițiile asumării unor obligații contractuale distincte, fără ca această remunerare să fie calificată drept dublă salarizare. Se realizează astfel o distincție clară între salariul de bază aferent funcției didactice, finanțat din fonduri publice, și veniturile obținute pentru activități de cercetare finanțate în mod distinct, în baza unor contracte competitive. Prin adoptarea acestor modificări se urmărește: eliminarea riscului de interpretare neunitară a legislației în vigoare; stimularea participării cadrelor didactice la proiecte de cercetare naționale și internaționale; creșterea capacității universităților de a atrage fonduri externe; consolidarea legăturii dintre cercetare și procesul didactic, în beneficiul direct al studenților. Textele propuse respectă principiul autonomiei universitare, lăsând instituțiilor de învățământ superior competența de a stabili, prin regulamente interne, modalitățile concrete de planificare, evidență, evaluare și remunerare a activităților desfășurate în cadrul contractelor de cercetare, cu respectarea legislației în vigoare și a prevederilor contractuale.",
+   "newProvision": true,
    "effects": [
     "mai_rau"
    ]
   },
   {
    "nr": "16",
+   "report": "rp335.pdf",
    "article": "Art. II pct. 6 (art. 260 alin. (18) din Legea nr. 199/2023)",
    "status": "admis",
    "authors": [
@@ -157,11 +250,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Amână până în anul universitar 2030-2031 intrarea în vigoare a limitei legale privind numărul maxim de doctoranzi îndrumați simultan de un conducător de doctorat.",
-   "quote": "Până la această dată, senatul universitar decide numărul maxim de studenți-doctoranzi ce pot fi îndrumați simultan de un conducător de doctorat."
+   "byGroup": null,
+   "summary": "Amână până în anul universitar 2030-2031 limitarea numărului de doctoranzi per conducător de doctorat, lăsând decizia la latitudinea senatului universitar.",
+   "quote": "Prevederile art. 70 alin. (2) intră în vigoare începând cu anul universitar 2030-2031.",
+   "inForce": "Art. 260 - (18) Prevederile art. 70 alin. (2) intră în vigoare începând cu anul universitar 2026-2027. Până la această dată, senatul universitar decide numărul maxim de studenți-doctoranzi ce pot fi îndrumați simultan de un conducător de doctorat.",
+   "before": null,
+   "after": "”6. La articolul 260, alineatul (18) va avea următorul cuprins: «(18) Prevederile art. 70 alin. (2) intră în vigoare începând cu anul universitar 2030-2031. Până la această dată, senatul universitar decide numărul maxim de studenți-doctoranzi ce pot fi îndrumați simultan de un conducător de doctorat.»”",
+   "motivation": "Conform art. 70 - (2), un conducător de doctorat poate îndruma simultan 8 studenți-doctoranzi. Prin excepție, pot fi îndrumați până la maximum 12 studenți-doctoranzi/ conducător numai cu aprobarea senatului universitar, dar nu pentru mai mult de 20% din conducătorii de doctorat dintr-o școală doctorală. Pentru a se putea încheia ciclul universitar început este necesară prorogarea termenului."
   },
   {
    "nr": "17",
+   "report": "rp335.pdf",
    "article": "Art. III (art. XXII alin. (1¹) din Legea nr. 141/2025)",
    "status": "admis",
    "authors": [
@@ -179,8 +278,13 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Exceptează de la suspendarea angajărilor prin concurs sau examen în anul 2026 și posturile pentru personalul didactic auxiliar și personalul administrativ din învățământul preuniversitar de stat.",
-   "quote": "Prevederile alin. (1) nu se aplică pentru ocuparea prin concurs sau examen a posturilor didactice de predare, a posturilor pentru personal didactic auxiliar și personal administrativ",
+   "byGroup": null,
+   "summary": "Extinde excepția de la blocarea angajărilor din 2026 pentru a permite ocuparea prin concurs sau examen a posturilor didactice auxiliare și administrative din școlile de stat.",
+   "quote": "pentru ocuparea prin concurs sau examen a posturilor didactice de predare, a posturilor pentru personal didactic auxiliar și personal administrativ din învățământul preuniversitar de stat,",
+   "inForce": "Art. XXII - (1) În perioada 1 ianuarie-31 decembrie 2026 se suspendă ocuparea prin concurs sau examen a posturilor vacante din autoritățile și instituțiile publice, astfel cum sunt definite la art. 2 alin. (1) pct. 30 din Legea nr. 500/2002, cu modificările și completările ulterioare, și la art. 2 alin. (1) pct. 39 din Legea nr. 273/2006, cu modificările și completările ulterioare, indiferent de sistemul de finanțare și de subordonare, inclusiv activitățile finanțate integral din venituri proprii.",
+   "before": "Art. III. - La articolul XXII din Legea nr. 141/2025 privind unele măsuri fiscal-bugetare, publicată în Monitorul Oficial al României, Partea I, nr. 699 din 25 iulie 2025, cu modificările și completările ulterioare, după alineatul (1) se introduce un nou alineat, alin. (1¹), cu următorul cuprins: „(1¹) Prevederile alin. (1) nu se aplică pentru ocuparea prin concurs a posturilor didactice de predare din învățământul preuniversitar de stat, a posturilor de asistent universitar și nici promovărilor din instituțiile de învățământ superior.”",
+   "after": "”3. La articolul III, alineatul (1¹) al articolului XXII se modifică și va avea următorul cuprins: «(1¹) Prevederile alin. (1) nu se aplică pentru ocuparea prin concurs sau examen a posturilor didactice de predare, a posturilor pentru personal didactic auxiliar și personal administrativ din învățământul preuniversitar de stat, a posturilor de asistent universitar și nici promovărilor din instituțiile de învățământ superior.»”",
+   "motivation": "În numeroase unități și instituții de învățământ, la nivelul întregii țări, s-a creat o situație dificilă, generată de imposibilitatea ocupării posturilor eliberate ca urmare a suspendării contractelor de muncă din diferite cauze. Lipsa de personal afectează direct funcționarea administrativă a unităților de învățământ. În plan concret, deficitul de personal auxiliar și administrativ conduce la încălcarea normelor de igienă sanitară și securitate, existând, spre exemplu, situații în care o singură îngrijitoare este nevoită să îndeplinească simultan toate activitățile administrative: curățenie, schimbarea scutecelor, servirea mesei, ceea ce poate genera inclusiv riscuri de contaminare alimentară. Insuficiența resursei umane determină suprasolicitarea personalului existent, care, în anumite cazuri, este nevoit să desfășoare activități peste program, fără o remunerare corespunzătoare, în contextul reducerilor salariale deja aplicate.",
    "effects": [
     "mai_bine"
    ]
@@ -189,36 +293,42 @@
  "matches": [
   {
    "change": "0:0",
+   "report": "rp335.pdf",
    "amendments": [
     "15"
    ]
   },
   {
    "change": "0:1",
+   "report": "rp335.pdf",
    "amendments": [
     "14"
    ]
   },
   {
    "change": "0:2",
+   "report": "rp335.pdf",
    "amendments": [
     "11"
    ]
   },
   {
    "change": "0:3",
+   "report": "rp335.pdf",
    "amendments": [
     "17"
    ]
   },
   {
    "change": "0:4",
+   "report": "rp335.pdf",
    "amendments": [
     "12"
    ]
   },
   {
    "change": "0:5",
+   "report": "rp335.pdf",
    "amendments": [
     "7"
    ]

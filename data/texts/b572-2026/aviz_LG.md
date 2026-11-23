@@ -1,0 +1,47 @@
+## AVIZ
+
+# referitor la propunerea legislativă pentru modificarea și completarea art. 48 din Legea locuinței nr. 114/1996
+
+Analizând propunerea legislativă pentru modificarea și completarea art. 48 din Legea locuinței nr. 114/1996 (b572/19.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/5175/26.10.2026 și înregistrată la Consiliul Legislativ cu nr. D889/27.10.2026,
+
+## CONSILIUL LEGISLATIV
+
+În temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (3) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
+
+Avizează favorabil propunerea legislativă, cu următoarele observații și propuneri:
+
+1\. Propunerea legislativă are ca obiect de reglementare modificarea și completarea art. 48 din Legea locuinței nr. 114/1996, republicată, cu modificările și completările ulterioare.
+
+Potrivit Expunerii de motive, soluția legislativă este argumentată prin aceea că „legiuiitorul a recunoscut necesitatea instituirii unui tratament juridic particular pentru victimele violenței domestice, consacrând, la art. 48 alin. (2) posibilitatea acestora de a beneficia de locuințe sociale prin derogare de la interdicția referitoare la deținerea în proprietate a unei locuințe. Cu toate acestea, aplicarea excepției a fost limitată până la data finalizării partajului prin una dintre modalitățile prevăzute de lege”.
+
+2\. Propunerea legislativă face parte din categoria legilor organice, fiind incidente prevederile art. 73 alin. (3) lit. p) din Constituția României, republicată, iar în aplicarea dispozițiilor art. 75 alin. (1) din Legea fundamentală, prima Cameră sesizată este Senatul.
+
+3\. Precizăm că, prin avizul pe care îl emite, Consiliul Legislativ nu se pronunță asupra oportunității soluțiilor legislative preconizate.
+
+4\. La art. I, referitor la normele propuse pentru la art. 48 alin. (2) și (2¹), prin care se exceptează victimele violenței domestice care solicită închirierea unei locuințe sociale de la aplicarea cauzelor de excludere prevăzute la art. 48 alin. (1) lit. a) și b), referitoare la deținerea în proprietate sau înstrăinarea unei locuințe după data de 1 ianuarie 1990, semnalăm că este necesară corelarea soluțiilor legislative preconizate cu art. 2 lit. c) și art. 42 alin. (1) din actul normativ de bază, potrivit cărora locuința socială se atribuie cu chirie subvenționată persoanelor sau familiilor a căror situație economică nu le permite accesul la o locuință în proprietate sau închirierea unei locuințe în condițiile pieței, fiind condiționată de un plafon maxim al venitului mediu net lunar pe persoană.
+
+În context, precizăm că soluția legislativă propusă pentru alin. (2¹) permite accesul la o locuință socială a victimelor violenței domestice care dețin o cotă-parte din dreptul de proprietate asupra unei locuințe sau înstrăinează o locuință în cadrul procedurii de partaj. În măsura în care se dorește instituirea unor măsuri cu caracter temporar, precizăm că eliminarea oricărei limitări a aplicării în timp a ipotezelor juridice de la art. 48 alin. (2) și (2¹) poate transforma o măsură de protecție excepțională într-una având caracter permanent, indiferent de evoluția situației patrimoniale a beneficiarului.
+
+În acest sens, precizăm că art. 2 lit. f) lit. ii) și art. 55 alin. (3) lit. b) din actul normativ de bază instituie posibilitatea cazării temporare în locuința de necesitate a victimelor violenței domestice pe perioada de valabilitate a ordinului de protecție provizoriu emis de polițist și/sau a ordinului de protecție emis de instanța judecătorească.
+
+Legislația specială reglementează deja instrumente juridice pentru asigurarea spațiului locativ al victimei, cum ar fi ordinul de protecție prevăzut de art. 38 alin. (1) lit. a) din Legea nr. 217/2003 pentru prevenirea și combaterea violenței domestice, republicată, cu modificările și completările ulterioare, potrivit căruia se permite evacuarea temporară a agresorului din locuința familiei, pentru o perioadă de maximum12 luni de la data emiterii ordinului, indiferent dacă acesta este titularul dreptului de proprietate.
+
+De asemenea, potrivit prevederilor art. 38 alin. (3) din același act normativ, instanța poate dispune și suportarea de către agresor a chiriei și/sau a întreținerii pentru locuința temporară unde victima, copiii minori sau alți membri de familie locuiesc ori urmează să locuiască din cauza imposibilității de a rămâne în locuința familială.
+
+Precizăm că, prin gradul mare de generalitate, expresia „nu beneficiază în mod efectiv de folosința unei locuințe”, utilizată atât la alin. (2), cât și la alin. (2¹), este insuficient de clară, fiind necesară stabilirea în mod expres a unor criterii obiective, pentru a se evita generarea de practici administrative neunitare.
+
+Pe de altă parte, la textul propus pentru alin. (2¹), pentru rigoare normativă, recomandăm să fie prevăzute în mod expres condițiile în care înstrăinarea unei locuințe este relevantă pentru aplicarea exceptării, astfel încât excepția instituită să fie interpretată unitar și să nu genereze diferențe de tratament nejustificate între beneficiari.
+
+5\. La art. II, precizăm că soluția legislativă preconizată trebuie corelată cu dispozițiile art. 6 alin. (2) din Legea nr. 287/2009 privind Codul civil, republicată, cu modificările și completările ulterioare, potrivit căruia actele juridice încheiate înainte de intrarea în vigoare a legii noi nu pot genera alte efecte juridice decât cele prevăzute de legea în vigoare la data încheierii lor.
+
+În context, precizăm că, potrivit prevederilor art. 24 alin. (2) din Normele metodologice aprobate prin Hotărârea Guvernului nr. 1.275/2000 pentru punerea în aplicare a prevederilor Legii locuinței nr. 114/1996, „(2) În situația prevăzută la art. 22 alin. (2) lit. a), durata contractului de închiriere pentru locuințele sociale nu poate depăși data finalizării partajului prin una dintre modalitățile prevăzute de lege”.
+
+6\. La art. III, precizăm că, Normele metodologice pentru punerea în aplicare a prevederilor Legii locuinței nr. 114/1996 au fost aprobate prin Hotărârea Guvernului nr. 1275/2000, cu modificările și completările ulterioare, act normativ ce trebuie indicat în cadrul acestui articol.
+
+Ca urmare, pentru precizia normei, recomandăm reformularea enunțului, astfel:
+
+„Art. III. - În termen de ... de zile de la data intrării în vigoare a prezentei legi, Guvernul va modifica în mod corespunzător Normele metodologice pentru punerea în aplicare a prevederilor Legii locuinței nr. 114/1996, aprobate prin Hotărârea Guvernului nr. 1275/2000, publicată în Monitorul Oficial al României, Partea I, nr. 690 din 22 decembrie 2000, cu modificările și completările ulterioare”.
+
+Totodată, recomandăm ca termenul de 30 de zile prevăzut la art. III să se coreleze cu etapele obligatorii ale procedurii de elaborare, avizare și adoptare a hotărârilor Guvernului, respectiv termenul de cel puțin 30 de zile lucrătoare impus pentru consultarea publică de art. 7 alin. (2) și (4) din Legea nr. 52/2003 privind transparența decizională în administrația publică, republicată, cu modificările și completările ulterioare, precum și termenele necesare parcurgerii procedurii de avizare interministerială și obținerii avizelor obligatorii potrivit art. 20 - 24 din Regulamentul privind procedurile, la nivelul Guvernului, pentru elaborarea, avizarea și prezentarea proiectelor de documente de politici publice, a proiectelor de acte normative, precum și a altor documente, în vederea adoptării/aprobării, aprobat prin Hotărârea Guvernului nr. 561/2009, cu modificările și completările ulterioare.
+
+Florin IORPA

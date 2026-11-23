@@ -1,14 +1,71 @@
 {
   "slug": "b636-2026",
   "billId": "B636/2026",
-  "checkedAt": "2026-11-16T09:59:56.937Z",
-  "indexCheckedAt": "2026-11-13T09:10:34.644Z",
+  "checkedAt": "2026-11-23T11:24:53.066Z",
+  "indexCheckedAt": "2026-11-23T10:02:09.020Z",
   "models": {
-    "agy": "ok",
+    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 14m27s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 14m27s.\",\"status\":\"RESOURCE_EXHAUSTED\",",
     "claude": "ok",
     "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://www.bihon.ro/stirile-judetului-bihor/economic/contractele-part-time-ar-putea-scapa-de-suprataxare-firmele-ar-plati-contributii-doar-pentru-salariul-efectiv-5467071",
+      "title": "Contractele part-time ar putea scăpa de suprataxare. Firmele ar plăti contribuții doar pentru salariul efectiv - BIHON",
+      "outlet": "Bihon",
+      "domain": "bihon.ro",
+      "publishedAt": "2026-11-22",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Un proiect legislativ depus la Senat propune eliminarea suprataxării contractelor cu timp parțial",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    },
+    {
+      "url": "https://ziare.com/contracte-part-time/supraimpozitare-aviz-consiliu-legislativ-2049167",
+      "title": "Aviz favorabil pentru eliminarea supraimpozitării contractelor part-time de la Consiliul Legislativ",
+      "outlet": "Ziare.com",
+      "domain": "ziare.com",
+      "publishedAt": "2026-11-21",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Este vorba despre o propunere legislativă pentru modificarea Legii nr. 227/2015 privind Codul fiscal (b636/11.11.2026), transmisă de Secretarul General al Senatului.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-23",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.797,
+            "source": "aggregator",
+            "sourceP": 0.661,
+            "about": 0.997,
+            "release": 0.035
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.807,
+            "source": "national_news",
+            "sourceP": 0.387,
+            "about": 0.798,
+            "release": 0.133
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.78,
+            "source": "national_news",
+            "sourceP": 0.82,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
     {
       "url": "https://alba24.ro/suprataxarea-contractelor-part-time-ar-putea-fi-eliminata-ce-se-schimba-pentru-angajati-si-firme-proiect-de-lege-depus-la-senat-1167317.html",
       "title": "Suprataxarea contractelor part-time ar putea fi eliminată. Ce se schimbă pentru angajați și firme. Proiect de lege depus la Senat",
@@ -19,7 +76,7 @@
         "index",
         "claude"
       ],
-      "quote": "Inițiativa este semnată de parlamentari PNL, PSD și USR.",
+      "quote": "Propunerea legislativă, înregistrată pe 11 noiembrie la Senat,",
       "match": "quote",
       "firstSeenAt": "2026-11-13",
       "decision": {
@@ -63,7 +120,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Contribuțiile sociale pentru contractele de muncă cu timp parțial ar putea fi calculate în funcție de venitul efectiv al angajatului, fără raportarea obligatorie la salariul minim brut pe economie, potrivit unui proiect de modificare a Codului fiscal, depus miercuri, 11 noiembrie, la Senat.",
+      "quote": "proiect de modificare a Codului fiscal, depus miercuri, 11 noiembrie, la Senat.",
       "match": "quote",
       "firstSeenAt": "2026-11-16",
       "decision": {
@@ -99,5 +156,19 @@
       }
     }
   ],
-  "pending": []
+  "pending": [
+    {
+      "url": "https://newsbuzau.ro/2026/11/23/contractele-part-time-in-vizorul-unei-schimbari-fiscale-eliminarea-supraimpozitarii-a-primit-aviz-favorabil-de-la-consiliul-legislativ",
+      "title": "Contractele part-time, în vizorul unei schimbări fiscale. Eliminarea supraimpozitării a primit aviz favorabil de la Consiliul Legislativ",
+      "outlet": "News Buzau – O altfel de presa!",
+      "domain": "newsbuzau.ro",
+      "publishedAt": "2026-11-23",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "este înregistrată la Senat cu numărul B636/11.11.2026",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    }
+  ]
 }

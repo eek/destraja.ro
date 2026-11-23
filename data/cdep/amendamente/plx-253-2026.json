@@ -1,44 +1,78 @@
 {
  "slug": "plx-253-2026",
  "billId": "PL-x 253/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-11-12T09:54:22.045Z",
- "inputHash": "ab49a4d3fa41",
+ "updatedAt": "2026-11-23T09:13:46.686Z",
+ "inputHash": "227724b71286",
  "reports": [
   "https://www.cdep.ro/comisii/sport/pdf/2026/rp253.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp253.pdf",
+   "sha256": "195c08f8bb25801f",
+   "parts": 1,
+   "rows": 4,
+   "unchanged": 1,
+   "admise": 3,
+   "respinse": 0,
+   "truncated": false
+  }
+ ],
+ "completeness": "complete",
+ "problems": [],
  "counts": {
   "admise": 3,
-  "respinse": 0
+  "respinse": 0,
+  "anuntate": 4,
+  "nemodificate": 1
  },
  "amendments": [
   {
    "nr": "1",
+   "report": "rp253.pdf",
    "article": "Titlul legii",
    "status": "admis",
    "authors": [],
    "byCommittee": "Comisia pentru tineret și sport",
-   "summary": "Titlul proiectului este ajustat pentru a reflecta că legea de bază este doar completată, nu și modificată.",
-   "quote": "Lege pentru completarea Legii educației fizice și sportului nr. 69/2000"
+   "byGroup": null,
+   "summary": "Modifică titlul legii pentru a reflecta doar completarea Legii nr. 69/2000, ca urmare a eliminării modificării art. 94¹ alin. (1).",
+   "quote": "Lege pentru completarea Legii educației fizice și sportului nr. 69/2000",
+   "inForce": null,
+   "before": "Lege pentru modificarea și completarea Legii educației fizice și sportului nr. 69/2000",
+   "after": "Lege pentru completarea Legii educației fizice și sportului nr. 69/2000",
+   "motivation": "Urmare a corecturii de tehnică legislativă de la nr. crt. 4 prin care se elimină alin.(1) de la art 94¹."
   },
   {
    "nr": "2",
+   "report": "rp253.pdf",
    "article": "Articol unic",
    "status": "admis",
    "authors": [],
    "byCommittee": "Comisia pentru tineret și sport",
-   "summary": "Partea introductivă a articolului unic este corelată cu faptul că legea aduce doar completări, nu și modificări.",
-   "quote": "cu modificările și completările ulterioare, se completează după cum urmează:"
+   "byGroup": null,
+   "summary": "Elimină mențiunea privind modificarea legii din partea introductivă a articolului unic, păstrând doar completarea acesteia.",
+   "quote": "cu modificările și completările ulterioare, se completează după cum urmează:",
+   "inForce": null,
+   "before": "Articol unic. - Legea educației fizice și sportului nr.69/2000, publicată în Monitorul Oficial al României, Partea I, nr.200 din 9 mai 2000, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:",
+   "after": "Articol unic. - Legea educației fizice și sportului nr.69/2000, publicată în Monitorul Oficial al României, Partea I, nr.200 din 9 mai 2000, cu modificările și completările ulterioare, se completează după cum urmează:",
+   "motivation": "Urmare a corecturii de tehnică legislativă de la nr. crt. 4 prin care se elimină alin.(1) de la art 94¹."
   },
   {
    "nr": "4",
+   "report": "rp253.pdf",
    "article": "art. 94¹",
    "status": "admis",
    "authors": [],
    "byCommittee": "Comisia pentru tineret și sport",
-   "summary": "Elimină reluarea alineatului (1) al art. 94¹, care era deja în vigoare în aceeași formă, păstrând doar introducerea alineatului (2).",
+   "byGroup": null,
+   "summary": "Elimină rescrierea alin. (1) al art. 94¹, care era identic cu forma în vigoare, și transformă punctul în introducerea unui nou alin. (2).",
    "quote": "după alineatul (1) se introduce un nou alineat, alin. (2), cu următorul cuprins:",
+   "inForce": null,
+   "before": "2. Articolul 94¹ se modifică și va avea următorul cuprins:\n\n„Art.94¹.- (1) Litigiile izvorâte din contractul individual de muncă pentru sportivi sau din contractul de activitate sportivă pot fi soluționate fie de instanțele judecătorești, fie, dacă părțile decid astfel prin contractul încheiat între ele, pe calea arbitrajului instituționalizat, în conformitate cu dispozițiile cuprinse în Legea nr.134/2010 privind Codul de procedură civilă, republicată, cu modificările ulterioare, și în statutele și regulamentele federațiilor sportive naționale.\n\n(2) Participanții la activitatea sportivă sau structurile sportive pot fi reprezentați sau asistați în fața organismelor și comisiilor sportive înființate la nivelul federațiilor sau structurilor sportive, astfel:\na) participanții la activitatea sportivă de către avocat, consilier sportiv sau de către un reprezentant al sindicatului al căror membri sunt, conform propriei opțiuni;\nb) structurile sportive de către un avocat, consilier juridic sau de către un consilier sportiv, conform propriei opțiuni.”",
+   "after": "2. La articolul 94¹ după alineatul (1) se introduce un nou alineat, alin. (2), cu următorul cuprins:\n\nSe elimină alineatul (1)\n\nNemodificat",
+   "motivation": "Alineatul (1) al articolului 94¹ este identic cu cel din vigoare.",
    "effects": [
     "neutru"
    ]
@@ -47,6 +81,7 @@
  "matches": [
   {
    "change": "1:0",
+   "report": "rp253.pdf",
    "amendments": [
     "4"
    ]

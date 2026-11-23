@@ -1,10 +1,12 @@
 {
   "slug": "b645-2026",
   "billId": "B645/2026",
-  "checkedAt": null,
+  "checkedAt": "2026-11-23T11:28:28.490Z",
   "indexCheckedAt": "2026-11-20T09:48:45.751Z",
   "models": {
-    "index": "ok"
+    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 11m28s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 11m28s.\",\"status\":\"RESOURCE_EXHAUSTED\",",
+    "claude": "ok",
+    "codex": "ok"
   },
   "articles": [
     {
@@ -14,7 +16,8 @@
       "domain": "epitesti.ro",
       "publishedAt": "2026-11-20",
       "foundBy": [
-        "index"
+        "index",
+        "claude"
       ],
       "quote": "Inițiativa legislativă propune prelungirea perioadei obligatorii de cazare în adăposturi de la 14 la 30 de zile lucrătoare, fotografierea fiecărui animal și publicarea online a informațiilor despre acesta.",
       "match": "quote",
@@ -58,7 +61,8 @@
       "domain": "jurnalul.ro",
       "publishedAt": "2026-11-20",
       "foundBy": [
-        "index"
+        "index",
+        "claude"
       ],
       "quote": "Proiectul dublează termenul de cazare, de la 14 la 30 de zile lucrătoare, iar perioada începe din prima zi lucrătoare care urmează înregistrării câinelui la intrarea în primul adăpost.",
       "match": "quote",

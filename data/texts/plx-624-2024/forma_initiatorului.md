@@ -1,0 +1,31 @@
+# PARLAMENTUL ROMÂNIEI
+
+## Camera Deputaților
+
+Senat
+
+## LEGE
+
+Parlamentul României adoptă prezenta lege, cu titlul „Lege pentru modificarea și completarea Legii 69/2000 a Educației Fizice și Sportului”.
+
+La articolul 21 din Legea nr. 69/2000 a Educației Fizice și Sportului, publicată în Monitorul Oficial al României nr. 200 din 9 mai 2000, cu modificările și completările ulterioare, se introduc două noi alineate, alin. (2^1) și (2^2), cu următorul cuprins:
+
+(2^1) Structurile sportive de la literele d), e) și f), enumerate la alineatul (1), își aleg organele de conducere prin vot direct și secret, prin participarea electorilor selectați din toate categoriile implicate în fenomenul sportiv:
+
+a) Reprezentați ai cluburilor sportive;
+
+b) Tehnicieni;
+
+c) Arbitrii;
+
+d) Sportivi;
+
+e) Jurnaliști din presa sportivă și alte categorii implicate în fenomenul sportiv, care promovează și contribuie la dezvoltarea sportului românesc.
+
+(2^2) Prevederile alin. (2^1) se vor transpune în statutele și regulamentele de funcționare ale structurilor sportive de la literele d), e) și f), enumerate la alineatul (1) al articolului 21 din prezenta lege.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Camerei Deputaților
+
+Președintele Senatului

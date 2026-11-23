@@ -1,0 +1,81 @@
+Cod fiscal: 10464660
+
+E-mail: ces@ces.ro
+
+www.ces.ro
+
+Membru fondator al Asociației Internaționale a Consiliilor Economice și Sociale și Instituțiilor Similare (AICESIS) Membru al Uniunii Consiliilor Economice și Sociale și Instituțiilor Similare Francofone (UCESIF)
+
+„Consiliul Economic și Social este organ consultativ al Parlamentului și al Guvernului în domeniile de specialitate stabilite prin legea sa organică de înființare, organizare și funcționare.” (Art. 141 din Constituția României revizuită)
+
+Nr. 7425/11-11-2026
+
+Biroul permanent al Senatului
+
+Bp 602 20 mosiembie
+
+## AVIZ
+
+## referitor la propunerea legislativă privind înființarea, organizarea și funcționarea Școlii Naționale de Diplomație (b602/28.10.2026)
+
+În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative privind înființarea, organizarea și funcționarea Școlii Naționale de Diplomație (b602/28.10.2026).
+
+## CONSILIUL ECONOMIC ȘI SOCIAL
+
+În temeiul art. 5 lit. a) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, în ședința din data de 11.11.2026, desfășurată online, conform prevederilor art. 30 alin. (1) din Regulamentul de organizare și funcționare, avizează NEFAVORABIL prezentul proiect de act normativ, cu următoarea motivare:
+
+\- propunerea legislativă înființează Școala Națională de Diplomație (SND), ca instituție publică cu personalitate juridică în subordinea Ministerului Educației și Cercetării, definită drept „autoritate națională de referință pentru formarea profesională continuă în domeniul diplomăției și al relațiilor internaționale” (art. 1 alin. (1)). SND devine succesoarea de drept a Institutului Diplomatic Român (art. 1 alin. (2)) și preia patrimoniul acestuia (art. 4, art. 11 alin. (3)). Hotărârea Guvernului nr. 880/2005 privind organizarea și funcționarea IDR se abrogă (art. 11 alin. (1)). După autorizare și acreditare, SND ar putea organiza programe de master, doctorat, studii postuniversitare, formare profesională continuă, cursuri, seminare și programe executive (art. 2 alin. (3), art. 3 alin. (3)).
+
+\- Considerente generale:
+
+## 1. IDR (Institutul Diplomatic Român) nu este o instituție de învățământ. Este un instrument de lucru al Ministerului Afacerilor Externe
+
+Potrivit Hotărârii nr. 880/2005 privind organizarea și funcționarea Institutului Diplomatic Român, acesta este instituție publică cu personalitate juridică și funcționează în subordinea Ministerului Afacerilor Externe. Obiectul său de activitate. este legat direct de funcționarea ministerului: colaborarea cu MAE (Ministerului Afacerilor Externe) la organizarea concursului de admitere în Corpul diplomatic și consular, pregătirea profesională a personalului MAE, cursuri cu taxă în relații internaționale pentru personal din administrație sau din mediul privat, furnizarea de expertiză (studii, analize) pentru MAE, publicarea, împreună cu Arhivele Diplomatice, a colecțiilor de documente diplomatice și organizarea și funcționarea Bibliotecii MAE. Formarea continuă a diplomăților face parte din gestionarea carierei în Corpul diplomatic și consular, reglementată de Legea nr. 269/2003 privind Statutul Corpului diplomatic și consular al României. Aceasta include pregătirea înaintea plecării în misiune, specializarea consulară, negocierea, redactarea diplomatică, protocolul și lucrul cu informații clasificate. Toate acestea sunt atribuții ale angajatorului, adică ale MAE. Ministerul Educației și Cercetării nu are-nici competența legală, nici expertiza necesară pentru a stabili curriculumul de formare diplomatică, pentru a evalua nevoile corpului diplomatic sau pentru a furniza expertiză de politică externă. Competența MEC privește politica educațională generală, nu pregătirea profesională a unui corp de funcționari cu statut special din alt minister.
+
+Proiectul confirmă singur această ruptură. După mutarea instituției la MEC, rolul MAE se reduce la a „comunica periodic” necesarul estimat de formare (art. 8 alin. (4)). Comunicarea are „rol consultativ”, fără ca ministerul să aibă vreo competență asupra admiterii (art. 8 alin. (5)), și nu poate institui locuri dedicate personalului său (art. 8 alin. (6)). Cu alte cuvinte, beneficiarul principal al formării, MAE, pierde orice pârghie asupra conținutului și destinatarilor acesteia.
+
+## 2. Funcțiile IDR care nu au corespondent în SND (Școala Națională de Diplomație) rămân fără titular
+
+Preluarea drepturilor și obligațiilor IDR se face doar „în măsura în care acestea sunt compatibile cu obiectul de activitate al SND” (art. 1 alin. (2)). Proiectul nu precizează cine preia funcțiile care nu se potrivesc unei instituții de învățământ subordonate MEC: colaborarea la concursul de admitere în Corpul diplomatic și consular, furnizarea de expertiză pentru MAE, editarea documentelor diplomatice împreună cu Arhivele Diplomatice și Biblioteca MAE. Abrogarea HG nr. 880/2005 la data intrării în vigoare a legii (art. 11 alin. (1)) ar crea astfel un vid instituțional în activitatea curentă a MAE;
+
+## 3. Oferta academică în diplomație și relații internaționale există deja, iar rolul IDR este altul
+
+În învățământul superior de stat din România există mai multe universități de înaltă ținută academică, poziționate bine în clasamentele internaționale, care oferă, atât la nivel de licență, cât și la masterat și doctorat, școlarizare în domeniul Relații Internaționale și Studii Europene (RISE). Cele mai importante instituții de stat care oferă specializări și programe orientate explicit pe diplomație sunt:
+
+1\. Universitatea „Babeș-Bolyai” (UBB) din Cluj-Napoca: licență – Diplomație în afaceri.
+
+2\. Universitatea Națională de Studii Politice și Administrative (SNSPA) din București: licență – Relații Internaționale și Studii Europene; masterat – Security and Diplomacy.
+
+3\. Universitatea din București (UniBuc): licență – Relații Internaționale; masterat – Relații Internaționale și Tehnici Diplomatice; studii postuniversitare – Diplomație și reprezentare publică internațională.
+
+4\. Universitatea „Alexandru Ioan Cuza” (UAIC) din Iași
+
+5\. Universitatea de Vest din Timișoara (UVT)
+
+6\. Universitatea din Craiova
+
+Aceste instituții de tradiție din România, cu rezultate foarte bune în educație, formare și cercetare, oferă suficiente locuri de școlarizare în domeniul Relații Internaționale și Studii Europene (RISE). Toate aceste instituții dispun de resurse umane de înaltă calitate și de o înaltă ținută academică.
+
+Expunerea de motive recunoaște acest lucru (secțiunea II): „România dispune de universități și institute de cercetare cu tradiție în domeniul relațiilor internaționale”. O nouă instituție care să organizeze master și doctorat (art. 3 alin. (3) lit. a)—c)) ar dubla această ofertă, ar concura cu universitățile pentru aceleași resurse (cadre didactice, candidați, finanțare bugetară) și ar fragmenta sistemul în loc să-l consolideze. Doctoratul, în particular, presupune constituirea unei instituții organizatoare de studii universitare de doctorat, a unei școli doctorale și existența conducătorilor de doctorat abilitați, condiții care nu pot fi îndeplinite realist de o instituție nou-înființată pornind de la structura actuală a IDR. Rolul firesc al IDR este consolidarea ulterioară a pregătirii, nu formarea academică de bază. IDR ar trebui să preia absolvenții deja pregătiți de universități și recrutați prin concurs și să le ofere formarea practică, specifică meseriei de diplomat, pe care universitatea nu o poate oferi. Între universități și IDR este nevoie de cooperare, prin protocoale, programe comune și profesori asociați, nu de suprapunere;
+
+4\. Necesitatea clarificării regimului juridic al Școlii Naționale de Diplomație Art. 1 alin. (1) prevede înființarea Școlii Naționale de Diplomație ca instituție publică cu personalitate juridică, aflată în subordinea Ministerului Afacerilor Externe, care ar trebui totodată să funcționeze ca instituție de învățământ superior, cu rector, structuri academice proprii, facultăți și autonomie universitară [art. 5 alin. (4), art. 6 alin. (2) și (3)]. Subordonarea ierarhică față de un minister nu se împacă cu autonomia universitară garantată de art. 32 alin. (6) din Constituție și de Legea nr. 199/2023. Această construcție juridică presupune delimitarea a două regimuri instituționale distincte: cel al unei instituții publice de formare profesională subordonate unei autorități administrative centrale și cel al unei instituții de învățământ superior, organizate în condițiile Legii nr. 199/2023. Potrivit art. 10 alin. (2) din Legea nr. 199/2023, inițiativa înființării instituțiilor de învățământ superior de stat aparține Guvernului, iar dobândirea statutului de instituție de învățământ superior presupune îndeplinirea condițiilor legale de autorizare, acreditare și înființare. În plus, legea înființează instituția înainte de autorizarea provizorie și de acreditare [art. 2 alin. (1)], lăsând nedefinit regimul juridic din perioada de tranziție. Această perioadă poate fi lungă, iar art. 10 alin. (1) permite oricum începerea activității de la intrarea în vigoare.
+
+5\. Necesitatea asigurării compatibilității cu principiul autonomiei universitare Proiectul stabilește subordonarea instituției față de Ministerul Afacerilor Externe, concomitent cu posibilitatea organizării unor programe universitare și constituirii unor structuri academice. Art. 32 din Constituția României garantează autonomia universitară, iar Legea nr. 199/2023 reglementează -autonomia instituțională, academică, administrativă și financiară a instituțiilor de învățământ superior. În cazul dobândirii statutului universitar, subordonarea administrativă față de Ministerul Afacerilor Externe trebuie corelată cu exercitarea competențelor proprii organelor de conducere academică.
+
+## 6. Necesitatea clarificării mecanismului de succesiune juridică față de Institutul Diplomatic Român
+
+Art. 1 alin. (2) prevede că Școala Națională de Diplomație este succesoarea de drept a Institutului Diplomatic Român, preluând drepturile și obligațiile acestuia în măsura compatibilității cu obiectul său de activitate. În același timp, art. 4 stabilește preluarea patrimoniului și reglementează situația personalului, iar art. 11 prevede abrogarea HG nr. 880/2005 de la data intrării în vigoare a legii. Aceste dispoziții necesită corelare pentru asigurarea continuității raporturilor juridice, contractelor, proiectelor, obligațiilor financiare și activităților aflate în derulare. În special, formularea referitoare la preluarea drepturilor și obligațiilor numai în măsura compatibilității cu noul obiect de activitate poate genera incertitudini privind titularul obligațiilor care nu sunt preluate expres.
+
+7\. Necesitatea protejării drepturilor personalului în procesul reorganizării Art. 4 alin. (2) prevede soluționarea situației personalului Institutului Diplomatic Român potrivit legislației aplicabile raporturilor de muncă sau de serviciu. Ocuparea posturilor în cadrul Școlii Naționale de Diplomație urmează să se realizeze în condițiile legii, pe baza structurii de personal aprobate și a necesităților instituției. Reglementarea nu stabilește însă garanții suficiente privind continuitatea raporturilor de muncă și de serviciu ale personalului existent, recunoașterea vechimii, păstrarea drepturilor salariale și tratamentul posturilor care pot fi afectate de reorganizare.
+
+## 8. Fundamentarea insuficientă a impactului bugetar și financiar
+
+Art. 5 prevede finanțarea Școlii Naționale de Diplomație din alocații de la bugetul de stat, venituri proprii, finanțări externe și alte surse legal constituite. Cu toate acestea, expunerea de motive nu prezintă o estimare a cheltuielilor necesare înființării și funcționării instituției, a costurilor de personal sau a investițiilor necesare pentru dezvoltarea infrastructurii educaționale și de cercetare. În plus, organizarea unor programe universitare presupune îndeplinirea unor standarde privind personaul didactic, infrastructura, resursele de cercetare și serviciile oferite studenților. Aceste obligații pot determina cheltuieli suplimentare semnificative, distincte de costurile actuale ale Institutului Diplomatic Român.
+
+De asemenea, art. 1 alin. (3) stabilește prin lege folosința gratuită a unui imobil administrat de RA-APPS (Regia Autonomă „Administrația Patrimoniului Protocolului de Stat”), fără nicio analiză a acestei măsuri.
+
+9\. În concluzie, nu contestăm faptul că IDR are nevoie de modernizare. Este nevoie de un mandat mai clar, de programe adaptate noilor domenii ale diplomației (economică, digitală, climatică, comunicare strategică și combaterea dezinformării), de evaluarea periodică a rezultatelor, de parteneriate structurate cu universitățile și de o mai bună integrare a formării în parcursul profesional al diplomaților. Această reformă este însă de competența MAE și se poate face prin modificarea cadrului de organizare a IDR, cu menținerea subordonării față de MAE. Desființarea institutului și transferul acestuia într-un sistem de învățământ superior fără legătură cu cariera diplomatică nu reprezintă o reformă.
+
+Președinte, Sterică FUDULEA
+
+Digitally signed by Fudulea Sferica Date: 2026.11.19 11:24:04 EET

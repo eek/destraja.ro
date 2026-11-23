@@ -1,13 +1,12 @@
 {
   "slug": "b639-2026",
   "billId": "B639/2026",
-  "checkedAt": "2026-11-16T09:59:49.777Z",
+  "checkedAt": "2026-11-23T11:27:43.686Z",
   "indexCheckedAt": "2026-11-19T10:30:45.859Z",
   "models": {
     "agy": "ok",
     "claude": "ok",
-    "codex": "ok",
-    "index": "ok"
+    "codex": "ok"
   },
   "articles": [
     {
@@ -17,9 +16,11 @@
       "domain": "alba24.ro",
       "publishedAt": "2026-11-18",
       "foundBy": [
-        "index"
+        "index",
+        "agy",
+        "claude"
       ],
-      "quote": "O propunere legislativă înregistrată la Senat prevede menținerea ghișeelor fizice, posibilitatea de a depune documente pe hârtie, comunicarea prin poștă și plata în numerar a taxelor și impozitelor.",
+      "quote": "Propunerea legislativă se află la Senat și trebuie să parcurgă procedura parlamentară pentru a deveni lege.",
       "match": "quote",
       "firstSeenAt": "2026-11-19",
       "decision": {
@@ -61,9 +62,10 @@
       "domain": "digi24.ro",
       "publishedAt": "2026-11-13",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "Un proiect depus joi, 12 noiembrie, la Senat propune menținerea ghișeelor fizice, acceptarea documentelor pe hârtie,",
+      "quote": "Șapte parlamentari propun alternative la identificarea digitală, invocând „accelerația procesului de digitalizare”.",
       "match": "quote",
       "firstSeenAt": "2026-11-16",
       "decision": {
@@ -99,5 +101,20 @@
       }
     }
   ],
-  "pending": []
+  "pending": [
+    {
+      "url": "https://www.albapesurse.ro/alternative-la-serviciile-publice-online-propuse-in-senat/18/11/2026/128939",
+      "title": "- Alternative la serviciile publice online propuse în Senat",
+      "outlet": "albapesurse.ro",
+      "domain": "albapesurse.ro",
+      "publishedAt": "2026-11-18",
+      "foundBy": [
+        "agy",
+        "claude"
+      ],
+      "quote": "Inițiatorii doresc ca digitalizarea administrației să nu elimine interacțiunea directă cu instituțiile publice.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    }
+  ]
 }

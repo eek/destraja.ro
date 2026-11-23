@@ -1,8 +1,30 @@
 {
   "slug": "plx-535-2026",
   "billId": "PL-x 535/2026",
-  "updatedAt": "2026-10-30T09:44:39.229Z",
+  "updatedAt": "2026-11-23T09:01:12.423Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L456FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Statul le plătește furnizorilor de energie 60% din compensații în avans, în loc de 40%, iar cine nu returnează la timp sumele încasate în plus plătește dobânzi",
+      "summaryTlDr": "Este o lege tehnică de lichiditate și, în ansamblu, benignă. Accelerează plata unor datorii pe care statul le are deja față de furnizori și adaugă un mecanism de recuperare cu accesorii fiscale. Riscurile reale țin de redactare: lit. d) nu spune cine stabilește creanța, de la ce moment curge termenul și dacă se aplică restituirilor anterioare legii.",
+      "scores": {
+        "agy": 6,
+        "claude": 3,
+        "codex": 3
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -16,51 +38,77 @@
         "agy": 4,
         "claude": 4,
         "codex": 3
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "camera",
       "label": "Forma adoptată de Cameră",
       "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl535_cd535_26.pdf",
       "source": "cdep.ro",
-      "riskScore": 3.5,
+      "riskScore": 3.3,
       "riskLevel": "green",
-      "plainTitle": "Creșterea de la 40% la 60% a plăților în avans către furnizorii de energie și gaze pentru facturile plafonate",
-      "summaryTlDr": "O lege tehnică utilă care atenuează blocajul de lichiditate al furnizorilor de energie cărora statul le întârzie decontările, instituind totodată penalități fiscale pentru sumele încasate necuvenit. Totuși, plata efectivă a diferenței de 20% rămâne la discreția calendarului de viramente al Ministerului Finanțelor.",
+      "plainTitle": "Statul plătește mai repede furnizorilor de energie banii pentru plafonarea prețurilor: 60% avans în loc de 40%",
+      "summaryTlDr": "Este o lege tehnică, în mare parte utilă: accelerează plata unor datorii pe care statul le are deja și introduce dobânzi pentru banii plătiți necuvenit și nereturnați. Riscurile sunt două: plăți mai mari acordate doar pe baza declarației furnizorului și un termen de plată neclar pentru tranșa suplimentară de 20%.",
       "scores": {
         "agy": 3,
-        "claude": null,
+        "claude": 3,
         "codex": 4
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     }
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
-      "direction": "la_fel",
-      "headline": "Camera a corectat doar trimiterile legale din cererea adițională; plata de 60% rămâne la fel",
-      "summary": "Forma adoptată de Cameră păstrează neschimbate plata de 60%, dobânzile și termenele. A corectat doar trimiterile legale: temeiul din modelul cererii adiționale și articolul declarației pe propria răspundere. Riscurile pentru buget și firme rămân aceleași.",
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Dispare termenul de 10 zile în care statul trebuia să plătească avansul de 60% către furnizorii de energie",
+      "summary": "Avansul rămâne 60%, dar forma adoptată de Senat scoate termenul de 10 zile lucrătoare pentru plata lui. Furnizorii nu mai știu când primesc banii. În rest sunt mai ales precizări și un model de cerere care citează greșit temeiul legal.",
       "changes": [
         {
-          "title": "Modelul cererii adiționale invocă acum temeiul legal corect",
-          "text": "Anexa trimitea greșit la art. IV alin. 1 lit. A din ordonanță. Acum trimite la art. IV alin. (2) lit. A din lege, ceea ce elimină confuzia la depunerea cererii.",
-          "effect": "mai_bine",
+          "title": "Nu mai există termen pentru plata avansului de 60%",
+          "text": "La art. I pct. 1 și art. II pct. 1 dispare plata în 10 zile lucrătoare de la transferul fondurilor de către Ministerul Finanțelor. Plata avansului nu mai are niciun termen.",
+          "effect": "mai_rau",
           "major": false,
-          "article": "anexa",
-          "before": "art. IV, alin. 1. litera A. din Ordonanța de urgență",
-          "after": "în temeiul prevederilor art. IV, alin. (2). lit. A. din Legea nr.",
+          "article": "art. I pct. 1; art. II pct. 1",
+          "before": "în termen de 10 zile lucrătoare de la transferul fondurilor cu această destinație de către Ministerul Finanțelor în contul Ministerului Energiei, respectiv Agenției Naționale pentru Plăți și Inspecție Socială din bugetul de stat și din alte surse legal constituite",
+          "after": "cu modificările și completările ulterioare, din bugetul de stat și din alte surse legal constituite; plata sumelor se realizează în baza declarației pe propria răspundere a furnizorului prevăzută la alin.(7)",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Declarația pe propria răspundere, legată clar de ambele ordonanțe",
-          "text": "La art. IV alin. (2) lit. A b), trimiterea generică la art. 9 alin. (7) este precizată acum pentru OUG nr. 27/2022 și pentru OUG nr. 6/2025.",
-          "effect": "mai_bine",
+          "title": "Modelul cererii adiționale citează greșit temeiul legal",
+          "text": "Apare în text modelul cererii pentru diferența de 20%. Modelul invocă art. IV alin. 1 lit. A dintr-o ordonanță, nu art. IV alin. (2) lit. A din lege, și este adresat doar Ministerului Energiei.",
+          "effect": "neutru",
           "major": false,
-          "article": "art. IV alin. (2) lit. A b)",
-          "before": "b) cererea adițională este depusă în termen de 30 de zile de la data intrării în vigoare a prezentei legi și este însoțită de o declarație pe propria răspundere a furnizorului prevăzută la art.9 alin.(7), emisă conform modelului din anexă;",
-          "after": "prevăzută la art. 9 alin. (7) din Ordonanța de urgență a Guvernului nr. 27/2022, aprobată cu modificări și completări prin Legea nr. 206/2022, cu modificările și completările ulterioare și respectiv art. 9 alin. (7) din Ordonanța de urgență a Guvernului nr. 6/2025",
+          "article": "anexa",
+          "before": null,
+          "after": "în temeiul prevederilor art. IV, alin. 1. litera A. din Ordonanța de urgență a Guvernului",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Declarația se trimite ambelor instituții",
+          "text": "La art. II pct. 1, cererea și declarația se comunică acum atât Ministerului Energiei, cât și ANPIS. Inițial se comunicau uneia sau alteia.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II pct. 1",
+          "before": "comunicată Ministerului Energiei, respectiv Agenției Naționale pentru Plăți și Inspecție Socială, odată cu cererea de decontare",
+          "after": "comunicată Ministerului Energiei și Agenției Naționale pentru Plăți și Inspecție Socială, odată cu cererea de decontare",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Precizare privind instituția care decontează regularizarea",
+          "text": "La art. 19 alin. (5) din OUG 6/2025 s-a adăugat „după caz”. Decontarea se face prin Ministerul Energiei sau prin ANPIS, după competență.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. I pct. 3",
+          "before": "Decontarea facturilor de regularizare se va face prin Ministerul Energiei sau prin Agenția Națională pentru Plăți și Inspecție Socială, de la bugetul de stat, în conformitate cu valorile calculate și comunicate de ANRE.",
+          "after": "Decontarea facturilor de regularizare se va face prin Ministerul Energiei sau prin Agenția Națională pentru Plăți și Inspecție Socială, după caz, de la bugetul de stat, în conformitate cu valorile calculate și comunicate de ANRE.",
           "beforeAbsent": false,
           "afterAbsent": false
         }
@@ -68,44 +116,176 @@
       "remaining": {
         "problems": [
           {
-            "text": "Se plătesc 60% înainte de verificare, doar pe baza declarației furnizorului",
+            "text": "Avansul de 60% se plătește înainte de verificare, doar pe declarație",
             "major": true,
-            "article": "art. I pct. 1, art. II pct. 1"
+            "article": "art. I pct. 1; art. II pct. 1"
           },
           {
-            "text": "Diferența de 20% depinde de un transfer al Finanțelor fără niciun termen",
-            "major": true,
-            "article": "art. IV alin. (2) lit. A c)"
+            "text": "Plata avansului de 60% nu mai are niciun termen",
+            "major": false,
+            "article": "art. I pct. 1; art. II pct. 1"
           },
           {
-            "text": "Nu se spune dacă dobânzile se aplică și sumelor scadente anterior legii",
-            "major": true,
-            "article": "art. I pct. 2, art. II pct. 2"
+            "text": "Diferența de 20% depinde de un transfer al Finanțelor fără termen",
+            "major": false,
+            "article": "art. IV alin. (2) lit. A lit. c)"
+          },
+          {
+            "text": "Nu se spune dacă penalitățile vizează și sumele scadente anterior legii",
+            "major": false,
+            "article": "art. I pct. 2; art. II pct. 2"
+          },
+          {
+            "text": "Lipsesc autoritatea care emite titlul de creanță și data de start",
+            "major": false,
+            "article": "art. I pct. 2; art. II pct. 2"
+          },
+          {
+            "text": "Modelul cererii adiționale invocă greșit art. IV alin. 1 dintr-o ordonanță",
+            "major": false,
+            "article": "anexa"
           },
           {
             "text": "Cererea adițională e adresată doar Ministerului Energiei, deși plătește și ANPIS",
             "major": false,
             "article": "anexa"
+          },
+          {
+            "text": "Termenul de 30 de zile pentru cererea adițională e decădere neprecizată",
+            "major": false,
+            "article": "art. IV alin. (2) lit. A lit. b)"
+          },
+          {
+            "text": "Termenul final 31 decembrie 2026 pentru date este foarte apropiat",
+            "major": false,
+            "article": "art. I pct. 3"
           }
         ],
         "good": [
           {
-            "text": "Sumele nerestituite în 10 zile lucrătoare generează dobânzi și penalități fiscale",
+            "text": "Avansul plătit furnizorilor crește de la 40% la 60%",
+            "major": true,
+            "article": "art. I pct. 1; art. II pct. 1"
+          },
+          {
+            "text": "Dobânzi și penalități pentru sumele nerestituite la timp protejează bugetul",
+            "major": true,
+            "article": "art. I pct. 2; art. II pct. 2"
+          },
+          {
+            "text": "Cererile deja plătite la 40% pot primi diferența de 20%",
+            "major": true,
+            "article": "art. IV alin. (2) lit. A"
+          },
+          {
+            "text": "Cererile încă neplătite se achită direct la 60%, fără cerere nouă",
+            "major": true,
+            "article": "art. IV alin. (2) lit. B"
+          },
+          {
+            "text": "Ordin comun al miniștrilor în 30 de zile pentru procedura de decontare",
+            "major": false,
+            "article": "art. III"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 31,
+        "removed": 22,
+        "same": 0.31
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-23T09:00:39.553Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Cererea adițională pentru plata a încă 20% trimite acum la temeiul legal corect din lege",
+      "summary": "Camera a corectat trimiterile din formularul cererii adiționale și a precizat din ce ordonanțe provine declarația pe propria răspundere. Furnizorii riscă mai puțin ca cererile să fie contestate pentru temei greșit. Banii, termenele și sancțiunile au rămas neschimbate.",
+      "changes": [
+        {
+          "title": "Formularul cererii adiționale invocă acum temeiul legal corect",
+          "text": "În anexă, cererea adițională nu mai invocă art. IV alin. 1 lit. A dintr-o ordonanță de urgență. Acum invocă art. IV alin. (2) lit. A din lege, adică textul care acordă plata celor 20%.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "Anexa",
+          "before": "în temeiul prevederilor art. IV, alin. 1. litera A. din Ordonanța de urgență a Guvernului nr.",
+          "after": "în temeiul prevederilor art. IV, alin. (2). lit. A. din Legea nr.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Declarația furnizorului: se precizează ordonanțele la care trimite",
+          "text": "Art. IV alin. (2) lit. A lit. b) trimitea doar la „art.9 alin.(7)”, fără să spună din ce act. Acum indică explicit art. 9 alin. (7) din OUG 27/2022 și din OUG 6/2025.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. IV alin. (2) lit. A lit. b)",
+          "before": "b) cererea adițională este depusă în termen de 30 de zile de la data intrării în vigoare a prezentei legi și este însoțită de o declarație pe propria răspundere a furnizorului prevăzută la art.9 alin.(7), emisă conform modelului din anexă;",
+          "after": "prevăzută la art. 9 alin. (7) din Ordonanța de urgență a Guvernului nr. 27/2022, aprobată cu modificări și completări prin Legea nr. 206/2022, cu modificările și completările ulterioare și respectiv art. 9 alin. (7) din Ordonanța de urgență a Guvernului nr. 6/2025",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Nota din formular trimite acum la lege, nu la ordonanță",
+          "text": "Nota (***) din anexă cerea numărul unei ordonanțe de urgență. Acum cere numărul acestei legi, deci formularul se leagă corect de temeiul plății suplimentare.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "Anexa",
+          "before": "(***) Ordonanța de urgență a Guvernului nr. . . . . . . . sau nr.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Statul plătește 60% înainte de verificare, doar pe baza declarației furnizorului",
+            "major": true,
+            "article": "art. I pct. 1, art. II pct. 1"
+          },
+          {
+            "text": "Plata celor 20% depinde de un transfer al Finanțelor fără niciun termen",
+            "major": true,
+            "article": "art. IV alin. (2) lit. A lit. c)"
+          },
+          {
+            "text": "Nu se spune dacă penalitățile se aplică și sumelor scadente înainte de lege",
             "major": true,
             "article": "art. I pct. 2, art. II pct. 2"
           },
           {
-            "text": "Furnizorii returnează în 10 zile lucrătoare sumele decontate peste calculul ANRE",
+            "text": "Crește suma de recuperat dacă valorile validate ulterior sunt mai mici",
             "major": true,
+            "article": "art. I pct. 1, art. II pct. 1"
+          },
+          {
+            "text": "Nu e clar ce pățește furnizorul care depășește termenul din 31.12.2026",
+            "major": false,
             "article": "art. I pct. 3"
           },
           {
-            "text": "Regularizarea volumelor funcționează în ambele sensuri: restituire sau plată suplimentară",
-            "major": true,
-            "article": "art. II pct. 3"
+            "text": "Pentru OUG 27/2022 nu se introduce un termen similar de introducere a datelor",
+            "major": false,
+            "article": "art. II"
           },
           {
-            "text": "Furnizorii plătiți deja cu 40% pot cere diferența de 20%",
+            "text": "Cererea adițională e adresată doar Ministerului Energiei, deși plătește și ANPIS",
+            "major": false,
+            "article": "Anexa"
+          }
+        ],
+        "good": [
+          {
+            "text": "Dobânzi și penalități pentru sumele nerestituite la buget în 10 zile lucrătoare",
+            "major": true,
+            "article": "art. I pct. 2, art. II pct. 2"
+          },
+          {
+            "text": "Furnizorii deja plătiți cu 40% pot cere diferența de 20%",
             "major": true,
             "article": "art. IV alin. (2) lit. A"
           },
@@ -115,7 +295,12 @@
             "article": "art. IV alin. (2) lit. B"
           },
           {
-            "text": "Termen final clar, 31 decembrie 2026, pentru introducerea datelor de decontare",
+            "text": "Furnizorii trebuie să returneze în 10 zile diferențele rezultate din regularizare",
+            "major": true,
+            "article": "art. I pct. 3"
+          },
+          {
+            "text": "Termen final clar, 31 decembrie 2026, pentru datele de decontare și regularizare",
             "major": false,
             "article": "art. I pct. 3"
           },
@@ -125,21 +310,21 @@
             "article": "art. III"
           },
           {
-            "text": "Modelul cererii adiționale invocă acum corect temeiul din lege",
+            "text": "Formularul cererii adiționale trimite acum la temeiul legal corect",
             "major": false,
-            "article": "anexa"
+            "article": "Anexa"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 23,
-        "removed": 21,
-        "same": 0.43
+        "added": 7,
+        "removed": 6,
+        "same": 0.85
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:42:33.386Z"
+      "schema": 4,
+      "updatedAt": "2026-11-23T09:01:12.423Z"
     }
   ]
 }

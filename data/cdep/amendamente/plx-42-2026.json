@@ -1,28 +1,47 @@
 {
  "slug": "plx-42-2026",
  "billId": "PL-x 42/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-10-30T15:00:14.409Z",
- "inputHash": "2f20db8c486d",
+ "updatedAt": "2026-11-23T09:30:59.345Z",
+ "inputHash": "a14e25f00c5f",
  "reports": [
   "https://www.cdep.ro/comisii/juridica/pdf/2026/rp042.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp042.pdf",
+   "sha256": "9d265b2db96853d6",
+   "parts": 1,
+   "rows": 61,
+   "unchanged": 19,
+   "admise": 42,
+   "respinse": 0,
+   "truncated": false
+  }
+ ],
+ "completeness": "incomplete",
+ "problems": [
+  "texte propuse neverificate"
+ ],
  "counts": {
-  "admise": 33,
-  "respinse": 0
+  "admise": 42,
+  "respinse": 0,
+  "anuntate": 61,
+  "nemodificate": 19
  },
  "amendments": [
   {
    "nr": "1",
-   "article": "Titlul legii",
+   "report": "rp042.pdf",
+   "article": "titlul legii",
    "status": "admis",
    "authors": [
     {
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -31,13 +50,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -50,11 +69,63 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Completează titlul legii pentru a menționa că aceasta modifică și completează și alte acte normative.",
-   "quote": "Lege pentru prevenirea și combaterea femicidului și a violențelor care îl preced, precum și pentru modificarea și completarea unor acte normative"
+   "byGroup": null,
+   "summary": "Completează titlul legii pentru a arăta că modifică și completează și alte acte normative.",
+   "quote": "precum și pentru modificarea și completarea unor acte normative",
+   "inForce": null,
+   "before": "Lege pentru prevenirea și combaterea femicidului și a violențelor care îl preced",
+   "after": "Lege pentru prevenirea și combaterea femicidului și a violențelor care îl preced, precum și pentru modificarea și completarea unor acte normative",
+   "motivation": "Pentru respectarea normelor de tehnică legislativă. Se modifică și Legea nr. 286/2009 privind Codul Penal și Legea nr. 135/2010 privind Codul de Procedură Penală"
+  },
+  {
+   "nr": "2",
+   "report": "rp042.pdf",
+   "article": "art. I",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "Alina Gorghiu",
+     "role": "deputat",
+     "party": null,
+     "site": "Gorghiu Alina-Ştefania"
+    },
+    {
+     "name": "Silvia Mihalcea",
+     "role": "deputat",
+     "party": null,
+     "site": "Mihalcea Silvia-Claudia"
+    },
+    {
+     "name": "Csep Eva-Andrea",
+     "role": "deputat",
+     "party": null,
+     "site": "Csép Éva-Andrea"
+    },
+    {
+     "name": "Păun Ana-Cynthia-Ioana",
+     "role": "senator",
+     "party": null,
+     "site": "Păun Ana-Cynthia-Ioana"
+    },
+    {
+     "name": "Victoria Stoiciu",
+     "role": "senator",
+     "party": null,
+     "site": "Stoiciu Victoria"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Elimină marcajul „Art. I” pentru a numerota toate articolele legii doar cu cifre arabe.",
+   "quote": null,
+   "inForce": null,
+   "before": "Art.I.- Măsuri pentru prevenirea și combaterea femicidului și a violențelor care îl preced.",
+   "after": "Art. I - Se elimină",
+   "motivation": "Observație Consiliul Legislativ Conform punctului de vedere al CL: Potrivit exigențelor de tehnică legislativă, se impune ca marcarea tuturor articolelor să se facă doar cu cifre arabe, în ordine crescătoare, fără a fi uzitate atât cifrele arabe, cât și cele romane, prin abrevierile de genul: „Art. 1, Art. 2, Art. 3\". Prin urmare, textul „Art. I. Măsuri pentru prevenirea și combaterea femicidelor și a violențelor care le preced\" se va elimina."
   },
   {
    "nr": "4",
+   "report": "rp042.pdf",
    "article": "art. 1 alin. (1)",
    "status": "admis",
    "authors": [
@@ -62,7 +133,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -71,13 +142,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -90,11 +161,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Elimină cuvântul „sancționarea” din obiectul de reglementare al legii, deoarece sancțiunile sunt prevăzute în Codul penal.",
-   "quote": "Prezenta lege reglementează cadrul legal privind prevenirea și combaterea femicidului, stabilind obiectivele, principiile și măsurile necesare pentru protejarea vieții, integrității și demnității femeilor"
+   "byGroup": null,
+   "summary": "Elimină cuvântul „sancționarea” din obiectul legii, păstrând doar prevenirea și combaterea femicidului.",
+   "quote": "Prezenta lege reglementează cadrul legal privind prevenirea și combaterea femicidului",
+   "inForce": null,
+   "before": "(1) Prezenta lege reglementează cadrul legal privind prevenirea, combaterea și sancționarea femicidului, stabilind obiectivele, principiile și măsurile necesare pentru protejarea vieții, integrității și demnității femeilor, precum și pentru asigurarea unei abordări unitare la nivel național, în concordanță cu standardele și instrumentele internaționale în materie.",
+   "after": "(1) Prezenta lege reglementează cadrul legal privind prevenirea și combaterea femicidului, stabilind obiectivele, principiile și măsurile necesare pentru protejarea vieții, integrității și demnității femeilor, precum și pentru asigurarea unei abordări unitare la nivel național, în concordanță cu standardele și instrumentele internaționale în materie.",
+   "motivation": "Amendament de modificare a alin. 1 prin eliminarea cuvântului ”sancționarea” pentru că Legea femicidului nu include sancțiuni, infracțiuni"
   },
   {
    "nr": "5",
+   "report": "rp042.pdf",
    "article": "art. 1 alin. (2)",
    "status": "admis",
    "authors": [
@@ -102,7 +179,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -111,13 +188,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -130,11 +207,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Trece pe primul loc principiul respectării drepturilor și libertăților fundamentale ale omului și precizează că protecția vizează integritatea fizică și psihică a femeilor.",
-   "quote": "Prezenta lege se întemeiază pe principiile respectării drepturilor și libertăților fundamentale ale omului, protecției vieții și integrității fizice și psihice a femeilor"
+   "byGroup": null,
+   "summary": "Pune pe primul loc principiul respectării drepturilor omului și precizează protecția integrității fizice și psihice a femeilor.",
+   "quote": "respectării drepturilor și libertăților fundamentale ale omului, protecției vieții și integrității fizice și psihice a femeilor",
+   "inForce": null,
+   "before": "(2) Prezenta lege se întemeiază pe principiile protecției vieții și integrității femeilor, respectării drepturilor și libertăților fundamentale ale omului, prevenirii și combaterii oricărei forme de violență împotriva femeilor, intervenției prompte și diligenței corespunzătoare a autorităților, protecției și sprijinului victimelor, abordării integrate și interdisciplinare, colectării și armonizării datelor la nivel național și internațional.",
+   "after": "(2) Prezenta lege se întemeiază pe principiile respectării drepturilor și libertăților fundamentale ale omului, protecției vieții și integrității fizice și psihice a femeilor, prevenirii și combaterii oricărei forme de violență împotriva femeilor, intervenției prompte și diligenței corespunzătoare a autorităților, protecției și sprijinului victimelor, abordării integrate și interdisciplinare, colectării și armonizării datelor la nivel național și internațional.",
+   "motivation": "Amendament de modificare a alineatului 2 prin menționarea mai întâi a respectării drepturilor și libertăților fundamentale și după a principiilor și se particularizează referitor la integritate"
   },
   {
    "nr": "7",
+   "report": "rp042.pdf",
    "article": "art. 1 alin. (3) lit. a)",
    "status": "admis",
    "authors": [
@@ -142,7 +225,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -151,13 +234,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -170,11 +253,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Clarifică definiția femicidului prin referirea la alte infracțiuni intenționate urmate de moartea victimei, comise de un membru al familiei sau de o altă persoană.",
-   "quote": "moartea unei femei, survenită ca urmare a lovirilor sau vătămărilor cauzatoare de moarte ori a altor infracțiuni intenționate urmate de moartea victimei"
+   "byGroup": null,
+   "summary": "Clarifică definiția femicidului prin referire la infracțiuni intenționate urmate de moartea victimei și înlocuiește „terță parte” cu „altă persoană”.",
+   "quote": "ori a altor infracțiuni intenționate urmate de moartea victimei, indiferent dacă faptele sunt comise de un membru al familiei sau de o altă persoană.",
+   "inForce": null,
+   "before": "a) femicidul este uciderea cu intenție a unei femei, precum și moartea unei femei, survenită ca urmare a lovirilor sau vătămărilor cauzatoare de moarte ori a altor infracțiuni săvârșite cu violență, indiferent dacă faptele sunt comise de un membru al familiei sau de o terță parte;",
+   "after": "a) „femicidul\" este uciderea cu intenție a unei femei, precum și moartea unei femei, survenită ca urmare a lovirilor sau vătămărilor cauzatoare de moarte ori a altor infracțiuni intenționate urmate de moartea victimei, indiferent dacă faptele sunt comise de un membru al familiei sau de o altă persoană.",
+   "motivation": "Având în vedere neclaritatea sintagmei ”altor infracțiuni săvârșite cu violență” este necesară înlocuirea cu sintagma utilizată la art. 153 alin. 2 lit. b) Cod penal: ”infracțiunilor prevăzute la art. 188 și 189 și al infracțiunilor intenționate urmate de moartea victimei” Înlocuirea termenului ”o terță parte” (care este un termen utilizat în dreptul civil) cu ”o altă persoană”"
   },
   {
    "nr": "8",
+   "report": "rp042.pdf",
    "article": "art. 1 alin. (3) lit. b)",
    "status": "admis",
    "authors": [
@@ -182,7 +271,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -191,13 +280,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -210,14 +299,20 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Include în definiția femicidului intim și infracțiunile intenționate urmate de moartea femeii și elimină referirea finală la scopul cauzării de suferințe.",
-   "quote": "femicidul intim este uciderea cu intenție a unei femei sau săvârșirea unei infracțiuni intenționate urmate de moartea femeii, comisă de un membru de familie",
+   "byGroup": null,
+   "summary": "Include în definiția femicidului intim și infracțiunile intenționate urmate de moartea femeii și elimină referirea la cauzarea de suferințe.",
+   "quote": "uciderea cu intenție a unei femei sau săvârșirea unei infracțiuni intenționate urmate de moartea femeii, comisă de un membru de familie",
+   "inForce": null,
+   "before": "b) femicidul intim este uciderea cu intenție a unei femei comisă de un membru de familie, care include, dar fără a se limita la aceasta, uciderea motivată de convingerea că agresorul poate exercita control și dominație asupra unei femei ori dacă are ca scop împiedicarea sau reprimarea exercitării drepturilor sau libertăților fundamentale ale acesteia, precum și dacă este săvârșită în numele culturii, obiceiurilor, religiei, tradiției sau așa-numitei „onoare” sau cu scopul de a păstra sau de a restabili caracteristicile reputaționale ale unei persoane, ale unei familii, ale unei comunități sau ale unui alt grup similar sau din orice alte motive în scopul cauzării de suferințe femeilor;",
+   "after": "b) femicidul intim este uciderea cu intenție a unei femei sau săvârșirea unei infracțiuni intenționate urmate de moartea femeii, comisă de un membru de familie, care include, dar fără a se limita la aceasta, uciderea motivată de convingerea că agresorul poate exercita control și dominație asupra unei femei ori dacă are ca scop împiedicarea sau reprimarea exercitării drepturilor sau libertăților fundamentale ale acesteia, precum și dacă este săvârșită în numele culturii, obiceiurilor, religiei, tradiției sau așa-numitei „onoare\" sau cu scopul de a păstra sau de a restabili caracteristicile reputaționale ale unei persoane, ale unei familii, ale unei comunități sau ale unui alt grup similar",
+   "motivation": "Amendament de modificare a literei b) a alineatului (3) deoarece raportat la litera a) la litera b) se definește numai uciderea cu intenție. Este necesară completarea cu sintagma ” săvârșirea unei infracțiuni intenționate urmate de moartea femeii” la fel ca la definiția de la litera a) și eliminarea sintagmei ”sau din orice alte motive în scopul cauzării de suferințe femeilor” deoarece se enumeră motivele care il determină pe faptuitor să o ucidă. De asemenea, femicidul constă în uciderea unei femei nu în cauzarea de suferințe, fiind decedată nu se mai pot cauza suferințe, astfel că se elimină și ultima teză ” în scopul cauzării de suferințe femeilor”",
    "effects": [
     "mai_rau"
    ]
   },
   {
    "nr": "9",
+   "report": "rp042.pdf",
    "article": "art. 1 alin. (3) lit. c)",
    "status": "admis",
    "authors": [
@@ -225,7 +320,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -234,13 +329,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -253,8 +348,13 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Include în femicidul non-intim infracțiunile intenționate urmate de moartea femeii și reformulează condiția privind exercitarea controlului sau dominației asupra victimei.",
+   "byGroup": null,
+   "summary": "Extinde femicidul non-intim la infracțiuni intenționate urmate de moarte, reformulează criteriul controlului și renumerotează punctele (i)–(vii) în 1.–7.",
    "quote": "făptuitorul exercită sau pretinde că este îndreptățit să exercite control sau dominație asupra femeii;",
+   "inForce": null,
+   "before": "c) femicidul non-intim este uciderea cu intenție a unei femei, comisă de o terță persoană decât cea care are calitate de membru de familie, în următoarele circumstanțe: (i) motivată de convingerea că agresorul/agresoarea poate exercita control și dominație asupra femeii; (ii) în scopul împiedicării sau reprimării exercitării drepturilor sau libertăților fundamentale ale femeii; (iii) fapta este săvârșită în numele culturii, obiceiurilor, religiei, tradiției sau așa-numitei „onoare” sau cu scopul de a păstra sau de a restabili caracteristicile reputaționale ale unei persoane, ale unei familii, ale unei comunități sau ale unui alt grup similar; iv) într-un context de exploatare sexuală, de trafic și exploatare a persoanelor vulnerabile astfel cum sunt prevăzute infracțiunile în Partea specială - Titlul I - Capitolul VII „Traficul și exploatarea persoanelor vulnerabile” din Legea nr.286/2009 privind Codul penal, cu modificările și completările ulterioare, sau de trecere frauduloasă a frontierei sau în orice situație de trafic de migranți; (v) într-un context de violență sexuală; (vi) în cadrul unei relații de putere inegală sau de abuz de putere din partea făptuitorului asupra victimei ori profitând de vulnerabilitatea victimei cauzată de vârstă, boală, dizabilitate fizică sau psihică, de o situație de dependență sau de orice altă cauză; (vii) fapta este comisă în orice alt context, din cauza genului victimei;",
+   "after": "c) femicidul non-intim este uciderea cu intenție a unei femei sau săvârșirea unei infracțiuni intenționate urmate de moartea femeii de către o altă persoană decât cea care are calitate de membru de familie, în următoarele circumstanțe: 1. făptuitorul exercită sau pretinde că este îndreptățit să exercite control sau dominație asupra femeii; 2. Nemodificat 3. Nemodificat 4. Nemodificat 5.Nemodificat 6. Nemodificat 7.Nemodificat",
+   "motivation": "Modificată numerotarea ca urmare a avizului CL Se adaugă sintagma ”săvârșirea unei infracțiuni intenționate urmate de moartea victimei” la fel ca la lit. a. Se înlocuiește sintagma ”de o terță persoană” cu ”de către o altă persoană”. Pentru coroborarea textului cu modificările aduse Codului Penal prin prezenta lege se elimină de la pct.1 al literei c) sintagma ”motivată de convingerea că agresorul/agresoarea poate ” Modificare numerotare conform avizului CL din : (i)-(vii) în 1.-7.",
    "effects": [
     "mai_rau",
     "mai_bine"
@@ -262,6 +362,7 @@
   },
   {
    "nr": "10",
+   "report": "rp042.pdf",
    "article": "art. 1 alin. (3) lit. d)",
    "status": "admis",
    "authors": [
@@ -269,7 +370,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -278,13 +379,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -297,11 +398,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Clarifică definiția femicidului indirect prin înlocuirea expresiei „practici similare” cu „acte similare” mutilării genitale feminine.",
-   "quote": "femicidul indirect implică moartea unei femei ca urmare a mutilării genitale feminine sau a unor acte similare, precum și sinuciderea unei femei"
+   "byGroup": null,
+   "summary": "Înlocuiește referirea la „practici” din definiția femicidului indirect cu mutilarea genitală feminină sau acte similare.",
+   "quote": "femicidul indirect implică moartea unei femei ca urmare a mutilării genitale feminine sau a unor acte similare",
+   "inForce": null,
+   "before": "d)femicidul indirect implică moartea unei femei ca urmare a unor practici în legătură cu mutilarea genitală feminină sau în încercarea de a o supune unor practici similare, precum și sinuciderea unei femei ca urmare a violenței între parteneri sau într-un context familial.",
+   "after": "d) femicidul indirect implică moartea unei femei ca urmare a mutilării genitale feminine sau a unor acte similare, precum și sinuciderea unei femei ca urmare a violenței între parteneri sau într-un context familial.",
+   "motivation": "Amendament de modificare a literei d) prin eliminarea termenilor ”practică/practici similare”, având în vedere neclaritatea utilizării acestora"
   },
   {
    "nr": "11",
+   "report": "rp042.pdf",
    "article": "art. 1 alin. (4)",
    "status": "admis",
    "authors": [
@@ -309,7 +416,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -318,13 +425,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -337,14 +444,20 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Corectează trimiterea din definiția tentativei de femicid intim sau non-intim, făcând referire la alin. (3) lit. b) și c) în loc de alin. (2).",
+   "byGroup": null,
+   "summary": "Corectează trimiterea din definiția tentativei de femicid de la alin. (2) la alin. (3) lit. b) și c).",
    "quote": null,
+   "inForce": null,
+   "before": "(4) Există tentativă de femicid intim sau non-intim atunci când hotărârea de a acționa potrivit dispozițiilor alin.(2) lit.b) și c) s-a realizat prin acte de punere în executare, însă executarea a fost întreruptă sau nu și-a produs efectul, din cauza unor circumstanțe independente de voința făptuitorului.",
+   "after": "(4) Există tentativă de femicid intim sau non-intim atunci când hotărârea de a acționa potrivit dispozițiilor alin. (3) lit. b) și c) s-a realizat prin acte de punere în executare, însă executarea a fost întreruptă sau nu și-a produs efectul, din cauza unor circumstanțe independente de voința făptuitorului.",
+   "motivation": "Amendament de modificare a alin. (4) prin corelare cu alineatul 3, nu cu alineatul 2.",
    "effects": [
     "mai_bine"
    ]
   },
   {
    "nr": "12",
+   "report": "rp042.pdf",
    "article": "art. 1 alin. (5)",
    "status": "admis",
    "authors": [
@@ -352,7 +465,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -361,13 +474,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -380,11 +493,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Restrânge la art. 1-5 aplicarea definițiilor din Legea nr. 217/2003 privind violența domestică și membrul de familie.",
-   "quote": "prevăzute la art. 1-5 din prezenta lege, au înțelesul menționat în art. 4 și 5 din Legea nr. 217/2003 pentru prevenirea și combaterea violenței domestice"
+   "byGroup": null,
+   "summary": "Limitează trimiterea la definițiile din Legea nr. 217/2003 doar la articolele 1–5 ale prezentei legi.",
+   "quote": "prevăzute la art. 1-5 din prezenta lege, au înțelesul menționat în art. 4 și 5 din Legea nr. 217/2003",
+   "inForce": null,
+   "before": "(5) În prezenta lege, noțiunile de „violență domestică”, „forme ale violenței domestice” și de „membru de familie” au înțelesul prevăzut la art.4 și 5 din Legea nr.217/2003 pentru prevenirea și combaterea violenței domestice, republicată, cu modificările și completările ulterioare.",
+   "after": "(5) Noțiunile de \"violență domestică\", \"forme ale violenței domestice\" și de ''membru de familie\", prevăzute la art. 1-5 din prezenta lege, au înțelesul menționat în art. 4 și 5 din Legea nr. 217/2003 pentru prevenirea și combaterea violenței domestice, republicată, cu modificările și completările ulterioare.",
+   "motivation": "Amendament de modificare a alin. (5) prin indicarea numai a articolelor din prezenta Lege care nu cuprind propuneri de modificări la Codul penal sau la Codul de Procedură Penală și reformulare text conform normelor de tehnică legislativă"
   },
   {
    "nr": "14",
+   "report": "rp042.pdf",
    "article": "art. 1 alin. (7)",
    "status": "admis",
    "authors": [
@@ -396,14 +515,20 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Introduce obligația aplicării legii cu respectarea principiilor legalității incriminării, proporționalității și previzibilității legii penale.",
-   "quote": "Aplicarea dispozițiilor prezentei legi se realizează cu respectarea principiilor legalității incriminării, proporționalității și previzibilității legii penale",
+   "byGroup": null,
+   "summary": "Introduce un alineat nou care impune aplicarea legii cu respectarea legalității incriminării, proporționalității și previzibilității legii penale.",
+   "quote": "dispozițiilor prezentei legi se realizează cu respectarea principiilor legalității incriminării, proporționalității și previzibilității legii penale",
+   "inForce": null,
+   "before": null,
+   "after": "7.Aplicarea dispozițiilor prezentei legi se realizează cu respectarea principiilor legalității incriminării, proporționalității și previzibilității legii penale",
+   "motivation": null,
    "effects": [
     "mai_bine"
    ]
   },
   {
    "nr": "16",
+   "report": "rp042.pdf",
    "article": "art. 2 alin. (1)",
    "status": "admis",
    "authors": [
@@ -411,7 +536,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -420,13 +545,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -439,11 +564,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Înlocuiește „institutele de medicină legală” cu „instituțiile de medicină legală” pentru a acoperi întregul sistem medico-legal în colectarea datelor.",
-   "quote": "organele de poliție și cele judiciare, precum și instituțiile de medicină legală colectează datele relevante."
+   "byGroup": null,
+   "summary": "Înlocuiește „institutele de medicină legală” cu „instituțiile de medicină legală” pentru a cuprinde întregul sistem medico-legal.",
+   "quote": "organele de poliție și cele judiciare, precum și instituțiile de medicină legală colectează datele relevante.",
+   "inForce": null,
+   "before": "(1) În scopul cunoașterii dimensiunii femicidului și a riscului de femicid, al studierii cauzelor omorurilor săvârșite în cadrul violenței domestice și a efectelor acestora, a frecvenței condamnărilor și a cuantumului pedepselor, pentru creșterea eficacității măsurilor privind prevenirea și combaterea femicidului și a violențelor care îl preced, precum și în scopul evaluării amplorii și tendințelor tuturor formelor de violență prevăzute de Convenția Consiliului Europei privind prevenirea și combaterea violenței împotriva femeilor și a violenței domestice, adoptată la Istanbul la 11 mai 2011, ratificată prin Legea nr.30/2016, organele de poliție și cele judiciare, precum și institutele de medicină legală colectează datele relevante.",
+   "after": "(1) În scopul cunoașterii dimensiunii femicidului și a riscului de femicid, al studierii cauzelor omorurilor săvârșite în cadrul violenței domestice și a efectelor acestora, a frecvenței condamnărilor și a cuantumului pedepselor, pentru creșterea eficacității măsurilor privind prevenirea și combaterea femicidului și a violențelor care îl preced, precum și în scopul evaluării amplorii și tendințelor tuturor formelor de violență prevăzute de Convenția Consiliului Europei privind prevenirea și combaterea violenței împotriva femeilor și a violenței domestice, adoptată la lstanbul la 11 mai 2011, ratificată prin Legea nr. 30/2016, organele de poliție și cele judiciare, precum și instituțiile de medicină legală colectează datele relevante.",
+   "motivation": "Modificare din ”institute de medicină legală ” în instituții de medicină legală”, deoarece această noțiune acoperă întregul sistem medico-legal, nu numai institutele de medicină legală (și laboratoare, servicii județene)"
   },
   {
    "nr": "17",
+   "report": "rp042.pdf",
    "article": "art. 2 alin. (2)",
    "status": "admis",
    "authors": [
@@ -451,7 +582,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -460,13 +591,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -479,11 +610,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Precizează că datele colectate potrivit alin. (1) sunt datele „relevante”, pentru corelare cu primul alineat.",
-   "quote": "Datele relevante colectate în scopul prevăzut la alin. (1) cuprind informații privind sesizările referitoare la săvârșirea actelor de violență domestică și tipurile de intervenție realizate"
+   "byGroup": null,
+   "summary": "Adaugă cuvântul „relevante” după „Datele”, pentru corelare cu alineatul (1).",
+   "quote": "Datele relevante colectate în scopul prevăzut la alin. (1) cuprind informații privind sesizările referitoare la săvârșirea actelor de violență domestică",
+   "inForce": null,
+   "before": "(2)Datele colectate în scopul prevăzut la alin.(1) cuprind informații privind sesizările referitoare la săvârșirea actelor de violență domestică și tipurile de intervenție realizate, ordinele de protecție provizorii, ordinele de protecție și ordinele europene de protecție emise și executate, certificatele privind recunoașterea și executarea măsurilor de protecție prevăzute de Regulamentul (UE) nr.606/2013 al Parlamentului European și al Consiliului din 12 iunie 2013 privind recunoașterea reciprocă a măsurilor de protecție în materie civilă, precum și informațiile cu privire la toate infracțiunile corespunzătoare formelor violenței domestice ori pentru care legea penală prevede că sunt săvârșite de către un membru de familie sau asupra unui membru de familie.",
+   "after": "(2) Datele relevante colectate în scopul prevăzut la alin. (1) cuprind informații privind sesizările referitoare la săvârșirea actelor de violență domestică și tipurile de intervenție realizate, ordinele de protecție provizorii, ordinele de protecție și ordinele europene de protectie emise și executate, certificatele privind recunoașterea și executarea măsurilor de protecție prevăzute de Regulamentul (UE) nr. 606/2013 al Parlamentului European și al Consiliului din 12 iunie 2013 privind recunoașterea reciprocă a măsurilor de protecție în materie civilă, precum și informațiile cu privire la toate infracțiunile corespunzătoare formelor violenței domestice ori pentru care legea penală prevede că sunt săvârșite de către un membru de familie sau asupra unui membru de familie.",
+   "motivation": "Amendament de completare a alineatului (2) prin completarea cu sintagma ”relevante” (referitor la date) similar cu alin.1"
   },
   {
    "nr": "18",
+   "report": "rp042.pdf",
    "article": "art. 2 alin. (3)",
    "status": "admis",
    "authors": [
@@ -491,7 +628,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -500,13 +637,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -519,14 +656,20 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Limitează colectarea datelor din procesele civile la cele privind ordinul de protecție, înlocuiește „omorului” cu „violenței asupra victimei” și elimină termenul de 90 de zile.",
-   "quote": "Datele primare culese în fiecare cauză penală, precum și în cauzele civile având ca obiect ordinul de protecție, cuprind cel puțin vârsta și sexul victimei și agresorului",
+   "byGroup": null,
+   "summary": "Restrânge culegerea datelor primare în civil la cauzele privind ordinul de protecție, corectează trimiterile și elimină termenul de 90 de zile.",
+   "quote": "Datele primare culese în fiecare cauză penală, precum și în cauzele civile având ca obiect ordinul de protecție",
+   "inForce": null,
+   "before": "(3) Datele primare culese în fiecare cauză civilă sau penală cuprind cel puțin vârsta și sexul victimei și agresorului, relația dintre aceștia, numărul copiilor victimei, vârsta lor și dacă aceștia au asistat la săvârșirea omorului, precum și mențiuni standardizate despre locul, modul și mobilul săvârșirii faptei, astfel încât să permită centralizarea și analiza datelor conform prevederilor art.1 alin.(2) și (3). În termen de 90 de zile de la intrarea în vigoare a prezentei legi, prin ordin comun al ministrului afacerilor interne, al procurorului general al Parchetului de pe lângă Înalta Curte de Casație și Justiție și al ministrului justiției se aprobă metodologia de culegere a datelor primare și de compatibilizare a modului de colectare a acestora de către organele de poliție și de către organele judiciare, astfel încât să poată fi urmărit parcursul unei cauze de la sesizare până la soluționare, incluzând și soluțiile instanțelor de judecată.",
+   "after": "(3) Datele primare culese în fiecare cauză penală, precum și în cauzele civile având ca obiect ordinul de protecție, cuprind cel puțin vârsta și sexul victimei și agresorului, relația dintre aceștia, numărul copiilor victimei, vârsta lor și dacă aceștia au asistat la săvârșirea violenței asupra victimei, precum și mențiuni standardizate despre locul, modul și mobilul săvârșirii faptei, astfel încât să permită centralizarea și analiza datelor conform prevederilor art. 1 alin. (3) și (4). Prin ordin comun al ministrului justiției, ministrului afacerilor interne și al procurorului general al Parchetului de pe lângă Înalta Curte de Casație și Justiție se aprobă metodologia de culegere a datelor primare și de compatibilizare a modului de colectare a acestora de către organele de poliție și de către organele judiciare, astfel încât să poată fi urmărit parcursul unei cauze de la sesizare până la soluționare, incluzând si soluțiile instanțelor de judecată.",
+   "motivation": "Amendament de modificare a alineatului (3) prin eliminarea sintagmei ”în termen de 90 de zile de la intrarea în vigoare a prezentei legi” termenul fiind prevăzut la art. 8 din prezenta Lege La cauze civile se menționează obiectul acestora",
    "effects": [
     "mai_bine"
    ]
   },
   {
    "nr": "19",
+   "report": "rp042.pdf",
    "article": "art. 2 alin. (4)",
    "status": "admis",
    "authors": [
@@ -534,7 +677,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -543,13 +686,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -562,14 +705,20 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Defalcă obligațiile de raportare statistică anuală între MAI, Parchetul de pe lângă Înalta Curte de Casație și Justiție și Ministerul Justiției.",
-   "quote": "Ministerul Afacerilor Interne și Parchetul de pe lângă Înalta Curte de Casație și Justiție dau publicității, anual, un raport cuprinzând datele statistice și analiza acestora",
+   "byGroup": null,
+   "summary": "Împarte obligația de raportare anuală pe instituții: MAI și PÎCCJ, PÎCCJ separat pentru restituiri și Ministerul Justiției pentru condamnări.",
+   "quote": "Ministerul Afacerilor Interne și Parchetul de pe lângă Înalta Curte de Casație și Justiție dau publicității, anual, un raport",
+   "inForce": null,
+   "before": "(4) Ministerul Public și Ministerul Justiției, cu sprijinul Ministerului Afacerilor Interne, dau publicității, anual, un raport cuprinzând datele statistice și analiza acestora privind plângerile și alte sesizări penale, trimiterile în judecată, soluțiile de netrimitere în judecată și principalele motive pe care se fundamentează, restituirile și condamnările sau alte soluții după trimiterea în judecată pentru infracțiunile de omor și omor calificat, distinct pentru fiecare element circumstanțial, precum și pentru alte infracțiuni urmate de moartea victimei săvârșite în cadrul violenței domestice sau asupra unei femei în orice alt context, inclusiv tentativele la acestea.",
+   "after": "(4) Ministerul Afacerilor Interne și Parchetul de pe lângă Înalta Curte de Casație și Justiție dau publicității, anual, un raport cuprinzând datele statistice și analiza acestora privind plângerile și alte sesizări penale, trimiterile în judecată, soluțiile de netrimitere în judecată și principalele motive pe care se fundamentează acestea. Parchetul de pe lângă Înalta Curte de Casație și Justiție dă publicității, anual, un raport cuprinzând datele statistice și analiza acestora privind restituirile cauzelor la procuror și Ministerul Justiției va da publicității anual un raport privind condamnările sau alte soluții după trimiterea în judecată pentru infracțiunile de omor și omor calificat, distinct pentru fiecare element circumstanțial, precum și pentru alte infracțiuni intenționate urmate de moartea victimei săvârșite în cadrul violenței domestice sau asupra unei femei în orice alt context, inclusiv tentativele la acestea.",
+   "motivation": "Amendament de modificare pentru a evidenția ce date furnizează fiecare instituție Înlocuit CSM cu Ministerul Justiției conform punctului de vedere al CSM în ceea ce privește instituția care va da publicității anual un raport privind condamnările sau alte soluții după trimiterea în judecată pentru infracțiunile de omor și omor calificat distinct pentru fiecare element circumstanțial",
    "effects": [
     "mai_bine"
    ]
   },
   {
    "nr": "21",
+   "report": "rp042.pdf",
    "article": "art. 2 alin. (6)",
    "status": "admis",
    "authors": [
@@ -577,7 +726,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -586,13 +735,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -605,11 +754,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Clarifică datele incluse în raportul anual al MAI și elimină din sarcina acestuia raportarea soluțiilor parchetelor și instanțelor privind ordinele de protecție nerespectate.",
-   "quote": "Ministerul Afacerilor Interne dă publicității anual un raport privind: sesizările referitoare la săvârșirea actelor de violență domestică, inclusiv letală, indiferent de calitatea victimei"
+   "byGroup": null,
+   "summary": "Reconfigurează conținutul raportului anual al MAI și mută datele judiciare privind nerespectarea ordinelor de protecție la un alineat separat.",
+   "quote": "sesizările referitoare la săvârșirea actelor de violență domestică, inclusiv letală, indiferent de calitatea victimei, precum și tipurile de intervenție realizate",
+   "inForce": null,
+   "before": "(6) Ministerul Afacerilor Interne dă publicității anual un raport privind sesizările referitoare la săvârșirea actelor de violență domestică și a altor fapte de violență asupra unei femei precum și tipurile de intervenție realizate, ordinele de protecție provizorii și ordinele de protecție emise în cazurile de violență domestică potrivit prevederilor Legii nr.217/2003, republicată, cu modificările și completările ulterioare, respectiv în cazurile prevăzute de Legea nr.26/2024 privind ordinul de protecție, cu modificările și completările ulterioare, cuprinzând și ordinele de protecție, ordinele de protecție provizorii și ordinele europene de protecție nerespectate, trimiterile în judecată și soluțiile de netrimitere în judecată în aceste cauze, condamnările sau alte soluții menționate la alin.(4).",
+   "after": "(6) Ministerul Afacerilor Interne dă publicității anual un raport privind: sesizările referitoare la săvârșirea actelor de violență domestică, inclusiv letală, indiferent de calitatea victimei, precum și tipurile de intervenție realizate; infracțiunile de omor, omor calificat, tentativele la aceste infracțiuni, precum și orice alte infracțiuni intenționate urmate de moartea victimei săvârșite asupra unei femei, în orice alt context; ordinele de protecție provizorii și ordinele de protecție emise în cazurile de violență domestică potrivit prevederilor Legii nr. 217/2003, republicată, cu modificările și completările ulterioare, respectiv în cazurile prevăzute de Legea nr. 26/2024 privind ordinul de protecție, cu modificările și completările ulterioare, cuprinzând și ordinele de protecție, ordinele de protecție provizorii și ordinele europene de protecție nerespectate.",
+   "motivation": "Amendament refăcut urmare a observațiilor MAI Amendament de modificare și introducerea unei teze noi potrivit căreia sunt indicate instituțiile abilitate să furnizeze datele privind infracțiunile de nerespectare a ordinelor de protecție provizorii, a ordinelor de protecție și a ordinelor europene de protecție, soluțiile de netrimitere în judecată în aceste cauze și principalele motive pe care se fundamentează acestea, trimiterile în judecată, precum și condamnările sau alte soluții menționate la alin (4), respectiv Ministerul Justiției și Parchetul de pe lângă Înalta Curte de Casație și Justiției"
   },
   {
    "nr": "22",
+   "report": "rp042.pdf",
    "article": "art. 2 alin. (7)",
    "status": "admis",
    "authors": [
@@ -617,7 +772,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -626,13 +781,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -645,14 +800,35 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Introduce obligația Ministerului Justiției și a PÎCCJ de a publica anual un raport privind infracțiunile de nerespectare a ordinelor de protecție și soluțiile dispuse.",
-   "quote": "Ministerul Justiției și Parchetul de pe lângă Înalta Curte de Casație și Justiție dau publicității anual un raport privind infracțiunile de nerespectare a ordinelor de protecție provizorii",
+   "byGroup": null,
+   "summary": "Introduce un nou alineat prin care Ministerul Justiției și PÎCCJ publică anual un raport privind nerespectarea ordinelor de protecție.",
+   "quote": "Ministerul Justiției și Parchetul de pe lângă Înalta Curte de Casație și Justiție dau publicității anual un raport privind infracțiunile",
+   "inForce": null,
+   "before": null,
+   "after": "(7) Ministerul Justiției și Parchetul de pe lângă Înalta Curte de Casație și Justiție dau publicității anual un raport privind infracțiunile de nerespectare a ordinelor de protecție provizorii, a ordinelor de protecție și a ordinelor europene de protecție, soluțiile de netrimitere în judecată în aceste cauze și principalele motive pe care se fundamentează acestea, trimiterile în judecată, precum și condamnările sau alte soluții menționate la alin. (4).",
+   "motivation": "Amendament de inroducere a unei noi teze prin care se evidențiază atribuțiile Ministerului Justiției și ale Parchetului de pe lângă Înalta Curte de Casație și Justiție",
    "effects": [
     "mai_bine"
    ]
   },
   {
+   "nr": "23",
+   "report": "rp042.pdf",
+   "article": "art. 2 alin. (8)",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Renumerotează alineatul (7) al art. 2 ca alineatul (8), fără modificarea textului.",
+   "quote": null,
+   "inForce": null,
+   "before": "(7) Ministerul Justiției dă publicității anual un raport privind ordinele europene de protecție emise și executate și, respectiv, privind recunoașterea și executarea măsurilor de protecție prevăzute de Regulamentul (UE) nr.606/2013 al Parlamentului European și al Consiliului din 12 iunie 2013.",
+   "after": "(8) Nemodificat",
+   "motivation": null
+  },
+  {
    "nr": "24",
+   "report": "rp042.pdf",
    "article": "art. 2 alin. (9)",
    "status": "admis",
    "authors": [
@@ -660,7 +836,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -669,13 +845,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -688,11 +864,32 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Înlocuiește „Institutele de medicină legală” cu „Instituțiile de medicină legală” în privința colectării datelor despre victimele omuciderilor.",
-   "quote": "Instituțiile de medicină legală colectează date dezagregate în funcție de sex privind victimele omuciderilor, vârsta victimelor, numărul și natura loviturilor"
+   "byGroup": null,
+   "summary": "Renumerotează alineatul la (9) și înlocuiește „institutele de medicină legală” cu „instituțiile de medicină legală”.",
+   "quote": "Instituțiile de medicină legală colectează date dezagregate în funcție de sex privind victimele omuciderilor",
+   "inForce": null,
+   "before": "(8) Institutele de medicină legală colectează date dezagregate în funcție de sex privind victimele omuciderilor, vârsta victimelor, numărul și natura loviturilor, localizarea la nivelul corpului, locul producerii faptei, mecanismul producerii leziunilor și obiectul vulnerant probabil și le transmit către Consiliul Superior de Medicină Legală, care dă publicității anual un raport privind aceste date.",
+   "after": "(9) Instituțiile de medicină legală colectează date dezagregate în funcție de sex privind victimele omuciderilor, vârsta victimelor, numărul și natura loviturilor, localizarea la nivelul corpului, locul producerii faptei, mecanismul producerii leziunilor și obiectul vulnerant probabil și le transmit către Consiliul Superior de Medicină Legală, care dă publicității anual un raport privind aceste date.",
+   "motivation": "Amendament de modificare pentru înlocuirea sintagmei ”institute de medicină legală” cu ”instituții de medicină legală” deoarece această noțiune acoperă întregul sistem medico-legal, nu numai institutele de medicină legală (și laboratoare, servicii județene)"
+  },
+  {
+   "nr": "25",
+   "report": "rp042.pdf",
+   "article": "art. 2 alin. (10)",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Renumerotează alineatul (9) al art. 2 ca alineatul (10), păstrând conținutul nemodificat.",
+   "quote": null,
+   "inForce": null,
+   "before": "(9) Instituțiile prevăzute la alin.(4) și (6)-(8) se asigură că raportul anual conține doar date anonimizate și îl publică pe paginile lor de internet până la data de 31 martie a fiecărui an, pentru anul anterior.",
+   "after": "(10) Nemodificat",
+   "motivation": "Se modifică doar numarul alineatului, 10, in loc de 9"
   },
   {
    "nr": "26",
+   "report": "rp042.pdf",
    "article": "art. 2 alin. (11)",
    "status": "admis",
    "authors": [
@@ -700,7 +897,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -709,13 +906,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -728,11 +925,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Elimină obligația instituțiilor de a raporta instanței de executare informații privind plata pensiei de întreținere în legătură cu ordinele de protecție.",
-   "quote": null
+   "byGroup": null,
+   "summary": "Renumerotează alineatul la (11) și elimină monitorizarea plății pensiei de întreținere dintre informațiile transmise instanței de executare.",
+   "quote": null,
+   "inForce": null,
+   "before": "(10) În scopul verificării modului în care se execută obligațiile și măsurile dispuse, instanțele care au emis ordin de protecție, respectiv au emis sau recunoscut un ordin european de protecție ori o altă măsură de protecție prevăzută la alin.(7), țin un registru privind executarea acestora. Toate instituțiile care au atribuții de monitorizare a măsurilor și obligațiilor dispuse prin ordinul de protecție, precum și privind acordarea de consiliere psihologică agresorului, internarea voluntară sau nevoluntară a acestuia, plata alocației de stat pentru copii și a pensiei de întreținere, transmit instanței de executare informațiile pe care le dețin din care rezultă respectarea sau încălcarea ordinelor de protecție.",
+   "after": "(11) În scopul verificării modului în care se execută obligațiile și măsurile dispuse, instanțele care au emis ordin de protecție, respectiv au emis sau recunoscut un ordin european de protecție ori o altă măsură de protecție prevăzută la alin. (7), țin un registru privind executarea acestora. Toate instituțiile care au atribuții de monitorizare a măsurilor și obligațiilor dispuse prin ordinul de protecție, precum și privind acordarea de consiliere psihologică agresorului, internare voluntară sau nevoluntară a acestuia și plata alocației de stat pentru copii transmit instanței de executare informațiile pe care le dețin din care rezultă respectarea sau încălcarea ordinelor de protecție.",
+   "motivation": "Amendament de modificare prin eliminarea obligației de monitorizare referitoare la plata pensiei de întreținere deoarece nicio instituție nu poate verifica neîndeplinirea acestei obligații"
   },
   {
    "nr": "31",
+   "report": "rp042.pdf",
    "article": "art. 3 alin. (4)",
    "status": "admis",
    "authors": [
@@ -744,11 +947,20 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Prevede că ORAPO poate solicita doar date anonimizate din dosarele penale soluționate, fără acces la datele de identificare ale persoanelor implicate.",
-   "quote": null
+   "byGroup": null,
+   "summary": "Limitează accesul ORAPO la dosarele penale soluționate doar la date anonimizate, fără date de identificare, pentru respectarea GDPR.",
+   "quote": "ORAPO poate solicita date anonimizate din dosarele penale soluționate, fără acces la datele de identificare ale persoanelor implicate",
+   "inForce": null,
+   "before": null,
+   "after": "(4) În scopul realizării raportului prevăzut la alin. (1), ORAPO poate solicita date anonimizate din dosarele penale soluționate, fără acces la datele de identificare ale persoanelor implicate",
+   "motivation": "Respectare GDPR",
+   "unverified": [
+    "before"
+   ]
   },
   {
    "nr": "32",
+   "report": "rp042.pdf",
    "article": "art. 3 alin. (5)",
    "status": "admis",
    "authors": [
@@ -760,11 +972,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Introduce obligația ca hotărârile judecătorești definitive să fie comunicate către ORAPO în format anonimizat.",
-   "quote": "Hotărârile judecătorești definitive vor fi comunicate către ORAPO în format anonimizat."
+   "byGroup": null,
+   "summary": "Stabilește că hotărârile judecătorești definitive sunt comunicate către ORAPO în format anonimizat.",
+   "quote": "Hotărârile judecătorești definitive vor fi comunicate către ORAPO în format anonimizat.",
+   "inForce": null,
+   "before": null,
+   "after": "(5)Hotărârile judecătorești definitive vor fi comunicate către ORAPO în format anonimizat.",
+   "motivation": "Respectare GDPR"
   },
   {
    "nr": "34",
+   "report": "rp042.pdf",
    "article": "art. 4 alin. (1)",
    "status": "admis",
    "authors": [
@@ -772,7 +990,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -781,13 +999,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -800,11 +1018,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Extinde obligația utilizării instrumentelor de evaluare și gestionare a riscurilor de la organele de urmărire penală la toate organele judiciare.",
-   "quote": null
+   "byGroup": null,
+   "summary": "Extinde obligația utilizării instrumentelor de evaluare a riscurilor de la organele de urmărire penală la toate organele judiciare, în toate cauzele de violență.",
+   "quote": null,
+   "inForce": null,
+   "before": "(1) În cauzele penale referitoare la violența domestică și violența de orice fel împotriva femeilor, organele de urmărire penală utilizează instrumente specifice de evaluare și gestionare a riscurilor, care să permită prevenirea femicidelor definite la art.1, precum și prevenirea oricărui alt tip de omor în cadrul violenței domestice.",
+   "after": "(1) În cauzele referitoare la violența domestică și violența de orice fel împotriva femeilor, organele judiciare utilizează instrumente specifice de evaluare și gestionare a riscurilor, care să permită prevenirea femicidelor definite la art.1, precum și prevenirea oricărui alt tip de omor în cadrul violenței domestice.",
+   "motivation": "Înlocuirea sintagmei ”organele de urmărire penală” cu ”organele judiciare”"
   },
   {
    "nr": "35",
+   "report": "rp042.pdf",
    "article": "art. 4 alin. (2)",
    "status": "admis",
    "authors": [
@@ -812,7 +1036,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -821,13 +1045,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -840,11 +1064,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Stabilește că instrumentele de evaluare și gestionare a riscului se aprobă prin hotărâre de Guvern, în loc de ordin comun de miniștri.",
-   "quote": "Instrumentele specifice de evaluare și gestionare a riscului prevăzute la alin.(1) se aprobă prin Hotărâre de Guvern, cu consultarea Parchetului de pe lângă Înalta Curte de Casație și Justiție"
+   "byGroup": null,
+   "summary": "Instrumentele de evaluare a riscului se aprobă prin hotărâre de Guvern în loc de ordin comun ministerial și se elimină termenul de 90 de zile din acest alineat.",
+   "quote": "Instrumentele specifice de evaluare și gestionare a riscului prevăzute la alin.(1) se aprobă prin Hotărâre de Guvern",
+   "inForce": null,
+   "before": "(2) Instrumentele specifice de evaluare și gestionare a riscului prevăzute la alin.(1) se aprobă prin ordin comun al ministrului muncii, familiei, tineretului și solidarității sociale și al ministrului afacerilor interne, la propunerea Agenției Naționale pentru Egalitate de Șanse între Femei și Bărbați, cu consultarea Parchetului de pe lângă Înalta Curte de Casație și Justiție, a Observatorului Român pentru Analiza și Prevenirea Omorurilor, a reprezentanților societății civile și a mediului academic, în termen de 90 de zile de la intrarea în vigoare a prezentei legi și se actualizează ca urmare a recomandărilor din rapoartele anuale prevăzute la art.3.",
+   "after": "(2) Instrumentele specifice de evaluare și gestionare a riscului prevăzute la alin.(1) se aprobă prin Hotărâre de Guvern, cu consultarea Parchetului de pe lângă Înalta Curte de Casație și Justiție, a Observatorului Român pentru Analiza și Prevenirea Omorurilor, a reprezentanților societății civile și a mediului academic și se actualizează ca urmare a recomandărilor din rapoartele anuale prevăzute la art.3.",
+   "motivation": "Amendament de modificare a alineatului prin înlocuirea ordinului de comun prin care se aprobă instrumentele specifice de risc cu Hotărârea de Guvern. Se elimină sintagma ”in termen de 90 de zile de la intrarea în vigoare a prezentei legi”, termenele sunt prevăzute la art. 8 din prezenta lege"
   },
   {
    "nr": "36",
+   "report": "rp042.pdf",
    "article": "art. 4 alin. (3)",
    "status": "admis",
    "authors": [
@@ -852,7 +1082,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -861,13 +1091,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -880,11 +1110,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Înlocuiește enumerarea criteriilor de vulnerabilitate cu o trimitere la circumstanțele agravante prevăzute la art. 77 din Codul penal.",
-   "quote": "În acest scop, se pot lua în considerare criteriile prevăzute la art. 77 din Legea nr. 286/2009 privind Codul Penal."
+   "byGroup": null,
+   "summary": "Înlocuiește lista detaliată de criterii de vulnerabilitate cu o trimitere la criteriile prevăzute la art. 77 din Codul penal.",
+   "quote": "În acest scop, se pot lua în considerare criteriile prevăzute la art. 77 din Legea nr. 286/2009 privind Codul Penal.",
+   "inForce": null,
+   "before": "(3) Instrumentele de evaluare și gestionare a riscurilor prevăzute la alin.(1) sunt elaborate având în vedere cumulul și interacțiunea factorilor de vulnerabilitate care pot afecta persoanele victime ale violenței, astfel încât evaluarea riscului să reflecte situația concretă a fiecărei victime. În acest scop, se iau în considerare, după caz, criterii precum rasă, naționalitate, etnie, limbă, religie, gen, origine socială, situație economică, opinie ori apartenență politică, orientare sexuală, apartenență la o categorie defavorizată, vârstă, dizabilitate, boală cronică necontagioasă sau infecție HIV/SIDA.",
+   "after": "(3) Instrumentele de evaluare și gestionare a riscurilor prevăzute la alin.(1) sunt elaborate având în vedere cumulul și interacțiunea factorilor de vulnerabilitate care pot afecta persoanele victime ale violenței, astfel încât evaluarea riscului să reflecte situația concretă a fiecărei victime. În acest scop, se pot lua în considerare criteriile prevăzute la art. 77 din Legea nr. 286/2009 privind Codul Penal.",
+   "motivation": "Amendament de modificare a criteriilor care se vor lua în considerare la evaluarea și gestionarea riscurilor"
   },
   {
    "nr": "38",
+   "report": "rp042.pdf",
    "article": "art. 5 alin. (1)",
    "status": "admis",
    "authors": [
@@ -892,7 +1128,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -901,13 +1137,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -920,11 +1156,32 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Elimină sintagma „în cuplu” din enumerarea contextelor vizate de temele școlare privind etica relațiilor non-violente.",
-   "quote": "teme privind egalitatea de gen, formele de violență împotriva femeilor, etica relațiilor non-violente în familie, în comunități și în societate."
+   "byGroup": null,
+   "summary": "Elimină sintagma „în cuplu” din temele școlare privind etica relațiilor non-violente.",
+   "quote": "etica relațiilor non-violente în familie, în comunități și în societate.",
+   "inForce": null,
+   "before": "(1) În scopul prevenirii fenomenului violenței împotriva femeilor, Ministerul Educației și Cercetării include în temele privind nediscriminarea din cadrul programelor școlare aferente disciplinelor din trunchiul comun, și teme privind egalitatea de gen, formele de violență împotriva femeilor, etica relațiilor non-violente în cuplu, în familie, în comunități și în societate.",
+   "after": "(1) În scopul prevenirii fenomenului violenței împotriva femeilor, Ministerul Educației și Cercetării include în temele privind nediscriminarea din cadrul programelor școlare aferente disciplinelor din trunchiul comun, și teme privind egalitatea de gen, formele de violență împotriva femeilor, etica relațiilor non-violente în familie, în comunități și în societate.",
+   "motivation": "Amendament de modificare a alineatului 1 prin eliminarea sintagmei ”în cuplu” pentru armonizarea cu legislația actuală, această sintagmă fiind improprie stilului normativ"
+  },
+  {
+   "nr": "41",
+   "report": "rp042.pdf",
+   "article": "art. 6 (fost art. II)",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Renumerotează art. II al legii ca art. 6, conform avizului Consiliului Legislativ.",
+   "quote": null,
+   "inForce": null,
+   "before": "Art.II.- Legea nr.286/2009 privind Codul penal, publicată în Monitorul Oficial al României, Partea I, nr.510 din 24 iulie 2009, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:",
+   "after": "Art. 6. - Nemodificat",
+   "motivation": "Renumerotat conform avizului CL"
   },
   {
    "nr": "43",
+   "report": "rp042.pdf",
    "article": "art. 6 pct. 2 (art. 189 alin. (1) lit. j) Cod penal)",
    "status": "admis",
    "authors": [
@@ -932,7 +1189,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -941,13 +1198,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -960,11 +1217,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Reformulează circumstanța agravantă a omorului calificat privind săvârșirea faptei ca formă de exercitare a unui control sau dominații asupra partenerului sau fostului partener.",
-   "quote": "asupra unei persoane ca formă de exercitare a unui control sau dominații ca urmare a faptului că acesta se află ori s-a aflat într-o relație de căsătorie cu victima"
+   "byGroup": null,
+   "summary": "Reformulează noua agravantă la omorul calificat în „ca formă de exercitare a unui control sau dominații”.",
+   "quote": "asupra unei persoane ca formă de exercitare a unui control sau dominații ca urmare a faptului că acesta",
+   "inForce": "Art. 189 i) profitând de starea de vădită vulnerabilitate a persoanei vătămate, datorată vârstei, stării de sănătate, infirmității sau altor cauze;",
+   "before": "2. La articolul 189 alineatul (1), după litera i) se introduc trei noi litere, lit.j) - l), cu următorul cuprins: „j) asupra unei persoane cu privire la care făptuitorul exercită sau pretinde că este îndreptățit să exercite control sau dominație ca urmare a faptului că acesta se află ori s-a aflat într-o relație de căsătorie cu victima sau într-o relație asemănătoare aceleia dintre soți, indiferent de durata acesteia sau de împrejurarea că făptuitorul a locuit sau nu cu victima;",
+   "after": "2.La articolul 189 alineatul (1), după litera i) se introduc trei noi litere, lit.j) - l), cu următorul cuprins: „j) asupra unei persoane ca formă de exercitare a unui control sau dominații ca urmare a faptului că acesta se află ori s-a aflat într-o relație de căsătorie cu victima sau într-o relație asemănătoare aceleia dintre soți, indiferent de durata acesteia sau de împrejurarea că făptuitorul a locuit sau nu cu victima;",
+   "motivation": "Amendament de modificare a lit. j) prin înlocuirea sintagmei ”asupra unei persoane cu privire la care făptuitorul exercită sau pretinde că este îndreptățit să exercite control sau dominație” cu sintagma ”asupra unei persoane ca formă de exercitare a unui control sau dominații”"
   },
   {
    "nr": "44",
+   "report": "rp042.pdf",
    "article": "art. 6 pct. 2 (art. 189 alin. (1) lit. k) Cod penal)",
    "status": "admis",
    "authors": [
@@ -972,7 +1235,7 @@
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -981,13 +1244,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -1000,19 +1263,25 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Elimină condiția subiectivă ca împrejurările discriminatorii la omorul calificat să fie considerate de făptuitor drept cauze ale inferiorității victimei.",
-   "quote": "orientare sexuală, opinie ori apartenență politică, avere, origine socială, vârstă, dizabilitate, boală sau infecție HIV/SIDA ori pentru alte împrejurări de același fel."
+   "byGroup": null,
+   "summary": "Elimină condiția subiectivă ca făptuitorul să considere criteriile discriminatorii drept cauze ale inferiorității victimei la omorul calificat.",
+   "quote": "vârstă, dizabilitate, boală sau infecție HIV/SIDA ori pentru alte împrejurări de același fel.",
+   "inForce": null,
+   "before": "k) pentru motive legate de rasă, naționalitate, etnie, limbă, religie, gen, orientare sexuală, opinie ori apartenență politică, avere, origine socială, vârstă, dizabilitate, boală sau infecție HIV/SIDA ori pentru alte împrejurări de același fel, considerate de făptuitor drept cauze ale inferiorității unei persoane în raport cu celelalte;",
+   "after": "k) pentru motive legate de rasă, naționalitate, etnie, limbă, religie, gen, orientare sexuală, opinie ori apartenență politică, avere, origine socială, vârstă, dizabilitate, boală sau infecție HIV/SIDA ori pentru alte împrejurări de același fel.",
+   "motivation": "Amendament de modificare a literei k) prin eliminarea sintagmei ”considerate de făptuitor drept cauze ale inferiorității unei persoane în raport cu celelalte” . Menținerea acesteia determină restrângerea circumstanțelor , de aceea este indicat să rămână doar motivele nu și elementul subiectiv care este percepția făptuitorului privind considerarea lor ca motive de inferioritate."
   },
   {
    "nr": "48",
-   "article": "art. 6 pct. 5 (art. 195 alin. (2) Cod penal)",
+   "report": "rp042.pdf",
+   "article": "art. 6 pct. 5 (art. 195 Cod penal)",
    "status": "admis",
    "authors": [
     {
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -1021,13 +1290,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -1040,19 +1309,25 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Elimină alineatul nou propus la art. 195 din Codul penal, care majora cu o treime limitele pedepsei pentru loviri sau vătămări cauzatoare de moarte în anumite circumstanțe.",
-   "quote": null
+   "byGroup": null,
+   "summary": "Elimină alineatul (2) propus pentru art. 195 Cod penal, care majora cu o treime pedepsele pentru lovirile sau vătămările cauzatoare de moarte.",
+   "quote": "Articolul 195 se modifică și va avea următorul cuprins:",
+   "inForce": "Art. 195: Lovirile sau vătămările cauzatoare de moarte (1) Dacă vreuna dintre faptele prevăzute în art. 193 și art. 194 a avut ca urmare moartea victimei, pedeapsa este închisoarea de la 6 la 12 ani.",
+   "before": "5. Articolul 195 se modifică și va avea următorul cuprins: Lovirile sau vătămările cauzatoare de moarte Art.195.- (1) Dacă vreuna dintre faptele prevăzute la art.193 alin.(1) și (2) și la art.194 alin.(1) și (2) a avut ca urmare moartea victimei, pedeapsa este închisoarea de la 6 la 12 ani (2) Limitele speciale ale pedepsei prevăzute în alin.(1) se majorează cu o treime atunci când: a) victima se află în îngrijirea, ocrotirea, educarea, paza sau tratamentul făptuitorului b) victima este un minor; c)fapta este săvârșită în public d)făptuitorul are asupra sa o armă de foc, un obiect, un dispozitiv, o substanță sau un animal ce pot pune in pericol viața, sănătatea ori integritatea corporală a persoanelor.”",
+   "after": "5. Articolul 195 se modifică și va avea următorul cuprins: Lovirile sau vătămările cauzatoare de moarte (1) Nemodificat (2 ) Se elimina",
+   "motivation": "Se renunță la modificarea propusă prin intrdoducerea alin.2, deoarece ar crește prea mult cuantumul pedepselor"
   },
   {
    "nr": "49",
-   "article": "art. 6 pct. 6 (art. 195^1 alin. (1) Cod penal)",
+   "report": "rp042.pdf",
+   "article": "art. 6 pct. 6 (art. 195¹ Cod penal)",
    "status": "admis",
    "authors": [
     {
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -1061,13 +1336,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -1080,19 +1355,25 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Reformulează varianta agravată de la art. 195^1 alin. (1) din Codul penal pentru a viza faptele săvârșite ca forme de exercitare a controlului sau dominației.",
-   "quote": "Dacă faptele prevăzute la art.193 -195 sunt săvârșite asupra unei persoane ca forme de exercitare a controlului sau dominației"
+   "byGroup": null,
+   "summary": "Reformulează agravanta propusă la art. 195¹ Cod penal în „ca forme de exercitare a controlului sau dominației”.",
+   "quote": "sunt săvârșite asupra unei persoane ca forme de exercitare a controlului sau dominației ca urmare a faptului",
+   "inForce": null,
+   "before": "6.După articolul 195 se introduce un nou articol, Art. 195¹, cu următorul cuprins: Art. 195¹. ”Fapte comise în circumstanțe agravante” (1) Dacă faptele prevăzute la art.193 -195 sunt săvârșite asupra unei persoane cu privire la care făptuitorul exercită sau pretinde că este îndreptățit să exercite control sau dominație ca urmare a faptului că acesta se află ori s-a aflat într-o relație de căsătorie cu victima sau într-o relație asemănătoare aceleia dintre soți, indiferent de durata acesteia sau de împrejurarea că făptuitorul a locuit sau nu cu victima, limitele speciale ale pedepsei prevăzute de lege se majorează cu o pătrime. (2) Dacă faptele prevăzute la art.188 - 191 și art.193 - 195 sunt săvârșite de un făptuitor major în prezența unui minor, limitele speciale ale pedepsei prevăzute de lege se majorează cu o pătrime.”",
+   "after": "6. După articolul 195 se introduce un nou articol, Art. 195¹, cu următorul cuprins: Art. 195¹. ”Fapte comise în circumstanțe agravante” (1) Dacă faptele prevăzute la art.193 -195 sunt săvârșite asupra unei persoane ca forme de exercitare a controlului sau dominației ca urmare a faptului că acesta se află ori s-a aflat într-o relație de căsătorie cu victima sau într-o relație asemănătoare aceleia dintre soți, indiferent de durata acesteia sau de împrejurarea că făptuitorul a locuit sau nu cu victima, limitele speciale ale pedepsei prevăzute de lege se majorează cu o pătrime. (2) nemodificat",
+   "motivation": "Amendament de modificare prin eliminarea sintagmei ” persoane cu privire la care făptuitorul exercită sau pretinde că este îndreptățit să exercite control sau dominație”"
   },
   {
    "nr": "51",
-   "article": "art. 6 pct. 8 (art. 208^1 Cod penal)",
+   "report": "rp042.pdf",
+   "article": "art. 6 pct. 8 (art. 208¹ Cod penal)",
    "status": "admis",
    "authors": [
     {
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -1101,13 +1382,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -1120,19 +1401,40 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Elimină introducerea art. 208^1 în Codul penal, care prevedea circumstanțe agravante pentru infracțiunile contra libertății persoanei, precum amenințarea și hărțuirea.",
-   "quote": null
+   "byGroup": null,
+   "summary": "Elimină introducerea noului art. 208¹ Cod penal privind circumstanțele agravante pentru infracțiuni precum amenințarea și hărțuirea.",
+   "quote": null,
+   "inForce": "Art. 208: Hărțuirea (1) Fapta celui care, în mod repetat, urmărește, fără drept sau fără un interes legitim, o persoană ori îi supraveghează locuința, locul de muncă sau alte locuri frecventate de către aceasta, cauzându-i astfel o stare de temere, se pedepsește cu închisoare de la 3 la 6 luni sau cu amendă. (2) Efectuarea de apeluri telefonice sau comunicări prin mijloace de transmitere la distanță, care, prin frecvență sau conținut, îi cauzează o temere unei persoane, se pedepsește cu închisoare de la o lună la 3 luni sau cu amendă, dacă fapta nu constituie o infracțiune mai gravă. (2¹) Dacă faptele prevăzute la alin. (1) și (2) sunt săvârșite asupra unui minor, limitele speciale ale pedepsei se majorează cu o treime.",
+   "before": "8. După articolul 208 se introduce un nou articol, art.208¹, cu următorul cuprins: \"Art. 208¹. Fapte comise în circumstanțe agravante (1) Dacă faptele prevăzute în prezentul capitol sunt săvârșite asupra unei persoane cu privire la care făptuitorul exercită sau pretinde că este îndreptățit să exercite control sau dominație ca urmare a faptului că acesta se află ori s-a aflat într-o relație de căsătorie cu victima sau într-o relație asemănătoare aceleia dintre soți, indiferent de durata acesteia sau de împrejurarea că făptuitorul a locuit sau nu cu victima, limitele speciale ale pedepsei prevăzute de lege se majorează cu o pătrime. (2)În cazul faptelor prevăzute la art. 206 și art. 208, săvârșite în condițiile prevăzute la alin. (1), acțiunea penală poate fi pusă în mișcare și din oficiu.\"",
+   "after": "8. Se elimina",
+   "motivation": "Se renunță la modificarea propusă prin introducerea acestui nou articol 208¹ Cod Penal, deoarece ar crește prea mult cuantumul pedepselor"
+  },
+  {
+   "nr": "52",
+   "report": "rp042.pdf",
+   "article": "art. 6 pct. 8 (fost pct. 9, art. 218 alin. (5) Cod penal)",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Renumerotează punctul 9 ca punctul 8, fără modificarea conținutului privind abrogarea art. 218 alin. (5) Cod penal.",
+   "quote": null,
+   "inForce": "Art.218 (5) Acțiunea penală pentru fapta prevăzută în alin. (1) și alin. (2) se pune în mișcare la plângerea prealabilă a persoanei vătămate.",
+   "before": "9. La articolul 218, alineatul (5) se abrogă.",
+   "after": "8. Renumerotare Nemodificat",
+   "motivation": null
   },
   {
    "nr": "53",
-   "article": "art. 6 pct. 9 (art. 219 alin. (5) Cod penal)",
+   "report": "rp042.pdf",
+   "article": "art. 6 pct. 9 (fost pct. 10, art. 219 alin. (5) Cod penal)",
    "status": "admis",
    "authors": [
     {
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -1141,13 +1443,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -1160,19 +1462,28 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Prevede că împăcarea părților înlătură răspunderea penală pentru forma de bază a agresiunii sexuale, în loc de abrogarea alin. (5) al art. 219 din Codul penal.",
-   "quote": "Pentru fapta prevăzută în alin. (1) împăcarea înlătură răspunderea penală."
+   "byGroup": null,
+   "summary": "În loc de abrogarea art. 219 alin. (5) Cod penal, prevede că împăcarea înlătură răspunderea penală pentru agresiunea sexuală în forma de bază.",
+   "quote": "Pentru fapta prevăzută în alin. (1) împăcarea înlătură răspunderea penală.",
+   "inForce": "Art.219 (5) Acțiunea penală pentru fapta prevăzută în alin. (1) se pune în mișcare la plângerea prealabilă a persoanei vătămate",
+   "before": "10. La articolul 219, alineatul (5) se abrogă.",
+   "after": null,
+   "motivation": "Renumerotare și se introduce posibilitatea împăcării părților",
+   "unverified": [
+    "after"
+   ]
   },
   {
    "nr": "54",
-   "article": "art. 6 pct. 11 (art. 224 alin. (2^1) și (2^2) Cod penal)",
+   "report": "rp042.pdf",
+   "article": "art. 6 pct. 11 (art. 224 alin. (2¹) și (2²) Cod penal)",
    "status": "admis",
    "authors": [
     {
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -1181,13 +1492,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -1200,19 +1511,93 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Elimină introducerea variantei agravate a violării de domiciliu prin încălcarea ordinului de protecție, pentru a evita suprapunerea cu Legea nr. 217/2003.",
-   "quote": null
+   "byGroup": null,
+   "summary": "Elimină agravanta de violare de domiciliu prin încălcarea unui ordin de protecție, deoarece se suprapune cu Legea nr. 217/2003.",
+   "quote": null,
+   "inForce": null,
+   "before": null,
+   "after": "SE ELIMINĂ",
+   "motivation": null,
+   "unverified": [
+    "before",
+    "motivation"
+   ]
+  },
+  {
+   "nr": "55",
+   "report": "rp042.pdf",
+   "article": "art. 6 pct. 10 (fost pct. 12, art. 224 alin. (3) Cod penal)",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Renumerotează punctul 12 ca punctul 10, fără a modifica textul art. 224 alin. (3) Cod penal.",
+   "quote": null,
+   "inForce": null,
+   "before": null,
+   "after": "10.Nemodificat",
+   "motivation": "Renumerotare",
+   "unverified": [
+    "before"
+   ]
+  },
+  {
+   "nr": "56",
+   "report": "rp042.pdf",
+   "article": "art. 7 (fost art. III)",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "Alina Gorghiu",
+     "role": "deputat",
+     "party": null,
+     "site": "Gorghiu Alina-Ştefania"
+    },
+    {
+     "name": "Silvia Mihalcea",
+     "role": "deputat",
+     "party": null,
+     "site": "Mihalcea Silvia-Claudia"
+    },
+    {
+     "name": "Csep Eva-Andrea",
+     "role": "deputat",
+     "party": null,
+     "site": "Csép Éva-Andrea"
+    },
+    {
+     "name": "Păun Ana-Cynthia-Ioana",
+     "role": "senator",
+     "party": null,
+     "site": "Păun Ana-Cynthia-Ioana"
+    },
+    {
+     "name": "Victoria Stoiciu",
+     "role": "senator",
+     "party": null,
+     "site": "Stoiciu Victoria"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Renumerotează art. III al legii ca art. 7, conform avizului Consiliului Legislativ.",
+   "quote": null,
+   "inForce": null,
+   "before": "Art.III.- Legea nr.135/2010 privind Codul de procedură penală, publicată în Monitorul Oficial al României, Partea I, nr.486 din 15 iulie 2010, cu modificările și completările ulterioare, se completează după cum urmează:",
+   "after": "Art. 7. –",
+   "motivation": "Schimbat numerotare conform avizului CL"
   },
   {
    "nr": "57",
-   "article": "art. 7 pct. 1 (art. 294^2 alin. (4) Cod de procedură penală)",
+   "report": "rp042.pdf",
+   "article": "art. 7 pct. 1 (art. 294² alin. (4) Cod procedură penală)",
    "status": "admis",
    "authors": [
     {
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -1221,13 +1606,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -1240,19 +1625,117 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Elimină mențiunea privind păstrarea în condiții de confidențialitate a procesului-verbal prin care se consemnează înștiințarea autorității de ocrotire.",
-   "quote": "Modul de îndeplinire a obligației de înștiințare a autorității competente, prevăzute la alin. (1) - (3), se consemnează într-un proces-verbal."
+   "byGroup": null,
+   "summary": "Elimină precizarea că procesul-verbal de înștiințare a autorității competente privind persoanele aflate în ocrotirea victimei se păstrează confidențial.",
+   "quote": "Modul de îndeplinire a obligației de înștiințare a autorității competente, prevăzute la alin. (1) - (3), se consemnează într-un proces-verbal.",
+   "inForce": null,
+   "before": "1. După articolul 294¹ se introduce un articol nou, art. 294², cu următorul cuprins: \"Art. 294² - Luarea măsurilor de ocrotire în caz de deces al unei victime ca urmare a unei fapte prevăzute de legea penală (1) Când sesizarea are ca obiect o infracțiune în urma căreia victima a decedat sau este inconștientă, organul de urmărire penală verifică dacă în ocrotirea acesteia se află un minor, o persoană căreia i s-a instituit tutela sau curatela, tutela specială sau consilierea judiciară ori o persoană care, din cauza vârstei, bolii sau altei cauze, are nevoie de ajutor și înștiințează autoritatea competentă, de îndată, în vederea luării măsurilor legale de ocrotire pentru persoana respectivă. (2) În cazul victimei neidentificate prevederile alin. (1) se aplică de îndată după stabilirea identității acesteia. (3) Obligația de înștiințare a autorității competente revine organului de urmărire penală și în alte cazuri în care, din pricina stării de sănătate fizică sau psihică a victimei, aceasta nu își poate îndeplini obligațiile față de persoanele prevăzute la alin. (1). (4) Modul de îndeplinire a obligației de înștiințare a autorității competente, prevăzute la alin. (1) - (3), se consemnează într-un proces-verbal, care se păstrează în condiții de confidențialitate.",
+   "after": "1. nemodificat (1)nemodificat (2)nemodificat (3)nemodificat (4)Modul de îndeplinire a obligației de înștiințare a autorității competente, prevăzute la alin. (1) - (3), se consemnează într-un proces-verbal.",
+   "motivation": "Amendament de modificare prin eliminarea sintagma ”care se păstrează în condiții de confidențialitate”, nefiind necesară această precizare"
+  },
+  {
+   "nr": "59",
+   "report": "rp042.pdf",
+   "article": "art. 8 alin. (1) (fost art. IV alin. (1))",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "Alina Gorghiu",
+     "role": "deputat",
+     "party": null,
+     "site": "Gorghiu Alina-Ştefania"
+    },
+    {
+     "name": "Silvia Mihalcea",
+     "role": "deputat",
+     "party": null,
+     "site": "Mihalcea Silvia-Claudia"
+    },
+    {
+     "name": "Csep Eva-Andrea",
+     "role": "deputat",
+     "party": null,
+     "site": "Csép Éva-Andrea"
+    },
+    {
+     "name": "Păun Ana-Cynthia-Ioana",
+     "role": "senator",
+     "party": null,
+     "site": "Păun Ana-Cynthia-Ioana"
+    },
+    {
+     "name": "Victoria Stoiciu",
+     "role": "senator",
+     "party": null,
+     "site": "Stoiciu Victoria"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Renumerotează art. IV ca art. 8 și elimină trimiterea la „art. I” după eliminarea acestuia.",
+   "quote": "Colectarea datelor prevăzută la art.2 se va pune în aplicare la data de 1 octombrie 2026.",
+   "inForce": null,
+   "before": "Art.IV.- (1) Colectarea datelor prevăzută la art.2 al art.I se va pune în aplicare la data de 1 octombrie 2026.",
+   "after": "Art. 8. Colectarea datelor prevăzută la art.2 se va pune în aplicare la data de 1 octombrie 2026.",
+   "motivation": "Corelare legislativă- renumerotare"
+  },
+  {
+   "nr": "60",
+   "report": "rp042.pdf",
+   "article": "art. 8 alin. (2) (fost art. IV alin. (2))",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "Alina Gorghiu",
+     "role": "deputat",
+     "party": null,
+     "site": "Gorghiu Alina-Ştefania"
+    },
+    {
+     "name": "Silvia Mihalcea",
+     "role": "deputat",
+     "party": null,
+     "site": "Mihalcea Silvia-Claudia"
+    },
+    {
+     "name": "Csep Eva-Andrea",
+     "role": "deputat",
+     "party": null,
+     "site": "Csép Éva-Andrea"
+    },
+    {
+     "name": "Păun Ana-Cynthia-Ioana",
+     "role": "senator",
+     "party": null,
+     "site": "Păun Ana-Cynthia-Ioana"
+    },
+    {
+     "name": "Victoria Stoiciu",
+     "role": "senator",
+     "party": null,
+     "site": "Stoiciu Victoria"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Elimină trimiterea „al art. I” din termenul de aprobare a ordinului comun privind metodologia de culegere a datelor.",
+   "quote": "Ministerul Afacerilor Interne, Parchetul de pe lângă Înalta Curte de Casație și Justiție și Ministerul Justiției vor aproba ordinul comun",
+   "inForce": null,
+   "before": "(2) În termen de 90 de zile de la data intrării în vigoare a prezentei legi, Ministerul Afacerilor Interne, Parchetul de pe lângă Înalta Curte de Casație și Justiție și Ministerul Justiției vor aproba ordinul comun prevăzut la alin.(3) al art.2 al art.I.",
+   "after": "(2) În termen de 90 de zile de la data intrării în vigoare a prezentei legi, Ministerul Afacerilor Interne, Parchetul de pe lângă Înalta Curte de Casație și Justiție și Ministerul Justiției vor aproba ordinul comun prevăzut la alin.(3) al art.2",
+   "motivation": "Corelare legislativă- renumerotare"
   },
   {
    "nr": "61",
-   "article": "art. 8 alin. (3)",
+   "report": "rp042.pdf",
+   "article": "art. 8 alin. (3) (fost art. IV alin. (3))",
    "status": "admis",
    "authors": [
     {
      "name": "Alina Gorghiu",
      "role": "deputat",
      "party": null,
-     "site": "Gorghiu Alina-Ștefania"
+     "site": "Gorghiu Alina-Ştefania"
     },
     {
      "name": "Silvia Mihalcea",
@@ -1261,13 +1744,13 @@
      "site": "Mihalcea Silvia-Claudia"
     },
     {
-     "name": "Csep Eva- Andrea",
+     "name": "Csep Eva-Andrea",
      "role": "deputat",
      "party": null,
      "site": "Csép Éva-Andrea"
     },
     {
-     "name": "Păun Ana- Cynthia- Ioana",
+     "name": "Păun Ana-Cynthia-Ioana",
      "role": "senator",
      "party": null,
      "site": "Păun Ana-Cynthia-Ioana"
@@ -1280,25 +1763,36 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Mărește de la 90 de zile la 6 luni termenul pentru aprobarea instrumentelor de evaluare a riscului și înlocuiește ordinul comun cu hotărârea de Guvern.",
-   "quote": "În termen de 6 luni de la data intrării în vigoare a prezentei legi, se aprobă Hotărârea de Guvern prevăzuta la alin.(2) al art.4 ."
+   "byGroup": null,
+   "summary": "Extinde termenul de la 90 de zile la 6 luni și corelează aprobarea instrumentelor de evaluare a riscului prin hotărâre de Guvern.",
+   "quote": "În termen de 6 luni de la data intrării în vigoare a prezentei legi, se aprobă Hotărârea de Guvern",
+   "inForce": null,
+   "before": "(3) În termen de 90 de zile de la data intrării în vigoare a prezentei legi, Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale și Ministerul Afacerilor Interne vor aproba ordinul comun prevăzut la alin.(2) al art.4 al art.I.",
+   "after": "(3) În termen de 6 luni de la data intrării în vigoare a prezentei legi, se aprobă Hotărârea de Guvern prevăzuta la alin.(2) al art.4 .",
+   "motivation": null,
+   "unverified": [
+    "motivation"
+   ]
   }
  ],
  "matches": [
   {
    "change": "1:0",
+   "report": "rp042.pdf",
    "amendments": [
     "18"
    ]
   },
   {
    "change": "1:1",
+   "report": "rp042.pdf",
    "amendments": [
     "14"
    ]
   },
   {
    "change": "1:2",
+   "report": "rp042.pdf",
    "amendments": [
     "8",
     "9"
@@ -1306,18 +1800,21 @@
   },
   {
    "change": "1:3",
+   "report": "rp042.pdf",
    "amendments": [
     "11"
    ]
   },
   {
    "change": "1:4",
+   "report": "rp042.pdf",
    "amendments": [
     "9"
    ]
   },
   {
    "change": "1:5",
+   "report": "rp042.pdf",
    "amendments": [
     "19",
     "22"

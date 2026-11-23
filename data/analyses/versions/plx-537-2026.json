@@ -1,7 +1,12 @@
 {
   "slug": "plx-537-2026",
   "billId": "Pl-x 537/2026",
-  "updatedAt": "2026-10-30T09:45:22.185Z",
+  "updatedAt": "2026-11-23T09:05:26.127Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -16,7 +21,9 @@
         "agy": 2,
         "claude": 2,
         "codex": 2
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "camera",
@@ -31,7 +38,9 @@
         "agy": 2,
         "claude": 3,
         "codex": 2
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     }
   ],
   "changes": [
@@ -39,23 +48,23 @@
       "from": "initiator",
       "to": "camera",
       "direction": "la_fel",
-      "headline": "Textul legii e identic: noul model de Evaluare Națională rămâne amânat până în 2030",
-      "summary": "Articolul unic are același conținut inițial și acum. S-a schimbat doar formula de adoptare: acum proiectul e considerat adoptat tacit de Cameră, în forma inițială. Noul examen se aplică tot de la generația din clasa a V-a în 2026-2027.",
+      "headline": "Fără modificări de fond: Camera a adoptat tacit textul inițiatorului, cu amânarea noii admiteri la 2030",
+      "summary": "Textul articolului unic a rămas identic. Diferă doar formula de adoptare: proiectul se consideră adoptat tacit de Camera Deputaților, iar semnătura aparține altui președinte. Noua admitere la liceu rămâne amânată pentru generația din clasa a V-a în 2026-2027.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Nu spune expres ce reguli se aplică generațiilor intrate în clasa a V-a 2023-2026",
+            "text": "Nu se precizează ce reguli au generațiile intrate în clasa a V-a în 2023-2026",
             "major": true,
             "article": "art. unic"
           },
           {
-            "text": "Elevii repetenți pot da în 2030 examen după alt sistem decât colegii",
+            "text": "Elevii repetenți pot ajunge în aceeași sesiune cu colegi evaluați după alt sistem",
             "major": true,
             "article": "art. unic"
           },
           {
-            "text": "Nu impune ministerului niciun termen pentru aprobarea noilor metodologii",
+            "text": "Niciun termen pentru Minister de aprobare a metodologiilor noului model de examen",
             "major": false,
             "article": "art. unic"
           },
@@ -65,24 +74,24 @@
             "article": "art. unic"
           },
           {
-            "text": "Risc de o nouă cerere de amânare în 2029-2030",
+            "text": "Risc de nouă cerere de amânare în 2029-2030, invocând lipsa consultărilor",
             "major": false,
             "article": "art. unic"
           }
         ],
         "good": [
           {
-            "text": "Elevii din clasa a VIII-a nu trec la un model de examen încă nedefinit",
+            "text": "Elevii actuali nu trec brusc la un model de examen încă nedefinit",
             "major": true,
             "article": "art. unic"
           },
           {
-            "text": "Fără impact bugetar direct și fără obligații noi pentru cetățeni sau IMM-uri",
+            "text": "Fără impact bugetar direct și fără obligații pentru cetățeni sau firme",
             "major": false,
             "article": "art. unic"
           },
           {
-            "text": "Poate evita costurile unei implementări făcute în grabă",
+            "text": "Evită costurile unei implementări făcute în grabă a noului model",
             "major": false,
             "article": "art. unic"
           }
@@ -90,13 +99,13 @@
         "partial": false
       },
       "diff": {
-        "added": 4,
+        "added": 3,
         "removed": 3,
-        "same": 0
+        "same": 0.25
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:42:41.740Z"
+      "schema": 4,
+      "updatedAt": "2026-11-23T09:05:26.127Z"
     }
   ]
 }

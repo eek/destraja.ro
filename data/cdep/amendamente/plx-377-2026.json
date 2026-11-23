@@ -1,26 +1,48 @@
 {
  "slug": "plx-377-2026",
  "billId": "PL-x 377/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-11-12T09:58:23.425Z",
- "inputHash": "19bda9940550",
+ "updatedAt": "2026-11-23T09:25:50.823Z",
+ "inputHash": "8fc3b0f4e9ea",
  "reports": [
   "https://www.cdep.ro/comisii/agricultura/pdf/2026/rp377.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp377.pdf",
+   "sha256": "e0f09745b5453ca5",
+   "parts": 1,
+   "rows": 5,
+   "unchanged": 4,
+   "admise": 1,
+   "respinse": 0,
+   "truncated": false
+  }
+ ],
+ "completeness": "complete",
+ "problems": [],
  "counts": {
   "admise": 1,
-  "respinse": 0
+  "respinse": 0,
+  "anuntate": 5,
+  "nemodificate": 4
  },
  "amendments": [
   {
    "nr": "3",
+   "report": "rp377.pdf",
    "article": "art. I pct. 1 (art. 9 alin. (1²))",
    "status": "admis",
    "authors": [],
    "byCommittee": "Comisia pentru mediu, Comisia pentru agricultură",
-   "summary": "Stabilește că termenul de 30 de zile pentru notificarea primăriilor curge de la încheierea contractului sau a actelor adiționale și precizează mijloacele de transmitere.",
+   "byGroup": null,
+   "summary": "Clarifică data de la care curge termenul de 30 de zile (contract și acte adiționale) și stabilește că notificarea UAT se face prin recomandată, e-mail sau la registratură.",
    "quote": "Notificarea se transmite prin scrisoare recomandată cu aviz de primire, prin poștă electronică sau prin depunere directă la registratura unității administrativ-teritoriale.",
+   "inForce": "Art. 9 (1) La încredințarea gestiunii, administratorul încheie cu gestionarul un contract de gestionare pentru o perioadă de 16 ani. (1¹) Prevederile alin. (1) se aplică și gestionarilor cu contracte de gestionare în derulare, cu acordul acestora. (2) Gestionarul este obligat să plătească tariful de gestionare anual, în două tranșe egale, prima până la data de 30 noiembrie a anului în curs și a doua până la data de 15 mai a anului următor.",
+   "before": "1.La articolul 9, după alineatul (1¹) se introduce un nou alineat, alin.(1²), cu următorul cuprins: (1²) Gestionarul este obligat ca, în termen de cel mult 30 de zile, să înștiințeze unitățile administrativ-teritoriale pe raza cărora este situat fondul cinegetic, prin orice mijloc de comunicare, despre încheierea contractului prevăzut la alin.(l), precum și despre actele adiționale ale acestuia.”",
+   "after": "Nemodificat\n(1²) - Gestionarul fondului cinegetic are obligația ca, în termen de cel mult 30 de zile de la data încheierii contractului de gestionare prevăzut la alin.(1), precum și de la data fiecărui act adițional la acesta, să notifice unitățile administrativ-teritoriale pe raza cărora este situat fondul cinegetic. Notificarea se transmite prin scrisoare recomandată cu aviz de primire, prin poștă electronică sau prin depunere directă la registratura unității administrativ-teritoriale.",
+   "motivation": "conform cu pct.7 din avizul CL.",
    "effects": [
     "mai_bine",
     "neutru"
@@ -30,18 +52,21 @@
  "matches": [
   {
    "change": "1:0",
+   "report": "rp377.pdf",
    "amendments": [
     "3"
    ]
   },
   {
    "change": "1:1",
+   "report": "rp377.pdf",
    "amendments": [
     "3"
    ]
   },
   {
    "change": "1:2",
+   "report": "rp377.pdf",
    "amendments": [
     "3"
    ]

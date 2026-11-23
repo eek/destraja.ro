@@ -1,10 +1,12 @@
 {
   "slug": "b651-2026",
   "billId": "B651/2026",
-  "checkedAt": null,
+  "checkedAt": "2026-11-23T11:30:09.727Z",
   "indexCheckedAt": "2026-11-20T09:48:45.860Z",
   "models": {
-    "index": "ok"
+    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 9m49s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 9m49s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"e",
+    "claude": "ok",
+    "codex": "ok"
   },
   "articles": [
     {
@@ -14,9 +16,10 @@
       "domain": "alba24.ro",
       "publishedAt": "2026-11-20",
       "foundBy": [
-        "index"
+        "index",
+        "claude"
       ],
-      "quote": "O propunere legislativă înregistrată la Senat ar permite instanțelor să țină cont de fapte de violență economică în litigiile patrimoniale dintre soți sau foști soți și la stabilirea culpei în divorț.",
+      "quote": "Proiectul nu prevede însă împărțirea automată a bunurilor și nici despăgubiri acordate automat.",
       "match": "quote",
       "firstSeenAt": "2026-11-20",
       "decision": {
@@ -50,7 +53,34 @@
           }
         }
       }
+    },
+    {
+      "url": "https://www.gandul.ro/politica/violenta-economica-divort-21069237",
+      "title": "Violența economică ar putea deveni motiv de divorț, conform unei inițiative din Parlament. „Controlul financiar abuziv asupra unui soț”, factor de vinovăție în împărțirea bunurilor",
+      "outlet": "Gândul",
+      "domain": "gandul.ro",
+      "publishedAt": "2026-11-19",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Violența economică ar putea conta la divorț și la împărțirea bunurilor între soți, potrivit unei propuneri legislative depuse în Parlament.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
     }
   ],
-  "pending": []
+  "pending": [
+    {
+      "url": "https://lumeapolitica.ro/actualitate/violenta-economica-motiv-divort-parlament",
+      "title": "Violența economică, motiv luat în calcul la divorț în Parlament",
+      "outlet": "Lumea Politică",
+      "domain": "lumeapolitica.ro",
+      "publishedAt": "2026-11-19",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Inițiativa vizează modificarea Codului civil și a Codului de procedură civilă.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    }
+  ]
 }

@@ -1,0 +1,51 @@
+EXPUNERE DE MOTIVE
+
+I. PREAMBUL
+
+Propunerea legislativă are ca obiect reglementarea corectă și completă a Programului național "Vouchere culturale pentru elevi", denumit în continuare „Programul" propus în baza prevederilor art. 83 alin. (15) din Legea învățământului preuniversitar nr. 198/2023, cu modificările și completările ulterioare, denumită în continuare „„Legea nr. 198/2023". Astfel, deși Programul fusese anunțat de Ministerul Educației ca reprezentând o măsură efectivă în vederea „susținerii dobândirii competenței de sensibilizare și exprimare culturală", norma preconizată este departe de a avea un astfel de impact, în contextul unei reglementări ambigue și incomplete, prin golirea de conținut a acesteia raportat la măsurile tranzitorii de punere în aplicare a Programului. În acest sens, deși art. 83 alin. (15) din Legea nr. 198/2023 reglementează Programul în sensul acordării tuturor elevilor a sumei de 250 lei prin intermediul unor carduri reutilizabile, sumă care este la dispoziția beneficiarului pentru servicii și evenimente culturale precum concerte, intrări în muzee, cărți sau excursii organizate cu tematici culturale sau istorice, normele tranzitorii edictate în cadrul art. 248 alin. (34) din Legea nr. 198/2023, limitează drastic accesul elevilor în cadrul Programului, prevăzând inclusiv posibilitatea Ministerului ca ulterior primilor 3 ani de derulare a Programului, să decidă asupra oportunității și continuării acestui program. Ca atare, se pot desprinde următoarele concluzii referitoare la reglementarea Programului: fie inițiatorii proiectului de lege au plecat de la premisa că o astfel de măsură ar fi apreciată de opinia publică, deși acest Program, în fapt, ar urma să se desfășoare pe parcursul a trei ani școlari, doar pentru un număr extrem de redus de elevi, fie au socotit fără temei, că Ministerul Educației ar dispune de resursele necesare în vederea organizării Programului pentru toți beneficiarii primari ai sistemului de învățământ.
+
+https://universul.net/ligia-deca-programele-nationale-o-carte-pentru-fiecare-sau-vouchere-culturale-pentru-elevi-pre vazute-in-noua-lege-a-invatamantului-preuniversitar/
+
+Din această perspectivă, o atare manieră de reglementare nu numai că abdică de la viziunea declarată a Ministerului Educației, însă subminează legitimitatea Legii nr. 198/2023, care, deși la nivel declarativ prevedea implementarea Programului, în drept, acesta s-ar adresa unui număr extrem de limitat de beneficiari.
+
+II. DIAGNOZĂ
+
+Articolul 83 din Legea nr. 198/2023 stabilește, printre altele, următoarele: (1) reglementarea Programului și (ii) acordarea elevilor de tarife reduse cu minimum 75% pentru accesul la muzee, concerte, spectacole de teatru, operă, film, la alte manifestări culturale și sportive organizate de instituții publice. În ceea ce privește cele două, Programul, acesta are rolul declarat de a sprijini dezvoltarea competențelor de bază ale elevilor prin facilitarea accesului acestora la cultura națională și internațională. Cu toate acestea, articolul 248 alin. (34) din Legea nr. 198/2023 prevede următoarele:
+
+Prevederile art. 83 alin. (15) se implementează progresiv începând cu anul școlar 2024-2025, dupa cum urmează: a) | în anul ‚școlar 2024-2025, beneficiarii Programului național "Vouchere culturale pentru elevi" sunt elevii din clasa a XII-a a anului școlar curent; b) | în anul școlar 2025-2026, beneficiarii Programului Național "Vouchere culturale pentru elevi sunt elevii din clasele a IX-a și a XII-a a anului școlar curent; c) | în anul școlar 2026-2027, beneficiarii Programului Național Vouchere culturale pentru elevii sunt elevii din clasele a V-a, a IX-a și a XII-a a anului școlar curent; d) | până la finalul anului școlar 2026-2027, în baza unei analize cu privire la impactul programului național, Ministerul Educației decide asupra oportunității continuării și dezvoltării programului începând cu anul școlar 2028-2029.
+
+Or, se poate observa faptul că, în drept, Programul este în mare parte inaplicabil în contextul în care, pe parcursul următorilor 3 ani școlari, beneficiarii vor fi reprezentați exclusiv de elevii din clasa a XII-a (în primul an), de elevii din clasa a IX-a și a XII-a (în cel de-al doilea an) și de elevii din clasa a V-a, a IX-a și a XII-a (în cel de-al treilea an).
+
+Or, în anul 2022, în învățământul primar și gimnazial erau înscriși 2.934.064 de elevi, iar în îavățământul liceal și profesional 691.515 de elevi'. Astfel, în optica Legiuitorului, Programul ar fi trebuit să aibă peste 3.600.000 elevi. În fapt, raportat la prevederile art. 248 alin. (34), Programul se va aplica:
+
+2 Date obținute de la Institutul Național de Statistică http://statistici.insse.ro:8077/tempo-online/#/pages/tables/insse-table
+
+\- în anul școlar 2024-2025 - pentru elevii din clasele a XII-a. - în anul școlar 2025-2026 - pentru elevii din clasele a IX-a, a XII-a. - în anul școlar 2026-2027 - pentru elevii din clasele a V-a, a IX-a, a XTI-a.
+
+Mai mult, Ministerul Educației ar fi abilitat ca în anul școlar 2026-2027 să evalueze și să analizeze oportunitatea continuării Programului. În acest sens, se remarcă astfel caracterul temporar al Programului, precum și abilitarea, prin Legea nr. 198/2023, a Ministerului Educației de a decide dacă acest Program va continua sau nu. Apreciem că rațiunea Programului a fost cea de a asigura voucherele culturale tuturor elevilor, pe perioadă nedeterminată, Legiuitorul primar fiind singurul competent să se pronunțe cu privire la modificarea, completarea sau, după caz, abrogarea Programului, având în vedere faptul că acest Program este înființat și organizat prin însăși Legea nr. 198/2023. Mai mult, nu înțelegem de ce preșcolarii nu pot fi beneficiari ai acestui Program, în contextul în care inclusiv aceștia, prin îndrumarea părinților sau a reprezentanților legali, ar putea participa la evenimente culturale corespunzătoare vârstei acestora. Această rațiune se menține inclusiv în ceea ce privește acordarea reducerii de minimum 75% la achiziționarea biletelor la muzee, concerte, spectacole de teatru etc.
+
+Precizăm faptul că în terminologia utilizată la nivelul Legii nr. 198/2023, preșcolarii sunt o categorie distinctă a beneficiarilor primari ai educației, care nu pot fi subsumați categoriei elevilor, în contextul diferențelor majore care caracterizează nivelurile de învățământ în care aceștia sunt înmatriculați.
+
+III. PROGNOZĂ
+
+Ne propunem, așadar, să modificăm prevederile art. 83, respectiv ale art. 248 din Legea nr. 198/2023, astfel: (i) extinderea Programului inclusiv către preșcolari; (ii) extinderea reducerii de 75% la achiziționarea biletelor la spectacole de teatru, operă, muzee etc. și în favoarea preșcolarilor; (iii) aplicarea etapizată a Programului, în sensul de a cuprinde, în trei ani școlari, toți beneficiarii primari din România, după cum urmează: a) în anul școlar 2025-2026, beneficiarii Programului sunt preșcolarii și elevii înmatriculați în nivelul primar, precum și elevii clasei a XII-a; b) în anul școlar 2026-2027, beneficiarii Programului sunt preșcolarii și elevii înmatriculați în nivelurile de învățământ primar și gimnazial, precum și elevii clasei a XII-a; c) în anul școlar 2027-2028, beneficiarii Programului preșcolarii și elevii înmatriculați în nivelurile de învățământ primar, gimnazial și liceal;
+
+(iv) Ministerul Educației, în calitate de autoritate publică centrală de specialitate, va avea exclusiv atribuția de a evalua anual impactul Programului și de a publica rezultatele analizei pe site-ul propriu, împreună cu propuneri sau recomandări în vederea eficientizării și dezvoltării programului.
+
+Ca atare, prin prezenta propunere legislativă, ținând cont de necesitatea aplicării treptate a Programului, ne dorim să creăm premisele ca toți preșcolarii și elevii să beneficieze de vouchere culturale, în următorii trei ani școlari.
+
+TV. IMPACTUL BUGETAR
+
+Raportat la datele statistice amintite, furnizate de INS (nota de subsol 2), și ținând cont de • valoarea de 250 RON a unui voucher cultural, impactul bugetar necesar implementării prezentei propuneri legislative pentru anul 2025 este de aproximativ 505.000.000 lei ( 520.000 preșcolari x 250 lei + aproximativ 1.500.000 de elevi în învățământul primar x 250 lei).
+
+V. CONCLUZII
+
+Legitimitatea Legii nr. 198/2023 stă în capacitatea autorităților publice de a implementa toate acele măsuri sau facilități agreate și promise în favoarea beneficiarilor primari, în contextul în care o reformă reală presupune aplicarea efectivă a măsurilor asumate. Este nepermis ca politicile publice asumate prin acest act normativ să devină inaplicabile prin intermediul unor norme tranzitorii care le golesc de conținut și care decredibilizează întreg cadrul normativ.
+
+Așadar, va supunem spre dezbatere și adoptare prezenta propunere legislativă.
+
+Inițiatori, Senator | DARĂU Ambrozie-Jninen Deputat MIFTODE Marius Andrei Deputat NEAGU Denisa Elena 2 Senaton PALADTE STETAT Semoter | ADINA SANIUTTi DINIČĂ SINIA-MONICA SENATOR
+
+Lista susținătorilor propunerii legislative
+
+Lege pentru modificarea și completarea Legii învățământului preuniversitar nr. 198/2023 Nr. | DEPUTAT/SENATOR | GRUP PARLAMENTAR | SEMNĂTURA Diana Stoice | USR TERENTE EUGEN | USK BO TIFZ MIHAI - CĂTĂLIN | USR

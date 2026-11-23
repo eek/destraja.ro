@@ -1,0 +1,202 @@
+# EXPUNERE DE MOTIVE
+
+Secțiunea 1 Titlul proiectului de act normativ
+
+LEGE pentru aprobarea Ordonanței de urgență a Guvernului pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.7/2024 privind aprobarea schemei de ajutor de stat „Creditul fermierului”, în contextul crizei provocate de agresiunea Rusiei împotriva Ucrainei, precum și pentru modificarea art. 12 alin. (1) din Legea nr. 218/2005 privind stimularea absorbției fondurilor alocate României pentru agricultură, dezvoltare rurală, pescuit și afaceri maritime, gestionate de Ministerul Agriculturii și Dezvoltării Rurale, prin instrumente financiare de garantare și creditare, precum și pentru susținerea obiectivelor naționale de politică agricolă și a Ordonanței de urgență a Guvernului nr. 84/2023 privind instituirea unui mecanism de consultare și reacție coordonată în contextul implementării sistemului de autorizare la export introdus de Ucraina pentru produsele agricole
+
+# Secțiunea a 2-a Motivul emiterii actului normativ
+
+## 2.1. Sursa actului normativ
+
+Actul normativ a fost elaborat de Ministerul Agriculturii și Dezvoltării Rurale luând în considerare necesitatea de a menține ciclul agricol în funcțiune și de a asigura menținerea activităților economice și a locurilor de muncă în sectorul agricol, având în vedere că pierderile de producție suferite de producătorii agricoli în anul 2023/2024, îi pot determina pe aceștia să renunțe la activitățile în domeniu agricol, aspect care ar influența negativ atât siguranța alimentară cât și economia internă a țării, sectorul agricol contribuind la PIB cu aproape 10 %.
+
+Prezentul proiect de act normativ are ca scop sprijinirea fermierilor afectați de seceta pedologică, prin facilitarea accesului la credite pentru capitalul de lucru și pentru acoperirea datoriilor aferente creditelor restante aflate în strânsă legătură cu capitalul de lucru.
+
+De asemenea, întrucât pierderea producției a fost generată de seceta pedologică, care a condus la imposibilitatea totală sau parțială de recoltare a culturilor/plantațiilor anului 2023/2024, raportat la faptul că producătorii agricoli se confruntă cu o lipsă de lichidități care afectează economia, sunt necesare măsuri de sprijin financiar și pentru această categorie de beneficiari, respectiv persoanele care desfășoară activități în domeniul agriculturii primare și au obținut Procese-verbale de constatare și evaluare a pagubelor la culturile agricole pentru anul 2024 stabilite de comisiile de constatare și evaluare a pagubelor la culturile agricole, din care rezultă că media gradului de calamitare a culturilor agricole înscrise în procesele verbale de constatare este de minim 50%.
+
+Luând în considerare sezonalitatea activității agricole și domeniul vital pe care îl reprezintă agricultura pentru economie și populație, este necesar și oportun să se adopte măsuri legislative și în scopul susținerii producătorilor agricoli din domeniul producției vegetale și zootehnice pentru a rambursa ratele la credite și pentru acoperirea datoriilor aferente creditelor restante contractate anterior pentru capital de lucru-precum și pentru a facilita un volum mai mare de finanțare cu cerințe mai reduse în materie de garanții reale, accesul la finanțare pentru portofolii mai riscante generate de situația specifică a sectorului agricol, care să permită un climat economic favorabil stabilității și dezvoltării producției agricole și zootehnice primare.
+
+Totodată, actul normativ se impune a fi promovat având în vedere insuficienta reglementare în domeniul ajutorului de stat pentru fermierii afectați de seceta pedologică din anul agricol 2023/2024.
+
+Mai mult, întrucât capitalul de lucru este în strânsă legătură cu activitatea curentă, dacă beneficiarii nu pot să mai ramburseze ratele la utilaje, să plătească furnizorii de semințe, fertilizați, combustibil și alte inputuri necesare, sau alte datorii ce decurg din activitatea agricolă, există un risc semnificativ ca operațiunile agricole să fie serios afectate și să nu mai existe un suport pentru activități ulterioare.
+
+Actul normativ respectă Cadrul temporar de criză pentru masuri de ajutor de stat de sprijinire a economiei ca urmare a agresiunii Rusiei împotriva Ucrainei 2022/C/ 131/1/01.
+
+## 2.2. Descrierea situației actuale
+
+În data de 23 martie 2022, Comisia Europeană a adoptat Cadrul Temporar pentru măsuri de ajutor de stat de sprijinire a economiei ca urmare a invaziei Rusiei împotriva Ucrainei, denumit în continuare Cadrul Temporar, modificat la 20 iulie 2022 prin Comunicarea CE C(2022) 5432 și la 28 octombrie 2022 2022 prin Comunicarea CE C(2022) 7945 care cuprinde, printre altele, măsuri de ajutor de stat similare celor adoptate pentru criza provocată de pandemia de COVID-19, respectiv ajutor de stat sub forma garanțiilor și creditelor cu dobândă finanțată de la bugetul de stat care vor permite accesul la lichiditate companiilor afectate direct sau indirect de efectele invaziei, inclusiv cele generate de sancțiunile impuse Rusiei de către Uniunea Europeană și partenerii săi internaționali, termenul maxim permis de Cadrul Temporar pentru acordarea ajutoarelor de stat în baza acestuia fiind 31 decembrie 2023.
+
+În data de 21.11.2023 Comisia Europeană a adoptat Comunicarea privind modificarea cadrului temporar de criză pentru măsurile de ajutor de stat de sprijinire a economiei ca urmare agresiunii Rusiei împotriva Ucrainei - Comunicarea Comisiei C/2023/1188. Amendarea Cadrului Temporar are în vedere în principal prelungirea aplicabilității secțiunii 2.1 până la 30 iunie 2024 și majorarea valorilor maxime ale ajutoarelor de stat prevăzute la secțiunea 2.1, respectiv majorarea de la 250.000 euro la 280.000 euro per întreprindere, pentru întreprinderile din domeniul producției primare de produse agricole.
+
+In baza acestei Comunicări a fost aprobată Ordonanța de urgență a Guvernului nr.7/2024 privind aprobarea schemei de ajutor de stat „Creditul fermierului”, în contextul crizei provocate de agresiunea Rusiei împotriva Ucrainei, precum și pentru modificarea art. 12 alin. (1) din Legea nr. 218/2005 privind stimularea absorbției fondurilor alocate României pentru agricultură, dezvoltare rurală, pescuit și afaceri maritime, gestionate de Ministerul Agriculturii și Dezvoltării Rurale, prin instrumente financiare de garantare și creditare, precum și pentru susținerea obiectivelor naționale de politică agricolă.
+
+Prin intermediul Fondului de Garantare a Creditului Rural se derulează schema de ajutor de stat „Creditul Fermierului” prin care beneficiarii care își desfășoară activitatea doar in cadrul agriculturii primare beneficiază de un grant care acoperă componenta de dobânda reprezentând partea de ROBOR la 3 luni pe perioada creditului dar nu mai mult de 60 de luni si fără a depăși plafonul maxim de 280.000 euro/beneficiar pentru toate ajutoarele de stat acordate in temeiul Cadrului Temporar de criză pentru măsuri de ajutor de stat de sprijinire a economiei ca urmare a agresiunii Rusiei împotriva Ucrainei.
+
+Orice sume primite prin alte scheme de ajutor de stat finanțate de la bugetul de stat pe secțiunea 2.1 – Cuantumuri limitate ale ajutoarelor din Cadrul temporar Ucraina se deduc din pragul maxim de 280.000 euro/beneficiar, care se poate acorda în cadrul schemei.
+
+Grantul (constituit din partea de dobânda reprezentând ROBOR la 3 luni) se stabilește prin Acordul de finanțare încheiat între Fond, instituția de credit si beneficiar iar plata grantului se efectuează lunar pana la data de 31 decembrie 2030 inclusiv.
+
+Beneficiari pot fi operatori economici care își desfășoară activitatea în sectorul producției agricole primare definite prin codurile: CAEN 011 - Cultivarea plantelor nepermanente; CAEN 012 - Cultivarea plantelor din culturi permanente; CAEN 013 - Cultivarea plantelor pentru înmulțire; CAEN 014 - Creșterea animalelor și CAEN 015 - Activități în ferme mixte (cultură vegetală combinată cu creșterea animalelor), indiferent de mărimea acestora, constituiți astfel: conform Legii societăților nr. 31/1990, republicată, cu modificările și completările ulterioare; asociații agricole și societăți agricole, conform Legii privind societățile agricole și alte forme de asociere în agricultură nr. 36/1991, cu modificările și completările ulterioare, Legii privind organizarea și funcționarea cooperației nr. 1/2005, republicată, cu modificările ulterioare, și Legii cooperației agricole nr. 566/2004, cu modificările și completările ulterioare; persoane fizice autorizate, întreprinderi individuale și familiale, conform Ordonanței de urgență a Guvernului nr. 44/2008 privind desfășurarea activităților economice de către persoanele fizice autorizate, întreprinderile individuale și întreprinderile familiale, aprobată cu modificări și completări prin Legea nr. 182/2016, cu modificările și completările ulterioare; asociații de fermieri constituite conform Ordonanței Guvernului nr. 26/2000 cu privire la asociații și fundații, aprobată cu modificări și completări prin Legea nr. 246/2005, cu modificările și completările ulterioare.
+
+În data de 2 mai 2024, Comisia Europeană a adoptat modificarea Cadrului temporar de criză pentru măsuri de ajutor de stat de sprijinire a economiei ca urmare a agresiunii Rusiei împotriva Ucrainei, prin care prelungește până la data de 31 decembrie 2024 posibilitatea statelor membre de a acorda ajutoare de stat sub forma granturilor suportate de la bugetul național pentru beneficiarii din sectorul producției agricole primare.
+
+Prin Ordonanța de Urgență a Guvernului nr. 74/2024 pentru modificarea unor acte normative în domeniul agriculturii, în contextul crizei provocate de agresiunea Rusiei împotriva Ucrainei a fost prelungită perioada de acordare a ajutorului de stat a schemei de ajutor de stat „Creditul Fermierului” pană la 31.12.2024 si perioada de plată pana la 31.12.2030.
+
+Având în vedere pierderile de producție suferite de producătorii agricoli urmare a conflictului armat din Ucraina, precum si a secetei severe din vara anului 2024, aceștia se află în imposibilitatea achitării ratelor de credit contractate anterior pentru capital de lucru.
+
+De asemenea, având în vedere că războiul de agresiune neprovocat și nejustificat declanșat de Rusia împotriva Ucrainei, începând cu 24 februarie 2022, a'avut un impact negativ profund asupra capacității Ucrainei de a face schimburi comerciale cu restul lumii și că operaționalizarea în România a culoarelor de solidaritate cu Ucraina a permis, pe de
+
+| o parte, tranzitarea produselor agricole pe territoriul României cu destinația comerț intra-UE sau export în state terțe, dar în același timp, a creat premisele pentru descărcarea unor cantități importante de produse agricole și procesate pe territoriul României, datorită faptului că preturile au fost convenabile pentru cumpărători, prin Ordonanța de urgență a Guvernului nr. 84/2023 privind instituirea unui mecanism de consultare și reacție coordonată în contextul implementării sistemului de autorizare la export introdus de Ucraina pentru produsele agricole, cu modificările și completările ulterioare, au fost instituite măsuri temporare de instituire a unui mecanism de consultare și reacție coordonată în contextul implementării sistemului de autorizare la export introdus de Ucraina pentru produsele agricole, pentru a atenua repercusiunile negative imediate în sectorul producției primare și al procesării, pentru a atenua dezechilibrele economice create și pentru a asigura menținerea activităților economice și a locurilor de muncă. |
+| --- |
+| Potrivit datelor statistice publicate de INS, datorită prețurilor mici ale unor produse importate din Ucraina, cum ar fi ouă și carne pasăre, operatorii economici din România au efectuat importuri masive, în detrimentul produselor locale, astfel: |
+| a) cantitatea de ouă de păsări cu codul NC 0407 21, importată, în anul 2022 a fost de 88,6 tone față de 0 tone în anul 2021, ajungând la 855,86 tone în anul 2023 reprezentând o creștere de 866% față de 2022, iar în intervalul ianuarie –iunie 2024 s-au înregistrat importuri de 436,15 tone față de 316.50 tone în aceeași perioadă a anului 2023, reprezentând o creștere de 38%; |
+| b) cantitatea de carne și organe comestibile, proaspete, refrigerate sau congelate de pasări, codul NC 0207, importată în anul 2022 a fost de 1116,19 tone față de 1041,96 tone în anul 2021, ajungând la 2977,86 tone în anul 2023 reprezentând o creștere de 186% față de 2021, iar în intervalul ianuarie–iunie 2024 s-au înregistrat importuri de 3385,68 tone față de 1481,44 tone în aceeași perioadă a anului 2023, reprezentând o creștere de 129%. |
+| Ținând cont de faptul că cele prezentate anterior, sunt condiții pentru ca importul de ouă de păsări, proaspete, în coajă, de la găini din specia Gallus domesticus cu codul NC 0407 2100, precum și de carne și organe comestibile, proaspete, refrigerate sau congelate de pasări, cu codul NC 0207 să poată fi realizat exclusiv pe baza unui acord în condițiile reglementate de Ordonanța de urgență a Guvernului nr. 84/2023, cu modificările și completările ulterioare, până la finalul anului 2024, se impune adoptarea în regim de urgență a unui act normativ care să reglementeze aceste aspecte. |
+| Apreciem că nepromovarea în regim de urgență a prezentului act normativ, poate avea următoarele consecințe negative: |
+| a) riscul major ca o parte importantă a fermierilor și procesatorilor afectați să nu își poată achita obligațiile contractuale către furnizori, leasing-uri, salarii, credite la termenele scadente, să se supraîndatoreze și să nu mai poată continua activitatea generând o reacție în lanț cu consecințe imediate în ce privește stabilitatea pieței produselor agricole, creșteri galopante de preturi, periclitarea capacităților naționale de producție și prelucrare a materiilor prime alimentare, iar pe termen mediu și lung compromiterea gravă și irreversibilă a siguranței și securității alimentare a populației României pe fondul unui dezechilibru grav al balanței comerciale agricole și alimentare; |
+| b) reducerea efectivelor de pasări de carne și găini ouătoare, precum și închiderea fabricilor procesatoare; |
+
+c) fluxul de ouă și carne de pasăre din Ucraina, importate pe territoriul României va cauza pierderi în rândul fermierilor și procesatorilor, care au deja stocuri a căror valoare este mai mare decât prețurile produselor importate și, prin urmare, nu vor putea fi vândute, crescând cheltuielile cu depozitarea;
+
+d) scăderea prețului la ouă și carnea de pasăre oferit de procesatori producătorilor, în condițiile intrării pe piață a unor cantități mari din aceste produse cu origine din Ucraina, în urma operațiunilor de import.
+
+În lipsa adoptării măsurilor propuse în regim de urgență, producătorii agricoli din sectorul zootehnic și vegetal nu vor putea continua activitatea pentru a asigura necesarul de hrană populației, fiind necesar ca statul să ia urgent măsuri pentru a atenua repercusiunile negative imediate, pentru a atenua dezechilibrele economice create și pentru a asigura menținerea activităților economice și a locurilor de muncă.
+
+## 2.3. Schimbări preconizate
+
+Prezentul act normativ propune modificarea schemei de ajutor de stat Creditul Fermierului în sensul în care din creditul non-revolving contractat în cadrul programului se pot utiliza sume inclusiv pentru rambursarea de rate datorate pentru alte credite/ linii de credit/ finanțări tip leasing contractate de beneficiarii schemei de ajutor de stat), numai dacă destinația acestor finanțări este în strânsă legătură cu activitatea desfășurată de beneficiar în sectorul producției agricole, eligibili fiind doar beneficiarii care prezintă Procese-verbale de constatare și evaluare a pagubelor la culturile agricole pentru anul 2024 stabilite de comisiile de constatare și evaluare a pagubelor la culturile agricole, din care rezultă că media gradului de calamitare a culturilor agricole înscrise în procesele verbale de constatare este de minim 50%, inclusiv în cazul în care aceștia sunt încadrați în categoria D si E în baza de date a Centralei Riscului de Credit.
+
+De asemenea bugetul schemei de ajutor de stat se majorează de la 1.461,5 milioane lei, la maximum 1.861,5 milioane lei, respectiv cu 400 milioane lei reprezentând ajutor de stat sub forma de garanții ce nu conduce la impact suplimentar asupra creditelor aprobate în bugetul Ministerului Agriculturii și Dezvoltării Rurale pe anul 2024, întrucât sumele sunt puse la dispoziție de Ministerul Agriculturii și Dezvoltării Rurale conform prevederilor Ordonanței de Urgență a Guvernului nr. 43/2013 privind unele măsuri pentru dezvoltarea și facilitarea accesului la finanțare al fermierilor, al beneficiarilor PNDR 2014-2020, POPAM 2014-2020, precum și Planului Strategic PAC 2023-2027, pentru dezvoltarea afacerilor în domeniul producției vegetale, zootehnice și acvaculturii, cu modificările și completările ulterioare. Bugetul ajutorului de stat sub forma de grant nu se majorează și se implementează numai în limita sumelor disponibile în soldul contului de disponibil simbol 50.89 Disponibil din „Fondul pentru creditare și garantare a creditelor”, precum și a prevederilor bugetare anuale aprobate cu această destinație în bugetul Ministerului Agriculturii și Dezvoltării Rurale, la capitolul 83.01 "Agricultură, silvicultură, piscicultură și vânătoare", titlul VII "Alte transferuri" cod 55.
+
+Soluția propusă pentru bugetarea schemei de ajutor de stat pentru anul 2024 nu generează impact bugetar suplimentar, având în vedere că suma existență în soldul Contului de disponibil la 01.09.2024 este de 450,3 milioane lei, sumă care acoperă cheltuielile schemei de ajutor de stat pe anul 2024 cât și comisionul de administrare pentru întreaga perioadă de implementare a schemei. Prin implementarea schemei de ajutor de stat se estimează majorarea numărului de beneficiari ai Schemei de ajutor de stat „Creditul fermierului" cu maximum 2.000 beneficiari (de la 5.500 beneficiari la maximum 7.500 beneficiari).
+
+De asemenea, Ordonanța de urgență a Guvernului nr. 7/2024 se propune a se completa cu reglementări prin care se creează temeiul legal primar în baza căruia în cadrul schemei de ajutor de stat "Creditul Fermierului" să se acorde beneficiarilor eligibili și un ajutor de stat sub forma de garanție de până la 100% din valoarea finanțării, pentru creditele non-revolving astfel cum sunt definite la art. 3 lit. b). Garanțiile sunt acordate de către Fondul de Garantare a Creditului Rural IFN SA din sumele puse la dispoziție de Ministerul Agriculturii si Dezvoltării Rurale conform prevederilor Ordonanței de urgenta a Guvernului nr. 43/2013 privind unele măsuri pentru dezvoltarea și facilitarea accesului la finanțare al fermierilor, al beneficiarilor PNDR 2014-2020, POPAM 2014-2020, precum și Planului Strategic PAC 2023-2027, pentru dezvoltarea afacerilor în domeniul producției vegetale, zootehnice și acvaculturii, cu modificările si completările ulterioare.
+
+Costul aferente ajutorului sub formă de garanție acordată de către Fondul de Garantare a Creditului Rural IFN SA cuprinde prima de garantare, face parte din ajutorul de stat sub formă de grant și respectă condițiile suplimentare prevăzute la punctul 67 litera (i) din Comunicarea Comisiei privind Cadrul temporar Ucraina cu încadrarea în pragul maxim de 280.000 euro/beneficiar. Prima de garantare reprezintă sumă cuvenită administratorului schemei de ajutor de stat pentru remunerarea activității de analiză, acordare, monitorizare și administrare a garanțiilor, al cărui nivel este de 0,5% pe an aplicat la valoarea/soldul garanției și se suportă de către Ministerul Agriculturii și Dezvoltării Rurale în limita sumelor disponibile în soldul contului de disponibil simbol 50.89 - Disponibil din "Fondul pentru creditare și garantare a creditelor", iar după epuizarea acestora, în limita prevederilor bugetare anuale aprobate cu această destinație în bugetul Ministerului Agriculturii și Dezvoltării Rurale, la capitolul 83.01 "Agricultură, silvicultură, piscicultură și vânătoare", titlul VII "Alte transferuri" cod 55."
+
+Ordinul ministrului agriculturii și dezvoltării rurale, privind aprobarea procedurii de acordare și plată a ajutoarelor de stat în cadrul schemei de ajutor de stat se va modifica în termen de 30 de zile de la data intrării în vigoare a prezentei ordonanțe de urgență, în sensul completării cu prevederi referitoare la procedura de acordare și plata a garanțiilor, documentele necesare solicitanților pentru a obține ajutorul de stat sub formă de garanție, precum și modalitatea de punere în aplicare a dispozițiilor , precum și modalitatea de punere în aplicare a dispozițiilor privind acordarea granturilor și garanțiilor beneficiarilor care dețin Procese-verbale de constatare și evaluare a pagubelor la culturile agricole pentru anul 2024 stabilite de comisiile de constatare și evaluare a pagubelor la culturile agricole, afectarea culturilor depășind 50% din suprafața cultivată.
+
+De asemenea, pentru gestionarea consecințelor în plan economic și social a situației determinată de posibile importuri de cantități semnificative de ouă și carne de pasăre, prezentul proiect de ordonanță de urgență reglementează modificarea și se completarea Ordonanței de urgență a Guvernului nr. 84/2023 privind instituirea unui mecanism de consultare și reacție coordonată în contextul implementării sistemului de autorizare la export introdus de Ucraina pentru produsele agricole, cu modificările și completările ulterioare, astfel:
+
+\- introducerea produselor agricole: ouă de păsări, proaspete, în coajă, de la găini din specia Gallus domesticus, codul NC 0407 21 00 și carne și organe comestibile, proaspete, refrigerate sau congelate de pasări, codul NC 0207, printre produsele agricole care pot face obiectul importului din Ucraina;
+
+\- introducerea categoriilor de operatori economici care pot efectua importurile de produse mai sus menționate, care desfășoară activități în următoarele sectoare economice: 1052 - Fabricarea înghețatei; 1013 - Fabricarea produselor din carne (inclusiv din carne de pasăre);
+
+\-modificarea corespunzătoare a anexei nr. 1, în sensul introducerii codurilor CAEN prevăzute de actul normativ.
+
+2.4. Alte informații\*) –
+
+## Secțiunea a 3-a
+
+## Impactul socioeconomic
+
+| 3.1. Descrierea generală a beneficiilor și costurilor estimate ca urmare a intrării în vigoare a actului normativ |
+| --- |
+| Beneficiile estimate prin intrarea în vigoare și aplicarea măsurilor cuprinse în prezentul proiect de act normativ au în vedere reducerea sau eliminarea consecințelor negative generate de seceta pedologică, lipsa producției determinând imposibilitatea desfășurării activităților specifice sectoarelor agricole, acoperirea datoriilor aferente creditelor restante contractate anterior pentru capital de lucru și finanțarea capitalului de lucru al fermierilor conducând la susținerea activităților agricole, a cultivării suprafețelor arabile și a asigurării de hrană din producția internă pentru populație, precum și eliminarea efectelor negative produse în rândul crescătorilor de păsări de ouă și carne. |
+| 3.2. Impactul social Menținerea în activitate a IMM-urilor din domeniul agriculturii și implicit a locurilor de muncă furnizate de acestea pe perioada în care se manifestă efectele crizei generate de conflictul armat din Ucraina și de seceta pedologică. |
+| 3.3. Impactul asupra drepturilor și libertăților fundamentale ale omului Nu este cazul. |
+| 3.4. Impactul macroeconomic Nu este cazul. |
+| 3.4.1. Impactul asupra economiei și asupra principalilor indicatori macroeconomici Nu este cazul. 3.4.2. Impactul asupra mediului concurențial și domeniului ajutoarelor de stat Proiectul de act normativ intră sub incidența prevederilor art. 49 alin. (2) din Ordonanța de urgență a Guvernului nr. 77/2014 privind procedurile naționale în domeniul ajutorului de stat, precum și pentru modificarea și completarea Legii concurenței nr. 21/1996; aprobată cu modificări și completări prin Legea nr. 20/2015, cu modificările și completările ulterioare. |
+
+| Prezenta modificare a Schemei de ajutor de stat va fi notificată la Comisia Europeană, iar ajutorul de stat și garanțiile prevăzute în cadrul Schemei se acordă după obținerea deciziei de aprobare a acesteia de către Comisia Europeană. |
+| --- |
+| 3.5. Impactul asupra mediului de afaceriSusținerea operatorilor economici români din sectoarele de producție primară și industrie procesatoare. |
+| 3.6. Impactul asupra mediului înconjurătorNu este cazul. |
+| 3.7. Evaluarea costurilor și beneficiilor din perspectiva inovării și digitalizăriiNu este cazul. |
+| 3.8. Evaluarea costurilor și beneficiilor din perspectiva dezvoltării durabileNu este cazul. |
+| 3.9. Alte informațiiNu este cazul. |
+
+Secțiunea a 4-a
+
+Impactul financiar asupra bugetului general consolidat atât pe termen scurt, pentru anul curent, cât și pe termen lung (pe 5 ani), inclusiv informații cu privire la cheltuieli și venituri
+
+<table>
+<tbody>
+<tr><td colspan="7">- în mii lei (RON) -</td></tr>
+<tr><td>Indicatori</td><td>Anul curent</td><td colspan="4">Următorii patru ani</td><td>Media pe cinci ani</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+<tr><td>4.1. Modificări ale veniturilor bugetare, plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>a) buget de stat, din acesta:(i) impozit pe profit(ii) impozit pe venit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale(i) impozit pe profit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>c) bugetul asigurărilor sociale de stat:(i) contribuții de asigurări</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>d) alte tipuri de venituri(Se va menționa natura acestora.)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.2. Modificări ale cheltuielilor bugetare, plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>a) buget de stat, din acesta:(i) cheltuieli de personal(ii)bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr><td>b) bugete locale: (i) cheltuieli de personal (ii)bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>c) bugetul asigurărilor sociale de stat: (i) cheltuieli de personal (ii)bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>d) alte tipuri de cheltuieli ( Se va menționa natura acestora.)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.3. Impact financiar, plus/minus, din care: a) buget de stat</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.4. Propuneri pentru acoperirea creșterii cheltuielilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.5. Propuneri pentru a compensa reducerea veniturilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.6. Calcule detaliate privind fundamentarea modificărilor veniturilor și/sau cheltuielilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">4.7. Prezentarea, în cazul proiectelor de acte normative a căror adoptare atrage majorarea cheltuielilor bugetare, a următoarelor documente: Nu este cazul</td></tr>
+<tr><td colspan="7">4.8. Alte informații</td></tr>
+<tr><td colspan="7">Bugetul schemei de ajutor de stat aferent grantului reprezentând Robor la 3 luni și prima de garantare nu se majorează, bugetul inițial în cuantum de 1.461,5 mil.lei asigurând inclusiv sumele necesare plății primei de garantare. De asemenea la data de 1 septembrie soldul contului de disponibil era de 450,3 milioane lei, acesta funcționând în sistem &quot;revolving&quot; fiind alimentat de fondurile de garantare la finalizarea recuperării unor garanții, conform legii. Totodată la nivelul fondurilor de garantare sunt disponibile sume astfel încât să acopere necesarul (plafonul de garantare) aferent prevederilor de la pct. 5 din proiectul de act normativ, sens în care aplicarea prevederilor nu conduce la influențe financiare suplimentare asupra bugetului de stat. De asemenea bugetul schemei de ajutor de stat se majorează de la 1.461,5 milioane lei, la maximum 1.861,5 milioane lei, respectiv cu 400 milioane lei reprezentând ajutor de stat sub forma de garanții, ce nu conduce la impact suplimentar asupra creditelor aprobate în bugetul Ministerului Agriculturii și Dezvoltării Rurale pe anul 2024, întrucât sumele puse la dispoziție de Ministerul Agriculturii si Dezvoltării Rurale conform prevederilor Ordonanței de urgență a Guvernului nr. 43/2013 privind unele măsuri pentru dezvoltarea și facilitarea accesului la finanțare al fermierilor, al beneficiarilor PNDR 2014-2020, POPAM 2014-2020, precum și Planului Strategic PAC 2023-2027, pentru dezvoltarea afacerilor în domeniul producției vegetale, zootehnice și acvaculturii, cu modificările și completările ulterioare, acoperă acest necesar. Pentru perioada 2025-2030 creditele bugetare necesare implementării schemei de ajutor de stat vor fi avute în vedere la elaborarea strategiilor fiscal bugetare pe perioada respectivă. Propunerile privind modificarea și se completarea Ordonanței de urgență a Guvernului nr. 84/2023 privind instituirea unui mecanism de consultare și reactie coordonată în</td></tr>
+</tbody>
+</table>
+
+contextul implementării sistemului de autorizare la export introdus de Ucraina pentru produsele agricole, cu modificările și completările ulterioare, nu au impact financiar.
+
+| 5.1. Măsuri normative necesare pentru aplicarea prevederilor proiectului de act normativ- Modificarea Ordinului ministrului agriculturii și dezvoltării rurale, privind aprobarea procedurii de acordare și plată a ajutoarelor de stat în cadrul schemei de ajutor de stat. |
+| --- |
+| 5.2. Impactul asupra legislației în domeniul achizițiilor publiceNu este cazul. |
+| 5.3. Conformitatea proiectului de act normativ cu legislația UE (în cazul proiectelor ce transpun sau asigură aplicarea unor prevederi de drept UE)Nu este cazul. |
+| 5.3.2. Măsuri normative necesare aplicării actelor legislative UENu este cazul. |
+| 5.4. Hotărâri ale Curții de Justiție a Uniunii EuropeneNu este cazul. |
+| 5.5. Alte acte normative și/sau documente internaționale din care decurg angajamenteNu este cazul. |
+| 5.6. Alte informațiiNu este cazul. |
+
+Secțiunea a 6-a Consultările efectuate în vederea elaborării proiectului de act normativ
+
+| 6.1. Informații privind neaplicarea procedurii de participare la elaborarea actelor normativeNu este cazul. |
+| --- |
+| 6.2. Informații privind procesul de consultare cu organizații neguvernamentale, institute de cercetare și alte organisme implicateProiectul de act normativ se supune dezbaterii în Comisia pentru Dialog Social.Proiectul se supune informării și analizei structurilor associative din sectorul producției și procesării produselor alimentare prin postarea pe site-ul oficial al Ministerului Agriculturii și Dezvoltării Rurale. |
+| 6.3. Informații despre consultările organizate cu autoritățile administrației publice localeNu este cazul. |
+
+6.4. Informații privind puncte de vedere/opinii emise de organisme consultative constituite prin acte normative Nu este cazul
+
+6.5.Informații privind avizarea de către:
+
+a) Consiliul Legislativ Proiectul prezentului act normativ a fost avizat de Consiliul Legislativ prin avizul nr. 1030/2024.
+
+b) Consiliul Economic și Social
+
+c) Consiliul Concurenței
+
+6.6. Alte informații
+
+Nu este cazul
+
+## Secțiunea a 7-a
+
+Activități de informare publică privind elaborarea și implementarea actului normativ
+
+7.1. Informarea societății civile cu privire la elaborarea actului normativ Prezentul act normativ respectă prevederile art. 7 alin. (2) din Legea nr. 52/2003 privind transparența decizională în administrația publică, republicată, cu modificările și completările ulterioare și a fost publicat pe pagina de internet a Ministerului Agriculturii și Dezvoltării Rurale la data de 06.09.2024
+
+7.2. Informarea societății civile cu privire la eventualul impact asupra mediului în urma implementării actului normative, precum și efectele asupra sănătății și securității cetățenilor sau diversității biologice Prezentul act normativ nu se referă la acest subiect.
+
+7.3. Alte informații
+
+Nu au fost identificate.
+
+## Secțiunea a 8-a
+
+Măsuri privind implementarea, monitorizarea și evaluarea proiectului de act normativ
+
+8.1. Măsurile de punere în aplicare a proiectului de act normativ Proiectul de act normativ se implementează de Ministerul Agriculturii și Dezvoltării Rurale prin Fondul de Garantare a Creditului Rural IFN – S.A.
+
+8.2. Alte informații
+
+Nu este cazul.
+
+Față de cele prezentate, a fost elaborat proiectul de Lege privind aprobarea pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.7/2024 privind aprobarea schemei de ajutor de stat „Creditul fermierului”, în contextul crizei provocate de agresiunea Rusiei împotriva Ucrainei, precum și pentru modificarea art. 12 alin. (1) din Legea nr. 218/2005 privind stimularea absorbției fondurilor alocate României pentru agricultură, dezvoltare rurală, pescuit și afaceri maritime, gestionate de Ministerul Agriculturii și Dezvoltării Rurale, prin instrumente financiare de garantare și creditare, precum și pentru susținerea obiectivelor naționale de politică agricolă și a Ordonanței de urgență a Guvernului nr. 84/2023 privind instituirea unui mecanism de consultare și reacție coordonată în contextul implementării sistemului de autorizare la export introdus de Ucraina pentru produsele agricole, pe care îl supunem Parlamentului spre adoptare.
+
+PRIM-MINISTRU
+
+ION-MARCEL CIOLACU

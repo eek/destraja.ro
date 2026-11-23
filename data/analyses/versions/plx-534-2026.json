@@ -1,8 +1,30 @@
 {
   "slug": "plx-534-2026",
   "billId": "PL-x 534/2026",
-  "updatedAt": "2026-10-30T09:44:00.848Z",
+  "updatedAt": "2026-11-23T08:56:15.310Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L465FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Regulile de plată pentru banii de chirie, utilități și mutare ai adulților cu dizabilități ieșiți din centre trec din hotărâre de guvern în lege",
+      "summaryTlDr": "Scopul e bun și în mare parte tehnic: procedura pentru beneficiul de locuire și cel de tranziție urcă din HG 569/2026 în anexa Legii 7/2023. Textul are însă câteva capcane serioase pentru beneficiari. Indemnizația lunară devine în practică o decontare care cere avansarea banilor, se suspendă dacă facturile nu sunt achitate, iar definiția persoanei în risc este îngustă.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -16,7 +38,9 @@
         "agy": 3,
         "claude": 3,
         "codex": 4
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "camera",
@@ -31,182 +55,445 @@
         "agy": 3,
         "claude": 3,
         "codex": 4
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     }
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
+      "from": "initiator",
+      "to": "senat",
       "direction": "mai_putin_riscant",
-      "headline": "Acum, cei ieșiți din centre primesc 24 de luni costul standard, plătit și retroactiv după 30 iunie 2026",
-      "summary": "Camera a adăugat o finanțare-punte: costul standard al centrului, plătit 24 de luni, inclusiv retroactiv. Cine îl primește nu poate primi beneficiile pentru locuire și tranziție. Puntea nu are termen de încetare, iar regulile de cumul se contrazic.",
+      "headline": "Cei care ies din centre primesc 24 de luni standardul de cost al centrului, plătit și retroactiv",
+      "summary": "Senatul a adăugat bani pentru cei care părăsesc centrele: standardul de cost pe 24 de luni (6 luni la vârstnici), plătit și pentru perioada de după 30 iunie 2026. Rămân însă decontarea ulterioară și suspendarea pentru facturi neplătite.",
       "changes": [
         {
-          "title": "Bani 24 de luni pentru cei ieșiți din centre",
-          "text": "Noul art. IV modifică OUG 90/2025. Cine părăsește un centru rezidențial primește costul standard al centrului din care provine, timp de 24 de luni.",
+          "title": "Standardul de cost al centrului, plătit 24 de luni",
+          "text": "Prin art. IV, cine iese din centru în locuire asistată sau în comunitate, fără beneficiile din L.448/2006, primește 24 de luni standardul de cost al centrului. Vârstnicii admiși în cămin îl primesc 6 luni.",
           "effect": "mai_bine",
           "major": true,
-          "article": "art. IV",
+          "article": "art. IV (art. III din OUG nr. 90/2025)",
           "before": null,
-          "after": "se acordă standardul de cost aferent centrului rezidențial din care provin, pe o perioadă de 24 de luni de la data încetării măsurii de protecție în centrul rezidențial",
+          "after": "se acordă standardul de cost aferent centrului rezidențial din care provin, pe o perioadă de 24 de luni de la încetarea măsurii de protecție în centrul rezidențial.",
           "beforeAbsent": true,
           "afterAbsent": false
         },
         {
-          "title": "Plată retroactivă pentru cei ieșiți după 30 iunie 2026",
-          "text": "Art. V prevede că sumele se plătesc după intrarea în vigoare a legii. Ele acoperă și perioada scursă de la 30 iunie 2026.",
+          "title": "Plată retroactivă pentru ieșirile de după 30 iunie 2026",
+          "text": "Art. V prevede că sumele se plătesc și celor care au părăsit centrele după 30 iunie 2026. Plata acoperă și perioada de dinainte de intrarea în vigoare a legii.",
           "effect": "mai_bine",
           "major": true,
           "article": "art. V",
           "before": null,
-          "after": "pentru persoanele care au părăsit centrele rezidențiale pentru persoane adulte cu dizabilități după data de 30 iunie 2026, se efectuează după intrarea în vigoare a prezentei legi și acoperă inclusiv perioada după data de 30 iunie 2026",
+          "after": "pentru persoanele care au părăsit centrele rezidențiale pentru persoane adulte cu dizabilități după 30 iunie 2026, se efectuează după intrarea în vigoare a prezentei legi și acoperă și perioada după 30 iunie 2026.",
           "beforeAbsent": true,
           "afterAbsent": false
         },
         {
-          "title": "Ori cost standard, ori beneficii, fără termen clar",
-          "text": "Art. IV alin. (5) și art. VI exclud cumulul. Beneficiile se dau doar celor fără cost standard. Puntea durează până la finanțarea prin legea bugetară, fără o dată-limită.",
-          "effect": "mai_rau",
+          "title": "Fără cumul între beneficii și standardul de cost",
+          "text": "Art. VI acordă beneficiul de tranziție și de locuire doar celor care nu primesc sumele din art. III al OUG nr. 90/2025. Formularea este greoaie și poate crea dispute despre cine are dreptul.",
+          "effect": "neutru",
           "major": true,
           "article": "art. VI",
           "before": null,
-          "after": "cu excepția măsurilor de protecție de tip servicii de locuire asistată în comunitate pentru viață independentă și nu beneficiază de sumele prevăzute la art. III din Ordonanța de urgență a Guvernului nr. 90/2025",
+          "after": "cu excepția măsurilor de protecție de tip servicii de locuire asistată în comunitate pentru viață independentă și nu beneficiază de sumele prevăzute la art.III din Ordonanța de urgență a Guvernului nr.90/2025",
           "beforeAbsent": true,
           "afterAbsent": false
         },
         {
-          "title": "Vârstnicii mutați în cămin primesc 6 luni sprijin",
-          "text": "Art. IV alin. (3): vârstnicii cu dizabilități mutați din centru în cămin primesc costul standard 6 luni. Suma se ia în calcul la veniturile lor din cămin.",
+          "title": "Program obligatoriu de pregătire pentru viață independentă",
+          "text": "Art. 4 alin. (1¹) din L.7/2023 cere ca persoana să urmeze un program de pregătire organizat de DGASPC cu cel puțin 12 luni înainte de dezinstituționalizare.",
           "effect": "mai_bine",
           "major": true,
-          "article": "art. IV",
+          "article": "art. 4 alin. (1¹) din L.7/2023",
           "before": null,
-          "after": "beneficiază de standardul de cost aferent centrului rezidențial din care provin, pentru o perioadă de 6 luni de la data încetării măsurii de protecție în centrul rezidențial din care provin",
+          "after": "Cu cel puțin 12 luni înainte de data estimată a dezinstituționalizării, persoana adultă cu dizabilități participă la un program de pregătire pentru viață independentă",
           "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Cererea se poate depune online, prin e-mail sau poștă",
+          "text": "Anexa 1, art. 12 alin. (2) permite acum depunerea cererii personal, prin scrisoare recomandată, fax, e-mail sau online.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "Anexa 1, art. 12 alin. (2)",
+          "before": "de către persoana adultă cu handicap dezinstituționalizată sau aflată în risc de instituționalizare, sau de reprezentantul legal al acesteia, după caz.",
+          "after": "ori de reprezentantul legal al acesteia, după caz, personal, prin scrisoare recomandată cu confirmare de primire, prin fax, prin e-mail sau online.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Termen de 45 de zile pentru metodologia de evaluare",
+          "text": "Art. 4 lit. q) din L.7/2023 obligă ANPDPD să aprobe metodologia de identificare a persoanelor în risc în 45 de zile de la intrarea în vigoare a legii.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 4 lit. q) din L.7/2023",
+          "before": "Persoana aflată în risc de instituționalizare este identificată în baza metodologiei de evaluare a nevoilor individuale de viață în comunitate, aprobată prin ordin al președintelui Autorității Naționale pentru Protecția Drepturilor Persoanelor cu Dizabilități.",
+          "after": "care se aprobă prin ordin al președintelui Autorității Naționale pentru Protecția Drepturilor Persoanelor cu Dizabilități în termen de 45 de zile de la data intrării în vigoare a prezentei legi.",
+          "beforeAbsent": false,
           "afterAbsent": false
         }
       ],
       "remaining": {
         "problems": [
           {
-            "text": "Persoana în risc e definită doar ca fost instituționalizat; familiile rămân excluse",
+            "text": "Indemnizația de un salariu minim devine, de fapt, decontare ulterioară a cheltuielilor",
             "major": true,
-            "article": "art. I pct. 1"
+            "article": "Anexa 1, art. 10 alin. (1), art. 12 alin. (6)"
           },
           {
-            "text": "Art. VI exclude locuirea asistată, contrar anexei care o include pentru persoanele în risc",
+            "text": "Dreptul se suspendă dacă facturile nu sunt plătite: cerc vicios pentru cei fără venit",
             "major": true,
+            "article": "Anexa 1, art. 15 alin. (1) lit. d)-e)"
+          },
+          {
+            "text": "Dreptul încetează după 3 luni consecutive fără facturi de utilități",
+            "major": true,
+            "article": "Anexa 1, art. 17 alin. (1) lit. d)"
+          },
+          {
+            "text": "Persoana în risc e definită ca dezinstituționalizată: exclude pe cei niciodată internați",
+            "major": true,
+            "article": "art. 4 lit. q) din L.7/2023"
+          },
+          {
+            "text": "În criză, beneficiul de tranziție îl pot cere doar cei care nu l-au primit",
+            "major": true,
+            "article": "Anexa 1, art. 11 alin. (3)"
+          },
+          {
+            "text": "Persoanele în risc de instituționalizare primesc doar beneficiul pentru locuire",
+            "major": true,
+            "article": "Anexa 1, art. 2 alin. (2)"
+          },
+          {
+            "text": "Energia termică centralizată lipsește din utilitățile decontate",
+            "major": true,
+            "article": "Anexa 1, art. 10 alin. (2)"
+          },
+          {
+            "text": "Raportul de evaluare trebuie atașat cererii, dar se întocmește după depunerea ei",
+            "major": false,
+            "article": "Anexa 1, art. 12 alin. (1) lit. b), art. 9 alin. (5)"
+          },
+          {
+            "text": "Solicitantului i se cer acte pe care DGASPC le deține deja",
+            "major": false,
+            "article": "Anexa 1, art. 12 alin. (1) lit. d)-f)"
+          },
+          {
+            "text": "Ancheta socială este cerută fără mențiunea „după caz”, deși privește doar persoanele în risc",
+            "major": false,
+            "article": "Anexa 1, art. 12 alin. (1) lit. g)"
+          },
+          {
+            "text": "Terminologia salarială diferă între beneficiul de locuire și cel de tranziție",
+            "major": false,
+            "article": "Anexa 1, art. 10-11"
+          },
+          {
+            "text": "Mutarea în alt județ stinge dreptul și obligă la o cerere nouă",
+            "major": false,
+            "article": "Anexa 1, art. 17 alin. (2)-(4)"
+          },
+          {
+            "text": "Trimitere la art. 1 alin. (2) și (3), care nu există",
+            "major": false,
+            "article": "Anexa 1, art. 5"
+          },
+          {
+            "text": "Lista de documente sare de la lit. h) la lit. j)",
+            "major": false,
+            "article": "Anexa 1, art. 12 alin. (1)"
+          },
+          {
+            "text": "Programul de pregătire de 12 luni poate amâna ieșirea din centre",
+            "major": false,
+            "article": "art. 4 alin. (1¹) din L.7/2023"
+          },
+          {
+            "text": "Raportul dintre beneficii și standardul de cost este formulat confuz",
+            "major": false,
             "article": "art. VI"
-          },
-          {
-            "text": "Cumulul cost standard–beneficii e circular, iar puntea nu are termen de încetare",
-            "major": true,
-            "article": "art. IV"
-          },
-          {
-            "text": "Programul obligatoriu de 12 luni poate amâna ieșirea din centru; nu are finanțare",
-            "major": true,
-            "article": "art. I pct. 2"
-          },
-          {
-            "text": "Nu e clar dacă beneficiul pentru locuire e sumă fixă sau plafon",
-            "major": true,
-            "article": "art. 10 din anexa 1"
-          },
-          {
-            "text": "Energia termică centralizată nu e decontată, deși e utilitate publică",
-            "major": true,
-            "article": "art. 10 din anexa 1"
-          },
-          {
-            "text": "Raportul de evaluare e cerut la depunere, deși se întocmește după cerere",
-            "major": false,
-            "article": "art. 12 din anexa 1"
-          },
-          {
-            "text": "Solicitantul trebuie să aducă acte pe care DGASPC le deține deja",
-            "major": false,
-            "article": "art. 12 din anexa 1"
-          },
-          {
-            "text": "Ancheta socială e cerută fără mențiunea „după caz”",
-            "major": false,
-            "article": "art. 12 din anexa 1"
-          },
-          {
-            "text": "Salariul de referință e numit diferit la cele două beneficii",
-            "major": false,
-            "article": "art. 11 din anexa 1"
           }
         ],
         "good": [
           {
-            "text": "Cost standard 24 de luni pentru persoanele care părăsesc centrele rezidențiale",
+            "text": "Standardul de cost al centrului, plătit 24 de luni după ieșirea din centru",
             "major": true,
-            "article": "art. IV"
+            "article": "art. IV (art. III alin. (1)-(2) din OUG nr. 90/2025)"
           },
           {
-            "text": "Plata acoperă retroactiv perioada de după 30 iunie 2026",
+            "text": "Vârstnicii mutați într-un cămin primesc 6 luni standardul de cost",
+            "major": true,
+            "article": "art. IV (art. III alin. (3) din OUG nr. 90/2025)"
+          },
+          {
+            "text": "Plată retroactivă pentru cei ieșiți din centre după 30 iunie 2026",
             "major": true,
             "article": "art. V"
           },
           {
-            "text": "Vârstnicii mutați în cămin primesc 6 luni costul standard",
+            "text": "Beneficiul pentru locuire se acordă și persoanelor în risc de instituționalizare",
             "major": true,
-            "article": "art. IV"
+            "article": "Anexa 1, art. 2 alin. (2)"
           },
           {
-            "text": "Beneficiul pentru locuire e acordat și persoanelor aflate în risc de instituționalizare",
+            "text": "Program de pregătire pentru viață independentă înainte de dezinstituționalizare",
             "major": true,
-            "article": "art. 2 din anexa 1"
-          },
-          {
-            "text": "Beneficiul de tranziție poate fi cerut în situații de criză în primul an",
-            "major": true,
-            "article": "art. 11 din anexa 1"
-          },
-          {
-            "text": "Procedura trece în lege, iar HG nr. 569/2026 se abrogă",
-            "major": false,
-            "article": "art. III"
+            "article": "art. 4 alin. (1¹) din L.7/2023"
           },
           {
             "text": "Cererea se poate depune personal, prin poștă, fax, e-mail sau online",
             "major": false,
-            "article": "art. 12 din anexa 1"
+            "article": "Anexa 1, art. 12 alin. (2)"
           },
           {
             "text": "O singură cerere pentru ambele beneficii",
             "major": false,
-            "article": "art. 12 din anexa 1"
+            "article": "Anexa 1, art. 12 alin. (3)"
           },
           {
-            "text": "Termene clare: dispoziție în 20 de zile, plată în 5 zile lucrătoare",
+            "text": "Termene clare pentru raport, dispoziție și plată",
             "major": false,
-            "article": "art. 12 din anexa 1"
+            "article": "Anexa 1, art. 9 alin. (5), art. 12 alin. (4)-(5)"
           },
           {
-            "text": "La mutare, dosarul se transferă și plata continuă fără întrerupere",
+            "text": "Cheltuielile se împart pe cotă-parte când nu există contract individual",
             "major": false,
-            "article": "art. 17 din anexa 1"
+            "article": "Anexa 1, art. 10 alin. (3)"
           },
           {
-            "text": "Dispoziția poate fi contestată în contencios în 30 de zile",
+            "text": "Plata se face în contul bancar al persoanei îndreptățite",
             "major": false,
-            "article": "art. 4 din anexa 3"
+            "article": "Anexa 1, art. 13 alin. (4)"
+          },
+          {
+            "text": "Metodologia de evaluare trebuie aprobată în 45 de zile",
+            "major": false,
+            "article": "art. 4 lit. q) din L.7/2023"
+          },
+          {
+            "text": "Dispoziția poate fi atacată în contencios administrativ în 30 de zile",
+            "major": false,
+            "article": "Anexa 3, art. 4"
+          },
+          {
+            "text": "Drepturile din luna decesului pot acoperi cheltuielile rămase",
+            "major": false,
+            "article": "Anexa 1, art. 19"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 105,
-        "removed": 101,
-        "same": 0.19
+        "added": 56,
+        "removed": 41,
+        "same": 0.58
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:42:49.202Z"
+      "schema": 4,
+      "updatedAt": "2026-11-23T08:55:22.610Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "La mutarea în alt județ, beneficiul pentru locuire și de tranziție se plătește fără întrerupere",
+      "summary": "Camera a păstrat aproape tot textul Senatului. A clarificat când se cere beneficiul de tranziție și a garantat plata fără pauză la mutare. Problemele de fond rămân: definiția restrictivă a persoanei în risc, anti-cumulul circular și actele cerute deja deținute de DGASPC.",
+      "changes": [
+        {
+          "title": "Plata continuă când te muți în alt județ",
+          "text": "Anexa 1 art. 17 alin. (4): noua direcție plătește beneficiul de la data încetării dreptului la vechea direcție. Termenul de 10 zile curge de la primirea dosarului.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "Anexa 1, art. 17 alin. (4)",
+          "before": "emite în termen de 10 zile o dispoziție pentru plata beneficiului pentru locuire și/sau a beneficiului de tranziție",
+          "after": "Plata beneficiului se efectuează începând cu data încetării prevăzută la alin. (2).",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Termen clar pentru cererea beneficiului de tranziție",
+          "text": "Anexa 1 art. 11 alin. (2): beneficiul se cere cel mai devreme cu 60 de zile înainte de ieșirea din centru și cel târziu la 12 luni după. Inițial formularea era confuză.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "Anexa 1, art. 11 alin. (2)",
+          "before": "(2) Sumele acordate persoanei adulte cu handicap potrivit prevederilor alin.(1) pot fi solicitate în primele 12 luni de la data încetării furnizării serviciului social rezidentțial și cu cel mult 60 de zile înainte de această dată.",
+          "after": "(2) Sumele acordate persoanei adulte cu handicap potrivit prevederilor alin. (1) pot fi solicitate cu cel mult 60 de zile înainte de data încetării furnizării serviciului social rezidentțial, dar nu mai mult de 12 luni după această dată.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Reprezentantul legal află și el de modificarea sumei",
+          "text": "Anexa 1 art. 16 alin. (2): decizia de modificare a cuantumului se comunică și reprezentantului legal. Se emite pe baza unui referat aprobat.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "Anexa 1, art. 16 alin. (2)",
+          "before": "se comunică persoanei îndreptățite în termen de 5 zile de la emitere.",
+          "after": "se comunică persoanei cu handicap sau reprezentantului legal în termen de 5 zile de la emiterea dispoziției.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Încă un document la dosar, pentru reprezentant",
+          "text": "Anexa 1 art. 12 alin. (1) lit. i): se adaugă, după caz, copia actului de desemnare a reprezentantului legal.",
+          "effect": "neutru",
+          "major": false,
+          "article": "Anexa 1, art. 12 alin. (1) lit. i)",
+          "before": null,
+          "after": "i) documentul de desemnare a reprezentantului legal, după caz, în copie;",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Încetarea dreptului: condiție formulată mai clar",
+          "text": "Anexa 1 art. 17 alin. (1) lit. b): dreptul încetează când persoana nu mai e în situația de la art. 7 „sau” 8, în loc de „și”.",
+          "effect": "neutru",
+          "major": false,
+          "article": "Anexa 1, art. 17 alin. (1) lit. b)",
+          "before": "b) persoana adultă cu handicap nu se mai află într-una din situațiile prevăzute la art.7 și 8 din prezenta procedură, după caz;",
+          "after": "b) persoana adultă cu handicap nu se mai află în una din situațiile prevăzute la art. 7 sau 8 din prezenta procedură, după caz;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Persoana în risc e definită doar ca dezinstituționalizată; adulții din familie par excluși",
+            "major": true,
+            "article": "art. I pct. 1 (art. 4 lit. q) din Legea nr. 7/2023)"
+          },
+          {
+            "text": "Art. VI exclude locuirea asistată, anexa o include la persoanele în risc",
+            "major": true,
+            "article": "art. VI; Anexa 1, art. 2 alin. (2)"
+          },
+          {
+            "text": "Anti-cumul circular între costul standard și beneficii, fără termen de finanțare",
+            "major": true,
+            "article": "art. IV (art. III alin. (2) și (5) din OUG 90/2025); art. VI"
+          },
+          {
+            "text": "Beneficiul pentru locuire: neclar dacă e sumă fixă sau plafon decontat",
+            "major": true,
+            "article": "Anexa 1, art. 10 alin. (1)"
+          },
+          {
+            "text": "Energia termică centralizată lipsește din utilitățile decontate",
+            "major": true,
+            "article": "Anexa 1, art. 10 alin. (2)"
+          },
+          {
+            "text": "Program obligatoriu de 12 luni înainte de ieșire, fără finanțare pentru DGASPC",
+            "major": true,
+            "article": "art. I pct. 2 (art. 4 alin. (2) din Legea nr. 7/2023)"
+          },
+          {
+            "text": "Raportul de evaluare se cere la depunere, deși se face după cerere",
+            "major": false,
+            "article": "Anexa 1, art. 12 alin. (1) lit. b); art. 9 alin. (5)"
+          },
+          {
+            "text": "Se cer acte pe care DGASPC le deține deja (certificat, programe, plan)",
+            "major": false,
+            "article": "Anexa 1, art. 12 alin. (1) lit. d)-f)"
+          },
+          {
+            "text": "Ancheta socială cerută fără „după caz”, deși privește doar persoanele în risc",
+            "major": false,
+            "article": "Anexa 1, art. 12 alin. (1) lit. g)"
+          },
+          {
+            "text": "Terminologie salarială diferită între beneficiul de locuire și cel de tranziție",
+            "major": false,
+            "article": "Anexa 1, art. 10 și 11"
+          },
+          {
+            "text": "Termen legat de o „cerere” inexistentă la transmiterea dosarului după mutare",
+            "major": false,
+            "article": "Anexa 1, art. 17 alin. (3)"
+          },
+          {
+            "text": "Antetul formularului de cerere trimite greșit la „Legea nr. 7/2025”",
+            "major": false,
+            "article": "Anexa nr. 2"
+          }
+        ],
+        "good": [
+          {
+            "text": "Beneficiu pentru locuire și pentru persoanele în risc de instituționalizare",
+            "major": true,
+            "article": "Anexa 1, art. 2 alin. (2)"
+          },
+          {
+            "text": "Plata continuă fără întrerupere la mutarea în alt județ",
+            "major": true,
+            "article": "Anexa 1, art. 17 alin. (4)"
+          },
+          {
+            "text": "Costul standard al centrului se acordă 24 de luni după ieșire",
+            "major": true,
+            "article": "art. IV (art. III alin. (1)-(2) din OUG 90/2025)"
+          },
+          {
+            "text": "Sumele se plătesc și retroactiv, pentru ieșirile după 30 iunie 2026",
+            "major": true,
+            "article": "art. V"
+          },
+          {
+            "text": "Beneficiu de tranziție posibil în situații de criză în primul an",
+            "major": true,
+            "article": "Anexa 1, art. 11 alin. (3)"
+          },
+          {
+            "text": "Facturile lipsă duc la suspendare, nu la pierderea dreptului; plata se reia",
+            "major": true,
+            "article": "Anexa 1, art. 15"
+          },
+          {
+            "text": "Dispoziția poate fi contestată în contencios administrativ în 30 de zile",
+            "major": true,
+            "article": "Anexa nr. 3, art. 4"
+          },
+          {
+            "text": "Cererea se poate depune personal, prin poștă, fax, e-mail sau online",
+            "major": false,
+            "article": "Anexa 1, art. 12 alin. (2)"
+          },
+          {
+            "text": "O singură cerere pentru ambele beneficii",
+            "major": false,
+            "article": "Anexa 1, art. 12 alin. (3)"
+          },
+          {
+            "text": "Fereastră clară pentru cererea beneficiului de tranziție",
+            "major": false,
+            "article": "Anexa 1, art. 11 alin. (2)"
+          },
+          {
+            "text": "Termene ferme pentru dispoziție (20 zile) și plată (5 zile lucrătoare)",
+            "major": false,
+            "article": "Anexa 1, art. 12 alin. (4)-(5)"
+          },
+          {
+            "text": "Cheltuielile din luna decesului pot fi acoperite",
+            "major": false,
+            "article": "Anexa 1, art. 19"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 63,
+        "removed": 61,
+        "same": 0.54
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-23T08:56:15.310Z"
     }
   ]
 }

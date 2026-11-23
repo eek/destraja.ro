@@ -1,8 +1,30 @@
 {
   "slug": "plx-538-2026",
   "billId": "PL-x 538/2026",
-  "updatedAt": "2026-10-30T09:45:55.000Z",
+  "updatedAt": "2026-11-23T09:11:59.802Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L453FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Hidrogenul verde: obligații mai clare pentru benzinării și industrie, fără cote pentru hidrogenul «low-carbon»",
+      "summaryTlDr": "Este o lege tehnică, în mare parte de relaxare și de aliniere la dreptul UE. Renunță la cotele pentru hidrogenul cu emisii reduse, scoate aviația și transportul maritim din calcul, amână obligațiile pentru 2026 și plafonează amenzile. Riscurile reale sunt punctuale: reportarea nelimitată a deficitului, cotele intermediare naționale 2027–2029 și lipsa unei soluții de rezervă dacă baza de date UE nu funcționează.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 5
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -16,7 +38,9 @@
         "agy": 2,
         "claude": 3,
         "codex": 4
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "camera",
@@ -31,21 +55,247 @@
         "agy": 2,
         "claude": 3,
         "codex": 4
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     }
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
-      "direction": "la_fel",
-      "headline": "Camera a păstrat textul Senatului; diferențele vizibile sunt doar de redactare și tehnică legislativă",
-      "summary": "Față de forma adoptată de Senat, forma adoptată de Cameră schimbă, în diferențele disponibile, doar aspecte de formă: spații, liniuțe, ghilimele, trimiteri și denumirea unui regulament UE. Cotele, obligațiile și amenzile rămân aceleași.",
-      "changes": [],
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Plafonul amenzilor pentru furnizori și industrie scade de la 5% la 1% din cifra de afaceri",
+      "summary": "Senatul a redus mult amenzile maxime pentru firmele care nu ating cotele de hidrogen și a adăugat reguli pentru prosumatorii colectivi și pentru contractele pentru diferență. A eliminat însă articolul care includea instalațiile de hidrogen în procedura de autorizare.",
+      "changes": [
+        {
+          "title": "Amenda maximă scade la 1% din cifra de afaceri",
+          "text": "Pentru deficitul de cote, amenda nu mai poate depăși 1% din cifra de afaceri, față de 5% inițial. Plafonul se aplică și consumatorilor industriali, prin trimiterea din art. 11 alin. (3).",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 9 alin. (3)",
+          "before": "Valoarea amenzii nu poate depăși 5% din cifra de afaceri netă realizată în exercițiul financiar anterior.",
+          "after": "Valoarea amenzii nu poate depăși 1% din cifra de afaceri netă realizată în exercițiul financiar anterior.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Firmele fără cifră de afaceri plătesc maximum 100.000 lei",
+          "text": "Pentru operatorii fără cifră de afaceri în anul anterior, plafonul amenzii scade de la 10.000.000 lei la 100.000 lei.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 9 alin. (3)",
+          "before": "Pentru operatorii care nu au realizat cifră de afaceri în exercițiul financiar anterior, valoarea amenzii nu poate depăși 10.000.000 lei.",
+          "after": "Pentru operatorii care nu au realizat cifră de afaceri în exercițiul financiar anterior, valoarea amenzii nu poate depăși 100.000 lei.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Reguli pentru prosumatori extinse la asociațiile de proprietari",
+          "text": "Art. 73¹ din Legea 123/2012 se aplică și prosumatorilor care acționează colectiv: asociații de proprietari, chiriași, consumatori vulnerabili din aceeași clădire.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. II pct. 11 (art. 22 alin. (1¹) OUG 163/2022)",
+          "before": null,
+          "after": "Prevederile art.73¹ din Legea nr.123/2012, cu modificările și completările ulterioare, se aplică în mod proporțional și nediscriminatoriu prosumatorilor care acționează în mod colectiv, inclusiv, dar fără a se limita la asociații de proprietari, chiriași și consumatori vulnerabili",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Contracte pentru diferență, regula pentru noile centrale",
+          "text": "Noile capacități solare, eoliene, geotermale, hidro și nucleare primesc sprijin, ca regulă, prin contracte bidirecționale pentru diferență. Alte mecanisme sunt permise doar justificat și cu efect echivalent.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. II pct. 2 (art. 4 alin. (1¹) OUG 163/2022)",
+          "before": null,
+          "after": "se aplică schemele de sprijinire directă a prețurilor pentru investiții în noi instalații de producere a energiei electrice sub forma unor contracte bidirecționale pentru diferență.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Instalațiile de hidrogen ies din procedura de autorizare",
+          "text": "Art. 16⁷ din OUG 163/2022, care aplica regulile de autorizare și instalațiilor de electroliză și infrastructurii lor, a fost eliminat. Totuși, art. VI încă declară transpunerea art. 16 din Directiva 2023/2413.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. II (fost art. 16⁷ OUG 163/2022)",
+          "before": "Art. 16⁷. - Dispozițiile art. 15²-16⁶ se aplică în mod corespunzător instalațiilor de producere a combustibililor din surse regenerabile de origine nebiologică, inclusiv instalațiilor de electroliză pentru producerea hidrogenului din surse regenerabile",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Trimitere greșită la ordinul care aprobă CAEN",
+          "text": "Definiția consumatorului industrial trimite acum la Ordinul INS nr. 337/2007, deși vorbește de CAEN Rev.3. Inițial trimiterea era la Ordinul nr. 377/2024. Asta creează neclaritate privind cine intră sub obligații.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 2 pct. 6",
+          "before": "aprobată prin Ordinul președintelui Institutului Național de Statistică nr. 377/2024",
+          "after": "aprobată prin Ordinul președintelui Institutului Național de Statistică nr.337/2007 privind actualizarea Clasificării activităților din economia națională - CAEN",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
       "remaining": {
         "problems": [
           {
-            "text": "Cotele pe 2027–2029 se pot atinge fără hidrogen, doar cu electricitate regenerabilă",
+            "text": "Cote intermediare 2027–2029 neimpuse de UE, sancționate cu 0,25 lei/MJ",
+            "major": true,
+            "article": "art. 3 alin. (3), art. 9"
+          },
+          {
+            "text": "Ținta UE de 42%/60% impusă individual fiecărui consumator industrial, cu amendă",
+            "major": true,
+            "article": "art. 4 alin. (2), art. 11"
+          },
+          {
+            "text": "Lipsește mecanismul de credite pentru furnizorii fără puncte de încărcare",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Art. VI declară transpunerea art. 16 RED III, dar prevederea a fost eliminată",
+            "major": true,
+            "article": "art. VI"
+          },
+          {
+            "text": "Plafonul de 100.000 lei poate descuraja slab nerespectarea cotelor",
+            "major": true,
+            "article": "art. 9 alin. (3)"
+          },
+          {
+            "text": "Ordinul CAEN citat (337/2007) nu corespunde CAEN Rev.3",
+            "major": false,
+            "article": "art. 2 pct. 6"
+          },
+          {
+            "text": "Restrângerea la transport rutier micșorează baza de calcul a cotei",
+            "major": false,
+            "article": "art. 2 pct. 7"
+          }
+        ],
+        "good": [
+          {
+            "text": "Aviația și transportul maritim excluse, fără dublă conformare cu ReFuelEU/FuelEU",
+            "major": true,
+            "article": "art. 2 pct. 7"
+          },
+          {
+            "text": "Obligațiile industriale nu se cumulează cu cele din OUG 163/2022",
+            "major": true,
+            "article": "art. 4 alin. (4)"
+          },
+          {
+            "text": "Reducere de 20% a țintelor industriale în condițiile art. 22⁸ OUG",
+            "major": true,
+            "article": "art. 4 alin. (3)"
+          },
+          {
+            "text": "Bilanț masic, audit independent, UDB și interdicția dublei revendicări",
+            "major": true,
+            "article": "art. 6"
+          },
+          {
+            "text": "Amenzi plafonate la 1% din cifra de afaceri",
+            "major": true,
+            "article": "art. 9 alin. (3)"
+          },
+          {
+            "text": "Sancțiunea se individualizează după deficit, durată, cooperare și remediere",
+            "major": true,
+            "article": "art. 9 alin. (5)"
+          },
+          {
+            "text": "Același deficit nu poate fi sancționat de două ori",
+            "major": true,
+            "article": "art. 9 alin. (6)"
+          },
+          {
+            "text": "Dreptul la plângere contravențională rămâne neafectat",
+            "major": true,
+            "article": "art. 13 alin. (2)"
+          },
+          {
+            "text": "Sprijinul pentru hidrogen nu se plătește din facturile consumatorilor",
+            "major": true,
+            "article": "art. 13¹ alin. (2)"
+          },
+          {
+            "text": "Nu se datorează cota pentru anul 2026",
+            "major": true,
+            "article": "art. IV alin. (2)"
+          },
+          {
+            "text": "Prosumatorii colectivi din aceeași clădire beneficiază de art. 73¹",
+            "major": true,
+            "article": "art. II pct. 11"
+          },
+          {
+            "text": "Contravențiile intră în vigoare abia la 30 de zile de la publicare",
+            "major": false,
+            "article": "art. IV alin. (3)"
+          },
+          {
+            "text": "Cod tehnic unic al hidrogenului, aprobat până la sfârșitul lui 2027",
+            "major": false,
+            "article": "art. II pct. 10"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 96,
+        "removed": 73,
+        "same": 0.43
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-23T09:11:12.773Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Doar modificări de formă și tehnică legislativă; cotele, obligațiile și amenzile rămân aceleași",
+      "summary": "Camera a făcut doar corecturi de redactare: denumiri complete, trimiteri, renumerotări. Termenul de 90 de zile pentru formatul de raportare ANRE a fost mutat în dispozițiile tranzitorii. Pentru cetățeni și firme, obligațiile, cotele și sancțiunile sunt neschimbate.",
+      "changes": [
+        {
+          "title": "Termenul de 90 de zile pentru raportare, mutat",
+          "text": "Termenul de 90 de zile pentru aprobarea formatului unic de raportare nu mai stă în art. 14 din lege. Este acum în art. IV alin. (2), cu aprobare prin ordin al președintelui ANRE.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 14 alin. (1) / art. IV alin. (2)",
+          "before": "Art.14.- (1) În termen de 90 de zile de la intrarea în vigoare a legii de modificare, Autoritatea Națională de Reglementare în Domeniul Energiei aprobă formatul unic de raportare și procedura de verificare",
+          "after": "(2) În termen de 90 de zile de la data intrării în vigoare a prezentei legi, formatul unic de raportare și procedura de verificare prevăzute la art. 14 alin. (1) din Legea nr. 237/2023",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Articolul 7 este înlocuit integral",
+          "text": "Inițial se modificau doar alin. (1) și (2) ale art. 7. Acum se înlocuiește tot articolul, care păstrează doar aceste două alineate despre raportul de planificare al consumatorilor industriali.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 7",
+          "before": "La articolul 7, alineatele (1) și (2) se modifică și vor avea următorul cuprins:",
+          "after": "Articolul 7 se modifică și va avea următorul cuprins:",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Precizare pentru certificatele de furnizare emise anterior",
+          "text": "Art. III alin. (1) precizează acum că documentele de conformitate sunt cele din art. 6, în forma modificată și completată prin prezenta lege.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. III alin. (1)",
+          "before": "astfel cum a fost modificată, și nu au fost revendicate anterior.",
+          "after": "astfel cum aceasta a fost modificată și completată prin prezenta lege, și nu au fost revendicate anterior.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Cotele pe 2027–2029 pot fi atinse fără hidrogen, doar cu electricitate regenerabilă",
             "major": true,
             "article": "art. 3 alin. (3)"
           },
@@ -55,17 +305,7 @@
             "article": "art. 3 alin. (3)"
           },
           {
-            "text": "Transportul înseamnă doar rutier; baza de calcul mai mică reduce volumul obligației",
-            "major": true,
-            "article": "art. 2 pct. 7"
-          },
-          {
-            "text": "Posibil conflict: numitor doar rutier, dar metodologia OUG vizează tot sectorul transporturilor",
-            "major": true,
-            "article": "art. 5 alin. (1)–(2)"
-          },
-          {
-            "text": "Ținta de 42%/60% e impusă fiecărui consumator industrial, nu la nivel de stat",
+            "text": "Ținta de 42% și 60% hidrogen regenerabil se impune fiecărui consumator industrial",
             "major": true,
             "article": "art. 4 alin. (2)"
           },
@@ -75,21 +315,31 @@
             "article": "art. 4 alin. (3)"
           },
           {
-            "text": "Amenzile pe deficit nu pot fi achitate la jumătate din minim",
+            "text": "Transportul limitat la rutier micșorează baza de calcul a obligației",
+            "major": true,
+            "article": "art. 2 pct. 7, art. 5 alin. (2)"
+          },
+          {
+            "text": "Amenzile pe deficit exclud avertismentul și plata a jumătate din minim",
             "major": true,
             "article": "art. 13 alin. (2)"
           },
           {
-            "text": "Înregistrarea în UDB nu se mai cere dacă baza europeană nu funcționează",
+            "text": "Cota pentru 2026 dispare, deci obligația în transport începe mai târziu",
+            "major": true,
+            "article": "art. IV alin. (3)"
+          },
+          {
+            "text": "Posibil conflict: metodologia OUG trimisă vizează întregul sector, nu doar rutierul",
             "major": false,
-            "article": "art. 6 alin. (1)"
+            "article": "art. 5 alin. (1)"
           }
         ],
         "good": [
           {
-            "text": "Dovada prin bilanț masic, audit independent acreditat și înregistrare în UDB",
+            "text": "Dovada prin bilanț masic, audit independent și înregistrare în UDB",
             "major": true,
-            "article": "art. 6 alin. (1) și (3)"
+            "article": "art. 6 alin. (1)"
           },
           {
             "text": "Garanția de origine nu poate înlocui dovada de sustenabilitate",
@@ -97,24 +347,24 @@
             "article": "art. 6 alin. (2)"
           },
           {
-            "text": "Aceeași energie nu poate fi revendicată de mai multe persoane sau ori",
+            "text": "Aceeași energie nu poate fi revendicată de două ori",
             "major": true,
             "article": "art. 6 alin. (4)"
           },
           {
-            "text": "Obligațiile industriale nu se cumulează cu cele din OUG nr. 163/2022",
+            "text": "Obligațiile industriale nu se cumulează cu cele din OUG 163/2022",
             "major": true,
             "article": "art. 4 alin. (4)"
           },
           {
-            "text": "Amenzile pe deficit sunt plafonate la 1% din cifra de afaceri",
+            "text": "Aviația și transportul maritim sunt excluse, fără suprapunere cu ReFuelEU și FuelEU",
             "major": true,
-            "article": "art. 9 alin. (3)"
+            "article": "art. 2 pct. 7"
           },
           {
-            "text": "Același deficit nu poate fi sancționat de două ori",
+            "text": "Amenzile pe deficit sunt plafonate la 1% din cifra de afaceri și individualizate",
             "major": true,
-            "article": "art. 9 alin. (6)"
+            "article": "art. 9 alin. (3), (5)"
           },
           {
             "text": "Sprijinul CfD pentru hidrogen nu se finanțează din facturile consumatorilor",
@@ -122,31 +372,31 @@
             "article": "art. 13¹ alin. (2)"
           },
           {
-            "text": "Dreptul de a contesta amenda în instanță rămâne neafectat",
+            "text": "Dreptul la plângere contravențională rămâne neafectat",
             "major": true,
             "article": "art. 13 alin. (2)"
           },
           {
-            "text": "Excluderea aviației și navigației maritime evită dublarea cu ReFuelEU și FuelEU",
-            "major": false,
-            "article": "art. 2 pct. 7"
-          },
-          {
-            "text": "Sancțiunile noi intră în vigoare abia la 30 de zile după publicare",
+            "text": "Contravențiile noi intră în vigoare abia la 30 de zile de la publicare",
             "major": false,
             "article": "art. IV alin. (4)"
+          },
+          {
+            "text": "Certificatele vechi rămân utilizabile doar cu documente valabile și dacă nu au fost revendicate",
+            "major": false,
+            "article": "art. III alin. (1)"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 104,
-        "removed": 100,
-        "same": 0.33
+        "added": 40,
+        "removed": 37,
+        "same": 0.77
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:43:52.241Z"
+      "schema": 4,
+      "updatedAt": "2026-11-23T09:11:59.802Z"
     }
   ]
 }

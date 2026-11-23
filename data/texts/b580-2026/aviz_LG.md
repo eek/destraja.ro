@@ -1,0 +1,101 @@
+# AVIZ
+
+# referitor la propunerea legislativă privind înființarea, organizarea și funcționarea instituției Avocatul Furnizorului de Servicii Sociale, precum și pentru modificarea și completarea unor acte normative
+
+Analizând propunerea legislativă privind înființarea, organizarea și funcționarea instituției Avocatul Furnizorului de Servicii sociale, precum și pentru modificarea și completarea unor acte normative (b580/20.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/5175/26.10.2026 și înregistrată la Consiliul Legislativ cu nr. D895/27.10.2026,
+
+## CONSILIUL LEGISLATIV
+
+În temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (4) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
+
+Avizează negativ propunerea legislativă, pentru următoarele considerente:
+
+1\. Propunerea legislativă are ca obiect de reglementare înființarea, organizarea și funcționarea instituției Avocatul Furnizorului de Servicii Sociale, precum și completarea Legii asistenței sociale nr. 292/2011, cu modificările și completările ulterioare, și a Legii contenciosului administrativ nr. 554/2004, cu modificările și completările ulterioare.
+
+Demersul legislativ urmărește „crearea unui mecanism instituțional independent care să contribuie la apărarea drepturilor și intereselor legitime ale furnizorilor de servicii sociale, la promovarea bunei administrări și la prevenirea efectelor disproporționate ale unor măsuri administrative”.
+
+2\. Prin conținutul său normativ, propunerea legislativă face parte din categoria legilor organice, fiind incidente dispozițiile art. 73 alin. (3) lit. k) și art. 117 alin. (3) din Constituția României, republicată, iar în aplicarea prevederilor art. 75 alin. (1) din Legea fundamentală, prima Cameră sesizată este Camera Deputaților.
+
+3\. Precizăm că, prin avizul pe care îl emite, Consiliul Legislativ nu se pronunță asupra oportunității soluțiilor legislative preconizate.
+
+4\. Referitor la Expunerea de motive, relevăm că soluția legislativă propusă trebuie să se subsumeze dispozițiilor art. 6 alin. (1) teza I din Legea nr. 24/2000, republicată, cu modificările și completările ulterioare, conform cărora „Proiectul de act normativ trebuie să instituie reguli necesare, suficiente și posibile care să conducă la o cât mai mare stabilitate și eficiență legislativă. Soluțiile pe care le cuprinde trebuie să fie temeinic fundamentate”.
+
+În plus, instrumentul de prezentare și motivare nici nu respectă structura prevăzută la art. 31 din Legea nr. 24/2000, republicată, cu modificările și completările ulterioare.
+
+Avem în vedere faptul că, la pct. 2 „Impactul socio-economic”, deși se preconizează reducerea numărului litigiilor și a costurilor acestora, atât pentru furnizori, cât și pentru autoritățile publice, nu sunt precizate informații privind numărul furnizorilor afectați de întârzieri administrative, frecvența retragerilor de licență contestate și numărul beneficiarilor afectați de întreruperea serviciilor și nici cu privire la numărul sesizărilor, litigiilor și blocajelor administrative existente în domeniul serviciilor sociale.
+
+De asemenea, la pct. 3 „Impactul financiar asupra bugetului general consolidat”, deși se face o estimare orientativă a cheltuielilor destinate înființării instituției, nu sunt respectate dispozițiile art. 138 alin. (5) din Constituție și nici cele ale Legii nr. 500/2002 privind finanțele publice, potrivit cărora orice măsură legislativă care generează cheltuieli bugetare trebuie să fie însoțită de o fundamentare financiară adecvată și de identificarea surselor de finanțare.
+
+La pct. 5 „Consultări derulate”, semnalăm că nu sunt prezentate informații concrete despre aceste consultări, specificându-se doar generic că „Propunerea a fost elaborată pe baza problemelor semnalate de organizațiile reprezentative ale furnizorilor publici și privați de servicii sociale”.
+
+Cu privire la fundamentarea proiectelor de acte normative, relevăm că, în repetate rânduri, Curtea Constituțională a sancționat caracterul sumar al instrumentului de prezentare și motivare, precum și lipsa de fundamentare temeinică a actelor normative, în raport cu exigențele de claritate, predictibilitate a legii și securitate a raporturilor juridice impuse de art. 1 alin. (5) din Constituție, invocând și normele de tehnică legislativă pentru elaborarea actelor normative. De asemenea, Curtea a mai constatat, prin Decizia nr. 139/2019, că „Fundamentarea temeinică a inițiativelor legislative reprezintă o exigență impusă de dispozițiile constituționale menționate, întrucât previne arbitrarul în activitatea de legiferare, asigurând că legile propuse și adoptate răspund unor nevoi sociale reale și dreptății sociale”.
+
+5\. Prezentul proiect preconizează înființarea Avocatului Furnizorului de Servicii Sociale, autoritate administrativă autonomă, independentă și imparțială, cu personalitate juridică, care are drept scop apărarea drepturilor și intereselor legitime ale furnizorilor de servicii sociale în raporturile acestora cu autoritățile și instituțiile publice, precum și promovarea bunei administrări în domeniul serviciilor sociale. De asemenea, această autoritate publică va avea atribuții de investigare a administrației publice, de formulare de recomandări și chiar de sesizare a instanțelor de contencios administrativ.
+
+Potrivit instrumentului de prezentare și motivare, justificarea esențială a prezentului demers este „continuitatea serviciilor de care depind persoane vârstnice, persoane cu dizabilități, copii și alte categorii vulnerabile”, în situațiile în care prestatorii de servicii sociale se confruntă cu „măsuri disproporționate și dificultăți în relația cu autoritățile publice”.
+
+Referitor la soluțiile legislative propuse, semnalăm că acestea nu sunt corelate cu reglementările constituționale în materia autorităților administrative autonome cu rol de „Ombudsman”. Menționăm că dispozițiile art. 58 din Constituție au consacrat rolul Avocatului Poporului pentru apărarea drepturilor și libertăților persoanelor fizice.
+
+Relevăm că textul constituțional reglementează o competență materială generală a instituției Avocatul Poporului, în ceea ce privește persoanele fizice, fără ca legiuiitorul constituant să acorde, în mod similar, persoanelor juridice această formă de apărare a drepturilor și intereselor lor. Prin urmare, în sistemul legislativ din România s-a optat explicit pentru un „ombudsman” clasic, orientat spre cetățean, nu spre persoane juridice sau entități profesionale.
+
+Or, prin prezentul proiect, apreciem că se înființează un „ombudsman” paralel, dedicat exclusiv unor persoane juridice, respectiv entități publice sau entități private acreditate ca furnizori de servicii sociale, ceea ce nu mai coincide cu voința legiuitorului constituant.
+
+În plus, semnalăm că, potrivit dispozițiilor propuse la art. 1 alin. (3) lit. a), furnizorii de servicii sociale sunt persoane fizice sau juridice, de drept public sau privat. Or, un „ombudsman” are prin definiție rolul de a apăra entitățile private împotriva abuzurilor administrației publice. Un „ombudsman” al furnizorilor de servicii sociale care ar ajunge să apere o instituție publică (de exemplu, o direcție generală de asistență socială și protecția copilului) împotriva altei instituții publice (de exemplu, Ministerul Muncii sau Agenția Națională pentru Plăți și Inspecție Socială) ar contrazice însăși esența instituției de tip „ombudsman”.
+
+Ținând seama de faptul că Avocatul Poporului veghează la respectarea tuturor drepturilor consfînțite de Constituție, indiferent de natura, sfera de întindere a lor ori de categoriile de persoane fizice, pe considerentul urmăririi continuității acestor servicii, în scopul apărării drepturilor beneficiarilor, nu se poate justifica constituirea unei instituții distincte, cum se propune a fi Avocatul Furnizorului de Servicii Sociale.
+
+Totodată, semnalăm că înființarea unei alte instituții, cu aceeași denumire, chiar și particularizată la problematica drepturilor „furnizorului de servicii sociale”, depășește cadrul constituțional, fiind susceptibilă de a crea confuzii de competențe și paralelisme instituționale.
+
+Mai mult decât atât, invocăm existența unor paralelisme în reglementare. Astfel, spre exemplu, art. 1 alin. (2) stabilește că instituția preconizată urmărește „protejarea continuității serviciilor sociale în interesul beneficiarilor, cu respectarea drepturilor, libertăților, demnității și siguranței acestora”, iar art. 13 lit. c) și e) îi conferă drept de investigații din oficiu și de formulare de recomandări asupra autorităților publice.
+
+Or, apărarea drepturilor și libertăților persoanelor fizice (beneficiarii serviciilor sociale, în special: persoane vulnerabile, copii, vârstnici, persoane cu dizabilități) prin recomandări asupra administrației publice este atributul constituțional al Avocatului Poporului, astfel cum este reglementat la art. 24 alin. (1) din Legea nr. 35/1997 privind organizarea și funcționarea instituției Avocatul Poporului, republicată, autoritate publică care are deja un domeniu dedicat în acest sens (domeniul privind drepturile copilului, familiei, tinerilor, pensionarilor, persoanelor cu handicap etc.).
+
+De asemenea, o dublare a competențelor între cele două instituții se observă și la art. 31, care conferă instituției preconizate dreptul de a „sesiza instanța de contencios administrativ competentă”, „în situația în care, în urma unei investigații, apreciază că ilegalitatea unui act administrativ sau refuzul unei autorități de a-și îndeplini atribuțiile legale nu poate fi înlăturat decât prin justiție si că măsura afectează continuitatea unui serviciu social ori drepturile și interesele legitime ale furnizorului sau ale beneficiarilor”.
+
+Mai mult decât atât, constatăm că art. 35 alin. (2) obligă Avocatul Furnizorului de Servicii Sociale și Avocatul Poporului să încheie un protocol de cooperare privind „transmiterea reciprocă a sesizărilor, schimbul de informații și evitarea dublei investigații”. Dar, însăși necesitatea unui mecanism de evitare a dublei investigații dovedește că proiectul este susceptibil să creeze un paralelism instituțional și legislativ interzis de art. 1 alin. (5) din Constituție și de art. 16 din Legea nr. 24/2000.
+
+Semnalăm că o instituție creată prin lege nu poate împărți prin „protocol” competențele constituționale exclusive ale Avocatului Poporului privind protejarea beneficiarilor serviciilor sociale.
+
+Prin urmare, crearea unei instituții paralele Avocatului Poporului, cu o serie de atribuții care se suprapun, poate duce la încălcarea prevederilor art. 1 alin. (5) din Constituție, sub aspectul legalității și calității legii, prin crearea unor paralelisme.
+
+Pe de altă parte, instituirea acestei autorități administrative autonome distincte, destinate apărării intereselor furnizorilor de servicii sociale, poate pune în discuție și dublarea unor competențe față de ministerul de resort, inspecția socială, autoritățile de acreditare și licențiere, precum și față de autoritățile administrației publice locale.
+
+Referitor la instituirea unor paralelisme în reglementare, semnalăm faptul că definiția autorității publice, de la art. 1 alin. (3) lit. b) din proiect, este deja reglementată în art. 2 alin. (1) lit. b) din
+
+Legea nr. 554/2004, potrivit căreia „orice organ de stat sau al unităților administrativ-teritoriale care acționează, în regim de putere publică, pentru satisfacerea unui interes legitim public; sunt asimilate autorităților publice, în sensul prezentei legi, persoanele juridice de drept privat care, potrivit legii, au obținut statut de utilitate publică sau sunt autorizate să presteze un serviciu public, în regim de putere publică”.
+
+Or, în mod similar cu textul de la lit. a), care definește furnizorul de servicii sociale, prin utilizarea normei de trimitere, în cazul definirii autorității publice nu mai era necesară elaborarea unei alte definiții, fiind suficientă trimiterea.
+
+Totodată, la lit. c), care definește „administrarea defectuoasă”, textul devine lipsit de claritate prin folosirea sintagmei „și impunerea unor cerințe care nu sunt prevăzute de lege”.
+
+În plus, introducerea altor denumiri de genul „Avocat al ...” sau a unor denumiri ori structuri care se suprapun peste conceptul constituțional de „Ombudsman”, destinate unor sectoare specifice, pentru apărarea drepturilor și libertăților unor noi entități fizice sau juridice, publice sau private, din diverse domenii specifice (în speță, furnizorii de servicii sociale), poate aduce atingere clarității și predictibilității legii.
+
+În același sens al lipsei de predictibilitate, exemplificăm cu norma de la art. 41 alin. (1), care este neclară, întrucât nu se înțelege cine sunt experții care fac parte din personalul instituției, în cuprinsul propunerii neexistând alte prevederi referitoare la aceștia.
+
+De asemenea, textul este imprecis, prin folosirea sintagmei „în condițiile legii”, neînțelegându-se ce acte normative sunt avute în vedere. Reiterăm observația și pentru art. 42, referitor la sintagma incompletă „potrivit legislației aplicabile”.
+
+La alin. (2) al art. 41, precizăm că sintagma „Personalul de specialitate trebuie să asigure competențe în domeniul ...” nu asigură claritate și predictibilitate normei, deoarece nu se înțelege cine face parte din categoria personalului de specialitate și în ce constă obligația de „a asigura competențe” în domeniile vizate (expresia „să asigure competențe în domeniul ...” fiind, de altfel, și improprie stilului normativ).
+
+Un alt exemplu, la art. 50 pct. 1, la textul propus pentru art. 38¹ alin. (1) din Legea nr. 292/2011, semnalăm că, prin folosirea unui limbaj impropriu, norma este lipsită de claritate, neînțelegându-se ce reprezintă „tratamentul administrativ” vizat (expresia nemaifiind folosită nici în cuprinsul propunerii și nici în cuprinsul actului normativ de bază) și nici ce înseamnă un „tratament administrativ ... proporțional ... și nediscriminatoriu” (respectiv raportat la ce anume tratamentul trebuie să fie proporțional și nediscriminatotriu).
+
+În ceea ce privește norma care se regăsește la art. 13 lit. j) și la art. 31 - 33, care conferă Avocatului Furnizorului de Servicii Sociale atribuția de a „sesiza instanța de contencios administrativ în condițiile legii”, precizăm că această prevedere se poate suprapune cu dreptul comun. Spre deosebire de o persoană fizică vulnerabilă, care poate avea nevoie de sprijinul Avocatului Poporului pentru a acționa statul în judecată, un furnizor de servicii sociale (ONG, firmă sau instituție publică) are deja capacitate procesuală deplină și dreptul garantat de art. 21 și art. 52 din Constituție de a se adresa direct instanțelor de contencios, protecția drepturilor persoanelor juridice în raport cu autoritățile publice fiind deja apărată prin structurile juridice existente.
+
+Sub acest aspect, arătăm că art. 1 alin. (3) din Legea nr. 554/2004, cu modificările și completările ulterioare, reglementează expres posibilitatea Avocatului Poporului de a sesiza instanța și stabilește inclusiv efectul procedural asupra petiționarului, care dobândește calitatea de reclamant.
+
+Or prezentul proiect, deși introduce un nou subiect de sesizare a instanței, nu construiește un mecanism procedural la fel de clar.
+
+Totodată, referitor la textul propus pentru art. 23 alin. (4) din proiect, care prevede că recomandările Avocatului Furnizorului de Servicii Sociale „nu pot fi supuse controlului parlamentar sau judecătoresc”, semnalăm că această formulare este identică cu forma inițială a Legii nr. 35/1997 privind organizarea și funcționarea instituției Avocatul Poporului (art. 20 alin. (1)), formulare care în forma actuală nu mai există, dar care a avut o justificare având în vedere art. 58 - 60 din Constituție, referitor la statutul său de instituție constituțională fundamentală.
+
+Or, apreciem că transferarea acestui atribut de excludere totală de la orice control judecătoresc, contrar art. 21 din Constituție, către o autoritate înființată prin lege este susceptibil de a fi neconstituțional.
+
+Totodată, în ceea ce privește „recomandarea” ca act juridic, prin natura ei, este un act de mediere și de semnalare, fără caracter executoriu, astfel încât nu poate fi supusă controlului judecătoresc pe calea contenciosului administrativ.
+
+Însă, chiar dacă recomandarea nu este obligatorie, este necesar ca proiectul să clarifice foarte riguros efectul său juridic și raportul cu competențele autorității de control.
+
+\* \* \* \*
+
+Ca urmare a celor de mai sus, prezenta propunere legislativă nu poate fi adoptată.
+
+PRESEDINTE
+
+Florin IORIAC

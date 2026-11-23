@@ -1,0 +1,83 @@
+{
+  "slug": "b653-2026",
+  "billId": "B653/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-23T09:43:20.848Z",
+  "inputHash": "2a2fc8e1e812",
+  "riskScore": 1.7,
+  "summary": "O lege simbolică fără riscuri majore și fără fonduri noi de la buget, cu câteva neclarități tehnice privind termenele și coordonarea de către SGG.",
+  "good": [
+    {
+      "text": "Nu permite alocarea de bani suplimentari de la bugetul de stat, limitând cheltuielile instituțiilor publice la bugetele deja aprobate.",
+      "article": "art. 2 alin. (2)",
+      "quote": "Cheltuielile aferente organizării și desfășurării activităților se suportă din bugetele autorităților și instituțiilor publice implicate, în limita creditelor bugetare aprobate, fără alocarea de fonduri suplimentare de la bugetul de stat.",
+      "weight": 2
+    },
+    {
+      "text": "Participarea este strict voluntară: instituțiile, școlile, universitățile și ONG-urile decid liber dacă organizează evenimente, fără obligații sau sancțiuni.",
+      "article": "art. 2 alin. (1)",
+      "quote": "autoritățile și instituțiile publice, instituțiile de învățământ și cercetare, precum și organizațiile neguvernamentale pot organiza activități de cercetare, dezbatere publică, informare și educație",
+      "weight": 2
+    },
+    {
+      "text": "Încurajează dezbateri echilibrate, fără concluzii impuse, care analizează atât beneficiile, cât și dificultățile apartenenței României la UE.",
+      "article": "art. 2 alin. (1)",
+      "quote": "evaluarea beneficiilor, dificultăților și așteptărilor asociate apartenenței României la Uniunea Europeană.",
+      "weight": 2
+    },
+    {
+      "text": "Obligă Secretariatul General al Guvernului să publice online programul activităților centrale și un raport final până la 31 martie 2028.",
+      "article": "art. 3 alin. (2)-(3)",
+      "quote": "Până la data de 31 martie 2028, Secretariatul General al Guvernului întocmește și publică pe pagina proprie de internet un raport privind activitățile desfășurate în aplicarea prezentei legi.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Programul trebuie publicat la 60 de zile de la intrarea în vigoare, ceea ce riscă să împingă activitățile în cursul anului 2027, după data aniversării.",
+      "article": "art. 3 alin. (2)",
+      "quote": "În termen de 60 de zile de la data intrării în vigoare a prezentei legi, Secretariatul General al Guvernului elaborează și publică pe pagina proprie de internet programul activităților prevăzute la alin. (1).",
+      "weight": 2
+    },
+    {
+      "text": "SGG trebuie să coordoneze autoritățile centrale, dar legea nu obligă ministerele să îi transmită activitățile, lăsând programul la voia colaborării voluntare.",
+      "article": "art. 3 alin. (1)",
+      "quote": "Coordonarea activităților organizate de autoritățile administrației publice centrale privind „Anul România în Uniunea Europeană – bilanț și perspective la 20 de ani de la aderare” se realizează de către Secretariatul General al Guvernului.",
+      "weight": 2
+    },
+    {
+      "text": "Raportul final cere activitățile desfășurate „în aplicarea prezentei legi”, fără a clarifica dacă include doar ministerele sau și primării, școli ori ONG-uri.",
+      "article": "art. 3 alin. (3)",
+      "quote": "Până la data de 31 martie 2028, Secretariatul General al Guvernului întocmește și publică pe pagina proprie de internet un raport privind activitățile desfășurate în aplicarea prezentei legi.",
+      "weight": 1
+    },
+    {
+      "text": "Deși interzice fonduri noi, legea permite redirecționarea banilor din bugetele publice existente fără obligația de a raporta public cât s-a cheltuit.",
+      "article": "art. 2 alin. (2)",
+      "quote": "Cheltuielile aferente organizării și desfășurării activităților se suportă din bugetele autorităților și instituțiilor publice implicate, în limita creditelor bugetare aprobate",
+      "weight": 1
+    },
+    {
+      "text": "Folosește verbul „a comemora”, care are înțeles funebru sau trist și nu se potrivește cu scopul aniversar declarat în expunerea de motive.",
+      "article": "art. 1",
+      "quote": "cu scopul de a comemora douăzeci de ani de la aderarea României la Uniunea Europeană.",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Clarificarea art. 3 prin scurtarea termenului de publicare a programului, obligarea ministerelor să transmită datele către SGG și delimitarea clară a raportului final.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.6
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

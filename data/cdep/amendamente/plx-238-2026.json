@@ -1,26 +1,78 @@
 {
  "slug": "plx-238-2026",
  "billId": "Pl-x 238/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-11-10T09:40:01.611Z",
- "inputHash": "99d624b07528",
+ "updatedAt": "2026-11-23T09:12:49.478Z",
+ "inputHash": "18b030a654cb",
  "reports": [
   "https://www.cdep.ro/comisii/administratie/pdf/2026/rp238;1.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp238;1.pdf",
+   "sha256": "df34ea90b600212e",
+   "parts": 1,
+   "rows": 3,
+   "unchanged": 0,
+   "admise": 3,
+   "respinse": 0,
+   "truncated": false
+  }
+ ],
+ "completeness": "complete",
+ "problems": [],
  "counts": {
-  "admise": 1,
-  "respinse": 0
+  "admise": 3,
+  "respinse": 0,
+  "anuntate": 3,
+  "nemodificate": 0
  },
  "amendments": [
   {
+   "nr": "1",
+   "report": "rp238;1.pdf",
+   "article": "titlul legii",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": "Comisia pentru administrație publică și amenajarea teritoriului",
+   "byGroup": null,
+   "summary": "Precizează în titlul legii că se completează art. 50 din Legea nr. 185/2013, nu legea în ansamblu.",
+   "quote": "LEGE pentru completarea art.50 din Legea nr.185/2013 privind amplasarea și autorizarea mijloacelor de publicitate",
+   "inForce": null,
+   "before": "LEGE pentru completarea Legii nr. 185/2013 privind amplasarea și autorizarea mijloacelor de publicitate",
+   "after": "LEGE pentru completarea art.50 din Legea nr.185/2013 privind amplasarea și autorizarea mijloacelor de publicitate",
+   "motivation": "Tehnică legislativă."
+  },
+  {
+   "nr": "2",
+   "report": "rp238;1.pdf",
+   "article": "articol unic",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": "Comisia pentru administrație publică și amenajarea teritoriului",
+   "byGroup": null,
+   "summary": "Actualizează partea introductivă cu datele republicării din 2018 și dispune introducerea alin. (2) la art. 50, în locul rescrierii întregului articol.",
+   "quote": "după alineatul (1) se introduce un nou alineat, alineatul (2), cu următorul cuprins:",
+   "inForce": null,
+   "before": "Articol unic: Articolul 50 din Legea nr. 185/2013 privind amplasarea și autorizarea mijloacelor de publicitate, publicată în Monitorul Oficial al României, Partea I, nr. 452 din 24 iulie 2013, cu modificările și completările ulterioare, se completează și va avea următorul cuprins:",
+   "after": "”Articol unic – La articolul 50 din Legea nr.185/2013 privind amplasarea și autorizarea mijloacelor de publicitate, republicată în Monitorul Oficial al României, Partea I, nr. 147 din 15 februarie 2018, după alineatul (1) se introduce un nou alineat, alineatul (2), cu următorul cuprins:",
+   "motivation": "Tehnică legislativă."
+  },
+  {
    "nr": "3",
+   "report": "rp238;1.pdf",
    "article": "art. 50 alin. (2)",
    "status": "admis",
    "authors": [],
    "byCommittee": "Comisia pentru administrație publică și amenajarea teritoriului",
-   "summary": "Aplică întreaga Ordonanță a Guvernului nr. 2/2001 privind regimul contravențiilor pentru faptele prevăzute la art. 49 alin. (1), nu doar articolele 4 și 28.",
+   "byGroup": null,
+   "summary": "Introduce alin. (2) la art. 50, aplicând întreaga O.G. nr. 2/2001 (nu doar art. 4 alin. (1) și art. 28) contravențiilor prevăzute la art. 49 alin. (1).",
    "quote": "Contravențiilor prevăzute la art.49 alin. (1) le sunt aplicabile dispozițiile Ordonanței Guvernului nr.2/2001 privind regimul juridic al contravențiilor",
+   "inForce": "Art. 50 - Prevederile prezentei legi referitoare la contravenții intră în vigoare cu respectarea prevederilor art.4 alin. (1) din Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr.180/2002, cu modificările și completările ulterioare.",
+   "before": "”Art. 50: Dispozițiile prezentei legi referitoare la constatarea contravențiilor și aplicarea sancțiunilor contravenționale se completează cu prevederile art.4 alin.(1) și art.28 din Ordonanța Guvernului nr.2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr.180/2002, cu modificările și completările ulterioare.”",
+   "after": "(2) Contravențiilor prevăzute la art.49 alin. (1) le sunt aplicabile dispozițiile Ordonanței Guvernului nr.2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr.180/2002, cu modificările și completările ulterioare.”",
+   "motivation": "Art.4 alin. (1) din O.G. nr.2/2001 prevede că: ”Dispozițiile din actele normative prin care se stabilesc și se sancționează contravențiile intră în vigoare în termen de 30 de zile de la data publicării (...)”. Este necesară introducerea unei dispoziții noi, respectiv alin.(2) la art.50, care să reglementeze pentru viitor. Pentru corectitudinea reglementării, textul trebuie să facă trimitere la O.G. nr.2/2001 în integralitatea sa, și nu doar la art. 4 alin.(1) și art.28. În forma propusă, dispoziția ar putea fi interpretată în sensul că celelalte prevederi ale reglementării - cadru în materia contravențiilor nu ar fi aplicabile, situație în care nu s-ar putea determina regulile privind aplicarea, contestarea și executarea sancțiunilor pentru contravențiile prevăzute de actul normativ de bază.",
    "effects": [
     "mai_bine",
     "mai_rau"
@@ -30,18 +82,21 @@
  "matches": [
   {
    "change": "0:0",
+   "report": "rp238;1.pdf",
    "amendments": [
     "3"
    ]
   },
   {
    "change": "0:1",
+   "report": "rp238;1.pdf",
    "amendments": [
     "3"
    ]
   },
   {
    "change": "0:2",
+   "report": "rp238;1.pdf",
    "amendments": [
     "3"
    ]

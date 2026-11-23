@@ -1,0 +1,15 @@
+# PARLAMENTUL ROMÂNIEI SENAT
+
+## LEGE
+
+privind aprobarea Ordonanței de urgență a Guvernului nr.121/2024 pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.7/2024 privind aprobarea schemei de ajutor de stat „Creditul fermierului”, în contextul crizei provocate de agresiunea Rusiei împotriva Ucrainei, precum și pentru modificarea art.12 alin.(1) din Legea nr.218/2005 privind stimularea absorbției fondurilor alocate României pentru agricultură, dezvoltare rurală, pescuit și afaceri maritime, gestionate de Ministerul Agriculturii și Dezvoltării Rurale, prin instrumente financiare de garantare și creditare, precum și pentru susținerea obiectivelor naționale de politică agricolă și a Ordonanței de urgență a Guvernului nr.84/2023 privind instituirea unui mecanism de consultare și reacție coordonată în contextul implementării sistemului de autorizare la export introdus de Ucraina pentru produsele agricole
+
+## Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.121 din 9 octombrie 2024 pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.7/2024 privind aprobarea schemei de ajutor de stat „Creditul fermierului”, în contextul crizei provocate de agresiunea Rusiei împotriva Ucrainei, precum și pentru modificarea art.12 alin.(1) din Legea nr.218/2005 privind stimularea absorbției fondurilor alocate României pentru agricultură, dezvoltare rurală, pescuit și afaceri maritime, gestionate de Ministerul Agriculturii și Dezvoltării Rurale, prin instrumente financiare de garantare și creditare, precum și pentru susținerea obiectivelor naționale de politică agricolă și a Ordonanței de urgență a Guvernului nr.84/2023 privind instituirea unui mecanism de consultare și reacție coordonată în contextul implementării sistemului de autorizare la export introdus de Ucraina pentru produsele agricole, publicată în Monitorul Oficial al României, Partea I, nr.1039 din 16 octombrie 2024.
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 11 noiembrie 2024, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI
+
+SORIN-MIHAI CÎMPEANU

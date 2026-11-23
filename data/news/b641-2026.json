@@ -1,15 +1,27 @@
 {
   "slug": "b641-2026",
   "billId": "B641/2026",
-  "checkedAt": "2026-11-16T09:59:56.245Z",
+  "checkedAt": "2026-11-23T11:27:40.253Z",
   "indexCheckedAt": "2026-11-20T09:48:37.130Z",
   "models": {
     "agy": "ok",
     "claude": "ok",
-    "codex": "ok",
-    "index": "ok"
+    "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://business24.ro/liberalizarea-taximetriei/liberalizare-taximetrie-romania-proiect-lege-1675625",
+      "title": "Piața taximetriei din România ar putea fi liberalizată printr-un nou proiect de lege",
+      "outlet": "Business24",
+      "domain": "business24.ro",
+      "publishedAt": "2026-11-22",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Un proiect de lege aflat în prezent în circuitul legislativ din România propune liberalizarea pieței de taximetrie",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    },
     {
       "url": "https://www.aktual24.ro/se-anunta-schimbari-majore-pentru-taximetristi-tarifele-vor-fi-stabilite-liber-iar-plata-cu-cardul-devine-obligatorie",
       "title": "Se anunță schimbări majore pentru taximetriști: Tarifele vor fi stabilite liber, iar plata cu cardul devine obligatorie - Aktual24",
@@ -17,9 +29,11 @@
       "domain": "aktual24.ro",
       "publishedAt": "2026-11-20",
       "foundBy": [
-        "index"
+        "index",
+        "agy",
+        "claude"
       ],
-      "quote": "Inițiativa prevede eliminarea plafonului de autorizații stabilit de primării, liberalizarea tarifelor, renunțarea la dispecerizarea obligatorie și posibilitatea efectuării curselor la până la 30 de kilometri de localitatea de autorizare.",
+      "quote": "Proiectul, inițiat de senatorul AUR Cătălin Silegeanu, urmărește modificarea Legii nr. 38/2003 privind transportul în regim de taxi și în regim de închiriere, pentru a apropia condițiile de funcționare ale taximetriștilor de cele aplicabile operatorilor de transport alternativ, precum Uber și Bolt.",
       "match": "quote",
       "firstSeenAt": "2026-11-20",
       "decision": {
@@ -55,5 +69,58 @@
       }
     }
   ],
-  "pending": []
+  "pending": [
+    {
+      "url": "https://www.botosaneanul.ro/catalin-silegeanu-sustine-liberalizarea-taximetriei-si-combate-opozitia-problema-nu-e-evaziunea-ci-concurenta",
+      "title": "Cătălin Silegeanu susține liberalizarea taximetriei și combate opoziția: Problema nu e evaziunea, ci concurența",
+      "outlet": "botosaneanul.ro",
+      "domain": "botosaneanul.ro",
+      "publishedAt": "2026-11-19",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "B641/2026 elimină plafonarea și introduce închirierea și comodatul între formele legale de folosință",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    },
+    {
+      "url": "https://botosaniazi.ro/catalin-silegeanu-sustine-liberalizarea-taximetriei-si-combate-opozitia-problema-nu-e-evaziunea-ci-concurenta",
+      "title": "Cătălin Silegeanu susține liberalizarea taximetriei și combate opoziția: „Problema nu e evaziunea, ci concurența” -",
+      "outlet": "botosaniazi.ro",
+      "domain": "botosaniazi.ro",
+      "publishedAt": "2026-11-19",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Senatorul Cătălin Silegeanu a depus la Senat un proiect care liberalizează accesul în taximetrie prin eliminarea plafonului de autorizații, admiterea mașinilor închiriate sau în comodat și libertatea șoferilor de a prelua comenzi direct ori prin aplicații.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    },
+    {
+      "url": "https://infobt.ro/comunicat-de-presa-catalin-silegeanu-sustine-liberalizarea-taximetriei-si-combate-opozitia-problema-nu-e-evaziunea-ci-concurenta",
+      "title": "COMUNICAT DE PRESĂ Cătălin Silegeanu susține liberalizarea taximetriei și combate opoziția: „Problema nu e evaziunea, ci concurența” - Știri Botoșani",
+      "outlet": "InfoBT",
+      "domain": "infobt.ro",
+      "publishedAt": "2026-11-19",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "B641/2026 elimină plafonarea și introduce închirierea și comodatul între formele legale de folosință, cu limitarea comodatului la un singur autoturism pentru fiecare transportator.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    },
+    {
+      "url": "https://www.monitorulbt.ro/local/2026/11/19/comunicat-de-presa-catalin-silegeanu-sustine-liberalizarea-taximetriei-si-combate-opozitia-problema-nu-e-evaziunea-ci-concurenta",
+      "title": "COMUNICAT DE PRESĂ: Cătălin Silegeanu susține liberalizarea taximetriei și combate opoziția: „Problema nu e evaziunea, ci concurența”",
+      "outlet": "Monitorul de Botoșani",
+      "domain": "monitorulbt.ro",
+      "publishedAt": "2026-11-19",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul este inițiat individual de Cătălin Silegeanu și modifică în mai multe puncte Legea 38/2003",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    }
+  ]
 }

@@ -2,194 +2,181 @@
   "slug": "plx-243-2026",
   "billId": "PL-x 243/2026",
   "schema": 1,
-  "model": "claude",
-  "updatedAt": "2026-11-02T18:13:00.308Z",
-  "inputHash": "8fc4a7a9cc73",
-  "riskScore": 4.3,
-  "summary": "O lege cu multe facilități fiscale utile, umbrită de puterea largă a Guvernului de a acorda ajutoare la alegere și de împingerea pensiilor private spre proiecte ale statului.",
+  "model": "agy",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-23T09:55:40.555Z",
+  "inputHash": "05c3382aacd0",
+  "riskScore": 5.3,
+  "summary": "Un pachet cu facilități fiscale utile pentru firme, dar afectat de ajutoare de stat discreționare, angajamente bugetare neacoperite și riscuri neclare la Pilonul II.",
   "good": [
     {
-      "text": "Firmele care fac cercetare primesc un credit fiscal de 10% din cheltuieli. Partea nefolosită se compensează sau se restituie în 4 ani, deci ajută și marile grupuri supuse impozitului minim global.",
-      "article": "art. 6 pct. 2 (art. 20¹ Cod fiscal)",
-      "quote": "Creditul fiscal reprezintă suma determinată prin aplicarea procentului de 10% la valoarea cheltuielilor eligibile pentru activitățile de cercetare-dezvoltare",
+      "text": "Introduce un credit fiscal de 10% pentru cercetare-dezvoltare, rambursabil timp de 4 ani și neimpozabil, util și firmelor sub impozit minim.",
+      "article": "art. 6 pct. 2 și 4",
+      "quote": "Creditul fiscal reprezintă suma determinată prin aplicarea procentului de 10% la valoarea cheltuielilor eligibile pentru activitățile de cercetare-dezvoltare, potrivit prevederilor art. 20, înregistrate de contribuabil în perioada fiscală",
       "weight": 3
     },
     {
-      "text": "Utilajele noi puse în funcțiune în 2026 pot fi amortizate până la 65% în primul an. Firmele care investesc plătesc astfel impozite mai mici imediat.",
-      "article": "art. 6 pct. 8 (art. 28 alin. (8¹) Cod fiscal)",
-      "quote": "pentru primul an de utilizare, amortizarea nu poate depăși 65% din valoarea fiscală de la data intrării în patrimoniul contribuabilului a activului",
+      "text": "Dublează la 5.000 lei pragul mijloacelor fixe și îl indexează anual cu inflația, permițând firmelor să deducă imediat echipamentele mai mici.",
+      "article": "art. 6 pct. 7",
+      "quote": "la data intrării în patrimoniul contribuabilului, are o valoare fiscală egală sau mai mare decât suma de 5000 lei; această limită se actualizată anual, în funcție de indicele de inflație, prin hotărâre a Guvernului;",
+      "weight": 3
+    },
+    {
+      "text": "Permite în 2026 deducerea a până la 65% din costul utilajelor, echipamentelor, animalelor și plantațiilor noi chiar în primul an de folosire.",
+      "article": "art. 6 pct. 8",
+      "quote": "pentru primul an de utilizare, amortizarea nu poate depăși 65% din valoarea fiscală de la data intrării în patrimoniul contribuabilului a activului;",
+      "weight": 3
+    },
+    {
+      "text": "Elimină interdicția de a reveni la regimul microîntreprinderilor și dă firmelor nou-înființate 90 de zile să angajeze primul salariat.",
+      "article": "art. 6 pct. 17 și 18",
+      "quote": "iar cea prevăzută la lit. g) în termen de 90 de zile inclusiv de la data înregistrării persoanei juridice respective.",
       "weight": 2
     },
     {
-      "text": "Crește plafonul până la care firmele plătesc TVA doar după ce încasează banii, ceea ce ajută lichiditatea IMM-urilor. Cifra exactă nu apare în fragmentul primit.",
-      "article": "art. 1 alin. (2) lit. g)",
-      "quote": "actualizarea plafonului TVA la încasare în acord cu valoarea reală a operațiunilor",
-      "weight": 2
-    },
-    {
-      "text": "Cei care își plătesc impozitele la timp primesc o bonificație, iar aceasta nu se impozitează la rândul ei.",
-      "article": "art. 1 alin. (2) lit. h); art. 6 pct. 4 (art. 23 lit. s) Cod fiscal)",
-      "quote": "măsuri de sprijinire a contribuabililor buni platnici prin recompensarea acestora pentru conformarea voluntară la plată",
-      "weight": 2
-    },
-    {
-      "text": "O microîntreprindere nu mai pierde regimul fiscal dacă unicul salariat stă în concediu medical sau are contractul suspendat sub 30 de zile.",
-      "article": "art. 6 pct. 18-19 (art. 48 alin. (3¹), (3³) Cod fiscal)",
-      "quote": "condiția referitoare la deținerea unui salariat se consideră îndeplinită dacă salariatul se află în concediu pentru incapacitate temporară de muncă",
-      "weight": 2
-    },
-    {
-      "text": "Pragul de la care un bun devine mijloc fix crește de la 2.500 la 5.000 lei și se indexează anual cu inflația. Firmele au astfel mai puțină birocrație.",
-      "article": "art. 6 pct. 7 (art. 28 alin. (2) lit. b) Cod fiscal)",
-      "quote": "are o valoare fiscală egală sau mai mare decât suma de 5000 lei; această limită se actualizată anual, în funcție de indicele de inflație",
-      "weight": 2
-    },
-    {
-      "text": "Toate schemele de ajutor de stat și ajutoarele individuale trebuie publicate integral pe site-ul Ministerului Finanțelor în cel mult 30 de zile.",
-      "article": "art. 2 alin. (17)",
-      "quote": "toate schemele de ajutor de stat/ajutoarele ad-hoc se publică integral pe pagina web oficială a Ministerului Finanțelor, în termen de maxim 30 de zile",
-      "weight": 2
-    },
-    {
-      "text": "Marile investiții finanțate trebuie păstrate cel puțin 5 ani, iar firmele trebuie să dovedească bani proprii și experiență. Banii publici sunt astfel mai bine protejați.",
-      "article": "art. 2 alin. (7)-(9)",
-      "quote": "Investiția cu impact semnificativ în economie trebuie menținută pe o perioadă de cel puțin 5 ani de la data finalizării acesteia",
-      "weight": 2
-    },
-    {
-      "text": "Statul nu poate deține mai mult de 20% din capitalul unei firme sprijinite. Limita reduce riscul unor naționalizări mascate.",
-      "article": "art. 4 alin. (5)",
-      "quote": "fără ca nicio participație individuală, aparținând statului, prin Ministerul Finanțelor, sau Băncii de Investiții și Dezvoltare S.A., să depășească 20% din capitalul social subscris și vărsat",
-      "weight": 1
-    },
-    {
-      "text": "Bunurile care beneficiază deja de scutirea pentru profit reinvestit nu mai pot primi și ajutor de stat, deci nu se plătește de două ori pentru același lucru.",
-      "article": "art. 3 alin. (13)",
-      "quote": "care funcționează în noua capacitate de producție se exclud din investiția eligibilă pentru ajutor de stat",
-      "weight": 1
-    },
-    {
-      "text": "Schemele de ajutor au plafoane de buget și perioade fixe de acordare. Cheltuiala are astfel o limită cunoscută dinainte.",
-      "article": "art. 3 alin. (7)-(8)",
-      "quote": "Emiterea acordurilor de finanțare în baza schemelor de ajutor de stat prevăzute la alin. (1) lit. a) - c) se realizează în perioada 2026-2032",
-      "weight": 1
-    },
-    {
-      "text": "Firmele care se listează la bursă pot deduce suplimentar 50% din costurile de listare. Măsura încurajează finanțarea prin piața de capital.",
-      "article": "art. 6 pct. 5 (art. 25 alin. (14) Cod fiscal)",
+      "text": "Acordă o deducere suplimentară de 50% pentru costurile de listare și menținere la bursă, încurajând finanțarea firmelor pe piața de capital.",
+      "article": "art. 6 pct. 5",
       "quote": "se aplică un stimulent fiscal constând în deducerea suplimentară la calculul rezultatului fiscal, în proporție de 50%, a cheltuielilor aferente procesului de admitere la tranzacționare",
-      "weight": 1
+      "weight": 2
     },
     {
-      "text": "Termenul pentru declarația anuală de impozit pe profit se mută la 25 iunie, ceea ce dă firmelor mai mult timp.",
-      "article": "art. 6 pct. 12 (art. 42 alin. (1) Cod fiscal)",
+      "text": "Permite în 2026 combinarea scutirii pe profit reinvestit cu amortizarea accelerată pentru echipamente tehnologice și calculatoare.",
+      "article": "art. 6 pct. 3",
+      "quote": "pentru subgrupa 2.1 - Echipamente tehnologice, respectiv mașini, unelte și instalații de lucru, precum și pentru computere și echipamente periferice ale acestora contribuabili pot opta pentru amortizarea accelerată",
+      "weight": 2
+    },
+    {
+      "text": "Lasă neimpozitate, după 5 ani, rezervele din profit reinvestit folosite pentru majorarea capitalului social sau acoperirea pierderilor.",
+      "article": "art. 6 pct. 6",
+      "quote": "În cazul rezervelor utilizate, după perioada de 5 ani, pentru majorarea capitalului social și/sau pentru acoperirea pierderilor, valoarea acestora nu reprezintă elemente similare veniturilor și nu se impozitează.",
+      "weight": 2
+    },
+    {
+      "text": "Fixează permanent data de 25 iunie ca termen pentru declarația anuală de impozit pe profit, oferind firmelor timp mai bun de raportare.",
+      "article": "art. 6 pct. 12",
       "quote": "Contribuabilii au obligația să depună o declarație anuală privind impozitul pe profit până la data de 25 iunie inclusiv a anului următor",
+      "weight": 2
+    },
+    {
+      "text": "Obligă publicarea integrală a tuturor schemelor și ajutoarelor ad-hoc în 30 de zile și implică Consiliul Concurenței pentru conformitate.",
+      "article": "art. 2 alin. (16) și (17)",
+      "quote": "În vederea asigurării transparenței, toate schemele de ajutor de stat/ajutoarele ad-hoc se publică integral pe pagina web oficială a Ministerului Finanțelor, în termen de maxim 30 de zile de la adoptarea acestora.",
+      "weight": 2
+    },
+    {
+      "text": "Interzice dubla finanțare, excluzând de la ajutorul de stat activele care au primit deja scutire pentru profitul reinvestit.",
+      "article": "art. 3 alin. (13)",
+      "quote": "Activele corporale care beneficiază de prevederile art. 22, alin. (1) din Legea nr. 227/2015 privind Codul Fiscal, cu modificările și completările ulterioare și care funcționează în noua capacitate de producție se exclud din investiția eligibilă pentru ajutor de stat.",
       "weight": 1
     },
     {
-      "text": "Consiliul Concurenței asistă la acordarea ajutoarelor, ceea ce scade riscul încălcării regulilor UE.",
-      "article": "art. 2 alin. (16)",
-      "quote": "Consiliul Concurenței acordă asistență de specialitate în domeniul ajutorului de stat pentru măsurile de sprijin acordate în temeiul prezentei ordonanței de urgență",
+      "text": "Scutește de impozit veniturile din bonificațiile fiscale, astfel încât statul să nu impoziteze recompensa acordată bunilor platnici.",
+      "article": "art. 6 pct. 4",
+      "quote": "veniturile reprezentând bonificația acordată de către organul fiscal.",
+      "weight": 1
+    },
+    {
+      "text": "Oferă microîntreprinderilor un termen de grație până la 31 martie 2026 pentru depunerea bilanțurilor, evitând pierderea regimului fiscal.",
+      "article": "art. 6 pct. 17",
+      "quote": "Pentru aplicarea sistemului de impunere pe veniturile microîntreprinderii în anul fiscal 2026, condiția prevăzută la art. 47 alin. (1) lit. i) se consideră îndeplinită dacă situațiile financiare anuale sunt depuse până la data de 31 martie 2026 inclusiv.",
+      "weight": 1
+    },
+    {
+      "text": "Direcționează scheme de sprijin spre sectoare strategice și folosește grilă de punctaj pentru schema de 1,05 mld. euro din industrie.",
+      "article": "art. 3 alin. (1) și (12)",
+      "quote": "Ordinea analizării cererilor de acord pentru finanțare pentru schema de ajutor de stat prevăzută la alin. (1) lit. a) se stabileste pe baza unei grile de punctaj",
+      "weight": 1
+    },
+    {
+      "text": "Autorizează BID să creeze fonduri și garanții alături de instituții internaționale pentru autorități locale și firme inovatoare.",
+      "article": "art. 4 alin. (1)",
+      "quote": "să participe în și/sau să înființeze vehicule investiționale și fonduri de investiții, în nume și cont stat, care să ofere instrumente de tip participații la capital și alte instrumente financiare",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Fondurile de pensii Pilon II pot pune până la 5% în firme sau fonduri nelistate doar dacă statul sau BID sunt acolo. Economiile salariaților sunt îndreptate spre proiectele statului, iar cumulul cu lit. h³) e neclar.",
-      "article": "art. 5 pct. 1-2 (art. 25 alin. (1) lit. h³), h⁴) din Legea nr. 411/2004)",
-      "quote": "în procent de până la 5% din valoarea totală a activelor fondului de pensii, în situația în care statul român sau Banca de Investiții și Dezvoltare S.A. dețin direct sau indirect acțiuni",
+      "text": "Permite ajutoare ad-hoc personalizate, fără plafon, criterii de punctaj, termene sau motivare a respingerii, lăsând sancțiunile la acte ulterioare.",
+      "article": "art. 2 alin. (2), (10), (13)–(15)",
+      "quote": "pot beneficia de ajutor de stat în baza unor scheme de ajutor de stat sau sub forma unui ajutor ad-hoc personalizat în funcție de nevoile și formele de sprijin solicitate de către aceștia.",
       "weight": 3
     },
     {
-      "text": "Ministerul poate da ajutor „personalizat” unei firme anume, sub orice formă care aduce un avantaj economic. Fără criterii clare, aceasta deschide calea favoritismului.",
-      "article": "art. 2 alin. (2) și alin. (10) lit. f)",
-      "quote": "pot beneficia de ajutor de stat în baza unor scheme de ajutor de stat sau sub forma unui ajutor ad-hoc personalizat în funcție de nevoile și formele de sprijin solicitate de către aceștia",
+      "text": "Permite Pilonului II să investească până la 5% plus încă 5% în capital privat unde statul sau BID au dețineri indirecte, fără plafon comun.",
+      "article": "art. 5 pct. 1 și 2",
+      "quote": "în procent de până la 5% din valoarea totală a activelor fondului de pensii, în situația în care statul român sau Banca de Investiții și Dezvoltare S.A. dețin direct sau indirect acțiuni sau participații în cadrul acestor entități;",
       "weight": 3
     },
     {
-      "text": "Bugetele schemelor însumează circa 3,95 miliarde euro, plus sume nestabilite pentru turism și digitalizare, în plin deficit excesiv. Costul nu e cuantificat în textul primit.",
-      "article": "art. 3 alin. (8)-(9)",
-      "quote": "1,05 miliarde euro pentru fiecare din schemele de ajutor de stat prevăzute la lit. a) și b) și c),",
+      "text": "Angajează 3,95 miliarde euro pentru șase scheme de ajutor și lasă alte două fără plafon, fără a indica surse de finanțare în plin deficit.",
+      "article": "art. 3 alin. (8) și (9)",
+      "quote": "Bugetele schemelor de ajutor de stat prevăzute la alin. (1) lit. g) și h) se stabilesc prin hotărârile de guvern de aprobare a acestor scheme de ajutor de stat.",
       "weight": 3
     },
     {
-      "text": "Ce sectoare și ce firme primesc bani prin BID decide Guvernul prin hotărâre. Tot prin hotărâre se pot muta fondurile între mandate, cu control redus al Parlamentului.",
-      "article": "art. 4 alin. (2), (3), (6)",
-      "quote": "sectoarele vizate și beneficiarii eligibili, identificați în baza unor analize specifice care să reflecte necesitatea intervenției statului, sunt prevăzute în mandatele specifice acordate BID, aprobate prin hotărâre a Guvernului",
-      "weight": 2
-    },
-    {
-      "text": "O schemă de 100 milioane euro e rezervată firmelor deținute de cetățeni români din străinătate. Criteriul cetățeniei riscă să încalce interdicția UE de discriminare.",
-      "article": "art. 3 alin. (1) lit. f)",
-      "quote": "investițiilor realizate de societăți nou înființate cu capital majoritar constituit de către persoane fizice cu cetățenie româna cu domiciliul sau reședința în străinătate",
-      "weight": 2
-    },
-    {
-      "text": "O firmă poate cere direct finanțare, fără concurs între investitori. Nu există termene de răspuns sau cale de contestare, iar ministerul dă un „acord de principiu”.",
-      "article": "art. 2 alin. (7), (12)-(14)",
-      "quote": "fie urmare interesului exprimat direct de către întreprinderile respective, situație în care se depun documentele prevăzute la alin. (12)",
-      "weight": 2
-    },
-    {
-      "text": "Ruta pentru investiții mari cere minimum 1 miliard lei, deci ajutorul ajunge la foarte puține companii mari, nu la IMM-uri.",
-      "article": "art. 2 alin. (6) lit. a)",
-      "quote": "este realizată în România și are o valoare a cheltuielilor eligibile de minim 1 miliard de lei",
-      "weight": 2
-    },
-    {
-      "text": "Rezervele din profit reinvestit nu pot fi folosite 5 ani, iar regula se aplică și celor deja constituite până la finalul lui 2025. Asta schimbă condițiile pentru decizii deja luate.",
-      "article": "art. 6 pct. 6 (art. 26 alin. (9¹) Cod fiscal)",
-      "quote": "Prevederile acestui alineat se aplică și pentru rezervele existente în evidența contabilă la data de 31 decembrie 2025",
-      "weight": 2
-    },
-    {
-      "text": "Prin ordonanță de urgență se schimbă zeci de reguli fiscale, multe fără urgență reală, ca deducerile pentru listare sau termenele de declarare. Există risc de neconstituționalitate.",
-      "article": "Preambul; art. unic",
-      "quote": "în considerarea faptului că aceste elemente vizează interesul general public și constituie situații de urgență și extraordinare a căror reglementare nu poate fi amânată",
-      "weight": 2
-    },
-    {
-      "text": "Printre obiectivele eligibile apare orice sector declarat prioritar de Guvern. Lista devine practic deschisă.",
-      "article": "art. 2 alin. (4) lit. f)",
-      "quote": "sprijinirea sectoarelor de activitate a căror dezvoltare este prioritară conform documentelor de politică publică ale guvernului",
-      "weight": 1
-    },
-    {
-      "text": "Cererile la cinci scheme se analizează după ordinea depunerii, nu după calitate. Câștigă cine depune primul, nu cine are proiectul cel mai bun.",
+      "text": "Atribuie 2,9 miliarde euro din cinci scheme de ajutor în ordine cronologică, nu pe punctaj, favorizând viteza în locul calității proiectelor.",
       "article": "art. 3 alin. (12)",
-      "quote": "pentru schemele de ajutor de stat prevăzute la alin. (1) lit. b) – f) analizarea cererilor de acord se efectuează în ordine cronologică",
+      "quote": "pentru schemele de ajutor de stat prevăzute la alin. (1) lit. b) – f) analizarea cererilor de acord se efectuează în ordine cronologică.",
+      "weight": 3
+    },
+    {
+      "text": "Scoate microîntreprinderile din regim dacă unicul angajat adună peste 30 de zile de concediu medical pe an, penalizând firma pentru boală.",
+      "article": "art. 6 pct. 19",
+      "quote": "cu condiția ca perioada cumulată a concediului pentru incapacitate temporară de muncă, pe întreg anul fiscal, să nu depășească 30 zile. În caz contrar sunt aplicabile, în mod corespunzător, dispozițiile art. 52 alin. (3).",
+      "weight": 2
+    },
+    {
+      "text": "Nu clarifică dacă plafonul de 20% pentru intrarea statului și a BID în firme private este agregat sau permite cumularea lor peste 20%.",
+      "article": "art. 4 alin. (5)",
+      "quote": "fără ca nicio participație individuală, aparținând statului, prin Ministerul Finanțelor, sau Băncii de Investiții și Dezvoltare S.A., să depășească 20% din capitalul social subscris și vărsat.",
+      "weight": 2
+    },
+    {
+      "text": "Alocă 1 miliard lei către BID în 2026 fără sursă concretă și permite Guvernului să mute banii între mandate prin simplă hotărâre.",
+      "article": "art. 4 alin. (6)",
+      "quote": "Pentru anul 2026, se autorizează Ministerul Finanțelor să transfere, din bugetul de stat prin bugetul Ministerului Finanțelor - Acțiuni generale, suma de 1 miliard de lei la dispozitia BID",
+      "weight": 2
+    },
+    {
+      "text": "Calculează plata anticipată din trimestrul I la impozitul pe profit din profitul contabil, fără deduceri fiscale, putând umfla plățile în avans.",
+      "article": "art. 6 pct. 11",
+      "quote": "plata anticipată pentru trimestrul I al fiecărui an fiscal/an fiscal modificat se calculează prin aplicarea cotei de impozit asupra profitului contabil al perioadei pentru care se efectuează plata anticipată.",
+      "weight": 2
+    },
+    {
+      "text": "Blochează pe 5 ani și rezervele din profit reinvestit deja existente la finalul lui 2025, fără a clarifica de când curge acest termen.",
+      "article": "art. 6 pct. 6",
+      "quote": "Prevederile acestui alineat se aplică și pentru rezervele existente în evidența contabilă la data de 31 decembrie 2025, respectiv în ultima zi a anului fiscal modificat care se încheie în anul 2026.",
+      "weight": 2
+    },
+    {
+      "text": "Rezervă o schemă de 100 milioane euro exclusiv firmelor deținute de cetățeni români din străinătate, riscând conflict cu dreptul UE privind nediscriminarea.",
+      "article": "art. 3 alin. (1) lit. f) și alin. (8) lit. d)",
+      "quote": "investițiilor realizate de societăți nou înființate cu capital majoritar constituit de către persoane fizice cu cetățenie româna cu domiciliul sau reședința în străinătate.",
+      "weight": 2
+    },
+    {
+      "text": "Aprobă prin ordonanță de urgență scheme până în 2032 și reforme fiscale majore, ocolind dezbaterea parlamentară fără o urgență reală pe termen lung.",
+      "article": "art. unic și art. 3 alin. (7)",
+      "quote": "Emiterea acordurilor de finanțare în baza schemelor de ajutor de stat prevăzute la alin. (1) lit. a) - c) se realizează în perioada 2026-2032",
+      "weight": 2
+    },
+    {
+      "text": "Conține trimiteri greșite la alineate și fraze trunchiate, creând confuzii juridice și risc de blocaje la evaluarea proiectelor.",
+      "article": "art. 2 alin. (13)–(14) și art. 3 alin. (4) și (11)",
+      "quote": "După evaluarea efectuată pe baza documentelor de la alin. (1), în situația în care se constată îndeplinirea criteriilor prevăzute de prezentul articol, Ministerul Finanțelor emite un acord de principiu..",
       "weight": 1
     },
     {
-      "text": "Plata anticipată din trimestrul I se calculează pe profitul contabil, care poate diferi de cel fiscal. Unele firme ar putea plăti în avans mai mult decât datorează.",
-      "article": "art. 6 pct. 11 (art. 41 alin. (10¹) Cod fiscal)",
-      "quote": "plata anticipată pentru trimestrul I al fiecărui an fiscal/an fiscal modificat se calculează prin aplicarea cotei de impozit asupra profitului contabil",
-      "weight": 1
-    },
-    {
-      "text": "Textul are trimiteri greșite: alin. (1) în loc de (12) la art. 2, alin. (2) în loc de (3) la art. 3. Aceste erori complică aplicarea și interpretarea.",
-      "article": "art. 2 alin. (13)-(14); art. 3 alin. (11)",
-      "quote": "După evaluarea efectuată pe baza documentelor de la alin. (1), în situația în care se constată îndeplinirea criteriilor prevăzute de prezentul articol",
-      "weight": 1
-    },
-    {
-      "text": "Nu e clar ce minister administrează acțiunile luate de stat în schimbul ajutorului, deci răspunderea pentru ele rămâne vagă.",
-      "article": "art. 2 alin. (18)",
-      "quote": "În situația în care măsura de ajutor privește aportul la capital, administrarea participațiilor statului rezultate se realizează de către ministerul de resort",
+      "text": "Lasă la un ordin al ministrului finanțelor lista cheltuielilor eligibile pentru deducerea de listare la bursă, scăzând previzibilitatea.",
+      "article": "art. 6 pct. 5",
+      "quote": "Cheltuielile aferente procesului de admitere/menținere la tranzaționare a acțiunilor, luate în calcul pentru aplicarea deducerilor suplimentare prevăzute la alin. (14), sunt cele stabilite prin ordin al ministrului finanțelor.",
       "weight": 1
     }
   ],
-  "fix": {
-    "text": "Eliminarea lit. h⁴) pentru fondurile Pilonului II și a ajutorului ad-hoc „personalizat” cu forme de sprijin nelimitate, păstrând doar scheme cu criterii publice.",
-    "removes": [
-      0,
-      1
-    ],
-    "levelAfter": "yellow",
-    "scoreAfter": 3
-  },
+  "fix": null,
   "quotes": {
-    "checked": 28,
-    "verified": 28
+    "checked": 27,
+    "verified": 27
   }
 }

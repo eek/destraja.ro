@@ -1,7 +1,7 @@
 {
   "slug": "b624-2026",
   "billId": "B624/2026",
-  "checkedAt": "2026-11-16T09:49:24.753Z",
+  "checkedAt": "2026-11-23T11:16:10.884Z",
   "indexCheckedAt": "2026-11-11T11:12:44.631Z",
   "models": {
     "agy": "ok",
@@ -16,9 +16,11 @@
       "domain": "ziaruldemaramures.ro",
       "publishedAt": "2026-11-11",
       "foundBy": [
-        "index"
+        "index",
+        "agy",
+        "claude"
       ],
-      "quote": "Deputatul Daniel Ciornei anunta faptul că AUR a depus la Parlament un o propunere legislativă pentru protejarea consumatorilor împotriva deconectării, întreruperii sau limitării furnizării serviciilor esențiale.",
+      "quote": "Proiectul nu anulează datoriile și nu scutește consumatorii de plata acestora",
       "match": "quote",
       "firstSeenAt": "2026-11-11",
       "decision": {
@@ -61,9 +63,10 @@
       "publishedAt": "2026-11-11",
       "foundBy": [
         "index",
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "O propunere legislativă depusă la Senat de 49 de parlamentari AUR propune interzicerea întreruperii serviciilor",
+      "quote": "O propunere legislativă depusă la Senat de 49 de parlamentari AUR propune interzicerea întreruperii serviciilor pentru datorii mai mici decât echivalentul a 50 de euro sau decât valoarea medie a facturilor din ultimele 12 luni, fiind luat în calcul pragul mai mare.",
       "match": "quote",
       "firstSeenAt": "2026-11-11",
       "decision": {
@@ -185,9 +188,61 @@
           }
         }
       }
+    },
+    {
+      "url": "https://www.cotidianul.ro/deconectarea-de-la-utilitati-amanata-pentru-intarzierile-la-plata-de-cativa-zeci-de-lei-cine-ar-fi-beneficiarii-proiectului-de-lege",
+      "title": "Deconectarea de la utilități, amânată pentru întârzierile la plată de câțiva zeci de lei. Cine ar fi beneficiarii proiectului de lege",
+      "outlet": "Cotidianul",
+      "domain": "cotidianul.ro",
+      "publishedAt": "2026-11-09",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Alianța pentru Unirea Românilor (AUR) a depus o propunere legislativă pentru protejarea consumatorilor împotriva deconectării, întreruperii sau limitării furnizării serviciilor esențiale.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    },
+    {
+      "url": "https://www.digi24.ro/digieconomic/energie/romanii-nu-ar-mai-putea-fi-deconectati-de-la-utilitati-pentru-datorii-mici-proiect-depus-la-senat-126273",
+      "title": "Românii nu ar mai putea fi deconectați de la utilități pentru datorii mici. Proiect depus la Senat",
+      "outlet": "Digi24",
+      "domain": "digi24.ro",
+      "publishedAt": "2026-11-09",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "În cazul comunicațiilor electronice, inclusiv al serviciilor de telefonie și internet, inițiativa propune același prag de protecție, stabilit în funcție de echivalentul a 50 de euro sau media facturilor din ultimele 12 luni, iar pentru datoriile inferioare acestuia, deconectarea ar fi interzisă, cu excepția restanțelor menținute mai mult de 12 luni consecutive, în condițiile prevăzute de proiect.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    },
+    {
+      "url": "https://www.mediafax.ro/politic/aur-a-depus-un-proiect-de-lege-pentru-protejarea-romanilor-impotriva-deconectarii-de-la-serviciile-esentiale-pentru-datorii-mici-23840281",
+      "title": "AUR a depus un proiect de lege pentru protejarea românilor împotriva deconectării de la serviciile esențiale pentru datorii mici",
+      "outlet": "Mediafax",
+      "domain": "mediafax.ro",
+      "publishedAt": "2026-11-09",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Deputatul AUR Dan Tanasă a anunțat că prin adoptarea proiectului de lege furnizorii nu vor mai putea folosi deconectarea",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
     }
   ],
   "pending": [
+    {
+      "url": "https://www.activenews.ro/stiri/Am-putea-scapa-de-deconectarea-de-la-curent-gaze-si-internet-pentru-datorii-mici.-AUR-a-depus-un-proiect-de-lege-pentru-protejarea-romanilor-impotriva-deconectarii-de-la-serviciile-esentiale-pentru-datorii-mici-209258",
+      "title": "Am putea scăpa de deconectarea de la curent, gaze și internet pentru datorii mici. AUR a depus un proiect de lege pentru protejarea românilor împotriva deconectării de la serviciile esențiale pentru datorii mici",
+      "outlet": "ActiveNews - Știri necenzurate",
+      "domain": "activenews.ro",
+      "publishedAt": "2026-11-10",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul nu anulează datoriile.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    },
     {
       "url": "https://www.bugetul.ro/daca-ai-datorii-mici-la-curent-apa-sau-gaze-ai-putea-fi-protejat-de-deconectare-un-proiect-in-acest-sens-a-ajuns-deja-in-senat",
       "title": "Dacă ai datorii mici la curent, apă sau gaze, ai putea fi protejat de deconectare. Un proiect în acest sens a ajuns deja în Senat",
@@ -231,6 +286,32 @@
           }
         }
       }
+    },
+    {
+      "url": "https://www.dobrogeaonline.ro/schimbare-majora-in-plata-facturilor-romanii-nu-ar-mai-putea-fi-deconectati-de-la-electricitate-gaze-sau-internet-pentru-restante-mici",
+      "title": "Schimbare majoră în plata facturilor: Românii nu ar mai putea fi deconectați de la electricitate, gaze sau internet pentru restanțe mici - Dobrogea Online",
+      "outlet": "Dobrogea Online",
+      "domain": "dobrogeaonline.ro",
+      "publishedAt": "2026-11-10",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Inițiativa a fost înregistrată la Senat luni, 9 noiembrie 2026, sub numărul B624/2026.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    },
+    {
+      "url": "https://jurnalcalarasi.ro/proiect-de-lege-fara-deconectari-de-la-utilitati-pentru-datorii-sub-50-de-euro",
+      "title": "Proiect de lege: fără deconectări de la utilități pentru datorii sub 50 de euro",
+      "outlet": "Jurnal Călărași",
+      "domain": "jurnalcalarasi.ro",
+      "publishedAt": "2026-11-10",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Deputatul AUR Dan Tanasă a depus un proiect de lege care ar interzice deconectarea consumatorilor de la utilități pentru datorii mici.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
     },
     {
       "url": "https://mediaflux.ro/proiect-in-parlament-romanii-ar-putea-scapa-de-deconectarea-de-la-curent-gaze-si-internet-pentru-datorii-mici",
@@ -321,6 +402,19 @@
       }
     },
     {
+      "url": "https://sibiu100.ro/economie/romanii-ar-putea-scapa-de-debransari-pentru-datorii-mici-ce-prag-de-restanta-propune-un-nou-proiect-de-lege",
+      "title": "Românii ar putea scăpa de debranșări pentru datorii mici! Ce prag de restanță propune un nou proiect de lege - Sibiu 100",
+      "outlet": "Sibiu 100",
+      "domain": "sibiu100.ro",
+      "publishedAt": "2026-11-10",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Inițiativa B624/2026 a fost înregistrată la Senat pe 9 noiembrie 2026, fără solicitarea procedurii de urgență.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    },
+    {
       "url": "https://www.amosnews.ro/aur-a-depus-un-proiect-de-lege-pentru-protejarea-romanilor-impotriva-deconectarii-de-la-serviciile-esentiale-pentru-datorii-mici",
       "title": "AUR a depus un proiect de lege pentru protejarea românilor împotriva deconectării de la serviciile esențiale pentru datorii mici -",
       "outlet": "amosnews.ro",
@@ -363,6 +457,19 @@
           }
         }
       }
+    },
+    {
+      "url": "https://www.ziuanews.ro/stiri/revolu-ie-la-plata-facturilor-romanii-ar-putea-scapa-de-deconectarea-de-la-curent-gaze-i-internet-pentru-datorii-mici-1597594",
+      "title": "Revoluție la plata facturilor: Românii ar putea scăpa de deconectarea de la curent, gaze și internet pentru datorii mici",
+      "outlet": "ZIUAnews.ro",
+      "domain": "ziuanews.ro",
+      "publishedAt": null,
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Inițiativa legislativă a fost înregistrată la Senat luni, 9 noiembrie 2026, sub numărul B624/2026, potrivit fișei oficiale",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
     }
   ]
 }

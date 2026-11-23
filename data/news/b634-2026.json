@@ -1,13 +1,12 @@
 {
   "slug": "b634-2026",
   "billId": "B634/2026",
-  "checkedAt": "2026-11-16T09:55:40.539Z",
+  "checkedAt": "2026-11-23T11:23:53.178Z",
   "indexCheckedAt": "2026-11-18T11:08:24.284Z",
   "models": {
-    "agy": "ok",
+    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 15m26s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 15m26s.\",\"status\":\"RESOURCE_EXHAUSTED\",",
     "claude": "ok",
-    "codex": "ok",
-    "index": "ok"
+    "codex": "ok"
   },
   "articles": [
     {
@@ -17,9 +16,10 @@
       "domain": "puterea.ro",
       "publishedAt": "2026-11-17",
       "foundBy": [
-        "index"
+        "index",
+        "claude"
       ],
-      "quote": "Un proiect de lege înregistrat la Senat ar permite fermierilor cu activități de dimensiuni reduse să vândă în orice spațiu accesibil publicului, cu condiția să dețină un certificat valabil de producător.",
+      "quote": "Documentul a fost depus la Senat, urmând să fie dezbătut ulterior și în Camera Deputaților.",
       "match": "quote",
       "firstSeenAt": "2026-11-18",
       "decision": {
@@ -61,9 +61,10 @@
       "domain": "romaniatv.net",
       "publishedAt": "2026-11-17",
       "foundBy": [
-        "index"
+        "index",
+        "claude"
       ],
-      "quote": "Un proiect de lege pentru completarea Legii nr. 145/2014 propune ca producătorii cu o cifră de afaceri anuală de până la 100.000 de euro să poată vinde produse agricole și alimentare în orice loc, inclusiv în parcări publice sau private deschise accesului public, în baza certificatului de producător valabil, potrivit agrointel.ro .",
+      "quote": "Măsura este prevăzută într-un proiect de lege depus la Senat.",
       "match": "quote",
       "firstSeenAt": "2026-11-18",
       "decision": {
@@ -99,5 +100,32 @@
       }
     }
   ],
-  "pending": []
+  "pending": [
+    {
+      "url": "https://agrointel.ro/363273/micii-producatori-isi-vor-putea-vinde-produsele-in-parcarile-publice-si-private-fara-a-plati-nicio-taxa-legea-in-parlament",
+      "title": "Micii producători își vor putea vinde produsele în parcările publice și private, fără a plăti nicio taxă. Legea, în Parlament",
+      "outlet": "agrointel.ro",
+      "domain": "agrointel.ro",
+      "publishedAt": "2026-11-16",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Ulterior proiectul trebuie semnat de președintele Nicușor Dan și publicat în Monitorul Oficial pentru a intra în vigoare.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    },
+    {
+      "url": "https://stiri.botosani.ro/stiri/actualitate/micii-producatori-agricoli-ar-putea-vinde-produsele-in-parcari-fara-a-plati-nicio-taxa-legea-a-ajuns-in-parlament.html",
+      "title": "Micii producători agricoli ar putea vinde produsele în parcări fără a plăti nicio taxă, legea a ajuns în Parlament!",
+      "outlet": "Știri Botoșani - Cel mai citit ziar online de știri din Botoșani!",
+      "domain": "stiri.botosani.ro",
+      "publishedAt": null,
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Prevederea stă în propunerea legislativă B634/2026, înregistrată la Senat pe 11 noiembrie 2026.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    }
+  ]
 }

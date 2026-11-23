@@ -1,0 +1,15 @@
+# Parlamentul României Camera Deputaților
+
+Către:
+
+# Biroul Permanent al Senatului
+
+Domnului Mircea Abrudean, Președintele Senatului
+
+În conformitate cu prevederile art. 92 alin (1) din Regulamentul Camerei Deputaților, republicat, și al art. 74 alin (4) din Constituția României, republicată, vă înaintăm spre dezbatere și adoptare propunerea legislativă pentru completarea Legii nr. 307/2006 privind apărarea împotriva incendiilor, însoțită de expunerea de motive.
+
+Cu deosebită considerație,
+
+Inițiator,
+
+Florin-ClăudiuRôman, deputat PNL

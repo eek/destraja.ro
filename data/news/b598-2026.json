@@ -1,7 +1,7 @@
 {
   "slug": "b598-2026",
   "billId": "B598/2026",
-  "checkedAt": "2026-11-16T09:35:29.298Z",
+  "checkedAt": "2026-11-23T10:57:12.070Z",
   "indexCheckedAt": "2026-11-16T08:35:07.913Z",
   "models": {
     "agy": "ok",
@@ -11,14 +11,15 @@
   "articles": [
     {
       "url": "https://www.stiripesurse.ro/sprijin-financiar-pentru-tinerii-cu-venituri-mici-bani-chirie-transport_3935515",
-      "title": "Sprijin financiar pentru tinerii cu venituri mici.",
+      "title": "Sprijin financiar pentru tinerii cu venituri mici. Câți bani ar putea primi lunar pentru chirie și transport",
       "outlet": "Știri pe surse",
       "domain": "stiripesurse.ro",
       "publishedAt": "2026-11-10",
       "foundBy": [
-        "index"
+        "index",
+        "claude"
       ],
-      "quote": "Tineri i cu vârste între 18 și 29 de ani, angajați cu normă întreagă și cu venituri de cel mult 4.000 de lei net, ar putea beneficia de un ajutor lunar pentru plata chirie i, de până la 600 de lei în Cluj-Napoca și București, potrivit unui proiect de lege depus la Senat.",
+      "quote": "Inițiativa legislativă este depusă la Senat.",
       "match": "quote",
       "firstSeenAt": "2026-11-11",
       "decision": {
@@ -500,7 +501,8 @@
       "domain": "spotmedia.ro",
       "publishedAt": "2026-11-05",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
       "quote": "Proiectul de lege a fost depus în Parlament de deputații USR Alin Stoica și Diana Stoica",
       "match": "quote",
@@ -636,7 +638,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Pentru a produce efecte, inițiativa trebuie să fie adoptată, promulgată și publicată în Monitorul Oficial.",
+      "quote": "O inițiativă legislativă depusă la Senat propune un ajutor lunar pentru chirie de până la 600 de lei și reducerea cu 50% a unor abonamente de transport, pentru angajații cu vârste între 18 și 29 de ani și venituri salariale nete de cel mult 4.000 de lei pe lună.",
       "match": "quote",
       "firstSeenAt": "2026-11-04",
       "decision": {
@@ -854,9 +856,10 @@
       "domain": "edupedu.ro",
       "publishedAt": "2026-10-30",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "Inițiativa legislativă prevede și reducerea la jumătate a costurilor la abonamentele pentru transportul în comun",
+      "quote": "Inițiativa se adresează tinerilor care:",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {
@@ -1111,9 +1114,48 @@
           }
         }
       }
+    },
+    {
+      "url": "https://agerpres.ro/politic/2026/11/05/proiect-bani-de-chirie-pentru-tinerii-care-castiga-pana-la-4-000-de-lei--1610378",
+      "title": "Proiect: Bani de chirie pentru tinerii care câștigă până la 4.000 de lei",
+      "outlet": "Agerpres",
+      "domain": "agerpres.ro",
+      "publishedAt": null,
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Un proiect legislativ înregistrat la Parlament prevede că tinerii cu vârste cuprinse între 18-29 de ani care câștigă până la 4.000 de lei pe lună vor beneficia de ajutor pentru plata chiriei și de transport la jumătate de preț.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
     }
   ],
   "pending": [
+    {
+      "url": "https://www.undelucram.ro/ro/cumlucram/proiect-lege-chirie-tineri-600-lei-prag-4000-2523",
+      "title": "Până la 600 de lei sprijin pentru chirie pentru tinerii cu venituri sub 4.000 de lei. Ce prevede proiectul",
+      "outlet": "Undelucram.ro",
+      "domain": "undelucram.ro",
+      "publishedAt": "2026-11-10",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul nu e încă lege, așa că nu îți construi bugetul pe acești bani.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    },
+    {
+      "url": "https://www.europafm.ro/ajutor-chirie-tineri-venituri-4000-lei",
+      "title": "Tinerii cu venituri de până la 4.000 de lei ar putea primi ajutor de la stat pentru chirie. Proiectul de lege, depus la Parlament | AUDIO",
+      "outlet": "Europa FM",
+      "domain": "europafm.ro",
+      "publishedAt": "2026-11-05",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Un proiect de lege depus în Parlament prevede ajutoare lunare de până la 600 de lei pentru chirie și reduceri de 50% la transportul local și la abonamentele de tren.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-23"
+    },
     {
       "url": "https://www.bugetul.ro/tinerii-intre-18-si-29-de-ani-cu-salariul-de-maximum-4-000-de-lei-ar-putea-primi-bani-pentru-chirie-valoarea-ajutorului-si-celelalte-beneficii-propuse",
       "title": "Tinerii între 18 și 29 de ani, cu salariul de maximum 4.000 de lei, ar putea primi bani pentru chirie. Valoarea ajutorului și celelalte beneficii propuse",

@@ -13,6 +13,8 @@ import ModelsVerdict from '@/components/bills/ModelsVerdict';
 import { getBalance } from '@/lib/balance';
 import LiveDeadline from '@/components/bills/LiveDeadline';
 import BillRoute from '@/components/bills/BillRoute';
+import MoPublication from '@/components/mo/MoPublication';
+import { getMoLaw } from '@/lib/mo';
 import BillAgenda from '@/components/bills/BillAgenda';
 import { getBillAgenda } from '@/lib/agenda';
 import BillReports from '@/components/bills/BillReports';
@@ -82,6 +84,8 @@ export default async function BillDetailPage({ params }: PageProps) {
   const corrected = manual.length > 0 || reports.some((r) => r.status === 'fixed');
   const news = bill.news;
   const builtOn = todayISO();
+  // Legea publicată, prin fișa de la Cameră a proiectului (data/mo/legi.json).
+  const mo = await getMoLaw(slug);
   const lite = toLite(bill);
   const c = bill.analysis.consensus;
   const history = await getBillHistory(slug);
@@ -199,6 +203,7 @@ export default async function BillDetailPage({ params }: PageProps) {
         {balance && <BillBalance data={balance} level={c.riskLevel} />}
 
         <BillRoute bill={bill} />
+        {mo && <MoPublication law={mo.law} readOn={mo.readOn} />}
         <BillAgenda items={agenda} billId={bill.id} />
         <BillVotes data={votes} pages={mpPages} billId={bill.id} />
 

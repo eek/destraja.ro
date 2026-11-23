@@ -18,6 +18,8 @@ import {
 import { dayDiff, shortCommittee, shortDate } from '@/lib/cdep-text';
 import { resolveStatus } from '@/lib/bill-status';
 import BillStatusCard from '@/components/camera/BillStatusCard';
+import MoPublication from '@/components/mo/MoPublication';
+import { getMoLaw } from '@/lib/mo';
 import { RISK } from '@/lib/risk';
 import { formatDateRo, todayISO } from '@/lib/format';
 import { trackAttrs } from '@/lib/analytics';
@@ -101,7 +103,10 @@ export default async function CameraBillPage({ params }: PageProps) {
   const happenings = chamberHappenings(bill, await getBillHistory(slug), since, versions);
   const happeningsNote = analysedOn ? `De la analiza noastră din ${formatDateRo(analysedOn)}.` : 'În ultimele 30 de zile. Proiectul nu are încă analiza noastră.';
   // Stadiul din pașii și stadiul fișei (citită zilnic), nu din lista Camerei, care rămâne uneori în urmă.
-  const status = resolveStatus(bill, builtOn);
+  const resolved = resolveStatus(bill, builtOn);
+  // Publicarea în Monitorul Oficial (data/mo/legi.json): când o avem, cardul nu mai spune că data publicării lipsește.
+  const mo = await getMoLaw(slug);
+  const status = mo && (resolved.key === 'lege' || resolved.key === 'promulgat') ? { ...resolved, nextLabel: null, next: null } : resolved;
   const stage = status.stage;
   const atChamber = ['comisii', 'raport', 'plen', 'altele'].includes(stage);
   // Proiectele din anii trecuți încă în dezbatere (scripts/straja-cdep-vechi.mjs): anul înregistrării se vede lângă număr.
@@ -257,6 +262,7 @@ export default async function CameraBillPage({ params }: PageProps) {
         </header>
 
         <BillStatusCard status={status} readAt={bill.cititLa} builtOn={builtOn} />
+        {mo && <MoPublication law={mo.law} readOn={mo.readOn} />}
 
         {f.consultare && (
           <Consultation c={f.consultare} builtOn={builtOn} billId={bill.numar} />

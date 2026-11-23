@@ -247,3 +247,59 @@ test('voturile zilei: două voturi finale rămân două; „respingerea” din t
   const phcd = app({ punct: { ...app().punct, numar: 'PHCD 79/2026', cod: '1455' } });
   assert.deepEqual(outcomesFor(phcd, none, TODAY, null, rec([vot({ numar: 'PLX 5/2026', idp: 1455 })])), []);
 });
+
+// Rândurile cu numele comisiei și pașii din aceeași zi, cum îi citește parseSheet din 23 noiembrie 2026 (PL-x 429/2026).
+test('fișa Camerei: avizul și raportul se leagă de comisie după numele de pe rând', () => {
+  const com = app({ comisieId: '3', comisie: 'Comisia pentru industrii şi servicii', plen: false, zi: '2026-06-24' });
+  const rows = [
+    { camera: 'Camera Deputaților', data: '30.06.2026', actiune: 'primire aviz de la: Comisia pentru industrii și servicii' },
+    { camera: 'Camera Deputaților', data: '30.06.2026', actiune: 'primire aviz de la: Comisia pentru politică economică, reformă și privatizare' },
+    {
+      camera: 'Camera Deputaților',
+      data: '30.06.2026',
+      actiune: 'primire raport favorabil (3 amend. admise) de la: Comisia pentru apărare, ordine publică și siguranță națională; Comisia pentru industrii și servicii — face parte din categoria legilor organice',
+    },
+  ];
+  const o = outcomesFor(com, camera(rows, ['12']), '2026-07-20');
+  assert.deepEqual(
+    o.map((x) => [x.kind, x.text, x.date]),
+    [
+      ['aviz', 'Aviz al comisiei', '2026-06-30'],
+      ['raport', 'Raport favorabil, cu 3 amendamente admise, primit de Cameră', '2026-06-30'],
+    ],
+    'raportul comun e și al ei, deși nu e printre comisiile ultimei trimiteri',
+  );
+  const other = outcomesFor({ ...com, comisieId: '2', comisie: 'Comisia pentru buget, finanțe și bănci' }, camera(rows, ['2']), '2026-07-20');
+  assert.deepEqual(other, [], 'cu nume pe rând, idc-ul raportului nu mai decide');
+  // Avizul din fișă și același aviz de pe pagina comisiei: un singur rând, cu amândouă sursele.
+  const rec = { plen: new Map(), comisii: new Map([['3', [{ tip: 'aviz', data: '2026-06-29', pdf: 'https://www.cdep.ro/av429.pdf', idp: 1, numar: 'PLX 1/2026', comune: [] }]]]) };
+  const merged = outcomesFor(com, camera(rows.slice(0, 1)), '2026-07-20', null, rec);
+  assert.equal(merged.length, 1);
+  assert.deepEqual(merged[0].sources.map((s) => s.label), ['Fișa proiectului pe cdep.ro', 'Avizul comisiei pe cdep.ro']);
+});
+
+test('plenul Camerei: votul final fără majoritate cu retrimitere, dezbaterea cu nota din paranteză, respingerea definitivă', () => {
+  const vote = camera([
+    { camera: 'Camera Deputaților', data: '30.06.2026', actiune: 'dezbatere în plenul Camerei Deputatilor' },
+    {
+      camera: 'Camera Deputaților',
+      data: '30.06.2026',
+      actiune:
+        'vot final adoptare - nu a fost întrunită majoritatea absolută (majoritatea absolută = jumătate plus unu din numărul total al deputaților/deputaților și senatorilor) rezultat vot : pentru=110 contra=16 abtineri=107 (prezenti=292) s-a dispus retrimiterea la comisie pentru un nou raport Comisia pentru apărare, ordine publică și siguranță națională — consultati stenograma sedintei sau înregistrarea video',
+    },
+  ]);
+  const o = outcomesFor(app({ zi: '2026-06-30' }), vote, '2026-07-20');
+  assert.deepEqual(
+    o.map((x) => [x.kind, x.text, x.detail]),
+    [
+      ['dezbatut', 'Dezbătut în plen', null],
+      ['retrimis', 'Retrimis la comisie după votul final', '110 pentru, 16 contra, 107 abțineri'],
+    ],
+  );
+  const failed = camera([{ camera: 'Camera Deputaților', data: '18.11.2026', actiune: 'vot final respingere - fără majoritate calificată rezultat vot (pentru respingere): pentru=115 contra=149 abtineri=25' }]);
+  assert.deepEqual(outcomesFor(app(), failed, TODAY).map((x) => [x.kind, x.text]), [['alt', 'Vot fără majoritatea cerută în Camera Deputaților']]);
+  const back = camera([{ camera: 'Camera Deputaților', data: '18.11.2026', actiune: 'dezbatere în plenul Camerei Deputatilor( retrimis comisiilor ) consultati stenograma sedintei sau înregistrarea video' }]);
+  assert.deepEqual(outcomesFor(app(), back, TODAY).map((x) => [x.kind, x.text]), [['retrimis', 'Retrimis la comisie']]);
+  const end = camera([{ camera: 'Camera Deputaților', data: '18.11.2026', actiune: 'încetarea procedurii legislative prin respingere definitiva de catre Camera Deputatilor' }]);
+  assert.deepEqual(outcomesFor(app(), end, TODAY).map((x) => [x.kind, x.text]), [['respins', 'Respins definitiv de Camera Deputaților']]);
+});

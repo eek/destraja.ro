@@ -10,8 +10,8 @@
 //            final” + „adoptare”/„respingere”, „PL-x 447/2025 Retrimitere la comisie”), cifrele și, pe un rând gri
 //            deasupra votului, proiectul (cu link la fișă). Pagina nu spune dacă votul a trecut.
 //   upl_com2015.lista?idc=N&an=AN  documentele unei comisii a Camerei: avizele și rapoartele ei (PDF), cu data, numărul
-//            proiectului (cu link la fișă) și, la rapoartele comune, celelalte comisii. Fișa proiectului scrie doar
-//            „primire aviz de la:”, fără comisie: lista comisiei spune a cui e avizul.
+//            proiectului (cu link la fișă) și, la rapoartele comune, celelalte comisii. Fișa proiectului scrie avizul
+//            („primire aviz de la: Comisia …”) abia când comisia raportoare îl primește; lista comisiei îl are de la data lui.
 //
 // Aici doar citim paginile, în date simple; ce înseamnă pentru o ședință din agendă hotărăște src/lib/agenda-outcomes.ts.
 import { CDEP, clean } from './cdep.mjs';

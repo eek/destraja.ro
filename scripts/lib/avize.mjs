@@ -58,7 +58,7 @@ export function timelineVerdict(action) {
   const admise = Number(a.match(/(\d+)\s*amend\.?\s*admise/)?.[1] ?? 0);
   const respinse = Number(a.match(/(\d+)\s*amend\.?\s*respins/)?.[1] ?? 0);
   const verdict = /de respingere/.test(a) ? 'respingere' : /favorabil/.test(a) ? (admise > 0 ? 'adoptare_cu_amendamente' : 'adoptare') : null;
-  return { verdict, docType, admise, respinse, quote: clean(action).replace(/\s*de la:?\s*$/i, '') };
+  return { verdict, docType, admise, respinse, quote: clean(action).replace(/\s*\bde la(?::.*)?$/i, '') };
 }
 
 /**

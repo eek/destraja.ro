@@ -222,6 +222,64 @@ export function parseList(html) {
   return rows;
 }
 
+// Culoarea celulei cu data, în derularea procedurii: albastru la Senat, portocaliu la Cameră.
+const SIDE = /bgcolor="?#(dfefff|fff0d8)/i;
+
+/**
+ * Rândurile primului tabel din `html`, fiecare cu celulele lui ({ open: eticheta <td>, html: conținutul }). Tabelele din
+ * celule (comisiile de la „primire aviz de la:”, documentele) rămân întregi în celula lor: o expresie ne-lacomă
+ * <td>…</td> s-ar opri la primul </td> din tabelul interior și ar pierde ce urmează (numele comisiei).
+ */
+export function procedureRows(html) {
+  const rows = [];
+  let depth = 0;
+  let row = null;
+  let cell = null;
+  const endCell = (at) => {
+    if (row && cell) row.push({ open: cell.open, html: html.slice(cell.from, at) });
+    cell = null;
+  };
+  const endRow = (at) => {
+    endCell(at);
+    if (row) rows.push(row);
+    row = null;
+  };
+  for (const m of html.matchAll(/<(\/?)(table|tr|td|th)\b[^>]*>/gi)) {
+    const [tag, close, name] = m;
+    if (/^table$/i.test(name)) {
+      if (close && depth === 0) continue;
+      depth += close ? -1 : 1;
+      if (depth === 0) {
+        endRow(m.index);
+        break;
+      }
+    } else if (depth === 1) {
+      if (/^tr$/i.test(name)) {
+        endRow(m.index);
+        if (!close) row = [];
+      } else {
+        endCell(m.index);
+        if (!close && row) cell = { open: tag, from: m.index + tag.length };
+      }
+    }
+  }
+  endRow(html.length);
+  return rows;
+}
+
+/**
+ * Textul unei celule de acțiune. Un tabel din celulă devine numele comisiilor din el („primire aviz de la: Comisia pentru
+ * industrii și servicii”, mai multe despărțite cu „; ”, apoi „ — ” înaintea notei care urmează, dacă e una: termenele,
+ * „face parte din categoria legilor organice”); unul fără comisii (PDF-urile, „Forma adoptată de Senat”) dispare.
+ */
+const actionText = (html = '') =>
+  clean(
+    html.replace(/<table\b[\s\S]*?<\/table>/gi, (t) => {
+      const names = [...t.matchAll(/structura2015\.co\?idc=\d+[^"]*">([^<]+)<\/a>/g)].map((m) => clean(m[1]));
+      return names.length ? ` ${names.join('; ')} — ` : ' ';
+    }),
+  ).replace(/(\s—)+$/, '').replace(/—(\s—)+/g, '—');
+
 /** Fișa unui proiect: numerele (BPI, Cameră, Senat), camera decizională, stadiul, inițiatorii și derularea procedurii. */
 export function parseSheet(html) {
   const start = html.indexOf('Nr. înregistrare');
@@ -251,18 +309,23 @@ export function parseSheet(html) {
   }
   const timeline = [];
   const proc = html.slice(html.indexOf('Derularea procedurii'));
-  for (const [, row] of proc.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)) {
-    const cells = [...row.matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map((c) => clean(c[1]));
-    const date = cells.find((c) => /^\d{2}\.\d{2}\.\d{4}$/.test(c));
-    if (!date) continue;
-    const i = cells.indexOf(date);
-    const action = cells.slice(i + 1).find((c) => c.length > 3);
-    // Camera se vede după culoarea celulei cu data: albastru la Senat, portocaliu la Cameră.
-    const color = row.match(/bgcolor="#(dfefff|fff0d8)"[^>]*>\s*\d{2}\.\d{2}\.\d{4}/i)?.[1]?.toLowerCase();
+  // Al doilea pas din aceeași zi are celula datei goală, doar colorată: ia data rândului de deasupra. Până pe 23 noiembrie
+  // 2026 rândurile acestea se pierdeau (o treime din pași: raportul, dezbaterea și votul final din aceeași zi).
+  let day = null;
+  for (const cells of procedureRows(proc)) {
+    const first = clean(cells[0]?.html);
+    const date = first.match(/^\d{2}\.\d{2}\.\d{4}$/)?.[0];
+    if (date) day = date;
+    else if (!day || first !== '' || !/bgcolor/i.test(cells[0]?.open ?? '')) continue;
+    const action = cells.slice(1).map((c) => actionText(c.html)).find((c) => c.length > 3);
+    if (!action) continue;
+    // Camera se vede după culoarea celulei cu data, și a celei goale: albastru la Senat, portocaliu la Cameră; galbenul
+    // pal (#ffffe8) de după votul final nu e al niciunei camere.
+    const color = cells[0].open.match(SIDE)?.[1]?.toLowerCase();
     const camera = color === 'dfefff' ? 'Senat' : color === 'fff0d8' ? 'Camera Deputaților' : null;
     // Votul din plen are linkul „rezultat vot” către lista nominală (scripts/straja-votes.mjs o citește).
-    const idv = Number(row.match(/evot2015\.Nominal\?idv=(\d+)/i)?.[1]) || null;
-    if (action) timeline.push({ camera, data: date, actiune: action, ...(idv && { idv }) });
+    const idv = Number(cells.map((c) => c.html).join('').match(/evot2015\.Nominal\?idv=(\d+)/i)?.[1]) || null;
+    timeline.push({ camera, data: day, actiune: action, ...(idv && { idv }) });
   }
 
   // Documentele: fiecare PDF stă într-o celulă, iar eticheta lui („Forma adoptată de Senat”) în celula următoare.

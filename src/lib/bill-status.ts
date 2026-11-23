@@ -216,9 +216,10 @@ export function resolveStatus(bill: { stadiu: string; fisa: CdepSheet; titlu?: s
         delete details.plen;
         agenda = [];
         hasReport = false;
+        supplementary = false;
       }
-    } else if (/^trimis pentru raport/.test(p)) {
-      if (/suplimentar/.test(p) && folded && ['raport', 'plen'].includes(folded)) {
+    } else if (/^trimis pentru (un nou )?raport/.test(p)) {
+      if (/suplimentar|un nou raport/.test(p) && folded && ['raport', 'plen'].includes(folded)) {
         supplementary = true;
         set('comisii', `Retrimis la comisii pentru un raport suplimentar, pe ${ro(date)}.`);
         agenda = [];
@@ -235,6 +236,18 @@ export function resolveStatus(bill: { stadiu: string; fisa: CdepSheet; titlu?: s
     } else if (/^inscris pe ordinea de zi/.test(p) && (!folded || ['avize', 'comisii', 'raport', 'plen', 'reexaminare'].includes(folded))) {
       agenda = agendaDates(t.actiune);
       if (folded === 'raport' || (folded !== 'reexaminare' && !/sub rezerva/.test(p))) set('plen', details.plen ?? null);
+    } else if (
+      /retrimiterea la comisi|^dezbatere in plen.*\(\s*retrimis|^plenul camerei deputatilor aproba retransmiterea/.test(p) &&
+      folded &&
+      ['comisii', 'raport', 'plen'].includes(folded)
+    ) {
+      // Plenul l-a întors la comisii: după dezbatere sau după un vot final fără majoritate („s-a dispus retrimiterea la
+      // comisie pentru un nou raport”, PL-x 429/2026). Rândurile acestea au de obicei celula datei goală, deci până pe
+      // 23 noiembrie 2026 lipseau din fișele noastre.
+      supplementary = true;
+      agenda = [];
+      const failed = /^vot final/.test(p) ? `, după un vot final fără majoritate${votes(p)}` : '';
+      set('comisii', `Retrimis de plen la comisii pentru un nou raport${failed}, pe ${ro(date)}.`);
     } else if (/(^|\s)adoptat[a]? de (catre )?(senat|camera)/.test(p)) {
       const both = /camera deputatilor si (de )?senat/.test(p);
       const c = chamberInText(p) ?? evChamber ?? at;
@@ -326,6 +339,10 @@ export function resolveStatus(bill: { stadiu: string; fisa: CdepSheet; titlu?: s
     at = sheet.at ?? at;
     reexamBy = reexamBy ?? sheet.by ?? null;
     if (reexamBy === 'presedinte') tenDays = true;
+  } else if ((sheet.key === 'raport' || sheet.key === 'plen') && foldedNow === 'comisii' && supplementary) {
+    // Fișa rămâne la „raport depus” după ce plenul îl retrimite comisiei (PL-x 429/2026): pasul de după raport are
+    // ultimul cuvânt, până la raportul nou.
+    key = 'comisii';
   } else {
     key = sheet.key;
     if (sheet.at) at = sheet.at;

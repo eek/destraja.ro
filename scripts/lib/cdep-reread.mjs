@@ -88,12 +88,17 @@ function runs(zile) {
   return out;
 }
 
-// Rândurile din derularea fișei: „primire raport favorabil (5 amend. admise) de la:”, „primire raport de respingere de
-// la:”, „primire raport suplimentar…”, iar pentru avizul unei comisii doar „primire aviz de la:” (fișa nu scrie numele
-// comisiei). Avizele Consiliului Legislativ, CES sau CSM își scriu numele în rând și nu sunt ale comisiilor.
+// Rândurile din derularea fișei: „primire raport favorabil (5 amend. admise) de la: Comisia …”, „primire raport de
+// respingere de la: …”, „primire raport suplimentar…”, iar pentru avizul unei comisii „primire aviz de la: Comisia …”.
+// Avizele Consiliului Legislativ, CES sau CSM („primire aviz de la Consiliul…”, fără două puncte) nu sunt ale comisiilor.
+// Pe fișele citite înainte de 23 noiembrie 2026 rândul avizului se termina în „de la:”, fără numele comisiei.
 const REPORT = /^primire raport/i;
-const OPINION = /^primire aviz de la\s*:\s*$/i;
+const OPINION = /^primire aviz de la\s*:/i;
 const rowsSince = (fisa, re, day) => (fisa?.timeline ?? []).filter((t) => re.test(t?.actiune ?? '') && (isoOfRo(t.data) ?? '') >= day).length;
+const nameKey = (s) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+/** Comisiile de după „de la:” („…de la: Comisia A; Comisia B — notă”), ca chei fără diacritice. */
+const committeesOf = (actiune) => (actiune.match(/\bde la:\s*(.+)$/i)?.[1] ?? '').split(' — ')[0].split(/;\s*/).map(nameKey).filter(Boolean);
+const opinionsSince = (fisa, day) => (fisa?.timeline ?? []).filter((t) => OPINION.test(t?.actiune ?? '') && (isoOfRo(t.data) ?? '') >= day);
 const seized = (list, idc) => (list ?? []).some((c) => String(c.idc) === idc);
 // Plenul (plen.json, din ordinea de zi a ședinței): ordinea de zi poartă săptămâni la rând zeci de proiecte la care nu
 // se ajunge, iar un vot dat schimbă stadiul din lista anului, deci fișa se recitește oricum. De aici vine o singură
@@ -109,12 +114,15 @@ function meetingDays(fisa, meetings, today) {
   for (const c of meetings) {
     const rol = seized(fisa?.comisii?.raport, c.idc) ? 'raport' : seized(fisa?.comisii?.aviz, c.idc) ? 'aviz' : null;
     for (const run of runs(c.zile)) {
-      if (run.at(-1) >= shiftDay(today, -MEETING_WINDOW)) recent.push({ idc: c.idc, rol, first: run[0], last: run.at(-1) });
+      if (run.at(-1) >= shiftDay(today, -MEETING_WINDOW)) recent.push({ idc: c.idc, comisie: c.comisie ?? '', rol, first: run[0], last: run.at(-1) });
     }
   }
-  // Avizele n-au nume pe fișă: le socotim venite când sunt cel puțin câte comisii de aviz au avut proiectul în ședință.
+  // Avizul unei comisii a venit când un rând de aviz de după ședință îi poartă numele. Pe rândurile fără nume (fișe citite
+  // înainte de 23 noiembrie 2026) le socotim venite când sunt cel puțin câte comisii de aviz au avut proiectul în ședință.
   const opinions = recent.filter((r) => r.rol === 'aviz');
-  const opinionsIn = opinions.length > 0 && rowsSince(fisa, OPINION, opinions.map((r) => r.first).sort()[0]) >= new Set(opinions.map((r) => r.idc)).size;
+  const unnamedIn =
+    opinions.length > 0 && opinionsSince(fisa, opinions.map((r) => r.first).sort()[0]).filter((t) => !committeesOf(t.actiune).length).length >= new Set(opinions.map((r) => r.idc)).size;
+  const opinionIn = (r) => unnamedIn || opinionsSince(fisa, r.first).some((t) => committeesOf(t.actiune).includes(nameKey(r.comisie)));
   const out = [];
   for (const r of recent) {
     if (r.idc === PLENARY_ID) {
@@ -122,8 +130,9 @@ function meetingDays(fisa, meetings, today) {
       continue;
     }
     out.push(shiftDay(r.first, -1));
-    const done =
-      r.rol === 'raport' ? rowsSince(fisa, REPORT, r.first) > 0 : r.rol === 'aviz' ? opinionsIn : rowsSince(fisa, REPORT, r.first) + rowsSince(fisa, OPINION, r.first) > 0;
+    // O comisie care nu e pe fișă printre cele sesizate: orice raport, avizul ei sau un aviz fără nume.
+    const anyOpinion = () => opinionsSince(fisa, r.first).some((t) => !committeesOf(t.actiune).length || committeesOf(t.actiune).includes(nameKey(r.comisie)));
+    const done = r.rol === 'raport' ? rowsSince(fisa, REPORT, r.first) > 0 : r.rol === 'aviz' ? opinionIn(r) : rowsSince(fisa, REPORT, r.first) > 0 || anyOpinion();
     if (!done) out.push(shiftDay(r.last, 1), shiftDay(r.last, 3), shiftDay(r.last, 7));
   }
   return out;

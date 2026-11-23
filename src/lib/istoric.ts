@@ -77,12 +77,14 @@ export function senateHappenings(bill: EnrichedBill, history: BillHistory | null
 }
 
 /**
- * Un rând din fișa Camerei pe înțeles. Comisiile din „primire raport … de la:” stau pe fișă într-un tabel separat, pe care
- * parserul nu-l leagă de rând; le luăm din lista comisiilor sesizate (raport sau aviz).
+ * Un rând din fișa Camerei pe înțeles: „primire aviz de la: Comisia …” → „Aviz de la Comisia …”. Pe fișele citite înainte
+ * de 23 noiembrie 2026 rândul se termina în „de la:” (comisiile stau pe cdep.ro într-un tabel separat, pe care parserul
+ * nu-l lega de rând); acolo le luăm din lista comisiilor sesizate (raport sau aviz).
  */
 function chamberRow(action: string, bill: CdepBill) {
   let text = action.replace(/\s+/g, ' ').replace(/;(?=\S)/g, '; ').trim();
-  if (/de la:$/.test(text)) {
+  if (/^primire .*\bde la: \S/i.test(text)) text = text.replace(/^primire\s+/i, '').replace(/\s*\bde la:\s*/i, ' de la ');
+  else if (/de la:$/.test(text)) {
     const names = (/raport/i.test(text) ? bill.fisa.comisii?.raport : /aviz/i.test(text) ? bill.fisa.comisii?.aviz : null)?.map((c) => c.nume) ?? [];
     text = text.replace(/^primire\s+/i, '').replace(/\s*de la:$/, names.length ? ` de la ${names.join(', ')}` : '');
   }

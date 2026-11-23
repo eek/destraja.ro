@@ -286,10 +286,12 @@ async function sheetHtml(sheet) {
   const complete = cached && /<\/html>\s*$/i.test(cached);
   if (complete) {
     const rows = reportRows(cached);
-    const known = new Set(rows.map((r) => `${r.date}|${r.action}`));
+    // Până la „de la:”: fișa noastră scrie după el și comisiile (parseSheet, din 23 noiembrie 2026), reportRows nu.
+    const head = (a) => a.replace(/(de la:).*$/, '$1');
+    const known = new Set(rows.map((r) => `${r.date}|${head(r.action)}`));
     const iso = (d) => d.split('.').reverse().join('-');
     const ours = sheet.fisa.timeline.filter((t) => t.camera === 'Camera Deputaților' && /primire raport/i.test(t.actiune));
-    const missing = ours.some((t) => !known.has(`${iso(t.data)}|${t.actiune}`));
+    const missing = ours.some((t) => !known.has(`${iso(t.data)}|${head(t.actiune)}`));
     const older = fs.statSync(file).mtime.toISOString() < (sheet.cititLa ?? '');
     // Proiect „cu raport” fără niciun raport în HTML: HTML-ul e mai vechi decât raportul.
     const noReport = !rows.some((r) => r.camera === 'Camera Deputaților') && /^(raport|pe ordinea de zi)/i.test(sheet.stadiu ?? '') && older;

@@ -8,9 +8,11 @@
 //   3. Fișa Senatului (data/senat-bills.json, `timeline`): „Comisia … transmite avizul cu nr. …-FAVORABIL”, „… depune
 //      raportul cu nr. …-NEGATIV”, „adoptat de Senat”, „respins de Senat rezultat vot pentru= 62 contra=46”.
 //   4. Fișa Camerei (data/cdep/proiecte/<slug>.json sau data/camera/<slug>.json, `fisa.timeline`): „primire raport
-//      favorabil … de la:” (comisiile raportului, după idc), „adoptat de Camera Deputatilor … pentru=…”, „respinsa de catre
-//      Camera Deputatilor”, „plenul … aproba retransmiterea la comisii”, „dezbatere în plenul …”; rândurile Senatului din
-//      fișă („adoptat de Senat”, „respinsa de catre Senat”).
+//      favorabil … de la: Comisia …” și „primire aviz de la: Comisia …” (după numele comisiei; pe fișele citite înainte de
+//      23 noiembrie 2026 rândul se termina în „de la:”, iar raportul se lega de comisiile raportului, după idc), „adoptat de
+//      Camera Deputatilor … pentru=…”, „respinsa de catre Camera Deputatilor”, „vot final adoptare - nu a fost întrunită
+//      majoritatea … s-a dispus retrimiterea la comisie”, „plenul … aproba retransmiterea la comisii”, „dezbatere în plenul
+//      … ( retrimis comisiei )”; rândurile Senatului din fișă („adoptat de Senat”, „respinsa de catre Senat”).
 //   5. Ședința de plen a Camerei, din înregistrările cdep.ro (data/cdep/plen/<zi>.json, scripts/straja-cdep-plen.mjs):
 //      sumarul stenogramei spune ce puncte s-au dezbătut și ce s-a hotărât la fiecare („rămas pentru votul final”,
 //      „retrimisă comisiei”, „adoptat”); un proiect de pe ordinea de zi care lipsește din sumar n-a fost dezbătut în ziua
@@ -20,8 +22,8 @@
 //
 // Un pas din fișă se leagă de o apariție dacă e din aceeași ședință (aceeași comisie, același plen) și cade între ziua
 // ei și următoarea apariție a proiectului la același organ, cel mult PLEN_DAYS (plen) sau COMMITTEE_DAYS (comisie) zile
-// mai târziu. Avizele comisiilor Camerei („primire aviz de la:”) nu spun pe fișă de la ce comisie sunt: le luăm de pe
-// pagina comisiei (6). Fără niciun rând potrivit, apariția rămâne fără rezultat și pagina o spune; „nedezbătut” doar când
+// mai târziu. Avizele comisiilor Camerei vin din fișă („primire aviz de la: Comisia …”) și de pe pagina comisiei (6), care
+// are și avizele încă netrimise comisiei raportoare. Fără niciun rând potrivit, apariția rămâne fără rezultat și pagina o spune; „nedezbătut” doar când
 // sumarul stenogramei din ziua aceea există și proiectul nu e în el.
 //
 // Modulul importă doar tipuri, ca testul din scripts/lib să-l poată încărca direct cu Node.
@@ -223,8 +225,15 @@ function plenaryRow(action: string, chamber: 'senat' | 'camera'): { kind: Outcom
   if (new RegExp(`^respins[ăa]? de (catre )?${who}`, 'i').test(a)) {
     return { kind: 'respins', text: `Respins de ${whoText}`, detail: t ? totalsText(t, respingere ? 'respingere' : 'adoptare') : null };
   }
-  if (/^[îi]ncetarea procedurii legislative prin respingere definitiv/i.test(a) && chamber === 'senat') {
-    return { kind: 'respins', text: 'Respins definitiv de Senat', detail: null };
+  if (/^[îi]ncetarea procedurii legislative prin respingere definitiv/i.test(a) && (chamber === 'senat' || /de c[aă]tre Camer/i.test(a))) {
+    return { kind: 'respins', text: `Respins definitiv de ${whoText}`, detail: null };
+  }
+  // Votul final fără majoritatea cerută nu e o respingere. Textul e al votului nominal (mai jos), ca rândurile să se unească;
+  // când plenul l-a retrimis atunci comisiei, pasul e retrimiterea, cu cifrele votului.
+  if (chamber === 'camera' && /^vot final (adoptare|respingere)\b/i.test(a)) {
+    const detail = t ? totalsText(t, /^vot final respingere/i.test(a) ? 'respingere' : 'adoptare') : null;
+    if (/retrimiterea la comisi/i.test(a)) return { kind: 'retrimis', text: 'Retrimis la comisie după votul final', detail };
+    if (/nu a fost [îi]ntrunit[ăa] majoritatea|f[ăa]r[ăa] majoritate/i.test(a)) return { kind: 'alt', text: `Vot fără majoritatea cerută în ${whoText}`, detail };
   }
   // Doar retrimiterea aprobată de plen, nu o cerere de retrimitere.
   if (/^(plenul .*aprob[ăa] (retransmiterea|retrimiterea) la comisi|retrimis la comisi)/i.test(a)) {
@@ -232,16 +241,27 @@ function plenaryRow(action: string, chamber: 'senat' | 'camera'): { kind: Outcom
   }
   // „dezbatere în plenul Camerei … pentru ședințele … din zilele de 16 și 18 noiembrie” e doar programarea (stenograma
   // zilei de 16 noiembrie n-o are); dezbaterea propriu-zisă e rândul cu stenograma („consultati stenograma sedintei”).
+  // Nota din paranteză e ca în sumarul stenogramei: „( retrimis comisiei )”, „( rămas pentru votul final )”.
   if (chamber === 'camera' && /^dezbatere [îi]n plenul Camerei/i.test(a) && !/\bpentru [șşs]edin/i.test(a)) {
-    return { kind: 'dezbatut', text: 'Dezbătut în plen', detail: null };
+    const nota = a.match(/^dezbatere [îi]n plenul Camerei Deputa\S*\s*\(\s*([^)]*?)\s*\)/i)?.[1];
+    return nota ? { ...stenoNote(nota), detail: null } : { kind: 'dezbatut', text: 'Dezbătut în plen', detail: null };
   }
   return null;
 }
 
-/** „primire raport favorabil (61 amend. admise) de la:”, „primire raport de respingere de la:”. */
+/**
+ * Comisiile scrise pe rândul fișei după „de la:” (parseSheet, din 23 noiembrie 2026): „primire aviz de la: Comisia A;
+ * Comisia B — notă” → ['Comisia A', 'Comisia B']. Gol pe rândurile citite înainte, care se terminau în „de la:”.
+ */
+export function rowCommittees(action: string): string[] {
+  const rest = action.match(/\bde la:\s*(.+)$/i)?.[1];
+  return rest ? rest.split(' — ')[0].split(/;\s*/).map((c) => c.trim()).filter(Boolean) : [];
+}
+
+/** „primire raport favorabil (61 amend. admise) de la: Comisia …”, „primire raport de respingere de la:”. */
 function chamberReportRow(action: string): { kind: OutcomeKind; text: string } | null {
   const a = action.replace(/\s+/g, ' ').trim();
-  const m = a.match(/^primire raport (suplimentar |de înlocuire |de inlocuire )?(favorabil|de respingere|de adoptare)?(.*?)\s*de la:?$/i);
+  const m = a.match(/^primire raport (suplimentar |de înlocuire |de inlocuire )?(favorabil|de respingere|de adoptare)?(.*?)\s*de la:?(?:\s.*)?$/i);
   if (!m) return null;
   const extra = m[1] ? ` ${m[1].trim().toLowerCase()}` : '';
   const what = !m[2] ? '' : /respingere/i.test(m[2]) ? ' de respingere' : ' favorabil';
@@ -359,23 +379,31 @@ export function outcomesFor(
   const lawIdp = !key || key.startsWith('PLX ');
   const sameBill = (numar: string | null, idp: number | null) => (!!key && numar === key) || (lawIdp && !!idp && !!a.punct.cod && String(idp) === a.punct.cod);
 
-  if (a.chamber === 'camera' && !a.plen && src.camera?.raport.includes(a.comisieId)) {
+  // Rapoartele și avizele din fișă: ale comisiei după numele ei de pe rând. Un rând fără nume (fișă citită înainte de
+  // 23 noiembrie 2026) leagă raportul de comisiile raportului, după idc, ca până atunci; un aviz fără nume, de nimeni.
+  if (a.chamber === 'camera' && !a.plen && src.camera) {
+    const me = norm(a.comisie);
     for (const r of src.camera.timeline) {
       const d = iso(r.data);
-      const hit = inWindow(d) && chamberReportRow(r.actiune);
-      if (hit) push({ ...hit, detail: null, date: d, sources: [chamberSheet] });
+      if (/senat/i.test(r.camera ?? '') || !inWindow(d)) continue;
+      const names = rowCommittees(r.actiune).map(norm);
+      const mine = names.length ? names.includes(me) : null;
+      const report = chamberReportRow(r.actiune);
+      if (report && (mine ?? src.camera.raport.includes(a.comisieId))) push({ ...report, detail: null, date: d, sources: [chamberSheet] });
+      else if (mine && /^primire aviz de la:/i.test(r.actiune.trim())) push({ kind: 'aviz', text: 'Aviz al comisiei', detail: null, date: d, sources: [chamberSheet] });
     }
   }
 
-  // Avizele și rapoartele de pe pagina comisiei: ale ei, pentru același proiect, datate în fereastra ședinței. Raportul
-  // e de obicei și pe fișă („primire raport favorabil … de la:”, cu direcția lui): atunci documentul e încă o sursă.
+  // Avizele și rapoartele de pe pagina comisiei: ale ei, pentru același proiect, datate în fereastra ședinței. Documentul
+  // e de obicei și pe fișă („primire raport favorabil … de la:”, cu direcția lui; „primire aviz de la:”): atunci e încă o
+  // sursă pentru rândul din fișă.
   if (a.chamber === 'camera' && !a.plen) {
     for (const d of records?.comisii.get(a.comisieId) ?? []) {
       if (!inWindow(d.data) || !sameBill(d.numar, d.idp)) continue;
       const doc: OutcomeSource = { label: d.tip === 'raport' ? 'Raportul comisiei pe cdep.ro' : 'Avizul comisiei pe cdep.ro', url: d.pdf };
-      // Același raport doar când rândul din fișă e la cel mult trei zile de data documentului (raportul suplimentar e altul).
+      // Același document doar când rândul din fișă e la cel mult trei zile de data lui (raportul suplimentar e altul).
       const near = (x: AgendaOutcome) => Math.abs(Date.parse(x.date) - Date.parse(d.data)) <= 3 * 86_400_000;
-      const fromSheet = d.tip === 'raport' ? out.find((x) => x.kind === 'raport' && near(x) && x.sources.some((s) => s.url === chamberSheet?.url)) : undefined;
+      const fromSheet = out.find((x) => x.kind === d.tip && near(x) && x.sources.some((s) => s.url === chamberSheet?.url));
       if (fromSheet) {
         if (!fromSheet.sources.some((s) => s.url === doc.url)) fromSheet.sources.push(doc);
         continue;

@@ -1,43 +1,57 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import type { BillAnalysis, EnrichedBill } from './types';
-import { getAllBills, getBillBySlug } from './bills';
-import { getCdepAnalysis, getCdepBill, getCdepIndex, getCommittees, type CdepBill } from './cdep';
+import { getAllBills } from './bills';
+import { getCdepAnalysis, getCdepBill, getCdepIndex, getCommittees, type CdepBill, type CdepRow } from './cdep';
 import { resolveStatus } from './bill-status';
 import { CONTENT_LICENSE, SITE_URL } from './site';
-import { todayISO } from './format';
+import { foldText, isOfficialParliamentEmail, parseIsoDate, shortSenateNumber, todayBucharest } from './bill-ids';
+import {
+  buildIdIndex,
+  isVerifiedBillLink,
+  resolveChamberStage,
+  resolveSenateStage,
+  type AliasEntry,
+  type Deadline,
+  type HistoricalConsultation,
+  type StageResolution,
+  type SubmissionChannel,
+  type SubmissionWindowStatus,
+} from './open-data-stage';
 
 /**
  * Datele deschise de la /date (fișiere JSON scrise la build) și sursa MCP-ului public (worker/mcp.ts): pentru fiecare
- * proiect, un dosar cu stadiul, analiza, unde se trimite un punct de vedere și sursele. Câmpurile sunt în engleză,
- * conținutul în română. Data analizei (analyzed_at) și forma textului pe care a citit-o (analysis_form) sunt separate
- * de data build-ului: un build nou nu face o analiză veche mai recentă. Un termen lipsă înseamnă „necunoscut”, nu
- * „deschis”. Designul: destraja-eval/mcp (Carbon și Sol, 18 noiembrie 2026).
+ * proiect canonic, un dosar cu stadiul parlamentar curent, starea ferestrei de consultare publică, analiza, destinatarii
+ * oficiali verificați și sursele. Câmpurile sunt în engleză, conținutul în română.
+ *
+ * Toate artefactele (proiecte.json, index-id.json, manifest.json, proiecte/<slug>.json) sunt construite dintr-un singur
+ * snapshot pe build, cu aceeași dată `built_at`. Proiectele urmărite de la Senat care au trecut la Camera Deputaților
+ * sunt unite într-un singur dosar canonic ce reflectă stadiul activ de la Cameră.
  */
-export const SCHEMA_VERSION = '1';
+export const SCHEMA_VERSION = '1.1';
 
-export type DeadlineType = 'public_consultation' | 'amendments' | 'committee_report' | 'plenary_scheduled';
-
-export interface Deadline {
-  type: DeadlineType;
-  /** Ce înseamnă termenul, pe scurt, în română. */
-  label: string;
-  /** YYYY-MM-DD */
-  date: string;
-}
+export { normalizeId, normalizeIdExact } from './bill-ids';
+export type { Deadline, DeadlineAudience, DeadlineType, HistoricalConsultation, SubmissionChannel, SubmissionWindowStatus } from './open-data-stage';
 
 export interface BillSummary {
   id: string;
   slug: string;
+  /** Camera în care se află acum procedura activă (sau camera finală). */
   chamber: 'senat' | 'camera';
-  /** Toate numerele sub care e cunoscut proiectul (B…, L…, PL-x…, Pl-x…). */
+  /** Camera în care a fost înregistrat inițial proiectul la noi. */
+  origin_chamber: 'senat' | 'camera';
+  /** Toate numerele sub care e cunoscut proiectul (B…, L…, PL-x…, BP…). */
   numbers: string[];
   title: string;
   plain_title: string | null;
   risk: { score: number; level: 'red' | 'yellow' | 'green' } | null;
+  /** Stadiul parlamentar curent, pe înțeles. */
   status: string;
-  /** Proiectul se mai poate influența acum: consultare deschisă sau dezbatere la comisii/plen. */
+  stage_key: string;
+  /** Proiectul este încă activ în dezbatere parlamentară (distinct de fereastra de consultare publică). */
   in_debate: boolean;
+  /** Starea ferestrei formale de consultare publică pentru cetățeni: open | closed | unknown. */
+  submission_window: SubmissionWindowStatus;
   deadlines: Deadline[];
   url: string;
   data_url: string;
@@ -47,23 +61,29 @@ export interface Recipient {
   name: string;
   email: string;
   role: string;
+  kind: 'committee' | 'general_registry';
+  source: string;
+  verified_at: string | null;
 }
 
 export interface BillDossier extends BillSummary {
   schema_version: string;
   title_official: string;
   official_url: string;
-  status_detail: { title: string; detail: string | null; next: string | null; note: string | null; overdue: string | null };
+  status_detail: StageResolution['status_detail'];
   analysis: {
     analyzed_at: string;
-    /** Forma textului citită: forma inițiatorului, a Senatului sau a Camerei. */
+    /** Forma textului citită: forma inițiatorului, a Senatului, a Camerei sau necunoscută. */
     analysis_form: string;
+    analysis_form_known: boolean;
     risk_score: number;
     risk_level: 'red' | 'yellow' | 'green';
     summary: string;
     initiator_claim: string;
     reality_check: string;
     affected_groups: string[];
+    models_completed: number;
+    models_total: number;
     models: {
       model: string;
       model_id: string | null;
@@ -77,66 +97,103 @@ export interface BillDossier extends BillSummary {
     corrections: number;
   } | null;
   submission: {
+    window_status: SubmissionWindowStatus;
     how: string;
+    channel: SubmissionChannel;
+    /** Termenul deschis de consultare publică pentru cetățeni, sau null dacă nu există. */
     deadline: Deadline | null;
+    /** Termenul istoric al consultării publice, păstrat și după încheiere. */
+    historical_consultation_deadline: HistoricalConsultation | null;
+    /** Termene parlamentare (amendamente deputați, raport, plen). */
+    parliamentary_deadlines: Deadline[];
     recipients: Recipient[];
     /** Câmpurile pregătite pentru formularul Senatului sau pentru e-mailul către comisie. */
     form_fields: { article: string; proposal: string; argumentation: string; other: string } | null;
+    /** Proveniența textului pregătit; avertizează dacă proiectul a avansat după analiza inițială. */
+    draft_basis: { analyzed_at: string; analysis_form: string; may_be_outdated: boolean; note: string | null } | null;
     memo_url: string | null;
   };
-  links: { page: string; official: string };
+  links: {
+    page: string;
+    official: string;
+    senate_official?: string;
+    chamber_official?: string;
+  };
   licence: string;
   built_at: string;
 }
 
-const LICENCE = `${CONTENT_LICENSE.name} (${CONTENT_LICENSE.url}). Sursa: destrajă.ro, cu legătura la pagina proiectului.`;
-const FORM_LABEL: Record<string, string> = { initiator: 'forma inițiatorului', senat: 'forma adoptată de Senat', camera: 'forma adoptată de Camera Deputaților' };
-const iso = (ddmmyyyy: string) => ddmmyyyy.split(/[-.]/).reverse().join('-');
-// „L630/22.12.2025” (numărul de la Senat, cu data înregistrării) → „L630/2025”.
-const senateNumber = (s: string | null | undefined) => {
-  const m = s?.match(/^([A-Za-z]+)\s*(\d+)\/(?:\d{1,2}\.\d{1,2}\.)?(\d{4})/);
-  return m ? `${m[1].toUpperCase()}${m[2]}/${m[3]}` : null;
-};
-const unique = (list: (string | null | undefined)[]) => [...new Set(list.filter((n): n is string => Boolean(n)))];
-const builtAt = new Date().toISOString();
-
-async function memoUrl(id: string): Promise<string | null> {
-  const file = `Punct_de_vedere_${id.replace(/\//g, '-')}.docx`;
-  try {
-    await fs.access(path.join(process.cwd(), 'public', 'docs', file));
-    return `${SITE_URL}/docs/${file}`;
-  } catch {
-    return null;
-  }
+interface SenatDirectory {
+  preluat: string | null;
+  sursa: string;
+  generale: string[];
+  comisii: { nume: string; url: string; email: string | null; alte?: string[] }[];
 }
 
-function analysisOf(a: BillAnalysis | null, defaultForm: string): BillDossier['analysis'] {
+const LICENCE = `${CONTENT_LICENSE.name} (${CONTENT_LICENSE.url}). Sursa: destrajă.ro, cu legătura la pagina proiectului.`;
+const FORM_LABEL: Record<string, string> = {
+  initiator: 'forma inițiatorului',
+  actualizata: 'forma actualizată a inițiatorului',
+  senat: 'forma adoptată de Senat',
+  camera: 'forma adoptată de Camera Deputaților',
+};
+const unique = (list: (string | null | undefined)[]) => [...new Set(list.filter((n): n is string => Boolean(n && n.trim())).map((n) => n.trim()))];
+
+let senatDirCache: Promise<SenatDirectory> | null = null;
+async function getSenatDirectory(): Promise<SenatDirectory> {
+  senatDirCache ??= fs
+    .readFile(path.join(process.cwd(), 'data', 'senat', 'comisii.json'), 'utf8')
+    .then((raw) => JSON.parse(raw) as SenatDirectory)
+    .catch(() => ({ preluat: null, sursa: 'https://www.senat.ro/EnumComisii.aspx?Permanenta=1', generale: ['infopub@senat.ro'], comisii: [] }));
+  return senatDirCache;
+}
+
+async function memoUrl(ids: (string | null | undefined)[]): Promise<string | null> {
+  for (const id of ids) {
+    if (!id) continue;
+    const file = `Punct_de_vedere_${id.replace(/\//g, '-')}.docx`;
+    try {
+      await fs.access(path.join(process.cwd(), 'public', 'docs', file));
+      return `${SITE_URL}/docs/${encodeURIComponent(file)}`;
+    } catch {
+      // continuă cu următorul număr
+    }
+  }
+  return null;
+}
+
+function analysisOf(a: BillAnalysis | null, defaultForm: string | null): BillDossier['analysis'] {
   if (!a?.consensus) return null;
   const c = a.consensus;
-  const version = (a as BillAnalysis & { version?: string }).version;
+  const rawForm = a.coverage?.form ?? a.version ?? '';
+  const knownLabel = FORM_LABEL[rawForm] ?? defaultForm;
+  const models = (['agy', 'claude', 'codex'] as const).map((m) => {
+    const v = a.council?.[m];
+    const ok = v?.status === 'ok';
+    return {
+      model: m === 'agy' ? 'Gemini' : m === 'claude' ? 'Claude' : 'ChatGPT',
+      model_id: v?.modelId ?? null,
+      score: ok ? v.riskScore : null,
+      level: ok ? v.riskLevel : null,
+      verdict: ok ? v.verdictShort : null,
+      key_findings: ok ? (v.keyFindings ?? []) : [],
+      constitutionality: ok ? v.constitutionalityNote || null : null,
+      eu_law: ok ? v.euLawNote || null : null,
+    };
+  });
   return {
     analyzed_at: a.updatedAt,
-    analysis_form: FORM_LABEL[version ?? ''] ?? defaultForm,
+    analysis_form: knownLabel ?? 'necunoscută',
+    analysis_form_known: Boolean(knownLabel),
     risk_score: c.riskScore,
     risk_level: c.riskLevel,
     summary: c.summaryTlDr,
     initiator_claim: c.initiatorClaim,
     reality_check: c.realityCheck,
     affected_groups: c.affectedGroups ?? [],
-    models: (['agy', 'claude', 'codex'] as const).map((m) => {
-      const v = a.council?.[m];
-      const ok = v?.status === 'ok';
-      return {
-        model: m === 'agy' ? 'Gemini' : m === 'claude' ? 'Claude' : 'ChatGPT',
-        model_id: v?.modelId ?? null,
-        score: ok ? v.riskScore : null,
-        level: ok ? v.riskLevel : null,
-        verdict: ok ? v.verdictShort : null,
-        key_findings: ok ? (v.keyFindings ?? []) : [],
-        constitutionality: ok ? v.constitutionalityNote || null : null,
-        eu_law: ok ? v.euLawNote || null : null,
-      };
-    }),
+    models_completed: models.filter((m) => m.score !== null).length,
+    models_total: models.length,
+    models,
     corrections: a.corrections?.length ?? 0,
   };
 }
@@ -146,167 +203,414 @@ const formFields = (a: BillAnalysis | null) => {
   return f ? { article: f.articleRef, proposal: f.proposalContent, argumentation: f.argumentation, other: f.otherComments } : null;
 };
 
-// ─── Senat: proiectele din consultarea publică ─────────────────────────────────────────────────────────────────────
+function senateRecipients(b: EnrichedBill, dir: SenatDirectory, inDebate: boolean): Recipient[] {
+  if (!inDebate) return [];
+  const verifiedAt = parseIsoDate(dir.preluat) ?? null;
+  const byEmail = new Map<string, { name: string; source: string; kind: 'committee' | 'general_registry' }>();
+  for (const c of dir.comisii) {
+    for (const raw of [c.email, ...(c.alte ?? [])]) {
+      if (!raw) continue;
+      const e = raw.trim().toLowerCase();
+      if (isOfficialParliamentEmail(e)) byEmail.set(e, { name: c.nume, source: c.url || dir.sursa, kind: 'committee' });
+    }
+  }
+  for (const raw of dir.generale) {
+    const e = raw.trim().toLowerCase();
+    if (isOfficialParliamentEmail(e) && !byEmail.has(e)) {
+      byEmail.set(e, { name: 'Registratura Senatului', source: dir.sursa, kind: 'general_registry' });
+    }
+  }
 
-function senateSummary(b: EnrichedBill): BillSummary {
-  const open = b.daysRemaining >= 0;
-  const c = b.analysis?.consensus;
-  return {
-    id: b.id,
-    slug: b.slug,
-    chamber: 'senat',
-    numbers: unique([b.id, senateNumber(b.senatNr) ?? b.senatNr, b.camera?.numar]),
-    title: b.officialTitle,
-    plain_title: c?.plainTitle ?? null,
-    risk: c ? { score: c.riskScore, level: c.riskLevel } : null,
-    status: open ? 'În consultare publică la Senat' : b.stage,
-    in_debate: open,
-    deadlines: open ? [{ type: 'public_consultation', label: 'Termenul consultării publice la Senat (opinii prin formularul Senatului)', date: iso(b.consultationDeadline) }] : [],
-    url: `${SITE_URL}/legi/${b.slug}`,
-    data_url: `${SITE_URL}/date/proiecte/${b.slug}.json`,
+  const out: Recipient[] = [];
+  const seen = new Set<string>();
+  const push = (email: string, role: string, fallbackName?: string) => {
+    const e = email.trim().toLowerCase();
+    if (!isOfficialParliamentEmail(e) || seen.has(e)) return;
+    const entry = byEmail.get(e);
+    if (!entry) return;
+    seen.add(e);
+    out.push({
+      name: entry.name || fallbackName || 'Senat',
+      email: e,
+      role,
+      kind: entry.kind,
+      source: entry.source,
+      verified_at: verifiedAt,
+    });
   };
+
+  // 1. Comisiile de raport / aviz din cronologia oficială a fișei Senatului, potrivite după directorul oficial.
+  const dirByName = dir.comisii
+    .filter((c) => c.email && isOfficialParliamentEmail(c.email))
+    .map((c) => ({ fold: foldText(c.nume), email: c.email! }));
+  for (const row of b.timeline ?? []) {
+    const act = foldText(row.action);
+    const isRaport = /trimis pentru raport|comisia.*fond/.test(act);
+    const isAviz = /trimis pentru aviz/.test(act);
+    if (!isRaport && !isAviz) continue;
+    for (const c of dirByName) {
+      if (act.includes(c.fold)) {
+        push(c.email, isRaport ? 'Comisia sesizată în fond (Senat)' : 'Comisia sesizată pentru aviz (Senat)');
+      }
+    }
+  }
+
+  // 2. Adresele din analiză, dar strict filtrate prin lista oficială @senat.ro / @cdep.ro verificată din director.
+  for (const item of b.analysis?.consensus?.institutionalEmails ?? []) {
+    for (const to of item.to ?? []) {
+      push(to, item.badge || 'Senat', item.targetName);
+    }
+  }
+
+  // 3. Fallback explicit etichetat ca contact general (nu ca o comisie specifică a proiectului).
+  if (!out.length) {
+    push('com.juridica@senat.ro', 'Comisia juridică a Senatului (contact orientativ până la repartizarea pe comisii)');
+    push('infopub@senat.ro', 'Registratura generală a Senatului (contact general)');
+  }
+  return out;
 }
 
-async function senateDossier(b: EnrichedBill): Promise<BillDossier> {
-  const s = senateSummary(b);
-  const emails = b.analysis?.consensus?.institutionalEmails?.flatMap((e) => e.to.map((to) => ({ name: e.targetName, email: to, role: e.badge ?? 'Senat' }))) ?? [];
-  return {
-    ...s,
-    schema_version: SCHEMA_VERSION,
-    title_official: b.officialTitle,
-    official_url: b.sheetUrl,
-    status_detail: { title: s.status, detail: null, next: s.in_debate ? 'După consultare, proiectul merge la comisiile Senatului, apoi la vot.' : null, note: null, overdue: null },
-    analysis: analysisOf(b.analysis, 'forma inițiatorului'),
-    submission: {
-      how: s.in_debate
-        ? 'Opinia se depune prin formularul de consultare publică de pe senat.ro (https://www.senat.ro/LegiProiect.aspx), până la termen; e-mailul către comisii o completează.'
-        : 'Consultarea publică s-a încheiat; un punct de vedere se poate trimite comisiilor, fără garanția că e luat în considerare.',
-      deadline: s.deadlines[0] ?? null,
-      recipients: emails.length ? emails : [
-        { name: 'Comisia juridică a Senatului', email: 'com.juridica@senat.ro', role: 'Senat' },
-        { name: 'Registratura Senatului', email: 'infopub@senat.ro', role: 'Senat' },
+function chamberRecipients(
+  bill: CdepBill,
+  committees: Record<string, { nume: string; url: string; email: string | null }>,
+  inDebate: boolean,
+): Recipient[] {
+  if (!inDebate) return [];
+  const verifiedAt = parseIsoDate(bill.cititLa?.slice(0, 10)) ?? null;
+  const out: Recipient[] = [];
+  const seen = new Set<string>();
+  for (const r of bill.fisa.comisii?.raport ?? []) {
+    const info = committees[r.idc];
+    const email = info?.email?.trim().toLowerCase() ?? '';
+    if (!email || !isOfficialParliamentEmail(email) || seen.has(email)) continue;
+    seen.add(email);
+    out.push({
+      name: info?.nume ?? r.nume,
+      email,
+      role: 'Comisia care face raportul (Camera Deputaților)',
+      kind: 'committee',
+      source: info?.url || bill.url,
+      verified_at: verifiedAt,
+    });
+  }
+  return out;
+}
+
+type CanonicalRecord =
+  | { kind: 'senat'; slug: string; bill: EnrichedBill; joinedCdep: CdepBill | null; joinedCdepAnalysis: BillAnalysis | null; summary: BillSummary; resolved: StageResolution }
+  | { kind: 'camera'; slug: string; bill: CdepBill; analysis: BillAnalysis | null; hasPage: boolean; summary: BillSummary; resolved: StageResolution };
+
+interface OpenDataSnapshot {
+  builtAt: string;
+  today: string;
+  summaries: BillSummary[];
+  records: Map<string, CanonicalRecord>;
+  idIndex: Record<string, string | string[]>;
+  committees: Record<string, { nume: string; url: string; email: string | null }>;
+  senatDir: SenatDirectory;
+}
+
+let snapshotCache: Promise<OpenDataSnapshot> | null = null;
+
+async function buildSnapshot(): Promise<OpenDataSnapshot> {
+  const builtAt = new Date().toISOString();
+  const today = todayBucharest();
+  const [senateBills, cdepIndex, committees, senatDir] = await Promise.all([
+    getAllBills(),
+    getCdepIndex(),
+    getCommittees(),
+    getSenatDirectory(),
+  ]);
+
+  const cdepRows: CdepRow[] = cdepIndex?.proiecte ?? [];
+  const cdepBills = new Map<string, CdepBill>();
+  const cdepByIdp = new Map<number, CdepBill>();
+  const cdepBySenatSlug = new Map<string, CdepBill[]>();
+
+  // Citim toate fișele Camerei o singură dată pe build.
+  const loadedCdep = await Promise.all(
+    cdepRows.map(async (row) => {
+      const bill = await getCdepBill(row.slug);
+      return bill ? { row, bill } : null;
+    }),
+  );
+  for (const item of loadedCdep) {
+    if (!item) continue;
+    const { row, bill } = item;
+    // Păstrăm stadiul din index dacă e mai proaspăt decât fișa citită anterior.
+    const merged: CdepBill = { ...bill, senat: row.senat ?? bill.senat };
+    cdepBills.set(merged.slug, merged);
+    cdepByIdp.set(merged.idp, merged);
+    if (merged.senat) {
+      const list = cdepBySenatSlug.get(merged.senat) ?? [];
+      list.push(merged);
+      cdepBySenatSlug.set(merged.senat, list);
+    }
+  }
+
+  const summaries: BillSummary[] = [];
+  const records = new Map<string, CanonicalRecord>();
+  const aliasEntries: AliasEntry[] = [];
+  const claimedCdepSlugs = new Set<string>();
+
+  // 1. Proiectele urmărite de la Senat (+ îmbinarea verificată cu procedura de la Camera Deputaților).
+  for (const b of senateBills) {
+    let joined: CdepBill | null = null;
+    if (b.camera?.idp != null) {
+      const byIdp = cdepByIdp.get(b.camera.idp);
+      if (byIdp && isVerifiedBillLink(b, byIdp)) joined = byIdp;
+    }
+    if (!joined) {
+      for (const cand of cdepBySenatSlug.get(b.slug) ?? []) {
+        if (isVerifiedBillLink(b, cand)) {
+          joined = cand;
+          break;
+        }
+      }
+    }
+
+    let joinedAnalysis: BillAnalysis | null = null;
+    let resolved: StageResolution;
+    const senateConsultDate = parseIsoDate(b.consultationDeadline);
+    const senateHistorical: HistoricalConsultation | null = senateConsultDate
+      ? { date: senateConsultDate, closed_early_on: parseIsoDate(b.leftListAt), source: b.sheetUrl }
+      : null;
+
+    if (joined) {
+      claimedCdepSlugs.add(joined.slug);
+      joinedAnalysis = await getCdepAnalysis(joined.slug);
+      const st = resolveStatus(joined, today);
+      const stillAtSenate = /^la\s+senat/i.test((joined.fisa.stadiu ?? '').trim()) || st.stage === 'senat';
+      resolved = stillAtSenate ? resolveSenateStage(b, today) : resolveChamberStage(joined, st, today, senateHistorical);
+    } else {
+      resolved = resolveSenateStage(b, today);
+    }
+
+    const activeAnalysis = joinedAnalysis && (!b.analysis || joinedAnalysis.updatedAt > b.analysis.updatedAt) ? joinedAnalysis : b.analysis;
+    const c = activeAnalysis?.consensus;
+    const numbers = unique([
+      b.id,
+      shortSenateNumber(b.senatNr),
+      b.senatNr,
+      joined?.numar,
+      b.camera?.numar,
+    ]);
+
+    const summary: BillSummary = {
+      id: b.id,
+      slug: b.slug,
+      chamber: resolved.chamber,
+      origin_chamber: 'senat',
+      numbers,
+      title: b.officialTitle,
+      plain_title: c?.plainTitle ?? null,
+      risk: c ? { score: c.riskScore, level: c.riskLevel } : null,
+      status: resolved.status,
+      stage_key: resolved.stage_key,
+      in_debate: resolved.in_debate,
+      submission_window: resolved.submission_window,
+      deadlines: resolved.deadlines,
+      url: `${SITE_URL}/legi/${b.slug}`,
+      data_url: `${SITE_URL}/date/proiecte/${b.slug}.json`,
+    };
+
+    summaries.push(summary);
+    records.set(b.slug, { kind: 'senat', slug: b.slug, bill: b, joinedCdep: joined, joinedCdepAnalysis: joinedAnalysis, summary, resolved });
+    aliasEntries.push({
+      slug: b.slug,
+      primaryNumbers: [b.id, b.senatNr, joined?.numar, joined?.slug],
+      secondaryNumbers: joined ? [] : [b.camera?.numar],
+      primaryKeys: [
+        ...(b.cod ? [`cod:${String(b.cod).toLowerCase()}`] : []),
+        ...(joined ? [`idp:${joined.idp}`] : []),
       ],
-      form_fields: formFields(b.analysis),
-      memo_url: await memoUrl(b.id),
-    },
-    links: { page: s.url, official: b.sheetUrl },
-    licence: LICENCE,
-    built_at: builtAt,
-  };
+      secondaryKeys: !joined && b.camera?.idp != null ? [`idp:${b.camera.idp}`] : [],
+    });
+  }
+
+  // 2. Proiectele de la Camera Deputaților neunite cu un proiect al Senatului.
+  const remainingCdep = [...cdepBills.values()].filter((bill) => !claimedCdepSlugs.has(bill.slug));
+  const cdepAnalyses = await Promise.all(remainingCdep.map((bill) => getCdepAnalysis(bill.slug)));
+  for (let i = 0; i < remainingCdep.length; i++) {
+    const bill = remainingCdep[i];
+    const analysis = cdepAnalyses[i];
+    const st = resolveStatus(bill, today);
+    const resolved = resolveChamberStage(bill, st, today);
+    const c = analysis?.consensus;
+    // Dacă indexul Camerei avea un `senat` nevalidat (ex. Pl-x 182/2026), pagina /camera/<slug> nu se generează la build;
+    // evităm un 404 pe destraja.ro folosind direct linkul oficial al fișei.
+    const hasPage = !bill.senat;
+    const numbers = unique([bill.numar, shortSenateNumber(bill.fisa.numarSenat), bill.fisa.numarSenat]);
+
+    const summary: BillSummary = {
+      id: bill.numar,
+      slug: bill.slug,
+      chamber: resolved.chamber,
+      origin_chamber: 'camera',
+      numbers,
+      title: bill.titlu,
+      plain_title: c?.plainTitle ?? null,
+      risk: c ? { score: c.riskScore, level: c.riskLevel } : null,
+      status: resolved.status,
+      stage_key: resolved.stage_key,
+      in_debate: resolved.in_debate,
+      submission_window: resolved.submission_window,
+      deadlines: resolved.deadlines,
+      url: hasPage ? `${SITE_URL}/camera/${bill.slug}` : bill.url,
+      data_url: `${SITE_URL}/date/proiecte/${bill.slug}.json`,
+    };
+
+    summaries.push(summary);
+    records.set(bill.slug, { kind: 'camera', slug: bill.slug, bill, analysis, hasPage, summary, resolved });
+    aliasEntries.push({
+      slug: bill.slug,
+      primaryNumbers: [bill.numar],
+      secondaryNumbers: [bill.fisa.numarSenat],
+      primaryKeys: [`idp:${bill.idp}`],
+      secondaryKeys: [],
+    });
+  }
+
+  const validSlugs = new Set(records.keys());
+  const idIndex = buildIdIndex(aliasEntries, validSlugs);
+
+  return { builtAt, today, summaries, records, idIndex, committees, senatDir };
 }
 
-// ─── Camera Deputaților ──────────────────────────────────────────────────────────────────────────────────────────
-
-const IN_DEBATE = ['avize', 'comisii', 'raport', 'plen', 'adoptat_prima', 'respins_prima', 'reexaminare'];
-
-function chamberSummary(bill: CdepBill, a: BillAnalysis | null, today: string) {
-  const st = resolveStatus(bill, today);
-  const f = bill.fisa;
-  const deadlines: Deadline[] = st.deadlines.map((d) => ({
-    type: d.kind === 'programat' ? 'plenary_scheduled' : /amendamente/i.test(d.label) ? 'amendments' : 'committee_report',
-    label: d.kind === 'programat' ? `${d.label} (programat, se poate schimba)` : d.label,
-    date: d.date,
-  }));
-  const c = a?.consensus;
-  const summary: BillSummary = {
-    id: bill.numar,
-    slug: bill.slug,
-    chamber: 'camera',
-    numbers: unique([bill.numar, senateNumber(f.numarSenat)]),
-    title: bill.titlu,
-    plain_title: c?.plainTitle ?? null,
-    risk: c ? { score: c.riskScore, level: c.riskLevel } : null,
-    status: st.title,
-    in_debate: IN_DEBATE.includes(st.key),
-    deadlines,
-    url: `${SITE_URL}/camera/${bill.slug}`,
-    data_url: `${SITE_URL}/date/proiecte/${bill.slug}.json`,
-  };
-  return { summary, st };
+function getSnapshot(): Promise<OpenDataSnapshot> {
+  snapshotCache ??= buildSnapshot();
+  return snapshotCache;
 }
 
-async function chamberDossier(bill: CdepBill, a: BillAnalysis | null, today: string): Promise<BillDossier> {
-  const { summary: s, st } = chamberSummary(bill, a, today);
-  const committees = await getCommittees();
-  const recipients: Recipient[] = (bill.fisa.comisii?.raport ?? [])
-    .map((r) => ({ name: committees[r.idc]?.nume ?? r.nume, email: committees[r.idc]?.email ?? '', role: 'Comisia care face raportul (Camera Deputaților)' }))
-    .filter((r) => r.email);
-  const amend = s.deadlines.find((d) => d.type === 'amendments') ?? null;
+async function buildDossier(rec: CanonicalRecord, snap: OpenDataSnapshot): Promise<BillDossier> {
+  const s = rec.summary;
+  const r = rec.resolved;
+
+  if (rec.kind === 'senat') {
+    const { bill: b, joinedCdep: joined, joinedCdepAnalysis } = rec;
+    const atChamber = Boolean(joined && r.chamber === 'camera');
+    const activeAnalysis = joinedCdepAnalysis && (!b.analysis || joinedCdepAnalysis.updatedAt > b.analysis.updatedAt) ? joinedCdepAnalysis : b.analysis;
+    const defaultForm = activeAnalysis === b.analysis ? 'forma inițiatorului' : null;
+    const analysis = analysisOf(activeAnalysis, defaultForm);
+    const recipients = atChamber && joined
+      ? chamberRecipients(joined, snap.committees, r.in_debate)
+      : senateRecipients(b, snap.senatDir, r.in_debate);
+    const fields = formFields(activeAnalysis);
+    const draftMayBeOutdated = Boolean(fields && atChamber && analysis?.analysis_form === 'forma inițiatorului');
+    const officialUrl = atChamber && joined ? joined.url : b.sheetUrl;
+
+    return {
+      ...s,
+      schema_version: SCHEMA_VERSION,
+      title_official: b.officialTitle,
+      official_url: officialUrl,
+      status_detail: r.status_detail,
+      analysis,
+      submission: {
+        window_status: r.submission_window,
+        how: r.submission_how,
+        channel: r.channel,
+        deadline: r.citizen_deadline,
+        historical_consultation_deadline: r.historical_consultation_deadline,
+        parliamentary_deadlines: r.parliamentary_deadlines,
+        recipients,
+        form_fields: fields,
+        draft_basis: fields && analysis
+          ? {
+              analyzed_at: analysis.analyzed_at,
+              analysis_form: analysis.analysis_form,
+              may_be_outdated: draftMayBeOutdated,
+              note: draftMayBeOutdated
+                ? 'Câmpurile pregătite se bazează pe forma inițiatorului analizată la Senat; verifică textul actual aflat la Camera Deputaților.'
+                : null,
+            }
+          : null,
+        memo_url: await memoUrl([b.id, joined?.numar]),
+      },
+      links: {
+        page: s.url,
+        official: officialUrl,
+        senate_official: b.sheetUrl,
+        ...(joined ? { chamber_official: joined.url } : b.camera?.url ? { chamber_official: b.camera.url } : {}),
+      },
+      licence: LICENCE,
+      built_at: snap.builtAt,
+    };
+  }
+
+  const { bill, analysis: rawAnalysis } = rec;
+  const analysis = analysisOf(rawAnalysis, null);
+  const recipients = chamberRecipients(bill, snap.committees, r.in_debate);
+  const fields = formFields(rawAnalysis);
+
   return {
     ...s,
     schema_version: SCHEMA_VERSION,
     title_official: bill.titlu,
     official_url: bill.url,
-    status_detail: { title: st.title, detail: st.detail, next: st.next, note: st.note, overdue: st.overdue },
-    analysis: analysisOf(a, 'forma aflată în dezbatere'),
+    status_detail: r.status_detail,
+    analysis,
     submission: {
-      how: ['comisii', 'avize'].includes(st.key)
-        ? 'Amendamentele oficiale le depun deputații. Un cetățean poate trimite comisiei care face raportul o propunere motivată, pe e-mail, iar un deputat o poate prelua.'
-        : s.in_debate
-          ? 'Comisia a terminat raportul; o propunere se mai poate trimite deputaților din comisie sau celor din județul tău, fără o procedură care să o garanteze.'
-          : 'Proiectul nu mai e în dezbatere la Cameră.',
-      deadline: amend,
+      window_status: r.submission_window,
+      how: r.submission_how,
+      channel: r.channel,
+      deadline: r.citizen_deadline,
+      historical_consultation_deadline: r.historical_consultation_deadline,
+      parliamentary_deadlines: r.parliamentary_deadlines,
       recipients,
-      form_fields: formFields(a),
-      memo_url: await memoUrl(bill.numar),
+      form_fields: fields,
+      draft_basis: fields && analysis
+        ? {
+            analyzed_at: analysis.analyzed_at,
+            analysis_form: analysis.analysis_form,
+            may_be_outdated: !analysis.analysis_form_known,
+            note: !analysis.analysis_form_known ? 'Forma exactă a textului pe care s-a făcut analiza nu este înregistrată; verifică textul oficial curent.' : null,
+          }
+        : null,
+      memo_url: await memoUrl([bill.numar]),
     },
-    links: { page: s.url, official: bill.url },
+    links: { page: s.url, official: bill.url, chamber_official: bill.url },
     licence: LICENCE,
-    built_at: builtAt,
+    built_at: snap.builtAt,
   };
 }
 
-// ─── Indexuri ──────────────────────────────────────────────────────────────────────────────────────────────────
-
-/** „PL-x 142/2026” → „plx1422026”: fără spații, puncte și liniuțe, ca agentul să găsească proiectul după orice scriere. */
-export const normalizeId = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[\s.\-_/]/g, '');
-
-/** Slug-urile Camerei care au pagina lor (proiectele urmărite de la Senat au pagina Senatului). */
-async function chamberSlugs(): Promise<string[]> {
-  const index = await getCdepIndex();
-  return index ? index.proiecte.filter((p) => !p.senat).map((p) => p.slug) : [];
-}
+// ─── Exporturi pentru rutele statice /date/* ───────────────────────────────────────────────────────────────────
 
 export async function getOpenDataSlugs(): Promise<string[]> {
-  const [senate, chamber] = await Promise.all([getAllBills(), chamberSlugs()]);
-  return [...senate.map((b) => b.slug), ...chamber];
+  return [...(await getSnapshot()).records.keys()];
 }
 
 export async function getBillSummaries(): Promise<BillSummary[]> {
-  const today = todayISO();
-  const senate = (await getAllBills()).map(senateSummary);
-  const chamber: BillSummary[] = [];
-  for (const slug of await chamberSlugs()) {
-    const bill = await getCdepBill(slug);
-    if (!bill) continue;
-    chamber.push(chamberSummary(bill, await getCdepAnalysis(slug), today).summary);
-  }
-  return [...senate, ...chamber];
+  return (await getSnapshot()).summaries;
+}
+
+export async function getBillSummariesEnvelope() {
+  const snap = await getSnapshot();
+  return { schema_version: SCHEMA_VERSION, built_at: snap.builtAt, count: snap.summaries.length, bills: snap.summaries };
 }
 
 export async function getBillDossier(slug: string): Promise<BillDossier | null> {
-  const senate = await getBillBySlug(slug);
-  if (senate) return senateDossier(senate);
-  const bill = await getCdepBill(slug);
-  return bill ? chamberDossier(bill, await getCdepAnalysis(slug), todayISO()) : null;
+  const snap = await getSnapshot();
+  const rec = snap.records.get(slug);
+  return rec ? buildDossier(rec, snap) : null;
 }
 
-/** Orice număr cunoscut (normalizat) → slug; la proiectele cu două pagini câștigă cea a Senatului. */
-export async function getIdIndex(): Promise<Record<string, string>> {
-  const out: Record<string, string> = {};
-  const index = await getCdepIndex();
-  for (const p of index?.proiecte ?? []) out[normalizeId(p.numar)] = p.senat ?? p.slug;
-  for (const s of await getBillSummaries()) {
-    for (const n of [s.slug, ...s.numbers]) out[normalizeId(n)] = s.chamber === 'senat' ? s.slug : (out[normalizeId(n)] ?? s.slug);
-  }
-  return out;
+export async function getIdIndex(): Promise<Record<string, string | string[]>> {
+  return (await getSnapshot()).idIndex;
 }
 
-export function manifest(counts: { bills: number; analysed: number }) {
+export async function getManifest() {
+  const snap = await getSnapshot();
   return {
     schema_version: SCHEMA_VERSION,
-    built_at: builtAt,
-    counts,
+    built_at: snap.builtAt,
+    counts: {
+      bills: snap.summaries.length,
+      analysed: snap.summaries.filter((b) => b.risk).length,
+      in_debate: snap.summaries.filter((b) => b.in_debate).length,
+      open_consultation: snap.summaries.filter((b) => b.submission_window === 'open').length,
+    },
     licence: LICENCE,
     files: {
       bills: `${SITE_URL}/date/proiecte.json`,

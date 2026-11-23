@@ -221,6 +221,31 @@ export default function PrivacyPage() {
         />
       </section>
 
+      <section aria-labelledby="mcp" className="mt-12 scroll-mt-24">
+        <h2 id="mcp" className={h2}>
+          Când asistentul tău AI folosește destrajă.ro
+        </h2>
+        <p className={p}>
+          Serverul{' '}
+          <Link href="/mcp" className={linkCls}>
+            MCP
+          </Link>{' '}
+          de la destraja.ro/api/mcp lasă asistenții AI (Claude, ChatGPT și alții) să citească aceleași date ca site-ul. Cererile vin de la
+          serverele firmei care face asistentul sau, la programele instalate pe calculatorul tău (de exemplu Claude Code sau Codex), chiar
+          de la calculatorul tău.
+        </p>
+        <Ticks
+          icon={Check}
+          tone="text-link"
+          items={[
+            'Nu păstrăm întrebările primite prin MCP și nu le punem în jurnalul căutărilor de pe site.',
+            'Textul unei căutări ajunge la serverul nostru de căutare, prin Cloudflare, doar ca să găsească proiectele potrivite; acolo nu e salvat.',
+            'Adresa IP de la care vine cererea (a firmei care face asistentul sau a ta) trece doar prin limita de cereri pe minut a Cloudflare; noi nu o păstrăm.',
+            'Ce scrii în conversația cu asistentul rămâne la firma care îl face, după regulile ei. Te rugăm să nu-i dai date personale de care nu are nevoie.',
+          ]}
+        />
+      </section>
+
       <section aria-labelledby="rapoarte" className="mt-12 scroll-mt-24">
         <h2 id="rapoarte" className={h2}>
           Când semnalezi o greșeală

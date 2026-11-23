@@ -7,6 +7,7 @@ interface __BaseEnv_Env {
 	SUBSCRIBE_LIMIT: RateLimit;
 	SEARCH_LIMIT: RateLimit;
 	MCP_LIMIT: RateLimit;
+	MCP_SEARCH_LIMIT: RateLimit;
 	ASSETS: Fetcher;
 	TURNSTILE_SECRET: string;
 	SUBSCRIBE_KEY: string;

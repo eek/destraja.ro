@@ -369,12 +369,19 @@ export function parseSheet(html) {
     : null;
   // Rapoartele comisiilor (rp…pdf): au anexele cu amendamentele admise și respinse, cu autorul fiecăruia.
   const rapoarte = [...new Set([...html.matchAll(/href="(\/comisii\/[^"]+\/pdf\/\d{4}\/rp[^"]*\.pdf)"/gi)].map((m) => `${CDEP}${m[1]}`))];
+  // Când Senatul a trimis inițiativa Camerei „ca primă Cameră sesizată” (art. 75 alin. (1) din Constituție), Senatul decide
+  // la final, oricât ar scrie câmpul „Camera decizionala” al fișei: pe Pl-x 747 și 748/2026 fișa zicea „Camera
+  // Deputaţilor”, deși adresa Senatului din 9 noiembrie 2026 le dă competența decizională Senatului.
+  const decizionalaFisa = field('Camera decizionala:');
+  const primaCamera = timeline.some((r) => /trimiterea .*la Camera Deputa\S*,? ca prim[ăa] Camer[ăa]/i.test(r.actiune));
+  const cameraDecizionala = primaCamera && /^camera deputa/i.test(decizionalaFisa ?? '') ? 'Senatul' : decizionalaFisa;
   return {
     titlu: titles.at(-1) ?? null,
     bpi: field('- B\\.P\\.I\\.:'),
     numarCamera: field('- Camera Deputa'),
     numarSenat: field('- Senat:'),
-    cameraDecizionala: field('Camera decizionala:'),
+    cameraDecizionala,
+    ...(cameraDecizionala !== decizionalaFisa && { cameraDecizionalaFisa: decizionalaFisa }),
     caracter: field('Caracter:'),
     urgenta: field('Procedura de urgenta:'),
     stadiu: field('Stadiu:'),

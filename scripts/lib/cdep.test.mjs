@@ -84,3 +84,12 @@ test('procedureRows: tabelele din celule rămân întregi, iar tabelul se termin
   assert.match(rows[0][0].open, /bgcolor/);
   assert.equal(rows[1][1].html, 'al doilea');
 });
+
+test('parseSheet: o inițiativă trimisă de Senat Camerei „ca primă Cameră” are Senatul drept cameră decizională', () => {
+  // Pl-x 748/2026: fișa scrie „Camera decizionala: Camera Deputaţilor”, dar Senatul a trimis-o Camerei ca primă cameră
+  // sesizată, iar adresa Senatului din 9 noiembrie 2026 îi dă lui competența decizională.
+  const html = fs.readFileSync(new URL('./fixtures/cdep/plx-748-2026.html', import.meta.url), 'utf8');
+  const s = parseSheet(html);
+  assert.equal(s.cameraDecizionala, 'Senatul');
+  assert.equal(s.cameraDecizionalaFisa, 'Camera Deputaților');
+});

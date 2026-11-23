@@ -47,21 +47,31 @@ for (const file of fs.readdirSync(SHEETS).filter((f) => f.endsWith('.json')).sor
   n.deLaInainte += deLa(known);
   const htmlFile = path.join(HTML, `${slug}.html`);
   let timeline = known;
+  // Camera decizională: aceeași regulă ca parseSheet (trimiterea „ca primă Cameră” o dă Senatului), aplicată pe pașii știuți.
+  let decizie = { cameraDecizionala: sheet.fisa?.cameraDecizionala ?? null, cameraDecizionalaFisa: sheet.fisa?.cameraDecizionalaFisa };
   const html = sheet.fisa && fs.existsSync(htmlFile) ? fs.readFileSync(htmlFile, 'utf8') : null;
   if (html == null) n.faraHtml++;
   else if (!/<\/html>\s*$/i.test(html)) n.taiate++;
   else {
-    const fresh = parseSheet(html).timeline;
+    const parsed = parseSheet(html);
+    const fresh = parsed.timeline;
     if (!covers(known, fresh)) {
       n.htmlVechi++;
       old.push(slug);
-    } else timeline = fresh;
+    } else {
+      timeline = fresh;
+      decizie = { cameraDecizionala: parsed.cameraDecizionala, cameraDecizionalaFisa: parsed.cameraDecizionalaFisa };
+    }
   }
   n.randuriDupa += timeline.length;
   n.deLaDupa += deLa(timeline);
-  if (JSON.stringify(timeline) === JSON.stringify(known)) continue;
+  const sameDecizie = decizie.cameraDecizionala === (sheet.fisa?.cameraDecizionala ?? null) && decizie.cameraDecizionalaFisa === sheet.fisa?.cameraDecizionalaFisa;
+  if (JSON.stringify(timeline) === JSON.stringify(known) && sameDecizie) continue;
   n.schimbate++;
-  if (!DRY) writeFileAtomic(path.join(SHEETS, file), JSON.stringify({ ...sheet, fisa: { ...sheet.fisa, timeline } }, null, 1) + '\n');
+  const fisa = { ...sheet.fisa, timeline, cameraDecizionala: decizie.cameraDecizionala };
+  if (decizie.cameraDecizionalaFisa === undefined) delete fisa.cameraDecizionalaFisa;
+  else fisa.cameraDecizionalaFisa = decizie.cameraDecizionalaFisa;
+  if (!DRY) writeFileAtomic(path.join(SHEETS, file), JSON.stringify({ ...sheet, fisa }, null, 1) + '\n');
 }
 console.log(
   `🏛️ ${n.fise} fișe: ${n.schimbate} ${DRY ? 'de schimbat' : 'schimbate'}; pași ${n.randuriInainte} → ${n.randuriDupa}, „de la:” fără comisie ${n.deLaInainte} → ${n.deLaDupa}; ` +

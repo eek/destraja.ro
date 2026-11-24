@@ -1,122 +1,178 @@
 {
   "billId": "B616/2026",
   "slug": "b616-2026",
-  "updatedAt": "2026-11-05T07:43:37.259Z",
+  "updatedAt": "2026-11-24T13:56:41.891Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1426,
+    "ordinanceChars": 0,
+    "memoChars": 4407,
+    "memoSupplied": 4407,
+    "marker": "SF-F1401A62"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/b616-2026.json",
+    "form": "initiator",
+    "textHash": "f1401a628de8c1a3",
+    "fetchedAt": "2026-11-19T11:19:54.324Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 1,
+    "chars": 10018,
+    "truncated": false,
+    "included": true,
+    "key": "b7d078343c395602"
+  },
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
-    "plainTitle": "Firmele ar putea plăti tichetele de vacanță ale angajaților din impozitul pe profit",
-    "summaryTlDr": "Ideea e populară, dar măsura este o subvenție de la buget prezentată ca facilitate fiscală și e scrisă neglijent: plafonul se aplică «per voucher», nu per angajat, iar raportul cu deducerea actuală e neclar. Nu e periculoasă, dar nu e pregătită pentru vot, cu atât mai puțin în procedură de urgență.",
-    "initiatorClaim": "Inițiatorii spun că vor să stimuleze turismul intern și să încurajeze firmele private să acorde vouchere de vacanță. Argumentul lor este că azi le folosește mai ales sectorul public, pentru că pentru angajatorii privați costul e prea mare.",
-    "realityCheck": "Firmele care plătesc impozit pe profit ar putea scădea integral din impozit valoarea tichetelor, în același plafon cu sponsorizările. Practic bugetul de stat plătește tichetul, iar banii pot fi luați din sponsorizările care ar fi mers la ONG-uri, culte sau burse. Microîntreprinderile, firmele pe pierdere și cele care își folosesc deja plafonul nu câștigă nimic. Pentru ele, plasarea textului în lista cheltuielilor nedeductibile (alin. 4) poate fi citită chiar ca o pierdere a deducerii de azi. Plafonul de 1.600 lei e stabilit pe voucher, nu pe angajat sau pe an.",
+    "plainTitle": "Firmele ar putea scădea din impozitul pe profit voucherele de vacanță date angajaților",
+    "summaryTlDr": "Ideea e benignă și poate ajuta turismul intern, dar textul e redactat neglijent. Plafonul comun cu sponsorizările mută bani de la ONG-uri spre vouchere, iar lipsa nedeductibilității exprese deschide ușa unui dublu beneficiu fiscal.",
+    "initiatorClaim": "Inițiatorii vor să stimuleze turismul intern și să încurajeze angajatorii privați să acorde vouchere de vacanță. Ei spun că astfel scade costul acestor vouchere pentru firme.",
+    "realityCheck": "Proiectul transformă voucherele de vacanță într-un credit fiscal: suma se scade direct din impozitul pe profit, dar în același plafon ca sponsorizările (minimul dintre 0,75% din cifra de afaceri și 20% din impozit). Practic, firma alege între a sponsoriza ONG-uri, cultură sau sport și a da vouchere, fără bani publici în plus pentru turism. Beneficiază doar plătitorii de impozit pe profit care au impozit de plată; microîntreprinderile și firmele pe pierdere rămân în afară.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
-      "Angajați & HR"
+      "Angajați & HR",
+      "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. unic, art. 25 alin. (4) lit. i³) și i⁴)",
-      "proposalContent": "Reformulare lit. i³): «cheltuielile cu tichetele de vacanță acordate potrivit Legii nr. 165/2018, de max. 1.600 lei/salariat/an, tuturor salariaților în condiții nediscriminatorii, se scad din impozitul pe profit în limita plafonului de la lit. i), cumulat cu sponsorizările; nu sunt deductibile.» Eliminarea lit. i⁴). Aplicare de la 1 ianuarie a anului următor.",
-      "argumentation": "Plafonul de 1.600 lei e «per voucher», nu per salariat/an. Termenul «voucher» nu există în Legea 165/2018 («tichete de vacanță»), iar trimiterea «potrivit legii» nu indică niciun act. Din text nu reiese dacă cheltuiala rămâne și deductibilă (dublu beneficiu). Lipsesc fișa financiară (art. 15 L. 500/2002) și data aplicării cerută de art. 4 Cod fiscal.",
-      "otherComments": "Creditul acoperă 100% din tichet: statul plătește vacanța, în plin deficit excesiv, fără evaluare a impactului. Plafonul comun cu sponsorizările poate muta bani de la ONG-uri spre beneficii pentru angajați. Microîntreprinderile (Titlul III nemodificat) sunt excluse. Limitarea la turism în România trebuie verificată față de art. 56 TFUE și regulile ajutorului de stat."
+      "articleRef": "Art. unic – art. 25 alin. (4) lit. i³) și i⁴)",
+      "proposalContent": "Reformularea într-o singură literă i³): «cheltuielile cu voucherele de vacanță acordate salariaților, în limita a 1.600 lei/salariat/an, nu sunt deductibile și se scad din impozitul pe profit, în limita unui plafon distinct de cel de la lit. i)». Precizarea actului normativ care reglementează voucherele și a datei de aplicare.",
+      "argumentation": "Lit. i⁴) nu e o cheltuială și nu are loc în lista de la alin. (4). Plafonul «per voucher» permite ocolirea prin vouchere multiple. Fără nedeductibilitate expresă există risc de dublu beneficiu (deducere + credit). Plafonul comun cu sponsorizarea reduce finanțarea ONG-urilor. Lipsește fișa financiară (art. 15 L. 500/2002, art. 111 Constituție).",
+      "otherComments": "Măsura nu ajunge la microîntreprinderi (majoritatea IMM) și la firmele fără impozit pe profit. Restrângerea la servicii turistice din România trebuie analizată prin prisma art. 56 și 107 TFUE. Se corectează «territoriul» și «Conditiiile». Intrarea în vigoare se corelează cu art. 4 Cod fiscal."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 71021,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 80317,
+      "sourceEndMarker": "SF-F1401A62",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Voucherele de vacanță în mediul privat: scăzute din impozitul pe profit, dar din același plafon cu sponsorizările pentru ONG-uri",
-      "verdictShort": "Deși intenția de a stimula acordarea voucherelor de vacanță în sectorul privat prin credit fiscal este favorabilă angajaților și turismului, proiectul este redactat defectuos și introduce o capcană majoră: pune voucherele propriilor salariați în concurență directă cu sponsorizările către ONG-uri, spitale și educație în același plafon fiscal.",
-      "initiatorClaim": "Inițiatorii doresc să încurajeze angajatorii privați să acorde vouchere de vacanță salariaților, permițând scăderea acestor cheltuieli direct din impozitul pe profit datorat statului, pentru a stimula turismul intern și sectorul ospitalității.",
-      "realityCheck": "În realitate, legea include voucherele de vacanță în plafonul comun al sponsorizărilor și mecenatului (0,75% din cifra de afaceri / 20% din impozitul pe profit), ceea ce va determina firmele să își redirecționeze sumele de la ONG-uri și cauze sociale către propriii angajați. În plus, textul este plasat greșit sub art. 25 alin. (4) fără a se corela cu art. 25 alin. (3) lit. b) pct. 3 (unde voucherele sunt deja cheltuieli sociale deductibile în limita a 5% din fondul de salarii) și introduce un plafon confuz de 1.600 lei care contrazice OUG nr. 8/2009.",
+      "plainTitle": "Voucherele de vacanță din privat scăzute din impozitul pe profit — pe banii de sponsorizări ai ONG-urilor",
+      "verdictShort": "Sub pretextul sprijinirii turismului intern, proiectul introduce un credit fiscal prost redactat care canibalizează direct plafonul de sponsorizări pentru ONG-uri, spitale și cultură. În plus, mută voucherele la cheltuieli nedeductibile fără corelare legislativă, fără fișă financiară și cu riscuri serioase pe Dreptul UE.",
+      "initiatorClaim": "Inițiatorii susțin că vor să stimuleze turismul intern și să sprijine angajații din mediul privat, reducând povara financiară a firmelor care acordă vouchere de vacanță.",
+      "realityCheck": "În prezent, art. 25 alin. (4) lit. i) din Codul fiscal permite scăderea din impozitul pe profit exclusiv a sponsorizărilor și actelor de mecenat (în limita minimului dintre 0,75% din cifra de afaceri și 20% din impozitul pe profit datorat). Proiectul introduce voucherele de vacanță (plafonate ambiguu la 1.600 lei) în același plafon comun, determinând firmele să redirecționeze banii de sponsorizări către propriii salariați. Totodată, plasarea la alin. (4) (cheltuieli nedeductibile) fără corelare cu OUG nr. 8/2009 și lipsa oricărei modificări la impozitarea salariatului (10% impozit + 10% CASS) creează confuzie fiscală și exclude microîntreprinderile.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
-        "Angajați & HR"
+        "Angajați & HR",
+        "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Canibalizarea sponsorizărilor pentru cauze sociale (Art. 25 alin. (4) lit. i³)): Sumele pentru voucherele de vacanță ale propriilor angajați se cumulează în același plafon fiscal cu sponsorizările și mecenatul (lit. i), diminuând drastic finanțarea privată pentru ONG-uri, spitale și proiecte educaționale.",
-        "Haos de tehnică legislativă și dublă reglementare: Proiectul nu abrogă și nu corelează noua prevedere cu art. 25 alin. (3) lit. b) pct. 3 din Codul fiscal, unde voucherele de vacanță figurează deja ca cheltuieli sociale cu deductibilitate limitată (5% din cheltuielile cu salariile), lăsând neclar dacă cele două regimuri sunt alternative sau cumulative.",
-        "Redactare ilogică și plafon contradictoriu la lit. i⁴): Introducerea textului „valoarea nominală a unui voucher de vacanță nu poate depăși suma de 1.600 de lei” sub preambulul art. 25 alin. (4) („Următoarele cheltuieli nu sunt deductibile:”) este un nonsens gramatical și juridic, intrând totodată în conflict cu OUG nr. 8/2009 care permite în mediul privat vouchere de până la 6 salarii de bază minime brute pe țară anual per salariat."
+        "Canibalizarea sponsorizărilor (art. 25 alin. (4) lit. i³)): cumularea voucherelor de vacanță cu sponsorizările și mecenatul în plafonul comun de 0,75% CA / 20% impozit pe profit oferă firmelor un stimulent direct să își finanțeze propriile pachete salariale în locul ONG-urilor, spitalelor, unităților de cult și proiectelor educaționale.",
+        "Conflict normativ și nonsens sintactic în Codul fiscal (art. 25 alin. (4) lit. i³) și i⁴)): introducerea voucherelor în lista cheltuielilor nedeductibile nu este corelată cu regimul actual de deductibilitate din Codul fiscal și OUG nr. 8/2009, iar lit. i⁴) („valoarea nominală a unui voucher... nu poate depăși 1.600 de lei”) nu precizează dacă limita este per salariat/an sau per tichet și rupe sintaxa alin. (4).",
+        "Lipsa fișei financiare și procedură de urgență nejustificată: deși transformarea unei cheltuieli deductibile (efect 16%) în credit fiscal (efect 100% din impozitul pe profit) diminuează veniturile bugetare, expunerea de motive nu conține niciun calcul de impact bugetar și niciun termen de intrare în vigoare corelat cu art. 4 din Codul fiscal."
       ],
-      "blindSpotsCaught": "Proiectul ignoră complet microîntreprinderile (IMM-urile plătitoare de impozit pe veniturile microîntreprinderilor), adresându-se exclusiv plătitorilor de impozit pe profit. De asemenea, formularea de la lit. i⁴) („valoarea nominală a unui voucher de vacanță nu poate depăși suma de 1.600 de lei”) nu precizează dacă plafonul este per salariat pe an fiscal sau per tichet individual și nici nu clarifică regimul impozitului pe venit (10%) și CASS (10%) suportate de angajat.",
-      "constitutionalityNote": "Propunerea ridică probleme de constituționalitate prin raportare la art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii), încălcând normele de tehnică legislativă din Legea nr. 24/2000 prin paralelism legislativ cu art. 25 alin. (3) lit. b) pct. 3 din Codul fiscal și cu OUG nr. 8/2009, precum și prin erori de redactare („territoriul”, „Conditiiile”). Totodată, transformarea unei cheltuieli deductibile (impact bugetar 16%) într-un credit fiscal de 100% din impozitul pe profit datorat este promovată printr-o expunere de motive de 15 rânduri, fără fișa financiară obligatorie conform art. 138 alin. (5) din Constituție.",
-      "euLawNote": "Nu declanșează procedura de notificare TRIS (Directiva 2015/1535) și nici testul de proporționalitate pentru profesii reglementate (Directiva 2018/958). Totuși, condiționarea unui credit fiscal de 100% din impozitul pe profit de utilizarea voucherelor „exclusiv pentru achiziționarea serviciilor turistice pe teritoriul României” poate ridica discuții sub aspectul liberei prestări a serviciilor în piața internă (art. 56 TFUE).",
+      "blindSpotsCaught": "Proiectul lasă neschimbat regimul fiscal la nivelul salariatului (voucherele rămân taxate cu 10% impozit pe venit și 10% CASS), nu include microîntreprinderile (majoritatea IMM-urilor) și conține o capcană de tehnică legislativă: dacă un plătitor de impozit pe profit are pierdere fiscală sau a epuizat plafonul comun de sponsorizare, plasarea cheltuielilor cu voucherele la art. 25 alin. (4) le face nedeductibile, dezavantajând exact firmele care deja oferă acest beneficiu. Există și greșeli de redactare în textul de lege („territoriul”, „Conditiiile”).",
+      "constitutionalityNote": "Ridică două probleme majore de neconstituționalitate: (1) Art. 1 alin. (5) privind calitatea, claritatea și previzibilitatea legii — din cauza plasării contradictorii în lista cheltuielilor nedeductibile, a sintaxei defectuoase de la lit. i⁴), a ambiguității plafonului de 1.600 lei (nefiind precizat dacă e anual/per angajat sau per voucher) și a trimiterii vagi „potrivit legii”; (2) Art. 138 alin. (5) coroborat cu Legea responsabilității fiscal-bugetare nr. 69/2010 — prin lipsa totală a fișei financiare și a indicării sursei de acoperire a diminuării veniturilor bugetare.",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează profesii) și nici a Directivei (UE) 2015/1535 (TRIS, nu impune norme tehnice pentru servicii digitale). Totuși, condiționarea unui credit fiscal de 100% din impozitul pe profit de achiziția serviciilor turistice „exclusiv pe teritoriul României” ridică riscuri serioase de incompatibilitate cu art. 56 TFUE (restricție discriminatorie la libera prestare a serviciilor turistice în piața unică) și cu art. 107 TFUE (ajutor de stat selectiv în favoarea sectorului turistic național, neevaluat și nenotificat Comisiei Europene).",
       "senatForm": {
-        "articleRef": "Articol unic (Art. 25 alin. (4) lit. i³) și i⁴))",
-        "proposalContent": "Reformulare lit. i³) pentru corelare cu art. 25 alin. (3) lit. b) pct. 3, fără diminuarea plafonului de sponsorizare de la lit. i), și integrarea plafonului de 1.600 lei/salariat/an direct în lit. i³), cu eliminarea lit. i⁴) care este impropriu redactată sub preambulul „Următoarele cheltuieli nu sunt deductibile:”.",
-        "argumentation": "Preambulul art. 25 alin. (4) prevede „Următoarele cheltuieli nu sunt deductibile:”, ceea ce face ca lit. i⁴) să fie ilogică gramatical și juridic. În plus, nu se clarifică raportul cu art. 25 alin. (3) lit. b) pct. 3 (cheltuieli sociale deductibile 5%), iar cumularea în plafonul de la lit. i) va canibaliza sponsorizările către ONG-uri, spitale și educație.",
-        "otherComments": "Plafonul de 1.600 lei de la lit. i⁴) intră în conflict cu OUG nr. 8/2009 (care permite în privat vouchere de până la 6 salarii minime brute/an/salariat) și nu precizează dacă vizează creditul fiscal anual per angajat. Totodată, microîntreprinderile sunt omise, iar expunerea de motive nu conține fișa financiară cerută de art. 138 alin. (5) din Constituție."
+        "articleRef": "Articol unic (art. 25 alin. (4) lit. i³ și i⁴)",
+        "proposalContent": "Eliminarea cumulului cu plafonul de sponsorizare și mecenat (art. 25 alin. (4) lit. i), clarificarea regimului de deductibilitate față de art. 25 alin. (2)-(3) și OUG 8/2009, precizarea limitei de 1.600 lei per salariat/an și introducerea unui termen de intrare în vigoare de la 1 ianuarie al anului următor, conform art. 4 din Codul fiscal.",
+        "argumentation": "Cumulul cu sponsorizările canibalizează finanțarea ONG-urilor, spitalelor și educației. Plasarea la art. 25 alin. (4) intră în conflict cu deductibilitatea actuală și face lit. i⁴) neclară (art. 1 alin. (5) Constituție). Lipsa fișei financiare încalcă art. 138 alin. (5), iar condiția teritorială ridică riscuri pe art. 56 și 107 TFUE.",
+        "otherComments": "Solicităm renunțarea la procedura de urgență, nejustificată în expunerea de motive, solicitarea fișei financiare de la Guvern conform Legii nr. 69/2010 și corectarea erorilor de redactare („territoriul”, „Conditiiile”). Se impune și clarificarea corelării cu impozitarea salariatului (10% IV + 10% CASS) și cu microîntreprinderile."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 190555,
+      "durationMs": 54445,
+      "sourceEndMarker": "SF-F1401A62",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Firmele ar putea plăti tichetele de vacanță ale angajaților din impozitul pe profit",
-      "verdictShort": "Ideea e populară, dar măsura este o subvenție de la buget prezentată ca facilitate fiscală și e scrisă neglijent: plafonul se aplică «per voucher», nu per angajat, iar raportul cu deducerea actuală e neclar. Nu e periculoasă, dar nu e pregătită pentru vot, cu atât mai puțin în procedură de urgență.",
-      "initiatorClaim": "Inițiatorii spun că vor să stimuleze turismul intern și să încurajeze firmele private să acorde vouchere de vacanță. Argumentul lor este că azi le folosește mai ales sectorul public, pentru că pentru angajatorii privați costul e prea mare.",
-      "realityCheck": "Firmele care plătesc impozit pe profit ar putea scădea integral din impozit valoarea tichetelor, în același plafon cu sponsorizările. Practic bugetul de stat plătește tichetul, iar banii pot fi luați din sponsorizările care ar fi mers la ONG-uri, culte sau burse. Microîntreprinderile, firmele pe pierdere și cele care își folosesc deja plafonul nu câștigă nimic. Pentru ele, plasarea textului în lista cheltuielilor nedeductibile (alin. 4) poate fi citită chiar ca o pierdere a deducerii de azi. Plafonul de 1.600 lei e stabilit pe voucher, nu pe angajat sau pe an.",
+      "plainTitle": "Firmele ar putea scădea din impozitul pe profit voucherele de vacanță date angajaților",
+      "verdictShort": "Ideea e benignă și poate ajuta turismul intern, dar textul e redactat neglijent. Plafonul comun cu sponsorizările mută bani de la ONG-uri spre vouchere, iar lipsa nedeductibilității exprese deschide ușa unui dublu beneficiu fiscal.",
+      "initiatorClaim": "Inițiatorii vor să stimuleze turismul intern și să încurajeze angajatorii privați să acorde vouchere de vacanță. Ei spun că astfel scade costul acestor vouchere pentru firme.",
+      "realityCheck": "Proiectul transformă voucherele de vacanță într-un credit fiscal: suma se scade direct din impozitul pe profit, dar în același plafon ca sponsorizările (minimul dintre 0,75% din cifra de afaceri și 20% din impozit). Practic, firma alege între a sponsoriza ONG-uri, cultură sau sport și a da vouchere, fără bani publici în plus pentru turism. Beneficiază doar plătitorii de impozit pe profit care au impozit de plată; microîntreprinderile și firmele pe pierdere rămân în afară.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Angajați & HR"
       ],
       "keyFindings": [
-        "Art. unic, lit. i³): creditul fiscal acoperă 100% din valoarea tichetului, în plafonul comun cu sponsorizările de la lit. i). Tichetele concurează astfel direct cu finanțarea ONG-urilor, a cultelor și a burselor private.",
-        "Lit. i⁴): limita de 1.600 lei privește «valoarea nominală a unui voucher», nu suma anuală per salariat, deci nu limitează efectiv beneficiul. În plus, este o literă separată, deși nu descrie o categorie de cheltuieli, într-o listă de cheltuieli nedeductibile, ceea ce e o greșeală de tehnică legislativă.",
-        "Art. 25 alin. (4) enumeră cheltuielile nedeductibile, iar textul nu spune explicit dacă tichetele rămân deductibile ca cheltuieli cu personalul. Pot apărea două riscuri: dublu beneficiu (deducere plus credit) sau, invers, pierderea deducerii pentru firmele fără loc în plafon.",
-        "Folosește termenul «voucher de vacanță», care nu există în Legea nr. 165/2018 (aceasta reglementează «tichetele de vacanță»). Condițiile de acordare se stabilesc «potrivit legii», fără a numi actul și fără delegare către Guvern pentru norme, deci trimiterea este circulară.",
-        "Nu impune acordarea nediscriminatorie. Tichetele pot fi date doar conducerii sau asociaților care sunt și salariați, cu costul suportat integral de buget. Microîntreprinderile, impozitate după Titlul III care nu se modifică, sunt excluse.",
-        "Lipsesc data de aplicare (art. 4 Cod fiscal), fișa financiară și sursa de compensare a veniturilor pierdute, deși România se află în procedură de deficit excesiv. Expunerea de motive nu are nicio estimare de cost."
+        "Art. unic, lit. i³): voucherele intră în plafonul de la lit. i) și «se cumulează» cu sponsorizările. Orice leu dat în vouchere reduce spațiul fiscal pentru sponsorizarea entităților non-profit din Registrul prevăzut la alin. (4^1).",
+        "Lit. i³) nu spune expres că cheltuiala cu voucherele este nedeductibilă. Spre deosebire de lit. i), ea vorbește doar despre scăderea din impozit. Dacă aceeași cheltuială poate fi tratată și ca cheltuială deductibilă (de exemplu socială sau salarială, după alte prevederi ale art. 25), apare riscul unui dublu beneficiu: deducere plus credit fiscal.",
+        "Lit. i⁴) plafonează valoarea nominală «a unui voucher» la 1.600 lei, nu valoarea pe salariat pe an. Limita se ocolește ușor prin acordarea mai multor vouchere. În plus, i⁴) nu descrie o cheltuială, deci nu are loc ca literă distinctă în lista cheltuielilor nedeductibile de la alin. (4).",
+        "Formula «condițiile de acordare, mecanismul de evidență fiscală și modalitatea de utilizare se stabilesc potrivit legii» nu indică niciun act normativ și nicio normă metodologică. Previzibilitatea aplicării are de suferit.",
+        "Proiectul nu are fișă financiară și nu estimează impactul bugetar, deși reduce încasările din impozitul pe profit. Expunerea de motive invocă doar «venituri fiscale indirecte», fără cifre."
       ],
-      "blindSpotsCaught": "Plasarea în art. 25 alin. (4), lista cheltuielilor NEdeductibile, schimbă mecanismul. Azi costul tichetelor se deduce, în principiu, din profitul impozabil, adică o economie de circa 16%. După lege ar deveni un credit fiscal de 100%, dar numai pentru cine mai are loc în plafonul sponsorizărilor. Textul nu reglementează tranziția, reportarea sumelor nefolosite sau aplicarea în anul fiscal în curs. Art. 4 Cod fiscal cere, de regulă, 6 luni între publicare și aplicare. În plus, câțiva emitenți autorizați de tichete, într-o piață concentrată, ar încasa comisioane pe un flux nou, finanțat practic din buget.",
-      "constitutionalityNote": "Nu atinge drepturi fundamentale, iar legiuitorul are o marjă largă în politica fiscală (art. 56, art. 139). Tratamentul diferit al microîntreprinderilor e probabil justificabil sub art. 16. Problemele reale țin de art. 1 alin. (5): plafonul «per voucher», termenul nedefinit «voucher», trimiterea circulară «potrivit legii» și ambiguitatea deductibilității afectează claritatea și previzibilitatea. Pe procedură, inițiativa reduce veniturile bugetului de stat, deci informarea Guvernului este obligatorie (art. 111 alin. 1). La fel este necesară fișa financiară cu sursa de acoperire (art. 15 din Legea nr. 500/2002, coroborat cu art. 138 alin. 5). CCR a sancționat în mod repetat legi cu impact bugetar adoptate fără aceste elemente. Art. 23 alin. (12) nu e relevant, deoarece legea nu prevede sancțiuni.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că nu e vizată nicio profesie reglementată. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu sunt reguli tehnice și nici reguli privind serviciile societății informaționale. Rămân două riscuri. (1) Condiționarea avantajului fiscal de consumul de servicii turistice exclusiv în România poate restrânge libertatea de a primi servicii (art. 56 TFUE; CJUE, C-55/98 Vestergaard, privind tratamentul fiscal al cursurilor ținute în stațiuni din străinătate). Motivele pur economice nu sunt, de regulă, justificări admise. (2) Un avantaj fiscal canalizat doar spre operatorii turistici din România poate fi analizat ca ajutor de stat indirect (art. 107 TFUE), ceea ce cere o verificare prealabilă. Limitarea teritorială există deja în regimul actual al tichetelor, ceea ce reduce riscul, dar nu îl elimină.",
+      "blindSpotsCaught": "Măsura nu aduce un stimulent nou, ci redistribuie un plafon existent: firmele care își folosesc deja integral plafonul de sponsorizare nu câștigă nimic, iar cele care trec bani spre vouchere îi iau de la ONG-uri, cultură și sport. Proiectul nu tratează nici impozitarea voucherului la salariat (impozit pe venit și contribuții), care rămâne guvernată de alte articole nemodificate. Nu are dispoziție de intrare în vigoare, deci se aplică art. 4 din Codul fiscal (modificările se aplică de la 1 ianuarie al anului următor, cu publicare cu cel puțin 6 luni înainte), ceea ce contrazice urgența solicitată. Apar și greșeli de redactare: «territoriul», «Conditiiile».",
+      "constitutionalityNote": "Nu sunt atinse drepturi fundamentale. Problemele țin de art. 1 alin. (5) (claritate și previzibilitate): plafonul ambiguu «per voucher», trimiterea vagă la «potrivit legii» și lipsa nedeductibilității exprese. Proiectul afectează veniturile bugetare, deci trebuie respectate art. 111 alin. (1) (solicitarea informării Guvernului) și art. 138 alin. (5) (sursa de finanțare), alături de art. 15 din Legea nr. 500/2002. Fără aceste etape, legea riscă neconstituționalitate extrinsecă. Tratamentul diferit al microîntreprinderilor ține de opțiunea legiuitorului și nu ridică, în sine, o problemă sub art. 56.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că nu se reglementează o profesie. Directiva TRIS 2015/1535 nu se aplică, pentru că nu sunt reglementate servicii ale societății informaționale. Condiția ca voucherele să fie «utilizabile exclusiv pe teritoriul României» trebuie analizată prin prisma art. 56 TFUE (libera prestare a serviciilor), deoarece un beneficiu fiscal condiționat de consumul turistic intern poate restrânge accesul prestatorilor din alte state membre. Trebuie verificat și art. 107 TFUE (ajutor de stat indirect pentru sectorul turistic național), deși caracterul general al creditului fiscal și cuantumul redus diminuează acest risc.",
       "senatForm": {
-        "articleRef": "Art. unic, art. 25 alin. (4) lit. i³) și i⁴)",
-        "proposalContent": "Reformulare lit. i³): «cheltuielile cu tichetele de vacanță acordate potrivit Legii nr. 165/2018, de max. 1.600 lei/salariat/an, tuturor salariaților în condiții nediscriminatorii, se scad din impozitul pe profit în limita plafonului de la lit. i), cumulat cu sponsorizările; nu sunt deductibile.» Eliminarea lit. i⁴). Aplicare de la 1 ianuarie a anului următor.",
-        "argumentation": "Plafonul de 1.600 lei e «per voucher», nu per salariat/an. Termenul «voucher» nu există în Legea 165/2018 («tichete de vacanță»), iar trimiterea «potrivit legii» nu indică niciun act. Din text nu reiese dacă cheltuiala rămâne și deductibilă (dublu beneficiu). Lipsesc fișa financiară (art. 15 L. 500/2002) și data aplicării cerută de art. 4 Cod fiscal.",
-        "otherComments": "Creditul acoperă 100% din tichet: statul plătește vacanța, în plin deficit excesiv, fără evaluare a impactului. Plafonul comun cu sponsorizările poate muta bani de la ONG-uri spre beneficii pentru angajați. Microîntreprinderile (Titlul III nemodificat) sunt excluse. Limitarea la turism în România trebuie verificată față de art. 56 TFUE și regulile ajutorului de stat."
+        "articleRef": "Art. unic – art. 25 alin. (4) lit. i³) și i⁴)",
+        "proposalContent": "Reformularea într-o singură literă i³): «cheltuielile cu voucherele de vacanță acordate salariaților, în limita a 1.600 lei/salariat/an, nu sunt deductibile și se scad din impozitul pe profit, în limita unui plafon distinct de cel de la lit. i)». Precizarea actului normativ care reglementează voucherele și a datei de aplicare.",
+        "argumentation": "Lit. i⁴) nu e o cheltuială și nu are loc în lista de la alin. (4). Plafonul «per voucher» permite ocolirea prin vouchere multiple. Fără nedeductibilitate expresă există risc de dublu beneficiu (deducere + credit). Plafonul comun cu sponsorizarea reduce finanțarea ONG-urilor. Lipsește fișa financiară (art. 15 L. 500/2002, art. 111 Constituție).",
+        "otherComments": "Măsura nu ajunge la microîntreprinderi (majoritatea IMM) și la firmele fără impozit pe profit. Restrângerea la servicii turistice din România trebuie analizată prin prisma art. 56 și 107 TFUE. Se corectează «territoriul» și «Conditiiile». Intrarea în vigoare se corelează cu art. 4 Cod fiscal."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 117016,
-      "riskScore": 5,
+      "durationMs": 97054,
+      "sourceEndMarker": "SF-F1401A62",
+      "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Vouchere de vacanță scăzute din impozitul firmelor",
-      "verdictShort": "O facilitate potențial utilă pentru angajați și turism, dar redactată insuficient de clar. Principalele riscuri sunt aplicarea fiscală neunitară, concurența cu sponsorizările pentru același plafon și impactul bugetar neestimat.",
-      "initiatorClaim": "Inițiatorii urmăresc să încurajeze firmele private să acorde vouchere de vacanță, stimulând turismul intern și accesul angajaților la concedii. Ei anticipează recuperarea unei părți a costului prin veniturile fiscale generate de activitatea turistică.",
-      "realityCheck": "Textul permite scăderea cheltuielilor cu voucherele direct din impozitul pe profit, în plafonul comun cu sponsorizările și mecenatul; nu instituie obligația angajatorilor de a acorda vouchere. Limita de 1.600 lei privește valoarea nominală a unui voucher, fără să stabilească un plafon anual per salariat. Facilitatea poate reduce veniturile bugetare și poate înlocui sponsorizări, iar pretinsa compensare prin încasări fiscale suplimentare nu este demonstrată în expunerea furnizată.",
+      "plainTitle": "Vouchere de vacanță plătite din plafonul fiscal al sponsorizărilor",
+      "verdictShort": "Facilitatea poate sprijini turismul și salariații, dar mecanismul fiscal trebuie clarificat înainte de adoptare. Plafonul de 1.600 lei privește fiecare voucher, iar avantajul fiscal consumă plafonul disponibil pentru sponsorizări.",
+      "initiatorClaim": "Inițiatorii urmăresc extinderea voucherelor de vacanță în mediul privat prin reducerea costului suportat de angajatori. Ei anticipează stimularea turismului intern și recuperarea unor venituri bugetare prin creșterea activității turistice.",
+      "realityCheck": "Proiectul permite scăderea cheltuielilor cu voucherele direct din impozitul pe profit, împreună cu sponsorizările și mecenatul, în plafonul existent: minimum dintre 0,75% din cifra de afaceri și 20% din impozitul pe profit datorat. Nu instituie un plafon anual de 1.600 lei per salariat și nici obligația angajatorilor de a acorda vouchere; celelalte limite legale continuă să se aplice. Introducerea facilității în lista cheltuielilor nedeductibile necesită corelare cu deductibilitatea existentă a voucherelor.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Angajați & HR"
       ],
       "keyFindings": [
-        "Articolul unic, lit. i³): scăderea operează asupra impozitului pe profit datorat. Nu este o facilitate aplicabilă automat impozitului pe veniturile microîntreprinderilor și nu produce un beneficiu imediat dacă nu există impozit pe profit datorat.",
-        "Articolul unic, lit. i³): plafonul fiscal este comun cu sponsorizările și mecenatul. Folosirea lui pentru vouchere poate diminua spațiul disponibil pentru finanțarea organizațiilor beneficiare ale sponsorizărilor.",
-        "Articolul unic, lit. i⁴): 1.600 lei reprezintă limita unui voucher, nu un plafon anual per angajat. Textul nu împiedică acordarea mai multor vouchere, în limitele celorlalte norme aplicabile.",
-        "Introducerea facilității în art. 25 alin. (4), care reglementează cheltuieli nedeductibile, necesită corelarea expresă cu regimul fiscal existent al voucherelor și cu legislația specială privind acordarea acestora.",
-        "Trimiterea «se stabilesc potrivit legii» nu identifică precis normele aplicabile și nu clarifică ordinea utilizării plafonului comun, documentele justificative sau tratamentul sumelor care depășesc plafonul.",
-        "Expunerea furnizată nu cuantifică pierderea de venituri fiscale, costurile administrative sau efectul asupra sponsorizărilor. Solicitarea procedurii de urgență nu demonstrează, prin ea însăși, existența unei neconstituționalități."
+        "Art. 25 alin. (4) lit. i³) propus introduce o scădere din impozitul datorat, diferită de deducerea cheltuielii la calcularea profitului impozabil. Trebuie corelat expres cu art. 25 alin. (3) lit. c), privind cheltuielile cu voucherele acordate potrivit legii.",
+        "Plafonul fiscal comun nu este majorat. Utilizarea lui pentru vouchere poate reduce spațiul disponibil pentru sponsorizări și mecenat, inclusiv către organizații nonprofit; diminuarea efectivă a sponsorizărilor depinde însă de alegerile contribuabililor.",
+        "Lit. i⁴) limitează valoarea nominală a unui singur voucher la 1.600 lei. Textul nu limitează la această sumă totalul anual acordat unui salariat și nu înlătură plafoanele existente în legislația voucherelor.",
+        "Facilitatea privește contribuabilii care datorează impozit pe profit, fără o delimitare expresă la angajatorii privați. Microîntreprinderile impozitate pe venit nu primesc prin acest text un credit fiscal echivalent, iar firmele fără impozit pe profit datorat nu obțin o reducere imediată.",
+        "Articolul unic nu cuprinde o dată specială de aplicare, reguli tranzitorii, rambursare sau un mecanism propriu de reportare a creditului pentru vouchere. Nu conține abrogări ori modificări ale altor acte normative.",
+        "Expunerea de motive enumeră beneficii economice, dar nu cuantifică pierderea potențială de venituri din impozitul pe profit, compensarea prin alte încasări sau costurile de evidență fiscală pentru angajatori."
       ],
-      "blindSpotsCaught": "Capcana principală este diferența dintre valoarea unui voucher și beneficiul anual al unui salariat: formularea nu susține interpretarea că fiecare angajat ar avea un plafon anual de 1.600 lei. În plus, mecanismul redistribuie un plafon fiscal comun, astfel încât sprijinul pentru turism poate substitui sponsorizări existente. Analiza se bazează pe extrasele furnizate; verificarea online a dosarului și a legislației consolidate nu a fost posibilă.",
-      "constitutionalityNote": "Există un risc de neclaritate și de corelare legislativă relevant pentru art. 1 alin. (5), în special privind deductibilitatea cheltuielii, scăderea din impozit și plafonul per beneficiar. Art. 23 alin. (12), referitor la legalitatea pedepselor, nu este incident direct: propunerea nu introduce pedepse. Diferențele dintre contribuabili trebuie evaluate și prin principiul așezării juste a sarcinilor fiscale, prevăzut la art. 56 alin. (2), fără ca orice diferență de regim fiscal să fie automat neconstituțională. Diminuarea veniturilor bugetare impune solicitarea informării Guvernului potrivit art. 111 alin. (1); extrasele nu permit verificarea îndeplinirii acestei obligații. Art. 138 alin. (5) privește cheltuielile bugetare și nu trebuie invocat automat pentru o reducere de venituri fiscale.",
-      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementărilor privind accesul la profesii reglementate sau exercitarea acestora; propunerea nu intră, prin obiectul prezentat, în acest domeniu. Nu rezultă o obligație de notificare TRIS în temeiul Directivei (UE) 2015/1535: textul nu introduce reguli tehnice pentru produse sau reguli specifice serviciilor societății informaționale; eventuala utilizare electronică a voucherelor nu este suficientă. Limitarea avantajului la servicii turistice prestate în România necesită examinare prin prisma libertății de prestare a serviciilor, inclusiv art. 56 TFUE. Eventuala existență a unui ajutor de stat pentru sectorul turistic trebuie analizată potrivit criteriilor art. 107 alin. (1) TFUE; nu poate fi afirmată automat doar din acest extras.",
+      "blindSpotsCaught": "Detaliul decisiv este diferența dintre plafonul per voucher și plafonul anual per salariat. În plus, includerea cheltuielilor la alin. (4), dedicat nedeductibilității, se suprapune cu regimul existent al deducerii voucherelor; trimiterea generică la condiții stabilite «potrivit legii» nu rezolvă explicit această suprapunere. Facilitățile pentru vouchere și sponsorizări concurează pentru același plafon fiscal.",
+      "constitutionalityNote": "Principala vulnerabilitate privește claritatea și coerența normei, potrivit art. 1 alin. (5): raportul dintre deductibilitate și creditul fiscal, unitatea plafonului de 1.600 lei și aplicarea în timp trebuie precizate. Art. 23 alin. (12) nu este incident, deoarece proiectul nu instituie pedepse. Impactul asupra veniturilor bugetare impune verificarea respectării obligațiilor de fundamentare și informare a Guvernului, inclusiv art. 111 alin. (1), în condițiile sale de aplicare. Reducerea veniturilor fiscale nu echivalează automat cu o cheltuială nouă interzisă de art. 138 alin. (5). Materialele furnizate nu permit constatarea unei încălcări procedurale certe.",
+      "euLawNote": "Directiva (UE) 2018/958 nu impune aici testul pentru reglementarea accesului la profesii sau a exercitării acestora. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu rezultă necesară din text: proiectul nu stabilește reguli tehnice pentru produse ori cerințe specifice serviciilor societății informaționale. Condiția utilizării în România continuă logica teritorială a voucherelor existente, dar extinderea avantajului fiscal justifică examinarea libertății de prestare a serviciilor și a eventualei selectivități în sensul art. 56 și 107 TFUE. Existența unui ajutor de stat sau incompatibilitatea cu piața internă nu pot fi deduse automat.",
       "senatForm": {
-        "articleRef": "Articol unic – lit. i³) și i⁴)",
-        "proposalContent": "Precizați dacă limita de 1.600 lei se aplică anual per salariat sau fiecărui voucher. Corelați scăderea din impozit cu deductibilitatea cheltuielii și cu legislația voucherelor. Stabiliți ordinea utilizării plafonului comun cu sponsorizările și regulile de justificare și declarare.",
-        "argumentation": "Textul plafonează un voucher, fără a defini beneficiul anual per salariat. Amplasarea în categoria cheltuielilor nedeductibile și regulile incomplete ale plafonului comun pot genera interpretări fiscale divergente. Clarificările sunt necesare pentru previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
-        "otherComments": "Publicați estimarea pierderii de venituri fiscale, efectul asupra sponsorizărilor și costurile administrative. Verificați informarea Guvernului conform art. 111 alin. (1) din Constituție și compatibilitatea limitării teritoriale cu art. 56 TFUE. Directivele 2018/958 și 2015/1535 nu sunt direct incidente obiectului prezentat."
+        "articleRef": "Articol unic – lit. i³) și i⁴) propuse",
+        "proposalContent": "Corelați expres creditul fiscal cu art. 25 alin. (3) lit. c), precizând tratamentul deductibilității cheltuielii. Stabiliți ordinea utilizării plafonului comun și data aplicării. Dacă intenția este limitarea anuală la 1.600 lei per salariat, înlocuiți explicit plafonul per voucher.",
+        "argumentation": "Deducerea cheltuielii și scăderea din impozit sunt mecanisme diferite. Amplasarea la cheltuieli nedeductibile creează o suprapunere cu regimul existent. Plafonul per voucher nu limitează totalul anual per salariat, iar plafonul fiscal comun poate diminua resursele disponibile pentru sponsorizări.",
+        "otherComments": "Solicit fundamentarea impactului asupra veniturilor bugetare și clarificarea evidenței fiscale, fără sarcini administrative inutile. Legislația conexă și dosarul procedural nu au putut fi verificate online; analiza folosește documentele furnizate, iar referințele conexe necesită confirmarea formei în vigoare."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-05T07:43:37.259Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T13:56:41.891Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

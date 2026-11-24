@@ -2,123 +2,151 @@
   "billId": "Pl-x 236/2026",
   "slug": "plx-236-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T06:14:30.601Z",
+  "updatedAt": "2026-11-24T13:37:55.261Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 5240,
+    "ordinanceChars": 0,
+    "memoChars": 9310,
+    "memoSupplied": 9310,
+    "marker": "SF-918291D6"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-236-2026.json",
+    "form": "initiator",
+    "textHash": "918291d6c3e1565f",
+    "fetchedAt": "2026-11-19T11:20:12.359Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 2,
+    "articlesShown": 2,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 4919,
+    "truncated": false,
+    "included": true,
+    "key": "bc0eeb39fbd5f9d8"
+  },
   "consensus": {
-    "riskScore": 3.3,
-    "riskLevel": "green",
-    "plainTitle": "Alertă când groapa de gunoi se umple: plan obligatoriu și amenzi pentru primării și județe",
-    "summaryTlDr": "Ideea e bună și necesară: alertă la 75% și 90%, apoi un plan obligatoriu, făcut înainte să se umple depozitul de deșeuri. Textul are însă termene care se contrazic, iar amenzile pentru consilii ajung să fie plătite tot de cetățeni, din bugetul local. Merită susținută, cu termenele și sancțiunile reparate în comisie.",
-    "initiatorClaim": "Inițiatorii USR spun că actualul art. 32 din OG 2/2021, care spune doar că la 75% autoritățile „vor fi obligate să ia măsuri”, e vag, fără termene și fără sancțiuni. De aici ar veni blocaje ca cel de la București–Ilfov. Ei vor un mecanism de alertă și planificare cu termene clare și răspundere, despre care susțin că nu are impact bugetar.",
-    "realityCheck": "Legea transformă o obligație vagă într-un mecanism concret. Operatorul trimite date la 75% și la 90% din capacitate, consiliile aprobă un plan în 90 de zile, întârzierile se raportează ministerului și se sancționează. Termenele se contrazic însă: planul trebuie „implementat” în maximum 1 an, deși tot textul acordă o fereastră de 12 luni plus 120 de zile pentru întârziere. Amenzile de 50.000–100.000 lei vizează consilii fără personalitate juridică, așa că ies din bugetul local, adică din banii cetățenilor. Afirmația din Expunere că nu apar obligații noi și nici impact bugetar nu se susține.",
+    "riskScore": 4,
+    "riskLevel": "yellow",
+    "plainTitle": "Plan obligatoriu și amenzi când gropile de gunoi se umplu",
+    "summaryTlDr": "Inițiativa are un scop util – să oprească crizele deșeurilor înainte ca depozitele să se umple –, dar introduce amenzi de până la 100.000 lei pe baza unor termene contradictorii și a unor formulări neclare. Fără delimitarea exactă a autorității responsabile și fără norme tranzitorii pentru gropile deja aproape pline, sancțiunile riscă fie anularea în instanță, fie plata arbitrară din bugetele locale.",
+    "initiatorClaim": "Inițiatorii susțin că art. 32 din OG nr. 2/2021 este prea vag și lipsit de termene sau sancțiuni, ceea ce a produs blocaje precum cel din zona București–Ilfov. Proiectul ar crea un mecanism clar de avertizare la 75% și 90% din capacitate și un plan public de acțiune, fără costuri bugetare suplimentare.",
+    "realityCheck": "În practică, proiectul înlocuiește obligația generică actuală cu notificări obligatorii ale operatorilor (amenzi de 20.000–50.000 lei) și obligă consiliile locale și/sau județene să adopte un plan de acțiune în 90 de zile (amenzi de 50.000–100.000 lei). Textul conține însă contradicții interne – cere implementarea planului în maximum 1 an la alin. (3), deși chiar expunerea de motive recunoaște că un depozit nou durează câțiva ani – și sancționează neînceperea unor «măsuri esențiale» nedefinite. În plus, amenzile vizează «autoritățile deliberative», care nu au patrimoniu propriu, astfel că sancțiunile ar fi suportate tot din bugetele locale ale cetățenilor.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "Toți cetățenii",
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct. 1, art. 32 alin. (3) OG 2/2021",
-      "proposalContent": "(3) Planul de acțiune prevăzut la alin. (2) stabilește termene intermediare obligatorii, astfel încât procedurile de evaluare a impactului asupra mediului și de autorizare pentru noile capacități să fie începute în cel mult 12 luni de la primirea notificării prevăzute la alin. (1), iar capacitățile să fie funcționale înainte de atingerea capacității autorizate.",
-      "argumentation": "Termenul de 1 an pentru implementarea planului e imposibil: Expunerea de motive admite că un depozit nou cere câțiva ani (teren, EIA, autorizare, execuție). Un termen de neatins nu e previzibil (art. 1 alin. (5) Constituție) și contrazice alin. (6), care cere implementare etapizată până la atingerea capacității. Termenele rămân ferme, dar realiste.",
-      "otherComments": "Lit. n) și o) amendează consilii locale/județene, care nu au personalitate juridică: amenda ar fi plătită din bugetul local, adică de cetățeni. Mai util: obligația pentru primar/președintele CJ de a supune planul la vot. Lit. n) trebuie să indice clar termenul (90 de zile sau 12 luni). Lipsește o normă tranzitorie pentru depozitele deja peste 75% sau 90%."
+      "articleRef": "Art. unic pct. 1 (art. 32 alin. 3, 5) și pct. 2",
+      "proposalContent": "Art. 32 alin. (3): înlocuirea «se implementează» cu «se demarează» și eliminarea «pentru realizarea noului depozit». Alin. (5): definirea «măsurilor esențiale». Art. 33 lit. n)-o): stabilirea clară a responsabilului (UAT/CJ/ADI) și evitarea dublei sancționări. Art. II tranzitoriu: termen de 30 de zile pentru notificarea depozitelor deja peste 75% sau 90%.",
+      "argumentation": "Forma actuală încalcă art. 1 alin. (5) din Constituție: cere implementarea în 1 an (nerealist pentru un depozit nou), sancționează neînceperea unor «măsuri esențiale» nedefinite și amendează vag «autoritățile deliberative și/sau CJ». Fără norme tranzitorii, legea nu acoperă depozitele deja peste 75%, iar amenzile riscă anularea în instanță.",
+      "otherComments": "Obiectivul legii este util și necesar pentru prevenirea crizelor deșeurilor. Recomand și înlocuirea denumirilor fixe «Ministerul Mediului» și «ANPM» cu formula generală din OG 2/2021 («autoritatea publică centrală/teritorială pentru protecția mediului»), plus verificarea formulei de adoptare (art. 76 alin. 2 vs. alin. 1 din Constituție)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 71666,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Avertizare timpurie și planuri obligatorii când gropile de gunoi se apropie de umplere",
-      "verdictShort": "Un proiect util pe fond, menit să prevină crizele gunoaielor prin alerte obligatorii la umplerea în proporție de 75% și 90% a depozitelor de deșeuri. Textul suferă însă de stângăcii de tehnică legislativă și contradicții privind termenele de implementare și amendarea consiliilor locale, care trebuie corectate în comisii.",
-      "initiatorClaim": "Inițiatorii vor să detalieze obligația vagă din actualul art. 32 al OG nr. 2/2021, introducând termene clare de notificare, planuri de acțiune și sancțiuni pentru a evita blocajele administrative (precum cel din București-Ilfov) când gropile de gunoi existente se umplu.",
-      "realityCheck": "Mecanismul de avertizare la pragurile de 75% și 90% este sănătos, însă textul conține o contradicție internă: alin. (3) cere implementarea planului pentru noul depozit în maximum 1 an (imposibil tehnic pentru studii, avize de mediu, licitații și construcție), în timp ce alin. (5) și (6) vorbesc doar de demararea măsurilor esențiale în 12 luni și implementare etapizată. În plus, amenzile de până la 100.000 lei vizează „autoritățile deliberative” (consiliile locale/județene), deși elaborarea documentațiilor aparține executivului (primar/președinte CJ), iar amenda se plătește, în final, tot din bugetul local al cetățenilor.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 104661,
+      "sourceEndMarker": "SF-918291D6",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Plan obligatoriu și amenzi când gropile de gunoi se umplu",
+      "verdictShort": "Inițiativa are un scop util – să oprească crizele deșeurilor înainte ca depozitele să se umple –, dar introduce amenzi de până la 100.000 lei pe baza unor termene contradictorii și a unor formulări neclare. Fără delimitarea exactă a autorității responsabile și fără norme tranzitorii pentru gropile deja aproape pline, sancțiunile riscă fie anularea în instanță, fie plata arbitrară din bugetele locale.",
+      "initiatorClaim": "Inițiatorii susțin că art. 32 din OG nr. 2/2021 este prea vag și lipsit de termene sau sancțiuni, ceea ce a produs blocaje precum cel din zona București–Ilfov. Proiectul ar crea un mecanism clar de avertizare la 75% și 90% din capacitate și un plan public de acțiune, fără costuri bugetare suplimentare.",
+      "realityCheck": "În practică, proiectul înlocuiește obligația generică actuală cu notificări obligatorii ale operatorilor (amenzi de 20.000–50.000 lei) și obligă consiliile locale și/sau județene să adopte un plan de acțiune în 90 de zile (amenzi de 50.000–100.000 lei). Textul conține însă contradicții interne – cere implementarea planului în maximum 1 an la alin. (3), deși chiar expunerea de motive recunoaște că un depozit nou durează câțiva ani – și sancționează neînceperea unor «măsuri esențiale» nedefinite. În plus, amenzile vizează «autoritățile deliberative», care nu au patrimoniu propriu, astfel că sancțiunile ar fi suportate tot din bugetele locale ale cetățenilor.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "Toți cetățenii",
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Obligație nouă de raportare pentru operatorii depozitelor de deșeuri: notificare scrisă în 10 zile la atingerea a 75% (art. 32 alin. 1) și 90% (art. 32 alin. 4) din capacitatea autorizată, sub sancțiunea unei amenzi între 20.000 și 50.000 lei (art. 33 alin. 1 lit. m).",
-        "Contradicție normativă între art. 32 alin. (3), care prevede că planul pentru realizarea noului depozit „se implementează în termen de maximum 1 an de la primirea notificării”, și alin. (5)-(6), care prevăd că măsurile esențiale trebuie doar „demarate” în 12 luni și implementate etapizat până la epuizarea capacității.",
-        "Confuzie de competență administrativă la art. 33 alin. (1) lit. n) și o): sunt sancționate contravențional cu amenzi de 50.000–100.000 lei „autoritățile deliberative” pentru neelaborarea și neaprobarea planului, ignorând faptul că, potrivit Codului administrativ (OUG nr. 57/2019), aparatul executiv elaborează proiectele, iar consilierii locali/județeni exercită un mandat neimperativ la vot."
+        "De la obligație vagă la procedură cu două praguri (Art. 32 alin. (1)-(2), (4)): față de forma în vigoare a OG nr. 2/2021 (care prevede doar generic că autoritățile locale «iau măsuri» la 75% din capacitatea proiectată), proiectul obligă operatorul să notifice în 10 zile atingerea pragurilor de 75% și 90% din capacitatea autorizată, iar consiliile locale/județene să aprobe un plan de acțiune în 90 de zile.",
+        "Termen contradictoriu și noțiune nedefinită sancționată contravențional (Art. 32 alin. (3), (5)-(6) și Art. 33 alin. (1) lit. o)): alin. (3) impune ca planul pentru noul depozit să se «implementeze în termen de maximum 1 an», contrazicând alin. (6) (implementare etapizată până la umplere). În plus, nedemararea «măsurilor esențiale» – concept nedefinit în lege – declanșează obligații suplimentare și amenzi de 50.000–100.000 lei.",
+        "Subiect pasiv neclar și risc de dublă sancționare (Art. 33 alin. (1) lit. n) și o)): amenzile de 50.000–100.000 lei vizează «autoritățile deliberative ale UAT și/sau consiliul județean, după caz», fără a delimita răspunderea în sistemele intercomunitare și ignorând că consiliile nu au personalitate juridică proprie (ci UAT-urile). Neaprobarea aceluiași plan riscă să fie amendată de două ori: după 90 de zile (lit. n) și din nou după procedura de la alin. (5) (lit. o).",
+        "Lipsa dispozițiilor tranzitorii: proiectul nu prevede ce se întâmplă cu depozitele care au depășit deja pragurile de 75% sau 90% la data intrării în vigoare, lăsând operatorii și autoritățile în incertitudine privind termenul de 10 zile pentru notificare."
       ],
-      "blindSpotsCaught": "Pe lângă eroarea de tehnică legislativă prin care se introduce un alineat cu indicele (2¹) în chiar textul unui articol care se înlocuiește integral (contrar Legii nr. 24/2000), proiectul folosește sintagma difuză „autoritățile deliberative ale unităților administrativ-teritoriale și/sau consiliul județean, după caz” fără a o corela strict cu Legea serviciului de salubrizare nr. 101/2006 și cu sistemele de management integrat al deșeurilor (SMID), unde responsabilitatea investițională revine de regulă județului sau Asociației de Dezvoltare Intercomunitară (ADI), nu fiecărei comune arondate depozitului.",
-      "constitutionalityNote": "Susceptibilă de critici punctuale pe art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii) din cauza contradicției dintre termenul de 1 an din alin. (3) și termenele din alin. (5)-(6), precum și din cauza lipsei de individualizare clară a subiectului activ al contravenției („autoritățile deliberative ... și/sau consiliul județean, după caz”) în raport cu art. 23 alin. (12) și principiile răspunderii contravenționale.",
-      "euLawNote": "Proiectul este aliniat cu obiectivele Directivei 1999/31/CE privind depozitele de deșeuri și ale Directivei-cadru 2008/98/CE privind deșeurile (asigurarea unei rețele integrate și adecvate de instalații de eliminare și respectarea ierarhiei deșeurilor). Nu ridică probleme pe Directiva (UE) 2018/958 (nu restrânge profesii reglementate) și nici pe Directiva (UE) 2015/1535 (TRIS).",
+      "blindSpotsCaught": "Două chichițe subtile: (1) Art. 32 alin. (2) lit. b) cere identificarea unui amplasament nou doar «dacă este cazul», dar alin. (3) revine la formula rigidă «planul de acțiune pentru realizarea noului depozit», creând confuzie dacă autoritatea alege alternative la depozitare (reciclare/tratare). (2) Formula finală invocă art. 76 alin. (1) din Constituție (lege organică), deși modifică o ordonanță simplă (OG nr. 2/2021), iar textul folosește denumiri instituționale fixe («Ministerul Mediului», «ANPM») în locul formulei consacrate de tehnică legislativă («autoritatea publică centrală/teritorială pentru protecția mediului»).",
+      "constitutionalityNote": "Proiectul ridică probleme serioase în raport cu art. 1 alin. (5) din Constituție privind claritatea și previzibilitatea legii, exigență strictă în materie contravențională: noțiunea de «măsuri esențiale» (art. 32 alin. (5)) nu este definită, termenul de «implementare în maximum 1 an» (alin. (3)) contravine implementării etapizate (alin. (6)), iar formula «autoritățile deliberative și/sau consiliul județean, după caz» nu stabilește clar cine răspunde. Sancționarea contravențională a organului deliberativ pentru neadoptarea unei hotărâri creează tensiuni cu autonomia locală (art. 120–121) și cu regimul patrimoniului UAT, iar adoptarea ca lege organică (art. 76 alin. (1)) trebuie verificată în raport cu art. 73 alin. (3).",
+      "euLawNote": "Proiectul modifică OG nr. 2/2021, care transpune Directiva 1999/31/CE privind depozitele de deșeuri (modificată prin Directiva (UE) 2018/850). Trimiterea din art. 32 alin. (6) la ierarhia deșeurilor și la țintele de reducere a depozitării (maximum 10% până în 2035 la nivelul UE) este conformă dreptului UE, însă formularea din alin. (3) («realizarea noului depozit») ar trebui corelată cu alin. (2) lit. b) («dacă este cazul») pentru a nu forța deschiderea de noi gropi în locul reciclării. Directiva (UE) 2018/958 (profesii reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt aplicabile, iar notificările operatorilor nu afectează concurența.",
       "senatForm": {
-        "articleRef": "Art. unic pct. 1 - Art. 32 alin. (2), (3) și (5)",
-        "proposalContent": "La art. 32, alin. (3) se modifică și va avea următorul cuprins: „(3) Punerea în aplicare a măsurilor preliminare din planul de acțiune prevăzut la alin. (2) începe în termen de maximum 1 an de la primirea notificării prevăzute la alin. (1).” Totodată, alineatele se renumerotează succesiv de la (1) la (8), eliminându-se indicele (2¹), conform Legii nr. 24/2000.",
-        "argumentation": "Forma propusă la alin. (3) cere implementarea planului pentru noul depozit în maximum 1 an, contrazicând alin. (5) și (6) (care vizează demararea măsurilor în 12 luni și implementarea etapizată) și fiind tehnic imposibilă pentru construirea unui depozit. De asemenea, la înlocuirea integrală a art. 32 nu se folosesc indici precum (2¹).",
-        "otherComments": "La art. 33 alin. (1) lit. n) și o), amendarea „autorităților deliberative” (consilii locale/județene) ridică probleme față de Codul administrativ: executivul (primarul/președintele CJ) elaborează planul, iar consilierii au mandat neimperativ la vot. Răspunderea contravențională trebuie corelată cu atribuțiile executivului și cu Legea nr. 101/2006."
-      }
+        "articleRef": "Art. unic pct. 1 (art. 32 alin. 3, 5) și pct. 2",
+        "proposalContent": "Art. 32 alin. (3): înlocuirea «se implementează» cu «se demarează» și eliminarea «pentru realizarea noului depozit». Alin. (5): definirea «măsurilor esențiale». Art. 33 lit. n)-o): stabilirea clară a responsabilului (UAT/CJ/ADI) și evitarea dublei sancționări. Art. II tranzitoriu: termen de 30 de zile pentru notificarea depozitelor deja peste 75% sau 90%.",
+        "argumentation": "Forma actuală încalcă art. 1 alin. (5) din Constituție: cere implementarea în 1 an (nerealist pentru un depozit nou), sancționează neînceperea unor «măsuri esențiale» nedefinite și amendează vag «autoritățile deliberative și/sau CJ». Fără norme tranzitorii, legea nu acoperă depozitele deja peste 75%, iar amenzile riscă anularea în instanță.",
+        "otherComments": "Obiectivul legii este util și necesar pentru prevenirea crizelor deșeurilor. Recomand și înlocuirea denumirilor fixe «Ministerul Mediului» și «ANPM» cu formula generală din OG 2/2021 («autoritatea publică centrală/teritorială pentru protecția mediului»), plus verificarea formulei de adoptare (art. 76 alin. 2 vs. alin. 1 din Constituție)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 165772,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Alertă când groapa de gunoi se umple: plan obligatoriu și amenzi pentru primării și județe",
-      "verdictShort": "Ideea e bună și necesară: alertă la 75% și 90%, apoi un plan obligatoriu, făcut înainte să se umple depozitul de deșeuri. Textul are însă termene care se contrazic, iar amenzile pentru consilii ajung să fie plătite tot de cetățeni, din bugetul local. Merită susținută, cu termenele și sancțiunile reparate în comisie.",
-      "initiatorClaim": "Inițiatorii USR spun că actualul art. 32 din OG 2/2021, care spune doar că la 75% autoritățile „vor fi obligate să ia măsuri”, e vag, fără termene și fără sancțiuni. De aici ar veni blocaje ca cel de la București–Ilfov. Ei vor un mecanism de alertă și planificare cu termene clare și răspundere, despre care susțin că nu are impact bugetar.",
-      "realityCheck": "Legea transformă o obligație vagă într-un mecanism concret. Operatorul trimite date la 75% și la 90% din capacitate, consiliile aprobă un plan în 90 de zile, întârzierile se raportează ministerului și se sancționează. Termenele se contrazic însă: planul trebuie „implementat” în maximum 1 an, deși tot textul acordă o fereastră de 12 luni plus 120 de zile pentru întârziere. Amenzile de 50.000–100.000 lei vizează consilii fără personalitate juridică, așa că ies din bugetul local, adică din banii cetățenilor. Afirmația din Expunere că nu apar obligații noi și nici impact bugetar nu se susține.",
-      "affectedGroups": [
-        "Agricultură & Mediu",
-        "Toți cetățenii",
-        "IMM & Antreprenori"
-      ],
-      "keyFindings": [
-        "Art. 32 alin. (1) și (4): operatorul trebuie să notifice autoritățile locale, consiliul județean, ADI și APM la 75% și din nou la 90% din capacitatea autorizată. Notificarea are un conținut minim: cantitățile depozitate, ritmul de umplere pe ultimii 3 ani și data estimată a saturării. E un sistem de alertă timpurie util, care azi lipsește.",
-        "Art. 32 alin. (2), (3) și (5) se contrazic. Planul se aprobă în 90 de zile și se „implementează” în maximum 1 an. Alin. (5) tratează însă ca întârziere abia neaprobarea în 12 luni și mai acordă 30 + 90 de zile. Noțiunea de „măsuri esențiale”, de care depinde mecanismul, nu este definită.",
-        "Art. 32 alin. (3) cere realizarea „noului depozit” în cel mult 1 an de la notificare. Expunerea de motive recunoaște chiar ea că procesul durează „câțiva ani”. Obligația ar fi deci încălcată sistematic și ar deveni o normă decorativă.",
-        "Art. 33 lit. n) și o): amenzi de 50.000–100.000 lei pentru „autoritățile deliberative” și consiliul județean. Fiind suportate de UAT, ele scad din bugetul local care ar trebui să finanțeze noul depozit. Pentru aceeași întârziere se pot cumula ambele amenzi, iar lit. n) nu spune clar care termen e sancționat: 90 de zile sau 12 luni.",
-        "Art. 33 lit. m): amenda de 20.000–50.000 lei pentru operatorul care nu notifică este proporționată, fiindcă datele cerute le are deja din evidența proprie. Povara pentru firme este minimă.",
-        "Tehnică legislativă (Legea 24/2000): textul scrie „Ordonanța nr. 2/2021” în loc de „Ordonanța Guvernului”, are „4)” fără paranteză, „territoriale”, litere „m.” în loc de „m)” și folosește „Ministerul Mediului” în loc de autoritatea publică centrală pentru protecția mediului. Sunt erori de curățat în comisie."
-      ],
-      "blindSpotsCaught": "Lipsește o normă tranzitorie. Pentru depozitele care, la intrarea în vigoare, au trecut deja de 75% sau 90% nu e clar dacă și când se notifică. Toate termenele (90 de zile, 1 an, 12 luni) curg de la o notificare care s-ar putea să nu mai vină niciodată. Declanșatorul este „constatarea” făcută de operator, fără vreo obligație de măsurare periodică, deci data poate fi amânată. ADI primește notificarea, dar nu are niciun rol în plan, deși în sistemele integrate județene ea deleagă serviciul. Formula „autoritățile deliberative ... sau consiliul județean, după caz” poate obliga zeci de consilii locale să adopte fiecare câte un plan pentru același depozit regional și să fie amendate fiecare.",
-      "constitutionalityNote": "Procedura este corectă: Senatul a fost prima cameră, Camera Deputaților decide (art. 75). Art. 120–121 permit legii să impună termene autorităților locale, deci autonomia locală nu este încălcată în sine. Problemele reale țin de art. 1 alin. (5) și art. 23 alin. (12). Termenele contradictorii din alin. (2), (3) și (5), noțiunea nedefinită de „măsuri esențiale” și formula „în termenele stabilite” din lit. n) fac norma contravențională greu previzibilă, iar normele sancționatoare cer o precizie sporită. Amendarea unui organ deliberativ pentru un vot neadoptat atinge libertatea votului consilierilor. Soluția mai sigură este obligarea executivului (primar, președinte CJ) să supună planul la vot. Pe art. 138 alin. (5) și art. 15 din Legea 500/2002 lipsește orice estimare a costurilor pentru studii și planuri. Vulnerabilitatea e moderată, pentru că obligația de a lua măsuri exista deja.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că nu se reglementează o profesie. Nici TRIS (2015/1535) nu se aplică: nu sunt reguli tehnice pentru produse sau servicii ale societății informaționale. Obligația de notificare a operatorului e minimă și nu restrânge accesul pe piață. Relevante sunt Directiva 1999/31/CE, modificată prin 2018/850 (maximum 10% deșeuri municipale depozitate până în 2035), și Directiva-cadru 2008/98/CE (ierarhia deșeurilor, planuri de gestionare, proximitate). Alin. (6) amintește ierarhia, dar alin. (3) vorbește direct de „realizarea noului depozit”, deși planul ar trebui să prioritizeze reducerea depozitării și alternativele. Un depozit nou cere evaluarea impactului asupra mediului (Directiva 2011/92/UE) și autorizare integrată, care nu încap realist în 1 an. Mecanismul de alertă ajută indirect la evitarea situațiilor care au dus la procedurile de infringement ale României privind depozitele neconforme.",
-      "senatForm": {
-        "articleRef": "Art. unic pct. 1, art. 32 alin. (3) OG 2/2021",
-        "proposalContent": "(3) Planul de acțiune prevăzut la alin. (2) stabilește termene intermediare obligatorii, astfel încât procedurile de evaluare a impactului asupra mediului și de autorizare pentru noile capacități să fie începute în cel mult 12 luni de la primirea notificării prevăzute la alin. (1), iar capacitățile să fie funcționale înainte de atingerea capacității autorizate.",
-        "argumentation": "Termenul de 1 an pentru implementarea planului e imposibil: Expunerea de motive admite că un depozit nou cere câțiva ani (teren, EIA, autorizare, execuție). Un termen de neatins nu e previzibil (art. 1 alin. (5) Constituție) și contrazice alin. (6), care cere implementare etapizată până la atingerea capacității. Termenele rămân ferme, dar realiste.",
-        "otherComments": "Lit. n) și o) amendează consilii locale/județene, care nu au personalitate juridică: amenda ar fi plătită din bugetul local, adică de cetățeni. Mai util: obligația pentru primar/președintele CJ de a supune planul la vot. Lit. n) trebuie să indice clar termenul (90 de zile sau 12 luni). Lipsește o normă tranzitorie pentru depozitele deja peste 75% sau 90%."
-      }
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 113918,
+      "durationMs": 75784,
+      "sourceEndMarker": "SF-918291D6",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Planuri obligatorii înainte ca gropile de gunoi să se umple",
-      "verdictShort": "Proiectul introduce un mecanism util de prevenire a crizelor de salubritate. Riscul moderat vine din termenele necorelate și din formularea răspunderii contravenționale, care trebuie corectate înainte de adoptare.",
-      "initiatorClaim": "Inițiatorii urmăresc să prevină umplerea depozitelor fără existența unor alternative conforme. Susțin că notificările, planificarea și sancțiunile vor responsabiliza administrațiile fără costuri bugetare suplimentare.",
-      "realityCheck": "Textul analizat obligă operatorii să notifice atingerea pragurilor de 75% și 90%, iar autoritățile să aprobe planuri în 90 de zile, să le implementeze și să raporteze întârzierile. Introduce amenzi de 20.000–50.000 lei pentru operatori și de 50.000–100.000 lei pentru obligațiile atribuite autorităților deliberative, fără să instituie taxe pentru populație sau exclusivități comerciale. Afirmația că nu apar obligații ori costuri suplimentare este insuficient fundamentată: notificările, documentațiile și raportările consumă resurse, iar finanțarea investițiilor nu este asigurată prin proiect.",
+      "plainTitle": "Planuri obligatorii înainte ca depozitele de gunoi să se umple",
+      "verdictShort": "Proiectul urmărește un obiectiv util: prevenirea blocajelor în colectarea și depozitarea deșeurilor. Riscul moderat vine din termenele insuficient corelate și din amenzile aplicabile unor autorități fără identificarea clară a persoanei care răspunde contravențional.",
+      "initiatorClaim": "Inițiatorii vor să transforme obligația generală de pregătire a unui nou depozit într-un mecanism concret de notificare, planificare și responsabilizare. Susțin că acesta previne soluțiile de avarie și nu generează cheltuieli bugetare suplimentare.",
+      "realityCheck": "Obligația de a lua măsuri la pragul de 75% există deja; proiectul schimbă reperul din capacitate proiectată în capacitate autorizată și introduce notificări, termene, conținut obligatoriu al planului și amenzi. Termenul de implementare integrală de un an este insuficient corelat cu implementarea etapizată și cu mecanismul ulterior de remediere. Afirmația că nu apar obligații sau costuri suplimentare este prea categorică: documentarea, raportarea și planificarea presupun resurse administrative, chiar dacă investiția într-un nou depozit era deja avută în vedere de lege.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Agricultură & Mediu",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 32 alin. (1)–(2): notificarea în 10 zile și planul aprobat în 90 de zile transformă obligația generală de intervenție într-un mecanism verificabil. Pragul de 75% exista deja; proiectul schimbă însă reperul din capacitate proiectată în capacitate autorizată, valori care trebuie corelate. [OG nr. 2/2021, art. 32](https://legislatie.just.ro/Public/DetaliiDocumentAfis/245381).",
-        "Art. 32 alin. (3), (5) și (6): implementarea planului în maximum un an coexistă cu obligația de remediere dacă, după 12 luni, planul nici nu este aprobat ori măsurile esențiale nu sunt demarate. Mecanismul de remediere nu anulează expres încălcarea termenelor inițiale, iar măsurile esențiale nu sunt definite.",
-        "Art. 32 alin. (4): notificarea la 90% nu are un termen expres de transmitere pentru operator, deși omisiunea este sancționată. Cele 30 de zile privesc informarea ulterioară făcută de autorități, nu notificarea operatorului.",
-        "Art. 33 alin. (1) lit. n)–o): trebuie precizat subiectul amenzii și delimitată răspunderea pentru elaborare, aprobare și executare. Consiliul este autoritate deliberativă; personalitatea juridică și patrimoniul aparțin UAT. Textul nu permite concluzia că fiecare consilier va plăti personal amenda. [Codul administrativ, art. 96](https://legislatie.just.ro/Public/FormaPrintabila/00000G0S5HKMFXO5CPU3M37N828Z8GJW).",
-        "Art. 32 alin. (1) și (2¹): intervenția înainte de notificare este permisă, dar nu obligatorie. Lipsesc reguli tranzitorii pentru depozitele deja peste praguri și o metodă explicită de verificare a gradului de umplere; declanșarea mecanismului depinde substanțial de constatarea operatorului.",
-        "Transparența invocată în expunerea de motive nu este concretizată printr-o obligație specială de publicare a notificărilor, planului și progresului. Rămân aplicabile regulile generale de publicitate și acces la informații.",
-        "Proiectul adaugă sarcini administrative operatorilor și autorităților, fără formalități directe noi pentru cetățeni sau IMM-urile obișnuite. Eventuale efecte asupra tarifelor de salubritate sunt indirecte și nu pot fi cuantificate din documentele furnizate."
+        "Art. 32 alin. (1): notificarea în 10 zile la atingerea pragului de 75% este nouă, dar obligația autorităților de a pregăti o soluție exista deja. Înlocuirea capacității proiectate cu cea autorizată poate schimba momentul declanșării obligațiilor dacă valorile diferă.",
+        "Art. 32 alin. (2) și (2¹): planul trebuie aprobat în 90 de zile și poate fi pregătit anticipat. Identificarea unui nou amplasament este cerută numai dacă este cazul; proiectul nu impune necondiționat construirea unui depozit nou în fiecare localitate.",
+        "Art. 32 alin. (3), (5) și (6): implementarea în maximum un an, remedierea neaprobării sau neînceperii măsurilor după 12 luni și realizarea etapizată până la epuizarea capacității nu sunt suficient corelate. Mecanismul de remediere nu suspendă expres termenul inițial și nu înlătură contravenția deja săvârșită.",
+        "Art. 32 alin. (4): operatorul trebuie să notifice atingerea pragului de 90%, dar nu primește un termen expres pentru transmitere. Cele 30 de zile privesc raportarea ulterioară a autorităților, deși întârzierea operatorului este sancționabilă prin noua literă m).",
+        "Art. 33 alin. (1) lit. n) și o): amenzile de 50.000–100.000 lei vizează autorități deliberative și consiliul județean. Trebuie precizat subiectul răspunderii și raportul cu personalitatea juridică a UAT; textul nu stabilește automat răspunderea personală a consilierilor sau a primarului.",
+        "Art. 33: noile contravenții sancționează notificarea operatorului, aprobarea planului și obligațiile de la art. 32 alin. (5). Nu prevăd distinct amenzi pentru neimplementarea integrală la un an, pentru rezultatul cerut de alin. (6) sau pentru raportarea autorităților de la alin. (4); alte forme de răspundere pot rămâne aplicabile.",
+        "Lipsesc dispoziții tranzitorii pentru depozitele care depășesc deja 75% sau 90% la intrarea în vigoare. Trebuie stabilite termene inițiale pentru acestea, fără sancționarea retroactivă a omisiunilor anterioare.",
+        "Expunerea de motive prezintă planul ca document public, dar proiectul nu introduce o procedură specială de publicare. Regulile generale de publicitate și acces la informații rămân aplicabile.",
+        "Art. 32 alin. (7) introduce informarea anuală a Curții de Conturi și a instituțiilor abilitate, fără să le extindă competențele. Textul furnizat nu conține derogări de la autorizarea de mediu, abrogări distincte sau modificări ale altor acte normative."
       ],
-      "blindSpotsCaught": "Art. 32 alin. (4) folosește ANPM, deși reorganizarea a instituit ANMAP, cu direcții județene de mediu; destinatarii raportărilor trebuie actualizați. [HG nr. 311/2025, art. 1](https://legislatie.just.ro/Public/DetaliiDocument/296368). Procedural, Senatul a respins inițiativa la 18 martie 2026, iar fișa o califică drept lege ordinară: formula din extras privind art. 76 alin. (1) trebuie verificată și corelată cu încadrarea finală. Respingerea în prima Cameră nu închide procedura la Camera Deputaților. [Fișa L60/2026](https://www.senat.ro/legis/lista.aspx?an_cls=2026&nr_cls=L60).",
-      "constitutionalityNote": "Scopul protejării sănătății și mediului este legitim, potrivit art. 34–35. Principala vulnerabilitate privește art. 1 alin. (5): termenele necorelate, competențele insuficient delimitate și destinatarul incert al sancțiunilor afectează previzibilitatea. Art. 23 alin. (12) privește legalitatea pedepselor; pentru aceste contravenții analiza trebuie ancorată în special în art. 1 alin. (5), fără a le transforma automat în infracțiuni. Cuantumurile amenzilor nu demonstrează singure disproporționalitatea. Impactul financiar trebuie fundamentat în raport cu art. 111 alin. (1) și art. 138 alin. (5), dacă sunt antrenate cheltuieli bugetare, fără a deduce automat neconstituționalitatea din existența unor costuri administrative. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355?isFormaDeBaza=True).",
-      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile asupra accesului la profesii reglementate sau exercitării acestora; textul analizat nu introduce asemenea restricții, deci testul său specific nu este incident. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng). TRIS privește și reglementări tehnice pentru produse, nu numai servicii digitale; aici nu sunt identificate asemenea cerințe sau norme privind servicii digitale/AI care să impună notificarea. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=celex%3A32015L1535). Proiectul nu rezervă piața unui operator și nu derogă de la achiziții ori autorizare. Planificarea trebuie să respecte ierarhia deșeurilor și reducerea depozitării: art. 32 alin. (6) recunoaște expres această condiție, compatibilă cu Directiva 1999/31/CE și ținta generală de maximum 10% deșeuri municipale depozitate până în 2035, sub rezerva derogărilor legale. [Directiva 1999/31/CE, art. 5](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:01999L0031-20240804).",
+      "blindSpotsCaught": "Termenele pornesc de la primirea notificării, iar notificarea depinde de constatarea operatorului. O notificare omisă sau întârziată poate întârzia calendarul formal al autorităților, deși alin. (2¹) permite acțiunea anticipată. În plus, proiectul enumeră mai multe instituții prin formule precum «după caz» și «și/sau», fără o regulă suficient de precisă pentru desemnarea responsabilului principal când depozitul deservește mai multe UAT.",
+      "constitutionalityNote": "Principala vulnerabilitate privește art. 1 alin. (5) din Constituție: previzibilitatea termenelor, identificarea autorității obligate și determinarea subiectului contravenției. Exigențele legalității sancțiunilor, relevante și prin art. 23 alin. (12), cer descrierea precisă a conduitei sancționate; proiectul nu introduce infracțiuni. Cuantumul amenzilor nu dovedește singur disproporționalitatea, dar trebuie justificat în raport cu gravitatea și imputabilitatea faptelor. Aplicarea tranzitorie trebuie să respecte art. 15 alin. (2). Obligațiile de mediu sunt compatibile în principiu cu art. 35 și cu autonomia locală; eventualele cheltuieli noi trebuie fundamentate, inclusiv prin prisma art. 138 alin. (5), dacă sunt incidente condițiile sale. Evaluarea privește documentele furnizate; verificarea online independentă nu a putut fi realizată.",
+      "euLawNote": "Planificarea capacităților conforme și respectarea ierarhiei deșeurilor sunt, în principiu, compatibile cu Directivele 2008/98/CE și 1999/31/CE. Proiectul nu instituie exclusivități, preferințe pentru operatori sau restricții explicite de acces pe piață. Directiva (UE) 2018/958 privește reglementarea profesiilor și nu impune aici un test specific numai pentru că există obligații administrative și amenzi. Directiva (UE) 2015/1535 acoperă reglementări tehnice privind produse și anumite servicii ale societății informaționale; textul analizat nu prezintă un asemenea obiect și nu rezultă o obligație TRIS. Termenul de un an nu derogă de la evaluarea impactului asupra mediului, participarea publicului, autorizare sau achizițiile publice.",
       "senatForm": {
         "articleRef": "Articol unic pct. 1 – art. 32 alin. (3)",
-        "proposalContent": "(3) În maximum un an de la primirea notificării prevăzute la alin. (1), autoritățile competente inițiază studiile și procedurile de autorizare necesare, potrivit planului. Termenele etapelor se stabilesc în funcție de durata estimată de utilizare a depozitului, fără derogări de la evaluarea de mediu, consultarea publicului și achizițiile publice.",
-        "argumentation": "Termenul actual de un an pentru implementarea întregului plan se suprapune cu remedierea întârzierilor după 12 luni și cu implementarea etapizată. Propunerea definește un rezultat intermediar verificabil și păstrează obligația de asigurare a capacității înainte de umplere, prevăzută la alin. (6).",
-        "otherComments": "Sunt necesare și clarificarea destinatarului amenzilor de la art. 33 alin. (1) lit. n)-o), definirea măsurilor esențiale, un termen pentru notificarea la 90% și reguli pentru depozitele deja peste praguri. Actualizați trimiterea la ANPM cu ANMAP și direcțiile județene competente."
-      }
+        "proposalContent": "(3) În maximum un an de la primirea notificării prevăzute la alin. (1), se inițiază procedurile de autorizare și de asigurare a finanțării prevăzute în plan. Capacitățile conforme de eliminare se asigură înainte de epuizarea capacității autorizate a depozitului existent, cu respectarea procedurilor legale aplicabile.",
+        "argumentation": "Implementarea integrală într-un an nu distinge între pregătirea investiției și punerea în funcțiune și este insuficient corelată cu alin. (5) și (6). Propunerea stabilește un reper intermediar verificabil și păstrează obligația asigurării continuității înainte de epuizarea depozitului.",
+        "otherComments": "Corelați alin. (5) și (6), precizați persoana care răspunde contravențional și autoritatea responsabilă pentru depozitele comune. Introduceți un termen pentru notificarea la 90% și reguli tranzitorii pentru depozitele care au depășit pragurile. Verificați denumirile instituțiilor destinatari."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T06:14:30.601Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T13:37:55.261Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

@@ -1,14 +1,42 @@
 {
   "billId": "Pl-x 324/2026",
   "slug": "plx-324-2026",
-  "updatedAt": "2026-10-29T03:25:41.713Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T13:37:49.451Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 3511,
+    "ordinanceChars": 0,
+    "memoChars": 6031,
+    "memoSupplied": 6031,
+    "marker": "SF-45D2A3DE"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-324-2026.json",
+    "form": "initiator",
+    "textHash": "45d2a3de2bfbe3c5",
+    "fetchedAt": "2026-11-19T10:25:09.893Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 3383,
+    "truncated": false,
+    "included": true,
+    "key": "f376ca1eb24872d7"
+  },
   "consensus": {
-    "riskScore": 4,
+    "riskScore": 5,
     "riskLevel": "yellow",
-    "plainTitle": "Banii din fondul de rezervă al Guvernului: listă publică și raport către Parlament",
-    "summaryTlDr": "Direcția e bună: registrul public al alocărilor e un câștig real și ieftin. Textul e însă scris stângaci, pentru că raportul detaliat se cere doar în urgențele cu risc pentru viață, nu și la alocările discreționare criticate în expunere, iar termenii nedefiniți și obligația unei legi pentru orice ajutor extern pot încetini intervenții legitime.",
-    "initiatorClaim": "Inițiatorii spun că Fondul de rezervă a fost folosit repetat pentru cheltuieli previzibile sau pentru programe deja bugetate, fără control parlamentar după aprobarea plafonului anual. Vor raportare către Parlament, interzicerea finanțării cheltuielilor permanente, aprobare prin lege pentru ajutoarele externe și publicarea tuturor alocărilor.",
-    "realityCheck": "Alocările obișnuite se fac în continuare prin hotărâre de Guvern. Parlamentul primește doar o „informare”, fără termen și fără conținut minim (alin. 2²). Raportul detaliat în 3 zile lucrătoare se cere numai în urgențele majore cu risc iminent pentru viață (alin. 2³), adică tocmai în situațiile în care alocarea e cel mai ușor de justificat. Interdicția de la alin. (2⁵) vizează doar programele din bugetul aprobat de Parlament și lasă în afara ei proiectele din bugetele locale, iar „cheltuieli permanente” nu e definit. Cea mai concretă schimbare e registrul public de pe site-ul Ministerului Finanțelor (alin. 5²), deși nu are termen de publicare.",
+    "plainTitle": "Control pe Fondul de rezervă și blocaj pe ajutoarele externe",
+    "summaryTlDr": "Proiectul urmărește o idee legitimă — transparența și limitarea abuzurilor din Fondul de rezervă —, dar este redactat defectuos și conține o încălcare directă a Constituției privind intrarea în vigoare. În plus, obligația adoptării unei legi de către Parlament pentru orice ajutor extern (inclusiv umanitar) riscă să paralizeze reacția României la crize internaționale și să încalce separația puterilor.",
+    "initiatorClaim": "Inițiatorii susțin că vor să oprească folosirea discreționară a Fondului de rezervă pentru cheltuieli previzibile, să instituie control parlamentar ulterior fără a bloca intervențiile urgente și să impună transparență prin publicarea online a alocărilor și aprobarea parlamentară a ajutoarelor externe.",
+    "realityCheck": "Legea nr. 500/2002 limitează deja Fondul de rezervă la cheltuieli urgente sau neprevăzute (art. 30 alin. 2). Proiectul adaugă o măsură real utilă — publicarea tuturor alocărilor pe site-ul Ministerului Finanțelor (alin. 5²) —, dar ratează controlul efectiv prin vicii grave de redactare: derogarea din alin. (2³) impune termen de raportare de 3 zile doar la riscuri iminente de vieți omenești, lăsând alocările uzuale din alin. (2²) fără termen, iar alin. (2⁶) blochează orice ajutor umanitar sau financiar extern (chiar din Fondul de intervenție) până la votarea unei legi în Parlament.",
     "affectedGroups": [
       "Toți cetățenii",
       "Contabili & Fiscalitate",
@@ -16,112 +44,112 @@
       "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. I, art. 30 alin. (2²)-(2³) Legea 500/2002",
-      "proposalContent": "(2²) Pentru orice alocare din Fondul de rezervă bugetară, Guvernul transmite Parlamentului, în 10 zile lucrătoare de la adoptarea hotărârii, un raport cu suma, beneficiarul, destinația și motivul pentru care cheltuiala nu a putut fi prevăzută la aprobarea bugetului. (2³) Când alocarea privește un risc iminent pentru viață, termenul este de 3 zile lucrătoare.",
-      "argumentation": "Forma inițiatorului cere raport detaliat doar în urgențele cu risc pentru viață; alocările obișnuite, exact cele pe care expunerea le critică, primesc doar o informare fără termen și fără conținut. Amendamentul extinde raportul la toate alocările și obligă Guvernul să explice de ce cheltuiala nu putea fi prevăzută în buget, scopul declarat al inițiativei.",
-      "otherComments": "Alin. (2⁶): permiteți ajutorul umanitar urgent prin HG, cu plafon și raport în 3 zile; altfel ajutorul pentru un cutremur din străinătate ar cere o lege sau o OUG. Alin. (2⁵): definiți „cheltuieli permanente” și extindeți interdicția la proiectele din bugetele locale. Art. III contravine art. 78 din Constituție: o lege intră în vigoare la 3 zile de la publicare."
+      "articleRef": "Art. I (alin. 2^2, 2^3, 2^6) și Art. III",
+      "proposalContent": "Eliminarea alin. (2^6) sau exceptarea ajutoarelor umanitare urgente din Fondul de intervenție; reformularea alin. (2^2)-(2^3) astfel încât termenul de raportare de 3-5 zile să se aplice tuturor alocărilor din Fondul de rezervă; modificarea Art. III pentru intrarea în vigoare la 3 zile de la publicare.",
+      "argumentation": "Art. III încalcă art. 78 din Constituție (intrarea în vigoare e la minim 3 zile de la publicare). Alin. (2^6) blochează ajutoarele umanitare externe urgente și cere legi individuale (art. 1 alin. 4 Constituție). Alin. (2^3) inversează logica derogării: cere raport în 3 zile doar la riscuri de viață, lăsând alocările uzuale fără termen.",
+      "otherComments": "Păstrați alin. (5^2) privind publicarea alocărilor pe site-ul MF, dar stabiliți un termen fix de publicare (ex. 5 zile lucrătoare) și format deschis (CSV/JSON). Corelați alin. (5^1) cu alin. (5) în vigoare, definiți „cheltuieli permanente” la alin. (2^5) și corectați formula de adoptare la art. 76 alin. (2) (lege ordinară)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 66128,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Reguli mai stricte și transparență pentru Fondul de rezervă al Guvernului, dar cu erori de redactare și blocaje pentru ajutoarele umanitare externe",
-      "verdictShort": "Intenția de a opri folosirea abuzivă a Fondului de rezervă ca buget paralel și de a publica online toate alocările este excelentă pentru disciplina fiscală. Totuși, proiectul conține un articol neconstituțional privind intrarea în vigoare, contradicții logice între alineate și o regulă care ar bloca trimiterea rapidă de ajutoare umanitare externe în caz de calamități.",
-      "initiatorClaim": "Inițiatorii vor să împiedice Guvernul să mai folosească Fondul de rezervă bugetară pentru cheltuieli permanente sau previzibile (ocolind rectificarea bugetară în Parlament) și să oblige Ministerul Finanțelor să raporteze și să publice transparent pe site fiecare sumă alocată.",
-      "realityCheck": "Măsurile care interzic finanțarea cheltuielilor permanente din Fondul de rezervă (alin. 2⁵) și obligă la publicarea online a beneficiarilor (alin. 5²) sunt binevenite și rezolvă o problemă reală semnalată de Consiliul Fiscal. În schimb, textul este redactat deficitar: condiționează orice ajutor umanitar extern din Fondul de intervenție de adoptarea unei legi în Parlament (ceea ce face imposibilă o intervenție rapidă la dezastre), creează o confuzie între regulă și excepție la alin. (2²)-(2³) și prevede neconstituțional intrarea legii în vigoare chiar în ziua publicării.",
-      "affectedGroups": [
-        "Toți cetățenii",
-        "Contabili & Fiscalitate"
-      ],
-      "keyFindings": [
-        "Pozitiv – Art. I, alin. (2⁵) și (5²): Interzice expres folosirea Fondului de rezervă bugetară pentru cheltuieli permanente sau programe deja incluse în bugetul anual și obligă Ministerul Finanțelor să publice pe site-ul propriu toate alocările (sumă, destinație, beneficiar, temei legal).",
-        "Problematic – Art. I, alin. (2⁶): Orice alocare din Fondul de rezervă sau din Fondul de intervenție cu titlu de ajutor umanitar sau financiar către alte state (ex: ajutor de urgență pentru Republica Moldova sau victimele unui cutremur extern) va necesita adoptarea unei legi în Parlament, blocând reacția operativă de urgență.",
-        "Neconstituțional și contradictoriu – Art. III și Art. I alin. (2²)-(2³): Art. III prevede intrarea legii în vigoare la data publicării în Monitorul Oficial (încălcând termenul constituțional de 3 zile), iar alin. (2³) este formulat ca o „derogare” de la alin. (2²) doar pentru risc iminent de pierdere de vieți omenești, deși ambele vizează tot controlul parlamentar ulterior."
-      ],
-      "blindSpotsCaught": "Confuzie tehnică între cele două fonduri din Legea 500/2002 și contradicție internă: alin. (2³) permite alocări imediate din Fondul de rezervă „prin derogare de la alin. (2²)” doar când există risc iminent de pierdere de vieți omenești (situație care de fapt cade în sarcina Fondului de intervenție, conform art. 30 alin. 4 din lege), lăsând în aer regimul alocărilor urgente obișnuite de la alin. (2²). În plus, formularea de la alin. (5¹) privind transferul „între” cele două fonduri sugerează posibilitatea transferului în ambele sensuri, deși art. 30 alin. (5) în vigoare permite doar suplimentarea Fondului de intervenție din Fondul de rezervă, nu și invers.",
-      "constitutionalityNote": "Art. III încalcă direct art. 78 din Constituția României, care prevede imperativ că legea intră în vigoare la 3 zile de la data publicării sau la o dată ulterioară prevăzută în textul ei (doar OUG-urile pot intra în vigoare la data publicării). De asemenea, contradicția dintre alin. (2²) și (2³), precum și neconcordanța dintre Art. II (aplicare din luna următoare) și Art. III (aplicare de la publicare) încalcă principiul calității și previzibilității legii din art. 1 alin. (5) din Constituție.",
-      "euLawNote": "Proiectul nu ridică probleme de compatibilitate cu piața unică (Directiva 2018/958 sau Directiva TRIS 2015/1535), fiind o reglementare strictă de procedură bugetară națională. Dimpotrivă, limitarea alocărilor discreționare din Fondul de rezervă este convergentă cu Directiva 2011/85/UE privind cadrele bugetare ale statelor membre, care impune transparență și disciplină în execuția bugetară.",
-      "senatForm": {
-        "articleRef": "Art. I (alin. 2^3, 2^6) și Art. III",
-        "proposalContent": "Se elimină Art. III. La Art. I, alin. (2^3) se reformulează fără „Prin derogare”, instituind obligativitatea raportării în 3 zile pentru toate alocările din Fondul de rezervă. La alin. (2^6), ajutoarele umanitare de urgență din Fondul de intervenție se aprobă prin HG cu informarea imediată a Parlamentului, nu prin lege.",
-        "argumentation": "Art. III încalcă flagrant art. 78 din Constituție, potrivit căruia legile intră în vigoare la minimum 3 zile de la publicare, nu la data publicării. De asemenea, derogarea de la alin. (2^3) creează o contradicție logică față de alin. (2^2), iar condiționarea oricărui ajutor umanitar extern de adoptarea unei legi blochează intervenția rapidă în caz de dezastre.",
-        "otherComments": "Susținem ferm adoptarea alin. (2^5) și (5^2), care interzic folosirea Fondului de rezervă pentru cheltuieli curente previzibile și obligă Ministerul Finanțelor să publice online toate alocările (sumă, beneficiar, temei). Aceste două prevederi opresc practica rectificărilor bugetare mascate și cresc transparența banului public."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 258925,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Banii din fondul de rezervă al Guvernului: listă publică și raport către Parlament",
-      "verdictShort": "Direcția e bună: registrul public al alocărilor e un câștig real și ieftin. Textul e însă scris stângaci, pentru că raportul detaliat se cere doar în urgențele cu risc pentru viață, nu și la alocările discreționare criticate în expunere, iar termenii nedefiniți și obligația unei legi pentru orice ajutor extern pot încetini intervenții legitime.",
-      "initiatorClaim": "Inițiatorii spun că Fondul de rezervă a fost folosit repetat pentru cheltuieli previzibile sau pentru programe deja bugetate, fără control parlamentar după aprobarea plafonului anual. Vor raportare către Parlament, interzicerea finanțării cheltuielilor permanente, aprobare prin lege pentru ajutoarele externe și publicarea tuturor alocărilor.",
-      "realityCheck": "Alocările obișnuite se fac în continuare prin hotărâre de Guvern. Parlamentul primește doar o „informare”, fără termen și fără conținut minim (alin. 2²). Raportul detaliat în 3 zile lucrătoare se cere numai în urgențele majore cu risc iminent pentru viață (alin. 2³), adică tocmai în situațiile în care alocarea e cel mai ușor de justificat. Interdicția de la alin. (2⁵) vizează doar programele din bugetul aprobat de Parlament și lasă în afara ei proiectele din bugetele locale, iar „cheltuieli permanente” nu e definit. Cea mai concretă schimbare e registrul public de pe site-ul Ministerului Finanțelor (alin. 5²), deși nu are termen de publicare.",
-      "affectedGroups": [
-        "Toți cetățenii",
-        "Justiție & Drepturi Civile"
-      ],
-      "keyFindings": [
-        "Alin. (2²)–(2³): „derogarea” e inversată. Alocările obișnuite primesc doar o informare vagă, fără termen. Raportul detaliat (sume, destinație, beneficiari, justificare), cu termen de 3 zile lucrătoare, se cere numai în urgențele cu risc iminent pentru viață. Alocările discreționare de rutină, cele criticate în expunerea de motive, scapă astfel de raportul detaliat.",
-        "Alin. (2³): „alocări imediate” nu dă Guvernului nicio putere nouă. Derogarea este de la alin. (2²), nu de la alin. (2), deci alocarea se face tot prin hotărâre de Guvern. Textul adaugă doar o obligație de raportare.",
-        "Alin. (2⁵): interdicția vizează „cheltuielile permanente” (termen nedefinit) și „programele sau proiectele incluse în bugetul anual aprobat de Parlament”. Formularea e atât de largă încât aproape orice cheltuială a unui minister poate fi legată de un program deja bugetat. Textul poate deci bloca suplimentări urgente legitime, de exemplu pentru un program de sănătate în timpul unei epidemii, sau poate fi pur și simplu ignorat. Proiectele din bugetele locale, aprobate de consiliile locale, nu sunt prinse de interdicție.",
-        "Alin. (2⁶): orice ajutor „financiar, umanitar sau de orice altă natură” acordat altor state sau unor „entități externe” ar cere o lege. „Entități externe” nu e definit: pot fi organizații internaționale, ONG-uri străine sau altceva. Textul include și Fondul de intervenție, deși expunerea (pct. d) afirmă că regimul acestuia nu e atins. Ajutorul pentru un dezastru din străinătate ar fi întârziat, iar Guvernul poate ocoli condiția printr-o ordonanță de urgență.",
-        "Alin. (5¹): transferurile dintre cele două fonduri se fac „în condițiile stabilite prin lege”, fără a spune care lege. Expunerea promite aprobare parlamentară pentru aceste transferuri, dar textul cere doar informarea Parlamentului.",
-        "Alin. (5²): registrul public al tuturor alocărilor (sumă, destinație, beneficiar, temei legal) pe site-ul Ministerului Finanțelor este câștigul real al legii. Îi lipsesc însă un termen de publicare, obligația de a publica datele în format deschis și justificarea urgenței.",
-        "Art. II–III: legea intră în vigoare „la data publicării”, contrar art. 78 din Constituție, care prevede 3 zile de la publicare. Art. II amână aplicarea pentru Fondul de rezervă până în luna următoare și nu spune nimic despre Fondul de intervenție.",
-        "Pentru cetățeni și IMM-uri nu există costuri, taxe sau obligații noi. Sarcina administrativă cade pe Guvern și pe Ministerul Finanțelor. Indirect, ordonatorii de credite, inclusiv primăriile, ar obține mai greu suplimentări pentru cheltuieli curente."
-      ],
-      "blindSpotsCaught": "Mecanismul de raportare e pus pe dos. Cele mai stricte obligații cad pe urgențele reale, iar alocările de rutină rămân cu o informare vagă, astfel că transparența lor depinde doar de registrul de la alin. (5²). Interdicția de la alin. (2⁵) se raportează la „bugetul anual aprobat de Parlament”, deci nu prinde proiectele finanțate prin bugetele locale. Conectorul „În conformitate cu prevederile alin. (2²)–(2⁴)” nu are sens logic, pentru că interdicția nu decurge din normele de raportare. Alin. (2⁴) spune că raportul „este supus dezbaterii”, dar nu precizează în ce Cameră, în ce termen și cu ce efect. Formula introductivă a Art. I anunță „se modifică și se completează”, deși textul doar completează articolul.",
-      "constitutionalityNote": "Inițiativa nu încalcă separația puterilor. Guvernul păstrează dreptul de a repartiza fondul prin hotărâre, iar Parlamentul primește informații, în linia art. 111 (obligația Guvernului de a informa Parlamentul) și a art. 138 (bugetul este aprobat de Parlament). Alin. (2²) și (2⁴) repetă în mare art. 111 și trimit la regulamentele Camerelor (art. 64), deci au mai ales caracter declarativ. Problemele reale țin de art. 1 alin. (5). Termenii „cheltuieli permanente”, „entități externe” și „alocări imediate” sunt nedefiniți, alin. (5¹) trimite la o lege inexistentă, iar derogarea de la alin. (2³) e ilogică. Art. III contravine art. 78; în practică, legea s-ar aplica la 3 zile de la publicare. Cerința unei legi de la alin. (2⁶) poate fi ocolită printr-o ordonanță de urgență (art. 115 alin. 4), care are putere de lege. Propunerea nu modifică sume din buget, deci nu ridică problema sursei de finanțare (art. 138 alin. 5).",
-      "euLawNote": "Directiva 2018/958 nu se aplică, pentru că propunerea nu reglementează profesii și nu impune condiții de acces la o activitate. Nici Directiva 2015/1535 (TRIS) nu e incidentă: textul nu conține reguli tehnice pentru produse sau pentru servicii ale societății informaționale, iar publicarea unei liste pe site-ul ministerului nu constituie o astfel de regulă. Transparența suplimentară e în spiritul Directivei 2011/85/UE privind cerințele referitoare la cadrele bugetare ale statelor membre. Alocările către beneficiari care sunt întreprinderi rămân supuse regulilor privind ajutorul de stat (art. 107 TFUE), pe care propunerea nu le schimbă. Alin. (2⁶) nu contravine dreptului UE, dar ar putea întârzia contribuțiile rapide ale României la răspunsul la dezastre din străinătate, inclusiv prin Mecanismul de protecție civilă al Uniunii, dacă sunt finanțate din aceste fonduri.",
-      "senatForm": {
-        "articleRef": "Art. I, art. 30 alin. (2²)-(2³) Legea 500/2002",
-        "proposalContent": "(2²) Pentru orice alocare din Fondul de rezervă bugetară, Guvernul transmite Parlamentului, în 10 zile lucrătoare de la adoptarea hotărârii, un raport cu suma, beneficiarul, destinația și motivul pentru care cheltuiala nu a putut fi prevăzută la aprobarea bugetului. (2³) Când alocarea privește un risc iminent pentru viață, termenul este de 3 zile lucrătoare.",
-        "argumentation": "Forma inițiatorului cere raport detaliat doar în urgențele cu risc pentru viață; alocările obișnuite, exact cele pe care expunerea le critică, primesc doar o informare fără termen și fără conținut. Amendamentul extinde raportul la toate alocările și obligă Guvernul să explice de ce cheltuiala nu putea fi prevăzută în buget, scopul declarat al inițiativei.",
-        "otherComments": "Alin. (2⁶): permiteți ajutorul umanitar urgent prin HG, cu plafon și raport în 3 zile; altfel ajutorul pentru un cutremur din străinătate ar cere o lege sau o OUG. Alin. (2⁵): definiți „cheltuieli permanente” și extindeți interdicția la proiectele din bugetele locale. Art. III contravine art. 78 din Constituție: o lege intră în vigoare la 3 zile de la publicare."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 124629,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 98702,
+      "sourceEndMarker": "SF-45D2A3DE",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Mai multă transparență pentru banii de rezervă ai Guvernului",
-      "verdictShort": "Transparența propusă este utilă, dar forma analizată necesită corecturi: intrarea în vigoare încalcă explicit Constituția, iar unele interdicții pot întârzia finanțarea unor urgențe reale. Riscul provine din redactare și rigiditate bugetară; proiectul nu introduce taxe, monopoluri sau sancțiuni noi pentru cetățeni.",
-      "initiatorClaim": "Inițiatorii urmăresc limitarea folosirii discreționare a Fondului de rezervă, prin raportare către Parlament și publicarea alocărilor. Ei susțin că astfel protejează decizia bugetară a Parlamentului și păstrează capacitatea Guvernului de intervenție rapidă.",
-      "realityCheck": "Proiectul introduce publicarea tuturor alocărilor reglementate de art. 30, dar raportul detaliat în maximum 3 zile lucrătoare este obligatoriu numai pentru urgențele majore cu risc iminent de pierderi de vieți omenești. Interzice finanțarea cheltuielilor permanente și a programelor sau proiectelor deja bugetate, fără excepție expresă pentru necesități urgente apărute ulterior, și condiționează ajutoarele externe din cele două fonduri de existența unei legi. Pentru transferurile între fonduri cere condiții stabilite prin lege, justificare și informare, fără să instituie explicit aprobarea parlamentară individuală promisă în motivare. [Forma inițiatorului](https://www.senat.ro/legis/PDF/2026/26L159FG.PDF?nocache=true)",
+      "plainTitle": "Control pe Fondul de rezervă și blocaj pe ajutoarele externe",
+      "verdictShort": "Proiectul urmărește o idee legitimă — transparența și limitarea abuzurilor din Fondul de rezervă —, dar este redactat defectuos și conține o încălcare directă a Constituției privind intrarea în vigoare. În plus, obligația adoptării unei legi de către Parlament pentru orice ajutor extern (inclusiv umanitar) riscă să paralizeze reacția României la crize internaționale și să încalce separația puterilor.",
+      "initiatorClaim": "Inițiatorii susțin că vor să oprească folosirea discreționară a Fondului de rezervă pentru cheltuieli previzibile, să instituie control parlamentar ulterior fără a bloca intervențiile urgente și să impună transparență prin publicarea online a alocărilor și aprobarea parlamentară a ajutoarelor externe.",
+      "realityCheck": "Legea nr. 500/2002 limitează deja Fondul de rezervă la cheltuieli urgente sau neprevăzute (art. 30 alin. 2). Proiectul adaugă o măsură real utilă — publicarea tuturor alocărilor pe site-ul Ministerului Finanțelor (alin. 5²) —, dar ratează controlul efectiv prin vicii grave de redactare: derogarea din alin. (2³) impune termen de raportare de 3 zile doar la riscuri iminente de vieți omenești, lăsând alocările uzuale din alin. (2²) fără termen, iar alin. (2⁶) blochează orice ajutor umanitar sau financiar extern (chiar din Fondul de intervenție) până la votarea unei legi în Parlament.",
       "affectedGroups": [
         "Toți cetățenii",
         "Contabili & Fiscalitate",
-        "Justiție & Drepturi Civile",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. III prevede intrarea în vigoare la data publicării în Monitorul Oficial, încălcând frontal art. 78 din Constituție (o lege intră în vigoare la cel puțin 3 zile de la publicare sau la o dată ulterioară), în contradicție și cu Art. II care amână aplicarea pentru fondurile existente până în luna următoare.",
+        "Alin. (2⁶) condiționează orice ajutor financiar, umanitar sau „de orice altă natură” către alte state sau „entități externe” (din Fondul de rezervă sau Fondul de intervenție) de adoptarea unei legi de către Parlament, paralizând operațional ajutoarele umanitare urgente în caz de dezastre și generând legi cu caracter individual.",
+        "Alin. (2²) și (2³) sunt construite inversat logic: alin. (2³) se declară „derogare” de la controlul ulterior din alin. (2²), dar tocmai alin. (2³) introduce singurul termen concret de raportare (3 zile lucrătoare), aplicabil exclusiv situațiilor cu risc iminent de pierdere de vieți omenești; pentru alocările obișnuite nu există nici termen, nici sancțiune.",
+        "Alin. (2⁵) interzice finanțarea din Fondul de rezervă a „cheltuielilor permanente” (termen nedefinit în Legea nr. 500/2002) și a oricăror programe/proiecte deja incluse în bugetul anual, fără a corela cu alin. (2¹) în vigoare și riscând să blocheze suplimentări urgente în crize care lovesc programe existente (ex. sănătate, energie).",
+        "Alin. (5²) este o îmbunătățire concretă de transparență (publicarea centralizată pe site-ul Ministerului Finanțelor a sumei, destinației, beneficiarului și temeiului legal), dar îi lipsesc un termen de publicare și cerința unui format de date deschise."
+      ],
+      "blindSpotsCaught": "Există o ruptură clară între Expunerea de motive și textul articolului la transferurile între fonduri: motivarea pretinde că introduce aprobare parlamentară prealabilă pentru transferurile între Fondul de rezervă și Fondul de intervenție, dar textul alin. (5¹) prevede doar transfer „în condițiile stabilite prin lege, cu informarea Parlamentului”, lăsând nemodificat alin. (5) în vigoare (care permite deja Guvernului să majoreze Fondul de intervenție). De asemenea, formula finală invocă art. 76 alin. (1) din Constituție (lege organică), deși Legea nr. 500/2002 este o lege ordinară (art. 76 alin. 2).",
+      "constitutionalityNote": "Proiectul prezintă vicii serioase de neconstituționalitate: (1) Art. III încalcă direct art. 78 din Constituție privind termenul minim de 3 zile pentru intrarea în vigoare a legilor; (2) alin. (2⁶) riscă încălcarea separației puterilor (art. 1 alin. 4, art. 102 și art. 138) și a jurisprudenței CCR privind interdicția legilor cu caracter individual (ut singuli), obligând Parlamentul să adopte legi pentru acte individuale de execuție bugetară și politică externă; (3) alin. (2²)-(2³), (2⁵) și (5¹) nu respectă cerințele de claritate și previzibilitate ale art. 1 alin. (5) (derogare inversată, termeni nedefiniți precum „cheltuieli permanente” și „entități externe”, paralelism cu alin. 5); (4) formula de adoptare califică eronat legea ca organică (art. 76 alin. 1 în loc de alin. 2).",
+      "euLawNote": "Proiectul nu reglementează profesii reglementate și nu intră sub incidența Directivei (UE) 2018/958 privind testul de proporționalitate; de asemenea, nu stabilește reglementări tehnice sau privind servicii ale societății informaționale în sensul Directivei (UE) 2015/1535 (TRIS). Pe componenta de guvernanță fiscală (Directiva 2011/85/UE privind cadrele bugetare naționale), publicarea alocărilor (alin. 5²) este aliniată principiilor de transparență bugetară. Totuși, blocarea oricărui ajutor extern prin lege parlamentară (alin. 2⁶) poate crea fricțiuni operaționale cu mecanismele de solidaritate ale UE (ex. Mecanismul de protecție civilă al Uniunii) și angajamentele asumate în temeiul art. 11 și art. 148 din Constituție.",
+      "senatForm": {
+        "articleRef": "Art. I (alin. 2^2, 2^3, 2^6) și Art. III",
+        "proposalContent": "Eliminarea alin. (2^6) sau exceptarea ajutoarelor umanitare urgente din Fondul de intervenție; reformularea alin. (2^2)-(2^3) astfel încât termenul de raportare de 3-5 zile să se aplice tuturor alocărilor din Fondul de rezervă; modificarea Art. III pentru intrarea în vigoare la 3 zile de la publicare.",
+        "argumentation": "Art. III încalcă art. 78 din Constituție (intrarea în vigoare e la minim 3 zile de la publicare). Alin. (2^6) blochează ajutoarele umanitare externe urgente și cere legi individuale (art. 1 alin. 4 Constituție). Alin. (2^3) inversează logica derogării: cere raport în 3 zile doar la riscuri de viață, lăsând alocările uzuale fără termen.",
+        "otherComments": "Păstrați alin. (5^2) privind publicarea alocărilor pe site-ul MF, dar stabiliți un termen fix de publicare (ex. 5 zile lucrătoare) și format deschis (CSV/JSON). Corelați alin. (5^1) cu alin. (5) în vigoare, definiți „cheltuieli permanente” la alin. (2^5) și corectați formula de adoptare la art. 76 alin. (2) (lege ordinară)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 76927,
+      "sourceEndMarker": "SF-45D2A3DE",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Reguli mai stricte pentru banii din rezerva Guvernului",
+      "verdictShort": "Transparența alocărilor și limitarea folosirii rezervei pentru cheltuieli obișnuite sunt utile. Totuși, proiectul conține o regulă neconstituțională de intrare în vigoare și restricții insuficient calibrate, care pot întârzia inclusiv ajutoarele externe urgente.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea alocărilor discreționare, protejarea bugetului votat de Parlament și publicarea destinației banilor. Ei susțin că păstrează intervenția rapidă a Guvernului, introducând raportare și control parlamentar ulterior.",
+      "realityCheck": "Proiectul păstrează mecanismul alocării prin hotărâre a Guvernului, adaugă transparență și interdicții, însă termenul concret de raportare privește numai urgențele majore cu risc iminent pentru viață. Ajutoarele externe din cele două fonduri sunt condiționate de o lege, fără excepție pentru intervenții urgente, iar interdicția finanțării programelor deja bugetate poate împiedica suplimentări justificate. Contrar expunerii de motive, textul nu cere explicit aprobarea parlamentară individuală a fiecărui transfer între fonduri și nu reglementează toate ajutoarele externe din orice sursă bugetară.",
+      "affectedGroups": [
+        "Toți cetățenii",
         "Sănătate & Educație",
         "Agricultură & Mediu"
       ],
       "keyFindings": [
-        "Art. I, alin. (2²)–(2⁴): informarea generală nu primește termen sau conținut minim. Termenul de 3 zile lucrătoare privește exclusiv urgențele majore și poate curge de la reluarea activității parlamentare, formulă care permite amânarea raportării. Derogarea de la un control deja ulterior este logic neclară și nu instituie, pentru celelalte alocări, o aprobare prealabilă.",
-        "Expunerea de motive promite utilizare exclusiv pentru cheltuieli urgente și neprevăzute, însă proiectul păstrează alin. (2), care permite cheltuieli urgente sau neprevăzute. Condițiile nu devin cumulative prin simpla motivare. [Art. 30 din Legea nr. 500/2002, textul publicat](https://www.cdep.ro/ords/pls/legis/legis_pck.htp_act_text?idt=37400)",
-        "Art. I, alin. (2⁵): interdicția privind programele și proiectele deja incluse în buget poate exclude suplimentări necesare după un eveniment neprevăzut. Noțiunea de cheltuieli permanente nu este definită; interdicția privește finanțarea din Fondul de rezervă, fără să desființeze cheltuielile sau programele respective.",
-        "Art. I, alin. (2⁶): condiția unei legi pentru ajutoarele externe acoperă atât Fondul de rezervă, cât și Fondul de intervenție și nu are excepție umanitară. Nu precizează dacă este suficientă o lege generală existentă sau trebuie o lege pentru fiecare alocare; termenul entități externe necesită definire. Restricția nu privește toate plățile externe din toate sursele bugetare.",
-        "Art. I, alin. (5¹): formula transferului între fonduri trebuie corelată cu alin. (5), care permite deja majorarea Fondului de intervenție din Fondul de rezervă. Textul nou nu stabilește concret procedura și nici nu autorizează fără echivoc transferul invers.",
-        "Art. I, alin. (5²): publicarea centralizată facilitează controlul civic, dar lipsesc termenul de publicare și reguli pentru actualizare. Nu sunt prevăzute sancțiuni speciale pentru neraportare sau nepublicare. Obligațiile administrative revin autorităților; cetățenilor și IMM-urilor nu li se cer declarații, autorizații sau plăți suplimentare.",
-        "Impactul financiar nu este cuantificat: raportarea, publicarea și dezbaterea obligatorie presupun muncă administrativă. Afirmația inițiatorilor că aceste costuri sunt minore nu constituie o estimare verificabilă; efectele indirecte relevante sunt eventualele întârzieri ale finanțărilor și ajutoarelor.",
-        "Art. II se referă imprecis la fondurile aflate în prezent în rezervă și amână aplicarea până în luna următoare publicării, fără să clarifice alocările deja aprobate sau fondurile adăugate ulterior. Art. III prevede neconstituțional intrarea în vigoare chiar la publicare; Consiliul Legislativ a cerut corectarea sa și încadrarea proiectului ca lege ordinară. [Avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L159LG.PDF?nocache=true)"
+        "Art. III prevede intrarea în vigoare chiar la publicare. Aceasta contravine direct art. 78 din Constituție, care permite intrarea în vigoare la 3 zile de la publicare sau la o dată ulterioară.",
+        "Art. 30 alin. (2), nemodificat, permite deja finanțarea cheltuielilor «urgente sau neprevăzute». Proiectul nu înlocuiește «sau» cu «și», deși motivarea descrie uneori condițiile ca fiind cumulative.",
+        "Alin. (2²) consacră informarea Parlamentului, dar nu stabilește un termen general sau conținutul minim al informării. Controlul parlamentar există deja în cadrul constituțional; proiectul nu îl creează de la zero.",
+        "Alin. (2³) impune raportul detaliat în maximum 3 zile lucrătoare numai pentru urgențe majore cu risc iminent de pierdere de vieți. Alternativa calculării termenului de la «reluarea activității parlamentare» poate amâna informarea și nu definește precis situațiile în care se aplică.",
+        "Derogarea din alin. (2³) este neclară: alin. (2²) prevede deja control ulterior, fără aprobare prealabilă de la care să fie necesară exceptarea. Același alin. (2³) menține expres raportarea și controlul ulterior, deci nu instituie clar o scutire de control.",
+        "Alin. (2⁵) interzice finanțarea cheltuielilor permanente și a programelor sau proiectelor deja cuprinse în buget. Interdicția depășește eliminarea cheltuielilor previzibile: poate bloca suplimentarea unui program existent chiar dacă apare o nevoie urgentă și neprevăzută; trebuie corelată și cu posibilitățile de modificare a investițiilor păstrate la alin. (2¹).",
+        "Alin. (2⁶) condiționează ajutoarele externe din ambele fonduri de existența unei legi. Nu precizează dacă este suficientă o autorizare legală generală sau dacă fiecare alocare necesită o lege distinctă și nu prevede o procedură specială pentru urgențe umanitare.",
+        "Alin. (5¹) adaugă justificare și informare parlamentară transferurilor între fonduri, dar nu cere expres vot parlamentar pentru fiecare transfer. Alin. (5), păstrat, permite deja majorarea Fondului de intervenție din Fondul de rezervă; noul text nu oferă singur o autorizare clară pentru transferul invers.",
+        "Alin. (5²) introduce publicarea tuturor alocărilor efectuate potrivit art. 30, inclusiv din Fondul de intervenție. Este o îmbunătățire concretă, însă lipsesc termenul publicării și reguli pentru actualizarea informațiilor.",
+        "Art. II amână aplicarea noilor reguli asupra fondurilor «aflate în prezent» până în luna următoare publicării. Referința temporală este imprecisă și poate crea un regim diferit pentru disponibilul existent și sumele adăugate ulterior. Proiectul nu introduce taxe, sancțiuni sau obligații administrative directe pentru cetățeni și IMM-uri; sarcinile suplimentare revin în principal Guvernului și Ministerului Finanțelor, fără costuri cuantificate în materialele furnizate."
       ],
-      "blindSpotsCaught": "Premisa că Parlamentul controlează fondul exclusiv la aprobarea bugetului este exagerată: există deja informarea și controlul parlamentar potrivit art. 111–112, precum și controlul Curții de Conturi și raportarea către Parlament potrivit art. 140; noutatea este raportarea specifică, din oficiu. [Constituția](https://legislatie.just.ro/Public/DetaliiDocument/47355?isFormaDeBaza=True) Procedural, Senatul a respins inițiativa la 7 aprilie 2026, fără a închide procedura în Camera decizională; termenul de amendamente din 23 aprilie 2026 este depășit. [Fișa Camerei Deputaților](https://www.cdep.ro/ords/pls/proiecte/upl_pck.proiect?cam=2&idp=22924)",
-      "constitutionalityNote": "Art. III contravine direct art. 78: legea poate intra în vigoare la minimum 3 zile de la publicare. Ambiguitățile privind derogarea, termenele, cheltuielile permanente și entitățile externe ridică probleme de claritate potrivit art. 1 alin. (5). Art. 23 alin. (12), privind legalitatea pedepselor, nu este direct incident: proiectul nu instituie pedepse. Raportarea este compatibilă în principiu cu art. 111; dezbaterea trebuie organizată cu respectarea autonomiei regulamentare din art. 64. Limitele bugetare nu sunt neconstituționale prin simpla lor existență. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355?isFormaDeBaza=True)",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea lor. [Directiva, art. 1–2](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng) Nu se identifică obligație de notificare TRIS potrivit Directivei (UE) 2015/1535: publicarea alocărilor pe un site ministerial nu reglementează servicii digitale sau AI și nu constituie o reglementare tehnică pentru produse. [Directiva, art. 1 și 5](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535) Textul nu creează monopoluri sau bariere directe de acces pe piață. Eventualele alocări care constituie ajutoare de stat rămân supuse normelor UE aplicabile; aprobarea parlamentară nu înlocuiește această verificare.",
+      "blindSpotsCaught": "Dispozițiile finale schimbă evaluarea: art. III încalcă termenul constituțional de intrare în vigoare, iar art. II creează o tranziție neclară. Totodată, raportarea în 3 zile nu acoperă toate alocările, iar condiția legii pentru ajutoare externe privește și Fondul de intervenție, deși motivarea afirmă că regimul acestuia nu este afectat. Numerotările «(25)» și «(26)» trebuie verificate în original, fiind posibile erori de extragere pentru (2⁵) și (2⁶).",
+      "constitutionalityNote": "Art. III contravine art. 78 din Constituție și trebuie corectat. Formulările despre derogare, reluarea activității parlamentare, cheltuieli permanente, entități externe și aplicarea tranzitorie ridică probleme de claritate și previzibilitate potrivit art. 1 alin. (5). Informarea și controlul ulterior sunt compatibile, în principiu, cu art. 111–112; organizarea dezbaterii trebuie să respecte autonomia regulamentară a Camerelor, potrivit art. 64. Condiționarea ajutoarelor externe prin lege nu este automat neconstituțională, dar trebuie corelată cu atribuțiile Guvernului din art. 102 și cu cadrul bugetar din art. 138. Art. 23 alin. (12) nu este incident direct, deoarece proiectul nu stabilește pedepse. Analiza privește textul furnizat; verificarea online a formei parlamentare și a legislației consolidate nu a fost disponibilă.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea acestora. Nici procedura TRIS din Directiva (UE) 2015/1535 nu este declanșată de simpla publicare a alocărilor pe un site; nu sunt introduse reguli tehnice pentru produse ori reguli specifice serviciilor societății informaționale. Nu rezultă bariere directe pentru concurență sau piața unică. Alocările către întreprinderi rămân supuse regulilor UE privind ajutorul de stat, atunci când sunt îndeplinite condițiile art. 107–108 TFUE; aprobarea prin lege nu înlătură aceste obligații.",
       "senatForm": {
-        "articleRef": "Art. III",
+        "articleRef": "Art. III – Intrarea în vigoare",
         "proposalContent": "Art. III. – Prezenta lege intră în vigoare la 3 zile de la data publicării în Monitorul Oficial al României, Partea I.",
-        "argumentation": "Art. 78 din Constituție impune minimum 3 zile între publicare și intrarea în vigoare. Aplicarea din luna următoare, prevăzută pentru anumite fonduri la art. II, nu înlătură neconstituționalitatea art. III.",
-        "otherComments": "Solicit corelarea art. II cu intrarea în vigoare, raportare pentru toate alocările și termen de publicare online. Interdicția privind proiectele bugetate și regimul ajutoarelor externe necesită clarificări. Termenul de amendamente, 23.04.2026, este depășit; transmiterea către comisiile Camerei reprezintă o propunere cetățenească, preluabilă de un deputat."
-      }
+        "argumentation": "Intrarea în vigoare la data publicării contravine art. 78 din Constituție. Termenul constituțional este obligatoriu inclusiv pentru legile privind finanțele publice. Amendamentul elimină acest viciu fără a schimba obiectivele proiectului.",
+        "otherComments": "Se recomandă și corelarea art. II cu noua dată de intrare în vigoare, stabilirea unui termen general de raportare și publicare, precum și clarificarea autorizării legale a ajutoarelor externe urgente și a suplimentărilor pentru programe deja bugetate."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T03:25:41.713Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T13:37:49.451Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

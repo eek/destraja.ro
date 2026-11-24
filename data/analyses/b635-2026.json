@@ -1,14 +1,41 @@
 {
   "billId": "B635/2026",
   "slug": "b635-2026",
-  "updatedAt": "2026-11-12T15:15:09.548Z",
+  "updatedAt": "2026-11-24T12:04:53.080Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1382,
+    "ordinanceChars": 0,
+    "memoChars": 3903,
+    "memoSupplied": 3903,
+    "marker": "SF-7D3F7B23"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/b635-2026.json",
+    "form": "initiator",
+    "textHash": "7d3f7b23aad8e7c7",
+    "fetchedAt": "2026-11-19T11:19:54.361Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 2,
+    "articlesShown": 2,
+    "articleCap": 8000,
+    "articlesCut": 2,
+    "chars": 19250,
+    "truncated": false,
+    "included": true,
+    "key": "27e5eb338168eb39"
+  },
   "consensus": {
-    "riskScore": 3,
-    "riskLevel": "green",
-    "plainTitle": "Elevii și studenții sub 26 de ani, fără impozit și CAS pe salariu, trei luni pe an",
-    "summaryTlDr": "Măsura e socială, bine intenționată și cu un cost probabil mic, dar e scrisă neclar. Nu spune care sunt cele trei luni, cum se numără la mai mulți angajatori și ce se întâmplă cu un salariu peste 3.900 lei. În plus, scutirea de CAS înseamnă că tânărul nu strânge stagiu de cotizare pentru pensie în acele luni.",
-    "initiatorClaim": "Inițiatorii vor să încurajeze angajarea elevilor și studenților, să reducă abandonul școlar și să le crească venitul net. Pentru asta, scutesc salariile lor de impozit și contribuții timp de trei luni pe an, până la 3.900 lei pe lună.",
-    "realityCheck": "Legea scoate salariul elevilor și studenților de până la 26 de ani din impozitul pe venit (art. 76) și din baza CAS (art. 142), pentru «trei luni/an» și «în limita» a 3.900 lei lunar. Tot restul îl lasă pe seama unui ordin al ministrului finanțelor. Câștigul ajunge mai ales la tânăr, pentru că impozitul și CAS se rețin oricum din salariul lui. Angajatorul nu plătește direct aceste sume, deci economia promisă în expunere e mică: cel mult CAM de 2,25%, dacă scutirea se extinde prin trimitere, sau un salariu brut negociat mai mic. Lunile scutite de CAS nu se adaugă la stagiul de cotizare pentru pensie.",
+    "riskScore": 4.5,
+    "riskLevel": "yellow",
+    "plainTitle": "Scutire de taxe 3 luni/an pentru elevi și studenți sub 26 de ani, scrisă neclar",
+    "summaryTlDr": "Intenția de a încuraja angajarea legală și sezonieră a tinerilor este legitimă, dar textul de doar două fraze este redactat superficial, lipsit de sursă de finanțare și plin de ambiguități fiscale. În forma actuală riscă blocajul în aplicare, abuzuri prin „venituri asimilate” și invalidare la CCR.",
+    "initiatorClaim": "Inițiatorii susțin că scutirea de impozit pe venit și contribuții sociale timp de 3 luni/an (până la 3.900 lei/lună) va crește angajarea elevilor și studenților, va reduce abandonul școlar și șomajul în rândul tinerilor, având un impact bugetar limitat.",
+    "realityCheck": "În prezent, art. 76 alin. (4) și art. 142 din Codul fiscal nu prevăd o scutire generală pentru salariile elevilor și studenților; proiectul adaugă această facilitate, dar nu clarifică dacă 3.900 lei este o sumă neimpozabilă din salariu sau un prag a cărui depășire anulează întreaga scutire, cum se aleg cele 3 luni sau ce se întâmplă la mai mulți angajatori. În plus, scutirea acoperă și „veniturile asimilate salariilor” (ex. indemnizații de administratori) și nu definește „forma de școlarizare”, deschizând portițe de optimizare fiscală, iar neplata CAS lasă tinerii fără stagiu de cotizare la pensie pe acele 3 luni.",
     "affectedGroups": [
       "Angajați & HR",
       "Contabili & Fiscalitate",
@@ -16,22 +43,24 @@
       "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct. 1-2: art. 76(4) z), art. 142 ab)",
-      "proposalContent": "Lit. z) și ab) să prevadă: «primii 3.900 lei din venitul brut lunar din salarii al elevului sau studentului de până la 26 de ani aflat într-o formă de învățământ, pentru cel mult 3 luni dintr-un an calendaristic, cumulat la toți angajatorii, pe baza adeverinței de elev/student și a declarației pe proprie răspundere privind lunile deja folosite.»",
-      "argumentation": "«Trei luni/an» și «în limita plafonului» sunt neclare: nu se știe dacă lunile sunt pe an calendaristic sau școlar, per angajator ori cumulat, nici dacă un salariu peste 3.900 lei pierde tot avantajul sau doar excedentul. Elementele bazei de impozitare trebuie stabilite prin lege (art. 139 și art. 1 alin. (5) din Constituție), nu lăsate unui ordin al ministrului.",
-      "otherComments": "Scutirea de CAS (art. 142) înseamnă că acele luni nu contează ca stagiu de cotizare pentru pensie; tânărul trebuie informat sau CAS păstrat. Lipsește fișa financiară (Legea nr. 69/2010, art. 15) și nu există dată de intrare în vigoare, deci se aplică art. 4 din Codul fiscal. Angajatorul economisește puțin: CAS și impozitul se rețin din salariul elevului."
+      "articleRef": "Art. unic pct. 1 și 2 (art. 76 și art. 142)",
+      "proposalContent": "Clarificarea textului: scutirea să vizeze doar salariile din CIM ale elevilor/studenților la învățământ acreditat, cu excluderea veniturilor asimilate; definirea plafonului (deducere vs. prag), indexat la salariul minim; reglementarea cumulului la mai mulți angajatori, a alegerii celor 3 luni și introducerea unui termen de intrare în vigoare.",
+      "argumentation": "Forma actuală încalcă art. 1 alin. (5) și art. 139 alin. (1) din Constituție: lasă elemente esențiale ale scutirii la ordin de ministru, nu clarifică regimul depășirii pragului de 3.900 lei și permite abuzuri prin „venituri asimilate” și noțiunea vagă de „formă de școlarizare”. Lipsesc fișa financiară și sursa de finanțare cerute de art. 138 alin. (5).",
+      "otherComments": "Proiectul are un scop social util (integrarea tinerilor și reducerea muncii la negru), dar trebuie corelat cu art. 4 din Codul fiscal privind intrarea în vigoare și cu legislația pensiilor, pentru a clarifica dacă cele 3 luni fără CAS constituie sau nu stagiu de cotizare. Este necesar punctul de vedere al Guvernului și calculul impactului bugetar."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 75422,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Scutire de impozit și CAS (pensii) pe 3 luni/an pentru elevii și studenții sub 26 de ani angajați, în limita a 3.900 lei/lună",
-      "verdictShort": "O măsură fiscală pozitivă pentru tinerii care muncesc sezonier pe timpul vacanțelor, dar redactată deficitar: inițiatorii au uitat să scutească veniturile și de CASS (sănătate - 10%) și au formulat ambiguu condiția celor 3 luni/an.",
-      "initiatorClaim": "Inițiatorii susțin că vor să scutească elevii și studenții de până la 26 de ani de impozitul pe venit și de contribuțiile sociale obligatorii timp de 3 luni pe an, în limita unui plafon lunar de 3.900 lei, pentru a încuraja munca tinerilor și a reduce costurile angajatorilor.",
-      "realityCheck": "În realitate, proiectul modifică doar art. 76 alin. (4) (impozitul pe venit de 10%) și art. 142 (contribuția la pensii CAS de 25%), omițând complet art. 157 (CASS - 10% sănătate) și art. 220⁴ (CAM - 2,25% plătit de angajator). Deoarece art. 154 alin. (1) lit. a) din Codul fiscal retrage scutirea de CASS elevilor și studenților în momentul în care obțin venituri din salarii, tinerii vor plăti în continuare 10% CASS, iar lipsa unui termen pentru emiterea Ordinului Ministrului Finanțelor riscă să lase facilitatea inaplicabilă la intrarea în vigoare.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 84563,
+      "sourceEndMarker": "SF-7D3F7B23",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Scutire de taxe 3 luni/an pentru elevi și studenți sub 26 de ani, scrisă neclar",
+      "verdictShort": "Intenția de a încuraja angajarea legală și sezonieră a tinerilor este legitimă, dar textul de doar două fraze este redactat superficial, lipsit de sursă de finanțare și plin de ambiguități fiscale. În forma actuală riscă blocajul în aplicare, abuzuri prin „venituri asimilate” și invalidare la CCR.",
+      "initiatorClaim": "Inițiatorii susțin că scutirea de impozit pe venit și contribuții sociale timp de 3 luni/an (până la 3.900 lei/lună) va crește angajarea elevilor și studenților, va reduce abandonul școlar și șomajul în rândul tinerilor, având un impact bugetar limitat.",
+      "realityCheck": "În prezent, art. 76 alin. (4) și art. 142 din Codul fiscal nu prevăd o scutire generală pentru salariile elevilor și studenților; proiectul adaugă această facilitate, dar nu clarifică dacă 3.900 lei este o sumă neimpozabilă din salariu sau un prag a cărui depășire anulează întreaga scutire, cum se aleg cele 3 luni sau ce se întâmplă la mai mulți angajatori. În plus, scutirea acoperă și „veniturile asimilate salariilor” (ex. indemnizații de administratori) și nu definește „forma de școlarizare”, deschizând portițe de optimizare fiscală, iar neplata CAS lasă tinerii fără stagiu de cotizare la pensie pe acele 3 luni.",
       "affectedGroups": [
         "Angajați & HR",
         "Contabili & Fiscalitate",
@@ -39,63 +68,37 @@
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Omisiune legislativă la CASS și CAM (Art. unic pct. 2): Deși expunerea de motive promite scutirea de contribuțiile sociale obligatorii și scăderea costurilor angajatorului, completarea exclusivă a art. 142 scutește doar CAS (25% pensie, perioadă în care tânărul nu acumulează stagiu de cotizare), lăsând intactă obligația reținerii CASS (10% - art. 157) și a plății CAM (2,25% - art. 220⁴).",
-        "Eroare de topică și ambiguitate de plafon (Art. unic pct. 1 și 2): Formularea „aflați într-o formă de școlarizare în decursul a trei luni/an în limita plafonului lunar de cel mult 3900 lei” leagă gramatical durata de 3 luni de școlarizare, nu de perioada realizării veniturilor salariale, și nu clarifică dacă la un salariu brut de 4.000 lei se scutește suma de 3.900 lei sau se pierde integral facilitatea.",
-        "Delegare în alb fără termen de reglementare: Aplicarea practică (cumulul plafonului la mai mulți angajatori sau alegerea celor 3 luni din an) este lăsată integral prin ordin al ministrului finanțelor, fără stabilirea unui termen-limită de emitere și fără corelare cu art. 4 din Codul fiscal."
+        "Ambiguitate severă și delegare nepermisă (Art. unic pct. 1 și 2): textul nu stabilește dacă cele 3 luni sunt consecutive sau fracționate, cum se cumulează plafonul de 3.900 lei la mai mulți angajatori și dacă depășirea plafonului taxează doar diferența sau întregul salariu, trimițând totul la un ordin al ministrului finanțelor.",
+        "Portițe de abuz și prag fix neindexat (Art. 76 alin. 4 lit. z și art. 142 lit. ab): includerea „veniturilor asimilate salariilor” și formula vagă „într-o formă de școlarizare” (fără cerința acreditării sau a învățământului la zi) permit optimizări fiscale artificiale, iar plafonul fix de 3.900 lei nu este corelat cu salariul minim brut pe economie.",
+        "Lipsă corelare legislativă și bugetară: nu există fișă financiară sau sursă de finanțare, lipsește termenul de intrare în vigoare (corelat cu art. 4 Cod fiscal și cu emiterea ordinului MF), iar proiectul nu clarifică efectul excluderii din art. 142 asupra stagiului de cotizare la pensie și asupra CASS/CAM."
       ],
-      "blindSpotsCaught": "Conform art. 154 alin. (1) lit. a) din Codul fiscal, elevii și studenții până în 26 de ani sunt asigurați fără plata CASS doar dacă NU obțin venituri din salarii; prin omiterea modificării art. 157 alin. (2), angajarea lor pe vară le activează automat plata CASS de 10%. În plus, plafonul fix de 3.900 lei este sub nivelul salariului minim brut pe țară actual, ceea ce înseamnă că la o normă întreagă pe salariul minim angajatul depășește din start plafonul.",
-      "constitutionalityNote": "Sub aspectul art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii), trimiterea la un ordin al ministrului finanțelor fără stabilirea în legea primară a regulii aplicabile la depășirea plafonului (scutire parțială vs. pierderea scutirii) și fără un termen de emitere a ordinului creează insecuritate juridică. De asemenea, se impune respectarea art. 138 alin. (5) privind fișa financiară solicitată Guvernului.",
-      "euLawNote": "Măsura nu ridică probleme de incompatibilitate cu dreptul UE sau cu Directiva (UE) 2018/958, fiind o facilitate fiscală orizontală, nediscriminatorie, aplicabilă oricărui angajator și oricărui elev/student sub 26 de ani pe piața muncii (în linie cu recomandările europene privind stimularea ocupării tinerilor).",
+      "blindSpotsCaught": "Sintagma „aflați într-o formă de școlarizare în decursul a trei luni/an” este redactată fără virgulă, încât gramatical pare să ceară școlarizare timp de 3 luni/an, nu limitarea scutirii la 3 luni/an; totodată, lipsa unui termen de intrare în vigoare face legea inaplicabilă imediat după publicare (art. 78 Constituție), până la apariția ordinului MF, iar în sectoarele sezoniere unde salariile se negociază net, economia de taxe poate rămâne la angajator, nu la student.",
+      "constitutionalityNote": "Vulnerabilități majore pe art. 1 alin. (5) (claritatea și previzibilitatea legii) și art. 139 alin. (1) (elementele esențiale ale scutirilor fiscale trebuie stabilite prin lege, nu prin ordin de ministru). De asemenea, absența indicării sursei de finanțare pentru reducerea veniturilor bugetare contravine art. 138 alin. (5) din Constituție (jurisprudență constantă a CCR), iar lipsa definirii stricte a „formei de școlarizare” poate ridica obiecții sub art. 56 alin. (2) (justa așezare a sarcinilor fiscale) față de tinerii de aceeași vârstă care muncesc fără a fi înscriși la cursuri.",
+      "euLawNote": "Nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează profesii reglementate) și nici a Directivei (UE) 2015/1535 (TRIS, nu vizează servicii digitale/standarde tehnice). Ca facilitate fiscală orizontală deschisă tuturor sectoarelor, nu constituie ajutor de stat selectiv (art. 107 TFUE), iar stimulentele de vârstă pentru integrarea tinerilor sunt în principiu admise de art. 6 din Directiva 2000/78/CE dacă sunt proporționale; totuși, introducerea de scutiri nefinanțate contravine disciplinei fiscal-bugetare asumate de România în cadrul procedurii de deficit excesiv.",
       "senatForm": {
-        "articleRef": "Art. unic pct. 1 și 2 (art. 76, 142 Cod fiscal)",
-        "proposalContent": "La pct. 1 și 2, textul devine: „veniturile din salarii și asimilate salariilor realizate, pe o perioadă de maximum 3 luni/an calendaristic, de către elevi sau studenți înmatriculați într-o formă de învățământ, în vârstă de până la 26 de ani, pentru partea care nu depășește plafonul lunar de 3.900 lei.” Se introduce pct. 3 cu același text la art. 157 alin. (2) (scutire CASS).",
-        "argumentation": "1. Sintaxa actuală („școlarizare în decursul a trei luni/an”) leagă eronat durata de 3 luni de școlarizare, nu de venituri. 2. Formularea „pentru partea care nu depășește” previne pierderea întregii scutiri dacă salariul trece de 3.900 lei. 3. Fără completarea art. 157 alin. (2), elevii și studenții rămân obligați la plata CASS (10%), fiind scutit doar CAS.",
-        "otherComments": "Se impune introducerea unui art. II care să prevadă: (1) intrarea în vigoare la 1 a lunii următoare publicării sau conform art. 4 din Codul fiscal, și (2) un termen ferm de 30 de zile pentru emiterea ordinului ministrului finanțelor privind cumulul plafonului și al celor 3 luni la mai mulți angajatori, pentru a evita blocarea aplicării legii în practică."
+        "articleRef": "Art. unic pct. 1 și 2 (art. 76 și art. 142)",
+        "proposalContent": "Clarificarea textului: scutirea să vizeze doar salariile din CIM ale elevilor/studenților la învățământ acreditat, cu excluderea veniturilor asimilate; definirea plafonului (deducere vs. prag), indexat la salariul minim; reglementarea cumulului la mai mulți angajatori, a alegerii celor 3 luni și introducerea unui termen de intrare în vigoare.",
+        "argumentation": "Forma actuală încalcă art. 1 alin. (5) și art. 139 alin. (1) din Constituție: lasă elemente esențiale ale scutirii la ordin de ministru, nu clarifică regimul depășirii pragului de 3.900 lei și permite abuzuri prin „venituri asimilate” și noțiunea vagă de „formă de școlarizare”. Lipsesc fișa financiară și sursa de finanțare cerute de art. 138 alin. (5).",
+        "otherComments": "Proiectul are un scop social util (integrarea tinerilor și reducerea muncii la negru), dar trebuie corelat cu art. 4 din Codul fiscal privind intrarea în vigoare și cu legislația pensiilor, pentru a clarifica dacă cele 3 luni fără CAS constituie sau nu stagiu de cotizare. Este necesar punctul de vedere al Guvernului și calculul impactului bugetar."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 161311,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Elevii și studenții sub 26 de ani, fără impozit și CAS pe salariu, trei luni pe an",
-      "verdictShort": "Măsura e socială, bine intenționată și cu un cost probabil mic, dar e scrisă neclar. Nu spune care sunt cele trei luni, cum se numără la mai mulți angajatori și ce se întâmplă cu un salariu peste 3.900 lei. În plus, scutirea de CAS înseamnă că tânărul nu strânge stagiu de cotizare pentru pensie în acele luni.",
-      "initiatorClaim": "Inițiatorii vor să încurajeze angajarea elevilor și studenților, să reducă abandonul școlar și să le crească venitul net. Pentru asta, scutesc salariile lor de impozit și contribuții timp de trei luni pe an, până la 3.900 lei pe lună.",
-      "realityCheck": "Legea scoate salariul elevilor și studenților de până la 26 de ani din impozitul pe venit (art. 76) și din baza CAS (art. 142), pentru «trei luni/an» și «în limita» a 3.900 lei lunar. Tot restul îl lasă pe seama unui ordin al ministrului finanțelor. Câștigul ajunge mai ales la tânăr, pentru că impozitul și CAS se rețin oricum din salariul lui. Angajatorul nu plătește direct aceste sume, deci economia promisă în expunere e mică: cel mult CAM de 2,25%, dacă scutirea se extinde prin trimitere, sau un salariu brut negociat mai mic. Lunile scutite de CAS nu se adaugă la stagiul de cotizare pentru pensie.",
-      "affectedGroups": [
-        "Angajați & HR",
-        "Sănătate & Educație",
-        "Contabili & Fiscalitate",
-        "IMM & Antreprenori"
-      ],
-      "keyFindings": [
-        "Art. unic pct. 1 (art. 76 alin. (4) lit. z)): «în decursul a trei luni/an» nu spune dacă e vorba de anul calendaristic sau de anul școlar. Nu spune nici dacă lunile trebuie să fie consecutive, cine le alege (salariatul sau angajatorul) și cum se numără când tânărul are mai mulți angajatori, unul după altul sau în paralel.",
-        "«În limita plafonului lunar de cel mult 3.900 lei» se poate citi în două feluri. Fie ca prag: un salariu de 3.901 lei pierde tot avantajul. Fie ca sumă scutită: se scutesc doar primii 3.900 lei. Textul nu precizează nici dacă suma e brută sau netă. Plafonul e o sumă fixă, sub salariul minim brut pe economie, și nu se actualizează.",
-        "Art. unic pct. 2 (art. 142 lit. ab)): salariul ieșit din baza CAS nu aduce stagiu de cotizare. Pentru un tânăr care lucrează în fiecare vară, asta înseamnă luni pierdute la pensie. Legea nu îi dă posibilitatea să plătească totuși contribuția.",
-        "Ambele litere lasă «procedura de aplicare» în seama unui ordin al ministrului finanțelor. Dacă ordinul ajunge să lămurească el ce înseamnă «trei luni/an» sau plafonul, elemente ale bazei de impozitare se stabilesc sub nivelul legii.",
-        "Propunerea nu are fișă financiară; inițiatorii au cerut-o Guvernului, conform art. 111 din Constituție. Nu are nici dată de intrare în vigoare, deci se aplică regula din art. 4 din Codul fiscal: cel puțin 6 luni de la publicare."
-      ],
-      "blindSpotsCaught": "Propunerea ignoră Legea nr. 72/2007 privind stimularea încadrării în muncă a elevilor și studenților, care subvenționează deja angajatorii ce angajează elevi și studenți în vacanțe. Cele două scheme s-ar suprapune fără nicio corelare. Mai e o problemă: art. 142 e lista excluderilor de la CAS, iar Codul fiscal trimite la ea și pentru CASS (art. 157) și CAM (art. 220^4). Scutirea s-ar putea astfel extinde tacit și la sănătate și la contribuția angajatorului, deși expunerea vorbește doar de «contribuția socială obligatorie». Fără o evidență comună a lunilor folosite, fiecare angajator ar putea acorda separat cele trei luni.",
-      "constitutionalityNote": "Art. 139 alin. (1) cere ca impozitele și contribuțiile să fie stabilite numai prin lege. Delegarea procedurii către un ordin al ministrului e acceptabilă doar dacă legea fixează complet condițiile, iar aici «trei luni/an» și plafonul rămân neclare, ceea ce ridică probleme de previzibilitate (art. 1 alin. (5)). Diferențierea după vârstă și statutul de elev sau student e obiectivă și are un scop legitim (ocuparea tinerilor), deci un tratament diferit față de ceilalți salariați nu încalcă, probabil, art. 16. Art. 138 alin. (5) privește cheltuielile. Pentru venituri bugetare reduse, obligația de fișă financiară vine din Legea nr. 69/2010 (art. 15) și din Legea nr. 500/2002, iar punctul de vedere al Guvernului a fost cerut corect.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează accesul la o profesie. Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu sunt reguli tehnice sau servicii ale societății informaționale. Riscul de ajutor de stat e mic: scutirea privește persoane fizice și e deschisă tuturor angajatorilor, deci nu e selectivă. Singurul punct de atenție e libera circulație a lucrătorilor (art. 45 TFUE și art. 7 alin. (2) din Regulamentul (UE) nr. 492/2011). Ordinul ministrului trebuie să accepte și elevii și studenții înscriși în instituții din alte state UE, nu doar adeverințe de la școli românești.",
-      "senatForm": {
-        "articleRef": "Art. unic pct. 1-2: art. 76(4) z), art. 142 ab)",
-        "proposalContent": "Lit. z) și ab) să prevadă: «primii 3.900 lei din venitul brut lunar din salarii al elevului sau studentului de până la 26 de ani aflat într-o formă de învățământ, pentru cel mult 3 luni dintr-un an calendaristic, cumulat la toți angajatorii, pe baza adeverinței de elev/student și a declarației pe proprie răspundere privind lunile deja folosite.»",
-        "argumentation": "«Trei luni/an» și «în limita plafonului» sunt neclare: nu se știe dacă lunile sunt pe an calendaristic sau școlar, per angajator ori cumulat, nici dacă un salariu peste 3.900 lei pierde tot avantajul sau doar excedentul. Elementele bazei de impozitare trebuie stabilite prin lege (art. 139 și art. 1 alin. (5) din Constituție), nu lăsate unui ordin al ministrului.",
-        "otherComments": "Scutirea de CAS (art. 142) înseamnă că acele luni nu contează ca stagiu de cotizare pentru pensie; tânărul trebuie informat sau CAS păstrat. Lipsește fișa financiară (Legea nr. 69/2010, art. 15) și nu există dată de intrare în vigoare, deci se aplică art. 4 din Codul fiscal. Angajatorul economisește puțin: CAS și impozitul se rețin din salariul elevului."
-      },
-      "status": "ok"
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 112072,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Scutiri fiscale pentru elevii și studenții care lucrează trei luni pe an",
-      "verdictShort": "Măsura poate crește veniturile nete ale tinerilor și nu introduce taxe, sancțiuni sau bariere profesionale. Principalele probleme sunt condițiile insuficient definite și lipsa unei estimări bugetare verificabile în documentele furnizate.",
-      "initiatorClaim": "Inițiatorii urmăresc stimularea angajării elevilor și studenților până la 26 de ani, susținerea continuării studiilor și reducerea costurilor angajatorilor. Ei afirmă că limitarea facilității la trei luni și 3.900 lei lunar menține impactul bugetar redus.",
-      "realityCheck": "Articolul unic introduce venituri salariale neimpozabile la art. 76 alin. (4) și o excludere din baza CAS la art. 142, pentru categoria indicată. Efectele asupra CASS și contribuției asiguratorii pentru muncă trebuie urmărite inclusiv prin trimiterile din art. 157 și art. 220^4, în forma aplicabilă. Textul nu precizează cum se aleg cele trei luni, cum se cumulează veniturile de la mai mulți angajatori și dacă depășirea plafonului elimină întreaga facilitate sau numai scutirea aferentă excedentului.",
+      "durationMs": 81830,
+      "sourceEndMarker": "SF-7D3F7B23",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Scutiri salariale pentru elevi și studenți, trei luni pe an",
+      "verdictShort": "Facilitatea poate sprijini angajarea tinerilor, dar condițiile sale fiscale esențiale sunt insuficient precizate. Riscul principal este aplicarea neuniformă a plafonului și a perioadei, nu existența unor sancțiuni sau privilegii monopoliste.",
+      "initiatorClaim": "Inițiatorii urmăresc creșterea veniturilor nete și stimularea angajării elevilor și studenților până la 26 de ani. Ei susțin că măsura ar reduce abandonul școlar și ar avea un impact bugetar limitat.",
+      "realityCheck": "În prezent, statutul de elev sau student nu produce singur scutirea generală a salariilor de impozit și CAS; proiectul adaugă neimpozitarea și excluderea din baza CAS pentru trei luni anual, în limita declarată de 3.900 lei lunar. Trimiterile generale din Codul fiscal pot extinde efectul și asupra CASS și contribuției asiguratorii pentru muncă, ceea ce trebuie inclus în evaluarea bugetară. Textul nu stabilește suficient alegerea lunilor, cumularea veniturilor de la mai mulți angajatori și tratamentul depășirii plafonului.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
@@ -103,22 +106,45 @@
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Articolul unic, pct. 1–2: nu este precizat expres dacă plafonul de 3.900 lei privește venitul brut și dacă se aplică pe beneficiar, cumulat între angajatori. Aceste elemente determină întinderea facilității.",
-        "Formula «în decursul a trei luni/an» nu stabilește anul calendaristic, caracterul consecutiv sau opțional al lunilor și tratamentul schimbării angajatorului. Nici momentul verificării vârstei și al statutului școlar nu este definit.",
-        "La salariu brut constant, scutirea impozitului și a contribuțiilor individuale majorează în principal venitul net. Reducerea costului angajatorului nu este egală cu toate sumele scutite; depinde de contribuțiile proprii afectate și de salariul negociat.",
-        "Scutirea CAS poate afecta drepturile contributive de pensie aferente veniturilor respective. Nu trebuie confundată cu pierderea automată a vechimii în muncă.",
-        "Expunerea de motive afirmă un impact bugetar limitat, dar nu prezintă numărul beneficiarilor, pierderile estimate pe bugete sau scenarii de utilizare. Plafonarea individuală nu demonstrează singură un impact agregat redus."
+        "Articolul unic pct. 1 introduce o facilitate la art. 76 alin. (4), iar pct. 2 exclude veniturile eligibile din baza CAS la art. 142. Sunt completări ale excepțiilor existente, nu o eliminare generală a taxării muncii tinerilor.",
+        "Ambele puncte folosesc formula «trei luni/an» fără să stabilească anul de referință, cine alege lunile, dacă acestea sunt consecutive și cum se urmărește utilizarea facilității la schimbarea angajatorului.",
+        "Plafonul de 3.900 lei trebuie definit ca sumă brută și corelat cu veniturile cumulate. Trebuie precizat expres dacă venitul care depășește plafonul pierde integral facilitatea sau dacă numai diferența este taxată.",
+        "Excluderea din baza CAS poate diminua drepturile de pensie generate de veniturile respective. Proiectul nu instituie o contribuție compensatorie suportată de stat.",
+        "Afirmația privind impactul bugetar limitat nu este susținută în materialele furnizate de estimări privind beneficiarii, pierderile de venituri și costurile administrării. Solicitarea unei fișe financiare este menționată, dar conținutul acesteia nu este disponibil.",
+        "Textul se încheie după cele două completări: nu conține sancțiuni, abrogări sau derogări suplimentare. Nu stabilește un termen pentru ordinul ministrului și nici reguli pentru primul an de aplicare."
       ],
-      "blindSpotsCaught": "Lipsa modificării exprese a articolelor despre CASS și contribuția asiguratorie pentru muncă nu dovedește că acestea rămân datorate: trebuie urmărite trimiterile către art. 142. În plus, ordinul ministrului poate detalia procedura, dar nu ar trebui să decidă elementele esențiale ale scutirii. Analiza se bazează pe documentele furnizate; verificarea online a dosarului B635/2026 și a legislației consolidate nu a fost posibilă.",
-      "constitutionalityNote": "Art. 1 alin. (5) impune clarificarea beneficiarilor, plafonului și perioadei; ambiguitățile fiscale sunt relevante și pentru legalitatea impunerii, potrivit art. 139 alin. (1). Diferențierea în favoarea tinerilor aflați la studii poate avea o justificare obiectivă în raport cu art. 16 și art. 56 alin. (2), fără ca orice facilitate de vârstă să fie automat discriminatorie. Art. 23 alin. (12), privind legalitatea pedepselor, nu are incidență directă: proiectul nu instituie pedepse. Solicitarea informării Guvernului, în condițiile art. 111 alin. (1), trebuie verificată procedural; menționarea ei în motivare nu înlocuiește evaluarea financiară. Reducerea veniturilor bugetare nu echivalează automat cu aprobarea unei cheltuieli în sensul art. 138 alin. (5).",
-      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor privind accesul la profesii reglementate și exercitarea acestora; facilitatea salarială propusă nu intră, prin obiectul descris, în acest domeniu. Directiva (UE) 2015/1535 nu impune notificarea TRIS pentru o asemenea măsură fiscală generală, care nu stabilește cerințe tehnice pentru produse sau reguli specifice serviciilor societății informaționale. Proiectul poate influența alegerea angajatorilor între categorii de salariați, dar nu rezervă o piață și nu creează un monopol. Caracterul selectiv al unui eventual avantaj pentru întreprinderi trebuie analizat înaintea unei concluzii privind art. 107 TFUE; existența unei facilități fiscale nu dovedește singură un ajutor de stat incompatibil.",
+      "blindSpotsCaught": "Art. 142 nu trebuie citit izolat: art. 157 alin. (2) și art. 220^4 alin. (2) conțin trimiteri relevante pentru CASS și contribuția asiguratorie pentru muncă, astfel încât lipsa modificării lor exprese nu înseamnă automat păstrarea acestor contribuții. Extrasul furnizat pentru art. 76 amestecă dispoziții temporare și textul articolului; nu dovedește existența a două alineate operative identice. Verificarea online nu a fost disponibilă, astfel că aceste corelări necesită reconfirmare în forma consolidată aplicabilă.",
+      "constitutionalityNote": "Principala vulnerabilitate privește art. 1 alin. (5), coroborat cu art. 139 alin. (1): elementele esențiale ale facilității fiscale trebuie stabilite prin lege, ordinul ministrului putând reglementa executarea lor. Diferențierea după statut educațional și vârstă poate avea o justificare obiectivă în raport cu art. 16 și art. 56 alin. (2), fără a fi automat discriminatorie. Art. 23 alin. (12) nu este incident, deoarece nu sunt instituite pedepse. Expunerea menționează solicitarea informațiilor Guvernului potrivit art. 111 alin. (1); materialele nu permit constatarea unui viciu procedural. Art. 138 alin. (5), referitor la cheltuieli bugetare, nu se aplică automat oricărei reduceri de venituri fiscale.",
+      "euLawNote": "Directiva (UE) 2018/958 privește reglementarea accesului la profesii reglementate și a exercitării acestora; proiectul nu introduce asemenea restricții. Notificarea TRIS potrivit Directivei (UE) 2015/1535 nu rezultă necesară pentru această facilitate salarială, care nu reglementează produse sau servicii ale societății informaționale. Măsura poate favoriza economic angajarea beneficiarilor, dar nu rezervă o piață unor operatori. Nu se poate afirma existența unui ajutor de stat incompatibil fără analiza avantajului pentru întreprinderi și a selectivității. Aplicarea trebuie să respecte libera circulație și să evite condiții nejustificate legate de naționalitate sau de locul studiilor.",
       "senatForm": {
         "articleRef": "Articolul unic, pct. 1 și 2",
-        "proposalContent": "Precizați că plafonul privește venitul brut lunar cumulat pe beneficiar, regula pentru depășirea lui, alegerea celor trei luni din anul calendaristic și verificarea vârstei și a statutului școlar. Corelați expres aplicarea cu regulile CAS, CASS și CAM și stabiliți data aplicării și termenul ordinului.",
-        "argumentation": "Condițiile esențiale ale facilității trebuie stabilite prin lege, pentru previzibilitate și aplicare uniformă, potrivit art. 1 alin. (5) și art. 139 alin. (1) din Constituție. Textul actual permite interpretări diferite privind plafonul, lunile eligibile și cumulul veniturilor între angajatori.",
-        "otherComments": "Publicați estimarea beneficiarilor și a impactului asupra fiecărui buget afectat. Folosiți o procedură simplă pentru angajatori și beneficiari, cu reguli privind schimbarea angajatorului și evitarea dublei utilizări. Explicați efectele asupra drepturilor de pensie aferente veniturilor scutite."
+        "proposalContent": "Precizați în lege plafonul brut, cumularea veniturilor la mai mulți angajatori, taxarea exclusivă a părții care depășește plafonul și alegerea celor trei luni din anul calendaristic. Definiți momentul verificării vârstei și statutului școlar. Stabiliți termenul ordinului și aplicarea în primul an.",
+        "argumentation": "Condițiile esențiale ale facilității trebuie stabilite prin lege, potrivit art. 1 alin. (5) și art. 139 alin. (1) din Constituție. Ambiguitățile privind plafonul și lunile eligibile pot genera rețineri fiscale diferite pentru situații identice și rectificări costisitoare pentru angajatori.",
+        "otherComments": "Cuantificați pierderile de venituri, inclusiv efectele trimiterilor către art. 142 pentru CASS și CAM, și explicați consecințele asupra pensiei. Solicitați analiza fișei financiare menționate în expunere. Justificați plafonul și mecanismul de verificare fără sarcini administrative disproporționate."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-12T15:15:09.548Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T12:04:53.080Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

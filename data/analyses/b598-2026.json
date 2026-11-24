@@ -1,125 +1,157 @@
 {
   "billId": "B598/2026",
   "slug": "b598-2026",
-  "updatedAt": "2026-10-29T06:55:07.685Z",
+  "updatedAt": "2026-11-24T12:04:14.750Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 5269,
+    "ordinanceChars": 0,
+    "memoChars": 41389,
+    "memoSupplied": 41389,
+    "marker": "SF-FD1B6CF9"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/b598-2026.json",
+    "form": "initiator",
+    "textHash": "fd1b6cf9a56f95d3",
+    "fetchedAt": "2026-11-19T11:19:54.305Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 6102,
+    "truncated": false,
+    "included": true,
+    "key": "1a31b6b83fa72602"
+  },
   "consensus": {
-    "riskScore": 3,
-    "riskLevel": "green",
-    "plainTitle": "Bani de chirie și abonament de transport la jumătate de preț pentru tinerii de 18-29 de ani cu salarii mici",
-    "summaryTlDr": "Este o măsură socială utilă. Nu ascunde capcane pentru cetățeni și îi ajută pe tinerii cu salarii mici să se mute aproape de locul de muncă. Problemele țin de redactare și de cost: mecanismul pentru transport e neclar, nu se spune ce parte din chirie se plătește, iar impactul bugetar nu e cuantificat în textul disponibil.",
-    "initiatorClaim": "Inițiatorii spun că tinerii pierd facilitățile de transport exact când încep să muncească, iar chiria și naveta îi împiedică să accepte joburi în centrele urbane. Vor să reducă aceste costuri în primii ani de muncă, să încurajeze relocarea și să formalizeze contractele de închiriere.",
-    "realityCheck": "Legea dă tinerilor de 18-29 de ani cu salariu net de cel mult 4.000 lei două lucruri, plătite din bugetul de stat timp de maximum 36 de luni: un sprijin lunar pentru chirie de până la 400-600 lei și reducere de 50% la abonamentele de transport local sau feroviar. Pragul de venit e larg: pe datele din 2024 citate chiar în Expunere, salariatul mediu de 20-24 de ani (6.413 lei brut, cca 3.750 lei net) s-ar fi încadrat, deci costul poate fi mare. Textul nu spune ce parte din chirie se acoperă, cine aplică reducerea la transport și cum sunt compensați operatorii. O parte din subvenție poate ajunge la proprietari prin chirii mai mari.",
+    "riskScore": 4.5,
+    "riskLevel": "yellow",
+    "plainTitle": "Subvenție de 400–600 lei la chirie și 50% reducere la transport pentru tinerii angajați (18–29 ani) cu salariu net de până la 4.000 lei",
+    "summaryTlDr": "Intenție socială legitimă (sprijinirea tinerilor angajați cu venituri mici și fiscalizarea chiriilor), dar redactată incomplet, cu un impact bugetar major fără sursă concretă de finanțare și cu goluri legislative care riscă să blocheze aplicarea sau să genereze efecte perverse.",
+    "initiatorClaim": "Inițiatorii susțin că facilitează tranziția tinerilor de la educație la o viață independentă, reducând barierele de mobilitate și locuire și stimulând declararea la ANAF a contractelor de închiriere.",
+    "realityCheck": "Legea introduce în Legea șomajului (76/2002) un sprijin universal din bugetul de stat pentru toți salariații și funcționarii de 18–29 ani cu venit net de cel mult 4.000 lei, dar omite elemente esențiale: nu fixează formula de calcul a chiriei „în limita” plafoanelor, nu prevede scutirea fiscală (spre deosebire de art. 76^5) și nu reglementează mecanismul real de decontare a transportului. În plus, Expunerea de motive menționează decontarea transportului prin angajator — sarcină complet absentă din textul legii — iar aplicarea intră într-un vid de 6 luni până la adoptarea normelor HG.",
     "affectedGroups": [
       "Angajați & HR",
       "Proprietari & Imobiliare",
-      "Sănătate & Educație",
-      "IMM & Antreprenori"
+      "IMM & Antreprenori",
+      "Contabili & Fiscalitate"
     ],
     "senatForm": {
-      "articleRef": "Art. 76^6 alin. (1) lit. b) și alin. (4)",
-      "proposalContent": "Se precizează că reducerea de 50% se aplică direct la emiterea abonamentului, de toți operatorii feroviari și de transport public, iar statul compensează integral operatorilor diferența, conform art. 3 alin. (2) din Reg. (CE) 1370/2007. La alin. (4), „sprijin financiar lunar” devine „reducerea tarifului”, iar la lit. d) se adaugă „raportat la normă întreagă”.",
-      "argumentation": "Textul numește aceeași măsură o dată reducere de tarif (alin. 1), o dată sprijin financiar lunar (alin. 4), fără să spună cine aplică reducerea și cine o decontează. Fără obligație pentru toți operatorii și compensare, apar distorsiuni între CFR Călători și operatorii privați și încălcări ale Reg. 1370/2007. Plafonul de venit diferă între alin. (3) și (4).",
-      "otherComments": "Alin. (6) fixează doar plafoane, nu și ce parte din chirie se acordă (procent, sumă fixă?). Propunem 50% din chirie, în limita plafonului, și indexarea anuală a plafoanelor de 600/500/400 lei și a pragului de 4.000 lei. Condiția de la alin. (3) lit. f) ar trebui să nu excludă tinerii cu o cotă moștenită dintr-o locuință în altă localitate."
+      "articleRef": "Art. I (art. 76^6) și Art. II",
+      "proposalContent": "Clarificarea formulei subvenției de chirie (procent și plafon per contract/cotitulari), scutirea expresă de impozit/contribuții (ca la art. 76^5), includerea zonelor metropolitane în cat. I-II, indexarea pragului de 4.000 lei și reglementarea în lege a mecanismului de decontare și recuperare, fără a transfera sarcini neprevăzute angajatorilor.",
+      "argumentation": "Textul actual vulnerabilizează art. 1 alin. 5 Constituție: nu fixează formula de calcul „în limita” plafonului, omite scutirea fiscală și recuperarea sumelor necuvenite și creează un prag rigid de 4.000 lei. Suburbiile scumpe (ex. Ilfov, Florești) cad arbitrar în cat. III (art. 16), iar decontarea prin angajator din Expunerea de motive lipsește din lege.",
+      "otherComments": "Solicitarea obligatorie a fișei financiare de la Guvern (art. 111 alin. 1 și art. 138 alin. 5 Constituție) pentru impactul estimat de 400 mil.–1,2 mld. lei/an. Corelarea intrării în vigoare cu adoptarea normelor HG (evitarea vidului de 6 luni) și asigurarea tratamentului nediscriminatoriu între operatorii feroviari și lucrătorii transfrontalieri UE."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 75143,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Subvenție de 400–600 lei la chirie și 50% reducere la transport pentru tinerii angajați sub 30 de ani",
-      "verdictShort": "O măsură socială pozitivă care sprijină tinerii angajați cu salarii mici și stimulează declararea chiriilor la ANAF, dar care conține câteva capcane de redactare (precum penalizarea studenților angajați part-time și efectul de prag abrupt la 4.000 lei net).",
-      "initiatorClaim": "Inițiatorii doresc să faciliteze tranziția tinerilor (18–29 de ani) de la școală la piața muncii și la o viață independentă, prin decontarea parțială a chiriei și reducerea cu 50% a abonamentelor de transport timp de maximum 36 de luni.",
-      "realityCheck": "Legea acordă între 400 și 600 lei/lună pentru chirie (doar cu contract înregistrat la ANAF) și 50% reducere la transport tinerilor angajați cu cel mult 4.000 lei net. Totuși, plafonul fix creează un efect de prag abrupt (la 4.001 lei net pierzi până la 700 lei sprijin), iar la studenții angajați part-time plafonul salarial se reduce proporțional cu orele lucrate, deși chiria lor rămâne întreagă.",
-      "affectedGroups": [
-        "Angajați & HR",
-        "Proprietari & Imobiliare",
-        "Sănătate & Educație"
-      ],
-      "keyFindings": [
-        "Art. 76^6 alin. (3) și (6): Acordă între 400 și 600 lei/lună pentru chirie (600 lei în București și Cluj-Napoca, 500 lei în 8 mari municipii, 400 lei în restul țării) tinerilor între 18 și 29 de ani cu salariu net de maximum 4.000 lei și contract de închiriere înregistrat la ANAF pe minimum 6 luni.",
-        "Art. 76^6 alin. (5) – Capcana part-time pentru studenți: Deși permite accesul studenților angajați cu timp parțial, textul reduce proporțional venitul maxim eligibil (ex. maximum 2.000 lei net la 4 ore/zi), descalificând studenții care câștigă puțin peste salariul minim part-time, deși costul chiriei este același.",
-        "Art. 76^6 alin. (2) vs. alin. (3) lit. i): Alin. (2) interzice cumulul cu orice alte măsuri de sprijin pentru chirie sau transport, ceea ce, interpretat literal, ar putea bloca accesul la subvenția de chirie pentru tinerii studenți care beneficiază deja de reducerea legală de 90% la transport."
-      ],
-      "blindSpotsCaught": "1. Efectul de prag abrupt (cliff effect): un tânăr cu 4.000 lei net primește până la 600 lei chirie + transport (ajungând la ~4.700 lei), în timp ce la o mărire salarială la 4.010 lei net pierde tot sprijinul, ceea ce descurajează creșterile salariale oficiale în zona 4.000–4.700 lei net și lasă neclar dacă tichetele de masă intră în calculul venitului salarial net. 2. Lipsa unui plafon procentual pe locuință în cazul cotitularilor: alin. (3) lit. d) permite aplicarea mai multor cotitulari pe același contract de închiriere fără a plafona suma cumulată la valoarea chiriei.",
-      "constitutionalityNote": "Sub raportul Art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii), există o contradicție internă între interdicția generală de cumul din alin. (2) și interdicțiile specifice din alin. (3) lit. i) și alin. (4) lit. e), precum și o delegare excesivă către normele metodologice (Art. II) a mecanismului de calcul al venitului net lunar și a decontării către operatorii de transport. De asemenea, Art. 138 alin. (5) din Constituție impune indicarea sursei reale de finanțare și fișa financiară, simpla mențiune că sumele se suportă din bugetul de stat fiind insuficientă dacă nu este corelată cu bugetul asigurărilor pentru șomaj gestionat de ANOFM.",
-      "euLawNote": "Măsura este compatibilă cu dreptul UE și se înscrie în obiectivele Garanției pentru Tineret consolidate (Recomandarea Consiliului din octombrie 2020). Nu ridică probleme pe Directiva (UE) 2018/958 (nu reglementează profesii) sau pe Directiva (UE) 2015/1535 (TRIS). În privința operatorilor de transport public și feroviar, mecanismul de decontare prin HG va trebui să respecte Regulamentul (CE) nr. 1370/2007 privind compensațiile de serviciu public.",
-      "senatForm": {
-        "articleRef": "Art. I (Art. 76^6 alin. (2), (3), (5) și (6))",
-        "proposalContent": "La alin. (5), se elimină teza a II-a, păstrându-se plafonul de 4.000 lei net și pentru studenții angajați part-time. La alin. (6), se precizează că sprijinul nu poate depăși 75% din chiria contractuală pe locuință. La alin. (2), teza a II-a se reformulează pentru a interzice doar cumulul măsurilor de aceeași natură (chirie cu chirie, transport cu transport).",
-        "argumentation": "Reducerea proporțională a plafonului salarial la part-time (ex. 2.000 lei net la 4h/zi) îi exclude tocmai pe studenții salariați, deși chiria lor este întreagă. Totodată, formularea din alin. (2) contrazice alin. (3) lit. i) și riscă să blocheze subvenția de chirie pentru tinerii care au deja reducere legală de student la transport.",
-        "otherComments": "Pragul fix de 4.000 lei net creează un efect de prag abrupt: o creștere salarială de 50 lei duce la pierderea unui sprijin de până la 600-700 lei/lună, încurajând înghețarea salariilor pe hârtie. Se recomandă clarificarea în lege a excluderii tichetelor de masă din calculul plafonului net și stabilirea mecanismului de decontare direct la beneficiar, prin ANOFM."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 177230,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Bani de chirie și abonament de transport la jumătate de preț pentru tinerii de 18-29 de ani cu salarii mici",
-      "verdictShort": "Este o măsură socială utilă. Nu ascunde capcane pentru cetățeni și îi ajută pe tinerii cu salarii mici să se mute aproape de locul de muncă. Problemele țin de redactare și de cost: mecanismul pentru transport e neclar, nu se spune ce parte din chirie se plătește, iar impactul bugetar nu e cuantificat în textul disponibil.",
-      "initiatorClaim": "Inițiatorii spun că tinerii pierd facilitățile de transport exact când încep să muncească, iar chiria și naveta îi împiedică să accepte joburi în centrele urbane. Vor să reducă aceste costuri în primii ani de muncă, să încurajeze relocarea și să formalizeze contractele de închiriere.",
-      "realityCheck": "Legea dă tinerilor de 18-29 de ani cu salariu net de cel mult 4.000 lei două lucruri, plătite din bugetul de stat timp de maximum 36 de luni: un sprijin lunar pentru chirie de până la 400-600 lei și reducere de 50% la abonamentele de transport local sau feroviar. Pragul de venit e larg: pe datele din 2024 citate chiar în Expunere, salariatul mediu de 20-24 de ani (6.413 lei brut, cca 3.750 lei net) s-ar fi încadrat, deci costul poate fi mare. Textul nu spune ce parte din chirie se acoperă, cine aplică reducerea la transport și cum sunt compensați operatorii. O parte din subvenție poate ajunge la proprietari prin chirii mai mari.",
-      "affectedGroups": [
-        "Angajați & HR",
-        "Proprietari & Imobiliare",
-        "Sănătate & Educație"
-      ],
-      "keyFindings": [
-        "Art. 76^6 alin. (1) lit. b) descrie sprijinul pentru transport ca reducere de 50% a tarifului, dar alin. (4) îl numește „sprijin financiar lunar”. Nu se știe dacă tânărul plătește jumătate la ghișeu sau plătește tot și primește banii înapoi, nici cine decontează diferența operatorilor.",
-        "Alin. (6) stabilește doar plafoane pentru chirie (600/500/400 lei), nu și ce parte din chirie se acoperă: procent, sumă fixă sau tot plafonul. Art. II deleagă normelor doar „verificarea și decontarea”, nu și regula de calcul.",
-        "Alin. (2) interzice orice cumul cu alte sprijinuri pentru chirie sau transport, locale sau centrale. Alin. (3) lit. i) și alin. (4) lit. e) interzic cumulul doar pentru aceeași locuință sau rută și aceeași perioadă. Cele două reguli se contrazic.",
-        "Plafonul de 4.000 lei net e „raportat la 8 ore pe zi” la chirie (alin. 3 lit. c), dar nu și la transport (alin. 4 lit. d). Pragul nu e indexat și ia în calcul doar salariul, nu și alte venituri, cum ar fi PFA, chirii încasate sau dividende.",
-        "Alin. (3) lit. f) exclude tânărul care deține „o locuință”, fără nicio precizare. Și o cotă-parte moștenită dintr-o casă din altă localitate îl poate scoate din program.",
-        "Art. II pune costurile pe bugetul de stat și dă 6 luni pentru norme, dar legea nu amână intrarea în vigoare și nu numește expres instituția plătitoare (implicit AJOFM). În fragmentul disponibil al Expunerii nu apare o estimare de cost și nici numărul de beneficiari."
-      ],
-      "blindSpotsCaught": "Pe datele din 2024 citate chiar de inițiatori, salariatul mediu de 20-24 de ani intră în plafonul de 4.000 lei net. Măsura nu țintește doar tinerii cu venituri foarte mici, ci o mare parte din tinerii angajați, ceea ce schimbă radical costul. Localitățile din jurul Bucureștiului și Clujului (Voluntari, Popești-Leordeni, Chiajna, Florești), cu chirii apropiate de oraș, cad în categoria a III-a (400 lei), iar lista de orașe nu are un mecanism de actualizare. Studenții care lucrează part-time (alin. 5) au deja facilități la transport, iar alin. (2) interzice cumulul, așa că pentru ei componenta de transport aduce puțin sau nimic. Nu există o prevedere expresă privind recuperarea sumelor încasate pe baza unor declarații false.",
-      "constitutionalityNote": "Măsura e compatibilă cu art. 49 alin. (1) (regim special de protecție pentru tineri) și cu art. 47. Diferențierea pe vârstă are o justificare obiectivă și rezonabilă, deci nu ridică probleme serioase pe art. 16. Art. 23 alin. (12) nu e incident, fiindcă legea nu creează sancțiuni. Riscurile reale sunt procedurale și de claritate. Fiind o cheltuială nouă de la bugetul de stat, informarea Guvernului este obligatorie (art. 111 alin. 1), la fel și stabilirea sursei de finanțare (art. 138 alin. 5), iar CCR a sancționat în mod repetat legi adoptate fără acestea. Este nevoie și de fișa financiară (art. 15 din Legea 500/2002 și din Legea 69/2010). Contradicția dintre alin. (2) și alin. (3) lit. i), plus dubla natură a sprijinului pentru transport, afectează previzibilitatea normei (art. 1 alin. 5). E recomandabilă amânarea aplicării până la anul bugetar următor.",
-      "euLawNote": "Directiva 2018/958 nu se aplică, fiindcă nu se reglementează accesul la o profesie. Nici Directiva TRIS 2015/1535 nu se aplică, fiindcă nu există reguli tehnice privind serviciile societății informaționale. Relevante sunt două regulamente. Primul este Reg. (UE) 492/2011, art. 7 alin. (2): sprijinul e un avantaj social pentru lucrători și trebuie acordat egal cetățenilor UE care lucrează în România. Condiția de domiciliu sau reședință în România pentru transport (alin. 4 lit. b) poate exclude lucrătorii frontalieri (CJUE, Giersch, C-20/12). Al doilea este Reg. (CE) 1370/2007, art. 3 alin. (2): o reducere tarifară impusă pentru o categorie de pasageri este o obligație de serviciu public stabilită prin reguli generale. Ea trebuie aplicată nediscriminatoriu tuturor operatorilor și compensată pentru efectul financiar net. Altfel apar riscuri de ajutor de stat și distorsiuni între operatorul feroviar de stat și cei privați.",
-      "senatForm": {
-        "articleRef": "Art. 76^6 alin. (1) lit. b) și alin. (4)",
-        "proposalContent": "Se precizează că reducerea de 50% se aplică direct la emiterea abonamentului, de toți operatorii feroviari și de transport public, iar statul compensează integral operatorilor diferența, conform art. 3 alin. (2) din Reg. (CE) 1370/2007. La alin. (4), „sprijin financiar lunar” devine „reducerea tarifului”, iar la lit. d) se adaugă „raportat la normă întreagă”.",
-        "argumentation": "Textul numește aceeași măsură o dată reducere de tarif (alin. 1), o dată sprijin financiar lunar (alin. 4), fără să spună cine aplică reducerea și cine o decontează. Fără obligație pentru toți operatorii și compensare, apar distorsiuni între CFR Călători și operatorii privați și încălcări ale Reg. 1370/2007. Plafonul de venit diferă între alin. (3) și (4).",
-        "otherComments": "Alin. (6) fixează doar plafoane, nu și ce parte din chirie se acordă (procent, sumă fixă?). Propunem 50% din chirie, în limita plafonului, și indexarea anuală a plafoanelor de 600/500/400 lei și a pragului de 4.000 lei. Condiția de la alin. (3) lit. f) ar trebui să nu excludă tinerii cu o cotă moștenită dintr-o locuință în altă localitate."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 115842,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Ajutor pentru chiria și transportul tinerilor care lucrează",
-      "verdictShort": "Propunerea oferă un sprijin social util, fără taxe, monopoluri sau sancțiuni noi. Riscurile principale sunt regulile incomplete de acordare și finanțarea insuficient detaliată în documentele furnizate.",
-      "initiatorClaim": "Inițiatorii urmăresc reducerea costurilor care împiedică tinerii să muncească, să continue studiile și să locuiască independent. Înregistrarea fiscală a contractelor ar încuraja și formalizarea închirierilor.",
-      "realityCheck": "Textul permite sprijin pentru chirie în limita unor plafoane de 400–600 lei lunar și reducerea cu 50% a anumitor abonamente, pentru tineri de 18–29 de ani care lucrează și îndeplinesc condițiile de venit, maximum 36 de luni cumulate. Nu condiționează ajutorul de prima angajare, de relocare sau de statutul anterior de șomer; studenții fără activitate profesională și persoanele care desfășoară exclusiv activități independente nu sunt eligibile. Formula chiriei, raportul dintre interdicțiile de cumul și mecanismul plății rămân insuficient precizate, iar garanția locativă și utilitățile nu sunt incluse expres.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 121273,
+      "sourceEndMarker": "SF-FD1B6CF9",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Subvenție de 400–600 lei la chirie și 50% reducere la transport pentru tinerii angajați (18–29 ani) cu salariu net de până la 4.000 lei",
+      "verdictShort": "Intenție socială legitimă (sprijinirea tinerilor angajați cu venituri mici și fiscalizarea chiriilor), dar redactată incomplet, cu un impact bugetar major fără sursă concretă de finanțare și cu goluri legislative care riscă să blocheze aplicarea sau să genereze efecte perverse.",
+      "initiatorClaim": "Inițiatorii susțin că facilitează tranziția tinerilor de la educație la o viață independentă, reducând barierele de mobilitate și locuire și stimulând declararea la ANAF a contractelor de închiriere.",
+      "realityCheck": "Legea introduce în Legea șomajului (76/2002) un sprijin universal din bugetul de stat pentru toți salariații și funcționarii de 18–29 ani cu venit net de cel mult 4.000 lei, dar omite elemente esențiale: nu fixează formula de calcul a chiriei „în limita” plafoanelor, nu prevede scutirea fiscală (spre deosebire de art. 76^5) și nu reglementează mecanismul real de decontare a transportului. În plus, Expunerea de motive menționează decontarea transportului prin angajator — sarcină complet absentă din textul legii — iar aplicarea intră într-un vid de 6 luni până la adoptarea normelor HG.",
       "affectedGroups": [
         "Angajați & HR",
         "Proprietari & Imobiliare",
         "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. 76⁶ alin. (6) stabilește plafoane, nu o formulă completă: lipsesc procentul subvenționat, limitarea expresă la chiria efectivă suportată și distribuirea sprijinului între cotitulari. Nu rezultă un drept automat la 600, 500 sau 400 lei.",
-        "Art. 76⁶ alin. (2) interzice generic cumulul cu alte ajutoare pentru chirie sau transport, în timp ce alin. (3) lit. i) și alin. (4) lit. e) raportează incompatibilitatea la locuință, perioadă, rută ori cheltuială. Este necesară armonizarea pentru a evita excluderi excesive.",
-        "Art. 76⁶ alin. (5) permite timpul parțial numai tinerilor care urmează cursurile unei instituții acreditate și reduce proporțional plafonul salarial: la jumătate de normă, acesta devine 2.000 lei net. Totuși, derogarea nu vizează și condiția de 8 ore/zi păstrată la alin. (3) lit. c).",
-        "Pragul de 4.000 lei produce pierderea integrală a eligibilității la depășire, fără diminuare graduală. Nu sunt definite perioada de referință, cumularea salariilor de la mai mulți angajatori și tratamentul veniturilor fluctuante.",
-        "Art. 76⁶ alin. (7) nu explică suficient calculul celor 36 de luni când beneficiarul alternează sau cumulează cele două ajutoare. Lipsesc reguli exprese privind luna împlinirii vârstei de 30 de ani și suspendarea ori reluarea plății.",
-        "Art. II identifică bugetul de stat drept sursă, dar fragmentul furnizat nu permite verificarea costului total și a documentației financiare. Ilustrativ, 10.000 de beneficiari plătiți cu 600 lei lunar ar necesita 72 milioane lei anual numai pentru chirie.",
-        "Contractul înregistrat fiscal, domiciliul sau reședința și verificarea veniturilor, proprietăților și ajutoarelor existente presupun demersuri administrative. Nu apar obligații generale noi pentru IMM-uri; operatorii de transport pot avea însă sarcini de verificare și decontare care trebuie definite."
+        "Gaps majore de redactare la art. 76^6: alin. (6) acordă chiria „în limita” a 400/500/600 lei fără procent sau plafon per locuință (permițând cumulul pe mai mulți cotitulari din același apartament), iar textul omite scutirea de impozit și contribuții (existentă expres la art. 76^5) și regulile de recuperare a sumelor încasate necuvenit.",
+        "Efect de prăpastie salarială și inechitate teritorială: pragul fix și neindexat de 4.000 lei net (art. 76^6 alin. 3 lit. c și alin. 4 lit. d) penalizează creșterile salariale sau bonusurile lunare, iar împărțirea arbitrară pe orașe din alin. (6) aruncă localități periurbane scumpe (ex. Florești, Popești-Leordeni, Chiajna, Voluntari) în categoria III (400 lei), sub Craiova sau Târgu Mureș.",
+        "Impact bugetar uriaș fără sursă de finanțare și date nealiniate: Art. II pune cheltuiala (estimată în Expunerea de motive la ~420 mil. – peste 1,2 mld. lei/an, fără costuri administrative/IT) generic „din bugetul de stat”, deși populația folosită în calcule include șomeri BIM și grupa 15–17 ani, categorii excluse din textul legii.",
+        "Ruptură între Expunerea de motive și textul legii la transport: motivarea prevede decontarea ulterioară „prin intermediul angajatorului” și călătoria „la clasa a II-a” spre muncă/școală, dar art. 76^6 alin. (1) lit. b) și alin. (4) nu impun niciuna dintre aceste reguli, lăsând procedura complet la discreția unei HG emise în 6 luni de la intrarea în vigoare."
       ],
-      "blindSpotsCaught": "Termenul de șase luni pentru normele metodologice nu amână expres nașterea drepturilor: poate apărea un interval în care legea este în vigoare, dar procedura lipsește. Art. II menționează verificarea și decontarea, fără desemnarea expresă a autorității plătitoare. Analiza privește textul transmis; expunerea de motive este întreruptă, astfel că absența unor justificări din extras nu dovedește absența lor din dosarul complet.",
-      "constitutionalityNote": "Obiectivul este compatibil cu protecția socială și sprijinirea tinerilor, potrivit art. 47 și 49. Neclaritățile privind cuantumul, cumulul și aplicarea temporală ridică probleme remediabile de previzibilitate în raport cu art. 1 alin. (5). Diferențele de vârstă, statut profesional și localitate necesită justificări obiective potrivit art. 16, fără a constitui automat discriminare. Art. 23 alin. (12) privește legalitatea pedepselor și nu este incident direct: propunerea nu instituie pedepse. Pentru art. 111 alin. (1) și art. 138 alin. (5), trebuie verificată solicitarea informării Guvernului și fundamentarea finanțării; simpla lipsă a unei estimări în extras nu dovedește neconstituționalitatea. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355). Evaluarea financiară trebuie verificată și potrivit [art. 15 din Legea nr. 69/2010](https://legislatie.just.ro/Public/DetaliiDocumentAfis/220273).",
-      "euLawNote": "Directiva 2018/958 nu impune aici testul special de proporționalitate: textul nu restrânge accesul la profesii reglementate sau exercitarea lor. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32018L0958). Nu se identifică o obligație TRIS în baza Directivei 2015/1535: propunerea nu introduce reglementări tehnice pentru produse și nu reglementează servicii digitale sau AI. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32015L1535). Nu rezultă monopoluri sau avantaje rezervate nominal unor operatori. Dacă reducerea transportului este implementată prin obligații tarifare compensate operatorilor, mecanismul trebuie corelat cu Regulamentul 1370/2007, inclusiv transparența parametrilor și evitarea supracompensării. [Regulamentul 1370/2007](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32007R1370).",
+      "blindSpotsCaught": "Art. 76^6 alin. (7) plafonează „măsurile de sprijin” global la maximum 36 de luni cumulat fără a separa contoarele pentru chirie și transport — astfel, un tânăr care ia 3 ani doar reducerea de ~68 lei/lună la autobuz își poate epuiza dreptul la subvenția de chirie. Totodată, spre deosebire de art. 76^5 (care exclude expres sectorul public și finanțează prima din bugetul asigurărilor pentru șomaj), noul art. 76^6 include funcționarii publici („raport de serviciu sau asimilat”) și transformă ANOFM în administrator al unei subvenții universale din bugetul de stat; de asemenea, condiția de „a nu deține în proprietate o locuință” (alin. 3 lit. f) descalifică și tinerii cu o cotă-parte moștenită într-o casă din alt județ.",
+      "constitutionalityNote": "Riscuri semnificative pe art. 1 alin. (5) (calitatea și previzibilitatea legii) din cauza delegării excesive către HG (fără formulă de calcul a chiriei, fără mecanism de decontare, fără regim fiscal și fără procedură/temei legal de recuperare a sumelor necuvenite) și a vidului de aplicare de 6 luni de la intrarea în vigoare. Risc pe art. 138 alin. (5) coroborat cu art. 111 alin. (1) dacă Parlamentul nu solicită și nu integrează fișa financiară a Guvernului cu sursă concretă de finanțare. Vulnerabilitate pe art. 16 alin. (1) (egalitatea în drepturi) privind lista închisă a municipiilor din categoriile I–II fără criterii obiective și excluderea zonelor metropolitane limitrofe, precum și a lucrătorilor independenți (PFA/profesii liberale).",
+      "euLawNote": "Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii) și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente. Măsura constituie în principiu un ajutor social compatibil cu art. 107 alin. (2) lit. a) TFUE, însă normele de aplicare vor trebui să asigure tratament nediscriminatoriu tuturor operatorilor feroviari de călători (de stat și privați) și conformitatea cu Regulamentul (CE) nr. 1370/2007 privind compensarea serviciilor publice de transport. Condiția de domiciliu/reședință în România pentru reducerea de transport (art. 76^6 alin. 4 lit. b) poate ridica o sensibilitate pe Regulamentul (UE) nr. 492/2011 (art. 7 alin. 2) în cazul lucrătorilor transfrontalieri UE angajați în România.",
       "senatForm": {
-        "articleRef": "Art. I – art. 76⁶ alin. (2), (5)–(7); art. II",
-        "proposalContent": "Precizați formula chiriei, plafonată la cheltuiala efectivă și cota fiecărui cotitular; limitați necumulul la aceeași cheltuială și perioadă. Corelați excepția pentru timpul parțial cu alin. (3) lit. c). Stabiliți autoritatea plătitoare, data acordării și regulile la împlinirea vârstei de 30 de ani.",
-        "argumentation": "Plafoanele teritoriale nu stabilesc suma datorată. Interdicția generală de cumul poate exclude sprijinul pentru cheltuieli distincte, deși condițiile speciale sunt mai restrânse. Derogarea pentru timpul parțial păstrează trimiterea la 8 ore/zi. Aceste necorelări afectează previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
-        "otherComments": "Susțin obiectivul social. Solicitați evaluarea financiară multianuală și informarea Guvernului; mențiunea «bugetul de stat» identifică sursa, dar nu cuantifică impactul. Corelați aplicarea cu adoptarea normelor și stabiliți decontarea nediscriminatorie a operatorilor de transport, fără supracompensare."
-      }
+        "articleRef": "Art. I (art. 76^6) și Art. II",
+        "proposalContent": "Clarificarea formulei subvenției de chirie (procent și plafon per contract/cotitulari), scutirea expresă de impozit/contribuții (ca la art. 76^5), includerea zonelor metropolitane în cat. I-II, indexarea pragului de 4.000 lei și reglementarea în lege a mecanismului de decontare și recuperare, fără a transfera sarcini neprevăzute angajatorilor.",
+        "argumentation": "Textul actual vulnerabilizează art. 1 alin. 5 Constituție: nu fixează formula de calcul „în limita” plafonului, omite scutirea fiscală și recuperarea sumelor necuvenite și creează un prag rigid de 4.000 lei. Suburbiile scumpe (ex. Ilfov, Florești) cad arbitrar în cat. III (art. 16), iar decontarea prin angajator din Expunerea de motive lipsește din lege.",
+        "otherComments": "Solicitarea obligatorie a fișei financiare de la Guvern (art. 111 alin. 1 și art. 138 alin. 5 Constituție) pentru impactul estimat de 400 mil.–1,2 mld. lei/an. Corelarea intrării în vigoare cu adoptarea normelor HG (evitarea vidului de 6 luni) și asigurarea tratamentului nediscriminatoriu între operatorii feroviari și lucrătorii transfrontalieri UE."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 73640,
+      "sourceEndMarker": "SF-FD1B6CF9",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Ajutor pentru chirie și transport pentru tinerii care muncesc",
+      "verdictShort": "Proiectul are un scop social util și nu introduce taxe, monopoluri sau sancțiuni. Necesită însă corectarea unor ambiguități care afectează valoarea ajutorului, cumulul drepturilor și aplicarea efectivă.",
+      "initiatorClaim": "Inițiatorii urmăresc să reducă povara chiriei și transportului pentru tineri, să faciliteze accesul la muncă și independența locativă și să încurajeze înregistrarea fiscală a contractelor de închiriere.",
+      "realityCheck": "Proiectul acordă persoanelor de 18–29 de ani care muncesc și respectă plafonul salarial individual sprijin pentru chirie în limita a 400–600 lei lunar și reduceri de 50% pentru anumite abonamente, pentru maximum 36 de luni cumulate. Nu cere prima angajare, relocarea sau înregistrarea ca șomer, dar exclude persoanele fără activitate profesională eligibilă; pentru timpul parțial sunt obligatorii studiile și reducerea proporțională a plafonului salarial. Cuantumul chiriei nu este garantat la nivelul plafoanelor, iar procedura, cumulul și finanțarea operațională rămân insuficient precizate.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Proprietari & Imobiliare",
+        "Contabili & Fiscalitate",
+        "IMM & Antreprenori",
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I introduce art. 76⁶ fără să modifice prima de stabilitate pentru tinerii NEET din art. 76⁵. Acea primă rămâne distinctă; noua interdicție privește sprijinul pentru chirie sau transport și nu exclude expres cumulul cu prima de stabilitate.",
+        "Art. 76⁶ alin. (2) permite cumularea celor două componente, dar interzice generic cumulul cu alte ajutoare pentru chirie sau transport. Formularea poate bloca inclusiv combinarea unui ajutor local pentru chirie cu noua reducere de transport, deși alin. (3) lit. i) și alin. (4) lit. e) folosesc criterii mai restrânse.",
+        "Art. 76⁶ alin. (6) stabilește plafoane de 600, 500 și 400 lei, nu cuantumuri fixe sau un minimum garantat de 400 lei. Lipsesc formula de calcul, limita expresă raportată la chiria efectiv suportată și repartizarea cheltuielii între cotitularii eligibili.",
+        "Art. 76⁶ alin. (5) permite timpul parțial numai tinerilor care urmează cursuri acreditate. La jumătate de normă, plafonul salarial devine 2.000 lei net; derogarea privește ambele componente, nu doar chiria.",
+        "Art. 76⁶ alin. (1) lit. b) prevede abonamente nominale și folosește «sau» între transportul local/metropolitan/integrat și cel feroviar. Posibilitatea combinării lor pentru aceeași navetă necesită clarificare; transportul rutier interurban nu este inclus expres.",
+        "Decontarea prin angajator, plata ulterioară cumpărării abonamentului și limitarea transportului feroviar la clasa a II-a apar în expunerea de motive, dar nu sunt stabilite în articole. Proiectul nu instituie expres obligații de decontare pentru angajatori.",
+        "Art. 76⁶ alin. (7) instituie o limită cumulată de 36 de luni pe persoană. Trebuie precizat dacă o lună cu ambele componente consumă o singură lună din plafon și cum se tratează împlinirea vârstei de 30 de ani, schimbarea venitului sau pierderea locului de muncă.",
+        "Art. II indică bugetul de stat și acordă șase luni pentru norme, dar nu identifică expres instituția plătitoare și circuitul creditelor bugetare. Nu există o dispoziție care să amâne aplicarea drepturilor până la adoptarea normelor.",
+        "Estimarea financiară folosește o populație de referință care include șomeri și persoane de 15–17 ani, neeligibile potrivit articolelor, și nu include costurile administrative. Expunerea invocă și ponderea chiriei în venit, deși proiectul nu introduce o asemenea condiție."
+      ],
+      "blindSpotsCaught": "Articolul final nu abrogă drepturi existente, dar creează un decalaj între intrarea în vigoare a legii și termenul de șase luni pentru norme. Totodată, interdicția generală de cumul poate avea efecte mai largi decât evitarea dublei finanțări. Normele pot organiza verificarea și decontarea, însă nu pot transforma explicațiile inițiatorilor în condiții suplimentare de eligibilitate fără suport în lege.",
+      "constitutionalityNote": "Principala vulnerabilitate privește art. 1 alin. (5): întinderea drepturilor, cuantumul chiriei, cumulul și momentul aplicării trebuie să fie previzibile. Diferențierile după vârstă, statut educațional și localitate nu sunt automat discriminatorii; au nevoie de justificări obiective potrivit art. 16, în contextul protecției sociale și al protecției tinerilor. Art. 23 alin. (12), referitor la pedepse, nu este incident: proiectul nu instituie sancțiuni penale. Pentru art. 138 alin. (5), sursa este nominalizată ca buget de stat, astfel că nu se poate susține că lipsește complet; trebuie verificate fundamentarea financiară și solicitarea informării Guvernului în condițiile art. 111 alin. (1). Documentele furnizate nu permit constatarea unei încălcări procedurale certe. Evaluarea se bazează pe textele furnizate; verificarea externă nu a fost disponibilă.",
+      "euLawNote": "Directiva (UE) 2018/958 nu impune aici un test de proporționalitate: proiectul nu reglementează accesul la o profesie reglementată sau exercitarea acesteia. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu rezultă din text, care nu instituie reguli tehnice pentru produse ori reguli specifice serviciilor societății informaționale; nu reglementează AI. Nu apar exclusivități pentru operatori sau restricții profesionale. Compensarea reducerilor de transport trebuie corelată cu regulile europene aplicabile serviciilor publice și ajutoarelor de stat, în funcție de mecanismul ales; sprijinul social pentru persoane fizice nu constituie automat ajutor de stat pentru întreprinderi. Verificările administrative trebuie să respecte protecția datelor și egalitatea de tratament a beneficiarilor îndreptățiți potrivit dreptului UE.",
+      "senatForm": {
+        "articleRef": "Art. I, art. 76⁶ alin. (2), (6); art. II",
+        "proposalContent": "Stabiliți instituția plătitoare, formula sprijinului pentru chirie, plafonarea la cheltuiala efectivă și regulile pentru cotitulari. Limitați interdicția cumulului la finanțarea aceleiași cheltuieli în aceeași perioadă. Corelați aplicarea drepturilor cu adoptarea normelor și precizați circuitul finanțării.",
+        "argumentation": "Plafoanele teritoriale nu determină suma datorată beneficiarului. Interdicția generală de cumul poate exclude ajutoare pentru cheltuieli distincte. Lipsa corelării dintre intrarea în vigoare și termenul pentru norme creează incertitudine. Elementele esențiale ale dreptului trebuie stabilite prin lege, conform art. 1 alin. (5) din Constituție.",
+        "otherComments": "Refaceți estimarea pe populația efectiv eligibilă și includeți administrarea programului. Verificați documentarea cerințelor art. 111 alin. (1) și art. 138 alin. (5). Precizați calculul celor 36 de luni când componentele se cumulează și tratamentul schimbării vârstei ori venitului. Expunerea de motive nu poate suplini textul normativ."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T06:55:07.685Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T12:04:14.750Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

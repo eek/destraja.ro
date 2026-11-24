@@ -1,14 +1,41 @@
 {
   "billId": "B627/2026",
   "slug": "b627-2026",
-  "updatedAt": "2026-11-10T14:10:42.221Z",
+  "updatedAt": "2026-11-24T12:04:01.264Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 3413,
+    "ordinanceChars": 0,
+    "memoChars": 13769,
+    "memoSupplied": 13769,
+    "marker": "SF-8788F097"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/b627-2026.json",
+    "form": "initiator",
+    "textHash": "8788f0978ade735d",
+    "fetchedAt": "2026-11-19T11:19:54.351Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 3,
+    "articlesShown": 3,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 10060,
+    "truncated": false,
+    "included": true,
+    "key": "a43d4724c977f429"
+  },
   "consensus": {
-    "riskScore": 4.3,
+    "riskScore": 6,
     "riskLevel": "yellow",
-    "plainTitle": "Salariații nu mai plătesc CASS pentru chirii, dividende sau PFA până la 120.000 lei pe an",
-    "summaryTlDr": "Este o relaxare fiscală reală și ușor de înțeles pentru cei cu venituri mixte, dar textul nu cere un nivel minim al salariului, așa că deschide un arbitraj evident (contract part-time plus dividende fără CASS). Lipsește și orice estimare a găurii din bugetul sănătății (FNUASS).",
-    "initiatorClaim": "Inițiatorul spune că salariatul care plătește deja CASS din salariu este suprataxat când datorează CASS și pe venituri suplimentare, fără să primească servicii medicale în plus. Propune scutirea acestor venituri până la un prag anual de 120.000 lei, invocând echitatea fiscală și un precedent din vechea Lege nr. 95/2006.",
-    "realityCheck": "Mecanic, orice persoană care are în anul fiscal venit salarial cu CASS reținută la sursă (art. 168) nu mai datorează CASS pentru veniturile de la art. 155 alin. (1) lit. b)-h), decât pentru partea din baza cumulată care depășește 120.000 lei. Textul nu stabilește un cuantum minim al salariului și nici o durată minimă a raportului de muncă. Astfel, un asociat de SRL angajat cu normă redusă poate încasa până la 120.000 lei dividende fără CASS, în timp ce un PFA fără salariu, cu același venit, plătește integral. Suma este fixă, neindexată, și nu este corelată cu plafoanele exprimate în salarii minime brute din art. 170.",
+    "plainTitle": "Scutire de CASS până la 120.000 lei pentru salariați, dar cu un articol abrogat din 2018 și capcane fiscale majore",
+    "summaryTlDr": "Intenția de a reduce dubla taxare CASS pentru salariații cu venituri extra-salariale modeste este legitimă, dar textul este redactat defectuos: modifică un articol abrogat din 2018, lasă o portiță masivă de evitare a contribuției printr-un contract salarial de o zi și creează un blocaj juridic major privind plafoanele de calcul.",
+    "initiatorClaim": "Inițiatorul susține că elimină suprataxarea cu CASS a salariaților care obțin și venituri suplimentare modeste (PFA, chirii, dividende, drepturi de autor etc.), păstrând contribuția doar pentru ceea ce depășește 120.000 lei pe an.",
+    "realityCheck": "În practică, legea introduce un alineat nou într-un articol abrogat din 2018 (art. 175), face o derogare incompletă la art. 170 (ignorând alin. 2-3 pentru chirii/dividende/investiții) și nu impune niciun prag minim de salariu sau durată de angajare. Astfel, un contract de o singură zi ar scuti până la 120.000 lei de venituri extra-salariale, iar pentru veniturile mari formularea ambiguă fie elimină complet plafonul maxim de 24/72 salarii minime (crescând masiv taxa), fie scutește integral dividende de milioane de lei.",
     "affectedGroups": [
       "Angajați & HR",
       "IMM & Antreprenori",
@@ -16,88 +43,65 @@
       "Proprietari & Imobiliare"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 1-2 (art. 155 alin. 3, art. 170)",
-      "proposalContent": "Condiționarea scutirii de un venit salarial anual minim cu CASS reținută (ex. echivalentul a 12 salarii minime brute), exprimarea pragului în salarii minime brute (ex. 30 SM) în locul sumei fixe de 120.000 lei, analizarea extinderii la pensionarii care plătesc CASS și atașarea fișei financiare privind impactul asupra FNUASS.",
-      "argumentation": "Fără prag salarial minim, un part-time formal permite evitarea CASS pe până la 120.000 lei din dividende sau chirii, ceea ce creează arbitraj fiscal. Suma fixă se erodează prin inflație și contrazice logica art. 170 (bază în salarii minime). Lipsa fișei financiare contravine art. 111 alin. (1) și art. 138 alin. (5) din Constituție.",
-      "otherComments": "Verificați concordanța art. 155 alin. (1) lit. b)-h) cu numerotarea în vigoare (risc de includere sau excludere eronată a pensiilor ori a «altor surse»). Precizați raportul cu plafonul maxim al bazei CASS și cu plățile anticipate. La art. III, completați «data publicării prezentei legi»."
+      "articleRef": "Art. I pct. 1-3 (art. 155, 170, 175)",
+      "proposalContent": "Eliminarea modificării art. 175 (abrogat din 2018) și corelarea cu art. 174. Clarificarea art. 170 prin derogare expresă și de la alin. (2)-(3), cu păstrarea plafoanelor maxime de 24/72 salarii minime. Introducerea unui prag minim de venit salarial (ex. 6 salarii minime) pentru aplicarea scutirii la art. 155 alin. (3).",
+      "argumentation": "Art. 175 este abrogat din 01.01.2018 (OUG 79/2017), deci completarea sa încalcă art. 1 alin. (5) din Constituție. Art. 170 propus ignoră alin. (2)-(3) și creează ambiguități majore privind plafoanele maxime. Lipsa unui prag salarial minim permite evitarea CASS printr-un contract de o zi, încălcând echitatea fiscală (art. 56 Constituție).",
+      "otherComments": "Solicităm fișa financiară de la Guvern (art. 138 alin. 5 Constituție și Legea 69/2010) pentru evaluarea impactului asupra FNUASS, exprimarea pragului în salarii minime brute (nu sumă fixă de 120.000 lei) pentru indexare automată și analiza situației angajaților cu salarii din UE fără reținere la sursă în România."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 88620,
-      "riskScore": 4,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 92208,
+      "sourceEndMarker": "SF-8788F097",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Scutire de CASS pentru veniturile extrasalariale sub 120.000 lei ale angajaților, dar cu erori tehnice în Codul fiscal",
-      "verdictShort": "Intenția de a elimina dubla taxare la sănătate pentru salariații care obțin și venituri din PFA, chirii sau dividende sub 120.000 lei/an este favorabilă contribuabililor. Totuși, proiectul conține erori serioase de tehnică legislativă: modifică un articol deja abrogat (art. 175), permite eludarea CASS printr-un contract salarial de o singură zi pe an și elimină involuntar plafoanele maxime pentru sumele care depășesc 120.000 lei.",
-      "initiatorClaim": "Inițiatorul urmărește eliminarea obligației de plată a contribuției de asigurări sociale de sănătate (CASS) pentru veniturile extrasalariale (PFA, drepturi de autor, chirii, dividende, dobânzi, investiții) de până la 120.000 lei/an în cazul persoanelor care sunt deja asigurate prin plata CASS din salarii.",
-      "realityCheck": "Măsura ar reduce povara fiscală și birocratică pentru salariații cu venituri mixte, însă redactarea tehnică este deficitară. Pentru că nu prevede o durată minimă sau un plafon minim al CASS plătite din salarii, orice persoană angajată chiar și o zi pe an (sau cu o indemnizație simbolică) scapă de CASS pentru 120.000 lei din alte surse. În plus, proiectul completează art. 175 din Codul fiscal (abrogat încă din 2018) și riscă să desființeze plafoanele maxime de 24 și 60 de salarii minime pentru partea care trece de 120.000 lei.",
+      "plainTitle": "Scutire de CASS până la 120.000 lei pentru salariați, dar cu un articol abrogat din 2018 și capcane fiscale majore",
+      "verdictShort": "Intenția de a reduce dubla taxare CASS pentru salariații cu venituri extra-salariale modeste este legitimă, dar textul este redactat defectuos: modifică un articol abrogat din 2018, lasă o portiță masivă de evitare a contribuției printr-un contract salarial de o zi și creează un blocaj juridic major privind plafoanele de calcul.",
+      "initiatorClaim": "Inițiatorul susține că elimină suprataxarea cu CASS a salariaților care obțin și venituri suplimentare modeste (PFA, chirii, dividende, drepturi de autor etc.), păstrând contribuția doar pentru ceea ce depășește 120.000 lei pe an.",
+      "realityCheck": "În practică, legea introduce un alineat nou într-un articol abrogat din 2018 (art. 175), face o derogare incompletă la art. 170 (ignorând alin. 2-3 pentru chirii/dividende/investiții) și nu impune niciun prag minim de salariu sau durată de angajare. Astfel, un contract de o singură zi ar scuti până la 120.000 lei de venituri extra-salariale, iar pentru veniturile mari formularea ambiguă fie elimină complet plafonul maxim de 24/72 salarii minime (crescând masiv taxa), fie scutește integral dividende de milioane de lei.",
       "affectedGroups": [
         "Angajați & HR",
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
-        "Proprietari & Imobiliare"
-      ],
-      "keyFindings": [
-        "Breșă de arbitraj fiscal (Art. I pct. 1 - art. 155 alin. 3): Textul cere doar ca persoana să realizeze „în anul fiscal” venituri salariale cu reținere de CASS la sursă, fără un prag minim (precum cel actual de 6 salarii minime brute). Astfel, un contract de muncă part-time de o zi în tot anul scutește de CASS venituri de 120.000 lei din PFA, chirii sau dividende.",
-        "Modificarea unui articol abrogat (Art. I pct. 3 - art. 175 alin. 5^1): Proiectul introduce un alineat nou la art. 175 din Codul fiscal, deși art. 175 a fost abrogat prin OUG nr. 18/2018. În prezent, regulile privind Declarația unică sunt prevăzute la art. 174 și art. 174^1 din Codul fiscal.",
-        "Necorelare cu plafoanele din art. 170 alin. (2) și risc de supraimpozitare peste prag (Art. I pct. 2 - art. 170 alin. 1^1-1^3): Derogarea se face doar de la art. 170 alin. (1) (aplicabil exclusiv activităților independente), ignorând alin. (2) (chirii, dividende etc.). Totodată, aplicarea cotei de 10% pe tot ce depășește 120.000 lei nu mai menționează plafoanele maxime de 24 și 60 de salarii minime.",
-        "Utilizarea unei sume nominale fixe (120.000 lei) în loc de multipli ai salariului minim brut pe țară rupe simetria Titlului V din Codul fiscal și expune plafonul la erodare prin inflație."
-      ],
-      "blindSpotsCaught": "Articolul I pct. 3 completează art. 175 din Legea nr. 227/2015, un articol abrogat expres de peste 8 ani (prin OUG nr. 18/2018), încălcând art. 64 din Legea nr. 24/2000 privind normele de tehnică legislativă. De asemenea, formularea din art. 170 alin. (1^2) („însumarea bazelor de calcul stabilite, potrivit legii”) creează un cerc vicios, deoarece la art. 170 alin. (2) baza legală pentru dividende/chirii este deja plafonată la 6, 12 sau 24 salarii minime (sub 120.000 lei).",
-      "constitutionalityNote": "Propunerea ridică probleme de claritate și previzibilitate a legii (Art. 1 alin. (5) din Constituție) prin modificarea unui articol abrogat (art. 175) și prin conflictul de norme creat în interiorul art. 170. De asemenea, sub aspectul Art. 56 alin. (2) (justa așezare a sarcinilor fiscale), absența unui prag minim al veniturilor salariale creează o discriminare între un PFA pur (taxat de la 6 salarii minime) și un PFA care se angajează formal o zi pe an. Totodată, diminuarea veniturilor FNUASS necesită fișa financiară și indicarea sursei de acoperire conform Art. 138 alin. (5) din Constituție.",
-      "euLawNote": "Măsura vizează impozitarea directă și finanțarea sistemului național de securitate socială, domenii aflate în competența statelor membre. Nu ridică probleme de compatibilitate cu Directiva (UE) 2018/958 (nu restricționează accesul la profesii reglementate) și nici nu intră sub incidența procedurii de notificare TRIS (Directiva 2015/1535).",
-      "senatForm": {
-        "articleRef": "Art. I pct. 1-3 (art. 155, 170, 174 Cod fiscal)",
-        "proposalContent": "La art. 155 alin. (3), scutirea se condiționează de plata CASS din salarii la nivelul a cel puțin 6 salarii minime brute, iar plafonul de 120.000 lei se exprimă în 24 salarii minime brute. La art. 170 alin. (1^1), excepția vizează și alin. (2), cu menținerea plafoanelor maxime legale. Pct. 3 se raportează la art. 174 și 174^1, întrucât art. 175 este abrogat.",
-        "argumentation": "Fără un prag minim al CASS reținute din salarii, un contract de muncă de o zi în anul fiscal ar scuti de CASS venituri extrasalariale de până la 120.000 lei, discriminând PFA-urile fără salariu. De asemenea, art. 175 din Codul fiscal a fost abrogat prin OUG 18/2018, regulile privind Declarația unică fiind azi în art. 174 și 174^1 (Legea 24/2000).",
-        "otherComments": "Susținem deblocarea și degrevarea fiscală a salariaților cu venituri mixte, însă textul trebuie corelat cu arhitectura actuală a art. 170 alin. (1) și (2) din Codul fiscal. Propunerea nu precizează dacă pentru sumele ce depășesc 120.000 lei se mențin plafoanele maxime de 24, respectiv 60 de salarii minime, riscând o supraimpozitare neintenționată."
-      },
-      "status": "ok"
-    },
-    "claude": {
-      "model": "claude",
-      "durationMs": 59389,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Salariații nu mai plătesc CASS pentru chirii, dividende sau PFA până la 120.000 lei pe an",
-      "verdictShort": "Este o relaxare fiscală reală și ușor de înțeles pentru cei cu venituri mixte, dar textul nu cere un nivel minim al salariului, așa că deschide un arbitraj evident (contract part-time plus dividende fără CASS). Lipsește și orice estimare a găurii din bugetul sănătății (FNUASS).",
-      "initiatorClaim": "Inițiatorul spune că salariatul care plătește deja CASS din salariu este suprataxat când datorează CASS și pe venituri suplimentare, fără să primească servicii medicale în plus. Propune scutirea acestor venituri până la un prag anual de 120.000 lei, invocând echitatea fiscală și un precedent din vechea Lege nr. 95/2006.",
-      "realityCheck": "Mecanic, orice persoană care are în anul fiscal venit salarial cu CASS reținută la sursă (art. 168) nu mai datorează CASS pentru veniturile de la art. 155 alin. (1) lit. b)-h), decât pentru partea din baza cumulată care depășește 120.000 lei. Textul nu stabilește un cuantum minim al salariului și nici o durată minimă a raportului de muncă. Astfel, un asociat de SRL angajat cu normă redusă poate încasa până la 120.000 lei dividende fără CASS, în timp ce un PFA fără salariu, cu același venit, plătește integral. Suma este fixă, neindexată, și nu este corelată cu plafoanele exprimate în salarii minime brute din art. 170.",
-      "affectedGroups": [
-        "IMM & Antreprenori",
-        "Contabili & Fiscalitate",
-        "Angajați & HR",
         "Proprietari & Imobiliare",
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. I pct. 1 (art. 155 alin. 3 nou): singura condiție este existența unui venit salarial cu CASS reținută la sursă «în anul fiscal». Nu există prag minim de salariu sau de durată, deci și o lună de part-time pare să fie suficientă pentru scutire.",
-        "Pragul de 120.000 lei este o sumă nominală fixă. Restul arhitecturii CASS (art. 170, art. 174) folosește multipli ai salariului minim brut, ceea ce produce incoerență și erodarea pragului prin inflație. Nu este clar dacă plafonul maxim al bazei CASS se mai aplică asupra excedentului.",
-        "Efect bugetar direct: pierderea poate ajunge la circa 12.000 lei pe an per contribuabil (10% din 120.000 lei), într-un FNUASS deja deficitar. Fragmentul disponibil din expunerea de motive nu conține fișă financiară și nici sursă de compensare, deși acestea sunt cerute de art. 15 din Legea nr. 500/2002 și de art. 15 din Legea nr. 69/2010.",
-        "Tratament diferențiat: PFA-urile, persoanele cu drepturi de autor sau agricultorii fără salariu, precum și pensionarii cu chirii, nu beneficiază de scutire pentru același nivel de venit, deși se află într-o situație comparabilă din punctul de vedere al riscului asigurat.",
-        "Aspecte pozitive: intrarea în vigoare la 1 ianuarie a anului următor (art. IV) și regula tranzitorie (art. V) asigură previzibilitate. Sarcina declarativă scade pentru salariații cu venituri mici suplimentare (art. 175 alin. 5^1)."
+        "Eroare legislativă gravă (Art. I pct. 3): proiectul introduce alin. (5^1) după alin. (5) la art. 175 din Codul fiscal, deși art. 175 este abrogat integral din 1 ianuarie 2018 (prin OUG nr. 79/2017), regula declarativă neputând produce efecte juridice.",
+        "Contradicție normativă și risc de creștere/anulare neintenționată a taxei (Art. I pct. 2): noul art. 170 alin. (1^1)-(1^3) derogă doar de la alin. (1) (activități independente, plafonate acum la 72 salarii minime), nu și de la alin. (2)-(3) (venituri de la lit. c-h, plafonate la 6/12/24 salarii minime). Totodată, referirea circulară la «însumarea bazelor de calcul stabilite potrivit legii» fie scutește total dividendele/chiriile (dacă 24 salarii minime < 120.000 lei), fie elimină plafoanele maxime și aplică 10% nelimitat peste 120.000 lei.",
+        "Portiță masivă de arbitraj fiscal (Art. I pct. 1): noul art. 155 alin. (3) nu stabilește o durată minimă a contractului de muncă sau o bază salarială minimă; realizarea unui venit salarial simbolic (chiar și o zi sau o indemnizație de administrator) într-un an fiscal scutește de CASS până la 120.000 lei din PFA, chirii sau dividende.",
+        "Lipsa totală a evaluării impactului bugetar și a sursei de finanțare: Expunerea de motive nu prezintă nicio cifră privind pierderile de venituri ale FNUASS, invocând doar efecte «dinamice» necuantificate.",
+        "Prag nominal fix neindexat (120.000 lei): spre deosebire de restul Codului fiscal, care ancorează plafoanele în salarii minime brute (6, 12, 24, 72), suma fixă de 120.000 lei se va eroda inflaționist și complică corelarea cu regimul aplicabil nesalariaților."
       ],
-      "blindSpotsCaught": "Trimiterea în bloc la art. 155 alin. (1) lit. b)-h) trebuie verificată față de numerotarea în vigoare a Codului fiscal, modificat repetat în 2023-2025. Dacă lit. b) desemnează pensiile sau dacă «alte surse» se află în afara intervalului, scutirea ar acoperi sau ar exclude categorii pe care inițiatorul nu le vizează. Trimiterea la art. 175 pentru declarația unică trebuie de asemenea verificată. Nu este reglementată situația plăților anticipate din cursul anului: contribuabilul nu știe până la final dacă va avea salariu în anul fiscal. Art. III omite sintagma «prezentei legi» după «data publicării».",
-      "constitutionalityNote": "Legiuitorul are o marjă largă în materie de contribuții (art. 56 alin. 2, art. 139). O scutire parțială nu este, în sine, neconstituțională. Riscurile sunt trei: (1) art. 111 alin. (1) și art. 138 alin. (5), deoarece CCR a sancționat constant legile care diminuează veniturile bugetare fără fișă financiară și fără punctul de vedere al Guvernului; (2) art. 16, prin diferențierea între PFA fără salariu și salariatul cu venituri identice, criteriu greu de justificat obiectiv; (3) art. 1 alin. (5), prin ambiguitatea condiției «realizează venituri din salarii» fără prag și prin raportul neclar cu plafonul bazei CASS.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, deoarece nu se reglementează accesul la profesii. Directiva (UE) 2015/1535 (TRIS) nu se aplică, deoarece nu există reguli tehnice sau servicii ale societății informaționale. Nu constituie ajutor de stat (art. 107 TFUE), fiind o măsură generală aplicabilă persoanelor fizice, neselectivă între întreprinderi. Regulamentul (CE) nr. 883/2004 nu este afectat: condiția reținerii CASS potrivit art. 168 vizează asigurații în sistemul român. Impactul asupra concurenței este indirect, prin încurajarea organizării activității ca salariu minim plus dividende.",
+      "blindSpotsCaught": "În expunerea de motive (Cap. III), inițiatorul citează expres Legea nr. 24/2000 pentru a sublinia că abrogarea are caracter definitiv, dar imediat în Art. I pct. 3 încearcă să introducă un alineat nou într-un articol abrogat de 8 ani (art. 175). În plus, scutirea exclude pensionarii și beneficiarii de indemnizații care plătesc deja CASS (art. 155 alin. 1 lit. a^2 și i-m), precum și rezidenții cu salarii din străinătate unde CASS nu se reține la sursă potrivit art. 168.",
+      "constitutionalityNote": "Proiectul prezintă vicii serioase de neconstituționalitate: (1) Art. 1 alin. (5) – lipsă de claritate, precizie și previzibilitate prin modificarea unui articol abrogat (art. 175) și prin redactarea contradictorie a art. 170; (2) Art. 138 alin. (5) coroborat cu art. 111 alin. (1) – diminuarea veniturilor bugetare (FNUASS) fără solicitarea fișei financiare și fără indicarea sursei de compensare; (3) Art. 16 alin. (1) și art. 56 alin. (2) – tratament fiscal disproporționat între un PFA fără salariu și unul cu o singură zi de contract de muncă, respectiv excluderea pensionarilor plătitori de CASS.",
+      "euLawNote": "Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente, fiind o normă pur fiscal-contributivă. Totuși, condiționarea scutirii strict de reținerea la sursă a CASS «potrivit art. 168» (mecanism specific angajatorilor/plătitorilor români) riscă să discrimineze rezidenții care obțin salarii de la angajatori din alte state membre UE și își declară/plătesc direct CASS în România, ridicând posibile tensiuni cu libera circulație a lucrătorilor (Art. 45 TFUE).",
       "senatForm": {
-        "articleRef": "Art. I pct. 1-2 (art. 155 alin. 3, art. 170)",
-        "proposalContent": "Condiționarea scutirii de un venit salarial anual minim cu CASS reținută (ex. echivalentul a 12 salarii minime brute), exprimarea pragului în salarii minime brute (ex. 30 SM) în locul sumei fixe de 120.000 lei, analizarea extinderii la pensionarii care plătesc CASS și atașarea fișei financiare privind impactul asupra FNUASS.",
-        "argumentation": "Fără prag salarial minim, un part-time formal permite evitarea CASS pe până la 120.000 lei din dividende sau chirii, ceea ce creează arbitraj fiscal. Suma fixă se erodează prin inflație și contrazice logica art. 170 (bază în salarii minime). Lipsa fișei financiare contravine art. 111 alin. (1) și art. 138 alin. (5) din Constituție.",
-        "otherComments": "Verificați concordanța art. 155 alin. (1) lit. b)-h) cu numerotarea în vigoare (risc de includere sau excludere eronată a pensiilor ori a «altor surse»). Precizați raportul cu plafonul maxim al bazei CASS și cu plățile anticipate. La art. III, completați «data publicării prezentei legi»."
+        "articleRef": "Art. I pct. 1-3 (art. 155, 170, 175)",
+        "proposalContent": "Eliminarea modificării art. 175 (abrogat din 2018) și corelarea cu art. 174. Clarificarea art. 170 prin derogare expresă și de la alin. (2)-(3), cu păstrarea plafoanelor maxime de 24/72 salarii minime. Introducerea unui prag minim de venit salarial (ex. 6 salarii minime) pentru aplicarea scutirii la art. 155 alin. (3).",
+        "argumentation": "Art. 175 este abrogat din 01.01.2018 (OUG 79/2017), deci completarea sa încalcă art. 1 alin. (5) din Constituție. Art. 170 propus ignoră alin. (2)-(3) și creează ambiguități majore privind plafoanele maxime. Lipsa unui prag salarial minim permite evitarea CASS printr-un contract de o zi, încălcând echitatea fiscală (art. 56 Constituție).",
+        "otherComments": "Solicităm fișa financiară de la Guvern (art. 138 alin. 5 Constituție și Legea 69/2010) pentru evaluarea impactului asupra FNUASS, exprimarea pragului în salarii minime brute (nu sumă fixă de 120.000 lei) pentru indexare automată și analiza situației angajaților cu salarii din UE fără reținere la sursă în România."
       },
+      "reachedEnd": true,
       "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 90166,
-      "riskScore": 5,
+      "durationMs": 107772,
+      "sourceEndMarker": "SF-8788F097",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Scutire de CASS pentru veniturile suplimentare ale salariaților, până la 120.000 lei",
-      "verdictShort": "Pe textul furnizat, proiectul oferă o reducere fiscală reală, dar condiționează avantajul de existența unui salariu, fără cerințe minime de durată sau valoare. Necesită corelări privind calculul, declararea și plafoanele pentru a deveni previzibil.",
-      "initiatorClaim": "Inițiatorul urmărește reducerea CASS pentru persoanele care contribuie deja prin salariu și obțin venituri suplimentare. Susține că pragul anual de 120.000 lei păstrează solidaritatea sistemului și simplifică administrarea fiscală.",
-      "realityCheck": "Art. I urmărește aplicarea cotei legale de CASS numai asupra excedentului bazei anuale cumulate peste 120.000 lei, pentru persoanele cu venituri salariale supuse reținerii CASS. Condiția salarială nu are un minim de venit sau de durată, iar textul nu explică suficient cumularea bazelor și raportul cu plafoanele și excepțiile existente. Plata CASS pentru venituri distincte nu este, prin ea însăși, o dublă impunere neconstituțională, iar proiectul nu demonstrează că fiecare beneficiar va plăti mai puțin la orice nivel al veniturilor.",
+      "plainTitle": "Scutire de CASS pentru veniturile suplimentare ale salariaților, cu reguli contradictorii",
+      "verdictShort": "Proiectul urmărește o reducere fiscală legitimă, dar mecanismul propus necesită rescriere înainte de adoptare. Modifică un articol abrogat și nu clarifică raportul dintre pragul de 120.000 lei și plafoanele CASS existente.",
+      "initiatorClaim": "Inițiatorul dorește să scutească salariații de CASS pentru veniturile nesalariale complementare până la o bază anuală cumulată de 120.000 lei. Susține că astfel reduce supracontribuirea, simplifică declararea și păstrează solidaritatea pentru veniturile mari.",
+      "realityCheck": "Art. I urmărește introducerea unei scutiri condiționate de existența veniturilor salariale cu CASS reținută la sursă, fără un cuantum salarial minim sau o durată minimă expresă. În prezent, activitățile independente și veniturile de la lit. c)-h) au mecanisme distincte de calcul, iar proiectul nu precizează suficient cum se cumulează bazele și cum se aplică plafoanele existente. Completarea art. 175, abrogat potrivit formei consolidate furnizate, nu poate institui coerent procedura declarativă promisă.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
@@ -107,20 +111,48 @@
         "Agricultură & Mediu"
       ],
       "keyFindings": [
-        "Art. I pct. 1: existența unor venituri salariale cu CASS reținută este suficientă pentru accesul la facilitate; nu se cere salarizare pe întregul an sau o contribuție salarială minimă. Poate apărea un stimulent pentru obținerea unui salariu redus ori de scurtă durată în scopul accesării scutirii.",
-        "Art. I pct. 2: excepția privește explicit numai art. 170 alin. (1), deși acoperă toate veniturile de la art. 155 alin. (1) lit. b)-h). Trebuie clarificat raportul cu celelalte reguli aplicabile fiecărei categorii, dacă se cumulează venituri efective sau baze fiscale plafonate și dacă se păstrează plafoanele superioare existente.",
-        "Art. I pct. 3: limitarea completării declarației la excedent trebuie restrânsă explicit la secțiunea CASS; nu trebuie să afecteze declararea integrală a veniturilor pentru impozitul pe venit sau alte obligații. Art. II-IV permit ca termenele administrative de 60 de zile să expire după intrarea în vigoare, dacă publicarea intervine la sfârșitul anului."
+        "Art. I pct. 3 adaugă un alin. (5^1) după alin. (5) al art. 175, deși articolul este abrogat din 2018 potrivit textului consolidat furnizat. Nu există suportul normativ indicat pentru completare; trebuie modificate dispozițiile declarative efectiv în vigoare.",
+        "Art. I pct. 2 derogă expres numai de la art. 170 alin. (1), privind activitățile independente. Alin. (2)-(3), care reglementează separat veniturile de la lit. c)-h), rămân nemodificate. Împreună cu noua excepție generală din art. 155, aceasta creează o suprapunere care trebuie rezolvată expres.",
+        "În prezent, conform textului furnizat, activitățile independente au o bază plafonată la 72 de salarii minime, iar veniturile de la lit. c)-h) folosesc baze de 6, 12 sau 24 de salarii minime. Expunerea de motive descrie inexact această arhitectură ca pe un mecanism unic de cumul pentru toate veniturile b)-h).",
+        "Art. 170 alin. (1^2) propus cumulează «bazele de calcul stabilite, potrivit legii», nu definește explicit cumulul veniturilor efective. Pentru venituri exclusiv din c)-h), dacă se păstrează baza plafonată la 24 de salarii minime și aceasta este sub 120.000 lei, scutirea ar putea opera indiferent de venitul efectiv.",
+        "Dacă intenția este calculul CASS asupra veniturilor efective care depășesc 120.000 lei, trebuie precizat tratamentul plafoanelor maxime. Aplicarea cotei asupra excedentului fără plafonarea actuală poate crește contribuția pentru unele venituri mari, contrar prezentării proiectului exclusiv ca reducere fiscală.",
+        "Art. 155 alin. (3) propus nu cere contribuție salarială minimă sau salariu pe întregul an. Chiar și o perioadă salarială scurtă poate deschide accesul la întreaga scutire anuală. Pensionarii care plătesc CASS, dar nu au venit salarial eligibil, nu beneficiază de această excepție.",
+        "Scutirea privește CASS, nu impozitul pe venit sau celelalte obligații declarative. Formularea privind completarea declarației numai pentru excedent trebuie limitată explicit la secțiunea CASS, pentru a evita interpretarea că veniturile impozabile sub prag nu mai trebuie declarate.",
+        "Art. II-III acordă 60 de zile de la publicare pentru norme și formular, iar art. IV aplică legea de la următorul 1 ianuarie. Dacă publicarea are loc spre sfârșitul anului, termenul administrativ poate depăși intrarea în vigoare; obligațiile pregătitoare trebuie și ele corelate cu data intrării în vigoare.",
+        "Art. V păstrează regimul anterior pentru veniturile realizate înaintea intrării în vigoare. Aceasta este o garanție utilă împotriva aplicării retroactive, dar nu rezolvă contradicțiile de calcul și declarare."
       ],
-      "blindSpotsCaught": "Expunerea prezintă contribuția suplimentară ca disproporționată deoarece nu aduce servicii medicale suplimentare, dar într-un sistem solidar contribuția nu este prețul individual al pachetului medical. În plus, pragul fix de 120.000 lei nu are mecanism de actualizare. Verificarea online a dosarului B627/2026 și a formei consolidate aplicabile a Codului fiscal nu a fost posibilă; analiza privește textele furnizate, iar corelările cu legislația în vigoare necesită confirmare.",
-      "constitutionalityNote": "Art. 1 alin. (5) este relevant pentru definirea bazei cumulate, raportul cu plafoanele și întinderea obligației declarative. Art. 23 alin. (12) privește stabilirea și aplicarea pedepselor; proiectul nu introduce asemenea sancțiuni. Diferențierea dintre salariați și nesalariați trebuie justificată obiectiv prin raportare la art. 16 și art. 56 alin. (2), fără ca orice diferență fiscală să fie automat neconstituțională. Dreptul la sănătate și solidaritatea permit contribuții aferente mai multor venituri. Reducerea încasărilor necesită fundamentare bugetară și examinarea obligațiilor de informare prevăzute de art. 111 alin. (1), dacă sunt întrunite condițiile sale. Art. 138 alin. (5) nu devine automat incident doar pentru că se diminuează venituri, în lipsa aprobării unor cheltuieli noi.",
-      "euLawNote": "Directiva (UE) 2018/958 privește testul de proporționalitate pentru restricții privind accesul la profesii reglementate sau exercitarea acestora; această facilitate fiscală generală nu introduce asemenea restricții. Directiva (UE) 2015/1535 nu impune notificare TRIS pentru simplul fapt că sunt afectați și contribuabili din IT: textul nu stabilește cerințe tehnice ori reguli specifice serviciilor societății informaționale sau AI. Facilitatea poate influența concurența și alegerea formei de remunerare prin avantajarea persoanelor cu venituri mixte, însă textul nu instituie monopoluri sau bariere profesionale. Nu rezultă suficiente elemente pentru calificarea automată drept ajutor de stat.",
+      "blindSpotsCaught": "Principala capcană este diferența dintre cumularea veniturilor și cumularea bazelor CASS deja plafonate: ele pot produce rezultate radical diferite. A doua este intervenția asupra art. 175 abrogat. Nu orice salariat ar primi o facilitate integral nouă pentru fiecare categorie de venit, deoarece scutirile speciale deja existente trebuie păstrate și corelate. Analiza se bazează pe documentele furnizate; verificarea externă a formei legislative și a dosarului nu a fost posibilă în această sesiune.",
+      "constitutionalityNote": "Riscul principal privește art. 1 alin. (5): întinderea obligației fiscale trebuie să fie clară și previzibilă, iar contradicțiile dintre scutire, baze și plafoane nu pot fi rezolvate prin norme guvernamentale sau formular ANAF. Art. 16 și art. 56 alin. (2) impun justificarea diferenței dintre contribuabilii cu venit salarial chiar foarte redus și cei fără salariu, inclusiv pensionarii contributori; diferențierea nu este automat neconstituțională. Plata CASS din mai multe categorii de venit nu reprezintă, prin ea însăși, o dublă impunere neconstituțională: solidaritatea nu presupune servicii medicale proporționale cu contribuția individuală. Reducerea încasărilor reclamă evaluare bugetară și solicitarea informării Guvernului în condițiile art. 111 alin. (1); lipsa acestui demers nu poate fi dedusă numai din documentele prezentate. Art. 138 alin. (5), referitor la cheltuieli, nu se aplică automat oricărei reduceri de venituri. Data intrării în vigoare trebuie să respecte termenul constituțional de trei zile prevăzut de art. 78 inclusiv la publicarea în ultimele zile ale anului. Art. 23 alin. (12) nu este incident, deoarece proiectul nu instituie pedepse.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testarea proporționalității restricțiilor privind accesul la profesii reglementate sau exercitarea acestora; proiectul fiscal prezentat nu introduce asemenea restricții. Directiva (UE) 2015/1535 nu impune notificare TRIS doar pentru că o facilitate fiscală poate avantaja persoane din IT: textul nu reglementează specific servicii ale societății informaționale și nu introduce cerințe tehnice pentru produse. Facilitatea poate încuraja combinarea unui salariu redus cu venituri independente sau din capital, influențând concurența fiscală între formele de activitate, fără să instituie un monopol. Aplicarea trebuie să respecte coordonarea europeană a securității sociale, inclusiv Regulamentul (CE) nr. 883/2004; nu se poate deduce din text o derogare de la aceste reguli.",
       "senatForm": {
         "articleRef": "Art. I pct. 1-3; art. II-IV",
-        "proposalContent": "Definiți baza cumulată și raportul cu plafoanele, scutirile și reținerea la sursă pentru fiecare categorie de venit. Precizați condițiile salariale de acces la facilitate. Limitați regula declarativă la secțiunea CASS și corelați termenele administrative cu data aplicării.",
-        "argumentation": "Textul permite accesul la facilitate chiar și pentru venituri salariale de scurtă durată, fără prag minim. Cumularea unor baze calculate diferit și derogarea limitată la art. 170 alin. (1) pot genera interpretări divergente. Clarificările susțin previzibilitatea și justa așezare a sarcinilor fiscale.",
-        "otherComments": "Prezentați impactul anual asupra încasărilor din CASS, distribuția avantajului pe niveluri de venit și costurile administrative. Fragmentul expunerii nu conține aceste estimări. Justificați pragul de 120.000 lei și verificați dacă formula propusă poate crește contribuția pentru unele venituri mari."
+        "proposalContent": "Rescrieți unitar calculul CASS și corelați dispozițiile în vigoare privind reținerea și declararea. Eliminați completarea art. 175 abrogat. Definiți cumulul înainte sau după plafonare, plafonul maxim și condiția salarială. Limitați simplificarea declarației la CASS și sincronizați normele cu aplicarea legii.",
+        "argumentation": "Art. 170 distinge activitățile independente de veniturile c)-h), iar derogarea propusă privește expres doar alin. (1). Cumularea bazelor plafonate poate produce alt rezultat decât cumularea veniturilor. Modificarea art. 175 abrogat și necorelarea regulilor afectează previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
+        "otherComments": "Prezentați impactul asupra veniturilor fondului de sănătate și justificarea pragului de 120.000 lei. Evaluați diferența dintre contribuabilii cu salarii ocazionale și cei fără salariu. Verificați solicitarea informării Guvernului potrivit art. 111 alin. (1), precum și termenele administrative și intrarea în vigoare."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-10T14:10:42.221Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T12:04:01.264Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

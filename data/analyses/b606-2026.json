@@ -1,121 +1,148 @@
 {
   "billId": "B606/2026",
   "slug": "b606-2026",
-  "updatedAt": "2026-10-31T07:45:23.446Z",
+  "updatedAt": "2026-11-24T12:05:51.996Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 2286,
+    "ordinanceChars": 0,
+    "memoChars": 6020,
+    "memoSupplied": 6020,
+    "marker": "SF-896C9FF0"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/b606-2026.json",
+    "form": "initiator",
+    "textHash": "896c9ff0222af3b8",
+    "fetchedAt": "2026-11-19T11:19:54.315Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 3416,
+    "truncated": false,
+    "included": true,
+    "key": "069a9ec3077bdd21"
+  },
   "consensus": {
-    "riskScore": 3.7,
-    "riskLevel": "green",
-    "plainTitle": "Același impozit pe bursă, fie că folosești un broker român, fie unul din UE",
-    "summaryTlDr": "Direcția e corectă. Proiectul elimină o discriminare fiscală contrară pieței unice și scade impozitul pentru investitorii care folosesc brokeri din UE. Textul e însă scris în grabă: nu spune dacă impozitul se calculează pe fiecare tranzacție sau pe câștigul net anual, iar aplicarea retroactivă obligatorie poate lovi tocmai investitorii aflați pe pierdere.",
-    "initiatorClaim": "Inițiatorii vor să elimine diferența dintre cotele de 3%/6% (broker român sau cu sediu permanent în România) și cota de 16% (broker din UE/SEE fără sediu permanent în România). Ei invocă procedura de infringement deschisă de Comisia Europeană la 1 octombrie 2026 și susțin că scăderea cotei va aduce venituri suplimentare la buget.",
-    "realityCheck": "Mecanic, art. 96² mută câștigurile realizate prin brokeri din UE/SEE fără sediu permanent în România de la 16% la 3%/6%, iar impozitul e calculat, declarat și plătit tot de investitor. Alin. (3) trimite însă la art. 96 (regim anual, pe câștig net, cu compensarea pierderilor), în timp ce cotele de 3%/6% aparțin regimului pe tranzacție, fără compensare. Rezultatul e fie un hibrid mai avantajos decât pentru clienții brokerilor români, fie un calcul pe fiecare tranzacție, fără pierderi, aplicat obligatoriu și retroactiv de la 1 ianuarie 2026, cu stabilirea termenului de 365 de zile lăsată integral în sarcina investitorului.",
+    "riskScore": 5,
+    "riskLevel": "yellow",
+    "plainTitle": "Impozit de 3% și 6% la brokerii din UE/SEE, dar cu reguli necorelate în Codul fiscal",
+    "summaryTlDr": "Obiectivul legii este legitim și benefic investitorilor (eliminarea taxării discriminatorii de 16% la brokerii europeni și stingerea infringementului CE), însă textul este grav necorelat cu restul Codului fiscal. Fără clarificarea regimului pierderilor și fără eliminarea retroactivității, legea riscă blocaje de aplicare și neconstituționalitate.",
+    "initiatorClaim": "Inițiatorii susțin că proiectul elimină discriminarea fiscală sancționată de Comisia Europeană prin procedura de infringement din 1 octombrie 2026, extinzând cotele de 3% și 6% și la investițiile făcute prin brokeri din UE/SEE fără sediu permanent în România, cu efect pozitiv asupra atractivității pieței bursiere.",
+    "realityCheck": "În realitate, Art. I introduce art. 96^2 fără a modifica art. 119, 122, 123 alin. (1^2) și 130, creând o contradicție directă: trimite la art. 96 (câștig net anual cu compensarea pierderilor) în timp ce aplică cotele pe tranșe de deținere ale art. 97 alin. (8^1), unde la brokerii români pierderile nu se compensează. Nu rezultă cum se alocă pierderile între cota de 3% și cea de 6%, apărând riscul fie al unei discriminări inverse față de brokerii locali, fie al unei poveri de calcul imposibile pentru persoana fizică; în plus, Art. II impune aplicarea retroactivă din 1 ianuarie 2026.",
     "affectedGroups": [
       "Contabili & Fiscalitate",
       "Toți cetățenii",
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I (art. 96² alin. 2-3) și Art. II",
-      "proposalContent": "Alin. (2) să precizeze expres baza de calcul: câștigul pe fiecare tranzacție, ca la art. 96¹, sau câștigul net anual, ca la art. 96, și cum se stabilește termenul de 365 de zile. Art. II alin. (1) să se aplice doar dacă impozitul rezultat e mai mic decât cel calculat cu 16%. Art. II alin. (2) să definească „diferența” și restituirea prin declarația unică.",
-      "argumentation": "Alin. (3) trimite la art. 96 (câștig net anual, cu pierderi compensate), dar cotele vin din regimul pe tranzacție, fără compensare. Textul permite ambele lecturi. În lectura pe tranzacție, cine a avut pierdere netă în 2026 și datora 0 ar plăti impozit retroactiv, contrar art. 15 alin. (2) și art. 1 alin. (5) din Constituție.",
-      "otherComments": "Lipsește fișa financiară (art. 15 din Legea nr. 500/2002) și punctul de vedere al Guvernului, obligatoriu potrivit art. 111 alin. (1) din Constituție. De corectat: „Calculul” și „titluri de valoare și instrumente financiare derivate” (fără „alte”) în titlul marginal; „titlurilor'” în alin. (2). Să se precizeze soarta pierderilor reportate din anii anteriori."
+      "articleRef": "Art. I (art. 96^2), Art. II, formula finală",
+      "proposalContent": "Corelați art. 96^2 cu art. 119, 123 alin. (1^2) și 130 Cod fiscal, clarificând expres regimul pierderilor și incluzând SAI/AFIA din UE/SEE, la fel ca la art. 96^1. Eliminați retroactivitatea de la Art. II (pentru exerciții încheiate) și corectați formula finală la art. 76 alin. (2) din Constituție (lege ordinară).",
+      "argumentation": "Alinierea la 3%/6% răspunde infringementului CE (art. 56 TFUE), dar trimiterea la art. 96 (câștig net anual) fără modificarea art. 123 alin. (1^2) creează ambiguitate (art. 1 alin. 5 Constituție) și posibilă discriminare inversă față de brokerii români. Art. II riscă încălcarea art. 15 alin. (2) din Constituție.",
+      "otherComments": "Solicitați Guvernului fișa financiară (art. 111 alin. 1 și art. 138 alin. 5 Constituție), având în vedere reducerea cotei și restituirile de la Art. II alin. (2). Corectați eroarea de redactare de la art. 96^2 alin. (2) («titlurilor'») și verificați corelarea cu normele de declarare prin Declarația Unică (art. 122) și creditul fiscal (art. 131)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 99472,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Egalizarea impozitului la bursă (3% și 6%) pentru românii care investesc prin brokeri din UE/SEE",
-      "verdictShort": "O inițiativă fiscală pozitivă și necesară, care elimină supraimpozitarea de 16% aplicată românilor care investesc prin brokeri europeni și răspunde procedurii de infringement declanșate de Comisia Europeană. Textul suferă însă de erori tehnice de corelare în Codul fiscal care trebuie corectate în comisii pentru a putea fi aplicat în Declarația Unică.",
-      "initiatorClaim": "Inițiatorii propun ca investitorii persoane fizice care tranzacționează acțiuni și instrumente derivate prin brokeri stabiliți în UE sau SEE (fără sediu permanent în România) să fie impozitați cu aceleași cote reduse de 3% (deținere peste 365 zile) și 6% (sub 365 zile) aplicabile brokerilor români, în loc de cota de 16%, stingând astfel procedura de infringement deschisă de Comisia Europeană la 1 octombrie 2026.",
-      "realityCheck": "Intenția de reducere a impozitului este benefică, însă redactarea Art. 96² creează un blocaj tehnic: trimite simultan la cotele de 3%/6% din art. 97 alin. (8¹) (care se aplică pe fiecare tranzacție profitabilă, fără deducerea pierderilor) și la procedura din art. 96 (care calculează câștigul net anual prin scăderea pierderilor, fără a separa tranzacțiile sub și peste 365 de zile). În plus, aplicarea pentru tot anul 2026 (Art. II) riscă să fie declarată retroactivă dacă legea intră în vigoare în 2027.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 73427,
+      "sourceEndMarker": "SF-896C9FF0",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Impozit de 3% și 6% la brokerii din UE/SEE, dar cu reguli necorelate în Codul fiscal",
+      "verdictShort": "Obiectivul legii este legitim și benefic investitorilor (eliminarea taxării discriminatorii de 16% la brokerii europeni și stingerea infringementului CE), însă textul este grav necorelat cu restul Codului fiscal. Fără clarificarea regimului pierderilor și fără eliminarea retroactivității, legea riscă blocaje de aplicare și neconstituționalitate.",
+      "initiatorClaim": "Inițiatorii susțin că proiectul elimină discriminarea fiscală sancționată de Comisia Europeană prin procedura de infringement din 1 octombrie 2026, extinzând cotele de 3% și 6% și la investițiile făcute prin brokeri din UE/SEE fără sediu permanent în România, cu efect pozitiv asupra atractivității pieței bursiere.",
+      "realityCheck": "În realitate, Art. I introduce art. 96^2 fără a modifica art. 119, 122, 123 alin. (1^2) și 130, creând o contradicție directă: trimite la art. 96 (câștig net anual cu compensarea pierderilor) în timp ce aplică cotele pe tranșe de deținere ale art. 97 alin. (8^1), unde la brokerii români pierderile nu se compensează. Nu rezultă cum se alocă pierderile între cota de 3% și cea de 6%, apărând riscul fie al unei discriminări inverse față de brokerii locali, fie al unei poveri de calcul imposibile pentru persoana fizică; în plus, Art. II impune aplicarea retroactivă din 1 ianuarie 2026.",
       "affectedGroups": [
         "Contabili & Fiscalitate",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I (noul Art. 96² alin. 1 și 2) extinde cotele reduse de 3% (deținere >= 365 zile) și 6% (deținere < 365 zile) și pentru câștigurile obținute prin intermediari din UE/SEE fără sediu permanent în România, păstrând cota de 16% doar pentru brokerii din state terțe (non-UE/SEE).",
-        "Contradicție tehnică la Art. 96² alin. (3): textul prevede că impozitul se calculează, se declară și se plătește „în condițiile art. 96”, însă art. 96 reglementează doar calculul câștigului net anual (cu compensarea pierderilor), în timp ce declararea și plata sunt reglementate la art. 122 și art. 123 alin. (1²), texte rămase nemodificate.",
-        "Ambiguitate privind regimul pierderilor: nu este clar dacă investitorii prin brokeri UE/SEE vor plăti 3%/6% pe fiecare tranzacție câștigătoare fără compensarea pierderilor (ca la brokerii din România, ceea ce poate dezavantaja traderii cu rulaj mare și marje mici) sau pe câștigul net anual după deducerea pierderilor.",
-        "Art. II alin. (1) și (2) dispun aplicarea legii începând cu 1 ianuarie 2026 și restituirea diferențelor, deși pentru câștigurile din 2026 realizate prin brokeri străini impozitul nu se reține în timpul anului, ci se declară și se plătește abia până la 25 mai 2027 prin Declarația Unică."
+        "Contradicție normativă în Codul fiscal (Art. I – art. 96^2 alin. 2-3): trimiterea la art. 96 (câștig net anual) concomitent cu cotele diferențiate pe durata deținerii din art. 97 alin. (8^1), fără a modifica art. 123 alin. (1^2) (cota de 16%) sau art. 119, lasă complet neclar dacă pierderile se mai compensează și cum se repartizează între tranșele de 3% și 6%.",
+        "Retroactivitate fiscală vulnerabilă constituțional (Art. II alin. 1-2): termenul de consultare fiind 29.11.2026, legea va intra probabil în vigoare în 2027, aplicându-se retroactiv unui an fiscal deja încheiat (2026), cu risc de încălcare a art. 15 alin. (2) din Constituție și cu posibile efecte defavorabile pentru investitorii cu pierderi dacă se elimină compensarea.",
+        "Acoperire incompletă față de art. 96^1 în vigoare: art. 96^2 vizează doar «intermediarul», omițând societățile de administrare a investițiilor (SAI), societățile de investiții autoadministrate și AFIA stabilite în UE/SEE (care sunt incluse expres în art. 96^1), menținând parțial discriminarea fiscală.",
+        "Lipsa fișei financiare și eroare privind caracterul legii: expunerea de motive nu cuantifică impactul bugetar al reducerii cotei și al restituirilor de la Art. II alin. (2), iar formula finală încadrează eronat modificarea Codului fiscal ca lege organică (art. 76 alin. 1) în loc de lege ordinară (art. 76 alin. 2)."
       ],
-      "blindSpotsCaught": "Trimiterea necorelată la art. 96 combinată cu cotele diferențiate pe durată din art. 97 alin. (8¹) lasă fără răspuns o problemă contabilă elementară: dacă se compensează pierderile conform art. 96, cum se scade o pierdere dintr-o deținere scurtă (<365 zile, cotă 6%) dintr-un câștig pe termen lung (>=365 zile, cotă 3%)? De asemenea, pentru traderii activi care au multe tranzacții câștigătoare și multe pierzătoare în același an, trecerea obligatorie la impozitarea pe câștig brut fără deducerea pierderilor poate duce la un impozit efectiv mai mare decât cota de 16% aplicată pe profitul net.",
-      "constitutionalityNote": "Sub aspectul Art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), contradicția dintre art. 96 (câștig net anual cu deducerea pierderilor) și art. 97 alin. (8¹) (impozit pe fiecare câștig brut fără compensarea pierderilor), precum și necorelarea cu art. 123 alin. (1²), generează insecuritate juridică. Totodată, având în vedere că termenul de consultare publică este 29 noiembrie 2026, adoptarea legii în 2027 cu aplicare de la 1 ianuarie 2026 (Art. II) ridică probleme de retroactivitate potrivit Art. 15 alin. (2) din Constituție, întrucât excepția legii mai favorabile vizează constituțional doar legea penală sau contravențională, nu și legea fiscală.",
-      "euLawNote": "Propunerea este pe deplin aliniată cu Dreptul UE și urmărește tocmai conformarea cu Art. 56 TFUE (libera prestare a serviciilor), Art. 63 TFUE (libera circulație a capitalurilor) și Art. 36 din Acordul SEE, ca urmare a scrisorii de punere în întârziere (infringement) transmise României de Comisia Europeană la 1 octombrie 2026. Măsura elimină o barieră fiscală discriminatorie pe piața unică a serviciilor de investiții financiare și nu cade sub incidența restricțiilor din Directiva (UE) 2018/958 sau Directiva (UE) 2015/1535 (TRIS).",
+      "blindSpotsCaught": "Proiectul conține trei chichițe tehnice majore trecute cu vederea: (1) formula de adoptare invocă art. 76 alin. (1) din Constituție (lege organică), deși Codul fiscal este lege ordinară (art. 76 alin. 2); (2) art. 96^2 omite SAI/AFIA din UE/SEE prezente în art. 96^1 și nu exclude expres aurul de investiții; (3) necorelarea cu art. 130-131 privind veniturile din străinătate și creditul fiscal creează incertitudine când impozitul este declarat «final» la art. 96^2 alin. (3). În plus, există și o eroare materială de redactare la art. 96^2 alin. (2) («titlurilor'»).",
+      "constitutionalityNote": "Proiectul prezintă trei vulnerabilități constituționale serioase: (1) Art. 1 alin. (5) – lipsă de claritate și previzibilitate prin suprapunerea contradictorie dintre art. 96, art. 96^2, art. 97 alin. (8^1) și nemodificarea art. 123 alin. (1^2); (2) Art. 15 alin. (2) – neretroactivitatea legii civile/fiscale, întrucât Art. II aplică noile reguli întregului an 2026, deși adoptarea va avea loc cel mai devreme spre finalul lui 2026 sau în 2027; (3) Art. 138 alin. (5) coroborat cu art. 111 alin. (1) – diminuare de venituri bugetare și restituiri fiscale fără fișă financiară și fără indicarea sursei de acoperire. Formula finală indică greșit art. 76 alin. (1) în loc de art. 76 alin. (2).",
+      "euLawNote": "Pe fond, propunerea urmărește conformarea cu art. 56 TFUE (libera prestare a serviciilor) și art. 36 din Acordul SEE, în contextul procedurii de infringement deschise de Comisia Europeană la 1 octombrie 2026. Totuși, omiterea SAI, AFIA și a societăților de investiții autoadministrate din UE/SEE (incluse în art. 96^1 pentru rezidenți) riscă să lase infringementul parțial nesoluționat, iar ambiguitatea privind compensarea pierderilor poate genera fie o sarcină administrativă disproporționată pentru utilizatorii brokerilor UE, fie o discriminare inversă față de intermediarii locali. Directiva (UE) 2018/958 și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente, măsura fiind pur fiscală.",
       "senatForm": {
-        "articleRef": "Art. I (Art. 96² alin. 2-3) și Art. II",
-        "proposalContent": "La Art. 96² alin. (2)-(3), se precizează expres regimul pierderilor și separarea pe pragul de 365 zile, înlocuind trimiterea la art. 96 cu art. 122-123 pentru declarare și plată, concomitent cu corelarea art. 123 alin. (1²). La Art. II, aplicarea pentru anul 2026 se reglementează ca normă tranzitorie înainte de scadența Declarației Unice.",
-        "argumentation": "Art. 96 vizează calculul câștigului net anual (cu deducerea pierderilor), iar art. 97 alin. (8¹) prevede cote de 3%/6% pe fiecare câștig, fără compensarea pierderilor. Trimiterea simultană la ambele texte, fără corelarea art. 123 alin. (1²), blochează aplicarea în Declarația Unică și încalcă art. 1 alin. (5) și art. 15 alin. (2) din Constituție.",
-        "otherComments": "Susținem obiectivul legii de eliminare a discriminării fiscale dintre brokerii din România și cei din UE/SEE (procedura de infringement declanșată în octombrie 2026 pe art. 56 TFUE). Recomandăm însă ca investitorii cu pierderi sau rulaje frecvente să poată opta între regimul de 3%/6% pe câștig brut și cel de 16% pe câștig net anual cu compensarea pierderilor."
-      }
+        "articleRef": "Art. I (art. 96^2), Art. II, formula finală",
+        "proposalContent": "Corelați art. 96^2 cu art. 119, 123 alin. (1^2) și 130 Cod fiscal, clarificând expres regimul pierderilor și incluzând SAI/AFIA din UE/SEE, la fel ca la art. 96^1. Eliminați retroactivitatea de la Art. II (pentru exerciții încheiate) și corectați formula finală la art. 76 alin. (2) din Constituție (lege ordinară).",
+        "argumentation": "Alinierea la 3%/6% răspunde infringementului CE (art. 56 TFUE), dar trimiterea la art. 96 (câștig net anual) fără modificarea art. 123 alin. (1^2) creează ambiguitate (art. 1 alin. 5 Constituție) și posibilă discriminare inversă față de brokerii români. Art. II riscă încălcarea art. 15 alin. (2) din Constituție.",
+        "otherComments": "Solicitați Guvernului fișa financiară (art. 111 alin. 1 și art. 138 alin. 5 Constituție), având în vedere reducerea cotei și restituirile de la Art. II alin. (2). Corectați eroarea de redactare de la art. 96^2 alin. (2) («titlurilor'») și verificați corelarea cu normele de declarare prin Declarația Unică (art. 122) și creditul fiscal (art. 131)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 181395,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Același impozit pe bursă, fie că folosești un broker român, fie unul din UE",
-      "verdictShort": "Direcția e corectă. Proiectul elimină o discriminare fiscală contrară pieței unice și scade impozitul pentru investitorii care folosesc brokeri din UE. Textul e însă scris în grabă: nu spune dacă impozitul se calculează pe fiecare tranzacție sau pe câștigul net anual, iar aplicarea retroactivă obligatorie poate lovi tocmai investitorii aflați pe pierdere.",
-      "initiatorClaim": "Inițiatorii vor să elimine diferența dintre cotele de 3%/6% (broker român sau cu sediu permanent în România) și cota de 16% (broker din UE/SEE fără sediu permanent în România). Ei invocă procedura de infringement deschisă de Comisia Europeană la 1 octombrie 2026 și susțin că scăderea cotei va aduce venituri suplimentare la buget.",
-      "realityCheck": "Mecanic, art. 96² mută câștigurile realizate prin brokeri din UE/SEE fără sediu permanent în România de la 16% la 3%/6%, iar impozitul e calculat, declarat și plătit tot de investitor. Alin. (3) trimite însă la art. 96 (regim anual, pe câștig net, cu compensarea pierderilor), în timp ce cotele de 3%/6% aparțin regimului pe tranzacție, fără compensare. Rezultatul e fie un hibrid mai avantajos decât pentru clienții brokerilor români, fie un calcul pe fiecare tranzacție, fără pierderi, aplicat obligatoriu și retroactiv de la 1 ianuarie 2026, cu stabilirea termenului de 365 de zile lăsată integral în sarcina investitorului.",
-      "affectedGroups": [
-        "Contabili & Fiscalitate"
-      ],
-      "keyFindings": [
-        "Art. I (art. 96² alin. 2-3): cotele de 3%/6% sunt combinate cu procedura de declarare din art. 96. Textul nu spune dacă baza de impozitare e câștigul net anual sau câștigul pe fiecare tranzacție și nici ce se întâmplă cu pierderile din anul curent sau cu cele reportate din anii anteriori.",
-        "Art. II alin. (1): noul regim se aplică obligatoriu pe tot anul 2026, fără drept de opțiune. Pentru cine a avut pierderi compensabile în regimul de 16%, un calcul pe tranzacție poate însemna un impozit mai mare, aplicat retroactiv.",
-        "Art. II alin. (2): «diferența» nu e definită. Pentru 2026, impozitul anual pe aceste câștiguri se declară abia în 2027, prin declarația unică, așa că de cele mai multe ori nu există încă nimic de restituit. Limitarea din Expunere («încă nedefinitivate prin plata impozitului») lipsește din text.",
-        "Art. 96² alin. (1) e doar declarativ: intermediarii străini fără sediu permanent nu au nici astăzi obligația de reținere la sursă, deoarece art. 96¹ îi vizează doar pe cei rezidenți sau cu sediu permanent în România.",
-        "Impact bugetar: scăderea de la 16% la 3%/6% și restituirile din Art. II reduc veniturile. Expunerea nu conține nicio cifră, doar afirmația că piața va deveni «mai atractivă». Nu există fișă financiară.",
-        "Brokerii din state terțe (de exemplu Regatul Unit, Elveția, SUA) rămân la 16%. Alegerea e explicabilă prin art. 56 TFUE, dar investitorii trebuie să afle clar că regimul depinde de entitatea juridică a brokerului, nu de marca platformei."
-      ],
-      "blindSpotsCaught": "Problema reală nu e cota, ci baza de calcul. La brokerii români, regimul de 3%/6% se aplică pe fiecare tranzacție, fără compensarea pierderilor. Regimul de 16% se aplică pe câștigul net anual, cu pierderi compensate și reportate. Proiectul preia cota din primul regim și procedura din al doilea (art. 96), fără să aleagă între ele. Dacă ANAF îl citește «pe tranzacție», investitorii activi aflați pe pierdere în 2026 plătesc mai mult, retroactiv. Dacă îl citește «net anual», clienții brokerilor români ajung tratați mai rău decât cei ai brokerilor străini. Pe lângă asta, titlul marginal numește titlurile de valoare «alte instrumente financiare derivate» (eroare de redactare), iar trimiterea la art. 97 alin. (8¹) trebuie verificată pe forma consolidată a Codului fiscal.",
-      "constitutionalityNote": "Fondul e compatibil cu Constituția și chiar întărește art. 56 alin. (2) (așezarea justă a sarcinilor fiscale). Problemele țin de redactare și de procedură. (1) Art. 1 alin. (5): trimiterea simultană la cotele regimului pe tranzacție și la procedura anuală din art. 96 face norma imprevizibilă. (2) Art. 15 alin. (2): aplicarea unui regim mai favorabil pentru anul fiscal 2026, încă neîncheiat, e în principiu admisibilă. Art. II nu garantează însă un rezultat mai favorabil pentru fiecare contribuabil, iar o agravare retroactivă ar fi neconstituțională. (3) Art. 16: în lectura «net anual», clienții brokerilor români ar fi tratați mai rău (discriminare inversă). (4) Art. 111 alin. (1): inițiativa reduce veniturile bugetare, deci solicitarea punctului de vedere al Guvernului e obligatorie. Lipsa acestuia e un viciu extrinsec pe care CCR l-a sancționat în mod repetat.",
-      "euLawNote": "Propunerea merge în sensul dreptului UE. O cotă de 16% față de 3%/6%, stabilită doar după locul de stabilire al intermediarului, e o restricție tipică a libertății de a presta servicii (art. 56 TFUE, art. 36 din Acordul SEE) și e greu de justificat prin coerența sistemului fiscal. Limitarea la UE/SEE e coerentă cu art. 56, care nu protejează prestatorii din state terțe. Art. 63 TFUE se aplică și în raport cu statele terțe, dar pentru o măsură care vizează intermediarul CJUE analizează de regulă pe art. 56, așa că riscul e redus. Directiva 2018/958 nu e incidentă, pentru că proiectul nu reglementează accesul la o profesie. Nici TRIS 2015/1535 nu e incidentă: nu există reguli tehnice sau privind serviciile societății informaționale. Nu apare nici o problemă de ajutor de stat, deoarece beneficiarii sunt persoane fizice, iar măsura e generală. Procedura de infringement e invocată în Expunere fără număr de referință.",
-      "senatForm": {
-        "articleRef": "Art. I (art. 96² alin. 2-3) și Art. II",
-        "proposalContent": "Alin. (2) să precizeze expres baza de calcul: câștigul pe fiecare tranzacție, ca la art. 96¹, sau câștigul net anual, ca la art. 96, și cum se stabilește termenul de 365 de zile. Art. II alin. (1) să se aplice doar dacă impozitul rezultat e mai mic decât cel calculat cu 16%. Art. II alin. (2) să definească „diferența” și restituirea prin declarația unică.",
-        "argumentation": "Alin. (3) trimite la art. 96 (câștig net anual, cu pierderi compensate), dar cotele vin din regimul pe tranzacție, fără compensare. Textul permite ambele lecturi. În lectura pe tranzacție, cine a avut pierdere netă în 2026 și datora 0 ar plăti impozit retroactiv, contrar art. 15 alin. (2) și art. 1 alin. (5) din Constituție.",
-        "otherComments": "Lipsește fișa financiară (art. 15 din Legea nr. 500/2002) și punctul de vedere al Guvernului, obligatoriu potrivit art. 111 alin. (1) din Constituție. De corectat: „Calculul” și „titluri de valoare și instrumente financiare derivate” (fără „alte”) în titlul marginal; „titlurilor'” în alin. (2). Să se precizeze soarta pierderilor reportate din anii anteriori."
-      }
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 115037,
+      "durationMs": 70796,
+      "sourceEndMarker": "SF-896C9FF0",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Impozite de 3% sau 6% și pentru investițiile prin brokeri din UE și SEE",
-      "verdictShort": "Alinierea cotelor urmărește un obiectiv legitim, dar proiectul nu armonizează clar și calculul impozitului. Combinarea regulilor privind câștigul net anual cu două cote și aplicarea pentru tranzacții anterioare creează riscuri care necesită corectarea textului.",
-      "initiatorClaim": "Inițiatorii vor să elimine dezavantajul fiscal al persoanelor care investesc prin brokeri din UE sau SEE fără sediu permanent în România. Ei invocă o procedură europeană de infringement și susțin că reducerea cotelor va stimula investițiile și încasările bugetare.",
-      "realityCheck": "Art. I extinde cotele prevăzute la art. 97 alin. (8¹), dar păstrează calcularea, declararea și plata de către investitor, prin trimitere la art. 96. Nu explică suficient cum se combină determinarea câștigului net anual, compensarea pierderilor și diferențierea cotelor după durata deținerii, astfel încât egalizarea cotelor nu garantează egalizarea sarcinii fiscale. Art. II extinde expres aplicarea asupra câștigurilor realizate de la 1 ianuarie 2026 și prevede restituiri fără să definească precis diferența de restituit.",
+      "plainTitle": "Impozite reduse pentru investițiile prin brokeri din UE și SEE",
+      "verdictShort": "Proiectul urmărește o egalizare fiscală utilă, dar lasă neclare calculul impozitului și tratamentul pierderilor. Aplicarea pentru câștiguri anterioare intrării în vigoare necesită o analiză constituțională distinctă.",
+      "initiatorClaim": "Inițiatorii urmăresc extinderea cotelor de 3% și 6% la investițiile prin intermediari din UE și SEE fără sediu permanent în România. Ei invocă eliminarea unui dezavantaj concurențial și o procedură de infringement a Comisiei Europene.",
+      "realityCheck": "Proiectul extinde cotele reduse prin trimitere la art. 97 alin. (8¹), dar păstrează calcularea, declararea și plata în sarcina investitorului, prin trimitere la art. 96. Nu precizează suficient cum se combină calculul anual, cotele diferențiate după deținere și pierderile, astfel încât nu reproduce complet regimul intermediarilor locali. Art. II extinde expres beneficiul asupra câștigurilor realizate de la 1 ianuarie 2026 și prevede restituiri, fără limitarea la obligații încă nedefinitivate menționată în expunerea de motive.",
       "affectedGroups": [
         "Contabili & Fiscalitate",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 96² alin. (1) confirmă lipsa obligației brokerului străin de a calcula și reține impozitul; alin. (3) păstrează obligațiile investitorului. Nu se introduce o scutire de impozit sau de declarare.",
-        "Art. 96² alin. (2)-(3) trebuie corelat cu regulile privind câștigul net anual și pierderile, precum și cu art. 123 alin. (1²), care, potrivit documentelor furnizate, stabilește cota de 16% pentru regimul declarativ.",
-        "Textul nu precizează repartizarea câștigurilor și pierderilor între operațiunile supuse celor două cote. Dacă pierderile rămân compensabile pentru brokerii străini, dar nu și pentru cei locali, poate apărea un avantaj fiscal în sens invers.",
-        "Art. II nu limitează aplicarea la câștigurile încă nedefinitivate prin plata impozitului, deși expunerea de motive folosește această formulare. Textul normativ și justificarea nu sunt concordante.",
-        "Art. II alin. (2) nu definește baza recalculării diferenței de restituit. Trimiterea la Codul de procedură fiscală oferă cadrul procedural, dar nu rezolvă neclaritățile privind cuantumul dreptului la restituire.",
-        "Art. III permite actualizarea normelor în 60 de zile, însă nu amână aplicarea legii. Elementele esențiale ale impozitării trebuie stabilite prin lege și nu pot fi lăsate normelor metodologice.",
-        "Expunerea nu prezintă o estimare numerică a pierderii inițiale de venituri, a restituirilor sau a costurilor administrative. Afirmația că investițiile suplimentare vor crește încasările este o ipoteză, nu o demonstrație bugetară.",
-        "Formula finală invocă art. 76 alin. (1) din Constituție, privind legile organice. Pentru completarea exclusiv fiscală prezentată, referința adecvată este, în principiu, art. 76 alin. (2), privind legile ordinare."
+        "Art. I: potrivit cadrului descris în documentele furnizate, câștigurile prin intermediari UE/SEE fără sediu permanent sunt acum supuse regimului anual de 16%; proiectul introduce aplicarea cotelor de 3% și 6%. Nu instituie o scutire generală și nu elimină eventualele obligații CASS.",
+        "Art. 96² alin. (1) și (3): intermediarul străin nu reține impozitul, iar investitorul îl calculează, declară și plătește. Obligațiile de reținere și raportare ale intermediarilor prevăzuți la art. 96¹ rămân în vigoare.",
+        "Art. 96² alin. (2)-(3): preluarea cotelor din art. 97, împreună cu trimiterea la art. 96, nu stabilește explicit repartizarea câștigului impozabil între duratele de deținere și nici compensarea ori reportarea pierderilor. Restricțiile regimului local nu se extind automat numai prin preluarea cotelor.",
+        "Art. I: trebuie corelate expres noul regim, art. 123 alin. (1²) și dispozițiile despre pierderi. Caracterul special al articolului nou poate permite interpretarea sa prioritară, dar contribuabilul trebuie să poată determina fără echivoc baza și impozitul.",
+        "Art. II: textul normativ acoperă toate câștigurile din intervalul indicat și permite restituirea diferenței. Expunerea de motive vorbește despre câștiguri încă nedefinitivate prin plată, însă această restrângere nu apare în lege.",
+        "Art. II alin. (2): «diferența» nu este definită suficient. Trebuie precizate recalcularea obligației, declarațiile rectificative și tratamentul situațiilor fiscale deja stabilite; procedura generală de restituire continuă să se aplice.",
+        "Art. III: actualizarea normelor în 60 de zile nu amână aplicarea legii. Elementele esențiale ale impunerii trebuie stabilite prin lege, fără a fi lăsate spre completare Guvernului.",
+        "Impactul bugetar negativ inițial al reducerii cotelor și eventualele restituiri nu sunt cuantificate în materialele furnizate. Creșterea încasărilor prin atragerea investitorilor este o ipoteză a inițiatorilor, nu un efect demonstrat."
       ],
-      "blindSpotsCaught": "Aceleași cote nu înseamnă automat aceeași impozitare: baza anuală cu pierderi compensabile poate produce un rezultat diferit de impozitarea fiecărei tranzacții profitabile. Totodată, caracterul mai favorabil al unei norme fiscale nu o introduce automat în excepția constituțională de la neretroactivitate, rezervată legii penale sau contravenționale mai favorabile.",
-      "constitutionalityNote": "Problema principală privește art. 1 alin. (5): baza impozabilă, repartizarea între cote și regimul pierderilor trebuie să fie clare și previzibile. Art. 23 alin. (12) privește legalitatea pedepselor și nu este reperul direct pentru acest proiect, care nu introduce sancțiuni. Art. II ridică o problemă serioasă sub art. 15 alin. (2); analiza trebuie să distingă între tranzacții încheiate, perioade fiscale încă deschise și obligații deja stabilite, fără a presupune că orice recalculare favorabilă este permisă. Diferențele rezultate din tratamentul pierderilor trebuie evaluate și prin art. 16 și art. 56 alin. (2). Pentru afectarea veniturilor bugetare trebuie verificată respectarea art. 111 alin. (1), inclusiv solicitarea informațiilor Guvernului; art. 138 alin. (5), referitor la cheltuieli, nu se aplică automat unei reduceri de impozit. Formula privind majoritatea organică nu dovedește singură un viciu al unei proceduri parlamentare încă nefinalizate.",
-      "euLawNote": "Obiectivul este relevant pentru libertatea prestării serviciilor, protejată de art. 56 TFUE și art. 36 din Acordul SEE. Compatibilitatea trebuie evaluată prin sarcina fiscală efectivă, inclusiv pierderile și obligațiile declarative, nu doar prin cote. Excluderea intermediarilor din state terțe necesită o analiză distinctă, inclusiv sub art. 63 TFUE dacă este incidentă libera circulație a capitalurilor; nelegalitatea nu rezultă automat. Directiva (UE) 2018/958 privește restricțiile asupra accesului la profesii reglementate și exercitării acestora; proiectul nu introduce asemenea condiții. Notificarea TRIS potrivit Directivei (UE) 2015/1535 nu rezultă din simpla utilizare a unor brokeri online: textul nu stabilește cerințe tehnice specifice serviciilor digitale sau AI. Analiza folosește documentele furnizate; forma consolidată a Codului fiscal și procedura de infringement invocată pentru 1 octombrie 2026 nu au putut fi verificate independent.",
+      "blindSpotsCaught": "Problema centrală este combinarea cotelor unui regim aplicat pe câștiguri individuale cu trimiterea la regulile calculului anual, fără clarificarea pierderilor. În plus, dispoziția tranzitorie este mai largă decât explicația inițiatorilor. Evaluarea folosește documentele furnizate: verificarea online a legislației consolidate și a procedurii de infringement invocate nu a fost disponibilă.",
+      "constitutionalityNote": "Art. 1 alin. (5) și art. 56 alin. (2) cer reguli previzibile și o așezare justă a sarcinilor fiscale: baza, pierderile și repartizarea pe cote trebuie clarificate. Art. II ridică o problemă serioasă sub art. 15 alin. (2), în special pentru obligații fiscale deja constituite; caracterul favorabil nu creează o excepție generală pentru legile fiscale. Trebuie diferențiate aceste situații de raporturile fiscale anuale încă în curs. Art. 23 alin. (12), privind pedepsele, nu este reperul direct, deoarece proiectul nu introduce sancțiuni penale. Invocarea art. 76 alin. (1) în formula finală trebuie justificată: materia fiscală nu este, prin ea însăși, rezervată legii organice. Nu rezultă din documentele furnizate dacă au fost solicitate informațiile Guvernului relevante potrivit art. 111 alin. (1).",
+      "euLawNote": "Reducerea diferenței de tratament poate susține libera prestare a serviciilor, potrivit art. 56 TFUE și art. 36 din Acordul SEE. Totuși, egalizarea cotelor nu dovedește egalizarea sarcinii efective dacă bazele și pierderile sunt tratate diferit. Menținerea unui regim distinct pentru intermediarii din state terțe trebuie analizată și prin libera circulație a capitalurilor, art. 63 TFUE, cu excepțiile aplicabile; nu este automat ilegală. Directiva (UE) 2018/958 privește reglementarea accesului la profesii și a exercitării acestora, astfel că nu rezultă obligația unui test în temeiul ei pentru această modificare fiscală. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu rezultă din text: acesta nu introduce cerințe tehnice sau reguli specifice serviciilor digitale. Utilizarea unui broker online nu este suficientă pentru a declanșa notificarea.",
       "senatForm": {
-        "articleRef": "Art. I, art. II și formula finală",
-        "proposalContent": "Precizați baza impozabilă, repartizarea pe durate și regimul pierderilor; corelați noul articol cu regulile declarării și cota de 16%. Eliminați retroactivitatea fiscală nejustificată și definiți recalcularea sumelor restituibile. Corectați referința la majoritatea de adoptare.",
-        "argumentation": "Egalizarea cotelor nu asigură tratament egal dacă diferă compensarea pierderilor. Trimiterile actuale permit interpretări divergente, contrare previzibilității cerute de art. 1 alin. (5) din Constituție. Aplicarea asupra câștigurilor anterioare necesită verificare sub art. 15 alin. (2), chiar dacă măsura este favorabilă.",
-        "otherComments": "Prezentați impactul bugetar estimat, inclusiv restituirile, și verificați solicitarea informațiilor Guvernului potrivit art. 111 alin. (1). Documentați procedura UE invocată. Directiva 2018/958 și TRIS nu impun automat teste sau notificări pentru această modificare fiscală."
-      }
+        "articleRef": "Art. I (art. 96²) și art. II",
+        "proposalContent": "Precizați baza impozabilă, calculul pe durate de deținere și tratamentul pierderilor; corelați expres art. 96² cu art. 96, 97, 119 și 123. Reformulați art. II pentru a delimita situațiile fiscale în curs de obligațiile deja constituite și stabiliți mecanismul recalculării și restituirii.",
+        "argumentation": "Preluarea cotelor de 3%/6% nu clarifică aplicarea lor asupra calculului anual și nici compensarea pierderilor. Sunt necesare reguli previzibile potrivit art. 1 alin. (5) și art. 56 alin. (2) din Constituție. Aplicarea la operațiuni anterioare trebuie verificată distinct prin art. 15 alin. (2).",
+        "otherComments": "Susțin egalizarea tratamentului pentru intermediarii UE/SEE. Solicitați cuantificarea reducerii veniturilor și a restituirilor, precum și poziția Guvernului. Clarificați regimul aplicabil până la actualizarea normelor și justificați formula de adoptare potrivit art. 76 alin. (1)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-31T07:45:23.446Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T12:05:51.996Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

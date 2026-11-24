@@ -1,14 +1,41 @@
 {
   "billId": "B634/2026",
   "slug": "b634-2026",
-  "updatedAt": "2026-11-12T15:12:27.263Z",
+  "updatedAt": "2026-11-24T12:04:40.387Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 2108,
+    "ordinanceChars": 0,
+    "memoChars": 19473,
+    "memoSupplied": 19473,
+    "marker": "SF-B7C06BB2"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/b634-2026.json",
+    "form": "initiator",
+    "textHash": "b7c06bb2e59b1a24",
+    "fetchedAt": "2026-11-19T09:23:34.834Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 5463,
+    "truncated": false,
+    "included": true,
+    "key": "515b754276bed020"
+  },
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 5.5,
     "riskLevel": "yellow",
-    "plainTitle": "Micii producători ar putea vinde din producția proprie oriunde, inclusiv în parcări",
-    "summaryTlDr": "Ideea e utilă și liberalizează vânzarea directă, dar textul e scris neglijent. Trimite la un document care nu mai există sub acest nume, pune un prag de cifră de afaceri care nu poate fi verificat la persoane fizice și nu cere acordul proprietarului parcării private. Risc moderat, care se poate repara în comisie.",
-    "initiatorClaim": "Inițiatorii spun că primăriile interzic sau restrâng excesiv vânzarea directă făcută de micii producători. Vor să le garanteze prin lege dreptul de a-și vinde produsele oriunde, inclusiv în parcări, pentru venituri mai mari și produse locale mai accesibile.",
-    "realityCheck": "Articolul unic introduce art. 13¹: producătorii cu o cifră de afaceri de până la 100.000 euro pot vinde produsele proprii „în orice loc”, inclusiv în parcări publice sau private deschise publicului. Primăriile pot doar organiza vânzarea în parcări, nu o pot interzice în general. Normele sanitare, fiscale și de protecția consumatorului rămân aplicabile (alin. 3–4). Problemele textului: „microproducătorul” nu e definit, trimiterea e la „certificatul de producător” (înlocuit de atestat și carnet), pragul nu se potrivește persoanelor fizice, iar acordul proprietarului parcării private și taxele pentru folosirea domeniului public nu sunt menționate.",
+    "plainTitle": "Vânzare de produse agricole „în orice loc”, inclusiv în parcări private, fără acordul proprietarului",
+    "summaryTlDr": "Deși invocă sprijinirea micilor fermieri, proiectul permite prin lege comerțul în parcări private fără acordul proprietarului și este redactat cu erori juridice majore (invocă un act care nu mai există în lege). Efectul real este un blocaj constituțional și o sursă de conflicte între proprietari, primării și vânzători.",
+    "initiatorClaim": "Inițiatorii susțin că vor să elimine barierele impuse de autoritățile locale agricultorilor de subzistență, garantându-le dreptul de a-și vinde direct produsele în spații accesibile publicului, inclusiv în parcări, cu respectarea normelor sanitare și fiscale.",
+    "realityCheck": "În timp ce art. 13 în vigoare din Legea nr. 145/2014 rezervă minimum 40% din spațiile piețelor autorizate producătorilor cu atestat și carnet de comercializare și interzice vânzarea în spații neconforme sanitar (alin. 6), noul art. 13¹ acordă dreptul de vânzare „în orice loc”, inclusiv în parcări private (supermarketuri, mall-uri, parcări comerciale), fără acordul proprietarului și fără ca primăriile să poată interzice general vânzarea în parcări. Mai mult, pragul de 100.000 euro depășește cu mult agricultura de subzistență, iar textul trimite la „certificatul de producător”, document abrogat și înlocuit în 2014.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "Proprietari & Imobiliare",
@@ -16,22 +43,24 @@
       "Șoferi & Auto"
     ],
     "senatForm": {
-      "articleRef": "Art. unic, art. 13¹ alin. (1)",
-      "proposalContent": "Alin. (1) se reformulează: „Producătorii agricoli care dețin atestat de producător și carnet de comercializare valabile, emise potrivit prezentei legi, pot comercializa produsele din propria producție în spații publice, inclusiv parcări, iar în spațiile private deschise publicului, cu acordul proprietarului.” Alin. (2) se elimină.",
-      "argumentation": "Legea nr. 145/2014 folosește atestatul de producător și carnetul de comercializare, nu „certificatul”, iar „microproducătorul” nu e definit. Persoanele fizice cu atestat nu au de regulă cifră de afaceri sau exercițiu financiar, deci pragul nu poate fi verificat. „Orice loc” fără acordul proprietarului afectează art. 44 din Constituție.",
-      "otherComments": "Recomandăm precizarea raportului cu autorizarea comerțului în spații publice (OG nr. 99/2000) și cu taxele pentru folosirea locurilor publice, definirea „măsurilor rezonabile” ale primăriilor (de ex. zone și orare) și un termen pentru armonizarea hotărârilor locale. Cerința carnetului limitează revânzarea prin intermediari."
+      "articleRef": "Articol unic – art. 13¹ din Legea nr. 145/2014",
+      "proposalContent": "Eliminarea sintagmei „în orice loc” și condiționarea vânzării în parcări private de acordul scris al proprietarului, iar în cele publice de zonele stabilite de UAT. Înlocuirea „certificatului de producător” cu atestatul de producător și carnetul de comercializare și definirea „microproducătorului” și a dovezii pragului de cifră de afaceri.",
+      "argumentation": "Dreptul de a vinde în parcări private fără acordul proprietarului încalcă art. 44 (proprietatea privată) și art. 45 din Constituție. Textul încalcă și art. 1 alin. (5) privind claritatea legii: Legea 145/2014 nu prevede „certificat de producător”, ci atestat și carnet, iar persoanele fizice cu atestat nu au „cifră de afaceri” în sens contabil.",
+      "otherComments": "Pragul de 100.000 euro depășește sfera subzistenței și creează concurență neloială față de comercianții din piețe. Interdicția ca UAT-urile să restricționeze vânzarea în parcări afectează autonomia locală (art. 120) și siguranța rutieră. Susținerea micilor fermieri necesită piețe volante organizate legal, nu vânzare necontrolată „în orice loc”."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 62822,
-      "riskScore": 6,
-      "riskLevel": "yellow",
-      "plainTitle": "Vânzarea produselor agricole „în orice loc”, inclusiv în parcările private, fără acordul proprietarului",
-      "verdictShort": "Deși intenția de a sprijini micii producători agricoli este legitimă, textul propus este profund viciat juridic: încalcă dreptul de proprietate privată permițând comerțul în parcări private (ex. supermarketuri, mall-uri) fără acordul proprietarului și invocă „certificatul de producător”, un act desființat chiar de Legea 145/2014 acum peste un deceniu.",
-      "initiatorClaim": "Inițiatorii susțin că vor să elimine barierele puse de primării și să le garanteze micilor fermieri (cu rulaj sub 100.000 euro/an) dreptul de a-și vinde marfa direct către cetățeni în orice spațiu deschis publicului, inclusiv în parcări.",
-      "realityCheck": "În realitate, legea instituie o servitute comercială forțată pe proprietatea privată, permițând vânzarea ambulantă în parcările private deschise publicului fără consimțământul proprietarului. În plus, norma este inaplicabilă practic: cere un document abrogat în 2014 („certificatul de producător”) și folosește criteriul „cifrei de afaceri din ultimul exercițiu financiar”, concept contabil inexistent pentru persoanele fizice atestate conform Legii 145/2014.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 78135,
+      "sourceEndMarker": "SF-B7C06BB2",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Vânzare de produse agricole „în orice loc”, inclusiv în parcări private, fără acordul proprietarului",
+      "verdictShort": "Deși invocă sprijinirea micilor fermieri, proiectul permite prin lege comerțul în parcări private fără acordul proprietarului și este redactat cu erori juridice majore (invocă un act care nu mai există în lege). Efectul real este un blocaj constituțional și o sursă de conflicte între proprietari, primării și vânzători.",
+      "initiatorClaim": "Inițiatorii susțin că vor să elimine barierele impuse de autoritățile locale agricultorilor de subzistență, garantându-le dreptul de a-și vinde direct produsele în spații accesibile publicului, inclusiv în parcări, cu respectarea normelor sanitare și fiscale.",
+      "realityCheck": "În timp ce art. 13 în vigoare din Legea nr. 145/2014 rezervă minimum 40% din spațiile piețelor autorizate producătorilor cu atestat și carnet de comercializare și interzice vânzarea în spații neconforme sanitar (alin. 6), noul art. 13¹ acordă dreptul de vânzare „în orice loc”, inclusiv în parcări private (supermarketuri, mall-uri, parcări comerciale), fără acordul proprietarului și fără ca primăriile să poată interzice general vânzarea în parcări. Mai mult, pragul de 100.000 euro depășește cu mult agricultura de subzistență, iar textul trimite la „certificatul de producător”, document abrogat și înlocuit în 2014.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "Proprietari & Imobiliare",
@@ -40,89 +69,86 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 13¹ alin. (1) permite comercializarea „în orice loc, inclusiv în parcări publice sau private deschise spre accesul public”, fără a condiționa accesul în parcările private (ale magazinelor, centrelor comerciale sau ansamblurilor rezidențiale) de acordul proprietarului, încălcând flagrant Art. 44 din Constituție.",
-        "Art. 13¹ alin. (1) condiționează vânzarea de „pe baza certificatul [sic!] de producător valabil”, deși chiar Legea nr. 145/2014 pe care o modifică a abrogat certificatul de producător acum 12 ani, înlocuindu-l cu „atestatul de producător” și „carnetul de comercializare”.",
-        "Criteriul „cifrei de afaceri anuale realizate în ultimul exercițiu financiar până la 100.000 euro” (Art. 13¹ alin. 1) este imposibil de verificat pe teren: persoanele fizice care vând în baza Legii 145/2014 sunt impozitate la normă de venit (sau sunt neimpozabile sub anumite plafoane), nu țin contabilitate în partidă dublă și nu au „cifră de afaceri” sau „exercițiu financiar”."
+        "Art. 13¹ alin. (1) instituie dreptul de comercializare „în orice loc, inclusiv în parcări publice sau private deschise spre accesul public”, fără a cere consimțământul proprietarului parcării private și fără compensații, creând o sarcină forțată asupra proprietății private.",
+        "Incoerență tehnică severă la art. 13¹ alin. (1): textul cere „certificatul de producător” (act desființat prin chiar Legea nr. 145/2014, care operează cu „atestat de producător” și „carnet de comercializare”) și combină acest document cu „cifra de afaceri anuală realizată în ultimul exercițiu financiar”, noțiune contabilă inexistentă pentru persoanele fizice cu atestat.",
+        "Art. 13¹ alin. (3) interzice autorităților locale să oprească în mod general vânzarea în parcări, permițând doar „măsuri rezonabile” nedefinite, ceea ce afectează gestiunea domeniului public, locurile de parcare și siguranța rutieră.",
+        "Pragul de 100.000 euro/an (actualizat anual la cursul BNR, art. 13¹ alin. 2) acoperă ferme comerciale consistente, nu doar gospodării de subzistență, lipsind orice mecanism prin care organele de control să verifice pe loc încadrarea în plafon."
       ],
-      "blindSpotsCaught": "Inițiatorii au confundat regimul circulației rutiere pe drumurile/parcările private deschise circulației publice (OUG 195/2002, unde poliția rutieră poate aplica reguli de trafic) cu dreptul de folosință comercială a proprietății private. Faptul că o parcare privată este deschisă accesului public pentru clienți nu o transformă în domeniu public disponibil gratuit pentru comerț ambulant fără acordul proprietarului.",
-      "constitutionalityNote": "Propunerea încalcă Art. 44 alin. (1)-(2) (garantarea și ocrotirea proprietății private) și Art. 45 (libertatea economică) prin impunerea desfășurării de activități comerciale pe terenuri private fără acordul titularului dreptului de proprietate și fără o justă și prealabilă despăgubire. De asemenea, încalcă Art. 1 alin. (5) (calitatea și previzibilitatea legii) prin trimiterea la acte abrogate („certificatul de producător”), erori gramaticale în textul normativ și confuzia între regimul persoanelor fizice și cel al persoanelor juridice („cifră de afaceri”). Totodată, sintagma „în orice loc” intră în coliziune cu Art. 120-121 privind autonomia locală în administrarea domeniului public.",
-      "euLawNote": "Deși încurajarea lanțurilor scurte de aprovizionare este promovată de Politica Agricolă Comună, instituirea unei excepții generale de la regulile de urbanism și comerț exclusiv după un plafon valoric și fără criterii clare de autorizare pe domeniul public sau privat creează distorsiuni concurențiale față de micii comercianți autorizați care plătesc chirii și taxe de ocupare a domeniului public. Nu cade sub incidența Directivei (UE) 2015/1535 (TRIS).",
+      "blindSpotsCaught": "Capcana juridică ascunsă în art. 13¹ alin. (1) este incompatibilitatea structurală dintre cele două condiții cumulative: persoanele fizice deținătoare de atestat de producător nu au exercițiu financiar și cifră de afaceri în sens contabil, iar PFA/II/IF sau SRL-urile (care au cifră de afaceri) nu primesc atestat de producător, ci funcționează în baza adeverinței de la primărie (art. 13 alin. 1 și 4). În plus, sintagma „produse agricole și alimentare” extinde vânzarea în parcări la alimente procesate/perisabile (lactate, carne), intrând în coliziune cu art. 13 alin. (6) din lege și cu normele sanitar-veterinare.",
+      "constitutionalityNote": "Risc major de neconstituționalitate din trei direcții: (1) Art. 44 (dreptul de proprietate privată) și art. 45 (libertatea economică) coroborate cu art. 53, întrucât obligarea proprietarilor de parcări private accesibile publicului să tolereze activități comerciale ale terților fără acord și fără despăgubire reprezintă o ingerință disproporționată; (2) Art. 1 alin. (5) privind calitatea și previzibilitatea legii, din cauza trimiterii la un document inexistent („certificatul de producător”, inclusiv cu eroare gramaticală „pe baza certificatul”), lipsei definiției „microproducătorului agricol”, expresiei vagi „în orice loc” și lipsei procedurii de verificare a pragului de 100.000 euro; (3) Art. 120–121 și art. 136 privind autonomia locală și administrarea domeniului public al UAT-urilor.",
+      "euLawNote": "Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și Directiva (UE) 2015/1535 (TRIS, pentru reglementări tehnice/servicii digitale) nu sunt aplicabile direct. În schimb, măsura ridică probleme din perspectiva art. 16 (libertatea de a desfășura o activitate comercială) și art. 17 (dreptul de proprietate) din Carta Drepturilor Fundamentale a UE, poate genera distorsiuni de concurență față de comercianții din piețe și retaileri și creează tensiuni cu pachetul european de igienă alimentară (Regulamentele CE nr. 852/2004 și nr. 853/2004), unde derogările naționale vizează exclusiv „cantități mici” de produse primare, nu comercializarea de produse alimentare până la un plafon de 100.000 euro în parcări.",
       "senatForm": {
-        "articleRef": "Articol unic (noul Art. 13^1 alin. (1) și (3))",
-        "proposalContent": "La Art. 13^1 alin. (1), înlocuirea sintagmei „certificatul de producător” cu „atestatul de producător și carnetul de comercializare”, înlocuirea „cifră de afaceri” cu „venituri anuale” și condiționarea vânzării în parcări private de acordul expres al proprietarului, iar în spații publice de avizul autorității locale pentru zonele delimitate.",
-        "argumentation": "Textul încalcă art. 44 din Constituție permițând comerțul în parcări private (ex. supermarketuri, reședințe) fără acordul proprietarului. De asemenea, încalcă art. 1 alin. (5) din Constituție: „certificatul de producător” a fost abrogat chiar prin Legea 145/2014 (înlocuit cu atestatul), iar persoanele fizice nu au contabil „cifră de afaceri” verificabilă pe loc.",
-        "otherComments": "Sprijinirea micilor fermieri este legitimă, însă sintagma „în orice loc” anulează regimul domeniului public (OUG 57/2019) și normele de comerț stradal (OG 99/2000). Soluția constituțională este obligarea primăriilor să amenajeze gratuit locuri de vânzare în proximitatea parcărilor publice și încurajarea parteneriatelor voluntare cu proprietarii de parcări private."
+        "articleRef": "Articol unic – art. 13¹ din Legea nr. 145/2014",
+        "proposalContent": "Eliminarea sintagmei „în orice loc” și condiționarea vânzării în parcări private de acordul scris al proprietarului, iar în cele publice de zonele stabilite de UAT. Înlocuirea „certificatului de producător” cu atestatul de producător și carnetul de comercializare și definirea „microproducătorului” și a dovezii pragului de cifră de afaceri.",
+        "argumentation": "Dreptul de a vinde în parcări private fără acordul proprietarului încalcă art. 44 (proprietatea privată) și art. 45 din Constituție. Textul încalcă și art. 1 alin. (5) privind claritatea legii: Legea 145/2014 nu prevede „certificat de producător”, ci atestat și carnet, iar persoanele fizice cu atestat nu au „cifră de afaceri” în sens contabil.",
+        "otherComments": "Pragul de 100.000 euro depășește sfera subzistenței și creează concurență neloială față de comercianții din piețe. Interdicția ca UAT-urile să restricționeze vânzarea în parcări afectează autonomia locală (art. 120) și siguranța rutieră. Susținerea micilor fermieri necesită piețe volante organizate legal, nu vânzare necontrolată „în orice loc”."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 128830,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Micii producători ar putea vinde din producția proprie oriunde, inclusiv în parcări",
-      "verdictShort": "Ideea e utilă și liberalizează vânzarea directă, dar textul e scris neglijent. Trimite la un document care nu mai există sub acest nume, pune un prag de cifră de afaceri care nu poate fi verificat la persoane fizice și nu cere acordul proprietarului parcării private. Risc moderat, care se poate repara în comisie.",
-      "initiatorClaim": "Inițiatorii spun că primăriile interzic sau restrâng excesiv vânzarea directă făcută de micii producători. Vor să le garanteze prin lege dreptul de a-și vinde produsele oriunde, inclusiv în parcări, pentru venituri mai mari și produse locale mai accesibile.",
-      "realityCheck": "Articolul unic introduce art. 13¹: producătorii cu o cifră de afaceri de până la 100.000 euro pot vinde produsele proprii „în orice loc”, inclusiv în parcări publice sau private deschise publicului. Primăriile pot doar organiza vânzarea în parcări, nu o pot interzice în general. Normele sanitare, fiscale și de protecția consumatorului rămân aplicabile (alin. 3–4). Problemele textului: „microproducătorul” nu e definit, trimiterea e la „certificatul de producător” (înlocuit de atestat și carnet), pragul nu se potrivește persoanelor fizice, iar acordul proprietarului parcării private și taxele pentru folosirea domeniului public nu sunt menționate.",
-      "affectedGroups": [
-        "Agricultură & Mediu",
-        "IMM & Antreprenori",
-        "Proprietari & Imobiliare",
-        "Șoferi & Auto"
-      ],
-      "keyFindings": [
-        "Art. 13¹ alin. (1) cere „certificatul de producător”, dar Legea nr. 145/2014 a înlocuit certificatul cu atestatul de producător și carnetul de comercializare. Nu e clar dacă ajunge atestatul fără carnet, deși carnetul este documentul care urmărește proveniența mărfii vândute.",
-        "Alin. (1): termenul „microproducător agricol” nu e definit nicăieri. Pragul („cifră de afaceri... în ultimul exercițiu financiar”) e preluat din regimul firmelor, iar persoanele fizice cu atestat nu au, de regulă, exercițiu financiar contabil, deci condiția nu poate fi verificată la un control. Un prag de circa jumătate de milion de lei pe an nu are nimic „micro” pentru o gospodărie.",
-        "Alin. (1): formula „în orice loc, inclusiv în parcări... private deschise spre accesul public” nu menționează acordul proprietarului. Textul ar putea fi invocat pentru vânzare în parcarea unui supermarket fără acord, ceea ce intră în conflict cu dreptul de proprietate (art. 44 din Constituție, Codul civil).",
-        "Alin. (3) le permite primăriilor doar „măsuri rezonabile” și le interzice interdicțiile generale în parcări, așa că hotărârile locale existente devin contestabile. Lipsesc însă criteriile, un termen de armonizare și precizarea raportului cu autorizarea comerțului în spații publice (OG nr. 99/2000) și cu taxele locale pentru folosirea locurilor publice.",
-        "Alin. (4) păstrează corect obligațiile fiscale și controalele sanitar-veterinare și de protecția consumatorului. Legea nu creează taxe, sancțiuni sau costuri noi pentru producători, ci înlătură o barieră."
-      ],
-      "blindSpotsCaught": "Alin. (3) apără de interdicții generale doar vânzarea în parcări, deși alin. (1) promite „orice loc”. O primărie ar putea interzice în continuare, în general, vânzarea pe trotuare sau în alte spații, deci textul se contrazice. La un control în parcare singurul document disponibil e atestatul, care nu arată cifra de afaceri, așa că pragul de 100.000 euro, calchiat după regimul microîntreprinderilor, nu are cum să fie aplicat. Alin. (4) numește greșit autoritatea: „Autoritatea pentru Protecția Consumatorilor”, în loc de Autoritatea Națională pentru Protecția Consumatorilor. Textul are și o greșeală gramaticală: „pe baza certificatul”.",
-      "constitutionalityNote": "Scopul (libertatea economică, art. 45, și libertatea comerțului, art. 135 alin. (2) lit. a) e legitim. Parlamentul poate stabili prin lege limitele competențelor autorităților locale (art. 120–121), deci interzicerea interdicțiilor generale nu e în sine neconstituțională. Riscul principal ține de art. 1 alin. (5), adică de claritatea și previzibilitatea legii: termenul nu e definit, documentul invocat nu mai există sub acest nume, condiția de cifră de afaceri nu se aplică persoanelor fizice, iar „orice loc” și „măsuri rezonabile” nu au criterii. Lipsa acordului proprietarului pentru parcările private poate fi citită ca o ingerință în dreptul de proprietate (art. 44); o precizare expresă înlătură problema. Egalitatea (art. 16) nu e atinsă serios, pentru că vânzarea propriei producții justifică un regim diferit față de comercianți.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă nu e vorba de o profesie reglementată. TRIS (2015/1535) nu e relevantă: textul nu conține reguli tehnice pentru produse și nu privește servicii ale societății informaționale. Măsura relaxează condițiile pentru comerțul cu amănuntul, ceea ce e compatibil cu Directiva 2006/123 privind serviciile. Igiena alimentară rămâne sub Reg. (CE) nr. 852/2004 și 853/2004. Vânzarea directă de cantități mici de produse primare e lăsată normelor naționale, pe care alin. (3) le păstrează. Dreptul e legat de atestatul românesc și poate dezavantaja producătorii din alte state membre care vând în România, dar impactul practic e mic.",
-      "senatForm": {
-        "articleRef": "Art. unic, art. 13¹ alin. (1)",
-        "proposalContent": "Alin. (1) se reformulează: „Producătorii agricoli care dețin atestat de producător și carnet de comercializare valabile, emise potrivit prezentei legi, pot comercializa produsele din propria producție în spații publice, inclusiv parcări, iar în spațiile private deschise publicului, cu acordul proprietarului.” Alin. (2) se elimină.",
-        "argumentation": "Legea nr. 145/2014 folosește atestatul de producător și carnetul de comercializare, nu „certificatul”, iar „microproducătorul” nu e definit. Persoanele fizice cu atestat nu au de regulă cifră de afaceri sau exercițiu financiar, deci pragul nu poate fi verificat. „Orice loc” fără acordul proprietarului afectează art. 44 din Constituție.",
-        "otherComments": "Recomandăm precizarea raportului cu autorizarea comerțului în spații publice (OG nr. 99/2000) și cu taxele pentru folosirea locurilor publice, definirea „măsurilor rezonabile” ale primăriilor (de ex. zone și orare) și un termen pentru armonizarea hotărârilor locale. Cerința carnetului limitează revânzarea prin intermediari."
-      },
-      "status": "ok"
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 98819,
-      "riskScore": 5,
+      "durationMs": 86877,
+      "sourceEndMarker": "SF-B7C06BB2",
+      "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Vânzarea produselor proprii în parcări, cu reguli neclare",
-      "verdictShort": "Facilitarea vânzării directe este utilă, iar propunerea nu introduce taxe sau sancțiuni noi. Totuși, formula «în orice loc» și condițiile neclare de acces pot genera conflicte cu proprietarii, autoritățile locale și ceilalți comercianți.",
-      "initiatorClaim": "Inițiatorii urmăresc să elimine restricțiile locale nejustificate care împiedică micii producători să își vândă produsele direct consumatorilor. Ei anticipează venituri mai mari pentru producători, prețuri accesibile și costuri administrative minime.",
-      "realityCheck": "Art. 13¹ permite comercializarea produselor proprii pentru producătorii aflați sub plafonul anual de 100.000 euro și limitează posibilitatea interdicțiilor locale generale în parcări. Nu precizează însă acordul proprietarului, titlul pentru ocuparea spațiului, documentele de verificare a plafonului sau situația producătorilor nou-înființați. Obligațiile sanitare și fiscale rămân aplicabile; prețurile mai mici și absența costurilor publice sunt rezultate anticipate, nedemonstrate în documentele furnizate.",
+      "plainTitle": "Vânzarea produselor proprii în parcări",
+      "verdictShort": "Proiectul facilitează util accesul micilor producători la cumpărători și păstrează cerințele sanitare și fiscale. Riscul principal este formularea excesiv de largă a dreptului de vânzare, insuficient corelată cu proprietatea asupra spațiilor și cu regulile de ocupare a acestora.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea restricțiilor locale nejustificate și facilitarea vânzării directe a produselor proprii, inclusiv în parcări. Ei estimează beneficii economice și sociale fără cheltuieli bugetare suplimentare.",
+      "realityCheck": "Articolul nou permite beneficiarilor aflați sub plafonul de 100.000 euro să comercializeze producția proprie „în orice loc” și limitează posibilitatea autorităților locale de a interzice general vânzarea în parcări. Nu introduce scutiri fiscale sau sanitare și nu elimină expres documentele ori drepturile proprietarilor prevăzute de legislația existentă, însă relația cu acestea rămâne insuficient clarificată. Statutul beneficiarilor, verificarea plafonului și accesul celor fără un exercițiu financiar încheiat necesită precizări.",
       "affectedGroups": [
-        "IMM & Antreprenori",
-        "Contabili & Fiscalitate",
-        "Șoferi & Auto",
-        "Proprietari & Imobiliare",
         "Agricultură & Mediu",
-        "Toți cetățenii"
+        "IMM & Antreprenori",
+        "Proprietari & Imobiliare",
+        "Șoferi & Auto",
+        "Contabili & Fiscalitate"
       ],
       "keyFindings": [
-        "Art. 13¹ alin. (1): accesul publicului într-o parcare privată nu echivalează cu acordul proprietarului pentru desfășurarea comerțului. Formula «în orice loc» trebuie delimitată expres.",
-        "Art. 13¹ alin. (1): «microproducătorul agricol» nu este definit în propunere. Referirea la cifra de afaceri și ultimul exercițiu financiar nu explică verificarea gospodăriilor fără situații financiare anuale sau eligibilitatea debutanților.",
-        "Art. 13¹ alin. (1): «certificatul de producător» trebuie corelat cu atestatul de producător și carnetul de comercializare din Legea nr. 145/2014. Nu rezultă clar dacă noul articol păstrează integral cerințele documentare existente.",
-        "Art. 13¹ alin. (2): conversia anuală la cursul BNR stabilește echivalentul în lei; nu indexează plafonul de 100.000 euro cu inflația.",
-        "Art. 13¹ alin. (3): autoritățile locale păstrează competențe de organizare și siguranță, dar «măsuri rezonabile» și «interzicere în mod general» nu oferă criterii suficiente pentru parcările unde comerțul ar bloca circulația sau accesul de urgență.",
-        "Art. 13¹ alin. (4): nu introduce scutiri fiscale și nu elimină controalele aplicabile. Verificarea plafonului, gestionarea deșeurilor și organizarea parcărilor pot produce costuri administrative, chiar fără obligații bugetare cuantificate expres."
+        "Art. 13 existent rezervă minimum 40% din spațiile de comercializare producătorilor, în condițiile legii. Proiectul păstrează această regulă și adaugă, prin art. 13¹, posibilitatea vânzării în afara acestor structuri pentru categoria definită prin plafon.",
+        "Art. 13¹ alin. (1): accesul public într-o parcare privată nu echivalează cu acordul proprietarului pentru ocuparea comercială. Textul nu înlătură expres acest acord, dar formula „în orice loc” poate genera interpretări conflictuale privind proprietatea și administrarea domeniului public.",
+        "Art. 13¹ alin. (1): proiectul folosește „certificatul de producător”, în timp ce art. 13 existent se referă la atestat de producător, carnet de comercializare și documente distincte pentru PFA, întreprinderi individuale sau familiale. Nu rezultă clar ce document permite exercitarea noului drept și nici dacă se intenționează o derogare.",
+        "Art. 13¹ alin. (1)–(2): cursul BNR face calculabil plafonul, dar proiectul nu precizează formele juridice eligibile, întinderea cifrei de afaceri relevante, dovada acesteia ori tratamentul producătorilor nou-înființați. Gospodăriile fără evidență contabilă comparabilă pot întâmpina dificultăți de acces.",
+        "Art. 13¹ alin. (3): autoritățile locale păstrează posibilitatea măsurilor rezonabile de organizare și siguranță, dar pierd posibilitatea unei interdicții generale pentru beneficiarii articolului. Sunt necesare criterii pentru restricțiile justificate de configurația și utilizarea concretă a parcărilor.",
+        "Art. 13¹ alin. (3)–(4) menține normele sanitare, protecția consumatorilor și obligațiile fiscale aplicabile. Proiectul nu introduce taxe sau sancțiuni noi și nu cuprinde abrogări, dispoziții tranzitorii ori alte modificări ascunse la final.",
+        "Expunerea afirmă un impact bugetar neutru, fără o cuantificare verificabilă în materialul furnizat. Organizarea amplasamentelor, verificarea eligibilității, curățenia și controlul pot implica resurse locale; acestea sunt costuri posibile, nu cheltuieli suplimentare certe instituite expres."
       ],
-      "blindSpotsCaught": "Directiva 2018/958 nu instituie un test general pentru orice avantaj concurențial: privește reglementarea profesiilor. În schimb, analiza TRIS nu poate fi închisă doar pentru că proiectul nu privește servicii digitale sau AI: Directiva 2015/1535 acoperă și anumite reglementări tehnice privind produse, inclusiv agricole. Separat, plafonul financiar nu transformă automat beneficiarul într-o microîntreprindere fiscală.",
-      "constitutionalityNote": "Principalul risc privește art. 1 alin. (5): beneficiarii, documentele, plafonul și raportul cu celelalte autorizări trebuie să fie previzibile. Art. 44 impune protejarea proprietății; textul nu poate fi tratat automat ca acordând acces comercial obligatoriu pe teren privat. Autonomia locală, protejată de art. 120-121, se exercită în condițiile legii, astfel că limitarea interdicțiilor locale nu este prin ea însăși neconstituțională, dar trebuie să permită protecția efectivă a circulației și administrarea patrimoniului. Diferențierea prin plafon trebuie justificată obiectiv în raport cu art. 16 și libertatea economică din art. 45. Art. 23 alin. (12) privește legalitatea pedepselor; proiectul nu instituie pedepse noi. Nu rezultă automat o încălcare a art. 138 alin. (5), însă afirmația lipsei impactului bugetar necesită susținere.",
-      "euLawNote": "Directiva (UE) 2018/958 nu este direct incidentă în lipsa unor cerințe privind accesul la o profesie reglementată sau exercitarea acesteia. Propunerea nu reglementează servicii digitale ori AI; pentru Directiva (UE) 2015/1535 trebuie verificat separat dacă instituie o reglementare tehnică obligatorie privind produsele sau comercializarea lor, obligația de notificare TRIS nefiind demonstrată doar prin textul furnizat. Avantajul acordat producătorilor sub plafon nu constituie automat ajutor de stat: ar trebui identificate inclusiv resurse de stat și celelalte condiții legale. Pragul și diferențele de acces față de alți comercianți necesită justificare proporțională; textul nu prevede expres discriminare pe criteriul naționalității. Normele UE aplicabile siguranței alimentelor, igienei și trasabilității rămân obligatorii.",
+      "blindSpotsCaught": "Plafonul economic de 100.000 euro nu echivalează automat cu „cantități mici” în sensul excepțiilor sanitare europene și nici cu statutul fiscal de microîntreprindere. De asemenea, afirmațiile din expunere despre lipsa necesității armonizării legislative nu rezolvă raportul dintre noul drept și regimul proprietății sau al documentelor de comercializare. Dosarul Senatului și legislația externă nu au putut fi verificate online; evaluarea se bazează pe documentele furnizate.",
+      "constitutionalityNote": "Principala vulnerabilitate privește art. 1 alin. (5) din Constituție: beneficiarii, documentele și condițiile folosirii spațiilor trebuie să fie suficient de clare și previzibile. Art. 44 și art. 136 impun respectarea proprietății private și a regimului proprietății publice; proiectul nu trebuie interpretat ca acordând automat folosința unui spațiu. Limitarea competenței locale trebuie examinată și prin art. 120–121, fără ca autonomia locală să împiedice stabilirea unor reguli naționale. Diferențierea prin plafon trebuie justificată obiectiv, potrivit art. 16. Art. 23 alin. (12) nu reprezintă problema centrală, deoarece proiectul nu stabilește pedepse. Există riscuri de interpretare, nu o neconstituționalitate certă demonstrată numai prin text.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testul de proporționalitate pentru reglementarea profesiilor; simpla reglementare a vânzării produselor agricole nu declanșează automat acest mecanism. Facilitarea accesului poate stimula concurența, însă pragul și criteriile de eligibilitate trebuie justificate și aplicate nediscriminatoriu. Directiva (UE) 2015/1535 nu privește exclusiv serviciile digitale, ci și anumite reglementări tehnice pentru produse; textul furnizat nu evidențiază o obligație clară de notificare TRIS și nu reglementează servicii digitale sau AI. Normele europene de igienă alimentară, inclusiv Regulamentele nr. 852/2004 și nr. 853/2004, rămân aplicabile potrivit propriului domeniu și propriilor excepții; plafonul financiar nu creează o derogare de la acestea.",
       "senatForm": {
-        "articleRef": "Articol unic – art. 13¹ alin. (1)-(4)",
-        "proposalContent": "Definiți microproducătorul, veniturile incluse în plafon, dovada acestora și regimul debutanților. Folosiți «atestat de producător» și precizați regimul carnetului de comercializare. Condiționați ocuparea spațiului de acordul proprietarului sau de un titlu legal și de respectarea destinației parcării.",
-        "argumentation": "Formula «în orice loc» nu clarifică raportul cu proprietatea și administrarea parcărilor. Ambiguitățile privind beneficiarii și documentele afectează previzibilitatea cerută de art. 1 alin. (5) din Constituție. Stabiliți criterii pentru restricții locale motivate de siguranță și acces de urgență, cu respectarea art. 44.",
-        "otherComments": "Analiza se bazează pe documentele furnizate; verificarea externă a dosarului și a legislației consolidate nu a fost disponibilă. Fundamentați pragul de 100.000 euro și estimați costurile de control, salubritate și ocupare a parcărilor, inclusiv efectele asupra veniturilor locale."
+        "articleRef": "Articol unic – art. 13¹ alin. (1)–(4)",
+        "proposalContent": "Precizați că vânzarea necesită acordul proprietarului sau al titularului dreptului de folosință și respectarea regimului legal de ocupare a spațiului. Definiți beneficiarii și documentele aplicabile, în corelare cu atestatul de producător și carnetul de comercializare. Stabiliți criterii pentru restricțiile locale justificate.",
+        "argumentation": "Accesul public într-o parcare privată nu conferă drept de ocupare comercială. Formula „în orice loc” trebuie corelată cu proprietatea și administrarea domeniului public. Clarificarea previne conflictele și aplicarea neunitară, păstrând obiectivul facilitării accesului producătorilor la piață.",
+        "otherComments": "Clarificați veniturile incluse în plafon, documentele de verificare și accesul producătorilor fără exercițiu financiar încheiat. Fundamentați costurile locale de organizare și control. Plafonul de 100.000 euro nu înlocuiește condițiile sanitare și nu instituie scutiri fiscale."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-12T15:12:27.263Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T12:04:40.387Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

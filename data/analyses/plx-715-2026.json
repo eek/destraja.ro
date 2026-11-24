@@ -1,14 +1,42 @@
 {
   "billId": "Pl-x 715/2026",
   "slug": "plx-715-2026",
-  "updatedAt": "2026-10-28T19:33:15.273Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T12:23:10.430Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1426,
+    "ordinanceChars": 0,
+    "memoChars": 16859,
+    "memoSupplied": 16859,
+    "marker": "SF-EF621A0E"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-715-2026.json",
+    "form": "initiator",
+    "textHash": "ef621a0e577b4f81",
+    "fetchedAt": "2026-11-19T11:19:57.521Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 1,
+    "chars": 10239,
+    "truncated": false,
+    "included": true,
+    "key": "02048ec2d1e12642"
+  },
   "consensus": {
-    "riskScore": 4,
+    "riskScore": 5,
     "riskLevel": "yellow",
-    "plainTitle": "TVA de 9%, permanent, la locuințele noi de până la 750.000 lei și 120 mp",
-    "summaryTlDr": "Este o măsură utilă pentru cumpărători, dar textul e scris mai larg decât promite: dă 9% la orice locuință nouă aflată sub plafoane, nu doar la prima locuință a cumpărătorului. Costul bugetar permanent nu este cuantificat. Poate fi susținută cu amendamente anti-abuz.",
-    "initiatorClaim": "Inițiatorii (AUR) vor să readucă permanent cota redusă de TVA de 9% pentru prima locuință. Legea 141/2025 a eliminat-o și a urcat cota standard la 21%, iar ei vor ca tinerii și familiile să-și poată permite un cămin.",
-    "realityCheck": "Art. I introduce alin. (2¹) la art. 291 din Codul fiscal. Cota de 9% se aplică la „prima livrare” a oricărei locuințe cu maximum 120 mp utili și maximum 750.000 lei fără TVA (cu tot cu terenul), cumpărată de persoane fizice. „Prima livrare” înseamnă prima vânzare a clădirii noi, nu prima locuință a cumpărătorului. Textul nu limitează numărul de locuințe, nu cere ca cumpărătorul să nu mai dețină o casă și nu cere folosință proprie, așa că beneficiază și investitorii persoane fizice. Efectul începe abia la 6 luni de la publicare, iar o parte din reducere poate fi absorbită de dezvoltatori prin prețuri.",
+    "plainTitle": "TVA de 9% la locuințe noi de până la 750.000 lei, dar fără limita la o singură casă",
+    "summaryTlDr": "Scopul este legitim (reducerea TVA de la 21% la 9% pentru locuințe accesibile), însă redactarea lasă o portiță majoră pentru achiziții speculative multiple și comandă renumerotarea întregului Cod fiscal pentru un singur alineat.",
+    "initiatorClaim": "Inițiatorii susțin că reintroduc permanent cota redusă de TVA de 9% exclusiv pentru cumpărarea primei locuințe (până la 120 mp și 750.000 lei fără TVA), după ce Legea nr. 141/2025 a eliminat facilitatea și a urcat TVA standard la 21%.",
+    "realityCheck": "În textul efectiv al Art. I (alin. 2¹), cota de 9% se acordă pentru «prima livrare de locuințe» (prima vânzare de la dezvoltator), fără nicio limitare la o singură locuință per persoană fizică și fără obligația ca imobilul să poată fi locuit ca atare. Mai mult, proiectul nu reintroduce temeiul legal al Registrului verificat de notari (alin. 3⁶ și 3⁷ rămân abrogate), iar Art. II dispune republicarea și renumerotarea întregului Cod fiscal, riscând un haos administrativ și contabil.",
     "affectedGroups": [
       "Proprietari & Imobiliare",
       "Contabili & Fiscalitate",
@@ -16,23 +44,24 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I – art. 291 alin. (2¹) Cod fiscal",
-      "proposalContent": "La final se adaugă: „Cota se aplică pentru o singură locuință pe persoană fizică, dacă la data livrării cumpărătorul nu deține în proprietate exclusivă altă locuință. Condiția se atestă prin declarație pe propria răspundere autentificată la notar.” Sintagma „prima livrare de locuințe” devine „livrarea de locuințe”.",
-      "argumentation": "Expunerea de motive promite sprijin pentru prima locuință și exclude achizițiile speculative, dar textul nu limitează numărul de locuințe și nu cere ca cumpărătorul să nu mai dețină una: un investitor poate cumpăra oricâte apartamente cu 9%. Amendamentul aliniază textul la scop, reduce costul bugetar și întărește încadrarea în „politica socială” din Directiva TVA.",
-      "otherComments": "Art. III: intrarea în vigoare la 6 luni de la publicare prelungește golul apărut după 31.07.2026 și poate îngheța vânzările cât cumpărătorii așteaptă cota de 9%. Comisia ar trebui să ceară o estimare a pierderii de venituri (Legea 500/2002, art. 15) și să fixeze un termen pentru actualizarea normelor (HG 1/2016)."
+      "articleRef": "Art. I (art. 291 alin. 2¹) și Art. II",
+      "proposalContent": "La Art. I, completați alin. (2¹) cu limita de o singură locuință per persoană fizică, condiția de a putea fi locuită ca atare la livrare și reintroducerea temeiului Registrului notarial/ANAF (fostele alin. 3⁶-3⁷). Eliminați Art. II (renumerotarea Codului fiscal) și aliniați la 9% și art. 291 alin. (2) lit. l).",
+      "argumentation": "Formula «prima livrare de locuințe» fără plafon pe cumpărător permite achiziții speculative multiple la 9% TVA, contrar Expunerii de Motive și Anexei III din Directiva TVA 2006/112/CE. Fără temeiul Registrului, notarii nu pot verifica condiția, iar renumerotarea Codului fiscal ar bulversa legislația și contabilitatea.",
+      "otherComments": "Solicitați Guvernului fișa financiară cu impactul bugetar concret (art. 111 alin. 1 Constituție) și introduceți norme tranzitorii clare pentru avansurile facturate cu 21% TVA înainte de intrarea în vigoare, dar cu livrare ulterioară. Nu lăsați căminele de bătrâni și casele de copii la 11% TVA în timp ce apartamentele scad la 9%."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 50214,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Reintroducerea TVA redus de 9% pentru cumpărarea unei locuințe de până la 750.000 lei",
-      "verdictShort": "Măsură fiscală pozitivă care reduce taxele pentru cetățenii ce cumpără o locuință nouă sub 120 mp și 750.000 lei (fără TVA), dar redactată incomplet. Textul confundă „prima livrare” a imobilului cu „o singură locuință” per cumpărător și omite mecanismul de verificare notarială.",
-      "initiatorClaim": "Inițiatorii vor să reintroducă permanent cota redusă de TVA de 9% pentru achiziția primei locuințe de către persoane fizice (eliminată prin Legea nr. 141/2025), crescând totodată plafonul valoric de la 600.000 lei la 750.000 lei (fără TVA) pentru locuințe de maximum 120 mp utili.",
-      "realityCheck": "Intenția de reducere a poverii fiscale este benefică, însă textul propus la art. 291 alin. (2¹) folosește expresia „prima livrare de locuințe”, care în limbajul TVA înseamnă prima vânzare a unei construcții noi, nu limitarea la o singură achiziție cu TVA redus pe parcursul vieții cumpărătorului. În plus, proiectul omite condiția ca locuința să poată fi locuită ca atare la momentul predării, definițiile legale pentru suprafața utilă/anexe și trimiterea la Registrul notarial al achizițiilor de locuințe.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 88854,
+      "sourceEndMarker": "SF-EF621A0E",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "TVA de 9% la locuințe noi de până la 750.000 lei, dar fără limita la o singură casă",
+      "verdictShort": "Scopul este legitim (reducerea TVA de la 21% la 9% pentru locuințe accesibile), însă redactarea lasă o portiță majoră pentru achiziții speculative multiple și comandă renumerotarea întregului Cod fiscal pentru un singur alineat.",
+      "initiatorClaim": "Inițiatorii susțin că reintroduc permanent cota redusă de TVA de 9% exclusiv pentru cumpărarea primei locuințe (până la 120 mp și 750.000 lei fără TVA), după ce Legea nr. 141/2025 a eliminat facilitatea și a urcat TVA standard la 21%.",
+      "realityCheck": "În textul efectiv al Art. I (alin. 2¹), cota de 9% se acordă pentru «prima livrare de locuințe» (prima vânzare de la dezvoltator), fără nicio limitare la o singură locuință per persoană fizică și fără obligația ca imobilul să poată fi locuit ca atare. Mai mult, proiectul nu reintroduce temeiul legal al Registrului verificat de notari (alin. 3⁶ și 3⁷ rămân abrogate), iar Art. II dispune republicarea și renumerotarea întregului Cod fiscal, riscând un haos administrativ și contabil.",
       "affectedGroups": [
         "Proprietari & Imobiliare",
         "Contabili & Fiscalitate",
@@ -40,85 +69,84 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I (art. 291 alin. 2¹ Cod fiscal): Reintroduce cota de TVA de 9% pentru locuințe de maximum 120 mp utili și valoare de cel mult 750.000 lei (exclusiv TVA, inclusiv terenul), achiziționate de persoane fizice individual sau în comun.",
-        "Deficiență de tehnică legislativă la Art. I: Sintagma „prima livrare de locuințe” nu limitează juridic numărul de locuințe pe care o persoană fizică le poate cumpăra cu TVA 9%, întrucât lipsește interdicția expresă de a beneficia de facilitate mai mult de o singură dată și raportarea la Registrul achizițiilor de locuințe ținut de notarii publici.",
-        "Art. III respectă principiul predictibilității fiscale (art. 4 din Codul fiscal), prevăzând intrarea în vigoare la 6 luni de la publicarea în Monitorul Oficial, dar Expunerea de motive este trunchiată la secțiunea impactului bugetar și nu este însoțită de calcule financiare."
+        "Art. I (alin. 2¹) folosește sintagma «prima livrare de locuințe», nu limita de o singură locuință per cumpărător: o persoană fizică ar putea cumpăra oricâte apartamente noi sub 750.000 lei cu TVA de 9% în scop investițional, contrazicând Expunerea de Motive.",
+        "Art. I omite garanțiile abrogate anterior din art. 291: lipsește condiția ca locuința să poată fi locuită ca atare la livrare, definirea suprafeței utile și baza legală pentru Registrul achizițiilor de locuințe cu cotă redusă (alin. 3⁶ și 3⁷ din Codul fiscal sunt abrogate).",
+        "Anomalie de politică socială la art. 291: căminele de bătrâni, casele de copii și centrele pentru minori cu handicap de la alin. (2) lit. l) rămân taxate cu 11% TVA, în timp ce locuințele private de până la 750.000 lei ar plăti doar 9%.",
+        "Art. II dispune republicarea Legii nr. 227/2015 privind Codul fiscal «dându-se textelor o nouă numerotare» pentru un singur alineat nou, ceea ce ar invalida mii de trimiteri din legi, norme metodologice, ordine ANAF și sisteme informatice contabile."
       ],
-      "blindSpotsCaught": "Proiectul omite condiția esențială din reglementările anterioare ca locuințele „în momentul livrării să poată fi locuite ca atare” (dotate cu finisaje și utilități), ceea ce ar redeschide portița vânzării de apartamente „la gri/roșu” cu TVA redus, precum și trimiterile la Legea nr. 114/1996 (pentru definirea suprafeței utile) și Legea nr. 50/1991 (pentru anexele gospodărești).",
-      "constitutionalityNote": "Sub aspectul calității legii (art. 1 alin. 5 din Constituție), confuzia terminologică dintre „prima livrare” a bunului imobil și „prima achiziție” a persoanei fizice creează imprevizibilitate în aplicarea fiscală. De asemenea, diminuarea veniturilor bugetare impune solicitarea informării Guvernului și întocmirea fișei financiare conform art. 111 alin. (1) și art. 138 alin. (5) din Constituție.",
-      "euLawNote": "Măsura este compatibilă în principiu cu Directiva 2006/112/CE privind sistemul comun al TVA (Anexa III pct. 10, modificată prin Directiva (UE) 2022/542), care permite statelor membre aplicarea unei cote reduse de minimum 5% pentru livrarea de locuințe ca parte a politicii sociale, cu condiția ca criteriile sociale să fie clar delimitate în legislația națională.",
+      "blindSpotsCaught": "Două capcane ascunse trec ușor neobservate: (1) Art. II cere renumerotarea întregului Cod fiscal — un gest disproporționat și extrem de perturbator pentru întregul mediu fiscal; (2) Expunerea de Motive promite verificări prin «registrul deja existent», ignorând că temeiul legal al acelui registru (art. 291 alin. 3⁶-3⁷) este abrogat în forma în vigoare a Codului fiscal, iar proiectul nu îl reactivează.",
+      "constitutionalityNote": "Proiectul ridică probleme serioase pe art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii), din cauza discrepanței flagrante dintre scopul declarat («prima locuință») și norma redactată («prima livrare de locuințe»), precum și a lipsei mecanismului legal de verificare notarială. De asemenea, nu prezintă nicio cuantificare a scăderii veniturilor din TVA, amânând evaluarea la fișa financiară a Guvernului (art. 111 alin. 1), iar taxarea cu 11% a căminelor de bătrâni/caselor de copii față de 9% pentru achiziții private nelimitate creează tensiuni cu principiul așezării juste a sarcinilor fiscale (art. 56 alin. 2).",
+      "euLawNote": "Numeric, introducerea unei cote reduse de 9% pe lângă cea existentă de 11% se încadrează în limita de maximum două cote reduse (≥5%) permisă de art. 98 din Directiva TVA 2006/112/CE (modificată prin Directiva (UE) 2022/542). Totuși, Anexa III pct. 10 permite cota redusă pentru locuințe doar «ca parte a unei politici sociale»: eliminarea limitei de o locuință pe persoană fizică expune România riscului de neconformitate cu Directiva TVA, transformând măsura într-o subvenție generală pentru piața imobiliară. Directivele (UE) 2018/958 (profesii reglementate) și 2015/1535 (TRIS) nu sunt incidente.",
       "senatForm": {
-        "articleRef": "Art. I - alin. (2¹) al art. 291 din Codul fiscal",
-        "proposalContent": "La art. 291 alin. (2¹), se clarifică faptul că cota de 9% se aplică pentru livrarea de locuințe care în momentul livrării pot fi locuite ca atare, iar orice persoană fizică poate achiziționa, individual sau în comun, o singură locuință cu cotă redusă de 9%, verificată prin Registrul achizițiilor de locuințe ținut de notarii publici.",
-        "argumentation": "Sintagma „prima livrare de locuințe” este ambiguă fiscal: în regimul TVA desemnează prima vânzare a construcției noi, nu limitarea la o singură achiziție per cumpărător. Fără condiția ca imobilul să poată fi locuit ca atare și fără verificarea în Registrul notarial, norma încalcă principiul clarității legii (art. 1 alin. 5 din Constituție).",
-        "otherComments": "Este necesară și definirea prin trimitere la Legea nr. 114/1996 (suprafața utilă) și Legea nr. 50/1991 (anexele gospodărești), precum și corelarea cu cotele de TVA și normele privind Registrul achizițiilor de locuințe din art. 291 al Codului fiscal, astfel cum au fost modificate prin Legea nr. 141/2025."
-      }
+        "articleRef": "Art. I (art. 291 alin. 2¹) și Art. II",
+        "proposalContent": "La Art. I, completați alin. (2¹) cu limita de o singură locuință per persoană fizică, condiția de a putea fi locuită ca atare la livrare și reintroducerea temeiului Registrului notarial/ANAF (fostele alin. 3⁶-3⁷). Eliminați Art. II (renumerotarea Codului fiscal) și aliniați la 9% și art. 291 alin. (2) lit. l).",
+        "argumentation": "Formula «prima livrare de locuințe» fără plafon pe cumpărător permite achiziții speculative multiple la 9% TVA, contrar Expunerii de Motive și Anexei III din Directiva TVA 2006/112/CE. Fără temeiul Registrului, notarii nu pot verifica condiția, iar renumerotarea Codului fiscal ar bulversa legislația și contabilitatea.",
+        "otherComments": "Solicitați Guvernului fișa financiară cu impactul bugetar concret (art. 111 alin. 1 Constituție) și introduceți norme tranzitorii clare pentru avansurile facturate cu 21% TVA înainte de intrarea în vigoare, dar cu livrare ulterioară. Nu lăsați căminele de bătrâni și casele de copii la 11% TVA în timp ce apartamentele scad la 9%."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 169080,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "TVA de 9%, permanent, la locuințele noi de până la 750.000 lei și 120 mp",
-      "verdictShort": "Este o măsură utilă pentru cumpărători, dar textul e scris mai larg decât promite: dă 9% la orice locuință nouă aflată sub plafoane, nu doar la prima locuință a cumpărătorului. Costul bugetar permanent nu este cuantificat. Poate fi susținută cu amendamente anti-abuz.",
-      "initiatorClaim": "Inițiatorii (AUR) vor să readucă permanent cota redusă de TVA de 9% pentru prima locuință. Legea 141/2025 a eliminat-o și a urcat cota standard la 21%, iar ei vor ca tinerii și familiile să-și poată permite un cămin.",
-      "realityCheck": "Art. I introduce alin. (2¹) la art. 291 din Codul fiscal. Cota de 9% se aplică la „prima livrare” a oricărei locuințe cu maximum 120 mp utili și maximum 750.000 lei fără TVA (cu tot cu terenul), cumpărată de persoane fizice. „Prima livrare” înseamnă prima vânzare a clădirii noi, nu prima locuință a cumpărătorului. Textul nu limitează numărul de locuințe, nu cere ca cumpărătorul să nu mai dețină o casă și nu cere folosință proprie, așa că beneficiază și investitorii persoane fizice. Efectul începe abia la 6 luni de la publicare, iar o parte din reducere poate fi absorbită de dezvoltatori prin prețuri.",
-      "affectedGroups": [
-        "Proprietari & Imobiliare",
-        "Contabili & Fiscalitate",
-        "IMM & Antreprenori",
-        "Toți cetățenii"
-      ],
-      "keyFindings": [
-        "Art. I, alin. (2¹): beneficiul e legat de „prima livrare de locuințe”, adică vânzarea inițială a clădirii noi. Fișa Camerei și expunerea vorbesc însă de „prima locuință” a cumpărătorului, iar textul nu cere nicio dovadă că cumpărătorul nu mai deține o locuință.",
-        "Lipsesc condițiile anti-abuz invocate în expunere: folosința proprie, o singură locuință per persoană, o declarație la notar. Aceeași persoană fizică poate cumpăra oricâte apartamente sub plafon cu 9%.",
-        "Textul creează o a doua cotă redusă (9%), alături de cota redusă generală de 11% din alin. (2), stabilită după Legea 141/2025. Formularea „Cota redusă de 9%” presupune o cotă care nu e definită nicăieri altundeva în articol, deci e nevoie de o redactare explicită.",
-        "Plafoanele sunt criterii obiective, verificabile prin acte notariale: 750.000 lei fără TVA, inclusiv terenul, și 120 mp utili, exclusiv anexele gospodărești. Plafonul valoric crește față de cel anterior, de 600.000 lei.",
-        "Art. III: intrarea în vigoare la 6 luni de la publicare prelungește golul apărut după expirarea regimului tranzitoriu (31.07.2026). Poate determina și amânarea achizițiilor pe durata dezbaterii.",
-        "Impact bugetar: pierdere permanentă de venituri din TVA, fără cifre în partea disponibilă a expunerii, care rămâne la argumente calitative de compensare. Nu apar sarcini birocratice noi pentru cetățeni sau IMM-uri, vânzătorul doar aplică altă cotă."
-      ],
-      "blindSpotsCaught": "Fișa Camerei și expunerea vorbesc de „livrarea primei locuințe” și de „nevoi proprii”, dar textul efectiv spune „prima livrare de locuințe” către orice persoană fizică. Instanțele și ANAF vor aplica textul, deci facilitatea va fi mai largă decât se promite. Alin. (2¹) nici nu mai folosește sintagma „ca parte a politicii sociale”, care leagă facilitatea de anexa III pct. 10 a Directivei TVA. În plus, legea nu cere actualizarea normelor metodologice (HG 1/2016) și nu stabilește cum se verifică plafoanele la tranzacție.",
-      "constitutionalityNote": "Pe fond nu sunt probleme. O cotă redusă cu plafoane obiective de valoare și suprafață respectă egalitatea (art. 16) și așezarea justă a sarcinilor fiscale (art. 56) și are un scop legitim (art. 47, nivel de trai decent). Riscul ține de claritate (art. 1 alin. 5): „prima livrare” poate fi citită fie ca prima vânzare a clădirii, fie ca prima locuință a cumpărătorului. Art. 23 alin. (12) nu se aplică, pentru că legea nu are sancțiuni. Fiind o reducere de venituri bugetare, legea are nevoie de punctul de vedere al Guvernului (art. 111 alin. 1) și de o estimare a impactului (Legea 500/2002, art. 15; Legea 69/2010). CCR a constatat în trecut neconstituționalitatea unor legi cu impact bugetar adoptate fără aceste elemente.",
-      "euLawNote": "Directiva 2006/112/CE (art. 98 și anexa III pct. 10) permite cote reduse pentru livrarea de locuințe „ca parte a unei politici sociale”, așa cum o definesc statele membre. Permite cel mult două cote reduse de minimum 5%, deci 11% și 9% încap, dacă nu mai există altă cotă redusă în vigoare. Lipsa condiției de primă locuință sau de folosință proprie slăbește însă caracterul social al măsurii. Directiva 2018/958 nu e aplicabilă, pentru că legea nu reglementează o profesie. Nici TRIS 2015/1535 nu se aplică: nu există reguli tehnice sau servicii ale societății informaționale. Măsura vizează toți vânzătorii, deci riscul de ajutor de stat e redus, și nu discriminează cumpărătorii din alte state UE. În procedura de deficit excesiv, o pierdere permanentă de venituri fără compensare va fi greu de apărat în fața Comisiei.",
-      "senatForm": {
-        "articleRef": "Art. I – art. 291 alin. (2¹) Cod fiscal",
-        "proposalContent": "La final se adaugă: „Cota se aplică pentru o singură locuință pe persoană fizică, dacă la data livrării cumpărătorul nu deține în proprietate exclusivă altă locuință. Condiția se atestă prin declarație pe propria răspundere autentificată la notar.” Sintagma „prima livrare de locuințe” devine „livrarea de locuințe”.",
-        "argumentation": "Expunerea de motive promite sprijin pentru prima locuință și exclude achizițiile speculative, dar textul nu limitează numărul de locuințe și nu cere ca cumpărătorul să nu mai dețină una: un investitor poate cumpăra oricâte apartamente cu 9%. Amendamentul aliniază textul la scop, reduce costul bugetar și întărește încadrarea în „politica socială” din Directiva TVA.",
-        "otherComments": "Art. III: intrarea în vigoare la 6 luni de la publicare prelungește golul apărut după 31.07.2026 și poate îngheța vânzările cât cumpărătorii așteaptă cota de 9%. Comisia ar trebui să ceară o estimare a pierderii de venituri (Legea 500/2002, art. 15) și să fixeze un termen pentru actualizarea normelor (HG 1/2016)."
-      }
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 150374,
+      "durationMs": 76282,
+      "sourceEndMarker": "SF-EF621A0E",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "TVA de 9% la locuințe, inclusiv pentru cei care au deja proprietăți",
-      "verdictShort": "Reducerea poate ajuta cumpărătorii, dar textul nu rezervă avantajul celor aflați la prima locuință. Riscul moderat provine din eligibilitatea prea largă și fundamentarea bugetară insuficientă, fără ca proiectul să introducă taxe, monopoluri sau sancțiuni noi.",
-      "initiatorClaim": "Inițiatorii urmăresc să faciliteze cumpărarea primului cămin printr-o cotă permanentă de TVA de 9%, pentru locuințe de maximum 120 mp și 750.000 lei fără TVA, inclusiv terenul. Ei susțin că măsura va sprijini familiile și construcțiile.",
-      "realityCheck": "Art. I reduce TVA pentru prima livrare a imobilului, fără să ceară ca aceasta să fie prima locuință a cumpărătorului și fără să limiteze numărul achizițiilor eligibile ale aceleiași persoane. Pot beneficia și proprietarii altor locuințe sau cumpărătorii pentru investiții, iar utilizarea pentru nevoi proprii nu este obligatorie. La preț net constant, avantajul maxim este de 90.000 lei pe locuință, însă transferarea integrală a reducerii în prețul cumpărătorului nu este garantată.",
+      "plainTitle": "TVA de 9% pentru locuințe, fără limitare clară la primul cumpărător",
+      "verdictShort": "Reducerea TVA poate sprijini accesul la locuințe, dar textul nu limitează facilitatea la prima locuință a cumpărătorului. Diferența dintre scopul declarat și condițiile efective poate transforma sprijinul social într-o facilitate pentru achiziții imobiliare repetate.",
+      "initiatorClaim": "Inițiatorii urmăresc reintroducerea permanentă a TVA de 9% pentru prima locuință, pentru a sprijini familiile și accesul la proprietate. Propun un plafon de 750.000 lei fără TVA și maximum 120 mp utili.",
+      "realityCheck": "În regimul descris de documentele furnizate, livrările impozabile obișnuite de locuințe către persoane fizice suportă TVA de 21%, după expirarea facilității tranzitorii; proiectul introduce permanent 9% pentru prima livrare a locuințelor care respectă plafoanele. «Prima livrare» privește operațiunea asupra imobilului, fără să impună expres ca beneficiarul să cumpere prima sa locuință sau să utilizeze facilitatea o singură dată. La un preț net constant de 500.000 lei, diferența de TVA este de 60.000 lei, dar reducerea prețului final depinde și de prețul negociat.",
       "affectedGroups": [
+        "Proprietari & Imobiliare",
         "IMM & Antreprenori",
-        "Contabili & Fiscalitate",
-        "Proprietari & Imobiliare"
+        "Contabili & Fiscalitate"
       ],
       "keyFindings": [
-        "Art. I: «prima livrare» privește operațiunea asupra imobilului; nu echivalează cu prima proprietate dobândită de beneficiar. Consiliul Legislativ a cerut clarificarea expresă a formulării și corelarea registrului achizițiilor cu TVA redus. [Avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L546LG.PDF)",
-        "Art. I: lipsesc condiția folosirii drept locuință proprie, limitarea la o singură achiziție per persoană și condiția expresă ca imobilul să poată fi locuit la livrare. Aceste condiții nu pot fi introduse implicit prin expunerea de motive.",
-        "Impact bugetar: reducerea este de 12 puncte procentuale din baza impozabilă. Consiliul Fiscal a constatat, la 21.08.2026, neîndeplinirea cerințelor art. 21 din Legea nr. 69/2010 și a solicitat documentele financiare necesare; presupusa compensare prin tranzacții suplimentare nu înlocuiește evaluarea. [Opinia Consiliului Fiscal](https://www.senat.ro/legis/PDF/2026/26L546CF.PDF)",
-        "Art. I: plafonul de 750.000 lei este o condiție pentru întreaga tranzacție, nu o tranșă taxată preferențial. Depășirea lui poate determina pierderea întregului avantaj, stimulând tranzacții în apropierea pragului și dispute privind componentele prețului.",
-        "Art. III: aplicarea începe după șase luni de la publicare, ceea ce permite pregătirea fiscală, dar nu oferă ajutor imediat. Proiectul nu instituie dosare sau taxe administrative noi; verificarea plafonului și interpretarea eligibilității rămân însă sarcini pentru vânzători și profesioniștii implicați."
+        "Art. I: proiectul adaugă o cotă de 9%; nu modifică standardul de 21% și nici cota de 11% pentru celelalte categorii existente.",
+        "Art. I: plafonul de 750.000 lei fără TVA include terenul, iar limita de 120 mp privește suprafața utilă, exclusiv anexele gospodărești. Condițiile sunt cumulative.",
+        "Art. I: lipsesc condițiile privind absența unei locuințe deținute anterior, utilizarea pentru nevoi proprii și numărul achizițiilor eligibile per persoană. Achizițiile pentru investiții nu sunt excluse expres.",
+        "Art. I: registrul achizițiilor și verificările notariale sunt invocate în expunerea de motive, dar proiectul nu instituie o verificare a calității de cumpărător al primei locuințe. Normele de aplicare nu pot inventa această restricție.",
+        "Impact bugetar: pentru o tranzacție de 750.000 lei fără TVA, diferența dintre 21% și 9% este de 90.000 lei. Expunerea nu cuantifică pierderea agregată de venituri și nici compensările economice invocate.",
+        "Art. III: aplicarea începe la șase luni după publicare. Textul nu prelungește retroactiv regimul tranzitoriu expirat și nu acordă restituiri pentru achizițiile anterioare; regulile generale privind exigibilitatea și regularizarea TVA rămân aplicabile.",
+        "Art. II: se dispune republicarea Codului fiscal, cu renumerotare. Aceasta nu echivalează cu abrogarea altor condiții fiscale și nu introduce taxe, sancțiuni sau obligații declarative noi pentru cetățeni."
       ],
-      "blindSpotsCaught": "Expunerea de motive confundă prima livrare cu prima locuință și prezintă termenul de 31.07.2026 ca final al regimului tranzitoriu. Punctul de vedere al Guvernului consemnează prelungirea până la 30.09.2026 prin Legea nr. 161/2026; la data analizei, și acest termen este expirat. Registrul achizițiilor cu TVA redus nu dovedește singur că persoana nu deține locuințe cumpărate în alte regimuri fiscale ori dobândite prin moștenire. [Punctul de vedere al Guvernului](https://www.senat.ro/legis/PDF/2026/26L546PV.PDF)",
-      "constitutionalityNote": "Există o vulnerabilitate de claritate și coerență raportată la art. 1 alin. (5): beneficiarul social declarat nu este delimitat în norma fiscală. Diferența dintre motivare și text nu dovedește singură neconstituționalitatea; legiuitorul poate acorda facilități pe criterii obiective, cu respectarea art. 16 și art. 56 alin. (2). Art. 47 poate susține politica locuirii, fără să impună această cotă. Art. 23 alin. (12), privind legalitatea pedepselor, nu este direct incident, deoarece proiectul nu instituie pedepse. Informarea Guvernului cerută de art. 111 alin. (1) a fost solicitată și primită; diminuarea veniturilor nu reprezintă automat o cheltuială nouă interzisă de art. 138 alin. (5). [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355)",
-      "euLawNote": "Reperul principal este Directiva 2006/112/CE: art. 98 permite două cote reduse de minimum 5%, astfel că 9% alături de 11% nu este, în sine, interzis. Anexa III pct. 10 permite livrarea locuințelor ca parte a politicii sociale definite de stat; eligibilitatea investitorilor și absența unei delimitări sociale convingătoare necesită justificare, fără ca plafonul de 750.000 lei să fie automat ilegal. [Directiva 2022/542, care modifică aceste reguli](https://eur-lex.europa.eu/eli/dir/2022/542/oj). Facilitatea schimbă condițiile concurențiale între tranzacțiile eligibile și cele neeligibile, dar nu rezervă piața unor dezvoltatori desemnați; neutralitatea fiscală trebuie evaluată pentru operațiuni comparabile. Directiva 2018/958 nu este incidentă, deoarece proiectul nu restrânge accesul la profesii reglementate. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj). Textul nu reglementează servicii digitale sau AI și nu rezultă o obligație de notificare TRIS pentru această modificare fiscală imobiliară. [Directiva 2015/1535](https://eur-lex.europa.eu/eli/dir/2015/1535/oj).",
+      "blindSpotsCaught": "Expunerea confundă «prima livrare» a imobilului cu «prima locuință» a persoanei: un cumpărător care deține deja locuințe ar putea beneficia pentru mai multe imobile, fiecare aflat la prima livrare. În plus, extragerea informativă a legislației reproduce mai multe alineate numerotate (2), separate prin omisiuni; apartenența lor la art. 291 nu poate fi presupusă. Analiza se bazează pe documentele furnizate, deoarece verificarea independentă online nu a fost disponibilă.",
+      "constitutionalityNote": "Riscul principal privește art. 1 alin. (5): condiția «primei livrări» trebuie formulată previzibil și corelată cu beneficiarii urmăriți. Art. 47 susține obiectivul social, fără să impună o anumită cotă de TVA; delimitările facilității trebuie justificate și prin art. 16 și art. 56 alin. (2). Reducerea veniturilor bugetare atrage obligația solicitării informării Guvernului potrivit art. 111 alin. (1), însă documentele nu dovedesc îndeplinirea procedurii. Simpla diminuare a veniturilor nu constituie automat o încălcare a art. 138 alin. (5), care privește aprobarea cheltuielilor bugetare. Art. 23 alin. (12) nu este incident: proiectul nu instituie pedepse.",
+      "euLawNote": "Directiva 2006/112/CE permite cote reduse pentru locuințe furnizate în cadrul politicii sociale, în condițiile art. 98 și anexei III. Coexistența cotelor de 9% și 11% nu este, prin ea însăși, incompatibilă; problema este justificarea caracterului social al unei facilități care nu exclude achizițiile repetate pentru investiții și respectarea neutralității fiscale. Măsura favorizează segmentul eligibil și poate influența concurența și prețurile, fără să instituie un monopol. Directiva 2018/958 nu se aplică acestei reduceri fiscale, deoarece nu restrânge accesul la profesii reglementate. Nu rezultă o obligație de notificare TRIS potrivit Directivei 2015/1535: textul nu introduce o reglementare tehnică ori reguli pentru servicii ale societății informaționale.",
       "senatForm": {
         "articleRef": "Art. I – art. 291 alin. (2¹)",
-        "proposalContent": "(2¹) Cota de TVA de 9% se aplică livrării de locuințe de cel mult 120 mp utili, exclusiv anexele gospodărești, cu valoarea, inclusiv terenul, de maximum 750.000 lei fără TVA, către persoane fizice, individual sau în comun, numai dacă niciun cumpărător nu a deținut anterior, integral ori în cotă-parte, o locuință. Facilitatea se acordă o singură dată fiecărei persoane.",
-        "argumentation": "Textul leagă reducerea de prima locuință a fiecărui cumpărător și împiedică achizițiile repetate pentru investiții. În forma inițiatorului, prima livrare privește imobilul, fără să excludă persoanele care dețin alte locuințe. Condiția trebuie verificată pentru fiecare coproprietar.",
-        "otherComments": "Pentru Comisia pentru buget, finanțe și bănci a Camerei Deputaților, Pl-x 715/2026, până la 06.11.2026. Sunt necesare amendamente corelative privind registrul TVA și dovada istoricului proprietății; registrul TVA singur nu dovedește lipsa oricărei locuințe. Solicitați fișa financiară și justificarea plafonului ca politică socială."
-      }
+        "proposalContent": "(2¹) Cota de 9% se aplică primei livrări a locuințelor de maximum 120 mp utili, exclusiv anexele gospodărești, cu valoarea, inclusiv terenul, de maximum 750.000 lei fără TVA. Cumpărătorii trebuie să fie persoane fizice care nu dețin și nu au deținut o locuință; condiția se verifică individual prin declarație autentică.",
+        "argumentation": "Prima livrare a imobilului nu înseamnă prima locuință a cumpărătorului. Condiția expresă pentru fiecare cumpărător aliniază facilitatea cu obiectivul social declarat și împiedică acordarea ei persoanelor care acumulează locuințe pentru investiții.",
+        "otherComments": "De definit tratamentul cotelor moștenite și al proprietăților din străinătate. Corelați verificarea cu registrele existente și stabiliți expres obligațiile notarilor. Solicitați informarea Guvernului și evaluarea bugetară; expunerea de motive nu poate suplini condițiile legale."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-28T19:33:15.273Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T12:23:10.430Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

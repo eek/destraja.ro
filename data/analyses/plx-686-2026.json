@@ -1,14 +1,42 @@
 {
   "billId": "Pl-x 686/2026",
   "slug": "plx-686-2026",
-  "updatedAt": "2026-10-28T20:18:15.887Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T12:21:53.423Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 6452,
+    "ordinanceChars": 0,
+    "memoChars": 10404,
+    "memoSupplied": 10404,
+    "marker": "SF-BF84E898"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-686-2026.json",
+    "form": "initiator",
+    "textHash": "bf84e898f34a8198",
+    "fetchedAt": "2026-11-19T09:35:22.742Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 5.3,
+    "riskScore": 6,
     "riskLevel": "yellow",
-    "plainTitle": "Raportare la ANAF în 5 zile pentru tranzacțiile de peste 200.000 de euro",
-    "summaryTlDr": "Scopul e rezonabil și garanțiile pentru contribuabili sunt reale, dar textul e neclar. Nu spune cine raportează, ce anume se raportează și când o tranzacție e deja „comunicată”, deși amenzile ajung la 50.000 lei. Devine util doar dacă se precizează obligația și se corectează calendarul de aplicare.",
-    "initiatorClaim": "Inițiatorii vor ca ANAF să își îndrepte controalele spre tranzacțiile mari cu risc real de evaziune, precum circuitele de facturi fictive, firmele fantomă și operațiunile fragmentate artificial. Ei spun că vor folosi e-Factura și SAF-T, fără birocrație nouă pentru firmele corecte.",
-    "realityCheck": "Legea creează o raportare nouă, în 5 zile lucrătoare, pentru orice „operațiune economică” de peste 200.000 €, dar doar dacă aceasta nu a fost deja comunicată prin sistemele instituțiilor publice, ale notarilor sau ale băncilor. Cum e-Factura acoperă deja majoritatea facturilor, obligația ar viza probabil zona rămasă: cesiuni de părți sociale, împrumuturi, aporturi la capital și tranzacții între persoane. Textul nu enumeră însă aceste operațiuni. Nu spune nici cine raportează și ce date, iar procedura e lăsată unui ordin ANAF care poate apărea după ce amenzile sunt deja aplicabile. Garanțiile (fără sancțiuni automate, controale doar pe indicii rezonabile, limitarea scopului datelor) sunt binevenite, dar rămân în mare parte declarative.",
+    "plainTitle": "Raportare la ANAF în 5 zile pentru tranzacții peste 200.000 €",
+    "summaryTlDr": "Intenția de a combate evaziunea mare prin analiză de risc este legitimă, dar proiectul este redactat grav deficitar: impune amenzi de până la 50.000 lei pe obligații imposibil de determinat clar. Mai mult, dublează sistemele existente (e-Factura, SAF-T, CPF) și creează un blocaj procedural chiar din momentul intrării în vigoare.",
+    "initiatorClaim": "Inițiatorii susțin că vor să combată evaziunea din zona tranzacțiilor de mare valoare prin analiza inteligentă de risc la ANAF, folosind sistemele digitale deja existente (e-Factura, SAF-T), fără a împovăra birocratic contribuabilii corecți.",
+    "realityCheck": "În realitate, art. 4 introduce o nouă obligație de raportare în termen scurt (5 zile lucrătoare) pentru tranzacții de peste 200.000 euro, fără a stabili cine raportează (vânzătorul, cumpărătorul sau ambii), dacă pragul include TVA sau cum verifică firma dacă banca ori notarul a raportat deja operațiunea. Proiectul ocolește complet Codul de procedură fiscală, unde analiza de risc și sancțiunile există deja, creând paralelism legislativ și expunând contribuabilii la amenzi mari din cauza normelor neclare.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
@@ -16,88 +44,62 @@
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. 4 alin. (1), (2) și (4)",
-      "proposalContent": "(1) Raportează doar cedentul: cel care vinde bunul, prestează serviciul sau cedează dreptul. (2) Nu se raportează operațiunile din RO e-Factura, actele autentificate notarial și cesiunile înscrise la ONRC; ANAF publică lista completă a excepțiilor. (4) Ordinul ANAF se emite înainte de intrarea în vigoare a legii; amenzile se aplică după 90 de zile de la publicarea lui.",
-      "argumentation": "Art. 4 nu spune cine raportează (vânzătorul, cumpărătorul sau ambii) și nici când o tranzacție e deja „comunicată” prin alt sistem, deși amenzile de la art. 9 ajung la 50.000 lei. În plus, ordinul ANAF poate apărea la 90 de zile după intrarea în vigoare, deci obligația ar fi sancționabilă fără procedură tehnică. Art. 1 alin. (5) din Constituție cere norme previzibile.",
-      "otherComments": "Art. 2 alin. (2): persoana fizică nu poate ști dinainte dacă ANAF va vedea „indicii” de risc; obligația ar trebui să privească doar persoanele înregistrate fiscal pentru o activitate economică. Art. 9: să nu se amendeze eroarea corectată din proprie inițiativă în 30 de zile. Lit. c) dublează contravențiile din Codul de procedură fiscală pentru nefurnizarea documentelor."
+      "articleRef": "Art. 4 și Art. 9",
+      "proposalContent": "Clarificați în art. 4 cine raportează, dacă pragul de 200.000 € include TVA, lista exactă a sistemelor care scutesc de raportare (e-Factura, SAF-T) și emiterea OPANAF anterior intrării în vigoare. Completați art. 9 cu agentul constatator, trimiterea la OG 2/2001 și eliminați lit. c), deja reglementată de Codul de procedură fiscală.",
+      "argumentation": "În forma actuală, legea încalcă art. 1 alin. (5) din Constituție: amendează cu până la 50.000 lei obligații neclare, fără a stabili cine raportează sau cum se aplică scutirea, iar procedura tehnică ANAF apare abia după 90 de zile de la intrarea în vigoare. Art. 9 omite agentul constatator și dublează art. 336 din Codul de procedură fiscală.",
+      "otherComments": "Recomand integrarea măsurilor direct în Codul de procedură fiscală (art. 7^1), evitând paralelismul legislativ și birocrația dublă pentru IMM-uri. Clarificați art. 2 alin. (2), deoarece o persoană fizică nu poate auto-evalua dacă are «risc fiscal semnificativ», și corectați formula finală din lege organică în lege ordinară."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 62029,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 55846,
+      "sourceEndMarker": "SF-BF84E898",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Raportare suplimentară la ANAF în 5 zile și amenzi de până la 50.000 lei pentru tranzacțiile peste 200.000 euro",
-      "verdictShort": "Deși expunerea de motive promite că nu introduce birocrație nouă, proiectul creează o obligație vagă de raportare în 5 zile pentru tranzacțiile peste 200.000 euro și amenzi de până la 50.000 lei chiar și pentru simple erori materiale. Textul dublează inutil Codul de procedură fiscală și nu precizează nici măcar care parte a tranzacției (vânzătorul sau cumpărătorul) are obligația de raportare.",
-      "initiatorClaim": "Inițiatorii susțin că vor să combată marea evaziune fiscală prin orientarea controalelor ANAF către tranzacțiile cu valoare ridicată (peste 200.000 euro), folosind exclusiv infrastructura digitală existentă (e-Factura și SAF-T), fără obligații birocratice suplimentare pentru contribuabilii de bună-credință.",
-      "realityCheck": "În realitate, art. 4 introduce o nouă obligație de raportare în 5 zile lucrătoare, sancționată la art. 9 cu amenzi între 10.000 și 50.000 lei, fără a preciza cine trebuie să raporteze (furnizorul, beneficiarul sau ambele părți) și ce înseamnă „data efectuării tranzacției”. Mai mult, legea sancționează orice informație incompletă sau eronată și creează un paralelism legislativ direct cu Legea nr. 207/2015 (Codul de procedură fiscală).",
+      "plainTitle": "Raportare la ANAF în 5 zile pentru tranzacții peste 200.000 €",
+      "verdictShort": "Intenția de a combate evaziunea mare prin analiză de risc este legitimă, dar proiectul este redactat grav deficitar: impune amenzi de până la 50.000 lei pe obligații imposibil de determinat clar. Mai mult, dublează sistemele existente (e-Factura, SAF-T, CPF) și creează un blocaj procedural chiar din momentul intrării în vigoare.",
+      "initiatorClaim": "Inițiatorii susțin că vor să combată evaziunea din zona tranzacțiilor de mare valoare prin analiza inteligentă de risc la ANAF, folosind sistemele digitale deja existente (e-Factura, SAF-T), fără a împovăra birocratic contribuabilii corecți.",
+      "realityCheck": "În realitate, art. 4 introduce o nouă obligație de raportare în termen scurt (5 zile lucrătoare) pentru tranzacții de peste 200.000 euro, fără a stabili cine raportează (vânzătorul, cumpărătorul sau ambii), dacă pragul include TVA sau cum verifică firma dacă banca ori notarul a raportat deja operațiunea. Proiectul ocolește complet Codul de procedură fiscală, unde analiza de risc și sancțiunile există deja, creând paralelism legislativ și expunând contribuabilii la amenzi mari din cauza normelor neclare.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Proprietari & Imobiliare"
       ],
       "keyFindings": [
-        "Subiect nedeterminat al obligației (Art. 4 alin. 1): Textul prevede impersonal că tranzacțiile peste 200.000 euro „se raportează către ANAF” în 5 zile lucrătoare, fără a stabili dacă obligația (și amenda de până la 50.000 lei) revine vânzătorului, cumpărătorului sau ambelor părți și fără a defini „data efectuării tranzacției” (semnarea contractului, livrarea, facturarea sau plata).",
-        "Excepție neclară și contradictorie cu e-Factura (Art. 4 alin. 2): Sunt exceptate doar tranzacțiile comunicate deja prin sistemele „instituțiilor publice, notarilor publici sau instituțiilor de credit”; un contribuabil nu are de unde să știe ce raportează intern banca sa către ANAF și nici dacă încărcarea facturii în RO e-Factura îl scutește de această raportare separată.",
-        "Sancționarea simplelor erori și dubla incriminare contravențională (Art. 9): Transmiterea de informații „incomplete sau eronate” se amendează cu până la 50.000 lei fără drept de rectificare fără sancțiune, iar „refuzul nejustificat de furnizare a documentelor” dublează sancțiunea deja existentă la art. 336 din Codul de procedură fiscală.",
-        "Defazaj procedural de 90 de zile (Art. 4 alin. 4 vs. Art. 11): Legea intră în vigoare la 6 luni de la publicare, însă ordinul ANAF cu procedura tehnică de raportare se emite în 90 de zile de la intrarea în vigoare, ceea ce înseamnă că în primele 3 luni obligația și amenzile sunt active, dar procedura de raportare nu există."
+        "Art. 4 alin. (1)–(3) și art. 3 lit. a): Obligația de raportare în 5 zile lucrătoare pentru tranzacții peste 200.000 euro nu precizează cine are obligația raportării, ce înseamnă „data efectuării tranzacției” (contract, factură sau plată), dacă valoarea include TVA sau cum poate ști contribuabilul dacă tranzacția a fost deja transmisă prin sistemele băncilor, notarilor ori instituțiilor publice.",
+        "Art. 4 alin. (4) vs. Art. 11: Contradicție severă de termene – legea (cu obligația și amenzile) intră în vigoare la 6 luni de la publicare, dar procedura tehnică de raportare prin ordin al președintelui ANAF se aprobă abia în termen de 90 de zile de la intrarea în vigoare, lăsând până la 3 luni fără procedură aplicabilă.",
+        "Art. 9: Instituie amenzi de 10.000–50.000 lei pentru firme și 5.000–20.000 lei pentru PFA/activități economice, dar omite complet cine constată contravențiile și aplică amenzile, nu face trimitere la O.G. nr. 2/2001 și dublează contravenția de la art. 336 Cod procedură fiscală privind refuzul furnizării de documente.",
+        "Art. 2 alin. (2): Extinde aplicarea legii asupra persoanelor fizice dacă există „indicii” de activitate continuă sau un „risc fiscal semnificativ”, criterii subiective pe care un cetățean nu le poate auto-evalua pentru a ști dacă are obligația de raportare în 5 zile."
       ],
-      "blindSpotsCaught": "Contradicție flagrantă între Expunerea de motive (care afirmă că se folosesc doar sistemele e-Factura și SAF-T existente) și Art. 4 alin. (2) și (4) din lege, care obligă la o raportare nouă prin ordin al președintelui ANAF, plus un decalaj de tehnică legislativă între termenul normelor metodologice (90 de zile de la publicare, art. 10) și cel al procedurii ANAF (90 de zile de la intrarea în vigoare, art. 4 alin. 4).",
-      "constitutionalityNote": "Proiectul încalcă exigențele de calitate, claritate și previzibilitate a legii consacrate de art. 1 alin. (5) din Constituție și de Legea nr. 24/2000 (art. 16 privind evitarea paralelismelor legislative). Întrucât art. 4 nu identifică subiectul obligației de raportare, iar art. 2 alin. (2) extinde legea la persoanele fizice pe baza unor „indicii” apreciate unilateral de fisc, norma contravențională de la art. 9 încalcă și principiul legalității răspunderii (art. 23 alin. 12 din Constituție).",
-      "euLawNote": "Deși invocă jurisprudența CJUE privind proporționalitatea în materie fiscală, sancționarea automată cu amenzi de 10.000–50.000 lei a oricăror informații „incomplete sau eronate” (art. 9 alin. 1 lit. b), în absența fraudei sau a unui prejudiciu bugetar, contravine principiului proporționalității din dreptul UE (cauzele C-259/12, Rodopi-M 91 și C-935/19, Grupa Warzywna). Nu ridică probleme sub Directiva (UE) 2018/958 sau Directiva TRIS (UE) 2015/1535.",
+      "blindSpotsCaught": "Pe lângă decalajul absurd de 90 de zile dintre intrarea în vigoare (art. 11) și aprobarea procedurii tehnice de raportare (art. 4 alin. 4), proiectul omite agentul constatator al contravențiilor la art. 9 și include o formulă de adoptare de lege organică (art. 76 alin. 1 din Constituție) pentru o materie de procedură fiscală și contravenții (lege ordinară), fără a modifica art. 7^1 din Codul de procedură fiscală care reglementează deja analiza de risc.",
+      "constitutionalityNote": "Risc ridicat de neconstituționalitate față de art. 1 alin. (5) din Constituție (claritatea, precizia și previzibilitatea legii, standard strict în materie contravențională): textul nu stabilește clar subiectul obligației, baza de calcul, momentul declanșării termenului de 5 zile, sfera exactă a scutirilor și organul constatator. De asemenea, încalcă interdicția paralelismului legislativ (Legea nr. 24/2000) față de Codul de procedură fiscală și califică eronat legea ca fiind organică (art. 76 alin. 1).",
+      "euLawNote": "Nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează accesul la profesii) și nici a Directivei (UE) 2015/1535 (TRIS), neinstituind norme tehnice privind servicii ale societății informaționale sau AI. Ridică însă probleme privind principiul proporționalității din dreptul UE în materie fiscală (dublarea raportărilor față de e-Factura, SAF-T și legislația AML/ONPCSB) și cerințele GDPR (Regulamentul UE 2016/679, art. 5 și 6), lipsind reguli concrete privind categoriile de date colectate de la persoane fizice și durata stocării.",
       "senatForm": {
-        "articleRef": "Art. 4 și Art. 9 (sau respingerea în ansamblu)",
-        "proposalContent": "Se elimină obligația paralelă de raportare de la art. 4 și sancțiunile de la art. 9, analiza de risc realizându-se exclusiv pe baza datelor deja colectate prin RO e-Factura, SAF-T, ONPCSB și art. 59-61 din Codul de procedură fiscală. Subsidiar, la art. 4 se precizează expres partea obligată la raportare și excluderea facturilor transmise în RO e-Factura.",
-        "argumentation": "Art. 4 folosește o formulare impersonală („se raportează”), fără a indica dacă obligația revine vânzătorului, cumpărătorului sau ambilor și fără a defini „data efectuării tranzacției”. De asemenea, art. 9 dublează sancțiunile din art. 336 Cod procedură fiscală și amendează cu până la 50.000 lei simplele erori materiale, încălcând art. 1 alin. (5) din Constituție.",
-        "otherComments": "Proiectul încalcă art. 16 din Legea nr. 24/2000 privind evitarea paralelismelor legislative, dublând Titlul VI din Codul de procedură fiscală. În plus, art. 4 alin. (4) prevede adoptarea procedurii ANAF în 90 de zile de la intrarea în vigoare, lăsând timp de 3 luni o obligație sancționată cu amendă, dar fără procedură tehnică de raportare aplicabilă."
-      }
+        "articleRef": "Art. 4 și Art. 9",
+        "proposalContent": "Clarificați în art. 4 cine raportează, dacă pragul de 200.000 € include TVA, lista exactă a sistemelor care scutesc de raportare (e-Factura, SAF-T) și emiterea OPANAF anterior intrării în vigoare. Completați art. 9 cu agentul constatator, trimiterea la OG 2/2001 și eliminați lit. c), deja reglementată de Codul de procedură fiscală.",
+        "argumentation": "În forma actuală, legea încalcă art. 1 alin. (5) din Constituție: amendează cu până la 50.000 lei obligații neclare, fără a stabili cine raportează sau cum se aplică scutirea, iar procedura tehnică ANAF apare abia după 90 de zile de la intrarea în vigoare. Art. 9 omite agentul constatator și dublează art. 336 din Codul de procedură fiscală.",
+        "otherComments": "Recomand integrarea măsurilor direct în Codul de procedură fiscală (art. 7^1), evitând paralelismul legislativ și birocrația dublă pentru IMM-uri. Clarificați art. 2 alin. (2), deoarece o persoană fizică nu poate auto-evalua dacă are «risc fiscal semnificativ», și corectați formula finală din lege organică în lege ordinară."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 190098,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Raportare la ANAF în 5 zile pentru tranzacțiile de peste 200.000 de euro",
-      "verdictShort": "Scopul e rezonabil și garanțiile pentru contribuabili sunt reale, dar textul e neclar. Nu spune cine raportează, ce anume se raportează și când o tranzacție e deja „comunicată”, deși amenzile ajung la 50.000 lei. Devine util doar dacă se precizează obligația și se corectează calendarul de aplicare.",
-      "initiatorClaim": "Inițiatorii vor ca ANAF să își îndrepte controalele spre tranzacțiile mari cu risc real de evaziune, precum circuitele de facturi fictive, firmele fantomă și operațiunile fragmentate artificial. Ei spun că vor folosi e-Factura și SAF-T, fără birocrație nouă pentru firmele corecte.",
-      "realityCheck": "Legea creează o raportare nouă, în 5 zile lucrătoare, pentru orice „operațiune economică” de peste 200.000 €, dar doar dacă aceasta nu a fost deja comunicată prin sistemele instituțiilor publice, ale notarilor sau ale băncilor. Cum e-Factura acoperă deja majoritatea facturilor, obligația ar viza probabil zona rămasă: cesiuni de părți sociale, împrumuturi, aporturi la capital și tranzacții între persoane. Textul nu enumeră însă aceste operațiuni. Nu spune nici cine raportează și ce date, iar procedura e lăsată unui ordin ANAF care poate apărea după ce amenzile sunt deja aplicabile. Garanțiile (fără sancțiuni automate, controale doar pe indicii rezonabile, limitarea scopului datelor) sunt binevenite, dar rămân în mare parte declarative.",
-      "affectedGroups": [
-        "IMM & Antreprenori",
-        "Contabili & Fiscalitate",
-        "Justiție & Drepturi Civile"
-      ],
-      "keyFindings": [
-        "Art. 4 alin. (1) e scris la pasiv („se raportează”) și nu spune cine are obligația: vânzătorul, cumpărătorul sau ambii. Totuși, art. 9 sancționează neraportarea cu amendă de 10.000–50.000 lei pentru persoanele juridice și de 5.000–20.000 lei pentru PFA, II și IF.",
-        "Art. 4 alin. (2) scutește tranzacțiile „deja comunicate” prin sistemele instituțiilor publice, ale notarilor sau ale băncilor. Nu precizează însă când o operațiune se consideră comunicată: o factură în e-Factura, o plată bancară, o cesiune înscrisă la ONRC? Contribuabilul trebuie să ghicească, iar o interpretare greșită îl costă cel puțin 10.000 lei.",
-        "Calendarul nu se leagă. Legea intră în vigoare la 6 luni de la publicare (art. 11), dar ordinul ANAF cu procedura tehnică se poate emite până la 90 de zile după intrarea în vigoare (art. 4 alin. 4). Normele metodologice au un alt reper: 90 de zile de la publicare (art. 10). Astfel, obligația și amenzile pot exista până la 3 luni fără un canal de raportare.",
-        "Art. 2 alin. (2) include persoanele fizice doar dacă există „indicii” de activitate economică continuă sau un „risc fiscal semnificativ”. Pe acestea numai ANAF le poate constata, și doar ulterior, așa că omul nu poate ști dinainte dacă trebuie să raporteze. În plus, art. 9 alin. (2) nu spune ce amendă se aplică persoanei fizice inclusă doar pe criteriul riscului fiscal.",
-        "Garanțiile sunt utile, dar incomplete. Art. 5 alin. (2) interzice sancțiunile automate, art. 5 alin. (3) cere indicii rezonabile pentru control, iar art. 7 alin. (3) limitează scopul folosirii datelor. Lipsesc însă termenul de păstrare a datelor, publicarea criteriilor de selecție și o cale de a afla de ce ai fost selectat. Art. 6 e o listă deschisă („pot include”), iar art. 5 alin. (1) trimite circular la criterii „stabilite potrivit legii”.",
-        "Art. 9 alin. (1) lit. b) amendează orice informație „incompletă sau eronată”, fără prag de culpă și fără posibilitate de corectare voluntară. Amenda minimă de 10.000 lei este aceeași pentru o microîntreprindere și pentru o companie mare. Lit. c) (refuzul de a furniza documente) se suprapune cu contravențiile deja prevăzute de Codul de procedură fiscală.",
-        "Tehnică legislativă: o obligație de raportare fiscală pusă într-o lege separată, în loc de Codul de procedură fiscală, contravine art. 14 alin. (1) și art. 16 din Legea nr. 24/2000 (unicitatea reglementării, evitarea paralelismelor). Expunerea de motive nu cuantifică nici câștigul bugetar așteptat, nici costul pentru ANAF și pentru contribuabili."
-      ],
-      "blindSpotsCaught": "Cele două termene de implementare nu sunt corelate: normele curg de la publicare (art. 10), iar ordinul tehnic de la intrarea în vigoare (art. 4 alin. 4). Obligația sancționabilă poate deci preceda procedura. Formula „realizate pe teritoriul României” nu lămurește dacă sunt vizate și livrările intracomunitare sau importurile. Cât timp subiectul obligației e nedefinit, ambele părți ar putea raporta aceeași tranzacție. Formularea „exclusiv” de la art. 5 alin. (3) poate fi invocată pentru a contesta controalele pornite pe baza datelor raportate, ceea ce ar restrânge, paradoxal, puterile ANAF față de Codul de procedură fiscală. Există și o eroare de redactare la art. 8 alin. (1): „Contribuabili” în loc de „Contribuabilii”.",
-      "constitutionalityNote": "Scopul este legitim (art. 56 – justa așezare a sarcinilor fiscale), iar sarcina impusă e moderată, deci nu apare o problemă de fond cu art. 44 sau art. 45. Problema este previzibilitatea (art. 1 alin. 5): subiectul obligației, sfera tranzacțiilor scutite și situația persoanelor fizice nu se pot stabili din text, iar conținutul raportării e delegat integral unui ordin ANAF. Contravențiile cu amenzi de acest nivel au caracter „penal” în sensul art. 6 CEDO (criteriile Engel; Anghel c. României, 2007). Prin art. 20, exigența legalității sancțiunii, formulată de art. 23 alin. (12) pentru materia penală, li se aplică deci și lor. Colectarea datelor despre persoane fizice e o ingerință în viața privată (art. 26), admisibilă potrivit art. 53 doar dacă legea fixează durata păstrării și regulile de acces. Dacă implementarea cere cheltuieli noi pentru ANAF, art. 138 alin. (5) impune indicarea sursei de finanțare.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează accesul la o profesie. Nici Directiva (UE) 2015/1535 (TRIS) nu e incidentă: o obligație de raportare fiscală nu este o regulă privind serviciile societății informaționale, deci nu necesită notificare. Relevantă este Directiva TVA 2006/112/CE: art. 273 permite statelor obligații suplimentare împotriva fraudei, dacă sunt proporționale și nu creează formalități legate de trecerea frontierelor în comerțul intra-UE. De aceea, textul trebuie să precizeze dacă vizează operațiuni intracomunitare. Pachetul ViDA (Directiva (UE) 2025/516) armonizează raportarea digitală pentru tranzacțiile intra-UE, deci o raportare paralelă cu e-Factura ar trebui evitată. Pe protecția datelor contează GDPR, art. 5 alin. (1) lit. c) și e) (minimizarea datelor, limitarea stocării) și art. 23. În cauza C-175/20 SS SIA (2022), CJUE a cerut ca datele solicitate de fisc să fie necesare și precis delimitate, așa că lipsa unui termen de păstrare e o vulnerabilitate.",
-      "senatForm": {
-        "articleRef": "Art. 4 alin. (1), (2) și (4)",
-        "proposalContent": "(1) Raportează doar cedentul: cel care vinde bunul, prestează serviciul sau cedează dreptul. (2) Nu se raportează operațiunile din RO e-Factura, actele autentificate notarial și cesiunile înscrise la ONRC; ANAF publică lista completă a excepțiilor. (4) Ordinul ANAF se emite înainte de intrarea în vigoare a legii; amenzile se aplică după 90 de zile de la publicarea lui.",
-        "argumentation": "Art. 4 nu spune cine raportează (vânzătorul, cumpărătorul sau ambii) și nici când o tranzacție e deja „comunicată” prin alt sistem, deși amenzile de la art. 9 ajung la 50.000 lei. În plus, ordinul ANAF poate apărea la 90 de zile după intrarea în vigoare, deci obligația ar fi sancționabilă fără procedură tehnică. Art. 1 alin. (5) din Constituție cere norme previzibile.",
-        "otherComments": "Art. 2 alin. (2): persoana fizică nu poate ști dinainte dacă ANAF va vedea „indicii” de risc; obligația ar trebui să privească doar persoanele înregistrate fiscal pentru o activitate economică. Art. 9: să nu se amendeze eroarea corectată din proprie inițiativă în 30 de zile. Lit. c) dublează contravențiile din Codul de procedură fiscală pentru nefurnizarea documentelor."
-      }
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 128023,
+      "durationMs": 86866,
+      "sourceEndMarker": "SF-BF84E898",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Raportări la ANAF pentru tranzacții de peste 200.000 de euro",
-      "verdictShort": "Scopul este legitim, iar interdicția sancțiunilor automate este utilă. Forma analizată introduce însă raportări insuficient definite și amenzi importante, inclusiv pentru informații eronate, fără garanții practice suficiente pentru contribuabili.",
-      "initiatorClaim": "Inițiatorii urmăresc identificarea tranzacțiilor suspecte și reducerea evaziunii prin folosirea infrastructurii digitale existente. Ei susțin că vor evita raportările duble și presiunea administrativă inutilă asupra contribuabililor corecți.",
-      "realityCheck": "Art. 4 instituie raportarea în 5 zile lucrătoare a tranzacțiilor care depășesc 200.000 de euro și nu sunt deja comunicate prin sistemele menționate, fără să desemneze expres partea responsabilă sau să explice verificarea exceptării. Art. 9 adaugă amenzi de 10.000–50.000 lei pentru persoane juridice și 5.000–20.000 lei pentru persoane fizice care desfășoară activități economice, inclusiv pentru informații incomplete ori eronate. Analiza de risc există deja în Codul de procedură fiscală: noutatea concretă este raportarea suplimentară și regimul sancționator, nu apariția controlului bazat pe risc. [Codul de procedură fiscală, art. 1 și 7](https://legislatie.just.ro/Public/DetaliiDocument/304475).",
+      "plainTitle": "Raportarea tranzacțiilor de peste 200.000 de euro la ANAF",
+      "verdictShort": "Scopul fiscal este legitim, iar proiectul conține garanții utile. Totuși, obligația de raportare este insuficient definită și poate atrage amenzi mari, inclusiv înainte de termenul stabilit pentru aprobarea procedurii tehnice.",
+      "initiatorClaim": "Inițiatorii urmăresc identificarea fraudelor fiscale din tranzacțiile mari prin analiza de risc și utilizarea infrastructurii informatice existente. Susțin că vor reduce controalele inutile și vor evita obligațiile birocratice excesive.",
+      "realityCheck": "Proiectul introduce raportarea în 5 zile lucrătoare a tranzacțiilor care depășesc 200.000 de euro și nu sunt deja comunicate prin sistemele indicate, precum și amenzi pentru neraportare, informații incomplete sau eronate și refuzul nejustificat de a furniza documente. Nu introduce taxe noi și interzice sancționarea automată exclusiv pe baza analizei de risc, dar lasă neclare persoana obligată să raporteze, datele obligatorii și verificarea exceptării de la raportare. Costurile de conformare și adaptare informatică nu sunt cuantificate în documentele furnizate.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
@@ -105,24 +107,47 @@
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 3 lit. a) stabilește un prag strict peste 200.000 euro, fără să precizeze includerea TVA sau momentul efectuării operațiunii pentru contracte executate și plătite în etape. Aceste elemente determină existența și scadența obligației sancționate.",
-        "Art. 4 folosește formularea impersonală «se raportează»: nu stabilește expres dacă obligația aparține furnizorului, cumpărătorului sau ambelor părți și nici datele esențiale obligatorii. Aceste elemente nu ar trebui lăsate integral procedurii tehnice.",
-        "Art. 4 alin. (2) exclude tranzacțiile deja comunicate, dar nu oferă contribuabilului o modalitate de verificare. Dacă transmiterea printr-un sistem existent intervine după termenul de 5 zile, textul poate produce tocmai raportarea suplimentară pe care expunerea de motive promite să o evite.",
-        "Art. 2 alin. (2) folosește alternativa «sau»: riscul fiscal semnificativ poate atrage și persoane fizice fără activitate economică repetată. Totuși, art. 9 alin. (2) nu stabilește o amendă pentru persoanele fizice fără activitate economică, rezultând o necorelare între domeniul legii și sancțiuni.",
-        "Art. 9 aplică aceleași intervale de amendă unor conduite foarte diferite, fără un mecanism expres de rectificare a erorilor minore. Totuși, vinovăția rămâne necesară, iar avertismentul pentru fapte de gravitate redusă este posibil potrivit dreptului comun; amenda nu este inevitabilă pentru orice eroare. [OG nr. 2/2001, art. 1 și 7](https://legislatie.just.ro/Public/DetaliiDocument/202882).",
-        "Art. 3 lit. c) și art. 6 lit. d) identifică fragmentarea artificială, dar nu prevăd cumularea operațiunilor legate într-un interval determinat pentru calcularea pragului. Fragmentarea este indicator de risc, fără o regulă clară care să declanșeze raportarea tranzacțiilor individuale sub prag.",
-        "Art. 5 alin. (2)–(3) oferă garanții reale: analiza nu justifică singură sancțiuni automate, iar verificările necesită indicii rezonabile. Art. 6 lit. e) trebuie aplicat astfel încât relația comercială cu un contribuabil riscant să rămână un indiciu, fără să devină dovadă suficientă a unei încălcări.",
-        "Nu sunt introduse impozite, licențe exclusive sau monopoluri. Există însă costuri suplimentare de contabilitate, verificare și adaptare informatică, relativ mai apăsătoare pentru IMM-uri; expunerea furnizată nu cuantifică aceste costuri, cheltuielile ANAF sau veniturile suplimentare anticipate."
+        "Art. 4 folosește formula «tranzacțiile se raportează», fără să precizeze dacă obligația revine cumpărătorului, vânzătorului sau ambelor părți. Această omisiune este importantă deoarece art. 9 sancționează încălcarea obligației.",
+        "Art. 4 alin. (2) exclude tranzacțiile deja comunicate prin anumite sisteme, dar nu stabilește cum află contribuabilul că transmiterea s-a realizat și ce dovadă îl protejează de amendă. Menționarea e-Factura și SAF-T în expunerea de motive nu rezolvă singură această incertitudine.",
+        "Art. 11 pune legea în vigoare la 6 luni de la publicare, însă art. 4 alin. (4) permite aprobarea procedurii tehnice în următoarele 90 de zile. Poate exista astfel o perioadă de aproximativ 3 luni cu obligații și sancțiuni aplicabile, dar fără procedura tehnică aprobată.",
+        "Art. 2 alin. (2) permite includerea persoanelor fizice și numai pentru existența unui «risc fiscal semnificativ», alternativ față de activitatea economică de continuitate. Art. 9 alin. (2) stabilește însă amenzi pentru persoane fizice care desfășoară activități economice, lăsând necorelat tratamentul celorlalte persoane fizice vizate.",
+        "Art. 9 prevede amenzi de 10.000–50.000 lei pentru persoane juridice și 5.000–20.000 lei pentru persoane fizice cu activități economice, fără o procedură specială de remediere a erorilor. Proporționalitatea este prevăzută expres, dar amploarea sancțiunilor face esențială definirea precisă a obligațiilor; nu rezultă că orice eroare trebuie automat amendată.",
+        "Art. 3 și art. 6 definesc fragmentarea artificială și o folosesc ca indicator de risc, dar nu instituie o regulă de cumul al tranzacțiilor sau un interval de agregare. Definiția nu permite, singură, sancționarea neraportării unor operațiuni individuale sub prag.",
+        "Art. 5, art. 7 și art. 8 oferă garanții reale: analiza nu justifică singură sancțiuni automate, verificările cer indicii rezonabile, iar actele fiscale pot fi contestate. Aceste garanții reduc riscul unui control arbitrar.",
+        "Art. 10 cere elaborarea normelor în 90 de zile de la publicare, folosind un calendar diferit de cel al ordinului tehnic. Articolele finale nu conțin derogări, abrogări sau modificări ascunse ale altor legi."
       ],
-      "blindSpotsCaught": "Art. 11 activează legea după 6 luni de la publicare, dar art. 4 alin. (4) permite aprobarea procedurii tehnice abia în următoarele 90 de zile: obligația și sancțiunile pot deveni aplicabile înaintea procedurii necesare raportării. Art. 10 cere elaborarea normelor în 90 de zile de la publicare, fără să precizeze clar actul de aprobare, ceea ce accentuează necorelarea. Separat, contestația fiscală din art. 8 nu înlocuiește plângerea împotriva procesului-verbal contravențional, reglementată de OG nr. 2/2001. [Regimul contravențiilor, art. 31–32](https://legislatie.just.ro/Public/DetaliiDocument/284399).",
-      "constitutionalityNote": "Vulnerabilitatea principală privește art. 1 alin. (5): destinatarul raportării, conținutul obligației, momentul tranzacției și exceptările trebuie să fie previzibile, mai ales când încălcarea atrage amenzi. Art. 23 alin. (12) consacră legalitatea pedepsei; proiectul instituie contravenții, astfel că nu trebuie echivalate automat amenzile administrative cu pedepsele penale. Protecția vieții private, proprietății și libertății economice, potrivit art. 26, 44 și 45, impune justificarea ingerințelor și garanții efective. Art. 7–8 sunt favorabile, dar nu elimină ambiguitățile. Formula finală invocă art. 76 alin. (1), deși materia descrisă pare de lege ordinară: calificarea trebuie corelată cu art. 73 și 76, fără a deduce automat neconstituționalitatea dintr-o formulă a proiectului. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355).",
-      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile asupra accesului la profesii reglementate sau exercitării acestora; textul analizat nu introduce asemenea condiții, deci nu rezultă obligația testului specific din această directivă. Concurența poate beneficia de combaterea fraudei, dar costurile fixe de conformare pot dezavantaja IMM-urile; necesitatea și proporționalitatea sarcinii trebuie fundamentate. [Directiva 2018/958, art. 1–2](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018L0958). Raportarea electronică și analiza informatică nu constituie, singure, reglementarea specifică a serviciilor digitale sau AI: din text nu rezultă o obligație TRIS potrivit Directivei 2015/1535. Eventualele norme tehnice ulterioare trebuie evaluate după conținut. [Directiva 2015/1535, art. 1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32015L1535). Pentru datele persoanelor fizice, trimiterile generale la GDPR trebuie completate prin reguli clare ori trimiteri precise privind datele necesare, păstrarea, accesul și rectificarea. Interdicția sancțiunilor automate este utilă, însă art. 22 GDPR poate viza și alte decizii exclusiv automatizate cu efecte juridice sau similare semnificative. [GDPR, art. 5 și 22](https://eur-lex.europa.eu/legal-content/RO-EN/TXT/?uri=CELEX%3A32016R0679).",
+      "blindSpotsCaught": "Capcana principală este calendarul: termenul pentru procedura de raportare începe abia după intrarea în vigoare, în timp ce obligația și sancțiunile nu sunt amânate corespunzător. Separat, invocarea generică a protecției datelor nu clarifică datele colectate, durata păstrării și accesul la acestea.",
+      "constitutionalityNote": "Riscul principal privește art. 1 alin. (5) din Constituție: destinatarii trebuie să poată identifica obligația, condițiile exceptării și conduita sancționată. Art. 23 alin. (12) consacră legalitatea pedepsei, dar proiectul instituie contravenții, nu infracțiuni; analiza previzibilității contravenționale se sprijină în principal pe art. 1 alin. (5). Prelucrarea datelor și sarcinile administrative trebuie evaluate și prin art. 26, art. 44 și art. 45. Art. 21 și art. 24 beneficiază de garanțiile din art. 8, însă formulările generale nu remediază obligațiile neclare. Nu rezultă o neconstituționalitate certă a întregului proiect. Evaluarea privește forma furnizată; verificarea online a legislației consolidate și a dosarului parlamentar nu a fost disponibilă.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testarea proporționalității reglementărilor care restrâng accesul la profesii reglementate sau exercitarea acestora; proiectul nu introduce asemenea restricții, deci nu rezultă obligația efectuării testului specific acestei directive. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu rezultă din simpla raportare electronică: textul nu stabilește cerințe tehnice pentru produse ori reguli specifice serviciilor societății informaționale și nu reglementează AI. GDPR rămâne relevant pentru scop, necesitate, minimizarea datelor, păstrare și securitate; interdicția sancțiunilor automate nu acoperă singură toate cerințele privind deciziile automatizate. Nu se instituie un monopol sau o barieră profesională explicită, dar costurile fixe de conformare pot apăsa relativ mai mult asupra IMM-urilor.",
       "senatForm": {
-        "articleRef": "Art. 4 alin. (4)",
-        "proposalContent": "(4) Procedura tehnică de raportare se aprobă prin ordin al președintelui ANAF și se publică în Monitorul Oficial în termen de 90 de zile de la publicarea legii. Obligația de raportare devine aplicabilă numai după publicarea procedurii și operaționalizarea sistemului. Indisponibilitatea tehnică a sistemului suspendă termenul de raportare pe durata acesteia.",
-        "argumentation": "Art. 4 permite aprobarea procedurii la 90 de zile după intrarea legii în vigoare, deși raportarea și amenzile devin aplicabile de la intrarea în vigoare. Amendamentul corelează calendarul și împiedică sancționarea pentru raportări imposibile din cauza lipsei procedurii sau a indisponibilității sistemului ANAF.",
-        "otherComments": "Solicitare către Comisia pentru buget, finanțe și bănci a Camerei Deputaților, pentru preluare ca amendament. Separat, trebuie precizate persoana obligată să raporteze, dovada exceptării pentru date deja transmise și rectificarea fără amendă a erorilor minore. Analiza privește forma inițiatorului furnizată."
-      }
+        "articleRef": "Art. 4 alin. (3) și (4)",
+        "proposalContent": "(3) Raportarea se face în 5 zile lucrătoare de la efectuarea tranzacției. Obligația și sancțiunile aferente se aplică după 30 de zile de la intrarea în vigoare a ordinului prevăzut la alin. (4), dar nu înainte de intrarea în vigoare a legii. (4) Procedura tehnică se aprobă prin ordin al președintelui ANAF în 90 de zile de la publicarea legii.",
+        "argumentation": "Calendarul actual permite aplicarea obligației și a amenzilor înainte de aprobarea procedurii tehnice. Publicarea anticipată a ordinului și intervalul de adaptare asigură posibilitatea efectivă de conformare și previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
+        "otherComments": "Comisia pentru buget, finanțe și bănci: solicitați și precizarea persoanei obligate, a datelor raportate și a dovezii exceptării, corelarea art. 2 cu art. 9 și o procedură de corectare a erorilor. Termenul de amendamente indicat, 28.10.2026, a trecut; transmiterea observațiilor nu garantează preluarea lor ca amendament."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-28T20:18:15.887Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T12:21:53.423Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

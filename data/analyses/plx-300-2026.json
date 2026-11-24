@@ -2,7 +2,7 @@
   "billId": "PL-x 300/2026",
   "slug": "plx-300-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:44:54.509Z",
+  "updatedAt": "2026-11-24T14:49:14.579Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,12 +31,12 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 4,
-    "riskLevel": "yellow",
-    "plainTitle": "Design unic și accesibil pentru site-urile statului, dar cu termene și amenzi necorelate",
-    "summaryTlDr": "O inițiativă în principiu utilă (model GOV.UK/Franța) care ar unifica interfețele publice prin cod open-source, dar forma adoptată de Senat are defecte serioase de tehnică legislativă. Legea instituie amenzi înainte ca standardul și normele metodologice să existe și creează riscuri de blocaj în achizițiile IT și în administrația locală.",
-    "initiatorClaim": "Inițiatorii propun crearea Sistemului Unic de Design Digital (SUDD) pentru a elimina fragmentarea site-urilor și aplicațiilor statului, a reduce costurile recurente de dezvoltare și a asigura accesibilitatea efectivă pentru toți utilizatorii, inclusiv persoanele cu dizabilități.",
-    "realityCheck": "În practică, legea obligă toate autoritățile, spitalele, universitățile și organismele publice să-și alinieze interfețele digitale până la 1 ianuarie 2028 sub sancțiunea amenzii de 7.500–10.000 lei, deși normele de aplicare vin abia după intrarea în vigoare, iar SUDD nici nu a fost încă dezvoltat de ADR. Mai mult, dreptul cetățenilor la remedierea erorilor este golit de forță prin formula discreționară «dacă consideră», iar impunerea rigidă a SUDD în licitații poate bloca achiziția de software comercial standardizat.",
+    "riskScore": 3.7,
+    "riskLevel": "green",
+    "plainTitle": "Site-urile și aplicațiile statului trebuie să arate și să funcționeze la fel și să fie accesibile",
+    "summaryTlDr": "Este o lege utilă și în esență tehnică: creează un set comun de componente și reguli de design pentru serviciile digitale publice și nu impune obligații cetățenilor sau firmelor. Problemele sunt de redactare: un termen fix (1 ianuarie 2028) greu de respectat și sancționat cu amendă, un drept de sesizare golit de conținut la art. 5 alin. (2) și finanțarea neclară pentru primării.",
+    "initiatorClaim": "Inițiatorii vor să pună capăt site-urilor și aplicațiilor publice fragmentate, inaccesibile și refăcute de fiecare instituție de la zero. Propun un sistem național de design reutilizabil (SUDD), administrat de ADR și impus prin achizițiile publice, după modelul Franței, Regatului Unit, SUA și Republicii Moldova.",
+    "realityCheck": "Legea obligă toate organismele publice să își alinieze interfețele digitale la SUDD, pe care ADR îl va publica ca resursă open-source. Detaliile esențiale (structura SUDD, procedura de verificare, regimul excepțiilor) sunt lăsate pe seama unei hotărâri de Guvern. Termenul-limită de 1 ianuarie 2028 de la art. 4 alin. (4) intră în conflict cu calendarul etapizat promis autorităților locale la art. 1 alin. (3), iar art. 10 amendează instituțiile publice cu 7.500–10.000 lei, adică bani publici mutați dintr-un buget în altul. Dreptul utilizatorului de a cere remedierea depinde de aprecierea instituției sesizate.",
     "affectedGroups": [
       "Toți cetățenii",
       "IT & AI",
@@ -44,10 +44,10 @@
       "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. 4 alin. (3)-(4) și Art. 10 alin. (1)",
-      "proposalContent": "Art. 4 alin. (3): Proiectele digitale inițiate după publicarea SUDD și a normelor metodologice respectă conformitatea cu SUDD. Art. 4 alin. (4): Organismele centrale se aliniază în 24 luni de la publicarea SUDD, iar autoritățile locale conform calendarului din HG. Art. 10 alin. (1): Sancțiunile se aplică doar după publicarea SUDD și a normelor.",
-      "argumentation": "În forma actuală, legea intră în vigoare la 60 de zile, iar normele metodologice abia la încă 60 de zile, timp în care art. 10 sancționează nerespectarea unui SUDD inexistent, încălcând art. 1 alin. (5) din Constituție. Totodată, termenul fix 1 ianuarie 2028 contrazice calendarul etapizat pentru administrația locală prevăzut la art. 1 alin. (3).",
-      "otherComments": "Recomandați și completarea art. 2 lit. f) cu cuvântul «gratuit» («puse la dispoziție cu titlu gratuit»), eliminarea expresiei discreționare «dacă consideră» de la art. 5 alin. (2), clarificarea naturii avizului CNTD (art. 7) și excepții exprese la art. 8 pentru soluțiile software comerciale (COTS/SaaS) cu interfețe nemodificabile."
+      "articleRef": "Art. 4 alin. (4)",
+      "proposalContent": "(4) Organismele din sectorul public asigură alinierea interfețelor digitale publice ale serviciilor publice digitale existente la cerințele SUDD în termen de 24 de luni de la intrarea în vigoare a normelor metodologice prevăzute la art.11 alin.(2), iar autoritățile administrației publice locale, potrivit calendarului prevăzut la art.1 alin.(3).",
+      "argumentation": "Data fixă 1.01.2028 lasă, la stadiul actual, sub un an după adoptarea normelor, față de 24 de luni anunțate în expunerea de motive, și contrazice calendarul etapizat pentru autoritățile locale de la art.1 alin.(3). Cum art.10 sancționează încălcarea art.4 alin.(4), termenul trebuie să fie previzibil și realizabil.",
+      "otherComments": "Art.5 alin.(2): eliminați „dacă consideră că acestea se aliniază principiilor prevăzute la art.3”, care lasă remedierea la discreția instituției. Art.2 lit.f): completați „cu titlu gratuit”. Art.9 alin.(2): costurile autorităților locale nu se suportă din bugetul de stat; corelați cu art.6 lit.h)."
     }
   },
   "council": {
@@ -89,8 +89,40 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 58656,
+      "sourceEndMarker": "SF-CFF643E5",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Site-urile și aplicațiile statului trebuie să arate și să funcționeze la fel și să fie accesibile",
+      "verdictShort": "Este o lege utilă și în esență tehnică: creează un set comun de componente și reguli de design pentru serviciile digitale publice și nu impune obligații cetățenilor sau firmelor. Problemele sunt de redactare: un termen fix (1 ianuarie 2028) greu de respectat și sancționat cu amendă, un drept de sesizare golit de conținut la art. 5 alin. (2) și finanțarea neclară pentru primării.",
+      "initiatorClaim": "Inițiatorii vor să pună capăt site-urilor și aplicațiilor publice fragmentate, inaccesibile și refăcute de fiecare instituție de la zero. Propun un sistem național de design reutilizabil (SUDD), administrat de ADR și impus prin achizițiile publice, după modelul Franței, Regatului Unit, SUA și Republicii Moldova.",
+      "realityCheck": "Legea obligă toate organismele publice să își alinieze interfețele digitale la SUDD, pe care ADR îl va publica ca resursă open-source. Detaliile esențiale (structura SUDD, procedura de verificare, regimul excepțiilor) sunt lăsate pe seama unei hotărâri de Guvern. Termenul-limită de 1 ianuarie 2028 de la art. 4 alin. (4) intră în conflict cu calendarul etapizat promis autorităților locale la art. 1 alin. (3), iar art. 10 amendează instituțiile publice cu 7.500–10.000 lei, adică bani publici mutați dintr-un buget în altul. Dreptul utilizatorului de a cere remedierea depinde de aprecierea instituției sesizate.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "IT & AI",
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 4 alin. (4) fixează data de 1 ianuarie 2028 pentru alinierea tuturor serviciilor existente. Expunerea de motive promite 24 de luni de la intrarea în vigoare, dar proiectul e încă la comisii (noiembrie 2026). Intrarea în vigoare se face la 60 de zile de la publicare, iar normele vin după alte 60 de zile, așa că termenul real poate scădea sub un an.",
+        "Art. 4 alin. (4) nu exceptează autoritățile locale și contrazice art. 1 alin. (3) și art. 11 alin. (3) lit. c), care le dau un calendar etapizat stabilit prin HG. Totuși, art. 10 sancționează contravențional încălcarea art. 4 alin. (4).",
+        "Art. 5 alin. (2): instituția remediază neconformitățile doar „dacă consideră că acestea se aliniază principiilor prevăzute la art. 3”. Formularea este ambiguă și transformă dreptul de la alin. (1) într-o facultate discreționară, fără termen și fără cale de escaladare, deși expunerea de motive le anunță.",
+        "Art. 10 alin. (1) sancționează și încălcarea art. 4 alin. (3), adică obligația ca proiectele să fie „concepute de la inițiere” conform SUDD. Normă vagă, greu de constatat obiectiv, folosită ca bază pentru o contravenție.",
+        "Art. 9 alin. (2) pune costurile de conformare pe „bugetul de stat, prin bugetul fiecărei instituții”, deși autoritățile locale au bugete proprii. Art. 6 lit. h) și art. 11 alin. (3) lit. i) promit „mecanisme concrete de sprijin financiar” fără sursă sau sumă.",
+        "Art. 6 lit. i) trimite la un „program național obligatoriu de formare și certificare gratuită” pe care legea nu îl înființează nicăieri și nu spune cine îl organizează.",
+        "Art. 2 lit. f) conține o omisiune: „puse la dispoziție cu titlu,” (lipsește probabil „gratuit”). Lipsa contează, pentru că determină regimul de utilizare a resurselor SUDD."
+      ],
+      "blindSpotsCaught": "Derogarea de la art. 4 alin. (5) are cel mult 12 luni, inclusiv pentru serviciile de securitate națională. Pentru acestea, decizia aparține ADR, o structură subordonată Guvernului, iar art. 4 alin. (6) cere publicarea derogărilor fără vreo excepție pentru informațiile clasificate. Art. 7 obligă ca toate actele ADR din art. 6 alin. (2) să fie avizate de Consiliul Național de Transformare Digitală, ceea ce poate bloca actualizările tehnice curente ale unei biblioteci open-source. Amenda are un minim ridicat și un interval foarte îngust (7.500–10.000 lei), aplicat la fel unui minister și unei comune mici. Legea nu corelează SUDD cu Legea nr. 232/2022 (Actul european privind accesibilitatea), cu Regulamentul (UE) 2024/903 (Europa interoperabilă) sau cu Regulamentul (UE) 2018/1724 (Portalul digital unic).",
+      "constitutionalityNote": "Legea nu ridică probleme constituționale majore. Ea susține art. 50 (protecția persoanelor cu handicap) și art. 31 (accesul la informație). Riscuri: (1) art. 1 alin. (5), previzibilitatea normei. Contravențiile de la art. 10 au la bază norme vagi (art. 4 alin. (3)) și un termen contradictoriu cu art. 1 alin. (3), iar conținutul obligației depinde integral de o HG încă neadoptată. (2) Art. 120–121, autonomia locală. Sancționarea de către ADR a autorităților locale e admisibilă prin lege, dar devine problematică dacă termenul nu ține seama de calendarul etapizat promis. (3) Art. 138 alin. (5) și art. 111 alin. (1). Legea generează cheltuieli, iar clauza „în limita creditelor bugetare aprobate” atenuează riscul, dar nu identifică sursa pentru bugetele locale.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează profesii. Directiva (UE) 2015/1535 (TRIS), în mod probabil, nu se aplică: obligațiile vizează organismele publice și propriile lor interfețe, nu produse sau servicii ale societății informaționale oferite de operatori privați. O notificare prudentă rămâne recomandabilă dacă normele impun cerințe tehnice furnizorilor. Legea este compatibilă cu Directiva (UE) 2016/2102 (OUG nr. 112/2018), pe care o respectă expres prin art. 1 alin. (4). La achiziții (art. 8), cerințele SUDD trebuie formulate ca specificații tehnice conforme art. 42 din Directiva 2014/24/UE (Legea nr. 98/2016): bazate pe standarde (EN 301 549), cu mențiunea „sau echivalent”. Altfel pot restrânge concurența. Publicarea SUDD ca open-source (art. 6 lit. g) reduce riscul de dependență de un singur furnizor și favorizează IMM-urile.",
+      "senatForm": {
+        "articleRef": "Art. 4 alin. (4)",
+        "proposalContent": "(4) Organismele din sectorul public asigură alinierea interfețelor digitale publice ale serviciilor publice digitale existente la cerințele SUDD în termen de 24 de luni de la intrarea în vigoare a normelor metodologice prevăzute la art.11 alin.(2), iar autoritățile administrației publice locale, potrivit calendarului prevăzut la art.1 alin.(3).",
+        "argumentation": "Data fixă 1.01.2028 lasă, la stadiul actual, sub un an după adoptarea normelor, față de 24 de luni anunțate în expunerea de motive, și contrazice calendarul etapizat pentru autoritățile locale de la art.1 alin.(3). Cum art.10 sancționează încălcarea art.4 alin.(4), termenul trebuie să fie previzibil și realizabil.",
+        "otherComments": "Art.5 alin.(2): eliminați „dacă consideră că acestea se aliniază principiilor prevăzute la art.3”, care lasă remedierea la discreția instituției. Art.2 lit.f): completați „cu titlu gratuit”. Art.9 alin.(2): costurile autorităților locale nu se suportă din bugetul de stat; corelați cu art.6 lit.h)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -145,7 +177,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:44:54.509Z",
+      "replacedAt": "2026-11-24T14:49:14.579Z",
       "reasons": [
         "model"
       ]

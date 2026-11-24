@@ -2,7 +2,7 @@
   "billId": "PL-x 696/2026",
   "slug": "plx-696-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:39:52.436Z",
+  "updatedAt": "2026-11-24T14:46:00.395Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,12 +31,12 @@
     "key": "324d9c57f3d03b1a"
   },
   "consensus": {
-    "riskScore": 2.5,
+    "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "Acces electronic gratuit pentru instituții la datele ONRC, dar fără interdicția de a mai cere firmei certificate constatatoare",
-    "summaryTlDr": "Este un proiect tehnic, benign și cu garanții bune de protecție a datelor, care obligă ONRC să ofere instituțiilor acces electronic documentat și transparent. Totuși, forma adoptată de Senat a eliminat exact piesa de rezistență promisă de inițiatori: obligația celorlalte instituții de a verifica direct registrul și de a nu mai cere firmelor certificate constatatoare.",
-    "initiatorClaim": "Inițiatorii susțin că proiectul obligă autoritățile și instituțiile publice să își ia direct datele din registrul comerțului, interzice solicitarea certificatelor constatatoare și a copiilor actului constitutiv de la firme și elimină copia actului de identitate când reprezentantul legal poate fi verificat electronic în RNEP.",
-    "realityCheck": "În forma adoptată de Senat, obligația autorităților publice de a verifica direct datele și interdicția de a cere documente ONRC de la firme au dispărut complet din articolele legii, rămânând doar obligații tehnice în sarcina ONRC (acces gratuit prin Platforma Națională de Interoperabilitate sau servicii proprii, publicarea documentației API/SLA și un raport anual). În plus, gratuitatea furnizării informațiilor către autorități există deja la art. 11 alin. (8) din Legea nr. 265/2022, iar scutirea de copia cărții de identitate la art. 11 alin. (2) vizează doar «reprezentantul legal» și este condiționată vag de posibilitatea verificării electronice în RNEP.",
+    "plainTitle": "Instituțiile statului primesc acces gratuit și direct la datele din Registrul Comerțului",
+    "summaryTlDr": "Lege tehnică, benignă și utilă pentru digitalizare. Forma votată de Senat e însă mai slabă decât promite: ONRC trebuie să ofere acces, dar instituțiile nu sunt obligate să îl folosească și nici nu li se interzice să le mai ceară firmelor certificate constatatoare.",
+    "initiatorClaim": "Inițiatorii spun că vor să oprească practica prin care instituțiile cer firmelor certificate constatatoare și copii de acte ONRC, deși datele există deja în registru. Vor și să scutească solicitanții de copia buletinului când identitatea se poate verifica electronic.",
+    "realityCheck": "Forma Senatului obligă ONRC să ofere instituțiilor acces electronic gratuit prin Platforma națională de interoperabilitate, cu acces diferențiat, jurnalizare, documentație publică și un raport anual. Din text lipsesc însă obligația instituțiilor de a verifica direct și interdicția de a cere documente, descrise pe larg în expunerea de motive și în fișa Camerei. Și scutirea de copia actului de identitate e formulată condițional („dacă identificarea... se poate realiza”, „potrivit legii”), fără să spună cine verifică și când.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
@@ -44,10 +44,10 @@
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 2 (Art. 11¹ din Legea nr. 265/2022)",
-      "proposalContent": "Se introduce la art. 11¹ alin. (1¹): «Autoritățile și instituțiile publice obțin direct din registrul comerțului datele și documentele necesare atribuțiilor legale și nu pot solicita profesioniștilor certificate constatatoare, extrase sau copii ale actelor din dosar, decât în caz de indisponibilitate tehnică, consemnată motivat.»",
-      "argumentation": "Forma adoptată de Senat obligă doar ONRC să ofere acces electronic, dar elimină obligația instituțiilor publice de a verifica direct datele, promisă în Expunerea de motive. Fără interdicția expresă de a mai cere firmelor certificate constatatoare, interfețele riscă să rămână nefolosite, iar birocrația pentru IMM-uri nu se reduce.",
-      "otherComments": "La Art. I pct. 1 (art. 11 alin. 2), extindeți scutirea de copie CI la orice solicitant persoană fizică verificabil în RNEP, nu doar la reprezentantul legal, și corectați erorile «actul de identitatea» și «art.¹¹» (pct. 2). Termenul de 30 de zile (Art. II) poate fi extins la 60-90 de zile pentru implementare."
+      "articleRef": "Art. I pct. 2 – art. 11¹ alin. (6) (nou)",
+      "proposalContent": "Se introduce alin. (6): „Autoritățile și instituțiile publice nu pot solicita profesioniștilor certificate constatatoare, extrase sau copii din registrul comerțului dacă datele pot fi obținute prin accesul prevăzut la alin. (1), cu excepția cazurilor în care legea prevede expres depunerea; motivul imposibilității verificării directe se consemnează în scris.”",
+      "argumentation": "Expunerea de motive și fișa Camerei anunță obligația instituțiilor de a verifica direct datele și interdicția de a cere certificate ONRC, dar forma Senatului a păstrat doar obligația ONRC de a oferi acces. Fără această regulă, firmele pot fi în continuare obligate să plătească și să aducă certificate constatatoare, iar scopul legii rămâne nerealizat.",
+      "otherComments": "Corecturi: „art.¹¹” → „art. 11¹” și „actul de identitatea” → „actul de identitate” la art. 11 alin. (2). Precizați că ONRC (nu solicitantul) verifică din oficiu identitatea în RNEP, ca scutirea de copie să fie aplicabilă efectiv. Raportul anual (art. 11²) ar trebui să nominalizeze instituțiile care nu folosesc accesul direct."
     }
   },
   "council": {
@@ -87,8 +87,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 44586,
+      "sourceEndMarker": "SF-AF1551BB",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Instituțiile statului primesc acces gratuit și direct la datele din Registrul Comerțului",
+      "verdictShort": "Lege tehnică, benignă și utilă pentru digitalizare. Forma votată de Senat e însă mai slabă decât promite: ONRC trebuie să ofere acces, dar instituțiile nu sunt obligate să îl folosească și nici nu li se interzice să le mai ceară firmelor certificate constatatoare.",
+      "initiatorClaim": "Inițiatorii spun că vor să oprească practica prin care instituțiile cer firmelor certificate constatatoare și copii de acte ONRC, deși datele există deja în registru. Vor și să scutească solicitanții de copia buletinului când identitatea se poate verifica electronic.",
+      "realityCheck": "Forma Senatului obligă ONRC să ofere instituțiilor acces electronic gratuit prin Platforma națională de interoperabilitate, cu acces diferențiat, jurnalizare, documentație publică și un raport anual. Din text lipsesc însă obligația instituțiilor de a verifica direct și interdicția de a cere documente, descrise pe larg în expunerea de motive și în fișa Camerei. Și scutirea de copia actului de identitate e formulată condițional („dacă identificarea... se poate realiza”, „potrivit legii”), fără să spună cine verifică și când.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "IT & AI"
+      ],
+      "keyFindings": [
+        "Art. I pct. 2 (art. 11¹): ONRC asigură gratuit acces electronic prin Platforma națională de interoperabilitate (Legea 242/2022), iar până la operaționalizarea fluxurilor, prin servicii securizate proprii. Gratuitatea pentru instituții există deja la art. 11 alin. (8). Noutatea reală este canalul tehnic direct, cu acces diferențiat, autentificare și jurnalizare.",
+        "Decalaj major între expunerea de motive și text: forma adoptată nu conține nicio obligație pentru autorități de a obține datele direct și nicio interdicție de a cere certificate constatatoare sau copii ale actului constitutiv. Efectul de reducere a birocrației pentru firme depinde deci de bunăvoința instituțiilor sau de OUG 41/2016, nu de această lege.",
+        "Art. I pct. 1 (art. 11 alin. 2): în prezent, copia actului de identitate e obligatorie, cu excepția cererilor semnate cu semnătură electronică calificată. Proiectul adaugă o excepție dacă identificarea se poate face electronic prin RNEP (OUG 97/2005). Formularea e vagă și nu stabilește cine face verificarea.",
+        "Art. 11¹ alin. (3) precizează corect că accesul tehnic nu este, prin el însuși, temei juridic pentru prelucrarea datelor. Este o garanție bună față de GDPR (principiul limitării scopului).",
+        "Art. 11² și art. 24 alin. (1) lit. n¹): raport anual public până la 31 martie și o atribuție nouă pentru ONRC. Sunt obligații de transparență fără sancțiuni și fără costuri pentru cetățeni.",
+        "Greșeli de redactare: „art.¹¹” în loc de „art. 11¹” și „actul de identitatea”. Intrarea în vigoare la 30 de zile după publicare e realistă, pentru că sistemul ONRC V2.0 există deja."
+      ],
+      "blindSpotsCaught": "Chichița principală: titlul fișei Camerei și expunerea de motive descriu o „obligație” a instituțiilor și „limitarea solicitării certificatelor”, dar aceste reguli au dispărut din forma Senatului. Legea creează doar oferta tehnică (ONRC trebuie să dea acces), nu și cererea (instituțiile nu trebuie să îl folosească). Firmele pot fi puse în continuare să plătească certificate constatatoare. Raportul anual de la art. 11² devine astfel singurul instrument de presiune, iar textul nu cere ca el să numească instituțiile care nu folosesc accesul. Mai e o dublare: alin. (5) (mecanism alternativ la indisponibilitate) se suprapune parțial cu soluția tranzitorie din alin. (1).",
+      "constitutionalityNote": "Nu se observă probleme de constituționalitate. Normele sunt în general clare și previzibile (art. 1 alin. 5). Excepție face formula „dacă identificarea... se poate realiza electronic... potrivit legii” de la art. 11 alin. (2), care lasă loc de interpretare administrativă, dar nu în măsură să afecteze constituționalitatea. Protecția vieții private (art. 26) e respectată prin accesul diferențiat, jurnalizare și limitarea scopului (art. 11¹ alin. 2–3). Legea nu impune obligații sau sarcini noi cetățenilor ori firmelor.",
+      "euLawNote": "Directiva 2018/958 (testul de proporționalitate) nu se aplică: proiectul nu reglementează accesul la profesii sau exercitarea lor. Nu e necesară notificare TRIS (2015/1535): nu se instituie reguli tehnice pentru servicii ale societății informaționale oferite de privați, ci interoperabilitate între autorități. Proiectul e în linie cu Directiva (UE) 2017/1132 modificată prin Directiva 2019/1151 și 2025/25 (digitalizarea dreptului societăților, principiul „doar o dată”), cu Regulamentul (UE) 2018/1724 (Single Digital Gateway) și cu Interoperable Europe Act (Reg. 2024/903). Pe GDPR, art. 11¹ alin. (3) respectă principiile limitării scopului și minimizării datelor.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 2 – art. 11¹ alin. (6) (nou)",
+        "proposalContent": "Se introduce alin. (6): „Autoritățile și instituțiile publice nu pot solicita profesioniștilor certificate constatatoare, extrase sau copii din registrul comerțului dacă datele pot fi obținute prin accesul prevăzut la alin. (1), cu excepția cazurilor în care legea prevede expres depunerea; motivul imposibilității verificării directe se consemnează în scris.”",
+        "argumentation": "Expunerea de motive și fișa Camerei anunță obligația instituțiilor de a verifica direct datele și interdicția de a cere certificate ONRC, dar forma Senatului a păstrat doar obligația ONRC de a oferi acces. Fără această regulă, firmele pot fi în continuare obligate să plătească și să aducă certificate constatatoare, iar scopul legii rămâne nerealizat.",
+        "otherComments": "Corecturi: „art.¹¹” → „art. 11¹” și „actul de identitatea” → „actul de identitate” la art. 11 alin. (2). Precizați că ONRC (nu solicitantul) verifică din oficiu identitatea în RNEP, ca scutirea de copie să fie aplicabilă efectiv. Raportul anual (art. 11²) ar trebui să nominalizeze instituțiile care nu folosesc accesul direct."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -141,7 +171,7 @@
         "codex": 2
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:39:52.436Z",
+      "replacedAt": "2026-11-24T14:46:00.395Z",
       "reasons": [
         "model"
       ]

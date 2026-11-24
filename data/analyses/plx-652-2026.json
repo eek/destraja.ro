@@ -2,7 +2,7 @@
   "billId": "PL-x 652/2026",
   "slug": "plx-652-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:44:13.857Z",
+  "updatedAt": "2026-11-24T14:48:39.387Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,12 +31,12 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 4.5,
+    "riskScore": 4,
     "riskLevel": "yellow",
-    "plainTitle": "Ghișeul Unic pentru Diaspora: intenție utilă, dar lege blocată de erori grave de redactare și costuri neacoperite",
-    "summaryTlDr": "Deși scopul de a ajuta gratuit românii care revin în țară este benign, proiectul a trecut tacit de Senat cu vicii serioase: amenzi inaplicabile pentru miniștri, trimiteri circulare între articole, costuri pasate integral pe bugetul ADR și atingeri aduse autonomiei locale. Fără amendamente substanțiale la Camera Deputaților, riscă neconstituționalitatea și blocajul administrativ.",
-    "initiatorClaim": "Inițiatorii (parlamentari AUR) susțin că vor să elimine barierele birocratice pentru cei care se repatriază prin crearea unui ghișeu unic național gratuit (platforma diaspora.gov.ro și puncte fizice la consulate, prefecturi și primării), cu obligații clare și sancțiuni pentru instituțiile care nu actualizează informațiile.",
-    "realityCheck": "În practică, proiectul nu impune taxe sau restricții cetățenilor și firmelor, dar instituie un mecanism administrativ nefuncțional: Art. 10 amendează miniștrii prin personalul DRP făcând trimitere la un «art. 7 alin. (1)» inexistent și fără un termen concret de actualizare, iar Art. 13 trimite circular la el însuși în loc de Art. 12, blocând normele de aplicare. În plus, Art. 11 pune toate cheltuielile legii pe bugetul ADR fără fișă financiară, iar Art. 3 alin. (5) impune rigid minim 3 posturi în fiecare prefectură (cel puțin 126 de posturi la nivel național), indiferent de numărul real de solicitări.",
+    "plainTitle": "Un portal și ghișee unice pentru românii din diaspora care vor să se întoarcă acasă",
+    "summaryTlDr": "Ideea e utilă și nu pune poveri pe cetățeni sau firme: serviciile sunt gratuite, iar obligațiile cad doar pe ministere. Textul e însă scris în grabă: amenda trimite la un articol care nu există, banii nu sunt asigurați, iar protecția datelor lipsește.",
+    "initiatorClaim": "Inițiatorii spun că românii din străinătate renunță să se întoarcă pentru că nu găsesc informații coerente într-un singur loc. Ei propun un ghișeu unic, online și fizic, cu obligații clare pentru instituții și amenzi pentru cele care nu actualizează informațiile.",
+    "realityCheck": "Legea creează platforma diaspora.gov.ro, coordonată de DRP și plătită din bugetul ADR. Prevede puncte de contact la consulate, la prefecturi (minimum 3 posturi) și la primării, plus amenzi de 10.000–50.000 lei pentru conducătorii instituțiilor centrale. Sancțiunea e practic inaplicabilă, pentru că trimite la «art. 7 alin. (1)», care nu există. Costurile pentru personal sunt declarate «fără alocări suplimentare», deși legea impune posturi și termene noi.",
     "affectedGroups": [
       "Toți cetățenii",
       "Angajați & HR",
@@ -44,10 +44,10 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. 10 alin. (1)-(2) și Art. 13",
-      "proposalContent": "La Art. 10 alin. (1), «art. 7 alin. (1)» devine «art. 6 alin. (1)-(2)», cu termen de actualizare de 15 zile, răspunderea revenind persoanei desemnate la art. 6 alin. (3). La Art. 13, «art. 13 alin. (1)» se corectează în «art. 12 alin. (1)».",
-      "argumentation": "Adoptarea tacită la Senat a lăsat erori care încalcă art. 1 alin. (5) din Constituție: art. 10 amendează miniștri pentru un «art. 7 alin. (1)» inexistent, fără termen concret de actualizare, iar art. 13 trimite circular la el însuși, blocând metodologia. Sancțiunile trebuie să fie clare, previzibile și corelate ierarhic.",
-      "otherComments": "Corelați Art. 11 cu o sursă reală de finanțare (art. 138 alin. 5 Constituție), eliminați obligația rigidă de minim 3 posturi/prefectură (art. 3 alin. 5), înlăturați coordonarea UAT-urilor de către prefect (art. 5 alin. 3) și definiți operatorii GDPR pentru dosarele transmise online."
+      "articleRef": "Art. 10 alin. (1)",
+      "proposalContent": "Neîndeplinirea obligațiilor prevăzute la art. 6 alin. (1) și (2), în termen de 30 de zile de la notificarea scrisă a Departamentului pentru Românii de Pretutindeni, constituie contravenție și se sancționează cu amendă de la 5.000 lei la 20.000 lei, aplicată conducătorului autorității publice centrale în cauză.",
+      "argumentation": "Art. 10 trimite la «art. 7 alin. (1)», care nu există: art. 7 nu are alineate, iar obligațiile sunt în art. 6. O contravenție cu trimitere greșită încalcă cerința de previzibilitate (art. 1 alin. 5 din Constituție) și nu poate fi aplicată. Notificarea prealabilă și termenul de remediere fac sancțiunea proporțională și orientată spre conformare.",
+      "otherComments": "Alte erori: art. 13 trimite la «art. 13 alin. (1)» în loc de art. 12; art. 4 alin. (1) contopește MAE cu Ministerul Muncii; art. 2 alin. (2) nu clarifică ce cerere se soluționează în 60 de zile. Lipsesc operatorul de date (GDPR) pentru documentele din art. 3 alin. (3) și sursa de finanțare pentru posturile din prefecturi."
     }
   },
   "council": {
@@ -87,8 +87,42 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 53476,
+      "sourceEndMarker": "SF-FA602207",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Un portal și ghișee unice pentru românii din diaspora care vor să se întoarcă acasă",
+      "verdictShort": "Ideea e utilă și nu pune poveri pe cetățeni sau firme: serviciile sunt gratuite, iar obligațiile cad doar pe ministere. Textul e însă scris în grabă: amenda trimite la un articol care nu există, banii nu sunt asigurați, iar protecția datelor lipsește.",
+      "initiatorClaim": "Inițiatorii spun că românii din străinătate renunță să se întoarcă pentru că nu găsesc informații coerente într-un singur loc. Ei propun un ghișeu unic, online și fizic, cu obligații clare pentru instituții și amenzi pentru cele care nu actualizează informațiile.",
+      "realityCheck": "Legea creează platforma diaspora.gov.ro, coordonată de DRP și plătită din bugetul ADR. Prevede puncte de contact la consulate, la prefecturi (minimum 3 posturi) și la primării, plus amenzi de 10.000–50.000 lei pentru conducătorii instituțiilor centrale. Sancțiunea e practic inaplicabilă, pentru că trimite la «art. 7 alin. (1)», care nu există. Costurile pentru personal sunt declarate «fără alocări suplimentare», deși legea impune posturi și termene noi.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "Sănătate & Educație",
+        "Angajați & HR",
+        "IT & AI",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 10 alin. (1) sancționează neîndeplinirea obligațiilor «prevăzute la art. 7 alin. (1)». Art. 7 nu are alineate și nu conține obligații, care se află de fapt în art. 6. Norma contravențională e imprecisă și greu de aplicat.",
+        "Art. 13 fixează termenul pentru metodologie de la hotărârea «prevăzută la art. 13 alin. (1)», o trimitere circulară. Corect ar fi art. 12 alin. (1).",
+        "Art. 10 alin. (2) dă personalului DRP puterea de a amenda conducătorii ministerelor și ai ANAF. E o inversare ierarhică discutabilă, iar o amendă personală de până la 50.000 lei pentru o omisiune instituțională, fără notificare prealabilă, ridică probleme de proporționalitate.",
+        "Art. 11 pune toate cheltuielile în sarcina ADR, deși DRP este autoritatea responsabilă (art. 4 alin. 2). Art. 3 alin. (5) impune minimum 3 posturi la fiecare prefectură, iar art. 5 alin. (3) cere primăriilor să organizeze puncte GUD. Nu există fișă financiară și nici sursă de finanțare identificată.",
+        "Art. 2 alin. (2) spune că «cererea beneficiarului se va soluționa în termen de 60 de zile». Nu e clar dacă e vorba de cererea de asistență sau de procedura de fond (de exemplu, recunoașterea diplomei), care ține de alte autorități, cu alte termene legale.",
+        "Art. 3 alin. (3) permite transmiterea de documente și cereri prin platformă. Legea nu desemnează însă operatorul de date, temeiul prelucrării, durata de stocare sau regulile de acces între instituții.",
+        "Art. 4 alin. (1) contopește denumirile: «Ministerul Afacerilor Externe, Muncii, Familiei...». Ministerul Muncii pare omis ca entitate distinctă.",
+        "Senatul a adoptat proiectul tacit (art. 75 alin. 2 din Constituție), deci fără dezbatere de fond. Camera Deputaților este singurul filtru real."
+      ],
+      "blindSpotsCaught": "Pe lângă trimiterea greșită din art. 10, nu există nicio procedură de notificare și remediere înainte de amendă. Nici nu e clar cine e «conducătorul» unei autorități colegiale. Expunerea de motive invocă art. 3 alin. (4) pentru cele 3 posturi din prefecturi, care sunt de fapt în art. 3 alin. (5), și afirmă că nu se creează posturi noi, lucru pe care textul nu îl garantează. Domeniul «diaspora.gov.ro» e fixat prin lege, așa că orice schimbare tehnică ar cere o lege nouă. Formularea «inclusiv cele destinate diaspori» și art. 1 alin. (2), «să se restabilească» fără «în România», sunt redactări incomplete. Platforma ar trebui corelată explicit cu Portalul digital unic (Reg. UE 2018/1724) și cu PCU existent, ca să nu se dubleze.",
+      "constitutionalityNote": "Proiectul nu restrânge drepturi și sprijină efectiv art. 25 (libera circulație și dreptul de a reveni în țară). Riscurile sunt de ordin procedural și de calitate a legii. (1) Art. 10 contravine cerinței de claritate și previzibilitate (art. 1 alin. 5), aplicabilă cu atât mai mult normelor sancționatorii, pentru că trimite la o dispoziție inexistentă. (2) Art. 138 alin. (5) și art. 111 cer sursă de finanțare și punctul de vedere al Guvernului pentru cheltuieli noi. Jurisprudența CCR a sancționat inițiative parlamentare fără fișă financiară, iar art. 11 doar indică un buget, fără să identifice resurse. (3) Obligarea primăriilor să organizeze puncte GUD fără transfer de resurse poate intra în conflict cu autonomia locală (art. 120–121) și cu principiul finanțării competențelor noi. (4) Prelucrarea documentelor fără garanții legale minime ridică probleme față de art. 26 (viața intimă) și față de cerința ca ingerințele să fie prevăzute de lege.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: proiectul nu reglementează accesul la profesii sau exercitarea lor. Directiva (UE) 2015/1535 (TRIS) nu se aplică: platforma e un serviciu public al statului și nu impune reguli tehnice operatorilor privați de servicii ale societății informaționale. Nu apar efecte asupra concurenței sau a pieței unice. Proiectul se aliniază Regulamentului (UE) 2018/1724 (Single Digital Gateway), dar ar trebui să prevadă expres interoperabilitatea cu acesta. Lipsa desemnării operatorului de date și a temeiului prelucrării e greu de împăcat cu art. 6 alin. (3) și art. 5 din GDPR (UE) 2016/679, care cer un temei legal clar pentru prelucrările efectuate de autorități publice.",
+      "senatForm": {
+        "articleRef": "Art. 10 alin. (1)",
+        "proposalContent": "Neîndeplinirea obligațiilor prevăzute la art. 6 alin. (1) și (2), în termen de 30 de zile de la notificarea scrisă a Departamentului pentru Românii de Pretutindeni, constituie contravenție și se sancționează cu amendă de la 5.000 lei la 20.000 lei, aplicată conducătorului autorității publice centrale în cauză.",
+        "argumentation": "Art. 10 trimite la «art. 7 alin. (1)», care nu există: art. 7 nu are alineate, iar obligațiile sunt în art. 6. O contravenție cu trimitere greșită încalcă cerința de previzibilitate (art. 1 alin. 5 din Constituție) și nu poate fi aplicată. Notificarea prealabilă și termenul de remediere fac sancțiunea proporțională și orientată spre conformare.",
+        "otherComments": "Alte erori: art. 13 trimite la «art. 13 alin. (1)» în loc de art. 12; art. 4 alin. (1) contopește MAE cu Ministerul Muncii; art. 2 alin. (2) nu clarifică ce cerere se soluționează în 60 de zile. Lipsesc operatorul de date (GDPR) pentru documentele din art. 3 alin. (3) și sursa de finanțare pentru posturile din prefecturi."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -145,7 +179,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:44:13.857Z",
+      "replacedAt": "2026-11-24T14:48:39.387Z",
       "reasons": [
         "model"
       ]

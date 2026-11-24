@@ -2,7 +2,7 @@
   "billId": "PL-x 695/2026",
   "slug": "plx-695-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:40:12.094Z",
+  "updatedAt": "2026-11-24T14:46:00.068Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,12 +31,12 @@
     "key": "868c0b930e6af235"
   },
   "consensus": {
-    "riskScore": 3.5,
+    "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Premii mici neimpozabile în sport, cultură și educație, dar blocate de o formulare circulară",
-    "summaryTlDr": "Intenția de a indexa scutirea de impozit pentru premii mici la o șesime din salariul minim este benignă și utilă, însă articolul unic conține o contradicție tehnică gravă care riscă să facă scutirea inaplicabilă. În forma adoptată de Senat, textul exclude chiar premiile supuse art. 110 din Codul fiscal, generând confuzie juridică pentru organizatori și riscuri de recalculare la controalele ANAF.",
-    "initiatorClaim": "Inițiatorul susține că plafoanele fixe actuale de neimpozitare a premiilor au rămas în urma inflației și propune un prag dinamic de o șesime din salariul minim brut pe țară, pentru a stimula participarea și excelența în sport, cultură și educație fără intervenții legislative periodice.",
-    "realityCheck": "În prezent, Codul fiscal scutește integral doar anumite premii speciale (de ex. sport de înaltă performanță la art. 62 lit. w), învățământ dual la lit. o^1) sau recompense din fonduri publice la lit. d)), iar restul premiilor din concursuri sunt impozitate conform art. 108–110 cu un prag neimpozabil fix de 600 lei/premiu. Proiectul adaugă o nouă literă w¹) la art. 62, dar exceptează expres premiile „supuse regimului de impunere prevăzut la art. 110” — exact regimul din care ar fi trebuit să le scoată — și nu clarifică dacă un premiu care depășește o șesime din salariul minim devine impozabil integral sau doar pentru diferență.",
+    "plainTitle": "Premiile mici de la concursuri sportive, culturale și școlare ar fi scutite de impozit",
+    "summaryTlDr": "Este o relaxare fiscală benignă și bine intenționată, cu impact bugetar mic. Problema ei e de redactare: excluderea premiilor „supuse regimului de la art. 110” riscă să o lase aproape fără aplicare.",
+    "initiatorClaim": "Inițiatorul spune că plafoanele fixe de neimpozitare a premiilor au fost erodate de inflație. Propune un plafon dinamic, legat de salariul minim, ca să sprijine sportivii, artiștii și elevii premiați, pentru care premiul e adesea singurul sprijin financiar.",
+    "realityCheck": "Articolul unic adaugă la art. 62 din Codul fiscal lit. w¹), care declară neimpozabile premiile de până la o șesime din salariul minim brut în plată, pentru fiecare premiu. Totuși, textul exclude premiile „supuse regimului de impunere prevăzut la art. 110”, adică exact regimul general al veniturilor din premii și concursuri, care are deja un prag fix de neimpozitare. Astfel, nu e clar ce premii mai rămân în noua literă, iar plafonul dinamic s-ar putea să nu înlocuiască deloc pragul fix pe care expunerea de motive îl critică.",
     "affectedGroups": [
       "Contabili & Fiscalitate",
       "Sănătate & Educație",
@@ -44,10 +44,10 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Articol unic (art. 62 lit. w¹ Cod fiscal)",
-      "proposalContent": "„w¹) premiile în bani și/sau în natură acordate la competiții sportive, manifestări culturale ori concursuri educaționale, exceptând premiile publicitare și jocurile de noroc, în limita unei șesimi din salariul minim brut pe țară în vigoare la data acordării, pe premiu; diferența peste plafon se impozitează conform art. 110.”",
-      "argumentation": "Formula „altele decât cele supuse art. 110” creează o circularitate cu art. 108 și art. 110, golind scutirea de conținut (premiile din concursuri fiind taxate tocmai la art. 110). Expresia „până la o șesime” nu clarifică dacă premiile peste prag se taxează integral sau doar pe diferență, încălcând previzibilitatea legii (art. 1 alin. 5 Constituție).",
-      "otherComments": "Alternativ, scopul s-ar atinge mai clar modificând direct plafonul de 600 lei din art. 110 alin. (4) lit. a) Cod fiscal, evitând dublarea regimurilor și cumulul plafoanelor. Recomandăm solicitarea fișei financiare de la Guvern (art. 111 alin. 1 Constituție) și stabilirea datei de intrare în vigoare conform art. 4 Cod fiscal."
+      "articleRef": "Art. unic – art. 62 lit. w¹) Cod fiscal",
+      "proposalContent": "w¹) premiile în bani/natură acordate participanților la competiții sportive, manifestări culturale sau concursuri educaționale, de până la o șesime din salariul minim brut pe țară în plată la data acordării, pentru fiecare premiu, inclusiv cele din concursuri prevăzute la art. 110, care se impozitează doar pentru diferența ce depășește acest plafon.",
+      "argumentation": "Excluderea premiilor de la art. 110 lasă norma aproape fără obiect: premiile din concursuri sunt chiar venituri din premii impozitate la art. 110, cu prag fix. Formularea propusă aplică plafonul dinamic tocmai acestor premii, cum urmărește expunerea de motive, și evită trimiterea circulară, contrară art. 1 alin. (5) din Constituție.",
+      "otherComments": "Recomand: definirea «concursurilor cu caracter educațional», o regulă de evaluare a premiilor în natură, o clauză anti-fragmentare (un concurs = un premiu per câștigător), fișa financiară cerută de Legea nr. 69/2010 și termenul de intrare în vigoare potrivit art. 4 din Codul fiscal."
     }
   },
   "council": {
@@ -87,8 +87,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 49230,
+      "sourceEndMarker": "SF-20EDEBF7",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Premiile mici de la concursuri sportive, culturale și școlare ar fi scutite de impozit",
+      "verdictShort": "Este o relaxare fiscală benignă și bine intenționată, cu impact bugetar mic. Problema ei e de redactare: excluderea premiilor „supuse regimului de la art. 110” riscă să o lase aproape fără aplicare.",
+      "initiatorClaim": "Inițiatorul spune că plafoanele fixe de neimpozitare a premiilor au fost erodate de inflație. Propune un plafon dinamic, legat de salariul minim, ca să sprijine sportivii, artiștii și elevii premiați, pentru care premiul e adesea singurul sprijin financiar.",
+      "realityCheck": "Articolul unic adaugă la art. 62 din Codul fiscal lit. w¹), care declară neimpozabile premiile de până la o șesime din salariul minim brut în plată, pentru fiecare premiu. Totuși, textul exclude premiile „supuse regimului de impunere prevăzut la art. 110”, adică exact regimul general al veniturilor din premii și concursuri, care are deja un prag fix de neimpozitare. Astfel, nu e clar ce premii mai rămân în noua literă, iar plafonul dinamic s-ar putea să nu înlocuiască deloc pragul fix pe care expunerea de motive îl critică.",
+      "affectedGroups": [
+        "Contabili & Fiscalitate",
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Articol unic – art. 62 lit. w¹): scutirea se aplică premiilor în bani sau în natură de la competiții sportive, manifestări culturale și concursuri educaționale, inclusiv celor finanțate din sponsorizări sau taxe de participare. Plafonul este o șesime din salariul de bază minim brut în plată la data acordării, pentru fiecare premiu.",
+        "Sintagma „altele decât cele supuse regimului de impunere prevăzut la art. 110” creează o trimitere aproape circulară. Premiile din concursuri sunt, în principiu, chiar „venituri din premii” în sensul art. 110, deci domeniul real al noii scutiri devine neclar.",
+        "Lit. w) din forma în vigoare scutește deja premiile sportivilor medaliați la campionate mondiale, europene și la jocurile olimpice/paralimpice, precum și premiile pentru obiective de înaltă performanță. Noua literă ar acoperi, practic, competițiile de nivel mai mic și concursurile culturale sau educaționale.",
+        "Plafonul se aplică „pentru fiecare premiu”, fără limită anuală și fără regulă anti-fragmentare. Un organizator ar putea împărți un premiu mare în mai multe premii mici, fiecare sub plafon.",
+        "Lipsesc definiția „concursurilor cu caracter educațional”, o regulă de evaluare a premiilor în natură și precizarea dacă suma care depășește plafonul se impozitează integral sau doar pentru diferență.",
+        "Proiectul nu are dată proprie de intrare în vigoare, deși art. 4 din Codul fiscal condiționează aplicarea modificărilor de termene speciale. Nu este anexată nici fișa financiară cerută de Legea nr. 69/2010 pentru măsurile care reduc veniturile bugetare."
+      ],
+      "blindSpotsCaught": "Expunerea de motive critică pragurile fixe de la premii, dar textul adoptat de Senat exclude tocmai premiile din regimul art. 110, unde se află acele praguri fixe. Rezultatul probabil este o literă cu aplicare marginală și cu o interpretare contradictorie între ANAF și plătitori. În plus, expunerea vorbește de „art. 62 alin. (1)”, însă art. 62 nu are alineate; forma Senatului a corectat corect trimiterea.",
+      "constitutionalityNote": "Nu se văd probleme de fond. Parlamentul poate stabili scutiri fiscale (art. 56 și art. 139 din Constituție), iar criteriul obiectiv al plafonului legat de salariul minim e compatibil cu egalitatea (art. 16). Riscul ține de calitatea legii (art. 1 alin. (5)): trimiterea neclară la art. 110 și termenii nedefiniți afectează previzibilitatea. Procedural, este necesară informarea Guvernului prevăzută la art. 111 alin. (1) teza a doua, pentru măsurile care afectează bugetul. Art. 23 alin. (12) nu este relevant, fiind vorba de o normă fiscală, nu penală.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează accesul la profesii. Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu sunt vizate servicii ale societății informaționale sau produse. Scutirea privește persoane fizice beneficiare, nu întreprinderi, deci riscul de ajutor de stat este redus. Plafonul pe premiu este neutru față de cetățenia sau rezidența participantului și nu ridică probleme de libertate de circulație.",
+      "senatForm": {
+        "articleRef": "Art. unic – art. 62 lit. w¹) Cod fiscal",
+        "proposalContent": "w¹) premiile în bani/natură acordate participanților la competiții sportive, manifestări culturale sau concursuri educaționale, de până la o șesime din salariul minim brut pe țară în plată la data acordării, pentru fiecare premiu, inclusiv cele din concursuri prevăzute la art. 110, care se impozitează doar pentru diferența ce depășește acest plafon.",
+        "argumentation": "Excluderea premiilor de la art. 110 lasă norma aproape fără obiect: premiile din concursuri sunt chiar venituri din premii impozitate la art. 110, cu prag fix. Formularea propusă aplică plafonul dinamic tocmai acestor premii, cum urmărește expunerea de motive, și evită trimiterea circulară, contrară art. 1 alin. (5) din Constituție.",
+        "otherComments": "Recomand: definirea «concursurilor cu caracter educațional», o regulă de evaluare a premiilor în natură, o clauză anti-fragmentare (un concurs = un premiu per câștigător), fișa financiară cerută de Legea nr. 69/2010 și termenul de intrare în vigoare potrivit art. 4 din Codul fiscal."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -141,7 +171,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:40:12.094Z",
+      "replacedAt": "2026-11-24T14:46:00.068Z",
       "reasons": [
         "model"
       ]

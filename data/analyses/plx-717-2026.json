@@ -2,7 +2,7 @@
   "billId": "PL-x 717/2026",
   "slug": "plx-717-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:43:40.000Z",
+  "updatedAt": "2026-11-24T14:48:04.963Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,21 +31,22 @@
     "key": "7013921df0600575"
   },
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
-    "plainTitle": "Un singur autoturism în comodat pe Uber/Bolt, dar legea a stricat lista actelor la ARR",
-    "summaryTlDr": "Senatul a îndulcit interdicția totală propusă inițial și lasă operatorii de transport alternativ cu cel mult o mașină în comodat, dar a rescris greșit art. 13 alin. (1) lit. d) — eliminând „după caz” și contractul de închiriere — și a omis dispozițiile tranzitorii. Dacă trece în această formă de Camera Deputaților, riscă să blocheze eliberarea copiilor conforme la ARR și să lase în incertitudine flotele cu autorizații deja valabile.",
-    "initiatorClaim": "Inițiatorii (33 de parlamentari PSD) susțin în expunerea de motive că vor să elimine complet utilizarea autoturismelor în comodat în transportul alternativ pentru a combate evaziunea fiscală, a crește trasabilitatea veniturilor și a înlătura concurența neloială față de taximetriști.",
-    "realityCheck": "În forma adoptată de Senat, legea nu elimină complet comodatul, ci îl plafonează la un singur autoturism per operator (fără a distinge între PFA și SRL, deși fișa Camerei menționează protejarea PFA-urilor sau a firmelor cu un singur angajat). Problema critică este la art. 13 alin. (1) lit. d): s-au eliminat „contractul de închiriere” și „după caz”, astfel încât textul cere literal comodat autentificat pentru orice mașină (inclusiv cele în proprietate sau închiriere) și elimină obligația depunerii contractului de închiriere. În plus, lipsesc complet normele tranzitorii pentru copiile conforme deja emise pe 1-3 ani.",
+    "plainTitle": "Ride-sharing (Uber/Bolt): o singură mașină împrumutată prin comodat per operator",
+    "summaryTlDr": "Senatul a îndulcit propunerea inițială: comodatul nu mai e interzis, ci plafonat la o singură mașină per operator. Ideea e defendabilă, dar redactarea e stângace. Lit. d) pierde contractul de închiriere și sintagma „după caz”, iar lipsesc normele tranzitorii.",
+    "initiatorClaim": "Inițiatorii PSD susțin că mașinile luate prin comodat facilitează evaziunea fiscală, ascund beneficiarul real al veniturilor și dau un avantaj neloial față de taxiuri. De aceea au cerut inițial eliminarea totală a comodatului din transportul alternativ.",
+    "realityCheck": "Forma Senatului nu mai elimină comodatul. Copia conformă se emite pentru mașinile deținute în proprietate sau închiriere și pentru un singur autoturism în comodat; leasingul rămâne acoperit de alin. (3). Efectul real lovește flotele care strâng zeci de mașini prin comodat, nu șoferul PFA cu o mașină a familiei. În schimb, noua lit. d) cere literal comodat autentic pentru orice autoturism și nu mai cere contractul de închiriere, iar textul nu spune ce se întâmplă cu copiile conforme deja emise.",
     "affectedGroups": [
       "Șoferi & Auto",
-      "IMM & Antreprenori"
+      "IMM & Antreprenori",
+      "Contabili & Fiscalitate"
     ],
     "senatForm": {
-      "articleRef": "Art. 13 alin. (1) lit. d) din OUG nr. 49/2019",
-      "proposalContent": "La art. 13 alin. (1), lit. d) rămâne: „d) contractul de închiriere sau contractul de comodat în formă autentificată, după caz.” Se adaugă art. II: „Copiile conforme eliberate anterior intrării în vigoare a prezentei legi pentru autoturisme în comodat rămân valabile până la expirarea termenului pentru care au fost emise.”",
-      "argumentation": "Forma Senatului elimină din lit. d) „contractul de închiriere” și „după caz”, cerând literal comodat autentificat pentru orice mașină, deși alin. (2) permite proprietatea și închirierea. Lipsa normelor tranzitorii pentru copiile conforme deja emise pe 1-3 ani încalcă art. 1 alin. (5) din Constituție (claritate și securitate juridică).",
-      "otherComments": "Corelați art. 13 alin. (1) și (2) cu alin. (3) privind autoturismele în leasing, pentru a evita interpretări restrictive la ARR. Solicitați ANAF și Consiliului Concurenței o evaluare reală de impact privind limita de un autoturism în comodat, deoarece expunerea de motive susținea eliminarea totală, fără date empirice."
+      "articleRef": "Art. unic – art. 13 alin. (1) lit. d) OUG 49/2019",
+      "proposalContent": "Lit. d) să rămână: „d) contractul de închiriere sau contractul de comodat în formă autentificată al autoturismului, după caz.” Se introduce art. II: „Copiile conforme eliberate până la intrarea în vigoare a prezentei legi rămân valabile până la expirarea termenului pentru care au fost emise.”",
+      "argumentation": "Forma Senatului elimină contractul de închiriere și sintagma „după caz”. Literal, comodatul autentic devine obligatoriu pentru orice autoturism, iar mașinile închiriate nu mai au document doveditor, deși alin. (2) le permite. Lipsa normei tranzitorii lasă incerte copiile conforme deja emise pentru mai multe mașini în comodat (art. 1 alin. 5 Constituție).",
+      "otherComments": "De clarificat dacă limita de „un singur autoturism” în comodat se aplică per operator, indiferent de forma juridică (PFA, SRL), și dacă se cumulează cu cele în proprietate sau leasing. Fișa Camerei invocă protecția PFA, dar textul nu o reflectă. Recomand date ARR privind numărul de copii conforme emise pe comodat."
     }
   },
   "council": {
@@ -83,8 +84,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 44075,
+      "sourceEndMarker": "SF-9E219CB6",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Ride-sharing (Uber/Bolt): o singură mașină împrumutată prin comodat per operator",
+      "verdictShort": "Senatul a îndulcit propunerea inițială: comodatul nu mai e interzis, ci plafonat la o singură mașină per operator. Ideea e defendabilă, dar redactarea e stângace. Lit. d) pierde contractul de închiriere și sintagma „după caz”, iar lipsesc normele tranzitorii.",
+      "initiatorClaim": "Inițiatorii PSD susțin că mașinile luate prin comodat facilitează evaziunea fiscală, ascund beneficiarul real al veniturilor și dau un avantaj neloial față de taxiuri. De aceea au cerut inițial eliminarea totală a comodatului din transportul alternativ.",
+      "realityCheck": "Forma Senatului nu mai elimină comodatul. Copia conformă se emite pentru mașinile deținute în proprietate sau închiriere și pentru un singur autoturism în comodat; leasingul rămâne acoperit de alin. (3). Efectul real lovește flotele care strâng zeci de mașini prin comodat, nu șoferul PFA cu o mașină a familiei. În schimb, noua lit. d) cere literal comodat autentic pentru orice autoturism și nu mai cere contractul de închiriere, iar textul nu spune ce se întâmplă cu copiile conforme deja emise.",
+      "affectedGroups": [
+        "Șoferi & Auto",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Art. unic, art. 13 alin. (2): acum copia conformă se emite pentru mașini deținute în „proprietate, închiriere sau comodat”, fără limită. După proiect, comodatul e permis pentru „un singur autoturism”. Proprietatea și închirierea rămân nelimitate, leasingul rămâne neschimbat prin alin. (3).",
+        "Art. 13 alin. (1) lit. d), noua formă: textul în vigoare cere „contractul de închiriere [...] sau contractul de comodat în formă autentificată [...], după caz”. Proiectul păstrează doar „contractul de comodat în formă autentificată”, fără „după caz”. Citit literal, comodatul autentic devine document obligatoriu pentru fiecare autoturism, iar mașinile închiriate rămân fără document doveditor, deși alin. (2) le permite.",
+        "Partea introductivă a alin. (1) nu mai enumeră formele de deținere (proprietate, închiriere, comodat, leasing). Enumerarea rămâne doar în alin. (2) și (3), ceea ce e acceptabil tehnic, dar sporește dependența de interpretare.",
+        "Lipsesc dispozițiile tranzitorii. Nu se spune dacă rămân valabile până la expirare copiile conforme emise pentru mai multe mașini în comodat. Nici înlocuirea prevăzută la alin. (9), „deținut în aceleași condiții”, nu e lămurită pentru aceste mașini.",
+        "Fișa Camerei invocă protejarea PFA și a celor cu un singur angajat, însă textul nu face nicio distincție după forma juridică. Plafonul se aplică identic unui PFA și unei societăți cu flotă, iar o flotă poate trece pe închiriere sau leasing, ocolind ușor scopul declarat."
+      ],
+      "blindSpotsCaught": "Diferența dintre expunerea de motive (interdicție totală a comodatului) și forma Senatului (plafon de o mașină) arată o schimbare de obiectiv nemotivată documentar. Chichița majoră e lit. d): prin eliminarea „contractului de închiriere” și a sintagmei „după caz”, norma devine incoerentă cu alin. (2) și poate fi aplicată abuziv de ARR, ca o condiție generală de comodat autentic. „Un singur autoturism” nu precizează nici dacă limita se raportează la operator, la comodant sau la autorizație.",
+      "constitutionalityNote": "Restrângerea comodatului atinge libertatea economică (art. 45) și exercițiul dreptului de proprietate (art. 44). Scopul fiscal și concurențial este legitim, iar plafonarea, în locul interzicerii, e mai ușor de justificat ca proporțională. Problema reală ține de claritate și previzibilitate (art. 1 alin. 5): lit. d) intră în contradicție cu alin. (2), iar lipsa normelor tranzitorii (Legea nr. 24/2000) creează insecuritate juridică pentru autorizațiile în curs. Aplicarea noii condiții copiilor conforme emise anterior ar ridica probleme față de neretroactivitatea legii (art. 15 alin. 2).",
+      "euLawNote": "Directiva (UE) 2018/958 privește reglementarea accesului la profesii; o condiție privind titlul de deținere a vehiculului nu e o cerință de calificare profesională, deci directiva se aplică cel mult indirect. Un test de proporționalitate rămâne însă recomandabil. Directiva TRIS 2015/1535 nu pare aplicabilă: CJUE (C-434/15, Asociación Profesional Elite Taxi) a calificat intermedierea de tip Uber drept serviciu în domeniul transporturilor, iar proiectul vizează vehiculele, nu platforma. Serviciul e local, deci impactul asupra pieței unice e redus; argumentul egalizării cu taxiurile trebuie susținut cu date, nu doar afirmat.",
+      "senatForm": {
+        "articleRef": "Art. unic – art. 13 alin. (1) lit. d) OUG 49/2019",
+        "proposalContent": "Lit. d) să rămână: „d) contractul de închiriere sau contractul de comodat în formă autentificată al autoturismului, după caz.” Se introduce art. II: „Copiile conforme eliberate până la intrarea în vigoare a prezentei legi rămân valabile până la expirarea termenului pentru care au fost emise.”",
+        "argumentation": "Forma Senatului elimină contractul de închiriere și sintagma „după caz”. Literal, comodatul autentic devine obligatoriu pentru orice autoturism, iar mașinile închiriate nu mai au document doveditor, deși alin. (2) le permite. Lipsa normei tranzitorii lasă incerte copiile conforme deja emise pentru mai multe mașini în comodat (art. 1 alin. 5 Constituție).",
+        "otherComments": "De clarificat dacă limita de „un singur autoturism” în comodat se aplică per operator, indiferent de forma juridică (PFA, SRL), și dacă se cumulează cu cele în proprietate sau leasing. Fișa Camerei invocă protecția PFA, dar textul nu o reflectă. Recomand date ARR privind numărul de copii conforme emise pe comodat."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -137,7 +167,7 @@
         "codex": 6
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:43:40.000Z",
+      "replacedAt": "2026-11-24T14:48:04.963Z",
       "reasons": [
         "model"
       ]

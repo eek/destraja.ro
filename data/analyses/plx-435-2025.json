@@ -2,7 +2,7 @@
   "billId": "Pl-x 435/2025",
   "slug": "plx-435-2025",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:42:18.617Z",
+  "updatedAt": "2026-11-24T14:47:19.036Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,22 +31,22 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 4,
-    "riskLevel": "yellow",
-    "plainTitle": "Terenurile liceelor agricole și silvice pot trece la primării, dar fără garanții că rămân ale școlilor",
-    "summaryTlDr": "Intenția de a debloca investițiile și fondurile europene pentru liceele agricole și silvice este legitimă, însă textul de un singur alineat are lacune majore. Lipsesc garanțiile de păstrare a destinației educaționale, acordul obligatoriu al autorităților locale și corelarea cu Codul administrativ și regimul silvic.",
-    "initiatorClaim": "Inițiatorii susțin că autoritățile locale nu pot atrage fonduri europene sau naționale pentru modernizarea liceelor agricole și silvice deoarece terenurile folosite de acestea aparțin statului (adesea administrate de ADS). Transferul în domeniul public local ar debloca proiectele educaționale și reabilitarea infrastructurii.",
-    "realityCheck": "Articolul unic adaugă un alin. (4) la art. 35 din Legea 18/1991 prin care terenurile din domeniul public al statului folosite de școlile agricole sau silvice pot fi trecute prin hotărâre de Guvern în domeniul public al UAT. Deși transferul nu este automat (depinde de HG), legea nu impune menținerea destinației educaționale, nu interzice trecerea ulterioară în domeniul privat al primăriei și nici nu prevede revenirea la stat dacă terenul își schimbă scopul. În plus, redactarea nu cere solicitarea consiliului local și creează confuzii juridice privind data de referință și terenurile situate în alte localități decât sediul școlii.",
+    "riskScore": 3.3,
+    "riskLevel": "green",
+    "plainTitle": "Terenurile liceelor agricole și silvice pot trece de la stat la primării sau județe",
+    "summaryTlDr": "Lege scurtă și benignă, care ajută administrațiile locale să își gestioneze școlile agricole și silvice. Problemele țin de redactare: data de referință este ambiguă, nu se spune cine cere transferul și nu se garantează că terenul rămâne folosit pentru educație.",
+    "initiatorClaim": "Inițiatorii spun că autoritățile locale finanțează școlile agricole și silvice, dar nu dețin terenurile acestora, aflate la stat și uneori administrate de ADS. Din acest motiv, primăriile și județele nu pot accesa fonduri europene sau naționale pentru modernizarea școlilor.",
+    "realityCheck": "Articolul unic adaugă un alin. (4) la art. 35 din Legea 18/1991, care permite (nu obligă) Guvernul să transfere prin HG terenurile din domeniul public al statului aflate în folosința acestor școli în domeniul public al UAT pe raza căreia se află școala. Transferul era deja posibil prin procedura generală din Codul administrativ, așa că efectul practic este în mare parte declarativ, un semnal politic către Guvern. Textul nu acoperă terenurile din domeniul privat al statului, adică o mare parte din cele administrate de ADS, nu stabilește cine inițiază transferul și nu impune păstrarea destinației educaționale după transfer.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Agricultură & Mediu",
       "Proprietari & Imobiliare"
     ],
     "senatForm": {
-      "articleRef": "Art. unic - art. 35 alin. (4) din Legea 18/1991",
-      "proposalContent": "„(4) Terenurile din domeniul public al statului aflate în folosința unităților de învățământ preuniversitar agricol sau silvic pot trece, la cererea consiliului local/județean, prin hotărâre a Guvernului, în domeniul public al UAT, cu păstrarea destinației educaționale. Schimbarea destinației atrage revenirea de drept la stat.”",
-      "argumentation": "Textul omite acordul UAT (cerut de CCR pe art. 120 și 136 din Constituție) și nu protejează destinația educațională, existând riscul trecerii terenurilor în domeniul privat și vânzării lor. Totodată, formula «la data intrării în vigoare a prezentei legi» inserată în Legea 18/1991 creează ambiguitate temporală (1991 vs. 2025).",
-      "otherComments": "Corelați norma cu art. 292 din Codul administrativ, Legea 268/2001 (ADS) și Codul silvic. Clarificați situația terenurilor agricole/silvice situate pe raza altei UAT decât sediul școlii și corectați formula de adoptare (lege organică, art. 76 alin. 1, nu art. 74 alin. 1 din Constituție), plus erorile de redactare («aliniat», «guvernului»)."
+      "articleRef": "Art. unic – art. 35 alin. (4) Legea 18/1991",
+      "proposalContent": "(4) Terenurile din domeniul public al statului aflate, la data intrării în vigoare a Legii nr. .../2025, în folosința unităților de învățământ preuniversitar cu profil agricol sau silvic pot trece, la cerere, prin hotărâre a Guvernului, în domeniul public al unității administrativ-teritoriale care finanțează unitatea, cu menținerea destinației educaționale.",
+      "argumentation": "Sintagma „prezenta lege”, inserată în Legea 18/1991, ar trimite la anul 1991, deci data trebuie fixată prin trimitere la legea nouă. Propunerea precizează inițiativa (cererea UAT) și beneficiarul real: UAT care finanțează școala, nu cea pe raza căreia se află. Clauza de destinație împiedică schimbarea folosinței terenurilor didactice după transfer.",
+      "otherComments": "Codul administrativ (art. 292) permite deja transferul prin HG la cererea UAT, așa că textul are mai ales valoare declarativă. Sugerăm clarificarea situației terenurilor din domeniul privat al statului administrate de ADS și a contractelor de arendă sau concesiune în curs, pe care textul actual nu le acoperă."
     }
   },
   "council": {
@@ -85,8 +85,36 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 48131,
+      "sourceEndMarker": "SF-6594ACA2",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Terenurile liceelor agricole și silvice pot trece de la stat la primării sau județe",
+      "verdictShort": "Lege scurtă și benignă, care ajută administrațiile locale să își gestioneze școlile agricole și silvice. Problemele țin de redactare: data de referință este ambiguă, nu se spune cine cere transferul și nu se garantează că terenul rămâne folosit pentru educație.",
+      "initiatorClaim": "Inițiatorii spun că autoritățile locale finanțează școlile agricole și silvice, dar nu dețin terenurile acestora, aflate la stat și uneori administrate de ADS. Din acest motiv, primăriile și județele nu pot accesa fonduri europene sau naționale pentru modernizarea școlilor.",
+      "realityCheck": "Articolul unic adaugă un alin. (4) la art. 35 din Legea 18/1991, care permite (nu obligă) Guvernul să transfere prin HG terenurile din domeniul public al statului aflate în folosința acestor școli în domeniul public al UAT pe raza căreia se află școala. Transferul era deja posibil prin procedura generală din Codul administrativ, așa că efectul practic este în mare parte declarativ, un semnal politic către Guvern. Textul nu acoperă terenurile din domeniul privat al statului, adică o mare parte din cele administrate de ADS, nu stabilește cine inițiază transferul și nu impune păstrarea destinației educaționale după transfer.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Agricultură & Mediu"
+      ],
+      "keyFindings": [
+        "Art. unic (art. 35 alin. 4 nou): sintagma „la data intrării în vigoare a prezentei legi”, introdusă în corpul Legii 18/1991, poate fi citită ca trimitere la data legii de bază din 1991, nu la legea modificatoare. Formula corectă este „la data intrării în vigoare a Legii nr. .../2025”.",
+        "Textul se aplică doar terenurilor din domeniul public al statului. Terenurile din domeniul privat al statului administrate de ADS, invocate în expunerea de motive, nu sunt acoperite, deci problema descrisă de inițiatori poate rămâne în mare parte nerezolvată.",
+        "Termenul „în folosința” este vag: nu e clar dacă înseamnă un drept formal (administrare, folosință gratuită) sau o simplă utilizare de fapt. Nici beneficiarul nu e potrivit în toate cazurile: UAT pe raza căreia se află școala poate fi alta decât UAT care o finanțează (de exemplu, un liceu finanțat de județ sau o fermă didactică aflată în altă comună).",
+        "Lipsește o clauză de menținere a destinației educaționale sau agricol-didactice. După transfer, UAT ar putea schimba folosința terenului sau, după trecerea lui în domeniul privat, îl poate înstrăina.",
+        "Nu se reglementează soarta contractelor în curs (arendă, concesiune, administrare ADS) asupra acestor terenuri și nici procedura (cererea consiliului local sau județean, avizul ministerelor de resort)."
+      ],
+      "blindSpotsCaught": "Transferul între domeniul public al statului și cel al UAT este deja permis de art. 292 din Codul administrativ (OUG 57/2019), prin HG, la cererea autorității deliberative locale, deci norma nouă e în bună măsură redundantă. Capcana de redactare este sintagma „prezenta lege” inserată într-o lege din 1991. Expunerea de motive invocă ADS, dar ADS administrează în principal domeniul privat al statului, pe care textul nu îl acoperă.",
+      "constitutionalityNote": "Textul este compatibil cu art. 136 (bunurile proprietate publică rămân în domeniul public, se schimbă doar titularul) și cu art. 120 (descentralizare, autonomie locală). Previzibilitatea cerută de art. 1 alin. (5) este afectată de ambiguitatea datei de referință și a noțiunii de „folosință”, fără ca aceasta să atingă pragul de neconstituționalitate. Fiind o facultate a Guvernului, fără termen și fără criterii, nu creează drepturi exigibile pentru UAT.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este relevantă, pentru că textul nu reglementează accesul la profesii. TRIS 2015/1535 nu se aplică, fiind vorba de transferuri patrimoniale între autorități publice, fără servicii digitale sau reglementări tehnice. Transferul între stat și UAT nu constituie ajutor de stat. Doar o eventuală exploatare comercială ulterioară a terenurilor de către terți ar trebui să respecte regulile de concurență și de achiziții sau concesiuni.",
+      "senatForm": {
+        "articleRef": "Art. unic – art. 35 alin. (4) Legea 18/1991",
+        "proposalContent": "(4) Terenurile din domeniul public al statului aflate, la data intrării în vigoare a Legii nr. .../2025, în folosința unităților de învățământ preuniversitar cu profil agricol sau silvic pot trece, la cerere, prin hotărâre a Guvernului, în domeniul public al unității administrativ-teritoriale care finanțează unitatea, cu menținerea destinației educaționale.",
+        "argumentation": "Sintagma „prezenta lege”, inserată în Legea 18/1991, ar trimite la anul 1991, deci data trebuie fixată prin trimitere la legea nouă. Propunerea precizează inițiativa (cererea UAT) și beneficiarul real: UAT care finanțează școala, nu cea pe raza căreia se află. Clauza de destinație împiedică schimbarea folosinței terenurilor didactice după transfer.",
+        "otherComments": "Codul administrativ (art. 292) permite deja transferul prin HG la cererea UAT, așa că textul are mai ales valoare declarativă. Sugerăm clarificarea situației terenurilor din domeniul privat al statului administrate de ADS și a contractelor de arendă sau concesiune în curs, pe care textul actual nu le acoperă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -139,7 +167,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:42:18.617Z",
+      "replacedAt": "2026-11-24T14:47:19.036Z",
       "reasons": [
         "model"
       ]

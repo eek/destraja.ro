@@ -2,7 +2,7 @@
   "billId": "Pl-x 151/2026",
   "slug": "plx-151-2026",
   "version": "camera",
-  "updatedAt": "2026-11-24T12:44:07.412Z",
+  "updatedAt": "2026-11-24T14:48:42.233Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "camera",
@@ -31,12 +31,12 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 4.5,
-    "riskLevel": "yellow",
-    "plainTitle": "Voluntari devine municipiu cu un referendum din 2004 și fără depozit de deșeuri",
-    "summaryTlDr": "Un proiect scurt, adoptat tacit de Camera Deputaților, care ridică orașul Voluntari la rang de municipiu pe baza unui dosar reciclat din 2004 și cu un criteriu legal neîndeplinit. Efectul real, neexplicat în expunerea de motive, include taxe locale mai mari pentru proprietari și firme și salarii mai mari în administrația locală.",
-    "initiatorClaim": "Inițiatorul susține că județul Ilfov nu are niciun municipiu, iar orașul Voluntari are o populație în creștere continuă (49.417 locuitori), a obținut acordul cetățenilor prin referendum și îndeplinește toți indicatorii minimali din Legea nr. 351/2001.",
-    "realityCheck": "Art. 1 și Art. 2 declară Voluntariul municipiu fără norme tranzitorii și modifică generic „în mod corespunzător” Legile nr. 2/1968 și nr. 351/2001. În realitate, trecerea de la rangul III (oraș) la rangul II (municipiu) crește automat coeficienții de corecție la impozitul pe clădiri și terenuri din Codul fiscal și ridică plafoanele de indemnizații și personal ale primăriei, în timp ce dosarul ignoră neîndeplinirea unui indicator obligatoriu și se bazează pe un referendum vechi de aproape 22 de ani.",
+    "riskScore": 3.7,
+    "riskLevel": "green",
+    "plainTitle": "Orașul Voluntari (Ilfov) devine municipiu",
+    "summaryTlDr": "Lege administrativă scurtă și în mare parte benignă: Voluntari trece din oraș în municipiu, iar Ilfov capătă primul său municipiu. Riscurile sunt mici și țin de efectele indirecte, adică impozite locale mai mari prin schimbarea rangului, un indicator neîndeplinit și un referendum vechi de 22 de ani.",
+    "initiatorClaim": "Inițiatorul spune că Voluntari are aproape 50.000 de locuitori, o populație în creștere și îndeplinește indicatorii minimi din Legea nr. 351/2001. Mai invocă voința cetățenilor exprimată la referendumul local din 31.10.2004, cu 99,2% voturi DA.",
+    "realityCheck": "Art. 1 declară orașul municipiu, iar Art. 2 modifică „în mod corespunzător” anexele la Legea nr. 2/1968 și Legea nr. 351/2001, deci localitatea trece din rangul III în rangul II. Efectul cu impact direct, nemenționat nicăieri în expunere, este fiscal: în Codul fiscal cotele impozitului pe terenul intravilan și coeficienții de corecție la clădiri cresc odată cu rangul localității, așa că proprietarii pot plăti mai mult. Fișa recunoaște și un indicator neîndeplinit (depozit controlat de deșeuri: NU), iar epurarea apelor se face prin rețeaua Bucureștiului, nu printr-o stație proprie.",
     "affectedGroups": [
       "Proprietari & Imobiliare",
       "IMM & Antreprenori",
@@ -44,10 +44,10 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 1 și Art. 2 (întregul proiect)",
-      "proposalContent": "Propun respingerea proiectului sau amânarea până la: 1) organizarea unui nou referendum local; 2) îndeplinirea tuturor indicatorilor din Legea nr. 351/2001 (inclusiv pct. 17 - depozit controlat de deșeuri); 3) redactarea expresă a modificărilor la anexele Legilor nr. 2/1968 și 351/2001 și introducerea de norme tranzitorii.",
-      "argumentation": "Proiectul folosește un referendum din 31.10.2004 (când populația era ~30.000, față de 49.417 azi) și avize din 2004. Fișa oficială din 2026 consemnează «NU» la indicatorul 17 (depozit controlat de deșeuri), contrazicând expunerea de motive. Art. 2 încalcă art. 1 alin. (5) Constituție prin formula vagă «se modifică corespunzător».",
-      "otherComments": "Trecerea la rangul II (municipiu) crește automat coeficienții de corecție la impozitul pe clădiri/terenuri (Codul fiscal) și indemnizațiile demnitarilor locali, fără studiu de impact financiar (art. 138 alin. 5 Constituție). Proiectul a trecut tacit de Camera Deputaților, fiind necesară o analiză riguroasă la Senat și o fișă completă de impact."
+      "articleRef": "Art. 3 (nou) – efecte fiscale",
+      "proposalContent": "Art. 3 – Modificarea rangului localității potrivit prezentei legi produce efecte asupra impozitelor și taxelor locale prevăzute de Titlul IX din Legea nr. 227/2015 privind Codul fiscal începând cu data de 1 ianuarie a anului următor celui în care consiliul local actualizează zonarea, dar nu mai devreme de 1 ianuarie 2028.",
+      "argumentation": "Trecerea din rangul III în rangul II majorează automat impozitul pe teren intravilan și coeficienții la clădiri, iar expunerea de motive nu menționează acest efect. O perioadă de tranziție asigură previzibilitatea fiscală (art. 1 alin. 5 din Constituție) și permite cetățenilor și firmelor să se pregătească pentru costurile suplimentare.",
+      "otherComments": "Recomand ca Art. 2 să redea expres textul modificat al anexelor, în locul formulei „se modifică în mod corespunzător”. De asemenea, comisia ar trebui să ceară un aviz actualizat al Comisiei tehnice de amenajare a teritoriului (cel din dosar e din 2004) și un calendar pentru indicatorul neîndeplinit privind depozitul controlat de deșeuri."
     }
   },
   "council": {
@@ -87,8 +87,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 41320,
+      "sourceEndMarker": "SF-8642B4D1",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Orașul Voluntari (Ilfov) devine municipiu",
+      "verdictShort": "Lege administrativă scurtă și în mare parte benignă: Voluntari trece din oraș în municipiu, iar Ilfov capătă primul său municipiu. Riscurile sunt mici și țin de efectele indirecte, adică impozite locale mai mari prin schimbarea rangului, un indicator neîndeplinit și un referendum vechi de 22 de ani.",
+      "initiatorClaim": "Inițiatorul spune că Voluntari are aproape 50.000 de locuitori, o populație în creștere și îndeplinește indicatorii minimi din Legea nr. 351/2001. Mai invocă voința cetățenilor exprimată la referendumul local din 31.10.2004, cu 99,2% voturi DA.",
+      "realityCheck": "Art. 1 declară orașul municipiu, iar Art. 2 modifică „în mod corespunzător” anexele la Legea nr. 2/1968 și Legea nr. 351/2001, deci localitatea trece din rangul III în rangul II. Efectul cu impact direct, nemenționat nicăieri în expunere, este fiscal: în Codul fiscal cotele impozitului pe terenul intravilan și coeficienții de corecție la clădiri cresc odată cu rangul localității, așa că proprietarii pot plăti mai mult. Fișa recunoaște și un indicator neîndeplinit (depozit controlat de deșeuri: NU), iar epurarea apelor se face prin rețeaua Bucureștiului, nu printr-o stație proprie.",
+      "affectedGroups": [
+        "Proprietari & Imobiliare",
+        "IMM & Antreprenori",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 1 este o simplă declarare a statutului de municipiu. Nu creează obligații, sancțiuni sau taxe noi în mod direct.",
+        "Art. 2 modifică anexele Legii nr. 2/1968 și pct. 4.3 din anexa II la Legea nr. 351/2001 prin formula generică „se modifică în mod corespunzător”, fără a reda textul modificat. Practica este frecventă la legile de declarare a municipiilor, dar tehnica legislativă rămâne slabă.",
+        "Fișa localității (indicatori avizați de INS prin Avizul nr. 520/20.02.2026 la poz. 1-5) arată 49.417 locuitori, peste pragul de 40.000. Majoritatea indicatorilor sunt depășiți, însă poz. 17 (depozit controlat de deșeuri) este „NU”, iar numărul de medici (2,34 la 1.000 de locuitori) depășește la limită pragul de 2,3.",
+        "Referendumul local invocat datează din 31.10.2004, când erau 24.426 de alegători înscriși. Populația s-a schimbat masiv de atunci, iar dosarul din 2004 arăta multe indicatori neîndepliniți. Legitimitatea consultării este învechită, chiar dacă legea nu prevede un termen de valabilitate.",
+        "Lipsește orice analiză de impact fiscal pentru locuitori. Trecerea în rangul II modifică impozitul pe teren intravilan și impozitul pe clădirile fără valoare atestată (Codul fiscal, art. 457 și art. 465), iar expunerea de motive nu pomenește acest lucru."
+      ],
+      "blindSpotsCaught": "Proiectul a fost adoptat tacit de Camera Deputaților (art. 75 alin. 2 teza a III-a din Constituție), deci fără dezbatere în plen. Dosarul amestecă documente din 2004 (fișă cu indicatori neîndepliniți, aviz al Comisiei tehnice județene care observa „rol limitat de servire teritorială și polarizare” din cauza vecinătății Capitalei) cu o fișă actualizată din 2026 pentru care nu este atașat un aviz nou al comisiei tehnice de amenajare a teritoriului. Efectul fiscal al schimbării rangului nu este semnalat.",
+      "constitutionalityNote": "Conform art. 3 alin. (3) din Constituție, unele orașe pot fi declarate municipii prin lege. Materia ține de organizarea administrativ-teritorială, deci de lege organică (art. 73 alin. 3 lit. o). Textul este clar și previzibil în privința efectului principal (art. 1 alin. 5). Formula „se modifică în mod corespunzător” este criticabilă din perspectiva Legii nr. 24/2000, dar CCR a acceptat-o în practică pentru acte similare. Neîndeplinirea unui indicator din Legea nr. 351/2001 este o chestiune de legalitate, nu de constituționalitate, deoarece legiuitorul poate deroga printr-o lege de același rang. Nu există probleme constituționale majore.",
+      "euLawNote": "Proiectul nu reglementează profesii, servicii sau produse, deci Directiva (UE) 2018/958 (testul de proporționalitate) și Directiva (UE) 2015/1535 (TRIS) nu sunt aplicabile. Nu afectează piața unică și nu acordă ajutoare de stat. Eventual, statutul de municipiu poate facilita accesul la anumite linii de finanțare europeană destinate polilor urbani, ceea ce reprezintă un efect neutru spre pozitiv.",
+      "senatForm": {
+        "articleRef": "Art. 3 (nou) – efecte fiscale",
+        "proposalContent": "Art. 3 – Modificarea rangului localității potrivit prezentei legi produce efecte asupra impozitelor și taxelor locale prevăzute de Titlul IX din Legea nr. 227/2015 privind Codul fiscal începând cu data de 1 ianuarie a anului următor celui în care consiliul local actualizează zonarea, dar nu mai devreme de 1 ianuarie 2028.",
+        "argumentation": "Trecerea din rangul III în rangul II majorează automat impozitul pe teren intravilan și coeficienții la clădiri, iar expunerea de motive nu menționează acest efect. O perioadă de tranziție asigură previzibilitatea fiscală (art. 1 alin. 5 din Constituție) și permite cetățenilor și firmelor să se pregătească pentru costurile suplimentare.",
+        "otherComments": "Recomand ca Art. 2 să redea expres textul modificat al anexelor, în locul formulei „se modifică în mod corespunzător”. De asemenea, comisia ar trebui să ceară un aviz actualizat al Comisiei tehnice de amenajare a teritoriului (cel din dosar e din 2004) și un calendar pentru indicatorul neîndeplinit privind depozitul controlat de deșeuri."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -142,7 +171,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:44:07.412Z",
+      "replacedAt": "2026-11-24T14:48:42.233Z",
       "reasons": [
         "text",
         "model"

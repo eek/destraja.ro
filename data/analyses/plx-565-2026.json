@@ -1,121 +1,178 @@
 {
   "billId": "Pl-x 565/2026",
   "slug": "plx-565-2026",
-  "updatedAt": "2026-10-28T23:01:04.664Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T14:44:08.510Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 7111,
+    "ordinanceChars": 0,
+    "memoChars": 4895,
+    "memoSupplied": 4895,
+    "marker": "SF-72C377CE"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-565-2026.json",
+    "form": "initiator",
+    "textHash": "72c377cea53a8773",
+    "fetchedAt": "2026-11-19T11:20:06.053Z",
+    "acts": 8,
+    "actsFound": 8,
+    "actsRepealed": 0,
+    "articlesFound": 8,
+    "articlesShown": 8,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 15222,
+    "truncated": false,
+    "included": true,
+    "key": "2b23b04dedc432a6"
+  },
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 5.7,
     "riskLevel": "yellow",
-    "plainTitle": "Limită de mandate pentru șefii serviciilor secrete, ai BNR, CNA, CNCD, ORNISS și CNSAS",
-    "summaryTlDr": "Ideea e legitimă și nu costă nimic, dar textul are defecte serioase. La BNR scurtează la 4 ani mandatul întregului Consiliu de administrație, sub minimul de 5 ani pe care dreptul UE îl impune guvernatorului. Regulile tranzitorii pot da actualilor șefi ai serviciilor până la încă 10 ani în funcție.",
-    "initiatorClaim": "Inițiatorii spun că lipsa unor limite de durată și de număr al mandatelor pentru conducătorii serviciilor de informații, ai BNR, CNA, CNCD, ORNISS și CNSAS alimentează suspiciuni de conflict de interese și neîncrederea publicului. Rotația periodică ar aduce, în opinia lor, independență, transparență și viziuni noi.",
-    "realityCheck": "Legea dă șefilor SRI, SIE, SPP, STS, DGPI și DGIA un mandat de 5 ani, cel mult două. Directorul ORNISS primește un mandat de 4 ani, cel mult două. Guvernatorul BNR și președinții CNCD, CNA și CNSAS pot avea mandatul reînnoit o singură dată. Legea nu atinge regulile de numire, revocare și interimat, iar art. XIII pornește calculul celor 5 ani abia de la intrarea în vigoare, așa că efectul imediat poate fi prelungirea, nu scurtarea, orizontului actualilor șefi. Art. VII reduce, fără nicio explicație în expunere, mandatul tuturor membrilor CA al BNR de la 5 la 4 ani.",
+    "plainTitle": "Mandate limitate pentru șefii serviciilor secrete, BNR, CNA, CNCD, CNSAS și ORNISS",
+    "summaryTlDr": "Ideea limitării mandatelor e legitimă și în mare parte benignă, dar proiectul taie pe nesimțite mandatul întregului board BNR de la 5 la 4 ani, ceea ce contravine direct Statutului SEBC/BCE. Dispozițiile tranzitorii lasă neclar cine și cât mai poate rămâne în funcție.",
+    "initiatorClaim": "Inițiatorii spun că lipsa unor limite de durată și de număr al mandatelor permite exercitarea perpetuă a unor funcții cheie, alimentează suspiciuni de conflict de interese și neîncrederea în instituții. Invocă în special serviciile de informații și moștenirea comunistă.",
+    "realityCheck": "Pentru SRI, SIE, SPP, STS, DGPI, DGIA și ORNISS proiectul introduce mandate de 5 ani (4 la ORNISS), cu maximum două pe persoană. Pentru guvernatorul BNR, președintele CNCD, președintele CNSAS și președintele CNA limitează reînnoirea la o singură dată. Totodată, la BNR durata numirii scade de la 5 la 4 ani pentru toți cei 9 membri ai Consiliului de administrație, nu doar pentru guvernator, deși expunerea de motive nu spune asta. Revocarea discreționară rămâne neatinsă (de exemplu art. 23 din Legea 14/1992 sau numirea și eliberarea de către ministru la DGPI), deci mandatul fix e doar un plafon, nu o garanție de stabilitate. Art. XII–XIII creează o tranziție ambiguă: un director aflat acum în funcție ar putea cumula mandatul în curs, care curge de la zero de la intrarea în vigoare, plus încă unul, adică până la 10 ani.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. VII (art. 33 alin. (4) din Legea 312/2004)",
-      "proposalContent": "Art. 33 alin. (4) va avea cuprinsul: „(4) Numirile se fac pe o perioadă de 5 ani, cu posibilitatea reînnoirii mandatului. Prin excepție, mandatul guvernatorului poate fi reînnoit o singură dată.” Înainte de raport, comisiile solicită avizul BCE, conform Deciziei 98/415/CE.",
-      "argumentation": "Textul inițial scurtează, nemotivat, mandatul tuturor membrilor CA al BNR de la 5 la 4 ani. Art. 14.2 din Statutul SEBC, obligatoriu și pentru România (art. 131 TFUE), cere pentru guvernator un mandat de minimum 5 ani. Limita de o singură reînnoire e compatibilă, durata de 4 ani nu. Consultarea BCE e obligatorie pentru orice proiect privind BNR (art. 127 alin. (4) TFUE).",
-      "otherComments": "Art. XII și XIII se contrazic: mandatul în curs contează ca întreg, dar cei 5 ani curg de la intrarea în vigoare, deci actualii șefi pot sta încă 10 ani. Trebuie precizat dacă perioada deja exercitată și mandatele anterioare intră în calcul. La art. IV–V, alin. (2) să spună „director general”. OUG 24/2008 și OUG 153/2002 sunt ordonanțe de urgență, nu OG."
+      "articleRef": "Art. VII (Legea 312/2004, art. 33 alin. 4)",
+      "proposalContent": "Art. 33 alin. (4) va avea următorul cuprins: „(4) Numirile se fac pe o perioadă de 5 ani, cu posibilitatea reînnoirii mandatului. Prin excepție, mandatul guvernatorului Băncii Naționale a României poate fi reînnoit o singură dată.”",
+      "argumentation": "Art. 14.2 din Statutul SEBC/BCE (Protocolul 4), obligatoriu și pentru statele cu derogare (art. 131 TFUE), impune un mandat de minimum 5 ani pentru guvernator. Reducerea la 4 ani, nemotivată în expunerea de motive, încalcă dreptul UE și art. 148 din Constituție și slăbește independența BNR.",
+      "otherComments": "Solicitați avizul BCE (art. 127 alin. 4 TFUE, Decizia 98/415/CE). Clarificați art. XII–XIII: dacă se numără mandatele dinainte de lege, inclusiv ale foștilor titulari, și cum se raportează mandatul în curs la durata care curge de la intrarea în vigoare. Corectați: OUG nr. 24/2008, nu OG."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 65176,
-      "riskScore": 4,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 87238,
+      "sourceEndMarker": "SF-72C377CE",
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Limitarea la două mandate a șefilor serviciilor secrete, BNR, CNA, CNCD și CNSAS",
-      "verdictShort": "Ideea de a plafona la două mandate șefii serviciilor de informații și ai unor instituții-cheie este sănătoasă pentru democrație, dar proiectul este redactat neglijent. Prin reducerea mandatului la BNR de la 5 la 4 ani, textul încalcă direct Tratatul UE (Statutul SEBC/BCE), iar normele tranzitorii sunt confuze.",
-      "initiatorClaim": "Inițiatorii urmăresc prevenirea eternizării în funcție și creșterea încrederii publice prin limitarea duratei și a numărului de mandate (maximum două) pentru conducătorii serviciilor secrete (SRI, SIE, SPP, STS, DGPI, DGIA), ORNISS, BNR, CNA, CNCD și CNSAS.",
-      "realityCheck": "Pentru serviciile secrete (SRI, SIE, SPP, STS, DGPI, DGIA) și ORNISS, legea introduce binevenit un mandat fix (5 ani, respectiv 4 ani la ORNISS), reînnoibil o singură dată. Însă la Art. VII și Art. IX, proiectul scade pe nepusă masă durata mandatelor conducerii BNR (de la 5 la 4 ani, contrar dreptului UE) și ale membrilor Colegiului CNSAS (de la 6 la 4 ani), fără nicio justificare în Expunerea de Motive, iar regulile pentru mandatele în curs ori anterioare sunt neclare.",
+      "plainTitle": "Limite de mandat pentru șefii serviciilor secrete, BNR, CNA, CNCD, CNSAS și ORNISS",
+      "verdictShort": "Intenția de a limita mandatele perpetue în fruntea serviciilor de informații și a autorităților publice este legitimă, dar proiectul este redactat neglijent și încalcă direct dreptul primar al UE reducând mandatul Guvernatorului BNR la 4 ani, sub minimul european obligatoriu de 5 ani. În plus, normele tranzitorii sunt ambigue și lipsesc regulile de interimat pentru structurile de securitate națională.",
+      "initiatorClaim": "Inițiatorii susțin că vor să crească încrederea în stat, să prevină conflictele de interese și să alinieze România la standardele democratice europene prin introducerea unei durate maxime și a unei limite de două mandate pentru conducătorii serviciilor de informații și ai unor autorități cheie.",
+      "realityCheck": "În practică, proiectul instituie mandate de 5 ani (maxim două) pentru directorii SRI, SIE, SPP, STS, DGPI și DGIA și de 4 ani (maxim două) pentru ORNISS, unde legea actuală nu prevede nicio limită, și limitează reînnoirea la o singură dată pentru președinții CNA, CNCD, CNSAS și Guvernatorul BNR. Însă, fără nicio explicație în expunerea de motive, Art. VII scurtează de la 5 la 4 ani mandatul întregului Consiliu de Administrație al BNR (încălcând tratatele UE), Art. IX modifică la 4 ani mandatul tuturor membrilor Colegiului CNSAS, iar Art. XII–XIII nu clarifică efectele asupra mandatelor anterioare și nu reglementează interimatul la expirarea mandatului.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I – VI și X: Introduce mandate fixe de 5 ani (4 ani la ORNISS) și o limită de maximum două mandate pentru directorii SRI, SPP, SIE, DGPI, DGIA și STS – o măsură pozitivă, aliniată recomandărilor Comisiei de la Veneția privind controlul democratic asupra serviciilor de informații.",
-        "Art. VII (Legea nr. 312/2004 privind Statutul BNR): Pe lângă limitarea Guvernatorului BNR la două mandate, textul modifică Art. 33 alin. (4) și scade durata mandatului membrilor Consiliului de administrație și al Guvernatorului de la 5 ani (cât este în prezent) la 4 ani, încălcând flagrant legislația europeană.",
-        "Art. IX (OUG nr. 24/2008 privind CNSAS): Scade durata mandatului tuturor membrilor Colegiului CNSAS de la 6 ani la 4 ani (fără a menționa acest lucru în Expunerea de Motive) și inserează limita de două mandate pentru președintele CNSAS la articolul privind numirea membrilor (Art. 17 alin. 3), nu la cel privind alegerea președintelui (Art. 18).",
-        "Art. XII și Art. XIII: Dispozițiile tranzitorii prevăd că „mandatul exercitat parțial este considerat un mandat întreg”, inclusiv pentru mandatele în derulare, dar omit să precizeze explicit dacă mandatele întregi exercitate anterior intrării în vigoare a legii intră în calculul plafonului de două mandate și ce se întâmplă cu mandatele în curs cărora li se scurtează durata (BNR, CNSAS)."
+        "Art. VII modifică art. 33 alin. (4) din Legea nr. 312/2004 și reduce durata mandatului întregului Consiliu de Administrație al BNR (inclusiv al Guvernatorului) de la 5 ani în prezent la 4 ani, deși expunerea de motive susține că vizează BNR doar în privința funcției de guvernator și nu justifică scurtarea duratei.",
+        "Art. I–VI și Art. X introduc limite de durată (5 ani, respectiv 4 ani la ORNISS) și maximum două mandate pentru șefii SRI, SPP, SIE, DGPI, DGIA, STS și ORNISS, dar nu prevăd nicio regulă de interimat sau continuare a mandatului până la numirea succesorului, creând risc de blocaj instituțional la expirarea termenului.",
+        "Art. XII prevede că mandatul exercitat parțial se consideră mandat întreg și că articolul se aplică și mandatelor aflate în derulare, însă lasă neclar dacă mandatele deja finalizate anterior intrării în vigoare intră în calculul limitei de două mandate și dacă scurtarea duratei la BNR și CNSAS afectează mandatele în curs (Art. XIII acoperind doar Art. I–VI și X).",
+        "Erori de tehnică legislativă: Art. IX și Art. X trimit la „Ordonanța de Guvern” nr. 24/2008, respectiv nr. 153/2002, deși ambele sunt Ordonanțe de Urgență ale Guvernului (OUG), iar Art. IV și Art. V folosesc inconsecvent denumirile de „director general” la alin. (1) și „director” la alin. (2)."
       ],
-      "blindSpotsCaught": "Art. VII reduce mandatul Guvernatorului BNR la 4 ani, ignorând că Art. 14.2 din Protocolul (nr. 4) privind Statutul Sistemului European al Băncilor Centrale și al BCE (anexat la TFUE) interzice expres un mandat mai mic de 5 ani pentru guvernatorul unei bănci centrale naționale. În plus, proiectul conține erori de tehnică legislativă: OUG nr. 24/2008 (Art. IX) și OUG nr. 153/2002 (Art. X) sunt denumite eronat „Ordonanțe de Guvern”, iar la Art. IV și V titulatura funcției variază de la un alineat la altul („director general” la alin. 1 vs. „director” la alin. 2).",
-      "constitutionalityNote": "Proiectul ridică probleme de constituționalitate sub două aspecte: (1) încălcarea Art. 148 alin. (2) și (4) din Constituție (prioritatea dreptului UE), întrucât scurtarea mandatului Guvernatorului BNR la 4 ani contravine dreptului primar al UE; (2) încălcarea standardului de claritate și previzibilitate a legii (Art. 1 alin. 5 din Constituție) și a principiului neretroactivității (Art. 15 alin. 2), deoarece Art. XII și XIII nu reglementează clar soarta mandatelor în curs la instituțiile unde durata mandatului se reduce (BNR, CNSAS) și nici modul de contabilizare a mandatelor depline încheiate înainte de intrarea în vigoare a legii.",
-      "euLawNote": "Nu are impact asupra concurenței (Directiva 2018/958) sau serviciilor digitale (Directiva TRIS 2015/1535). În schimb, Art. VII încalcă direct Art. 130 și 131 TFUE coroborate cu Art. 14.2 din Statutul SEBC și al BCE (Protocolul nr. 4), care impune un mandat de minimum 5 ani pentru guvernatorii băncilor centrale naționale pentru a le garanta independența. Totodată, pentru modificarea Statutului BNR este obligatorie consultarea prealabilă a Băncii Centrale Europene, conform Art. 127 alin. (4) TFUE și Deciziei 98/415/CE a Consiliului.",
+      "blindSpotsCaught": "Cea mai gravă chichiță este ascunsă la Art. VII: reducerea mandatului la BNR de la 5 la 4 ani încalcă direct Art. 14.2 din Protocolul (nr. 4) privind Statutul SEBC și al BCE anexat la TFUE, care impune un prag minim imperativ de 5 ani pentru mandatul guvernatorului băncii centrale naționale. Totodată, orice modificare a Statutului BNR necesită consultarea obligatorie prealabilă a Băncii Centrale Europene conform Art. 127 alin. (4) TFUE și Deciziei 98/415/CE, procedură omisă de inițiatori.",
+      "constitutionalityNote": "Proiectul ridică riscuri majore de neconstituționalitate: (1) pe Art. 148 alin. (2) și (4) din Constituție, prin încălcarea prioritarității dreptului primar al UE la Art. VII (mandat de 4 ani la BNR față de minimul de 5 ani din TFUE); (2) pe Art. 1 alin. (5) privind calitatea și previzibilitatea legii, din cauza redactării ambigue a Art. XII (neclaritatea calculului mandatelor trecute și a efectului asupra mandatelor în derulare la BNR/CNSAS), a lipsei normelor de interimat la structurile de securitate și a citării greșite a unor OUG drept OG; (3) pe Art. 15 alin. (2) privind neretroactivitatea, dacă Art. XII ar fi interpretat ca scurtând mandate în curs ori sancționând retroactiv mandate anterioare.",
+      "euLawNote": "Încălcare frontală a dreptului primar al UE: Art. 131 TFUE și Art. 14.2 din Protocolul (nr. 4) privind Statutul SEBC/BCE stabilesc că mandatul guvernatorului unei bănci centrale naționale nu poate fi mai mic de 5 ani, pentru a-i proteja independența. Art. VII îl reduce la 4 ani. În plus, modificarea Statutului BNR fără consultarea obligatorie a BCE contravine Art. 127 alin. (4), Art. 282 alin. (5) TFUE și Deciziei Consiliului 98/415/CE. Directiva (UE) 2018/958 (proporționalitatea profesiilor reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente, proiectul vizând exclusiv funcții de demnitate/conducere publică.",
       "senatForm": {
-        "articleRef": "Art. VII, Art. IX, Art. XII și Art. XIII",
-        "proposalContent": "La Art. VII (Art. 33 alin. 4 din Legea 312/2004), durata mandatului rămâne de 5 ani: „Numirile se fac pe o perioadă de 5 ani, cu posibilitatea reînnoirii mandatului. Prin excepție, mandatul Guvernatorului BNR poate fi reînnoit o singură dată.” La Art. IX se menține durata de 6 ani la CNSAS, iar la Art. XII se clarifică calculul mandatelor pline anterioare.",
-        "argumentation": "Reducerea mandatului la BNR de la 5 la 4 ani (Art. VII) încalcă direct Art. 14.2 din Statutul SEBC și al BCE (Protocolul nr. 4 la TFUE), care impune minimum 5 ani pentru guvernatorii băncilor centrale din UE. Totodată, scăderea mandatului Colegiului CNSAS de la 6 la 4 ani (Art. IX) este nemotivată, iar normele tranzitorii (Art. XII) sunt neclare.",
-        "otherComments": "Plafonarea mandatelor șefilor serviciilor secrete (SRI, SIE, SPP, STS, DGPI, DGIA) la două mandate de 5 ani este oportună democratic. Totuși, proiectul necesită avizul obligatoriu al Băncii Centrale Europene (Decizia 98/415/CE) pentru Art. VII și corectarea titulaturii OUG nr. 24/2008 și OUG nr. 153/2002 (indicate eronat ca ordonanțe simple la Art. IX și X)."
-      }
+        "articleRef": "Art. VII și Art. XII",
+        "proposalContent": "Art. VII (art. 33 alin. 4 din Legea 312/2004) păstrează durata de 5 ani: «Numirile se fac pe o perioadă de 5 ani, cu posibilitatea reînnoirii mandatului. Mandatul Guvernatorului BNR poate fi reînnoit o singură dată.» Art. XII se completează precizând expres că noile limite nu scurtează mandatele în curs și nu afectează mandatele deja încheiate.",
+        "argumentation": "Art. 14.2 din Statutul SEBC/BCE (TFUE) impune o durată minimă de 5 ani pentru mandatul guvernatorului băncii centrale. Reducerea la 4 ani încalcă dreptul UE și art. 148 din Constituție. Clarificarea Art. XII asigură respectarea principiului neretroactivității (art. 15 alin. 2) și previzibilității legii (art. 1 alin. 5 din Constituție).",
+        "otherComments": "Solicit consultarea obligatorie a Băncii Centrale Europene conform art. 127 alin. (4) TFUE și Deciziei 98/415/CE înainte de modificarea Statutului BNR. Totodată, corectați referirile la OUG nr. 24/2008 și OUG nr. 153/2002 (indicate eronat ca OG) și reglementați interimatul la expirarea mandatelor la Art. I-VI și X."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 230731,
-      "riskScore": 4,
+      "durationMs": 62778,
+      "sourceEndMarker": "SF-72C377CE",
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Limită de mandate pentru șefii serviciilor secrete, ai BNR, CNA, CNCD, ORNISS și CNSAS",
-      "verdictShort": "Ideea e legitimă și nu costă nimic, dar textul are defecte serioase. La BNR scurtează la 4 ani mandatul întregului Consiliu de administrație, sub minimul de 5 ani pe care dreptul UE îl impune guvernatorului. Regulile tranzitorii pot da actualilor șefi ai serviciilor până la încă 10 ani în funcție.",
-      "initiatorClaim": "Inițiatorii spun că lipsa unor limite de durată și de număr al mandatelor pentru conducătorii serviciilor de informații, ai BNR, CNA, CNCD, ORNISS și CNSAS alimentează suspiciuni de conflict de interese și neîncrederea publicului. Rotația periodică ar aduce, în opinia lor, independență, transparență și viziuni noi.",
-      "realityCheck": "Legea dă șefilor SRI, SIE, SPP, STS, DGPI și DGIA un mandat de 5 ani, cel mult două. Directorul ORNISS primește un mandat de 4 ani, cel mult două. Guvernatorul BNR și președinții CNCD, CNA și CNSAS pot avea mandatul reînnoit o singură dată. Legea nu atinge regulile de numire, revocare și interimat, iar art. XIII pornește calculul celor 5 ani abia de la intrarea în vigoare, așa că efectul imediat poate fi prelungirea, nu scurtarea, orizontului actualilor șefi. Art. VII reduce, fără nicio explicație în expunere, mandatul tuturor membrilor CA al BNR de la 5 la 4 ani.",
+      "plainTitle": "Mandate limitate pentru șefii serviciilor secrete, BNR, CNA, CNCD, CNSAS și ORNISS",
+      "verdictShort": "Ideea limitării mandatelor e legitimă și în mare parte benignă, dar proiectul taie pe nesimțite mandatul întregului board BNR de la 5 la 4 ani, ceea ce contravine direct Statutului SEBC/BCE. Dispozițiile tranzitorii lasă neclar cine și cât mai poate rămâne în funcție.",
+      "initiatorClaim": "Inițiatorii spun că lipsa unor limite de durată și de număr al mandatelor permite exercitarea perpetuă a unor funcții cheie, alimentează suspiciuni de conflict de interese și neîncrederea în instituții. Invocă în special serviciile de informații și moștenirea comunistă.",
+      "realityCheck": "Pentru SRI, SIE, SPP, STS, DGPI, DGIA și ORNISS proiectul introduce mandate de 5 ani (4 la ORNISS), cu maximum două pe persoană. Pentru guvernatorul BNR, președintele CNCD, președintele CNSAS și președintele CNA limitează reînnoirea la o singură dată. Totodată, la BNR durata numirii scade de la 5 la 4 ani pentru toți cei 9 membri ai Consiliului de administrație, nu doar pentru guvernator, deși expunerea de motive nu spune asta. Revocarea discreționară rămâne neatinsă (de exemplu art. 23 din Legea 14/1992 sau numirea și eliberarea de către ministru la DGPI), deci mandatul fix e doar un plafon, nu o garanție de stabilitate. Art. XII–XIII creează o tranziție ambiguă: un director aflat acum în funcție ar putea cumula mandatul în curs, care curge de la zero de la intrarea în vigoare, plus încă unul, adică până la 10 ani.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. VII rescrie integral art. 33 alin. (4) din Legea 312/2004. Textul nou reduce de la 5 la 4 ani mandatul TUTUROR membrilor Consiliului de administrație al BNR, nu doar al guvernatorului. Schimbarea nu apare în expunerea de motive și contravine art. 14.2 din Statutul SEBC, care cere pentru guvernator un mandat de cel puțin 5 ani.",
-        "Art. XII și XIII se combină paradoxal. Mandatul aflat în derulare contează ca un mandat întreg, dar durata de 5 ani (4 la ORNISS) începe să curgă abia de la intrarea în vigoare. Astfel, un director aflat de mulți ani în funcție poate rămâne încă 5 ani și apoi încă un mandat, adică până la 10 ani. Textul nu spune nici dacă mandatele încheiate înainte de lege intră în calcul.",
-        "Legea folosește formule diferite pentru același scop. La serviciile de informații și la ORNISS scrie „cel mult două mandate”, adică o limită totală. La BNR, CNCD, CNA și CNSAS scrie „poate fi reînnoit o singură dată”, formulă care, citită strict, nu împiedică o nouă numire după o pauză.",
-        "Art. IV (DGPI) și art. V (DGIA): alin. (1) vorbește de „directorul general”, iar alin. (2) limitează mandatele „în funcția de director”. Neconcordanța poate fi folosită pentru a contesta aplicarea limitei.",
-        "Art. I–VI și X fixează durata mandatului, dar nu modifică regulile de revocare și interimat din legile serviciilor. Rămâne neclar dacă mandatul fix îl protejează pe director de revocarea discreționară. Nu se spune nici ce se întâmplă la expirare dacă succesorul nu a fost numit.",
-        "Există erori de identificare a actelor. Actele CNSAS (OUG 24/2008) și ORNISS (OUG 153/2002) sunt numite „Ordonanța de Guvern”, deși art. IX vorbește chiar de „prezenta ordonanță de urgență”. Legea 1/1998 privind SIE e indicată ca „publicată” în 2000, când e vorba de republicare.",
-        "Legea nu are impact bugetar și nu creează obligații, taxe sau sancțiuni pentru cetățeni ori firme. La CNCD și CNA modificarea doar adaugă limita unei singure reînnoiri, ceea ce e neutru sau chiar favorabil independenței."
+        "Art. VII modifică art. 33 alin. (4) din Legea 312/2004: numirile în Consiliul de administrație BNR scad de la 5 ani (textul în vigoare) la 4 ani, pentru toți membrii. Art. 14.2 din Statutul SEBC/BCE cere un mandat de cel puțin 5 ani pentru guvernatorul băncii centrale naționale, iar art. 131 TFUE obligă și statele cu derogare, deci și România, să își alinieze legislația.",
+        "Art. VII limitează doar guvernatorul la o singură reînnoire. Prim-viceguvernatorul, viceguvernatorii și ceilalți membri pot fi reînnoiți nelimitat, ceea ce face reforma incoerentă cu scopul declarat.",
+        "Art. I–VI și X adaugă mandate de 5 ani (4 la ORNISS), cu maximum două pe persoană, pentru șefii SRI, SPP, SIE, DGPI, DGIA, STS și ORNISS. Nu se modifică regimul revocării, care rămâne la discreția autorităților de numire, așa că efectul practic e un plafon de 10 ani, nu o independență sporită.",
+        "Art. XII–XIII: mandatul în curs e socotit întreg și se ia în calcul, dar durata lui pentru art. I–VI și X începe să curgă de la intrarea în vigoare. Rezultă că actualii titulari primesc, de fapt, un mandat nou de 5 ani, plus posibilitatea unui al doilea. Nu e clar nici dacă mandatele exercitate înainte de lege de foști titulari care revin se numără.",
+        "Art. 15¹ propus pentru DGIA: directorul general e cadru militar în activitate (art. 15 alin. 3). Un mandat fix de 5 ani nu e corelat cu statutul cadrelor militare, cu limitele de vârstă și nici cu trecerea în rezervă.",
+        "Art. IX vizează art. 17 alin. (3) din OUG 24/2008, pe care titlul o numește greșit «Ordonanța de Guvern». Stabilește 4 ani pentru membrii Colegiului CNSAS, iar dacă forma în vigoare prevede altă durată (textul actual nu e citat), modificarea scurtează pe ascuns mandatele. Art. XI (CNA) și art. VIII (CNCD) doar limitează reînnoirea președintelui, ceea ce e o modificare benignă."
       ],
-      "blindSpotsCaught": "Trei chichițe. (1) Art. VII nu e doar o limită pentru guvernator: schimbă durata mandatului pentru tot CA al BNR. Orice proiect privind BNR cere avizul prealabil al BCE (Decizia 98/415/CE), iar BCE ar semnala cel mai probabil încălcarea art. 14.2 din Statutul SEBC. În plus, art. XIII nu acoperă BNR, deci rămâne neclar dacă mandatele de 5 ani în curs se reduc la 4. (2) Formula „poate fi reînnoit o singură dată” limitează reînnoirile succesive, nu numărul total de mandate, spre deosebire de formula „cel mult două mandate” folosită la servicii. (3) Art. IX rescrie întregul alin. (3) de la CNSAS, inclusiv durata de 4 ani a mandatului membrilor Colegiului. Expunerea nu spune dacă această durată diferă de cea în vigoare, deci comisia juridică trebuie să o verifice în tabelul comparativ.",
-      "constitutionalityNote": "Limitarea duratei și a numărului de mandate e o opțiune legitimă a legiuitorului. Art. 65 alin. (2) lit. h) lasă Parlamentului numirea directorilor serviciilor de informații la propunerea Președintelui, iar legea poate stabili condiții de ocupare a funcțiilor publice (art. 16 alin. (3)). Formula finală invocă art. 76 alin. (1), adică majoritatea cerută pentru legile organice, ceea ce acoperă și autoritățile autonome (art. 117 alin. (3)). Problemele reale privesc claritatea și previzibilitatea (art. 1 alin. (5)): contradicția dintre art. XII și XIII, termenii diferiți („director” / „director general”, „două mandate” / „o reînnoire”) și lipsa regulilor de revocare și interimat. Aplicarea limitei mandatelor în curs privește efectele viitoare ale unor situații aflate în desfășurare și nu încalcă în sine art. 15 alin. (2). Dacă însă art. VII ar fi citit ca scurtând mandatele de 5 ani deja în curs ale membrilor CA al BNR, ar echivala cu încetarea prin lege a unui mandat. Aceasta ar contraveni securității juridice și art. 148, care consacră prioritatea dreptului UE.",
-      "euLawNote": "Directiva 2018/958 nu se aplică, pentru că legea nu reglementează accesul la o profesie. Nici TRIS 2015/1535 nu se aplică, pentru că nu sunt vizate servicii digitale. Serviciile de informații țin de securitatea națională, care rămâne responsabilitatea exclusivă a statelor (art. 4 alin. (2) TUE). Problema serioasă e la BNR. Art. 131 TFUE obligă și statele din afara zonei euro să alinieze statutul băncii centrale la Statutul SEBC, iar art. 14.2 din acesta cere pentru guvernator un mandat de cel puțin 5 ani. Durata de 4 ani încalcă direct această regulă, deși limita de o singură reînnoire e, în sine, acceptabilă. CJUE a confirmat în cauzele Rimšēvičs (C-202/18 și C-238/18) că art. 14.2 protejează efectiv mandatul guvernatorului. Consultarea BCE este obligatorie (art. 127 alin. (4) și art. 282 alin. (5) TFUE, Decizia 98/415/CE), iar documentele disponibile nu arată că a avut loc. La CNA (art. 30 din Directiva SMAV 2010/13/UE) și la CNCD (Directivele (UE) 2024/1499 și 2024/1500 privind organismele de egalitate), limita mandatelor e compatibilă cu cerințele de independență, cu condiția să nu fie folosită pentru încheierea anticipată a mandatelor.",
+      "blindSpotsCaught": "Chichița majoră stă în art. VII. Sub eticheta «limitarea mandatelor guvernatorului», proiectul reduce de la 5 la 4 ani durata tuturor numirilor în Consiliul de administrație BNR, sub minimul de 5 ani impus de art. 14.2 din Statutul SEBC/BCE (Protocolul nr. 4). Expunerea de motive nu pomenește deloc această reducere. Lipsește și consultarea obligatorie a BCE (art. 127 alin. 4 TFUE, Decizia 98/415/CE). A doua chichiță: art. XIII resetează durata mandatelor de la intrarea în vigoare, ceea ce poate prelungi efectiv șederea actualilor șefi ai serviciilor, contrar scopului declarat.",
+      "constitutionalityNote": "Limitarea numărului de mandate pentru șefii unor autorități numite de Parlament (art. 65 alin. 2 lit. h, pentru serviciile de informații) sau de alte autorități ține de marja legiuitorului și nu ridică, în sine, probleme constituționale. Riscurile sunt de altă natură: (1) art. 1 alin. (5), din cauza clarității și previzibilității, pentru că art. XII–XIII sunt contradictorii sau ambigue privind mandatele în curs și cele anterioare legii și nu precizează dacă mandatele în derulare la BNR sau CNSAS se scurtează; (2) art. 148 alin. (2) și (4), întrucât reducerea mandatului guvernatorului BNR sub 5 ani încalcă o normă UE clară și precisă, iar CCR a admis că o asemenea încălcare poate atrage neconstituționalitatea; (3) aplicarea mandatelor în curs poate fi discutată prin prisma art. 15 alin. (2) (neretroactivitatea), deși includerea lor în calcul are efecte doar pentru viitor. Există și erori de tehnică legislativă (OUG 24/2008 numită OG, diacritice greșite), contrare Legii 24/2000.",
+      "euLawNote": "Directiva (UE) 2018/958 nu e aplicabilă, pentru că proiectul nu reglementează profesii. Nici TRIS 2015/1535 nu se aplică, fiindcă nu vizează servicii ale societății informaționale. Problema UE reală privește BNR: art. 130–131 TFUE și art. 14.2 din Statutul SEBC/BCE cer un mandat minim de 5 ani pentru guvernator și protecție împotriva revocării arbitrare, iar art. VII coboară mandatul la 4 ani. BCE a criticat constant asemenea modificări în avizele sale și le semnalează în Rapoartele de convergență ca incompatibilități care întârzie aderarea la euro. Consultarea BCE e obligatorie. Pentru CNCD, organism de egalitate, Directivele (UE) 2024/1499 și 2024/1500 cer independență și garanții privind numirea și revocarea conducerii; limitarea reînnoirii e compatibilă cu ele, dar orice scurtare a mandatelor în curs ar trebui evitată.",
       "senatForm": {
-        "articleRef": "Art. VII (art. 33 alin. (4) din Legea 312/2004)",
-        "proposalContent": "Art. 33 alin. (4) va avea cuprinsul: „(4) Numirile se fac pe o perioadă de 5 ani, cu posibilitatea reînnoirii mandatului. Prin excepție, mandatul guvernatorului poate fi reînnoit o singură dată.” Înainte de raport, comisiile solicită avizul BCE, conform Deciziei 98/415/CE.",
-        "argumentation": "Textul inițial scurtează, nemotivat, mandatul tuturor membrilor CA al BNR de la 5 la 4 ani. Art. 14.2 din Statutul SEBC, obligatoriu și pentru România (art. 131 TFUE), cere pentru guvernator un mandat de minimum 5 ani. Limita de o singură reînnoire e compatibilă, durata de 4 ani nu. Consultarea BCE e obligatorie pentru orice proiect privind BNR (art. 127 alin. (4) TFUE).",
-        "otherComments": "Art. XII și XIII se contrazic: mandatul în curs contează ca întreg, dar cei 5 ani curg de la intrarea în vigoare, deci actualii șefi pot sta încă 10 ani. Trebuie precizat dacă perioada deja exercitată și mandatele anterioare intră în calcul. La art. IV–V, alin. (2) să spună „director general”. OUG 24/2008 și OUG 153/2002 sunt ordonanțe de urgență, nu OG."
-      }
+        "articleRef": "Art. VII (Legea 312/2004, art. 33 alin. 4)",
+        "proposalContent": "Art. 33 alin. (4) va avea următorul cuprins: „(4) Numirile se fac pe o perioadă de 5 ani, cu posibilitatea reînnoirii mandatului. Prin excepție, mandatul guvernatorului Băncii Naționale a României poate fi reînnoit o singură dată.”",
+        "argumentation": "Art. 14.2 din Statutul SEBC/BCE (Protocolul 4), obligatoriu și pentru statele cu derogare (art. 131 TFUE), impune un mandat de minimum 5 ani pentru guvernator. Reducerea la 4 ani, nemotivată în expunerea de motive, încalcă dreptul UE și art. 148 din Constituție și slăbește independența BNR.",
+        "otherComments": "Solicitați avizul BCE (art. 127 alin. 4 TFUE, Decizia 98/415/CE). Clarificați art. XII–XIII: dacă se numără mandatele dinainte de lege, inclusiv ale foștilor titulari, și cum se raportează mandatul în curs la durata care curge de la intrarea în vigoare. Corectați: OUG nr. 24/2008, nu OG."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 100911,
+      "durationMs": 92830,
+      "sourceEndMarker": "SF-72C377CE",
       "riskScore": 7,
       "riskLevel": "red",
-      "plainTitle": "Maximum două mandate pentru șefii serviciilor și ai unor instituții publice",
-      "verdictShort": "Limitarea mandatelor poate preveni concentrarea puterii, dar proiectul conține o incompatibilitate majoră cu dreptul UE: mandatul guvernatorului BNR ar scădea sub minimumul obligatoriu de 5 ani. Riscul ridicat privește această eroare și regulile tranzitorii neclare, nu principiul rotației conducerilor.",
-      "initiatorClaim": "Inițiatorii urmăresc reducerea influenței personale acumulate de conducătorii instituțiilor, prevenirea conflictelor de interese și creșterea încrederii publice. Expunerea prezintă rotația conducerilor drept o garanție a independenței, fără să demonstreze că limitarea mandatelor produce singură aceste rezultate.",
-      "realityCheck": "Art. I–VI introduc mandate de 5 ani și maximum două mandate pentru conducătorii celor șase structuri de informații și securitate, iar art. X introduce mandate de 4 ani pentru directorul general ORNISS. Proiectul limitează reînnoirea mandatelor altor conducători, dar reduce și durata mandatelor tuturor membrilor Consiliului de administrație BNR și Colegiului CNSAS, depășind intervenția asupra șefilor instituțiilor. Art. XIII acordă titularilor funcțiilor vizate un interval nou, calculat de la intrarea în vigoare, astfel că legea nu produce automat înlocuirea conducerilor actuale.",
+      "plainTitle": "Mandate limitate pentru șefii instituțiilor publice, dar reguli incompatibile cu statutul BNR",
+      "verdictShort": "Limitarea mandatelor este legitimă și poate reduce concentrarea puterii. Proiectul necesită însă corectarea mandatului de 4 ani al guvernatorului BNR, contrar minimului european de 5 ani, și clarificarea regulilor pentru titularii actuali.",
+      "initiatorClaim": "Inițiatorii urmăresc creșterea încrederii în instituții și reducerea influenței personale acumulate prin ocuparea îndelungată a funcțiilor. Ei prezintă rotația conducerii ca mijloc de prevenire a conflictelor de interese și de întărire a independenței.",
+      "realityCheck": "Art. I–VI introduc mandate de 5 ani și maximum două mandate pentru șase conducători din domeniul securității, iar art. X introduce mandate de 4 ani, maximum două, pentru directorul general ORNISS. Art. VII reduce de la 5 la 4 ani mandatele tuturor celor nouă membri ai conducerii BNR, deși limitează reînnoirea numai pentru guvernator; art. IX stabilește 4 ani pentru întregul Colegiu CNSAS. Art. XIII pornește calculul duratei pentru titularii instituțiilor de securitate și ORNISS de la intrarea în vigoare, permițând continuarea funcției fără includerea timpului deja exercitat în această durată.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. VII înlocuiește perioada de 5 ani din art. 33 alin. (4) al Legii nr. 312/2004 cu 4 ani pentru toate numirile în Consiliul de administrație BNR. Limitarea reînnoirii privește doar guvernatorul, însă reducerea duratei afectează întregul consiliu. [Legea nr. 312/2004](https://legislatie.just.ro/Public/DetaliiDocument/81502)",
-        "Mandatul de 4 ani al guvernatorului încalcă minimumul de 5 ani impus de art. 14.2 din Statutul SEBC și al BCE; obligația este relevantă și înaintea adoptării euro. Limitarea numărului de mandate nu înlătură această incompatibilitate. [BCE: independența personală și durata mandatului](https://www.ecb.europa.eu/press/other-publications/convergence/html/ecb.cr202506~8941e288b6.en.html)",
-        "Art. IX reduce de la 6 la 4 ani mandatul tuturor membrilor Colegiului CNSAS, deși plafonul reînnoirii este formulat doar pentru președinte. Trebuie corelată durata funcției de președinte cu mandatul de membru și precizat regimul mandatelor actuale. [OUG nr. 24/2008, art. 17](https://legislatie.just.ro/Public/DetaliiDocument/90188)",
-        "Art. XII asimilează orice mandat parțial unuia întreg, fără prag minim și fără precizarea tratamentului interimatului. Menționează mandatele în curs, dar nu stabilește explicit dacă se numără și cele încheiate înaintea intrării în vigoare.",
-        "Art. XIII pornește durata mandatelor de la intrarea în vigoare pentru funcțiile din art. I–VI și X. Un titular aflat deja de mulți ani în funcție poate astfel continua încă până la 5 ani, respectiv 4 ani la ORNISS, sub rezerva celorlalte cauze legale de încetare.",
-        "Art. VIII și XI păstrează duratele de 5 ani la președinția CNCD și de 6 ani la președinția CNA, adăugând limita unei reînnoiri. Proiectul nu introduce proceduri suplimentare de selecție transparentă ori garanții noi împotriva revocării arbitrare.",
-        "Textul nu introduce taxe, amenzi, autorizații sau raportări pentru cetățeni și IMM-uri și nu creează monopoluri comerciale. Costurile posibile țin de procedurile instituționale de numire și predare a funcțiilor; extrasul nu permite cuantificarea lor și nu justifică afirmarea unui impact bugetar major."
+        "Art. VII: în prezent, art. 33 alin. (4) din Statutul BNR stabilește mandate de 5 ani, reînnoibile. Proiectul le reduce la 4 ani pentru întregul consiliu de administrație, inclusiv guvernatorul, pentru care dreptul UE impune minimum 5 ani.",
+        "Art. I–VI și X: limitele de durată și de număr se adaugă procedurilor existente de numire. Proiectul nu transferă competențele de numire și nu elimină, prin simpla introducere a mandatelor, procedurile existente de eliberare din funcție.",
+        "Art. XIII: pentru funcțiile vizate, durata începe să curgă de la intrarea în vigoare. Un director care a exercitat deja funcția mulți ani poate continua încă 5 ani, respectiv 4 ani la ORNISS, sub rezerva cauzelor legale de încetare; plafonul nu reprezintă astfel o limită absolută a anilor petrecuți efectiv în funcție.",
+        "Art. XII: inclusiv un mandat exercitat parțial se consideră întreg, iar regula include mandatele în curs. Nu se precizează suficient tratamentul mandatelor deja încheiate, al interimatului și al exercitării temporare a atribuțiilor.",
+        "Art. VII–IX și XI: formularea privind reînnoirea o singură dată trebuie armonizată cu formula maximum două mandate, pentru a exclude disputa privind revenirea după o întrerupere. La CNA, durata de 6 ani există deja; noutatea este limitarea reînnoirii.",
+        "Art. IX: durata de 4 ani privește membrii Colegiului CNSAS în ansamblu, nu numai președintele. La CNSAS, CNCD și CNA trebuie corelat mandatul de conducere cu durata rămasă a calității de membru, deoarece conducătorul este ales sau numit dintre membri.",
+        "Art. XII–XIII nu prevăd expres încetarea imediată a mandatelor BNR, CNCD, CNSAS sau CNA. Expunerea de motive afirmă continuarea mandatelor existente, dar această explicație nu înlocuiește o dispoziție tranzitorie obligatorie; garanțiile existente privind revocarea membrilor BNR nu sunt expres eliminate.",
+        "Art. XIV folosește formula în termen de 30 de zile, fără o zi determinată a intrării în vigoare. Pentru previzibilitate, trebuie utilizată formula la 30 de zile de la publicare.",
+        "Proiectul nu instituie taxe, amenzi, autorizații ori obligații administrative pentru cetățeni sau IMM-uri. Eventualele costuri ale procedurilor de numire sunt instituționale; documentele furnizate nu permit cuantificarea lor."
       ],
-      "blindSpotsCaught": "Modificarea Statutului BNR impune consultarea BCE înaintea adoptării, potrivit art. 2 alin. (1) din Decizia 98/415/CE; documentele furnizate nu arată dacă aceasta a avut loc. Separat, în extras, art. IX și X identifică actele drept ordonanțe simple, deși sunt ordonanțe de urgență; formulările trebuie confruntate cu documentul original pentru excluderea erorilor de extragere. [Decizia privind consultarea BCE](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A31998D0415)",
-      "constitutionalityNote": "Limitarea mandatelor acestor conducători nu este, în sine, interzisă de Constituție. Problemele principale privesc art. 1 alin. (5): numărarea mandatelor anterioare, interimatul și soarta mandatelor actuale trebuie reglementate previzibil. Art. 15 alin. (2) cere analiza efectelor concrete asupra situațiilor existente; luarea în calcul a unui mandat anterior pentru o numire viitoare nu reprezintă automat retroactivitate. Reducerea sau încetarea mandatelor actuale nu trebuie dedusă din formulări ambigue. Incompatibilitatea mandatului guvernatorului cu dreptul UE angajează și art. 148 alin. (2) și (4). Art. 23 alin. (12), referitor la legalitatea pedepselor, nu este incident: proiectul nu instituie pedepse. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355)",
-      "euLawNote": "Art. VII trebuie corectat pentru respectarea duratei minime a mandatului guvernatorului și protejarea independenței BNR. Directiva (UE) 2018/958 privește restricțiile asupra profesiilor reglementate, nu reprezintă un test obligatoriu pentru orice condiție de ocupare a unei funcții publice; textul analizat nu evidențiază o asemenea restricție profesională. Nu rezultă nici obligația notificării TRIS potrivit Directivei (UE) 2015/1535: proiectul organizează conducerea instituțiilor, fără reguli tehnice pentru produse sau cerințe specifice serviciilor digitale ori AI. Nu sunt identificate bariere comerciale directe sau restricții noi asupra concurenței. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018L0958), [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535)",
+      "blindSpotsCaught": "Excepția din art. VII limitează numai reînnoirea mandatului guvernatorului, însă regula generală rescrisă scurtează mandatul întregului consiliu BNR. În plus, art. XIII poate prelungi practic exercitarea funcțiilor ocupate de mult timp, iar protecția mandatelor în curs, promisă în expunerea de motive, nu este formulată expres pentru toate instituțiile în textul normativ.",
+      "constitutionalityNote": "Limitele de mandat nu sunt, în sine, neconstituționale. Principalele vulnerabilități țin de art. 1 alin. (5): momentul intrării în vigoare, numărarea mandatelor și raportul dintre mandatul de conducere și calitatea de membru trebuie să fie clare. Art. 15 alin. (2) impune diferențierea între condițiile viitoare de numire și eventuala afectare a mandatelor deja dobândite; includerea mandatului actual în plafon nu reprezintă automat retroactivitate. Incompatibilitatea duratei mandatului guvernatorului cu dreptul UE angajează și art. 148 alin. (2) și (4). Art. 23 alin. (12), privind legalitatea pedepsei, nu este incident: proiectul nu introduce pedepse.",
+      "euLawNote": "Art. 14.2 din Protocolul nr. 4 privind Statutul SEBC și al BCE cere un mandat de cel puțin 5 ani pentru guvernatorul unei bănci centrale naționale; cei 4 ani prevăzuți de art. VII sunt incompatibili cu această cerință. Limitarea la două mandate nu este, prin ea însăși, interzisă. Modificarea statutului BNR necesită consultarea BCE, potrivit art. 127 alin. (4) și art. 282 alin. (5) TFUE și Deciziei 98/415/CE; existența consultării nu rezultă din materialele furnizate. Directiva 2018/958 nu este incidentă doar pentru că se limitează mandate instituționale: proiectul nu reglementează accesul la o profesie în sensul său. Nici notificarea TRIS potrivit Directivei 2015/1535 nu este declanșată: nu apar norme tehnice sau cerințe pentru servicii ale societății informaționale, inclusiv AI. Pentru CNA trebuie păstrate garanțiile de independență, numire și revocare din art. 30 al Directivei 2010/13/UE.",
       "senatForm": {
-        "articleRef": "Art. VII – Legea 312/2004, art. 33 alin. (4)",
-        "proposalContent": "Art. 33 alin. (4) va avea următorul cuprins: «Numirile se fac pe o perioadă de 5 ani, cu posibilitatea reînnoirii mandatului. Prin excepție, mandatul guvernatorului Băncii Naționale a României poate fi reînnoit o singură dată.»",
-        "argumentation": "Mandatul de 4 ani contravine art. 14.2 din Statutul SEBC și al BCE, care impune minimum 5 ani pentru guvernator. Modificarea propusă păstrează limitarea reînnoirii și durata legală de 5 ani pentru întregul Consiliu de administrație. Consultarea BCE este obligatorie înaintea adoptării.",
-        "otherComments": "Propunere cetățenească pentru comisiile de raport ale Camerei Deputaților; un deputat o poate prelua ca amendament. Separat, art. XII trebuie să protejeze durata mandatelor în curs și să precizeze dacă mandatele încheiate anterior se includ în plafon. Din datele furnizate, termenul de amendamente a fost 22.10.2026."
-      }
+        "articleRef": "Art. VII – art. 33 alin. (4), Legea nr. 312/2004",
+        "proposalContent": "(4) Numirile se fac pe o perioadă de 5 ani, cu posibilitatea reînnoirii mandatului. O persoană poate exercita cel mult două mandate în funcția de guvernator al Băncii Naționale a României.",
+        "argumentation": "Art. 14.2 din Statutul SEBC și al BCE impune minimum 5 ani pentru mandatul guvernatorului. Textul propus menține durata actuală pentru întregul consiliu de administrație și introduce explicit plafonul de două mandate pentru guvernator.",
+        "otherComments": "Sunt necesare consultarea BCE și reguli tranzitorii explicite la art. XII–XIII. Art. XIV trebuie să prevadă intrarea în vigoare la 30 de zile de la publicare. Verificarea online nu a fost disponibilă; analiza folosește documentele furnizate și normele europene indicate."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-28T23:01:04.664Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 7
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:44:08.510Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

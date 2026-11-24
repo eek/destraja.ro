@@ -1,130 +1,195 @@
 {
   "billId": "Pl-x 421/2026",
   "slug": "plx-421-2026",
-  "updatedAt": "2026-10-29T01:50:23.022Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T14:42:26.840Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 3088,
+    "ordinanceChars": 0,
+    "memoChars": 6576,
+    "memoSupplied": 6576,
+    "marker": "SF-0E02E1CE"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-421-2026.json",
+    "form": "initiator",
+    "textHash": "0e02e1ce2600f67e",
+    "fetchedAt": "2026-11-19T11:20:12.203Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 7,
+    "articlesShown": 7,
+    "articleCap": 7504,
+    "articlesCut": 3,
+    "chars": 39878,
+    "truncated": false,
+    "included": true,
+    "key": "78a31fd2882fca35"
+  },
   "consensus": {
-    "riskScore": 5.3,
+    "riskScore": 6.3,
     "riskLevel": "yellow",
-    "plainTitle": "Firmele și-ar scădea din impozit tot costul investițiilor, din primul an",
-    "summaryTlDr": "Ideea e economic legitimă, dar textul e prost scris și foarte scump: Art. III face deductibilă imediat valoarea nededusă a tuturor activelor vechi ale firmelor, iar nimic nu împiedică deducerea de două ori a aceleiași investiții. Nu e o capcană pentru cetățeni, dar gaura bugetară necuantificată ajunge în final la toți.",
-    "initiatorClaim": "Inițiatorii vor să stimuleze investițiile private fără să scadă cotele de impozitare: firmele ar deduce imediat întregul cost al utilajelor și clădirilor, în loc să-l amortizeze în mai mulți ani. Pierderile fiscale s-ar reporta mai mult timp și fără plafonul de 70%. Ei susțin că măsura e neutră bugetar pe termen lung și invocă modelul britanic.",
-    "realityCheck": "Proiectul abrogă integral amortizarea fiscală (art. 28) și declară „deductibile integral” cheltuielile cu mijloacele fixe. Elimină orice limită de timp și plafonul de 70% la recuperarea pierderilor, iar prin Art. III transformă imediat în cheltuială valoarea fiscală rămasă a tuturor activelor deja existente, adică un câștig pentru investiții făcute demult. Textul nu spune în ce an se face deducerea, nu face nedeductibilă amortizarea contabilă ulterioară (risc de dublă deducere), nu exclude explicit terenurile sau activele second-hand cumpărate de la firme afiliate și nu are dată de intrare în vigoare. Beneficiul merge la plătitorii de impozit pe profit, nu la microîntreprinderile care plătesc impozit pe venituri.",
+    "plainTitle": "Firmele ar putea scădea din impozit tot costul unei investiții chiar din primul an",
+    "summaryTlDr": "Ideea de a deduce imediat investițiile e legitimă și pro-creștere, dar textul e redactat atât de larg încât deschide calea dublei deduceri, include terenurile și clădirile și produce o gaură bugetară imediată și necuantificată. Așa cum este scris, proiectul trebuie reparat, nu doar votat.",
+    "initiatorClaim": "Inițiatorii vor să stimuleze investițiile private fără a reduce cotele: costul utilajelor și clădirilor să reducă profitul impozabil în anul investiției, nu eșalonat pe ani. Vor și ca pierderile să se recupereze fără limita de 5 ani și fără plafonul de 70%, pentru proiectele cu maturizare lungă.",
+    "realityCheck": "Proiectul abrogă tot art. 28 (amortizarea fiscală) și declară „deductibile integral” cheltuielile cu mijloacele fixe (art. 25 alin. 1). Nu spune însă în ce an se face deducerea și nici nu interzice ca amortizarea contabilă din anii următori să fie dedusă din nou. Lista activelor neamortizabile dispare, deci și terenurile, operele de artă sau navele de agrement ar putea fi deduse. Art. III face deductibilă imediat întreaga valoare neamortizată fiscal a tuturor activelor existente, iar pierderile devin reportabile nelimitat și integral. Rezultatul e un șoc bugetar de o singură dată, pe care expunerea de motive nu îl cuantifică.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
       "Proprietari & Imobiliare",
-      "Șoferi & Auto"
+      "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 3 (art. 25 alin. (1)) și Art. III",
-      "proposalContent": "Art. III va avea cuprinsul: „Mijloacele fixe puse în funcțiune înainte de intrarea în vigoare se amortizează fiscal în continuare potrivit art. 28 în forma anterioară.” La art. 25 alin. (1) se adaugă: „Deducerea integrală se face în anul punerii în funcțiune, doar pentru mijloace fixe noi, fără terenuri; amortizarea contabilă a acestora este nedeductibilă.”",
-      "argumentation": "Textul nu spune când se face deducerea și nu face nedeductibilă amortizarea contabilă, deci aceeași investiție poate fi dedusă de două ori. Art. III dă deducerea imediată și pentru tot stocul de active vechi, fără legătură cu investiții noi, cu cost bugetar mare și necuantificat. Regimul britanic invocat se aplică doar echipamentelor noi, nu terenurilor și clădirilor.",
-      "otherComments": "Expunerea admite pierderi bugetare, dar nu le cuantifică: sunt necesare fișa financiară (Legea 69/2010) și punctul de vedere al Guvernului (art. 111 Constituție). Propun și: intrare în vigoare la 1 ianuarie (art. 4 Cod fiscal); plafon pentru reportarea pierderilor; clarificarea art. 68 alin. (4) lit. d) pentru PFA; necumul cu scutirea profitului reinvestit."
+      "articleRef": "Art. I pct. 3 (art. 25 alin. (1) Cod fiscal)",
+      "proposalContent": "Se adaugă la art. 25 alin. (1): „Cheltuielile aferente achiziționării, producerii, construirii mijloacelor fixe, altele decât terenurile, se deduc integral în anul punerii în funcțiune; amortizarea contabilă și valoarea rămasă la ieșire a acestora sunt nedeductibile. Art. 22 nu se cumulează cu această deducere.”",
+      "argumentation": "Textul nu spune când se deduce investiția și nu interzice deducerea, în anii următori, a amortizării contabile (Art. II alin. 2), deci aceeași cheltuială s-ar putea deduce de două ori. Terenurile nu se uzează și nu au fost niciodată amortizabile. Abrogarea art. 22 alin. (9) permite cumulul cu scutirea profitului reinvestit.",
+      "otherComments": "Art. III deduce dintr-odată stocul neamortizat al tuturor clădirilor și utilajelor: cereți fișa financiară și eșalonare. Corectați trimiterile rămase la art. 28 (ex. art. 68 alin. 4 lit. e) și k)) și la art. 31 alin. (7) (art. 31 alin. 3 și 5). Art. 68 alin. 4 lit. d) devine fără conținut."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 48876,
-      "riskScore": 5,
-      "riskLevel": "yellow",
-      "plainTitle": "Deducerea integrală și imediată a investițiilor firmelor (eliminarea amortizării fiscale)",
-      "verdictShort": "O măsură cu intenție pro-investiții excelentă pentru antreprenori, dar redactată cu erori tehnice majore care ar șterge peste noapte încasările bugetare din impozitul pe profit și ar elimina plafoanele anti-abuz pentru mașini de lux și imobiliare.",
-      "initiatorClaim": "Inițiatorii vor să stimuleze investițiile private și să reducă birocrația contabilă prin înlocuirea amortizării fiscale eșalonate cu deducerea integrală a costului mijloacelor fixe chiar în anul achiziției, după modelul britanic.",
-      "realityCheck": "Pe lângă deducerea investițiilor noi, Art. III permite deducerea imediată a întregului stoc istoric de mijloace fixe încă neamortizate din economie, iar Art. I elimină plafonul de 70% și limita de 5 ani la reportarea pierderilor. Totodată, abrogarea integrală a Art. 28 din Codul fiscal șterge plafonul de deductibilitate pentru autoturisme (1.500 lei/lună) și creează confuzii contabile privind dubla deducere.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 117699,
+      "sourceEndMarker": "SF-0E02E1CE",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Deducerea instantanee a tuturor investițiilor și a activelor vechi neamortizate, fără reguli anti-abuz și fără sursă de finanțare",
+      "verdictShort": "O idee economică legitimă (deducerea imediată a investițiilor), compromisă însă sever de o redactare cu buldozerul: Art. III aruncă în aer bugetul prin deducerea instantanee a tuturor activelor istorice neamortizate, iar abrogarea integrală a art. 28 lasă un vid legislativ major și riscuri de dublă deducere.",
+      "initiatorClaim": "Inițiatorii susțin că înlocuirea amortizării fiscale eșalonate cu deducerea integrală imediată și eliminarea limitelor de reportare a pierderilor vor stimula investițiile private și vor debirocratiza fiscalitatea, după modelul din Regatul Unit, fiind neutre fiscal pe termen lung.",
+      "realityCheck": "În realitate, proiectul nu se limitează la investiții noi în utilaje (ca în Regatul Unit): Art. III transformă brusc în cheltuială deductibilă întreaga valoare rămasă neamortizată a tuturor mijloacelor fixe existente deja în economie, combinată cu reportarea 100% și nelimitată în timp a pierderilor (art. 31), ceea ce poate paraliza încasările din impozitul pe profit ani la rând fără a genera investiții noi. Totodată, abrogarea integrală a art. 28 șterge definiția mijlocului fix și excluderile (terenuri, opere de artă, fond comercial, locuințe de protocol), lăsând în vigoare scutirea pe profitul reinvestit (art. 22) și deschizând ușa unor duble deduceri.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Proprietari & Imobiliare",
-        "Șoferi & Auto"
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. III transformă toată valoarea rămasă neamortizată a mijloacelor fixe existente deja în firme în cheltuială deductibilă imediat la intrarea în vigoare a legii, generând un șoc bugetar masiv pentru trecut, fără a stimula investiții noi.",
-        "Art. I pct. 5 abrogă integral Art. 28 din Codul fiscal, eliminând implicit plafonul de 1.500 lei/lună pentru amortizarea autoturismelor (Art. 28 alin. 14) și permițând decontarea integrală și imediată din profit a mașinilor de lux sau a clădirilor rezidențiale.",
-        "Art. I pct. 6 și 7 elimină atât limita temporală de 5 ani, cât și plafonul de 70% din profitul impozabil pentru recuperarea pierderilor fiscale anuale, permițând compensarea 100% pe termen nelimitat.",
-        "Art. II alin. (2) și (3) creează un vid de tehnică fiscală: nu se prevede expres că amortizarea contabilă înregistrată lunar conform Legii nr. 82/1991 devine nedeductibilă după ce costul de achiziție a fost deja dedus integral potrivit Art. 25 alin. (1)."
+        "Bomba bugetară din dispozițiile tranzitorii (Art. III): toată valoarea rămasă neamortizată a mijloacelor fixe achiziționate în trecut devine cheltuială deductibilă imediat la intrarea în vigoare, aspect nemenzionat în Expunerea de Motive și neacoperit de nicio estimare de impact bugetar.",
+        "Abrogarea în bloc a art. 28 și a art. 25 alin. (3) lit. i) elimină definiția mijlocului fix și lista activelor neamortizabile din art. 28 alin. (4) (terenuri, tablouri/opere de artă, fond comercial, locuințe de protocol, nave/aeronave) fără a reglementa expres nedeductibilitatea amortizării contabile ulterioare.",
+        "Risc direct de dublă facilitate fiscală: proiectul abrogă art. 22 alin. (9), dar lasă intact art. 22 alin. (1)-(8) (scutirea de impozit a profitului contabil reinvestit), permițând teoretic cumularea deducerii integrale din art. 25 alin. (1) cu scutirea pe profitul contabil din art. 22 pentru același echipament.",
+        "Eliminarea oricărei limite la recuperarea pierderilor fiscale (art. 31 alin. 1: dispare atât plafonul de 70%, cât și termenul de 5 ani), amplificând pe termen lung eroziunea bazei impozabile generată de Art. III.",
+        "Trimiteri legislative rupte în lanț: abrogarea art. 31 alin. (7) lasă orfane trimiterile din art. 31 alin. (3) lit. a)-c) și alin. (5), iar abrogarea art. 28 rupe trimiterile din art. 68 alin. (4) lit. e) (la art. 28 alin. 20) și lit. k) (la art. 28 alin. 4) pentru PFA în sistem real."
       ],
-      "blindSpotsCaught": "În Regatul Unit (invocat în Expunerea de motive), «full expensing» se aplică exclusiv echipamentelor și utilajelor noi («new plant and machinery»), excluzând expres autoturismele, clădirile, terenurile și activele second-hand sau istorice. Proiectul românesc aplică deducerea la toate mijloacele fixe, inclusiv la stocul istoric neamortizat (Art. III), și încalcă termenul de predictibilitate de 6 luni din Art. 4 Cod fiscal.",
-      "constitutionalityNote": "Proiectul ridică probleme serioase față de Art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii), întrucât abrogarea totală a Art. 28 lasă nereglementat regimul valorii fiscale la vânzarea sau casarea mijloacelor fixe și riscul dublei deduceri (la achiziție și prin amortizarea contabilă). De asemenea, impactul bugetar major impune respectarea strictă a Art. 138 alin. (5) privind fișa financiară și indicarea sursei de acoperire.",
-      "euLawNote": "Măsura nu contravine Directivei (UE) 2018/958 și nu intră sub incidența procedurii TRIS (Directiva 2015/1535), fiind o măsură de fiscalitate directă aplicabilă orizontal. Totuși, România trebuie să țină cont de angajamentele privind deficitul bugetar excesiv (TFEU Art. 126) și de normele ATAD privind limitarea erodării bazei impozabile.",
+      "blindSpotsCaught": "Contradicția ascunsă dintre Expunerea de Motive și Art. III: expunerea invocă modelul britanic de «full expensing» (care se aplică strict utilajelor noi și exclude clădirile, terenurile sau activele vechi) și promite încasări compensatorii din TVA pe achiziții noi, dar Art. III oferă deducere instantanee pentru stocul istoric de active neamortizate (zero investiții noi, zero TVA suplimentar). În plus, legea nu prevede un termen de intrare în vigoare de la 1 ianuarie (contrar art. 4 din Codul fiscal), intrând în vigoare în 3 zile, în mijlocul exercițiului fiscal, cu normele abia după 60 de zile (Art. IV), iar formula finală califică eronat proiectul drept lege organică (art. 76 alin. 1 în loc de alin. 2).",
+      "constitutionalityNote": "Riscuri majore de neconstituționalitate: (1) Art. 138 alin. (5) din Constituție (coroborat cu art. 15 din Legea nr. 69/2010 și jurisprudența constantă a CCR) — proiectul determină o diminuare masivă a veniturilor bugetare prin Art. III și art. 31 fără fișă financiară și fără indicarea sursei de finanțare/măsurilor compensatorii; (2) Art. 1 alin. (5) privind calitatea, claritatea și previzibilitatea legii — abrogarea integrală a art. 28, înlocuită prin reguli vagi de interpretare globală la Art. II alin. (2)-(3) și formularea ambiguă din art. 68 alin. (4) lit. d) («să respecte regulile, prevăzute în titlul II, după caz»), alături de trimiterile rupte din art. 31 și art. 68, fac norma impredictibilă și imposibil de aplicat unitar.",
+      "euLawNote": "Directivele (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și (UE) 2015/1535 (TRIS) nu sunt incidente, proiectul vizând exclusiv fiscalitatea directă. În schimb, există trei fricțiuni majore cu dreptul UE: (1) Art. II alin. (2)-(3) alterează definiția amortizării în tot Codul fiscal, afectând formula EBITDA din art. 40^2 care transpune Directiva ATAD (UE) 2016/1164 privind limitarea deductibilității dobânzilor; (2) interacțiunea neanalizată cu Directiva (UE) 2022/2523 (Pilonul 2 – impozitul minim global de 15%), unde reducerea bruscă a impozitului efectiv la multinaționale poate transfera încasări către alte state membre prin mecanismul de top-up tax; (3) impactul bugetar necuantificat al Art. III contravine angajamentelor din procedura de deficit excesiv (art. 126 TFUE).",
       "senatForm": {
-        "articleRef": "Art. I pct. 5, Art. III și Art. V (nou)",
-        "proposalContent": "Se elimină Art. III. La Art. I, deducerea integrală se limitează la echipamente tehnologice și utilaje noi achiziționate după intrarea în vigoare a legii, păstrându-se în Art. 28 plafonul pentru autoturisme (1.500 lei/lună) și regimul clădirilor. Se introduce Art. V: prezenta lege intră în vigoare la 1 ianuarie a anului următor publicării.",
-        "argumentation": "Art. III permite deducerea imediată a întregului stoc istoric de active neamortizate din economie, ceea ce ar bloca încasările din impozitul pe profit. În plus, abrogarea totală a Art. 28 elimină plafonul anti-abuz la autoturisme de lux și regulile privind valoarea fiscală la vânzarea activelor. În Marea Britanie măsura vizează doar utilajele noi.",
-        "otherComments": "Pentru evitarea dublei deduceri (la achiziție și ulterior prin amortizarea contabilă lunară), Codul fiscal trebuie să prevadă expres că amortizarea contabilă aferentă mijloacelor fixe deduse integral la achiziție este cheltuială nedeductibilă la calculul rezultatului fiscal."
-      }
+        "articleRef": "Art. I pct. 3 și 5, Art. II și Art. III",
+        "proposalContent": "Eliminarea Art. III (deducerea imediată a stocului neamortizat). Limitarea deducerii integrale la echipamente/utilaje noi, păstrând în art. 28 definiția mijlocului fix, excluderile (terenuri, opere de artă, active necorporale) și interzicerea dublei deduceri cu amortizarea contabilă și art. 22. Intrare în vigoare la 1 ianuarie, conform art. 4 Cod fiscal.",
+        "argumentation": "Art. III provoacă un șoc bugetar major fără investiții noi și fără fișă financiară (art. 138 alin. 5 Constituție). Abrogarea totală a art. 28 șterge definiția mijlocului fix și excluderile din alin. (4), creând risc de dublă deducere cu amortizarea contabilă și art. 22, ceea ce încalcă previzibilitatea legii (art. 1 alin. 5 Constituție).",
+        "otherComments": "Cerem solicitarea fișei financiare de la Guvern (art. 15 Legea 69/2010), corectarea trimiterilor rupte din art. 31 alin. (3), (5) și art. 68 alin. (4) lit. e), k), corelarea cu Directiva ATAD (art. 40^2) și Pilonul 2, precum și îndreptarea formulei finale (Codul fiscal e lege ordinară, art. 76 alin. 2 Constituție)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 289795,
+      "durationMs": 81001,
+      "sourceEndMarker": "SF-0E02E1CE",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Firmele și-ar scădea din impozit tot costul investițiilor, din primul an",
-      "verdictShort": "Ideea e economic legitimă, dar textul e prost scris și foarte scump: Art. III face deductibilă imediat valoarea nededusă a tuturor activelor vechi ale firmelor, iar nimic nu împiedică deducerea de două ori a aceleiași investiții. Nu e o capcană pentru cetățeni, dar gaura bugetară necuantificată ajunge în final la toți.",
-      "initiatorClaim": "Inițiatorii vor să stimuleze investițiile private fără să scadă cotele de impozitare: firmele ar deduce imediat întregul cost al utilajelor și clădirilor, în loc să-l amortizeze în mai mulți ani. Pierderile fiscale s-ar reporta mai mult timp și fără plafonul de 70%. Ei susțin că măsura e neutră bugetar pe termen lung și invocă modelul britanic.",
-      "realityCheck": "Proiectul abrogă integral amortizarea fiscală (art. 28) și declară „deductibile integral” cheltuielile cu mijloacele fixe. Elimină orice limită de timp și plafonul de 70% la recuperarea pierderilor, iar prin Art. III transformă imediat în cheltuială valoarea fiscală rămasă a tuturor activelor deja existente, adică un câștig pentru investiții făcute demult. Textul nu spune în ce an se face deducerea, nu face nedeductibilă amortizarea contabilă ulterioară (risc de dublă deducere), nu exclude explicit terenurile sau activele second-hand cumpărate de la firme afiliate și nu are dată de intrare în vigoare. Beneficiul merge la plătitorii de impozit pe profit, nu la microîntreprinderile care plătesc impozit pe venituri.",
+      "plainTitle": "Firmele ar putea scădea din impozit tot costul unei investiții chiar din primul an",
+      "verdictShort": "Ideea de a deduce imediat investițiile e legitimă și pro-creștere, dar textul e redactat atât de larg încât deschide calea dublei deduceri, include terenurile și clădirile și produce o gaură bugetară imediată și necuantificată. Așa cum este scris, proiectul trebuie reparat, nu doar votat.",
+      "initiatorClaim": "Inițiatorii vor să stimuleze investițiile private fără a reduce cotele: costul utilajelor și clădirilor să reducă profitul impozabil în anul investiției, nu eșalonat pe ani. Vor și ca pierderile să se recupereze fără limita de 5 ani și fără plafonul de 70%, pentru proiectele cu maturizare lungă.",
+      "realityCheck": "Proiectul abrogă tot art. 28 (amortizarea fiscală) și declară „deductibile integral” cheltuielile cu mijloacele fixe (art. 25 alin. 1). Nu spune însă în ce an se face deducerea și nici nu interzice ca amortizarea contabilă din anii următori să fie dedusă din nou. Lista activelor neamortizabile dispare, deci și terenurile, operele de artă sau navele de agrement ar putea fi deduse. Art. III face deductibilă imediat întreaga valoare neamortizată fiscal a tuturor activelor existente, iar pierderile devin reportabile nelimitat și integral. Rezultatul e un șoc bugetar de o singură dată, pe care expunerea de motive nu îl cuantifică.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Proprietari & Imobiliare",
+        "Șoferi & Auto",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 3 (noul art. 25 alin. (1)) face „deductibile integral” cheltuielile de achiziție, producție sau construcție a mijloacelor fixe. Nu stabilește însă momentul deducerii (achiziție, plată sau punere în funcțiune) și nici regimul investițiilor în curs pe mai mulți ani. Cuvântul „imediat” apare doar în Art. III, pentru activele vechi.",
-        "Odată cu abrogarea art. 28 (Art. I pct. 5) dispare mecanismul prin care amortizarea contabilă era înlocuită cu cea fiscală. Niciun articol nu declară nedeductibilă amortizarea contabilă din anii următori a activelor deja deduse integral, iar Art. II alin. (2) trimite noțiunea de „amortizare” la Legea contabilității. Textul poate fi deci citit ca permițând deducerea aceleiași investiții de două ori.",
-        "Art. III face deductibilă imediat, la intrarea în vigoare, întreaga valoare nededusă a tuturor mijloacelor fixe existente. Este un câștig de trezorerie pentru investiții deja făcute, care nu stimulează nicio investiție nouă, și probabil componenta cu cel mai mare cost bugetar a proiectului.",
-        "Art. I pct. 6–7 (art. 31) elimină atât limita de 5 ani, cât și plafonul de 70% la recuperarea pierderilor. Asta înseamnă mai mult decât „extinderea” anunțată în Expunere: împreună cu Art. III, multe firme ar putea să nu plătească impozit pe profit ani la rând.",
-        "Abrogarea art. 28 elimină și definiția fiscală a mijlocului fix amortizabil, pragul valoric și regulile speciale de amortizare. Art. II alin. (1) scoate cuvântul „amortizabile” din tot Codul, astfel că terenurile nu mai sunt excluse explicit. Nu există nicio regulă anti-abuz pentru activele second-hand revândute în interiorul aceluiași grup.",
-        "Expunerea contrazice textul în trei puncte. Spune că măsura vizează „numai investițiile private”, dar textul nu conține o asemenea limită, deci beneficiază și companiile de stat plătitoare de impozit pe profit. Argumentul compensării prin TVA la bunurile de capital nu ține, fiindcă firmele plătitoare de TVA își deduc acest TVA. Regimul britanic invocat se aplică doar echipamentelor noi (nu clădirilor, terenurilor sau activelor second-hand) și păstrează o limitare a compensării pierderilor.",
-        "Art. I pct. 9 înlocuiește la activitățile independente (art. 68 alin. (4) lit. d)) trimiterea specifică cu formula vagă „regulile, prevăzute în titlul ll” (sic). Rămâne neclar dacă PFA-urile în sistem real pot deduce imediat investițiile și ce efect are asta asupra CASS calculate la venitul net. Abrogările de la art. 20 alin. (1) lit. b), art. 22 alin. (9) și art. 57 alin. (1) nu sunt explicate deloc în Expunere."
+        "Dublă deducere posibilă: art. 25 alin. (1) permite deducerea integrală a costului de achiziție. Art. II alin. (2) spune că „amortizarea” se interpretează după Legea contabilității, iar plafonul de la art. 25 alin. (3) lit. i) dispare. Nicio normă nu face nedeductibilă amortizarea contabilă din anii următori, deși expunerea afirmă că „activul nu va mai genera cheltuieli de amortizare”.",
+        "Momentul deducerii nu este stabilit. Contabil, achiziția unui mijloc fix nu e cheltuială, ci activ, iar rezultatul fiscal pornește de la contabilitate. Textul nu spune „în anul punerii în funcțiune”, ceea ce lasă loc de interpretări divergente și de litigii cu ANAF.",
+        "Abrogarea art. 28 elimină și lista activelor neamortizabile (alin. 4: terenuri, opere de artă, fond comercial, nave și aeronave de agrement). Dispar și regimul imobilizărilor necorporale, regulile pentru leasing și plafonul de amortizare pentru autoturisme. Achiziția unui teren sau a unui autoturism de lux ar deveni deductibilă integral, imediat.",
+        "Art. I pct. 2 abrogă art. 22 alin. (9), deși art. 22 (scutirea profitului reinvestit) rămâne în vigoare. Aceeași investiție poate beneficia astfel și de deducere integrală, și de scutirea impozitului pe profitul contabil investit, adică un dublu beneficiu.",
+        "Art. III face deductibilă imediat, la intrarea în vigoare, toată valoarea rămasă neamortizată a activelor existente, inclusiv clădiri cu durate de 40-50 de ani. Pierderea de venituri bugetare este masivă și concentrată într-un singur an, iar textul nu prevede eșalonare și nici fișă de impact.",
+        "Art. 31 alin. (1) nou elimină limita de 70% și termenul de 5 ani și nu mai precizează de la ce an se aplică. Rămân trimiteri la alin. (7), abrogat (art. 31 alin. 3 și 5), și nu se știe dacă pierderile deja expirate „renasc”.",
+        "Trimiteri rămase fără obiect: art. 68 alin. (4) lit. e) trimite la art. 28 alin. (20) (cabinete medicale), lit. k) trimite la art. 28 alin. (4), iar lit. d) nouă („să respecte regulile, prevăzute în titlul II”) nu mai are conținut normativ. Pentru PFA-uri, regimul investițiilor devine neclar."
       ],
-      "blindSpotsCaught": "Neutralitatea bugetară pe termen lung invocată în Expunere funcționează doar dacă amortizarea contabilă devine nedeductibilă după deducerea integrală, iar textul nu spune asta nicăieri. Art. II alin. (3) doar „reinterpretează” trimiterile la art. 28. Normele promise în 60 de zile (Art. IV) nu pot introduce nedeductibilități pe care legea nu le prevede (art. 139 Constituție). Proiectul nu are nicio dată de intrare în vigoare, deși art. 4 din Codul fiscal cere cel puțin 6 luni de la publicare. Cu o intrare în vigoare în mijlocul anului, Art. III lasă deschisă întrebarea pe ce an fiscal se face deducerea. La leasingul financiar, regulile care trimit la amortizare (art. 29) ar fi „reinterpretate” ca deducere integrală la utilizator, deși ratele se plătesc în ani. Textul nu interzice nici cumulul cu scutirea profitului reinvestit (art. 22), pe care proiectul o păstrează. Tehnica legislativă e slabă: „punctul b)” în loc de litera b), ghilimele neînchise la pct. 3, „titlul ll”.",
-      "constitutionalityNote": "Proiectul nu restrânge drepturi fundamentale. Problemele țin de previzibilitate și de procedura bugetară. (1) Art. 1 alin. (5): momentul deducerii, regimul amortizării contabile ulterioare, noțiunea de „mijloace fixe” rămasă nedefinită după abrogarea art. 28 și trimiterea generică din art. 68 alin. (4) lit. d) lasă nedeterminate elemente esențiale ale bazei impozabile. Acestea nu pot fi completate prin normele de la Art. IV, fiindcă art. 139 alin. (1) cere ca impozitele să fie stabilite prin lege. (2) Art. 111 alin. (1) teza a doua: proiectul reduce veniturile bugetului de stat, deci solicitarea informării Guvernului este obligatorie. Jurisprudența CCR a constatat neconstituționalitatea unor legi cu impact bugetar adoptate fără acest punct de vedere și fără fișa financiară cerută de Legea 500/2002 și Legea 69/2010. Expunerea admite impactul negativ, dar nu îl cuantifică și nu propune surse de compensare. (3) Art. 56 nu pare încălcat, fiind o măsură generală. Art. 23 alin. (12) nu e relevant, pentru că proiectul nu conține sancțiuni.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, deoarece proiectul nu reglementează accesul la profesii sau exercitarea lor. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reglementări tehnice pentru produse sau servicii ale societății informaționale. Pe ajutorul de stat (art. 107 TFUE), măsura se adresează tuturor plătitorilor de impozit pe profit, fără criterii sectoriale sau regionale, deci nu pare selectivă. La grupurile supuse impozitului minim global (Directiva (UE) 2022/2523), deducerea accelerată e o diferență temporară și nu ar trebui să declanșeze impozit suplimentar. Riscul european real e bugetar: România se află în procedura de deficit excesiv, iar o reducere necuantificată și necompensată a impozitului pe profit, mărită de Art. III, intră în tensiune cu traiectoria de ajustare convenită cu Consiliul UE.",
+      "blindSpotsCaught": "Expunerea invocă modelul britanic, dar „full expensing” din Regatul Unit se aplică doar echipamentelor noi (plant & machinery), nu clădirilor, terenurilor sau activelor second-hand. Proiectul român nu are niciuna dintre aceste limite. Afirmația că măsura „se aplică numai investițiilor private” nu are acoperire în text. Proiectul nu are dată de intrare în vigoare, deci se aplică art. 4 din Codul fiscal (de regulă de la 1 ianuarie al anului următor, dacă legea e adoptată cu cel puțin 6 luni înainte), ceea ce face neclar momentul aplicării art. III. Impozitul minim pe cifra de afaceri pentru marii contribuabili rămâne în vigoare și va neutraliza parțial efectul pentru aceștia, deci beneficiul e inegal distribuit.",
+      "constitutionalityNote": "Art. 1 alin. (5) (claritate și previzibilitate): proiectul are probleme reale. Nu stabilește momentul deducerii, nu exclude dubla deducere și lasă trimiteri către texte abrogate (art. 28, art. 31 alin. 7), ceea ce face norma greu de aplicat uniform. Art. 15 alin. (2): dacă noul art. 31 ar fi interpretat ca reactivând pierderi deja expirate, s-ar ridica problema retroactivității, permisă doar pentru legea penală sau contravențională mai favorabilă. Art. 111 alin. (1) și art. 138 alin. (5), coroborate cu Legea nr. 500/2002 și Legea nr. 69/2010: o reducere majoră de venituri fără fișă financiară și fără cuantificare poate fi contestată, iar punctul de vedere al Guvernului e obligatoriu. Art. 56 alin. (2) (așezarea justă a sarcinilor fiscale) poate fi invocat pentru deducerea unor active care nu se depreciază, cum sunt terenurile.",
+      "euLawNote": "Directiva 2018/958 (testul de proporționalitate) nu se aplică, fiindcă proiectul nu reglementează accesul la profesii. Directiva TRIS 2015/1535 nu se aplică, fiindcă nu există reguli tehnice sau privind serviciile digitale. Măsura e generală, pentru toți plătitorii de impozit pe profit, deci în principiu nu constituie ajutor de stat selectiv. Abrogarea art. 20 alin. (1) lit. b) reduce chiar o componentă de ajutor pentru cercetare-dezvoltare. Pentru grupurile mari, efectul e în mare parte neutralizat de impozitul minim global (Directiva 2022/2523, Pilonul 2), care tratează deducerea accelerată ca diferență temporară. Riscul major ține de cadrul fiscal-bugetar UE: România se află în procedura de deficit excesiv (Regulamentul 1467/97), iar o pierdere de venituri imediată și necuantificată contravine angajamentelor de consolidare.",
       "senatForm": {
-        "articleRef": "Art. I pct. 3 (art. 25 alin. (1)) și Art. III",
-        "proposalContent": "Art. III va avea cuprinsul: „Mijloacele fixe puse în funcțiune înainte de intrarea în vigoare se amortizează fiscal în continuare potrivit art. 28 în forma anterioară.” La art. 25 alin. (1) se adaugă: „Deducerea integrală se face în anul punerii în funcțiune, doar pentru mijloace fixe noi, fără terenuri; amortizarea contabilă a acestora este nedeductibilă.”",
-        "argumentation": "Textul nu spune când se face deducerea și nu face nedeductibilă amortizarea contabilă, deci aceeași investiție poate fi dedusă de două ori. Art. III dă deducerea imediată și pentru tot stocul de active vechi, fără legătură cu investiții noi, cu cost bugetar mare și necuantificat. Regimul britanic invocat se aplică doar echipamentelor noi, nu terenurilor și clădirilor.",
-        "otherComments": "Expunerea admite pierderi bugetare, dar nu le cuantifică: sunt necesare fișa financiară (Legea 69/2010) și punctul de vedere al Guvernului (art. 111 Constituție). Propun și: intrare în vigoare la 1 ianuarie (art. 4 Cod fiscal); plafon pentru reportarea pierderilor; clarificarea art. 68 alin. (4) lit. d) pentru PFA; necumul cu scutirea profitului reinvestit."
-      }
+        "articleRef": "Art. I pct. 3 (art. 25 alin. (1) Cod fiscal)",
+        "proposalContent": "Se adaugă la art. 25 alin. (1): „Cheltuielile aferente achiziționării, producerii, construirii mijloacelor fixe, altele decât terenurile, se deduc integral în anul punerii în funcțiune; amortizarea contabilă și valoarea rămasă la ieșire a acestora sunt nedeductibile. Art. 22 nu se cumulează cu această deducere.”",
+        "argumentation": "Textul nu spune când se deduce investiția și nu interzice deducerea, în anii următori, a amortizării contabile (Art. II alin. 2), deci aceeași cheltuială s-ar putea deduce de două ori. Terenurile nu se uzează și nu au fost niciodată amortizabile. Abrogarea art. 22 alin. (9) permite cumulul cu scutirea profitului reinvestit.",
+        "otherComments": "Art. III deduce dintr-odată stocul neamortizat al tuturor clădirilor și utilajelor: cereți fișa financiară și eșalonare. Corectați trimiterile rămase la art. 28 (ex. art. 68 alin. 4 lit. e) și k)) și la art. 31 alin. (7) (art. 31 alin. 3 și 5). Art. 68 alin. 4 lit. d) devine fără conținut."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 198392,
-      "riskScore": 5,
+      "durationMs": 93122,
+      "sourceEndMarker": "SF-0E02E1CE",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Firmele își deduc investițiile imediat din profitul impozabil",
-      "verdictShort": "Deducerea imediată poate încuraja investițiile și îmbunătăți lichiditatea firmelor. Forma propusă are însă lacune fiscale și un impact bugetar insuficient fundamentat, care justifică un risc moderat.",
-      "initiatorClaim": "Inițiatorii vor recuperarea fiscală imediată a investițiilor, mai puțină birocrație și susținerea proiectelor care devin profitabile după mai mulți ani. Ei prezintă costul bugetar drept tranzitoriu și compensabil prin creștere economică.",
-      "realityCheck": "Art. I înlocuiește recuperarea eșalonată a costului mijloacelor fixe cu deducerea integrală și elimină termenul de cinci ani și plafonul de 70% pentru recuperarea pierderilor fiscale. Art. III acordă deducerea imediată inclusiv pentru valoarea fiscală încă nerecuperată a investițiilor existente, astfel încât avantajul depășește stimularea investițiilor noi. Textul nu clarifică suficient momentul deducerii, prevenirea deducerii repetate și corelarea cu regulile PFA; neutralitatea bugetară pe termen lung nu rezultă automat din aceste articole.",
+      "plainTitle": "Investiții deduse imediat și pierderi fiscale reportate nelimitat",
+      "verdictShort": "Proiectul poate încuraja investițiile și reduce evidențele fiscale, dar forma propusă lasă neclarități importante privind deducerea repetată a acelorași costuri și aplicarea la activitățile independente. Deducerea imediată a investițiilor vechi produce, suplimentar, un șoc bugetar potențial, necuantificat în documentele furnizate.",
+      "initiatorClaim": "Inițiatorii urmăresc să stimuleze investițiile prin recuperarea fiscală imediată a costurilor și să permită folosirea integrală, fără termen de expirare, a pierderilor fiscale. Susțin că măsura simplifică administrarea și că diminuarea inițială a încasărilor va fi compensată ulterior prin creștere economică.",
+      "realityCheck": "Art. I înlocuiește amortizarea fiscală cu deducerea costurilor mijloacelor fixe și elimină limita temporală și plafonul recuperării pierderilor, iar art. III permite deducerea imediată inclusiv pentru investițiile existente, încă nerecuperate fiscal. Abrogarea integrală a art. 28 elimină și definiții, excluderi și reguli speciale, fără înlocuirea lor sistematică; corelările generale din art. II nu clarifică suficient tratamentul amortizării contabile ulterioare, al înstrăinărilor și al activităților independente. Neutralitatea bugetară și compensarea prin TVA sunt afirmații ale expunerii de motive, nu efecte garantate de text.",
       "affectedGroups": [
         "IMM & Antreprenori",
-        "IT & AI",
         "Contabili & Fiscalitate",
-        "Șoferi & Auto",
+        "IT & AI",
         "Proprietari & Imobiliare",
+        "Șoferi & Auto",
+        "Sănătate & Educație",
+        "Agricultură & Mediu",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 5 abrogă întregul art. 28, inclusiv definiții, reguli pentru active necorporale și limitări speciale. Dispare astfel și plafonul de amortizare de 1.500 lei/lună pentru anumite autoturisme: efectul poate depăși simpla devansare a unei deduceri anterior permise. Celelalte limitări din Cod nu sunt însă abrogate automat. [Codul fiscal, art. 28](https://legislatie.just.ro/Public/DetaliiDocument/284327).",
-        "Art. I pct. 6–7 permite recuperarea pierderilor fiscale fără termen maxim și fără plafonul anual de 70%. Este util pentru investiții cu maturizare lentă, dar nu reprezintă rambursarea pierderii de către stat și necesită precizări pentru pierderile anterioare, mai ales cele deja expirate. [Regimul actual al pierderilor](https://static.anaf.ro/static/10/Anaf/legislatie/Cod_fiscal_norme_2023.htm).",
-        "Art. I pct. 9 modifică art. 68 alin. (4) lit. d), dar păstrează art. 68 alin. (7) lit. h), care declară nedeductibile costurile achiziționării sau fabricării bunurilor și drepturilor amortizabile din Registrul-inventar. Pentru PFA în sistem real, această necorelare poate împiedica beneficiul promis; trimiterea generală la titlul II nu o rezolvă clar. [Codul fiscal, art. 68](https://legislatie.just.ro/Public/DetaliiDocumentAfis/262008).",
-        "Art. II alin. (2) păstrează amortizarea în sens contabil, iar alin. (3) transformă anumite trimiteri fiscale în deducere integrală. Împreună cu noul art. 25 și art. III, mecanismul necesită o interdicție expresă a deducerii repetate a costului prin amortizare contabilă sau la cedarea activului; redactarea actuală creează un risc de interpretare, nu dovedește că orice dublă deducere ar fi legală.",
-        "Art. I pct. 8 elimină obligația microîntreprinderilor de a ține evidența amortizării fiscale, ceea ce poate reduce birocrația. Deducerea investiției nu reduce însă direct impozitul micro calculat pe venituri, iar amortizarea contabilă și evidența activelor rămân necesare. [Codul fiscal, art. 53 și 57](https://static.anaf.ro/static/10/Anaf/legislatie/Cod_fiscal_norme_2023.htm).",
-        "Consiliul Fiscal a constatat la 01.04.2026 neîndeplinirea cerințelor art. 21 din Legea nr. 69/2010 privind fundamentarea diminuării veniturilor și a solicitat documentele necesare. Expunerea de motive nu poate garanta compensarea prin TVA: taxa aferentă investițiilor poate fi deductibilă pentru cumpărător. Nu sunt introduse taxe sau sancțiuni noi pentru cetățeni. [Opinia Consiliului Fiscal](https://www.senat.ro/legis/PDF/2026/26L226CF.PDF?nocache=true)."
+        "Art. I pct. 3–5: în prezent, costurile mijloacelor fixe eligibile se recuperează fiscal prin amortizare, potrivit art. 28; proiectul introduce deducerea integrală a achiziției, producției, construcției și investițiilor ulterioare. Este un avantaj de lichiditate pentru contribuabilii care au profit impozabil, dar nu reprezintă rambursarea investiției de către stat.",
+        "Art. III este principala dispoziție tranzitorie cu impact bugetar: și valoarea rămasă nerecuperată a activelor deja existente devine imediat deductibilă. Beneficiul nu este condiționat de o investiție nouă; termenul trebuie definit ca valoare fiscală eligibilă rămasă de recuperat, distinctă de valoarea contabilă și de costurile definitiv nedeductibile.",
+        "Art. I pct. 4–5 și art. II alin. (2): dispar atât limitarea deductibilității amortizării prin art. 28, cât și articolul care organizează recuperarea fiscală. Cum amortizarea contabilă continuă, lipsește o interdicție expresă a deducerii sale pentru costurile deja deduse integral; apare un risc de dublă deducere și de litigii, nu o autorizare neechivocă a acesteia.",
+        "Art. I pct. 6–7: acum, pierderile începând cu 2024 se recuperează în cinci ani, în limita a 70% din profit, iar cele anterioare au reguli tranzitorii distincte. Proiectul elimină termenul și plafonul, dar și regula expresă privind ordinea recuperării și aplicarea la fiecare termen de plată; nu precizează suficient tratamentul pierderilor vechi încă disponibile și nu prevede expres reactivarea celor expirate.",
+        "Art. I pct. 5 abrogă întregul art. 28, inclusiv definiția fiscală a mijlocului fix, excluderile pentru terenuri și opere de artă și regulile pentru imobilizări necorporale. Noul art. 25 nu reconstruiește aceste delimitări; sfera deducerii poate deveni mai largă sau incertă, astfel încât reforma nu poate fi descrisă sigur drept simplă devansare a acelorași deduceri.",
+        "Art. I pct. 9 și art. II nu rezolvă complet situația activităților independente: art. 68 alin. (4) lit. e) continuă să trimită la art. 28 alin. (20), iar lit. k) la activele prevăzute de art. 28 alin. (4), deși întregul articol este abrogat. Trimiterea generică la regulile titlului II nu garantează singură aplicarea coerentă a deducerii imediate pentru PFA și cabinete.",
+        "Art. I pct. 2 păstrează scutirea profitului reinvestit de la art. 22 și elimină numai alin. (9), referitor la amortizarea accelerată/superaccelerată. Scutirea nu este creată de proiect, iar condițiile sale de păstrare a activelor rămân aplicabile; cumulul cu noua deducere trebuie evaluat explicit.",
+        "Art. I pct. 8 elimină evidența amortizării fiscale pentru microîntreprinderi, ceea ce simplifică administrarea. Deducerea cheltuielilor nu reduce însă, prin ea însăși, impozitul calculat pe veniturile microîntreprinderii; obligațiile contabile aplicabile continuă.",
+        "Noul art. 25 alin. (1) folosește expresia «deductibile integral», dar celelalte limitări și interdicții speciale din art. 25 nu sunt abrogate în bloc. Plafoanele pentru protocol, cheltuieli sociale sau utilizarea mixtă a vehiculelor nu pot fi considerate automat eliminate prin modificarea regulii generale.",
+        "Art. IV acordă 60 de zile pentru revizuirea normelor, fără să amâne aplicarea legii. În lipsa unei date speciale, regula constituțională este intrarea în vigoare la trei zile de la publicare; sunt necesare corelarea cu art. 4 din Codul fiscal și reguli pentru perioadele fiscale în curs.",
+        "Expunerea de motive nu prezintă o estimare numerică a pierderii de venituri, inclusiv pentru stocul activelor existente. TVA aferentă investițiilor poate fi deductibilă pentru cumpărător, astfel încât încasarea netă suplimentară nu este automată; nici eliminarea termenului de expirare a pierderilor nu garantează neutralitate fiscală pe termen lung."
       ],
-      "blindSpotsCaught": "Exemplul britanic nu reproduce întinderea proiectului românesc: full expensing privește anumite utilaje și echipamente noi, neutilizate, exclude autoturismele și are reguli de recuperare fiscală la înstrăinare. Invocarea sa nu demonstrează nici oportunitatea abrogării integrale a art. 28, nici compensarea automată a pierderilor bugetare. [Regulile HMRC](https://www.gov.uk/guidance/check-if-you-can-claim-full-expensing-or-50-first-year-allowances).",
-      "constitutionalityNote": "Obiectivul stimulării investițiilor este legitim. Riscul principal privește art. 1 alin. (5): trimiterile rămase fără obiect, contradicția privind PFA și tranziția insuficient reglementată afectează previzibilitatea. Lipsa unei date explicite trebuie corectată în raport cu termenul de minimum șase luni din art. 4 alin. (1) Cod fiscal; normele Guvernului nu pot suplini elementele esențiale lipsă. Consiliul Legislativ a semnalat asemenea probleme și a calificat legea drept ordinară, ceea ce impune corectarea formulei finale către art. 76 alin. (2). [Avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L226LG.PDF?nocache=true). Art. 23 alin. (12) privește legalitatea pedepselor și nu este direct incident; pentru fiscalitate sunt relevante și art. 56 și 139. Diminuarea veniturilor nu echivalează automat cu aprobarea unei cheltuieli în sensul art. 138 alin. (5). [Constituția](https://legislatie.just.ro/Public/DetaliiDocument/47355).",
-      "euLawNote": "Directiva (UE) 2018/958 nu impune aici testul pentru profesii reglementate: proiectul nu restrânge accesul sau exercitarea unei asemenea profesii. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng). Din text nu rezultă o obligație TRIS potrivit Directivei (UE) 2015/1535: nu sunt introduse cerințe tehnice pentru produse sau reguli destinate explicit serviciilor digitale ori AI. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535). Nu se instituie monopoluri sau bariere explicite pentru operatorii din alte state membre. Avantajul practic este mai mare pentru contribuabilii cu profit și investiții consistente, dar această diferență nu dovedește singură ajutor de stat; trebuie analizată selectivitatea în cadrul sistemului fiscal relevant. [Comisia Europeană, comunicarea privind ajutorul de stat, pct. 177–180](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=oj%3AJOC_2016_262_R).",
+      "blindSpotsCaught": "Detaliul decisiv este art. III: facilitatea acoperă și investițiile istorice, nu doar investiții stimulate după adoptare. În plus, abrogarea art. 31 alin. (7) lasă trimiteri la acest alineat în dispozițiile nemodificate ale aceluiași articol, iar abrogarea art. 28 afectează inclusiv trimiteri din art. 68. Analiza utilizează documentele furnizate; verificarea online independentă nu a fost disponibilă.",
+      "constitutionalityNote": "Scopul economic este legitim, iar deducerea imediată nu este, în sine, neconstituțională. Riscul principal privește art. 1 alin. (5): delimitarea activelor eligibile, prevenirea deducerii repetate, trimiterile rămase fără obiect și tranziția fiscală trebuie clarificate în lege, nu lăsate integral normelor Guvernului. Art. 23 alin. (12) privește legalitatea pedepselor și nu este direct incident, deoarece proiectul nu introduce pedepse. Pentru modificarea veniturilor bugetare, art. 111 alin. (1) impune solicitarea informării Guvernului; documentele furnizate nu permit stabilirea respectării procedurii. Reducerea veniturilor nu dovedește singură încălcarea art. 138 alin. (5), referitor la cheltuieli bugetare. Art. III privește o deducere la intrarea în vigoare și nu constituie automat retroactivitate. Formula finală invocă art. 76 alin. (1), deși modificările fiscale prezentate țin, în principiu, de legea ordinară; această mențiune nu este singură un motiv suficient de neconstituționalitate.",
+      "euLawNote": "Directiva (UE) 2018/958 nu impune aici un test de proporționalitate: proiectul nu introduce restricții privind accesul la profesii reglementate sau exercitarea lor. Nu rezultă nici o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535, deoarece textul nu instituie specificații tehnice pentru produse ori reguli privind serviciile societății informaționale; faptul că pot beneficia firme IT nu este suficient. Măsura poate favoriza economic întreprinderile cu investiții mari și profit disponibil, fără ca aceasta să demonstreze o restrângere ilegală a concurenței. O regulă fiscală generală nu constituie automat ajutor de stat: analiza art. 107 TFUE ar necesita identificarea unui avantaj selectiv, inclusiv prin eventualele excluderi sau norme de aplicare. Textul nu condiționează deducerea de cumpărarea bunurilor din România, iar exemplul din expunerea de motive nu creează o asemenea condiție.",
       "senatForm": {
         "articleRef": "Art. III",
-        "proposalContent": "Valoarea fiscală rămasă, nededusă la data aplicării prezentei legi, se deduce o singură dată. Amortizarea contabilă ulterioară și valoarea contabilă rămasă la cedare sau casare nu sunt deductibile pentru partea de cost deja dedusă fiscal. Regula evitării dublei deduceri se aplică și investițiilor deduse potrivit art. 25 alin. (1).",
-        "argumentation": "Deducerea imediată poate susține investițiile, dar trebuie exclusă deducerea repetată a aceluiași cost prin amortizare contabilă ori la vânzarea activului. Precizarea valorii fiscale rămase separă baza fiscală de valoarea contabilă și reduce riscul de controale și litigii.",
-        "otherComments": "Solicit preluarea de către un deputat din Comisia pentru buget, finanțe și bănci a Camerei Deputaților. Sunt necesare și corelarea art. 68 alin. (7) lit. h), fundamentarea bugetară și o dată explicită de aplicare conform art. 4 din Codul fiscal. Termenul de amendamente din fișă, 08.06.2026, a trecut."
-      }
+        "proposalContent": "Valoarea fiscală rămasă de recuperat a mijloacelor fixe existente se deduce o singură dată în perioada fiscală a intrării în vigoare. Nu se deduc sumele anterior deduse sau definitiv nedeductibile. Costurile deduse potrivit prezentei legi nu mai pot fi deduse prin amortizare contabilă, la înstrăinare ori la scoaterea din gestiune.",
+        "argumentation": "Textul distinge valoarea fiscală de cea contabilă, împiedică recuperarea costurilor definitiv nedeductibile și previne deducerea repetată a aceleiași investiții. Regula este necesară deoarece proiectul abrogă art. 28 și limita fiscală a amortizării, dar păstrează amortizarea contabilă.",
+        "otherComments": "Sunt necesare și corelarea art. 31 și 68, un calendar fiscal expres și estimarea impactului art. III. Termenul indicat, 8 iunie 2026, este depășit. Memoriul cetățeanului poate susține un amendament preluat procedural de un deputat; nu constituie el însuși amendament parlamentar."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T01:50:23.022Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 6,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:42:26.840Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

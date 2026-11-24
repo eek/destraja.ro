@@ -2,14 +2,41 @@
   "billId": "Pl-x 722/2026",
   "slug": "plx-722-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-15T19:09:10.130Z",
+  "updatedAt": "2026-11-24T14:41:26.502Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 3497,
+    "ordinanceChars": 0,
+    "memoChars": 23347,
+    "memoSupplied": 23347,
+    "marker": "SF-1BAE738B"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-722-2026.json",
+    "form": "initiator",
+    "textHash": "1bae738b929f3679",
+    "fetchedAt": "2026-11-19T11:19:57.482Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 5410,
+    "truncated": false,
+    "included": true,
+    "key": "77c9cd90b3d0406c"
+  },
   "consensus": {
-    "riskScore": 4.3,
+    "riskScore": 4,
     "riskLevel": "yellow",
-    "plainTitle": "Primarii care au PFA pentru un proiect european își pot păstra și funcția, și PFA-ul până la finalul proiectului",
-    "summaryTlDr": "Problema descrisă este reală, iar condițiile sunt mai stricte decât media, dar textul introduce o breșă în regimul incompatibilităților fără un mecanism de verificare. Mai mult, trimiterea la președinții de consilii județene vizează un articol care nu li se aplică.",
-    "initiatorClaim": "Inițiatorii spun că aleșii locali care au devenit comercianți persoane fizice doar pentru a implementa un proiect european ajung să aleagă între pierderea mandatului și pierderea proiectului, cu restituirea banilor și penalități. Propun o excepție temporară, cu condiții cumulative, în numele proporționalității și al absorbției fondurilor UE.",
-    "realityCheck": "Legea permite unui primar, viceprimar sau președinte de CJ să rămână titularul unei afaceri private finanțate public pe durata mandatului, cât timp proiectul nu are legătură cu propria UAT. Condiția «exclusiv în scopul implementării» nu poate fi dovedită obiectiv, iar textul nu prevede declarație, termen sau rolul ANI. Pentru proiectele din UAT-uri vecine sau din același județ nu există nicio barieră.",
+    "plainTitle": "Primarii și președinții de CJ care au PFA pentru un proiect cu bani europeni n-ar mai fi incompatibili",
+    "summaryTlDr": "Problema e reală, iar condițiile sunt bine gândite pe hârtie. Totuși, excepția are trei goluri: poate fi lovită de lit. k) din același articol, lasă o fereastră între alegeri și validare și se poate bate cap în cap cu obligația de sustenabilitate a proiectelor. Relaxează regimul anticorupție fără un mecanism de verificare.",
+    "initiatorClaim": "Inițiatorii vor ca aleșii locali care, înainte de mandat, și-au deschis o formă de comerciant persoană fizică (PFA/II) doar ca să implementeze un proiect european să nu mai fie nevoiți să aleagă între demisie și pierderea proiectului, cu restituirea banilor.",
+    "realityCheck": "Proiectul adaugă art. 87 alin. (4), care scoate de sub lit. g) (azi incompatibilitate absolută pentru primar, viceprimar, primar general, președinte și vicepreședinte CJ) persoanele care au calitatea de comerciant persoană fizică pentru proiecte UE. Sunt cinci condiții cumulative: contract semnat înainte de validare, nicio legătură cu propria UAT, nicio majorare sau prelungire în mandat, abținere de la decizii și încetarea calității la 30 de zile după închiderea proiectului. Excepția nu acoperă lit. k) („orice alte activități remunerate”) și nu stabilește cine verifică condiția „exclusiv” și cum. Pragul „închiderea oficială” e ambiguu, iar dacă e citit greșit poate pune beneficiarul în culpă față de finanțator chiar la finalul proiectului.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Agricultură & Mediu",
@@ -17,109 +44,139 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I – art. 87 alin. (4) din Legea 161/2003",
-      "proposalContent": "Se adaugă lit. f): «alesul depune la ANI, în 15 zile de la validare, declarație însoțită de contractul de finanțare și dovada cerinței de eligibilitate; ANI publică lista». Excepția pentru președintele/vicepreședintele CJ se introduce distinct la art. 88. «Comerciant persoană fizică» se înlocuiește cu «PFA sau întreprindere individuală».",
-      "argumentation": "Art. 87 alin. (1) lit. g) nu se aplică președinților de CJ (regim distinct la art. 88), deci trimiterea e inoperantă. Noțiunea de «comerciant persoană fizică» e depășită după Codul civil și OUG 44/2008. Fără o declarație verificabilă, condiția «exclusiv în scopul implementării» nu poate fi controlată de ANI, iar excepția devine portiță.",
-      "otherComments": "Lit. e) intră în conflict cu perioada de durabilitate de 3–5 ani cerută de multe contracte UE după finalizare și trebuie clarificată. Lit. b) ar trebui extinsă la UAT-urile din același județ și la consiliul județean. Excepția de la lit. c) pentru modificări impuse de AM trebuie restrânsă. De corectat «administrativ-territorială»."
+      "articleRef": "Art. I – art. 87 alin. (4) introd. și lit. a)",
+      "proposalContent": "Introd.: „Prin excepție de la alin. (1) lit. g) și k)...”. Lit. a): „contractul de finanțare a fost semnat înainte de data alegerilor locale...”. Lit. f) nouă: „alesul local declară la ANI, în 30 de zile de la validare sau de la intrarea în vigoare a legii, contractul de finanțare și actele adiționale”.",
+      "argumentation": "Fără lit. k), venitul din PFA rămâne „activitate remunerată”, iar ANI poate constata oricum incompatibilitatea. Raportarea la validare lasă o fereastră după vot în care câștigătorul poate semna contracte noi. Declararea la ANI face condițiile verificabile, azi fără procedură.",
+      "otherComments": "Definiți „închiderea oficială” corelat cu perioada de monitorizare ex-post, ca radierea PFA să nu ducă la recuperarea fondurilor. Reglementați cazurile cu rapoarte ANI pendinte. Corectați „administrativ-territorială”. Lit. b) să includă și UAT-urile din județ, pentru președinții de CJ."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 34938,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 99217,
+      "sourceEndMarker": "SF-1BAE738B",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Primarii și șefii de CJ își pot păstra PFA-ul pentru proiecte UE în derulare",
-      "verdictShort": "Proiectul încearcă să rezolve o problemă practică reală a aleșilor locali care aveau proiecte europene pe PFA înainte de mandat, instituind cinci condiții restrictive destul de stricte. Totuși, redactarea conține termeni impreciși care pot face excepția inaplicabilă în perioada de sustenabilitate a proiectelor sau greu de verificat de către ANI.",
-      "initiatorClaim": "Inițiatorii susțin că actuala incompatibilitate absolută îi obligă pe primarii și viceprimarii care aveau un PFA doar pentru un proiect european să aleagă între pierderea mandatului și rezilierea finanțării cu restituirea banilor. Ei propun o excepție strictă pentru proiectele contractate înainte de validare, fără legătură cu primăria.",
-      "realityCheck": "Art. I introduce art. 87 alin. (4) în Legea nr. 161/2003, permițând primarilor, viceprimarilor (inclusiv din București) și președinților/vicepreședinților de CJ să rămână comercianți persoană fizică pentru proiecte UE contractate anterior validării mandatului, dacă UAT-ul nu este implicat și contractul nu este majorat. În realitate, lit. e) obligă la radierea statutului în 30 de zile de la „închiderea oficială” a implementării, ignorând faptul că contractele UE impun adesea menținerea PFA-ului încă 3-5 ani în perioada de durabilitate; în plus, condiția ca PFA-ul să fi fost creat „exclusiv în scopul” proiectului este subiectivă și nu interzice explicit alte activități comerciale paralele.",
+      "plainTitle": "Excepție de la incompatibilitate pentru primarii și șefii de CJ care au PFA cu proiecte din fonduri europene",
+      "verdictShort": "Proiectul adresează o problemă reală a aleșilor locali cu proiecte UE contractate înainte de mandat și impune cinci condiții cumulative de integritate, însă conține lacune de claritate și necorelări juridice care pot genera atât breșe de control, cât și capcane chiar pentru beneficiari.",
+      "initiatorClaim": "Inițiatorii (parlamentari AUR) susțin în expunerea de motive că regula absolută de la art. 87 alin. (1) lit. g) din Legea nr. 161/2003 îi forțează pe aleșii locali care și-au deschis PFA anterior mandatului exclusiv pentru proiecte europene fie să demisioneze, fie să abandoneze finanțarea și să restituie fondurile UE cu penalități.",
+      "realityCheck": "În legea actuală, funcția de primar, viceprimar, președinte sau vicepreședinte de consiliu județean este absolut incompatibilă cu calitatea de comerciant persoană fizică (art. 87 alin. (1) lit. g)) și cu orice activități remunerate (lit. k)). Art. I introduce alin. (4), care derogă exclusiv de la lit. g) dacă sunt îndeplinite cumulativ cinci condiții, dar nu rezolvă coliziunea cu lit. k), nu interzice operațiuni comerciale paralele pe același PFA în timpul mandatului, nu instituie în lege nicio obligație de notificare a ANI și folosește termeni neclari precum «exclusiv în scopul implementării» și «închiderea oficială».",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Agricultură & Mediu",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I (noul art. 87 alin. (4)) derogă exclusiv de la alin. (1) lit. g) (comerciant persoană fizică), lăsând neatins alin. (1) lit. k) (interdicția oricăror activități remunerate), ceea ce menține riscul ca veniturile generate de implementarea proiectului european să atragă în continuare starea de incompatibilitate.",
+        "Lit. e) obligă la încetarea calității de comerciant persoană fizică în 30 de zile de la «închiderea oficială» a proiectului, fără a defini acest moment și fără a ține cont de perioada de durabilitate ex-post (de regulă 3–5 ani după implementare) impusă de regulile fondurilor europene, perioadă în care radierea PFA poate declanșa recuperarea finanțării.",
+        "Deși expunerea de motive afirmă că aleșii vor depune documente la ANI pentru verificarea celor cinci condiții, textul efectiv al art. 87 alin. (4) nu prevede nicio obligație legală de notificare sau termen de depunere a actelor la ANI și nici nu interzice desfășurarea altor activități comerciale prin același PFA pe durata mandatului.",
+        "Lit. b) exclude legăturile contractuale doar cu unitatea administrativ-teritorială (UAT) în care alesul exercită funcția și entitățile ei subordonate, omițând relațiile comerciale ale proiectului cu furnizori privați aflați în contract cu UAT-ul sau, în cazul președintelui/vicepreședintelui de consiliu județean, cu primăriile din județ dependente de alocările CJ."
+      ],
+      "blindSpotsCaught": "Cea mai subtilă capcană este dubla necorelare între textul propus și legislația aplicabilă: pe de o parte, derogarea vizează doar art. 87 alin. (1) lit. g), nu și lit. k) (activități remunerate); pe de altă parte, lit. a) și lit. e) se raportează la «perioada de implementare» și la «30 de zile de la data închiderii oficiale», ignorând că proiectele din fonduri UE (inclusiv cele agricole/rurale pe PFA) impun o perioadă obligatorie de durabilitate/monitorizare post-implementare de 3–5 ani în care beneficiarul nu își poate radia forma juridică fără a pierde grantul. În plus, legea omite dispoziții tranzitorii și conține eroarea materială «administrativ-territorială» la lit. b).",
+      "constitutionalityNote": "Scopul urmărit (proporționalitatea restrângerii exercițiului unei demnități publice elective) este compatibil cu jurisprudența CCR, iar proiectul este corect calificat ca lege organică (art. 75 și art. 76 alin. (1) din Constituție). Totuși, norma prezintă vulnerabilități serioase pe art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii), esențiale în materia incompatibilităților care duc la încetarea mandatului: noțiunile «exclusiv în scopul implementării», «fonduri europene» și «închiderea oficială» nu sunt definite, iar lipsa corelării cu art. 87 alin. (1) lit. k) creează incertitudine juridică. Din perspectiva art. 16 alin. (1) (egalitatea), limitarea excepției la comercianții persoane fizice (nu și la administratorii de SRL de la lit. d)) are o justificare obiectivă parțială, întrucât un SRL își poate schimba administratorul fără a pierde contractul de finanțare, spre deosebire de un PFA.",
+      "euLawNote": "Directiva (UE) 2018/958 privind testul de proporționalitate (aplicabilă profesiilor reglementate) și Directiva (UE) 2015/1535 (TRIS, pentru reglementări tehnice și servicii digitale/AI) nu sunt incidente, proiectul reglementând exclusiv regimul incompatibilităților pentru demnități publice locale. În raport cu dreptul UE al fondurilor structurale (Regulamentul (UE) 2021/1060), excepția nu modifică regulile europene privind conflictul de interese, dar obligația de încetare a PFA în 30 de zile de la finalizarea implementării (lit. e)) poate intra în coliziune practică cu obligația de durabilitate a operațiunilor finanțate din fonduri UE; totodată, absența unei interdicții exprese privind activități comerciale nelegate de proiect pe același PFA poate genera riscuri minore de distorsiune concurențială la nivel local.",
+      "senatForm": {
+        "articleRef": "Art. I - art. 87 alin. (4) din Legea 161/2003",
+        "proposalContent": "Completarea alin. (4) astfel: excepția să se coreleze expres cu alin. (1) lit. k) strict pentru veniturile proiectului; să interzică activități comerciale în afara proiectului pe durata mandatului; să clarifice termenul de la lit. e) prin raportare la perioada de durabilitate și să impună notificarea ANI în 15 zile de la validarea mandatului.",
+        "argumentation": "Fără corelare cu lit. k), alesul local rămâne expus incompatibilității pentru activități remunerate. Textul nu interzice operațiuni comerciale paralele pe același PFA și nu obligă notificarea ANI. În plus, termenul vag «închidere oficială» poate intra în conflict cu obligația de durabilitate (3-5 ani) a proiectelor UE.",
+        "otherComments": "Solicităm și definirea expresă a noțiunii «fonduri europene», extinderea interdicției de la lit. b) la UAT-urile din județ în cazul șefilor de consilii județene și la furnizorii aflați în contract cu UAT, precum și corectarea erorii materiale «administrativ-territorială» și solicitarea avizului ANI."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 55843,
+      "sourceEndMarker": "SF-1BAE738B",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Primarii și președinții de CJ care au PFA pentru un proiect cu bani europeni n-ar mai fi incompatibili",
+      "verdictShort": "Problema e reală, iar condițiile sunt bine gândite pe hârtie. Totuși, excepția are trei goluri: poate fi lovită de lit. k) din același articol, lasă o fereastră între alegeri și validare și se poate bate cap în cap cu obligația de sustenabilitate a proiectelor. Relaxează regimul anticorupție fără un mecanism de verificare.",
+      "initiatorClaim": "Inițiatorii vor ca aleșii locali care, înainte de mandat, și-au deschis o formă de comerciant persoană fizică (PFA/II) doar ca să implementeze un proiect european să nu mai fie nevoiți să aleagă între demisie și pierderea proiectului, cu restituirea banilor.",
+      "realityCheck": "Proiectul adaugă art. 87 alin. (4), care scoate de sub lit. g) (azi incompatibilitate absolută pentru primar, viceprimar, primar general, președinte și vicepreședinte CJ) persoanele care au calitatea de comerciant persoană fizică pentru proiecte UE. Sunt cinci condiții cumulative: contract semnat înainte de validare, nicio legătură cu propria UAT, nicio majorare sau prelungire în mandat, abținere de la decizii și încetarea calității la 30 de zile după închiderea proiectului. Excepția nu acoperă lit. k) („orice alte activități remunerate”) și nu stabilește cine verifică condiția „exclusiv” și cum. Pragul „închiderea oficială” e ambiguu, iar dacă e citit greșit poate pune beneficiarul în culpă față de finanțator chiar la finalul proiectului.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Agricultură & Mediu",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I (art. 87 alin. (4) lit. a)-d)) blochează contractele noi după validare, interzice orice legătură contractuală cu UAT-ul sau instituțiile/firmele din subordine, interzice actele adiționale de majorare a finanțării publice și obligă alesul să se abțină de la orice decizie administrativă legată de proiect.",
-        "Art. I (art. 87 alin. (4) lit. e)) impune încetarea calității de comerciant persoană fizică în 30 de zile de la „închiderea oficială” a proiectelor, o formulă vagă care nu acoperă perioada obligatorie de monitorizare/durabilitate post-implementare (3-5 ani) cerută de ghidurile europene.",
-        "Art. I (art. 87 alin. (4) teza I și lit. c)) operează cu noțiunea subiectivă „exclusiv în scopul implementării”, fără a interzice expres alte operațiuni comerciale ale PFA-ului pe durata mandatului, și sancționează cu incompatibilitate chiar și prelungirile obiective de termen aprobate individual de autoritatea de management dacă nu decurg dintr-un act normativ general."
+        "Art. I – alin. (4) derogă doar de la alin. (1) lit. g). Venitul realizat ca PFA poate fi calificat drept „activitate remunerată” în sensul lit. k), deci ANI poate constata în continuare incompatibilitatea și excepția riscă să fie ineficientă.",
+        "Lit. a) se raportează la data validării mandatului, nu la data alegerilor. Între vot și validare trec câteva săptămâni, timp în care un câștigător deja cunoscut poate semna un contract de finanțare care intră sub excepție. Asta contrazice argumentul din expunerea de motive că excepția nu poate fi folosită instrumental.",
+        "Lit. e) cere încetarea calității de comerciant în 30 de zile de la „închiderea oficială”. Multe proiecte (ex. PNDR/PS PAC pentru tineri fermieri, start-up) impun menținerea beneficiarului în perioada de monitorizare ex-post, de regulă 3–5 ani. Dacă „închiderea” e citită ca ultima plată, alesul trebuie să radieze PFA și riscă recuperarea finanțării. Dacă e citită ca sfârșitul monitorizării, excepția durează ani de zile.",
+        "Partea introductivă cere ca persoana să fi dobândit calitatea „exclusiv în scopul” proiectului, dar nu interzice alte activități prin aceeași PFA în timpul mandatului și nu spune cum se dovedește scopul exclusiv. Criteriul e greu de verificat.",
+        "Lit. b) exclude doar legăturile cu propria UAT. Pentru un președinte de CJ, comunele din județ (pe care CJ le finanțează și le avizează) nu sunt excluse ca parteneri sau furnizori.",
+        "Lipsesc prevederile tranzitorii: nu se spune ce se întâmplă cu rapoartele ANI de incompatibilitate deja definitive sau aflate în contestație. Nu există nici obligația de a declara la ANI proiectul și actele adiționale, deși expunerea de motive presupune o asemenea documentație.",
+        "Abținerea prevăzută la lit. d) e deja obligatorie prin regimul conflictului de interese (Codul administrativ, Legea nr. 176/2010), deci nu aduce o garanție nouă. Art. II (republicarea) e pur tehnic."
       ],
-      "blindSpotsCaught": "Proiectul păstrează formularea arhaică „comerciant persoană fizică” din Legea nr. 161/2003 (necorelată explicit cu PFA, II și IF din OUG nr. 44/2008) și nu prevede nicio obligație de declarare sau notificare către Agenția Națională de Integritate (ANI) la preluarea mandatului. De asemenea, lit. b) nu acoperă situația în care un furnizor privat al PFA-ului alesului local are simultan contracte de achiziții publice cu primăria condusă de acesta.",
-      "constitutionalityNote": "Norma ridică riscuri punctuale pe Art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii) din cauza sintagmelor nedefinite „închiderea oficială a acestora” și „exclusiv în scopul implementării”, care pot genera interpretări divergente în evaluările ANI și în contenciosul administrativ. Din perspectiva Art. 16 (egalitate în drepturi), excepția este circumstanțiată obiectiv și proporțional la funcțiile executive locale supuse incompatibilității de la art. 87.",
-      "euLawNote": "Proiectul nu reglementează profesii reglementate (Directiva (UE) 2018/958 privind testul de proporționalitate nu este incidentă) și nici servicii ale societății informaționale (Directiva (UE) 2015/1535 - TRIS nu se aplică). Are relevanță indirectă pentru gestiunea fondurilor europene (art. 61 din Regulamentul financiar (UE, Euratom) 2024/2509), unde condițiile de la lit. b) și d) urmăresc prevenirea conflictului de interese.",
+      "blindSpotsCaught": "Principala chichiță e ciocnirea dintre lit. e) și obligațiile de durabilitate din contractele de finanțare. Prin acest mecanism, legea poate produce exact restituirea de fonduri pe care spune că o evită. A doua e lit. k) din același art. 87, care face derogarea de la lit. g) incompletă. Mai sunt fereastra alegeri–validare, faptul că expresia „comerciant persoană fizică” e depășită după Codul civil (azi „profesionist”, PFA/II/IF conform OUG 44/2008) și greșeala de redactare „administrativ-territorială”.",
+      "constitutionalityNote": "CCR recunoaște în mod constant că legiuitorul are marjă largă în stabilirea incompatibilităților (art. 16 alin. 3, art. 37), deci și în crearea unor excepții. O diferențiere obiectivă (proiect UE preexistent, fără legătură cu UAT) poate trece testul egalității din art. 16. Riscurile țin de art. 1 alin. (5), adică de calitatea legii. Noțiunile „exclusiv în scopul”, „închiderea oficială” și „direct sau indirect” sunt imprecise, iar necoordonarea cu lit. k) face greu de anticipat cum va aplica ANI regula. Lipsa normelor tranzitorii poate duce la practică neunitară privind cazurile pendinte, inclusiv la o discuție de neretroactivitate (art. 15 alin. 2) dacă cineva ar invoca legea împotriva unor rapoarte ANI definitive.",
+      "euLawNote": "Directiva 2018/958 nu se aplică, pentru că proiectul nu reglementează accesul la o profesie. TRIS 2015/1535 nu se aplică, pentru că nu sunt vizate servicii digitale sau reguli tehnice. Legea nu afectează piața unică sau concurența: nu acordă avantaje de piață, iar contractele de finanțare rămân neschimbate. Regimul UE al conflictului de interese (art. 61 din Regulamentul financiar 2024/2509, ex-2018/1046, și art. 74 din Regulamentul 2021/1060) continuă să se aplice în paralel, iar autoritățile de management pot constata separat conflicte de interese. Trebuie verificată și compatibilitatea lit. e) cu cerințele de durabilitate a operațiunilor (art. 65 din Regulamentul 2021/1060 și regulile PAC).",
       "senatForm": {
-        "articleRef": "Art. I, art. 87 alin. (4) lit. a) și e)",
-        "proposalContent": "La lit. e), „închiderii oficiale a acestora” se înlocuiește cu „expirării perioadei de implementare sau, dacă contractul impune menținerea statutului, a perioadei de durabilitate”. Se adaugă lit. f): „nu desfășoară activități economice în afara proiectului și notifică ANI în 15 zile de la validare”.",
-        "argumentation": "Formula „închiderii oficiale” este neclară (art. 1 alin. (5) Constituție) și ignoră perioada obligatorie de durabilitate de 3-5 ani a proiectelor UE, când radierea PFA atrage restituirea finanțării. Interdicția activităților paralele și notificarea ANI previn folosirea excepției ca paravan comercial.",
-        "otherComments": "Recomandăm și corelarea termenului „comerciant persoană fizică” cu formele de organizare din OUG nr. 44/2008 (PFA, II, IF), precum și exceptarea de la interdicția de la lit. c) a prelungirilor de termen fără majorare financiară, aprobate obiectiv de autoritatea de management."
+        "articleRef": "Art. I – art. 87 alin. (4) introd. și lit. a)",
+        "proposalContent": "Introd.: „Prin excepție de la alin. (1) lit. g) și k)...”. Lit. a): „contractul de finanțare a fost semnat înainte de data alegerilor locale...”. Lit. f) nouă: „alesul local declară la ANI, în 30 de zile de la validare sau de la intrarea în vigoare a legii, contractul de finanțare și actele adiționale”.",
+        "argumentation": "Fără lit. k), venitul din PFA rămâne „activitate remunerată”, iar ANI poate constata oricum incompatibilitatea. Raportarea la validare lasă o fereastră după vot în care câștigătorul poate semna contracte noi. Declararea la ANI face condițiile verificabile, azi fără procedură.",
+        "otherComments": "Definiți „închiderea oficială” corelat cu perioada de monitorizare ex-post, ca radierea PFA să nu ducă la recuperarea fondurilor. Reglementați cazurile cu rapoarte ANI pendinte. Corectați „administrativ-territorială”. Lit. b) să includă și UAT-urile din județ, pentru președinții de CJ."
       },
-      "status": "ok"
-    },
-    "claude": {
-      "model": "claude",
-      "durationMs": 51493,
-      "riskScore": 5,
-      "riskLevel": "yellow",
-      "plainTitle": "Primarii care au PFA pentru un proiect european își pot păstra și funcția, și PFA-ul până la finalul proiectului",
-      "verdictShort": "Problema descrisă este reală, iar condițiile sunt mai stricte decât media, dar textul introduce o breșă în regimul incompatibilităților fără un mecanism de verificare. Mai mult, trimiterea la președinții de consilii județene vizează un articol care nu li se aplică.",
-      "initiatorClaim": "Inițiatorii spun că aleșii locali care au devenit comercianți persoane fizice doar pentru a implementa un proiect european ajung să aleagă între pierderea mandatului și pierderea proiectului, cu restituirea banilor și penalități. Propun o excepție temporară, cu condiții cumulative, în numele proporționalității și al absorbției fondurilor UE.",
-      "realityCheck": "Legea permite unui primar, viceprimar sau președinte de CJ să rămână titularul unei afaceri private finanțate public pe durata mandatului, cât timp proiectul nu are legătură cu propria UAT. Condiția «exclusiv în scopul implementării» nu poate fi dovedită obiectiv, iar textul nu prevede declarație, termen sau rolul ANI. Pentru proiectele din UAT-uri vecine sau din același județ nu există nicio barieră.",
-      "affectedGroups": [
-        "Justiție & Drepturi Civile",
-        "IMM & Antreprenori",
-        "Agricultură & Mediu"
-      ],
-      "keyFindings": [
-        "Art. I (noul art. 87 alin. 4) face excepție de la art. 87 alin. (1) lit. g), dar include și președintele și vicepreședintele consiliului județean. Incompatibilitățile acestora sunt reglementate distinct la art. 88, deci pentru ei excepția riscă să rămână inoperantă sau să genereze interpretări contradictorii.",
-        "Noțiunea de «comerciant persoană fizică» este depășită după Codul civil din 2011 și OUG nr. 44/2008 (PFA, întreprindere individuală, întreprindere familială). Nu se precizează ce forme sunt acoperite, ceea ce afectează previzibilitatea.",
-        "Lit. e) impune încetarea calității în 30 de zile de la «închiderea oficială» a proiectului. Multe contracte UE (de ex. AFIR/PNDR, PNS) prevăd însă o perioadă de durabilitate de 3–5 ani după finalizare, în care beneficiarul trebuie menținut. Fie excepția nu rezolvă problema invocată, fie conceptul de «închidere» devine ambiguu.",
-        "Lit. b) exclude doar legăturile cu propria UAT. Proiectele cu parteneri, furnizori sau cofinanțatori din UAT-uri vecine ori din consiliul județean rămân permise, deși relațiile politice între aceste autorități sunt directe.",
-        "Lit. c) admite modificări «impuse de autoritatea de management», o excepție largă care poate acoperi prelungiri sau suplimentări favorabile.",
-        "Textul nu prevede o procedură de declarare și verificare (ANI, termen, documente). Sarcina probei pentru «exclusiv în scopul implementării» rămâne nedefinită."
-      ],
-      "blindSpotsCaught": "Excepția este plasată doar la art. 87, deși vizează și conducerea CJ, care are regim separat la art. 88. Durata de sustenabilitate post-implementare a proiectelor UE contrazice limita de 30 de zile de la lit. e). Textul nu tratează nici situațiile în curs: aleșii deja constatați incompatibili de ANI nu beneficiază de norma nouă, ceea ce poate genera litigii privind aplicarea în timp. Apare și o greșeală de redactare: «administrativ-territorială».",
-      "constitutionalityNote": "Legiuitorul are o marjă largă în stabilirea incompatibilităților, iar o excepție circumstanțiată nu este neconstituțională în sine. Riscurile apar în trei zone. (1) Art. 1 alin. (5): termeni imprecizi («comerciant persoană fizică», «exclusiv», «închidere oficială») și trimitere greșită față de art. 88. (2) Art. 16: un primar beneficiar printr-un PFA este tratat diferit de unul care implementează același tip de proiect printr-un SRL al cărui administrator este, fără o justificare obiectivă evidentă. (3) Art. 1 alin. (3) și obligațiile anticorupție: norma nu trebuie să lipsească de eficiență mecanismul de integritate. Ca lege organică (art. 73 alin. 3), trebuie adoptată cu majoritate absolută.",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă, deoarece nu se reglementează accesul la o profesie reglementată. Directiva (UE) 2015/1535 (TRIS) nu este incidentă, întrucât nu există reguli tehnice sau privind serviciile societății informaționale. Relevante sunt regulile UE privind conflictul de interese în gestiunea fondurilor (art. 61 din Regulamentul financiar al UE și regulamentul privind dispozițiile comune pentru fonduri). Acestea se aplică independent de dreptul național, deci excepția nu scutește proiectul de verificările autorității de management. Eventualele neregularități pot duce oricum la corecții financiare. Textul nu încalcă piața unică.",
-      "senatForm": {
-        "articleRef": "Art. I – art. 87 alin. (4) din Legea 161/2003",
-        "proposalContent": "Se adaugă lit. f): «alesul depune la ANI, în 15 zile de la validare, declarație însoțită de contractul de finanțare și dovada cerinței de eligibilitate; ANI publică lista». Excepția pentru președintele/vicepreședintele CJ se introduce distinct la art. 88. «Comerciant persoană fizică» se înlocuiește cu «PFA sau întreprindere individuală».",
-        "argumentation": "Art. 87 alin. (1) lit. g) nu se aplică președinților de CJ (regim distinct la art. 88), deci trimiterea e inoperantă. Noțiunea de «comerciant persoană fizică» e depășită după Codul civil și OUG 44/2008. Fără o declarație verificabilă, condiția «exclusiv în scopul implementării» nu poate fi controlată de ANI, iar excepția devine portiță.",
-        "otherComments": "Lit. e) intră în conflict cu perioada de durabilitate de 3–5 ani cerută de multe contracte UE după finalizare și trebuie clarificată. Lit. b) ar trebui extinsă la UAT-urile din același județ și la consiliul județean. Excepția de la lit. c) pentru modificări impuse de AM trebuie restrânsă. De corectat «administrativ-territorială»."
-      },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 110249,
+      "durationMs": 84410,
+      "sourceEndMarker": "SF-1BAE738B",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Aleșii locali ar putea păstra afaceri individuale pentru proiecte europene începute anterior",
-      "verdictShort": "Excepția poate evita întreruperea unor proiecte europene și conține garanții reale de integritate. Totuși, formularea lasă neclarități privind activitățile comerciale permise și durata derogării, care justifică amendarea.",
-      "initiatorClaim": "Inițiatorii urmăresc să permită finalizarea proiectelor europene contractate înaintea validării mandatului, fără alegerea între funcția publică și continuarea proiectului. Ei susțin că astfel se evită restituirea finanțărilor și pierderea investițiilor.",
-      "realityCheck": "Art. I permite cumularea funcțiilor locale enumerate cu statutul de comerciant persoană fizică, dacă sunt îndeplinite cumulativ condițiile a)-e). Scopul exclusiv privește explicit dobândirea inițială a statutului, fără o interdicție la fel de explicită asupra desfășurării altor activități comerciale în timpul mandatului. Textul nu demonstrează că renunțarea la statut provoacă întotdeauna pierderea finanțării, iar închiderea proiectului poate interveni la un moment diferit de finalizarea implementării.",
+      "plainTitle": "Aleșii locali ar putea păstra afaceri pentru finalizarea proiectelor europene",
+      "verdictShort": "Excepția are un scop rezonabil și include garanții reale, dar lasă neclarități privind activitățile economice permise și durata derogării. Sunt necesare corelări pentru ca protejarea proiectelor să nu producă aplicări contradictorii ale regulilor de integritate.",
+      "initiatorClaim": "Inițiatorii urmăresc să permită finalizarea proiectelor europene contractate înaintea mandatului, evitând alegerea între abandonarea proiectului și renunțarea la funcția publică. Ei susțin că restricțiile propuse elimină riscurile de conflict de interese.",
+      "realityCheck": "Astăzi, art. 87 alin. (1) lit. g) interzice cumulul funcțiilor enumerate cu statutul de comerciant persoană fizică; proiectul introduce o excepție condiționată pentru proiecte contractate anterior validării mandatului. Derogarea privește exclusiv lit. g), astfel încât interdicția activităților remunerate de la lit. k) poate rămâne incidentă, în funcție de activitatea concretă. Textul permite anumite prelungiri impuse de autoritățile de management și leagă radierea de o «închidere oficială» nedefinită, fără să demonstreze că beneficiile economice sau conflictele de interese devin imposibile.",
       "affectedGroups": [
         "IMM & Antreprenori",
-        "Justiție & Drepturi Civile",
-        "Toți cetățenii"
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I, lit. a): contractul trebuie semnat înaintea validării mandatului, iar perioada inițială de implementare trebuie să depășească această dată. Nu sunt exceptate proiectele contractate ulterior.",
-        "Art. I, lit. b) și d): sunt excluse anumite legături ale proiectului cu administrația condusă de beneficiar și este obligatorie abținerea de la deciziile care privesc proiectul. Aceste garanții reduc riscul, dar nu demonstrează absența oricărui conflict de interese.",
-        "Art. I, lit. c): sunt interzise modificările care majorează contribuția publică sau prelungesc implementarea, cu excepția prevăzută pentru modificările impuse de autoritățile competente. Nu este interzisă orice modificare contractuală sau orice creștere a valorii proiectului.",
-        "Art. I, lit. e): «închiderea oficială» nu este definită, iar raportul dintre implementare, monitorizare și durabilitate rămâne neclar. Pentru mai multe proiecte, nu este precizată suficient încetarea derogării în raport cu fiecare proiect.",
-        "Proiectul nu introduce taxe, autorizații generale sau sancțiuni noi pentru cetățeni ori IMM-uri. Economiile bugetare și creșterea absorbției invocate în motivare nu sunt cuantificate; verificarea condițiilor poate necesita documente suplimentare în evaluările de integritate.",
-        "Lipsesc dispoziții tranzitorii pentru mandatele și evaluările de incompatibilitate în curs. Textul nu dispune anularea constatărilor definitive sau înlăturarea automată a consecințelor unor incompatibilități anterioare."
+        "Art. I, alin. (4) introductiv și lit. a): atât dobândirea calității de comerciant, exclusiv pentru proiecte europene, cât și semnarea contractului trebuie să preceadă validarea mandatului. Nu sunt autorizate proiecte noi contractate după această dată.",
+        "Art. I derogă numai de la art. 87 alin. (1) lit. g). Celelalte incompatibilități, inclusiv interdicția activităților remunerate de la lit. k), rămân aplicabile și necesită o corelare explicită cu activitățile necesare proiectului.",
+        "Lit. b) exclude participarea UAT și a entităților enumerate ca beneficiar, partener, cofinanțator sau furnizor al proiectului. Această listă nu exclude orice relație economică posibilă, inclusiv situația în care UAT este client al activității finanțate; obligațiile generale privind conflictele de interese continuă însă să se aplice.",
+        "Lit. c) nu îngheață integral contractul: restricția vizează modificările care majorează contribuția publică ori prelungesc implementarea. Sunt exceptate modificările impuse de autoritatea de management sau organismul intermediar în condițiile indicate, fără un plafon temporal absolut.",
+        "Lit. e) folosește două repere potențial diferite: finalizarea implementării și închiderea oficială. Lipsesc definirea închiderii, documentul care o atestă și delimitarea față de monitorizare sau obligațiile de durabilitate; statutul de comerciant nu încetează automat prin simpla expirare a unui termen.",
+        "Art. II dispune numai republicarea și renumerotarea legii. Proiectul nu introduce taxe, sancțiuni noi, abrogări sau anularea constatărilor definitive de incompatibilitate; nici obligațiile documentare și informarea anunțate în expunerea de motive nu devin, prin aceasta, norme legale.",
+        "Impactul bugetar pozitiv este afirmat, fără cuantificarea cazurilor sau a economiilor. Verificarea contractelor, modificărilor și închiderii proiectelor presupune muncă administrativă pentru beneficiari și ANI, chiar dacă nu sunt prevăzute alocări suplimentare."
       ],
-      "blindSpotsCaught": "Proiectele finanțate european pot presupune activitate economică efectivă și obligații de durabilitate după implementare; statutul comercial nu devine o simplă formalitate doar datorită sursei finanțării. Totodată, abținerea gestionează conflicte de interese în decizii concrete, în timp ce incompatibilitatea previne cumulul unor calități: cele două mecanisme nu se substituie integral.",
-      "constitutionalityNote": "Problema principală ține de art. 1 alin. (5): scopul «exclusiv», activitățile permise și momentul încetării derogării trebuie să fie verificabile și previzibile, mai ales deoarece condiționează aplicarea regimului incompatibilităților. Art. 16 impune justificarea obiectivă a avantajului acordat proiectelor europene față de proiecte comparabile finanțate din alte surse; diferența nu este automat neconstituțională. Art. 23 alin. (12) privește legalitatea pedepselor și nu reprezintă temeiul principal aici, deoarece proiectul nu introduce pedepse penale. Potrivit încadrării organice asumate în text, trebuie respectată majoritatea cerută de art. 76 alin. (1); constituționalitatea procedurii efective nu poate fi stabilită din forma inițiatorului.",
-      "euLawNote": "Directiva (UE) 2018/958 privește testul de proporționalitate pentru reglementarea profesiilor, nu orice restricție asupra unei activități economice. Textul analizat reglementează cumulul unei funcții publice locale cu statutul comercial și nu oferă un temei pentru aplicarea automată a directivei. Nu identific o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535: proiectul nu stabilește reguli tehnice pentru produse sau reguli specifice serviciilor societății informaționale și nu reglementează AI. Avantajul concurențial potențial provine din cumularea poziției publice cu activitatea economică; nu este instituit un monopol și nu rezultă, numai din această derogare, un ajutor de stat. Normele europene privind conflictele de interese și condițiile finanțării continuă să se aplice; ele nu impun această excepție națională.",
+      "blindSpotsCaught": "Derogarea de la calitatea de comerciant nu rezolvă automat incompatibilitatea distinctă privind activitățile remunerate. În plus, «închiderea oficială» poate interveni ulterior finalizării implementării, iar excepția pentru modificările impuse de autoritățile de management poate permite prelungiri succesive. Afirmația din expunerea de motive că riscurile sunt eliminate integral depășește garanțiile efectiv scrise.",
+      "constitutionalityNote": "Principalul risc privește art. 1 alin. (5): scopul «exclusiv», momentul închiderii și raportul cu interdicțiile rămase trebuie să fie verificabile și previzibile. Diferența de tratament dintre beneficiarii finanțărilor europene și alți comercianți poate avea o justificare obiectivă, dar aceasta trebuie susținută prin date, în raport cu art. 16; nu rezultă automat o discriminare neconstituțională. Art. 23 alin. (12) nu este reperul direct, deoarece proiectul nu instituie pedepse penale. Nu există o dispoziție expresă de aplicare retroactivă sau de redeschidere a hotărârilor definitive.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testarea proporționalității reglementărilor profesiilor reglementate; incompatibilitatea unei funcții elective cu activitatea comercială nu intră, prin ea însăși, în acest domeniu. Procedura TRIS din Directiva (UE) 2015/1535 nu este incidentă pe textul prezentat, care nu stabilește reglementări tehnice ori reguli pentru servicii ale societății informaționale. Obligațiile europene privind conflictele de interese și protecția fondurilor rămân aplicabile și nu impun automat această derogare. Beneficiarii obțin posibilitatea suplimentară de a continua activitatea în timpul mandatului, dar textul nu demonstrează, singur, existența unui ajutor de stat sau a unei încălcări a concurenței.",
       "senatForm": {
         "articleRef": "Art. I – art. 87 alin. (4) lit. e)",
-        "proposalContent": "e) Pe durata mandatului se desfășoară numai activități aferente proiectelor care îndeplinesc condițiile prezentului alineat. Calitatea de comerciant persoană fizică încetează în 30 de zile de la confirmarea scrisă de către autoritatea finanțatoare a încheierii implementării și a obligațiilor contractuale de monitorizare și durabilitate.",
-        "argumentation": "Textul limitează explicit activitatea economică la proiectele exceptate și înlocuiește noțiunea nedefinită de «închidere oficială» cu un reper documentat. Corelarea cu monitorizarea și durabilitatea evită încetarea prematură a statutului necesar respectării contractului de finanțare.",
-        "otherComments": "Comisia raportoare nu este stabilită potrivit fișei furnizate; un deputat poate prelua propunerea ca amendament. Analiza se bazează pe documentele reproduse: indicativul, stadiul și forma consolidată a legislației nu au putut fi verificate online."
+        "proposalContent": "e) În termen de 30 de zile de la expirarea termenului de implementare stabilit potrivit lit. c), alesul local solicită radierea calității de comerciant persoană fizică. Până la radiere, sunt permise exclusiv operațiunile necesare închiderii proiectelor prevăzute la lit. a).",
+        "argumentation": "Închiderea oficială nu este definită și poate fi ulterioară implementării, prelungind incert derogarea. Raportarea la termenul contractual aplicabil oferă un reper verificabil. Obligația de a solicita radierea distinge conduita alesului de durata procedurii de înregistrare.",
+        "otherComments": "Trebuie corelată separat excepția cu alin. (1) lit. k), limitând eventualele activități remunerate permise la implementarea proiectelor eligibile. Comisia de raport nu este indicată în datele primite. Verificarea externă nu a fost disponibilă; analiza se bazează pe textele furnizate."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-15T19:09:10.130Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 4,
+        "claude": 5,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:41:26.502Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

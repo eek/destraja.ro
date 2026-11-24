@@ -2,14 +2,41 @@
   "billId": "PL-x 729/2026",
   "slug": "plx-729-2026",
   "version": "senat",
-  "updatedAt": "2026-11-15T19:31:47.287Z",
+  "updatedAt": "2026-11-24T14:41:28.517Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 6666,
+    "ordinanceChars": 0,
+    "memoChars": 7034,
+    "memoSupplied": 7034,
+    "marker": "SF-951AB012"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-729-2026.json",
+    "form": "senat",
+    "textHash": "951ab01214023132",
+    "fetchedAt": "2026-11-19T09:29:28.882Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 2764,
+    "truncated": false,
+    "included": true,
+    "key": "343dd77009525a5d"
+  },
   "consensus": {
     "riskScore": 2,
     "riskLevel": "green",
     "plainTitle": "Statul poate plăti hackerii etici care găsesc găuri de securitate în sistemele publice",
-    "summaryTlDr": "Este o lege tehnică și utilă, cu garanții solide: acord scris al titularului sistemului, buget plafonat și interdicții clare. Are o eroare de redactare la alin.(6) și nu spune explicit că testarea făcută în limitele autorizării este legală, ceea ce poate descuraja participanții.",
-    "initiatorClaim": "Inițiatorii vor ca DNSC să poată organiza programe de tip Bug Bounty pentru sistemele informatice ale statului, ca vulnerabilitățile să fie găsite și reparate înainte să fie exploatate, după modelul SUA, Franța, Olanda sau Singapore.",
-    "realityCheck": "Legea adaugă o nouă atribuție DNSC (art.24 alin.4 lit.h) și un articol nou, art.36¹, care permite programe de raportare recompensată, numai cu acordul scris al tuturor titularilor sistemului și în limita creditelor bugetare. Nu se creează obligații, taxe sau sancțiuni noi pentru cetățeni sau firme, iar participarea este voluntară. Pe de altă parte, alin.(8) precizează că nu se acordă imunitate, dar nu clarifică faptul că testarea în limite are loc cu drept. În plus, condiția acordului tuturor titularilor (inclusiv furnizori cloud sau subcontractori) poate bloca practic multe programe.",
+    "summaryTlDr": "Este o lege benignă și utilă: îi dă DNSC temei legal și bugetar pentru programe „bug bounty” pe sistemele publice, cu acordul titularilor și cu plafoane stabilite dinainte. Problema reală este că cercetătorul de bună-credință nu primește o protecție penală clară, ceea ce poate descuraja participarea.",
+    "initiatorClaim": "Inițiatorii spun că DNSC poate gestiona vulnerabilitățile care îi sunt raportate, dar nu poate invita organizat cercetători să testeze sistemele publice și nu îi poate recompensa. Ei vor să acopere această lacună, invocând atacul asupra ANCPI/e-Terra, incidentul care a afectat 26 de spitale și costul redus al unor programe precum „Hack the Pentagon”.",
+    "realityCheck": "Legea adaugă la art. 24 alin. (4) lit. h) o nouă categorie de cheltuieli din bugetul DNSC și introduce art. 36¹, care stabilește cadrul programelor. Programele sunt facultative, cer acordul scris al tuturor titularilor sistemului, au plafon pe vulnerabilitate și fond total anunțate dinainte și interzic explicit brute-force, phishing, malware, afectarea disponibilității și menținerea accesului. Detaliile importante sunt lăsate unei hotărâri de Guvern în 90 de zile: selecția sistemelor, criteriile recompenselor și protecția datelor. Alin. (8) precizează că autorizarea „nu înlătură și nu modifică regimul răspunderii juridice”, formulare care poate fi citită ca menținând riscul penal chiar și pentru testarea făcută în limite.",
     "affectedGroups": [
       "IT & AI",
       "Toți cetățenii",
@@ -17,109 +44,137 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 2, art. 36¹ alin. (6) lit. a) și (8)",
-      "proposalContent": "Alin.(6) lit.a) se reformulează: „a) accesarea, copierea, ștergerea sau modificarea neautorizată a datelor;”. La alin.(8) se adaugă teza: „Activitățile desfășurate cu respectarea strictă a limitelor autorizării prevăzute la alin.(5) sunt considerate efectuate cu drept, în sensul legii penale.”",
-      "argumentation": "Forma Senatului conține o eroare de redactare la lit.a): fragmentul „a datelor;” apare înaintea literei. Alin.(8) neagă imunitatea pentru depășiri, dar nu confirmă explicit că testarea în limite e licită. Asta poate descuraja cercetătorii (art.360 C.pen.) și afectează previzibilitatea legii (art.1 alin.5 din Constituție).",
-      "otherComments": "Se recomandă: clarificarea regimului fiscal al recompenselor; criterii de eligibilitate nediscriminatorii pentru cetățenii UE; obligația de a nu folosi și de a șterge datele personale accesate incidental (GDPR); verificarea trimiterilor la art.36 alin.(1¹), (5) și (6); publicarea anuală a unui raport agregat privind programele."
+      "articleRef": "Art.36¹ alin.(6) lit.a) și alin.(8)",
+      "proposalContent": "Alin.(6) lit.a) se corectează: „a) accesarea, copierea, ștergerea sau modificarea neautorizată a datelor;”. La alin.(8) se adaugă: „Activitățile desfășurate cu respectarea programului și în limitele autorizării sunt considerate autorizate în sensul art. 360-365 din Codul penal.”",
+      "argumentation": "Fără o precizare expresă, cercetătorul de bună-credință rămâne expus urmăririi penale pentru acces „fără drept”, iar alin.(8) poate fi citit ca menținând răspunderea chiar în limitele autorizării. Clarificarea crește previzibilitatea (art.1 alin.(5) Constituție) și participarea. În forma Senatului, textul lit.a) este rupt.",
+      "otherComments": "HG de la art.II ar trebui să stabilească regimul fiscal al recompenselor, eligibilitatea străinilor și a persoanelor juridice, faptul că plata nu este achiziție publică și regimul datelor personale întâlnite accidental (GDPR). Utilă ar fi și publicarea anuală a rezultatelor: numărul de vulnerabilități validate și sumele plătite."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 29772,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 66128,
+      "sourceEndMarker": "SF-951AB012",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Statul va putea plăti „hackeri etici” ca să descopere breșe în sistemele publice (Bug Bounty)",
-      "verdictShort": "Este o inițiativă tehnică utilă și benignă, care creează cadrul legal pentru programe de tip Bug Bounty gestionate de DNSC, fără obligații noi pentru cetățeni sau firme. Singura problemă notabilă este o eroare materială de redactare în forma Senatului la art. 36¹ alin. (6) lit. a) și amânarea detaliilor esențiale pentru o hotărâre de Guvern.",
-      "initiatorClaim": "Inițiatorii susțin că administrația publică este ținta principală a atacurilor cibernetice și că DNSC nu are în prezent temei legal și bugetar pentru a invita organizat specialiști să testeze controlat sistemele statului și să îi recompenseze înainte ca vulnerabilitățile să fie exploatate rău intenționat.",
-      "realityCheck": "În mod real, legea permite DNSC să organizeze programe voluntare de identificare și raportare recompensată a vulnerabilităților doar pentru sistemele proprii sau ale instituțiilor publice care își dau acordul prealabil, expres și scris. Participarea persoanelor fizice și juridice este opțională, recompensele se plătesc numai pentru vulnerabilități validate în limita bugetului anunțat dinainte, iar regulile de detaliu sunt delegate către o hotărâre de Guvern ce trebuie adoptată în 90 de zile.",
+      "plainTitle": "Statul va putea plăti recompense (Bug Bounty) hackerilor etici care descoperă breșe în sistemele publice",
+      "verdictShort": "O inițiativă legislativă modernă, utilă și bine încadrată, care creează baza legală și bugetară pentru programe voluntare de tip Bug Bounty gestionate de DNSC, fără a impune obligații sau taxe noi cetățenilor și firmelor. Singurele aspecte care merită rafinate țin de claritatea protecției cercetătorilor la demonstrarea breșelor, contestarea validărilor și regimul fiscal al recompenselor.",
+      "initiatorClaim": "Inițiatorii susțin că legislația actuală (OUG 155/2024) nu îi permite DNSC să organizeze proactiv programe de testare recompensată a sistemelor publice și nici să plătească recompense din buget, lăsând instituțiile vulnerabile în fața atacurilor cibernetice costisitoare.",
+      "realityCheck": "Legea introduce exact acest mecanism, permițând DNSC să finanțeze și să gestioneze programe voluntare de raportare a vulnerabilităților pentru sistemele publice, cu plafon bugetar anunțat dinainte și doar cu acordul scris al tuturor titularilor sistemelor (inclusiv eventuali furnizori privați ai infrastructurii utilizate). Nu creează monopoluri sau obligații pentru mediul privat, însă lasă nerezolvat tratamentul fiscal al recompenselor, nu prevede o cale de contestare a invalidării raportărilor și păstrează o formulare rigidă privind „accesarea neautorizată a datelor” care poate genera incertitudine pentru cercetătorii de bună-credință.",
       "affectedGroups": [
         "IT & AI",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 1 (art. 24 alin. (4) lit. h)) creează temeiul bugetar la DNSC pentru organizarea programelor și plata recompenselor, strict în limita creditelor bugetare aprobate.",
-        "Art. I pct. 2 (art. 36¹ alin. (2) și (5)) condiționează testarea de acordul scris al tuturor titularilor sistemului public și de acceptarea expresă a limitelor programului de către participant, interzicând tehnici distructive (brute-force, phishing, malware, menținerea accesului).",
-        "Art. I pct. 2 (art. 36¹ alin. (6)) conține o eroare materială evidentă în forma adoptată de Senat: cuvintele „a datelor;” au fost mutate eronat deasupra lit. a), lăsând lit. a) trunchiată („accesarea, copierea, ștergerea sau modificarea neautorizată”).",
-        "Art. II deleagă integral către o hotărâre de Guvern (termen 90 de zile) procedurile de validare, criteriile de calcul al recompenselor, confidențialitatea și suspendarea programelor."
+        "Bază bugetară plafonată și transparentă: Art. I pct. 1 (art. 24 alin. 4 lit. h) completează categoriile actuale de cheltuieli ale DNSC (lit. a-g în vigoare) cu plata recompenselor, iar art. 36¹ alin. (4) obligă la publicarea prealabilă a recompensei maxime și a fondului total, în limita creditelor bugetare.",
+        "Dublă protecție prin consimțământ voluntar: Nicio instituție și niciun furnizor al unui sistem „utilizat” de o autoritate publică nu poate fi testat fără acordul prealabil, expres și scris al tuturor titularilor dreptului de a autoriza testarea (art. 36¹ alin. 2), iar participarea cercetătorilor este strict voluntară (alin. 9).",
+        "Zonă gri pentru cercetătorii etici: Art. 36¹ alin. (6) lit. a) interzice absolut „accesarea neautorizată a datelor” fără o nuanță pentru dovada minimală (proof-of-concept), iar alin. (8) precizează că autorizarea nu modifică regimul răspunderii juridice; în plus, legea nu stabilește o procedură de contestare a deciziei DNSC de validare/respingere a vulnerabilităților."
       ],
-      "blindSpotsCaught": "În forma adoptată de Senat, la art. 36¹ alin. (6), textul literei a) a fost rupt tipografic („a datelor;” apare pe rândul de deasupra lit. a)), ceea ce lasă o interdicție neterminată exact acolo unde alin. (7) atașează pierderea recompensei și eventuala răspundere penală sau contravențională. Totodată, deși inițiatorii au cerut procedură de urgență, proiectul a rămas pe procedură legislativă obișnuită la Camera Deputaților.",
-      "constitutionalityNote": "Proiectul este în general conform cu Constituția, dar eroarea materială de la art. 36¹ alin. (6) lit. a) încalcă cerințele de claritate și previzibilitate a legii impuse de art. 1 alin. (5) din Constituție și trebuie corectată la Camera Deputaților. De asemenea, art. 36¹ alin. (8) prevede că autorizarea nu modifică regimul răspunderii juridice pentru depășirea limitelor, ceea ce necesită o delimitare extrem de precisă a „limitelor autorizării” în normele din Art. II pentru a respecta legalitatea incriminării (art. 23 alin. (12)).",
-      "euLawNote": "Nu încalcă Directiva (UE) 2018/958 privind testul de proporționalitate, deoarece nu restricționează și nu reglementează accesul la o profesie, participarea fiind voluntară și deschisă persoanelor fizice și juridice. Nu intră sub incidența obligației de notificare TRIS (Directiva (UE) 2015/1535), întrucât nu impune reglementări tehnice obligatorii pentru produse sau servicii ale societății informaționale, ci completează cadrul național de securitate cibernetică (OUG nr. 155/2024, aferentă directivei NIS2) cu un mecanism opțional pentru sectorul public. Impactul bugetar este plafonat, iar sarcina birocratică pentru IMM-uri și cetățeni este nulă.",
+      "blindSpotsCaught": "Proiectul nu reglementează regimul fiscal al recompenselor plătite persoanelor fizice (inclusiv cercetătorilor din alte state membre UE), aspect ce nu poate fi rezolvat prin hotărârea de Guvern de la Art. II din cauza rezervei legii în materie fiscală (art. 139 Constituție). De asemenea, deși Expunerea de Motive solicită procedură de urgență, proiectul se dezbate în procedură obișnuită, iar la art. 36¹ alin. (6) lit. a) există o eroare minoră de tehnoredactare/aliniere în textul transmis de Senat („a datelor;” mutat deasupra literei a).",
+      "constitutionalityNote": "Proiectul respectă în linii mari exigențele art. 1 alin. (5) din Constituție (claritate și previzibilitate) și a fost adoptat corect ca lege ordinară (art. 76 alin. 2), întrucât nu modifică infracțiunile sau cauzele justificative din Codul penal (art. 73 alin. 3 lit. h). Delegarea detaliilor operaționale către Guvern prin HG în termen de 90 de zile (Art. II) este admisibilă, având în vedere că participarea este voluntară și cadrul esențial al limitelor testării este deja stabilit la nivel de lege primară; totuși, HG nu va putea institui reguli fiscale (art. 139 Constituție).",
+      "euLawNote": "Mecanismul este pe deplin aliniat cu Directiva (UE) 2022/2555 (NIS2), completând procesul de divulgare coordonată a vulnerabilităților prevăzut deja la art. 36 din OUG 155/2024. Nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează o profesie) și nu necesită notificare TRIS conform Directivei (UE) 2015/1535, întrucât instituie un program public voluntar, nu reguli tehnice obligatorii pentru servicii digitale. La redactarea HG din Art. II va trebui asigurată nediscriminarea cercetătorilor rezidenți în alte state membre UE (piața unică) și conformitatea cu GDPR.",
       "senatForm": {
-        "articleRef": "Art. I pct. 2 - art. 36¹ alin. (6) lit. a)",
-        "proposalContent": "„a) accesarea, copierea, ștergerea sau modificarea neautorizată a datelor;” (cu eliminarea sintagmei „a datelor;” plasate eronat deasupra lit. a)).",
-        "argumentation": "În forma adoptată de Senat, sintagma „a datelor;” este plasată eronat înaintea lit. a), lăsând interdicția trunchiată. Corectarea asigură claritatea și previzibilitatea legii (art. 1 alin. (5) din Constituție), esențială deoarece alin. (7) leagă aceste fapte de pierderea recompensei și răspunderea juridică.",
-        "otherComments": "Recomandăm și completarea alin. (8) sau a normelor din Art. II cu termene clare de validare a raportărilor și cu mențiunea expresă că testarea strict în limitele programului exclude caracterul neautorizat al accesului, protejând cercetătorii de bună-credință."
+        "articleRef": "Art. I pct. 2, art. 36¹ alin. (6) lit. a)",
+        "proposalContent": "„a) accesarea, copierea, ștergerea sau modificarea neautorizată a datelor, cu excepția verificării strict minime și neintruzive necesare demonstrării existenței vulnerabilității, în condițiile și limitele stabilite de regulile programului;”",
+        "argumentation": "Demonstrarea unor vulnerabilități critice (ex. SQLi, IDOR) impune uneori o probă minimală (proof-of-concept). Fără această nuanță, cercetătorii de bună-credință riscă pierderea recompensei sau expunere penală pentru simpla confirmare tehnică a breșei, ceea ce poate descuraja participarea specialiștilor.",
+        "otherComments": "Recomandăm și introducerea în art. 36¹ alin. (4) a obligației DNSC de a motiva respingerea unei raportări, cu o cale de reanalizare, precum și corelarea ulterioară cu Codul fiscal pentru impozitarea clară a recompenselor (inclusiv pentru cercetători nerezidenți din UE)."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 47522,
+      "durationMs": 42792,
+      "sourceEndMarker": "SF-951AB012",
       "riskScore": 2,
       "riskLevel": "green",
       "plainTitle": "Statul poate plăti hackerii etici care găsesc găuri de securitate în sistemele publice",
-      "verdictShort": "Este o lege tehnică și utilă, cu garanții solide: acord scris al titularului sistemului, buget plafonat și interdicții clare. Are o eroare de redactare la alin.(6) și nu spune explicit că testarea făcută în limitele autorizării este legală, ceea ce poate descuraja participanții.",
-      "initiatorClaim": "Inițiatorii vor ca DNSC să poată organiza programe de tip Bug Bounty pentru sistemele informatice ale statului, ca vulnerabilitățile să fie găsite și reparate înainte să fie exploatate, după modelul SUA, Franța, Olanda sau Singapore.",
-      "realityCheck": "Legea adaugă o nouă atribuție DNSC (art.24 alin.4 lit.h) și un articol nou, art.36¹, care permite programe de raportare recompensată, numai cu acordul scris al tuturor titularilor sistemului și în limita creditelor bugetare. Nu se creează obligații, taxe sau sancțiuni noi pentru cetățeni sau firme, iar participarea este voluntară. Pe de altă parte, alin.(8) precizează că nu se acordă imunitate, dar nu clarifică faptul că testarea în limite are loc cu drept. În plus, condiția acordului tuturor titularilor (inclusiv furnizori cloud sau subcontractori) poate bloca practic multe programe.",
+      "verdictShort": "Este o lege benignă și utilă: îi dă DNSC temei legal și bugetar pentru programe „bug bounty” pe sistemele publice, cu acordul titularilor și cu plafoane stabilite dinainte. Problema reală este că cercetătorul de bună-credință nu primește o protecție penală clară, ceea ce poate descuraja participarea.",
+      "initiatorClaim": "Inițiatorii spun că DNSC poate gestiona vulnerabilitățile care îi sunt raportate, dar nu poate invita organizat cercetători să testeze sistemele publice și nu îi poate recompensa. Ei vor să acopere această lacună, invocând atacul asupra ANCPI/e-Terra, incidentul care a afectat 26 de spitale și costul redus al unor programe precum „Hack the Pentagon”.",
+      "realityCheck": "Legea adaugă la art. 24 alin. (4) lit. h) o nouă categorie de cheltuieli din bugetul DNSC și introduce art. 36¹, care stabilește cadrul programelor. Programele sunt facultative, cer acordul scris al tuturor titularilor sistemului, au plafon pe vulnerabilitate și fond total anunțate dinainte și interzic explicit brute-force, phishing, malware, afectarea disponibilității și menținerea accesului. Detaliile importante sunt lăsate unei hotărâri de Guvern în 90 de zile: selecția sistemelor, criteriile recompenselor și protecția datelor. Alin. (8) precizează că autorizarea „nu înlătură și nu modifică regimul răspunderii juridice”, formulare care poate fi citită ca menținând riscul penal chiar și pentru testarea făcută în limite.",
       "affectedGroups": [
         "IT & AI",
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art.36¹ alin.(2): includerea unui sistem cere acordul prealabil, expres și scris al TUTUROR titularilor dreptului de a autoriza testarea. Este o garanție bună, dar în arhitecturile cu mai mulți furnizori (cloud, outsourcing) poate face programele greu de lansat.",
-        "Art.36¹ alin.(4) și art.24 alin.(4) lit.h): recompensele se plătesc numai pentru vulnerabilități validate, cu plafon pe vulnerabilitate și fond total anunțate înainte de lansare. Cheltuiala este previzibilă și condiționată de rezultat.",
-        "Art.36¹ alin.(6): textul adoptat de Senat conține o eroare materială. Fragmentul „a datelor;” apare înaintea lit.a), iar lit.a) rămâne incompletă. Trebuie corectată în comisie.",
-        "Art.36¹ alin.(6) lit.f) („orice altă activitate care... contravine prevederilor legale aplicabile”) este o clauză generală vagă. Nu este periculoasă pentru că nu creează sancțiuni proprii, dar nu adaugă previzibilitate.",
-        "Art.36¹ alin.(8): aprobarea și acordurile „nu înlătură și nu modifică regimul răspunderii juridice”. Fără o teză care să confirme că testarea în limite este acces „cu drept” (art.360 C.pen.), rămâne o zonă gri care poate descuraja cercetătorii.",
-        "Art.II: normele metodologice se aprobă prin HG în 90 de zile. Elementele esențiale (eligibilitate, validare, cuantum, protecția datelor) sunt delegate executivului, dar cadrul legal minim este suficient de detaliat."
+        "Art. I pct. 1 (art. 24 alin. (4) lit. h)): plata recompenselor devine cheltuială legală a DNSC, dar numai în limita creditelor bugetare aprobate. Fără alocare efectivă în buget, programele rămân pe hârtie.",
+        "Art. 36¹ alin. (2): pentru includerea unui sistem e nevoie de acordul prealabil, expres și scris al tuturor titularilor dreptului de a autoriza testarea. Este o garanție solidă pentru instituții și pentru furnizorii de software, dar poate bloca programele pe sisteme cu mulți titulari (licențe, cloud, contractori).",
+        "Art. 36¹ alin. (4): se pot recompensa persoane fizice și juridice. Textul nu spune nimic despre regimul fiscal al recompenselor, despre participanții străini sau despre raportul cu legea achizițiilor publice; aceste aspecte rămân pentru HG.",
+        "Art. 36¹ alin. (6): forma Senatului are o eroare de redactare. Fragmentul „a datelor;” apare înaintea lit. a), iar lit. a) rămâne trunchiată („modificarea neautorizată”), deci textul trebuie corectat la Cameră.",
+        "Art. 36¹ alin. (8): textul spune doar că autorizarea nu conferă imunitate pentru faptele care depășesc limitele. Nu spune însă expres că testarea făcută în limite nu e „fără drept” în sensul art. 360–365 din Codul penal. Cercetătorii rămân astfel într-o zonă de incertitudine.",
+        "Art. II: normele metodologice se adoptă prin HG în 90 de zile și au un conținut minim impus de lege, ceea ce este pozitiv. Legea nu prevede însă nicio obligație de raportare publică a rezultatelor programelor."
       ],
-      "blindSpotsCaught": "Sunt trei puncte de reținut. (1) Eroarea de redactare de la art.36¹ alin.(6) lit.a), unde fragmentul „a datelor;” este mutat înaintea literei. (2) Lipsa unei clauze explicite de tip safe harbor: legea spune ce nu protejează, dar nu și ce este licit. (3) Regimul fiscal al recompenselor (persoane fizice rezidente și nerezidente) și eventuala aplicare a legislației achizițiilor publice pentru platformele intermediare nu sunt menționate. În plus, Expunerea de motive cere procedură de urgență, însă fișa Camerei indică procedură normală. Trimiterile la art.36 alin.(1¹), (5) și (6) din OUG 155/2024 trebuie verificate în forma consolidată actuală.",
-      "constitutionalityNote": "Nu se identifică probleme majore. Procedura respectă art.75 (Senat primă cameră, Camera decizională) și art.76 alin.(2) (lege ordinară). Cerința art.138 alin.(5) privind sursa de finanțare este satisfăcută prin trimiterea la creditele bugetare aprobate în bugetul DNSC. Delegarea către HG (art.108) privește aspecte de aplicare. Previzibilitatea (art.1 alin.5) este în general asigurată prin condițiile cumulative din alin.(5), dar ar fi îmbunătățită de corectarea erorii de la alin.(6) și de clarificarea caracterului licit al testării autorizate. Dreptul la viața privată (art.26) este protejat prin interdicția accesării și copierii datelor și prin normele de protecție a datelor cerute la art.II.",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă, deoarece nu se reglementează accesul la o profesie sau exercitarea ei. Directiva (UE) 2015/1535 (TRIS) nu pare incidentă: normele privesc programe organizate de o autoritate publică pentru propriile sisteme, nu reguli generale privind serviciile societății informaționale. Legea este coerentă cu Directiva NIS2 (UE) 2022/2555, art.12 privind divulgarea coordonată a vulnerabilităților, pe care o completează. Pentru conformitatea cu piața unică, criteriile de eligibilitate din HG nu trebuie să discrimineze cercetătorii din alte state membre. Datele cu caracter personal accesate incidental intră sub incidența GDPR (UE) 2016/679, motiv pentru care sunt necesare reguli de notificare, neutilizare și ștergere.",
+      "blindSpotsCaught": "Expunerea de motive cere procedura de urgență, dar fișa Camerei arată „Procedură de urgență: NU”, deci argumentul urgenței nu a fost preluat. Art. 36¹ trimite la art. 36 alin. (1¹), (5) și (6), al căror text nu apare în materialul primit. Nu am putut verifica dacă aceste alineate există în forma în vigoare și ce condiții impun; comisia ar trebui să confirme că trimiterile sunt corecte după Legea nr. 124/2025. Legea mai tace asupra datelor personale pe care cercetătorii le pot întâlni accidental în timpul testării. Alin. (6) lit. a) le interzice accesarea, dar nu stabilește ce face participantul care dă peste ele fără să vrea (oprire, raportare, ștergere). Aspectul ține de GDPR și ar trebui acoperit de HG.",
+      "constitutionalityNote": "Nu rezultă probleme constituționale majore. Competența se acordă unei autorități existente, iar cheltuiala are sursă bugetară, deci art. 138 alin. (5) este respectat prin trimiterea la creditele aprobate. Delegarea către HG este circumscrisă de un conținut minim prevăzut de lege, compatibil cu art. 108. Singurul punct sensibil este previzibilitatea (art. 1 alin. (5)). Alin. (8) și lipsa unei clauze exprese privind caracterul „cu drept” al accesului autorizat lasă loc unor interpretări divergente în materie penală. Principiul legalității incriminării cere o delimitare clară între acțiunea permisă și infracțiune. Eroarea de redactare de la alin. (6) lit. a) trebuie corectată.",
+      "euLawNote": "Proiectul este compatibil cu Directiva (UE) 2022/2555 (NIS2), transpusă prin OUG 155/2024, care încurajează divulgarea coordonată a vulnerabilităților (art. 12). Programele sunt construite explicit ca mecanism complementar acestui proces. Directiva 2018/958 nu este aplicabilă: proiectul nu reglementează accesul la o profesie și nici exercitarea ei. Directiva 2015/1535 (TRIS) nici ea nu pare aplicabilă: proiectul nu impune reguli tehnice sau cerințe privind serviciile societății informaționale, ci organizează o activitate internă a unei autorități publice. Din perspectiva pieței unice, este de dorit ca HG să nu excludă participanții din alte state membre și să clarifice dacă plata recompenselor intră sau nu sub incidența legislației achizițiilor publice.",
       "senatForm": {
-        "articleRef": "Art. I pct. 2, art. 36¹ alin. (6) lit. a) și (8)",
-        "proposalContent": "Alin.(6) lit.a) se reformulează: „a) accesarea, copierea, ștergerea sau modificarea neautorizată a datelor;”. La alin.(8) se adaugă teza: „Activitățile desfășurate cu respectarea strictă a limitelor autorizării prevăzute la alin.(5) sunt considerate efectuate cu drept, în sensul legii penale.”",
-        "argumentation": "Forma Senatului conține o eroare de redactare la lit.a): fragmentul „a datelor;” apare înaintea literei. Alin.(8) neagă imunitatea pentru depășiri, dar nu confirmă explicit că testarea în limite e licită. Asta poate descuraja cercetătorii (art.360 C.pen.) și afectează previzibilitatea legii (art.1 alin.5 din Constituție).",
-        "otherComments": "Se recomandă: clarificarea regimului fiscal al recompenselor; criterii de eligibilitate nediscriminatorii pentru cetățenii UE; obligația de a nu folosi și de a șterge datele personale accesate incidental (GDPR); verificarea trimiterilor la art.36 alin.(1¹), (5) și (6); publicarea anuală a unui raport agregat privind programele."
+        "articleRef": "Art.36¹ alin.(6) lit.a) și alin.(8)",
+        "proposalContent": "Alin.(6) lit.a) se corectează: „a) accesarea, copierea, ștergerea sau modificarea neautorizată a datelor;”. La alin.(8) se adaugă: „Activitățile desfășurate cu respectarea programului și în limitele autorizării sunt considerate autorizate în sensul art. 360-365 din Codul penal.”",
+        "argumentation": "Fără o precizare expresă, cercetătorul de bună-credință rămâne expus urmăririi penale pentru acces „fără drept”, iar alin.(8) poate fi citit ca menținând răspunderea chiar în limitele autorizării. Clarificarea crește previzibilitatea (art.1 alin.(5) Constituție) și participarea. În forma Senatului, textul lit.a) este rupt.",
+        "otherComments": "HG de la art.II ar trebui să stabilească regimul fiscal al recompenselor, eligibilitatea străinilor și a persoanelor juridice, faptul că plata nu este achiziție publică și regimul datelor personale întâlnite accidental (GDPR). Utilă ar fi și publicarea anuală a rezultatelor: numărul de vulnerabilități validate și sumele plătite."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 93086,
+      "durationMs": 87819,
+      "sourceEndMarker": "SF-951AB012",
       "riskScore": 2,
       "riskLevel": "green",
       "plainTitle": "Recompense pentru descoperirea vulnerabilităților din sistemele publice",
-      "verdictShort": "Proiectul creează un mecanism util de prevenire a atacurilor informatice, cu participare voluntară, autorizare prealabilă și buget plafonat. Riscurile principale țin de claritatea regulilor de testare și de transparența acordării recompenselor, fără indicii de monopol, taxe noi sau sancțiuni disproporționate.",
-      "initiatorClaim": "Inițiatorii urmăresc identificarea vulnerabilităților înainte ca acestea să fie exploatate și reducerea întreruperilor serviciilor publice. Susțin că DNSC are nevoie de competență expresă și de temei bugetar pentru organizarea programelor și plata cercetătorilor.",
-      "realityCheck": "Art. 36¹ permite DNSC să organizeze programe recompensate pentru sisteme publice, numai cu acordurile titularilor competenți și cu limite de testare acceptate expres de participanți. Legea nu obligă organizarea programelor, nu garantează recompense pentru orice raportare și nu demonstrează economiile invocate în expunerea de motive. Criteriile practice de participare, validare și plată rămân în mare parte pentru normele Guvernului și condițiile fiecărui program.",
+      "verdictShort": "Proiectul creează un instrument util de prevenire a atacurilor informatice, cu participare voluntară, autorizare limitată și recompense plafonate. Riscurile principale țin de transparența evaluării și de regulile practice de testare, fără taxe, monopoluri sau sancțiuni penale noi.",
+      "initiatorClaim": "Inițiatorii urmăresc identificarea vulnerabilităților înainte ca acestea să fie exploatate și reducerea costurilor incidentelor informatice. Propun recompensarea cercetătorilor care raportează vulnerabilități validate în sisteme publice.",
+      "realityCheck": "În prezent, art. 24 enumeră cheltuielile DNSC fără o categorie expresă pentru aceste programe; proiectul introduce atât competența de organizare, cât și temeiul pentru finanțare și recompense. Testarea presupune acordul scris al tuturor titularilor competenți și acceptarea unor limite verificabile, iar participarea nu obligă la prestarea unei activități sau la obținerea unui rezultat. Criteriile concrete de validare și recompensare sunt lăsate programelor și normelor metodologice, ceea ce face necesare reguli transparente și decizii motivate.",
       "affectedGroups": [
-        "IMM & Antreprenori",
         "IT & AI",
+        "IMM & Antreprenori",
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 36¹ alin. (2) și (5) cer acordul prealabil, expres și scris al tuturor titularilor dreptului de autorizare, identificarea componentelor și delimitarea metodelor și perioadei. Acordul unei instituții care doar utilizează un serviciu nu autorizează automat testarea infrastructurii furnizorului.",
-        "Art. 36¹ alin. (4) plafonează recompensa individuală și fondul total înaintea programului. Nu stabilește expres termenele de validare și plată sau regulile pentru raportări duplicate, aspecte importante pentru predictibilitatea participării.",
-        "Art. 36¹ alin. (6) lit. c) interzice inclusiv tehnici care «pot afecta» funcționarea sistemelor. Formularea poate acoperi un spectru foarte larg de teste și trebuie corelată cu metodele permise și limitele tehnice stabilite potrivit alin. (5).",
-        "Art. 36¹ alin. (7)-(9) prevăd pierderea recompensei și încetarea autorizării în caz de încălcare, păstrează răspunderea juridică aplicabilă și consacră participarea voluntară. Proiectul nu introduce infracțiuni, amenzi sau obligații generale de testare pentru cetățeni ori IMM-uri.",
-        "Art. I pct. 1 permite finanțarea organizării și recompenselor în limita creditelor aprobate. Costurile administrative revin în principal DNSC și instituțiilor participante; plafonarea nu reprezintă o estimare a cheltuielilor și nu dovedește singură eficiența economică a programelor."
+        "Art. I pct. 1 adaugă o categorie expresă de cheltuieli în bugetul DNSC. Proiectul nu stabilește o alocare numerică și nu creează taxe pentru cetățeni sau firme.",
+        "Art. 36¹ alin. (1)-(2) privește sistemele DNSC și sistemele deținute, administrate sau utilizate de entități publice, cu respectarea excluderilor existente. Pentru componentele vizate trebuie obținut acordul tuturor titularilor dreptului de a autoriza testarea, inclusiv când există drepturi ale unor terți.",
+        "Art. 36¹ alin. (4) impune anunțarea recompensei maxime și a fondului total înaintea programului. Textul nu cere la fel de explicit publicarea criteriilor complete, motivarea respingerilor sau informarea participantului despre contestare.",
+        "Art. 36¹ alin. (5)-(8) delimitează autorizarea și păstrează răspunderea juridică existentă. Pierderea recompensei și încetarea autorizării nu echivalează cu introducerea unei infracțiuni noi.",
+        "Interdicția tehnicilor care «pot afecta» funcționarea sistemelor, din art. 36¹ alin. (6) lit. c), este largă. Regulile programului trebuie să clarifice metodele admise și limitele operaționale, deoarece testarea presupune inevitabil un anumit risc tehnic.",
+        "Art. 36¹ alin. (9) exclude obligația participantului de a testa ori de a obține rezultate. Proiectul nu introduce autorizarea generală a profesiei de cercetător în securitate și nici obligații noi pentru toate IMM-urile.",
+        "Art. II stabilește un termen de 90 de zile pentru normele Guvernului. Acestea trebuie să detalieze procedurile, protecția datelor și recompensele, fără să poată extinde autorizarea peste limitele legii."
       ],
-      "blindSpotsCaught": "Solicitarea procedurii de urgență din expunerea de motive nu echivalează cu aprobarea acesteia: fișa furnizată indică procedură obișnuită. Fragmentul «a datelor» pare desprins prin extragere din alin. (6) lit. a), nu o dispoziție autonomă. De asemenea, testele autorizate nu beneficiază de imunitate generală, iar regulile programului nu pot modifica răspunderea stabilită prin lege.",
-      "constitutionalityNote": "Din textul furnizat nu rezultă o neconstituționalitate evidentă. Delimitarea autorizării susține previzibilitatea cerută de art. 1 alin. (5), dar formularea «pot afecta» și regulile recompenselor merită precizate. Art. 23 alin. (12) nu este încălcat prin simpla păstrare a răspunderii existente: proiectul nu creează pedepse, iar condițiile programului nu pot defini infracțiuni. Datele personale implică respectarea art. 26. Respectarea cerințelor bugetare din art. 111 alin. (1) și art. 138 alin. (5) trebuie verificată în documentația legislativă; existența sau absența informării Guvernului și a fundamentării financiare nu rezultă din materialele furnizate.",
-      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor asupra accesului la profesii reglementate sau exercitării acestora. Proiectul nu instituie o asemenea profesie ori o rezervare de activitate, deci nu rezultă obligația testului prevăzut de directivă. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu rezultă automat din caracterul informatic: textul organizează programe publice voluntare, fără o regulă generală evidentă privind accesul la servicii ale societății informaționale sau exercitarea lor. Eventualele restricții din normele ulterioare necesită evaluare distinctă. Nu apare un monopol profesional; selecția participanților trebuie însă justificată obiectiv. GDPR rămâne aplicabil, iar acordul pentru testare nu constituie automat temei pentru orice prelucrare de date personale.",
+      "blindSpotsCaught": "Acordul instituției care utilizează un sistem nu este suficient dacă alte persoane dețin dreptul de a autoriza testarea componentelor: alin. (2) cere acordul tuturor titularilor relevanți. Expunerea solicită procedură de urgență, dar fișa furnizată indică procedură obișnuită; solicitarea inițiatorilor nu dovedește aprobarea urgenței. Fragmentul «a datelor» apare dislocat în extrasul alin. (6) lit. a), aparent din extragere, și trebuie verificat în original înainte de calificarea drept defect legislativ.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă din textul furnizat. Autorizarea scrisă și delimitată susține previzibilitatea cerută de art. 1 alin. (5); formularea largă de la alin. (6) lit. c) merită precizată. Art. 23 alin. (12) nu este încălcat prin simpla trimitere la răspunderea penală existentă: proiectul nu definește infracțiuni sau pedepse. Protecția vieții private și a datelor rămâne obligatorie, acordul pentru testare nefiind suficient pentru orice prelucrare. Încadrarea ca lege ordinară este plauzibilă pentru aceste completări administrative. Plafoanele bugetare nu înlocuiesc documentarea sursei de finanțare conform art. 138 alin. (5) și verificarea solicitării informării Guvernului potrivit art. 111 alin. (1); dosarul furnizat nu permite constatarea unui viciu procedural.",
+      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile privind accesul la profesii reglementate sau exercitarea lor; proiectul nu instituie asemenea restricții, astfel că testul său obligatoriu nu apare incident. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu rezultă automat din faptul că sunt vizate sisteme informatice: textul organizează programe voluntare și recompense, fără o regulă evidentă de acces pe piață pentru servicii ale societății informaționale. Nu apare un monopol al testării informatice; criteriile programelor trebuie totuși aplicate transparent și nediscriminatoriu. GDPR continuă să se aplice, iar acordurile titularilor sistemelor nu înlocuiesc temeiul legal și garanțiile necesare prelucrării datelor personale.",
       "senatForm": {
-        "articleRef": "Art. I pct. 2, art. 36¹ alin. (4)",
-        "proposalContent": "La final se adaugă: «Decizia privind validarea vulnerabilității și acordarea recompensei se comunică motivat participantului. Condițiile programului precizează, înainte de începerea acestuia, termenele de soluționare și plată, regulile pentru raportările duplicate și procedura de contestare.»",
-        "argumentation": "Plafonarea recompenselor nu asigură singură predictibilitatea pentru participanți. Motivarea deciziilor și publicarea termenelor, a regulilor pentru raportări duplicate și a procedurii de contestare reduc arbitrariul și disputele, fără să impună recompensarea vulnerabilităților neeligibile.",
-        "otherComments": "Analiza privește textul furnizat; sursele oficiale și forma consolidată a OUG nu au putut fi verificate online. Fragmentul «a datelor» de la alin. (6) trebuie confruntat cu originalul. Propunerea poate fi transmisă comisiei pentru a fi preluată de un deputat ca amendament."
+        "articleRef": "Art. I pct. 2 – art. 36¹ alin. (4¹), nou",
+        "proposalContent": "(4¹) Înaintea începerii programului, DNSC publică regulile de eligibilitate, validare și calcul al recompenselor, inclusiv pentru raportări duplicate, precum și incompatibilitățile evaluatorilor. Respingerea raportării ori refuzul recompensei se motivează și se comunică participantului, cu indicarea căilor și termenelor de contestare prevăzute de lege.",
+        "argumentation": "Anunțarea plafoanelor nu asigură singură transparența distribuirii fondurilor. Publicarea criteriilor și motivarea refuzurilor reduc arbitrariul, conflictele de interese și tratamentul inegal, fără a publica vulnerabilități sau informații tehnice confidențiale.",
+        "otherComments": "Termenul de amendamente indicat, 18.11.2026, a trecut; valorificarea observației depinde de procedura parlamentară aplicabilă. Analiza privește documentele furnizate; dosarul parlamentar și conținutul integral al art. 2 și 36 nu au putut fi verificate independent."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-15T19:31:47.287Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:41:28.517Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

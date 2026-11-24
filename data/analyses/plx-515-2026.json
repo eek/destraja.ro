@@ -1,119 +1,180 @@
 {
   "billId": "Pl-x 515/2026",
   "slug": "plx-515-2026",
-  "updatedAt": "2026-10-29T00:07:05.773Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T14:42:14.655Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1796,
+    "ordinanceChars": 0,
+    "memoChars": 16859,
+    "memoSupplied": 16859,
+    "marker": "SF-634419F6"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-515-2026.json",
+    "form": "initiator",
+    "textHash": "634419f67e43a0f7",
+    "fetchedAt": "2026-11-19T10:08:47.983Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 4292,
+    "truncated": false,
+    "included": true,
+    "key": "6ee94fd719c2de08"
+  },
   "consensus": {
-    "riskScore": 3,
-    "riskLevel": "green",
-    "plainTitle": "Firmele foarte mici (sub 500.000 lei cifră de afaceri) scapă de analiza de risc la securitate",
-    "summaryTlDr": "Este o debirocratizare reală, ieftină pentru stat și utilă pentru firmele foarte mici, dar textul e scris neglijent. Pragul din lege (500.000 lei) diferă de cel din expunerea de motive (250.000 lei), iar firmele nou-înființate și cele mici care lucrează cu numerar sau bunuri de valoare rămân într-o zonă gri.",
-    "initiatorClaim": "Inițiatorii AUR susțin că analiza de risc la securitatea fizică, pe care o estimează la 2.000–10.000 lei, e o povară disproporționată pentru microîntreprinderi, al căror risc real e redus. Propun eliminarea ei sub un prag de cifră de afaceri, cu păstrarea obligației pentru firmele mari și cele strategice.",
-    "realityCheck": "Art. I introduce art. 5¹. Societățile din Legea 31/1990 cu cifra de afaceri sub 500.000 lei (aprox. 100.000 euro) în anul anterior nu mai trebuie să facă analiza de risc. Obligația revine la 3 luni după aprobarea situațiilor financiare ale anului în care pragul e depășit, iar firmele cu informații clasificate sau activități strategice rămân obligate. Chichițe: pragul contrazice expunerea (250.000 lei), scutirea privește doar analiza, nu și obligația de pază, iar criteriul cifrei de afaceri scapă din vedere firmele mici, dar riscante (amanet, schimb valutar, bijuterii).",
+    "riskScore": 4,
+    "riskLevel": "yellow",
+    "plainTitle": "Firmele mici scapă de analiza de risc la securitate fizică",
+    "summaryTlDr": "Scopul de a reduce o povară pentru firmele foarte mici e legitim, dar textul e scris neglijent. Pragul din lege (500.000 lei) diferă de cel din expunere (250.000 lei), mecanismul de depășire a plafonului e confuz, iar scutirea se bazează pe cifra de afaceri, nu pe riscul real, și se bate cap în cap cu art. 5 din aceeași lege.",
+    "initiatorClaim": "Inițiatorii spun că analiza de risc la securitate fizică, care costă 2.000–10.000 lei, e o povară disproporționată pentru microîntreprinderi. Ei vor să le scutească sub un prag de cifră de afaceri și să păstreze obligația pentru firmele mari și pentru cele cu profil strategic.",
+    "realityCheck": "Art. 5¹ alin. (1) scutește complet de analiza de risc orice societate din Legea 31/1990 cu cifră de afaceri sub 500.000 lei în anul anterior, indiferent de activitate. Astfel, o casă de amanet, un schimb valutar sau un mic magazin de bijuterii pot ieși din obligație, deși manipulează valori. În același timp, art. 5 alin. (1), (3) și (4), nemodificate, cer în continuare ca planul de pază să fie întocmit „conform evaluării de risc” și ca analiza ori fișa de securitate să fie transmisă poliției. Rezultă o antinomie: firma mică care are pază e scutită de analiză, dar planul ei de pază trebuie să se bazeze pe una.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
-      "Angajați & HR"
+      "Proprietari & Imobiliare",
+      "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I – art. 5¹ alin. (1) și (2)",
-      "proposalContent": "(1) Societățile cu cifra de afaceri sub 500.000 lei în anul financiar anterior, inclusiv cele în primul an de activitate, nu au obligația analizei de risc la securitatea fizică, cu excepția caselor de amanet, de schimb valutar și a comercianților de bijuterii sau arme. (2) La depășirea pragului, analiza se efectuează în 3 luni de la aprobarea situațiilor financiare.",
-      "argumentation": "Textul fixează pragul la 500.000 lei, Expunerea de motive la 250.000 lei; raportul comisiei trebuie să confirme explicit cifra. Firmele nou-înființate nu au „an anterior” și rămân în incertitudine. Riscul de securitate ține de numerar și bunuri de valoare, nu de cifra de afaceri. Formula „se naște în termen de 3 luni” e imprecisă (art. 1 alin. (5) Constituție).",
-      "otherComments": "Firma scutită rămâne obligată, potrivit legii, să-și asigure paza, dar fără criteriu de stabilire a măsurilor: normele din HG nr. 301/2012 trebuie corelate, cu termen pentru Guvern. Hotărârea prevăzută la alin. (3) pentru „activitățile de interes strategic” nu are termen de adoptare. Pragul nominal ar trebui indexat periodic."
+      "articleRef": "Art. I – art. 5¹ alin. (1)-(3)",
+      "proposalContent": "(1) Societățile cu cifră de afaceri sub 500.000 lei în anul financiar anterior întocmesc fișa de securitate în locul analizei de risc. (2) Dacă plafonul e depășit, analiza de risc se efectuează în cel mult 3 luni de la aprobarea situațiilor financiare. (3) Excepția nu se aplică celor care manipulează numerar/valori, au pază armată sau activități strategice.",
+      "argumentation": "Textul spune 500.000 lei, expunerea 250.000. «Se naște în termen de» e neclar. Scutirea totală intră în conflict cu art. 5 alin. (1),(3),(4), care cer plan de pază conform evaluării de risc. Cifra de afaceri nu măsoară riscul: amanet, schimb valutar, bijuterii pot fi mici dar expuse. Fișa de securitate din art. 5 alin. (3) e soluția simplificată.",
+      "otherComments": "De clarificat: firmele nou-înființate, fără an financiar anterior; revenirea sub plafon; de ce PFA, II și ONG-urile rămân obligate (art. 16 Constituție); ce HG stabilește activitățile strategice și în ce termen. Recomandăm solicitarea punctului de vedere al MAI/IGPR privind corelarea cu HG 301/2012."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 50279,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Scutirea firmelor mici (sub 500.000 lei cifră de afaceri) de analiza obligatorie de risc la securitatea fizică",
-      "verdictShort": "O măsură binevenită de debirocratizare care elimină o taxă parafiscală mascată pentru sute de mii de microîntreprinderi. Textul suferă însă de mici scăpări de tehnică legislativă (omite PFA-urile și firmele nou-înființate aflat în primul an), care pot fi ușor corectate la comisie.",
-      "initiatorClaim": "Inițiatorii doresc să scutească microîntreprinderile de obligația costisitoare și birocratică de a plăti evaluatori autorizați pentru întocmirea analizei de risc la securitatea fizică, păstrând obligația doar pentru firmele mai mari sau cu profil strategic.",
-      "realityCheck": "Legea scutește real SRL-urile cu afaceri sub 500.000 lei de plata unor evaluări care costă între 1.500 și 5.000+ lei. Totuși, formularea lasă pe dinafară PFA-urile și întreprinderile individuale, uită de firmele aflate în primul an de activitate (care nu au „an financiar anterior”) și nu exceptează de la scutire domenii mici dar cu risc înalt de jaf (case de amanet, schimb valutar, armurieri).",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 92784,
+      "sourceEndMarker": "SF-634419F6",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Firmele sub 500.000 lei, scutite de analiza de risc la securitate fizică",
+      "verdictShort": "Intenția de a reduce birocrația pentru microîntreprinderi este legitimă, însă proiectul are defecte importante de redactare și calibrare: pragul din lege (500.000 lei) este dublu față de cel din motivare (250.000 lei), criteriul unic al cifrei de afaceri ignoră sectoarele cu risc real de jaf, iar excepția lasă pe dinafară PFA-urile și ONG-urile.",
+      "initiatorClaim": "Potrivit expunerii de motive, inițiatorii (parlamentari AUR) urmăresc să degreveze microîntreprinderile și întreprinderile mici de costuri estimate la 2.000–10.000 lei pentru analiza de risc la securitatea fizică, invocând un prag de cifră de afaceri de 250.000 lei și păstrând obligația pentru entitățile strategice sau care lucrează cu informații clasificate.",
+      "realityCheck": "În realitate, art. 5¹ alin. (1) din textul legii stabilește un prag dublu, de 500.000 lei, aplicabil exclusiv societăților reglementate de Legea nr. 31/1990 (excluzând PFA, II, IF, cooperative sau ONG-uri). Scutirea bazată exclusiv pe cifra de afaceri ar putea excepta și unități cu profil ridicat de risc dar cu venituri contabile reduse (inclusiv firme aflate la început de activitate), iar textul nu este corelat cu art. 5 din Legea nr. 333/2003, modificat recent prin OUG nr. 37/2026.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate"
       ],
       "keyFindings": [
-        "Art. 5¹ alin. (1) scutește de analiza de risc la securitatea fizică societățile (Legea 31/1990) cu o cifră de afaceri anuală sub 500.000 lei în anul financiar anterior, eliminând o povară birocratică reală.",
-        "Lacună pentru start-up-uri și PFA: Textul condiționează scutirea de cifra de afaceri din „anul financiar anterior”, lăsând în incertitudine firmele nou-înființate (în primul an fiscal), și se referă exclusiv la Legea 31/1990, omițând PFA, II și IF (OUG 44/2008) sau ONG-urile.",
-        "Necorelare tehnică și excepții incomplete: Expunerea de motive vorbește despre un prag de 250.000 lei, în timp ce articolul de lege prevede 500.000 lei. În plus, alin. (3) exclude doar unitățile cu informații clasificate sau „de interes strategic”, omițând unitățile mici care manipulează numerar masiv sau arme (amanet, schimb valutar)."
+        "Contradicție majoră între lege și expunerea de motive: art. 5¹ alin. (1) stabilește pragul de scutire la 500.000 de lei, în timp ce expunerea de motive (secțiunile a, b și e) fundamentează și declară calibrat cu asociațiile de profil pragul de 250.000 de lei.",
+        "Scutire raportată exclusiv la cifra de afaceri, nu la riscul real: art. 5¹ alin. (3) menține obligația doar pentru unitățile cu informații clasificate și activități de interes strategic, putând excepta operatori cu cifră de afaceri mică (ex. pe bază de comision sau la început de activitate) care manipulează numerar sau valori importante.",
+        "Tratament inegal între forme juridice: art. 5¹ alin. (1) se aplică exclusiv societăților din Legea nr. 31/1990, lăsând obligate la analiza de risc PFA-urile, întreprinderile individuale/familiale, cooperativele și asociațiile sau fundațiile, chiar dacă au venituri mult sub prag.",
+        "Necorelare cu art. 5 în vigoare (modificat prin OUG nr. 37/2026) și ambiguități procedurale: art. 5 alin. (1), (3) și (4) leagă planul de pază de evaluarea de risc și introduc «fișa de securitate», noțiune ignorată de proiect; în plus, art. 5¹ alin. (1) nu clarifică regimul firmelor nou-înființate fără an financiar anterior, iar alin. (2) folosește formularea improprie «obligația [...] se naște în termen de 3 luni»."
       ],
-      "blindSpotsCaught": "În prezent, obligația analizei de risc nu este detaliată în Legea 333/2003, ci în legislația secundară (HG nr. 301/2012, art. 2). Deoarece HG nr. 301/2012 leagă adoptarea oricăror măsuri de securitate de existența prealabilă a analizei de risc, fără o corelare expresă, firmele scutite riscă să nu știe ce cerințe minimale trebuie să respecte la controlul Poliției.",
-      "constitutionalityNote": "Proiectul susține libertatea economică (Art. 45 din Constituție), dar prezintă vicii de claritate și previzibilitate (Art. 1 alin. 5) prin necorelarea cu HG nr. 301/2012, prin sintagma vagă „activități de interes strategic stabilite prin HG” și prin omiterea PFA/II față de SRL-uri (Art. 16 - egalitatea în drepturi).",
-      "euLawNote": "Măsura este pe deplin aliniată cu principiul „Think Small First” (Small Business Act) și cu spiritul Directivei (UE) 2018/958 privind proporționalitatea reglementărilor, reducând dependența forțată a microîntreprinderilor de piața captivă a evaluatorilor de risc la securitatea fizică.",
+      "blindSpotsCaught": "Trei detalii subtile ies în evidență: (1) secțiunea g) din expunerea de motive susține că legea «nu necesită emiterea unor acte normative subsecvente», deși chiar art. 5¹ alin. (3) face trimitere la «activități de interes strategic, stabilite prin hotărâre a Guvernului», fără a fixa un termen de adoptare; (2) proiectul nu ține cont de modificarea art. 5 prin OUG nr. 37/2026 (6 mai 2026), care a introdus alternativa «fișei de securitate»; (3) raportarea termenului din alin. (2) la aprobarea situațiilor financiare anuale poate amâna conformarea cu până la circa 20 de luni de la depășirea pragului.",
+      "constitutionalityNote": "Ridică vulnerabilități pe art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii) din cauza contradicției flagrante 500.000 vs. 250.000 lei dintre text și motivare, a omisiunii privind firmele nou-înființate, a sintagmei «obligația se naște în termen de 3 luni» și a lipsei de corelare cu art. 5 și cu eventuala hotărâre de Guvern. De asemenea, limitarea scutirii exclusiv la societățile din Legea nr. 31/1990 poate ridica probleme față de art. 16 alin. (1) (egalitatea în drepturi) în raport cu PFA, II, IF, cooperative și ONG-uri aflate în situații economice similare. Scopul de reducere a sarcinii administrative este însă compatibil cu art. 45 (libertatea economică).",
+      "euLawNote": "Directiva (UE) 2018/958 privind testul de proporționalitate nu este declanșată direct, deoarece proiectul nu introduce restricții noi la accesul sau exercitarea profesiei de evaluator de risc la securitate fizică (ci reduce cererea obligatorie prin dereglementare). Directiva (UE) 2015/1535 (TRIS) nu este aplicabilă, nefiind reglementate produse sau servicii ale societății informaționale/AI. Totuși, restrângerea beneficiului exclusiv la «societățile reglementate de Legea nr. 31/1990» poate genera o discriminare indirectă pe piața unică (art. 49 TFUE) față de sucursalele din România ale unor operatori economici înființați în alte state membre UE care realizează o cifră de afaceri sub prag.",
       "senatForm": {
-        "articleRef": "Art. I - Art. 5^1 alin. (1) și (3)",
-        "proposalContent": "La art. 5^1, alin. (1) și (3) se modifică: „(1) Societățile reglementate de Legea nr. 31/1990, persoanele fizice autorizate, întreprinderile individuale și familiale, aflate în primul an de activitate sau cu cifră de afaceri/venituri sub 500.000 lei în anul anterior, sunt exceptate de la analiza de risc. (3) Excepția nu se aplică unităților cu arme, caselor de amanet sau schimb valutar.”",
-        "argumentation": "Forma actuală omite firmele în primul an de activitate (care nu au „an financiar anterior”) și exclude nejustificat PFA-urile, II și IF (OUG 44/2008). De asemenea, la alin. (3) trebuie menținute în regim de analiză obligatorie unitățile cu risc ridicat de jaf (amanet, schimb valutar, arme), chiar dacă au rulaj mic, în loc de formularea vagă „interes strategic”.",
-        "otherComments": "Semnalăm și o necorelare tehnică între Expunerea de motive (unde apare pragul de 250.000 lei) și textul normativ (500.000 lei). Susținem ferm debirocratizarea pentru microîntreprinderi, dar textul trebuie corelat cu HG nr. 301/2012 pentru a preciza că exceptarea de la analiza de risc nu înlătură obligația asigurării cerințelor minimale de pază."
-      }
+        "articleRef": "Art. I (art. 5^1 din Legea nr. 333/2003)",
+        "proposalContent": "Art. 5^1 alin. (1)-(3): Extinderea scutirii și la PFA/II/IF/ONG sub prag; clarificarea pragului unic (250.000 vs. 500.000 lei) și a firmelor nou-înființate; menținerea obligației pentru activități cu risc ridicat (amanet, schimb valutar, bijuterii, farmacii, jocuri de noroc) și reformularea alin. (2) ca termen de îndeplinire de 3 luni, corelat cu art. 5.",
+        "argumentation": "Textul prevede 500.000 lei, iar expunerea de motive 250.000 lei. Scutirea doar pe cifră de afaceri exceptează și unități cu risc mare de jaf (amanet, schimb valutar). Limitarea la firme din Legea 31/1990 discriminează PFA și ONG (art. 16 Constituție), iar lipsa corelării cu art. 5 (OUG 37/2026) afectează claritatea legii (art. 1 alin. 5).",
+        "otherComments": "Stabiliți un termen pentru adoptarea hotărârii de Guvern prevăzute la art. 5^1 alin. (3) (în contradicție cu secțiunea g din expunerea de motive) și clarificați relația cu «fișa de securitate» din art. 5 (OUG nr. 37/2026). Extinderea excepției la sucursalele operatorilor din UE sub prag previne discriminarea pe piața unică."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 169910,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Firmele foarte mici (sub 500.000 lei cifră de afaceri) scapă de analiza de risc la securitate",
-      "verdictShort": "Este o debirocratizare reală, ieftină pentru stat și utilă pentru firmele foarte mici, dar textul e scris neglijent. Pragul din lege (500.000 lei) diferă de cel din expunerea de motive (250.000 lei), iar firmele nou-înființate și cele mici care lucrează cu numerar sau bunuri de valoare rămân într-o zonă gri.",
-      "initiatorClaim": "Inițiatorii AUR susțin că analiza de risc la securitatea fizică, pe care o estimează la 2.000–10.000 lei, e o povară disproporționată pentru microîntreprinderi, al căror risc real e redus. Propun eliminarea ei sub un prag de cifră de afaceri, cu păstrarea obligației pentru firmele mari și cele strategice.",
-      "realityCheck": "Art. I introduce art. 5¹. Societățile din Legea 31/1990 cu cifra de afaceri sub 500.000 lei (aprox. 100.000 euro) în anul anterior nu mai trebuie să facă analiza de risc. Obligația revine la 3 luni după aprobarea situațiilor financiare ale anului în care pragul e depășit, iar firmele cu informații clasificate sau activități strategice rămân obligate. Chichițe: pragul contrazice expunerea (250.000 lei), scutirea privește doar analiza, nu și obligația de pază, iar criteriul cifrei de afaceri scapă din vedere firmele mici, dar riscante (amanet, schimb valutar, bijuterii).",
+      "durationMs": 58931,
+      "sourceEndMarker": "SF-634419F6",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Firmele mici scapă de analiza de risc la securitate fizică",
+      "verdictShort": "Scopul de a reduce o povară pentru firmele foarte mici e legitim, dar textul e scris neglijent. Pragul din lege (500.000 lei) diferă de cel din expunere (250.000 lei), mecanismul de depășire a plafonului e confuz, iar scutirea se bazează pe cifra de afaceri, nu pe riscul real, și se bate cap în cap cu art. 5 din aceeași lege.",
+      "initiatorClaim": "Inițiatorii spun că analiza de risc la securitate fizică, care costă 2.000–10.000 lei, e o povară disproporționată pentru microîntreprinderi. Ei vor să le scutească sub un prag de cifră de afaceri și să păstreze obligația pentru firmele mari și pentru cele cu profil strategic.",
+      "realityCheck": "Art. 5¹ alin. (1) scutește complet de analiza de risc orice societate din Legea 31/1990 cu cifră de afaceri sub 500.000 lei în anul anterior, indiferent de activitate. Astfel, o casă de amanet, un schimb valutar sau un mic magazin de bijuterii pot ieși din obligație, deși manipulează valori. În același timp, art. 5 alin. (1), (3) și (4), nemodificate, cer în continuare ca planul de pază să fie întocmit „conform evaluării de risc” și ca analiza ori fișa de securitate să fie transmisă poliției. Rezultă o antinomie: firma mică care are pază e scutită de analiză, dar planul ei de pază trebuie să se bazeze pe una.",
       "affectedGroups": [
-        "IMM & Antreprenori"
+        "IMM & Antreprenori",
+        "Proprietari & Imobiliare",
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Contradicție de prag: art. 5¹ alin. (1) fixează 500.000 lei, dar Expunerea de motive indică de două ori 250.000 lei. Se votează textul, însă intenția legiuitorului rămâne neclară și trebuie lămurită în raportul comisiei.",
-        "Art. 5¹ alin. (1) se raportează la „anul financiar anterior”. Firmele nou-înființate, care nu au încă un exercițiu încheiat, nu știu dacă sunt scutite sau obligate.",
-        "Art. 5¹ alin. (2) spune că obligația „se naște în termen de 3 luni” de la aprobarea situațiilor financiare. Formula e imprecisă: nu e clar dacă obligația apare la o dată fixă sau trebuie îndeplinită într-un termen. În plus, alin. (1) vorbește de „societăți”, iar alin. (2) de „unitatea”, care în Legea 333/2003 are alt sens. O firmă care trece pragul la începutul anului poate ajunge la analiză după mai bine de un an și jumătate.",
-        "Art. 5¹ alin. (3) exceptează „activitățile de interes strategic, stabilite prin hotărâre a Guvernului”, dar nu dă un termen pentru adoptarea HG. Până la adoptare, firmele strategice aflate sub prag ar fi, literal, scutite.",
-        "Scutirea vizează doar analiza de risc. Obligația generală de pază din Legea 333/2003 rămâne, iar normele metodologice (HG nr. 301/2012) leagă măsurile de securitate de această analiză. Fără corelarea normelor, nici firmele scutite, nici polițiștii care le controlează nu au un criteriu clar pentru măsurile minime.",
-        "Beneficiază doar societățile din Legea 31/1990. Alte entități private mici aflate sub incidența legii (de ex. asociații, cooperative) rămân obligate, deși pot avea același profil de risc. Pragul e o sumă fixă în lei, neindexată, deci va fi erodat de inflație."
+        "Neconcordanță gravă: art. 5¹ alin. (1) stabilește pragul la 500.000 lei, dar expunerea de motive vorbește de 250.000 lei de patru ori, inclusiv ca prag „calibrat” cu asociațiile din securitate privată. Voința legiuitorului e incertă, iar motivarea nu susține cifra din text.",
+        "Art. 5¹ alin. (2) e neclar. Formula „obligația se naște în termen de 3 luni” amestecă momentul nașterii obligației cu termenul de conformare. Nu se spune ce se întâmplă când firma revine sub plafon și nici cum se încadrează firmele nou-înființate, care nu au un an financiar anterior. Textul trece și de la „societățile” la „unitatea”.",
+        "Conflict cu art. 5 în vigoare (forma dată de OUG 37/2026): alin. (1) și (4) cer planul de pază „conform evaluării de risc”, iar alin. (3) cere transmiterea la poliție a analizei de risc „ori fișa de securitate, după caz”. Proiectul nu modifică aceste texte. Legea pare să prevadă deja un instrument simplificat, fișa de securitate, pe care inițiativa îl ignoră.",
+        "Criteriul cifrei de afaceri nu e un indicator de risc. Activitățile cu numerar sau valori (amanet, schimb valutar, bijuterii, stații de carburant mici) pot avea venituri reduse, dar risc ridicat. Excepția de la excepție din alin. (3) acoperă doar informațiile clasificate și activitățile strategice.",
+        "Art. 5¹ alin. (3) trimite la o hotărâre de Guvern care stabilește activitățile de interes strategic, fără să precizeze dacă e una existentă sau una nouă și fără termen de adoptare. Totuși, expunerea afirmă că nu sunt necesare acte subsecvente.",
+        "Scutirea vizează doar societățile din Legea 31/1990. PFA-urile, întreprinderile individuale, ONG-urile și cooperativele cu aceeași dimensiune economică rămân obligate."
       ],
-      "blindSpotsCaught": "Cifra de afaceri nu măsoară riscul de securitate. O casă de amanet, o casă de schimb valutar sau un mic magazin de bijuterii poate încasa sub 500.000 lei pe an și totuși ține stoc de valoare și numerar mult. Firmele aflate în primul an de activitate nu au „an financiar anterior”, deci regimul lor e nedefinit. Indirect, piața evaluatorilor de risc la securitatea fizică (ocupație autorizată, cu registru la Poliția Română) pierde o parte din clienți. Este un efect asumat al dereglementării, nu un abuz.",
-      "constitutionalityNote": "Pe fond, legea nu ridică probleme. Diferențierea după cifra de afaceri e un criteriu obiectiv și rezonabil (art. 16: situațiile diferite pot primi tratament diferit) și susține libertatea economică (art. 45, art. 135 alin. (2) lit. a). Vulnerabilitățile țin de calitatea legii (art. 1 alin. (5)): pragul contrazis de expunere, formula „se naște în termen de”, lipsa unei reguli pentru firmele nou-înființate și HG fără termen de la alin. (3). Respectarea obligației de analiză e verificată de poliție, așa că neclaritatea poate duce la aplicarea inconsecventă a sancțiunilor; art. 23 alin. (12) nu e însă direct afectat, fiindcă nu se creează sancțiuni noi. Delegarea către Guvern (art. 108) e admisibilă, fiind vorba de o HG de executare.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică. Nu se reglementează accesul la o profesie, ci se elimină o obligație a clienților; cererea pentru evaluatorii de risc scade, dar condițiile lor de acces rămân neschimbate. TRIS (2015/1535) nu e incidentă, pentru că nu există reguli tehnice sau reguli privind serviciile societății informaționale. Directiva 2006/123 nu e afectată, deoarece măsura reduce cerințele. Nu este ajutor de stat, fiindcă nu implică resurse de stat. Un punct sensibil privește art. 49 TFUE: sucursalele firmelor din alte state membre nu sunt „societăți reglementate de Legea 31/1990” și ar putea rămâne obligate, deși au aceeași cifră de afaceri. Alin. (3) ar trebui corelat cu entitățile critice desemnate în baza Directivei (UE) 2022/2557.",
+      "blindSpotsCaught": "Expunerea susține că legea „impune tuturor entităților comerciale” analiza de risc și că propunerea nu are nevoie de alte corelări. În realitate, art. 5 (modificat recent prin OUG 37/2026) leagă planul de pază de evaluarea de risc și menționează deja fișa de securitate ca alternativă. Fără corelare, scutirea creează un gol: se mai aplică sau nu măsurile minime de securitate din normele de aplicare (HG 301/2012) pentru firmele scutite? Formula „în vederea adoptării măsurilor de securitate prevăzute de lege” lasă deschisă întrebarea dacă măsurile rămân obligatorii fără analiza care să le dimensioneze. Expunerea mai invocă, fără legătură cu subiectul, Legea 135/2007 privind arhivarea electronică, ceea ce sugerează o redactare de tip șablon.",
+      "constitutionalityNote": "Art. 45 (libertatea economică) susține scopul, iar o scutire calibrată e în marja de apreciere a legiuitorului. Problemele țin de art. 1 alin. (5) (calitatea legii): pragul contrazis de motivare, formula ambiguă din alin. (2), lipsa regimului pentru firmele nou-înființate și antinomia cu art. 5 pot face norma imprevizibilă, potrivit jurisprudenței constante a CCR. Pe art. 16 (egalitate), tratamentul diferit al PFA/II/ONG față de SRL-uri de aceeași mărime nu are o justificare obiectivă evidentă, deși riscul de neconstituționalitate e moderat. Legea e ordinară (art. 76 alin. 2), iar procedura este corectă.",
+      "euLawNote": "Directiva (UE) 2018/958 privind testul de proporționalitate se aplică doar reglementării profesiilor. Proiectul relaxează o obligație a beneficiarilor de pază și nu restrânge accesul la profesie, deci nu intră în aria ei. Directiva TRIS 2015/1535 nu e aplicabilă, pentru că nu sunt reglementate servicii ale societății informaționale sau reguli tehnice pentru produse. Pe piața unică, efectul este neutru sau ușor liberalizator. Firmele de evaluare a riscului pierd o parte din cerere, dar asta nu ridică probleme de concurență sau de ajutor de stat. Nu există o directivă UE de armonizare a pazei private.",
       "senatForm": {
-        "articleRef": "Art. I – art. 5¹ alin. (1) și (2)",
-        "proposalContent": "(1) Societățile cu cifra de afaceri sub 500.000 lei în anul financiar anterior, inclusiv cele în primul an de activitate, nu au obligația analizei de risc la securitatea fizică, cu excepția caselor de amanet, de schimb valutar și a comercianților de bijuterii sau arme. (2) La depășirea pragului, analiza se efectuează în 3 luni de la aprobarea situațiilor financiare.",
-        "argumentation": "Textul fixează pragul la 500.000 lei, Expunerea de motive la 250.000 lei; raportul comisiei trebuie să confirme explicit cifra. Firmele nou-înființate nu au „an anterior” și rămân în incertitudine. Riscul de securitate ține de numerar și bunuri de valoare, nu de cifra de afaceri. Formula „se naște în termen de 3 luni” e imprecisă (art. 1 alin. (5) Constituție).",
-        "otherComments": "Firma scutită rămâne obligată, potrivit legii, să-și asigure paza, dar fără criteriu de stabilire a măsurilor: normele din HG nr. 301/2012 trebuie corelate, cu termen pentru Guvern. Hotărârea prevăzută la alin. (3) pentru „activitățile de interes strategic” nu are termen de adoptare. Pragul nominal ar trebui indexat periodic."
-      }
+        "articleRef": "Art. I – art. 5¹ alin. (1)-(3)",
+        "proposalContent": "(1) Societățile cu cifră de afaceri sub 500.000 lei în anul financiar anterior întocmesc fișa de securitate în locul analizei de risc. (2) Dacă plafonul e depășit, analiza de risc se efectuează în cel mult 3 luni de la aprobarea situațiilor financiare. (3) Excepția nu se aplică celor care manipulează numerar/valori, au pază armată sau activități strategice.",
+        "argumentation": "Textul spune 500.000 lei, expunerea 250.000. «Se naște în termen de» e neclar. Scutirea totală intră în conflict cu art. 5 alin. (1),(3),(4), care cer plan de pază conform evaluării de risc. Cifra de afaceri nu măsoară riscul: amanet, schimb valutar, bijuterii pot fi mici dar expuse. Fișa de securitate din art. 5 alin. (3) e soluția simplificată.",
+        "otherComments": "De clarificat: firmele nou-înființate, fără an financiar anterior; revenirea sub plafon; de ce PFA, II și ONG-urile rămân obligate (art. 16 Constituție); ce HG stabilește activitățile strategice și în ce termen. Recomandăm solicitarea punctului de vedere al MAI/IGPR privind corelarea cu HG 301/2012."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 106843,
+      "durationMs": 87031,
+      "sourceEndMarker": "SF-634419F6",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Scutire de analiza de securitate pentru firmele cu venituri mici",
-      "verdictShort": "Reducerea costurilor pentru firmele mici este utilă, dar proiectul confundă dimensiunea afacerii cu riscul de securitate. Sunt necesare corelări cu legislația modificată în 2026 și reguli clare pentru atingerea plafonului.",
-      "initiatorClaim": "Inițiatorii urmăresc eliminarea unei cheltuieli considerate disproporționate pentru firmele mici, păstrând protecția obiectivelor importante. Expunerea invocă evaluări de 2.000–10.000 lei, fără să prezinte în fragmentul furnizat surse verificabile pentru aceste costuri.",
-      "realityCheck": "Art. 5¹ propus scutește societățile reglementate de Legea nr. 31/1990 cu cifra de afaceri din anul precedent sub 500.000 lei exclusiv de analiza de risc, fără să elimine expres celelalte măsuri de securitate. Excepțiile pentru informații clasificate și activități strategice nu acoperă explicit toate obiectivele cu risc ridicat, iar cifra de afaceri redusă nu garantează valori depozitate mici. Premisa obligației universale este depășită: OUG nr. 37/2026 a diferențiat analiza profesională de fișa de securitate, a cărei aplicare depinde de modificarea normelor metodologice. [Legea nr. 333/2003, forma consolidată](https://legislatie.just.ro/Public/DetaliiDocument/45134)",
+      "plainTitle": "Scutire de analiza de securitate pentru firmele cu afaceri sub 500.000 lei",
+      "verdictShort": "Reducerea costurilor administrative este utilă, dar proiectul confundă dimensiunea economică a firmei cu riscul de securitate. Sunt necesare excepții mai bine delimitate și reguli clare pentru trecerea pragului.",
+      "initiatorClaim": "Inițiatorii urmăresc eliminarea unei cheltuieli considerate disproporționate pentru firmele mici, păstrând evaluarea pentru activitățile sensibile. Expunerea de motive justifică însă un prag de 250.000 lei, diferit de cel din textul propus.",
+      "realityCheck": "Art. I scutește societățile reglementate de Legea nr. 31/1990 cu cifra de afaceri din anul financiar anterior sub 500.000 lei de efectuarea analizei de risc, fără să elimine celelalte obligații de securitate. Scutirea nu este condiționată de valoarea bunurilor, numerarul deținut sau natura activității, astfel că poate acoperi și obiective vulnerabile. Excepțiile explicite privesc informațiile clasificate și activitățile strategice stabilite prin hotărâre a Guvernului; textul nu garantează afirmația din motivare că toate firmele cu risc ridicat rămân evaluate.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Angajați & HR"
       ],
       "keyFindings": [
-        "Art. 5¹ alin. (1): pragul normativ este 500.000 lei, deși expunerea justifică repetat 250.000 lei. Textul articolului determină efectele juridice; neconcordanța slăbește fundamentarea numărului beneficiarilor și a impactului.",
-        "Art. 5¹ alin. (2): la exact 500.000 lei, societatea pierde scutirea, dar termenul de 3 luni este prevăzut numai pentru depășirea plafonului. Formularea «obligația se naște în termen» nu stabilește limpede termenul de finalizare a analizei.",
-        "Art. 5¹ alin. (2): raportarea la aprobarea situațiilor financiare poate amâna conformarea dacă aprobarea întârzie. Lipsesc reguli explicite pentru societățile fără exercițiu financiar anterior și pentru revenirea sub plafon.",
-        "Art. 5¹ alin. (1): scutirea privește societățile din Legea nr. 31/1990, fără să includă expres PFA ori alte forme de organizare cu activitate și expunere comparabile. Diferența necesită justificare pentru a evita avantaje concurențiale arbitrare.",
-        "Art. 5¹ alin. (3): categoria activităților de interes strategic este lăsată Guvernului fără criterii legale suficiente. Nu este demonstrată afirmația din expunere că toate societățile cu risc ridicat rămân obligate să efectueze analiza.",
-        "Proiectul nu introduce taxe, amenzi noi sau exclusivități profesionale. Poate reduce costurile beneficiarilor și cererea pentru evaluatori; nu cuantifică economiile, eventualele efecte fiscale indirecte sau costurile adaptării controalelor."
+        "Art. I, art. 5¹ alin. (1): pragul normativ este de 500.000 lei, nu de 250.000 lei, cum susține repetat expunerea de motive. Dacă proiectul este adoptat astfel, se aplică valoarea din articol; fundamentarea economică trebuie refăcută pentru aceasta.",
+        "În forma în vigoare furnizată, art. 5 leagă organizarea pazei de evaluarea riscului, iar alin. (3) menționează deja analiza de risc ori fișa de securitate, după caz. Proiectul introduce o scutire suplimentară; nu poate fi prezentat drept eliminarea unei obligații identice pentru absolut toate firmele.",
+        "Art. 5¹ alin. (1) folosește cifra de afaceri a societății, nu riscul fiecărui obiectiv. Nu introduce monopoluri, taxe sau sancțiuni noi și poate reduce cheltuielile beneficiarilor, dar nu demonstrează că aceștia prezintă riscuri mici. Reducerea cererii pentru evaluatori este un efect economic, nu dovada unei încălcări a concurenței.",
+        "Art. 5¹ alin. (2): depășirea pragului în cursul anului este urmată de raportarea la aprobarea situațiilor financiare anuale și de un interval suplimentar de trei luni. Conformarea poate interveni mult după depășire; formularea potrivit căreia obligația se naște în termen nu fixează suficient de clar scadența efectuării analizei.",
+        "La exact 500.000 lei, alin. (1) nu mai acordă scutirea, dar alin. (2) vorbește numai despre depășirea plafonului. Trebuie corelate atingerea pragului, termenul de conformare, situația firmelor nou-înființate și tratamentul analizelor aflate în curs.",
+        "Art. 5¹ alin. (3) permite stabilirea activităților strategice prin hotărâre a Guvernului, fără criterii legale de delimitare sau termen. Afirmația din motivare că nu sunt necesare acte subsecvente nu este demonstrată; nici corelarea cu normele existente privind evaluarea și fișa de securitate nu este rezolvată.",
+        "Art. II dispune exclusiv republicarea și renumerotarea: nu abrogă alte obligații și nu introduce dispoziții tranzitorii ori un termen special de intrare în vigoare. Se aplică regula constituțională a intrării în vigoare la trei zile de la publicare, nu imediat după publicare, cum afirmă motivarea."
       ],
-      "blindSpotsCaught": "Art. 49² alin. (2), introdus prin OUG nr. 37/2026, limitează deja analiza obligatorie la unitățile pentru care sunt stabilite cerințe minimale de securitate; art. 49⁹ reglementează evaluarea proprie prin fișă, cu aplicare condiționată de actualizarea normelor. Noua scutire nu spune ce instrument de evaluare rămâne pentru beneficiarii săi care au asemenea cerințe minimale. Art. II dispune doar republicarea: aceasta nu rezolvă necorelările. [Cadrul legal actual](https://legislatie.just.ro/Public/DetaliiDocument/45134)",
-      "constitutionalityNote": "Simplificarea susține libertatea economică din art. 45. Riscul principal privește art. 1 alin. (5): termenul obligației, atingerea exactă a plafonului și criteriile excepției strategice trebuie clarificate. Diferențierea după forma juridică și cifra de afaceri necesită justificare obiectivă în raport cu egalitatea și concurența loială, fără a demonstra automat neconstituționalitatea. Art. 23 alin. (12) privește legalitatea pedepselor; proiectul nu instituie pedepse, astfel că nu rezultă o încălcare directă. Claritatea rămâne necesară pentru aplicarea sancțiunilor existente. [Constituția României](https://www.cdep.ro/pls/dic/site.page?den=act2_1&par1=2)",
-      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile asupra accesului la profesii reglementate și exercitării lor, nu orice obligație administrativă a firmelor. Scutirea clienților nu demonstrează, prin ea însăși, încălcarea directivei; eventuala modificare a activităților rezervate evaluatorilor necesită examinare distinctă. [Directiva, art. 1–2](https://eur-lex.europa.eu/legal-content/ro/ALL/?uri=CELEX%3A32018L0958). Textul analizat nu stabilește specificații tehnice pentru produse sau norme specifice serviciilor digitale/AI, astfel că nu identific un temei pentru notificarea TRIS potrivit Directivei (UE) 2015/1535. [Directiva TRIS](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=celex%3A32015L1535). Nu apare discriminare explicită după naționalitate; impactul concurențial relevant este diferențierea între operatori comparabili și justificarea plafonului.",
+      "blindSpotsCaught": "Scutirea este rezervată societăților din Legea nr. 31/1990, nu tuturor operatorilor mici: PFA și alte forme juridice nu beneficiază automat, chiar dacă au activități și venituri comparabile. În plus, textul actual furnizat recunoaște deja fișa de securitate ca alternativă în anumite situații; republicarea nu clarifică raportul acesteia cu noua scutire.",
+      "constitutionalityNote": "Scopul simplificării este compatibil cu libertatea economică protejată de art. 45. Riscurile principale țin de art. 1 alin. (5): momentul conformării, cazul atingerii exacte a pragului și delimitarea insuficientă a activităților strategice. Potrivit art. 108 alin. (2), hotărârea Guvernului organizează executarea legii; legea trebuie să ofere repere suficiente pentru stabilirea excepțiilor. Diferențele dintre formele juridice merită justificate, fără a constitui automat o încălcare a art. 16. Art. 23 alin. (12) privește legalitatea pedepselor, iar proiectul nu introduce pedepse; nu rezultă o încălcare directă. Problemele identificate justifică amendamente, nu o concluzie certă de neconstituționalitate.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testarea proporționalității reglementărilor care restricționează accesul la profesii reglementate sau exercitarea acestora. Simpla reducere a numărului clienților obligați să cumpere evaluări nu demonstrează aplicabilitatea directivei; proiectul nu modifică expres calificările ori accesul evaluatorilor la profesie. Directiva (UE) 2015/1535 nu impune notificarea TRIS doar fiindcă sunt afectate firme: textul analizat nu stabilește cerințe tehnice pentru produse sau reguli pentru servicii ale societății informaționale și nu reglementează AI. Nu se identifică o discriminare explicită după naționalitate sau un avantaj exclusiv pentru un furnizor. Fundamentarea pragului și a efectelor concurențiale rămâne insuficient documentată.",
       "senatForm": {
-        "articleRef": "Art. I – art. 5¹ alin. (2)",
-        "proposalContent": "(2) În cazurile prevăzute la art. 49² alin. (2), dacă cifra de afaceri anuală a anului financiar precedent este de cel puțin 500.000 lei, analiza de risc se efectuează în cel mult 3 luni de la termenul legal de depunere a situațiilor financiare anuale. Celelalte obligații de securitate rămân aplicabile.",
-        "argumentation": "Textul acoperă și atingerea exactă a plafonului, stabilește un termen pentru finalizarea analizei și împiedică amânarea conformării prin întârzierea aprobării bilanțului. Trimiterea la art. 49² evită extinderea obligației la societățile care nu o au potrivit cadrului introdus prin OUG nr. 37/2026.",
-        "otherComments": "Corelați alin. (1) și (3) cu art. 49²–49¹⁰, definiți indicatorul contabil și regimul firmelor nou-înființate. Justificați excluderea PFA și introduceți criterii pentru obiectivele cu risc ridicat. Expunerea indică 250.000 lei, iar articolul 500.000 lei. Solicitarea cetățeanului poate fi preluată de un deputat; termenul de amendamente indicat, 08.09.2026, a expirat."
-      }
+        "articleRef": "Art. I – art. 5¹ alin. (3)",
+        "proposalContent": "„(3) Alin. (1) nu se aplică unităților care lucrează cu informații clasificate, celor de interes strategic desemnate potrivit legii, unităților de credit, caselor de amanet ori de schimb valutar, sălilor de jocuri de noroc și unităților care comercializează arme, muniții sau metale prețioase.”",
+        "argumentation": "Cifra de afaceri redusă nu exclude deținerea unor bunuri valoroase, numerar sau bunuri periculoase. Exceptarea acestor activități de la scutire păstrează beneficiul pentru firmele mici obișnuite și reduce riscul eliminării evaluării la obiective vulnerabile.",
+        "otherComments": "Termenul indicat pentru amendamente, 08.09.2026, este depășit; transmiterea către comisie nu garantează preluarea propunerii. Analiza privește documentele furnizate; verificarea online a stadiului și a legislației nu a fost disponibilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T00:07:05.773Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:42:14.655Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

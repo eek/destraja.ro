@@ -2,119 +2,178 @@
   "billId": "PL-x 125/2026",
   "slug": "plx-125-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T06:45:17.165Z",
+  "updatedAt": "2026-11-24T14:43:03.605Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 3005,
+    "ordinanceChars": 0,
+    "memoChars": 5910,
+    "memoSupplied": 5910,
+    "marker": "SF-32CDC917"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-125-2026.json",
+    "form": "senat",
+    "textHash": "32cdc9179689d4a1",
+    "fetchedAt": "2026-11-19T10:39:27.936Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 2,
+    "articlesShown": 2,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 2719,
+    "truncated": false,
+    "included": true,
+    "key": "17c6d59c20db64c0"
+  },
   "consensus": {
-    "riskScore": 3.3,
-    "riskLevel": "green",
-    "plainTitle": "Agenția de salvare pe mare (ARSVOM) poate încasa bani din servicii, iar statul îi reduce bugetul pe măsură ce câștigă",
-    "summaryTlDr": "Este o lege tehnică și în mare parte rezonabilă: permite agenției de salvare pe mare să încaseze bani din remorcaj, scafandrerie sau depoluare. Riscul real este clauza care reduce treptat bugetul fără niciun prag minim care să protejeze misiunea de salvare a vieții.",
-    "initiatorClaim": "Inițiatorii spun că ARSVOM este finanțată integral de la bugetul de stat, iar din 2026 flota sa va avea nevoie de reparații capitale pe care bugetul nu le poate acoperi. Ei vor ca agenția să obțină venituri proprii din servicii maritime, ca să ușureze bugetul fără să-și afecteze misiunea.",
-    "realityCheck": "Legea reformulează atribuțiile de bază (art.2), rescrie lista activităților pe care ARSVOM le poate presta pe bază de contract (art.2¹) și trece agenția pe finanțare mixtă. Sumele de la buget „se vor diminua treptat” pe măsură ce cresc veniturile proprii (art.3 alin.1). Textul nu fixează tarife, nu cere contabilitate separată, nu definește „veniturile suplimentare” și nu garantează un minim pentru salvarea vieții. Mai multe promisiuni din expunerea de motive lipsesc din textul adoptat: folosirea veniturilor pentru reparații și formare, închirierea navelor, lucrările portuare, parteneriatele public-private.",
+    "riskScore": 4.7,
+    "riskLevel": "yellow",
+    "plainTitle": "Agenția de salvare pe mare poate presta direct servicii plătite, fără sucursala separată",
+    "summaryTlDr": "Ideea e rezonabilă: ARSVOM avea deja voie să câștige bani, dar doar printr-o sucursală separată, cu utilaje și conturi proprii. Proiectul scoate această separare și nu pune nimic în loc, așa că o instituție subvenționată poate concura direct cu firme private de remorcaj, scafandrerie sau ranfluare, fără garanții contabile și tarifare.",
+    "initiatorClaim": "Inițiatorii spun că ARSVOM se finanțează integral de la buget și nu își mai poate repara flota. Vor să-i permită venituri proprii din activități maritime conexe, iar subvenția să scadă proporțional.",
+    "realityCheck": "Veniturile proprii nu sunt o noutate: art. 3 alin. (1) în vigoare le prevede deja, alături de alocațiile bugetare. Noutatea reală e înlocuirea integrală a art. 2^1. Dispare sucursala tehnică „pe principiul unei societăți comerciale”, dotată doar cu utilaje care nu sunt necesare misiunilor de bază. ARSVOM însăși poate presta contractual o listă extinsă de servicii (fluvial, poluare în porturi, turism, ISPS, prestații cu utilaje proprii), folosind aceleași nave și echipaje ca pentru salvare. În același timp, art. 3 alin. (2)-(3), despre finanțarea fără buget a sucursalei și conturile ei separate, rămân nemodificate și trimit la o entitate care nu mai are temei legal.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Agricultură & Mediu",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct. 3 – art. 3 alin. (1) OG 33/2004",
-      "proposalContent": "Art.3.-(1) Finanțarea ARSVOM se asigură din venituri proprii și sume de la bugetul de stat, prin bugetul ministerului transporturilor. Sumele de la bugetul de stat nu pot fi mai mici decât costul menținerii capacității operaționale pentru atribuțiile de la art.2. Activitățile de la art.2¹ se evidențiază contabil separat, la tarife care acoperă costul complet.",
-      "argumentation": "Formula „se vor diminua treptat în funcție de veniturile suplimentare” nu are prag minim și nu definește „veniturile suplimentare”: e imprevizibilă (art.1 alin.5 Constituție) și descurajează agenția să încaseze. Pragul protejează salvarea vieții de tăieri. Contabilitatea separată evită subvenționarea încrucișată a serviciilor prestate în concurență cu firme private.",
-      "otherComments": "La art.2¹ lit.a) precizați că prestarea contra cost vizează doar asistența și salvarea navelor și bunurilor; salvarea persoanelor rămâne gratuită și prioritară (art.16 din Convenția din 1989 privind asistența). Corectați „territoriale” (art.2¹ lit.c). Textul nu reia închirierea navelor sau lucrările portuare din expunerea de motive."
+      "articleRef": "Art. unic pct. 3 – art. 3 din OG nr. 33/2004",
+      "proposalContent": "Se introduce la art. 3 alin. (1^1): «Veniturile și cheltuielile aferente activităților de la art. 2^1 se evidențiază în conturi separate; tarifele acoperă cel puțin costurile complete, fără utilizarea sumelor de la bugetul de stat. Mijloacele necesare art. 2 au prioritate și se retrag imediat din contracte la nevoie.» Alin. (2)-(3) se abrogă.",
+      "argumentation": "Noul art. 2^1 elimină sucursala tehnică, dar art. 3 alin. (2)-(3) rămân și trimit la o entitate care nu mai există. Fără separare contabilă și tarife la cost complet, subvenția bugetară poate finanța prețuri sub piață la remorcaj, scafandrerie sau ranfluare, cu risc de ajutor de stat (art. 107 TFUE) și concurență neloială.",
+      "otherComments": "Formula «se vor diminua treptat» nu are criteriu sau termen. Propunem: diminuarea nu poate reduce sumele pentru atribuțiile de la art. 2 sub nivelul necesar menținerii capacității SAR, stabilit anual de minister. Corectați «Ia» și «territoriale» și unificați «apele teritoriale»/«marea teritorială»."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 69713,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Autofinanțarea Agenției de Salvare pe Mare (ARSVOM) din servicii maritime comerciale",
-      "verdictShort": "O măsură pragmatică de degajare a bugetului de stat, care readuce ARSVOM la regimul de finanțare mixtă (buget + venituri proprii din remorcaj, scafandrerie sau ranfluări), dar care necesită reguli clare de contabilitate separată pentru a nu distorsiona concurența cu firmele private din porturi.",
-      "initiatorClaim": "Inițiatorii susțin că finanțarea exclusivă de la bugetul de stat este insuficientă pentru reparațiile capitale ale flotei ARSVOM și propun ca agenția să poată obține venituri proprii din activități maritime conexe, reducând treptat subvenția de la buget.",
-      "realityCheck": "Legea reintroduce practic textul din forma anterioară anului 2021 a OG nr. 33/2004, permițând ARSVOM să presteze pe bază contractuală servicii de remorcaj, scafandrerie, dezeșuare, depoluare sau spargere a gheții. Deși utilă bugetar, preluarea mecanică a vechiului text lasă neclară delimitarea dintre salvarea gratuită a vieții omenești și salvarea comercială de bunuri și nu impune evidență contabilă separată față de subvenția de stat.",
-      "affectedGroups": [
-        "IMM & Antreprenori",
-        "Agricultură & Mediu"
-      ],
-      "keyFindings": [
-        "Art. 2¹ permite ARSVOM să presteze pe bază contractuală servicii comerciale concurențiale (remorcaje interne și internaționale, scafandrerie, lucrări la nave, ranfluări, depoluare), valorificând capacitatea tehnică a flotei proprii.",
-        "Art. 2¹ lit. a) include pe lista prestațiilor contractuale „efectuarea operațiunilor de căutare, asistență și salvare maritimă și fluvială”, suprapunându-se terminologic peste obligația publică gratuită de căutare și salvare a vieții omenești (SAR) de la Art. 2 lit. a).",
-        "Art. 3 alin. (1) prevede finanțarea mixtă (venituri proprii și alocații bugetare diminuate treptat), însă fără a institui obligația unei contabilități separate între misiunile publice subvenționate și serviciile comerciale oferite pe piață."
-      ],
-      "blindSpotsCaught": "Proiectul copiază cuvânt cu cuvânt vechiul Art. 2¹ (abrogat în trecut), fără a observa că în 2021 au fost modificate și alineatele din Art. 3 care stabileau procedura de aprobare a tarifelor pentru aceste prestații și fără a corecta erorile de redactare („apele territoriale” la Art. 2¹ lit. c) sau paradoxul prestării „pe bază contractuală” a acțiunilor antiteroriste ISPS (Art. 2¹ lit. g).",
-      "constitutionalityNote": "Sub aspectul Art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii), suprapunerea dintre atribuțiile publice obligatorii de la Art. 2 (căutare și salvare pe mare, intervenții la poluare) și activitățile contractuale de la Art. 2¹ (formulate aproape identic) creează echivoc juridic. De asemenea, raportat la Art. 135 alin. (2) lit. a) privind protecția concurenței loiale, absența interdicției de subvenționare încrucișată poate dezavantaja operatorii privați.",
-      "euLawNote": "Nu intră sub incidența Directivei (UE) 2015/1535 (TRIS) sau a Directivei (UE) 2018/958 (nu reglementează profesii sau servicii digitale). În schimb, sunt incidente normele UE privind ajutoarele de stat (Art. 106-107 TFUE) și Directiva 2006/111/CE privind transparența relațiilor financiare: o instituție publică ale cărei nave și costuri fixe sunt finanțate de la buget trebuie să țină contabilitate separată atunci când concurează pe piața serviciilor de remorcaj și scafandrerie.",
-      "senatForm": {
-        "articleRef": "Art. unic pct. 2 (Art. 2¹) și pct. 3 (Art. 3)",
-        "proposalContent": "La Art. 2¹ lit. a), sintagma „căutare, asistență și salvare” se înlocuiește cu „asistență și salvare de bunuri și nave”. După alin. (1) al Art. 3 se introduce alin. (1¹): „ARSVOM ține evidență contabilă separată pentru activitățile comerciale prevăzute la art. 2¹, fiind interzisă subvenționarea încrucișată a acestora din alocațiile bugetare.”",
-        "argumentation": "Salvarea vieții omenești pe mare este gratuită conform Convenției SAR 1979 (misiune publică la Art. 2); doar salvarea comercială de nave și bunuri poate fi prestată pe bază contractuală (Art. 2¹). De asemenea, întrucât ARSVOM concurează cu operatori privați de remorcaj și scafandrerie, separarea contabilă previne distorsionarea concurenței prin subvenții de stat.",
-        "otherComments": "La Art. 2¹ lit. c) există o eroare materială de redactare („apele territoriale” în loc de „apele teritoriale”), iar la Art. 2 lit. c) apare „Ia care” în loc de „la care”. Totodată, este necesară precizarea în Art. 3 a modului de aprobare a tarifelor pentru prestațiile contractuale (prin ordin al ministrului transporturilor), pentru transparență și previzibilitate."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 170093,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Agenția de salvare pe mare (ARSVOM) poate încasa bani din servicii, iar statul îi reduce bugetul pe măsură ce câștigă",
-      "verdictShort": "Este o lege tehnică și în mare parte rezonabilă: permite agenției de salvare pe mare să încaseze bani din remorcaj, scafandrerie sau depoluare. Riscul real este clauza care reduce treptat bugetul fără niciun prag minim care să protejeze misiunea de salvare a vieții.",
-      "initiatorClaim": "Inițiatorii spun că ARSVOM este finanțată integral de la bugetul de stat, iar din 2026 flota sa va avea nevoie de reparații capitale pe care bugetul nu le poate acoperi. Ei vor ca agenția să obțină venituri proprii din servicii maritime, ca să ușureze bugetul fără să-și afecteze misiunea.",
-      "realityCheck": "Legea reformulează atribuțiile de bază (art.2), rescrie lista activităților pe care ARSVOM le poate presta pe bază de contract (art.2¹) și trece agenția pe finanțare mixtă. Sumele de la buget „se vor diminua treptat” pe măsură ce cresc veniturile proprii (art.3 alin.1). Textul nu fixează tarife, nu cere contabilitate separată, nu definește „veniturile suplimentare” și nu garantează un minim pentru salvarea vieții. Mai multe promisiuni din expunerea de motive lipsesc din textul adoptat: folosirea veniturilor pentru reparații și formare, închirierea navelor, lucrările portuare, parteneriatele public-private.",
-      "affectedGroups": [
-        "IMM & Antreprenori",
-        "Agricultură & Mediu"
-      ],
-      "keyFindings": [
-        "Art. unic pct.3 (art.3 alin.1): finanțarea devine mixtă, iar alocațiile de la buget „se vor diminua treptat în funcție de veniturile suplimentare din surse proprii”. Nu există prag minim, an de referință sau formulă de calcul. În practică, legea anuală a bugetului decide oricum, deci norma este mai mult declarativă.",
-        "Art. unic pct.2 (art.2¹): ARSVOM poate presta contra cost căutare și salvare maritimă și fluvială, dezeșuare și ranfluare, remorcaj, scafandrerie, depoluare, stingerea incendiilor, spargerea gheții și participarea la acțiuni ISPS antiteroriste. Singura garanție este formula „fără a aduce atingere” atribuțiilor de la art.2. Nu există o regulă de prioritate și nici obligația de a retrage imediat o navă angajată într-un contract când apare o urgență.",
-        "Art.2¹ lit.a) pune „căutarea, asistența și salvarea” pe bază contractuală fără să separe salvarea persoanelor, care după standardele maritime internaționale nu se plătește, de asistența acordată navelor și mărfurilor, care poate fi remunerată.",
-        "O instituție publică subvenționată intră pe piața serviciilor de remorcaj, scafandrerie și depoluare, unde activează firme private. Textul nu cere tarife care să acopere costul complet și nici evidență contabilă separată, așa că există riscul de prețuri subvenționate și concurență neloială.",
-        "Legea nu impune costuri, taxe sau obligații noi cetățenilor sau IMM-urilor. Impactul bugetar direct este, cel mult, o economie pentru stat."
-      ],
-      "blindSpotsCaught": "Art.3 alin.(1) creează un stimulent pervers. Dacă fiecare venit în plus atrage o reducere a alocației, agenția nu are interes să încaseze. Dacă încasează, își înlocuiește finanțarea sigură pentru misiunea de bază cu venituri comerciale volatile. Textul nu spune nici dacă veniturile proprii rămân la ARSVOM la sfârșitul anului și nici pe ce le poate cheltui, deși expunerea de motive promite exact această reglementare. Art.2¹ lit.a) extinde activitatea contractuală la salvarea „fluvială”, deși agenția este definită prin misiunea pe mare, ceea ce poate crea suprapuneri cu alte structuri ale statului de pe Dunăre. Există și o greșeală de redactare, „territoriale” la art.2¹ lit.c), dacă nu provine din extragerea textului.",
-      "constitutionalityNote": "Nu se identifică o încălcare directă a Constituției. Organizarea unei instituții publice și sursele ei de finanțare țin de opțiunea legiuitorului. O lege care reduce cheltuielile nu ridică problema sursei de finanțare cerute de art.138 alin.(5). Legea nu instituie sancțiuni, deci art.23 alin.(12) nu este incident. Există trei puncte slabe. Primul: diminuarea „treptată” a alocațiilor, fără criterii, este greu de aplicat și slăbește previzibilitatea cerută de art.1 alin.(5). Al doilea: prestarea de servicii comerciale de către o entitate subvenționată trebuie să respecte obligația statului de a proteja concurența loială (art.135 alin.(2) lit.a). Al treilea: obligația de a ocroti dreptul la viață (art.22) recomandă ca finanțarea misiunii de salvare să nu depindă de succesul comercial al agenției.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu creează condiții noi de acces la o profesie reglementată. Nici Directiva (UE) 2015/1535 (TRIS) nu este incidentă: textul nu conține reguli tehnice și nu privește servicii ale societății informaționale. Relevante sunt regulile privind ajutorul de stat (art.107 TFUE). Pentru activitățile de la art.2¹, ARSVOM acționează ca întreprindere, așa că finanțarea de la buget nu trebuie să subvenționeze prețurile serviciilor vândute în concurență cu firme private. Soluția uzuală este evidența contabilă separată și tarifarea la cost complet. Directiva 2006/111/CE are praguri de cifră de afaceri, dar principiul rămâne valabil. Remorcajul prestat în porturile maritime TEN-T, precum Constanța, poate intra și sub incidența Regulamentului (UE) 2017/352 privind serviciile portuare, inclusiv a regulilor lui de transparență financiară.",
-      "senatForm": {
-        "articleRef": "Art. unic pct. 3 – art. 3 alin. (1) OG 33/2004",
-        "proposalContent": "Art.3.-(1) Finanțarea ARSVOM se asigură din venituri proprii și sume de la bugetul de stat, prin bugetul ministerului transporturilor. Sumele de la bugetul de stat nu pot fi mai mici decât costul menținerii capacității operaționale pentru atribuțiile de la art.2. Activitățile de la art.2¹ se evidențiază contabil separat, la tarife care acoperă costul complet.",
-        "argumentation": "Formula „se vor diminua treptat în funcție de veniturile suplimentare” nu are prag minim și nu definește „veniturile suplimentare”: e imprevizibilă (art.1 alin.5 Constituție) și descurajează agenția să încaseze. Pragul protejează salvarea vieții de tăieri. Contabilitatea separată evită subvenționarea încrucișată a serviciilor prestate în concurență cu firme private.",
-        "otherComments": "La art.2¹ lit.a) precizați că prestarea contra cost vizează doar asistența și salvarea navelor și bunurilor; salvarea persoanelor rămâne gratuită și prioritară (art.16 din Convenția din 1989 privind asistența). Corectați „territoriale” (art.2¹ lit.c). Textul nu reia închirierea navelor sau lucrările portuare din expunerea de motive."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 124319,
-      "riskScore": 4,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 92244,
+      "sourceEndMarker": "SF-32CDC917",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "ARSVOM poate presta mai multe servicii contra cost, cu reducerea finanțării publice",
-      "verdictShort": "Diversificarea veniturilor poate fi utilă, dar proiectul nu garantează că încasările suplimentare vor îmbunătăți capacitatea de salvare. Riscul moderat vine din reducerea neclară a finanțării publice și din necorelarea regulilor pentru activitățile comerciale.",
-      "initiatorClaim": "Inițiatorii urmăresc finanțarea întreținerii și modernizării flotei prin servicii maritime contra cost, concomitent cu economii la bugetul de stat. Ei susțin că misiunile de salvare vor rămâne neafectate.",
-      "realityCheck": "Proiectul permite agenției să presteze direct serviciile enumerate la art. 2¹ și impune diminuarea treptată a alocațiilor bugetare în funcție de veniturile suplimentare, fără formulă, calendar sau prag operațional minim. Finanțarea mixtă și servicii contractuale printr-o sucursală tehnică sunt deja prevăzute legal, astfel că prezentarea inițiativei drept prima autorizare a veniturilor proprii este inexactă juridic, indiferent de practica bugetară efectivă. [OG nr. 33/2004, art. 2¹ și 3](https://legislatie.just.ro/Public/DetaliiDocumentAfis/206564).",
+      "plainTitle": "Agenția de Salvare pe Mare intră direct pe piața comercială cu nave finanțate de la buget",
+      "verdictShort": "Deși scopul declarat de a ajuta ARSVOM să-și întrețină flota este legitim, legea desființează separarea comercială și contabilă existentă și permite unei instituții subvenționate de la buget să concureze direct firmele private maritime. Redactarea neglijentă lasă articole orfane în lege și creează riscuri serioase de ajutor de stat ilegal și neclaritate între salvarea publică gratuită și contractele pe bani.",
+      "initiatorClaim": "Inițiatorii susțin că ARSVOM se finanțează în prezent exclusiv din subvenții bugetare și are nevoie de cadrul legal pentru a obține venituri proprii din activități maritime conexe, necesare reparațiilor capitale ale flotei din 2026 și degrevării treptate a bugetului de stat.",
+      "realityCheck": "În realitate, OG nr. 33/2004 prevede deja venituri proprii (art. 3 alin. 1) și servicii comerciale, însă impunea prestarea lor printr-o „sucursală tehnică” separată, dotată doar cu utilaje excedentare, fără fonduri bugetare și cu contabilitate distinctă. Proiectul elimină această sucursală și permite ARSVOM să presteze direct servicii comerciale extinse folosind resursele instituției finanțate de la buget, fără a păstra garanția separării contabile și fără a corela alin. (2)-(3) ale art. 3.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Agricultură & Mediu",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articol unic pct. 3: reducerea finanțării publice este obligatorie ca direcție, dar expresia «treptat în funcție de veniturile suplimentare» nu precizează proporția, perioada de referință sau deducerea costurilor serviciilor. Încasările brute nu reprezintă resurse integral disponibile pentru salvare.",
-        "Articol unic pct. 2: dispare cerința existentă ca sucursala comercială să utilizeze utilaje care nu sunt necesare misiunilor publice. Rămâne obligația generală de a nu afecta atribuțiile art. 2, fără criterii concrete privind disponibilitatea navelor și echipajelor.",
-        "Proiectul înlocuiește art. 2¹, dar păstrează art. 3 alin. (2)-(3), care reglementează finanțarea și contabilitatea sucursalei tehnice. Este necesară corelarea lor cu prestarea directă de către agenție; sucursala nu este expres desființată. [Textul existent](https://legislatie.just.ro/Public/DetaliiDocumentAfis/206564).",
-        "Art. 2¹ lit. a), c) și g) include contractual salvarea, intervențiile antipoluare și participarea la prevenirea terorismului. Suprapunerea cu misiunile publice cere delimitare; textul nu instituie însă o taxă generală pentru persoanele salvate și nici condiționarea intervenției publice de semnarea unui contract.",
-        "Nu sunt introduse monopoluri, amenzi, autorizații sau raportări obligatorii pentru cetățeni și IMM-uri. Operatorii maritimi pot beneficia de servicii suplimentare, dar concurenții privați pot fi dezavantajați dacă activitățile comerciale sunt susținute din resursele misiunilor publice.",
-        "Expunerea furnizată nu cuantifică veniturile, costurile suplimentare și economiile nete. Modernizarea flotei și parteneriatele public-private sunt rezultate anticipate, nu obligații sau mecanisme distincte instituite prin articole."
+        "Art. 2¹ desființează „sucursala tehnică” (care funcționa pe principiul unei societăți comerciale, doar cu utilaje nenecesare misiunilor publice) și autorizează ARSVOM să desfășoare direct pe bază contractuală activități extinse: remorcaj, scafandrerie, ranfluare, combaterea poluării, prestații cu utilaje proprii, siguranța turismului nautic și prevenirea actelor teroriste conform Codului ISPS.",
+        "Art. 3 alin. (2) și (3) din OG nr. 33/2004 nu sunt modificate, deși reglementează finanțarea nebancară/nebugetară și conturile contabile separate ale „sucursalei tehnice” eliminate din art. 2¹ — generând norme orfane și eliminând obligația legală de contabilitate separată pentru noile activități comerciale directe ale ARSVOM.",
+        "Există o suprapunere neclară între obligațiile publice ale statului de la art. 2 lit. a)-c) (salvare pe mare, intervenții la poluare) și activitățile contractuale de la art. 2¹ lit. a), c) și g) (salvare, combatere poluare, măsuri anti-teroriste ISPS), fără criterii de delimitare, metodologie de tarifare sau reguli concrete de prioritizare a flotei în caz de urgență.",
+        "Teza finală a art. 3 alin. (1) („Sumele alocate de la bugetul de stat se vor diminua treptat în funcție de veniturile suplimentare din surse proprii”) este pur declarativă, fără formulă, procent sau mecanism aplicabil, iar expunerea de motive pornește de la premisa inexactă că ARSVOM nu ar avea deja dreptul la venituri proprii."
       ],
-      "blindSpotsCaught": "Schimbarea esențială este trecerea de la servicii comerciale prin sucursală la prestarea directă de către agenție, cu păstrarea unor alineate despre sucursală. Procedural, termenul de amendamente din 12.03.2026 este deja depășit la data analizei; o observație transmisă comisiei nu devine automat amendament parlamentar. [Fișa legislativă](https://www.senat.ro/Legis/Lista.aspx?cod=27281).",
-      "constitutionalityNote": "Există vulnerabilități de claritate și corelare raportate la art. 1 alin. (5), în special privind diminuarea alocațiilor și regimul sucursalei; ele nu justifică singure un verdict categoric de neconstituționalitate. Art. 23 alin. (12) nu este incident, deoarece proiectul nu stabilește pedepse. Protejarea capacității de salvare și a concurenței trebuie analizată prin art. 22 și art. 135 alin. (2) lit. a). Finanțarea mixtă este permisă în principiu; economiile promise trebuie fundamentate, nu presupuse. [Constituția republicată](https://legislatie.just.ro/Public/DetaliiDocument/47355).",
-      "euLawNote": "Directiva (UE) 2018/958 nu impune aici testul specific profesiilor reglementate: textul nu introduce cerințe de calificare sau restricții de acces la o asemenea profesie. [Art. 1-2](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng). Nu rezultă obligația notificării TRIS potrivit Directivei (UE) 2015/1535: proiectul nu reglementează servicii digitale/AI și nu stabilește cerințe tehnice pentru produse. [Art. 1 și 5](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535). Problema relevantă este eventuala subvenționare încrucișată a serviciilor comerciale. Sunt necesare evidențe distincte și alocarea verificabilă a costurilor; existența unui ajutor de stat incompatibil nu poate fi dedusă doar din finanțarea mixtă, ci presupune verificarea condițiilor cumulative privind avantajul selectiv, resursele publice, concurența și schimburile între state. [Art. 107 TFUE](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A12016E107).",
+      "blindSpotsCaught": "Cea mai gravă chichiță este tăcerea proiectului asupra art. 3 alin. (2) și (3) din OG nr. 33/2004: prin ștergerea „sucursalei tehnice” din art. 2¹ fără actualizarea art. 3, dispare exact „zidul de protecție” care interzicea finanțarea bugetară și impunea conturi contabile separate pentru activitățile comerciale. În plus, includerea prevenirii actelor teroriste conform Codului ISPS (art. 2¹ lit. g) printre activitățile desfășurate „pe bază contractuală” amestecă nefiresc atribuții de securitate publică cu prestările comerciale, iar expunerea de motive susține eronat că instituția se finanțează integral de la buget, ignorând textul în vigoare.",
+      "constitutionalityNote": "Proiectul ridică vulnerabilități serioase sub aspectul art. 1 alin. (5) din Constituție (claritatea, previzibilitatea și coerența normelor juridice), întrucât lasă în vigoare norme orfane la art. 3 alin. (2)-(3) privind o sucursală tehnică desființată, folosește formulări lipsite de conținut normativ concret („se vor diminua treptat”) și nu delimitează intervențiile publice gratuite de cele tarifate. De asemenea, intrarea directă a unei instituții bugetare pe piața serviciilor maritime fără separare contabilă riscă să încalce obligația statului de a proteja concurența loială (art. 135 alin. 2 lit. a). Art. 23 alin. (12) nu este incident, nefiind instituite sancțiuni.",
+      "euLawNote": "Principalul risc de drept UE vizează art. 107 alin. (1) și art. 106 TFUE (ajutor de stat incompatibil și distorsionarea concurenței pe piața unică) și Directiva 2006/111/CE privind transparența relațiilor financiare: o entitate publică finanțată de la buget care prestează și servicii comerciale concurențiale (remorcaj, scafandrerie, ranfluare, lucrări navale) trebuie să mențină evidență contabilă separată pentru a exclude subvenționarea încrucișată. Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și Directiva (UE) 2015/1535 (TRIS, servicii digitale/reglementări tehnice) nu sunt incidente în speță.",
+      "senatForm": {
+        "articleRef": "Articol unic, pct. 2 și 3 (Art. 2¹ și Art. 3)",
+        "proposalContent": "La art. 2¹, eliminarea lit. g) (Cod ISPS) din sfera comercială și condiționarea contractelor de tarife de piață și prioritate absolută pentru salvare. La art. 3, actualizarea alin. (2)-(3) pentru a impune evidență contabilă separată între activitățile bugetare și cele comerciale ale ARSVOM, cu interzicerea subvenționării încrucișate.",
+        "argumentation": "Eliminarea sucursalei tehnice din art. 2¹ lasă orfane prevederile art. 3 alin. (2)-(3) și înlătură obligația de contabilitate separată. Folosirea navelor și resurselor finanțate bugetar în scop comercial riscă ajutor de stat ilegal (art. 107 TFUE) și concurență neloială față de firmele private (art. 135 Constituție).",
+        "otherComments": "Se recomandă solicitarea avizului Consiliului Concurenței înainte de adoptarea raportului și stabilirea prin act normativ secundar a delimitării clare între intervențiile publice gratuite (art. 2) și serviciile tarifate (art. 2¹), precum și a mecanismului concret de diminuare a alocației bugetare din art. 3 alin. (1)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 47885,
+      "sourceEndMarker": "SF-32CDC917",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Agenția de salvare pe mare poate presta direct servicii plătite, fără sucursala separată",
+      "verdictShort": "Ideea e rezonabilă: ARSVOM avea deja voie să câștige bani, dar doar printr-o sucursală separată, cu utilaje și conturi proprii. Proiectul scoate această separare și nu pune nimic în loc, așa că o instituție subvenționată poate concura direct cu firme private de remorcaj, scafandrerie sau ranfluare, fără garanții contabile și tarifare.",
+      "initiatorClaim": "Inițiatorii spun că ARSVOM se finanțează integral de la buget și nu își mai poate repara flota. Vor să-i permită venituri proprii din activități maritime conexe, iar subvenția să scadă proporțional.",
+      "realityCheck": "Veniturile proprii nu sunt o noutate: art. 3 alin. (1) în vigoare le prevede deja, alături de alocațiile bugetare. Noutatea reală e înlocuirea integrală a art. 2^1. Dispare sucursala tehnică „pe principiul unei societăți comerciale”, dotată doar cu utilaje care nu sunt necesare misiunilor de bază. ARSVOM însăși poate presta contractual o listă extinsă de servicii (fluvial, poluare în porturi, turism, ISPS, prestații cu utilaje proprii), folosind aceleași nave și echipaje ca pentru salvare. În același timp, art. 3 alin. (2)-(3), despre finanțarea fără buget a sucursalei și conturile ei separate, rămân nemodificate și trimit la o entitate care nu mai are temei legal.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Agricultură & Mediu",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. unic pct. 2 (art. 2^1) elimină sucursala tehnică și condiția ca utilajele comerciale să fie altele decât cele necesare atribuțiilor de la art. 2. Aceleași nave pot fi angajate comercial, iar singura protecție a misiunii de salvare e formula generală „fără a aduce atingere îndeplinirii atribuțiilor”.",
+        "Art. 3 alin. (2) și (3) în vigoare nu sunt modificate sau abrogate. Ele reglementează finanțarea fără bani publici și conturile separate ale sucursalei tehnice, care nu mai are bază în art. 2^1. Rezultă o incoerență normativă și o incertitudine dacă obligația de evidență separată mai există.",
+        "Art. 3 alin. (1) nou: „sumele alocate de la bugetul de stat se vor diminua treptat în funcție de veniturile suplimentare” nu are criteriu, termen, prag minim sau autoritate care să decidă. E o declarație de intenție fără efect juridic previzibil și poate afecta capacitatea SAR dacă reducerile sunt agresive.",
+        "Lista de activități se extinde față de forma în vigoare: activități fluviale, intervenții anti-poluare în porturi și pe canale, „prestații cu utilaje proprii”, siguranța turismului nautic, prevenirea actelor teroriste (ISPS). Toate sunt piețe pe care activează operatori privați.",
+        "Expunerea de motive promite reglementarea modului de utilizare a veniturilor proprii (întreținere, echipamente, formare). Textul adoptat nu conține nicio astfel de normă și nici un mecanism de stabilire a tarifelor.",
+        "Art. unic pct. 1 (art. 2 lit. a-c) aduce doar actualizări terminologice (pregătire, răspuns și cooperare la poluare, apărarea împotriva dezastrelor), cu greșeli de redactare: „Ia” în loc de „la”."
+      ],
+      "blindSpotsCaught": "Chichița e că proiectul nu adaugă dreptul la venituri proprii, care există din 2004, ci desființează zidul chinezesc dintre activitatea publică subvenționată și cea comercială. Fostul art. 2^1 impunea utilaje separate, iar art. 3 alin. (2) interzicea finanțarea comercialului din buget. Noul text lasă aceste alineate orfane. Rezultă riscul de subvenționare încrucișată (nave, combustibil și salarii plătite din buget, folosite la contracte comerciale) și riscul ca o navă de salvare să fie ocupată cu un remorcaj plătit când apare o urgență. Există și o neconcordanță teritorială: lit. c) vorbește de „apele teritoriale”, iar lit. f) de „marea teritorială”. Plus o greșeală: „territoriale”.",
+      "constitutionalityNote": "Nu se identifică o neconstituționalitate evidentă: Parlamentul poate modifica o ordonanță aprobată prin lege, iar măsura nu creează cheltuieli bugetare noi (art. 111 alin. 1 și art. 138 alin. 5 nu sunt încălcate). Există însă o problemă de calitate a legii (art. 1 alin. 5, jurisprudența CCR privind claritatea și previzibilitatea): menținerea art. 3 alin. (2)-(3), care trimit la sucursala desființată implicit, creează o antinomie, iar formula „se vor diminua treptat” nu are conținut normativ determinabil. Art. 135 alin. (2) lit. a) (libertatea comerțului, concurența loială) impune ca statul să nu distorsioneze piața prin entități subvenționate fără separare contabilă.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: nu se reglementează accesul la o profesie. Nici TRIS 2015/1535 nu se aplică: nu sunt servicii ale societății informaționale sau reglementări tehnice. Relevante sunt art. 106-107 TFUE: o instituție publică finanțată din buget care prestează servicii economice (remorcaj, scafandrerie, ranfluare, depoluare contractuală) pe piață poate primi ajutor de stat incompatibil dacă tarifele nu acoperă costurile complete. Directiva 2006/111/CE privind transparența relațiilor financiare cere evidențe separate pentru activitățile economice ale entităților publice. Eliminarea implicită a conturilor separate merge în sens contrar. SAR propriu-zis (căutare și salvare de vieți) rămâne activitate de autoritate publică, neeconomică.",
+      "senatForm": {
+        "articleRef": "Art. unic pct. 3 – art. 3 din OG nr. 33/2004",
+        "proposalContent": "Se introduce la art. 3 alin. (1^1): «Veniturile și cheltuielile aferente activităților de la art. 2^1 se evidențiază în conturi separate; tarifele acoperă cel puțin costurile complete, fără utilizarea sumelor de la bugetul de stat. Mijloacele necesare art. 2 au prioritate și se retrag imediat din contracte la nevoie.» Alin. (2)-(3) se abrogă.",
+        "argumentation": "Noul art. 2^1 elimină sucursala tehnică, dar art. 3 alin. (2)-(3) rămân și trimit la o entitate care nu mai există. Fără separare contabilă și tarife la cost complet, subvenția bugetară poate finanța prețuri sub piață la remorcaj, scafandrerie sau ranfluare, cu risc de ajutor de stat (art. 107 TFUE) și concurență neloială.",
+        "otherComments": "Formula «se vor diminua treptat» nu are criteriu sau termen. Propunem: diminuarea nu poate reduce sumele pentru atribuțiile de la art. 2 sub nivelul necesar menținerii capacității SAR, stabilit anual de minister. Corectați «Ia» și «territoriale» și unificați «apele teritoriale»/«marea teritorială»."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 70382,
+      "sourceEndMarker": "SF-32CDC917",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "ARSVOM va putea presta direct servicii comerciale, cu reducerea finanțării publice",
+      "verdictShort": "Proiectul poate valorifica util resursele agenției, dar reducerea finanțării publice trebuie legată de păstrarea capacității de salvare. Riscurile principale sunt finanțarea insuficientă și amestecarea costurilor comerciale cu cele ale misiunilor publice; nu apar taxe, sancțiuni sau monopoluri noi.",
+      "initiatorClaim": "Inițiatorii susțin că ARSVOM depinde integral de subvenții și că veniturile comerciale ar permite întreținerea și modernizarea flotei. Ei promit reducerea presiunii asupra bugetului fără afectarea intervențiilor.",
+      "realityCheck": "Potrivit textului în vigoare furnizat, finanțarea din venituri proprii este deja permisă, iar serviciile contractuale sunt deja prevăzute printr-o sucursală tehnică. Proiectul permite prestarea directă de către ARSVOM, extinde lista activităților și înlocuiește condiția folosirii utilajelor nenecesare misiunilor publice cu obligația generală de a nu afecta aceste misiuni. Introduce și diminuarea treptată a alocațiilor bugetare în funcție de venituri, fără criterii explicite privind costurile prestărilor sau resursele necesare intervențiilor.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Agricultură & Mediu",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Articol unic pct. 3: actualul art. 3 alin. (1) prevede deja venituri proprii și alocații bugetare. Noutatea este obligația diminuării treptate a sumelor bugetare, nu introducerea finanțării mixte; premisa contrară din expunerea de motive nu este susținută de textul legal furnizat.",
+        "Articol unic pct. 2: actualul art. 2¹ rezervă sucursalei tehnice utilajele nenecesare activităților de la art. 2. Noua formulare elimină această delimitare materială, dar păstrează expres prioritatea atribuțiilor publice prin condiția de a nu le aduce atingere.",
+        "Articol unic pct. 2: căutarea și salvarea, dezeșuarea, ranfluarea, scafandreria, remorcajul, stingerea incendiilor și spargerea gheții figurează deja în lista serviciilor contractuale. Proiectul adaugă expres, între altele, intervenții antipoluare, siguranța activităților nautice și participarea la prevenirea actelor teroriste.",
+        "Articol unic pct. 2-3: art. 3 alin. (2)-(3) rămâne nemodificat și continuă să reglementeze finanțarea și contabilitatea sucursalei tehnice, deși noul art. 2¹ nu mai prevede înființarea acesteia. Proiectul nu stabilește nici tranziția pentru o eventuală sucursală existentă.",
+        "Articol unic pct. 3: formula «se vor diminua treptat» nu stabilește ritmul, baza de calcul sau raportarea la costurile activităților comerciale. Încasările suplimentare nu reprezintă automat resurse disponibile pentru finanțarea salvării.",
+        "Textul nu instituie exclusivități comerciale, obligații noi de raportare pentru cetățeni sau IMM-uri ori condiționarea generală a salvării de existența unui contract. Întinderea obligațiilor publice trebuie citită împreună cu art. 2 și convențiile aplicabile."
+      ],
+      "blindSpotsCaught": "Înlocuirea integrală a art. 2¹ nu este însoțită de corelarea art. 3 alin. (2)-(3): interdicția finanțării bugetare a sucursalei și contabilitatea sa separată rămân în text, dar aplicarea lor activităților comerciale desfășurate direct de ARSVOM devine neclară. Această necorelare contează pentru verificarea subvenționării activităților economice și a concurenței.",
+      "constitutionalityNote": "Art. 1 alin. (5) justifică precizarea mecanismului de diminuare a alocațiilor și corelarea dispozițiilor despre sucursală; nu orice necorelare tehnică reprezintă automat neconstituționalitate. Protecția vieții, potrivit art. 22, cere menținerea capacității efective de intervenție, iar art. 135 alin. (2) lit. a) este relevant pentru concurența dintre agenție și prestatorii privați. Nu sunt introduse infracțiuni sau pedepse, astfel că art. 23 alin. (12) nu ridică o problemă specifică. Nu rezultă numai din materialele furnizate încălcarea art. 138 alin. (5) ori nerespectarea procedurilor privind informarea bugetară.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor privind accesul la profesii reglementate sau exercitarea lor; proiectul nu introduce asemenea restricții. Nu apar norme tehnice privind produse sau reguli pentru servicii ale societății informaționale care să indice obligația notificării TRIS potrivit Directivei (UE) 2015/1535. Pentru prestațiile economice ale ARSVOM trebuie analizate regulile de concurență și ajutor de stat, inclusiv art. 107 TFUE: finanțarea publică nu este automat ajutor ilegal, dar trebuie evitate avantaje selective incompatibile, prin delimitarea costurilor și justificarea finanțării misiunilor publice.",
       "senatForm": {
         "articleRef": "Articol unic pct. 3 – art. 3 alin. (1)",
-        "proposalContent": "(1) Cheltuielile curente și de capital ale ARSVOM se finanțează din venituri proprii și de la bugetul de stat, prin bugetul autorității centrale responsabile de transporturi. Alocațiile bugetare se stabilesc anual pe baza costurilor documentate ale misiunilor prevăzute la art. 2 și a veniturilor proprii nete, fără diminuarea capacității de intervenție.",
-        "argumentation": "Veniturile brute din contracte implică și costuri de prestare. Reducerea alocațiilor doar în funcție de încasări poate afecta întreținerea flotei și disponibilitatea pentru urgențe. Textul propus leagă finanțarea de necesarul documentat al misiunilor publice și de resursele nete disponibile.",
-        "otherComments": "Corelați art. 3 alin. (2)-(3), rămas referitor la sucursala tehnică, cu noul art. 2¹. Separați contabil activitățile economice de misiunile publice și preveniți subvenționarea încrucișată. Clarificați că salvarea vieții în cadrul obligațiilor publice nu este condiționată de contract. Termenul de amendamente din 12.03.2026 a trecut."
-      }
+        "proposalContent": "(1) Cheltuielile curente și de capital ale ARSVOM se finanțează din venituri proprii și sume de la bugetul de stat, prin bugetul autorității centrale responsabile de transporturi. Alocațiile se stabilesc anual în funcție de veniturile proprii, costurile activităților contractuale și necesarul de resurse pentru îndeplinirea integrală a atribuțiilor de la art. 2.",
+        "argumentation": "Veniturile contractuale implică și costuri, iar creșterea încasărilor nu justifică automat reducerea finanțării misiunilor publice. Stabilirea anuală a alocațiilor pe baza ambelor componente protejează capacitatea de intervenție și permite fundamentarea verificabilă a economiilor bugetare.",
+        "otherComments": "Corelați art. 3 alin. (2)-(3) cu noul art. 2¹, păstrând evidența distinctă a veniturilor și costurilor comerciale; clarificați regimul sucursalei și tarifarea serviciilor. Evaluarea privește forma Senatului și textele furnizate; verificarea online nu a fost posibilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T06:45:17.165Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:43:03.605Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

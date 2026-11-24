@@ -1,125 +1,181 @@
 {
   "billId": "Pl-x 517/2026",
   "slug": "plx-517-2026",
-  "updatedAt": "2026-10-28T15:42:09.562Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T14:43:38.832Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 5170,
+    "ordinanceChars": 0,
+    "memoChars": 8275,
+    "memoSupplied": 8275,
+    "marker": "SF-E3489523"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-517-2026.json",
+    "form": "initiator",
+    "textHash": "e3489523ac02a279",
+    "fetchedAt": "2026-11-19T10:54:36.684Z",
+    "acts": 2,
+    "actsFound": 2,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 2092,
+    "truncated": false,
+    "included": true,
+    "key": "f45c4e903ffa8494"
+  },
   "consensus": {
     "riskScore": 4.3,
     "riskLevel": "yellow",
-    "plainTitle": "Controlul abuziv al banilor în cuplu ar conta la partaj și la divorț",
-    "summaryTlDr": "Scopul e bun, dar textul e scris în grabă. Victimele controlului financiar abuziv primesc un instrument real la partaj și divorț. Totuși, prezumția cu apărări limitate pentru pârât și cotele ajustabile fără niciun criteriu trebuie reparate în comisie, nu e cazul ca proiectul să fie respins.",
-    "initiatorClaim": "Inițiatorii spun că violența economică, deși definită în Legea 217/2003, nu are efecte în Codul civil, iar victimele nu o pot invoca eficient la partaj sau la divorț. Vor să umple acest «vid juridic» și să ușureze proba printr-o prezumție relativă în favoarea victimei.",
-    "realityCheck": "Instanțele pot deja ține seama de contribuția reală a fiecărui soț la bunuri (art. 357 C.civ.) și pot reține orice comportament ca motiv de culpă. Noutățile reale sunt deci două: cotele la partaj pot fi ajustate pentru violență economică fără vreun criteriu de măsură, iar în proces violența se prezumă după ce reclamantul o face «verosimilă», pârâtul având doar două căi de a răsturna prezumția. Indicatori ca «control predominant asupra resurselor comune» pot fi invocați și în familiile cu un singur venit, iar regimul se extinde la toate relațiile din Legea 217/2003, inclusiv părinți și frați.",
+    "plainTitle": "Controlul banilor în cuplu, luat în calcul la divorț și la împărțirea bunurilor",
+    "summaryTlDr": "Scopul e legitim: violența economică produce efecte reale la partaj. Textul e însă vag și inconsecvent. Prezumția din Codul de procedură civilă pornește de la simpla verosimilitate, iar apărarea pârâtului e limitată la două motive, ceea ce ridică probleme de echitate procesuală.",
+    "initiatorClaim": "Inițiatorii spun că violența economică, definită în Legea nr. 217/2003, nu are efecte în dreptul civil. Vor ca instanțele să o poată folosi la partaj, la stabilirea contribuției la bunuri și a culpei în divorț, cu un regim probatoriu mai ușor pentru victimă.",
+    "realityCheck": "Proiectul nu creează o definiție nouă: trimite la Legea nr. 217/2003. Totuși, art. 320² alin. (1) adaugă o definiție proprie a «controlului economic abuziv», ceea ce poate crea divergențe. Efectele de drept material sunt în mare parte facultative («poate avea în vedere»), deci practica va fi neuniformă. Partea cu cel mai mare efect este procedurală: odată arătate împrejurări «verosimile», violența se prezumă, iar pârâtul se poate apăra, după text, doar pe două căi. Culpa în divorț poate fi deja reținută azi pentru orice conduită care destramă căsătoria, deci art. 379 alin. (3) e în bună măsură declarativ.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Proprietari & Imobiliare",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. II pct. 1 – art. 249¹ alin. (4)-(5) CPC",
-      "proposalContent": "Alin. (5) devine: «Pârâtul poate răsturna prezumția de la alin. (4) prin orice mijloc de probă, inclusiv dovedind că reclamantul a avut acces real și efectiv la resursele financiare sau că situația are o cauză obiectivă, justificată și proporțională.» La alin. (4) se adaugă: «Instanța pune în discuția părților incidența prezumției înainte de închiderea dezbaterilor.»",
-      "argumentation": "Alin. (5) limitează răsturnarea prezumției la două motive și nu spune dacă sunt alternative sau cumulative; alte probe contrare (de ex. că faptele nu au avut loc) par excluse, ceea ce riscă să încalce dreptul la apărare (art. 24 Constituție). Nici nu se spune când află pârâtul că sarcina probei a trecut la el; fără punere în discuție, ar afla abia din hotărâre.",
-      "otherComments": "Alte corecturi: Art. IV spune 30 de zile, expunerea 60; divorțul se întemeiază pe art. 373 lit. b) C.civ., nu pe art. 379 alin. (3); art. 320² alin. (2) «ține seama» contrazice alin. (3)-(4) «poate»; extinderea la toate relațiile din Legea 217/2003 (frați, părinți) o poate aduce în partaje succesorale; Art. III nu spune dacă prezumția vizează și fapte anterioare legii."
+      "articleRef": "Art. II pct. 1, art. 249¹ alin. (5) CPC",
+      "proposalContent": "(5) Pârâtul poate răsturna prezumția prevăzută la alin. (4) prin orice mijloc de probă admis de lege, inclusiv dovedind că: a) reclamantul a avut acces real și efectiv la resursele financiare; b) situația invocată are o cauză obiectivă, justificată și proporțională; c) faptele invocate nu au avut loc.",
+      "argumentation": "Forma actuală («dovedind că») poate fi citită ca listă închisă de apărări. O prezumție relativă bazată pe simpla verosimilitate trebuie să permită o probă contrară neîngrădită, altfel încalcă dreptul la apărare (art. 24 Constituție) și egalitatea armelor (art. 6 CEDO).",
+      "otherComments": "Corelați art. 320² alin. (2) «ține seama» cu alin. (3)-(4) «poate». Eliminați definiția paralelă din art. 320² alin. (1) sau aliniați-o la Legea 217/2003. Unificați termenul de intrare în vigoare: textul spune 30 de zile, expunerea 60. Clarificați dacă faptele anterioare (Art. III alin. 2) pot declanșa prezumția."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 69791,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 78757,
+      "sourceEndMarker": "SF-E3489523",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Prezumția de violență economică la divorț și împărțirea bunurilor (partaj)",
-      "verdictShort": "Deși scopul protejării victimelor abuzului financiar domestic este legitim, proiectul este redactat deficitar și răstoarnă sarcina probei în procesele de partaj pe baza unor criterii vagi. Fără clarificări, simplul fapt că un soț își ține salariul într-un cont bancar personal (drept garantat de Codul civil) poate declanșa prezumția de violență economică și modificarea cotelor de proprietate.",
-      "initiatorClaim": "Inițiatorii doresc să transpună noțiunea de violență economică din Legea nr. 217/2003 în Codul civil și Codul de procedură civilă, astfel încât victimele abuzului financiar să poată obține divorțul din culpa agresorului și o cotă echitabilă la partajul bunurilor, beneficiind de o prezumție legală care să le ușureze probațiunea.",
-      "realityCheck": "În practică, legea introduce o prezumție relativă de violență economică declanșată de simple „împrejurări verosimile”, precum „lipsa accesului la conturi bancare” (fără a distinge între conturile comune și cele personale), ceea ce intră în conflict direct cu independența bancară a soților prevăzută de art. 317 din Codul civil. În plus, permite judecătorului să modifice cotele de proprietate la partaj pe criterii subiective și aplică aceste reguli noi inclusiv pentru fapte petrecute înainte de intrarea în vigoare a legii.",
+      "plainTitle": "Violența economică devine prezumată la divorț și poate schimba cotele de partaj",
+      "verdictShort": "Intenția de a proteja victimele violenței economice este legitimă, însă legea e redactată imprecis și creează riscuri serioase de abuz procesual. Răsturnarea sarcinii probei pe baza modului obișnuit în care familiile își administrează banii și modificarea fără criterii a cotelor de partaj afectează previzibilitatea juridică și dreptul de proprietate.",
+      "initiatorClaim": "Inițiatorii susțin că umplu un vid legislativ între Legea nr. 217/2003 și Codul civil, oferind victimelor violenței economice remedii civile efective la partaj și divorț și aliniind România la Convenția de la Istanbul și Directiva (UE) 2024/1385.",
+      "realityCheck": "Deși art. 379 alin. (1) Cod civil permite deja instanțelor să rețină culpa la divorț pentru orice abuz grav, proiectul introduce o schimbare majoră prin art. 249^1 C.pr.civ.: simpla „verosimilitate” a unor situații uzuale (ex. lipsa accesului la un cont bancar ori gestionarea predominantă a banilor de către un soț) declanșează o prezumție legală de violență economică, obligând pârâtul să dovedească contrariul. În plus, art. 320^2 permite instanței să modifice cotele de contribuție la partaj fără niciun criteriu obiectiv de cuantificare, iar art. III alin. (2) permite valorificarea faptelor din trecut.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Proprietari & Imobiliare",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Răsturnarea sarcinii probei și conflictul cu independența bancară a soților (Art. II pct. 1 - Art. 249¹ alin. (2) lit. a) și alin. (4) C.proc.civ.): „Lipsa accesului la conturi bancare” este enumerată ca indiciu suficient pentru a prezuma violența economică și a muta sarcina probei pe pârât, deși Art. 317 alin. (2) din Codul civil prevede expres că oricare soț poate deschide și opera singur conturi bancare proprii, chiar și în regimul comunității legale.",
-        "Alterarea neclară a cotelor de proprietate la partaj (Art. I pct. 2 - Art. 320² alin. (3)-(4) C.civ.): Instanța poate modifica cotele de contribuție și repartizarea bunurilor pe baza „controlului economic abuziv”, confundând stabilirea obiectivă a contribuției la dobândirea bunurilor (unde munca în gospodărie este deja recunoscută de art. 326 și 357 C.civ.) cu răspunderea civilă delictuală sau prestația compensatorie (art. 388 C.civ.).",
-        "Eroare de sistematizare în Codul civil (Art. I pct. 1 - Art. 320¹ alin. (3) C.civ.): Textul este introdus în Capitolul VI („Drepturile și obligațiile patrimoniale ale soților”), dar prevede că se aplică tuturor persoanelor aflate în relațiile din Legea nr. 217/2003 (concubini, frați, părinți, copii, foști parteneri), încălcând normele de tehnică legislativă din Legea nr. 24/2000.",
-        "Aplicare retroactivă mascată și necorelare de termene (Art. III alin. (2) și Art. IV): Proiectul permite instanțelor să aplice noile efecte patrimoniale și pentru fapte anterioare intrării în vigoare a legii („ca elemente de fapt”), iar Art. IV prevede intrarea în vigoare la 30 de zile, în timp ce Expunerea de motive menționează 60 de zile."
+        "Răsturnarea sarcinii probei pe indicii banale (Art. II, art. 249^1 alin. 2 și 4-5 C.pr.civ.): dacă reclamantul arată „în mod verosimil” că nu a avut acces la conturi sau că celălalt soț a gestionat predominant resursele comune (lit. a și d), violența economică se prezumă legal, iar pârâtul trebuie să probeze accesul „real și efectiv” ori o „cauză obiectivă, justificată și proporțională”.",
+        "Ajustarea discreționară a proprietății la partaj (Art. I pct. 2, art. 320^2 alin. 3-4 Cod civil): instanța poate modifica cotele de contribuție și repartizarea bunurilor comune din cauza violenței economice, fără să existe criterii de calcul, praguri sau distincție între contribuția reală și reparația prejudiciului.",
+        "Efecte retroactive mascate asupra bunurilor anterioare (Art. III alin. 2): deși legea se aplică acțiunilor noi, instanța poate folosi fapte petrecute înainte de intrarea în vigoare „ca elemente de fapt” pentru a recalcula cote de proprietate și culpe sub noile prezumții.",
+        "Inconsecvențe de tehnică legislativă: art. 320^1 alin. (4) și art. 320^2 alin. (3)-(4) folosesc verbul facultativ „poate”, în timp ce art. 320^2 alin. (2) impune imperativ „instanța ține seama”; de asemenea, art. 320^1 alin. (3) extinde norma dintr-o secțiune dedicată soților la toate relațiile din Legea nr. 217/2003 fără adaptarea regulilor de coproprietate."
       ],
-      "blindSpotsCaught": "Proiectul ignoră regimul separației de bunuri (art. 360 C.civ.) și principiul independenței patrimoniale din art. 317 C.civ.: în noul art. 249¹ alin. (5) C.proc.civ., pârâtul poate răsturna prezumția de violență economică dovedind că reclamantul „a avut acces real și efectiv la resursele financiare”, fără a se preciza dacă literele a) și b) sunt condiții cumulative sau alternative și la ale cui resurse financiare se face referire. De asemenea, inserarea art. 249¹ în Partea Generală a Codului de procedură civilă (în loc de Cartea a VI-a privind procedurile speciale de divorț și partaj) bulversează structura codului.",
-      "constitutionalityNote": "Proiectul ridică probleme de constituționalitate prin raportare la Art. 1 alin. (5) (calitatea și previzibilitatea legii), întrucât nu delimitează gestiunea separată legală a veniturilor de „controlul economic abuziv” și nu oferă criterii cuantificabile pentru modificarea cotelor de partaj, afectând astfel dreptul de proprietate privată (Art. 44 din Constituție). Totodată, Art. III alin. (2), care permite valorificarea faptelor consumate înainte de intrarea în vigoare a legii pentru a recalcula cotele de proprietate asupra bunurilor dobândite anterior, riscă să încalce principiul neretroactivității legii civile (Art. 15 alin. (2) din Constituție).",
-      "euLawNote": "Proiectul este aliniat ca intenție cu Directiva (UE) 2024/1385 privind combaterea violenței împotriva femeilor și a violenței domestice și cu Convenția de la Istanbul (art. 29 privind remediile civile), și nu ridică probleme pe Directiva (UE) 2018/958 sau Directiva (UE) 2015/1535 (TRIS), neavând impact asupra pieței unice, profesiilor reglementate sau serviciilor digitale.",
+      "blindSpotsCaught": "Art. IV din textul legii stabilește intrarea în vigoare la 30 de zile de la publicare, contrazicând direct Expunerea de motive care justifică un termen de 60 de zile pentru pregătirea practicienilor. Totodată, deși art. 249^1 alin. (6) păstrează sarcina probei la reclamant pentru „prejudiciu”, la partaj și la stabilirea culpei în divorț nu se cere dovada unui prejudiciu delictual, ceea ce înseamnă că prezumția de violență economică de la alin. (4) rămâne pe deplin operativă exact în cele mai sensibile litigii patrimoniale.",
+      "constitutionalityNote": "Proiectul ridică probleme serioase față de art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), prin definirea vagă a „controlului economic abuziv” și lipsa criteriilor pentru modificarea cotelor de partaj, ceea ce poate afecta și dreptul de proprietate privată (art. 44). Art. III alin. (2) riscă să încalce principiul neretroactivității legii civile (art. 15 alin. 2) prin atașarea unor consecințe patrimoniale noi unor fapte anterioare, iar prezumția extinsă din art. 249^1 C.pr.civ. poate dezechilibra dreptul la apărare și egalitatea armelor într-un proces echitabil (art. 21 și art. 24).",
+      "euLawNote": "Proiectul nu reglementează profesii reglementate (Directiva (UE) 2018/958 nu este incidentă), nu vizează servicii digitale ori reglementări tehnice (Directiva (UE) 2015/1535 - TRIS nu se aplică) și nu afectează piața unică sau concurența. Obiectivul este aliniat cu spiritul Directivei (UE) 2024/1385 privind combaterea violenței domestice și al Convenției de la Istanbul (art. 29), însă directiva UE nu impune modificarea discreționară a cotelor de partaj și nici răsturnarea sarcinii probei pe simple aranjamente gospodărești, aspecte care trebuie calibrate atent cu art. 17 (dreptul de proprietate) și art. 47 (proces echitabil) din Carta Drepturilor Fundamentale a UE.",
       "senatForm": {
-        "articleRef": "Art. I pct. 2 și Art. II pct. 1 din proiect",
-        "proposalContent": "La Art. 249¹ alin. (2) lit. a) C.proc.civ., sintagma „conturi bancare” se înlocuiește cu „conturi bancare comune”, pentru corelare cu art. 317 C.civ. La Art. 320² alin. (3)-(4) C.civ., violența economică se va valorifica prin despăgubiri distincte (art. 388 C.civ.), fără alterarea arbitrară a cotelor de contribuție la dobândirea bunurilor.",
-        "argumentation": "Art. 317 alin. (2) din Codul civil garantează independența bancară a fiecărui soț pentru conturile proprii; prezumarea violenței economice doar pentru că un soț nu are acces la contul personal al celuilalt anulează această regulă. De asemenea, cotele de partaj reflectă contribuția la bunuri (art. 357 C.civ.), iar abuzul trebuie reparat prin daune-interese.",
-        "otherComments": "Se impune eliminarea art. III alin. (2) pentru a evita aplicarea retroactivă a legii civile noi asupra faptelor anterioare, corelarea art. IV (30 de zile) cu Expunerea de motive (60 de zile), precum și relocarea normelor pentru concubini/rude în afara Capitolului VI din Codul civil, care reglementează strict raporturile dintre soți."
-      }
+        "articleRef": "Art. 320^2 Cod civil și Art. 249^1 C.pr.civ.",
+        "proposalContent": "La art. 320^2 alin. (3)-(4) CC, prevedeți remedii compensatorii clare în locul modificării discreționare a cotelor de partaj. La art. 249^1 CPC, condiționați prezumția de indicii concrete de constrângere sau refuz abuziv, excluzând simpla administrare a conturilor comune de un singur soț (lit. a, d).",
+        "argumentation": "Protecția victimelor este legitimă, dar lipsa criteriilor de ajustare a cotelor de partaj încalcă art. 1 alin. (5) și art. 44 din Constituție. Răsturnarea sarcinii probei pe baza gestionării uzuale a banilor în familie creează risc de abuz procesual în divorțuri și afectează egalitatea armelor (art. 21 Constituție).",
+        "otherComments": "Recomand și eliminarea art. III alin. (2) pentru a evita retroactivitatea mascată (art. 15 alin. 2 Constituție), armonizarea termenului de intrare în vigoare (30 de zile în Art. IV față de 60 de zile în expunerea de motive) și corelarea verbelor «poate» vs. «ține seama» din art. 320^1 și 320^2 Cod civil."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 262812,
+      "durationMs": 48126,
+      "sourceEndMarker": "SF-E3489523",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Controlul abuziv al banilor în cuplu ar conta la partaj și la divorț",
-      "verdictShort": "Scopul e bun, dar textul e scris în grabă. Victimele controlului financiar abuziv primesc un instrument real la partaj și divorț. Totuși, prezumția cu apărări limitate pentru pârât și cotele ajustabile fără niciun criteriu trebuie reparate în comisie, nu e cazul ca proiectul să fie respins.",
-      "initiatorClaim": "Inițiatorii spun că violența economică, deși definită în Legea 217/2003, nu are efecte în Codul civil, iar victimele nu o pot invoca eficient la partaj sau la divorț. Vor să umple acest «vid juridic» și să ușureze proba printr-o prezumție relativă în favoarea victimei.",
-      "realityCheck": "Instanțele pot deja ține seama de contribuția reală a fiecărui soț la bunuri (art. 357 C.civ.) și pot reține orice comportament ca motiv de culpă. Noutățile reale sunt deci două: cotele la partaj pot fi ajustate pentru violență economică fără vreun criteriu de măsură, iar în proces violența se prezumă după ce reclamantul o face «verosimilă», pârâtul având doar două căi de a răsturna prezumția. Indicatori ca «control predominant asupra resurselor comune» pot fi invocați și în familiile cu un singur venit, iar regimul se extinde la toate relațiile din Legea 217/2003, inclusiv părinți și frați.",
+      "plainTitle": "Controlul banilor în cuplu, luat în calcul la divorț și la împărțirea bunurilor",
+      "verdictShort": "Scopul e legitim: violența economică produce efecte reale la partaj. Textul e însă vag și inconsecvent. Prezumția din Codul de procedură civilă pornește de la simpla verosimilitate, iar apărarea pârâtului e limitată la două motive, ceea ce ridică probleme de echitate procesuală.",
+      "initiatorClaim": "Inițiatorii spun că violența economică, definită în Legea nr. 217/2003, nu are efecte în dreptul civil. Vor ca instanțele să o poată folosi la partaj, la stabilirea contribuției la bunuri și a culpei în divorț, cu un regim probatoriu mai ușor pentru victimă.",
+      "realityCheck": "Proiectul nu creează o definiție nouă: trimite la Legea nr. 217/2003. Totuși, art. 320² alin. (1) adaugă o definiție proprie a «controlului economic abuziv», ceea ce poate crea divergențe. Efectele de drept material sunt în mare parte facultative («poate avea în vedere»), deci practica va fi neuniformă. Partea cu cel mai mare efect este procedurală: odată arătate împrejurări «verosimile», violența se prezumă, iar pârâtul se poate apăra, după text, doar pe două căi. Culpa în divorț poate fi deja reținută azi pentru orice conduită care destramă căsătoria, deci art. 379 alin. (3) e în bună măsură declarativ.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
-        "Proprietari & Imobiliare"
+        "Proprietari & Imobiliare",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. II (art. 249¹ alin. 4–5 CPC): după ce reclamantul face «verosimilă» violența economică, aceasta se prezumă. Pârâtul o poate răsturna doar dovedind fie accesul real al reclamantului la resurse, fie o cauză obiectivă și proporțională. Lista pare limitativă și nu spune dacă motivele sunt alternative sau cumulative.",
-        "Art. I pct. 2 (art. 320² alin. 3–4 C.civ.): instanța poate modifica cotele la partaj din cauza violenței economice, dar legea nu spune după ce criteriu și în ce măsură. Cota, stabilită azi după contribuție (art. 357), devine parțial o sancțiune lăsată la aprecierea judecătorului.",
-        "Art. 320² alin. (2) spune că instanța «ține seama» (obligatoriu), iar alin. (3)–(4) și art. 320¹ alin. (4) spun că «poate» (facultativ). Aceeași situație e tratată contradictoriu în două articole alăturate.",
-        "Art. 320¹ alin. (3) extinde regimul la toate relațiile din Legea 217/2003 (părinți, copii, frați, foști parteneri, tutori), deși e așezat în capitolul despre drepturile patrimoniale ale soților. Astfel, acuzația poate apărea și în partaje între frați asupra bunurilor moștenite.",
-        "Art. 249¹ alin. (2) lit. d) face din «controlul exclusiv sau predominant asupra resurselor financiare comune» un indiciu de violență, deși în multe familii un singur soț câștigă și administrează banii.",
-        "Art. 249¹ alin. (1) vorbește de «acțiuni de divorț întemeiate pe art. 379 alin. (3)», dar temeiul divorțului e art. 373 lit. b), iar art. 379 reglementează doar culpa. Nici «acțiunile civile întemeiate pe violența economică» nu sunt definite, așa că nu e clar dacă prezumția se aplică în partaj.",
-        "Art. IV fixează intrarea în vigoare la 30 de zile, iar expunerea de motive vorbește de 60. Proiectul nu aduce taxe, amenzi sau costuri bugetare și nu afectează IMM-urile. Efectul practic va fi partaje și divorțuri mai lungi, cu mai multe probe."
+        "Art. 249¹ alin. (1) și (4) CPC: pragul este verosimilitatea, nu dovada. Odată atins, violența economică se prezumă până la proba contrară, o răsturnare reală a regulii din art. 249 CPC («cine face o susținere trebuie să o dovedească»).",
+        "Art. 249¹ alin. (5) CPC: proba contrară e formulată limitativ: pârâtul o face «dovedind că» reclamantul a avut acces real la resurse sau că situația are o cauză obiectivă și proporțională. Alte apărări pot fi interpretate ca inadmisibile, de exemplu că faptele nu au avut loc sau că documentele nu au fost reținute.",
+        "Art. 320² alin. (2) spune că instanța «ține seama» (obligatoriu), iar alin. (3)-(4) că «poate avea în vedere» (facultativ). Contradicția internă afectează previzibilitatea.",
+        "Art. 320² alin. (3)-(4): cotele la partaj se stabilesc azi după contribuția efectivă (art. 357 alin. (2) C.civ.). Ajustarea lor pentru violență economică introduce un element cvasi-sancționator, fără criterii de cuantificare.",
+        "Art. 320¹ e plasat după art. 320 (lichidarea regimului matrimonial), deci între normele despre soți. Alin. (3) îl extinde însă la toate relațiile din Legea nr. 217/2003 (rude, concubini, persoane care locuiesc împreună), cu formula vagă «în măsura în care este incident».",
+        "Termenul de intrare în vigoare diferă: textul (Art. IV) spune 30 de zile, expunerea de motive 60 de zile.",
+        "Art. III alin. (2) permite folosirea faptelor anterioare legii «exclusiv ca elemente de fapt». Rămâne neclar dacă ele pot declanșa prezumția din art. 249¹ sau modifica cotele la partaj, iar alin. (3) repetă inutil alin. (1)."
       ],
-      "blindSpotsCaught": "Art. III spune că faptele anterioare legii pot fi avute în vedere «exclusiv ca elemente de fapt». La partaj însă ele ar schimba cotele asupra unor bunuri dobândite cu ani în urmă, ceea ce înseamnă un efect juridic nou atașat unor fapte vechi (art. 15 alin. 2 Constituție). Titlul preliminar al CPC supune prezumțiile legale legii de la data faptelor. Așadar nu e clar dacă prezumția din art. 249¹ se aplică în primii ani, când aproape toate cazurile vor privi fapte anterioare legii. Expunerea mai afirmă că violența economică e recunoscută «în plan penal», deși ea nu e o infracțiune distinctă în Codul penal. Iar limitarea promisă în expunere («raporturi născute din aceste relații») lipsește din textul articolului.",
-      "constitutionalityNote": "Scopul, adică protecția victimelor și a familiei (art. 26 și art. 48 din Constituție), e legitim. O prezumție relativă nu e în sine neconstituțională, iar mecanisme asemănătoare există în legislația antidiscriminare. Proiectul are însă trei vulnerabilități. (1) Art. 1 alin. (5): formule vagi («în măsura în care este incident», «poate ține seama… în condițiile legii»), contradicția «ține seama»/«poate» și lipsa oricărui criteriu pentru ajustarea cotelor fac soluțiile greu previzibile. (2) Art. 24 și art. 21 alin. (3): enumerarea aparent limitativă a apărărilor din art. 249¹ alin. (5) și lipsa unui moment procesual în care operează prezumția pot afecta dreptul la apărare. (3) Art. 15 alin. (2) și art. 44: aplicarea efectelor patrimoniale la fapte și bunuri anterioare legii trebuie clarificată. Art. 23 alin. (12) nu e relevant, pentru că legea nu instituie pedepse.",
-      "euLawNote": "Directiva 2018/958 nu se aplică, fiindcă proiectul nu reglementează accesul la profesii. Nici TRIS 2015/1535 nu se aplică: nu există reguli tehnice sau servicii ale societății informaționale. Nu există impact pe concurență sau pe piața unică. Directiva (UE) 2024/1385 include violența economică în definiția violenței domestice și trebuie transpusă până la 14 iunie 2027. Ea nu impune însă inversarea sarcinii probei în partaje sau divorțuri, deci proiectul e complementar, nu o transpunere. Convenția de la Istanbul (Legea 30/2016, art. 29–30 privind remediile civile și despăgubirile) susține direcția aleasă. Prezumția trebuie totuși calibrată ca să respecte egalitatea armelor din art. 6 CEDO.",
+      "blindSpotsCaught": "Prezumția din art. 249¹ e rezervată «reclamantului». Victima care e pârât, de exemplu soțul chemat în judecată pentru partaj, o poate invoca doar prin cerere reconvențională, nu ca simplă apărare. «Acțiunile întemeiate pe existența violenței economice» nu sunt o categorie procesuală definită, deci nu e clar dacă intră partajul obișnuit în care violența e doar invocată. Proiectul a fost respins, iar textul nu a fost corectat înainte de vot.",
+      "constitutionalityNote": "Art. 1 alin. (5) (previzibilitate): sunt problematice termenii vagi («nejustificat și disproporționat», «semnificativ», «în măsura în care este incident»), alternanța obligatoriu/facultativ și definiția paralelă celei din legea specială. Art. 21 alin. (3) și art. 24 (proces echitabil, dreptul la apărare): o prezumție relativă e în principiu admisibilă, dacă e proporțională. Pragul de simplă verosimilitate, combinat cu motive de răsturnare enumerate limitativ, riscă să fie disproporționat. Art. 15 alin. (2) (neretroactivitate): aplicarea doar acțiunilor noi e corectă. Folosirea faptelor anterioare pentru a modifica efectiv cotele de proprietate poate fi contestată ca retroactivitate mascată. Art. 44 (proprietate): reducerea cotei peste contribuția reală, fără criterii, poate afecta dreptul de proprietate.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: nu sunt reglementate profesii. Directiva TRIS 2015/1535 nu se aplică: nu sunt servicii ale societății informaționale sau reglementări tehnice. Nu există impact pe piața unică sau pe concurență. Proiectul e compatibil în spirit cu Convenția de la Istanbul (art. 29, remedii civile) și cu Directiva (UE) 2024/1385 (termen de transpunere iunie 2027). Directiva este însă centrată pe drept penal și pe drepturile victimelor și nu impune reguli de partaj, deci invocarea ei ca obligație directă e exagerată. Cerința de echitate a procedurii (art. 47 din Carta UE, art. 6 CEDO) cere o probă contrară neîngrădită.",
       "senatForm": {
-        "articleRef": "Art. II pct. 1 – art. 249¹ alin. (4)-(5) CPC",
-        "proposalContent": "Alin. (5) devine: «Pârâtul poate răsturna prezumția de la alin. (4) prin orice mijloc de probă, inclusiv dovedind că reclamantul a avut acces real și efectiv la resursele financiare sau că situația are o cauză obiectivă, justificată și proporțională.» La alin. (4) se adaugă: «Instanța pune în discuția părților incidența prezumției înainte de închiderea dezbaterilor.»",
-        "argumentation": "Alin. (5) limitează răsturnarea prezumției la două motive și nu spune dacă sunt alternative sau cumulative; alte probe contrare (de ex. că faptele nu au avut loc) par excluse, ceea ce riscă să încalce dreptul la apărare (art. 24 Constituție). Nici nu se spune când află pârâtul că sarcina probei a trecut la el; fără punere în discuție, ar afla abia din hotărâre.",
-        "otherComments": "Alte corecturi: Art. IV spune 30 de zile, expunerea 60; divorțul se întemeiază pe art. 373 lit. b) C.civ., nu pe art. 379 alin. (3); art. 320² alin. (2) «ține seama» contrazice alin. (3)-(4) «poate»; extinderea la toate relațiile din Legea 217/2003 (frați, părinți) o poate aduce în partaje succesorale; Art. III nu spune dacă prezumția vizează și fapte anterioare legii."
-      }
+        "articleRef": "Art. II pct. 1, art. 249¹ alin. (5) CPC",
+        "proposalContent": "(5) Pârâtul poate răsturna prezumția prevăzută la alin. (4) prin orice mijloc de probă admis de lege, inclusiv dovedind că: a) reclamantul a avut acces real și efectiv la resursele financiare; b) situația invocată are o cauză obiectivă, justificată și proporțională; c) faptele invocate nu au avut loc.",
+        "argumentation": "Forma actuală («dovedind că») poate fi citită ca listă închisă de apărări. O prezumție relativă bazată pe simpla verosimilitate trebuie să permită o probă contrară neîngrădită, altfel încalcă dreptul la apărare (art. 24 Constituție) și egalitatea armelor (art. 6 CEDO).",
+        "otherComments": "Corelați art. 320² alin. (2) «ține seama» cu alin. (3)-(4) «poate». Eliminați definiția paralelă din art. 320² alin. (1) sau aliniați-o la Legea 217/2003. Unificați termenul de intrare în vigoare: textul spune 30 de zile, expunerea 60. Clarificați dacă faptele anterioare (Art. III alin. 2) pot declanșa prezumția."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 178652,
+      "durationMs": 74603,
+      "sourceEndMarker": "SF-E3489523",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Abuzul financiar poate conta la divorț și împărțirea bunurilor",
-      "verdictShort": "Proiectul oferă un sprijin util victimelor, dar lasă insuficient precizate efectele asupra cotelor de proprietate și aplicarea în timp. Riscul este moderat și privește soluțiile judiciare neunitare, fără taxe, monopoluri sau pedepse noi.",
-      "initiatorClaim": "Inițiatorii urmăresc recunoașterea expresă a efectelor civile ale violenței economice și ușurarea dovedirii abuzului. Expunerea de motive prezintă situația actuală drept un vid juridic care împiedică protecția patrimonială efectivă.",
-      "realityCheck": "În forma inițiatorului furnizată, proiectul permite valorificarea violenței economice la partaj și stabilirea culpei la divorț și introduce o prezumție relativă, declanșată prin împrejurări dovedite, nu prin simpla acuzație. Afirmația unui vid juridic total este exagerată: răspunderea civilă delictuală permite deja repararea prejudiciilor provocate prin fapte ilicite, în condițiile dreptului comun. [Art. 1357 Cod civil, reprodus într-o decizie ÎCCJ](https://legislatie.just.ro/Public/FormaPrintabila/00000G00RO0BZLQ2SC7381ZBK05FUF02). Proiectul nu acordă automat despăgubiri sau cote suplimentare, iar întinderea modificării drepturilor patrimoniale rămâne insuficient determinată.",
+      "plainTitle": "Violența economică în divorț și împărțirea bunurilor",
+      "verdictShort": "Proiectul urmărește o protecție utilă pentru victime, dar lasă insuficient delimitată influența abuzului asupra cotelor de proprietate și aplicarea în timp. Potrivit datelor furnizate, inițiativa este respinsă, deci aceste prevederi nu produc efecte.",
+      "initiatorClaim": "Inițiatorii susțin că victimele controlului financiar nu dispun de instrumente civile eficiente pentru valorificarea abuzului la divorț și partaj. Propun recunoașterea expresă a violenței economice și facilitarea dovedirii acesteia.",
+      "realityCheck": "Proiectul introduce criterii exprese pentru soluționarea litigiilor patrimoniale și o prezumție relativă de violență economică, activată după dovedirea unor împrejurări verosimile. Nu stabilește cote compensatorii, despăgubiri automate sau sancțiuni noi, dar permite influențarea cotelor de contribuție fără să precizeze suficient mecanismul. Expunerea exagerează existența unui vid juridic: regulile actuale privind contribuția soților, culpa în divorț și răspunderea civilă permit deja valorificarea unor asemenea fapte.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Proprietari & Imobiliare"
       ],
       "keyFindings": [
-        "Art. I pct. 1, noul art. 320¹, preia prin trimitere o noțiune deja definită la art. 4 alin. (1) lit. e) din Legea nr. 217/2003. Utilitatea este legătura expresă cu litigiile patrimoniale, nu descoperirea unei forme juridice noi de violență. [Legea nr. 217/2003](https://legislatie.just.ro/Public/DetaliiDocument/307782).",
-        "Art. 320² alin. (3)-(4) permite luarea abuzului în considerare la stabilirea cotelor și repartizarea bunurilor, fără să precizeze metoda, limitele sau raportul cu o cerere distinctă de despăgubiri. Trebuie clarificat dacă se urmărește stabilirea contribuției reale ori compensarea unei contribuții împiedicate prin abuz; acestea sunt operațiuni juridice diferite.",
-        "Art. 320¹ alin. (3) extinde aplicarea și asupra altor relații prevăzute de Legea nr. 217/2003, dar formula «în măsura în care este incident» nu precizează suficient raporturile patrimoniale vizate. Amplasarea în materia regimurilor matrimoniale accentuează nevoia delimitării efectelor pentru persoane care nu sunt soți.",
-        "Art. II, noul art. 249¹ alin. (1)-(5), cere dovedirea unor împrejurări care fac abuzul verosimil și permite proba contrară. Administrarea predominantă a banilor de către o persoană este doar un posibil indiciu; trebuie evaluată în contextul caracterului abuziv, fără echivalare automată cu violența economică.",
-        "Art. 249¹ folosește exclusiv termenii «reclamant» și «pârât»: victima care invocă abuzul numai în apărare nu beneficiază expres de aceeași facilitate. Alin. (5) ar trebui să permită explicit orice probă contrară admisibilă, pentru a evita interpretarea celor două ipoteze enumerate ca apărări exhaustive.",
-        "Art. 249¹ alin. (3) nu transformă ordinul de protecție într-o dovadă automată a violenței economice: actul trebuie să releve această formă de abuz. Alin. (6) păstrează în sarcina reclamantului dovada existenței și întinderii prejudiciului; prezumția nu acoperă automat toate condițiile despăgubirii.",
-        "Art. I pct. 3 explicitează relevanța abuzului pentru culpa la divorț, dar nu instituie divorțul automat și nu înlocuiește condițiile generale privind destrămarea căsătoriei. [Art. 373 Cod civil](https://legislatie.just.ro/Public/DetaliiDocument/187262).",
-        "Art. IV stabilește intrarea în vigoare după 30 de zile, în timp ce expunerea de motive indică 60. Textul normativ ar prevala, însă documentele trebuie corelate.",
-        "Nu sunt instituite obligații de raportare, autorizații sau taxe pentru cetățeni și IMM-uri și nici cheltuieli bugetare cuantificate. Este posibil un volum suplimentar de probe, expertize și muncă judiciară, cu costuri pentru părți și instanțe; amploarea nu poate fi estimată din documentele furnizate."
+        "Art. I pct. 1, art. 320¹ propus: violența economică este deja definită în Legea nr. 217/2003; noutatea constă în integrarea sa expresă în regulile patrimoniale civile. Extinderea la alte persoane din sfera legii speciale nu creează automat comunitate de bunuri între acestea.",
+        "Art. I pct. 2, art. 320² alin. (3)-(4): abuzul poate influența stabilirea contribuției și repartizarea bunurilor. În prezent, art. 357 Cod civil raportează cotele soților la contribuția la dobândirea bunurilor comune și îndeplinirea obligațiilor comune, iar art. 326 recunoaște contribuția prin munca în gospodărie și creșterea copiilor. Proiectul nu explică suficient relația dintre contribuția efectivă, oportunitățile economice pierdute și o eventuală compensare a victimei.",
+        "Art. I pct. 3: art. 379 permite deja stabilirea culpei în destrămarea căsătoriei. Completarea nominalizează violența economică drept fapt relevant pentru culpă; nu introduce o procedură autonomă de divorț și nu înlocuiește condițiile generale ale acestuia.",
+        "Art. II, art. 249¹ alin. (1)-(5): simpla acuzație nu declanșează prezumția. Reclamantul trebuie să dovedească împrejurări pe care instanța le consideră verosimile; ulterior, pârâtul suportă sarcina răsturnării prezumției. Lipsa accesului la un cont sau administrarea predominantă a resurselor nu ar trebui considerate automat abuz, fără context.",
+        "Art. II, art. 249¹ alin. (5)-(7): probele contrare sunt formulate numai prin două categorii, ceea ce poate genera dispute asupra caracterului lor limitativ. Garanțiile generale privind contradictorialitatea și apărarea continuă să se aplice, iar reclamantul trebuie să dovedească existența și întinderea prejudiciului.",
+        "Art. III: procesele deja începute rămân supuse legii anterioare. Pentru cererile viitoare sunt admise și fapte anterioare, dar eticheta «exclusiv ca elemente de fapt» nu rezolvă singură problema aplicării unor efecte patrimoniale noi situațiilor juridice deja constituite.",
+        "Art. IV prevede intrarea în vigoare la 30 de zile de la publicare; expunerea de motive indică 60 de zile. Textul normativ propus stabilește termenul de 30 de zile.",
+        "Nu sunt introduse taxe, autorizări, obligații de raportare pentru cetățeni sau IMM-uri ori structuri administrative noi. Sunt posibile costuri suplimentare de litigiu și administrare a probelor, fără o estimare cuantificabilă în documentele furnizate."
       ],
-      "blindSpotsCaught": "Art. III folosește data introducerii acțiunii pentru întreaga lege, deși normele materiale și cele probatorii au reguli temporale distincte. Art. 26 alin. (1) CPC leagă admisibilitatea și puterea doveditoare a prezumțiilor legale de legea în vigoare la data faptelor probate. Prin urmare, folosirea faptelor vechi «exclusiv ca elemente de fapt» nu clarifică singură dacă noua prezumție li se aplică și nici nu exclude atribuirea unor efecte patrimoniale retroactive. [Art. 26 CPC](https://legislatie.just.ro/Public/FormaPrintabila/00000G1FSKKLEF3G5WR3LMXC2N47FEIE).",
-      "constitutionalityNote": "Scopul protecției victimelor este legitim. Riscurile principale privesc art. 1 alin. (5), prin criteriile insuficiente pentru efectele asupra cotelor, art. 44, privind previzibilitatea intervenției asupra proprietății, și art. 15 alin. (2), dacă unor situații consumate li se atribuie efecte materiale noi. Prezumția relativă nu este neconstituțională prin ea însăși: compatibilitatea cu art. 21 alin. (3) și art. 24 presupune contradictorialitate și posibilitatea efectivă a probei contrare. Art. 23 alin. (12), privind legalitatea pedepselor, nu constituie reperul direct pentru aceste măsuri civile. Acestea sunt riscuri de redactare și interpretare, nu constatări certe de neconstituționalitate. [Constituția României](https://www.cdep.ro/pls/dic/site.page?den=act2_1&par1=2).",
-      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea lor. Nu rezultă bariere concurențiale ori privilegii profesionale. [Art. 1-2 din Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng/pdf). Notificarea TRIS potrivit Directivei 2015/1535 nu este necesară pentru textul analizat: acesta nu introduce reglementări tehnice pentru produse și nici reguli destinate specific serviciilor digitale sau AI. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535). Obiectivul este compatibil cu Directiva 2024/1385, al cărei art. 24 privește despăgubirea victimelor infracțiunilor, însă aceasta nu impune mecanismul propus de modificare a cotelor la partaj. Termenul de transpunere este 14 iunie 2027. [Directiva 2024/1385, art. 24 și 49](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1778247144969&uri=CELEX%3A32024L1385).",
+      "blindSpotsCaught": "Art. 249¹ protejează textual reclamantul, deși victima poate fi pârâtă și poate invoca abuzul prin apărare; aplicarea simetrică ar trebui clarificată. Referirea la acțiuni de divorț «întemeiate pe art. 379 alin. (3)» este imprecisă, deoarece temeiurile divorțului rămân cele din art. 373. Expunerea confundă și articolele Convenției de la Istanbul: art. 29 privește remediile civile, iar despăgubirile sunt reglementate distinct la art. 30.",
+      "constitutionalityNote": "Scopul protecției victimelor este legitim. Principala vulnerabilitate privește previzibilitatea, potrivit art. 1 alin. (5), în corelație cu protecția proprietății din art. 44: instanța trebuie să poată distinge între stabilirea contribuției, repartizarea bunurilor și repararea prejudiciului. Prezumția relativă nu este neconstituțională prin ea însăși; aplicarea sa trebuie să respecte egalitatea procesuală, procesul echitabil și apărarea, potrivit art. 16, art. 21 alin. (3) și art. 24. Art. III necesită corelare cu art. 15 alin. (2) și regulile aplicării legii civile în timp: utilizarea unor fapte vechi ca probe nu este automat retroactivitate, dar atribuirea unor efecte patrimoniale noi unor situații consumate poate deveni problematică. Art. 23 alin. (12), privind legalitatea pedepsei, nu este direct incident, deoarece proiectul nu instituie pedepse.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementărilor privind profesiile reglementate; proiectul nu introduce asemenea restricții. Directiva (UE) 2015/1535 nu impune notificare TRIS pentru aceste dispoziții, care nu reglementează produse sau servicii ale societății informaționale. Nu rezultă bariere directe pentru concurență sau piața unică. Protecția împotriva violenței economice este compatibilă ca obiectiv cu Directiva (UE) 2024/1385, fără ca aceasta să impună mecanismul concret de modificare a cotelor propus aici.",
       "senatForm": {
-        "articleRef": "Art. III alin. (1) și (2)",
-        "proposalContent": "(1) Normele de drept material se aplică potrivit art. 6 din Codul civil. Normele de procedură se aplică proceselor începute după intrarea în vigoare a legii, cu respectarea art. 26 din Codul de procedură civilă. (2) Faptele anterioare pot fi valorificate ca probe, fără atribuirea unor efecte juridice materiale noi pentru trecut.",
-        "argumentation": "Data introducerii cererii nu determină singură legea aplicabilă drepturilor patrimoniale. Amendamentul separă normele materiale de cele procedurale și păstrează regula temporală specială privind prezumțiile legale, reducând riscul de retroactivitate contrar art. 15 alin. (2) din Constituție.",
-        "otherComments": "Sunt necesare și criterii pentru efectele asupra cotelor de proprietate, protecție probatorie indiferent de poziția procesuală și posibilitatea oricărei probe contrare admisibile. Art. IV prevede 30 de zile, expunerea de motive 60. Termenul comunicat pentru amendamente, 08.09.2026, este depășit; preluarea de un deputat depinde de regulile procedurale aplicabile."
-      }
+        "articleRef": "Art. I pct. 2, art. 320² alin. (4)",
+        "proposalContent": "(4) Violența economică se ia în considerare la stabilirea cotelor numai în raport cu contribuția dovedită potrivit legii, inclusiv munca în gospodărie și creșterea copiilor. Ea nu justifică, prin ea însăși, modificarea cotelor de proprietate. Repartizarea bunurilor respectă cotele astfel stabilite, fără a aduce atingere dreptului la despăgubiri.",
+        "argumentation": "Textul delimitează stabilirea contribuției de repararea prejudiciului și împiedică folosirea partajului ca sancțiune patrimonială fără criterii. Păstrează relevanța abuzului și a contribuției nefinanciare, oferind mai multă previzibilitate în aplicarea art. 1 alin. (5) și art. 44 din Constituție.",
+        "otherComments": "Conform fișei furnizate, proiectul este respins, iar termenul de amendamente din 08.09.2026 a expirat; textul poate servi unei reluări legislative. Trebuie clarificate și dispozițiile tranzitorii. Verificarea externă nu a fost disponibilă; analiza se bazează pe documentele furnizate și cadrul juridic cunoscut."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-28T15:42:09.562Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:43:38.832Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

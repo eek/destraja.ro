@@ -1,115 +1,174 @@
 {
   "billId": "Pl-x 458/2026",
   "slug": "plx-458-2026",
-  "updatedAt": "2026-10-28T16:22:49.831Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T14:43:21.671Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 627,
+    "ordinanceChars": 0,
+    "memoChars": 6239,
+    "memoSupplied": 6239,
+    "marker": "SF-81E80623"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-458-2026.json",
+    "form": "initiator",
+    "textHash": "81e806231dcb56c0",
+    "fetchedAt": "2026-11-19T10:56:35.974Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 2507,
+    "truncated": false,
+    "included": true,
+    "key": "ec8993269796319d"
+  },
   "consensus": {
     "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "Judecătorii și procurorii care semnalează abuzuri din sistem să fie protejați ca avertizori",
-    "summaryTlDr": "Lege scurtă și utilă: închide o lacună de interpretare care îi lasă pe magistrații care semnalează abuzuri din sistem fără protecția pe care o are orice alt angajat. Riscul e mic, iar problemele sunt de redactare: formulare vagă, secretul deliberărilor și lipsa corelării cu statutul magistraților.",
-    "initiatorClaim": "Inițiatorii, aproape toți de la USR, spun că decizia ICCJ nr. 182/2024 ar fi exclus magistrații de la protecția avertizorilor pentru că legea nu îi numește expres. Din acest motiv, judecătorii și procurorii s-ar teme să semnaleze presiuni ierarhice sau corupție din sistem. Ei vor ca legea să îi menționeze explicit, invocând GRECO și rapoartele UE privind statul de drept.",
-    "realityCheck": "Articolul unic adaugă o singură literă la art. 2 alin. (1): „persoanele care își exercită funcția în cadrul instanțelor de judecată și parchetelor”. Judecătorii și procurorii ar putea invoca expres protecția legii: interdicția represaliilor, exonerarea de răspundere pentru raportarea făcută în condițiile legii și inversarea sarcinii probei. Pentru grefieri și restul personalului efectul e doar de confirmare. Nu se modifică însă statutul magistraților (Legea 303/2022) și nici legea CSM (Legea 305/2022), nu se desemnează un canal extern specific pentru justiție și rămâne excepția secretului deliberărilor.",
+    "plainTitle": "Judecătorii, procurorii și grefierii protejați explicit ca avertizori de integritate",
+    "summaryTlDr": "Este o lege scurtă, cu un singur articol, care închide o lacună de interpretare. Pozitivă pentru statul de drept, fără costuri pentru cetățeni sau firme. Redactarea este însă vagă și nu rezolvă cum se împacă protecția avertizorului cu răspunderea disciplinară a magistraților.",
+    "initiatorClaim": "Inițiatorii spun că o decizie a ICCJ (nr. 182/2024, citată în expunerea de motive) a exclus magistrații de la protecția Legii nr. 361/2022, pentru că legea nu îi numește expres. Vor ca judecătorii și procurorii să poată semnala corupția, presiunile ierarhice și neregulile din sistem fără teama de represalii disciplinare mascate.",
+    "realityCheck": "Articolul unic adaugă în art. 2 alin. (1) o literă b¹): «persoanele care își exercită funcția în cadrul instanțelor de judecată și parchetelor». Acum lista din art. 2 alin. (1) este deschisă («cel puțin») și cuprinde lucrătorii, independenții, acționarii și administratorii, plus personalul contractanților, dar fără mențiune expresă despre magistrați. Proiectul nu modifică Legea nr. 303/2022 privind statutul magistraților, nu desemnează un canal extern specific pentru sistemul judiciar și nu clarifică raportul cu obligația de rezervă. În practică, disputele se mută de la «dacă» magistratul e avertizor la «cum» se aplică protecția în procedurile disciplinare din fața CSM.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
-      "Angajați & HR"
+      "Angajați & HR",
+      "Toți cetățenii"
     ],
     "senatForm": {
       "articleRef": "Art. unic pct. 1 – art. 2 alin. (1) lit. b¹)",
-      "proposalContent": "b¹) judecătorii, procurorii, magistrații-asistenți, personalul auxiliar de specialitate și celelalte categorii de personal din cadrul instanțelor judecătorești și al parchetelor, inclusiv cei detașați la CSM, Inspecția Judiciară, INM sau Ministerul Justiției, precum și auditorii de justiție.",
-      "argumentation": "„Persoanele care își exercită funcția în cadrul instanțelor de judecată” nu e o noțiune legală: Constituția (art. 126) vorbește de „instanțe judecătorești”, iar formula lasă neclar dacă intră magistrații detașați sau auditorii de justiție. Enumerarea expresă elimină interpretarea restrictivă invocată în expunere (Decizia ICCJ nr. 182/2024).",
-      "otherComments": "Legea nu modifică Legile 303/2022 și 305/2022: nu e clar dacă protecția acoperă deciziile CSM și ale Inspecției Judiciare (evaluări, transferuri, disciplinar), de unde pot veni represaliile. Propun un articol care să le includă expres și care să precizeze canalul extern (CSM sau ANI). Verificați și caracterul organic (art. 73 alin. (3) lit. l) Constituție)."
+      "proposalContent": "b¹) judecătorii, procurorii, magistrații-asistenți, personalul auxiliar de specialitate și celălalt personal din cadrul instanțelor judecătorești, parchetelor, Consiliului Superior al Magistraturii, Inspecției Judiciare și Institutului Național al Magistraturii, indiferent de natura raportului de serviciu sau de muncă.",
+      "argumentation": "Formula «persoanele care își exercită funcția» e vagă: nu spune clar dacă include magistrații-asistenți, personalul contractual, detașații sau CSM și Inspecția Judiciară. Enumerarea expresă elimină chiar ambiguitatea invocată în expunerea de motive (decizia ICCJ citată acolo) și asigură previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
+      "otherComments": "Recomand: (1) cererea avizului CSM; (2) precizarea canalului extern competent pentru raportările din sistemul judiciar și corelarea cu răspunderea disciplinară din Legea nr. 303/2022; (3) menținerea expresă a secretului deliberărilor, conform art. 3 alin. (3) lit. c) din Directiva (UE) 2019/1937."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 52177,
-      "riskScore": 2,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 66991,
+      "sourceEndMarker": "SF-81E80623",
+      "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Protecția ca avertizori de integritate pentru magistrați și angajații din justiție",
-      "verdictShort": "O inițiativă legislativă utilă și binevenită, care corectează o interpretare judiciară formalistă prin care magistrații au fost excluși de la protecția avertizorilor în interes public. Necesită doar o rafinare tehnică a textului pentru a nu lăsa pe dinafară magistrații din CSM, Inspecția Judiciară sau INM.",
-      "initiatorClaim": "Inițiatorii vor să includă expres persoanele care lucrează în instanțe și parchete în sfera de protecție a Legii nr. 361/2022, după ce Înalta Curte (Decizia nr. 182/2024) a statuat că magistrații nu ar beneficia de statutul de avertizor în interes public deoarece nu sunt menționați explicit în lege.",
-      "realityCheck": "Legea deblochează accesul judecătorilor, procurorilor și grefierilor la protecția împotriva represaliilor (cercetări disciplinare abuzive, detașări forțate sau evaluări șicanatorii) atunci când semnalează acte de corupție sau presiuni ierarhice nelegale. Totuși, limitarea textului strict la „cadrul instanțelor de judecată și parchetelor” poate lăsa neprotejați magistrații și personalul din cadrul CSM, Inspecției Judiciare, INM sau personalul de specialitate juridică asimilat magistraților.",
+      "plainTitle": "Judecătorii, procurorii și personalul din instanțe, incluși expres în legea avertizorilor de integritate",
+      "verdictShort": "Inițiativă benignă și utilă ca obiectiv, menită să clarifice că magistrații și personalul din instanțe și parchete pot raporta ilegalități sub protecția Legii nr. 361/2022. Nu introduce taxe, sarcini birocratice sau capcane ascunse, însă este redactată sumar și nu corelează protecția avertizorilor cu statutul special al magistraților din Legea nr. 303/2022.",
+      "initiatorClaim": "Inițiatorii susțin că lipsa unei mențiuni exprese în Legea nr. 361/2022 a permis excluderea magistraților de la protecția avertizorilor (invocând Decizia ÎCCJ nr. 182/2024) și că introducerea unei litere noi îi va proteja pe judecători și procurori împotriva represaliilor atunci când semnalează presiuni nelegale sau corupție.",
+      "realityCheck": "În prezent, art. 2 alin. (1) din Legea nr. 361/2022 enumeră orientativ („cel puțin”) lucrătorii, persoanele cu activități independente, organele de conducere și colaboratorii, fără a menționa explicit magistrații. Proiectul adaugă un singur text — lit. b¹) — care include „persoanele care își exercită funcția în cadrul instanțelor de judecată și parchetelor”, lăsând neatinse restul dispozițiilor legii (inclusiv excepțiile existente privind secretul deliberărilor și normele de procedură penală). Efectul real este pozitiv ca principiu, dar limitat practic, deoarece nu armonizează protecția împotriva represaliilor cu regimul disciplinar special al magistraților și cu obligația de rezervă.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Angajați & HR"
       ],
       "keyFindings": [
-        "Articol unic (Art. 2 alin. (1) lit. b¹): Introduce expres persoanele care își exercită funcția în instanțe și parchete în categoria avertizorilor, înlăturând blocajul jurisprudențial creat prin interpretarea restrictivă a noțiunii de „raport de serviciu” din art. 3 pct. 8 al Legii nr. 361/2022.",
-        "Omisiune de tehnică legislativă: Formularea „în cadrul instanțelor de judecată și parchetelor” omite instituții-cheie ale sistemului judiciar (CSM, Inspecția Judiciară, INM, SNG), unde activează magistrați și inspectori judiciari care pot sesiza nereguli grave de sistem.",
-        "Garanțiile privind secretul deliberării rămân intacte: Completarea nu creează riscuri pentru confidențialitatea dosarelor, întrucât art. 2 alin. (4) lit. c) și d) din Legea nr. 361/2022 exclude deja expres de la raportare secretul deliberării judiciare și regulile de procedură penală."
+        "Completarea punctuală a art. 2 alin. (1) cu lit. b¹) elimină dubiul de interpretare privind aplicabilitatea Legii nr. 361/2022 pentru judecători și procurori, fără a abroga garanțiile deja existente în lege privind secretul deliberărilor judiciare și regulile de procedură penală.",
+        "Sintagma „persoanele care își exercită funcția în cadrul instanțelor de judecată și parchetelor” este parțial redundantă și parțial incompletă: grefierii și personalul contractual intrau deja în categoria „lucrătorilor” (lit. a)), în timp ce magistrații-asistenți, inspectorii judiciari sau personalul CSM/INM rămân într-o zonă de ambiguitate.",
+        "Lipsa oricărei corelări cu Legea nr. 303/2022 privind statutul judecătorilor și procurorilor menține riscul unor blocaje practice privind raportul dintre avertizarea în interes public, obligația de rezervă și procedurile disciplinare derulate de Inspecția Judiciară și CSM."
       ],
-      "blindSpotsCaught": "Proiectul folosește sintagma colocvială „instanțe de judecată” în loc de termenul constituțional și organic „instanțe judecătorești” (art. 126 din Constituție și Legea nr. 304/2022). Mai mult, raportarea exclusivă la locul exercitării funcției (instanțe și parchete), în loc de statutul profesional (judecători, procurori, magistrați-asistenți, personal asimilat), creează o vulnerabilitate pentru magistrații detașați sau care activează în CSM și Inspecția Judiciară.",
-      "constitutionalityNote": "Propunerea este pe deplin conformă cu Constituția României, consolidând independența justiției (art. 124 alin. 3) și dreptul de petiționare. Pentru respectarea exigențelor de calitate și previzibilitate a legii (art. 1 alin. 5 din Constituție), este recomandată corelarea terminologică strictă cu Legea nr. 303/2022 privind statutul judecătorilor și procurorilor.",
-      "euLawNote": "Proiectul asigură transpunerea corectă a Directivei (UE) 2019/1937 privind avertizorii. În jurisprudența CJUE (cauzele C-393/10, O'Brien și C-658/18, UX), judecătorii naționali sunt calificați drept „lucrători” în sensul dreptului UE, astfel că excluderea lor pe cale jurisprudențială internă încălca efectul util al Directivei. Nu are impact anticoncurențial (Directiva 2018/958) și nu necesită notificare TRIS (Directiva 2015/1535).",
+      "blindSpotsCaught": "Inserarea noului text ca lit. b¹), imediat după persoanele care desfășoară activități independente în sensul art. 49 TFUE, este improprie ca tehnică legislativă. Mai important, simpla menționare a magistraților în art. 2 nu rezolvă conflictul de legi dintre legea generală a avertizorilor și legea organică specială a statutului magistraților (Legea nr. 303/2022) privind competența CSM în materie disciplinară și canalul extern adecvat de raportare.",
+      "constitutionalityNote": "Nu ridică probleme de art. 23 alin. (12) (nu instituie infracțiuni sau sancțiuni noi), însă prezintă vulnerabilități minore pe art. 1 alin. (5) privind claritatea și previzibilitatea legii, din cauza formulării imprecise și a lipsei de corelare cu Legea nr. 303/2022. Întrucât vizează exercitarea funcției magistraților și interacționează cu rolul constituțional al CSM de instanță disciplinară și garant al independenței justiției (art. 133-134 Constituție), adoptarea necesită avizul CSM și regim de lege organică (art. 73 alin. (3) lit. l)).",
+      "euLawNote": "Proiectul este pe deplin compatibil cu spiritul Directivei (UE) 2019/1937 privind protecția avertizorilor și cu recomandările GRECO și ale Comisiei Europene din rapoartele privind statul de drept, care încurajează acoperirea completă a sectorului public, cu păstrarea excepțiilor din art. 3 alin. (3) din Directivă (secretul deliberărilor judiciare și normele de procedură penală). Nu intră sub incidența Directivei (UE) 2018/958 (testul de proporționalitate), nici a Directivei (UE) 2015/1535 (TRIS), nu afectează concurența și nu generează costuri bugetare sau birocrație pentru IMM-uri ori cetățeni.",
       "senatForm": {
-        "articleRef": "Articol unic - Art. 2 alin. (1) lit. b¹)",
-        "proposalContent": "b¹) judecătorii, procurorii, magistrații-asistenți, personalul de specialitate juridică asimilat acestora, precum și celelalte categorii de personal care își exercită funcția în cadrul instanțelor judecătorești, al parchetelor, al Consiliului Superior al Magistraturii, al Inspecției Judiciare, al Institutului Național al Magistraturii și al Școlii Naționale de Grefieri;",
-        "argumentation": "Formularea inițială („în cadrul instanțelor de judecată și parchetelor”) omite magistrații și personalul din CSM, Inspecția Judiciară, INM, SNG sau personalul asimilat magistraților, riscând noi excluderi pe cale de interpretare. De asemenea, termenul constituțional corect (art. 126 Constituție) este „instanțe judecătorești”, nu „instanțe de judecată”.",
-        "otherComments": "Extinderea nu afectează secretul deliberării sau confidențialitatea urmăririi penale, acestea fiind deja expres protejate prin art. 2 alin. (4) lit. c) și d) din Legea nr. 361/2022. Corelarea cu Legea nr. 303/2022 și Legea nr. 304/2022 asigură previzibilitatea normei conform art. 1 alin. (5) din Constituție."
-      }
+        "articleRef": "Art. unic, art. 2 alin. (1) lit. b¹)",
+        "proposalContent": "Introducerea lit. e) în locul lit. b¹): „e) judecătorii, procurorii, magistrații-asistenți, inspectorii judiciari și personalul instanțelor, parchetelor și CSM, cu respectarea secretului deliberărilor și a normelor de procedură.” Se impune și corelarea expresă cu Legea nr. 303/2022 privind regimul disciplinar.",
+        "argumentation": "Formula propusă de inițiatori este imprecisă (art. 1 alin. (5) Constituție), suprapunându-se parțial cu lit. a) și omițând instituții judiciare conexe. Plasarea ca lit. e) respectă tehnica legislativă, iar corelarea cu Legea nr. 303/2022 previne conflictele de competență cu CSM privind sancțiunile disciplinare și obligația de rezervă.",
+        "otherComments": "Proiectul este util ca principiu și aliniat Directivei (UE) 2019/1937, dar necesită avizul CSM și adoptarea ca lege organică. Deși proiectul este în prezent respins, reluarea inițiativei ar trebui să includă și un mecanism clar de protecție împotriva represaliilor ierarhice în sistemul judiciar."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 189669,
+      "durationMs": 40970,
+      "sourceEndMarker": "SF-81E80623",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Judecătorii și procurorii care semnalează abuzuri din sistem să fie protejați ca avertizori",
-      "verdictShort": "Lege scurtă și utilă: închide o lacună de interpretare care îi lasă pe magistrații care semnalează abuzuri din sistem fără protecția pe care o are orice alt angajat. Riscul e mic, iar problemele sunt de redactare: formulare vagă, secretul deliberărilor și lipsa corelării cu statutul magistraților.",
-      "initiatorClaim": "Inițiatorii, aproape toți de la USR, spun că decizia ICCJ nr. 182/2024 ar fi exclus magistrații de la protecția avertizorilor pentru că legea nu îi numește expres. Din acest motiv, judecătorii și procurorii s-ar teme să semnaleze presiuni ierarhice sau corupție din sistem. Ei vor ca legea să îi menționeze explicit, invocând GRECO și rapoartele UE privind statul de drept.",
-      "realityCheck": "Articolul unic adaugă o singură literă la art. 2 alin. (1): „persoanele care își exercită funcția în cadrul instanțelor de judecată și parchetelor”. Judecătorii și procurorii ar putea invoca expres protecția legii: interdicția represaliilor, exonerarea de răspundere pentru raportarea făcută în condițiile legii și inversarea sarcinii probei. Pentru grefieri și restul personalului efectul e doar de confirmare. Nu se modifică însă statutul magistraților (Legea 303/2022) și nici legea CSM (Legea 305/2022), nu se desemnează un canal extern specific pentru justiție și rămâne excepția secretului deliberărilor.",
+      "plainTitle": "Judecătorii, procurorii și grefierii protejați explicit ca avertizori de integritate",
+      "verdictShort": "Este o lege scurtă, cu un singur articol, care închide o lacună de interpretare. Pozitivă pentru statul de drept, fără costuri pentru cetățeni sau firme. Redactarea este însă vagă și nu rezolvă cum se împacă protecția avertizorului cu răspunderea disciplinară a magistraților.",
+      "initiatorClaim": "Inițiatorii spun că o decizie a ICCJ (nr. 182/2024, citată în expunerea de motive) a exclus magistrații de la protecția Legii nr. 361/2022, pentru că legea nu îi numește expres. Vor ca judecătorii și procurorii să poată semnala corupția, presiunile ierarhice și neregulile din sistem fără teama de represalii disciplinare mascate.",
+      "realityCheck": "Articolul unic adaugă în art. 2 alin. (1) o literă b¹): «persoanele care își exercită funcția în cadrul instanțelor de judecată și parchetelor». Acum lista din art. 2 alin. (1) este deschisă («cel puțin») și cuprinde lucrătorii, independenții, acționarii și administratorii, plus personalul contractanților, dar fără mențiune expresă despre magistrați. Proiectul nu modifică Legea nr. 303/2022 privind statutul magistraților, nu desemnează un canal extern specific pentru sistemul judiciar și nu clarifică raportul cu obligația de rezervă. În practică, disputele se mută de la «dacă» magistratul e avertizor la «cum» se aplică protecția în procedurile disciplinare din fața CSM.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
-        "Angajați & HR"
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articol unic, pct. 1: se introduce lit. b¹) la art. 2 alin. (1) din Legea 361/2022. Lista din acest alineat este deja exemplificativă („cel puțin”). Efectul real este deci interpretativ: textul blochează lectura restrictivă atribuită deciziei ICCJ nr. 182/2024, citată în expunere.",
-        "Câștigul concret revine judecătorilor și procurorilor, inclusiv celor din DNA și DIICOT, structuri ale Parchetului de pe lângă ICCJ. Ei primesc interdicția represaliilor, exonerarea de răspundere pentru raportare și inversarea sarcinii probei în litigiile privind represaliile. Grefierii și personalul administrativ puteau fi deja considerați „lucrători”, așa că pentru ei schimbarea e doar o confirmare.",
-        "Formularea este imprecisă. Constituția (art. 126) și legile de organizare judiciară folosesc „instanțe judecătorești”, nu „instanțe de judecată”. Sintagma „își exercită funcția în cadrul” lasă neclar dacă sunt acoperiți magistrații detașați la CSM, la Inspecția Judiciară, la INM sau la Ministerul Justiției, precum și auditorii de justiție.",
-        "Legea nu este corelată cu Legile 303/2022 și 305/2022. Nu reiese clar dacă protecția acoperă și deciziile de carieră și disciplinare ale CSM și ale Inspecției Judiciare (evaluări, transferuri, delegări, acțiuni disciplinare). Pentru un magistrat, acestea sunt principalele pârghii prin care pot veni represaliile.",
-        "Impactul bugetar este practic nul și nu există obligații noi pentru cetățeni sau IMM-uri. Instanțele și parchetele sunt entități publice care, în general, trebuie să aibă deja canale interne de raportare. Nu se creează taxe, sancțiuni sau autorizări."
+        "Art. unic pct. 1 introduce lit. b¹) în art. 2 alin. (1) din Legea nr. 361/2022. Este singura modificare: nu apar sancțiuni, taxe, obligații noi pentru particulari sau abrogări.",
+        "Formula «persoanele care își exercită funcția» este generică. Nu spune clar dacă include magistrații-asistenți de la ICCJ, personalul contractual, personalul detașat ori personalul CSM, al Inspecției Judiciare și al INM, care nu sunt «instanțe» sau «parchete».",
+        "Personalul auxiliar (grefieri, specialiști) era deja, foarte probabil, acoperit ca «lucrători». Valoarea reală a textului este pentru judecători și procurori, al căror statut de magistrat nu este un raport de muncă clasic.",
+        "Proiectul nu atinge Legea nr. 303/2022. Abaterile disciplinare legate de obligația de rezervă și de exercitarea funcției rămân în vigoare. Fără o normă de corelare, tensiunea dintre protecția avertizorului și răspunderea disciplinară se va tranșa tot în jurisprudență.",
+        "Stadiul proiectului este «respinsă», deci nu produce efecte. Problema de interpretare semnalată în expunerea de motive rămâne deschisă."
       ],
-      "blindSpotsCaught": "Excepția privind secretul deliberărilor judiciare (art. 3 alin. (3) lit. c) din Directiva 2019/1937, preluată în legea română) rămâne neatinsă. Un judecător presat chiar în camera de deliberare poate rămâne fără protecție dacă raportarea dezvăluie conținutul deliberării. Noua literă b¹) este plasată nefiresc, între persoanele independente și acționari. Mai curat ar fi fost ca definiția „lucrătorului” din lege să menționeze expres magistrații. Datele furnizate nu indică dacă legea se adoptă ca organică sau ordinară, deși atinge indirect statutul magistraților, care este materie de lege organică. În fine, trimiterea la recomandările GRECO din expunere este generică, fără niciun raport citat.",
-      "constitutionalityNote": "Pe fond, textul este compatibil cu Constituția și consolidează art. 124 alin. (3) (independența judecătorilor) și art. 30 (libertatea de exprimare). Este în linia jurisprudenței CEDO: Guja c. Moldovei (2008), unde a fost protejat un angajat al Procuraturii Generale care a divulgat presiuni politice, și Kövesi c. României (2020). Protecția vizează doar raportarea și nu permite nesocotirea controlului ierarhic legal al procurorilor (art. 132). Rămân trei puncte de atenție: (1) art. 1 alin. (5), din cauza formulei vagi „își exercită funcția în cadrul instanțelor de judecată”; (2) art. 73 alin. (3) lit. l), pentru că organizarea instanțelor și a Ministerului Public, precum și statutul magistraților (Legea 303/2022) țin de legea organică, deci caracterul legii trebuie verificat; (3) art. 133–134, pentru că rolul CSM în cariera și disciplina magistraților nu este corelat cu noua protecție.",
-      "euLawNote": "Directiva (UE) 2019/1937, transpusă prin Legea 361/2022, protejează la art. 4 alin. (1) lit. a) „lucrătorii” în sensul art. 45 TFUE, inclusiv funcționarii publici. În alte contexte, CJUE a admis că și judecătorii pot fi lucrători (de exemplu C-658/18 UX, privind judecătorii de pace italieni). O interpretare care exclude magistrații riscă o transpunere incompletă, iar completarea propusă merge spre conformitate; oricum, art. 25 din directivă permite un nivel de protecție mai favorabil. Excepția secretului deliberărilor (art. 3 alin. (3) lit. c)) rămâne aplicabilă. Directiva 2018/958 privind testul de proporționalitate nu se aplică, pentru că nu se reglementează accesul la o profesie. Nici TRIS (2015/1535) nu se aplică, pentru că nu există reguli tehnice sau servicii ale societății informaționale. Legea nu are efecte asupra pieței unice sau a concurenței.",
+      "blindSpotsCaught": "Directiva (UE) 2019/1937, art. 3 alin. (3) lit. c), păstrează secretul deliberărilor judiciare. Includerea magistraților nu poate fi folosită pentru a divulga deliberarea dintr-un complet, iar textul ar trebui să o spună explicit pentru claritate. Proiectul nu stabilește nici canalul extern competent pentru raportările din justiție (ANI, ca regulă generală, sau CSM și Inspecția Judiciară?). Pentru un sistem cu organe proprii de disciplină, asta creează incertitudine procedurală. Nu rezultă din documente că s-a cerut avizul CSM, deși proiectul privește direct activitatea autorității judecătorești.",
+      "constitutionalityNote": "Nu se văd probleme majore de fond. Măsura servește independenței justiției (art. 124 alin. (3)) și statului de drept (art. 1 alin. (3)). Pe previzibilitate (art. 1 alin. (5)), sintagma «persoanele care își exercită funcția» este perfectibilă, dar nu atât de vagă încât să fie neconstituțională. Un punct de atenție: statutul judecătorilor și procurorilor ține de legea organică (art. 73 alin. (3) lit. l) și art. 125 alin. (2)). Dacă norma ar fi citită ca o derogare de la regimul disciplinar din Legea nr. 303/2022, s-ar putea ridica problema caracterului de lege organică și a lipsei avizului CSM. Textul doar extinde domeniul de aplicare al unei legi de transpunere, deci riscul este redus.",
+      "euLawNote": "Proiectul este conform cu Directiva (UE) 2019/1937 și o aplică mai complet. Art. 4 din directivă include lucrătorii din sectorul public, iar art. 2 alin. (2) permite statelor să extindă protecția. Directiva (UE) 2018/958 privind testul de proporționalitate nu se aplică: nu se reglementează accesul la profesii, iar magistratura este o funcție de autoritate publică. Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu sunt servicii digitale, AI sau reglementări tehnice. Nu afectează concurența sau piața unică. Măsura răspunde recomandărilor GRECO și rapoartelor Comisiei Europene privind statul de drept invocate de inițiatori.",
       "senatForm": {
         "articleRef": "Art. unic pct. 1 – art. 2 alin. (1) lit. b¹)",
-        "proposalContent": "b¹) judecătorii, procurorii, magistrații-asistenți, personalul auxiliar de specialitate și celelalte categorii de personal din cadrul instanțelor judecătorești și al parchetelor, inclusiv cei detașați la CSM, Inspecția Judiciară, INM sau Ministerul Justiției, precum și auditorii de justiție.",
-        "argumentation": "„Persoanele care își exercită funcția în cadrul instanțelor de judecată” nu e o noțiune legală: Constituția (art. 126) vorbește de „instanțe judecătorești”, iar formula lasă neclar dacă intră magistrații detașați sau auditorii de justiție. Enumerarea expresă elimină interpretarea restrictivă invocată în expunere (Decizia ICCJ nr. 182/2024).",
-        "otherComments": "Legea nu modifică Legile 303/2022 și 305/2022: nu e clar dacă protecția acoperă deciziile CSM și ale Inspecției Judiciare (evaluări, transferuri, disciplinar), de unde pot veni represaliile. Propun un articol care să le includă expres și care să precizeze canalul extern (CSM sau ANI). Verificați și caracterul organic (art. 73 alin. (3) lit. l) Constituție)."
-      }
+        "proposalContent": "b¹) judecătorii, procurorii, magistrații-asistenți, personalul auxiliar de specialitate și celălalt personal din cadrul instanțelor judecătorești, parchetelor, Consiliului Superior al Magistraturii, Inspecției Judiciare și Institutului Național al Magistraturii, indiferent de natura raportului de serviciu sau de muncă.",
+        "argumentation": "Formula «persoanele care își exercită funcția» e vagă: nu spune clar dacă include magistrații-asistenți, personalul contractual, detașații sau CSM și Inspecția Judiciară. Enumerarea expresă elimină chiar ambiguitatea invocată în expunerea de motive (decizia ICCJ citată acolo) și asigură previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
+        "otherComments": "Recomand: (1) cererea avizului CSM; (2) precizarea canalului extern competent pentru raportările din sistemul judiciar și corelarea cu răspunderea disciplinară din Legea nr. 303/2022; (3) menținerea expresă a secretului deliberărilor, conform art. 3 alin. (3) lit. c) din Directiva (UE) 2019/1937."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 136183,
-      "riskScore": 3,
+      "durationMs": 56268,
+      "sourceEndMarker": "SF-81E80623",
+      "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Protecție explicită pentru cei care semnalează ilegalități din justiție",
-      "verdictShort": "Proiect util, cu risc redus: clarifică protecția personalului instanțelor și parchetelor împotriva represaliilor. Formularea trebuie însă precizată, iar simpla includere a magistraților nu rezolvă toate dificultățile privind faptele protejate și procedurile disciplinare.",
-      "initiatorClaim": "Inițiatorii urmăresc să înlăture interpretările care exclud magistrații de la protecția avertizorilor și să încurajeze raportarea corupției sau a presiunilor nelegale. Ei prezintă intervenția drept o aliniere la standardele europene.",
-      "realityCheck": "Articolul unic introduce expres persoanele care își exercită funcția în instanțe și parchete între beneficiari, fără să modifice domeniul faptelor raportabile, condițiile divulgării publice sau mecanismele de protecție. Enumerarea actuală este deja deschisă, astfel încât intervenția are și un efect de clarificare, nu dovedește că întregul personal era anterior exclus. Protecția rămâne condiționată și nu echivalează cu imunitate disciplinară generală. [Legea nr. 361/2022, art. 2, 19–21](https://www.dna.ro/l361_2022.xhtml)",
+      "plainTitle": "Protecție explicită pentru avertizorii din instanțe și parchete",
+      "verdictShort": "Proiectul aduce o clarificare utilă pentru protejarea celor care semnalează ilegalități din sistemul judiciar, fără taxe sau sancțiuni noi. Potrivit stadiului comunicat, inițiativa este respinsă și nu produce efecte juridice.",
+      "initiatorClaim": "Inițiatorii urmăresc includerea explicită a magistraților în protecția avertizorilor, pentru a înlătura interpretările restrictive și teama de represalii profesionale. Ei invocă în acest sens o hotărâre ÎCCJ și standarde europene.",
+      "realityCheck": "Articolul unic introduce la art. 2 alin. (1) lit. b¹) persoanele care își exercită funcția în instanțe și parchete, categorie mai largă decât magistrații. Legea actuală are deja o enumerare deschisă, prin expresia «cel puțin», astfel încât lipsa menționării unei categorii nu dovedește singură excluderea ei. Dacă ar fi adoptată, completarea ar explicita accesul la mecanismele existente, cu respectarea condițiilor legale pentru raportare, divulgare publică și protecție.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Angajați & HR"
       ],
       "keyFindings": [
-        "Art. 2 alin. (1) lit. b¹) propusă acoperă textual personalul instanțelor și parchetelor, nu numai judecătorii și procurorii. Numirea expresă a acestora ar elimina principala îndoială pe care inițiatorii declară că vor să o rezolve.",
-        "Art. 1 alin. (5) păstrează protecția informațiilor clasificate, secretul deliberărilor judiciare și normele de procedură penală. Completarea nu autorizează publicarea liberă a informațiilor din dosare. [Legea nr. 361/2022](https://www.dna.ro/l361_2022.xhtml)",
-        "Proiectul nu introduce taxe, autorizații, monopoluri sau sancțiuni noi și nu impune formalități suplimentare cetățenilor ori IMM-urilor. Pot exista costuri administrative pentru informare, adaptarea procedurilor și gestionarea raportărilor, dar documentele furnizate nu cuantifică aceste costuri; obligația instituirii canalelor publice există deja la art. 9. [Legea nr. 361/2022](https://www.dna.ro/l361_2022.xhtml)",
-        "Consiliul Legislativ și CSM au emis avize negative, invocând, între altele, imprecizia beneficiarilor și corelarea cu domeniul material ori statutele speciale. Aceste avize justifică îmbunătățirea redactării, fără să constituie prin ele însele constatări de neconstituționalitate. [Avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L262LG.PDF?nocache=true), [Avizul CSM](https://www.senat.ro/legis/PDF/2026/26L262SM.PDF?nocache=true)"
+        "Articolul unic completează exclusiv domeniul personal de aplicare al Legii nr. 361/2022; nu modifică procedurile de raportare, sancțiunile sau remediile existente.",
+        "În prezent, art. 2 alin. (1) enumeră categorii minimale de beneficiari. Proiectul adaugă expres personalul instanțelor și parchetelor, reducând incertitudinea privind includerea magistraților.",
+        "Formula «persoanele care își exercită funcția» este mai puțin precisă decât enumerarea judecătorilor, procurorilor și celorlalte categorii de personal. Personalul altor instituții judiciare nu este menționat expres prin această completare.",
+        "Includerea expresă nu înseamnă protecție automată pentru orice declarație publică și nici imunitate disciplinară generală. Condițiile, limitele și excepțiile legii existente continuă să se aplice.",
+        "Nu sunt prevăzute taxe, autorizații, restricții concurențiale sau obligații administrative noi pentru cetățeni și IMM-uri. Pot exista costuri instituționale suplimentare de gestionare a raportărilor și protecției, necuantificate în documentele furnizate.",
+        "Textul se încheie după această singură completare: nu conține derogări, abrogări, dispoziții tranzitorii sau modificări ale altor legi. Celelalte inițiative enumerate în cererea de cosemnare nu fac parte din proiect."
       ],
-      "blindSpotsCaught": "Expunerea de motive prezintă Decizia ÎCCJ nr. 182/2024 ca argument pentru excluderea magistraților din cauza lipsei mențiunii exprese. Textul integral al hotărârii nu a putut fi verificat direct; însă pasajele reproduse de Consiliul Legislativ discută și natura informațiilor raportate. Prin urmare, completarea art. 2 nu garantează protecția pentru orice neregulă judiciară, deoarece lasă nemodificate art. 3 pct. 1 și anexa nr. 2. [Analiza Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L262LG.PDF?nocache=true)",
-      "constitutionalityNote": "Nu identific o neconstituționalitate evidentă a includerii exprese a magistraților. Principalul punct vulnerabil sub art. 1 alin. (5) este formula generică privind exercitarea funcției, împreună cu neclaritățile de aplicare în procedurile speciale. Protecția împotriva represaliilor trebuie corelată cu independența judecătorilor și competențele disciplinare ale CSM, potrivit art. 124 alin. (3) și art. 134 alin. (2). Art. 23 alin. (12), privind legalitatea pedepsei, nu este incident direct: proiectul nu modifică incriminări sau pedepse. [Constituția României](https://www.senat.ro/pagini/constitutia/constitutia.htm)",
-      "euLawNote": "Intervenția este compatibilă în principiu cu protecția persoanelor din sectorul public prevăzută de Directiva (UE) 2019/1937, art. 4; rămân aplicabile limitele privind deliberările judiciare și procedura penală, prevăzute la art. 3 alin. (3). Directiva permite extinderea protecției naționale dincolo de domeniul său minim, dar proiectul nu realizează expres o asemenea extindere materială. [Directiva 2019/1937](https://eur-lex.europa.eu/eli/dir/2019/1937/oj?locale=ro) Nu identific restrângeri ale concurenței sau ale accesului la profesii reglementate care să declanșeze testul Directivei 2018/958. [Art. 2 din Directiva 2018/958](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32018L0958) Nu reglementează produse, servicii digitale sau AI și nu rezultă o obligație de notificare TRIS potrivit Directivei 2015/1535. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32015L1535)",
+      "blindSpotsCaught": "Elementul decisiv este caracterul deja neexhaustiv al art. 2: proiectul clarifică o includere contestată, fără să demonstreze că toate persoanele vizate erau anterior excluse. Afirmația despre Decizia ÎCCJ nr. 182/2024 aparține expunerii de motive; conținutul și întinderea hotărârii nu au putut fi verificate independent.",
+      "constitutionalityNote": "Nu rezultă un viciu evident de neconstituționalitate din textul propus. Precizarea beneficiarilor servește securității juridice, potrivit art. 1 alin. (5), dar formularea ar câștiga în claritate prin identificarea expresă a magistraților și a celorlalte categorii de personal. Art. 23 alin. (12) nu ridică o problemă proprie acestei completări, care nu instituie pedepse. Aplicarea protecției trebuie conciliată cu independența judecătorilor, statutul procurorilor și obligațiile legale de confidențialitate.",
+      "euLawNote": "Completarea este, în principiu, compatibilă cu obiectivul Directivei (UE) 2019/1937 de protejare a persoanelor care raportează încălcări în context profesional; nu se poate afirma doar din proiect că dreptul UE impune exact această formulare. Directiva (UE) 2018/958 nu impune aici un test de proporționalitate, deoarece proiectul nu restrânge accesul la o profesie reglementată sau exercitarea acesteia. Nu reglementează produse ori servicii ale societății informaționale și nu rezultă o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535. Nu introduce bariere pentru concurență sau piața unică.",
       "senatForm": {
-        "articleRef": "Articol unic – art. 2 alin. (1) lit. b¹)",
-        "proposalContent": "b¹) judecătorii, procurorii și celelalte categorii de personal care își desfășoară activitatea în cadrul instanțelor judecătorești și al parchetelor de pe lângă acestea;",
-        "argumentation": "Enumerarea expresă elimină îndoiala privind includerea judecătorilor și procurorilor și înlocuiește formula vagă privind exercitarea funcției. Protecția rămâne supusă domeniului material și condițiilor Legii nr. 361/2022; nu conferă imunitate pentru abateri fără legătură cu raportarea.",
-        "otherComments": "Propunere adresată Comisiei juridice a Camerei Deputaților, pentru eventuala preluare de către un deputat. Termenul indicat pentru amendamente, 17.06.2026, este depășit; trimiterea prin e-mail nu echivalează cu depunerea unui amendament parlamentar. Se solicită clarificarea raportului cu procedurile disciplinare speciale."
-      }
+        "articleRef": "Articol unic pct. 1: art. 2 alin. (1) lit. b¹)",
+        "proposalContent": "b¹) judecătorii, procurorii și celelalte categorii de personal din cadrul instanțelor judecătorești și al parchetelor;",
+        "argumentation": "Enumerarea expresă înlătură incertitudinea privind includerea magistraților și păstrează protecția celorlalte categorii de personal. Completarea operează în condițiile generale ale legii, fără a crea imunitate disciplinară sau a înlătura obligațiile legale de confidențialitate.",
+        "otherComments": "Potrivit stadiului comunicat, inițiativa este respinsă. Propunerea poate fi valorificată într-o nouă inițiativă sau într-o altă procedură parlamentară admisibilă; transmiterea ei prin e-mail nu redeschide procedura încheiată."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T16:22:49.831Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:43:21.671Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

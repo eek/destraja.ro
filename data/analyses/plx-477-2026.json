@@ -1,124 +1,181 @@
 {
   "billId": "Pl-x 477/2026",
   "slug": "plx-477-2026",
-  "updatedAt": "2026-10-28T16:10:10.486Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T14:43:28.718Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 4334,
+    "ordinanceChars": 0,
+    "memoChars": 3804,
+    "memoSupplied": 3804,
+    "marker": "SF-DBED8E18"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-477-2026.json",
+    "form": "initiator",
+    "textHash": "dbed8e18fd9dcd2c",
+    "fetchedAt": "2026-11-19T11:20:56.076Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1397,
+    "truncated": false,
+    "included": true,
+    "key": "c7ad8a3928624a62"
+  },
   "consensus": {
-    "riskScore": 4,
-    "riskLevel": "yellow",
-    "plainTitle": "Detectoare de fum și de monoxid de carbon obligatorii în casele persoanelor asistate social",
-    "summaryTlDr": "Ideea poate salva vieți, dar legea e prost croită: obligația și costul cad pe cei mai săraci, iar ajutorul statului rămâne opțional. Definiția «vulnerabililor» e vagă, iar aplicarea concretă depinde de hotărâri de Guvern fără termen.",
-    "initiatorClaim": "Inițiatorii invocă cele 305 decese și 885 de răniți din incendiile la locuințe din 2025 (mai ales vârstnici, mulți surprinși în somn). Ei vor alertare timpurie prin detectoare de fum și de CO pentru persoanele vulnerabile, plus o regulă de proporționalitate: întâi prevenție, apoi amendă.",
-    "realityCheck": "Legea obligă proprietarul sau utilizatorul locuinței în care stă un beneficiar de asistență socială să cumpere, să monteze și să întrețină detectoarele (art. 19¹ alin. 5). Programele de sprijin doar «pot» acoperi echipamentul, cu criterii stabilite ulterior prin HG. Pentru locuințele existente, aplicarea depinde de o HG de etapizare fără termen, iar proiectul nu adaugă o contravenție distinctă pentru noua obligație, așa că ea e greu de controlat și de sancționat. Art. 2¹ e mai degrabă o declarație de principiu, deși regula «întâi informare și conformare, apoi amendă» e utilă cetățenilor.",
+    "riskScore": 3.3,
+    "riskLevel": "green",
+    "plainTitle": "Detectoare de fum și de monoxid de carbon obligatorii în casele persoanelor vulnerabile",
+    "summaryTlDr": "Scopul e bun și ar putea salva vieți, iar riscul juridic e mic. Problema este că obligația cade pe cei mai săraci, în timp ce sprijinul promis nu are bani, termene sau garanții, iar regulile concrete sunt lăsate în întregime pe seama unei hotărâri de Guvern.",
+    "initiatorClaim": "Inițiatorii vor să reducă numărul de morți în incendii la locuințe (305 decese în 2025, potrivit IGSU, cele mai multe în rândul vârstnicilor, adesea în somn). Soluția propusă este dotarea cu detectoare a locuințelor persoanelor vulnerabile, însoțită de un principiu al proporționalității în controalele la locuințe.",
+    "realityCheck": "Proiectul obligă proprietarul sau utilizatorul unei locuințe în care stă o persoană beneficiară de asistență socială să instaleze și să întrețină detectoare de fum, plus de CO acolo unde există aparate pe combustibil (art. 19^1). Programele de sprijin (art. 19^2) au doar surse enumerate, fără sume, fără un drept la gratuitate și fără calendar. Etapizarea, criteriile de eligibilitate și normele tehnice sunt toate delegate unor hotărâri de Guvern, iar legea nu stabilește nicio sancțiune explicită pentru nerespectarea noii obligații.",
     "affectedGroups": [
       "Proprietari & Imobiliare",
-      "Justiție & Drepturi Civile",
       "Toți cetățenii",
-      "IMM & Antreprenori"
+      "Justiție & Drepturi Civile",
+      "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 2 – art. 19¹ alin. (5) și (6)",
-      "proposalContent": "(5) Pentru locuințele prevăzute la alin. (1), detectoarele se asigură și se instalează gratuit de autoritățile administrației publice locale, din sume de la bugetul de stat; utilizatorul nu le poate demonta. (6) Categorii vulnerabile: beneficiarii venitului minim de incluziune, persoanele cu handicap grav și persoanele peste 70 de ani care locuiesc singure.",
-      "argumentation": "Textul actual pune costul pe cei mai săraci (alin. 5), iar sprijinul din art. 19² e doar facultativ („pot fi asigurate”). Definiția din alin. (6) e atât de largă încât poate cuprinde orice familie cu beneficii sociale. Datele IGSU invocate arată că riscul major e la vârstnici; o listă clară face legea aplicabilă și conformă art. 1 alin. (5) din Constituție.",
-      "otherComments": "Art. 2¹ e declarativ și nu numește «autoritățile competente»; precizați că verificarea în locuințe se face doar cu acordul ocupantului (art. 27 Constituție). Art. 19¹ alin. (4) e inaplicabil: la recepție nu se știe cine va locui acolo. Normele din art. 47¹ trebuie notificate TRIS și să accepte detectoarele cu marcaj CE, fără certificări naționale."
+      "articleRef": "Art. I pct. 2 – art. 19^1 alin. (5) și (6)",
+      "proposalContent": "(5) Pentru locuințele persoanelor vulnerabile, dispozitivele și instalarea se asigură gratuit prin programele de la art. 19^2; obligația devine exigibilă numai după punerea lor la dispoziție. (6) Categorii vulnerabile: beneficiarii de venit minim de incluziune, persoanele cu handicap grav și vârstnicii peste 70 de ani care locuiesc singuri.",
+      "argumentation": "Obligația cade pe persoane fără resurse, iar sprijinul e doar facultativ. Definiția actuală, toți beneficiarii de asistență socială, e prea largă și imprevizibilă (art. 1 alin. 5 din Constituție). Ținta propusă corespunde grupelor cu cele mai multe decese indicate de IGSU în expunerea de motive.",
+      "otherComments": "Sunt necesare: fișă financiară cu sume (art. 15 din Legea 500/2002); termen pentru hotărârea de etapizare; precizarea răspunderii în locuințele închiriate și sociale; eliminarea alin. (4) sau corelarea lui cu OUG 17/2026; acceptarea oricărui detector cu marcaj CE (EN 14604/EN 50291); evaluarea notificării TRIS a normelor tehnice."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 77006,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 70405,
+      "sourceEndMarker": "SF-DBED8E18",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Detectoare obligatorii de fum și monoxid de carbon în locuințele persoanelor vulnerabile",
-      "verdictShort": "Intenția de a preveni incendiile casnice și intoxicațiile cu monoxid de carbon este salutară, dar proiectul conține erori tehnice serioase: instituie obligația pe umerii persoanelor asistate social chiar și atunci când primăria nu le oferă gratuit aparatele, leagă recepția clădirilor noi de statutul social viitor al locatarilor și lasă neclar regimul verificărilor în locuințe private.",
-      "initiatorClaim": "Inițiatorii doresc reducerea numărului de decese cauzate de incendii și intoxicații cu monoxid de carbon (în special în rândul vârstnicilor și persoanelor defavorizate), prin dotarea etapizată a locuințelor acestora cu detectoare autonome prin programe finanțate public și prin instituirea principiului proporționalității la controalele în locuințe.",
-      "realityCheck": "În realitate, Art. 19¹ alin. (5) pune obligația instalării și întreținerii detectoarelor direct în sarcina proprietarilor sau utilizatorilor vulnerabili (beneficiari de asistență socială), fără a o condiționa de primirea efectivă și gratuită a echipamentelor prin programele primăriilor (Art. 19²). Mai mult, Art. 19¹ alin. (4) blochează recepția la terminarea lucrărilor pentru construcțiile noi sau supuse autorizării „în care urmează să domicilieze persoane vulnerabile” – o condiție imposibil de verificat la momentul recepției unui imobil obișnuit. De asemenea, Art. 2¹ reglementează „verificarea și sancționarea” în interiorul locuințelor fără a menționa acordul proprietarului conform inviolabilității domiciliului.",
+      "plainTitle": "Detectoare obligatorii de fum și monoxid de carbon pentru categoriile vulnerabile",
+      "verdictShort": "Scopul proiectului este util și legitim, dar redactarea are erori majore care îl fac greu aplicabil: definește greșit categoriile vulnerabile, impune condiții imposibile la recepția clădirilor noi și promite finanțare integrală din buget fără o sursă concretă.",
+      "initiatorClaim": "Inițiatorii vor să reducă decesele provocate de incendii și intoxicații cu monoxid de carbon (în special în rândul vârstnicilor) prin dotarea locuințelor vulnerabile cu detectoare, finanțate prin programe publice, și prin introducerea proporționalității în controalele la locuințe.",
+      "realityCheck": "În practică, definirea „categoriilor vulnerabile” ca beneficiari de asistență socială include automat familiile care primesc alocație pentru copii, dar îi omite pe pensionarii vârstnici care nu sunt asistați social. Totodată, art. 19¹ pune obligația pe umerii proprietarilor și chiriașilor, în timp ce sprijinul public din art. 19² rămâne facultativ („pot fi asigurate”) și fără fișă financiară, iar condiția pentru construcțiile noi nu poate fi verificată înainte de recepție.",
       "affectedGroups": [
         "Proprietari & Imobiliare",
-        "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Obligație necondiționată de sprijinul financiar (Art. 19¹ alin. 5 vs. Art. 19²): Deși Art. 19² prevede că primăriile derulează programe de sprijin (în care „pot fi asigurate” achiziția și instalarea, în funcție de criterii stabilite ulterior prin HG), obligația legală de dotare și menținere în funcțiune revine direct proprietarilor/utilizatorilor vulnerabili, expunându-i la răspundere dacă autoritatea locală nu are buget.",
-        "Blocaj urbanistic inaplicabil la recepție (Art. 19¹ alin. 4): Pentru construcțiile noi sau supuse autorizării în care „urmează să domicilieze persoane din categoriile vulnerabile”, dotarea devine obligatorie înainte de recepția la terminarea lucrărilor. Recepția vizează însă clădirea (in rem), iar comisia de recepție nu are cum să știe dacă viitorii cumpărători sau chiriași vor fi asistați social (cu excepția locuințelor sociale).",
-        "Ambiguitate privind controalele în locuințe private (Art. 2¹ alin. 1 și 3): Textul introduce principiul proporționalității și al avertizării prealabile, dar vorbește despre „măsurile de prevenire, verificare și sancționare” și „constatarea unor neconformități în cadrul locuințelor” fără a preciza că accesul inspectorilor în locuința privată se poate face doar cu acordul ocupantului, în afara situațiilor de pericol iminent.",
-        "Amânarea aplicării prin trei trimiteri la hotărâri de Guvern (Art. 19¹ alin. 3, Art. 19² alin. 2, Art. 47¹): Mecanismul de etapizare, criteriile de eligibilitate și normele de instalare și întreținere sunt lăsate integral în sarcina legislației secundare."
+        "Definiție necorelată a beneficiarilor (art. 19¹ alin. 6): trimiterea generală la „măsuri de asistență socială” cuprinde, potrivit Legii nr. 292/2011, și beneficii universale precum alocația de stat pentru copii, umflând masiv aria obligației, dar lăsând în afară mulți pensionari peste 70 de ani, indicați în expunerea de motive drept principalele victime.",
+        "Condiție imposibilă la recepția clădirilor noi (art. 19¹ alin. 4): impune dotarea obligatorie înainte de recepția la terminarea lucrărilor pentru construcțiile în care „urmează să domicilieze” persoane vulnerabile, aspect imposibil de cunoscut anticipat de dezvoltator sau de comisia de recepție.",
+        "Obligație fermă versus finanțare incertă (art. 19¹ alin. 5 și art. 19²): proprietarii sau utilizatorii sunt obligați să monteze și să întrețină detectoarele, dar programele publice „pot” asigura achiziția și instalarea după criterii lăsate la latitudinea Guvernului, fără o sursă bugetară identificată.",
+        "Principiu benefic, dar regim de aplicare incomplet (art. 2¹ și art. 47¹): prioritizarea prevenirii și conformării voluntare în locuințe (art. 2¹ alin. 3) este pozitivă, însă proiectul nu stabilește o contravenție expresă pentru noile obligații și amână normele metodologice la 90 de zile după intrarea în vigoare."
       ],
-      "blindSpotsCaught": "Inițiatorii recunosc chiar în Expunerea de motive că OUG nr. 17/2026 a introdus deja dispoziții privind dotarea construcțiilor noi cu detectoare autonome de incendiu, însă în Art. 19¹ alin. (4) creează o reglementare paralelă pentru construcțiile noi, încălcând Art. 16 din Legea nr. 24/2000 privind evitarea paralelismelor legislative. Totodată, definirea categoriilor vulnerabile exclusiv prin raportare la „beneficiarii de măsuri de asistență socială” (Art. 19¹ alin. 6) omite exact categoria invocată în Expunerea de motive ca fiind cea mai expusă: pensionarii peste 70 de ani care locuiesc singuri în mediul rural, dar a căror pensie depășește ușor pragul de venit minim de incluziune.",
-      "constitutionalityNote": "Proiectul ridică trei probleme de constituționalitate: 1) Art. 1 alin. (5) (calitatea și previzibilitatea legii) – condiționarea recepției la terminarea lucrărilor de statutul de asistat social al viitorilor locatari (Art. 19¹ alin. 4) este lipsită de previzibilitate și rigoare normativă; 2) Art. 27 (inviolabilitatea domiciliului) – Art. 2¹ reglementează verificarea neconformităților în locuințe fără a distinge între controlul preventiv (care necesită consimțământul persoanei) și intervenția în caz de pericol iminent; 3) Art. 138 alin. (5) – Art. 19² alin. (3) instituie programe finanțate din bugetul de stat și bugetele locale fără indicarea sursei concrete de finanțare și fără fișă financiară.",
-      "euLawNote": "Proiectul nu contravine dreptului Uniunii Europene și nu instituie restricții privind accesul la profesii reglementate sub incidența Directivei (UE) 2018/958. Trimiterea la „reglementările tehnice în vigoare” pentru detectoarele autonome de fum și de monoxid de carbon (Art. 19¹ alin. 1-2) trebuie aplicată cu respectarea Regulamentului (UE) nr. 305/2011 privind produsele pentru construcții (marcajul CE și standardele europene armonizate EN 14604 pentru fum și EN 50291 pentru monoxid de carbon), fără a impune prin viitoarea hotărâre de Guvern specificații tehnice naționale suplimentare care ar necesita notificare prin procedura TRIS conform Directivei (UE) 2015/1535.",
+      "blindSpotsCaught": "Chichița majoră stă în art. 19¹ alin. (6) coroborat cu Legea asistenței sociale nr. 292/2011: întrucât alocația de stat pentru copii și indemnizația de creștere a copilului sunt legal „beneficii de asistență socială”, aproape orice familie cu copii devine „categorie vulnerabilă” obligată să monteze detectoare și potențial eligibilă pentru finanțare publică integrală, cu un impact bugetar necalculat. În plus, verificarea statutului de asistat social al locatarilor de către ISU ori comisiile de recepție ridică probleme practice de protecție a datelor și de inviolabilitate a domiciliului.",
+      "constitutionalityNote": "Proiectul ridică probleme pe art. 138 alin. (5) din Constituție, deoarece art. 19² instituie programe finanțate integral din bugetul de stat și bugetele locale fără fișă financiară și fără indicarea sursei concrete de finanțare (expunerea de motive trimite vag la „resursele disponibile”). Sunt afectate și cerințele de claritate și previzibilitate ale legii din art. 1 alin. (5), prin definiția imprecisă a categoriilor vulnerabile, condiția inaplicabilă la recepția clădirilor noi și delegarea elementelor esențiale (etapizare, eligibilitate) către hotărâri ale Guvernului. Verificările în locuințe (art. 2¹) rămân supuse strict garanțiilor art. 27 privind inviolabilitatea domiciliului.",
+      "euLawNote": "Directiva (UE) 2018/958 privind testul de proporționalitate nu este incidentă, nefiind reglementată o profesie nouă. Textul legii nu impune specificații tehnice naționale proprii, trimițând la reglementările tehnice în vigoare (unde operează standardele europene armonizate, precum EN 14604), deci nu declanșează în sine notificarea TRIS în baza Directivei (UE) 2015/1535; totuși, dacă normele metodologice MAI din art. 47¹ ar adăuga cerințe tehnice naționale suplimentare pentru detectoare, notificarea TRIS devine obligatorie. Programele de achiziție din art. 19² trebuie să respecte normele UE privind achizițiile publice și neutralitatea tehnică.",
       "senatForm": {
-        "articleRef": "Art. I pct. 1-2 (Art. 2¹ și Art. 19¹ alin. 4-5)",
-        "proposalContent": "La art. 2¹ alin. (1), verificarea în locuințe se face doar cu acordul ocupantului. La art. 19¹ alin. (4), textul va viza strict „construcțiile noi cu destinația de locuințe sociale”. La art. 19¹ alin. (5), obligația persoanelor vulnerabile se aplică doar după primirea gratuită a detectoarelor prin programele de la art. 19².",
-        "argumentation": "1) Domiciliul e inviolabil (art. 27 Constituție), deci verificarea în locuințe cere acordul ocupantului. 2) La recepția unei clădiri noi nu se poate ști statutul social viitor al locatarilor, decât la locuințele sociale. 3) Asistații social nu pot fi obligați să cumpere detectoare dacă primăria nu le oferă mai întâi gratuit.",
-        "otherComments": "Se recomandă și corelarea proiectului cu OUG nr. 17/2026 (menționată chiar în Expunerea de motive), care reglementează deja detectoarele autonome la construcțiile noi, pentru a evita paralelismele legislative interzise de art. 16 din Legea nr. 24/2000 privind normele de tehnică legislativă."
-      }
+        "articleRef": "Art. I pct. 2 (art. 19¹ alin. 4 și alin. 6)",
+        "proposalContent": "Eliminarea alin. (4) din art. 19¹ și reformularea alin. (6) astfel: „În sensul prezentului articol, prin categorii vulnerabile se înțelege consumatorii vulnerabili de energie definiți potrivit Legii nr. 226/2021, precum și persoanele vârstnice singure cu venituri sub salariul minim brut.”",
+        "argumentation": "Trimiterea vagă la „asistență socială” include prestații universale (ex. alocația pentru copii), dar exclude vârstnicii pensionari neasistați, deși ei sunt principalele victime ale incendiilor. În plus, la recepția unei clădiri noi (alin. 4) nu se poate ști dinainte dacă viitorii locatari vor fi vulnerabili.",
+        "otherComments": "Corelați obligația de dotare (art. 19¹ alin. 5) cu finanțarea efectivă din art. 19², astfel încât persoanele vulnerabile să nu fie obligate legal fără sprijin garantat și sursă bugetară clară (art. 138 alin. 5 din Constituție). Clarificați și lipsa sancțiunii exprese pentru a evita aplicarea arbitrară a amenzilor existente."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 202336,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Detectoare de fum și de monoxid de carbon obligatorii în casele persoanelor asistate social",
-      "verdictShort": "Ideea poate salva vieți, dar legea e prost croită: obligația și costul cad pe cei mai săraci, iar ajutorul statului rămâne opțional. Definiția «vulnerabililor» e vagă, iar aplicarea concretă depinde de hotărâri de Guvern fără termen.",
-      "initiatorClaim": "Inițiatorii invocă cele 305 decese și 885 de răniți din incendiile la locuințe din 2025 (mai ales vârstnici, mulți surprinși în somn). Ei vor alertare timpurie prin detectoare de fum și de CO pentru persoanele vulnerabile, plus o regulă de proporționalitate: întâi prevenție, apoi amendă.",
-      "realityCheck": "Legea obligă proprietarul sau utilizatorul locuinței în care stă un beneficiar de asistență socială să cumpere, să monteze și să întrețină detectoarele (art. 19¹ alin. 5). Programele de sprijin doar «pot» acoperi echipamentul, cu criterii stabilite ulterior prin HG. Pentru locuințele existente, aplicarea depinde de o HG de etapizare fără termen, iar proiectul nu adaugă o contravenție distinctă pentru noua obligație, așa că ea e greu de controlat și de sancționat. Art. 2¹ e mai degrabă o declarație de principiu, deși regula «întâi informare și conformare, apoi amendă» e utilă cetățenilor.",
+      "durationMs": 43002,
+      "sourceEndMarker": "SF-DBED8E18",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Detectoare de fum și de monoxid de carbon obligatorii în casele persoanelor vulnerabile",
+      "verdictShort": "Scopul e bun și ar putea salva vieți, iar riscul juridic e mic. Problema este că obligația cade pe cei mai săraci, în timp ce sprijinul promis nu are bani, termene sau garanții, iar regulile concrete sunt lăsate în întregime pe seama unei hotărâri de Guvern.",
+      "initiatorClaim": "Inițiatorii vor să reducă numărul de morți în incendii la locuințe (305 decese în 2025, potrivit IGSU, cele mai multe în rândul vârstnicilor, adesea în somn). Soluția propusă este dotarea cu detectoare a locuințelor persoanelor vulnerabile, însoțită de un principiu al proporționalității în controalele la locuințe.",
+      "realityCheck": "Proiectul obligă proprietarul sau utilizatorul unei locuințe în care stă o persoană beneficiară de asistență socială să instaleze și să întrețină detectoare de fum, plus de CO acolo unde există aparate pe combustibil (art. 19^1). Programele de sprijin (art. 19^2) au doar surse enumerate, fără sume, fără un drept la gratuitate și fără calendar. Etapizarea, criteriile de eligibilitate și normele tehnice sunt toate delegate unor hotărâri de Guvern, iar legea nu stabilește nicio sancțiune explicită pentru nerespectarea noii obligații.",
       "affectedGroups": [
         "Proprietari & Imobiliare",
         "Justiție & Drepturi Civile",
-        "IMM & Antreprenori"
+        "Sănătate & Educație",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 19¹ alin. (5): obligația de a cumpăra, instala și menține detectoarele revine proprietarului sau utilizatorului, adică exact persoanei asistate social. Art. 19² alin. (4) spune doar că programele «pot» asigura echipamentele și montajul, iar eligibilitatea se stabilește ulterior prin HG (alin. 2). Obligația e sigură, ajutorul e opțional.",
-        "Art. 19¹ alin. (6): «categorii vulnerabile» înseamnă orice beneficiar de «măsuri de asistență socială». În Legea nr. 292/2011 noțiunea cuprinde atât beneficii, cât și servicii sociale. Poate acoperi deci beneficiarii venitului minim de incluziune, persoanele cu handicap și, la o lectură literală, chiar familiile cu alocații pentru copii. Statutul se schimbă în timp, iar odată cu el apare sau dispare și obligația.",
-        "Art. 19¹ alin. (4): pentru construcțiile noi, obligația depinde de faptul că acolo «urmează să domicilieze» persoane vulnerabile, lucru imposibil de știut la recepția lucrărilor. Prevederea e practic inaplicabilă.",
-        "Art. 19¹ alin. (3) și art. 19² alin. (2): pentru fondul locativ existent totul depinde de HG-uri fără termen. Doar normele tehnice din art. 47¹ au termen (90 de zile). Obligația din alin. (1) intră formal în vigoare, dar calendarul real nu e cunoscut.",
-        "Art. 2¹: principiul proporționalității și regula din alin. (3) (prioritate pentru informare și conformare voluntară, cu excepția pericolului iminent) sunt pozitive. Alin. (1)-(2) sunt însă declarative, iar «autoritățile competente» nu sunt identificate, ceea ce lasă loc de interpretări privind controlul în locuințe."
+        "Art. 19^1 alin. (6) definește „categorii vulnerabile” ca toate persoanele și familiile beneficiare de măsuri de asistență socială. Definiția e foarte largă și cuprinde și beneficii universale sau familiale, deci câmpul de aplicare real e imprevizibil și se poate schimba odată cu legislația socială.",
+        "Art. 19^1 alin. (5) pune obligația de instalare și de menținere în funcțiune pe proprietar sau utilizator, inclusiv pe persoana vulnerabilă însăși. Sprijinul de la art. 19^2 este facultativ ca întindere („pot fi asigurate”), iar obligația nu este condiționată de primirea efectivă a sprijinului.",
+        "Art. 19^1 alin. (4) cere detectoare înainte de recepția construcțiilor noi „în care urmează să domicilieze persoane din categoriile vulnerabile”. La recepție, viitorii ocupanți și statutul lor social nu sunt de regulă cunoscuți, așa că norma e greu de aplicat.",
+        "Art. 19^2 alin. (1) obligă autoritățile locale să „deruleze” programe, iar alin. (3) le finanțează „integral” din surse enumerate, fără sume. Proiectul nu are fișă financiară (art. 15 din Legea nr. 500/2002) și nici sursă concretă de acoperire, ceea ce creează un mandat nefinanțat pentru primării.",
+        "Art. 2^1 introduce proporționalitatea și prioritatea măsurilor de conformare voluntară înaintea sancțiunilor la locuințe. Norma e declarativă și vagă: alin. (4) spune că nu afectează obligațiile specifice din lege, iar OG nr. 2/2001 permite deja avertismentul.",
+        "Art. 47^1 dă Guvernului 90 de zile pentru normele metodologice, iar legea intră în vigoare tot la 90 de zile de la publicare (art. II). Cum etapizarea depinde de o altă hotărâre de Guvern, pentru care nu există termen, obligația poate rămâne inaplicabilă pe termen nedefinit."
       ],
-      "blindSpotsCaught": "Între Expunerea de motive și text există trei decalaje. (1) Expunerea promite programe «integral finanțate din fonduri publice», dar art. 19² alin. (3) include și «alte surse legal constituite», iar alin. (4) face acoperirea costului facultativă. (2) Expunerea spune că obligația se extinde la lucrările de intervenție autorizate asupra clădirilor existente, dar textul o leagă numai de locuințele în care urmează să stea persoane vulnerabile. (3) Expunerea invocă generic practica UE, însă acolo (de ex. Franța, Țările de Jos, landurile germane) detectoarele sunt obligatorii în toate locuințele. Aici obligația e legată de statutul social, ceea ce poate stigmatiza și poate descuraja proprietarii să închirieze beneficiarilor de ajutor social, mai ales că alin. (5) nu clarifică dacă plătește proprietarul sau chiriașul («după caz»). În plus, există risc de paralelism cu OUG nr. 17/2026, invocată chiar de inițiatori pentru construcțiile noi (art. 16 din Legea nr. 24/2000).",
-      "constitutionalityNote": "Scopul, protecția vieții (art. 22), e legitim. Textul are însă probleme de claritate și previzibilitate (art. 1 alin. 5): «categorii vulnerabile» e definită printr-o trimitere generică și fluctuantă, «autoritățile competente» nu sunt numite, iar art. 19¹ alin. (4) leagă o obligație de un fapt viitor imposibil de verificat. O obligație costisitoare impusă doar în funcție de statutul social ridică o problemă de egalitate (art. 16 și art. 4 alin. 2, care interzic discriminarea după avere și origine socială) dacă sprijinul nu e garantat. Orice verificare în locuință trebuie să respecte art. 27 (inviolabilitatea domiciliului), iar textul nu reglementează explicit accesul. Programele de sprijin și sarcinile noi ale autorităților locale sunt cheltuieli fără impact cuantificat. Simpla enumerare a surselor riscă să nu satisfacă art. 138 alin. (5), iar lipsa punctului de vedere al Guvernului (art. 111 alin. 1) ar fi, potrivit jurisprudenței constante a CCR, motiv de neconstituționalitate extrinsecă. Sarcinile noi impuse autorităților locale fără resurse contravin și principiului corelării competențelor cu resursele (art. 9 alin. 2 din Carta europeană a autonomiei locale).",
-      "euLawNote": "Directiva 2018/958 nu se aplică: legea nu reglementează accesul la o profesie, iar instalarea nu e rezervată unor specialiști atestați. Obligația de a folosi un produs în locuință poate constitui «reglementare tehnică» în sensul Directivei 2015/1535, așa că legea și, mai ales, HG-ul de norme din art. 47¹ ar trebui notificate prin TRIS înainte de adoptare. Detectoarele de fum sunt produse pentru construcții cu standard armonizat (EN 14604). După hotărârea CJUE C-100/13, statul nu poate impune cerințe sau mărci naționale suplimentare față de marcajul CE. Pentru detectoarele de CO, art. 34-36 TFUE interzic cerințe naționale suplimentare nejustificate. Identificarea locuințelor unde stau beneficiari de asistență socială sau persoane cu handicap implică date personale, inclusiv date privind sănătatea (art. 9 GDPR). Legea nu stabilește temeiul și fluxurile de date dintre asistența socială, ISU și autoritățile locale (art. 6 alin. 3 GDPR).",
+      "blindSpotsCaught": "Pentru încălcarea art. 19^1 nu se introduce nicio contravenție nouă, deci obligația riscă să rămână lex imperfecta sau să fie sancționată prin încadrări extensive în contravențiile generale existente, ceea ce ridică probleme de legalitate a sancțiunii. Proiectul nu clarifică nici cine răspunde în locuințele închiriate, inclusiv în locuințele sociale ale primăriei (proprietar sau chiriaș). Expunerea de motive invocă OUG nr. 17/2026 pentru construcțiile noi, dar textul nu se coordonează cu aceasta, deci există risc de suprapunere la art. 19^1 alin. (4).",
+      "constitutionalityNote": "Nu se văd încălcări grave. Există însă vulnerabilități. (1) Art. 1 alin. (5): previzibilitatea e slabă, din cauza definiției largi a categoriilor vulnerabile, a condiției greu verificabile de la alin. (4) și a lipsei sancțiunii. (2) Delegarea către Guvern a etapizării, inclusiv a momentului în care obligația devine aplicabilă locuințelor existente, lasă executivului elemente esențiale ale obligației. (3) Art. 138 alin. (5): cheltuieli noi din bugetul de stat și din bugetele locale fără sursă de finanțare, respectiv art. 111 alin. (1), lipsa informării Guvernului. (4) Mandatul obligatoriu pentru autoritățile locale fără resurse aferente tensionează principiul autonomiei locale (art. 120) și art. 9 din Carta europeană a autonomiei locale. O obligație impusă numai celor săraci este justificabilă prin riscul mai mare, deci discriminarea (art. 16) e greu de susținut, cu condiția să existe sprijin efectiv.",
+      "euLawNote": "Directiva 2018/958 nu e relevantă, pentru că proiectul nu reglementează accesul la o profesie, decât dacă hotărârea de Guvern ar impune instalatori autorizați. Detectoarele de fum (EN 14604) și cele de CO (EN 50291) sunt produse aflate sub legislația armonizată a UE (Regulamentul 305/2011 sau marcajul CE). Trimiterea la „reglementări tehnice în vigoare” trebuie să accepte orice produs conform marcat CE și să nu adauge cerințe naționale de produs, pentru a respecta art. 34 TFUE. O obligație națională de instalare și întreținere poate fi considerată „altă cerință” în sensul Directivei 2015/1535, deci hotărârea de Guvern cu normele tehnice ar trebui verificată pentru notificare TRIS. Proiectul nu privește servicii digitale sau AI.",
       "senatForm": {
-        "articleRef": "Art. I pct. 2 – art. 19¹ alin. (5) și (6)",
-        "proposalContent": "(5) Pentru locuințele prevăzute la alin. (1), detectoarele se asigură și se instalează gratuit de autoritățile administrației publice locale, din sume de la bugetul de stat; utilizatorul nu le poate demonta. (6) Categorii vulnerabile: beneficiarii venitului minim de incluziune, persoanele cu handicap grav și persoanele peste 70 de ani care locuiesc singure.",
-        "argumentation": "Textul actual pune costul pe cei mai săraci (alin. 5), iar sprijinul din art. 19² e doar facultativ („pot fi asigurate”). Definiția din alin. (6) e atât de largă încât poate cuprinde orice familie cu beneficii sociale. Datele IGSU invocate arată că riscul major e la vârstnici; o listă clară face legea aplicabilă și conformă art. 1 alin. (5) din Constituție.",
-        "otherComments": "Art. 2¹ e declarativ și nu numește «autoritățile competente»; precizați că verificarea în locuințe se face doar cu acordul ocupantului (art. 27 Constituție). Art. 19¹ alin. (4) e inaplicabil: la recepție nu se știe cine va locui acolo. Normele din art. 47¹ trebuie notificate TRIS și să accepte detectoarele cu marcaj CE, fără certificări naționale."
-      }
+        "articleRef": "Art. I pct. 2 – art. 19^1 alin. (5) și (6)",
+        "proposalContent": "(5) Pentru locuințele persoanelor vulnerabile, dispozitivele și instalarea se asigură gratuit prin programele de la art. 19^2; obligația devine exigibilă numai după punerea lor la dispoziție. (6) Categorii vulnerabile: beneficiarii de venit minim de incluziune, persoanele cu handicap grav și vârstnicii peste 70 de ani care locuiesc singuri.",
+        "argumentation": "Obligația cade pe persoane fără resurse, iar sprijinul e doar facultativ. Definiția actuală, toți beneficiarii de asistență socială, e prea largă și imprevizibilă (art. 1 alin. 5 din Constituție). Ținta propusă corespunde grupelor cu cele mai multe decese indicate de IGSU în expunerea de motive.",
+        "otherComments": "Sunt necesare: fișă financiară cu sume (art. 15 din Legea 500/2002); termen pentru hotărârea de etapizare; precizarea răspunderii în locuințele închiriate și sociale; eliminarea alin. (4) sau corelarea lui cu OUG 17/2026; acceptarea oricărui detector cu marcaj CE (EN 14604/EN 50291); evaluarea notificării TRIS a normelor tehnice."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 127787,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Detectoare obligatorii în locuințele persoanelor vulnerabile",
-      "verdictShort": "Măsura urmărește legitim protejarea vieții și poate îmbunătăți siguranța locuințelor. Riscul moderat vine din obligațiile insuficient clarificate și din faptul că ajutorul pentru cumpărare și instalare nu este garantat fiecărei gospodării vizate.",
-      "initiatorClaim": "Inițiatorii urmăresc reducerea deceselor provocate de incendii și intoxicații cu monoxid de carbon, prin alertare timpurie. Ei propun protejarea persoanelor vulnerabile, implementare etapizată și programe publice de sprijin.",
-      "realityCheck": "În forma inițiatorului furnizată, proiectul impune detectoare de fum în locuințele beneficiarilor de măsuri de asistență socială și detectoare de monoxid de carbon dacă există echipamente care utilizează combustibili. Proprietarul sau utilizatorul trebuie să asigure instalarea și funcționarea, însă accesul efectiv la finanțare depinde de programe și criterii ulterioare. Proiectul nu introduce taxe, furnizori exclusivi sau amenzi noi expres asociate acestor obligații.",
+      "durationMs": 71932,
+      "sourceEndMarker": "SF-DBED8E18",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Detectoare de fum pentru locuințele persoanelor vulnerabile",
+      "verdictShort": "Proiectul urmărește o protecție utilă și proporțională a vieții, fără să introducă expres amenzi noi sau furnizori privilegiați. Principalele probleme sunt obligațiile impuse înaintea operaționalizării sprijinului și delimitarea neclară a beneficiarilor; fiind respins, proiectul nu produce aceste efecte.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea deceselor provocate de incendii și intoxicații cu monoxid de carbon, prin alertare timpurie în locuințele persoanelor vulnerabile. Ei invocă aplicarea graduală, sprijinul public și prioritatea prevenirii față de sancționare.",
+      "realityCheck": "Față de cadrul general existent, proiectul introduce expres dotarea locuințelor persoanelor beneficiare de asistență socială cu detectoare de fum, iar detectoarele de monoxid de carbon devin obligatorii dacă există echipamente care utilizează combustibili. Proprietarii sau utilizatorii suportă obligația instalării și menținerii dispozitivelor, fără ca îndeplinirea ei să fie condiționată explicit de primirea sprijinului public. Textul obligă autoritățile locale să deruleze programe, însă lasă Guvernului etapizarea și eligibilitatea, iar pentru construcțiile noi ori supuse autorizării cere dotarea înaintea recepției.",
       "affectedGroups": [
         "Proprietari & Imobiliare",
+        "IMM & Antreprenori",
         "Justiție & Drepturi Civile",
-        "IMM & Antreprenori"
+        "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. 19¹ alin. (6) definește vulnerabilitatea prin beneficierea de măsuri de asistență socială. Vârsta înaintată sau riscul ridicat de incendiu nu determină singure includerea; pot rămâne în afara obligației persoane vulnerabile care nu beneficiază de asemenea măsuri.",
-        "Art. 19¹ alin. (5) folosește formula «proprietarii sau, după caz, utilizatorii», fără criterii pentru împărțirea responsabilităților. Pentru locuințele închiriate rămâne neclar cine suportă achiziția, instalarea, bateriile și înlocuirea dispozitivelor.",
-        "Art. 19² alin. (1) obligă autoritățile locale să deruleze programe, dar alin. (4) spune că echipamentele și instalarea «pot fi asigurate». Finanțarea integrală a programelor nu echivalează cu un drept individual garantat la dotare gratuită; întreținerea și înlocuirea nu sunt explicit acoperite.",
-        "Art. 19² alin. (3) enumeră surse de finanțare, dar nu cuantifică beneficiarii, costul total sau contribuțiile bugetelor implicate. Apar cheltuieli pentru gospodării și sarcini administrative pentru autorități; IMM-urile proprietare ale locuințelor vizate pot suporta costuri, fără să existe obligații generale noi pentru toate IMM-urile.",
-        "Art. 19¹ alin. (4) condiționează recepția de dotare dacă urmează să locuiască persoane vulnerabile, fără să precizeze cum se stabilește această situație înaintea ocupării. Art. 6 alin. (4) din legea existentă obligă deja dezvoltatorii locuințelor colective să asigure detectoare autonome de incendiu; cele două regimuri trebuie corelate. [Legea nr. 307/2006](https://legislatie.just.ro/Public/DetaliiDocument/73657)",
-        "Art. 2¹ introduce proporționalitatea și prioritatea prevenirii pentru locuințe în general, dar nu stabilește un termen concret de conformare. Proiectul nu completează expres lista contravențiilor pentru noile obligații; amenda existentă destinată dezvoltatorilor nu poate fi extinsă automat asupra gospodăriilor prin analogie.",
-        "Art. II amână intrarea în vigoare cu 90 de zile, iar art. 47¹ acordă încă 90 de zile pentru norme. În lectura corelată a acestor dispoziții, normele pot apărea la aproximativ 180 de zile de la publicare; hotărârile privind etapizarea și eligibilitatea nu au termene distincte explicite."
+        "Art. 19¹ alin. (1), (2) și (6): obligația privește locuințele persoanelor beneficiare de măsuri de asistență socială, nu toate locuințele și nici automat toate persoanele vârstnice. Nu sunt identificate prestațiile sau serviciile sociale care determină încadrarea.",
+        "Art. 19¹ alin. (5): formula «proprietarii sau, după caz, utilizatorii» nu stabilește cine răspunde în cazul unei locuințe închiriate. Instalarea și menținerea în funcțiune pot genera cheltuieli inclusiv pentru gospodăriile care nu primesc efectiv sprijin.",
+        "Art. 19² alin. (1) vorbește despre locuințe «aparținând» categoriilor vulnerabile, deși art. 19¹ include și locuințele în care acestea doar locuiesc. Formularea poate restrânge accesul chiriașilor la sprijin, fără să îi scutească de obligație.",
+        "Art. 19²: derularea programelor este formulată ca obligație a autorităților locale, dar achiziția și instalarea sunt componente pe care programele «pot» să le asigure. Enumerarea surselor nu garantează finanțarea integrală a fiecărei gospodării și nu precizează repartizarea cheltuielilor între bugete.",
+        "Art. II și art. 47¹: legea ar intra în vigoare după 90 de zile de la publicare, iar normele ar putea apărea abia după încă 90 de zile. Obligația anterioară recepției, prevăzută la art. 19¹ alin. (4), nu este expres amânată până la adoptarea normelor; hotărârile privind etapizarea și eligibilitatea nu au un termen distinct explicit.",
+        "Art. 2¹ se aplică locuințelor în general și impune prioritatea prevenirii și conformării voluntare înaintea sancțiunilor, exceptând pericolul iminent. Proiectul nu introduce expres o contravenție nouă sau un cuantum nou de amendă; eventuala sancționare trebuie să aibă un temei contravențional aplicabil."
       ],
-      "blindSpotsCaught": "Expunerea de motive vorbește despre locuințele persoanelor vulnerabile, însă art. 19² alin. (1) descrie sprijinul pentru locuințele «aparținând» categoriilor vulnerabile: formularea poate exclude locuințele închiriate, deși obligația se aplică și acolo. Separat, absența serviciilor digitale sau AI nu exclude analiza TRIS, deoarece directiva acoperă și reglementări tehnice pentru produse.",
-      "constitutionalityNote": "Protejarea vieții susține scopul proiectului, potrivit art. 22. Riscurile principale privesc art. 1 alin. (5): beneficiari definiți generic, responsabilități neclare și criterii esențiale lăsate hotărârilor Guvernului; asemenea probleme sunt semnalate și în [avizul negativ al Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L344LG.PDF?nocache=true), care nu reprezintă o decizie CCR. Art. 23 alin. (12) consacră legalitatea pedepselor; proiectul nu introduce infracțiuni, iar sancționarea contravențională necesită un temei expres și previzibil. Pentru cheltuieli trebuie verificată fundamentarea raportată la art. 138 alin. (5), precum și respectarea autonomiei locale; simpla enumerare a bugetelor nu demonstrează disponibilitatea resurselor. Verificările în domiciliu trebuie să respecte art. 27. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355)",
-      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile asupra accesului la profesii reglementate sau exercitării lor; textul analizat nu introduce asemenea restricții, deci testul său specific nu este obligatoriu doar pentru că se impun detectoare. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng). Nu apar monopoluri sau preferințe pentru producători. Cerințele tehnice și achizițiile ulterioare trebuie să respecte concurența și libera circulație a produselor. Directiva 2015/1535 acoperă și produse: trebuie verificat dacă proiectul ori normele sale instituie specificații sau condiții de utilizare notificabile, ținând cont de legislația armonizată și excepțiile aplicabile. Textul furnizat nu permite constatarea unei încălcări TRIS sau a lipsei notificării. [Domeniul TRIS explicat de Comisia Europeană](https://technical-regulation-information-system.ec.europa.eu/en/about-the-20151535/what-is-a-technical-regulation)",
+      "blindSpotsCaught": "Dispoziția finală creează un decalaj posibil între intrarea în vigoare și normele de aplicare. În plus, sprijinul pentru locuințe «aparținând» beneficiarilor nu acoperă clar locuințele închiriate vizate de obligație. Proiectul nu conferă autorităților un drept nou de acces forțat în domiciliu; verificările rămân supuse garanțiilor legale existente.",
+      "constitutionalityNote": "Scopul este compatibil cu protecția vieții și sănătății, potrivit art. 22 și 34 din Constituție, iar obligația de dotare poate justifica o sarcină proporțională asupra proprietății. Art. 1 alin. (5) impune însă clarificarea beneficiarilor, a debitorului obligației, a termenelor și a relației dintre conformarea prealabilă și obligațiile specifice păstrate prin art. 2¹ alin. (4). Art. 23 alin. (12) privește pedeapsa penală și nu justifică automat o obiecție penală aici; pentru contravenții rămân necesare legalitatea și previzibilitatea. Sub art. 138 alin. (5), enumerarea bugetelor nu înlocuiește fundamentarea cheltuielilor; documentele furnizate nu permit verificarea completă a acesteia sau a solicitării informării Guvernului cerute de art. 111 alin. (1), dacă sunt modificate prevederi bugetare. Nu rezultă o neconstituționalitate certă doar din text.",
+      "euLawNote": "Directiva (UE) 2018/958 privește reglementarea profesiilor și accesul la acestea; proiectul nu introduce o profesie reglementată ori o rezervare a instalării către o categorie profesională. Nu există o restricție concurențială evidentă sau un furnizor desemnat. Directiva (UE) 2015/1535 nu privește exclusiv serviciile digitale: poate acoperi și reglementări tehnice privind produsele. Trebuie verificat dacă obligațiile propuse ori normele ulterioare constituie asemenea reglementări și necesită notificare TRIS; simpla trimitere la reglementările tehnice existente nu dovedește singură o încălcare. Cerințele tehnice și achizițiile trebuie să respecte normele UE aplicabile produselor și accesul nediscriminatoriu pe piață.",
       "senatForm": {
         "articleRef": "Art. I pct. 2 – art. 19¹ alin. (3)",
-        "proposalContent": "(3) Pentru locuințele existente, obligațiile prevăzute la alin. (1) și (2) devin exigibile la 60 de zile de la asigurarea gratuită a echipamentelor și instalării prin programele prevăzute la art. 19². Până atunci, lipsa acestora nu atrage sancțiuni pentru proprietar sau utilizator. Prioritatea se stabilește după riscul de incendiu și existența echipamentelor cu combustibili.",
-        "argumentation": "Obligația îi vizează pe beneficiarii asistenței sociale, dar sprijinul nu este garantat fiecărei gospodării. Corelarea conformării cu furnizarea gratuită evită transferarea costurilor inițiale către persoanele fără resurse și fixează în lege termenul și criteriile principale de etapizare.",
-        "otherComments": "Solicitare către Comisia pentru administrație publică și amenajarea teritoriului a Camerei Deputaților, Pl-x 477/2026. Termenul indicat, 17.06.2026, a trecut; transmiterea este o petiție, iar preluarea ca amendament depinde de un deputat și de procedura aplicabilă. Sunt necesare separat bugetarea și clarificarea obligațiilor proprietarului și utilizatorului."
-      }
+        "proposalContent": "(3) Pentru locuințele existente, obligațiile prevăzute la alin. (1) și (2) se aplică etapizat, potrivit unei hotărâri a Guvernului adoptate în 90 de zile de la publicarea prezentei legi. Pentru gospodăriile eligibile pentru sprijin, obligațiile devin exigibile după furnizarea gratuită și instalarea dispozitivelor prin programele prevăzute la art. 19².",
+        "argumentation": "Obligația urmărește protejarea persoanelor vulnerabile, dar textul nu garantează accesul la dispozitive înaintea exigibilității. Corelarea cu sprijinul efectiv și stabilirea unui termen pentru hotărârea Guvernului fac aplicarea previzibilă și reduc sarcina financiară asupra beneficiarilor.",
+        "otherComments": "Proiectul este respins; textul poate servi unei inițiative ulterioare. Trebuie corelat și art. 19² pentru includerea chiriașilor. Verificarea online nu a fost disponibilă; analiza se bazează pe documentele furnizate și nu confirmă independent forma consolidată ori parcursul parlamentar."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-28T16:10:10.486Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:43:28.718Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

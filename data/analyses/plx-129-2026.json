@@ -2,118 +2,174 @@
   "billId": "PL-x 129/2026",
   "slug": "plx-129-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T06:44:52.055Z",
+  "updatedAt": "2026-11-24T15:12:32.815Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 2557,
+    "ordinanceChars": 0,
+    "memoChars": 3136,
+    "memoSupplied": 3136,
+    "marker": "SF-64167EAA"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-129-2026.json",
+    "form": "senat",
+    "textHash": "64167eaa4d3215b1",
+    "fetchedAt": "2026-11-19T10:39:27.937Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
     "riskScore": 1.7,
     "riskLevel": "green",
-    "plainTitle": "29 decembrie devine zi națională de comemorare a victimelor Mișcării Legionare",
-    "summaryTlDr": "Lege simbolică și benignă: creează o zi de comemorare care nu este zi liberă, nu are sancțiuni și nu impune nicio obligație, pentru că totul e formulat cu „pot”. Problemele sunt doar de redactare și de calendar: 29 decembrie cade în vacanța de iarnă, deci partea educativă riscă să rămână pe hârtie.",
-    "initiatorClaim": "Inițiatorii PNL vor ca statul să condamne explicit violența politică, extremismul și antisemitismul Mișcării Legionare și să păstreze memoria victimelor. Au ales ca simbol data asasinării premierului I.G. Duca, 29 decembrie 1933.",
-    "realityCheck": "Legea instituie o zi comemorativă și permite, fără să oblige, autorităților, școlilor, institutelor de istorie și presei publice să organizeze sau să mediatizeze activități. Nu este zi liberă și nu are sancțiuni. Efectul juridic concret e aproape nul: art. 2–4 și 6 enunță posibilități pe care instituțiile le aveau deja, iar valoarea legii este simbolică și educativă. Afirmația din expunerea de motive că 1933 marchează „începutul” violenței legionare este discutabilă istoric, fiindcă Codreanu îl ucisese pe prefectul de poliție Manciu încă din 1924, dar asta nu afectează textul normativ.",
+    "plainTitle": "29 decembrie devine zi de comemorare a victimelor Mișcării Legionare",
+    "summaryTlDr": "Lege simbolică, benignă și declarativă: instituie o zi comemorativă care nu este liberă, iar măsurile sunt doar facultative. Nu creează obligații, taxe sau sancțiuni pentru cetățeni ori firme. Rămân doar două mici probleme de redactare: denumirea ambiguă a zilei și o greșeală de tipar.",
+    "initiatorClaim": "Inițiatorii vor ca statul să condamne ferm violența politică, extremismul și antisemitismul Mișcării Legionare și să consolideze memoria istorică. Au ales data asasinării premierului I.G. Duca, 29 decembrie 1933.",
+    "realityCheck": "Legea instituie o zi comemorativă care nu este liberă (Art.5). Autoritățile, școlile, institutele de cercetare și serviciile publice media pot organiza activități, dar nu sunt obligate (formula este peste tot „pot”). Efectul juridic concret este minim. Singurul impact bugetar posibil este sprijinul financiar facultativ din Art.6, acordat în limitele bugetelor existente.",
     "affectedGroups": [
-      "Sănătate & Educație",
       "Toți cetățenii",
+      "Sănătate & Educație",
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. 3 alin. (1)",
-      "proposalContent": "(1) Ministerul Educației și Cercetării poate recomanda unităților de învățământ introducerea unor activități educative tematice privind istoria extremismului legionar, efectele violenței politice și importanța valorilor democratice, organizate în ultima săptămână de cursuri dinaintea vacanței de iarnă sau în alt interval stabilit prin structura anului școlar.",
-      "argumentation": "Ziua de 29 decembrie cade în fiecare an în vacanța de iarnă, când elevii nu sunt la școală, astfel că recomandarea de la art. 3 alin. (1) ar rămâne fără efect practic. Legarea activităților de ultima săptămână de cursuri păstrează scopul educativ al legii, fără costuri și fără obligații noi pentru școli.",
-      "otherComments": "Corecturi de redactare: la art. 4, „activități organize” trebuie corectat în „activități organizate”. Pentru unitate terminologică (Legea 24/2000), titlul și art. 1 pot folosi „Victimelor Mișcării Legionare”, formula din art. 2 alin. (1), în locul alternanței „legionarilor”/„extremismului legionar”."
+      "articleRef": "Titlu, Art.1 și Art.4",
+      "proposalContent": "Titlu și Art.1: „Ziua Națională de Comemorare a Victimelor Mișcării Legionare”; denumirea se înlocuiește corespunzător în tot textul. Art.4: „activități organize” se corectează în „activități organizate”.",
+      "argumentation": "Formula „Victimelor Legionarilor” este ambiguă: poate fi citită ca „victime care erau legionari”, efect opus intenției. Denumirea propusă reflectă exact obiectul din Art.2 alin.(1) și din expunerea de motive și elimină riscul de deturnare simbolică a zilei.",
+      "otherComments": "Art.2 alin.(2) ar putea trimite expres la Legea nr. 75/1994 privind arborarea drapelului. Legea nu creează obligații sau sancțiuni pentru cetățeni ori firme; toate măsurile sunt facultative și se finanțează în limitele bugetelor aprobate."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 36846,
-      "riskScore": 1,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 46320,
+      "sourceEndMarker": "SF-64167EAA",
+      "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Instituirea zilei de 29 decembrie ca Zi Națională de Comemorare a Victimelor Legionarilor (fără zi liberă)",
-      "verdictShort": "O lege pur simbolică, comemorativă și educativă, fără obligații birocratice, amenzi sau costuri impuse cetățenilor și mediului privat. Conține doar o mică eroare de tehnoredactare și o necorelare tehnică minoră privind arborarea drapelului în bernă.",
-      "initiatorClaim": "Inițiatorii propun marcarea oficială a zilei de 29 decembrie (data asasinării prim-ministrului I.G. Duca în 1933) pentru comemorarea victimelor violenței și extremismului Mișcării Legionare și pentru promovarea valorilor democratice în școli și spațiul public.",
-      "realityCheck": "Legea are un caracter exclusiv permisiv („pot organiza”, „poate recomanda”, „pot acorda sprijin financiar”), nu instituie o zi liberă legală (Art. 5) și nu creează structuri bugetare noi. Singurele scăpări sunt de tehnică legislativă: o greșeală de tipar în textul votat de Senat la Art. 4 („activități organize”) și lăsarea arborării drapelului în bernă la opțiunea fiecărei instituții (Art. 2 alin. 2).",
+      "plainTitle": "29 decembrie devine Ziua Comemorării Victimelor Legionarilor, fără a fi zi liberă",
+      "verdictShort": "Proiect comemorativ și simbolic, cu risc juridic și economic minim, care nu impune obligații cetățenilor sau firmelor. Necesită doar câteva ajustări tehnice de corelare bugetară și de redactare la Camera Deputaților.",
+      "initiatorClaim": "Inițiatorii vor să instituie 29 decembrie (data asasinării premierului I.G. Duca în 1933) ca zi națională comemorativă, pentru a condamna violența politică și extremismul legionar și pentru a consolida memoria istorică și valorile democratice.",
+      "realityCheck": "Legea are un efect pur declarativ și facultativ: toate acțiunile (ceremonii, recomandări școlare, emisiuni la TVR/SRR/AGERPRES, sprijin financiar) sunt formulate cu verbul „pot”, fără obligații, sancțiuni sau zi liberă legală (Art. 5). În practică, singurul impact concret este deschiderea posibilității de finanțare publică la Art. 6, fără plafon sau precizarea explicită a limitei bugetelor aprobate.",
       "affectedGroups": [
+        "Toți cetățenii",
         "Sănătate & Educație",
-        "Toți cetățenii"
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 5 prevede expres că 29 decembrie nu este zi liberă legală, deci nu există niciun impact asupra angajatorilor, productivității muncii sau mediului privat.",
-        "Art. 2, Art. 3 și Art. 6 folosesc exclusiv norme supletive/permisive („pot organiza”, „poate recomanda”, „pot acorda”), fără a impune cheltuieli bugetare obligatorii sau sarcini administrative.",
-        "Art. 4 din forma adoptată de Senat conține o eroare materială de redactare („activități organize în conformitate cu prevederile art. 2 alin. (1)” în loc de „activități organizate”)."
+        "Caracter integral facultativ și fără impact pe piața muncii: Art. 2–4 și Art. 6 prevăd doar posibilități („pot organiza”, „poate recomanda”, „pot acorda”), iar Art. 5 exclude explicit declararea zilei ca liberă legală.",
+        "Sprijin financiar fără trimitere la limita bugetară (Art. 6): Guvernul și autoritățile locale pot finanța evenimente și proiecte memoriale „în condițiile legii”, fără a menționa explicit încadrarea în bugetele aprobate anual.",
+        "Corelare imperfectă cu legea drapelului (Art. 2 alin. 2) și detaliu practic pentru școli (Art. 3 alin. 1): arborarea drapelului în bernă este lăsată la discreția fiecărei instituții (deși Legea nr. 75/1994 o leagă de doliul național), iar data de 29 decembrie cade în vacanța de iarnă a elevilor."
       ],
-      "blindSpotsCaught": "La Art. 2 alin. (2) se prevede că „Instituțiile publice pot arbora drapelul României în bernă, conform legii”, însă potrivit art. 6 din Legea nr. 75/1994, drapelul României se arborează în bernă doar în zilele de doliu național stabilite unitar prin hotărâre a Guvernului, nu la latitudinea individuală a fiecărei instituții publice. De asemenea, la Art. 3 alin. (2) este menționat IICCMER, deși mandatul său legal vizează regimul comunist (1945-1989), nu perioada interbelică.",
-      "constitutionalityNote": "Proiectul respectă Constituția României. Micile inadvertențe de redactare de la Art. 4 („organize”) și Art. 2 alin. (2) pot fi corectate facil în Camera Deputaților pentru respectarea exigențelor de calitate a legii din Art. 1 alin. (5).",
-      "euLawNote": "Nu are incidență asupra dreptului Uniunii Europene: nu reglementează profesii (Directiva 2018/958), nu vizează servicii ale societății informaționale (Directiva TRIS 2015/1535) și nu afectează piața unică sau concurența.",
+      "blindSpotsCaught": "Trei detalii subtile de tehnică legislativă: (1) Art. 4 conține eroarea de redactare „activități organize” în loc de „activități organizate”; (2) Art. 3 alin. (2) implică IICCMER (al cărui mandat statutar vizează crimele comunismului, nu perioada interbelică) în documentarea victimelor legionarilor; (3) Art. 2 alin. (2) permite discreționar arborarea drapelului în bernă, tensionând regula din Legea nr. 75/1994 privind doliul național.",
+      "constitutionalityNote": "În principiu constituțional: nu restrânge drepturi fundamentale și nu introduce sancțiuni (Art. 23 alin. 12 este neincidențiat). Sub aspectul Art. 1 alin. (5) (calitatea legii) și al Art. 138 alin. (5) (sursa de finanțare), caracterul facultativ al Art. 6 evită de regulă o neconstituționalitate directă potrivit jurisprudenței CCR, dar necesită clarificarea încadrării în bugetele aprobate și corelarea Art. 2 alin. (2) cu Legea nr. 75/1994.",
+      "euLawNote": "Fără incidență sau conflicte cu dreptul Uniunii Europene: nu reglementează profesii ori servicii (Directiva (UE) 2018/958 privind testul de proporționalitate nu se aplică), nu vizează reglementări tehnice sau servicii ale societății informaționale (Directiva (UE) 2015/1535 – TRIS nu se aplică) și nu afectează piața internă sau concurența.",
       "senatForm": {
-        "articleRef": "Art. 2 alin. (2) și Art. 4",
-        "proposalContent": "La Art. 4, sintagma „activități organize în conformitate” se înlocuiește cu „activități organizate în conformitate”. La Art. 2 alin. (2), textul se reformulează astfel: „(2) Guvernul poate stabili arborarea drapelului României în bernă, în condițiile Legii nr. 75/1994.”",
-        "argumentation": "Corectarea unei erori materiale evidente din forma adoptată de Senat la Art. 4 („organize” în loc de „organizate”) și corelarea Art. 2 alin. (2) cu Legea nr. 75/1994, potrivit căreia drapelul României se arborează în bernă în mod unitar, prin hotărâre a Guvernului, nu opțional de fiecare instituție în parte.",
-        "otherComments": "Proiectul are caracter strict comemorativ și educativ, fără impact birocratic sau fiscal asupra mediului privat și fără instituirea unei noi zile libere legale."
-      }
+        "articleRef": "Art. 6",
+        "proposalContent": "Art. 6. - Guvernul și autoritățile administrației publice locale pot acorda sprijin financiar, în condițiile legii și în limita bugetelor aprobate anual, pentru organizarea de manifestări, ceremonii, conferințe, activități și a altor proiecte memoriale dedicate Zilei Naționale de Comemorare a Victimelor Legionarilor.",
+        "argumentation": "Completarea cu sintagma „în limita bugetelor aprobate anual” aliniază Art. 6 la cerințele art. 138 alin. (5) din Constituție și ale Legii responsabilității fiscal-bugetare nr. 69/2010, prevenind cheltuieli neacoperite bugetar și asigurând transparența și predictibilitatea finanțării publice locale și centrale.",
+        "otherComments": "Se impun două corecții tehnice la comisie: la Art. 4, îndreptarea erorii „activități organize” în „activități organizate”; la Art. 2 alin. (2), corelarea arborării drapelului în bernă cu Legea nr. 75/1994, care leagă această măsură de zilele de doliu național stabilite de Guvern."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 116278,
-      "riskScore": 2,
+      "durationMs": 25832,
+      "sourceEndMarker": "SF-64167EAA",
+      "riskScore": 1,
       "riskLevel": "green",
-      "plainTitle": "29 decembrie devine zi națională de comemorare a victimelor Mișcării Legionare",
-      "verdictShort": "Lege simbolică și benignă: creează o zi de comemorare care nu este zi liberă, nu are sancțiuni și nu impune nicio obligație, pentru că totul e formulat cu „pot”. Problemele sunt doar de redactare și de calendar: 29 decembrie cade în vacanța de iarnă, deci partea educativă riscă să rămână pe hârtie.",
-      "initiatorClaim": "Inițiatorii PNL vor ca statul să condamne explicit violența politică, extremismul și antisemitismul Mișcării Legionare și să păstreze memoria victimelor. Au ales ca simbol data asasinării premierului I.G. Duca, 29 decembrie 1933.",
-      "realityCheck": "Legea instituie o zi comemorativă și permite, fără să oblige, autorităților, școlilor, institutelor de istorie și presei publice să organizeze sau să mediatizeze activități. Nu este zi liberă și nu are sancțiuni. Efectul juridic concret e aproape nul: art. 2–4 și 6 enunță posibilități pe care instituțiile le aveau deja, iar valoarea legii este simbolică și educativă. Afirmația din expunerea de motive că 1933 marchează „începutul” violenței legionare este discutabilă istoric, fiindcă Codreanu îl ucisese pe prefectul de poliție Manciu încă din 1924, dar asta nu afectează textul normativ.",
+      "plainTitle": "29 decembrie devine zi de comemorare a victimelor Mișcării Legionare",
+      "verdictShort": "Lege simbolică, benignă și declarativă: instituie o zi comemorativă care nu este liberă, iar măsurile sunt doar facultative. Nu creează obligații, taxe sau sancțiuni pentru cetățeni ori firme. Rămân doar două mici probleme de redactare: denumirea ambiguă a zilei și o greșeală de tipar.",
+      "initiatorClaim": "Inițiatorii vor ca statul să condamne ferm violența politică, extremismul și antisemitismul Mișcării Legionare și să consolideze memoria istorică. Au ales data asasinării premierului I.G. Duca, 29 decembrie 1933.",
+      "realityCheck": "Legea instituie o zi comemorativă care nu este liberă (Art.5). Autoritățile, școlile, institutele de cercetare și serviciile publice media pot organiza activități, dar nu sunt obligate (formula este peste tot „pot”). Efectul juridic concret este minim. Singurul impact bugetar posibil este sprijinul financiar facultativ din Art.6, acordat în limitele bugetelor existente.",
       "affectedGroups": [
         "Sănătate & Educație",
-        "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 5: ziua nu este liberă legală, deci nu costă nimic angajatorii sau IMM-urile și nu schimbă nimic din regimul timpului de muncă.",
-        "Art. 2, 3, 4 și 6 folosesc exclusiv „pot”. Nu există nicio obligație și nicio sancțiune, deci nu se impune nimic Administrației Prezidențiale, școlilor sau SRR/SRTv/AGERPRES. Independența editorială a serviciilor publice și separația puterilor rămân neatinse.",
-        "Art. 3 alin. (1): 29 decembrie cade în vacanța de iarnă, deci activitățile educative recomandate școlilor nu se pot ține chiar în acea zi. Textul nu prevede o perioadă alternativă.",
-        "Art. 2 alin. (2): arborarea drapelului în bernă „conform legii” nu arată norma aplicabilă și nici cine decide. Fiecare instituție ar putea proceda diferit.",
-        "Art. 6: sprijinul financiar este facultativ și se acordă „în condițiile legii”, deci nu creează cheltuieli bugetare automate. Costuri apar doar dacă autoritățile aleg să finanțeze proiecte din bugetele deja aprobate.",
-        "Art. 4 conține greșeala de redactare „activități organize” în loc de „organizate”. Terminologia este inconsecventă: titlul spune „Legionarilor”, art. 2 spune „Mișcării Legionare”, iar art. 3–4 spun „extremismului legionar”."
+        "Art.5: ziua nu este liberă legală, deci nu are impact asupra angajatorilor, a salariilor sau a programului de lucru.",
+        "Art.2–4 și Art.6 folosesc exclusiv formula permisivă „pot”, astfel că nu există obligații, termene sau sancțiuni pentru vreo instituție sau persoană.",
+        "Art.2 alin.(2) permite arborarea drapelului în bernă „conform legii”, adică în regimul Legii nr. 75/1994; trimiterea nu este explicită, dar nu creează incertitudine reală.",
+        "Art.4 conține greșeala de redactare „activități organize” în loc de „activități organizate”, care trebuie corectată în comisie.",
+        "Titlul „Victimelor Legionarilor” este ambiguu (poate fi citit ca „victime care erau legionari”), în timp ce Art.2 alin.(1) precizează corect „victimele Mișcării Legionare”."
       ],
-      "blindSpotsCaught": "Calendarul anulează parțial scopul declarat. 29 decembrie este întotdeauna în vacanța de iarnă a elevilor, deci tocmai componenta educativă a legii (art. 3 alin. (1)) nu are pe cine să atingă în ziua respectivă. Separat, art. 3 alin. (2) numește IICCMER, al cărui mandat legal privește crimele comunismului și memoria exilului, nu violențele legionare din perioada interbelică și din 1940–1941. Formula permisivă „pot susține” nu îi extinde atribuțiile, așa că o eventuală contribuție a institutului depinde de felul în care își interpretează propriul statut.",
-      "constitutionalityNote": "Nu se vede nicio problemă de constituționalitate. Instituirea zilelor comemorative prin lege ordinară este o practică constantă, iar Senatul a adoptat textul conform art. 76 alin. (2). Legea nu restrânge drepturi, deci art. 53 nu este incident. Nu sancționează opinii (art. 30) și nu stabilește pedepse, deci art. 23 alin. (12) nu se aplică. Fiind integral permisivă, nu încalcă separația puterilor (art. 1 alin. (4)) față de Președinție sau Guvern. La claritate și previzibilitate (art. 1 alin. (5)) defectele sunt minore: greșeala de tipar de la art. 4, terminologia neunitară și trimiterea vagă „conform legii” de la art. 2 alin. (2). Intrarea în vigoare la 30 de zile respectă art. 78. Art. 138 alin. (5) nu este pus în discuție, pentru că art. 6 nu impune cheltuieli. Legea este coerentă cu art. 30 alin. (7) și cu interdicția propagandei legionare din OUG 31/2002.",
-      "euLawNote": "Dreptul UE nu este relevant aici. Legea nu reglementează profesii, deci Directiva (UE) 2018/958 privind testul de proporționalitate nu se aplică. Nu conține reguli tehnice sau reguli privind serviciile societății informaționale, deci nu necesită notificare TRIS conform Directivei (UE) 2015/1535. Nu afectează libera circulație, piața unică sau concurența. Prevederea privind SRR/SRTv/AGERPRES este permisivă și compatibilă cu cerințele de independență a serviciilor media publice din Regulamentul (UE) 2024/1083 (EMFA). Obiectivul legii se aliniază cu Decizia-cadru 2008/913/JAI privind combaterea rasismului și xenofobiei și cu strategia UE de combatere a antisemitismului.",
+      "blindSpotsCaught": "Denumirea „Ziua Națională de Comemorare a Victimelor Legionarilor” poate fi interpretată în sens invers, ca omagiere a legionarilor căzuți (de exemplu, cei executați în 1938–1939). Această lectură ar putea fi exploatată simbolic de grupări extremiste, contrar scopului legii și spiritului OUG nr. 31/2002. Formula „Victimelor Mișcării Legionare” elimină ambiguitatea. Art.3 alin.(2) include IICCMER, instituție al cărei mandat principal privește comunismul; includerea nu este greșită, dar Institutul „Elie Wiesel” este instituția specializată în domeniu.",
+      "constitutionalityNote": "Nu ridică probleme constituționale. Instituirea zilelor comemorative ține de competența legiuitorului (Art. 73 alin.(1) Constituție, lege ordinară). Textul este clar și previzibil (Art. 1 alin.(5)). Nu restrânge drepturi fundamentale și nu afectează libertatea de exprimare (Art. 30), pentru că nu impune nicio conduită cetățenilor. Recomandările către școli sunt facultative și nu încalcă autonomia didactică. Lipsa unei fișe financiare nu contravine Art. 138 alin.(5), deoarece cheltuielile sunt facultative și se fac „în condițiile legii”.",
+      "euLawNote": "Legea nu are relevanță pentru dreptul UE. Nu reglementează profesii, deci Directiva (UE) 2018/958 nu se aplică. Nu reglementează servicii ale societății informaționale sau AI, deci nu necesită notificare TRIS conform Directivei (UE) 2015/1535. Nu afectează piața unică sau concurența. Este compatibilă cu Decizia-cadru 2008/913/JAI privind combaterea rasismului și xenofobiei și cu Strategia UE de combatere a antisemitismului (2021–2030).",
       "senatForm": {
-        "articleRef": "Art. 3 alin. (1)",
-        "proposalContent": "(1) Ministerul Educației și Cercetării poate recomanda unităților de învățământ introducerea unor activități educative tematice privind istoria extremismului legionar, efectele violenței politice și importanța valorilor democratice, organizate în ultima săptămână de cursuri dinaintea vacanței de iarnă sau în alt interval stabilit prin structura anului școlar.",
-        "argumentation": "Ziua de 29 decembrie cade în fiecare an în vacanța de iarnă, când elevii nu sunt la școală, astfel că recomandarea de la art. 3 alin. (1) ar rămâne fără efect practic. Legarea activităților de ultima săptămână de cursuri păstrează scopul educativ al legii, fără costuri și fără obligații noi pentru școli.",
-        "otherComments": "Corecturi de redactare: la art. 4, „activități organize” trebuie corectat în „activități organizate”. Pentru unitate terminologică (Legea 24/2000), titlul și art. 1 pot folosi „Victimelor Mișcării Legionare”, formula din art. 2 alin. (1), în locul alternanței „legionarilor”/„extremismului legionar”."
-      }
+        "articleRef": "Titlu, Art.1 și Art.4",
+        "proposalContent": "Titlu și Art.1: „Ziua Națională de Comemorare a Victimelor Mișcării Legionare”; denumirea se înlocuiește corespunzător în tot textul. Art.4: „activități organize” se corectează în „activități organizate”.",
+        "argumentation": "Formula „Victimelor Legionarilor” este ambiguă: poate fi citită ca „victime care erau legionari”, efect opus intenției. Denumirea propusă reflectă exact obiectul din Art.2 alin.(1) și din expunerea de motive și elimină riscul de deturnare simbolică a zilei.",
+        "otherComments": "Art.2 alin.(2) ar putea trimite expres la Legea nr. 75/1994 privind arborarea drapelului. Legea nu creează obligații sau sancțiuni pentru cetățeni ori firme; toate măsurile sunt facultative și se finanțează în limitele bugetelor aprobate."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 81319,
+      "durationMs": 59268,
+      "sourceEndMarker": "SF-64167EAA",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "29 decembrie: comemorarea victimelor violenței legionare",
-      "verdictShort": "Proiectul are un scop comemorativ și educativ legitim, cu risc juridic redus. Nu introduce taxe, sancțiuni sau obligații pentru cetățeni și firme, dar necesită clarificarea regulii privind drapelul în bernă.",
-      "initiatorClaim": "Inițiatorii urmăresc comemorarea victimelor Mișcării Legionare și prevenirea extremismului prin educație istorică. Alegerea datei evocă asasinarea prim-ministrului I.G. Duca la 29 decembrie 1933.",
-      "realityCheck": "Art. 1 instituie ziua comemorativă, iar art. 2–4 și 6 permit organizarea și susținerea unor activități, fără să garanteze desfășurarea lor anuală. Proiectul nu instituie despăgubiri pentru victime, infracțiuni noi, participare obligatorie sau obligații editoriale pentru presa privată. Art. 5 exclude expres o zi liberă legală, iar eventualele cheltuieli publice depind de deciziile instituțiilor și de finanțarea legal aprobată.",
+      "plainTitle": "29 decembrie: comemorarea victimelor legionarilor",
+      "verdictShort": "Proiectul are un risc redus: instituie o zi comemorativă și permite activități publice, educative și culturale. Nu introduce taxe, sancțiuni, obligații pentru firme sau o nouă zi liberă legală.",
+      "initiatorClaim": "Inițiatorii urmăresc comemorarea victimelor Mișcării Legionare și educarea publicului despre violența politică, antisemitism și valorile democratice. Alegerea datei este justificată prin asasinarea prim-ministrului I. G. Duca la 29 decembrie 1933.",
+      "realityCheck": "Articolele instituie ziua comemorativă, dar lasă organizarea manifestărilor, recomandările educative, conținutul editorial și finanțarea la nivel de posibilitate, fără obligații anuale de realizare. Art. 6 permite cheltuieli publice, însă nu stabilește sume și nu deschide singur credite bugetare. Dispozițiile finale precizează că ziua nu este liberă legală și că legea intră în vigoare după 30 de zile; nu există abrogări, derogări exprese sau modificări ale altor legi.",
       "affectedGroups": [
-        "Justiție & Drepturi Civile",
         "Sănătate & Educație",
+        "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 3 alin. (1) permite ministerului să recomande activități tematice; nu introduce automat o disciplină, ore suplimentare obligatorii sau raportări pentru profesori. Utilitatea educativă depinde de aplicarea ulterioară.",
-        "Art. 4 permite TVR, Radioului public și AGERPRES să realizeze materiale comemorative, fără cote obligatorii de difuzare sau exclusivitate asupra subiectului. Formula «activități organize» trebuie verificată în documentul original și corectată dacă nu este o eroare de extragere.",
-        "Art. 6 permite sprijin financiar, dar nu stabilește sume, beneficiari determinați sau o procedură proprie de acordare. Impactul bugetar este posibil și necuantificat în documentele furnizate; nu rezultă taxe, autorizații, formulare ori costuri administrative obligatorii pentru cetățeni și IMM-uri."
+        "Art. 1 instituie o comemorare națională, iar art. 5 exclude expres caracterul de zi liberă legală: nu rezultă obligații suplimentare privind concediile sau salarizarea.",
+        "Art. 2, 3, 4 și 6 folosesc formulări facultative. Nu impun participarea cetățenilor, activități obligatorii pentru școli sau obligații administrative pentru IMM-uri.",
+        "Art. 6 permite sprijin financiar public fără cuantum, procedură proprie de selecție sau derogare de la regulile generale. Cheltuielile efective depind de alocările și procedurile legale aplicabile.",
+        "Art. 2 alin. (2) permite arborarea drapelului în bernă «conform legii». Instituirea zilei comemorative nu echivalează expres cu declararea unei zile de doliu național; corelarea celor două regimuri merită clarificată.",
+        "Art. 4 permite realizarea și difuzarea de materiale de către serviciile publice de presă, fără cote obligatorii sau sancțiuni. Eroarea «activități organize» necesită o corectură redacțională, fără să justifice creșterea scorului de risc."
       ],
-      "blindSpotsCaught": "Art. 2 alin. (2) permite arborarea drapelului în bernă «conform legii», însă art. 6 din Legea nr. 75/1994 leagă această arborare de zilele de doliu național stabilite de Guvern. Proiectul nu declară 29 decembrie zi de doliu național. Nu rezultă o incompatibilitate inevitabilă, dar trebuie precizat dacă se dorește o permisiune specială, independentă de declararea doliului. [Legea nr. 75/1994, art. 6](https://legislatie.just.ro/Public/DetaliiDocument/4303).",
-      "constitutionalityNote": "Pe textul furnizat nu se conturează o încălcare constituțională evidentă. Prin raportare la art. 1 alin. (5), principala problemă de previzibilitate este relația dintre permisiunea arborării în bernă și legislația generală; formularea largă «persoanelor [...] afectate» are consecințe reduse deoarece nu determină sancțiuni sau drepturi bănești individuale. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident: proiectul nu instituie pedepse. Caracterul facultativ al finanțării nu înlătură art. 138 alin. (5): aprobarea cheltuielilor necesită stabilirea sursei. Dacă inițiativa implică modificarea bugetului de stat, trebuie verificată solicitarea informării Guvernului potrivit art. 111 alin. (1); documentele furnizate nu permit constatarea îndeplinirii sau încălcării acestei cerințe. Termenul de intrare în vigoare de 30 de zile respectă art. 78. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355).",
-      "euLawNote": "Directiva (UE) 2018/958 nu impune aici un test de proporționalitate: proiectul nu restrânge accesul la profesii reglementate sau exercitarea lor. [Directiva 2018/958, art. 2 și 4](https://eur-lex.europa.eu/legal-content/ro/ALL/?uri=CELEX%3A32018L0958). Nu rezultă obligația notificării TRIS: nu sunt introduse reglementări tehnice pentru produse sau cerințe specifice pentru servicii ale societății informaționale; posibilitatea difuzării unor materiale comemorative nu echivalează cu reglementarea serviciilor digitale ori AI. [Directiva 2015/1535, art. 1 și 5](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32015L1535). Textul nu creează monopoluri sau bariere de piață. Acordarea concretă a finanțărilor trebuie să respecte, după caz, regulile privind achizițiile publice și ajutorul de stat; simpla autorizare a sprijinului nu demonstrează o încălcare.",
+      "blindSpotsCaught": "Denumirea de «Zi Națională» nu creează automat nici zi nelucrătoare, nici doliu național. De asemenea, art. 3 alin. (1) permite recomandări privind activități educative, fără să introducă prin el însuși o disciplină obligatorie sau o modificare a programei. Afirmațiile istorice din expunerea de motive explică alegerea inițiatorilor, dar nu devin obligații juridice.",
+      "constitutionalityNote": "Din text nu rezultă o problemă evidentă de constituționalitate. În raport cu art. 1 alin. (5), principalele îmbunătățiri privesc corelarea arborării drapelului în bernă cu legislația existentă și precizarea cadrului bugetar. Art. 23 alin. (12) nu este incident: proiectul nu instituie pedepse. Caracterul facultativ al finanțării nu înlătură cerințele art. 138 alin. (5), dar textul furnizat nu permite constatarea unei încălcări fără examinarea documentelor financiare și a surselor de finanțare. Termenul de intrare în vigoare de 30 de zile este compatibil cu art. 78. Art. 4 trebuie aplicat cu respectarea autonomiei serviciilor publice de radio și televiziune, protejată de art. 31 alin. (5).",
+      "euLawNote": "Directiva (UE) 2018/958 privește evaluarea proporționalității restricțiilor asupra accesului la profesii reglementate sau exercitării acestora; proiectul nu introduce asemenea restricții. Directiva (UE) 2015/1535 privind notificarea reglementărilor tehnice nu apare incidentă: nu sunt stabilite cerințe tehnice pentru produse sau reguli specifice serviciilor societății informaționale. Nu se identifică restricții directe asupra concurenței ori pieței unice. Eventualele finanțări acordate unor operatori economici trebuie analizate individual potrivit regulilor aplicabile, inclusiv celor privind ajutoarele de stat, dacă sunt întrunite condițiile acestora.",
       "senatForm": {
-        "articleRef": "Art. 2 alin. (2)",
-        "proposalContent": "(2) Prin derogare de la art. 6 din Legea nr. 75/1994, cu modificările și completările ulterioare, instituțiile publice pot arbora drapelul României în bernă la 29 decembrie, cu prilejul Zilei Naționale de Comemorare a Victimelor Legionarilor.",
-        "argumentation": "Textul actual nu precizează raportul cu art. 6 din Legea nr. 75/1994, care leagă arborarea în bernă de zilele de doliu național stabilite de Guvern. Derogarea expresă clarifică permisiunea specială pentru 29 decembrie, fără a declara automat doliu național și fără a transforma opțiunea în obligație.",
-        "otherComments": "Propunere cetățenească adresată comisiei de raport a Camerei Deputaților, care poate fi preluată de un deputat ca amendament. La art. 4, verificați în original formularea „activități organize”; dacă se confirmă, corectați în „activități organizate”."
-      }
+        "articleRef": "Art. 6",
+        "proposalContent": "Guvernul și autoritățile administrației publice locale pot acorda sprijin financiar, în condițiile legii și în limita creditelor bugetare aprobate cu această destinație, pentru organizarea de manifestări, ceremonii, conferințe, activități și alte proiecte memoriale dedicate Zilei Naționale de Comemorare a Victimelor Legionarilor.",
+        "argumentation": "Precizarea limitei creditelor bugetare face explicit faptul că sprijinul financiar facultativ se acordă pe baza alocărilor aprobate. Îmbunătățește disciplina și previzibilitatea bugetară, fără să transforme comemorarea într-o obligație de cheltuire și fără să creeze o procedură administrativă suplimentară.",
+        "otherComments": "Propunere pentru comisia de raport a Camerei Deputaților; e-mailul cetățeanului nu devine automat amendament parlamentar. Termenul indicat, 12.03.2026, este depășit la data analizei; preluarea depinde de procedura în curs. Verificarea online nu a fost disponibilă; analiza folosește textul și datele furnizate."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T06:44:52.055Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:12:32.815Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

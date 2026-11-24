@@ -2,144 +2,183 @@
   "billId": "PL-x 58/2025",
   "slug": "plx-58-2025",
   "version": "senat",
-  "updatedAt": "2026-11-19T12:14:17.614Z",
+  "updatedAt": "2026-11-24T15:15:17.692Z",
   "coverage": {
     "method": "whole-text-v1",
+    "form": "senat",
     "billChars": 1206,
     "ordinanceChars": 25499,
     "memoChars": 35177,
     "memoSupplied": 35177,
-    "marker": "SF-5F4FDA72",
-    "form": "senat"
+    "marker": "SF-5F4FDA72"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-58-2025.json",
+    "form": "senat",
+    "textHash": "5f4fda724baa0bf5",
+    "fetchedAt": "2026-11-19T10:48:28.493Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 4.3,
+    "riskScore": 4,
     "riskLevel": "yellow",
-    "plainTitle": "Cine verifică și cine amendează companiile aeriene și furnizorii de kerosen pentru combustibilul verde în aviație",
-    "summaryTlDr": "Este o lege tehnică, de punere în aplicare a unui regulament UE direct aplicabil. Desemnează autoritățile și preia amenzile minime impuse de Bruxelles. Riscurile reale sunt punctuale: o sancțiune complementară de suspendare a operării, fără criterii, și metodologii de calcul al amenzilor lăsate pe seama unor acte administrative.",
-    "initiatorClaim": "Guvernul spune că trebuia desemnat urgent cine aplică Regulamentul (UE) 2023/2405 (ReFuelEU) și ce sancțiuni se dau, înainte de 1 ianuarie 2025. Altfel, operatorii nu ar fi știut cui să se adreseze, iar România risca o procedură de infringement.",
-    "realityCheck": "OUG 151/2024 numește AACR autoritate pentru operatorii aerieni și aeroporturi și Ministerul Energiei pentru furnizorii de combustibil de aviație. Stabilește contravenții, iar amenzile calculate pe tone și pe diferența de preț preiau formula minimă impusă de art. 12 din Regulament. Ca efecte secundare: AACR poate suspenda dreptul de operare pe aeroporturile din România fără criterii de aplicare (art. 11 alin. 4), cuantumul amenzilor depinde de metodologii emise prin decizie AACR sau prin ordin comun MEn–AVR (art. 13), iar constatarea pentru furnizori e împărțită „și/sau” între Ministerul Energiei și Autoritatea Vamală.",
+    "plainTitle": "Cine verifică și cine amendează companiile aeriene și furnizorii de kerosen care nu folosesc combustibil «verde» cerut de UE",
+    "summaryTlDr": "Este o ordonanță tehnică și necesară: numește autoritățile și stabilește amenzile pentru un regulament UE care se aplică oricum direct. Problema reală este de redactare: formula amenzilor de la art. 11 alin. (1) lit. b) și d) e scrisă invers. La asta se adaugă o sancțiune complementară severă, aplicată fără criterii, pentru întârzierea raportării.",
+    "initiatorClaim": "Guvernul spune că trebuie desemnate urgent autoritățile competente și regimul de sancțiuni cerute de Regulamentul (UE) 2023/2405 (ReFuelEU Aviation), aplicabil din 1 ianuarie 2025. Altfel, România riscă o procedură de neîndeplinire a obligațiilor, iar operatorii nu ar avea cui să ceară derogări.",
+    "realityCheck": "AACR devine autoritatea pentru operatorii aerieni și aeroporturi, cu puterea de a acorda derogări pe rute sub 850 km. Ministerul Energiei, împreună cu Autoritatea Vamală, răspunde de furnizorii de combustibil. Se introduc amenzi calculate după cantitate și preț, la dublul valorii, așa cum cere Regulamentul, plus amenzi fixe între 3.000 și 80.000 lei. Efectele secundare: formula pentru SAF dă, citită literal, o valoare negativă; se elimină plata a jumătate din minim (art. 28 din OG 2/2001); AACR poate suspenda dreptul de operare pe aeroporturile din România pentru o simplă întârziere a raportării, fără criterii.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Agricultură & Mediu",
+      "Toți cetățenii",
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. unic – OUG 151/2024, art. 11 alin. (4)",
-      "proposalContent": "Art. 11 alin. (4): «AACR poate aplica sancțiunea complementară a suspendării dreptului de operare pe aeroporturile din România numai după o somație scrisă care acordă un termen de 10 zile lucrătoare pentru raportare, ținând seama de gravitate și conduita anterioară; suspendarea încetează de drept la data raportării.»",
-      "argumentation": "Textul actual permite suspendarea operării, sancțiune foarte gravă (anulări de zboruri, pasageri afectați), fără criterii, somație sau procedură de ridicare. Regulamentul (UE) 2023/2405 nu impune această măsură. Precizarea asigură previzibilitatea (art. 1 alin. 5 Constituție) și proporționalitatea cerută de art. 12 din Regulament.",
-      "otherComments": "Art. 13 alin. (2)-(4): metodologiile de calcul al amenzilor să fie publicate obligatoriu în Monitorul Oficial, Partea I. Art. 13 alin. (1) lit. b): «și/sau» creează risc de competență dublă MEn–AVR. Art. 3 alin. (6): lipsesc termene concrete. Art. 15: veniturile din amenzi pot fi direcționate spre SAF (art. 12 alin. 10 din Regulament)."
+      "articleRef": "Art. 11 alin. (1) lit. b) și d)",
+      "proposalContent": "La art. 11 alin. (1) lit. b) și d), sintagma „diferenței dintre prețul mediu anual al combustibilului de aviație convențional și cel al SAF” se înlocuiește cu „diferenței dintre prețul mediu anual al SAF și cel al combustibilului de aviație convențional”, în acord cu art. 12 din Regulamentul (UE) 2023/2405.",
+      "argumentation": "SAF e mai scump decât kerosenul convențional, deci diferența «convențional minus SAF» e negativă. Citit literal, textul duce la o amendă zero sau negativă, iar contravenientul poate contesta procesul-verbal pe lipsa de previzibilitate (art. 1 alin. 5 Constituție). Formula de la lit. c) e corectă; lit. b) și d) trebuie aliniate la ea.",
+      "otherComments": "Se recomandă și: criterii la art. 11 alin. (4) pentru suspendarea dreptului de operare (proporțională, limitată în timp, cu avertisment prealabil); un termen minim și o sancțiune la art. 3 alin. (6) pentru handleri; clarificarea momentului de la care curg cei 3 ani la art. 10 lit. b)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 34362,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 108201,
       "sourceEndMarker": "SF-5F4FDA72",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Regulile și amenzile pentru combustibilul ecologic în aviație (ReFuelEU)",
-      "verdictShort": "Este o lege tehnică necesară pentru aplicarea regulamentului european privind combustibilii sustenabili în aviație, fără taxe ascunse sau monopoluri. Prezintă însă riscuri punctuale de previzibilitate și proporționalitate: permite AACR să suspende dreptul de operare al companiilor aeriene pentru întârzieri de raportare și amână cu 90 de zile metodologiile de calcul al amenzilor față de intrarea lor în vigoare.",
-      "initiatorClaim": "Guvernul susține că OUG 151/2024 era urgentă pentru a desemna autoritățile competente (AACR și Ministerul Energiei) și regimul sancționator până la 1 ianuarie 2025, evitând sancțiunile Comisiei Europene pentru neaplicarea Regulamentului (UE) 2023/2405.",
-      "realityCheck": "În practică, proiectul transpune cadrul administrativ cerut de Bruxelles: AACR verifică operatorii aerieni și aeroporturile (inclusiv acordarea derogărilor pe rute scurte), iar Ministerul Energiei și Autoritatea Vamală verifică furnizorii de combustibil. Totuși, art. 11 alin. (4) adaugă o sancțiune complementară neimpusă de regulamentul UE — suspendarea dreptului de operare pe aeroporturile din România la discreția AACR — iar art. 13 lasă calculul amenzilor pe seama unor metodologii emise ulterior, inclusiv prin simplă decizie a directorului general al AACR.",
+      "plainTitle": "Amenzi și reguli naționale pentru combustibilul verde din aviație (ReFuelEU)",
+      "verdictShort": "OUG-ul este necesar pentru aplicarea unui regulament UE deja obligatoriu, însă prezintă vicii concrete de tehnică legislativă și proporționalitate a sancțiunilor. Delegarea calculului unor amenzi uriașe către o decizie internă a AACR și posibilitatea suspendării discreționare a zborurilor pentru întârzieri birocratice necesită corectare în Camera Deputaților.",
+      "initiatorClaim": "Guvernul susține că actul stabilește urgent doar cadrul administrativ și sancționator necesar aplicării Regulamentului (UE) 2023/2405 (ReFuelEU Aviation) din 1 ianuarie 2025, pentru a oferi predictibilitate industriei aviatice și a evita sancțiunile Comisiei Europene.",
+      "realityCheck": "Pe fond, ordonanța desemnează corect autoritățile competente (AACR și Ministerul Energiei) și transpune formulele de amendă cerute de UE. În practică însă, introduce praguri de amendă care se suprapun, permite AACR (o regie autonomă) să stabilească metodologia de calcul al amenzilor fără criterii legale sau publicare obligatorie în Monitorul Oficial și îi oferă puterea discreționară de a suspenda operarea companiilor aeriene în România pentru o simplă întârziere de raportare.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Agricultură & Mediu",
-        "Justiție & Drepturi Civile"
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 11 alin. (4) permite AACR să suspende discreționar („poate aplica”) dreptul de operare pe aeroporturile românești pentru întârzieri de raportare de peste 30 de zile lucrătoare, fără criterii de gravitate sau notificare prealabilă.",
-        "Decalaj normativ între art. 16 și art. 13 alin. (2) și (4): contravențiile și sancțiunile intră în vigoare la 30 de zile de la publicare, dar metodologiile de stabilire a prețului de referință pentru amenzi au termen de emitere de 90 de zile, iar cea a AACR se adoptă prin decizie a directorului general.",
-        "Art. 9 alin. (1) obligă furnizorii să respecte auditarea conform actelor naționale de transpunere a art. 31a din Directiva (UE) 2018/2001, deși Expunerea de motive recunoaște explicit că acest articol nu era încă transpus la data adoptării OUG.",
-        "Art. 13 alin. (5) exclude aplicarea art. 28 alin. (1) și art. 29 din OG nr. 2/2001, eliminând posibilitatea achitării a jumătate din minimul amenzii în 15 zile, iar art. 11 alin. (1) preia formula severă din regulamentul UE (dublul diferenței de preț pe tonă).",
-        "Proiectul de aprobare a fost adoptat tacit de Senat (art. 115 alin. 5 teza a III-a din Constituție), fără dezbatere parlamentară de fond pe aceste detalii tehnice."
+        "Art. 11 alin. (4) permite AACR să aplice discreționar („poate aplica”) suspendarea dreptului de operare pe aeroporturile din România dacă un operator aerian întârzie raportarea cu peste 30 de zile lucrătoare, fără somație prealabilă sau criterii de proporționalitate.",
+        "Art. 13 alin. (2) deleagă stabilirea metodologiei de calcul al amenzilor proporționale (dublul valorii combustibilului nealimentat) către o simplă decizie a directorului general al AACR (regie autonomă), fără cerința unor surse obiective de preț (prezentă la alin. 3 pentru Ministerul Energiei) și cu termen de 90 de zile, deși sancțiunile intră în vigoare la 30 de zile (art. 16).",
+        "Art. 11 alin. (3) lit. a)-c) prevede intervale de întârziere care se suprapun („până la 7 zile”, „până la 15 zile”, „până la 30 zile”), permițând încadrarea arbitrară a aceleiași fapte în tranșe diferite de amendă; în plus, art. 11 alin. (1) lit. b) și d) inversează scăderea (preț convențional minus preț SAF), generând strict aritmetic o diferență negativă.",
+        "Art. 9 alin. (1) obligă furnizorii de combustibil să auditeze datele conform actelor de transpunere a art. 31a din Directiva (UE) 2018/2001, deși în Expunerea de Motive Guvernul recunoaște explicit că acest articol nu este încă transpus în legislația națională."
       ],
-      "blindSpotsCaught": "Deși art. 10 lit. d) sancționează neîndeplinirea atât a cotelor minime, cât și a cotelor medii de combustibili sintetici (2030–2034), formula de calcul al amenzii din art. 11 alin. (1) lit. c) face trimitere exclusiv la cantitatea care nu respectă „cotele minime”. În plus, la art. 11 alin. (1) lit. b) și d), diferența este formulată matematic ca „prețul convențional minus prețul SAF” (care în practică este negativă, SAF fiind mai scump).",
-      "constitutionalityNote": "Delegarea stabilirii metodologiei de calcul a unor amenzi substanțiale către o decizie a directorului general al AACR (regie autonomă, art. 13 alin. 2) și marja discreționară de a suspenda operarea aeriană (art. 11 alin. 4) ridică semne de întrebare privind claritatea și previzibilitatea legii contravenționale (art. 1 alin. 5 și art. 23 alin. 12 din Constituție). Invocarea urgenței (art. 115 alin. 4) la peste un an de la adoptarea Regulamentului UE din octombrie 2023 reflectă o întârziere administrativă internă, chiar dacă jurisprudența CCR tolerează uneori urgența motivată prin evitarea infringementului.",
-      "euLawNote": "Proiectul asigură punerea în aplicare a Regulamentului (UE) 2023/2405 (ReFuelEU Aviation) și nu reglementează profesii în sensul Directivei (UE) 2018/958 (testul de proporționalitate), utilizând verificatorii deja acreditați conform Regulamentului (UE) 2018/2067, și nici servicii digitale naționale care să necesite notificare TRIS conform Directivei (UE) 2015/1535. Singura fricțiune potențială cu piața unică aeriană este suspendarea dreptului de operare din art. 11 alin. (4), măsură națională suplimentară neprevăzută de Regulamentul (UE) 2023/2405.",
+      "blindSpotsCaught": "Proiectul a trecut tacit de Senat (art. 115 alin. 5 teza a III-a Constituție) fără dezbatere, deși derogă masiv de la OG nr. 2/2001 (elimină plafonul legal al amenzii și dreptul de plată a jumătate din minim — art. 28 alin. 1, chiar și pentru amenzile fixe). Există o asimetrie legislativă clară între art. 13 alin. (2) și alin. (3) privind transparența stabilirii prețului mediu al combustibilului, iar art. 12 sancționează repetarea faptei furnizorilor („după aplicarea sancțiunii pentru prima dată”) fără a fixa un termen de referință pentru recidivă.",
+      "constitutionalityNote": "Urgența emiterii OUG (art. 115 alin. 4 Constituție) este plauzibil justificată de termenele Regulamentului UE (31.12.2024 / 01.01.2025). Există însă vulnerabilități serioase față de art. 1 alin. (5) (calitatea și previzibilitatea legii): suprapunerea pragurilor contravenționale la art. 11 alin. (3), decalajul de 60 de zile între intrarea în vigoare a sancțiunilor (art. 16) și adoptarea metodologiilor de calcul (art. 13), precum și delegarea unor elemente esențiale ale regimului sancționator către o decizie a directorului unei regii autonome (AACR), în afara cadrului actelor normative prevăzute de art. 108. Suspendarea discreționară a operării aeriene pentru o omisiune de raportare (art. 11 alin. 4) ridică riscuri privind proporționalitatea restrângerii libertății economice (art. 45 și art. 53).",
+      "euLawNote": "Actul pune în aplicare Regulamentul (UE) 2023/2405 (ReFuelEU Aviation), direct aplicabil în statele membre; Directiva (UE) 2018/958 (profesii reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente. Totuși, suspendarea dreptului de operare pe aeroporturile din România (art. 11 alin. 4) pentru o simplă întârziere administrativă de raportare riscă să afecteze disproporționat libertatea de a presta servicii aeriene în piața unică garantată de Regulamentul (CE) nr. 1008/2008. De asemenea, aplicarea efectivă a art. 9 depinde de transpunerea întârziată a art. 31a din Directiva (UE) 2018/2001 (RED III).",
       "senatForm": {
-        "articleRef": "Art. 11 alin. (4) din OUG nr. 151/2024",
-        "proposalContent": "Se propune modificarea art. 11 alin. (4) din OUG nr. 151/2024 astfel încât suspendarea dreptului de operare să poată fi dispusă doar după o notificare prealabilă cu termen de remediere de 15 zile lucrătoare și cu respectarea proporționalității, ori eliminarea sancțiunii complementare.",
-        "argumentation": "Regulamentul (UE) 2023/2405 nu impune suspendarea zborurilor pentru întârzieri de raportare. Formularea actuală („poate aplica”) oferă AACR o marjă discreționară lipsită de criterii obiective (art. 1 alin. 5 Constituție) și riscă să afecteze disproporționat libertatea de a presta servicii aeriene în piața internă UE.",
-        "otherComments": "Recomandăm și corelarea art. 13 alin. (2) și (4) cu art. 16: sancțiunile intră în vigoare la 30 de zile, dar metodologiile de calcul au termen de 90 de zile. Metodologia AACR ar trebui aprobată prin ordin al ministrului transporturilor și publicată în Monitorul Oficial."
+        "articleRef": "Art. 11 alin. (3)-(4) și art. 13 alin. (2)",
+        "proposalContent": "La art. 11 alin. (3) lit. b)-c) se elimină suprapunerile: «între 8 și 15 zile», respectiv «între 16 și 30 zile». La alin. (4), suspendarea operării se aplică doar după somație prealabilă de 15 zile. La art. 13 alin. (2), metodologia de calcul se aprobă prin ordin MTI, publicat în M.Of., folosind surse obiective și raportul EASA.",
+        "argumentation": "Corectează vicii de previzibilitate (art. 1 alin. 5 Constituție): pragurile de la art. 11 alin. (3) se suprapun, iar AACR, fiind regie autonomă, nu trebuie să fixeze metodologia amenzilor prin decizie internă fără criterii legale. Somația prealabilă asigură proporționalitatea suspendării operării (art. 45, 53 Constituție și Reg. UE 1008/2008).",
+        "otherComments": "Se recomandă și corectarea ordinii termenilor din formula de calcul de la art. 11 alin. (1) lit. b) și d) (preț SAF minus preț convențional, nu invers, pentru a evita valori negative), definirea unui termen de referință pentru recidiva de la art. 12 și clarificarea calendarului de transpunere a art. 31a din Directiva (UE) 2018/2001."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 66450,
+      "durationMs": 48295,
       "sourceEndMarker": "SF-5F4FDA72",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Cine verifică și cine amendează companiile aeriene și furnizorii de kerosen pentru combustibilul verde în aviație",
-      "verdictShort": "Este o lege tehnică, de punere în aplicare a unui regulament UE direct aplicabil. Desemnează autoritățile și preia amenzile minime impuse de Bruxelles. Riscurile reale sunt punctuale: o sancțiune complementară de suspendare a operării, fără criterii, și metodologii de calcul al amenzilor lăsate pe seama unor acte administrative.",
-      "initiatorClaim": "Guvernul spune că trebuia desemnat urgent cine aplică Regulamentul (UE) 2023/2405 (ReFuelEU) și ce sancțiuni se dau, înainte de 1 ianuarie 2025. Altfel, operatorii nu ar fi știut cui să se adreseze, iar România risca o procedură de infringement.",
-      "realityCheck": "OUG 151/2024 numește AACR autoritate pentru operatorii aerieni și aeroporturi și Ministerul Energiei pentru furnizorii de combustibil de aviație. Stabilește contravenții, iar amenzile calculate pe tone și pe diferența de preț preiau formula minimă impusă de art. 12 din Regulament. Ca efecte secundare: AACR poate suspenda dreptul de operare pe aeroporturile din România fără criterii de aplicare (art. 11 alin. 4), cuantumul amenzilor depinde de metodologii emise prin decizie AACR sau prin ordin comun MEn–AVR (art. 13), iar constatarea pentru furnizori e împărțită „și/sau” între Ministerul Energiei și Autoritatea Vamală.",
+      "plainTitle": "Cine verifică și cine amendează companiile aeriene și furnizorii de kerosen care nu folosesc combustibil «verde» cerut de UE",
+      "verdictShort": "Este o ordonanță tehnică și necesară: numește autoritățile și stabilește amenzile pentru un regulament UE care se aplică oricum direct. Problema reală este de redactare: formula amenzilor de la art. 11 alin. (1) lit. b) și d) e scrisă invers. La asta se adaugă o sancțiune complementară severă, aplicată fără criterii, pentru întârzierea raportării.",
+      "initiatorClaim": "Guvernul spune că trebuie desemnate urgent autoritățile competente și regimul de sancțiuni cerute de Regulamentul (UE) 2023/2405 (ReFuelEU Aviation), aplicabil din 1 ianuarie 2025. Altfel, România riscă o procedură de neîndeplinire a obligațiilor, iar operatorii nu ar avea cui să ceară derogări.",
+      "realityCheck": "AACR devine autoritatea pentru operatorii aerieni și aeroporturi, cu puterea de a acorda derogări pe rute sub 850 km. Ministerul Energiei, împreună cu Autoritatea Vamală, răspunde de furnizorii de combustibil. Se introduc amenzi calculate după cantitate și preț, la dublul valorii, așa cum cere Regulamentul, plus amenzi fixe între 3.000 și 80.000 lei. Efectele secundare: formula pentru SAF dă, citită literal, o valoare negativă; se elimină plata a jumătate din minim (art. 28 din OG 2/2001); AACR poate suspenda dreptul de operare pe aeroporturile din România pentru o simplă întârziere a raportării, fără criterii.",
       "affectedGroups": [
+        "Agricultură & Mediu",
         "IMM & Antreprenori",
-        "Agricultură & Mediu"
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 11 alin. (1): amenzile pentru operatori și furnizori sunt fixate la exact «dublul» formulei din art. 12 al Regulamentului, fără plafon în lei. Valorile pot fi foarte mari, dar sunt minimul impus de UE, nu supra-reglementare națională.",
-        "Art. 11 alin. (4): pentru întârzieri de peste 30 de zile lucrătoare la raportare, AACR «poate» suspenda dreptul de operare pe aeroporturile din România. Măsura nu e cerută de Regulament și nu are criterii, somație prealabilă sau procedură explicită de ridicare.",
-        "Art. 13 alin. (2)-(4): metodologia de calcul pentru amenda de la art. 10 lit. a) se aprobă prin decizia directorului general al AACR, iar cea pentru lit. c)-e) prin ordin comun MEn–AVR. Prețurile vin din «surse verificabile și obiective», deși Expunerea de motive recunoaște că raportul EASA de referință nu exista la adoptare.",
-        "Art. 13 alin. (5) exclude aplicarea art. 28 alin. (1) din OG 2/2001 (plata a jumătate din minim în 15 zile) și a art. 29. Excluderea are sens pentru amenzile-formulă, dar se aplică și amenzilor mici pentru întârzieri de raportare (3.000-5.000 lei).",
-        "Art. 10 lit. e) sancționează informațiile «înșelătoare sau inexacte» despre SAF fără să distingă eroarea de bună-credință. Formularea preia Regulamentul, dar consecința pecuniară e severă.",
-        "Art. 3 alin. (6) obligă furnizorii de handling de combustibil să transmită date AACR «la termenele solicitate», fără termen legal minim. Obligația nu are nici sancțiune.",
-        "Art. 8 alin. (3) permite verificatorilor deja acreditați pentru EU ETS să verifice și rapoartele ReFuelEU, fără o nouă acreditare. Măsura reduce povara administrativă."
+        "Art. 11 alin. (1) lit. b) și d): amenda se calculează pe «diferența dintre prețul mediu al combustibilului convențional și cel al SAF». Pentru că SAF e mai scump, rezultatul e negativ. Lit. c), pentru combustibilul sintetic, folosește ordinea corectă, deci inconsecvența e evidentă și poate fi folosită în contestații.",
+        "Art. 11 alin. (4): pentru întârzieri de peste 30 de zile lucrătoare la raportare, AACR «poate» suspenda dreptul de operare pe aeroporturile din România până la depunerea raportului. Este o sancțiune foarte grea pentru o obligație informativă, iar textul nu dă criterii de aplicare, nu cere avertisment prealabil și nu fixează o durată maximă.",
+        "Art. 13 alin. (5) exclude art. 28 alin. (1) și art. 29 din OG 2/2001. Contravenientul pierde deci posibilitatea de a plăti jumătate din minimul amenzii în 15 zile. Excluderea e justificabilă pentru amenzile calculate după formulă, dar se aplică și amenzilor fixe pentru raportare.",
+        "Art. 13 alin. (2)-(4): metodologia prețurilor medii, de care depinde cuantumul amenzilor, se adoptă prin decizie AACR și ordin comun ME-AVR în 90 de zile. Expunerea de motive recunoaște că raportul EASA cu prețurile nu exista încă, deci la început amenzile nu pot fi calculate concret.",
+        "Art. 3 alin. (6): handlerii de combustibil sunt obligați să transmită date «la termenele solicitate» de AACR. Termenul nu are un minim legal și obligația nu are sancțiune, deși pe aceste date se bazează lista furnizorilor responsabili.",
+        "Art. 15: finanțarea cercetării și a producției de SAF depinde integral de bugetele anuale («în limita sumelor alocate»), deci în practică nu există un angajament financiar."
       ],
-      "blindSpotsCaught": "Legea a fost adoptată tacit de Senat (art. 115 alin. 5 Constituție), deci fără dezbatere de fond în prima cameră. Unele termene din OUG au trecut deja: raportul aeroporturilor la 31.03.2025 (art. 7) și metodologiile «în 90 de zile» (art. 13). Până la emiterea metodologiilor, amenzile-formulă nu pot fi calculate concret. Art. 12 (recidivă la lit. g, 50.000-80.000 lei) se suprapune aproape integral cu sancțiunea de bază (50.000-70.000 lei), deci escaladarea e simbolică. Veniturile din amenzi merg la bugetul general, nu sunt alocate SAF, deși art. 12 alin. (10) din Regulament încurajează această destinație. Art. 15 doar promite finanțare «în limita sumelor alocate». Expunerea de motive declară «Nu este cazul» la impactul asupra mediului de afaceri, deși instituie amenzi potențial de milioane de lei.",
-      "constitutionalityNote": "Urgența (art. 115 alin. 4) e motivată plauzibil prin termenele UE și riscul de infringement, argument pe care CCR l-a acceptat constant. OUG nu afectează drepturi fundamentale în sensul art. 115 alin. (6). Derogarea de la art. 8 alin. (2) din OG 2/2001 e făcută printr-un act cu forță de lege, deci e admisibilă. Puncte sensibile pentru previzibilitate (art. 1 alin. 5): cuantumul efectiv al amenzilor depinde de metodologii infralegale fără obligație expresă de publicare în Monitorul Oficial; suspendarea operării nu are criterii; competența «și/sau» MEn–AVR e ambiguă. Proporționalitatea (art. 53) e în general asigurată, pentru că formulele sunt impuse de UE.",
-      "euLawNote": "Actul asigură aplicarea unui regulament direct aplicabil și preia fidel minimele art. 12 din Regulamentul (UE) 2023/2405. Directiva 2015/1535 (TRIS) nu se aplică: nu sunt reguli privind servicii digitale sau AI. Directiva 2018/958 nu se aplică: nu reglementează accesul la profesii; art. 8 alin. (3) chiar reduce barierele pentru verificatori. Sancțiunea complementară de suspendare a operării e o măsură națională suplimentară care poate afecta prestarea de servicii aeriene în piața unică (Reg. 1008/2008). Trebuie aplicată strict proporțional pentru a nu deveni o restricție nejustificată.",
+      "blindSpotsCaught": "Art. 10 lit. b) sancționează aeroportul care nu remediază lipsa accesului la SAF «în termen de cel mult trei ani de la solicitarea AACR». Textul nu prevede o formă scrisă a solicitării și nici o procedură de stabilire a măsurilor, așa că momentul de la care curge termenul și conținutul obligației rămân vagi. În plus, recidiva (art. 12) este reglementată doar pentru nerapoartarea furnizorilor (lit. g), nu și pentru celelalte fapte. Expunerea de motive recunoaște și că art. 31a din Directiva RED, la care trimite art. 9 alin. (1), nu era transpus. Obligația furnizorilor de a-și verifica datele «conform actelor de transpunere» trimite astfel la acte care nu existau.",
+      "constitutionalityNote": "Urgența (art. 115 alin. 4) este justificată potrivit jurisprudenței CCR privind evitarea procedurilor de infringement și termenul fix din 1.01.2025. OUG nu afectează în mod direct drepturile fundamentale în sensul art. 115 alin. (6). Proiectul a fost adoptat tacit de Senat (art. 115 alin. 5 teza a III-a), deci nu a avut dezbatere de fond acolo. Riscuri de previzibilitate (art. 1 alin. 5): formula inversată de la art. 11 alin. (1) lit. b) și d) și sancțiunea de suspendare discreționară de la art. 11 alin. (4), care poate fi contestată și din perspectiva proporționalității (art. 53) și a libertății economice (art. 45).",
+      "euLawNote": "Proiectul pune în aplicare un regulament direct aplicabil. Amenzile de cel puțin dublul valorii provin chiar din art. 12 din Regulamentul (UE) 2023/2405, deci nu sunt o supra-reglementare națională. Directiva 2018/958 nu este relevantă, pentru că proiectul nu reglementează o profesie. TRIS 2015/1535 nu se aplică: nu există reguli tehnice noi sau servicii ale societății informaționale, iar raportarea se face prin aplicația EASA și baza de date UE. Punctul sensibil este suspendarea dreptului de operare (art. 11 alin. 4). Regulamentul ReFuelEU nu prevede o astfel de sancțiune, iar aplicată unor transportatori licențiați în alt stat membru ar putea intra în tensiune cu Regulamentul (CE) 1008/2008 privind libertatea serviciilor aeriene. De aceea trebuie să fie strict proporțională.",
       "senatForm": {
-        "articleRef": "Art. unic – OUG 151/2024, art. 11 alin. (4)",
-        "proposalContent": "Art. 11 alin. (4): «AACR poate aplica sancțiunea complementară a suspendării dreptului de operare pe aeroporturile din România numai după o somație scrisă care acordă un termen de 10 zile lucrătoare pentru raportare, ținând seama de gravitate și conduita anterioară; suspendarea încetează de drept la data raportării.»",
-        "argumentation": "Textul actual permite suspendarea operării, sancțiune foarte gravă (anulări de zboruri, pasageri afectați), fără criterii, somație sau procedură de ridicare. Regulamentul (UE) 2023/2405 nu impune această măsură. Precizarea asigură previzibilitatea (art. 1 alin. 5 Constituție) și proporționalitatea cerută de art. 12 din Regulament.",
-        "otherComments": "Art. 13 alin. (2)-(4): metodologiile de calcul al amenzilor să fie publicate obligatoriu în Monitorul Oficial, Partea I. Art. 13 alin. (1) lit. b): «și/sau» creează risc de competență dublă MEn–AVR. Art. 3 alin. (6): lipsesc termene concrete. Art. 15: veniturile din amenzi pot fi direcționate spre SAF (art. 12 alin. 10 din Regulament)."
+        "articleRef": "Art. 11 alin. (1) lit. b) și d)",
+        "proposalContent": "La art. 11 alin. (1) lit. b) și d), sintagma „diferenței dintre prețul mediu anual al combustibilului de aviație convențional și cel al SAF” se înlocuiește cu „diferenței dintre prețul mediu anual al SAF și cel al combustibilului de aviație convențional”, în acord cu art. 12 din Regulamentul (UE) 2023/2405.",
+        "argumentation": "SAF e mai scump decât kerosenul convențional, deci diferența «convențional minus SAF» e negativă. Citit literal, textul duce la o amendă zero sau negativă, iar contravenientul poate contesta procesul-verbal pe lipsa de previzibilitate (art. 1 alin. 5 Constituție). Formula de la lit. c) e corectă; lit. b) și d) trebuie aliniate la ea.",
+        "otherComments": "Se recomandă și: criterii la art. 11 alin. (4) pentru suspendarea dreptului de operare (proporțională, limitată în timp, cu avertisment prealabil); un termen minim și o sancțiune la art. 3 alin. (6) pentru handleri; clarificarea momentului de la care curg cei 3 ani la art. 10 lit. b)."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 79121,
+      "durationMs": 90523,
       "sourceEndMarker": "SF-5F4FDA72",
-      "riskScore": 6,
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Combustibili mai curați pentru avioane, cu erori în calculul amenzilor",
-      "verdictShort": "Proiectul creează un cadru util pentru aplicarea regulilor europene, dar necesită corectarea formulelor unor amenzi și limitarea puterii de suspendare a operării. Riscurile provin din sancțiuni concrete, nu din obiectivul reducerii emisiilor.",
-      "initiatorClaim": "Guvernul urmărește desemnarea autorităților responsabile și stabilirea controalelor și sancțiunilor necesare aplicării ReFuelEU. Invocă apropierea termenelor europene, nevoia de predictibilitate și evitarea unei proceduri de infringement.",
-      "realityCheck": "Legea aprobă fără modificări OUG nr. 151/2024, care distribuie atribuții între AACR și Ministerul Energiei și instituie raportări, verificări și sancțiuni pentru sectorul aviației. Nu introduce o taxă generală sau un monopol, însă două formule de amendă inversează ordinea prețurilor, iar întârzierea raportării poate conduce la suspendarea operării pe aeroporturile din România. Afirmațiile din expunere privind absența impactului asupra afacerilor și necesitatea unor acte ulterioare sunt contrazise de obligațiile instituite și de metodologiile cerute expres la art. 13.",
+      "plainTitle": "Combustibili mai curați pentru avioane și sancțiuni pentru companii",
+      "verdictShort": "Cadrul administrativ este util pentru aplicarea regulilor europene privind aviația durabilă. Riscul principal este suspendarea dreptului unei companii de a opera pe aeroporturile din România pentru întârzierea raportării, fără criterii speciale de individualizare.",
+      "initiatorClaim": "Guvernul urmărește desemnarea autorităților responsabile și instituirea sancțiunilor necesare aplicării Regulamentului ReFuelEU. Invocă apropierea termenelor europene și necesitatea evitării unei proceduri de constatare a neîndeplinirii obligațiilor.",
+      "realityCheck": "Legea aprobă fără modificări o ordonanță care distribuie competențe între AACR și Ministerul Energiei, impune raportări și verificări și stabilește amenzi. Pe lângă măsurile tehnice, permite suspendarea operațiunilor pentru raportări întârziate și exclude plata redusă a amenzilor. Nu introduce taxe pentru cetățeni sau un monopol, dar generează costuri de conformare pentru întreprinderile vizate.",
       "affectedGroups": [
         "IMM & Antreprenori",
+        "Justiție & Drepturi Civile",
         "Agricultură & Mediu"
       ],
       "keyFindings": [
-        "Art. 11 alin. (1) lit. b) și d) calculează amenda folosind diferența dintre prețul combustibilului convențional și cel al SAF. Dacă SAF este mai scump, scăderea în ordinea enumerată produce un rezultat negativ; interpretarea ca diferență absolută nu este explicită. Este necesară inversarea ordinii pentru a evita litigii și sancțiuni inaplicabile.",
-        "Art. 11 alin. (4) permite AACR să suspende operarea pe toate aeroporturile din România pentru o întârziere a raportării de peste 30 de zile lucrătoare, până la conformare. Lipsesc criterii speciale privind gravitatea și necesitatea suspendării ori o somație prealabilă; individualizarea generală prevăzută de OG nr. 2/2001 rămâne însă aplicabilă.",
-        "Art. 13 alin. (5) exclude plata a jumătate din minimul amenzii în condițiile art. 28 alin. (1) din OG nr. 2/2001. Nu exclude în bloc regimul general al contravențiilor, plângerea contravențională sau avertismentul.",
-        "Art. 5 permite derogări temporare de la obligația alimentării anuale cu cel puțin 90% din combustibilul necesar, în condițiile regulamentului european. Nu reprezintă o scutire generală de cotele SAF, iar condițiile europene rămân obligatorii chiar dacă nu sunt reproduse integral.",
-        "Art. 11 alin. (3) utilizează praguri suprapuse: până la 7, până la 15 și până la 30 de zile lucrătoare. Intervalele trebuie delimitate expres, astfel încât aceeași întârziere să nu pară încadrabilă în mai multe limite de amendă.",
-        "Art. 12 agravează sancțiunea pentru neraportarea furnizorului după prima sancționare, fără să precizeze suficient dacă este necesară încălcarea unei noi obligații de raportare. Simpla persistență a aceleiași omisiuni nu trebuie confundată automat cu o faptă nouă, sancționabilă separat.",
-        "Art. 16 amână intrarea în vigoare a art. 10–13 cu 30 de zile, dar art. 13 acordă 90 de zile pentru metodologiile de calcul. Există astfel un decalaj de operaționalizare; metodologiile nu pot modifica formulele stabilite prin ordonanță.",
-        "Art. 15 prevede finanțări pentru cercetare și producție SAF în limita alocărilor bugetare anuale. Art. 3 și art. 7–9 adaugă sarcini administrative pentru entitățile vizate, fără obligații directe pentru cetățeni; costurile suplimentare pot influența indirect prețurile transportului."
+        "Art. 2 desemnează AACR pentru operatorii aerieni și aeroporturi, respectiv Ministerul Energiei pentru furnizorii de combustibil: o repartizare utilă a responsabilităților de aplicare a regulamentului european.",
+        "Art. 5 permite derogări temporare de la obligația de alimentare prevăzută de art. 5 din Regulament, nu de la cotele obligatorii de combustibili durabili. Derogările necesită justificare și notificarea Comisiei; condițiile regulamentului direct aplicabil rămân obligatorii.",
+        "Art. 11 alin. (4) permite suspendarea dreptului de operare pe aeroporturile din România când raportarea întârzie peste 30 de zile lucrătoare. Nu stabilește criterii speciale pentru alegerea acestei măsuri, deși consecințele economice și asupra pasagerilor pot fi considerabile.",
+        "Art. 11 alin. (3) folosește intervale suprapuse: o întârziere de cinci zile intră literal atât la «până la 7», cât și la «până la 15» sau «până la 30». Limitele trebuie redactate ca intervale distincte pentru a evita alegerea discreționară a amenzii.",
+        "Art. 10 lit. d) sancționează încălcarea cotelor minime și medii de combustibili sintetici, dar formula din art. 11 alin. (1) lit. c) menționează doar cantitățile care nu respectă cotele minime. Calculul pentru încălcarea cotei medii trebuie clarificat expres.",
+        "Art. 12 majorează sancțiunea pentru repetarea neraportării de către furnizor, fără să delimiteze perioada relevantă sau să precizeze suficient distincția dintre o nouă faptă și continuarea aceleiași omisiuni. Aplicarea repetată pentru aceeași conduită trebuie evitată.",
+        "Art. 13 alin. (5) exclude mecanismul plății a jumătate din minimul amenzii, prin înlăturarea art. 28 alin. (1) și art. 29 din OG nr. 2/2001. Nu exclude, prin această formulare, plângerea contravențională și controlul judecătoresc.",
+        "Art. 16 amână intrarea în vigoare a art. 10–13 cu 30 de zile, însă art. 13 prevede metodologii adoptate în 90 de zile. Rezultă un posibil interval de aplicare a sancțiunilor înaintea metodologiilor; aprobarea legii nu repornește aceste termene.",
+        "Art. 15 prevede finanțarea cercetării și sprijinirii producției SAF în limita alocărilor bugetare anuale. Expunerea prezintă finanțarea ca posibilitate și declară repetat lipsa impactului, deși textul instituie obligații administrative, verificări și cheltuieli condiționate de buget."
       ],
-      "blindSpotsCaught": "Dispozițiile finale conțin două elemente relevante: eliminarea facilității plății reduse a amenzii, la art. 13 alin. (5), și decalajul dintre activarea sancțiunilor și termenul metodologiilor. Expunerea susține că sunt instituite doar măsuri administrative, dar textul permite inclusiv suspendarea operării. Nu există în text alte abrogări sau modificări ascunse ale unor legi; există derogări exprese de la regimul general al contravențiilor.",
-      "constitutionalityNote": "Art. 1 alin. (5) este reperul principal pentru formulele de amendă, intervalele suprapuse și delimitarea repetării faptei. Art. 23 alin. (12) privește legalitatea pedepselor și nu trebuie aplicat automat oricărei contravenții, deși caracterul punitiv impune garanții de previzibilitate. Suspendarea operării necesită evaluarea proporționalității în raport cu libertatea economică, protejată de art. 45, și concurența, potrivit art. 135. Urgența trebuie examinată conform art. 115 alin. (4): termenele europene sunt concrete, dar întârzierile administrative nu demonstrează singure o situație extraordinară. Aprobarea parlamentară nu înlătură eventualele vicii constituționale ale emiterii OUG; textul furnizat nu justifică însă un verdict categoric de neconstituționalitate.",
-      "euLawNote": "Regulamentul (UE) 2023/2405 este direct aplicabil; actul național organizează executarea sa. Art. 12 alin. (4) și (6) din regulament impune amenzi raportate la diferența de preț dintre SAF și combustibilul convențional, ceea ce face necesară corectarea art. 11 alin. (1) lit. b) și d). Suspendarea operării trebuie verificată și prin prisma proporționalității și a regulilor europene privind accesul la transportul aerian. Directiva (UE) 2018/958 nu este incidentă doar fiindcă există verificatori acreditați: textul nu instituie o nouă restricție de acces la o profesie reglementată. Raportarea electronică nu transformă actul într-o reglementare a serviciilor societății informaționale; nu rezultă o obligație TRIS în temeiul Directivei (UE) 2015/1535. Nu este instituit un monopol expres, dar costurile de conformare pot apăsa relativ mai mult asupra operatorilor mici. Verificarea online a surselor oficiale nu a putut fi efectuată; analiza privește forma furnizată, fără confirmarea stadiului parlamentar actual.",
+      "blindSpotsCaught": "Dispozițiile finale conțin efecte relevante: excluderea plății reduse, finanțarea SAF și decalajul dintre sancțiuni și metodologii. Nu există în textul furnizat abrogări sau modificări ascunse ale altor legi; există derogări explicite de la regimul contravențional general. Pentru formulele bazate pe diferența dintre prețuri trebuie precizată diferența pozitivă utilizată, fără a presupune automat că ordinea enumerării impune o amendă negativă. Textul ordonanței este furnizat până la art. 16; expunerea este incompletă.",
+      "constitutionalityNote": "Principalele vulnerabilități țin de art. 1 alin. (5) din Constituție: intervalele suprapuse de amendare, calculul sancțiunii pentru cotele medii și delimitarea repetării faptei. Suspendarea prevăzută la art. 11 alin. (4) necesită examinarea proporționalității în raport cu art. 45, fără a reprezenta automat o încălcare constituțională. Art. 23 alin. (12) privește pedepsele penale și nu trebuie aplicat mecanic oricărei amenzi contravenționale. Urgența trebuie evaluată potrivit art. 115 alin. (4): termenele europene susțin necesitatea intervenției, dar caracterul lor cunoscut anterior justifică verificarea situației extraordinare invocate; adoptarea tacită de către Senat nu înlătură eventualele vicii ale ordonanței.",
+      "euLawNote": "Regulamentul (UE) 2023/2405 este direct aplicabil; actul național organizează executarea sa. Amenzile calculate în funcție de preț și cantitate nu sunt disproporționate numai pentru că depășesc plafonul general național, dar aplicarea lor trebuie să respecte cerințele europene de eficacitate, proporționalitate și descurajare. Suspendarea operațiunilor poate afecta concurența și accesul la piață și necesită o justificare distinctă. Directiva (UE) 2018/958 privește restricțiile asupra accesului la profesii reglementate și exercitării lor; textul nu evidențiază o nouă asemenea restricție. Raportarea printr-o aplicație nu transformă actul într-o reglementare a serviciilor digitale sau AI și nu justifică, singură, notificarea TRIS potrivit Directivei (UE) 2015/1535. O eventuală schemă de sprijin SAF trebuie analizată separat prin prisma ajutorului de stat. Verificarea online a surselor oficiale nu a fost disponibilă în această sesiune.",
       "senatForm": {
-        "articleRef": "Art. 11 alin. (1) lit. b) și d) din OUG",
-        "proposalContent": "La art. 11 alin. (1) lit. b) și d), sintagma «diferenței dintre prețul mediu anual al combustibilului de aviație convențional și cel al SAF pe tonă» se înlocuiește cu sintagma «diferenței dintre prețul mediu anual al SAF și cel al combustibilului de aviație convențional pe tonă».",
-        "argumentation": "Ordinea actuală a prețurilor poate genera o valoare negativă când SAF este mai scump decât combustibilul convențional. Corectarea asigură previzibilitatea sancțiunii și concordanța cu art. 12 alin. (4) și (6) din Regulamentul (UE) 2023/2405. Metodologia administrativă nu poate corecta formula stabilită prin ordonanță.",
-        "otherComments": "Separat, se recomandă criterii și somație prealabilă pentru suspendarea prevăzută la art. 11 alin. (4), intervale de întârziere fără suprapuneri la alin. (3) și clarificarea art. 12 pentru a exclude sancționarea repetată a aceleiași fapte. Propunerea privește OUG aprobată prin articolul unic."
+        "articleRef": "Art. 11 alin. (4) din OUG nr. 151/2024",
+        "proposalContent": "La articolul 11, alineatul (4) se abrogă.",
+        "argumentation": "Suspendarea dreptului de operare pentru întârzierea raportării poate produce efecte excesive asupra companiei și pasagerilor. Amenzile progresive de la alin. (3) rămân aplicabile. Necesitatea și proporționalitatea acestei sancțiuni suplimentare nu sunt demonstrate în expunerea de motive.",
+        "otherComments": "Separat, se recomandă delimitarea intervalelor de întârziere din art. 11 alin. (3), completarea formulei pentru încălcarea cotelor medii de combustibili sintetici și precizarea condițiilor repetării faptei prevăzute la art. 12."
       },
       "reachedEnd": true,
       "status": "ok"
     }
   },
   "history": [
+    {
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-19T12:14:17.614Z",
+      "method": "whole-text-v1",
+      "textChars": 26705,
+      "form": "senat",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:15:17.692Z",
+      "reasons": [
+        "model"
+      ]
+    },
     {
       "riskScore": 2.7,
       "riskLevel": "green",

@@ -1,142 +1,182 @@
 {
   "billId": "B649/2026",
   "slug": "b649-2026",
-  "updatedAt": "2026-11-19T08:34:33.319Z",
+  "updatedAt": "2026-11-24T15:14:27.330Z",
   "coverage": {
     "method": "whole-text-v1",
+    "form": "initiator",
     "billChars": 12470,
     "ordinanceChars": 0,
     "memoChars": 5153,
     "memoSupplied": 5153,
     "marker": "SF-AC97C490"
   },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/b649-2026.json",
+    "form": "initiator",
+    "textHash": "ac97c4901f66a3d8",
+    "fetchedAt": "2026-11-20T07:38:19.832Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 2,
+    "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "Reguli mai clare de siguranță pentru datele statului ținute în cloud sau folosite de AI",
-    "summaryTlDr": "Este o lege-cadru prudentă și bine aliniată la dreptul UE. Nu creează taxe, monopoluri, certificări naționale sau obligații de localizare. Riscurile reale sunt lipsa fișei financiare și câteva formulări care nu au efect obligatoriu.",
-    "initiatorClaim": "Inițiatorii vor să reducă dependența instituțiilor de un singur furnizor, să prevină accesul neautorizat, inclusiv din state terțe, și să asigure continuitatea serviciilor publice. Vor, de asemenea, acces digital mai simplu pentru românii din diaspora.",
-    "realityCheck": "Legea obligă autoritățile publice să facă evaluări de risc la cel mult doi ani și să includă clauze minime de securitate, audit și ieșire din contract în contractele pentru sisteme critice. Furnizorii privați sunt obligați doar prin contract. Multe norme sunt doar declarative («facilitează», «după caz», «orientative»), iar sancțiunile sunt doar trimiteri la alte legi. Costurile pentru autorități, inclusiv pentru primăriile mici, nu sunt estimate.",
+    "plainTitle": "Reguli de bun-simț pentru datele statului ținute în cloud și folosite de AI",
+    "summaryTlDr": "Este o lege-cadru prudentă și bine ancorată în dreptul UE. Nu impune localizarea forțată a datelor, nu creează un cloud de stat sau o certificare națională și nu aduce amenzi noi. Riscurile reale sunt mici: un articol de răspundere declarativ și neclar, birocrație pentru autoritățile mici și lipsa fișei financiare.",
+    "initiatorClaim": "Inițiatorii vor ca datele din sistemele publice să fie mai bine protejate în cloud și în AI: mai puțină dependență de un singur furnizor, control asupra accesului din state terțe, continuitatea serviciilor și acces digital mai ușor pentru românii din străinătate.",
+    "realityCheck": "Legea obligă autoritățile publice să facă evaluări de risc la cel mult doi ani (art. 5) și să includă clauze minime de securitate, audit și ieșire din contract în contractele pentru sisteme critice (art. 6, 11). Furnizorii privați sunt vizați doar prin contract (art. 2 alin. 2). Aproape fiecare articol trimite la GDPR, NIS2, Data Act sau AI Act, deci efectul normativ propriu e modest. Chichițele: art. 5 alin. (1) acoperă practic orice sistem cu date personale, nu doar pe cele critice, iar art. 18 menționează răspunderea penală și contravențională fără a defini vreo faptă.",
     "affectedGroups": [
       "IT & AI",
-      "IMM & Antreprenori",
       "Justiție & Drepturi Civile",
-      "Toți cetățenii"
+      "Toți cetățenii",
+      "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. 7 alin. (3)",
-      "proposalContent": "Alin. (3) se completează astfel: „(3) O cerință de localizare exclusiv pe teritoriul României se poate stabili numai prin lege specială, justificată pe motive de securitate publică, cu respectarea art. 4 din Regulamentul (UE) 2018/1807 și a art. 48 din Regulamentul (UE) 2016/679, inclusiv cu notificarea prealabilă a Comisiei Europene.”",
-      "argumentation": "Textul actual permite localizarea exclusivă pe baza unui „temei legal special” nedefinit. Regulamentul (UE) 2018/1807 interzice cerințele de localizare, cu excepția celor justificate de securitatea publică, și obligă statele să le notifice. Precizarea crește previzibilitatea (art. 1 alin. 5 din Constituție) și previne o procedură de infringement. Se corectează și greșeala „territoriul”.",
-      "otherComments": "Art. 18: alineatul fără număr se numerotează ca alin. (2), iar trimiterea la răspunderea penală se elimină sau se precizează. Art. 5 alin. (1): evaluarea se limitează la sistemele critice sau se simplifică pentru UAT-urile mici. Proiectul necesită fișă financiară (art. 15 din Legea nr. 500/2002) și avizele ANSPDCP și DNSC. Art. 3 lit. c): se corectează „extrateritorial”."
+      "articleRef": "Art. 18 – Răspundere",
+      "proposalContent": "Art. 18 se structurează în alin. (1) și (2), iar alin. (1) se reformulează: „(1) Încălcarea obligațiilor prevăzute de prezenta lege atrage, după caz, răspunderea disciplinară, civilă, contravențională sau penală, numai în condițiile actelor normative care sancționează ori incriminează fapta respectivă.”",
+      "argumentation": "Forma actuală sugerează răspundere contravențională și penală fără a descrie faptele și sancțiunile, contrar exigențelor de previzibilitate (art. 1 alin. 5 și art. 23 alin. 12 din Constituție). Al doilea paragraf nu este numerotat, contrar Legii nr. 24/2000. Reformularea arată clar că legea nu creează sancțiuni proprii.",
+      "otherComments": "Recomandăm: fișa financiară cerută de art. 15 din Legea 500/2002; evaluare simplificată la art. 5 pentru autoritățile mici; trimiterea la art. 2 pct. 8 din Reg. (UE) 2023/2854 la art. 3 lit. b); menționarea Reg. (UE) 2018/1807 la art. 7; corectarea „extraterritorial” și „territoriul”; numerotarea alin. (2) la art. 9."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 37230,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 95476,
       "sourceEndMarker": "SF-AC97C490",
-      "riskScore": 2,
+      "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Reguli de securitate și interoperabilitate pentru datele statului în cloud și AI",
-      "verdictShort": "Proiect tehnic echilibrat și aliniat legislației UE, care introduce guvernanță minimă pentru sistemele IT critice ale statului fără a bloca piața prin localizare forțată sau certificări paralele. Riscurile majore lipsesc, existând doar neclarități minore de tehnică legislativă și lipsa fișei financiare.",
-      "initiatorClaim": "Inițiatorii susțin că urmăresc consolidarea controlului asupra datelor publice în mediile de cloud și AI, reducerea dependenței de un singur furnizor, protecția datelor minorilor și facilitarea accesului digital al diasporei, fără a încălca dreptul UE.",
-      "realityCheck": "Față de versiunea anterioară evocată în expunerea de motive, textul depus elimină explicit localizarea obligatorie a datelor în România (art. 7), certificările naționale paralele (art. 10) și dublarea amenzilor UE (art. 18). Legea obligă doar autoritățile publice să își evalueze riscurile la fiecare 2 ani și să includă clauze de securitate și exit în achiziții, fără a crea instituții noi sau obligații generale pentru mediul privat.",
+      "plainTitle": "Reguli de securitate, cloud și AI pentru instituțiile publice",
+      "verdictShort": "O lege în linii mari benignă și bine aliniată la dreptul UE, care renunță la capcanele uzuale ale «suveranității datelor» (fără localizare forțată sau certificări naționale paralele). Principalele sale defecte sunt paralelismul birocratic cu regimul NIS2/GDPR, lipsa fișei financiare și câteva scăpări de tehnică legislativă.",
+      "initiatorClaim": "Inițiatorii susțin că proiectul consolidează securitatea datelor publice în cloud și în sistemele de inteligență artificială, reduce blocarea într-un singur furnizor (vendor lock-in), protejează minorii și facilitează accesul digital al diasporei, fără a intra în conflict cu legislația UE.",
+      "realityCheck": "În realitate, mare parte din lege este declarativă și reconfirmă obligații care se aplică deja direct prin regulamente europene (GDPR, Data Act, AI Act) sau legislația achizițiilor publice. Singura obligație nouă consistentă cade pe instituțiile publice (Art. 5): fiecare autoritate — inclusiv primăriile mici — trebuie să realizeze o evaluare documentată a riscurilor la fiecare 2 ani și să adapteze viitoarele contracte de cloud/AI, fără buget dedicat și fără sancțiuni proprii clare (Art. 18).",
       "affectedGroups": [
         "IT & AI",
-        "IMM & Antreprenori",
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Fără protecționism digital abuziv: Art. 7 alin. (1) și Art. 10 alin. (2) exclud expres obligativitatea stocării datelor exclusiv în România și interzic certificările naționale paralele celor europene sau discriminarea furnizorilor după sediu.",
-        "Obligații calibrate pentru stat, nu pentru piață: Art. 2 alin. (2) clarifică faptul că furnizorii privați au obligații doar prin contractele publice, iar Art. 5–6 impun autorităților evaluări de risc la 2 ani și clauze de portabilitate și securitate.",
-        "Protecție pentru minori și AI fără supra-reglementare: Art. 14–15 interzic reutilizarea datelor minorilor la antrenarea AI fără temei valid și anonimizare efectivă, trimițând la calendarul de aplicare al AI Act (Reg. 2024/1689)."
+        "Evită restricțiile anticoncurențiale majore: Art. 7 și Art. 10 interzic expres localizarea obligatorie generală în România, certificările naționale paralele și discriminarea furnizorilor după naționalitate sau sediu, acceptând mijloace echivalente de probă.",
+        "Creează birocrație paralelă pentru administrația locală (Art. 5): obligă fiecare autoritate publică la evaluări bienale ale riscurilor pentru sistemele cu date personale sau servicii esențiale, suprapunându-se parțial cu evaluările NIS2 (OUG 155/2024), DPIA (art. 35 GDPR) și cadrul Cloudului Guvernamental (OUG 89/2022).",
+        "Capcană de calendar între Art. 19 și Art. 20 alin. (1): instituțiile au un termen fix de 12 luni de la intrarea în vigoare pentru evaluările de risc, deși Guvernul are 180 de zile (6 luni) să adopte metodologia prin HG; orice întârziere a HG-ului comprimă sau blochează conformarea.",
+        "Protecții utile, dar fără mecanism propriu de sancționare: Art. 14 alin. (2) interzice reutilizarea datelor minorilor pentru antrenarea AI fără temei legal și cere anonimizare efectivă, iar Art. 15 impune documentare prealabilă pentru AI în sisteme critice, dar Art. 18 face doar o trimitere generală la răspunderea din alte legi."
       ],
-      "blindSpotsCaught": "Expunerea de motive conține note interne de redactare necurățate («înainte de depunere este necesară solicitarea datelor de cost...», «trebuie reconfirmate în forma lor normativă actuală la data depunerii») și recunoaște explicit absența fișei financiare. În plus, forma inițiatorului include deja numele președinților Camerelor în formula de atestare și califică proiectul ca lege organică (art. 76 alin. 1), deși obiectul său pare unul de lege ordinară.",
-      "constitutionalityNote": "Proiectul respectă în esență art. 26 (viața intimă) și art. 148 (integrarea europeană) din Constituție, iar art. 18 evită sancțiunile duble. Totuși, sub aspectul art. 1 alin. (5) privind calitatea legii, trimiterea generică de la art. 18 la răspunderea contravențională este pur declarativă, iar lipsa fișei financiare și a estimării costurilor pentru audituri și evaluări (art. 21) ridică o vulnerabilitate procedurală față de art. 111 alin. (1) și art. 138 alin. (5) din Constituție.",
-      "euLawNote": "Textul este conceput deliberat pentru a fi compatibil cu GDPR (Reg. 2016/679), Data Act (Reg. 2023/2854), AI Act (Reg. 2024/1689), NIS2 și eIDAS: respectă libera circulație a datelor și proporționalitatea (Directiva 2018/958 nu este afectată negativ, întrucât nu reglementează profesii). Art. 7 alin. (2)-(3) cere justificare obiectivă pentru orice cerință de rezidență a datelor, iar pentru hotărârea de Guvern de la art. 19 trebuie verificată incidența notificării TRIS (Directiva 2015/1535), deși art. 19 interzice introducerea de restricții comerciale suplimentare.",
+      "blindSpotsCaught": "Expunerea de motive conține note interne de redactare rămase neșterse (pct. 4: «trebuie reconfirmate în forma lor normativă actuală la data depunerii»; pct. 6: «Înainte de depunere este necesară solicitarea datelor de cost... și elaborarea fișei financiare»), recunoscând practic depunerea proiectului fără evaluare financiară. În plus, formula finală clasifică eronat proiectul ca lege organică (art. 76 alin. 1 Constituție), deși textul nu reglementează niciun domeniu rezervat legii organice.",
+      "constitutionalityNote": "Există trei vulnerabilități constituționale de procedură și tehnică legislativă: (1) lipsa fișei financiare obligatorii conform art. 111 alin. (1) și art. 138 alin. (5) din Constituție, deși pct. 6 din expunerea de motive recunoaște cheltuieli suplimentare; (2) încadrarea eronată ca lege organică (art. 76 alin. 1 în loc de alin. 2), întrucât proiectul exclude penalul și securitatea națională și nu atinge art. 73 alin. (3); (3) posibile vicii de previzibilitate și paralelism legislativ (art. 1 alin. 5) privind suprapunerea noțiunii de «sistem critic de date publice» cu regimul NIS2 și termenul fix din art. 20 alin. (1) dependent de HG-ul de la art. 19. Pe fond, respectă art. 26 (viața privată) și art. 148 (prioritatea dreptului UE).",
+      "euLawNote": "Proiectul este redactat cu atenție deosebită pentru compatibilitatea cu piața unică și regulamentele UE (GDPR, Data Act 2023/2854, AI Act 2024/1689, NIS2 2022/2555, eIDAS 2024/1183). Directiva (UE) 2018/958 privind testul de proporționalitate nu este incidentă (nu reglementează profesii). Directiva (UE) 2015/1535 (TRIS) nu pare declanșată direct de lege (vizează achiziții publice și interzice la art. 19 restricții de acces pe piață), dar notificarea TRIS va trebui verificată la adoptarea HG-ului de la art. 19 și a ghidurilor ADR. Atenție la art. 7 alin. (3): orice viitoare cerință de localizare exclusivă în România pentru date non-personale trebuie să respecte art. 4 din Regulamentul (UE) 2018/1807 (doar din motive de securitate publică și cu notificare la Comisia Europeană).",
       "senatForm": {
-        "articleRef": "Art. 18, Art. 19 și Art. 21",
-        "proposalContent": "Clarificarea lipsei contravențiilor noi la art. 18, prevederea verificării TRIS (Dir. 2015/1535) pentru HG de la art. 19 și completarea art. 21 cu fișa financiară conform art. 138 alin. (5) din Constituție. Totodată, clarificarea caracterului ordinar al legii (art. 76 alin. 2).",
-        "argumentation": "Proiectul este bine calibrat și aliniat dreptului UE (evită localizarea forțată și certificările paralele), dar Expunerea de motive recunoaște lipsa estimării bugetare. Art. 18 face o trimitere declarativă la răspundere fără fapte proprii, iar caracterul organic (art. 76 alin. 1) nu rezultă din obiectul tehnic al legii.",
-        "otherComments": "Se recomandă și curățarea Expunerii de motive (care conține note interne de redactare precum „înainte de depunere este necesară...”), respectiv eliminarea numelor președinților Camerelor din formula de atestare a formei inițiatorului, pentru acuratețe de tehnică legislativă."
+        "articleRef": "Art. 5, Art. 19, Art. 20 alin. (1)",
+        "proposalContent": "1) Corelați art. 5 cu regimul NIS2 (OUG 155/2024) și OUG 89/2022, cu praguri proporționale pentru UAT-urile mici; 2) Raportați termenul de 12 luni de la art. 20 alin. (1) la intrarea în vigoare a HG de la art. 19; 3) Corectați formula finală la art. 76 alin. (2) (lege ordinară) și atașați fișa financiară conform art. 111 din Constituție.",
+        "argumentation": "Evaluarea bienală impusă tuturor autorităților dublează regimul NIS2 și DPIA și creează costuri nebugetate la primăriile mici. Întârzierea HG (180 zile) face termenul fix de 12 luni inaplicabil (art. 1 alin. 5 Constituție). Proiectul nu atinge domenii de lege organică (art. 73 alin. 3), iar expunerea admite absența fișei financiare.",
+        "otherComments": "Apreciem alinierea la dreptul UE (GDPR, Data Act, AI Act) și renunțarea la localizarea forțată și certificările paralele. Recomandăm consultarea ANSPDCP, DNSC, ADR și verificarea notificării TRIS (Dir. 2015/1535) pentru HG de la art. 19. Expunerea de motive conține note interne de redactare (pct. 4 și 6) ce trebuie revizuite."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 40114,
+      "durationMs": 46232,
       "sourceEndMarker": "SF-AC97C490",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Reguli mai clare de siguranță pentru datele statului ținute în cloud sau folosite de AI",
-      "verdictShort": "Este o lege-cadru prudentă și bine aliniată la dreptul UE. Nu creează taxe, monopoluri, certificări naționale sau obligații de localizare. Riscurile reale sunt lipsa fișei financiare și câteva formulări care nu au efect obligatoriu.",
-      "initiatorClaim": "Inițiatorii vor să reducă dependența instituțiilor de un singur furnizor, să prevină accesul neautorizat, inclusiv din state terțe, și să asigure continuitatea serviciilor publice. Vor, de asemenea, acces digital mai simplu pentru românii din diaspora.",
-      "realityCheck": "Legea obligă autoritățile publice să facă evaluări de risc la cel mult doi ani și să includă clauze minime de securitate, audit și ieșire din contract în contractele pentru sisteme critice. Furnizorii privați sunt obligați doar prin contract. Multe norme sunt doar declarative («facilitează», «după caz», «orientative»), iar sancțiunile sunt doar trimiteri la alte legi. Costurile pentru autorități, inclusiv pentru primăriile mici, nu sunt estimate.",
+      "plainTitle": "Reguli de bun-simț pentru datele statului ținute în cloud și folosite de AI",
+      "verdictShort": "Este o lege-cadru prudentă și bine ancorată în dreptul UE. Nu impune localizarea forțată a datelor, nu creează un cloud de stat sau o certificare națională și nu aduce amenzi noi. Riscurile reale sunt mici: un articol de răspundere declarativ și neclar, birocrație pentru autoritățile mici și lipsa fișei financiare.",
+      "initiatorClaim": "Inițiatorii vor ca datele din sistemele publice să fie mai bine protejate în cloud și în AI: mai puțină dependență de un singur furnizor, control asupra accesului din state terțe, continuitatea serviciilor și acces digital mai ușor pentru românii din străinătate.",
+      "realityCheck": "Legea obligă autoritățile publice să facă evaluări de risc la cel mult doi ani (art. 5) și să includă clauze minime de securitate, audit și ieșire din contract în contractele pentru sisteme critice (art. 6, 11). Furnizorii privați sunt vizați doar prin contract (art. 2 alin. 2). Aproape fiecare articol trimite la GDPR, NIS2, Data Act sau AI Act, deci efectul normativ propriu e modest. Chichițele: art. 5 alin. (1) acoperă practic orice sistem cu date personale, nu doar pe cele critice, iar art. 18 menționează răspunderea penală și contravențională fără a defini vreo faptă.",
       "affectedGroups": [
         "IT & AI",
         "Justiție & Drepturi Civile",
-        "IMM & Antreprenori",
+        "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 5 alin. (1) cere evaluarea tuturor sistemelor care prelucrează date personale, nu doar a celor critice. Practic, intră aici toate sistemele oricărei autorități, inclusiv ale comunelor mici. Termenul este de 12 luni (art. 20), iar metodologia poate apărea abia după 180 de zile (art. 19).",
-        "Art. 7 alin. (3) permite localizarea exclusiv în România pe baza unui «temei legal special», fără trimitere explicită la Regulamentul (UE) 2018/1807, care interzice cerințele nejustificate de localizare a datelor și impune notificarea lor Comisiei.",
-        "Art. 18 trimite generic la răspunderea penală și contravențională «după caz», fără să definească vreo faptă. Norma este doar declarativă. Al doilea paragraf nu e numerotat ca alineat, contrar Legii nr. 24/2000.",
-        "Art. 15 se aplică numai sistemelor AI din sisteme critice. Instrumentele AI folosite în afara acestora (de exemplu, chatboți ai primăriilor) nu au cerințe suplimentare de documentare.",
-        "Art. 8 alin. (1) spune că furnizorul informează autoritatea despre cererile din state terțe «în măsura permisă de lege». Dacă legea străină interzice informarea (gag order), obligația devine inoperantă exact în cazul cel mai sensibil.",
-        "Expunerea de motive (pct. 6) recunoaște că lipsesc estimarea costurilor și fișa financiară. Art. 21 («în limita creditelor bugetare») atenuează problema, dar nu o elimină."
+        "Art. 7 alin. (1)-(3) exclude expres o obligație generală de localizare a datelor în România. Rezidența în UE/SEE poate fi cerută doar cu justificare individuală, iar localizarea strict națională doar printr-un temei legal special.",
+        "Art. 5 alin. (1) cere evaluări de risc pentru toate sistemele care prelucrează date personale ori asigură servicii esențiale, adică practic toate sistemele publice. Primăriile mici, fără personal IT, vor avea o sarcină reală, iar metodologia (art. 19) apare abia în luna 6 din cele 12 disponibile (art. 20).",
+        "Art. 18 enumeră răspunderea contravențională și penală fără a descrie fapte sau sancțiuni. Al doilea paragraf nu este numerotat ca alineat. Textul este declarativ și poate crea confuzie privind previzibilitatea.",
+        "Art. 8 alin. (2) leagă divulgarea către autoritățile statelor terțe de art. 48 GDPR. Este o garanție utilă față de accesul extrateritorial (de tip CLOUD Act) și nu adaugă o autorizare ANSPDCP (art. 8 alin. 3, art. 16 alin. 3).",
+        "Art. 14 alin. (2) interzice reutilizarea datelor minorilor pentru antrenarea AI fără temei legal și cere anonimizare efectivă. Este o protecție pozitivă, deși în mare parte reafirmă GDPR.",
+        "Art. 20 alin. (2): clauzele contractuale se aplică doar procedurilor inițiate după 12 luni de la intrarea în vigoare, adică circa 15 luni de la publicare. Contractele în curs se adaptează doar la reînnoire (alin. 3)."
       ],
-      "blindSpotsCaught": "Expunerea de motive pare scrisă pentru o versiune ulterioară unui «proiect inițial» și conține indicații de tipul «înainte de depunere este necesară...». Asta arată că avizele (ANSPDCP, DNSC, CES) și fișa financiară nu au fost obținute. Art. 20 alin. (2) amână clauzele contractuale cu 12 luni de la intrarea în vigoare, deci cu aproximativ 15 luni de la publicare. Art. 3 lit. c) și art. 7 alin. (3) au greșeli de redactare («extraterritorial», «territoriul»).",
-      "constitutionalityNote": "Nu am identificat încălcări grave. Art. 26 (viața privată) și art. 148 (prioritatea dreptului UE) sunt respectate explicit. Previzibilitatea (art. 1 alin. 5) este afectată moderat de formulările «după caz» și de art. 18, care nu tipizează nicio faptă, deci nu creează infracțiuni noi și nu ridică probleme sub art. 23 alin. (12). Riscul principal ține de art. 111 alin. (1) și de art. 138 alin. (5): lipsa fișei financiare și a punctului de vedere al Guvernului, invocată de CCR în jurisprudența sa. Riscul este redus de art. 21.",
-      "euLawNote": "Legea este bine aliniată la GDPR (art. 35, 48, cap. V), NIS2, Data Act (2023/2854), AI Act (2024/1689), Regulamentul 2019/881 și eIDAS 2. Directiva 2018/958 nu este incidentă, pentru că legea nu reglementează profesii. TRIS 2015/1535: clauzele de achiziție adresate autorităților contractante nu sunt, de regulă, reguli tehnice, deci notificarea pare neincidentă. Totuși, art. 7 alin. (2)-(3) trebuie corelat cu art. 4 din Regulamentul 2018/1807, care impune justificare și notificare pentru cerințele de localizare. Art. 10 evită corect discriminarea după sediul furnizorului.",
+      "blindSpotsCaught": "Expunerea de motive recunoaște că nu există o estimare a costurilor și că fișa financiară (art. 111 din Constituție, art. 15 din Legea 500/2002) trebuia făcută «înainte de depunere». Textul conține și formulări de ciornă («proiectul inițial», exemple ce «trebuie reconfirmate»), semn că a fost depus nefinalizat. Regulamentul (UE) 2018/1807 privind libera circulație a datelor fără caracter personal nu este citat, deși art. 4 al acestuia cere notificarea Comisiei pentru orice nouă cerință de localizare. Ar fi relevant pentru orice lege specială emisă în baza art. 7 alin. (3). Art. 3 lit. a) creează noțiunea de «sistem critic de date publice», paralelă cu entitățile esențiale/importante din NIS2 (OUG 155/2024), fără articulare între ele. Există și greșeli de redactare: «extraterritorial», «territoriul», art. 9 alin. (2) lipit de alin. (1).",
+      "constitutionalityNote": "Legea este în general conformă. Protejează viața privată (art. 26) și respectă prioritatea dreptului UE (art. 148), pe care o invocă explicit. Singurul punct sensibil din perspectiva art. 1 alin. (5) și art. 23 alin. (12) este art. 18: menționează răspunderea penală și contravențională fără a defini faptele. Fiindcă trimite la «actele normative aplicabile», nu creează efectiv sancțiuni noi, deci riscul e de claritate, nu de neconstituționalitate. Lipsa fișei financiare poate atrage obiecții în temeiul art. 111 alin. (1), dar art. 21 limitează măsurile la creditele bugetare aprobate. Legea pare ordinară. Nu modifică regimul electoral (art. 13 alin. 2 exclude votul electronic).",
+      "euLawNote": "Legea este foarte bine aliniată cu GDPR (art. 35, 48, cap. V), Data Act 2023/2854 (schimbarea furnizorului), Cybersecurity Act 2019/881 (art. 10 refuză certificarea națională paralelă), NIS2 și AI Act 2024/1689. Directiva 2018/958 privind testul de proporționalitate nu este incidentă, deoarece nu se reglementează profesii. Notificarea TRIS (2015/1535) e puțin probabilă: obligațiile vizează autoritățile publice și specificațiile din achiziții, nu reguli generale pentru serviciile societății informaționale. Totuși, analiza recomandată în expunere e prudentă. Piața unică e protejată prin interdicția criteriilor de naționalitate sau sediu (art. 10 alin. 2) și prin acceptarea echivalențelor (art. 6 alin. 3, art. 10 alin. 3). Lipsește trimiterea la Regulamentul 2018/1807.",
       "senatForm": {
-        "articleRef": "Art. 7 alin. (3)",
-        "proposalContent": "Alin. (3) se completează astfel: „(3) O cerință de localizare exclusiv pe teritoriul României se poate stabili numai prin lege specială, justificată pe motive de securitate publică, cu respectarea art. 4 din Regulamentul (UE) 2018/1807 și a art. 48 din Regulamentul (UE) 2016/679, inclusiv cu notificarea prealabilă a Comisiei Europene.”",
-        "argumentation": "Textul actual permite localizarea exclusivă pe baza unui „temei legal special” nedefinit. Regulamentul (UE) 2018/1807 interzice cerințele de localizare, cu excepția celor justificate de securitatea publică, și obligă statele să le notifice. Precizarea crește previzibilitatea (art. 1 alin. 5 din Constituție) și previne o procedură de infringement. Se corectează și greșeala „territoriul”.",
-        "otherComments": "Art. 18: alineatul fără număr se numerotează ca alin. (2), iar trimiterea la răspunderea penală se elimină sau se precizează. Art. 5 alin. (1): evaluarea se limitează la sistemele critice sau se simplifică pentru UAT-urile mici. Proiectul necesită fișă financiară (art. 15 din Legea nr. 500/2002) și avizele ANSPDCP și DNSC. Art. 3 lit. c): se corectează „extrateritorial”."
+        "articleRef": "Art. 18 – Răspundere",
+        "proposalContent": "Art. 18 se structurează în alin. (1) și (2), iar alin. (1) se reformulează: „(1) Încălcarea obligațiilor prevăzute de prezenta lege atrage, după caz, răspunderea disciplinară, civilă, contravențională sau penală, numai în condițiile actelor normative care sancționează ori incriminează fapta respectivă.”",
+        "argumentation": "Forma actuală sugerează răspundere contravențională și penală fără a descrie faptele și sancțiunile, contrar exigențelor de previzibilitate (art. 1 alin. 5 și art. 23 alin. 12 din Constituție). Al doilea paragraf nu este numerotat, contrar Legii nr. 24/2000. Reformularea arată clar că legea nu creează sancțiuni proprii.",
+        "otherComments": "Recomandăm: fișa financiară cerută de art. 15 din Legea 500/2002; evaluare simplificată la art. 5 pentru autoritățile mici; trimiterea la art. 2 pct. 8 din Reg. (UE) 2023/2854 la art. 3 lit. b); menționarea Reg. (UE) 2018/1807 la art. 7; corectarea „extraterritorial” și „territoriul”; numerotarea alin. (2) la art. 9."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 106416,
+      "durationMs": 81907,
       "sourceEndMarker": "SF-AC97C490",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Reguli pentru protejarea datelor din sistemele informatice publice",
-      "verdictShort": "Proiectul este predominant util și proporțional: cere evaluarea riscurilor și contracte mai sigure, fără monopoluri, taxe noi sau localizare obligatorie generală în România. Principalele vulnerabilități sunt criteriile insuficient precizate pentru sistemele critice și costurile administrative neestimate.",
-      "initiatorClaim": "Inițiatorii urmăresc reducerea dependenței de furnizorii tehnologici, protejarea datelor și continuitatea serviciilor publice. Invocă și accesul digital al diasporei, protecția minorilor și controlul utilizării inteligenței artificiale.",
-      "realityCheck": "Legea introduce evaluări periodice, cerințe contractuale pentru sistemele critice și documentarea utilizării AI, folosind instituțiile existente. Nu instituie un cloud nou, certificare națională obligatorie, autorizarea generală a transferurilor sau dreptul cetățeanului de a muta registre publice. Evaluările și adaptarea contractelor implică însă muncă și cheltuieli suplimentare, fără o estimare financiară prezentată.",
+      "plainTitle": "Reguli de securitate pentru datele statului folosite în cloud și AI",
+      "verdictShort": "Proiectul este predominant util și proporțional: cere evaluarea riscurilor și contracte mai sigure, fără monopol, taxe noi sau localizarea obligatorie a tuturor datelor în România. Punctele vulnerabile sunt fundamentarea financiară și precizia aplicării unor obligații.",
+      "initiatorClaim": "Inițiatorii urmăresc protejarea datelor din sistemele publice, reducerea dependenței de furnizori și continuitatea serviciilor digitale. Invocă și accesul diasporei la servicii publice, precum și protecția datelor în utilizările AI.",
+      "realityCheck": "Autoritățile trebuie să evalueze riscurile și să introducă garanții contractuale, iar sistemele critice primesc cerințe suplimentare justificate individual. Proiectul nu creează un cloud nou, un certificat național obligatoriu sau o autorizare generală a transferurilor, deși expunerea descrie asemenea soluții ca aparținând unei versiuni anterioare. Aplicarea presupune cheltuieli administrative necuantificate și păstrează contractele existente până la reînnoire ori modificare legal permisă.",
       "affectedGroups": [
-        "IMM & Antreprenori",
         "IT & AI",
+        "IMM & Antreprenori",
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 5 cere evaluarea sistemelor care prelucrează date personale ori susțin servicii publice esențiale; cerințele contractuale speciale din art. 6 vizează sistemele clasificate drept critice. Evaluarea inițială are, așadar, un domeniu mai larg decât obligațiile contractuale speciale.",
-        "Art. 7 exclude localizarea generală obligatorie în România. Restricțiile pentru sistemele critice trebuie justificate individual, iar localizarea exclusiv națională presupune suplimentar un temei legal special; securitatea nu poate justifica automat excluderea furnizorilor.",
-        "Art. 6 și 10 acceptă probe echivalente, iar art. 10 exclude certificarea națională obligatorie paralelă și condițiile de acces bazate pe naționalitatea ori sediul furnizorului. Aceste garanții reduc riscul favorizării unor companii.",
-        "Art. 18 nu definește contravenții sau infracțiuni și nu stabilește amenzi noi. Simpla încălcare a proiectului nu permite aplicarea unei sancțiuni contravenționale ori penale fără un temei sancționator distinct și aplicabil.",
-        "Art. 19–22 prevăd intrarea în vigoare după 90 de zile, metodologia în următoarele 180 de zile și evaluările în 12 luni de la intrarea în vigoare. Cerințele art. 6 și 11 se aplică achizițiilor inițiate după aceste 12 luni; contractele existente se adaptează la reînnoire sau prin modificări legal permise.",
-        "Art. 21 limitează implementarea la creditele aprobate, dar nu cuantifică resursele necesare. Expunerea de motive recunoaște lipsa estimării; recomandarea sa de elaborare a fișei financiare nu dovedește că documentul există în dosar.",
-        "Dispozițiile finale nu conțin abrogări, modificări ale altor legi sau derogări care să reintroducă localizarea generală, un monopol ori sancțiuni suplimentare."
+        "Art. 5 impune evaluări cel puțin bienale pentru sistemele care prelucrează date personale ori asigură servicii publice esențiale. Obligația este largă, dar clasificarea ca sistem critic trebuie motivată individual.",
+        "Art. 6–7 și 10 protejează concurența prin cerințe proporționale, probe echivalente și absența unei certificări naționale obligatorii. Rezidența datelor poate fi cerută numai justificat și cu respectarea dreptului UE.",
+        "Art. 11 facilitează migrarea între furnizori, iar art. 12 exclude expres dreptul persoanei de a muta registre publice la un furnizor ales individual. Nu se instituie vot electronic prin art. 13.",
+        "Art. 14 nu interzice absolut folosirea datelor minorilor la antrenarea AI: o condiționează de temei legal valabil și garanții corespunzătoare. Art. 15 adaugă documentarea riscurilor înaintea utilizării AI în sisteme critice.",
+        "Art. 18 nu definește contravenții, infracțiuni sau amenzi noi. Trimiterea la răspunderea existentă nu permite sancționarea automată a oricărei încălcări: trebuie îndeplinite condițiile actului normativ aplicabil.",
+        "Art. 19–22 prevăd metodologia în 180 de zile, prima evaluare în 12 luni și aplicarea cerințelor contractuale procedurilor inițiate ulterior acestui termen, calculate de la intrarea în vigoare. Legea intră în vigoare la 90 de zile de la publicare; nu există abrogări sau modificări exprese ale altor legi.",
+        "Art. 21 indică bugetele anuale și fondurile europene eligibile, dar expunerea recunoaște lipsa estimării costurilor. Pentru cetățeni nu apar taxe sau formalități noi; furnizorii, inclusiv IMM-urile, pot suporta costuri contractuale de securitate, audit și migrare."
       ],
-      "blindSpotsCaught": "Directiva 2018/958 privește reglementarea profesiilor, nu orice măsură care afectează concurența: proiectul nu introduce acces la o profesie reglementată. Separat, protecția față de accesul autorităților străine nu privește exclusiv datele personale: art. 32 din Regulamentul 2023/2854 trebuie avut în vedere pentru datele nepersonale. Menționarea GDPR în art. 8 nu epuizează această problemă.",
-      "constitutionalityNote": "Pe textul furnizat, nu rezultă o încălcare constituțională evidentă. Garanțiile susțin protecția vieții private din art. 26. Pentru art. 1 alin. (5), noțiunea de «impact grav» și criteriile clasificării sistemelor critice merită precizate în lege, deoarece declanșează obligații și costuri; metodologia poate detalia aplicarea, fără să creeze restricții noi. Art. 23 alin. (12) nu relevă o problemă autonomă, deoarece nu sunt instituite pedepse noi. Respectarea art. 111 alin. (1) și art. 138 alin. (5) trebuie verificată în dosarul legislativ, în funcție de efectele bugetare; clauza privind creditele aprobate nu rezolvă singură fundamentarea financiară. Formula finală privind art. 76 alin. (1) necesită justificarea încadrării într-un domeniu de lege organică, fără ca ea singură să demonstreze neconstituționalitatea.",
-      "euLawNote": "Orientarea proiectului este compatibilă cu GDPR, concurența și achizițiile publice, sub rezerva aplicării proporționale. Rezidența în UE/SEE nu rezolvă singură riscurile accesului din state terțe sau obligațiile privind transferurile. Regulamentul 2018/1807 trebuie avut în vedere pentru restricțiile de localizare a datelor nepersonale în interiorul UE. Directiva 2018/958 nu este incidentă în lipsa reglementării unei profesii. Notificarea TRIS potrivit Directivei 2015/1535 nu devine obligatorie doar fiindcă legea menționează cloud și AI: trebuie examinat dacă dispozițiile concrete, inclusiv metodologia, constituie reguli tehnice notificabile; specificațiile achizițiilor publice nu sunt automat asemenea reguli. Art. 15 alin. (2) trimite prudent la calendarul efectiv aplicabil al Regulamentului AI. Verificarea online nu a fost disponibilă; stadiul dosarului și eventualele modificări legislative recente nu au putut fi confirmate independent.",
+      "blindSpotsCaught": "Formula finală invocă art. 76 alin. (1), deci califică implicit legea drept organică, fără ca materia reglementată să justifice evident această calificare. În plus, art. 20 alin. (2) trebuie clarificat pentru achizițiile directe și alte modalități de contractare, astfel încât aplicarea în timp a garanțiilor să fie previzibilă. Soluțiile restrictive descrise în expunere ca aparținând proiectului inițial nu sunt obligații ale textului analizat.",
+      "constitutionalityNote": "Nu rezultă o încălcare evidentă a Constituției. Garanțiile sprijină protecția vieții private din art. 26, iar trimiterile la dreptul UE sunt compatibile cu art. 148. Pentru art. 1 alin. (5), trebuie precizate criteriile impactului grav și responsabilitatea clasificării sistemelor; metodologia poate detalia, fără a inventa obligații esențiale sau sancțiuni. Art. 23 alin. (12) nu este încălcat prin simpla trimitere la răspunderea penală existentă. Dacă măsurile implică modificarea prevederilor bugetare, solicitarea informării Guvernului potrivit art. 111 alin. (1) este obligatorie; cheltuielile trebuie fundamentate și sursele stabilite conform art. 138 alin. (5). Documentele furnizate nu dovedesc îndeplinirea ori omiterea acestor etape. Caracterul organic trebuie verificat prin raportare la art. 73 alin. (3).",
+      "euLawNote": "Direcția proiectului este compatibilă cu GDPR și cu facilitarea schimbării furnizorilor prevăzută de Regulamentul (UE) 2023/2854. Pentru accesul autorităților statelor terțe la date fără caracter personal este relevant și art. 32 din acest regulament, nu doar capitolul V GDPR. Directiva (UE) 2018/958 privește reglementarea profesiilor și nu instituie un test general obligatoriu pentru orice cerință aplicată furnizorilor IT; textul nu reglementează accesul la o profesie. Incidența TRIS, potrivit Directivei (UE) 2015/1535, necesită examinarea cerințelor concrete: simpla menționare a cloudului sau AI nu declanșează automat notificarea. Restricțiile de localizare trebuie verificate inclusiv prin Regulamentul (UE) 2018/1807 pentru datele fără caracter personal și prin normele achizițiilor publice. Analiza privește textul furnizat; verificarea online a legislației consolidate și a stadiului dosarului nu a fost posibilă.",
       "senatForm": {
-        "articleRef": "Art. 3 lit. a), art. 5 și art. 19",
-        "proposalContent": "Precizați în lege criteriile minime pentru «impact grav» și clasificarea sistemelor critice. Prevedeți actualizarea evaluării și la incidente ori schimbări majore și reutilizarea documentației existente, fără înlocuirea evaluărilor obligatorii potrivit legislației speciale.",
-        "argumentation": "Clasificarea declanșează cerințe contractuale și costuri. Criteriile legale suficiente sporesc previzibilitatea cerută de art. 1 alin. (5) din Constituție și reduc diferențele arbitrare între autorități. Reutilizarea documentației limitează sarcinile administrative.",
-        "otherComments": "Solicitați fundamentarea costurilor și documentele bugetare necesare potrivit art. 111 și 138 din Constituție. Analizați distinct incidența TRIS asupra regulilor concrete. Directiva 2018/958 nu se aplică în lipsa reglementării unei profesii. Proiectul nu introduce amenzi noi sau localizare generală obligatorie."
+        "articleRef": "Art. 5, 18–21 și formula finală",
+        "proposalContent": "Precizați criteriile impactului grav și responsabilul aprobării clasificării sistemelor critice. Clarificați aplicarea art. 20 la achizițiile directe și faptul că art. 18 nu creează contravenții sau infracțiuni noi. Completați fundamentarea financiară cu estimarea costurilor și sursele de finanțare.",
+        "argumentation": "Evaluările, auditul și adaptarea contractelor pot genera costuri, recunoscute dar necuantificate în expunere. Clarificările sporesc previzibilitatea cerută de art. 1 alin. (5) din Constituție. Formula privind creditele bugetare nu înlocuiește fundamentarea cheltuielilor și verificările cerute de art. 111 și 138.",
+        "otherComments": "Justificați caracterul organic al legii. Verificați incidența notificării TRIS pe cerințele concrete și corelați art. 8 cu art. 32 din Regulamentul (UE) 2023/2854 pentru datele fără caracter personal. Directiva (UE) 2018/958 privește profesiile reglementate, nu orice condiție contractuală pentru furnizori IT."
       },
       "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-19T08:34:33.319Z",
+      "method": "whole-text-v1",
+      "textChars": 12470,
+      "form": null,
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:14:27.330Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

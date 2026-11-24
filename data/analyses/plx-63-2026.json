@@ -2,143 +2,179 @@
   "billId": "PL-x 63/2026",
   "slug": "plx-63-2026",
   "version": "senat",
-  "updatedAt": "2026-11-19T11:55:08.680Z",
+  "updatedAt": "2026-11-24T15:14:55.200Z",
   "coverage": {
     "method": "whole-text-v1",
+    "form": "senat",
     "billChars": 1292,
     "ordinanceChars": 15782,
     "memoChars": 20293,
     "memoSupplied": 20293,
-    "marker": "SF-30289CE1",
-    "form": "senat"
+    "marker": "SF-30289CE1"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-63-2026.json",
+    "form": "senat",
+    "textHash": "30289ce183b17dfc",
+    "fetchedAt": "2026-11-19T11:20:55.938Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 2422,
+    "truncated": false,
+    "included": true,
+    "key": "88975ab93f998837"
   },
   "consensus": {
     "riskScore": 5,
     "riskLevel": "yellow",
-    "plainTitle": "Statul poate opri și tăia plățile din fonduri agricole UE după un audit, fără garanții clare pentru fermieri",
-    "summaryTlDr": "Scopul este legitim: România vrea să evite corecții financiare de la Comisia Europeană. Formularea art. 35¹ este însă vagă și permite sistarea fără termen și reducerea sprijinului pentru fermieri pe baza unor constatări de audit acceptate de administrație. Beneficiarul nu are un act individual, nu este audiat și nu se verifică dacă greșeala îi aparține.",
-    "initiatorClaim": "Guvernul spune că un audit DG AGRI pe intervenția viticolă IS-V-01 (circa 41,55 mil. euro) a cerut revizuirea legislației. Art. 35¹ ar crea temeiul legal pentru aplicarea constatărilor de audit și ar reduce corecția forfetară care amenință fondurile PAC 2023-2027.",
-    "realityCheck": "OUG nu se limitează la sectorul viticol. Ea creează o regulă generală pentru toate intervențiile FEGA/FEADR din PS 2023-2027: orice constatare sau recomandare a Comisiei, a Curții Europene de Conturi sau a Curții de Conturi, odată 'acceptată' de MADR, APIA sau AFIR, duce la sistarea plăților, la recuperare prin OUG 66/2011 și la diminuarea sprijinului pentru cererile neplătite încă. Măsura se aplică și cererilor depuse și contractelor semnate înainte, iar beneficiarii sunt informați abia după aprobarea noilor ghiduri și proceduri, în 15 zile. Riscul de a plăti pentru erorile sistemului administrativ trece astfel asupra fermierului.",
+    "plainTitle": "Statul poate opri și tăia plățile din fonduri agricole UE când un audit găsește probleme",
+    "summaryTlDr": "Scopul este legitim și cerut de dreptul UE: evitarea corecțiilor financiare. Textul dă însă agențiilor de plăți puterea de a sista și diminua sprijinul fermierilor pe baza unor constatări negociate cu auditorii. Nu are termen, nu cere act motivat, nu prevede o cale clară de contestare și nu impune publicarea constatărilor.",
+    "initiatorClaim": "Guvernul spune că un audit al Comisiei Europene pe intervenția viticolă IS-V-01 (aprox. 41,55 mil. euro) a criticat cadrul legal național. Este nevoie de un temei legal general pentru aplicarea rapidă a constatărilor de audit, ca să se reducă corecția forfetară și să nu se piardă fonduri.",
+    "realityCheck": "Noul art. 35¹ din OUG 85/2023 se aplică tuturor intervențiilor PS PAC 2023-2027, nu doar viticulturii. Constatările de audit (CE, Curtea Europeană de Conturi, Curtea de Conturi a României) acceptate de MADR/agenții duc automat la sistarea plăților și la recuperări potrivit OUG 66/2011. Pentru cererile neplătite încă, inclusiv cele depuse înainte de audit, agenția diminuează sprijinul. Beneficiarul nu este parte la procedura contradictorie în care autoritățile «acceptă» constatările și este informat abia în 15 zile de la aprobarea noilor ghiduri și proceduri.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "IMM & Antreprenori",
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. unic OUG 79/2025 – art. 35¹ alin.(2)-(4)",
-      "proposalContent": "Alin.(3) se completează: «Diminuarea se dispune prin act administrativ individual motivat, după notificarea beneficiarului și un termen de 10 zile pentru punct de vedere, numai dacă neregula îi este imputabilă.» Alin.(2): sistarea durează maximum 90 de zile. Alin.(4): informarea beneficiarilor se face înainte de aplicarea măsurilor.",
-      "argumentation": "Textul permite sistarea nelimitată și reducerea sprijinului pe baza unor constatări de audit acceptate de administrație, fără act individual, fără audierea fermierului și fără a distinge erorile sistemului de cele ale beneficiarului. Garanțiile propuse asigură previzibilitatea (art. 1 alin. 5 din Constituție) și buna administrare (art. 41 din Carta UE).",
-      "otherComments": "Propun și precizarea în text că se aplică doar constatărilor finale acceptate în procedura contradictorie, cum susține expunerea de motive, și că alin.(3) nu se aplică cererilor depuse înainte de modificarea ghidurilor. Recomand menționarea expresă a căii de atac în contencios administrativ (Legea 554/2004)."
+      "articleRef": "Art. unic OUG 79/2025 – art. 35¹ alin. (2)-(4)",
+      "proposalContent": "La alin.(3) se adaugă: „Diminuarea se dispune prin act administrativ motivat, comunicat beneficiarului, care poate fi contestat potrivit OUG nr.66/2011. Sistarea plăților potrivit alin.(2) nu poate depăși 90 de zile și se comunică motivat beneficiarului. Constatările acceptate se publică pe site-ul agenției de plăți, cu indicarea intervențiilor vizate.”",
+      "argumentation": "Textul permite sistarea nelimitată în timp și reducerea sprijinului pe baza unor constatări negociate între autorități și CE, la care beneficiarul nu e parte, fără act motivat și cale de contestare explicită. Previzibilitatea (art.1 alin.5), dreptul la apărare (art.24) și accesul la justiție (art.21) cer un termen, o motivare și publicitatea constatărilor.",
+      "otherComments": "„Data implementării constatărilor” nu e definită; propunem să fie data publicării actului de modificare. Termenul de 15 zile pentru informare ar trebui să curgă înainte de aplicarea efectelor față de beneficiar, nu după. Diminuarea să nu afecteze cererile pentru care beneficiarul a respectat regulile în vigoare la depunere."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 39586,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 85399,
       "sourceEndMarker": "SF-30289CE1",
-      "riskScore": 4,
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Fermierii pot avea plățile blocate sau tăiate retroactiv în urma auditurilor",
-      "verdictShort": "Ordonanța urmărește un scop legitim — evitarea corecțiilor financiare de la UE — dar transferă riscul juridic asupra fermierilor fără termene maxime de blocare a banilor și fără garanții pentru beneficiarii de bună-credință. Când auditul sancționează chiar normele greșite ale ministerului, proiectul permite tăierea sprijinului pentru cereri aflate deja în derulare.",
-      "initiatorClaim": "Guvernul susține că OUG nr. 79/2025 este necesară urgent, în urma unui audit DG AGRI pe sectorul vitivinicol (intervenția IS-V-01), pentru a crea temeiul legal de punere în aplicare a recomandărilor de audit și a evita corecțiile financiare forfetare sau dezangajarea fondurilor PAC 2023-2027.",
-      "realityCheck": "În realitate, Art. 35¹ introdus în OUG nr. 85/2023 instituie un mecanism permanent pentru toate intervențiile PAC 2023-2027 (15,8 miliarde euro) și include și auditurile Curții de Conturi a României. Odată ce o instituție din subordinea MADR „acceptă” o constatare de audit, plățile se sistează fără un termen maxim legal, iar pentru cererile neplătite încă agenția de plăți reduce unilateral sprijinul, modificând acte normative, ghiduri sau instrucțiuni și informând beneficiarii abia după aprobare.",
+      "plainTitle": "Statul poate bloca și tăia subvențiile agricole UE din mers, după audituri",
+      "verdictShort": "Deși scopul de a evita corecțiile financiare europene este legitim, legea introduce un mecanism imprevizibil care permite blocarea pe termen nelimitat și reducerea unilaterală a subvențiilor agricole aflate deja în derulare. Fermierii de bună-credință riscă să suporte financiar inclusiv erorile de reglementare comise de MADR sau APIA, fără garanții procedurale clare.",
+      "initiatorClaim": "Guvernul susține că OUG 79/2025 este urgentă pentru a răspunde unui audit al Comisiei Europene în sectorul vitivinicol (intervenția IS-V-01, 41,55 mil. euro) și pentru a crea un cadru general care să prevină corecțiile forfetare și dezangajarea fondurilor PAC 2023-2027.",
+      "realityCheck": "În forma actuală, art. 35 din OUG 85/2023 obligă beneficiarii doar să păstreze documentele și să permită accesul auditorilor. Noul art. 35^1 introdus de OUG 79/2025 permite autorităților din subordinea MADR ca, prin simpla «acceptare» a unor constatări sau recomandări de audit, să sisteze plățile fără un termen-limită, să diminueze unilateral cuantumul sprijinului pe cereri deja depuse și neplătite și să modifice regulile din mers prin acte normative sau simple ghiduri și instrucțiuni.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Art. 35¹ alin. (2) impune sistarea plăților care fac obiectul constatărilor acceptate de structurile MADR, fără a stabili un termen limită al suspendării sau actul administrativ formal prin care se dispune aceasta.",
-        "Art. 35¹ alin. (3) obligă agenția de plăți să diminueze cuantumul sprijinului financiar pentru cererile de finanțare/plată nefinalizate (inclusiv cele sistate), fără a face trimitere la procedura de contestare din OUG nr. 66/2011 și fără a distinge între frauda beneficiarului și eroarea de reglementare a autorității.",
-        "Art. 35¹ alin. (4) permite autorităților din subordinea MADR să modifice acte normative, ghiduri, proceduri sau instrucțiuni aferente intervențiilor și prevede informarea beneficiarilor în termen de 15 zile de la data aprobării, ulterior producerii efectelor.",
-        "Art. 35¹ alin. (1) extinde acest regim de urgență și asupra constatărilor Curții de Conturi a României, deși motivația urgenței din preambul invocă exclusiv procedurile contradictorii cu Comisia Europeană."
+        "Art. 35^1 alin. (2) impune sistarea automată a plăților care fac obiectul constatărilor/recomandărilor de audit acceptate de MADR/agenții, dar nu prevede nicio durată maximă a sistării și nici obligația emiterii unui act individual motivat și contestabil la momentul blocării banilor.",
+        "Art. 35^1 alin. (3) permite agenției de plăți să diminueze unilateral sprijinul financiar pentru cererile de finanțare sau de plată deja depuse și nefinalizate, fără a distinge între culpa beneficiarului și erorile legislative sau de calcul ale statului român (deși preambulul admite că auditul DG AGRI vizează chiar cadrul normativ național).",
+        "Art. 35^1 alin. (4) legitimează modificarea regulilor de implementare inclusiv prin «ghiduri, proceduri sau instrucțiuni» cu aplicare asupra plăților aflate în curs, beneficiarii fiind informați abia în 15 zile de la aprobarea modificărilor, nu înainte de afectarea fluxului financiar.",
+        "Secțiunile 3 și 4 ale Expunerii de motive declară «Nu este cazul» la impactul socioeconomic, asupra mediului de afaceri și financiar, deși norma se aplică întregului Plan Strategic PAC 2023-2027 în valoare de 15,8 miliarde euro."
       ],
-      "blindSpotsCaught": "Textul nu definește ce formă juridică trebuie să îmbrace „acceptarea” constatărilor de către autoritățile MADR (act publicat în Monitorul Oficial vs. simplă adresă internă), creând incertitudine asupra momentului de la care se blochează sau se taie banii. În plus, alin. (2) trimite la OUG nr. 66/2011 doar pentru recuperarea sumelor deja plătite, lăsând alin. (3) (diminuarea cererilor aflate în plată) fără o cale de atac expresă și fără o modalitate clară de comunicare individuală la alin. (4).",
-      "constitutionalityNote": "Textul prezintă vulnerabilități față de art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii), prin lipsa unui termen maxim de sistare a plăților la alin. (2) și a procedurii de formalizare a acceptării auditului la alin. (1). Totodată, reducerea sprijinului pentru cereri deja depuse și modificarea ulterioară a ghidurilor/actelor (alin. (3)-(4)) pot tensiona art. 15 alin. (2) (neretroactivitatea) și art. 21 (accesul liber la justiție), iar extinderea asupra auditurilor naționale ale Curții de Conturi slăbește justificarea situației extraordinare cerute de art. 115 alin. (4).",
-      "euLawNote": "Măsura implementează obligația statelor membre prevăzută de art. 59 din Regulamentul (UE) 2021/2115 de a proteja interesele financiare ale Uniunii, corelativ cu Regulamentul (UE) 2021/2116. Totuși, aplicarea mecanică a reducerilor asupra cererilor în curs fără protejarea beneficiarilor de bună-credință atunci când eroarea aparține statului contravine principiului european al securității juridice și al încrederii legitime. Directivele (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și (UE) 2015/1535 (TRIS, reglementări tehnice/servicii digitale) nu sunt incidente.",
+      "blindSpotsCaught": "Textul activează sistarea și tăierea plăților chiar și pentru simple «recomandări» (nu doar constatări definitive) «acceptate» de MADR/structurile subordonate, fără a defini actul juridic prin care se face acceptarea și fără participarea beneficiarului în procedura contradictorie. Totodată, preambulul OUG și Expunerea de motive citează greșit «art. 59 din Regulamentul (UE) 2021/2.115» pentru protecția intereselor financiare ale UE — acea obligație se află de fapt în art. 59 din Regulamentul (UE) 2021/2.116 (art. 59 din 2021/2.115 privește asistența financiară în sectorul vitivinicol).",
+      "constitutionalityNote": "Art. 35^1 ridică probleme serioase față de art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii): noțiunea de constatări/recomandări «acceptate» este neclară, sistarea plăților nu are termen maxim, iar reducerea unor drepturi financiare se poate opera prin acte infralegale («ghiduri, proceduri sau instrucțiuni»). Aplicarea diminuărilor la cereri de finanțare/plată deja depuse (alin. 3) tensionează art. 15 alin. (2) (neretroactivitatea) și art. 44/art. 52 (protecția dreptului de proprietate și răspunderea autorităților), când eroarea aparține statului. De asemenea, folosirea OUG (art. 115 alin. 4) pentru a institui o regulă permanentă pe întregul program de 15,8 mld. euro pornind de la un audit punctual este discutabilă.",
+      "euLawNote": "Protecția intereselor financiare ale UE și recuperarea sumelor necuvenite sunt obligatorii conform Regulamentului (UE) 2021/2116 (art. 59). Totuși, jurisprudența CJUE impune ca măsurile naționale de ajustare sau recuperare să respecte principiile generale ale dreptului UE — securitatea juridică, proporționalitatea, încrederea legitimă și dreptul la o cale de atac efectivă (art. 47 CDFUE) — mai ales când neregula rezultă din erori ale legislației naționale, nu din frauda beneficiarului. Directivele (UE) 2018/958 (profesii reglementate) și (UE) 2015/1535 (TRIS) nu sunt incidente.",
       "senatForm": {
-        "articleRef": "Art. 35¹ alin. (2) și (3) din OUG 85/2023",
-        "proposalContent": "La alin. (2), sistarea plăților se dispune prin act motivat pe cel mult 90 de zile, cu comunicarea formală a acceptării auditului. La alin. (3), diminuarea sprijinului se dispune prin act administrativ contestabil potrivit OUG nr. 66/2011 și nu afectează proiectele executate cu bună-credință când eroarea aparține exclusiv autorității.",
-        "argumentation": "Forma actuală permite sistarea pe durată nedeterminată a plăților și tăierea sprijinului pentru cereri în curs, inclusiv când auditul constată erori ale normelor MADR. Lipsa termenelor și a căii de atac la alin. (3) încalcă art. 1 alin. (5) și art. 21 din Constituție, precum și principiul încrederii legitime.",
-        "otherComments": "La alin. (4), informarea beneficiarilor despre modificarea actelor normative, ghidurilor și procedurilor ar trebui făcută individual (electronic/poștal) și cu un termen minim de adaptare înainte de aplicare, pentru a respecta securitatea juridică și a nu bloca investițiile agricole în derulare."
+        "articleRef": "Articol unic (art. 35^1 din OUG nr. 85/2023)",
+        "proposalContent": "Modificarea art. 35^1 alin. (2)-(4): limitarea sistării plăților la max. 60 zile prin act administrativ motivat și contestabil; aplicarea diminuărilor doar pentru nereguli imputabile beneficiarului, fără a afecta drepturile câștigate din erori ale autorităților; excluderea modificării retroactive prin ghiduri sau instrucțiuni.",
+        "argumentation": "Textul actual încalcă art. 1 alin. (5) și art. 15 alin. (2) din Constituție: permite sistarea nelimitată a plăților și reducerea unilaterală a sprijinului pentru cereri în derulare, inclusiv prin simple ghiduri. Erorile legislative ale MADR/APIA nu pot fi transferate fermierilor de bună-credință fără act motivat și cale de atac.",
+        "otherComments": "Expunerea de motive susține eronat că nu există impact economic, deși norma vizează toată alocarea PAC 2023-2027 (15,8 mld. euro). Solicitați precizarea actului formal prin care MADR «acceptă» constatările de audit, publicarea lui și suportarea de la bugetul de stat a corecțiilor generate exclusiv de erori ale autorităților."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 49813,
+      "durationMs": 39212,
       "sourceEndMarker": "SF-30289CE1",
-      "riskScore": 5,
+      "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Statul poate opri și tăia plățile din fonduri agricole UE după un audit, fără garanții clare pentru fermieri",
-      "verdictShort": "Scopul este legitim: România vrea să evite corecții financiare de la Comisia Europeană. Formularea art. 35¹ este însă vagă și permite sistarea fără termen și reducerea sprijinului pentru fermieri pe baza unor constatări de audit acceptate de administrație. Beneficiarul nu are un act individual, nu este audiat și nu se verifică dacă greșeala îi aparține.",
-      "initiatorClaim": "Guvernul spune că un audit DG AGRI pe intervenția viticolă IS-V-01 (circa 41,55 mil. euro) a cerut revizuirea legislației. Art. 35¹ ar crea temeiul legal pentru aplicarea constatărilor de audit și ar reduce corecția forfetară care amenință fondurile PAC 2023-2027.",
-      "realityCheck": "OUG nu se limitează la sectorul viticol. Ea creează o regulă generală pentru toate intervențiile FEGA/FEADR din PS 2023-2027: orice constatare sau recomandare a Comisiei, a Curții Europene de Conturi sau a Curții de Conturi, odată 'acceptată' de MADR, APIA sau AFIR, duce la sistarea plăților, la recuperare prin OUG 66/2011 și la diminuarea sprijinului pentru cererile neplătite încă. Măsura se aplică și cererilor depuse și contractelor semnate înainte, iar beneficiarii sunt informați abia după aprobarea noilor ghiduri și proceduri, în 15 zile. Riscul de a plăti pentru erorile sistemului administrativ trece astfel asupra fermierului.",
+      "plainTitle": "Statul poate opri și tăia plățile din fonduri agricole UE când un audit găsește probleme",
+      "verdictShort": "Scopul este legitim și cerut de dreptul UE: evitarea corecțiilor financiare. Textul dă însă agențiilor de plăți puterea de a sista și diminua sprijinul fermierilor pe baza unor constatări negociate cu auditorii. Nu are termen, nu cere act motivat, nu prevede o cale clară de contestare și nu impune publicarea constatărilor.",
+      "initiatorClaim": "Guvernul spune că un audit al Comisiei Europene pe intervenția viticolă IS-V-01 (aprox. 41,55 mil. euro) a criticat cadrul legal național. Este nevoie de un temei legal general pentru aplicarea rapidă a constatărilor de audit, ca să se reducă corecția forfetară și să nu se piardă fonduri.",
+      "realityCheck": "Noul art. 35¹ din OUG 85/2023 se aplică tuturor intervențiilor PS PAC 2023-2027, nu doar viticulturii. Constatările de audit (CE, Curtea Europeană de Conturi, Curtea de Conturi a României) acceptate de MADR/agenții duc automat la sistarea plăților și la recuperări potrivit OUG 66/2011. Pentru cererile neplătite încă, inclusiv cele depuse înainte de audit, agenția diminuează sprijinul. Beneficiarul nu este parte la procedura contradictorie în care autoritățile «acceptă» constatările și este informat abia în 15 zile de la aprobarea noilor ghiduri și proceduri.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "IMM & Antreprenori",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 35¹ alin. (1)-(2): mecanismul pornește doar de la 'acceptarea' constatărilor de către autoritățile MADR. Beneficiarul nu participă la procedura contradictorie cu auditorii și nu poate contesta acolo constatarea care îl afectează. Textul nu spune nici că sunt vizate doar constatările finale, deși expunerea de motive și fișa Camerei afirmă asta.",
-        "Art. 35¹ alin. (2): sistarea plăților nu are durată maximă, nu se dispune printr-un act formal și nu are un criteriu de încetare. Pentru fermierii cu investiții cofinanțate (de exemplu replantări viticole), blocarea poate dura nedefinit.",
-        "Art. 35¹ alin. (3): agenția de plăți 'diminuează cuantumul conform constatărilor, după caz'. Textul nu arată cum se calculează reducerea, nu distinge corecțiile forfetare sau sistemice de neregulile imputabile fiecărui beneficiar și nu prevede un act administrativ individual motivat. Formula 'după caz' lasă administrației o marjă largă de apreciere.",
-        "Art. 35¹ alin. (3) se aplică tuturor cererilor 'pentru care nu a fost finalizată plata'. Sunt incluse deci cereri depuse și angajamente asumate sub regulile vechi, ceea ce afectează așteptările legitime ale beneficiarilor.",
-        "Art. 35¹ alin. (4): informarea beneficiarilor vine după aprobarea actelor sau ghidurilor modificate, nu înainte de aplicarea măsurilor. Textul nu impune consultarea beneficiarilor și nici o perioadă de tranziție.",
-        "Expunerea de motive declară la toate secțiunile de impact 'Nu este cazul'. Efectul economic direct asupra fermierilor și IMM-urilor agricole, al căror sprijin poate fi redus, nu este evaluat deloc."
+        "Art. 35¹ alin. (2): sistarea plăților vizate de constatări nu are limită de durată și nu cere comunicarea unui act motivat către beneficiar.",
+        "Art. 35¹ alin. (3): diminuarea sprijinului se aplică cererilor depuse înainte de audit dacă plata nu a fost finalizată, deci și cererilor depuse cu bună-credință după regulile de atunci. Aceasta este o retroactivitate de fapt asupra situațiilor în curs.",
+        "Declanșatorul este «acceptarea» constatărilor de către autoritățile MADR, o decizie internă, nepublicată, luată într-o negociere cu auditorii la care fermierul nu participă. Autoritatea are interesul să accepte ca să reducă corecția la nivel de stat.",
+        "Recuperarea sumelor plătite necuvenit exista deja prin OUG 66/2011 și art. 59 din Reg. (UE) 2021/2115. Noutatea reală este sistarea și diminuarea pentru plățile nefinalizate.",
+        "Art. 35¹ alin. (4): actele, ghidurile și procedurile se modifică ulterior, iar beneficiarii sunt informați în 15 zile de la aprobare. Efectele pot deci precede informarea.",
+        "Expunerea de motive declară impact social, economic, bugetar și asupra drepturilor «Nu este cazul», deși măsura poate reduce sume cuvenite fermierilor."
       ],
-      "blindSpotsCaught": "Esențialul este diferența dintre o corecție financiară aplicată statului membru și o neregulă individuală. Comisia aplică corecții forfetare României pentru deficiențe ale sistemului de control. Art. 35¹ alin. (3) permite ca aceste constatări să fie transformate automat în reduceri ale sprijinului pentru beneficiari, chiar dacă fermierul a respectat regulile în vigoare la data cererii. Recuperarea prin OUG 66/2011 de la alin. (2) presupune constatarea unei nereguli și oferă căi de contestare. Diminuarea de la alin. (3) nu trimite însă la nicio procedură, așa că nu e clar dacă beneficiarul primește un proces-verbal contestabil. Mai observ că 'recomandările' Curții de Conturi a României, care sunt măsuri de îmbunătățire și nu constatări de neregulă, au aceleași efecte ca o neregulă.",
-      "constitutionalityNote": "Art. 1 alin. (5) (claritate și previzibilitate): textul este vulnerabil. Nu definește 'acceptate', 'data implementării constatărilor' sau metoda de diminuare și nu limitează în timp sistarea. Destinatarul nu își poate anticipa consecințele. Art. 15 alin. (2): aplicarea la cereri depuse și contracte încheiate înainte ține de facta pendentia și poate fi admisă, dar devine problematică dacă se reduc sume pentru condiții deja îndeplinite. Art. 44: sprijinul încă neplătit nu este un bun 'actual', însă după îndeplinirea condițiilor contractuale beneficiarul poate invoca o speranță legitimă. Art. 115 alin. (4): motivarea urgenței (procedura contradictorie cu DG AGRI, riscul de corecții) este plauzibilă, deși preambulul este stereotip. Art. 115 alin. (6): o OUG nu poate afecta drepturi fundamentale, iar acest risc există indirect. Art. 21 și Legea 554/2004: controlul judecătoresc rămâne posibil teoretic, dar lipsa unui act individual îl îngreunează. Nu văd o neconstituționalitate evidentă, ci un risc moderat legat de previzibilitate.",
-      "euLawNote": "Art. 59 din Reg. (UE) 2021/2115 și Reg. (UE) 2021/2116 obligă statele membre să protejeze interesele financiare ale Uniunii și să recupereze plățile necuvenite, deci scopul OUG este conform dreptului UE. Același cadru (inclusiv Reg. 2988/95 privind sancțiunile administrative) cere însă ca recuperările și reducerile aplicate beneficiarilor să se bazeze pe o neregulă individuală. Trebuie respectate și principiile generale ale dreptului UE: securitatea juridică, protecția încrederii legitime, dreptul de a fi ascultat și dreptul la o bună administrare (art. 41 din Carta UE, aplicabil statelor când pun în aplicare dreptul UE). Transferul automat al corecțiilor forfetare asupra beneficiarilor nu este cerut de dreptul UE și poate fi contestat. Directiva 2018/958 nu se aplică, pentru că nu se reglementează accesul la profesii. Directiva 2015/1535 (TRIS) nu se aplică, pentru că nu există reguli tehnice sau servicii ale societății informaționale. Nu apar efecte asupra pieței unice sau concurenței, dar fermierii români pot fi dezavantajați față de cei din state cu garanții procedurale mai bune.",
+      "blindSpotsCaught": "Sintagma «data implementării constatărilor» din alin. (3) nu este definită. Nu se știe dacă înseamnă data acceptării, data modificării ghidului sau data notificării beneficiarului, iar de ea depinde ce cereri sunt diminuate. Diminuarea din alin. (3) nu trimite expres la OUG 66/2011, deci căile de contestare din acea ordonanță nu se aplică evident. Rămâne doar contenciosul administrativ general, cu condiția să existe un act administrativ individual. Includerea recomandărilor Curții de Conturi a României, nu doar ale auditorilor UE, lărgește mecanismul dincolo de necesitatea invocată.",
+      "constitutionalityNote": "Art. 1 alin. (5) (previzibilitate): termenii-cheie («acceptate», «data implementării», «după caz») sunt vagi, iar declanșatorul nu este publicat. Art. 115 alin. (4): urgența este motivată prin auditul și procedura contradictorie în curs. Este plauzibilă, dar soluția generală, pentru toate intervențiile, depășește situația extraordinară concretă. Art. 115 alin. (6): diminuarea unor sume solicitate conform regulilor de la depunere poate atinge speranța legitimă protejată de art. 44 (jurisprudența CEDO privind «bunul»). Art. 21 și 24: lipsa unui act motivat și a unei căi de contestare explicite pentru sistare și diminuare ridică riscuri. Probabil nu este neconstituțională în bloc, dar alin. (3) este vulnerabil la interpretare retroactivă.",
+      "euLawNote": "Măsura pune în aplicare obligația din art. 59 al Reg. (UE) 2021/2115 (protecția intereselor financiare ale Uniunii) și este compatibilă în principiu cu dreptul UE. Totuși, CJUE cere respectarea principiilor încrederii legitime, securității juridice și proporționalității și a dreptului la o cale de atac efectivă (art. 47 din Cartă) la recuperări și reduceri de ajutor. Directiva 2018/958 nu este incidentă, pentru că textul nu reglementează profesii. TRIS 2015/1535 nu este incidentă, pentru că nu sunt reglementări tehnice sau servicii digitale. Nu apar efecte asupra concurenței sau ajutorului de stat dincolo de cadrul PAC existent.",
       "senatForm": {
-        "articleRef": "Art. unic OUG 79/2025 – art. 35¹ alin.(2)-(4)",
-        "proposalContent": "Alin.(3) se completează: «Diminuarea se dispune prin act administrativ individual motivat, după notificarea beneficiarului și un termen de 10 zile pentru punct de vedere, numai dacă neregula îi este imputabilă.» Alin.(2): sistarea durează maximum 90 de zile. Alin.(4): informarea beneficiarilor se face înainte de aplicarea măsurilor.",
-        "argumentation": "Textul permite sistarea nelimitată și reducerea sprijinului pe baza unor constatări de audit acceptate de administrație, fără act individual, fără audierea fermierului și fără a distinge erorile sistemului de cele ale beneficiarului. Garanțiile propuse asigură previzibilitatea (art. 1 alin. 5 din Constituție) și buna administrare (art. 41 din Carta UE).",
-        "otherComments": "Propun și precizarea în text că se aplică doar constatărilor finale acceptate în procedura contradictorie, cum susține expunerea de motive, și că alin.(3) nu se aplică cererilor depuse înainte de modificarea ghidurilor. Recomand menționarea expresă a căii de atac în contencios administrativ (Legea 554/2004)."
+        "articleRef": "Art. unic OUG 79/2025 – art. 35¹ alin. (2)-(4)",
+        "proposalContent": "La alin.(3) se adaugă: „Diminuarea se dispune prin act administrativ motivat, comunicat beneficiarului, care poate fi contestat potrivit OUG nr.66/2011. Sistarea plăților potrivit alin.(2) nu poate depăși 90 de zile și se comunică motivat beneficiarului. Constatările acceptate se publică pe site-ul agenției de plăți, cu indicarea intervențiilor vizate.”",
+        "argumentation": "Textul permite sistarea nelimitată în timp și reducerea sprijinului pe baza unor constatări negociate între autorități și CE, la care beneficiarul nu e parte, fără act motivat și cale de contestare explicită. Previzibilitatea (art.1 alin.5), dreptul la apărare (art.24) și accesul la justiție (art.21) cer un termen, o motivare și publicitatea constatărilor.",
+        "otherComments": "„Data implementării constatărilor” nu e definită; propunem să fie data publicării actului de modificare. Termenul de 15 zile pentru informare ar trebui să curgă înainte de aplicarea efectelor față de beneficiar, nu după. Diminuarea să nu afecteze cererile pentru care beneficiarul a respectat regulile în vigoare la depunere."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 94600,
+      "durationMs": 84832,
       "sourceEndMarker": "SF-30289CE1",
-      "riskScore": 6,
+      "riskScore": 5,
       "riskLevel": "yellow",
       "plainTitle": "Oprirea și reducerea subvențiilor agricole după audit",
-      "verdictShort": "Protejarea fondurilor europene este necesară, dar mecanismul permite oprirea și reducerea sprijinului fără limite suficient de clare în text. Riscul principal pentru fermieri este modificarea plăților în curs prin aplicarea unor recomandări de audit, fără delimitarea expresă a sumelor necuvenite de sprijinul legal datorat.",
-      "initiatorClaim": "Guvernul urmărește aplicarea constatărilor de audit și evitarea corecțiilor financiare suportate de România. Demersul pornește de la un audit privind restructurarea și reconversia plantațiilor viticole.",
-      "realityCheck": "Legea aprobă ordonanța fără modificări, iar noul art. 35¹ acoperă toate intervențiile PS PAC 2023–2027, nu doar sectorul vitivinicol. Autoritățile trebuie să sisteze plățile vizate, să recupereze sumele necuvenite potrivit OUG nr. 66/2011 și să diminueze sprijinul pentru cererile cu plata nefinalizată. Textul nu stabilește durata sistării, condițiile reluării plății sau delimitarea precisă dintre corectarea unei nelegalități existente și schimbarea regulilor pentru beneficiarii aflați deja în implementare.",
+      "verdictShort": "Protejarea fondurilor europene este necesară, dar mecanismul permite sistarea și reducerea sprijinului fără să precizeze suficient limitele și durata măsurilor. Riscul principal privește beneficiarii cu plăți încă nefinalizate, nu introducerea unor taxe sau sancțiuni noi.",
+      "initiatorClaim": "Guvernul urmărește aplicarea constatărilor de audit și evitarea corecțiilor financiare suportate de România. Inițiativa pornește de la auditul intervenției pentru restructurarea și reconversia plantațiilor viticole.",
+      "realityCheck": "Forma Senatului aprobă fără modificări OUG nr. 79/2025, care introduce art. 35¹; mecanismul nu așteaptă legea de aprobare pentru a produce efecte, în condițiile constituționale de intrare în vigoare a ordonanței. Norma acoperă toate intervențiile PS PAC 2023–2027 și impune sistarea plăților vizate de audit, recuperarea sumelor necuvenite și diminuarea sprijinului încă neplătit integral. Nu distinge suficient între corectarea unei nelegalități existente și modificarea pentru viitor a regulilor de finanțare.",
       "affectedGroups": [
-        "IMM & Antreprenori",
         "Agricultură & Mediu",
+        "IMM & Antreprenori",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 35¹ alin. (1): mecanismul privește toate intervențiile PS PAC 2023–2027 și constatările ori recomandările celor trei categorii de organisme de audit enumerate. Auditul vitivinicol este justificarea inițială, nu limita normei.",
-        "Art. 35¹ alin. (1)–(2): acceptarea constatărilor de către autoritățile MADR declanșează mecanismul, dar nu sunt precizate forma acceptării, publicitatea sau momentul de la care produce efecte pentru beneficiari. Textul operativ nu impune expres finalizarea procedurii contradictorii invocate în motivare.",
-        "Art. 35¹ alin. (2): sistarea este formulată imperativ pentru plățile vizate, fără termen maxim, criterii explicite de proporționalitate sau procedură de reluare. Nu se distinge clar între o recomandare de îmbunătățire administrativă și o constatare care dovedește neeligibilitatea unei sume.",
-        "Art. 35¹ alin. (2): recuperarea privește expres sumele plătite necuvenit și trimite la OUG nr. 66/2011. Nu rezultă că orice corecție financiară aplicată României se transferă automat beneficiarilor; caracterul necuvenit și condițiile recuperării trebuie stabilite potrivit dreptului aplicabil.",
-        "Art. 35¹ alin. (3): diminuarea poate afecta cereri depuse sau aprobate anterior, dacă plata nu este finalizată la implementarea constatărilor. Aceasta nu constituie automat retroactivitate, dar impune clarificarea normelor materiale aplicabile și protejarea drepturilor deja constituite.",
-        "Art. 35¹ alin. (4): sunt enumerate împreună acte normative, ghiduri, proceduri și instrucțiuni. Aceste instrumente au forță juridică diferită; ghidurile și instrucțiunile nu pot modifica legea sau crea autonom condiții contrare normelor superioare.",
-        "Termenul de 15 zile din alin. (4) privește informarea după aprobarea modificărilor, nu elaborarea lor și nici durata sistării. Informarea astfel prevăzută nu echivalează cu o garanție expresă de notificare înaintea afectării plății.",
-        "Nu sunt introduse taxe, amenzi, monopoluri sau obligații digitale noi. Pot exista beneficii bugetare prin evitarea corecțiilor, dar și costuri administrative și probleme de lichiditate pentru exploatații și IMM-uri; acestea nu sunt evaluate în motivarea care indică repetat «Nu este cazul»."
+        "Articolul unic al legii aprobă ordonanța fără amendamente. Art. 35 existent, privind păstrarea documentelor și accesul organelor de control, rămâne nemodificat; completarea privește un articol distinct, 35¹.",
+        "Art. 35¹ alin. (1)–(2): acceptarea constatărilor sau recomandărilor de către autoritățile MADR declanșează mecanismul. Textul nu precizează forma acceptării, publicitatea acesteia ori dacă este necesară încheierea procedurii contradictorii; această ultimă precizare apare în justificare, nu în norma adoptată.",
+        "Art. 35¹ alin. (2): sistarea este obligatorie pentru plățile vizate, dar nu sunt stabilite durata maximă, reevaluarea periodică sau condițiile reluării. Recuperarea privește însă sume plătite necuvenit, prin procedura OUG nr. 66/2011; nu orice plată asociată unui audit devine automat datorie.",
+        "Art. 35¹ alin. (3): criteriul plății nefinalizate poate afecta inclusiv proiecte aprobate anterior. Data implementării recomandărilor nu este definită, iar textul nu explică suficient tratamentul tranșelor restante și raportul dintre reducere, dreptul deja stabilit și regulile inițiale de eligibilitate.",
+        "Art. 35¹ alin. (4): cele 15 zile sunt termen pentru informarea beneficiarilor după aprobarea modificărilor, nu termen pentru adoptarea măsurilor corective. Nu este garantată prin acest articol informarea înainte de aplicarea reducerii.",
+        "Actele normative, ghidurile, procedurile și instrucțiunile sunt enumerate împreună la alin. (4), deși au forțe juridice diferite. O instrucțiune nu poate modifica legea, iar recomandarea de audit nu poate înlocui identificarea normei încălcate.",
+        "Nu sunt introduse taxe, monopoluri sau condiții de acces într-o profesie. Există însă costuri de lichiditate, adaptare și contestare pentru exploatații și IMM-uri agricole; expunerea de motive nu le cuantifică și marchează impactul asupra mediului de afaceri drept «Nu este cazul»."
       ],
-      "blindSpotsCaught": "Preambulul și expunerea de motive atribuie obligația europeană de protejare a intereselor financiare art. 59 din Regulamentul (UE) 2021/2115; temeiul relevant este art. 59 din Regulamentul (UE) 2021/2116. De asemenea, prezentarea sistării ca temporară și a mecanismului ca aplicabil situațiilor viitoare nu suplinește lipsa unor garanții operative privind durata sistării și tratamentul cererilor existente. După alin. (4) nu apar derogări, abrogări sau dispoziții tranzitorii suplimentare în textul furnizat.",
-      "constitutionalityNote": "Principala vulnerabilitate privește art. 1 alin. (5): declanșarea, întinderea și încetarea măsurilor trebuie să fie previzibile. Art. 23 alin. (12), referitor la pedepse, nu este direct incident, deoarece textul nu instituie pedepse. Pentru creanțe suficient stabilite pot deveni relevante art. 44 și securitatea juridică; art. 15 alin. (2) ar fi problematic dacă reguli materiale noi ar recalifica retroactiv drepturi legal constituite, nu doar dacă se recuperează plăți deja necuvenite. Absența unei căi speciale de contestare nu elimină remediile generale din OUG nr. 66/2011 și contenciosul administrativ, relevante pentru art. 21 și 52. Justificarea art. 115 alin. (4) are un suport concret în audit, dar extinderea urgentă la toate intervențiile necesită o fundamentare distinctă; nu rezultă automat neconstituționalitatea din text.",
-      "euLawNote": "Regulamentul (UE) 2021/2116 justifică prevenirea neregulilor și recuperarea plăților necuvenite, cu respectarea normelor sectoriale, proporționalității, securității juridice și protecției jurisdicționale efective. O recomandare de audit acceptată administrativ nu permite derogarea de la dreptul UE și nu dovedește singură că fiecare beneficiar datorează bani. Directiva (UE) 2018/958 nu este incidentă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea acestora. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu este declanșată de text: acesta nu introduce specificații tehnice pentru produse sau reguli specifice serviciilor societății informaționale, inclusiv AI. Nu apare un privilegiu concurențial expres, dar aplicarea neuniformă a sistărilor și reducerilor poate afecta concurența între exploatații.",
+      "blindSpotsCaught": "Justificarea prezintă oprirea fluxului financiar ca temporară, dar articolul operativ nu stabilește când încetează sistarea. În plus, o corecție financiară aplicată României pentru deficiențe de sistem nu dovedește, prin ea însăși, că fiecare beneficiar a primit sume necuvenite. Nici garanțiile procedurale generale și nici controlul judecătoresc nu sunt eliminate doar pentru că nu sunt repetate în articolul nou.",
+      "constitutionalityNote": "Principala vulnerabilitate privește art. 1 alin. (5): lipsesc repere suficiente pentru acceptarea auditului, data implementării, întinderea sistării și reluarea plăților. Art. 15 alin. (2) devine relevant dacă sunt aplicate condiții materiale noi unor drepturi deja născute; simpla verificare sau recuperare ulterioară a unei plăți nelegale nu constituie automat retroactivitate. Art. 21 și, pentru creanțe suficient stabilite, art. 44 impun protecție efectivă prin acte motivate și acces la instanță, fără ca textul să înlăture expres garanțiile generale. Pentru art. 115 alin. (4), auditul și riscul corecțiilor oferă o justificare concretă, dar lipsa unui termen extern precis și extinderea la toate intervențiile justifică examinarea riguroasă a urgenței; neconstituționalitatea nu rezultă automat. Art. 23 alin. (12) nu este incident direct, deoarece nu se instituie pedepse.",
+      "euLawNote": "Protecția intereselor financiare și recuperarea plăților necuvenite au suport în art. 59 din Regulamentul (UE) 2021/2116; preambulul și expunerea atribuie greșit această obligație Regulamentului (UE) 2021/2115. Recuperarea trebuie raportată la normele europene și naționale aplicabile și la situația individuală, fără echivalarea automată a unei recomandări de audit cu o creanță împotriva beneficiarului. Eroarea autorității nu exclude, prin ea însăși, recuperarea, iar încrederea legitimă nu garantează păstrarea unui avantaj contrar dreptului UE. Directiva (UE) 2018/958 nu este incidentă: nu se reglementează accesul la profesii sau exercitarea acestora. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu este indicată de text: nu sunt introduse reglementări tehnice pentru produse ori reguli privind serviciile societății informaționale. Nu rezultă restricții concurențiale directe, dar măsurile trebuie aplicate proporțional și nediscriminatoriu.",
       "senatForm": {
-        "articleRef": "Art. 35¹ din OUG 85/2023 – alin. (5) nou",
-        "proposalContent": "(5) Măsurile de la alin. (2) și (3) se dispun prin acte individuale motivate, comunicate beneficiarilor, cu indicarea căii de atac. Sistarea se limitează la sumele vizate și la durata necesară verificării. Reducerea și recuperarea se întemeiază pe normele materiale aplicabile la nașterea dreptului la sprijin, cu respectarea dreptului Uniunii.",
-        "argumentation": "Protejarea bugetului european trebuie corelată cu previzibilitatea și proporționalitatea măsurilor. Propunerea cere individualizarea motivelor, limitează blocarea plăților și previne folosirea recomandărilor de audit pentru schimbarea retroactivă a condițiilor materiale ale sprijinului.",
-        "otherComments": "Se recomandă și stabilirea condițiilor de reluare a plăților, precum și corectarea trimiterii europene la art. 59 din Regulamentul (UE) 2021/2116. Analiza privește textul furnizat; verificarea externă a surselor și a stadiului parlamentar nu a fost posibilă."
+        "articleRef": "Art. unic OUG 79/2025: art. 35¹ alin. (3)",
+        "proposalContent": "(3) Pentru cererile a căror plată nu este finalizată, diminuarea se dispune prin act individual motivat, comunicat beneficiarului, numai în limita sumelor necuvenite potrivit normelor aplicabile la nașterea dreptului la sprijin. Recomandarea de audit nu constituie singură temei pentru reducere. Actul indică baza legală, calculul reducerii și căile de atac.",
+        "argumentation": "Auditul poate evidenția încălcări existente, dar nu poate crea retroactiv condiții de eligibilitate. Precizarea împiedică reducerea sprijinului doar fiindcă plata întârzie și păstrează recuperarea sumelor necuvenite, inclusiv când eroarea aparține autorității, cu respectarea dreptului UE.",
+        "otherComments": "Analiza privește forma furnizată; verificarea online a surselor externe nu a fost disponibilă. Se recomandă și precizarea duratei sistării, a condițiilor reluării plăților și a informării beneficiarului înainte de aplicarea măsurii."
       },
       "reachedEnd": true,
       "status": "ok"
     }
   },
   "history": [
+    {
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-19T11:55:08.680Z",
+      "method": "whole-text-v1",
+      "textChars": 17074,
+      "form": "senat",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 4,
+        "claude": 5,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:14:55.200Z",
+      "reasons": [
+        "model"
+      ]
+    },
     {
       "riskScore": 4,
       "riskLevel": "yellow",

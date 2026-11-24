@@ -2,119 +2,175 @@
   "billId": "Pl-x 278/2026",
   "slug": "plx-278-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T04:58:30.141Z",
+  "updatedAt": "2026-11-24T15:12:43.961Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1732,
+    "ordinanceChars": 0,
+    "memoChars": 7638,
+    "memoSupplied": 7638,
+    "marker": "SF-D3FD5F61"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-278-2026.json",
+    "form": "initiator",
+    "textHash": "d3fd5f6151477c56",
+    "fetchedAt": "2026-11-19T10:33:22.879Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 4.3,
     "riskLevel": "yellow",
-    "plainTitle": "Polița obligatorie de locuință (PAD) ar acoperi și exploziile de gaze",
-    "summaryTlDr": "Ideea e utilă și răspunde unor tragedii reale, dar textul e scris în grabă. Adaugă un risc obișnuit într-o lege făcută pentru dezastre naturale, nu pune plafon pe prima nouă, nu are reguli de tranziție și folosește o definiție care va produce litigii.",
-    "initiatorClaim": "Inițiatorii vor ca familiile rămase fără locuință după explozii de gaze (Rahova și Buftea în 2025, Chitila, Iași și altele) să fie despăgubite prin PAD. Susțin că impactul actuarial e redus și că așa se procedează în Belgia, Spania și Germania.",
-    "realityCheck": "Legea adaugă explozia la riscurile poliței PAD, plafonată la 20.000 sau 10.000 euro. PAD plătește primul, înaintea polițelor facultative, iar PAID și ASF stabilesc o primă suplimentară fără nicio limită în lege. Câștigă cu adevărat cei care au doar PAD. Cei cu poliță facultativă aveau deja, de regulă, explozia acoperită, iar acum asigurătorul lor comercial ar plăti mai puțin. Articolul e lipit lângă definiții și nu modifică titlul legii, lista riscurilor obligatorii sau regimul polițelor deja emise.",
+    "plainTitle": "Asigurarea obligatorie a locuinței (PAD) ar acoperi și exploziile de gaze",
+    "summaryTlDr": "Este o extindere utilă a protecției pentru proprietari, fără taxe noi ascunse sau monopoluri noi. Textul este însă redactat neglijent: nu modifică articolul care enumeră riscurile PAD, lasă o definiție prea largă și pornește cu 60 de zile înainte să existe norme și primă.",
+    "initiatorClaim": "Inițiatorii spun că exploziile de gaze, frecvente și grave în România, lasă familii fără locuință și fără despăgubire, pentru că PAD acoperă doar cutremurul, inundația și alunecarea de teren. Ei vor un tratament unitar, după modelul Belgiei, Spaniei și Germaniei.",
+    "realityCheck": "Legea adaugă un art. 2¹ care declară explozia accidentală de gaze risc acoperit de PAD. Despăgubirea se plătește ca prim risc, iar prima se stabilește pe baza studiilor actuariale ale PAID, avizate de ASF. Polița obligatorie se va scumpi probabil, chiar dacă puțin, iar suma asigurată rămâne plafonată. Textul nu modifică art. 3 din Legea 260/2008, care enumeră riscurile, nu exclude explozia provocată intenționat și nu reglementează regresul împotriva celui vinovat, de exemplu distribuitorul de gaze sau persoana care a intervenit ilegal pe instalație.",
     "affectedGroups": [
       "Proprietari & Imobiliare",
       "Toți cetățenii",
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. I – art. 2¹ alin. (1), (2) și (4)",
-      "proposalContent": "Riscul se adaugă în art. 3 alin. (1) din Legea 260/2008 (actualizând titlul și art. 1), iar în art. 2 se definește: explozia de gaze combustibile produsă accidental, cu excepția faptei intenționate a asiguratului. Studiul actuarial PAID se publică, iar prima nouă se aplică doar polițelor emise sau reînnoite după intrarea în vigoare a normelor ASF.",
-      "argumentation": "Legea 260/2008 și PAID sunt construite pentru dezastre naturale; un articol separat, fără modificarea titlului, a art. 1 și a listei de riscuri din art. 3, creează un text paralel și incoerent (art. 1 alin. (5) din Constituție). Definiția nu exclude fapta intenționată, iar lipsa tranziției lasă neclar dacă polițele deja emise acoperă explozia.",
-      "otherComments": "Polițele facultative acoperă de regulă deja explozia; cu PAD ca prim risc, asigurătorii comerciali plătesc mai puțin, deci ASF să urmărească scăderea primelor facultative. PAID să fie obligat să recupereze plățile de la cei răspunzători (distribuitorul de gaze, autorul faptei). De clarificat separarea daunelor de explozie de cele de incendiu, neacoperite de PAD."
+      "articleRef": "Art. I – art. 2¹ și art. 3 din Legea 260/2008",
+      "proposalContent": "Se modifică art. 3 alin. (1) din L. 260/2008: riscurile acoperite sunt cutremurul, alunecarea de teren, inundația și explozia accidentală de gaze. Art. 2¹ alin. (2) se completează: se exclude explozia provocată intenționat de asigurat. Art. III: legea intră în vigoare la 120 de zile de la publicare și se aplică polițelor încheiate sau reînnoite după această dată.",
+      "argumentation": "Riscurile PAD sunt enumerate la art. 3; un articol separat creează dublă reglementare. Formula «indiferent de sursă» poate acoperi și explozii provocate intenționat, cu risc de fraudă. Normele ASF au termen de 90 de zile, dar legea intră în vigoare la 30: rămân 60 de zile fără primă și fără reguli, iar polițele în curs nu au regim tranzitoriu.",
+      "otherComments": "Să se precizeze dreptul PAID de regres împotriva operatorului de distribuție sau a persoanei vinovate, pentru ca prima plătită de toți să nu subvenționeze neglijența. Expunerea de motive anunță «două domenii», dar textul reglementează unul și nu conține niciun studiu de impact actuarial asupra primei PAD."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 65138,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 78064,
+      "sourceEndMarker": "SF-D3FD5F61",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Includerea exploziilor de gaze în asigurarea obligatorie a locuinței (PAD), dar cu primă suplimentară stabilită de PAID și ASF",
-      "verdictShort": "Deși intenția de a despăgubi proprietarii ale căror locuințe sunt distruse de explozii de gaze este justificată social, proiectul deleagă în alb către PAID și ASF stabilirea unei prime suplimentare obligatorii și extinde monopolul PAID pe piața riscurilor non-naturale fără corelare cu restul Legii nr. 260/2008.",
-      "initiatorClaim": "Inițiatorii susțin că vor să protejeze familiile ale căror locuințe sunt distruse de explozii accidentale de gaze sau butelii (precum în cazurile Rahova sau Buftea), afirmând că impactul asupra prețului poliței PAD va fi nesemnificativ.",
-      "realityCheck": "În realitate, Art. 2¹ alin. (4) introduce o primă aferentă riscului de explozie lăsată la latitudinea studiilor actuariale ale PAID (societate privată cu monopol legal) și avizului ASF, ocolind plafonarea prin lege a prețului PAD (130 lei, respectiv 50 lei conform art. 5 din Legea 260/2008). În plus, legea acoperă exploziile „indiferent de sursa, instalația sau mecanismul” acumulării — inclusiv improvizațiile — fără a reglementa regresul contra vinovaților și devine inaplicabilă la intrarea în vigoare din cauza decalajului de termene dintre Art. II și Art. III.",
-      "affectedGroups": [
-        "Proprietari & Imobiliare",
-        "Toți cetățenii",
-        "IMM & Antreprenori"
-      ],
-      "keyFindings": [
-        "Delegarea stabilirii prețului obligatoriu (Art. 2¹ alin. 4): Contrar art. 5 din Legea nr. 260/2008, unde cuantumul primei PAD este fixat strict prin lege de Parlament, proiectul permite PAID și ASF să stabilească prin norme secundare prima aferentă riscului de explozie, obligând toți proprietarii (inclusiv pe cei neracordați la gaze) la costuri suplimentare neplafonate legal.",
-        "Hazard moral și lipsa acțiunii în regres (Art. 2¹ alin. 2): Definirea exploziei „indiferent de sursa, instalația sau mecanismul care a generat acumularea” nu distinge între avarii ale rețelei de distribuție și instalații artizanale neverificate (fără revizii ANRE/ISCIR) și nu reglementează recuperarea daunelor de către PAID de la persoanele sau companiile vinovate.",
-        "Blocaj procedural la intrarea în vigoare (Art. II vs. Art. III): Legea intră în vigoare la 30 de zile de la publicare (Art. III), însă ASF primește un termen de 90 de zile după intrarea în vigoare pentru a actualiza normele (Art. II), creând un vid de reglementare de 3 luni în care polițele nu pot fi emise conform noilor reguli."
-      ],
-      "blindSpotsCaught": "Expunerea de motive prezintă urme evidente de redactare incompletă (anunță modificări în „două domenii esențiale”, dar enumeră doar punctul 1, și sare de la pct. 2.1 direct la 2.3). Mai grav, Legea nr. 260/2008 a fost construită exclusiv pentru dezastre naturale (cutremure, inundații, alunecări de teren), iar inserarea unui risc tehnologic/antropic într-un articol izolat (Art. 2¹), fără modificarea art. 2 (definiții), art. 5 (prime), art. 7 (obiectul asigurării) și art. 21 (excluderi), generează un conflict normativ intern major.",
-      "constitutionalityNote": "Proiectul ridică probleme de constituționalitate prin raportare la Art. 1 alin. (5) din Constituție (principiul legalității, clarității și previzibilității legii) și Legea nr. 24/2000: (1) lipsa corelării dintre noul Art. 2¹ alin. (4) și Art. 5 alin. (1) din Legea 260/2008 privind modul de stabilire a primei obligatorii; (2) desincronizarea termenului de intrare în vigoare (30 de zile) cu termenul de emitere a normelor de aplicare (90 de zile după intrarea în vigoare); (3) identificarea defectuoasă a actului normativ de bază prin abrevierea „Legea nr. 260/2008 (PAD)” chiar în textul normativ al Art. I.",
-      "euLawNote": "Nu necesită notificare TRIS (Directiva 2015/1535) și nu vizează profesii reglementate (Directiva 2018/958), dar ridică probleme pe piața unică a asigurărilor (Directiva Solvabilitate II 2009/138/CE și art. 106 TFUE). Monopolul legal al PAID a fost justificat exclusiv prin natura catastrofală a dezastrelor naturale; extinderea monopolului obligatoriu asupra riscului de explozie (risc antropic acoperit deja în regim concurențial pe piața asigurărilor facultative de locuințe) poate distorsiona concurența între asigurători.",
-      "senatForm": {
-        "articleRef": "Art. I pct. 1 (Art. 2¹ alin. (2)-(4)) și Art. II",
-        "proposalContent": "La Art. 2¹, alin. (4) se modifică: „(4) Acoperirea riscului de explozie accidentală se face în limitele sumelor și primelor prevăzute la art. 5, PAID având drept de regres împotriva persoanelor culpabile de producerea exploziei.” La Art. II, sintagma „90 de zile de la intrarea în vigoare” se înlocuiește cu „30 de zile de la publicarea în Monitorul Oficial”.",
-        "argumentation": "În Legea 260/2008, prima obligatorie este fixată expres prin lege (art. 5). Delegarea către PAID și ASF a stabilirii unei prime suplimentare (art. 2¹ alin. 4) afectează previzibilitatea legii și scumpește polița pentru toți proprietarii. De asemenea, se impune regresul contra celor culpabili de explozie și emiterea normelor ASF înainte de intrarea în vigoare a legii.",
-        "otherComments": "Spre deosebire de dezastrele naturale (cutremure, inundații), exploziile de gaze au cauze antropice și responsabili identificabili. Textul trebuie corelat și cu art. 2, art. 6 și art. 7 din Legea 260/2008, condiționând despăgubirea de existența verificărilor tehnice periodice obligatorii ale instalațiilor de gaze, pentru a nu încuraja improvizațiile periculoase."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 220328,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Polița obligatorie de locuință (PAD) ar acoperi și exploziile de gaze",
-      "verdictShort": "Ideea e utilă și răspunde unor tragedii reale, dar textul e scris în grabă. Adaugă un risc obișnuit într-o lege făcută pentru dezastre naturale, nu pune plafon pe prima nouă, nu are reguli de tranziție și folosește o definiție care va produce litigii.",
-      "initiatorClaim": "Inițiatorii vor ca familiile rămase fără locuință după explozii de gaze (Rahova și Buftea în 2025, Chitila, Iași și altele) să fie despăgubite prin PAD. Susțin că impactul actuarial e redus și că așa se procedează în Belgia, Spania și Germania.",
-      "realityCheck": "Legea adaugă explozia la riscurile poliței PAD, plafonată la 20.000 sau 10.000 euro. PAD plătește primul, înaintea polițelor facultative, iar PAID și ASF stabilesc o primă suplimentară fără nicio limită în lege. Câștigă cu adevărat cei care au doar PAD. Cei cu poliță facultativă aveau deja, de regulă, explozia acoperită, iar acum asigurătorul lor comercial ar plăti mai puțin. Articolul e lipit lângă definiții și nu modifică titlul legii, lista riscurilor obligatorii sau regimul polițelor deja emise.",
+      "plainTitle": "Exploziile de gaze intră în asigurarea obligatorie PAD, dar cu scumpiri fără plafon și vid legal",
+      "verdictShort": "Intenția de a proteja proprietarii după exploziile de gaze este legitimă, dar proiectul este redactat haotic: extinde monopolul privat al PAID pe un risc deja concurențial și îl lasă să stabilească un cost obligatoriu fără niciun plafon în lege. În plus, legea intră în vigoare cu 90 de zile înaintea normelor de aplicare, creând un blocaj juridic și actuarial imediat.",
+      "initiatorClaim": "Inițiatorii invocă exploziile recente de gaze din România (Rahova, Buftea, Chitila, Iași) și susțin că includerea acestui risc în polița obligatorie PAD ar oferi o protecție reală familiilor, la un cost marginal, după modelul Belgiei, Spaniei și Germaniei.",
+      "realityCheck": "În practică, proiectul introduce un singur articol izolat (art. 2¹) fără a corela restul Legii nr. 260/2008 și deleagă PAID — o companie privată cu monopol legal — să stabilească prima obligatorie suplimentară, fără plafon legal și fără studiu de impact prealabil. Acoperirea este formulată „indiferent de sursa, instalația sau mecanismul” acumulării (risc de hazard moral pentru instalații clandestine), iar intrarea în vigoare la 30 de zile (înaintea normelor ASF de 90 de zile) lasă fără reguli polițele active, contractele facultative și reasigurarea PAID.",
       "affectedGroups": [
         "Proprietari & Imobiliare",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I (art. 2¹ alin. 1): Legea 260/2008 se numește „privind asigurarea obligatorie a locuințelor împotriva cutremurelor, alunecărilor de teren și inundațiilor”, iar riscurile obligatorii sunt enumerate în art. 3 alin. (1). Propunerea nu modifică nici titlul, nici art. 1, nici art. 3. Introduce un articol paralel după definiții, așa că legea ar spune într-un loc trei riscuri și în altul patru. Chiar titlul inițiativei citează incomplet legea modificată.",
-        "Art. 2¹ alin. (2): definiția acoperă explozia „indiferent de sursa, instalația sau mecanismul care a generat acumularea”. Nu exclude explicit fapta intenționată, branșamentele ilegale sau instalațiile fără verificarea tehnică obligatorie. Formula „alte amestecuri inflamabile” e vagă, iar granița cu incendiul (pe care PAD nu îl acoperă) nu e trasată, deși explozia e de obicei urmată de foc.",
-        "Art. 2¹ alin. (4): prima pentru noul risc o stabilește PAID, o societate privată deținută de asigurători, cu avizul ASF, fără plafon în lege și fără obligația de a publica studiul actuarial. Este majorarea unui cost obligatoriu, sancționat cu amendă dacă lipsește, lăsată în afara controlului legiuitorului.",
-        "Art. II și art. III: legea intră în vigoare la 30 de zile, dar normele ASF pot veni abia la 90 de zile. Nu există dispoziții tranzitorii, deci nu e clar dacă polițele PAD aflate deja în vigoare acoperă explozia fără primă, sau doar cele noi.",
-        "Art. 2¹ alin. (3): primul strat de despăgubire trece de la asigurătorii facultativi la PAID. Cine are ambele polițe riscă să plătească de două ori pentru aceeași tranșă de 20.000 sau 10.000 euro dacă primele facultative nu scad corespunzător.",
-        "Expunerea de motive se contrazice: vorbește de riscuri „rare” și „probabilitate scăzută”, dar și de un risc „frecvent”. Anunță „două domenii” și reglementează unul și nu prezintă nicio cifră actuarială. Comparația cu Belgia, Spania și Germania privește polițe private multirisc, nu un pool de catastrofe. În Spania, echivalentul PAID (Consorcio de Compensación de Seguros) acoperă riscuri extraordinare, nu explozii casnice."
+        "Tarif obligatoriu fără plafon stabilit de un monopol privat (Art. 2¹ alin. 4): spre deosebire de primele actuale PAD stabilite explicit prin lege de Parlament, costul suplimentar pentru explozii este lăsat la latitudinea PAID (cu avizul ASF), fără limită maximă și fără criterii legale.",
+        "Paradox temporal și vid normativ (Art. III vs. Art. II): legea intră în vigoare la 30 de zile de la publicare, dar ASF are 90 de zile după intrarea în vigoare pentru a actualiza normele, fără nicio dispoziție tranzitorie pentru milioanele de polițe PAD deja active sau pentru tratatele de reasigurare.",
+        "Hazard moral și lipsa regresului (Art. 2¹ alin. 2): definiția acoperă explozia „indiferent de sursa, instalația sau mecanismul care a generat acumularea”, fără a exclude instalațiile ilegale/neverificate sau culpa gravă și fără a reglementa dreptul de regres împotriva operatorilor sau persoanelor vinovate.",
+        "Efect în lanț pe asigurările facultative (Art. 2¹ alin. 3): impunerea despăgubirii ca „prim risc” prin PAD obligă toți asigurătorii privați să reevalueze și să modifice polițele facultative de locuință, fără o perioadă de tranziție."
       ],
-      "blindSpotsCaught": "PAID este, prin chiar numele său, un pool pentru dezastre naturale: programul său de reasigurare și rezervele sunt calibrate pentru cutremur, inundații și alunecări. Explozia de gaze e un risc obișnuit, cu daune recurente, deja vândut competitiv în polițele facultative. Textul nu obligă PAID să recupereze sumele plătite de la cei răspunzători, deși subrogarea există în Codul civil. Fără această obligație, costul daunelor provocate de distribuitorul de gaze sau de un vecin care a intervenit pe instalație ajunge în primele plătite de toți proprietarii. Formula „Prin prezenta lege”, inserată în Legea 260, e ambiguă. Formula finală de adoptare a rămas din șablon: „ședința din .....2025”, „art. 74 alin. (1) și art. 75 alin. (1)” în loc de formula uzuală cu art. 75 și art. 76 alin. (2). Efectul social real depinde de gradul de acoperire PAD, care cuprinde doar o minoritate a locuințelor. Proprietarii fără poliță nu câștigă nimic din această lege.",
-      "constitutionalityNote": "Pe fond, propunerea nu ridică probleme majore. Statul poate extinde o asigurare obligatorie deja existentă, iar procedura e cea a legii ordinare: Senatul ca primă Cameră, Camera Deputaților decizională (art. 75). Vulnerabilitățile țin de calitatea legii (art. 1 alin. (5)): textul nu e corelat cu titlul, art. 1 și art. 3 din Legea 260/2008, definiția riscului e vagă, iar tranziția lipsește, deci aplicarea pe polițele existente e imprevizibilă. Prima unei obligații legale sancționate contravențional ar fi lăsată la decizia unei societăți private și a ASF, fără plafon în lege. Acest lucru poate fi criticat prin prisma art. 44 (proprietatea) și a cerinței ca elementele esențiale ale unei obligații să fie stabilite prin lege. Legea nu creează sancțiuni noi, deci art. 23 alin. (12) nu e afectat direct. Formula de adoptare trebuie corectată conform Legii 24/2000.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că nu se reglementează accesul la o profesie. Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reguli tehnice privind produse sau servicii ale societății informaționale. Nici Directiva 2006/123 nu se aplică, fiindcă exclude serviciile de asigurare. Relevantă este Directiva 2009/138/CE (Solvabilitate II). Ea permite reguli naționale pentru asigurările obligatorii, dar PAID rămâne un asigurător supus cerinței de prime și rezerve adecvate, deci noul risc trebuie fundamentat actuarial, nu doar declarat. Pe concurență (art. 106 coroborat cu art. 102 TFUE), extinderea rolului exclusiv al PAID, singurul emitent PAD, asupra unui risc vândut azi competitiv de asigurătorii privați e o preocupare moderată. Ea e atenuată de faptul că PAD rămâne o acoperire plafonată, de prim risc. Directiva 2016/97 (IDD) impune actualizarea guvernanței produsului PAD și a informării clienților.",
+      "blindSpotsCaught": "Expunerea de motive invocă fals modelele din Belgia, Spania și Germania: acolo explozia este inclusă în polițe multirisc oferite pe o piață concurențială de asigurători privați, nu printr-un monopol legal unic precum PAID. Mai mult, textul conține urme vizibile de copy-paste („în două domenii esențiale”, „adaptarea la noile tehnologii”), o formulă de adoptare greșită constituțional (citează art. 74 alin. 1 în loc de art. 76) și ignoră că reasigurarea PAID este structurată pe catastrofe naturale, nu pe accidente tehnologice/gaze.",
+      "constitutionalityNote": "Vulnerabilități serioase față de Art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii): art. 2¹ nu este corelat cu restul Legii nr. 260/2008 (care definește și limitează PAD la „dezastre naturale” și stabilește prime fixe la art. 5), nu cuprinde norme tranzitorii și creează un vid de 90 de zile între intrarea în vigoare și normele ASF. Delegarea stabilirii unei sarcini financiare obligatorii către o entitate privată (PAID) fără plafon sau criterii în lege ridică probleme și sub aspectul Art. 44 și Art. 135. Formula finală de adoptare citează eronat art. 74 alin. (1) (inițiativa legislativă) în loc de art. 76.",
+      "euLawNote": "Risc ridicat de încălcare a Art. 106 alin. (1) coroborat cu Art. 102 TFUE: monopolul legal al PAID a fost justificat exclusiv prin eșecul pieței la catastrofe naturale majore, iar extinderea lui asupra riscului de explozie — deja acoperit pe scară largă și concurențial pe piața asigurărilor facultative — distorsionează piața unică în lipsa unui test riguros de necesitate și proporționalitate. De asemenea, impactează cerințele prudențiale, de capital și reasigurare din Directiva Solvency II (2009/138/CE). Directiva (UE) 2018/958 (profesii reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt aplicabile direct.",
       "senatForm": {
-        "articleRef": "Art. I – art. 2¹ alin. (1), (2) și (4)",
-        "proposalContent": "Riscul se adaugă în art. 3 alin. (1) din Legea 260/2008 (actualizând titlul și art. 1), iar în art. 2 se definește: explozia de gaze combustibile produsă accidental, cu excepția faptei intenționate a asiguratului. Studiul actuarial PAID se publică, iar prima nouă se aplică doar polițelor emise sau reînnoite după intrarea în vigoare a normelor ASF.",
-        "argumentation": "Legea 260/2008 și PAID sunt construite pentru dezastre naturale; un articol separat, fără modificarea titlului, a art. 1 și a listei de riscuri din art. 3, creează un text paralel și incoerent (art. 1 alin. (5) din Constituție). Definiția nu exclude fapta intenționată, iar lipsa tranziției lasă neclar dacă polițele deja emise acoperă explozia.",
-        "otherComments": "Polițele facultative acoperă de regulă deja explozia; cu PAD ca prim risc, asigurătorii comerciali plătesc mai puțin, deci ASF să urmărească scăderea primelor facultative. PAID să fie obligat să recupereze plățile de la cei răspunzători (distribuitorul de gaze, autorul faptei). De clarificat separarea daunelor de explozie de cele de incendiu, neacoperite de PAD."
-      }
+        "articleRef": "Art. I (art. 2¹), Art. II și Art. III",
+        "proposalContent": "La art. 2¹ alin. (2) să se prevadă excluderea instalațiilor clandestine și dreptul de regres contra celor vinovați. La alin. (4), prima obligatorie să fie plafonată prin lege, pe baza unui studiu actuarial prealabil. Art. III să prevadă intrarea în vigoare la 120 de zile, după normele ASF, cu dispoziții tranzitorii pentru polițele active.",
+        "argumentation": "Forma actuală lasă un monopol privat (PAID) să stabilească o primă obligatorie fără plafon legal și intră peste piața concurențială a asigurărilor facultative. Intrarea în vigoare la 30 de zile, înaintea normelor ASF (90 zile), lasă un vid juridic pentru polițele active, iar acoperirea „indiferent de instalație” încurajează improvizațiile.",
+        "otherComments": "Solicitați avizul Consiliului Concurenței (extinderea monopolului PAID pe un risc concurențial, art. 106 TFUE), avizul ASF privind impactul actuarial și reasigurarea (Solvency II) și corelarea întregii Legi nr. 260/2008 (art. 1, 2, 5, 6), inclusiv corectarea formulei de adoptare (art. 76, nu art. 74 din Constituție)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 42079,
+      "sourceEndMarker": "SF-D3FD5F61",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Asigurarea obligatorie a locuinței (PAD) ar acoperi și exploziile de gaze",
+      "verdictShort": "Este o extindere utilă a protecției pentru proprietari, fără taxe noi ascunse sau monopoluri noi. Textul este însă redactat neglijent: nu modifică articolul care enumeră riscurile PAD, lasă o definiție prea largă și pornește cu 60 de zile înainte să existe norme și primă.",
+      "initiatorClaim": "Inițiatorii spun că exploziile de gaze, frecvente și grave în România, lasă familii fără locuință și fără despăgubire, pentru că PAD acoperă doar cutremurul, inundația și alunecarea de teren. Ei vor un tratament unitar, după modelul Belgiei, Spaniei și Germaniei.",
+      "realityCheck": "Legea adaugă un art. 2¹ care declară explozia accidentală de gaze risc acoperit de PAD. Despăgubirea se plătește ca prim risc, iar prima se stabilește pe baza studiilor actuariale ale PAID, avizate de ASF. Polița obligatorie se va scumpi probabil, chiar dacă puțin, iar suma asigurată rămâne plafonată. Textul nu modifică art. 3 din Legea 260/2008, care enumeră riscurile, nu exclude explozia provocată intenționat și nu reglementează regresul împotriva celui vinovat, de exemplu distribuitorul de gaze sau persoana care a intervenit ilegal pe instalație.",
+      "affectedGroups": [
+        "Proprietari & Imobiliare",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I (art. 2¹ alin. 1): riscul este «inclus în categoria riscurilor acoperite» printr-un articol separat, fără modificarea art. 3 din Legea 260/2008, unde sunt enumerate riscurile PAD. Rezultă o dublă reglementare și pot apărea interpretări divergente.",
+        "Art. 2¹ alin. (2): explozia este definită «indiferent de sursa, instalația sau mecanismul care a generat acumularea». Definiția nu exclude fapta intenționată a asiguratului sau a altor persoane și nici instalațiile improvizate ori neautorizate. Asta creează risc de fraudă și hazard moral, contrar însuși termenului «accidentală».",
+        "Art. 2¹ alin. (4) și art. II: prima suplimentară va fi stabilită de PAID cu avizul ASF. Toți proprietarii vor plăti un cost în plus, a cărui valoare nu se cunoaște. Proiectul nu are niciun studiu de impact actuarial, deși expunerea de motive afirmă că impactul este «redus».",
+        "Art. II–III: legea intră în vigoare la 30 de zile, dar ASF are 90 de zile pentru norme. Rămâne un interval de circa 60 de zile în care riscul este legal acoperit fără primă și fără proceduri. Lipsește și regimul tranzitoriu pentru polițele PAD aflate în derulare.",
+        "Art. 2¹ alin. (3): regula «prim risc» cu completare din polițele facultative reia mecanismul existent al PAD. Este utilă ca precizare, dar nu adaugă nimic nou.",
+        "Nu există abrogări, derogări sau modificări ale altor legi. Efectul juridic este limitat strict la PAD."
+      ],
+      "blindSpotsCaught": "Lipsește dreptul de regres al PAID împotriva persoanei responsabile (operator de distribuție, firmă de instalații, vecin care a manipulat ilegal instalația). Fără el, prima plătită de toți proprietarii ajunge să subvenționeze neglijența unor terți identificabili. Expunerea de motive afirmă și că explozia nu ar fi acoperită în România, deși polițele facultative includ de regulă incendiul și explozia; problema reală este gradul scăzut de acoperire facultativă. Expunerea anunță «două domenii», dar textul reglementează unul singur, semn că a fost preluată dintr-un proiect mai amplu. Formula din text vorbește de adoptare «în ședința din .....2025», o neglijență de redactare.",
+      "constitutionalityNote": "Nu se observă o neconstituționalitate de fond. Este o lege ordinară de completare (art. 73 alin. 3 și art. 76 alin. 2), iar inițiativa parlamentară este legitimă. Riscul ține de art. 1 alin. (5), adică de claritate și previzibilitate: definiția prea largă de la alin. (2), plasarea riscului în afara art. 3 și decalajul dintre intrarea în vigoare și normele ASF pot genera practică neunitară. Obligația de a plăti o primă mai mare este o sarcină proporțională în raport cu scopul de protecție, compatibilă cu art. 44 și art. 136. Proiectul nu afectează bugetul de stat, deci art. 138 alin. (5) nu este incident.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, deoarece proiectul nu reglementează accesul la o profesie. Directiva TRIS 2015/1535 nu se aplică, fiind vorba de asigurare imobiliară, nu de servicii ale societății informaționale. Directiva 2009/138/CE (Solvabilitate II) permite statelor să impună asigurări obligatorii și să controleze condițiile acestora (art. 21 și art. 206), deci fixarea primei de către PAID cu aviz ASF este compatibilă. Asigurătorii din alte state membre rămân în aceeași poziție ca acum. Impactul concurențial este marginal: o parte din riscul acoperit azi facultativ trece în pool-ul PAD, ceea ce poate reduce ușor piața facultativă de explozie.",
+      "senatForm": {
+        "articleRef": "Art. I – art. 2¹ și art. 3 din Legea 260/2008",
+        "proposalContent": "Se modifică art. 3 alin. (1) din L. 260/2008: riscurile acoperite sunt cutremurul, alunecarea de teren, inundația și explozia accidentală de gaze. Art. 2¹ alin. (2) se completează: se exclude explozia provocată intenționat de asigurat. Art. III: legea intră în vigoare la 120 de zile de la publicare și se aplică polițelor încheiate sau reînnoite după această dată.",
+        "argumentation": "Riscurile PAD sunt enumerate la art. 3; un articol separat creează dublă reglementare. Formula «indiferent de sursă» poate acoperi și explozii provocate intenționat, cu risc de fraudă. Normele ASF au termen de 90 de zile, dar legea intră în vigoare la 30: rămân 60 de zile fără primă și fără reguli, iar polițele în curs nu au regim tranzitoriu.",
+        "otherComments": "Să se precizeze dreptul PAID de regres împotriva operatorului de distribuție sau a persoanei vinovate, pentru ca prima plătită de toți să nu subvenționeze neglijența. Expunerea de motive anunță «două domenii», dar textul reglementează unul și nu conține niciun studiu de impact actuarial asupra primei PAD."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 131098,
-      "riskScore": 5,
+      "durationMs": 79951,
+      "sourceEndMarker": "SF-D3FD5F61",
+      "riskScore": 4,
       "riskLevel": "yellow",
       "plainTitle": "Asigurarea obligatorie a locuinței ar acoperi și exploziile de gaze",
-      "verdictShort": "Protecția suplimentară este utilă, dar proiectul lasă neclare costul, aplicarea la polițele existente și unele condiții de despăgubire. Riscul este moderat și provine din redactarea incompletă, nu din obiectivul legii.",
-      "initiatorClaim": "Inițiatorii urmăresc protejarea proprietarilor afectați de explozii accidentale de gaze și susțin că extinderea PAD ar avea un cost marginal. Expunerea prezentată nu include însă calcule actuariale care să demonstreze acest impact redus.",
-      "realityCheck": "Art. I introduce exploziile accidentale provocate de gaze combustibile în acoperirea obligatorie, inclusiv când sursa acumulării este exterioară locuinței. Proiectul permite stabilirea unei prime aferente noului risc, fără să precizeze cuantumul sau dacă aceasta se adaugă primei existente. Nu instituie despăgubiri pentru vătămări corporale ori răspundere civilă față de terți și nu garantează reconstruirea integrală a locuinței.",
+      "verdictShort": "Extinderea protecției este utilă, dar proiectul lasă neclare costul și trecerea la noua acoperire. Principala problemă este că obligația legală poate deveni aplicabilă înaintea normelor necesare implementării.",
+      "initiatorClaim": "Inițiatorii urmăresc despăgubirea proprietarilor afectați de explozii accidentale de gaze prin PAD. Ei susțin că extinderea ar avea un cost marginal redus, fără să prezinte în materialul furnizat un studiu actuarial care să demonstreze această afirmație.",
+      "realityCheck": "Art. I adaugă exploziile accidentale de gaze combustibile la riscurile PAD și prevede o primă fundamentată actuarial, al cărei cuantum nu este stabilit în proiect. Despăgubirea rămâne supusă limitelor asigurării, iar diferența poate fi suportată de o poliță facultativă numai potrivit condițiilor acesteia. Art. II și III nu stabilesc cum sunt tratate polițele existente și permit ca normele ASF să apară după intrarea în vigoare a noii acoperiri.",
       "affectedGroups": [
         "Proprietari & Imobiliare",
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Art. I, noul art. 2¹ alin. (1), nu este corelat cu definițiile PAD și cu art. 3, 6 și 7, construite în jurul dezastrelor naturale. Introducerea noului articol exprimă intenția extinderii, dar trimiterile existente pot genera interpretări divergente. [Legea nr. 260/2008](https://legislatie.just.ro/Public/DetaliiDocumentAfis/267044).",
-        "Art. 2¹ alin. (3) nu elimină plafonarea: art. 5 prevede 100.000 lei pentru tipul A și 50.000 lei pentru tipul B, modificabile de ASF; bunurile din interior rămân excluse. «Prim risc» înseamnă paguba efectivă în limita asigurată, nu acoperire integrală sau prioritate procedurală. [Legea nr. 260/2008](https://legislatie.just.ro/Public/DetaliiDocumentAfis/267044).",
-        "Art. 2¹ alin. (4) cere studii PAID avizate de ASF, dar nu identifică expres autoritatea care stabilește prima. Art. 5 alin. (3) atribuie deja ASF modificarea primei obligatorii; mecanismele trebuie corelate. Costul redus afirmat în motivare nu este demonstrat prin materialele furnizate. [Legea nr. 260/2008](https://legislatie.just.ro/Public/DetaliiDocumentAfis/267044).",
-        "Art. II permite emiterea normelor la 90 de zile după intrarea în vigoare, în timp ce art. III activează legea la 30 de zile după publicare. Rezultă o perioadă de până la 90 de zile cu reglementări secundare neactualizate; lipsesc reguli pentru polițele în curs.",
-        "Proiectul nu introduce taxe fiscale, formulare sau sancțiuni noi pentru cetățeni și IMM-uri. O eventuală scumpire ar afecta proprietarii și bugetele care suportă prime pentru locuințe publice/sociale; impactul trebuie cuantificat. [Legea nr. 260/2008](https://legislatie.just.ro/Public/DetaliiDocumentAfis/267044)."
+        "Art. I, art. 2¹ alin. (2): definiția privește gazele combustibile, inclusiv GPL și butelii, indiferent de sursa acumulării. Nu instituie o acoperire generală pentru orice tip de explozie.",
+        "Art. I, art. 2¹ alin. (3): PAD intervine ca prim risc. Textul nu majorează expres sumele asigurate și nu garantează plata integrală a prejudiciului ori despăgubiri pentru vătămări corporale și răspundere față de terți.",
+        "Art. I, art. 2¹ alin. (4): costul suplimentar rămâne necunoscut. Nu este clar dacă prima pentru explozie se adaugă primei PAD existente și cum se corelează cu mecanismul tarifar din legea de bază.",
+        "Art. II și III: legea intră în vigoare la 30 de zile de la publicare, dar ASF primește încă 90 de zile pentru norme. Rezultă un interval potențial de 90 de zile cu aplicare insuficient clarificată.",
+        "Dispozițiile finale nu prevăd un regim pentru polițele în curs: momentul extinderii, eventuala diferență de primă și necesitatea modificării contractului rămân neprecizate.",
+        "Proiectul nu introduce expres taxe bugetare, amenzi sau noi formalități pentru proprietari. Produce însă costuri de implementare pentru ASF, PAID și distribuitori și poate crește prima obligatorie suportată de proprietari, inclusiv persoane juridice."
       ],
-      "blindSpotsCaught": "Excluderea actuală a locuințelor din clădiri cu risc seismic I nu este clarificată pentru noul risc, putând limita protecția promisă. [Art. 3 alin. (6)](https://legislatie.just.ro/Public/DetaliiDocumentAfis/267044). Definiția propusă confundă parțial acumularea gazului cu mecanismul exploziei: simpla acumulare nu constituie, singură, explozie. Comparațiile cu polițe multirisc străine nu demonstrează necesitatea aceleiași soluții într-un sistem obligatoriu.",
-      "constitutionalityNote": "Obiectivul protejării locuințelor este legitim. Principala vulnerabilitate privește claritatea și previzibilitatea cerute de art. 1 alin. (5): corelările legislative, stabilirea primei și tranziția contractuală sunt insuficiente. Art. 23 alin. (12), privind legalitatea pedepselor, nu prezintă o problemă directă identificabilă, deoarece proiectul nu introduce pedepse. Dacă extinderea majorează cheltuieli publice, trebuie evaluate implicațiile art. 111 alin. (1) și art. 138 alin. (5), inclusiv sursa finanțării; documentele oferite nu permit constatarea unei încălcări certe. [Constituția României](https://www.senat.ro/pagini/constitutia/constitutia.htm).",
-      "euLawNote": "Directiva (UE) 2018/958 privește accesul la profesii reglementate și exercitarea lor; extinderea acoperirii PAD nu intră, prin ea însăși, în acest domeniu. [Art. 1–2](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018L0958). Nu rezultă obligația notificării TRIS: proiectul nu reglementează servicii digitale/AI sau cerințe tehnice pentru produse, iar art. 1 alin. (4) exclude materiile financiare acoperite de legislația UE, anexa II incluzând asigurările. [Directiva (UE) 2015/1535](https://eur-lex.europa.eu/eli/dir/2015/1535/oj/eng/pdf). Extinderea sistemului PAID existent asupra unui risc suplimentar poate reduce spațiul concurențial al asigurărilor facultative pentru acel risc; aceasta necesită justificare economică și evaluarea proporționalității, fără să dovedească automat o încălcare a dreptului UE.",
+      "blindSpotsCaught": "Termenul ASF curge de la intrarea în vigoare, nu de la publicare: normele pot apărea abia la aproximativ 120 de zile de la publicare. În plus, expunerea promite protecție pentru terți și clarificarea răspunderii, dar articolele nu instituie o asigurare de răspundere civilă. Nu există derogări sau abrogări ascunse în dispozițiile finale furnizate.",
+      "constitutionalityNote": "Obiectivul protejării locuințelor este legitim; obligativitatea unei asigurări nu este, prin ea însăși, neconstituțională. Vulnerabilitatea principală privește art. 1 alin. (5): corelarea insuficientă a primei, acoperirii și calendarului poate afecta claritatea și previzibilitatea obligațiilor contractuale. Aplicarea la contractele existente trebuie precizată, cu respectarea securității juridice și a neretroactivității. Art. 23 alin. (12), referitor la legalitatea pedepselor, nu este direct incident, deoarece proiectul nu instituie pedepse. Nu rezultă din text o neconstituționalitate certă.",
+      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile asupra accesului la profesii reglementate și exercitării acestora; proiectul nu introduce asemenea restricții, deci testul său nu este direct aplicabil. Nu sunt reglementate servicii digitale sau AI și nu rezultă o obligație de notificare TRIS în temeiul Directivei (UE) 2015/1535. Extinderea acoperirii PAD mărește domeniul mecanismului PAID existent, fără să creeze prin text un nou operator exclusiv. Sunt necesare fundamentarea actuarială, evaluarea efectelor asupra asigurărilor facultative și verificarea compatibilității avizării primei cu regulile UE privind asigurările, libertatea tarifară și solvabilitatea; o încălcare nu poate fi afirmată doar pe baza proiectului.",
       "senatForm": {
-        "articleRef": "Art. I – art. 2¹ alin. (4)",
-        "proposalContent": "(4) Prima obligatorie se stabilește de ASF, potrivit art. 5 alin. (3), pe baza unui studiu actuarial realizat de PAID, cu publicarea ipotezelor și a impactului asupra asiguraților. Modificarea primei și acoperirea noului risc se aplică numai contractelor încheiate sau reînnoite după intrarea în vigoare a normelor ASF.",
-        "argumentation": "Textul actual nu precizează cine stabilește prima și dacă aceasta se adaugă primei PAD. Sunt necesare transparența costului, corelarea cu competența ASF și o regulă pentru contractele existente. Publicarea impactului permite evaluarea accesibilității asigurării și a efectelor asupra concurenței.",
-        "otherComments": "Propunere pentru Comisia pentru politică economică, reformă și privatizare a Camerei Deputaților. Se cer și corelarea art. 2, 3, 6 și 7 din Legea nr. 260/2008, precum și emiterea normelor înaintea aplicării extinderii. Termenul indicat, 09.04.2026, a expirat; un deputat poate solicita preluarea propunerii potrivit procedurii aplicabile."
-      }
+        "articleRef": "Art. II și art. III",
+        "proposalContent": "Art. II. ASF adoptă normele în 90 de zile de la intrarea în vigoare a legii. Art. III. Legea intră în vigoare la 3 zile de la publicare. Art. I se aplică polițelor încheiate sau reînnoite după 120 de zile de la publicare. Polițele în curs pot fi extinse prin acordul părților, în condițiile noilor norme, cu indicarea primei și a datei începerii acoperirii.",
+        "argumentation": "Calendarul propus permite adoptarea normelor înaintea aplicării noii acoperiri. Regula pentru polițele existente elimină incertitudinea privind începutul protecției și plata primei suplimentare. Sunt prevenite disputele dintre proprietari și asigurători privind evenimentele produse în perioada de tranziție.",
+        "otherComments": "Analiza se bazează pe textele furnizate; verificarea online a legislației consolidate și a dosarului nu a fost disponibilă. Comisiei pentru politică economică i se recomandă solicitarea studiului actuarial și corelarea expresă cu dispozițiile legii de bază privind primele, limitele și despăgubirile."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T04:58:30.141Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:12:43.961Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

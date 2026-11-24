@@ -2,122 +2,181 @@
   "billId": "PL-x 114/2026",
   "slug": "plx-114-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T00:15:20.903Z",
+  "updatedAt": "2026-11-24T15:12:48.599Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 1483,
+    "ordinanceChars": 0,
+    "memoChars": 23279,
+    "memoSupplied": 23279,
+    "marker": "SF-8D81DD41"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-114-2026.json",
+    "form": "senat",
+    "textHash": "8d81dd41e92928a0",
+    "fetchedAt": "2026-11-19T11:20:37.091Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 1,
+    "chars": 9268,
+    "truncated": false,
+    "included": true,
+    "key": "abe656cb4a315371"
+  },
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 2.7,
     "riskLevel": "green",
-    "plainTitle": "Viorile și utilajele istorice clasate pot fi folosite la concerte și evenimente, pe bază de contract",
-    "summaryTlDr": "Lege tehnică și în general utilă. O vioară Stradivarius clasată poate fi cântată, iar o locomotivă istorică poate fi pusă în funcțiune, în loc să stea doar în vitrină. Slăbiciunea reală: textul nu spune ce trebuie să conțină contractul, deși tocmai contractul protejează bunul.",
-    "initiatorClaim": "Guvernul (Ministerul Culturii) spune că vrea reguli clare de pază și securitate pentru bunurile culturale mobile expuse în străinătate. Mai vrea ca instrumentele muzicale și bunurile tehnice clasate să poată fi folosite în proiecte culturale, inclusiv pentru a le păstra calitățile sonore.",
-    "realityCheck": "Legea aprobă OG 4/2026 cu o singură modificare adusă de Senat: noul art. 23 alin. (4) creează o excepție de la art. 23 alin. (1) lit. e). Excepția permite folosirea instrumentelor muzicale și a bunurilor tehnice clasate în proiecte culturale, pe baza unui contract între proprietar sau administrator și utilizator sau organizator. Alin. (4) nu enumeră clauzele obligatorii (pază, asigurare, condiții de conservare, răspundere) pe care le promite Expunerea de motive și nu cere nicio verificare a autorității înainte de utilizare, deși folosirea înseamnă uzură. Celelalte modificări din OG (art. 34^1, 37, 38) nu sunt redate în legea de aprobare, așa că efectul lor concret nu poate fi verificat din textul transmis.",
+    "plainTitle": "Viori de patrimoniu la concerte, locomotive de epocă pe șine și reguli mai clare pentru exportul temporar al bunurilor culturale",
+    "summaryTlDr": "Este o lege tehnică și în mare parte utilă, care aprobă o ordonanță deja în vigoare din ianuarie 2026. Amendamentul Senatului este pur redacțional. Riscul real ține de cât de puțin control de specialitate cere textul atunci când bunuri clasate, care se uzează prin folosire, sunt efectiv utilizate.",
+    "initiatorClaim": "Guvernul spune că vrea să permită folosirea controlată a instrumentelor muzicale și a bunurilor tehnice clasate, de exemplu o vioară Stradivarius la un concert sau o locomotivă cu abur. Mai vrea să clarifice contractele pentru expoziții și restaurări, precum și procedura certificatului de export, și să întărească paza bunurilor expuse în străinătate.",
+    "realityCheck": "OG 4/2026 introduce o excepție de la art. 23 alin. (1) lit. e). Excepția permite utilizarea bunurilor clasate pe baza unui simplu contract civil între proprietar sau administrator și utilizator, fără aviz sau notificare către Ministerul Culturii. Ordonanța mai rescrie art. 34, 34^1, 37 și 38: exportul temporar al oricărui bun clasat trece prin propunerea CNMC și aprobarea ministrului, cererea se depune cu 45 de zile înainte, iar certificatul se emite în cel mult 30 de zile. Pentru bunurile publice exportate devine obligatorie asigurarea „perete la perete” plus 5 zile după revenire. Legea de aprobare schimbă doar formularea art. 23 alin. (4).",
     "affectedGroups": [
-      "Sănătate & Educație",
       "IMM & Antreprenori",
       "Proprietari & Imobiliare",
-      "Toți cetățenii"
+      "Toți cetățenii",
+      "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 1 OG 4/2026, art. 23 alin. (4)",
-      "proposalContent": "Se completează alin. (4): „Contractul cuprinde cel puțin: paza și protecția bunului, asigurarea la valoarea declarată, condițiile de conservare și utilizare stabilite de un restaurator acreditat, durata, răspunderea părților și starea de conservare la predare și la restituire. Contractul se comunică Ministerului Culturii înainte de utilizare.”",
-      "argumentation": "Textul Senatului permite folosirea unor bunuri clasate (viori, locomotive), deci uzura lor, dar lasă conținutul contractului la latitudinea părților. Clauzele minime, promise deja în Expunerea de motive, și comunicarea către Ministerul Culturii fac excepția previzibilă (art. 1 alin. 5 Constituție) și permit verificarea stării bunului înainte și după utilizare.",
-      "otherComments": "Trimiterea la art. 3 alin. (2) pct. 5 e ambiguă: nu reiese dacă privește și instrumentele muzicale sau doar bunurile tehnice. Pentru bunurile din domeniul public, propun și precizarea că bunul rămâne sub supravegherea titularului dreptului de administrare, ca excepția să nu fie citită ca o nouă formă de dare în folosință (art. 136 alin. 4 Constituție)."
+      "articleRef": "Art. I pct. 2 din OG 4/2026 (art. 23 alin. 5)",
+      "proposalContent": "Art. 23 alin. (5) se completează: „Contractul se încheie numai după avizul unui conservator acreditat privind compatibilitatea utilizării cu starea de conservare a bunului; i se anexează rapoarte de stare la predare și la restituire și se notifică serviciului deconcentrat al Ministerului Culturii cu cel puțin 15 zile înainte.”",
+      "argumentation": "Derogarea de la art. 23 alin. (1) lit. e) permite folosirea efectivă a unor bunuri clasate (viori, locomotive), care se uzează prin utilizare. Textul nu cere nicio verificare de specialitate și nicio informare a autorității. Avizul și rapoartele de stare protejează bunul și ușurează stabilirea răspunderii, fără a crea o nouă autorizare.",
+      "otherComments": "Amendamentul Senatului este doar redacțional. La „bunuri de importanță tehnică” s-a pierdut cuvântul „culturale”; propun forma unitară „bunuri culturale de importanță tehnică”. Termenul de 60 de zile pentru modificarea HG 518/2004 a expirat, iar comisia poate cere Ministerului Culturii să precizeze stadiul normelor."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 56054,
-      "riskScore": 2,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 102728,
+      "sourceEndMarker": "SF-8D81DD41",
+      "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Reguli mai clare pentru paza tezaurului în străinătate și folosirea instrumentelor muzicale de patrimoniu",
-      "verdictShort": "O lege utilă și echilibrată care întărește regimul de protecție a bunurilor de patrimoniu trimise la expoziții externe și permite folosirea legală a instrumentelor muzicale clasate (ex. viori istorice) sau a pieselor tehnice (ex. locomotive cu abur) în proiecte culturale.",
-      "initiatorClaim": "Guvernul urmărește instituirea unor măsuri clare de pază, protecție și securitate pentru bunurile culturale mobile expuse în străinătate, precum și crearea cadrului legal pentru utilizarea funcțională a instrumentelor muzicale și a bunurilor tehnice clasate.",
-      "realityCheck": "Proiectul aprobă OG nr. 4/2026 și rezolvă o problemă practică reală: până acum, utilizarea funcțională a unei viori Stradivarius în concert sau a unui echipament tehnic de patrimoniu se lovea de restricții rigide. Modificarea Senatului la art. 23 alin. (4) permite folosirea lor prin contracte civile, însă sintagma „clauze specifice” din articol ar trebui să enumere direct în lege obligațiile minime de pază, conservare și asigurare.",
+      "plainTitle": "Reguli noi pentru folosirea instrumentelor de patrimoniu și expozițiile în străinătate",
+      "verdictShort": "Legea de aprobare a OG nr. 4/2026 este în esență tehnică și benefică, deblocând folosirea instrumentelor muzicale și bunurilor tehnice clasate și impunând asigurarea „perete la perete” pentru patrimoniul public expus în străinătate. Totuși, spre deosebire de ce promite expunerea de motive, legea nu fixează standarde minime concrete de pază și securitate, ci le pasează spre contracte și norme secundare.",
+      "initiatorClaim": "Guvernul susține că actul normativ instituie măsuri clare privind paza, protecția și condițiile de securitate pentru bunurile culturale mobile expuse în străinătate și creează cadrul legal pentru utilizarea controlată a instrumentelor muzicale și a bunurilor tehnice clasate (de ex. viori Stradivarius, locomotive cu abur).",
+      "realityCheck": "Forma adoptată de Senat aprobă OG nr. 4/2026 cu o simplă ajustare terminologică la art. 23 alin. (4). În fond, ordonanța chiar introduce garanții utile (asigurare „perete la perete” + 5 zile după retur la art. 38 alin. 1, propunere CNMC și aprobarea ministrului la art. 37 alin. 5), dar nu stabilește în text criterii minime concrete de securitate pentru expozițiile externe, bazându-se pe „clauze clare” în contracte și pe modificarea ulterioară a HG nr. 518/2004 (unde urmărește inclusiv eliminarea autentificării notariale a contractelor externe). În plus, art. 23 alin. (4)-(5) permite folosirea activă a bunurilor clasate fără a prelua din expunerea de motive obligația expresă de respectare a normelor de conservare și folosește sintagma imprecisă „asigurarea civilă la riscuri”.",
       "affectedGroups": [
-        "Sănătate & Educație",
         "IMM & Antreprenori",
         "Proprietari & Imobiliare",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. unic (modificarea art. 23 alin. 4 din Legea nr. 182/2000): Permite utilizarea și punerea în valoare în proiecte culturale a instrumentelor muzicale și a bunurilor de importanță tehnică clasate, prin excepție de la interdicțiile generale.",
-        "Clarificarea părților contractante: Contractul civil se încheie între proprietar, titularul dreptului de administrare (ex. un muzeu public) sau titularul altor drepturi reale și utilizatorul bunului ori organizatorul evenimentului.",
-        "Securizarea expozițiilor internaționale (obiectul OG nr. 4/2026 la art. 34^1, 37 și 38): Clarifică situațiile în care este necesară o Hotărâre de Guvern (când sunt implicate mai multe autorități centrale), procedura avizului Comisiei Naționale a Muzeelor și Colecțiilor și obligațiile contractuale de pază și asigurare la exportul temporar."
+        "Art. 23 alin. (4)-(5) permite, prin excepție, utilizarea în proiecte culturale a instrumentelor muzicale și bunurilor tehnice clasate pe bază de contract civil, dar omite obligația legală expresă de respectare a normelor de conservare (deși expunerea de motive o invocă) și cere vag „asigurarea civilă la riscuri” în locul asigurării de bunuri pentru toate riscurile.",
+        "Art. 38 alin. (1) aduce o garanție solidă pentru bunurile clasate publice scoase temporar din țară: asigurare obligatorie „toate riscurile: perete la perete” pe durata contractului plus minimum 5 zile după revenirea la sediul instituției; în schimb, pentru expozițiile naționale (art. 34 alin. 1-2), asigurarea nu apare printre clauzele obligatorii.",
+        "Art. 34^1 alin. (1) limitează obligativitatea aprobării prin Hotărâre de Guvern exclusiv la expozițiile internaționale ale muzeelor din subordinea Ministerului Culturii în care sunt implicate mai multe autorități ale administrației publice centrale — lăsând în afara acestui filtru expozițiile organizate de un singur muzeu ori de muzee județene/locale (care rămân totuși supuse aprobării ministrului și propunerii CNMC conform art. 37 alin. 5).",
+        "Art. 37 alin. (6)-(7) clarifică procedurile de export (eliberare în max. 30 de zile de la documentația completă), dar impune depunerea cererii cu cel puțin 45 de zile înainte de ieșirea din țară, fără o procedură de urgență pentru muzicienii care folosesc instrumente clasate în turnee externe."
       ],
-      "blindSpotsCaught": "În forma adoptată de Senat pentru art. 23 alin. (4), legea face trimitere doar la „un contract civil cu clauze specifice”, fără a preciza în chiar corpul alineatului care sunt clauzele obligatorii (pază, asigurare pentru riscuri, condiții de microclimat/conservare), deși Expunerea de Motive le prezintă ca fiind esențiale.",
-      "constitutionalityNote": "Reglementarea este conformă cu art. 33 din Constituție privind accesul la cultură și obligația statului de a păstra și proteja patrimoniul cultural național. Din perspectiva art. 1 alin. (5) privind calitatea și previzibilitatea legii, definirea mai exactă a „clauzelor specifice” la art. 23 alin. (4) ar elimina orice echivoc în aplicare.",
-      "euLawNote": "Proiectul este pe deplin compatibil cu dreptul Uniunii Europene. Nu introduce bariere nejustificate în calea liberei prestări a serviciilor (Directiva 2018/958) și nu vizează reglementări tehnice digitale (Directiva TRIS 2015/1535), iar condițiile stricte pentru exportul temporar al bunurilor clasate se încadrează în art. 36 TFUE privind protejarea tezaurului național cu valoare artistică sau istorică.",
+      "blindSpotsCaught": "Deși fișa proiectului și expunerea de motive prezintă legea ca stabilind condiții clare de pază și securitate pentru expozițiile din străinătate, textul ordonanței nu conține niciun standard minim obiectiv de pază/securitate, ci lasă detaliile în contractele civile și în HG nr. 518/2004 (anunțând chiar eliminarea autentificării notariale a contractelor externe). De asemenea, art. 34 alin. (4) menționează impropriu „răspunderea disciplinară” pentru organizatori privați și obligația absolută de „înlăturare a oricărui risc”, iar secțiunea de impact financiar este completată cu „Nu e cazul”, deși asigurările „perete la perete” + 5 zile pentru restaurări sau investigații în străinătate pot implica costuri bugetare.",
+      "constitutionalityNote": "Proiectul respectă în ansamblu Constituția: OG nr. 4/2026 a fost emisă în baza legii de abilitare nr. 244/2025 (art. 115 alin. 1-3), iar Senatul a adoptat legea de aprobare ca lege ordinară (art. 76 alin. 2). Există totuși vulnerabilități minore privind calitatea și previzibilitatea legii (art. 1 alin. 5): sintagma „asigurarea civilă la riscuri” (art. 23 alin. 5) confundă răspunderea civilă cu asigurarea bunului, „răspunderea disciplinară” a unui organizator extern (art. 34 alin. 4) este improprie juridic, iar lipsa estimării costurilor bugetare ale asigurărilor publice în expunerea de motive slăbește rigoarea față de art. 138 alin. (5).",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2015/1535 (TRIS), nevizând servicii digitale sau reglementări tehnice de produs, și nu introduce restricții noi de acces la profesii în sensul Directivei (UE) 2018/958 (art. 28 alin. 1 menține cerința existentă de acreditare a restauratorilor). Definirea exportului ilegal (art. 37 alin. 8) este coerentă cu Directiva 2014/60/UE privind restituirea obiectelor culturale. Pe piața unică (art. 35-36 TFUE), tratarea scoaterii bunurilor culturale în interiorul UE drept „export” supus certificatului cu preaviz de 45 de zile și valabilității limitate la o singură țară (art. 37 alin. 1 și 9) este permisă de art. 36 TFUE pentru tezaurele naționale, dar trebuie aplicată proporțional în cazul bunurilor neclasate.",
       "senatForm": {
-        "articleRef": "Articol unic - Art. I pct. 1 (Art. 23 alin. (4))",
-        "proposalContent": "La art. 23 alin. (4), după sintagma „pe baza unui contract civil cu clauze specifice” se introduce sintagma „privind asigurarea pazei, a condițiilor de conservare și a asigurării pentru toate riscurile,”, restul textului rămânând neschimbat.",
-        "argumentation": "Expunerea de motive prevede că aceste contracte trebuie să conțină clauze clare privind paza, asigurarea la riscuri și condițiile de mediu/conservare. Menționarea lor expresă în textul art. 23 alin. (4) asigură previzibilitatea normei (art. 1 alin. 5 din Constituție) și previne încheierea unor contracte formale care ar omite polița de asigurare.",
-        "otherComments": "Proiectul este oportun și binevenit pentru punerea în valoare a instrumentelor muzicale istorice și a patrimoniului tehnic, însă garantarea integrității acestora cere ca obligațiile minime de asigurare și conservare să fie prevăzute direct în textul legii, nu doar în expunerea de motive."
-      }
+        "articleRef": "Art. unic - art. I pct. 2 (art. 23 alin. 5)",
+        "proposalContent": "„(5) Contractul prevăzut la alin. (4) se încheie cu respectarea normelor de conservare și conține clauze clare privind obligațiile utilizatorului/organizatorului referitoare la paza și protecția bunurilor, asigurarea pentru toate riscurile, condițiile de mediu pentru depozitare, expunere și utilizare, precum și răspunderea părților.”",
+        "argumentation": "Expunerea de motive invocă respectarea normelor de conservare la utilizarea bunurilor clasate, dar obligația lipsește din lege. Totodată, „asigurarea civilă la riscuri” este imprecisă juridic (confundă răspunderea civilă cu asigurarea bunului) și trebuie înlocuită cu „asigurarea pentru toate riscurile”, corelat cu art. 38 alin. (1).",
+        "otherComments": "Recomandăm și definirea unor standarde minime de pază și securitate pentru expozițiile externe (art. 34^1 și art. 38), nu doar trimiterea la clauze contractuale, precum și prevederea unei proceduri urgente la termenul de 45 de zile (art. 37 alin. 6) pentru artiștii care folosesc instrumente clasate în turnee internaționale."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 155179,
-      "riskScore": 3,
+      "durationMs": 41708,
+      "sourceEndMarker": "SF-8D81DD41",
+      "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Viorile și utilajele istorice clasate pot fi folosite la concerte și evenimente, pe bază de contract",
-      "verdictShort": "Lege tehnică și în general utilă. O vioară Stradivarius clasată poate fi cântată, iar o locomotivă istorică poate fi pusă în funcțiune, în loc să stea doar în vitrină. Slăbiciunea reală: textul nu spune ce trebuie să conțină contractul, deși tocmai contractul protejează bunul.",
-      "initiatorClaim": "Guvernul (Ministerul Culturii) spune că vrea reguli clare de pază și securitate pentru bunurile culturale mobile expuse în străinătate. Mai vrea ca instrumentele muzicale și bunurile tehnice clasate să poată fi folosite în proiecte culturale, inclusiv pentru a le păstra calitățile sonore.",
-      "realityCheck": "Legea aprobă OG 4/2026 cu o singură modificare adusă de Senat: noul art. 23 alin. (4) creează o excepție de la art. 23 alin. (1) lit. e). Excepția permite folosirea instrumentelor muzicale și a bunurilor tehnice clasate în proiecte culturale, pe baza unui contract între proprietar sau administrator și utilizator sau organizator. Alin. (4) nu enumeră clauzele obligatorii (pază, asigurare, condiții de conservare, răspundere) pe care le promite Expunerea de motive și nu cere nicio verificare a autorității înainte de utilizare, deși folosirea înseamnă uzură. Celelalte modificări din OG (art. 34^1, 37, 38) nu sunt redate în legea de aprobare, așa că efectul lor concret nu poate fi verificat din textul transmis.",
+      "plainTitle": "Viori de patrimoniu la concerte, locomotive de epocă pe șine și reguli mai clare pentru exportul temporar al bunurilor culturale",
+      "verdictShort": "Este o lege tehnică și în mare parte utilă, care aprobă o ordonanță deja în vigoare din ianuarie 2026. Amendamentul Senatului este pur redacțional. Riscul real ține de cât de puțin control de specialitate cere textul atunci când bunuri clasate, care se uzează prin folosire, sunt efectiv utilizate.",
+      "initiatorClaim": "Guvernul spune că vrea să permită folosirea controlată a instrumentelor muzicale și a bunurilor tehnice clasate, de exemplu o vioară Stradivarius la un concert sau o locomotivă cu abur. Mai vrea să clarifice contractele pentru expoziții și restaurări, precum și procedura certificatului de export, și să întărească paza bunurilor expuse în străinătate.",
+      "realityCheck": "OG 4/2026 introduce o excepție de la art. 23 alin. (1) lit. e). Excepția permite utilizarea bunurilor clasate pe baza unui simplu contract civil între proprietar sau administrator și utilizator, fără aviz sau notificare către Ministerul Culturii. Ordonanța mai rescrie art. 34, 34^1, 37 și 38: exportul temporar al oricărui bun clasat trece prin propunerea CNMC și aprobarea ministrului, cererea se depune cu 45 de zile înainte, iar certificatul se emite în cel mult 30 de zile. Pentru bunurile publice exportate devine obligatorie asigurarea „perete la perete” plus 5 zile după revenire. Legea de aprobare schimbă doar formularea art. 23 alin. (4).",
       "affectedGroups": [
         "Toți cetățenii",
         "Proprietari & Imobiliare",
-        "IMM & Antreprenori"
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Articol unic: legea aprobă OG 4/2026 cu o singură modificare, la art. I pct. 1 din OG, care reformulează art. 23 alin. (4) din Legea 182/2000.",
-        "Art. 23 alin. (4), în forma Senatului, face o excepție de la alin. (1) lit. e) pentru instrumentele muzicale și bunurile de importanță tehnică clasate. Acestea pot fi folosite „în cadrul unor proiecte culturale”, pe baza unui „contract civil cu clauze specifice”, dar clauzele nu sunt definite în text.",
-        "Contractul îl poate încheia proprietarul, titularul dreptului de administrare sau titularul altor drepturi reale, deci și un muzeu public pentru bunuri din domeniul public. Expunerea de motive invocă pentru aceste cazuri art. 300 din Codul administrativ.",
-        "Trimiterea la „art. 3 alin. (2) pct. 5” este ambiguă: nu reiese dacă privește ambele categorii (instrumente muzicale și bunuri tehnice) sau numai bunurile tehnice.",
-        "Textul transmis nu conține taxe noi, sancțiuni noi sau obligații pentru IMM-uri. Proprietarilor privați de bunuri clasate legea le deschide o posibilitate, nu le impune o obligație.",
-        "Expunerea de motive anunță și reformularea art. 38, completarea art. 34^1 (HG atunci când la o expoziție în străinătate participă mai multe autorități centrale) și a art. 37 (certificatul de export). Aceste texte și costurile pazei nu apar în forma transmisă și nu au putut fi evaluate."
+        "Singura modificare adusă de Senat (art. 23 alin. (4)) este redacțională: „bunurilor mobile clasate” devine „bunurilor culturale mobile clasate”. În schimb, la „bunuri de importanță tehnică” dispare cuvântul „culturale”, deci corelarea terminologică nu e perfectă, chiar dacă trimiterea la art. 3 alin. (2) pct. 5 limitează efectul.",
+        "Art. 23 alin. (4)-(5) din OG: utilizarea bunurilor clasate se face numai pe bază de contract cu clauze privind paza, asigurarea, condițiile de mediu și răspunderea. Textul nu cere însă un aviz de conservare, un raport de stare și nicio informare a Ministerului Culturii, deși folosirea efectivă poate degrada bunul.",
+        "Art. 37 alin. (5)-(7): exportul temporar al bunurilor clasate, inclusiv al celor private, necesită propunerea CNMC și aprobarea ministrului. Cererea se depune cu cel puțin 45 de zile înainte, iar emiterea durează maximum 30 de zile. Procedura e previzibilă, dar adaugă o etapă birocratică pentru colecționarii privați.",
+        "Art. 37 alin. (8): nerevenirea bunului la expirarea certificatului temporar constituie expres „export ilegal”. Calificarea are consecințe sancționatorii potrivit dispozițiilor deja existente din Legea 182/2000.",
+        "Art. 38 alin. (1): pentru bunurile clasate din proprietate publică devine obligatorie asigurarea all-risks „perete la perete” pe toată durata contractului plus minimum 5 zile după revenire. Este o garanție concretă și utilă.",
+        "Art. 34^1: hotărârea de Guvern pentru expozițiile din străinătate se cere doar când sunt implicate mai multe autorități centrale, iar conținutul ei minim este definit. Asta clarifică o practică până acum neuniformă."
       ],
-      "blindSpotsCaught": "Excepția funcționează pe baza unui simplu contract între părți. Alin. (4) nu cere aviz, notificare sau constatarea stării de conservare de către un restaurator acreditat, nici înainte, nici după utilizare. Formula „cu respectarea normelor de conservare și restaurare”, prezentă în Expunerea de motive, lipsește din forma Senatului. Pentru un bun din domeniul public dat unui anumit artist, criteriile de alegere a utilizatorului nu sunt reglementate. În plus, modificarea Senatului se aplică doar de la intrarea în vigoare a legii de aprobare. Contractele încheiate după publicarea OG (MO nr. 75/30.01.2026) rămân sub forma inițială a alin. (4), pe care textul transmis nu o redă.",
-      "constitutionalityNote": "OG 4/2026 a fost emisă pe baza unei legi de abilitare (art. 1 pct. X.2 din Legea 244/2025), conform art. 115 alin. (1)-(3). Procedura legii de aprobare este corectă: Senatul ca primă Cameră, Camera Deputaților ca for decizional (art. 75) și adoptare ca lege ordinară (art. 76 alin. 2). Respectarea termenului din legea de abilitare nu poate fi verificată din dosarul transmis. Punctul cel mai delicat privește bunurile din domeniul public: dacă alin. (4) ar fi citit ca o nouă formă de dare în folosință către particulari, ar ieși din formele prevăzute de art. 136 alin. (4) și ar atinge regimul proprietății publice, care ține de legea organică (art. 73 alin. 3 lit. m). Ordonanțele simple nu pot reglementa acest domeniu (art. 115 alin. 1). Interpretarea din Expunere, potrivit căreia este vorba de exercitarea dreptului de administrare, e plauzibilă, mai ales dacă bunul rămâne sub supravegherea administratorului. Pe art. 1 alin. (5), lipsa conținutului minim al contractului și trimiterea ambiguă la pct. 5 reduc previzibilitatea, dar nu ating pragul de neconstituționalitate. Scopul legii este compatibil cu art. 33 alin. (3) (protejarea moștenirii culturale).",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: legea nu reglementează accesul la o profesie și nici exercitarea ei. Directiva TRIS (2015/1535) nu este relevantă, fiindcă nu sunt reguli tehnice pentru produse sau pentru servicii ale societății informaționale. Pe piața unică, art. 36 TFUE permite restricții la circulația comorilor naționale. Ieșirea bunurilor din UE rămâne supusă licenței de export din Regulamentul (CE) nr. 116/2009, iar certificatul național de export (art. 37, după Expunere) trebuie corelat cu această licență, nu să o înlocuiască. Nu am identificat efecte asupra concurenței: legea nu creează monopoluri și nici drepturi exclusive.",
+      "blindSpotsCaught": "Ordonanța obliga Guvernul să modifice HG 518/2004 în 60 de zile, termen care a trecut de mult. Expunerea de motive anunță eliminarea autentificării notariale a contractelor internaționale, dar această simplificare depinde integral de HG și nu apare în textul legii. Art. 37 alin. (1) numește „export” și ieșirea către alt stat membru UE; terminologia diferă de Regulamentul (CE) 116/2009, care vizează doar ieșirea din UE, dar e permisă pentru tezaure naționale prin art. 36 TFUE. Exportul temporar al bunurilor publice este extins și la „proiecte culturale” conform specificului bunului, deci o vioară din patrimoniul public poate pleca la concerte în străinătate.",
+      "constitutionalityNote": "Nu se văd probleme majore. Ordonanța a fost emisă pe baza Legii de abilitare 244/2025 (art. 1 pct. X.2) și este supusă aprobării, potrivit art. 115 alin. (3) și (7). Nu afectează în mod restrictiv drepturi fundamentale; dimpotrivă, relaxează o interdicție de folosire. Regimul de autorizare a exportului bunurilor private clasate este o limitare a dreptului de proprietate justificată de art. 44 alin. (7) și art. 33 alin. (3) din Constituție (ocrotirea patrimoniului cultural). Termenele precise (45/30 de zile, valabilitate de 6 luni) sporesc previzibilitatea cerută de art. 1 alin. (5). Formulări precum „conform specificului bunului cultural mobil” sunt generale, dar acceptabile într-o lege de cadru.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este afectată în mod relevant: cerința de acreditare pentru conservatori și restauratori (art. 28) exista deja, iar OG doar precizează conținutul contractelor. TRIS (2015/1535) nu se aplică, fiindcă nu sunt reglementate servicii digitale sau reguli tehnice pentru produse. Controlul circulației intra-UE a bunurilor clasate este justificat de art. 36 TFUE (protecția tezaurelor naționale). Dispozițiile care transpun Directiva 2014/60/UE privind restituirea nu sunt modificate. Este nevoie de corelare cu Regulamentul (CE) 116/2009 pentru exportul extra-UE.",
       "senatForm": {
-        "articleRef": "Art. I pct. 1 OG 4/2026, art. 23 alin. (4)",
-        "proposalContent": "Se completează alin. (4): „Contractul cuprinde cel puțin: paza și protecția bunului, asigurarea la valoarea declarată, condițiile de conservare și utilizare stabilite de un restaurator acreditat, durata, răspunderea părților și starea de conservare la predare și la restituire. Contractul se comunică Ministerului Culturii înainte de utilizare.”",
-        "argumentation": "Textul Senatului permite folosirea unor bunuri clasate (viori, locomotive), deci uzura lor, dar lasă conținutul contractului la latitudinea părților. Clauzele minime, promise deja în Expunerea de motive, și comunicarea către Ministerul Culturii fac excepția previzibilă (art. 1 alin. 5 Constituție) și permit verificarea stării bunului înainte și după utilizare.",
-        "otherComments": "Trimiterea la art. 3 alin. (2) pct. 5 e ambiguă: nu reiese dacă privește și instrumentele muzicale sau doar bunurile tehnice. Pentru bunurile din domeniul public, propun și precizarea că bunul rămâne sub supravegherea titularului dreptului de administrare, ca excepția să nu fie citită ca o nouă formă de dare în folosință (art. 136 alin. 4 Constituție)."
-      }
+        "articleRef": "Art. I pct. 2 din OG 4/2026 (art. 23 alin. 5)",
+        "proposalContent": "Art. 23 alin. (5) se completează: „Contractul se încheie numai după avizul unui conservator acreditat privind compatibilitatea utilizării cu starea de conservare a bunului; i se anexează rapoarte de stare la predare și la restituire și se notifică serviciului deconcentrat al Ministerului Culturii cu cel puțin 15 zile înainte.”",
+        "argumentation": "Derogarea de la art. 23 alin. (1) lit. e) permite folosirea efectivă a unor bunuri clasate (viori, locomotive), care se uzează prin utilizare. Textul nu cere nicio verificare de specialitate și nicio informare a autorității. Avizul și rapoartele de stare protejează bunul și ușurează stabilirea răspunderii, fără a crea o nouă autorizare.",
+        "otherComments": "Amendamentul Senatului este doar redacțional. La „bunuri de importanță tehnică” s-a pierdut cuvântul „culturale”; propun forma unitară „bunuri culturale de importanță tehnică”. Termenul de 60 de zile pentru modificarea HG 518/2004 a expirat, iar comisia poate cere Ministerului Culturii să precizeze stadiul normelor."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 167936,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Reguli pentru folosirea și expunerea bunurilor de patrimoniu",
-      "verdictShort": "Proiectul are măsuri utile de protecție și permite valorificarea culturală a instrumentelor și echipamentelor clasate. Totuși, ordonanța aprobată conține o posibilă extindere indirectă a răspunderii penale, care justifică verificarea constituțională înaintea adoptării.",
-      "initiatorClaim": "Guvernul urmărește protejarea bunurilor culturale în timpul utilizării, transportului și expozițiilor, inclusiv în străinătate. Propune contracte adaptate bunurilor și clarificarea responsabilităților instituțiilor și organizatorilor.",
-      "realityCheck": "Forma Senatului aprobă întreaga OG nr. 4/2026, modificând punctual formularea art. 23 alin. (4), deci analiza nu se poate limita la paragraful reprodus în proiect. Ordonanța permite utilizarea anumitor bunuri clasate și detaliază obligațiile contractuale, asigurarea și procedura exportului. Nu introduce taxe generale, dar documentația, asigurarea și planificarea deplasărilor presupun costuri pentru muzee, proprietari și organizatori, necuantificate în extrasul justificativ. [OG nr. 4/2026](https://legislatie.just.ro/Public/DetaliiDocumentAfis/306797)",
+      "durationMs": 91077,
+      "sourceEndMarker": "SF-8D81DD41",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Reguli pentru folosirea și deplasarea bunurilor de patrimoniu",
+      "verdictShort": "Dispozițiile disponibile au un risc redus: susțin folosirea culturală a patrimoniului și precizează obligațiile de protecție. Principala vulnerabilitate este aplicarea administrativă, iar documentația incompletă nu permite certificarea întregii ordonanțe.",
+      "initiatorClaim": "Guvernul urmărește protejarea bunurilor culturale în timpul utilizării, transportului și expozițiilor, inclusiv în străinătate. Invocă necesitatea unor contracte adaptate patrimoniului și a unor proceduri mai clare pentru export.",
+      "realityCheck": "Legea aprobă integral OG nr. 4/2026, cu o singură modificare senatorială de terminologie la art. 23 alin. (4), fără schimbarea evidentă a sferei bunurilor eligibile. Contractele obligatorii, procedura certificatelor și asigurarea exporturilor publice clasate sunt deja în vigoare potrivit ordonanței reproduse, astfel că aprobarea nu le introduce pentru prima dată. Aceste reguli presupun costuri administrative și de asigurare, iar aprobarea prin hotărâre a Guvernului este condiționată de participarea mai multor autorități centrale, fără dispariția celorlalte controale.",
       "affectedGroups": [
         "IMM & Antreprenori",
-        "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 23 alin. (4) permite folosirea instrumentelor muzicale și a bunurilor tehnice clasate în proiecte culturale; alin. (5), păstrat prin aprobarea ordonanței, impune clauze despre pază, protecție, asigurare, mediu și răspundere. Excepția nu înlătură celelalte obligații legale de conservare. [Legea nr. 182/2000](https://legislatie.just.ro/Public/DetaliiDocument/100088)",
-        "Art. 37 alin. (6)-(7) cere depunerea documentației cu minimum 45 de zile înaintea deplasării și prevede emiterea certificatului în maximum 30 de zile de la documentația completă. Completările dosarului pot afecta calendarul; textul nu oferă o procedură accelerată. [OG nr. 4/2026](https://legislatie.just.ro/Public/DetaliiDocumentAfis/306797)",
-        "Art. 38 alin. (1) condiționează exportul temporar al bunurilor clasate vizate, aflate în proprietatea statului sau a autorităților locale și administrarea instituțiilor publice, de asigurarea pentru toate riscurile, inclusiv minimum cinci zile după revenire. Protecția suplimentară implică prime de asigurare, fără un cost bugetar determinabil din extras. [Legea nr. 182/2000](https://legislatie.just.ro/Public/DetaliiDocument/100088)",
-        "Art. 34 alin. (4) păstrează formula absolută privind înlăturarea oricărui risc și enumeră forme de răspundere. Formula exista și anterior; contractul nu poate crea singur infracțiuni sau contravenții. [Forma anterioară](https://legislatie.just.ro/Public/DetaliiDocument/278583)"
+        "Articolul unic aprobă ordonanța în ansamblu: analiza efectelor nu se poate limita la fraza modificată de Senat. Textul integral al art. 38 și dispozițiile finale ale ordonanței nu sunt însă reproduse în documentația normativă furnizată.",
+        "Art. I pct. 1, art. 23 alin. (4): față de OG în vigoare, Senatul înlocuiește «bunurilor mobile clasate» cu «bunurilor culturale mobile clasate» și «bunuri culturale de importanță tehnică» cu «bunuri de importanță tehnică». Trimiterea la art. 3 alin. (2) pct. 5 rămâne; nu rezultă o extindere materială evidentă.",
+        "Excepția din art. 23 alin. (4) privește utilizarea instrumentelor muzicale și a bunurilor tehnice clasate în proiecte culturale. Nu autorizează utilizarea oricărui bun clasat și nu înlătură prin ea însăși normele de conservare sau limitele drepturilor reale.",
+        "Art. 23 alin. (5), deja introdus prin OG, impune clauze privind paza, protecția, asigurarea, mediul și răspunderea. Contractul nu reprezintă o derogare generală de la obligațiile legale de protejare a patrimoniului.",
+        "Art. 34^1 alin. (1): hotărârea Guvernului este cerută pentru proiectele internaționale ale muzeelor subordonate Ministerului Culturii atunci când participă, pe lângă muzee, mai multe autorități centrale. Criteriul urmărește coordonarea instituțională, fără a fi el însuși un prag bazat pe valoarea sau vulnerabilitatea bunurilor; certificatele și aprobările de export rămân aplicabile.",
+        "Art. 37 alin. (6)-(7): cererea trebuie depusă cu minimum 45 de zile înaintea deplasării, iar certificatul se eliberează în maximum 30 de zile de la documentația completă. Articolul reprodus nu stabilește un termen pentru comunicarea lipsurilor dosarului, ceea ce poate produce întârzieri; eventualele reguli existente în normele metodologice trebuie verificate.",
+        "Art. 38 alin. (1): bunurile clasate ale statului sau unităților administrativ-teritoriale, administrate de instituții publice, pot fi exportate numai temporar, pentru scopurile enumerate, cu asigurare pentru toate riscurile, inclusiv minimum cinci zile după revenire. Art. 38 alin. (4) exclude exportul definitiv al bunurilor neclasate aflate în proprietate publică.",
+        "Art. 34 alin. (4) enumeră forme de răspundere, inclusiv penală, dar nu definește singur o infracțiune sau o pedeapsă nouă. Art. 37 alin. (8) califică exportul fără certificat și nerevenirea la termen drept export ilegal; sancționarea trebuie corelată cu dispozițiile aplicabile, nereproduse integral.",
+        "Contractele, expertizarea, documentația și polițele pot genera costuri pentru muzee, proprietari și operatori culturali. Mențiunea «Nu este cazul» din fundamentarea impactului nu demonstrează absența acestor costuri, dar textul disponibil nu introduce o taxă nouă sau un monopol comercial."
       ],
-      "blindSpotsCaught": "Art. 37 alin. (8) include explicit nerevenirea bunurilor la expirarea exportului temporar în noțiunea de export ilegal, utilizată de infracțiunea existentă la art. 83. Nerevenirea era deja relevantă pentru recuperarea bunurilor, dar noua corelare poate avea efect penal: acesta este un risc juridic distinct de simpla protecție contractuală, fără să însemne condamnare automată pentru orice întârziere. [Ordonanța](https://legislatie.just.ro/Public/DetaliiDocumentAfis/306797), [legea și art. 83](https://legislatie.just.ro/Public/DetaliiDocument/100088)",
-      "constitutionalityNote": "Protejarea patrimoniului susține obligația statului prevăzută de art. 33 alin. (3). Pentru art. 1 alin. (5), obligațiile contractuale sunt în general identificabile, însă formula privind eliminarea oricărui risc merită precizată. Art. 23 alin. (12) impune ca răspunderea penală să rezulte din lege, cu toate condițiile acesteia. Dacă art. 37 alin. (8) extinde sfera infracțiunii de la art. 83, trebuie verificată rezerva legii organice: art. 73 alin. (3) lit. h), art. 76 alin. (1) și interdicția reglementării acestui domeniu prin ordonanță simplă, conform art. 115 alin. (1). Este o vulnerabilitate de analizat, nu o neconstituționalitate deja constatată. [Constituția, drepturi fundamentale](https://www.cdep.ro/pls/dic/site.page?den=act2_1&par1=2)",
-      "euLawNote": "Nu identific un monopol nou sau privilegii pentru operatori nominalizați. Directiva 2018/958 privește profesiile reglementate: art. 28 alin. (1) păstrează acreditarea existentă, dar adaugă obligații contractuale, a căror proporționalitate trebuie verificată dacă reprezintă condiții de exercitare în sensul directivei; extrasul nu dovedește efectuarea sau omiterea evaluării. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018L0958) TRIS nu este incident pe componenta digitală/AI, absentă aici; nici clauzele generale analizate nu indică singure o specificație tehnică notificabilă pentru produse. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1591780802624&uri=CELEX%3A32015L1535) Protejarea patrimoniului poate justifica restricții de circulație, cu respectarea necesității și proporționalității. [Directiva 2014/60, considerentele 2-3](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014L0060)",
+      "blindSpotsCaught": "Aprobarea unei ordonanțe deja aplicabile nu repornește automat termenele acesteia. Expunerea de motive menționează păstrarea regulilor vechi pentru cererile în curs și modificarea normelor în 60 de zile, dar aceste explicații nu înlocuiesc articolele normative finale, care lipsesc din extras. Nici eliminarea autentificării notariale, prezentată ca obiectiv pentru normele metodologice, nu poate fi tratată numai pe această bază ca efect normativ direct al legii. Verificarea online a surselor nu a fost disponibilă.",
+      "constitutionalityNote": "În dispozițiile reproduse nu identific o încălcare constituțională evidentă. Protejarea și valorificarea patrimoniului corespund art. 33 alin. (3), cu respectarea proprietății și a regimului bunurilor publice, potrivit art. 44 și 136. Art. 1 alin. (5) justifică precizarea procedurii de completare a dosarelor și a criteriului «mai multe autorități», fără ca aceste aspecte să determine automat neconstituționalitatea. Art. 23 alin. (12) impune un temei legal precis pentru pedepse: contractele și enumerarea formelor de răspundere nu pot crea infracțiuni sau pedepse. Modificarea punctuală a patrimoniului mobil nu dovedește, singură, intervenția în regimul general al proprietății rezervat legii organice; verificarea completă a delegării legislative necesită și legea de abilitare.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor noi sau modificate asupra profesiilor reglementate; contractele și certificatele pentru patrimoniu nu declanșează automat acest test. Art. 28 menține cerințe de acreditare și autorizare, fără ca extrasul să demonstreze introducerea unor noi bariere profesionale. Nu sunt reglementate servicii digitale sau AI și nu rezultă o obligație evidentă de notificare TRIS potrivit Directivei (UE) 2015/1535, care privește și anumite reguli tehnice pentru produse. Restricțiile asupra circulației bunurilor culturale trebuie corelate cu art. 36 TFUE și cu regimul european al exportului și restituirii: protecția patrimoniului poate justifica restricții proporționale, aplicate fără discriminare. Nu rezultă un avantaj exclusiv acordat unui operator.",
       "senatForm": {
-        "articleRef": "OG nr. 4/2026, art. I pct. 6: art. 37 alin. (8)",
-        "proposalContent": "(8) Exportul temporar sau definitiv, pe orice cale, al bunurilor culturale mobile pentru care nu s-a obținut certificatul de export eliberat în condițiile legii constituie operațiune de export ilegal.",
-        "argumentation": "Se elimină includerea nerevenirii bunurilor în definiția care completează infracțiunea de la art. 83. O eventuală extindere a incriminării trebuie reglementată explicit prin lege organică, cu respectarea art. 73 alin. (3) lit. h) și art. 115 alin. (1) din Constituție.",
-        "otherComments": "Obligația revenirii bunurilor și mecanismele de recuperare rămân aplicabile. Propunere adresată comisiei Camerei Deputaților la PL-x 114/2026. Termenul indicat, 12.03.2026, este depășit; e-mailul cetățeanului nu echivalează cu un amendament parlamentar."
-      }
+        "articleRef": "Art. I pct. 6 – art. 37, nou alin. (7^1)",
+        "proposalContent": "(7^1) Autoritatea competentă verifică documentația și comunică solicitantului, în cel mult 10 zile de la înregistrarea cererii, toate lipsurile identificabile la această verificare și temeiul legal al documentelor solicitate. Solicitările ulterioare de completare se motivează distinct.",
+        "argumentation": "Termenul de 30 de zile curge numai de la depunerea documentației complete. Un termen pentru comunicarea lipsurilor reduce întârzierile și solicitările succesive nejustificate, fără diminuarea verificărilor necesare protejării patrimoniului.",
+        "otherComments": "Propunere pentru comisia de cultură a Camerei Deputaților, de preluat de un deputat. Se va corela cu normele metodologice existente. Nu instituie aprobare tacită și nu modifică obligația depunerii cererii cu minimum 45 de zile înaintea exportului."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T00:15:20.903Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:12:48.599Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

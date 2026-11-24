@@ -1,23 +1,23 @@
 {
   "billId": "PL-x 202/2026",
   "slug": "plx-202-2026",
-  "version": "camera",
-  "updatedAt": "2026-11-24T10:04:26.149Z",
+  "version": "senat",
+  "updatedAt": "2026-11-24T15:14:36.288Z",
   "coverage": {
     "method": "whole-text-v1",
-    "form": "camera",
-    "billChars": 1640,
+    "form": "senat",
+    "billChars": 43109,
     "ordinanceChars": 0,
     "memoChars": 14141,
     "memoSupplied": 14141,
-    "marker": "SF-9DC40AFD"
+    "marker": "SF-EBDB7612"
   },
   "baseline": {
     "method": "baseline-v2",
-    "file": "data/baseline/versions/plx-202-2026/camera.json",
-    "form": "camera",
-    "textHash": "9dc40afdaefe0423",
-    "fetchedAt": "2026-11-24T10:03:17.083Z",
+    "file": "data/baseline/plx-202-2026.json",
+    "form": "senat",
+    "textHash": "ebdb76121bf4c09d",
+    "fetchedAt": "2026-11-19T10:36:03.126Z",
     "acts": 0,
     "actsFound": 0,
     "actsRepealed": 0,
@@ -31,116 +31,161 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 2.3,
+    "riskScore": 2,
     "riskLevel": "green",
-    "plainTitle": "România cumpără mai multe acțiuni la Banca Mării Negre: 115 mil. EUR subscriși, 34,6 mil. EUR plătiți în 8 ani",
-    "summaryTlDr": "Este o lege tehnică de politică financiară externă, cu calculele corecte și sursa de finanțare indicată. Are slăbiciuni de transparență bugetară, nu capcane: tabelul financiar e gol, iar capitalul apelabil de 80,7 mil. EUR nu apare nicăieri în lege.",
-    "initiatorClaim": "Guvernul vrea să confirme subscrierea suplimentară obținută de România la a doua majorare de capital a BCDMN. Scopul declarat este menținerea puterii de vot, a poziției în conducere și a ratingului investment grade al Băncii, într-un context regional marcat de războiul din Ucraina.",
-    "realityCheck": "Art. 1 aprobă 100.256 acțiuni noi (de la 280.000 la 380.256), în valoare de 115.294.400 EUR. Art. 2 obligă bugetul de stat, prin MF, să plătească 30% (34.588.320 EUR) în 8 tranșe anuale de 4.323.540 EUR, din 2027. Restul de 70% (80.706.080 EUR) este capital apelabil: o obligație contingentă care poate fi cerută statului în caz de criză a Băncii, nemenționată în lege și necuantificată în fișa financiară. Riscul valutar (plăți în EUR, buget în lei) nu este evaluat.",
+    "plainTitle": "România mai pune 115 milioane de euro în capitalul Băncii Mării Negre, din care plătește efectiv 34,6 milioane în 8 ani",
+    "summaryTlDr": "Lege tehnică, de finanțe internaționale, cu calcule corecte și sursă de finanțare indicată. Nu creează obligații pentru cetățeni sau firme. Problemele sunt de redactare: anexa conține erori de cifre și o traducere degradată, iar legea nu pomenește capitalul apelabil de circa 80,7 milioane EUR.",
+    "initiatorClaim": "Guvernul spune că participarea la a doua majorare de capital a BCDMN păstrează puterea de vot a României și reprezentarea ei în conducerea băncii. Mai susține că aceasta sprijină ratingul investment grade al băncii și întărește influența regională a României, inclusiv în contextul războiului din Ucraina.",
+    "realityCheck": "Legea aprobă subscrierea a 100.256 de acțiuni, cu valoare nominală de 1.150 EUR fiecare, adică 115.294.400 EUR (Art. 1). Doar 30% se varsă efectiv, adică 34.588.320 EUR, în opt tranșe anuale de câte 4.323.540 EUR din 2027, din bugetul Ministerului Finanțelor (Art. 2). Restul de 70%, adică 80.705.280 EUR, este capital apelabil: o obligație contingentă a statului pe care legea nu o menționează, deși banca o poate solicita în situații de criză. Deși România a cerut 167.744 de acțiuni, a primit doar 100.256 prin alocarea pro-rata, iar cota ei crește marginal, de la 14,07% la 14,08%.",
     "affectedGroups": [
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 2 (completare cu alin. (2) și (3))",
-      "proposalContent": "(2) Plata se poate efectua prin bilete la ordin necondiționate, nepurtătoare de dobândă, emise de Ministerul Finanțelor până la 31.12.2026. (3) Ministerul Finanțelor informează anual comisiile pentru buget asupra plăților efectuate și asupra capitalului apelabil de 80.706.080 EUR, ca angajament contingent.",
-      "argumentation": "Rezoluția 220 cere dovada biletului la ordin sau a plății până la 31.12.2026. Legea nu menționează instrumentul, deși EM confirmă că România l-a folosit mereu. Capitalul apelabil (70%) este o obligație potențială a bugetului, omisă din lege și din fișa financiară. Precizarea sporește previzibilitatea (art. 1 alin. 5 Constituție).",
-      "otherComments": "Corectură în Art. 2: «successive» devine «succesive». Recomand promulgarea rapidă: termenul din Rezoluție (31.12.2026) este apropiat, iar ratarea lui amână transferul acțiunilor și al drepturilor de vot. Anexa (Rezoluția 220) trebuie publicată în traducere oficială în Monitorul Oficial."
+      "articleRef": "Art. 2 – alineat nou (2)",
+      "proposalContent": "(2) Pentru plata prevăzută la alin. (1), Ministerul Finanțelor emite, până la 31 decembrie 2026, bilete la ordin necondiționate, irevocabile și nepurtătoare de dobândă în favoarea BCDMN, încasabile în opt tranșe anuale egale. Partea nevărsată a capitalului subscris, de 80.705.280 EUR, se evidențiază ca obligație contingentă a statului.",
+      "argumentation": "Rezoluția 220 cere dovada plății (bilet la ordin sau numerar) până la 31.12.2026, altfel acțiunile și drepturile de vot nu se transferă. Legea nu numește instrumentul, nici emitentul, și tace despre capitalul apelabil de 80,7 mil. EUR. Precizarea sporește previzibilitatea (art. 1 alin. 5 din Constituție) și transparența bugetară.",
+      "otherComments": "Anexa conține erori: Grecia 447.774 în loc de 447.744 acțiuni; Bulgaria 321.286.400 EUR în loc de 421.286.400 EUR. Traducerea are pasaje ilizibile și redă «Management» prin «Consiliul». Recomand o traducere autorizată curată a anexei înainte de publicarea în Monitorul Oficial și corectarea typo-urilor din lege (integranță, successive)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
       "modelId": "gemini-4-neon-high",
-      "durationMs": 48608,
-      "sourceEndMarker": "SF-9DC40AFD",
+      "durationMs": 53048,
+      "sourceEndMarker": "SF-EBDB7612",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "România participă cu 34,6 milioane euro la majorarea de capital a Băncii Mării Negre",
-      "verdictShort": "Este o lege tehnică, benignă și de rutină financiar-diplomatică, fără impact negativ direct asupra cetățenilor sau mediului de afaceri. Principalele neajunsuri țin strict de transparența bugetară (tabelul financiar gol din expunerea de motive) și de omiterea din corpul legii a mecanismului biletului la ordin și a angajamentului de capital apelabil.",
-      "initiatorClaim": "Guvernul susține că participarea la majorarea de capital a Băncii pentru Comerț și Dezvoltare a Mării Negre (BCDMN) crește influența și puterea de vot a României, sprijină „europenizarea” instituției și menține ratingul „investment grade” necesar băncii pentru a finanța proiecte în statele membre.",
-      "realityCheck": "Legea aprobă subscrierea a 100.256 de acțiuni noi în valoare nominală de 115,29 milioane EUR (Art. 1), dintre care România va plăti efectiv 30% (34,59 milioane EUR) în opt tranșe anuale egale de câte 4,32 milioane EUR din bugetul Ministerului Finanțelor, începând cu 2027 (Art. 2). Restul de 70% (80,71 milioane EUR) reprezintă capital apelabil (o garanție contingentă a statului), iar deși operațiunea nu mărește deficitul bugetar conform metodologiei ESA, ea crește anual necesarul de finanțare în numerar al statului.",
+      "plainTitle": "România participă cu 34,6 mil. euro la majorarea capitalului Băncii Mării Negre",
+      "verdictShort": "Este o lege tehnică, de rutină diplomatică și financiară, fără capcane pentru cetățeni sau firme. Singurele puncte care merită clarificate țin de emiterea biletului la ordin, evidențierea capitalului apelabil și completarea fișei financiare.",
+      "initiatorClaim": "Guvernul susține că participarea României la a doua majorare de capital a Băncii pentru Comerț și Dezvoltare a Mării Negre (BCDMN) îi menține cota de vot, crește profilul regional și ajută banca să își păstreze ratingul „investment grade” pentru a finanța proiecte în statele membre.",
+      "realityCheck": "Legea aprobă subscrierea a 100.256 de acțiuni noi (115,29 mil. EUR), urcând participația României de la 14,07% la 14,08% (380.256 acțiuni, la egalitate cu Ucraina). Concret, de la bugetul de stat se vor plăti efectiv 34,59 mil. EUR (30% capital vărsat) în 8 tranșe egale de 4,32 mil. EUR/an între 2027 și 2034, în timp ce restul de 80,71 mil. EUR (70%) rămâne capital apelabil (angajament contingent) nemenționat expres în articolele legii.",
       "affectedGroups": [
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 1 aprobă majorarea capitalului României la BCDMN cu 100.256 de acțiuni (115.294.400 EUR), incluzând o suprasubscriere preluată din cota Albaniei, ceea ce duce România la 380.256 de acțiuni (la egalitate cu Ucraina).",
-        "Art. 2 stabilește plata efectivă a capitalului vărsat de 34.588.320 EUR (30%) în 8 rate anuale egale de 4.323.540 EUR începând cu 2027, suportate de la bugetul de stat prin bugetul Ministerului Finanțelor.",
-        "Art. 1 face trimitere la Anexa conținând Rezoluția nr. 220 a Consiliului Guvernatorilor ca parte integrantă din lege, însă aceasta nu apare în extrasul textului adoptat, iar modalitatea concretă a biletului la ordin (cu termen 31 decembrie 2026) apare doar în Expunerea de motive.",
-        "Secțiunea a 4-a a Expunerii de motive lasă complet necompletat tabelul de impact financiar pe 5 ani, invocând natura financiară a injecției de capital în metodologia ESA."
+        "Art. 1 și Art. 2 aprobă subscrierea a 100.256 de acțiuni (115.294.400 EUR) și plata capitalului vărsat (34.588.320 EUR) în 8 tranșe anuale de 4.323.540 EUR începând cu 2027, prin bugetul Ministerului Finanțelor; impactul bugetar anual este redus (~4,32 mil. EUR/an).",
+        "Conform Anexei (Rezoluția nr. 220, pct. II.b.(iv) și (v).(3)), pentru a beneficia de plata eșalonată și de transferul acțiunilor la 1 ianuarie 2027, statul trebuie să depună un bilet la ordin până la 31 decembrie 2026, însă Art. 2 nu menționează expres autorizarea emiterii acestui instrument.",
+        "Diferența de 70% din capitalul subscris (80.706.080 EUR) reprezintă capital apelabil (obligație contingentă în caz de criză majoră a băncii), menționat în Expunerea de motive, dar omis din textul normativ al Art. 2.",
+        "În Expunerea de motive, Secțiunea 4 (Impactul financiar) lasă tabelul de indicatori bugetari complet gol, deși plățile anuale pe 2027–2030 sunt cunoscute exact, iar în textul adoptat de Senat apar scăpări de redactare („parte integranță”, „successive”) și mici erori preluate din anexă (ex. valoarea acțiunilor Bulgariei / numărul de acțiuni ale Greciei în listă vs. tabel)."
       ],
-      "blindSpotsCaught": "Trei detalii subtile merită atenție: (1) Expunerea de motive dezvăluie că Federația Rusă rămâne acționar majoritar la egalitate cu Grecia și Turcia (447.774 acțiuni fiecare), alocarea acțiunilor către Rusia realizându-se în baza unei derogări de la sancțiuni emise de autoritatea competentă din Grecia; (2) corpul legii nu menționează explicit tratamentul bugetar al celor 70% capital apelabil (80,7 mil. EUR), deși reprezintă o obligație contingentă a statului; (3) la Art. 2 există o eroare de redactare minoră („successive”), iar fișa financiară prevăzută de Legea nr. 500/2002 lipsește din tabelul Secțiunii a 4-a.",
-      "constitutionalityNote": "Legea este adoptată ca lege ordinară conform art. 76 alin. (2) din Constituție și respectă cerința art. 138 alin. (5) privind indicarea sursei de finanțare (bugetul de stat, prin bugetul Ministerului Finanțelor). Din perspectiva art. 1 alin. (5) (calitatea și previzibilitatea legii), este esențial ca Anexa cu Rezoluția nr. 220 să fie publicată integral în Monitorul Oficial odată cu legea, întrucât modalitățile de plată și condițiile capitalului apelabil depind de aceasta.",
-      "euLawNote": "Proiectul nu reglementează profesii reglementate (Directiva (UE) 2018/958 nu este aplicabilă) și nici servicii digitale sau reglementări tehnice (Directiva (UE) 2015/1535 TRIS nu este aplicabilă), fără a distorsiona piața unică. Din perspectiva dreptului UE sunt relevante două aspecte tehnice: clasificarea statistică conform SEC/ESA 2010 (injecție de capital fără impact pe deficitul ESA, dar cu impact pe cash) și conformitatea cu regimul sancțiunilor UE față de Federația Rusă, gestionată potrivit inițiatorului prin derogarea acordată de autoritatea elenă.",
+      "blindSpotsCaught": "Anexa (Rezoluția nr. 220) arată că la aceeași majorare de capital participă și Federația Rusă (117.744 acțiuni noi, păstrându-și cota maximă de 16,58%), în baza unei derogări primite la 10 ianuarie 2024 de la autoritatea competentă din Grecia (stat membru UE) privind regimul sancțiunilor. De asemenea, neemiterea biletului la ordin până la termenul-limită din 31 decembrie 2026 ar bloca transferul acțiunilor și drepturilor de vot la 1 ianuarie 2027.",
+      "constitutionalityNote": "Proiectul este în general conform cu Constituția României și a fost adoptat corect ca lege ordinară (art. 76 alin. 2). Sursa de finanțare este indicată prin bugetul Ministerului Finanțelor începând cu 2027 (respectând formal art. 138 alin. 5 pentru exerciții viitoare), dar lipsa tabelului financiar completat din Expunerea de motive și omiterea menționării exprese a biletului la ordin și a capitalului apelabil slăbesc ușor claritatea și previzibilitatea cerute de art. 1 alin. 5.",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și nici a Directivei (UE) 2015/1535 (TRIS), nu afectează piața unică și nu instituie bariere concurențiale. Singurul punct sensibil față de dreptul UE privește regimul sancțiunilor împotriva Federației Ruse, pentru care BCDMN indică obținerea unei derogări din partea autorității competente UE la 10 ianuarie 2024; executivul trebuie să se asigure că această derogare rămâne valabilă pe durata plăților.",
       "senatForm": {
         "articleRef": "Art. 2",
-        "proposalContent": "La Art. 2 se corectează „successive” în „succesive” și se adaugă un alineat nou: „(2) Ministerul Finanțelor emite biletul la ordin pentru capitalul vărsat până la 31 decembrie 2026, conform Rezoluției nr. 220, iar eventuala apelare a cotei de 70% din capitalul subscris (80.706.080 EUR) se aprobă prin lege bugetară.”",
-        "argumentation": "Expunerea de motive menționează plata prin bilet la ordin până la 31 decembrie 2026 și un capital apelabil de 70% (80,7 mil. EUR), însă corpul legii omite aceste reguli. Clarificarea lor asigură previzibilitatea actului normativ (art. 1 alin. 5 din Constituție) și controlul parlamentar asupra angajamentelor contingente ale statului.",
-        "otherComments": "Solicit publicarea integrală a Anexei (Rezoluția nr. 220) odată cu legea și completarea Secțiunii a 4-a din Expunerea de motive cu cifrele exacte ale impactului asupra fluxurilor de numerar și fișa financiară, conform art. 15 din Legea nr. 500/2002. Proiectul este util ca oportunitate, dar necesită transparență bugetară deplină."
+        "proposalContent": "Se completează Art. 2: Ministerul Finanțelor este autorizat să emită biletul la ordin până la 31 decembrie 2026 pentru 34.588.320 EUR (8 tranșe egale de 4.323.540 EUR din 2027), menționându-se expres și capitalul apelabil de 80.706.080 EUR (70%). Se corectează erorile «integranță» și «successive».",
+        "argumentation": "Rezoluția nr. 220 condiționează plata eșalonată și transferul acțiunilor la 1.01.2027 de depunerea biletului la ordin până la 31.12.2026. Autorizarea explicită în lege a emiterii biletului la ordin și menționarea capitalului apelabil (70%) cresc claritatea normei (art. 1 alin. 5 din Constituție) și transparența fiscală.",
+        "otherComments": "Proiectul este tehnic și benign, dar tabelul de impact bugetar din Expunerea de motive (Secțiunea 4) a rămas gol. Recomandăm completarea fișei financiare (art. 15 Legea nr. 500/2002) și verificarea menținerii derogării UE privind sancțiunile, având în vedere participarea Federației Ruse la aceeași majorare."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 40290,
-      "sourceEndMarker": "SF-9DC40AFD",
+      "durationMs": 45437,
+      "sourceEndMarker": "SF-EBDB7612",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "România cumpără mai multe acțiuni la Banca Mării Negre: 115 mil. EUR subscriși, 34,6 mil. EUR plătiți în 8 ani",
-      "verdictShort": "Este o lege tehnică de politică financiară externă, cu calculele corecte și sursa de finanțare indicată. Are slăbiciuni de transparență bugetară, nu capcane: tabelul financiar e gol, iar capitalul apelabil de 80,7 mil. EUR nu apare nicăieri în lege.",
-      "initiatorClaim": "Guvernul vrea să confirme subscrierea suplimentară obținută de România la a doua majorare de capital a BCDMN. Scopul declarat este menținerea puterii de vot, a poziției în conducere și a ratingului investment grade al Băncii, într-un context regional marcat de războiul din Ucraina.",
-      "realityCheck": "Art. 1 aprobă 100.256 acțiuni noi (de la 280.000 la 380.256), în valoare de 115.294.400 EUR. Art. 2 obligă bugetul de stat, prin MF, să plătească 30% (34.588.320 EUR) în 8 tranșe anuale de 4.323.540 EUR, din 2027. Restul de 70% (80.706.080 EUR) este capital apelabil: o obligație contingentă care poate fi cerută statului în caz de criză a Băncii, nemenționată în lege și necuantificată în fișa financiară. Riscul valutar (plăți în EUR, buget în lei) nu este evaluat.",
+      "plainTitle": "România mai pune 115 milioane de euro în capitalul Băncii Mării Negre, din care plătește efectiv 34,6 milioane în 8 ani",
+      "verdictShort": "Lege tehnică, de finanțe internaționale, cu calcule corecte și sursă de finanțare indicată. Nu creează obligații pentru cetățeni sau firme. Problemele sunt de redactare: anexa conține erori de cifre și o traducere degradată, iar legea nu pomenește capitalul apelabil de circa 80,7 milioane EUR.",
+      "initiatorClaim": "Guvernul spune că participarea la a doua majorare de capital a BCDMN păstrează puterea de vot a României și reprezentarea ei în conducerea băncii. Mai susține că aceasta sprijină ratingul investment grade al băncii și întărește influența regională a României, inclusiv în contextul războiului din Ucraina.",
+      "realityCheck": "Legea aprobă subscrierea a 100.256 de acțiuni, cu valoare nominală de 1.150 EUR fiecare, adică 115.294.400 EUR (Art. 1). Doar 30% se varsă efectiv, adică 34.588.320 EUR, în opt tranșe anuale de câte 4.323.540 EUR din 2027, din bugetul Ministerului Finanțelor (Art. 2). Restul de 70%, adică 80.705.280 EUR, este capital apelabil: o obligație contingentă a statului pe care legea nu o menționează, deși banca o poate solicita în situații de criză. Deși România a cerut 167.744 de acțiuni, a primit doar 100.256 prin alocarea pro-rata, iar cota ei crește marginal, de la 14,07% la 14,08%.",
       "affectedGroups": [
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Aritmetica este corectă: 100.256 × 1.150 EUR = 115.294.400 EUR; 30% = 34.588.320 EUR; împărțit la 8 = 4.323.540 EUR/an (Art. 1–2).",
-        "Capitalul apelabil (70%, adică 80.706.080 EUR) nu este menționat în lege și nici în Secțiunea 4 a EM. Este o datorie potențială a statului, ascunsă de formularea «capitalul vărsat».",
-        "Tabelul de impact bugetar (Secțiunea 4) este complet gol, deși din 2027 apare o cheltuială certă de aproximativ 21–22 mil. lei/an. EM invocă doar neutralitatea ESA (operațiune financiară, fără impact pe deficit), dar recunoaște creșterea necesarului de finanțare.",
-        "Legea nu precizează instrumentul de plată (bilet la ordin sau numerar), deși Rezoluția 220 condiționează transferul acțiunilor și al drepturilor de vot de dovada emiterii biletului sau a plății până la 31.12.2026.",
-        "Eroare de redactare în Art. 2: «successive» în loc de «succesive». Anexa (Rezoluția 220) nu este inclusă în textul extras analizat."
+        "Art. 1 și Art. 2: calculele se verifică (100.256 × 1.150 = 115.294.400 EUR; 30% = 34.588.320 EUR; 34.588.320 / 8 = 4.323.540 EUR). Sursa de finanțare este indicată expres, ceea ce respectă art. 138 alin. (5) din Constituție.",
+        "Art. 2 nu precizează instrumentul de plată. Rezoluția 220 cere ca dovada plății (bilet la ordin sau numerar) să ajungă la bancă până la 31.12.2026, altfel acțiunile și drepturile de vot nu se transferă. Legea nu numește autoritatea emitentă a biletelor la ordin și nu reia acest termen.",
+        "Capitalul apelabil (70%, circa 80,7 milioane EUR) nu apare nici în lege, nici în fișa financiară. Tabelul de impact bugetar din Secțiunea 4 a Expunerii de motive este necompletat, deși se invocă art. 15 din Legea 500/2002.",
+        "Anexa, care face parte integrantă din lege, conține erori din original: Grecia figurează cu 447.774 acțiuni în loc de 447.744, iar valoarea Bulgariei apare ca 321.286.400 EUR în loc de 421.286.400 EUR. Expunerea de motive repetă greșit 447.774 și pentru Rusia și Turcia.",
+        "Traducerea română a anexei are pasaje ilizibile, cu artefacte OCR și ordinea listelor amestecată. «Management» și «Boards» sunt redate amândouă prin «Consiliul», ceea ce face confuză repartizarea atribuțiilor în textul oficial."
       ],
-      "blindSpotsCaught": "Calendarul este strâns. Camera a adoptat legea pe 18.11.2026, iar Rezoluția 220 cere dovada plății sau a biletului la ordin până la 31.12.2026. Orice întârziere la promulgare sau o sesizare la CCR poate amâna transferul acțiunilor și al voturilor. În plus, EM arată că alocarea către Federația Rusă s-a făcut cu o derogare de la sancțiuni acordată de autoritatea elenă. România va fi astfel coacționar cu Rusia, fiecare cu aproximativ 447.774 vs 380.256 acțiuni, ceea ce ridică chestiuni de guvernanță și de reputație, nu de legalitate a plății românești.",
-      "constitutionalityNote": "Nu se identifică vicii de neconstituționalitate. Este o lege ordinară adoptată conform art. 76 alin. (2). Sursa de finanțare este indicată expres (bugetul de stat, prin MF), deci art. 138 alin. (5) este respectat. Inițiatorul este Guvernul, iar avizul Consiliului Legislativ există (nr. 111/2026). Textul este clar și previzibil (art. 1 alin. 5), cu sume și termene exacte. Fișa financiară goală este o deficiență față de art. 15 din Legea 500/2002, dar jurisprudența CCR sancționează mai ales lipsa sursei de finanțare, care aici există.",
-      "euLawNote": "Directiva 2018/958 nu este aplicabilă: legea nu reglementează accesul la profesii. TRIS 2015/1535 nu este aplicabilă: nu există reglementări tehnice sau servicii digitale. Nu există efecte asupra pieței unice ori asupra concurenței și nici ajutor de stat, întrucât este o participare la o instituție financiară internațională. Pe sancțiuni (Reg. UE 833/2014 și 269/2014), plata României către BCDMN nu încalcă regimul de sancțiuni: alocarea către Rusia a fost tratată prin derogarea autorității elene, stat-gazdă al Băncii.",
+      "blindSpotsCaught": "Obligația contingentă de 80,7 milioane EUR (capitalul apelabil) lipsește complet din lege și din fișa financiară. Afirmația că operațiunea nu are impact asupra deficitului conform metodologiei ESA este valabilă doar pentru partea vărsată. Un al doilea punct subtil: transferul acțiunilor și al voturilor depinde de un termen extern, 31.12.2026, pe care legea nu îl reia. Dacă biletele la ordin nu sunt emise la timp, România rămâne cu structura veche a voturilor. Un al treilea: rezoluția alocă acțiuni Federației Ruse în baza unei derogări de la sancțiunile UE, obținută de bancă de la autoritatea elenă, așa că România votează, prin aprobarea anexei, o structură de acționariat care include un stat sancționat. Este licit, dar sensibil politic.",
+      "constitutionalityNote": "Nu identific vicii de neconstituționalitate. Legea este ordinară, inițiată de Guvern, cu Senatul primă cameră și Camera Deputaților cameră decizională (art. 75). Sursa de finanțare este indicată, conform art. 138 alin. (5). Previzibilitatea (art. 1 alin. 5) este ușor afectată de erorile de cifre și de calitatea traducerii anexei, care face parte integrantă din lege. Acestea sunt deficiențe de tehnică legislativă (Legea 24/2000), nu motive de neconstituționalitate. Nu sunt afectate drepturi fundamentale.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este relevantă, pentru că legea nu reglementează profesii. Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu există reguli tehnice sau privind servicii ale societății informaționale. Nu apar probleme de ajutor de stat sau de piață unică: este o participare a statului la o instituție financiară internațională. Singurul punct UE este regimul sancțiunilor față de Rusia (Regulamentul 833/2014). Alocarea către Federația Rusă a fost acoperită de o derogare obținută de bancă la 10.01.2024, deci România nu încalcă dreptul UE prin aprobare.",
       "senatForm": {
-        "articleRef": "Art. 2 (completare cu alin. (2) și (3))",
-        "proposalContent": "(2) Plata se poate efectua prin bilete la ordin necondiționate, nepurtătoare de dobândă, emise de Ministerul Finanțelor până la 31.12.2026. (3) Ministerul Finanțelor informează anual comisiile pentru buget asupra plăților efectuate și asupra capitalului apelabil de 80.706.080 EUR, ca angajament contingent.",
-        "argumentation": "Rezoluția 220 cere dovada biletului la ordin sau a plății până la 31.12.2026. Legea nu menționează instrumentul, deși EM confirmă că România l-a folosit mereu. Capitalul apelabil (70%) este o obligație potențială a bugetului, omisă din lege și din fișa financiară. Precizarea sporește previzibilitatea (art. 1 alin. 5 Constituție).",
-        "otherComments": "Corectură în Art. 2: «successive» devine «succesive». Recomand promulgarea rapidă: termenul din Rezoluție (31.12.2026) este apropiat, iar ratarea lui amână transferul acțiunilor și al drepturilor de vot. Anexa (Rezoluția 220) trebuie publicată în traducere oficială în Monitorul Oficial."
+        "articleRef": "Art. 2 – alineat nou (2)",
+        "proposalContent": "(2) Pentru plata prevăzută la alin. (1), Ministerul Finanțelor emite, până la 31 decembrie 2026, bilete la ordin necondiționate, irevocabile și nepurtătoare de dobândă în favoarea BCDMN, încasabile în opt tranșe anuale egale. Partea nevărsată a capitalului subscris, de 80.705.280 EUR, se evidențiază ca obligație contingentă a statului.",
+        "argumentation": "Rezoluția 220 cere dovada plății (bilet la ordin sau numerar) până la 31.12.2026, altfel acțiunile și drepturile de vot nu se transferă. Legea nu numește instrumentul, nici emitentul, și tace despre capitalul apelabil de 80,7 mil. EUR. Precizarea sporește previzibilitatea (art. 1 alin. 5 din Constituție) și transparența bugetară.",
+        "otherComments": "Anexa conține erori: Grecia 447.774 în loc de 447.744 acțiuni; Bulgaria 321.286.400 EUR în loc de 421.286.400 EUR. Traducerea are pasaje ilizibile și redă «Management» prin «Consiliul». Recomand o traducere autorizată curată a anexei înainte de publicarea în Monitorul Oficial și corectarea typo-urilor din lege (integranță, successive)."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 69059,
-      "sourceEndMarker": "SF-9DC40AFD",
-      "riskScore": 3,
+      "durationMs": 68639,
+      "sourceEndMarker": "SF-EBDB7612",
+      "riskScore": 2,
       "riskLevel": "green",
       "plainTitle": "România își mărește participația la Banca Mării Negre",
-      "verdictShort": "Proiectul este predominant tehnic: aprobă o investiție publică și plăți eșalonate, fără taxe, sancțiuni sau obligații administrative pentru cetățeni și firme. Principalele rezerve privesc capitalul apelabil și condițiile din anexa care nu apare în textul furnizat.",
-      "initiatorClaim": "Guvernul urmărește consolidarea capacității de finanțare a Băncii și menținerea influenței României în deciziile acesteia. Invocă inclusiv susținerea ratingului Băncii și perspective de reprezentare în conducere.",
-      "realityCheck": "Art. 1 aprobă subscrierea a 100.256 de acțiuni, totalizând 115.294.400 EUR; art. 2 stabilește plata efectivă a 34.588.320 EUR în opt tranșe anuale, în perioada 2027–2034, din bugetul Ministerului Finanțelor. Diferența de 80.706.080 EUR reprezintă, potrivit structurii descrise în expunere, capital apelabil, ale cărui condiții nu pot fi verificate fără anexă și acordul Băncii. Creșterea influenței și accesul la funcții de conducere sunt beneficii anticipate, fără garanții în cele două articole.",
+      "verdictShort": "Lege predominant tehnică, cu risc redus: aprobă o investiție publică într-o bancă internațională de dezvoltare, fără taxe sau obligații noi pentru populație și firme. Necesită clarificarea mecanismului biletului la ordin și prezentarea completă a expunerii bugetare.",
+      "initiatorClaim": "Guvernul urmărește întărirea capacității financiare a Băncii și menținerea influenței României în deciziile acesteia. Invocă și perspective de reprezentare mai bună în conducere, fără ca acestea să fie garantate prin proiect.",
+      "realityCheck": "Art. 1 aprobă subscrierea a 100.256 de acțiuni, în valoare de 115.294.400 EUR, iar art. 2 programează vărsarea a 34.588.320 EUR în opt tranșe anuale, în perioada 2027–2034. Diferența de 80.706.080 EUR corespunde componentei apelabile de 70% descrise în expunere, distinctă de plățile anuale certe. Potrivit tabelului anexei, participația României crește de la aproximativ 14,07% la 14,08%, fără atribuirea automată a unei funcții de conducere.",
       "affectedGroups": [
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 2 este coerent aritmetic: opt tranșe de 4.323.540 EUR însumează 34.588.320 EUR, adică 30% din subscriere. Nu instituie taxe, sancțiuni, autorizații sau raportări pentru cetățeni și IMM-uri.",
-        "Art. 1 aprobă întreaga subscriere de 115.294.400 EUR. Componenta de 70%, respectiv 80.706.080 EUR, nu este inclusă în tranșele anuale și reprezintă, conform expunerii, o expunere contingentă; nu trebuie prezentată drept plată imediată sau ignorată.",
-        "Art. 2 identifică sursa bugetară, dar tabelul financiar furnizat nu cuantifică plățile în lei. Afirmația din expunere privind lipsa impactului asupra deficitului și datoriei necesită justificare contabilă: o operațiune financiară poate fi neutră pentru deficitul ESA și totuși necesita numerar ori finanțare prin împrumut."
+        "Art. 2 stabilește o plată anuală de 4.323.540 EUR prin bugetul Ministerului Finanțelor; calculele pentru cele opt tranșe și procentul de 30% sunt corecte.",
+        "Anexa, secțiunea II lit. b) pct. (iv)–(v), condiționează mecanismul eșalonat de furnizarea biletului la ordin până la 31 decembrie 2026. Art. 2 prevede tranșele începând cu 2027, dar nu desemnează expres emitentul instrumentului și obligația transmiterii sale; art. 1 încorporează însă modalitățile din anexă.",
+        "Expunerea bugetară nu se limitează la capitalul vărsat: componenta apelabilă calculată este de 80.706.080 EUR. Aceasta nu trebuie prezentată drept cheltuială anuală certă, dar condițiile eventualei solicitări trebuie explicate prin raportare la acordul constitutiv.",
+        "Afirmația expunerii privind absența impactului asupra datoriei publice este prea categorică: o operațiune financiară poate necesita împrumuturi pentru finanțare. Tabelul financiar furnizat nu cuantifică plățile în lei și nu explică ipotezele valutare.",
+        "Anexa permite plata în moneda națională cu suportarea riscului valutar și a comisioanelor de conversie de către statul participant. Opțiunea concretă trebuie clarificată la implementare.",
+        "Textul nu introduce taxe, sancțiuni, autorizații, monopoluri sau raportări pentru cetățeni și IMM-uri. Secțiunea III a anexei privește deciziile viitoare ale Băncii și nu reprezintă, singură, o autorizare bugetară nelimitată pentru România."
       ],
-      "blindSpotsCaught": "Anexa declarată parte integrantă prin art. 1 nu este inclusă în materialul furnizat; aceasta este o limită a probei, nu dovada că lipsește din dosarul legislativ. Expunerea menționează transmiterea dovezii emiterii biletului la ordin sau a plății până la 31.12.2026, înaintea primei tranșe din 2027; cele două articole nu explicitează emiterea instrumentului, iar anexa ar putea completa mecanismul. Nu există în corpul furnizat alte articole, derogări sau abrogări. Termenul de amendamente precedă adoptarea declarată, astfel încât disponibilitatea actuală a procedurii de amendare trebuie verificată.",
-      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă din cele două articole. Art. 1 alin. (5) impune accesibilitatea și claritatea condițiilor financiare, inclusiv a anexei încorporate; absența acesteia din extras împiedică evaluarea completă. Pentru art. 138 alin. (5), art. 2 indică sursa finanțării, iar lipsurile expunerii financiare nu demonstrează singure încălcarea Constituției. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident: proiectul nu introduce pedepse. Mențiunile procedurale furnizate nu permit singure constatarea unei încălcări a bicameralismului.",
-      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea lor. Nici notificarea TRIS în temeiul Directivei (UE) 2015/1535 nu rezultă necesară, deoarece articolele nu stabilesc reglementări tehnice pentru produse sau servicii ale societății informaționale, inclusiv AI. Nu se instituie monopoluri ori restricții concurențiale pentru IMM-uri; existența ajutorului de stat nu poate fi dedusă doar din participarea la capitalul unei instituții financiare internaționale. Derogarea elenă privind sancțiunile, invocată în expunere, nu este furnizată și nu poate fi tratată ca autorizație generală pentru operațiunile României; verificarea actualizată a acesteia nu a putut fi realizată.",
+      "blindSpotsCaught": "Plățile din 2027 presupun un demers anterior: furnizarea biletului la ordin până la sfârșitul lui 2026, pentru transferul acțiunilor și drepturilor de vot la 1 ianuarie 2027. Există și neconcordanțe numerice în anexă: pentru Bulgaria, 366.336 × 1.150 EUR înseamnă 421.286.400 EUR, nu 321.286.400 EUR; pentru Grecia apar atât 447.744, cât și 447.774 de acțiuni. Trebuie confruntate documentele originale pentru a separa erorile anexei de cele de extragere, fără a le transforma automat în vicii ale obligației României.",
+      "constitutionalityNote": "Nu rezultă din text o neconstituționalitate evidentă. Art. 1 alin. (5) din Constituție justifică o corelare mai explicită între art. 2 și termenul din anexă pentru biletul la ordin. Art. 138 alin. (5) este relevant pentru finanțare: proiectul indică bugetul de stat prin bugetul Ministerului Finanțelor, dar fundamentarea disponibilă nu permite confirmarea integrală a documentării impactului financiar multianual. Art. 23 alin. (12), referitor la legalitatea pedepselor, nu este incident, deoarece nu sunt instituite sancțiuni. Verificarea surselor externe nu a fost disponibilă; evaluarea privește forma furnizată, nu confirmă promulgarea sau conținutul dosarului legislativ complet.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor de acces la profesii reglementate sau de exercitare a acestora; proiectul nu introduce asemenea restricții. Procedura TRIS din Directiva (UE) 2015/1535 nu este incidentă: nu sunt stabilite reglementări tehnice pentru produse ori norme privind servicii ale societății informaționale. Aportul la o bancă internațională nu demonstrează, prin el însuși, existența unui ajutor de stat incompatibil sau a unei restrângeri a concurenței. Mențiunea derogării privind participarea Federației Ruse nu constituie o derogare generală acordată României de la sancțiunile UE; întinderea autorizației nu poate fi verificată din documentele furnizate.",
       "senatForm": {
         "articleRef": "Art. 2",
-        "proposalContent": "Art. 2. – Ministerul Finanțelor emite până la 31 decembrie 2026 biletul la ordin pentru capitalul vărsat de 34.588.320 EUR, conform anexei. Plata se efectuează în opt tranșe anuale egale de 4.323.540 EUR, în perioada 2027–2034. Sumele se asigură anual de la bugetul de stat, prin bugetul Ministerului Finanțelor.",
-        "argumentation": "Explicitarea autorității emitente, a instrumentului și a termenului corelează plata eșalonată cu formalitățile prealabile descrise în expunerea de motive. Precizarea perioadei 2027–2034 face calendarul imediat verificabil. Formularea trebuie confruntată cu condițiile exacte ale anexei.",
-        "otherComments": "Termenul indicat, 30.03.2026, este expirat. Dacă adoptarea de Camera decizională la 18.11.2026 este confirmată, amendarea obișnuită în comisie nu mai este disponibilă în această etapă. Propunerea este condiționată de verificarea anexei integrale și a stadiului procedural."
+        "proposalContent": "Art. 2. Ministerul Finanțelor emite și transmite Băncii, până la 31 decembrie 2026, biletul la ordin pentru capitalul vărsat de 34.588.320 EUR. Plata se face în opt tranșe anuale egale de 4.323.540 EUR, în perioada 2027–2034, din bugetul de stat, prin bugetul Ministerului Finanțelor, conform secțiunii II din anexă.",
+        "argumentation": "Eșalonarea prevăzută de anexă presupune furnizarea biletului la ordin până la 31 decembrie 2026. Desemnarea expresă a emitentului și precizarea termenului corelează articolul cu anexa și permit executarea predictibilă a obligației, fără modificarea valorii subscrise sau a tranșelor.",
+        "otherComments": "Solicitarea privește forma Senatului. Dacă adoptarea finală s-a încheiat, textul poate servi unei inițiative de modificare. Se recomandă verificarea anexei originale și explicarea componentei apelabile de 80.706.080 EUR, distinct de capitalul vărsat."
       },
       "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-19T12:28:41.351Z",
+      "method": "whole-text-v1",
+      "textChars": 43109,
+      "form": "senat",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:14:36.288Z",
+      "reasons": [
+        "model"
+      ]
+    },
+    {
+      "riskScore": 2,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T21:05:58.111Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-19T12:28:41.351Z",
+      "reasons": [
+        "metoda",
+        "model"
+      ],
+      "backfilled": true
+    }
+  ]
 }

@@ -1,23 +1,41 @@
 {
   "billId": "B544/2026",
   "slug": "b544-2026",
-  "updatedAt": "2026-11-19T12:55:04.920Z",
+  "updatedAt": "2026-11-24T15:16:00.956Z",
   "coverage": {
     "method": "whole-text-v1",
+    "form": "initiator",
     "billChars": 15058,
     "ordinanceChars": 0,
     "memoChars": 171417,
     "memoSupplied": 60000,
-    "marker": "SF-4C4F11BA",
-    "form": "initiator"
+    "marker": "SF-4C4F11BA"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/b544-2026.json",
+    "form": "initiator",
+    "textHash": "4c4f11ba41ad5f8e",
+    "fetchedAt": "2026-11-19T09:26:23.789Z",
+    "acts": 2,
+    "actsFound": 2,
+    "actsRepealed": 0,
+    "articlesFound": 15,
+    "articlesShown": 15,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 16880,
+    "truncated": false,
+    "included": true,
+    "key": "697aad99e4d840dc"
   },
   "consensus": {
-    "riskScore": 3.7,
-    "riskLevel": "green",
+    "riskScore": 4,
+    "riskLevel": "yellow",
     "plainTitle": "Deținerea de droguri pentru consum propriu devine amendă, nu dosar penal",
-    "summaryTlDr": "Reforma este coerentă, are susținere în dreptul UE și standardele ONU și ar elibera parchetele de zeci de mii de dosare mărunte. Riscul vine din detalii: legea nu dă niciun criteriu pentru a separa consumul de trafic, iar dispozițiile tranzitorii pentru cei deja condamnați pe art. 3 sunt greu de aplicat.",
-    "initiatorClaim": "Inițiatorii vor ca simplul consumator să fie tratat ca problemă de sănătate publică, nu ca infractor. Vor să descongestioneze DIICOT, instanțele și penitenciarele și să elimine pedepsele de 5-20 de ani pentru cine trece granița cu o doză pentru uz propriu.",
-    "realityCheck": "Art. 4 (cultivare, cumpărare, deținere pentru consum propriu) și noile alin. (3)-(4) ale art. 3 (trecerea frontierei pentru consum propriu) devin contravenții, cu amenzi între 1.000 și 3.500 lei, maximul dublându-se în circumstanțe agravante. Traficul rămâne infracțiune. Încadrarea depinde însă exclusiv de aprecierea probelor de către poliție, fără praguri și fără criterii legale. Separat, se legalizează camere de consum supravegheat în unități sanitare, iar art. III aplică retroactiv dezincriminarea, inclusiv cu eliberări și ștergerea cazierului.",
+    "summaryTlDr": "Este o reformă coerentă, cu tranziție bine gândită: consumul propriu trece din penal în contravențional, iar traficul rămâne neatins. Riscurile reale sunt limitate și țin de aplicare: delimitarea consum/trafic lăsată poliției, lipsa oricărui stimulent pentru tratament și spații de consum supravegheat fără termen și fără finanțare.",
+    "initiatorClaim": "Inițiatorii vor să mute consumul de droguri din sfera justiției penale în cea a sănătății publice. Spun că așa degrevează DIICOT, instanțele și penitenciarele de mii de dosare pe cantități sub 5 grame și elimină pedepsele de 5-20 de ani pentru consumatorul care trece frontiera cu o doză.",
+    "realityCheck": "Art. 4 (cultivare, cumpărare, deținere pentru consum propriu) devine contravenție, cu amendă de 1.000-1.500 lei pentru drogurile de risc și 1.500-3.000 lei pentru cele de mare risc. Introducerea sau scoaterea din țară pentru consum propriu devine contravenție (noul art. 3 alin. 3-4: 1.500-2.000 / 2.000-3.500 lei), iar art. 271 din Codul vamal este exclus pentru aceste fapte. Prin OG 2/2001 se aplică regula achitării a jumătate din minim, deci amenda efectivă poate fi de 500 lei, iar pentru minorii de 14-18 ani limitele se înjumătățesc. Proiectul nu introduce praguri cantitative: delimitarea de trafic rămâne la aprecierea poliției pe probe, ca și azi între art. 2 și art. 4. În plus, se abrogă art. 20, deci dispare legătura dintre urmarea tratamentului și renunțarea la sancțiune.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Sănătate & Educație",
@@ -25,119 +43,144 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 15 – art. 21¹ alin. (3)",
-      "proposalContent": "Se introduce la art. 21¹ alin. (3¹): «Destinația pentru consum propriu se apreciază în raport cu cantitatea, puritatea, modul de ambalare, existența unor bunuri sau sume ce indică distribuirea și circumstanțele faptei. Prin ordin comun MS–MAI se publică orientativ cantitățile uzuale de consum individual, fără valoare de prezumție.»",
-      "argumentation": "Lipsa oricărui criteriu legal de delimitare a consumului propriu de trafic lasă încadrarea (amendă sau ani de închisoare) la aprecierea agentului, contrar art. 1 alin. (5) din Constituție și cerinței de previzibilitate (v. CCR, Dec. 176/2022). Criteriile orientative, fără prezumție automată, asigură practică unitară și nu leagă instanța.",
-      "otherComments": "De corelat: (1) art. III alin. (5): procedura art. 595 CPP nu permite stabilirea ulterioară a destinației consumului pentru condamnații pe art. 3; (2) art. 5 alin. (1): de verificat dacă 2-7 ani modifică limitele actuale; (3) art. 5 alin. (2) lit. b): de eliminat autoreferința «din Legea nr. 143/2000»; (4) ordinul MS nu are termen."
+      "articleRef": "Art. I pct. 13 – art. 19, alin. (6) nou",
+      "proposalContent": "Se introduce alin. (6): «Dacă, până la expirarea termenului de plată, consumatorul face dovada includerii în programul integrat de asistență, executarea amenzii se suspendă. Respectarea programului timp de 6 luni stinge obligația de plată; abandonul nejustificat repune amenda în executare.»",
+      "argumentation": "Art. 20, abrogat, leagă azi tratamentul de renunțarea la pedeapsă. Proiectul păstrează evaluarea, dar elimină orice stimulent: consumatorul plătește amenda chiar dacă urmează tratament. Modelul portughez invocat în expunere se bazează tocmai pe suspendarea sancțiunii la intrarea în tratament. Fără această pârghie, obiectivul de sănătate publică rămâne declarativ.",
+      "otherComments": "Art. 5 alin. (4): ordinul MS nu are termen, deci spațiile supravegheate pot rămâne literă moartă; propunem 90 de zile. Art. III alin. (5): la condamnările vechi pe art. 3, scopul consumului propriu nu a fost cercetat; trebuie precizat cum îl stabilește instanța. Art. 271 C. vamal: excluderea trebuie extinsă și la alin. (2)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 45844,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 154053,
       "sourceEndMarker": "SF-4C4F11BA",
-      "riskScore": 4,
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Deținerea și trecerea frontierei cu droguri pentru consum propriu devin contravenții, nu infracțiuni",
-      "verdictShort": "Proiectul elimină pedepsele cu închisoarea pentru consumul propriu (înlocuite cu amenzi de 1.000–3.500 lei) și permite spații medicale de consum supravegheat, corectând disproporționalități severe ale legii actuale. Riscă însă aplicare arbitrară și contestări constituționale deoarece nu stabilește praguri cantitative ori criterii clare între contravenție și trafic.",
-      "initiatorClaim": "Inițiatorii susțin că abordarea penală actuală blochează DIICOT (77,51% din dosare privesc droguri, majoritatea capturi sub 5 grame), supraaglomerează penitenciarele și împinge consumatorii departe de tratament fără a reduce consumul. Ei propun trecerea la un model de sănătate publică și redirecționarea resurselor către marele trafic.",
-      "realityCheck": "Mecanic, art. 3 alin. (3)-(4), art. 4 și art. 271 alin. (4) din Codul vamal scot deținerea, producerea și trecerea frontierei pentru consum propriu din sfera penală (inclusiv dezincriminare retroactivă fără amenzi prin art. III), iar art. 5 alin. (2)-(3) autorizează camere de consum supravegheat în unități sanitare pentru adulți diagnosticați dependent. Totuși, delimitarea între o amendă și 5–20 de ani de închisoare rămâne integral la aprecierea de la caz la caz a poliției antidrog (art. 21^1 alin. 3), fără praguri legale obiective.",
+      "plainTitle": "Dezincriminarea deținerii de droguri pentru consum propriu și crearea camerelor de consum supravegheat",
+      "verdictShort": "Reforma de fond este legitimă și rezolvă o disproporție gravă de politică penală, dar proiectul are lacune tehnice și procedurale serioase care trebuie corectate înainte de adoptare. Fără criterii clare de delimitare între consum și trafic și fără corecții la normele tranzitorii și protecția minorilor, aplicarea va genera arbitrar și blocaje.",
+      "initiatorClaim": "Inițiatorii susțin că abordarea penală actuală blochează DIICOT cu dosare de cantități infime fără a reduce consumul și propun trecerea la un model de sănătate publică, transformând faptele pentru consum propriu în contravenții și permițând spații medicale de consum supravegheat.",
+      "realityCheck": "Mecanic, proiectul transformă deținerea, cultivarea, prepararea și trecerea frontierei cu droguri pentru consum propriu din infracțiuni (inclusiv pedepse de 5-20 de ani la art. 3) în contravenții sancționate cu amenzi de 1.000-3.500 lei (plătibile la jumătatea minimului în 15 zile sub OG nr. 2/2001) și introduce excepția spațiilor medicale autorizate de DSP. Însă legea nu fixează niciun criteriu obiectiv sau prag între consum propriu și trafic, lasă triajul inițial polițiștilor în procedură contravențională, restrânge neintenționat accesul deținuților la terapie (art. 18) și creează sincope la eliberarea/revizuirea vechilor dosare pe art. 3.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 1–2 și Art. II: Deținerea, cultivarea, producerea (art. 4) și trecerea frontierei (art. 3 alin. 3-4) pentru consum propriu devin contravenții sancționate cu 1.000–3.500 lei (dublul maximului în cazurile de la art. 13 alin. 3) și sunt excluse de la infracțiunea vamală din art. 271 alin. (1) Cod vamal.",
-        "Art. I pct. 3 (art. 5 alin. 2-4): Unitățile sanitare pot amenaja spații autorizate de DSP pentru consum supravegheat destinat exclusiv adulților cu diagnostic de dependență; deținerea în incintă nu este contravenție, dar legea nu protejează traseul de intrare/ieșire din unitate.",
-        "Art. I pct. 13–16 și Art. III: Evaluarea în centrele de adicții devine obligatoriu de dispus pentru minori, dar necesită consimțământ (art. 19); amenzile merg la bugetul de stat pentru prevenire/asistență (art. 23 alin. 8); faptele anterioare se dezincriminează retroactiv fără aplicarea art. 30 alin. (2) OG 2/2001, cu eliberare imediată și radierea din oficiu a cazierului."
+        "Delimitare neclară cu mize uriașe (Art. I pct. 1, 2 și 15 – art. 3 alin. 3-4, art. 4, art. 21^1): diferența dintre o amendă de 1.500-3.500 lei și o pedeapsă de 5-20 ani închisoare (fără suspendare la mare risc) depinde exclusiv de sintagma nedefinită „în vederea consumului propriu”, iar triajul inițial pe „material probator” revine formațiunilor polițienești sub OG nr. 2/2001, fără garanțiile și instrumentele probatorii ale Codului de procedură penală.",
+        "Regres neintenționat la terapia în penitenciare (Art. I pct. 12 – art. 18): în legea în vigoare, instanța poate dispune includerea consumatorului în program terapeutic în penitenciar pentru orice altă infracțiune (ex. furt, conducere sub influență); textul propus restrânge măsura doar la infracțiunile „prevăzute de prezenta lege”, excluzând infracțiunile din Codul penal.",
+        "Lacune privind minorii sub 14 ani și datele medicale (Art. I pct. 13 – art. 19): evaluarea obligatorie a minorilor se dispune „prin actul de aplicare a sancțiunii”, dar minorii sub 14 ani nu răspund contravențional (art. 11 OG nr. 2/2001); în plus, raportul de evaluare medicală se transmite înapoi polițistului constatator/sancționator (alin. 4), deși art. 20 este abrogat și tratamentul voluntar nu mai are niciun efect juridic asupra amenzii.",
+        "Blocaj procedural la normele tranzitorii pentru art. 3 (Art. III alin. 3 și 5): încetarea de drept și punerea „de îndată” în libertate a arestaților preventiv, respectiv revizuirea din oficiu pe art. 595 CPP, presupun stabilirea scopului „consumului propriu”, element pe care vechile mandate și hotărâri definitive pe art. 3 nu l-au tranșat juridic.",
+        "Asincronii operaționale și instituționale (Art. I pct. 3, 11, 15, 16 și Art. III alin. 1, 7): legea intră în vigoare la 30 de zile, dar Guvernul are 60 de zile să actualizeze HG nr. 860/2005, iar ordinul Ministerului Sănătății pentru camerele de consum (art. 5 alin. 4) nu are termen; art. 21^1 alin. 5 nu permite confiscarea drogurilor dacă nu se emite act sancționator (prescripție sau minor sub 14 ani), iar art. 17 alin. 3 și art. 23 mențin trimiteri la fosta ANA/MAI, nearmonizate cu OUG nr. 147/2024."
       ],
-      "blindSpotsCaught": "1) Lipsa oricărui prag cantitativ sau criteriu legal expres pentru 'consum propriu' lasă încadrarea între contravenție și trafic exclusiv pe probatoriul evaluat de polițistul antidrog (art. 21^1 alin. 3). 2) Art. 17 alin. (5) înlocuiește judecătorul delegat cu executarea din comisia de distrugere a drogurilor cu șeful formațiunii de poliție care a dispus confiscarea, eliminând filtrul judiciar. 3) Prescripția aplicării sancțiunii se dublează la 1 an (art. 21^1 alin. 6), derogând de la OG 2/2001. 4) Art. 5 alin. (3) scutește de contravenție deținerea doar 'în incinta' spațiului medical, creând risc de amendare la ușa clinicii.",
-      "constitutionalityNote": "Dezincriminarea consumului propriu este conformă principiului ultima ratio și marjei Parlamentului (Deciziile CCR nr. 405/2016 și nr. 176/2022). Totuși, absența din lege a unor criterii obiective sau praguri orientative care să separe faptele de la art. 3 alin. (3)-(4) și art. 4 (în special 'producerea', 'fabricarea' sau trecerea frontierei pentru consum propriu) de infracțiunile de trafic din art. 2 și art. 3 alin. (1)-(2) generează un risc serios de imprevizibilitate și aplicare neunitară în raport cu art. 1 alin. (5) și art. 23 alin. (12) din Constituție.",
-      "euLawNote": "Proiectul nu reglementează servicii digitale/AI (nu intră sub Directiva (UE) 2015/1535 - TRIS) și nu restricționează accesul la profesii reglementate (Directiva (UE) 2018/958 nu este afectată, personalul din art. 5 având deja drept de liberă practică). Este compatibil cu Decizia-cadru 2004/757/JAI (art. 2 alin. 2 exclude expres consumul personal) și remediază deficitul de proporționalitate a pedepselor (art. 49 alin. 3 din Carta DFUE) semnalat în cauza CJUE C-583/24 (Tagu).",
+      "blindSpotsCaught": "Compararea cu legea în vigoare scoate la iveală patru chichițe majore: (1) Art. 18 elimină accidental posibilitatea instanței de a dispune tratament în penitenciar pentru consumatorii condamnați la infracțiuni din Codul penal; (2) Art. 13 alin. (3) dublează doar maximul amenzii, nu și minimul, astfel că faptele comise în școli sau de agenți în exercitarea funcției pot fi în continuare stinse prin plata a jumătate din minimul de bază (500-750 lei) sub OG nr. 2/2001; (3) exonerarea de la art. 5 alin. (3) operează strict „în incinta” spațiului autorizat, deci traversarea holului spitalului cu doza proprie intră teoretic chiar sub agravanta de „unitate medicală” din art. 13 alin. (3); (4) direcționarea amenzilor la bugetul de stat cu destinație specială (art. 23 alin. 8) derogă tacit de la OG nr. 2/2001 (bugete locale) și intră în tensiune cu principiul neafectării veniturilor bugetare (Legea nr. 500/2002), fără mecanism bugetar dedicat.",
+      "constitutionalityNote": "Opțiunea de dezincriminare este pe deplin constituțională (politică penală în marja Parlamentului, aliniată cu principiul ultima ratio – Decizia CCR nr. 405/2016 – și aplicarea legii penale mai favorabile, art. 15 alin. 2). Există însă vulnerabilități reale pe calitatea și previzibilitatea legii (art. 1 alin. 5 și art. 23 alin. 12 Constituție) din cauza lipsei oricăror criterii legale de separație între contravenția de consum propriu și infracțiunea de trafic (mai ales la frontieră, art. 3), precum și pe dreptul la viață privată (art. 26) prin transmiterea nejustificată a rapoartelor medicale de evaluare către organele de poliție (art. 19 alin. 4). Solicitarea procedurii de urgență și decalajul dintre intrarea în vigoare (30 zile) și legislația secundară (60 zile / fără termen) amplifică riscul de insecuritate juridică.",
+      "euLawNote": "Pe fond, proiectul este compatibil cu dreptul UE: Decizia-cadru 2004/757/JAI exclude expres de la obligația de incriminare faptele comise exclusiv pentru consum personal (art. 2 alin. 2), iar reforma art. 3 răspunde direct riscului de încălcare a proporționalității pedepselor (art. 49 alin. 3 Carta DFUE) semnalat în cauza C-583/24 (Tagu) privind refuzul executării mandatelor europene de arestare. Directiva (UE) 2015/1535 (TRIS) și Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) nu sunt incidente direct. Totuși, art. 19 alin. (4) ridică o problemă concretă de conformitate cu GDPR (Regulamentul UE 2016/679, art. 5 și art. 9 – minimizarea datelor și prelucrarea datelor privind sănătatea) prin comunicarea raportului de evaluare clinică către poliție în absența unui scop juridic necesar.",
       "senatForm": {
-        "articleRef": "Art. I pct. 1, 2 și 15 (art. 3, 4 și 21^1)",
-        "proposalContent": "La art. 3 alin. (3)-(4) și art. 4, introducerea unor criterii legale obiective (cantitate maximă orientativă și absența indiciilor de comercializare) pentru delimitarea consumului propriu de trafic. La art. 17 alin. (5), păstrarea controlului unui magistrat sau termen clar post-contestație înaintea distrugerii probelor.",
-        "argumentation": "Fără criterii sau praguri legale, delimitarea între o amendă de 1.000 lei și 5-20 ani de închisoare rămâne la aprecierea polițistului (art. 21^1 alin. 3), afectând previzibilitatea legii penale (art. 1 alin. 5 și art. 23 alin. 12 Constituție). Distrugerea probelor exclusiv de poliție fără filtru judiciar poate afecta dreptul la apărare în caz de recalificare.",
-        "otherComments": "La art. 5 alin. (3), exceptarea de la contravenție este limitată strict la „incinta” spațiului sanitar, expunând beneficiarii la amendă chiar la intrarea/ieșirea din unitate. De asemenea, dublarea termenului de prescripție la 1 an (art. 21^1 alin. 6) necesită corelare cu termenele maxime ale analizelor de laborator."
+        "articleRef": "Art. I pct. 1, 12, 13, 15 și Art. III",
+        "proposalContent": "1) Stabiliți criterii legale clare între consum propriu și trafic (art. 3, 4, 21^1). 2) Mențineți în art. 18 terapia în penitenciar pentru orice infracțiune, nu doar Legea 143/2000. 3) Reglementați confiscarea drogurilor în lipsa sancțiunii și evaluarea minorilor sub 14 ani. 4) Eliminați transmiterea raportului medical la poliție (art. 19 alin. 4).",
+        "argumentation": "Lipsa criteriilor între amendă și 10-20 ani închisoare afectează previzibilitatea (art. 1 alin. 5 Constituție) și lasă triajul poliției sub OG 2/2001. Art. 18 restrânge neintenționat terapia în penitenciar. Minorii sub 14 ani nu pot primi act de sancționare, iar trimiterea raportului clinic la poliție fără scop juridic încalcă GDPR (art. 9).",
+        "otherComments": "Clarificați aplicarea Art. III alin. 3 și 5 pentru vechile cazuri art. 3 (unde nu s-a stabilit scopul consumului propriu), corelați termenul de intrare în vigoare (30 zile) cu HG 860/2005 (60 zile), fixați termen pentru ordinul MS (art. 5 alin. 4) și actualizați trimiterile din art. 17 alin. 3 și art. 23 la ANPCDDA în locul fostei ANA."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 110057,
+      "durationMs": 110376,
       "sourceEndMarker": "SF-4C4F11BA",
-      "riskScore": 4,
-      "riskLevel": "yellow",
+      "riskScore": 3,
+      "riskLevel": "green",
       "plainTitle": "Deținerea de droguri pentru consum propriu devine amendă, nu dosar penal",
-      "verdictShort": "Reforma este coerentă, are susținere în dreptul UE și standardele ONU și ar elibera parchetele de zeci de mii de dosare mărunte. Riscul vine din detalii: legea nu dă niciun criteriu pentru a separa consumul de trafic, iar dispozițiile tranzitorii pentru cei deja condamnați pe art. 3 sunt greu de aplicat.",
-      "initiatorClaim": "Inițiatorii vor ca simplul consumator să fie tratat ca problemă de sănătate publică, nu ca infractor. Vor să descongestioneze DIICOT, instanțele și penitenciarele și să elimine pedepsele de 5-20 de ani pentru cine trece granița cu o doză pentru uz propriu.",
-      "realityCheck": "Art. 4 (cultivare, cumpărare, deținere pentru consum propriu) și noile alin. (3)-(4) ale art. 3 (trecerea frontierei pentru consum propriu) devin contravenții, cu amenzi între 1.000 și 3.500 lei, maximul dublându-se în circumstanțe agravante. Traficul rămâne infracțiune. Încadrarea depinde însă exclusiv de aprecierea probelor de către poliție, fără praguri și fără criterii legale. Separat, se legalizează camere de consum supravegheat în unități sanitare, iar art. III aplică retroactiv dezincriminarea, inclusiv cu eliberări și ștergerea cazierului.",
+      "verdictShort": "Este o reformă coerentă, cu tranziție bine gândită: consumul propriu trece din penal în contravențional, iar traficul rămâne neatins. Riscurile reale sunt limitate și țin de aplicare: delimitarea consum/trafic lăsată poliției, lipsa oricărui stimulent pentru tratament și spații de consum supravegheat fără termen și fără finanțare.",
+      "initiatorClaim": "Inițiatorii vor să mute consumul de droguri din sfera justiției penale în cea a sănătății publice. Spun că așa degrevează DIICOT, instanțele și penitenciarele de mii de dosare pe cantități sub 5 grame și elimină pedepsele de 5-20 de ani pentru consumatorul care trece frontiera cu o doză.",
+      "realityCheck": "Art. 4 (cultivare, cumpărare, deținere pentru consum propriu) devine contravenție, cu amendă de 1.000-1.500 lei pentru drogurile de risc și 1.500-3.000 lei pentru cele de mare risc. Introducerea sau scoaterea din țară pentru consum propriu devine contravenție (noul art. 3 alin. 3-4: 1.500-2.000 / 2.000-3.500 lei), iar art. 271 din Codul vamal este exclus pentru aceste fapte. Prin OG 2/2001 se aplică regula achitării a jumătate din minim, deci amenda efectivă poate fi de 500 lei, iar pentru minorii de 14-18 ani limitele se înjumătățesc. Proiectul nu introduce praguri cantitative: delimitarea de trafic rămâne la aprecierea poliției pe probe, ca și azi între art. 2 și art. 4. În plus, se abrogă art. 20, deci dispare legătura dintre urmarea tratamentului și renunțarea la sancțiune.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 1-2 și pct. 15 (art. 21¹ alin. 3): noțiunea de «consum propriu» nu este definită, iar expunerea de motive confirmă că lipsesc pragurile cantitative și orice prezumție. Aceeași faptă poate fi amendă sau 5-20 ani de închisoare, în funcție de aprecierea agentului.",
-        "Art. I pct. 15 (art. 21¹): constatarea o fac Poliția, Poliția de Frontieră, Jandarmeria, polițiștii de penitenciare și vama, dar sancțiunea o aplică doar formațiunile antidrog ale Poliției, pe baza raportului de laborator. Termenul de prescripție este de 1 an, prin derogare de la cele 6 luni din OG 2/2001, derogare justificată tehnic de durata analizelor.",
-        "Art. I pct. 3 (art. 5): sunt permise spații de consum supravegheat, autorizate de DSP, doar pentru adulți cu dependență diagnosticată, fără furnizarea substanței și cu personal medical prezent. Ordinul ministrului sănătății, de care depinde aplicarea, nu are termen de emitere. Art. III alin. (7) prevede termen doar pentru Hotărârea de Guvern.",
-        "Art. I pct. 3 (art. 5 alin. 1): textul de bază al infracțiunii este republicat cu pedeapsa de 2-7 ani. Expunerea nu spune dacă astfel se modifică limitele în vigoare, deci este necesară verificarea față de forma consolidată.",
-        "Art. I pct. 13 (art. 19): evaluarea minorului este «obligatorie», dar se face doar cu consimțământul părinților și al minorului de peste 14 ani. Refuzul nu are altă consecință decât sesizarea DGASPC, ceea ce creează o tensiune internă.",
-        "Art. I pct. 16 (art. 23 alin. 8): amenzile se fac venit la bugetul de stat, dar sunt «afectate» programelor de prevenire. Textul este redundant («programe naționale» și «programe de interes național» cu același obiect) și cere corelare cu principiul neafectării veniturilor din Legea 500/2002.",
-        "Art. III: retroactivitatea legii mai favorabile (art. 4 C. pen.) este aplicată corect, cu încetarea măsurilor preventive, sesizarea din oficiu a instanței de executare și scoaterea din cazier. Este exclusă amendarea retroactivă, în acord cu art. 15 alin. (2) din Constituție."
+        "Art. I pct. 2 și 1: art. 4 și noul art. 3 alin. (3)-(4) transformă în contravenție deținerea și trecerea frontierei pentru consum propriu. Art. 2 și art. 3 alin. (1)-(2) rămân infracțiuni cu pedepsele actuale, iar interdicția suspendării din art. 15¹ se aplică în continuare traficanților.",
+        "Art. 21¹: constatarea o pot face Poliția, Poliția de Frontieră, polițiștii de penitenciare, jandarmii și vameșii, dar sancțiunea o aplică doar formațiunile antidrog ale Poliției, după raportul de laborator. Termenul de prescripție este de 1 an, dublu față de regula de 6 luni din OG 2/2001, ceea ce poate ține persoana în incertitudine până la un an.",
+        "Art. 19 și abrogarea art. 20: evaluarea medicală devine facultativă pentru adulți și obligatoriu dispusă pentru minori, dar se face doar cu consimțământ. Amenda se plătește oricum, indiferent dacă persoana urmează tratament, deci lipsește pârghia de tip portughez invocată chiar în expunerea de motive.",
+        "Art. 5 alin. (2)-(4): permite spații de consum supravegheat în unități sanitare autorizate de DSP, doar pentru adulți cu dependență diagnosticată și cu personal medical prezent. Ordinul ministrului sănătății nu are termen, iar finanțare nu este prevăzută, deci măsura poate rămâne literă moartă.",
+        "Art. III: tranziția este riguroasă (art. 4 C.pen., eliberare de drept, sesizarea din oficiu a instanței potrivit art. 595 CPP, ștergerea din cazier). Rămâne însă o dificultate la condamnările vechi pe art. 3: scopul consumului propriu nu era element al infracțiunii și deseori nu a fost cercetat, astfel că instanța de executare va trebui să îl stabilească din dosar, cu risc de practică neunitară.",
+        "Art. 23 alin. (8): amenzile se fac venit la bugetul de stat și «se folosesc» pentru programele antidrog. Este o afectare declarativă, fără mecanism bugetar care să o garanteze."
       ],
-      "blindSpotsCaught": "Art. III alin. (5) trimite la procedura art. 595 C. proc. pen. pentru condamnații aflați în executare. Cei condamnați pe vechiul art. 3 pentru trecerea frontierei au fost judecați când destinația pentru consum propriu era irelevantă juridic, astfel că hotărârea definitivă adesea nu o stabilește. Judecătorul de executare nu poate readministra probe pe fond. Rezultatul ar fi tratament inegal între condamnați, chiar în categoria (cazul Tagu) pe care proiectul vrea să o repare. În plus, art. 5 alin. (2) lit. b) face o autoreferință defectuoasă («art. 1 lit. i) din Legea nr. 143/2000», în chiar Legea 143/2000), iar alin. (3) protejează deținerea doar în incinta spațiului, nu și pe drumul până acolo.",
-      "constitutionalityNote": "Proiectul exercită o opțiune de politică penală aflată în marja Parlamentului, așa cum a recunoscut CCR în jurisprudența privind art. 4 din Legea 143/2000. Este în acord cu principiul ultima ratio (Dec. CCR 405/2016) și cu art. 15 alin. (2) privind legea mai favorabilă. Formula de adoptare (art. 76 alin. 1, lege organică) este corectă, materia ținând de art. 73 alin. (3) lit. h). Punctul vulnerabil este previzibilitatea (art. 1 alin. 5): lipsa oricărui criteriu legal de delimitare consum/trafic, cu consecințe sancționatorii radical diferite, poate fi criticată prin analogie cu Dec. CCR 176/2022. Impactul bugetar al spațiilor supravegheate și al laboratoarelor impune fișa financiară și punctul de vedere al Guvernului (art. 111, art. 138 alin. 5), mai ales în procedură de urgență.",
-      "euLawNote": "Proiectul este compatibil cu Decizia-cadru 2004/757/JAI, care la art. 2 alin. (2) exclude expres faptele comise exclusiv pentru consum personal, inclusiv cu element transfrontalier. Este compatibil și cu art. 71 CAAS (Schengen), care cere combaterea traficului, nu incriminarea consumatorului. Răspunde direct riscului de refuz al executării MEA pentru pedepse vădit disproporționate (art. 49 alin. 3 din Cartă, cauza C-583/24 Tagu, pe rol potrivit expunerii). Directiva 2018/958 nu se aplică: nu se reglementează accesul la o profesie, iar cerința de medici sau asistenți în spațiile supravegheate vizează profesii deja reglementate. Directiva TRIS 2015/1535 nu se aplică: nu există reguli tehnice privind produse sau servicii ale societății informaționale. Nu există impact asupra concurenței sau IMM-urilor. La nivel internațional, art. 3 alin. (2) din Convenția ONU 1988 permite soluția sub rezerva principiilor constituționale, iar INCB a acceptat-o în 2022.",
+      "blindSpotsCaught": "1) Noul art. 271 alin. (4) din Codul vamal exclude doar alin. (1), deși alin. (2) (forma din culpă) trimite la «faptele prevăzute la alin. (1)». Iar contrabanda simplă (art. 270), pentru trecerea pe la alte puncte decât cele de control vamal, nu este exclusă expres. 2) Art. 5 alin. (2) lit. b) trimite la «art. 1 lit. i) din Legea nr. 143/2000» din interiorul aceleiași legi, o greșeală de tehnică legislativă. 3) Contravenția nu dă poliției instrumentele procesual-penale, așa că există riscul ca organele să deschidă în continuare dosare in rem pe art. 2 ca să poată verifica dacă e trafic, ceea ce ar anula o parte din degrevarea promisă. 4) Termenul de 60 de zile pentru actualizarea HG 860/2005 curge de la publicare, însă legea intră în vigoare la 30 de zile, deci aplicarea poate începe înainte de norme.",
+      "constitutionalityNote": "Dezincriminarea ține de marja de politică penală a Parlamentului, iar CCR a calificat expres regimul consumului drept chestiune de politică penală. Decizia nr. 405/2016 (ultima ratio) și Decizia nr. 176/2022 (contrabandă fără prag) susțin proiectul, care reduce un risc existent de disproporționalitate (art. 1 alin. 3 și art. 53). Criteriul «consum propriu» fără praguri există deja în art. 4 și are o practică judiciară consolidată, deci nu ridică o problemă nouă de previzibilitate (art. 1 alin. 5). Amenda contravențională rămâne «acuzație în materie penală» în sensul art. 6 CEDO și poate fi contestată în instanță potrivit OG 2/2001. Aplicarea legii mai favorabile (art. 15 alin. 2) este tratată explicit și corect în art. III. Fiind lege organică (art. 73 alin. 3 lit. h), Senatul este prima cameră sesizată, iar Camera Deputaților decide.",
+      "euLawNote": "Proiectul este compatibil cu Decizia-cadru 2004/757/JAI: art. 2 alin. (2) exclude din obligația de incriminare conduita exclusiv pentru consum personal, inclusiv importul și exportul. Art. 71 din Convenția Schengen cere măsuri «administrative și penale» împotriva exportului ilicit, iar sancțiunea contravențională, confiscarea și distrugerea drogurilor satisfac această cerință. Proiectul răspunde direct problemei de proporționalitate din cauza CJUE C-583/24 (Tagu), unde, potrivit expunerii, se aștepta hotărârea Curții. Directiva 2018/958 nu este relevantă, pentru că nu se creează profesii reglementate noi, iar Directiva TRIS 2015/1535 nu se aplică, pentru că nu sunt vizate servicii digitale sau reglementări tehnice pentru produse. Nu există efecte asupra pieței unice ori asupra IMM-urilor.",
       "senatForm": {
-        "articleRef": "Art. I pct. 15 – art. 21¹ alin. (3)",
-        "proposalContent": "Se introduce la art. 21¹ alin. (3¹): «Destinația pentru consum propriu se apreciază în raport cu cantitatea, puritatea, modul de ambalare, existența unor bunuri sau sume ce indică distribuirea și circumstanțele faptei. Prin ordin comun MS–MAI se publică orientativ cantitățile uzuale de consum individual, fără valoare de prezumție.»",
-        "argumentation": "Lipsa oricărui criteriu legal de delimitare a consumului propriu de trafic lasă încadrarea (amendă sau ani de închisoare) la aprecierea agentului, contrar art. 1 alin. (5) din Constituție și cerinței de previzibilitate (v. CCR, Dec. 176/2022). Criteriile orientative, fără prezumție automată, asigură practică unitară și nu leagă instanța.",
-        "otherComments": "De corelat: (1) art. III alin. (5): procedura art. 595 CPP nu permite stabilirea ulterioară a destinației consumului pentru condamnații pe art. 3; (2) art. 5 alin. (1): de verificat dacă 2-7 ani modifică limitele actuale; (3) art. 5 alin. (2) lit. b): de eliminat autoreferința «din Legea nr. 143/2000»; (4) ordinul MS nu are termen."
+        "articleRef": "Art. I pct. 13 – art. 19, alin. (6) nou",
+        "proposalContent": "Se introduce alin. (6): «Dacă, până la expirarea termenului de plată, consumatorul face dovada includerii în programul integrat de asistență, executarea amenzii se suspendă. Respectarea programului timp de 6 luni stinge obligația de plată; abandonul nejustificat repune amenda în executare.»",
+        "argumentation": "Art. 20, abrogat, leagă azi tratamentul de renunțarea la pedeapsă. Proiectul păstrează evaluarea, dar elimină orice stimulent: consumatorul plătește amenda chiar dacă urmează tratament. Modelul portughez invocat în expunere se bazează tocmai pe suspendarea sancțiunii la intrarea în tratament. Fără această pârghie, obiectivul de sănătate publică rămâne declarativ.",
+        "otherComments": "Art. 5 alin. (4): ordinul MS nu are termen, deci spațiile supravegheate pot rămâne literă moartă; propunem 90 de zile. Art. III alin. (5): la condamnările vechi pe art. 3, scopul consumului propriu nu a fost cercetat; trebuie precizat cum îl stabilește instanța. Art. 271 C. vamal: excluderea trebuie extinsă și la alin. (2)."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 157337,
+      "durationMs": 129302,
       "sourceEndMarker": "SF-4C4F11BA",
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Consum propriu: amenzi în locul dosarelor penale",
-      "verdictShort": "Proiectul reduce represiunea penală pentru consumul propriu și permite spații medicale de supraveghere a consumului, cu condiții restrictive. Riscurile principale privesc aplicarea practică și garanțiile procedurale, nu introducerea unor sancțiuni disproporționate sau monopoluri.",
-      "initiatorClaim": "Inițiatorii urmăresc mutarea intervenției statului către sănătatea publică și eliberarea resurselor judiciare pentru combaterea traficului. Invocă reducerea stigmatizării, accesul la tratament și prevenirea supradozelor.",
-      "realityCheck": "Proiectul transformă în contravenții operațiunile enumerate pentru consum propriu, inclusiv introducerea și scoaterea drogurilor din țară, pentru ambele categorii de droguri, fără praguri cantitative. Deținerea rămâne sancționată, cu excepția beneficiarilor eligibili aflați în spațiile medicale autorizate, iar pentru faptele anterioare intervine dezincriminarea fără amenzi retroactive. Economiile și rezultatele sanitare prezentate în expunere sunt prognoze, iar ponderea capturilor mici nu dovedește singură ponderea consumatorilor în dosarele penale.",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Consum propriu de droguri: amenzi în locul dosarelor penale",
+      "verdictShort": "Proiectul reduce substanțial sancționarea penală a consumatorilor și permite consumul supravegheat medical în condiții stricte. Necesită însă corecții privind eliberarea condamnaților, accesul la tratament în penitenciare și aplicarea efectivă a noilor servicii.",
+      "initiatorClaim": "Inițiatorii urmăresc înlocuirea răspunderii penale pentru consum propriu cu sancțiuni contravenționale și asistență medicală, pentru a concentra resursele judiciare asupra traficului. Ei anticipează reducerea costurilor, a supradozelor și a stigmatizării consumatorilor.",
+      "realityCheck": "Proiectul transformă în contravenții inclusiv cultivarea, producerea și fabricarea pentru consum propriu, precum și trecerea frontierei cu această destinație, fără praguri cantitative; traficul rămâne infracțiune. Faptele anterioare sunt dezincriminate fără amendare retroactivă, iar deținerea în spațiile medicale autorizate beneficiază de o excepție strictă. Tratamentul nu înlocuiește automat amenda, iar noul art. 18 restrânge domeniul dispoziției speciale privind programele terapeutice penitenciare.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Sănătate & Educație",
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Art. I pct. 1-2 privește inclusiv drogurile de mare risc și cultivarea, producerea ori fabricarea pentru consum propriu, nu doar simpla deținere. Amenzile de bază sunt între 1.000 și 3.500 lei; noul art. 13 alin. (3) dublează numai maximul în împrejurările indicate, până la 7.000 lei.",
-        "Noul art. 5 permite spații exclusiv în unități sanitare, pentru adulți cu dependență diagnosticată, cu supraveghere medicală permanentă și fără furnizarea drogurilor de către unitate sau personal. Excepția de la sancționarea deținerii nu acoperă deplasarea către aceste spații.",
-        "Noul art. 21¹ separă constatarea de aplicarea sancțiunii: mai multe categorii de agenți pot constata, dar sancționează formațiunile specializate ale Poliției Române. Analiza de laborator este obligatorie, prescripția aplicării sancțiunii este de un an, iar cadrul general contravențional rămâne aplicabil.",
-        "Art. II exclude expres incriminarea vamală de la art. 271 alin. (1) pentru trecerea frontierei în scopul consumului propriu. Această corelare împiedică menținerea răspunderii penale pentru aceeași conduită prin norma vamală indicată.",
-        "Art. III alin. (2)-(6) produce efecte și asupra trecutului: fără amenzi retroactive, cu încetarea consecințelor penale în condițiile dezincriminării, intervenția instanței pentru pedepsele în executare și scoaterea condamnărilor relevante din cazier. Drogurile rămân confiscabile; condamnările pentru trafic nu sunt șterse prin aceste dispoziții.",
-        "Art. III alin. (5) fixează 30 de zile pentru sesizarea instanței privind pedepsele în executare, fără un termen expres de soluționare. Procedura trebuie accelerată pentru ca persoanele vizate să nu continue detenția exclusiv pentru fapte dezincriminate."
+        "Art. I pct. 1–2: astăzi, faptele pentru consum propriu atrag răspundere penală, iar trecerea frontierei poate atrage pedepse de 5–15 sau 10–20 de ani. Proiectul introduce amenzi de 1.000–3.000 lei pentru faptele interne și de 1.500–3.500 lei pentru cele transfrontaliere, în formele de bază.",
+        "Art. I pct. 7: în împrejurările expres indicate se dublează numai maximul amenzii, care poate ajunge la 7.000 lei pentru trecerea frontierei cu droguri de mare risc pentru consum propriu. Minimul nu se dublează.",
+        "Art. I pct. 3: excepția pentru consum supravegheat privește unități sanitare autorizate, adulți cu dependență diagnosticată și autoadministrare sub supraveghere medicală. Unitatea și personalul nu pot procura sau furniza drogurile. Deținerea beneficiarului în aceste spații nu constituie contravenție; cumpărarea și deținerea în afara lor rămân sancționabile.",
+        "Art. II este esențial: exclude aplicarea art. 271 alin. (1) din Codul vamal faptelor transfrontaliere pentru consum propriu devenite contravenții. Înlătură astfel posibilitatea aplicării acestei incriminări subsidiare acelorași fapte.",
+        "Art. III alin. (2)–(6): dezincriminarea se aplică faptelor anterioare, fără amenzi retroactive, cu încetarea consecințelor penale și scoaterea condamnărilor din evidența cazierului în condițiile prevăzute. Drogurile rămân supuse confiscării; nu se restituie consumatorilor.",
+        "Art. III alin. (5): pentru persoanele care execută pedepse sau măsuri educative, termenul de 30 de zile privește sesizarea instanței, fără un termen special pentru soluționare. Acesta nu autorizează continuarea detenției după dispariția temeiului penal, dar creează un risc practic de întârziere a eliberării.",
+        "Art. I pct. 12: actualmente, art. 18 permite instanței includerea consumatorului într-un program terapeutic penitenciar pentru alte infracțiuni decât art. 4. Proiectul limitează această posibilitate specială la infracțiunile din Legea nr. 143/2000, excluzând, de exemplu, condamnările exclusiv pentru furt sau infracțiuni rutiere. Drepturile generale la îngrijire medicală rămân aplicabile.",
+        "Art. I pct. 13–14: evaluarea minorilor era deja obligatorie. Proiectul obligă autoritatea să o dispună, păstrează consimțământul pentru efectuarea evaluării și introduce reguli privind părinții și protecția copilului. Abrogarea art. 20 elimină mecanismul special de renunțare sau amânare a pedepsei pentru art. 4, devenit contravenție.",
+        "Noul art. 21¹ cere identificarea substanței prin analiză de laborator și rezervă aplicarea sancțiunii formațiunilor specializate ale Poliției Române. Sunt admise și alte laboratoare acreditate. Trimiterea la OG nr. 2/2001 păstrează garanțiile generale, inclusiv plângerea judiciară și regulile de individualizare; acestea nu dispar pentru că nu sunt reproduse.",
+        "Art. III alin. (1) și (7): legea intră în vigoare după 30 de zile de la publicare, dar regulamentul poate fi actualizat până la 60 de zile. Ordinul necesar autorizării spațiilor medicale nu are termen de emitere, astfel încât funcționarea lor poate întârzia.",
+        "Noul art. 23 alin. (8) direcționează veniturile din amenzi către prevenire și asistență, fără să detalieze repartizarea și execuția bugetară. Veniturile sunt incerte, iar analizele de laborator, evaluările și supravegherea medicală presupun costuri; economiile judiciare prognozate nu devin automat credite pentru sănătate."
       ],
-      "blindSpotsCaught": "Protecția minorilor are o lacună de articulare: noul art. 19 leagă evaluarea de actul aplicării sancțiunii, deși minorii sub 14 ani nu răspund contravențional. Trebuie prevăzută distinct sesizarea serviciilor medicale și sociale pentru aceștia. În plus, legea intră în vigoare după 30 de zile, regulamentul poate fi actualizat în 60 de zile, iar ordinul privind spațiile medicale nu are termen. Abrogarea art. 20 înlătură mecanismul penal special de favorizare a tratamentului pentru art. 4; noua asistență nu condiționează expres amenda de participarea la tratament.",
-      "constitutionalityNote": "Dezincriminarea este o opțiune legitimă de politică penală, compatibilă cu art. 15 alin. (2); jurisprudența privind ultima ratio nu impune automat această soluție pentru orice faptă legată de droguri. Lipsa pragurilor cantitative nu încalcă, singură, art. 1 alin. (5) sau legalitatea sancțiunilor din art. 23 alin. (12), dar delimitarea consumului propriu trebuie motivată prin probe și supusă controlului judecătoresc. Art. III alin. (4), care dispune confiscarea indiferent de soluție, trebuie corelat explicit cu procedura judiciară, dreptul la apărare și protecția eventualei dețineri licite, potrivit art. 21, 24 și 44. Obligativitatea dispunerii evaluării minorului nu trebuie confundată cu autorizarea unei intervenții medicale forțate.",
-      "euLawNote": "Art. 2 alin. (2) din Decizia-cadru 2004/757/JAI exclude din obligațiile sale de incriminare conduitele comise exclusiv pentru consum personal, astfel cum este definit de dreptul național. Directiva 2018/958 nu vizează dezincriminarea însăși; trebuie verificată aplicabilitatea sa la noile condiții de exercitare profesională, inclusiv instruirea obligatorie a medicilor și asistenților și normele viitoare. Rezervarea supravegherii către personal medical are o justificare sanitară plauzibilă, dar cerințele trebuie să fie proporționale și nediscriminatorii. Textul nu reglementează servicii digitale sau AI și nu indică un temei pentru notificare TRIS pe această componentă. Amenzile nu asigură singure finanțarea: sunt necesare estimarea costurilor laboratoarelor și asistenței, precum și mecanismul bugetar de alocare. Analiza se bazează pe documentele furnizate; verificarea online a legislației consolidate și a dosarului Senatului nu a fost posibilă.",
+      "blindSpotsCaught": "Două efecte discrete contează: reformularea art. 18 restrânge o facilitate terapeutică existentă pentru consumatorii condamnați pentru alte infracțiuni, iar dispozițiile tranzitorii cer eliberarea imediată expres pentru măsurile preventive, dar lasă până la 30 de zile pentru sesizarea instanței în cazul executării pedepselor. În plus, excepția din spațiile medicale protejează deținerea acolo, fără să creeze un traseu nesancționabil de procurare și transport până la centru.",
+      "constitutionalityNote": "Analiza se bazează pe textele furnizate; verificarea externă nu a fost disponibilă. Dezincriminarea este o opțiune legitimă de politică penală, compatibilă în principiu cu art. 15 alin. (2), iar Decizia CCR nr. 405/2016 nu impune singură această soluție concretă. Criteriul consumului propriu există deja în art. 4; absența pragurilor cantitative nu dovedește automat încălcarea art. 1 alin. (5) sau art. 23 alin. (12). Totuși, delimitarea dintre noile contravenții și art. 3 alin. (1)–(2), care rămân formulate general, merită explicitată. Art. III alin. (5) trebuie să asigure intervenția imediată a instanței pentru respectarea libertății individuale. Restrângerea art. 18 ridică o problemă de justificare prin raportare la art. 16 și 34, fără a demonstra singură neconstituționalitatea. Fundamentarea financiară trebuie examinată și în raport cu art. 111 alin. (1) și art. 138 alin. (5).",
+      "euLawNote": "Art. 2 alin. (2) din Decizia-cadru 2004/757/JAI exclude din obligațiile sale de incriminare conduitele comise exclusiv pentru consum personal, astfel cum este definit de dreptul național; proiectul nu contrazice prin simpla dezincriminare această obligație europeană. Compatibilitatea cu convențiile ONU necesită o analiză distinctă. Directiva 2018/958 nu se aplică automat autorizării spațiilor medicale: trebuie verificat dacă rezervarea supravegherii medicilor și asistenților introduce o restricție nouă privind exercitarea profesiilor reglementate, caz în care este necesar testul prealabil de proporționalitate. Textul nu rezervă serviciile exclusiv unităților publice și admite laboratoare acreditate alternative. Nu reglementează servicii digitale sau AI și nu identifică o regulă tehnică nouă care să declanșeze notificarea TRIS potrivit Directivei 2015/1535. Afirmațiile statistice și stadiul cauzei Tagu din expunerea de motive nu au fost validate extern.",
       "senatForm": {
-        "articleRef": "Art. III alin. (3)-(5)",
-        "proposalContent": "Prevedeți sesizarea și soluționarea de urgență pentru pedepsele aferente faptelor dezincriminate. Precizați procedura judiciară de confiscare, audierea persoanelor interesate, calea de atac și protecția deținerii licite.",
-        "argumentation": "Dezincriminarea nu justifică menținerea detenției exclusiv pentru aceste fapte până la expirarea termenului de sesizare. Confiscarea indiferent de soluție trebuie aplicată cu garanțiile accesului la justiție, dreptului la apărare și proprietății, potrivit art. 21, 24 și 44 din Constituție.",
-        "otherComments": "Reglementați distinct accesul minorilor sub 14 ani la evaluare și protecție, fără condiționare de aplicarea unei sancțiuni. Fixați termen pentru ordinul ministrului sănătății și corelați normele secundare cu intrarea în vigoare. Fundamentați costurile și alocarea veniturilor din amenzi."
+        "articleRef": "Art. III alin. (5)",
+        "proposalContent": "Instanța se sesizează din oficiu de îndată, cel târziu în 24 de ore de la intrarea în vigoare, și soluționează cauza de urgență. Dispune încetarea executării pentru faptele dezincriminate și punerea imediată în libertate, dacă nu există alt temei de detenție. Administrația locului de deținere transmite situațiile în același termen.",
+        "argumentation": "Art. 4 Cod penal oprește executarea pedepsei la dezincriminare. Termenul propus de 30 de zile privește numai sesizarea, fără termen de soluționare, și poate întârzia eliberarea condamnaților. Art. 23 din Constituție și art. 5 CEDO impun evitarea continuării unei privări de libertate rămase fără temei.",
+        "otherComments": "Păstrați în art. 18 posibilitatea includerii în programe terapeutice și pentru consumatorii închiși pentru alte infracțiuni. Stabiliți termen pentru ordinul ministrului sănătății și norme aplicabile la intrarea în vigoare. Detaliați mecanismul bugetar al art. 23 alin. (8)."
       },
       "reachedEnd": true,
       "status": "ok"
     }
   },
   "history": [
+    {
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-19T12:55:04.920Z",
+      "method": "whole-text-v1",
+      "textChars": 15058,
+      "form": "initiator",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:16:00.956Z",
+      "reasons": [
+        "model"
+      ]
+    },
     {
       "riskScore": 4.8,
       "riskLevel": "yellow",

@@ -2,130 +2,186 @@
   "billId": "Pl-x 23/2026",
   "slug": "plx-23-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T07:04:29.092Z",
+  "updatedAt": "2026-11-24T15:12:52.157Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 4927,
+    "ordinanceChars": 0,
+    "memoChars": 13977,
+    "memoSupplied": 13977,
+    "marker": "SF-2AC2CF87"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-23-2026.json",
+    "form": "initiator",
+    "textHash": "2ac2cf8729334775",
+    "fetchedAt": "2026-11-19T10:46:40.992Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 6.7,
+    "riskScore": 6.3,
     "riskLevel": "yellow",
-    "plainTitle": "O singură declarație fiscală pentru firme, depusă online la ANAF",
-    "summaryTlDr": "Ideea de simplificare e bună, dar textul nu funcționează: intră în vigoare la o dată deja trecută, cere depunerea pe o platformă care încă nu există și nu desființează expres nicio declarație actuală. În forma aceasta adaugă amenzi noi de până la 50.000 lei în loc să reducă birocrația.",
-    "initiatorClaim": "Inițiatorii vor ca firmele să depună o singură declarație electronică, precompletată de ANAF, în locul formularelor actuale separate. Promit costuri de conformare mai mici cu până la 40% și venituri bugetare suplimentare de până la 1,5% din PIB.",
-    "realityCheck": "Legea creează o „declarație unică” paralelă cu Codul fiscal și cu Codul de procedură fiscală. Nu spune ce declarații existente dispar, ci are doar o abrogare generică la art. 11 alin. (4), așa că firmele riscă să depună și vechile formulare, și pe cel nou. Obligațiile și amenzile ar începe la 1 ianuarie 2026, dată deja trecută, deși platforma pe care se depune exclusiv vine abia în 12 luni. În plus, simplificarea vine la pachet cu un regim nou de amenzi de 3.000–50.000 lei, cu aceleași praguri pentru o microîntreprindere și pentru o corporație.",
+    "plainTitle": "O singură declarație fiscală pentru firme, dar cu amenzi mari și termene imposibile",
+    "summaryTlDr": "Ideea de a strânge toate declarațiile fiscale într-una singură este bună și utilă pentru IMM-uri. Textul e însă un schelet: nu modifică Codul fiscal și nici Codul de procedură fiscală, intră în vigoare la o dată deja trecută și introduce amenzi fixe de 5.000–50.000 lei, la fel pentru o microîntreprindere și pentru o multinațională.",
+    "initiatorClaim": "Inițiatorii vor să reducă birocrația pentru firme. Ei propun înlocuirea declarațiilor multiple (profit, TVA, contribuții, accize, taxe locale) cu o singură declarație electronică precompletată de ANAF și estimează venituri bugetare suplimentare de până la 1,5% din PIB.",
+    "realityCheck": "Legea creează o declarație unică (art. 4) și o platformă ANAF care trebuie construită abia în 12 luni (art. 11 alin. 3). Nu abrogă expres nicio declarație existentă (D100, D300, D112, D101 etc.) și se bazează pe o abrogare implicită generică (art. 11 alin. 4), deci riscul real este ca firmele să raporteze dublu. În plus, noul regim contravențional propriu (art. 9–10) se suprapune peste cel din Codul de procedură fiscală, cu amenzi mai mari, fixe și nediferențiate după mărimea firmei, aplicabile inclusiv pentru simple erori de date.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
       "Angajați & HR",
-      "IT & AI"
+      "Proprietari & Imobiliare"
     ],
     "senatForm": {
-      "articleRef": "Art. 11 alin. (1), (3) și (4)",
-      "proposalContent": "(1) Prezenta lege intră în vigoare la 12 luni de la publicarea în Monitorul Oficial. (3) ANAF pune în funcțiune platforma electronică până la data intrării în vigoare; art. 10 se aplică după 6 luni de la această dată. (4) De la aceeași dată, declarațiile cerute de Codul fiscal pentru impozitele de la art. 4 se depun numai prin Declarația fiscală unică.",
-      "argumentation": "Data de 1 ianuarie 2026 a trecut: legea ar aplica retroactiv obligații și amenzi, contrar art. 15 alin. (2) și art. 78 din Constituție. Art. 5 cere depunere exclusiv pe platformă, dar art. 11 alin. (3) îi dă ANAF 12 luni s-o creeze, deși amenzile curg din prima zi. Fără înlocuire expresă, DFU se adaugă declarațiilor actuale și crește birocrația pe care vrea s-o reducă.",
-      "otherComments": "Art. 6 alin. (2): opțiunea anuală să nu includă contribuțiile și impozitul pe salarii, altfel statutul de asigurat al angajaților se vede o dată pe an. Art. 4 lit. f): taxele locale țin de primării (art. 120 Constituție), nu de ANAF. Art. 9-10: aceleași amenzi pentru orice firmă, de la micro la contribuabil mare, și fără agent constatator desemnat (art. 15 OG nr. 2/2001)."
+      "articleRef": "Art. 10 alin. (1) și art. 11 alin. (1)",
+      "proposalContent": "Art. 10(1): amenzi diferențiate: microîntreprinderi și întreprinderi mici 500–2.000 lei, celelalte 2.000–10.000 lei; lit. b) se aplică doar dacă erorile nu sunt corectate în 30 de zile de la notificarea ANAF. Art. 11(1): «Legea intră în vigoare la 1 ianuarie al anului următor punerii în funcțiune a platformei, după minimum 6 luni de la publicare.»",
+      "argumentation": "Amenzile fixe de 5.000–50.000 lei, identice pentru o microîntreprindere și o multinațională, sunt disproporționate și dublează sancțiunile din Codul de procedură fiscală. Termenul de 1 ianuarie 2026 a trecut deja, iar obligația ar exista înaintea platformei (art. 11 alin. 3), deci contribuabilii ar fi sancționați pentru imposibilitate de conformare.",
+      "otherComments": "Art. 11 alin. (4) (abrogare implicită) încalcă Legea 24/2000. Trebuie modificate expres Codul fiscal și Codul de procedură fiscală și listate declarațiile înlocuite (D100, D300, D112 etc.), altfel apare dubla raportare. Impozitele locale (art. 4 lit. f) țin de autoritățile locale: e necesară interoperabilitate, nu transfer la ANAF."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 57973,
-      "riskScore": 8,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 86378,
+      "sourceEndMarker": "SF-2AC2CF87",
+      "riskScore": 7,
       "riskLevel": "red",
-      "plainTitle": "Declarația fiscală unică pentru firme: promisiune de debirocratizare, dar cu amenzi de 10 ori mai mari și blocaj tehnic",
-      "verdictShort": "Sub pretextul simplificării birocrației pentru IMM-uri, proiectul introduce amenzi draconice (până la 20.000 lei pentru întârziere și 15.000 lei pentru orice greșeală în date) și creează un haos juridic prin obligarea firmelor să folosească o platformă ANAF care ar urma să fie gata abia la 12 luni după intrarea legii în vigoare.",
-      "initiatorClaim": "Inițiatorii susțin că vor să reducă birocrația și costurile de conformare pentru firme și IMM-uri prin înlocuirea tuturor declarațiilor fiscale periodice (profit/micro, TVA, contribuții sociale, accize, taxe locale) cu o singură declarație electronică precompletată în platforma ANAF.",
-      "realityCheck": "În realitate, legea este redactată fără nicio corelare cu Codul fiscal și Codul de procedură fiscală: majorează de 10-20 de ori amenzile pentru IMM-uri (de la 500-1.000 lei în prezent la 5.000-20.000 lei pentru întârziere) și sancționează cu până la 15.000 lei orice eroare materială („transmiterea de date incorecte”). În plus, obligația depunerii intră în vigoare imediat, dar art. 11 alin. (3) acordă ANAF un termen de 12 luni după intrarea în vigoare pentru a construi platforma informatică.",
+      "plainTitle": "Declarația unică pentru firme: amenzi de 10x mai mari și haos fiscal sub mască de simplificare",
+      "verdictShort": "Deși ideea unei declarații unice sună bine pe hârtie, acest proiect de 11 articole este o capcană legislativă plină de contradicții care ar dinamita Codul fiscal. Sub pretextul reducerii birocrației, crește amenzile pentru IMM-uri de zece ori, dublează termenul de arhivare la 10 ani și impune depunerea electronică înainte ca platforma ANAF să existe.",
+      "initiatorClaim": "Inițiatorii susțin că unificarea tuturor declarațiilor fiscale într-un singur formular electronic va reduce costurile de conformare ale IMM-urilor cu 30-40%, timpul de raportare cu 60% și va aduce venituri bugetare suplimentare de până la 1,5% din PIB prin digitalizare finanțată din PNRR.",
+      "realityCheck": "În realitate, legea nu modifică niciun articol din Codul fiscal sau Codul de procedură fiscală, folosind o abrogare generică interzisă legal care ar paraliza colectarea taxelor. Introduce amenzi de 5.000–20.000 lei pentru întârziere (față de 500–1.000 lei acum pentru IMM-uri) și 3.000–15.000 lei pentru orice «date incorecte», readuce obligația de arhivare la 10 ani (dublu față de legea în vigoare) și amestecă taxele locale cu ANAF fără niciun mecanism funcțional.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Angajați & HR"
       ],
       "keyFindings": [
-        "Explozia amenzilor pentru IMM-uri (Art. 9 și Art. 10): Nedepunerea în termen este sancționată cu amendă de la 5.000 la 20.000 lei (față de 500–1.000 lei pentru contribuabilii mici și mijlocii în art. 336 din Codul de procedură fiscală), iar simpla „transmitere de date incorecte” (inclusiv erori materiale de completare) devine contravenție sancționată cu 3.000–15.000 lei, fără a se menționa aplicarea OG nr. 2/2001 (plata a jumătate din minim).",
-        "Paradox temporal și blocaj aplicativ (Art. 5, Art. 6 și Art. 11): Art. 11 alin. (1) prevede intrarea în vigoare la o dată deja depășită (1 ianuarie 2026), abrogă generic orice dispoziții contrare la alin. (4), dar la alin. (3) oferă ANAF 12 luni de la intrarea în vigoare pentru a implementa platforma electronică pe care firmele sunt obligate să o folosească încă din prima lună.",
-        "Amestecarea taxelor centrale cu cele locale și bulversarea evidenței salariaților (Art. 4 și Art. 6): Art. 4 alin. (1) lit. f) include „impozitele și taxele locale” în declarația depusă la ANAF (deși acestea sunt administrate de primării), iar art. 6 alin. (2) permite oricărei firme să opteze necondiționat pentru depunerea anuală (25 martie), ceea ce ar lăsa angajații fără raportarea lunară a contribuțiilor de sănătate și pensii (actuala D112)."
+        "Amenzi disproporționate și necorelate (Art. 9–10): nedepunerea în termen se sancționează cu 5.000–20.000 lei (de 10 ori minimul actual de 500 lei din art. 336 Cod procedură fiscală pentru IMM-uri), iar «datele incorecte» atrag 3.000–15.000 lei fără a excepta erorile materiale rectificabile. Faptele din art. 9 nu corespund ca formulare cu sancțiunile din art. 10 și lipsește indicarea agentului constatator.",
+        "Creșterea birocrației de arhivare (Art. 7 lit. c): obligă firmele să păstreze documentele justificative timp de 10 ani, anulând efectiv reforma din Legea nr. 36/2023 care a redus termenul legal de păstrare de la 10 la 5 ani.",
+        "Blocaj temporal și retroactivitate (Art. 5 și Art. 11): legea intră în vigoare retroactiv la 1 ianuarie 2026 și impune depunerea exclusiv electronică, dar acordă ANAF 12 luni de la intrarea în vigoare pentru a implementa platforma, fără nicio normă tranzitorie.",
+        "Coliziune cu finanțele locale și bugetul de stat (Art. 4 alin. 1 lit. f și Art. 6 alin. 2): include impozitele locale în declarația gestionată de ANAF și permite oricărei firme să opteze pentru depunere anuală pe 25 martie, fără a exclude TVA, accizele sau contribuțiile sociale.",
+        "Abrogare generică ilegală (Art. 11 alin. 4): formula «Dispozițiile contrare prezentei legi se abrogă» încalcă Legea nr. 24/2000 și lasă incert ce articole din Codul fiscal și Codul de procedură fiscală mai rămân aplicabile."
       ],
-      "blindSpotsCaught": "Neconcordanță internă la sancțiuni: Art. 9 lit. c) definește ca faptă contravențională „refuzul furnizării documentelor justificative”, însă Art. 10 alin. (1) lit. c) sancționează cu 10.000–30.000 lei o altă faptă, formulată vag drept „refuzul de cooperare”, fără a desemna nici măcar agenții constatatori.",
-      "constitutionalityNote": "Proiectul încalcă flagrant art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii) prin abrogarea generică a legislației fiscale („dispozițiile contrare se abrogă”, contrar art. 65 din Legea nr. 24/2000) și prin instituirea unei obligații legale imposibil de executat timp de 12 luni până la crearea platformei ANAF. De asemenea, data de intrare în vigoare (1 ianuarie 2026) contravine art. 15 alin. (2) și art. 78 din Constituție, iar necorelarea dintre fapta descrisă la art. 9 lit. c) și sancțiunea de la art. 10 alin. (1) lit. c) încalcă principiul legalității răspunderii contravenționale.",
-      "euLawNote": "Art. 6 alin. (2), care permite oricărui contribuabil persoană juridică să opteze necondiționat pentru declararea anuală a tuturor obligațiilor fiscale (inclusiv TVA și accize), intră în conflict cu Directiva 2006/112/CE privind sistemul comun al TVA (art. 252), care impune perioade fiscale de 1, 2 sau 3 luni și permite perioade mai lungi doar în condiții stricte stabilite de statele membre pentru prevenirea evaziunii, precum și cu Directiva (UE) 2020/262 privind regimul general al accizelor.",
+      "blindSpotsCaught": "Două capcane ascunse trec ușor neobservate: (1) Art. 6 alin. (2) acordă necondiționat opțiunea depunerii anuale până la 25 martie, ceea ce ar permite firmelor să nu raporteze lunar contribuțiile sociale ale angajaților (blocând dovada calității de asigurat la CNAS/CNPP) și TVA-ul; (2) Art. 7 lit. c) reintroduce tacit termenul de arhivare de 10 ani, anulând reducerea la 5 ani câștigată de IMM-uri prin Legea nr. 36/2023. În plus, finanțarea invocată din PNRR Componenta C9 este nerealistă ca termen pentru un proiect dezbătut în 2026.",
+      "constitutionalityNote": "Proiectul prezintă vicii grave de neconstituționalitate: încalcă art. 1 alin. (5) (claritate și previzibilitate) prin abrogarea generică interzisă de art. 65 alin. (3) din Legea 24/2000, lipsa agentului constatator, absența normelor tranzitorii și necorelarea dintre art. 9 și art. 10 (relevant și sub aspectul legalității sancțiunilor, art. 23 alin. 12); încalcă art. 15 alin. (2) (neretroactivitatea) prin intrarea în vigoare la 1 ianuarie 2026; afectează art. 120 (autonomia locală) prin preluarea taxelor locale la ANAF; și încalcă art. 138 alin. (5) privind indicarea unei surse reale de finanțare. Mai mult, clauza finală îl califică greșit drept lege organică (art. 76 alin. 1), iar preambulul invocă eronat art. 69 (mandatul reprezentativ).",
+      "euLawNote": "Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și Directiva (UE) 2015/1535 (TRIS, privind reglementări tehnice pentru servicii digitale private) nu sunt direct incidente. Totuși, proiectul intră în coliziune cu Directiva TVA 2006/112/CE (art. 252 privind perioadele fiscale și termenele declarațiilor recapitulative VIES) și cu regimul UE al accizelor, deoarece art. 6 alin. (2) permite depunerea anuală fără excepții, iar clauza generală de la art. 2 alin. (3) nu rezolvă contradicția. Impunerea depunerii exclusiv electronice înainte de existența platformei creează, totodată, o barieră disproporționată pe piața unică pentru sucursalele firmelor din alte state membre UE.",
       "senatForm": {
-        "articleRef": "Art. 4, Art. 6, Art. 9, Art. 10 și Art. 11",
-        "proposalContent": "Se elimină art. 9 și 10 (rămân aplicabile sancțiunile din Codul de procedură fiscală). La art. 4 alin. (1) se elimină lit. f) privind taxele locale. La art. 11, obligația depunerii Declarației unice și abrogarea formularelor actuale (care trebuie enumerate expres) intră în vigoare abia după 6 luni de la punerea în funcțiune a platformei ANAF.",
-        "argumentation": "Proiectul majorează de 10-20 de ori amenzile pentru IMM-uri față de Codul de procedură fiscală (până la 20.000 lei pentru întârziere și 15.000 lei pentru orice eroare materială). În plus, impune depunerea declarației de la intrarea în vigoare, dar acordă ANAF 12 luni să creeze platforma, generând un blocaj juridic și tehnic total.",
-        "otherComments": "Includerea taxelor locale în declarația ANAF încalcă autonomia financiară locală (art. 120-121 Constituție), iar opțiunea necondiționată de declarare anuală la art. 6 alin. (2) blochează evidența lunară a stagiilor de sănătate și pensii (D112) și contravine Directivei 2006/112/CE privind perioadele fiscale de raportare a TVA."
-      }
+        "articleRef": "Art. 6, Art. 7 lit. c), Art. 9-11 (Respingere)",
+        "proposalContent": "Solicit respingerea proiectului și integrarea măsurii prin modificarea expresă a Codului de procedură fiscală. Subsidiar: păstrarea arhivării de 5 ani (art. 7), corelarea amenzilor cu art. 336 CPF, eliminarea art. 6 alin. (2) și art. 11 alin. (4), indicarea agentului constatator și intrarea în vigoare doar după operaționalizarea platformei ANAF.",
+        "argumentation": "Încalcă art. 1(5), art. 15(2) și art. 120 din Constituție: impune aplicare retroactivă (1 ian. 2026), o platformă livrată după 12 luni, abrogare generică (interzisă de Legea 24/2000) și preluarea taxelor locale la ANAF. Sub pretextul simplificării, crește amenzile IMM de 10 ori, sancționează orice eroare și dublează arhivarea de la 5 la 10 ani.",
+        "otherComments": "Simplificarea fiscală este utilă, dar trebuie făcută prin modificarea explicită a Codului fiscal și a Codului de procedură fiscală, după interoperabilizarea ANAF cu CNAS/CNPP și UAT-urile. Opțiunea generală de depunere anuală (art. 6 alin. 2) ar bloca colectarea TVA și contribuțiilor sociale, încălcând Directiva TVA 2006/112/CE."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 233240,
+      "durationMs": 55356,
+      "sourceEndMarker": "SF-2AC2CF87",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "O singură declarație fiscală pentru firme, depusă online la ANAF",
-      "verdictShort": "Ideea de simplificare e bună, dar textul nu funcționează: intră în vigoare la o dată deja trecută, cere depunerea pe o platformă care încă nu există și nu desființează expres nicio declarație actuală. În forma aceasta adaugă amenzi noi de până la 50.000 lei în loc să reducă birocrația.",
-      "initiatorClaim": "Inițiatorii vor ca firmele să depună o singură declarație electronică, precompletată de ANAF, în locul formularelor actuale separate. Promit costuri de conformare mai mici cu până la 40% și venituri bugetare suplimentare de până la 1,5% din PIB.",
-      "realityCheck": "Legea creează o „declarație unică” paralelă cu Codul fiscal și cu Codul de procedură fiscală. Nu spune ce declarații existente dispar, ci are doar o abrogare generică la art. 11 alin. (4), așa că firmele riscă să depună și vechile formulare, și pe cel nou. Obligațiile și amenzile ar începe la 1 ianuarie 2026, dată deja trecută, deși platforma pe care se depune exclusiv vine abia în 12 luni. În plus, simplificarea vine la pachet cu un regim nou de amenzi de 3.000–50.000 lei, cu aceleași praguri pentru o microîntreprindere și pentru o corporație.",
+      "plainTitle": "O singură declarație fiscală pentru firme, dar cu amenzi mari și termene imposibile",
+      "verdictShort": "Ideea de a strânge toate declarațiile fiscale într-una singură este bună și utilă pentru IMM-uri. Textul e însă un schelet: nu modifică Codul fiscal și nici Codul de procedură fiscală, intră în vigoare la o dată deja trecută și introduce amenzi fixe de 5.000–50.000 lei, la fel pentru o microîntreprindere și pentru o multinațională.",
+      "initiatorClaim": "Inițiatorii vor să reducă birocrația pentru firme. Ei propun înlocuirea declarațiilor multiple (profit, TVA, contribuții, accize, taxe locale) cu o singură declarație electronică precompletată de ANAF și estimează venituri bugetare suplimentare de până la 1,5% din PIB.",
+      "realityCheck": "Legea creează o declarație unică (art. 4) și o platformă ANAF care trebuie construită abia în 12 luni (art. 11 alin. 3). Nu abrogă expres nicio declarație existentă (D100, D300, D112, D101 etc.) și se bazează pe o abrogare implicită generică (art. 11 alin. 4), deci riscul real este ca firmele să raporteze dublu. În plus, noul regim contravențional propriu (art. 9–10) se suprapune peste cel din Codul de procedură fiscală, cu amenzi mai mari, fixe și nediferențiate după mărimea firmei, aplicabile inclusiv pentru simple erori de date.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Angajați & HR"
       ],
       "keyFindings": [
-        "Art. 11 alin. (1): legea intră în vigoare la 1 ianuarie 2026, o dată deja trecută, deși proiectul e încă la comisiile Camerei. Textul ar impune retroactiv obligații și amenzi.",
-        "Art. 5 alin. (1) și art. 11 alin. (3): depunerea se face exclusiv pe platforma ANAF, dar ANAF are 12 luni de la intrarea în vigoare ca s-o construiască. Amenzile de la art. 10 nu așteaptă platforma.",
-        "Art. 11 alin. (4): textul conține doar formula generică „dispozițiile contrare se abrogă”. Nu modifică Codul fiscal (Legea nr. 227/2015) sau Codul de procedură fiscală (Legea nr. 207/2015) și nu numește nicio declarație înlocuită (100, 101, 112, 300). Rezultă un paralelism legislativ interzis de art. 16 din Legea nr. 24/2000 și riscul unei raportări duble.",
-        "Art. 9–10: amenzile merg de la 3.000 la 50.000 lei, cu aceleași praguri pentru o microîntreprindere și pentru un contribuabil mare. Lit. b) sancționează orice „date incorecte”, fără prag și fără condiția culpei. Legea nu desemnează agentul constatator cerut de art. 15 din OG nr. 2/2001, deci amenzile ar fi greu de aplicat.",
-        "Art. 9 lit. c)–d) și art. 10 alin. (2): refuzul de a prezenta documente și împiedicarea controlului sunt deja sancționate de Codul de procedură fiscală, iar în forma gravă de art. 4 din Legea nr. 241/2005. Apare riscul unei duble sancționări pentru aceeași faptă (ne bis in idem). În plus, art. 9 lit. c) vorbește de „refuzul furnizării documentelor”, iar art. 10 lit. c) de „refuzul de cooperare”.",
-        "Art. 4 alin. (1) lit. f): impozitele și taxele locale sunt administrate de primării, nu de ANAF. Legea nu spune cum ajung datele și banii la bugetele locale.",
-        "Fișa de impact bugetar se contrazice singură: un rând promite +1,5% din PIB în anul III (peste 25 mld. lei), dar totalul pe același an e +1,9 mld. lei. „Estimările Ministerului Finanțelor” invocate în expunerea de motive nu au sursă. Tot acolo se afirmă că nu există cheltuieli semnificative, deși ANAF trebuie să construiască o platformă interoperabilă cu primăriile și cu alte ministere.",
-        "Părți bune: art. 5 alin. (3) protejează firma când cade sistemul, iar art. 8 alin. (2)–(3) fixează termene pentru ANAF (confirmare în 24 de ore, neconcordanțe comunicate în 30 de zile). Totuși, legea nu prevede nicio consecință dacă ANAF nu respectă aceste termene."
+        "Art. 11 alin. (1): intrarea în vigoare la 1 ianuarie 2026 este o dată deja depășită. Dacă legea se adoptă astfel, ar produce efecte retroactive, interzise de art. 15 alin. (2) din Constituție, și ar încălca regula de predictibilitate de minimum 6 luni din art. 4 al Codului fiscal.",
+        "Art. 11 alin. (3) coroborat cu art. 9 lit. a) și art. 10: obligația de depunere și amenzile pentru nedepunere există din momentul intrării în vigoare, dar platforma prin care se depune poate apărea abia după 12 luni. Contribuabilii ar putea fi sancționați pentru o obligație imposibil de îndeplinit.",
+        "Art. 10 alin. (1): amenzi fixe de 5.000–20.000 lei pentru întârziere și de 3.000–15.000 lei pentru «date incorecte», fără diferențiere după mărimea contribuabilului și fără condiția culpei sau a nerectificării. Codul de procedură fiscală diferențiază sancțiunile, iar regimul de aici e disproporționat pentru microîntreprinderi și creează un dublu regim sancționator.",
+        "Art. 11 alin. (4): formula «dispozițiile contrare se abrogă» contravine art. 65 din Legea nr. 24/2000, care cere abrogări exprese. Nu se modifică Codul fiscal (Legea 227/2015) și nici Codul de procedură fiscală (Legea 207/2015), unde sunt reglementate efectiv declarațiile.",
+        "Art. 4 alin. (1) lit. f): impozitele și taxele locale sunt incluse într-o declarație gestionată de ANAF, deși sunt administrate de autoritățile locale. Fără un mecanism de interoperabilitate, apare un conflict cu autonomia locală.",
+        "Art. 6 alin. (2): opțiunea generală de depunere anuală, inclusiv pentru TVA și contribuții sociale, contrazice obligațiile lunare de plată și de raportare nominală a salariaților. Este și o opțiune riscantă pentru încasările bugetare.",
+        "Art. 2: domeniul de aplicare cuprinde toate persoanele juridice cu activitate economică, deci și asociații, fundații și companii mari, ceea ce depășește titlul (societăți și IMM). Mențiunea «filialele» persoanelor juridice străine este imprecisă, pentru că filialele sunt persoane juridice române.",
+        "Fișa de impact bugetar estimează venituri suplimentare de 650 mil.–1,9 mld. lei pe an și o creștere a conformării de 1,5% din PIB, fără metodologie. Ea invocă finanțare PNRR C9, al cărei orizont de implementare a expirat în 2026."
       ],
-      "blindSpotsCaught": "Art. 6 alin. (2) permite oricărei firme, inclusiv contribuabililor mari, să declare anual până la 25 martie, iar art. 4 include TVA și contribuțiile sociale. Dacă și contribuțiile salariaților trec pe regim anual, statutul lor de asigurat în sănătate și stagiul de cotizare s-ar confirma cu până la 15 luni întârziere. Legea nu spune nimic despre termenele de plată, așa că nu e clar dacă declararea anuală amână doar raportarea sau și plata TVA, ceea ce ar crea o gaură de cash-flow pentru buget. În plus, art. 4 nu menționează impozitul pe salarii, deși art. 3 lit. a) promite că declarația cuprinde „toate impozitele”.",
-      "constitutionalityNote": "Art. 11 alin. (1) fixează intrarea în vigoare la o dată anterioară oricărei publicări posibile. Asta încalcă art. 78, care permite intrarea în vigoare doar la 3 zile de la publicare sau la o dată ulterioară, și art. 15 alin. (2) privind neretroactivitatea, cu atât mai grav cu cât e vorba de contravenții. Previzibilitatea cerută de art. 1 alin. (5) are de suferit din mai multe motive. Titlul vizează IMM-urile, dar art. 2 cuprinde toate persoanele juridice. Art. 9 lit. c) și art. 10 lit. c) descriu fapte diferite. Art. 9 lit. b) sancționează orice dată incorectă, fără condiția culpei. Includerea taxelor locale într-o declarație gestionată de ANAF, fără vreun mecanism de transmitere către primării, poate intra în conflict cu autonomia financiară locală (art. 120 și art. 139 alin. (2)). Legea are impact bugetar (platformă nouă, interoperabilitate), deci sunt incidente art. 111 alin. (1) teza a doua, care obligă la informarea Guvernului, și art. 138 alin. (5), care cere sursa de finanțare. Fișa de impact există, dar cifrele ei nu se leagă. Obiectul reglementării ține de legea ordinară.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează accesul la vreo profesie (consultant fiscal, expert contabil). Nici notificarea TRIS după Directiva (UE) 2015/1535 nu pare necesară: platforma e un canal administrativ între stat și contribuabil, nu o regulă tehnică pentru servicii ale societății informaționale oferite de operatori privați. Relevantă este Directiva TVA 2006/112/CE. Perioada fiscală anuală e permisă, fiindcă art. 252 alin. (2) admite perioade de până la un an, iar declarațiile recapitulative intracomunitare rămân separate datorită art. 2 alin. (3) din lege. Platforma ar trebui corelată cu pachetul ViDA (Directiva (UE) 2025/516), care introduce din 2030 raportarea digitală a tranzacțiilor intracomunitare, precum și cu e-Factura și SAF-T deja existente. Altfel riscă să fie depășită înainte de lansare. Interoperabilitatea cu bazele de date ale altor instituții, promisă în expunerea de motive, cere garanții GDPR (Regulamentul (UE) 2016/679) mai precise decât formula generală de la art. 8 alin. (1). Pe concurență, efectul e neutru: legea nu creează monopoluri și nu avantajează vreun operator privat.",
+      "blindSpotsCaught": "Legea instituie o obligație sancționabilă înainte să existe instrumentul tehnic prin care poate fi îndeplinită. Normele metodologice trebuie adoptate prin HG în 90 de zile de la publicare, dar modelul declarației se aprobă prin ordin al ministrului (art. 4 alin. 2), deci sunt două acte secundare cu termene necorelate. Art. 8 impune ANAF termene (confirmare în 24 de ore, neconcordanțe comunicate în 30 de zile) fără nicio consecință juridică dacă le încalcă, în timp ce contribuabilul riscă amenzi de până la 50.000 lei. Art. 6 alin. (3) permite rectificative până la prescripție, ceea ce e favorabil, dar nu precizează dacă rectificarea voluntară înlătură amenda pentru «date incorecte» (art. 9 lit. b).",
+      "constitutionalityNote": "Problemele principale sunt trei. (1) Neretroactivitatea (art. 15 alin. 2): data de 1.01.2026 este depășită. (2) Calitatea legii (art. 1 alin. 5): abrogarea implicită, suprapunerea cu Codul de procedură fiscală, lipsa listei declarațiilor înlocuite și contravenția vagă «transmiterea de date incorecte», fără element de vinovăție, afectează claritatea și previzibilitatea. CCR a sancționat constant norme contravenționale imprecise. (3) Autonomia locală (art. 120–121, art. 139 alin. 2): includerea taxelor locale într-o declarație administrată central necesită corelare cu Codul fiscal, Titlul IX. Sub aspect procedural, propunerea are implicații bugetare, deci sunt necesare punctul de vedere al Guvernului și indicarea sursei de finanțare (art. 111 alin. 1, art. 138 alin. 5; art. 15 din Legea 500/2002). Amenzile fixe și ridicate ridică și o problemă de proporționalitate (art. 53, art. 44).",
+      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă, pentru că nu se reglementează accesul la profesii. Nici Directiva TRIS 2015/1535 nu se aplică: platforma este un serviciu al administrației, nu o regulă privind serviciile societății informaționale. Relevantă este Directiva 2006/112/CE privind TVA: art. 252 permite perioade fiscale de până la un an, dar declarația trebuie să conțină elementele obligatorii din art. 250–251, iar declarațiile recapitulative (art. 262–263) rămân separate. Accizele sunt guvernate de Directiva (UE) 2020/262, care impune proceduri specifice. Prelucrarea centralizată și interoperabilă a datelor trebuie să respecte GDPR (Regulamentul 2016/679). Ideea este aliniată principiului «o singură dată» din Regulamentul (UE) 2018/1724 și testului IMM recomandat de Comisie.",
       "senatForm": {
-        "articleRef": "Art. 11 alin. (1), (3) și (4)",
-        "proposalContent": "(1) Prezenta lege intră în vigoare la 12 luni de la publicarea în Monitorul Oficial. (3) ANAF pune în funcțiune platforma electronică până la data intrării în vigoare; art. 10 se aplică după 6 luni de la această dată. (4) De la aceeași dată, declarațiile cerute de Codul fiscal pentru impozitele de la art. 4 se depun numai prin Declarația fiscală unică.",
-        "argumentation": "Data de 1 ianuarie 2026 a trecut: legea ar aplica retroactiv obligații și amenzi, contrar art. 15 alin. (2) și art. 78 din Constituție. Art. 5 cere depunere exclusiv pe platformă, dar art. 11 alin. (3) îi dă ANAF 12 luni s-o creeze, deși amenzile curg din prima zi. Fără înlocuire expresă, DFU se adaugă declarațiilor actuale și crește birocrația pe care vrea s-o reducă.",
-        "otherComments": "Art. 6 alin. (2): opțiunea anuală să nu includă contribuțiile și impozitul pe salarii, altfel statutul de asigurat al angajaților se vede o dată pe an. Art. 4 lit. f): taxele locale țin de primării (art. 120 Constituție), nu de ANAF. Art. 9-10: aceleași amenzi pentru orice firmă, de la micro la contribuabil mare, și fără agent constatator desemnat (art. 15 OG nr. 2/2001)."
-      }
+        "articleRef": "Art. 10 alin. (1) și art. 11 alin. (1)",
+        "proposalContent": "Art. 10(1): amenzi diferențiate: microîntreprinderi și întreprinderi mici 500–2.000 lei, celelalte 2.000–10.000 lei; lit. b) se aplică doar dacă erorile nu sunt corectate în 30 de zile de la notificarea ANAF. Art. 11(1): «Legea intră în vigoare la 1 ianuarie al anului următor punerii în funcțiune a platformei, după minimum 6 luni de la publicare.»",
+        "argumentation": "Amenzile fixe de 5.000–50.000 lei, identice pentru o microîntreprindere și o multinațională, sunt disproporționate și dublează sancțiunile din Codul de procedură fiscală. Termenul de 1 ianuarie 2026 a trecut deja, iar obligația ar exista înaintea platformei (art. 11 alin. 3), deci contribuabilii ar fi sancționați pentru imposibilitate de conformare.",
+        "otherComments": "Art. 11 alin. (4) (abrogare implicită) încalcă Legea 24/2000. Trebuie modificate expres Codul fiscal și Codul de procedură fiscală și listate declarațiile înlocuite (D100, D300, D112 etc.), altfel apare dubla raportare. Impozitele locale (art. 4 lit. f) țin de autoritățile locale: e necesară interoperabilitate, nu transfer la ANAF."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 187088,
+      "durationMs": 94615,
+      "sourceEndMarker": "SF-2AC2CF87",
       "riskScore": 7,
       "riskLevel": "red",
-      "plainTitle": "O singură declarație fiscală, dar reguli neclare și amenzi mari",
-      "verdictShort": "Simplificarea raportărilor fiscale este utilă, însă proiectul combină obligații insuficient corelate cu amenzi ridicate și un calendar imposibil în forma actuală. Riscul major provine din redactare și implementare, fără ca textul să instituie taxe noi sau privilegii comerciale explicite.",
-      "initiatorClaim": "Inițiatorii promit înlocuirea declarațiilor fiscale multiple cu un document electronic precompletat, pentru reducerea birocrației și a costurilor firmelor. Economiile și creșterile de încasări prezentate în expunerea de motive sunt estimări, nu efecte garantate ale articolelor.",
-      "realityCheck": "Art. 4 reunește informații despre numeroase obligații fiscale, însă proiectul nu identifică expres declarațiile înlocuite și modificările necesare legislației existente. Art. 6 permite declararea anuală fără condiții clare, dar nu amână expres termenele de plată a impozitelor. Depunerea exclusiv electronică și sancțiunile nu sunt condiționate de funcționarea platformei, pentru realizarea căreia ANAF primește încă 12 luni.",
+      "plainTitle": "O singură declarație fiscală, cu termene contradictorii și amenzi mari",
+      "verdictShort": "Simplificarea declarării este utilă, dar forma propusă creează riscuri serioase prin obligații insuficient corelate cu legislația fiscală, sancțiuni ample și o tranziție defectuoasă. Proiectul necesită corectări substanțiale înainte de adoptare.",
+      "initiatorClaim": "Inițiatorii promit reunirea declarațiilor fiscale într-un document electronic, reducerea costurilor pentru firme și creșterea colectării. Economiile și veniturile suplimentare prezentate sunt estimări din motivare, nu rezultate demonstrate.",
+      "realityCheck": "Proiectul instituie o declarație electronică pentru aproape toate categoriile de obligații fiscale, inclusiv cele locale, dar nu identifică expres declarațiile înlocuite și modificările necesare în codurile fiscale. Art. 6 permite oricărui contribuabil vizat să aleagă declararea anuală, fără să precizeze raportul cu perioadele fiscale și scadențele de plată existente. Art. 11 combină intrarea în vigoare la o dată deja trecută cu maximum 12 luni pentru realizarea platformei, fără protecție tranzitorie explicită față de obligații și amenzi.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
-        "IT & AI",
-        "Angajați & HR"
+        "Angajați & HR",
+        "Proprietari & Imobiliare"
       ],
       "keyFindings": [
-        "Art. 2: domeniul depășește IMM-urile și societățile comerciale, cuprinzând toate persoanele juridice române care desfășoară activități economice și structurile străine menționate. Nu există o tranziție diferențiată pentru firmele mici.",
-        "Art. 4 și art. 11 alin. (4): declarațiile eliminate nu sunt enumerate, iar abrogarea generică a dispozițiilor contrare lasă contribuabilul să determine ce obligații supraviețuiesc. Există risc de raportări paralele și interpretări divergente.",
-        "Art. 6 alin. (2): opțiunea anuală nu precizează procedura de exercitare, obligațiile eligibile și relația cu raportările lunare sau trimestriale. Reducerea frecvenței declarării nu echivalează automat cu amânarea plății.",
-        "Art. 11 alin. (1) și (3): data de 1 ianuarie 2026 este deja depășită, iar platforma poate fi implementată abia după 12 luni de la intrarea în vigoare. Lipsesc dispoziții care să suspende noua obligație și sancțiunile până la operaționalizare.",
-        "Art. 5 alin. (3): protecția pentru defecțiuni depinde de raportul sistemului informatic. Nu este reglementată situația în care indisponibilitatea împiedică atât transmiterea, cât și generarea dovezii, nici prelungirea termenului în asemenea cazuri.",
-        "Art. 7 lit. c): păstrarea generală a documentelor justificative timp de 10 ani prelungește sarcina față de termenul general contabil de 5 ani, fără justificare particularizată; există și categorii cu reguli speciale. [Legea contabilității, art. 25](https://legislatie.just.ro/Public/DetaliiDocumentAfis/263544).",
-        "Art. 9-10: întârzierea atrage amenzi de 5.000-20.000 lei, iar datele incorecte de 3.000-15.000 lei, fără delimitarea erorilor minore și a remedierii voluntare. Proporționalitatea pentru IMM-uri este discutabilă; totuși, proiectul nu exclude expres avertismentul disponibil în dreptul comun. [OG nr. 2/2001, art. 5 și 7](https://legislatie.just.ro/Public/DetaliiDocumentAfis/307794).",
-        "Art. 4 alin. (1) lit. f) include taxele locale, dar definiția autorității competente cuprinde numai ANAF și structurile sale. Lipsesc mecanismele privind transmiterea către organele fiscale locale și efectul depunerii asupra obligațiilor administrate de acestea.",
-        "Impactul bugetar nu este demonstrat prin simpla invocare a fondurilor europene. Consiliul Fiscal a constatat neîndeplinirea cerințelor art. 15 alin. (1) din Legea nr. 69/2010, inclusiv pentru infrastructură, întreținere și instruire; extrasul financiar furnizat este incomplet și nu permite verificarea costului total. [Opinia Consiliului Fiscal](https://www.senat.ro/legis/PDF/2025/25L518CF.PDF?nocache=true).",
-        "Procedural, Senatul a respins propunerea la 22.12.2025, fără ca aceasta să împiedice decizia Camerei Deputaților. Fișa Camerei consemnează și punctul de vedere negativ al Guvernului; termenul de amendamente din 11.02.2026 este depășit. [Fișa Pl-x 23/2026](https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22906)."
+        "Art. 11 alin. (1) fixează intrarea în vigoare la 1 ianuarie 2026, deși, potrivit datelor furnizate, proiectul este încă la comisii. O lege publicată ulterior nu poate intra în vigoare retroactiv; data trebuie înlocuită.",
+        "Art. 5 impune depunerea exclusiv electronică, iar art. 11 alin. (3) acordă ANAF 12 luni pentru platformă. Lipsesc menținerea explicită a procedurilor existente și amânarea obligației și a sancțiunilor până la funcționarea sistemului.",
+        "Art. 6 alin. (2) permite declararea anuală fără criterii sau excluderi. Textul nu modifică expres termenele de plată: opțiunea anuală nu trebuie prezentată contribuabililor drept dreptul de a plăti toate taxele anual.",
+        "Art. 11 alin. (4) abrogă generic dispozițiile contrare. Fără identificarea normelor eliminate și corelări exprese, contribuabilii nu pot determina sigur ce declarații, termene și proceduri continuă să se aplice.",
+        "Art. 4 alin. (1) lit. f) include taxele locale, dar art. 3 lit. b) desemnează numai ANAF și structurile sale. Nu sunt reglementate atribuțiile organelor fiscale locale, transmiterea datelor sau efectul depunerii la ANAF asupra obligațiilor față de acestea.",
+        "Art. 9–10 sancționează datele incorecte cu 3.000–15.000 lei și nedepunerea cu 5.000–20.000 lei, fără diferențiere expresă după gravitate sau dimensiunea contribuabilului. Culpa rămâne necesară potrivit dreptului contravențional general, dar lipsesc delimitarea față de contravențiile fiscale existente și protecția explicită pentru erorile provenite din precompletare.",
+        "Art. 5 alin. (3) cere raportul sistemului pentru a dovedi transmiterea în timpul unei defecțiuni. Protecția poate deveni inutilizabilă dacă tocmai defecțiunea împiedică transmiterea sau generarea raportului; sunt necesare dovezi alternative și prelungirea termenului.",
+        "Art. 7 lit. c) impune păstrarea documentelor timp de 10 ani, fără precizarea momentului de început și fără corelarea cu termenele legale de arhivare. Aceasta introduce o sarcină administrativă care trebuie justificată distinct de obiectivul simplificării.",
+        "Fișa bugetară estimează în primul an cheltuieli brute de 155 milioane lei și economii de 40 milioane lei, rezultând 115 milioane lei cheltuieli nete suplimentare. Finanțarea europeană este enunțată, fără documente privind eligibilitatea și disponibilitatea sumelor; veniturile anticipate nu constituie finanțare certă."
       ],
-      "blindSpotsCaught": "Clauza din art. 2 alin. (3), care păstrează obligațiile declarative speciale europene, limitează chiar promisiunea unei declarații care le înlocuiește pe toate și nu clarifică aplicarea opțiunii anuale la TVA. Separat, formula finală invocă art. 76 alin. (1), privind legile organice, deși fișa Senatului clasifică inițiativa drept lege ordinară: formula trebuie corelată, fără ca această eroare să dovedească singură neconstituționalitatea. [Fișa Senatului](https://www.senat.ro/Legis/Lista.aspx?cod=27146).",
-      "constitutionalityNote": "Există riscuri serioase pentru claritatea și previzibilitatea cerute de art. 1 alin. (5): termene contradictorii, abrogare nedeterminată și contravenții insuficient delimitate, inclusiv diferențe între descrierea faptelor și formularea sancțiunilor. Art. 23 alin. (12) consacră legalitatea pedepsei penale; pentru amenzile contravenționale, reperul constituțional direct al previzibilității este art. 1 alin. (5). Art. 10 alin. (2) nu creează singur infracțiuni. Menținerea unei intrări în vigoare anterioare publicării ar contraveni art. 78 și, dacă ar produce efecte retroactive nefavorabile, art. 15 alin. (2). Cheltuielile impun verificarea cerințelor art. 111 alin. (1) și art. 138 alin. (5); existența punctului de vedere al Guvernului împiedică presupunerea că acesta nu a fost consultat. Constatarea definitivă a neconstituționalității depinde de forma adoptată și procedura efectivă. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355).",
-      "euLawNote": "Directiva (UE) 2018/958 nu este un test general pentru orice sarcină economică: privește restricțiile asupra accesului la profesii reglementate sau exercitării lor. Textul analizat nu introduce asemenea condiții profesionale, deci nu rezultă aplicabilitatea sa directă. [Art. 1-2](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32018L0958). Nici notificarea TRIS nu devine obligatorie doar pentru că declarația este electronică: proiectul nu reglementează explicit și țintit servicii comerciale digitale sau AI și nu stabilește specificații tehnice pentru produse. Eventualele norme ulterioare trebuie evaluate separat. [Directiva (UE) 2015/1535, art. 1 și 5](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535). Problema europeană concretă este TVA: art. 252 permite perioade fiscale de până la un an, dar termenul general de depunere nu poate depăși două luni de la încheierea perioadei; 25 martie pentru anul calendaristic anterior depășește această limită, în lipsa unei derogări aplicabile. [Directiva TVA](https://eur-lex.europa.eu/eli/dir/2006/112/oj?locale=ro). Nu apare un monopol privat; costurile fixe de adaptare și amenzile pot însă dezavantaja firmele mici în concurență.",
+      "blindSpotsCaught": "Problema decisivă se află în dispozițiile finale: abrogarea generică poate afecta cadrul existent înainte ca noua platformă să funcționeze. În plus, art. 2 include sucursalele persoanelor juridice străine, în timp ce art. 3 definește contribuabilul exclusiv ca persoană juridică; sucursala nu are personalitate juridică proprie. Denumirea axată pe IMM-uri ascunde și un domeniu mai larg, care cuprinde toate persoanele juridice române cu activități economice.",
+      "constitutionalityNote": "Există vulnerabilități serioase raportate la art. 1 alin. (5): raportul neclar cu legislația existentă, competențele fiscale locale, termenele alternative și abrogarea nedeterminată afectează previzibilitatea. Intrarea în vigoare anterioară publicării contravine art. 78 și principiului neretroactivității din art. 15 alin. (2). Art. 23 alin. (12) privește pedeapsa penală; pentru aceste amenzi contravenționale, analiza clarității se întemeiază în principal pe art. 1 alin. (5), cu garanțiile aplicabile materiei contravenționale. Cheltuielile platformei impun verificarea cerințelor art. 111 alin. (1) și art. 138 alin. (5); documentele furnizate nu permit stabilirea îndeplinirii procedurilor constituționale. Caracterul fiscal al proiectului nu justifică singur adoptarea ca lege organică, sugerată de formula finală care invocă art. 76 alin. (1).",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor privind accesul la profesii reglementate și exercitarea lor; proiectul nu introduce asemenea restricții, deci testul său nu este obligatoriu doar pentru că sunt afectați contabilii. Nu rezultă nici instituirea unui monopol comercial sau a unor furnizori privați privilegiați. Platforma administrativă ANAF nu atrage automat notificarea TRIS potrivit Directivei (UE) 2015/1535; textul nu identifică cerințe tehnice pentru produse ori reguli specifice serviciilor societății informaționale oferite pe piață. În schimb, opțiunea anuală trebuie corelată cu Directiva 2006/112/CE: pentru declarația TVA obișnuită, art. 252 permite perioade fiscale de maximum un an, dar termenul de depunere nu poate depăși două luni după încheierea perioadei. Data de 25 martie depășește acest interval pentru anul calendaristic. Rezerva generală din art. 2 alin. (3) nu oferă contribuabilului o delimitare suficient de clară a obligațiilor excluse.",
       "senatForm": {
-        "articleRef": "Art. 11",
-        "proposalContent": "Legea intră în vigoare la 3 zile de la publicare. Guvernul adoptă normele în 90 de zile, iar ANAF asigură platforma în 12 luni. Noul regim declarativ și sancțiunile aferente se aplică de la 1 ianuarie următor operaționalizării platformei, anunțată public cu minimum 6 luni înainte. Până atunci se mențin obligațiile declarative existente.",
-        "argumentation": "Data de 1 ianuarie 2026 este depășită, iar depunerea exclusiv electronică nu poate deveni obligatorie înaintea existenței platformei. Tranziția protejează contribuabilii de obligații imposibil de îndeplinit și sancțiuni imprevizibile, în acord cu art. 1 alin. (5), art. 15 alin. (2) și art. 78 din Constituție.",
-        "otherComments": "Propunere de transmis comisiilor pentru politică economică și pentru buget ale Camerei Deputaților, pentru eventuala preluare de un deputat. Termenul de amendamente din fișă, 11.02.2026, este depășit. Sunt necesare și corelarea codurilor fiscale, revizuirea art. 6 și 9-10 și fundamentarea finanțării."
-      }
+        "articleRef": "Art. 11 alin. (1), (3) și (4)",
+        "proposalContent": "(1) Legea intră în vigoare la 3 zile de la publicare. (3) Obligațiile declarative și sancțiunile aferente se aplică de la 1 ianuarie a anului următor operaționalizării platformei ANAF. Până atunci se aplică procedurile existente. (4) Declarațiile înlocuite și dispozițiile abrogate se identifică expres prin lege înaintea aplicării noului sistem.",
+        "argumentation": "Data fixă este depășită și nu poate produce intrare în vigoare retroactivă. Obligația exclusiv electronică trebuie sincronizată cu funcționarea platformei. Tranziția și abrogările exprese protejează previzibilitatea fiscală și evită sancționarea contribuabililor pentru lipsa infrastructurii publice.",
+        "otherComments": "Sunt necesare și amendamente la art. 6 privind TVA și termenele de plată, precum și la art. 9–10 privind sancțiunile. Termenul indicat pentru amendamente, 11.02.2026, este depășit. Analiza privește textele furnizate; stadiul actual și legislația consolidată nu au putut fi verificate online."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 6.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T07:04:29.092Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 8,
+        "claude": 5,
+        "codex": 7
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:12:52.157Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

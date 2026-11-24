@@ -82,9 +82,19 @@ export interface SenateInput {
   stage: string;
   /** Ultima zi a consultării publice, YYYY-MM-DD, sau null dacă nu se poate citi. */
   consultationDeadline: string | null;
-  /** Comisia sesizată în fond și termenul raportului, din fișa Senatului („trimis pentru raport la …”). */
-  reportCommittee?: { name: string; deadline: string | null } | null;
+  /** Comisiile sesizate în fond (una sau mai multe, pentru raport comun) și termenul raportului, din fișa Senatului. */
+  reportCommittees?: ReportCommittees | null;
 }
+
+/** Comisiile sesizate în fond la Senat, fără dubluri, în ordinea din fișă; mai multe înseamnă raport comun. */
+export interface ReportCommittees {
+  names: string[];
+  /** Cel mai târziu termen al raportului, YYYY-MM-DD, sau null dacă fișa nu-l scrie. */
+  deadline: string | null;
+}
+
+/** Numele comisiilor, despărțite prin „;” (numele lor au virgule: „Comisia juridică, de numiri, …”). */
+const committeesText = (rc: ReportCommittees) => rc.names.join('; ');
 
 /** Stadiul unui proiect din consultarea Senatului care n-a ajuns (verificat) la Cameră. */
 export function senateStage(b: SenateInput, today: string): Stage {
@@ -139,9 +149,12 @@ export function senateStage(b: SenateInput, today: string): Stage {
       guidance: `Până pe ${deadline} inclusiv, opinia se depune prin formularul de consultare publică al Senatului; un e-mail către comisia sesizată o completează, dar nu o înlocuiește.`,
     };
   }
-  const rc = b.reportCommittee;
+  const rc = b.reportCommittees?.names.length ? b.reportCommittees : null;
+  const joint = (rc?.names.length ?? 0) > 1;
   const deadlines: Deadline[] =
-    rc?.deadline && rc.deadline >= today ? [{ type: 'committee_report', audience: 'committee', chamber: 'senat', label: `Termenul raportului (${rc.name})`, date: rc.deadline }] : [];
+    rc?.deadline && rc.deadline >= today
+      ? [{ type: 'committee_report', audience: 'committee', chamber: 'senat', label: `${joint ? 'Termenul raportului comun' : 'Termenul raportului'} (${committeesText(rc)})`, date: rc.deadline }]
+      : [];
   const phase: Phase = /ordinea de zi|plen/.test(s) ? 'plenary' : /raport/.test(s) ? 'report' : 'committees';
   return {
     ...base,
@@ -160,9 +173,11 @@ export function senateStage(b: SenateInput, today: string): Stage {
     window: deadline ? { ...CLOSED, kind: 'senate_public_consultation', closes_on: deadline } : CLOSED,
     guidance: `Consultarea publică s-a încheiat${deadline ? ` pe ${deadline}` : ''}. ${
       phase !== 'committees'
-        ? 'Poți scrie senatorilor din comisia sesizată sau celor din județul tău.'
+        ? `Poți scrie senatorilor din ${joint ? 'comisiile sesizate' : 'comisia sesizată'} sau celor din județul tău.`
         : rc
-          ? `Poți trimite o propunere motivată, pe e-mail, comisiei sesizate în fond (${rc.name}).`
+          ? joint
+            ? `Poți trimite o propunere motivată, pe e-mail, comisiilor sesizate în fond, care fac raport comun (${committeesText(rc)}).`
+            : `Poți trimite o propunere motivată, pe e-mail, comisiei sesizate în fond (${committeesText(rc)}).`
           : 'Comisia sesizată în fond nu apare încă pe fișa Senatului; până atunci, o propunere motivată se poate trimite registraturii Senatului (infopub@senat.ro).'
     } ${NOT_GUARANTEED}`,
   };
@@ -236,16 +251,25 @@ export function chamberStage({ status: st, consultation }: ChamberInput, today: 
   return { current_chamber: current, phase, status: st.title, in_debate: inDebate, deadlines, window, guidance, stage_source: 'cdep.ro' };
 }
 
-/** „trimis pentru raport la Comisia juridică, … (TERMEN: 10/11/2026)” → comisia și termenul (ultima trimitere câștigă). */
-export function senateReportCommittee(timeline: { action: string }[]): { name: string; deadline: string | null } | null {
-  let out: { name: string; deadline: string | null } | null = null;
+/**
+ * „trimis pentru raport la Comisia juridică, … (TERMEN: 10/11/2026)” → comisiile sesizate în fond și termenul. Senatul
+ * scrie câte un rând pentru fiecare comisie a unui raport comun (B563/2026: comisia economică și cea juridică), uneori de
+ * două ori, când Biroul permanent reface repartizarea (B553/2026); „raport suplimentar” cere un termen nou aceleiași
+ * comisii (B582/2026). Toate comisiile rămân, o singură dată fiecare, cu cel mai târziu termen.
+ */
+export function senateReportCommittees(timeline: { action: string }[]): ReportCommittees | null {
+  const names = new Map<string, string>();
+  let deadline: string | null = null;
   for (const t of timeline) {
-    const m = t.action.match(/trimis pentru raport la (comisia .+?)\s*(?:\(termen:\s*(\d{1,2})[/.](\d{1,2})[/.](\d{4})\))?\s*$/i);
+    const m = t.action.match(/trimis pentru raport (?:suplimentar )?la (comisia .+?)\s*(?:\(termen:\s*(\d{1,2})[/.](\d{1,2})[/.](\d{4})\))?\s*$/i);
     if (!m) continue;
-    const deadline = m[2] ? isoDate(`${m[2]}.${m[3]}.${m[4]}`) : null;
-    out = { name: m[1].replace(/^c/, 'C').replace(/ş/g, 'ș').replace(/ţ/g, 'ț'), deadline };
+    const name = m[1].replace(/^c/, 'C').replace(/ş/g, 'ș').replace(/ţ/g, 'ț');
+    const key = fold(name).replace(/\s+/g, ' ').trim();
+    if (!names.has(key)) names.set(key, name);
+    const d = m[2] ? isoDate(`${m[2]}.${m[3]}.${m[4]}`) : null;
+    if (d && (!deadline || d > deadline)) deadline = d;
   }
-  return out;
+  return names.size ? { names: [...names.values()], deadline } : null;
 }
 
 /** Proiectul Camerei cu `senat` setat e chiar proiectul Senatului doar dacă a fost înregistrat la Cameră după Senat. */

@@ -7,7 +7,7 @@ import { resolveStatus } from './bill-status';
 import { CONTENT_LICENSE, SITE_URL } from './site';
 import { todayISO } from './format';
 import { isoDate, normalizeId } from './bill-ids';
-import { chamberStage, plausibleLink, senateReportCommittee, senateStage, type Chamber, type Deadline, type Phase, type Stage, type SubmissionWindow } from './open-data-stage';
+import { chamberStage, plausibleLink, senateReportCommittees, senateStage, type ReportCommittees, type Chamber, type Deadline, type Phase, type Stage, type SubmissionWindow } from './open-data-stage';
 
 /**
  * Datele deschise de la /date (fișiere JSON scrise la build) și sursa MCP-ului public (worker/mcp.ts): pentru fiecare
@@ -92,7 +92,15 @@ export interface BillDossier extends BillSummary {
     recipients: Recipient[];
     /** Câmpurile pregătite de AI pentru formular sau pentru e-mailul către comisie, pe forma din analysis_form. */
     form_fields: { article: string; proposal: string; argumentation: string; other: string } | null;
-    form_fields_basis: { source_kind: 'ai_draft'; analysis_form: string; analyzed_at: string | null } | null;
+    form_fields_basis: {
+      source_kind: 'ai_draft';
+      analysis_form: string;
+      analyzed_at: string | null;
+      /** Proiectul a ajuns la Camera Deputaților, iar câmpurile sunt pe o formă de dinaintea votului Senatului. */
+      may_be_outdated: boolean;
+      /** De ce pot fi depășite câmpurile, în română; null când nu sunt. */
+      note: string | null;
+    } | null;
     memo_url: string | null;
   };
   links: { page: string | null; official: string; senate: string | null; chamber: string | null };
@@ -101,7 +109,15 @@ export interface BillDossier extends BillSummary {
 }
 
 const LICENCE = `${CONTENT_LICENSE.name} (${CONTENT_LICENSE.url}). Sursa: destrajă.ro, cu legătura la pagina proiectului.`;
-const FORM_LABEL: Record<string, string> = { initiator: 'forma inițiatorului', senat: 'forma adoptată de Senat', camera: 'forma adoptată de Camera Deputaților' };
+const FORM_LABEL: Record<string, string> = {
+  initiator: 'forma inițiatorului',
+  // La Senat, forma actualizată a inițiatorului o înlocuiește pe cea inițială (B563/2026).
+  actualizata: 'forma actualizată a inițiatorului',
+  senat: 'forma adoptată de Senat',
+  camera: 'forma adoptată de Camera Deputaților',
+};
+/** Forma citită: coverage.form la analizele cu tot textul (whole-text-v1), altfel version (analizele mai vechi ale Camerei). */
+const formKey = (a: BillAnalysis | null) => a?.coverage?.form ?? a?.version ?? null;
 // „L630/22.12.2025” (numărul de la Senat, cu data înregistrării) → „L630/2025”.
 const senateNumber = (s: string | null | undefined) => {
   const m = s?.match(/^([A-Za-z]+)\s*(\d+)\/(?:\d{1,2}\.\d{1,2}\.)?(\d{4})/);
@@ -134,7 +150,6 @@ async function memoUrl(id: string): Promise<string | null> {
 function analysisOf(a: BillAnalysis | null, defaultForm: string): BillDossier['analysis'] {
   if (!a?.consensus) return null;
   const c = a.consensus;
-  const version = (a as BillAnalysis & { version?: string }).version;
   const models = (['agy', 'claude', 'codex'] as const).map((m) => {
     const v = a.council?.[m];
     const ok = v?.status === 'ok';
@@ -152,7 +167,7 @@ function analysisOf(a: BillAnalysis | null, defaultForm: string): BillDossier['a
   return {
     source_kind: 'ai_analysis',
     analyzed_at: a.updatedAt ?? null,
-    analysis_form: FORM_LABEL[version ?? ''] ?? defaultForm,
+    analysis_form: FORM_LABEL[formKey(a) ?? ''] ?? defaultForm,
     risk_score: c.riskScore,
     risk_level: c.riskLevel,
     summary: c.summaryTlDr,
@@ -167,12 +182,13 @@ function analysisOf(a: BillAnalysis | null, defaultForm: string): BillDossier['a
 
 const NO_FORM = { form_fields: null, form_fields_basis: null };
 
-function formFields(a: BillAnalysis | null, analysis: BillDossier['analysis']) {
+/** `outdated`: de ce pot fi depășite câmpurile (proiectul a trecut la Camera Deputaților după analiză), sau null. */
+function formFields(a: BillAnalysis | null, analysis: BillDossier['analysis'], outdated: string | null = null) {
   const f = a?.consensus?.senatForm;
   if (!f || !analysis) return { form_fields: null, form_fields_basis: null };
   return {
     form_fields: { article: f.articleRef, proposal: f.proposalContent, argumentation: f.argumentation, other: f.otherComments },
-    form_fields_basis: { source_kind: 'ai_draft' as const, analysis_form: analysis.analysis_form, analyzed_at: analysis.analyzed_at },
+    form_fields_basis: { source_kind: 'ai_draft' as const, analysis_form: analysis.analysis_form, analyzed_at: analysis.analyzed_at, may_be_outdated: Boolean(outdated), note: outdated },
   };
 }
 
@@ -183,8 +199,8 @@ type SenateCommittees = { preluat: string; sursa: string; generale: string[]; co
 let senateCommittees: Promise<SenateCommittees | null> | null = null;
 const getSenateCommittees = () => (senateCommittees ??= readJson<SenateCommittees>('data/senat/comisii.json'));
 
-/** Comisiile Senatului: cea sesizată în fond (din fișă), apoi cele propuse de analiză, dacă adresa e pe pagina unei comisii. */
-async function senateRecipients(b: EnrichedBill, reportCommittee: string | null): Promise<Recipient[]> {
+/** Comisiile Senatului: cele sesizate în fond (din fișă; mai multe la raport comun), apoi cele propuse de analiză, dacă adresa e pe pagina unei comisii. */
+async function senateRecipients(b: EnrichedBill, reportCommittees: string[]): Promise<Recipient[]> {
   const list = await getSenateCommittees();
   if (!list) return [];
   const byEmail = new Map(list.comisii.filter((c) => c.email).map((c) => [c.email!.toLowerCase(), c]));
@@ -193,10 +209,11 @@ async function senateRecipients(b: EnrichedBill, reportCommittee: string | null)
     if (!c.email || !/@senat\.ro$/i.test(c.email) || out.has(c.email.toLowerCase())) return;
     out.set(c.email.toLowerCase(), { name: c.nume.replace(/ş/g, 'ș').replace(/ţ/g, 'ț'), email: c.email.toLowerCase(), role, kind: 'committee', source_url: c.url, checked_on: list.preluat });
   };
-  if (reportCommittee) {
-    const want = fold(reportCommittee.replace(/ş/g, 'ș').replace(/ţ/g, 'ț'));
+  const joint = reportCommittees.length > 1;
+  for (const name of reportCommittees) {
+    const want = fold(name.replace(/ş/g, 'ș').replace(/ţ/g, 'ț'));
     const hit = list.comisii.find((c) => fold(c.nume.replace(/ş/g, 'ș').replace(/ţ/g, 'ț')) === want) ?? list.comisii.find((c) => want.startsWith(fold(c.nume)));
-    if (hit) add(hit, 'Comisia sesizată în fond la Senat (face raportul)');
+    if (hit) add(hit, joint ? 'Comisie sesizată în fond la Senat (face raportul comun)' : 'Comisia sesizată în fond la Senat (face raportul)');
   }
   // Adresele propuse de modele trec doar dacă sunt chiar adresele comisiilor de pe senat.ro (bills.ts le-a curățat deja de
   // greșelile cunoscute); orice altă adresă, de pe alt domeniu sau inventată, nu ajunge în date.
@@ -308,22 +325,22 @@ interface SenateView {
   summary: BillSummary;
   stage: Stage;
   chamber: { row: CdepRow; bill: CdepBill } | null;
-  reportCommittee: { name: string; deadline: string | null } | null;
+  reportCommittees: ReportCommittees | null;
 }
 
 async function senateView(b: EnrichedBill, today: string): Promise<SenateView> {
   const linked = (await getLinks()).bySenate.get(b.slug) ?? null;
-  const reportCommittee = senateReportCommittee(b.timeline);
+  const reportCommittees = senateReportCommittees(b.timeline);
   const stage = linked
     ? chamberStage({ status: resolveStatus(linked.bill, today), consultation: null }, today)
-    : senateStage({ stage: b.stage, consultationDeadline: isoDate(b.consultationDeadline), reportCommittee }, today);
+    : senateStage({ stage: b.stage, consultationDeadline: isoDate(b.consultationDeadline), reportCommittees }, today);
   // Consultarea Senatului s-a încheiat când proiectul a ajuns la Cameră: fereastra rămâne „închisă”, cu data ei.
   if (linked) stage.window = { status: 'closed', kind: 'senate_public_consultation', closes_on: isoDate(b.consultationDeadline), channel: null, channel_url: null };
   const c = b.analysis?.consensus;
   return {
     stage,
     chamber: linked,
-    reportCommittee,
+    reportCommittees,
     summary: {
       id: b.id,
       slug: b.slug,
@@ -345,8 +362,15 @@ async function senateView(b: EnrichedBill, today: string): Promise<SenateView> {
 }
 
 async function senateDossier(b: EnrichedBill, today: string): Promise<BillDossier> {
-  const { summary: s, stage, chamber, reportCommittee } = await senateView(b, today);
+  const { summary: s, stage, chamber, reportCommittees } = await senateView(b, today);
   const analysis = analysisOf(b.analysis, 'forma inițiatorului');
+  // Proiectul a trecut de Senat și e acum la Cameră, dar analiza (și câmpurile pregătite) sunt pe forma inițiatorului:
+  // B604/2026 ↔ Pl-x 755/2026. Analizele Senatului făcute pe forma adoptată de Senat rămân bune.
+  const form = formKey(b.analysis);
+  const outdated =
+    chamber && stage.current_chamber === 'camera' && analysis && (!form || form === 'initiator' || form === 'actualizata')
+      ? `Câmpurile pornesc de la ${analysis.analysis_form}, analizată înainte de votul Senatului; proiectul e acum la Camera Deputaților. Verifică articolele pe textul de pe cdep.ro înainte de trimitere.`
+      : null;
   const st = chamber ? resolveStatus(chamber.bill, today) : null;
   const recipients = !stage.in_debate
     ? []
@@ -354,7 +378,7 @@ async function senateDossier(b: EnrichedBill, today: string): Promise<BillDossie
       ? chamber
         ? await chamberRecipients(chamber.bill)
         : []
-      : await senateRecipients(b, reportCommittee?.name ?? null);
+      : await senateRecipients(b, reportCommittees?.names ?? []);
   return {
     ...s,
     schema_version: SCHEMA_VERSION,
@@ -364,7 +388,7 @@ async function senateDossier(b: EnrichedBill, today: string): Promise<BillDossie
       ? { title: st.title, detail: st.detail, next: st.next, note: st.note, overdue: st.overdue, source: 'cdep.ro' }
       : { title: stage.status, detail: `Stadiul oficial la Senat: ${b.stage}`, next: null, note: null, overdue: null, source: 'senat.ro' },
     analysis,
-    submission: { window: stage.window, how: stage.guidance, recipients, ...(stage.in_debate ? formFields(b.analysis, analysis) : NO_FORM), memo_url: stage.in_debate ? await memoUrl(b.id) : null },
+    submission: { window: stage.window, how: stage.guidance, recipients, ...(stage.in_debate ? formFields(b.analysis, analysis, outdated) : NO_FORM), memo_url: stage.in_debate ? await memoUrl(b.id) : null },
     links: { page: s.url, official: chamber?.row.url ?? b.sheetUrl, senate: b.sheetUrl, chamber: chamber?.row.url ?? null },
     licence: LICENCE,
     built_at: builtAt,
@@ -488,6 +512,10 @@ export async function getIdIndex(): Promise<IdIndex> {
     if (b.cod) add(primary, `cod:${Number(b.cod)}`, b.slug);
     const bp = await bpNumber(b.slug);
     if (bp) add(secondary, normalizeId(bp), b.slug);
+    // idp-ul fișei Camerei legate și verificate (data/camera): o adresă cdep.ro a unei propuneri BP, trimisă întâi la
+    // Senat, duce la proiectul Senatului (idp=23630 → B621/2026). Ca numărul BP, e copiat de pe cealaltă cameră: idp-ul
+    // unui proiect din lista Camerei câștigă, iar două proiecte ale Senatului legate de aceeași fișă rămân ambigue.
+    if (b.camera?.idp) add(secondary, `idp:${Number(b.camera.idp)}`, b.slug);
   }
   for (const [slug, { row, bill }] of bySenate) {
     add(primary, normalizeId(row.numar), slug);

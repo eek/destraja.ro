@@ -7,7 +7,10 @@ import assert from 'node:assert/strict';
 
 register('./ts-resolve.mjs', import.meta.url);
 const { normalizeId, parseBillRef, isoDate, bucharestToday } = await import('../../src/lib/bill-ids.ts');
-const { senateStage, chamberStage, plausibleLink, senateReportCommittee } = await import('../../src/lib/open-data-stage.ts');
+const { senateStage, chamberStage, plausibleLink, senateReportCommittees } = await import('../../src/lib/open-data-stage.ts');
+// Datele deschise din data/ (cum le scrie build-ul în /date): pentru cazurile reale de mai jos.
+const { getBillDossier, getIdIndex, getOpenDataSlugs } = await import('../../src/lib/open-data.ts');
+const { getBillBySlug } = await import('../../src/lib/bills.ts');
 const { resolveStatus } = await import('../../src/lib/bill-status.ts');
 const { handleMcp, rateKey, _resetCache, PROTOCOLS } = await import('../../worker/mcp.ts');
 
@@ -80,7 +83,7 @@ test('senateStage: consultarea deschisă e singura fereastră pentru cetățeni'
 
 test('senateStage: după consultare proiectul rămâne în dezbatere la Senat (nu dispare din in_debate)', () => {
   const s = senateStage(
-    { stage: 'în lucru, la comisiile permanente ale Senatului', consultationDeadline: day(-10), reportCommittee: { name: 'Comisia pentru muncă', deadline: day(5) } },
+    { stage: 'în lucru, la comisiile permanente ale Senatului', consultationDeadline: day(-10), reportCommittees: { names: ['Comisia pentru muncă'], deadline: day(5) } },
     TODAY,
   );
   assert.equal(s.in_debate, true);
@@ -88,7 +91,7 @@ test('senateStage: după consultare proiectul rămâne în dezbatere la Senat (n
   assert.equal(s.window.status, 'closed');
   assert.equal(s.window.closes_on, day(-10));
   assert.deepEqual(s.deadlines.map((d) => [d.type, d.audience, d.chamber]), [['committee_report', 'committee', 'senat']]);
-  assert.match(s.guidance, /Comisia pentru muncă/);
+  assert.match(s.guidance, /comisiei sesizate în fond \(Comisia pentru muncă\)/);
   assert.equal(senateStage({ stage: 'Comisia sesizatã în fond a depus raportul', consultationDeadline: day(-2) }, TODAY).phase, 'report');
 });
 
@@ -158,7 +161,17 @@ test('chamberStage: consultarea publică a Camerei deschide fereastra', () => {
   assert.equal(s.deadlines[0].audience, 'public');
 });
 
-test('plausibleLink și senateReportCommittee', () => {
+test('senateStage: raport comun, cu toate comisiile în îndrumare și în eticheta termenului', () => {
+  const s = senateStage(
+    { stage: 'în lucru, la comisiile permanente ale Senatului', consultationDeadline: day(-10), reportCommittees: { names: ['Comisia economică', 'Comisia juridică, de numiri'], deadline: day(5) } },
+    TODAY,
+  );
+  assert.equal(s.deadlines.length, 1);
+  assert.equal(s.deadlines[0].label, 'Termenul raportului comun (Comisia economică; Comisia juridică, de numiri)');
+  assert.match(s.guidance, /comisiilor sesizate în fond, care fac raport comun \(Comisia economică; Comisia juridică, de numiri\)/);
+});
+
+test('plausibleLink și senateReportCommittees', () => {
   const link = (o) => plausibleLink({ senateRegistered: '2026-10-15', senateStage: 'Trimis la Cameră pentru dezbatere', chamberRegistered: '2026-11-18', chamberNumber: 'Pl-x 755/2026', chamberTimeline: [], ...o });
   assert.equal(link({}), true);
   assert.equal(link({ senateRegistered: '2026-10-07', chamberRegistered: '2026-03-11', senateStage: 'în lucru, la comisiile permanente ale Senatului' }), false, 'Camera înaintea Senatului: legătură greșită');
@@ -166,9 +179,117 @@ test('plausibleLink și senateReportCommittee', () => {
   assert.equal(link({ senateStage: 'în lucru', chamberTimeline: [{ camera: 'Senat', data: '16.11.2026', actiune: 'respinsa de catre Senat' }] }), true, 'votul Senatului pe fișa Camerei e dovadă');
   assert.equal(link({ chamberNumber: 'BP760/2026' }), false);
   assert.deepEqual(
-    senateReportCommittee([{ action: 'trimis pentru aviz la Comisia economică (TERMEN: 01/12/2026)' }, { action: 'trimis pentru raport la Comisia pentru muncă, familie şi protecţie socială (TERMEN: 2/12/2026)' }]),
-    { name: 'Comisia pentru muncă, familie și protecție socială', deadline: '2026-12-02' },
+    senateReportCommittees([{ action: 'trimis pentru aviz la Comisia economică (TERMEN: 01/12/2026)' }, { action: 'trimis pentru raport la Comisia pentru muncă, familie şi protecţie socială (TERMEN: 2/12/2026)' }]),
+    { names: ['Comisia pentru muncă, familie și protecție socială'], deadline: '2026-12-02' },
   );
+  // B553/2026: repartizarea refăcută repetă comisiile; fiecare apare o dată, cu cel mai târziu termen.
+  assert.deepEqual(
+    senateReportCommittees([
+      { action: 'trimis pentru raport la Comisia juridică, de numiri, disciplină, imunităţi şi validări (TERMEN: 02/12/2026)' },
+      { action: 'trimis pentru raport la Comisia pentru administraţie publică (TERMEN: 01/12/2026)' },
+      { action: 'trimis pentru aviz la Comisia pentru drepturile omului, egalitate de şanse, culte şi minorităţi (TERMEN: 24/11/2026)' },
+      { action: 'trimis pentru raport la Comisia pentru buget, finanţe, activitate bancară şi piaţă de capital (TERMEN: 03/12/2026)' },
+      { action: 'trimis pentru raport la Comisia juridică, de numiri, disciplină, imunități și validări (TERMEN: 02/12/2026)' },
+    ]),
+    {
+      names: ['Comisia juridică, de numiri, disciplină, imunități și validări', 'Comisia pentru administrație publică', 'Comisia pentru buget, finanțe, activitate bancară și piață de capital'],
+      deadline: '2026-12-03',
+    },
+  );
+  assert.deepEqual(
+    senateReportCommittees([{ action: 'trimis pentru raport la Comisia pentru buget (TERMEN: 16/11/2026)' }, { action: 'trimis pentru raport suplimentar la Comisia pentru buget (TERMEN: 07/12/2026)' }]),
+    { names: ['Comisia pentru buget'], deadline: '2026-12-07' },
+    'raportul suplimentar aduce un termen nou aceleiași comisii',
+  );
+  assert.equal(senateReportCommittees([{ action: 'trimis pentru aviz la Comisia juridică (TERMEN: 01/12/2026)' }]), null, 'avizul nu e raport');
+});
+
+// ─── Cazuri reale din data/ (datele deschise de la build) ──────────────────────────────────────────────────────────
+
+// Comisiile sesizate în fond pentru raport comun, cum le scrie fișa Senatului (adresele din data/senat/comisii.json).
+const JOINT = {
+  'b563-2026': ['comec@senat.ro', 'com.juridica@senat.ro'],
+  'b565-2026': ['cmun@senat.ro', 'capot@senat.ro'],
+  'b532-2026': ['com.juridica@senat.ro', 'comap@senat.ro'],
+  'b557-2026': ['com.juridica@senat.ro', 'capot@senat.ro'],
+  'b553-2026': ['com.juridica@senat.ro', 'capot@senat.ro', 'comisiabuget@senat.ro'],
+  'b542-2026': ['comisiabuget@senat.ro', 'comec@senat.ro'],
+  'b551-2026': ['comec@senat.ro', 'energie@senat.ro'],
+  'b519-2026': ['comec@senat.ro', 'agri@senat.ro'],
+};
+
+test('date reale: la raport comun, get_submission_context are toate comisiile sesizate în fond, fără comisii puse din oficiu', async (t) => {
+  for (const [slug, emails] of Object.entries(JOINT)) {
+    const b = await getBillBySlug(slug);
+    assert.equal(senateReportCommittees(b.timeline)?.names.length, emails.length, slug);
+    const d = await getBillDossier(slug);
+    if (!(d.in_debate && d.current_chamber === 'senat')) {
+      t.diagnostic(`${slug} nu mai e la Senat (${d.status}); comisiile Senatului nu se mai verifică`);
+      continue;
+    }
+    const fond = d.submission.recipients.filter((r) => /în fond/.test(r.role));
+    assert.deepEqual(fond.map((r) => r.email), emails, slug);
+    assert.ok(fond.every((r) => /raportul comun/.test(r.role)), slug);
+    if (d.phase === 'committees') assert.match(d.submission.how, /raport comun/, slug);
+    // Doar comisiile din fișă (sau propuse de analiză, cu adresa de pe senat.ro) și registratura: nimic adăugat din oficiu.
+    const allowed = new Set([...emails, 'infopub@senat.ro', ...(b.analysis.consensus.institutionalEmails ?? []).flatMap((e) => e.to.map((x) => x.trim().toLowerCase()))]);
+    for (const r of d.submission.recipients) assert.ok(allowed.has(r.email), `${slug}: ${r.email}`);
+  }
+});
+
+test('date reale: fiecare proiect în dezbatere la Senat are toate comisiile din fișă, cu cel mai târziu termen', async () => {
+  const fold = (x) => x.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\s+/g, ' ').trim();
+  // Doar comisiile permanente au adresă în director (o comisie specială comună, ca la B522/2026, n-are).
+  const dir = JSON.parse(await (await import('node:fs/promises')).readFile('data/senat/comisii.json', 'utf8')).comisii.filter((c) => c.email).map((c) => fold(c.nume));
+  const listed = (n) => dir.some((c) => fold(n) === c || fold(n).startsWith(c));
+  let joint = 0;
+  for (const slug of await getOpenDataSlugs()) {
+    const b = await getBillBySlug(slug);
+    if (!b) continue;
+    const d = await getBillDossier(slug);
+    if (!d.in_debate || d.current_chamber !== 'senat') continue;
+    const rc = senateReportCommittees(b.timeline);
+    if (!rc) continue;
+    if (rc.names.length > 1) joint++;
+    const fond = d.submission.recipients.filter((r) => /în fond/.test(r.role));
+    assert.equal(fond.length, rc.names.filter(listed).length, `${slug}: ${rc.names.join('; ')}`);
+    for (const r of fond) assert.ok(rc.names.some((n) => fold(n) === fold(r.name)), `${slug}: ${r.name}`);
+    const report = d.deadlines.find((x) => x.type === 'committee_report');
+    if (rc.deadline && rc.deadline >= TODAY) assert.equal(report?.date, rc.deadline, slug);
+  }
+  assert.ok(joint > 0, 'măcar un raport comun în date');
+});
+
+test('date reale: idp-ul fișelor BP din data/camera duce la proiectul Senatului; idp-ul comun rămâne ambiguu', async () => {
+  const index = await getIdIndex();
+  assert.deepEqual(parseBillRef('https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23630').keys, ['idp:23630']);
+  assert.equal(index.ids['idp:23630'], 'b621-2026', 'BP821/2026 → B621/2026');
+  assert.equal(index.ids['idp:23667'], 'b604-2026', 'Pl-x 755/2026 rămâne la B604/2026');
+  // BP692/2026 (idp 23523) e legat și de B528/2026, și de B635/2026: nu alegem.
+  assert.equal(index.ids['idp:23523'], undefined);
+  assert.deepEqual(index.ambiguous['idp:23523'], ['b528-2026', 'b635-2026']);
+  assert.deepEqual(index.ambiguous.bp6922026, ['b528-2026', 'b635-2026']);
+});
+
+test('date reale: câmpurile pregătite pe forma inițiatorului, pentru un proiect ajuns la Cameră, pot fi depășite', async (t) => {
+  const d = await getBillDossier('b604-2026');
+  const basis = d.submission.form_fields_basis;
+  if (d.current_chamber !== 'camera' || !basis) return t.skip(`B604/2026: ${d.status}`);
+  assert.ok(d.numbers.includes('Pl-x 755/2026'));
+  assert.equal(basis.analysis_form, 'forma inițiatorului');
+  assert.equal(basis.may_be_outdated, true);
+  assert.match(basis.note, /înainte de votul Senatului.*Camera Deputaților/);
+  // La Senat, aceeași formă e chiar cea dezbătută.
+  const senate = await getBillDossier('b621-2026');
+  if (senate.submission.form_fields_basis) assert.deepEqual([senate.submission.form_fields_basis.may_be_outdated, senate.submission.form_fields_basis.note], [false, null]);
+});
+
+test('date reale: forma actualizată a inițiatorului (coverage.form) are eticheta ei', async (t) => {
+  const b = await getBillBySlug('b563-2026');
+  if (b.analysis.coverage?.form !== 'actualizata') return t.skip(`B563/2026 e analizat acum pe forma ${b.analysis.coverage?.form}`);
+  const d = await getBillDossier('b563-2026');
+  assert.equal(d.analysis.analysis_form, 'forma actualizată a inițiatorului');
+  if (d.submission.form_fields_basis) assert.equal(d.submission.form_fields_basis.analysis_form, 'forma actualizată a inițiatorului');
 });
 
 test('rateKey: IPv4 întreg, IPv6 pe prefixul /64', () => {
@@ -210,6 +331,7 @@ const BILLS = [
 const INDEX = { built_at: '2026-11-23T07:00:00.000Z', ids: {}, ambiguous: { bp6922026: ['b528-2026', 'b635-2026'] } };
 for (const b of BILLS) for (const n of [b.slug, ...b.numbers]) if (!INDEX.ambiguous[normalizeId(n)]) INDEX.ids[normalizeId(n)] = b.slug;
 INDEX.ids['idp:23667'] = 'b604-2026';
+INDEX.ambiguous['idp:23523'] = ['b528-2026', 'b635-2026'];
 INDEX.ids['cod:28041'] = 'b604-2026';
 const dossierOf = (b) => ({
   ...b,
@@ -461,6 +583,7 @@ test('get_bill: necunoscut, chei din prototip și numere ambigue dau erori de un
   const env = makeEnv();
   for (const id of ['constructor', 'toString', '__proto__', 'hasOwnProperty', 'B9999/2026']) assert.match(toolError(await call(env, 'get_bill', { id })), /Nu găsesc/, id);
   assert.match(toolError(await call(env, 'get_bill', { id: 'BP692/2026' })), /B528\/2026.*B635\/2026/);
+  assert.match(toolError(await call(env, 'get_bill', { id: 'https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23523' })), /B528\/2026.*B635\/2026/, 'și după idp');
   assert.match(toolError(await call(env, 'get_bill', { id: 'https://exemplu.ro/x' })), /Adresa/);
 });
 

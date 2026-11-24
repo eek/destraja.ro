@@ -2,7 +2,7 @@
   "billId": "Pl-x 633/2026",
   "slug": "plx-633-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:32:02.576Z",
+  "updatedAt": "2026-11-24T14:40:46.263Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,22 +31,23 @@
     "key": "5b17b58ebd57fb8d"
   },
   "consensus": {
-    "riskScore": 4.5,
+    "riskScore": 4,
     "riskLevel": "yellow",
-    "plainTitle": "Registru național extins pentru copiii în risc și protecție, cu erori juridice serioase",
-    "summaryTlDr": "Intenția de a unifica evidența copiilor abuzați sau aflați în protecție specială este utilă și necesară, dar redactarea conține două defecte majore: abrogă accidental agenții constatatori ai amenzilor și lasă prin ordin de ministru reguli esențiale despre datele sensibile ale minorilor.",
-    "initiatorClaim": "Inițiatoarea susține că proiectul extinde Observatorul național al copilului într-un registru integrat fără a crea instituții noi, pentru a urmări continuu copiii vulnerabili, victimele abuzurilor și pe cei din protecție specială, cu garanții stricte de confidențialitate.",
-    "realityCheck": "În practică, legea extinde sistemul existent (care acum acoperă doar riscul de separare de familie) la toate cazurile de abuz, violență și protecție specială, impunând termene stricte de 5 zile lucrătoare și un an pentru migrarea retroactivă a dosarelor active de către DGASPC. Însă rescrierea integrală a art. 23 elimină din greșeală alineatul care desemna cine poate aplica amenzile, paralizând toate sancțiunile, iar durata de stocare și categoriile exacte de date sensibile sunt delegate neconstituțional unui ordin de ministru.",
+    "plainTitle": "Evidență digitală unică pentru toți copiii în pericol sau aflați în grija statului",
+    "summaryTlDr": "Este o lege utilă, care extinde un instrument informatic deja existent și pune termene clare pentru urmărirea cazurilor de copii vulnerabili. Are însă o scăpare serioasă: rescrie articolul cu amenzile și uită să spună cine le aplică, așa că sancțiunile, inclusiv cele care există azi, devin greu de aplicat.",
+    "initiatorClaim": "Inițiatoarea spune că Observatorul național al copilului acoperă azi doar copiii în risc de separare de familie. Ea vrea ca toți copiii vulnerabili, adică victimele abuzului sau ale violenței și copiii din protecția specială, să fie urmăriți unitar până la închiderea motivată a cazului.",
+    "realityCheck": "Legea în vigoare (art. 16 alin. 2) limitează Observatorul la copiii în risc de separare, înregistrați de primării. Proiectul adaugă un Registru nepublic, în care primăriile și DGASPC-urile trebuie să înregistreze cazurile în 5 zile lucrătoare și să le închidă doar motivat, cu amenzi între 1.000 și 10.000 lei. Problemele: noul art. 23 elimină desemnarea agenților constatatori, nu spune cine răspunde contravențional (instituția sau asistentul social), lasă pe seama unui ordin de ministru durata de păstrare a unor date foarte sensibile și nu are fișă financiară.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Sănătate & Educație",
-      "Angajați & HR"
+      "Angajați & HR",
+      "IT & AI"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 13 (Art. 23 din Legea nr. 156/2023)",
-      "proposalContent": "La art. 23 se introduce alin. (4^1): „(4^1) Constatarea contravențiilor și aplicarea sancțiunilor se fac de persoanele împuternicite din cadrul Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale și al agențiilor teritoriale pentru plăți și inspecție socială, fără a aduce atingere competențelor ANSPDCP privind protecția datelor.”",
-      "argumentation": "Prin rescrierea art. 23, proiectul omite actualul alin. (3) care stabilește agenții constatatori. Fără indicarea lor, conform art. 15 din OG nr. 2/2001, toate amenzile din Legea nr. 156/2023 (inclusiv pentru divulgarea neautorizată a datelor copiilor) devin inaplicabile, afectând previzibilitatea legii (art. 1 alin. 5 Constituție).",
-      "otherComments": "Completați art. 18 direct în lege (nu prin ordin de ministru) cu durata maximă de stocare și categoriile de date sensibile ale minorilor, conform art. 26 Constituție și deciziilor CCR. Clarificați cine plătește amenzile (instituția sau funcționarul), corelați art. 73 din Legea 272/2004 cu furnizorii privați și corectați „exploataării”."
+      "articleRef": "Art. I pct. 13 (art. 23 din Legea 156/2023)",
+      "proposalContent": "La art. 23 se introduce alin. (6): „(6) Constatarea contravențiilor prevăzute la alin. (1) lit. a)-f) și aplicarea sancțiunilor se fac de persoanele împuternicite din cadrul Ministerului Muncii și din agențiile teritoriale pentru plăți și inspecție socială, iar pentru lit. g) și de Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal.”",
+      "argumentation": "Forma propusă rescrie integral art. 23 și elimină actualul alin. (3), care desemnează agenții constatatori. Fără ei, potrivit art. 15 din OG nr. 2/2001, nici noile amenzi, nici cele existente pentru art. 7 și 14 nu mai pot fi aplicate. Completarea păstrează mecanismul actual și dă competență autorității de protecție a datelor pentru accesul ilegal.",
+      "otherComments": "Recomand: precizarea în art. 23 că răspunde instituția (SPAS/DGASPC), nu asistentul social individual; stabilirea în lege a duratei maxime de păstrare a datelor; avizul ANSPDCP (art. 36 alin. 4 GDPR) și fișa financiară (art. 15 Legea 500/2002) înainte de raport."
     }
   },
   "council": {
@@ -86,8 +87,39 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 60600,
+      "sourceEndMarker": "SF-7A84691A",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Evidență digitală unică pentru toți copiii în pericol sau aflați în grija statului",
+      "verdictShort": "Este o lege utilă, care extinde un instrument informatic deja existent și pune termene clare pentru urmărirea cazurilor de copii vulnerabili. Are însă o scăpare serioasă: rescrie articolul cu amenzile și uită să spună cine le aplică, așa că sancțiunile, inclusiv cele care există azi, devin greu de aplicat.",
+      "initiatorClaim": "Inițiatoarea spune că Observatorul național al copilului acoperă azi doar copiii în risc de separare de familie. Ea vrea ca toți copiii vulnerabili, adică victimele abuzului sau ale violenței și copiii din protecția specială, să fie urmăriți unitar până la închiderea motivată a cazului.",
+      "realityCheck": "Legea în vigoare (art. 16 alin. 2) limitează Observatorul la copiii în risc de separare, înregistrați de primării. Proiectul adaugă un Registru nepublic, în care primăriile și DGASPC-urile trebuie să înregistreze cazurile în 5 zile lucrătoare și să le închidă doar motivat, cu amenzi între 1.000 și 10.000 lei. Problemele: noul art. 23 elimină desemnarea agenților constatatori, nu spune cine răspunde contravențional (instituția sau asistentul social), lasă pe seama unui ordin de ministru durata de păstrare a unor date foarte sensibile și nu are fișă financiară.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație",
+        "Angajați & HR",
+        "IT & AI"
+      ],
+      "keyFindings": [
+        "Art. I pct. 13 rescrie integral art. 23 din Legea 156/2023 și elimină actualul alin. (3), care desemnează agenții constatatori (MMSS și agențiile teritoriale de plăți și inspecție socială). Art. 15 din OG 2/2001 cere ca agentul constatator să fie stabilit prin actul normativ. Fără acesta, devin greu de aplicat atât noile amenzi (lit. d-g), cât și cele existente pentru art. 7 și art. 14.",
+        "Noul art. 23 alin. (1) lit. d)-f) sancționează întârzierea înregistrării, neactualizarea și închiderea nemotivată a cazului cu 2.000-5.000 lei, dar nu precizează subiectul activ. Nu se știe dacă răspunde instituția publică (SPAS/DGASPC) sau personalul desemnat (art. 18 alin. 1). Asistenții sociali din comunele cu personal insuficient ar putea fi expuși la amenzi personale pentru termene de 5 zile lucrătoare.",
+        "Art. 18 alin. (6) deleagă unui ordin de ministru stabilirea duratei de păstrare a datelor, a nivelurilor de acces și a documentelor încărcabile. Este vorba despre date sensibile (abuz, violență, uneori sănătate), pentru care art. 6 alin. (3) și art. 9 din GDPR, precum și jurisprudența CCR, cer ca elementele esențiale ale prelucrării să fie stabilite prin lege.",
+        "Definiția nouă de la art. 3 lit. i) („orice altă situație care impune intervenția”) este mai largă decât repartizarea competențelor din art. 16 alin. (6) lit. c)-d). SPAS introduce doar riscul de separare, iar DGASPC doar protecția specială și victimele abuzului. Pentru alte situații de risc acoperite de definiție, de exemplu copiii cu părinți plecați la muncă în străinătate, nimeni nu are obligația de înregistrare.",
+        "Partea pozitivă: jurnalizarea extinsă și la simpla vizualizare (art. 19 alin. 2), accesul diferențiat, interdicția folosirii datelor în scop electoral sau comercial (art. 19 alin. 6), caracterul nepublic al Registrului și închiderea doar motivată a cazului (art. 18^1). Sunt garanții reale, care lipsesc din legea actuală.",
+        "Art. III dă DGASPC-urilor un an pentru introducerea cazurilor aflate în curs. Expunerea de motive recunoaște că costurile de adaptare IT „vor fi determinate ulterior”, fără fișă financiară (art. 15 din Legea 500/2002, art. 21 din Legea 69/2010)."
+      ],
+      "blindSpotsCaught": "Cea mai importantă scăpare este eliminarea tacită a agenților constatatori prin rescrierea integrală a art. 23. Proiectul creează amenzi noi, dar le face inaplicabile și le afectează și pe cele existente. Pe plan tehnic, pct. 6 inserează noi alin. (3)-(5) la art. 16, iar pct. 7 modifică apoi „alin. (3)” și îl renumerotează (6). Ordinea este confuză și contrară Legii 24/2000: modificarea și renumerotarea trebuiau făcute înaintea inserării. Fapta de la lit. g), accesul neautorizat, se suprapune cu art. 360 Cod penal (acces ilegal la un sistem informatic) și cu sancțiunile GDPR aplicate de ANSPDCP. Proiectul nu clarifică raportul dintre ele, ceea ce creează risc de dublă sancționare. Lipsesc și consultarea ANSPDCP (art. 36 alin. 4 GDPR) și o evaluare de impact privind protecția datelor (art. 35 GDPR).",
+      "constitutionalityNote": "Scopul este legitim și concordă cu art. 49 din Constituție (protecția copiilor). Riscuri: (1) art. 1 alin. (5), previzibilitatea: noul art. 23 nu stabilește subiectul contravenției și nici agentul constatator; (2) art. 26 privind viața intimă și art. 53, proporționalitatea: elemente esențiale ale prelucrării unor date sensibile despre minori, precum durata de păstrare și categoriile de date, sunt delegate unui ordin ministerial, iar CCR a sancționat asemenea delegări în materie de date personale (de exemplu Decizia nr. 498/2018); (3) art. 111 alin. (1) și art. 138 alin. (5): lipsa fișei financiare și a punctului de vedere al Guvernului, în condițiile unor costuri IT și de personal admise de inițiatoare. Toate sunt corectabile prin amendamente în comisii.",
+      "euLawNote": "Directiva 2018/958 nu se aplică: proiectul nu reglementează accesul la o profesie. Directiva TRIS 2015/1535 nu se aplică nici ea: sistemul este un instrument intern al administrației publice, nu un serviciu al societății informaționale, și nu conține reglementări tehnice pentru produse. Nu afectează piața unică sau concurența. Relevant este GDPR: temeiul prelucrării (art. 6 alin. 1 lit. c și e; art. 9 alin. 2 lit. g și h) trebuie să fie o lege clară, care să prevadă garanții și durata de stocare (art. 6 alin. 3). De asemenea, ANSPDCP trebuie consultată în procesul legislativ (art. 36 alin. 4). Proiectul este compatibil cu obiectivele Directivei 2012/29/UE (victime) și ale Directivei 2011/93/UE (abuz sexual asupra copiilor) privind urmărirea cazurilor.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 13 (art. 23 din Legea 156/2023)",
+        "proposalContent": "La art. 23 se introduce alin. (6): „(6) Constatarea contravențiilor prevăzute la alin. (1) lit. a)-f) și aplicarea sancțiunilor se fac de persoanele împuternicite din cadrul Ministerului Muncii și din agențiile teritoriale pentru plăți și inspecție socială, iar pentru lit. g) și de Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal.”",
+        "argumentation": "Forma propusă rescrie integral art. 23 și elimină actualul alin. (3), care desemnează agenții constatatori. Fără ei, potrivit art. 15 din OG nr. 2/2001, nici noile amenzi, nici cele existente pentru art. 7 și 14 nu mai pot fi aplicate. Completarea păstrează mecanismul actual și dă competență autorității de protecție a datelor pentru accesul ilegal.",
+        "otherComments": "Recomand: precizarea în art. 23 că răspunde instituția (SPAS/DGASPC), nu asistentul social individual; stabilirea în lege a duratei maxime de păstrare a datelor; avizul ANSPDCP (art. 36 alin. 4 GDPR) și fișa financiară (art. 15 Legea 500/2002) înainte de raport."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -142,7 +174,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:32:02.576Z",
+      "replacedAt": "2026-11-24T14:40:46.263Z",
       "reasons": [
         "model"
       ]

@@ -2,7 +2,7 @@
   "billId": "Pl-x 590/2026",
   "slug": "plx-590-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:37:54.326Z",
+  "updatedAt": "2026-11-24T14:45:01.718Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "key": "2fa5e32ec5698f7b"
   },
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
-    "plainTitle": "Pontaj electronic obligatoriu în spitalele publice, dar fără reguli GDPR și cu amenzi neclare",
-    "summaryTlDr": "Scopul este legitim și util pacienților, dar redactarea are lacune serioase: lipsește complet protecția datelor personale promisă în expunerea de motive, contravențiile sunt vagi, iar legea impune un audit anual costisitor fără finanțare și fără criterii clare.",
-    "initiatorClaim": "Inițiatorii vor să combată plecarea personalului medico-sanitar din spitalele publice către clinici private în timpul programului de lucru, introducând un sistem unitar și verificabil de pontaj electronic, cu garanții GDPR și termene clare de conformare.",
-    "realityCheck": "În prezent, art. 180 din Legea nr. 95/2006 îi dă managerului doar atribuția generală de a aproba programul de lucru, iar Codul muncii cere o evidență a orelor fără a impune formatul electronic. Proiectul obligă toate spitalele publice să cumpere sisteme electronice și să plătească un audit tehnic anual independent, însă nu conține nicio normă GDPR (lăsând loc inclusiv colectării biometrice și stocării nelimitate peste pragul minim de 12 luni) și instituie amenzi de până la 100.000 lei din bugetul spitalului și 40.000 lei pentru manager pe baza unor noțiuni nedefinite.",
+    "plainTitle": "Pontaj electronic obligatoriu pentru medicii și asistenții din spitalele publice",
+    "summaryTlDr": "Scopul e legitim și chiar cerut de jurisprudența UE: un sistem obiectiv de evidență a timpului de lucru. Textul are însă trei goluri serioase. Nu exclude datele biometrice, deși expunerea promite reguli de protecție a datelor. Folosește noțiuni vagi pentru amenzi personale mari. Iar amenzile aplicate spitalelor se plătesc tot din bani publici.",
+    "initiatorClaim": "Inițiatorii vor să oprească situațiile în care personalul medical din spitalele publice lipsește în timpul programului, lucrând în paralel în clinici private. Soluția propusă e un pontaj electronic unitar, verificabil și auditat.",
+    "realityCheck": "Legea obligă toate spitalele publice să instaleze sisteme electronice care identifică unic persoana și înregistrează automat intrările și ieșirile. Managerul răspunde de funcționarea lor, iar sistemele sunt auditate anual. Nerespectarea se sancționează după un avertisment, cu amenzi de 30.000–60.000 lei pentru spital și 10.000–40.000 lei pentru manager, plus o amendă suplimentară de până la 100.000 lei. Problemele practice: textul nu interzice amprenta sau recunoașterea facială, nu fixează o durată maximă de păstrare a datelor, nu prevede nicio sursă de finanțare, iar sistemul arată doar prezența la poartă, nu și activitatea reală, gărzile sau munca în afara spitalului.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Angajați & HR",
@@ -44,10 +44,10 @@
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I (art. 180¹ alin. 2-4 și art. 180³)",
-      "proposalContent": "La art. 180¹: introduceți interdicția utilizării datelor biometrice, un termen maxim de stocare conform RGPD și criterii clare/finanțare pentru auditul anual. La art. 180³: stabiliți expres termenul legal de instalare, definiți „utilizarea formală” și eliminați amenzile aplicate din bugetul spitalului când întârzierea nu îi este imputabilă.",
-      "argumentation": "Expunerea de motive promite protecția datelor, dar legea omite garanțiile RGPD și fixează doar un termen minim de stocare (12 luni). Art. 180³ sancționează noțiuni vagi („utilizarea formală”, „termenul legal” lipsă), încălcând art. 1 alin. (5) din Constituție, iar auditul anual creează costuri fără sursă bugetară (art. 138 alin. 5).",
-      "otherComments": "Corectați eroarea de redactare de la art. 180³ alin. (2) lit. b) (ghilimele închise prematur, lăsând alin. (3)-(4) în afara textului). Clarificați regimul gărzilor la domiciliu și al cadrelor UMF și corelați termenul din Art. IV cu emiterea ordinului MS și durata achizițiilor publice (Legea 98/2016)."
+      "articleRef": "Art.I – art.180¹ alin.(2) și (3)",
+      "proposalContent": "Se completează art.180¹: „Identificarea se face prin card, cod sau aplicație, fără utilizarea datelor biometrice. Datele se folosesc exclusiv pentru evidența timpului de lucru, se păstrează 12 luni, cu posibilitatea prelungirii până la 36 de luni în caz de control sau litigiu, iar sistemul se introduce după consultarea sindicatului, potrivit art.5 din Legea nr.190/2018.”",
+      "argumentation": "Textul cere „identificare unică” fără limite, deci permite amprenta sau recunoașterea facială. Datele biometrice sunt categorie specială (art.9 GDPR), iar consimțământul unui angajat nu e liber. Expunerea promite reguli privind datele personale, dar textul nu le conține. Fără aceste garanții, legea riscă litigii și contestare la CCR (art.26 și art.53 din Constituție).",
+      "otherComments": "Ghilimelele sunt închise greșit după art.180³ alin.(2), așa că alin.(3)-(4) rămân în afara legii modificate. „Termenul legal” de la alin.(1) lit.a) nu e definit; propun un termen expres de 6 luni. „Utilizarea formală” e prea vagă pentru o amendă de până la 40.000 lei. Amenzile aplicate spitalului se plătesc tot din bani publici."
     }
   },
   "council": {
@@ -88,8 +88,39 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 55962,
+      "sourceEndMarker": "SF-64D2DA23",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Pontaj electronic obligatoriu pentru medicii și asistenții din spitalele publice",
+      "verdictShort": "Scopul e legitim și chiar cerut de jurisprudența UE: un sistem obiectiv de evidență a timpului de lucru. Textul are însă trei goluri serioase. Nu exclude datele biometrice, deși expunerea promite reguli de protecție a datelor. Folosește noțiuni vagi pentru amenzi personale mari. Iar amenzile aplicate spitalelor se plătesc tot din bani publici.",
+      "initiatorClaim": "Inițiatorii vor să oprească situațiile în care personalul medical din spitalele publice lipsește în timpul programului, lucrând în paralel în clinici private. Soluția propusă e un pontaj electronic unitar, verificabil și auditat.",
+      "realityCheck": "Legea obligă toate spitalele publice să instaleze sisteme electronice care identifică unic persoana și înregistrează automat intrările și ieșirile. Managerul răspunde de funcționarea lor, iar sistemele sunt auditate anual. Nerespectarea se sancționează după un avertisment, cu amenzi de 30.000–60.000 lei pentru spital și 10.000–40.000 lei pentru manager, plus o amendă suplimentară de până la 100.000 lei. Problemele practice: textul nu interzice amprenta sau recunoașterea facială, nu fixează o durată maximă de păstrare a datelor, nu prevede nicio sursă de finanțare, iar sistemul arată doar prezența la poartă, nu și activitatea reală, gărzile sau munca în afara spitalului.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art.180¹ alin.(2) cere „identificarea unică a persoanei”, fără să excludă datele biometrice. Expunerea de motive afirmă că legea reglementează prelucrarea datelor personale, dar textul propus nu conține nicio astfel de dispoziție: nu stabilește scopul, accesul la date, durata maximă de păstrare sau consultarea sindicatelor (cerută de art.5 din Legea nr.190/2018 pentru monitorizarea angajaților).",
+        "Art.180¹ alin.(3) fixează doar un minim de 12 luni pentru păstrarea jurnalelor, fără un maxim. Asta contravine principiului limitării stocării (art.5 alin.(1) lit.e) GDPR). Nici „accesul autorităților de control” de la alin.(1) lit.d) nu e delimitat: nu se spune ce autorități și în ce condiții.",
+        "Art.180³ alin.(1) lit.a) sancționează neinstalarea „în termenul legal”, dar legea nu stabilește niciun termen de instalare. Există doar termenul de 60 de zile pentru ordinul ministrului (Art.III) și amânarea sancțiunilor cu 6 luni (Art.IV). Termenul ar ajunge să fie stabilit, de fapt, prin ordin, deși o contravenție trebuie descrisă complet prin lege.",
+        "Art.180³ alin.(1) lit.c) sancționează „utilizarea formală” a sistemelor cu amendă personală de 20.000–40.000 lei pentru manager. Noțiunea e vagă, ceea ce ridică probleme de previzibilitate (art.1 alin.(5) din Constituție). În plus, managerul răspunde inclusiv pentru faptul că angajații nu folosesc sistemul.",
+        "Amenzile aplicate spitalului public (30.000–60.000 lei, plus suplimentar 50.000–100.000 lei) se plătesc din fonduri publice, inclusiv din bani CNAS sau din bugetele locale. Efectul descurajant e redus, iar banii sunt mutați dintr-un buget public în altul. Plafonul de 100.000 lei se încadrează în limita din art.8 al OG nr.2/2001.",
+        "Eroare de redactare: ghilimelele de închidere a textului introdus sunt puse după art.180³ alin.(2). Formal, alin.(3) (avertisment, termene de conformare) și alin.(4) (agentul constatator) rămân în afara Legii nr.95/2006. Dacă nu se corectează, nu e clar cine constată contravențiile.",
+        "Obligația de evidență a orelor de muncă există deja în Codul muncii (art.119). Noutatea reală e forma electronică obligatorie, auditul anual și sancțiunile. Măsura e în linia hotărârii CJUE C-55/18 (CCOO), care cere angajatorilor un sistem „obiectiv, fiabil și accesibil” de înregistrare a timpului de lucru."
+      ],
+      "blindSpotsCaught": "Pontajul la intrare și ieșire nu surprinde cumulul legal de funcții, gărzile, deplasările între sedii, consulturile interclinice sau activitatea din ambulatoriul integrat aflat în alte clădiri. Art.180¹ alin.(1) se referă doar la „spațiile destinate desfășurării activității medico-sanitare”. Auditul anual „de un organism independent sau de o altă autoritate competentă” nu are un titular clar și nici o sursă de plată. Expunerea pretinde că costurile se suportă din bugetele proprii ale spitalelor, fără nicio cuantificare și fără fișă financiară (art.15 din Legea nr.500/2002). Pentru spitalele din subordinea autorităților locale, legea impune cheltuieli noi bugetelor locale.",
+      "constitutionalityNote": "Scopul (folosirea corectă a banilor publici și accesul pacienților la servicii medicale) este legitim, iar monitorizarea timpului de lucru e în principiu compatibilă cu art.26 din Constituție (viața privată). Condiția este ca restrângerea să fie proporțională (art.53). Lipsa oricăror garanții în text deschide o vulnerabilitate reală: nu se exclude biometria, nu există o durată maximă de păstrare și nu sunt definite autoritățile care au acces. Textul are și probleme de previzibilitate (art.1 alin.(5)): „termenul legal” nu e definit, „utilizarea formală” e vagă, iar alin.(3)-(4) sunt plasate în afara ghilimelelor. Riscul pe art.138 alin.(5) (lipsa sursei de finanțare) e moderat: cheltuiala cade pe bugetele spitalelor, dar nu e estimată.",
+      "euLawNote": "Directiva 2003/88 și hotărârea CJUE C-55/18 susțin măsura, care pune în practică obligația de evidență obiectivă a timpului de lucru. Prelucrarea datelor trebuie să respecte GDPR: art.5 (limitarea scopului și a stocării), art.9 (datele biometrice sunt categorie specială, iar consimțământul angajatului nu e liber în raport de muncă) și art.88 (prelucrarea în context de muncă). În plus, art.35 GDPR cere probabil o evaluare de impact asupra protecției datelor. Directiva 2018/958 nu se aplică, pentru că legea nu reglementează accesul la o profesie. TRIS (2015/1535) nu se aplică textului legii, dar ar putea deveni relevantă dacă ordinul ministrului impune specificații tehnice obligatorii pentru echipamente. Achiziția sistemelor intră sub regulile achizițiilor publice (Directiva 2014/24 și Legea nr.98/2016).",
+      "senatForm": {
+        "articleRef": "Art.I – art.180¹ alin.(2) și (3)",
+        "proposalContent": "Se completează art.180¹: „Identificarea se face prin card, cod sau aplicație, fără utilizarea datelor biometrice. Datele se folosesc exclusiv pentru evidența timpului de lucru, se păstrează 12 luni, cu posibilitatea prelungirii până la 36 de luni în caz de control sau litigiu, iar sistemul se introduce după consultarea sindicatului, potrivit art.5 din Legea nr.190/2018.”",
+        "argumentation": "Textul cere „identificare unică” fără limite, deci permite amprenta sau recunoașterea facială. Datele biometrice sunt categorie specială (art.9 GDPR), iar consimțământul unui angajat nu e liber. Expunerea promite reguli privind datele personale, dar textul nu le conține. Fără aceste garanții, legea riscă litigii și contestare la CCR (art.26 și art.53 din Constituție).",
+        "otherComments": "Ghilimelele sunt închise greșit după art.180³ alin.(2), așa că alin.(3)-(4) rămân în afara legii modificate. „Termenul legal” de la alin.(1) lit.a) nu e definit; propun un termen expres de 6 luni. „Utilizarea formală” e prea vagă pentru o amendă de până la 40.000 lei. Amenzile aplicate spitalului se plătesc tot din bani publici."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -146,7 +177,7 @@
         "codex": 5
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:37:54.326Z",
+      "replacedAt": "2026-11-24T14:45:01.718Z",
       "reasons": [
         "model"
       ]

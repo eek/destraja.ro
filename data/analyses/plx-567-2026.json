@@ -2,7 +2,7 @@
   "billId": "PL-x 567/2026",
   "slug": "plx-567-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:37:29.605Z",
+  "updatedAt": "2026-11-24T14:44:09.408Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,12 +31,12 @@
     "key": "35c4a29659779ef3"
   },
   "consensus": {
-    "riskScore": 6,
+    "riskScore": 5.7,
     "riskLevel": "yellow",
-    "plainTitle": "Camere bodycam, live-streaming non-stop și amenzi de până la 100.000 lei pentru adăposturile de câini",
-    "summaryTlDr": "Scopul de transparență și protecție a animalelor este legitim, dar forma adoptată tacit de Senat conține capcane juridice grave: amenzi de 50.000–100.000 lei aplicabile fără niciun termen de tranziție și obligația de live-streaming 24/7 pe internet, în coliziune directă cu GDPR.",
-    "initiatorClaim": "Inițiatorii (parlamentari USR) susțin că proiectul previne abuzurile și crește încrederea publică prin introducerea camerelor bodycam, a supravegherii video în adăposturi și a vizitelor inopinate ale ONG-urilor acreditate, cu costuri minime și aplicare graduală.",
-    "realityCheck": "Dreptul ONG-urilor de a participa la activitățile din adăposturile publice și din cele private partenere cu primăriile există deja în OUG 155/2001 (cu amendă de 10.000–20.000 lei pentru împiedicare). Proiectul extinde însă vizitele inopinate la toate adăposturile private (inclusiv fără contracte publice), obligă fiecare adăpost la transmisie live 24/7 pe site propriu și stocare de minim 120 de zile, urcă amenzile la 50.000–100.000 lei și nu prevede niciun termen de tranziție — punând toate adăposturile în ilegalitate la 3 zile de la publicare.",
+    "plainTitle": "Camere pe hingheri, transmisie live din adăposturi și vizite-surpriză ale ONG-urilor",
+    "summaryTlDr": "Scopul, transparența în adăposturi, e legitim și răspunde unor abuzuri reale. Textul e însă scris grosier: transmite live pe internet imagini din căile de acces și din sălile medicale, ridică amenzile de zece ori și nu dă niciun termen de adaptare, ceea ce îl face disproporționat și greu de aplicat.",
+    "initiatorClaim": "Inițiatorii spun că vor să readucă încrederea publicului în capturarea, adăpostirea și eutanasierea câinilor fără stăpân. Propun bodycam-uri obligatorii, supraveghere video în adăposturi și un mecanism de monitorizare independentă prin ONG-uri acreditate.",
+    "realityCheck": "Personalul operatorilor ar trebui să filmeze audio-video continuu orice activitate cu câini, iar toate adăposturile, publice sau private, ar trebui să aibă camere care transmit în direct pe site-ul propriu, inclusiv pe căile de acces și din sălile de intervenții medicale. Orice abatere, de la un bodycam neactivat la o cameră căzută, se amendează cu 50.000–100.000 lei, față de 5.000–20.000 lei acum. Nu există perioadă de tranziție, durată maximă de păstrare a înregistrărilor sau reguli de acces la datele personale filmate. Expunerea de motive promite o aplicare „graduală, în limitele resurselor disponibile”, dar textul nu prevede așa ceva.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "IMM & Antreprenori",
@@ -44,10 +44,10 @@
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. 13^7, Art. 13^8 și Art. 14 alin. (1)",
-      "proposalContent": "Eliminarea obligației de transmisie live pe site propriu (art. 13^8 alin. 2), stabilirea unei durate maxime de stocare (ex. 30-60 zile) conforme GDPR, diferențierea subiectului și cuantumului amenzilor din art. 14 (ex. 10.000-25.000 lei pentru operatori, nu angajați) și introducerea unui termen tranzitoriu de 12 luni pentru dotare și emiterea ordinului ANSVSA.",
-      "argumentation": "Transmisia live 24/7 a angajaților și vizitatorilor și stocarea minimă de 120 zile fără limită maximă încalcă GDPR și art. 26 din Constituție. Lipsa termenului tranzitoriu (contrar Expunerii de motive) expune imediat toate adăposturile la amenzi disproporționate de 50.000-100.000 lei, de 5-10 ori peste sancțiunile pentru îngrijirea animalelor.",
-      "otherComments": "La art. 11 alin. (2) trebuie clarificat dacă vizitele inopinate vizează doar adăposturile private în parteneriat cu UAT-urile (ca la alin. 3) și stabilit termen pentru ordinul ANSVSA. Proiectul a trecut tacit de Senat și necesită fișă financiară pentru bugetele locale (art. 138 alin. 5 Constituție)."
+      "articleRef": "Art. unic pct.3 – art.13^8 alin.(2) OUG 155/2001",
+      "proposalContent": "(2) Sistemele prevăzute la alin.(1) funcționează permanent, stochează imaginile și permit identificarea clară a procedurilor. Transmisia publică e permisă doar din spațiile de cazare și fără persoane identificabile. Înregistrările se păstrează între 120 și 180 de zile și sunt accesibile autorităților și ONG-urilor acreditate potrivit art.11 alin.(2).",
+      "argumentation": "Transmisia live din căile de acces și sălile medicale expune angajați, voluntari și adoptatori unui public nelimitat, contrar principiului minimizării datelor (art.5 GDPR) și art.26 din Constituție. Controlul real îl asigură stocarea și accesul autorităților și al ONG-urilor acreditate; lipsa unei durate maxime de păstrare încalcă limitarea stocării.",
+      "otherComments": "Alin.(3) se elimină, fiind preluat. Amenda de 50.000–100.000 lei de la art.14 lit.b¹) (de 10 ori peste cea actuală) ar trebui graduală și aplicată operatorului, nu angajatului; e nevoie de un termen de 6–12 luni pentru dotare și de precizarea sursei de finanțare pentru adăposturile publice."
     }
   },
   "council": {
@@ -89,8 +89,40 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 63646,
+      "sourceEndMarker": "SF-5361173D",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Camere pe hingheri, transmisie live din adăposturi și vizite-surpriză ale ONG-urilor",
+      "verdictShort": "Scopul, transparența în adăposturi, e legitim și răspunde unor abuzuri reale. Textul e însă scris grosier: transmite live pe internet imagini din căile de acces și din sălile medicale, ridică amenzile de zece ori și nu dă niciun termen de adaptare, ceea ce îl face disproporționat și greu de aplicat.",
+      "initiatorClaim": "Inițiatorii spun că vor să readucă încrederea publicului în capturarea, adăpostirea și eutanasierea câinilor fără stăpân. Propun bodycam-uri obligatorii, supraveghere video în adăposturi și un mecanism de monitorizare independentă prin ONG-uri acreditate.",
+      "realityCheck": "Personalul operatorilor ar trebui să filmeze audio-video continuu orice activitate cu câini, iar toate adăposturile, publice sau private, ar trebui să aibă camere care transmit în direct pe site-ul propriu, inclusiv pe căile de acces și din sălile de intervenții medicale. Orice abatere, de la un bodycam neactivat la o cameră căzută, se amendează cu 50.000–100.000 lei, față de 5.000–20.000 lei acum. Nu există perioadă de tranziție, durată maximă de păstrare a înregistrărilor sau reguli de acces la datele personale filmate. Expunerea de motive promite o aplicare „graduală, în limitele resurselor disponibile”, dar textul nu prevede așa ceva.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "Justiție & Drepturi Civile",
+        "Angajați & HR",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. 13⁸ alin.(2): obligă la transmisia în direct pe site propriu din toate spațiile de la alin.(1), inclusiv căile de acces și sălile medicale. Asta înseamnă difuzarea publică nelimitată a imaginilor cu angajați, voluntari, adoptatori și proprietari care își revendică animalele. Formula „cu respectarea legislației privind protecția datelor” e contrazisă chiar de obligația impusă.",
+        "Art. 14 alin.(1) lit. b¹): o singură amendă de 50.000–100.000 lei acoperă orice neconformare la art. 13⁷ și 13⁸, fără gradare după gravitate. În prezent, abaterile operatorilor de la lit. b) costă 5.000–10.000 lei. Pentru adăposturile publice, amenda se plătește din bugetul local, adică tot din banii contribuabililor.",
+        "Art. 13⁷: înregistrarea „continuă, neîntreruptă” pe toată durata oricărei activități cu câinii înseamnă, practic, monitorizarea audio permanentă a angajaților pe întreaga tură. Textul nu spune cine răspunde contravențional, operatorul sau angajatul, deși alin.(4) incriminează „neutilizarea”.",
+        "Art. 13⁷ alin.(3) și art. 13⁸ alin.(3) fixează doar un minim de 120 de zile de păstrare, fără maxim, și nu reglementează ștergerea, accesul persoanelor vizate sau evaluarea de impact.",
+        "Art. 11 alin.(2): acreditarea ONG-urilor de către ANSVSA depinde de un ordin cu criterii pentru care nu e stabilit niciun termen. Până la emiterea lui, mecanismul de monitorizare independentă nu poate funcționa. Formularea „dacă acestea solicită acest lucru, în termen de 30 de zile” nu clarifică dacă cele 30 de zile sunt termenul ANSVSA și ce se întâmplă dacă instituția tace.",
+        "Art. 11 alin.(4): accesul ONG-urilor „nu poate fi îngrădit sau condiționat” se extinde la vizite inopinate în adăposturi private, inclusiv în cele fără parteneriat cu consiliile locale. Unei persoane private i se dă astfel un drept de intrare pe proprietatea altui privat, dincolo de modelul actual al art. 11 alin.(2), care viza doar adăposturile publice și pe cele private aflate în parteneriat.",
+        "Costurile de dotare sunt declarate „minime”, fără vreo estimare sau fișă financiară, iar obligațiile noi pentru autoritățile locale nu au sursă de finanțare indicată."
+      ],
+      "blindSpotsCaught": "Formula introductivă spune că ordonanța „se completează”, deși art. 11 și art. 14 lit. d) sunt modificate. Corect ar fi „se modifică și se completează”. Bodycam-urile sunt accesibile doar „autorităților competente”, în timp ce înregistrările CCTV sunt accesibile și ONG-urilor, o asimetrie fără justificare. Lit. d) nouă sancționează și restricționarea sau condiționarea „nejustificată” a accesului, dar art. 11 alin.(4) permite refuzul doar pe motive de biosecuritate, deci rămâne neclar unde se termină marja legitimă a operatorului. Art. 13⁸ nu spune ce se întâmplă dacă adăpostul nu are site. Proiectul a fost adoptat tacit de Senat (art. 75 alin. 2 din Constituție), fără nicio dezbatere de fond acolo. Mai sunt și erori materiale: „dispositive”, „Reprezentații”, o literă c) ruptă în două.",
+      "constitutionalityNote": "Scopul, protecția animalelor și transparența, e legitim. Câteva dispoziții ridică însă probleme. Transmisia live din spații care includ persoane identificabile intră în conflict cu art. 26 (viața intimă și privată), iar măsura nu trece testul necesității, pentru că stocarea cu acces controlat atinge același scop mai puțin intruziv. Previzibilitatea cerută de art. 1 alin.(5) e slabă: nu se știe cine răspunde, cât timp se păstrează datele, iar acreditarea depinde de un ordin fără termen. Amenda unică foarte mare, fără individualizare după gravitate, poate fi contestată ca disproporționată (art. 53 alin.(2)). Accesul neîngrădit al unor entități private în adăposturi private, fără control prealabil, atinge dreptul de proprietate (art. 44) și, eventual, inviolabilitatea sediului (art. 27). Obligațiile financiare noi pentru autoritățile locale fără sursă de finanțare pot fi examinate prin prisma art. 138 alin.(5) și a principiului resurselor corespunzătoare competențelor locale.",
+      "euLawNote": "Problema principală e GDPR (Regulamentul 2016/679): transmisia publică live încalcă minimizarea datelor și limitarea scopului (art. 5 alin.(1) lit. b–c). Lipsa unei durate maxime de păstrare încalcă limitarea stocării (art. 5 alin.(1) lit. e). Monitorizarea audio-video continuă a angajaților cere garanții specifice (art. 88 GDPR și art. 5 din Legea 190/2018), pe care textul nu le prevede, la fel ca evaluarea de impact (art. 35). Ghidurile EDPB 3/2019 privind dispozitivele video recomandă exact inversul unei difuzări publice. Directiva 2018/958 nu e relevantă direct, fiindcă proiectul nu reglementează accesul la o profesie. TRIS 2015/1535 este, cel mai probabil, neaplicabilă: textul impune utilizarea unor echipamente, nu specificații tehnice de produs sau reguli pentru servicii ale societății informaționale. Obligațiile sunt nediscriminatorii, deci nu apar probleme de piață unică, dar costul lor poate scoate de pe piață micii operatori privați și adăposturile ONG-urilor.",
+      "senatForm": {
+        "articleRef": "Art. unic pct.3 – art.13^8 alin.(2) OUG 155/2001",
+        "proposalContent": "(2) Sistemele prevăzute la alin.(1) funcționează permanent, stochează imaginile și permit identificarea clară a procedurilor. Transmisia publică e permisă doar din spațiile de cazare și fără persoane identificabile. Înregistrările se păstrează între 120 și 180 de zile și sunt accesibile autorităților și ONG-urilor acreditate potrivit art.11 alin.(2).",
+        "argumentation": "Transmisia live din căile de acces și sălile medicale expune angajați, voluntari și adoptatori unui public nelimitat, contrar principiului minimizării datelor (art.5 GDPR) și art.26 din Constituție. Controlul real îl asigură stocarea și accesul autorităților și al ONG-urilor acreditate; lipsa unei durate maxime de păstrare încalcă limitarea stocării.",
+        "otherComments": "Alin.(3) se elimină, fiind preluat. Amenda de 50.000–100.000 lei de la art.14 lit.b¹) (de 10 ori peste cea actuală) ar trebui graduală și aplicată operatorului, nu angajatului; e nevoie de un termen de 6–12 luni pentru dotare și de precizarea sursei de finanțare pentru adăposturile publice."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -146,7 +178,7 @@
         "codex": 6
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:37:29.605Z",
+      "replacedAt": "2026-11-24T14:44:09.408Z",
       "reasons": [
         "model"
       ]

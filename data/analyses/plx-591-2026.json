@@ -2,7 +2,7 @@
   "billId": "Pl-x 591/2026",
   "slug": "plx-591-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:33:42.643Z",
+  "updatedAt": "2026-11-24T14:42:22.928Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,21 +31,21 @@
     "key": "4a647c7708cd74bc"
   },
   "consensus": {
-    "riskScore": 3.5,
+    "riskScore": 3.3,
     "riskLevel": "green",
-    "plainTitle": "Drept de vot pe termen nelimitat pentru șefii interimari în CSAT",
-    "summaryTlDr": "Deși pare o corecție tehnică pentru continuitatea deciziilor de securitate națională, legea acordă drept de vot — și implicit drept de veto — unor interimari nevalidați de Parlament, fără nicio limită de timp.",
-    "initiatorClaim": "Inițiatorii susțin că modificarea este necesară pentru a asigura continuitatea decizională și reprezentarea efectivă a tuturor instituțiilor în CSAT atunci când o funcție de membru este vacantă, suspendată sau exercitată temporar prin interimat.",
-    "realityCheck": "În prezent, Art. 8 din Legea nr. 415/2002 permite înlocuitorului legal să participe la ședințele CSAT doar fără drept de vot. Proiectul introduce alin. (2), acordând drept de vot deplin persoanei care asigură interimar o funcție vacantă „până la numirea unui nou titular”, fără termen maxim. Întrucât CSAT adoptă hotărâri prin consens, un interimar fără legitimitate parlamentară (de exemplu, conducerea militară/operativă interimară a SRI sau SIE) ar putea bloca sau influența decizii strategice pe durată nedeterminată.",
+    "plainTitle": "Cine conduce interimar o instituție din CSAT poate vota în CSAT",
+    "summaryTlDr": "Este o modificare tehnică, de funcționare internă a CSAT. Rezolvă o problemă reală: un ministru sau director interimar nu are azi vot. Textul lasă însă neclar ce se întâmplă cu voturile cumulate și nu acoperă suspendarea, deși expunerea de motive o invocă.",
+    "initiatorClaim": "Inițiatorii spun că, atunci când funcția unui membru CSAT este vacantă, cel care o exercită legal prin interimat trebuie să poată vota. Altfel instituția respectivă rămâne nereprezentată în decizie, iar continuitatea CSAT are de suferit.",
+    "realityCheck": "Articolul unic păstrează textul actual al art. 8 ca alin. (1): înlocuitorul unui membru absent participă fără vot. Adaugă un alin. (2): dacă funcția e vacantă, interimarul votează în aceleași condiții ca titularul, până la numirea unui nou titular. Efectul real e mai îngust decât spune expunerea de motive, care vorbește și despre suspendare și „imposibilitatea exercitării”. Textul se aplică doar vacanței. Nu spune nimic despre situația în care interimarul este deja membru CSAT, de exemplu un ministru care asigură interimatul altui minister, și care ar putea vota de două ori.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Articol unic (Art. 8 alin. (2) Legea 415/2002)",
-      "proposalContent": "(2) Prin excepție de la alin. (1), în cazul vacantării funcției unui membru al CSAT, persoana care asigură legal interimatul participă la ședințe cu drept de vot pentru o durată de cel mult 45 de zile de la vacantare, cu excepția Președintelui interimar al României, care exercită dreptul de vot pe toată durata interimatului constituțional.",
-      "argumentation": "CSAT decide prin consens, deci votul echivalează cu un drept de veto. Acordarea lui pe termen nelimitat unor interimari nevalidați de Parlament (ex. șefi interimari ai SRI/SIE) erodează controlul civil. Plafonul de 45 de zile, corelat cu art. 107 alin. (4) din Constituție, asigură continuitatea fără a perpetua interimatul.",
-      "otherComments": "Formula „un membru nu poate participa ca urmare a vacantării” este improprie (funcția vacantă nu are titular). Expunerea de motive invocă și suspendarea ori delegarea, însă textul acoperă doar vacantarea; norma necesită clarificare conform art. 1 alin. (5) din Constituție, inclusiv privind calculul cvorumului CSAT."
+      "articleRef": "Articol unic – art. 8 alin. (2) din Legea 415/2002",
+      "proposalContent": "La alin. (2), după «vacantării funcției» se introduce «sau al suspendării titularului», iar la final se adaugă teza: «Persoana care are deja calitatea de membru al Consiliului nu poate exercita mai mult de un vot.»",
+      "argumentation": "Expunerea de motive invocă și suspendarea titularului, dar textul acoperă doar vacanța. Dacă interimatul e asigurat de un alt membru CSAT (ex. ministru interimar la alt minister), textul nu spune dacă acesta votează de două ori; cumulul ar denatura majoritatea. Precizarea asigură claritatea cerută de art. 1 alin. (5) din Constituție.",
+      "otherComments": "Formula introductivă ar trebui să fie «Articolul 8 se modifică și va avea următorul cuprins» (Legea nr. 24/2000). Recomand și consemnarea în procesul-verbal al ședinței a calității de interimar a celui care votează, pentru trasabilitatea hotărârilor CSAT."
     }
   },
   "council": {
@@ -83,8 +83,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 52136,
+      "sourceEndMarker": "SF-B0351181",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Cine conduce interimar o instituție din CSAT poate vota în CSAT",
+      "verdictShort": "Este o modificare tehnică, de funcționare internă a CSAT. Rezolvă o problemă reală: un ministru sau director interimar nu are azi vot. Textul lasă însă neclar ce se întâmplă cu voturile cumulate și nu acoperă suspendarea, deși expunerea de motive o invocă.",
+      "initiatorClaim": "Inițiatorii spun că, atunci când funcția unui membru CSAT este vacantă, cel care o exercită legal prin interimat trebuie să poată vota. Altfel instituția respectivă rămâne nereprezentată în decizie, iar continuitatea CSAT are de suferit.",
+      "realityCheck": "Articolul unic păstrează textul actual al art. 8 ca alin. (1): înlocuitorul unui membru absent participă fără vot. Adaugă un alin. (2): dacă funcția e vacantă, interimarul votează în aceleași condiții ca titularul, până la numirea unui nou titular. Efectul real e mai îngust decât spune expunerea de motive, care vorbește și despre suspendare și „imposibilitatea exercitării”. Textul se aplică doar vacanței. Nu spune nimic despre situația în care interimarul este deja membru CSAT, de exemplu un ministru care asigură interimatul altui minister, și care ar putea vota de două ori.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 8 alin. (1) propus reia identic textul în vigoare: reprezentarea de către înlocuitorul legal, fără drept de vot, la absențe ocazionale. Aici nu se schimbă nimic.",
+        "Art. 8 alin. (2) propus este singura noutate. Persoana care asigură interimar o funcție vacantă participă la ședințele CSAT cu drept de vot, «în aceleași condiții ca titularul», până la numirea unui nou titular.",
+        "Expunerea de motive invocă și suspendarea titularului și „imposibilitatea exercitării atribuțiilor”, dar textul normativ folosește doar termenul «vacantarea funcției». Suspendarea și imposibilitatea temporară rămân sub regimul alin. (1), adică fără vot.",
+        "Cumulul de voturi nu este reglementat. Interimatul unui minister este adesea încredințat altui ministru, care poate fi el însuși membru CSAT. La fel, interimatul funcției de prim-ministru revine unui membru al Guvernului. Textul nu spune dacă acea persoană are unul sau două voturi.",
+        "Pentru directorii SRI și SIE, numiți de Parlament, votul ar reveni unui interimar care nu a trecut prin procedura de numire parlamentară, pe o perioadă nelimitată («până la numirea unui nou titular»).",
+        "Proiectul nu are impact bugetar și nu creează obligații pentru cetățeni sau IMM-uri."
+      ],
+      "blindSpotsCaught": "Formularea «nu poate participa la ședință ca urmare a vacantării funcției» este improprie: când funcția e vacantă nu există un membru care să lipsească. Textul nu fixează o limită de timp pentru interimat și nu interzice cumulul de voturi. Nu precizează nici dacă se aplică și președintelui CSAT. În cazul Președintelui României, interimatul este oricum reglementat direct de art. 98 din Constituție. Ca tehnică legislativă (Legea nr. 24/2000), formula introductivă «se modifică și se completează după cum urmează» ar trebui înlocuită cu «Articolul 8 se modifică și va avea următorul cuprins».",
+      "constitutionalityNote": "Nu vizează drepturi fundamentale. Se încadrează în art. 119 din Constituție (CSAT organizează și coordonează unitar apărarea și securitatea națională) și în domeniul legii organice (art. 73 alin. (3)), iar formula finală invocă art. 76 alin. (1), ceea ce este corect. Recunoașterea votului interimarului este coerentă cu rațiunea interimatului, adică continuitatea exercitării prerogativelor. Riscul principal ține de art. 1 alin. (5), claritatea și previzibilitatea legii. Neclaritatea privind cumulul de voturi poate afecta modul de calcul al majorității la adoptarea hotărârilor CSAT și poate genera contestații privind validitatea acestora. Diferența dintre motivare (inclusiv suspendarea) și textul adoptat (doar vacanța) este o altă sursă de interpretări divergente.",
+      "euLawNote": "Proiectul nu are incidență asupra dreptului UE. Nu reglementează profesii, deci Directiva (UE) 2018/958 nu se aplică. Nu reglementează servicii ale societății informaționale sau AI, deci nu necesită notificare TRIS conform Directivei (UE) 2015/1535. Nu afectează piața unică. Apărarea și securitatea națională rămân în competența exclusivă a statelor membre (art. 4 alin. (2) TUE).",
+      "senatForm": {
+        "articleRef": "Articol unic – art. 8 alin. (2) din Legea 415/2002",
+        "proposalContent": "La alin. (2), după «vacantării funcției» se introduce «sau al suspendării titularului», iar la final se adaugă teza: «Persoana care are deja calitatea de membru al Consiliului nu poate exercita mai mult de un vot.»",
+        "argumentation": "Expunerea de motive invocă și suspendarea titularului, dar textul acoperă doar vacanța. Dacă interimatul e asigurat de un alt membru CSAT (ex. ministru interimar la alt minister), textul nu spune dacă acesta votează de două ori; cumulul ar denatura majoritatea. Precizarea asigură claritatea cerută de art. 1 alin. (5) din Constituție.",
+        "otherComments": "Formula introductivă ar trebui să fie «Articolul 8 se modifică și va avea următorul cuprins» (Legea nr. 24/2000). Recomand și consemnarea în procesul-verbal al ședinței a calității de interimar a celui care votează, pentru trasabilitatea hotărârilor CSAT."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -133,7 +162,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:33:42.643Z",
+      "replacedAt": "2026-11-24T14:42:22.928Z",
       "reasons": [
         "model"
       ]

@@ -2,7 +2,7 @@
   "billId": "Pl-x 632/2026",
   "slug": "plx-632-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:30:56.027Z",
+  "updatedAt": "2026-11-24T14:40:21.467Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "key": "e634f25555cdb205"
   },
   "consensus": {
-    "riskScore": 2.5,
+    "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "Mecanisme de plângere pentru copiii din servicii sociale, dar cu trimitere legală greșită",
-    "summaryTlDr": "Inițiativă benignă și bine intenționată, care vizează protejarea copiilor din servicii sociale împotriva abuzurilor și represaliilor. Totuși, redactarea are vicii tehnice serioase — trimite la o hotărâre de Guvern greșită și omite sancțiunile — ce trebuie corectate în comisii pentru ca legea să nu rămână literă moartă.",
-    "initiatorClaim": "Inițiatoarea susține că proiectul face efectiv dreptul deja existent al copilului de a depune plângeri (art. 34 alin. 1 din Legea nr. 272/2004), obligând furnizorii de servicii sociale să creeze canale accesibile și confidențiale, să interzică represaliile și să sesizeze de îndată DGASPC în caz de risc imediat.",
-    "realityCheck": "În realitate, art. 34¹ instituie obligațiile de informare, confidențialitate și interdicția represaliilor pentru furnizorii publici și privați, însă omite complet obligația de sesizare de îndată a DGASPC promisă în expunerea de motive și nu prevede nicio sancțiune pentru încălcarea noilor reguli. Mai grav, Art. II trimite la HG nr. 691/2015 ca presupuse norme metodologice generale ale Legii nr. 272/2004, deși acel act reglementează cu totul alt domeniu (copiii cu părinți plecați la muncă în străinătate și colaborarea DGASPC–SPAS).",
+    "plainTitle": "Copiii din centre și servicii sociale primesc un canal sigur prin care să se plângă",
+    "summaryTlDr": "Este o lege benignă și utilă, care dă conținut practic unui drept existent: copilul poate face plângere. Are însă goluri de redactare. Promisiunile din expunerea de motive (confidențialitatea datelor, sesizarea imediată a DGASPC) nu se regăsesc în text, iar interdicția represaliilor nu are nicio sancțiune.",
+    "initiatorClaim": "Inițiatoarea spune că art. 34 din Legea 272/2004 recunoaște dreptul copilului de a depune singur plângeri, dar nu obligă furnizorii de servicii să creeze mecanisme concrete. De aceea copiii din sistemul de protecție nu se plâng, din lipsă de proceduri, de informare sau de teama represaliilor.",
+    "realityCheck": "Proiectul introduce art. 34¹, care obligă furnizorii publici și privați de servicii sociale pentru copii să aibă mecanisme de plângere accesibile, confidențiale și adaptate vârstei. Furnizorii trebuie să informeze copilul despre aceste mecanisme și le este interzis să ia represalii. Procedura concretă e lăsată în întregime normelor metodologice (HG 691/2015). Efectul juridic depinde de calitatea acelor norme, pentru că legea nu stabilește termene de răspuns, nu prevede sancțiuni și nu conține obligația de sesizare de îndată a DGASPC invocată în motivare.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Sănătate & Educație",
@@ -44,10 +44,10 @@
       "Angajați & HR"
     ],
     "senatForm": {
-      "articleRef": "Art. I (art. 34¹) și Art. II",
-      "proposalContent": "La art. 34¹ alin. (1) se adaugă transmiterea de îndată către DGASPC a plângerilor ce indică abuz, neglijare ori risc imediat. La Art. II se elimină trimiterea eronată la HG nr. 691/2015, se corectează „aprobă modifică” și se prevede adoptarea procedurii prin hotărâre a Guvernului distinctă, în 60 de zile.",
-      "argumentation": "HG nr. 691/2015 vizează copiii cu părinți plecați în străinătate și colaborarea DGASPC-SPAS, nu norme generale ale Legii nr. 272/2004. Trimiterea eronată riscă blocaje și încalcă art. 1 alin. (5) din Constituție. Totodată, sesizarea de îndată a DGASPC, invocată în expunerea de motive, lipsește din textul propus.",
-      "otherComments": "Proiectul are un scop util, dar nu prevede sancțiuni (corelare cu art. 142 din Legea nr. 272/2004) pentru nerespectarea obligațiilor sau represalii. Recomandăm introducerea unei sancțiuni contravenționale proporționale și corelarea cu standardele minime de calitate existente pentru serviciile sociale destinate copilului."
+      "articleRef": "Art. I (art. 34¹ alin. 1) și Art. II",
+      "proposalContent": "Teza a II-a a alin.(1) devine: „Când plângerea indică un risc iminent pentru viața, integritatea, sănătatea sau siguranța copilului, furnizorul sesizează de îndată DGASPC și, după caz, organele de urmărire penală, cu informarea copilului.” Art. II: „Guvernul aprobă modificarea și completarea Normelor metodologice...”",
+      "argumentation": "Expunerea de motive promite sesizarea de îndată a DGASPC în caz de risc imediat, dar textul spune doar „în situațiile prevăzute de lege”, formulă vagă care nu adaugă nimic. Obligația concretă face garanția efectivă și previzibilă (art. 1 alin. 5 Constituție). Art. II conține o eroare de redactare care trebuie corectată.",
+      "otherComments": "Propun completarea capitolului privind contravențiile cu sancționarea nerespectării alin. (1)-(3), în special a represaliilor. Termenul de 30 de zile pentru norme e nerealist, propun 90 de zile. Confidențialitatea ar trebui prevăzută expres și corelată cu obligațiile de semnalare a abuzului."
     }
   },
   "council": {
@@ -85,8 +85,36 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 35857,
+      "sourceEndMarker": "SF-2861C8DA",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Copiii din centre și servicii sociale primesc un canal sigur prin care să se plângă",
+      "verdictShort": "Este o lege benignă și utilă, care dă conținut practic unui drept existent: copilul poate face plângere. Are însă goluri de redactare. Promisiunile din expunerea de motive (confidențialitatea datelor, sesizarea imediată a DGASPC) nu se regăsesc în text, iar interdicția represaliilor nu are nicio sancțiune.",
+      "initiatorClaim": "Inițiatoarea spune că art. 34 din Legea 272/2004 recunoaște dreptul copilului de a depune singur plângeri, dar nu obligă furnizorii de servicii să creeze mecanisme concrete. De aceea copiii din sistemul de protecție nu se plâng, din lipsă de proceduri, de informare sau de teama represaliilor.",
+      "realityCheck": "Proiectul introduce art. 34¹, care obligă furnizorii publici și privați de servicii sociale pentru copii să aibă mecanisme de plângere accesibile, confidențiale și adaptate vârstei. Furnizorii trebuie să informeze copilul despre aceste mecanisme și le este interzis să ia represalii. Procedura concretă e lăsată în întregime normelor metodologice (HG 691/2015). Efectul juridic depinde de calitatea acelor norme, pentru că legea nu stabilește termene de răspuns, nu prevede sancțiuni și nu conține obligația de sesizare de îndată a DGASPC invocată în motivare.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație"
+      ],
+      "keyFindings": [
+        "Art. 34¹ alin. (1): obligă toți furnizorii publici și privați de servicii sociale destinate copilului să creeze mecanisme de primire, înregistrare, analiză și soluționare a plângerilor copiilor. Este o obligație nouă la nivel de lege, care completează dreptul deja existent din art. 34 alin. (1).",
+        "Art. 34¹ alin. (1) teza a II-a („În situațiile prevăzute de lege, plângerile se transmit autorităților competente”) este o normă de trimitere vagă. Expunerea de motive anunță obligația de sesizare de îndată a DGASPC în caz de risc imediat pentru viața sau integritatea copilului, dar textul propus nu o conține.",
+        "Art. 34¹ alin. (3) interzice intimidarea, sancționarea și represaliile împotriva copilului sau a persoanei care îl sprijină. Este o garanție valoroasă, dar fără o contravenție corespunzătoare, iar aplicarea ei depinde de mecanismele generale de control și răspundere.",
+        "Art. 34¹ alin. (2) obligă furnizorul să informeze copilul la admitere și ori de câte ori e necesar, într-un limbaj adecvat vârstei, inclusiv despre dreptul de a sesiza direct autoritățile. Este o măsură practică, cu cost redus.",
+        "Art. II impune Guvernului un termen de 30 de zile pentru modificarea normelor metodologice, termen nerealist pentru o procedură cu consultare publică. Textul are și o eroare de redactare („aprobă modifică și completarea”)."
+      ],
+      "blindSpotsCaught": "Expunerea de motive descrie o lege mai solidă decât cea scrisă efectiv. Confidențialitatea apare doar ca atribut al mecanismului, nu ca obligație distinctă privind datele. Sesizarea imediată a DGASPC nu există în text, iar delegarea integrală către normele metodologice lasă Guvernului stabilirea termenelor și a garanțiilor esențiale. Lipsește și articularea cu obligațiile de semnalare a abuzului deja existente în lege, precum și cu drepturile părinților de a fi informați. Standardele minime de calitate pentru serviciile sociale ar putea conține deja cerințe similare privind sesizările, așa că trebuie evitată suprapunerea.",
+      "constitutionalityNote": "Nu ridică probleme de fond. Proiectul concretizează art. 49 (protecția copiilor), art. 51 (dreptul de petiționare) și art. 21 (accesul la justiție). Sub aspectul art. 1 alin. (5), formula „în situațiile prevăzute de lege” și delegarea completă a procedurii către o hotărâre de Guvern slăbesc previzibilitatea. Delegarea rămâne totuși admisibilă, deoarece legea fixează principiile: accesibilitate, confidențialitate, adaptare la vârstă, interdicția represaliilor. Termenul de 30 de zile din art. II este de recomandare, iar nerespectarea lui nu afectează constituționalitatea.",
+      "euLawNote": "Directiva 2018/958 nu este aplicabilă, pentru că proiectul nu reglementează accesul la o profesie reglementată. Directiva TRIS 2015/1535 nu este incidentă, întrucât nu există reguli tehnice sau privind serviciile societății informaționale. Obligația se aplică nediscriminatoriu furnizorilor publici și privați, fără efect restrictiv asupra pieței unice. Proiectul este compatibil cu art. 24 din Carta drepturilor fundamentale a UE și cu art. 12 din Convenția ONU privind drepturile copilului. Prelucrarea datelor din plângeri trebuie să respecte GDPR, în special pentru datele copiilor și categoriile speciale de date.",
+      "senatForm": {
+        "articleRef": "Art. I (art. 34¹ alin. 1) și Art. II",
+        "proposalContent": "Teza a II-a a alin.(1) devine: „Când plângerea indică un risc iminent pentru viața, integritatea, sănătatea sau siguranța copilului, furnizorul sesizează de îndată DGASPC și, după caz, organele de urmărire penală, cu informarea copilului.” Art. II: „Guvernul aprobă modificarea și completarea Normelor metodologice...”",
+        "argumentation": "Expunerea de motive promite sesizarea de îndată a DGASPC în caz de risc imediat, dar textul spune doar „în situațiile prevăzute de lege”, formulă vagă care nu adaugă nimic. Obligația concretă face garanția efectivă și previzibilă (art. 1 alin. 5 Constituție). Art. II conține o eroare de redactare care trebuie corectată.",
+        "otherComments": "Propun completarea capitolului privind contravențiile cu sancționarea nerespectării alin. (1)-(3), în special a represaliilor. Termenul de 30 de zile pentru norme e nerealist, propun 90 de zile. Confidențialitatea ar trebui prevăzută expres și corelată cu obligațiile de semnalare a abuzului."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -141,7 +169,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:30:56.027Z",
+      "replacedAt": "2026-11-24T14:40:21.467Z",
       "reasons": [
         "model"
       ]

@@ -2,7 +2,7 @@
   "billId": "PL-x 675/2026",
   "slug": "plx-675-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:34:34.092Z",
+  "updatedAt": "2026-11-24T14:42:47.691Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,12 +31,12 @@
     "key": "6057cfe2815cedaf"
   },
   "consensus": {
-    "riskScore": 3.5,
+    "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Recalcularea CASS voluntar: intenție bună, dar lege inaplicabilă care uită exact de salariați",
-    "summaryTlDr": "Deși scopul declarat este echitabil, forma adoptată tacit de Senat este o normă goală de conținut: șterge un singur cuvânt („nu”) din Codul fiscal, nu stabilește cum se face recalcularea și omite complet persoanele care se angajează.",
-    "initiatorClaim": "Inițiatorii susțin că elimină dubla taxare la sănătate pentru persoanele fără venituri care și-au plătit voluntar CASS prin declarația unică și ulterior se angajează sau devin exceptate, instituind încetarea de drept a obligației, recalcularea proporțională și restituirea sumelor plătite în plus.",
-    "realityCheck": "În realitate, articolul unic doar înlocuiește „nu se recalculează” cu „se recalculează” în art. 180 alin. (5) din Codul fiscal. Textul îi vizează exclusiv pe cei care devin ulterior exceptați potrivit art. 154 alin. (1) (de ex. studenți, persoane cu handicap, gravide fără venituri), lăsându-i pe dinafară pe cei care se angajează cu contract de muncă, și nu prevede nicio formulă de calcul, procedură sau modalitate de restituire a banilor.",
+    "plainTitle": "CASS plătit voluntar se recalculează dacă între timp devii scutit",
+    "summaryTlDr": "Este o corecție echitabilă și practic inofensivă: un singur cuvânt, „nu”, dispare din lege, iar CASS-ul voluntar devine recalculabil. Textul e însă mult mai scurt decât promite expunerea de motive. Nu spune cum se face recalcularea și nu rezolvă cazul invocat ca principal, angajarea.",
+    "initiatorClaim": "Inițiatorii vor să elimine plata dublă a CASS de către cei care au optat pentru asigurare voluntară și apoi s-au angajat sau au devenit exceptați. Ei promit încetarea de drept a obligației, recalcularea proporțională și restituirea sumelor plătite în plus.",
+    "realityCheck": "Art. 180 alin. (5) prevede acum expres că CASS-ul datorat pe baza opțiunii „nu se recalculează” când persoana devine exceptată potrivit art. 154 alin. (1). Proiectul inversează regula în „se recalculează”, dar nu stabilește metoda (proporțional, pe luni), data de referință sau restituirea, care rămân la interpretarea ANAF. Angajarea nu e acoperită: salariații nu sunt persoane exceptate în sensul art. 154 alin. (1), ci plătitori obligatorii. Exact situația descrisă în expunerea de motive ca problemă principală, plata dublă după angajare, rămâne deci nerezolvată.",
     "affectedGroups": [
       "Contabili & Fiscalitate",
       "Angajați & HR",
@@ -44,10 +44,10 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. unic (art. 180 alin. (5) Cod fiscal)",
-      "proposalContent": "Dacă persoana care a optat potrivit alin. (1) devine, în cele 12 luni de asigurare, exceptată conform art. 154 alin. (1) ori salariată (art. 155 alin. (1) lit. a)), CASS se recalculează proporțional cu lunile fără alt temei de asigurare, prin declarație rectificativă; sumele achitate în plus se compensează sau se restituie potrivit Legii nr. 207/2015.",
-      "argumentation": "Forma adoptată tacit de Senat omite exact salariații invocați în expunerea de motive (art. 154 alin. (1) vizează doar persoanele exceptate) și încalcă art. 1 alin. (5) din Constituție: prevede sec că CASS „se recalculează”, fără formulă de calcul, perioadă de referință, procedură sau mecanism de restituire, făcând legea inaplicabilă în practică.",
-      "otherComments": "Sunt necesare dispoziții tranzitorii pentru opțiunile exercitate înainte de intrarea în vigoare a legii, corelarea cu termenul de aplicare din art. 4 Cod fiscal și emiterea ordinului ANAF pentru actualizarea formularului Declarației unice, precum și obținerea fișei financiare privind impactul asupra FNUASS."
+      "articleRef": "Art. unic – art. 180 alin. (5) Cod fiscal",
+      "proposalContent": "(5) Dacă, după exercitarea opțiunii, persoana se încadrează în categoriile exceptate potrivit art. 154 alin. (1) sau realizează venituri din salarii pentru care se datorează CASS, contribuția se recalculează proporțional cu lunile anterioare încadrării. Sumele plătite în plus se compensează sau se restituie potrivit Legii nr. 207/2015.",
+      "argumentation": "Textul Senatului spune doar „se recalculează”, fără metodă, dată de referință sau regim al sumelor plătite. Nu acoperă nici angajarea, deși expunerea de motive o invocă drept problema principală. Salariații nu sunt exceptați potrivit art. 154 alin. (1), așa că plata dublă rămâne.",
+      "otherComments": "Recomand o dispoziție tranzitorie privind aplicarea în timp (corelată cu art. 4 Cod fiscal) și norme ANAF în 30 de zile. Comisia ar trebui să ceară fișa financiară (art. 15 din Legea nr. 500/2002) și punctul de vedere al Guvernului. Impactul bugetar pare redus."
     }
   },
   "council": {
@@ -88,8 +88,39 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 41924,
+      "sourceEndMarker": "SF-2B20C25D",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "CASS plătit voluntar se recalculează dacă între timp devii scutit",
+      "verdictShort": "Este o corecție echitabilă și practic inofensivă: un singur cuvânt, „nu”, dispare din lege, iar CASS-ul voluntar devine recalculabil. Textul e însă mult mai scurt decât promite expunerea de motive. Nu spune cum se face recalcularea și nu rezolvă cazul invocat ca principal, angajarea.",
+      "initiatorClaim": "Inițiatorii vor să elimine plata dublă a CASS de către cei care au optat pentru asigurare voluntară și apoi s-au angajat sau au devenit exceptați. Ei promit încetarea de drept a obligației, recalcularea proporțională și restituirea sumelor plătite în plus.",
+      "realityCheck": "Art. 180 alin. (5) prevede acum expres că CASS-ul datorat pe baza opțiunii „nu se recalculează” când persoana devine exceptată potrivit art. 154 alin. (1). Proiectul inversează regula în „se recalculează”, dar nu stabilește metoda (proporțional, pe luni), data de referință sau restituirea, care rămân la interpretarea ANAF. Angajarea nu e acoperită: salariații nu sunt persoane exceptate în sensul art. 154 alin. (1), ci plătitori obligatorii. Exact situația descrisă în expunerea de motive ca problemă principală, plata dublă după angajare, rămâne deci nerezolvată.",
+      "affectedGroups": [
+        "Contabili & Fiscalitate",
+        "Angajați & HR",
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Articolul unic modifică doar art. 180 alin. (5) Cod fiscal: „nu se recalculează” devine „se recalculează”. Restul mecanismului (baza de 6 salarii minime, art. 180 alin. (2)) rămâne neschimbat.",
+        "Recalcularea se aplică numai trecerii într-o categorie exceptată potrivit art. 154 alin. (1). Nu se aplică dobândirii calității de salariat, deși expunerea de motive o prezintă drept cazul tipic de plată dublă.",
+        "Expunerea de motive promite încetare de drept, calcul proporțional, compensare/restituire și procedură simplificată pe baza datelor ANAF. Niciunul dintre aceste elemente nu apare în textul normativ.",
+        "Lipsesc formula și momentul de referință ale recalculării (luna încadrării, luna următoare, zi cu zi). Rezultatul depinde de interpretarea administrativă sau de norme metodologice inexistente.",
+        "Proiectul a fost adoptat tacit de Senat (art. 75 alin. (2) teza a III-a din Constituție), fără dezbatere de fond în prima cameră.",
+        "Impactul bugetar e probabil mic, dar e o reducere de venituri la FNUASS, iar dosarul nu arată o fișă financiară."
+      ],
+      "blindSpotsCaught": "Pe lângă decalajul dintre expunere și text, art. 4 din Codul fiscal cere ca modificările Codului să intre în vigoare de la 1 ianuarie a anului următor și să fie adoptate cu cel puțin 6 luni înainte. Proiectul nu are dispoziție tranzitorie, deci nu e clar dacă recalcularea vizează și opțiunile exercitate în 2026 sau doar pe cele viitoare. Mai e o tensiune logică: art. 180 alin. (1) lit. c) interzice deja opțiunea celor care sunt exceptați la momentul opțiunii. Noua regulă privește doar exceptarea intervenită ulterior, iar pentru ea lipsește temeiul procedural al restituirii, care ar trebui trimis expres la art. 167–168 din Legea nr. 207/2015.",
+      "constitutionalityNote": "Nu ridică probleme de fond. Soluția susține justa așezare a sarcinilor fiscale (art. 56 alin. (2)) și elimină o sarcină lipsită de cauză după încadrarea în exceptare. Riscul ține de claritate și previzibilitate (art. 1 alin. (5)): verbul „se recalculează”, fără criteriu de calcul, poate genera practică neunitară. Inițiativa parlamentară care reduce venituri bugetare ar trebui însoțită de punctul de vedere al Guvernului (art. 111) și de fișa financiară cerută de legislația finanțelor publice. Lipsa lor ține de procedura legislativă, nu de constituționalitatea soluției.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă, deoarece proiectul nu reglementează accesul la profesii sau exercitarea lor. Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reguli tehnice și nici servicii ale societății informaționale. Nu apar efecte asupra concurenței sau a pieței unice. Contribuțiile sociale țin de competența națională, iar coordonarea prin Regulamentul (CE) 883/2004 nu este afectată.",
+      "senatForm": {
+        "articleRef": "Art. unic – art. 180 alin. (5) Cod fiscal",
+        "proposalContent": "(5) Dacă, după exercitarea opțiunii, persoana se încadrează în categoriile exceptate potrivit art. 154 alin. (1) sau realizează venituri din salarii pentru care se datorează CASS, contribuția se recalculează proporțional cu lunile anterioare încadrării. Sumele plătite în plus se compensează sau se restituie potrivit Legii nr. 207/2015.",
+        "argumentation": "Textul Senatului spune doar „se recalculează”, fără metodă, dată de referință sau regim al sumelor plătite. Nu acoperă nici angajarea, deși expunerea de motive o invocă drept problema principală. Salariații nu sunt exceptați potrivit art. 154 alin. (1), așa că plata dublă rămâne.",
+        "otherComments": "Recomand o dispoziție tranzitorie privind aplicarea în timp (corelată cu art. 4 Cod fiscal) și norme ANAF în 30 de zile. Comisia ar trebui să ceară fișa financiară (art. 15 din Legea nr. 500/2002) și punctul de vedere al Guvernului. Impactul bugetar pare redus."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -142,7 +173,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:34:34.092Z",
+      "replacedAt": "2026-11-24T14:42:47.691Z",
       "reasons": [
         "model"
       ]

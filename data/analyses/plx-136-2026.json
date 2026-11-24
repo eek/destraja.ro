@@ -2,7 +2,7 @@
   "billId": "Pl-x 136/2026",
   "slug": "plx-136-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:34:54.101Z",
+  "updatedAt": "2026-11-24T14:42:52.866Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,21 +31,21 @@
     "key": "3c99a3fa012ee18b"
   },
   "consensus": {
-    "riskScore": 4,
-    "riskLevel": "yellow",
-    "plainTitle": "Pașaport temporar în 3 zile pentru „grupuri de pelerini”, fără dovadă și fără urgență",
-    "summaryTlDr": "O propunere neclară și necorelată care deschide o portiță largă pentru obținerea pașaportului nebiometric fără nicio urgență reală. Deși invocă sprijinirea pelerinilor vârstnici, textul introduce un privilegiu nejustificat pe criteriu religios și omite orice regulă privind actele doveditoare.",
-    "initiatorClaim": "Inițiatorul susține că persoanele, în special vârstnicii din mediul rural, nu reușesc uneori să obțină la timp un pașaport electronic pentru pelerinaje în străinătate și propune să poată primi pașaport simplu temporar în situații urgente, pe baza unor documente ușor de verificat.",
-    "realityCheck": "În realitate, proiectul adaugă la art. 17¹ alin. (1) doar sintagma vagă „pentru persoanele înscrise în grupuri de pelerini”, fără a impune nicio condiție de urgență, fără a defini ce este un „grup de pelerini” și fără a introduce un alineat care să ceară documente doveditoare (spre deosebire de lit. a-c). În forma propusă, orice persoană trecută pe o listă de „pelerinaj” – inclusiv de către o agenție de turism – ar putea cere pașaport temporar în cel mult 3 zile lucrătoare, ocolind regula pașaportului electronic și interdicția scopului turistic din art. 17¹ alin. (5).",
+    "riskScore": 3.3,
+    "riskLevel": "green",
+    "plainTitle": "Pașaport temporar rapid pentru cei care pleacă în pelerinaj",
+    "summaryTlDr": "Proiectul are un scop rezonabil și efecte mici, dar textul e prea vag. Lit. d) nu definește „grupul de pelerini”, nu cere nicio urgență și nu spune cum se dovedește situația. Riscul e scăzut, iar proiectul a fost oricum respins.",
+    "initiatorClaim": "Inițiatorul spune că pelerinii, adesea vârstnici sau din mediul rural, nu pot obține la timp un pașaport electronic. El adaugă că autoritățile tratează pelerinajul ca turism și refuză pașaportul temporar. Soluția propusă este o categorie expresă pentru ei.",
+    "realityCheck": "Proiectul adaugă la art. 17^1 alin. (1) o lit. d) cu un singur rând: „pentru persoanele înscrise în grupuri de pelerini”. Spre deosebire de lit. a)–c), nu cere urgență și lipsa timpului pentru pașaportul electronic. Nu are nici o regulă de probă corespunzătoare în alin. (3)–(5). Practic, orice înscriere într-un grup numit „de pelerini” ar da dreptul la pașaport temporar, inclusiv la excursiile organizate de agenții sub eticheta de pelerinaj. Așa s-ar ocoli excluderea motivelor turistice din alin. (5).",
     "affectedGroups": [
       "Toți cetățenii",
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I (art. 17^1 alin. (1) Legea 248/2005)",
-      "proposalContent": "Se propune eliminarea Art. I (respingerea proiectului). Alternativ, dacă se menține lit. d), aceasta trebuie să condiționeze eliberarea de o urgență obiectivă și de imposibilitatea obținerii pașaportului electronic, cu un nou alineat care să stabilească documentele doveditoare emise de cultele recunoscute potrivit Legii nr. 489/2006.",
-      "argumentation": "Textul încalcă art. 1 alin. (5) din Constituție: nu definește „grupul de pelerini”, nu impune urgență și nu prevede acte doveditoare, spre deosebire de alin. (3)-(5). Creează un privilegiu nejustificat pe criteriu religios (art. 16) și o portiță pentru eludarea regulii pașaportului biometric și a interdicției scopului turistic din art. 17^1 alin. (5).",
-      "otherComments": "Legea nr. 174/2024 a restrâns recent emiterea pașaportului temporar tocmai pentru a limita documentele fără cip biometric. Extinderea necondiționată încarcă ghișeele cu termene de 3 zile și expune cetățenii riscului ca actul să nu fie acceptat în unele state. Accesul vârstnicilor din mediul rural trebuie rezolvat prin ghișee mobile, nu derogări."
+      "articleRef": "Art. I (art.17^1 alin.1 lit.d L.248/2005)",
+      "proposalContent": "Lit. d): «d) pentru persoanele înscrise în grupuri de pelerini organizate de un cult recunoscut sau de o agenție de turism licențiată, dacă nu există timpul necesar emiterii pașaportului simplu electronic.» Alin. (5^1) nou: «Situația de la lit. d) se dovedește cu lista nominală sau adeverința organizatorului, cu data și statul de destinație.»",
+      "argumentation": "Textul inițial nu definește «grupul de pelerini», nu cere urgență și nu prevede probe (alin. 3-5 acoperă doar lit. a-c). Astfel ar ocoli excluderea motivelor turistice din alin. (5) și ar crea un regim preferențial greu de justificat față de art. 16 și 29 din Constituție. Varianta propusă păstrează caracterul de excepție și dă funcționarilor criterii clare.",
+      "otherComments": "Art. II (republicarea legii) e disproporționat pentru o singură literă și poate fi eliminat. Alternativ, problema se poate rezolva administrativ, printr-o precizare MAI că pelerinajul cu dată fixă poate intra la lit. c). De verificat dacă statele de destinație acceptă pașaportul temporar."
     }
   },
   "council": {
@@ -83,8 +83,36 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 37085,
+      "sourceEndMarker": "SF-A6A441D8",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Pașaport temporar rapid pentru cei care pleacă în pelerinaj",
+      "verdictShort": "Proiectul are un scop rezonabil și efecte mici, dar textul e prea vag. Lit. d) nu definește „grupul de pelerini”, nu cere nicio urgență și nu spune cum se dovedește situația. Riscul e scăzut, iar proiectul a fost oricum respins.",
+      "initiatorClaim": "Inițiatorul spune că pelerinii, adesea vârstnici sau din mediul rural, nu pot obține la timp un pașaport electronic. El adaugă că autoritățile tratează pelerinajul ca turism și refuză pașaportul temporar. Soluția propusă este o categorie expresă pentru ei.",
+      "realityCheck": "Proiectul adaugă la art. 17^1 alin. (1) o lit. d) cu un singur rând: „pentru persoanele înscrise în grupuri de pelerini”. Spre deosebire de lit. a)–c), nu cere urgență și lipsa timpului pentru pașaportul electronic. Nu are nici o regulă de probă corespunzătoare în alin. (3)–(5). Practic, orice înscriere într-un grup numit „de pelerini” ar da dreptul la pașaport temporar, inclusiv la excursiile organizate de agenții sub eticheta de pelerinaj. Așa s-ar ocoli excluderea motivelor turistice din alin. (5).",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I introduce lit. d) fără condiția de urgență. Lit. c), deja în vigoare, acoperă situațiile obiective și urgente în care nu există timp pentru pașaportul electronic. Lit. d) devine astfel o categorie automată, nu o excepție justificată.",
+        "Alin. (3), (4) și (5) din art. 17^1 stabilesc cum se dovedesc lit. a), b) și c). Pentru lit. d) proiectul nu prevede nicio probă. Expunerea de motive invocă liste nominale și adeverințe ale cultelor, dar acestea nu apar în textul normativ.",
+        "Noțiunea de „grup de pelerini” nu este definită. Nu se precizează organizatorul (cult recunoscut, agenție licențiată, asociație), numărul minim de persoane sau destinația. Rezultatul e un risc de aplicare neunitară la serviciile de pașapoarte.",
+        "Condițiile generale din partea introductivă a alin. (1) rămân aplicabile și lit. d): îndeplinirea condițiilor legii, lipsa suspendării dreptului la liberă circulație și lipsa interdicției penale de a părăsi țara. Nu există deci un risc de securitate nou.",
+        "Art. II cere republicarea întregii Legi nr. 248/2005 pentru o singură literă nouă, ceea ce e disproporționat. Impactul bugetar este neglijabil: pașaportul temporar se plătește de solicitant și se emite de aceleași servicii."
+      ],
+      "blindSpotsCaught": "Alin. (5) exclude expres motivele „exclusiv turistice”, dar doar pentru lit. c). Lit. d) ar scăpa complet de acest filtru, așa că orice circuit turistic ambalat ca „pelerinaj” ar putea justifica un pașaport temporar. Problema invocată în expunerea de motive ține mai degrabă de interpretarea restrictivă a lit. c) de către administrație. Se poate rezolva printr-o precizare la lit. c) sau prin ghid aplicativ, fără o categorie nouă. Merită verificat și dacă unele state de destinație sau de tranzit acceptă pașaportul simplu temporar ca document de intrare.",
+      "constitutionalityNote": "Scopul este legitim și susține libertatea de circulație (art. 25) și libertatea religioasă (art. 29). Textul are însă probleme de claritate și previzibilitate (art. 1 alin. (5)), pentru că termenul-cheie nu e definit și nu există criterii de probă. Mai poate fi pusă în discuție egalitatea (art. 16) și neutralitatea statului față de religie. Un regim favorabil acordat motivului religios, fără condiție de urgență, nu e la fel de accesibil pentru alte deplasări la fel de importante, de exemplu evenimente familiale sau culturale cu dată fixă. Problema nu e gravă și poate fi corectată prin redactare.",
+      "euLawNote": "Proiectul nu reglementează profesii, deci Directiva (UE) 2018/958 nu se aplică. Nu privește servicii ale societății informaționale, deci nici notificarea TRIS (Directiva 2015/1535) nu e necesară. Emiterea documentelor de călătorie ține de competența națională. Directiva 2004/38/CE privind libera circulație cere statelor să elibereze documente de călătorie cetățenilor, iar proiectul ar facilita acest lucru. Nu apar conflicte cu piața unică.",
+      "senatForm": {
+        "articleRef": "Art. I (art.17^1 alin.1 lit.d L.248/2005)",
+        "proposalContent": "Lit. d): «d) pentru persoanele înscrise în grupuri de pelerini organizate de un cult recunoscut sau de o agenție de turism licențiată, dacă nu există timpul necesar emiterii pașaportului simplu electronic.» Alin. (5^1) nou: «Situația de la lit. d) se dovedește cu lista nominală sau adeverința organizatorului, cu data și statul de destinație.»",
+        "argumentation": "Textul inițial nu definește «grupul de pelerini», nu cere urgență și nu prevede probe (alin. 3-5 acoperă doar lit. a-c). Astfel ar ocoli excluderea motivelor turistice din alin. (5) și ar crea un regim preferențial greu de justificat față de art. 16 și 29 din Constituție. Varianta propusă păstrează caracterul de excepție și dă funcționarilor criterii clare.",
+        "otherComments": "Art. II (republicarea legii) e disproporționat pentru o singură literă și poate fi eliminat. Alternativ, problema se poate rezolva administrativ, printr-o precizare MAI că pelerinajul cu dată fixă poate intra la lit. c). De verificat dacă statele de destinație acceptă pașaportul temporar."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -136,7 +164,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:34:54.101Z",
+      "replacedAt": "2026-11-24T14:42:52.866Z",
       "reasons": [
         "model"
       ]

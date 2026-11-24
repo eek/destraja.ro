@@ -2,7 +2,7 @@
   "billId": "Pl-x 587/2026",
   "slug": "plx-587-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:37:37.007Z",
+  "updatedAt": "2026-11-24T14:44:33.481Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -33,10 +33,10 @@
   "consensus": {
     "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Compensarea concediilor medicale aprobate de CNAS cu taxele datorate la ANAF",
-    "summaryTlDr": "O inițiativă utilă și echilibrată pentru mediul de afaceri, care rezolvă un blocaj real de lichiditate cauzat de întârzierile CNAS. Totuși, lipsesc detalii tehnice esențiale (data stingerii datoriilor, termenul de confirmare și decontarea între bugete), care trebuie completate în comisii pentru ca legea să fie aplicabilă și constituțională.",
-    "initiatorClaim": "Inițiatorii susțin că elimină blocajul legislativ actual (care permite compensarea fiscală doar în cadrul aceleiași autorități), permițând angajatorilor să stingă taxele la ANAF cu sumele aprobate la restituire din FNUASS pentru concedii medicale (un stoc de peste 4 miliarde lei la finalul lui 2024), fără a crea privilegii fiscale.",
-    "realityCheck": "Legea creează o derogare punctuală și voluntară de la art. 167 alin. (1) din Codul de procedură fiscală, aplicabilă strict sumelor deja verificate și aprobate la restituire de casele de asigurări de sănătate. Mecanismul ajută real firmele care așteaptă plata de la CNAS după aprobare, dar nu rezolvă întârzierile din etapa de verificare a dosarelor și lasă nereglementate data exactă la care se opresc dobânzile ANAF, termenul în care CAS trimite confirmarea și modul în care bugetul de stat își recuperează banii de la FNUASS.",
+    "plainTitle": "Firmele își pot compensa banii de concedii medicale datorați de CNAS cu taxele datorate la ANAF",
+    "summaryTlDr": "Este o măsură tehnică și utilă pentru angajatori: banii pe care statul îi datorează deja pentru concedii medicale aprobate pot stinge taxe datorate la ANAF. Riscurile țin de redactare (termene lipsă, data stingerii, relația cu CASS) și de lipsa fișei financiare, nu de capcane ascunse.",
+    "initiatorClaim": "Inițiatorii vor să deblocheze compensarea. Codul de procedură fiscală o permite acum doar când ambele creanțe sunt administrate de aceeași autoritate, iar indemnizațiile sunt aprobate de casele de sănătate, în timp ce taxele sunt la ANAF. Invocă un stoc de restanțe de 4,084 mld. lei la finalul lui 2024.",
+    "realityCheck": "Art. I introduce art. 167¹, care derogă de la condiția «aceeași autoritate publică» din art. 167 alin. (1) doar pentru indemnizațiile aprobate la restituire. Compensarea se face numai la cererea angajatorului, pe baza confirmării casei de sănătate, iar procedura se stabilește prin ordin comun MF–CNAS. Legea nu fixează termene pentru confirmarea casei și pentru decizia ANAF și nu spune de la ce dată se sting obligațiile, deci nici de la ce dată încetează accesoriile. Mecanismul de decontare între FNUASS și bugetele creditoare este lăsat integral pe seama ordinului.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
@@ -44,10 +44,10 @@
       "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. I (art. 167¹ CPF) și Art. II",
-      "proposalContent": "La art. 167¹ alin. (4) se adaugă: „Casa de asigurări transmite confirmarea în 10 zile de la cerere, iar compensarea produce efecte de la data depunerii cererii, aplicându-se corespunzător art. 165 și art. 167 alin. (8).” La art. II se adaugă derogarea expresă de la art. 38 alin. (1) teza finală și regula decontării între bugetul de stat și FNUASS.",
-      "argumentation": "Fără termen pentru confirmarea CAS și fără data stingerii datoriei, angajatorii riscă dobânzi și penalități la ANAF cât așteaptă. Lipsa derogării de la art. 38 alin. (1) teza finală creează ambiguitate la compensarea cu CASS, iar absența regulii de decontare între bugete expune legea la riscuri pe art. 1 alin. (5) și art. 138 alin. (5) din Constituție.",
-      "otherComments": "Susținem principiul proiectului, util pentru lichiditatea IMM-urilor. Recomandăm corectarea erorilor materiale din Art. I (Monitorul Oficial nr. 547 este din 23 iulie 2015, nu 23 iunie 2015; „numai” în loc de „numaî”) și solicitarea fișei financiare de la Guvern conform Legii nr. 500/2002."
+      "articleRef": "Art. I – art. 167¹ alin. (4) Cod proc. fiscală",
+      "proposalContent": "(4) Casa de asigurări de sănătate transmite confirmarea în 10 zile de la cerere, iar organul fiscal central constată compensarea în 7 zile de la primire și comunică decizia potrivit art. 167 alin. (8). Obligațiile fiscale se consideră stinse la data înregistrării cererii, în limita sumei confirmate.",
+      "argumentation": "Textul nu fixează termene pentru confirmarea CAS și decizia ANAF și nici data stingerii, decisivă pentru dobânzi și penalități. Fără ele, angajatorul poate plăti accesorii pentru datorii pe care statul le putea compensa, iar procedura depinde integral de ordinul comun (art. 1 alin. (5) din Constituție).",
+      "otherComments": "Clarificați raportul cu art. 38 alin. (1) teza finală din OUG 158/2005 (interdicția recuperării din CASS) și cu art. 167 alin. (2). Corelați art. III cu art. IV (ordinul s-ar emite înainte de intrarea în vigoare a legii). Atașați fișa financiară (art. 15 din Legea 500/2002) și corectați «numaî»."
     }
   },
   "council": {
@@ -88,8 +88,39 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 52708,
+      "sourceEndMarker": "SF-911BD246",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Firmele își pot compensa banii de concedii medicale datorați de CNAS cu taxele datorate la ANAF",
+      "verdictShort": "Este o măsură tehnică și utilă pentru angajatori: banii pe care statul îi datorează deja pentru concedii medicale aprobate pot stinge taxe datorate la ANAF. Riscurile țin de redactare (termene lipsă, data stingerii, relația cu CASS) și de lipsa fișei financiare, nu de capcane ascunse.",
+      "initiatorClaim": "Inițiatorii vor să deblocheze compensarea. Codul de procedură fiscală o permite acum doar când ambele creanțe sunt administrate de aceeași autoritate, iar indemnizațiile sunt aprobate de casele de sănătate, în timp ce taxele sunt la ANAF. Invocă un stoc de restanțe de 4,084 mld. lei la finalul lui 2024.",
+      "realityCheck": "Art. I introduce art. 167¹, care derogă de la condiția «aceeași autoritate publică» din art. 167 alin. (1) doar pentru indemnizațiile aprobate la restituire. Compensarea se face numai la cererea angajatorului, pe baza confirmării casei de sănătate, iar procedura se stabilește prin ordin comun MF–CNAS. Legea nu fixează termene pentru confirmarea casei și pentru decizia ANAF și nu spune de la ce dată se sting obligațiile, deci nici de la ce dată încetează accesoriile. Mecanismul de decontare între FNUASS și bugetele creditoare este lăsat integral pe seama ordinului.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Angajați & HR",
+        "Sănătate & Educație"
+      ],
+      "keyFindings": [
+        "Art. I (art. 167¹ alin. 1): derogă expres doar de la art. 167 alin. (1). Acum compensarea cere ca ambele creanțe să fie administrate de aceeași autoritate, condiție care exclude indemnizațiile aprobate de CAS. După proiect, acestea pot fi compensate cu orice obligație fiscală administrată de ANAF.",
+        "Art. 167¹ alin. (2)-(3): compensarea operează numai la cererea angajatorului, nu din oficiu ca regula din art. 167 alin. (4) și (7). Sunt exigibile doar sumele aprobate la restituire, nu cererile aflate în verificare, ceea ce limitează riscul de fraudă.",
+        "Art. 167¹ alin. (4): ANAF constată compensarea pe baza confirmării CAS, dar textul nu dă termen nici pentru confirmare, nici pentru decizie. Nu stabilește nici data stingerii, care e esențială pentru dobânzi și penalități. Dacă art. 167 alin. (8), cu decizia comunicată în 7 zile, se aplică și aici rămâne neclar.",
+        "Art. II (art. 38 alin. 1¹ OUG 158/2005): face trimitere înapoi la Codul de procedură fiscală, deci corelarea e coerentă. Nu clarifică însă raportul cu teza finală a alin. (1), după care sumele nu pot fi recuperate din CASS constituită. Compensarea cu CASS datorată la ANAF ar putea contraveni acestei interdicții.",
+        "Art. III–IV: ordinul comun trebuie emis în 60 de zile de la publicare, dar legea intră în vigoare abia după 90 de zile. Ordinul s-ar emite deci în baza unei norme care încă nu e în vigoare.",
+        "Impact bugetar: măsura nu creează venit sau cheltuială nouă, dar accelerează decontarea arieratelor FNUASS. Pe termen scurt reduce încasările efective ale bugetelor administrate de ANAF. Proiectul nu are fișă financiară."
+      ],
+      "blindSpotsCaught": "Trei goluri. (1) Teza finală a art. 38 alin. (1) din OUG 158/2005 interzice recuperarea indemnizațiilor din CASS constituită, iar noul alin. (1¹) permite compensarea cu orice obligație fiscală administrată de ANAF, deci posibil și cu CASS, fără să precizeze dacă această interdicție rămâne. (2) Nu se știe dacă ordinea din art. 167 alin. (2), mai întâi același buget și apoi celelalte proporțional, se aplică și noului art. 167¹, care e articol distinct. (3) Lipsa datei stingerii: regula de drept comun (art. 167 alin. 4) leagă stingerea de momentul coexistenței creanțelor, dar compensarea «la cerere» lasă neclar dacă accesoriile curg până la decizia ANAF. Mai apar o greșeală de tastare («numaî») și decalajul dintre termenul de 60 de zile pentru ordin și intrarea în vigoare la 90 de zile.",
+      "constitutionalityNote": "Nu se văd probleme majore. Măsura e voluntară, nu reduce obligațiile fiscale și nu creează privilegii, deci respectă art. 56 și art. 16. Pentru art. 1 alin. (5), lipsa termenelor și a datei stingerii scade previzibilitatea, dar poate fi corectată prin amendament sau prin ordin. Pentru art. 111 alin. (1) teza a II-a și art. 138 alin. (5), inițiativa afectează execuția FNUASS și a bugetului de stat, deci e necesară informarea Guvernului. Lipsa fișei financiare (art. 15 din Legea 500/2002 și art. 15 din Legea 69/2010) e un risc procedural, deși impactul e mai degrabă de trezorerie decât de cheltuială nouă. Delegarea către ordin comun e admisibilă, fiind strict procedurală.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că nu se reglementează accesul la o profesie. Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu există reglementări tehnice sau servicii ale societății informaționale. Nu apar probleme de ajutor de stat: măsura e generală, se aplică tuturor angajatorilor și privește sume deja datorate de stat, deci nu e selectivă. Spiritul Directivei 2011/7/UE privind întârzierea plăților susține reducerea arieratelor statului, chiar dacă directiva nu se aplică direct relațiilor de asigurări sociale.",
+      "senatForm": {
+        "articleRef": "Art. I – art. 167¹ alin. (4) Cod proc. fiscală",
+        "proposalContent": "(4) Casa de asigurări de sănătate transmite confirmarea în 10 zile de la cerere, iar organul fiscal central constată compensarea în 7 zile de la primire și comunică decizia potrivit art. 167 alin. (8). Obligațiile fiscale se consideră stinse la data înregistrării cererii, în limita sumei confirmate.",
+        "argumentation": "Textul nu fixează termene pentru confirmarea CAS și decizia ANAF și nici data stingerii, decisivă pentru dobânzi și penalități. Fără ele, angajatorul poate plăti accesorii pentru datorii pe care statul le putea compensa, iar procedura depinde integral de ordinul comun (art. 1 alin. (5) din Constituție).",
+        "otherComments": "Clarificați raportul cu art. 38 alin. (1) teza finală din OUG 158/2005 (interdicția recuperării din CASS) și cu art. 167 alin. (2). Corelați art. III cu art. IV (ordinul s-ar emite înainte de intrarea în vigoare a legii). Atașați fișa financiară (art. 15 din Legea 500/2002) și corectați «numaî»."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -144,7 +175,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:37:37.007Z",
+      "replacedAt": "2026-11-24T14:44:33.481Z",
       "reasons": [
         "model"
       ]

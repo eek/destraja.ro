@@ -2,7 +2,7 @@
   "billId": "Pl-x 577/2026",
   "slug": "plx-577-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:36:53.107Z",
+  "updatedAt": "2026-11-24T14:44:23.593Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,22 +31,22 @@
     "key": "3421c308f1446710"
   },
   "consensus": {
-    "riskScore": 4,
-    "riskLevel": "yellow",
-    "plainTitle": "Evidență digitală integrată pentru copiii cu dizabilități, dar cu lacune la protecția datelor medicale",
-    "summaryTlDr": "Intenția este necesară și benefică pentru familiile copiilor cu dizabilități, însă proiectul are vicii reale de constituționalitate și GDPR: lasă reglementarea datelor medicale sensibile la nivel de ordin de ministru și poate bloca accesul la drepturi dacă sistemele statului cad.",
-    "initiatorClaim": "Inițiatorii vor să elimine birocrația care obligă părinții copiilor cu cerințe educaționale speciale sau dizabilități să poarte dosare între medici, DGASPC și școli și să oprească dispariția a mii de copii din evidențele educaționale prin interconectarea automată a bazelor de date.",
-    "realityCheck": "În vigoare, Legea nr. 198/2023 (art. 133 alin. 6) și Legea nr. 242/2022 (art. 11) prevăd deja interoperabilitatea SIMS și principiul „doar o singură dată”; proiectul adaugă un modul dedicat în SIMS, un jurnal de audit al accesărilor pe 5 ani și noțiunile de „profil integrat” și „ghișeu unic digital” în Legea nr. 448/2006. În practică, însă, textul trimite diagnosticul medical către Ministerul Educației „exclusiv” prin interoperabilitate fără soluție de rezervă în caz de avarie, nu stabilește cine administrează sau când se lansează ghișeul unic digital și delegă prin ordin de ministru regulile esențiale privind datele medicale ale minorilor.",
+    "riskScore": 3.7,
+    "riskLevel": "green",
+    "plainTitle": "Datele copiilor cu dizabilități și CES, legate între școală, sănătate și protecția socială",
+    "summaryTlDr": "Este o lege utilă și bine intenționată. Le scutește pe familii de drumurile între DGASPC, CJRAE și inspectorat și ajută la găsirea copiilor neșcolarizați. Punctul slab: diagnosticul medical al copiilor ajunge în sistemul educației fără ca legea să spună clar pentru ce, cine îl vede și cât timp se păstrează, iar aceste detalii sunt lăsate pe seama unui ordin de ministru.",
+    "initiatorClaim": "Inițiatorii vor să pună capăt fragmentării dintre sistemele de sănătate, protecție socială și educație, din cauza căreia mii de copii cu autism și CES dispar din evidențe. Soluția propusă este un modul dedicat în SIMS, un profil integrat și un ghișeu unic digital, după principiul „doar o singură dată”.",
+    "realityCheck": "Proiectul are patru efecte concrete. (1) Introduce în Legea 198/2023 un modul informatic în SIMS pentru beneficiarii primari cu CES și dizabilități. (2) Obligă ca datele din SNMD despre diagnostic, evaluare și încadrare să ajungă la Ministerul Educației doar prin interoperabilitate. (3) Le dă familiilor acces la propriile documente și la un jurnal de audit al accesărilor, păstrat minimum 5 ani. (4) Impune autorităților de evaluare să se conecteze la SIMS în 12 luni. Chichițele sunt de altă natură. Legea definește „profilul integrat” și „ghișeul unic digital”, dar nu desemnează cine le operează. Nu limitează scopul transferului de date medicale. Nu stabilește cine din sistemul educațional are acces și nici durata de păstrare a profilului, deși acesta ar urma persoana pe tot parcursul vieții. Toate acestea sunt delegate normelor aprobate prin ordin comun.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Justiție & Drepturi Civile",
       "IT & AI"
     ],
     "senatForm": {
-      "articleRef": "Art. II pct. 2 (art. 90⁷, Legea 448/2006)",
-      "proposalContent": "„Art. 90⁷. – Datele strict necesare privind încadrarea în grad de handicap și recomandările educaționale ale copiilor și elevilor se transmit Ministerului Educației prin interoperabilitate cu SIMS, fără diagnosticul medical brut. În caz de indisponibilitate a sistemului, reprezentantul legal poate depune documentele direct.”",
-      "argumentation": "Transmiterea „exclusivă” poate bloca drepturile copiilor dacă SNMD devine indisponibil (ex. atacul ransomware din 2024). Transmiterea diagnosticului medical brut către Educație încalcă minimizarea datelor (art. 5 și 9 GDPR) și art. 26 din Constituție. Termenul „beneficiari primari” nu e definit în Legea 448/2006.",
-      "otherComments": "La art. IV alin. (4), categoriile de date sensibile, accesul și durata stocării trebuie stabilite prin lege, nu prin ordin de ministru (jurisprudența CCR privind datele medicale). De asemenea, legea trebuie să desemneze expres administratorul ghișeului unic digital, termenul său de operaționalizare și cerințele de accesibilitate digitală."
+      "articleRef": "Art. II pct. 2 – art. 90^7 Legea 448/2006",
+      "proposalContent": "Art. 90^7. – (1) Datele din SNMD privind încadrarea în grad de handicap ale beneficiarilor primari sunt puse la dispoziția Ministerului Educației exclusiv prin interoperabilitate cu SIMS, numai pentru orientarea școlară, sprijinul educațional și identificarea copiilor neșcolarizați. (2) Diagnosticul medical se transmite doar dacă e strict necesar acestor scopuri.",
+      "argumentation": "Textul transferă diagnosticul medical al copiilor (date sensibile, art. 9 GDPR) fără ca legea să fixeze scopul și limitele. Art. 6 alin. (3) GDPR și jurisprudența CCR privind bazele de date cer ca scopul și categoriile de date să fie stabilite prin lege, nu prin ordin. Amendamentul păstrează mecanismul, dar îl face proporțional.",
+      "otherComments": "Legea ar trebui să precizeze cine operează profilul integrat și ghișeul unic digital, cine are acces (școală, CJRAE, DGASPC) și cât timp se păstrează datele. Art. IV alin. (1) și (4) enumeră autorități diferite și trebuie corelate. Recomandăm o evaluare de impact (art. 35 GDPR) înainte de operaționalizare."
     }
   },
   "council": {
@@ -86,8 +86,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 62856,
+      "sourceEndMarker": "SF-31BE1C14",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Datele copiilor cu dizabilități și CES, legate între școală, sănătate și protecția socială",
+      "verdictShort": "Este o lege utilă și bine intenționată. Le scutește pe familii de drumurile între DGASPC, CJRAE și inspectorat și ajută la găsirea copiilor neșcolarizați. Punctul slab: diagnosticul medical al copiilor ajunge în sistemul educației fără ca legea să spună clar pentru ce, cine îl vede și cât timp se păstrează, iar aceste detalii sunt lăsate pe seama unui ordin de ministru.",
+      "initiatorClaim": "Inițiatorii vor să pună capăt fragmentării dintre sistemele de sănătate, protecție socială și educație, din cauza căreia mii de copii cu autism și CES dispar din evidențe. Soluția propusă este un modul dedicat în SIMS, un profil integrat și un ghișeu unic digital, după principiul „doar o singură dată”.",
+      "realityCheck": "Proiectul are patru efecte concrete. (1) Introduce în Legea 198/2023 un modul informatic în SIMS pentru beneficiarii primari cu CES și dizabilități. (2) Obligă ca datele din SNMD despre diagnostic, evaluare și încadrare să ajungă la Ministerul Educației doar prin interoperabilitate. (3) Le dă familiilor acces la propriile documente și la un jurnal de audit al accesărilor, păstrat minimum 5 ani. (4) Impune autorităților de evaluare să se conecteze la SIMS în 12 luni. Chichițele sunt de altă natură. Legea definește „profilul integrat” și „ghișeul unic digital”, dar nu desemnează cine le operează. Nu limitează scopul transferului de date medicale. Nu stabilește cine din sistemul educațional are acces și nici durata de păstrare a profilului, deși acesta ar urma persoana pe tot parcursul vieții. Toate acestea sunt delegate normelor aprobate prin ordin comun.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Justiție & Drepturi Civile",
+        "IT & AI"
+      ],
+      "keyFindings": [
+        "Art. I (art. 133 alin. 11 nou din Legea 198/2023): creează doar temeiul legal al modulului din SIMS. Art. 133 alin. (6) în vigoare impune deja interoperabilitatea datelor educaționale după principiul „doar o singură dată”, așa că noutatea este modulul dedicat CES/dizabilitate, nu principiul în sine.",
+        "Art. II pct. 2 (art. 90^7 din Legea 448/2006): diagnosticul medical, evaluarea și încadrarea în grad de handicap trec din SNMD la Ministerul Educației. Textul nu precizează scopul, nu limitează datele la cele necesare și nu spune cine le poate consulta (unitatea de învățământ, profesorul, CJRAE). Pentru date de sănătate ale copiilor, acesta este cel mai important gol.",
+        "Art. II pct. 1 (art. 5 pct. 26^2): profilul integrat include istoricul PEP, al deciziilor de orientare școlară și al recomandărilor medicale. Legea nu fixează însă un termen de păstrare și nici o autoritate responsabilă ca operator de date.",
+        "Art. II pct. 2 (art. 90^8): este o garanție reală și pozitivă. Persoana vizată are acces direct la propriile documente și la un jurnal de audit nealterabil, păstrat minimum 5 ani. Formularea „să partajeze” nu precizează însă cu cine și prin ce mecanism.",
+        "Art. IV: termenele sunt de 180 de zile pentru protocol și norme și de 12 luni pentru operaționalizare. Normele se emit cu avizul ANSPDCP, ceea ce este pozitiv. Componența autorităților diferă între alin. (1) (fără Ministerul Muncii) și alin. (4) (fără ADR), iar ghișeul unic digital nu are niciun termen de operaționalizare.",
+        "Expunerea de motive susține că măsura nu are cost suplimentar, pentru că se grefează pe SIMS și PNI. Totuși, dezvoltarea modulului și conectarea sistemelor DGASPC, CJRAE și ale unităților sanitare presupun cheltuieli, inclusiv la nivel local, pe care proiectul nu le cuantifică."
+      ],
+      "blindSpotsCaught": "Art. 90^7 este introdus în Legea 448/2006, care privește atât copiii, cât și adulții, dar folosește noțiunea de „beneficiari primari”, preluată din Legea 198/2023 și nedefinită în Legea 448. Profilul integrat și ghișeul unic sunt definite (art. 5 pct. 26^2–26^3) fără vreun articol care să le înființeze, să desemneze operatorul sau să stabilească termenul de operaționalizare. Sunt noțiuni definite, dar fără organizare legală. Contextul agravează problema: chiar expunerea de motive amintește atacul ransomware asupra SNMD din 30.10.2024. Concentrarea datelor medicale ale copiilor într-un nod suplimentar sporește riscul de securitate, iar legea nu cere o evaluare de impact asupra protecției datelor (art. 35 GDPR).",
+      "constitutionalityNote": "Proiectul nu ridică probleme majore de constituționalitate. Scopul este legitim (art. 32 dreptul la învățătură, art. 49 protecția copiilor, art. 50 protecția persoanelor cu handicap), iar jurnalul de audit și avizul ANSPDCP sunt garanții reale. Riscul ține de art. 26 (viața intimă) coroborat cu art. 1 alin. (5) și art. 53. CCR a cerut constant, în materia bazelor de date și a prelucrării datelor personale, ca legea însăși să stabilească scopul, categoriile de date, accesul și durata păstrării, nu un act infralegal. Art. 90^7 și pct. 26^2 lasă aceste elemente pe seama unui ordin comun (art. IV alin. 4), ceea ce poate fi contestat sub aspectul previzibilității. Totodată, inițiativa parlamentară cu impact bugetar necesită fișă financiară și punctul de vedere al Guvernului (art. 111 și art. 138 alin. 5 din Constituție, art. 15 din Legea 500/2002). Afirmația că măsura nu are cost suplimentar e greu de susținut.",
+      "euLawNote": "Directiva 2018/958 nu este relevantă, pentru că proiectul nu reglementează accesul la profesii. Nici Directiva TRIS 2015/1535 nu se aplică: nu sunt instituite reguli pentru furnizorii de servicii ale societății informaționale, ci doar sisteme informatice ale administrației, iar impactul asupra concurenței și al IMM-urilor este nul. Cadrul UE relevant este GDPR. Datele privind sănătatea și dizabilitatea sunt categorii speciale (art. 9), pentru care temeiul trebuie să fie o lege națională cu scop clar și garanții specifice (art. 6 alin. 3, art. 9 alin. 2 lit. g/h). Se aplică și principiile minimizării și limitării scopului (art. 5) și evaluarea de impact obligatorie (art. 35). Proiectul este compatibil în principiu, dar ar trebui precizat scopul în lege. Ca obiectiv, proiectul se aliniază cu Regulamentul (UE) 2024/903 (Interoperable Europe Act) și cu principiul „doar o singură dată” din Regulamentul (UE) 2018/1724.",
+      "senatForm": {
+        "articleRef": "Art. II pct. 2 – art. 90^7 Legea 448/2006",
+        "proposalContent": "Art. 90^7. – (1) Datele din SNMD privind încadrarea în grad de handicap ale beneficiarilor primari sunt puse la dispoziția Ministerului Educației exclusiv prin interoperabilitate cu SIMS, numai pentru orientarea școlară, sprijinul educațional și identificarea copiilor neșcolarizați. (2) Diagnosticul medical se transmite doar dacă e strict necesar acestor scopuri.",
+        "argumentation": "Textul transferă diagnosticul medical al copiilor (date sensibile, art. 9 GDPR) fără ca legea să fixeze scopul și limitele. Art. 6 alin. (3) GDPR și jurisprudența CCR privind bazele de date cer ca scopul și categoriile de date să fie stabilite prin lege, nu prin ordin. Amendamentul păstrează mecanismul, dar îl face proporțional.",
+        "otherComments": "Legea ar trebui să precizeze cine operează profilul integrat și ghișeul unic digital, cine are acces (școală, CJRAE, DGASPC) și cât timp se păstrează datele. Art. IV alin. (1) și (4) enumeră autorități diferite și trebuie corelate. Recomandăm o evaluare de impact (art. 35 GDPR) înainte de operaționalizare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -142,7 +172,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:36:53.107Z",
+      "replacedAt": "2026-11-24T14:44:23.593Z",
       "reasons": [
         "model"
       ]

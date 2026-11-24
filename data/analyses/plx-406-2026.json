@@ -2,7 +2,7 @@
   "billId": "PL-x 406/2026",
   "slug": "plx-406-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:35:54.634Z",
+  "updatedAt": "2026-11-24T14:43:18.224Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,12 +31,12 @@
     "key": "43050b04bbdb5848"
   },
   "consensus": {
-    "riskScore": 4,
-    "riskLevel": "yellow",
-    "plainTitle": "Angajări prin excepție la MApN, SIE, STS și în justiție, plus creșterea salariului minim în agricultură",
-    "summaryTlDr": "Proiectul rezolvă blocaje reale în justiție și elimină un salariu minim inferior în agricultură, dar ascunde un amendament nejustificat pentru SIE și oferă Guvernului un filtru discreționar asupra recrutării magistraților.",
-    "initiatorClaim": "Guvernul susține că OUG nr. 29/2026 este necesară de urgență pentru a debloca angajările sezoniere la baza „Litoral” a MApN, curățenia la centrele Cloud ale STS, concursurile din justiție și INEC, și pentru a alinia salariul minim din agricultură și industria alimentară la nivelul general de 4.325 lei de la 1 iulie 2026.",
-    "realityCheck": "Pe lângă măsurile justificate pentru sistemul judiciar și alinierea salarială, Senatul a introdus prin amendament și Serviciul de Informații Externe (SIE) la excepția pentru angajări sezoniere, fără nicio explicație publică. În plus, legea condiționează recrutarea judecătorilor și procurorilor de un memorandum aprobat discreționar de Guvern, omite limita de încadrare în buget pentru posturile din justiție și nu conține nicio evaluare a impactului financiar sau economic pentru stat și IMM-urile agroalimentare.",
+    "riskScore": 3.7,
+    "riskLevel": "green",
+    "plainTitle": "Excepții de la înghețarea angajărilor la stat (armată, STS, justiție) și salariu minim egal pentru agricultură și industria alimentară",
+    "summaryTlDr": "Lege tehnică, în mare parte utilă: deblochează angajări punctuale, prin memorandum de Guvern, și elimină salariul minim mai mic din agricultură și industria alimentară. Singura problemă reală este amendamentul Senatului, care adaugă SIE la excepția pentru posturi sezoniere fără nicio motivare.",
+    "initiatorClaim": "Guvernul spune că vrea să evite blocajul instituțional: posturi sezoniere la Complexul militar „Litoral” al MApN, personal de întreținere pentru centrele de date ale Cloudului Privat Guvernamental (STS), posturi vacante de magistrați, personal auxiliar și experți INEC. Vrea și să elimine tratamentul salarial diferit al salariaților din agricultură și industria alimentară.",
+    "realityCheck": "Art. I introduce la art. XXII din Legea 141/2025 alin. (16)-(18): Guvernul poate aproba, prin memorandum și cu încadrare în buget, concursuri care altfel ar fi suspendate în 2026. Art. II abrogă de la 1 iulie 2026 art. LXX din OUG 156/2024, deci minimul din agricultură și industria alimentară trece de la 4.050 la 4.325 lei, cât în restul economiei (conform HG 146/2026). Senatul extinde alin. (16) și la Serviciul de Informații Externe. Ambele măsuri din OUG sunt deja în vigoare, iar suspendarea angajărilor expiră la 31.12.2026, așa că legea de aprobare are acum efect practic limitat.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "IMM & Antreprenori",
@@ -44,10 +44,10 @@
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. unic (modif. art. I: alin. 16 și 18)",
-      "proposalContent": "1. La alin. (16), se elimină sintagma «și Serviciul de Informații Externe». 2. Alin. (18) se modifică astfel încât concursurile pentru posturile din sistemul de justiție să se organizeze cu avizul conform al CSM (pentru magistrați) și în limita cheltuielilor de personal aprobate în buget, fără decizie discreționară a Guvernului prin memorandum.",
-      "argumentation": "Includerea SIE la Senat nu are nicio fundamentare privind nevoia de personal sezonier. La alin. (18), condiționarea recrutării magistraților de un memorandum guvernamental afectează separația puterilor și rolul CSM (art. 1 alin. 4 și art. 133 Constituție), iar lipsa clauzei de încadrare în buget (prezentă la alin. 16-17) creează riscuri fiscal-bugetare.",
-      "otherComments": "Solicităm completarea dosarului cu fișa financiară (art. 15 din Legea nr. 500/2002) și evaluarea impactului pentru IMM-urile din agricultură și industria alimentară, omise din Expunerea de motive, precum și limitarea expresă a alin. (17) (STS) la centrele de date ale Cloudului Privat Guvernamental."
+      "articleRef": "Art. unic – art. XXII alin. (16) L141/2025",
+      "proposalContent": "Se elimină modificarea adusă de Senat la art. XXII alin. (16). Ordonanța se aprobă fără modificări, iar alineatul rămâne în forma din OUG nr. 29/2026, aplicabil doar Ministerului Apărării Naționale.",
+      "argumentation": "Includerea SIE nu e motivată nici în OUG, nici în expunerea de motive și nu figurează în obiectul proiectului. Excepțiile de la înghețarea posturilor trebuie fundamentate individual. O extindere fără date despre nevoie, număr de posturi și cost slăbește previzibilitatea și controlul parlamentar.",
+      "otherComments": "Recomand ca memorandumurile aprobate în baza alin. (16)-(18) să fie publicate (cu excepția datelor clasificate), iar pentru justiție (alin. 18) avizul CSM să fie obligatoriu. Suspendarea din alin. (1) expiră la 31.12.2026, deci amendamentul Senatului ar avea efect practic de doar câteva săptămâni."
     }
   },
   "council": {
@@ -90,8 +90,39 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 42517,
+      "sourceEndMarker": "SF-DF032A91",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Excepții de la înghețarea angajărilor la stat (armată, STS, justiție) și salariu minim egal pentru agricultură și industria alimentară",
+      "verdictShort": "Lege tehnică, în mare parte utilă: deblochează angajări punctuale, prin memorandum de Guvern, și elimină salariul minim mai mic din agricultură și industria alimentară. Singura problemă reală este amendamentul Senatului, care adaugă SIE la excepția pentru posturi sezoniere fără nicio motivare.",
+      "initiatorClaim": "Guvernul spune că vrea să evite blocajul instituțional: posturi sezoniere la Complexul militar „Litoral” al MApN, personal de întreținere pentru centrele de date ale Cloudului Privat Guvernamental (STS), posturi vacante de magistrați, personal auxiliar și experți INEC. Vrea și să elimine tratamentul salarial diferit al salariaților din agricultură și industria alimentară.",
+      "realityCheck": "Art. I introduce la art. XXII din Legea 141/2025 alin. (16)-(18): Guvernul poate aproba, prin memorandum și cu încadrare în buget, concursuri care altfel ar fi suspendate în 2026. Art. II abrogă de la 1 iulie 2026 art. LXX din OUG 156/2024, deci minimul din agricultură și industria alimentară trece de la 4.050 la 4.325 lei, cât în restul economiei (conform HG 146/2026). Senatul extinde alin. (16) și la Serviciul de Informații Externe. Ambele măsuri din OUG sunt deja în vigoare, iar suspendarea angajărilor expiră la 31.12.2026, așa că legea de aprobare are acum efect practic limitat.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "Agricultură & Mediu",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. I – alin. (16)-(18) art. XXII L141/2025: excepțiile nu sunt automate. Fiecare concurs depinde de un memorandum aprobat în ședința Guvernului, cu încadrare în cheltuielile de personal din buget, deci impactul bugetar e controlat.",
+        "Standardul diferă între alineate: alin. (16) și (17) cer „cazuri justificate”, iar alin. (18) cere „cazuri temeinic justificate”. Alin. (17) nu precizează nici numărul, nici tipul exact de posturi („întreținerea și administrarea spațiilor”).",
+        "Alin. (18): ocuparea posturilor de judecători, procurori, magistrați-asistenți, asistenți judiciari, personal de specialitate criminalistică (INEC) și personal auxiliar depinde de un memorandum al Executivului, deși concursul de admitere în magistratură (art. 63 L303/2022) e organizat de CSM.",
+        "Art. II: abrogarea art. LXX OUG 156/2024 de la 1 iulie 2026 crește salariul minim pentru circa 25.028 de salariați cu normă întreagă (date Inspecția Muncii, 15.04.2026) cu 275 lei brut/lună. Pentru angajatori costul e de ordinul a ~7 mil. lei brut lunar, fără contribuțiile angajatorului.",
+        "Forma Senatului adaugă Serviciul de Informații Externe la alin. (16) (posturi contractuale sezoniere). Nici preambulul OUG, nici expunerea de motive, nici fișa Camerei nu menționează SIE sau vreo nevoie a acestuia.",
+        "Fișa de impact are aproape toate secțiunile „Nu este cazul” (impact social, mediu de afaceri, buget), deși abrogarea art. LXX are efect direct asupra salariilor și costurilor angajatorilor din agricultură și industria alimentară."
+      ],
+      "blindSpotsCaught": "Textul extras al art. II din OUG pare trunchiat: lipsește dispozitivul „se abrogă”, dar intenția reiese clar din titlu și din expunerea de motive, iar efectul s-a produs la 1 iulie 2026. Amendamentul Senatului (SIE) intră în vigoare abia la aprobarea legii, iar suspendarea din alin. (1) se aplică doar până la 31.12.2026. Extinderea ar avea deci efect de câteva săptămâni, într-o perioadă fără sezon estival. Memorandumurile de Guvern nu au obligație de publicare, iar la SIE și STS justificarea poate fi în mare parte clasificată, deci controlul public al acestor excepții e minim.",
+      "constitutionalityNote": "Urgența (art. 115 alin. (4)) e motivată rezonabil, cu date concrete: grad de ocupare în instanțe și parchete, un singur expert INEC pe droguri și unul pe explozii, termenul de 1 iulie 2026. OUG nu afectează regimul unor drepturi fundamentale în sens restrictiv (art. 115 alin. (6)). Abrogarea art. LXX întărește egalitatea în drepturi (art. 16) și dreptul la salariu minim pe economie (art. 41 alin. (2)). Riscul principal privește independența justiției (art. 124, 125, 133-134): condiționarea ocupării posturilor de magistrat de un memorandum al Guvernului dă Executivului o pârghie asupra resursei umane a sistemului judiciar, chiar dacă măsura e temporară și relaxează o interdicție deja existentă. Claritatea (art. 1 alin. (5)) e acceptabilă, cu rezerva formulării vagi din alin. (17).",
+      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă: proiectul nu introduce cerințe noi de acces la profesii reglementate, ci doar deblochează concursuri în sectorul public. Directiva (UE) 2015/1535 (TRIS) nu este incidentă: nu se reglementează servicii ale societății informaționale ori reguli tehnice. Salariul minim unic pe economie e compatibil cu spiritul Directivei (UE) 2022/2041 privind salariile minime adecvate. Nu apar efecte de ajutor de stat sau de restrângere a pieței unice.",
+      "senatForm": {
+        "articleRef": "Art. unic – art. XXII alin. (16) L141/2025",
+        "proposalContent": "Se elimină modificarea adusă de Senat la art. XXII alin. (16). Ordonanța se aprobă fără modificări, iar alineatul rămâne în forma din OUG nr. 29/2026, aplicabil doar Ministerului Apărării Naționale.",
+        "argumentation": "Includerea SIE nu e motivată nici în OUG, nici în expunerea de motive și nu figurează în obiectul proiectului. Excepțiile de la înghețarea posturilor trebuie fundamentate individual. O extindere fără date despre nevoie, număr de posturi și cost slăbește previzibilitatea și controlul parlamentar.",
+        "otherComments": "Recomand ca memorandumurile aprobate în baza alin. (16)-(18) să fie publicate (cu excepția datelor clasificate), iar pentru justiție (alin. 18) avizul CSM să fie obligatoriu. Suspendarea din alin. (1) expiră la 31.12.2026, deci amendamentul Senatului ar avea efect practic de doar câteva săptămâni."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -147,7 +178,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:35:54.634Z",
+      "replacedAt": "2026-11-24T14:43:18.224Z",
       "reasons": [
         "model"
       ]

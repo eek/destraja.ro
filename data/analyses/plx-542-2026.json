@@ -2,7 +2,7 @@
   "billId": "Pl-x 542/2026",
   "slug": "plx-542-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:36:28.463Z",
+  "updatedAt": "2026-11-24T14:44:06.882Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -33,21 +33,21 @@
   "consensus": {
     "riskScore": 5,
     "riskLevel": "yellow",
-    "plainTitle": "Consiliile de administrație ale școlilor preiau angajarea și demiterea directorilor, dar cu lacune procedurale serioase",
-    "summaryTlDr": "Intenția de descentralizare și separare a conducerii executive de președinția consiliului de administrație este legitimă, însă redactarea creează contradicții directe cu articole nemodificate din Legea 198/2023, elimina garanții de obiectivitate la demitere și riscă blocaje în școlile mici.",
-    "initiatorClaim": "Inițiatorii susțin că proiectul consolidează autonomia școlilor și responsabilitatea comunității locale, transferând selecția, numirea, evaluarea și eliberarea directorilor de la DJIP/DMBIP către consiliul de administrație al unității de învățământ și prevenind conflictele de interese prin alegerea unui președinte al CA distinct de director.",
-    "realityCheck": "În practică, proiectul face consiliul de administrație simultan organizator al concursului, comisie de examinare, organ de validare și autoritate de numire, fără comisie independentă de contestații și fără excluderea rudelor candidaților. Totodată, elimină auditul obligatoriu al DJIP/DMBIP la revocarea cerută de profesori (art. 198 alin. 4 lit. c), permite inițierea demiterii de către președintele CA fără a stabili majoritatea de vot necesară și blochează interimatul exclusiv la titularii din aceeași școală (art. 198 alin. 6).",
+    "plainTitle": "Școala își alege și își demite singură directorul, prin consiliul de administrație",
+    "summaryTlDr": "Ideea de a da școlii putere reală asupra propriei conduceri e legitimă și coerentă cu rolul legal al consiliului de administrație. Textul are însă goluri serioase: nu spune cu ce majoritate e demis directorul, scoate auditul și orice control extern și lasă un concurs cu probe de specialitate pe seama unei comisii formate din primar, consilieri locali, părinți și colegi ai candidaților.",
+    "initiatorClaim": "Inițiatorii USR spun că vor să apropie decizia privind conducerea școlii de comunitatea școlară. Concursul, numirea, contractul de management, eliberarea din funcție și interimatul trec de la DJIP/DMBIP la consiliul de administrație, iar conducerea executivă (directorul) se separă de conducerea organului deliberativ (un președinte ales).",
+    "realityCheck": "Mecanic, consiliul de administrație (CA) devine organizator, comisie de concurs, validator și angajator al directorului (art. 196 alin. 2 și 4, art. 198 alin. 1 și 3). CA îl poate și demite, fără ca legea să fixeze majoritatea, fără audit și fără cale de contestare internă (art. 198 alin. 4). Cum primarul și consilierii locali sunt membri CA, iar președintele poate fi oricare membru în afară de director și adjunct, crește riscul ca selecția să depindă de majorități locale conjuncturale, inclusiv politice. Totodată dispare filtrul de uniformitate și control al DJIP.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Angajați & HR",
-      "Justiție & Drepturi Civile",
-      "IMM & Antreprenori"
+      "Toți cetățenii",
+      "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 6 (art. 198 alin. 1)",
-      "proposalContent": "„(1) Comisia de concurs include membri ai consiliului de administrație, cu excepția candidaților și a rudelor/afinilor până la gradul IV, și evaluatori externi independenți, conform metodologiei. Contestațiile sunt soluționate de o comisie distinctă. Pentru Palatul Național al Copiilor, comisia se constituie prin ordin al ministrului.”",
-      "argumentation": "Textul actual contravine art. 198 alin. (2) (care cere reprezentanți economici în comisie), nu exclude rudele candidaților și lasă același consiliu să organizeze concursul, să examineze și să valideze rezultatul, fără comisie independentă de contestații. Aceasta încalcă exigențele de imparțialitate și claritate a legii (art. 1 alin. 5 Constituție).",
-      "otherComments": "Corelați și: art. 128 alin. (4) (înlocuiți «50%+1» cu «majoritatea membrilor» și prevedeți tur de balotaj); art. 198 alin. (4) (păstrați auditul independent la revocare și stabiliți majoritatea necesară în CA); art. 198 alin. (6) (permiteți detașarea din altă școală dacă niciun titular nu acceptă interimatul); termen expres pentru metodologiile ministerului."
+      "articleRef": "Art. I pct. 8 (art. 198 alin. (4) Legea 198/2023)",
+      "proposalContent": "(4) Directorul, respectiv directorul adjunct, pot fi eliberați din funcție prin hotărâre a consiliului de administrație adoptată cu votul a 2/3 din numărul total al membrilor, după audierea persoanei vizate și pe baza unui audit DJIP/DMBIP în cazurile de la lit. a)-c). Hotărârea se comunică motivat și poate fi atacată în contencios administrativ.",
+      "argumentation": "Textul nu stabilește cu ce majoritate CA eliberează directorul și elimină auditul de la lit. c). Astfel, o majoritate simplă conjuncturală, la propunerea unui președinte ales cu 50%+1, poate demite un director câștigător de concurs, fără audiere. Pragul de 2/3, audierea și auditul asigură previzibilitatea (art. 1 alin. 5 Constituție) și stabilitatea mandatului.",
+      "otherComments": "Corelați art. 198 alin. (1) cu alin. (2), nemodificat, care cere în comisie reprezentanți ai mediului economic. Includeți în comisie un inspector DJIP și un specialist extern, reglementați contestațiile și cvorumul când membri CA candidează. Detașarea în aceeași unitate (art. 198 alin. 6) e improprie; folosiți delegarea."
     }
   },
   "council": {
@@ -86,8 +86,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 71157,
+      "sourceEndMarker": "SF-6D307823",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Școala își alege și își demite singură directorul, prin consiliul de administrație",
+      "verdictShort": "Ideea de a da școlii putere reală asupra propriei conduceri e legitimă și coerentă cu rolul legal al consiliului de administrație. Textul are însă goluri serioase: nu spune cu ce majoritate e demis directorul, scoate auditul și orice control extern și lasă un concurs cu probe de specialitate pe seama unei comisii formate din primar, consilieri locali, părinți și colegi ai candidaților.",
+      "initiatorClaim": "Inițiatorii USR spun că vor să apropie decizia privind conducerea școlii de comunitatea școlară. Concursul, numirea, contractul de management, eliberarea din funcție și interimatul trec de la DJIP/DMBIP la consiliul de administrație, iar conducerea executivă (directorul) se separă de conducerea organului deliberativ (un președinte ales).",
+      "realityCheck": "Mecanic, consiliul de administrație (CA) devine organizator, comisie de concurs, validator și angajator al directorului (art. 196 alin. 2 și 4, art. 198 alin. 1 și 3). CA îl poate și demite, fără ca legea să fixeze majoritatea, fără audit și fără cale de contestare internă (art. 198 alin. 4). Cum primarul și consilierii locali sunt membri CA, iar președintele poate fi oricare membru în afară de director și adjunct, crește riscul ca selecția să depindă de majorități locale conjuncturale, inclusiv politice. Totodată dispare filtrul de uniformitate și control al DJIP.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Angajați & HR",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I pct. 2 (art. 128 alin. 4): azi președintele CA este directorul. După proiect, președintele este ales prin vot secret cu 50%+1 din totalul membrilor, iar directorul și adjunctul nu pot ocupa funcția. Poate deveni președinte orice alt membru: primarul, reprezentantul consiliului local, un părinte sau un cadru didactic. Președintele semnează contractul de management și poate propune eliberarea directorului.",
+        "Art. I pct. 6 (art. 198 alin. 1): comisia de concurs este compusă din toți membrii CA, minus candidații. Alin. (2), nemodificat, cere în continuare ca în comisie să fie și reprezentanți ai mediului economic, care de regulă nu sunt membri CA. Normele se contrazic. Probele prevăzute de art. 196 alin. (1) (evaluare de competențe cu psihometricieni, probă scrisă, interviu) ajung să fie notate de nespecialiști și de colegi subordonați ierarhic viitorului director.",
+        "Art. I pct. 8-10 (art. 198 alin. 4): CA poate elibera din funcție directorul, dar legea nu spune cu ce majoritate. Lit. a) dă dreptul de propunere președintelui CA. Lit. b), nemodificată, ajunge să spună că CA propune, cu 2/3, chiar sieși. La lit. c) dispar auditul obligatoriu DJIP/DMBIP și analiza externă. Teoretic, o majoritate simplă poate demite un director câștigător de concurs.",
+        "Art. I pct. 5 (art. 196 alin. 7): evaluarea anuală a primăriei și propunerea de eliberare merg acum la CA-ul școlii, nu la DJIP. Primăria, care are 2-3 locuri în CA, devine astfel și propunător, și parte la decizie.",
+        "Art. I pct. 11 (art. 198 alin. 6): interimatul se asigură numai de un titular din aceeași unitate, prin «detașare» decisă de CA. Detașarea presupune, conceptual, mutarea în altă unitate, deci instrumentul juridic e impropriu. În școlile mici s-ar putea să nu existe niciun titular eligibil și dispus.",
+        "Art. II: mandatele în curs continuă, iar contractele de management se modifică prin act adițional în 60 de zile de la alegerea președintelui. Concursurile în desfășurare se finalizează după regulile vechi. Directorii numiți de DJIP devin totuși imediat revocabili de CA, după noile reguli. Tranziția e rezonabilă, cu un mic gol: între intrarea în vigoare și alegerea președintelui (până la 30 de zile) CA nu are președinte."
+      ],
+      "blindSpotsCaught": "1) Nicio normă despre contestarea rezultatelor concursului. Azi le gestionează DJIP. După proiect, singura cale rămâne contenciosul administrativ împotriva hotărârii CA, fără o etapă de soluționare internă. 2) Noul art. 198 alin. (1) nu mai menționează unitățile pentru activități extrașcolare, prevăzute expres în textul actual, așa că regimul comisiei pentru acestea devine neclar. 3) Când unul sau mai mulți membri CA candidează, comisia se micșorează și nu există o regulă de cvorum sau de înlocuire. Directorul în funcție care nu candidează rămâne în comisia care își alege adjunctul sau succesorul. 4) Textul folosește în paralel «ministrul educației și cercetării» și «ministrul educației» (art. 198 alin. 1). 5) Alte prevederi din Legea 198/2023 care atribuie DJIP roluri legate de directori (de exemplu cercetarea disciplinară invocată la art. 198 alin. 4 lit. d) nu par corelate. Trebuie verificate. 6) Termenul obligatoriu de 30 de zile pentru demararea concursului nu are sancțiune și nici un responsabil dacă CA nu acționează.",
+      "constitutionalityNote": "Legea 198/2023 reglementează organizarea generală a învățământului, deci e lege organică (art. 73 alin. 3 lit. n) și trebuie adoptată cu majoritate absolută. Senatul este cameră decizională. Fondul (descentralizarea deciziei) ține de opțiunea legiuitorului și nu încalcă art. 32 (dreptul la învățătură). Problemele reale sunt de claritate și previzibilitate (art. 1 alin. 5): lipsește majoritatea pentru eliberarea din funcție, art. 198 alin. (1) se contrazice cu alin. (2), iar folosirea «detașării» în aceeași unitate e confuză. CCR a sancționat repetat norme care lasă neprecizate elemente esențiale ale unei proceduri care afectează drepturi. Lipsa garanțiilor procedurale (audiere, motivare) la revocare atinge și art. 41 (dreptul la muncă) și art. 21 (acces la justiție, care rămâne disponibil prin contencios). Riscul e moderat și poate fi corectat prin amendamente.",
+      "euLawNote": "Impactul în dreptul UE este minim. Directiva (UE) 2018/958 privește accesul la profesii reglementate și exercitarea lor. Funcția de director de școală de stat este o funcție de conducere în sistemul public, fără bariere noi de acces la profesie, așa că testul de proporționalitate nu este declanșat în mod relevant. Directiva TRIS (UE) 2015/1535 nu se aplică, fiindcă proiectul nu conține reguli tehnice și nu privește servicii ale societății informaționale. Concurența și piața unică nu sunt afectate. Educația ține de competența statelor membre (art. 165 TFUE).",
+      "senatForm": {
+        "articleRef": "Art. I pct. 8 (art. 198 alin. (4) Legea 198/2023)",
+        "proposalContent": "(4) Directorul, respectiv directorul adjunct, pot fi eliberați din funcție prin hotărâre a consiliului de administrație adoptată cu votul a 2/3 din numărul total al membrilor, după audierea persoanei vizate și pe baza unui audit DJIP/DMBIP în cazurile de la lit. a)-c). Hotărârea se comunică motivat și poate fi atacată în contencios administrativ.",
+        "argumentation": "Textul nu stabilește cu ce majoritate CA eliberează directorul și elimină auditul de la lit. c). Astfel, o majoritate simplă conjuncturală, la propunerea unui președinte ales cu 50%+1, poate demite un director câștigător de concurs, fără audiere. Pragul de 2/3, audierea și auditul asigură previzibilitatea (art. 1 alin. 5 Constituție) și stabilitatea mandatului.",
+        "otherComments": "Corelați art. 198 alin. (1) cu alin. (2), nemodificat, care cere în comisie reprezentanți ai mediului economic. Includeți în comisie un inspector DJIP și un specialist extern, reglementați contestațiile și cvorumul când membri CA candidează. Detașarea în aceeași unitate (art. 198 alin. 6) e improprie; folosiți delegarea."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -144,7 +174,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:36:28.463Z",
+      "replacedAt": "2026-11-24T14:44:06.882Z",
       "reasons": [
         "model"
       ]

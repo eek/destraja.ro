@@ -2,7 +2,7 @@
   "billId": "Pl-x 742/2026",
   "slug": "plx-742-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:33:45.121Z",
+  "updatedAt": "2026-11-24T14:42:01.368Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 6.5,
+    "riskScore": 5.7,
     "riskLevel": "yellow",
-    "plainTitle": "Interdicția de externalizare a strategiilor naționale și a proiectelor de legi",
-    "summaryTlDr": "Deși abordează o preocupare legitimă privind evitarea cheltuielilor duble în administrație, proiectul utilizează termeni juridici vagi, riscă să blocheze asistența tehnică din fonduri europene și instituie excluderi automate incompatibile cu dreptul UE al achizițiilor publice. Sancțiunile severe — nulitate absolută și răspundere patrimonială automată — pot genera blocaje administrative și litigii costisitoare.",
-    "initiatorClaim": "Inițiatorii (parlamentari AUR și PACE) susțin în expunerea de motive că ministerele plătesc salarii pentru direcții de specialitate, dar externalizează în paralel elaborarea strategiilor naționale (invocând exemplul Strategiei pentru biodiversitate 2026–2030), creând o dublă cheltuială. Proiectul vizează oprirea acestei practici și introducerea unor reguli stricte privind conflictul de interese, permițând doar studii științifice punctuale.",
-    "realityCheck": "În textul efectiv, Art. 1 extinde interdicția dincolo de strategii, incluzând și «proiectele de acte normative» precum și instituțiile aflate în subordinea sau coordonarea ministerelor, interzicând totodată utilizarea fondurilor europene nerambursabile pentru elaborarea ori actualizarea strategiilor și planurilor naționale de acțiune. În plus, Art. 3 blochează automat pe 5 ani orice firmă sau ONG care are ca angajat ori «colaborator» un fost angajat de specialitate al ministerului, iar Art. 4 impune nulitatea absolută a contractelor și răspunderea patrimonială pentru sumele plătite, pe baza unor criterii nedefinite («atribuții de bază», «text de bază»).",
+    "plainTitle": "Ministerele trebuie să-și scrie singure strategiile, fără consultanți plătiți",
+    "summaryTlDr": "Scopul este legitim: statul nu ar trebui să plătească de două ori aceeași muncă, o dată prin salarii și o dată prin contracte de consultanță. Textul e însă formulat larg și vag. Interdicția absolută din art. 3 și blocarea oricărei surse de finanțare pot exclude din piață firme oneste și pot pune în pericol asistența tehnică din fonduri UE.",
+    "initiatorClaim": "Inițiatorii vor să oprească practica prin care ministerele plătesc direcții de specialitate și, în paralel, cumpără de la firme sau ONG-uri redactarea strategiilor naționale. Exemplul invocat este Strategia pentru biodiversitate 2026-2030, contractată cu 373.600 lei fără TVA.",
+    "realityCheck": "Legea rezervă exclusiv personalului propriu redactarea strategiilor, a planurilor de acțiune, a documentelor de politici cu caracter strategic și chiar a proiectelor de acte normative din atribuțiile de bază ale ministerelor (art. 1). Interzice finanțarea acestor activități din orice sursă publică, inclusiv din fonduri UE (art. 1 alin. 3), și exclude automat de la contracte, timp de 5 ani, orice entitate care are printre asociați, angajați sau colaboratori un fost specialist al ministerului (art. 3). Sancțiunile sunt nulitatea absolută, răspunderea patrimonială a semnatarilor pentru toate sumele plătite și un audit anual obligatoriu al Curții de Conturi.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Angajați & HR",
@@ -44,10 +44,10 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 3",
-      "proposalContent": "Art. 3 se modifică astfel: «Atribuirea contractelor prevăzute la art. 2 respectă regulile privind conflictul de interese din Legea nr. 98/2016. Persoanele care au deținut funcții de conducere sau decizie în minister în ultimii 2 ani nu pot coordona sau redacta direct livrabilele contractului, cu posibilitatea operatorului de a dovedi absența conflictului.»",
-      "argumentation": "Excluderea automată pe 5 ani a firmelor și ONG-urilor pentru orice fost angajat de specialitate sau «colaborator» încalcă principiul proporționalității din Directiva 2014/24/UE (jurisprudența CJUE interzice prezumțiile absolute) și restrânge disproporționat libertatea muncii și activitatea economică (art. 41, 45 și 53 din Constituție).",
-      "otherComments": "Se impune și clarificarea noțiunilor vagi din Art. 1-2 («atribuții de bază», «text de bază»), exceptarea asistenței tehnice prevăzute în programe UE/PNRR la Art. 1 alin. (3), corelarea Art. 4 cu regimul culpei și al nulității din Legea 101/2016, precum și reglementarea procedurilor de achiziție deja lansate la Art. 5."
+      "articleRef": "Art. 3 (conflict de interese, 5 ani)",
+      "proposalContent": "Art. 3 – Este interzisă atribuirea contractelor prevăzute la art. 2 către operatori economici în care figurează, ca asociați, administratori sau membri ai echipei propuse, persoane care, în ultimii 3 ani, au deținut funcții de conducere sau de consiliere în minister ori au participat la elaborarea documentului vizat sau la procedura de atribuire.",
+      "argumentation": "Forma inițială exclude automat orice firmă sau ONG în care lucrează, oricât de periferic, un fost specialist al ministerului din ultimii 5 ani. CJUE (C-213/07 Michaniki, C-538/07 Assitur) respinge excluderile automate disproporționate. Legarea interdicției de echipa propusă și de implicarea efectivă păstrează scopul anti-conflict de interese.",
+      "otherComments": "Art. 1 alin. (3) ar trebui să excepteze asistența tehnică primită prin instrumente UE (TSI/DG REFORM) sau acorduri cu organizații internaționale, altfel pot fi blocate strategii-condiție pentru fonduri UE. Termenii „obiect principal”, „atribuții de bază” și „legate de strategii” trebuie definiți."
     }
   },
   "council": {
@@ -89,8 +89,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 60601,
+      "sourceEndMarker": "SF-03787461",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Ministerele trebuie să-și scrie singure strategiile, fără consultanți plătiți",
+      "verdictShort": "Scopul este legitim: statul nu ar trebui să plătească de două ori aceeași muncă, o dată prin salarii și o dată prin contracte de consultanță. Textul e însă formulat larg și vag. Interdicția absolută din art. 3 și blocarea oricărei surse de finanțare pot exclude din piață firme oneste și pot pune în pericol asistența tehnică din fonduri UE.",
+      "initiatorClaim": "Inițiatorii vor să oprească practica prin care ministerele plătesc direcții de specialitate și, în paralel, cumpără de la firme sau ONG-uri redactarea strategiilor naționale. Exemplul invocat este Strategia pentru biodiversitate 2026-2030, contractată cu 373.600 lei fără TVA.",
+      "realityCheck": "Legea rezervă exclusiv personalului propriu redactarea strategiilor, a planurilor de acțiune, a documentelor de politici cu caracter strategic și chiar a proiectelor de acte normative din atribuțiile de bază ale ministerelor (art. 1). Interzice finanțarea acestor activități din orice sursă publică, inclusiv din fonduri UE (art. 1 alin. 3), și exclude automat de la contracte, timp de 5 ani, orice entitate care are printre asociați, angajați sau colaboratori un fost specialist al ministerului (art. 3). Sancțiunile sunt nulitatea absolută, răspunderea patrimonială a semnatarilor pentru toate sumele plătite și un audit anual obligatoriu al Curții de Conturi.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Angajați & HR",
+        "Agricultură & Mediu",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 1 alin. (1) depășește titlul: include și „proiectele de acte normative” din atribuțiile de bază. Asta ar interzice, de exemplu, contractarea unor case de avocatură sau a unor experți pentru redactarea unor transpuneri complexe de directive. Titlul vorbește doar de „documente de politici publice esențiale”, iar textul de „caracter strategic”, fără ca vreunul dintre termeni să fie definit.",
+        "Art. 1 alin. (3) interzice „fondurile europene nerambursabile sau orice alte surse publice”. Formularea poate bloca asistența tehnică din programele UE și acordurile de servicii de consultanță rambursabile cu Banca Mondială sau OECD. Tocmai prin astfel de instrumente se elaborează adesea strategiile cerute drept condiții favorizante pentru accesarea fondurilor UE.",
+        "Art. 3 instituie o excludere automată și absolută, valabilă 5 ani. Ea vizează orice societate, asociere sau ONG în care figurează, chiar și ca simplu angajat sau colaborator, o persoană care a avut în minister o funcție „de specialitate”. Ofertantul nu are posibilitatea să dovedească lipsa conflictului de interese. Termenul este mai lung decât interdicțiile existente pentru foștii funcționari, iar sintagma „orice contracte de consultanță legate de strategii” este imprecisă.",
+        "Art. 4 alin. (2) obligă ordonatorul de credite și avizatorii să suporte toate sumele plătite, chiar dacă serviciul a fost prestat efectiv. Nu se distinge între culpă și bună-credință, ceea ce poate paraliza orice achiziție de studii, inclusiv a celor permise de art. 2.",
+        "Art. 4 alin. (3) impune Curții de Conturi un audit anual din oficiu. Pozitiv este că se adaugă un control extern. Totuși, dispoziția intervine în programarea autonomă a activității Curții și, ca materie de organizare a acesteia, ține de domeniul legii organice (art. 73 alin. 3 lit. l)."
+      ],
+      "blindSpotsCaught": "Între art. 1 și art. 2 există o tensiune nerezolvată. Art. 2 permite studii și analize, dar numai dacă rezultatele „nu pot constitui text de bază” al strategiei. Orice analiză bună ajunge însă, inevitabil, preluată în text. Criteriul este practic imposibil de verificat, iar sancțiunea este nulitate absolută plus răspundere personală. Rezultatul probabil este autocenzura: ministerele vor renunța și la studiile științifice legitime. Legea se aplică, de asemenea, numai ministerelor și structurilor din subordinea lor. Secretariatul General al Guvernului, autoritățile autonome și administrația locală rămân libere să externalizeze, deci reforma este parțială.",
+      "constitutionalityNote": "Obiectivul (buna administrare și folosirea eficientă a banului public) este legitim, iar statul poate decide ce funcții exercită exclusiv prin aparatul propriu. Problemele principale sunt două. Prima ține de previzibilitate (art. 1 alin. 5): sintagmele „atribuții de bază”, „caracter strategic”, „obiect principal” și „legate de strategii” nu sunt definite, deși de ele depind nulitatea absolută și răspunderea patrimonială. A doua ține de proporționalitate (art. 53, coroborat cu art. 41 și art. 45): interdicția din art. 3 lovește automat persoane juridice și indirect foștii funcționari, inclusiv personal de execuție, fără legătură cu documentul contractat. Răspunderea patrimonială fără condiția culpei poate contraveni principiilor răspunderii civile. Formula finală invocă art. 76 alin. (1), deci legea se adoptă ca organică, ceea ce acoperă și componenta privind Curtea de Conturi.",
+      "euLawNote": "Directiva 2018/958 nu se aplică, deoarece legea nu reglementează accesul la o profesie. Nici TRIS 2015/1535 nu e relevantă, fiindcă nu se reglementează servicii ale societății informaționale. Decizia statului de a-și realiza singur anumite sarcini este compatibilă cu dreptul UE al achizițiilor (CJUE, C-26/03 Stadt Halle). Art. 3 adaugă însă un motiv de excludere automat, care trece dincolo de art. 24 și art. 57 din Directiva 2014/24/UE. CJUE acceptă motive naționale suplimentare doar dacă sunt proporționale și permit ofertantului să demonstreze lipsa conflictului de interese (C-213/07 Michaniki, C-538/07 Assitur, C-538/13 eVigilo). O excludere absolută, de 5 ani, pentru orice angajat sau colaborator riscă să fie incompatibilă cu aceste cerințe. Art. 1 alin. (3) poate intra în conflict practic cu regulile de cofinanțare din fondurile de coeziune, PNRR și instrumentul de sprijin tehnic al Comisiei.",
+      "senatForm": {
+        "articleRef": "Art. 3 (conflict de interese, 5 ani)",
+        "proposalContent": "Art. 3 – Este interzisă atribuirea contractelor prevăzute la art. 2 către operatori economici în care figurează, ca asociați, administratori sau membri ai echipei propuse, persoane care, în ultimii 3 ani, au deținut funcții de conducere sau de consiliere în minister ori au participat la elaborarea documentului vizat sau la procedura de atribuire.",
+        "argumentation": "Forma inițială exclude automat orice firmă sau ONG în care lucrează, oricât de periferic, un fost specialist al ministerului din ultimii 5 ani. CJUE (C-213/07 Michaniki, C-538/07 Assitur) respinge excluderile automate disproporționate. Legarea interdicției de echipa propusă și de implicarea efectivă păstrează scopul anti-conflict de interese.",
+        "otherComments": "Art. 1 alin. (3) ar trebui să excepteze asistența tehnică primită prin instrumente UE (TSI/DG REFORM) sau acorduri cu organizații internaționale, altfel pot fi blocate strategii-condiție pentru fonduri UE. Termenii „obiect principal”, „atribuții de bază” și „legate de strategii” trebuie definiți."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -147,7 +177,7 @@
         "codex": 6
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:33:45.121Z",
+      "replacedAt": "2026-11-24T14:42:01.368Z",
       "reasons": [
         "model"
       ]

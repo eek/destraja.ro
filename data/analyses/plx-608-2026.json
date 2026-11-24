@@ -2,7 +2,7 @@
   "billId": "PL-x 608/2026",
   "slug": "plx-608-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:34:55.747Z",
+  "updatedAt": "2026-11-24T14:42:34.966Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,12 +31,12 @@
     "key": "e25ba9ca8b09e697"
   },
   "consensus": {
-    "riskScore": 6.5,
+    "riskScore": 6,
     "riskLevel": "yellow",
-    "plainTitle": "Uniformă școlară obligatorie în 3 zile, cu subvenții neacoperite bugetar și praguri care penalizează familiile numeroase",
-    "summaryTlDr": "Proiectul transformă uniforma școlară în obligație legală națională în doar 3 zile de la publicare, dar lasă subvențiile la bunul plac al bugetelor locale și omite interdicția monopolului comercial promisă în expunerea de motive. În plus, formula din Anexa nr. 2 penalizează familiile cu mulți copii și riscă să blocheze aplicarea prin vicii serioase de constituționalitate.",
-    "initiatorClaim": "Inițiatorii susțin că uniforma obligatorie în învățământul preuniversitar de stat va reduce bullying-ul și diferențele sociale vizibile, va crește siguranța în școli și va proteja familiile prin subvenții și prin interzicerea monopolului comercial asupra furnizării.",
-    "realityCheck": "În realitate, art. 106 alin. (2) lit. c) modificat nu se limitează la școlile de stat și nu conține nicio interdicție a monopolului comercial sau plafon de preț, permițând școlilor să impună standarde tehnice care favorizează furnizori unici. Deși promite gratuitate sau subvenție de 50%, art. 106¹ alin. (3) prevede doar că cheltuielile „pot fi finanțate” din bugete locale sau fonduri externe, fără alocare obligatorie de la bugetul de stat, iar intrarea în vigoare în 3 zile (prin derogare de la art. 10 alin. (2) din Legea nr. 198/2023) precede cu până la 90 de zile normele metodologice.",
+    "plainTitle": "Uniforma școlară devine obligatorie pentru toți elevii, cu gratuitate promisă dar fără bani siguri",
+    "summaryTlDr": "Scopul anti-bullying e legitim, dar legea impune imediat o cheltuială tuturor familiilor. Gratuitatea promisă nu are o sursă de finanțare obligatorie, iar protecția împotriva furnizorului unic, anunțată în expunerea de motive, lipsește din text.",
+    "initiatorClaim": "Inițiatorii vor să reducă discriminarea și bullying-ul bazat pe haine scumpe, să crească siguranța prin identificarea vizuală a elevilor și să întărească sentimentul de apartenență. Promit alegerea locală a modelului, interzicerea monopolului comercial și subvenționarea uniformei.",
+    "realityCheck": "Art.106 alin.(2) lit.c) înlocuiește obligația actuală de «ținută vestimentară decentă și adecvată» cu obligația de a veni în uniformă școlară, iar legea intră în vigoare la 3 zile de la publicare, prin derogare de la art.10 alin.(2). Modelul îl stabilește fiecare consiliu de administrație cu acordul părinților. Gratuitatea sau subvenția din anexa nr.2 «se acordă», dar cheltuielile doar «pot fi finanțate» din bugetele locale sau din fonduri UE: dreptul nu are un plătitor obligat. Textul nu limitează prețul și nu interzice impunerea unui furnizor unic.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Toți cetățenii",
@@ -44,10 +44,10 @@
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 2 (art. 106¹) și Art. II alin. (1)",
-      "proposalContent": "La art. 106¹: consultarea consiliului elevilor, interzicerea impunerii unui furnizor unic și finanțare obligatorie de la bugetul de stat, nu opțională („pot fi finanțate”) din bugete locale. Eliminarea derogării de la Art. II alin. (1), aplicarea de la anul școlar următor normelor, și garantarea că lipsa uniformei nu îngrădește accesul la cursuri.",
-      "argumentation": "Finanțarea pur facultativă („pot fi finanțate”) încalcă art. 138 alin. (5) din Constituție și lasă comunele sărace fără bani, transformând uniforma într-o taxă mascată ce afectează gratuitatea educației (art. 32). Intrarea în vigoare în 3 zile, cu 90 de zile înaintea normelor, creează haos și încalcă previzibilitatea legii (art. 1 alin. (5)).",
-      "otherComments": "Anexa nr. 2 penalizează familiile numeroase: pragul de subvenție pe membru scade la 3+ copii (1,9–3,1 ISR) față de 1 copil (3–5,1 ISR), iar familiile monoparentale cu mai mulți copii nu au regulă clară. Introduceți plafoane de preț, reguli GDPR pentru verificarea veniturilor și adoptați proiectul cu majoritate de lege organică (art. 76 alin. (1))."
+      "articleRef": "Art.I pct.2 (art.106^1 alin.(3) și (4) noi)",
+      "proposalContent": "(3) Elevii din familiile prevăzute în anexa nr.2 primesc uniforma gratuit sau subvenționat, costurile fiind suportate din bugetul de stat, prin bugetul MEC, completat de bugetele locale. (4) Unitatea nu poate impune un furnizor unic; uniforma se poate procura de la orice comerciant care respectă modelul și standardele stabilite.",
+      "argumentation": "Forma Senatului spune doar că cheltuielile «pot fi finanțate» local, deci gratuitatea din anexă nu are sursă sigură, iar obligația uniformei se aplică oricum. Expunerea de motive promite interzicerea monopolului comercial, dar textul nu o conține. Fără aceste garanții, costul cade pe familii, iar școlile pot impune furnizori.",
+      "otherComments": "Art.II alin.(1) aplică obligația la 3 zile, în plin an școlar, înainte de stabilirea modelelor. Propun aplicarea din anul școlar următor. Anexa nr.2 trebuie clarificată: venitul brut lunar per membru față de coloanele pe tip de familie, procedura de dovadă a venitului și cine o verifică."
     }
   },
   "council": {
@@ -89,8 +89,40 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 54221,
+      "sourceEndMarker": "SF-5F2BE4E3",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Uniforma școlară devine obligatorie pentru toți elevii, cu gratuitate promisă dar fără bani siguri",
+      "verdictShort": "Scopul anti-bullying e legitim, dar legea impune imediat o cheltuială tuturor familiilor. Gratuitatea promisă nu are o sursă de finanțare obligatorie, iar protecția împotriva furnizorului unic, anunțată în expunerea de motive, lipsește din text.",
+      "initiatorClaim": "Inițiatorii vor să reducă discriminarea și bullying-ul bazat pe haine scumpe, să crească siguranța prin identificarea vizuală a elevilor și să întărească sentimentul de apartenență. Promit alegerea locală a modelului, interzicerea monopolului comercial și subvenționarea uniformei.",
+      "realityCheck": "Art.106 alin.(2) lit.c) înlocuiește obligația actuală de «ținută vestimentară decentă și adecvată» cu obligația de a veni în uniformă școlară, iar legea intră în vigoare la 3 zile de la publicare, prin derogare de la art.10 alin.(2). Modelul îl stabilește fiecare consiliu de administrație cu acordul părinților. Gratuitatea sau subvenția din anexa nr.2 «se acordă», dar cheltuielile doar «pot fi finanțate» din bugetele locale sau din fonduri UE: dreptul nu are un plătitor obligat. Textul nu limitează prețul și nu interzice impunerea unui furnizor unic.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Toți cetățenii",
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art.I pct.1 (art.106 alin.(2) lit.c)): uniforma devine obligatorie pentru toți beneficiarii primari. Textul nu distinge între școli de stat și private, deși expunerea de motive vorbește doar de învățământul de stat. Obligația trece din regulamentul școlii în lege.",
+        "Art.106¹ alin.(3) nou: gratuitatea și subvenția se acordă «potrivit anexei nr.2», dar finanțarea este facultativă («pot fi finanțate») și cade doar pe consiliile județene și locale, fără contribuție de la bugetul de stat. Nu se spune cine plătește dacă autoritatea locală refuză sau nu are bani. Riscul este o gratuitate doar pe hârtie și diferențe mari între localități.",
+        "Expunerea de motive promite «interzicerea monopolului comercial asupra furnizării» uniformelor, însă textul adoptat nu conține nicio astfel de normă. Art.106¹ alin.(2) interzice doar impunerea altor elemente vestimentare, nu și impunerea unui anumit furnizor sau a unui preț.",
+        "Art.II alin.(1): legea intră în vigoare la 3 zile de la publicare, prin derogare de la regula de stabilitate din art.10 alin.(2) al Legii 198/2023. Obligația ar deveni aplicabilă în plin an școlar, înainte ca școlile să adopte modele și înainte de normele metodologice, pentru care art.II alin.(2) acordă 90 de zile. Elevii ar putea fi în culpă fără nicio vină a lor.",
+        "Anexa nr.2 are probleme de previzibilitate. Pragurile sunt exprimate ca «venit brut lunar pe fiecare membru», dar coloanele sunt pe tip de familie, iar coloana «monoparentală» nu ține seama de numărul copiilor. Pragurile sunt incoerente: la familia monoparentală limita pentru gratuitate e mai mare (3,78 ISR) decât la familia cu un copil (3 ISR), dar limita pentru subvenție e mai mică (4,54 față de 5,1 ISR). Venituri anuale, precum dividendele, nu au o regulă de lunarizare. Lipsește procedura de dovadă și verificare a venitului.",
+        "Normele metodologice din art.II alin.(2) vizează doar art.106 alin.(2) lit.c), nu și art.106¹ și anexa nr.2. Rămân nereglementate: cine acordă subvenția, cum se face achiziția (eventual cu respectarea Legii nr.98/2016), câte seturi se acordă și cât de des.",
+        "Lipsesc excepțiile pentru motive medicale, pentru vestimentația religioasă și pentru elevii cu CES, precum și regulile pentru preșcolari. Nu sunt precizate nici consecințele nerespectării obligației; acestea rămân în seama regulamentelor școlare și a Statutului elevului."
+      ],
+      "blindSpotsCaught": "Legea creează un drept la gratuitate fără un debitor obligat: anexa spune «100% gratuit», dar art.106¹ alin.(3) folosește «pot fi finanțate». Promisiunea anti-monopol din expunerea de motive nu a ajuns în text, deci o școală poate desemna legal un singur magazin sau atelier. Derogarea de la art.10 alin.(2) face obligația aplicabilă imediat, înainte să existe modele și norme. Există și scăpări de redactare: art.252 nu are denumirea «Art.252.-», la art.251 lipsește punctul final, iar la pct.5 apar ghilimele închise în plus. Acestea sunt minore, dar trebuie corectate.",
+      "constitutionalityNote": "Obligația de a purta uniformă urmărește un scop legitim (egalitatea și siguranța), iar alegerea locală a modelului este o soluție proporționată. Apar însă trei probleme. (1) Previzibilitatea (art.1 alin.(5)): anexa nr.2 are praguri ambigue și incoerente, iar finanțarea este facultativă. (2) Art.138 alin.(5) și art.111 alin.(1): legea creează o cheltuielă publică, gratuitatea, fără să indice o sursă certă de finanțare. Dacă nu s-a cerut informarea Guvernului, există riscul unei critici de neconstituționalitate extrinsecă; documentele furnizate nu arată dacă s-a cerut. Autonomia locală (art.120) este formal respectată, tocmai pentru că finanțarea este facultativă. (3) Art.32 (dreptul la învățătură), art.16 (egalitatea) și art.29 (libertatea conștiinței): sancționarea elevilor care nu își permit uniforma sau absența unei excepții religioase ori medicale ar putea afecta aceste drepturi. Normele metodologice ar trebui să garanteze că lipsa uniformei nu restrânge accesul la cursuri.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă, deoarece legea nu reglementează accesul la o profesie. Directiva (UE) 2015/1535 (TRIS) nu privește servicii digitale aici. Cât privește produsele, specificațiile sunt stabilite individual de fiecare școală, nu printr-un regulament tehnic național general, așa că notificarea pare neaplicabilă. Ar deveni relevantă dacă normele ministerului ar impune standarde tehnice naționale pentru uniforme. Pe dreptul concurenței și al achizițiilor publice (art.101 TFUE, Legea nr.21/1996, Directiva 2014/24/UE transpusă prin Legea nr.98/2016), lipsa unei interdicții a furnizorului exclusiv permite înțelegeri școală-furnizor care închid piața pentru IMM-urile din confecții. Achizițiile finanțate public trebuie făcute competitiv și cu specificații neutre.",
+      "senatForm": {
+        "articleRef": "Art.I pct.2 (art.106^1 alin.(3) și (4) noi)",
+        "proposalContent": "(3) Elevii din familiile prevăzute în anexa nr.2 primesc uniforma gratuit sau subvenționat, costurile fiind suportate din bugetul de stat, prin bugetul MEC, completat de bugetele locale. (4) Unitatea nu poate impune un furnizor unic; uniforma se poate procura de la orice comerciant care respectă modelul și standardele stabilite.",
+        "argumentation": "Forma Senatului spune doar că cheltuielile «pot fi finanțate» local, deci gratuitatea din anexă nu are sursă sigură, iar obligația uniformei se aplică oricum. Expunerea de motive promite interzicerea monopolului comercial, dar textul nu o conține. Fără aceste garanții, costul cade pe familii, iar școlile pot impune furnizori.",
+        "otherComments": "Art.II alin.(1) aplică obligația la 3 zile, în plin an școlar, înainte de stabilirea modelelor. Propun aplicarea din anul școlar următor. Anexa nr.2 trebuie clarificată: venitul brut lunar per membru față de coloanele pe tip de familie, procedura de dovadă a venitului și cine o verifică."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -146,7 +178,7 @@
         "codex": 6
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:34:55.747Z",
+      "replacedAt": "2026-11-24T14:42:34.966Z",
       "reasons": [
         "model"
       ]

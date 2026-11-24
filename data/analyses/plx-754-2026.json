@@ -2,14 +2,41 @@
   "billId": "PL-x 754/2026",
   "slug": "plx-754-2026",
   "version": "senat",
-  "updatedAt": "2026-11-17T08:58:52.254Z",
+  "updatedAt": "2026-11-24T12:29:23.882Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 3120,
+    "ordinanceChars": 0,
+    "memoChars": 17297,
+    "memoSupplied": 17297,
+    "marker": "SF-1829FBC2"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-754-2026.json",
+    "form": "senat",
+    "textHash": "1829fbc204721973",
+    "fetchedAt": "2026-11-19T09:28:03.018Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 3,
+    "articlesShown": 3,
+    "articleCap": 8000,
+    "articlesCut": 1,
+    "chars": 19234,
+    "truncated": false,
+    "included": true,
+    "key": "50c07314713a2c26"
+  },
   "consensus": {
-    "riskScore": 4,
-    "riskLevel": "yellow",
-    "plainTitle": "TollRo pentru camioane: plată la distribuitori, tarif fix redus la 500 lei, 30 de zile de plată și protecție la căderea sistemului",
-    "summaryTlDr": "Este o lege în mare parte reparatorie, care reduce riscul ca transportatorii să plătească pentru erorile unui sistem informatic încă imatur. Rămân însă formulări vagi (de exemplu «bilunar» și «entitatea juridică») și un tarif forfetar de 500 lei pe care utilizatorul nu îl poate contesta dovedind distanța reală.",
-    "initiatorClaim": "Inițiatorii vor să protejeze transportatorii de sancțiuni și de suma fixă de 2.000 lei cât timp aplicațiile TollRo, tichetele de rută și integrarea OBU/SETRE au deficiențe. Obligația de plată pentru distanța efectiv parcursă se păstrează.",
-    "realityCheck": "Forma adoptată de Senat NU conține suspendarea amenzilor până la 31.03.2027, imobilizarea vehiculelor sau reținerea certificatului de înmatriculare descrise în Expunerea de motive. Ea face cinci lucruri: deschide colectarea către distribuitori privați agreați de CNAIR, reduce tariful forfetar de la 2.000 la 500 lei/24h, prelungește termenul de plată de la 72 de ore la 30 de zile, impune facturarea și suspendă înregistrarea neplății la avarii de peste 12 ore. Efectul net este favorabil, dar condițiile de agreare a distribuitorilor sunt lăsate integral normelor metodologice, iar avariile mai scurte de 12 ore rămân în sarcina utilizatorului.",
+    "riskScore": 3,
+    "riskLevel": "green",
+    "plainTitle": "Taxă forfetară TollRo redusă la 500 lei, plată în 30 de zile și tichete prin distribuitori",
+    "summaryTlDr": "Proiectul este în ansamblu favorabil transportatorilor, reducând masiv penalizarea forfetară și extinzând termenul de plată, dar ascunde o capcană la avariile sistemului CNAIR mai scurte de 12 ore.",
+    "initiatorClaim": "În Expunerea de motive inițială, parlamentarii au cerut suspendarea amenzilor TollRo și a taxei fixe de 2.000 lei între 1 octombrie 2026 și 31 martie 2027, invocând că platforma CNAIR și integrarea aparatelor OBU nu erau pregătite tehnic.",
+    "realityCheck": "Forma adoptată de Senat a eliminat complet moratoriul pe amenzi din Expunerea de motive și a introdus modificări permanente: scade taxa forfetară (când distanța nu poate fi stabilită) de la 2.000 lei/12 ore la 500 lei/24 ore, prelungește plata de la 72 de ore la 30 de zile și permite distribuitorilor (ex. benzinării) să vândă tichete de rută. Rămân însă câteva hibe corectabile la Camera Deputaților: protecția la defecțiunile aplicației sau ale sistemului se activează abia după 12 ore de avarie, iar amenda de 5.000 lei pentru neplată rămâne nemodificată.",
     "affectedGroups": [
       "Șoferi & Auto",
       "IMM & Antreprenori",
@@ -17,111 +44,111 @@
       "IT & AI"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct. 4 – art. 19 alin. (5) lit. b)",
-      "proposalContent": "b) 500 lei, în situația în care nu se poate stabili distanța parcursă pe domeniul SETRE România. În 30 de zile de la primirea scrisorii de informare, utilizatorul poate dovedi distanța reală prin date OBU/GPS sau documente de transport, caz în care datorează doar TollRo aferent acesteia, iar diferența achitată se restituie.",
-      "argumentation": "Forfetul transferă asupra transportatorului riscul unei imposibilități tehnice care nu îi aparține. Fără posibilitatea de a dovedi distanța reală, suma fixă devine o sancțiune mascată, fără garanțiile procedurii contravenționale. Directiva 1999/62/CE cere taxare proporțională cu distanța. Amendamentul păstrează încasarea și reduce litigiile.",
-      "otherComments": "Art. 17¹: «bilunar» e ambiguu (de 2 ori pe lună sau la 2 luni), iar entitatea emitentă nu e numită. Art. 20¹: pragul de 12 ore exclude avariile scurte și nu acoperă furnizorii SETRE/OBU ori platformele distribuitorilor. Lipsesc norma tranzitorie pentru scrisorile emise cu 2.000 lei și termenul de actualizare a normelor."
+      "articleRef": "Articol unic, pct. 6 (art. 20¹)",
+      "proposalContent": "„Art. 20¹.- În cazul unei disfuncționalități a aplicației mobile, a STRR sau a mijloacelor de control, indiferent de durată, vehiculele nu se înregistrează ca aflate în neplată a TollRo pe acel interval. TollRo se stabilește ulterior doar pentru distanța dovedită, fără aplicarea art. 19 alin. (5) lit. b) și fără costuri suplimentare.”",
+      "argumentation": "Pragul de 12 ore expune transportatorii la tariful de 500 lei și amenzi pentru avarii ale sistemului CNAIR sub 12 ore, încălcând proporționalitatea și art. 1 alin. (5) din Constituție. Formula „pe baza datelor disponibile” este neclară și nu exclude expres tariful forfetar de 500 lei atunci când avaria împiedică stabilirea distanței.",
+      "otherComments": "Recomandăm și clarificarea art. 17¹ (definirea exactă a termenului „bilunar” și corelarea cu Codul fiscal și RO e-Factura), precum și eliminarea restricției „persoană juridică română” din art. 2 lit. b) pentru compatibilitate cu piața unică UE (art. 49/56 TFUE). Art. 20¹ ar trebui să protejeze șoferii și la controlul în trafic."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 42853,
-      "riskScore": 5,
-      "riskLevel": "yellow",
-      "plainTitle": "Taxă fixă TollRo redusă la 500 lei și distribuitori noi, dar fără amânarea amenzilor promisă în motivare",
-      "verdictShort": "Forma adoptată de Senat aduce relaxări reale (reduce tariful fix de la 2.000 la 500 lei și extinde termenul de plată la 30 de zile), însă elimină complet amânarea amenzilor din Expunerea de Motive și ascunde capcane juridice serioase: protecția la defecțiuni se activează abia după 12 ore, iar distribuitorii trebuie să fie exclusiv firme românești.",
-      "initiatorClaim": "Expunerea de motive susține că proiectul protejează transportatorii de amenzi între 1 octombrie 2026 și 31 martie 2027 și suspendă temporar suma fixă de 2.000 lei, întrucât aplicația TollRo are erori tehnice și se blochează când rulează împreună cu RO e-Transport.",
-      "realityCheck": "Textul adoptat de Senat nu mai conține niciun moratoriu asupra amenzilor contravenționale și nici suspendarea tarifului fix. În schimb, transformă suma fixă de avarie în 500 lei/24h (art. 19 alin. 5 lit. b și alin. 6), extinde la 30 de zile plata după scrisoarea de informare (alin. 14), permite distribuția prin firme agreate de CNAIR (art. 2 lit. b) și introduce o regulă de avarie doar pentru defecțiuni ce depășesc 12 ore (art. 20¹).",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 85520,
+      "sourceEndMarker": "SF-1829FBC2",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Taxă forfetară TollRo redusă la 500 lei, plată în 30 de zile și tichete prin distribuitori",
+      "verdictShort": "Proiectul este în ansamblu favorabil transportatorilor, reducând masiv penalizarea forfetară și extinzând termenul de plată, dar ascunde o capcană la avariile sistemului CNAIR mai scurte de 12 ore.",
+      "initiatorClaim": "În Expunerea de motive inițială, parlamentarii au cerut suspendarea amenzilor TollRo și a taxei fixe de 2.000 lei între 1 octombrie 2026 și 31 martie 2027, invocând că platforma CNAIR și integrarea aparatelor OBU nu erau pregătite tehnic.",
+      "realityCheck": "Forma adoptată de Senat a eliminat complet moratoriul pe amenzi din Expunerea de motive și a introdus modificări permanente: scade taxa forfetară (când distanța nu poate fi stabilită) de la 2.000 lei/12 ore la 500 lei/24 ore, prelungește plata de la 72 de ore la 30 de zile și permite distribuitorilor (ex. benzinării) să vândă tichete de rută. Rămân însă câteva hibe corectabile la Camera Deputaților: protecția la defecțiunile aplicației sau ale sistemului se activează abia după 12 ore de avarie, iar amenda de 5.000 lei pentru neplată rămâne nemodificată.",
       "affectedGroups": [
         "Șoferi & Auto",
         "IMM & Antreprenori",
-        "Contabili & Fiscalitate",
-        "IT & AI"
+        "Contabili & Fiscalitate"
       ],
       "keyFindings": [
-        "Capcana celor 12 ore (Art. 20¹): protecția împotriva înregistrării ca neplătitor operează doar dacă aplicația mobilă, STRR sau mijloacele de control sunt defecte mai mult de 12 ore; la avarii de 1–12 ore, șoferii pot fi penalizați deși art. 12 alin. (7) lit. b) cere plata anterioară trecerii.",
-        "Facturare necorelată și risc bancar (Art. 17¹ și Art. 19 alin. 14): art. 17¹ impune facturare «bilunară» (termen ambiguu și potențial nealiniat cu termenul de 5 zile lucrătoare din sistemul e-Factura/Codul fiscal), iar art. 19 alin. (14) consideră plata făcută abia la creditarea contului CNAIR, mutând întârzierile interbancare pe plătitor.",
-        "Restricție națională și delegare excesivă (Art. 2 lit. b): calitatea de distribuitor este rezervată exclusiv unei «persoane juridice române», în condiții lăsate integral la latitudinea normelor metodologice, fără criterii legale primare; în plus, CNAIR este inclusă în definiția «distribuitorului», deși art. 17¹ tratează distribuitorii separat."
+        "Reducere de 8 ori pe zi a tarifului forfetar (art. 19 alin. 5 lit. b și alin. 6): față de legea în vigoare (2.000 lei o dată la 12 ore), când sistemul nu poate stabili distanța parcursă se va aplica 500 lei o singură dată la 24 de ore. Amenda contravențională din art. 19 alin. (17) lit. b) rămâne însă 5.000 lei.",
+        "Termen realist de plată (art. 19 alin. 14): plata sumelor din scrisoarea de informare crește de la 72 de ore (termen aproape imposibil pentru viramente transfrontaliere, întrucât plata se consideră făcută la creditarea contului CNAIR) la maximum 30 de zile de la primire.",
+        "Extinderea vânzării de tichete de rută (art. 2 lit. b și art. 12 alin. 7 lit. b): distribuitorii agreați de CNAIR, care acum vând doar rovinieta, vor putea încasa și TollRo prin tichete de rută, decongestionând sistemul.",
+        "Capcana pragului de 12 ore la avarii (art. 20¹ nou): vehiculele nu sunt înregistrate ca neplătitoare doar dacă aplicația mobilă, STRR sau camerele au o disfuncționalitate „mai mare de 12 ore”. Avariile de 1–12 ore lasă șoferii expuși la înregistrarea ca rău-platnici, iar recalcularea ulterioară „pe baza datelor disponibile” nu exclude expres taxa forfetară de 500 lei.",
+        "Facturare rigidă și neclară (art. 17¹ nou): entitatea care încasează tarifele va emite facturi „bilunar” (termen ambiguu, necorelat cu Codul fiscal și RO e-Factura), iar distribuitorii vor fi obligați să emită factura exact „la momentul încasării”."
       ],
-      "blindSpotsCaught": "Există o ruptură totală între Expunerea de Motive (care justifică o amânare a sancțiunilor până la 31 martie 2027 și o procedură bazată pe RO e-Transport) și textul votat de Senat la 11 noiembrie 2026, care a rescris legea eliminând perioada de grație. Totodată, sintagma «pe baza datelor disponibile» din art. 20¹ nu precizează ce probe pot fi folosite și nu exclude aplicarea tarifului forfetar de 500 lei dacă datele lipsesc din vina sistemului.",
-      "constitutionalityNote": "Probleme punctuale față de art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii): (1) contradicția conceptuală dintre art. 2 lit. b) (care include CNAIR în noțiunea de «distribuitor») și art. 17¹ (care opune «entitatea juridică» distribuitorilor); (2) folosirea termenului «bilunar» fără corelare cu legislația fiscală; (3) lipsa criteriilor esențiale în lege pentru agrearea distribuitorilor, delegate integral normelor metodologice; (4) sancționarea implicită a utilizatorului la avarii de până la 12 ore contravine principiului proporționalității și previzibilității răspunderii (art. 23 alin. 12 / jurisprudența CCR privind culpa).",
-      "euLawNote": "Rezervarea calității de distribuitor exclusiv pentru «persoană juridică română» (art. 2 lit. b) ridică un risc ridicat de neconformitate cu art. 49 și art. 56 TFUE (libertatea de stabilire și libera prestare a serviciilor) și cu Directiva 2006/123/CE privind serviciile, discriminând platformele și operatorii de plăți autorizați în alte state membre UE. Directiva (UE) 2018/958 vizează profesiile reglementate și nu este direct incidentă, însă impunerea de cerințe teritoriale și tehnice pentru servicii informatice interconectate cu STRR poate intra sub incidența obligației de notificare TRIS conform Directivei (UE) 2015/1535 și a principiilor de nediscriminare din Directiva 1999/62/CE (Eurovigneta).",
+      "blindSpotsCaught": "Există o ruptură totală între Expunerea de motive (care argumentează un moratoriu temporar pe amenzi până la 31 martie 2027, deja depășit parțial calendaristic la votul Senatului din 11 noiembrie 2026) și textul adoptat de Senat. Cel mai periculos detaliu tehnic este art. 20¹: pragul de 12 ore creează, per a contrario, riscul sancționării transportatorilor pentru pene ale sistemului statului de până la 12 ore și nu acoperă explicit situația controalelor prin oprire în trafic (art. 19 alin. 18-22).",
+      "constitutionalityNote": "Proiectul îmbunătățește proporționalitatea sancțiunilor față de legea în vigoare, dar prezintă vulnerabilități pe art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii): art. 20¹ nu definește procedura de stabilire ulterioară a TollRo „pe baza datelor disponibile” și instituie un prag arbitrar de 12 ore pentru avarii ale statului, iar art. 17¹ folosește noțiunea imprecisă „bilunar” fără corelare cu Codul fiscal. De asemenea, reducerea permanentă a forfetarului de la 2.000 la 500 lei nu este însoțită de o evaluare financiară actualizată (art. 111 alin. 1), deși nu generează o cheltuială bugetară directă în sensul art. 138 alin. (5).",
+      "euLawNote": "Măsurile de reducere a forfetarului și extindere a termenului de plată la 30 de zile sporesc conformitatea cu principiul proporționalității din Directiva (UE) 2019/520 (SETRE). Totuși, art. 2 lit. b) menține și extinde la piața nouă a tichetelor de rută TollRo condiția ca distribuitorul agreat să fie „persoană juridică română”, ceea ce poate contraveni libertății de stabilire și de prestare a serviciilor pe piața unică (art. 49 și 56 TFUE). Directiva (UE) 2018/958 nu este aplicabilă (nu privește profesii reglementate), iar Directiva (UE) 2015/1535 (TRIS) ar putea deveni relevantă abia la emiterea normelor metodologice tehnice pentru interconectarea aplicațiilor distribuitorilor cu STRR.",
       "senatForm": {
-        "articleRef": "Art. unic pct. 6 - art. 20¹",
-        "proposalContent": "„Art. 20¹.- În cazul oricărei disfuncționalități a aplicației mobile, a STRR sau a mijloacelor automate de control, indiferent de durată și cauză, vehiculele nu se înregistrează în situație de neplată a TollRo, nu se aplică tariful de la art. 19 alin. (5) lit. b), iar TollRo se stabilește ulterior doar pe baza distanței dovedite, fără cheltuieli suplimentare.”",
-        "argumentation": "Pragul de peste 12 ore lasă șoferii expuși la sancțiuni și la tariful fix de 500 lei în cazul unor defecțiuni de 1-12 ore, deși tichetul de rută trebuie achitat anterior trecerii. Nimeni nu poate fi sancționat pentru indisponibilitatea sistemului statului (art. 1 alin. 5 Constituție).",
-        "otherComments": "Recomandăm și: 1) eliminarea cerinței de «persoană juridică română» din art. 2 lit. b) pentru conformitate cu piața unică UE; 2) corelarea termenului «bilunar» din art. 17¹ cu Codul fiscal/e-Factura; 3) raportarea plății de la art. 19 alin. (14) la data inițierii ordinului de plată, nu a creditării contului CNAIR."
+        "articleRef": "Articol unic, pct. 6 (art. 20¹)",
+        "proposalContent": "„Art. 20¹.- În cazul unei disfuncționalități a aplicației mobile, a STRR sau a mijloacelor de control, indiferent de durată, vehiculele nu se înregistrează ca aflate în neplată a TollRo pe acel interval. TollRo se stabilește ulterior doar pentru distanța dovedită, fără aplicarea art. 19 alin. (5) lit. b) și fără costuri suplimentare.”",
+        "argumentation": "Pragul de 12 ore expune transportatorii la tariful de 500 lei și amenzi pentru avarii ale sistemului CNAIR sub 12 ore, încălcând proporționalitatea și art. 1 alin. (5) din Constituție. Formula „pe baza datelor disponibile” este neclară și nu exclude expres tariful forfetar de 500 lei atunci când avaria împiedică stabilirea distanței.",
+        "otherComments": "Recomandăm și clarificarea art. 17¹ (definirea exactă a termenului „bilunar” și corelarea cu Codul fiscal și RO e-Factura), precum și eliminarea restricției „persoană juridică română” din art. 2 lit. b) pentru compatibilitate cu piața unică UE (art. 49/56 TFUE). Art. 20¹ ar trebui să protejeze șoferii și la controlul în trafic."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 59080,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "TollRo pentru camioane: plată la distribuitori, tarif fix redus la 500 lei, 30 de zile de plată și protecție la căderea sistemului",
-      "verdictShort": "Este o lege în mare parte reparatorie, care reduce riscul ca transportatorii să plătească pentru erorile unui sistem informatic încă imatur. Rămân însă formulări vagi (de exemplu «bilunar» și «entitatea juridică») și un tarif forfetar de 500 lei pe care utilizatorul nu îl poate contesta dovedind distanța reală.",
-      "initiatorClaim": "Inițiatorii vor să protejeze transportatorii de sancțiuni și de suma fixă de 2.000 lei cât timp aplicațiile TollRo, tichetele de rută și integrarea OBU/SETRE au deficiențe. Obligația de plată pentru distanța efectiv parcursă se păstrează.",
-      "realityCheck": "Forma adoptată de Senat NU conține suspendarea amenzilor până la 31.03.2027, imobilizarea vehiculelor sau reținerea certificatului de înmatriculare descrise în Expunerea de motive. Ea face cinci lucruri: deschide colectarea către distribuitori privați agreați de CNAIR, reduce tariful forfetar de la 2.000 la 500 lei/24h, prelungește termenul de plată de la 72 de ore la 30 de zile, impune facturarea și suspendă înregistrarea neplății la avarii de peste 12 ore. Efectul net este favorabil, dar condițiile de agreare a distribuitorilor sunt lăsate integral normelor metodologice, iar avariile mai scurte de 12 ore rămân în sarcina utilizatorului.",
-      "affectedGroups": [
-        "Șoferi & Auto",
-        "IMM & Antreprenori",
-        "Contabili & Fiscalitate",
-        "Justiție & Drepturi Civile"
-      ],
-      "keyFindings": [
-        "Pct. 4–5 (art. 19 alin. (5) lit. b) și alin. (6)): tariful fix scade de la 2.000 la 500 lei, aplicat o singură dată în 24 de ore. Totuși, nu există nicio procedură prin care transportatorul să dovedească distanța reală (OBU, GPS, RO e-Transport) și să plătească doar cât a parcurs. Expunerea de motive cerea această posibilitate, dar textul adoptat nu o preia.",
-        "Pct. 5 (art. 19 alin. (14)): termenul de plată trece de la 72 de ore la 30 de zile de la primirea scrisorii de informare, iar plata se consideră efectuată la creditarea contului CNAIR. Măsura este utilă pentru IMM-uri și transportatori străini, dar riscul întârzierilor bancare rămâne la utilizator. Lipsește și o normă tranzitorie pentru scrisorile deja emise.",
-        "Pct. 6 (art. 20¹): la o disfuncționalitate de peste 12 ore, vehiculele nu sunt marcate ca neplătitoare. Textul acoperă doar aplicația mobilă, STRR și mijloacele automate de control. Nu acoperă platformele distribuitorilor, furnizorii SETRE/EETS sau OBU, iar întreruperile sub 12 ore rămân sancționabile.",
-        "Pct. 3 (art. 17¹): «bilunar» este ambiguu în limba română (de două ori pe lună sau o dată la două luni), iar «entitatea juridică care încasează» nu este identificată nominal (CNAIR? prestatorul?).",
-        "Pct. 1–2 (art. 2 lit. b), art. 12 alin. (7) lit. b)): CNAIR devine simultan cea care agreează distribuitorii și distribuitor ea însăși, cu criterii de agreare lăsate exclusiv normelor metodologice. Există un potențial conflict de interese și un risc de bariere la intrare pentru platformele digitale private."
-      ],
-      "blindSpotsCaught": "Art. 20¹ prevede că TollRo «se stabilește ulterior, pe baza datelor disponibile». Dacă datele lipsesc, nu este exclusă expres aplicarea tarifului forfetar de 500 lei pentru intervalul avariei, deci protecția poate fi golită de conținut. Constatarea avariei depinde de publicarea făcută chiar de CNAIR, iar utilizatorul nu are o cale proprie de a dovedi defecțiunea. Legea nu fixează nici un termen pentru actualizarea normelor metodologice privind agrearea distribuitorilor, așa că pct. 1–2 pot rămâne inaplicabile. Diminuarea veniturilor prin reducerea forfetului impune informarea Guvernului conform art. 111 alin. (1) din Constituție și art. 15 din Legea nr. 500/2002; trebuie verificată existența punctului de vedere al Guvernului și a fișei financiare.",
-      "constitutionalityNote": "Procedura respectă art. 75: Senatul a fost prima Cameră sesizată, iar Camera Deputaților este Camera decizională. Din perspectiva art. 1 alin. (5), problemele de calitate a legii sunt termenul «bilunar», entitatea emitentă nenominalizată și delegarea integrală a criteriilor de agreare a distribuitorilor către normele metodologice. Acestea sunt deficiențe de redactare remediabile, nu vicii majore. Tariful forfetar de 500 lei este un tarif, nu o sancțiune, dar funcționează ca o penalitate pentru o imposibilitate tehnică. Fără posibilitatea probei contrare, el poate fi criticat din perspectiva art. 21 (acces la justiție), a art. 44 și a art. 56 alin. (2) (așezarea justă a sarcinilor fiscale). Art. 23 alin. (12) nu este direct incident, pentru că nu se creează sancțiuni noi. Se recomandă verificarea respectării art. 111 alin. (1) și a art. 138 alin. (5) privind impactul bugetar.",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă: textul nu reglementează accesul la o profesie reglementată. Este însă relevantă Directiva 1999/62/CE (Eurovigneta, modificată prin Directiva (UE) 2022/362), care cere tarife proporționale cu distanța și nediscriminatorii. Un forfet de 500 lei fără probă contrară se îndepărtează de principiul taxării pe distanță. Este relevantă și Directiva (UE) 2019/520 (EETS): art. 20¹ ar trebui să acopere și defecțiunile furnizorilor SETRE, pentru a nu-i dezavantaja pe utilizatorii EETS. Notificarea TRIS (Directiva (UE) 2015/1535) este puțin probabilă: textul nu impune cerințe tehnice proprii aplicațiilor distribuitorilor, ci doar interconectarea cu STRR. Totuși, dacă normele metodologice vor stabili cerințe specifice pentru serviciile digitale ale distribuitorilor, proiectul acestora trebuie notificat. Criteriile de agreare trebuie să fie transparente și nediscriminatorii (art. 56 TFUE, Directiva 2006/123/CE), inclusiv pentru platformele din alte state membre.",
-      "senatForm": {
-        "articleRef": "Art. unic pct. 4 – art. 19 alin. (5) lit. b)",
-        "proposalContent": "b) 500 lei, în situația în care nu se poate stabili distanța parcursă pe domeniul SETRE România. În 30 de zile de la primirea scrisorii de informare, utilizatorul poate dovedi distanța reală prin date OBU/GPS sau documente de transport, caz în care datorează doar TollRo aferent acesteia, iar diferența achitată se restituie.",
-        "argumentation": "Forfetul transferă asupra transportatorului riscul unei imposibilități tehnice care nu îi aparține. Fără posibilitatea de a dovedi distanța reală, suma fixă devine o sancțiune mascată, fără garanțiile procedurii contravenționale. Directiva 1999/62/CE cere taxare proporțională cu distanța. Amendamentul păstrează încasarea și reduce litigiile.",
-        "otherComments": "Art. 17¹: «bilunar» e ambiguu (de 2 ori pe lună sau la 2 luni), iar entitatea emitentă nu e numită. Art. 20¹: pragul de 12 ore exclude avariile scurte și nu acoperă furnizorii SETRE/OBU ori platformele distribuitorilor. Lipsesc norma tranzitorie pentru scrisorile emise cu 2.000 lei și termenul de actualizare a normelor."
-      },
-      "status": "ok"
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 129184,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Mai multe puncte de plată TollRo, dar protecție incompletă când sistemul cade",
-      "verdictShort": "Proiectul aduce îmbunătățiri utile pentru plata TollRo, dar lasă neclarități privind defecțiunile și taxarea unei distanțe necunoscute. Riscul este moderat: sunt necesare corecții punctuale, fără a respinge extinderea distribuției.",
-      "initiatorClaim": "Expunerea de motive urmărește o perioadă de acomodare fără anumite amenzi și fără tariful fix de 2.000 lei, păstrând plata pentru distanța dovedită. Fișa Camerei descrie însă soluțiile diferite din forma Senatului: distribuție extinsă, tarif fix de 500 lei și protecție pentru anumite defecțiuni.",
-      "realityCheck": "Forma analizată nu introduce suspendarea generală a sancțiunilor până la 31 martie 2027 și nici regimul tranzitoriu descris în motivare. Ea permite distribuitorilor să încaseze TollRo prin tichet de rută, reglementează facturarea, stabilește plata scrisorii de informare în 30 de zile și tariful fix de 500 lei, aplicabil o singură dată într-un interval de 24 de ore. Protecția specială pentru defecțiuni apare numai peste pragul de 12 ore, iar obligația de plată se păstrează.",
+      "durationMs": 132088,
+      "sourceEndMarker": "SF-1829FBC2",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "TollRo: tarif fix redus și mai mult timp pentru plată",
+      "verdictShort": "Proiectul este predominant favorabil transportatorilor: reduce tariful fix, extinde termenul de plată și permite distribuirea tichetelor prin mai mulți operatori. Protecția la defecțiuni rămâne însă incompletă, iar suspendarea generală a amenzilor promisă în motivare nu apare în forma Senatului.",
+      "initiatorClaim": "Expunerea de motive urmărește protejarea transportatorilor până la stabilizarea sistemului, prin suspendarea temporară a amenzilor și a tarifului fix, păstrând plata pentru distanța dovedită. Acest program tranzitoriu este diferit de soluțiile efectiv adoptate de Senat.",
+      "realityCheck": "Față de textele în vigoare furnizate, proiectul reduce tariful pentru distanța nedeterminabilă de la 2.000 la 500 lei, limitează aplicarea lui la o dată în 24 de ore în loc de 12 și înlocuiește termenul de 72 de ore pentru scrisorile de informare cu maximum 30 de zile. Extinde distribuția tichetelor și introduce reguli de facturare și protecție pentru disfuncționalități care depășesc 12 ore. Nu suspendă general amenzile, nu introduce calendarul tranzitoriu din motivare și nu elimină plata pe loc la controlul prin oprirea vehiculului.",
       "affectedGroups": [
         "IMM & Antreprenori",
-        "IT & AI",
+        "Șoferi & Auto",
         "Contabili & Fiscalitate",
-        "Șoferi & Auto"
+        "IT & AI"
       ],
       "keyFindings": [
-        "Art. 2 lit. b) și art. 12 alin. (7) lit. b): accesul distribuitorilor la emiterea tichetelor poate simplifica plata și extinde oferta. Agrearea de către CNAIR trebuie însă să aibă criterii transparente, obiective și nediscriminatorii; textul nu dovedește, singur, instituirea unui monopol privat.",
-        "Art. 17¹: facturarea la încasare prin distribuitori poate ajuta transportatorii, dar trebuie precizat cine emite factura pentru tarif și în numele cui. Facturarea bilunară necesită corelare cu termenele fiscale aplicabile și cu obligațiile de transmitere în RO e-Factura.",
-        "Art. 19 alin. (5) lit. b) și alin. (6): cei 500 lei reprezintă în text un tarif substitutiv, nu o amendă denumită astfel. Lipsesc criterii pentru situațiile în care distanța nu poate fi stabilită și pentru începutul intervalului de 24 de ore; proporționalitatea depinde de justificarea cuantumului și de cauza lipsei datelor.",
-        "Art. 19 alin. (14): termenul curge de la primirea scrisorii, dar plata produce efect la creditarea contului CNAIR. Sunt relevante dovada comunicării și întârzierile bancare, care pot afecta utilizatorii ce inițiază transferul aproape de scadență.",
-        "Art. 20¹: după depășirea a 12 ore, protecția privește întregul interval al defecțiunii. Pentru incidente mai scurte nu există această protecție specială, fără ca aceasta să însemne că orice amendă ar fi automat legală; rămân aplicabile condițiile răspunderii contravenționale.",
-        "Impactul economic este mixt: distribuția extinsă poate reduce timpul de conformare, iar facturarea imediată poate ajuta contabilitatea IMM-urilor. Interconectarea și funcționarea de avarie implică însă costuri pentru CNAIR și distribuitori; fragmentele nu permit cuantificarea impactului bugetar sau identificarea unor comisioane noi."
+        "Articol unic pct. 1–2: distribuitorii agreați vor putea încasa și TollRo prin tichet de rută. Tichetul și obligația achitării înaintea trecerii există deja; noutatea este includerea expresă a distribuitorilor în emitere și încasare.",
+        "Articol unic pct. 4–5: suma fixă scade de la 2.000 la 500 lei, iar intervalul aplicării unice crește de la 12 la 24 de ore. Este un tarif legal pentru distanța nedeterminabilă, distinct de amenda de 5.000 lei de la art. 19 alin. (17) lit. b), pe care proiectul nu o modifică.",
+        "Art. 19 alin. (14): termenul de 30 de zile privește plata sumelor comunicate prin scrisoare. Rămâne regula creditării contului CNAIR, astfel încât simpla inițiere a transferului în ultima zi poate fi insuficientă. Plata pe loc prevăzută la alin. (21) rămâne aplicabilă controlului prin oprire.",
+        "Art. 20¹: protecția specială presupune o disfuncționalitate mai mare de 12 ore; exact 12 ore și întreruperile mai scurte nu sunt acoperite expres. Aceasta nu înlătură garanțiile generale privind răspunderea contravențională și contestarea sancțiunilor.",
+        "Art. 20¹: formularea «fără cheltuieli suplimentare» nu exclude expres tariful fix de 500 lei dacă avaria împiedică reconstituirea distanței. Nu sunt precizate suficient întinderea disfuncționalității, probele și procedura regularizării.",
+        "Art. 17¹: facturarea bilunară înseamnă de două ori pe lună, iar distribuitorii facturează la încasare. Deoarece definiția distribuitorului include chiar CNAIR și subunitățile sale, trebuie clarificată delimitarea celor două regimuri și corelarea cu obligațiile fiscale existente.",
+        "Textul se încheie după introducerea art. 20¹: nu conține suspendarea amenzilor până la 31 martie 2027, suspendarea temporară a tarifului fix, accesul suplimentar la date RO e-Transport ori măsurile speciale de imobilizare descrise în motivare. Nu stabilește expres nici regimul scrisorilor deja comunicate.",
+        "Reducerea tarifului poate diminua veniturile CNAIR, iar distribuția extinsă poate îmbunătăți colectarea. Facturarea și funcționarea de avarie pot genera costuri administrative; efectul net necesită date, nu poate fi dedus din afirmația că obligația de plată se menține."
       ],
-      "blindSpotsCaught": "Art. 20¹ nu explică suficient raportul dintre stabilirea ulterioară a tarifului pe baza datelor disponibile și aplicarea celor 500 lei dacă acele date nu permit reconstituirea distanței. Diferența dintre motivare și dispozitiv nu dovedește singură încălcarea bicameralismului: trebuie comparate formele legislative și parcursul lor. Analiza se bazează pe fragmentele furnizate; autenticitatea fișei, actele din 2026 invocate și forma consolidată nu au putut fi verificate online.",
-      "constitutionalityNote": "Principala problemă privește art. 1 alin. (5) din Constituție: trebuie clarificate defecțiunea relevantă, vehiculele afectate, dovada incidentului, calculul ulterior și raportul cu tariful fix. Pragul de 12 ore necesită o justificare obiectivă, deoarece și un incident mai scurt poate împiedica plata. Art. 23 alin. (12) privește legalitatea pedepsei și nu transformă automat tariful TollRo într-o sancțiune penală; pentru contravenții contează previzibilitatea normei și condițiile răspunderii. Din fragmente nu rezultă o neconstituționalitate certă.",
-      "euLawNote": "Directiva (UE) 2018/958 privește testul de proporționalitate pentru reglementarea accesului la profesii reglementate sau a exercitării lor; simpla agreare a distribuitorilor TollRo nu demonstrează aplicabilitatea acesteia. Condiția «persoană juridică română» trebuie totuși examinată prin libertatea de stabilire și libera prestare a serviciilor, inclusiv necesitatea unei entități constituite în România. Directiva (UE) 2015/1535 nu impune notificarea TRIS pentru orice folosire a unei aplicații: trebuie stabilit dacă norma constituie o reglementare tehnică notificabilă, inclusiv o regulă vizând în mod specific servicii ale societății informaționale. Textul nu reglementează AI. Sunt relevante și Directiva 1999/62/CE privind taxarea vehiculelor grele și Directiva (UE) 2019/520 privind interoperabilitatea sistemelor electronice de taxare; compatibilitatea tarifului substitutiv și a condițiilor de acces necesită verificarea cadrului complet.",
+      "blindSpotsCaught": "Condiția ca distribuitorul să fie persoană juridică română exista deja pentru rovinietă; proiectul o extinde activității de distribuire a tichetelor TollRo. Nu creează prin aceasta un monopol privat, dar extinde o condiție de acces care trebuie justificată în raport cu piața unică. Totodată, protecția pentru avarii nu echivalează cu suspendarea generală a sancțiunilor prezentată în motivare.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă din soluțiile principale. Art. 1 alin. (5) impune însă clarificarea facturării, a constatării avariilor și a raportului dintre regularizare și tariful fix. Art. 23 alin. (12) privește legalitatea pedepselor; tariful de 500 lei nu trebuie confundat automat cu o pedeapsă, iar regimul contravențional trebuie analizat distinct. Dacă sunt modificate prevederi bugetare, este relevantă solicitarea informării Guvernului potrivit art. 111 alin. (1); art. 138 alin. (5) presupune cheltuieli bugetare efectiv instituite. Analiza folosește documentele furnizate; consolidarea și dosarul din 2026 nu au putut fi verificate independent.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testul de proporționalitate pentru reglementarea profesiilor; simpla agreare a distribuitorilor comerciali nu demonstrează că intră în acest domeniu. Condiția persoanei juridice române trebuie totuși examinată potrivit libertății de stabilire și prestării serviciilor, inclusiv necesitatea și proporționalitatea sa. Pentru TRIS, Directiva (UE) 2015/1535 nu impune notificarea numai fiindcă se folosesc aplicații: trebuie verificat dacă dispozițiile noi constituie reguli care vizează specific servicii ale societății informaționale. Proiectul nu reglementează AI. Sunt relevante și Directiva 1999/62/CE privind taxarea infrastructurii și proporționalitatea sancțiunilor, respectiv Directiva (UE) 2019/520 privind interoperabilitatea; compatibilitatea nu poate fi stabilită exclusiv din motivare.",
       "senatForm": {
         "articleRef": "Articol unic pct. 6 – art. 20¹",
-        "proposalContent": "Art. 20¹.- Dacă o defecțiune împiedică stabilirea ori plata TollRo, vehiculele afectate nu se înregistrează în STRR în neplată pe durata acesteia. Se datorează doar tariful pentru distanța dovedită, fără costuri suplimentare. CNAIR asigură funcționarea de avarie și publică imediat incidentul și intervalul afectat pe site și în aplicație.",
-        "argumentation": "Pragul de 12 ore exclude protecția specială pentru incidente mai scurte care pot împiedica plata. Eliminarea lui și limitarea calculului la distanța dovedită împiedică transferarea riscului tehnic asupra utilizatorului, păstrând obligația de plată pentru utilizarea demonstrată.",
-        "otherComments": "Se solicită corelarea expresă cu art. 19 alin. (5) lit. b) și alin. (6), precum și reguli privind constatarea incidentelor și corectarea înregistrărilor. Propunerea poate fi preluată ca amendament de un deputat; trimiterea ei de către cetățean nu echivalează cu depunerea unui amendament parlamentar."
+        "proposalContent": "În caz de disfuncționalități tehnice neimputabile utilizatorului, indiferent de durată, TollRo se stabilește ulterior pentru distanța dovedită, fără sancțiuni, costuri suplimentare sau tariful prevăzut la art. 19 alin. (5) lit. b). CNAIR asigură operarea STRR în condiții de avarie și publică de îndată intervalul disfuncționalității pe site și în aplicație.",
+        "argumentation": "Pragul de peste 12 ore lasă fără protecție expresă întreruperile mai scurte. Formula «fără cheltuieli suplimentare» nu exclude clar tariful fix când avaria împiedică stabilirea distanței. Amendamentul păstrează obligația de plată pentru distanța dovedită și evită transferarea riscului tehnic neimputabil asupra utilizatorului.",
+        "otherComments": "Normele trebuie să prevadă constatarea și dovedirea defecțiunilor, notificarea calculului ulterior și posibilitatea contestării. Clarificați separat facturarea CNAIR la art. 17¹ și regimul scrisorilor comunicate înaintea intrării în vigoare. Forma Senatului nu conține perioada generală fără amenzi din expunerea de motive."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-17T08:58:52.254Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T12:29:23.882Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

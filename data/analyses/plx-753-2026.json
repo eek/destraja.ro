@@ -2,118 +2,148 @@
   "billId": "Pl-x 753/2026",
   "slug": "plx-753-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-17T08:56:10.602Z",
+  "updatedAt": "2026-11-24T12:28:35.270Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1444,
+    "ordinanceChars": 0,
+    "memoChars": 7102,
+    "memoSupplied": 7102,
+    "marker": "SF-E0888B0E"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-753-2026.json",
+    "form": "initiator",
+    "textHash": "e0888b0ec6d35a32",
+    "fetchedAt": "2026-11-19T09:27:44.757Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 7869,
+    "truncated": false,
+    "included": true,
+    "key": "def3ce4ceef35878"
+  },
   "consensus": {
-    "riskScore": 3.3,
-    "riskLevel": "green",
-    "plainTitle": "Pedepse mai mari pentru cine amenință sau lovește un profesor",
-    "summaryTlDr": "Este o lege scurtă, cu un scop legitim, care nu aduce taxe, birocrație sau monopoluri. Are însă câteva imprecizii de redactare penală care pot slăbi exact protecția pe care și-o propune.",
-    "initiatorClaim": "Inițiatorii spun că agresiunile asupra profesorilor sunt pedepsite azi ca pentru orice persoană, deși afectează și serviciul public de educație. Ei vor o formă agravată, cu pedepse mărite cu o pătrime, ca semnal descurajant.",
-    "realityCheck": "Art. 206¹ majorează cu 1/4 limitele pedepsei pentru amenințare, lovire sau alte violențe comise asupra unui cadru didactic în legătură cu atribuțiile sale, oriunde și oricând s-ar produce fapta. Textul nu numește articolele din Codul penal vizate, nu spune dacă se mai cere plângerea prealabilă a victimei și nu acoperă explicit vătămarea corporală. Față de agresorii minori, care primesc de regulă măsuri educative, efectul practic va fi limitat; impactul real îl are asupra adulților, de exemplu părinții.",
+    "riskScore": 4,
+    "riskLevel": "yellow",
+    "plainTitle": "Pedepse mai mari cu 25% pentru amenințarea sau lovirea profesorilor din preuniversitar",
+    "summaryTlDr": "Scopul este legitim și majorarea de pedeapsă cu o pătrime este proporțională, însă norma penală este redactată neîngrijit, introdusă într-o lege specială în locul Codului penal și lasă neclarități constituționale privind categoriile protejate și procedura penală.",
+    "initiatorClaim": "Inițiatorii susțin că profesorii nu au o protecție penală specifică împotriva agresiunilor legate de exercitarea funcției și propun o formă agravată (+25% la limitele de pedeapsă) pentru amenințare și lovire sau alte violențe, indiferent de loc și oră.",
+    "realityCheck": "Legea introduce art. 206¹ în Legea învățământului preuniversitar nr. 198/2023, imediat după articolul dedicat instructorilor militari și de poliție, fără a modifica Codul penal. În practică, lasă pe dinafară profesorii universitari, nu clarifică dacă sunt acoperiți directorii sau personalul didactic auxiliar, nu prevede dacă urmărirea penală pornește din oficiu sau tot la plângere prealabilă și are efect redus asupra elevilor minori (care primesc măsuri educative, nu pedepse cu închisoarea).",
     "affectedGroups": [
       "Sănătate & Educație",
       "Justiție & Drepturi Civile",
-      "Angajați & HR"
+      "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I, art. 206¹ alin. (1) Legea 198/2023",
-      "proposalContent": "(1) Faptele prevăzute la art. 193, 194 și 206 C. pen., săvârșite împotriva personalului didactic de predare, auxiliar sau de conducere, în exercitarea atribuțiilor de serviciu ori în legătură cu acestea, se pedepsesc cu pedeapsa prevăzută de lege, ale cărei limite speciale se majorează cu o pătrime. Acțiunea penală se pune în mișcare din oficiu.",
-      "argumentation": "Textul nu numește articolele vizate din Codul penal: «alte violențe» poate exclude vătămarea corporală (art. 194), deci fapta mai gravă n-ar fi agravată. Nu e clar dacă rămâne plângerea prealabilă (art. 193, 206) și cine e «cadru didactic». Precizarea asigură previzibilitatea cerută de art. 1 alin. (5) și art. 23 alin. (12) Constituție.",
-      "otherComments": "Norma ar fi mai coerent plasată în Codul penal, lângă art. 257 (ultraj), conform principiului unicității reglementării din Legea nr. 24/2000. De corelat cu majorarea de 1/3 de la ultraj. Efectul asupra agresorilor minori e redus (măsuri educative), deci sunt utile și măsuri preventive: mediere, consiliere."
+      "articleRef": "Art. I (art. 206^1 din Legea nr. 198/2023)",
+      "proposalContent": "Art. 206^1: (1) Faptele prevăzute la art. 193 și art. 206 din Codul penal, săvârșite împotriva personalului didactic de predare, didactic auxiliar sau de conducere în exercitarea ori în legătură cu atribuțiile de serviciu, se sancționează cu pedeapsa prevăzută de lege, cu limitele majorate cu o pătrime, dacă fapta nu constituie o infracțiune mai gravă.",
+      "argumentation": "Trimiterea expresă la art. 193 și 206 Cod penal și clauza de subsidiaritate evită suprapunerea cu ultrajul (art. 257 CP) pentru instructorii militari din art. 206. Includerea personalului didactic auxiliar și de conducere corelează textul cu expunerea de motive și asigură previzibilitatea legii penale (art. 1 alin. 5, art. 23 alin. 12 Constituție).",
+      "otherComments": "Ideal, agravanta ar trebui introdusă în Codul penal, pentru a proteja egal și profesorii universitari (Legea 199/2023, art. 16 Constituție) și a evita fragmentarea legii penale. Recomandăm și clarificarea regimului acțiunii penale (din oficiu vs. plângere prealabilă) și a corelării cu art. 193 alin. (2^1) Cod penal."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 37385,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Pedepse mai mari cu un sfert pentru amenințarea sau lovirea profesorilor",
-      "verdictShort": "Proiectul este benign economic și urmărește un scop legitim de protecție a cadrelor didactice, fără impact asupra IMM-urilor sau concurenței. Totuși, introduce o normă penală în legea educației fără a corela regimul plângerii prealabile și ignoră că elevii minori nu primesc pedepse majorabile cu o pătrime, ci măsuri educative.",
-      "initiatorClaim": "Inițiatorii susțin că profesorii sunt expuși violențelor din cauza autorității pedagogice și că actualul Cod penal nu descurajează suficient agresiunile legate de actul educațional. Propunerea urmărește protejarea integrității cadrelor didactice și a desfășurării normale a cursurilor prin majorarea pedepselor.",
-      "realityCheck": "Mecanic, Art. I introduce Art. 206¹ în Legea nr. 198/2023 și majorează cu o pătrime limitele speciale ale pedepsei pentru amenințare și lovire sau alte violențe contra unui cadru didactic, inclusiv în afara școlii și a programului, dacă există legătură cu serviciul. În practică, proiectul nu modifică regimul plângerii prealabile (victima tot trebuie să depună și să mențină plângerea), iar față de agresorii minori (14-18 ani) se aplică de regulă măsuri educative, nu pedepsele majorate.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 84550,
+      "sourceEndMarker": "SF-E0888B0E",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Pedepse mai mari cu 25% pentru amenințarea sau lovirea profesorilor din preuniversitar",
+      "verdictShort": "Scopul este legitim și majorarea de pedeapsă cu o pătrime este proporțională, însă norma penală este redactată neîngrijit, introdusă într-o lege specială în locul Codului penal și lasă neclarități constituționale privind categoriile protejate și procedura penală.",
+      "initiatorClaim": "Inițiatorii susțin că profesorii nu au o protecție penală specifică împotriva agresiunilor legate de exercitarea funcției și propun o formă agravată (+25% la limitele de pedeapsă) pentru amenințare și lovire sau alte violențe, indiferent de loc și oră.",
+      "realityCheck": "Legea introduce art. 206¹ în Legea învățământului preuniversitar nr. 198/2023, imediat după articolul dedicat instructorilor militari și de poliție, fără a modifica Codul penal. În practică, lasă pe dinafară profesorii universitari, nu clarifică dacă sunt acoperiți directorii sau personalul didactic auxiliar, nu prevede dacă urmărirea penală pornește din oficiu sau tot la plângere prealabilă și are efect redus asupra elevilor minori (care primesc măsuri educative, nu pedepse cu închisoarea).",
       "affectedGroups": [
         "Sănătate & Educație",
         "Justiție & Drepturi Civile",
-        "Angajați & HR"
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I (Art. 206¹ alin. 1) nu creează o infracțiune nouă, ci o agravantă specială cu +1/4 la limitele de pedeapsă pentru amenințare și lovire sau alte violențe asupra cadrelor didactice din preuniversitar.",
-        "Art. I (Art. 206¹ alin. 2) extinde protecția și în afara unității de învățământ și a programului de lucru, cu condiția ca fapta să aibă legătură cu exercitarea atribuțiilor de serviciu.",
-        "Deși Expunerea de motive invocă și personalul didactic auxiliar și de conducere (pct. 2.1), textul normativ al Art. 206¹ protejează exclusiv «cadrul didactic».",
-        "Art. II stabilește intrarea în vigoare în termenul constituțional standard de 3 zile de la publicare, fără norme subsecvente sau impact bugetar direct."
+        "Amplasare defectuoasă și risc de suprapunere cu ultrajul: Art. I introduce art. 206¹ (redactat cu eroare ca «Art. 206I») imediat după art. 206 din Legea nr. 198/2023, care reglementează exclusiv instructorii militari, de poliție și de penitenciare (deja protejați de ultraj, art. 257 Cod penal), fără o clauză de subsidiaritate («dacă fapta nu constituie o infracțiune mai gravă»).",
+        "Neconcordanță între expunerea de motive și text + discriminare față de mediul universitar: Expunerea de motive invocă personalul didactic de predare, auxiliar și de conducere, dar art. 206¹ protejează doar «cadrul didactic» din preuniversitar, excluzând fără justificare cadrele didactice universitare (Legea nr. 199/2023) și lăsând neclar statutul personalului auxiliar.",
+        "Lacune de drept penal și procedură: Textul nu face trimitere expresă la art. 193 și art. 206 din Codul penal, nu clarifică regimul plângerii prealabile (obligatorie în dreptul comun pentru amenințare și lovire) și nici concursul cu agravantele deja existente în art. 193 alin. (2¹) Cod penal.",
+        "Efect practic limitat față de elevii minori: Întrucât minorii între 14 și 18 ani nu primesc pedepse, ci măsuri educative (art. 114 Cod penal), majorarea limitelor de pedeapsă cu o pătrime (care rămân sub pragul de 7 ani) vizează în realitate agresorii adulți (părinți, rude, elevi majori)."
       ],
-      "blindSpotsCaught": "Textul conține o eroare de tehnoredactare la titlul articolului («Art. 206I» în loc de «Art. 206¹»), introduce o normă penală specială în afara Codului penal fără trimitere la art. 193 și art. 206 C.pen. și omite două realități procedurale: lipsa urmăririi din oficiu (rămâne necesară plângerea prealabilă a profesorului) și faptul că elevii minori sunt supuși măsurilor educative din Codul penal, unde majorarea cu 1/4 a limitelor pedepsei nu produce efect direct.",
-      "constitutionalityNote": "Proiectul respectă competența de cameră decizională a Senatului (art. 75), caracterul de lege organică (art. 76 alin. 1) și termenul de intrare în vigoare (art. 78). Sub aspectul previzibilității normei penale (art. 1 alin. 5 și art. 23 alin. 12 din Constituție), este recomandabilă trimiterea expresă la articolele din Codul penal și clarificarea încadrării față de art. 193 alin. (2¹) C.pen.; totodată, excluderea personalului didactic auxiliar și de conducere creează o diferență de tratament neexplicată față de Expunerea de motive (art. 16).",
-      "euLawNote": "Proiectul nu intră în domeniul de aplicare al Directivei (UE) 2018/958 privind testul de proporționalitate (nu reglementează accesul sau exercitarea unei profesii) și nici al Directivei (UE) 2015/1535 (TRIS), nevizând servicii ale societății informaționale sau reglementări tehnice. Nu afectează piața unică, concurența sau libertățile economice.",
+      "blindSpotsCaught": "Articolul 206 existent al Legii nr. 198/2023 privește exclusiv personalul didactic militar, de poliție și de penitenciare (care are deja protecția sporită a ultrajului, cu majorare de o treime sau o jumătate); inserarea noii agravante penale chiar după acest articol, fără trimitere la Codul penal și fără clauză de subsidiaritate, fragmentează legislația penală și generează confuzie de încadrare juridică.",
+      "constitutionalityNote": "Măsura nu impune pedepse disproporționate, dar prezintă vulnerabilități pe art. 1 alin. (5) și art. 23 alin. (12) din Constituție (claritatea și previzibilitatea legii penale) din cauza noțiunii nedefinite de «cadru didactic», a lipsei trimiterii la articolele din Codul penal și a tăcerii privind plângerea prealabilă, precum și pe art. 16 alin. (1) (egalitatea în drepturi), prin protejarea exclusivă a profesorilor din preuniversitar față de cei din învățământul superior. Intrarea în vigoare la 3 zile (art. II) respectă art. 78, cu aplicare exclusiv pentru viitor (art. 15 alin. 2).",
+      "euLawNote": "Proiectul vizează exclusiv dreptul penal intern privind integritatea fizică și psihică; nu intră sub incidența Directivei (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și nici a Directivei (UE) 2015/1535 (TRIS), nu afectează piața unică, concurența sau mediul de afaceri și nu generează sarcini birocratice ori bugetare suplimentare. Cerința de previzibilitate a incriminării rămâne însă relevantă și prin prisma art. 7 CEDO.",
       "senatForm": {
-        "articleRef": "Art. I (Art. 206¹ alin. (1))",
-        "proposalContent": "„(1) Amenințarea (art. 206 C.pen.) ori lovirea sau alte violențe (art. 193 C.pen.) săvârșite împotriva personalului didactic de predare, didactic auxiliar ori de conducere aflat în exercitarea atribuțiilor de serviciu sau în legătură cu acestea se sancționează cu pedeapsa prevăzută de lege, ale cărei limite speciale se majorează cu o pătrime.”",
-        "argumentation": "Trimiterea expresă la art. 206 și 193 C.pen. asigură previzibilitatea normei penale (art. 1 alin. 5 Constituție). Includerea personalului didactic auxiliar și de conducere corelează textul cu Expunerea de motive (pct. 2.1) și elimină o discriminare nejustificată față de ceilalți angajați școlari expuși acelorași riscuri.",
-        "otherComments": "Se impune corectarea erorii de numerotare din text („Art. 206I” în „Art. 206¹”) și clarificarea în comisie dacă urmărirea penală rămâne la plângerea prealabilă a victimei sau se face din oficiu, respectiv corelarea cu art. 193 alin. (2¹) Cod penal și cu regimul măsurilor educative aplicabile elevilor minori."
+        "articleRef": "Art. I (art. 206^1 din Legea nr. 198/2023)",
+        "proposalContent": "Art. 206^1: (1) Faptele prevăzute la art. 193 și art. 206 din Codul penal, săvârșite împotriva personalului didactic de predare, didactic auxiliar sau de conducere în exercitarea ori în legătură cu atribuțiile de serviciu, se sancționează cu pedeapsa prevăzută de lege, cu limitele majorate cu o pătrime, dacă fapta nu constituie o infracțiune mai gravă.",
+        "argumentation": "Trimiterea expresă la art. 193 și 206 Cod penal și clauza de subsidiaritate evită suprapunerea cu ultrajul (art. 257 CP) pentru instructorii militari din art. 206. Includerea personalului didactic auxiliar și de conducere corelează textul cu expunerea de motive și asigură previzibilitatea legii penale (art. 1 alin. 5, art. 23 alin. 12 Constituție).",
+        "otherComments": "Ideal, agravanta ar trebui introdusă în Codul penal, pentru a proteja egal și profesorii universitari (Legea 199/2023, art. 16 Constituție) și a evita fragmentarea legii penale. Recomandăm și clarificarea regimului acțiunii penale (din oficiu vs. plângere prealabilă) și a corelării cu art. 193 alin. (2^1) Cod penal."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 57690,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Pedepse mai mari pentru cine amenință sau lovește un profesor",
-      "verdictShort": "Este o lege scurtă, cu un scop legitim, care nu aduce taxe, birocrație sau monopoluri. Are însă câteva imprecizii de redactare penală care pot slăbi exact protecția pe care și-o propune.",
-      "initiatorClaim": "Inițiatorii spun că agresiunile asupra profesorilor sunt pedepsite azi ca pentru orice persoană, deși afectează și serviciul public de educație. Ei vor o formă agravată, cu pedepse mărite cu o pătrime, ca semnal descurajant.",
-      "realityCheck": "Art. 206¹ majorează cu 1/4 limitele pedepsei pentru amenințare, lovire sau alte violențe comise asupra unui cadru didactic în legătură cu atribuțiile sale, oriunde și oricând s-ar produce fapta. Textul nu numește articolele din Codul penal vizate, nu spune dacă se mai cere plângerea prealabilă a victimei și nu acoperă explicit vătămarea corporală. Față de agresorii minori, care primesc de regulă măsuri educative, efectul practic va fi limitat; impactul real îl are asupra adulților, de exemplu părinții.",
-      "affectedGroups": [
-        "Sănătate & Educație",
-        "Justiție & Drepturi Civile"
-      ],
-      "keyFindings": [
-        "Art. 206¹ alin. (1) folosește formula «lovirea sau alte violențe», care este denumirea marginală a art. 193 C.pen. Interpretată strict, potrivit principiului legalității incriminării, formula poate exclude vătămarea corporală (art. 194). Rezultă un paradox: o palmă ar fi pedepsită agravat, iar o fractură, nu.",
-        "Faptele de bază prevăzute de art. 193 alin. (1) și art. 206 C.pen. se urmăresc la plângere prealabilă. Proiectul nu precizează dacă forma agravată rămâne condiționată de plângere și dacă împăcarea mai este posibilă. Spre comparație, ultrajul (art. 257 C.pen.) se urmărește din oficiu.",
-        "Noțiunea de «cadru didactic» nu este corelată cu categoriile din Legea 198/2023: personal didactic de predare, didactic auxiliar și de conducere. Nu este clar dacă sunt protejați directorii, învățătorii-educatori din grădinițe sau personalul auxiliar.",
-        "Majorarea cu 1/4 este mai mică decât cea de 1/3 prevăzută la ultraj (art. 257 C.pen.), care nu se aplică profesorilor, deoarece aceștia nu exercită autoritatea de stat. Gradarea este coerentă, dar dispersează reglementarea agravantelor în afara Codului penal.",
-        "Alin. (2), care extinde aplicarea indiferent de loc și oră, cu condiția legăturii cu atribuțiile, urmează logica ultrajului. Este o soluție rezonabilă și previzibilă."
-      ],
-      "blindSpotsCaught": "Norma penală este inserată într-o lege a educației, după art. 206, deși ține de materia Codului penal. Asta contravine principiului din Legea nr. 24/2000 potrivit căruia reglementările cu același obiect se grupează, de regulă, într-un singur act. Totodată, crește riscul ca practicienii să o ignore. Formula «pedeapsa prevăzută de lege pentru acea infracțiune» lasă la interpretare ce infracțiuni sunt incluse, iar regimul plângerii prealabile rămâne neclar. Merită verificat și dacă amplasarea după art. 206 se potrivește tematic cu capitolul din Legea 198/2023 în care se află acel articol.",
-      "constitutionalityNote": "Nu se observă o încălcare evidentă. Tratamentul penal diferențiat pentru o categorie profesională care prestează un serviciu public prioritar (art. 32 Constituție) are o justificare obiectivă și rezonabilă și nu încalcă art. 16. Reglementarea infracțiunilor și pedepselor ține de domeniul legii organice (art. 73 alin. (3) lit. h); formula de adoptare cu art. 76 alin. (1) este corectă. Punctul vulnerabil este previzibilitatea (art. 1 alin. (5) și art. 23 alin. (12)): neindicarea articolelor din Codul penal și tăcerea privind plângerea prealabilă pot genera practică neunitară. Ar fi vorba de un risc de RIL sau HP la ÎCCJ, mai degrabă decât de neconstituționalitate.",
-      "euLawNote": "Proiectul nu are incidență asupra dreptului UE. Nu reglementează accesul la o profesie, deci Directiva (UE) 2018/958 privind testul de proporționalitate nu se aplică. Nu reglementează servicii ale societății informaționale sau reguli tehnice, deci notificarea TRIS conform Directivei (UE) 2015/1535 nu este necesară. Nu afectează piața unică sau concurența. Dreptul penal material de acest tip rămâne competență națională.",
-      "senatForm": {
-        "articleRef": "Art. I, art. 206¹ alin. (1) Legea 198/2023",
-        "proposalContent": "(1) Faptele prevăzute la art. 193, 194 și 206 C. pen., săvârșite împotriva personalului didactic de predare, auxiliar sau de conducere, în exercitarea atribuțiilor de serviciu ori în legătură cu acestea, se pedepsesc cu pedeapsa prevăzută de lege, ale cărei limite speciale se majorează cu o pătrime. Acțiunea penală se pune în mișcare din oficiu.",
-        "argumentation": "Textul nu numește articolele vizate din Codul penal: «alte violențe» poate exclude vătămarea corporală (art. 194), deci fapta mai gravă n-ar fi agravată. Nu e clar dacă rămâne plângerea prealabilă (art. 193, 206) și cine e «cadru didactic». Precizarea asigură previzibilitatea cerută de art. 1 alin. (5) și art. 23 alin. (12) Constituție.",
-        "otherComments": "Norma ar fi mai coerent plasată în Codul penal, lângă art. 257 (ultraj), conform principiului unicității reglementării din Legea nr. 24/2000. De corelat cu majorarea de 1/3 de la ultraj. Efectul asupra agresorilor minori e redus (măsuri educative), deci sunt utile și măsuri preventive: mediere, consiliere."
-      },
-      "status": "ok"
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 145380,
+      "durationMs": 108515,
+      "sourceEndMarker": "SF-E0888B0E",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Pedepse mai mari pentru amenințarea sau lovirea profesorilor",
-      "verdictShort": "Protecția profesorilor este un obiectiv legitim, iar majorarea pedepselor cu 25% nu apare, în sine, vădit disproporționată. Textul necesită însă clarificări privind legătura agresiunii cu activitatea profesională și corelarea cu dreptul penal.",
-      "initiatorClaim": "Inițiatorii urmăresc descurajarea amenințărilor și agresiunilor împotriva cadrelor didactice și protejarea desfășurării procesului educațional. Ei susțin că protecția penală existentă este insuficientă.",
-      "realityCheck": "Articolul propus majorează cu o pătrime atât minimul, cât și maximul special al pedepselor aplicabile amenințării și lovirii sau altor violențe, fără să stabilească automat pedeapsa concretă. Protecția poate opera și în afara școlii sau programului, pentru fapte legate de atribuțiile profesionale. Norma nu extinde expres majorarea asupra infracțiunilor distincte de vătămare corporală ori omor și nu introduce o regulă generală de urmărire din oficiu.",
+      "plainTitle": "Pedepse mai mari pentru amenințarea și lovirea profesorilor",
+      "verdictShort": "Protejarea profesorilor împotriva agresiunilor legate de serviciu este justificată, iar majorarea pedepselor cu 25% nu apare vădit disproporționată. Proiectul necesită însă clarificări privind sfera protecției, raportul cu ultrajul și competența Camerei decizionale.",
+      "initiatorClaim": "Inițiatorii urmăresc descurajarea amenințărilor și agresiunilor împotriva profesorilor și protejarea desfășurării procesului educațional. Ei prezintă măsura ca pe o agravare a pedepselor existente, fără o infracțiune autonomă sau cheltuieli bugetare suplimentare.",
+      "realityCheck": "Art. I majorează cu o pătrime limitele speciale ale pedepselor pentru amenințare și lovire sau alte violențe împotriva cadrelor didactice, în condițiile prevăzute de text; nu majorează automat cu 25% pedeapsa concretă stabilită de judecător. Protecția poate opera și în afara școlii și a programului, dacă există legătura profesională cerută, fără schimbarea expresă a regulilor privind plângerea prealabilă ori a garanțiilor procesuale. Art. 206 existent, privind personalul din învățământul militar, rămâne nemodificat; introducerea normei generale imediat după acesta creează o problemă de amplasare și interpretare.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 206¹ alin. (1) folosește alternativa «în exercitarea atribuțiilor [...] ori în legătură cu exercitarea acestora», în timp ce alin. (2) cere legătura profesională. Trebuie precizat dacă un conflict exclusiv personal, produs în timpul serviciului, beneficiază de agravare; simpla coincidență temporală nu justifică aceeași protecție.",
-        "Art. 206¹ ar trebui să trimită expres la art. 193 și 206 din Codul penal și să clarifice categoriile protejate prin sintagma «cadru didactic». Trebuie corelat și cu eventualele situații de ultraj; calitatea de funcționar public în sens penal nu echivalează automat cu exercitarea autorității de stat cerute pentru ultraj.",
-        "Nu apar taxe, autorizații, raportări sau obligații administrative noi pentru cetățeni ori IMM-uri. Afirmația că impactul bugetar este nul nu este însă demonstrată prin estimări: aplicarea unor pedepse mai severe poate genera costuri judiciare și de executare indirecte."
+        "Art. I introduce o majorare a ambelor limite speciale ale pedepsei, nu o sancțiune fixă și nici o condamnare obligatorie la închisoare. Individualizarea și alternativele prevăzute de lege rămân aplicabile.",
+        "Art. 206¹ alin. (2) acoperă inclusiv agresiunile din afara școlii sau programului legate de atribuțiile profesionale. Nu transformă orice conflict privat al unui profesor într-o faptă agravată.",
+        "Enumerarea privește amenințarea și lovirea sau alte violențe. Vătămarea corporală și celelalte infracțiuni mai grave își păstrează regimul propriu; textul nu extinde expres majorarea asupra tuturor agresiunilor.",
+        "Art. 206¹ ar fi introdus în capitolul dedicat personalului didactic din învățământul militar, de apărare, ordine publică și securitate națională. Formularea generală și amplasarea specială trebuie corelate pentru a evita dispute asupra beneficiarilor.",
+        "Pentru cadrele didactice care exercită și funcții implicând autoritatea de stat trebuie clarificat raportul cu ultrajul. Simpla calitate de profesor nu justifică automat încadrarea unei agresiuni ca ultraj.",
+        "Fișa indică Senatul drept Cameră decizională, dar conținutul propus privește direct pedepsele. Competența constituțională trebuie verificată după materia efectiv reglementată, nu exclusiv după titlul legii completate.",
+        "Art. II prevede termenul constituțional obișnuit de intrare în vigoare, de trei zile de la publicare. Majorarea nu se aplică retroactiv faptelor anterioare; lipsa unor dispoziții tranzitorii nu înlătură regulile generale ale legii penale în timp."
       ],
-      "blindSpotsCaught": "Titlul educațional nu rezolvă singur competența Camerelor: conținutul penal impune examinarea art. 73 alin. (3) lit. h) și art. 75 din Constituție, inclusiv a mecanismelor de întoarcere pentru dispozițiile care țin de competența decizională a celeilalte Camere. De asemenea, proiectul păstrează regulile privind plângerea prealabilă în cazurile în care Codul penal o cere; majorarea pedepsei nu elimină această condiție.",
-      "constitutionalityNote": "Protecția diferențiată poate fi justificată obiectiv prin legătura agresiunii cu serviciul de educație și nu încalcă prin ea însăși egalitatea prevăzută de art. 16. În raport cu art. 1 alin. (5) și art. 23 alin. (12), trebuie armonizate cele două alineate și delimitată previzibil sfera beneficiarilor; acestea sunt vulnerabilități de redactare, nu dovezi suficiente ale neconstituționalității. Caracterul organic este adecvat conținutului penal, potrivit art. 73 alin. (3) lit. h) și art. 76 alin. (1). Intrarea în vigoare la trei zile respectă art. 78, iar agravarea nu poate retroactiva, conform art. 15 alin. (2).",
-      "euLawNote": "Pe textul furnizat, Directiva (UE) 2018/958 nu impune un test de proporționalitate: proiectul nu introduce restricții privind accesul la o profesie reglementată sau exercitarea acesteia, ci protecție penală pentru victime. Nu sunt reglementate produse, servicii ale societății informaționale ori sisteme AI, astfel că nu rezultă obligația notificării TRIS potrivit Directivei (UE) 2015/1535. Nu se identifică privilegii economice, bariere concurențiale sau restricții directe asupra pieței unice.",
+      "blindSpotsCaught": "Problema subtilă este dublă: o protecție prezentată ca generală este inserată într-un capitol sectorial, iar o intervenție asupra pedepselor este încadrată procedural ca o completare a legislației educației. În plus, expunerea de motive nu poate clarifica obligatoriu raportul dintre alternativa «în exercitarea atribuțiilor» din alin. (1) și condiția legăturii profesionale din alin. (2); această corelare trebuie făcută în norma penală.",
+      "constitutionalityNote": "Scopul protejării profesorilor poate justifica un tratament sancționator distinct, fără o încălcare evidentă a art. 16. Art. 1 alin. (5) și art. 23 alin. (12) cer însă delimitarea previzibilă a beneficiarilor, a legăturii cu serviciul și a raportului cu normele penale concurente. Reglementarea pedepselor aparține legii organice potrivit art. 73 alin. (3) lit. h), iar formula privind art. 76 alin. (1) este corespunzătoare, sub rezerva votului efectiv. Există un posibil risc procedural: pentru materia penală regula art. 75 este Senatul ca primă Cameră și Camera Deputaților ca decizională; încadrarea în materia organizării învățământului trebuie justificată prin conținut. Analiza nu constată definitiv neconstituționalitatea. Verificarea online a legislației și jurisprudenței actualizate nu a fost disponibilă.",
+      "euLawNote": "Proiectul nu introduce condiții de acces sau de exercitare a unei profesii reglementate, astfel încât testul specific Directivei (UE) 2018/958 nu apare incident. Nu reglementează produse, servicii digitale sau AI și nu rezultă o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535. Nu instituie avantaje concurențiale, taxe sau obligații administrative pentru IMM-uri ori cetățeni. Nu creează expres cheltuieli noi, dar afirmația inițiatorilor privind absența oricărui impact bugetar nu echivalează cu o evaluare demonstrată a eventualelor costuri judiciare sau penitenciare.",
       "senatForm": {
-        "articleRef": "Art. I – articolul 206¹ propus",
-        "proposalContent": "Art. 206¹ – (1) Limitele speciale ale pedepselor prevăzute la art. 193 și 206 din Codul penal se majorează cu o pătrime dacă fapta este săvârșită împotriva unui cadru didactic în legătură cu exercitarea atribuțiilor sale de serviciu, indiferent de loc sau moment. (2) Alin. (1) nu se aplică dacă fapta constituie ultraj.",
-        "argumentation": "Legătura cu atribuțiile profesionale trebuie cerută unitar, pentru a exclude conflictele exclusiv personale produse întâmplător în timpul serviciului. Trimiterile exprese identifică infracțiunile vizate, iar delimitarea față de ultraj previne suprapunerea protecțiilor penale pentru aceeași faptă.",
-        "otherComments": "Comisia de raport nu este încă stabilită potrivit datelor furnizate. Trebuie verificate competența Camerelor și definiția beneficiarilor. Analiza se bazează pe documentele reproduse; accesul online nu a funcționat, astfel că fișa parlamentară și legislația consolidată la zi nu au putut fi confirmate independent."
+        "articleRef": "Art. I – art. 206¹ propus",
+        "proposalContent": "Art. 206¹ – Pentru faptele prevăzute la art. 193 și 206 din Codul penal, comise împotriva unui cadru didactic din învățământul preuniversitar în legătură cu atribuțiile sale de serviciu, limitele speciale ale pedepsei se majorează cu o pătrime, indiferent de locul și momentul faptei. Norma nu se aplică faptelor care constituie ultraj.",
+        "argumentation": "Trimiterile exprese identifică infracțiunile vizate. Condiția unică a legăturii cu atribuțiile profesionale elimină necorelarea dintre alineate. Precizarea domeniului și delimitarea față de ultraj sporesc previzibilitatea normei penale și evită cumularea neclară a protecțiilor întemeiate pe aceeași calitate.",
+        "otherComments": "Se recomandă plasarea normei în capitolul general privind drepturile personalului didactic. Trebuie verificată competența Camerelor potrivit art. 75 din Constituție, deoarece intervenția privește pedepse. Comisia care întocmește raportul nu este încă stabilită în datele furnizate."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-17T08:56:10.602Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T12:28:35.270Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

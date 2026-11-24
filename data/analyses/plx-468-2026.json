@@ -1,102 +1,105 @@
 {
   "billId": "PL-x 468/2026",
   "slug": "plx-468-2026",
-  "updatedAt": "2026-10-29T00:31:17.179Z",
+  "version": "senat",
+  "updatedAt": "2026-11-24T12:39:22.152Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 873,
+    "ordinanceChars": 0,
+    "memoChars": 5686,
+    "memoSupplied": 5686,
+    "marker": "SF-6F07E717"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-468-2026.json",
+    "form": "senat",
+    "textHash": "6f07e717516a9f85",
+    "fetchedAt": "2026-11-19T11:20:06.102Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 7030,
+    "truncated": false,
+    "included": true,
+    "key": "c3eca4e5ccf63593"
+  },
   "consensus": {
-    "riskScore": 2.3,
+    "riskScore": 2,
     "riskLevel": "green",
-    "plainTitle": "Primăriile vor putea scuti de impozit vehiculele care mută stupii în pastoral",
-    "summaryTlDr": "Lege benignă și utilă pentru apicultori, dar timidă: nu scutește automat pe nimeni, ci doar le permite consiliilor locale să acorde scutirea sau reducerea. Punctele slabe sunt condiția «omologate în acest sens de RAR» și faptul că textul nu cere ca proprietarul să fie apicultor.",
-    "initiatorClaim": "Inițiatorii PSD susțin că vehiculele care mută stupii între vetre și zonele de cules sunt unelte agricole, la fel ca tractoarele, și cer un sprijin fiscal pentru apicultură. Ei invocă concurența importurilor extracomunitare, schimbările climatice și mortalitatea de peste 50% a albinelor din primăvara lui 2025.",
-    "realityCheck": "Textul Senatului nu acordă nicio scutire directă. Adaugă vehiculele de transport al stupilor pe lista din art. 469 alin. (2), pentru care consiliul local «poate hotărî» scutirea sau reducerea impozitului. Efectul depinde de fiecare primărie și de existența unei omologări RAR «în acest sens». Textul nu leagă beneficiul de calitatea de apicultor și nu prevede cum se verifică folosirea «exclusivă».",
+    "plainTitle": "Scutire opțională de impozit local pentru vehiculele de transport al stupilor",
+    "summaryTlDr": "Proiect tehnic și benign, cu risc scăzut, care permite consiliilor locale să scutească sau să reducă impozitul pentru vehiculele specializate în transportul stupilor. Nu acordă însă o scutire automată la nivel național și omite mențiunea expresă privind ajutorul de stat, prezentă la celelalte vehicule agricole.",
+    "initiatorClaim": "Inițiatorii (parlamentari PSD) susțin în expunerea de motive că sectorul apicol traversează o criză severă (concurență extracomunitară, schimbări climatice și pierderi de peste 50% în primăvara lui 2025) și că autovehiculele de pastoral au utilizare sezonieră strict agricolă, motiv pentru care necesită recunoaștere expresă și sprijin fiscal.",
+    "realityCheck": "În forma adoptată de Senat, articolul unic nu introduce o scutire obligatorie la nivel național (art. 469 alin. 1 din Codul fiscal), ci doar include aceste vehicule pe lista facilităților facultative pe care consiliile locale pot hotărî să le acorde sau nu (art. 469 alin. 2). Conform art. 469 alin. (3) în vigoare, facilitatea se aplică abia de la 1 ianuarie a anului fiscal următor adoptării hotărârii locale, doar cu documente justificative stabilite local și cu condiția plății la termen a impozitului din anul anterior.",
     "affectedGroups": [
       "Agricultură & Mediu",
+      "IMM & Antreprenori",
       "Contabili & Fiscalitate",
-      "Șoferi & Auto",
-      "IMM & Antreprenori"
+      "Șoferi & Auto"
     ],
     "senatForm": {
-      "articleRef": "Art. unic, art. 469 alin. (2) lit. f) Cod fiscal",
-      "proposalContent": "„f) mijloacele de transport, inclusiv remorcile și pavilioanele apicole, deținute de apicultori cu stupina înregistrată la autoritatea sanitar-veterinară, a căror destinație pentru transportul stupilor este înscrisă în cartea de identitate a vehiculului eliberată de Registrul Auto Român și care sunt folosite exclusiv în stupăritul pastoral.”",
-      "argumentation": "«Omologate în acest sens de RAR» trimite la o categorie de omologare care poate să nu existe ca atare. Propunerea leagă facilitatea de documente verificabile de primărie (cartea de identitate a vehiculului, înregistrarea stupinei), o rezervă apicultorilor, cum cere expunerea de motive, și folosește termenul «stupărit pastoral» din Legea nr. 383/2013.",
-      "otherComments": "Numerotarea trebuie verificată: fișa Camerei indică lit. e), iar textul Senatului introduce lit. f) după lit. e). Recomand ca legea să precizeze că facilitatea se acordă cu respectarea regulilor de minimis în agricultură (Reg. UE 1408/2013) și să fixeze data aplicării, având în vedere art. 4 din Codul fiscal."
+      "articleRef": "Articol unic (art. 469 alin. (2) lit. f))",
+      "proposalContent": "„f) mijloacele de transport specializate pentru transportul stupilor în pastoral, astfel cum sunt omologate în acest sens de Registrul Auto Român, folosite exclusiv pentru transportul stupilor în pastoral. În cazul scutirii sau reducerii acordate operatorilor economici se respectă prevederile legale privind ajutorul de stat.”",
+      "argumentation": "Spre deosebire de lit. a) din același alineat, textul Senatului omite regulile privind ajutorul de stat (art. 107 TFUE, de minimis agricol). Mențiunea expresă previne acordarea de facilități fiscale neconforme de către consiliile locale și protejează apicultorii (PFA, II, SRL) de riscul recuperării ulterioare a impozitului.",
+      "otherComments": "De clarificat în comisii dacă se dorește scutire opțională la decizia consiliilor locale (alin. 2) sau națională (alin. 1). De corectat fișa de prezentare (menționează lit. e), abrogată prin OG 6/2026, în loc de lit. f)) și de precizat în raport cum se dovedește «folosirea exclusivă» conform art. 469 alin. (3)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 53591,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 70176,
+      "sourceEndMarker": "SF-6F07E717",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Facilitate fiscală locală pentru autovehiculele apicole omologate RAR pentru stupărit pastoral",
-      "verdictShort": "O măsură fiscală benignă și țintită care sprijină apicultorii prin includerea autovehiculelor specializate pentru transportul stupilor în pastoral în categoria mijloacelor de transport eligibile pentru scutire/reducere de impozit local. Nu creează taxe noi sau poveri pentru cetățeni, însă aplicarea practică depinde de deținerea omologării speciale RAR și de decizia ori procedura autorităților locale.",
-      "initiatorClaim": "Inițiatorii urmăresc sprijinirea sectorului apicol, afectat de pierderi de producție și concurență extracomunitară, prin recunoașterea autovehiculelor de pastoral ca mijloace utilizate în activitatea agricolă și acordarea de facilități la impozitul pe mijloacele de transport.",
-      "realityCheck": "Legea completează art. 469 alin. (2) din Codul fiscal cu o nouă literă, lit. f), dedicată mijloacelor de transport specializate pentru stupi în pastoral. În practică, facilitatea nu se aplică oricărei autoutilitare sau camionete folosite de apicultori, ci doar vehiculelor omologate expres în acest sens de Registrul Auto Român (RAR) și folosite exclusiv pentru pastoral, în condițiile stabilite de consiliile locale potrivit art. 469 alin. (2).",
+      "plainTitle": "Scutire opțională de impozit local pentru vehiculele de transport al stupilor",
+      "verdictShort": "Proiect tehnic și benign, cu risc scăzut, care permite consiliilor locale să scutească sau să reducă impozitul pentru vehiculele specializate în transportul stupilor. Nu acordă însă o scutire automată la nivel național și omite mențiunea expresă privind ajutorul de stat, prezentă la celelalte vehicule agricole.",
+      "initiatorClaim": "Inițiatorii (parlamentari PSD) susțin în expunerea de motive că sectorul apicol traversează o criză severă (concurență extracomunitară, schimbări climatice și pierderi de peste 50% în primăvara lui 2025) și că autovehiculele de pastoral au utilizare sezonieră strict agricolă, motiv pentru care necesită recunoaștere expresă și sprijin fiscal.",
+      "realityCheck": "În forma adoptată de Senat, articolul unic nu introduce o scutire obligatorie la nivel național (art. 469 alin. 1 din Codul fiscal), ci doar include aceste vehicule pe lista facilităților facultative pe care consiliile locale pot hotărî să le acorde sau nu (art. 469 alin. 2). Conform art. 469 alin. (3) în vigoare, facilitatea se aplică abia de la 1 ianuarie a anului fiscal următor adoptării hotărârii locale, doar cu documente justificative stabilite local și cu condiția plății la termen a impozitului din anul anterior.",
       "affectedGroups": [
         "Agricultură & Mediu",
-        "Contabili & Fiscalitate",
-        "Șoferi & Auto",
-        "IMM & Antreprenori"
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate"
       ],
       "keyFindings": [
-        "Articol unic (Art. 469 alin. (2) lit. f) Cod fiscal): Introduce în sfera scutirilor/reducerilor de impozit acordate la nivel local mijloacele de transport specializate pentru transportul stupilor în pastoral.",
-        "Condiționare tehnică strictă: Beneficiul fiscal se aplică doar vehiculelor care dețin omologare specifică de la Registrul Auto Român (RAR), excluzând autoutilitarele obișnuite cu care micii apicultori își transportă sezonier stupii.",
-        "Condiția utilizării exclusive („folosite exclusiv pentru transportul stupilor în pastoral”) nu are o procedură de probare definită în text, lăsând la latitudinea direcțiilor fiscale locale documentele justificative cerute apicultorilor."
+        "Caracter opțional și inegalitate teritorială (Art. unic / art. 469 alin. 2 Cod fiscal): Scutirea sau reducerea depinde exclusiv de votul fiecărui consiliu local (sau CGMB), ceea ce poate genera tratamente fiscale diferite între apicultori din localități diferite.",
+        "Condiții cumulative restrictive: Beneficiază doar mijloacele de transport omologate expres de Registrul Auto Român (RAR) pentru transportul stupilor în pastoral și folosite «exclusiv» în acest scop, ceea ce poate crea dificultăți practice de verificare pentru organele fiscale locale.",
+        "Efect amânat și condiționalități birocratice (art. 469 alin. 3 în vigoare): Modificarea nu scutește impozitul pe anul în curs; contribuabilii trebuie să depună documentele stabilite prin hotărâre de consiliu local și să nu fi avut întârzieri la plata impozitului din anul anterior.",
+        "Clarificare față de art. 469 alin. (2) lit. a): Deși legea actuală permite deja consiliilor locale să scutească «mijloacele de transport agricole utilizate efectiv în domeniul agricol», introducerea lit. f) elimină ambiguitățile de interpretare pentru autovehiculele apicole specializate, după modificările aduse art. 469 prin Legea nr. 239/2025."
       ],
-      "blindSpotsCaught": "Proiectul a fost depus inițial ca modificare a Legii apiculturii nr. 383/2013 (fapt vizibil în finalul Expunerii de motive și în cererile de coinițiere), fiind rescris la Senat ca modificare a Codului fiscal pentru a respecta unicitatea reglementării fiscale. De asemenea, fișa Camerei Deputaților menționează eronat introducerea literei e), deși forma adoptată de Senat introduce litera f) (după litera e).",
-      "constitutionalityNote": "Proiectul este constituțional în ansamblu. Totuși, din perspectiva art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii), lipsa precizării modului în care contribuabilul dovedește „folosirea exclusivă” în pastoral (dincolo de omologarea RAR) poate genera practici neunitare între primării. Fiind o facilitate acordată la nivelul bugetelor locale (art. 469 alin. 2), nu încalcă art. 138 alin. (5) privind sursa de finanțare a bugetului de stat.",
-      "euLawNote": "Măsura este compatibilă cu dreptul UE. Nu intră sub incidența Directivei (UE) 2015/1535 (TRIS) și nici nu restrânge accesul la o profesie conform Directivei (UE) 2018/958. Pentru apicultorii organizați ca întreprinderi (PFA, II, SRL), scutirile fiscale locale trebuie corelate administrativ cu plafoanele de ajutor de minimis în sectorul agricol prevăzute de Regulamentul (UE) nr. 1408/2013.",
+      "blindSpotsCaught": "Trei detalii subtile ies în evidență: (1) Spre deosebire de art. 469 alin. (2) lit. a) în vigoare, care obligă explicit la respectarea regulilor privind ajutorul de stat pentru persoanele juridice, noua lit. f) omite complet această clauză, expunând primăriile și apicultorii organizați ca PFA/II/SRL la riscul unor facilități fiscale neconforme; (2) Proiectul a fost depus inițial ca modificare a Legii apiculturii nr. 383/2013 (cum reiese din finalul expunerii de motive și din cererile coinițiatorilor), dar Senatul l-a rescris ca modificare a Codului fiscal fără actualizarea expunerii de motive; (3) Fișa Camerei Deputaților indică eronat introducerea lit. e), deși lit. e) a fost abrogată prin OG nr. 6/2026, motiv pentru care Senatul a numerotat corect textul ca lit. f).",
+      "constitutionalityNote": "Proiectul nu ridică vicii majore de neconstituționalitate: respectă autonomia locală (art. 120 din Constituție), întrucât lasă decizia fiscală la latitudinea consiliilor locale și nu impune o diminuare obligatorie a bugetului de stat în sensul art. 138 alin. (5), deși lipsește o estimare a impactului asupra bugetelor locale. Sub aspectul clarității și previzibilității legii (art. 1 alin. 5), cerința ca vehiculul să fie «folosit exclusiv» pentru transportul stupilor nu are criterii legale de probă dincolo de omologarea RAR, fiind lăsată integral la discreția hotărârilor consiliilor locale (art. 469 alin. 3).",
+      "euLawNote": "Măsura nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează accesul la profesii) și nici a Directivei (UE) 2015/1535 (TRIS), fiind o normă pur fiscală, fără reglementări tehnice noi sau servicii digitale/AI. Este însă direct relevant regimul UE al ajutorului de stat (art. 107-108 TFUE și regulamentul de minimis în sectorul agricol): scutirea selectivă acordată operatorilor economici (SRL, II, PFA, cooperative apicole) constituie ajutor de stat/de minimis și trebuie încadrată într-o schemă conformă de către consiliile locale, chiar dacă textul lit. f) omite să reamintească această obligație.",
       "senatForm": {
-        "articleRef": "Articol unic - Art. 469 alin. (2) lit. f)",
-        "proposalContent": "„f) mijloacele de transport și remorcile specializate pentru transportul stupilor în pastoral, omologate în acest sens de Registrul Auto Român, deținute de apicultori persoane fizice sau juridice, dovada utilizării exclusive făcându-se prin mențiunea din cartea de identitate a vehiculului și înregistrarea stupinei.”",
-        "argumentation": "Sintagma „folosite exclusiv” fără indicarea modului de probare poate genera birocrație și interpretări neunitare la direcțiile de taxe locale. Clarificarea că dovada se face prin omologarea RAR din CIV și înregistrarea stupinei, alături de menționarea explicită a remorcilor apicole, asigură previzibilitatea normei.",
-        "otherComments": "Se recomandă și introducerea unui art. II care să prevadă intrarea în vigoare la 1 ianuarie 2027, în acord cu art. 4 alin. (1) din Codul fiscal, precum și corelarea fișei tehnice a Camerei Deputaților (care menționează eronat lit. e) cu forma adoptată de Senat (care introduce lit. f)."
-      }
+        "articleRef": "Articol unic (art. 469 alin. (2) lit. f))",
+        "proposalContent": "„f) mijloacele de transport specializate pentru transportul stupilor în pastoral, astfel cum sunt omologate în acest sens de Registrul Auto Român, folosite exclusiv pentru transportul stupilor în pastoral. În cazul scutirii sau reducerii acordate operatorilor economici se respectă prevederile legale privind ajutorul de stat.”",
+        "argumentation": "Spre deosebire de lit. a) din același alineat, textul Senatului omite regulile privind ajutorul de stat (art. 107 TFUE, de minimis agricol). Mențiunea expresă previne acordarea de facilități fiscale neconforme de către consiliile locale și protejează apicultorii (PFA, II, SRL) de riscul recuperării ulterioare a impozitului.",
+        "otherComments": "De clarificat în comisii dacă se dorește scutire opțională la decizia consiliilor locale (alin. 2) sau națională (alin. 1). De corectat fișa de prezentare (menționează lit. e), abrogată prin OG 6/2026, în loc de lit. f)) și de precizat în raport cum se dovedește «folosirea exclusivă» conform art. 469 alin. (3)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 164341,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Primăriile vor putea scuti de impozit vehiculele care mută stupii în pastoral",
-      "verdictShort": "Lege benignă și utilă pentru apicultori, dar timidă: nu scutește automat pe nimeni, ci doar le permite consiliilor locale să acorde scutirea sau reducerea. Punctele slabe sunt condiția «omologate în acest sens de RAR» și faptul că textul nu cere ca proprietarul să fie apicultor.",
-      "initiatorClaim": "Inițiatorii PSD susțin că vehiculele care mută stupii între vetre și zonele de cules sunt unelte agricole, la fel ca tractoarele, și cer un sprijin fiscal pentru apicultură. Ei invocă concurența importurilor extracomunitare, schimbările climatice și mortalitatea de peste 50% a albinelor din primăvara lui 2025.",
-      "realityCheck": "Textul Senatului nu acordă nicio scutire directă. Adaugă vehiculele de transport al stupilor pe lista din art. 469 alin. (2), pentru care consiliul local «poate hotărî» scutirea sau reducerea impozitului. Efectul depinde de fiecare primărie și de existența unei omologări RAR «în acest sens». Textul nu leagă beneficiul de calitatea de apicultor și nu prevede cum se verifică folosirea «exclusivă».",
-      "affectedGroups": [
-        "Agricultură & Mediu",
-        "Șoferi & Auto",
-        "IMM & Antreprenori"
-      ],
-      "keyFindings": [
-        "Articolul unic introduce lit. f) la art. 469 alin. (2) din Codul fiscal. Facilitatea e opțională și se acordă prin hotărâre de consiliu local, așa că apicultori din localități diferite pot plăti impozite diferite pentru același tip de vehicul.",
-        "Expunerea de motive și cererile de coinițiator poartă titlul «pentru completarea Legii apiculturii nr. 383/2013», dar forma adoptată de Senat modifică direct Codul fiscal. Este locul corect pentru o facilitate fiscală, însă promisiunea de «măsuri fiscale de sprijin» s-a redus la o simplă permisiune pentru primării.",
-        "Numerotarea este neconcordantă: fișa Camerei vorbește de lit. e), iar textul Senatului introduce lit. f) «după litera e)». Forma în vigoare a alin. (2) trebuie verificată înainte de votul final, ca să nu apară suprapuneri cu alte modificări.",
-        "Condiția «astfel cum sunt omologate în acest sens de Registrul Auto Român» presupune o categorie de omologare specifică. Dacă destinația nu apare uniform în cartea de identitate a vehiculului, facilitatea devine greu de aplicat. Pentru vehiculele mici, costul unei transformări sau omologări poate depăși impozitul economisit.",
-        "Beneficiul nu este rezervat apicultorilor. O firmă de transport care mută stupi contra cost ar putea cere aceeași scutire, deși expunerea de motive insistă că nu e vorba de transport rutier în sens comercial.",
-        "Expunerea vorbește de «reinstituirea» impozitului și cere procedură de urgență. Nu explică însă ce scutire a dispărut și nu estimează impactul asupra bugetelor locale, iar proiectul nu se dezbate în procedură de urgență."
-      ],
-      "blindSpotsCaught": "Art. 469 alin. (2) lit. a) permite deja facilități pentru «mijloacele de transport agricole utilizate efectiv în domeniul agricol». Noua literă e utilă doar ca precizare pentru primăriile care nu au considerat vehiculele de stupi «agricole». Legea nu stabilește o dată de aplicare, deci intră sub art. 4 din Codul fiscal (intrare în vigoare la cel puțin 6 luni de la publicare). Efectul real apare abia după o hotărâre de consiliu local. Pentru camioanele de peste 12 tone, Directiva 1999/62/CE (Eurovigneta) permite scutiri doar pentru vehicule care circulă ocazional pe drumurile publice și sunt folosite de persoane a căror ocupație principală nu este transportul de mărfuri. Textul nu preia această condiție.",
-      "constitutionalityNote": "Proiectul este compatibil cu Constituția. Art. 139 alin. (2) lasă consiliilor locale stabilirea impozitelor locale, în limitele legii, iar caracterul opțional al facilității respectă autonomia locală (art. 120). Tratamentul diferit față de alte vehicule are o justificare obiectivă, destinația agricolă, deci nu ridică probleme pe art. 16 și art. 56 alin. (2). Pe claritate și previzibilitate (art. 1 alin. 5), sintagmele «omologate în acest sens» și «exclusiv» nu au un mecanism de verificare, dar ambiguitatea afectează aplicarea, nu constituționalitatea. Art. 138 alin. (5) nu este incident, pentru că măsura nu creează cheltuieli bugetare, ci permite renunțarea la venituri locale.",
-      "euLawNote": "Directiva 2018/958 nu se aplică, pentru că proiectul nu reglementează o profesie. Directiva TRIS 2015/1535 nu e relevantă: nu sunt vizate servicii digitale, iar condiția de omologare trimite la reguli tehnice existente, fără să creeze specificații noi. Punctul sensibil este ajutorul de stat (art. 107 TFUE). O scutire acordată selectiv unui sector agricol din resurse locale trebuie încadrată, de regulă, ca ajutor de minimis în agricultură (Reg. UE 1408/2013, cu modificările ulterioare), iar primăria trebuie să verifice plafonul și cumulul; textul nu spune asta. Pentru vehiculele de cel puțin 12 tone, scutirea trebuie să respecte și condițiile din Directiva 1999/62/CE.",
-      "senatForm": {
-        "articleRef": "Art. unic, art. 469 alin. (2) lit. f) Cod fiscal",
-        "proposalContent": "„f) mijloacele de transport, inclusiv remorcile și pavilioanele apicole, deținute de apicultori cu stupina înregistrată la autoritatea sanitar-veterinară, a căror destinație pentru transportul stupilor este înscrisă în cartea de identitate a vehiculului eliberată de Registrul Auto Român și care sunt folosite exclusiv în stupăritul pastoral.”",
-        "argumentation": "«Omologate în acest sens de RAR» trimite la o categorie de omologare care poate să nu existe ca atare. Propunerea leagă facilitatea de documente verificabile de primărie (cartea de identitate a vehiculului, înregistrarea stupinei), o rezervă apicultorilor, cum cere expunerea de motive, și folosește termenul «stupărit pastoral» din Legea nr. 383/2013.",
-        "otherComments": "Numerotarea trebuie verificată: fișa Camerei indică lit. e), iar textul Senatului introduce lit. f) după lit. e). Recomand ca legea să precizeze că facilitatea se acordă cu respectarea regulilor de minimis în agricultură (Reg. UE 1408/2013) și să fixeze data aplicării, având în vedere art. 4 din Codul fiscal."
-      }
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 105583,
-      "riskScore": 3,
+      "durationMs": 84886,
+      "sourceEndMarker": "SF-6F07E717",
+      "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Primăriile pot reduce impozitul pentru vehiculele care transportă stupi",
-      "verdictShort": "Proiect util, cu risc redus: permite sprijinirea apiculturii prin facilități fiscale locale. Beneficiul rămâne însă facultativ, iar condițiile privind omologarea și utilizarea exclusivă trebuie clarificate.",
-      "initiatorClaim": "Inițiatorii urmăresc sprijinirea apicultorilor afectați de dificultăți economice și climatice, invocând utilizarea sezonieră a vehiculelor și contribuția albinelor la polenizare. Prezintă transportul stupilor ca operațiune indispensabilă activității agricole.",
-      "realityCheck": "Introducerea lit. f) în art. 469 alin. (2) permite consiliilor locale să acorde scutirea sau reducerea impozitului, fără să instituie o scutire națională automată. Eligibilitatea presupune cumulativ specializarea vehiculului, omologarea RAR pentru această destinație și utilizarea exclusivă pentru transportul stupilor în pastoral. Facilitatea rămâne supusă regulilor generale privind hotărârea locală și documentele justificative, fără o derogare care să garanteze aplicarea imediată în anul curent. [Regimul fiscal relevant](https://legislatie.just.ro/Public/FormaPrintabila/00000G3DAEV62KYQKMA1YZYMDVMOJRY6).",
+      "plainTitle": "Scutiri sau reduceri locale de impozit pentru transportul stupilor",
+      "verdictShort": "Proiectul permite sprijinirea fiscală a transportului apicol, fără să introducă taxe, sancțiuni sau exclusivități comerciale. Beneficiul depinde de hotărârea consiliului local și nu devine o scutire automată pentru toți apicultorii.",
+      "initiatorClaim": "Inițiatorii urmăresc recunoașterea expresă a rolului agricol al vehiculelor folosite pentru transportul stupilor și reducerea poverii fiscale asupra apicultorilor afectați de dificultăți economice și climatice.",
+      "realityCheck": "Articolul unic adaugă lit. f) la art. 469 alin. (2): autoritățile locale vor putea acorda scutirea sau reducerea impozitului pentru vehiculele omologate de RAR pentru transportul stupilor în pastoral și folosite exclusiv astfel. Actuala lit. a) permite deja facilități pentru mijloacele de transport agricole utilizate efectiv în agricultură; proiectul oferă un temei expres pentru această categorie, fără să declare vehiculele apicole agricole în toate reglementările. Condițiile existente din alin. (3), inclusiv documentele justificative, plata la termen a obligațiilor din anul anterior și aplicarea din anul următor hotărârii locale, rămân în vigoare.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
@@ -104,20 +107,44 @@
         "Agricultură & Mediu"
       ],
       "keyFindings": [
-        "Articolul unic nu introduce taxe, sancțiuni sau autorizații pentru practicarea apiculturii. Omologarea este o condiție pentru facilitatea fiscală; proiectul nu transformă toate vehiculele apicultorilor în mijloace de transport agricole.",
-        "Art. 469 alin. (2) lit. a) permite deja facilități pentru mijloacele de transport agricole utilizate efectiv în agricultură. Noua literă explicitează categoria apicolă, dar trebuie corelată cu lit. a), pentru a evita interpretări divergente privind vehiculele eligibile. Consiliul Legislativ semnalase suprapunerea în analiza formei inițiale. [Avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L268LG.PDF).",
-        "Condiția folosirii exclusive poate exclude vehiculele cu utilizare mixtă și poate genera dispute privind deplasările fără stupi, la service sau la inspecții. Pentru IMM-uri pot apărea costuri de omologare, dacă aceasta lipsește, și de documentare a utilizării; textul nu stabilește costurile sau dovezile necesare.",
-        "Veniturile bugetelor locale scad numai dacă autoritățile acordă efectiv facilitatea; amploarea nu poate fi calculată din documentele furnizate. Consiliul Fiscal a constatat, pentru forma inițială, neîndeplinirea cerințelor art. 21 din Legea nr. 69/2010 privind diminuarea veniturilor și a solicitat documentele financiare necesare. Această observație trebuie reevaluată pentru soluția facultativă adoptată de Senat. [Opinia Consiliului Fiscal](https://www.senat.ro/legis/PDF/2026/26L268CF.PDF)."
+        "Art. 469 alin. (2) păstrează caracterul facultativ al facilității: consiliul local poate acorda o scutire, o reducere sau poate să nu instituie beneficiul.",
+        "Noua lit. f) impune cumulativ omologarea RAR pentru transportul stupilor în pastoral și utilizarea exclusivă în acest scop. Simplul transport ocazional al stupilor cu un vehicul obișnuit nu este suficient.",
+        "Art. 469 alin. (3), nemodificat, reglementează deja documentele justificative și calendarul acordării facilității. Proiectul nu acordă restituiri pentru impozitele achitate anterior și nu conține dispoziții tranzitorii proprii.",
+        "Impactul potențial este diminuarea veniturilor bugetelor locale care acordă facilitatea. Nu există în documentele furnizate o estimare a numărului de vehicule sau a pierderii de venituri; beneficiarii trebuie să dovedească îndeplinirea condițiilor.",
+        "Mențiunea despre ajutorul de stat din actuala lit. a) nu este reprodusă la noua lit. f). Normele UE rămân aplicabile, dar o trimitere expresă ar reduce riscul acordării neconforme a facilității."
       ],
-      "blindSpotsCaught": "Fișa Camerei menționează lit. e), dar textul normativ analizat introduce lit. f): amendamentul trebuie raportat la acesta din urmă. Titlul privind Legea apiculturii din expunere reflectă forma inițială, ulterior modificată în Senat; avizul negativ inițial nu demonstrează automat neconstituționalitatea formei actuale. Urgența a fost aprobată la Senat, în timp ce Camera indică procedură fără urgență. Termenul de amendamente din 17.06.2026 este depășit la data analizei. [Parcursul la Senat](https://www.senat.ro/legis/lista.aspx?an_cls=2026&nr_cls=L268), [fișa Camerei](https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23069).",
-      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă. Prin prisma art. 1 alin. (5), trebuie clarificate dovada omologării și sensul utilizării exclusive; lipsa acestor precizări reprezintă un risc de aplicare neunitară, nu dovada automată a invalidității legii. Diferențierea fiscală poate avea o justificare obiectivă agricolă și ecologică, compatibilă cu art. 16 și art. 56 alin. (2), dacă eligibilitatea este aplicată coerent. Art. 23 alin. (12) privește legalitatea pedepselor și nu este incident direct. Decizia fiscală locală este compatibilă, în principiu, cu art. 139 alin. (2); art. 138 alin. (5), referitor la cheltuieli, nu trebuie aplicat automat unei reduceri de venituri. [Constituția — drepturi și îndatoriri](https://www.cdep.ro/ords/pls/dic/site2015.page?den=act2_1&par1=2), [finanțe publice](https://www.cdep.ro/ords/pls/dic/site2015.page?den=act2_1&par1=4).",
-      "euLawNote": "Directiva 2018/958 nu impune aici testul special pentru profesii reglementate: proiectul nu introduce calificări profesionale sau activități rezervate. [Domeniul directivei](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng). Facilitatea sectorială poate constitui ajutor de stat dacă îndeplinește condițiile art. 107 alin. (1) TFUE; acordarea trebuie încadrată legal, inclusiv, după caz, în regimul de minimis agricol, fără exceptarea automată a persoanelor fizice care desfășoară activitate economică. [Regulamentul 2024/3118](https://eur-lex.europa.eu/eli/reg/2024/3118/oj/eng). Proiectul nu reglementează servicii digitale sau AI. Totuși, TRIS privește și produse: trebuie verificat dacă legătura dintre avantajul fiscal și omologarea tehnică intră în art. 1 alin. (1) lit. f) pct. (iii); notificarea nu poate fi declarată obligatorie doar din extras. Referirea exclusivă la RAR trebuie corelată cu recunoașterea omologărilor UE aplicabile. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535).",
+      "blindSpotsCaught": "Forma adoptată introduce lit. f), deși fișa descrie introducerea lit. e); evaluarea urmărește textul adoptat. Faptul că lit. e) este abrogată nu împiedică, prin el însuși, introducerea lit. f) și nu reactivează litera abrogată. Titlul despre Legea apiculturii și cererea de urgență din expunere nu schimbă obiectul normativ sau procedura oficială. Condiția utilizării exclusive poate necesita clarificări practice privind dovada folosinței și deplasările auxiliare, fără ca extrasul să demonstreze o neconstituționalitate.",
+      "constitutionalityNote": "Nu rezultă o încălcare constituțională evidentă. Sprijinirea unei categorii de vehicule prin criterii legate de utilizarea agricolă are o justificare obiectivă, relevantă pentru art. 16 și art. 56 alin. (2). Art. 1 alin. (5) cere ca omologarea și utilizarea exclusivă să poată fi verificate previzibil; documentele locale trebuie să respecte condițiile legii. Art. 23 alin. (12) nu este direct incident, deoarece proiectul nu instituie pedepse. Efectul asupra veniturilor locale impune verificarea solicitării informării Guvernului potrivit art. 111 alin. (1), dar documentele furnizate nu permit constatarea unei omisiuni. Art. 138 alin. (5), referitor la sursa cheltuielilor bugetare, nu este automat încălcat prin introducerea unei facilități fiscale.",
+      "euLawNote": "Facilitatea poate constitui ajutor de stat dacă avantajează selectiv întreprinderi și sunt îndeplinite condițiile art. 107 alin. (1) TFUE; trebuie stabilit temeiul aplicabil, inclusiv eventuala încadrare într-un regim de minimis agricol sau într-o exceptare. Aceste reguli pot privi și persoane fizice care desfășoară activitate economică. Directiva (UE) 2018/958 nu este incidentă pe textul analizat, care nu reglementează accesul la o profesie reglementată sau exercitarea acesteia. Directiva (UE) 2015/1535 acoperă și reglementări tehnice pentru produse, nu doar servicii digitale; simpla referire la omologarea RAR existentă nu demonstrează o obligație de notificare TRIS. Proiectul nu stabilește specificații tehnice noi ori condiții de origine națională a vehiculelor.",
       "senatForm": {
         "articleRef": "Articol unic – art. 469 alin. (2) lit. f)",
-        "proposalContent": "f) mijloacele de transport specializate pentru transportul stupilor în pastoral, cu această destinație înscrisă în cartea de identitate a vehiculului pe baza unei omologări recunoscute potrivit legii, utilizate exclusiv în acest scop; deplasările fără încărcătură aferente transportului și cele pentru întreținere, reparații ori inspecții tehnice nu afectează eligibilitatea;",
-        "argumentation": "Textul păstrează sprijinul fiscal facultativ și previne folosirea facilității pentru transporturi comerciale generale. Identifică documentul justificativ, evită solicitarea unei noi omologări când cea existentă este recunoscută legal și clarifică deplasările tehnice indispensabile, reducând interpretările diferite între primării.",
-        "otherComments": "Solicit evaluarea pierderilor de venituri locale și precizarea regimului ajutoarelor de stat/de minimis pentru beneficiarii economici. Propunerea este o petiție către comisiile Camerei Deputaților; un deputat o poate prelua ca amendament. Termenul de 17.06.2026 este depășit; e-mailul nu conferă automat calitatea de amendament parlamentar."
-      }
+        "proposalContent": "f) mijloacele de transport specializate pentru transportul stupilor în pastoral, astfel cum sunt omologate în acest sens de Registrul Auto Român, folosite exclusiv pentru transportul stupilor în pastoral. Facilitățile se acordă cu respectarea normelor Uniunii Europene privind ajutoarele de stat.",
+        "argumentation": "Trimiterea expresă la normele privind ajutoarele de stat asigură aplicarea coerentă a facilității. Mențiunea existentă la lit. a) nu acoperă textual noua literă, iar beneficiarii pot desfășura activitate economică indiferent de forma juridică. Amendamentul păstrează decizia consiliului local.",
+        "otherComments": "Analiza se bazează pe documentele furnizate; verificarea online nu a fost disponibilă. Comisiile ar trebui să verifice impactul asupra veniturilor locale, informarea Guvernului și existența unei categorii RAR identificabile pentru vehiculele vizate."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T00:31:17.179Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T12:39:22.152Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

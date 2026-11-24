@@ -2,81 +2,100 @@
   "billId": "PL-x 308/2023",
   "slug": "plx-308-2023",
   "version": "senat",
-  "updatedAt": "2026-11-19T12:19:07.103Z",
+  "updatedAt": "2026-11-24T15:23:00.306Z",
   "coverage": {
     "method": "whole-text-v1",
+    "form": "senat",
     "billChars": 914,
     "ordinanceChars": 27081,
     "memoChars": 32249,
     "memoSupplied": 32249,
-    "marker": "SF-CAD1B3B2",
-    "form": "senat"
+    "marker": "SF-CAD1B3B2"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-308-2023.json",
+    "form": "senat",
+    "textHash": "cad1b3b2f1094d1e",
+    "fetchedAt": "2026-11-19T10:49:46.553Z",
+    "acts": 2,
+    "actsFound": 2,
+    "actsRepealed": 0,
+    "articlesFound": 11,
+    "articlesShown": 11,
+    "articleCap": 4110,
+    "articlesCut": 6,
+    "chars": 39831,
+    "truncated": false,
+    "included": true,
+    "key": "5056e0f901ea7a1a"
   },
   "consensus": {
-    "riskScore": 6,
+    "riskScore": 5,
     "riskLevel": "yellow",
-    "plainTitle": "Eșalonarea datoriilor la ANAF devine mai grea și mai scumpă",
-    "summaryTlDr": "Este o înăsprire fiscală legitimă ca scop, cu efect real asupra IMM-urilor și persoanelor fizice cu datorii mici. Problema principală este aplicarea noii dobânzi duble eșalonărilor simplificate deja în curs, prin refacerea unilaterală a graficului. Textul are și o lacună de redactare chiar la pragul de 50%.",
-    "initiatorClaim": "Guvernul spune că vrea să oprească folosirea abuzivă a eșalonărilor pentru amânarea plăților, să crească gradul de colectare și să respecte principiul creditorului privat prudent. Accizele, impozitele reținute la sursă și taxele din jocuri de noroc nu ar trebui eșalonate.",
-    "realityCheck": "OUG 20/2023 condiționează eșalonarea pe 5 ani de o garanție de cel puțin 50% din datoria restantă; fără ea, eșalonarea se acordă pe cel mult 6 luni. Abrogă scutirea de garanție pentru datoriile mici (5.000/10.000/20.000 lei, art. 193 alin. 2 și 20), deci și o persoană fizică fără bunuri cu o datorie mică primește doar 6 luni. Dobânda la eșalonarea simplificată se dublează (0,01% → 0,02%/zi), inclusiv pentru eșalonările în curs (art. III alin. 6), iar cererile de modificare sau menținere scad de la două la una și nu mai pot prelungi perioada.",
+    "plainTitle": "Eșalonarea datoriilor la ANAF devine mai scumpă și mai strictă: garanții de minimum 50%, fără accize, dobândă dublă la varianta simplificată",
+    "summaryTlDr": "Legea confirmă o ordonanță aplicată deja din aprilie 2023. Ordonanța strânge serios robinetul eșalonărilor la plată: e justificată în parte de abuzuri reale, dar lovește disproporționat micii datornici și a dublat dobânda chiar și pentru eșalonările aflate deja în derulare.",
+    "initiatorClaim": "Guvernul spune că unii debitori folosesc excesiv eșalonările ca să amâne plata la buget, acumulând noi arierate. De aceea statul trebuie să se comporte ca un «creditor privat prudent» și să excludă din eșalonare obligațiile cu regim special: accize, impozite reținute la sursă și taxe la jocurile de noroc.",
+    "realityCheck": "Eșalonarea clasică pe 5 ani se acordă doar dacă debitorul constituie garanții de cel puțin 50% din restanțe; altfel primește maximum 6 luni. Dispare plafonul sub care nu se cereau garanții (5.000/10.000/20.000 lei), iar dobânda la eșalonarea simplificată se dublează la 0,02%/zi (7,3%/an), inclusiv pentru eșalonările în curs, al căror grafic se reface (art. III alin. 6). Debitorul mai poate cere o singură modificare sau menținere pe an, nu două, iar cererile depuse în 2023 înainte de ordonanță se socotesc în noua limită.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
-      "Angajați & HR",
-      "Toți cetățenii"
+      "Toți cetățenii",
+      "Angajați & HR"
     ],
     "senatForm": {
-      "articleRef": "Art. III alin. (6) lit. a) din OUG 20/2023",
-      "proposalContent": "Se elimină lit. a) a alin. (6) al art. III. Pentru eșalonările în formă simplificată aflate în derulare la intrarea în vigoare a OUG nr. 20/2023, dobânda de 0,01%/zi din decizia de eșalonare se menține până la finalizare, cu excepția modificărilor cerute ulterior de debitor.",
-      "argumentation": "Debitorii au acceptat eșalonarea pe baza unei dobânzi de 3,65%/an. Dublarea ei pe parcurs, cu refacerea unilaterală a graficului, încalcă securitatea juridică și încrederea legitimă (art. 1 alin. 5 din Constituție) și pune în pericol IMM-urile care și-au planificat ratele. Impactul bugetar este mic, pentru că eșalonarea simplificată durează max. 12 luni.",
-      "otherComments": "Corelați art. 186 alin. (4) lit. b)-c) CPF: o garanție de exact 50% nu e acoperită (b: «mai mică de 50%», c: «mai mare de 50%»). Propunem la lit. c): «de cel puțin 50%». Reanalizați și abrogarea art. 193 alin. (2): persoanele fizice fără bunuri își pot eșalona datoriile mici doar pe 6 luni."
+      "articleRef": "Art. I pct. 4 și pct. 6 din OUG 20/2023",
+      "proposalContent": "1) Pct. 4, art. 186 alin. (4) lit. c): «de cel puțin 50%» în loc de «mai mare de 50%». 2) Se elimină pct. 6, iar art. 193 alin. (2) prevede: nu se constituie garanții pentru obligații eșalonate de până la 5.000 lei (persoane fizice), 10.000 lei (asocieri) sau 20.000 lei (persoane juridice), eșalonarea fiind de cel mult 12 luni.",
+      "argumentation": "Textul actual lasă neacoperită situația garanției de exact 50%: art. 184 alin. (1) o tratează ca 5 ani, art. 186 alin. (4) nu o menționează. Eliminarea plafonului obligă o persoană fizică cu o restanță de câteva sute de lei să constituie garanții sau să plătească în 6 luni, cost disproporționat față de risc; limitarea la 12 luni protejează bugetul.",
+      "otherComments": "OUG 20/2023 e în vigoare din 6.04.2023; între timp Legea 239/2025 a rescris art. 200. Legea de aprobare trebuie corelată cu forma actuală a Codului, ca să nu reintroducă texte depășite. Fișa financiară (Secțiunea 4) e goală, iar testul IMM nu e anexat: comisia ar trebui să ceară ANAF date despre efectul măsurilor după 3 ani de aplicare."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 39530,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 77068,
       "sourceEndMarker": "SF-CAD1B3B2",
-      "riskScore": 7,
-      "riskLevel": "red",
-      "plainTitle": "Înăsprirea eșalonărilor la ANAF și dublarea dobânzii, aplicată și retroactiv",
-      "verdictShort": "OUG 20/2023 elimină scutirea de garanții pentru datorii mici, scoate stopajul la sursă din eșalonarea simplificată și dublează dobânda de la 3,65% la 7,3% pe an. Cea mai gravă problemă este aplicarea dobânzii majorate și asupra eșalonărilor deja aflate în derulare, încălcând previzibilitatea fiscală.",
-      "initiatorClaim": "Guvernul și ANAF susțin că modificările previn acumularea de arierate, opresc folosirea abuzivă a eșalonărilor în lanț și aliniază statul la comportamentul unui creditor privat prudent.",
-      "realityCheck": "Pe lângă limitarea rezonabilă a prelungirilor succesive, ordonanța lovește disproporționat IMM-urile cu probleme temporare de lichiditate prin eliminarea plafonului fără garanții și excluderea contribuțiilor salariale (stopaj la sursă) din eșalonarea simplificată. În plus, Art. III alin. (6) obligă ANAF să refacă unilateral graficele eșalonărilor simplificate deja aprobate și în derulare pentru a aplica dobânda dublată de 0,02%/zi.",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Eșalonări fiscale mai scumpe și mai greu de obținut pentru firme și persoane fizice",
+      "verdictShort": "Deși combate legitim abuzurile prin eșalonări repetate și permite eșalonarea datoriilor din fonduri europene, proiectul aprobă o ordonanță care dublează dobânda inclusiv pe graficele deja în derulare și taie scutirile de garanții pentru micii debitori.",
+      "initiatorClaim": "Guvernul susține că vrea să prevină acumularea de arierate, să oprească firmele care abuzează de eșalonări pentru a bloca executarea silită și să alinieze ANAF la principiul creditorului privat prudent.",
+      "realityCheck": "Legea înăsprește drastic condițiile de eșalonare (dublează dobânda simplificată la 7,3%/an, elimină scutirea de garanții pentru datorii mici de 5.000–20.000 lei, exclude stopajul la sursă și accizele și impune un prag de 50% garanții pentru eșalonări peste 6 luni). Mai grav, dispozițiile tranzitorii aplică dobânda dublă unilateral și eșalonărilor simplificate aflate deja în derulare, fără studiu de impact financiar sau test IMM finalizat.",
       "affectedGroups": [
         "IMM & Antreprenori",
-        "Contabili & Fiscalitate"
+        "Contabili & Fiscalitate",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 20 și Art. III alin. (6): Dobânda la eșalonarea simplificată se dublează de la 0,01%/zi (3,65%/an) la 0,02%/zi (7,3%/an) și se aplică inclusiv eșalonărilor aflate deja în derulare și cererilor depuse anterior și nesoluționate, ANAF refăcând graficele în 15 zile lucrătoare.",
-        "Art. I pct. 6 și pct. 1: Se abrogă art. 193 alin. (2) (plafonul sub care nu se cereau garanții: 5.000 lei PF, 10.000 lei asocieri, 20.000 lei PJ); debitorii fără bunuri sau cu garanții sub 50% primesc eșalonare clasică de maximum 6 luni și nu mai beneficiază de anularea penalităților de întârziere (art. 186 alin. 4).",
-        "Art. I pct. 16 și 17: Sunt excluse din eșalonarea simplificată accizele, taxele pentru jocuri de noroc și impozitele/contribuțiile cu reținere la sursă (salarii, dividende etc.), acestea din urmă trebuind achitate integral în 60 de zile de la comunicarea deciziei ca o condiție de menținere a eșalonării (art. 209^4 alin. 1 lit. q).",
-        "Art. I pct. 11, 14, 18, 21 și Art. II: Se reduce de la două la una pe an (sau pe durata valabilității la cea simplificată) posibilitatea de a cere modificarea sau menținerea eșalonării/restructurării, fiind eliminată posibilitatea prelungirii duratei de eșalonare (abrogarea art. 195 alin. 5 și art. 209^5 alin. 5) și cumulul între eșalonarea clasică și cea simplificată (pct. 22).",
-        "Art. I pct. 2 și 15: Ca măsură pozitivă, obligațiile din fonduri europene și fondurile publice naționale aferente nu mai sunt excluse de la eșalonarea clasică și simplificată (rămânând excluse doar ajutoarele de stat și de minimis de recuperat)."
+        "Art. I pct. 20 și Art. III alin. (6): Dublează dobânda la eșalonarea simplificată de la 0,01%/zi (3,65%/an) la 0,02%/zi (7,3%/an) și obligă ANAF să refacă unilateral graficele în 15 zile lucrătoare inclusiv pentru eșalonările aflate deja în derulare și cererile nesoluționate.",
+        "Art. I pct. 1, 4, 6 și 9 (art. 184, 186 și 193 Cod proc. fiscală): Elimină plafoanele sub care nu se cereau garanții (5.000 lei persoane fizice, 10.000 lei asocieri, 20.000 lei firme) și reduce durata eșalonării clasice de la 5 ani la cel mult 6 luni dacă garanțiile constituite sunt sub 50% din datoria restantă (fără amânarea/anularea penalităților).",
+        "Art. I pct. 3, 16 și 17 (art. 184 alin. 6, art. 209^1 alin. 6 și art. 209^4): Exclude accizele din ambele tipuri de eșalonare, iar din eșalonarea simplificată elimină și taxele pe jocuri de noroc și impozitele/contribuțiile cu reținere la sursă (salarii, CAS, CASS), cerând plata acestora în 30, respectiv 60 de zile pentru menținerea eșalonării.",
+        "Art. I pct. 11–14, 18–19, 21–22 și Art. II (OG 6/2019): Reduce de la două la una pe an (sau pe durata eșalonării simplificate) cererile de modificare/menținere, elimină prelungirea perioadei la modificare și interzice cumulul eșalonării clasice cu cea simplificată.",
+        "Efect pozitiv punctual – Art. I pct. 2 și 15: Scoate datoriile reprezentând fonduri europene și fonduri naționale aferente din lista excluderilor, permițând eșalonarea acestora (cu dobânzile prevăzute de OUG nr. 66/2011)."
       ],
-      "blindSpotsCaught": "Art. III alin. (6) lit. a) și c) modifică în defavoarea contribuabilului acte administrative individuale deja emise sau cereri depuse sub vechea lege, penalizând inclusiv debitorii ale căror cereri au rămas nesoluționate la ANAF. De asemenea, în forma extrasă din document (12 din 13 pagini), lipsește finalul Art. IV alin. (3), fără a afecta însă înțelegerea mecanismului de fond.",
-      "constitutionalityNote": "Art. III alin. (6) ridică serioase riscuri de neconstituționalitate raportat la art. 15 alin. (2) (neretroactivitatea legii) și art. 1 alin. (5) (securitatea juridică și încrederea legitimă), deoarece majorează unilateral dobânda pentru eșalonări simplificate aprobate anterior. Totodată, invocarea art. 115 alin. (4) pentru reglementarea prin OUG a unei restrângeri severe a facilităților fiscale este discutabilă în lipsa unei situații extraordinare demonstrate obiectiv (Expunerea de motive arată chiar o scădere a arieratelor din accize în 2022-2023).",
-      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2015/1535 (TRIS) și nici a Directivei (UE) 2018/958 privind testul de proporționalitate pentru profesii reglementate. În materia ajutoarelor de stat UE, modificarea art. 184 alin. (6) lit. e) și art. 209^1 alin. (6) lit. f) păstrează corect interdicția de eșalonare a ajutoarelor de stat/de minimis de recuperat, permițând totodată eșalonarea creanțelor din fonduri europene cu dobânda specifică din OUG nr. 66/2011.",
+      "blindSpotsCaught": "Trei chichițe ascunse în text: (1) Lacună de redactare la art. 186 alin. (4) lit. b) și c) — legea reglementează garanțiile „mai mici de 50%” (6 luni) și „mai mari de 50%” (5 ani), dar omite situația exact egală cu 50%; (2) Discriminare arbitrară în dispozițiile tranzitorii (art. III alin. 2–5 și art. IV alin. 2–3) — cine avea o cerere aprobată înainte de 6 aprilie 2023 mai primea încă una în 2023, dar cine avea cererea depusă și nesoluționată de ANAF la acea dată își pierdea dreptul la a doua cerere; (3) În Expunerea de Motive, tabelul impactului bugetar este complet gol, la secțiunea 3.5 scrie „Se elaborează testul IMM”, iar cifrele citate chiar de Guvern arată că arieratele din accize erau deja în scădere (de la 12,2 mld. lei în 2021 la 7,17 mld. lei în feb. 2023).",
+      "constitutionalityNote": "Probleme serioase sub aspectul art. 1 alin. (5) (securitatea juridică, previzibilitatea și așteptările legitime) prin majorarea unilaterală a dobânzii la graficele de eșalonare aflate deja în derulare (art. III alin. 6) și prin omisiunea pragului exact de 50% (art. 186 alin. 4). Dispozițiile tranzitorii de la art. III alin. (3)/(5) și art. IV alin. (3) ridică probleme de egalitate în fața legii (art. 16 alin. 1), făcând dreptul contribuabilului să depindă aleatoriu de celeritatea soluționării cererii de către ANAF. Totodată, urgența invocată în temeiul art. 115 alin. (4) este insuficient fundamentată, fără cifre de impact bugetar.",
+      "euLawNote": "Directiva (UE) 2015/1535 (TRIS) și Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) nu sunt incidente, fiind norme de procedură fiscală generală. În materia ajutoarelor de stat (art. 107 TFUE), menținerea interdicției de eșalonare a ajutoarelor de stat/de minimis de recuperat și consolidarea garanțiilor respectă principiul creditorului privat prudent. Includerea creanțelor din fonduri europene în eșalonare (cu dobânda din OUG 66/2011) trebuie aplicată cu respectarea strictă a regulamentelor UE privind recuperarea neregulilor și protecția intereselor financiare ale Uniunii.",
       "senatForm": {
         "articleRef": "Art. III alin. (6) din OUG nr. 20/2023",
-        "proposalContent": "La Art. III, alineatul (6) se abrogă, iar dobânda prevăzută la art. I pct. 20 se aplică exclusiv cererilor de eșalonare la plată în formă simplificată depuse după data intrării în vigoare a prezentei ordonanțe de urgență.",
-        "argumentation": "Aplicarea dobânzii dublate (7,3%/an față de 3,65%/an) asupra eșalonărilor deja aprobate și aflate în derulare, precum și asupra cererilor depuse anterior, încalcă principiul neretroactivității (art. 15 alin. 2 Constituție) și securitatea juridică (art. 1 alin. 5), destabilizând fluxurile financiare ale IMM-urilor.",
-        "otherComments": "Propunem și menținerea plafonului de scutire de garanții de la art. 193 alin. (2) din Codul de procedură fiscală (abrogat prin art. I pct. 6), pentru ca firmele mici fără active imobiliare să poată accesa eșalonarea pe termen mai lung de 6 luni."
+        "proposalContent": "Se propune abrogarea art. III alin. (6) din OUG nr. 20/2023 prin legea de aprobare, astfel încât dublarea dobânzii (art. 209^7 alin. 1 Cod proc. fiscală) să se aplice doar cererilor noi depuse după intrarea în vigoare a ordonanței, păstrând dobânda de 0,01%/zi și graficele inițiale pentru eșalonările în derulare.",
+        "argumentation": "Dublarea dobânzii de la 3,65% la 7,3%/an și refacerea unilaterală a graficelor pentru eșalonările aflate în derulare încalcă securitatea juridică și previzibilitatea legii (art. 1 alin. 5 Constituție). Contribuabilii și-au calibrat lichiditățile pe condițiile aprobate inițial; scumpirea bruscă crește riscul de blocaj financiar.",
+        "otherComments": "Solicităm comisiei și: 1) corectarea lacunei de la art. 186 alin. (4) lit. c) din Codul de procedură fiscală („cel puțin 50%” în loc de „mai mare de 50%”); 2) eliminarea discriminării de la art. III alin. (3) și (5) privind cererile nesoluționate; 3) menținerea plafoanelor fără garanții pentru datoriile mici (art. 193 alin. 2)."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 48098,
+      "durationMs": 68841,
       "sourceEndMarker": "SF-CAD1B3B2",
-      "riskScore": 5,
+      "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Eșalonarea datoriilor la ANAF devine mai grea și mai scumpă",
-      "verdictShort": "Este o înăsprire fiscală legitimă ca scop, cu efect real asupra IMM-urilor și persoanelor fizice cu datorii mici. Problema principală este aplicarea noii dobânzi duble eșalonărilor simplificate deja în curs, prin refacerea unilaterală a graficului. Textul are și o lacună de redactare chiar la pragul de 50%.",
-      "initiatorClaim": "Guvernul spune că vrea să oprească folosirea abuzivă a eșalonărilor pentru amânarea plăților, să crească gradul de colectare și să respecte principiul creditorului privat prudent. Accizele, impozitele reținute la sursă și taxele din jocuri de noroc nu ar trebui eșalonate.",
-      "realityCheck": "OUG 20/2023 condiționează eșalonarea pe 5 ani de o garanție de cel puțin 50% din datoria restantă; fără ea, eșalonarea se acordă pe cel mult 6 luni. Abrogă scutirea de garanție pentru datoriile mici (5.000/10.000/20.000 lei, art. 193 alin. 2 și 20), deci și o persoană fizică fără bunuri cu o datorie mică primește doar 6 luni. Dobânda la eșalonarea simplificată se dublează (0,01% → 0,02%/zi), inclusiv pentru eșalonările în curs (art. III alin. 6), iar cererile de modificare sau menținere scad de la două la una și nu mai pot prelungi perioada.",
+      "plainTitle": "Eșalonarea datoriilor la ANAF devine mai scumpă și mai strictă: garanții de minimum 50%, fără accize, dobândă dublă la varianta simplificată",
+      "verdictShort": "Legea confirmă o ordonanță aplicată deja din aprilie 2023. Ordonanța strânge serios robinetul eșalonărilor la plată: e justificată în parte de abuzuri reale, dar lovește disproporționat micii datornici și a dublat dobânda chiar și pentru eșalonările aflate deja în derulare.",
+      "initiatorClaim": "Guvernul spune că unii debitori folosesc excesiv eșalonările ca să amâne plata la buget, acumulând noi arierate. De aceea statul trebuie să se comporte ca un «creditor privat prudent» și să excludă din eșalonare obligațiile cu regim special: accize, impozite reținute la sursă și taxe la jocurile de noroc.",
+      "realityCheck": "Eșalonarea clasică pe 5 ani se acordă doar dacă debitorul constituie garanții de cel puțin 50% din restanțe; altfel primește maximum 6 luni. Dispare plafonul sub care nu se cereau garanții (5.000/10.000/20.000 lei), iar dobânda la eșalonarea simplificată se dublează la 0,02%/zi (7,3%/an), inclusiv pentru eșalonările în curs, al căror grafic se reface (art. III alin. 6). Debitorul mai poate cere o singură modificare sau menținere pe an, nu două, iar cererile depuse în 2023 înainte de ordonanță se socotesc în noua limită.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
@@ -84,64 +103,84 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 1 și 4 (art. 184 alin. 1 și art. 186 alin. 4 CPF): eșalonarea pe 5 ani cere o garanție de peste 50% din obligațiile restante. Sub acest prag eșalonarea durează max. 6 luni, iar penalitățile nu se mai amână și nu se anulează.",
-        "Art. I pct. 6 și 9: sunt abrogate plafoanele sub care nu se cereau garanții (5.000 lei PF, 10.000 lei asocieri, 20.000 lei PJ). Micii debitori fără bunuri pierd practic accesul la eșalonarea lungă.",
-        "Art. I pct. 3, 10, 16 și 17: accizele ies din eșalonare. Din eșalonarea simplificată ies și impozitele/contribuțiile reținute la sursă și taxele din jocuri de noroc, iar plata lor devine condiție de menținere în 30, respectiv 60 de zile.",
-        "Art. I pct. 20 coroborat cu art. III alin. (6) lit. a): dobânda de 7,3%/an se aplică și eșalonărilor simplificate în derulare. Organul fiscal reface graficul în 15 zile lucrătoare, fără acordul debitorului.",
-        "Art. I pct. 11, 12, 14, 18, 19, 21 și art. II: o singură cerere de modificare sau menținere pe an, ori pe durata eșalonării. Dispare posibilitatea de a reaproba o nouă perioadă maximă.",
-        "Art. III alin. (2)-(5) și art. IV: cererile aprobate între 1.01.2023 și intrarea în vigoare se socotesc în noua limită anuală. Cine a avut deja două cereri aprobate nu mai are niciuna în 2023.",
-        "Art. I pct. 22: eliminarea cumulului dintre eșalonarea clasică și cea simplificată."
+        "Art. I pct. 6 și 9 abrogă art. 193 alin. (2) și (20) din Codul de procedură fiscală: dispare scutirea de garanții pentru datorii mici. Și o persoană fizică cu o restanță modestă trebuie acum să aducă garanții de 50% pentru 5 ani sau să plătească totul în cel mult 6 luni.",
+        "Art. I pct. 1 și 4 (art. 184 alin. 1, art. 186 alin. 4): pragul de 50% garanții decide între 5 ani și 6 luni. În ambele cazuri penalitățile de întârziere nu se mai amână și nu se mai anulează, ci se includ în eșalonare.",
+        "Art. I pct. 3 și 16: accizele sunt excluse din ambele tipuri de eșalonare. Impozitele și contribuțiile reținute la sursă (salarii) și taxele la jocurile de noroc sunt excluse din eșalonarea simplificată și trebuie plătite în 30, respectiv 60 de zile, sub sancțiunea pierderii eșalonării (pct. 10 și 17).",
+        "Art. I pct. 20 + art. III alin. (6) lit. a): dobânda la eșalonarea simplificată trece de la 0,01% la 0,02%/zi și se aplică și eșalonărilor deja acordate. ANAF reface graficul în 15 zile lucrătoare, deci condițiile unei decizii individuale deja emise se schimbă unilateral.",
+        "Art. I pct. 11, 14, 18, 21 și art. II: o singură cerere de modificare sau menținere pe an (sau pe durata eșalonării simplificate). Art. I pct. 12 și 19 abrogă posibilitatea de a cere o nouă perioadă de eșalonare la modificare. Art. I pct. 22 abrogă art. 209^12 alin. (1), deci eșalonarea clasică nu se mai poate cumula cu cea simplificată.",
+        "Expunerea de motive nu cuantifică nimic: tabelul financiar din Secțiunea 4 e gol, testul IMM e doar anunțat («se elaborează»), iar între publicarea proiectului (29.03.2023) și adoptare (5.04.2023) au trecut 7 zile."
       ],
-      "blindSpotsCaught": "1) Lacună la pragul de 50%: art. 186 alin. (4) lit. b) vorbește de garanții «mai mici de 50%», iar lit. c) de garanții «mai mari de 50%». O garanție de exact 50% nu intră în niciuna, ceea ce lasă loc de interpretare a organului fiscal. 2) Formularea art. 184 alin. (1), «nu au bunuri... și nici nu pot constitui nici un fel de garanție ori cuantumul... mai mic de 50%», este greoaie și poate fi citită diferit. 3) Expunerea de motive explică (la art. 195 alin. 4) că pragul de 50% se raportează la tot soldul, inclusiv dobânzile, dar textul normativ nu spune asta. 4) Analiza a fost făcută pe 12 din 13 pagini ale formei Senatului: finalul art. IV și eventualele dispoziții de intrare în vigoare nu au putut fi verificate. 5) Fișa de impact bugetar (Secțiunea 4) este necompletată și conține doar estimări calitative.",
-      "constitutionalityNote": "Materia fiscal-procedurală poate fi reglementată prin OUG (art. 115 alin. 4), dar preambulul justifică urgența prin formule generice despre colectare, pe care CCR le-a criticat în alte cazuri. Riscul principal ține de art. 15 alin. (2) și art. 1 alin. (5): aplicarea dobânzii majorate eșalonărilor simplificate aflate în derulare modifică efectele unor decizii administrative deja emise. Este o aplicare la facta pendentia care afectează încrederea legitimă. Calcularea în noua limită anuală a cererilor aprobate înainte de intrarea în vigoare are același efect retroactiv atenuat. Lacuna de la pragul de 50% afectează claritatea și previzibilitatea normei. Nu se atinge regimul unui drept fundamental în sensul art. 115 alin. (6), deoarece eșalonarea este o facilitate, nu un drept.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că actul nu reglementează accesul la profesii. Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu există reguli tehnice sau privind serviciile societății informaționale. Din perspectiva ajutorului de stat (art. 107 TFUE), măsurile întăresc respectarea principiului creditorului privat prudent și reduc riscul ca eșalonările generoase să fie calificate drept ajutor de stat. Includerea fondurilor europene în sfera eșalonării, cu dobânzi calculate după OUG 66/2011, este coerentă cu protecția intereselor financiare ale UE. Excluderea accizelor din eșalonare este compatibilă cu Directiva (UE) 2020/262. Nu se identifică restricții pe piața unică.",
+      "blindSpotsCaught": "1) Art. 186 alin. (4) lit. b) acoperă garanțiile «mai mici de 50%», iar lit. c) pe cele «mai mari de 50%»: garanția de exact 50% nu e reglementată în acest articol, deși art. 184 alin. (1) o încadrează implicit la 5 ani. 2) Art. III alin. (2) și (4) socotesc în noua limită de o cerere și cererile aprobate înainte de intrarea în vigoare, deci au efecte asupra unor situații deja consumate în 2023. 3) Art. I pct. 14 rescrie art. 200 alin. (1), dar forma în vigoare a fost rescrisă din nou de Legea 239/2025. Aprobarea fără modificări, după 3,5 ani, poate crea confuzii despre ce text se aplică, deci legea de aprobare trebuie corelată. 4) Art. III alin. (8) (dobânzi calculate abia la finalul eșalonării pentru debitorii fără bunuri) și art. IV apar trunchiate sau deteriorate în textul scanat, iar ultima pagină nu a fost citită.",
+      "constitutionalityNote": "Reglementarea înlesnirilor la plată prin OUG e în principiu admisă (art. 115 alin. 4), iar motivarea urgenței e generică, cu formule-tip. Art. 115 alin. (6) nu e încălcat direct: eșalonarea e o facilitate, nu un drept fundamental. Probleme reale apar la art. 15 alin. (2) și la principiul securității juridice (art. 1 alin. 5): majorarea dobânzii pentru eșalonările simplificate în curs (art. III alin. 6) se aplică pe viitor în cadrul unor raporturi deja în desfășurare (facta pendentia). Curtea Constituțională tolerează de regulă acest mecanism, dar el schimbă unilateral o decizie individuală favorabilă. La fel, socotirea retroactivă a cererilor din 2023 (art. III alin. 2) e discutabilă. Lipsa reglementării pentru garanția de exact 50% afectează previzibilitatea (art. 1 alin. 5). Durata procedurii parlamentare (Senatul a adoptat textul pe 2.05.2023, Camera nu s-a pronunțat nici în noiembrie 2026) contrazice procedura de urgență prevăzută de art. 115 alin. (5), dar nu afectează validitatea ordonanței, care rămâne în vigoare.",
+      "euLawNote": "Directiva 2018/958 nu e aplicabilă: textul nu reglementează accesul la profesii. TRIS (2015/1535) nu e aplicabilă: nu există servicii digitale sau reguli tehnice. Excluderea accizelor din eșalonare e compatibilă cu Directiva (UE) 2020/262 privind regimul accizelor. Din perspectiva ajutorului de stat (art. 107 TFUE), înăsprirea condițiilor reduce riscul ca eșalonările generoase, fără garanții, să fie calificate drept avantaj selectiv, deci invocarea testului creditorului privat prudent e pertinentă. Nu există impact negativ asupra pieței unice.",
       "senatForm": {
-        "articleRef": "Art. III alin. (6) lit. a) din OUG 20/2023",
-        "proposalContent": "Se elimină lit. a) a alin. (6) al art. III. Pentru eșalonările în formă simplificată aflate în derulare la intrarea în vigoare a OUG nr. 20/2023, dobânda de 0,01%/zi din decizia de eșalonare se menține până la finalizare, cu excepția modificărilor cerute ulterior de debitor.",
-        "argumentation": "Debitorii au acceptat eșalonarea pe baza unei dobânzi de 3,65%/an. Dublarea ei pe parcurs, cu refacerea unilaterală a graficului, încalcă securitatea juridică și încrederea legitimă (art. 1 alin. 5 din Constituție) și pune în pericol IMM-urile care și-au planificat ratele. Impactul bugetar este mic, pentru că eșalonarea simplificată durează max. 12 luni.",
-        "otherComments": "Corelați art. 186 alin. (4) lit. b)-c) CPF: o garanție de exact 50% nu e acoperită (b: «mai mică de 50%», c: «mai mare de 50%»). Propunem la lit. c): «de cel puțin 50%». Reanalizați și abrogarea art. 193 alin. (2): persoanele fizice fără bunuri își pot eșalona datoriile mici doar pe 6 luni."
+        "articleRef": "Art. I pct. 4 și pct. 6 din OUG 20/2023",
+        "proposalContent": "1) Pct. 4, art. 186 alin. (4) lit. c): «de cel puțin 50%» în loc de «mai mare de 50%». 2) Se elimină pct. 6, iar art. 193 alin. (2) prevede: nu se constituie garanții pentru obligații eșalonate de până la 5.000 lei (persoane fizice), 10.000 lei (asocieri) sau 20.000 lei (persoane juridice), eșalonarea fiind de cel mult 12 luni.",
+        "argumentation": "Textul actual lasă neacoperită situația garanției de exact 50%: art. 184 alin. (1) o tratează ca 5 ani, art. 186 alin. (4) nu o menționează. Eliminarea plafonului obligă o persoană fizică cu o restanță de câteva sute de lei să constituie garanții sau să plătească în 6 luni, cost disproporționat față de risc; limitarea la 12 luni protejează bugetul.",
+        "otherComments": "OUG 20/2023 e în vigoare din 6.04.2023; între timp Legea 239/2025 a rescris art. 200. Legea de aprobare trebuie corelată cu forma actuală a Codului, ca să nu reintroducă texte depășite. Fișa financiară (Secțiunea 4) e goală, iar testul IMM nu e anexat: comisia ar trebui să ceară ANAF date despre efectul măsurilor după 3 ani de aplicare."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 88959,
+      "durationMs": 87487,
       "sourceEndMarker": "SF-CAD1B3B2",
-      "riskScore": 6,
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Eșalonări fiscale mai scumpe și mai greu de păstrat",
-      "verdictShort": "Proiectul urmărește legitim recuperarea datoriilor fiscale, dar înăsprește substanțial condițiile pentru contribuabilii cu dificultăți de lichiditate. Riscul principal este dublarea dobânzii inclusiv pentru eșalonări simplificate deja acordate, împreună cu restrângerea posibilităților de redresare.",
-      "initiatorClaim": "Guvernul susține că previne acumularea arieratelor și folosirea repetată a facilităților pentru amânarea plăților. Invocă protejarea bugetului și comportamentul statului ca creditor prudent.",
-      "realityCheck": "Textul restrânge accesul la eșalonări, reduce posibilitățile obișnuite de modificare și menținere, elimină posibilitatea prelungirii duratei prin mecanismele abrogate și dublează dobânda eșalonării simplificate. Dispozițiile tranzitorii extind unele restricții asupra facilităților existente, iar garanțiile sub 50% pot determina comprimarea perioadei la maximum șase luni la modificarea eșalonării clasice. Există și o facilitate reală: creanțele reprezentând fonduri europene și fonduri naționale aferente nu mai sunt excluse în bloc, în timp ce ajutoarele de stat sau de minimis de recuperat rămân excluse.",
+      "plainTitle": "Condiții mai dure pentru plata datoriilor fiscale în rate",
+      "verdictShort": "Scopul colectării creanțelor este legitim, dar ordonanța înăsprește inclusiv facilități deja acordate și poate comprima sever plățile firmelor cu garanții insuficiente. Principalul risc este presiunea financiară asupra contribuabililor viabili, nu crearea unui monopol sau a unor sancțiuni penale.",
+      "initiatorClaim": "Guvernul urmărește reducerea arieratelor și împiedicarea folosirii repetate a eșalonărilor pentru amânarea plății. Susține că limitarea modificărilor, garanțiile suplimentare și dobânda majorată vor îmbunătăți colectarea și disciplina fiscală.",
+      "realityCheck": "Forma Senatului aprobă ordonanța fără amendamente: măsurile acesteia produc deja efecte din 2023, iar aprobarea nu reprezintă o nouă introducere a tuturor restricțiilor descrise. Ordonanța dublează dobânda eșalonării simplificate, inclusiv pentru anumite situații existente, restrânge flexibilitatea și permite reducerea perioadei la maximum șase luni la modificarea unei eșalonări insuficient garantate. În schimb, deschide accesul la eșalonare pentru anumite creanțe privind fondurile europene; aprobarea simplă nu trebuie interpretată ca reintroducând redactările din 2023 peste modificările legislative ulterioare.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate"
       ],
       "keyFindings": [
-        "Art. I pct. 20 și art. III alin. (6): dobânda eșalonării simplificate crește de la 0,01% la 0,02% pe zi, aproximativ de la 3,65% la 7,30% anual, fără capitalizare. Majorarea privește și eșalonările în derulare și cererile nesoluționate; pentru cele în derulare, ratele din graficul existent rămân datorate până la comunicarea graficului refăcut.",
-        "Art. I pct. 1 și 4: garanțiile insuficiente, sub 50%, limitează eșalonarea clasică la șase luni. Există o necorelare chiar la prag: art. 186 alin. (4) lit. b) folosește «mai mică de 50%», iar lit. c) «mai mare de 50%», lăsând neacoperită explicit situația garanției exact egale cu 50%, dar insuficiente pentru cerințele integrale.",
-        "Art. I pct. 11 și art. III alin. (2): la modificarea unei eșalonări clasice existente, garanțiile sub 50% pot reduce perioada la maximum șase luni de la comunicarea deciziei de modificare. Pentru o firmă cu un grafic inițial multianual, aceasta poate produce un șoc de lichiditate.",
-        "Art. I pct. 3, 16 și 17: accizele sunt excluse din ambele proceduri; stopajul la sursă și taxele din jocuri de noroc sunt excluse suplimentar din procedura simplificată. Pentru obligațiile excluse, nestinse la comunicarea deciziei, apar termene de plată de 30 de zile, respectiv 60 de zile pentru stopajul la sursă.",
-        "Art. I pct. 21: mecanismul de menținere a eșalonării simplificate după pierderea valabilității enumeră art. 209^4 alin. (1) lit. a)-j) și l), fără noile lit. p) și q). Prin urmare, acest mecanism nu acoperă pierderea provocată de neplata obligațiilor excluse în noile termene.",
-        "Art. I pct. 11, 18 și art. II reduc cererile obișnuite, dar păstrează excepții pentru anumite obligații, pentru care modificarea poate fi cerută ori de câte ori este necesar. Limita modificării și limita menținerii sunt reglementate distinct; nu trebuie prezentate automat drept o singură cotă comună.",
-        "Art. III alin. (3) și (5), respectiv art. IV alin. (3), păstrează legea de la depunere pentru cererile pendinte, dar aprobarea lor consumă posibilitatea unei noi cereri pentru intervalul indicat. Efectul trebuie comparat cu tratamentul cererilor deja aprobate, pentru a evita diferențe greu justificabile legate de momentul soluționării.",
-        "Art. I pct. 6 și 9 elimină scutirile de garanții pentru datorii mici, ceea ce poate adăuga costuri de evaluare și constituire a garanțiilor disproporționate față de creanță. Expunerea nu cuantifică aceste costuri și nici beneficiul bugetar net; mențiunea «Se elaborează testul IMM» nu dovedește efectuarea testului."
+        "Comparație temporală esențială: art. 184 alin. (1), art. 195 alin. (2) și dispozițiile OG nr. 6/2019 reproduse ca drept actual conțin deja regulile introduse prin OUG nr. 20/2023. Modificările trebuie explicate față de regimul anterior ordonanței, fără a le prezenta drept obligații complet noi la aprobarea parlamentară.",
+        "Art. I pct. 4: art. 186 alin. (4) lit. b) acoperă garanțiile sub 50%, iar lit. c) pe cele peste 50%. Situația garanției exact egale cu 50%, dar insuficiente pentru garanția integrală, rămâne neacoperită expres de această derogare. Expunerea de motive vorbește despre minimum 50%, dar nu poate înlocui formularea normativă.",
+        "Art. I pct. 11 și art. III alin. (2): includerea unor obligații suplimentare într-o eșalonare existentă poate determina trecerea la maximum șase luni dacă garanțiile sunt sub 50%. Consecința poate fi mult mai severă decât simpla reducere a numărului de cereri și poate necesita completarea rapidă a garanțiilor.",
+        "Art. I pct. 20 și art. III alin. (6): dobânda simplificată crește de la 0,01% la 0,02% pe zi, echivalentul aritmetic a 7,3% anual la principal constant, fără capitalizare. Excepția tranzitorie extinde majorarea la eșalonări în derulare, la anumite mențineri și la cereri deja depuse, deși regula generală din art. III alin. (1) privește cererile ulterioare.",
+        "Art. III alin. (6) lit. a) păstrează ratele din graficul existent până la comunicarea celui refăcut. Textul nu precizează suficient de explicit delimitarea temporală a dobânzii majorate; nu trebuie presupus că autorizează recalcularea perioadelor deja consumate.",
+        "Art. I pct. 3, 16 și 17: accizele sunt excluse din ambele forme de eșalonare; stopajul la sursă și taxele pentru jocuri de noroc sunt excluse suplimentar din forma simplificată. Pentru menținerea facilității, obligațiile excluse indicate de text trebuie achitate în 30, respectiv 60 de zile. Stopajul la sursă nu este exclus prin aceste puncte și din forma clasică.",
+        "Art. I pct. 11 și 18 și art. II pct. 1 păstrează expres posibilitatea unor cereri repetate pentru categoriile speciale enumerate. Limita unei cereri nu este universală; modificarea și menținerea sunt mecanisme distincte, reglementate separat.",
+        "Art. I pct. 2 și 15 elimină excluderea generală a creanțelor privind fondurile europene și contribuția națională aferentă. Este o extindere favorabilă accesului la eșalonare, în condițiile celorlalte reguli aplicabile; ajutoarele de stat sau de minimis de recuperat rămân excluse.",
+        "Art. I pct. 13, corelat cu art. III alin. (8): abrogarea regulii speciale privind dobânzile pentru debitorii fără bunuri este însoțită de protejarea situațiilor existente indicate de norma tranzitorie. Pentru acestea, dobânzile se calculează și se comunică după finalizare sau la pierderea valabilității; nu sunt anulate.",
+        "Art. III și IV conțin reguli tranzitorii diferențiate după data cererii și cererile deja aprobate. Referirile la anul 2023 nu repornesc la adoptarea legii de aprobare. Abrogările plafoanelor fără garanții și ale posibilității prelungirii perioadei sporesc costurile și reduc flexibilitatea, fără ca materialul furnizat să cuantifice impactul asupra IMM-urilor."
       ],
-      "blindSpotsCaught": "Dispozițiile tranzitorii schimbă efectiv costul și flexibilitatea unor facilități deja acordate, deși articolul unic al legii doar aprobă ordonanța. Expunerea vorbește despre garanții de minimum 50%, dar această explicație nu repară formularea normativă care omite egalitatea. Extrasul se întrerupe în art. IV alin. (3) și declară lipsa paginii 13; codul final confirmă parcurgerea extrasului furnizat, nu integralitatea actului.",
-      "constitutionalityNote": "Art. 1 alin. (5) este relevant pentru omisiunea pragului exact de 50%, corelarea normelor tranzitorii și previzibilitatea costurilor. Aplicarea dobânzii majorate efectelor viitoare ale unei eșalonări existente nu constituie automat retroactivitate interzisă de art. 15 alin. (2), dar afectează stabilitatea cadrului pe baza căruia debitorul și-a organizat plățile; trebuie exclusă clar recalcularea pentru perioade anterioare intrării în vigoare. Art. 23 alin. (12) nu este direct incident: textul analizat nu instituie pedepse. Din perspectiva art. 115 alin. (4), preambulul explică utilitatea fiscală, dar identifică slab o situație extraordinară concretă care nu suporta amânare; aprobarea parlamentară nu înlătură prin ea însăși un eventual viciu originar. Nu rezultă automat o încălcare constituțională doar fiindcă o facilitate fiscală este restrânsă.",
-      "euLawNote": "Directiva (UE) 2018/958 privește testarea proporționalității restricțiilor privind accesul la profesii reglementate și exercitarea lor; nu impune un asemenea test pentru aceste eșalonări fiscale. Directiva (UE) 2015/1535 nu atrage notificarea TRIS doar pentru că debitorii pot fi firme IT: textul nu stabilește reguli tehnice pentru produse sau reguli destinate specific serviciilor societății informaționale. Nu se instituie un monopol; înăsprirea poate însă afecta mai puternic firmele cu lichidități și patrimoniu reduse. Admiterea creanțelor privind fondurile europene trebuie aplicată cu respectarea obligațiilor europene de recuperare, iar excluderea ajutoarelor de stat de recuperat și regimul special al dobânzilor sunt relevante în acest sens.",
+      "blindSpotsCaught": "Derogarea cu impact financiar major este art. III alin. (6): dobânda crescută ajunge și la facilități deja acordate ori cereri pendinte. Separat, extrasul ordonanței se întrerupe în art. IV alin. (3), înaintea paginii 13, iar expunerea este declarată incompletă; codul final nu dovedește integralitatea documentului. Verificarea externă nu a fost disponibilă, deci nu pot certifica absența altor dispoziții finale. Mențiunile că articolele 209^1 și următoarele nu apar în consolidarea extrasă nu dovedesc abrogarea lor; notele tranzitorii intercalate nu sunt alineate suplimentare ale Codului.",
+      "constitutionalityNote": "Art. 1 alin. (5) impune corectarea pragului exact de 50% și clarificarea aplicării în timp a dobânzii. Aplicarea unei reguli noi efectelor viitoare ale unei eșalonări existente nu încalcă automat art. 15 alin. (2); recalcularea unor perioade deja consumate ar ridica însă o problemă distinctă de neretroactivitate. Sarcina financiară trebuie evaluată în raport cu art. 44, 45 și 56 alin. (2), fără a presupune un drept constituțional necondiționat la eșalonare. Preambulul invocă obiective generale de colectare, dar demonstrarea situației extraordinare și a imposibilității amânării, cerută de art. 115 alin. (4), merită examinată critic; aprobarea parlamentară nu vindecă prin ea însăși un eventual viciu originar. Art. 23 alin. (12) nu este direct incident: proiectul nu instituie pedepse. Lipsa cuantificării impactului nu demonstrează singură încălcarea art. 138 alin. (5).",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor asupra accesului la profesii reglementate ori exercitării lor; condițiile generale de eșalonare fiscală analizate nu intră, prin ele însele, în acest domeniu. Nici procedura TRIS din Directiva (UE) 2015/1535 nu rezultă aplicabilă: textul nu stabilește specificații tehnice pentru produse sau reguli destinate serviciilor societății informaționale, inclusiv AI. Cerințele de garanție pot dezavantaja economic firmele cu puține active, dar nu instituie un monopol și nu demonstrează singure discriminare contrară pieței unice. Eșalonarea creanțelor privind fonduri europene trebuie să respecte regulile UE de recuperare și dobândă; invocarea creditorului privat prudent nu dovedește automat conformitatea cu normele privind ajutoarele de stat.",
       "senatForm": {
-        "articleRef": "Art. III alin. (6) din OUG nr. 20/2023",
-        "proposalContent": "(6) Prevederile art. I pct. 20 nu se aplică eșalonărilor în formă simplificată acordate înainte de intrarea în vigoare a prezentei ordonanțe de urgență, inclusiv celor menținute ulterior, și nici cererilor inițiale depuse anterior acestei date. Pentru acestea se aplică regimul dobânzii în vigoare la data depunerii cererii inițiale.",
-        "argumentation": "Dublarea dobânzii modifică bugetele de plată ale debitorilor care au solicitat facilitatea în condițiile anterioare. Menținerea regimului inițial protejează previzibilitatea și șansele de conformare, fără a împiedica aplicarea noului cost cererilor inițiale depuse după intrarea în vigoare.",
-        "otherComments": "Evaluarea privește forma Senatului furnizată, nu legislația consolidată actuală. Verificarea externă nu a fost disponibilă. Lipsesc pagina 13 și finalul art. IV alin. (3); concluziile nu acoperă dispoziții nefurnizate. Separat, trebuie corectată omisiunea garanției exact egale cu 50% din art. 186 alin. (4) lit. c)."
+        "articleRef": "Art. I pct. 4 – art. 186 alin. (4) lit. c)",
+        "proposalContent": "c) debitorul constituie garanții de cel puțin 50% din cuantumul obligațiilor fiscale restante ce fac obiectul înlesnirilor la plată, dar insuficiente față de valorile prevăzute la art. 193 alin. (13)-(15). În acest caz, eșalonarea se acordă pe cel mult 5 ani, iar penalitățile de întârziere din certificatul de atestare fiscală nu se amână la plată și se includ în eșalonare.",
+        "argumentation": "Litera b) acoperă garanțiile sub 50%, iar litera c), în forma analizată, numai garanțiile peste 50%. Debitorul care constituie exact 50% rămâne fără o încadrare expresă în derogare. Formula propusă închide lacuna și transpune intenția declarată de a accepta o garanție de minimum 50%, asigurând previzibilitatea legii.",
+        "otherComments": "Propunere pentru Comisia pentru buget, finanțe și bănci a Camerei Deputaților, care poate fi preluată de un deputat. Fiind o lege de aprobare a unei OUG deja aplicabile, amendamentul trebuie corelat cu redactarea actuală a Codului. Separat, trebuie examinată protejarea graficelor existente față de majorarea dobânzii."
       },
       "reachedEnd": true,
       "status": "ok"
     }
   },
   "history": [
+    {
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-19T12:19:07.103Z",
+      "method": "whole-text-v1",
+      "textChars": 27995,
+      "form": "senat",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 7,
+        "claude": 5,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:23:00.306Z",
+      "reasons": [
+        "model"
+      ]
+    },
     {
       "riskScore": 5,
       "riskLevel": "yellow",

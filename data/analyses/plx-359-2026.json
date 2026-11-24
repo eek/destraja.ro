@@ -1,119 +1,181 @@
 {
   "billId": "Pl-x 359/2026",
   "slug": "plx-359-2026",
-  "updatedAt": "2026-10-29T02:25:10.889Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T15:23:49.749Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 2002,
+    "ordinanceChars": 0,
+    "memoChars": 4780,
+    "memoSupplied": 4780,
+    "marker": "SF-A852A335"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-359-2026.json",
+    "form": "initiator",
+    "textHash": "a852a335aeb27a08",
+    "fetchedAt": "2026-11-19T10:21:44.178Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1109,
+    "truncated": false,
+    "included": true,
+    "key": "5bbfba2c6c905d57"
+  },
   "consensus": {
-    "riskScore": 3.7,
-    "riskLevel": "green",
-    "plainTitle": "Un singur părinte poate semna pentru consultațiile și tratamentele obișnuite ale copilului",
-    "summaryTlDr": "Lege utilă, care rezolvă o problemă reală: un părinte va putea semna singur pentru consultațiile și tratamentele obișnuite ale copilului. Are însă două defecte de redactare de reparat în comisie: „riscul major” nu e definit, iar alin. (3) lit. b) cere acordul ambilor părinți chiar și când instanța a dat autoritatea părintească unuia singur.",
-    "initiatorClaim": "Expunerea de motive spune că lipsa unei reguli exprese a blocat accesul copiilor la îngrijiri medicale uzuale și a creat incertitudine pentru medici, care în practică au cerut semnătura ambilor părinți. Propune ca un părinte să poată consimți singur la actele medicale obișnuite, cu obligația de a-l informa pe celălalt.",
-    "realityCheck": "Noul art. 503¹ transformă prezumția care există deja la art. 503 alin. (2) C.civ. într-o regulă expresă pentru actele medicale fără urgență și fără risc major. Prezumția actuală spune că părintele care face singur un „act curent” are și acordul celuilalt, dar operează doar față de terții de bună-credință. Granița dintre o semnătură și două („risc major”) nu e definită, așa că în practică medicul va decide singur. Zonele gri vor genera dispute: vaccinarea, consilierea psihologică, tratamentul ortodontic sau medicația psihiatrică. Textul nu spune ce se întâmplă dacă celălalt părinte s-a opus expres. Obligația de informare nu are formă, termen precis sau sancțiune, iar faptul că nu afectează valabilitatea actului apare doar în expunerea de motive, nu în lege.",
+    "riskScore": 4.3,
+    "riskLevel": "yellow",
+    "plainTitle": "Un singur părinte poate semna pentru tratamentele obișnuite ale copilului",
+    "summaryTlDr": "Este o clarificare utilă și benignă care deblochează accesul copiilor la îngrijiri medicale uzuale. Are însă o scăpare serioasă la alin. (3) lit. b), care poate cere acordul ambilor părinți tocmai când instanța a dat autoritatea unuia singur, iar „risc major” rămâne nedefinit.",
+    "initiatorClaim": "Inițiatoarea spune că legea nu precizează cine consimte la actele medicale obișnuite ale minorului. Din acest motiv, unii medici cer acordul ambilor părinți, iar copiii rămân blocați fără tratament. Propunerea vrea să clarifice regula.",
+    "realityCheck": "Proiectul introduce art. 503^1 în Codul civil. Pentru actele medicale neurgente și fără risc major ajunge acordul unui părinte, cu obligația de a-l informa pe celălalt. Pentru actele cu risc major ori când există o hotărâre judecătorească se cere acordul ambilor. Legea în vigoare are deja, la art. 503 alin. (2), prezumția că părintele care face singur un act curent are acordul celuilalt față de terții de bună-credință, deci noutatea reală e mai mică decât pare. Textul nu spune ce se întâmplă dacă celălalt părinte se opune expres, iar criteriul „risc major” lasă medicilor o apreciere largă.",
     "affectedGroups": [
       "Sănătate & Educație",
-      "Justiție & Drepturi Civile"
+      "Justiție & Drepturi Civile",
+      "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I – art. 503¹ alin. (3), (5)-(7) C. civ.",
-      "proposalContent": "Se elimină alin. (3) lit. b) și se introduc alin. (5): „Dacă o hotărâre judecătorească stabilește alt mod de exercitare a autorității părintești, consimțământul se dă potrivit acesteia.” Alin. (6): „Dacă celălalt părinte s-a opus expres, decide instanța de tutelă (art. 486).” Alin. (7): „Actele cu risc major se stabilesc prin ordin al ministrului sănătății.”",
-      "argumentation": "Lit. b) cere acordul ambilor părinți tocmai când instanța a dat autoritatea unuia singur (art. 398 C.civ.), contrazicând hotărârea. Textul nu spune ce se întâmplă dacă celălalt părinte se opune, deși art. 486 oferă calea. „Risc major” nu e definit, deci medicul nu știe sigur când îi trebuie două semnături (cerința de previzibilitate, art. 1 alin. (5) Constituție).",
-      "otherComments": "Titlul și art. I spun „modificarea și completarea”, dar legea doar completează (Legea nr. 24/2000). De adăugat la alin. (1): „fără a aduce atingere Legii nr. 46/2003 și Legii nr. 95/2006” și implicarea minorului în decizie, după gradul său de maturitate. Spuneți în text, nu doar în expunere, că lipsa informării nu afectează valabilitatea consimțământului."
+      "articleRef": "Art. I – art. 503^1 alin. (3) lit. b) C.civ.",
+      "proposalContent": "Lit. b) a alin. (3) se elimină și se introduce alin. (5): „Dacă o hotărâre judecătorească definitivă stabilește altfel exercitarea autorității părintești sau luarea deciziilor privind sănătatea minorului, consimțământul se exprimă potrivit hotărârii. Alin. (1)-(3) nu se aplică urgențelor medicale, reglementate de legea specială.”",
+      "argumentation": "Forma actuală cere acordul ambilor părinți tocmai când instanța a dat autoritatea unui singur părinte (art. 398, 507 C.civ.) sau a stabilit alte reguli. Asta contrazice hotărârea și poate bloca tratamentul copilului. Precizarea privind urgențele evită interpretarea că acestea ar necesita acordul ambilor părinți.",
+      "otherComments": "„Risc major” trebuie definit sau ilustrat (ex. intervenții chirurgicale, anestezie generală, tratamente ireversibile), altfel medicii vor cere tot acordul ambilor părinți. Trebuie precizat ce se întâmplă când celălalt părinte se opune expres, cu trimitere la art. 486 C.civ. Titlul ar trebui să fie doar „pentru completarea”."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 52330,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Acordul unui singur părinte devine suficient pentru actele medicale uzuale ale copilului",
-      "verdictShort": "O inițiativă utilă care deblochează accesul copiilor la consultații și tratamente curente atunci când părinții sunt separați sau în conflict. Textul are însă nevoie de mici reglaje tehnice în comisie pentru a nu expune medicii la litigii privind existența unor hotărâri judecătorești ascunse de unul dintre părinți.",
-      "initiatorClaim": "Inițiatoarea urmărește să elimine blocajele practice și interpretările neunitare prin care medicii sau clinicile refuză îngrijirile medicale uzuale ale minorilor fără semnătura ambilor părinți. Legea stabilește expres că acordul unui singur părinte este suficient dacă procedura nu implică un risc major.",
-      "realityCheck": "În realitate, proiectul explicitează în materie medicală prezumția de mandat tacit dintre părinți (deja existentă la nivel general în art. 503 alin. 2 din Codul civil) și adaugă o plasă de siguranță utilă pentru victimele violenței domestice. Totuși, formularea excepțiilor de la alin. (3) lasă o zonă gri privind definirea „riscului major” și modul în care medicul poate verifica dacă există o hotărâre judecătorească restrictivă.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 85653,
+      "sourceEndMarker": "SF-A852A335",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Acordul unui singur părinte pentru tratamente uzuale ale copilului, afectat de o eroare gravă de redactare",
+      "verdictShort": "Intenția legii este utilă pentru părinți și medici, dar forma propusă conține o eroare logică severă care anulează efectul hotărârilor de custodie exclusivă și introduce termenul nedefinit de „risc major”. Fără amendamente în comisie, proiectul riscă să genereze exact blocajele și litigiile pe care susține că le elimină.",
+      "initiatorClaim": "Inițiatoarea susține că lipsa unei reguli exprese privind actele medicale neurgente ale minorului blochează accesul copiilor la îngrijiri curente și creează incertitudine pentru medici. Proiectul propune să permită acordul unui singur părinte pentru proceduri fără risc major, cu obligația informării celuilalt părinte.",
+      "realityCheck": "În prezent, art. 503 alin. (2) Cod civil prezumă deja acordul celuilalt părinte pentru acte curente față de terții de bună-credință, fără a detalia actele medicale. Noul art. 503¹ alin. (3) lit. b) comite însă o greșeală gravă: cere literal consimțământul ambilor părinți chiar și când o hotărâre judecătorească definitivă a stabilit „o altă modalitate de exercitare a autorității părintești” (cum ar fi autoritatea exclusivă a unui singur părinte). În plus, sintagma nedefinită „risc major” și lipsa unui mecanism prin care medicul să verifice hotărârile judecătorești vor alimenta medicina defensivă și refuzurile de tratament.",
       "affectedGroups": [
         "Sănătate & Educație",
-        "Justiție & Drepturi Civile"
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 503¹ alin. (1) și (2): Permite efectuarea actelor medicale fără caracter de urgență și fără risc major cu acordul unui singur părinte, instituind obligația acestuia de a-l informa pe celălalt părinte anterior sau într-un termen rezonabil ulterior (fără ca lipsa informării să invalideze acordul dat medicului).",
-        "Art. 503¹ alin. (3): Impune acordul ambilor părinți pentru actele medicale cu „risc major” sau când există o hotărâre judecătorească definitivă cu condiții speciale, însă nu precizează că medicul este exonerat de răspundere dacă părintele prezent îi ascunde existența unei asemenea hotărâri.",
-        "Art. 503¹ alin. (4): Introduce o excepție echilibrată de la obligația de informare a celuilalt părinte atunci când informarea ar pune în pericol siguranța minorului sau a părintelui însoțitor (esențială în cazurile de abuz sau violență domestică)."
+        "Art. 503¹ alin. (3) lit. b) produce un paradox juridic: impune consimțământul „ambilor părinți” atunci când există o hotărâre definitivă care stabilește o altă modalitate de exercitare a autorității părintești (de ex., custodie exclusivă conform art. 398 Cod civil) ori condiții speciale, răsturnând practic decizia instanței.",
+        "Noțiunea „risc major pentru sănătatea ori integritatea minorului” (alin. 1 și 3 lit. a) nu este definită în Codul civil și nu corespunde terminologiei din Legea nr. 95/2006 („potențial de risc”), lăsând medicii să decidă pe propria răspundere dacă o vaccinare, o anestezie dentară sau o investigație necesită unul sau doi părinți.",
+        "Deși Expunerea de motive afirmă că neîndeplinirea obligației de informare a celuilalt părinte (alin. 2) nu afectează valabilitatea actului medical, această garanție lipsește complet din textul legii; lipsesc și trimiterile la art. 507 Cod civil (părinte decedat, decăzut sau în imposibilitate de a-și exprima voința) și art. 486 (neînțelegeri soluționate de instanță).",
+        "Proiectul nu prevede cum verifică personalul medical existența unei hotărâri judecătorești definitive (alin. 3 lit. b) și nu se corelează expres cu art. 661 din Legea nr. 95/2006 privind consimțământul autonom al minorului de peste 16 ani pentru probleme sexuale și reproductive; minoră scăpare de tehnică legislativă: titlul și art. I menționează „modificarea și completarea”, deși se adaugă doar un articol nou."
       ],
-      "blindSpotsCaught": "Textul alin. (3) lit. a) cere acordul ambilor părinți pentru orice act medical cu „risc major”, uitând să excludă expres urgențele medicale (care, prin natura lor, implică adesea riscuri majore, dar sunt reglementate special de art. 660-662 din Legea nr. 95/2006, unde medicul poate interveni chiar și fără acordul vreunui părinte sau cu acordul unuia singur). De asemenea, sintagma „risc major” nu are un corespondent medico-legal standardizat, ceea ce poate menține medicina defensivă în cazul procedurilor cu anestezie sau al terapiilor psihologice.",
-      "constitutionalityNote": "Propunerea respectă art. 49 (protecția copiilor și a tinerilor) și art. 34 (dreptul la ocrotirea sănătății) din Constituție. Pentru deplina respectare a standardului de claritate și previzibilitate a legii prevăzut de art. 1 alin. (5) din Constituție, este recomandabilă corelarea expresă a excepțiilor de la art. 503¹ alin. (3) cu regimul urgențelor medico-chirurgicale din Legea nr. 95/2006 și cu protecția terțului de bună-credință din art. 503 alin. (2) Cod civil.",
-      "euLawNote": "Proiectul nu ridică probleme de compatibilitate cu dreptul UE; nu instituie restricții profesionale care să necesite testul de proporționalitate conform Directivei (UE) 2018/958 și nu vizează servicii digitale supuse notificării TRIS conform Directivei (UE) 2015/1535. Reglementarea este aliniată cu art. 24 din Carta Drepturilor Fundamentale a UE privind interesul superior al copilului.",
+      "blindSpotsCaught": "Cea mai periculoasă chichiță este inversarea logică ascunsă în art. 503¹ alin. (3) lit. b): punând sub umbrela „este necesar consimțământul ambilor părinți” existența unei hotărâri definitive care stabilește o altă modalitate de exercitare a autorității părintești, textul ar obliga un părinte cu autoritate exclusivă să obțină semnătura fostului partener (inclusiv abuziv) pentru acte medicale ale copilului. Totodată, afirmația liniștitoare din Expunerea de motive că lipsa informării nu invalidează actul medical nu a fost transpusă în articolul de lege.",
+      "constitutionalityNote": "Vulnerabilități serioase față de art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii): sintagma nedefinită „risc major” creează imprevizibilitate în răspunderea civilă și disciplinară a medicilor, iar art. 503¹ alin. (3) lit. b) intră în coliziune cu securitatea juridică și obligativitatea hotărârilor judecătorești definitive (art. 1 alin. 5 și art. 124). Scopul declarat este compatibil cu art. 34 (dreptul la ocrotirea sănătății) și art. 49 (protecția copiilor), iar procedura legislativă respectă art. 75 și art. 76 alin. (1) pentru lege organică.",
+      "euLawNote": "Proiectul nu încalcă dreptul Uniunii Europene. Dreptul familiei și regulile privind consimțământul medical intră în competența națională (art. 168 alin. 7 TFUE), fiind aliniate în principiu cu art. 24 din Carta Drepturilor Fundamentale a UE (interesul superior al copilului). Nu reglementează accesul sau exercitarea unei profesii reglementate (Directiva (UE) 2018/958 privind testul de proporționalitate nu este incidentă) și nu introduce reglementări tehnice ori servicii digitale/AI (Directiva (UE) 2015/1535 TRIS nu se aplică).",
       "senatForm": {
-        "articleRef": "Art. I - Art. 503¹ alin. (3) din Codul civil",
-        "proposalContent": "La art. 503¹, alin. (3) se modifică și va avea următorul cuprins: „(3) Prin excepție de la alin. (1), în lipsa unei urgențe medicale, este necesar consimțământul ambilor părinți când: a) actul medical implică un risc major, conform aprecierii medicului; b) există o hotărâre judecătorească definitivă comunicată unității medicale ce impune condiții speciale.”",
-        "argumentation": "Forma propusă la alin. (3) nu exclude expres urgențele medicale (care implică inerent riscuri majore, dar sunt guvernate de Legea 95/2006) și lasă medicii vulnerabili dacă un părinte omite să declare existența unei hotărâri judecătorești speciale. Clarificarea protejează buna-credință a cadrelor medicale și previzibilitatea actului medical.",
-        "otherComments": "Proiectul este binevenit pentru deblocarea accesului minorilor la consultații și tratamente uzuale în cazul părinților separați. Se recomandă corelarea expresă cu art. 660 din Legea nr. 95/2006 privind reforma în domeniul sănătății și păstrarea prezumției de bună-credință a terților prevăzută deja la art. 503 alin. (2) din Codul civil."
-      }
+        "articleRef": "Art. I, art. 503^1 alin. (2) și (3)",
+        "proposalContent": "La alin. (2) se adaugă: „Neîndeplinirea informării nu invalidează actul medical.” Alin. (3): „(3) Pentru actele cu risc major, definit potrivit legii sănătății, este necesar acordul ambilor părinți, cu excepția cazurilor de la art. 507. Dacă există o hotărâre judecătorească definitivă privind autoritatea părintească, se aplică dispozițiile acesteia.”",
+        "argumentation": "Forma actuală a alin. (3) lit. b) impune paradoxal acordul ambilor părinți chiar și când o hotărâre definitivă a stabilit autoritate exclusivă pentru un singur părinte. Totodată, „risc major” este nedefinit (art. 1 alin. 5 Constituție), iar teza din expunerea de motive că lipsa informării nu invalidează actul trebuie trecută expres în lege.",
+        "otherComments": "Corelați expres art. 503^1 cu art. 486 (neînțelegeri soluționate de instanță), art. 503 alin. (2) (prezumția față de terții de bună-credință) și art. 661 din Legea nr. 95/2006 (consimțământul minorului de peste 16 ani). Corectați și titlul/art. I: proiectul doar completează, nu modifică Legea nr. 287/2009 (Legea nr. 24/2000)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 239502,
+      "durationMs": 46857,
+      "sourceEndMarker": "SF-A852A335",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Un singur părinte poate semna pentru consultațiile și tratamentele obișnuite ale copilului",
-      "verdictShort": "Lege utilă, care rezolvă o problemă reală: un părinte va putea semna singur pentru consultațiile și tratamentele obișnuite ale copilului. Are însă două defecte de redactare de reparat în comisie: „riscul major” nu e definit, iar alin. (3) lit. b) cere acordul ambilor părinți chiar și când instanța a dat autoritatea părintească unuia singur.",
-      "initiatorClaim": "Expunerea de motive spune că lipsa unei reguli exprese a blocat accesul copiilor la îngrijiri medicale uzuale și a creat incertitudine pentru medici, care în practică au cerut semnătura ambilor părinți. Propune ca un părinte să poată consimți singur la actele medicale obișnuite, cu obligația de a-l informa pe celălalt.",
-      "realityCheck": "Noul art. 503¹ transformă prezumția care există deja la art. 503 alin. (2) C.civ. într-o regulă expresă pentru actele medicale fără urgență și fără risc major. Prezumția actuală spune că părintele care face singur un „act curent” are și acordul celuilalt, dar operează doar față de terții de bună-credință. Granița dintre o semnătură și două („risc major”) nu e definită, așa că în practică medicul va decide singur. Zonele gri vor genera dispute: vaccinarea, consilierea psihologică, tratamentul ortodontic sau medicația psihiatrică. Textul nu spune ce se întâmplă dacă celălalt părinte s-a opus expres. Obligația de informare nu are formă, termen precis sau sancțiune, iar faptul că nu afectează valabilitatea actului apare doar în expunerea de motive, nu în lege.",
+      "plainTitle": "Un singur părinte poate semna pentru tratamentele obișnuite ale copilului",
+      "verdictShort": "Este o clarificare utilă și benignă care deblochează accesul copiilor la îngrijiri medicale uzuale. Are însă o scăpare serioasă la alin. (3) lit. b), care poate cere acordul ambilor părinți tocmai când instanța a dat autoritatea unuia singur, iar „risc major” rămâne nedefinit.",
+      "initiatorClaim": "Inițiatoarea spune că legea nu precizează cine consimte la actele medicale obișnuite ale minorului. Din acest motiv, unii medici cer acordul ambilor părinți, iar copiii rămân blocați fără tratament. Propunerea vrea să clarifice regula.",
+      "realityCheck": "Proiectul introduce art. 503^1 în Codul civil. Pentru actele medicale neurgente și fără risc major ajunge acordul unui părinte, cu obligația de a-l informa pe celălalt. Pentru actele cu risc major ori când există o hotărâre judecătorească se cere acordul ambilor. Legea în vigoare are deja, la art. 503 alin. (2), prezumția că părintele care face singur un act curent are acordul celuilalt față de terții de bună-credință, deci noutatea reală e mai mică decât pare. Textul nu spune ce se întâmplă dacă celălalt părinte se opune expres, iar criteriul „risc major” lasă medicilor o apreciere largă.",
       "affectedGroups": [
         "Sănătate & Educație",
-        "Justiție & Drepturi Civile"
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 503¹ alin. (1): un părinte poate consimți singur la actele medicale fără caracter de urgență și fără risc major. Textul codifică și extinde prezumția de la art. 503 alin. (2) C.civ., dar renunță la condiția bunei-credințe a terțului (medicul sau clinica).",
-        "Art. 503¹ alin. (3) lit. b) are efect contrar scopului său. Hotărârea definitivă poate stabili „altă modalitate” de exercitare a autorității părintești, de exemplu exercitarea exclusivă de către un părinte (art. 398 C.civ.), iar textul cere totuși acordul ambilor părinți. Corect ar fi ca acordul să se dea potrivit hotărârii. În plus, cerința unei hotărâri „definitive” ignoră că hotărârile de primă instanță privind autoritatea părintească sunt, de regulă, executorii de drept (art. 448 C.proc.civ.).",
-        "„Risc major” apare la alin. (1) și la alin. (3) lit. a), dar nu e definit și nu trimite la o listă sau la criterii medicale. De această noțiune depinde dacă e nevoie de una sau de două semnături, așa că incertitudinea pe care legea vrea s-o elimine se mută într-un singur concept vag.",
-        "Art. 503¹ alin. (2) și (4): obligația de a-l informa pe celălalt părinte nu are formă, termen precis („rezonabil”) sau sancțiune. Excepția de siguranță e apreciată chiar de părintele care ar trebui să informeze. E utilă în cazurile de violență domestică, dar ușor de invocat abuziv.",
-        "Textul nu trimite expres la legislația specială. Rămân aplicabile, doar prin principiul legii speciale: urgențele, unde Legea nr. 46/2003 nu cere acordul reprezentantului legal; consimțământul propriu al minorului de peste 16 ani pentru sănătatea sexuală și reproductivă (Legea nr. 95/2006); implicarea minorului în decizie.",
-        "Impact bugetar și birocratic: niciun cost public, nicio taxă, aviz sau sancțiune nouă. Reduce birocrația pentru părinți și pentru clinici, inclusiv pentru cele private, care primesc o regulă clară pentru actele uzuale."
+        "Art. 503^1 alin. (1): pentru actele medicale fără caracter de urgență și fără risc major este suficient acordul unui singur părinte. Regula e utilă pentru părinții separați și pentru medicii care astăzi cer, din prudență, ambele semnături.",
+        "Art. 503^1 alin. (3) lit. b): dacă există o hotărâre definitivă care stabilește „o altă modalitate” de exercitare a autorității părintești, se cere acordul AMBILOR părinți. Textul contrazice situația în care instanța a dat autoritatea exclusiv unui părinte (art. 398, art. 507 C.civ.) și îi poate da părintelui decăzut sau exclus un drept de veto.",
+        "„Risc major” nu este definit și nu are exemple. În practică, de teama răspunderii, medicii pot continua să ceară acordul ambilor părinți, ceea ce anulează scopul legii. Pot apărea și dispute pe teme sensibile, de exemplu vaccinarea.",
+        "Alin. (2) și (4): obligația de informare nu are sancțiune și nu afectează valabilitatea actului, cum recunoaște și expunerea de motive. Excepția pentru siguranța minorului sau a părintelui este binevenită în cazurile de violență domestică.",
+        "Textul tace despre cazul în care celălalt părinte s-a opus expres. Nu face nicio trimitere la art. 486 C.civ. (neînțelegerile dintre părinți se soluționează de instanța de tutelă), așa că rămâne neclar dacă un părinte poate trece peste opoziția declarată a celuilalt.",
+        "Impact bugetar și birocratic: practic zero. Nu creează taxe, sancțiuni, avize sau obligații pentru cetățeni ori IMM-uri. Furnizorii medicali privați pot avea mai puțină birocrație."
       ],
-      "blindSpotsCaught": "(1) Art. 503 alin. (2) C.civ. protejează doar terții de bună-credință, deci un medic care știe că celălalt părinte se opune nu se poate baza azi pe prezumție. Noul text nu mai menționează nici buna-credință, nici opoziția. Poate fi citit ca permițând primului părinte ajuns la medic să treacă peste refuzul expres al celuilalt, ocolind instanța de tutelă (art. 486 C.civ.). (2) Alin. (3) lit. b) produce efectul invers: când instanța a dat autoritatea unui singur părinte, legea ar cere două semnături. (3) Tehnică legislativă: titlul și art. I vorbesc de „modificare și completare”, dar legea doar completează. Formula finală invocă art. 76 alin. (1) din Constituție (lege organică), deși autoritatea părintească nu apare explicit printre domeniile din art. 73 alin. (3). Caracterul legii trebuie lămurit, pentru că de el depinde majoritatea de vot.",
-      "constitutionalityNote": "În esență, legea e compatibilă cu Constituția. Sprijină dreptul copilului la ocrotirea sănătății (art. 34 și art. 49), nu creează o ierarhie între părinți (art. 16 și art. 48 alin. (1)) și păstrează acordul ambilor părinți pentru actele grave. Punctul slab e art. 1 alin. (5), adică claritatea și previzibilitatea: „risc major” și „termen rezonabil” nu sunt definite. Curtea Constituțională admite însă noțiuni generale lăsate interpretării practicii, așa că aceste formulări singure probabil nu ar atrage neconstituționalitatea. Mai serios e alin. (3) lit. b), care intră în contradicție cu hotărârile care dau autoritatea unui singur părinte; o eventuală sesizare ar avea aici argumente. Viciile se pot corecta prin amendamente.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: legea nu introduce cerințe noi de acces la profesia medicală sau de exercitare a ei, ci stabilește doar cine își dă acordul pentru copil. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu există reguli tehnice pentru produse sau pentru servicii ale societății informaționale. Legea nu afectează concurența sau piața unică. Dreptul familiei și organizarea serviciilor de sănătate țin de statele membre (art. 168 alin. (7) TFUE). Art. 24 din Carta drepturilor fundamentale (interesul superior al copilului, dreptul copilului de a-și exprima opinia) se aplică doar când statul pune în aplicare dreptul UE, deci aici e doar orientativ. Mai relevantă e Convenția de la Oviedo (art. 6), ratificată prin Legea nr. 17/2001, care cere ca opinia minorului să conteze tot mai mult odată cu vârsta și maturitatea; textul nu abordează acest aspect. Informarea dintre părinți nu ridică probleme GDPR pentru clinici, fiind o obligație a părintelui, nu a furnizorului medical.",
+      "blindSpotsCaught": "Alin. (3) lit. b) e construit greșit. O hotărâre care stabilește exercitarea exclusivă de către un părinte ar trebui să ducă la consimțământul acelui părinte, nu la acordul ambilor. Proiectul nu tratează nici urgențele, pe care le scoate doar implicit din alin. (1); acestea rămân reglementate de Legea 95/2006 și Legea 46/2003, dar ar fi bine să se spună expres. Nu este corelat nici cu dispozițiile speciale privind opinia sau consimțământul minorului cu vârstă apropiată de majorat. Titlul spune „modificarea și completarea”, deși proiectul doar completează legea. Suprapunerea parțială cu art. 503 alin. (2) poate naște discuții despre raportul dintre „act curent” și „act fără risc major”.",
+      "constitutionalityNote": "Proiectul nu ridică probleme constituționale majore. El urmărește protecția copiilor (art. 49) și dreptul la ocrotirea sănătății (art. 34) și respectă egalitatea părinților (art. 48 alin. 1), pentru că oricare dintre ei poate consimți. Pe claritate și previzibilitate (art. 1 alin. 5) există vulnerabilități: „risc major” și „termen rezonabil” sunt nedefinite, iar alin. (3) lit. b) poate intra în conflict cu efectele unei hotărâri judecătorești definitive. Este lege organică în materie de familie? Codul civil s-a adoptat ca lege ordinară, iar regimul juridic general al familiei nu e listat expres la art. 73 alin. (3), deci adoptarea ca lege ordinară este acceptabilă. Camera Deputaților este corect cameră decizională.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este relevantă, pentru că proiectul nu reglementează accesul la profesii sau exercitarea lor. Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu sunt reglementări tehnice, servicii ale societății informaționale sau AI. Proiectul nu afectează piața unică sau concurența. Este compatibil cu art. 24 din Carta drepturilor fundamentale a UE și cu Convenția ONU privind drepturile copilului (interesul superior al copilului).",
       "senatForm": {
-        "articleRef": "Art. I – art. 503¹ alin. (3), (5)-(7) C. civ.",
-        "proposalContent": "Se elimină alin. (3) lit. b) și se introduc alin. (5): „Dacă o hotărâre judecătorească stabilește alt mod de exercitare a autorității părintești, consimțământul se dă potrivit acesteia.” Alin. (6): „Dacă celălalt părinte s-a opus expres, decide instanța de tutelă (art. 486).” Alin. (7): „Actele cu risc major se stabilesc prin ordin al ministrului sănătății.”",
-        "argumentation": "Lit. b) cere acordul ambilor părinți tocmai când instanța a dat autoritatea unuia singur (art. 398 C.civ.), contrazicând hotărârea. Textul nu spune ce se întâmplă dacă celălalt părinte se opune, deși art. 486 oferă calea. „Risc major” nu e definit, deci medicul nu știe sigur când îi trebuie două semnături (cerința de previzibilitate, art. 1 alin. (5) Constituție).",
-        "otherComments": "Titlul și art. I spun „modificarea și completarea”, dar legea doar completează (Legea nr. 24/2000). De adăugat la alin. (1): „fără a aduce atingere Legii nr. 46/2003 și Legii nr. 95/2006” și implicarea minorului în decizie, după gradul său de maturitate. Spuneți în text, nu doar în expunere, că lipsa informării nu afectează valabilitatea consimțământului."
-      }
+        "articleRef": "Art. I – art. 503^1 alin. (3) lit. b) C.civ.",
+        "proposalContent": "Lit. b) a alin. (3) se elimină și se introduce alin. (5): „Dacă o hotărâre judecătorească definitivă stabilește altfel exercitarea autorității părintești sau luarea deciziilor privind sănătatea minorului, consimțământul se exprimă potrivit hotărârii. Alin. (1)-(3) nu se aplică urgențelor medicale, reglementate de legea specială.”",
+        "argumentation": "Forma actuală cere acordul ambilor părinți tocmai când instanța a dat autoritatea unui singur părinte (art. 398, 507 C.civ.) sau a stabilit alte reguli. Asta contrazice hotărârea și poate bloca tratamentul copilului. Precizarea privind urgențele evită interpretarea că acestea ar necesita acordul ambilor părinți.",
+        "otherComments": "„Risc major” trebuie definit sau ilustrat (ex. intervenții chirurgicale, anestezie generală, tratamente ireversibile), altfel medicii vor cere tot acordul ambilor părinți. Trebuie precizat ce se întâmplă când celălalt părinte se opune expres, cu trimitere la art. 486 C.civ. Titlul ar trebui să fie doar „pentru completarea”."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 115051,
+      "durationMs": 77415,
+      "sourceEndMarker": "SF-A852A335",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Când poate un singur părinte să aprobe tratamentul copilului",
-      "verdictShort": "Proiectul poate simplifica accesul copiilor la îngrijiri obișnuite. Totuși, o excepție formulată greșit poate cere acordul unui părinte chiar când instanța a încredințat autoritatea părintească exclusiv celuilalt.",
-      "initiatorClaim": "Inițiatoarea urmărește eliminarea blocajelor provocate de solicitarea acordului ambilor părinți pentru îngrijiri medicale uzuale. Susține că informarea celuilalt părinte păstrează echilibrul autorității părintești comune.",
-      "realityCheck": "Art. 503¹ alin. (1) permite consimțământul unui singur părinte pentru actele neurgente fără risc major, iar alin. (2) introduce informarea celuilalt părinte. Alin. (3) lit. b) cere însă acordul ambilor prin simpla existență a unei hotărâri care stabilește altă modalitate de exercitare a autorității, inclusiv, potrivit lecturii literale, exercitarea exclusivă. Proiectul nu introduce taxe sau sancțiuni, dar criteriul nedefinit al riscului major și corelările incomplete pot genera întârzieri și litigii.",
+      "plainTitle": "Când poate un singur părinte să aprobe îngrijirile medicale ale copilului",
+      "verdictShort": "Proiectul poate simplifica accesul copiilor la îngrijiri medicale, dar conține o contradicție importantă: cere acordul ambilor părinți inclusiv când o hotărâre definitivă atribuie autoritatea părintească unui singur părinte. Textul necesită corectare și corelare cu legislația medicală.",
+      "initiatorClaim": "Inițiatoarea urmărește eliminarea blocajelor provocate de solicitarea acordului ambilor părinți pentru îngrijiri uzuale. Susține că informarea celuilalt părinte păstrează exercitarea comună a autorității fără să întârzie tratamentul.",
+      "realityCheck": "Art. 503¹ permite consimțământul unui singur părinte pentru orice act medical neurgent fără risc major, categorie potențial mai largă decât îngrijirile uzuale invocate în motivare. Regula se suprapune peste prezumția existentă pentru actele curente și necesită corelare cu regulile speciale privind deciziile medicale importante. Problema principală este alin. (3) lit. b), care transformă existența unei hotărâri privind o altă modalitate de exercitare a autorității într-un motiv pentru solicitarea ambelor consimțăminte, chiar dacă hotărârea stabilește exercitarea exclusivă.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Nu există un vid legislativ complet: art. 503 alin. (2) Cod civil permite deja terților de bună-credință să prezume acordul celuilalt părinte pentru actele curente. Proiectul introduce o regulă medicală expresă, al cărei raport cu această prezumție trebuie clarificat. [Codul civil](https://legislatie.just.ro/Public/DetaliiDocument/179824).",
-        "Art. 503¹ alin. (3) lit. b) poate contrazice soluția unei hotărâri privind autoritatea exclusivă. Trebuie respectate atât atribuțiile stabilite de instanță potrivit art. 398, cât și cazurile de exercitare de către un singur părinte prevăzute de art. 507 Cod civil. [Art. 398](https://legislatie.just.ro/Public/DetaliiDocument/179824), [art. 507](https://legislatie.just.ro/Public/FormaPrintabila/00000G0XPU5W61BRLNW3EV7L7BKR5XKC).",
-        "Pragul de risc major nu coincide obligatoriu cu tratamentele complexe sau intervențiile chirurgicale pentru care art. 36 alin. (3) din Legea nr. 272/2004 cere acord comun părinților care exercită împreună autoritatea, dar locuiesc separat. Proiectul nu rezolvă expres această suprapunere. [Legea nr. 272/2004](https://legislatie.just.ro/Public/DetaliiDocument/156097).",
-        "Alin. (3) lit. a) nu reia explicit excluderea urgențelor din alin. (1). Pentru evitarea interpretărilor blocante trebuie păstrată expres regula intervenției urgente fără consimțământul reprezentantului legal, prevăzută de art. 15 din Legea nr. 46/2003. [Drepturile pacientului](https://legislatie.just.ro/Public/DetaliiDocument/41483).",
-        "Trebuie protejate și situațiile în care minorul poate consimți personal, inclusiv excepția privind problemele sexuale și reproductive, la solicitarea expresă a minorului de peste 16 ani, în condițiile art. 661 din Legea nr. 95/2006. [Legea nr. 95/2006](https://www.ms.gov.ro/media/documents/LEGE_Nr._95_2006_Republicata_forma_la_data_de_20.11.2023___I.pdf).",
-        "Alin. (4) protejează util siguranța copilului și a părintelui. Totuși, textul nu precizează explicit consecințele neinformării asupra valabilității consimțământului, deși expunerea de motive afirmă că aceasta nu este afectată; termenul rezonabil și situațiile de exceptare necesită criterii practice.",
-        "Nu rezultă cheltuieli bugetare directe obligatorii, monopoluri sau autorizații noi pentru cabinete și clinici, inclusiv IMM-uri. Informarea revine părintelui; costurile administrative pentru furnizori ar putea apărea indirect, prin verificarea hotărârilor și adaptarea procedurilor, fără a fi cuantificate în documentele furnizate."
+        "În prezent, art. 503 alin. (2) din Codul civil prezumă, față de terții de bună-credință, acordul celuilalt părinte pentru actele curente. Proiectul introduce o autorizare expresă pentru o categorie medicală definită diferit; nu creează de la zero posibilitatea intervenției unui singur părinte.",
+        "Art. 503¹ alin. (3) lit. b) cere literal consimțământul ambilor părinți când există o hotărâre definitivă privind o altă modalitate de exercitare a autorității. Aceasta poate contrazice tocmai hotărârea prin care autoritatea este atribuită unui singur părinte, potrivit art. 398 din Codul civil.",
+        "Art. 36 din Legea nr. 272/2004 reglementează deja deciziile importante, inclusiv tratamentele medicale complexe și intervențiile chirurgicale, pentru părinții care exercită împreună autoritatea și nu locuiesc împreună. Categoriile respective nu coincid automat cu «riscul major» din proiect.",
+        "Art. 503¹ nu definește «risc major» și nu precizează cine îl apreciază. Lipsa unui criteriu medical de încadrare poate produce practici diferite și întârzieri în obținerea consimțământului.",
+        "Alin. (2) introduce obligația de informare, dar nu stabilește un termen determinat sau consecințele nerespectării sale. Afirmația din expunerea de motive că informarea nu condiționează valabilitatea consimțământului nu este exprimată explicit în dispozitiv.",
+        "Alin. (4) protejează util siguranța copilului și a părintelui, însă nu precizează dacă pericolul justifică amânarea, limitarea informațiilor sau neinformarea.",
+        "Proiectul nu abrogă expres garanțiile speciale privind urgențele, participarea minorului la decizie ori cazurile în care acesta poate consimți potrivit legislației medicale. Formularea generală a alin. (3) trebuie totuși delimitată pentru a evita interpretările restrictive.",
+        "Nu sunt introduse taxe, sancțiuni, monopoluri sau proceduri de autorizare profesională. Sarcina nouă este informarea între părinți; pot apărea costuri administrative pentru furnizorii medicali prin verificarea hotărârilor și interpretarea riscului.",
+        "Art. II prevede intrarea în vigoare după 30 de zile. Nu există alte modificări legislative, abrogări sau dispoziții tranzitorii în textul furnizat."
       ],
-      "blindSpotsCaught": "Art. 36 alin. (4) din Legea nr. 272/2004 permite deja, în anumite condiții, decizia părintelui cu care locuiește copilul dacă celălalt nu își exprimă voința; tăcerea nu trebuie confundată cu opoziția expresă. Cerința nouă a acordului ambilor pentru risc major trebuie corelată cu această soluție. Procedural, Senatul a respins propunerea la 27.04.2026, fără ca aceasta să încheie parcursul la Camera decizională; termenul indicat pentru amendamente, 12.05.2026, a trecut. [Legea nr. 272/2004](https://legislatie.just.ro/Public/DetaliiDocument/156097), [fișa proiectului](https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22933).",
-      "constitutionalityNote": "Scopul susține protecția sănătății și a copiilor, potrivit art. 34 și 49. Riscurile privesc art. 1 alin. (5): lipsa criteriilor pentru riscul major și contradicțiile privind autoritatea exclusivă reduc previzibilitatea și pot afecta accesul la tratament. Nu orice noțiune flexibilă este neconstituțională, iar necorelările nu echivalează automat cu o neconstituționalitate constatată. Art. 23 alin. (12) privește legalitatea pedepselor și nu constituie reperul direct aici, deoarece proiectul nu instituie pedepse. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355?isFormaDeBaza=True).",
-      "euLawNote": "Nu se identifică privilegii comerciale sau discriminări între furnizori. Directiva (UE) 2018/958 privește restricțiile asupra accesului la profesii reglementate ori exercitării lor; simpla reglementare a reprezentării minorului nu demonstrează existența unei asemenea restricții și nu justifică automat invocarea unui test obligatoriu. Directiva (UE) 2015/1535 nu impune notificare TRIS pentru textul analizat: acesta nu stabilește cerințe tehnice pentru produse și nu reglementează explicit servicii digitale sau AI; eventuala aplicare incidentală în telemedicină nu este suficientă. [Directiva 2018/958, art. 2 și 4](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018L0958), [Directiva 2015/1535, art. 1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32015L1535).",
+      "blindSpotsCaught": "Excepția privind hotărârile judecătorești produce efectul invers celui declarat în motivare: în loc să respecte modalitatea stabilită de instanță, impune textual acordul ambilor părinți. De asemenea, «fără risc major» nu este echivalent cu «act curent» și nici cu absența unui tratament complex; această diferență trebuie rezolvată expres.",
+      "constitutionalityNote": "Obiectivul susține protecția sănătății și a copilului, potrivit art. 34 și 49 din Constituție. Riscul principal privește art. 1 alin. (5): contradicția cu exercitarea exclusivă a autorității și delimitarea insuficientă față de legislația specială afectează previzibilitatea. Blocarea îngrijirilor prin solicitarea acordului unui părinte care nu exercită autoritatea poate afecta și drepturile protejate de art. 26, 48 și 49. Nu rezultă o neconstituționalitate certă a întregului proiect. Art. 23 alin. (12), referitor la pedepse, nu este incident direct, deoarece proiectul nu instituie sancțiuni penale.",
+      "euLawNote": "Din text nu rezultă restricții privind accesul la o profesie reglementată sau exercitarea acesteia care să declanșeze testul Directivei (UE) 2018/958. Nu sunt reglementate produse ori servicii ale societății informaționale, astfel că nu apare un temei pentru notificarea TRIS potrivit Directivei (UE) 2015/1535. Nu se identifică bariere concurențiale ori discriminări transfrontaliere. Informarea despre sănătatea copilului trebuie aplicată cu respectarea confidențialității și a normelor existente privind datele de sănătate.",
       "senatForm": {
-        "articleRef": "Art. I – art. 503¹ alin. (3) lit. b)",
-        "proposalContent": "b) hotărârea judecătorească aplicabilă impune acordul ambilor părinți pentru actul medical respectiv. Dacă autoritatea părintească se exercită de un singur părinte, acesta consimte singur, inclusiv în cazul prevăzut la lit. a), cu respectarea condițiilor stabilite de instanță.",
-        "argumentation": "Simpla existență a unei hotărâri nu justifică acordul ambilor părinți. Textul inițial poate reda puterea de blocaj părintelui exclus de instanță de la exercitarea autorității părintești. Soluția respectă art. 398 și 507 Cod civil, autoritatea hotărârilor și interesul superior al copilului.",
-        "otherComments": "Corelați întregul articol cu art. 36 alin. (3)-(4) din Legea nr. 272/2004. Precizați evaluarea riscului major și păstrați expres excepțiile medicale pentru urgențe și consimțământul propriu al minorului. Termenul de amendamente indicat, 12.05.2026, a trecut; cetățeanul transmite o propunere comisiei, pe care un deputat o poate prelua."
-      }
+        "articleRef": "Art. I – art. 503¹ alin. (3)",
+        "proposalContent": "(3) Pentru actele medicale cu risc major este necesar acordul ambilor părinți care exercită autoritatea părintească. Părintele care exercită singur autoritatea consimte singur. Se respectă hotărârile judecătorești definitive și dispozițiile speciale privind urgențele medicale, consimțământul minorului și soluționarea dezacordului dintre părinți.",
+        "argumentation": "Lit. b) impune acordul ambilor părinți inclusiv când instanța a atribuit autoritatea unuia singur, putând bloca tratamentul copilului. Reformularea respectă hotărârile definitive și delimitează regula de normele speciale. Sunt necesare și corelarea cu art. 36 din Legea nr. 272/2004, precum și clarificarea criteriului de risc major.",
+        "otherComments": "Analiza privește textele furnizate; verificarea online nu a fost disponibilă. Termenul de amendamente indicat, 12.05.2026, este depășit. Memoriul cetățeanului nu constituie amendament parlamentar; comisia trebuie să confirme posibilitatea valorificării lui în etapa actuală."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T02:25:10.889Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:23:49.749Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

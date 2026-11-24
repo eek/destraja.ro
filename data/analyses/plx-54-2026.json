@@ -2,127 +2,188 @@
   "billId": "Pl-x 54/2026",
   "slug": "plx-54-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T06:59:32.100Z",
+  "updatedAt": "2026-11-24T15:24:55.710Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 3491,
+    "ordinanceChars": 0,
+    "memoChars": 3937,
+    "memoSupplied": 3937,
+    "marker": "SF-34C63E26"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-54-2026.json",
+    "form": "initiator",
+    "textHash": "34c63e267ef3405b",
+    "fetchedAt": "2026-11-19T10:45:53.682Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1197,
+    "truncated": false,
+    "included": true,
+    "key": "ce8b0201bffeb4aa"
+  },
   "consensus": {
     "riskScore": 6.3,
     "riskLevel": "yellow",
-    "plainTitle": "Registru public cu banii ONG-urilor: cine le finanțează și cu cât",
-    "summaryTlDr": "Transparența banilor primiți de ONG-uri, mai ales a celor publici, e un scop legitim, iar donatorii persoane fizice sunt protejați. Textul e însă scris în grabă: sancțiunile sunt vagi și pot merge până la suspendarea activității, data de intrare în vigoare a trecut deja, iar zeci de mii de asociații mici primesc o raportare dublă.",
-    "initiatorClaim": "Expunerea de motive susține că informațiile despre finanțarea ONG-urilor sunt dispersate și greu accesibile. Asta ar alimenta suspiciuni și ar permite „influențe ascunse”, așa că propune un registru unic, public, gratuit și online, care păstrează confidențialitatea donatorilor persoane fizice.",
-    "realityCheck": "Art. 47¹ obligă fiecare asociație și fundație, indiferent de mărime, să trimită anual Ministerului Justiției, până la 31 martie: veniturile totale, finanțatorii de peste 10.000 lei/an, fondurile publice primite și raportul de activitate. Neraportarea se sancționează cu suspendarea accesului la finanțări publice și, la „refuz repetat”, cu cererea în instanță de suspendare a activității. Veniturile și situațiile financiare sunt deja depuse la ANAF, deci apare o dublă raportare. Textul nu spune explicit că finanțatorii persoane juridice se publică nominal, deși Expunerea de motive o promite. Donațiile nu apar nici ele printre formele de finanțare enumerate (grant, sponsorizare, contract).",
+    "plainTitle": "Registru public online cu banii primiți de toate ONG-urile, cu risc de suspendare pentru cine nu raportează",
+    "summaryTlDr": "Scopul, transparența finanțării ONG-urilor, e legitim, iar registrul nu discriminează după originea banilor. Textul are totuși probleme serioase: data de intrare în vigoare a trecut deja, sancțiunile sunt vagi și pot ajunge până la suspendarea activității pentru o simplă omisiune de raportare, iar sarcina cade la fel pe un club sportiv de cartier și pe o fundație mare.",
+    "initiatorClaim": "Inițiatoarea spune că informațiile despre finanțarea ONG-urilor sunt dispersate și greu accesibile, ceea ce alimentează suspiciuni și permite influențe ascunse. Propune un registru unic, public și gratuit, al veniturilor și finanțatorilor, gestionat de Ministerul Justiției împreună cu ANAF.",
+    "realityCheck": "Introduce art. 47^1 în OG 26/2000. Toate asociațiile și fundațiile, indiferent de mărime, trebuie să raporteze anual până la 31 martie veniturile totale, finanțatorii de peste 10.000 lei/an, cu forma finanțării, fondurile publice și europene și raportul de activitate. Raportarea dublează parțial situațiile financiare deja depuse la ANAF. Sancțiunile din alin. (7), adică suspendarea accesului la fonduri publice și sesizarea instanței pentru suspendarea activității, nu au autoritate decizională clară, procedură sau cale de atac. Termenul «refuz repetat» nu este definit.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Contabili & Fiscalitate",
-      "Sănătate & Educație",
-      "IMM & Antreprenori"
+      "IMM & Antreprenori",
+      "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. 47¹ alin. (7) și Articolul II",
-      "proposalContent": "Alin. (7) devine: „Netransmiterea datelor în termen constituie contravenție, constatată de Ministerul Justiției și sancționată cu avertisment, iar la repetare cu amendă de la 500 la 2.000 lei, potrivit OG nr. 2/2001.” Art. II devine: „Legea intră în vigoare la 6 luni de la publicare; prima raportare privește primul exercițiu financiar încheiat după această dată.”",
-      "argumentation": "Alin. (7) nu arată cine decide „suspendarea accesului la finanțări publice”, ce e „refuz repetat” și introduce „suspendarea activității”, sancțiune necunoscută OG 26/2000: lipsă de previzibilitate (art. 1 alin. 5) și restrângere disproporționată a dreptului de asociere (art. 40, 53). Art. II fixează 1.01.2026, dată deja trecută: legea ar fi retroactivă (art. 15 alin. 2).",
-      "otherComments": "Alin. (5): 31 martie precede depunerea situațiilor financiare ale ONG-urilor (120 de zile) și auditul; propun 31 mai, cu publicare până la 30 iunie. Datele deja depuse la ANAF să fie preluate automat (principiul „o singură dată”), iar entitățile cu venituri sub 50.000 lei/an să fie scutite de raportul de activitate. Corectați numerotarea Articol unic/Articolul II."
+      "articleRef": "Art. unic (art. 47^1 alin. 7) și Art. II",
+      "proposalContent": "Alin. (7) lit. c) se elimină. Lit. b) devine: «suspendarea, prin decizie motivată a Ministerului Justiției, contestabilă în contencios administrativ, a accesului la finanțări publice nerambursabile, până la transmiterea datelor». Art. II devine: «Legea intră în vigoare la 6 luni de la publicare; prima raportare privește exercițiul financiar următor.»",
+      "argumentation": "Data de 1.01.2026 a trecut, iar aplicarea pe exerciții deja încheiate ar fi retroactivă (art. 15 alin. 2). Suspendarea activității pentru o omisiune de raportare e disproporționată față de art. 40 și 53 din Constituție, iar «refuz repetat» nu e definit. Sancțiunea financiară trebuie dispusă de o autoritate identificată, cu cale de atac.",
+      "otherComments": "Recomand: preluarea automată din situațiile financiare depuse la ANAF, pentru a evita dubla raportare; scutirea sau formularul simplificat pentru entitățile cu venituri mici; precizarea că raportarea nominală de la alin. (3) lit. b) privește doar persoanele juridice, cum spune expunerea de motive; corectarea numerotării (Articol unic/Art. II)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 63208,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 112869,
+      "sourceEndMarker": "SF-34C63E26",
       "riskScore": 7,
       "riskLevel": "red",
-      "plainTitle": "Registru suplimentar de raportare a finanțărilor ONG-urilor la Ministerul Justiției, sub sancțiunea suspendării activității",
-      "verdictShort": "Sub pretextul transparenței, proiectul introduce o dublă raportare birocratică pentru toate asociațiile și fundațiile, cu un termen imposibil tehnic (înaintea închiderii bilanțului contabil) și cu sancțiunea extremă a suspendării activității în instanță pentru simple întârzieri administrative.",
-      "initiatorClaim": "Inițiatoarea susține că vrea să crească încrederea publică în sectorul neguvernamental prin înființarea unui registru online gratuit la Ministerul Justiției, în care ONG-urile să publice anual veniturile, rapoartele de activitate și finanțatorii care acordă peste 10.000 lei/an.",
-      "realityCheck": "În realitate, asociațiile și fundațiile depun deja bilanțurile anuale și declarațiile privind sponsorizările (D107) la ANAF, iar la Ministerul Justiției există deja Registrul Național ONG. Legea obligă toate asociațiile (inclusiv asociațiile de părinți sau cluburile sportive mici) să depună situațiile financiare și raportul de audit până la 31 martie — cu cel puțin o lună înaintea termenului legal din Legea contabilității — și inventează sancțiunea „suspendării activității”, care nu are regim juridic în OG nr. 26/2000.",
+      "plainTitle": "Registru de transparență pentru ONG-uri cu sancțiunea suspendării activității",
+      "verdictShort": "Sub pretextul legitim al transparenței fondurilor publice, proiectul impune tuturor asociațiilor și fundațiilor o raportare paralelă, cu termen imposibil și cu publicarea nominală a finanțatorilor și contractelor private peste 10.000 lei/an. Cel mai grav risc este introducerea sancțiunii vagi și disproporționate a suspendării activității ONG-ului prin instanță, dublată de o intrare în vigoare retroactivă.",
+      "initiatorClaim": "Inițiatoarea susține că legea crește încrederea publică, previne influențele ascunse și simplifică raportările financiare ale ONG-urilor printr-un registru online unitar gestionat de Ministerul Justiției și ANAF, fără a restrânge libertatea de asociere.",
+      "realityCheck": "În realitate, art. 47¹ nu elimină nicio raportare existentă la ANAF, ci adaugă o obligație birocratică paralelă cu termen 31 martie — cu o lună înainte ca ONG-urile să fie obligate legal să depună bilanțul anual. Legea expune public partenerii contractuali și sponsorii privați de la un prag redus (10.000 lei/an) și permite sancționarea neconformării cu blocarea accesului la fonduri publice și sesizarea instanței pentru „suspendarea activității”, fără nicio regulă procedurală, durată sau cale de atac.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Contabili & Fiscalitate",
+        "IMM & Antreprenori",
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Termen imposibil din punct de vedere contabil (Art. 47¹ alin. 3 și 5): ONG-urile sunt obligate să transmită veniturile totale și raportul de audit financiar până la 31 martie, deși potrivit Legii contabilității nr. 82/1991 termenul legal pentru închiderea și auditarea situațiilor financiare anuale este de 120 de zile de la încheierea exercițiului financiar (sfârșitul lunii aprilie / începutul lunii mai).",
-        "Sancțiuni disproporționate și neclare (Art. 47¹ alin. 7): Netransmiterea datelor atrage „suspendarea temporară a accesului la finanțări publice” și „sesizarea instanței competente pentru suspendarea activității”, fără a preciza ce autoritate aplică sancțiunile, prin ce act administrativ, pe ce durată și după ce procedură, având în vedere că OG nr. 26/2000 reglementează doar dizolvarea, nu și suspendarea judiciară a unei asociații.",
-        "Dublarea birocrației și prag arbitrar (Art. 47¹ alin. 1 și 3 lit. b): Se creează un nou registru la Ministerul Justiției paralel cu Registrul Național ONG existent (art. 73-74 din OG nr. 26/2000) și cu bazele de date ANAF, impunând raportarea nominală a oricărui contract, grant sau sponsorizare de peste 10.000 lei/an (~2.000 euro), inclusiv a contractelor comerciale sau cotizațiilor.",
-        "Viciu de tehnică legislativă și retroactivitate (Articolul II și Art. 47¹ alin. 8): Articolul II prevede că legea „intră în vigoare la 1 ianuarie 2026” (dată deja depășită în cursul dezbaterii parlamentare din Camera Deputaților) și acordă 6 luni de la publicare pentru pregătirea tehnică, în timp ce alin. (8) acordă 90 de zile de la intrarea în vigoare pentru normele metodologice."
+        "Sancțiuni disproporționate și neprevizibile (art. 47¹ alin. 7): netransmiterea datelor atrage „suspendarea temporară a accesului la finanțări publice” și „sesizarea instanței competente pentru suspendarea activității, în caz de refuz repetat”, fără a stabili cine constată abaterea, calea de atac, instanța competentă, durata sau efectele suspendării activității (sancțiune inexistentă în OG nr. 26/2000).",
+        "Termen incompatibil cu legea contabilității (art. 47¹ alin. 5): ONG-urile trebuie să trimită până la 31 martie veniturile totale, sursele defalcate și raportul de audit financiar, deși termenul legal pentru situațiile financiare anuale ale persoanelor juridice fără scop patrimonial (art. 36 alin. 1 lit. c din Legea nr. 82/1991) este de 120 de zile (30 aprilie).",
+        "Expunerea finanțărilor și contractelor private (art. 47¹ alin. 3 lit. b și alin. 4): orice finanțare publică sau privată (grant, sponsorizare, contract) de peste 10.000 lei/an de la același finanțator se publică nominal, afectând confidențialitatea comercială a ONG-urilor și firmelor partenere; excepția GDPR acoperă doar „persoanele fizice donatoare”, nu și persoanele fizice parte în contracte sau sponsorizări.",
+        "Intrare în vigoare retroactivă și termene contradictorii (Articolul II și art. 47¹ alin. 8): legea, aflată în dezbatere la Camera Deputaților în 2026, prevede intrarea în vigoare la 1 ianuarie 2026, acordând simultan Ministerului Justiției 90 de zile de la intrarea în vigoare pentru norme și 6 luni de la publicare pentru pregătirea tehnică.",
+        "Depășirea rolului Curții de Conturi și impact bugetar neacoperit (art. 47¹ alin. 1 și 9): verificarea datelor declarate (care includ și finanțări private) implică Curtea de Conturi dincolo de atribuția sa privind fondurile publice, iar costurile de dezvoltare și administrare ale registrului nu au sursă de finanțare indicată."
       ],
-      "blindSpotsCaught": "Textul creează o contradicție între Art. 47¹ alin. (3) lit. b), Art. 47¹ alin. (4) și Art. 47¹ alin. (5): deși alin. (4) prevede că datele privind persoanele fizice donatoare „se publică” doar în formă agregată, alin. (5) obligă asociațiile să „transmită” Ministerului Justiției datele de la alin. (3) (adică toate sursele private peste 10.000 lei/an), fără a clarifica dacă ONG-urile trebuie să raporteze nominal donatorii persoane fizice către Ministerul Justiției, urmând ca doar afișarea publică să fie anonimizată.",
-      "constitutionalityNote": "Propunerea încalcă Art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii) prin lipsa procedurii de aplicare și contestare a sancțiunilor din Art. 47¹ alin. (7) și prin necorelarea termenelor cu Legea nr. 82/1991. Sancțiunea suspendării activității unei asociații pentru o abatere de raportare administrativă afectează disproporționat dreptul de asociere garantat de Art. 40 și Art. 53 din Constituție. Totodată, Articolul II (intrarea în vigoare la 1 ianuarie 2026) contravine Art. 15 alin. (2) și Art. 78 din Constituție.",
-      "euLawNote": "În cauza C-78/18 (Comisia/Ungaria – Transparența asociațiilor), Curtea de Justiție a Uniunii Europene (CJUE) a statuat că impunerea unor obligații sistematice de raportare și publicare a finanțatorilor peste un prag valoric scăzut, însoțite de sancțiuni care pot duce la suspendarea sau încetarea activității ONG-urilor, are un efect stigmatizant și încalcă Art. 63 TFUE (libera circulație a capitalurilor), precum și Art. 7, 8 și 12 din Carta Drepturilor Fundamentale a UE (libertatea de asociere și protecția datelor).",
+      "blindSpotsCaught": "Există multiple capcane de redactare și procedură: (1) conflictul direct între termenul de 31 martie din proiect și termenul de 30 aprilie din Legea contabilității nr. 82/1991 face practic imposibilă raportarea definitivă și auditată; (2) alin. (4) protejează nominal doar „persoanele fizice donatoare”, lăsând neprotejate persoanele fizice din contracte sau sponsorizări > 10.000 lei/an; (3) Expunerea de motive include federațiile și donațiile, însă textul normativ omite federațiile și exclude „donația” din enumerarea de la alin. (3) lit. b); (4) viciu elementar de tehnică legislativă: proiectul începe cu „Articol unic”, urmat apoi de „Articolul II”.",
+      "constitutionalityNote": "Proiectul prezintă vicii grave de neconstituționalitate: încalcă art. 1 alin. (5) (claritatea și previzibilitatea legii) prin lipsa oricărei proceduri, autorități desemnate, durate sau căi de atac pentru sancțiunile de la art. 47¹ alin. (7); restrânge disproporționat libertatea de asociere (art. 40 coroborat cu art. 53) prin sancțiunea suspendării activității pentru o omisiune administrativă; încalcă art. 15 alin. (2) și art. 78 prin intrarea în vigoare retroactivă la 1 ianuarie 2026; extinde competența Curții de Conturi la finanțări private contrar art. 140; și omite indicarea sursei de finanțare pentru construirea registrului, contrar art. 138 alin. (5).",
+      "euLawNote": "Deși proiectul nu vizează exclusiv finanțarea din străinătate, în lumina jurisprudenței CJUE (cauza C-78/18, Comisia c. Ungaria), publicarea nominală a finanțatorilor privați de la pragul redus de ~2.000 euro/an, sub sancțiunea suspendării activității, riscă să constituie o restricție disproporționată asupra liberei circulații a capitalurilor (art. 63 TFUE) și a drepturilor garantate de art. 7, 8 și 12 din Carta Drepturilor Fundamentale a UE. Excepția limitată la „persoanele fizice donatoare” creează riscuri de neconformitate cu GDPR (Regulamentul UE 2016/679), iar publicarea contractelor dezavantajează concurențial ONG-urile cu activități economice (art. 48 OG 26/2000). Directivele (UE) 2018/958 (profesii reglementate) și (UE) 2015/1535 (TRIS) nu sunt incidente.",
       "senatForm": {
-        "articleRef": "Articol unic (Art. 47¹) și Articolul II",
-        "proposalContent": "Se propune respingerea propunerii legislative în ansamblu sau, în subsidiar, la art. 47¹ alin. (5) corelarea termenului cu cel al depunerii bilanțului contabil (30 mai), la alin. (7) eliminarea sancțiunii suspendării activității și la Art. II înlocuirea datei de 1 ianuarie 2026 cu „la 180 de zile de la publicarea în Monitorul Oficial”.",
-        "argumentation": "Termenul de 31 martie (alin. 5) este imposibil de respectat, fiind anterior termenului legal de întocmire și auditare a situațiilor financiare anuale (Legea 82/1991). Sancțiunea suspendării activității în instanță (alin. 7 lit. c) nu există ca instituție juridică în OG 26/2000 și încalcă art. 40 din Constituție și jurisprudența CJUE (C-78/18).",
-        "otherComments": "Art. II prevede intrarea în vigoare la 1 ianuarie 2026 (dată deja depășită), încălcând art. 15 alin. (2) și art. 78 din Constituție. În plus, asociațiile raportează deja situațiile financiare și sponsorizările la ANAF (D107), iar crearea unui nou registru paralel cu Registrul Național ONG de la Ministerul Justiției dublează inutil birocrația."
-      }
+        "articleRef": "Art. 47^1 alin. (3), (5), (7) și Art. II",
+        "proposalContent": "Limitarea raportării nominale la fondurile publice (eliminând contractele și finanțările private sub un prag adecvat), alinierea termenului la 31 mai (după bilanțul ANAF) prin interoperabilitate MJ-ANAF, eliminarea sancțiunii suspendării activității (alin. 7 lit. c) și stabilirea intrării în vigoare la 6 luni de la publicare.",
+        "argumentation": "Suspendarea activității ONG-urilor pentru omisiuni de raportare încalcă art. 1(5), art. 40 și art. 53 din Constituție și jurisprudența CJUE (C-78/18). Termenul de 31 martie precede depunerea bilanțului (30 aprilie, Legea 82/1991), iar Art. II prevede o dată retroactivă (1 ian. 2026, art. 15(2) și 78 Constituție).",
+        "otherComments": "Solicităm corectarea tehnicii legislative (Articol unic urmat de Articolul II), extinderea protecției GDPR de la alin. (4) pentru toate persoanele fizice, limitarea rolului Curții de Conturi strict la fondurile publice (art. 140 Constituție) și indicarea sursei bugetare conform art. 138(5) Constituție."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 186539,
+      "durationMs": 48021,
+      "sourceEndMarker": "SF-34C63E26",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Registru public cu banii ONG-urilor: cine le finanțează și cu cât",
-      "verdictShort": "Transparența banilor primiți de ONG-uri, mai ales a celor publici, e un scop legitim, iar donatorii persoane fizice sunt protejați. Textul e însă scris în grabă: sancțiunile sunt vagi și pot merge până la suspendarea activității, data de intrare în vigoare a trecut deja, iar zeci de mii de asociații mici primesc o raportare dublă.",
-      "initiatorClaim": "Expunerea de motive susține că informațiile despre finanțarea ONG-urilor sunt dispersate și greu accesibile. Asta ar alimenta suspiciuni și ar permite „influențe ascunse”, așa că propune un registru unic, public, gratuit și online, care păstrează confidențialitatea donatorilor persoane fizice.",
-      "realityCheck": "Art. 47¹ obligă fiecare asociație și fundație, indiferent de mărime, să trimită anual Ministerului Justiției, până la 31 martie: veniturile totale, finanțatorii de peste 10.000 lei/an, fondurile publice primite și raportul de activitate. Neraportarea se sancționează cu suspendarea accesului la finanțări publice și, la „refuz repetat”, cu cererea în instanță de suspendare a activității. Veniturile și situațiile financiare sunt deja depuse la ANAF, deci apare o dublă raportare. Textul nu spune explicit că finanțatorii persoane juridice se publică nominal, deși Expunerea de motive o promite. Donațiile nu apar nici ele printre formele de finanțare enumerate (grant, sponsorizare, contract).",
+      "plainTitle": "Registru public online cu banii primiți de toate ONG-urile, cu risc de suspendare pentru cine nu raportează",
+      "verdictShort": "Scopul, transparența finanțării ONG-urilor, e legitim, iar registrul nu discriminează după originea banilor. Textul are totuși probleme serioase: data de intrare în vigoare a trecut deja, sancțiunile sunt vagi și pot ajunge până la suspendarea activității pentru o simplă omisiune de raportare, iar sarcina cade la fel pe un club sportiv de cartier și pe o fundație mare.",
+      "initiatorClaim": "Inițiatoarea spune că informațiile despre finanțarea ONG-urilor sunt dispersate și greu accesibile, ceea ce alimentează suspiciuni și permite influențe ascunse. Propune un registru unic, public și gratuit, al veniturilor și finanțatorilor, gestionat de Ministerul Justiției împreună cu ANAF.",
+      "realityCheck": "Introduce art. 47^1 în OG 26/2000. Toate asociațiile și fundațiile, indiferent de mărime, trebuie să raporteze anual până la 31 martie veniturile totale, finanțatorii de peste 10.000 lei/an, cu forma finanțării, fondurile publice și europene și raportul de activitate. Raportarea dublează parțial situațiile financiare deja depuse la ANAF. Sancțiunile din alin. (7), adică suspendarea accesului la fonduri publice și sesizarea instanței pentru suspendarea activității, nu au autoritate decizională clară, procedură sau cale de atac. Termenul «refuz repetat» nu este definit.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Contabili & Fiscalitate",
         "IMM & Antreprenori",
-        "Sănătate & Educație"
+        "Sănătate & Educație",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. II fixează intrarea în vigoare la 1 ianuarie 2026, dată deja depășită. Aplicată ad literam, legea ar produce efecte retroactive. Termenul de 6 luni „de la publicare” pentru pregătirea registrului se mai bate cap în cap și cu cele 90 de zile pentru norme de la alin. (8), calculate de la intrarea în vigoare.",
-        "Art. 47¹ alin. (7) lit. b–c nu spune cine dispune „suspendarea accesului la finanțări publice”, prin ce act și cu ce cale de atac. „Refuzul repetat” nu e definit. OG 26/2000 prevede dizolvarea judecătorească, nu „suspendarea activității”, așa că sancțiunea nu are regim juridic.",
-        "Alin. (7) lit. b: „finanțările publice” sunt nedefinite. Termenul ar putea fi citit ca blocând și redirecționarea unei cote din impozitul pe venit (formularul 230), nu doar granturile pe Legea nr. 350/2005.",
-        "Alin. (3) lit. b și alin. (4): pragul de 10.000 lei/an de la același finanțator și agregarea donatorilor persoane fizice sunt garanții reale. La organizațiile cu foarte puțini donatori, suma agregată poate totuși identifica indirect o persoană.",
-        "Alin. (3) lit. d și alin. (5): nu există nicio scutire pentru entitățile mici, fără venituri sau angajați. Toate trebuie să depună un raport anual de activitate până la 31 martie, înaintea termenului legal de 120 de zile pentru situațiile financiare ale ONG-urilor.",
-        "Propunerea nu are fișă financiară, deși obligă Ministerul Justiției să construiască și să întrețină o platformă nouă, interconectată cu ANAF."
+        "Art. II fixează intrarea în vigoare la 1 ianuarie 2026, dată deja depășită în timp ce proiectul e încă la Cameră (2026-11-24). Tot Art. II acordă «6 luni de la publicare» pentru pregătirea tehnică, iar alin. (8) acordă 90 de zile de la intrare în vigoare pentru norme. Cele trei termene sunt incompatibile între ele.",
+        "Art. 47^1 alin. (7) lit. c) permite sesizarea instanței pentru suspendarea activității în caz de «refuz repetat» de transmitere a datelor. Nu se spune cine sesizează, după câte abateri și în ce termen. Sancțiunea atinge direct libertatea de asociere (art. 40 din Constituție) pentru o obligație pur informativă.",
+        "Alin. (7) lit. b), suspendarea accesului la finanțări publice, nu indică autoritatea care dispune măsura, forma actului sau calea de atac. Rămâne neclar dacă se aplică automat tuturor finanțatorilor publici, inclusiv autorităților locale.",
+        "Alin. (3) lit. b) cere identificarea surselor private de peste 10.000 lei/an fără să distingă persoanele fizice de cele juridice. Abia alin. (4) protejează donatorii persoane fizice, iar expunerea de motive vorbește doar de raportarea nominală a persoanelor juridice. Textul normativ ar trebui aliniat cu această intenție.",
+        "Obligația vizează toate entitățile, fără prag de venit sau scutire pentru asociațiile mici (de exemplu asociații de proprietari constituite ca asociații, cluburi, grupuri locale). Pentru voluntari fără contabil, sarcina birocratică e disproporționată.",
+        "Datele financiare de bază (venituri, surse publice) există deja în situațiile financiare anuale depuse la ANAF. Proiectul nu prevede preluarea lor automată, deci creează o dublă raportare, deși expunerea de motive invocă tocmai simplificarea.",
+        "Defecte de tehnică legislativă: «Articol unic» urmat de «Articolul II»; formula introductivă spune «se modifică și se completează», dar textul doar completează."
       ],
-      "blindSpotsCaught": "Expunerea de motive vorbește de „federații” și „donații” și promite raportarea nominală a finanțatorilor persoane juridice, dar articolul nu le menționează explicit. Interpretarea rămâne astfel la normele metodologice ale MJ (alin. 8), adică la discreția Executivului. Curtea de Conturi, chemată la alin. (9), poate verifica doar utilizarea banilor publici, nu și finanțările private. Termenul de 31 martie precede depunerea situațiilor financiare, deci raportul de audit cerut la lit. d adesea nici nu va exista la acea dată.",
-      "constitutionalityNote": "Scopul, transparența finanțărilor și mai ales a banilor publici, e legitim și compatibil cu art. 40. Anonimizarea donatorilor persoane fizice (alin. 4) răspunde art. 26. Problemele țin de art. 1 alin. (5): sancțiunile de la alin. (7) nu au autoritate competentă, procedură, definiții sau cale de atac. „Suspendarea activității” pentru o simplă neraportare este o restrângere a dreptului de asociere greu de justificat ca necesară și proporțională în sensul art. 53. Art. II (1 ianuarie 2026) contravine art. 15 alin. (2) și art. 78. Lipsa sursei de finanțare pentru registru ridică problema art. 138 alin. (5). Numerotarea „Articol unic” urmat de „Articolul II” încalcă normele de tehnică legislativă din Legea nr. 24/2000.",
-      "euLawNote": "Directiva 2018/958 nu se aplică, fiindcă textul nu reglementează accesul la o profesie. Nici TRIS 2015/1535 nu se aplică: registrul e un serviciu public al MJ, nu o regulă pentru furnizori de servicii ale societății informaționale. Relevantă este hotărârea CJUE C-78/18 Comisia/Ungaria (2020). Potrivit ei, obligațiile de transparență impuse ONG-urilor încalcă art. 63 TFUE și art. 7, 8 și 12 din Cartă când discriminează finanțarea străină sau stigmatizează organizațiile. Propunerea de față nu distinge după originea banilor și anonimizează persoanele fizice, deci riscul este mult mai mic. Rămâne o problemă GDPR: donațiile către asociații politice, religioase sau de pacienți pot dezvălui date sensibile (art. 9 GDPR) dacă agregarea permite identificarea.",
+      "blindSpotsCaught": "Data de 1 ianuarie 2026 face ca, la o eventuală adoptare în 2026/2027, legea să pretindă raportări pentru exerciții deja încheiate, sub amenințarea unor sancțiuni. Asta ridică o problemă de neretroactivitate și de imposibilitate de conformare. Din perspectiva UE, CJUE a sancționat în cauza C-78/18 Comisia/Ungaria (2020) un regim de transparență a finanțării ONG-urilor, pentru încălcarea liberei circulații a capitalurilor și a art. 7, 8 și 12 din Cartă. Proiectul românesc e mai moderat, pentru că nu țintește doar finanțarea străină și nu stigmatizează. Însă combinația dintre publicarea nominală a finanțatorilor, pragul relativ jos și sancțiunea de suspendare a activității îl expune aceluiași test de proporționalitate. Lipsesc și fișa financiară pentru costul registrului (art. 138 alin. 5 din Constituție) și orice mențiune despre punctul de vedere al Guvernului (art. 111).",
+      "constitutionalityNote": "Art. 1 alin. (5), claritate și previzibilitate: termenii «refuz repetat» și «până la conformare» sunt imprecizi, la fel și lipsa autorității care aplică sancțiunile de la alin. (7) lit. b)-c). Termenele din Art. II sunt contradictorii și nu respectă exigențele CCR privind calitatea legii. Art. 15 alin. (2), neretroactivitatea: data fixă de 1.01.2026 e deja trecută. Art. 40 și 53, libertatea de asociere și proporționalitatea: transparența e un scop legitim, dar suspendarea activității pentru neraportare și lipsa oricărei gradări după mărimea entității pot fi considerate disproporționate. Art. 26, viața privată: protecția donatorilor persoane fizice din alin. (4) e un punct pozitiv. Art. 138 alin. (5): proiectul nu indică sursa de finanțare pentru registru și pentru verificările ANAF și ale Curții de Conturi.",
+      "euLawNote": "Directiva 2018/958 nu e incidentă, pentru că nu se reglementează accesul la o profesie. Directiva 2015/1535 (TRIS) nu e incidentă, pentru că registrul e un instrument administrativ, nu o regulă tehnică privind servicii ale societății informaționale. Relevante sunt libera circulație a capitalurilor (art. 63 TFUE) și Carta drepturilor fundamentale (art. 7, 8, 12), interpretate în C-78/18. Proiectul nu discriminează finanțarea din alte state membre, deci riscul e mai mic decât în cazul ungar, dar rămâne obligatoriu testul de necesitate și proporționalitate pentru publicarea nominală și pentru sancțiuni. Publicarea datelor persoanelor juridice nu intră sub GDPR, cu excepția cazurilor în care identifică indirect persoane fizice (de exemplu PFA, întreprinderi individuale), situație pe care alin. (4) ar trebui să o acopere explicit.",
       "senatForm": {
-        "articleRef": "Art. 47¹ alin. (7) și Articolul II",
-        "proposalContent": "Alin. (7) devine: „Netransmiterea datelor în termen constituie contravenție, constatată de Ministerul Justiției și sancționată cu avertisment, iar la repetare cu amendă de la 500 la 2.000 lei, potrivit OG nr. 2/2001.” Art. II devine: „Legea intră în vigoare la 6 luni de la publicare; prima raportare privește primul exercițiu financiar încheiat după această dată.”",
-        "argumentation": "Alin. (7) nu arată cine decide „suspendarea accesului la finanțări publice”, ce e „refuz repetat” și introduce „suspendarea activității”, sancțiune necunoscută OG 26/2000: lipsă de previzibilitate (art. 1 alin. 5) și restrângere disproporționată a dreptului de asociere (art. 40, 53). Art. II fixează 1.01.2026, dată deja trecută: legea ar fi retroactivă (art. 15 alin. 2).",
-        "otherComments": "Alin. (5): 31 martie precede depunerea situațiilor financiare ale ONG-urilor (120 de zile) și auditul; propun 31 mai, cu publicare până la 30 iunie. Datele deja depuse la ANAF să fie preluate automat (principiul „o singură dată”), iar entitățile cu venituri sub 50.000 lei/an să fie scutite de raportul de activitate. Corectați numerotarea Articol unic/Articolul II."
-      }
+        "articleRef": "Art. unic (art. 47^1 alin. 7) și Art. II",
+        "proposalContent": "Alin. (7) lit. c) se elimină. Lit. b) devine: «suspendarea, prin decizie motivată a Ministerului Justiției, contestabilă în contencios administrativ, a accesului la finanțări publice nerambursabile, până la transmiterea datelor». Art. II devine: «Legea intră în vigoare la 6 luni de la publicare; prima raportare privește exercițiul financiar următor.»",
+        "argumentation": "Data de 1.01.2026 a trecut, iar aplicarea pe exerciții deja încheiate ar fi retroactivă (art. 15 alin. 2). Suspendarea activității pentru o omisiune de raportare e disproporționată față de art. 40 și 53 din Constituție, iar «refuz repetat» nu e definit. Sancțiunea financiară trebuie dispusă de o autoritate identificată, cu cale de atac.",
+        "otherComments": "Recomand: preluarea automată din situațiile financiare depuse la ANAF, pentru a evita dubla raportare; scutirea sau formularul simplificat pentru entitățile cu venituri mici; precizarea că raportarea nominală de la alin. (3) lit. b) privește doar persoanele juridice, cum spune expunerea de motive; corectarea numerotării (Articol unic/Art. II)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 141900,
+      "durationMs": 101383,
+      "sourceEndMarker": "SF-34C63E26",
       "riskScore": 7,
       "riskLevel": "red",
-      "plainTitle": "Registru public al finanțărilor ONG-urilor, cu sancțiuni până la suspendarea activității",
-      "verdictShort": "Transparența finanțărilor este utilă, dar proiectul permite sancțiuni severe pentru neraportare, fără reguli suficient de clare. Riscul major provine din posibilitatea suspendării activității unui ONG și din calendarul de aplicare imposibil de păstrat în forma actuală.",
-      "initiatorClaim": "Inițiatoarea urmărește creșterea încrederii în ONG-uri prin publicarea veniturilor și a finanțărilor, protejând identitatea donatorilor persoane fizice. Expunerea promite și simplificarea raportărilor, prevenirea influențelor ascunse și controlul utilizării fondurilor publice.",
-      "realityCheck": "Art. 47¹ introduce raportarea anuală la Ministerul Justiției pentru asociații și fundații, inclusiv cele finanțate exclusiv privat, fără o procedură simplificată pentru organizațiile mici. Registrul oferă acces gratuit la informații, dar raportarea nouă nu înlocuiește expres obligațiile existente, iar neraportarea poate bloca accesul la finanțări publice și determina sesizarea instanței pentru suspendarea activității. Protejarea nominală a donatorilor persoane fizice este prevăzută expres, însă publicarea rapoartelor integrale necesită garanții suplimentare pentru datele personale.",
+      "plainTitle": "Finanțările ONG-urilor, publicate online sub riscul suspendării activității",
+      "verdictShort": "Registrul poate aduce transparență utilă, iar protejarea identității donatorilor persoane fizice este o garanție pozitivă. Riscul major vine din posibilitatea suspendării activității pentru neraportare, pe criterii insuficient definite, și din data de intrare în vigoare deja depășită.",
+      "initiatorClaim": "Inițiatoarea urmărește centralizarea informațiilor despre finanțarea ONG-urilor, creșterea încrederii publice și prevenirea utilizării necorespunzătoare a fondurilor. Expunerea susține că registrul simplifică raportările și nu limitează activitatea organizațiilor.",
+      "realityCheck": "Proiectul introduce o raportare anuală suplimentară către Ministerul Justiției și publicarea veniturilor, surselor de finanțare peste prag și rapoartelor de activitate; nu elimină obligațiile financiar-contabile existente. Deși expunerea afirmă că activitatea nu este limitată, art. 47¹ alin. (7) prevede suspendarea accesului la finanțări publice și sesizarea instanței pentru suspendarea activității în caz de refuz repetat. Art. II fixează intrarea în vigoare la 1 ianuarie 2026, dată incompatibilă cu aplicarea exclusiv pentru viitor a unei legi publicate ulterior.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Contabili & Fiscalitate",
         "IMM & Antreprenori",
-        "Sănătate & Educație"
+        "Sănătate & Educație",
+        "Agricultură & Mediu"
       ],
       "keyFindings": [
-        "Art. 47¹ alin. (3)-(4): publicarea veniturilor și a finanțărilor poate îmbunătăți verificarea utilizării banilor publici. Sursele peste 10.000 lei/an de la același finanțator sunt individualizate, iar donatorii persoane fizice beneficiază de agregare fără identificare nominală.",
-        "Art. 47¹ alin. (7): avertismentul inițial și intervenția instanței sunt garanții reale. Totuși, textul nu definește «refuzul repetat», durata suspendării activității, procedura aplicării măsurilor sau autoritatea care suspendă accesul la finanțări publice; existența căilor generale de atac nu rezolvă aceste lacune.",
-        "Art. 47¹ alin. (3) lit. b): formulările «depășesc» și «sub pragul» nu stabilesc explicit tratamentul finanțărilor de exact 10.000 lei/an. De asemenea, «contract» nu delimitează clar finanțarea nerambursabilă de veniturile comerciale obținute în schimbul unor servicii.",
-        "Art. 47¹ alin. (5)-(6) și art. II: raportarea până la 31 martie și publicarea până la 30 aprilie nu sunt corelate cu cele șase luni necesare pregătirii registrului. Data intrării în vigoare, 1 ianuarie 2026, era deja depășită la înregistrarea proiectului în Camera Deputaților.",
-        "Art. 47¹ alin. (1), (5), (8)-(9): apar costuri pentru platformă, administrare, verificări și pregătirea raportărilor. Documentele furnizate nu cuantifică aceste costuri și nu stabilesc preluarea automată a datelor deja declarate; Guvernul semnalează riscul unui mecanism paralel și al birocrației excesive. [Punctul de vedere al Guvernului](https://www.senat.ro/legis/PDF/2025/25L537PV.PDF)",
-        "Proiectul nu introduce taxe, monopoluri sau obligația generală de audit financiar: raportul de audit se publică numai «dacă este cazul». Pentru IMM-urile finanțatoare, efectul este în principal indirect, prin vizibilitatea finanțărilor și eventuale solicitări de documente; obligația declarativă revine ONG-urilor.",
-        "Art. 47¹ alin. (3) lit. d) și alin. (4): agregarea donatorilor nu garantează anonimizarea rapoartelor de activitate sau de audit, care pot conține date despre beneficiari, angajați ori alte persoane. Sunt necesare reguli privind eliminarea datelor inutile, păstrarea și rectificarea lor, conform art. 5-6 GDPR. [GDPR](https://eur-lex.europa.eu/legal-content/RO-EN/TXT/?uri=CELEX%3A32016R0679)"
+        "Noutatea este registrul public și raportarea către Ministerul Justiției: art. 47¹ nu există în forma în vigoare furnizată. Obligațiile financiar-contabile existente nu sunt înlocuite, iar proiectul nu instituie preluarea automată a datelor deja depuse la autorități.",
+        "Art. 47¹ alin. (3)-(4): veniturile și finanțările devin accesibile gratuit online; datele despre donatorii persoane fizice se publică agregat, fără nume. Este o garanție reală, dar trebuie aplicată inclusiv rapoartelor anexate, pentru a evita identificarea indirectă.",
+        "Art. 47¹ alin. (7): nu sunt definite «refuzul repetat», durata suspendării activității sau criteriile acesteia. Nu este clar nici dacă avertismentul și blocarea finanțărilor sunt etape obligatoriu succesive, cine dispune blocarea și cum se constată conformarea.",
+        "Suspendarea activității presupune sesizarea unei instanțe; nu este o închidere administrativă automată. Garanțiile procedurale generale continuă să se aplice, însă intervenția instanței nu rezolvă singură problema proporționalității sancțiunii.",
+        "Art. 47¹ alin. (7) lit. b): «accesul la finanțări publice» nu distinge între solicitări noi, contracte existente și plăți deja datorate. Această incertitudine poate afecta continuitatea serviciilor furnizate beneficiarilor ONG-urilor.",
+        "Art. II: data de 1 ianuarie 2026 trebuie înlocuită. Cele șase luni pentru pregătirea tehnică, cele 90 de zile pentru norme și termenele anuale de 31 martie și 30 aprilie nu sunt corelate printr-o regulă pentru prima raportare.",
+        "Art. 47¹ alin. (3) lit. b): finanțările care depășesc 10.000 lei sunt individualizate, iar cele sub 10.000 lei sunt agregate; cazul exact de 10.000 lei nu este reglementat explicit. Textul trebuie să precizeze și conținutul identificării finanțatorului.",
+        "Registrul presupune costuri informatice și administrative pentru Ministerul Justiției și sarcini recurente pentru ONG-uri, inclusiv cele mici. Textul furnizat nu cuantifică aceste costuri și nu prevede simplificări în funcție de dimensiunea organizației; IMM-urile finanțatoare sunt afectate indirect prin publicitatea finanțărilor."
       ],
-      "blindSpotsCaught": "Pragul de 10.000 lei privește detalierea finanțărilor, nu scutirea ONG-urilor mici de raportare. Federațiile sunt menționate în expunere, dar nu expres în articol; art. 35 alin. (2) din OG nr. 26/2000 permite însă aplicarea corespunzătoare a regulilor asociațiilor, astfel că excluderea lor nu poate fi afirmată categoric. Formula finală invocă majoritatea pentru legi organice, deși Consiliul Legislativ califică inițiativa drept lege ordinară. Senatul a respins propunerea la 2 februarie 2026, fără a încheia procedura în Camera decizională. [OG nr. 26/2000](https://legislatie.just.ro/Public/DetaliiDocument/20740), [Avizul Consiliului Legislativ](https://www.senat.ro/Legis/PDF/2025/25L537LG.pdf), [Fișa legislativă](https://www.senat.ro/Legis/Lista.aspx?cod=27170)",
-      "constitutionalityNote": "Există vulnerabilități serioase, fără a putea anticipa o decizie CCR. Art. 1 alin. (5) impune claritate: sancțiunile și condițiile suspendării nu pot fi lăsate spre definire esențială normelor ministeriale. Suspendarea activității pentru neraportare trebuie justificată prin art. 40 și condițiile art. 53; intervenția instanței nu garantează singură proporționalitatea. Art. 23 alin. (12) privește legalitatea pedepselor și nu se aplică automat acestor măsuri administrative sau civile; reperul principal rămâne art. 1 alin. (5). Art. II trebuie rescris pentru respectarea art. 78 și a neretroactivității din art. 15 alin. (2). Costurile registrului cer fundamentare și identificarea finanțării potrivit art. 138 alin. (5), fără ca lipsa estimării din extras să dovedească singură neconstituționalitatea. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355)",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă direct: proiectul nu restrânge accesul la o profesie reglementată sau exercitarea acesteia. Nu rezultă nici obligația notificării TRIS potrivit Directivei (UE) 2015/1535: existența unui registru online nu transformă raportarea ONG-urilor într-o reglementare specifică serviciilor societății informaționale, iar textul nu reglementează AI. Nu se identifică un monopol, dar costurile fixe de conformare pot dezavantaja organizațiile mici, inclusiv când desfășoară activități economice. Pentru finanțările transfrontaliere este relevant art. 63 TFUE și cauza C-78/18: transparența poate constitui un obiectiv legitim, însă obligațiile și sancțiunile trebuie justificate și proporționale. Proiectul românesc nu reproduce discriminarea după originea străină a finanțării din cazul ungar și protejează nominal donatorii persoane fizice; incompatibilitatea nu poate fi dedusă automat. Rămâne necesară respectarea GDPR. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/ro/ALL/?uri=CELEX%3A32018L0958), [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=celex%3A32015L1535), [CJUE, C-78/18](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A62018CJ0078)",
+      "blindSpotsCaught": "Dispoziția finală este esențială: nu poate transforma termene deja trecute în obligații opozabile retroactiv. În plus, protecția donatorilor privește explicit publicarea datelor, fără să clarifice dacă Ministerul primește identități individuale; această distincție contează pentru GDPR. Normele metodologice nu pot suplini definirea prin lege a elementelor esențiale ale sancțiunilor. Nu există în text abrogări sau o derogare care să înlăture raportările existente.",
+      "constitutionalityNote": "Transparența finanțărilor poate urmări un scop legitim, însă suspendarea întregii activități pentru neraportare ridică un risc serios în raport cu libertatea de asociere, art. 40, și condițiile restrângerii drepturilor, art. 53. Formulările sancționatorii și calendarul incoerent afectează previzibilitatea cerută de art. 1 alin. (5). Aplicarea retroactivă ar contraveni art. 15 alin. (2), iar intrarea în vigoare trebuie corelată cu art. 78. Art. 23 alin. (12), privind legalitatea pedepsei, nu este temeiul principal: proiectul nu instituie infracțiuni. Costurile trebuie fundamentate, cu respectarea art. 111 alin. (1) și art. 138 alin. (5), după incidența lor bugetară; neconstituționalitatea financiară nu poate fi dedusă automat din fragmentul furnizat.",
+      "euLawNote": "Directiva (UE) 2018/958 privește reglementarea accesului la profesii reglementate sau a exercitării acestora; proiectul nu intră, prin obiectul prezentat, în acest domeniu. Nici procedura TRIS din Directiva (UE) 2015/1535 nu este declanșată doar pentru că registrul este online: textul nu stabilește reguli tehnice pentru produse ori reguli specifice serviciilor societății informaționale. GDPR impune garanții efective pentru datele personale din declarații și rapoarte, inclusiv minimizare, păstrare și prevenirea reidentificării. Hotărârea CJUE C-78/18, Comisia/Ungaria, arată riscurile obligațiilor disproporționate de transparență asupra finanțărilor transfrontaliere și asocierii; incompatibilitatea nu este automată aici, deoarece proiectul nu diferențiază finanțatorii după origine. Nu se creează un monopol economic, dar blocarea finanțărilor poate afecta concurența dintre furnizorii de servicii.",
       "senatForm": {
-        "articleRef": "Art. 47¹ alin. (7), introdus prin articolul unic",
-        "proposalContent": "(7) Netransmiterea datelor se constată de Ministerul Justiției și atrage avertisment scris, cu termen de remediere de 30 de zile de la comunicare. Neîndeplinirea obligației de raportare nu poate determina suspendarea activității. Avertismentul poate fi contestat potrivit Legii nr. 554/2004.",
-        "argumentation": "Suspendarea activității pentru o omisiune declarativă poate afecta disproporționat libertatea de asociere și beneficiarii serviciilor ONG-ului. Textul actual nu definește refuzul repetat, durata suspendării ori autoritatea care blochează finanțările. Avertismentul și termenul de remediere păstrează obligația de transparență.",
-        "otherComments": "Propunere pentru Comisia juridică a Camerei Deputaților, preluabilă de un deputat. Separat: corectarea art. II, raportare după operaționalizarea registrului, preluarea datelor existente la ANAF și reguli de anonimizare a rapoartelor. Termenul de amendamente indicat, 18.02.2026, este depășit; petiția nu echivalează cu depunerea unui amendament."
-      }
+        "articleRef": "Art. 47¹ alin. (7)",
+        "proposalContent": "(7) Ministerul Justiției comunică un avertisment și acordă 30 de zile pentru transmiterea datelor lipsă. Dacă termenul expiră fără conformare, poate suspenda motivat accesul la noi finanțări publice până la remediere. Decizia poate fi contestată potrivit Legii nr. 554/2004. Netransmiterea datelor nu poate determina suspendarea activității.",
+        "argumentation": "Suspendarea întregii activități pentru neraportare poate fi disproporționată față de art. 40 și 53 din Constituție. Amendamentul precizează autoritatea și termenul de remediere, impune motivarea și limitează restricția la finanțări noi, protejând proiectele deja contractate și beneficiarii acestora.",
+        "otherComments": "Art. II trebuie corelat cu publicarea legii și trebuie stabilit primul an de raportare. Termenul de amendamente indicat, 18.02.2026, este expirat la data analizei; posibilitatea preluării propunerii trebuie verificată la comisie. Analiza privește textele furnizate; verificarea online a surselor nu a fost disponibilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 6.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T06:59:32.100Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 7,
+        "claude": 5,
+        "codex": 7
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:24:55.710Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

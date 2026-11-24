@@ -2,119 +2,175 @@
   "billId": "Pl-x 139/2026",
   "slug": "plx-139-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T06:49:06.297Z",
+  "updatedAt": "2026-11-24T15:24:49.714Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 3111,
+    "ordinanceChars": 0,
+    "memoChars": 35521,
+    "memoSupplied": 35521,
+    "marker": "SF-F67DCEC1"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-139-2026.json",
+    "form": "initiator",
+    "textHash": "f67dcec1584fbd03",
+    "fetchedAt": "2026-11-19T10:40:39.996Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 4,
+    "articlesShown": 4,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 15932,
+    "truncated": false,
+    "included": true,
+    "key": "a5abe64df27827d0"
+  },
   "consensus": {
-    "riskScore": 3,
-    "riskLevel": "green",
-    "plainTitle": "Românii din străinătate ar vota trei zile (vineri–duminică) la alegerile europarlamentare",
-    "summaryTlDr": "Este o măsură utilă, care aduce la europarlamentare votul pe trei zile din diaspora, deja folosit la prezidențiale. Textul e însă scris în grabă: nu spune ce se întâmplă cu urnele pline peste noapte și nu corelează campania electorală cu votul care începe vineri.",
-    "initiatorClaim": "Inițiatorii AUR spun că votul într-o singură zi produce cozi de ore în străinătate și îi împiedică pe mulți români din diaspora să voteze. Ei propun extinderea votului la trei zile, după modelul Legii nr. 370/2004 pentru alegerea Președintelui.",
-    "realityCheck": "Efectul real al textului: secțiile din străinătate ar fi deschise vineri între 12,00 și 21,00 și sâmbătă între 7,00 și 21,00, ora locală, pe lângă duminica obișnuită. În țară votul rămâne doar duminica. Legea modifică doar patru articole și lasă goluri: nu reglementează închiderea, sigilarea și paza urnelor între zile, nu definește «perioada de vot» și nu atinge regulile despre sfârșitul campaniei. Expunerea invocă «studii de specialitate» și «recomandări ale Comisiei Europene și ale Parlamentului European» fără să citeze vreuna. Acestea rămân argumente de susținere, nu fapte verificate.",
+    "riskScore": 4,
+    "riskLevel": "yellow",
+    "plainTitle": "La europarlamentare, românii din străinătate ar putea vota trei zile: vineri, sâmbătă și duminică",
+    "summaryTlDr": "Ideea e utilă: aduce la europarlamentare modelul de vot pe trei zile în diaspora, deja folosit la prezidențiale. Textul are însă goluri tehnice. Lipsesc regulile pentru păstrarea urnelor peste noapte, deși expunerea de motive spune că le introduce. Formula «ziua de duminică» nu se potrivește cu restul legii.",
+    "initiatorClaim": "Inițiatorii vor să reducă cozile și situațiile în care românii din diaspora nu reușesc să voteze. Pentru asta, votul în străinătate ar dura de vineri, ora locală 12:00, până duminică la 21:00, iar în țară ar rămâne doar duminica.",
+    "realityCheck": "Proiectul are un articol unic cu 5 puncte. Principalul este art. 46 alin. (1¹), care adaugă vot în străinătate vineri (12–21, ora locală) și sâmbătă (7–21, ora locală). Celelalte schimbări sunt de terminologie: «perioada de vot» la art. 34 și 44, «în fiecare zi» la art. 45 alin. (5), «în zilele de vot» la art. 45 alin. (12). Expunerea de motive descrie sigilarea urnelor în cele două nopți și verificarea zilnică a sigiliilor, consemnată în procesul-verbal de la art. 49, dar textul legii nu conține nimic din toate acestea. Securitatea materialelor între zile ar ajunge să depindă doar de hotărârile BEC/AEP. Formularea nouă a art. 45 alin. (5) poate fi citită chiar ca obligație de a redeschide și resigila urnele în fiecare dimineață.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
-      "Toți cetățenii",
-      "IMM & Antreprenori"
+      "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 46 alin. (1²) nou, Legea nr. 33/2007",
-      "proposalContent": "(1²) La încheierea votării vineri și sâmbătă, președintele biroului secției, în prezența membrilor și a observatorilor, sigilează fanta urnelor, ambalează și sigilează buletinele neutilizate, ștampilele și listele, consemnează în proces-verbal numărul votanților și asigură păstrarea lor sub pază. Sigiliile se verifică în ziua următoare, înainte de deschidere.",
-      "argumentation": "Proiectul extinde votul în străinătate la 3 zile, dar nu spune ce se întâmplă peste noapte cu urnele pline și materialele de vot. Golul afectează previzibilitatea legii (art. 1 alin. 5 din Constituție) și poate alimenta contestații. Votul pe 3 zile la prezidențiale, invocat ca model, funcționează doar cu reguli exprese pentru aceste operațiuni.",
-      "otherComments": "1) Corectați «birouului» (de 2 ori) la art. 45 alin. (5). 2) La art. 46 alin. (1) precizați că, în străinătate, ora e cea locală. 3) Corelați încheierea campaniei electorale cu deschiderea votului în străinătate de vineri. 4) Atașați fișa financiară (art. 15 Legea 500/2002, art. 138 alin. 5 Constituție). 5) Definiți «perioada de vot»."
+      "articleRef": "Art. 46 alin. (1²) nou (Art. unic, pct. 5¹)",
+      "proposalContent": "(1²) În străinătate, vineri și sâmbătă, la închiderea votării, președintele sigilează urnele, buletinele nefolosite, ștampilele și listele în prezența membrilor și observatorilor, care pot semna sigiliile; totul rămâne sub pază permanentă. La redeschidere se verifică integritatea sigiliilor, cu mențiune în procesul-verbal. Numărarea începe duminică, după închidere.",
+      "argumentation": "Expunerea de motive anunță proceduri de sigilare peste noapte și verificarea zilnică a sigiliilor, dar textul nu le conține. Fără ele, art. 45 alin. (5) modificat pare să ceară redeschiderea zilnică a urnelor, iar integritatea votului din cele două nopți ar depinde doar de hotărârile BEC/AEP.",
+      "otherComments": "Recomand și: (1) înlocuirea „ziua de duminică” de la art. 46 alin. (1) cu „ziua de referință”, termenul folosit în restul legii; (2) precizarea „ora locală” și pentru ziua de duminică în străinătate; (3) adaptarea art. 44 alin. (3) și art. 45 alin. (3) (predarea materialelor, prezența biroului în ajun) la deschiderea de vineri."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 69574,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Vot pe parcursul a trei zile în diaspora și la alegerile europarlamentare",
-      "verdictShort": "Inițiativă utilă și pro-democratică, care aliniază alegerile europarlamentare la regula celor trei zile de vot în diaspora aplicată deja la prezidențiale și parlamentare. Totuși, textul este redactat superficial și omite regulile de sigilare a urnelor peste noapte și corelarea cu finalul campaniei electorale.",
-      "initiatorClaim": "Inițiatorii urmăresc eliminarea cozilor de la secțiile de votare din străinătate la alegerile pentru Parlamentul European, prin extinderea votării în diaspora pe durata a trei zile (vineri, sâmbătă și duminică), după modelul alegerilor prezidențiale.",
-      "realityCheck": "Legea extinde efectiv votul în străinătate în zilele de vineri (12:00-21:00) și sâmbătă (07:00-21:00), păstrând votul în țară doar duminica (07:00-21:00). Din păcate, proiectul conține lacune tehnice majore: nu reglementează sigilarea și paza urnelor în nopțile de vineri și sâmbătă, obligă birourile să se deschidă vineri la ora 06:00 (deși votul începe la 12:00) și uită să modifice data încheierii campaniei electorale.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 96865,
+      "sourceEndMarker": "SF-F67DCEC1",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Vot pe trei zile în diaspora la europarlamentare, dar fără reguli de pază a urnelor peste noapte",
+      "verdictShort": "Obiectivul de a extinde votul în străinătate la 3 zile la alegerile europarlamentare este legitim și util, dar textul legii este redactat grav incomplet. Proiectul omite complet procedurile de sigilare, pază și verificare a urnelor între zilele de vot și lasă contradicții majore în Legea nr. 33/2007.",
+      "initiatorClaim": "Inițiatorii susțin că vor să elimine cozile și să faciliteze accesul românilor din diaspora la alegerile europarlamentare prin extinderea votului în străinătate la 3 zile (vineri 12:00–21:00, sâmbătă și duminică 7:00–21:00), după modelul alegerilor prezidențiale, incluzând proceduri stricte de securizare a urnelor peste noapte.",
+      "realityCheck": "În legea actuală, votul europarlamentar durează o singură zi (duminică, 7:00–21:00) atât în țară, cât și în străinătate; proiectul păstrează votul de duminică în România și adaugă vineri (12:00–21:00) și sâmbătă (7:00–21:00) doar în diaspora. În realitate însă, deși Expunerea de motive promite reguli detaliate de păstrare, sigilare și verificare zilnică a urnelor în cele două nopți, textul legii nu conține niciun articol pe această temă, creând un vid juridic periculos pentru integritatea votului și multiple necorelări în Legea nr. 33/2007.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Extinde perioada de votare pentru secțiile din străinătate la 3 zile: vineri (12:00-21:00), sâmbătă (07:00-21:00) și duminică (07:00-21:00), conform noului art. 46 alin. (1¹).",
-        "Omisiune critică de securitate electorală: proiectul nu introduce proceduri pentru închiderea, sigilarea urnelor și întocmirea proceselor-verbale intermediare la finalul zilelor de vineri și sâmbătă (ora 21:00).",
-        "Desincronizare la art. 45 alin. (5): textul obligă biroul secției de votare să își înceapă activitatea „în fiecare zi la ora 6,00” și să sigileze urnele ca la deschidere, deși vineri votarea începe la ora 12:00, iar sâmbătă și duminică urnele conțin deja buletine de vot din zilele precedente.",
-        "Conține și o eroare de redactare la art. 46 alin. (1¹): repetiția „În ziua de vineri, votarea începe în ziua de vineri, ora locală 12,00”."
+        "Vid legislativ privind paza urnelor peste noapte: deși Secțiunea IV din Expunerea de motive susține că proiectul reglementează păstrarea, securizarea și verificarea zilnică a sigiliilor între zilele de vot, cele 5 puncte ale proiectului nu prevăd nicio procedură de închidere a secției vineri și sâmbătă seara, de sigilare a fantei urnei, de pază nocturnă sau de proces-verbal intermediar (spre deosebire de Legea nr. 370/2004 luată ca model).",
+        "Contradicții interne în Legea nr. 33/2007: art. 45 alin. (5) modificat obligă birourile să înceapă zilnic la ora 6:00 (inclusiv vineri, când votul începe la 12:00) și să verifice și sigileze urnele în fiecare dimineață ca și cum ar fi goale; totodată, art. 45 alin. (3) rămâne nemodificat și prevede întrunirea biroului „în ajunul zilei de referință, la ora 18,00” (adică sâmbătă seara, după ce în diaspora s-ar fi votat deja o zi și jumătate).",
+        "Termeni nedefiniți și aplicare ambiguă în țară: sintagma „perioada de vot” introdusă la art. 34 alin. (7) și art. 44 alin. (5) nu este definită, art. 46 alin. (5)-(6) continuă să se raporteze la „ziua de referință”, iar art. 45 alin. (12) extinde interdicția alcoolului la „zilele de vot, între orele 7,00-21,00” fără a clarifica dacă vizează doar diaspora sau și secțiile din România.",
+        "Impact bugetar neacoperit prin sursă de finanțare: Expunerea de motive estimează cheltuieli suplimentare de circa 10 milioane lei per scrutin european (+15% la bugetul votului în străinătate), fără indicarea sursei concrete de finanțare și fără fișa financiară în documentația proiectului."
       ],
-      "blindSpotsCaught": "Inițiatorii au uitat să modifice art. 35 alin. (1) din Legea nr. 33/2007, potrivit căruia campania electorală se încheie „în dimineața zilei de sâmbătă care precedă ziua de referință, la ora 7,00”. Astfel, în forma propusă, vineri între orele 12:00 și 21:00 cetățenii din diaspora ar vota în timp ce campania electorală este încă în plină desfășurare legală.",
-      "constitutionalityNote": "Măsura consolidează dreptul de vot (art. 36 și art. 38 din Constituție) pentru cetățenii români din străinătate. Totuși, lipsa normelor privind custodia și sigilarea urnelor între zilele de votare și suprapunerea votului de vineri cu campania electorală încalcă exigențele de claritate, previzibilitate și coerență normativă impuse de art. 1 alin. (5) din Constituție.",
-      "euLawNote": "Proiectul este compatibil cu art. 10 alin. (1) din Actul privind alegerea membrilor Parlamentului European prin vot universal direct (anexat la Decizia 76/787/CECO, CEE, Euratom, modificat prin Decizia 2002/772/CE), care stabilește că scrutinul europarlamentar se desfășoară în toate statele membre în intervalul joi dimineața – duminică. Nu are incidență pe Directiva (UE) 2018/958 sau procedura TRIS (Directiva 2015/1535).",
+      "blindSpotsCaught": "Diferența flagrantă dintre Expunerea de motive și textul efectiv al legii: motivarea descrie obligații de securizare nocturnă a urnelor și de verificare zilnică a sigiliilor care pur și simplu lipsesc din textul propus. În plus, art. 46 alin. (1¹) folosește „ora locală 21,00” fără a corela închiderea votului de duminică cu diferențele de fus orar (în emisfera vestică, duminică ora locală 21:00 depășește ziua de duminică în UE, riscând fricțiuni cu fereastra joi–duminică din Actul Electoral European din 1976).",
+      "constitutionalityNote": "Scopul legii (vot pe 3 zile exclusiv în străinătate) este compatibil cu art. 16 și art. 36 din Constituție, reprezentând o măsură pozitivă rezonabilă pentru accesul efectiv la vot, deja consacrată la prezidențiale. Însă redactarea prezintă vulnerabilități majore față de art. 1 alin. (5) (claritatea și previzibilitatea legii — vidul normativ privind custodia nocturnă a urnelor și normele contradictorii din art. 45–46) și față de art. 138 alin. (5) (lipsa indicării sursei de finanțare și a fișei financiare pentru impactul bugetar de 10 mil. lei). Formula de adoptare ca lege organică (art. 76 alin. 1) este corectă.",
+      "euLawNote": "Directivele (UE) 2018/958 (profesii reglementate) și (UE) 2015/1535 (TRIS/servicii digitale) nu sunt aplicabile, iar proiectul nu afectează piața unică sau concurența. În privința legislației electorale europene, votarea de vineri până duminică se încadrează în fereastra comună joi–duminică stabilită de art. 10 alin. (1) din Actul din 1976 privind alegerea membrilor Parlamentului European, însă textul ar trebui să clarifice închiderea votului de duminică pe fusurile orare vestice și interdicția publicării rezultatelor înainte de închiderea ultimelor urne din UE (art. 10 alin. 2).",
       "senatForm": {
-        "articleRef": "Articol unic, pct. 3 și pct. 5 (Art. 45 și 46)",
-        "proposalContent": "La art. 46, după alin. (1^1) se introduce alin. (1^2): „La încheierea votării în zilele de vineri și sâmbătă, urnele și ștampilele se sigilează, se întocmește proces-verbal zilnic privind prezența, iar localul secției se securizează până la reluarea votării.” De asemenea, la art. 35 alin. (1), campania electorală se încheie în ziua de vineri, la ora 7,00.",
-        "argumentation": "Proiectul introduce votul de vineri și sâmbătă în diaspora, dar omite să reglementeze sigilarea și paza urnelor peste noapte între zilele de votare. În plus, art. 35 alin. (1) din Legea 33/2007 rămâne nemodificat (campania se încheie sâmbătă la ora 7:00), ceea ce ar permite desfășurarea campaniei electorale vineri, în timp ce în străinătate deja se votează.",
-        "otherComments": "La art. 45 alin. (5) se prevede că activitatea biroului începe „în fiecare zi la ora 6,00”, deși vineri votarea începe abia la ora locală 12,00 (art. 46 alin. 1^1). Se impune corelarea orei de deschidere a biroului în ziua de vineri (ora 11,00) și trimiterea expresă la utilizarea SIMPV pentru prevenirea votului multiplu între străinătate și țară."
-      }
+        "articleRef": "Articol unic, pct. 3 și 5 (art. 45 și 46)",
+        "proposalContent": "Introduceți reguli exprese pentru încheierea votării vineri și sâmbătă în străinătate: sigilarea urnelor, paza nocturnă, verificarea sigiliilor a doua zi și procese-verbale intermediare (ca în Legea nr. 370/2004). Corelați art. 44 alin. (5), art. 45 alin. (3), (5), (12) și art. 46 alin. (5)-(6) și definiți „perioada de vot”.",
+        "argumentation": "Expunerea de motive afirmă că sunt reglementate paza și verificarea urnelor între zilele de vot, dar textul legii omite complet aceste reguli. Art. 45 alin. (3) lasă întrunirea biroului sâmbătă la 18:00, iar alin. (5) impune deschiderea la 6:00 inclusiv vineri. Lipsa de claritate încalcă art. 1 alin. (5) din Constituție și riscă contestarea scrutinului.",
+        "otherComments": "Clarificați dacă art. 45 alin. (12) (interdicția alcoolului „în zilele de vot”) vizează și secțiile din țară vineri-sâmbătă, corectați greșelile redacționale („birouului”, dublarea „în ziua de vineri”), stabiliți ora de închidere duminică raportat la fusul orar din UE și solicitați fișa financiară prevăzută de art. 138 alin. (5) din Constituție."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 219418,
+      "durationMs": 68489,
+      "sourceEndMarker": "SF-F67DCEC1",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Românii din străinătate ar vota trei zile (vineri–duminică) la alegerile europarlamentare",
-      "verdictShort": "Este o măsură utilă, care aduce la europarlamentare votul pe trei zile din diaspora, deja folosit la prezidențiale. Textul e însă scris în grabă: nu spune ce se întâmplă cu urnele pline peste noapte și nu corelează campania electorală cu votul care începe vineri.",
-      "initiatorClaim": "Inițiatorii AUR spun că votul într-o singură zi produce cozi de ore în străinătate și îi împiedică pe mulți români din diaspora să voteze. Ei propun extinderea votului la trei zile, după modelul Legii nr. 370/2004 pentru alegerea Președintelui.",
-      "realityCheck": "Efectul real al textului: secțiile din străinătate ar fi deschise vineri între 12,00 și 21,00 și sâmbătă între 7,00 și 21,00, ora locală, pe lângă duminica obișnuită. În țară votul rămâne doar duminica. Legea modifică doar patru articole și lasă goluri: nu reglementează închiderea, sigilarea și paza urnelor între zile, nu definește «perioada de vot» și nu atinge regulile despre sfârșitul campaniei. Expunerea invocă «studii de specialitate» și «recomandări ale Comisiei Europene și ale Parlamentului European» fără să citeze vreuna. Acestea rămân argumente de susținere, nu fapte verificate.",
+      "plainTitle": "La europarlamentare, românii din străinătate ar putea vota trei zile: vineri, sâmbătă și duminică",
+      "verdictShort": "Ideea e utilă: aduce la europarlamentare modelul de vot pe trei zile în diaspora, deja folosit la prezidențiale. Textul are însă goluri tehnice. Lipsesc regulile pentru păstrarea urnelor peste noapte, deși expunerea de motive spune că le introduce. Formula «ziua de duminică» nu se potrivește cu restul legii.",
+      "initiatorClaim": "Inițiatorii vor să reducă cozile și situațiile în care românii din diaspora nu reușesc să voteze. Pentru asta, votul în străinătate ar dura de vineri, ora locală 12:00, până duminică la 21:00, iar în țară ar rămâne doar duminica.",
+      "realityCheck": "Proiectul are un articol unic cu 5 puncte. Principalul este art. 46 alin. (1¹), care adaugă vot în străinătate vineri (12–21, ora locală) și sâmbătă (7–21, ora locală). Celelalte schimbări sunt de terminologie: «perioada de vot» la art. 34 și 44, «în fiecare zi» la art. 45 alin. (5), «în zilele de vot» la art. 45 alin. (12). Expunerea de motive descrie sigilarea urnelor în cele două nopți și verificarea zilnică a sigiliilor, consemnată în procesul-verbal de la art. 49, dar textul legii nu conține nimic din toate acestea. Securitatea materialelor între zile ar ajunge să depindă doar de hotărârile BEC/AEP. Formularea nouă a art. 45 alin. (5) poate fi citită chiar ca obligație de a redeschide și resigila urnele în fiecare dimineață.",
       "affectedGroups": [
+        "Toți cetățenii",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 46 alin. (1¹) nou introduce votul în străinătate vineri (12,00–21,00) și sâmbătă (7,00–21,00), ora locală, iar duminica rămâne 7,00–21,00. În țară nu se schimbă nimic. Formula e cea folosită deja la alegerile prezidențiale.",
-        "Art. 45 alin. (5) spune că biroul secției începe activitatea «în fiecare zi» la 6,00, dar nicio normă nu reglementează închiderea de vineri și de sâmbătă: sigilarea fantei urnelor, consemnarea numărului de votanți, păstrarea și paza peste noapte a urnelor pline, a buletinelor și a ștampilelor, accesul observatorilor.",
-        "Noțiunea de «perioadă de vot» (art. 34 alin. 7, art. 44 alin. 5) nu este definită. Nu reiese clar dacă «preziua perioadei de vot» înseamnă joi pentru străinătate și sâmbătă pentru țară. La fel, «zilele de vot» din art. 45 alin. (12), privind interdicția de alcool, pot fi citite ca vineri–duminică și pentru secțiile din țară.",
-        "Proiectul nu modifică regulile despre încheierea campaniei electorale, care sunt raportate la ziua alegerilor (duminica). Diaspora ar începe deci să voteze vineri la prânz, cât timp campania este încă în desfășurare.",
-        "Costurile cresc: secțiile din străinătate funcționează încă două zile, deci se plătesc indemnizații pentru membrii birourilor, spații, pază și logistică. În fragmentul de expunere disponibil nu apare o estimare a costului sau sursa de finanțare.",
-        "Textul are erori de redactare: «birouului» apare de două ori la art. 45 alin. (5). În plus, pentru duminică nu se precizează «ora locală», spre deosebire de vineri și sâmbătă."
+        "Art. 46 alin. (1¹) nou: votul în străinătate se întinde pe vineri (12:00–21:00) și sâmbătă (7:00–21:00), ora locală. Duminică rămâne regula de la alin. (1), 7:00–21:00, fără mențiunea expresă «ora locală». Orarul de duminică din străinătate rămâne astfel neclar în text.",
+        "Art. 46 alin. (1) se schimbă din «Votarea începe la ora 7,00» în «Votarea în ziua de duminică începe…». Restul legii folosește însă «ziua de referință» (art. 45 alin. (3), art. 46 alin. (5)–(6)), iar data alegerilor se stabilește prin hotărâre de Guvern. Legarea orarului de o zi a săptămânii, nu de ziua alegerilor, creează o incoerență terminologică.",
+        "Lipsesc regulile pentru nopțile dintre zilele de vot: sigilarea urnelor și a buletinelor nefolosite, paza, accesul observatorilor, verificarea sigiliilor la redeschidere și momentul numărării. Expunerea de motive (cap. IV) le prezintă ca parte a proiectului, dar ele nu apar în articolul unic.",
+        "Art. 45 alin. (5) modificat («începe în fiecare zi la ora 6,00») repetă zilnic întreaga procedură de deschidere, inclusiv «închide și sigilează urnele prin aplicarea ștampilei de control». Pentru urnele deja folosite vineri, textul poate fi citit ca permisiune sau chiar obligație de a le redeschide, ceea ce afectează integritatea votului.",
+        "Mai multe articole nu au fost adaptate la deschiderea de vineri: art. 44 alin. (3) (materialele se distribuie «cu două zile înaintea alegerilor»), art. 45 alin. (3) (biroul se prezintă «în ajunul zilei de referință, la ora 18,00») și art. 46 alin. (5)–(6) («în ziua de referință»). Pentru secțiile din străinătate, aplicarea acestor termene devine nesigură.",
+        "Expunerea de motive estimează un cost de circa 10 milioane lei pe scrutin, suportat din bugetul de stat prin AEP, MAE și MAI. Pentru cetățeni și IMM-uri nu apar costuri sau sarcini birocratice noi."
       ],
-      "blindSpotsCaught": "Art. 45 alin. (5) preia procedura de deschidere gândită pentru urne goale și o aplică «în fiecare zi». Președintele trebuie să verifice urnele și apoi să le «închidă și să le sigileze». Citit literal, textul cere ca sâmbătă și duminică dimineața să fie închise și sigilate din nou urne care conțin deja voturi. Legea nu spune cum au fost sigilate seara și nici cine constată, la redeschidere, integritatea sigiliilor. Un asemenea gol de custodie afectează direct încrederea în rezultatul din diaspora și poate fi folosit în contestații. Modelul prezidențial invocat funcționează doar cu reguli exprese pentru aceste operațiuni.",
-      "constitutionalityNote": "În fond, legea este compatibilă cu Constituția. Măsura servește dreptul de vot (art. 36) și dreptul de a alege în Parlamentul European (art. 38). Nu încalcă egalitatea (art. 16): tratamentul diferit al alegătorilor din străinătate are o justificare obiectivă (secții puține, distanțe mari), iar în jurisprudența constantă a CCR egalitatea nu înseamnă uniformitate. Sistemul electoral se reglementează prin lege organică (art. 73 alin. 3 lit. a), iar formula finală invocă corect art. 76 alin. (1). Traseul cu Senatul primă cameră și Camera decizională respectă art. 75. Punctele slabe țin de art. 1 alin. (5): lipsesc regulile pentru urne între zilele de vot, iar «perioada de vot» rămâne nedefinită. Costul suplimentar cere o estimare și o sursă de finanțare (art. 138 alin. 5). Dacă este adoptată din timp, legea respectă recomandarea Comisiei de la Veneția de a nu schimba elementele esențiale ale legii electorale cu mai puțin de un an înainte de vot (următoarele alegeri europarlamentare: 2029).",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că nu sunt vizate profesii reglementate. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că legea nu conține reguli pentru servicii ale societății informaționale. Concurența nu este afectată. Relevant este Actul din 1976 privind alegerea membrilor Parlamentului European prin vot universal direct: art. 10 lasă statelor ziua și orele votului într-o fereastră comună care începe joi dimineață și se termină duminică, iar vineri–duminică se încadrează în ea. Rămâne valabilă regula că rezultatele nu se publică înainte de închiderea votului în ultimul stat membru. Directiva 93/109/CE (cetățeni UE care locuiesc în alt stat membru) nu este afectată. Interdicția votului dublu se aplică în continuare, iar verificările împotriva votului multiplu trebuie să acopere toate cele trei zile. Dreptul UE nu impune votul pe mai multe zile: măsura este o opțiune națională, nu o obligație europeană, contrar sugestiei din expunere.",
+      "blindSpotsCaught": "Expunerea de motive promite proceduri de securizare peste noapte care nu există în textul articolului. Cine citește doar expunerea crede că problema e rezolvată, deși golul rămâne. Pe dreptul UE, art. 10 din Actul electoral european din 1976 permite votul între joi dimineața și duminica următoare, deci intervalul vineri–duminică e compatibil. Același art. 10 alin. (2) interzice însă publicarea oficială a rezultatelor înainte de închiderea votului în ultimul stat membru. Proiectul nu spune explicit că voturile din vineri și sâmbătă se numără abia duminică după închidere.",
+      "constitutionalityNote": "Fondul nu pare să ridice probleme constituționale. Tratamentul diferit al alegătorilor din străinătate are o justificare obiectivă (distanțe mari, puține secții) și urmărește ca dreptul de vot (art. 36, 38) să poată fi exercitat efectiv, în acord cu art. 16. O soluție similară se aplică deja la alegerile prezidențiale. Fiind lege electorală, este lege organică (art. 73 alin. (3) lit. a), iar formula de adoptare citează corect art. 76 alin. (1). Riscurile țin de claritatea și previzibilitatea normei (art. 1 alin. (5)): incoerența «ziua de duminică» / «ziua de referință», lipsa orei locale pentru duminică și lipsa regulilor de păstrare a urnelor peste noapte. Proiectul generează cheltuieli bugetare, așa că sunt obligatorii punctul de vedere al Guvernului (art. 111 alin. (1)) și indicarea sursei de finanțare (art. 138 alin. (5)). Expunerea indică bugetul de stat, dar din documente nu reiese dacă punctul de vedere al Guvernului a fost obținut. Codul de bune practici al Comisiei de la Veneția recomandă ca regulile electorale să nu fie schimbate cu mai puțin de un an înainte de scrutin. Cum următoarele europarlamentare sunt în 2029, această recomandare este respectată.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează accesul la profesii. Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu reglementează servicii digitale sau reguli tehnice. Proiectul nu afectează concurența sau piața unică. Actul din 1976 privind alegerea membrilor Parlamentului European, la art. 10 alin. (1), lasă statelor membre alegerea datei în intervalul joi–duminică, deci votul de vineri până duminică în străinătate se încadrează. Trebuie respectat art. 10 alin. (2): rezultatele oficiale nu se publică înainte de închiderea votului în toate statele membre. De aceea ar fi util ca legea să prevadă explicit că numărarea se face abia după închiderea de duminică. Măsura sprijină participarea cetățenilor mobili în UE și este compatibilă cu art. 3 din Protocolul 1 la CEDO.",
       "senatForm": {
-        "articleRef": "Art. 46 alin. (1²) nou, Legea nr. 33/2007",
-        "proposalContent": "(1²) La încheierea votării vineri și sâmbătă, președintele biroului secției, în prezența membrilor și a observatorilor, sigilează fanta urnelor, ambalează și sigilează buletinele neutilizate, ștampilele și listele, consemnează în proces-verbal numărul votanților și asigură păstrarea lor sub pază. Sigiliile se verifică în ziua următoare, înainte de deschidere.",
-        "argumentation": "Proiectul extinde votul în străinătate la 3 zile, dar nu spune ce se întâmplă peste noapte cu urnele pline și materialele de vot. Golul afectează previzibilitatea legii (art. 1 alin. 5 din Constituție) și poate alimenta contestații. Votul pe 3 zile la prezidențiale, invocat ca model, funcționează doar cu reguli exprese pentru aceste operațiuni.",
-        "otherComments": "1) Corectați «birouului» (de 2 ori) la art. 45 alin. (5). 2) La art. 46 alin. (1) precizați că, în străinătate, ora e cea locală. 3) Corelați încheierea campaniei electorale cu deschiderea votului în străinătate de vineri. 4) Atașați fișa financiară (art. 15 Legea 500/2002, art. 138 alin. 5 Constituție). 5) Definiți «perioada de vot»."
-      }
+        "articleRef": "Art. 46 alin. (1²) nou (Art. unic, pct. 5¹)",
+        "proposalContent": "(1²) În străinătate, vineri și sâmbătă, la închiderea votării, președintele sigilează urnele, buletinele nefolosite, ștampilele și listele în prezența membrilor și observatorilor, care pot semna sigiliile; totul rămâne sub pază permanentă. La redeschidere se verifică integritatea sigiliilor, cu mențiune în procesul-verbal. Numărarea începe duminică, după închidere.",
+        "argumentation": "Expunerea de motive anunță proceduri de sigilare peste noapte și verificarea zilnică a sigiliilor, dar textul nu le conține. Fără ele, art. 45 alin. (5) modificat pare să ceară redeschiderea zilnică a urnelor, iar integritatea votului din cele două nopți ar depinde doar de hotărârile BEC/AEP.",
+        "otherComments": "Recomand și: (1) înlocuirea „ziua de duminică” de la art. 46 alin. (1) cu „ziua de referință”, termenul folosit în restul legii; (2) precizarea „ora locală” și pentru ziua de duminică în străinătate; (3) adaptarea art. 44 alin. (3) și art. 45 alin. (3) (predarea materialelor, prezența biroului în ajun) la deschiderea de vineri."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 159829,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Trei zile de vot în străinătate la europarlamentare",
-      "verdictShort": "Proiectul facilitează exercitarea dreptului de vot și are un scop legitim. Riscul este redus, dar regulile pentru întreruperea votării peste noapte și corelarea procedurilor electorale trebuie completate înainte de adoptare.",
-      "initiatorClaim": "Inițiatorii urmăresc reducerea cozilor și a deplasărilor dificile pentru românii care votează în străinătate. Ei susțin că programul extins va crește participarea, însă fragmentul expunerii de motive nu oferă studiile și datele necesare verificării acestei estimări.",
-      "realityCheck": "Art. 46 propus permite votarea în străinătate vineri între 12:00 și 21:00, sâmbătă și duminică între 07:00 și 21:00: în total 37 de ore, cu întreruperi nocturne, față de 14 ore în România. Extinderea privește alegătorii eligibili aflați în străinătate, fără ca textul să impună domiciliul acolo, și nu introduce vot electronic sau prin corespondență. Beneficiul practic este plauzibil, dar proiectul nu reglementează complet securizarea materialelor între zile și nu garantează eliminarea aglomerației.",
+      "durationMs": 68587,
+      "sourceEndMarker": "SF-F67DCEC1",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Trei zile de vot în străinătate la alegerile europene",
+      "verdictShort": "Extinderea votării în străinătate este utilă și justificabilă. Proiectul necesită însă completări privind întreruperile nocturne și corelarea operațiunilor electorale: expunerea de motive promite garanții pe care articolele nu le instituie.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea cozilor și facilitarea participării românilor aflați în străinătate, prin preluarea modelului votării pe trei zile de la alegerile prezidențiale. În România, votarea ar rămâne duminică.",
+      "realityCheck": "Art. 46 alin. (1¹) propus adaugă votarea în străinătate vineri, între orele locale 12:00–21:00, și sâmbătă, între 07:00–21:00; duminică rămâne programul 07:00–21:00. Modificările conexe nu stabilesc explicit procedura de închidere nocturnă, inventarierea și verificarea sigiliilor, deși motivarea afirmă că acestea sunt reglementate. Proiectul nu introduce taxe, autorizații sau sancțiuni noi, dar presupune cheltuieli publice și organizare suplimentară.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
-        "Toți cetățenii",
-        "IMM & Antreprenori"
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. unic pct. 5 extinde exclusiv votarea din străinătate. Numărul voturilor acordate fiecărui alegător și regulile de atribuire a mandatelor nu sunt modificate.",
-        "Art. 48 și 49 din lege leagă închiderea sălii de încheierea votării, numărare și anularea buletinelor nefolosite. Proiectul trebuie să distingă închiderea temporară de vineri și sâmbătă de încheierea definitivă de duminică. [Legea nr. 33/2007](https://legislatie.just.ro/Public/DetaliiDocumentAfis/155582)",
-        "Art. 35 alin. (1), nemodificat, încheie campania sâmbătă la 07:00, deși votarea din străinătate ar începe vineri. Suprapunerea trebuie reglementată explicit; ea nu dovedește singură o încălcare constituțională. [Legea nr. 33/2007](https://legislatie.just.ro/Public/DetaliiDocumentAfis/155582)",
-        "Art. unic pct. 3 extinde interdicția comercializării și consumului alcoolului la zilele de vot, între 07:00 și 21:00, în spațiul de protecție al secției. Există astfel un efect punctual asupra comercianților; vineri, interdicția ar începe cu cinci ore înaintea votării. Nu sunt instituite taxe sau monopoluri.",
-        "Organizarea pe trei zile implică probabil cheltuieli suplimentare pentru personal, spații și pază, fără obligații administrative noi pentru alegători. AEP a semnalat inclusiv lipsa mecanismelor de înlocuire a personalului și a procedurilor pentru închiderea și redeschiderea secțiilor. [Opinia AEP anexată punctului de vedere al Guvernului](https://www.senat.ro/legis/PDF/2025/25L600PV.PDF?nocache=true)"
+        "Articolul unic pct. 5: extinderea la trei zile privește exclusiv secțiile din străinătate. Duminica electorală din România nu este extinsă la întregul weekend.",
+        "Articolul unic pct. 3: verificarea urnelor și sigilarea lor există deja la art. 45 alin. (5); noutatea este începerea activității «în fiecare zi» la ora 6:00. Textul nu introduce expres verificarea integrității sigiliilor din seara precedentă și consemnarea incidentelor.",
+        "Art. 45 alin. (3), nemodificat, cere prezența biroului în ajunul zilei de referință, la ora 18:00. Această obligație trebuie corelată cu deschiderea votării în străinătate încă de vineri; formularea generală «în fiecare zi» trebuie delimitată la zilele aplicabile fiecărei secții.",
+        "Art. 46 alin. (15)–(16), nemodificate, reglementează suspendări de maximum o oră în total și paza în timpul acestora. Pauzele nocturne ale noului program trebuie reglementate distinct; garanțiile existente nu dispar, dar nu alcătuiesc singure o procedură completă pentru două nopți.",
+        "Art. 46 alin. (5)–(6) păstrează referirea la alegătorii aflați în străinătate «în ziua de referință». Este necesară clarificarea aplicării acestor dispoziții persoanelor care votează vineri sau sâmbătă, cu păstrarea verificărilor împotriva votului multiplu.",
+        "Cele aproximativ 10 milioane de lei suplimentare și creșterea participării cu 20–30% sunt estimări din expunerea de motive. Documentul furnizat nu prezintă calculele sau studiile care le susțin; acestea nu sunt efecte demonstrate și nici alocări bugetare instituite prin articole.",
+        "Textul se încheie după cele cinci puncte de modificare. Nu conține abrogări, modificări ale altor legi, dispoziții tranzitorii sau un termen special pentru pregătirea aplicării."
       ],
-      "blindSpotsCaught": "Sintagma «perioada de vot» nu este definită, observație formulată și de Guvern; utilizarea ei poate afecta calcularea termenelor pregătitoare. Duminica nu este calificată expres prin «ora locală», deși vineri și sâmbătă sunt. Procedural, Senatul a respins propunerea la 25.02.2026, dar Camera Deputaților poate continua examinarea; termenul pentru amendamente, 12.03.2026, este deja depășit. [Punctul de vedere al Guvernului](https://www.senat.ro/legis/PDF/2025/25L600PV.PDF?nocache=true), [Fișa legislativă](https://www.senat.ro/Legis/Lista.aspx?cod=27215).",
-      "constitutionalityNote": "Facilitarea participării susține drepturile electorale, inclusiv art. 38 din Constituție. Diferența dintre programul din țară și cel din străinătate poate fi justificată obiectiv prin accesibilitatea diferită, fără încălcarea automată a egalității din art. 16. Problemele de corelare trebuie evaluate prin art. 1 alin. (5). Art. 23 alin. (12) privește legalitatea pedepselor; proiectul nu introduce infracțiuni sau pedepse penale noi, iar precizia interdicțiilor contravenționale rămâne necesară. Costurile suplimentare impun verificarea sursei de finanțare potrivit art. 138 alin. (5); fragmentul furnizat nu permite constatarea unei încălcări. Reglementarea electorală necesită lege organică. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355)",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: ea privește restricțiile asupra accesului la profesii reglementate sau exercitării acestora. Nu rezultă bariere economice relevante pentru concurență ori piața unică. [Directiva 2018/958, art. 1–2](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018L0958). Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu este declanșată de textul analizat: acesta nu stabilește reglementări tehnice pentru produse sau reguli specifice serviciilor societății informaționale și nu reglementează AI. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex:32015L1535). Votarea vineri–duminică este, în principiu, compatibilă cu intervalul european joi–duminică; aplicarea trebuie să respecte regulile europene privind scrutinul și diferențele de fus orar. [Parlamentul European: procedurile electorale](https://www.europarl.europa.eu/factsheets/en/sheet/21/the-european-parliament-electoral-procedures).",
+      "blindSpotsCaught": "Garanțiile detaliate de păstrare a urnelor, descrise în motivare, nu apar în dispozitivul legii și nu devin obligatorii prin simpla lor menționare acolo. Preluarea programului de la alegerile prezidențiale nu importă automat procedurile din Legea nr. 370/2004. Evaluarea folosește textele furnizate; verificarea online a dosarului și a normelor conexe nu a fost disponibilă.",
+      "constitutionalityNote": "Diferența dintre votarea în țară și cea din străinătate poate avea o justificare obiectivă prin dificultățile de acces și nu încalcă automat egalitatea prevăzută de art. 16. Măsura facilitează drepturile electorale, însă procedurile insuficient corelate ridică probleme de claritate și securitate juridică în raport cu art. 1 alin. (5). Art. 23 alin. (12), privind legalitatea pedepsei, nu constituie aici un temei direct, proiectul neintroducând pedepse. Reglementarea sistemului electoral necesită lege organică, potrivit art. 73 alin. (3) lit. a) și art. 76 alin. (1), formulă indicată în proiect. Respectarea cerințelor bugetare din art. 111 alin. (1) și art. 138 alin. (5) trebuie evaluată pe documentația parlamentară completă; nu se poate constata încălcarea lor numai din extras.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementării accesului la profesii și exercitării acestora, deci nu este aplicabilă acestei măsuri electorale. Nici notificarea TRIS din Directiva (UE) 2015/1535 nu este incidentă: proiectul nu instituie reglementări tehnice pentru produse sau servicii ale societății informaționale. Nu rezultă restricții asupra concurenței ori pieței unice. În Actul electoral european, cadrul procedurilor naționale se găsește la art. 8, iar perioada electorală și interdicția publicării rezultatelor înaintea închiderii votării în ultimul stat membru la art. 10; invocarea art. 2 în motivare pentru autonomia procedurală este inexactă. Extinderea propusă nu prezintă, prin ea însăși, o incompatibilitate evidentă, dar trebuie corelată cu aceste reguli și cu prevenirea votului multiplu.",
       "senatForm": {
-        "articleRef": "Art. unic: completarea art. 48 din Legea 33/2007",
-        "proposalContent": "În străinătate, închiderea de vineri și sâmbătă suspendă votarea. Urnele, listele, buletinele și ștampilele se sigilează și se păstrează sub pază; operațiunile se consemnează în proces-verbal. La reluare se verifică sigiliile în prezența membrilor biroului și a observatorilor prezenți. Operațiunile prevăzute la art. 49 se efectuează numai după încheierea votării de duminică.",
-        "argumentation": "Extinderea votării presupune reguli pentru cele două nopți. Art. 48 și 49 leagă închiderea secției de numărare și de anularea buletinelor nefolosite. Amendamentul distinge suspendarea de încheierea scrutinului și protejează integritatea materialelor electorale.",
-        "otherComments": "Propunere pentru comisiile Camerei Deputaților, de preluat de un deputat. Sunt necesare și corelări privind campania, termenele logistice, personalul, finanțarea și ora locală de duminică. Termenul de amendamente indicat, 12.03.2026, a trecut; e-mailul cetățeanului nu constituie singur amendament parlamentar."
-      }
+        "articleRef": "Articolul unic pct. 5 – art. 46 alin. (1²)",
+        "proposalContent": "(1²) În străinătate, pauzele dintre zile nu intră în durata prevăzută la alin. (15). Seara, urnele și materialele electorale se inventariază, se sigilează și se păstrează sub pază. La reluare, sigiliile se verifică în prezența membrilor biroului și a observatorilor prezenți, cu proces-verbal. Voturile se numără după închiderea de duminică.",
+        "argumentation": "Programul pe trei zile necesită reguli obligatorii pentru cele două pauze nocturne. Verificarea zilnică generală nu stabilește inventarierea, păstrarea și controlul sigiliilor. Completarea protejează integritatea voturilor și delimitează pauzele programate de suspendările pentru incidente.",
+        "otherComments": "Corelați și art. 45 alin. (3), art. 46 alin. (5)–(6), precum și normele privind închiderea și numărarea voturilor. Termenul indicat pentru amendamente, 12.03.2026, este depășit; transmiterea unei petiții nu echivalează cu depunerea unui amendament parlamentar."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T06:49:06.297Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:24:49.714Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

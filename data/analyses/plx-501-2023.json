@@ -2,121 +2,101 @@
   "billId": "PL-x 501/2023",
   "slug": "plx-501-2023",
   "version": "senat",
-  "updatedAt": "2026-11-19T12:12:57.570Z",
+  "updatedAt": "2026-11-24T15:22:45.910Z",
   "coverage": {
     "method": "whole-text-v1",
+    "form": "senat",
     "billChars": 1060,
     "ordinanceChars": 25288,
     "memoChars": 25455,
     "memoSupplied": 25455,
-    "marker": "SF-170972BF",
-    "form": "senat"
+    "marker": "SF-170972BF"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-501-2023.json",
+    "form": "senat",
+    "textHash": "170972bffad18f3f",
+    "fetchedAt": "2026-11-19T10:49:19.944Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 4.3,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
-    "plainTitle": "Card de 1.500 lei pe an pentru profesori și cursuri de 500 lei pentru personalul nedidactic, din bani UE, distribuite exclusiv prin Poșta Română",
-    "summaryTlDr": "Măsura este în esență benefică pentru personalul din educație și este finanțată din fonduri UE. Are însă trei probleme reale: eligibilitatea rămâne legată de anul 2022-2023 până în 2027, Poșta Română primește exclusivitate fără competiție, iar riscul ca toată cheltuiala să rămână pe bugetul de stat nu are acoperire financiară.",
-    "initiatorClaim": "Guvernul spune că vrea să sprijine dezvoltarea profesională și digitalizarea cadrelor didactice și să atragă și să rețină personal în învățământul de stat. Urgența este motivată explicit prin greva generală din 2023, care ar fi pus în pericol încheierea anului școlar.",
-    "realityCheck": "OUG acordă un card electronic de 1.500 lei net, neimpozabil, utilizabil doar la unități afiliate pentru cursuri, IT, cărți și, în limita a 30%, pentru «nevoi didactice individuale» nedefinite. Pentru anii următori, până în 2026/2027, prima este condiționată de fondurile disponibile, deci nu este un drept garantat. Beneficiarii rămân ancorați în cohorta «aflată în activitate în 2022-2023»: debutanții sunt excluși, iar profesorii universitari plini sunt omiși fără nicio justificare. Distribuția este atribuită direct Poștei Române (2,009 mil. lei), fără procedură competitivă.",
+    "plainTitle": "Card de 1.500 lei pe an pentru profesori și 500 lei pentru personalul nedidactic, din bani europeni",
+    "summaryTlDr": "Este o măsură utilă pentru profesori și e plătită în principal din fonduri UE, dar textul e scris în grabă. Leagă dreptul de anul școlar 2022-2023, exclude fără explicație profesorii universitari și dă Poștei Române un contract exclusiv atribuit direct.",
+    "initiatorClaim": "Guvernul spune că vrea să susțină formarea continuă și digitalizarea cadrelor didactice și să motiveze personalul nedidactic, după modele europene de plăți în afara salariului. Urgența este justificată prin greva generală din 2023, care risca să împiedice încheierea anului școlar.",
+    "realityCheck": "OUG creează un card de tip bilet de valoare (art. 9). Cardul are 1.500 lei net neimpozabili și poate fi folosit doar la comercianți afiliați, pentru cursuri, echipamente IT, cărți și până la 30% pentru alte nevoi didactice. Personalul nedidactic primește până la 500 lei pe an, mai ales sub formă de cursuri. Sunt și efecte secundare. Eligibilitatea este fixată pe cei activi în 2022-2023, deși prima se reia până în 2026/2027. Detaliile pentru anii următori sunt lăsate pe seama ordinelor de ministru. Distribuția este dată în exclusivitate Poștei Române, la maximum 2.009,28 mii lei. Potrivit expunerii de motive, dacă Comisia Europeană nu acceptă modificarea programului PEO, costul rămâne integral la bugetul de stat.",
     "affectedGroups": [
       "Sănătate & Educație",
-      "Angajați & HR",
       "IMM & Antreprenori",
-      "Contabili & Fiscalitate"
+      "Contabili & Fiscalitate",
+      "Angajați & HR"
     ],
     "senatForm": {
       "articleRef": "Art. 3 alin. (5) din OUG nr. 58/2023",
-      "proposalContent": "Art. 3 alin. (5): «Prima de carieră didactică se acordă și pentru anii școlari/universitari 2024/2025-2026/2027 personalului didactic și didactic auxiliar aflat în activitate în anul școlar/universitar pentru care se acordă, în limita fondurilor disponibile din Programul Educație și Ocupare 2021-2027.»",
-      "argumentation": "Textul leagă eligibilitatea de activitatea din 2022-2023, deși prima se acordă până în 2026/2027: debutanții ar fi excluși, iar cei plecați din sistem ar primi. Asta contrazice scopul declarat (atragerea cadrelor), iar anul 2023/2024 apare de două ori în alin. (4) și (5), ceea ce încalcă previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
-      "otherComments": "Recomand și: motivarea sau eliminarea excluderii profesorilor universitari (art. 1-3); limitarea exclusivității Poștei Române (art. 4 alin. 6, art. 8) la 2023 sau atribuire competitivă; fișă financiară conform art. 15 din L. 500/2002, dat fiind riscul ca, la refuzul CE, cheltuielile să rămână la bugetul de stat."
+      "proposalContent": "(5) Prima de carieră didactică se acordă anual și pentru anii școlari/universitari 2023/2024–2026/2027, personalului didactic și didactic auxiliar aflat în activitate în anul școlar/universitar pentru care se acordă, inclusiv profesorilor universitari, în condițiile alin. (3) și în limita fondurilor disponibile din Programul Educație și Ocupare 2021-2027.",
+      "argumentation": "Textul actual leagă eligibilitatea de activitatea din 2022-2023, așa că cadrele angajate ulterior pot fi excluse din tranșele 2024-2027, iar profesorii universitari sunt excluși fără justificare. Criteriul anului curent respectă egalitatea (art. 16 din Constituție) și scopul declarat: atragerea și menținerea cadrelor în sistem.",
+      "otherComments": "Recomand și: corelarea art. 9 alin. (8) cu art. 3 alin. (3), deoarece listele de cheltuieli diferă; corectarea trimiterii la Decizia Comisiei «C(2015)7016» din 2022; justificarea exclusivității Poștei Române (art. 4 alin. 6, art. 8) față de art. 106 TFUE; termene pentru anii următori fixate prin lege, nu prin ordin."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 35098,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 65801,
       "sourceEndMarker": "SF-170972BF",
-      "riskScore": 4,
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Prime de 1.500 lei și 500 lei în educația de stat, cu monopol Poșta Română și risc bugetar",
-      "verdictShort": "Măsură utilă de sprijin financiar pentru personalul din învățământul de stat, dar adoptată grăbit, cu erori de redactare, exclusivitate pentru Poșta Română și risc bugetar dacă fondurile UE nu sunt acceptate integral.",
-      "initiatorClaim": "Guvernul susține că acordă primele de carieră didactică (1.500 lei) și profesională (500 lei) din fonduri europene (PEO 2021-2027) pentru a stinge greva generală din 2023, a asigura încheierea anului școlar și a susține formarea profesională și digitală.",
-      "realityCheck": "Deși banii sprijină angajații din școlile și universitățile de stat (excluzând însă profesorii universitari și învățământul privat), Expunerea de motive recunoaște că, fără acordul Comisiei Europene de modificare a PEO, cheltuielile rămân definitiv în sarcina bugetului de stat, care suportă oricum un impact negativ de ~85 mil. lei/an. Totodată, legea instituie un monopol legal pentru Poșta Română la distribuția cardurilor (plafon 2,01 mil. lei) și lasă vagă destinația a 30% din sumă.",
+      "plainTitle": "Prime de 1.500 lei pentru profesori și 500 lei pentru nedidactici, cu monopol Poșta Română și risc bugetar",
+      "verdictShort": "Măsura de sprijin pentru personalul din educație este social utilă, dar mecanismul legal conține vicii serioase: monopol acordat fără licitație Poștei Române, finanțare europeană incertă care poate cădea pe bugetul de stat și definiții vagi.",
+      "initiatorClaim": "Guvernul susține că aprobarea OUG 58/2023 este necesară pentru a stinge greva generală din învățământ, a asigura încheierea anului școlar 2022-2023 și a sprijini formarea profesională și digitalizarea cadrelor didactice și nedidactice din fonduri europene (PEO 2021-2027).",
+      "realityCheck": "În realitate, deși titlul prezintă primele drept finanțate din fonduri UE, Expunerea de Motive recunoaște că modificarea PEO 2021-2027 nu era încă aprobată de Comisia Europeană, iar în caz de refuz costul de cca. 2,12 miliarde lei rămâne integral pe bugetul de stat (care suportă oricum un deficit anual de ~85 mil. lei din cofinanțare și costuri logistice). În plus, ordonanța instituie prin lege un monopol de distribuție pentru Poșta Română, exclude fără justificare profesorii universitari și învățământul privat acreditat și blochează cheltuirea banilor strict pe teritoriul României, cu sarcini fiscale suplimentare pentru comercianți.",
       "affectedGroups": [
         "Sănătate & Educație",
-        "Angajați & HR",
         "IMM & Antreprenori",
-        "Contabili & Fiscalitate"
+        "Contabili & Fiscalitate",
+        "Angajați & HR"
       ],
       "keyFindings": [
-        "Exclusivitate fără licitație (Art. 4 alin. (6), Art. 8): Compania Națională «Poșta Română» S.A. primește cu titlu de exclusivitate etichetarea, colectarea și distribuția cardurilor electronice (plafon 2.009,28 mii lei), prin convenție directă în baza art. 30 din Legea nr. 98/2016.",
-        "Risc bugetar asumat tacit (Expunerea de motive, Sec. 2.3 și 4.3): Decontarea din PEO 2021-2027 depinde de acceptarea modificării programului de către Comisia Europeană; în lipsa ei, costurile devin cheltuieli definitive ale bugetului de stat (care înregistrează deja un impact net negativ de -86,94 mil. lei în primul an).",
-        "Excluderi și erori grave de redactare (Art. 1, Art. 3, Art. 4 alin. (4), Art. 5 lit. e)): Sunt excluși profesorii universitari și personalul din învățământul privat; apare cuvântul fără sens «INERT» în Art. 4 alin. (4) și o decizie CE din «2015» datată «2022» la Art. 5 lit. e).",
-        "Obligații fiscale pentru comercianți (Art. 9 alin. (10)): Unitățile afiliate trebuie să emită bon fiscal distinct cu tipul de plată «9 - Alte metode» din nomenclatorul ANAF, iar 30% din primă acoperă «nevoi didactice individuale specifice» nedefinite în articolele disponibile (textul extras se oprește la pag. 12/19, Art. 9 alin. (10))."
+        "Art. 4 alin. (6) și Art. 8 alin. (1)-(2) încredințează cu titlu de exclusivitate către CN Poșta Română SA, prin convenție directă fără licitație (până la 2.009,28 mii lei), etichetarea, colectarea și distribuția cardurilor, invocând serviciul poștal universal (Decizia ANCOM nr. 1363/2019), deși etichetarea și curieratul comercial nu sunt monopoluri rezervate, iar desemnarea ANCOM expiră la 31.12.2024 (programul fiind valabil până în 2026/2027).",
+        "Expunerea de Motive (Secțiunea 2.3 și 4) contrazice promisiunea finanțării exclusiv europene: admite că programul PEO 2021-2027 trebuie modificat cu acordul Comisiei Europene, altfel cheltuielile rămân definitiv pe bugetul de stat, în timp ce impactul bugetar net declarat este negativ (-86,9 mil. lei în anul 1 și -84,9 mil. lei/an în anii 2-5), dar rubrica pentru fișa financiară obligatorie (Secțiunea 4.7) este bifată „Nu este cazul”.",
+        "Art. 1 alin. (1) și Art. 3 alin. (2) exclud din lista beneficiarilor profesorii universitari (acordând prima doar conferențiarilor, lectorilor/șefilor de lucrări și asistenților) și întreg personalul din învățământul particular acreditat, fără nicio motivare obiectivă în text.",
+        "Art. 3 alin. (3) lit. d) permite cheltuirea a până la 30% (450 lei) pentru „nevoi didactice individuale specifice” fără a defini aceste cheltuieli, iar Art. 5 lit. b)-c) limitează definiția beneficiarilor la personalul activ în anul 2022-2023, creând neclaritate pentru noii angajați din perioada 2023-2027 (notă: textul analizat cuprinde primele 12 din 19 pagini ale OUG, până la Art. 9 alin. 10).",
+        "Art. 9 alin. (10) obligă unitățile afiliate să emită bon fiscal distinct pentru achizițiile plătite cu prima de carieră, selectând exclusiv tipul de plată 9 („Alte metode” conform OPANAF nr. 146/2018), impunând costuri operaționale și de conformare suplimentare comercianților."
       ],
-      "blindSpotsCaught": "Expunerea de motive (Sec. 2.3) admite discret că decontarea din PEO 2021-2027 depinde de agregarea ulterioară cu Comisia Europeană, altfel cheltuiala rămâne definitiv la bugetul de stat, iar Sec. 3.4.2 bifează «Nu este cazul» la impactul concurențial deși legea instituie exclusivitate pentru Poșta Română (iar punctul de vedere al Consiliului Concurenței nr. 8272/12.06.2023 lipsește). Apar și neconcordanțe numerice (261.625 carduri la calculul CNPR vs. 326.057 beneficiari estimați), iar textul pus la dispoziție este trunchiat la 12 din 19 pagini (până la Art. 9 alin. (10), deși Art. 9 alin. (2) trimite la Art. 20).",
-      "constitutionalityNote": "Vulnerabilități pe Art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii): eroarea materială «INERT» din Art. 4 alin. (4), citarea contradictorie din Art. 5 lit. e) («C (2015)7016 final din 9 decembrie 2022»), nedefinirea «nevoilor didactice specifice» (30% din primă) și legarea primei din octombrie 2023 de activitatea din anul 2022-2023. Pe Art. 115 alin. (4), urgența invocată pentru încheierea anului școlar 2022-2023 justifică greu întinderea multianuală până în 2026-2027 (viciu acoperibil însă prin legea de aprobare), iar pe Art. 138 alin. (5) sursa de finanțare UE era condiționată de un acord viitor al Comisiei Europene.",
-      "euLawNote": "Posibilă fricțiune cu dreptul UE al achizițiilor publice și concurenței (Directiva 2014/24/UE, art. 106-107 TFUE): atribuirea exclusivă către Poșta Română a distribuției suportului electronic (Art. 4 alin. (6), Art. 8) este justificată prin serviciul universal poștal (Decizia ANCOM nr. 1363/2019 și art. 30 din Legea nr. 98/2016), însă distribuția de carduri valorice este o piață pe care operează și curieri privați. Nu intră sub incidența Directivei (UE) 2015/1535 (TRIS), nefiind o reglementare tehnică pentru servicii digitale, nici sub Directiva (UE) 2018/958 (nu reglementează accesul la profesii).",
+      "blindSpotsCaught": "În Secțiunea 2.3 a Expunerii de Motive este ascunsă clauza-capcană prin care Guvernul recunoaște că, dacă serviciile Comisiei Europene nu acceptă modificarea PEO 2021-2027, întreaga factură rămâne definitiv în sarcina bugetului de stat — risc neasumat în articolele de lege. De asemenea, Art. 5 lit. e) conține o eroare materială de citare a actului UE („Decizia C (2015)7016 final din 9 decembrie 2022”), iar consultarea publică a durat practic o singură zi (11–12 iunie 2023).",
+      "constitutionalityNote": "Există riscuri de neconstituționalitate pe Art. 1 alin. (5) (lipsa de previzibilitate privind cota de 30% „nevoi didactice individuale specifice” și eligibilitatea personalului după 2022-2023), Art. 16 alin. (1) (tratament diferențiat nejustificat prin excluderea profesorilor universitari și a cadrelor din învățământul privat acreditat), Art. 115 alin. (4) (folosirea OUG pentru un program multianual până în 2027 și instituirea unui monopol legal Poștei Române, dincolo de urgența stingerii grevei din 2023) și Art. 138 alin. (5) (lipsa fișei financiare conform Legii 500/2002 pentru impactul negativ de ~85 mil. lei/an și riscul de neeligibilitate UE).",
+      "euLawNote": "Proiectul ridică două probleme serioase de drept UE: (1) încredințarea directă și exclusivă către Poșta Română (Art. 4 alin. 6, Art. 8) poate încălca Directiva 2014/24/UE privind achizițiile publice (art. 11) și normele de concurență/ajutor de stat (art. 106-107 TFUE), întrucât serviciile de etichetare și distribuție în masă a cardurilor nu fac parte din monopolul legal al serviciului universal; (2) restricția teritorială din Art. 9 alin. (8) („doar pe teritoriul României”) combinată cu afilierea la emitenți locali restrânge libera prestare a serviciilor și libera circulație a mărfurilor (art. 34 și 56 TFUE), împiedicând profesorii să achiziționeze cursuri online sau cărți de specialitate de la furnizori din alte state membre. Nu sunt incidente direct Directivele (UE) 2015/1535 (TRIS) sau 2018/958 (profesii reglementate).",
       "senatForm": {
-        "articleRef": "Art. 4 alin. (4) și alin. (6)",
-        "proposalContent": "La art. 4 alin. (4), termenul «INERT» se înlocuiește cu «și». La art. 4 alin. (6), se elimină «cu titlu de exclusivitate», serviciile de etichetare, colectare și distribuție urmând a fi atribuite competitiv conform Legii nr. 98/2016.",
-        "argumentation": "Art. 4 alin. (4) conține eroarea «INERT», afectând previzibilitatea legii (art. 1 alin. 5 Constituție). În plus, exclusivitatea legală pentru Poșta Română restrânge concurența pe o piață unde există operatori privați, contrazicând Expunerea de motive (pct. 3.4.2) care susține lipsa impactului concurențial.",
-        "otherComments": "Recomandăm și definirea clară a «nevoilor didactice specifice» (art. 3 alin. 3 lit. d), remedierea datei deciziei CE la art. 5 lit. e) (2015 vs. 2022) și confirmarea scrisă a Comisiei Europene privind finanțarea prin PEO 2021-2027, pentru a nu greva bugetul de stat."
+        "articleRef": "Art. 4 alin. (6) și Art. 8 din OUG nr. 58/2023",
+        "proposalContent": "Abrogarea Art. 4 alin. (6) și modificarea Art. 8 pentru atribuirea distribuției cardurilor prin achiziție publică competitivă (Legea 98/2016), nu prin exclusivitate la Poșta Română. Completarea Art. 3 alin. (3) lit. d) cu definirea clară a cheltuielilor din cota de 30% și corectarea Art. 5 pentru eligibilitatea angajaților din 2023-2027.",
+        "argumentation": "Exclusivitatea Poștei Române restrânge nejustificat concurența (Directiva 2014/24/UE), etichetarea și distribuția nefiind servicii rezervate, iar decizia ANCOM expiră în 2024. Lipsa definirii cotei de 30% și raportarea Art. 5 doar la anul 2022-2023 creează insecuritate juridică (Art. 1 alin. 5 Constituție) și risc de corecții pe fonduri UE.",
+        "otherComments": "Solicităm și prezentarea acordului Comisiei Europene pentru modificarea PEO 2021-2027 și a fișei financiare (Art. 15 Legea 500/2002), având în vedere impactul bugetar de cca. 85 mil. lei/an și riscul trecerii integrale pe bugetul de stat, precum și reevaluarea excluderii profesorilor universitari și a restricției teritoriale din Art. 9 alin. (8)."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 69947,
+      "durationMs": 51456,
       "sourceEndMarker": "SF-170972BF",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Card de 1.500 lei pe an pentru profesori și cursuri de 500 lei pentru personalul nedidactic, din bani UE, distribuite exclusiv prin Poșta Română",
-      "verdictShort": "Măsura este în esență benefică pentru personalul din educație și este finanțată din fonduri UE. Are însă trei probleme reale: eligibilitatea rămâne legată de anul 2022-2023 până în 2027, Poșta Română primește exclusivitate fără competiție, iar riscul ca toată cheltuiala să rămână pe bugetul de stat nu are acoperire financiară.",
-      "initiatorClaim": "Guvernul spune că vrea să sprijine dezvoltarea profesională și digitalizarea cadrelor didactice și să atragă și să rețină personal în învățământul de stat. Urgența este motivată explicit prin greva generală din 2023, care ar fi pus în pericol încheierea anului școlar.",
-      "realityCheck": "OUG acordă un card electronic de 1.500 lei net, neimpozabil, utilizabil doar la unități afiliate pentru cursuri, IT, cărți și, în limita a 30%, pentru «nevoi didactice individuale» nedefinite. Pentru anii următori, până în 2026/2027, prima este condiționată de fondurile disponibile, deci nu este un drept garantat. Beneficiarii rămân ancorați în cohorta «aflată în activitate în 2022-2023»: debutanții sunt excluși, iar profesorii universitari plini sunt omiși fără nicio justificare. Distribuția este atribuită direct Poștei Române (2,009 mil. lei), fără procedură competitivă.",
-      "affectedGroups": [
-        "Sănătate & Educație",
-        "Angajați & HR",
-        "IMM & Antreprenori",
-        "Contabili & Fiscalitate",
-        "Justiție & Drepturi Civile"
-      ],
-      "keyFindings": [
-        "Art. 1, art. 2 alin. (1) și art. 3 alin. (1)-(2): eligibilitatea este definită exclusiv prin activitatea din anul școlar/universitar 2022-2023, deși art. 3 alin. (5) extinde prima până în 2026/2027. Textul nu spune dacă anii următori folosesc aceeași cohortă, iar o citire literală exclude personalul angajat după 2023. Asta contrazice obiectivul declarat de atragere a cadrelor didactice.",
-        "Art. 3 alin. (4) vs. alin. (5): alin. (4) acordă o tranșă unică în octombrie 2023, utilizabilă în 2023-2024. Alin. (5) acordă prima «și pentru următorii ani» începând tot cu 2023/2024. Anul 2023/2024 apare de două ori, deci textul este ambiguu și imprevizibil.",
-        "Art. 1 alin. (1) și art. 3 alin. (2): în universități beneficiază doar conferențiarii, lectorii/șefii de lucrări și asistenții. Profesorii universitari (și, implicit, cercetătorii) sunt excluși fără motivare nici în text, nici în Expunerea de motive. Diferența de tratament ridică o problemă pe art. 16 din Constituție.",
-        "Art. 4 alin. (6) și art. 8: Poșta Română primește «cu titlu de exclusivitate» etichetarea, colectarea și distribuția cardurilor, printr-o convenție încheiată în 5 zile, cu plafon de 2.009,28 mii lei (7,68 lei x 261.625). Expunerea de motive invocă art. 30 din Legea nr. 98/2016, dar dreptul exclusiv este creat chiar de acest act. Justificarea este circulară.",
-        "Expunerea de motive, secțiunea 4: tabelul arată un impact negativ de circa 85-87 mil. lei/an asupra bugetului de stat. Pct. 4.4 (acoperirea cheltuielilor) este gol, iar pct. 4.7 (fișa financiară, art. 15 din Legea nr. 500/2002) spune «Nu este cazul». Expunerea de motive recunoaște că, dacă Comisia Europeană nu acceptă modificarea Programului Educație și Ocupare, cheltuielile «rămân cheltuieli definitive ale bugetului». Bugetul total este de circa 2,12 mld. lei.",
-        "Art. 4 alin. (1), (3), (4) și art. 5 lit. c): prima pentru personalul nedidactic este acordată în natură, «sub formă de cursuri», cu plafon de 500 lei. Tipologia, cheltuielile eligibile și decontarea sunt delegate integral unui act administrativ al ministrului educației și unui ordin al ministrului investițiilor și proiectelor europene. Legea nu fixează criterii proprii.",
-        "Art. 6 alin. (2): listele de beneficiari conțin CNP și adresa de domiciliu/reședință și circulă între inspectorate, Ministerul Educației, MIPE, unitățile emitente și Poșta Română. Expunerea de motive arată că s-a cerut punctul de vedere al ANSPDCP, dar nu menționează niciun răspuns. Lipsesc durata de păstrare a datelor și garanțiile de minimizare (art. 5 GDPR).",
-        "Art. 3 alin. (3) lit. a), c), d) și art. 9 alin. (8): terminologia este inconsecventă («cursuri de pregătire profesională» vs. «cursuri de specialitate»). Formulele «alte categorii de cheltuieli asimilate» și «nevoi didactice individuale specifice» nu sunt definite. Unitățile afiliate și beneficiarii nu pot ști cu certitudine ce este eligibil, iar riscul de corecții financiare la decontarea din fonduri UE crește."
-      ],
-      "blindSpotsCaught": "Textul OUG furnizat este trunchiat: s-au citit 12 din 19 pagini, până la art. 9 alin. (10). Prevederile ulterioare nu au putut fi evaluate, inclusiv art. 20, la care trimite art. 9 alin. (2) pentru emitenții deja autorizați, precum și eventualele sancțiuni, derogări și dispoziții finale. Alte observații: (1) Expunerea de motive declară «Nu este cazul» la ajutor de stat (3.4.2) și la achiziții publice (5.2), deși actul conține chiar o atribuire directă în exclusivitate. (2) Calculul pentru Poștă se face pentru 261.625 de expedieri, în timp ce numărul estimat de beneficiari este de 326.057; diferența nu este explicată. (3) Art. 5 lit. e) citează decizia Comisiei ca «C (2015)7016 final din 9 decembrie 2022», o referință incoerentă (anul 2015 vs. 2022). (4) Termenele din art. 6 alin. (1), (3) și (4) (iulie-august 2023) și termenul de 5 zile din art. 8 alin. (1) sunt de mult expirate. Pentru anii următori totul depinde de ordinul MIPE prevăzut la art. 6 alin. (6). (5) Dezbaterea publică a început pe 11.06.2023, iar OUG a fost adoptată pe 12.06.2023: consultarea a fost practic formală.",
-      "constitutionalityNote": "Art. 115 alin. (4): urgența este motivată prin greva generală din 2023, iar CCR acceptă de regulă astfel de motivări. Este însă discutabil de ce era urgentă reglementarea unor prime pentru anii 2024-2027. Art. 1 alin. (5) (claritate și previzibilitate): problemele țin de cohorta înghețată în 2022-2023, de suprapunerea dintre art. 3 alin. (4) și (5) și de noțiunile nedefinite, la care se adaugă delegarea largă către ordine de ministru pentru prima nedidactică. Art. 16: excluderea nemotivată a profesorilor universitari și a personalului angajat după 2023 poate constitui o diferență de tratament fără justificare obiectivă. Art. 138 alin. (5): există riscul unei cheltuieli fără sursă de finanțare clar stabilită în scenariul în care fondurile UE nu sunt acceptate, iar fișa financiară lipsește. Art. 45 și art. 135 alin. (2) lit. a): exclusivitatea acordată Poștei Române restrânge concurența loială fără analiză de proporționalitate. Nu se identifică atingeri ale drepturilor fundamentale care să intre sub interdicția din art. 115 alin. (6).",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: actul nu reglementează accesul la profesii reglementate și nici exercitarea lor. Directiva (UE) 2015/1535 (TRIS) nu este incidentă: cardul electronic este un instrument de plată asimilat biletelor de valoare, nu o regulă tehnică privind serviciile societății informaționale sau AI. Punctele sensibile sunt altele. (1) Achizițiile publice (Directiva 2014/24/UE, art. 11, transpus prin art. 30 din Legea nr. 98/2016): excepția pentru drepturi exclusive cere un drept preexistent, compatibil cu TFUE, nu unul creat ad-hoc pentru a evita licitația. Statutul de furnizor de serviciu universal nu acoperă automat un serviciu dedicat de etichetare și distribuție de carduri. (2) Art. 106 alin. (1) și art. 102 TFUE, plus regimul ajutoarelor de stat, aplicate unei întreprinderi publice dominante. (3) Eligibilitatea cheltuielilor din FSE+ (Regulamentele (UE) 2021/1060 și 2021/1057): categoriile vagi, cum este «nevoi didactice individuale» în limita a 30%, cresc riscul de corecții financiare și de mutare a costului la bugetul național. (4) GDPR, art. 5 și 6: lipsesc garanții explicite pentru prelucrarea CNP-urilor și a adreselor de către mai mulți operatori privați.",
-      "senatForm": {
-        "articleRef": "Art. 3 alin. (5) din OUG nr. 58/2023",
-        "proposalContent": "Art. 3 alin. (5): «Prima de carieră didactică se acordă și pentru anii școlari/universitari 2024/2025-2026/2027 personalului didactic și didactic auxiliar aflat în activitate în anul școlar/universitar pentru care se acordă, în limita fondurilor disponibile din Programul Educație și Ocupare 2021-2027.»",
-        "argumentation": "Textul leagă eligibilitatea de activitatea din 2022-2023, deși prima se acordă până în 2026/2027: debutanții ar fi excluși, iar cei plecați din sistem ar primi. Asta contrazice scopul declarat (atragerea cadrelor), iar anul 2023/2024 apare de două ori în alin. (4) și (5), ceea ce încalcă previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
-        "otherComments": "Recomand și: motivarea sau eliminarea excluderii profesorilor universitari (art. 1-3); limitarea exclusivității Poștei Române (art. 4 alin. 6, art. 8) la 2023 sau atribuire competitivă; fișă financiară conform art. 15 din L. 500/2002, dat fiind riscul ca, la refuzul CE, cheltuielile să rămână la bugetul de stat."
-      },
-      "reachedEnd": true,
-      "status": "ok"
-    },
-    "codex": {
-      "model": "codex",
-      "durationMs": 95444,
-      "sourceEndMarker": "SF-170972BF",
-      "riskScore": 5,
-      "riskLevel": "yellow",
-      "plainTitle": "Prime pentru personalul școlilor și universităților, cu distribuție rezervată Poștei Române",
-      "verdictShort": "Sprijinul pentru formarea profesională și materialele didactice este util, dar exclusivitatea acordată Poștei Române ridică o problemă concretă de concurență. Evaluarea este parțială: textul furnizat se întrerupe la art. 9 alin. (10), înaintea dispozițiilor finale.",
-      "initiatorClaim": "Guvernul urmărește susținerea carierei personalului din educație, adaptarea la digitalizare și continuitatea procesului educațional în contextul grevei din 2023. Finanțarea este prezentată ca provenind din Programul Educație și Ocupare 2021–2027.",
-      "realityCheck": "Legea de aprobare are un articol unic, fără amendamente, și aprobă ordonanța care instituie sprijinul didactic de 1.500 lei pe suport electronic și sprijinul profesional de maximum 500 lei anual pentru personalul nedidactic. Utilizarea este restricționată, iar finanțarea europeană depinde de eligibilitate și fondurile disponibile; nu este o majorare salarială generală. Separat, ordonanța rezervă distribuția Poștei Române, iar expunerea de motive recunoaște cheltuieli naționale și riscul suportării definitive din buget dacă modificarea programului european nu este acceptată.",
+      "plainTitle": "Card de 1.500 lei pe an pentru profesori și 500 lei pentru personalul nedidactic, din bani europeni",
+      "verdictShort": "Este o măsură utilă pentru profesori și e plătită în principal din fonduri UE, dar textul e scris în grabă. Leagă dreptul de anul școlar 2022-2023, exclude fără explicație profesorii universitari și dă Poștei Române un contract exclusiv atribuit direct.",
+      "initiatorClaim": "Guvernul spune că vrea să susțină formarea continuă și digitalizarea cadrelor didactice și să motiveze personalul nedidactic, după modele europene de plăți în afara salariului. Urgența este justificată prin greva generală din 2023, care risca să împiedice încheierea anului școlar.",
+      "realityCheck": "OUG creează un card de tip bilet de valoare (art. 9). Cardul are 1.500 lei net neimpozabili și poate fi folosit doar la comercianți afiliați, pentru cursuri, echipamente IT, cărți și până la 30% pentru alte nevoi didactice. Personalul nedidactic primește până la 500 lei pe an, mai ales sub formă de cursuri. Sunt și efecte secundare. Eligibilitatea este fixată pe cei activi în 2022-2023, deși prima se reia până în 2026/2027. Detaliile pentru anii următori sunt lăsate pe seama ordinelor de ministru. Distribuția este dată în exclusivitate Poștei Române, la maximum 2.009,28 mii lei. Potrivit expunerii de motive, dacă Comisia Europeană nu acceptă modificarea programului PEO, costul rămâne integral la bugetul de stat.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Angajați & HR",
@@ -124,27 +104,83 @@
         "Contabili & Fiscalitate"
       ],
       "keyFindings": [
-        "Art. 4 alin. (6) acordă explicit Poștei Române exclusivitatea serviciilor de etichetare, colectare și distribuție; art. 8 alin. (1)–(3) prevede convenția directă și plafonul de 2.009,28 mii lei. Acesta este un avantaj legal concret pentru un operator, distinct de achiziția competitivă a serviciilor de emitere prevăzută la art. 7.",
-        "Art. 3 alin. (3) și art. 9 alin. (7)–(9) limitează utilizarea primei: fără retragere de numerar, numai în România și la comercianți afiliați, cu maximum 30% pentru nevoi didactice individuale. Cei 30% nu reprezintă bani utilizabili fără restricții.",
-        "Art. 1 și art. 3 alin. (2) includ numai anumite funcții didactice universitare, fără profesorii universitari. Diferența poate avea o justificare obiectivă, dar explicațiile furnizate nu fundamentează suficient această delimitare.",
-        "Art. 3 alin. (5) și art. 4 alin. (2) continuă măsurile până în 2026/2027, însă dispozițiile despre beneficiari rămân ancorate în activitatea din 2022/2023. Trebuie clarificat regimul noilor angajați și al persoanelor care părăsesc sistemul; ordinul privind termenele listelor nu poate modifica beneficiarii stabiliți prin lege.",
-        "Tabelul financiar din expunerea de motive indică pentru anul inițial cheltuieli de aproximativ 426,66 milioane lei și încasări europene de 339,72 milioane lei, cu un impact bugetar net negativ de aproximativ 86,94 milioane lei. Finanțarea europeană nu înseamnă cost național zero; acestea sunt estimări din motivare, nu prevederi normative autonome.",
-        "Art. 6 impune centralizarea numelui, CNP-ului, adreselor și locului de muncă. Există sarcini administrative pentru instituțiile de învățământ și obligații de afiliere și evidențiere fiscală pentru comercianții participanți; fragmentul nu introduce o taxă generală pentru cetățeni sau IMM-uri."
+        "Art. 1, 3 și 5 lit. b)–c): beneficiarii sunt definiți ca personalul «aflat în activitate în anul școlar/universitar 2022-2023». Art. 3 alin. (5) extinde acordarea până în 2026/2027, dar nu schimbă criteriul. Rezultă o ambiguitate gravă: cadrele angajate după 2023 ar putea fi excluse, contrar scopului declarat de atragere a profesorilor noi.",
+        "Art. 1 alin. (1) și art. 3 alin. (2): în universități beneficiază doar conferențiarii, lectorii și asistenții. Profesorii universitari sunt excluși fără nicio motivare în expunerea de motive, ceea ce ridică o problemă de egalitate de tratament.",
+        "Art. 4 alin. (6) și art. 8: Poștei Române i se încredințează «cu titlu de exclusivitate» etichetarea, colectarea și distribuția cardurilor, prin convenție încheiată în 5 zile și fără licitație. Expunerea de motive invocă serviciul universal poștal, însă distribuirea unor carduri valorice nu este în mod evident un serviciu universal.",
+        "Art. 9 alin. (8) restrânge utilizarea la «cursuri de specialitate, echipamente IT, cărți», plus 30% pentru nevoi individuale. Art. 3 alin. (3) permite mai mult: cursuri de pregătire profesională «și alte categorii de cheltuieli asimilate». Cele două liste nu se potrivesc, ceea ce creează incertitudine pentru beneficiari și comercianți.",
+        "Art. 6 alin. (2): listele conțin CNP-ul și domiciliul a circa 326.000 de persoane și circulă între inspectorate, ministere, emitenți și Poșta Română. OUG nu precizează temeiul GDPR, durata păstrării datelor sau limitarea scopului. ANSPDCP a fost doar consultată, fără un aviz menționat.",
+        "Art. 4 alin. (3)–(4) și art. 6 alin. (6): pentru personalul nedidactic, categoriile de cheltuieli, beneficiarii eligibili și modul de decontare se stabilesc prin act administrativ și ordin de ministru. Legea fixează doar plafonul de 500 lei, așa că predictibilitatea este redusă."
       ],
-      "blindSpotsCaught": "Marcajul final nu dovedește integralitatea documentului: extrasul declară că include numai primele 12 din 19 pagini și se oprește în mijlocul unei dispoziții. Trimiterea art. 9 alin. (2) la art. 20 confirmă existența unor prevederi neincluse. Nu pot exclude derogări, sancțiuni sau mecanisme bugetare în partea lipsă. Afirmația din motivare privind suportarea definitivă din buget trebuie verificată în textul normativ integral.",
-      "constitutionalityNote": "Art. 1 alin. (5) din Constituție impune clarificarea eligibilității pentru anii următori și corelarea regulilor de utilizare. Excluderea profesorilor universitari necesită examinare prin art. 16, fără a constitui automat discriminare. Pentru art. 115 alin. (4), preambulul invocă o situație concretă, greva și riscul neîncheierii anului școlar; legătura acesteia cu plata din octombrie și cu măsurile multianuale trebuie însă justificată. Art. 138 alin. (5) cere stabilirea sursei de finanțare, inclusiv pentru cheltuieli neacoperite din fonduri europene; extrasul incomplet nu permite un verdict definitiv. Art. 23 alin. (12) privește legalitatea pedepselor și nu este temeiul general al previzibilității acestei scheme; eventualele dispoziții sancționatorii lipsesc din extras.",
-      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile privind accesul la profesii reglementate sau exercitarea lor; simpla instituire a acestor prime nu activează testul său. Nici utilizarea cardurilor electronice nu transformă schema într-o reglementare a serviciilor societății informaționale notificabilă automat prin Directiva (UE) 2015/1535; fragmentul nu reglementează AI. Problema principală este exclusivitatea poștală: desemnarea ca furnizor de serviciu universal nu justifică automat rezervarea serviciilor, iar art. 7 din Directiva 97/67/CE limitează drepturile exclusive în domeniul poștal. Invocarea art. 30 din Legea nr. 98/2016 în motivare necesită verificarea condițiilor excepției, inclusiv calitatea prestatorului și compatibilitatea dreptului exclusiv cu tratatele. Conformitatea definitivă nu poate fi stabilită numai din explicațiile inițiatorului.",
+      "blindSpotsCaught": "Documentul primit acoperă doar primele 12 din 19 pagini ale OUG. Dispozițiile finale, inclusiv art. 20 invocat la art. 9 alin. (2) pentru emitenții deja autorizați, sancțiunile și eventualele derogări, nu au putut fi verificate. Art. 5 lit. e) citează «Decizia Comisiei C(2015)7016 final din 9 decembrie 2022», o trimitere internă incoerentă (an 2015 față de dată 2022). Termenele din art. 6 (15.07, 31.07, 15.08.2023) sunt de mult depășite, iar aprobarea parlamentară vine în 2026, la finalul perioadei de aplicare. În anexa financiară, tabelul arată un impact net negativ asupra bugetului de stat de circa -85 mil. lei pe an (cheltuieli 424,6 mil. față de venituri UE 339,7 mil.). Deci nu este integral «din fonduri europene», cum sugerează titlul.",
+      "constitutionalityNote": "Art. 115 alin. (4): urgența este motivată de greva generală, o justificare plauzibilă pentru 2022-2023. Este însă discutabilă pentru măsurile multianuale 2024-2027, care nu aveau caracter de urgență. Art. 115 alin. (6): OUG nu restrânge drepturi fundamentale, ci acordă un beneficiu, deci nu există o încălcare. Art. 16 (egalitatea): excluderea profesorilor universitari și, potențial, a cadrelor angajate după 2023 reprezintă diferențe de tratament fără justificare obiectivă și rezonabilă în motivare. Art. 1 alin. (5) (claritate și previzibilitate): sunt afectate de incoerența dintre art. 3 alin. (3) și art. 9 alin. (8), de criteriul temporal ambiguu și de delegarea largă către ordine de ministru. Art. 26 (viața intimă): prelucrarea CNP-ului și a adresei fără garanții explicite în lege este o slăbiciune, dar nu atrage neapărat neconstituționalitatea.",
+      "euLawNote": "Directiva 2018/958 (testul de proporționalitate) nu se aplică, deoarece OUG nu reglementează accesul la profesii. Nici TRIS 2015/1535 nu se aplică: nu există reguli tehnice pentru servicii ale societății informaționale, iar cardul electronic este doar un instrument de plată de tip bilet de valoare. Punctele sensibile din dreptul UE sunt patru. (1) Exclusivitatea acordată Poștei Române, prin raportare la art. 106 TFUE și la excepția pentru drepturi exclusive din Directiva 2014/24/UE (art. 11, transpus prin art. 30 din Legea 98/2016). Excepția cere ca dreptul exclusiv să fie compatibil cu tratatul, iar distribuția de carduri valorice nu este clar un serviciu universal poștal. Plafonul de 2 mil. lei reduce totuși riscul de ajutor de stat semnificativ. (2) Eligibilitatea cheltuielilor în PEO/FSE+ (Reg. 2021/1057 și 2021/1060): cheltuieli precum «nevoi didactice individuale» de 30% sau echipamente IT personale pot fi declarate neeligibile, cu risc de corecții financiare suportate de bugetul național. (3) GDPR (art. 6 și art. 5 alin. 1 lit. b, c, e) pentru listele cu CNP. (4) Emitenții de carduri autorizați conform Legii 165/2018 sunt selectați prin achiziție publică, ceea ce este compatibil cu piața unică.",
       "senatForm": {
-        "articleRef": "Art. 4 alin. (6) și art. 8 alin. (1)-(5)",
-        "proposalContent": "Art. 4 alin. (6) se abrogă. Art. 8 alin. (1)-(5) se înlocuiesc cu: „(1) MIPE contractează, potrivit legislației achizițiilor publice, servicii de etichetare, colectare și distribuție a suporturilor electronice, cu acoperire națională și livrare la adresa aleasă de beneficiar. (2) Valoarea maximă a serviciilor este de 2.009,28 mii lei.”",
-        "argumentation": "Exclusivitatea restrânge accesul altor operatori la contract. Calitatea de furnizor de serviciu universal nu justifică automat rezervarea serviciilor poștale. Acoperirea națională poate fi impusă prin cerințe de atribuire, cu respectarea concurenței și a standardelor de livrare.",
-        "otherComments": "Propunere pentru preluare prin amendament la articolul unic al legii de aprobare. Extrasul ordonanței se oprește la art. 9 alin. (10); corelările trebuie verificate în forma integrală din 2023. Sursele oficiale externe nu au putut fi consultate în această sesiune."
+        "articleRef": "Art. 3 alin. (5) din OUG nr. 58/2023",
+        "proposalContent": "(5) Prima de carieră didactică se acordă anual și pentru anii școlari/universitari 2023/2024–2026/2027, personalului didactic și didactic auxiliar aflat în activitate în anul școlar/universitar pentru care se acordă, inclusiv profesorilor universitari, în condițiile alin. (3) și în limita fondurilor disponibile din Programul Educație și Ocupare 2021-2027.",
+        "argumentation": "Textul actual leagă eligibilitatea de activitatea din 2022-2023, așa că cadrele angajate ulterior pot fi excluse din tranșele 2024-2027, iar profesorii universitari sunt excluși fără justificare. Criteriul anului curent respectă egalitatea (art. 16 din Constituție) și scopul declarat: atragerea și menținerea cadrelor în sistem.",
+        "otherComments": "Recomand și: corelarea art. 9 alin. (8) cu art. 3 alin. (3), deoarece listele de cheltuieli diferă; corectarea trimiterii la Decizia Comisiei «C(2015)7016» din 2022; justificarea exclusivității Poștei Române (art. 4 alin. 6, art. 8) față de art. 106 TFUE; termene pentru anii următori fixate prin lege, nu prin ordin."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 72863,
+      "sourceEndMarker": "SF-170972BF",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Prime pentru personalul din educație, cu distribuție rezervată Poștei Române",
+      "verdictShort": "Sprijinul pentru personalul din educație este util, dar exclusivitatea acordată Poștei Române și condiționarea finanțării europene justifică un risc moderat. Evaluarea este provizorie: extrasul ordonanței se întrerupe la art. 9 alin. (10), iar dispozițiile finale nu au putut fi verificate.",
+      "initiatorClaim": "Guvernul urmărește susținerea formării profesionale și a achizițiilor necesare activității educaționale, prin prime finanțate din fonduri europene. Invocă și necesitatea protejării continuității educației în contextul grevei din 2023.",
+      "realityCheck": "Articolele disponibile instituie o primă didactică de 1.500 lei și o primă profesională de maximum 500 lei anual, cu utilizări limitate și finanțare condiționată de eligibilitate și disponibilitatea fondurilor. Distribuția suporturilor electronice este atribuită exclusiv Poștei Române, iar beneficiarii universitari sunt selectați după funcția didactică. Expunerea de motive menționează suportarea definitivă din bugetul național dacă modificarea programului european nu este acceptată, însă această regulă nu poate fi confirmată ca dispoziție normativă din extrasul disponibil.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Angajați & HR",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Articolul unic al proiectului aprobă OUG nr. 58/2023 fără modificări. Extrasul acesteia cuprinde numai primele 12 dintre 19 pagini și se oprește în interiorul art. 9 alin. (10); nu permite verificarea integrală a sancțiunilor, derogărilor și dispozițiilor finale.",
+        "Art. 3 alin. (3) stabilește prima didactică de 1.500 lei, cu maximum 30%, adică 450 lei, pentru nevoi didactice individuale. Art. 4 alin. (1) stabilește pentru personalul nedidactic un plafon anual de 500 lei, nu o plată necondiționată în acest cuantum.",
+        "Art. 4 alin. (6) rezervă expres distribuția Poștei Române, iar art. 8 prevede convenția directă și plafonul de 2.009,28 mii lei. Este o exclusivitate pentru aceste servicii, nu pentru emiterea cardurilor: aceasta din urmă se contractează prin achiziție publică potrivit art. 7.",
+        "Art. 3 alin. (5) prelungește măsura până în 2026/2027, dar identificarea beneficiarilor rămâne legată în mai multe articole de activitatea din 2022/2023. Nu este suficient de clar tratamentul persoanelor nou-angajate și nici al personalului auxiliar pentru anii ulteriori.",
+        "Art. 3 alin. (2) include conferențiarii, lectorii/șefii de lucrări și asistenții universitari, dar nu profesorii universitari. Diferența necesită o justificare obiectivă raportată la scopul sprijinului; discriminarea nu rezultă automat din simpla diferențiere.",
+        "Expunerea de motive estimează pentru primul an cheltuieli de aproximativ 426,66 milioane lei și venituri europene de 339,72 milioane lei, deci un impact bugetar negativ de aproximativ 86,94 milioane lei. Prezentarea măsurii ca finanțată european nu înseamnă absența unei contribuții naționale.",
+        "Art. 6 impune centralizarea datelor beneficiarilor, inclusiv CNP și adresă, iar art. 9 alin. (9)-(10) presupune afilierea comercianților și evidențiere fiscală distinctă. Acestea generează sarcini administrative; garanțiile suplimentare și eventualele sancțiuni din paginile lipsă nu pot fi evaluate."
+      ],
+      "blindSpotsCaught": "Calitatea Poștei Române de furnizor de serviciu universal, invocată în expunerea de motive, nu justifică automat rezervarea exclusivă a contractului. Separat, clauza privind suportarea cheltuielilor din bugetul național apare în motivare, dar nu în articolele furnizate: nu trebuie prezentată drept normă verificată. Codul de verificare marchează sfârșitul extrasului transmis, nu dovedește integralitatea ordonanței.",
+      "constitutionalityNote": "Art. 1 alin. (5) impune clarificarea beneficiarilor pentru anii ulteriori și corelarea art. 9 alin. (9), care vorbește despre emitentul selectat de beneficiar, cu selecția realizată de minister potrivit art. 7. Art. 16 este relevant pentru diferențierea dintre funcțiile universitare. Pentru art. 115 alin. (4), greva este o împrejurare concretă invocată, dar trebuie examinată legătura dintre urgența încheierii anului școlar și măsurile acordate începând din octombrie; neconstituționalitatea nu este demonstrată doar de acest decalaj. Art. 138 alin. (5) reclamă verificarea sursei de finanțare, nu doar constatarea unui cost bugetar. Art. 23 alin. (12) privește legalitatea pedepselor și nu constituie temeiul general al previzibilității acestui sprijin; eventualele norme sancționatorii din partea lipsă rămân neverificate.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testarea proporționalității restricțiilor privind accesul la profesii reglementate sau exercitarea lor; articolele disponibile acordă sprijin și nu introduc asemenea condiții profesionale. Folosirea cardurilor electronice nu declanșează, prin ea însăși, notificarea TRIS potrivit Directivei (UE) 2015/1535; extrasul nu identifică o regulă tehnică notificabilă privind servicii digitale ori AI. Exclusivitatea poștală necesită însă verificarea compatibilității cu normele europene privind serviciile poștale, achizițiile și concurența: desemnarea ca furnizor universal nu echivalează cu un drept general de exclusivitate. Limitarea utilizării la teritoriul României, prevăzută de art. 9 alin. (8), merită verificată sub aspectul proporționalității față de furnizorii transfrontalieri. Eligibilitatea cheltuielilor europene nu poate fi garantată unilateral prin legea națională. Verificarea surselor oficiale online nu a fost posibilă în această sesiune.",
+      "senatForm": {
+        "articleRef": "OUG nr. 58/2023, art. 4 alin. (6) și art. 8",
+        "proposalContent": "Art. 4 alin. (6): „Serviciile de etichetare, colectare și distribuție se atribuie potrivit legislației achizițiilor publice, în limita a 2.009,28 mii lei, cu acoperire națională.” Art. 8 alin. (1)-(3) se abrogă. La art. 8 alin. (4)-(5), referirile la Poșta Română se înlocuiesc cu „prestatorul selectat”.",
+        "argumentation": "Acoperirea națională poate fi impusă contractual, fără rezervarea legală a serviciilor unui singur operator. Atribuirea potrivit legislației achizițiilor permite verificarea condițiilor oricărei excepții și compararea ofertelor, păstrând plafonul cheltuielilor și accesul beneficiarilor.",
+        "otherComments": "Se corelează art. 5 lit. d) privind convenția și orice trimiteri din articolele ulterioare. Propunerea necesită confruntarea cu textul integral: extrasul disponibil se oprește la art. 9 alin. (10), înaintea ultimelor șapte pagini. Nu pot confirma absența altor derogări ori sancțiuni."
       },
       "reachedEnd": true,
       "status": "ok"
     }
   },
   "history": [
+    {
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-19T12:12:57.570Z",
+      "method": "whole-text-v1",
+      "textChars": 26348,
+      "form": "senat",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:22:45.910Z",
+      "reasons": [
+        "model"
+      ]
+    },
     {
       "riskScore": 3.7,
       "riskLevel": "green",

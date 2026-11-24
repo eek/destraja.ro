@@ -2,14 +2,41 @@
   "billId": "PL-x 257/2026",
   "slug": "plx-257-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T04:28:03.594Z",
+  "updatedAt": "2026-11-24T15:24:49.530Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 1597,
+    "ordinanceChars": 0,
+    "memoChars": 8467,
+    "memoSupplied": 8467,
+    "marker": "SF-5D4995C1"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-257-2026.json",
+    "form": "senat",
+    "textHash": "5d4995c1962ccf95",
+    "fetchedAt": "2026-11-19T10:32:26.681Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 2,
+    "articlesShown": 2,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 11351,
+    "truncated": false,
+    "included": true,
+    "key": "4597cfda62972cf7"
+  },
   "consensus": {
     "riskScore": 4,
     "riskLevel": "yellow",
-    "plainTitle": "Fără focuri de armă la mai puțin de 100 m de case",
-    "summaryTlDr": "Măsura e de bun-simț: protejează oamenii care locuiesc la marginea localităților, iar amenzile sunt moderate. Senatul a diluat însă propunerea (100 m în loc de 200/500 m, fără drumuri publice) și a scris două litere care se contrazic.",
-    "initiatorClaim": "Parlamentarii USR spun că legea permite azi vânătoarea chiar lângă gardurile caselor, mai ales în zonele periurbane aflate în expansiune. Ei cer distanțe minime obligatorii față de locuințe și drumuri, după modelul altor state UE și al distanțelor pentru gonaci din Regulamentul vânătorii.",
-    "realityCheck": "Forma Senatului interzice doar tragerea în cadrul partidelor de vânătoare la mai puțin de 100 m de terenurile din intravilan ocupate cu construcții sau curți, cu amendă de 2.000–5.000 lei. În aceeași bandă de 100 m permite însă tragerea „în direcția opusă” caselor. Au dispărut diferențierea 200/500 m, protecția drumurilor publice și încadrarea faptei ca infracțiune din propunerea inițială. Casele izolate din extravilan nu sunt acoperite, iar textul nu spune de unde se măsoară distanța.",
+    "plainTitle": "Fără focuri de armă la mai puțin de 100 m de case și curți",
+    "summaryTlDr": "Este o măsură de siguranță utilă și moderată, sancționată proporțional. Forma Senatului are însă o contradicție de redactare între lit. ak) și al), care trebuie corectată la Cameră ca regula să poată fi aplicată.",
+    "initiatorClaim": "Inițiatorii spun că legea de acum nu stabilește nicio distanță minimă între vânătoare și locuințe, așa că se poate trage chiar lângă gardul oamenilor, mai ales în zonele periurbane care se extind. Ei vor o zonă tampon care să protejeze locuitorii și să reducă conflictele cu vânătorii.",
+    "realityCheck": "Expunerea de motive descrie propunerea inițială: 200 m pentru alice, 500 m pentru glonț, protecție și pentru drumurile publice și infracțiune la art. 42. Senatul a renunțat la toate acestea. A rămas o singură distanță, de 100 m, doar față de terenurile intravilane cu construcții sau curți și doar pentru focul tras «în cadrul partidelor de vânătoare». Încălcarea e contravenție: amendă de 2.000–5.000 lei și reținerea permisului (art. 48 alin. 2). Noua lit. al) permite focul în zona de 100 m dacă e tras în direcția opusă, adică exact în zona în care lit. ak) îl interzice. Lit. al) nu are nici sancțiune proprie.",
     "affectedGroups": [
       "Proprietari & Imobiliare",
       "Agricultură & Mediu",
@@ -17,108 +44,139 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 39 alin. (1) lit. ak) și al) – pct. 1",
-      "proposalContent": "ak) executarea focului cu arma de vânătoare, în orice formă de vânătoare, la mai puțin de 100 m de limita terenurilor ocupate cu construcții sau curți în intravilan ori cu locuințe în extravilan, cu excepția art. 34 alin. (1); al) executarea focului în direcția acestor terenuri de la mai puțin de 200 m cu alice, respectiv 500 m cu glonț sau proiectil unic.",
-      "argumentation": "Forma Senatului e contradictorie: lit. ak) interzice tragerea sub 100 m, iar lit. al) o permite în aceeași zonă „în direcția opusă” și lipsește din art. 48. Nu e clar de unde se măsoară și dacă vânătoarea individuală e „partidă”. Casele izolate din extravilan rămân neprotejate. Distanțele 200/500 m sunt cele din Regulamentul aprobat prin Ordinul MADR 353/2008 pentru gonaci.",
-      "otherComments": "Lit. ak) și al) trebuie adăugate ambele la art. 48 alin. (1) lit. d). La reformularea integrală a lit. d), verificați lista față de forma consolidată în vigoare, ca să nu se piardă trimiteri adăugate de alte legi. Corectați „în -direcția” și „lei,la”. Fișa Camerei descrie încă varianta inițială (200/500 m, drumuri, infracțiune la art. 42), nu forma Senatului."
+      "articleRef": "Art. unic pct.1 – art.39 alin.(1) lit.ak) și al)",
+      "proposalContent": "ak) executarea focului cu arma de vânătoare la mai puțin de 100 m de terenurile intravilane ocupate cu construcții sau curți ori de locuințele din extravilan, cu excepția art.34 alin.(1); al) executarea focului în direcția acestora, la o distanță cuprinsă între 100 m și 200 m. La art.48 alin.(1) lit.d) se adaugă și lit.al).",
+      "argumentation": "Forma Senatului e contradictorie: lit.ak) interzice focul sub 100 m, iar lit.al) îl permite în aceeași zonă dacă e tras în direcția opusă. Lit.al) nu are sancțiune. Formula «în cadrul partidelor» lasă afară vânătoarea individuală, iar casele izolate din extravilan rămân neprotejate. Un glonț de vânătoare poate parcurge câțiva km.",
+      "otherComments": "Erori de redactare: «-direcția», «2.000 lei,la». E utilă precizarea modului de măsurare a distanței (de la poziția trăgătorului la limita terenului). Propun și obligația gestionarului de a anunța primăria înainte de partidele organizate lângă localități."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 88995,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 82395,
+      "sourceEndMarker": "SF-5D4995C1",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Distanța minimă de 100 m față de case la partidele de vânătoare (text senatorial contradictoriu)",
-      "verdictShort": "Scopul legii — protejarea locuitorilor de la marginea localităților față de focurile armelor de vânătoare — este legitim și necesar, însă forma adoptată de Senat a diluat drastic proiectul inițial și a introdus o contradicție flagrantă între două alineate consecutive: unul interzice focul sub 100 m de case, iar următorul îl permite în aceeași zonă dacă se trage în direcția opusă.",
-      "initiatorClaim": "Inițiatorii și-au propus să interzică vânătoarea la mai puțin de 200 m (pentru arme cu alice) și 500 m (pentru arme cu glonț) față de construcțiile sau curțile din intravilan și față de drumurile publice, încadrând încălcarea ca infracțiune de braconaj.",
-      "realityCheck": "Senatul a îmblânzit radical legea: a eliminat complet protecția drumurilor publice, a redus distanța la doar 100 m (indiferent dacă se trage cu alice sau cu glonț) și a transformat fapta din infracțiune în contravenție (amendă 2.000–5.000 lei). Mai grav, prin modul defectuos în care au fost redactate literele ak) și al) din art. 39 alin. (1), interdicția de 100 m este practic anulată dacă vânătorul trage cu spatele la gardul curții.",
+      "plainTitle": "Distanță de 100 m pentru vânătoare lângă case, dar cu reguli care se bat cap în cap",
+      "verdictShort": "Intenția de a proteja locuitorii din jurul fondurilor cinegetice este legitimă, însă forma adoptată de Senat este juridic defectuoasă: cele două litere introduse la art. 39 se contrazic direct pe aceeași fâșie de 100 m. În forma actuală, legea încalcă cerința constituțională de claritate și îi expune pe vânători la amenzi și reținerea permisului pe baza unui text incoerent.",
+      "initiatorClaim": "Inițiatorii susțin că vor să creeze zone de siguranță în jurul locuințelor și al drumurilor publice, interzicând vânătoarea sub 200 m (arme cu alice) și sub 500 m (arme cu glonț) și sancționând fapta ca infracțiune de braconaj.",
+      "realityCheck": "Senatul a eliminat complet drumurile publice, diferențierea pe tipuri de armă și încadrarea penală, reducând totul la o distanță unică de 100 m și o amendă contravențională de 2.000–5.000 lei (plus reținerea automată a permisului de vânătoare, conform art. 48 alin. (2) în vigoare). Mai grav, lit. ak) interzice focul sub 100 m față de construcții/curți intravilane, în timp ce lit. al) îl permite în aceeași zonă (până la 100 m) dacă se trage în direcția opusă, fiind plasată eronat într-o listă de interdicții și lăsată fără sancțiune.",
       "affectedGroups": [
         "Proprietari & Imobiliare",
         "Agricultură & Mediu",
-        "Justiție & Drepturi Civile",
-        "Toți cetățenii"
-      ],
-      "keyFindings": [
-        "Contradicție directă între lit. ak) și lit. al) de la art. 39 alin. (1): lit. ak) interzice executarea focului la o distanță mai mică de 100 m față de terenurile intravilane cu construcții sau curți, în timp ce lit. al) prevede că în zonele situate „la cel mult 100 m” de aceleași terenuri executarea focului „este permisă exclusiv în direcția opusă zonelor intravilane”.",
-        "Eroare de tehnică legislativă: partea introductivă a art. 39 alin. (1) din Legea nr. 407/2006 enumeră acțiuni prohibite („sunt interzise și următoarele:”), dar Senatul a introdus la lit. al) o normă permisivă („executarea focului... este permisă exclusiv...”), fără a o corela nici cu sancțiunea contravențională de la art. 48 alin. (1) lit. d), care menționează doar lit. ak).",
-        "Diluarea protecției față de forma inițială: au dispărut diferențierea balistică între armele cu alice (200 m) și cele cu glonț (500 m), interdicția față de drumurile deschise circulației publice, precum și interdicția vânătorii propriu-zise (hăituirea cu câini lângă garduri), fiind vizată strict „executarea focului în cadrul partidelor de vânătoare”."
-      ],
-      "blindSpotsCaught": "Fișa oficială a Camerei Deputaților și Expunerea de Motive descriu încă forma inițială a proiectului (distanțe diferențiate pe tip de armă, drumuri publice și modificarea art. 42 privind infracțiunile), însă forma adoptată de Senat a șters toate aceste elemente și a introdus o chichiță la art. 39 alin. (1) lit. al) care le permite vânătorilor să tragă chiar de lângă gardul caselor (sub 100 m), atât timp cât trag în direcția opusă intravilanului.",
-      "constitutionalityNote": "Forma adoptată de Senat ridică probleme serioase de constituționalitate prin raportare la art. 1 alin. (5) din Constituție (principiul legalității, sub aspectul clarității, preciziei și previzibilității normei contravenționale). Un cetățean sau un agent constatator nu poate stabili cu certitudine dacă executarea focului la 50 m de o curte locuită, în direcția câmpului, este contravenție conform art. 39 alin. (1) lit. ak) raportat la art. 48 alin. (1) lit. d) sau conduită permisă conform art. 39 alin. (1) lit. al).",
-      "euLawNote": "Proiectul nu ridică probleme de compatibilitate cu dreptul UE: nu restrânge accesul la o profesie reglementată (Directiva 2018/958 nu este incidentă), nu vizează servicii ale societății informaționale sau reglementări tehnice de produse (Directiva TRIS 2015/1535 nu se aplică), iar stabilirea perimetrelor de siguranță cinegetică ține de competența națională privind ordinea și siguranța publică.",
-      "senatForm": {
-        "articleRef": "Art. unic pct. 1 (art. 39 alin. (1) lit. ak-al)",
-        "proposalContent": "Art. 39 alin. (1) lit. ak) și al) se modifică: „ak) executarea focului cu arma de vânătoare la mai puțin de 100 m de terenurile intravilane cu construcții sau curți, cu excepția art. 34 alin. (1); al) executarea focului cu arma de vânătoare în direcția terenurilor de la lit. ak), de la o distanță între 100 m și 300 m față de acestea.”",
-        "argumentation": "În forma Senatului, lit. ak) și al) se contrazic: lit. ak) interzice focul sub 100 m de case/curți, dar lit. al) îl permite în aceeași zonă de 0-100 m dacă se trage în direcția opusă. Totodată, art. 39 alin. (1) enumeră fapte „interzise”, deci lit. al) nu poate fi redactată permisiv („este permisă”), încălcând Legea 24/2000 și art. 1 alin. (5) din Constituție.",
-        "otherComments": "La pct. 2 (art. 48 alin. (1) lit. d)), trebuie inclusă și lit. al) lângă lit. ak) pentru sancționarea contravențională. Totodată, recomandăm reanalizarea distanțelor inițiale (200 m pentru alice, 500 m pentru glonț) și a protecției drumurilor publice, întrucât limita de 100 m adoptată de Senat este insuficientă balistic pentru armele cu glonț."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 153430,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Fără focuri de armă la mai puțin de 100 m de case",
-      "verdictShort": "Măsura e de bun-simț: protejează oamenii care locuiesc la marginea localităților, iar amenzile sunt moderate. Senatul a diluat însă propunerea (100 m în loc de 200/500 m, fără drumuri publice) și a scris două litere care se contrazic.",
-      "initiatorClaim": "Parlamentarii USR spun că legea permite azi vânătoarea chiar lângă gardurile caselor, mai ales în zonele periurbane aflate în expansiune. Ei cer distanțe minime obligatorii față de locuințe și drumuri, după modelul altor state UE și al distanțelor pentru gonaci din Regulamentul vânătorii.",
-      "realityCheck": "Forma Senatului interzice doar tragerea în cadrul partidelor de vânătoare la mai puțin de 100 m de terenurile din intravilan ocupate cu construcții sau curți, cu amendă de 2.000–5.000 lei. În aceeași bandă de 100 m permite însă tragerea „în direcția opusă” caselor. Au dispărut diferențierea 200/500 m, protecția drumurilor publice și încadrarea faptei ca infracțiune din propunerea inițială. Casele izolate din extravilan nu sunt acoperite, iar textul nu spune de unde se măsoară distanța.",
-      "affectedGroups": [
-        "Agricultură & Mediu",
-        "Proprietari & Imobiliare"
-      ],
-      "keyFindings": [
-        "Art. unic pct. 1, noua lit. ak) de la art. 39 alin. (1): interzice executarea focului în partidele de vânătoare la mai puțin de 100 m de terenurile intravilane ocupate cu construcții sau curți. Excepție fac situațiile din art. 34 alin. (1).",
-        "Lit. al) se bate cap în cap cu lit. ak): în aceeași zonă de cel mult 100 m, focul este „permis exclusiv în direcția opusă”. Fie al) se aplică doar vânătorii care nu e „partidă”, termen pe care legea nu îl definește, fie interdicția din ak) devine neclară. În plus, o permisiune a fost introdusă într-o listă de interdicții.",
-        "Art. unic pct. 2, art. 48 alin. (1) lit. d): fapta de la lit. ak) devine contravenție, cu amendă de 2.000–5.000 lei, la același nivel cu celelalte încălcări din această literă. Lit. al) nu apare în listă, deci regula de direcție nu are o sancțiune proprie.",
-        "Față de propunerea inițială, Senatul a redus distanța la 100 m, unică pentru toate armele, în loc de 200 m pentru alice și 500 m pentru glonț. A scos drumurile publice și a renunțat la infracțiunea de braconaj de la art. 42. Fișa Camerei descrie încă varianta inițială.",
-        "100 m este foarte puțin față de bătaia unui glonț de carabină, care se măsoară în kilometri. Protecția reală ar veni din regula de direcție, care însă nu are sancțiune proprie.",
-        "Proiectul nu are costuri bugetare și nu adaugă birocrație pentru cetățeni. Gestionarii fondurilor cinegetice periurbane ar putea fi nevoiți să mute posturile fixe sau observatoarele aflate la mai puțin de 100 m de case."
-      ],
-      "blindSpotsCaught": "Aceeași lege folosește termeni diferiți: art. 42 alin. (1) lit. h), citat în expunere, vorbește de intravilan „construit sau împrejmuit”, iar noua lit. ak) de terenuri „ocupate cu construcții sau curți”. Textul nu spune dacă distanța se măsoară de la casă sau de la limita curții. Lit. d) a art. 48 este rescrisă integral, așa că lista de trimiteri trebuie verificată pe forma consolidată la zi. Altfel se pot pierde, fără să observe nimeni, trimiteri adăugate între timp de alte legi.",
-      "constitutionalityNote": "Scopul este legitim: protejează viața și integritatea fizică (art. 22) și dreptul la un mediu sănătos (art. 35). Restrângerea pentru vânători este ușoară și proporțională (art. 53). Problema ține de calitatea normei (art. 1 alin. 5): contradicția dintre ak) și al), termenul nedefinit „partidă de vânătoare” și lipsa punctului de măsurare fac greu previzibilă o normă sancționată cu amendă. Fapta nu mai este infracțiune, deci art. 23 alin. (12) nu mai e direct incident. Cerința de previzibilitate rămâne însă, prin art. 1 alin. (5) și art. 6–7 CEDO, care tratează contravențiile ca „materie penală” (Anghel c. României). Adoptarea ca lege organică, potrivit art. 76 alin. (1), nu ridică probleme.",
-      "euLawNote": "Directiva 2018/958 nu se aplică, pentru că proiectul nu reglementează accesul la o profesie sau exercitarea ei. Nici TRIS 2015/1535 nu e incidentă: nu sunt implicate servicii ale societății informaționale, iar o limită de distanță pentru tragere doar condiționează locul folosirii armei, nu îi interzice utilizarea ca produs. Proiectul nu atinge Directiva 2021/555 privind armele, nici directivele Păsări 2009/147 și Habitate 92/43. Regula se aplică la fel vânătorilor străini, nu afectează concurența și urmează practica din Italia, Croația sau Cehia, invocată în expunere.",
-      "senatForm": {
-        "articleRef": "Art. 39 alin. (1) lit. ak) și al) – pct. 1",
-        "proposalContent": "ak) executarea focului cu arma de vânătoare, în orice formă de vânătoare, la mai puțin de 100 m de limita terenurilor ocupate cu construcții sau curți în intravilan ori cu locuințe în extravilan, cu excepția art. 34 alin. (1); al) executarea focului în direcția acestor terenuri de la mai puțin de 200 m cu alice, respectiv 500 m cu glonț sau proiectil unic.",
-        "argumentation": "Forma Senatului e contradictorie: lit. ak) interzice tragerea sub 100 m, iar lit. al) o permite în aceeași zonă „în direcția opusă” și lipsește din art. 48. Nu e clar de unde se măsoară și dacă vânătoarea individuală e „partidă”. Casele izolate din extravilan rămân neprotejate. Distanțele 200/500 m sunt cele din Regulamentul aprobat prin Ordinul MADR 353/2008 pentru gonaci.",
-        "otherComments": "Lit. ak) și al) trebuie adăugate ambele la art. 48 alin. (1) lit. d). La reformularea integrală a lit. d), verificați lista față de forma consolidată în vigoare, ca să nu se piardă trimiteri adăugate de alte legi. Corectați „în -direcția” și „lei,la”. Fișa Camerei descrie încă varianta inițială (200/500 m, drumuri, infracțiune la art. 42), nu forma Senatului."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 147939,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Focurile de vânătoare lângă case: protecție utilă, reguli neclare",
-      "verdictShort": "Proiectul urmărește legitim protejarea oamenilor, dar cele două reguli introduse pentru zona de 100 m sunt insuficient corelate. Riscul principal este aplicarea contradictorie a interdicției și a amenzii, fără indicii de monopoluri sau taxe ascunse.",
-      "initiatorClaim": "Inițiatorii vor protejarea locuitorilor și a persoanelor aflate lângă drumurile publice, prin distanțe de 200 m pentru alice și 500 m pentru glonț. Expunerea de motive descrie sancționarea penală a încălcării acestor distanțe.",
-      "realityCheck": "Forma Senatului interzice executarea focului în cadrul partidelor de vânătoare sub 100 m de terenurile intravilane ocupate cu construcții sau curți, cu excepția art. 34 alin. (1), și introduce amendă contravențională de 2.000–5.000 lei. Nu introduce distanțele de 200/500 m, protecția distinctă a drumurilor ori noua infracțiune descrisă în motivare și nici obligația notificării locuitorilor. Litera al) formulează însă o permisiune condiționată de direcția tragerii chiar în zona acoperită de interdicție, ceea ce creează ambiguitate. [Forma adoptată de Senat](https://www.senat.ro/legis/PDF/2026/26L076FS.PDF?nocache=true).",
-      "affectedGroups": [
-        "Proprietari & Imobiliare",
-        "Agricultură & Mediu",
-        "IMM & Antreprenori",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 39 alin. (1) lit. ak) privește executarea focului în cadrul partidelor de vânătoare, nu simpla prezență a vânătorilor sau toate activitățile de vânătoare. Protecția suplimentară nu include expres construcțiile din extravilan.",
-        "Litera ak) interzice focul la mai puțin de 100 m; litera al) vorbește despre foc permis exclusiv în direcția opusă la cel mult 100 m. Interpretarea cumulativă este posibilă, dar textul nu precizează suficient că al) nu derogă de la ak).",
-        "La exact 100 m, interdicția de la ak) nu operează, însă condiția direcției de la al) se aplică potrivit formulării sale. Art. 48 alin. (1) lit. d) include numai ak), astfel că proiectul nu atașează o sancțiune contravențională distinctă încălcării al).",
-        "Nu sunt precizate metoda măsurării distanței și sensul verificabil al expresiei «direcția opusă», mai ales când există locuințe în mai multe direcții. Materialele furnizate nu justifică balistic pragul unic de 100 m pentru toate armele.",
-        "Proiectul nu introduce taxe, declarații, avize suplimentare sau cheltuieli bugetare obligatorii expres prevăzute. Organizatorii, inclusiv eventualele IMM-uri, pot suporta costuri de verificare a distanțelor și reorganizare a partidelor; eventualele economii pentru autorități nu sunt cuantificate."
+        "Contradicție frontală în Art. unic pct. 1 (art. 39 alin. (1)): lit. ak) interzice executarea focului la mai puțin de 100 m de terenurile intravilane cu construcții sau curți, dar lit. al) prevede imediat că în zonele situate la cel mult 100 m focul «este permis exclusiv în direcția opusă» — ambele plasate sub teza introductivă «sunt interzise și următoarele».",
+        "Lacună de aplicare și sancționare (Art. unic pct. 1 și 2): interdicția de la lit. ak) vizează doar focul executat «în cadrul partidelor de vânătoare» (termen nedefinit în Legea nr. 407/2006, care poate exclude vânătoarea individuală), iar art. 48 alin. (1) lit. d) sancționează doar lit. ak), nu și lit. al).",
+        "Diluare majoră față de scopul inițial: deși în prezent legea interzice vânătoarea doar în perimetrul construit/împrejmuit din intravilan (art. 39 alin. (1) lit. aa)), Senatul a tăiat distanța pentru armele cu glonț de la 500 m la 100 m și a scos protecția față de drumurile publice, lăsând neprotejate și gospodăriile izolate din extravilan."
       ],
-      "blindSpotsCaught": "Consecința nu se limitează la amendă: art. 48 alin. (2), deja existent, impune reținerea permisului de vânătoare și transmiterea lui emitentului pentru contravențiile de la alin. (1); aceasta nu înseamnă anulare automată. Totodată, litera al), redactată ca permisiune, este introdusă într-o enumerare de interdicții, ceea ce accentuează defectul de tehnică legislativă. [Legea nr. 407/2006, art. 39 și 48](https://legislatie.just.ro/Public/DetaliiDocument/303208).",
-      "constitutionalityNote": "Protejarea vieții și integrității fizice servește art. 22 din Constituție. Vulnerabilitatea concretă privește art. 1 alin. (5): raportul neclar dintre interdicție și permisiune poate afecta previzibilitatea conduitei sancționate. Art. 23 alin. (12) privește legalitatea pedepselor; proiectul introduce aici o contravenție, nu o nouă infracțiune, astfel că analiza se concentrează pe claritatea normei contravenționale și legalitatea sancțiunii. Amenda de 2.000–5.000 lei nu apare vădit disproporționată pentru riscul folosirii armelor lângă locuințe, dar ipoteza aplicării trebuie clarificată. Aceste probleme indică o vulnerabilitate, nu o neconstituționalitate certă. [Constituția, art. 22–23](https://www.cdep.ro/pls/dic/site.page?den=act2_1&par1=2).",
-      "euLawNote": "Nu se identifică privilegii concurențiale, exclusivități noi sau discriminări după naționalitate. Directiva (UE) 2018/958, art. 2, privește restricțiile asupra profesiilor reglementate în sensul Directivei 2005/36/CE; o regulă generală de siguranță la vânătoare nu demonstrează, singură, incidența acestui test special. Fundamentarea necesității și proporționalității distanței rămâne utilă. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/ro/ALL/?uri=CELEX%3A32018L0958). Proiectul nu reglementează servicii digitale sau AI. TRIS nu privește exclusiv asemenea servicii, ci și anumite reglementări privind produsele; materialele analizate nu demonstrează un efect semnificativ asupra comercializării armelor care să fundamenteze o obligație de notificare pentru această restricție locală de utilizare. Nu rezultă o încălcare demonstrată a Directivei 2015/1535. [Directiva 2015/1535, art. 1](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=celex%3A32015L1535).",
+      "blindSpotsCaught": "Art. 48 alin. (2) din Legea nr. 407/2006 (nemodificat de proiect, dar aplicabil automat) impune reținerea imediată a permisului de vânătoare pentru orice contravenție de la alin. (1). Prin introducerea lit. ak) la art. 48 alin. (1) lit. d), un vânător care trage la 80 m în direcția opusă caselor — crezând că respectă lit. al) — riscă nu doar amenda de 2.000–5.000 lei, ci și reținerea pe loc a permisului de vânătoare. În plus, textul conține erori tehnice necorectate („în -direcția”, „2.000 lei,la 5.000 lei”).",
+      "constitutionalityNote": "Risc ridicat de neconstituționalitate raportat la art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii), prin suprapunerea contradictorie dintre lit. ak) (interdicție < 100 m) și lit. al) (permisiune <= 100 m în direcția opusă), cu consecințe directe asupra legalității sancțiunii contravenționale (principiu corelat și cu exigențele art. 23 alin. (12) în materie punitivă). Procedura de adoptare ca lege organică (art. 76 alin. (1)) este corectă, întrucât modifică o lege organică.",
+      "euLawNote": "Proiectul nu ridică probleme de conformitate cu dreptul UE. Stabilirea distanțelor de siguranță la vânătoare ține de competența națională în materie de siguranță publică și gestionare cinegetică (practici similare de 50–500 m există în Italia, Croația, Cehia, Franța, Cipru). Nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează o profesie) și nici a Directivei (UE) 2015/1535 (TRIS), nefiind o reglementare tehnică de produs sau serviciu digital.",
       "senatForm": {
-        "articleRef": "Art. 39 alin. (1) lit. al) – art. unic pct. 1",
-        "proposalContent": "Se elimină litera al) propusă la articolul 39 alineatul (1).",
-        "argumentation": "Litera ak) interzice focul sub 100 m, cu excepția art. 34 alin. (1), dar litera al) sugerează că focul este permis în aceeași zonă dacă se trage în sens opus. Eliminarea înlătură ambiguitatea, păstrează interdicția și excepția expresă și evită aplicarea neunitară a amenzii.",
-        "otherComments": "Separat, precizați măsurarea distanței de la locul tragerii la limita cea mai apropiată a terenului protejat și fundamentați balistic pragul de 100 m. Termenul indicat, 09.04.2026, a trecut; cetățeanul poate transmite propunerea comisiilor Camerei Deputaților, iar un deputat o poate prelua procedural."
-      }
+        "articleRef": "Art. unic pct. 1 (art. 39 alin. (1) lit. ak-al)",
+        "proposalContent": "ak) executarea focului cu arma de vânătoare la o distanță mai mică de 100 m față de terenurile intravilane ocupate cu construcții sau curți, cu excepția art. 34 alin. (1); al) executarea focului cu arma de vânătoare în direcția terenurilor prevăzute la lit. ak) de la o distanță cuprinsă între 100 m și 500 m, cu excepția art. 34 alin. (1).",
+        "argumentation": "Textul Senatului se contrazice: lit. ak) interzice focul sub 100 m, iar lit. al) îl permite până la 100 m în direcția opusă, deși art. 39(1) enumeră interdicții. Încalcă art. 1(5) din Constituție (claritatea legii). Reformularea elimină contradicția, acoperă și vânătoarea individuală (nu doar „partidele”) și oprește tirul spre case până la 500 m.",
+        "otherComments": "Corelați și pct. 2 (art. 48 alin. (1) lit. d)) prin includerea lit. al) între contravenții, altfel interdicția privind direcția de tragere rămâne fără sancțiune. Corectați erorile de redactare („în -direcția”, „2.000 lei,la 5.000 lei”) și evaluați reintroducerea unei distanțe de protecție față de drumurile publice, eliminată la Senat."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 44725,
+      "sourceEndMarker": "SF-5D4995C1",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Fără focuri de armă la mai puțin de 100 m de case și curți",
+      "verdictShort": "Este o măsură de siguranță utilă și moderată, sancționată proporțional. Forma Senatului are însă o contradicție de redactare între lit. ak) și al), care trebuie corectată la Cameră ca regula să poată fi aplicată.",
+      "initiatorClaim": "Inițiatorii spun că legea de acum nu stabilește nicio distanță minimă între vânătoare și locuințe, așa că se poate trage chiar lângă gardul oamenilor, mai ales în zonele periurbane care se extind. Ei vor o zonă tampon care să protejeze locuitorii și să reducă conflictele cu vânătorii.",
+      "realityCheck": "Expunerea de motive descrie propunerea inițială: 200 m pentru alice, 500 m pentru glonț, protecție și pentru drumurile publice și infracțiune la art. 42. Senatul a renunțat la toate acestea. A rămas o singură distanță, de 100 m, doar față de terenurile intravilane cu construcții sau curți și doar pentru focul tras «în cadrul partidelor de vânătoare». Încălcarea e contravenție: amendă de 2.000–5.000 lei și reținerea permisului (art. 48 alin. 2). Noua lit. al) permite focul în zona de 100 m dacă e tras în direcția opusă, adică exact în zona în care lit. ak) îl interzice. Lit. al) nu are nici sancțiune proprie.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "Proprietari & Imobiliare",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 39 alin. (1) lit. ak), text nou: interzice focul cu arma de vânătoare, în cadrul partidelor, la mai puțin de 100 m de terenurile intravilane ocupate cu construcții sau curți. Excepție fac situațiile de la art. 34 alin. (1). Legea în vigoare interzice doar vânătoarea în perimetrul construit sau împrejmuit din intravilan (lit. aa) și art. 42 lit. h), fără nicio zonă tampon.",
+        "Art. 39 alin. (1) lit. al), text nou: în zona de cel mult 100 m, focul este «permis exclusiv în direcția opusă» intravilanului. Asta contrazice frontal lit. ak), care interzice focul în aceeași zonă. Un vânător nu poate ști ce regulă se aplică, iar agentul constatator nici atât.",
+        "Art. 48 alin. (1) lit. d), modificat: se adaugă doar lit. ak), cu amendă de la 2.000 la 5.000 lei. Lit. al) rămâne fără sancțiune, deci este o normă declarativă.",
+        "Față de inițiativă, au dispărut distanțele diferențiate (200 m pentru alice, 500 m pentru glonț), protecția drumurilor publice și încadrarea ca infracțiune. Nivelul de protecție final e mult sub cel anunțat în expunerea de motive.",
+        "Sunt protejate doar terenurile intravilane. Casele, fermele și stânele izolate din extravilan nu beneficiază de distanța minimă.",
+        "Sintagma «în cadrul partidelor de vânătoare» poate lăsa în afara regulii vânătoarea individuală (la pândă, la dibuit). Tocmai la aceste vânători se folosește frecvent glonțul, care are bătaie mare."
+      ],
+      "blindSpotsCaught": "Pe lângă contradicția ak)/al), legea nu spune cum se măsoară distanța (de la trăgător la limita terenului sau la construcție) și nici ce înseamnă «terenuri ocupate cu construcții sau curți» când intravilanul e doar parțial construit. 100 m e o distanță foarte mică pentru un glonț de vânătoare, care poate parcurge câțiva kilometri. Regulamentul de vânătoare citat chiar de inițiatori cere 500 m pentru protecția gonacilor când se trage cu glonț. Textul are și erori materiale: «-direcția», «2.000 lei,la». Art. 48 alin. (1) lit. d) continuă stilul existent de trimitere la «art. 39 lit.» fără «alin. (1)», ceea ce nu creează însă confuzie reală. Legea nr. 196/2026 a modificat recent doar lit. b) a art. 48, deci nu e conflict de texte.",
+      "constitutionalityNote": "Scopul este legitim: protecția vieții și a integrității fizice (art. 22), a domiciliului și a proprietății (art. 27, art. 44). Restricția impusă vânătorilor este proporțională. Problema reală ține de claritate și previzibilitate (art. 1 alin. 5 din Constituție, jurisprudența CCR despre calitatea legii). Lit. ak) și al) se contrazic, iar o contravenție sancționată cu până la 5.000 lei și cu reținerea permisului trebuie să descrie fără echivoc fapta interzisă. Neclaritatea poate duce la anularea proceselor-verbale în instanță și poate atrage critici de neconstituționalitate pentru norma ambiguă. Corectarea redacțională la Cameră rezolvă problema.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: nu se reglementează accesul la o profesie sau exercitarea ei, ci o regulă de siguranță în exercitarea vânătorii. Directiva TRIS (UE) 2015/1535 nu e incidentă: nu sunt servicii ale societății informaționale și nici reglementări tehnice privind produse. Directivele Habitate (92/43/CEE) și Păsări (2009/147/CE) nu sunt afectate: proiectul nu schimbă speciile, perioadele sau metodele de vânătoare. Restrângerea spațială a vânătorii este compatibilă cu obiectivele de protecție. Distanța aleasă se încadrează în practica statelor membre, unde intervalul este de 50–500 m.",
+      "senatForm": {
+        "articleRef": "Art. unic pct.1 – art.39 alin.(1) lit.ak) și al)",
+        "proposalContent": "ak) executarea focului cu arma de vânătoare la mai puțin de 100 m de terenurile intravilane ocupate cu construcții sau curți ori de locuințele din extravilan, cu excepția art.34 alin.(1); al) executarea focului în direcția acestora, la o distanță cuprinsă între 100 m și 200 m. La art.48 alin.(1) lit.d) se adaugă și lit.al).",
+        "argumentation": "Forma Senatului e contradictorie: lit.ak) interzice focul sub 100 m, iar lit.al) îl permite în aceeași zonă dacă e tras în direcția opusă. Lit.al) nu are sancțiune. Formula «în cadrul partidelor» lasă afară vânătoarea individuală, iar casele izolate din extravilan rămân neprotejate. Un glonț de vânătoare poate parcurge câțiva km.",
+        "otherComments": "Erori de redactare: «-direcția», «2.000 lei,la». E utilă precizarea modului de măsurare a distanței (de la poziția trăgătorului la limita terenului). Propun și obligația gestionarului de a anunța primăria înainte de partidele organizate lângă localități."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 86579,
+      "sourceEndMarker": "SF-5D4995C1",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Distanță de siguranță la vânătoare, cu reguli contradictorii",
+      "verdictShort": "Proiectul urmărește legitim protejarea locuințelor, dar formulează ambiguu regula esențială: sub 100 m, tragerea este interzisă sau permisă în direcția opusă? Neclaritatea trebuie eliminată înainte de introducerea amenzii și de aplicarea reținerii permisului.",
+      "initiatorClaim": "Inițiatorii invocă protejarea locuitorilor și a persoanelor aflate lângă drumurile publice. Expunerea de motive descrie distanțe de 200 m pentru alice și 500 m pentru proiectil unic, precum și sancționarea penală a încălcării.",
+      "realityCheck": "Forma Senatului introduce interzicerea executării focului în cadrul partidelor de vânătoare la mai puțin de 100 m de terenurile intravilane ocupate cu construcții sau curți, cu excepția art. 34 alin. (1), și sancționează încălcarea cu amendă între 2.000 și 5.000 lei. Separat, permite exclusiv tragerea în direcția opusă acestor terenuri în zona de cel mult 100 m, formulare care poate fi interpretată ca o permisiune incompatibilă cu prima regulă. Nu introduce distanțele diferențiate, protecția distinctă a drumurilor sau noua incriminare descrise în expunerea de motive.",
+      "affectedGroups": [
+        "Proprietari & Imobiliare",
+        "Justiție & Drepturi Civile",
+        "Agricultură & Mediu",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Articol unic pct. 1, art. 39 alin. (1) lit. ak): față de textul actual al art. 39, apare o interdicție expresă de tragere sub 100 m. Ea privește executarea focului în cadrul partidelor de vânătoare, nu simpla prezență a vânătorilor sau orice activitate cinegetică.",
+        "Art. 39 alin. (1) lit. al): formula «este permisă exclusiv» se suprapune interdicției de la lit. ak) pentru distanțele sub 100 m, fără să precizeze dacă instituie o derogare. Introducerea unei permisiuni în enumerarea faptelor interzise accentuează neclaritatea.",
+        "La exact 100 m, interdicția de la lit. ak) nu operează, dar condiția privind direcția de tragere de la lit. al) operează. Proiectul adaugă numai lit. ak) în lista contravențiilor de la art. 48 alin. (1) lit. d); lit. al) nu primește o sancțiune proprie prin acest proiect.",
+        "Articol unic pct. 2: intervalul amenzii de 2.000–5.000 lei există deja. Noutatea este includerea încălcării lit. ak) între faptele sancționate, nu majorarea amenzilor pentru celelalte fapte enumerate.",
+        "Art. 48 alin. (2), nemodificat, impune reținerea permisului de vânătoare pentru faptele de la alin. (1). Prin includerea noii contravenții, această consecință existentă devine aplicabilă și încălcării lit. ak); nu trebuie confundată cu anularea automată a permisului.",
+        "Protecția nouă este legată de terenuri intravilane ocupate cu construcții sau curți. Locuințele din extravilan și drumurile publice nu beneficiază, doar prin această completare, de același perimetru expres de 100 m; celelalte reguli de siguranță rămân aplicabile.",
+        "Proiectul nu stabilește explicit punctele între care se măsoară distanța și nici sensul operațional al «direcției opuse» când există terenuri protejate în mai multe direcții. Nu conține alte modificări, abrogări sau dispoziții tranzitorii după cele două puncte.",
+        "Nu sunt introduse taxe, notificări obligatorii către locuitori sau autorizații suplimentare. Organizatorii trebuie să adapteze amplasarea trăgătorilor și verificarea distanțelor; amploarea costurilor administrative și a eventualelor cheltuieli de control nu este cuantificată."
+      ],
+      "blindSpotsCaught": "Excepția pentru situațiile reglementate la art. 34 alin. (1) apare numai la lit. ak), nu și la lit. al), ceea ce poate crea dificultăți pentru intervențiile exceptate. În plus, expunerea de motive și fișa privind obiectul inițiativei descriu soluții care nu se mai regăsesc în forma Senatului: acestea nu pot completa juridic textul adoptat.",
+      "constitutionalityNote": "Protejarea vieții și integrității fizice este un scop legitim, compatibil cu art. 22 din Constituție. Principalul risc privește art. 1 alin. (5): suprapunerea dintre interdicție și permisiune, împreună cu reperul insuficient precizat pentru măsurare, poate afecta previzibilitatea conduitei sancționate. Legalitatea sancțiunilor, invocată și prin art. 23 alin. (12), impune ca omisiunea lit. al) din norma contravențională să nu fie suplinită prin analogie în defavoarea persoanei. Nu rezultă o neconstituționalitate evidentă a pragului de 100 m sau a amenzii în sine; problemele identificate sunt remediabile prin redactare și corelare.",
+      "euLawNote": "Nu se identifică noi condiții de acces la o profesie reglementată care să declanșeze, prin ele însele, testul prevăzut de Directiva (UE) 2018/958. Proiectul nu reglementează servicii digitale sau AI; totuși, Directiva (UE) 2015/1535 privește și reglementări tehnice pentru produse, astfel că eventuala notificare TRIS trebuie evaluată prin calificarea restricției privind utilizarea armelor, nu exclusă numai pentru lipsa componentei digitale. Nu apar privilegii pentru anumiți operatori sau discriminări după naționalitate; proporționalitatea restricției teritoriale ar beneficia de o fundamentare tehnică a pragului ales. Verificarea externă online nu a putut fi efectuată; evaluarea proiectului se bazează pe documentele furnizate.",
+      "senatForm": {
+        "articleRef": "Articol unic pct. 1 – art. 39 alin. (1)",
+        "proposalContent": "La articolul unic punctul 1, litera al) propusă pentru articolul 39 alineatul (1) se elimină.",
+        "argumentation": "Litera al) poate fi interpretată ca permițând tragerea sub 100 m, deși litera ak) o interzice. Suprapunerea compromite previzibilitatea unei reguli a cărei încălcare atrage amendă și reținerea permisului. Eliminarea păstrează interdicția de protecție și excepția expresă de la litera ak).",
+        "otherComments": "Precizați la lit. ak) că distanța se măsoară de la locul tragerii până la cel mai apropiat punct al limitei terenului protejat. Corelați trimiterea din art. 48 cu art. 39 alin. (1). Fundamentați tehnic pragul de 100 m și evaluați distinct necesitatea protejării drumurilor publice."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T04:28:03.594Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:24:49.530Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

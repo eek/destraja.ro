@@ -408,8 +408,58 @@ async function rereadKept(kept) {
   console.log(`🔁 ${changed} fișe schimbate, ${due.length - changed - failed} la fel${failed ? `, ${failed} necitite` : ''}.`);
 }
 
+// ── Proiecte recuperate după cod ──
+// node scripts/straja-sync.mjs --restore B517/2026=27956 [B518/2026=27957 …]
+// Până pe 25 octombrie 2026 sincronizarea rescria fișierul doar cu lista Senatului, deci un proiect ieșit din consultare
+// dispărea. B517–B522/2026 au ieșit așa (au primit numerele L617–L621) cu câteva zile înainte de păstrarea lor, iar
+// analizele lor au rămas fără proiect: straja-council.mjs nu le mai găsea. Lista Senatului nu le mai are, așa că le citim
+// fișa după cod; titlul vine din rândul fișei, iar termenul consultării e înregistrarea plus 30 de zile, ca la toate
+// proiectele din listă. După asta rămân în fișier și se recitesc ca orice proiect ieșit din consultare.
+async function restoreBills(pairs) {
+  const previous = new Map(
+    (fs.existsSync(BILLS_FILE) ? JSON.parse(fs.readFileSync(BILLS_FILE, 'utf8')) : []).map((b) => [b.id, b]),
+  );
+  const ddmmyyyy = (iso) => iso.split('-').reverse().join('-');
+  for (const pair of pairs) {
+    const [id, cod] = pair.split('=');
+    if (!/^B\d+\/\d{4}$/.test(id ?? '') || !/^\d+$/.test(cod ?? '')) throw new Error(`--restore așteaptă B123/2026=27956, nu „${pair}”`);
+    const [nr, an] = id.split('/');
+    const slug = id.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    const item = {
+      id,
+      slug,
+      cod,
+      officialTitle: '',
+      consultationDeadline: '',
+      opinionsCount: 0,
+      sheetUrl: `${SENAT_BASE}/Legis/Lista.aspx?cod=${cod}&pos=0&NR=${nr.toLowerCase()}&AN=${an}`,
+      opinionsUrl: `${SENAT_BASE}/LegiProiectAdmin.aspx?Cod=${cod}`,
+    };
+    const details = await parseBillSheet(item);
+    const problem = sheetProblem(details, previous.get(id));
+    if (problem) throw new Error(`${id}: ${problem}`);
+    // Codul greșit ar aduce alt proiect: fișa trebuie să pomenească numărul B la înregistrare (sau să-l aibă încă).
+    const registered = details.timeline.find((t) => new RegExp(`Înregistrat la Senat pentru dezbatere cu nr\\.${nr}\\b`, 'i').test(t.action));
+    if (!registered && details.senatNr !== id) throw new Error(`${id}: fișa cu codul ${cod} nu e a acestui proiect (${details.senatNr ?? 'fără număr'})`);
+    const html = await fetchHtml(item.sheetUrl);
+    const title = html.match(/lista-legis-table-title-container">\s*<p[^>]*>\s*<b>([\s\S]*?)<\/b>/i);
+    item.officialTitle = title ? stripTags(title[1]).replace(/\s+/g, ' ').trim() : '';
+    if (!item.officialTitle) throw new Error(`${id}: fișa nu are titlu`);
+    if (registered) item.consultationDeadline = ddmmyyyy(addDays(ddmmyyyy(registered.date), 30));
+    // Fără rândul din listă nu știm câte opinii are: pagina lor se citește oricum (opinionsCount 0 ar sări peste ea).
+    const opinions = (await parsePublicOpinions({ ...item, opinionsCount: 1 })) ?? previous.get(id)?.publicOpinions ?? [];
+    const bill = { ...item, opinionsCount: opinions.length, ...details, publicOpinions: opinions, syncedAt: new Date().toISOString() };
+    await downloadPdfsAndExtractText(bill, true);
+    previous.set(id, bill);
+    console.log(`♻️ ${id} (${details.senatNr ?? '-'}, ${details.stage}): ${item.officialTitle.slice(0, 90)}`);
+  }
+  writeFileAtomic(BILLS_FILE, JSON.stringify([...previous.values()], null, 2));
+  console.log(`\n🎉 Salvat ${previous.size} proiecte în ${BILLS_FILE}`);
+}
+
 async function main() {
   const args = process.argv.slice(2);
+  if (args.includes('--restore')) return restoreBills(args.filter((a) => !a.startsWith('--')));
   const downloadAllPdfs = args.includes('--download-pdfs');
   const targetFilter = args.find((a) => !a.startsWith('--'));
 

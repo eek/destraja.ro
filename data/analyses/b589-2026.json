@@ -1,118 +1,176 @@
 {
   "billId": "B589/2026",
   "slug": "b589-2026",
-  "updatedAt": "2026-10-27T09:20:09.226Z",
+  "updatedAt": "2026-11-24T14:28:02.218Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 6105,
+    "ordinanceChars": 0,
+    "memoChars": 11472,
+    "memoSupplied": 11472,
+    "marker": "SF-0C29625D"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/b589-2026.json",
+    "form": "initiator",
+    "textHash": "0c29625d0e1b0072",
+    "fetchedAt": "2026-11-19T11:19:54.298Z",
+    "acts": 2,
+    "actsFound": 2,
+    "actsRepealed": 0,
+    "articlesFound": 2,
+    "articlesShown": 2,
+    "articleCap": 8000,
+    "articlesCut": 1,
+    "chars": 10100,
+    "truncated": false,
+    "included": true,
+    "key": "7086e1aa6172641b"
+  },
   "consensus": {
-    "riskScore": 2.7,
-    "riskLevel": "green",
-    "plainTitle": "Consilierii excluși din partid: proces rapid și mandat păstrat până la verdict",
-    "summaryTlDr": "Este o lege procedurală, în mare parte rezonabilă: consilierul exclus își păstrează mandatul cât timp se judecă, iar procesul devine rapid și scutit de taxă. Problemele țin de redactare, nu de fond: trimiteri probabil greșite, prefectul nu este informat de contestație, iar demisia și organizațiile minorităților rămân descoperite.",
-    "initiatorClaim": "Inițiatorii spun că procesele privind excluderea consilierilor din partid durează uneori ani, lăsând consiliile locale și județene în incertitudine. Ei propun o procedură judiciară specială, rapidă și previzibilă, care să păstreze totuși accesul efectiv la instanță.",
-    "realityCheck": "Legea creează un proces special: 10 zile pentru contestare, judecată la tribunal plus apel, de urgență și fără taxă de timbru. Momentul pierderii mandatului depinde de rezultat: mandatul continuă cât se judecă și încetează la respingerea definitivă. Concret, partidele își pot înlocui mai repede consilierii excluși, iar instanța verifică doar procedura și statutul, nu și dacă excluderea a fost de fapt o pedeapsă pentru un vot în consiliu. Niciun articol nu fixează un termen maxim până la care procesul trebuie terminat.",
+    "riskScore": 4,
+    "riskLevel": "yellow",
+    "plainTitle": "Proces rapid pentru consilierii locali excluși din partid, care își păstrează mandatul până la verdict",
+    "summaryTlDr": "Este o lege de procedură în mare parte utilă. Consilierul exclus primește un control judecătoresc explicit și rapid și își păstrează mandatul până la verdict, iar partidul obține o soluție în câteva luni, nu în ani. Textul are însă goluri de redactare: organizațiile minorităților rămân descoperite, iar prefectul nu are cum afla dacă hotărârea a fost contestată.",
+    "initiatorClaim": "Inițiatorii vor să pună capăt proceselor de ani de zile privind excluderea din partid a consilierilor locali și județeni. Propun o procedură judiciară specială, urgentă și previzibilă, care păstrează accesul la instanță și nu se pronunță asupra oportunității politice a excluderii.",
+    "realityCheck": "Proiectul nu creează o cauză nouă de încetare a mandatului: pierderea calității de membru există deja la art. 204 alin. (2) lit. j). Schimbă procedura și calendarul. Contestația trebuie făcută în 10 zile, sub sancțiunea decăderii, la tribunalul din raza UAT, cu judecată de urgență, numai apel și scutire de taxă de timbru. Mandatul continuă pe durata termenului și a procesului și încetează la expirarea termenului necontestat sau la pronunțarea hotărârii definitive de respingere. Efectul practic: partidele își pot înlocui mai repede consilierii excluși, iar consilierul primește în schimb protecție procedurală clară. Lipsesc însă termene de motivare a hotărârilor și un mecanism prin care prefectul să afle că hotărârea nu a fost contestată.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. II pct. 1 și 3 – art. 204 Cod administrativ",
-      "proposalContent": "Tribunalul comunică prefectului și secretarului general UAT, în 48 de ore, înregistrarea contestației; prefectul emite ordinul în cazul alin. (5) doar după confirmarea scrisă a tribunalului că nu s-a înregistrat contestație. Trimiterile din art. 204 alin. (5) și (12) se aliniază expres la art. 16^1 din Legea 14/2003 și la alin. (5^2).",
-      "argumentation": "Textul nu prevede cum află prefectul că s-a depus contestație. Termenul de 30 de zile din alin. (12) curge de la comunicarea excluderii, deci prefectul poate constata încetarea deși, prin contestație, mandatul continuă (art. 16^1 alin. 5). Rezultă ordine nelegale, litigii noi și tocmai incertitudinea pe care legea vrea s-o elimine (art. 1 alin. 5 Constituție).",
-      "otherComments": "Art. 204 alin. (2) lit. j) vizează și organizațiile minorităților naționale, dar art. 16^1 se aplică doar partidelor: pentru consilierii acestora termenul de contestare rămâne neclar. Similar pentru aleșii pe liste de alianță. Recomandăm și un termen maxim de soluționare (ex. 30 de zile pe fiecare grad), altfel «urgența» rămâne declarativă."
+      "articleRef": "Art. II pct. 1 și 3 (art. 204 alin. 5, 12 CA)",
+      "proposalContent": "La art. 204 alin. (5) se reintroduce mențiunea organizațiilor minorităților naționale, cu procedură identică. Partidul comunică hotărârea și prefectului și secretarului general. După expirarea termenului, tribunalul eliberează, la cerere, certificat de necontestare, iar prefectul emite ordinul în 30 de zile de la primirea acestuia.",
+      "argumentation": "Textul nou scoate minoritățile din alin. (5), deși alin. (2) lit. j) le vizează, iar art. 16¹ nu li se aplică, deci data încetării mandatului devine incertă. Prefectul nu mai primește hotărârea și nu poate ști dacă s-a făcut contestație, așa că poate emite ordinul în timpul procesului. Sunt încălcate claritatea și previzibilitatea (art. 1 alin. 5 Constituție).",
+      "otherComments": "Propunem un termen maxim de 10 zile pentru motivarea hotărârilor din art. 16¹, altfel apelul, care curge de la comunicare, poate amâna soluția cu luni de zile. Comunicarea prevăzută la alin. (2) ar trebui făcută cu dovadă de primire. Trimiterea la Legea 14/2003 ar trebui uniformizată: «cu modificările și completările ulterioare»."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 91705,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Judecarea rapidă a excluderilor din partid ale consilierilor locali și județeni și păstrarea mandatului până la decizia definitivă",
-      "verdictShort": "Propunerea este binevenită și echilibrată pe fond: protejează aleșii locali împotriva revocării arbitrare din funcție prin excluderi abuzive din partid și scurtează procesele care în prezent durează ani de zile. Textul are însă câteva scăpări tehnico-procedurale (omiterea organizațiilor minorităților naționale și lipsa unui termen scurt de motivare a sentinței) care trebuie corectate în comisii.",
-      "initiatorClaim": "Inițiatorii urmăresc introducerea unei proceduri judiciare speciale, urgente și gratuite de contestare a excluderii din partid a consilierilor locali și județeni, cu suspendarea pierderii mandatului până la pronunțarea unei hotărâri judecătorești definitive.",
-      "realityCheck": "Mecanismul propus pune în acord legislația cu Decizia CCR nr. 530/2013 și elimină abuzul prin care liderii de partid își puteau înlocui imediat consilierii incomozi prin ordin al prefectului înainte ca o instanță să verifice legalitatea excluderii. Totuși, din neatenție la redactare, modificarea art. 204 alin. (5) din Codul administrativ șterge referirea la organizațiile cetățenilor aparținând minorităților naționale și nu corelează comunicarea în 48 de ore a deciziei definitive cu timpul necesar motivării hotărârii.",
-      "affectedGroups": [
-        "Justiție & Drepturi Civile"
-      ],
-      "keyFindings": [
-        "Art. I (noul art. 16^1 alin. (3)-(5) și (17) din Legea nr. 14/2003) oferă consilierului exclus un termen de 10 zile pentru a contesta excluderea la tribunal, scutește acțiunea de taxa judiciară de timbru și suspendă de drept încetarea mandatului până la soluționarea definitivă a procesului.",
-        "Art. I (art. 16^1 alin. (6)-(14)) comprimă termenele de judecată (5 zile întâmpinarea, 10 zile primul termen, fără procedura de regularizare din art. 200 CPC), însă omite să scurteze și termenul de redactare/motivare a hotărârii tribunalului (care rămâne 30 de zile conform art. 426 alin. (5) CPC) și cere curții de apel să comunice hotărârea definitivă în 48 de ore de la pronunțare, când există doar minuta, nu și hotărârea redactată.",
-        "Art. II pct. 1 modifică art. 204 alin. (5) din OUG nr. 57/2019, dar elimină din text sintagma referitoare la „organizațiile cetățenilor aparținând minorităților naționale”, creând un vid legislativ pentru consilierii aleși pe listele acestor organizații."
-      ],
-      "blindSpotsCaught": "Trei detalii procedurale scapă textului: (1) dispariția din art. 204 alin. (5) Cod administrativ a organizațiilor minorităților naționale (deși la art. 204 alin. (2) lit. j) acestea rămân menționate); (2) obligarea instanței de apel la comunicarea „hotărârii definitive” în 48 de ore de la pronunțare, în loc de comunicarea unui extras din minută/certificat de grefă; (3) lipsa obligației partidului de a atașa dovada datei comunicării excluderii către consilier atunci când sesizează prefectul pentru necontestarea în termenul de 10 zile.",
-      "constitutionalityNote": "Propunerea valorifică corect Decizia CCR nr. 530/2013 și garantează accesul efectiv la justiție (art. 21 din Constituție). Pentru respectarea exigențelor de claritate și previzibilitate a legii (art. 1 alin. (5) din Constituție) și a egalității în drepturi (art. 16), este necesară menținerea în art. 204 alin. (5) a organizațiilor minorităților naționale și protejarea expresă a mandatului și pe durata parcurgerii căilor interne de atac din statutul partidului.",
-      "euLawNote": "Nu are incidență asupra dreptului pieței unice a UE, Directivei (UE) 2018/958 privind testul de proporționalitate sau Directivei (UE) 2015/1535 (TRIS), reglementând exclusiv contenciosul intern privind statutul aleșilor locali și organizarea partidelor politice.",
-      "senatForm": {
-        "articleRef": "Art. I (art. 16^1) și Art. II (art. 204)",
-        "proposalContent": "La Art. I, art. 16^1 alin. (12) și (15), se instituie un termen de 5 zile pentru redactarea hotărârilor, iar comunicarea în 48 de ore vizează extrasul din minută. La Art. II, art. 204 alin. (5) se completează cu menținerea mandatului și pe durata căilor statutare interne de atac, precum și cu aplicarea simetrică pentru organizațiile minorităților naționale.",
-        "argumentation": "Fără un termen scurt de motivare, regula de 30 de zile din art. 426 alin. (5) CPC întârzie apelul și face imposibilă comunicarea hotărârii redactate în 48 de ore de la pronunțare. De asemenea, forma actuală a art. 204 alin. (5) din OUG 57/2019 include și organizațiile minorităților naționale, a căror omitere ar crea un vid legislativ și un tratament neunitar.",
-        "otherComments": "La Art. II pct. 3 (art. 204 alin. (12) din OUG 57/2019), pentru situația necontestării în instanță a excluderii, este necesar să se prevadă că sesizarea prefectului de către partid trebuie însoțită de dovada datei comunicării hotărârii de excludere către consilier, astfel încât prefectul să poată verifica expirarea termenului legal de 10 zile."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 168873,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Consilierii excluși din partid: proces rapid și mandat păstrat până la verdict",
-      "verdictShort": "Este o lege procedurală, în mare parte rezonabilă: consilierul exclus își păstrează mandatul cât timp se judecă, iar procesul devine rapid și scutit de taxă. Problemele țin de redactare, nu de fond: trimiteri probabil greșite, prefectul nu este informat de contestație, iar demisia și organizațiile minorităților rămân descoperite.",
-      "initiatorClaim": "Inițiatorii spun că procesele privind excluderea consilierilor din partid durează uneori ani, lăsând consiliile locale și județene în incertitudine. Ei propun o procedură judiciară specială, rapidă și previzibilă, care să păstreze totuși accesul efectiv la instanță.",
-      "realityCheck": "Legea creează un proces special: 10 zile pentru contestare, judecată la tribunal plus apel, de urgență și fără taxă de timbru. Momentul pierderii mandatului depinde de rezultat: mandatul continuă cât se judecă și încetează la respingerea definitivă. Concret, partidele își pot înlocui mai repede consilierii excluși, iar instanța verifică doar procedura și statutul, nu și dacă excluderea a fost de fapt o pedeapsă pentru un vot în consiliu. Niciun articol nu fixează un termen maxim până la care procesul trebuie terminat.",
-      "affectedGroups": [
-        "Justiție & Drepturi Civile"
-      ],
-      "keyFindings": [
-        "Art. 16^1 alin. (5) din Legea 14/2003 și art. 204 alin. (5^1) din Codul administrativ: depunerea contestației suspendă de drept efectele excluderii asupra mandatului. Este un câștig real pentru consilier, care nu mai poate pierde mandatul înainte să ajungă în instanță.",
-        "Art. 16^1 alin. (10): instanța verifică doar legalitatea, statutul și procedura disciplinară, nu «oportunitatea politică». Textul nu interzice excluderea pentru modul în care consilierul votează, deși Expunerea de Motive afirmă că legea nu sancționează votul.",
-        "Art. II pct. 3 (art. 204 alin. 12): prefectul are 30 de zile de la comunicarea excluderii ca să constate încetarea mandatului. Nicio normă nu îl informează însă dacă s-a depus contestație, iar alin. (15) obligă instanța să-i comunice doar respingerea definitivă.",
-        "Fiecare etapă are termene scurte: 48 de ore pentru comunicare, 10 zile pentru contestare, 5 zile pentru întâmpinare, primul termen de judecată în cel mult 10 zile, apel în 10 zile. Lipsește însă un termen maxim de pronunțare, așa că amânările rămân posibile.",
-        "Trimiteri de verificat în PDF-ul oficial: «art. 164» (Art. II pct. 1) și «alin. (57)» (pct. 3) nu corespund unor texte existente; probabil este vorba de art. 16^1 și alin. (5^2). Dacă nu sunt erori de extragere a textului, norma este greșit redactată.",
-        "Scutirea de taxă judiciară de timbru (alin. 17) ușurează accesul la justiție. Expunerea de Motive susține că impactul bugetar este zero, deși taxa se varsă la bugetele locale; pierderea este însă neglijabilă."
-      ],
-      "blindSpotsCaught": "Noul art. 204 alin. (5) vorbește doar de «hotărârea de excludere». Lit. j) acoperă însă orice pierdere a calității de membru, inclusiv demisia și înscrierea în alt partid, precum și membrii organizațiilor minorităților naționale, cărora art. 16^1 (scris doar pentru partide) nu li se aplică. Pentru că alin. (5) este rescris integral, pentru aceste situații data încetării mandatului poate rămâne nereglementată. Nici consilierii aleși pe liste de alianță electorală nu sunt acoperiți expres, deoarece textul vorbește de «lista partidului politic respectiv».",
-      "constitutionalityNote": "În fond, legea este compatibilă cu Constituția. Întărește art. 21 (accesul liber la justiție) și art. 24 (dreptul la apărare) și respectă autonomia partidelor (art. 8 și art. 40), pentru că exclude controlul de oportunitate. Interdicția mandatului imperativ (art. 69) privește parlamentarii; încetarea mandatului local la pierderea calității de membru există deja în lege și nu este creată de acest proiect. Riscurile țin de claritatea legii (art. 1 alin. 5): trimiteri eronate, lipsa unei reguli pentru demisie și pentru minorități, lipsa unui mecanism de informare a prefectului. Fiind lege organică (art. 73 alin. 3 lit. c și o), are nevoie de majoritatea membrilor fiecărei Camere.",
-      "euLawNote": "Legea nu are incidență relevantă în dreptul UE. Nu reglementează profesii, deci Directiva 2018/958 nu se aplică. Nu privește servicii ale societății informaționale, deci TRIS 2015/1535 nu se aplică. Nu afectează concurența, IMM-urile sau piața unică. Procedura respectă standardele generale de proces echitabil: instanță independentă, contradictorialitate, termene rezonabile și o cale de atac.",
-      "senatForm": {
-        "articleRef": "Art. II pct. 1 și 3 – art. 204 Cod administrativ",
-        "proposalContent": "Tribunalul comunică prefectului și secretarului general UAT, în 48 de ore, înregistrarea contestației; prefectul emite ordinul în cazul alin. (5) doar după confirmarea scrisă a tribunalului că nu s-a înregistrat contestație. Trimiterile din art. 204 alin. (5) și (12) se aliniază expres la art. 16^1 din Legea 14/2003 și la alin. (5^2).",
-        "argumentation": "Textul nu prevede cum află prefectul că s-a depus contestație. Termenul de 30 de zile din alin. (12) curge de la comunicarea excluderii, deci prefectul poate constata încetarea deși, prin contestație, mandatul continuă (art. 16^1 alin. 5). Rezultă ordine nelegale, litigii noi și tocmai incertitudinea pe care legea vrea s-o elimine (art. 1 alin. 5 Constituție).",
-        "otherComments": "Art. 204 alin. (2) lit. j) vizează și organizațiile minorităților naționale, dar art. 16^1 se aplică doar partidelor: pentru consilierii acestora termenul de contestare rămâne neclar. Similar pentru aleșii pe liste de alianță. Recomandăm și un termen maxim de soluționare (ex. 30 de zile pe fiecare grad), altfel «urgența» rămâne declarativă."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 159152,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Proces mai rapid pentru consilierii excluși din partid",
-      "verdictShort": "Propunerea este în principal utilă: organizează judecarea rapidă a excluderilor care pot duce la pierderea mandatului. Are însă lacune procedurale de corectat și nu garantează că procesele se vor termina repede.",
-      "initiatorClaim": "Inițiatorii urmăresc reducerea duratei proceselor privind excluderea consilierilor din partide și clarificarea componenței consiliilor locale și județene. Ei invocă protejarea accesului la justiție, concomitent cu respectarea autonomiei partidelor.",
-      "realityCheck": "Proiectul introduce o procedură specială, cu decădere după 10 zile de la comunicare, apel și scutire de timbru, fără să creeze o nouă cauză de pierdere a mandatului. Menținerea mandatului în cazul contestării excluderii până la hotărârea definitivă are deja suport în art. 204 alin. (19), confirmat de [CCR, Decizia nr. 511/2023](https://legislatie.just.ro/Public/DetaliiDocument/278988). Noutatea principală este accelerarea procedurii și precizarea momentelor relevante, însă termenele pentru prima ședință nu reprezintă termene pentru finalizarea procesului.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 83674,
+      "sourceEndMarker": "SF-0C29625D",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Procese pe repede-înainte pentru consilierii excluși din partid",
+      "verdictShort": "Proiectul codifică util suspendarea pierderii mandatului până la hotărârea definitivă și scutește procesul de taxă de timbru, dar conține scăpări majore de corelare: scoate din mecanism organizațiile minorităților naționale și lasă prefectul neinformat despre depunerea contestației.",
+      "initiatorClaim": "Inițiatorii susțin că vor să elimine incertitudinea juridică de ani de zile din consiliile locale și județene prin crearea unei proceduri judiciare rapide și previzibile pentru contestarea excluderii din partid, în acord cu Decizia CCR nr. 530/2013.",
+      "realityCheck": "În realitate, proiectul accelerează drastic eliminarea consilierilor locali și județeni excluși din partide (termen de 10 zile pentru contestare, 5 zile pentru întâmpinare, primul termen în cel mult 10 zile, apel definitiv rapid), deși le oferă expres suspendarea de drept a pierderii mandatului pe durata procesului. Totuși, redactarea creează blocaje serioase: nu obligă pe nimeni să anunțe prefectul când consilierul contestă în instanță (deși prefectul are termen de 30 de zile să emită ordinul de încetare a mandatului), suprapune termenele de judecată și omite complet consilierii organizațiilor minorităților naționale din textul modificat al Codului administrativ.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I, art. 16¹ alin. (2)-(5): hotărârea motivată se comunică în maximum 48 de ore; contestația trebuie introdusă în 10 zile de la comunicare. Contestarea în termen protejează mandatul până la soluționarea definitivă.",
-        "Art. 16¹ alin. (6)-(14): judecare urgentă, întâmpinare în 5 zile, primul termen în maximum 10 zile și apel în 10 zile. Nu este stabilită o durată maximă a întregului litigiu, iar durata procedurilor interne ale partidului rămâne dependentă de statut.",
-        "Art. 16¹ alin. (10): instanța verifică legalitatea, respectarea statutului și apărarea efectivă, fără să decidă oportunitatea politică a excluderii. Delimitarea urmează [CCR, Decizia nr. 530/2013](https://legislatie.just.ro/Public/DetaliiDocument/154466).",
-        "Art. 16¹ alin. (15) și noul art. 204 alin. (5²): referirea la pronunțarea hotărârii definitive nu acoperă clar respingerea de către tribunal care devine definitivă ulterior, prin neapelare. Comunicarea în 48 de ore trebuie raportată și la această modalitate de definitivare.",
-        "Art. II pct. 1 și 3: pentru excluderea necontestată trebuie precizate dovada comunicării, verificarea expirării termenului și informarea prefectului despre existența contestației. Actualul art. 204 alin. (19) trebuie corelat expres cu noua procedură.",
-        "Art. 204 alin. (2) lit. j) privește și organizațiile minorităților naționale, în timp ce procedura propusă vizează membrii partidelor. Diferența de tratament procedural necesită clarificare, fără a presupune că accesul celorlalți aleși la justiție dispare.",
-        "Art. 16¹ alin. (17) elimină taxa judiciară de timbru pentru aceste cereri și căi de atac. Nu apar taxe, autorizații sau obligații noi pentru IMM-uri ori cetățenii obișnuiți; efectele asupra veniturilor din timbru și volumului de muncă judiciară nu sunt cuantificate.",
-        "Art. III-IV: reglementarea se aplică excluderilor adoptate după intrarea în vigoare, la 30 de zile de la publicare. Nu accelerează automat litigiile privind excluderi anterioare."
+        "Omisiune severă privind minoritățile naționale (Art. II pct. 1 și 3): Art. 204 alin. (2) lit. j) din Codul administrativ vizează atât partidele politice, cât și organizațiile minorităților naționale, iar forma în vigoare a alin. (5) și (12) le includea expres. Noile alin. (5) și (12) fac însă trimitere exclusiv la art. 16¹ din Legea partidelor politice nr. 14/2003, lăsând consilierii organizațiilor minorităților naționale (ex. UDMR, FDGR) într-un vid procedural.",
+        "Ruptură informațională față de prefect (Art. I art. 16¹ alin. 15 și Art. II pct. 3): Prefectul trebuie să emită ordinul de încetare a mandatului în 30 de zile de la comunicarea hotărârii partidului dacă aceasta nu e contestată, dar legea nu prevede nicio obligație de a notifica prefectului nici data comunicării către consilier (de când curg cele 10 zile), nici depunerea contestației în instanță, nici admiterea acesteia — riscând emiterea de ordine ilegale de vacantare a mandatului.",
+        "Termene procedurale suprapuse și greu aplicabile (Art. I art. 16¹ alin. 7, 9 și 13): Primul termen de judecată trebuie fixat în cel mult 10 zile de la înregistrarea cererii (respectiv primirea dosarului în apel), în timp ce pârâtul are 5 zile pentru întâmpinare de la comunicarea cererii, ceea ce lasă timp fizic insuficient pentru citarea legală și pregătirea apărării.",
+        "Garanții reale, dar incomplete pentru alesul local (Art. I art. 16¹ alin. 1, 5, 16, 17): Introducerea efectului suspensiv de drept al contestației, două grade de jurisdicție și scutirea de taxă de timbru sunt îmbunătățiri clare față de practica actuală. Însă obligativitatea epuizării căilor interne din partid fără un termen-limită legal și lipsa sancțiunii pentru necomunicarea hotărârii în 48 de ore pot bloca accesul rapid la instanță."
       ],
-      "blindSpotsCaught": "Numerotarea din extrasul furnizat nu trebuie confundată cu redactarea proiectului: extragerea [PDF-ului oficial](https://www.senat.ro/legis/PDF/2026/26b589FG.PDF?nocache=true) indică art. 16¹, alineatele (5¹)-(5³) și trimiterea finală la (5²), contrar unor rezultate OCR din mesaj. Problema procedurală reală este definitivarea prin neapelare, nu presupusa existență a două alineate identice. În plus, suspendarea privește efectele asupra mandatului, fără să suspende expres excluderea din partid în toate celelalte privințe.",
-      "constitutionalityNote": "Soluția de principiu susține accesul la justiție și dreptul la apărare, potrivit art. 21 și 24, fiind compatibilă cu delimitarea controlului judecătoresc din [Decizia CCR nr. 530/2013](https://legislatie.just.ro/Public/DetaliiDocument/154466). Riscurile de claritate și previzibilitate, relevante pentru art. 1 alin. (5), privesc definitivarea prin neapelare, circuitul informărilor și corelarea normelor existente. Termenul de 10 zile nu este, prin el însuși, disproporționat dacă există comunicare efectivă și posibilitatea reală de pregătire a cererii. Art. 23 alin. (12), privind legalitatea pedepselor, nu este reperul direct pentru această procedură nepenală. Art. 69 reglementează mandatul parlamentar și nu se transferă automat consilierilor locali; [textul constituțional](https://www.cdep.ro/ords/pls/dic/site.page?den=act2_1&par1=3) distinge aceste mandate. Nu rezultă o neconstituționalitate de principiu.",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea lor, domeniul vizat de [directivă](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32018L0958). Nici notificarea TRIS nu este necesară pe baza acestui text: nu sunt introduse reglementări tehnice pentru produse sau norme privind serviciile societății informaționale în sensul [Directivei (UE) 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32015L1535). Nu sunt identificate monopoluri, bariere economice ori restricții asupra pieței unice; concurența politică nu trebuie confundată cu concurența economică.",
+      "blindSpotsCaught": "În forma în vigoare a art. 204 alin. (5) și (12) din OUG nr. 57/2019, organizațiile cetățenilor aparținând minorităților naționale erau menționate explicit alături de partidele politice; prin reformulare, proiectul le elimină tacit din procedura de încetare a mandatului, deși art. 204 alin. (2) lit. j) rămâne aplicabil și lor. În plus, proiectul nu abrogă expres art. 16 alin. (3) din Legea nr. 14/2003 (declarat neconstituțional în 2013) și nu reglementează dovada necontestării către prefect.",
+      "constitutionalityNote": "Proiectul pune în acord legea cu Decizia CCR nr. 530/2013 privind accesul liber la justiție (art. 21) și controlul de legalitate fără imixtiune în oportunitatea politică, dar prezintă riscuri serioase de neconstituționalitate raportat la art. 1 alin. (5) (calitatea, claritatea și corelarea legii) și art. 16 (egalitatea în drepturi) prin omiterea organizațiilor minorităților naționale din art. 204 alin. (5) și (12), lipsa mecanismului de informare a prefectului și imposibilitatea practică de corelare a termenelor de 5 și 10 zile. Art. 23 alin. (12) nu este incident, materia nefiind penală.",
+      "euLawNote": "Nu are incidență directă asupra pieței unice, concurenței, Directivei (UE) 2018/958 privind testul de proporționalitate (nu vizează profesii reglementate) sau Directivei (UE) 2015/1535 (TRIS, nu reglementează servicii digitale sau bunuri). Este compatibil cu standardele europene privind dreptul la un proces echitabil (art. 6 CEDO), sub rezerva ca termenele scurte să nu golească de conținut dreptul efectiv la apărare.",
       "senatForm": {
-        "articleRef": "Art. I, art. 16¹ alin. (15); art. II pct. 2-3",
-        "proposalContent": "Înlocuiți referirea la pronunțare cu data rămânerii definitive, inclusiv când nu se declară apel. Comunicarea către prefect și secretarul general să se facă în 48 de ore de la definitivare. Corelați art. 204 alin. (19) și reglementați dovada comunicării excluderii, a expirării termenului și a existenței contestației.",
-        "argumentation": "Hotărârea tribunalului poate deveni definitivă prin neapelare, ulterior pronunțării. Termenele propuse de comunicare și încetare nu acoperă clar această situație. Prefectul trebuie să poată verifica expirarea celor 10 zile înainte de vacantare, pentru a proteja accesul la justiție și previzibilitatea legii.",
-        "otherComments": "Clarificați tratamentul aleșilor organizațiilor minorităților naționale, menționate la art. 204 alin. (2) lit. j). Evaluați volumul de muncă și efectul scutirii de timbru. Termenele pentru primul termen nu garantează durata totală a procesului. Verificați numerotarea în PDF, nu în transcrierea OCR."
-      }
+        "articleRef": "Art. I (art. 16¹) și Art. II pct. 1, 3",
+        "proposalContent": "1. Includeți organizațiile minorităților naționale în art. 16¹ și art. 204 alin. (5), (12). 2. Obligați instanța să notifice prefectul la înregistrarea și soluționarea contestației. 3. Stabiliți primul termen după depunerea întâmpinării (max. 20 zile). 4. Clarificați că admiterea anulează excluderea și abrogați expres art. 16 alin. (3) din Legea 14/2003.",
+        "argumentation": "Art. 204 alin. (2) lit. j) vizează și minoritățile naționale, dar alin. (5) și (12) le omit, încălcând art. 1 alin. (5) și art. 16 din Constituție. Fără notificarea prefectului la depunerea contestației, acesta poate vacanta ilegal mandatul. Primul termen de 10 zile se suprapune cu comunicarea cererii și termenul de 5 zile pentru întâmpinare.",
+        "otherComments": "Introducerea efectului suspensiv de drept până la hotărârea definitivă și scutirea de taxă de timbru sunt utile și pun în acord legea cu Decizia CCR nr. 530/2013. Totuși, trebuie reglementată și situația nesoluționării în termen rezonabil a căilor interne din partid, pentru a nu bloca accesul la justiție. Procedura de urgență nu se justifică."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 69582,
+      "sourceEndMarker": "SF-0C29625D",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Proces rapid pentru consilierii locali excluși din partid, care își păstrează mandatul până la verdict",
+      "verdictShort": "Este o lege de procedură în mare parte utilă. Consilierul exclus primește un control judecătoresc explicit și rapid și își păstrează mandatul până la verdict, iar partidul obține o soluție în câteva luni, nu în ani. Textul are însă goluri de redactare: organizațiile minorităților rămân descoperite, iar prefectul nu are cum afla dacă hotărârea a fost contestată.",
+      "initiatorClaim": "Inițiatorii vor să pună capăt proceselor de ani de zile privind excluderea din partid a consilierilor locali și județeni. Propun o procedură judiciară specială, urgentă și previzibilă, care păstrează accesul la instanță și nu se pronunță asupra oportunității politice a excluderii.",
+      "realityCheck": "Proiectul nu creează o cauză nouă de încetare a mandatului: pierderea calității de membru există deja la art. 204 alin. (2) lit. j). Schimbă procedura și calendarul. Contestația trebuie făcută în 10 zile, sub sancțiunea decăderii, la tribunalul din raza UAT, cu judecată de urgență, numai apel și scutire de taxă de timbru. Mandatul continuă pe durata termenului și a procesului și încetează la expirarea termenului necontestat sau la pronunțarea hotărârii definitive de respingere. Efectul practic: partidele își pot înlocui mai repede consilierii excluși, iar consilierul primește în schimb protecție procedurală clară. Lipsesc însă termene de motivare a hotărârilor și un mecanism prin care prefectul să afle că hotărârea nu a fost contestată.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. II pct. 1 (art. 204 alin. 5 CA): forma în vigoare se referă și la organizațiile cetățenilor aparținând minorităților naționale, iar textul nou trimite numai la art. 16¹ din Legea partidelor. Art. 204 alin. (2) lit. j) continuă însă să acopere minoritățile, care nu sunt partide și cărora art. 16¹ nu li se aplică. Pentru consilierii aleși pe listele lor, data încetării mandatului rămâne fără regulă.",
+        "Art. II pct. 3 (art. 204 alin. 12 CA): alin. (5) în vigoare prevede comunicarea hotărârii către prefect și secretarul general, iar textul nou elimină această obligație. Art. 16¹ alin. (2) prevede comunicarea doar către persoana exclusă. Prefectul trebuie totuși să emită ordinul în 30 de zile de la «comunicarea hotărârii forului competent», fără să știe cine i-o comunică și fără vreo dovadă de necontestare. Termenul prefectului poate începe chiar înainte ca mandatul să înceteze, la expirarea celor 10 zile, cu riscul unui ordin emis în timpul procesului.",
+        "Art. 16¹ alin. (12)-(13): apelul curge de la comunicarea hotărârii, dar nu există un termen special de redactare a motivării. Se aplică regula din Codul de procedură civilă (30 de zile, prelungibil), astfel că urgența declarată poate fi golită de conținut în practică. Nu există nici un termen maxim de soluționare.",
+        "Art. 16¹ alin. (10) codifică standardul din Decizia CCR nr. 530/2013: instanța verifică statutul, competența organului, procedura disciplinară și dreptul la apărare, fără să judece oportunitatea politică. Este o clarificare utilă, care consolidează textul.",
+        "Art. 16¹ alin. (2): obligația partidului de a comunica hotărârea în 48 de ore nu are sancțiune și nici o formă de comunicare stabilită. Termenul de decădere de 10 zile curge de la comunicare, deci dovada comunicării devine punctul central al oricărui litigiu.",
+        "Art. 16¹ alin. (17): scutirea de taxă de timbru reduce marginal veniturile bugetelor locale, cărora le revin aceste taxe. Impactul este neglijabil, dar Expunerea de motive afirmă că nu există impact bugetar.",
+        "Art. III: legea se aplică doar excluderilor adoptate după intrarea în vigoare. Este corect din perspectiva neretroactivității, iar litigiile aflate pe rol rămân pe regimul actual."
+      ],
+      "blindSpotsCaught": "Prin rescrierea alin. (5) dispare mențiunea organizațiilor minorităților naționale, iar art. 16¹ nu li se poate aplica. Apare astfel un vid de reglementare pentru o categorie pe care alin. (2) lit. j) o vizează în continuare. Separat, procedura acoperă numai «excluderea». Alte forme de pierdere a calității de membru prevăzute de statut (pierdere de drept, înscriere în alt partid) nu au nicio regulă privind data încetării mandatului. Alin. (5²) leagă încetarea de data pronunțării, nu a comunicării, așa că voturile date de consilier între pronunțare și aflarea soluției pot fi contestate. Există și o inconsecvență de redactare: art. II folosește atât «cu modificările și completările ulterioare», cât și «cu completările ulterioare».",
+      "constitutionalityNote": "Proiectul este compatibil, în ansamblu, cu art. 21 (acces liber la justiție) și art. 129 (căi de atac stabilite prin lege): legiuitorul poate institui termene scurte și o singură cale de atac în proceduri urgente, iar mandatul nu încetează înainte ca persoana să poată ajunge în fața instanței. Textul pune în aplicare Decizia CCR nr. 530/2013, care a declarat neconstituțional art. 16 alin. (3), adică excluderea controlului judecătoresc. Mandatul imperativ de fapt al consilierilor, prin art. 204 alin. (2) lit. j), rămâne discutabil din perspectiva Comisiei de la Veneția, dar nu este creat și nici agravat de proiect. Golurile privind minoritățile și informarea prefectului afectează previzibilitatea și claritatea legii (art. 1 alin. 5) și trebuie corectate în Parlament. Proiectul are caracter organic (art. 73 alin. 3 lit. c și o), iar formula de adoptare pe art. 76 alin. (1) este coerentă.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este relevantă, pentru că proiectul nu reglementează accesul la profesii. Directiva TRIS (UE) 2015/1535 nu se aplică, pentru că nu există reglementări tehnice sau servicii ale societății informaționale. Nu există efecte asupra pieței unice sau a concurenței. Art. 47 din Carta UE nu este incident direct, fiind vorba de drept intern privind mandatele locale. Standardele CEDO privind accesul la instanță (art. 6) sunt, în principiu, respectate.",
+      "senatForm": {
+        "articleRef": "Art. II pct. 1 și 3 (art. 204 alin. 5, 12 CA)",
+        "proposalContent": "La art. 204 alin. (5) se reintroduce mențiunea organizațiilor minorităților naționale, cu procedură identică. Partidul comunică hotărârea și prefectului și secretarului general. După expirarea termenului, tribunalul eliberează, la cerere, certificat de necontestare, iar prefectul emite ordinul în 30 de zile de la primirea acestuia.",
+        "argumentation": "Textul nou scoate minoritățile din alin. (5), deși alin. (2) lit. j) le vizează, iar art. 16¹ nu li se aplică, deci data încetării mandatului devine incertă. Prefectul nu mai primește hotărârea și nu poate ști dacă s-a făcut contestație, așa că poate emite ordinul în timpul procesului. Sunt încălcate claritatea și previzibilitatea (art. 1 alin. 5 Constituție).",
+        "otherComments": "Propunem un termen maxim de 10 zile pentru motivarea hotărârilor din art. 16¹, altfel apelul, care curge de la comunicare, poate amâna soluția cu luni de zile. Comunicarea prevăzută la alin. (2) ar trebui făcută cu dovadă de primire. Trimiterea la Legea 14/2003 ar trebui uniformizată: «cu modificările și completările ulterioare»."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 112607,
+      "sourceEndMarker": "SF-0C29625D",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Ce se întâmplă cu mandatul consilierului exclus din partid",
+      "verdictShort": "Proiectul oferă garanții utile și clarifică păstrarea mandatului pe durata procesului. Are însă o lacună importantă: nu reglementează corect situația în care hotărârea tribunalului devine definitivă fără apel, ceea ce poate crea dispute asupra încetării mandatului.",
+      "initiatorClaim": "Inițiatorii urmăresc soluționarea rapidă a contestațiilor împotriva excluderii din partid și eliminarea incertitudinii privind componența consiliilor. Ei declară că păstrează autonomia partidelor, controlul judecătoresc și dreptul la apărare.",
+      "realityCheck": "În forma actuală furnizată, art. 204 alin. (5) leagă încetarea mandatului de comunicarea excluderii, dacă legalitatea acesteia nu a fost contestată; proiectul mută momentul la expirarea termenului de contestare sau, pentru contestația respinsă, la hotărârea definitivă. Accesul la justiție există deja ca urmare a Deciziei CCR nr. 530/2013: noutatea este procedura specială, cu termene scurte, apel și scutire de taxă. Formulările despre pronunțarea hotărârii definitive și respingerea contestației nu acoperă clar toate modalitățile de încheiere a procesului.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I, art. 16¹ alin. (3)-(5), și art. II: contestația se depune în 10 zile de la comunicare, iar mandatul continuă până la soluționarea definitivă. Suspendarea privește efectele excluderii asupra mandatului; textul nu suspendă expres toate efectele excluderii în interiorul partidului.",
+        "Art. I, art. 16¹ alin. (12)-(15), și art. II, noul alin. (5²): dacă tribunalul respinge contestația și nimeni nu formulează apel, hotărârea devine definitivă la expirarea termenului de apel. Nu există o nouă pronunțare, deși proiectul folosește pronunțarea definitivă drept reper pentru încetarea mandatului și comunicarea către prefect.",
+        "Art. II, alin. (5¹)-(5³): sunt tratate expres admiterea și respingerea definitivă, dar nu și anularea contestației, perimarea ori renunțarea la judecată. Aceste soluții necesită corelare pentru a evita incertitudinea asupra datei încetării mandatului.",
+        "Art. I, art. 16¹ alin. (6)-(13): sunt accelerate întâmpinarea și stabilirea primului termen, dar nu este stabilită o durată maximă pentru soluționarea fondului sau apelului. Procesul poate continua mai mult decât sugerează prezentarea unei proceduri rapide.",
+        "Art. II, noul alin. (12): prefectul păstrează termenul de 30 de zile pentru emiterea ordinului. Pentru excluderea necontestată, proiectul nu precizează suficient cine îi transmite dovada comunicării către consilier și cum verifică expirarea termenului fără contestație.",
+        "Art. III-IV: legea intră în vigoare după 30 de zile și se aplică numai hotărârilor de excludere adoptate ulterior. Nu transferă automat litigiile privind excluderile anterioare în noua procedură.",
+        "Art. I, art. 16¹ alin. (17): scutirea de taxa judiciară reduce costurile persoanei excluse. Nu apar obligații pentru IMM-uri; pentru instanțe și administrație există sarcini de procesare și comunicare, iar absența totală a impactului bugetar nu este demonstrată."
+      ],
+      "blindSpotsCaught": "Lacuna principală rezultă din combinarea apelului facultativ cu încetarea mandatului la «pronunțarea» hotărârii definitive: definitivarea prin neapelare funcționează diferit. În plus, comunicarea hotărârii în 48 de ore de la pronunțare trebuie corelată cu redactarea motivării, eventual prin transmiterea dispozitivului și a dovezii caracterului definitiv. Eliminarea regularizării de la art. 200 CPC nu înlătură automat celelalte garanții și reguli generale de procedură.",
+      "constitutionalityNote": "Direcția proiectului este compatibilă cu accesul la justiție și dreptul la apărare, garantate de art. 21 și 24, și cu controlul judecătoresc recunoscut prin Decizia CCR nr. 530/2013. Delimitarea legalității de oportunitatea politică protejează autonomia partidelor, dar nu trebuie interpretată ca interdicție de examinare a încălcării drepturilor membrului. Principala vulnerabilitate privește art. 1 alin. (5): momentul încetării mandatului trebuie reglementat inclusiv pentru neapelare și soluțiile procedurale. Termenele scurte nu sunt automat neconstituționale, dar trebuie să permită apărarea efectivă. Art. 23 alin. (12), referitor la pedepse, nu este reperul pertinent aici. Analiza dreptului în vigoare folosește textele furnizate; verificarea online independentă nu a fost disponibilă.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor privind accesul la profesii reglementate și exercitarea acestora; procedura analizată nu intră, prin obiectul său, în acest domeniu. Directiva (UE) 2015/1535 nu impune notificare TRIS pentru asemenea reguli judiciare și electorale, care nu instituie reglementări tehnice privind produse sau servicii ale societății informaționale. Nu rezultă restricții asupra concurenței economice, monopoluri sau bariere pentru IMM-uri. Competiția politică este afectată prin momentul înlocuirii consilierului, fără ca aceasta să constituie automat o problemă de drept european al concurenței.",
+      "senatForm": {
+        "articleRef": "Art. I: art. 16¹ alin. (15); art. II pct. 2",
+        "proposalContent": "Înlocuiți «data pronunțării hotărârii judecătorești definitive» cu «data rămânerii definitive a hotărârii». Prevedeți comunicarea și de către tribunal când hotărârea devine definitivă prin neapelare. Reglementați efectele anulării contestației, perimării și renunțării la judecată.",
+        "argumentation": "Hotărârea tribunalului poate deveni definitivă prin expirarea termenului de apel, fără o nouă pronunțare. Textul nu acoperă clar această situație și nici toate soluțiile procedurale de închidere a litigiului. Momentul încetării mandatului trebuie să fie previzibil, conform art. 1 alin. (5) din Constituție.",
+        "otherComments": "Stabiliți cine transmite prefectului hotărârea de excludere necontestată și dovada comunicării către consilier. Corelați termenul prefectului cu expirarea celor 10 zile și cu lipsa unei contestații. Precizați dacă în 48 de ore se transmite dispozitivul ori hotărârea motivată."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-27T09:20:09.226Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:28:02.218Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

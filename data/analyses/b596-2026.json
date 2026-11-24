@@ -1,121 +1,178 @@
 {
   "billId": "B596/2026",
   "slug": "b596-2026",
-  "updatedAt": "2026-10-29T06:47:21.129Z",
+  "updatedAt": "2026-11-24T14:26:18.175Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 933,
+    "ordinanceChars": 0,
+    "memoChars": 11196,
+    "memoSupplied": 11196,
+    "marker": "SF-918B2DDD"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/b596-2026.json",
+    "form": "initiator",
+    "textHash": "918b2dddba042bed",
+    "fetchedAt": "2026-11-19T09:18:36.637Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1400,
+    "truncated": false,
+    "included": true,
+    "key": "3cd6110afe40eb00"
+  },
   "consensus": {
     "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "Plafonul tichetului de masă crește de la 45 la 50 lei pe zi",
-    "summaryTlDr": "Măsura e benignă și opțională: ridică doar plafonul, fără să oblige vreun angajator să plătească mai mult. Are două probleme: data de aplicare este retroactivă (noiembrie 2026), iar calculele bugetare din Expunere sunt umflate și se contrazic între ele.",
-    "initiatorClaim": "Inițiatorii spun că inflația, majorarea TVA și scumpirea alimentelor au erodat tichetul de 45 lei. Susțin că un plafon de 50 lei ar proteja puterea de cumpărare a circa 3,2 milioane de angajați și ar aduce bugetului circa 1,46 mld lei.",
-    "realityCheck": "Legea schimbă un singur număr: plafonul maxim din art. 14 urcă de la 45 la 50 lei. Angajatorii nu sunt obligați să acorde mai mult, deci niciun salariat nu primește automat ceva în plus. Câștigul bugetar promis presupune că toți angajatorii măresc tichetul și ignoră că firmele pot muta bani din salariu (cu CAS/CAM) în tichete (fără CAS/CAM). Afirmația că măsura nu afectează inflația contrazice chiar argumentul inițiatorilor despre stimularea consumului cu ~4 mld lei/an.",
+    "plainTitle": "Plafonul tichetului de masă crește de la 45 la 50 de lei",
+    "summaryTlDr": "Este o măsură benignă și opțională: angajatorii pot da tichete mai mari, dar nu sunt obligați. Problemele sunt de redactare: aplicarea la luna noiembrie 2026, care e practic retroactivă, și o derogare confuză de la art. 32.",
+    "initiatorClaim": "Inițiatorii vor să compenseze scumpirile alimentelor și efectele majorării TVA din august 2025 prin creșterea plafonului tichetului de masă la 50 lei. Susțin că măsura ar aduce și venituri suplimentare la buget de circa 1,46 mld. lei.",
+    "realityCheck": "Proiectul modifică doar plafonul maxim din art. 14 (azi 45 lei, stabilit prin Legea 201/2025) și nu obligă pe nimeni să acorde tichete sau să le majoreze. Art. II alin. (1) aplică noul plafon drepturilor din noiembrie 2026, deși legea nu poate intra în vigoare în această lună. Art. II alin. (2) menține valoarea până în septembrie 2027 prin derogare de la art. 32, fără să spună ce se întâmplă după.",
     "affectedGroups": [
-      "Angajați & HR",
       "IMM & Antreprenori",
-      "Contabili & Fiscalitate"
+      "Contabili & Fiscalitate",
+      "Angajați & HR"
     ],
     "senatForm": {
-      "articleRef": "Art. II alin. (1) și (2) – data de aplicare",
-      "proposalContent": "Art. II alin. (1) se modifică: „Prevederile art. I se aplică începând cu drepturile aferente lunii următoare celei în care prezenta lege intră în vigoare.” La alin. (2) se precizează explicit ce plafon se aplică începând cu octombrie 2027.",
-      "argumentation": "Consultarea se încheie pe 27.11.2026; legea nu poate trece prin ambele Camere și promulgare înainte de acordarea drepturilor pe noiembrie. Aplicarea la drepturi deja acordate ar fi retroactivă (art. 15 alin. 2, art. 78 Constituție) și ar crea incertitudine fiscală (impozit, CASS) pentru angajatori. Data de aplicare trebuie legată de intrarea în vigoare.",
-      "otherComments": "Estimările din Expunere presupun că toți cei 3,2 mil. beneficiari primesc +5 lei/zi și ignoră înlocuirea salariului cu tichete (fără CAS/CAM), care scade contribuțiile la pensie. Cifrele sunt și contradictorii (TVA: 1,3 mld în text vs 564 mil. în tabel). Solicităm fișă financiară realistă și punctul de vedere al Guvernului (art. 111 Constituție)."
+      "articleRef": "Art. II alin. (1) și (2)",
+      "proposalContent": "Art. II se reformulează: „(1) Prevederile art. I se aplică începând cu drepturile aferente lunii următoare intrării în vigoare a prezentei legi. (2) Prin derogare de la art. 32 din Legea nr. 165/2018, valoarea prevăzută la art. 14, astfel cum a fost modificat prin art. I, se aplică până la data de 30 septembrie 2027 inclusiv.”",
+      "argumentation": "Legea nu poate fi adoptată și publicată înainte de sfârșitul lui noiembrie 2026. Aplicarea la drepturile acestei luni creează efecte retroactive (art. 15 alin. 2 Constituție) și insecuritate pentru angajatori la calculul impozitului, CASS și deductibilității. Enumerarea semestrelor din alin. (2) e greoaie; un termen-limită clar respectă art. 1 alin. (5).",
+      "otherComments": "Expunerea de motive e contradictorie: indică impozitare de 19%, apoi 10%, și estimează câștiguri bugetare presupunând că toți angajatorii majorează tichetele. Ignoră deductibilitatea la impozitul pe profit și substituția cu salariul (pierdere CAS). Solicităm fișă financiară (art. 15 Legea 500/2002) și precizarea regimului după 30.09.2027."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 51450,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Majorarea plafonului maxim pentru tichetele de masă de la 45 lei la 50 lei",
-      "verdictShort": "Măsură benignă și opțională pentru mediul privat, care permite creșterea tichetului de masă la cel mult 50 lei/zi lucrată. Singura problemă reală este calendarul anacronic din Art. II, care prevede aplicarea din noiembrie 2026, deși legea este încă în consultare publică la finalul aceleiași luni.",
-      "initiatorClaim": "Inițiatorii susțin că majorarea plafonului tichetelor de masă de la 45 la 50 de lei va compensa inflația alimentară și creșterea TVA, protejând puterea de cumpărare a peste 3,2 milioane de salariați și aducând încasări suplimentare la buget.",
-      "realityCheck": "Legea nu obligă niciun angajator să mărește valoarea tichetelor, ci doar ridică plafonul maxim deductibil/permis de la 45 la 50 lei, menținând această valoare înghețată până în septembrie 2027 (prin derogare de la indexarea semestrială). Totuși, Art. II alin. (1) cere aplicarea începând cu luna noiembrie 2026, ceea ce devine retroactiv și imposibil tehnic pentru departamentele de salarizare, având în vedere că termenul de consultare la Senat expiră abia pe 27 noiembrie 2026.",
-      "affectedGroups": [
-        "Angajați & HR",
-        "IMM & Antreprenori",
-        "Contabili & Fiscalitate"
-      ],
-      "keyFindings": [
-        "Art. I majorează plafonul maxim al valorii nominale a unui tichet de masă de la 45 lei la 50 lei, decizia efectivă de acordare sau majorare rămânând la latitudinea angajatorului și a negocierii colective/individuale.",
-        "Art. II alin. (1) stabilește aplicarea noului plafon „începând cu drepturile aferente lunii noiembrie 2026”, deși consultarea publică la prima Cameră sesizată se încheie la 27.11.2026, generând un viciu de retroactivitate (Art. 15 alin. (2) din Constituție).",
-        "Art. II alin. (2) derogă de la mecanismul de indexare semestrială prevăzut la art. 32 din Legea nr. 165/2018, înghețând plafonul de 50 lei pentru tot semestrul I 2027 și primele 3 luni din semestrul II 2027 (iulie-septembrie 2027)."
-      ],
-      "blindSpotsCaught": "Expunerea de motive conține erori de redactare și calcule contradictorii preluate mecanic din studii anterioare: la pag. 1 afirmă că tichetele sunt impozitate cu 19% (în realitate se aplică 10% impozit pe venit și 10% CASS), iar la impactul bugetar declară în text un plus de TVA de 1,3 miliarde lei și impozit pe profit de 253 milioane lei, pentru ca imediat sub paragraf, în tabel, să treacă jumătate din sume (564,48 milioane lei TVA și 129,02 milioane lei impozit pe profit).",
-      "constitutionalityNote": "Sub aspectul fondului, măsura este constituțională. Însă Art. II alin. (1), prin raportare la data parcurgerii procedurii parlamentare, încalcă art. 15 alin. (2) din Constituție (neretroactivitatea legii civile/fiscale) și art. 1 alin. (5) privind previzibilitatea normei, întrucât potrivit Legii nr. 165/2018 tichetele se transferă salariaților în ultima decadă a lunii anterioare sau în luna în curs, înainte ca această lege să poată intra în vigoare.",
-      "euLawNote": "Nu ridică probleme de compatibilitate cu dreptul Uniunii Europene. Nu restrânge libertatea de stabilire sau libera prestare a serviciilor (Directiva 2018/958 nu este incidentă) și nu introduce reglementări tehnice noi privind serviciile societății informaționale care să impună notificarea TRIS conform Directivei (UE) 2015/1535.",
-      "senatForm": {
-        "articleRef": "Art. II alin. (1)",
-        "proposalContent": "La articolul II, alineatul (1) se modifică și va avea următorul cuprins: „(1) Prevederile art. I se aplică începând cu drepturile aferente lunii următoare publicării prezentei legi în Monitorul Oficial al României, Partea I.”",
-        "argumentation": "Termenul de consultare publică la Senat este 27.11.2026, astfel că legea nu poate intra în vigoare în timp util pentru luna noiembrie 2026. Aplicarea pentru drepturile din noiembrie 2026 ar încălca principiul neretroactivității legii (art. 15 alin. (2) din Constituție) și ar crea blocaje contabile angajatorilor care au închis deja statul de plată.",
-        "otherComments": "Creșterea plafonului opțional la 50 lei este oportună, însă Expunerea de motive conține erori materiale evidente (ex. menționarea unui impozit de 19% în loc de 10% impozit pe venit + 10% CASS, precum și cifre bugetare contradictorii pentru TVA: 1,3 mld. lei în text față de 564,48 mil. lei în tabel). Se recomandă corelarea datelor."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 177803,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 62838,
+      "sourceEndMarker": "SF-918B2DDD",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Plafonul tichetului de masă crește de la 45 la 50 lei pe zi",
-      "verdictShort": "Măsura e benignă și opțională: ridică doar plafonul, fără să oblige vreun angajator să plătească mai mult. Are două probleme: data de aplicare este retroactivă (noiembrie 2026), iar calculele bugetare din Expunere sunt umflate și se contrazic între ele.",
-      "initiatorClaim": "Inițiatorii spun că inflația, majorarea TVA și scumpirea alimentelor au erodat tichetul de 45 lei. Susțin că un plafon de 50 lei ar proteja puterea de cumpărare a circa 3,2 milioane de angajați și ar aduce bugetului circa 1,46 mld lei.",
-      "realityCheck": "Legea schimbă un singur număr: plafonul maxim din art. 14 urcă de la 45 la 50 lei. Angajatorii nu sunt obligați să acorde mai mult, deci niciun salariat nu primește automat ceva în plus. Câștigul bugetar promis presupune că toți angajatorii măresc tichetul și ignoră că firmele pot muta bani din salariu (cu CAS/CAM) în tichete (fără CAS/CAM). Afirmația că măsura nu afectează inflația contrazice chiar argumentul inițiatorilor despre stimularea consumului cu ~4 mld lei/an.",
-      "affectedGroups": [
-        "Angajați & HR",
-        "IMM & Antreprenori",
-        "Contabili & Fiscalitate"
-      ],
-      "keyFindings": [
-        "Art. I rescrie art. 14 din Legea 165/2018: plafonul tichetului de masă devine 50 lei. E doar o limită maximă. Nu creează obligații, costuri sau sancțiuni noi pentru angajatori sau IMM-uri.",
-        "Art. II alin. (1) aplică majorarea începând cu drepturile pe noiembrie 2026. Consultarea se încheie abia pe 27.11.2026, deci legea nu poate trece prin ambele Camere și prin promulgare la timp fără efect retroactiv.",
-        "Art. II alin. (2) derogă de la art. 32 din Legea 165/2018 și menține plafonul de 50 lei până în septembrie 2027. Nu spune ce plafon se aplică din octombrie 2027, ceea ce creează o lacună de previzibilitate.",
-        "Calculul din Expunere (3,2 mil. beneficiari × 5 lei × 21 zile = 336 mil. lei/lună, 4,032 mld lei/an) presupune că absolut toți angajatorii măresc tichetul la maximum, deși Expunerea însăși recunoaște că majorarea e opțională.",
-        "Expunerea se contrazice. TVA: 1,3 mld lei în text față de 564 mil. în tabel. Impozit pe profit: «aprox. 253 mil.» față de 129 mil. Impozit și CASS: «peste 1,5 mld» față de 766 mil. Multiplicator: 1,7 lei față de «aproape 4 lei»."
-      ],
-      "blindSpotsCaught": "Tichetele sunt taxate doar cu impozit pe venit și CASS, fără CAS și CAM. Un plafon mai mare încurajează mutarea unei părți din salariu în tichete. Angajatorul economisește, dar salariatul pierde contribuții la pensie, iar bugetul pierde venituri, efect ignorat complet de Expunere. Calculul TVA aplică cotele de 11%/21% pe sume care includ deja TVA (cotă efectivă 14% în loc de circa 12%). În plus, tratează toată cheltuiala cu tichete ca pe un consum nou, deși ea înlocuiește în mare parte cumpărături pe care oamenii le-ar face oricum. Propunerea nu atinge comisioanele percepute comercianților de emitenți, care câștigă direct din volumul mai mare.",
-      "constitutionalityNote": "Art. I este clar și previzibil (art. 1 alin. 5). Problema este art. II alin. (1): legea nu poate intra în vigoare înainte de acordarea drepturilor pe noiembrie 2026, deci aplicarea ar fi retroactivă, contrar art. 15 alin. (2) și art. 78 din Constituție. Ar crea și incertitudine privind impozitul și CASS pentru tichetele deja acordate. Propunerea afectează veniturile bugetare, deci informarea Guvernului este obligatorie (art. 111 alin. 1). Art. 138 alin. (5) este atins doar marginal, fiindcă măsura nu impune cheltuieli obligatorii. Cu data corectată, legea este constituțională.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că propunerea nu reglementează accesul la o profesie sau exercitarea ei. Nici TRIS (2015/1535) nu este incidentă: se modifică un plafon fiscal, nu o regulă tehnică pentru servicii ale societății informaționale. Măsura este generală, fără selectivitate relevantă pentru ajutorul de stat. Contează însă cadrul fiscal UE: România se află în procedura de deficit excesiv, iar o cheltuială fiscală suplimentară (venit scutit de CAS/CAM) trebuie evaluată realist și compensată în traiectoria de ajustare.",
-      "senatForm": {
-        "articleRef": "Art. II alin. (1) și (2) – data de aplicare",
-        "proposalContent": "Art. II alin. (1) se modifică: „Prevederile art. I se aplică începând cu drepturile aferente lunii următoare celei în care prezenta lege intră în vigoare.” La alin. (2) se precizează explicit ce plafon se aplică începând cu octombrie 2027.",
-        "argumentation": "Consultarea se încheie pe 27.11.2026; legea nu poate trece prin ambele Camere și promulgare înainte de acordarea drepturilor pe noiembrie. Aplicarea la drepturi deja acordate ar fi retroactivă (art. 15 alin. 2, art. 78 Constituție) și ar crea incertitudine fiscală (impozit, CASS) pentru angajatori. Data de aplicare trebuie legată de intrarea în vigoare.",
-        "otherComments": "Estimările din Expunere presupun că toți cei 3,2 mil. beneficiari primesc +5 lei/zi și ignoră înlocuirea salariului cu tichete (fără CAS/CAM), care scade contribuțiile la pensie. Cifrele sunt și contradictorii (TVA: 1,3 mld în text vs 564 mil. în tabel). Solicităm fișă financiară realistă și punctul de vedere al Guvernului (art. 111 Constituție)."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 156653,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Tichete de masă de până la 50 lei",
-      "verdictShort": "Măsură utilă, cu risc redus: permite angajatorilor să ofere tichete mai mari, fără obligații generale de majorare. Aplicarea în timp trebuie clarificată, iar veniturile bugetare promise sunt supraestimate ca certitudine.",
-      "initiatorClaim": "Inițiatorii urmăresc protejarea puterii de cumpărare a salariaților și susținerea consumului alimentar. Ei afirmă că majorarea va crește încasările fiscale și va contribui la reducerea deficitului, fără efect inflaționist.",
-      "realityCheck": "Art. I ridică plafonul nominal de la 45 la 50 lei, adică cu 11,1%; majorarea efectivă depinde de angajator și de angajamentele contractuale aplicabile. Art. II păstrează valoarea de 50 lei până în septembrie 2027 inclusiv, prin derogare de la indexarea obișnuită. Proiectul nu modifică taxarea tichetelor și nu introduce formulare, autorizații sau sancțiuni noi. [Forma inițiatorului](https://www.senat.ro/legis/PDF/2026/26b596FG.PDF)",
+      "plainTitle": "Plafonul tichetelor de masă crește de la 45 la 50 de lei, opțional pentru angajatori",
+      "verdictShort": "Propunerea este benignă și utilă în esență, ridicând plafonul opțional al tichetelor de masă cu 5 lei, fără taxe sau obligații noi. Are însă un defect constituțional concret de calendar: prevede aplicarea din noiembrie 2026, deși consultarea publică se încheie abia pe 27 noiembrie 2026, ceea ce va produce efect retroactiv dacă textul nu este corectat.",
+      "initiatorClaim": "Inițiatorii susțin că majorarea valorii maxime a tichetului de masă de la 45 la 50 de lei va proteja puterea de cumpărare a celor peste 3,2 milioane de angajați față de inflație și creșterea TVA, va stimula consumul și va aduce un plus net de 1,459 miliarde lei la bugetul de stat.",
+      "realityCheck": "Art. I ridică plafonul maxim al unui tichet de masă de la 45 lei (în vigoare din 1 decembrie 2025) la 50 lei, acordarea rămânând strict opțională pentru angajatori. În paralel, Art. II alin. (2) derogă de la art. 32 din Legea nr. 165/2018 și îngheață acest plafon până în septembrie 2027, blocând eventualele indexări periodice între timp. Chichița majoră este la Art. II alin. (1), care fixează aplicarea pentru drepturile lunii noiembrie 2026, imposibil de respectat fără retroactivitate având în vedere calendarul legislativ.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Angajați & HR"
       ],
       "keyFindings": [
-        "Art. I stabilește un maxim permis, nu un drept universal la 50 lei. Pentru un angajator care trece efectiv de la 45 la 50 lei, la 21 de zile lucrate rezultă un cost nominal suplimentar de 105 lei lunar pentru fiecare beneficiar, înaintea eventualelor comisioane.",
-        "Art. II alin. (2) suspendă temporar indexarea plafonului: inflația alimentară nu va produce ajustările semestriale obișnuite în perioada derogării. După septembrie 2027 nu este prevăzută revenirea la 45 lei; trebuie clarificate reluarea indexării și baza acesteia. [Art. 32 din Legea nr. 165/2018](https://legislatie.just.ro/Public/FormaPrintabila/00000G2FRJ7TM8XHMKT2J76DA1YMWCB7)",
-        "Art. II alin. (1) vizează drepturile din noiembrie 2026. Dacă intrarea în vigoare este ulterioară, trebuie delimitate acordările suplimentare viitoare de recalcularea unor situații deja încheiate; simpla referire la o lună anterioară nu dovedește singură neconstituționalitatea.",
-        "Estimarea de 4,032 miliarde lei anual presupune implicit că toți cei 3,2 milioane de beneficiari primesc integral majorarea pentru 21 de zile lunar. Este un scenariu de adoptare integrală, nu un efect garantat al plafonului facultativ.",
-        "Calculul TVA din expunere aplică aparent cotele direct asupra cheltuielii finale. La ipotezele declarate, TVA inclusă în 4,032 miliarde lei ar fi aproximativ 489,63 milioane lei, nu 564,48 milioane lei; nici această sumă nu reprezintă automat venit suplimentar net, deoarece o parte din consum exista deja.",
-        "Expunerea folosește multiplicatori de 1,7 și aproape 4 fără reconciliere metodologică și prezintă valori diferite pentru aceleași venituri fiscale. Lipsa creării de monedă nu demonstrează absența efectelor asupra prețurilor; evaluarea netă trebuie să includă deductibilitatea, substituirea consumului și eventualele costuri pentru angajatorii publici eligibili. [Expunerea de motive](https://www.senat.ro/legis/PDF/2026/26b596EM.PDF)"
+        "Art. I modifică art. 14 din Legea nr. 165/2018 și majorează plafonul maxim al unui tichet de masă de la 45 lei (stabilit prin Legea nr. 201/2025) la 50 lei (+11,1%), fără a obliga angajatorii să acorde suma maximă.",
+        "Art. II alin. (1) stabilește aplicarea «începând cu drepturile aferente lunii noiembrie 2026», deși termenul de consultare publică la Senat este 27 noiembrie 2026 — la promulgare norma va opera retroactiv și va crea confuzie în statele de plată.",
+        "Art. II alin. (2) derogă de la art. 32 din Legea nr. 165/2018 și menține plafonul de 50 lei pe tot semestrul I 2027 și în lunile iulie–septembrie 2027, suspendând mecanismul periodic de actualizare până în octombrie 2027.",
+        "Expunerea de motive supraestimează impactul bugetar (1,459 mld. lei): presupune trecerea automată la 50 lei pentru toți cei 3,2 milioane de beneficiari, omite deductibilitatea cheltuielii la impozitul pe profit și conține cifre contradictorii la TVA (1,3 mld. lei în text față de 564,48 mil. lei în tabel)."
       ],
-      "blindSpotsCaught": "Derogarea ascunde o înghețare temporară a plafonului, deși justificarea invocă protecția împotriva inflației. Procedural, solicitarea urgenței nu înseamnă aprobarea ei: fișa Senatului consemnează solicitarea inițiatorilor, dar afișează încă «Procedura de urgență: Nu». [Fișa B596/2026](https://www.senat.ro/Legis/Lista.aspx?AN=2026&NR=b596&cod=28032&pos=0)",
-      "constitutionalityNote": "Plafonul este clar în sensul art. 1 alin. (5); vulnerabilitatea principală privește tranziția temporală, care trebuie corelată cu neretroactivitatea din art. 15 alin. (2) și intrarea în vigoare potrivit art. 78. Art. 23 alin. (12), privind legalitatea pedepsei, nu ridică o problemă proprie aici: proiectul nu introduce pedepse. Dacă se identifică modificări ale prevederilor bugetare, trebuie respectat art. 111 alin. (1), iar eventualele cheltuieli bugetare noi trebuie examinate potrivit art. 138 alin. (5); majorarea facultativă a plafonului nu dovedește singură încălcarea acestor norme. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355)",
-      "euLawNote": "Nu rezultă bariere noi la intrarea pe piață, exclusivități sau discriminări între emitenți; creșterea volumelor poate avantaja operatorii existenți, fără să instituie un monopol. Directiva (UE) 2018/958 privește accesul la profesii reglementate și exercitarea lor, astfel că nu impune aici testul său specific. Modificarea plafonului nu stabilește cerințe tehnice și nu reglementează în mod țintit servicii digitale sau AI; suportul electronic al tichetelor nu declanșează singur notificarea TRIS. Aceste concluzii privesc textul analizat. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng), [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535)",
+      "blindSpotsCaught": "Principala capcană procedurală este decalajul de calendar din Art. II alin. (1): procedura parlamentară, chiar în regim de urgență, nu poate încheia adoptarea, promulgarea și publicarea înainte de finalul lunii noiembrie 2026 (consultarea la Senat se termină pe 27.11.2026), ceea ce transformă data de aplicare într-o dispoziție retroactivă neconstituțională. Suplimentar, estimarea fiscală din expunerea de motive ignoră efectul de diminuare a impozitului pe profit (deductibilitatea tichetelor) și are o contradicție internă de peste 700 mil. lei la estimarea de TVA.",
+      "constitutionalityNote": "Art. I și Art. II alin. (2) respectă cadrul constituțional. În schimb, Art. II alin. (1) ridică un risc direct de neconstituționalitate față de art. 15 alin. (2) (neretroactivitatea legii civile), art. 78 (legea intră în vigoare la 3 zile de la publicare sau la o dată ulterioară) și art. 1 alin. (5) din Constituție (claritate și previzibilitate), deoarece va viza drepturile unei luni deja încheiate la momentul intrării în vigoare. Pentru rigoare bugetară (art. 111 alin. 1 și art. 138 alin. 5), Parlamentul trebuie să solicite informarea Guvernului privind impactul fiscal net.",
+      "euLawNote": "Proiectul nu contravine dreptului Uniunii Europene. Nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează accesul sau exercitarea unei profesii reglementate) și nici a Directivei (UE) 2015/1535 — TRIS (nu introduce reglementări tehnice noi privind servicii ale societății informaționale sau sisteme AI, regimul electronic al tichetelor fiind preexistent). Fiind un plafon opțional cu aplicare generală și nediscriminatorie pentru angajatori, nu distorsionează piața unică și nu constituie ajutor de stat selectiv (art. 107 TFUE).",
       "senatForm": {
-        "articleRef": "Art. II alin. (1)-(2); expunerea de motive",
-        "proposalContent": "Clarificați că plafonul de 50 lei se aplică acordărilor efectuate după intrarea în vigoare, inclusiv eventualelor suplimente pentru noiembrie 2026, fără recalcularea obligatorie a drepturilor deja acordate. Precizați reluarea indexării după 30 septembrie 2027 și baza utilizată.",
-        "argumentation": "Plafonul este facultativ, dar data fixă poate genera interpretări retroactive dacă legea intră în vigoare după noiembrie 2026. Corelarea cu art. 15 alin. (2), art. 78 și art. 1 alin. (5) din Constituție protejează securitatea juridică. Derogarea de la indexare trebuie delimitată clar.",
-        "otherComments": "Susțin majorarea plafonului. Refaceți impactul bugetar pe scenarii de adoptare de către angajatori, cu TVA extras din prețul final, deductibilitate și substituirea consumului existent. Justificați multiplicatorii de 1,7 și aproape 4 și eliminați afirmația nedemonstrată că măsura nu poate influența inflația."
-      }
+        "articleRef": "Art. II alin. (1) din propunerea legislativă",
+        "proposalContent": "Modificarea Art. II alin. (1) astfel: «(1) Prevederile art. I se aplică începând cu drepturile aferente lunii următoare celei în care prezenta lege intră în vigoare.»",
+        "argumentation": "Consultarea la Senat se încheie pe 27.11.2026, deci legea va intra în vigoare ulterior. Aplicarea pentru noiembrie 2026 ar fi retroactivă, contrar art. 15 alin. (2) și art. 78 din Constituție, creând blocaje în calculul salarial și fiscal (art. 1 alin. 5). Corectarea termenului previne neconstituționalitatea.",
+        "otherComments": "Majorarea opțională a plafonului la 50 lei este utilă, dar expunerea de motive supraestimează impactul bugetar (ignoră deductibilitatea la impozitul pe profit și prezintă cifre contradictorii la TVA: 1,3 mld. vs. 564 mil. lei). Solicităm avizul și evaluarea fiscală reală a Guvernului înainte de vot."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 40581,
+      "sourceEndMarker": "SF-918B2DDD",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Plafonul tichetului de masă crește de la 45 la 50 de lei",
+      "verdictShort": "Este o măsură benignă și opțională: angajatorii pot da tichete mai mari, dar nu sunt obligați. Problemele sunt de redactare: aplicarea la luna noiembrie 2026, care e practic retroactivă, și o derogare confuză de la art. 32.",
+      "initiatorClaim": "Inițiatorii vor să compenseze scumpirile alimentelor și efectele majorării TVA din august 2025 prin creșterea plafonului tichetului de masă la 50 lei. Susțin că măsura ar aduce și venituri suplimentare la buget de circa 1,46 mld. lei.",
+      "realityCheck": "Proiectul modifică doar plafonul maxim din art. 14 (azi 45 lei, stabilit prin Legea 201/2025) și nu obligă pe nimeni să acorde tichete sau să le majoreze. Art. II alin. (1) aplică noul plafon drepturilor din noiembrie 2026, deși legea nu poate intra în vigoare în această lună. Art. II alin. (2) menține valoarea până în septembrie 2027 prin derogare de la art. 32, fără să spună ce se întâmplă după.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Art. I: plafonul tichetului de masă crește de la 45 lei (în vigoare din 01.12.2025) la 50 lei. Măsura este facultativă pentru angajatori.",
+        "Art. II alin. (1): aplicarea «începând cu drepturile aferente lunii noiembrie 2026» produce efecte pentru o perioadă anterioară intrării în vigoare. Termenul consultării este 27.11.2026, deci adoptarea și publicarea până la 30.11 sunt nerealiste.",
+        "Art. II alin. (2): derogarea de la art. 32 din Legea 165/2018 enumeră semestrul I 2027 și lunile iulie–septembrie 2027. Nu clarifică regimul de după 30.09.2027 și nu explică de ce ar fi nevoie de derogare.",
+        "Expunerea de motive se contrazice: afirmă întâi impozitare de 19%, apoi 10% impozit pe venit plus CASS. Estimarea de 1,46 mld. lei presupune că toți cei 3,2 milioane de beneficiari primesc majorarea, ceea ce nu e garantat.",
+        "Calculul bugetar omite deductibilitatea tichetelor la impozitul pe profit și riscul ca angajatorii să înlocuiască salariul cu tichete, scutite de CAS. Lipsește o fișă financiară propriu-zisă."
+      ],
+      "blindSpotsCaught": "Retroactivitatea mascată din art. II alin. (1) poate crea dificultăți la calculul impozitului și al CASS și la deductibilitatea cheltuielii pentru tichetele de noiembrie deja acordate. Derogarea de la art. 32 trimite la un mecanism al legii de bază pe care expunerea nu îl explică. De reținut și că emitenții de tichete, care încasează comisioane procentuale din valoarea nominală, sunt beneficiari indirecți ai majorării.",
+      "constitutionalityNote": "Fondul nu ridică probleme, fiind o normă permisivă de politică socială. Art. II alin. (1) contravine principiului neretroactivității (art. 15 alin. 2), pentru că vizează o lună încheiată înainte de intrarea în vigoare. Alin. (2) este redactat neclar, ceea ce afectează previzibilitatea (art. 1 alin. 5). Impactul bugetar indirect impune solicitarea punctului de vedere al Guvernului (art. 111) și o fișă financiară conform art. 15 din Legea 500/2002.",
+      "euLawNote": "Directiva 2018/958 nu se aplică, deoarece nu e reglementată nicio profesie. Nici TRIS 2015/1535 nu se aplică, fiindcă nu sunt reglementate servicii ale societății informaționale sau reguli tehnice. Măsura este neutră din perspectiva pieței unice și a concurenței: plafonul se aplică nediscriminatoriu tuturor emitenților autorizați.",
+      "senatForm": {
+        "articleRef": "Art. II alin. (1) și (2)",
+        "proposalContent": "Art. II se reformulează: „(1) Prevederile art. I se aplică începând cu drepturile aferente lunii următoare intrării în vigoare a prezentei legi. (2) Prin derogare de la art. 32 din Legea nr. 165/2018, valoarea prevăzută la art. 14, astfel cum a fost modificat prin art. I, se aplică până la data de 30 septembrie 2027 inclusiv.”",
+        "argumentation": "Legea nu poate fi adoptată și publicată înainte de sfârșitul lui noiembrie 2026. Aplicarea la drepturile acestei luni creează efecte retroactive (art. 15 alin. 2 Constituție) și insecuritate pentru angajatori la calculul impozitului, CASS și deductibilității. Enumerarea semestrelor din alin. (2) e greoaie; un termen-limită clar respectă art. 1 alin. (5).",
+        "otherComments": "Expunerea de motive e contradictorie: indică impozitare de 19%, apoi 10%, și estimează câștiguri bugetare presupunând că toți angajatorii majorează tichetele. Ignoră deductibilitatea la impozitul pe profit și substituția cu salariul (pierdere CAS). Solicităm fișă financiară (art. 15 Legea 500/2002) și precizarea regimului după 30.09.2027."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 72088,
+      "sourceEndMarker": "SF-918B2DDD",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Plafon de 50 lei pentru tichetul de masă",
+      "verdictShort": "Măsură utilă, cu risc redus: permite acordarea unor tichete mai mari, fără să oblige angajatorii să majoreze beneficiul. Trebuie corectată aplicarea în timp și fundamentate mai riguros promisiunile bugetare.",
+      "initiatorClaim": "Inițiatorii urmăresc compensarea scumpirii alimentelor și protejarea puterii de cumpărare a salariaților. Ei susțin că majorarea stimulează consumul și aduce venituri bugetare suplimentare.",
+      "realityCheck": "Art. I ridică plafonul nominal de la 45 la 50 lei, fără să garanteze acordarea acestei valori și fără să modifice regimul fiscal. Art. II raportează aplicarea la drepturile din noiembrie 2026 și menține valoarea de 50 lei, prin derogare de la mecanismul de indexare, până în septembrie 2027 inclusiv. Câștigul efectiv depinde de decizia angajatorului, regulile contractuale și fiscalitatea aplicabilă; veniturile bugetare invocate nu rezultă automat din lege.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Angajați & HR"
+      ],
+      "keyFindings": [
+        "Art. I: plafonul crește cu 5 lei, adică aproximativ 11,1%. Pentru 21 de zile eligibile, diferența maximă este de 105 lei nominal lunar, dacă angajatorul trece de la 45 la 50 lei.",
+        "Art. I nu instituie un drept general la tichete de 50 lei și nu introduce taxe, sancțiuni, autorizații sau obligații declarative noi. Eventualele obligații contractuale ale angajatorului trebuie analizate separat.",
+        "Art. II alin. (1): raportarea la noiembrie 2026 necesită corelare cu data intrării în vigoare. Termenul consultării publice nu stabilește data adoptării sau a intrării în vigoare.",
+        "Art. II alin. (2): derogarea privește și primele nouă luni din 2027. Expirarea ei nu readuce automat plafonul la 45 lei, deoarece modificarea art. 14 nu are termen de încetare; trebuie clarificată reluarea indexării.",
+        "Expunerea calculează consum suplimentar de 4,032 miliarde lei anual presupunând 3,2 milioane de beneficiari, 21 de zile lunar și majorarea integrală pentru toți. Caracterul facultativ al majorării face ca acesta să fie un scenariu, nu un efect garantat.",
+        "Veniturile fiscale brute estimate nu demonstrează reducerea netă a deficitului. Lipsesc evaluarea substituirii altor cheltuieli, efectele asupra profitului impozabil al angajatorilor și reconcilierea sumelor divergente prezentate pentru TVA.",
+        "Afirmația din expunere că tichetele se acordă exclusiv în mediul privat nu este introdusă ca regulă prin proiect. Sfera beneficiarilor și restricțiile existente rămân guvernate de legislația aplicabilă."
+      ],
+      "blindSpotsCaught": "Detaliul principal este derogarea finală: plafonul de 50 lei este menținut până în septembrie 2027 inclusiv, ceea ce poate amâna o ajustare prin indexare. Separat, referirea la drepturile din noiembrie poate crea probleme de aplicare pentru o lege intrată ulterior în vigoare. Evaluarea folosește documentele furnizate; sursele externe nu au putut fi verificate independent.",
+      "constitutionalityNote": "Nu rezultă o atingere evidentă adusă egalității sau libertății economice prin simpla majorare a plafonului. Art. 1 alin. (5) impune precizarea regulilor temporale și corelarea cu indexarea. Art. 15 alin. (2) devine relevant dacă legea atribuie efecte juridice unor situații consumate înaintea intrării sale în vigoare; caracterul favorabil nu constituie o excepție generală pentru legile civile. Trebuie respectat și art. 78 privind intrarea în vigoare. Art. 23 alin. (12) nu este incident, deoarece proiectul nu reglementează pedepse. Dacă sunt identificate efecte asupra bugetelor publice, trebuie verificate cerințele art. 111 alin. (1) și, pentru cheltuieli bugetare, ale art. 138 alin. (5); documentele furnizate nu permit constatarea unei încălcări procedurale.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testul de proporționalitate pentru reglementarea profesiilor; majorarea plafonului tichetelor nu introduce restricții de acces sau exercitare a unei profesii reglementate. Directiva (UE) 2015/1535 nu impune notificare TRIS doar pentru că tichetele sunt electronice: proiectul nu stabilește cerințe tehnice și nu reglementează specific servicii ale societății informaționale ori AI. Textul nu introduce exclusivități pentru emitenți, bariere de intrare sau discriminări după originea operatorilor. Nu se identifică un obstacol nou evident pentru concurență sau piața unică.",
+      "senatForm": {
+        "articleRef": "Art. II alin. (1) și (2)",
+        "proposalContent": "Stabiliți aplicarea plafonului de 50 lei de la intrarea în vigoare, pentru drepturile aferente perioadelor ulterioare. Precizați reluarea indexării potrivit art. 32 după 30 septembrie 2027.",
+        "argumentation": "Referirea la noiembrie 2026 poate genera aplicare retroactivă dacă legea intră ulterior în vigoare. Corelarea datelor protejează previzibilitatea și respectarea art. 15 alin. (2) și art. 78 din Constituție. Încetarea derogării trebuie să permită identificarea clară a plafonului aplicabil.",
+        "otherComments": "Majorarea plafonului este utilă și nu obligă, prin ea însăși, angajatorii să acorde 50 lei. Refaceți fundamentarea bugetară prin scenarii de utilizare efectivă, reconcilierea estimărilor de TVA și separarea încasărilor brute de impactul bugetar net."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T06:47:21.129Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:26:18.175Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

@@ -1,123 +1,180 @@
 {
   "billId": "B602/2026",
   "slug": "b602-2026",
-  "updatedAt": "2026-10-29T07:10:26.592Z",
+  "updatedAt": "2026-11-24T14:25:55.760Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 12543,
+    "ordinanceChars": 0,
+    "memoChars": 14961,
+    "memoSupplied": 14961,
+    "marker": "SF-E77B5D7E"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/b602-2026.json",
+    "form": "initiator",
+    "textHash": "e77b5d7e8bb5e46e",
+    "fetchedAt": "2026-11-19T09:19:29.066Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 4,
+    "riskScore": 4.3,
     "riskLevel": "yellow",
-    "plainTitle": "Institutul Diplomatic Român devine Școala Națională de Diplomație, cu masterat și doctorat, sub Ministerul Educației",
-    "summaryTlDr": "Inițiativa este instituțională și nu afectează direct cetățenii sau firmele. Are garanții bune că diploma nu devine scurtătură spre cariera diplomatică. Problema reală e redactarea: lipsesc conducerea, ordonatorul de credite și o tranziție coerentă de la IDR la SND.",
-    "initiatorClaim": "Inițiatorii spun că România nu are o instituție dedicată formării integrate a diplomaților și că IDR nu poate, legal, organiza programe universitare și cercetare extinsă. SND ar uni formarea profesională, masteratul, doctoratul și cercetarea aplicată.",
-    "realityCheck": "Legea desființează de facto IDR, abrogând HG nr. 880/2005. Creează SND ca instituție publică în subordinea MEC, cu sediul fixat prin lege la Bd. Primăverii nr. 17 și folosință gratuită de la RA-APPS, cu misiunea de a obține autorizare și acreditare doar pentru masterat, doctorat și postuniversitar. Aproape totul e trimis la „condițiile legii”: cine conduce instituția, cine semnează bugetul, ce se întâmplă cu angajații IDR și ce se întâmplă dacă acreditarea eșuează rămân nestabilite. Partea bună: art. 3 alin. (4) și art. 8 alin. (5)-(8) exclud explicit ca SND să devină filieră privilegiată de intrare în MAE.",
+    "plainTitle": "Institutul Diplomatic Român devine «Școala Națională de Diplomație», trecută de la MAE la Ministerul Educației",
+    "summaryTlDr": "Scopul este legitim și textul are multe garanții anti-abuz, dar construcția instituțională e șubredă. Legea desființează cadrul IDR înainte ca noua școală să poată funcționa ca universitate, nu are fișă financiară și fixează prin lege un imobil anume, cu folosință gratuită.",
+    "initiatorClaim": "Inițiatorii spun că IDR nu poate organiza programe universitare complete și cercetare academică. Ei vor o instituție dedicată care să îmbine formarea academică, pregătirea practică și cercetarea în diplomație, la standarde internaționale.",
+    "realityCheck": "Legea înființează SND în subordinea MEC, ca succesoare a IDR, și îi preia patrimoniul în 90 de zile. Abrogă HG 880/2005 și lasă toate activitățile universitare (masterat, doctorat, postuniversitar) condiționate de o autorizare și o acreditare viitoare și incerte. Practic, MAE își pierde structura proprie de formare, iar noua entitate are un statut hibrid. Nu e nici universitate autonomă, nici institut de formare, iar textul vorbește deja de «rector» și «facultăți», deși nu există acreditare și nici studii de licență.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Angajați & HR",
+      "Proprietari & Imobiliare",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 1(1), art. 5(4), art. 9, art. 11",
-      "proposalContent": "Articol nou: până la constituirea structurilor de conducere, SND este condusă de un director interimar numit prin ordin al ministrului educației, cu avizul MAE, care are calitatea de ordonator terțiar de credite. HG nr. 880/2005 se abrogă la data semnării protocolului de predare-preluare, iar personalul IDR este preluat prin transfer, cu menținerea drepturilor.",
-      "argumentation": "Art. 5 alin. (4) și art. 9 nu desemnează conducătorul și ordonatorul de credite, iar art. 5 invocă un rector inexistent până la acreditare. Abrogarea HG 880/2005 la intrarea în vigoare (art. 11) lasă IDR fără bază legală înaintea predării patrimoniului (90 de zile) și cursurile fără responsabil. Lipsa de previzibilitate contravine art. 1 alin. (5) din Constituție.",
-      "otherComments": "Art. 5 presupune cheltuieli noi și mutarea creditelor IDR de la MAE la MEC: sunt necesare fișa financiară, sursa de finanțare și punctul de vedere al Guvernului (art. 111 și 138 alin. (5) din Constituție). Trebuie justificată trecerea în subordinea MEC și demonstrat că o instituție doar cu masterat și doctorat poate fi acreditată (art. 2 alin. (3))."
+      "articleRef": "Art. 1, Art. 5 alin. (4), Art. 11 alin. (1)",
+      "proposalContent": "Propunem: (1) atașarea fișei financiare (art. 15 L. 500/2002) și a avizului Guvernului; (2) menținerea IDR până la autorizarea provizorie a SND, cu abrogarea HG 880/2005 doar după preluarea efectivă; (3) eliminarea adresei imobilului din lege și reglementarea prin HG; (4) înlocuirea mențiunii «rector» cu un conducător interimar numit prin ordin MEC.",
+      "argumentation": "Art. 111 și 138 alin. (5) Constituție cer sursa de finanțare. Abrogarea HG 880/2005 la 30 de zile lasă formarea diplomaților fără cadru clar, iar SND nu poate organiza programe universitare până la autorizare. Fixarea sediului prin lege rigidizează gestiunea patrimoniului. «Rectorul» nu există la o entitate neacreditată.",
+      "otherComments": "Clarificați statutul: instituție de învățământ superior (autonomă, art. 32 alin. 6 Constituție) sau instituție publică în subordinea MEC; cele două regimuri sunt incompatibile. Precizați garanțiile pentru personalul IDR și rolul MAE, pentru care IDR era structura proprie de formare. Corectați erorile materiale («diplomăției», «organize», «elaborază»)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 45559,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 85874,
+      "sourceEndMarker": "SF-E77B5D7E",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Desființarea Institutului Diplomatic Român din subordinea MAE și transformarea lui în Școala Națională de Diplomație sub Ministerul Educației",
-      "verdictShort": "Sub pretextul modernizării pregătirii diplomaților, proiectul scoate Institutul Diplomatic Român din subordinea Ministerului Afacerilor Externe și îl mută la Ministerul Educației, lăsând MAE fără propriul centru de formare și cu un simplu rol consultativ. Legea conține erori serioase de tehnică legislativă și de arhitectură instituțională.",
-      "initiatorClaim": "Inițiatorii susțin că doresc modernizarea pregătirii corpului diplomatic prin transformarea actualului Institut Diplomatic Român într-o instituție de excelență care să poată organiza studii universitare de masterat și doctorat, precum și cercetare avansată în relații internaționale.",
-      "realityCheck": "În realitate, proiectul desființează Institutul Diplomatic Român (IDR) din subordinea MAE și înființează o nouă structură în subordinea Ministerului Educației (Art. 1), în care MAE nu mai are nicio putere decizională și nici măcar locuri rezervate pentru formarea propriilor diplomați (Art. 8 alin. 5-6). În plus, creează un hibrid juridic ce dublează facultățile de profil deja existente (SNSPA, Universitatea din București) și impune RA-APPS cedarea gratuită a sediului din Bd. Primăverii nr. 17.",
+      "plainTitle": "Transformarea Institutului Diplomatic Român în Școala Națională de Diplomație, mutată de la Externe la Educație",
+      "verdictShort": "Proiectul nu impune taxe, monopoluri sau restricții directe pentru cetățeni și firme, dar conține vicii serioase de constituționalitate și tehnică legislativă care pot bloca instituția la start. Desființarea bruscă a Institutului Diplomatic Român fără tranziție clară pentru angajați, conducere și buget generează riscuri administrative și juridice moderate.",
+      "initiatorClaim": "Inițiatorii susțin în expunerea de motive că actualul cadru juridic al Institutului Diplomatic Român nu permite dezvoltarea de programe universitare complete și cercetare academică extinsă, propunând înființarea unei instituții de excelență dedicate pregătirii integrate în diplomație și relații internaționale.",
+      "realityCheck": "În realitate, legea abrogă direct HG nr. 880/2005 la 30 de zile de la publicare și mută structura din subordinea Ministerului Afacerilor Externe în subordinea Ministerului Educației și Cercetării, reducând rolul MAE la unul strict consultativ. Deși propune o viitoare instituție de învățământ superior (masterat și doctorat, fără licență), textul nu reglementează transferul efectiv al angajaților IDR, conducerea interimară până la alegerea rectorului și nu prezintă niciun calcul de impact bugetar.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Angajați & HR"
       ],
       "keyFindings": [
-        "Scoaterea formării diplomatice de sub controlul MAE (Art. 1 și Art. 8): Noua Școală Națională de Diplomație (SND) trece în subordinea Ministerului Educației, preluând tot patrimoniul IDR, în timp ce MAE rămâne cu un simplu rol consultativ, fără locuri rezervate pentru diplomații săi și fără garanția angajării absolvenților.",
-        "Abrogarea neconstituțională a unei Hotărâri de Guvern prin Lege (Art. 11 alin. 1): Proiectul prevede că legea abrogă direct HG nr. 880/2005 privind organizarea și funcționarea IDR, încălcând principiul ierarhiei și simetriei actelor normative (Legea nr. 24/2000) și separația puterilor în stat.",
-        "Anomalie în raport cu Legea învățământului superior nr. 199/2023 (Art. 2 alin. 3 și Art. 6): Se înființează direct prin lege o structură cu rector, facultăți și departamente destinată exclusiv studiilor de masterat și doctorat (fără licență), înainte de parcurgerea procedurilor obligatorii de autorizare provizorie și evaluare ARACIS.",
-        "Folosință gratuită impusă unei regii autonome (Art. 1 alin. 3): Regia Autonomă „Administrația Patrimoniului Protocolului de Stat” (RA-APPS), care funcționează pe bază de gestiune economică, este obligată prin lege să cedeze cu titlu gratuit imobilul din Bulevardul Primăverii nr. 17."
+        "Art. 11 alin. (1) abrogă direct prin lege o Hotărâre de Guvern (HG nr. 880/2005), iar Art. 1 alin. (3) impune RA-APPS asigurarea folosinței gratuite a imobilului din Bd. Primăverii nr. 17, ambele intervenții fiind vulnerabile pe principiul separației puterilor în stat.",
+        "Art. 1 alin. (1) plasează SND «în subordinea» Ministerului Educației și Cercetării, în timp ce Art. 2 și Art. 6 alin. (3) invocă autonomia universitară și funcția de rector, creând o contradicție structurală cu regimul universităților de stat (care sunt autonome, în coordonarea, nu în subordinea MEC).",
+        "Art. 4 alin. (2) și Art. 5 alin. (4) lasă în aer soarta angajaților actuali ai IDR («se soluționează potrivit legislației aplicabile») și nu stabilesc cine asigură conducerea interimară și calitatea de ordonator de credite între desființarea IDR și constituirea structurilor universitare.",
+        "Expunerea de motive este incompletă (lipsește total secțiunea de impact financiar și juridic), deși Art. 5 alin. (1) lit. a) prevede finanțare de la bugetul de stat și se solicită procedura de urgență fără nicio motivare.",
+        "Art. 3 alin. (4) și Art. 8 alin. (5)-(8) prevăd explicit că absolvirea SND nu oferă acces automat în MAE sau în Corpul diplomatic și că MAE nu selectează candidații, evitând astfel crearea unui monopol profesional, dar decuplând MAE de la gestionarea propriei școli diplomatice."
       ],
-      "blindSpotsCaught": "Art. 4 alin. (2) lasă în incertitudine statutul actualilor angajați ai IDR („Situația personalului IDR se soluționează potrivit legislației aplicabile... Ocuparea posturilor în cadrul SND se realizează în condițiile legii”), ceea ce permite practic restructurarea și înlocuirea întregului personal de specialitate al Institutului Diplomatic Român sub umbrela reorganizării instituționale.",
-      "constitutionalityNote": "Proiectul ridică probleme de constituționalitate în raport cu Art. 1 alin. (4) (separația și echilibrul puterilor în stat) și Art. 1 alin. (5) (calitatea și previzibilitatea legii), întrucât Parlamentul abrogă direct un act administrativ al Guvernului (HG nr. 880/2005) și reglementează confuz statutul unei instituții publice care este simultan centru de formare continuă și universitate neacreditată încă. De asemenea, înființarea de noi structuri universitare finanțate de la bugetul de stat fără o fișă financiară riguroasă intră în tensiune cu Art. 138 alin. (5) din Constituție.",
-      "euLawNote": "Proiectul nu încalcă Directiva (UE) 2018/958 (testul de proporționalitate), deoarece Art. 3 alin. (4) și Art. 8 alin. (8) precizează expres că absolvirea SND nu condiționează și nu garantează accesul în profesia de diplomat, și nu intră sub incidența Directivei (UE) 2015/1535 (TRIS).",
+      "blindSpotsCaught": "Paradox temporal în dispozițiile tranzitorii: conform Art. 11 alin. (1) și Art. 12, IDR se desființează automat la 30 de zile de la publicarea legii, dar Art. 11 alin. (3) acordă un termen de 90 de zile de la intrarea în vigoare pentru preluarea patrimoniului IDR prin protocol de predare-preluare — moment în care IDR nu mai există juridic pentru a preda bunurile. Totodată, nu sunt corelate trimiterile la IDR din Legea nr. 269/2003 (Statutul Corpului diplomatic) și este solicitată procedura de urgență pentru o instituție care oricum necesită un proces multianual de autorizare și acreditare ARACIS.",
+      "constitutionalityNote": "Proiectul ridică multiple riscuri majore de neconstituționalitate: (1) Art. 1 alin. (4) și Art. 108 — abrogarea unei Hotărâri de Guvern direct prin lege și atribuirea prin lege a folosinței unui imobil aflat în administrarea RA-APPS încalcă separația puterilor și simetria actelor juridice (jurisprudența constantă a CCR); (2) Art. 138 alin. (5) — instituirea unei noi structuri universitare finanțate de la buget fără indicarea sursei de finanțare și fără fișă financiară; (3) Art. 32 alin. (6) — contradicția dintre «subordonarea» față de MEC (Art. 1 alin. 1) și garanția autonomiei universitare (Art. 6 alin. 3); (4) Art. 1 alin. (5) — lipsa de claritate și previzibilitate privind transferul personalului IDR, regimul interimatului și armonizarea cu legislația diplomatică și a învățământului superior (Legea nr. 199/2023).",
+      "euLawNote": "Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) nu este încălcată, deoarece Art. 3 alin. (4) și Art. 8 alin. (8) precizează expres că absolvirea SND nu este o condiție și nu conferă acces în Corpul diplomatic. Directiva (UE) 2015/1535 (TRIS) nu este incidentă, nefiind vizate servicii digitale sau standarde tehnice. Pe piața unică și regulile privind ajutorul de stat (Art. 107 TFUE), întrucât Art. 3 alin. (1) și Art. 5 alin. (1) permit SND să ofere cursuri și programe cu taxă către mediul privat beneficiind concomitent de sediu gratuit de la RA-APPS și subvenții bugetare, legea ar trebui să prevadă separare contabilă strictă între activitățile educaționale neeconomice și cele comerciale, pentru a evita subvenționarea încrucișată.",
       "senatForm": {
-        "articleRef": "Art. 1, Art. 2, Art. 8 și Art. 11 alin. (1)",
-        "proposalContent": "Se propune respingerea proiectului sau reconfigurarea sa astfel încât Institutul Diplomatic Român să rămână în subordinea MAE, eliminarea abrogării directe a HG nr. 880/2005 prin lege (Art. 11 alin. 1) și corelarea procedurii de înființare ca instituție de învățământ superior cu etapele prealabile de evaluare ARACIS prevăzute de Legea nr. 199/2023.",
-        "argumentation": "Trecerea IDR din subordinea MAE în cea a Ministerului Educației văduvește diplomația română de propriul instrument de formare continuă și analiză strategică. În plus, abrogarea unei Hotărâri de Guvern printr-o lege încalcă principiul simetriei actelor normative (Legea nr. 24/2000) și separația puterilor în stat (art. 1 alin. 4 și 5 din Constituție).",
-        "otherComments": "Obligarea RA-APPS (regie autonomă pe gestiune economică) să cedeze gratuit imobilul din Bd. Primăverii nr. 17 (Art. 1 alin. 3) contravine regimului juridic al regiilor autonome. De asemenea, înființarea unei structuri universitare doar pentru ciclurile II și III dublează oferta academică existentă deja în universitățile publice (SNSPA, UB, UBB)."
-      }
+        "articleRef": "Art. 1, Art. 4 alin. (2) și Art. 11",
+        "proposalContent": "Clarificarea statutului SND ca instituție autonomă în coordonarea MEC (nu în subordine), corelarea preluării personalului și patrimoniului IDR cu desființarea acestuia prin HG (nu abrogare directă a HG 880/2005 prin lege), reglementarea conducerii interimare și completarea cu fișa financiară privind sursele de finanțare.",
+        "argumentation": "Abrogarea HG 880/2005 prin lege încalcă art. 1 alin. (4) și art. 108 din Constituție. Subordonarea față de MEC contravine autonomiei universitare (art. 32 alin. 6). Lipsa sursei de finanțare încalcă art. 138 alin. (5), iar desființarea IDR înaintea preluării patrimoniului și neclaritatea privind personalul încalcă art. 1 alin. (5).",
+        "otherComments": "Se impune retragerea procedurii de urgență (nejustificată în expunerea de motive), consultarea MAE, MEC și ARACIS, armonizarea cu Legea nr. 269/2003 și Legea nr. 199/2023, precum și prevederea separării contabile pentru cursurile cu taxă oferite mediului privat în sediul RA-APPS, pentru conformitate cu regulile UE privind ajutorul de stat."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 164362,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Institutul Diplomatic Român devine Școala Națională de Diplomație, cu masterat și doctorat, sub Ministerul Educației",
-      "verdictShort": "Inițiativa este instituțională și nu afectează direct cetățenii sau firmele. Are garanții bune că diploma nu devine scurtătură spre cariera diplomatică. Problema reală e redactarea: lipsesc conducerea, ordonatorul de credite și o tranziție coerentă de la IDR la SND.",
-      "initiatorClaim": "Inițiatorii spun că România nu are o instituție dedicată formării integrate a diplomaților și că IDR nu poate, legal, organiza programe universitare și cercetare extinsă. SND ar uni formarea profesională, masteratul, doctoratul și cercetarea aplicată.",
-      "realityCheck": "Legea desființează de facto IDR, abrogând HG nr. 880/2005. Creează SND ca instituție publică în subordinea MEC, cu sediul fixat prin lege la Bd. Primăverii nr. 17 și folosință gratuită de la RA-APPS, cu misiunea de a obține autorizare și acreditare doar pentru masterat, doctorat și postuniversitar. Aproape totul e trimis la „condițiile legii”: cine conduce instituția, cine semnează bugetul, ce se întâmplă cu angajații IDR și ce se întâmplă dacă acreditarea eșuează rămân nestabilite. Partea bună: art. 3 alin. (4) și art. 8 alin. (5)-(8) exclud explicit ca SND să devină filieră privilegiată de intrare în MAE.",
-      "affectedGroups": [
-        "Sănătate & Educație",
-        "Angajați & HR"
-      ],
-      "keyFindings": [
-        "Art. 1 alin. (1) mută instituția de formare a diplomaților din sistemul MAE în subordinea MEC. MAE rămâne doar cu protocoale (art. 3 alin. 2) și cu o comunicare pur consultativă a necesarului de formare (art. 8 alin. 4-5).",
-        "Art. 5 alin. (4) și art. 9 nu prevăd niciun conducător, consiliu sau procedură de numire. Ordonatorul de credite este doar „persoana desemnată potrivit legii”, iar funcția de rector apare deși SND nu este instituție de învățământ superior până la acreditare.",
-        "Art. 11 alin. (1) abrogă HG nr. 880/2005 la intrarea în vigoare, dar patrimoniul se predă în 90 de zile (alin. 3). În acest interval IDR nu mai are act de organizare, iar SND nu are conducere care să semneze protocolul sau să asigure cursurile în desfășurare (alin. 2).",
-        "Art. 4 alin. (2) nu preia automat personalul IDR. Situația lui se „soluționează potrivit legislației”, iar posturile SND se ocupă „în condițiile legii”, ceea ce permite concedieri prin reorganizare.",
-        "Art. 1 alin. (2): SND preia drepturile și obligațiile IDR doar „în măsura în care sunt compatibile” cu obiectul său. Obligațiile considerate incompatibile rămân fără titular.",
-        "Art. 2 alin. (3) și art. 3 alin. (3) lit. b): o instituție nouă, fără licență, trebuie să îndeplinească standardele pentru masterat și să devină IOSUD pentru doctorat. Proiectul nu stabilește termen și nici soluția în caz de eșec al acreditării.",
-        "Art. 3 alin. (4) și art. 8 alin. (5)-(8) sunt garanții solide: absolvirea nu dă drept de numire în MAE, iar ministerul nu poate rezerva locuri sau selecta candidați.",
-        "Art. 1 alin. (3) fixează prin lege adresa sediului și obligă RA-APPS la folosință gratuită. Soluția e rigidă: orice mutare a sediului va cere o nouă lege."
-      ],
-      "blindSpotsCaught": "Statutul SND este hibrid și contradictoriu. Art. 1 o face „instituție publică în subordinea MEC”, dar art. 6 alin. (3) invocă autonomia universitară, cu rector și facultăți. În afara sistemului de apărare, ordine publică și securitate națională, universitățile de stat nu funcționează în subordinea unui minister. Potrivit OUG nr. 75/2005, acreditarea unei instituții de învățământ superior se face tot prin lege, deci va fi nevoie de o a doua lege. Proiectul nu corelează actele care fac trimitere la IDR și cere procedură de urgență fără justificare. Formula finală invocă art. 76 alin. (1), adică lege organică, iar acest caracter trebuie clarificat.",
-      "constitutionalityNote": "Art. 1 alin. (5) (claritate și previzibilitate): normele de trimitere generică („în condițiile legii”, „persoana desemnată potrivit legii”) și vidul de conducere din perioada tranzitorie sunt vulnerabile. Art. 32 alin. (6): subordonarea față de MEC intră în tensiune cu autonomia universitară pe care proiectul însuși o invocă. Art. 111 și art. 138 alin. (5): proiectul generează cheltuieli bugetare, deci sunt necesare fișa financiară, sursa de finanțare și punctul de vedere al Guvernului. CCR a sancționat constant lipsa acestora. Art. 16 alin. (3): accesul egal la funcțiile publice este protejat explicit prin art. 3 alin. (4) și art. 8 alin. (8).",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă: proiectul nu reglementează accesul la o profesie, iar art. 3 alin. (4) și art. 8 alin. (8) exclud orice condiție nouă de acces în Corpul diplomatic. Directiva (UE) 2015/1535 (TRIS) nu este incidentă, pentru că nu există reguli tehnice și nici servicii ale societății informaționale. Directiva 2005/36/CE nu este afectată. Un singur punct de atenție privește ajutorul de stat: cursurile executive cu taxă pentru persoane din mediul privat (art. 3 alin. 1, art. 5 alin. 1 lit. b) pot constitui activitate economică, potrivit Comunicării Comisiei 2016/C 262/01. De aceea sunt necesare tarife care acoperă costurile și contabilitate separată, ca bugetul de stat să nu subvenționeze concurența cu furnizorii privați de formare.",
-      "senatForm": {
-        "articleRef": "Art. 1(1), art. 5(4), art. 9, art. 11",
-        "proposalContent": "Articol nou: până la constituirea structurilor de conducere, SND este condusă de un director interimar numit prin ordin al ministrului educației, cu avizul MAE, care are calitatea de ordonator terțiar de credite. HG nr. 880/2005 se abrogă la data semnării protocolului de predare-preluare, iar personalul IDR este preluat prin transfer, cu menținerea drepturilor.",
-        "argumentation": "Art. 5 alin. (4) și art. 9 nu desemnează conducătorul și ordonatorul de credite, iar art. 5 invocă un rector inexistent până la acreditare. Abrogarea HG 880/2005 la intrarea în vigoare (art. 11) lasă IDR fără bază legală înaintea predării patrimoniului (90 de zile) și cursurile fără responsabil. Lipsa de previzibilitate contravine art. 1 alin. (5) din Constituție.",
-        "otherComments": "Art. 5 presupune cheltuieli noi și mutarea creditelor IDR de la MAE la MEC: sunt necesare fișa financiară, sursa de finanțare și punctul de vedere al Guvernului (art. 111 și 138 alin. (5) din Constituție). Trebuie justificată trecerea în subordinea MEC și demonstrat că o instituție doar cu masterat și doctorat poate fi acreditată (art. 2 alin. (3))."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 120059,
+      "durationMs": 53224,
+      "sourceEndMarker": "SF-E77B5D7E",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "IDR devine Școala Națională de Diplomație, în subordinea Educației",
-      "verdictShort": "Proiectul poate îmbunătăți pregătirea diplomatică și păstrează filtrele de acreditare și recrutare. Riscul moderat provine din tranziția instituțională insuficient reglementată și din costurile necuantificate în documentele furnizate.",
-      "initiatorClaim": "Inițiatorii urmăresc integrarea pregătirii universitare, formării profesionale și cercetării într-o instituție specializată. Susțin că actualul IDR nu oferă cadrul necesar dezvoltării acestei componente universitare.",
-      "realityCheck": "Art. 1 și 11 înlocuiesc cadrul IDR, subordonat MAE, cu o instituție subordonată Ministerului Educației și Cercetării, fără acordarea automată a acreditării universitare. Art. 3 și 8 exclud explicit accesul automat al absolvenților în diplomație și desemnarea candidaților de către MAE. Problemele concrete sunt succesiunea condiționată asupra obligațiilor, conducerea provizorie neprecizată și finanțarea tranziției; nu apar sancțiuni, obligații administrative pentru IMM-uri sau taxe generale asupra cetățenilor.",
+      "plainTitle": "Institutul Diplomatic Român devine «Școala Națională de Diplomație», trecută de la MAE la Ministerul Educației",
+      "verdictShort": "Scopul este legitim și textul are multe garanții anti-abuz, dar construcția instituțională e șubredă. Legea desființează cadrul IDR înainte ca noua școală să poată funcționa ca universitate, nu are fișă financiară și fixează prin lege un imobil anume, cu folosință gratuită.",
+      "initiatorClaim": "Inițiatorii spun că IDR nu poate organiza programe universitare complete și cercetare academică. Ei vor o instituție dedicată care să îmbine formarea academică, pregătirea practică și cercetarea în diplomație, la standarde internaționale.",
+      "realityCheck": "Legea înființează SND în subordinea MEC, ca succesoare a IDR, și îi preia patrimoniul în 90 de zile. Abrogă HG 880/2005 și lasă toate activitățile universitare (masterat, doctorat, postuniversitar) condiționate de o autorizare și o acreditare viitoare și incerte. Practic, MAE își pierde structura proprie de formare, iar noua entitate are un statut hibrid. Nu e nici universitate autonomă, nici institut de formare, iar textul vorbește deja de «rector» și «facultăți», deși nu există acreditare și nici studii de licență.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Angajați & HR",
+        "Proprietari & Imobiliare"
+      ],
+      "keyFindings": [
+        "Art. 1 alin. (1) și art. 2: SND e o «instituție publică în subordinea MEC», dar urmează să devină instituție de învățământ superior. Universitățile civile nu sunt în subordinea ministerului (autonomie universitară, art. 32 alin. 6 Constituție), iar statutul final rămâne neclar.",
+        "Art. 11 alin. (1) și art. 12: HG 880/2005 se abrogă la 30 de zile de la publicare, înainte de orice autorizare. Formarea diplomaților se mută la o entitate încă neconstituită, care poate face doar formare continuă (art. 10).",
+        "Art. 1 alin. (3): legea fixează sediul (Bd. Primăverii nr. 17) și obligă RA-APPS să dea imobilul în folosință gratuită, fără date despre regimul juridic al bunului și fără un mecanism de revizuire.",
+        "Art. 5 alin. (4): atribuțiile de ordonator de credite trec la «rector» după constituirea structurilor, deși SND nu e acreditată. Până atunci ordonatorul e «persoana desemnată potrivit legii», normă circulară și imprevizibilă.",
+        "Art. 4 alin. (2): personalul IDR nu are nicio garanție de preluare, iar situația lui se «soluționează potrivit legislației aplicabile». Asta poate însemna concedieri și reangajări.",
+        "Lipsesc fișa financiară și sursa de finanțare (art. 5 enumeră doar categorii generale), deși se înființează o instituție nouă cu buget propriu și s-a cerut procedură de urgență.",
+        "Puncte pozitive: art. 3 alin. (4)-(5) și art. 8 alin. (5)-(8) exclud explicit accesul privilegiat în Corpul diplomatic și selecția candidaților de către MAE. Art. 9 alin. (4) interzice derogările prin acte administrative."
+      ],
+      "blindSpotsCaught": "Ordinea pașilor e inversată față de logica Legii 199/2023: entitatea se înființează prin lege acum, iar autorizarea provizorie și acreditarea vin ulterior, fără termen și fără soluție dacă ARACIS respinge cererea. O instituție doar cu masterat și doctorat ridică și problema standardelor IOSUD. Legea mută o structură din aria MAE la MEC fără a modifica legislația Corpului diplomatic și consular care se poate referi la formarea diplomaților prin IDR, ceea ce poate crea necorelări. Parlamentul abrogă o hotărâre de Guvern, procedeu admis, dar care «legalizează» o materie organizatorică a executivului. Textul are și erori materiale («diplomăției», «organize», «elaborază») și fragmente parazite («ROMANIA,») în corpul articolelor.",
+      "constitutionalityNote": "Nu atinge drepturi fundamentale. Riscurile sunt: (1) art. 111 alin. (1) și art. 138 alin. (5): lipsesc informarea Guvernului și sursa de finanțare pentru o cheltuială nouă, motiv de neconstituționalitate invocat frecvent de CCR; (2) art. 1 alin. (5): previzibilitatea are de suferit din cauza statutului hibrid (subordonare MEC versus autonomie universitară, art. 32 alin. 6) și a normei circulare privind ordonatorul de credite; (3) imobilul fixat prin lege, cu folosință impusă unei regii autonome, poate fi discutat prin prisma art. 136 dacă bunul aparține domeniului public.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: legea nu reglementează accesul la o profesie, iar art. 3 alin. (4) și art. 8 alin. (8) exclud expres orice efect asupra accesului în Corpul diplomatic. Nu reglementează servicii digitale sau AI, deci nu cade sub TRIS (2015/1535). Nu creează monopol: programele de relații internaționale ale universităților rămân neafectate. Finanțarea publică a unei instituții de educație publice nu ridică, în principiu, probleme de ajutor de stat, dar veniturile din programe executive pentru mediul privat ar trebui contabilizate separat.",
+      "senatForm": {
+        "articleRef": "Art. 1, Art. 5 alin. (4), Art. 11 alin. (1)",
+        "proposalContent": "Propunem: (1) atașarea fișei financiare (art. 15 L. 500/2002) și a avizului Guvernului; (2) menținerea IDR până la autorizarea provizorie a SND, cu abrogarea HG 880/2005 doar după preluarea efectivă; (3) eliminarea adresei imobilului din lege și reglementarea prin HG; (4) înlocuirea mențiunii «rector» cu un conducător interimar numit prin ordin MEC.",
+        "argumentation": "Art. 111 și 138 alin. (5) Constituție cer sursa de finanțare. Abrogarea HG 880/2005 la 30 de zile lasă formarea diplomaților fără cadru clar, iar SND nu poate organiza programe universitare până la autorizare. Fixarea sediului prin lege rigidizează gestiunea patrimoniului. «Rectorul» nu există la o entitate neacreditată.",
+        "otherComments": "Clarificați statutul: instituție de învățământ superior (autonomă, art. 32 alin. 6 Constituție) sau instituție publică în subordinea MEC; cele două regimuri sunt incompatibile. Precizați garanțiile pentru personalul IDR și rolul MAE, pentru care IDR era structura proprie de formare. Corectați erorile materiale («diplomăției», «organize», «elaborază»)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 71896,
+      "sourceEndMarker": "SF-E77B5D7E",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Institutul Diplomatic devine Școala Națională de Diplomație",
+      "verdictShort": "Obiectivul formării diplomatice este legitim, iar proiectul păstrează acreditarea și concursurile pentru accesul în diplomație. Riscul principal este tranziția insuficient reglementată: cadrul IDR este abrogat înainte ca transferul patrimoniului și organizarea noii instituții să fie finalizate.",
+      "initiatorClaim": "Inițiatorii urmăresc reunirea formării diplomatice, studiilor universitare și cercetării într-o instituție specializată. Expunerea de motive susține că actualul IDR nu oferă cadrul necesar dezvoltării acestei oferte academice.",
+      "realityCheck": "Proiectul înființează SND în subordinea Ministerului Educației și Cercetării, ca succesoare a IDR, și permite dezvoltarea programelor universitare numai cu respectarea autorizării și acreditării. Nu acordă absolvenților acces automat în diplomație și nu instituie un monopol explicit asupra formării. Totuși, condiționează preluarea obligațiilor IDR de compatibilitatea cu obiectul SND, fără criterii, și lasă insuficient precizate conducerea inițială, continuitatea bugetară și preluarea personalului.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 2, art. 3 alin. (3) și art. 10 alin. (3) condiționează programele universitare de cerințele legale de autorizare și acreditare. Legea nu acordă direct dreptul de a elibera diplome universitare și exclude programele de licență.",
-        "Art. 3 alin. (4)-(5) și art. 8 alin. (5)-(8) păstrează concursurile și procedurile de recrutare în MAE. Denumirea de autoritate națională de referință din art. 1 nu instituie explicit un monopol asupra formării în relații internaționale.",
-        "Art. 1 alin. (2) condiționează preluarea drepturilor și obligațiilor IDR de compatibilitatea cu obiectul SND, fără criterii sau soluție pentru obligațiile considerate incompatibile. Această formulare creează incertitudine pentru creditori și partenerii contractuali.",
-        "Art. 11 abrogă HG nr. 880/2005 la intrarea în vigoare, dar permite preluarea patrimoniului în 90 de zile. Art. 4, 5 și 9 nu identifică suficient conducerea provizorie, mecanismul inițial de ordonanțare a cheltuielilor și continuitatea raporturilor de personal.",
-        "Art. 5 permite finanțare bugetară și taxe pentru programele oferite, fără cuantumuri stabilite aici. Documentele furnizate nu permit calcularea costului suplimentar net față de IDR; nu se poate presupune nici economie, nici o anumită creștere a cheltuielilor.",
-        "IDR desfășoară deja formare și furnizează studii și analize: proiectul dezvoltă o structură existentă, nu creează aceste activități de la zero. Abrogarea HG elimină și obligația expresă ca personalul MAE să beneficieze de pregătire cel puțin o dată la trei ani, fără echivalent în proiect. [HG nr. 880/2005, art. 2 și 7](https://legislatie.just.ro/Public/DetaliiDocument/64243)."
+        "Art. 11 alin. (1) abrogă HG nr. 880/2005 chiar la intrarea în vigoare a legii, în timp ce alin. (3) permite preluarea patrimoniului în următoarele 90 de zile. Obligația SND de a finaliza cursurile existente nu este însoțită de un mecanism tranzitoriu complet.",
+        "Art. 1 alin. (2) limitează succesiunea la drepturile și obligațiile compatibile cu obiectul SND, fără să stabilească cine apreciază compatibilitatea sau ce se întâmplă cu obligațiile considerate incompatibile. Nu rezultă o stingere automată a datoriilor, dar există risc de litigii.",
+        "Art. 4 alin. (2) trimite situația personalului la legislația generală și necesitățile instituției. Nu garantează expres preluarea tuturor salariaților, dar nici nu dispune concedierea lor automată.",
+        "Art. 2, art. 3 alin. (3), art. 9 alin. (4) și art. 10 alin. (3) păstrează procedurile legale de autorizare și acreditare. Referirile la rector, facultăți și autonomie universitară necesită însă corelare cu statutul instituției înainte de dobândirea capacității legale de a organiza studii universitare.",
+        "Art. 3 alin. (4)-(5) și art. 8 alin. (5)-(8) exclud accesul automat în MAE și rezervarea implicită a locurilor pentru persoane desemnate de minister. Calificarea SND drept autoritate națională de referință nu este însoțită de exclusivitate sau de interdicții pentru alți furnizori.",
+        "Art. 5 permite finanțare publică și taxe pentru programele oferite, fără taxe generale noi pentru cetățeni ori obligații administrative noi pentru IMM-uri. Documentele furnizate nu cuantifică personalul, investițiile, costul folosinței gratuite a sediului și cheltuielile suplimentare."
       ],
-      "blindSpotsCaught": "Statutul instituției înaintea acreditării rămâne insuficient delimitat: textul înființează o instituție publică, dar invocă rectorul și structurile universitare încă din organizarea sa. Trebuie corelat și traseul viitoarei instituții universitare de stat cu art. 10 alin. (2) din Legea nr. 199/2023, care atribuie Guvernului inițiativa înființării acesteia. Aceasta este o problemă de corelare legislativă, nu dovada unei interdicții constituționale generale asupra inițiativei parlamentarilor. [Legea nr. 199/2023](https://legislatie.just.ro/Public/DetaliiDocument/306815).",
-      "constitutionalityNote": "Art. 1 alin. (5) este relevant pentru succesiunea condiționată și organizarea tranziției. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident: proiectul nu stabilește pedepse. Autonomia universitară, garantată de art. 32 alin. (6), trebuie respectată la constituirea conducerii; subordonarea ministerială nu dovedește singură încălcarea ei. Pentru impactul bugetar trebuie verificată solicitarea informării Guvernului conform art. 111 alin. (1) și fundamentarea finanțării conform art. 138 alin. (5); lipsa estimărilor din extrase nu demonstrează lipsa lor din dosar. Art. 1 alin. (3) necesită identificarea regimului juridic al imobilului și corelarea cu art. 136 alin. (4), dacă bunul aparține domeniului public. Acestea sunt vulnerabilități de verificat și remediat, nu neconstituționalități certe. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355).",
-      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile asupra accesului la profesii reglementate sau exercitării acestora. Proiectul nu introduce o calificare obligatorie ori activități profesionale rezervate absolvenților SND, deci nu rezultă obligația unui test de proporționalitate în baza acestei directive. [Art. 1-2](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32018L0958). Directiva (UE) 2015/1535 nu impune notificare TRIS pentru simpla menționare a AI și digitalizării ca teme educaționale: lipsesc reglementările tehnice sau regulile destinate specific serviciilor societății informaționale. [Art. 1](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?from=EN&uri=CELEX%3A32015L1535). Concurența între furnizorii de formare rămâne posibilă; statutul de referință și finanțarea publică nu demonstrează, prin ele însele, un monopol sau o încălcare a dreptului UE.",
+      "blindSpotsCaught": "Dispoziția decisivă este art. 11: termenul de 90 de zile privește transferul patrimoniului, nu amână abrogarea cadrului IDR. În plus, rezerva de compatibilitate din art. 1 alin. (2) slăbește claritatea succesiunii. Menționarea inteligenței artificiale în expunerea de motive nu introduce reguli pentru servicii AI și nu activează prin ea însăși procedura TRIS.",
+      "constitutionalityNote": "Principala vulnerabilitate privește art. 1 alin. (5) din Constituție: succesiunea condiționată și tranziția incompletă reduc previzibilitatea pentru personal, cursanți și creditori. Subordonarea administrativă față de minister nu dovedește singură încălcarea autonomiei universitare garantate de art. 32 alin. (6), dar competențele ministerului și ale conducerii academice trebuie delimitate. Art. 23 alin. (12) nu are incidență directă, deoarece proiectul nu instituie pedepse. Pentru cheltuielile publice trebuie verificată respectarea art. 111 alin. (1), dacă sunt modificate prevederi bugetare, și a art. 138 alin. (5); enumerarea surselor de finanțare nu demonstrează singură disponibilitatea fondurilor. Nu se poate constata din documentele furnizate că procedurile bugetare au fost încălcate. Verificarea externă a legislației consolidate nu a fost posibilă.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor de acces la profesii reglementate sau de exercitare a acestora. Textul nu introduce o asemenea restricție: diploma SND nu devine condiție obligatorie pentru accesul în diplomație, astfel că nu rezultă declanșarea testului doar prin înființarea școlii. Directiva (UE) 2015/1535 nu apare incidentă, deoarece proiectul nu stabilește reglementări tehnice ori cerințe specifice serviciilor societății informaționale. Nu există un monopol explicit; finanțarea publică și folosința gratuită a sediului necesită analiză în materia ajutorului de stat numai în măsura în care susțin activități economice și sunt întrunite celelalte condiții legale.",
       "senatForm": {
-        "articleRef": "Art. 1 alin. (2), art. 4, art. 9 și art. 11",
-        "proposalContent": "Eliminați condiționarea preluării obligațiilor IDR de compatibilitatea cu obiectul SND. Reglementați expres încetarea IDR, conducerea și ordonatorul de credite provizorii, continuitatea contractelor și situația personalului până la finalizarea transferului, în maximum 90 de zile.",
-        "argumentation": "Abrogarea imediată a HG nr. 880/2005, concomitent cu preluarea patrimoniului în 90 de zile, lasă neclară administrarea tranziției. Succesiunea condiționată poate afecta creditorii, salariații și cursanții. Sunt necesare reguli determinate, conform art. 1 alin. (5) din Constituție.",
-        "otherComments": "Solicităm fundamentarea costurilor nete și a finanțării, verificarea solicitării informării Guvernului potrivit art. 111 alin. (1) și clarificarea titlului juridic asupra sediului. Păstrați condițiile de acreditare și separarea absolvirii de accesul în MAE; justificați distinct urgența."
-      }
+        "articleRef": "Art. 1 alin. (2); art. 11 alin. (1)-(3)",
+        "proposalContent": "Prevedeți preluarea integrală a drepturilor și obligațiilor IDR și sincronizați abrogarea HG nr. 880/2005 cu transferul operațional, în maximum 90 de zile. Reglementați expres conducerea interimară, continuitatea finanțării și situația personalului, contractelor și litigiilor.",
+        "argumentation": "Abrogarea imediată a cadrului IDR și transferul ulterior pot afecta continuitatea activității. Condiționarea succesiunii de compatibilitatea obligațiilor este imprecisă și poate genera litigii. Reguli tranzitorii clare protejează cursanții, personalul și creditorii și susțin previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
+        "otherComments": "Prezentați costurile tranziției și ale funcționării, sursele efective de finanțare și situația juridică a sediului. Clarificați statutul și conducerea SND înaintea autorizării universitare. Păstrați garanțiile privind acreditarea și accesul în diplomație prin procedurile legale."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T07:10:26.592Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:25:55.760Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

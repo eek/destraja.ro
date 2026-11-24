@@ -1,117 +1,177 @@
 {
   "billId": "B637/2026",
   "slug": "b637-2026",
-  "updatedAt": "2026-11-12T15:16:30.033Z",
+  "updatedAt": "2026-11-24T14:27:35.228Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1516,
+    "ordinanceChars": 0,
+    "memoChars": 7892,
+    "memoSupplied": 7892,
+    "marker": "SF-67D84D62"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/b637-2026.json",
+    "form": "initiator",
+    "textHash": "67d84d62ceb58819",
+    "fetchedAt": "2026-11-19T09:23:45.062Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 5055,
+    "truncated": false,
+    "included": true,
+    "key": "7013921df0600575"
+  },
   "consensus": {
-    "riskScore": 2.7,
+    "riskScore": 3.3,
     "riskLevel": "green",
-    "plainTitle": "Șoferii de ride-sharing pot lucra și în comunele vecine și în zona metropolitană, nu doar în orașul lor",
-    "summaryTlDr": "Lege utilă și liberalizatoare, care rezolvă absurdități reale, ca aeroportul din Ghimbav unde șoferii din Brașov nu pot lua clienți. Riscul ține doar de redactare: un pronume ambiguu și dispariția mențiunii București-Ilfov pot lărgi necontrolat sau, după caz, îngusta aria legală a șoferilor.",
-    "initiatorClaim": "Inițiatorii vor ca transportul alternativ să poată funcționa permanent în toată zona metropolitană, nu doar în localitatea de sediu sau domiciliu. Ei invocă aeroporturile aflate pe raza altor UAT, de exemplu Brașov-Ghimbav, și vor să înlocuiască regimul special București-Ilfov cu regula generală a zonelor metropolitane.",
-    "realityCheck": "Textul face mai mult decât spune expunerea. Pe lângă zonele metropolitane, lit. a) adaugă toate UAT limitrofe, chiar dacă nu fac parte dintr-o zonă metropolitană. Formula «zonele metropolitane din care acestea fac parte» poate fi citită ca fiind zonele metropolitane ale vecinilor, ceea ce ar extinde aria în lanț. Mențiunea expresă a regiunii București-Ilfov dispare, iar lit. b) nu include UAT limitrofe ca loc de plecare. Regimul de autorizare și sancțiunile rămân neschimbate.",
+    "plainTitle": "Ridesharing-ul poate lucra și în comunele vecine și în zona metropolitană, nu doar în orașul de reședință",
+    "summaryTlDr": "Este o relaxare utilă și proporțională a unei restricții teritoriale greu de justificat, de exemplu pentru aeroportul Brașov-Ghimbav. Redactarea are însă ambiguități reale („acestea”, „localitățile tranzitate”, eliminarea regimului București-Ilfov) care trebuie corectate înainte de vot.",
+    "initiatorClaim": "Inițiatorii vor ca transportul alternativ (ridesharing) să poată funcționa permanent în toată zona metropolitană a localității de reședință a operatorului. Invocă aeroporturi aflate pe alte UAT-uri, cum e Brașov-Ghimbav, și vor un regim unitar care să înlocuiască excepția București-Ilfov.",
+    "realityCheck": "Textul propus merge mai departe decât spune expunerea de motive. Lit. a) permite activitate permanentă și în orice UAT limitrof, chiar fără zonă metropolitană constituită, „inclusiv” în zonele metropolitane din care „acestea fac parte”. Pronumele poate fi citit ca referindu-se la UAT-urile limitrofe, ceea ce ar extinde aria în lanț. Lit. b) introduce o cursă retur „din localitățile tranzitate”, o formulare care nu acoperă clar localitatea de destinație. Eliminarea mențiunii exprese „regiunea de dezvoltare București-Ilfov” leagă regimul din Ilfov de existența juridică a zonei metropolitane București.",
     "affectedGroups": [
       "Șoferi & Auto",
       "IMM & Antreprenori",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct. 1 – art. 13 alin. (4) lit. a), b)",
-      "proposalContent": "Lit. a): „permanent, în localitatea unde își are sediul sau domiciliul, în UAT limitrofe acesteia și în zona metropolitană din care face parte această localitate, potrivit Legii nr. 246/2022, precum și în regiunea București-Ilfov, după caz”. Lit. b) se corelează: plecare și din UAT limitrofe. Se elimină formula dublă din articolul unic.",
-      "argumentation": "Pronumele «acestea» poate trimite la UAT limitrofe, deci la zonele metropolitane ale vecinilor, lărgind aria în lanț. Fără mențiunea regiunii București-Ilfov, dreptul actual depinde de constituirea efectivă a zonei metropolitane. Lit. b) omite UAT limitrofe incluse la lit. a). Aria decide dacă o cursă e legală, deci art. 1 alin. (5) din Constituție cere limite clare.",
-      "otherComments": "Măsura e utilă (ex. aeroportul Brașov-Ghimbav), liberalizează piața și nu are cost bugetar. Recomandăm: o listă publică, actualizată, a UAT din fiecare zonă metropolitană, pentru șoferi, platforme și controlori; corectarea tehnicii legislative (Legea nr. 24/2000); aviz al Consiliului Concurenței privind raportul cu taximetria (Legea nr. 38/2003)."
+      "articleRef": "Art. unic – art. 13 alin. (4) lit. a), b)",
+      "proposalContent": "Lit. a): „permanent, în interiorul localității unde își are sediul sau domiciliul, în UAT limitrofe acesteia și în UAT din zona metropolitană din care face parte localitatea, potrivit Legii nr. 246/2022”. Lit. b): retur permis din localitatea de destinație. Se menține regimul București-Ilfov până la constituirea zonei metropolitane.",
+      "argumentation": "„Acestea” are antecedent ambiguu (localitatea sau UAT limitrofe), ceea ce poate extinde aria în lanț, contrar art. 1 alin. (5) din Constituție. „Localitățile tranzitate” nu acoperă clar destinația. Eliminarea mențiunii București-Ilfov poate restrânge aria dacă zona metropolitană nu e constituită formal.",
+      "otherComments": "Tehnică legislativă: articolul unic anunță modificarea întregului alin. (4), apoi conține un pct. 1 doar pentru lit. a) și b); titlul omite „a Guvernului nr.”. Lit. b) nu menționează UAT limitrofe, spre deosebire de lit. a). Recomandăm avizul ARR privind controlul în trafic și o listă publică a UAT incluse."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 84707,
-      "riskScore": 2,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 75209,
+      "sourceEndMarker": "SF-67D84D62",
+      "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Extinderea zonelor în care pot opera Uber și Bolt: permisiune permanentă în comunele limitrofe și în zonele metropolitane",
-      "verdictShort": "O inițiativă utilă, debirocratizantă și pro-concurențială, care rezolvă blocajele de transport dintre marile orașe, comunele periurbane și aeroporturi (precum Brașov-Ghimbav). Textul are însă câteva erori de tehnică legislativă care trebuie corectate în comisii pentru a nu crea confuzii la controalele în trafic.",
-      "initiatorClaim": "Inițiatorii doresc să permită șoferilor de transport alternativ (ridesharing) să opereze permanent nu doar în localitatea de sediu/domiciliu, ci și în localitățile învecinate și în zonele metropolitane, eliminând blocajele de la aeroporturile situate în afara municipiilor și unificând regimul aplicabil regiunii București-Ilfov.",
-      "realityCheck": "Măsura liberalizează real piața de mobilitate urbană și permite inclusiv efectuarea unei curse retur la deplasările ocazionale în alte localități. Totuși, din cauza unei redactări neatente, proiectul șterge accidental partea introductivă a art. 13 alin. (4), elimină mențiunea expresă a regiunii București-Ilfov (riscând să excludă comunele din inelul 2 al Ilfovului dacă nu există un ADI metropolitan formal) și permite cursa retur doar din „localitățile tranzitate”, nu și explicit din localitatea de destinație.",
+      "plainTitle": "Ridesharing legal în zonele metropolitane și comunele vecine (inclusiv la aeroporturi)",
+      "verdictShort": "O inițiativă utilă și pro-concurențială, care elimină un blocaj absurd pentru șoferii de transport alternativ și pasagerii din afara Bucureștiului. Textul are însă câteva scăpări de redactare ce pot crea, involuntar, probleme exact în zona București-Ilfov și ambiguități la cursele retur.",
+      "initiatorClaim": "Inițiatorii vor să permită operatorilor de ridesharing (Bolt, Uber etc.) să lucreze permanent în întreaga zonă metropolitană din care face parte localitatea unde au sediul, rezolvând blocaje precum preluarea pasagerilor de la aeroporturi aflate în alte UAT-uri (ex. Brașov-Ghimbav) și eliminând tratamentul separat al regiunii București-Ilfov.",
+      "realityCheck": "În prezent, art. 13 alin. (4) din OUG 49/2019 permite activitatea permanentă doar în localitatea de sediu/domiciliu sau în regiunea București-Ilfov. Proiectul extinde real dreptul de operare permanentă atât la UAT-urile limitrofe, cât și la zonele metropolitane, și introduce (fără a explica în expunerea de motive) o „cursă retur din localitățile tranzitate” la cursele ocazionale. Însă ștergerea referirii la regiunea București-Ilfov, necorelarea dintre lit. a) și lit. b) și formulările imprecise pot produce efecte secundare neintenționate la controale.",
       "affectedGroups": [
         "Șoferi & Auto",
         "IMM & Antreprenori",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Deblocarea mobilității periurbane și aeroportuare (art. 13 alin. (4) lit. a)): Operatorii de transport alternativ vor putea prelua permanent pasageri din UAT-urile limitrofe și din zonele metropolitane, rezolvând situația aeroporturilor situate administrativ în localități vecine (ex. Ghimbav - Brașov, Ghiroda - Timișoara).",
-        "Eroare de tehnică legislativă la comanda de modificare (articolul unic): Preambulul articolului unic dispune modificarea întregului alineat (4), dar redă doar literele a) și b), ceea ce ar duce la abrogarea involuntară a părții introductive a alin. (4) privind valabilitatea de 3 ani și condiția copiilor conforme.",
-        "Capcana eliminării regiunii București-Ilfov și a curselor retur (lit. a) și b)): Înlocuirea „regiunii de dezvoltare București-Ilfov” cu „zonele metropolitane” ignoră faptul că Legea nr. 246/2022 definește de drept doar „teritoriul metropolitan”, în timp ce „zona metropolitană” necesită asociere voluntară în ADI; totodată, la lit. b) sunt permise curse retur doar din „localitățile tranzitate”, omițându-se menționarea expresă a localității de destinație."
+        "Articol unic, pct. 1 (art. 13 alin. 4 lit. a): extinde dreptul de transport alternativ permanent de la simpla localitate de sediu/domiciliu la UAT-urile limitrofe și la zonele metropolitane din care fac parte, fără taxe noi sau reautorizări.",
+        "Articol unic, pct. 1 (art. 13 alin. 4 lit. b): omite UAT-urile limitrofe dintre locurile de plecare pentru cursele ocazionale (deși acestea sunt incluse la lit. a) pentru activitatea permanentă) și introduce dreptul la „o cursă retur din localitățile tranzitate”, fără a clarifica dacă include și localitatea de destinație.",
+        "Eliminarea expresă a sintagmei „regiunea de dezvoltare București-Ilfov” din ambele litere se bazează pe presupunerea că întreg județul Ilfov este acoperit automat de o „zonă metropolitană” legal constituită, ceea ce creează un risc juridic pentru șoferii din Ilfov și București."
       ],
-      "blindSpotsCaught": "Confuzia juridică dintre „teritoriu metropolitan” și „zonă metropolitană” din Legea nr. 246/2022: inițiatorii presupun că București și tot județul Ilfov formează automat o „zonă metropolitană”, însă art. 5 din Legea 246/2022 delimitează doar „teritoriul metropolitan” în care se poate constitui prin asociere o zonă metropolitană. Fără menținerea expresă a regiunii București-Ilfov, șoferii pot fi sancționați în comunele ilfovene care nu sunt direct limitrofe Capitalei.",
-      "constitutionalityNote": "Propunerea susține libertatea economică (art. 45 din Constituție), însă viciile de redactare (dubla comandă de modificare a alin. (4) și ambiguitatea sintagmei „localitățile tranzitate” la art. 13 alin. (4) lit. b)) pot afecta exigențele de claritate și previzibilitate a legii prevăzute de art. 1 alin. (5) din Constituție, lăsând loc interpretărilor discreționare ale agenților constatatori (ISCTR/Poliția Rutieră).",
-      "euLawNote": "Proiectul este pe deplin aliniat cu dreptul UE, cu libertatea de a presta servicii (art. 56 TFUE), cu principiile Directivei (UE) 2018/958 privind testul de proporționalitate și cu Comunicarea Comisiei Europene privind agenda pentru economia colaborativă (COM(2016) 356), întrucât înlătură restricții geografice disproporționate și reduce cursele fără pasageri (empty runs). Nu impune reguli tehnice noi notificabile conform Directivei (UE) 2015/1535 (TRIS).",
+      "blindSpotsCaught": "Capcana juridică ascunsă privește diferența din Legea nr. 246/2022 între „teritoriul metropolitan” (care pentru București include cel puțin județul Ilfov) și „zona metropolitană” (care se constituie formal ca asociație de dezvoltare intercomunitară). Dacă București-Ilfov nu are o zonă metropolitană constituită care să acopere toate cele 40 de UAT-uri din Ilfov, eliminarea referirii la regiunea București-Ilfov ar restrânge șoferii doar la localitățile strict limitrofe. În plus, la lit. a), pronumele „acestea” poate fi citit ca referindu-se la UAT-urile limitrofe, iar în Articolul unic se citează greșit Monitorul Oficial al Legii 204/2019 (nr. 901/2019) în locul celui al OUG 49/2019 și se suprapun defectuos formulările de modificare a alin. (4) cu „pct. 1” pentru lit. a) și b).",
+      "constitutionalityNote": "Proiectul este corect încadrat ca lege ordinară (art. 75 și art. 76 alin. 2 din Constituție) și nu aduce atingeri drepturilor fundamentale. Totuși, lipsa de precizie a sintagmelor „curse retur din localitățile tranzitate”, „zonele metropolitane din care acestea fac parte” și structura defectuoasă a articolului unic (care riscă să lase neclară păstrarea părții introductive a alin. 4) ridică obiecții punctuale sub aspectul calității și previzibilității legii (art. 1 alin. 5 din Constituție), cu atât mai mult cu cât depășirea ariei autorizate atrage răspundere contravențională.",
+      "euLawNote": "Pe fond, măsura este pro-concurențială și aliniază piața la realitățile mobilității urbane, relaxând o barieră teritorială nejustificată (deci nu introduce restricții noi în sensul testului de proporționalitate din Directiva (UE) 2018/958, cu rezerva corectării situației București-Ilfov pentru a nu crea accidental o restrângere). Nu declanșează obligația de notificare TRIS conform Directivei (UE) 2015/1535, deoarece vizează aria geografică a serviciului fizic de transport rutier de persoane, nu reguli tehnice impuse platformelor digitale ca servicii ale societății informaționale.",
       "senatForm": {
-        "articleRef": "Articol unic - art. 13 alin. (4) lit. a) și b)",
-        "proposalContent": "La art. 13 alin. (4), lit. a) și b) se modifică: a) permanent, în localitatea de sediu/domiciliu, în UAT-urile limitrofe, în zona metropolitană ori în regiunea București-Ilfov; b) ocazional, cu plecare din ariile prevăzute la lit. a) spre alte localități, cu posibilitatea efectuării unei curse retur din localitatea de destinație sau din cele tranzitate.",
-        "argumentation": "1) Comanda actuală modifică tot alin. (4), riscând eliminarea părții introductive. 2) Conform Legii 246/2022, zona metropolitană presupune asociere ADI; eliminarea regiunii București-Ilfov ar exclude comunele din inelul 2 Ilfov neasociate. 3) La lit. b) trebuie incluse UAT-urile limitrofe și cursa retur din localitatea de destinație, nu doar din cele tranzitate.",
-        "otherComments": "Măsura este binevenită și pro-concurențială, deblocând transportul alternativ spre aeroporturi (ex. Brașov-Ghimbav) și comune periurbane. Corectarea tehnică propusă previne interpretările abuzive în teren ale agenților constatatori (ISCTR/Poliție) și protejează drepturile câștigate ale operatorilor din regiunea București-Ilfov."
+        "articleRef": "Articol unic, pct. 1 (art. 13 alin. 4 lit. a-b)",
+        "proposalContent": "Propunem: 1) referire expresă la «teritoriul metropolitan» (Legea 246/2022) sau păstrarea București-Ilfov; 2) includerea UAT-urilor limitrofe și la lit. b); 3) clarificarea cursei retur («din localitatea de destinație ori tranzitate, către aria autorizată»); 4) reformularea părții introductive a articolului unic.",
+        "argumentation": "Susținem extinderea ariei de operare, însă eliminarea București-Ilfov riscă să blocheze șoferii dacă nu există o zonă metropolitană constituită ca ADI pentru tot Ilfovul. Totodată, omiterea UAT-urilor limitrofe la lit. b) și expresia vagă «localitățile tranzitate» pot genera sancțiuni imprevizibile la control (art. 1 alin. 5 din Constituție).",
+        "otherComments": "În articolul unic, Monitorul Oficial indicat (nr. 901/07.11.2019) este cel al Legii 204/2019, nu al OUG 49/2019, iar formularea «Articol unic» urmată de «1.» creează neclaritate privind păstrarea părții introductive a alin. (4) (Legea 24/2000). Recomandăm și clarificarea referinței «acestea» de la lit. a)."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 142112,
+      "durationMs": 52618,
+      "sourceEndMarker": "SF-67D84D62",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Șoferii de ride-sharing pot lucra și în comunele vecine și în zona metropolitană, nu doar în orașul lor",
-      "verdictShort": "Lege utilă și liberalizatoare, care rezolvă absurdități reale, ca aeroportul din Ghimbav unde șoferii din Brașov nu pot lua clienți. Riscul ține doar de redactare: un pronume ambiguu și dispariția mențiunii București-Ilfov pot lărgi necontrolat sau, după caz, îngusta aria legală a șoferilor.",
-      "initiatorClaim": "Inițiatorii vor ca transportul alternativ să poată funcționa permanent în toată zona metropolitană, nu doar în localitatea de sediu sau domiciliu. Ei invocă aeroporturile aflate pe raza altor UAT, de exemplu Brașov-Ghimbav, și vor să înlocuiască regimul special București-Ilfov cu regula generală a zonelor metropolitane.",
-      "realityCheck": "Textul face mai mult decât spune expunerea. Pe lângă zonele metropolitane, lit. a) adaugă toate UAT limitrofe, chiar dacă nu fac parte dintr-o zonă metropolitană. Formula «zonele metropolitane din care acestea fac parte» poate fi citită ca fiind zonele metropolitane ale vecinilor, ceea ce ar extinde aria în lanț. Mențiunea expresă a regiunii București-Ilfov dispare, iar lit. b) nu include UAT limitrofe ca loc de plecare. Regimul de autorizare și sancțiunile rămân neschimbate.",
+      "plainTitle": "Ridesharing-ul poate lucra și în comunele vecine și în zona metropolitană, nu doar în orașul de reședință",
+      "verdictShort": "Este o relaxare utilă și proporțională a unei restricții teritoriale greu de justificat, de exemplu pentru aeroportul Brașov-Ghimbav. Redactarea are însă ambiguități reale („acestea”, „localitățile tranzitate”, eliminarea regimului București-Ilfov) care trebuie corectate înainte de vot.",
+      "initiatorClaim": "Inițiatorii vor ca transportul alternativ (ridesharing) să poată funcționa permanent în toată zona metropolitană a localității de reședință a operatorului. Invocă aeroporturi aflate pe alte UAT-uri, cum e Brașov-Ghimbav, și vor un regim unitar care să înlocuiască excepția București-Ilfov.",
+      "realityCheck": "Textul propus merge mai departe decât spune expunerea de motive. Lit. a) permite activitate permanentă și în orice UAT limitrof, chiar fără zonă metropolitană constituită, „inclusiv” în zonele metropolitane din care „acestea fac parte”. Pronumele poate fi citit ca referindu-se la UAT-urile limitrofe, ceea ce ar extinde aria în lanț. Lit. b) introduce o cursă retur „din localitățile tranzitate”, o formulare care nu acoperă clar localitatea de destinație. Eliminarea mențiunii exprese „regiunea de dezvoltare București-Ilfov” leagă regimul din Ilfov de existența juridică a zonei metropolitane București.",
       "affectedGroups": [
         "Șoferi & Auto",
-        "IMM & Antreprenori"
+        "IMM & Antreprenori",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. unic pct. 1, art. 13 alin. (4) lit. a): aria permanentă devine localitatea de sediu sau domiciliu, plus UAT limitrofe, plus zonele metropolitane. Criteriul «limitrofe» nu apare deloc în expunerea de motive. Singur, el rezolvă deja cazul Ghimbav, fiindcă Ghimbav se învecinează cu Brașovul, dar extinde activitatea și în afara oricărei zone metropolitane.",
-        "Lit. a) are o ambiguitate gramaticală: «acestea» se poate referi la UAT limitrofe. Un operator dintr-o comună aflată la granița a două zone metropolitane ar putea lucra permanent în amândouă. Aria legală ar depinde de interpretarea controlorului.",
-        "Eliminarea mențiunii «regiunea de dezvoltare București-Ilfov» face ca dreptul actual să depindă de existența juridică a zonei metropolitane București potrivit Legii nr. 246/2022. Dacă zona nu este constituită efectiv, comunele din Ilfov care nu se învecinează cu Bucureștiul ar putea ieși din aria permanentă a operatorilor bucureșteni, și invers.",
-        "Lit. b) permite curse ocazionale cu plecare din localitate și din zona metropolitană, dar nu și din UAT limitrofe, deși lit. a) le include în aria permanentă. Cele două litere nu sunt corelate.",
-        "Tehnica legislativă e deficitară (Legea nr. 24/2000). Articolul unic spune că «alineatul (4) se modifică» și apoi, la pct. 1, că se modifică doar literele a) și b). În titlu lipsește «a Guvernului nr.». Nu există impact bugetar și nici obligații noi pentru operatori sau platforme."
+        "Art. unic, pct. 1 – art. 13 alin. (4) lit. a): azi activitatea permanentă e limitată la localitatea de sediu/domiciliu sau la regiunea București-Ilfov. Proiectul o extinde la UAT-urile limitrofe și la zonele metropolitane „potrivit prevederilor legale în vigoare” (Legea nr. 246/2022).",
+        "Lit. a): pronumele „acestea” are antecedent ambiguu (localitatea sau UAT-urile limitrofe). În a doua lectură, un operator din orașul A ar putea lucra permanent în zona metropolitană a unei comune vecine din alt județ. Expunerea de motive nu urmărește acest efect.",
+        "Lit. b): se adaugă „posibilitatea efectuării unei curse retur din localitățile tranzitate”. Localitatea tranzitată nu este, tehnic, destinația, deci nu e clar dacă se poate prelua un client la destinație sau pe traseu. Lit. b) nu menționează nici UAT-urile limitrofe, spre deosebire de lit. a).",
+        "Eliminarea expresiei „regiunea de dezvoltare București-Ilfov”: Legea nr. 246/2022 definește teritoriul metropolitan al Bucureștiului, dar zonele metropolitane se constituie prin asociere. Dacă zona metropolitană București nu e constituită formal, un operator dintr-o comună din Ilfov care nu se învecinează cu Capitala ar putea pierde dreptul de a lucra permanent în București.",
+        "Tehnică legislativă (Legea nr. 24/2000): articolul unic anunță modificarea întregului alin. (4), apoi conține un „pct. 1” doar pentru lit. a) și b). Titlul omite „a Guvernului nr.”. Nu există normă tranzitorie pentru copiile conforme deja emise.",
+        "Nu are impact bugetar și nu introduce taxe, sancțiuni noi sau sarcini birocratice. Regimul de autorizare ARR rămâne neschimbat."
       ],
-      "blindSpotsCaught": "Componența zonelor metropolitane se stabilește prin asocieri ale UAT, pe baza unor hotărâri locale care se pot schimba, nu printr-o listă din Monitorul Oficial. Aria în care o cursă e legală ar deveni astfel greu de verificat pentru șoferi, platforme și controlori, mai ales cumulat cu ambiguitatea lui «acestea», care permite extinderea la zonele metropolitane ale UAT vecine. În plus, dispariția mențiunii București-Ilfov este prezentată ca o simplă unificare, dar poate produce un regres dacă zona metropolitană București nu este constituită formal.",
-      "constitutionalityNote": "Pe fond nu se pune o problemă de constituționalitate: măsura relaxează o restricție și susține libertatea economică (art. 45). Procedura este corectă: lege ordinară (art. 76 alin. (2)), Senatul ca primă cameră (art. 75), iar o ordonanță aprobată prin lege poate fi modificată prin lege. Riscul ține de art. 1 alin. (5): aria în care activitatea e legală trebuie să fie previzibilă, iar pronumele ambiguu și trimiterea la zone metropolitane fără o evidență publică slăbesc această previzibilitate.",
-      "euLawNote": "Prin hotărârea C-434/15 (Elite Taxi/Uber Spain), CJUE a calificat intermedierea de ride-sharing drept serviciu în domeniul transporturilor (art. 58 TFUE), exclus din Directiva 2006/123. Prin C-320/16 (Uber France), Curtea a stabilit că normele care privesc transportul nu sunt reglementări tehnice supuse notificării TRIS. Proiectul modifică doar aria teritorială a transportului, deci notificarea în baza Directivei 2015/1535 nu pare necesară. Directiva 2018/958 vizează restricții noi la profesiile reglementate, iar aici o restricție este relaxată, astfel că testul de proporționalitate nu este declanșat. Efectul pe piața unică și asupra concurenței este pozitiv.",
+      "blindSpotsCaught": "Formula „potrivit prevederilor legale în vigoare” face ca aria legală de lucru să depindă de componența unor asociații de dezvoltare intercomunitară, care se poate schimba prin hotărâri locale. Nici șoferul, nici agentul ARR sau polițistul care face controlul nu au o listă oficială a UAT-urilor incluse, iar depășirea ariei rămâne contravenție potrivit OUG 49/2019. Se creează și o asimetrie față de taxi (Legea nr. 38/2003), care rămâne în principiu legat de localitatea autorizantă, cu efect concurențial în defavoarea taximetriei locale.",
+      "constitutionalityNote": "Nu există o problemă constituțională de fond. Măsura susține libertatea economică (art. 45) și libera circulație (art. 25), iar restricția actuală, bazată strict pe limite administrative, este greu de justificat ca proporțională. Ambiguitățile din lit. a) („acestea”) și lit. b) („localitățile tranzitate”) pot fi totuși contestate prin prisma cerințelor de claritate și previzibilitate (art. 1 alin. (5)), mai ales pentru că de aria teritorială depinde aplicarea de sancțiuni contravenționale. Legea este ordinară (art. 76 alin. (2)), iar modificarea unei OUG aprobate prin lege este admisibilă. Procedura de urgență (art. 76 alin. (3)) e discutabilă ca necesitate, dar nu e viciată.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică relevant: nu se reglementează accesul la o profesie, iar măsura relaxează o restricție și nu adaugă una. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: potrivit CJUE în C-434/15 (Elite Taxi/Uber Spain), intermedierea de tip ridesharing e serviciu în domeniul transporturilor, iar proiectul nu reglementează platformele digitale. Transportul este exclus de la libera prestare a serviciilor din TFUE (art. 58), deci nu se pune problema pieței unice. Concurențial, proiectul reduce bariere teritoriale, ceea ce e pozitiv.",
       "senatForm": {
-        "articleRef": "Art. unic pct. 1 – art. 13 alin. (4) lit. a), b)",
-        "proposalContent": "Lit. a): „permanent, în localitatea unde își are sediul sau domiciliul, în UAT limitrofe acesteia și în zona metropolitană din care face parte această localitate, potrivit Legii nr. 246/2022, precum și în regiunea București-Ilfov, după caz”. Lit. b) se corelează: plecare și din UAT limitrofe. Se elimină formula dublă din articolul unic.",
-        "argumentation": "Pronumele «acestea» poate trimite la UAT limitrofe, deci la zonele metropolitane ale vecinilor, lărgind aria în lanț. Fără mențiunea regiunii București-Ilfov, dreptul actual depinde de constituirea efectivă a zonei metropolitane. Lit. b) omite UAT limitrofe incluse la lit. a). Aria decide dacă o cursă e legală, deci art. 1 alin. (5) din Constituție cere limite clare.",
-        "otherComments": "Măsura e utilă (ex. aeroportul Brașov-Ghimbav), liberalizează piața și nu are cost bugetar. Recomandăm: o listă publică, actualizată, a UAT din fiecare zonă metropolitană, pentru șoferi, platforme și controlori; corectarea tehnicii legislative (Legea nr. 24/2000); aviz al Consiliului Concurenței privind raportul cu taximetria (Legea nr. 38/2003)."
+        "articleRef": "Art. unic – art. 13 alin. (4) lit. a), b)",
+        "proposalContent": "Lit. a): „permanent, în interiorul localității unde își are sediul sau domiciliul, în UAT limitrofe acesteia și în UAT din zona metropolitană din care face parte localitatea, potrivit Legii nr. 246/2022”. Lit. b): retur permis din localitatea de destinație. Se menține regimul București-Ilfov până la constituirea zonei metropolitane.",
+        "argumentation": "„Acestea” are antecedent ambiguu (localitatea sau UAT limitrofe), ceea ce poate extinde aria în lanț, contrar art. 1 alin. (5) din Constituție. „Localitățile tranzitate” nu acoperă clar destinația. Eliminarea mențiunii București-Ilfov poate restrânge aria dacă zona metropolitană nu e constituită formal.",
+        "otherComments": "Tehnică legislativă: articolul unic anunță modificarea întregului alin. (4), apoi conține un pct. 1 doar pentru lit. a) și b); titlul omite „a Guvernului nr.”. Lit. b) nu menționează UAT limitrofe, spre deosebire de lit. a). Recomandăm avizul ARR privind controlul în trafic și o listă publică a UAT incluse."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 184803,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Transport alternativ în localitățile vecine și în zonele metropolitane",
-      "verdictShort": "Propunerea extinde accesul la transport alternativ, fără taxe, cote sau sancțiuni noi. Este utilă, dar trebuie clarificate aria de operare, cursele retur și păstrarea acoperirii București–Ilfov.",
-      "initiatorClaim": "Inițiatorii urmăresc să permită preluarea pasagerilor în zonele metropolitane, inclusiv de la aeroporturi precum Brașov–Ghimbav. Ei prezintă eliminarea excepției București–Ilfov ca pe o uniformizare a regulilor.",
-      "realityCheck": "Litera a) extinde activitatea permanentă atât la UAT limitrofe localității sediului sau domiciliului operatorului, cât și la zonele metropolitane vizate, deci efectul depășește problema aeroporturilor. Litera b) permite plecări din zona metropolitană și introduce posibilitatea unei curse retur din localitățile tranzitate, fără să includă expres toate UAT limitrofe admise la lit. a) sau să definească returul. Eliminarea referirii distincte la București–Ilfov nu garantează singură păstrarea întregii arii actuale de operare.",
+      "durationMs": 85194,
+      "sourceEndMarker": "SF-67D84D62",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Ridesharing în localitățile vecine și în zonele metropolitane",
+      "verdictShort": "Extinderea transportului alternativ este utilă și poate crește concurența. Totuși, proiectul trebuie să clarifice limitele teritoriale și să protejeze explicit dreptul existent de operare în București–Ilfov.",
+      "initiatorClaim": "Inițiatorii urmăresc să permită transportul alternativ în întreaga zonă metropolitană, inclusiv preluarea pasagerilor de la aeroporturile situate în alte localități. Ei susțin uniformizarea regimului teritorial fără schimbarea autorizării.",
+      "realityCheck": "În prezent, operarea permanentă este permisă în localitatea sediului/domiciliului sau în regiunea București–Ilfov; proiectul introduce UAT-urile limitrofe și zonele metropolitane, eliminând referirea expresă la această regiune. Extinderea la UAT-urile limitrofe nu este condiționată explicit de apartenența metropolitană, iar lit. b) nu reproduce integral această arie pentru plecările ocazionale. Proiectul permite expres curse retur din localitățile tranzitate, dar nu menționează distinct preluarea din localitatea de destinație.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Șoferi & Auto",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 13 alin. (4) lit. a): extinderea în UAT limitrofe nu este condiționată expres de apartenența acestora la o zonă metropolitană. Trebuie precizate criteriul vecinătății și întinderea referirii la zonele metropolitane; localitatea componentă și UAT nu sunt întotdeauna noțiuni identice.",
-        "Art. 13 alin. (4) lit. b): aria plecărilor ocazionale nu este corelată complet cu aria activității permanente. «Cursă retur din localitățile tranzitate» nu precizează neechivoc includerea localității de destinație, destinația returului sau condițiile care îl disting de o nouă cursă independentă.",
-        "Textul nu introduce documente, tarife administrative, monopoluri ori sancțiuni suplimentare. Poate crește concurența și reduce deplasările fără pasageri, dar economiile nu sunt cuantificate; nici impactul bugetar nul nu poate fi demonstrat numai din extras. Formula introductivă trebuie corectată: anunță înlocuirea alineatului, apoi modifică doar două litere."
+        "Art. 13 alin. (4) lit. a): extinderea la UAT-urile limitrofe poate permite curse permanente și în afara unei zone metropolitane. Aceasta este o liberalizare suplimentară față de obiectivul metropolitan prezentat în motivare.",
+        "Art. 13 alin. (4) lit. a) și b): dispare dreptul formulat expres pentru întreaga regiune București–Ilfov. Continuitatea lui nu este garantată doar prin invocarea teritoriului metropolitan în expunerea de motive.",
+        "Art. 13 alin. (4) lit. a): formularea «zonele metropolitane din care acestea fac parte» nu identifică suficient de precis localitățile/UAT-urile de referință și poate genera interpretări diferite asupra întinderii ariei.",
+        "Art. 13 alin. (4) lit. b): localitățile limitrofe din afara unei zone metropolitane sunt incluse expres la operarea permanentă, dar nu și între originile curselor ocazionale spre alte localități.",
+        "Art. 13 alin. (4) lit. b): dreptul nou de efectuare a cursei retur necesită precizarea originii și destinației acesteia; localitatea de destinație a cursei inițiale nu este menționată distinct.",
+        "Articolul unic nu introduce taxe, documente, autorizații sau sancțiuni noi și nu modifică celelalte alineate ale art. 13. Nu există dispoziții tranzitorii ori abrogări distincte; formula introductivă trebuie corectată pentru a indica modificarea exclusivă a literelor a) și b)."
       ],
-      "blindSpotsCaught": "Expunerea confundă riscant întinderea teritoriului metropolitan cu apartenența efectivă la o zonă metropolitană constituită. Referirea la art. 5 din Legea nr. 246/2022 nu demonstrează singură că fiecare operator din București sau Ilfov păstrează automat drepturile actuale după eliminarea excepției. Mai există o eroare de citare: Monitorul Oficial nr. 901/7.11.2019 privește legea de aprobare, astfel încât identificarea publicării actului de bază trebuie corectată. Numele deformate din tabelul extras nu probează neregularitatea semnăturilor; aceasta poate fi evaluată numai din documentele originale.",
-      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă a extinderii teritoriale. Principala vulnerabilitate este art. 1 alin. (5): destinatarii și autoritățile trebuie să poată determina aceleași limite teritoriale și condiții ale returului, mai ales când încălcarea regulilor poate atrage sancțiuni existente. Art. 23 alin. (12) privește legalitatea pedepselor; proiectul nu instituie pedepse și nu justifică, prin el însuși, o obiecție penală. Diferențierile teritoriale trebuie să aibă o justificare obiectivă, în raport cu art. 16 și art. 45. Solicitarea procedurii de urgență nu reprezintă singură un viciu constituțional. Nu a fost posibilă verificarea online a fișei Senatului și a legislației consolidate; evaluarea se bazează pe textele furnizate.",
-      "euLawNote": "Extinderea ariei favorizează concurența, fără să elimine toate diferențele teritoriale dintre operatori. Directiva (UE) 2018/958 nu impune un test general pentru orice reglementare comercială: trebuie verificat dacă măsura privește accesul la o profesie reglementată sau exercitarea acesteia. Dacă această condiție este îndeplinită, modificarea restricțiilor teritoriale trebuie evaluată potrivit directivei, inclusiv eventuala restrângere a drepturilor existente în București–Ilfov. Pentru Directiva (UE) 2015/1535, simpla utilizare a unei aplicații nu face obligatorie notificarea TRIS: textul modifică teritoriul transportului, fără cerințe specifice serviciului digital sau AI. Distincția dintre transport și intermediere digitală rezultă și din cauzele CJUE C-434/15, Uber, și C-62/19, Star Taxi App. Din extras nu rezultă o obligație evidentă de notificare, dar calificarea trebuie verificată în raport cu norma finală.",
+      "blindSpotsCaught": "Expunerea de motive tratează teritoriul metropolitan aferent Bucureștiului ca suficient pentru înlocuirea regiunii București–Ilfov. Delimitarea legală a unui teritoriu metropolitan nu dovedește însă constituirea efectivă a unei zone metropolitane cu aceeași componență. Fără verificarea acestei situații și o regulă expresă de continuitate, o măsură prezentată drept extindere poate restrânge aria unor operatori existenți.",
+      "constitutionalityNote": "Obiectivul este legitim și nu rezultă o neconstituționalitate evidentă. Principala vulnerabilitate privește art. 1 alin. (5): destinatarii și autoritățile trebuie să poată identifica previzibil aria permisă, inclusiv în aplicarea eventualelor sancțiuni existente. Art. 23 alin. (12) privește legalitatea pedepsei penale și nu este direct incident doar pentru că există neclarități teritoriale. Art. 16, art. 45 și art. 135 impun justificarea diferențelor de tratament și a restricțiilor economice; diferențele geografice nu sunt automat discriminatorii.",
+      "euLawNote": "Extinderea ariei poate favoriza accesul pe piață și concurența, inclusiv la aeroporturi. Directiva (UE) 2018/958 nu se aplică automat oricărei reguli comerciale: trebuie stabilit dacă măsura restrânge accesul la o profesie reglementată sau exercitarea acesteia în domeniul directivei; dacă da, este necesară evaluarea prealabilă a proporționalității. Folosirea platformelor digitale nu declanșează automat notificarea TRIS potrivit Directivei (UE) 2015/1535: modificarea analizată privește teritoriul serviciului de transport, fără cerințe tehnice digitale noi identificate. Nu rezultă o obligație certă de notificare din textul furnizat. Verificarea online a surselor și a situației actuale a zonelor metropolitane nu a fost disponibilă în această sesiune.",
       "senatForm": {
-        "articleRef": "Art. unic – art. 13 alin. (4) lit. a) și b)",
-        "proposalContent": "La lit. b), permiteți plecarea din întreaga arie prevăzută la lit. a). Definiți cursa retur, inclusiv preluarea din localitatea de destinație și revenirea în aria de operare. Precizați criteriul UAT limitrofe și componența zonelor metropolitane. Garantați expres păstrarea acoperirii integrale București–Ilfov.",
-        "argumentation": "Extinderea este utilă, dar diferența dintre ariile de la lit. a) și b) și sensul neclar al returului pot produce interpretări și sancționări neuniforme. Teritoriul metropolitan nu dovedește singur apartenența tuturor UAT la o zonă constituită. Eliminarea excepției București–Ilfov poate restrânge drepturi existente.",
-        "otherComments": "Corectați formula de modificare și citarea publicării actului de bază. Explicați urgența și estimați efectele asupra IMM-urilor și concurenței. Verificați aplicabilitatea Directivei 2018/958 la profesia vizată. Modificarea ariei transportului nu generează automat obligația notificării TRIS."
+        "articleRef": "Articol unic – art. 13 alin. (4) lit. a) și b)",
+        "proposalContent": "Definiți unitar aria autorizată: localitatea sediului/domiciliului, UAT-urile limitrofe și UAT-urile zonei metropolitane legal constituite. Mențineți expres București–Ilfov. Permiteți plecarea ocazională din întreaga arie și preluarea pasagerilor pentru retur din localitatea de destinație și din localitățile tranzitate.",
+        "argumentation": "Teritoriul metropolitan prevăzut de lege nu dovedește, singur, existența unei zone metropolitane cu aceeași componență. Eliminarea referirii la București–Ilfov poate restrânge drepturi existente. Diferențele dintre lit. a) și b) și sensul cursei retur trebuie clarificate pentru aplicare previzibilă.",
+        "otherComments": "Corectați formula introductivă pentru a indica modificarea exclusivă a literelor a) și b). Nu apar taxe sau autorizări noi; sunt posibile costuri de adaptare a platformelor și practicii de control. Justificați aplicabilitatea Directivei 2018/958 și eventuala notificare TRIS, fără a le prezuma obligatorii."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-12T15:16:30.033Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:27:35.228Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

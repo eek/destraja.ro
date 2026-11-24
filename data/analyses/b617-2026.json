@@ -1,14 +1,41 @@
 {
   "billId": "B617/2026",
   "slug": "b617-2026",
-  "updatedAt": "2026-11-05T07:47:49.944Z",
+  "updatedAt": "2026-11-24T14:25:13.063Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 8574,
+    "ordinanceChars": 0,
+    "memoChars": 11859,
+    "memoSupplied": 11859,
+    "marker": "SF-1E026AA4"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/b617-2026.json",
+    "form": "initiator",
+    "textHash": "1e026aa44a6fa829",
+    "fetchedAt": "2026-11-19T09:20:36.885Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 6250,
+    "truncated": false,
+    "included": true,
+    "key": "3a955a22861212e9"
+  },
   "consensus": {
-    "riskScore": 2.3,
+    "riskScore": 2.7,
     "riskLevel": "green",
-    "plainTitle": "Control ginecologic și mamar anual gratuit, fără bilet de trimitere, pentru femeile asigurate",
-    "summaryTlDr": "Lege utilă și scrisă neobișnuit de atent: femeile asigurate primesc o consultație ginecologică și mamară anuală gratuită, cu acces direct la ginecolog, fără investigații impuse inutil. Riscul nu e pentru cetățeni. Riscul este ca dreptul să rămână pe hârtie dacă fondurile CAS se termină lunar și dacă lipsește fundamentarea financiară cerută de art. 138 alin. (5).",
-    "initiatorClaim": "Inițiatorii invocă incidența cancerului de col uterin, de aproape trei ori peste media UE (33 față de 12 la 100.000), și participarea de circa 10% la mamografia de screening. Ei vor un traseu preventiv clar: o consultație anuală la ginecolog, fără bilet de trimitere, gratuită și monitorizată.",
-    "realityCheck": "Art. 229¹, introdus în Legea 95/2006, face din consultația preventivă anuală de obstetrică-ginecologie (anamneză, evaluarea riscurilor, examen clinic, examinarea sânilor, consiliere) un drept legal al asiguratelor, fără bilet de trimitere și fără coplată. Ecografiile, testele Babeș-Papanicolau/HPV și mamografia rămân condiționate de indicația medicală și de protocoale. Legea nu aduce bani noi: Art. III finanțează pachetul din același capitol FNUASS pentru ambulatoriu și paraclinic, așa că, fără suplimentare, consultațiile preventive concurează cu cele ale pacientelor simptomatice în limitele lunare ale furnizorilor. Detaliile esențiale (eligibilitate, periodicitate, circuit) sunt delegate contractului-cadru (alin. 16, Art. II).",
+    "plainTitle": "Control ginecologic și al sânilor gratuit, o dată pe an, fără bilet de trimitere",
+    "summaryTlDr": "O lege benefică și redactată prudent: femeile asigurate primesc anual o consultație preventivă la ginecolog, decontată integral și fără trimitere de la medicul de familie. Problemele reale țin de corelarea termenelor de aplicare și de lipsa unei estimări de cost, nu de vreo capcană în fondul măsurii.",
+    "initiatorClaim": "Inițiatorii vor să creeze un traseu preventiv clar pentru afecțiunile ginecologice și mamare. Invocă incidența mare a cancerului de col uterin în România (33/100.000, față de 12/100.000 în UE) și participarea foarte mică la mamografia de screening (circa 10%, față de 54% în UE).",
+    "realityCheck": "Proiectul introduce art. 229¹ în Legea 95/2006. Acesta creează un pachet anual inclus în pachetul de bază: consultație de obstetrică-ginecologie cu acces direct, anamneză, examen clinic, examinarea sânilor și consiliere, fără coplată. Ecografiile, testele Babeș-Papanicolau și HPV și mamografia rămân condiționate de indicația medicală și de protocoale, deci nu devin automat gratuite anual pentru toate femeile. Detaliile (eligibilitate, periodicitate, decontare) sunt lăsate contractului-cadru și normelor. Accesul efectiv va depinde de numărul de cabinete contractate, mai ales în mediul rural.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Toți cetățenii",
@@ -16,108 +43,136 @@
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. 229¹ alin. (9) și Art. III alin. (1)",
-      "proposalContent": "La alin. (9) se adaugă teza: „Serviciile din Pachetul anual pentru sănătatea femeii se decontează distinct, în afara valorii de contract lunare a furnizorului.” La Art. III alin. (1) se adaugă teza: „Sumele se prevăd pe o poziție bugetară distinctă, dimensionată anual pe baza datelor raportate potrivit art. 229¹ alin. (15).”",
-      "argumentation": "Consultațiile și investigațiile se decontează în limitele contractuale ale furnizorului; când fondurile lunare se epuizează, pacientele sunt amânate sau plătesc din buzunar. Fără decontare distinctă, dreptul din alin. (1) poate rămâne iluzoriu și ar concura cu pacientele simptomatice. O poziție bugetară distinctă face costul vizibil (art. 138 alin. (5) din Constituție).",
-      "otherComments": "1) Alin. (1) nu fixează vârsta minimă, iar alin. (16) lasă normelor „condițiile de eligibilitate”: vârsta și periodicitatea (12 luni de la ultima vizită sau an calendaristic) trebuie stabilite în lege. 2) Art. IV amână și Art. II: termenul de 90 de zile ar curge dintr-o normă neintrată în vigoare. 3) Necesară fișa financiară (art. 15 din Legea nr. 69/2010)."
+      "articleRef": "Art. II alin. (1) și Art. IV",
+      "proposalContent": "Termenul din Art. II alin. (1) să curgă de la intrarea în vigoare a legii. Art. IV să prevadă intrarea în vigoare la începutul primului trimestru după 120 de zile de la publicare, corelat cu art. 229 alin. (2). Propunem și o fișă financiară cu costul estimat, precum și renumerotarea «Art. 1» în «Art. I».",
+      "argumentation": "Termenul de 90 de zile curge de la publicare, deci HG s-ar adopta înainte ca legea să intre în vigoare (la 120 de zile). Art. 229 alin. (2) cere negocierea cu colegiile profesionale și intrarea în vigoare la început de trimestru. Lipsa estimării costului expune legea criticii pe art. 138 alin. (5) din Constituție.",
+      "otherComments": "Proiectul este util și echilibrat: acces direct la ginecolog, fără coplată, cu investigații decise de medic. Riscul real este golirea dreptului prin norme (alin. 16) și lipsa cabinetelor contractate în mediul rural. Propunem ca datele de la alin. (15) să fie publicate anual, defalcat pe județe."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 55037,
-      "riskScore": 2,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 91756,
+      "sourceEndMarker": "SF-1E026AA4",
+      "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Control ginecologic și mamar preventiv gratuit o dată pe an, fără bilet de trimitere, pentru femeile asigurate",
-      "verdictShort": "O inițiativă legislativă pozitivă, redactată îngrijit și echilibrat medical, care elimină birocrația biletului de trimitere pentru consultația ginecologică preventivă anuală. Are însă două vulnerabilități practice: exclude din acest pachet femeile neasigurate și nu este însoțită de o fișă financiară concretă care să garanteze suplimentarea plafoanelor CNAS.",
-      "initiatorClaim": "Inițiatorii urmăresc creșterea depistării precoce a afecțiunilor ginecologice și mamare prin instituirea unui „Pachet anual pentru sănătatea femeii”, decontat integral din FNUASS și accesibil direct la medicul specialist, fără bilet de trimitere de la medicul de familie.",
-      "realityCheck": "Legea simplifică real traseul pacientei asigurate prin eliminarea drumului la medicul de familie pentru bilet de trimitere (art. 229¹ alin. 3) și evită inteligent capcana suprainvestigării, condiționând ecografiile și mamografiile de indicația clinică și ghidurile medicale. Totuși, fără fonduri suplimentare dedicate în bugetul CNAS, accesul riscă să fie limitat de epuizarea plafoanelor lunare din ambulatoriu, iar femeile neasigurate rămân în afara acestui mecanism.",
+      "plainTitle": "Consultație ginecologică anuală gratuită, fără bilet de trimitere, pentru femeile asigurate",
+      "verdictShort": "Inițiativă benefică și echilibrată medical, care elimină biletul de trimitere pentru controlul ginecologic anual preventiv, fără a impune investigații inutile. Principalele riscuri nu sunt abuzuri legislative, ci lipsa fișei financiare reale (art. 138 alin. 5 Constituție) și posibilitatea ca dreptul să fie frânat în practică de plafoanele FNUASS.",
+      "initiatorClaim": "Inițiatorii vor să crească depistarea precoce a afecțiunilor ginecologice și mamare (unde România stă mult sub media UE la screening) prin instituirea unui pachet anual preventiv și eliminarea birocrației biletului de trimitere pentru consultația la specialist.",
+      "realityCheck": "În prezent, art. 229 din Legea nr. 95/2006 lasă tot conținutul pachetului de bază în seama Contractului-cadru (HG) și a normelor CNAS, fără un drept legal expres la acces direct preventiv ginecologic. Proiectul adaugă art. 229¹ care consacră dreptul femeilor asigurate la o consultație anuală de obstetrică-ginecologie fără trimitere și fără coplată sau contribuție personală, dar lasă tot în seama actelor subsecvente (HG și ordin MS/CNAS) tarifele, condițiile de decontare și eligibilitatea, fără a asigura fonduri suplimentare concrete în bugetul FNUASS.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I (noul Art. 229¹ alin. 1 și 3 din Legea 95/2006): Instituie dreptul femeilor asigurate la o consultație preventivă de obstetrică-ginecologie o dată la 12 luni, cu acces direct la specialist, fără obligativitatea biletului de trimitere.",
-        "Art. I (Art. 229¹ alin. 5-9): Include în pachet ecografii ginecologice/mamare, teste Babeș-Papanicolau, testare HPV și mamografie, fără coplată, dar strict pe bază de indicație medicală și ghiduri clinice, precizând expres că ecografia mamară nu substituie mamografia.",
-        "Art. I (Art. 229¹ alin. 1) coroborat cu Expunerea de motive (Secțiunea V): Pachetul se adresează exclusiv femeilor asigurate în sistemul public, lăsând femeile neasigurate (categoria cea mai vulnerabilă statistic la cancerul de col uterin avansat) doar cu opțiunile din pachetul minimal și programele naționale existente.",
-        "Art. III și Expunerea de motive (Secțiunea VI): Finanțarea este lăsată în sarcina bugetului FNUASS, însă chiar textul Expunerii de motive conține o recunoaștere neobișnuit de onestă: «Simpla nominalizare a FNUASS nu dovedește suficiența fondurilor și nu satisface singură cerințele de fundamentare prevăzute de art. 138 alin. (5) din Constituție»."
+        "Acces direct și gratuitate expresă (Art. 229¹ alin. 1, 3 și 9): femeile asigurate primesc dreptul legal la o consultație preventivă de obstetrică-ginecologie o dată la 12 luni fără bilet de trimitere și fără coplată sau contribuție personală, la furnizori publici sau privați aflați în contract cu CAS.",
+        "Calibrare medicală responsabilă (Art. 229¹ alin. 5-8): ecografiile ginecologice și mamare, testele citologice, HPV și mamografia nu devin proceduri obligatorii anual pentru toate pacientele, ci se acordă pe baza indicației medicale și a ghidurilor clinice; ecografia mamară nu substituie mamografia când aceasta este indicată.",
+        "Finanțare necuantificată și delegare largă (Art. 229¹ alin. 16 și Art. III): detaliile de eligibilitate, periodicitate și decontare rămân în Contractul-cadru și norme, iar finanțarea este indicată generic din creditele bugetare aprobate ale FNUASS, fără o evaluare financiară concretă — vulnerabilitate recunoscută chiar în Expunerea de motive.",
+        "Acoperire limitată la persoanele asigurate (Art. 229¹ alin. 1): pachetul se aplică exclusiv femeilor asigurate, lăsând în afara beneficiului femeile neasigurate (adesea din medii vulnerabile), care rămân doar la pachetul minimal și programele naționale de screening existente."
       ],
-      "blindSpotsCaught": "În Secțiunea VI a Expunerii de motive a rămas inclusă o notă de analiză tehnică extrem de sinceră, care recunoaște explicit că simpla indicare a FNUASS în Art. III nu îndeplinește exigențele art. 138 alin. (5) din Constituție în absența unei fundamentări bugetare reale. De asemenea, deși elimină biletul de trimitere de la medicul de familie pentru consultația inițială, trimiterea efectivă către radiologie (mamografie) sau laborator va depinde în continuare de plafonul de investigații paraclinice disponibil la furnizorii contractați de CNAS.",
-      "constitutionalityNote": "Propunerea valorifică adecvat art. 34 din Constituție (dreptul la ocrotirea sănătății) și respectă exigențele de calitate, claritate și previzibilitate a legii impuse de art. 1 alin. (5), delimitând corect cadrul legal primar de normele tehnice din Contractul-Cadru. Singurul risc constituțional privește art. 138 alin. (5) și art. 15 din Legea nr. 500/2002: inițiatorii trebuie să solicite formal Guvernului fișa financiară înainte de adoptare pentru a evita o vulnerabilitate extrinsecă la Curtea Constituțională.",
-      "euLawNote": "Proiectul este pe deplin compatibil cu art. 168 TFUE și cu Recomandarea Consiliului UE din 9 decembrie 2022 privind consolidarea prevenției prin depistarea timpurie a cancerului, întrucât aliniază investigațiile (HPV, citologie, mamografie) la protocoale bazate pe dovezi medicale. Nu ridică bariere concurențiale pe piața serviciilor medicale (se aplică egal furnizorilor publici și privați aflați în contract cu CNAS), nu restrânge profesii reglementate (Directiva 2018/958 nu este afectată), nu necesită notificare TRIS (Directiva 2015/1535) și respectă art. 9 alin. (2) lit. (h) din GDPR privind prelucrarea datelor de sănătate.",
+      "blindSpotsCaught": "Există un decalaj procedural între Art. II și Art. IV: legea intră în vigoare la 120 de zile de la publicare, Guvernul are 90 de zile să modifice Contractul-cadru prin HG, dar ordinul MS/CNAS pentru normele metodologice are termen de 30 de zile «de la data intrării în vigoare a HG» (nu de la adoptare/publicare), ceea ce poate împinge normele după ziua 120 și poate lăsa legea temporar neoperațională. În plus, numerotarea articolelor este neuniformă («Art. 1» cu cifră arabă, urmat de «Art. II», «Art. III», «Art. IV» cu cifre romane), iar art. 229¹ alin. (15) prevede centralizarea datelor statistice de către CNAS fără a impune expres anonimizarea lor în textul legii.",
+      "constitutionalityNote": "Inițiativa materializează art. 34 (dreptul la ocrotirea sănătății), iar diferențierea pe obiect medical specific (sănătate ginecologică și mamară) are o justificare clinică obiectivă, compatibilă cu art. 16 (egalitatea în drepturi), fără a restrânge drepturile altor asigurați (art. 229¹ alin. 11). Principala vulnerabilitate constituțională ține de art. 138 alin. (5) și art. 111 alin. (1): instituirea unui drept gratuit cu impact bugetar potențial prin simpla nominalizare a FNUASS, fără fișă financiară și fără indicarea sursei concrete de finanțare a cheltuielilor suplimentare. Sub aspectul art. 1 alin. (5), trimiterea la Contractul-cadru urmează structura existentă a art. 229, dar impune corelarea termenelor din Art. II și Art. IV.",
+      "euLawNote": "Compatibil cu dreptul UE. Organizarea și furnizarea serviciilor medicale intră în competența națională conform art. 168 TFUE, iar condiționarea investigațiilor de indicația medicală și ghiduri clinice aliniază proiectul la Recomandarea Consiliului din 9 decembrie 2022 privind depistarea timpurie a cancerului. Nu intră sub incidența Directivei (UE) 2018/958 (nu impune bariere profesiilor medicale) și nici a Directivei (UE) 2015/1535 (TRIS — nu reglementează servicii ale societății informaționale sau produse/AI), nu distorsionează concurența (include egal furnizorii publici și privați aflați în contract cu CAS) și nu afectează Directiva 2011/24/UE. Pe GDPR (Reg. UE 2016/679, art. 6 și 9), trimiterea generală de la art. 229¹ alin. (14) ar trebui dublată de cerința expresă de anonimizare la centralizarea statistică din alin. (15).",
       "senatForm": {
-        "articleRef": "Art. I (Art. 229^1 alin. (1) și (9)) și Art. III",
-        "proposalContent": "La Art. 229^1 alin. (1), se recomandă extinderea accesului direct la consultația preventivă anuală și pentru femeile neasigurate, prin corelare cu Legea nr. 293/2022. De asemenea, la Art. 229^1 alin. (9), propunem precizarea că decontarea consultației anuale preventive se face peste plafonul curent sau prin finanțare dedicată, spre a evita blocajul listelor de așteptare.",
-        "argumentation": "România are cea mai mare incidență a cancerului de col uterin din UE, iar cazurile grave apar frecvent la femeile vulnerabile neasigurate din mediul rural. În plus, fără un mecanism dedicat de decontare în Contractul-Cadru, accesul direct fără bilet de trimitere riscă să rămână teoretic din cauza epuizării rapide a plafoanelor lunare ale cabinetelor aflate în contract cu CNAS.",
-        "otherComments": "Inițiativa este utilă și bine calibrată medical (evită suprainvestigarea și nu impune ecografii nejustificate). Totuși, pentru respectarea art. 138 alin. (5) din Constituție și evitarea unei obiecții de neconstituționalitate, este necesară solicitarea fișei financiare de la Guvern anterior adoptării, așa cum chiar Expunerea de motive recunoaște explicit la secțiunea VI."
+        "articleRef": "Art. II alin. (2), Art. III și Art. IV",
+        "proposalContent": "Corelați Art. II alin. (2) cu Art. IV astfel încât normele să intre în vigoare odată cu legea (termenul de 30 de zile să curgă de la adoptarea HG, nu de la intrarea în vigoare). Completați Art. III cu fișa financiară și sursa certă de finanțare, iar la art. 229¹ alin. (15) prevedeți expres anonimizarea datelor.",
+        "argumentation": "Proiectul este util, dar are două vulnerabilități: (1) termenul din Art. II alin. (2) riscă să depășească cele 120 de zile din Art. IV, lăsând legea temporar fără norme; (2) simpla indicare a FNUASS fără fișă financiară (art. 111 și 138 alin. 5 Constituție) riscă neconstituționalitatea sau blocajul prin plafoane epuizate.",
+        "otherComments": "Corectați numerotarea primului articol din «Art. 1» în «Art. I» pentru uniformitate cu Art. II-IV (Legea nr. 24/2000). Totodată, analizați extinderea accesului preventiv și pentru femeile neasigurate din categorii vulnerabile prin programele naționale, unde incidența cancerului de col uterin este cea mai ridicată."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 251758,
+      "durationMs": 40538,
+      "sourceEndMarker": "SF-1E026AA4",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Control ginecologic și mamar anual gratuit, fără bilet de trimitere, pentru femeile asigurate",
-      "verdictShort": "Lege utilă și scrisă neobișnuit de atent: femeile asigurate primesc o consultație ginecologică și mamară anuală gratuită, cu acces direct la ginecolog, fără investigații impuse inutil. Riscul nu e pentru cetățeni. Riscul este ca dreptul să rămână pe hârtie dacă fondurile CAS se termină lunar și dacă lipsește fundamentarea financiară cerută de art. 138 alin. (5).",
-      "initiatorClaim": "Inițiatorii invocă incidența cancerului de col uterin, de aproape trei ori peste media UE (33 față de 12 la 100.000), și participarea de circa 10% la mamografia de screening. Ei vor un traseu preventiv clar: o consultație anuală la ginecolog, fără bilet de trimitere, gratuită și monitorizată.",
-      "realityCheck": "Art. 229¹, introdus în Legea 95/2006, face din consultația preventivă anuală de obstetrică-ginecologie (anamneză, evaluarea riscurilor, examen clinic, examinarea sânilor, consiliere) un drept legal al asiguratelor, fără bilet de trimitere și fără coplată. Ecografiile, testele Babeș-Papanicolau/HPV și mamografia rămân condiționate de indicația medicală și de protocoale. Legea nu aduce bani noi: Art. III finanțează pachetul din același capitol FNUASS pentru ambulatoriu și paraclinic, așa că, fără suplimentare, consultațiile preventive concurează cu cele ale pacientelor simptomatice în limitele lunare ale furnizorilor. Detaliile esențiale (eligibilitate, periodicitate, circuit) sunt delegate contractului-cadru (alin. 16, Art. II).",
+      "plainTitle": "Control ginecologic și al sânilor gratuit, o dată pe an, fără bilet de trimitere",
+      "verdictShort": "O lege benefică și redactată prudent: femeile asigurate primesc anual o consultație preventivă la ginecolog, decontată integral și fără trimitere de la medicul de familie. Problemele reale țin de corelarea termenelor de aplicare și de lipsa unei estimări de cost, nu de vreo capcană în fondul măsurii.",
+      "initiatorClaim": "Inițiatorii vor să creeze un traseu preventiv clar pentru afecțiunile ginecologice și mamare. Invocă incidența mare a cancerului de col uterin în România (33/100.000, față de 12/100.000 în UE) și participarea foarte mică la mamografia de screening (circa 10%, față de 54% în UE).",
+      "realityCheck": "Proiectul introduce art. 229¹ în Legea 95/2006. Acesta creează un pachet anual inclus în pachetul de bază: consultație de obstetrică-ginecologie cu acces direct, anamneză, examen clinic, examinarea sânilor și consiliere, fără coplată. Ecografiile, testele Babeș-Papanicolau și HPV și mamografia rămân condiționate de indicația medicală și de protocoale, deci nu devin automat gratuite anual pentru toate femeile. Detaliile (eligibilitate, periodicitate, decontare) sunt lăsate contractului-cadru și normelor. Accesul efectiv va depinde de numărul de cabinete contractate, mai ales în mediul rural.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 229¹ alin. (3): accesul direct la medicul de obstetrică-ginecologie, fără bilet de trimitere, privește doar consultația preventivă anuală. Vizitele de diagnostic sau de urmărire rămân pe circuitul obișnuit.",
-        "Alin. (6)-(8) evită explicit suprainvestigarea: ecografia nu devine obligatorie anual, iar ecografia mamară nu substituie mamografia când aceasta e indicată. Este o rigoare medicală neobișnuită pentru o propunere parlamentară.",
-        "Alin. (9) și Art. III: decontarea este integrală din FNUASS, fără coplată, dar «prin creditele bugetare aprobate» din capitolul existent. Art. III alin. (3) cere doar ca necesarul să fie «avut în vedere», fără linie bugetară proprie și fără sume estimate.",
-        "Alin. (1), (13) și (16): nu există o vârstă minimă (alin. 13 confirmă că minorele sunt incluse). «Condițiile de eligibilitate» și «periodicitatea» sunt lăsate normelor, care ar putea restrânge în practică dreptul acordat ferm de lege.",
-        "Art. IV amână intrarea în vigoare cu 120 de zile, dar Art. II obligă Guvernul să modifice contractul-cadru în 90 de zile de la publicare, adică printr-o normă încă neintrată în vigoare. În plus, Art. 1 e numerotat cu cifră arabă, iar următoarele cu cifre romane, contrar tehnicii legislative (Legea nr. 24/2000).",
-        "Expunerea de motive recunoaște onest că femeile neasigurate nu devin beneficiare și că economiile din diagnosticul precoce nu sunt cuantificate. Inițiatorii nu promit mai mult decât face textul."
+        "Art. 229¹ alin. (3): acces direct la medicul de obstetrică-ginecologie pentru consultația preventivă anuală, fără bilet de trimitere. Aceasta este principala noutate față de art. 229 actual, care stabilește doar dreptul generic la pachetul de bază.",
+        "Art. 229¹ alin. (6)-(8): investigațiile paraclinice nu sunt garantate anual. Se fac numai la indicație medicală și conform protocoalelor, iar ecografia mamară nu înlocuiește mamografia. Formularea este medical corectă, dar înseamnă că «pachetul gratuit» este în esență o consultație, nu un set fix de analize.",
+        "Art. 229¹ alin. (9): serviciile incluse sunt decontate din FNUASS fără coplată sau contribuție personală. Interdicția este o garanție concretă pentru paciente.",
+        "Art. II alin. (1) față de Art. IV: Guvernul trebuie să modifice contractul-cadru în 90 de zile de la publicare, dar legea intră în vigoare abia la 120 de zile. Hotărârea de Guvern ar fi deci adoptată în temeiul unei legi încă neintrate în vigoare.",
+        "Art. II alin. (1) față de art. 229 alin. (2) în vigoare: procedura actuală cere negocierea cu CMR și celelalte colegii profesionale, aprobarea până la 30 iunie și intrarea în vigoare la început de trimestru. Termenul fix de 90 de zile poate intra în conflict cu acest calendar.",
+        "Art. III: sursa de finanțare este doar nominalizată (FNUASS), fără o estimare a costului. Expunerea de motive recunoaște singură că simpla nominalizare nu satisface art. 138 alin. (5) din Constituție."
       ],
-      "blindSpotsCaught": "Alin. (1) formulează un drept ferm («beneficiază»), dar finanțarea nu e la fel de fermă. Art. III plătește pachetul din aceleași credite pentru ambulatoriu și paraclinic, iar furnizorii lucrează în limitele lunare ale contractului cu CAS. Fără decontare separată, «gratuitatea» poate însemna «reveniți luna viitoare», iar consultațiile femeilor sănătoase pot consuma fondurile pacientelor cu simptome. Procedural, Art. IV nu exceptează Art. II de la amânarea de 120 de zile, deci termenul de 90 de zile pentru modificarea contractului-cadru curge dintr-o normă neintrată în vigoare. Regula din alin. (12) privind evitarea decontării multiple va cere verificarea eligibilității în SIUI la programare. Dacă evidența nu e actualizată în timp real, aceasta poate deveni o sursă de refuzuri.",
-      "constitutionalityNote": "Art. 34: propunerea este conformă și concretizează obligația statului de a asigura sănătatea publică (alin. 2). Art. 16: limitarea la femei e justificată obiectiv de natura serviciilor (ginecologice, mamare), iar limitarea la asigurate e permisă de art. 34 alin. (3), care lasă legii organizarea asigurărilor sociale de sănătate. Art. 1 alin. (5): textul e în general clar. Lipsa vârstei minime și delegarea către norme a «condițiilor de eligibilitate» (alin. 16) riscă însă restrângerea dreptului prin acte subsecvente, contrar art. 108 alin. (2). Punctul vulnerabil este art. 138 alin. (5). Legea indică sursa (FNUASS), dar nu are fișa financiară cuantificată cerută de art. 15 din Legea nr. 500/2002 și din Legea nr. 69/2010, pe care jurisprudența CCR o tratează ca parte a obligației constituționale. Chiar Expunerea recunoaște că simpla nominalizare a FNUASS nu ajunge. Dacă impactul ajunge la bugetul de stat prin transferurile către FNUASS, devine relevantă și informarea obligatorie a Guvernului (art. 111 alin. (1) teza finală). Art. 26: alin. (14) trimite corect la confidențialitate și la protecția datelor.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: legea nu reglementează accesul la profesia medicală sau exercitarea ei, ci acoperirea serviciilor și traseul de acces în sistemul public de asigurări. Directiva (UE) 2015/1535 (TRIS) nu e incidentă: textul nu conține reguli tehnice pentru produse sau pentru servicii ale societății informaționale, iar alin. (14) folosește sistemele informatice existente ale CNAS. Organizarea serviciilor de sănătate și alocarea resurselor țin de statul membru (art. 168 alin. (7) TFUE). Prelucrarea datelor de sănătate se poate întemeia pe art. 9 alin. (2) lit. (h) și (i) din GDPR. Abordarea bazată pe indicație medicală și protocoale e coerentă cu Recomandarea Consiliului din 9 decembrie 2022 privind screeningul cancerului. Un detaliu: potrivit art. 7 alin. (7) din Directiva 2011/24/UE, România nu va putea condiționa de bilet de trimitere rambursarea consultației efectuate în alt stat membru, de vreme ce nu îl cere nici intern. Furnizorii publici și privați contractați sunt tratați egal, fără efecte anticoncurențiale.",
+      "blindSpotsCaught": "Art. 229¹ alin. (16) trimite la contractul-cadru «condițiile de eligibilitate» și «circuitul de acces». Normele subsecvente ar putea astfel restrânge, de exemplu prin plafoane de servicii sau limite de vârstă, un drept pe care legea îl formulează general. Mai există două detalii de redactare. Primul articol este numerotat «Art. 1», iar următoarele «Art. II-IV»; numerotarea trebuie unificată. De verificat și dacă numărul art. 229¹ este liber în forma consolidată a Legii 95/2006. Proiectul nu clarifică relația cu serviciile la care femeile au deja acces fără trimitere în normele HG 521/2023, așa că parte din «noutate» s-ar putea suprapune cu reguli existente.",
+      "constitutionalityNote": "Proiectul este conform art. 34 (ocrotirea sănătății). Diferențierea în funcție de sex are o justificare obiectivă de natură medicală (afecțiuni ginecologice și mamare), deci nu încalcă art. 16. Art. 229¹ alin. (13) și (14) respectă art. 26 (viața intimă și privată) prin trimiterea la consimțământ și la confidențialitate. Riscul principal privește art. 138 alin. (5): lipsește o fișă financiară care să estimeze costul suplimentar. Pentru o inițiativă parlamentară care afectează bugetul este obligatorie și informarea Guvernului (art. 111 alin. (1)). Neconcordanța dintre termenele din Art. II și Art. IV afectează previzibilitatea (art. 1 alin. (5)), dar poate fi corectată ușor în comisii.",
+      "euLawNote": "Directiva 2018/958 nu se aplică: proiectul nu reglementează accesul la o profesie și nici exercitarea ei, ci doar drepturile asiguraților. Nici TRIS (2015/1535) nu este relevantă, pentru că nu există reglementări tehnice sau servicii ale societății informaționale. Pe concurență, efectul este neutru: pot participa atât furnizorii publici, cât și cei privați aflați în contract cu casele de asigurări. Proiectul este compatibil cu art. 168 TFUE și cu Recomandarea Consiliului din 9.12.2022 privind screeningul cancerului, întrucât investigațiile rămân bazate pe dovezi. Prelucrarea datelor medicale de la alin. (14) trebuie să aibă temei în art. 6 și art. 9 alin. (2) lit. h) din GDPR.",
       "senatForm": {
-        "articleRef": "Art. 229¹ alin. (9) și Art. III alin. (1)",
-        "proposalContent": "La alin. (9) se adaugă teza: „Serviciile din Pachetul anual pentru sănătatea femeii se decontează distinct, în afara valorii de contract lunare a furnizorului.” La Art. III alin. (1) se adaugă teza: „Sumele se prevăd pe o poziție bugetară distinctă, dimensionată anual pe baza datelor raportate potrivit art. 229¹ alin. (15).”",
-        "argumentation": "Consultațiile și investigațiile se decontează în limitele contractuale ale furnizorului; când fondurile lunare se epuizează, pacientele sunt amânate sau plătesc din buzunar. Fără decontare distinctă, dreptul din alin. (1) poate rămâne iluzoriu și ar concura cu pacientele simptomatice. O poziție bugetară distinctă face costul vizibil (art. 138 alin. (5) din Constituție).",
-        "otherComments": "1) Alin. (1) nu fixează vârsta minimă, iar alin. (16) lasă normelor „condițiile de eligibilitate”: vârsta și periodicitatea (12 luni de la ultima vizită sau an calendaristic) trebuie stabilite în lege. 2) Art. IV amână și Art. II: termenul de 90 de zile ar curge dintr-o normă neintrată în vigoare. 3) Necesară fișa financiară (art. 15 din Legea nr. 69/2010)."
+        "articleRef": "Art. II alin. (1) și Art. IV",
+        "proposalContent": "Termenul din Art. II alin. (1) să curgă de la intrarea în vigoare a legii. Art. IV să prevadă intrarea în vigoare la începutul primului trimestru după 120 de zile de la publicare, corelat cu art. 229 alin. (2). Propunem și o fișă financiară cu costul estimat, precum și renumerotarea «Art. 1» în «Art. I».",
+        "argumentation": "Termenul de 90 de zile curge de la publicare, deci HG s-ar adopta înainte ca legea să intre în vigoare (la 120 de zile). Art. 229 alin. (2) cere negocierea cu colegiile profesionale și intrarea în vigoare la început de trimestru. Lipsa estimării costului expune legea criticii pe art. 138 alin. (5) din Constituție.",
+        "otherComments": "Proiectul este util și echilibrat: acces direct la ginecolog, fără coplată, cu investigații decise de medic. Riscul real este golirea dreptului prin norme (alin. 16) și lipsa cabinetelor contractate în mediul rural. Propunem ca datele de la alin. (15) să fie publicate anual, defalcat pe județe."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 118257,
+      "durationMs": 72966,
+      "sourceEndMarker": "SF-1E026AA4",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Consultație ginecologică preventivă anuală, fără trimitere",
-      "verdictShort": "Propunerea este utilă și are risc redus: consacră accesul direct la prevenție, fără taxe sau sancțiuni noi. Necesită însă corectarea calendarului de aplicare și fundamentarea concretă a costurilor.",
-      "initiatorClaim": "Inițiatorii urmăresc reducerea fragmentării serviciilor preventive și facilitarea depistării afecțiunilor ginecologice și mamare. Recunosc că rezultatele depind de accesul efectiv la investigații și tratament.",
-      "realityCheck": "Textul acordă femeilor asigurate o consultație preventivă o dată la 12 luni, fără trimitere, și servicii conexe decontate în condițiile prevăzute; investigațiile nu devin obligatorii anual. Nu extinde acest pachet la toate femeile neasigurate și nu garantează disponibilitatea imediată a programărilor sau capacitatea furnizorilor. Analiza privește fragmentele furnizate; dosarul oficial și legislația consolidată nu au putut fi verificate online.",
+      "plainTitle": "Consultație ginecologică preventivă anuală, fără bilet de trimitere",
+      "verdictShort": "Proiectul aduce un beneficiu concret femeilor asigurate, fără taxe noi, sancțiuni sau privilegii pentru anumiți furnizori. Principalele probleme sunt calendarul incoerent de implementare și finanțarea necuantificată.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea barierelor administrative și organizarea unui traseu preventiv pentru depistarea afecțiunilor ginecologice și mamare. Ei recunosc că serviciile preventive există deja și că rezultatele depind de accesul efectiv la investigații și tratament.",
+      "realityCheck": "Art. 229 în vigoare recunoaște deja dreptul asiguraților la pachetul de bază; proiectul adaugă un pachet preventiv explicit, o dată la 12 luni, și acces direct la consultația de obstetrică-ginecologie. Investigațiile sunt condiționate de indicația medicală și de regulile aplicabile, iar gratuitatea privește serviciile incluse, acordate prin furnizori contractați. Proiectul nu extinde acest drept la femeile neasigurate și nu asigură, prin el însuși, programări disponibile, capacitate teritorială sau fonduri suplimentare.",
       "affectedGroups": [
         "Sănătate & Educație",
         "IMM & Antreprenori",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 229¹ alin. (1) și (3): dreptul privește femeile asigurate, o dată la 12 luni; eliminarea trimiterii este prevăzută expres pentru consultația preventivă, fără a elimina automat trimiterile pentru toate investigațiile ulterioare.",
-        "Art. 229¹ alin. (5)-(8): ecografiile, testele HPV, citologia și mamografia depind de indicații și criterii medicale. Textul exclude investigațiile anuale nejustificate și precizează că ecografia mamară nu înlocuiește mamografia indicată.",
-        "Art. 229¹ alin. (2) și (9): sunt eligibili furnizorii publici și privați contractați cu casele de asigurări. Interdicția coplății și contribuției personale privește serviciile incluse și acordate în condițiile reglementate, fără a transforma toate serviciile private în servicii gratuite.",
-        "Art. II și IV: modificarea contractului-cadru trebuie realizată în 90 de zile de la publicare, deși întreaga lege intră în vigoare la 120 de zile. Obligația nouă are astfel un termen care expiră înainte să intre în vigoare; este necesară o excepție expresă pentru dispozițiile de implementare.",
-        "Art. III identifică FNUASS ca sursă, dar fragmentele furnizate nu cuantifică impactul net, finanțarea suplimentară sau capacitatea disponibilă. Aceste lipsuri justifică verificarea documentației financiare, fără a demonstra singure neconstituționalitatea.",
-        "Art. 229¹ alin. (16): delegarea condițiilor de eligibilitate necesită delimitare. Normele pot detalia indicațiile investigațiilor, dar nu ar trebui să excludă categorii de femei asigurate de la consultația anuală recunoscută prin alin. (1).",
-        "Pentru paciente scade birocrația trimiterii; furnizorii și CNAS vor avea sarcini de informare, evidență și centralizare statistică. Textul nu introduce amenzi, taxe noi, exclusivități profesionale sau obligații pentru angajatori."
+        "Art. 229¹ alin. (1)-(3): consacră un drept preventiv anual în pachetul de bază. Eliminarea biletului de trimitere privește consultația preventivă; textul nu elimină toate documentele necesare investigațiilor ulterioare.",
+        "Art. 229¹ alin. (5)-(8): ecografiile, testele HPV, citologia și mamografia nu devin obligatorii anual pentru toate beneficiarele. Ecografia mamară nu înlocuiește mamografia indicată medical.",
+        "Art. 229¹ alin. (2), (9)-(10): furnizorii publici și privați contractați pot acorda pachetul, trebuie să informeze pacientele și nu pot solicita coplată sau contribuție personală pentru serviciile incluse.",
+        "Art. II și IV: termenul de 90 de zile de la publicare pentru modificarea contractului-cadru expiră înaintea intrării întregii legi în vigoare, stabilită la 120 de zile. Termenul normelor curge de la intrarea în vigoare a hotărârii Guvernului și poate decala suplimentar aplicarea.",
+        "Art. III: identifică FNUASS și categoriile de cheltuieli, dar nu cuantifică impactul net și nu aprobă credite suplimentare. Fundamentarea ulterioară a necesarului nu demonstrează disponibilitatea banilor la debutul dreptului.",
+        "Art. 229¹ alin. (11)-(14): păstrează celelalte drepturi medicale, cere evitarea decontării multiple și menține aplicarea regulilor generale privind consimțământul minorilor și confidențialitatea. Nu introduce abrogări sau derogări care să înlăture aceste garanții.",
+        "Art. 229¹ alin. (14)-(15): folosește sistemele informatice existente și instituie centralizarea anuală de statistici. Apar sarcini de raportare și adaptare administrativă pentru CNAS și furnizori, fără o obligație nouă de raportare impusă pacientelor."
       ],
-      "blindSpotsCaught": "Capcana principală este calendarul: termenul de 90 de zile pentru Guvern curge înaintea intrării în vigoare a obligației respective. Competențele existente pot permite pregătirea actelor, dar nu înlătură incoerența textului. În plus, formularea «condițiile de eligibilitate» din alin. (16) trebuie corelată cu dreptul tuturor femeilor asigurate la consultație, pentru a preveni restrângeri prin acte inferioare legii.",
-      "constitutionalityNote": "Finalitatea susține art. 34 din Constituție. Art. 1 alin. (5) impune corectarea calendarului și delimitarea delegării către actele de aplicare. Art. 23 alin. (12), referitor la legalitatea pedepselor, nu are incidență directă: proiectul nu instituie pedepse. Diferențierea prin obiectul medical are o justificare obiectivă și nu indică, prin ea însăși, încălcarea art. 16; limitarea la asigurate trebuie analizată în contextul drepturilor deja recunoscute neasiguratelor. Pentru art. 138 alin. (5), indicarea FNUASS trebuie verificată împreună cu fundamentarea financiară; suficiența fondurilor și identificarea sursei sunt chestiuni distincte. Trebuie verificată și solicitarea informării Guvernului potrivit art. 111 alin. (1), dacă sunt modificate prevederi bugetare. Lipsa acestor documente din fragmente nu dovedește că procedura a fost omisă. Consimțământul medical și confidențialitatea susțin protecția prevăzută de art. 26.",
-      "euLawNote": "Directiva (UE) 2018/958 privește evaluarea proporționalității restricțiilor privind accesul la profesii reglementate sau exercitarea lor. Textul prezentat organizează un beneficiu medical și decontarea lui, fără restricții profesionale noi identificabile; nu rezultă automat obligația unui asemenea test. Nici monopolul, nici favorizarea expresă a furnizorilor publici nu rezultă din proiect. Directiva (UE) 2015/1535 nu devine aplicabilă doar fiindcă serviciile se înregistrează informatic: nu sunt instituite reguli tehnice specifice serviciilor societății informaționale sau AI. Organizarea serviciilor rămâne în competența națională, potrivit art. 168 alin. (7) TFUE. Recomandarea Consiliului din 2022 privind screeningul nu impune consultație ginecologică sau ecografie anuală universală. Pentru datele medicale trebuie îndeplinite cumulativ cerințele art. 6 și 9 GDPR; consimțământul pentru examinare nu constituie automat temeiul tuturor prelucrărilor informatice.",
+      "blindSpotsCaught": "Problema subtilă este succesiunea termenelor: obligația legală de actualizare a contractului-cadru ar deveni aplicabilă după expirarea propriului termen. În plus, art. 229 alin. (4), rămas în vigoare, cere intrarea normelor în vigoare odată cu hotărârea Guvernului, în timp ce proiectul permite aprobarea lor în 30 de zile după intrarea acesteia în vigoare. Expunerea de motive recunoaște problema implementării, dar această recunoaștere nu corectează dispozitivul legii.",
+      "constitutionalityNote": "Finalitatea corespunde art. 34 din Constituție. Diferențierea bazată pe necesități medicale specifice și încadrarea beneficiului în sistemul contributiv nu demonstrează, prin ele însele, încălcarea art. 16. Calendarul contradictoriu ridică o problemă de claritate și coerență potrivit art. 1 alin. (5); art. 23 alin. (12) nu este incident, deoarece proiectul nu instituie pedepse. Art. III identifică o sursă de finanțare, astfel încât lipsa unei sume în text nu dovedește automat încălcarea art. 138 alin. (5). Trebuie însă verificate fundamentarea financiară și solicitarea informațiilor Guvernului conform art. 111 alin. (1), având în vedere efectul asupra cheltuielilor bugetare. Art. 229¹ alin. (16) permite detalierea tehnică, fără a autoriza restrângerea prin norme a dreptului anual instituit de lege. Evaluarea se bazează pe documentele furnizate; verificarea externă a legislației și a dosarului parlamentar nu a fost disponibilă.",
+      "euLawNote": "Pe textul analizat, Directiva (UE) 2018/958 nu declanșează un test obligatoriu de proporționalitate: proiectul nu introduce condiții noi de acces la o profesie reglementată sau restricții profesionale, ci organizează servicii și decontarea lor. Nu apare un monopol: accesul furnizorilor publici și privați rămâne condiționat de contractarea cu casele de asigurări. Directiva (UE) 2015/1535 nu impune notificarea TRIS numai pentru folosirea sistemelor informatice existente; textul nu reglementează specific servicii ale societății informaționale sau AI. Organizarea pachetului intră în competența națională recunoscută de art. 168 alin. (7) TFUE. GDPR rămâne integral aplicabil: datele medicale necesită temeiurile corespunzătoare, minimizare și securitate, iar statisticile trebuie protejate împotriva identificării pacientelor. Nu există o derogare expresă de la regulile asistenței medicale transfrontaliere.",
       "senatForm": {
-        "articleRef": "Art. II și art. IV",
-        "proposalContent": "Se prevede intrarea în vigoare a art. II la 3 zile de la publicare, iar a celorlalte dispoziții la 120 de zile. Modificările contractului-cadru se publică până în ziua 90, iar normele metodologice până în ziua 120 de la publicarea legii. Aplicarea serviciilor începe la intrarea în vigoare a dispozițiilor de fond.",
-        "argumentation": "Termenul actual de 90 de zile expiră înainte ca obligația Guvernului să intre în vigoare, la 120 de zile. Corelarea termenelor și publicarea prealabilă a actelor de aplicare asigură previzibilitatea cerută de art. 1 alin. (5) din Constituție și permit exercitarea efectivă a dreptului.",
-        "otherComments": "Solicităm fundamentarea impactului bugetar net și clarificarea art. 229¹ alin. (16): eligibilitatea stabilită prin norme nu poate restrânge dreptul femeilor asigurate la consultația anuală. Criteriile medicale și periodicitatea diferențiată trebuie păstrate pentru investigațiile indicate."
+        "articleRef": "Art. II alin. (1)-(2) și art. IV",
+        "proposalContent": "Prevedeți intrarea în vigoare a art. II la 3 zile de la publicare. Stabiliți adoptarea hotărârii Guvernului în 90 de zile și aprobarea normelor înainte de ziua 120, cu intrarea lor în vigoare simultană cu dreptul la pachet. Corelați expres termenele cu art. 229 alin. (4).",
+        "argumentation": "Termenul de 90 de zile pentru modificarea contractului-cadru expiră înaintea intrării legii în vigoare la 120 de zile. În plus, aprobarea normelor după intrarea în vigoare a hotărârii Guvernului nu este corelată cu art. 229 alin. (4), care cere aplicarea simultană. Dreptul riscă să înceapă fără reguli operaționale.",
+        "otherComments": "Pentru art. III, prezentați costul bugetar net estimat, ipotezele de utilizare și modul de acoperire a necesarului suplimentar. Verificați solicitarea informațiilor Guvernului potrivit art. 111 alin. (1) din Constituție. Nominalizarea FNUASS identifică sursa, dar nu demonstrează disponibilitatea creditelor."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-05T07:47:49.944Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:25:13.063Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

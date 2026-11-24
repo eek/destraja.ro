@@ -1,92 +1,175 @@
 {
   "billId": "B527/2026",
   "slug": "b527-2026",
-  "updatedAt": "2026-10-23T11:54:57.116Z",
+  "updatedAt": "2026-11-24T14:28:08.722Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1223,
+    "ordinanceChars": 0,
+    "memoChars": 6806,
+    "memoSupplied": 6806,
+    "marker": "SF-6204087E"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/b527-2026.json",
+    "form": "initiator",
+    "textHash": "6204087e798cef79",
+    "fetchedAt": "2026-11-19T09:27:35.405Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 1.1,
+    "riskScore": 1.3,
     "riskLevel": "green",
-    "plainTitle": "Instituirea zilei de 26 septembrie ca „Ziua Munților Carpați”",
-    "summaryTlDr": "Lege simbolică pentru marcarea pe 26 septembrie a Zilei Munților Carpați prin evenimente educative, ecologice și turistice.",
-    "initiatorClaim": "Promovează protejarea biodiversității și a patrimoniului cultural din Carpați.",
-    "realityCheck": "Proiect simbolic, fără impact normativ restrictiv.",
+    "plainTitle": "26 septembrie devine Ziua Munților Carpați",
+    "summaryTlDr": "Lege declarativă și inofensivă: instituie o zi simbolică, fără zi liberă, fără obligații, taxe sau sancțiuni. Toate acțiunile sunt facultative, iar banii publici se pot cheltui doar opțional, din bugetele deja aprobate.",
+    "initiatorClaim": "Inițiatorii vor să consacre oficial o zi dedicată patrimoniului natural și cultural al Carpaților, preluând o practică informală existentă din 2013 și susținută în cadrul Convenției Carpatice, pentru conștientizare, conservare și cooperare transfrontalieră.",
+    "realityCheck": "Legea are două articole: art. 1 instituie ziua de 26 septembrie, iar art. 2 permite (nu obligă) autorităților, școlilor, cultelor, ONG-urilor și persoanelor să organizeze evenimente și autorităților să aloce fonduri din bugetele proprii, în limita alocărilor aprobate. Nu creează zi nelucrătoare, structuri noi, obligații de raportare sau sancțiuni. Singurul efect practic e un temei legal explicit pentru cheltuieli facultative ale autorităților la evenimente tematice.",
     "affectedGroups": [
       "Agricultură & Mediu",
-      "Toți cetățenii"
+      "Sănătate & Educație",
+      "Toți cetățenii",
+      "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "În ansamblu",
-      "proposalContent": "Susțin adoptarea propunerii legislative B527/2026, cu recomandarea corelării normelor metodologice și a termenelor de aplicare conform Legii nr. 24/2000.",
-      "argumentation": "Proiect simbolic, fără impact normativ restrictiv. (Lege simbolică pentru marcarea pe 26 septembrie a Zilei Munților Carpați prin evenimente educative, ecologice și turistice.)",
-      "otherComments": "Solicit analizarea în comisiile permanente competente și publicarea avizului Consiliului Legislativ și a punctului de vedere al Guvernului pentru B527/2026."
-    },
-    "docxTitle": "PUNCT DE VEDERE PRIVIND PROPUNEREA LEGISLATIVĂ B527/2026",
-    "docxIntro": "Subsemnatul(a) {{NUME_CETATEAN}}, în temeiul procedurii de consultare publică a Senatului României, formulez prezentul Punct de vedere referitor la Propunerea legislativă B527/2026 (Propunere legislativă privind instituirea zilei de 26 septembrie ca Ziua Munților Carpați).",
-    "docxSections": [
-      {
-        "heading": "1. Sinteza prevederilor analizate",
-        "paragraphs": [
-          "Lege simbolică pentru marcarea pe 26 septembrie a Zilei Munților Carpați prin evenimente educative, ecologice și turistice.",
-          "Proiect simbolic, fără impact normativ restrictiv."
-        ]
-      },
-      {
-        "heading": "2. Recomandare și argumentare",
-        "paragraphs": [
-          "Susțin adoptarea propunerii legislative B527/2026, cu recomandarea corelării normelor metodologice și a termenelor de aplicare conform Legii nr. 24/2000."
-        ]
-      }
-    ],
-    "docxRequests": [
-      "Susțin adoptarea propunerii legislative B527/2026, cu recomandarea corelării normelor metodologice și a termenelor de aplicare conform Legii nr. 24/2000."
-    ]
+      "articleRef": "Art. 2 alin. (1) și alin. (3) nou",
+      "proposalContent": "Propunem completarea art. 2 alin. (1) cu mențiunea „inclusiv administratorii ariilor naturale protejate” și introducerea unui alin. (3): „Societatea Română de Radiodifuziune și Societatea Română de Televiziune pot include în programele lor emisiuni dedicate Zilei Munților Carpați.”",
+      "argumentation": "Potrivit expunerii de motive, inițiativa a pornit de la administrațiile parcurilor naționale Piatra Craiului și Retezat, dar acestea nu sunt menționate în text. Includerea lor și a radiodifuziunii publice, tot facultativ, crește vizibilitatea zilei fără costuri obligatorii și fără a afecta autonomia locală sau a cultelor.",
+      "otherComments": "Proiect benign: nu creează zi liberă, obligații, taxe sau sancțiuni, iar finanțarea e facultativă, în limita bugetelor aprobate. Recomandăm corelarea cu activitățile derulate în cadrul Convenției Carpatice (ratificată prin Legea nr. 389/2006) și completarea expunerii de motive cu secțiunea de impact cerută de Legea nr. 24/2000."
+    }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelName": "Gemini 4 Argon (High)",
-      "cliCommand": "agy --model gemini-4-argon-high -p",
-      "status": "ok",
-      "riskScore": 1.1,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 38330,
+      "sourceEndMarker": "SF-6204087E",
+      "riskScore": 2,
       "riskLevel": "green",
-      "verdictShort": "Proiect simbolic, fără impact normativ restrictiv.",
-      "keyFindings": [
-        "Lege simbolică pentru marcarea pe 26 septembrie a Zilei Munților Carpați prin evenimente educative, ecologice și turistice.",
-        "Proiect simbolic, fără impact normativ restrictiv."
+      "plainTitle": "26 septembrie devine Ziua Munților Carpați (fără zi liberă)",
+      "verdictShort": "Proiect pur simbolic și benign, fără obligații, taxe sau sancțiuni pentru cetățeni și firme. Singura atenționare minoră privește cheltuirea facultativă și netransparentă de fonduri publice locale.",
+      "initiatorClaim": "Inițiatorii vor să consacre oficial un demers civic început în 2013 pentru promovarea biodiversității, tradițiilor și cooperării transfrontaliere din regiunea carpatică, în linia Convenției Carpatice și a dosarului UNESCO privind transhumanța.",
+      "realityCheck": "Legea are doar două articole cu caracter declarativ și facultativ: nu declară zi liberă legală, nu impune obligații de mediu și nu protejează efectiv pădurile sau speciile din Carpați. Singurul efect juridic concret este crearea unui temei legal expres prin care autoritățile centrale și locale pot aloca fonduri proprii și sprijin logistic pentru evenimente dedicate.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "Sănătate & Educație",
+        "Toți cetățenii"
       ],
-      "blindSpotsCaught": "Promovează protejarea biodiversității și a patrimoniului cultural din Carpați.",
-      "constitutionalityNote": "Nu au fost identificate vicii majore de neconstituționalitate extrinsecă în această etapă.",
-      "euLawNote": "Necesită verificarea compatibilității cu reglementările sectoriale UE."
+      "keyFindings": [
+        "Caracter neobligatoriu (Art. 1 și Art. 2 alin. 1): instituie o zi tematică marcată opțional („poate fi marcată”), fără regim de sărbătoare legală liberă și fără costuri de conformare pentru cetățeni sau IMM-uri.",
+        "Cheltuieli publice facultative (Art. 2 alin. 2): autoritățile centrale și locale „pot aloca fonduri din bugetele proprii” în limita bugetelor aprobate, însă fără indicatori de rezultat sau reguli specifice de transparență.",
+        "Decalaj între expunerea de motive și textul legii: motivarea invocă politici coerente de conservare și angajamente ecologice internaționale, dar textul normativ nu instituie nicio măsură concretă de protecție a mediului."
+      ],
+      "blindSpotsCaught": "Formularea „sprijinirea producătorilor locali” (Art. 2 alin. 1) combinată cu finanțarea din bugete publice (Art. 2 alin. 2) impune atenție la aplicare pentru a evita ajutoare de stat mascate sau discriminarea pe criterii de origine în Piața Unică (Art. 34 și 107 TFUE); totodată, proiectul alimentează inflația de legi comemorative fără forță normativă reală.",
+      "constitutionalityNote": "Fără vicii majore de neconstituționalitate. Caracterul pur facultativ („pot aloca... în limita alocărilor bugetare aprobate”) atenuează riscul incidentării Art. 138 alin. (5) din Constituție privind sursa de finanțare. Sub aspectul Art. 1 alin. (5) (calitatea legii), normele sunt clare și previzibile, deși au conținut normativ minim.",
+      "euLawNote": "Nu intră sub incidența Directivei (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și nici a Directivei (UE) 2015/1535 (TRIS – servicii digitale/reglementări tehnice). La implementare, eventualele fonduri publice pentru evenimente cu producători locali trebuie acordate nediscriminatoriu și cu respectarea regulilor UE privind ajutorul de stat (Art. 107 TFUE) și libera circulație a mărfurilor (Art. 34 TFUE).",
+      "senatForm": {
+        "articleRef": "Art. 2 alin. (2)",
+        "proposalContent": "Se propune completarea art. 2 alin. (2) cu obligația publicării transparente a sumelor alocate și a criteriilor de selecție pentru sprijinul acordat, cu respectarea regulilor privind ajutorul de stat și concurența loială.",
+        "argumentation": "Deși proiectul are caracter pur simbolic și facultativ, alocarea discreționară de fonduri publice locale pentru evenimente și sprijinirea producătorilor locali trebuie supusă transparenței bugetare și regulilor UE de concurență, evitând cheltuieli fără impact măsurabil.",
+        "otherComments": "Inițiativa este benignă și nu impune obligații cetățenilor sau firmelor. Recomandăm totuși corelarea cu strategii concrete de conservare a Carpaților și atașarea unei fișe de impact bugetar estimativ conform Legii 24/2000."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "modelName": "Claude Opus 5.5",
-      "cliCommand": "claude -p --model opus",
-      "status": "ok",
+      "durationMs": 31054,
+      "sourceEndMarker": "SF-6204087E",
       "riskScore": 1,
       "riskLevel": "green",
-      "verdictShort": "Lege simbolică pentru marcarea pe 26 septembrie a Zilei Munților Carpați prin evenimente educative, ecologice și turistice.",
-      "keyFindings": [
-        "Proiect simbolic, fără impact normativ restrictiv.",
-        "Promovează protejarea biodiversității și a patrimoniului cultural din Carpați."
+      "plainTitle": "26 septembrie devine Ziua Munților Carpați",
+      "verdictShort": "Lege declarativă și inofensivă: instituie o zi simbolică, fără zi liberă, fără obligații, taxe sau sancțiuni. Toate acțiunile sunt facultative, iar banii publici se pot cheltui doar opțional, din bugetele deja aprobate.",
+      "initiatorClaim": "Inițiatorii vor să consacre oficial o zi dedicată patrimoniului natural și cultural al Carpaților, preluând o practică informală existentă din 2013 și susținută în cadrul Convenției Carpatice, pentru conștientizare, conservare și cooperare transfrontalieră.",
+      "realityCheck": "Legea are două articole: art. 1 instituie ziua de 26 septembrie, iar art. 2 permite (nu obligă) autorităților, școlilor, cultelor, ONG-urilor și persoanelor să organizeze evenimente și autorităților să aloce fonduri din bugetele proprii, în limita alocărilor aprobate. Nu creează zi nelucrătoare, structuri noi, obligații de raportare sau sancțiuni. Singurul efect practic e un temei legal explicit pentru cheltuieli facultative ale autorităților la evenimente tematice.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "Sănătate & Educație"
       ],
-      "blindSpotsCaught": "Verificare tehnică a trimiterilor legislative conform Legii nr. 24/2000.",
-      "constitutionalityNote": "Respectarea exigențelor de claritate și previzibilitate a normei (art. 1 alin. 5 Constituție).",
-      "euLawNote": "Evaluat din perspectiva proporționalității și a acquis-ului comunitar."
+      "keyFindings": [
+        "Art. 1: instituie 26 septembrie ca Ziua Munților Carpați, fără a o declara zi nelucrătoare. Nu modifică Codul muncii și nu are impact asupra angajatorilor.",
+        "Art. 2 alin. (1): marcarea este exclusiv facultativă („poate fi marcată”), pentru o listă largă de actori publici și privați. Nu există obligații, termene sau sancțiuni.",
+        "Art. 2 alin. (2): autoritățile centrale și locale „pot” aloca fonduri doar din bugetele proprii, în limita alocărilor aprobate. Nu apar cheltuieli bugetare noi obligatorii, deci art. 138 alin. (5) din Constituție nu e încălcat.",
+        "Proiectul nu stabilește o dată de intrare în vigoare. Se aplică regula generală: 3 zile de la publicarea în Monitorul Oficial (art. 78 din Constituție).",
+        "Expunerea de motive nu cuprinde secțiunile de impact (financiar, social, de mediu) cerute de Legea nr. 24/2000. Lipsa are efect redus, dat fiind caracterul declarativ al legii."
+      ],
+      "blindSpotsCaught": "Expunerea de motive spune că inițiativa a venit de la administrațiile parcurilor naționale Piatra Craiului și Retezat. Totuși, art. 2 alin. (1) nu menționează expres administratorii ariilor naturale protejate, actorii cei mai relevanți. Includerea „unităților de cult” în enumerare nu ridică probleme de autonomie, deoarece formularea e facultativă. Lipsește și o dată expresă de intrare în vigoare, ceea ce e acceptabil.",
+      "constitutionalityNote": "Proiectul nu ridică probleme de constituționalitate. Este lege ordinară (art. 73 alin. 3 și art. 76 alin. 2), cu text clar și previzibil (art. 1 alin. 5). Nu restrânge drepturi și nu impune obligații. Autonomia locală (art. 120-121) și autonomia cultelor (art. 29) sunt respectate, pentru că toate acțiunile sunt opționale. Cheltuielile sunt facultative și se încadrează în bugetele aprobate, deci nu e nevoie de o sursă de finanțare nouă (art. 138 alin. 5).",
+      "euLawNote": "Nu intră sub incidența Directivei (UE) 2018/958, pentru că nu reglementează accesul la profesii sau exercitarea lor. Nu intră nici sub TRIS 2015/1535, pentru că nu conține reglementări tehnice și nu privește servicii ale societății informaționale. Nu afectează piața unică sau concurența. Este compatibilă cu Convenția-cadru privind protecția și dezvoltarea durabilă a Carpaților, la care UE și România sunt părți, și o susține.",
+      "senatForm": {
+        "articleRef": "Art. 2 alin. (1) și alin. (3) nou",
+        "proposalContent": "Propunem completarea art. 2 alin. (1) cu mențiunea „inclusiv administratorii ariilor naturale protejate” și introducerea unui alin. (3): „Societatea Română de Radiodifuziune și Societatea Română de Televiziune pot include în programele lor emisiuni dedicate Zilei Munților Carpați.”",
+        "argumentation": "Potrivit expunerii de motive, inițiativa a pornit de la administrațiile parcurilor naționale Piatra Craiului și Retezat, dar acestea nu sunt menționate în text. Includerea lor și a radiodifuziunii publice, tot facultativ, crește vizibilitatea zilei fără costuri obligatorii și fără a afecta autonomia locală sau a cultelor.",
+        "otherComments": "Proiect benign: nu creează zi liberă, obligații, taxe sau sancțiuni, iar finanțarea e facultativă, în limita bugetelor aprobate. Recomandăm corelarea cu activitățile derulate în cadrul Convenției Carpatice (ratificată prin Legea nr. 389/2006) și completarea expunerii de motive cu secțiunea de impact cerută de Legea nr. 24/2000."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "modelName": "ChatGPT · GPT-6.1",
-      "cliCommand": "codex exec",
-      "status": "ok",
-      "riskScore": 1.2,
+      "durationMs": 52748,
+      "sourceEndMarker": "SF-6204087E",
+      "riskScore": 1,
       "riskLevel": "green",
-      "verdictShort": "Instituirea zilei de 26 septembrie ca „Ziua Munților Carpați”. Proiect simbolic, fără impact normativ restrictiv.",
-      "keyFindings": [
-        "Lege simbolică pentru marcarea pe 26 septembrie a Zilei Munților Carpați prin evenimente educative, ecologice și turistice."
+      "plainTitle": "26 septembrie, zi dedicată Munților Carpați",
+      "verdictShort": "Proiect cu risc redus: instituie o zi simbolică și permite evenimente și cheltuieli în limita bugetelor aprobate. Nu introduce taxe, sancțiuni, obligații pentru firme sau o zi liberă legală.",
+      "initiatorClaim": "Inițiatorii urmăresc recunoașterea patrimoniului natural și cultural al Carpaților, educarea publicului și sprijinirea comunităților montane. Expunerea de motive invocă inițiative comunitare și cooperarea internațională pentru conservare și dezvoltare durabilă.",
+      "realityCheck": "Art. 1 consacră data de 26 septembrie, iar art. 2 permite marcarea ei prin evenimente și susținerea acestora din bugetele autorităților. Participarea și finanțarea sunt facultative, fără drept automat la subvenții pentru organizatori sau producători. Proiectul nu instituie măsuri concrete de conservare, programe de dezvoltare montană sau obligații de cooperare internațională.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "Sănătate & Educație",
+        "IMM & Antreprenori"
       ],
-      "blindSpotsCaught": "Analiză de impact administrativ și bugetar.",
-      "constitutionalityNote": "Conformitate tehnică cu procedura parlamentară de legiferare.",
-      "euLawNote": "Fără restricții directe asupra serviciilor societății informaționale."
+      "keyFindings": [
+        "Art. 1 instituie o zi tematică; nu modifică regimul sărbătorilor legale și nu acordă timp liber angajaților.",
+        "Art. 2 alin. (1) folosește formula «poate fi marcată»: nu impune organizarea de evenimente, participarea sau raportări administrative.",
+        "Art. 2 alin. (2) permite sprijin logistic și finanțare numai în limita alocărilor bugetare aprobate; nu stabilește un buget minim obligatoriu.",
+        "Sprijinirea producătorilor locali este un obiectiv al evenimentelor, fără instituirea unei scheme de ajutor sau a unor preferințe obligatorii la achiziții.",
+        "Textul se încheie după art. 2: nu conține derogări, abrogări, dispoziții tranzitorii sau modificări ale altor legi."
+      ],
+      "blindSpotsCaught": "Posibilitatea finanțării nu înseamnă finanțare garantată și nici derogare de la regulile cheltuirii banilor publici. Menționarea producătorilor locali nu autorizează automat subvenții sau achiziții preferențiale. Referirile la Convenția Carpatică și UNESCO apar în motivare, fără măsuri operative corespunzătoare în articole.",
+      "constitutionalityNote": "Nu rezultă o problemă evidentă de constituționalitate din textul furnizat. Data, caracterul facultativ al activităților și plafonarea prin bugetele aprobate sunt suficient de clare pentru art. 1 alin. (5). Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident: proiectul nu instituie pedepse. Obiectivul este compatibil cu protecția mediului prevăzută de art. 35. Eventualele cheltuieli rămân supuse art. 138 alin. (5) și legislației bugetare; materialele furnizate nu cuantifică impactul, dar nici nu impun cheltuieli suplimentare determinate.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea acestora. Textul nu conține reglementări tehnice ori cerințe pentru servicii ale societății informaționale care să declanșeze notificarea TRIS potrivit Directivei (UE) 2015/1535. Nu apar bariere directe pentru piața unică. Dacă implementarea va include avantaje selective pentru întreprinderi sau achiziții publice, vor trebui respectate regulile aplicabile ajutoarelor de stat, concurenței și nediscriminării.",
+      "senatForm": {
+        "articleRef": "Art. 2 alin. (2)",
+        "proposalContent": "Se recomandă completarea alineatului cu o obligație proporțională de transparență: «Autoritățile publică pe site-ul propriu destinația și valoarea fondurilor alocate pentru evenimentele dedicate.»",
+        "argumentation": "Finanțarea este facultativă și limitată la bugetele aprobate. Publicarea destinației și valorii alocărilor ar permite verificarea utilizării banilor publici, fără dosare sau raportări suplimentare pentru cetățeni și întreprinderi.",
+        "otherComments": "Proiectul este preponderent simbolic și nu impune taxe, sancțiuni sau obligații de participare. Nu instituie o zi liberă legală. Directivele (UE) 2018/958 și 2015/1535 nu sunt incidente în forma analizată. Observația propusă privește transparența finanțărilor."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 1.1,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-23T11:54:57.116Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 1.1,
+        "claude": 1,
+        "codex": 1.2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:28:08.722Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

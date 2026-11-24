@@ -1,119 +1,174 @@
 {
   "billId": "B615/2026",
   "slug": "b615-2026",
-  "updatedAt": "2026-11-04T08:03:06.764Z",
+  "updatedAt": "2026-11-24T14:24:50.299Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1367,
+    "ordinanceChars": 0,
+    "memoChars": 3583,
+    "memoSupplied": 3583,
+    "marker": "SF-CC5FD4A4"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/b615-2026.json",
+    "form": "initiator",
+    "textHash": "cc5fd4a44b015198",
+    "fetchedAt": "2026-11-19T11:19:54.323Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 4211,
+    "truncated": false,
+    "included": true,
+    "key": "c98dcd3a08af129b"
+  },
   "consensus": {
     "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "Mașinile de raliu scapă de taxa de lux",
-    "summaryTlDr": "Este o scutire îngustă și ușor de justificat pentru câteva zeci de mașini de competiție. Nu deschide o portiță pentru bolizii de lux, cât timp cele trei condiții cumulative rămân stricte. Textul are însă greșeli de tehnică legislativă și îi lipsește data de aplicare, iar acestea trebuie corectate.",
-    "initiatorClaim": "Inițiatorii vor ca mașinile destinate exclusiv competițiilor, cu valoare de peste 375.000 lei, să nu mai plătească «taxa de lux». Ei susțin că prețul acestor mașini vine din standardele de siguranță FIA, nu din lux, și că taxa a contribuit la dispariția unor competiții precum Tess Rally Brașov.",
-    "realityCheck": "Textul rescrie integral lit. b) din art. 500¹ alin. (1) și adaugă o excepție pentru autovehiculele destinate exclusiv competițiilor. Ele trebuie să fie omologate de «federația sportivă de specialitate» și să aibă această mențiune în cartea de identitate. Efectul real e mic și țintit. Expunerea nu cuantifică însă nici legătura dintre taxă și dispariția raliurilor, nici «câștigul net» pentru buget. Lipsesc data intrării în vigoare, regulile pentru anul în care mențiunea apare sau dispare din CIV și o definiție clară a omologării.",
+    "plainTitle": "Mașinile de raliu omologate scapă de „taxa de lux”",
+    "summaryTlDr": "Este o scutire punctuală, rezonabilă și cu impact bugetar mic, care corectează o încadrare nefirească a mașinilor de competiție la bunuri de lux. Are mici scăpări de redactare și nu spune de la ce dată se aplică, dar nu ascunde capcane.",
+    "initiatorClaim": "Inițiatorii spun că mașinile destinate exclusiv competițiilor sunt scumpe din cauza standardelor tehnice și de siguranță FIA, nu pentru că ar fi bunuri de lux. Susțin că taxa specială pune în pericol raliurile, cum ar fi Tess Rally Brașov, și economia legată de ele, în timp ce privește doar circa 50-60 de vehicule.",
+    "realityCheck": "Proiectul păstrează neschimbat textul actual al art. 500^1 alin. (1) lit. b): impozit special pentru autoturismele de peste 375.000 lei, timp de 5 ani. Adaugă o singură frază, care scutește vehiculele destinate exclusiv competițiilor, omologate de federația de specialitate și care au această destinație înscrisă în cartea de identitate a vehiculului. Efectul mecanic e strict limitat la aceste vehicule. Lipsesc însă regulile de aplicare în timp și o regulă pentru situația în care mențiunea din CIV este ulterior radiată.",
     "affectedGroups": [
       "Șoferi & Auto",
       "Contabili & Fiscalitate",
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. 500¹ alin. (1) lit. b) Cod fiscal",
-      "proposalContent": "Lit. b) se completează cu o teză nouă, fără a fi rescrisă: „Fac excepție autoturismele destinate exclusiv competițiilor sportive, omologate de federația națională de specialitate sau de FIA, cu această mențiune în cartea de identitate. La radierea mențiunii, impozitul se datorează pentru perioada rămasă din cei 5 ani.” Intrare în vigoare: 1 ianuarie a anului următor.",
-      "argumentation": "Rescrierea lit. b) poate anula tacit modificări ale pragului adoptate între timp; o teză nouă evită riscul. „Omologate de federația de specialitate” e neclar: multe mașini sunt omologate de FIA, iar federația nu e numită. Nu e clar ce se întâmplă în anul în care mențiunea apare sau dispare din CIV. O dată fixă dă previzibilitate (art. 1 alin. (5) Constituție).",
-      "otherComments": "Inițiativa reduce venituri la bugetul de stat: informarea Guvernului e obligatorie (art. 111 alin. (1) Constituție); impactul pentru cele 50-60 de mașini trebuie cuantificat în fișa financiară. De corectat: „Articol unic” și „Art. I” coexistă; „se completează” deși lit. b) se modifică. Termenul de 6 luni din art. 4 Cod fiscal trebuie respectat sau derogat expres."
+      "articleRef": "Art. I – art. 500^1 alin. (1) lit. b) Cod fiscal",
+      "proposalContent": "Înlocuirea „autovehiculele” cu „autoturismele”; precizarea „omologate de federația națională de specialitate sau de o federație internațională ori din alt stat UE”; un alineat nou: scutirea încetează din anul fiscal următor radierii mențiunii din CIV; corectarea formulei introductive („Articol unic”, „se modifică”).",
+      "argumentation": "Lit. b) vizează doar autoturisme, deci „autovehicule” creează neconcordanță (art. 1 alin. 5 Constituție, Legea 24/2000). Omologarea poate fi FIA sau din alt stat UE; restrângerea la federația română ar fi discutabilă pe piața unică. Fără regulă de încetare, scutirea ar rămâne și după reconversia mașinii la uz rutier.",
+      "otherComments": "Propunere în esență justificată, cu impact bugetar redus (50-60 vehicule, conform EM). Lipsesc fișa financiară și informarea Guvernului (art. 111 Constituție, art. 15 Legea 500/2002). Nu se clarifică din ce an fiscal operează scutirea și dacă se aplică anilor rămași din perioada de 5 ani pentru vehiculele deja impozitate."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 44892,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 57950,
+      "sourceEndMarker": "SF-CC5FD4A4",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Scutirea mașinilor de raliu și competiții sportive de la „taxa pe lux”",
-      "verdictShort": "O inițiativă legislativă utilă și bine țintită, care corectează o anomalie fiscală prin care mașinile de curse omologate erau taxate drept autoturisme de lux. Riscul de evaziune este minim datorită filtrului triplu de verificare (CIV/RAR, omologare federație și interdicția de circulație curentă).",
-      "initiatorClaim": "Inițiatorii doresc exceptarea celor aproximativ 50-60 de autovehicule de competiție din România de la impozitul special pe bunuri de valoare mare (peste 375.000 lei), întrucât costul lor ridicat este impus de standardele de siguranță FIA, nu de opulență.",
-      "realityCheck": "Legea modifică strict art. 500¹ alin. (1) lit. b) din Codul fiscal și introduce o excepție cumulativă strânsă: vehiculul trebuie să fie destinat exclusiv competițiilor, omologat de federația de profil și să aibă această mențiune înscrisă de RAR în Cartea de Identitate a Vehiculului (CIV). Deoarece aceste mașini nu pot circula liber pe drumurile publice în afara etapelor organizate, măsura nu creează o portiță pentru proprietarii obișnuiți de mașini de lux.",
+      "plainTitle": "Scutirea mașinilor de raliu și competiție de taxa de lux",
+      "verdictShort": "Inițiativă benignă și justificată pe fond, care elimină o anomalie fiscală ce taxa mașinile de raliu ca pe autoturisme de lux. Proiectul are însă câteva scăpări de tehnică legislativă și procedurale ușor de corectat în comisii.",
+      "initiatorClaim": "Inițiatorii susțin că autoturismele destinate exclusiv competițiilor sportive (aproximativ 50-60 la nivel național) depășesc pragul de 375.000 lei din cauza dotărilor obligatorii de siguranță FIA, nu din rațiuni de lux, iar impozitarea lor riscă să descurajeze și să blocheze organizarea raliurilor din România.",
+      "realityCheck": "În prezent, art. 500^1 alin. (1) lit. b) din Codul fiscal impune impozitul special de valoare mare tuturor persoanelor fizice și juridice care dețin autoturisme înmatriculate/înregistrate în România cu valoare de achiziție peste 375.000 lei, fără nicio excepție. Proiectul adaugă o singură teză la finalul lit. b), exceptând autovehiculele destinate exclusiv competițiilor sportive care îndeplinesc cumulativ două condiții: omologarea de către federația sportivă de specialitate și înscrierea acestei destinații în cartea de identitate a vehiculului (CIV). Celelalte reguli (pragul de 375.000 lei și perioada de 5 ani) rămân neschimbate, dar lipsa unei norme tranzitorii lasă neclară aplicarea pentru anul fiscal în curs.",
+      "affectedGroups": [
+        "Șoferi & Auto",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Modificarea vizează exclusiv art. 500^1 alin. (1) lit. b) din Legea nr. 227/2015 și nu creează o portiță largă de evaziune, deoarece impune cumulativ omologarea federației sportive de specialitate și mențiunea destinației exclusive pentru competiții în cartea de identitate a vehiculului (CIV).",
+        "Formula de atestare indică eronat adoptarea ca lege organică (art. 76 alin. (1) din Constituție), deși modificarea unei scutiri fiscale din Codul fiscal ține de domeniul legilor ordinare (art. 76 alin. (2)).",
+        "Lipsesc dispozițiile privind intrarea în vigoare și aplicarea în timp (raportat la art. 4 din Codul fiscal), ceea ce poate genera incertitudine pentru contribuabilii aflați deja în interiorul perioadei de impozitare de 5 ani sau pentru anul fiscal curent.",
+        "Redactarea conține erori de tehnică legislativă (Legea nr. 24/2000): dublarea „Articol unic Art.I.-”, contradicția dintre „se completează” și „se modifică”, precum și folosirea termenului mai larg „autovehiculele” într-o literă care impozitează strict „autoturisme”."
+      ],
+      "blindSpotsCaught": "Există o discrepanță subtilă între Expunerea de motive (care invocă standardele Federației Internaționale de Automobilism – FIA) și textul normativ, care cere omologarea de „federația sportivă de specialitate” fără a preciza dacă se recunosc direct omologările internaționale (FIA) sau doar cele emise de federația sportivă națională recunoscută în România, detaliu ce poate bloca scutirea la controalele ANAF. De asemenea, proiectul nu include nicio fișă financiară sau cuantificare bugetară exactă.",
+      "constitutionalityNote": "Pe fond, scutirea este compatibilă cu principiul așezării juste a sarcinilor fiscale (art. 56 alin. 2), tratând diferit bunurile tehnice de competiție față de cele de lux. Există însă două vulnerabilități procedurale și de claritate: (1) menționarea greșită a art. 76 alin. (1) (lege organică) în locul art. 76 alin. (2); (2) obligativitatea solicitării informării Guvernului conform art. 111 alin. (1) teza a II-a din Constituție, deoarece măsura diminuează veniturile bugetului de stat, precum și necesitatea corectării viciilor de tehnică legislativă în lumina art. 1 alin. (5).",
+      "euLawNote": "Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente, fiind vorba despre o măsură pur fiscală care nu introduce reglementări tehnice noi sau restricții privind servicii digitale. Pentru persoanele juridice beneficiare (cluburi sau firme de motorsport cu activitate economică), scutirea trebuie analizată preventiv prin prisma normelor privind ajutorul de stat (art. 107 TFUE), însă riscul de incompatibilitate este redus, măsura putând fi justificată prin logica internă a unei taxe pe bunuri de lux și prin impactul economic marginal.",
+      "senatForm": {
+        "articleRef": "Articol unic - art. 500^1 alin. (1) lit. b)",
+        "proposalContent": "Corectarea părții introductive (eliminarea „Art.I.-” și „se completează”), înlocuirea „autovehiculele” cu „autoturismele”, includerea expresă a omologării naționale sau internaționale (FIA), stabilirea datei aplicării și corectarea formulei de adoptare la art. 76 alin. (2) din Constituție.",
+        "argumentation": "Scutirea este justificată pe fond, dar textul încalcă tehnica legislativă (Legea nr. 24/2000), prevede eronat procedură de lege organică pentru o normă fiscală ordinară (art. 76 alin. 2 Constituție) și nu clarifică aplicarea în anul fiscal curent sau recunoașterea omologării FIA, riscând blocaje la ANAF.",
+        "otherComments": "Se impune solicitarea informării Guvernului și a fișei financiare conform art. 111 alin. (1) din Constituție, întrucât măsura diminuează venituri bugetare, precum și verificarea compatibilității scutirii pentru persoane juridice cu normele UE privind ajutorul de stat (art. 107 TFUE)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 40590,
+      "sourceEndMarker": "SF-CC5FD4A4",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Mașinile de raliu omologate scapă de „taxa de lux”",
+      "verdictShort": "Este o scutire punctuală, rezonabilă și cu impact bugetar mic, care corectează o încadrare nefirească a mașinilor de competiție la bunuri de lux. Are mici scăpări de redactare și nu spune de la ce dată se aplică, dar nu ascunde capcane.",
+      "initiatorClaim": "Inițiatorii spun că mașinile destinate exclusiv competițiilor sunt scumpe din cauza standardelor tehnice și de siguranță FIA, nu pentru că ar fi bunuri de lux. Susțin că taxa specială pune în pericol raliurile, cum ar fi Tess Rally Brașov, și economia legată de ele, în timp ce privește doar circa 50-60 de vehicule.",
+      "realityCheck": "Proiectul păstrează neschimbat textul actual al art. 500^1 alin. (1) lit. b): impozit special pentru autoturismele de peste 375.000 lei, timp de 5 ani. Adaugă o singură frază, care scutește vehiculele destinate exclusiv competițiilor, omologate de federația de specialitate și care au această destinație înscrisă în cartea de identitate a vehiculului. Efectul mecanic e strict limitat la aceste vehicule. Lipsesc însă regulile de aplicare în timp și o regulă pentru situația în care mențiunea din CIV este ulterior radiată.",
       "affectedGroups": [
         "Șoferi & Auto",
         "Contabili & Fiscalitate",
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Art. unic modifică art. 500¹ alin. (1) lit. b) din Legea nr. 227/2015, adăugând trei condiții cumulative pentru scutire: destinație exclusivă pentru competiții, omologare de către federația sportivă de specialitate și înscrierea destinației în CIV.",
-        "Protecție anti-abuz ridicată: înscrierea mențiunii „destinat exclusiv competițiilor sportive” în CIV de către RAR atrage restricții severe de circulație pe drumurile publice (doar în cadru organizat), făcând neatractivă deghizarea limuzinelor sau supercarurilor de stradă în mașini de raliu.",
-        "Deficiențe minore de tehnică legislativă (Legea nr. 24/2000): textul folosește formula hibridă „Articol unic Art.I.-”, confundă „modificarea” cu „completarea” în partea introductivă și nu reglementează situația în care un vehicul își schimbă destinația în CIV înăuntrul perioadei de 5 ani."
+        "Art. I modifică art. 500^1 alin. (1) lit. b) Cod fiscal și reia identic textul în vigoare (pragul de 375.000 lei și perioada de 5 ani). Singura noutate este fraza finală de excepție pentru vehiculele de competiție.",
+        "Scutirea are trei condiții cumulative și verificabile: vehiculul este destinat exclusiv competițiilor, este omologat de federația sportivă de specialitate și are destinația înscrisă în CIV. Condițiile sunt obiective și greu de folosit pentru eludarea taxei.",
+        "Neconcordanță terminologică: lit. b) impozitează „autoturisme”, iar excepția vorbește de „autovehicule”. Practic nu se extinde sfera impozitului, dar textul rămâne inelegant.",
+        "Proiectul nu are dispoziții tranzitorii. Nu precizează din ce an fiscal se aplică scutirea, ce se întâmplă cu impozitul deja datorat sau plătit pentru perioada de 5 ani în curs și nici ce se întâmplă dacă vehiculul este reconvertit la uz rutier obișnuit.",
+        "Formula introductivă e defectuoasă: „Articol unic Art.I” și „se completează”, deși textul spune că litera „se modifică”. Este o problemă de tehnică legislativă (Legea nr. 24/2000), nu de fond."
       ],
-      "blindSpotsCaught": "Textul nu prevede ce se întâmplă dacă un autoturism este importat/achiziționat cu omologare și mențiune în CIV în primul an, dar în anul 2 este de-omologat și reînmatriculat ca vehicul normal de stradă, și nici nu conține o derogare sau precizare expresă privind data intrării în vigoare față de termenul standard din art. 4 al Codului fiscal.",
-      "constitutionalityNote": "Propunerea respectă art. 56 alin. (2) din Constituție (așezarea justă a sarcinilor fiscale), eliminând o supraimpozitare disproporționată aplicată mijloacelor fixe specifice activității sportive de performanță. Sub aspectul art. 1 alin. (5), necesită doar corecții redacționale minore în procesul parlamentar.",
-      "euLawNote": "Măsura este compatibilă cu dreptul UE. Pentru cluburile sportive sau societățile comerciale de profil, scutirea selectivă are un impact financiar infim, încadrându-se cu ușurință în plafoanele de minimis sau în regimul de sprijin pentru sport (art. 165 TFUE), fără a distorsiona piața unică și fără a necesita notificare TRIS (Directiva 2015/1535).",
+      "blindSpotsCaught": "Sintagma „federația sportivă de specialitate” nu spune dacă e vorba de federația română (FRAS), de FIA sau de federații din alte state UE. O interpretare restrictivă, care ar accepta doar omologarea federației române, ar putea discrimina vehiculele omologate în alte state membre. Totodată, impozitul se datorează pe 5 ani de la predarea-primirea vehiculului, iar fără normă tranzitorie nu e clar dacă scutirea se aplică și anilor rămași pentru vehiculele deja impozitate.",
+      "constitutionalityNote": "Proiectul este compatibil cu Constituția. Scutirea se bazează pe un criteriu obiectiv, destinația exclusiv sportivă atestată în CIV, deci respectă așezarea justă a sarcinilor fiscale (art. 56 alin. 2) și egalitatea (art. 16). Claritatea (art. 1 alin. 5) e afectată doar marginal de termenul „autovehicule” și de lipsa normelor tranzitorii. Pentru că reduce veniturile bugetare, Parlamentul trebuie să solicite informarea Guvernului (art. 111 alin. 1), iar proiectul trebuie să aibă fișă financiară (art. 15 din Legea nr. 500/2002 și art. 138 alin. 5 din Constituție). Expunerea de motive conține doar o estimare declarativă.",
+      "euLawNote": "Directiva 2018/958 nu se aplică, pentru că nu se reglementează o profesie. Directiva TRIS 2015/1535 nu se aplică, pentru că nu sunt vizate servicii ale societății informaționale sau reglementări tehnice. Teoretic, scutirea ar putea ridica o problemă de ajutor de stat (art. 107 TFUE), dar ea privește un număr foarte mic de vehicule, deținute în mare parte de persoane fizice și cluburi, iar sumele sunt sub pragurile de minimis, deci riscul e neglijabil. Pentru piața unică (art. 18 și 110 TFUE), e recomandat ca textul să accepte expres și omologările FIA sau ale federațiilor din alte state membre.",
       "senatForm": {
-        "articleRef": "Articol unic - Art. 500^1 alin. (1) lit. b)",
-        "proposalContent": "La Articolul unic, se elimină sintagma redundantă „Art.I.-”, iar la finalul lit. b) a art. 500^1 alin. (1) se adaugă teza: „În cazul în care, înăuntrul perioadei de 5 ani, autovehiculul își pierde această destinație în cartea de identitate, impozitul se datorează pentru fracțiunea de ani rămasă.”",
-        "argumentation": "Corectarea erorii de tehnică legislativă („Articol unic Art.I.-” contravine Legii nr. 24/2000) și prevenirea oricărei eludări fiscale prin radierea ulterioară a mențiunii din Cartea de Identitate a Vehiculului (CIV) după obținerea scutirii inițiale, asigurând simetria cu regula fracțiunii de ani rămasă din art. 500^1.",
-        "otherComments": "Susținem adoptarea propunerii, întrucât elimină o anomalie fiscală care penaliza echipamentele sportive de raliu (aprox. 50-60 vehicule cu restricții de circulație pe drumurile publice) ca fiind bunuri de lux. Recomandăm precizarea expresă a datei intrării în vigoare prin raportare la art. 4 din Codul fiscal."
+        "articleRef": "Art. I – art. 500^1 alin. (1) lit. b) Cod fiscal",
+        "proposalContent": "Înlocuirea „autovehiculele” cu „autoturismele”; precizarea „omologate de federația națională de specialitate sau de o federație internațională ori din alt stat UE”; un alineat nou: scutirea încetează din anul fiscal următor radierii mențiunii din CIV; corectarea formulei introductive („Articol unic”, „se modifică”).",
+        "argumentation": "Lit. b) vizează doar autoturisme, deci „autovehicule” creează neconcordanță (art. 1 alin. 5 Constituție, Legea 24/2000). Omologarea poate fi FIA sau din alt stat UE; restrângerea la federația română ar fi discutabilă pe piața unică. Fără regulă de încetare, scutirea ar rămâne și după reconversia mașinii la uz rutier.",
+        "otherComments": "Propunere în esență justificată, cu impact bugetar redus (50-60 vehicule, conform EM). Lipsesc fișa financiară și informarea Guvernului (art. 111 Constituție, art. 15 Legea 500/2002). Nu se clarifică din ce an fiscal operează scutirea și dacă se aplică anilor rămași din perioada de 5 ani pentru vehiculele deja impozitate."
       },
-      "status": "ok"
-    },
-    "claude": {
-      "model": "claude",
-      "durationMs": 159536,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Mașinile de raliu scapă de taxa de lux",
-      "verdictShort": "Este o scutire îngustă și ușor de justificat pentru câteva zeci de mașini de competiție. Nu deschide o portiță pentru bolizii de lux, cât timp cele trei condiții cumulative rămân stricte. Textul are însă greșeli de tehnică legislativă și îi lipsește data de aplicare, iar acestea trebuie corectate.",
-      "initiatorClaim": "Inițiatorii vor ca mașinile destinate exclusiv competițiilor, cu valoare de peste 375.000 lei, să nu mai plătească «taxa de lux». Ei susțin că prețul acestor mașini vine din standardele de siguranță FIA, nu din lux, și că taxa a contribuit la dispariția unor competiții precum Tess Rally Brașov.",
-      "realityCheck": "Textul rescrie integral lit. b) din art. 500¹ alin. (1) și adaugă o excepție pentru autovehiculele destinate exclusiv competițiilor. Ele trebuie să fie omologate de «federația sportivă de specialitate» și să aibă această mențiune în cartea de identitate. Efectul real e mic și țintit. Expunerea nu cuantifică însă nici legătura dintre taxă și dispariția raliurilor, nici «câștigul net» pentru buget. Lipsesc data intrării în vigoare, regulile pentru anul în care mențiunea apare sau dispare din CIV și o definiție clară a omologării.",
-      "affectedGroups": [
-        "Șoferi & Auto",
-        "IMM & Antreprenori"
-      ],
-      "keyFindings": [
-        "Art. 500¹ alin. (1) lit. b): excepția cere trei condiții cumulative: destinație exclusiv sportivă, omologare de către federație și mențiune în CIV. Asta reduce mult riscul ca autoturismele de lux obișnuite să scape de impozit.",
-        "Litera b) e rescrisă în întregime și repetă pragul de 375.000 lei și perioada de 5 ani. Dacă textul în vigoare se modifică între timp, rescrierea l-ar putea readuce tacit la forma veche.",
-        "Formula «omologate în acest scop de federația sportivă de specialitate» e vagă. Federația nu e numită, iar pentru multe categorii de mașini de raliu omologarea tehnică o emite FIA, nu federația națională.",
-        "Inițiatorii declară impactul bugetar «nesemnificativ» (circa 50-60 de vehicule), dar nu îl cuantifică. Nu există fișă financiară, deși măsura reduce veniturile bugetului de stat.",
-        "Neconcordanțe de tehnică legislativă: «Articol unic» și «Art. I» apar în același text; formula introductivă spune «se completează», dar litera e de fapt modificată; lit. b) vorbește de «autoturisme», iar excepția de «autovehicule»."
-      ],
-      "blindSpotsCaught": "Art. 4 alin. (1) din Codul fiscal cere ca modificările codului să intre în vigoare la cel puțin 6 luni de la publicare, iar impozitul vizat este anual. Propunerea nu are nicio dată de intrare în vigoare și nicio normă tranzitorie, deci nu se știe din ce an fiscal se aplică scutirea. De asemenea, nu e clar cum se tratează anul în care mențiunea din CIV este înscrisă sau radiată. În plus, rescrierea integrală a lit. b), în locul unei teze noi, riscă să anuleze tacit modificări adoptate între timp.",
-      "constitutionalityNote": "Pe fond, propunerea nu ridică probleme. Scutirea se stabilește prin lege (art. 139 alin. (1)) și are un criteriu obiectiv, destinația exclusiv sportivă, coerent cu scopul unui impozit pe bunuri de valoare mare. Este deci compatibilă cu art. 16 și cu art. 56 alin. (2). Riscurile țin de procedură și de claritate. Informarea Guvernului e obligatorie pentru inițiativele care modifică bugetul de stat (art. 111 alin. (1)). Formulări precum «federația sportivă de specialitate» și lipsa datei de aplicare pot fi criticate pe art. 1 alin. (5).",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă textul nu reglementează accesul la o profesie. Directiva (UE) 2015/1535 (TRIS) nu e relevantă: nu e vorba de servicii digitale sau AI, iar scutirea se raportează la omologări existente fără să impună produselor specificații tehnice noi. Pentru piața unică, textul ar trebui să accepte explicit și omologările FIA sau ale federațiilor din alte state membre. Altfel, vehiculele omologate în străinătate și înmatriculate în România ar putea fi dezavantajate. Avantajul pentru echipele organizate ca firme e mic și, la aceste sume, se încadrează probabil sub pragul de minimis pentru ajutor de stat.",
-      "senatForm": {
-        "articleRef": "Art. 500¹ alin. (1) lit. b) Cod fiscal",
-        "proposalContent": "Lit. b) se completează cu o teză nouă, fără a fi rescrisă: „Fac excepție autoturismele destinate exclusiv competițiilor sportive, omologate de federația națională de specialitate sau de FIA, cu această mențiune în cartea de identitate. La radierea mențiunii, impozitul se datorează pentru perioada rămasă din cei 5 ani.” Intrare în vigoare: 1 ianuarie a anului următor.",
-        "argumentation": "Rescrierea lit. b) poate anula tacit modificări ale pragului adoptate între timp; o teză nouă evită riscul. „Omologate de federația de specialitate” e neclar: multe mașini sunt omologate de FIA, iar federația nu e numită. Nu e clar ce se întâmplă în anul în care mențiunea apare sau dispare din CIV. O dată fixă dă previzibilitate (art. 1 alin. (5) Constituție).",
-        "otherComments": "Inițiativa reduce venituri la bugetul de stat: informarea Guvernului e obligatorie (art. 111 alin. (1) Constituție); impactul pentru cele 50-60 de mașini trebuie cuantificat în fișa financiară. De corectat: „Articol unic” și „Art. I” coexistă; „se completează” deși lit. b) se modifică. Termenul de 6 luni din art. 4 Cod fiscal trebuie respectat sau derogat expres."
-      },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 151502,
+      "durationMs": 96172,
+      "sourceEndMarker": "SF-CC5FD4A4",
       "riskScore": 3,
       "riskLevel": "green",
       "plainTitle": "Scutire de taxa de lux pentru mașinile de competiție",
-      "verdictShort": "Propunerea introduce o facilitate fiscală restrânsă, justificabilă prin utilizarea exclusiv sportivă a vehiculelor. Riscurile principale sunt aplicarea neclară a scutirii și fundamentarea insuficientă a impactului bugetar.",
-      "initiatorClaim": "Inițiatorii susțin că prețul ridicat al mașinilor de competiție reflectă cerințe tehnice și de siguranță, iar taxarea lor afectează sportul automobilistic. Ei estimează aproximativ 50–60 de vehicule beneficiare și invocă venituri economice indirecte care ar compensa scutirea.",
-      "realityCheck": "Textul exceptează de la impozitul special autoturismele care îndeplinesc cumulativ condițiile privind destinația exclusiv competițională, omologarea sportivă și înscrierea destinației în cartea de identitate a vehiculului. Pragul de 375.000 lei și perioada de impozitare de cinci ani rămân neschimbate; vehiculele neînmatriculate/neînregistrate în România sunt deja în afara ipotezei fiscale reproduse. Propunerea nu stabilește explicit primul an de aplicare, consecințele pierderii destinației sportive sau restituirea impozitelor anterior achitate.",
+      "verdictShort": "Proiectul introduce o facilitate fiscală limitată, cu o justificare sportivă plauzibilă, fără taxe sau sancțiuni noi. Sunt necesare clarificări privind aplicarea în timp, dovada eligibilității și impactul bugetar.",
+      "initiatorClaim": "Inițiatorii susțin că prețul mașinilor de competiție reflectă cerințe tehnice și de siguranță, iar taxarea lor afectează sportul și activitățile economice conexe. Ei estimează aproximativ 50–60 de vehicule și afirmă că scutirea ar produce un câștig bugetar indirect.",
+      "realityCheck": "În prezent, autoturismele înmatriculate/înregistrate în România cu o valoare individuală de achiziție peste 375.000 lei intră în sfera impozitului special pentru perioada legală de cinci ani; proiectul păstrează aceste reguli. Singura noutate este scutirea pentru vehiculele destinate exclusiv competițiilor sportive, omologate de federația de specialitate și având destinația înscrisă în cartea de identitate. Scutirea privește acest impozit special, fără să elimine impozitul local, TVA sau alte obligații fiscale.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Șoferi & Auto"
       ],
       "keyFindings": [
-        "Art. 500¹ alin. (1) lit. b): se introduce o excepție fiscală pentru o categorie delimitată de autoturisme, fără taxe sau sancțiuni noi.",
-        "Beneficiarii pot fi persoane fizice și persoane juridice. Textul nu rezervă facilitatea unui club sau unei federații nominalizate, dar documentele sportive și CIV devin decisive pentru accesul la scutire.",
-        "Omologarea de către federația sportivă și înscrierea în CIV sunt condiții cumulative. Trebuie precizate documentele acceptate și delimitate atribuțiile federației de cele ale autorității competente pentru CIV.",
-        "Estimarea de 50–60 de vehicule și afirmația unui câștig bugetar net nu sunt demonstrate prin calcule în expunerea furnizată. Suspendarea unui raliu nu dovedește, singură, că acest impozit este cauza.",
-        "Formula finală invocă art. 76 alin. (1), privind legile organice. Modificarea fiscală descrisă ține, în principiu, de legea ordinară, pentru care este relevant art. 76 alin. (2)."
+        "Art. 500¹ alin. (1) lit. b): pragul de 375.000 lei și perioada de cinci ani există deja; proiectul adaugă exclusiv o scutire.",
+        "Condițiile sunt cumulative: destinație exclusiv competițională, omologare de către federația sportivă de specialitate și înscrierea destinației în cartea de identitate. Simpla participare ocazională la o cursă nu este suficientă.",
+        "Proiectul nu stabilește un an fiscal de aplicare și nu reglementează schimbarea destinației vehiculului. Nu prevede anularea sau restituirea impozitelor aferente perioadelor anterioare.",
+        "Documentele furnizate nu cuantifică veniturile fiscale pierdute și nu probează câștigul bugetar net invocat. Scutirea reduce sarcina fiscală a beneficiarilor, dar păstrează necesitatea documentării condițiilor."
       ],
-      "blindSpotsCaught": "Existența unei condiții tehnice legate de o facilitate fiscală impune o examinare TRIS chiar dacă proiectul nu privește servicii digitale; absența componentei digitale nu exclude singură Directiva 2015/1535. Separat, eligibilitatea exclusiv sportivă trebuie verificată și după acordarea scutirii. Evaluarea privește extrasele furnizate: dosarul oficial și legislația consolidată nu au putut fi verificate online în această sesiune.",
-      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă. Diferența de tratament poate avea o justificare obiectivă prin utilizarea exclusiv competițională, în raport cu egalitatea și justa așezare a sarcinilor fiscale, dar justificarea trebuie susținută. Art. 1 alin. (5) cere criterii verificabile și reguli temporale clare. Art. 23 alin. (12) privește legalitatea pedepselor și nu este direct incident, deoarece proiectul nu instituie pedepse. Diminuarea veniturilor bugetare face relevantă solicitarea informării Guvernului potrivit art. 111 alin. (1); extrasul nu permite verificarea îndeplinirii acestei obligații. Art. 138 alin. (5), referitor la cheltuieli, nu transformă automat o scutire fiscală într-o încălcare constituțională. Formula de adoptare trebuie corelată cu natura ordinară a reglementării.",
-      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementărilor profesiilor, nu orice facilitate fiscală; proiectul nu introduce o profesie reglementată sau condiții de acces la aceasta. Directiva (UE) 2015/1535 nu este incidentă pe componenta serviciilor societății informaționale, însă trebuie examinată componenta bunurilor: art. 1 alin. (1) lit. (f) pct. (iii) include anumite specificații sau cerințe legate de măsuri fiscale. Simpla trimitere la o omologare existentă nu demonstrează, fără analiza cadrului tehnic aplicabil, că notificarea este obligatorie. Pentru beneficiarii care desfășoară activități economice trebuie verificat și art. 107 alin. (1) TFUE: o scutire selectivă poate constitui ajutor de stat dacă sunt îndeplinite toate condițiile, inclusiv efectul asupra concurenței și schimburilor dintre statele membre. Numărul mic de vehicule nu exclude singur această analiză.",
+      "blindSpotsCaught": "Excepția nu este limitată la raliuri, la cluburi sportive sau la cele 50–60 de vehicule invocate în motivare: poate beneficia orice proprietar eligibil, inclusiv pentru achiziții viitoare. Deși folosește termenul mai larg «autovehicule», scutirea operează în interiorul impozitului aplicabil autoturismelor și nu extinde sfera acestuia.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă. Diferențierea fiscală poate fi justificată obiectiv prin utilizarea exclusiv sportivă, în raport cu art. 16 și art. 56 alin. (2). Art. 1 alin. (5) justifică precizarea federației competente, a dovezilor și a efectelor schimbării destinației. Aplicarea temporală trebuie corelată cu art. 4 din Codul fiscal și cu neretroactivitatea din art. 15 alin. (2); absența dispozițiilor tranzitorii nu anulează regulile generale. Art. 23 alin. (12) nu este direct incident, nefiind instituite pedepse. Pentru diminuarea veniturilor bugetare trebuie documentată solicitarea informațiilor Guvernului potrivit art. 111 alin. (1), fără a presupune din extras că aceasta lipsește. Trimiterea finală la art. 76 alin. (1) trebuie verificată: o asemenea modificare fiscală are, în principiu, caracter de lege ordinară, dar formula de adoptare nu dovedește singură neconstituționalitatea.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este direct aplicabilă: proiectul nu reglementează accesul la o profesie reglementată sau exercitarea acesteia. Nu sunt reglementate servicii digitale ori AI. Totuși, TRIS nu privește exclusiv domeniul digital: trebuie verificat dacă legarea avantajului fiscal de omologarea tehnică intră în art. 1 alin. (1) lit. (f) pct. (iii) din Directiva (UE) 2015/1535; notificarea nu poate fi declarată obligatorie doar din acest extras. Pentru beneficiarii care desfășoară activitate economică trebuie analizate criteriile ajutorului de stat din art. 107 alin. (1) TFUE. Scutirea nu este automat ajutor incompatibil, iar numărul mic de vehicule nu exclude singur această problemă. Clarificarea acceptării omologărilor echivalente poate preveni bariere nejustificate. Verificarea online nu a fost disponibilă; evaluarea necesită confruntarea cu versiunile oficiale actualizate.",
       "senatForm": {
-        "articleRef": "Articol unic – art. 500¹ alin. (1) lit. b)",
-        "proposalContent": "Precizați documentele existente care dovedesc omologarea sportivă și destinația exclusiv competițională, precum și efectele pierderii acestei destinații. Stabiliți expres primul an fiscal de aplicare a scutirii, cu respectarea art. 4 din Codul fiscal și a neretroactivității.",
-        "argumentation": "Condițiile cumulative trebuie să poată fi verificate uniform de contribuabili și ANAF. Delimitarea atribuțiilor federației și ale autorității competente pentru CIV evită refuzurile arbitrare. Reglementarea aplicării în timp previne litigii privind impozitul anual și eventualele restituiri.",
-        "otherComments": "Publicați calculul veniturilor fiscale pierdute și baza estimării de 50–60 de vehicule. Verificați informarea Guvernului, ajutorul de stat și eventuala incidență TRIS. Corectați formula de adoptare prin raportare la art. 76 alin. (2), corespunzător unei legi ordinare."
+        "articleRef": "Art. unic – art. 500¹ alin. (1) lit. b)",
+        "proposalContent": "Precizați federația competentă, regimul omologărilor echivalente și documentele care dovedesc destinația exclusiv sportivă. Stabiliți anul fiscal de aplicare și efectele schimbării destinației vehiculului, cu respectarea art. 4 din Codul fiscal și a neretroactivității.",
+        "argumentation": "Scutirea are o justificare obiectivă posibilă, dar condițiile trebuie aplicate uniform și verificabil. Lipsa regulilor temporale poate produce practici fiscale divergente. Estimarea de 50–60 de vehicule nu înlocuiește calculul veniturilor pierdute și fundamentarea efectelor economice invocate.",
+        "otherComments": "Documentați informarea Guvernului potrivit art. 111 alin. (1) din Constituție și impactul bugetar. Verificați ajutorul de stat și eventuala incidență TRIS pentru condițiile tehnice fiscale. Corectați formula «Articol unic Art. I» și verificați referirea la majoritatea de adoptare."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-04T08:03:06.764Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:24:50.299Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

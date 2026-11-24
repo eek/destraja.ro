@@ -2,7 +2,7 @@
   "billId": "Pl-x 715/2026",
   "slug": "plx-715-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:23:10.430Z",
+  "updatedAt": "2026-11-24T14:35:56.710Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "key": "02048ec2d1e12642"
   },
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
-    "plainTitle": "TVA de 9% la locuințe noi de până la 750.000 lei, dar fără limita la o singură casă",
-    "summaryTlDr": "Scopul este legitim (reducerea TVA de la 21% la 9% pentru locuințe accesibile), însă redactarea lasă o portiță majoră pentru achiziții speculative multiple și comandă renumerotarea întregului Cod fiscal pentru un singur alineat.",
-    "initiatorClaim": "Inițiatorii susțin că reintroduc permanent cota redusă de TVA de 9% exclusiv pentru cumpărarea primei locuințe (până la 120 mp și 750.000 lei fără TVA), după ce Legea nr. 141/2025 a eliminat facilitatea și a urcat TVA standard la 21%.",
-    "realityCheck": "În textul efectiv al Art. I (alin. 2¹), cota de 9% se acordă pentru «prima livrare de locuințe» (prima vânzare de la dezvoltator), fără nicio limitare la o singură locuință per persoană fizică și fără obligația ca imobilul să poată fi locuit ca atare. Mai mult, proiectul nu reintroduce temeiul legal al Registrului verificat de notari (alin. 3⁶ și 3⁷ rămân abrogate), iar Art. II dispune republicarea și renumerotarea întregului Cod fiscal, riscând un haos administrativ și contabil.",
+    "plainTitle": "TVA de 9% la locuințele noi de până la 750.000 lei și 120 mp, fără termen de expirare",
+    "summaryTlDr": "O facilitate fiscală populară, compatibilă în principiu cu dreptul UE, dar scrisă mai larg decât spune expunerea de motive. Textul nu cere ca locuința să fie prima a cumpărătorului, iar costul bugetar nu este cuantificat deloc.",
+    "initiatorClaim": "Inițiatorii vor să reintroducă permanent cota redusă de TVA pentru prima locuință, eliminată prin Legea nr. 141/2025. Scopul declarat este ca tinerii și familiile să poată cumpăra mai ușor un cămin, iar sprijinul să nu ajungă la achiziții speculative.",
+    "realityCheck": "Art. I introduce alin. (2¹) la art. 291: cota de 9% se aplică la „prima livrare” a locuințelor de maximum 120 mp utili și 750.000 lei fără TVA (cu teren), cumpărate de persoane fizice. În TVA, „prima livrare” înseamnă vânzarea unei clădiri noi, nu prima locuință a cumpărătorului. Textul nu cere ca acesta să nu dețină altă locuință, nu limitează beneficiul la o singură unitate și nu prevede declarație notarială sau registru. Așa, un investitor persoană fizică poate cumpăra oricâte apartamente sub plafon cu 9%, exact efectul speculativ pe care expunerea de motive spune că îl evită.",
     "affectedGroups": [
       "Proprietari & Imobiliare",
       "Contabili & Fiscalitate",
@@ -44,10 +44,10 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I (art. 291 alin. 2¹) și Art. II",
-      "proposalContent": "La Art. I, completați alin. (2¹) cu limita de o singură locuință per persoană fizică, condiția de a putea fi locuită ca atare la livrare și reintroducerea temeiului Registrului notarial/ANAF (fostele alin. 3⁶-3⁷). Eliminați Art. II (renumerotarea Codului fiscal) și aliniați la 9% și art. 291 alin. (2) lit. l).",
-      "argumentation": "Formula «prima livrare de locuințe» fără plafon pe cumpărător permite achiziții speculative multiple la 9% TVA, contrar Expunerii de Motive și Anexei III din Directiva TVA 2006/112/CE. Fără temeiul Registrului, notarii nu pot verifica condiția, iar renumerotarea Codului fiscal ar bulversa legislația și contabilitatea.",
-      "otherComments": "Solicitați Guvernului fișa financiară cu impactul bugetar concret (art. 111 alin. 1 Constituție) și introduceți norme tranzitorii clare pentru avansurile facturate cu 21% TVA înainte de intrarea în vigoare, dar cu livrare ulterioară. Nu lăsați căminele de bătrâni și casele de copii la 11% TVA în timp ce apartamentele scad la 9%."
+      "articleRef": "Art. I – art. 291 alin. (2¹) Cod fiscal",
+      "proposalContent": "Se completează la final: „, cu condiția ca fiecare cumpărător să nu fi deținut și să nu dețină la data livrării nicio locuință în proprietate și să nu fi beneficiat anterior de cota redusă pentru o locuință. Condițiile se atestă prin declarație pe propria răspundere în fața notarului, iar Ministerul Finanțelor organizează registrul acestor achiziții prin norme.”",
+      "argumentation": "Textul vizează „prima livrare” (clădire nouă), nu prima locuință a cumpărătorului. Fără condiții, cota de 9% se aplică oricui, pentru oricâte unități sub plafon, inclusiv investitorilor. Amendamentul aliniază textul la scopul declarat în expunerea de motive, întărește caracterul de politică socială cerut de anexa III la Directiva TVA și reduce costul bugetar.",
+      "otherComments": "Solicitați fișa financiară (art. 111 Constituție, art. 15 Legea 500/2002): impactul nu este cuantificat. Clarificați aplicarea în timp pentru avansurile și contractele încheiate între 1.08.2026 și intrarea în vigoare. Analizați indexarea anuală a plafonului de 750.000 lei și trimiterea la definiția locuinței din Legea nr. 114/1996."
     }
   },
   "council": {
@@ -88,8 +88,39 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 56281,
+      "sourceEndMarker": "SF-EF621A0E",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "TVA de 9% la locuințele noi de până la 750.000 lei și 120 mp, fără termen de expirare",
+      "verdictShort": "O facilitate fiscală populară, compatibilă în principiu cu dreptul UE, dar scrisă mai larg decât spune expunerea de motive. Textul nu cere ca locuința să fie prima a cumpărătorului, iar costul bugetar nu este cuantificat deloc.",
+      "initiatorClaim": "Inițiatorii vor să reintroducă permanent cota redusă de TVA pentru prima locuință, eliminată prin Legea nr. 141/2025. Scopul declarat este ca tinerii și familiile să poată cumpăra mai ușor un cămin, iar sprijinul să nu ajungă la achiziții speculative.",
+      "realityCheck": "Art. I introduce alin. (2¹) la art. 291: cota de 9% se aplică la „prima livrare” a locuințelor de maximum 120 mp utili și 750.000 lei fără TVA (cu teren), cumpărate de persoane fizice. În TVA, „prima livrare” înseamnă vânzarea unei clădiri noi, nu prima locuință a cumpărătorului. Textul nu cere ca acesta să nu dețină altă locuință, nu limitează beneficiul la o singură unitate și nu prevede declarație notarială sau registru. Așa, un investitor persoană fizică poate cumpăra oricâte apartamente sub plafon cu 9%, exact efectul speculativ pe care expunerea de motive spune că îl evită.",
+      "affectedGroups": [
+        "Proprietari & Imobiliare",
+        "Contabili & Fiscalitate",
+        "IMM & Antreprenori",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I – alin. (2¹) nou la art. 291: cota de 9% la prima livrare de locuințe de ≤120 mp utili (fără anexe) și ≤750.000 lei fără TVA, inclusiv terenul, către persoane fizice, individual sau în comun. În prezent, după expirarea regimului tranzitoriu din Legea nr. 141/2025 (31.07.2026), aceste livrări se taxează cu 21%.",
+        "Lipsește condiția „primei locuințe” pentru cumpărător. Spre deosebire de regimul anterior, care cerea ca persoana să nu fi deținut și să nu dețină o locuință și să beneficieze o singură dată, textul nu limitează numărul de achiziții. Registrul și verificarea notarială descrise în expunerea de motive (cap. VII) nu apar în articol.",
+        "Cota de 9% devine a doua cotă redusă, alături de 11% din alin. (2). Este permis de art. 98 din Directiva 2006/112/CE, modificată prin Directiva 2022/542 (cel mult două cote reduse de minimum 5%), dar complică sistemul pe care Legea nr. 141/2025 tocmai îl simplificase la o singură cotă redusă.",
+        "Impactul bugetar nu este cuantificat. Expunerea de motive trimite totul la fișa financiară a Guvernului, deși diferența de 12 puncte procentuale pe toate locuințele noi sub plafon este o pierdere de venituri importantă, într-un context de deficit excesiv.",
+        "Art. III – intrarea în vigoare la 6 luni de la publicare respectă art. 4 alin. (1) din Codul fiscal. Între 1 august 2026 și intrarea în vigoare rămâne însă un gol în care se aplică 21%, iar textul nu spune nimic despre avansurile sau antecontractele încheiate în acest interval. Cumpărătorii vor fi tentați să amâne tranzacțiile.",
+        "Plafonul de 750.000 lei este fix, fără indexare. Termenul „locuință” nu este definit în noul alineat, iar regimul anterior trimitea la Legea locuinței nr. 114/1996."
+      ],
+      "blindSpotsCaught": "Formularea „prima livrare de locuințe” este termenul tehnic din Codul fiscal pentru vânzarea unei clădiri noi (cele vechi sunt oricum scutite de TVA). Nu este o condiție privind cumpărătorul. Diferența dintre titlul politic („prima locuință”) și efectul juridic real (orice locuință nouă sub plafon, către orice persoană fizică, fără limită de număr) este cea mai importantă chichiță. Mai trebuie observat că, fără condiții privind cumpărătorul, riscul fiscal al vânzătorului scade: dezvoltatorul verifică doar suprafața, prețul și calitatea de persoană fizică.",
+      "constitutionalityNote": "Fondul nu ridică probleme majore: legiuitorul are o marjă largă în stabilirea facilităților fiscale (art. 56, art. 139), iar diferențierea după valoare și suprafață are o justificare obiectivă. Mai problematică este discrepanța dintre scopul declarat și textul adoptat, din perspectiva previzibilității (art. 1 alin. (5)). La nivel procedural, propunerea reduce veniturile bugetare fără să le estimeze și fără o sursă de compensare. Art. 111 alin. (1) obligă la solicitarea punctului de vedere al Guvernului, iar art. 15 din Legea nr. 500/2002 și Legea responsabilității fiscal-bugetare nr. 69/2010 cer evaluarea impactului. Lipsa acestora poate fi invocată la controlul de constituționalitate. Art. 138 alin. (5) vizează în principal cheltuielile, nu reducerile de venituri.",
+      "euLawNote": "Directiva 2006/112/CE, anexa III pct. 10, permite cote reduse pentru livrarea de locuințe „ca parte a unei politici sociale”, iar art. 98 permite două cote reduse de cel puțin 5%. Cota de 9% se încadrează. Riscul ține de criteriul „politicii sociale”: o măsură fără condiții privind cumpărătorul (venit, lipsa altei locuințe, folosință proprie) se apără mai greu ca politică socială în fața Comisiei sau a CJUE decât regimul anterior. Pentru o facilitate pe criterii obiective, generale, nu se pune problema ajutorului de stat. Directiva 2018/958 nu se aplică, fiindcă nu se reglementează o profesie, și nici TRIS 2015/1535, fiindcă nu sunt vizate servicii digitale sau reglementări tehnice.",
+      "senatForm": {
+        "articleRef": "Art. I – art. 291 alin. (2¹) Cod fiscal",
+        "proposalContent": "Se completează la final: „, cu condiția ca fiecare cumpărător să nu fi deținut și să nu dețină la data livrării nicio locuință în proprietate și să nu fi beneficiat anterior de cota redusă pentru o locuință. Condițiile se atestă prin declarație pe propria răspundere în fața notarului, iar Ministerul Finanțelor organizează registrul acestor achiziții prin norme.”",
+        "argumentation": "Textul vizează „prima livrare” (clădire nouă), nu prima locuință a cumpărătorului. Fără condiții, cota de 9% se aplică oricui, pentru oricâte unități sub plafon, inclusiv investitorilor. Amendamentul aliniază textul la scopul declarat în expunerea de motive, întărește caracterul de politică socială cerut de anexa III la Directiva TVA și reduce costul bugetar.",
+        "otherComments": "Solicitați fișa financiară (art. 111 Constituție, art. 15 Legea 500/2002): impactul nu este cuantificat. Clarificați aplicarea în timp pentru avansurile și contractele încheiate între 1.08.2026 și intrarea în vigoare. Analizați indexarea anuală a plafonului de 750.000 lei și trimiterea la definiția locuinței din Legea nr. 114/1996."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -143,7 +174,7 @@
         "codex": 5
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:23:10.430Z",
+      "replacedAt": "2026-11-24T14:35:56.710Z",
       "reasons": [
         "model"
       ]

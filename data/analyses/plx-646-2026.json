@@ -2,7 +2,7 @@
   "billId": "PL 646/2026",
   "slug": "plx-646-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:29:49.898Z",
+  "updatedAt": "2026-11-24T14:39:33.854Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,21 +31,21 @@
     "key": "51ca274d7491badc"
   },
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 2.7,
     "riskLevel": "green",
-    "plainTitle": "Bancomatele, obligate să te lase să introduci suma dorită la retragere",
-    "summaryTlDr": "Este o lege în esență benefică și pro-consumator, care combate practica bancomatelor de a forța retrageri doar din sume mari prestabilite. Riscă însă să fie ușor de ocolit de operatorii independenți de ATM-uri din cauza unei scăpări de tehnică legislativă în articolul cu amenzi.",
-    "initiatorClaim": "Inițiatorii (un grup larg transpartinic) susțin că multe ATM-uri restricționează clienții altor bănci la câteva sume prestabilite, obligându-i să retragă mai mulți bani decât au nevoie. Proiectul vizează garantarea dreptului de a introduce o sumă personalizată pe orice bancomat, fără discriminare și fără costuri pentru bugetul de stat.",
-    "realityCheck": "Legea introduce art. 221¹ în Legea nr. 209/2019, obligând operatorii de ATM-uri să ofere opțiunea de sumă personalizată în termen de 120 de zile de la publicare, și o adaugă la contravențiile deja existente în art. 230 (unde amenda de 50.000–100.000 lei era deja în vigoare). În practică, măsura este utilă și proporțională, dar are trei breșe: nu corelează clar sancțiunea din art. 230 cu operatorii independenți de ATM, nu sancționează abuzul de „limite tehnice” din alin. (4) și limitează aplicarea la cardurile băncilor cu activitate notificată în România.",
+    "plainTitle": "La orice bancomat poți cere exact suma dorită, chiar dacă ai card de la altă bancă",
+    "summaryTlDr": "Este o lege mică, utilă și favorabilă consumatorilor, cu un cost redus de implementare. Problema principală e de redactare: operatorii independenți de ATM-uri, cei mai expuși criticii, ar putea scăpa de obligație și de amendă.",
+    "initiatorClaim": "Inițiatorii spun că multe ATM-uri le oferă clienților altor bănci doar sume prestabilite, deși aceștia plătesc comision, și îi forțează astfel să scoată mai mult decât au nevoie. Vor să impună opțiunea de sumă personalizată pentru toți utilizatorii, fără discriminare după emitentul cardului.",
+    "realityCheck": "Proiectul introduce art. 221¹ în Legea 209/2019. Operatorii de ATM care sunt prestatori de servicii de plată trebuie să ofere opțiunea de sumă personalizată tuturor deținătorilor de carduri emise de prestatori activi în România, în limita numerarului disponibil, a cupiurilor existente și a limitelor tehnice și de securitate, care trebuie să fie obiective și nediscriminatorii. Încălcarea devine contravenție în art. 230, cu amendă de 50.000–100.000 lei, același cuantum ca pentru celelalte fapte deja listate. Comisioanele, conversia valutară și limitele contractuale rămân neatinse, deci legea nu ieftinește retragerile. Subiectul obligației e formulat confuz și s-ar putea să nu-i acopere pe operatorii independenți de ATM.",
     "affectedGroups": [
       "Toți cetățenii",
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 1 (art. 221¹) și pct. 2 (art. 230)",
-      "proposalContent": "La art. 221¹ alin. (1) și art. 230 se includ expres și furnizorii independenți de ATM de la art. 4 alin. (1) lit. p). La art. 221¹ alin. (2) obligația se aplică tuturor cardurilor acceptate la ATM, iar opțiunea de sumă personalizată va fi vizibilă pe ecranul principal. La art. 230 se sancționează și încălcarea art. 221¹ alin. (4).",
-      "argumentation": "Operatorii independenți de ATM (art. 4 alin. 1 lit. p) nu sunt prestatori după art. 2, riscând să scape de amenda din art. 230. Un ATM nu poate verifica tehnic ce bănci UE au notificat BNR, iar limitarea discriminează cetățenii UE. Sancționarea alin. (4) și vizibilitatea pe ecran previn ocolirea legii prin limite arbitrare sau meniuri ascunse.",
-      "otherComments": "Proiectul este benefic pentru consumatori și merită susținut. Corectați eroarea materială „territoriul” la art. 221¹ alin. (2) și clarificați dacă impunerea de cerințe software pe interfața ATM necesită notificare către Comisia Europeană conform Directivei (UE) 2015/1535 (TRIS), pentru a preveni inopozabilitatea legii în instanță."
+      "articleRef": "Art. I pct. 1 – art. 221¹ alin. (1) și art. 230",
+      "proposalContent": "Art. 221¹ alin. (1): „Prestatorii de servicii de plată prevăzuți la art. 2 care operează ATM, precum și furnizorii de servicii de retragere de numerar prin ATM prevăzuți la art. 4 alin. (1) lit. p), au obligația de a pune la dispoziția utilizatorilor, prin interfața ATM, opțiunea introducerii unei sume personalizate.” Corelativ, art. 230 se aplică și acestor furnizori.",
+      "argumentation": "Textul Senatului amestecă subiectul obligației (operatorul ATM) cu emitentul cardului. Operatorii independenți de ATM sunt excluși din lege prin art. 4 și nu sunt „prestatori prevăzuți la art. 2”, deci art. 230 nu li se aplică. Exact rețelele independente, cu comisioane mari, ar rămâne neacoperite.",
+      "otherComments": "Corectați „territoriul” din alin. (2). Lămuriți dacă sunt incluse și cardurile emise de bănci străine fără activitate în România (turiști). Termenul de 120 de zile pare suficient pentru actualizarea software-ului, dar BNR ar trebui abilitată să emită norme de aplicare."
     }
   },
   "council": {
@@ -84,8 +84,36 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 53236,
+      "sourceEndMarker": "SF-03DE7CF6",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "La orice bancomat poți cere exact suma dorită, chiar dacă ai card de la altă bancă",
+      "verdictShort": "Este o lege mică, utilă și favorabilă consumatorilor, cu un cost redus de implementare. Problema principală e de redactare: operatorii independenți de ATM-uri, cei mai expuși criticii, ar putea scăpa de obligație și de amendă.",
+      "initiatorClaim": "Inițiatorii spun că multe ATM-uri le oferă clienților altor bănci doar sume prestabilite, deși aceștia plătesc comision, și îi forțează astfel să scoată mai mult decât au nevoie. Vor să impună opțiunea de sumă personalizată pentru toți utilizatorii, fără discriminare după emitentul cardului.",
+      "realityCheck": "Proiectul introduce art. 221¹ în Legea 209/2019. Operatorii de ATM care sunt prestatori de servicii de plată trebuie să ofere opțiunea de sumă personalizată tuturor deținătorilor de carduri emise de prestatori activi în România, în limita numerarului disponibil, a cupiurilor existente și a limitelor tehnice și de securitate, care trebuie să fie obiective și nediscriminatorii. Încălcarea devine contravenție în art. 230, cu amendă de 50.000–100.000 lei, același cuantum ca pentru celelalte fapte deja listate. Comisioanele, conversia valutară și limitele contractuale rămân neatinse, deci legea nu ieftinește retragerile. Subiectul obligației e formulat confuz și s-ar putea să nu-i acopere pe operatorii independenți de ATM.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 (art. 221¹ alin. 1): obligația revine «prestatorilor de servicii de plată care operează ATM». Textul adaugă «indiferent dacă terminalul este operat direct de prestatorul emitent al cardului sau de un furnizor de servicii de retragere de numerar prin ATM în sensul art. 4 alin. (1) lit. p)». Formularea amestecă operatorul terminalului cu emitentul cardului și lasă neclar cine anume este obligat.",
+        "Art. I pct. 2 (art. 230): lista contravențiilor este identică cu cea în vigoare, cu o singură adăugire, art. 221¹ alin. (1) și (2). Sancțiunea vizează doar «prestatorii de servicii de plată prevăzuți la art. 2» și doar când sunt afectate sau pot fi afectate interesele consumatorilor. Operatorii de ATM excluși din domeniul legii prin art. 4 nu sunt prestatori în sensul art. 2, deci amenda pare să nu li se poată aplica.",
+        "Art. 221¹ alin. (2): beneficiarii sunt deținătorii de carduri emise de prestatori care activează în România, prin autorizare BNR sau prin pașaport UE. Cardurile emise de bănci străine fără activitate în România, de exemplu ale turiștilor, par să rămână în afara garanției. Alin. (2) păstrează expres comisioanele și limitele contractuale, așa că măsura nu are efect asupra costului retragerii.",
+        "Art. 221¹ alin. (3)–(4): retragerea rapidă cu sume prestabilite poate rămâne, dar nu înlocuiește opțiunea de sumă personalizată. Limitele tehnice și de securitate trebuie să fie obiective, nediscriminatorii, proporționale și aplicate identic. Este o garanție bună împotriva ocolirii obligației prin «limite» arbitrare.",
+        "Art. II: legea intră în vigoare la 120 de zile de la publicare, un termen rezonabil pentru actualizarea software-ului ATM. Nu există nicio delegare către BNR pentru norme de aplicare sau pentru excepții tehnice, de exemplu la terminalele vechi care nu pot fi actualizate."
+      ],
+      "blindSpotsCaught": "Legea 209/2019 exclude din domeniul său, prin art. 4, operatorii independenți de ATM (transpunerea art. 3 lit. o din PSD2). Acești operatori nu sunt «prestatori prevăzuți la art. 2», iar art. 230 sancționează doar astfel de prestatori. Textul îi pomenește în art. 221¹ alin. (1), dar nu îi face clar destinatari ai obligației. Rezultatul paradoxal: rețelele independente, cu comisioanele cele mai mari, pot rămâne în afara obligației și a sancțiunii. Alte observații: greșeala «territoriul» în alin. (2); lipsa unei proceduri de constatare și a unei autorități competente menționate expres, care se deduce din regimul general al legii (BNR/ANPC pentru interesele consumatorilor); lipsa unei clauze pentru terminalele care tehnic nu pot fi actualizate.",
+      "constitutionalityNote": "Nu se văd probleme constituționale serioase. Obligația restrânge într-o mică măsură libertatea economică (art. 45), dar urmărește un scop legitim, protecția consumatorilor (art. 135 alin. 2 lit. a), și este proporțională: costul e în principal software, iar limitele tehnice și de securitate obiective rămân permise. Sub aspectul clarității și previzibilității (art. 1 alin. 5), formularea subiectului din art. 221¹ alin. (1) este ambiguă. Ambiguitatea contează mai ales pentru că încălcarea atrage o amendă de până la 100.000 lei, iar normele sancționatorii cer precizie. Amenda nu este nouă ca nivel: e cea existentă pentru toate celelalte obligații din art. 230.",
+      "euLawNote": "Directiva 2018/958 (testul de proporționalitate) nu se aplică, pentru că nu sunt reglementate profesii. PSD2 (2015/2366) armonizează maxim titlurile privind transparența și drepturile și obligațiile (art. 107), dar nu reglementează funcționalitatea interfeței ATM. Măsura pare să rămână în marja națională, cu condiția să nu afecteze regimul comisioanelor și al informării. Alin. (2) chiar le păstrează expres. Pentru băncile din UE care activează prin pașaport, obligația se aplică nediscriminatoriu și se justifică prin protecția consumatorului, deci nu ridică probleme de libertate a serviciilor. Notificarea TRIS (2015/1535) nu pare necesară: e o obligație de prestare a unui serviciu financiar fizic, nu o regulă privind servicii ale societății informaționale sau o specificație tehnică de produs. O notificare preventivă nu ar strica. Trebuie urmărită și corelarea cu viitorul Regulament UE privind serviciile de plată (PSR), care va fi direct aplicabil.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 1 – art. 221¹ alin. (1) și art. 230",
+        "proposalContent": "Art. 221¹ alin. (1): „Prestatorii de servicii de plată prevăzuți la art. 2 care operează ATM, precum și furnizorii de servicii de retragere de numerar prin ATM prevăzuți la art. 4 alin. (1) lit. p), au obligația de a pune la dispoziția utilizatorilor, prin interfața ATM, opțiunea introducerii unei sume personalizate.” Corelativ, art. 230 se aplică și acestor furnizori.",
+        "argumentation": "Textul Senatului amestecă subiectul obligației (operatorul ATM) cu emitentul cardului. Operatorii independenți de ATM sunt excluși din lege prin art. 4 și nu sunt „prestatori prevăzuți la art. 2”, deci art. 230 nu li se aplică. Exact rețelele independente, cu comisioane mari, ar rămâne neacoperite.",
+        "otherComments": "Corectați „territoriul” din alin. (2). Lămuriți dacă sunt incluse și cardurile emise de bănci străine fără activitate în România (turiști). Termenul de 120 de zile pare suficient pentru actualizarea software-ului, dar BNR ar trebui abilitată să emită norme de aplicare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -139,7 +167,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:29:49.898Z",
+      "replacedAt": "2026-11-24T14:39:33.854Z",
       "reasons": [
         "model"
       ]

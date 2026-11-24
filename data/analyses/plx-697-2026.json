@@ -2,7 +2,7 @@
   "billId": "Pl-x 697/2026",
   "slug": "plx-697-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:22:12.781Z",
+  "updatedAt": "2026-11-24T14:35:40.609Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "key": "8e351f0ea086ab4f"
   },
   "consensus": {
-    "riskScore": 3.5,
+    "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Chirie neimpozabilă până la 1.000 lei/lună pentru studenții angajați sub 26 de ani",
-    "summaryTlDr": "Intenție socială utilă și opțională pentru angajatori, dar redactată neglijent: lasă intacte contribuțiile sociale (CAS/CASS/CAM) și pasează firmelor riscuri fiscale neclare la verificarea condițiilor.",
-    "initiatorClaim": "Inițiatorii vor să sprijine studenții care muncesc și să reducă abandonul universitar cauzat de chiriile mari, scutind de impozit pe venit până la 1.000 lei/lună din chiria plătită de angajator.",
-    "realityCheck": "Legea nu obligă angajatorii să plătească chiria, ci doar adaugă lit. z) la art. 76 alin. (4) din Codul fiscal pentru impozitul pe venit (10%). În absența modificării articolelor privind contribuțiile sociale (CAS, CASS, CAM), suma rămâne purtătoare de contribuții, iar formularea ambiguă („nu deține o locuință ... în folosință”) și responsabilizarea angajatorului fără o listă de documente justificative creează un risc real de reclasificare fiscală la controalele ANAF.",
+    "plainTitle": "Chiria plătită de angajator pentru studenții salariați sub 26 de ani, scutită de impozit până la 1.000 lei pe lună",
+    "summaryTlDr": "Măsura e socială, de mică anvergură și fără capcane: scutește de impozitul pe venit chiria de până la 1.000 lei/lună plătită studenților angajați sub 26 de ani. Are însă probleme de redactare, iar efectul real e mic. Dacă nu se modifică și art. 142, suma rămâne supusă CAS și CASS, iar câștigul net e de cel mult circa 100 lei pe lună.",
+    "initiatorClaim": "Inițiatorii vor să ajute tinerii care studiază și lucrează în același timp să plătească chiria în marile centre universitare. Scopul declarat este reducerea abandonului universitar și încurajarea angajării tinerilor.",
+    "realityCheck": "Art. I adaugă o literă nouă în lista veniturilor neimpozabile de la art. 76 alin. (4) din Codul fiscal. Este vorba de chiria de până la 1.000 lei/lună primită de salariatul student sub 26 de ani care nu are locuință în localitatea unde lucrează și are un contract de închiriere legal. Scutirea privește doar impozitul pe venit, care e de 10%, deci economia maximă e de circa 100 lei/lună, iar angajatorul nu e obligat să ofere beneficiul. Textul nu definește noțiunea de «student», nu spune expres că suma e suportată de angajator și ignoră contribuțiile sociale, ceea ce poate duce la interpretări diferite între ANAF și angajatori.",
     "affectedGroups": [
       "Angajați & HR",
       "Contabili & Fiscalitate",
@@ -44,10 +44,10 @@
       "Proprietari & Imobiliare"
     ],
     "senatForm": {
-      "articleRef": "Art. I (art. 76 alin. (4) lit. z) Cod Fiscal)",
-      "proposalContent": "La lit. z) pct. (i): „nu deține o altă locuință în proprietate sau folosință, cu excepția celei închiriate”. Verificarea angajatorului să se facă prin adeverință de student, contract de închiriere și declarație pe propria răspundere. Propunem și corelarea cu art. 142 (CAS/CASS) și art. 220^4 (CAM) din Codul fiscal.",
-      "argumentation": "Actuala formulare „în folosință” include juridic chiar locuința închiriată, blocând aplicarea legii. Angajatorul nu poate verifica fapte negative fără a se baza pe declarația angajatului, riscând reclasificări ANAF. În plus, scutirea doar de impozitul de 10%, fără corelare cu CAS/CASS/CAM, reduce mult beneficiul real pentru studenți.",
-      "otherComments": "Solicitați Guvernului fișa financiară conform art. 111 alin. (1) și art. 138 alin. (5) din Constituție, pentru a evita invalidarea la CCR. Clarificați și situația telemuncii, a contractelor cu mai mulți chiriași (colegi de apartament), a formelor de studii eligibile și corelarea cu celelalte facilități de chirie din Codul fiscal."
+      "articleRef": "Art. I – art. 76 alin. (4) lit. z) Cod fiscal",
+      "proposalContent": "z) contravaloarea chiriei suportate de angajator, până la 1.000 lei/lună, pentru salariatul student înmatriculat la o universitate acreditată din România sau din UE/SEE, care nu a împlinit 26 de ani, fără locuință în proprietate sau folosință în localitatea locului de muncă, cu contract de închiriere înregistrat la ANAF.",
+      "argumentation": "Textul inițial nu definește «student» (nivel, formă de învățământ, universități străine), nu precizează că suma e suportată de angajator și lasă vagă formula «în condițiile legii». Trimiterea la înregistrarea contractului la ANAF, deja prevăzută de Codul fiscal, și includerea studenților din UE/SEE asigură previzibilitate, control fiscal și respectarea liberei circulații.",
+      "otherComments": "Fără modificarea art. 142, suma rămâne supusă CAS/CASS, iar avantajul real e de max. ~100 lei/lună. Verificați dacă lit. z) există deja în forma consolidată. Data de 1.01.2027 contravine art. 4 Cod fiscal (publicare cu 6 luni înainte). Propunem 1 ianuarie a anului următor publicării. Lipsește fișa financiară."
     }
   },
   "council": {
@@ -89,8 +89,40 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 60151,
+      "sourceEndMarker": "SF-BE014660",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Chiria plătită de angajator pentru studenții salariați sub 26 de ani, scutită de impozit până la 1.000 lei pe lună",
+      "verdictShort": "Măsura e socială, de mică anvergură și fără capcane: scutește de impozitul pe venit chiria de până la 1.000 lei/lună plătită studenților angajați sub 26 de ani. Are însă probleme de redactare, iar efectul real e mic. Dacă nu se modifică și art. 142, suma rămâne supusă CAS și CASS, iar câștigul net e de cel mult circa 100 lei pe lună.",
+      "initiatorClaim": "Inițiatorii vor să ajute tinerii care studiază și lucrează în același timp să plătească chiria în marile centre universitare. Scopul declarat este reducerea abandonului universitar și încurajarea angajării tinerilor.",
+      "realityCheck": "Art. I adaugă o literă nouă în lista veniturilor neimpozabile de la art. 76 alin. (4) din Codul fiscal. Este vorba de chiria de până la 1.000 lei/lună primită de salariatul student sub 26 de ani care nu are locuință în localitatea unde lucrează și are un contract de închiriere legal. Scutirea privește doar impozitul pe venit, care e de 10%, deci economia maximă e de circa 100 lei/lună, iar angajatorul nu e obligat să ofere beneficiul. Textul nu definește noțiunea de «student», nu spune expres că suma e suportată de angajator și ignoră contribuțiile sociale, ceea ce poate duce la interpretări diferite între ANAF și angajatori.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Contabili & Fiscalitate",
+        "IMM & Antreprenori",
+        "Sănătate & Educație",
+        "Proprietari & Imobiliare"
+      ],
+      "keyFindings": [
+        "Art. I – lit. z) nouă la art. 76 alin. (4): chiria de până la 1.000 lei/lună devine venit neimpozabil pentru salariatul student sub 26 de ani. Condițiile sunt să nu dețină locuință în proprietate sau în folosință în localitatea unde lucrează și să aibă un contract de închiriere încheiat în condițiile legii.",
+        "Scutirea vizează doar impozitul pe venit. Art. 142 din Codul fiscal, care enumeră separat veniturile scutite de CAS și CASS, nu este modificat, așa că suma intră în continuare în baza contribuțiilor. Beneficiul net rămâne de maximum aproximativ 100 lei/lună.",
+        "Lipsesc definiții esențiale. Nu se precizează nivelul de studii (licență, master, doctorat), forma de învățământ, dacă sunt incluse universitățile din alte state, nici dacă limita de «până la 26 de ani» e inclusivă. Nu e clar ce înseamnă «locuință în folosință».",
+        "Răspunderea pentru verificarea condițiilor revine angajatorului, pe bază de documente justificative. Riscul de corecții la un control ANAF cade astfel pe angajator, inclusiv pe IMM-uri, fără o listă clară a documentelor cerute.",
+        "Art. II fixează intrarea în vigoare la 1 ianuarie 2027. Termenul pentru amendamente e 3 noiembrie 2026, deci regula din art. 4 al Codului fiscal (publicarea cu cel puțin 6 luni înainte de intrarea în vigoare) nu poate fi respectată.",
+        "Nu există fișă financiară. Impactul bugetar, adică pierderea de venituri din impozit, nu este estimat, deși o cer art. 15 din Legea nr. 500/2002 și art. 33 din Legea nr. 24/2000."
+      ],
+      "blindSpotsCaught": "Formularea «primită de salariatul student» nu spune cine plătește. Expunerea de motive vorbește de chiria «suportată de angajator», dar textul normativ nu conține această precizare și nici nu clarifică dacă plata poate merge direct la proprietar. Numerotarea «după litera y) se introduce lit. z)» trebuie verificată pe forma consolidată, care e trunchiată aici. Art. 76 alin. (4) a fost completat de multe ori, așa că lit. z) ar putea exista deja, iar o suprapunere de numerotare ar crea confuzie normativă. Mai trebuie corelată noua literă cu lit. g), care acoperă navetiștii «pentru situațiile în care nu se asigură locuință sau nu se suportă contravaloarea chiriei». Rămâne neclar dacă un student poate primi ambele beneficii.",
+      "constitutionalityNote": "Nu se văd probleme majore de constituționalitate. Diferența de tratament între tinerii salariați studenți și ceilalți salariați urmărește un scop legitim (accesul la educație, art. 32) și este proporțională prin plafon și condiții, deci e compatibilă cu art. 16. Imprecizia noțiunilor de «student» și «locuință în folosință» poate fi criticată prin prisma art. 1 alin. (5), care cere claritate și previzibilitate, dar se poate corecta prin norme metodologice sau amendament. Proiectul reduce veniturile bugetare, așa că sunt necesare punctul de vedere al Guvernului (art. 111) și estimarea impactului financiar. Jurisprudența CCR sancționează lipsa acestora mai ales în cazul măsurilor care cresc cheltuielile bugetare (art. 138 alin. 5).",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează accesul la profesii. Directiva TRIS 2015/1535 nu se aplică, pentru că nu sunt vizate servicii ale societății informaționale. Scutirea privește persoane fizice și e accesibilă oricărui angajator, deci nu pare să constituie ajutor de stat selectiv în sensul art. 107 TFUE. Ar trebui totuși precizat că sunt eligibili și studenții înmatriculați în alte state membre UE/SEE. Altfel, o interpretare limitată la universitățile românești ar putea ridica probleme de liberă circulație a lucrătorilor (art. 45 TFUE).",
+      "senatForm": {
+        "articleRef": "Art. I – art. 76 alin. (4) lit. z) Cod fiscal",
+        "proposalContent": "z) contravaloarea chiriei suportate de angajator, până la 1.000 lei/lună, pentru salariatul student înmatriculat la o universitate acreditată din România sau din UE/SEE, care nu a împlinit 26 de ani, fără locuință în proprietate sau folosință în localitatea locului de muncă, cu contract de închiriere înregistrat la ANAF.",
+        "argumentation": "Textul inițial nu definește «student» (nivel, formă de învățământ, universități străine), nu precizează că suma e suportată de angajator și lasă vagă formula «în condițiile legii». Trimiterea la înregistrarea contractului la ANAF, deja prevăzută de Codul fiscal, și includerea studenților din UE/SEE asigură previzibilitate, control fiscal și respectarea liberei circulații.",
+        "otherComments": "Fără modificarea art. 142, suma rămâne supusă CAS/CASS, iar avantajul real e de max. ~100 lei/lună. Verificați dacă lit. z) există deja în forma consolidată. Data de 1.01.2027 contravine art. 4 Cod fiscal (publicare cu 6 luni înainte). Propunem 1 ianuarie a anului următor publicării. Lipsește fișa financiară."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -146,7 +178,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:22:12.781Z",
+      "replacedAt": "2026-11-24T14:35:40.609Z",
       "reasons": [
         "model"
       ]

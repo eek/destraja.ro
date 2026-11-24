@@ -2,7 +2,7 @@
   "billId": "Pl-x 699/2026",
   "slug": "plx-699-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:24:54.710Z",
+  "updatedAt": "2026-11-24T14:37:26.626Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,21 +31,21 @@
     "key": "4dede4e33403a13a"
   },
   "consensus": {
-    "riskScore": 7.5,
+    "riskScore": 7,
     "riskLevel": "red",
-    "plainTitle": "Interdicție de a candida pentru alt partid și limită de 3 mandate în Parlament",
-    "summaryTlDr": "Deși vizează teme dezbătute public precum migrația politică și reînnoirea clasei politice, proiectul introduce restricții majore ale dreptului constituțional de a fi ales printr-un text neclar, vulnerabil la neconstituționalitate și ușor de ocolit prin demisie.",
-    "initiatorClaim": "Inițiatorii susțin în expunerea de motive că proiectul descurajează traseismul politic, protejează configurația politică rezultată din votul pe liste și asigură reînnoirea clasei politice prin limitarea exercitării funcției parlamentare la cel mult trei mandate.",
-    "realityCheck": "În prezent, art. 52 din Legea nr. 208/2015 nu limitează numărul de mandate parlamentare și nu interzice candidatura pe lista altui partid. Proiectul adaugă o interdicție de candidatură pentru parlamentarii în funcție care schimbă formațiunea, dar fără excepții pentru fuziuni, dizolvări sau destrămarea alianțelor electorale, și instituie o limită definitivă de 3 mandate care va produce efecte abia peste trei legislaturi viitoare (art. 52¹).",
+    "plainTitle": "Parlamentarii care schimbă partidul nu mai pot candida pe lista noului partid, iar un parlamentar poate avea cel mult trei mandate",
+    "summaryTlDr": "Ținta e populară: traseismul și „parlamentarii pe viață”. Mijloacele sunt însă fragile constituțional și ușor de ocolit. Prin felul în care e scris art. 52^1, proiectul riscă tocmai retroactivitatea pe care pretinde că o evită.",
+    "initiatorClaim": "Inițiatorii vor să descurajeze migrația parlamentarilor de la un partid la altul, ca votul dat unei liste să nu fie deturnat. Vor și să asigure reînnoirea clasei politice, limitând la trei numărul de mandate de deputat și/sau senator.",
+    "realityCheck": "Alin. (15) interzice partidului B să-l pună pe listă pe un parlamentar în funcție ales pe lista partidului A. Interdicția se ocolește ușor: prin demisie din mandat înainte de depunerea candidaturilor, prin candidatură independentă sau prin fuziune de partide (textul exceptează doar schimbarea denumirii). Alin. (16) introduce o limită de trei mandate, dar fără procedură de verificare și fără sancțiune. Iar art. 52^1, fiind inserat chiar în Legea nr. 208/2015, face ca formula „intrarea în vigoare a prezentei legi” să trimită la legea din 2015, deci s-ar număra și mandatele din 2016 încoace.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Articol unic, pct. 1-3 (art. 52 alin. 15-16)",
-      "proposalContent": "Eliminarea alin. (15) și (16) ale art. 52 și a art. 52^1 sau reformularea alin. (15) cu excepții pentru dizolvare, fuziune, destrămarea alianțelor și excludere, definirea mandatului incomplet pentru alin. (16) și reglementarea procedurii de verificare de către birourile electorale.",
-      "argumentation": "Limitarea pe viață a mandatelor prin lege organică riscă încălcarea art. 37 și 53 din Constituție, care rezervă asemenea limite nivelului constituțional (art. 81). Alin. (15) nu acoperă fuziunile, dizolvările sau încetarea alianțelor electorale și lasă neclaritate juridică (art. 1 alin. 5), inclusiv prin lipsa definirii mandatelor parțiale.",
-      "otherComments": "De corectat și formula de atestare a adoptării: proiectul citează art. 74 alin. (1) și (5) (inițiativa legislativă) în loc de art. 75 și art. 76 alin. (1) din Constituție (lege organică, art. 73 alin. 3 lit. a). Necesită avizul AEP și al Consiliului Legislativ privind impactul asupra validării candidaturilor."
+      "articleRef": "Art. unic pct. 3 (art. 52^1 Legea 208/2015)",
+      "proposalContent": "Se elimină pct. 3. Se introduce Art. II: „(1) Art. 52 alin. (16) din Legea nr. 208/2015 se aplică de la primele alegeri parlamentare organizate după intrarea în vigoare a prezentei legi. (2) Se iau în calcul numai mandatele obținute la aceste alegeri și ulterior; mandatul în curs nu se ia în calcul.”",
+      "argumentation": "Inserată în Legea 208/2015, sintagma „prezenta lege” din art. 52^1 trimite la legea din 2015, deci s-ar număra mandatele din 2016 încoace, adică exact retroactivitatea pe care inițiatorii spun că o evită. Normele tranzitorii trebuie puse în legea de modificare (Legea 24/2000). Amendamentul clarifică și soarta mandatului în curs.",
+      "otherComments": "Alin. (15) poate fi ocolit prin demisie înainte de depunere sau prin candidatură independentă, nu acoperă fuziunile și restrânge libertatea de asociere (art. 40) și mandatul reprezentativ (art. 69). Alin. (16) adaugă o condiție de eligibilitate absentă din art. 37 din Constituție. Recomand solicitarea unui aviz al Consiliului Legislativ și al Comisiei de la Veneția."
     }
   },
   "council": {
@@ -84,8 +84,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 66060,
+      "sourceEndMarker": "SF-A62C0CC7",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Parlamentarii care schimbă partidul nu mai pot candida pe lista noului partid, iar un parlamentar poate avea cel mult trei mandate",
+      "verdictShort": "Ținta e populară: traseismul și „parlamentarii pe viață”. Mijloacele sunt însă fragile constituțional și ușor de ocolit. Prin felul în care e scris art. 52^1, proiectul riscă tocmai retroactivitatea pe care pretinde că o evită.",
+      "initiatorClaim": "Inițiatorii vor să descurajeze migrația parlamentarilor de la un partid la altul, ca votul dat unei liste să nu fie deturnat. Vor și să asigure reînnoirea clasei politice, limitând la trei numărul de mandate de deputat și/sau senator.",
+      "realityCheck": "Alin. (15) interzice partidului B să-l pună pe listă pe un parlamentar în funcție ales pe lista partidului A. Interdicția se ocolește ușor: prin demisie din mandat înainte de depunerea candidaturilor, prin candidatură independentă sau prin fuziune de partide (textul exceptează doar schimbarea denumirii). Alin. (16) introduce o limită de trei mandate, dar fără procedură de verificare și fără sancțiune. Iar art. 52^1, fiind inserat chiar în Legea nr. 208/2015, face ca formula „intrarea în vigoare a prezentei legi” să trimită la legea din 2015, deci s-ar număra și mandatele din 2016 încoace.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 52^1 (Art. unic pct. 3) e o normă tranzitorie a legii de modificare, introdusă greșit în corpul Legii nr. 208/2015. Acolo, „prezenta lege” desemnează Legea nr. 208/2015, nu legea nouă. Rezultatul: ar fi numărate mandatele exercitate după 2015 (legislaturile 2016, 2020, 2024), contrar apărării din expunerea de motive. Legea nr. 24/2000 cere ca dispozițiile tranzitorii să stea în actul modificator.",
+        "Art. 52 alin. (16) e formulat ca limită de „exercitare” a mandatului, deși e plasat în articolul despre depunerea candidaturilor. Rămân deschise mai multe întrebări: dacă birourile electorale pot respinge candidatura, ce se întâmplă dacă cineva e ales a patra oară, dacă un mandat parțial (de exemplu, intrarea ca supleant la jumătatea legislaturii) sau un mandat la care s-a renunțat imediat se numără ca întreg și dacă se numără mandatul în curs la data intrării în vigoare. Aceste lacune afectează previzibilitatea (art. 1 alin. 5 din Constituție).",
+        "Art. 52 alin. (15) privește doar persoanele care „erau deputați sau senatori” la data depunerii. Un parlamentar care demisionează cu o zi înainte scapă de interdicție. Nu sunt vizați nici foștii parlamentari, nici aleșii locali sau europarlamentarii. Textul nu acoperă fuziunile, absorbțiile și dizolvarea partidului de origine, ci doar schimbarea denumirii.",
+        "Alin. (15) nu clarifică regimul alianțelor. Un parlamentar ales pe lista alianței PSD-PNL nu ar putea, literal, să candideze nici pe lista propriului partid dacă acesta merge singur la următoarele alegeri. Nici organizațiile minorităților naționale nu sunt menționate.",
+        "Chiar în varianta favorabilă inițiatorilor (numărare de la legislatura 2028), limita de trei mandate ar produce primul efect abia la alegerile din 2040. Măsura e în bună parte simbolică pe termen mediu.",
+        "Proiectul nu are impact bugetar, iar sarcina administrativă pentru birourile electorale e redusă (verificarea istoricului mandatelor). Nu are impact asupra IMM-urilor sau a cetățenilor ca operatori economici."
+      ],
+      "blindSpotsCaught": "Principala chichiță e tehnică, dar decisivă. Art. 52^1 alin. (2) spune că se numără „numai mandatele exercitate după intrarea în vigoare a prezentei legi”, iar textul devine parte din Legea nr. 208/2015. Interpretat literal, înseamnă după iulie 2015, deci mulți parlamentari actuali ar avea deja două-trei mandate „numărate”. Expunerea de motive susține exact opusul, așa că textul votat ar contrazice intenția declarată. O a doua problemă: limita de trei mandate e o condiție substanțială de eligibilitate pusă prin lege organică, nu prin Constituție. Art. 37 și art. 16 alin. (3) din Constituție fixează condițiile de eligibilitate (cetățenie, domiciliu, vârstă, lipsa interdicțiilor), iar adăugarea unei interdicții permanente de candidatură pentru un grup de persoane e discutabilă fără revizuire constituțională.",
+      "constitutionalityNote": "Alin. (15): sancționează indirect schimbarea opțiunii politice a parlamentarului, ceea ce intră în tensiune cu art. 69 (mandatul reprezentativ, interzicerea mandatului imperativ), art. 40 (libertatea de asociere) și art. 8 (pluralismul). Jurisprudența CCR și Comisia de la Veneția au tratat critic măsurile care penalizează parlamentarii pentru plecarea din partid. Interdicția de a candida pe altă listă e mai blândă decât pierderea mandatului, dar operează tot ca o consecință juridică a unei opțiuni politice protejate. Cât privește alin. (16), art. 37 permite reglementarea condițiilor, însă o limită absolută de mandate parlamentare e o restricție substanțială a dreptului de a fi ales, rară în democrațiile europene. CCR ar putea considera că o asemenea condiție cere revizuirea Constituției, cu atât mai mult cu cât lipsesc procedura și sancțiunea. Art. 52^1, prin trimiterea defectuoasă, ridică probleme de previzibilitate (art. 1 alin. 5) și un risc de retroactivitate (art. 15 alin. 2). Nu se ridică probleme de adoptare: legea e organică (art. 73 alin. 3 lit. a), iar mențiunea art. 74 e corectă. Dacă e adoptată cu mai mult de un an înainte de alegerile din 2028, respectă și recomandarea Comisiei de la Veneția privind stabilitatea legislației electorale.",
+      "euLawNote": "Dreptul UE nu se aplică în mod relevant. Proiectul privește alegerile parlamentare naționale, competență exclusiv națională. Nu reglementează profesii (Directiva 2018/958 nu se aplică), nici servicii ale societății informaționale (notificarea TRIS 2015/1535 nu e necesară) și nu afectează piața unică. Art. 39 din Carta drepturilor fundamentale vizează doar alegerile pentru Parlamentul European. Cadrul european relevant e cel al Consiliului Europei: art. 3 din Protocolul 1 la CEDO lasă statelor o marjă largă, dar cere ca restricțiile de candidatură să fie previzibile și proporționale. La acestea se adaugă Codul de bune practici în materie electorală și rapoartele Comisiei de la Veneția privind mandatul imperativ și limitarea mandatelor.",
+      "senatForm": {
+        "articleRef": "Art. unic pct. 3 (art. 52^1 Legea 208/2015)",
+        "proposalContent": "Se elimină pct. 3. Se introduce Art. II: „(1) Art. 52 alin. (16) din Legea nr. 208/2015 se aplică de la primele alegeri parlamentare organizate după intrarea în vigoare a prezentei legi. (2) Se iau în calcul numai mandatele obținute la aceste alegeri și ulterior; mandatul în curs nu se ia în calcul.”",
+        "argumentation": "Inserată în Legea 208/2015, sintagma „prezenta lege” din art. 52^1 trimite la legea din 2015, deci s-ar număra mandatele din 2016 încoace, adică exact retroactivitatea pe care inițiatorii spun că o evită. Normele tranzitorii trebuie puse în legea de modificare (Legea 24/2000). Amendamentul clarifică și soarta mandatului în curs.",
+        "otherComments": "Alin. (15) poate fi ocolit prin demisie înainte de depunere sau prin candidatură independentă, nu acoperă fuziunile și restrânge libertatea de asociere (art. 40) și mandatul reprezentativ (art. 69). Alin. (16) adaugă o condiție de eligibilitate absentă din art. 37 din Constituție. Recomand solicitarea unui aviz al Consiliului Legislativ și al Comisiei de la Veneția."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -138,7 +167,7 @@
         "codex": 8
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:24:54.710Z",
+      "replacedAt": "2026-11-24T14:37:26.626Z",
       "reasons": [
         "model"
       ]

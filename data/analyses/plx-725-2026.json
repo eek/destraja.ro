@@ -2,7 +2,7 @@
   "billId": "PL-x 725/2026",
   "slug": "plx-725-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:23:37.264Z",
+  "updatedAt": "2026-11-24T14:36:18.431Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,22 +31,22 @@
     "key": "4cf2785d7f954afb"
   },
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
-    "plainTitle": "Vechimea cumpărată la stat, admisă pentru pensia militară la limită de vârstă și „albită” retroactiv pentru pensiile deja acordate",
-    "summaryTlDr": "Deși oprirea folosirii vechimii cumpărate pentru pensionările militare anticipate este logică, proiectul ascunde în Art. II o amnistie legislativă care declară legal acordate toate pensiile militare anterioare obținute astfel, blocându-le revizuirea. În plus, lasă portița dublei valorificări și nu are fișă financiară, fiind adoptat tacit de Senat fără avizele instituțiilor implicate.",
-    "initiatorClaim": "Inițiatoarea susține că proiectul doar clarifică interpretările neunitare dintre sistemul public și cel militar, permițând folosirea contractelor de asigurare socială exclusiv pentru pensia militară la limită de vârstă și protejând drepturile deja stabilite, fără costuri bugetare suplimentare.",
-    "realityCheck": "În prezent, art. 25 alin. (1) din Legea 223/2015 recunoaște stagiile din sistemul public realizate până la intrarea ei în vigoare (1 ianuarie 2016) și interzice la alin. (2) dubla lor valorificare. Proiectul extinde accesul la pensia militară de serviciu (calculată după solda militară, nu după contribuții) prin cumpărarea de vechime în sistemul public fără a interzice dubla valorificare, creează un vid legislativ pentru contractele din 2016–2017 și validează automat prin lege (Art. II) deciziile de pensionare anterioare, chiar dacă au fost emise cu încălcarea legii vechi (de exemplu, pentru pensii anticipate).",
+    "plainTitle": "Anii plătiți voluntar la pensia de stat contează și la pensia militară, dar doar pentru pensionarea la vârsta standard",
+    "summaryTlDr": "Este o clarificare tehnică în mare parte rezonabilă: închide accesul la pensia anticipată și la cea de invaliditate pe baza contribuțiilor voluntare. Totuși, în același timp legalizează explicit o cale de a „completa” prin plată vechimea efectivă cerută pentru o pensie militară avantajoasă și validează prin lege toate deciziile deja emise, fără nicio evaluare bugetară.",
+    "initiatorClaim": "Inițiatoarea spune că vrea să pună capăt interpretărilor neunitare ale caselor de pensii sectoriale. Perioadele plătite prin contract de asigurare socială ar urma să conteze doar pentru pensia de serviciu la limită de vârstă, nu pentru pensia anticipată sau de invaliditate, iar pensiile deja stabilite ar fi protejate.",
+    "realityCheck": "Art.25¹ permite ca anii cumpărați prin contract de asigurare socială (încheiat după 1.01.2018) să acopere diferența dintre vechimea în serviciu și vechimea efectivă cerută la art.16. Practic, cine are minimul de vechime în serviciu poate plăti restul de ani ca să obțină pensia militară de serviciu. Art.II declară „legal stabilite” toate pensiile acordate anterior pe această bază, inclusiv pe cele acordate ca pensii anticipate, adică exact ce proiectul interzice pe viitor. Asta înseamnă de facto o validare legislativă a practicii administrative, indiferent dacă aceasta respecta legea.",
     "affectedGroups": [
       "Angajați & HR",
       "Justiție & Drepturi Civile",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I (art. 25¹) și Art. II",
-      "proposalContent": "La art. 25¹ se introduce interdicția dublei valorificări în sistemul public, se elimină alin. (4) și data arbitrară de 1 ian. 2018. La Art. II, se elimină alin. (1) privind validarea ex lege a deciziilor anterioare, menținându-se la alin. (2) neretroactivitatea exclusiv pentru pensiile legal stabilite.",
-      "argumentation": "Art. II alin. (1) încalcă separația puterilor (art. 1 alin. 4 Constituție), validând prin lege decizii potențial nelegale și blocând revizuirea lor. Art. 25¹ omite interdicția dublei valorificări din art. 25 alin. (2), lasă un vid pentru 2016-2017 și plasează eronat alin. (4) în Legea 223/2015. Lipsește fișa financiară (art. 138 alin. 5).",
-      "otherComments": "Proiectul a fost adoptat tacit de Senat fără dezbatere și fără avizele MApN, MAI, SRI, CNPP și Ministerului Finanțelor, deși expunerea de motive le menționează ca necesare. Art. III omite CNPP și Ministerul Muncii din actualizarea normelor. Solicităm fișa financiară și corelarea tehnică a textului înainte de raport."
+      "articleRef": "Art.I – art.25¹ alin.(1) și alin.(5) nou",
+      "proposalContent": "La art.25¹ alin.(1), după „1 ianuarie 2018” se introduce: „, numai pentru perioadele de asigurare situate după această dată”. Se introduce alin.(5): „Casele de pensii sectoriale publică anual numărul pensiilor stabilite cu valorificarea perioadelor prevăzute la alin.(1) și costul acestora.”",
+      "argumentation": "Textul leagă pragul de data încheierii contractului, nu de perioada acoperită. Dacă legea permite plata retroactivă (OUG 163/2020, Legea 360/2023), un contract recent poate acoperi ani anteriori lui 2018, iar pragul se golește de sens. Publicarea datelor permite evaluarea impactului bugetar, absent din expunerea de motive.",
+      "otherComments": "Art.II alin.(1) validează legislativ decizii emise pe baza „practicii administrative”, posibil și contrar legii. Se recomandă limitarea la deciziile necontestate în instanță. Lipsesc fișa financiară și punctul de vedere al Guvernului (art.111 Constituție, art.15 L.500/2002). Erori materiale: „effective”, „intrării'”, „stagiiilor”."
     }
   },
   "council": {
@@ -87,8 +87,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 52956,
+      "sourceEndMarker": "SF-86455B57",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Anii plătiți voluntar la pensia de stat contează și la pensia militară, dar doar pentru pensionarea la vârsta standard",
+      "verdictShort": "Este o clarificare tehnică în mare parte rezonabilă: închide accesul la pensia anticipată și la cea de invaliditate pe baza contribuțiilor voluntare. Totuși, în același timp legalizează explicit o cale de a „completa” prin plată vechimea efectivă cerută pentru o pensie militară avantajoasă și validează prin lege toate deciziile deja emise, fără nicio evaluare bugetară.",
+      "initiatorClaim": "Inițiatoarea spune că vrea să pună capăt interpretărilor neunitare ale caselor de pensii sectoriale. Perioadele plătite prin contract de asigurare socială ar urma să conteze doar pentru pensia de serviciu la limită de vârstă, nu pentru pensia anticipată sau de invaliditate, iar pensiile deja stabilite ar fi protejate.",
+      "realityCheck": "Art.25¹ permite ca anii cumpărați prin contract de asigurare socială (încheiat după 1.01.2018) să acopere diferența dintre vechimea în serviciu și vechimea efectivă cerută la art.16. Practic, cine are minimul de vechime în serviciu poate plăti restul de ani ca să obțină pensia militară de serviciu. Art.II declară „legal stabilite” toate pensiile acordate anterior pe această bază, inclusiv pe cele acordate ca pensii anticipate, adică exact ce proiectul interzice pe viitor. Asta înseamnă de facto o validare legislativă a practicii administrative, indiferent dacă aceasta respecta legea.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art.I – art.25¹ alin.(1): perioadele din contracte de asigurare socială contează la vechimea efectivă pentru pensia de serviciu la limită de vârstă (art.16), dar nu constituie vechime în serviciu. Art.25 în vigoare recunoaște stagiile de cotizare doar până la intrarea în vigoare a Legii 223/2015, deci textul nou extinde expres valorificarea pentru perioadele de după acea dată.",
+        "Art.25¹ alin.(2): perioadele nu se valorifică la pensia anticipată (art.17), la pensia anticipată parțială (art.18) și la calculul pensiei de invaliditate (art.39). Aceasta este componenta restrictivă, aplicabilă doar cererilor depuse după intrarea în vigoare (alin.(4)).",
+        "Condiția temporală privește data încheierii contractului (după 1.01.2018), nu perioada acoperită. Dacă legislația la care trimite alin.(3) (OUG 163/2020, Legea 360/2023) permite plata retroactivă a contribuțiilor, un contract recent poate acoperi ani anteriori lui 2018, iar pragul invocat în expunerea de motive se golește de conținut.",
+        "Art.II alin.(1): pensiile deja stabilite cu valorificarea acestor perioade „se consideră legal stabilite” în temeiul cadrului normativ „și al practicii administrative”. Prevederea poate bloca reverificările sau acțiunile în anulare deja începute, inclusiv pentru pensii anticipate acordate astfel.",
+        "Art.II alin.(3): cererile aflate pe rol se soluționează după legea veche, deci restricția pentru anticipate nu li se aplică. Este o soluție favorabilă și coerentă cu alin.(4), dar lasă fără răspuns chiar întrebarea pe care proiectul pretinde că o clarifică: ce prevedea legea veche.",
+        "Art.III: termen de 30 de zile pentru actualizarea normelor metodologice de către MApN, MAI și serviciile de informații, fără nicio consecință dacă termenul nu este respectat. Proiectul a fost adoptat tacit de Senat (art.75 alin.(2) teza a III-a), fără dezbatere."
+      ],
+      "blindSpotsCaught": "Legiuitorul fixează pragul de 1 ianuarie 2018 la data contractului, nu la perioada asigurată, ceea ce, combinat cu posibila plată retroactivă, lărgește discret efectul. Art.II alin.(1) nu se limitează la a proteja pensiile în plată, ci le declară legale prin efectul legii, invocând „practica administrativă”. Astfel ar acoperi și eventuale decizii emise contra legii, inclusiv pensii anticipate pe care noul text le interzice. Lipsesc fișa financiară, punctul de vedere al Guvernului și orice estimare a numărului de beneficiari, deși pensiile militare de serviciu sunt plătite integral de la bugetul de stat. Textul conține și erori materiale: „vechimii effective”, „intrării'”, „stagiiilor”.",
+      "constitutionalityNote": "Neretroactivitatea (art.15 alin.(2)) este respectată: restricțiile se aplică doar cererilor noi, iar cererile pendinte urmează legea veche. Problema principală este Art.II alin.(1). O validare legislativă a unor acte administrative individuale poate interfera cu controlul judecătoresc (art.21, art.126 alin.(6)) și cu separația puterilor (art.1 alin.(4)), dacă există litigii în curs. Poate ridica și probleme de egalitate (art.16) între cei pensionați înainte, care au primit pensii anticipate pe această bază, și cei care depun cereri ulterior. Previzibilitatea (art.1 alin.(5)) este afectată de criteriul vag al „practicii administrative” și de legătura ambiguă dintre data contractului și perioada acoperită. Dacă măsura are impact bugetar, lipsa punctului de vedere al Guvernului și a sursei de finanțare (art.111 alin.(1), art.138 alin.(5)) poate atrage neconstituționalitatea extrinsecă, potrivit jurisprudenței constante a CCR.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: proiectul nu reglementează accesul la o profesie reglementată. Directiva (UE) 2015/1535 (TRIS) nu este incidentă, pentru că nu există reguli privind servicii ale societății informaționale sau produse. Nu apar efecte asupra concurenței sau a pieței unice. Regulamentul (CE) 883/2004 privind coordonarea securității sociale are relevanță marginală: regimurile speciale militare sunt în principal de competență națională. Textul nu afectează valorificarea perioadelor de asigurare din alte state membre în sistemul public, dar nici nu clarifică tratamentul lor în sistemul militar.",
+      "senatForm": {
+        "articleRef": "Art.I – art.25¹ alin.(1) și alin.(5) nou",
+        "proposalContent": "La art.25¹ alin.(1), după „1 ianuarie 2018” se introduce: „, numai pentru perioadele de asigurare situate după această dată”. Se introduce alin.(5): „Casele de pensii sectoriale publică anual numărul pensiilor stabilite cu valorificarea perioadelor prevăzute la alin.(1) și costul acestora.”",
+        "argumentation": "Textul leagă pragul de data încheierii contractului, nu de perioada acoperită. Dacă legea permite plata retroactivă (OUG 163/2020, Legea 360/2023), un contract recent poate acoperi ani anteriori lui 2018, iar pragul se golește de sens. Publicarea datelor permite evaluarea impactului bugetar, absent din expunerea de motive.",
+        "otherComments": "Art.II alin.(1) validează legislativ decizii emise pe baza „practicii administrative”, posibil și contrar legii. Se recomandă limitarea la deciziile necontestate în instanță. Lipsesc fișa financiară și punctul de vedere al Guvernului (art.111 Constituție, art.15 L.500/2002). Erori materiale: „effective”, „intrării'”, „stagiiilor”."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -140,7 +170,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:23:37.264Z",
+      "replacedAt": "2026-11-24T14:36:18.431Z",
       "reasons": [
         "model"
       ]

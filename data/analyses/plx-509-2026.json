@@ -2,14 +2,41 @@
   "billId": "PL-x 509/2026",
   "slug": "plx-509-2026",
   "version": "camera",
-  "updatedAt": "2026-10-29T08:06:15.767Z",
+  "updatedAt": "2026-11-24T15:33:39.778Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "camera",
+    "billChars": 1384,
+    "ordinanceChars": 0,
+    "memoChars": 6201,
+    "memoSupplied": 6201,
+    "marker": "SF-A5D54E94"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-509-2026.json",
+    "form": "camera",
+    "textHash": "a5d54e9490bbf4c2",
+    "fetchedAt": "2026-11-19T10:54:36.682Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 2141,
+    "truncated": false,
+    "included": true,
+    "key": "5c7a27f172c2b71a"
+  },
   "consensus": {
-    "riskScore": 1.7,
+    "riskScore": 2,
     "riskLevel": "green",
-    "plainTitle": "Fundațiile vor putea deschide sucursale în alte orașe",
-    "summaryTlDr": "Lege tehnică și utilă. Repară o scăpare din OG 26/2000 din cauza căreia fundațiile nu își puteau declara legal angajații din alte județe. Textul e foarte scurt și lasă câteva întrebări practice fără răspuns, dar nu ascunde taxe, sancțiuni sau privilegii.",
-    "initiatorClaim": "Inițiatorii spun că fundațiile, spre deosebire de asociații, nu pot înființa sucursale fără personalitate juridică. Din acest motiv nu își pot înregistra la ANAF, ca plătitoare de salarii, punctele de lucru cu angajați din alte localități, de exemplu în proiectele europene. Ei cer egalitate de tratament cu asociațiile și o prezență locală mai ieftină.",
-    "realityCheck": "Articolul unic introduce art. 18¹. Fundația poate înființa sucursale fără personalitate juridică, prin hotărâre a consiliului director. Sucursalele pot funcționa doar după înscrierea în Registrul asociațiilor și fundațiilor, la judecătoria de la sediul fundației. Efectul juridic este strict organizatoric: sucursala devine o structură recunoscută, iar asta ar trebui să deblocheze înregistrarea ei fiscală. Legea nu spune însă nimic despre ANAF, cine conduce sucursala, cum se mută sau se închide și ce cerințe din art. 15-17 se aplică „în mod corespunzător”.",
+    "plainTitle": "Fundațiile vor putea deschide sucursale în alte orașe, fără să înființeze persoane juridice noi",
+    "summaryTlDr": "Lege tehnică și utilă, care pune fundațiile pe picior de egalitate cu asociațiile. Nu are capcane, taxe sau sancțiuni, ci doar câteva scăpări de redactare.",
+    "initiatorClaim": "Inițiatorii spun că astăzi fundațiile nu pot înființa structuri teritoriale fără personalitate juridică. Din cauza asta nu își pot înregistra fiscal punctele de lucru ca plătitoare de salarii, pentru că ANAF cere hotărâre judecătorească, iar instanțele resping cererile pe motiv că OG 26/2000 nu prevede această posibilitate pentru fundații.",
+    "realityCheck": "Articolul unic introduce art. 18¹: fundația poate constitui sucursale fără personalitate juridică, prin hotărâre a consiliului director. Sucursala funcționează doar după înscrierea în Registrul asociațiilor și fundațiilor, la judecătoria de la sediul fundației, cu aplicarea corespunzătoare a art. 15-17. Legea doar adaugă o opțiune. Filialele cu personalitate juridică din art. 18 rămân neschimbate. Textul nu spune cine conduce sucursala, ce cuprinde hotărârea și cum se radiază sucursala.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Contabili & Fiscalitate",
@@ -17,87 +44,91 @@
       "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. unic, art. 18¹ alin. (4) OG nr. 26/2000",
-      "proposalContent": "(4) Sucursala desfășoară activitățile încredințate de fundație și este condusă de un conducător numit de consiliul director, care acționează în numele și pe seama fundației, în limitele mandatului înscris în Registru. Fundația răspunde pentru obligațiile sucursalei. (5) Modificarea și desființarea sucursalei se înscriu în Registru, la cererea fundației.",
-      "argumentation": "Sucursala nu are personalitate juridică, dar textul adoptat nu spune cine o conduce, cine semnează contractele și actele de personal în numele fundației, nici cum se înscriu mutarea sau închiderea ei. Precizarea previne practica neunitară a instanțelor și a ANAF și protejează terții și angajații, fără costuri noi.",
-      "otherComments": "Legea e la promulgare, deci propunerea poate fi folosită doar la o eventuală reexaminare (art. 77 alin. 2 Constituție) sau într-o inițiativă ulterioară. Util de precizat și că trimiterea la art. 15-17 nu impune sucursalei patrimoniul minim al fundației. Trimiterea la Legea 273/2006 din expunere pare greșită: obligația e în Codul de procedură fiscală."
+      "articleRef": "Art. unic – OG 26/2000, art. 18¹ alin. (2) și (5)",
+      "proposalContent": "Alin. (2) se completează: «Hotărârea consiliului director cuprinde denumirea și sediul sucursalei, persoana care o conduce și limitele împuternicirii acesteia.» Se introduce alin. (5): «Prevederile art. 18 alin. (4) se aplică în mod corespunzător sucursalelor. Desființarea sucursalei se înscrie în Registru la cererea fundației.»",
+      "argumentation": "Fără un conținut minim al hotărârii, grefele vor cere acte diferite, iar terții și ANAF nu vor ști cine reprezintă sucursala. Extinderea art. 18 alin. (4) păstrează evidența structurilor cu activitate religioasă și pentru sucursale. Mențiunea radierii închide ciclul de viață al sucursalei și asigură corectitudinea Registrului.",
+      "otherComments": "Legea este utilă și de susținut. Propunerea doar clarifică textul și nu adaugă sarcini. Recomand o corelare la nivel de normă metodologică cu ANAF, pentru ca încheierea de înscriere a sucursalei să fie acceptată direct la înregistrarea fiscală ca plătitor de salarii."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 47040,
-      "riskScore": 1,
-      "riskLevel": "green",
-      "plainTitle": "Fundațiile își pot deschide sucursale locale fără personalitate juridică, la fel ca asociațiile",
-      "verdictShort": "O lege tehnică utilă și corectă, care elimină un blocaj birocratic absurd între judecătorii și ANAF. Fundațiile primesc același drept pe care asociațiile îl aveau deja de a-și deschide sucursale în teritoriu fără a înființa o nouă persoană juridică.",
-      "initiatorClaim": "Inițiatorii vor să permită fundațiilor să înființeze sucursale fără personalitate juridică, pentru a-și putea extinde activitățile în alte localități și pentru a-și putea înregistra fiscal punctele de lucru cu angajați la ANAF, conform Legii nr. 273/2006.",
-      "realityCheck": "Textul adoptat introduce art. 18¹ în OG nr. 26/2000, copiind în oglindă mecanismul deja existent pentru asociații (art. 13¹). Legea rezolvă exact problema invocată, fără costuri ascunse sau capcane de reglementare, singura mică imperfecțiune tehnică fiind trimiterea largă la art. 15-17 în loc de strict art. 17 pentru procedura înscrierii în instanță.",
-      "affectedGroups": [
-        "Justiție & Drepturi Civile",
-        "Contabili & Fiscalitate",
-        "Angajați & HR",
-        "Sănătate & Educație"
-      ],
-      "keyFindings": [
-        "Art. 18¹ alin. (1) și (2): Acordă fundațiilor dreptul de a constitui sucursale fără personalitate juridică prin simplă hotărâre a consiliului director, eliminând discriminarea față de asociații.",
-        "Art. 18¹ alin. (3): Deblochează înregistrarea fiscală la ANAF (cerută de art. 32 alin. (7) din Legea nr. 273/2006 pentru entitățile cu salariați la altă adresă), oferind temeiul legal pentru obținerea încheierii judecătorești de înscriere în Registrul asociațiilor și fundațiilor.",
-        "Reduce birocrația și costurile pentru fundațiile care derulează proiecte europene, sociale sau educaționale în mai multe județe, acestea nemaifiind obligate să constituie filiale cu personalitate juridică și patrimoniu distinct."
-      ],
-      "blindSpotsCaught": "Art. 18¹ alin. (3) prevede că dispozițiile art. 15-17 se aplică „în mod corespunzător” (formulă preluată mecanic din art. 13¹ care trimite la art. 8-12). Întrucât art. 15 și 16 reglementează patrimoniul inițial și forma autentică a actelor la înființarea unei fundații, iar doar art. 17 reglementează procedura efectivă de înscriere la judecătorie, unele instanțe ar putea solicita formalități excesive (ex. autentificarea hotărârii consiliului director) dacă nu interpretează suplu sintagma „în mod corespunzător”.",
-      "constitutionalityNote": "Legea este pe deplin constituțională. Susține exercitarea dreptului de asociere (art. 40 din Constituție) și elimină o asimetrie de tratament juridic între asociații și fundații (art. 16). Normele sunt suficient de clare și previzibile potrivit art. 1 alin. (5).",
-      "euLawNote": "Nu ridică probleme de compatibilitate cu dreptul UE. Nu restrânge accesul la profesii reglementate (Directiva 2018/958 nu este incidentă) și nu vizează servicii ale societății informaționale (Directiva TRIS 2015/1535 nu se aplică), ci facilitează implementarea în teritoriu a proiectelor finanțate din fonduri europene.",
-      "senatForm": {
-        "articleRef": "Articol unic - Art. 18¹ alin. (3) din OG 26/2000",
-        "proposalContent": "La art. 18¹ alin. (3), teza a doua se modifică și va avea următorul cuprins: „Cererea de înscriere, însoțită de hotărârea consiliului director în formă certificată de acesta, se va depune la grefa judecătoriei în a cărei circumscripție își are sediul fundația, prevederile art. 17 aplicându-se în mod corespunzător.”",
-        "argumentation": "Trimiterea generică la art. 15-17 (care reglementează patrimoniul inițial și forma autentică la constituirea fundației) poate genera practică judiciară neunitară. Trimiterea strict la procedura de înscriere din art. 17 și clarificarea formei hotărârii consiliului director previn solicitarea unor acte suplimentare de către instanțe.",
-        "otherComments": "Legea este deja adoptată de Parlament și se află la promulgare, fiind o măsură binevenită care deblochează activitatea teritorială a fundațiilor. Clarificarea tehnică propusă poate fi avută în vedere la o viitoare actualizare a OG nr. 26/2000."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 134127,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 66658,
+      "sourceEndMarker": "SF-A5D54E94",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Fundațiile vor putea deschide sucursale în alte orașe",
-      "verdictShort": "Lege tehnică și utilă. Repară o scăpare din OG 26/2000 din cauza căreia fundațiile nu își puteau declara legal angajații din alte județe. Textul e foarte scurt și lasă câteva întrebări practice fără răspuns, dar nu ascunde taxe, sancțiuni sau privilegii.",
-      "initiatorClaim": "Inițiatorii spun că fundațiile, spre deosebire de asociații, nu pot înființa sucursale fără personalitate juridică. Din acest motiv nu își pot înregistra la ANAF, ca plătitoare de salarii, punctele de lucru cu angajați din alte localități, de exemplu în proiectele europene. Ei cer egalitate de tratament cu asociațiile și o prezență locală mai ieftină.",
-      "realityCheck": "Articolul unic introduce art. 18¹. Fundația poate înființa sucursale fără personalitate juridică, prin hotărâre a consiliului director. Sucursalele pot funcționa doar după înscrierea în Registrul asociațiilor și fundațiilor, la judecătoria de la sediul fundației. Efectul juridic este strict organizatoric: sucursala devine o structură recunoscută, iar asta ar trebui să deblocheze înregistrarea ei fiscală. Legea nu spune însă nimic despre ANAF, cine conduce sucursala, cum se mută sau se închide și ce cerințe din art. 15-17 se aplică „în mod corespunzător”.",
+      "plainTitle": "Fundațiile pot deschide sucursale locale fără să înființeze noi ONG-uri",
+      "verdictShort": "Lege tehnică utilă și benignă care repară o lacună veche: fundațiile pot înființa sucursale fără personalitate juridică, la fel ca asociațiile. Singurul neajuns este o trimitere legislativă ușor imprecisă, ce poate genera practică neunitară la judecătorii.",
+      "initiatorClaim": "Inițiatorii vor să alinieze fundațiile la regimul asociațiilor și să rezolve un blocaj fiscal: fundațiile cu angajați în alte localități nu puteau înregistra puncte de lucru la ANAF (obligație din Legea 273/2006), deoarece instanțele respingeau înscrierea sucursalelor în lipsa unui temei legal.",
+      "realityCheck": "Legea introduce art. 18¹ în OG 26/2000 și face exact ce promite: permite consiliului director al unei fundații să constituie sucursale fără personalitate juridică, care funcționează doar după înscrierea în Registrul asociațiilor și fundațiilor de la judecătoria sediului principal. Nu aduce taxe, sancțiuni sau monopoluri, dar trimite impropriu la art. 15-17 (regulile de constituire a unei fundații noi) în loc de art. 8-12 (procedura de înscriere), ceea ce poate genera solicitări birocratice excesive în instanță.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
-        "Sănătate & Educație",
         "Contabili & Fiscalitate",
         "Angajați & HR"
       ],
       "keyFindings": [
-        "Art. 18¹ alin. (1)-(2): fundațiile primesc dreptul expres de a înființa sucursale fără personalitate juridică, prin simplă hotărâre a consiliului director. Potrivit Expunerii de motive, asociațiile au deja această posibilitate.",
-        "Art. 18¹ alin. (3): sucursala poate funcționa numai după înscrierea în Registru, la judecătoria de la sediul fundației. Procedura înseamnă un cost (taxă judiciară, eventual avocat), dar produce exact hotărârea judecătorească pe care, potrivit inițiatorilor, ANAF o cere pentru înregistrarea ca plătitor de salarii.",
-        "Trimiterea la art. 15-17 „în mod corespunzător” e vagă. Art. 15 privește și patrimoniul inițial minim al fundației, așa că o instanță ar putea cere condiții fără sens pentru o structură fără personalitate juridică.",
-        "Art. 18¹ alin. (4) spune doar că sucursala face ce îi dă în competență fundația. Lipsesc reguli despre conducătorul sucursalei, dreptul de semnătură și înscrierea modificării sau a desființării ei în Registru.",
-        "Legea nu are impact bugetar, nu introduce taxe noi, nu prevede sancțiuni și nu afectează concurența. Înființarea unei sucursale e opțională, iar persoanele fizice și IMM-urile nu sunt afectate."
+        "Art. 18¹ alin. (1)-(2) acoperă lacuna din OG 26/2000: până acum, art. 18 permitea fundațiilor doar filiale cu personalitate juridică, patrimoniu alocat și consiliu director propriu (minim 3 membri), spre deosebire de asociații, care aveau deja sucursale la art. 13¹.",
+        "Art. 18¹ alin. (3) condiționează funcționarea sucursalei de înscrierea în Registrul asociațiilor și fundațiilor la judecătoria sediului fundației, permițând obținerea hotărârii cerute de ANAF pentru înregistrarea fiscală a punctelor de lucru cu salariați (Legea 273/2006).",
+        "Art. 18¹ alin. (3) face trimitere «în mod corespunzător» la art. 15-17 (care reglementează patrimoniul inițial, actul autentic și dobândirea personalității juridice), nu direct la procedura judiciară din art. 8-12 (ca la sucursalele asociațiilor), creând risc de practică neunitară."
       ],
-      "blindSpotsCaught": "Expunerea de motive atribuie Legii nr. 273/2006 privind finanțele publice locale obligația de înregistrare fiscală a sediilor secundare cu salariați. Textul citat pare însă preluat din Codul de procedură fiscală (Legea nr. 207/2015). Legea 273/2006 contează aici doar indirect, la repartizarea către bugetele locale a impozitului pe salarii. Efectul practic ascuns este tocmai acesta: o parte din impozitul pe salarii poate ajunge la localitățile unde lucrează efectiv angajații, nu la cea de la sediul fundației. Legea nu are dispoziții tranzitorii, deci fundațiile cu puncte de lucru respinse anterior de instanțe vor trebui să depună cereri noi.",
-      "constitutionalityNote": "Nu se văd probleme de constituționalitate. Legea dezvoltă libertatea de asociere (art. 40) și elimină o diferență de tratament greu de justificat între asociații și fundații (art. 16). Pe claritate și previzibilitate (art. 1 alin. 5) textul e acceptabil. Trimiterea la art. 15-17 „în mod corespunzător” și tăcerea despre conducerea și radierea sucursalei pot duce la practică neunitară, dar asta ține de calitatea legii, nu de neconstituționalitate. Art. 23 alin. (12) nu e relevant, pentru că legea nu prevede sancțiuni. Procedura de lege ordinară (art. 76 alin. 2), cu Camera Deputaților for decizional, e corectă. Legea nu creează cheltuieli bugetare, deci nu cere identificarea surselor de finanțare (art. 138 alin. 5).",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează accesul la o profesie reglementată. Directiva TRIS (UE) 2015/1535 nu e relevantă: nu există reguli tehnice sau reguli privind serviciile societății informaționale ori AI, deci nu e nevoie de notificare. Pe piața unică efectul e neutru spre pozitiv. Legea simplifică organizarea fundațiilor românești, nu restrânge nimic pentru entitățile din alte state membre și lasă neschimbat regimul persoanelor juridice străine din OG 26/2000. Indirect, ajută implementarea proiectelor finanțate din fonduri UE, cu personal angajat legal în județele de implementare.",
+      "blindSpotsCaught": "Două chichițe tehnice: (1) Trimiterea la art. 15-17 în loc de art. 8-12 (ca la art. 13¹ pentru asociații) poate determina unele judecătorii să ceară formă autentică notarială pentru hotărârea consiliului director sau acte specifice constituirii unei persoane juridice, deși sucursala nu are personalitate juridică; (2) Spre deosebire de filialele fundațiilor (art. 18 alin. 4, introdus prin Legea 84/2024), sucursalele fundațiilor cu activități religioase nu au prevăzută obligația de comunicare spre evidență către Secretariatul de Stat pentru Culte.",
+      "constitutionalityNote": "Constituțională și favorabilă libertății de asociere (art. 40) și egalității de tratament organizatoric între asociații și fundații (art. 16). Adoptată corect ca lege ordinară (art. 76 alin. 2). Există o ușoară imprecizie de tehnică legislativă sub aspectul previzibilității (art. 1 alin. 5) prin trimiterea largă la art. 15-17 din OG 26/2000, atenuată însă de formula «în mod corespunzător».",
+      "euLawNote": "Compatibilă cu dreptul UE. Nu reglementează profesii (Directiva 2018/958 nu este aplicabilă), nu impune norme tehnice sau servicii digitale (Directiva 2015/1535 TRIS nu se aplică) și nu distorsionează concurența pe piața unică; dimpotrivă, facilitează administrarea teritorială a proiectelor cu finanțare europeană derulate de fundații.",
       "senatForm": {
-        "articleRef": "Art. unic, art. 18¹ alin. (4) OG nr. 26/2000",
-        "proposalContent": "(4) Sucursala desfășoară activitățile încredințate de fundație și este condusă de un conducător numit de consiliul director, care acționează în numele și pe seama fundației, în limitele mandatului înscris în Registru. Fundația răspunde pentru obligațiile sucursalei. (5) Modificarea și desființarea sucursalei se înscriu în Registru, la cererea fundației.",
-        "argumentation": "Sucursala nu are personalitate juridică, dar textul adoptat nu spune cine o conduce, cine semnează contractele și actele de personal în numele fundației, nici cum se înscriu mutarea sau închiderea ei. Precizarea previne practica neunitară a instanțelor și a ANAF și protejează terții și angajații, fără costuri noi.",
-        "otherComments": "Legea e la promulgare, deci propunerea poate fi folosită doar la o eventuală reexaminare (art. 77 alin. 2 Constituție) sau într-o inițiativă ulterioară. Util de precizat și că trimiterea la art. 15-17 nu impune sucursalei patrimoniul minim al fundației. Trimiterea la Legea 273/2006 din expunere pare greșită: obligația e în Codul de procedură fiscală."
-      }
+        "articleRef": "Art. unic - Art. 18¹ alin. (3) din OG 26/2000",
+        "proposalContent": "La art. 18¹ alin. (3), teza a doua se modifică astfel: «Cererea de înscriere, însoțită de hotărârea consiliului director, care va menționa sediul, activitățile și reprezentantul sucursalei, se depune la grefa judecătoriei în a cărei circumscripție își are sediul fundația, prevederile art. 8-12 aplicându-se în mod corespunzător.»",
+        "argumentation": "Trimiterea la art. 15-17 din OG 26/2000 este imprecisă, art. 15-16 vizând constituirea persoanei juridice (patrimoniu, act autentic, statut). Pentru simetrie cu art. 13¹ (sucursalele asociațiilor) și practică unitară la instanțe, este indicată trimiterea directă la procedura din art. 8-12 și menționarea datelor necesare înregistrării fiscale.",
+        "otherComments": "Proiectul este util și rezolvă un blocaj real al fundațiilor privind înregistrarea fiscală a punctelor de lucru conform Legii 273/2006. Se poate analiza și includerea unei mențiuni exprese privind radierea sucursalelor și corelarea cu art. 18 alin. (4) pentru fundațiile cu activități religioase."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 31626,
+      "sourceEndMarker": "SF-A5D54E94",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Fundațiile vor putea deschide sucursale în alte orașe, fără să înființeze persoane juridice noi",
+      "verdictShort": "Lege tehnică și utilă, care pune fundațiile pe picior de egalitate cu asociațiile. Nu are capcane, taxe sau sancțiuni, ci doar câteva scăpări de redactare.",
+      "initiatorClaim": "Inițiatorii spun că astăzi fundațiile nu pot înființa structuri teritoriale fără personalitate juridică. Din cauza asta nu își pot înregistra fiscal punctele de lucru ca plătitoare de salarii, pentru că ANAF cere hotărâre judecătorească, iar instanțele resping cererile pe motiv că OG 26/2000 nu prevede această posibilitate pentru fundații.",
+      "realityCheck": "Articolul unic introduce art. 18¹: fundația poate constitui sucursale fără personalitate juridică, prin hotărâre a consiliului director. Sucursala funcționează doar după înscrierea în Registrul asociațiilor și fundațiilor, la judecătoria de la sediul fundației, cu aplicarea corespunzătoare a art. 15-17. Legea doar adaugă o opțiune. Filialele cu personalitate juridică din art. 18 rămân neschimbate. Textul nu spune cine conduce sucursala, ce cuprinde hotărârea și cum se radiază sucursala.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Contabili & Fiscalitate",
+        "Angajați & HR",
+        "Sănătate & Educație"
+      ],
+      "keyFindings": [
+        "Art. 18¹ alin. (1) este nou: azi art. 18 permite fundațiilor doar filiale, cu patrimoniu alocat și consiliu director propriu de minimum 3 membri. Sucursala fără personalitate juridică era până acum rezervată asociațiilor, prin art. 13¹.",
+        "Art. 18¹ alin. (3): sucursala poate funcționa doar după înscrierea în Registru. Asta dă fundației actul judecătoresc pe care organul fiscal îl cere pentru înregistrarea punctului de lucru ca plătitor de salarii. Este efectul practic principal.",
+        "Art. 18¹ alin. (2) și (4): hotărârea consiliului director și delegarea activităților nu au conținut minim reglementat. Nu se prevăd sediul, persoana care conduce sucursala sau limitele mandatului, iar procedura de desființare și radiere lipsește.",
+        "Art. 18 alin. (4), care obligă la comunicarea către Secretariatul de Stat pentru Culte a filialelor cu activități religioase, nu este extins expres la sucursale. Apare astfel o asimetrie de evidență.",
+        "Nu există taxe, sancțiuni sau sarcini noi pentru cetățeni ori IMM-uri. Costul se reduce la taxa judiciară obișnuită de înscriere, plătită doar de fundațiile care aleg să deschidă sucursale."
+      ],
+      "blindSpotsCaught": "Expunerea de motive leagă obligația de înregistrare fiscală a sediilor secundare de Legea 273/2006 privind finanțele publice locale. Obligația pare să țină mai degrabă de Codul de procedură fiscală (Legea 207/2015), deci trimiterea pare imprecisă. Legea nu este afectată, pentru că textul normativ nu citează niciun act fiscal. Formula „art. 15-17 aplicându-se în mod corespunzător” lasă la aprecierea grefei ce acte se depun pentru o structură fără patrimoniu propriu. Asta poate produce practică neunitară între judecătorii.",
+      "constitutionalityNote": "Nu se văd probleme de constituționalitate. Legea extinde libertatea de asociere (art. 40) și egalitatea de tratament între formele de persoane juridice fără scop patrimonial. Este o lege ordinară adoptată cu respectarea art. 76 alin. (2), iar procedura are garanții judiciare prin înscrierea la judecătorie. Lipsa conținutului minim al hotărârii și a procedurii de radiere este o problemă de calitate a legii (art. 1 alin. 5), dar nu are o gravitate care să afecteze previzibilitatea normei. Lacunele pot fi acoperite prin aplicarea corespunzătoare a art. 13¹ și a art. 15-17.",
+      "euLawNote": "Legea nu reglementează o profesie, deci Directiva 2018/958 nu se aplică. Nu privește servicii ale societății informaționale sau reglementări tehnice, deci notificarea TRIS (Directiva 2015/1535) nu este necesară. Pe piața unică efectul este neutru spre pozitiv: legea facilitează implementarea proiectelor finanțate din fonduri UE în mai multe localități și nu creează bariere pentru operatori din alte state membre.",
+      "senatForm": {
+        "articleRef": "Art. unic – OG 26/2000, art. 18¹ alin. (2) și (5)",
+        "proposalContent": "Alin. (2) se completează: «Hotărârea consiliului director cuprinde denumirea și sediul sucursalei, persoana care o conduce și limitele împuternicirii acesteia.» Se introduce alin. (5): «Prevederile art. 18 alin. (4) se aplică în mod corespunzător sucursalelor. Desființarea sucursalei se înscrie în Registru la cererea fundației.»",
+        "argumentation": "Fără un conținut minim al hotărârii, grefele vor cere acte diferite, iar terții și ANAF nu vor ști cine reprezintă sucursala. Extinderea art. 18 alin. (4) păstrează evidența structurilor cu activitate religioasă și pentru sucursale. Mențiunea radierii închide ciclul de viață al sucursalei și asigură corectitudinea Registrului.",
+        "otherComments": "Legea este utilă și de susținut. Propunerea doar clarifică textul și nu adaugă sarcini. Recomand o corelare la nivel de normă metodologică cu ANAF, pentru ca încheierea de înscriere a sucursalei să fie acceptată direct la înregistrarea fiscală ca plătitor de salarii."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 98075,
+      "durationMs": 60201,
+      "sourceEndMarker": "SF-A5D54E94",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Fundațiile pot deschide sucursale locale fără o nouă persoană juridică",
-      "verdictShort": "Evaluarea mea: o completare utilă, cu risc redus, care simplifică extinderea teritorială a fundațiilor. Principala vulnerabilitate este trimiterea prea largă la regulile de constituire a unei fundații, care poate produce cerințe administrative neuniforme.",
-      "initiatorClaim": "Inițiatorii urmăresc să permită fundațiilor organizarea unor sucursale locale, cu mai puține costuri decât filialele cu personalitate juridică. Ei invocă și blocaje la înregistrarea fiscală a structurilor unde lucrează salariați, inclusiv în proiecte europene.",
-      "realityCheck": "Art. 18¹ permite constituirea sucursalelor prin hotărârea consiliului director, condiționează activitatea de înscrierea judiciară și lasă fundației stabilirea competențelor acestora. Textul nu reglementează detașarea salariaților, nu acordă finanțări sau facilități fiscale și nu înlocuiește înregistrarea la ANAF. Economia administrativă rezultă din evitarea constituirii unei noi persoane juridice, însă rămân formalitățile judiciare și fiscale distincte.",
+      "plainTitle": "Fundațiile pot deschide sucursale locale",
+      "verdictShort": "Reglementare utilă, cu risc redus: permite fundațiilor să lucreze prin sucursale fără personalitate juridică. Principala rezervă privește precizia trimiterii la procedura de înregistrare.",
+      "initiatorClaim": "Inițiatorii urmăresc să faciliteze activitatea fundațiilor în mai multe localități și înregistrarea fiscală a structurilor teritoriale. Susțin că lipsa unei reglementări exprese pentru sucursale produce blocaje administrative.",
+      "realityCheck": "În reglementarea de referință furnizată, art. 18 permite deja filialele fundațiilor; noul art. 18¹ adaugă sucursalele fără personalitate juridică, înființate prin hotărârea consiliului director. Acestea pot începe activitatea numai după înscrierea în registrul ținut de judecătoria de la sediul fundației. Textul nu modifică obligațiile fiscale, nu instituie taxe sau sancțiuni noi și nu introduce un regim special pentru detașarea personalului, deși motivarea invocă aceste teme.",
       "affectedGroups": [
         "Contabili & Fiscalitate",
         "Angajați & HR",
@@ -105,20 +136,44 @@
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. 18¹ alin. (1), (2) și (4): fundațiile primesc o opțiune de organizare teritorială, fără obligația generală de a transforma fiecare loc de activitate într-o sucursală. Textul nu creează monopoluri sau privilegii pentru anumite fundații.",
-        "Art. 18¹ alin. (3): înscrierea se cere la judecătoria sediului fundației, chiar dacă sucursala funcționează în altă localitate. Soluția reproduce regula teritorială existentă pentru sucursalele asociațiilor, prevăzută de art. 13¹ alin. (2¹). [OG nr. 26/2000](https://legislatie.just.ro/Public/DetaliiDocument/280838)",
-        "Art. 18¹ alin. (3): trimiterea la art. 15-17 include reguli despre patrimoniul inițial, statut și dobândirea personalității juridice. Aplicarea corespunzătoare trebuie adaptată lipsei personalității juridice; nu rezultă automat obligația unui patrimoniu minim separat pentru sucursală. O enumerare precisă a documentelor ar reduce incertitudinea. [Art. 15-17](https://legislatie.just.ro/Public/DetaliiDocument/280838)",
-        "Proiectul nu introduce impozite, amenzi sau cheltuieli bugetare obligatorii noi. Sunt previzibile costuri de înscriere pentru fundațiile care aleg sucursale și un volum suplimentar de dosare pentru instanțe; cuantumul nu poate fi stabilit din documentele furnizate. Cetățenilor și IMM-urilor nu li se impun obligații directe."
+        "Art. 18¹ alin. (1)-(2) introduce o alternativă organizatorică la filialele deja permise: sucursala fără personalitate juridică, constituită prin hotărârea consiliului director.",
+        "Art. 18¹ alin. (3) condiționează începerea activității sucursalei de înscrierea în registru. Această formalitate presupune timp și costuri administrative, dar noua posibilitate poate evita constituirea unei persoane juridice distincte.",
+        "Trimiterea la art. 15-17 privește norme concepute pentru constituirea fundației, inclusiv patrimoniul inițial și dobândirea personalității juridice. Aplicarea «în mod corespunzător» trebuie limitată la ceea ce este compatibil cu o sucursală fără personalitate juridică.",
+        "Art. 18¹ alin. (4) lasă fundației stabilirea activităților sucursalei. Nu creează monopoluri, privilegii comerciale sau restricții de acces pe piață pentru IMM-uri.",
+        "Articolul unic nu conține derogări, abrogări, modificări fiscale ori dispoziții tranzitorii. Nu regularizează expres activitatea anterioară a structurilor teritoriale existente."
       ],
-      "blindSpotsCaught": "Justificarea fiscală nu trebuie confundată cu o imposibilitate legală generală, demonstrată: procedura ANAF din 2026 prevede, pentru înregistrarea sediului secundar, formularul 060 și dovada deținerii legale a spațiului, fără să enumere o hotărâre judecătorească drept anexă obligatorie generală. Refuzurile concrete invocate de inițiatori necesită dovezi distincte; proiectul clarifică organizarea civilă, dar nu modifică procedura fiscală. [Procedura aprobată prin Ordinul ANAF nr. 508/2026, pct. 7](https://legislatie.just.ro/Public/DetaliiDocumentAfis/309795)",
-      "constitutionalityNote": "Nu identific o încălcare constituțională evidentă. Raportat la art. 1 alin. (5), trimiterea la art. 15-17 prezintă un risc limitat de practică neunitară, fără a demonstra singură neconstituționalitatea. Art. 23 alin. (12), privind legalitatea pedepselor, nu este direct incident: proiectul nu instituie pedepse. Încadrarea ca lege ordinară este plauzibilă; simpla mențiune a art. 76 alin. (2) în extras nu dovedește însă verificarea efectivă a votului și cvorumului. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocumentAfis/47355)",
-      "euLawNote": "Directiva (UE) 2018/958 nu impune aici testul special de proporționalitate: proiectul nu restricționează accesul la o profesie reglementată sau exercitarea acesteia. Directiva (UE) 2015/1535 nu indică o obligație TRIS pentru această completare: lipsesc specificațiile tehnice pentru produse și normele care vizează în mod specific serviciile societății informaționale, inclusiv servicii digitale sau AI. Din text nu rezultă bariere concurențiale ori discriminări transfrontaliere; facilitarea organizării fundațiilor poate reduce costurile furnizării serviciilor. [Directiva 2018/958, art. 2](https://eur-lex.europa.eu/legal-content/ro/ALL/?uri=CELEX%3A32018L0958), [Directiva 2015/1535, art. 1 și 5](https://eur-lex.europa.eu/legal-content/RO/ALL/?uri=celex%3A32015L1535)",
+      "blindSpotsCaught": "Competența de înregistrare aparține judecătoriei de la sediul fundației, nu celei de la sediul sucursalei. Trimiterea generală la art. 15-17 poate genera cerințe neuniforme privind documentele necesare, dar nu transformă sucursala în persoană juridică, deoarece alin. (1) exclude expres această calitate. Refuzurile ANAF și ale instanțelor sunt relatate în expunerea de motive, fără a fi demonstrate prin documentele furnizate.",
+      "constitutionalityNote": "Pe textul furnizat nu rezultă o problemă evidentă de constituționalitate. Soluția facilitează exercitarea libertății de asociere, protejată de art. 40. Rezerva relevantă pentru art. 1 alin. (5) este delimitarea insuficient de precisă a normelor aplicabile înregistrării; aceasta justifică o clarificare legislativă, fără a demonstra singură neconstituționalitatea. Art. 23 alin. (12), referitor la legalitatea pedepselor, nu este incident direct: textul nu stabilește infracțiuni sau pedepse.",
+      "euLawNote": "Nu rezultă restrângeri ale concurenței sau ale libertății de stabilire. Directiva (UE) 2018/958 nu impune aici un test de proporționalitate, deoarece textul nu reglementează accesul la profesii reglementate ori exercitarea lor. Nu se identifică o reglementare tehnică pentru produse sau o normă destinată în mod specific serviciilor societății informaționale care să declanșeze notificarea TRIS potrivit Directivei (UE) 2015/1535. Faptul că o fundație poate utiliza servicii digitale nu schimbă această concluzie.",
       "senatForm": {
-        "articleRef": "Art. 18¹ alin. (3)",
-        "proposalContent": "(3) Activitatea sucursalei începe după înscrierea în Registrul asociațiilor și fundațiilor. Cererea se depune la judecătoria sediului fundației, însoțită de hotărârea consiliului director și dovada sediului sucursalei. Se aplică în mod corespunzător art. 8-12, fără dobândirea personalității juridice. Nu se cere patrimoniu inițial sau statut propriu.",
-        "argumentation": "Trimiterea la art. 15-17 privește constituirea fundației și poate genera cerințe nepotrivite pentru o structură fără personalitate juridică. Precizarea documentelor și folosirea procedurii art. 8-12, ca la sucursalele asociațiilor, reduc practica neunitară și costurile administrative.",
-        "otherComments": "La promulgare, termenul de amendamente din 08.09.2026 este închis. E-mailul către Comisia juridică are valoare de petiție; textul poate fi valorificat la o eventuală reexaminare sau printr-o inițiativă legislativă ulterioară. Cetățeanul nu poate declanșa singur reexaminarea."
-      }
+        "articleRef": "Articol unic – art. 18¹ alin. (3)",
+        "proposalContent": "(3) Sucursalele își pot desfășura activitatea numai după înscrierea în Registrul asociațiilor și fundațiilor. Cererea, însoțită de hotărârea consiliului director, se depune la judecătoria în a cărei circumscripție își are sediul fundația. Dispozițiile art. 8-12 se aplică în mod corespunzător, exclusiv procedurii de înscriere.",
+        "argumentation": "Trimiterea la art. 15-17 include reguli privind patrimoniul inițial și dobândirea personalității juridice a fundației. Referirea directă la procedura judiciară de înscriere reduce riscul solicitării unor condiții incompatibile cu statutul sucursalei și păstrează controlul instanței.",
+        "otherComments": "Conform stadiului furnizat, actul este deja Legea nr. 208/2026; propunerea ar necesita o inițiativă de modificare, nu un amendament la proiectul adoptat. Analiza folosește documentele furnizate; verificarea independentă a surselor externe nu a fost posibilă în această sesiune."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T08:06:15.767Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "camera",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:33:39.778Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

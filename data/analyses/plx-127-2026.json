@@ -2,117 +2,171 @@
   "billId": "PL-x 127/2026",
   "slug": "plx-127-2026",
   "version": "camera",
-  "updatedAt": "2026-10-29T10:05:31.887Z",
+  "updatedAt": "2026-11-24T15:34:21.085Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "camera",
+    "billChars": 1422,
+    "ordinanceChars": 0,
+    "memoChars": 4533,
+    "memoSupplied": 4533,
+    "marker": "SF-69FEE775"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-127-2026.json",
+    "form": "camera",
+    "textHash": "69fee775813311f1",
+    "fetchedAt": "2026-11-19T11:02:08.394Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 1,
+    "riskScore": 1.3,
     "riskLevel": "green",
-    "plainTitle": "2026 devine oficial Anul Grigore Moisil, părintele informaticii românești",
-    "summaryTlDr": "Lege pur simbolică și inofensivă: nu obligă pe nimeni la nimic, nu creează taxe, sancțiuni sau cheltuieli noi și doar permite autorităților să finanțeze evenimente din bugetele deja aprobate. Singurul minus real este calendarul, fiindcă legea a trecut de Camera decizională abia în septembrie 2026, cu anul omagial aproape încheiat.",
-    "initiatorClaim": "Inițiatorii vor să marcheze 120 de ani de la nașterea academicianului Grigore C. Moisil (1906-1973). Vor să folosească aniversarea pentru a promova educația STEM, cercetarea și tradiția românească în matematică și informatică.",
-    "realityCheck": "Art. 1 declară simbolic anul 2026 drept Anul Grigore Constantin Moisil. Art. 2 permite, fără să oblige, autorităților centrale și locale, instituțiilor subordonate și oricăror persoane să organizeze manifestări, iar autoritățile pot da sprijin logistic și bani doar în limita alocațiilor bugetare deja aprobate. Conferințele, digitalizarea operei și programele școlare promise în expunerea de motive nu apar în text ca obligații și nu au niciun responsabil sau buget dedicat. Adoptarea finală la 9 septembrie 2026 lasă doar câteva luni pentru vreun efect practic.",
+    "plainTitle": "2026 devine oficial «Anul Grigore Moisil», părintele informaticii românești",
+    "summaryTlDr": "Lege simbolică și inofensivă: nu impune obligații, taxe sau sancțiuni nimănui. Instituțiile pot organiza evenimente dedicate lui Moisil, dar nu sunt obligate.",
+    "initiatorClaim": "Inițiatorii vor să marcheze 120 de ani de la nașterea lui Grigore C. Moisil (1906–1973), pionier al logicii matematice și al informaticii în România. Scopul declarat este promovarea educației STEM și a tradiției românești în informatică.",
+    "realityCheck": "Legea are două articole. Declară 2026 ca an comemorativ (Art. 1) și permite autorităților, instituțiilor, persoanelor și ONG-urilor să organizeze manifestări culturale, educative sau științifice (Art. 2 alin. 1). Autoritățile pot acorda sprijin logistic și fonduri din bugetele proprii, în limita alocațiilor aprobate (Art. 2 alin. 2). Tot ce prevede legea este facultativ („poate”, „pot”). Planurile din expunerea de motive (conferințe, digitalizarea operei, programe în școli) nu apar în text, deci nu au efect obligatoriu. Legea fiind adoptată în septembrie 2026, efectul practic se reduce la ultimele luni ale anului.",
     "affectedGroups": [
       "Sănătate & Educație",
       "IT & AI",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 2, alin. (3) nou",
-      "proposalContent": "Se introduce alin. (3): „(3) Manifestările prevăzute la alin. (1) pot fi organizate și pe parcursul anului școlar și universitar 2026-2027. Ministerul Educației și Cercetării, cu consultarea Academiei Române, poate publica pe site-ul propriu un calendar orientativ al acestora.”",
-      "argumentation": "Legea a fost adoptată de Camera Deputaților abia la 9 septembrie 2026, deci din anul omagial rămân doar câteva luni. Extinderea pe anul școlar permite școlilor și universităților să includă programe STEM dedicate, iar un calendar public evită suprapunerile. Formularea permisivă nu creează cheltuieli obligatorii.",
-      "otherComments": "Termenul de amendamente (12.03.2026) a expirat, iar proiectul a devenit Legea nr. 191/2026, deci propunerea poate fi preluată doar printr-o nouă inițiativă de modificare. Finanțarea ONG-urilor în baza art. 2 alin. (2) rămâne supusă Legii nr. 350/2005, cu proceduri competitive și transparente."
+      "articleRef": "Art. 2 – introducerea unui alin. (3) nou",
+      "proposalContent": "(3) Ministerul Educației și Cercetării, împreună cu Academia Română, poate elabora un program de manifestări dedicate Anului Grigore Constantin Moisil, care să includă activități în unitățile de învățământ și digitalizarea operei academicianului, iar SRR și SRTv pot difuza programe dedicate.",
+      "argumentation": "Fără un coordonator, legea riscă să rămână pur declarativă, mai ales că a fost adoptată spre finalul anului 2026. Desemnarea unor instituții care pot coordona activitățile pune în practică obiectivele STEM din expunerea de motive, fără costuri obligatorii noi.",
+      "otherComments": "Legea este benignă și utilă simbolic, iar susținerea ei este justificată. Propun ca, pe viitor, legile comemorative să fie adoptate înainte de începutul anului vizat, pentru a permite planificarea bugetară și organizarea evenimentelor în timp util."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 30508,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 33917,
+      "sourceEndMarker": "SF-69FEE775",
       "riskScore": 1,
       "riskLevel": "green",
-      "plainTitle": "Declararea anului 2026 ca „Anul Grigore Constantin Moisil”",
-      "verdictShort": "Lege pur simbolică și benignă, care omagiază 120 de ani de la nașterea părintelui informaticii românești fără a impune obligații, taxe sau birocrație. Singurul paradox este adoptarea ei abia în septembrie 2026, când anul omagiat era deja pe trei sferturi încheiat.",
-      "initiatorClaim": "Inițiatorii își propun cinstirea memoriei academicianului Grigore Constantin Moisil (1906–1973) și promovarea educației STEM, a matematicii și a informaticii în rândul tinerilor prin evenimente dedicate pe parcursul anului 2026.",
-      "realityCheck": "Textul are un caracter strict facultativ și declarativ: instituțiile publice și entitățile private „pot” organiza manifestări științifice sau culturale, iar eventualele cheltuieli publice se fac exclusiv în limita bugetelor deja aprobate. Adoptarea tardivă în Camera decizională (9 septembrie 2026) reduce însă efectul practic al legii la ultimele luni ale anului.",
+      "plainTitle": "2026 devine simbolic „Anul Grigore Constantin Moisil”",
+      "verdictShort": "Lege pur simbolică și inofensivă, fără obligații, taxe sau sancțiuni. Singura problemă reală este tardivitatea: a fost adoptată abia în septembrie 2026 pentru anul deja în curs.",
+      "initiatorClaim": "Inițiatorii vor să marcheze 120 de ani de la nașterea academicianului Grigore Moisil, să promoveze educația STEM și să încurajeze conferințe, programe educaționale și digitalizarea operei sale.",
+      "realityCheck": "Legea conține doar două articole declarative: consacră simbolic anul 2026 și permite (nu obligă) autorităților centrale, locale, ONG-urilor și persoanelor fizice sau juridice să organizeze evenimente dedicate. Instituțiile publice pot aloca sprijin logistic și fonduri exclusiv opțional și în limita bugetelor deja aprobate, deci nu apar taxe noi sau sarcini administrative pentru cetățeni ori firme.",
       "affectedGroups": [
         "Sănătate & Educație",
         "IT & AI",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 1 instituie onorific anul 2026 ca „Anul Grigore Constantin Moisil”, fără a crea structuri instituționale sau comitete speciale.",
-        "Art. 2 alin. (1) și (2) folosesc norme permisive („poate fi marcată”, „pot aloca fonduri”), lăsând la latitudinea autorităților centrale și locale organizarea de evenimente, strict în limita alocațiilor bugetare existente.",
-        "Nu există sancțiuni, obligații pentru mediul privat sau derogări de la legislația achizițiilor publice ori a finanțărilor nerambursabile."
+        "Art. 1 are efect exclusiv comemorativ, instituind anul 2026 ca Anul Grigore Constantin Moisil în cinstea contribuțiilor sale în matematică și informatică.",
+        "Art. 2 alin. (1) este pur facultativ („poate fi marcată”), neimpunând nicio obligație școlilor, autorităților, firmelor sau cetățenilor.",
+        "Art. 2 alin. (2) autorizează autoritățile publice să acorde sprijin logistic și fonduri din bugetele proprii „în limita alocațiilor bugetare aprobate”, fără a deschide linii bugetare suplimentare obligatorii și fără a prevedea un mecanism propriu de raportare a cheltuielilor."
       ],
-      "blindSpotsCaught": "Defazaj legislativ major: deși proiectul a fost depus la Senat în 2025 (L636/2025) pentru a consacra întregul an 2026, Camera Deputaților l-a adoptat abia la 9 septembrie 2026, lăsând mai puțin de un trimestru pentru aplicarea efectivă a legii.",
-      "constitutionalityNote": "Actul normativ respectă exigențele Constituției României. Încadrarea expresă a eventualelor cheltuieli „în limita alocațiilor bugetare aprobate” (Art. 2 alin. 2) asigură conformitatea cu Art. 138 alin. (5) din Constituție privind indicarea sursei de finanțare.",
-      "euLawNote": "Nu are incidență asupra dreptului Uniunii Europene; nu restrânge piața unică, nu reglementează profesii (Directiva 2018/958) și nu introduce reglementări tehnice sau privind serviciile societății informaționale (Directiva TRIS 2015/1535).",
+      "blindSpotsCaught": "Anacronism procedural evident: legea instituie întregul an 2026 ca an omagial, dar Camera Deputaților a adoptat-o abia la 9 septembrie 2026. După promulgare și intrarea în vigoare, rămân doar ultimele luni ale anului pentru organizarea de manifestări sau realocări bugetare, ceea ce reduce drastic utilitatea practică a legii.",
+      "constitutionalityNote": "Textul respectă Constituția României, inclusiv art. 1 alin. (5) privind claritatea și previzibilitatea și art. 76 alin. (2) (lege ordinară). Întrucât finanțarea este opțională și strict în limita alocațiilor bugetare aprobate, nu contravine art. 138 alin. (5) privind stabilirea sursei de finanțare, iar lipsa sancțiunilor exclude probleme pe art. 23 alin. (12).",
+      "euLawNote": "Fără incidență negativă asupra dreptului Uniunii Europene. Nu reglementează profesii (Directiva 2018/958 nu este aplicabilă), nu impune reguli tehnice sau cerințe pentru servicii digitale/AI (nu necesită notificare TRIS conform Directivei 2015/1535) și nu distorsionează piața unică ori concurența.",
       "senatForm": {
         "articleRef": "Art. 2 alin. (2)",
-        "proposalContent": "La articolul 2, alineatul (2) se completează în final cu sintagma: „cu respectarea principiilor transparenței și concurenței prevăzute de Legea nr. 350/2005 privind regimul finanțărilor nerambursabile din fonduri publice alocate pentru activități nonprofit de interes general.”",
-        "argumentation": "Deși legea este simbolică și încadrează cheltuielile în limitele bugetare aprobate, trimiterea expresă la Legea nr. 350/2005 previne alocarea discreționară a fondurilor publice către entități private sau ONG-uri pentru evenimente omagiale organizate pe final de an.",
-        "otherComments": "Legea a fost adoptată de Camera decizională abia pe 9 septembrie 2026, lăsând mai puțin de patru luni efective pentru marcarea Anului Grigore Constantin Moisil. Pe viitor, proiectele aniversare ar trebui adoptate în anul premergător celui omagiat."
-      }
+        "proposalContent": "La Art. 2 alin. (2), se introduce obligația publicării online a cheltuielilor: «Fondurile alocate și lista manifestărilor finanțate se publică transparent pe site-ul instituției în 30 de zile de la alocare, în limita alocațiilor bugetare aprobate.»",
+        "argumentation": "Deși legea este benignă și onorează o personalitate marcantă, alocările opționale din bugete publice au nevoie de transparență proactivă pentru a evita cheltuieli discreționare pe final de an, mai ales că actul a fost adoptat abia în septembrie 2026.",
+        "otherComments": "Legea este deja adoptată (Lege 191/2026). Pentru viitoarele inițiative de instituire a unor «ani dedicați», Parlamentul ar trebui să le adopte cu cel puțin 6 luni înainte de începerea anului vizat, pentru o planificare bugetară și educațională reală."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 64923,
+      "durationMs": 25311,
+      "sourceEndMarker": "SF-69FEE775",
       "riskScore": 1,
       "riskLevel": "green",
-      "plainTitle": "2026 devine oficial Anul Grigore Moisil, părintele informaticii românești",
-      "verdictShort": "Lege pur simbolică și inofensivă: nu obligă pe nimeni la nimic, nu creează taxe, sancțiuni sau cheltuieli noi și doar permite autorităților să finanțeze evenimente din bugetele deja aprobate. Singurul minus real este calendarul, fiindcă legea a trecut de Camera decizională abia în septembrie 2026, cu anul omagial aproape încheiat.",
-      "initiatorClaim": "Inițiatorii vor să marcheze 120 de ani de la nașterea academicianului Grigore C. Moisil (1906-1973). Vor să folosească aniversarea pentru a promova educația STEM, cercetarea și tradiția românească în matematică și informatică.",
-      "realityCheck": "Art. 1 declară simbolic anul 2026 drept Anul Grigore Constantin Moisil. Art. 2 permite, fără să oblige, autorităților centrale și locale, instituțiilor subordonate și oricăror persoane să organizeze manifestări, iar autoritățile pot da sprijin logistic și bani doar în limita alocațiilor bugetare deja aprobate. Conferințele, digitalizarea operei și programele școlare promise în expunerea de motive nu apar în text ca obligații și nu au niciun responsabil sau buget dedicat. Adoptarea finală la 9 septembrie 2026 lasă doar câteva luni pentru vreun efect practic.",
+      "plainTitle": "2026 devine oficial «Anul Grigore Moisil», părintele informaticii românești",
+      "verdictShort": "Lege simbolică și inofensivă: nu impune obligații, taxe sau sancțiuni nimănui. Instituțiile pot organiza evenimente dedicate lui Moisil, dar nu sunt obligate.",
+      "initiatorClaim": "Inițiatorii vor să marcheze 120 de ani de la nașterea lui Grigore C. Moisil (1906–1973), pionier al logicii matematice și al informaticii în România. Scopul declarat este promovarea educației STEM și a tradiției românești în informatică.",
+      "realityCheck": "Legea are două articole. Declară 2026 ca an comemorativ (Art. 1) și permite autorităților, instituțiilor, persoanelor și ONG-urilor să organizeze manifestări culturale, educative sau științifice (Art. 2 alin. 1). Autoritățile pot acorda sprijin logistic și fonduri din bugetele proprii, în limita alocațiilor aprobate (Art. 2 alin. 2). Tot ce prevede legea este facultativ („poate”, „pot”). Planurile din expunerea de motive (conferințe, digitalizarea operei, programe în școli) nu apar în text, deci nu au efect obligatoriu. Legea fiind adoptată în septembrie 2026, efectul practic se reduce la ultimele luni ale anului.",
       "affectedGroups": [
         "Sănătate & Educație",
         "IT & AI"
       ],
       "keyFindings": [
-        "Art. 1 are efect strict declarativ. Nu creează drepturi, obligații, sancțiuni, zi liberă sau zi de sărbătoare legală.",
-        "Art. 2 alin. (1) folosește formula permisivă „poate fi marcată”, deci nicio autoritate nu este obligată să organizeze ceva. Mențiunea persoanelor fizice și juridice, inclusiv a ONG-urilor, este redundantă, pentru că acestea nu au nevoie de lege ca să organizeze evenimente.",
-        "Art. 2 alin. (2) plafonează cheltuielile la „limita alocațiilor bugetare aprobate”. Legea nu generează cheltuieli bugetare noi, dar oferă temeiul legal de care ordonatorii de credite, inclusiv cei locali conform Legii nr. 273/2006, au nevoie ca să plătească astfel de manifestări.",
-        "Nu există autoritate coordonatoare, program-cadru, obligație de raportare sau transparență a sumelor cheltuite. Măsurile din expunerea de motive (conferințe, programe în școli, republicarea operei) rămân intenții fără efect juridic.",
-        "Pentru cetățeni și IMM-uri legea nu are niciun cost și nicio birocrație. Este neutră și pozitivă ca mesaj public pentru educația STEM."
+        "Art. 1 instituie anul 2026 ca „Anul Grigore Constantin Moisil”. Este o dispoziție pur declarativă, fără efecte juridice asupra cetățenilor sau firmelor.",
+        "Art. 2 alin. (1) este permisiv: oricine (autorități, instituții, persoane fizice și juridice, ONG-uri) poate organiza manifestări. Nimeni nu este obligat și nu există sancțiuni.",
+        "Art. 2 alin. (2) permite autorităților centrale și locale să aloce fonduri și sprijin logistic doar „în limita alocațiilor bugetare aprobate”. Legea nu creează cheltuieli noi obligatorii și nu are impact bugetar direct.",
+        "Legea nu desemnează o autoritate coordonatoare (de ex. Ministerul Educației sau Academia Română) și nu prevede vreun program național. Fără un coordonator, marcarea anului poate rămâne fragmentată sau inexistentă.",
+        "Calendarul este problematic: adoptarea finală a avut loc pe 9 septembrie 2026. Un „an comemorativ” instituit cu aproximativ 3–4 luni înainte de final are un efect practic limitat."
       ],
-      "blindSpotsCaught": "Proiectul a fost adoptat de Camera decizională abia la 9 septembrie 2026. Aniversarea propriu-zisă (10 ianuarie 1906) a trecut deja, iar anul omagial se reduce practic la ultimul trimestru, tocmai când bugetele pe 2026 sunt aproape epuizate. Asta golește în bună măsură de conținut posibilitatea de finanțare din art. 2 alin. (2). Când autoritățile finanțează ONG-uri sau alți organizatori privați, legea nu precizează mecanismul, dar se aplică în continuare Legea nr. 350/2005 privind finanțările nerambursabile, cu procedură competitivă și transparentă, și nu alocări directe discreționare.",
-      "constitutionalityNote": "Nu ridică probleme de constituționalitate. Textul este scurt, clar și previzibil, conform art. 1 alin. (5). Nu restrânge drepturi (art. 53) și nu instituie sancțiuni, deci art. 23 alin. (12) nu este incident. Legea este ordinară, adoptată cu respectarea art. 76 alin. (2), iar Camera Deputaților este corect Cameră decizională conform art. 75 alin. (1). Art. 138 alin. (5) este respectat, pentru că nu se stabilesc cheltuieli noi obligatorii fără sursă de finanțare. Autonomia locală (art. 120-121) este respectată, fiindcă autoritățile locale decid singure dacă participă și cu ce sume.",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă, deoarece legea nu reglementează accesul la vreo profesie sau exercitarea ei. Directiva (UE) 2015/1535 (TRIS) nu este aplicabilă: deși tema este informatica, textul nu conține reguli tehnice și nici reguli privind serviciile societății informaționale sau AI, deci nu necesită notificare. Nu afectează piața unică și nici concurența. Eventualele finanțări către operatori economici trebuie să respecte regulile de ajutor de stat, de exemplu de minimis sau exceptările pentru cultură din Regulamentul (UE) nr. 651/2014. La sumele tipice pentru evenimente omagiale, riscul este neglijabil.",
+      "blindSpotsCaught": "Legea a fost adoptată de camera decizională abia pe 9.09.2026 pentru un an care se încheie pe 31.12.2026, așa că o mare parte din anul comemorat trecuse deja. În plus, lista de semnături din expunerea de motive este scanată defectuos (nume deformate prin OCR), dar fișa oficială a Camerei confirmă inițiatorii. Nu se pune problema art. 138 alin. (5) din Constituție privind sursa de finanțare, deoarece cheltuielile sunt facultative și încadrate în bugetele deja aprobate.",
+      "constitutionalityNote": "Nu ridică probleme de constituționalitate. Este o lege ordinară adoptată conform art. 76 alin. (2). Textul este clar și previzibil (art. 1 alin. 5), fără ambiguități, deoarece nu stabilește obligații sau sancțiuni. Nu afectează drepturi fundamentale. Cerința art. 138 alin. (5) este respectată indirect prin formula „în limita alocațiilor bugetare aprobate”. Autonomia locală (art. 120) nu este încălcată, întrucât autoritățile locale doar pot, nu trebuie, să aloce fonduri.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este relevantă, deoarece legea nu reglementează profesii și nu introduce cerințe de acces la activități. Directiva (UE) 2015/1535 (TRIS) nu se aplică, deoarece legea nu conține reglementări tehnice și nici reguli privind serviciile societății informaționale sau AI. Nu există impact asupra pieței unice, concurenței sau ajutorului de stat, fiindcă eventualele finanțări sunt sume mici pentru evenimente culturale și educative, neselective economic.",
       "senatForm": {
-        "articleRef": "Art. 2, alin. (3) nou",
-        "proposalContent": "Se introduce alin. (3): „(3) Manifestările prevăzute la alin. (1) pot fi organizate și pe parcursul anului școlar și universitar 2026-2027. Ministerul Educației și Cercetării, cu consultarea Academiei Române, poate publica pe site-ul propriu un calendar orientativ al acestora.”",
-        "argumentation": "Legea a fost adoptată de Camera Deputaților abia la 9 septembrie 2026, deci din anul omagial rămân doar câteva luni. Extinderea pe anul școlar permite școlilor și universităților să includă programe STEM dedicate, iar un calendar public evită suprapunerile. Formularea permisivă nu creează cheltuieli obligatorii.",
-        "otherComments": "Termenul de amendamente (12.03.2026) a expirat, iar proiectul a devenit Legea nr. 191/2026, deci propunerea poate fi preluată doar printr-o nouă inițiativă de modificare. Finanțarea ONG-urilor în baza art. 2 alin. (2) rămâne supusă Legii nr. 350/2005, cu proceduri competitive și transparente."
-      }
+        "articleRef": "Art. 2 – introducerea unui alin. (3) nou",
+        "proposalContent": "(3) Ministerul Educației și Cercetării, împreună cu Academia Română, poate elabora un program de manifestări dedicate Anului Grigore Constantin Moisil, care să includă activități în unitățile de învățământ și digitalizarea operei academicianului, iar SRR și SRTv pot difuza programe dedicate.",
+        "argumentation": "Fără un coordonator, legea riscă să rămână pur declarativă, mai ales că a fost adoptată spre finalul anului 2026. Desemnarea unor instituții care pot coordona activitățile pune în practică obiectivele STEM din expunerea de motive, fără costuri obligatorii noi.",
+        "otherComments": "Legea este benignă și utilă simbolic, iar susținerea ei este justificată. Propun ca, pe viitor, legile comemorative să fie adoptate înainte de începutul anului vizat, pentru a permite planificarea bugetară și organizarea evenimentelor în timp util."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 75881,
-      "riskScore": 1,
+      "durationMs": 57830,
+      "sourceEndMarker": "SF-69FEE775",
+      "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "2026, an dedicat matematicianului Grigore Moisil",
-      "verdictShort": "Legea are un risc juridic redus: instituie un an comemorativ și permite activități finanțate în limita bugetelor aprobate. Nu introduce taxe, sancțiuni, monopoluri sau obligații pentru cetățeni și firme.",
-      "initiatorClaim": "Inițiatorii urmăresc cinstirea contribuțiilor lui Grigore Moisil și promovarea educației STEM. Expunerea de motive evocă programe educaționale, conferințe și digitalizarea operei sale.",
-      "realityCheck": "Art. 1 instituie denumirea comemorativă, iar art. 2 permite organizarea de manifestări și acordarea de sprijin public, fără să le impună. Legea nu creează programe STEM, finanțări garantate sau obligații de digitalizare a operei. Cheltuielile efective depind de deciziile instituțiilor și de alocațiile bugetare aprobate; textul nu permite cuantificarea lor.",
+      "plainTitle": "2026, anul dedicat lui Grigore Moisil",
+      "verdictShort": "Lege comemorativă cu risc redus: permite evenimente și sprijin public în limitele bugetelor aprobate. Nu introduce taxe, sancțiuni, monopoluri sau obligații pentru cetățeni și firme.",
+      "initiatorClaim": "Inițiatorii urmăresc cinstirea lui Grigore Moisil la 120 de ani de la naștere și promovarea contribuțiilor sale la matematică, informatică și educație.",
+      "realityCheck": "Art. 1 instituie denumirea comemorativă, iar art. 2 permite organizarea de manifestări și acordarea de sprijin logistic sau financiar din bugetele proprii aprobate. Participarea și finanțarea sunt facultative; legea nu instituie programe obligatorii, granturi garantate sau drepturi automate la finanțare. Referirile din motivare la dezvoltarea informaticii nu se traduc în reglementări pentru sectorul IT.",
       "affectedGroups": [
         "IT & AI",
-        "Sănătate & Educație",
-        "Toți cetățenii"
+        "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. 2 alin. (1) are caracter facultativ: autoritățile, instituțiile și persoanele private pot organiza sau susține manifestări, fără obligații de participare ori raportare.",
-        "Art. 2 alin. (2) permite sprijin logistic și cheltuieli din bugetele proprii, exclusiv în limita alocațiilor aprobate. Nu instituie taxe, un fond distinct sau finanțări obligatorii.",
-        "Niciun articol nu reglementează accesul la profesii, serviciile digitale sau inteligența artificială. Referirile la informatică și AI din motivare nu creează cerințe pentru sectorul IT."
+        "Art. 2 alin. (1) folosește formula «poate fi marcată»: autoritățile, instituțiile, persoanele fizice și organizațiile pot participa voluntar, fără obligații administrative noi.",
+        "Art. 2 alin. (2) permite sprijin logistic și cheltuieli publice numai în limita alocațiilor bugetare aprobate. Nu stabilește sume, beneficiari privilegiați sau finanțări obligatorii; costul efectiv depinde de deciziile autorităților.",
+        "Textul se încheie după art. 2 alin. (2). Nu există derogări, abrogări, sancțiuni, modificări ale altor legi sau dispoziții tranzitorii ascunse."
       ],
-      "blindSpotsCaught": "Instituirea întregului an 2026 nu autorizează retroactiv cheltuieli efectuate înaintea intrării în vigoare. De asemenea, în stadiul indicat de Lege 191/2026, o propunere trimisă comisiei nu mai poate deveni amendament în dosarul încheiat; modificarea necesită o nouă procedură legislativă. Verificarea online nu a fost disponibilă; analiza se bazează pe documentele furnizate.",
-      "constitutionalityNote": "Textul este suficient de clar pentru obiectul său limitat, fără probleme evidente în raport cu art. 1 alin. (5). Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident: legea nu stabilește pedepse. Caracterul facultativ al cheltuielilor și limita alocațiilor aprobate reduc riscul bugetar, însă fiecare cheltuială trebuie să respecte art. 138 alin. (5) și legislația finanțelor publice. Trimiterea la art. 76 alin. (2) este compatibilă cu materia unei legi ordinare; întregul parcurs constituțional nu poate fi verificat doar din extras.",
-      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: textul nu restricționează accesul la profesii reglementate sau exercitarea lor. Nu rezultă o obligație de notificare TRIS în temeiul Directivei (UE) 2015/1535, deoarece nu sunt introduse reglementări tehnice pentru produse sau reguli privind serviciile societății informaționale. Nu apar restricții directe asupra concurenței ori pieței unice. Eventualele finanțări concrete rămân supuse regulilor aplicabile privind achizițiile publice și, dacă sunt îndeplinite condițiile, ajutorul de stat.",
+      "blindSpotsCaught": "Instituirea întregului an 2026 după adoptarea din septembrie are în principal semnificație comemorativă: nu validează automat cheltuieli anterioare intrării în vigoare. Autorizația generală de sprijin nu înlocuiește regulile aplicabile finanțării concrete și nici nu conferă solicitanților un drept la bani publici. Potrivit stadiului furnizat, procedura legislativă este deja încheiată.",
+      "constitutionalityNote": "Nu rezultă o problemă evidentă de constituționalitate din textul furnizat. Caracterul facultativ al măsurilor și plafonarea la alocațiile aprobate sunt suficient de clare pentru scopul legii, în raport cu art. 1 alin. (5). Art. 23 alin. (12), referitor la legalitatea pedepselor, nu este incident: nu există sancțiuni. Finanțarea rămâne supusă disciplinei bugetare și art. 138 alin. (5); textul nu impune o cheltuială obligatorie cuantificată. Aplicarea trebuie să respecte neretroactivitatea și intrarea în vigoare potrivit art. 15 alin. (2) și art. 78. Formula de adoptare indicată, întemeiată pe art. 76 alin. (2), este compatibilă cu obiectul unei legi ordinare.",
+      "euLawNote": "Directiva (UE) 2018/958 nu impune aici testul de proporționalitate: legea nu restrânge accesul la profesii reglementate sau exercitarea lor. Directiva (UE) 2015/1535 nu declanșează notificarea TRIS pentru acest text, care nu conține reglementări tehnice privind produse sau norme privind serviciile societății informaționale; comemorarea unui informatician nu echivalează cu reglementarea serviciilor digitale ori AI. Nu apar bariere de piață sau exclusivități. Sprijinul concret pentru activități economice trebuie evaluat, după caz, potrivit regulilor de concurență și ajutor de stat; nu orice finanțare comemorativă constituie ajutor de stat.",
       "senatForm": {
         "articleRef": "Art. 2 alin. (2)",
-        "proposalContent": "Autoritățile și instituțiile prevăzute la alin. (1) pot acorda sprijin logistic și pot finanța manifestările prevăzute la același alineat, în limita alocațiilor bugetare aprobate, cu respectarea legislației privind finanțele publice, achizițiile publice și, după caz, ajutorul de stat.",
-        "argumentation": "Clarificarea este opțională: regulile generale se aplică deja. Formularea explicitează că scopul comemorativ nu înlătură condițiile legale pentru cheltuirea banilor publici, fără a impune finanțări sau obligații noi cetățenilor și firmelor.",
-        "otherComments": "În stadiul indicat, Lege 191/2026, textul poate fi transmis ca sugestie pentru o viitoare inițiativă de modificare, nu ca amendament în procedura încheiată. Termenul de 12 martie 2026 este depășit. Legea analizată nu necesită o corecție urgentă."
-      }
+        "proposalContent": "Autoritățile și instituțiile publice prevăzute la alin. (1) pot acorda sprijin logistic și pot aloca fonduri din bugetele proprii pentru manifestările prevăzute la alin. (1), în limita alocațiilor bugetare aprobate, cu respectarea legislației privind finanțele publice, achizițiile publice și, după caz, ajutorul de stat.",
+        "argumentation": "Clarificare facultativă: sprijinul comemorativ se acordă în cadrul regulilor generale de cheltuire a banilor publici. Aceste reguli sunt deja aplicabile; completarea nu remediază o derogare existentă și nu este necesară pentru constituționalitatea legii.",
+        "otherComments": "Stadiul este preluat din datele furnizate; verificarea online nu a fost disponibilă. Fiind indicată Legea nr. 191/2026, propunerea poate servi unei inițiative ulterioare de modificare, nu unui amendament în procedura deja încheiată. Termenul indicat pentru amendamente a expirat."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 1,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T10:05:31.887Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "camera",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 1
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:34:21.085Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

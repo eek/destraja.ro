@@ -2,116 +2,173 @@
   "billId": "PL-x 443/2026",
   "slug": "plx-443-2026",
   "version": "camera",
-  "updatedAt": "2026-10-29T09:23:25.914Z",
+  "updatedAt": "2026-11-24T15:36:38.356Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "camera",
+    "billChars": 2976,
+    "ordinanceChars": 7652,
+    "memoChars": 14350,
+    "memoSupplied": 14350,
+    "marker": "SF-7B432FAD"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-443-2026.json",
+    "form": "camera",
+    "textHash": "7b432fad5e4f07a2",
+    "fetchedAt": "2026-11-19T10:56:14.470Z",
+    "acts": 2,
+    "actsFound": 2,
+    "actsRepealed": 0,
+    "articlesFound": 2,
+    "articlesShown": 2,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 11733,
+    "truncated": false,
+    "included": true,
+    "key": "a45d60d799d6e642"
+  },
   "consensus": {
-    "riskScore": 3.3,
+    "riskScore": 2.7,
     "riskLevel": "green",
-    "plainTitle": "STS poate cumpăra licențe pentru cloudul statului fără să mai aștepte acordurile cu producătorii de software",
-    "summaryTlDr": "Este o lege tehnică, făcută ca să salveze circa 6 milioane de euro din PNRR, și nu are efecte directe asupra cetățenilor sau firmelor. Problema e că scurtătura, justificată printr-un termen din august 2026, a rămas permanentă și ocolește negocierea centralizată a licențelor la nivel de stat.",
-    "initiatorClaim": "Guvernul spune că acordurile cu producătorii de software, pe care MEDAT trebuia să le încheie conform art. 3 alin. (5¹) din OUG 89/2022, nu s-au concretizat. Fără ele, STS nu poate cumpăra licențele de sisteme de operare și baze de date pentru cloudul intern, iar România ar pierde circa 6 milioane de euro din PNRR, bani care ar trebui apoi plătiți de la bugetul de stat. Guvernul afirmă și că a obținut acordul prealabil al Comisiei Europene.",
-    "realityCheck": "OUG 34/2026, aprobată prin art. I, introduce alin. (12¹) la art. 10 din OUG 89/2022. Noul alineat permite STS să încheie acorduri-cadru și contracte subsecvente pentru licențe înainte de acordurile guvernamentale, care erau gândite ca pârghie pentru condiții de licențiere mai bune pentru tot statul. Derogarea nu are termen și nu e limitată la achizițiile din PNRR, deci rămâne valabilă și după 31 august 2026, când pretextul a dispărut. Art. II, adăugat în Parlament, prelungește până la 31 august 2026 durata contractului de finanțare pentru Investiția I1 (Cloud Guvernamental), față de limita generală de 30 iunie 2026 pentru cererea de plată nr. 5.",
+    "plainTitle": "STS poate cumpăra licențe pentru cloudul statului fără să aștepte acordurile cu producătorii de software",
+    "summaryTlDr": "Lege tehnică, de salvare a unor bani PNRR (circa 6 milioane euro), fără efecte directe asupra cetățenilor sau firmelor. Problema ei e că derogarea nu are limită în timp: ocolește mecanismul acordurilor guvernamentale de licențiere pentru toată perioada de implementare a cloudului intern, nu doar până la termenul PNRR.",
+    "initiatorClaim": "Guvernul spune că acordurile guvernamentale cu producătorii de software, cerute de art. 3 alin. (5^1) din OUG 89/2022, nu au fost încheiate. Fără o derogare, STS nu ar putea cumpăra la timp licențele de sisteme de operare și baze de date pentru cloudul intern, iar România ar pierde circa 6 milioane euro din PNRR, bani care ar trebui apoi acoperiți din bugetul de stat.",
+    "realityCheck": "Art. I aprobă fără modificări OUG 34/2026. Ordonanța adaugă la art. 10 din OUG 89/2022 alin. (12^1): STS poate încheia acordurile-cadru și contractele subsecvente pentru licențe și înainte de acordurile guvernamentale de licențiere. Regula din art. 3 alin. (5^1) rămâne formal în vigoare, dar pentru cloudul intern devine opțională, fără termen-limită și fără obligația ca achizițiile să fie aliniate ulterior la condițiile negociate. Art. II, adăugat la Camera decizională, permite prelungirea până la 31 august 2026 a contractului de finanțare pentru investiția I1 Cloud Guvernamental din cererea de plată nr. 5; pentru celelalte investiții termenul rămâne 30 iunie 2026. Ambele dispoziții apar deja în forma consolidată în vigoare, iar la data analizei (noiembrie 2026) termenul din Art. II a expirat.",
     "affectedGroups": [
       "IT & AI",
-      "IMM & Antreprenori",
-      "Toți cetățenii"
+      "Toți cetățenii",
+      "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "OUG 89/2022, art. 10 alin. (12¹)",
-      "proposalContent": "(12¹) Prin excepție, STS poate încheia acordurile-cadru și contractele subsecvente prevăzute la alin. (11) și (12) anterior acordurilor guvernamentale de la art. 3 alin. (5¹) numai pentru licențe finanțate prin PNRR, pe cel mult 12 luni. La încheierea acordurilor guvernamentale, contractele se aliniază la condițiile acestora. STS publică anual valoarea și furnizorii.",
-      "argumentation": "Motivul declarat al OUG 34/2026 a fost evitarea pierderii a ~6 mil. € din PNRR până la 31.08.2026, dar alin. (12¹) e permanent și general: STS poate ocoli oricând acordurile guvernamentale menite să obțină condiții de licențiere mai bune. Limitarea la scopul declarat, alinierea ulterioară și transparența reduc riscul de dependență de furnizor și de costuri recurente.",
-      "otherComments": "Legea 109/2026 e deja promulgată, deci propunerea poate fi preluată doar printr-o inițiativă ulterioară de modificare a OUG 89/2022. De verificat: art. II prelungește doar Investiția I1, deși Expunerea de motive leagă licențele de Investiția 2 (migrare în cloud); și dacă art. II a fost introdus abia la Camera decizională (bicameralism)."
+      "articleRef": "Art. I – OUG 89/2022, art. 10 alin. (12^1)",
+      "proposalContent": "(12^1) Prin excepție de la art. 3 alin. (5^1), până la 31 august 2026, STS poate încheia acordurile-cadru și contractele subsecvente prevăzute la alin. (11) și (12) anterior acordurilor guvernamentale. Acordurile-cadru astfel încheiate prevăd clauze de aliniere la condițiile ulterior negociate și nu pot depăși 2 ani.",
+      "argumentation": "Derogarea e justificată de termenul PNRR (31.08.2026), dar textul nu are limită în timp și golește de conținut acordurile guvernamentale gândite să obțină condiții unitare de licențiere. Fără termen și clauze de aliniere, statul riscă dependență de furnizor și prețuri negociate dispersat, fără pârghia unui acord la nivel național.",
+      "otherComments": "Legea e deja adoptată (Lege 109/2026), deci propunerea vizează o modificare ulterioară. De corectat și trimiterile greșite din art. 10: alin. (12) trimite la «alin. (1)» și alin. (13) la «alin. (2)», în loc de alin. (11). Utilă publicarea în raportul anual (alin. 10) a valorii licențelor cumpărate prin derogare."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 43882,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 69661,
+      "sourceEndMarker": "SF-7B432FAD",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Deblocarea achiziției de licențe software de către STS și prelungirea termenului PNRR pentru Cloudul Guvernamental",
-      "verdictShort": "O măsură tehnică și pragmatică menită să salveze 6 milioane de euro din PNRR înainte de termenul-limită din 31 august 2026. Deși utilă pentru absorbția fondurilor UE, legea permite achiziția de licențe fără acordurile-cadru guvernamentale de discount promise inițial.",
-      "initiatorClaim": "Guvernul susține că STS trebuie să poată cumpăra urgent licențe de sisteme de operare și baze de date pentru Cloudul intern, fără a mai aștepta ca Ministerul Economiei și Digitalizării (MEDAT) să finalizeze acordurile guvernamentale cu marii producători software, evitând astfel pierderea a 6 milioane euro din PNRR.",
-      "realityCheck": "În practică, legea ocolește propriul mecanism de negociere centralizată a licențelor (art. 3 alin. 5¹ din OUG 89/2022), creat tocmai pentru ca statul să obțină prețuri de volum direct de la producători, deoarece ministerul nu a reușit să încheie acele acorduri la timp. Totodată, prin Art. II adăugat în Parlament, se prelungește de la 30 iunie la 31 august 2026 durata contractului de finanțare PNRR pentru investiția în Cloudul Guvernamental.",
+      "plainTitle": "Deblocarea achiziției de licențe de către STS și prelungirea cu două luni a termenului PNRR pentru Cloudul Guvernamental",
+      "verdictShort": "O lege tehnică de avarie, în esență utilă pentru a evita pierderea fondurilor PNRR destinate Cloudului Guvernamental, fără costuri sau obligații noi pentru cetățeni și firme. Principala rezervă ține de eficiența cheltuirii banului public: cumpărarea în grabă de licențe fără acordurile-cadru negociate unitar de stat poate reduce puterea de negociere a României.",
+      "initiatorClaim": "Guvernul susține că MEDAT nu a reușit să încheie la timp acordurile guvernamentale cu producătorii de software, motiv pentru care STS nu poate cumpăra licențele necesare cloudului intern și România riscă să piardă circa 6 milioane de euro din PNRR (Componenta 7), bani care ar trebui acoperiți ulterior de la bugetul de stat.",
+      "realityCheck": "Legea aprobă OUG nr. 34/2026, permițând STS să încheie acorduri-cadru și contracte subsecvente pentru licențe de sisteme de operare și baze de date înainte ca MEDAT să semneze acordurile guvernamentale de licențiere, păstrând însă obligația aplicării legislației achizițiilor publice. În plus, Camera Deputaților a adăugat Art. II, care modifică Legea nr. 102/2024 pentru a prelungi termenul-limită al contractului de finanțare aferent Investiției I1 (Cloudul Guvernamental) din cererea de plată nr. 5 de la 30 iunie 2026 la 31 august 2026. Deși rezolvă blocajul PNRR, textul nu limitează expres derogarea la fondurile PNRR și nu impune alinierea ulterioară a prețurilor/condițiilor la acordurile guvernamentale.",
       "affectedGroups": [
-        "IT & AI"
+        "IT & AI",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I (Art. unic din OUG 34/2026 - art. 10 alin. 12¹ din OUG 89/2022): Permite STS să încheie acorduri-cadru și contracte subsecvente pentru licențe de sisteme de operare și baze de date înainte ca MEDAT să semneze acordurile guvernamentale de licențiere cu producătorii software.",
-        "Art. II (modificarea art. II alin. 5 din Legea 102/2024): Creează o excepție dedicată Investiției I1 „Implementarea infrastructurii de Cloud Guvernamental” (Componenta 7 PNRR), prelungind termenul maxim al contractului de finanțare aferent cererii de plată nr. 5 de la 30 iunie 2026 până la 31 august 2026 inclusiv.",
-        "Expunerea de motive conține o formulare contradictorie clasică („nu instituie o excepție în sensul derogării de la regula generală, ci doar introduce o măsură derogatorie”), recunoscând implicit eșecul administrativ al negocierii la timp a acordurilor guvernamentale cu furnizorii IT."
+        "Art. I aprobă OUG nr. 34/2026, care introduce alin. (12¹) la art. 10 din OUG nr. 89/2022: STS poate achiziționa licențe de sisteme de operare și baze de date pentru cloudul intern înainte ca MEDAT să încheie acordurile guvernamentale de la art. 3 alin. (5¹). Regula achizițiilor publice de la art. 10 alin. (11) rămâne în vigoare, iar măsura se aplică doar pe durata implementării cloudului intern (art. 10 alin. 14).",
+        "Art. II (introdus în Parlament) modifică art. II alin. (5) din Legea nr. 102/2024: față de regula anterioară care limita prelungirea contractelor aferente cererii de plată nr. 5 la 30 iunie 2026, se instituie o excepție pentru Investiția I1 «Implementarea infrastructurii de Cloud Guvernamental» (Componenta 7), permițând prelungirea până la 31 august 2026 inclusiv.",
+        "Nu există un plafon valoric explicit sau o clauză de renegociere/aliniere în alin. (12¹), deși expunerea de motive invocă salvarea sumei punctuale de 6 milioane de euro din PNRR; achiziția sub presiunea termenului de 31 august 2026 poate conduce la condiții comerciale mai puțin avantajoase decât cele negociate unitar la nivel guvernamental."
       ],
-      "blindSpotsCaught": "Renunțarea la condiția prealabilă a acordurilor guvernamentale înseamnă că STS va achiziționa licențele prin proceduri clasice fără termenii comerciali unificați pe care Guvernul trebuia să îi negocieze direct cu producătorii de tehnologie, neexistând în text o clauză expresă de aliniere ulterioară a prețurilor dacă acordurile guvernamentale vor fi totuși semnate.",
-      "constitutionalityNote": "Actul normativ nu încalcă drepturi fundamentale și justifică rezonabil urgența (art. 115 alin. 4 Constituție) prin iminența pierderii finanțării PNRR la 31 august 2026. Sub aspectul normelor de tehnică legislativă (art. 1 alin. 5 Constituție și Legea 24/2000), introducerea Art. II în legea de aprobare a OUG modifică un alt act normativ (Legea 102/2024), însă conexiunea tematică strânsă (același proiect de Cloud Guvernamental din PNRR) previne un viciu de neconstituționalitate.",
-      "euLawNote": "Măsura nu restrânge concurența pe piața unică și nu intră sub incidența Directivei (UE) 2018/958 sau a procedurii de notificare TRIS (Directiva 2015/1535), vizând exclusiv reguli interne de achiziție publică și gestiune financiară PNRR agreate prealabil cu serviciile Comisiei Europene.",
+      "blindSpotsCaught": "Art. II — care modifică o lege distinctă (Legea nr. 102/2024) pentru a prelungi termenul Investiției I1 — a fost inserat abia în faza parlamentară, nefigurând în OUG nr. 34/2026 și neavând nicio analiză în expunerea de motive (care menționa Investiția I2). De asemenea, OUG a stat în consultare publică doar 5 zile (29 aprilie – 4 mai 2026, peste mini-vacanța de 1 Mai), iar proiectul ratează ocazia de a corecta o eroare materială preexistentă din art. 10 alin. (12) al OUG nr. 89/2022 (care trimite eronat la alin. (1) în loc de alin. (11)).",
+      "constitutionalityNote": "Fără vicii majore de neconstituționalitate, dar cu vulnerabilități procedurale minore: urgența prevăzută de art. 115 alin. (4) din Constituție provine din întârzierea proprie a executivului (MEDAT nu a încheiat acordurile guvernamentale prevăzute de lege încă din reglementarea anterioară), deși riscul real de pierdere a fondurilor PNRR susține justificarea interesului public. Sub aspectul art. 1 alin. (5) (calitatea legii), trimiterile necorectate din art. 10 alin. (12)-(13) ale OUG 89/2022 și lipsa unei norme tranzitorii privind raportul dintre contractele STS și viitoarele acorduri guvernamentale reduc previzibilitatea aplicării.",
+      "euLawNote": "Proiectul nu intră în domeniul Directivei (UE) 2018/958 (profesii reglementate) și nici al Directivei (UE) 2015/1535 (TRIS), deoarece nu impune reglementări tehnice serviciilor digitale de pe piață, ci vizează achizițiile publice interne ale statului. În raport cu Directiva 2014/24/UE privind achizițiile publice, derogarea nu elimină obligația procedurilor competitive (art. 10 alin. 11 rămâne aplicabil), însă fereastra foarte scurtă până la 31 august 2026 creează un risc practic de restrângere a concurenței reale. Pe Regulamentul (UE) 2021/241 (MRR), expunerea de motive arată că modificarea a primit acordul prealabil al Comisiei Europene.",
       "senatForm": {
-        "articleRef": "Art. I (Art. 10 alin. (12¹) din OUG nr. 89/2022)",
-        "proposalContent": "La art. 10, alin. (12¹) se completează la final cu teza: „Contractele încheiate anterior acordurilor guvernamentale vor include o clauză de aliniere automată la condițiile mai favorabile de preț și licențiere stabilite ulterior prin acordurile prevăzute la art. 3 alin. (5¹).”",
-        "argumentation": "Deși deblocarea achizițiilor STS este justificată pentru a nu pierde 6 milioane euro din PNRR până la 31 august 2026, cumpărarea licențelor înaintea negocierii acordurilor guvernamentale cu producătorii software riscă prețuri mai mari. O clauză de aliniere la condițiile viitoare protejează bugetul la semnarea ulterioară a acordurilor.",
-        "otherComments": "Legea este utilă pentru absorbția PNRR (Cloud Guvernamental), dar Art. II modifică Legea nr. 102/2024 printr-o lege de aprobare a unei OUG cu alt obiect formal, tehnică tolerată doar datorită legăturii tematice cu termenul de 31 august 2026."
-      }
+        "articleRef": "Art. I (art. 10 alin. 12¹ din OUG 89/2022)",
+        "proposalContent": "„(12¹) Încheierea de către STS a acordurilor-cadru și a contractelor subsecvente prevăzute la alin. (11) și (12) se poate realiza și anterior încheierii acordurilor guvernamentale prevăzute la art. 3 alin. (5¹), exclusiv pentru achizițiile din PNRR, cu clauză de aliniere la condițiile acordurilor guvernamentale după încheierea lor.”",
+        "argumentation": "Expunerea de motive justifică derogarea strict prin salvarea a 6 mil. euro din PNRR până la 31 august 2026. Fără limitare la PNRR și fără clauză de aliniere, statul riscă să cumpere licențe software la prețuri mai mari și în condiții mai slabe decât cele negociate unitar prin acordurile guvernamentale ale MEDAT, afectând eficiența banului public.",
+        "otherComments": "Se recomandă și corectarea erorii materiale preexistente din art. 10 alin. (12) al OUG 89/2022, care trimite la alin. (1) în loc de alin. (11), precum și fundamentarea transparentă a Art. II (prelungirea termenului pentru Investiția I1), introdus în Parlament fără evaluare în expunerea de motive."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 124878,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "STS poate cumpăra licențe pentru cloudul statului fără să mai aștepte acordurile cu producătorii de software",
-      "verdictShort": "Este o lege tehnică, făcută ca să salveze circa 6 milioane de euro din PNRR, și nu are efecte directe asupra cetățenilor sau firmelor. Problema e că scurtătura, justificată printr-un termen din august 2026, a rămas permanentă și ocolește negocierea centralizată a licențelor la nivel de stat.",
-      "initiatorClaim": "Guvernul spune că acordurile cu producătorii de software, pe care MEDAT trebuia să le încheie conform art. 3 alin. (5¹) din OUG 89/2022, nu s-au concretizat. Fără ele, STS nu poate cumpăra licențele de sisteme de operare și baze de date pentru cloudul intern, iar România ar pierde circa 6 milioane de euro din PNRR, bani care ar trebui apoi plătiți de la bugetul de stat. Guvernul afirmă și că a obținut acordul prealabil al Comisiei Europene.",
-      "realityCheck": "OUG 34/2026, aprobată prin art. I, introduce alin. (12¹) la art. 10 din OUG 89/2022. Noul alineat permite STS să încheie acorduri-cadru și contracte subsecvente pentru licențe înainte de acordurile guvernamentale, care erau gândite ca pârghie pentru condiții de licențiere mai bune pentru tot statul. Derogarea nu are termen și nu e limitată la achizițiile din PNRR, deci rămâne valabilă și după 31 august 2026, când pretextul a dispărut. Art. II, adăugat în Parlament, prelungește până la 31 august 2026 durata contractului de finanțare pentru Investiția I1 (Cloud Guvernamental), față de limita generală de 30 iunie 2026 pentru cererea de plată nr. 5.",
+      "durationMs": 46114,
+      "sourceEndMarker": "SF-7B432FAD",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "STS poate cumpăra licențe pentru cloudul statului fără să aștepte acordurile cu producătorii de software",
+      "verdictShort": "Lege tehnică, de salvare a unor bani PNRR (circa 6 milioane euro), fără efecte directe asupra cetățenilor sau firmelor. Problema ei e că derogarea nu are limită în timp: ocolește mecanismul acordurilor guvernamentale de licențiere pentru toată perioada de implementare a cloudului intern, nu doar până la termenul PNRR.",
+      "initiatorClaim": "Guvernul spune că acordurile guvernamentale cu producătorii de software, cerute de art. 3 alin. (5^1) din OUG 89/2022, nu au fost încheiate. Fără o derogare, STS nu ar putea cumpăra la timp licențele de sisteme de operare și baze de date pentru cloudul intern, iar România ar pierde circa 6 milioane euro din PNRR, bani care ar trebui apoi acoperiți din bugetul de stat.",
+      "realityCheck": "Art. I aprobă fără modificări OUG 34/2026. Ordonanța adaugă la art. 10 din OUG 89/2022 alin. (12^1): STS poate încheia acordurile-cadru și contractele subsecvente pentru licențe și înainte de acordurile guvernamentale de licențiere. Regula din art. 3 alin. (5^1) rămâne formal în vigoare, dar pentru cloudul intern devine opțională, fără termen-limită și fără obligația ca achizițiile să fie aliniate ulterior la condițiile negociate. Art. II, adăugat la Camera decizională, permite prelungirea până la 31 august 2026 a contractului de finanțare pentru investiția I1 Cloud Guvernamental din cererea de plată nr. 5; pentru celelalte investiții termenul rămâne 30 iunie 2026. Ambele dispoziții apar deja în forma consolidată în vigoare, iar la data analizei (noiembrie 2026) termenul din Art. II a expirat.",
       "affectedGroups": [
         "IT & AI"
       ],
       "keyFindings": [
-        "Art. I / OUG 34/2026, articol unic: noul art. 10 alin. (12¹) din OUG 89/2022 permite STS să încheie acordurile-cadru și contractele subsecvente prevăzute la alin. (11) și (12) „și anterior” acordurilor guvernamentale de la art. 3 alin. (5¹). Regula nu este abrogată, este doar ocolită.",
-        "Derogarea este permanentă și generală: nu are dată de expirare, plafon valoric sau limitare la achizițiile finanțate prin PNRR. Toată motivarea se sprijină însă pe termenul de 31 august 2026 și pe suma de circa 6 milioane de euro.",
-        "Lipsește o normă de corelare: textul nu spune ce se întâmplă cu contractele STS după ce MEDAT încheie acordurile guvernamentale. Un acord-cadru poate dura până la 4 ani conform Legii 98/2016, deci poate angaja costuri recurente de licențiere din bugetul de stat după PNRR, la condiții comerciale standard. În fragmentul disponibil, tabelul de impact financiar (Secțiunea a 4-a) nu conține valori.",
-        "Art. II modifică art. II alin. (5) din Legea 102/2024. Pentru jaloanele cererii de plată nr. 5, prelungirea contractelor de finanțare rămâne limitată la 30 iunie 2026, cu excepția Investiției I1 „Implementarea infrastructurii de Cloud Guvernamental” (Componenta 7), care primește termen până la 31 august 2026.",
-        "Legea nu creează taxe, sancțiuni sau obligații pentru cetățeni ori IMM-uri. Efectul ei se limitează la relația dintre STS, MEDAT și furnizorii de software."
+        "Art. I / OUG 34/2026, articol unic – art. 10 alin. (12^1) din OUG 89/2022: STS poate încheia acordurile-cadru și contractele subsecvente pentru licențe (alin. 11-12) înainte de acordurile guvernamentale prevăzute la art. 3 alin. (5^1). Achizițiile se fac în continuare după legislația achizițiilor publice.",
+        "Derogarea nu are termen. Expunerea de motive o justifică exclusiv prin termenul PNRR din 31.08.2026, dar textul se aplică pe toată perioada de implementare a cloudului intern (limita din art. 10 alin. 14). Rezultatul practic: acordurile guvernamentale, gândite să obțină condiții unitare de licențiere pentru tot statul, pot deveni irelevante pentru cloudul intern.",
+        "Art. II modifică art. II alin. (5) din Legea 102/2024: contractul de finanțare pentru investiția I1 „Implementarea infrastructurii de Cloud Guvernamental” (C7) din cererea de plată nr. 5 poate fi prelungit până la 31.08.2026. Pentru restul jaloanelor din cererea 5 limita rămâne 30.06.2026. Forma consolidată în vigoare conține deja acest text.",
+        "Inconsecvență în expunerea de motive: măsura este legată de Componenta 7, Investiția 2 (migrare în cloud), iar Art. II din lege vizează Investiția I1 (infrastructura de Cloud Guvernamental).",
+        "Impactul financiar (Secțiunea 4) și impactul asupra achizițiilor publice (5.2) sunt trecute „nu este cazul”, deși măsura privește achiziții de licențe finanțate din PNRR, cu riscul ca suma să fie suportată ulterior de bugetul de stat."
       ],
-      "blindSpotsCaught": "Expunerea de motive se contrazice: afirmă că textul „nu instituie o excepție în sensul derogării de la regula generală”, dar în aceeași frază îl numește „măsură derogatorie”. Există și o nepotrivire între motivare și Art. II: Expunerea leagă licențele de Investiția 2 (dezvoltare/migrare în cloud), iar Art. II prelungește doar contractul pentru Investiția I1. Dacă licențele sunt finanțate din I2, prelungirea nu le acoperă, aspect care trebuie verificat. Urgența este în bună parte autoprovocată, pentru că acordurile cerute de OUG 89/2022 nu au fost încheiate de MEDAT. În plus, STS este o structură militară, deci achizițiile sale pot invoca excepțiile de apărare și securitate, ceea ce reduce transparența tocmai acolo unde dispare filtrul acordurilor guvernamentale.",
-      "constitutionalityNote": "Riscul constituțional este redus. Pe art. 115 alin. (4), urgența este parțial creată de administrație, dar CCR a acceptat de regulă riscul pierderii fondurilor europene ca situație extraordinară, iar art. 115 alin. (6) nu este atins, pentru că nu sunt afectate drepturi fundamentale. Pe art. 1 alin. (5), efectul alin. (12¹) este clar, dar lipsa unei reguli pentru contractele încheiate înaintea acordurilor guvernamentale slăbește previzibilitatea regimului licențelor. Art. II modifică prin legea de aprobare un alt act normativ (Legea 102/2024). Legătura tematică, adică aceeași investiție PNRR de cloud, atenuează riscul de viciu. Dacă însă articolul a fost introdus abia la Camera decizională, trebuie verificat față de principiul bicameralismului (art. 61 alin. (2) și art. 75).",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează profesii. Nici TRIS (Directiva 2015/1535) nu se aplică: nu există reguli tehnice pentru produse sau servicii ale societății informaționale, ci doar organizarea achizițiilor publice interne. Relevantă este Directiva 2014/24/UE: acordurile-cadru pentru licențe trebuie să evite specificațiile care indică mărci fără mențiunea „sau echivalent” (art. 42), iar riscul de dependență de furnizor (vendor lock-in) față de câțiva producători dominanți crește în lipsa negocierii centralizate. Dacă STS invocă art. 346 TFUE sau Directiva 2009/81/CE, controlul concurențial scade. Pe Regulamentul (UE) 2021/241 (MRR), acordul Comisiei este doar afirmat în Expunerea de motive, fără vreun document anexat.",
+      "blindSpotsCaught": "1) Alin. (12^1) trimite la alin. (11) și (12), dar acestea conțin erori de trimitere vechi, pe care legea nu le corectează: alin. (12) se referă la „licențele prevăzute la alin. (1)” (care privește infrastructura IaaS/PaaS), iar alin. (13) la „licențele prevăzute la alin. (2)” (software dezvoltat), deși corect ar fi alin. (11). 2) Art. II nu exista în proiectul inițial al Guvernului și a fost introdus la Camera decizională. Este conex tematic cu investiția Cloud, deci riscul de încălcare a bicameralismului e mic, dar Senatul nu l-a dezbătut. 3) Acordurile-cadru încheiate înaintea acordurilor guvernamentale pot fixa pe ani de zile furnizorul și prețul (lock-in), fără clauze de aliniere la condițiile negociate ulterior. 4) Textul nu precizează dacă STS va aplica Legea 98/2016 sau regimul special din domeniul apărării și securității (Legea 99/2016 / art. 346 TFUE), lucru care influențează transparența procedurilor.",
+      "constitutionalityNote": "Art. 115 alin. (4): urgența este motivată concret prin riscul de a pierde fonduri PNRR și prin termenul fix din 31.08.2026. Jurisprudența CCR acceptă de regulă acest tip de motivare. OUG nu atinge domenii interzise de art. 115 alin. (6). Art. 1 alin. (5) (claritate și previzibilitate): normele sunt scurte și ușor de înțeles, dar faptul că derogarea nu are limită în timp și erorile de trimitere din art. 10 alin. (12)-(13) slăbesc calitatea legii, fără să ajungă la un viciu clar de neconstituționalitate. Art. 61 și art. 75 (bicameralism): Art. II, adăugat de Camera decizională, privește tot investiția Cloud din PNRR și nu se abate substanțial de la obiectul proiectului. Art. 76 alin. (2): procedura a fost respectată potrivit formulei de adoptare.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: legea nu reglementează accesul la profesii reglementate. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: legea nu impune reguli tehnice operatorilor privați de servicii ale societății informaționale, ci organizează achiziții interne ale statului. Din punctul de vedere al pieței unice și al Directivei 2014/24/UE, achizițiile rămân supuse procedurilor de achiziții publice. Riscul concurențial real ține de acorduri-cadru pe termen lung care pot favoriza producătorii deja instalați. Regulamentul (UE) 2021/241 (MRR): expunerea de motive invocă acordul prealabil al Comisiei, potrivit căruia completarea nu afectează reforma privind guvernanța cloudului. Termenele sunt aliniate la 31.08.2026, data-limită a Mecanismului.",
       "senatForm": {
-        "articleRef": "OUG 89/2022, art. 10 alin. (12¹)",
-        "proposalContent": "(12¹) Prin excepție, STS poate încheia acordurile-cadru și contractele subsecvente prevăzute la alin. (11) și (12) anterior acordurilor guvernamentale de la art. 3 alin. (5¹) numai pentru licențe finanțate prin PNRR, pe cel mult 12 luni. La încheierea acordurilor guvernamentale, contractele se aliniază la condițiile acestora. STS publică anual valoarea și furnizorii.",
-        "argumentation": "Motivul declarat al OUG 34/2026 a fost evitarea pierderii a ~6 mil. € din PNRR până la 31.08.2026, dar alin. (12¹) e permanent și general: STS poate ocoli oricând acordurile guvernamentale menite să obțină condiții de licențiere mai bune. Limitarea la scopul declarat, alinierea ulterioară și transparența reduc riscul de dependență de furnizor și de costuri recurente.",
-        "otherComments": "Legea 109/2026 e deja promulgată, deci propunerea poate fi preluată doar printr-o inițiativă ulterioară de modificare a OUG 89/2022. De verificat: art. II prelungește doar Investiția I1, deși Expunerea de motive leagă licențele de Investiția 2 (migrare în cloud); și dacă art. II a fost introdus abia la Camera decizională (bicameralism)."
-      }
+        "articleRef": "Art. I – OUG 89/2022, art. 10 alin. (12^1)",
+        "proposalContent": "(12^1) Prin excepție de la art. 3 alin. (5^1), până la 31 august 2026, STS poate încheia acordurile-cadru și contractele subsecvente prevăzute la alin. (11) și (12) anterior acordurilor guvernamentale. Acordurile-cadru astfel încheiate prevăd clauze de aliniere la condițiile ulterior negociate și nu pot depăși 2 ani.",
+        "argumentation": "Derogarea e justificată de termenul PNRR (31.08.2026), dar textul nu are limită în timp și golește de conținut acordurile guvernamentale gândite să obțină condiții unitare de licențiere. Fără termen și clauze de aliniere, statul riscă dependență de furnizor și prețuri negociate dispersat, fără pârghia unui acord la nivel național.",
+        "otherComments": "Legea e deja adoptată (Lege 109/2026), deci propunerea vizează o modificare ulterioară. De corectat și trimiterile greșite din art. 10: alin. (12) trimite la «alin. (1)» și alin. (13) la «alin. (2)», în loc de alin. (11). Utilă publicarea în raportul anual (alin. 10) a valorii licențelor cumpărate prin derogare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 133542,
-      "riskScore": 3,
+      "durationMs": 67034,
+      "sourceEndMarker": "SF-7B432FAD",
+      "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Licențe cumpărate mai repede pentru cloudul statului",
-      "verdictShort": "Legea deblochează o achiziție necesară și prelungește punctual finanțarea cloudului guvernamental, fără taxe sau sancțiuni noi pentru populație. Riscurile sunt legate de costurile licențelor și dependența de furnizori, nu de restrângerea drepturilor cetățenilor.",
-      "initiatorClaim": "Inițiatorii urmăresc evitarea blocării migrării aplicațiilor publice și a pierderii unei finanțări europene de aproximativ 6 milioane de euro. Suma reprezintă estimarea justificativă prezentată în documente, nu o economie garantată prin lege.",
-      "realityCheck": "Art. I aprobă posibilitatea STS de a încheia acorduri-cadru și contracte subsecvente înaintea acordurilor guvernamentale de licențiere, păstrând aplicabile regulile achizițiilor publice. Art. II permite prelungirea contractului de finanțare pentru investiția I1 din componenta C7 până la 31 august 2026 inclusiv, fără prelungire automată și fără garantarea finanțării europene. Permisiunea acordată STS nu are termen de expirare și nu stabilește cum vor fi corelate achizițiile anticipate cu condițiile negociate ulterior de Guvern.",
+      "plainTitle": "Licențe pentru cloudul statului cumpărate mai repede și termen prelungit pentru infrastructură",
+      "verdictShort": "Pe baza textelor furnizate, legea prezintă un risc redus: deblochează achiziții necesare cloudului guvernamental și prelungește punctual un termen de finanțare. Principala vulnerabilitate este coordonarea condițiilor de licențiere negociate separat, fără ca textul să instituie privilegii pentru un furnizor.",
+      "initiatorClaim": "Inițiatorii urmăresc evitarea blocării migrării în cloud și a pierderii unei finanțări europene estimate la aproximativ 6 milioane de euro. Susțin că achizițiile STS trebuie să poată începe înaintea acordurilor guvernamentale cu producătorii de software.",
+      "realityCheck": "Art. I aprobă posibilitatea introdusă prin OUG nr. 34/2026 ca STS să încheie acorduri-cadru și contracte subsecvente înaintea acordurilor guvernamentale; atribuția STS de a cumpăra aceste licențe exista deja. Art. II permite prelungirea finanțării pentru investiția I1 privind infrastructura cloud până la 31 august 2026, păstrând termenul de 30 iunie pentru celelalte jaloane și ținte din cererea de plată nr. 5. Ambele soluții figurează deja în consolidările furnizate din noiembrie 2026, deci analiza descrie efectul adoptării lor, nu o schimbare încă viitoare.",
       "affectedGroups": [
         "IT & AI",
         "IMM & Antreprenori",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 10 alin. (12¹) schimbă ordinea operațiunilor: STS poate contracta înaintea acordurilor guvernamentale. Nu autorizează prin el însuși atribuirea directă și nu desemnează vreun furnizor exclusiv; alin. (11) menține legislația achizițiilor publice, iar alin. (12) solicitarea scrisă a ADR. [OUG 89/2022](https://legislatie.just.ro/Public/DetaliiDocument/256832)",
-        "Art. II păstrează plafonul de 30 iunie 2026 pentru celelalte jaloane și ținte aferente cererii de plată nr. 5. Excepția până la 31 august privește investiția I1 «Implementarea infrastructurii de Cloud Guvernamental», nu întregul PNRR și nici toate proiectele de digitalizare.",
-        "Textul nu introduce taxe, declarații, autorizații sau obligații administrative noi pentru cetățeni ori IMM-uri. Impactul bugetar efectiv depinde de prețuri, durata licențelor, mentenanță și reînnoiri; fragmentul financiar furnizat nu permite cuantificarea acestor costuri.",
-        "Justificarea invocă urgența PNRR, dar alin. (12¹) rămâne aplicabil și după 31 august 2026. Nu este limitat expres la achiziții finanțate prin PNRR; aceasta este o diferență între motivarea măsurii și întinderea normei.",
-        "Nu rezultă un monopol legal. Există însă riscul practic de dependență tehnologică și de condiții comerciale mai puțin avantajoase prin cumpărarea înaintea negocierii centralizate; evaluarea lui necesită documentațiile achizițiilor și contractele."
+        "Art. I și articolul unic al OUG introduc art. 10 alin. (12¹): se înlătură condiționarea cronologică de acordurile guvernamentale, fără eliminarea obligației de a respecta legislația achizițiilor publice.",
+        "Art. 10 alin. (11), (12) și (14) păstrează limita resurselor disponibile, solicitarea scrisă a ADR pentru contractele subsecvente și aplicarea mecanismului de achiziție numai pe perioada implementării cloudului intern.",
+        "Art. II conține o excepție punctuală pentru investiția I1 din componenta 7. Prelungirea până la 31 august 2026 este posibilă, nu automată; celelalte condiții procedurale ale art. II din Legea nr. 102/2024 rămân aplicabile.",
+        "Justificarea achiziției licențelor invocă investiția I2 pentru dezvoltare și migrare, iar prelungirea introdusă prin lege privește I1, infrastructura cloud. Cele două măsuri nu trebuie confundate; termenul investiției I2 nu este prelungit prin această excepție.",
+        "Legea nu introduce taxe, sancțiuni sau obligații administrative directe pentru cetățeni și IMM-uri. Pot exista efecte asupra competiției pentru contractele software, dar textul nu rezervă achizițiile unui anumit producător.",
+        "Tabelul financiar necompletat nu demonstrează neutralitatea bugetară. Riscul pierderii celor 6 milioane de euro este o estimare a inițiatorilor, nu o economie garantată; rămân relevante costurile licențelor și ale utilizării ulterioare."
       ],
-      "blindSpotsCaught": "Expunerea de motive indică investiția I2 pentru migrare, în timp ce art. II privește I1 pentru infrastructură: prelungirea nu trebuie extinsă interpretativ la I2. Fișa folosește și «11», dar textul normativ furnizat identifică «I1». Pretinsul acord prealabil al Comisiei Europene este o afirmație din motivare, fără documentul confirmativ în materialul furnizat. În plus, dosarul este deja încheiat prin Legea 109/2026; formularul poate susține acum o nouă modificare legislativă. [Fișa Camerei Deputaților](https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?idp=23315)",
-      "constitutionalityNote": "Nu identific o neconstituționalitate evidentă în conținut. Din perspectiva art. 1 alin. (5), operațiunea permisă și termenul sunt inteligibile; corelarea cu viitoarele acorduri guvernamentale ar merita precizată, fără ca omisiunea să demonstreze singură neconstituționalitatea. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident: nu există norme punitive. Pentru art. 115 alin. (4), riscul financiar și blocajul sunt motivate concret, dar simpla întârziere administrativă nu dovedește automat situația extraordinară; concluzia definitivă cere documentele și cronologia adoptării OUG. Art. II nu dovedește singur încălcarea bicameralismului, iar finanțarea trebuie examinată prin raportare la art. 138 alin. (5), nu presupusă neconstituțională dintr-un tabel incomplet. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355?isFormaDeBaza=True)",
-      "euLawNote": "Directiva 2018/958 nu este aplicabilă: art. 2 privește accesul la profesii reglementate și exercitarea lor, nu cumpărarea licențelor software. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018L0958) Din analiza textului, nu rezultă obligația notificării TRIS: sunt schimbate condițiile instituționale de contractare, fără specificații tehnice obligatorii sau cerințe generale privind accesul la servicii ale societății informaționale; simpla referire la cloud nu declanșează notificarea. [Directiva 2015/1535, art. 1 și 5](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32015L1535) Achizițiile rămân supuse cerințelor aplicabile de concurență, tratament egal și specificații nediscriminatorii. [Directiva 2014/24, art. 18 și 42](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32014L0024) Termenul național nu modifică jaloanele europene și nu garantează plata: Regulamentul 2021/241 condiționează finanțarea de îndeplinirea lor și stabilește limita finală de 31 august 2026. [Regulamentul 2021/241, art. 20 și 24](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32021R0241)",
+      "blindSpotsCaught": "Derogarea permite schimbarea ordinii achizițiilor, fără să desființeze acordurile guvernamentale sau garanțiile generale. Textul nu precizează cum vor fi coordonate licențele cumpărate anterior cu eventuale condiții negociate ulterior, ceea ce poate genera condiții comerciale diferite, dar nu dovedește existența unui monopol. Consolidările furnizate includ deja modificările analizate. Verificarea independentă online nu a fost disponibilă.",
+      "constitutionalityNote": "Nu rezultă o încălcare evidentă a Constituției. Regula este suficient de determinată pentru art. 1 alin. (5), prin corelare cu dispozițiile existente; art. 23 alin. (12), referitor la pedepse, nu este incident. Pentru art. 115 alin. (4), preambulul identifică un blocaj și un termen concret, însă caracterul extraordinar trebuie demonstrat factual: apropierea unui termen cunoscut și întârzierile administrative nu justifică singure orice OUG. Aprobarea parlamentară nu înlătură un eventual viciu originar. Lipsa calculelor financiare justifică solicitarea fundamentării, fără a demonstra singură încălcarea art. 138 alin. (5), deoarece obligația de achiziție exista deja. Documentele nu permit verificarea completă a procedurii parlamentare.",
+      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile privind accesul la profesii reglementate și exercitarea lor; această lege nu intră în domeniul său. Directiva (UE) 2015/1535 nu devine aplicabilă doar fiindcă este vorba despre cloud: textul reglementează succesiunea unor achiziții publice, fără să introducă specificații tehnice obligatorii pentru produse sau reguli privind prestarea comercială a serviciilor societății informaționale; nu rezultă o obligație TRIS din dispozițiile analizate. Regulile europene aplicabile achizițiilor și concurenței rămân obligatorii. Prelungirea națională nu modifică termenele ori condițiile europene ale finanțării, iar acordul Comisiei invocat în motivare nu reprezintă o validare generală a viitoarelor achiziții.",
       "senatForm": {
         "articleRef": "Art. I – art. 10 alin. (12¹) din OUG 89/2022",
-        "proposalContent": "(12¹) STS poate încheia acordurile-cadru și contractele subsecvente prevăzute la alin. (11) și (12) anterior acordurilor guvernamentale prevăzute la art. 3 alin. (5¹). Pentru fiecare acord-cadru, STS documentează costul total estimat al licențierii, inclusiv reînnoirile, și riscurile de dependență tehnologică.",
-        "argumentation": "Achiziția anticipată este utilă, dar poate fixa costuri și condiții de licențiere înaintea negocierii la nivel guvernamental. Fundamentarea costului pe durata utilizării și a dependenței tehnologice ajută controlul cheltuielilor fără a bloca achizițiile sau a favoriza un producător.",
-        "otherComments": "Proiectul este deja Legea 109/2026, iar termenul pentru amendamente a trecut. Textul poate susține o nouă inițiativă de modificare a OUG 89/2022; nu mai poate fi depus ca amendament în dosarul închis. Se solicită comisiilor evaluarea aplicării și a costurilor licențelor."
-      }
+        "proposalContent": "„(12¹) Pe perioada implementării cloudului intern, STS poate încheia acordurile-cadru și contractele subsecvente prevăzute la alin. (11) și (12) anterior acordurilor guvernamentale prevăzute la art. 3 alin. (5¹), cu respectarea legislației achizițiilor publice și a celorlalte condiții prevăzute la alin. (11)-(14).”",
+        "argumentation": "Explicitarea duratei și a condițiilor păstrate face derogarea mai ușor de aplicat și previne interpretarea sa ca dispensă generală de la regulile achizițiilor. Propunerea clarifică limite existente; nu remediază o încălcare constituțională demonstrată.",
+        "otherComments": "Potrivit stadiului furnizat, actul este deja Legea nr. 109/2026, iar termenul de amendamente din 17.06.2026 a trecut. Textul poate susține o inițiativă legislativă ulterioară; nu mai poate fi depus ca amendament în procedura încheiată."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T09:23:25.914Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "camera",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:36:38.356Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

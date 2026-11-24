@@ -1,8 +1,14 @@
 Biroul permanent al Senatului
 
-3p 565....14.10.2026.
+Biroul permanent al Senatului
 
-Parlamentul României Cameră Deputaților
+655.123.44.2026
+
+Bp.565....1.4.0.2026.
+
+Parlamentul României
+
+Cameră Deputaților,
 
 București, 14 octombrie 2026 Nr. BPI 774
 
@@ -14,6 +20,8 @@ Avem onoarea să vă înaintăm alăturat, în original, Propunerea legislativă
 
 Cu stimă,
 
-p.PREȘEDINTELE CAMEREI DEPUTAȚILOR Natalia-Élenă INTOTERO
+p.PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+Natalia-Elenă INTÓTERO
 
 Domnului Mircea ABRUDEAN PREȘEDINTELE SENATULUI

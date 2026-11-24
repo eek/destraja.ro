@@ -2,11 +2,102 @@
   "slug": "b542-2026",
   "billId": "B542/2026",
   "checkedAt": "2026-10-29T12:03:50.312Z",
+  "indexCheckedAt": "2026-11-24T11:29:38.297Z",
   "models": {
     "agy": "ok",
     "claude": "ok",
-    "codex": "ok"
+    "codex": "ok",
+    "index": "ok"
   },
-  "articles": [],
+  "articles": [
+    {
+      "url": "https://www.b1tv.ro/economic/austeritate-romania-datorii-eximbank-proiect-psd-1753456.html",
+      "title": "Românii strâng cureaua, statul riscă să piardă miliarde de lei. Proiectul PSD prin care marii datornici la Eximbank ar putea scăpa de datorii - B1TV.ro",
+      "outlet": "B1 TV",
+      "domain": "b1tv.ro",
+      "publishedAt": "2026-11-24",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Proiectul legislativ L637/2026, înregistrat la Senat, modifică OUG nr. 60/2019 și extinde mecanismul prin care anumite obligații bugetare pot fi stinse prin transferul unor active în proprietatea statului.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-24",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "critical",
+            "stanceP": 0.958,
+            "source": "national_news",
+            "sourceP": 0.942,
+            "about": 0.947,
+            "release": 0.012
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.518,
+            "source": "national_news",
+            "sourceP": 0.481,
+            "about": 0.593,
+            "release": 0.223
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.99,
+            "source": "national_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.g4media.ro/breaking-afacere-de-miliarde-de-lei-la-bugetul-statului-pregatita-de-ministrii-marian-neacsu-si-radu-marinescu-ei-vor-ca-marii-datori-la-eximbank-precum-magnatul-gabriel-comanescu-combinatul-liber.html",
+      "title": "BREAKING Tun de miliarde de lei la bugetul statului, pregătit de miniștrii Marian Neacșu și Radu Marinescu / Ei vor ca marii datori la Eximbank precum magnatul Gabriel Comănescu, combinatul Liberty Galați și Electrocentr",
+      "outlet": "G4Media",
+      "domain": "g4media.ro",
+      "publishedAt": "2026-11-23",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Un proiect de lege inițiat de vicepremierul Marian Neacșu, ministrul justiției Radu Marinescu și alți șapte parlamentari PSD prevede că marile companii din energie, minerit și industrie vor putea să își șteargă datoriile provenite din credite și garanții acordate în numele statului, predând în schimb active din patrimoniul lor către ministerele de resort.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-24",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "critical",
+            "stanceP": 0.862,
+            "source": "national_news",
+            "sourceP": 0.91,
+            "about": 0.997,
+            "release": 0.007
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.82,
+            "source": "trade_press",
+            "sourceP": 0.299,
+            "about": 0.835,
+            "release": 0.182
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.99,
+            "source": "national_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    }
+  ],
   "pending": []
 }

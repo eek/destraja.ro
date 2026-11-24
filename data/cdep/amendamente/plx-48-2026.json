@@ -1,26 +1,48 @@
 {
  "slug": "plx-48-2026",
  "billId": "PL-x 48/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-10-30T15:09:43.685Z",
- "inputHash": "a42105c8a3e7",
+ "updatedAt": "2026-11-24T10:33:11.350Z",
+ "inputHash": "ac38c10386ef",
  "reports": [
   "https://www.cdep.ro/comisii/economica/pdf/2026/rp048.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp048.pdf",
+   "sha256": "d882ad8b10815c24",
+   "parts": 1,
+   "rows": 6,
+   "unchanged": 5,
+   "admise": 1,
+   "respinse": 0,
+   "truncated": false
+  }
+ ],
+ "completeness": "complete",
+ "problems": [],
  "counts": {
   "admise": 1,
-  "respinse": 0
+  "respinse": 0,
+  "anuntate": 6,
+  "nemodificate": 5
  },
  "amendments": [
   {
    "nr": "3",
+   "report": "rp048.pdf",
    "article": "art. 2 alin. (1)",
    "status": "admis",
    "authors": [],
    "byCommittee": "Membrii Comisiei pentru antreprenoriat și turism și ai Comisiei pentru politică economică, reformă și privatizare",
-   "summary": "Redefinește turismul balnear prin raportare la valorificarea factorilor terapeutici naturali pentru sănătatea și asistența socială a populației, concomitent cu valorificarea economică.",
-   "quote": "valorificarea factorilor terapeutici naturali în domeniul ocrotirii sănătății și al asistenței sociale a populației, concomitent cu valorificarea economică, prin diferite forme de turism intern și internațional.",
+   "byGroup": null,
+   "summary": "Redefinește turismul balnear prin valorificarea factorilor terapeutici naturali pentru sănătate, asistență socială și scop economic, prin turism intern și internațional.",
+   "quote": "prin valorificarea factorilor terapeutici naturali în domeniul ocrotirii sănătății și al asistenței sociale a populației, concomitent cu valorificarea economică, prin diferite forme de turism intern și internațional.",
+   "inForce": null,
+   "before": "(1) Turismul balnear - ramură a economiei națționale ce asigură servicіі turistice și de terapie balneară prin utilizarea resurselor minerale terapeutice dovedite și a instalațiilor specifice în stațiuni balneare sau prin beneficiile oferite de factorii de climă în stațiunile climatice.",
+   "after": "(1) Turismul balnear - ramură a economiei naționale ce asigură servicіі turistice și de terapie balneară prin valorificarea factorilor terapeutici naturali în domeniul ocrotirii sănătății și al asistenței sociale a populației, concomitent cu valorificarea economică, prin diferite forme de turism intern și internațional.",
+   "motivation": null,
    "effects": [
     "neutru"
    ]
@@ -29,12 +51,14 @@
  "matches": [
   {
    "change": "1:0",
+   "report": "rp048.pdf",
    "amendments": [
     "3"
    ]
   },
   {
    "change": "1:1",
+   "report": "rp048.pdf",
    "amendments": [
     "3"
    ]

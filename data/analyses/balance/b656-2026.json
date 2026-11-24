@@ -1,0 +1,96 @@
+{
+  "slug": "b656-2026",
+  "billId": "B656/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-24T11:12:52.994Z",
+  "inputHash": "fb668a4cd35b",
+  "riskScore": 4,
+  "summary": "Scop bun pentru protecția copiilor și a gravidelor, dar redactat neglijent, cu erori serioase la vapat și la sancțiunile rutiere.",
+  "good": [
+    {
+      "text": "Interzice fumatul în autovehiculele în mers, oprite sau staționate atunci când sunt prezenți minori sau femei însărcinate, protejându-i de fumul toxic într-un spațiu mic.",
+      "article": "Art. I pct. 3 și Art. II pct. 1",
+      "quote": "precum și în autovehiculele aflate în circulație, oprite sau staționate în situația în care în interiorul acestora se află persoane cu vârsta sub 18 ani sau femei însărcinate.",
+      "weight": 3
+    },
+    {
+      "text": "Extinde interdicția din Codul rutier atât asupra șoferului, cât și asupra pasagerilor, împiedicând ocolirea regulii de către ceilalți adulți din mașină.",
+      "article": "Art. II pct. 1",
+      "quote": "Conducătorilor autovehiculelor și pasagerilor li se interzice fumatul în autovehiculele aflate în circulație, oprite sau staționate, în situația în care în interiorul acestora se află persoane cu vârsta sub 18 ani sau femei însărcinate.",
+      "weight": 2
+    },
+    {
+      "text": "Introduce fapta și în Codul rutier, permițând polițiștilor rutieri să o constate și să o sancționeze direct în trafic, nu doar prin controale punctuale.",
+      "article": "Art. II pct. 2 și pct. 3",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Definește clar termenul «autovehicul» în Legea nr. 349/2002, aliniindu-l cu Codul rutier și evitând discuțiile despre ce tipuri de vehicule intră sub lege.",
+      "article": "Art. I pct. 2",
+      "quote": "prin autovehicul se înțelege orice vehicul echipat cu motor de propulsie, utilizat în mod obișnuit pentru transportul persoanelor sau mărfurilor pe drum ori pentru tractarea, pe drum, a vehiculelor utilizate pentru transportul persoanelor sau mărfurilor.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Trimiterea la definiția generală a autovehiculului interzice țigareta electronică în orice mașină, chiar și pentru un adult singur, deși fumatul clasic rămâne permis.",
+      "article": "Art. I pct. 2 și pct. 4 (art. 3 alin. (1²))",
+      "quote": "În spațiile prevăzute la art. 2 lit. n¹) și n⁴) este interzisă inclusiv utilizarea țigarettei electronice.",
+      "weight": 3
+    },
+    {
+      "text": "Aceeași faptă devine contravenție simultan în Legea 349/2002 și în Codul rutier, fără regulă de prioritate, creând risc de dublă amendare sau sancționare arbitrară.",
+      "article": "Art. I pct. 3 și Art. II pct. 1–3",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Prevede 3 puncte de penalizare pentru o regulă ce vizează și pasagerii, fără a clarifica dacă șoferul primește puncte când fumează un pasager sau cum răspund pasagerii.",
+      "article": "Art. II pct. 1 și pct. 3",
+      "quote": "Conducătorilor autovehiculelor și pasagerilor li se interzice fumatul în autovehiculele aflate în circulație, oprite sau staționate, în situația în care în interiorul acestora se află persoane cu vârsta sub 18 ani sau femei însărcinate.",
+      "weight": 2
+    },
+    {
+      "text": "Trece fapta la clasa I de amendă (art. 99), dar și la 3 puncte de penalizare (art. 108 lit. b), care atrag clasa a II-a în Codul rutier, creând confuzie privind amenda.",
+      "article": "Art. II pct. 2 și pct. 3",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu cere ca sarcina să fie vizibilă sau cunoscută, ceea ce poate duce la amenzi pentru persoane care nu aveau cum să știe și la întrebări medicale intruzive la control.",
+      "article": "Art. I pct. 3 și Art. II pct. 1",
+      "quote": "în autovehiculele aflate în circulație, oprite sau staționate în situația în care în interiorul acestora se află persoane cu vârsta sub 18 ani sau femei însărcinate.",
+      "weight": 2
+    },
+    {
+      "text": "Acoperă doar fumatul prin ardere și țigareta electronică, lăsând permise dispozitivele cu tutun încălzit și creând reguli incoerente pentru produse similare.",
+      "article": "Art. I pct. 3, pct. 4 și Art. II pct. 1",
+      "quote": "Se interzice fumatul în toate spațiile publice închise, spațiile închise de la locul de muncă, mijloacele de transport în comun, locurile de joacă pentru copii, precum și în autovehiculele aflate în circulație",
+      "weight": 2
+    },
+    {
+      "text": "Codul rutier interzice doar fumatul, nu și țigareta electronică, lăsând poliția rutieră fără sancțiuni rutiere clare dacă se vapează lângă minori sau gravide.",
+      "article": "Art. II pct. 1",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Limitarea interdicției țigaretei electronice din art. 3 alin. (1²) doar la prezența minorilor sau gravidelor și armonizarea sancțiunilor din Art. II (o singură lege aplicabilă, o singură clasă de amendă și puncte de penalizare doar pentru fapta șoferului) ar rezolva principalele defecte.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

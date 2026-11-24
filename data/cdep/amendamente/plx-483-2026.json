@@ -1,21 +1,70 @@
 {
  "slug": "plx-483-2026",
  "billId": "Pl-x 483/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-11-12T10:06:50.908Z",
- "inputHash": "41d7148cf72f",
+ "updatedAt": "2026-11-24T10:35:02.743Z",
+ "inputHash": "253672d895a3",
  "reports": [
   "https://www.cdep.ro/comisii/invatamant/pdf/2026/rp483;1.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp483;1.pdf",
+   "sha256": "b8e7406211eb43d7",
+   "parts": 1,
+   "rows": 6,
+   "unchanged": 1,
+   "admise": 5,
+   "respinse": 0,
+   "truncated": false
+  }
+ ],
+ "completeness": "incomplete",
+ "problems": [
+  "5 admise + 1 nemodificate din 7 rânduri anunțate"
+ ],
  "counts": {
-  "admise": 2,
-  "respinse": 0
+  "admise": 5,
+  "respinse": 0,
+  "anuntate": 7,
+  "nemodificate": 1
  },
  "amendments": [
   {
+   "nr": "1",
+   "report": "rp483;1.pdf",
+   "article": "Titlul Legii",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Inversează ordinea intervențiilor legislative în titlul legii, punând modificarea Legii nr. 198/2023 înaintea abrogării art. LIX din Legea nr. 141/2025.",
+   "quote": "Lege pentru modificarea și completarea art. 208 din Legea învățământului preuniversitar nr. 198/2023",
+   "inForce": null,
+   "before": "Titlul Legii: Lege pentru abrogarea art. LIX din Legea nr. 141/2025 privind unele măsuri fiscal-bugetare, precum și modificarea și completarea art. 208 din Legea învățământului preuniversitar nr. 198/2023",
+   "after": "Titlul Legii: Lege pentru modificarea și completarea art. 208 din Legea învățământului preuniversitar nr. 198/2023, precum și pentru abrogarea art. LIX din Legea nr. 141/2025 privind unele măsuri fiscal-bugetare",
+   "motivation": "Respectarea normelor de tehnică legislativă"
+  },
+  {
+   "nr": "2",
+   "report": "rp483;1.pdf",
+   "article": "art. II (devine art. I)",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Renumerotează art. II ca art. I pentru ordinea cronologică a intervențiilor și elimină zeroul din data „05 iulie 2023”.",
+   "quote": "Art. I. - Articolul 208 din Legea învățământului preuniversitar nr. 198/2023, publicată în Monitorul Oficial al României",
+   "inForce": null,
+   "before": "Art. II. - Articolul 208 din Legea învățământului preuniversitar nr. 198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 613 din 05 iulie 2023, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:",
+   "after": "Art. II devine art. I.\nArt. I. - Articolul 208 din Legea învățământului preuniversitar nr. 198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 613 din 5 iulie 2023, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:",
+   "motivation": "Pentru redarea în ordine cronologică a intervențiilor legislative."
+  },
+  {
    "nr": "4",
-   "article": "art. I pct. 2 (art. 208 alin. (11¹))",
+   "report": "rp483;1.pdf",
+   "article": "art. I pct. 2 (art. 208 alin. (11¹) și (11²))",
    "status": "admis",
    "authors": [
     {
@@ -26,11 +75,39 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Reformulează interdicția pentru personalul didactic degrevat de a desfășura activități de predare în regim de plata cu ora sau cumul, eliminând expresia „așa cum este”.",
-   "quote": "Personalul didactic degrevat, prevăzut la alin. (11), nu poate desfășura activități didactice de predare remunerate prin plata cu ora sau cumul."
+   "byGroup": null,
+   "summary": "Reformulează partea introductivă a punctului 2 și elimină expresia „așa cum este” din alin. (11¹), păstrând alin. (11²) nemodificat.",
+   "quote": "Personalul didactic degrevat, prevăzut la alin. (11), nu poate desfășura activități didactice de predare remunerate prin plata cu ora sau cumul.",
+   "inForce": null,
+   "before": "2. După alineatul (11) se introduc două alineate noi, alin. (11¹) - (11²), cu următorul cuprins:\n(11¹) Personalul didactic degrevat, așa cum este prevăzut la alin. (11), nu poate desfășura activități didactice de predare remunerate prin plata cu ora sau cumul.\n(11²) Prin excepție de la prevederile alin. (11¹), se poate aproba efectuarea de activități în regim de plata cu ora, în unități de învățământ preuniversitar din zone izolate, cu aprobarea consiliului de administrație al inspectoratului școlar județean.",
+   "after": "2. După alineatul (11) se introduc două noi alineate, alin. (11¹) și (11²), cu următorul cuprins:\n”(11¹) Personalul didactic degrevat, prevăzut la alin. (11), nu poate desfășura activități didactice de predare remunerate prin plata cu ora sau cumul.”\n(11²) Text nemodificat",
+   "motivation": null
+  },
+  {
+   "nr": "5",
+   "report": "rp483;1.pdf",
+   "article": "art. I (devine art. II)",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "Szabó Ödön",
+     "role": "deputat",
+     "party": "UDMR",
+     "site": "Szabó Ödön"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Renumerotează art. I ca art. II pentru redarea în ordine cronologică a intervențiilor legislative, fără a modifica textul articolului.",
+   "quote": null,
+   "inForce": "Art. LIX. - (1) Prin derogare de la prevederile art. 208 alin. (11) din Legea nr. 198/2023, cu modificările și completările ulterioare, pentru anul școlar 2025-2026, la nivelul sistemului național de învățământ preuniversitar de stat, personalul didactic de conducere, de îndrumare și control poate fi degrevat de norma didactică de predare după cum urmează: a) personalul didactic de conducere al unităților de educație extrașcolară, casele corpului didactic, centrele județene de resurse și asistență educațională/Centrul Municipiului București de Resurse și Asistență Educațională și centrele de excelență, cu până la 30% din norma didactică de predare-învățare-evaluare, în conformitate cu prevederile normelor metodologice aprobate prin hotărâre a Guvernului, inițiată de Ministerul Educației și Cercetării în termen de 30 de zile de la intrarea în vigoare a prezentei legi. b) personalul didactic de conducere din unitățile de învățământ preuniversitar, personalul didactic de conducere, de îndrumare și control din inspectoratele școlare județene/Inspectoratul Școlar al Municipiului București, cu până la 50% din norma didactică de predare-învățare-evaluare, în conformitate cu prevederile normelor metodologice aprobate prin hotărârea Guvernului prevăzută la lit. a); c) parțial, pentru persoanele desemnate de federațiile sindicale reprezentative la nivel de sector de negociere colectivă învățământ preuniversitar, ca urmare a participării acestora la procesul de monitorizare și evaluare a calității sistemului de învățământ. Numărul persoanelor desemnate de federațiile sindicale reprezentative la nivel de sector de negociere colectivă învățământ preuniversitar, degrevate de norma didactică, precum și atribuțiile acestora se stabilesc în hotărârea de Guvern prevăzută la lit. a). (2) Personalul didactic degrevat, așa cum este prevăzut la alin. (1), nu poate desfășura activități didactice de predare remunerate prin plata cu ora sau cumul. (3) Prin excepție de la prevederile alin. (2), se poate aproba efectuarea de activități în regim de plata cu ora, în unități de învățământ preuniversitar din zone izolate, cu aprobarea consiliului de administrație al inspectoratului școlar județean.",
+   "before": "Art. I. - Articolul LIX din Legea nr. 141/2025 privind unele măsuri fiscal-bugetare, publicată în Monitorul Oficial al României, Partea I, nr. 699 din 25 iulie 2025, cu modificările și completările ulterioare, se abrogă.",
+   "after": "Art. I devine art. II.\nText nemodificat",
+   "motivation": "Pentru redarea în ordine cronologică a intervențiilor legislative."
   },
   {
    "nr": "6",
+   "report": "rp483;1.pdf",
    "article": "art. III",
    "status": "admis",
    "authors": [
@@ -42,8 +119,13 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Introduce o derogare expresă de la art. 10 alin. (2) din Legea nr. 198/2023 pentru intrarea în vigoare a legii la 5 zile de la publicarea în Monitorul Oficial.",
-   "quote": "Prin derogare de la prevederile art. 10 alin. (2) din Legea învățământului preuniversitar nr. 198/2023, cu modificările și completările ulterioare, prezenta lege intră în vigoare la 5 zile"
+   "byGroup": null,
+   "summary": "Adaugă mențiunea derogării de la art. 10 alin. (2) din Legea nr. 198/2023 pentru intrarea în vigoare a legii în 5 zile de la publicare.",
+   "quote": "Prin derogare de la prevederile art. 10 alin. (2) din Legea învățământului preuniversitar nr. 198/2023, cu modificările și completările ulterioare",
+   "inForce": null,
+   "before": "Art. III. - Prevederile prezentei legi intră în vigoare la 5 zile de la data publicării în Monitorul Oficial al României, Partea I.",
+   "after": "Art. III. - Prin derogare de la prevederile art. 10 alin. (2) din Legea învățământului preuniversitar nr. 198/2023, cu modificările și completările ulterioare, prezenta lege intră în vigoare la 5 zile de la data publicării în Monitorul Oficial al României, Partea I.",
+   "motivation": "Potrivit observațiilor Consiliului Legislativ."
   }
  ],
  "matches": []

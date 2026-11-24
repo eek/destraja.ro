@@ -3,106 +3,135 @@
   "billId": "PL-x 372/2026",
   "schema": 1,
   "model": "agy",
-  "updatedAt": "2026-11-12T10:23:54.458Z",
-  "inputHash": "376cd520a95b",
-  "riskScore": 2.7,
-  "summary": "O transpunere europeană necesară care protejează firmele IT strict locale, dar lasă validarea notificărilor fără termen-limită și introduce amenzi judiciare și contravenționale disproporționate.",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-24T11:28:40.573Z",
+  "inputHash": "df8e7505cfa9",
+  "riskScore": 5.3,
+  "summary": "O transpunere europeană necesară pentru obținerea probelor electronice, dar stricată de termene expirate, amenzi disproporționate și birocrație suplimentară.",
   "good": [
     {
-      "text": "Scutește complet firmele din România care oferă servicii doar pe teritoriul național, evitând birocrația și costurile inutile pentru afacerile IT și de găzduire web strict locale.",
-      "article": "art. 3 alin. (2)",
-      "quote": "Prezenta lege nu se aplică furnizorilor de servicii stabiliți pe territoriul României care oferă servicii exclusiv pe territoriul României.",
-      "weight": 3
-    },
-    {
-      "text": "Obligă furnizorii transfrontalieri de comunicații, cloud și domenii web să desemneze un punct de contact în UE, ajutând anchetatorii să obțină rapid probe electronice în dosarele penale.",
+      "text": "Obligă furnizorii de servicii online activi în UE să aibă un reprezentant legal care execută ordinele penale, ajutând justiția să obțină rapid probe electronice.",
       "article": "art. 5 alin. (1)",
       "quote": "Furnizorii de servicii care oferă servicii în Uniunea Europeană au obligația de a desemna cel puțin un destinatar responsabil pentru primirea, respectarea și executarea deciziilor și ordinelor",
       "weight": 3
     },
     {
-      "text": "Permite mai multor firme să împartă același sediu desemnat sau reprezentant legal, ceea ce reduce semnificativ costurile de conformare pentru întreprinderile mici și mijlocii.",
+      "text": "Scutește firmele românești care oferă servicii doar în România de obligația desemnării unui reprezentant legal, evitând costuri birocratice pentru afacerile locale.",
+      "article": "art. 3 alin. (2)",
+      "quote": "Prezenta lege nu se aplică furnizorilor de servicii stabiliți pe teritoriul României care oferă servicii exclusiv pe teritoriul României.",
+      "weight": 2
+    },
+    {
+      "text": "Permite mai multor furnizori să împartă același sediu desemnat sau reprezentant legal, reducând costurile de conformare pentru firmele mici și mijlocii.",
       "article": "art. 5 alin. (3)",
-      "quote": "Același sediu desemnat sau reprezentant legal poate fi folosit de mai mulți furnizori de servicii.",
+      "quote": "Același sediu desemnat sau reprezentant legal poate fi folosit de mai mulți furnizorii de servicii.",
       "weight": 2
     },
     {
-      "text": "Acordă firmelor un termen rezonabil de tranziție de 6 luni de la intrarea în vigoare a legii sau de la lansarea serviciilor pentru a-și desemna reprezentanții legali.",
-      "article": "art. 10 alin. (1)",
-      "quote": "au obligația de a desemna sedii desemnate sau de a numi reprezentanți legali în termen de 6 luni de la data intrării în vigoare a prezentei legi",
-      "weight": 2
-    },
-    {
-      "text": "Obligă ANCOM să publice datele de contact ale reprezentanților pe platforma Rețelei Judiciare Europene, facilitând accesul rapid al magistraților la destinatarii ordinelor.",
+      "text": "Obligă ANCOM să publice și să actualizeze datele de contact ale reprezentanților pe pagina Rețelei Judiciare Europene, asigurând transparență și acces rapid.",
       "article": "art. 11 alin. (1)",
-      "quote": "ANCOM pune la dispoziția publicului informațiile notificate și actualizate conform art.9 prin intermediul paginii de internet a Rețelei Judiciare Europene în materie penală.",
+      "quote": "ANCOM pune la dispoziția publicului informațiile notificate și actualizate conform art. 9 prin intermediul paginii de internet a Rețelei Judiciare Europene în materie penală.",
+      "weight": 2
+    },
+    {
+      "text": "Impune consultare publică obligatorie înainte ca ANCOM să adopte decizia privind forma și condițiile notificării reprezentanților legali.",
+      "article": "art. 8 alin. (4)",
+      "quote": "Decizia prevăzută la alin. (3) se adoptă cu respectarea procedurii de consultare prevăzute la art.135 alin. (2)-(4) din Ordonanța de urgență a Guvernului nr. 111/2011",
       "weight": 1
     },
     {
-      "text": "Obligă ANCOM să publice pe site-ul propriu informațiile despre platforma europeană și ghidul de completare a notificării, sprijinind firmele să se conformeze fără erori.",
-      "article": "art. 8 alin. (3)",
-      "quote": "Informațiile privind platforma de notificare a Comisiei Europene și ghidul de completare a formularului de notificare se publică pe pagina de internet a ANCOM.",
+      "text": "Condiționează schimbul de date personale dintre ANCOM, poliție și autorități judiciare de respectarea regulilor GDPR și ale Legii nr. 190/2018.",
+      "article": "art. 6 alin. (3)",
+      "quote": "autoritățile menționate pot face schimb de date și/sau informații, inclusiv de date cu caracter personal în condițiile Regulamentului (UE) 2016/679 al Parlamentului European și al Consiliului",
+      "weight": 1
+    },
+    {
+      "text": "Prevede coordonarea ANCOM cu celelalte autorități europene pentru aplicarea proporțională a legii și evitarea conflictelor de competență.",
+      "article": "art. 7 alin. (2)",
+      "quote": "ANCOM se coordonează, cooperează, acordă și solicită asistență reciprocă, respectiv furnizează și solicită informații relevante autorităților centrale ale celorlalte state membre ale Uniunii Europene",
+      "weight": 1
+    },
+    {
+      "text": "Permite achitarea în 15 zile a jumătate din amenda contravențională aplicată și plafonează totalul la maximul celei mai grave fapte în caz de abateri multiple.",
+      "article": "art. 19 alin. (2)-(3)",
+      "quote": "contravenientul poate achita, în termen de cel mult 15 zile de la data înmânării sau comunicării procesului-verbal de constatare a contravenției și de aplicare a sancțiunii, jumătate din cuantumul amenzii aplicate",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Notificarea este considerată valabilă doar după validarea ANCOM, dar legea nu impune niciun termen de răspuns autorității, expunând firmele la amenzi din cauza întârzierilor instituției.",
-      "article": "art. 8 alin. (4)",
-      "quote": "Notificarea se consideră realizată în mod corect și complet doar dacă aceasta este validată de către Autoritatea Centrală competentă.",
+      "text": "Stabilește termenul de conformare la 18 august 2026, deja depășit înainte de intrarea în vigoare, fără norme tranzitorii, expunând firmele la amenzi retroactive.",
+      "article": "art. 10 alin. (1)-(2) și art. 21",
+      "quote": "Furnizorii de servicii menționați la art. 5 alin. (1) care oferă servicii la data de 18 februarie 2026 au obligația de a desemna sedii desemnate sau de a numi reprezentanți legali până la data de 18 august 2026.",
       "weight": 3
     },
     {
-      "text": "Permite schimbul de date personale între ANCOM, poliție și parchete fără a preciza categoriile de date, durata stocării sau aplicarea Legii 363/2018 privind datele din anchete penale.",
-      "article": "art. 6 alin. (3)",
-      "quote": "În aplicarea prevederilor alin. (2), autoritățile menționate pot face schimb de date și/sau informații, inclusiv de date cu caracter personal în condițiile Regulamentului (UE) 2016/679",
-      "weight": 2
-    },
-    {
-      "text": "Transformă amenda judiciară din Codul de procedură penală într-o sancțiune uriașă, de minimum 100.000 lei până la 2% din cifra de afaceri mondială, cu garanții procedurale reduse.",
-      "article": "art. 15 alin. (2)",
+      "text": "Introduce amenzi judiciare uriașe (minim 100.000 lei – 2% global), inclusiv pentru persoane fizice și fapte vagi, contestabile doar pe procedura sumară a art. 284 CPP.",
+      "article": "art. 15 alin. (2)-(3) și art. 17 alin. (2)",
       "quote": "Următoarele fapte se sancționează cu amendă judiciară de la 100.000 lei la maximum 2% din cifra de afaceri anuală la nivel mondial înregistrată în exercițiul financiar precedent:",
+      "weight": 3
+    },
+    {
+      "text": "Creează o contradicție matematică pentru firmele mici: maximul de 2% din cifra de afaceri devine mai mic decât minimul fix (100.000 lei sau 10.000 lei), fără soluție legală.",
+      "article": "art. 15 alin. (2) și art. 16 alin. (2)",
+      "quote": "contravențiile prevăzute la art. 15 alin. (1) lit. a), b) și f) se sancționează cu amendă de la 10.000 lei la maximum 2% din cifra de afaceri anuală la nivel mondial",
+      "weight": 3
+    },
+    {
+      "text": "Adaugă birocrație peste Directiva UE: firmele cu reprezentant în alt stat membru trebuie să trimită separat la ANCOM dovada notificării și modificările, sub amendă de până la 100.000 lei.",
+      "article": "art. 8 alin. (6)-(7) și art. 15 alin. (1) lit. d)-e)",
+      "quote": "au obligația de a transmite ANCOM dovada notificării autorității centrale din statul membru respectiv potrivit alin. (1), în termen de 30 zile de la data înregistrării notificării la autoritatea centrală în cauză.",
       "weight": 2
     },
     {
-      "text": "Impune obligații și amenzi în România firmelor stabilite în alte state UE pentru notificări făcute altor autorități naționale, riscând suprapuneri de competență și dublă sancționare.",
-      "article": "art. 5 alin. (1) lit. b)",
-      "quote": "furnizorii de servicii stabiliți într-un alt stat membru al Uniunii Europene decât România în care sunt aplicabile dispozițiile menționate la art.2 și care oferă servicii pe teritoriul României",
+      "text": "Sancționează reprezentantul legal cu până la 100.000 lei dacă nu se asigură că furnizorul îi oferă resursele necesare, transferând răspunderea pentru fapta altuia.",
+      "article": "art. 14 alin. (1) și art. 15 alin. (1) lit. g)",
+      "quote": "Sediile desemnate și reprezentanții legali din România au obligația să se asigure că furnizorii de servicii le acordă competențele și resursele necesare pentru a se conforma deciziilor și ordinelor",
       "weight": 2
     },
     {
-      "text": "Sancționează cu amendă de până la 100.000 lei reprezentantul legal dacă firma pe care o reprezintă nu îi acordă resurse suficiente, deși mandatarul nu își poate constrânge clientul.",
-      "article": "art. 15 alin. (1) lit. e)",
-      "quote": "nerespectarea de către sediile desemnate sau reprezentanții legali a obligației de a se asigura că furnizorii de servicii stabiliți sau care își oferă serviciile pe territoriul României le-au acordat competențele și resursele necesare",
+      "text": "Omite să reglementeze amenda contravențională pentru firmele mai vechi fără cifră de afaceri sau cu cifră nedeterminabilă, acoperind doar primul an de activitate.",
+      "article": "art. 16 alin. (3)",
+      "quote": "contravențiile prevăzute la art. 15 alin. (1) lit. a), b) și f) în anul în care și-au început activitatea, cuantumul amenzii este cuprins între 10.000 lei și 100.000 lei.",
       "weight": 2
     },
     {
-      "text": "Derogă de la regula generală și obligă firmele să conteste amenzile doar la judecătoria sediului autorității constatatoare, îngreunând accesul la justiție pentru firmele din provincie.",
+      "text": "Obligă firmele din toată țara să conteste amenzile ANCOM doar la judecătoria de la sediul instituției, nu la locul faptei, îngreunând accesul la justiție.",
       "article": "art. 18",
-      "quote": "procesul-verbal de constatare a contravenției și de aplicare a sancțiunii poate fi contestat la judecătoria în a cărei rază teritorială își are sediul autoritatea din cadrul căreia face parte agentul constatator",
+      "quote": "procesul-verbal de constatare a contravenției și de aplicare a sanctiunii poate fi contestat la judecătoria în a cărei rază teritorială își are sediul autoritatea din cadrul căreia face parte agentul constatator",
+      "weight": 2
+    },
+    {
+      "text": "A fost adoptat tacit de Camera Deputaților fără dezbatere parlamentară, lăsând necorectate termenele expirate și sancțiunile defectuoase.",
+      "article": "formula de adoptare",
+      "quote": "Acest proiect de lege se consideră adoptat de Camera Deputaților în forma inițială, în condițiile art. 75 alin. (2) teza a III-a din Constituția României, republicată.",
+      "weight": 2
+    },
+    {
+      "text": "Extinde termenul de prescripție pentru aplicarea amenzilor contravenționale de la 6 luni la 3 ani, prelungind incertitudinea juridică pentru operatori.",
+      "article": "art. 20",
+      "quote": "aplicarea sancțiunilor stabilite conform art. 16 se prescrie în termen de 3 ani de la data săvârșirii faptei.",
       "weight": 1
     },
     {
-      "text": "Derogă de la regimul general al contravențiilor și permite plata în 15 zile doar a jumătate din amenda efectiv aplicată de agent, nu a jumătate din minimul legal prevăzut de lege.",
-      "article": "art. 19 alin. (2)",
-      "quote": "contravenientul poate achita, în termen de cel mult 15 zile de la data înmânării sau comunicării procesului-verbal de constatare a contravenției și de aplicare a sancțiunii, jumătate din cuantumul amenzii aplicate",
+      "text": "Conține erori evidente de redactare, inclusiv cuvinte lipsă în articolul despre amenzi («va fi cuprinsă 100.000 lei și 200.000 lei»), afectând claritatea legii.",
+      "article": "art. 15 alin. (3)",
+      "quote": "nu a înregistrat cifră de afaceri în exercițiul financiar precedent sau aceasta nu poate fi determinată, sancțiunea amenzii prevăzută la alin. (2) va fi cuprinsă 100.000 lei și 200.000 lei.",
       "weight": 1
     }
   ],
   "fix": {
-    "text": "Introducerea unui termen-limită pentru validarea notificării de către ANCOM, delimitarea strictă a datelor personale schimbate cu organele penale și calibrarea proporțională a amenzilor și competențelor de sancționare.",
+    "text": "Trebuie introduse termene tranzitorii raportate la intrarea în vigoare, eliminate pragurile minime fixe incompatibile cu plafonul de 2% și reformat regimul amenzilor judiciare cu garanții de contestare.",
     "removes": [
       0,
       1,
-      2,
-      3,
-      4
+      2
     ],
-    "levelAfter": "green",
-    "scoreAfter": 1
+    "levelAfter": "yellow",
+    "scoreAfter": 2.8
   },
   "quotes": {
-    "checked": 13,
-    "verified": 13
+    "checked": 18,
+    "verified": 18
   }
 }

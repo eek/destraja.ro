@@ -2,13 +2,102 @@
   "slug": "b616-2026",
   "billId": "B616/2026",
   "checkedAt": "2026-11-23T11:08:35.750Z",
-  "indexCheckedAt": "2026-11-23T10:02:16.504Z",
+  "indexCheckedAt": "2026-11-24T11:29:35.617Z",
   "models": {
     "agy": "ok",
     "claude": "ok",
-    "codex": "ok"
+    "codex": "ok",
+    "index": "ok"
   },
   "articles": [
+    {
+      "url": "https://adevarul.ro/stiri-interne/societate/vouchere-de-vacanta-pentru-toti-angajatii-nu-doar-2573847.html",
+      "title": "Vouchere de vacanță pentru toți angajații, nu doar pentru bugetari. Propunerea ANAT: „Odihna nu este un privilegiu”",
+      "outlet": "Adevărul",
+      "domain": "adevarul.ro",
+      "publishedAt": "2026-11-23",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Organizația propune un mecanism prin care firmele să poată scădea contravaloarea voucherelor direct din impozitul pe profit datorat și a început demersurile pentru obținerea datelor fiscale necesare evaluării inițiativei legislative.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-24",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "supportive",
+            "stanceP": 0.468,
+            "source": "national_news",
+            "sourceP": 0.939,
+            "about": 0.963,
+            "release": 0.608
+          },
+          "d1": {
+            "stance": "mixed",
+            "stanceP": 0.588,
+            "source": "national_news",
+            "sourceP": 0.6,
+            "about": 0.622,
+            "release": 0.107
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.91,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.b1tv.ro/economic/vouchere-vacanta-1600-lei-patronate-sponsorizari-ong-1752843.html",
+      "title": "Voucherele de vacanță de 1.600 de lei provoacă scandal. Patronatele cer retragerea proiectului: ONG-urile riscă să piardă finanțări - B1TV.ro",
+      "outlet": "B1 TV",
+      "domain": "b1tv.ro",
+      "publishedAt": "2026-11-23",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Disputa privește proiectul legislativ B616/2026, înregistrat la Senat pe 4 noiembrie.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-24",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "critical",
+            "stanceP": 0.781,
+            "source": "national_news",
+            "sourceP": 0.928,
+            "about": 0.998,
+            "release": 0.017
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.771,
+            "source": "national_news",
+            "sourceP": 0.51,
+            "about": 0.867,
+            "release": 0.107
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.98,
+            "source": "national_news",
+            "sourceP": 0.96,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
     {
       "url": "https://economedia.ro/concordia-respinge-finantarea-voucherelor-de-vacanta-din-plafonul-fiscal-destinat-sponsorizarilor-turismul-nu-are-nevoie-de-bani-luati-de-la-caritate-ci-de-solutii-proprii.html",
       "title": "Concordia respinge finanțarea voucherelor de vacanță din plafonul fiscal destinat sponsorizărilor",
@@ -60,11 +149,87 @@
       "domain": "g4media.ro",
       "publishedAt": "2026-11-23",
       "foundBy": [
-        "agy"
+        "agy",
+        "index"
       ],
-      "quote": "Confederația Patronală Concordia, una dintre cele mai puternice din țară, a anunțat luni că se opune propunerii legislative care ar finanța voucherele de vacanță din plafonul fiscal destinat sponsorizărilor și mecenatului.",
+      "quote": "Poziția Concordia vine la doar câteva zile după ce peste 300 de organizații au solicitat retragerea propunerii legislative B616/2026 care permite firmelor să scadă cheltuielile cu voucherele de vacanță din impozitul pe profit, în același plafon cu sponsorizările și actele de mecenat.",
       "match": "quote",
-      "firstSeenAt": "2026-11-23"
+      "firstSeenAt": "2026-11-23",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "critical",
+            "stanceP": 0.977,
+            "source": "national_news",
+            "sourceP": 0.885,
+            "about": 0.991,
+            "release": 0.173
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.914,
+            "source": "trade_press",
+            "sourceP": 0.328,
+            "about": 0.777,
+            "release": 0.182
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.99,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.g4media.ro/exclusiv-proiectul-care-pericliteaza-finantarea-ong-urilor-prin-mutarea-banilor-catre-vouchere-de-vacanta-initiat-de-o-deputata-psd-cu-interese-directe-in-turism-la-mamaia-mirela-matichescu-nu-sunt.html",
+      "title": "EXCLUSIV Proiectul care periclitează finanțarea ONG-urilor prin mutarea banilor către vouchere de vacanță, inițiat de o deputată PSD cu interese directe în turism la Mamaia. Mirela Matichescu: Nu sunt în conflict de inte",
+      "outlet": "G4Media",
+      "domain": "g4media.ro",
+      "publishedAt": "2026-11-23",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Un proiect de lege inițiat de deputata PSD Mirela Matichescu, proprietară de resturant și firmă de turism în Mamaia, periclitează finanțarea pe care ONG-urile le primesc de la companii ca o cotă din impozitul pe profit.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-24",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "critical",
+            "stanceP": 0.918,
+            "source": "national_news",
+            "sourceP": 0.963,
+            "about": 0.997,
+            "release": 0.005
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.718,
+            "source": "party_or_politician",
+            "sourceP": 0.217,
+            "about": 0.755,
+            "release": 0.321
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.99,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
     },
     {
       "url": "https://jurnalul.ro/special-jurnalul/anchete/sute-ong-uri-opun-vouchere-vacanta-angajati-firme-private-1050170.html",
@@ -111,6 +276,50 @@
       }
     },
     {
+      "url": "https://www.presshub.ro/peste-opt-luni-de-la-decizia-iccj-in-dosarul-deputatei-psd-mirela-matichescu-motivarea-lipseste-cu-desavarsire-424858",
+      "title": "Peste opt luni de la decizia ÎCCJ în dosarul deputatei PSD Mirela Matichescu. Motivarea lipsește",
+      "outlet": "PressHub",
+      "domain": "presshub.ro",
+      "publishedAt": "2026-11-23",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Între timp, Matichescu a inițiat proiectul care ar permite firmelor să deducă voucherele de vacanță din același plafon fiscal folosit pentru sponsorizările acordate ONG-urilor.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-24",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "critical",
+            "stanceP": 0.487,
+            "source": "national_news",
+            "sourceP": 0.815,
+            "about": 0.047,
+            "release": 0.004
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.79,
+            "source": "national_news",
+            "sourceP": 0.422,
+            "about": 0.294,
+            "release": 0.095
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.78,
+            "source": "national_news",
+            "sourceP": 0.85,
+            "about": 0.08,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
       "url": "https://startupcafe.ro/patronatele-cer-retragerea-proiectului-privind-voucherele-de-vacanta-de-1-600-de-lei-statul-ar-plati-vacanta-din-banii-destinati-ong-urilor-110732",
       "title": "Patronatele cer retragerea proiectului privind voucherele de vacanță de 1.600 de lei: „Statul ar plăti vacanța din banii destinați ONG-urilor” - StartupCafe",
       "outlet": "StartupCafe",
@@ -122,7 +331,126 @@
       ],
       "quote": "Concordia atrage atenția că proiectul schimbă semnificativ tratamentul fiscal al voucherelor de vacanță.",
       "match": "quote",
-      "firstSeenAt": "2026-11-23"
+      "firstSeenAt": "2026-11-23",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "critical",
+            "stanceP": 0.876,
+            "source": "trade_press",
+            "sourceP": 0.548,
+            "about": 0.997,
+            "release": 0.101
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.692,
+            "source": "trade_press",
+            "sourceP": 0.472,
+            "about": 0.755,
+            "release": 0.119
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.99,
+            "source": "trade_press",
+            "sourceP": 0.84,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://stirileprotv.ro/stiri/actualitate/concordia-se-opune-finan-arii-voucherelor-de-vacan-a-din-plafonul-fiscal-destinat-sponsorizarilor-si-mecenatului.html",
+      "title": "Concordia se opune finanţării voucherelor de vacanţă din plafonul fiscal destinat sponsorizărilor şi mecenatului - Știrile ProTV",
+      "outlet": "Știrile ProTV",
+      "domain": "stirileprotv.ro",
+      "publishedAt": "2026-11-23",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Proiectul de lege le-ar permite firmelor să scadă din impozitul pe profit voucherele de vacanţă de până la 1.600 de lei, folosite exclusiv în România.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-24",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "critical",
+            "stanceP": 0.947,
+            "source": "national_news",
+            "sourceP": 0.956,
+            "about": 0.984,
+            "release": 0.798
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.934,
+            "source": "national_news",
+            "sourceP": 0.386,
+            "about": 0.706,
+            "release": 0.148
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.99,
+            "source": "national_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.stiripesurse.ro/voucherele-de-vacanta-ar-putea-fi-acordate-si-angajatilor-din-mediul-privat-ce-spune-anat_3939234",
+      "title": "Voucherele de vacanță ar putea fi acordate și angajaților din mediul privat. Ce spune ANAT",
+      "outlet": "Știri pe surse",
+      "domain": "stiripesurse.ro",
+      "publishedAt": "2026-11-23",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "În ceea ce priveşte propunerea legislativă B616/2026, care urmăreşte scăderea contravalorii voucherelor de vacanţă direct din impozitul pe profit datorat, în limita plafonului fiscal aplicabil sponsorizărilor şi actelor de mecenat, reprezentanţii ANAT afirmă că nu există, în informaţiile publice identificate, o situaţie centralizată şi suficient de detaliată care să permită evaluarea gradului de u",
+      "match": "quote",
+      "firstSeenAt": "2026-11-24",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "supportive",
+            "stanceP": 0.7,
+            "source": "aggregator",
+            "sourceP": 0.578,
+            "about": 0.915,
+            "release": 0.798
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.428,
+            "source": "aggregator",
+            "sourceP": 0.534,
+            "about": 0.269,
+            "release": 0.119
+          },
+          "luna": {
+            "stance": "mixed",
+            "stanceP": 0.74,
+            "source": "national_news",
+            "sourceP": 0.91,
+            "about": 0.99,
+            "release": 0.88
+          }
+        }
+      }
     },
     {
       "url": "https://spotmedia.ro/stiri/economie/o-noua-lovitura-pentru-ong-uri-firmele-ar-avea-de-ales-intre-sponsorizari-si-vouchere-de-vacanta-peste-800-de-ong-uri-cer-retragerea-proiectului",
@@ -136,7 +464,38 @@
       ],
       "quote": "un proiect de lege care ar permite firmelor să scadă din impozitul pe profit voucherele de vacanță pentru angajați",
       "match": "quote",
-      "firstSeenAt": "2026-11-23"
+      "firstSeenAt": "2026-11-23",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "critical",
+            "stanceP": 0.608,
+            "source": "national_news",
+            "sourceP": 0.84,
+            "about": 0.998,
+            "release": 0.005
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.469,
+            "source": "national_news",
+            "sourceP": 0.433,
+            "about": 0.818,
+            "release": 0.133
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.91,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
     },
     {
       "url": "https://www.antena3.ro/economic/peste-800-de-ong-uri-cer-retragerea-proiectului-care-include-voucherele-de-vacanta-in-plafonul-pentru-sponsorizari-812041.html",
@@ -326,7 +685,38 @@
       ],
       "quote": "Proiectul de lege B616/2026, înregistrat la Senat pe 4 noiembrie, propune ca firmele din mediul privat care plătesc impozit pe profit să scadă din impozitul datorat cheltuielile cu voucherele de vacanță acordate salariaților.",
       "match": "quote",
-      "firstSeenAt": "2026-11-23"
+      "firstSeenAt": "2026-11-23",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.888,
+            "source": "national_news",
+            "sourceP": 0.979,
+            "about": 0.577,
+            "release": 0.08
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.802,
+            "source": "national_news",
+            "sourceP": 0.455,
+            "about": 0.469,
+            "release": 0.321
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.72,
+            "release": 0.02
+          }
+        }
+      }
     },
     {
       "url": "https://www.g4media.ro/peste-300-de-ong-uri-cer-guvernului-sa-fie-retrasa-propunerea-legislativa-care-le-permite-firmelor-sa-scada-cheltuielile-cu-voucherele-de-vacanta-din-impozitul-pe-profit-in-acelasi-plafon-cu-sponsoriz.html",
@@ -872,7 +1262,38 @@
       ],
       "quote": "Proiectul de lege le-ar permite firmelor să scadă din impozitul pe profit voucherele de vacanță de până la 1.600 de lei, folosite exclusiv în România.",
       "match": "quote",
-      "firstSeenAt": "2026-11-23"
+      "firstSeenAt": "2026-11-23",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "critical",
+            "stanceP": 0.931,
+            "source": "national_news",
+            "sourceP": 0.97,
+            "about": 0.991,
+            "release": 0.827
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.921,
+            "source": "aggregator",
+            "sourceP": 0.344,
+            "about": 0.835,
+            "release": 0.148
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.99,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
     }
   ],
   "pending": [

@@ -20,7 +20,38 @@
       ],
       "quote": "Un proiect legislativ depus la Senat propune eliminarea suprataxării contractelor cu timp parțial",
       "match": "quote",
-      "firstSeenAt": "2026-11-23"
+      "firstSeenAt": "2026-11-23",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.827,
+            "source": "national_news",
+            "sourceP": 0.55,
+            "about": 0.997,
+            "release": 0.035
+          },
+          "d1": {
+            "stance": "mixed",
+            "stanceP": 0.493,
+            "source": "trade_press",
+            "sourceP": 0.302,
+            "about": 0.905,
+            "release": 0.119
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "local_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
     },
     {
       "url": "https://ziare.com/contracte-part-time/supraimpozitare-aviz-consiliu-legislativ-2049167",
@@ -168,7 +199,38 @@
       ],
       "quote": "este înregistrată la Senat cu numărul B636/11.11.2026",
       "match": "quote",
-      "firstSeenAt": "2026-11-23"
+      "firstSeenAt": "2026-11-23",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "supportive",
+            "stanceP": 0.652,
+            "source": "local_news",
+            "sourceP": 0.855,
+            "about": 0.998,
+            "release": 0.05
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.532,
+            "source": "aggregator",
+            "sourceP": 0.333,
+            "about": 0.867,
+            "release": 0.095
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.84,
+            "source": "local_news",
+            "sourceP": 0.92,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
     }
   ]
 }

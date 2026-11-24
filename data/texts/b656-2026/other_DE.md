@@ -1,0 +1,45 @@
+București, 23 noiembrie 2026 Nr.BPI 886,887,888,890
+
+# Domnule președinte,
+
+Avem onoarea să vă înaintăm alăturat, în original, în vederea dezbaterii și adoptării, potrivit art.75 alin.(1) din Constituția României, următoarele propuneri legislative:
+
+Bp655
+
+2026 1. Propunerea legislativă pentru completarea Legii nr.286/2009 privind Codul penal, modificarea și completarea Ordonanței Guvernului nr.55/2002 privind regimul juridic al sancțiunii prestării unei activități în folosul comunității (BPI 886/2026)
+
+\- inițiatori: doamnele deputat Kântor Boglărka, Zahoranszki Brigitta-Eva, domnii deputați Szabó Ödön, Miklos Zoltân, Ladânyi Lăszlo-Zsolt, Kolcsár Anquetil-Kăroly, Nagy Szabolcs, Seres Denes, Kulcsăr-Terza Jozsef-György, Hajdu Găbor, Könczei Csaba, Gál Kăroly, Grupul parlamentar al U.D.M.R., domnii deputați Roman Florin-Claudiu, Știrbu Gigel-Sorinel, Roșca Mircea, Vela Ion-Marcel, Grupul parlamentar al P.N.L., doamna deputat Ene Gabriela-Corina, domnii deputați Ciucă Liviu-Bogdan, Isac Marius-Adrian, Grupul parlamentar al P.S.D., domnul deputat Bouda Ștefan, Grupul parlamentar al minorităților naționale, domnii deputați Dimitriu Alexandru-Paul, Badea Mihai-Alexandru, Văduva Dumitru, Grupul parlamentar al U.S.R.;
+
+\- procedură de urgență solicitată de inițiatori;
+
+\- prima Cameră sesizată: Senatul, potrivit art.75 alin.(1) teza a II-a și art.73 alin.(3) lit.h) din Constituția României;
+
+\- Camera decizională: Camera Deputaților.
+
+26/2026. Propunerea legislativă pentru modificarea și completarea unor acte normative pentru prevenirea și combaterea efectelor consumului produselor din tutun (BPI 887/2026)
+
+\- inițiatori: doamnele deputat Stoica Diana, Atanasiu Corina, domnii deputați Gima George, Șendroiu Vlad-Ioan, Rodeanu Bogdan-Ionel, Bulai Iulian, Wiener Adrian, Cristian Brian, Echert Adrian, Badea Mihai-Alexandru, Ungureanu Emanuel-Dumitru, Văduva Dumitru, Rigman Ciprian-Doru, Plujar Andrei George, Bulearcă Marius-Felix, Marussi George-Nicolae, Aleksandru Marius-Nicolae, Paraschivescu Ovidiu-Romulus, doamnele senator Dobra Elena-Adelina, Spătaru Elena-Simona, Cibu Deaconu Ruxandra, domnii senatori Mîndru Cătălin-Emil, Șipoș Sorin-Gheorghe, Darău Ambrozie-Irineu, Bodea Marius, Bochileanu George-Cătălin, Anghel Razvan-Paul, Gheorghiu Andrei-Florin, Mircescu Ion-Narcis, Ghinea Cristian, Grupurile parlamentare ale U.S.R., doamnele senator Orban Carmen, Bică Andra, Cușnir Rodica, domnii senatori Streinu Cercel Adrian, Nicula Mircea-Cristian, Mărginean Lucian, Țepeluș Laurențiu-Cristinel, Stroe Felix, Humelnicu Marius, Graur Cătălin, Grupul parlamentar al P.S.D, doamnele deputat Moș Patricia-Simina-Arina, Turcan Raluca, domnii deputați Cîmpean Ovidiu-Vasile, Muraru Iulian-Alexandru, Năcuță Sorin, Oprea Octavian, doamnele senator Anisie Monica-Cristina, Horga Maria-Gabriela, domnii senatori Coteț Mihai, Petrea Dorin-Silviu, Borțun Ștefan, Peiu Grigore-Adrian, Grupurile parlamentare ale P.N.L., domnul deputat Vass Levente, doamna senator Kondor Agota, domnii senatori Antal Istvân-Loránt, Fejer Lăszlo-Õdőn, Grupurile parlamentare ale U.D.M.R., doamna senator Stoiciu Victoria, neafiliată;
+
+\- procedură de urgență solicitată de inițiatori; - prima Cameră sesizată: Senatul, potrivit art.75 alin.(1) teza a II-a din Constituția României; - Camera decizională: Camera Deputaților.
+
+Bp 657/20263. Propunerea legislativă pentru modificarea și completarea Legii nr.457/2004 privind publicitatea și sponsorizarea pentru produsele din tutun (BPI 888/2026)
+
+\- inițiatori: doamna deputat Atanasiu Corina, domnii deputați Echert Adrian, Plujar Andrei George, Ungureanu Emanuel-Dumitru, Șendroiu Vlad-Ioan, domnii senatori Rus Vasile-Ciprian, Anghel Razvan-Paul, Bodea Marius, Negoi Eugen-Remus, Șipoș Sorin-Gheorghe, Grupurile parlamentare ale U.S.R.;
+
+\- prima Cameră sesizată: Senatul, potrivit art.75 alin.(1) teza a II-a din Constituția României; - Camera decizională: Camera Deputaților.
+
+Bp 658/2014. Propunerea legislativă pentru modificarea și completarea Legii nr.223/2015 privind pensiile militare de stat (BPI 890/2026)
+
+\- inițiatori: doamnele deputat Vedinaș Verginia, Toader Elena-Laura, domnii deputați Goidescu Ionel, Țiu Mihai-Adrian, Oltenașu Sorin-George, Pascalini Nini-Alexandru, Caragață Florin, Ionescu Tudor, Vidra Vlad-Andrei, Grupul parlamentar S.O.S. România;
+
+\- prima Cameră sesizată: Senatul, potrivit art.75 alin.(1) teza a II-a și art.73 alin.(3) lit.p) din Constituția României;
+
+\- Camera decizională: Camera Deputaților.
+
+Propunerile legislative au fost înregistrate la Biroul permanent al Camerei Deputaților care, în ședința din data de 23 noiembrie 2026, a stabilit că domeniul reglementat de acestea este de competența decizională a Camerei Deputaților, Senatul fiind prima Cameră sesizată.
+
+Cu stimă,
+
+p.PREȘEDINTELE CAMEREI DEPUTAȚILOR Bogdan-Gruia IVAN
+
+Domnului Mircea ABRUDEAN PREȘEDINTELE SENATULUI

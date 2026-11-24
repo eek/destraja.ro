@@ -1,0 +1,87 @@
+# LEGE
+
+pentru completarea Legii nr. 286/2009 privind Codul penal, modificarea și completarea Ordonanței Guvernului nr. 55/2002 privind regimul juridic al sancțiunii prestării unei activități în folosul comunității
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. – Legea nr. 286/2009 privind Codul penal, publicată în Monitorul Oficial al României, Partea I, nr. 510 din 24 iulie 2009, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. La articolul 287 alineatul (1), după litera h) se introduce o nouă literă, lit. i), cu următorul cuprins:
+
+„i) refuzul repetat, cu rea-credință, de a executa sancțiunea prestării unei activități în folosul comunității, aplicată în materie contravențională printr-o hotărâre judecătorească definitivă, în condițiile alin. (4) și (5).”
+
+2: La articolul 287, după alineatul (3) se introduc cinci noi alineate, alin. (4)—(8), cu următorul cuprins:
+
+„(4) Refuzul repetat prevăzut la alin. (1) lit. i) constă în refuzul de a începe sau de a continua activitatea la cel puțin două date de prezentare distincte, stabilite pentru executarea aceleiași hotărâri, ulterior comunicării personale a unei avertizări scrise asupra consecințelor penale. Prima dată de prezentare se stabilește la cel puțin 15 zile de la comunicarea avertizării. A doua dătă se stabilește la cel puțin 15 zile de la prima și se comunică personal, printr-o nouă înștiințare, cu cel puțin 10 zile înainte.
+
+(5) Fapta prevăzută la alin. (1) lit. i) constituie infracțiune numai dacă, la fiecare dintre cele două date, sancțiunea era executorie, executarea nu era suspendată sau prescrisă, persoana cunoștea natura activității, locul, data și programul, autoritatea asigurase condițiile legale de executare, iar persoana avea posibilitatea efectivă de a executa și a refuzat în mod deliberat. Simpla neprezentare nu dovedește, prin ea însăși, reaua-credință.
+
+(6) Nu constituie infracțiunea prevăzută là alin. (1) lit. i) neexecutarea determinată de incapacitatea medicală, de neasigurarea condițiilor legale de executare de către autoritate sau de alte împrejurări obiective, independente de voința persoanei, care au împiedicat executarea la data stabilită.
+
+(7) În cazul infracțiunii prevăzute la alin. (1) lit. i), executarea integrală a orelor stabilite prin hotărârea judecătorească, inclusiv prin procedura de executare voluntară prevăzută la art. 21⁴ din Ordonanța Guvernului nr. 55/2002, cu modificările și completările ulterioare, până la pronunțarea hotărârii definitive în cauza penală, înlătură răspunderea penală.
+
+(8) Beneficiază de dispozițiile alin.' (7) și persoana care a solicitat în scris executarea integrală a orelor rămase și a îndeplinit toate demersurile ce îi reveneu, dacă executarea nu a putut fi finalizată exclusiv din cauza neîndeplinirii obligațiilor autorității competente ori a unei incapacități medicale permanente survenite după săvârșirea faptei. Cererea trebuie formulată întrun interval care, potrivit duratei maxime legale zilnice și orelor rămase, permitea finalizarea executării înainte de hotărârea definitivă; această condiție nu se aplică incapacității medicale permanente. Îndeplinirea condițiilor se verifică de organul judiciar competent, pe baza tuturor probelor administrate."
+
+Art. II. – Ordonanța Guvernului nr. 55/2002 privind regimul juridic al sancțiunii prestării unei activități în folosul comunității, publicată în Monitorul Oficial al României, Partea I, nr. 642 din 30 august 2002, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. Articolul 21 se modifică și va avea următorul cuprins:
+
+„Art. 21. – (1) Dacă persoana nu se prezintă pentru luarea în evidență ori pentru executarea sancțiunii sau întrerupe executarea, primarul, prin persoanele împuternicite cu supravegherea, verifică motivele și consemnează situația într-un proces-verbal. Procedura prevăzută de prezentul articol se aplică tuturor sancțiunilor contravenționale de prestare a unei activități în folosul comunității, inclusiv celor dispuse prin înlocuirea amenzii în temeiul art. 9 sau al art. 39¹ din Țordonanța Guvernului nr. 2/2001, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare.
+
+(2) Înaintea avertizării, primarul verifică dacă hotărârea este executorie, numărul orelor rămase, existența unui loc de activitate disponibil, compatibilitatea activității cu starea de sănătate și aptitudinile persoanei, respectarea programului său de muncă sau școlar și asigurarea mijloacelor de lucru, a' instruirii și a condițiilor de securitate. Obstacolele medicale, familiale, de deplasare sau de altă natură invocate de persoană se verifică și se consemnează, împreună cu măsurile de adaptare posibile. Nu se emite avertizarea cât timp executarea este împiedicată de neîndeplinirea obligațiilor autorității.
+
+(3) Dacă verificările indică un refuz nejustificat, se comunică persoanei o avertizare scrisă caré cuprinde hotărârea executată, orele rămase, natuța activității, locul, prima dată de prezentare, programul, persoana de contact, modalitatea de justificare a neprezentării, dreptul de a contesta condițiile executării potrivit art. 23 și 24, precum și consecințele prevăzute de art. 287 alin. (1) lit.
+
+i) și alin. (4)–(8) din Codul penal. Data prezentării respectă termenul prevăzut la art. 287 alin. (4) din Codul penal.
+
+(4) Avertizarea și înștiințările ulterioare se comunică personal, prin înmânare sub semnătură, prin trimitere poștală cu confirmarea primirii de către destinatar sau prin mijloace electronice acceptate expres de acesta, care permit verificarea identității și confirmarea primirii. În cazul refuzului de primire, agentul însărcinat cu comunicarea citește persoanei conținutul actului, îi pune la dispoziție un exemplar și consemnează identitatea destinatarului și aceste împrejurări într-un proces-verbal semnat de un martor care nu participă la supravegherea executării. Comunicarea prin afișare sau numai prin publicitate nu este suficientă pentru aplicarea art. 287 alin. (1) lit. i) din Codul penal.
+
+(5) Dacă persoana nu execută la prima dată stabilită, i se comunică procesul-verbal de constatare și i se acordă 5 zile de la comunicare pentru explicații și înscrisuri. În lipsa unui impediment obiectiv, se comunică o nouă înștiințare pentru a doua dată de prezentare, cu respectarea ambelor termene prevăzute la art. 287 alin. (4) din Codul penal. Două solicitări formulate în aceeași zi nu reprezintă două refuzuri distincte.
+
+(6) După neexecutarea la a doua dată, persoanei i se comunică procesul-verbal și i se acordă 5 zile pentru explicații și înscrisuri. În cel mult 10 zile de la expirarea acestui termen, persoanele împuternicite finalizează verificarea existenței impedimentelor obiective și a condițiilor prevăzute la art. 287 alin. (4)–(6) din Codul penal. Dacă există indicii de săvârșire a infracțiunii, sesizează organele de urmărire penală competente în cel mult 15 zile de la finalizarea verificării.
+
+(7) Sesizarea este însoțită de hotărârea definitivă, mandatul de executare, evidența orelor efectuate și rămase, dovezile comunicării, procesele-verbale, explicațiile și înscrisurile persoanei, precum și documentele privind condițiile de executare asigurate și verificările efectuate. Actele autorității nu instituie o prezumție de vinovăție; organele judiciare verifică toate elementele infracțiunii potrivit Codului de procedură penală.
+
+(8) Dacă se constată un impediment obiectiv temporar, activitatea se reprogrameăză după încetarea acestuia. Dacă au fost modificate natura activității, locul ori programul sau impedimentul a afectat una dintre datele avute în vedere, se reia procedura de avertizare; refuzurile anterioare nu se cumulează cu cele constatate în noua procedură pentru îndeplinirea condiției prevăzute la art. 287 alin. (4) din Codul penal."
+
+## 2. După articolul 21¹ se introduc trei noi articole, art. 21²–21⁴, cu următorul cuprins:
+
+„Art. 21². – (1) Sesizarea organelor de urmărire penală nu suspendă și nu încetează executarea sancțiunii și nu suspendă sau întrerupe prescripția executării acesteia. Executarea continuă în condițiile legii, fără ca avertizarea să prelungească durata legală a sancțiunii.
+
+(2) Primarul asigură evidența hotărârilor, orelor efectuate și rămase, condițiilor oferite, avertizărilor, impedimentelor, refuzurilor și sesizărilor. Executarea integrală și orice cauză de suspendare ori încetare se comunică persoanei și organului judiciar sesizat, în termen de 5 zile de la constatare.
+
+(3) Sesizarea penală nu exonerează autoritatea de organizarea și supravegherea executării. Neîndeplinirea culpabilă a atribuțiilor stabilite prin prezenta ordonanță atrage, după caz, răspunderea disciplinară, administrativă, civilă sau penală, în condițiile legii.
+
+Art. 21³. – (1) Incapacitatea medicală se verifică pe baza documentelor eliberate de medicul de familie sau de medicul specialist. Dacă acestea sunt insuficiente ori contradictorii, primarul sesizează judecătoria în a cărei circumscripție se execută sancțiunea, în termen de 10 zile, pentru stabilirea posibilității de executare. Persoana poate sesiza direct aceeași instanță. Instanța poate dispune o expertiză medico-legală, ale cărei costuri se avansează din bugetul Ministerului Justiției.
+
+(2) Instanța dispune, după caz, adaptarea activității, suspendarea executării pe durata incapacității temporare sau încetarea executării orelor rămase, dacă incapacitatea permanentă împiedică orice activitate compatibilă cu prezenta ordonanță. Suspendarea executării pentru incapacitate temporară nu suspendă prescripția executării.
+
+(3) Cererea se judecă de urgență, cu citarea persoanei și a primarului. Instanța poate suspenda provizoriu executarea până la soluționare. Hotărârea este supusă numai apelului, în termen de 10 zile de la comunicare. Apelul se judecă de tribunal, de urgență. Dispozițiile privind suspendarea se execută de îndată; dispoziția de încetare produce efecte la rămânerea definitivă.
+
+(4) Măsurile administrative de reprogramare sau de adaptare a condițiilor executării, precum și refuzul nejustificat de a le lua pot fi contestate potrivit art. 23 și 24. Plângerea nu suspendă de drept executarea; instanța poate dispune suspendarea până la soluționarea sa.
+
+Art. 21⁴. – (1) După împlînirea termenului de prescripție prevăzut la art. 21¹ alin. (1), persoana poate solicita în scris primarului executarea voluntară a orelor rămase, exclusiv pentru a beneficia de art. 287 alin. (7) din Codul penal. Primarul organizează începerea activității în cel mult 10 zile de la cerere și comunică programul persoanei și organului judiciar sesizat, dacă acesta este cunoscut.
+
+(2) Executarea voluntară se realizează cu respectarea acelorași limite de durată zilnică, condiții de sănătate, securitate și evidență ca executarea sancțiunii și nu poate depăși numărul orelor rămase. Orele deja executate se deduc integral. La finalizare, primarul eliberează persoanei și transmite organului judiciar sesizat un certificat privind executarea integrală, în termen de 5 zile.
+
+(3) Cererea nu reactivează caracterul executoriu al sancțiunii prescrise, nu întrerupe prescripția și poate fi retrasă. Refuzul ori întreruperea activității voluntare nu constituie o nouă faptă prevăzută la art. 287 alin. (1) lit. i) din Codul penal. Dispozițiile art. 21¹ alin. (2) rămân aplicabile.
+
+(4) Neorganizarea activității în termenul prevăzut la alin. (1), refuzul de a primi cererea sau de a elibera certificatul se contestă la judecătoria în a cărei circumscripție urma să se execute sancțiunea. Instanța soluționează cererea de urgență, cu citarea persoanei și a primarului, și poate obliga autoritatea să își îndeplinească atribuțiile. Hotărârea este executorie și este supusă numai apelului în termen de 10 zile de la comunicare. Apelul se judecă de tribunal, de urgență.”
+
+## 3. Articolul 22 se abrogă.
+
+Art. III. – (1) Dispozițiile art. 287 alin. (1) lit. i) și alin. (4)–(8) din Codul penal se aplică numai refuzurilor săvârșite după intrarea în vigoare a prezentei legi, în urma unei avertizări comunicate după această dată.
+
+(2) Pentru hotărârile definitive pronunțate anterior intrării în vigoare, procedura poate fi inițiată numai dacă sancțiunea este încă executorie. Nu se reactivează sancțiunile prescrise și nu se iau în calcul, pentru caracterul repetat, refuzuri sau avertizări anterioare intrării în vigoare.
+
+(3) Cererile de înlocuire a sancțiunii prestării unei activități în folosul comunității cu amenda, întemeiate pe art. 21 din Ordonanța Guvernului nr. 55/2002 în forma anterioară prezentei legi și aflate în curs de soluționare la intrarea acesteia în vigoare, se soluționează potrivit legii anterioare. Pe durata soluționării lor nu se inițiază procedura de avertizare pentru aceeași sancțiune. Hotărârile definitive de înlocuire cu amenda își păstrează efectele.
+
+Art. IV. – Prezenta lege intră în vigoare la 90 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE
+
+SENATULUI

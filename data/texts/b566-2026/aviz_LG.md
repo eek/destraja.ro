@@ -2,7 +2,9 @@
 
 referitor la propunerea legislativă pentru completarea Ordonanței de urgență a Guvernului nr. 41/2016 privind stabilirea unor măsuri de simplificare la nivelul administrației publice centrale, administrației publice locale și al instituțiilor publice și pentru modificarea și completarea unor acte normative, precum și a Legii nr. 207/2015 privind Codul de procedură fiscală
 
-Analizând propunerea· legislativă pentru completarea Ordonanței de urgență a Guvernului nr. 41/2016 privind stabilirea unor măsuri de simplificare la nivelul administrației publice centrale, administrației publice locale și al instituțiilor publice și pentru modificarea și completarea unor acte normative, precum și a Legii nr. 207/2015 privind Codul de procedură fiscală (b566/14.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/4999/19.10.2026 și înregistrată la Consiliul Legislativ cu nr. D878/20.10.2026,
+Biroul permanent al Senatului 23.11.2026.
+
+Analizând propunerea legislativă pentru completarea -Ordonanței de urgență a Guvernului nr. 41/2016 privind stabilirea unor măsuri de simplificare la nivelul administrației publice centrale, administrației publice locale și al instituțiilor publice și pentru modificarea și completarea unor acte normative, precum și a Legii nr. 207/2015 privind Codul de procedură fiscală (b566/14.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/4999/19.10.2026 și înregistrată la Consiliul Legislativ cu nr. D878/20.10.2026,
 
 ## CONSILIUL LEGISLATIV
 
@@ -88,6 +90,6 @@ Totodată, în considerarea art. 36 alin. (1) din Legea nr. 24/2000 privind norm
 
 11\. În cadrul formulei de atestare a legalității adoptării legii, pentru rigoare în redactarea actelor normative, sintagma „prevederilor art. 75 și 76 alin. (2)” se va reda sub forma „prevederilor art. 75 și ale art. 76 alin. (2)”.
 
-PRESEINTE \*
+PRESEDINTE
 
 Florin LORDACHE

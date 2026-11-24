@@ -1,7 +1,12 @@
 {
   "slug": "plx-20-2026",
   "billId": "PL-x 20/2026",
-  "updatedAt": "2026-10-29T12:25:44.366Z",
+  "updatedAt": "2026-11-24T10:02:54.937Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -16,7 +21,9 @@
         "agy": 1,
         "claude": 2,
         "codex": 2
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "senat",
@@ -31,7 +38,26 @@
         "agy": 1,
         "claude": 2,
         "codex": 2
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl020_cd020_26.docx.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Statul plătește cotizația anuală a DNSC la două rețele internaționale de securitate cibernetică (aprox. 20.000 lei/an)",
+      "summaryTlDr": "Lege tehnică, ieftină și utilă: menține România în rețelele FIRST și Trusted Introducer, prin care echipele de răspuns la incidente cibernetice fac schimb de informații. Singura problemă reală este Art. 2, care permite Guvernului să modifice prin hotărâre cotizațiile, fără o limită clară și pentru orice organism neguvernamental, nu doar pentru cele două.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
     }
   ],
   "changes": [
@@ -97,6 +123,74 @@
       "model": "claude",
       "schema": 3,
       "updatedAt": "2026-10-29T12:24:50.010Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a păstrat textul Senatului: cotizațiile DNSC la FIRST și TI rămân neschimbate",
+      "summary": "Între forma Senatului și cea a Camerei s-au schimbat doar antetul, data adoptării și câteva litere sau cuvinte scrise altfel. Sumele, sursa banilor și puterea Guvernului de a actualiza cotizațiile au rămas la fel.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Guvernul poate modifica prin HG cotizațiile, fără plafon și fără decizia organismului",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Delegarea acoperă orice organism neguvernamental la care DNSC este parte, inclusiv viitoare",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Legea nr. 146/2014 nu e abrogată, deci aceleași plăți au două baze legale",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Nu se precizează ce curs de schimb se aplică, de exemplu cursul BNR",
+            "major": false,
+            "article": "art. 1 alin. (3)"
+          },
+          {
+            "text": "TVA-ul se adaugă peste plafonul TI, deci totalul depinde de cota altui stat",
+            "major": false,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Textul conține greșeli de scriere: „let”, „sumet”, „dolarv”, „efectuăru plăți”",
+            "major": false,
+            "article": "art. 1"
+          }
+        ],
+        "good": [
+          {
+            "text": "Cotizațiile au plafoane clare: 2.800 USD/an pentru FIRST și 1.200 EUR/an pentru TI",
+            "major": true,
+            "article": "art. 1 alin. (1)-(2)"
+          },
+          {
+            "text": "Sursa finanțării e numită: bugetul de stat, prin bugetul SGG",
+            "major": true,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Cheltuiala nu e nouă, ci confirmă plăți deja făcute, pentru siguranță juridică",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 6,
+        "same": 0.25
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-24T10:02:54.937Z"
     }
   ]
 }

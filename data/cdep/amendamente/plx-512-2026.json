@@ -1,26 +1,48 @@
 {
  "slug": "plx-512-2026",
  "billId": "PL-x 512/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-11-16T08:23:54.567Z",
- "inputHash": "e221c97e8f0d",
+ "updatedAt": "2026-11-24T10:47:45.534Z",
+ "inputHash": "da8f372edca7",
  "reports": [
   "https://www.cdep.ro/comisii/sanatate/pdf/2026/rp512.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp512.pdf",
+   "sha256": "568424f1f6d6978b",
+   "parts": 1,
+   "rows": 2,
+   "unchanged": 1,
+   "admise": 1,
+   "respinse": 0,
+   "truncated": false
+  }
+ ],
+ "completeness": "complete",
+ "problems": [],
  "counts": {
   "admise": 1,
-  "respinse": 0
+  "respinse": 0,
+  "anuntate": 2,
+  "nemodificate": 1
  },
  "amendments": [
   {
    "nr": "2",
-   "article": "art. 2²",
+   "report": "rp512.pdf",
+   "article": "Articol unic (art. 2²)",
    "status": "admis",
    "authors": [],
    "byCommittee": "membrii comisiei",
-   "summary": "Clarifică faptul că pacienții asigurați în sistemul de asigurări sociale de sănătate au dreptul la scutece pentru adulți compensate 80% dintr-un preț de referință.",
+   "byGroup": null,
+   "summary": "Precizează că pacienții asigurați în sistemul de asigurări sociale de sănătate au dreptul la scutece pentru adulți, compensate 80% dintr-un preț de referință.",
    "quote": "Pacienții asigurați în cadrul sistemului de asigurări sociale de sănătate au dreptul la scutece pentru adulți, compensate în proporție de 80% dintr-un preț de referință",
+   "inForce": null,
+   "before": "Articol unic. – După articolul 2 1 din Legea drepturilor pacientului nr.46/2003, publicată în Monitorul Oficial al României, Partea I, nr.51 din 29 ianuarie 2003, cu modificările și completările ulterioare, se introduce un nou articol, art.2 2 , cu următorul cuprins:\n\n”Art.2 2 . – Pacienții asigurați în sistemul Casei Naționale de Asigurări de Sănătate au dreptul să beneficieze de scutece pentru adulți, compensate în proporție de 80% din prețul de referință, în baza prescripției medicului specialist, indiferent de caracterul temporar sau permanent al afecțiunii.”",
+   "after": "Articol unic. – După articolul 2 1 din Legea drepturilor pacientului nr.46/2003, publicată în Monitorul Oficial al României, Partea I, nr.51 din 29 ianuarie 2003, cu modificările și completările ulterioare, se introduce un nou articol, art.2 2 , cu următorul cuprins:\n\n”Art.2 2 . – Pacienții asigurați în cadrul sistemului de asigurări sociale de sănătate au dreptul la scutece pentru adulți, compensate în proporție de 80% dintr-un preț de referință, în baza prescripției medicului specialist, indiferent de caracterul temporar sau permanent al afecțiunii.”",
+   "motivation": "Pentru claritatea și corectitudinea normei.",
    "effects": [
     "neutru"
    ]
@@ -29,12 +51,14 @@
  "matches": [
   {
    "change": "1:0",
+   "report": "rp512.pdf",
    "amendments": [
     "2"
    ]
   },
   {
    "change": "1:1",
+   "report": "rp512.pdf",
    "amendments": [
     "2"
    ]

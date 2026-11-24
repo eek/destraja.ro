@@ -1,4 +1,8 @@
-# Parlamentul României Senat
+Parlamentul României
+
+Biroul permanent al Senatului
+
+653.123.11.2026
 
 Către Biroul permanent al Senatului,
 
@@ -6,4 +10,4 @@ Către Biroul permanent al Senatului,
 
 În numele inițiatorilor,
 
-SENATOR PNL Cătălin- Daniel FENECHIU
+SENATOR PNL Cățălin- Daniel FENECHIU

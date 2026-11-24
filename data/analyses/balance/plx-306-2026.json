@@ -2,194 +2,155 @@
   "slug": "plx-306-2026",
   "billId": "PL-x 306/2026",
   "schema": 1,
-  "model": "claude",
-  "updatedAt": "2026-11-02T19:48:37.460Z",
-  "inputHash": "e5d135021543",
-  "riskScore": 3.3,
-  "summary": "O lege în general bună, cu sprijin real pentru tineri, victime ale violenței și șomeri. Câteva prevederi sunt prea dure sau neclare: restituirea integrală a primei NEET, interdicția de 24 de luni după demisie și termenul pentru datoriile ve",
+  "model": "agy",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-24T11:16:47.724Z",
+  "inputHash": "e3d8a28964af",
+  "riskScore": 4.7,
+  "summary": "O reformă cu multe măsuri utile de ocupare și incluziune, dar stricată de sancțiuni dure și contradictorii la demisie, discriminare de gen și tăieri discrete pentru lucrătorii maturi.",
   "good": [
     {
-      "text": "Tinerii NEET angajați prima dată pe normă întreagă și pe perioadă nedeterminată primesc o primă neimpozabilă de 1.000–1.250 lei pe lună, timp de 24 de luni.",
+      "text": "Tinerii NEET la prima angajare în privat pe durată nedeterminată primesc o primă neimpozabilă de 1.000 lei/lună în primul an și 1.250 lei/lună în al doilea (până la 27.000 lei).",
       "article": "art. I pct. 15 (art. 76⁵ alin. (1))",
       "quote": "beneficiază, din bugetul asigurărilor pentru șomaj, de o primă de stabilitate, neimpozabilă, pentru care nu se datorează contribuții sociale obligatorii",
       "weight": 3
     },
     {
-      "text": "Tinerii sub 30 de ani (nu doar cei sub 25) devin șomeri de lungă durată după 6 luni, deci primesc mai repede sprijin. Pragul e aliniat cu definiția NEET.",
+      "text": "Întreprinderile sociale de inserție care angajează persoane din grupuri vulnerabile cu contract de solidaritate primesc lunar de patru ori indicatorul social de referință.",
+      "article": "art. I pct. 2 și pct. 23 (art. 93⁴ alin. (1))",
+      "quote": "beneficiază lunar, conform prevederilor legale, pentru fiecare persoană din această categorie, din bugetul asigurărilor pentru șomaj, de o sumă egală cu de patru ori valoarea indicatorului social de referință",
+      "weight": 3
+    },
+    {
+      "text": "Victimele violenței domestice rămân eligibile pentru sprijin și 12 luni după expirarea ordinului de protecție, iar angajatorii păstrează subvenția de 2.250 lei/lună și după încetarea ordinului.",
+      "article": "art. I pct. 3 (art. 16 lit. g) și pct. 17 (art. 85 alin. (3))",
+      "quote": "victime ale violenței domestice aflate în perioada valabilității măsurilor dispuse prin ordin de protecție emis potrivit Legii nr. 217/2003, republicată, cu modificările și completările ulterioare, precum și pe o perioadă de 12 luni de la data expirării acestora",
+      "weight": 3
+    },
+    {
+      "text": "Angajatorii care încadrează șomeri care au executat pedepse privative de libertate sau măsuri neprivative primesc 2.250 lei/lună timp de 12 luni, facilitând reintegrarea socială.",
+      "article": "art. I pct. 17 (art. 85 alin. (1))",
+      "quote": "persoane care au calitatea de șomeri și care au executat o pedeapsă privativă de libertate sau care au fost condamnate la executarea unei pedepse, a unei măsuri educative sau a altor măsuri neprivative de libertate",
+      "weight": 2
+    },
+    {
+      "text": "Beneficiarii care restituie în 180 de zile indemnizațiile de șomaj acordate necuvenit nu mai plătesc dobânzi și penalități, facilitate aplicată și debitelor nerecuperate anterior.",
+      "article": "art. I pct. 6 (art. 47 alin. (4)) și art. II",
+      "quote": "reprezentând indemnizație de șomaj acordată în mod necuvenit se recuperează fără perceperea de obligații fiscale accesorii, dacă acestea sunt restituite de beneficiari în termen de maximum 180 de zile",
+      "weight": 2
+    },
+    {
+      "text": "Pragul de vârstă pentru a deveni șomer de lungă durată după doar 6 luni urcă de la 25 la 30 de ani, deschizând mai repede accesul la sprijin pentru tinerii de 25–30 de ani.",
       "article": "art. I pct. 1 (art. 5 pct. IV²)",
       "quote": "pe o perioadă de 6 luni, în cazul persoanelor cu vârsta cuprinsă între 16 ani și până la împlinirea vârstei de 30 de ani",
-      "weight": 3
-    },
-    {
-      "text": "Victimele violenței domestice rămân în categoria protejată încă 12 luni după expirarea ordinului de protecție. Se închide o lacună reală.",
-      "article": "art. I pct. 3 (art. 16 lit. g))",
-      "quote": "aflate în perioada valabilității măsurilor dispuse prin ordin de protecție emis potrivit Legii nr. 217/2003, republicată, cu modificările și completările ulterioare, precum și pe o perioadă de 12 luni de la data expirării acestora",
-      "weight": 3
-    },
-    {
-      "text": "Angajatorii primesc 2.250 lei pe lună, timp de 12 luni, și pentru angajarea tinerilor NEET.",
-      "article": "art. I pct. 17 (art. 85 alin. (1))",
-      "quote": "șomeri de lungă durată, tineri NEET, persoane aflate în una dintre situațiile prevăzute la art. 16 lit. g)",
       "weight": 2
     },
     {
-      "text": "Cine trebuie să returneze indemnizația încasată necuvenit nu plătește dobânzi și penalități dacă achită în 180 de zile de la comunicarea deciziei.",
-      "article": "art. I pct. 6 (art. 47 alin. (4))",
-      "quote": "se recuperează fără perceperea de obligații fiscale accesorii, dacă acestea sunt restituite de beneficiari în termen de maximum 180 de zile de la comunicarea deciziilor",
+      "text": "Serviciile și măsurile de ocupare vor putea fi accesate și online, prin platforme informatice finanțate din fonduri europene, operaționale până la 31 decembrie 2026.",
+      "article": "art. I pct. 8 (art. 54 alin. (2))",
+      "quote": "se poate realiza și online, prin intermediul platformelor și sistemelor informatice dedicate, dezvoltate de Agenția Națională pentru Ocuparea Forței de Muncă prin proiecte finanțate din fonduri externe nerambursabile",
       "weight": 2
     },
     {
-      "text": "Înlesnirea de 180 de zile fără accesorii se aplică și datoriilor vechi, nerecuperate încă.",
-      "article": "art. II alin. (1)",
-      "quote": "nerecuperate până la data intrării în vigoare a prezentei legi, se recuperează în condițiile art. 47 alin. (4) și (5)",
+      "text": "Debitele recuperate silit de ANAF în numele ANOFM se virează integral în bugetul asigurărilor pentru șomaj, păstrând banii pentru măsuri de ocupare.",
+      "article": "art. I pct. 5 (art. 24 alin. (1²))",
+      "quote": "care nu au organe de executare silită proprii, se fac venit la bugetul asigurărilor pentru șomaj și se virează integral în conturile acestor instituții publice",
       "weight": 2
     },
     {
-      "text": "Șomerii fără indemnizație nu mai trebuie să-și reînnoiască cererea la fiecare 6 luni ca să rămână în evidență. Birocrația scade.",
+      "text": "Angajatorii care au semnat convenții înainte de intrarea în vigoare a ordonanței își păstrează condițiile vechi, asigurând predictibilitate juridică.",
+      "article": "art. III alin. (1)-(2)",
+      "quote": "beneficiază de aceste măsuri de stimulare, în condițiile prevăzute de dispozițiile acestei legi în forma anterioară intrării în vigoare a modificărilor aduse prin prezenta ordonanță de urgență",
+      "weight": 1
+    },
+    {
+      "text": "Întreprinderile sociale de inserție care au marca socială suspendată sau retrasă nu pot primi subvenții de la stat, reducând riscul de fraudă.",
+      "article": "art. I pct. 25 (art. 93⁴ alin. (3) lit. d))",
+      "quote": "întreprinderile sociale de inserție care, la data solicitării acordării sumei, au marca socială suspendată sau retrasă conform prevederilor art. 16 - 18",
+      "weight": 1
+    },
+    {
+      "text": "Șomerii fără indemnizație nu mai sunt obligați prin lege să își reînnoiască cererea la fiecare 6 luni pentru a rămâne în evidență la mediere.",
       "article": "art. I pct. 9 (art. 61 alin. (2))",
       "quote": "Șomerii care nu beneficiază de indemnizații de șomaj trebuie să depună o cerere la agențiile pentru ocuparea forței de muncă pentru a fi luați în evidență în vederea medierii.",
-      "weight": 2
-    },
-    {
-      "text": "Persoanele din grupuri vulnerabile (definite ca în Legea economiei sociale) primesc gratuit acompaniament social personalizat, ca tinerii marginalizați.",
-      "article": "art. I pct. 2, 21 (art. 5 pct. IV⁵, art. 93² alin. (1))",
-      "quote": "constituie un ansamblu de servicii care se acordă în mod gratuit tinerilor cu risc de marginalizare socială și persoanelor care fac parte dintr-un grup vulnerabil",
-      "weight": 2
-    },
-    {
-      "text": "Serviciile și drepturile oferite de agențiile de ocupare vor putea fi obținute și online, prin platforme dedicate.",
-      "article": "art. I pct. 8 (art. 54 alin. (2))",
-      "quote": "se poate realiza și online, prin intermediul platformelor și sistemelor informatice dedicate, dezvoltate de Agenția Națională pentru Ocuparea Forței de Muncă",
-      "weight": 2
-    },
-    {
-      "text": "Angajatorii cu convenții deja semnate le derulează după regulile vechi. Previzibilitatea juridică e protejată.",
-      "article": "art. III alin. (1)",
-      "quote": "beneficiază de aceste măsuri de stimulare, în condițiile prevăzute de dispozițiile acestei legi în forma anterioară intrării în vigoare a modificărilor aduse prin prezenta ordonanță de urgență",
-      "weight": 2
-    },
-    {
-      "text": "Întreprinderile sociale cu marca socială suspendată sau retrasă nu mai primesc bani publici. Riscul de abuz scade.",
-      "article": "art. I pct. 25 (art. 93⁴ alin. (3) lit. d))",
-      "quote": "întreprinderile sociale de inserție care, la data solicitării acordării sumei, au marca socială suspendată sau retrasă",
-      "weight": 2
-    },
-    {
-      "text": "Banii recuperați de ANAF pentru agenția de ocupare revin integral bugetului de șomaj, nu se pierd în alte bugete.",
-      "article": "art. I pct. 5 (art. 24 alin. (1²))",
-      "quote": "se fac venit la bugetul asigurărilor pentru șomaj și se virează integral în conturile acestor instituții publice",
-      "weight": 2
-    },
-    {
-      "text": "Prima de încadrare sau de instalare nu se mai dă nici când familia, nu doar persoana, are deja locuință în localitate. Banii publici sunt protejați.",
-      "article": "art. I pct. 11 (art. 75¹ alin. (4) lit. h) și i))",
-      "quote": "persoanele care constituie o familie în sensul art. 6 alin. (1) lit. b) din Legea nr. 196/2016, cu modificările și completările ulterioare, și dețin în proprietate sau coproprietate o locuință",
       "weight": 1
     },
     {
-      "text": "Angajatorul nu pierde subvenția dacă ordinul de protecție al victimei angajate încetează. Asta încurajează angajarea victimelor.",
-      "article": "art. I pct. 17 (art. 85 alin. (3))",
-      "quote": "în cazul persoanelor prevăzute la art. 16 lit. g) pentru care au fost dispuse măsuri de protecție prin ordin de protecție, iar aceste măsuri încetează",
-      "weight": 1
-    },
-    {
-      "text": "Tânărul NEET păstrează prima dacă își schimbă locul de muncă și se reangajează în 60 de zile.",
-      "article": "art. I pct. 15 (art. 76⁵ alin. (4))",
-      "quote": "își mențin dreptul la această primă în situația în care, în perioada de 24 de luni de la data încadrării în muncă, le încetează raportul de muncă la primul angajator",
-      "weight": 1
-    },
-    {
-      "text": "Prima NEET nu se acordă pentru angajări la stat sau la firme de stat. Statul nu se mai subvenționează singur.",
-      "article": "art. I pct. 15 (art. 76⁵ alin. (2))",
-      "quote": "Nu beneficiază de prima de stabilitate tinerii NEET care se încadrează în muncă la următoarele categorii de entități",
-      "weight": 1
-    },
-    {
-      "text": "Banii europeni pentru ocupare se adaugă la fondurile naționale, nu le înlocuiesc, conform regulilor UE.",
+      "text": "Reglementează finanțarea combinată din fonduri europene și bugetul de șomaj cu respectarea principiului adiționalității, prevenind pierderea fondurilor UE.",
       "article": "art. I pct. 18 (art. 85²)",
-      "quote": "se finanțează cu respectarea principiului adiționalității prevăzut în cadrul politicii de coeziune a Uniunii Europene",
+      "quote": "se finanțează cu respectarea principiului adiționalității prevăzut în cadrul politicii de coeziune a Uniunii Europene, în conformitate cu regulamentele europene aplicabile perioadei de programare în vigoare",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Tânărul NEET returnează toată prima, chiar după 23 de luni, dacă pleacă prin demisie sau prin acordul părților. Acordul poate fi impus de angajator.",
-      "article": "art. I pct. 15 (art. 76⁵ alin. (5))",
-      "quote": "au obligația de a restitui integral sumele primite cu titlu de primă de stabilitate, în situația în care raporturile de muncă încetează, într-o perioadă mai mică de 24 de luni",
+      "text": "Alin. (4) promite păstrarea primei la schimbarea angajatorului în 60 de zile, dar alin. (5) cere restituirea integrală la demisie sau acordul părților, fără excepție pentru reangajare.",
+      "article": "art. I pct. 15 (art. 76⁵ alin. (4)-(5))",
+      "quote": "Tinerii NEET au obligația de a restitui integral sumele primite cu titlu de primă de stabilitate, în situația în care raporturile de muncă încetează, într-o perioadă mai mică de 24 de luni",
       "weight": 3
     },
     {
-      "text": "La datoriile vechi, cele 180 de zile curg de la intrarea în vigoare a OUG, nu de la o notificare. Cine nu a aflat pierde scutirea și plătește accesorii retroactiv.",
-      "article": "art. II alin. (2)",
-      "quote": "termenul de 180 de zile prevăzut la art. 47 alin. (4) se calculează de la data intrării în vigoare a prezentei ordonanțe de urgență",
+      "text": "Tânărul care demisionează chiar în luna 23 trebuie să dea înapoi toți banii primiți, prin executare silită, fără reducere proporțională și fără excepție dacă pleacă din cauza abuzurilor firmei.",
+      "article": "art. I pct. 15 (art. 76⁵ alin. (5)-(6))",
+      "quote": "într-o perioadă mai mică de 24 de luni de la data încadrării în muncă, în temeiul următoarelor prevederi: art. 55 lit. b), art. 61 lit. a) și art. 81 din Legea nr. 53/2003",
+      "weight": 3
+    },
+    {
+      "text": "Cine demisionează dintr-un job subvenționat nu mai poate accesa astfel de măsuri 24 de luni; excepția pentru abuzul angajatorului cere o hotărâre definitivă, greu de obținut în timp util.",
+      "article": "art. I pct. 30 (art. 95 alin. (1¹a)-(1¹b))",
+      "quote": "demisia a fost determinată de încălcări grave ale drepturilor salariatului de către angajator, constatate prin hotărâre judecătorească definitivă sau prin acte ale organelor abilitate, rămase definitive potrivit legii.",
+      "weight": 3
+    },
+    {
+      "text": "Noua subvenție de 2.250 lei/lună pentru părinții șomeri cu cel puțin 3 copii minori se acordă exclusiv mamelor, excluzând nejustificat tații aflați în aceeași situație.",
+      "article": "art. I pct. 17 (art. 85 alin. (1))",
+      "quote": "mame care au calitatea de șomeri cu cel puțin 3 copii în întreținere, cu vârste de până la 18 ani",
+      "weight": 3
+    },
+    {
+      "text": "Fereastra de subvenționare a angajării șomerilor apropiați de pensie scade de la 5 ani la doar 2 ani, lăsând fără sprijin lucrătorii greu angajabili cu 2–5 ani până la pensionare.",
+      "article": "art. I pct. 17 (art. 85 alin. (5))",
+      "quote": "Angajatorii care încadrează în muncă, potrivit legii, șomeri care, în termen de 2 ani de la data angajării, îndeplinesc, conform legii, condițiile pentru a solicita pensia anticipată",
+      "weight": 3
+    },
+    {
+      "text": "Pragul de vârstă pentru subvenția de 2.250 lei/lună urcă de la 45 la peste 50 de ani, astfel că angajatorii nu mai primesc sprijin pentru încadrarea șomerilor între 45 și 50 de ani.",
+      "article": "art. I pct. 17 (art. 85 alin. (1))",
+      "quote": "Angajatorii care încadrează în muncă, pe perioadă nedeterminată, șomeri în vârstă de peste 50 de ani",
       "weight": 2
     },
     {
-      "text": "Cine demisionează dintr-un job subvenționat e exclus 24 de luni de la astfel de măsuri. Excepția cere o hotărâre definitivă, care durează mult.",
-      "article": "art. I pct. 30 (art. 95 alin. (11a)–(11b))",
-      "quote": "pot fi încadrate din nou prin astfel de măsuri numai după expirarea unui termen de minimum 24 luni de la data reînregistrării",
-      "weight": 2
-    },
-    {
-      "text": "Dacă se depășește termenul de 180 de zile, se plătesc accesorii și pentru acele zile, deci apare un efect de prag. Textul nu ține cont dacă plata greșită a fost din vina agenției.",
-      "article": "art. I pct. 6 (art. 47 alin. (5))",
-      "quote": "obligațiile fiscale accesorii calculându-se inclusiv pentru perioada de 180 de zile de la data comunicării deciziilor",
-      "weight": 2
-    },
-    {
-      "text": "Plafonul asigurării facultative scade la 5 salarii minime, deci scad contribuția și indemnizația posibile. Textul conține și eroarea „echivalentul a de 5 ori”.",
+      "text": "Plafonul venitului asigurat facultativ scade de la 5 salarii medii brute la 5 salarii minime brute, reducând puternic protecția maximă la șomaj pentru persoanele asigurate voluntar.",
       "article": "art. I pct. 4 (art. 22 alin. (2))",
-      "quote": "și mai mare decât echivalentul a de 5 ori salariul de bază minim brut pe țară garantat în plată",
+      "quote": "și mai mare decât echivalentul a de 5 ori salariul de bază minim brut pe țară garantat în plată, în vigoare în luna pentru care se plătește contribuția",
       "weight": 2
     },
     {
-      "text": "Prima NEET se recuperează „conform art. 47”, dar nu e clar dacă se aplică și scutirea de 180 de zile, gândită doar pentru indemnizația de șomaj.",
-      "article": "art. I pct. 15 (art. 76⁵ alin. (6))",
-      "quote": "recuperarea sumelor acordate cu titlu de primă de stabilitate se va face conform art. 47, pe baza deciziilor emise de agențiile pentru ocuparea forței de muncă",
+      "text": "Pauza de maximum 60 de zile între angajatori nu intră în perioada de acordare, dar legea nu clarifică dacă cele 24 de luni se prelungesc corespunzător sau se pierd bani.",
+      "article": "art. I pct. 15 (art. 76⁵ alin. (4))",
+      "quote": "Perioada de maximum 60 de zile în care tinerii NEET nu au statut de angajat nu face parte din perioada de acordare a primei de stabilitate.",
       "weight": 1
     },
     {
-      "text": "Urgența OUG e justificată generic. Unele măsuri, cum ar fi plafonul sau interdicția după demisie, nu par urgente, deci ar putea fi contestate în baza art. 115 alin. (4) din Constituție.",
-      "article": "preambulul OUG",
-      "quote": "procedura legislativă parlamentară ordinară, prin durata și etapele sale, nu permite adoptarea în timp util a măsurilor necesare",
-      "weight": 1
-    },
-    {
-      "text": "Serviciile online sunt doar opționale, iar termenul de 31.12.2026 nu are nicio consecință dacă nu e respectat.",
-      "article": "art. I pct. 8 (art. 54 alin. (2))",
-      "quote": "dezvoltate de Agenția Națională pentru Ocuparea Forței de Muncă prin proiecte finanțate din fonduri externe nerambursabile, care devin operabile până la",
-      "weight": 1
-    },
-    {
-      "text": "Definiția e inconsecventă: „mai mare de 12 luni” față de „6 luni” și „peste 30 de ani”. Lasă neclar unde se încadrează cine are exact 30 de ani sau exact 6 luni.",
-      "article": "art. I pct. 1 (art. 5 pct. IV²)",
-      "quote": "persoana care este șomer pe o perioadă mai mare de 12 luni, în cazul persoanelor cu vârsta de peste 30 de ani",
-      "weight": 1
-    },
-    {
-      "text": "„Prima dată în muncă” nu e definită. Nu e clar dacă un job scurt anterior îl exclude pe tânăr de la primă.",
-      "article": "art. I pct. 15 (art. 76⁵ alin. (1))",
-      "quote": "care se încadrează pentru prima dată în muncă, cu normă întreagă și pe durată nedeterminată, potrivit legii",
-      "weight": 1
-    },
-    {
-      "text": "Sunt erori de redactare: se anunță lit. b) dar se scrie lit. c), art. II spune o dată „legi” și o dată „ordonanțe”, apar „accompanyingul” și „territoriale”.",
-      "article": "art. I pct. 16 (art. 83 alin. (2)); art. II; art. 93⁷",
-      "quote": "La articolul 83, litera b) a alineatului (2) se modifică și va avea următorul cuprins",
+      "text": "Textul dispune modificarea literei b) din art. 83 alin. (2), dar redactează noul conținut ca litera c), creând o eroare de tehnică legislativă necorectată de legea de aprobare.",
+      "article": "art. I pct. 16 (art. 83 alin. (2))",
+      "quote": null,
       "weight": 1
     }
   ],
   "fix": {
-    "text": "Restituirea primei NEET să fie proporțională cu luna plecării și să nu se aplice la încetarea prin acordul părților. Excepția de la interdicția de 24 de luni să accepte și sesizări în curs la inspecția muncii.",
+    "text": "Corectarea contradicției și a restituirii integrale din art. 76⁵ alin. (4)-(5), relaxarea sancțiunii la demisie din art. 95 și înlocuirea termenului «mame» cu «părinți» la art. 85 alin. (1) ar elimina principalele capcane juridice și discriminarea.",
     "removes": [
       0,
-      2
+      1,
+      2,
+      3
     ],
-    "levelAfter": "green",
-    "scoreAfter": 2
+    "levelAfter": "yellow",
+    "scoreAfter": 3
   },
   "quotes": {
-    "checked": 28,
-    "verified": 28
+    "checked": 20,
+    "verified": 20
   }
 }

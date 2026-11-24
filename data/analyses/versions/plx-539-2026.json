@@ -1,8 +1,30 @@
 {
   "slug": "plx-539-2026",
   "billId": "PL-x 539/2026",
-  "updatedAt": "2026-10-30T09:45:57.157Z",
+  "updatedAt": "2026-11-24T10:14:21.018Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L472FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Cum se închide PNRR: cine plătește ce nu s-a terminat, până când și cine raportează",
+      "summaryTlDr": "PNRR avea nevoie de o lege de închidere, iar aceasta este în mare parte tehnică. Are însă trei probleme reale: termene care s-au împlinit odată cu intrarea în vigoare, costuri bugetare declarate «zero» (inclusiv sporuri salariale până în 2031) și obligația ca beneficiarii, IMM-urile și primăriile să termine pe banii lor până la 31.12.2026, sub sancțiunea recuperării.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -16,7 +38,9 @@
         "agy": 6,
         "claude": 4,
         "codex": 5
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "camera",
@@ -31,137 +55,370 @@
         "agy": 6,
         "claude": 4,
         "codex": 4
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     }
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
-      "direction": "la_fel",
-      "headline": "Camera a păstrat textul Senatului; în diferențele disponibile apar doar corecturi de redactare",
-      "summary": "În diferențele disponibile, Camera a schimbat doar forma: antetul, spațierea, diacriticele, câteva greșeli de scriere și titlul complet al OUG 41/2025. Fondul a rămas același. Lista de diferențe e trunchiată de la art. 13 încolo, așa că restul textului nu a putut fi comparat.",
-      "changes": [],
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Senatul protejează beneficiarii: plăți nerecuperabile la denunțare și preluare la AFM pentru apă și deșeuri",
+      "summary": "Acum beneficiarii ale căror contracte sunt denunțate nu mai returnează banii primiți, iar proiectele de apă și deșeuri pot fi finanțate de AFM. Costul trece la buget, nu e estimat, iar denunțarea unilaterală și înlocuirea proiectelor prin ordin aduc riscuri noi.",
+      "changes": [
+        {
+          "title": "Plățile din contractele Fondul Local denunțate nu se recuperează",
+          "text": "Art. 11 este nou: contractele din Fondul Local cu mai multe obiective pot fi denunțate parțial. Sumele plătite pentru partea denunțată nu se mai cer înapoi de la beneficiari.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 11",
+          "before": null,
+          "after": "Plățile efectuate pentru partea denunțată rămân cheltuieli definitive ale bugetelor din care au fost efectuate și nu se recuperează de la beneficiari.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Proiectele de apă și deșeuri pot primi bani de la AFM",
+          "text": "Art. 14 este nou: contractele din C1 și C3, Investițiile 1 și 2, care nu se vor finaliza pot fi preluate de Administrația Fondului pentru Mediu, în limita bugetului acesteia.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 14",
+          "before": null,
+          "after": "Contractele de finanțare încheiate prin PNRR în cadrul Componentei 1 – Managementul Apei, Investițiile 1 și 2, precum și în cadrul Componentei 3 – Managementul Deșeurilor – Investițiile 1 și 2 care nu se vor finaliza, pot fi finanțate din bugetul Administrației Fondului pentru Mediu",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Școlile cu contracte denunțate prin OUG 72/2025 sunt plătite",
+          "text": "La art. 16 a apărut alin. (3): cererile de transfer din contractele de la Educație denunțate în temeiul OUG 72/2025 se plătesc din bani publici naționali.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 16 alin. (3)",
+          "before": null,
+          "after": "Cererile de transfer depuse de beneficiarii contractelor/deciziilor/ordinelor de finanțare prevăzute la alin. (1), denunțate în temeiul art.II din Ordonanța de urgență a Guvernului nr.72/2025, se plătesc de către coordonatorul de reforme și/sau investiții din finanțare publică națională",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Proiectele eliminate pot continua și din alte surse",
+          "text": "La art. 15 alin. (13), plățile pentru proiectele eliminate din PNRR care continuă nu mai trebuie făcute doar din sursele proprii ale beneficiarului. Acum pot veni și din alte surse de finanțare.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 15 alin. (13)",
+          "before": "iar plățile aferente se efectuează din surse proprii ale beneficiarului.",
+          "after": "iar plățile aferente se efectuează din surse proprii ale beneficiarului/alte surse de finanțare.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Contractele Valul Renovării pot fi reziliate unilateral",
+          "text": "Art. 12 este nou și permite denunțarea unilaterală a unor contracte din C5. Nu prevede preaviz, motivare sau reguli pentru lucrările deja executate. Plățile făcute nu se recuperează.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 12",
+          "before": null,
+          "after": "Coordonatorii de reforme și/sau investiții pot denunța unilateral contractele de finanțare încheiate în cadrul PNRR din cadrul Componentei 5 – Valul Renovării",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Înlocuirea proiectelor prin ordin se extinde la apă și deșeuri",
+          "text": "Art. 9 permite acum și în C1 și C3 înlocuirea, prin ordin de ministru, a proiectelor din memorandum cu proiecte deja finalizate. Crește riscul de lipsă de transparență și de dublă finanțare.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 9",
+          "before": "În vederea îndeplinirii țintelor și jaloanelor din cadrul Componentei 5 – Valul Renovării și Componentei 10 – Fondul Local",
+          "after": "În vederea îndeplinirii țintelor și jaloanelor din cadrul Componentei 1 – Managementul Apei, Componentei 3 – Managementul Deșeurilor, Componentei 5 – Valul Renovării, Componentei 10 – Fondul Local",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
       "remaining": {
         "problems": [
           {
-            "text": "Ministerul poate înlocui prin ordin proiectele din memorandum, fără criterii sau publicare",
-            "major": true,
-            "article": "art. 9"
-          },
-          {
-            "text": "Înlocuirea cu proiecte finalizate nu cere verificarea expresă a dublei finanțări",
-            "major": true,
-            "article": "art. 9"
-          },
-          {
-            "text": "Plățile pentru contracte denunțate nu se recuperează, indiferent de vină; costul rămâne la stat",
-            "major": true,
-            "article": "art. 11, art. 12"
-          },
-          {
-            "text": "Denunțare unilaterală fără preaviz, fără motivare și fără reguli pentru lucrările executate",
-            "major": true,
-            "article": "art. 12"
-          },
-          {
-            "text": "Nimic despre lucrările executate dar neplătite constructorilor la contractele denunțate",
-            "major": true,
-            "article": "art. 11, art. 12"
-          },
-          {
-            "text": "Contractele PUG preluate fără selecție pot întârzia UAT-urile aflate deja la rând",
-            "major": true,
-            "article": "art. 10"
-          },
-          {
-            "text": "Transferul investițiilor PNRR–program național se face prin ordin, fără condiții sau plafon",
-            "major": true,
-            "article": "art. 13"
-          },
-          {
-            "text": "Beneficiarii trebuie să termine din bani proprii până la 31.12.2026, altfel restituie",
+            "text": "Finalizare până la 31.12.2026 din surse proprii, altfel recuperare fără analiza culpei",
             "major": true,
             "article": "art. 27"
           },
           {
-            "text": "Termene din 31 august și 15/30 septembrie 2026 deja expirate la adoptare",
-            "major": false,
-            "article": "art. 6, art. 7, art. 8, art. 15"
-          },
-          {
-            "text": "Trimiteri greșite: art. 2 lit. d) la art. 26(2), art. 15(12) la alin. (5)",
-            "major": false,
-            "article": "art. 2, art. 15"
-          },
-          {
-            "text": "Reguli duble și diferite pentru transmiterea analizei minusului de venituri",
-            "major": false,
-            "article": "art. 28"
-          }
-        ],
-        "good": [
-          {
-            "text": "Cheltuielile pentru măsuri eliminate din PNRR nu se recuperează de la beneficiari",
+            "text": "Termene expirate sau aproape expirate la adoptare, fără dispoziție tranzitorie în text",
             "major": true,
-            "article": "art. 15, art. 26"
+            "article": "art. 8"
           },
           {
-            "text": "Cererile de transfer pentru contractele denunțate din educație se plătesc din bani naționali",
-            "major": true,
-            "article": "art. 16"
-          },
-          {
-            "text": "Proiectele de apă și deșeuri nefinalizate pot fi finanțate din bugetul AFM",
-            "major": true,
-            "article": "art. 14"
-          },
-          {
-            "text": "Planurile urbanistice începute pot continua prin programul național, cu aceiași beneficiari",
-            "major": true,
-            "article": "art. 10"
-          },
-          {
-            "text": "Costul unitar la Valul Renovării se verifică cumulat pe contract, nu pe componentă",
-            "major": true,
-            "article": "art. 17"
-          },
-          {
-            "text": "Indicatorii deja îndepliniți și validați nu sunt afectați de denunțarea parțială",
+            "text": "Costul cheltuielilor definitive suportate de bugetul de stat nu este estimat",
             "major": true,
             "article": "art. 11"
           },
           {
-            "text": "Recuperarea la investiții nefinalizate e proporțională cu indicatorii neîndepliniți",
+            "text": "Denunțare unilaterală fără preaviz, motivare sau reguli pentru lucrările executate",
             "major": true,
-            "article": "art. 27"
+            "article": "art. 12"
           },
           {
-            "text": "Contractele de cogenerare pot fi prelungite pentru probe în sezonul de încălzire",
+            "text": "Proiecte înlocuite prin ordin cu unele finalizate: risc de transparență și dublă finanțare",
+            "major": true,
+            "article": "art. 9"
+          },
+          {
+            "text": "Contractele PUG preluate fără selecție, cu prioritate față de localitățile care așteaptă",
+            "major": true,
+            "article": "art. 10"
+          },
+          {
+            "text": "Majorarea salarială menținută până în 2031, fără impact bugetar declarat",
+            "major": true,
+            "article": "art. 43"
+          },
+          {
+            "text": "Sursa de finanțare se schimbă fără act adițional, prin simplă notificare",
             "major": false,
-            "article": "art. 15"
+            "article": "art. 36"
+          },
+          {
+            "text": "Transferul obiectivelor între PNRR și alt program se face prin ordin, fără criterii",
+            "major": false,
+            "article": "art. 13"
+          },
+          {
+            "text": "Nu mai e prevăzută explicit raportarea neregulilor către OLAF și EPPO după 2026",
+            "major": false,
+            "article": "art. 42"
+          }
+        ],
+        "good": [
+          {
+            "text": "Plățile din contractele denunțate nu se recuperează de la beneficiari",
+            "major": true,
+            "article": "art. 11"
+          },
+          {
+            "text": "Proiectele nefinalizate de apă și deșeuri pot fi preluate la finanțare de AFM",
+            "major": true,
+            "article": "art. 14"
+          },
+          {
+            "text": "Cheltuielile pentru măsurile eliminate din PNRR nu se recuperează de la beneficiari",
+            "major": true,
+            "article": "art. 15 alin. (6)"
+          },
+          {
+            "text": "Beneficiarii de la Educație cu contracte denunțate sau eliminate primesc plata din buget",
+            "major": true,
+            "article": "art. 16"
+          },
+          {
+            "text": "Costul unitar se verifică la nivelul contractului, nu pe fiecare clădire",
+            "major": true,
+            "article": "art. 17"
+          },
+          {
+            "text": "Recuperarea sumelor e proporțională, după o metodologie cu ponderi diferențiate",
+            "major": true,
+            "article": "art. 44"
+          },
+          {
+            "text": "Contractele de cogenerare pot fi prelungite pentru teste în sezonul de încălzire",
+            "major": false,
+            "article": "art. 15 alin. (5)"
           },
           {
             "text": "Rapoartele de închidere se publică pe internet în 15 zile",
             "major": false,
             "article": "art. 30"
-          },
-          {
-            "text": "Măsuri obligatorii de acoperire a minusului de venituri, cu raportare semestrială",
-            "major": false,
-            "article": "art. 23"
           }
         ],
         "partial": true
       },
       "diff": {
-        "added": 113,
-        "removed": 113,
-        "same": 0.44
+        "added": 116,
+        "removed": 99,
+        "same": 0.46
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:44:06.482Z"
+      "schema": 4,
+      "updatedAt": "2026-11-24T10:13:23.902Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Analiza găurii bugetare din PNRR nu mai trebuie să cuprindă măsuri concrete de acoperire",
+      "summary": "Acum, analiza pierderilor din PNRR nu mai cere măsuri cuantificate și un calendar, dar MIPE capătă mai multe atribuții de control pe durabilitate. Problemele principale (art. 9-13) au rămas neschimbate.",
+      "changes": [
+        {
+          "title": "Dispar măsurile concrete pentru acoperirea pierderii de bani",
+          "text": "Art. 28 alin. (2) nu mai cere măsuri cuantificate pe 3 ani de tăiere a cheltuielilor sau de creștere a veniturilor și nici un calendar. Analiza doar se transmite și servește la strategia bugetară.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 28",
+          "before": "c) măsuri de reducere a cheltuielilor sectoriale aflate în competența sa, cuantificate pentru fiecare dintre următorii 3 ani;",
+          "after": "Analiza se utilizează de Guvern în fundamentarea strategiei fiscal - bugetare prin politici sectoriale bugetare și în programarea intervențiilor viitoare finanțate din fonduri europene și/sau naționale.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "MIPE avizează legile care pot strica reformele",
+          "text": "Noul art. 32 alin. (8): coordonatorul național monitorizează durabilitatea proiectelor și avizează proiectele de acte normative care pot afecta ireversibilitatea măsurilor validate de Comisie.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 32",
+          "before": null,
+          "after": "coordonatorul național al PNRR monitorizează durabilitatea rezultatelor proiectelor și îndeplinirea indicatorilor post-implementare și totodată avizează proiectele de acte normative care pot avea impact direct/indirect asupra asigurării irreversibilității măsurilor",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "MIPE verifică cum controlează ministerele proiectele",
+          "text": "Noul art. 32 alin. (9): coordonatorul național verifică activitatea de control și de raportare a neregulilor făcută de coordonatorii de reforme și investiții, ca să raporteze Comisiei.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 32",
+          "before": null,
+          "after": "(9) În perioada prevăzută la alin. (1), coordonatorul național al PNRR efectuează procedurile de verificare și monitorizare a activităților desfășurate de coordonatorii de reformă și/sau investiții la alin. (5) și (6)",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Și MIPE trebuie să păstreze structuri de control",
+          "text": "Art. 32 alin. (7) extinde și la coordonatorul național obligația de a păstra capacitatea administrativă și structurile de monitorizare, control și audit timp de 5 ani.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 32",
+          "before": "(7) În perioada prevăzută la alin. (1), coordonatorii de reforme și/sau investiții au obligația de a asigura capacitatea administrativă",
+          "after": "(7) În perioada prevăzută la alin. (1), coordonatorul național și coordonatorii de reforme și/sau investiții au obligația de a asigura capacitatea administrativa",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Un cuvânt schimbat inversează sensul unei obligații",
+          "text": "În art. 32 alin. (2), „ireversibilității” a devenit „reversibilității”. Probabil e o greșeală, dar literal textul cere acum evaluarea reversibilității reformelor.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 32",
+          "before": "asupra sustenabilității și ireversibilității reformelor",
+          "after": "asupra sustenabilității și reversibilității reformelor",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Proiectele din memorandum pot fi înlocuite prin ordin, fără criterii sau publicare",
+            "major": true,
+            "article": "art. 9"
+          },
+          {
+            "text": "Plățile pentru contractele denunțate nu se recuperează, indiferent de vină",
+            "major": true,
+            "article": "art. 11"
+          },
+          {
+            "text": "Denunțare unilaterală fără preaviz și fără reguli pentru lucrările executate neplătite",
+            "major": true,
+            "article": "art. 12"
+          },
+          {
+            "text": "Contractele PUG preluate fără selecție, înaintea UAT-urilor care așteaptă finanțare",
+            "major": true,
+            "article": "art. 10"
+          },
+          {
+            "text": "Transferul investițiilor PNRR–program național prin ordin, fără condiții sau plafon",
+            "major": true,
+            "article": "art. 13"
+          },
+          {
+            "text": "Costurile preluate de bugetul de stat nu sunt estimate în text",
+            "major": true,
+            "article": "art. 11"
+          },
+          {
+            "text": "Costul unitar maxim se verifică cumulat, nu pe fiecare componentă",
+            "major": true,
+            "article": "art. 17"
+          },
+          {
+            "text": "Termene de 31 august–30 septembrie 2026 expirate sau aproape expirate la adoptare",
+            "major": false,
+            "article": "art. 6"
+          },
+          {
+            "text": "Art. 28 alin. (2) și (3) au termene și destinatari diferiți pentru aceeași analiză",
+            "major": false,
+            "article": "art. 28"
+          },
+          {
+            "text": "Art. 4, 5 și 25 trimit la măsuri din art. 28 alin. (2), care nu mai există",
+            "major": false,
+            "article": "art. 28"
+          },
+          {
+            "text": "Definiția minusului de venituri trimite greșit la art. 26 alin. (2)",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "„Reversibilității” în loc de „ireversibilității” inversează sensul obligației",
+            "major": false,
+            "article": "art. 32"
+          }
+        ],
+        "good": [
+          {
+            "text": "Cheltuielile pentru măsurile eliminate din PNRR nu se recuperează de la beneficiari",
+            "major": true,
+            "article": "art. 15"
+          },
+          {
+            "text": "Contractele denunțate din educație se plătesc din bani naționali, fără recuperare",
+            "major": true,
+            "article": "art. 16"
+          },
+          {
+            "text": "Proiectele nefinalizate de apă și deșeuri pot fi finanțate de AFM",
+            "major": true,
+            "article": "art. 14"
+          },
+          {
+            "text": "Investițiile nefinalizate până la 31.12.2026 atrag recuperare proporțională",
+            "major": true,
+            "article": "art. 27"
+          },
+          {
+            "text": "Rapoartele de închidere se publică pe site-urile instituțiilor",
+            "major": false,
+            "article": "art. 30"
+          },
+          {
+            "text": "Control MIPE asupra durabilității și aviz pe actele care pot afecta reformele",
+            "major": false,
+            "article": "art. 32"
+          },
+          {
+            "text": "Contractele transferate respectă principiul evitării dublei finanțări",
+            "major": false,
+            "article": "art. 13"
+          },
+          {
+            "text": "Clasificarea reformelor și investițiilor are termene și categorii clare",
+            "major": false,
+            "article": "art. 24"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 37,
+        "removed": 37,
+        "same": 0.83
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-24T10:14:21.018Z"
     }
   ]
 }

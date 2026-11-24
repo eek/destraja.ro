@@ -1,8 +1,30 @@
 {
   "slug": "plx-545-2026",
   "billId": "PL-x 545/2026",
-  "updatedAt": "2026-10-30T09:46:37.863Z",
+  "updatedAt": "2026-11-24T10:20:07.558Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L318FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Conturi de investiții pentru pensie, cu impozite reduse, prin brokeri autorizați",
+      "summaryTlDr": "Instrumentul este util și îl susțin aproape toate partidele, dar textul are două probleme serioase. Deducerea contribuțiilor CIIP-D nu are niciun plafon, iar avantajul fiscal e rezervat firmelor autorizate de ASF, ceea ce poate atrage o procedură de infringement. La acestea se adaugă trimiteri greșite și o dată de intrare în vigoare formulată circular.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 6
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -16,7 +38,9 @@
         "agy": 3,
         "claude": 3,
         "codex": 5
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "camera",
@@ -31,69 +55,287 @@
         "agy": 2,
         "claude": 4,
         "codex": 5
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     }
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
+      "from": "initiator",
+      "to": "senat",
       "direction": "mai_putin_riscant",
-      "headline": "Regimul fiscal intră în Codul fiscal, iar scutirea pe dividende nu mai depinde de Depozitarul Central",
-      "summary": "Acum regimul fiscal e scris direct în Codul fiscal, iar scutirea pe dividende nu mai depinde de Depozitarul Central. Dispar însă dreptul explicit de a alege tipul de administrare și obligațiunile de stat OCDE/UE. Lipsa plafonului și blocarea banilor rămân.",
+      "headline": "Banii pot fi retrași la cerere după pensie sau 65 de ani, cu impozit clar, fără transfer forțat",
+      "summary": "Acum retragerea nu mai e automată la pensie: titularul scoate cât vrea după pensie sau 65 de ani. La conturile cu deducere, impozitul se reține la sursă, fără CAS/CASS. Pot administra conturi și băncile. Rămân lipsa plafonului și neclaritățile pentru nerezidenți și minori.",
       "changes": [
         {
-          "title": "Scutirea pe dividende funcționează și la emitenți străini",
-          "text": "Inițial administratorul anunța Depozitarul Central, ceea ce nu mergea la emitenții străini, iar textul avea greșeala „CIIIV”. Acum administratorul anunță direct plătitorii de venituri (art. 7 alin. (1) lit. d)).",
+          "title": "Retragere la cerere, nu transfer automat la pensie",
+          "text": "Inițial, la pensie, toate activele erau mutate automat și impozitate deodată. Acum titularul retrage la cerere, cât dorește, după pensie sau după 65 de ani (art. 5 alin. (3)).",
           "effect": "mai_bine",
           "major": true,
-          "article": "art. 7 alin. (1)",
+          "article": "art. 5",
+          "before": "(5) La momentul deschiderii drepturilor de pensie ale titularului contului CIIP, fondurile și activele aflate în conturi CIIP vor fi transferate de către SSIF într-un cont de tranzacționare, reglementat conform Legii nr. 126/2018 privind piețele de instrumente financiare.",
+          "after": "(3) Fondurile pot fi retrase, la solicitarea titularului de cont CIIV și în cuantumul solicitat de acesta, de la momentul deschiderii drepturilor de pensie pentru limită de vârstă, pensie anticipată sau pensie de invaliditate",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Impozit clar la retragere, fără contribuții sociale",
+          "text": "Retragerile din contul cu deducere sunt venituri din investiții. Se impozitează la sursă cu cota de la art. 64 alin. (1) și nu intră în baza CAS/CASS (art. 8 alin. (6)). Inițial, categoria și cota nu erau precizate.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 8",
+          "before": "(3) La momentul transferului activelor în contul de tranzacționare de la art. 9 alin. (4), valoarea totală a activelor transferate din contul CIIP-D se impozitează cu impozit pe venit conform prevederilor Legii nr. 227/2015 privind Codul Fiscal, cu modificările și completările ulterioare.",
+          "after": "Prin derogare de la prevederile Titlului V din Legea nr.227/2015, cu modificările și completările ulterioare, sumele provenite din conturile CIIV-D în urma retragerii nu se includ în baza de calcul a contribuțiilor sociale obligatorii.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Și băncile pot deschide conturi",
+          "text": "Inițial, conturile se deschideau doar la SSIF-uri. Acum le pot administra și băncile autorizate să administreze portofolii (art. 1 alin. (3)).",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 1",
+          "before": "k) SSIF — societatea de servicii de investiții financiare autorizată de Autoritatea de Supraveghere Financiară, denumită în continuare ASF, în conformitate cu prevederile Legii nr. 126/2018 privind piețele de instrumente financiare;",
+          "after": "b) bănci, astfel cum sunt reglementate de Ordonanță de urgență nr.99/2006 privind instituțiile de credit și adecvarea capitalului, aprobată cu modificări și completări prin Legea nr. 227/2007, cu modificările și completările ulterioare.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Deducerea și contribuția angajatorului, legate de Codul fiscal",
+          "text": "Inițial, deducerea era generală, fără reguli. Acum se aplică regulile din Codul fiscal (art. 68, art. 78). Contribuția angajatorului e neimpozabilă până la plafonul de 33% (art. 8 alin. (4)). PFA-urile la normă nu mai sunt incluse.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 8",
+          "before": "(2) Contribuțiile prevăzute la alin. (1) sunt deductibile la calculul bazei impozabile pentru impozitul pe venit al titularului contului CIIP-D.",
+          "after": "(4) Contribuțiile prevăzute la alin. (1) lit. c) nu sunt venituri impozabile, în limita plafonului lunar de cel mult 33% prevăzut la art.76 alin.(4¹) din Legea nr.227/2015, cu modificările și completările ulterioare.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Oricine poate deschide cont, fără condiția de rezidență",
+          "text": "Au dispărut condițiile de rezidență în România și de venituri impozabile (art. 4). Accesul e mai larg, dar nu e clar cum se aplică facilitățile nerezidenților și minorilor.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 4",
+          "before": "(1) Orice persoană fizică rezidentă în România care obține venituri impozabile poate deschide unul sau mai multe conturi CIIP, de oricare dintre cele două tipuri, cu administrare discreționară sau individualizată, la una sau mai multe SSIF-uri autorizate în România.",
+          "after": "Orice persoană fizică poate deschide unul sau mai multe conturi CIIV, de oricare dintre cele două tipuri, la unul sau mai mulți administratori de conturi CIIV.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Amenzi de până la 100.000 lei pentru administratori",
+          "text": "Amenda maximă pentru administratorii care încalcă obligațiile crește de la 10.000 la 100.000 lei (art. 15 alin. (2)).",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 15",
+          "before": "a) avertisment scris; sau b) amendă contravențională pentru persoane juridice, de la 1.000 lei la 10.000 lei;",
+          "after": "b) amendă contravențională pentru persoane juridice, de la 1.000 lei la 100.000 lei.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Niciun plafon al contribuțiilor; câștigurile CIIV-S sunt scutite fără limită",
+            "major": true,
+            "article": "art. 8"
+          },
+          {
+            "text": "Impactul bugetar al scutirilor și deducerilor nu este cuantificat",
+            "major": true,
+            "article": "art. 8"
+          },
+          {
+            "text": "Fără condiție de rezidență sau vârstă; facilitățile pentru nerezidenți și minori sunt neclare",
+            "major": true,
+            "article": "art. 4"
+          },
+          {
+            "text": "Scutirea de impozit pe dividende nu funcționează la emitenții străini",
+            "major": true,
+            "article": "art. 7"
+          },
+          {
+            "text": "Banii sunt blocați până la pensie sau 65 de ani, fără excepții grave",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Firmele din SEE cu pașaport MiFID II nu apar printre administratori",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "PFA-urile impozitate la normă de venit nu pot deduce contribuțiile",
+            "major": true,
+            "article": "art. 8"
+          },
+          {
+            "text": "Tipul contului nu mai poate fi schimbat după deschidere",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Normele se emit doar de ASF, fără Ministerul Finanțelor, deși privesc impozite",
+            "major": false,
+            "article": "art. 17"
+          },
+          {
+            "text": "Greșeli de redactare: «CIIIV», «aferent;» mutat, capitole plasate greșit",
+            "major": false,
+            "article": "art. 7"
+          }
+        ],
+        "good": [
+          {
+            "text": "Retragere la cerere, în suma dorită, după pensie sau 65 de ani",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Câștigurile din cont nu se impozitează pe durata deținerii",
+            "major": true,
+            "article": "art. 8"
+          },
+          {
+            "text": "Retragerile CIIV-D: impozit reținut la sursă, fără CAS și CASS",
+            "major": true,
+            "article": "art. 8"
+          },
+          {
+            "text": "Retragerile din CIIV-S sunt neimpozabile, inclusiv pentru moștenitori",
+            "major": true,
+            "article": "art. 11"
+          },
+          {
+            "text": "Băncile pot administra conturi, alături de SSIF-uri",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Angajatorul poate contribui, neimpozabil până la plafonul de 33%",
+            "major": true,
+            "article": "art. 8"
+          },
+          {
+            "text": "Amenzi de până la 100.000 lei pentru administratorii care încalcă legea",
+            "major": true,
+            "article": "art. 15"
+          },
+          {
+            "text": "Transfer gratuit la alt administrator în cel mult 15 zile lucrătoare",
+            "major": false,
+            "article": "art. 9"
+          },
+          {
+            "text": "Activele sunt protejate de Fondul de Compensare a Investitorilor",
+            "major": false,
+            "article": "art. 10"
+          },
+          {
+            "text": "Derivatele sunt interzise, cu excepția fondurilor care replică indici sau fac hedging",
+            "major": false,
+            "article": "art. 6"
+          },
+          {
+            "text": "Document informativ standardizat, în limba română, înainte de deschidere",
+            "major": false,
+            "article": "art. 12"
+          },
+          {
+            "text": "Comisioanele sunt transparente, iar modificările vin cu preaviz de 30 de zile",
+            "major": false,
+            "article": "art. 7"
+          },
+          {
+            "text": "Tipul de administrare se poate schimba oricând",
+            "major": false,
+            "article": "art. 3"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 77,
+        "removed": 75,
+        "same": 0.15
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-24T10:19:04.593Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Activele din conturile CEI devin insesizabile; creditorii nu le mai pot executa silit",
+      "summary": "Acum activele din cont nu mai pot fi executate silit, cesionate sau gajate, fără plafon și fără excepții. Impozitarea s-a mutat în Codul fiscal, cu 10% final la retragerea din CEI-D. A dispărut dreptul titularului de a alege tipul de administrare.",
+      "changes": [
+        {
+          "title": "Activele din cont nu mai pot fi executate silit",
+          "text": "Art. 13 alin. (3)-(4) nou: activele CEI sunt insesizabile, nu pot fi cesionate sau gajate. Nu există plafon și nici excepții pentru pensia de întreținere sau datoriile la stat. Tranzacțiile sunt interzise sub sancțiunea nulității.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 13",
+          "before": null,
+          "after": "(3) Activele deținute în conturile CEI sunt insesizabile și nu pot face obiectul niciunei măsuri de executare silită sau unor tranzacții, sub sancțiunea nulității actelor și măsurilor dispuse cu încălcarea prezentei legi.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare dreptul de a alege tipul de administrare",
+          "text": "Inițial, art. 3 alin. (2) permitea titularului să aleagă oricând între administrare discreționară și individualizată. Acum textul lipsește și nu mai e clar cine decide investițiile.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 3",
+          "before": "(2) Titularul de cont are dreptul de a alege sau schimba, oricând și de oricâte ori, tipul de administrare a contului, discreționar sau individualizat, în conformitate cu prevederile Legii 126/2018, cu modificările și completările ulterioare.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Retragerile din CEI-D: impozit final de 10%",
+          "text": "Regimul fiscal trece din lege în Codul fiscal (art. 19). Retragerile din CEI-D se impozitează cu 10% final, iar retragerile din CEI-S, inclusiv cele ale moștenitorilor, rămân neimpozabile.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 8, art. 19",
+          "before": "Fondurile retrase din conturile CIIV-D reprezintă venituri din investiții, definite la art.91 din Legea nr.227/2015, cu modificările și completările ulterioare, și se impozitează, la momentul retragerii, prin reținere la sursă, în integralitatea lor",
+          "after": "Veniturile obținute de titularul contului sau, după caz, de moștenitorii acestuia, din retragerea sumelor din conturile de economii și de investiții CEI-D, potrivit legii, se impun cu o cotă de 10% din suma acestora, impozitul fiind final.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dividendele: înștiințarea merge la plătitor, nu la Depozitarul Central",
+          "text": "Art. 7 alin. (1) lit. d) cere acum înștiințarea entităților plătitoare de venituri, în locul Depozitarului Central. Varianta inițială nu putea funcționa pentru emitenții străini și conținea greșeala „CIIIV”.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 7",
           "before": "c) să înștiințeze depozitarul central despre deținerile de acțiuni în CIIIV, astfel încât emitenții care distribuie dividende să nu rețină la sursă impozitul pe dividende datorat de titularii conturilor CIIIV;",
           "after": "d) să înștiințeze entitățile plătitoare de venituri obținute de titular ca urmare a deținerii de active investite în instrumente financiare eligibile prevăzute la art. 6 alin. (1), în vederea aplicării prevederilor art. 93 alin. (1) lit. e) din Legea nr. 227/2015",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Regimul fiscal e scris direct în Codul fiscal",
-          "text": "Art. 8 trimite acum la Codul fiscal, modificat prin art. 19. Retragerile din CEI-S sunt scutite, cele din CEI-D se impozitează cu 10% final. Nici acum nu există plafon.",
-          "effect": "mai_bine",
+          "title": "Se schimbă instrumentele în care se poate investi",
+          "text": "Art. 6: dispare mențiunea separată a obligațiunilor de stat OCDE/UE. Piețele permise sunt acum cele din UE sau echivalente din țări OCDE. Fondurile OPCVM cu derivate nu mai trebuie să fie listate.",
+          "effect": "neutru",
           "major": true,
-          "article": "art. 8, art. 19",
-          "before": "(2) Contribuțiile prevăzute la alin.(1) lit.a) sunt cheltuieli deductibile la calculul impozitului pe venit",
-          "after": "(2) Regimul fiscal aplicabil contribuțiilor în conturile CEI, precum și sumelor retrase din aceste conturi este cel stabilit potrivit prevederilor Legii nr. 227/2015, cu modificările și completările ulterioare.",
-          "beforeAbsent": false,
-          "afterAbsent": false
-        },
-        {
-          "title": "Dispare dreptul de a alege cine administrează investițiile",
-          "text": "Inițial titularul putea alege oricând între administrarea discreționară și cea individualizată. Acum textul a dispărut din art. 3 și nu mai e clar cine decide investițiile.",
-          "effect": "mai_rau",
-          "major": true,
-          "article": "art. 3",
-          "before": "(2) Titularul de cont are dreptul de a alege sau schimba, oricând și de oricâte ori, tipul de administrare a contului, discreționar sau individualizat, în conformitate cu prevederile Legii 126/2018",
-          "after": null,
-          "beforeAbsent": false,
-          "afterAbsent": true
-        },
-        {
-          "title": "Obligațiunile de stat OCDE/UE nu mai sunt permise explicit",
-          "text": "Art. 6 alin. (1) nu mai permite separat investiția în obligațiuni de stat OCDE/UE. Piețele din afara UE trebuie acum să fie „echivalente”.",
-          "effect": "mai_rau",
-          "major": true,
-          "article": "art. 6 alin. (1)",
+          "article": "art. 6",
           "before": "precum și în titluri de participare emise de OPCVM-uri distribuite în conformitate cu legislația aplicabilă și în obligațiuni emise de state membre ale Organizației pentru Cooperare și Dezvoltare Economică și/sau ale Uniunii Europene.",
-          "after": "precum și în titluri de participare emise de OPCVM-uri distribuite în conformitate cu legislația aplicabilă.",
+          "after": "de pe orice piețe reglementate din Uniunea Europeană sau piețe echivalente ale unei țări terțe membră a Organizației pentru Cooperare și Dezvoltare Economică",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Document justificativ pentru contribuțiile deductibile",
-          "text": "Administratorul trebuie să dea titularului un document cu contribuțiile în CEI-D, necesar pentru deducere (art. 7 alin. (1) lit. c)). La cerere, documentul se dă gratuit și pe hârtie.",
+          "title": "Extrasul de cont poate fi cerut gratuit pe hârtie",
+          "text": "Art. 7 alin. (3) nou: la cerere, extrasul anual se furnizează pe suport durabil sau pe hârtie, fără costuri pentru titular.",
           "effect": "mai_bine",
           "major": false,
-          "article": "art. 7 alin. (1) lit. c)",
+          "article": "art. 7",
           "before": null,
-          "after": "c) să furnizeze titularului un document justificativ privind contribuțiile efectuate în conturile CEI-D.",
+          "after": "(3) La solicitarea titularului, documentul prevăzut la alin. (1) lit. b) poate fi furnizat pe suport durabil, iar la cererea expresă a acestuia să poată fi furnizat și pe hârtie, fără costuri pentru titular.",
           "beforeAbsent": true,
           "afterAbsent": false
         }
@@ -101,74 +343,64 @@
       "remaining": {
         "problems": [
           {
-            "text": "Niciun plafon pentru contribuții sau scutire; impactul bugetar nu e cuantificat",
+            "text": "Insesizabilitate fără plafon și fără excepții pentru pensie de întreținere sau datorii la stat",
+            "major": true,
+            "article": "art. 13"
+          },
+          {
+            "text": "Interdicția „tranzacțiilor” sub nulitate contrazice cumpărările, vânzările și transferurile din cont",
+            "major": true,
+            "article": "art. 13"
+          },
+          {
+            "text": "Niciun plafon al contribuțiilor; scutirea pentru CEI-S este nelimitată",
             "major": true,
             "article": "art. 19"
           },
           {
-            "text": "Oricine poate deschide cont, fără condiție de rezidență fiscală sau vârstă",
+            "text": "Banii sunt blocați până la pensie sau 65 de ani, fără excepții pentru situații grave",
             "major": true,
-            "article": "art. 4"
-          },
-          {
-            "text": "Active insesizabile fără plafon și fără excepție pentru întreținere sau datorii",
-            "major": true,
-            "article": "art. 13 alin. (3)"
-          },
-          {
-            "text": "Interdicția vagă privind „tranzacții” contrazice cumpărările și transferurile permise",
-            "major": true,
-            "article": "art. 13 alin. (3)"
-          },
-          {
-            "text": "Bani blocați până la pensie sau 65 de ani, fără excepții",
-            "major": true,
-            "article": "art. 5 alin. (3)"
+            "article": "art. 5"
           },
           {
             "text": "Cine lucrează după 65 de ani nu mai poate contribui",
             "major": true,
-            "article": "art. 5 alin. (2)"
+            "article": "art. 5"
           },
           {
-            "text": "Firmele de investiții din alte state UE, fără sucursală, par excluse",
+            "text": "Nu există condiții de rezidență fiscală sau de vârstă pentru deschiderea contului",
             "major": true,
-            "article": "art. 1 alin. (3)"
+            "article": "art. 4"
           },
           {
-            "text": "Brokerii care doar execută ordine pot fi excluși ca administratori",
+            "text": "Firmele de investiții din alte state UE și brokerii de execuție par excluși",
             "major": true,
-            "article": "art. 1 alin. (3)"
+            "article": "art. 1"
           },
           {
             "text": "Nu e clar cine decide investițiile: titularul sau administratorul",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Scutire neclară pentru retragerile prin administratori nerezidenți fără sediu permanent",
             "major": false,
-            "article": "art. 1 alin. (3)"
+            "article": "art. 19"
           }
         ],
         "good": [
           {
-            "text": "Retragerile din CEI-S sunt scutite de impozit și contribuții sociale",
+            "text": "Regimul fiscal e clar în Codul fiscal; CEI-D se impozitează cu 10% final",
             "major": true,
             "article": "art. 19"
           },
           {
-            "text": "Contribuțiile CEI-D sunt deductibile; retragerile se impozitează final cu 10%",
+            "text": "Contribuțiile CEI-D sunt deductibile, inclusiv cele plătite de angajator, în plafonul de 33%",
             "major": true,
             "article": "art. 19"
           },
           {
-            "text": "Câștigurile nu se impozitează cât timp banii rămân în cont",
-            "major": true,
-            "article": "art. 19"
-          },
-          {
-            "text": "Scutirea pe dividende se aplică prin plătitorii de venituri",
-            "major": true,
-            "article": "art. 7 alin. (1) lit. d)"
-          },
-          {
-            "text": "Transfer gratuit între administratori în cel mult 15 zile lucrătoare",
+            "text": "Transfer gratuit între administratori, în cel mult 15 zile lucrătoare",
             "major": true,
             "article": "art. 9"
           },
@@ -178,46 +410,51 @@
             "article": "art. 10"
           },
           {
-            "text": "Moștenitorii pot transfera activele în cont propriu sau le pot retrage",
+            "text": "Moștenitorii pot transfera activele sau le pot retrage printr-o plată unică",
             "major": true,
             "article": "art. 11"
           },
           {
-            "text": "Fără derivate, cu excepția OPCVM-urilor pentru indice sau hedging",
+            "text": "Titularul este declarat proprietarul activelor din cont",
             "major": true,
-            "article": "art. 6 alin. (2)"
+            "article": "art. 13"
           },
           {
-            "text": "ASF poate amenda administratorii cu 1.000–100.000 lei",
-            "major": true,
-            "article": "art. 15"
-          },
-          {
-            "text": "Document informativ standardizat, în română, înainte de deschiderea contului",
-            "major": false,
-            "article": "art. 12"
-          },
-          {
-            "text": "Extras anual online; comisioane anunțate cu preaviz de 30 de zile",
+            "text": "Înștiințarea pentru dividende merge la plătitorii de venituri, fiind aplicabilă practic",
             "major": false,
             "article": "art. 7"
           },
           {
-            "text": "Titularul este proprietarul activelor din contul său",
+            "text": "Derivatele sunt interzise, cu excepția fondurilor OPCVM de indice sau hedging",
             "major": false,
-            "article": "art. 13 alin. (2)"
+            "article": "art. 6"
+          },
+          {
+            "text": "Document informativ standardizat, extras anual și extras pe hârtie gratuit",
+            "major": false,
+            "article": "art. 12"
+          },
+          {
+            "text": "Comisioane transparente, cu preaviz de 30 de zile la orice modificare",
+            "major": false,
+            "article": "art. 7"
+          },
+          {
+            "text": "ASF sancționează contravențional administratorii care nu își respectă obligațiile",
+            "major": false,
+            "article": "art. 15"
           }
         ],
         "partial": false
       },
       "diff": {
-        "added": 113,
-        "removed": 72,
-        "same": 0.07
+        "added": 123,
+        "removed": 71,
+        "same": 0.14
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:45:07.540Z"
+      "schema": 4,
+      "updatedAt": "2026-11-24T10:20:07.558Z"
     }
   ]
 }

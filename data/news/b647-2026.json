@@ -2,12 +2,59 @@
   "slug": "b647-2026",
   "billId": "B647/2026",
   "checkedAt": "2026-11-23T11:29:16.934Z",
+  "indexCheckedAt": "2026-11-24T11:29:18.339Z",
   "models": {
     "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 10m19s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 10m19s.\",\"status\":\"RESOURCE_EXHAUSTED\",",
     "claude": "ok",
-    "codex": "ok"
+    "codex": "ok",
+    "index": "ok"
   },
-  "articles": [],
+  "articles": [
+    {
+      "url": "https://jurnalul.ro/stiri/politica/parlamentari-final-an-instituie-lege-noi-sarbatori-1050252.html",
+      "title": "Parlamentarii se înghesuie, din nou, la final de an să mai instituie, prin lege, noi sărbători",
+      "outlet": "Jurnalul",
+      "domain": "jurnalul.ro",
+      "publishedAt": "2026-11-24",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Însă, la Parlament, mai este depus un proiect care vrea ca anul 2027 să fie declarat „Anul Alexandru Papiu Ilarian”.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-24",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.858,
+            "source": "national_news",
+            "sourceP": 0.973,
+            "about": 0.068,
+            "release": 0.006
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.901,
+            "source": "national_news",
+            "sourceP": 0.774,
+            "about": 0.407,
+            "release": 0.095
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.84,
+            "source": "national_news",
+            "sourceP": 0.96,
+            "about": 0.18,
+            "release": 0.01
+          }
+        }
+      }
+    }
+  ],
   "pending": [
     {
       "url": "https://www.cuvantul-liber.ro/573995/2027-an-alexandru-papiu-ilarian-2",
@@ -20,7 +67,38 @@
       ],
       "quote": "Deputata PSD de Mureș Dumitrița Gliga a depus în Parlament o propunere legislativă prin care anul 2027 să fie declarat",
       "match": "quote",
-      "firstSeenAt": "2026-11-23"
+      "firstSeenAt": "2026-11-23",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.701,
+            "source": "local_news",
+            "sourceP": 0.411,
+            "about": 0.995,
+            "release": 0.788
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.575,
+            "source": "national_news",
+            "sourceP": 0.409,
+            "about": 0.835,
+            "release": 0.378
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.83,
+            "source": "local_news",
+            "sourceP": 0.94,
+            "about": 0.99,
+            "release": 0.28
+          }
+        }
+      }
     },
     {
       "url": "https://www.cuvantul-liber.ro/571446/2027-an-alexandru-papiu-ilarian",
@@ -33,7 +111,38 @@
       ],
       "quote": "Unul, prin care se solicită Parlamentului să adopte cu prioritate legea.",
       "match": "quote",
-      "firstSeenAt": "2026-11-23"
+      "firstSeenAt": "2026-11-23",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.7,
+            "source": "local_news",
+            "sourceP": 0.871,
+            "about": 0.953,
+            "release": 0.156
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.768,
+            "source": "national_news",
+            "sourceP": 0.266,
+            "about": 0.651,
+            "release": 0.202
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "local_news",
+            "sourceP": 0.97,
+            "about": 0.96,
+            "release": 0.03
+          }
+        }
+      }
     }
   ]
 }

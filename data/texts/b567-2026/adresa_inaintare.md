@@ -1,3 +1,5 @@
+Biroul permanent al Senatului 657..123.14.2026.
+
 ## CÂTRE,
 
 ## BIROUL PERMANENT AL SENATULUI

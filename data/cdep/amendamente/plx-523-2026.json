@@ -1,26 +1,48 @@
 {
  "slug": "plx-523-2026",
  "billId": "PL-x 523/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-10-30T16:02:30.901Z",
- "inputHash": "8d562c91da7a",
+ "updatedAt": "2026-11-24T10:52:51.937Z",
+ "inputHash": "031b51e4e4e3",
  "reports": [
   "https://www.cdep.ro/comisii/buget/pdf/2026/rp523;1.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp523;1.pdf",
+   "sha256": "3383eb1dccf72676",
+   "parts": 1,
+   "rows": 10,
+   "unchanged": 9,
+   "admise": 1,
+   "respinse": 0,
+   "truncated": false
+  }
+ ],
+ "completeness": "complete",
+ "problems": [],
  "counts": {
   "admise": 1,
-  "respinse": 0
+  "respinse": 0,
+  "anuntate": 10,
+  "nemodificate": 9
  },
  "amendments": [
   {
    "nr": "5",
+   "report": "rp523;1.pdf",
    "article": "art. 3 alin. (2)",
    "status": "admis",
    "authors": [],
    "byCommittee": null,
-   "summary": "Corectează trimiterea privind stabilirea indicatorilor de performanță, înlocuind referirea la alin. (1) cu cea la art. 1 alin. (1).",
-   "quote": "nu realizează indicatorii de performanță stabiliți potrivit Art.1 alin.(1) și obține calificativul „satisfăcător” la evaluarea anuală a performanțelor profesionale individuale",
+   "byGroup": null,
+   "summary": "Corectează trimiterea la indicatorii de performanță a căror nerealizare duce la diminuarea salariului, de la alin. (1) la art. 1 alin. (1).",
+   "quote": "nu realizează indicatorii de performanță stabiliți potrivit Art.1 alin.(1) și obține calificativul „satisfăcător”",
+   "inForce": null,
+   "before": "(2) Personalului care, în urma evaluării anuale a performanțelor profesionale individuale, nu realizează indicatorii de performanță stabiliți potrivit alin.(1) și obține calificativul „satisfăcător” la evaluarea anuală a performanțelor profesionale individuale i se aplică sancțiunea diminuării drepturilor salariale în condițiile art.485 alin.(7) lit.c) din Ordonanța de urgență a Guvernului nr.57/2019 privind Codul administrativ, cu modificările și completările ulterioare.",
+   "after": "(2) Personalului care, în urma evaluării anuale a performanțelor profesionale individuale, nu realizează indicatorii de performanță stabiliți potrivit Art.1 alin.(1) și obține calificativul „satisfăcător” la evaluarea anuală a performanțelor profesionale individuale i se aplică sancțiunea diminuării drepturilor salariale în condițiile art.485 alin.(7) lit.c) din Ordonanța de urgență a Guvernului nr.57/2019 privind Codul administrativ, cu modificările și completările ulterioare.",
+   "motivation": "Tehnică legilativă",
    "effects": [
     "mai_bine"
    ]
@@ -28,7 +50,8 @@
  ],
  "matches": [
   {
-   "change": "0:0",
+   "change": "1:0",
+   "report": "rp523;1.pdf",
    "amendments": [
     "5"
    ]

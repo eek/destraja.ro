@@ -2,11 +2,12 @@
   "slug": "b627-2026",
   "billId": "B627/2026",
   "checkedAt": "2026-11-23T11:21:19.589Z",
-  "indexCheckedAt": "2026-11-23T10:02:03.692Z",
+  "indexCheckedAt": "2026-11-24T11:29:17.476Z",
   "models": {
     "agy": "ok",
     "claude": "ok",
-    "codex": "ok"
+    "codex": "ok",
+    "index": "ok"
   },
   "articles": [
     {
@@ -463,7 +464,38 @@
       ],
       "quote": "Proiectul a fost depus la Senat de senatorul AUR Cătălin Silegeanu.",
       "match": "quote",
-      "firstSeenAt": "2026-11-23"
+      "firstSeenAt": "2026-11-23",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.958,
+            "source": "trade_press",
+            "sourceP": 0.584,
+            "about": 0.996,
+            "release": 0.072
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.84,
+            "source": "trade_press",
+            "sourceP": 0.475,
+            "about": 0.867,
+            "release": 0.349
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.97,
+            "source": "trade_press",
+            "sourceP": 0.95,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
     },
     {
       "url": "https://alba24.ro/salariatii-ar-putea-fi-scutiti-de-plata-cass-pentru-chirii-dividende-si-pfa-cum-s-ar-aplica-pragul-de-120-000-de-lei-1167038.html",
@@ -1008,7 +1040,38 @@
       ],
       "quote": "Persoanele care obțin venituri din salarii și plătesc deja contribuția de asigurări sociale de sănătate (CASS) ar putea fi scutite de această obligație pentru alte venituri, în limita unei baze anuale cumulate de 120.000 de lei, potrivit unui proiect depus la Senat pe 10 noiembrie.",
       "match": "quote",
-      "firstSeenAt": "2026-11-23"
+      "firstSeenAt": "2026-11-23",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.956,
+            "source": "national_news",
+            "sourceP": 0.988,
+            "about": 0.998,
+            "release": 0.018
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.787,
+            "source": "national_news",
+            "sourceP": 0.431,
+            "about": 0.893,
+            "release": 0.148
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.96,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
     }
   ],
   "pending": [
@@ -1111,7 +1174,38 @@
       ],
       "quote": "Proiectul se află abia la început de drum.",
       "match": "quote",
-      "firstSeenAt": "2026-11-23"
+      "firstSeenAt": "2026-11-23",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "neutral",
+            "stanceP": 0.881,
+            "source": "national_news",
+            "sourceP": 0.637,
+            "about": 0.998,
+            "release": 0.023
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.787,
+            "source": "national_news",
+            "sourceP": 0.64,
+            "about": 0.915,
+            "release": 0.133
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.87,
+            "source": "national_news",
+            "sourceP": 0.74,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
     }
   ]
 }

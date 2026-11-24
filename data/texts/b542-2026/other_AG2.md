@@ -1,0 +1,19 @@
+## BIROUL PERMANENT AL SENATULUI
+
+Subsemnata, Andra BICĂ, senator PSD, ales în circumscripția electorală nr. 40, VÂLCEA, doresc să devin coinițiator al L 637/2026, Propunere legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.60/2019 privind reglementarea unor măsuri pentru stingerea unor obligații fiscale și bugetare, precum și unele măsuri referitoare la obligațiile de plată aferente împrumuturilor din venituri din privatizare și împrumuturilor contractate de statul român de la instituții de credit și subîmprumutate operatorilor economici.
+
+17,11.2026
+
+Cu stimă,
+
+Andra BICĂ
+
+Senator PSD
+
+## BIROUL PERMANENT AL SENATULUI
+
+Subsemnata, Daniela MIHAI, senator PSD, ales în circumscripția electorală nr. 12, Călărași, doresc să devin coinițiator al L 637/2026, Propunere legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.60/2019 privind reglementarea unor măsuri pentru stingerea unor obligații fiscale și bugetare, precum și unele măsuri referitoare la obligațiile de plată aferente împrumuturilor din venituri din privatizare și împrumuturilor contractate de statul român de la instituții de credit și subîmprumutate operatorilor economici.
+
+Cu stimă,
+
+17.11.2026

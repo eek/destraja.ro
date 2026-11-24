@@ -1,0 +1,109 @@
+# EXPUNERE DE MOTIVE
+
+la propunerea legislativă pentru completarea alin. (1) al art. 139 din Legea nr. 53/2003 – Codul muncii
+
+## 1. MOTIVUL EMITERII ACTULUI NORMATIV
+
+## 1.1. Descrierea situației actuale și a cerințelor care impun elaborarea actului normativ
+
+În prezent, cadrul normativ care reglementează zilele de sărbătoare legală în care nu se lucrează este stabilit prin dispozițiile art. 139 alin. (1) din Legea nr. 53/2003 – Codul muncii, republicată, cu modificările și completările ulterioare. Potrivit acestui text de lege, pentru Sărbătoarea Nașterii Domnului sunt declarate zile libere legale doar prima și a doua zi de Crăciun (25 și 26 decembrie).
+
+Cu toate acestea, obligativitatea prestării activității profesionale până la finalul programului de lucru din data de 24 decembrie (Ajunul Crăciunului) creează dificultăți majore de ordin social, familial și logistic pentru o categorie semnificativă a populației active. Vulnerabilitățile și disfuncționalitățile actuale derivă din:
+
+\- Constrângerile de timp și mobilitate geografică: Un număr ridicat de salariați își desfășoară activitatea profesională în alte localități sau regiuni decât cele de domiciliu al familiei extinse, astfel încât încheierea programului de lucru în seara zilei de 24 decembrie face practic imposibilă deplasarea în condiții de siguranță și petrecerea Ajunului alături de familie;
+
+\- Imposibilitatea pregătirii adecvate pentru sărbătoare: Tradițiile culturale, spirituale și gastronomice specifice Ajunului Crăciunului necesită un timp dedicat gospodăriei și familiei, pe care angajații nu îl au la dispoziție atunci când sunt constrânși să lucreze întreaga zi de 24 decembrie;
+
+\- Inechitatea dintre sectoarele de activitate: În practica recentă, numeroși angajatori din mediul privat sau instituții publice acordă deja ziua de 24 decembrie ca zi liberă prin contracte colective de muncă, regulamente interne sau decizii administrative, în timp ce alți salariați (în special din sectoare fără reprezentare sindicală) sunt privați de acest beneficiu, generându-se un tratament diferențiat nejustificat.
+
+## 1.2. Schimbări preconizate
+
+Prezentul proiect de lege garantează legal dreptul salariaților la timp liber în ziua de 24 decembrie – Ajunul Crăciunului, prin includerea acestei date în enumerarea zilelor de sărbătoare legală în care nu se lucrează, prevăzută la art. 139 alin. (1) din Legea nr. 53/2003 – Codul muncii.
+
+Prin această intervenție legislativă se urmărește:
+
+1\. Asigurarea timpului efectiv necesar salariaților pentru pregătirea sărbătorii Crăciunului și reunirea cu familia;
+
+2\. Uniformizarea regimului juridic al timpului de odihnă la nivel național, eliminând discrepanțele dintre angajații care primesc această zi liberă prin negociere colectivă și cei care nu beneficiază de acest drept;
+
+3\. Oferirea unei predictibilități sporite pentru angajatori și salariați în planificarea activității economice și a concediilor de odihnă la finalul anului calendaristic.
+
+Totodată, pentru sectoarele în care activitatea nu poate fi întreruptă datorită caracterului procesului de producție sau specificului activității (unități sanitare, de alimentație publică, transporturi, comerț, energie etc.), rămân pe deplin aplicabile dispozițiile art. 140–142 din Codul muncii, salariații care lucrează în data de 24 decembrie beneficiind de compensarea cu timp liber corespunzător în următoarele 30 de zile sau de un spor la salariul de bază de cel puțin 100%.
+
+## 1.3. Compatibilitatea cu dreptul Uniunii Europene
+
+Proiectul respectă principiile și obiectivele Directivei (UE) 2019/1158 a Parlamentului European și a Consiliului din 20 iunie 2019 privind echilibrul dintre viața profesională și cea privată a părinților și îngrijitorilor, precum și Pilonul European al Drepturilor Sociale (Principiul 9 – Echilibrul dintre viața profesională și cea privată). De asemenea, măsura se aliniază practicilor legislative deja consacrate în numeroase state membre ale Uniunii Europene (precum Republica Cehă, Slovacia, Bulgaria, Cipru, Letonia sau Lituania), unde ziua de 24 decembrie are statut de zi de sărbătoare legală sau zi nelucrătoare.
+
+## 2. IMPACTUL SOCIO-ECONOMIC AL PROIECTULUI DE LEGE
+
+2.1. Impactul asupra mediului de afaceri, pieței muncii și incluziunii sociale
+
+Proiectul contribuie la consolidarea coeziunii sociale și familiale, reducerea epuizării profesionale (burnout) la final de an și creșterea satisfacției și productivității muncii pe termen mediu. Din punct de vedere economic, acordarea unei zile libere suplimentare înaintea Crăciunului stimulează consumul intern în sectoarele comerțului cu amănuntul, HoReCa și turismului intern, compensând parțial reducerea activității din alte sectoare economice. Pentru operatorii economici cu activitate continuă, Codul muncii oferă deja mecanismele flexibile necesare asigurării continuității serviciilor.
+
+## 2.2. Impactul asupra drepturilor și libertăților fundamentale
+
+Propunerea legislativă concretizează garanțiile constituționale privind dreptul la viață intimă, familială și privată (art. 26), protecția socială a muncii și dreptul la repaus (art. 41), precum și egalitatea în drepturi (art. 16 din Constituția României). Prin aplicarea coroborată a prevederilor art. 139 alin. (1) cu dispozițiile art. 139 alin. (2) din Codul muncii – care garantează acordarea de zile libere pentru sărbătorile religioase anuale declarate astfel de cultele religioase legale, altele decât cele creștine – se menține echilibrul constituțional și tratamentul nediscriminatoriu între cetățeni, indiferent de apartenența religioasă.
+
+## 3. IMPACTUL FINANCIAR ASUPRA BUGETULUI GENERAL CONSOLIDAT
+
+## 3.1. Estimarea impactului bugetar
+
+Proiectul de lege nu generează cheltuieli suplimentare directe asupra bugetului general consolidat și nu necesită crearea unor structuri sau instituții noi, întrucât drepturile salariale aferente zilelor de sărbătoare legală sunt deja cuprinse în fondul de salarii aprobat anual pentru autoritățile și instituțiile publice.
+
+## 3.2. Sursele de acoperire
+
+Eventualele costuri generate de acordarea sporurilor legale pentru personalul din instituțiile publice în care activitatea nu poate fi întreruptă (unități sanitare, ordine publică, asistență socială) se asigură din:
+
+\- Bugetele anuale aprobate ale autorităților și instituțiilor publice respective;
+
+\- Bugetul Fondului național unic de asigurări sociale de sănătate (FNUASS), pentru unitățile sanitare publice.
+
+## 4. EFECTELE PROIECTULUI DE LEGE ASUPRA SISTEMULUI JURIDIC
+
+## 4.1. Corelarea cu actele normative de nivel superior
+
+Proiectul este pe deplin corelat cu prevederile Constituției României, cu dispozițiile art. 139–143 din Legea nr. 53/2003 – Codul muncii (privind regimul zilelor de sărbătoare legală și compensarea muncii prestate în aceste zile), precum și cu Legea nr. 489/2006 privind libertatea religioasă și regimul general al cultelor.
+
+## 4.2. Evitarea paralelismelor și suprareglementării
+
+În acord cu exigențele Consiliului Legislativ și cu normele de tehnică legislativă instituite prin Legea nr. 24/2000, actul normativ intervine punctual, printr-un articol unic, asupra dispozițiilor existente ale art. 139 alin. (1) din Codul muncii, evitând paralelismele legislative și menținând unitatea terminologică și structurală a codului.
+
+## 5. CONSULTĂRILE EFECTUATE ÎN VEDEREA ELABORĂRII PROIECTULUI
+
+Proiectul a fost elaborat având în vedere solicitările confederațiilor sindicale, ale organizațiilor neguvernamentale dedicate protecției familiei și drepturilor salariaților, precum și bunele practici existente în mediul de afaceri. În conformitate cu prevederile Legii nr. 248/2013 și ale Legii nr. 73/1993, proiectul de lege va fi supus avizării Consiliului Economic și Social (CES) și Consiliului Legislativ.
+
+Pentru aceste considerente, a fost elaborată prezenta propunere legislativă, care se supune dezbaterii și adoptării Parlamentului României.
+
+Inițiator:
+
+Senator Gheorghe VELA
+
+PARTIDUL OAMENILOR TINERI
+
+PARTIDUL OAMENILOR TINERI
+
+## Propunere legislativă putun completarea aliu (1) cel est. 139 din lega nr.53/2003 Codul puncii
+
+<table>
+<tbody>
+<tr><td>Nr. crt.</td><td>Nume și Prenume</td><td>Grup parlamentar</td><td>Semnătura</td></tr>
+<tr><td>1</td><td>CRISTIAN-ALEXANDRU POPA</td><td>POT</td><td rowspan="2"></td></tr>
+<tr><td>2</td><td>MARIA CEENIT</td><td>POT</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

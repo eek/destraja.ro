@@ -1,0 +1,15 @@
+# PARLAMENTUL ROMÂNIEI
+
+Biroul permanent al Senatului Bp.656..../23..11..2026.
+
+# Către Biroul Permanent al Camerei Deputaților
+
+În conformitate cu prevederile art. 74 alin. (4) din Constituția României, republicată și cu prevederile art. 92 alin. (1) din Regulamentul Camerei Deputaților, republicat, cu modificările și completările ulterioare, vă înaintăm "Propunerea legislativă pentru modificarea și completarea unor acte normative pentru prevenirea și combaterea efectelor consumului produselor din tutun.", spre dezbatere și adoptare.
+
+În temeiul art. 118 din Regulamentul Camerei Deputaților, republicat, cu modificările și completările ulterioare, solicităm procedură de urgență pentru această inițiativă legislativă. De asemenea, vă adresăm rugămintea de a solicita, în cel mai scurt timp, punctul de vedere al Guvernului și avizul Consiliului Legislativ.
+
+În numele inițiatoarelor,
+
+Senatoare USR Elena -/Adelină DOBRA
+
+Deputată USR Diana STOICA

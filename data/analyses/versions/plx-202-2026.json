@@ -1,7 +1,12 @@
 {
   "slug": "plx-202-2026",
   "billId": "PL-x 202/2026",
-  "updatedAt": "2026-10-29T12:47:32.088Z",
+  "updatedAt": "2026-11-24T10:04:47.338Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -16,7 +21,9 @@
         "agy": 2,
         "claude": 2,
         "codex": 3
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "senat",
@@ -31,7 +38,26 @@
         "agy": 2,
         "claude": 2,
         "codex": 2
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl202_cd202_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "România cumpără mai multe acțiuni la Banca Mării Negre: 115 mil. EUR subscriși, 34,6 mil. EUR plătiți în 8 ani",
+      "summaryTlDr": "Este o lege tehnică de politică financiară externă, cu calculele corecte și sursa de finanțare indicată. Are slăbiciuni de transparență bugetară, nu capcane: tabelul financiar e gol, iar capitalul apelabil de 80,7 mil. EUR nu apare nicăieri în lege.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
     }
   ],
   "changes": [
@@ -97,6 +123,74 @@
       "model": "claude",
       "schema": 3,
       "updatedAt": "2026-10-29T12:47:32.088Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: art. 1 și art. 2 au rămas identice, s-au schimbat doar camera și data votului",
+      "summary": "Acum, la fel ca inițial, România cumpără 100.256 acțiuni la BCDMN cu 115,3 mil. EUR și plătește 34,6 mil. EUR în 8 rate anuale din 2027. S-au schimbat doar antetul, data votului și semnătura, iar textul anexei nu mai e reprodus.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Capitalul apelabil de 80.706.080 EUR (70%) nu e menționat, deși e obligație potențială",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Nu se precizează dacă plata se face prin bilet la ordin sau numerar",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Tabelul de impact bugetar din expunerea de motive e gol, deși costul e cert",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Câștig mic de influență: România primește doar 352 din acțiunile refuzate de Albania",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Rezoluția 220, anexă la lege, nu apare în textul adoptat de cameră",
+            "major": false,
+            "article": "art. 1"
+          }
+        ],
+        "good": [
+          {
+            "text": "Plata e eșalonată în opt tranșe anuale egale de 4.323.540 EUR din 2027",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Sursa banilor e clară: bugetul de stat, prin Ministerul Finanțelor",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Calculele sunt corecte: 100.256 acțiuni × 1.150 EUR = 115.294.400 EUR",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Cota României crește la 14,08%, la egalitate cu Ucraina",
+            "major": false,
+            "article": "art. 1"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 89,
+        "same": 0.5
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-24T10:04:47.338Z"
     }
   ]
 }

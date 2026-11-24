@@ -1,0 +1,43 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+# CAMERA DEPUTAȚILOR
+
+LEGE
+
+pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.57/2019 privind Codul administrativ, precum și a altor acte normative
+
+Parlamentul României adoptă prezenta lege
+
+Art. I. – La Art. 28 din Legea nr. 370/2004 pentru alegerea Președintelui României, republicată în Monitorul Oficial al României, Partea I, nr. 650 din 12 septembrie 2011, după alin. (2) se introduce un nou alineat, alin. (3), cu următorul cuprins:
+
+„(3) Nu pot candida persoanele care au dobândit cetățenia română prin acordare la cerere și care, la data depunerii candidaturii, nu au domiciliul în România de cel puțin 10 ani de la data dobândirii cetățeniei.”
+
+Art. II. – Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, publicată în Monitorul Oficial al României, Partea I, nr. 555 din 5 iulie 2019, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La art. 17, după litera c) se introduce o nouă literă, lit. d), cu următorul cuprins:
+
+„d) au domiciliul în România de cel puțin 10 ani de la data dobândirii cetățeniei române prin acordare la cerere”
+
+2\. La art. 60, după alin. (3) se introduce un nou alineat, alin. (3¹), cu următorul cuprins:
+
+„(3¹) Nu pot ocupa funcția de secretar de stat, subsecretar de stat și funcțiile asimilate acestora persoanele care au dobândit cetățenia română prin acordare la cerere și care nu au domiciliul în România de cel puțin 10 ani de la data dobândirii cetățeniei.”
+
+## 3. Alin. (4) de la art. 60 se modifică și va avea următorul cuprins:
+
+"(4) Prevederile alin. (1)-(3¹) se aplică și corpului secretarilor de stat și al consilierilor de stat din aparatul de lucru al viceprim-ministrului, după caz."
+
+4\. La art. 251 alin. (2¹), după litera f) se introduce o nouă literă, lit. g), cu următorul cuprins:
+
+„g) are domiciliul în România de cel puțin 10 ani de la data dobândirii cetățeniei române prin acordare la cerere”
+
+Art. III. – La art. 17 alin. (1) din Legea nr. 269 din 17 iunie 2003 privind Statutul Corpului diplomatic și consular al României, publicată în Monitorul Oficial al României, Partea I, nr. 441 din 23 iunie 2003, după litera h) se introduce o nouă literă, lit. i), cu următorul cuprins:
+
+„i) are domiciliul în România de cel puțin 10 ani de la data dobândirii cetățeniei române prin acordare la cerere”
+
+Art. IV. - Prezenta lege intră în vigoare în termen de 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+Președintele Senatului

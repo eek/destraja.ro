@@ -1,6 +1,14 @@
+Biroul permanent al Senatului
+
+Bp.564....14, 10, 2026;
+
 ROMANIA PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR
 
+Biroul permanent al Senatului
+
 Către
+
+1654....123....11.2026
 
 ## BIROUL PERMANENT AL SENATULUI
 

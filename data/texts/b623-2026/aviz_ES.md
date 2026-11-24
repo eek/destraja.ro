@@ -1,0 +1,69 @@
+Cod fiscal: 10464660
+
+E-mail: ces@ces.ro
+
+www.ces.ro
+
+Membru fondator al Asociației Internaționale a Consiliilor Economice și Sociale și Instituțiilor Similare (AICESIS) Membru al Uniunii Consiliilor Economice și Sociale și Instituțiilor Similare Francofone (UCESIF)
+
+„Consiliul Economic și Social este organ consultativ al Parlamentului și al Guvernului în domeniile de specialitate stabilite prin legea sa organică de înființare, organizare și funcționare.” (Art. 141 din Constituția României revizuită)
+
+Nr. 7599/18.11.2026
+
+Biroul permanent al Senatului
+
+Bp 623 123 novembre 226
+
+## AVIZ
+
+## referitor la propunerea legislativă pentru modificarea și completarea Legii nr.331/2024 privind Codul silvic, precum și pentru modificarea art.12 din Legea energiei electrice și a gazelor naturale nr.123/2012 (b623/05.11.2026)
+
+În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative pentru modificarea și completarea Legii nr.331/2024 privind Codul silvic, precum și pentru modificarea art.12 din Legea energiei electrice și a gazelor naturale nr.123/2012 (b623/05.11.2026).
+
+## CONSILIUL ECONOMIC ȘI SOCIAL
+
+În temeiul art. 5 lit. a) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, în ședința din data de 18.11.2026, desfășurată online, conform prevederilor art. 30 alin. (1) din Regulamentul de organizare și funcționare, avizează FAVORABIL prezentul proiect de act normativ, cu următoarele observații:
+
+Soluția legislativă trebuie să mențină posibilitatea efectuării intervențiilor necesare pentru siguranța rețelelor electrice și continuitatea alimentării consumatorilor, concomitent cu instituirea unor garanții care să prevină intervențiile nejustificate sau excesive asupra fondului forestier – arii protejate/paduri virgine. În acest sens, formulăm următoarele observații:
+
+## 1. Corelarea procedurii de intervenție cu cerințele aplicabile în ariile naturale protejate
+
+Este necesară corelarea dispozițiilor propuse cu prevederile art. 102 alin. (3) și ale art. 103 alin. (2) din Codul silvic, referitoare la criteriile de conservare, condițiile specifice de mediu și măsurile de monitorizare aplicabile lucrărilor din ariile naturale protejate.
+
+În condițiile eliminării autorizației de exploatare și ale întocmirii procesului-verbal de inventariere după finalizarea lucrărilor, în termen de cinci zile, trebuie clarificat modul în care aceste cerințe sunt integrate în efectuarea intervențiilor. Consemnarea lor exclusiv întrun document întocmit ulterior nu asigură luarea acestora în considerare la executarea lucrărilor. Considerăm că se impune clarificarea procedurii, astfel încât intervențiile necesare protejării infrastructurii energetice să poată fi realizate cu respectarea condițiilor de conservare aplicabile.
+
+## 2. Clarificarea regimului intervențiilor și al materialului lemnos rezultat
+
+Necorelarea dispozițiilor propuse cu prevederile art. 72 alin. (5) și (6) din Codul silvic impune completarea și clarificarea normelor derogatorii. Posibilitatea efectuăriți unor intervenții asupra arborilor nu trebuie confundată cu instituirea automată a unui drept de recoltare și valorificare a masei lemnoase rezultate. Considerăm că este necesar ca noile dispoziții să stabilească expres regimul juridic al materialului lemnos rezultat, cu respectarea particularităților fiecărei categorii de fond forestier. În special, pentru pădurile virgine, cvasivirgine și rezervațiile științifice, este necesară delimitarea clară a dreptului de a interveni pentru înlăturarea unui pericol sau remedierea unei avarii de dreptul de a recolta ori valorifica masa lemnoasă.
+
+O soluție legislativă echilibrată ar putea permite intervențiile strict necesare protejării infrastructurii energetice, cu menținerea materialului lemnos rezultat în ecosistemul forestier, atunci când regimul special de protecție impune acest lucru. Prin urmare, propunem reglementarea expresă a posibilității de intervenție și a regimului materialului lemnos rezultat, în concordanță cu obiectivele de conservare, fără instituirea unui drept general de recoltare și valorificare în aceste categorii de păduri și arii protejate.
+
+## 3. Stabilirea unor criterii obiective și a unei proceduri de evaluare a pericolului iminent
+
+Menținerea posibilității de intervenție trebuie însoțită de criterii tehnice, obiective, clare și verificabile pentru constatarea unui pericol iminent. În absența acestora, calificarea unui arbore drept periculos poate face obiectul unor aprecieri subjective, cu riscul unor intervenții disproporționate față de scopul urmărit. Simpla înălțime a unui arbore nu demonstrează, în sine, existența unui risc de cădere pe rețeaua electrică.
+
+Apreciem că este necesară stabilirea acestor criterii împreună cu experți cu experiență practică în teren și instituirea unei proceduri de constatare și documentare a riscului, cu participarea operatorului de distribuție și a reprezentantului administratorului fondului forestier. Procedura trebuie să asigure o evaluare individualizată și proporțională, astfel încât necesitatea și amploarea intervențiilor să poată fi justificate și verificate ulterior. Această abordare permite protejarea infrastructurii energetice și menținerea alimentării consumatorilor, prevenind totodată intervențiile nejustificate sau excesive asupra fondului forestier.
+
+4\. Extinderea termenului de înștiințare în caz de avarie sau de pericol iminent de avarie
+
+La art. 104¹ alin. (5), propunem extinderea de la 24 la 48 de ore a termenului de transmitere a înștiințării în caz de avarie sau de pericol iminent de avarie. Propunerea are în vedere condițiile în care operatorii de distribuție intervin pentru remedierea avariilor, în special a celor provocate de fenomene meteorologice extreme, precum furtuni, viscol sau depuneri masive de gheață și chiciură. În aceste situații, prioritatea operatorilor este asigurarea securității muncii, izolarea zonelor periculoase, inclusiv a celor cu linii rupte aflate sub tensiune, îndepărtarea arborilor prăbușiți pe rețele și restabilirea alimentării cu energie electrică a consumatorilor.
+
+Extinderea termenului la 48 de ore ar permite îndeplinirea obligației de înștiințare în condiții adaptate cerințelor operative ale intervențiilor, cu menținerea obligației de comunicare inclusiv către Garda Forestieră competentă teritorial.
+
+Integrarea acestor clarificări este necesară pentru realizarea unui echilibru între protecția mediului, siguranța rețelelor de distribuție și transport și continuitatea alimentării cu energie electrică. Totodată, cadrul normativ trebuie să permită intervențiile justificate în situații de avarie sau de pericol iminent, având în vedere că imposibilitatea de a interveni poate pune în pericol atât infrastructura energetică, cât și fondul forestier.
+
+Președinte,
+
+Sterică FUDULEA
+
+Digitally signed
+
+by Fudulea
+
+Sterica
+
+Date:
+
+2026.11.20
+
+13:36:57 EET

@@ -1,26 +1,63 @@
 {
  "slug": "plx-51-2026",
  "billId": "PL-x 51/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-10-30T16:00:52.693Z",
- "inputHash": "a901e5cbd080",
+ "updatedAt": "2026-11-24T10:47:33.097Z",
+ "inputHash": "3a6c1fad0641",
  "reports": [
   "https://www.cdep.ro/comisii/industrii/pdf/2026/rp051.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp051.pdf",
+   "sha256": "9c85025828ac4e91",
+   "parts": 1,
+   "rows": 5,
+   "unchanged": 1,
+   "admise": 4,
+   "respinse": 7,
+   "truncated": false
+  }
+ ],
+ "completeness": "complete",
+ "problems": [],
  "counts": {
-  "admise": 3,
-  "respinse": 7
+  "admise": 4,
+  "respinse": 7,
+  "anuntate": 5,
+  "nemodificate": 1
  },
  "amendments": [
   {
+   "nr": "2",
+   "report": "rp051.pdf",
+   "article": "Art. I",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": "Comisia pentru industrii și servicii și Comisia pentru politică economică, reformă și privatizare",
+   "byGroup": null,
+   "summary": "Transformă articolul unic în Art. I pentru a permite introducerea mai multor puncte de completare în Legea energiei nr. 123/2012.",
+   "quote": "Legea energiei electrice și a gazelor naturale nr. 123/2012, publicată în Monitorul Oficial al României, Partea I, nr. 485 din 16 iulie 2012",
+   "inForce": null,
+   "before": "Articol unic.- După articolul 70 din Legea nr. 123 din 10 iulie 2012 energiei electrice și a gazelor naturale, publicată în Monitorul Oficial al României, Partea I, nr. 485 din 16 iulie 2012, cu modificările și completările ulterioare, se introduce un nou articol, art. 70¹, cu următorul cuprins:",
+   "after": "Art. I. - Legea energiei electrice și a gazelor naturale nr. 123/2012, publicată în Monitorul Oficial al României, Partea I, nr. 485 din 16 iulie 2012, cu modificările și completările ulterioare, se completează după cum urmează:",
+   "motivation": "Pentru respectarea normelor de tehnică legislativă."
+  },
+  {
    "nr": "3",
+   "report": "rp051.pdf",
    "article": "art. 6¹",
    "status": "admis",
    "authors": [],
    "byCommittee": "Comisia pentru industrii și servicii și Comisia pentru politică economică, reformă și privatizare",
-   "summary": "Extinde regulile DNSC la tot sectorul electric, impune avizarea strategiilor și investițiilor de securitate cibernetică și recunoaște cheltuielile în tarifele reglementate.",
+   "byGroup": null,
+   "summary": "Înlocuiește art. 70¹ cu art. 6¹: DNSC stabilește reguli de securitate cibernetică pentru tot sectorul electric, avizează strategii și investiții, iar costurile intră în tarifele reglementate.",
    "quote": "Directoratul Național de Securitate Cibernetică, denumit în continuare DNSC, stabilește reguli tehnice de securitate cibernetică în sectorul energiei electrice prin ordin emis de directorul DNSC.",
+   "inForce": null,
+   "before": "Art.70¹.- Reguli de securitate cibernetică pentru accesul la rețea pentru energia electrică produsă din surse regenerabile și în cogenerare de înaltă eficiență\nDirectoratul Național de Securitate Cibernetică, în virtutea calității sale de autoritate competentă la nivel național pentru spațiul cibernetic național civil, precum și pentru gestionarea riscurilor și a incidentelor de securitate cibernetică conform dispozițiilor Ordonanței de urgență a Guvernului nr. 104/2021 privind înființarea Directoratului Național de Securitate Cibernetică, stabilește reguli tehnice de securitate cibernetică prin ordin al Directorului Directoratului Național de Securitate Cibernetică pentru accesul garantat la rețelele electrice și dispecerizarea prioritară a energiei electrice produse din surse regenerabile de energie și în cogenerare de înaltă eficiență, cât și pentru accesul prioritar la rețelele electrice și dispecerizarea prioritară a energiei electrice produse din surse regenerabile de energie și în cogenerare de înaltă eficiență în centrale cu puteri instalate mai mici sau egale cu 1 MW, în măsura în care nu este afectat nivelul de siguranță a SEN.",
+   "after": "1. După articolul 6 se introduce un nou articol, articolul 6¹, cu următorul cuprins:\n„Art. 6¹. - Securitatea cibernetică a SEN\n(1) Directoratul Național de Securitate Cibernetică, denumit în continuare DNSC, stabilește reguli tehnice de securitate cibernetică în sectorul energiei electrice prin ordin emis de directorul DNSC.\n(2) DNSC avizează și urmărește implementarea strategiilor de securitate cibernetică ale producătorilor, transportatorilor și operatorilor de distribuție a energiei electrice.\n(3) Planurile de investiții și investițiile realizate de operatorii de distribuție și de transport al energiei electrice pentru securitate cibernetică se avizează de către DNSC din punct de vedere tehnic și al conformității cu strategiile de securitate cibernetică prevăzute la alin. (2), înainte de transmiterea acestora către ANRE.\n(4) Cheltuielile aferente investițiilor și măsurilor implementate de operatorii de distribuție și de transport al energiei electrice, pentru securitate cibernetică, efectuate cu respectarea cerințelor legale, sunt recunoscute în tarifele reglementate, în condițiile metodologiilor aprobate de ANRE.",
+   "motivation": null,
    "effects": [
     "mai_rau",
     "neutru",
@@ -29,30 +66,44 @@
   },
   {
    "nr": "4",
+   "report": "rp051.pdf",
    "article": "art. 102³",
    "status": "admis",
    "authors": [],
    "byCommittee": "Comisia pentru industrii și servicii și Comisia pentru politică economică, reformă și privatizare",
-   "summary": "Extinde regulile DNSC, avizarea strategiilor și a investițiilor de securitate cibernetică, precum și decontarea costurilor în tarife, la sectorul gazelor naturale și al hidrogenului.",
+   "byGroup": null,
+   "summary": "Extinde regulile și avizele DNSC de securitate cibernetică la sectorul gazelor naturale și al hidrogenului și recunoaște cheltuielile aferente în tarifele reglementate.",
    "quote": "DNSC stabilește reguli tehnice de securitate cibernetică în sectorul gazelor naturale și al hidrogenului prin ordin emis de directorul DNSC.",
+   "inForce": null,
+   "before": null,
+   "after": "2. După articolul 102² se introduce un nou articol, articolul 102³, cu următorul cuprins:\n„Art. 102³. - Securitatea cibernetică în sectorul gazelor naturale și al hidrogenului\n(1) DNSC stabilește reguli tehnice de securitate cibernetică în sectorul gazelor naturale și al hidrogenului prin ordin emis de directorul DNSC.\n(2) DNSC avizează și urmărește implementarea strategiilor de securitate cibernetică ale operatorilor din sectorul gazelor naturale și al hidrogenului.\n(3) Planurile de investiții și investițiile realizate de operatorii licențiați, pentru securitate cibernetică, se avizează de către DNSC din punct de vedere tehnic și al conformității cu strategiile de securitate cibernetică prevăzute la alin. (2), înainte de transmiterea acestora către ANRE.\n(4) Cheltuielile aferente investițiilor și măsurilor implementate de operatorii licențiați, pentru securitate cibernetică, efectuate cu respectarea cerințelor legale, sunt recunoscute în tarifele reglementate, în condițiile metodologiilor aprobate de ANRE.”",
+   "motivation": null,
+   "newProvision": true,
    "effects": [
     "mai_rau"
    ]
   },
   {
    "nr": "5",
-   "article": "art. II",
+   "report": "rp051.pdf",
+   "article": "Art. II",
    "status": "admis",
    "authors": [],
    "byCommittee": "Comisia pentru industrii și servicii și Comisia pentru politică economică, reformă și privatizare",
-   "summary": "Stabilește un termen de 180 de zile pentru emiterea ordinelor DNSC cu regulile tehnice și încă 180 de zile pentru actualizarea metodologiilor de tarifare de către ANRE.",
+   "byGroup": null,
+   "summary": "Stabilește termen de 180 de zile pentru emiterea ordinului DNSC și alte 180 de zile de la intrarea în vigoare a acestuia pentru actualizarea metodologiilor tarifare de către ANRE.",
    "quote": "se emite în termen de 180 de zile de la data intrării în vigoare a prezentei legi.",
+   "inForce": null,
+   "before": null,
+   "after": "Art. II. - (1) Ordinul directorului Directoratului Național de Securitate Cibernetică prevăzut la art. 6¹ alin. (1) și art. 102³ alin. (1) din Legea energiei electrice și a gazelor naturale nr. 123/2012, cu modificările și completările ulterioare, inclusiv cu completările dispuse prin prezenta lege, se emite în termen de 180 de zile de la data intrării în vigoare a prezentei legi.\n(2) Președintele Autorității Naționale de Reglementare în Domeniul Energiei modifică, dacă este necesar, și aprobă prin ordin metodologiile de stabilire a tarifelor reglementate în conformitate cu prevederile art. 6¹ alin. (4) și art. 102³ alin. (4) din Legea nr. 123/2012, cu modificările și completările ulterioare, inclusiv cu completările dispuse prin prezenta lege, în termen de 180 de zile de la data intrării în vigoare a ordinului directorului Directoratului Național de Securitate Cibernetică prevăzut la art. 6¹ alin. (1) și art. 102³ alin. (1) din același act normativ.",
+   "motivation": null,
    "effects": [
     "mai_bine"
    ]
   },
   {
    "nr": "1",
+   "report": "rp051.pdf",
    "article": "art. 3 pct. 95¹",
    "status": "respins",
    "authors": [
@@ -64,11 +115,18 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Introduce în lege definiția prosumatorilor care acționează în mod colectiv, prin trimitere la OUG nr. 163/2022.",
-   "quote": "prosumatori care acționează în mod colectiv – definiți în conformitate cu art. 2 pct. 17 din Ordonanța de urgență a Guvernului nr. 163/2022"
+   "byGroup": null,
+   "summary": "Propune definirea noțiunii de „prosumatori care acționează în mod colectiv” în Legea nr. 123/2012, cu trimitere la OUG nr. 163/2022.",
+   "quote": "prosumatori care acționează în mod colectiv – definiți în conformitate cu art. 2 pct. 17 din Ordonanța de urgență a Guvernului nr. 163/2022",
+   "inForce": null,
+   "before": null,
+   "after": "1. La articolul 3, după punctul 95 se introduce un nou punct, punctul 95¹, cu următorul cuprins:\n„95¹. prosumatori care acționează în mod colectiv – definiți în conformitate cu art. 2 pct. 17 din Ordonanța de urgență a Guvernului nr. 163/2022 pentru completarea cadrului legal de promovare a utilizării energiei din surse regenerabile, precum și pentru modificarea și completarea unor acte normative, cu modificările și completările ulterioare;”",
+   "motivation": "1. Amendament necesar pentru preluarea în cadrul Legii nr. 123/2012 a noțiunii de „prosumatori care acționează în mod colectiv”, în vederea introducerii reglementării necesare pentru îndeplinirea parțială a jalonului 128 din PNRR.\n\n2. Respins prin vot.",
+   "newProvision": true
   },
   {
    "nr": "2",
+   "report": "rp051.pdf",
    "article": "art. 70¹",
    "status": "respins",
    "authors": [
@@ -80,11 +138,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Aplică regulile DNSC strict la nivelul modelelor de centrale și echipamente înainte de punerea pe piață, în sarcina producătorilor, importatorilor sau comercianților, nu a prosumatorilor.",
-   "quote": null
+   "byGroup": null,
+   "summary": "Propune ca regulile DNSC să se aplice doar la nivel de model de centrală și echipament, în sarcina producătorilor, importatorilor sau comercianților, nu a prosumatorilor.",
+   "quote": "pe baza documentației și a eșantionului reprezentativ puse la dispoziția DNSC de către producătorul, importatorul sau comerciantul autorizat, înainte de punerea acestora pe piață",
+   "inForce": null,
+   "before": "Art.70¹.- Reguli de securitate cibernetică pentru accesul la rețea pentru energia electrică produsă din surse regenerabile și în cogenerare de înaltă eficiență\nDirectoratul Național de Securitate Cibernetică, în virtutea calității sale de autoritate competentă la nivel național pentru spațiul cibernetic național civil, precum și pentru gestionarea riscurilor și a incidentelor de securitate cibernetică conform dispozițiilor Ordonanței de urgență a Guvernului nr. 104/2021 privind înființarea Directoratului Național de Securitate Cibernetică, stabilește reguli tehnice de securitate cibernetică prin ordin al Directorului Directoratului Național de Securitate Cibernetică pentru accesul garantat la rețelele electrice și dispecerizarea prioritară a energiei electrice produse din surse regenerabile de energie și în cogenerare de înaltă eficiență, cât și pentru accesul prioritar la rețelele electrice și dispecerizarea prioritară a energiei electrice produse din surse regenerabile de energie și în cogenerare de înaltă eficiență în centrale cu puteri instalate mai mici sau egale cu 1 MW, în măsura în care nu este afectat nivelul de siguranță a SEN.",
+   "after": "După articolul 70 se introduce un nou articol, articolul 70¹, cu următorul cuprins:\n„Art. 70¹. Reguli de securitate cibernetică pentru accesul la rețea pentru energia electrică produsă din surse regenerabile și în cogenerare de înaltă eficiență\n(1) Directoratul Național de Securitate Cibernetică, denumit în continuare DNSC, stabilește reguli tehnice de securitate cibernetică prin ordin al directorului Directoratului Național de Securitate Cibernetică.\n(2) Aplicarea regulilor prevăzute la alin. (1) se realizează strict la nivelul modelelor de centrale și echipamente de conversie, pe baza documentației și a eșantionului reprezentativ puse la dispoziția DNSC de către producătorul, importatorul sau comerciantul autorizat, înainte de punerea acestora pe piață sau înainte de distribuirea oricărei actualizări de firmware.",
+   "motivation": "1. Reorganizare pe aliniate si eliminarea aspectelor de calitate a DNSC ce sunt deja consemnate in alte acte normative.\nAnalizarea respectării regulilor trebuie realizată la nivelul modelelor de centrale, înainte de punerea acestora pe piață sau înaintea actualizării versiunilor de firmware. Această responsabilitate trebuie să revină producătorilor, importatorilor sau comercianților autorizați, și nu prosumatorilor.\nMenținerea obligației la nivelul prosumatorilor ar genera un volum disproporționat și inutil de verificări, în condițiile în care caracteristicile tehnice și conformitatea sunt determinate la nivel de model de către producător, importator sau comerciant. Astfel, verificarea individuală a fiecărei instalații ar fi ineficientă și nejustificată din punct de vedere tehnic și administrativ.\n\n2. Respins prin vot."
   },
   {
    "nr": "3",
+   "report": "rp051.pdf",
    "article": "art. 70¹",
    "status": "respins",
    "authors": [
@@ -96,8 +160,13 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Exceptează instalațiile mici, sub 100 kW, de la regulile de securitate cibernetică pentru accesul prioritar la rețea, limitând obligația la centralele între 100 kW și 1 MW.",
+   "byGroup": null,
+   "summary": "Propune limitarea aplicării regulilor DNSC doar la centralele cu putere instalată între 100 kW și 1 MW, exceptând instalațiile rezidențiale mici.",
    "quote": "în centrale cu puteri instalate cuprinse între 100 kW și 1 MW, în măsura în care nu este afectat nivelul de siguranță a SEN.",
+   "inForce": null,
+   "before": "Art.70¹.- Reguli de securitate cibernetică pentru accesul la rețea pentru energia electrică produsă din surse regenerabile și în cogenerare de înaltă eficiență\nDirectoratul Național de Securitate Cibernetică, în virtutea calității sale de autoritate competentă la nivel național pentru spațiul cibernetic național civil, precum și pentru gestionarea riscurilor și a incidentelor de securitate cibernetică conform dispozițiilor Ordonanței de urgență a Guvernului nr. 104/2021 privind înființarea Directoratului Național de Securitate Cibernetică, stabilește reguli tehnice de securitate cibernetică prin ordin al Directorului Directoratului Național de Securitate Cibernetică pentru accesul garantat la rețelele electrice și dispecerizarea prioritară a energiei electrice produse din surse regenerabile de energie și în cogenerare de înaltă eficiență, cât și pentru accesul prioritar la rețelele electrice și dispecerizarea prioritară a energiei electrice produse din surse regenerabile de energie și în cogenerare de înaltă eficiență în centrale cu puteri instalate mai mici sau egale cu 1 MW, în măsura în care nu este afectat nivelul de siguranță a SEN.",
+   "after": "Art.70¹.- Reguli de securitate cibernetică pentru accesul la rețea pentru energia electrică produsă din surse regenerabile și în cogenerare de înaltă eficiență\nDirectoratul Național de Securitate Cibernetică, în virtutea calității sale de autoritate competentă la nivel național pentru spațiul cibernetic național civil, precum și pentru gestionarea riscurilor și a incidentelor de securitate cibernetică conform dispozițiilor Ordonanței de urgență a Guvernului nr. 104/2021 privind înființarea Directoratului Național de Securitate Cibernetică, stabilește reguli tehnice de securitate cibernetică prin ordin al Directorului Directoratului Național de Securitate Cibernetică pentru accesul garantat la rețelele electrice și dispecerizarea prioritară a energiei electrice produse din surse regenerabile de energie și în cogenerare de înaltă eficiență, cât și pentru accesul prioritar la rețelele electrice și dispecerizarea prioritară a energiei electrice produse din surse regenerabile de energie și în cogenerare de înaltă eficiență în centrale cu puteri instalate cuprinse între 100 kW și 1 MW, în măsura în care nu este afectat nivelul de siguranță a SEN.",
+   "motivation": "1. Necesitatea limitării la un minim de 100 kW a puterii instalate rezultă din principiul proporționalității măsurilor de securitate cibernetică în raport cu impactul real asupra Sistemului Electroenergetic Național (SEN). Aplicarea acelorași obligații atât instalațiilor de mari dimensiuni, cât și prosumatorilor sau instalațiilor rezidențiale de 3–5 kW ar genera costuri administrative și tehnice disproporționate, fără un beneficiu real corespunzător pentru securitatea energetică și cibernetică națională, însă deosebit de împovărătoare pentru consumatori. Totodată, observăm că, la nivel european, astfel de reglementări sunt aplicate limitat și proporțional. Recent, Lituania a introdus reglementări similare, acestea fiind aplicabile exclusiv instalațiilor de putere mai mare, respectiv peste pragul de 100 kW, tocmai pentru a evita suprareglementarea segmentului rezidențial și a instalațiilor mici.\n\n2. Respins prin vot.",
    "effects": [
     "mai_rau",
     "neutru",
@@ -106,6 +175,7 @@
   },
   {
    "nr": "4",
+   "report": "rp051.pdf",
    "article": "art. 72 alin. (3)",
    "status": "respins",
    "authors": [
@@ -117,14 +187,21 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Introduce scheme de sprijin sub forma contractelor bidirecționale pentru diferență pentru noile capacități de producere a energiei regenerabile și nucleare.",
-   "quote": "se aplică, în principal, schemele de sprijin direct al prețurilor pentru investiții în noi instalații de producere a energiei electrice sub forma unor contracte bidirecționale pentru diferență",
+   "byGroup": null,
+   "summary": "Propune introducerea contractelor bidirecționale pentru diferență (CfD) ca principal mecanism de sprijin pentru noile capacități regenerabile și nucleare.",
+   "quote": "schemele de sprijin direct al prețurilor pentru investiții în noi instalații de producere a energiei electrice sub forma unor contracte bidirecționale pentru diferență",
+   "inForce": null,
+   "before": null,
+   "after": "3. La articolul 72, după alineatul (2) se introduce un nou alineat, alineatul (3), cu următorul cuprins:\n„(3) Pentru capacitățile de producere de energie solară, eoliană, geotermală, hidroelectrică fără rezervor și nucleară, care necesită licența de exploatare comercială, se aplică, în principal, schemele de sprijin direct al prețurilor pentru investiții în noi instalații de producere a energiei electrice sub forma unor contracte bidirecționale pentru diferență sau a altor mecanisme de sprijin cu efect economic echivalent.”",
+   "motivation": "1. Amendamentul este necesar pentru instituirea cadrului legal privind aplicarea mecanismelor de sprijin de tip contracte bidirecționale pentru diferență (CfD) și a altor mecanisme cu efect economic echivalent pentru noile capacități de producere a energiei electrice, în vederea îndeplinirii jalonului 116 din Planul Național de Redresare și Reziliență, care prevede introducerea contractelor pentru diferență ca mecanism de sprijin implicit pentru producția de energie din surse regenerabile.\n\n2. Respins prin vot, întrucât o prevedere similară se regăsește la art. 4 alin. (1¹) din Ordonanța de urgență a Guvernului nr. 163/2022 pentru completarea cadrului legal de promovare a utilizării energiei din surse regenerabile, precum și pentru modificarea și completarea unor acte normative, cu modificările și completările ulterioare.",
+   "newProvision": true,
    "effects": [
     "mai_rau"
    ]
   },
   {
    "nr": "5",
+   "report": "rp051.pdf",
    "article": "art. 73¹ alin. (11)",
    "status": "respins",
    "authors": [
@@ -136,14 +213,21 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Extinde regulile privind prosumatorii și la cei care acționează colectiv, cum ar fi asociațiile de proprietari, chiriașii și consumatorii vulnerabili din aceeași clădire.",
-   "quote": "Prevederile prezentului articol se aplică în mod proporțional și nediscriminatoriu prosumatorilor care acționează în mod colectiv",
+   "byGroup": null,
+   "summary": "Propune aplicarea prevederilor privind prosumatorii și pentru prosumatorii care acționează în mod colectiv, inclusiv asociații de proprietari, chiriași și consumatori vulnerabili.",
+   "quote": "Prevederile prezentului articol se aplică în mod proporțional și nediscriminatoriu prosumatorilor care acționează în mod colectiv, inclusiv, dar fără a se limita la asociații de proprietari",
+   "inForce": null,
+   "before": null,
+   "after": "4. La articolul 73¹, după alineatul (10) se introduce un nou alineat, alineatul (11), cu următorul cuprins:\n„(11) Prevederile prezentului articol se aplică în mod proporțional și nediscriminatoriu prosumatorilor care acționează în mod colectiv, inclusiv, dar fără a se limita la asociații de proprietari, chiriași și consumatori vulnerabili care dețin, utilizează ori beneficiază de proprietăți imobiliare în cadrul aceleiași clădiri.”",
+   "motivation": "1. Amendamentul este necesar pentru îndeplinirea cerinței iv) din cadrului jalonului 128, Reforma 6 din PNRR, care prevede permiterea prosumatorilor (inclusiv blocurilor de apartamente și asociațiilor de locatari aferente, dar fără a se limita la acestea) să producă și să vândă excesul de energie solară și, eventual, eoliană în forme mai flexibile și introducerea de stimulente, inclusiv compensații cantitative.\n\n2. Respins prin vot, întrucât o prevedere identică se regăsește la art. 22 alin. (1¹) din Ordonanța de urgență a Guvernului nr. 163/2022 pentru completarea cadrului legal de promovare a utilizării energiei din surse regenerabile, precum și pentru modificarea și completarea unor acte normative, cu modificările și completările ulterioare.",
+   "newProvision": true,
    "effects": [
     "mai_bine"
    ]
   },
   {
    "nr": "6",
+   "report": "rp051.pdf",
    "article": "art. 74¹",
    "status": "respins",
    "authors": [
@@ -155,12 +239,19 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Prevede avizarea de către DNSC a strategiilor și investițiilor de securitate cibernetică în energie și gaze naturale, cu recunoașterea cheltuielilor în tarifele reglementate.",
-   "quote": "Cheltuielile realizate de operatorii de distribuție și de transport al energiei electrice și al gazelor naturale pentru securitate cibernetică se recunosc în tarifele reglementate."
+   "byGroup": null,
+   "summary": "Propune ca DNSC să avizeze strategiile și investițiile de securitate cibernetică ale operatorilor de energie electrică și gaze, cu recunoașterea costurilor în tarifele reglementate.",
+   "quote": "Cheltuielile realizate de operatorii de distribuție și de transport al energiei electrice și al gazelor naturale pentru securitate cibernetică se recunosc în tarifele reglementate.",
+   "inForce": null,
+   "before": null,
+   "after": "După articolul 74 se introduce un nou articol, articolul 74¹, cu următorul cuprins:\n„Art. 74¹. Securitatea cibernetică a SEN\n(1) DNSC avizează și urmărește implementarea strategiilor de securitate cibernetică ale producătorilor, transportatorilor și operatorilor de distribuție a energiei electrice și a gazelor naturale.\n(2) Investițiile realizate de operatorii de distribuție și de transport al energiei electrice și al gazelor naturale pentru securitate cibernetică se avizează de către DNSC din punct de vedere tehnic și al conformității cu strategiile de securitate cibernetică înaintea transmiterii lor către ANRE.\n(3) Cheltuielile realizate de operatorii de distribuție și de transport al energiei electrice și al gazelor naturale pentru securitate cibernetică se recunosc în tarifele reglementate.”",
+   "motivation": "1.\n\n2. Respins prin vot.",
+   "newProvision": true
   },
   {
    "nr": "7",
-   "article": "art. II",
+   "report": "rp051.pdf",
+   "article": "Art. II",
    "status": "respins",
    "authors": [
     {
@@ -171,13 +262,19 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Stabilește un termen de 180 de zile de la intrarea în vigoare a legii atât pentru emiterea ordinului DNSC, cât și pentru modificarea metodologiilor de tarifare de către ANRE.",
-   "quote": null
+   "byGroup": null,
+   "summary": "Propune un termen de 180 de zile de la intrarea în vigoare a legii atât pentru ordinul DNSC, cât și pentru actualizarea metodologiilor tarifare de către ANRE.",
+   "quote": null,
+   "inForce": null,
+   "before": null,
+   "after": "Art. II.\n(1) Ordinul directorului Directoratului Național de Securitate Cibernetică prevăzut la art. 70¹ alin. (1) din Legea energiei electrice și a gazelor naturale nr. 123/2012, cu modificările și completările ulterioare, inclusiv cu completările dispuse prin prezenta lege, se emite în termen de 180 de zile de la data intrării în vigoare a prezentei legi.\n(2) Autoritatea Națională de Reglementare în Domeniul Energiei modifică și aprobă metodologiile de stabilire a tarifelor reglementate în conformitate cu prevederile art. 74¹ alin. (3) din Legea energiei electrice și a gazelor naturale nr. 123/2012, cu modificările și completările ulterioare, inclusiv cu completările dispuse prin prezenta lege, în termen de 180 de zile de la data intrării în vigoare a prezentei legi.",
+   "motivation": "1.\n\n2. Respins prin vot."
   }
  ],
  "matches": [
   {
    "change": "1:0",
+   "report": "rp051.pdf",
    "amendments": [
     "3",
     "4"
@@ -185,6 +282,7 @@
   },
   {
    "change": "1:1",
+   "report": "rp051.pdf",
    "amendments": [
     "3",
     "4"
@@ -192,24 +290,28 @@
   },
   {
    "change": "1:2",
+   "report": "rp051.pdf",
    "amendments": [
     "4"
    ]
   },
   {
    "change": "1:3",
+   "report": "rp051.pdf",
    "amendments": [
     "3"
    ]
   },
   {
    "change": "1:4",
+   "report": "rp051.pdf",
    "amendments": [
     "5"
    ]
   },
   {
    "change": "1:5",
+   "report": "rp051.pdf",
    "amendments": [
     "3"
    ]

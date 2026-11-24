@@ -1,6 +1,6 @@
 ## AVIZ
 
-# referitor la propunerea legislativă pentru modificarea și completarea Legii nr. 51/1995 pentru organizarea și exercitarea profesiei de avocat, precum și pentru completarea Legea nr. 287/2009 privind Codul Civil
+referitor la propunerea legislativă pentru modificarea și completarea Legii nr. 51/1995 pentru organizarea și exercitarea profesiei de avocat, precum și pentru completarea Legea nr. 287/2009 privind Codul Civil
 
 Analizând propunerea legislativă pentru modificarea și completarea Legii nr. 51/1995 pentru organizarea și exercitarea profesiei de avocat, precum și pentru completarea Legea nr. 287/2009 privind Codul Civil (b563/14.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/5662/16.11.2026 și înregistrată la Consiliul Legislativ cu nr. D956/17.11.2026,
 
@@ -24,7 +24,7 @@ Intervențiile legislative preconizate sunt argumentate în Expunerea de motive 
 
 \- instituirea unor garanții privind proporționalitatea rezervării activităților, secretul profesional, protecția datelor, prevenirea spălării banilor, răspunderea profesională și conflictele de interese".
 
-2\. Propunerea legislativă face parte din categoria legilor organice, fiind incidente prevederile art. 73'alin. (3) lit. h) din Constituția României, republicată, iar în aplicarea prevederilor art. 75 alin. (1) din Legea fundamentală, prima Cameră sesizată este Senatul.
+2\. Propunerea legislativă face parte din categoria legilor organice, fiind incidente prevederile art. 73 alin. (3) lit. h) din Constituția României, republicată, iar în aplicarea prevederilor art. 75 alin. (1) din Legea fundamentală, prima Cameră sesizată este Senatul.
 
 3\. Precizăm că, prin avizul pe care îl emite, Consiliul Legislativ nu se pronunță asupra oportunității soluțiilor legislative preconizate.
 
@@ -52,7 +52,7 @@ Precizăm că evaluarea preliminară a impactului noilor reglementări asupra dr
 
 ² Directiva (UE) 2018/958 a Parlamentului European și a Consiliului din 28 iunie 2018 privind efectuarea unui test de proporționalitate înainte de adoptarea unor noi reglementări referitoare la profesii stabilește un cadru comun pentru efectuarea evaluării proporționalității înainte de a introduce noi dispoziții sau de a modifica dispozițiile legale existente care restricționează accesul la profesiile reglementate sau exercitarea acestora, în vederea asigurării bunei funcționări a pieței interne, garantând totodată un nivel ridicat de protecție a consumatorilor.
 
-În acest sens, semnalăm că, potrivit prevederilor art. 5 alin. (2) din Legea nr. 245/2020, în cazul inițiativelor parlamentare, obligația de evaluare a proporționalității, în conformitate cu prevederile art. 7 din același act normativ, înainte de a introduce noi reglementări profesionale care restricționează accesul liber la profesiile reglementate sau exercitarea acestora ori înainte de a modifica reglementările existente evaluării revine deputaților și/sau senatorilor inițiatori.
+În acest sèns, semnalăm că, potrivit prevederilor art. 5 alin. (2) din Legea nr. 245/2020, în cazul inițiativelor parlamentare, obligația de evaluare a proporționalității, în conformitate cu prevederile art. 7 din același act normativ, înainte de a introduce noi reglementări profesionale care restricționează accesul liber la profesiile reglementate sau exercitarea acestora ori înainte de a modifica reglementările existente evaluării revine deputaților și/sau senatorilor inițiatori.
 
 Evaluarea trebuie realizată obiectiv și independent,³ pe baza unor elemente calitative și, când este posibil și relevant, cantitative⁴. Art. 6 alin. (2) din același act normativ stabilește suficient de detaliat motivele obiective care să permită evaluarea conformității cu principiul proporționalității în momentul inițierii, respectiv al avizării proiectelor vizate. Acestea pot fi motive de ordine publică, de siguranță publică sau de sănătate publică ori de motive imperative de interes general, cum ar fi, de exemplu: păstrarea echilibrului financiar al sistemului de securitate socială; protecția consumatorilor, a beneficiarilor serviciilor și a lucrătorilor; garantarea bunei administrări a justiției; asigurarea corectitudinii tranzacțiilor comerciale; combaterea fraudei și prevenirea cazurilor de evaziune fiscală și de evitare a obligațiilor fiscale și asigurarea eficacității supravegherii fiscale; siguranța transporturilor; protecția mediului și a mediului urban; sănătatea animalelor; proprietatea intelectuală; protejarea și conservarea patrimoniului național istoric și artistic; obiectivele de politică socială; obiectivele de politică culturală.
 
@@ -72,7 +72,7 @@ Din documentația transmisă nu rezultă efectuarea unei evaluări potrivit crit
 
 Precizăm că în Decizia nr. 366 din 29 iunie 2022⁶, Curtea Constituțională a reținut că normele de tehnică legislativă referitoare la integrarea proiectului de lege în ansamblul legislației statuează că actul normativ trebuie să se integreze organic în sistemul legislației, scop în care actul normativ trebuie corelat cu prevederile actelor normative de nivel superior sau de același nivel cu care se află în conexiune, conform art. 13 lit. a) din Legea nr. 24/2000⁷, precum și că legiferarea rămâne atribuția exclusivă a Parlamentului care însă, în procesul de elaborare a actelor normative, are obligația de a respecta principiile constituționale și să gândească, în consecință, un sistem legislativ coerent, armonios, coordonat și eficient, care să protejeze valorile statului de drept și să asigure un echilibru just între interesele colective, pe de o parte, și cele individuale, pe de altă parte⁸.
 
-În acest sens, precizăm că, după cum se va dezvolta în cele ce urmează, soluțiile preconizate în prezenta propunere legislativă trebuie corelate cu dispozițiile unor acte normative, precum:
+În acest sens, precizăm că, după cum se va dezvolta în cele ce urmează, soluțiile preconizate în prezenta propunere legislativă trebuie correlate cu dispozițiile unor acte normative, precum:
 
 a) Legea notarilor publici și a activității notariale nr. 36/1995, republicată, cu modificările și completările ulterioare;
 
@@ -160,7 +160,7 @@ Referitor la aceste aspecte, semnalăm că, la paragrafele 80 și 81 din Decizia
 
 ¹³ Citând pct. 2.21 și 2.22 din Decizia nr. 682 din 27 iunie 2012.
 
-De asemenea, în decizie s-a reținut că „Fundamentarea temeinică a inițiativelor legislative reprezintă o exigență impusă de dispozițiile constituționale menționate, întrucât previne arbitrarul în activitatea de legiferare, asigurând că legile propuse și adoptate răspund unor nevoi sociale reale și dreptății sociale (...)”.
+De asemenea, în decizie s-a reținut că „Fundamentarea temeinică a inițiativelor legislative reprezintă o exigență impusă de dispozițiile constituționale menționate, întrucât previne arbitrarul în activitatea de legiferare, asigurând că legile propuse și adoptate răspund unor nevoi sociale reale și dreptății sociale (...)"
 
 8.2. Cu titlu preliminar, în ceea ce privește sistematizarea propunerii legislative. semnalăm că la art. I pct. 1 - 8 sunt preconizate intervenții asupra art. 3 din Legea nr. 51/1995, iar la pct. 9 se propune completarea cu un nou articol, art. 3¹, conținând patru alineate ale căror ipoteze juridice decurg din dispozițiile normative ale art. 3, în mod organic.
 
@@ -174,7 +174,7 @@ Totodată, precizăm că, urmare a intervențiilor legislative propuse la art. I
 
 Precizăm că, în jurisprudența sa, Curtea Constituțională a reținut că, prin raportare la dispozițiile art. 1 alin. (3) din Constituție privind statul de drept, accesibilitatea și previzibilitatea legii sunt cerințe ale principiului securității raporturilor juridice, constituind garanții împotriva arbitrarului ¹⁵ .
 
-¹⁴ ,(2) Activitățile prevăzute la alin. (1) se exercită numai de avocat, dacă legea nu prevede altfel”.
+¹⁴ ,(2) Activitățile prevăzute la alin. (1) se exercită numai de avocat, dacă legea nu prevede altfel".
 
 ¹⁵ A se vedea, cu titlu exemplificativ, Decizia nr. 139 din 13 martie 2019, publicată în Monitorul Oficial al României, Partea I, nr. 336 din 3 mai 2019, paragraful 81.
 
@@ -200,15 +200,15 @@ Pe de altă parte, soluția legislativă este susceptibilă a constitui o discri
 
 ¹⁶ ,(2) Contractul de mediere se încheie între mediator, pe de o parte, și părțile aflate în conflict, pe de altă parte".
 
-17 „(1) Reglementările de același nivel și având același obiect se cuprind, de regulă, într-un singur act normativ”.
+¹⁷ ,(1) Reglementările de același nivel și având același obiect se cuprind, de regulă, într-un singur act normativ".
 
-18 „(1) Pârțile aflate în conflict au dreptul să fie asistate de avocat sau de alte persoane, în condițiile stabilite de comun acord”.
+18 „(1) Părțile aflate în conflict au dreptul să fie asistate de avocat sau de alte persoane, în condițiile stabilite de comun acord”.
 
-¹⁹ , "(1) Cetățenii sunt egali în fața legii și a autorităților publice, fără privilegii și fără discriminări."
+¹⁹ ,(1) Cetățenii sunt egali în fața legii și a autorităților publice, fără privilegii și fără discriminări."
 
 ²⁰ Comitetul de Miniștri al Consiliului Europei a adoptat mai multe Recomandări specifice relative la mediere:
 
-1\. Recomandarea nr. 98 (1) referitoare la medierea in materie familiara, în special la divorț și custodia minorilor;
+1\. Recomandarea nr. 98 (1) referitoare la medierea în materie familiala, în special la divorț și custodia minorilor;
 
 2\. Recomandarea nr. 99 (1) asupra medierii în materie penală cu scopul de a stimula participarea activă a victimelor și a persoanelor care au comis infracțiuni la procedura penală;
 
@@ -246,7 +246,7 @@ Totodată, potrivit dispozițiilor art. 180 alin. (2) și art. 182 alin. (3) din
 
 În actuala redactare, norma preconizată este neclară, deoarece nu este precizată în mod expres instituția juridică avută în vedere, prin indicarea corespunzătoare a mandatului de drept comun ori a mandatului de ocrotire sau, dacă este vizată curatela, prin păstrarea distincției dintre desemnarea convențională și numirea curatorului de către instanță. Trimiterea generală la „cazurile și condițiile prevăzute de Codul civil” nu clarifică acest aspect.
 
-Pe de altă parte, este de reflectat dacă activitatea de curatelă este o activitate profesională, specifică avocatului, sau dacă persoana care are calitatea de avocat poate să fie desemnat curator și în absența normei preconizate, cu atât mai mult cu cât în norma propusă la art. I pct. 6 pentru art. 3 alin. (1) lit. i) din Legea nr. 51/1995, „activitățile de la lit. g⁴) se desfășoară în condițiile stabilite de codul civil si codul de procedură civilă”.
+Pe de altă parte, este de reflectat dacă activitatea de curatelă este o activitate profesională, specifică avocatului, sau dacă persoana care are calitatea de avocat poate să fie desemnat curator și în absența normei preconizate, cu atât mai mult cu cât în norma propusă la art. I pct. 6 pentru art. 3 alin. (1) lit. i) din Legea nr. 51/1995, „activitățile de la lit. g⁴) se desfășoară în condițiile stabilite de codul civil și codul de procedură civilă”.
 
 Contractul de asistență juridică nu poate constitui, prin el însuși, titlul juridic al exercitării funcției de curator, ci doar cu îndeplinirea și a celorlalte condiții speciale de dobândire și exercitare a funcției. Apreciem că reglementarea posibilității încheierii unui contract de asistență juridică trebuie să se realizeze cu respectarea regulilor speciale privind gratuitatea funcției, stabilirea remunerației de către testator sau controlul remunerației de către instanță.
 
@@ -258,7 +258,7 @@ Contractul de asistență juridică nu poate constitui, prin el însuși, titlul
 
 Totodată, precizăm că expresia „formalităților de înregistrare aferente”, prin gradul mare de generalitate, este improprie stilului normativ, deoarece din actuala redactare nu rezultă cu suficientă precizie dacă ipoteza juridică vizează exclusiv formalitățile necesare constituirii și autorizării funcționării societății, înainte de începerea activității economice, sau și operațiunile ulterioare, în cursul exercitării activității profesioniștilor prevăzuți la art. 4 alin. (1) din Legea nr. 265/2022 privind registrul comerțului și pentru modificarea și completarea altor acte normative cu incidență asupra înregistrării în registrul comerțului, cu modificările și completările ulterioare.
 
-8.7. La art. I pct. 7, referitor la soluția legislativă preconizată pentru art. 3 alin. (1) lit. k¹) semnalăm că, prin faptul că este exceptată doar aducerea atingere a „atribuțiilor notarilor publici, consilierilor juridici în raport cu persoanele juridice în serviciul cărora se află, competențelor si serviciilor prevăzute de lege pentru camerele de comerț și industrie și pentru Oficiul Național al Registrului Comerțului și oficiile registrului comerțului de pe lângă tribunale”, ipotezele juridice vizate nu se corelează cu dispozițiile art. 6 alin. (1) și art. 33 alin. (2) din Ordonanța Guvernului nr. 26/2000 cu privire la asociații și fundații, aprobată cu modificări și completări prin Legea nr. 246/2005, cu modificările și completările ulterioare, potrivit cărora „(1) În vederea dobândirii personalității juridice, membrii asociați încheie statutul asociației, prin act sub semnătură privată”, respectiv „(2) Cererea de înscriere a modificării va fi însoțită de hotărârea adunării generale, iar în cazul modificării sediului, de hotărârea consiliului director. Hotărârile se depun în copie certificată pentru conformitate cu originalul de persoana sau persoanele împuternicite prin hotărârea adunării generale sau, după caz, a consiliului director să desfășoare procedura de înregistrare a modificării”.
+8.7. La art. I pct. 7, referitor la soluția legislativă preconizată pentru art. 3 alin. (1) lit. k¹) semnalăm că, prin faptul că este exceptată doar aducerea atingere a „atribuțiilor notarilor publici, consilierilor juridici în raport cu persoanele juridice în serviciul cărora se află, competențelor si serviciilor prevăzute de lege pentru camerele de comerț și industrie si pentru Oficiul Național al Registrului Comerțului si oficiile registrului comerțului de pe lângă tribunale”, ipotezele juridice vizate nu se corelează cu dispozițiile art. 6 alin. (1) și art. 33 alin. (2) din Ordonanța Guvernului nr. 26/2000 cu privire la asociații și fundații, aprobată cu modificări și completări prin Legea nr. 246/2005, cu modificările și completările ulterioare, potrivit cărora „(1) În vederea dobândirii personalității juridice, membrii asociați încheie statutul asociației, prin act sub semnătură privată”, respectiv „(2) Cererea de înscriere a modificării va fi însoțită de hotărârea adunării generale, iar în cazul modificării sediului, de hotărârea consiliului director. Hotărârile se depun în copie certificată pentru conformitate cu originalul de persoana sau persoanele împuternicite prin hotărârea adunării generale sau, după caz, a consiliului director să desfășoare procedura de înregistrare a modificării”.
 
 Referitor la soluția legislativă preconizată pentru art. 3 alin. (1) lit. k²), semnalăm că soluția legislativă preconizată, potrivit căreia activitatea avocatului se realizează prin „reprezentarea juridică în fața instanțelor judecătorești exercitându-se potrivit dispozițiilor Codului de procedură civilă", trebuie correlate cu dispozițiile art. 80 alin. (1) din Legea nr. 134/2010 privind Codul de procedură civilă, republicată, cu modificările și completările ulterioare, potrivit căruia „Părțile pot să exercite drepturile procedurale personal sau prin reprezentant. Reprezentarea poate fi legală, convențională sau judiciară", dispoziție care, de plano, nu impune prezența avocatului în exercitarea drepturilor procedurale.
 
@@ -266,7 +266,7 @@ Referitor la norma propusă pentru art. 3 alin. (1) lit. k³), semnalăm că sol
 
 În context, referitor la soluția legislativă de instituire a obligativității asistării și reprezentării prin avocat în recurs, precizăm că în Decizia nr. 462/2014²², Curtea Constituțională a reținut că limitările accesului la justiție trebuie să urmărească un scop legitim și să păstreze un raport rezonabil de proporționalitate²³ între mijloacele utilizate și scopul urmărit. Considerentele privind sarcina impusă justițiabilului sunt relevante pentru aprecierea soluției propuse, cu luarea în considerare a particularităților procedurilor de divorț.
 
-Totodată, în aceeași decizie, Curtea a reținut că stabilirea unor condiționări pentru introducerea acțiunilor în justiție nu constituie, în sine, o încălcare a accesului liber la justiție, el presupunând accesul la mijloacele procedurale 'prin care se înfăptuiește justiția, fiind de competența exclusivă a legiuiitorului de a institui regulile de desfășurare a procesului în fața instanțelor judecătorești, soluție ce rezultă din dispozițiile art. 126 alin. (2) din Constituție²⁴.
+Totodată, în aceeași decizie, Curtea a reținut că stabilirea unor condiționări pentru introducerea acțiunilor în justiție nu constituie, în sine, o încălcare a accesului liber la justiție, el presupunând accesul la mijloacele procedurale prin care se înfăptuiește justiția, fiind de competența exclusivă a legiuiitorului de a institui regulile de desfășurare a procesului în fața instanțelor judecătorești, soluție ce rezultă din dispozițiile art. 126 alin. (2) din Constituție²⁴.
 
 Însă legiuiitorul este ținut să o facă orientându-se după principiul est modus in rebus, respectiv să fie preocupat ca exigențele instituite să fie îndeajuns de rezonabile încât să nu pună sub semnul întrebării însăși existența dreptului ²⁵ . În aceste condiții orice limitare a accesului liber la justiție, oricât de neînsemnată ar fi, trebuie să fie temeinic justificată, analizându-se în ce măsură dezavantajele create de ea nu cumva depășesc posibilele avantaje ²⁶ .
 
@@ -338,7 +338,7 @@ Precizăm că, potrivit prevederilor art. 3 alin. (1) din Legea nr. 200/2004 pri
 
 Totodată, în anexa nr. 4 din respectivul act normativ sunt prevăzute profesiile reglementate în România care necesită cunoașterea dreptului român, iar potrivit prevederilor art. 38 alin. (2) din respectiva lege, „Pentru profesiile prevăzute în anexa nr. 4, cunoașterea dreptului român se face prin examen de admitere în fiecare dintre profesiile cuprinse în anexă³¹”.
 
-8.10. La art. I pct. 10, referitor la textul propus pentru art. 25¹ alin. (1), potrivit căruia „Uniunea Națională a Barourilor din România poate solicita instanței emiterea unui ordin de a acționa împotriva unor elemente de conținut ilegal difuzate prin intermediul unui serviciu intermediar, atunci când acestea: a) oferă sau promovează prestarea pentru terți, fără drept, a unor activități specifice profesiei de avocat, cu încălcarea dispozițiilor art. 3 alin. (2) și ale art. 25 alin. (2) sau (3), după caz; b) încalcă dispozițiile art. 59 alin. (6). Ordinul se emite cu respectarea condițiilor prevăzute la art. 9 din Regulamentul (UE) 2022/2065 și la art. 7 alin. (2) din Legea nr. 50/2024.", este de analizat dacă soluția legislativă nu încalcă dispozițiile art. 30 și 31 din Constituție, care consacră „Dreptul la informație”, respectiv „Libertatea de exprimare”. Avem în vedere că protecția constituțională nu privește numai exprimarea opiniilor politice sau jurnalistice, ci și comunicarea de informații, inclusiv prin intermediul internetului.
+8.10. La art. I pct. 10, referitor la textul propus pentru art. 25¹ alin. (1), potrivit căruia „Uniunea Națională a Barourilor din România poate solicita instanței emiterea unui ordin de a acționa împotriva unor elemente de conținut ilegal difuzate prin intermediul unui serviciu intermediar, atunci când acestea: a) oferă sau promovează prestarea pentru terți, fără drept, a unor activități specifice profesiei de avocat, cu încălcarea dispozițiilor art. 3 alin. (2) și ale art. 25 alin. (2) sau (3), după caz; b) încalcă dispozițiile art. 59 alin. (6). Ordinul se emite cu respectarea condițiilor prevăzute la art. 9 din Regulamentul (UE) 2022/2065 și la art. 7 alin. (2) din Legea nr. 50/2024.”, este de analizat dacă soluția legislativă nu încalcă dispozițiile art. 30 și 31 din Constituție, care consacră „Dreptul la informație”, respectiv „Libertatea de exprimare”. Avem în vedere că protecția constituțională nu privește numai exprimarea opiniilor politice sau jurnalistice, ci și comunicarea de informații, inclusiv prin intermediul internetului.
 
 De asemenea, pe lângă faptul că textul utilizează o expresie foarte generică, respectiv „activități specifice profesiei de avocat, cu încălcarea dispozițiilor art. 3 alin. (2) și ale art. 25 alin. (2) sau (3), după caz;”, acesta nici nu precizează suficient de clar dacă măsura care se raportează la „elemente de conținut ilegal difuzate prin intermediul unui serviciu intermediar” trebuie să vizeze: un anumit material publicat online, o anumită ofertă de servicii, o anumită pagină web, un anumit cont de utilizator sau o anumită activitate desfășurată prin intermediul platformei. Precizăm că această distincție este importantă, deoarece nu orice activitate considerată neconformă cu Legea nr. 51/1995 justifică automat eliminarea unui conținut online sau restricționarea accesului la un serviciu.
 
@@ -350,11 +350,11 @@ Cu privire la aceste termene, este de analizat dacă persoana împotriva căreia
 
 Totodată, stabilirea mecanismului care permite UNBR să solicite instanței măsuri ce pot determina încetarea unor activități online sau intervenția furnizorilor de servicii intermediare este susceptibilă să încalce prevederile art. 30 alin. (2) din Legea fundamentală, potrivit cărora „Cenzura de orice fel este interzisă”.
 
-8.11. La art. I pct. 14, cu referire la textele propuse pentru art. 34 alin. (5) și (6), care introduc dreptul avocatului de a păstra asupra sa și de a utiliza dispositive electronice în sediile instanțelor, parchetelor, organelor de cercetare penală, locurilor de deținere și altor autorități și instituții publice, semnalăm că există instituții în care introducerea dispositivelor electronice poate genera riscuri obiective, respectiv: penitenciare; centre de reținere și arestare preventivă; instituții care gestionează informații clasificate; structuri de apărare, ordine publică și securitate națională; spații în care se desfășoară operațiuni administrative confidențiale, unde simpla introducere a dispositivului poate constitui un risc.
+8.11. La art. I pct. 14, cu referire la textele propuse pentru art. 34 alin. (5) și (6), care introduc dreptul avocatului de a păstra asupra sa și de a utiliza dispozitive electronice în sediile instanțelor, parchetelor, organelor de cercetare penală, locurilor de deținere și altor autorități și instituții publice, semnalăm că există instituții în care introducerea dispozitivelor electronice poate genera riscuri obiective, respectiv: penitenciare; centre de reținere și arestare preventivă; instituții care gestionează informații clasificate; structuri de apărare, ordine publică și securitate națională; spații în care se desfășoară operațiuni administrative confidențiale, unde simpla introducere a dispozitivului poate constitui un risc.
 
 8.12. La art. I pct. 15, referitor la norma propusă pentru art. 34¹ alin. (3), semnalăm că soluția legislativă este imprecisă, deoarece nu este precizat în mod expres mecanismul de stabilire a caracterului protejat al datelor, aplicațiilor sau materialelor pentru care avocatul invocă secretul profesional.
 
-Textul interzice examinarea acestora până la stabilirea caracterului lor protejat, fără a identifica expressis verbis autoritatea competentă și procedură aplicabilă în cazul unui dezacord între avocat și organul de control.
+Textul interzice examinarea acestora până la stabilirea caracterului lor protejat, fără a identifica expressis verbis autoritatea competentă și procedura aplicabilă în cazul unui dezacord între avocat și organul de control.
 
 Precizăm că de lege lata, sunt reglementate unele mecanisme sectoriale, precum cel prevăzut la art. 38 alin. (9) din Legea concurenței nr. 21/1996, care stabilește modalitatea de justificare a protecției, sigilarea comunicării contestate și supunerea acesteia analizei și deciziei președintelui Consiliului Concurenței. Acest mecanism privește însă inspecțiile din materia concurenței, în timp ce norma propusă are în vedere o categorie mai largă de proceduri.
 
@@ -410,13 +410,13 @@ Totodată, semnalăm că sintagma „pun în acord cu dispozițiile acesteia” 
 
 9.1. La titlu, pentru rigoarea redactării, prepoziția „pentru”, din debut, ar putea fi înlocuită cu prepoziția „privind”.
 
-Totodată, pentru rigoarea redactării, este necesară eliminarea formulărilor „(Forma rezultată după dezbaterile formei inițiale cu mediul antreprenorial, prefesiile liberale și societatea civilă din 29 octombrie și 6 noiembrie a.c.). Prezenta formă înlocuiește forma inițială”, ca înadecvate.
+Totodată, pentru rigoarea redactării, este necesară eliminarea formulărilor „(Forma rezultată după dezbaterile formei inițiale cu mediul antreprenorial, prefesiile liberale și societatea civilă din 29 octombrie și 6 noiembrie a.c.). Prezenta formă înlocuiește forma inițială”, ca inadecvate.
 
-Observația este valabilă și pentru expresii precum „Se elimină introducerea lit. d¹)”, („Se elimină g⁵)” ori „Se elimină k¹ din propunerea inițială” sau „Se elimină modificarea alin. (2); se păstrează textul în vigoare”.
+Observația este valabilă și pentru expresii precum „Se elimină introducerea lit. d¹”, „Se elimină g⁵” ori „Se elimină k¹ din propunerea inițială” sau „Se elimină modificarea alin. (2); se păstrează textul în vigoare”.
 
 9.2. Pentru lejeritatea reglementării, propunem comasarea art. I pct. 1 - 3 și 5 - 7, ale căror părți dispozitive dispun modificarea și completarea art. 3 alin. (1), astfel încât partea dispozitivă a pct. 1 să aibă următoarea redactare:
 
-„1. La articolul 3 alineatul (1) se modifică și va avea următorul cuprins.”.
+„1. La articolul 3 alineatul (1) se modifică și va avea următorul cuprins:”.
 
 În continuare se vor reda atât partea introductivă a alineatului amendat, cât și textele modificate, nemodificate și nou introduse, fără a fi marcate cu indici, iar normele de trimitere trebuie revăzute.
 
@@ -428,7 +428,7 @@ Reiterăm această observație, în mod corespunzător pentru toate cazurile sim
 
 9.4. La actualul pct. 6, în textul propus pentru art. 3 alin. (1) lit. i), pentru rigoarea redactării, finalul enumerării ar putea fie reformulat după cum urmează: „... activitățile prevăzute la lit. g⁴) se desfășoară în condițiile stabilite de prevederile Codului civil și ale Codului de procedură civilă”.
 
-9.5. La actualul pct. 7, partea dispozitivă dispune inserarea lit. k¹) – k⁵) în alcătuirea art. 3 alin. (1), însă, de lege lata, respectivul alineat cuprinde doar lit. a) – k), astfel încât completarea trebuie să vizeze introducerea lit. l) – o).
+9.5. La actualul pct. 7, partea dispozitivă dispune inserarea lit. k¹) – k⁵) în alcătuirea art. 3 alin. (1), însă, de lege lata, respectivul alineat cuprinde doar lit. a) – k), astfel încât completarea trebuie să vizeze introducerea lit. I) – o).
 
 În textul propus pentru actuala lit. k¹), pentru coerența textului, este necesară revederea și reformularea sintagmei „sau de înființare”, întrucât este neclară, deoarece nu se specifică ce se dorește a se înființa.
 
@@ -440,7 +440,7 @@ La actuala lit. k⁴), pentru o redactare specific normativă, propunem ca sinta
 
 Observația este valabilă pentru toate situațiile similare.
 
-9.7. La actualul pct. 10, pentru o identificarea facilă, propunem ca în fața alin. (1) să fie inserată abrevierea „Art. 25¹”.
+9.7. La actualul pct. 10, pentru o identificarea facilă, propunem ca în fața alin. (1) să fie inserată abrevierea „Art. 25I”.
 
 În textul propus pentru partea introductivă a art. 25¹ alin. (1), pentru concordanță cu prevederile art. 1 din actul normativ de bază, propunem ca denumirea „Uniunea Națională a Barourilor din România” să fie scrisă sub formă abreviată, respectiv „U.N.B.R.”.
 
@@ -504,7 +504,7 @@ La actualele alin. (2) - (4), care vor deveni alin. (1) - (3) ale art. IV, din a
 
 Ca urmare a celor de mai sus, este necesar ca propunerea legislativă să fie reconsiderată în totalitate, atât din punctul de vedere al configurării soluțiilor preconizate, care trebuie să fie în concordanță cu dispozițiile legale în vigoare, cât și din punctul de vedere al exprimării soluțiilor, în acord cu exigențele de tehnică legislativă, în mod clar și precis, fără echivoc.
 
-PRESEINT
+PRESEDIN
 
 Florin/ORDACHE
 

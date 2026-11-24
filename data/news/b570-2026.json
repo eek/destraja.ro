@@ -2,13 +2,58 @@
   "slug": "b570-2026",
   "billId": "B570/2026",
   "checkedAt": "2026-11-16T09:19:16.943Z",
-  "indexCheckedAt": "2026-11-13T09:10:27.078Z",
+  "indexCheckedAt": "2026-11-24T11:29:28.020Z",
   "models": {
     "agy": "error: cod 1: error: invalid model selection (--model \"gemini-4-hydrogen-high\" --effort \"\"): model gemini-4-hydrogen-high is not recognized as a known model or custom model in settings",
     "claude": "ok",
-    "codex": "ok"
+    "codex": "ok",
+    "index": "ok"
   },
   "articles": [
+    {
+      "url": "https://newsweek.ro/pensie/impozitul-pe-pensiile-militare-pensionarii-recupereaza-banii-in-2-ani-se-aplica-la-pensiile-civile",
+      "title": "Consiliul Legislativ aprobă. Impozitul pe pensiile militare recuperat în 2 ani. Se aplică la pensiile civile? • Newsweek România",
+      "outlet": "Newsweek România",
+      "domain": "newsweek.ro",
+      "publishedAt": "2026-11-24",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Proiectul de lege care le oferă înapoi impozitul luat ilegal pe pensii se va da în 2 ani, eșalonat.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-24",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-24",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "supportive",
+            "stanceP": 0.511,
+            "source": "national_news",
+            "sourceP": 0.967,
+            "about": 0.991,
+            "release": 0.026
+          },
+          "d1": {
+            "stance": "supportive",
+            "stanceP": 0.461,
+            "source": "national_news",
+            "sourceP": 0.711,
+            "about": 0.755,
+            "release": 0.085
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.92,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.99
+          }
+        }
+      }
+    },
     {
       "url": "https://www.bzi.ro/bani-inapoi-pentru-pensionari-cum-si-cand-s-ar-putea-inapoia-sumele-oprite-din-impozit-in-2024-2025-5631450",
       "title": "Bani înapoi pentru pensionari. Cum și când s-ar putea înapoia sumele oprite din impozit în 2024-2025",

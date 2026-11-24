@@ -1,0 +1,17 @@
+19.11.2026
+
+## Către, BIROUL PERMANENT AL SENATULUI
+
+Subsemnata, Doina-Elena Federovici, senator ales în Circumscripția electorală nr. 07, Botoșani, solicit să aprobați dobândirea calității de coinițiator al următoarelor propuneri legislative:
+
+\- Propunere legislativă pentru modificarea și completarea Legii nr.169/2026 privind Codul amenajării teritoriului, urbanismului și construcțiilor (L597/2026);
+
+\- Propunere legislativă pentru completarea unor acte normative privind sistemele fotovoltaice de balcon (b618/2026);
+
+\- Propunere legislativă pentru completarea Legii nr.196/2018 privind înființarea, organizarea și funcționarea asociațiilor de proprietari și administrarea condominiilor și pentru modificarea art.299 din Legea nr.169/2026 privind Codul amenajării teritoriului, urbanismului și construcțiilor (b619/2026);
+
+\- Propunere legislativă pentru modificarea și completarea Legii nr.331/2024 privind Codul silvic, precum și pentru modificarea art.12 din Legea energiei electrice și a gazelor naturale nr.123/2012 (b623/2026);
+
+Vă mulțumesc.
+
+Senator Doina-Elena FEDEROVICI, Chestor v Senatului

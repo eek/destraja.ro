@@ -1,7 +1,12 @@
 {
   "slug": "plx-445-2026",
   "billId": "PL-x 445/2026",
-  "updatedAt": "2026-10-29T13:10:43.925Z",
+  "updatedAt": "2026-11-24T10:07:39.658Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -16,7 +21,9 @@
         "agy": 4,
         "claude": 3,
         "codex": 3
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "senat",
@@ -31,7 +38,26 @@
         "agy": 2,
         "claude": 3,
         "codex": 3
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl445_cd445_26.docx.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Amendă separată pentru bărcile care merg prea repede prin satele din Deltă, fără confiscarea bărcii",
+      "summaryTlDr": "Este o lege tehnică, în esență benignă, care face sancțiunea mai proporțională: depășirea vitezei în zonele de 5 km/h primește o contravenție proprie, iar barca nu mai este confiscată. Promisiunile din expunerea de motive sunt însă mai mari decât textul adoptat, pentru că limita de 5 km/h și interdicția valurilor distructive nu apar în lege.",
+      "scores": {
+        "agy": 4,
+        "claude": 2,
+        "codex": 3
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
     }
   ],
   "changes": [
@@ -153,6 +179,97 @@
       "model": "claude",
       "schema": 3,
       "updatedAt": "2026-10-29T13:10:43.925Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Limita de 5 km/h nu mai e scrisă în lege, ci trimite la regulile Guvernului; amenzile rămân aceleași",
+      "summary": "Acum legea nu mai fixează ea limita de 5 km/h și zonele. Trimite la regulile de navigație aprobate de Guvern (HG 538/2015). Amenzile și scutirea de confiscare a bărcii au rămas la fel ca în forma adoptată de Senat.",
+      "changes": [
+        {
+          "title": "Limita de viteză o stabilesc regulile Guvernului",
+          "text": "Art. I pct. 1: inițial legea fixa direct limita de 5 km/h. Acum sancționează încălcarea regulilor din zonele de 5 km/h stabilite prin reglementările în vigoare, pe care Guvernul le poate modifica.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. I pct. 1",
+          "before": "Nerespectarea regulilor de navigație și circulație cu o limită maximă de viteză de 5 km/h pe territoriul Rezervației Biosferei «Delta Dunării», cu excepția brațelor Dunării",
+          "after": "nerespectarea regulilor de navigație și circulație stabilite pentru zonele în care viteza maximă admisă este de 5 km/h, conform reglementărilor în vigoare privind accesul și circulația navelor și ambarcațiunilor pe canalele și lacurile interioare",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Zonele de acostare sunt cele din regulament",
+          "text": "Art. I pct. 1: inițial era vorba de o „zonă” nedefinită în jurul punctelor de acostare. Acum sunt vizate zonele de 5 km/h stabilite prin regulament, deci se știe mai clar unde se aplică limita.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. I pct. 1",
+          "before": "în zona punctelor permise pentru acostarea/staționarea navelor și ambarcațiunilor și în zona punctelor permise pentru acostarea/staționarea pontoanelor-dormitor",
+          "after": "sau în zonele punctelor permise pentru acostarea/staționarea navelor și ambarcațiunilor ori în zonele punctelor permise pentru acostarea/staționarea pontoanelor-dormitor",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Limita de 5 km/h nu e în lege; Guvernul poate schimba regulile prin HG",
+            "major": true,
+            "article": "art. I pct. 1"
+          },
+          {
+            "text": "Fapta se suprapune cu pct. 6, unde se confiscă barca; prioritatea nu e precizată",
+            "major": true,
+            "article": "art. I pct. 1"
+          },
+          {
+            "text": "Formularea poate sancționa orice abatere de navigație din zonă, nu doar viteza",
+            "major": true,
+            "article": "art. I pct. 1"
+          },
+          {
+            "text": "Minimul amenzii pentru firme urcă de la 320 la 500 lei, fără justificare",
+            "major": true,
+            "article": "art. I pct. 2"
+          },
+          {
+            "text": "Interdicția valurilor distructive din expunerea de motive lipsește din text",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Pentru depășirea vitezei barca nu se mai confiscă",
+            "major": true,
+            "article": "art. I pct. 3"
+          },
+          {
+            "text": "Amendă moderată: 250–700 lei, 125 lei dacă se plătește în 15 zile",
+            "major": true,
+            "article": "art. I pct. 2"
+          },
+          {
+            "text": "Brațele Dunării sunt exceptate de la limita de 5 km/h",
+            "major": true,
+            "article": "art. I pct. 1"
+          },
+          {
+            "text": "Guvernul trebuie să actualizeze HG 538/2015 în 30 de zile",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 9,
+        "removed": 11,
+        "same": 0.36
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-24T10:07:39.658Z"
     }
   ]
 }

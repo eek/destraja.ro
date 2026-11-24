@@ -2,7 +2,7 @@
   "billId": "Pl-x 711/2026",
   "slug": "plx-711-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:49:09.717Z",
+  "updatedAt": "2026-11-24T14:50:47.484Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,22 +31,23 @@
     "key": "cff9a20b91eaeda4"
   },
   "consensus": {
-    "riskScore": 2.5,
+    "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "Fără CNP și adresă de domiciliu la liber în Monitorul Oficial",
-    "summaryTlDr": "Proiect pozitiv și necesar, care oprește expunerea publică a CNP-ului și adresei de domiciliu ale antreprenorilor în Monitorul Oficial. Necesită însă mici ajustări tehnice ca să nu blocheze publicarea sediilor sociale ale firmelor și să acorde un termen real de implementare.",
-    "initiatorClaim": "Inițiatorii spun că, deși Legea nr. 265/2022 cere respectarea protecției datelor, în practică CNP-ul și domiciliul apar la liber în Monitorul Oficial (Părțile a IV-a și a VII-a), expunând cetățenii la furt de identitate. Ei propun să oblige clar Monitorul Oficial să elimine aceste date înainte de publicare, păstrând doar numele, prenumele și calitatea.",
-    "realityCheck": "În realitate, legea își atinge scopul principal fără capcane ascunse, introducând art. 12¹ în Legea nr. 202/1998. Are însă trei scăpări practice: obligă Regia Autonomă „Monitorul Oficial” să anonimizeze actele imediat (la 3 zile de la publicare), deși normele de aplicare au termen 30 de zile; nu exceptează expres sediul social al firmei când coincide cu domiciliul asociatului; și lasă toată munca de cenzurare la Monitorul Oficial, nu la ONRC, ceea ce ar putea crește costurile sau întârzierile de publicare.",
+    "plainTitle": "Fără CNP și adresă de domiciliu în actele firmelor publicate în Monitorul Oficial",
+    "summaryTlDr": "Este o lege scurtă, utilă și protectoare: Monitorul Oficial ar înceta să publice CNP-uri și adrese ale asociaților și administratorilor. Riscul real ține doar de redactare, pentru că termenul «anonimizare» nu e definit, datele vizate nu sunt enumerate și nu există un termen de aplicare.",
+    "initiatorClaim": "Inițiatorii USR spun că actele firmelor și cooperativelor apar azi în Monitorul Oficial cu CNP și adresă de domiciliu, ceea ce facilitează frauda de identitate. Ei vor ca RA Monitorul Oficial să elimine aceste date înainte de publicare, păstrând numele, prenumele și calitatea persoanei.",
+    "realityCheck": "Art. I introduce art. 12¹ în Legea 202/1998 și obligă RA «Monitorul Oficial» să anonimizeze datele personale din actele publicate în Partea a IV-a (societăți) și Partea a VII-a (cooperative), cu excepția numelui, prenumelui și calității. Art. II cere secretarului general al Camerei Deputaților să modifice Ordinul 367/2022 în 30 de zile. Efectul practic este pozitiv, dar textul nu spune ce date se ascund concret (de exemplu sediul social stabilit la domiciliul asociatului) și se aplică la 3 zile de la publicare, înainte de adaptarea procedurilor. Publicările deja făcute rămân neatinse.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Justiție & Drepturi Civile",
-      "Contabili & Fiscalitate"
+      "Contabili & Fiscalitate",
+      "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I (art. 12¹) și Art. II",
-      "proposalContent": "La art. 12¹ alin. (2), după „calitatea acesteia” se adaugă „precum și datele de identificare ale persoanei juridice, inclusiv sediul social”. Art. II se completează cu: „Art. I intră în vigoare la 30 de zile de la publicarea prezentei legi, odată cu modificarea Ordinului nr. 367/2022.”",
-      "argumentation": "Proiectul este util, dar fără această excepție RAMO ar putea ascunde sediul social al firmelor stabilit la domiciliul asociatului, încălcând publicitatea societară. Totodată, legea ar intra în vigoare la 3 zile de la publicare, creând un blocaj de 27 de zile până la adaptarea Ordinului nr. 367/2022.",
-      "otherComments": "Recomandăm înlocuirea termenului „anonimizează” cu „elimină sau ocultează”, deoarece păstrarea numelui face persoana identificabilă în sens GDPR. De asemenea, ar trebui stabilit că procesul nu duce la creșterea tarifelor de publicare pentru IMM-uri și corelat cu transmiterea de date de la ONRC."
+      "articleRef": "Art. I – art. 12¹ alin. (2) și art. III nou",
+      "proposalContent": "Art. 12¹ alin. (2): «Se elimină cel puțin codul numeric personal, seria și numărul actului de identitate, data și locul nașterii și adresa de domiciliu sau reședință. Nu se elimină numele, prenumele, calitatea persoanei și sediul social al entității.» Art. III nou: «Prezenta lege intră în vigoare la 60 de zile de la publicarea în Monitorul Oficial.»",
+      "argumentation": "«Anonimizarea» nu e definită, iar numele rămâne vizibil, deci e de fapt o mascare parțială. Enumerarea datelor asigură previzibilitatea (art. 1 alin. (5) din Constituție) și o aplicare uniformă. Sediul social e o dată a societății, necesară terților, chiar dacă e la domiciliul asociatului. Termenul de 60 de zile evită aplicarea înainte de modificarea Ordinului 367/2022.",
+      "otherComments": "Propun clarificarea răspunderii: solicitantul publicării rămâne răspunzător de conținut, iar RA MO doar maschează categoriile enumerate. Ar fi utile o prevedere privind tratarea arhivei online existente, măcar la cererea persoanei vizate, și o estimare a costului pentru RA MO și a impactului asupra tarifelor plătite de firme."
     }
   },
   "council": {
@@ -85,8 +86,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 46503,
+      "sourceEndMarker": "SF-C074D320",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Fără CNP și adresă de domiciliu în actele firmelor publicate în Monitorul Oficial",
+      "verdictShort": "Este o lege scurtă, utilă și protectoare: Monitorul Oficial ar înceta să publice CNP-uri și adrese ale asociaților și administratorilor. Riscul real ține doar de redactare, pentru că termenul «anonimizare» nu e definit, datele vizate nu sunt enumerate și nu există un termen de aplicare.",
+      "initiatorClaim": "Inițiatorii USR spun că actele firmelor și cooperativelor apar azi în Monitorul Oficial cu CNP și adresă de domiciliu, ceea ce facilitează frauda de identitate. Ei vor ca RA Monitorul Oficial să elimine aceste date înainte de publicare, păstrând numele, prenumele și calitatea persoanei.",
+      "realityCheck": "Art. I introduce art. 12¹ în Legea 202/1998 și obligă RA «Monitorul Oficial» să anonimizeze datele personale din actele publicate în Partea a IV-a (societăți) și Partea a VII-a (cooperative), cu excepția numelui, prenumelui și calității. Art. II cere secretarului general al Camerei Deputaților să modifice Ordinul 367/2022 în 30 de zile. Efectul practic este pozitiv, dar textul nu spune ce date se ascund concret (de exemplu sediul social stabilit la domiciliul asociatului) și se aplică la 3 zile de la publicare, înainte de adaptarea procedurilor. Publicările deja făcute rămân neatinse.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 12¹ alin. (1): obligația de anonimizare cade pe RA «Monitorul Oficial», nu pe solicitant sau pe ONRC. Regia devine astfel responsabilă de prelucrare și de eventualele omisiuni.",
+        "Art. 12¹ alin. (2): numele, prenumele și calitatea rămân publice, deci se asigură în continuare transparența privind cine conduce și cine deține firma. Nu este o anonimizare în sens GDPR, ci o mascare parțială.",
+        "Textul nu enumeră datele de ascuns (CNP, serie/număr act de identitate, data și locul nașterii, domiciliu). Rămâne neclar dacă sediul social sau punctul de lucru stabilit la domiciliul unei persoane fizice trebuie mascat, deși acesta este o dată a societății, necesară terților.",
+        "Art. II fixează 30 de zile pentru modificarea Ordinului 367/2022, dar legea nu are un termen amânat de intrare în vigoare. Obligația din art. 12¹ devine aplicabilă înainte ca procedura să fie adaptată.",
+        "Legea nu are efect asupra arhivei deja publicate și nici asupra datelor din registrul ONRC. Problema e rezolvată doar pentru viitor și doar la nivelul Monitorului Oficial.",
+        "Legea nu are fișă de impact privind costul pentru RA MO (verificare manuală sau automatizată a mii de acte). Acest cost s-ar putea reflecta indirect în tarifele de publicare plătite de firme."
+      ],
+      "blindSpotsCaught": "Termenul «anonimizare» intră în contradicție cu păstrarea numelui: în sensul Regulamentului (UE) 2016/679 (considerentul 26), datele anonimizate nu mai permit identificarea, deci corect ar fi «mascare» sau «eliminare». În plus, fără CNP și domiciliu, persoanele cu nume identice nu mai pot fi deosebite din Monitor. Creditorii și instanțele vor trebui să recurgă la ONRC. Este un compromis acceptabil, dar ar trebui asumat explicit.",
+      "constitutionalityNote": "Proiectul consolidează art. 26 (viața intimă și privată) fără să afecteze esențial art. 31 (dreptul la informație), deoarece identitatea și calitatea persoanelor rămân publice. Problema principală ține de art. 1 alin. (5), adică de claritatea și previzibilitatea normei: lipsesc definiția anonimizării și lista datelor vizate, ceea ce poate duce la aplicare neuniformă. Art. II, care obligă un funcționar al Camerei să modifice un ordin, este o tehnică admisibilă. Nu se pune problema art. 138 alin. (5), regia funcționând din venituri proprii.",
+      "euLawNote": "Proiectul este conform cu GDPR (minimizarea datelor, art. 5 alin. (1) lit. c) și cu jurisprudența CJUE (C-92/09 Schecke; C-37/20 și C-601/20 WM și Sovim). Directiva (UE) 2017/1132 privind dreptul societăților cere publicitatea identității persoanelor care reprezintă societatea, dar nu impune publicarea CNP-ului sau a domiciliului; păstrarea numelui și a calității satisface această cerință. Directiva 2018/958 nu este aplicabilă, nefiind vizată o profesie reglementată. Nici TRIS 2015/1535 nu se aplică, proiectul neinstituind reguli pentru servicii ale societății informaționale. Nu există impact asupra pieței unice sau a concurenței.",
+      "senatForm": {
+        "articleRef": "Art. I – art. 12¹ alin. (2) și art. III nou",
+        "proposalContent": "Art. 12¹ alin. (2): «Se elimină cel puțin codul numeric personal, seria și numărul actului de identitate, data și locul nașterii și adresa de domiciliu sau reședință. Nu se elimină numele, prenumele, calitatea persoanei și sediul social al entității.» Art. III nou: «Prezenta lege intră în vigoare la 60 de zile de la publicarea în Monitorul Oficial.»",
+        "argumentation": "«Anonimizarea» nu e definită, iar numele rămâne vizibil, deci e de fapt o mascare parțială. Enumerarea datelor asigură previzibilitatea (art. 1 alin. (5) din Constituție) și o aplicare uniformă. Sediul social e o dată a societății, necesară terților, chiar dacă e la domiciliul asociatului. Termenul de 60 de zile evită aplicarea înainte de modificarea Ordinului 367/2022.",
+        "otherComments": "Propun clarificarea răspunderii: solicitantul publicării rămâne răspunzător de conținut, iar RA MO doar maschează categoriile enumerate. Ar fi utile o prevedere privind tratarea arhivei online existente, măcar la cererea persoanei vizate, și o estimare a costului pentru RA MO și a impactului asupra tarifelor plătite de firme."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -139,7 +170,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:49:09.717Z",
+      "replacedAt": "2026-11-24T14:50:47.484Z",
       "reasons": [
         "model"
       ]

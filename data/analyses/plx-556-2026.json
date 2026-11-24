@@ -2,7 +2,7 @@
   "billId": "PL-x 556/2026",
   "slug": "plx-556-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:51:31.379Z",
+  "updatedAt": "2026-11-24T14:52:57.912Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -33,10 +33,10 @@
   "consensus": {
     "riskScore": 5,
     "riskLevel": "yellow",
-    "plainTitle": "Bugetul de stat preia ajutoare, costuri IT și facilități pentru pensiile neintegrate, inclusiv ale cultelor",
-    "summaryTlDr": "Sub o etichetă legitimă de egalitate între pensionari, proiectul adoptat tacit de Senat transferă cheltuieli neevaluate pe bugetul de stat, obligă Poșta Română la tarife plafonate pentru entități autonome și introduce scutiri și redirecționări fiscale necorelate.",
-    "initiatorClaim": "Inițiatorii susțin că proiectul elimină discriminările față de pensionarii sistemelor neintegrate (în special ai cultelor religioase), permite mamelor cumularea stagiilor din sisteme diferite și rezolvă blocaje administrative privind actele de stare civilă, platforma europeană EESSI și regimul fiscal.",
-    "realityCheck": "Alături de măsuri utile (cumulul stagiilor pentru mame la art. 51 alin. 3 și accesul la EESSI), proiectul obligă bugetul de stat să plătească „toate drepturile sociale” și pensia minimă garantată unor pensionari din sisteme autonome unde statul nu controlează contribuțiile. În plus, impune Poștei Române tarife plafonate pentru clienți nepublici, pune CNPP să finanțeze infrastructura IT locală a caselor private/autonome și direcționează CAS-ul aferent salariilor subvenționate de stat către fondurile proprii ale acestor sisteme, fără fișă financiară.",
+    "plainTitle": "Pensionarii caselor de pensii ale cultelor și ai altor sisteme separate primesc aceleași ajutoare ca cei de la stat, iar casele lor primesc facilități fiscale",
+    "summaryTlDr": "Corectează discriminări reale, cum ar fi cumularea stagiilor pentru mame, accesul la EESSI și recuperarea banilor de la bănci. Însă extinde beneficii plătite din bugetul de stat fără sursă de finanțare indicată și adaugă facilități fiscale pentru casele de pensii ale cultelor, cu trimiteri legislative neclare.",
+    "initiatorClaim": "Inițiatorii vor să elimine tratamentul discriminatoriu aplicat persoanelor asigurate sau pensionate în sistemele neintegrate, în special la casele cultelor religioase. Vor și să deblocheze probleme administrative: documente de stare civilă, recuperări de la bănci, tarife poștale, acces la platformele UE și virarea contribuțiilor.",
+    "realityCheck": "Proiectul declară sistemele neintegrate parte a sistemului național de securitate socială. Le dă pensionarilor acces la indemnizația socială și la ajutoarele ocazionale finanțate din bugetul de stat sau din fonduri UE. Obligă CNPP să le asigure, pe banii săi, infrastructura EESSI și impune Poștei Române tarifele stabilite pentru sistemul public. În Codul fiscal, casele de pensii ale cultelor sunt asimilate unei categorii scutite de impozit pe profit. Contribuțiile CAS aferente salariilor, inclusiv celor plătite din subvenții publice, merg obligatoriu în fondurile acestor case, nu la bugetul asigurărilor sociale de stat. Nu există fișă financiară, iar Senatul a adoptat proiectul tacit, fără dezbatere.",
     "affectedGroups": [
       "Contabili & Fiscalitate",
       "Angajați & HR",
@@ -44,10 +44,10 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 1 (art. 4¹ alin. 2) și pct. 3",
-      "proposalContent": "La art. 4¹ alin. (2), eliminarea sintagmei «toate drepturile sociale, inclusiv de indemnizația socială» și limitarea la ajutoarele ocazionale acordate expres prin lege, pe baza verificării stagiului minim și a veniturilor cumulate. Eliminarea art. 97 alin. (3¹) privind impunerea tarifelor Poștei Române.",
-      "argumentation": "Încalcă art. 138 alin. (5) și art. 111 alin. (1) din Constituție: introduce cheltuieli permanente de la buget fără fișă financiară și creează hazard moral prin completarea unor pensii din sisteme necontrolate de stat. Impunerea de tarife plafonate Poștei Române fără compensare contravine art. 45 și 135 din Constituție și normelor UE de concurență.",
-      "otherComments": "Solicitați fișa financiară de la Guvern (art. 111 Constituție). Clarificați titlul executoriu la art. 156 alin. (8), eliminați plata de către CNPP a infrastructurii locale private (art. 152¹) și corectați art. 15¹ și 137¹ Cod fiscal: termenul «Biserică» exclude culte necreștine, iar impactul asupra BASS trebuie evaluat conform art. 4 Cod fiscal."
+      "articleRef": "Art.I pct.1 – art.4¹ alin.(2) Legea 360/2023",
+      "proposalContent": "(2) Pensionarii exclusivi ai unui sistem neintegrat beneficiază, ca pensionarii sistemului public, de indemnizația socială din OUG nr.6/2009 și de ajutoarele ocazionale finanțate din bugetul de stat sau din fonduri europene. Sumele se prevăd distinct în buget; plata se face prin casele teritoriale, pe baza datelor transmise de casele neintegrate.",
+      "argumentation": "Formula «toate drepturile sociale» e vagă (art.1 alin.5 Const.) și poate fi citită ca extindere la orice drept din bugetul asigurărilor sociale de stat. Enumerarea limitativă păstrează scopul egalității, iar indicarea sursei de finanțare respectă art.138 alin.(5) Const. și evită neconstituționalitatea pentru lipsa fișei financiare.",
+      "otherComments": "Verificați trimiterea din art.15¹ Cod fiscal la art.15 alin.(1) lit.a), care nu pare să vizeze cultele. În art.97 alin.(3¹), «cote» nu corespunde «procentului și tarifului» din alin.(2). Art.137¹ alin.(2) mută în casele cultelor CAS aferentă salariilor subvenționate de stat. Solicitați punctul de vedere al Guvernului și definiți «sistem neintegrat»."
     }
   },
   "council": {
@@ -89,8 +89,40 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 61851,
+      "sourceEndMarker": "SF-115B044B",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Pensionarii caselor de pensii ale cultelor și ai altor sisteme separate primesc aceleași ajutoare ca cei de la stat, iar casele lor primesc facilități fiscale",
+      "verdictShort": "Corectează discriminări reale, cum ar fi cumularea stagiilor pentru mame, accesul la EESSI și recuperarea banilor de la bănci. Însă extinde beneficii plătite din bugetul de stat fără sursă de finanțare indicată și adaugă facilități fiscale pentru casele de pensii ale cultelor, cu trimiteri legislative neclare.",
+      "initiatorClaim": "Inițiatorii vor să elimine tratamentul discriminatoriu aplicat persoanelor asigurate sau pensionate în sistemele neintegrate, în special la casele cultelor religioase. Vor și să deblocheze probleme administrative: documente de stare civilă, recuperări de la bănci, tarife poștale, acces la platformele UE și virarea contribuțiilor.",
+      "realityCheck": "Proiectul declară sistemele neintegrate parte a sistemului național de securitate socială. Le dă pensionarilor acces la indemnizația socială și la ajutoarele ocazionale finanțate din bugetul de stat sau din fonduri UE. Obligă CNPP să le asigure, pe banii săi, infrastructura EESSI și impune Poștei Române tarifele stabilite pentru sistemul public. În Codul fiscal, casele de pensii ale cultelor sunt asimilate unei categorii scutite de impozit pe profit. Contribuțiile CAS aferente salariilor, inclusiv celor plătite din subvenții publice, merg obligatoriu în fondurile acestor case, nu la bugetul asigurărilor sociale de stat. Nu există fișă financiară, iar Senatul a adoptat proiectul tacit, fără dezbatere.",
+      "affectedGroups": [
+        "Contabili & Fiscalitate",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art.I pct.1 (art.4¹ alin.2): pensionarii exclusivi ai sistemelor neintegrate primesc indemnizația socială (OUG 6/2009) și ajutoarele ocazionale. Formula «toate drepturile sociale» e vagă și poate fi citită extensiv. Plata se face prin casele teritoriale publice, adică un cost bugetar și administrativ nou, fără sursă de finanțare indicată.",
+        "Art.I pct.2 (art.51 alin.3): stagiile din sistemul public și din cele neintegrate se pot cumula pentru reducerea vârstei de pensionare a mamelor. Este o măsură utilă și echitabilă. Textul nu spune însă care sistem acordă și suportă pensia, nici cum se face transferul de date.",
+        "Art.I pct.3 (art.97 alin.3¹): Poșta Română este obligată să aplice și sistemelor neintegrate tarifele din legea bugetului asigurărilor sociale. Textul vorbește de «cote», în timp ce alin.(2) folosește «procentul și tariful». Este o intervenție legală în prețurile unui operator comercial, fără compensare.",
+        "Art.I pct.5 (art.152¹): CNPP trebuie să asigure «prin grija» sa infrastructura locală la sediile caselor neintegrate, deci o cheltuială din bugetul public pentru entități private. Aplicația «JINA» nu este definită în lege.",
+        "Art.I pct.4 și 6: casele neintegrate pot cere extrase de stare civilă și pot obține de la bănci restituirea pensiilor virate după deces. Este pozitiv, dar art.156 alin.(7) vorbește în continuare doar de «casa teritorială de pensii», iar art.100 alin.(4) trimite circular la alin.(2).",
+        "Art.II pct.1 (art.15¹ Cod fiscal): casele de pensii ale cultelor sunt trimise la art.15 alin.(1) lit.a). Litera respectivă pare să nu vizeze cultele religioase, al căror regim e condiționat, ci altă categorie scutită integral. Rezultatul poate fi o scutire mai largă decât a cultului însuși. Formula «parte componentă a Bisericii» (la singular, cu majusculă) este neclară pentru celelalte culte.",
+        "Art.II pct.2 (art.137¹ alin.2): CAS aferentă salariilor plătite «din subvenții», de exemplu sprijinul de la stat pentru salarizarea clerului, se virează obligatoriu în casa cultului. Asta reduce veniturile bugetului asigurărilor sociale de stat, fără o evaluare a impactului."
+      ],
+      "blindSpotsCaught": "Proiectul a fost adoptat tacit de Senat (art.75 alin.2 teza a III-a din Constituție), deci fără dezbatere. Este o inițiativă parlamentară cu impact bugetar evident: beneficii din bugetul de stat, cheltuieli ale CNPP, venituri CAS redirecționate, scutire de impozit. Nu există însă fișă financiară și nici sursă de acoperire. Sintagma «sisteme de pensii neintegrate» nu este definită: poate include casele cultelor, dar și CAA a avocaților sau alte sisteme profesionale, care ar primi aceleași facilități. Trimiterea la art.15 alin.(1) lit.a) din Codul fiscal trebuie verificată, pentru că pare o eroare materială cu efect fiscal major.",
+      "constitutionalityNote": "Obiectivul de egalitate (art.16) și cel de protecție socială (art.47) sunt legitime, iar CCR a sancționat anterior excluderea acestor pensionari de la ajutoare finanțate din bugetul de stat. Riscurile constituționale sunt însă reale. (1) Art.138 alin.(5) și art.111 alin.(1) teza a II-a: o măsură care crește cheltuielile sau reduce veniturile cere sursă de finanțare și informarea Guvernului. CCR a constatat constant neconstituționalitatea în lipsa fișei financiare și a punctului de vedere al Guvernului. (2) Art.1 alin.(5), privind claritatea și previzibilitatea: sintagme ca «toate drepturile sociale» și «cote», trimiterea discutabilă la art.15 alin.(1) lit.a) și noțiunea nedefinită de «sistem neintegrat» sunt problematice. (3) Art.29 alin.(3)-(5) și art.16: un regim fiscal formulat pentru «Biserică» poate crea inegalitate între culte.",
+      "euLawNote": "Directiva 2018/958 (testul de proporționalitate) nu se aplică, deoarece proiectul nu reglementează accesul la profesii. Nici TRIS 2015/1535 nu se aplică: accesul la EESSI nu creează reguli tehnice pentru servicii ale societății informaționale. Art.152¹ sprijină aplicarea Regulamentelor 883/2004 și 987/2009, care cer instituțiilor competente schimb electronic prin EESSI, deci este conform dreptului UE. Prelucrarea datelor de stare civilă și a celor din EESSI cere un temei clar potrivit GDPR (art.6 alin.1 lit.c/e). Scutirea fiscală și tarifele poștale impuse pot ridica întrebări de ajutor de stat (art.107 TFUE) doar dacă respectivele case ar desfășura activitate economică. Schemele de solidaritate socială sunt, de regulă, excluse (jurisprudența Poucet și Pistre).",
+      "senatForm": {
+        "articleRef": "Art.I pct.1 – art.4¹ alin.(2) Legea 360/2023",
+        "proposalContent": "(2) Pensionarii exclusivi ai unui sistem neintegrat beneficiază, ca pensionarii sistemului public, de indemnizația socială din OUG nr.6/2009 și de ajutoarele ocazionale finanțate din bugetul de stat sau din fonduri europene. Sumele se prevăd distinct în buget; plata se face prin casele teritoriale, pe baza datelor transmise de casele neintegrate.",
+        "argumentation": "Formula «toate drepturile sociale» e vagă (art.1 alin.5 Const.) și poate fi citită ca extindere la orice drept din bugetul asigurărilor sociale de stat. Enumerarea limitativă păstrează scopul egalității, iar indicarea sursei de finanțare respectă art.138 alin.(5) Const. și evită neconstituționalitatea pentru lipsa fișei financiare.",
+        "otherComments": "Verificați trimiterea din art.15¹ Cod fiscal la art.15 alin.(1) lit.a), care nu pare să vizeze cultele. În art.97 alin.(3¹), «cote» nu corespunde «procentului și tarifului» din alin.(2). Art.137¹ alin.(2) mută în casele cultelor CAS aferentă salariilor subvenționate de stat. Solicitați punctul de vedere al Guvernului și definiți «sistem neintegrat»."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -146,7 +178,7 @@
         "codex": 5
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:51:31.379Z",
+      "replacedAt": "2026-11-24T14:52:57.912Z",
       "reasons": [
         "model"
       ]

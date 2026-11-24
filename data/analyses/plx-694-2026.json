@@ -2,7 +2,7 @@
   "billId": "PL-x 694/2026",
   "slug": "plx-694-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:49:15.933Z",
+  "updatedAt": "2026-11-24T14:51:55.488Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,22 +31,22 @@
     "key": "a7523ed0559ed19a"
   },
   "consensus": {
-    "riskScore": 7.5,
+    "riskScore": 7,
     "riskLevel": "red",
-    "plainTitle": "Interzicerea deducerii serviciilor și plafonarea dobânzilor între firme din același grup",
-    "summaryTlDr": "Sub pretextul combaterii optimizării fiscale, proiectul impune o nedeductibilitate absolută și o plafonare neclară care penalizează și tranzacțiile reale, creând dublă impunere internă pentru grupurile românești și risc major de neconstituționalitate și infringement UE.",
-    "initiatorClaim": "Inițiatorii susțin că vor să oprească transferul artificial al profiturilor în afara țării și supraîndatorarea fictivă în cadrul grupurilor de societăți, prin reguli clare și previzibile care să protejeze bugetul și concurența loială.",
-    "realityCheck": "În realitate, art. 25 alin. (4) lit. w) elimină 100% deductibilitatea cheltuielilor cu managementul, consultanța, asistența și transferul drepturilor de proprietate intelectuală intra-grup, indiferent dacă sunt reale, necesare sau la preț de piață — lovind inclusiv grupurile pur românești cu dublă impozitare (venit impozitat la prestator, cheltuială nedeductibilă la beneficiar). În paralel, plafonul pentru dobânzi și majorări de întârziere din lit. o) folosește noțiuni nedefinite legal („intra-grup”, „dobânda medie”) și se suprapune necorelat peste regulile deja existente în Codul fiscal.",
+    "plainTitle": "Firmele din grupuri nu mai pot deduce consultanța, managementul și licențele plătite altor firme din grup, iar dobânzile la împrumuturile din grup primesc un plafon",
+    "summaryTlDr": "Scopul, combaterea transferului de profit, e legitim, dar instrumentul e prea brutal. Lit.w) interzice complet deducerea unor servicii intra-grup, chiar reale și la preț de piață, fără drept de probă contrară. Termenii-cheie nu sunt definiți, iar data de 1 ianuarie 2027 e deja nerealistă pentru un proiect aflat încă la comisii.",
+    "initiatorClaim": "Inițiatorii vor să oprească erodarea bazei impozabile prin servicii intra-grup greu de verificat (management, consultanță, asistență, proprietate intelectuală) și prin dobânzi intra-grup excesive, cu reguli „clare și previzibile”.",
+    "realityCheck": "Art.I pct.2 face complet nedeductibile, la impozitul pe profit, cheltuielile cu management, consultanță, asistență sau „transferul drepturilor de proprietate intelectuală” din contracte intra-grup, indiferent dacă serviciul e real, necesar și plătit la valoarea de piață. Măsura lovește și grupurile mici, 100% românești, de pildă un holding care ține contabilitatea filialelor, și produce dublă impunere economică: prestatorul plătește impozit pe venit, beneficiarul nu poate deduce costul. Art.I pct.1 adaugă un plafon de rată pentru dobânzile și majorările de întârziere intra-grup („dobânda medie + cel mult 1%” din statul creditorului), suprapus peste limitarea deja existentă prin lit.h) și art.40^2, fără regulă de corelare și fără definirea „dobânzii medii”.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "IT & AI",
       "Contabili & Fiscalitate"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 1-2 și Art. II (art. 25 Cod fiscal)",
-      "proposalContent": "Eliminarea Art. I pct. 1-2 sau condiționarea nedeductibilității de lipsa scopului economic ori depășirea valorii de piață (art. 11 Cod fiscal), cu definirea clară a „intra-grup” și a dobânzii de referință. Prorogarea Art. II cu minimum 6 luni de la publicare.",
-      "argumentation": "Nedeductibilitatea totală lovește și grupurile românești cu tranzacții reale, generând dublă impunere internă și încălcând dreptul UE (art. 49/56 TFUE, proporționalitate CJUE) și art. 56 alin. (2) Constituție. Termenii „intra-grup” și „dobânda medie” nu sunt definiți (art. 1 alin. 5 Constituție), iar intrarea la 1.01.2027 încalcă art. 4 Cod fiscal.",
-      "otherComments": "Combaterea transferului artificial de profituri dispune deja de art. 11 (prețuri de transfer/GAAR) și art. 40^2 (ATAD) din Codul fiscal. Propunerea nu corelează noua lit. o) cu art. 25 alin. (3) lit. h) și art. 40^2 și lipsește un studiu de impact economic și fiscal conform Legii nr. 24/2000."
+      "articleRef": "Art.I pct.2 – art.25 alin.(4) lit.w) Cod fiscal",
+      "proposalContent": "Lit.w) devine: „w) cheltuielile cu servicii de management, consultanță, asistență sau cu drepturi de proprietate intelectuală achiziționate de la persoane afiliate, potrivit art.7 pct.26, pentru care contribuabilul nu demonstrează prin documentația prețurilor de transfer prestarea efectivă, beneficiul economic și respectarea principiului valorii de piață.”",
+      "argumentation": "Interdicția absolută lovește și serviciile reale, la preț de piață, inclusiv în grupuri 100% românești, și creează dublă impunere economică. CJUE (C-524/04, Lexel C-484/19) cere ca normele anti-abuz să permită contribuabilului să probeze justificarea comercială. Varianta propusă vizează doar costurile artificiale, în acord cu art.11 Cod fiscal și Ghidul OCDE.",
+      "otherComments": "La lit.o): definiți „dobânda medie” (sursă, monedă, scadență, perioadă), clarificați raportul cu lit.h) și art.40^2 și înlocuiți „intra-grup” cu „persoane afiliate”. Art.II: data de 1.01.2027 nu respectă termenul de 6 luni din art.4 Cod fiscal; propun 1 ianuarie a anului următor publicării, la minimum 6 luni."
     }
   },
   "council": {
@@ -86,8 +86,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 74478,
+      "sourceEndMarker": "SF-E92943C6",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Firmele din grupuri nu mai pot deduce consultanța, managementul și licențele plătite altor firme din grup, iar dobânzile la împrumuturile din grup primesc un plafon",
+      "verdictShort": "Scopul, combaterea transferului de profit, e legitim, dar instrumentul e prea brutal. Lit.w) interzice complet deducerea unor servicii intra-grup, chiar reale și la preț de piață, fără drept de probă contrară. Termenii-cheie nu sunt definiți, iar data de 1 ianuarie 2027 e deja nerealistă pentru un proiect aflat încă la comisii.",
+      "initiatorClaim": "Inițiatorii vor să oprească erodarea bazei impozabile prin servicii intra-grup greu de verificat (management, consultanță, asistență, proprietate intelectuală) și prin dobânzi intra-grup excesive, cu reguli „clare și previzibile”.",
+      "realityCheck": "Art.I pct.2 face complet nedeductibile, la impozitul pe profit, cheltuielile cu management, consultanță, asistență sau „transferul drepturilor de proprietate intelectuală” din contracte intra-grup, indiferent dacă serviciul e real, necesar și plătit la valoarea de piață. Măsura lovește și grupurile mici, 100% românești, de pildă un holding care ține contabilitatea filialelor, și produce dublă impunere economică: prestatorul plătește impozit pe venit, beneficiarul nu poate deduce costul. Art.I pct.1 adaugă un plafon de rată pentru dobânzile și majorările de întârziere intra-grup („dobânda medie + cel mult 1%” din statul creditorului), suprapus peste limitarea deja existentă prin lit.h) și art.40^2, fără regulă de corelare și fără definirea „dobânzii medii”.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "IT & AI"
+      ],
+      "keyFindings": [
+        "Art.I pct.2 (art.25 alin.(4) lit.w)) instituie o nedeductibilitate absolută, fără excepții și fără posibilitatea de a dovedi realitatea și prețul de piață al serviciului. Asta intră în contradicție cu logica art.11 din Codul fiscal (principiul valorii de piață, prețuri de transfer) și cu regula actuală din art.25 alin.(4), care sancționează doar serviciile nejustificate sau fără contract.",
+        "Termenul „intra-grup” nu este definit în Codul fiscal, care folosește noțiunea de „persoane afiliate” (art.7 pct.26). Nu reiese dacă norma acoperă și grupurile pur domestice ori doar relațiile cu nerezidenți, ceea ce afectează previzibilitatea (art.1 alin.(5) din Constituție).",
+        "La lit.w), formula „transferul drepturilor de proprietate intelectuală” e ambiguă: nu e clar dacă vizează doar cesiunea drepturilor sau și redevențele de licență (software, mărci, know-how). Interpretarea extensivă ar lovi masiv firmele IT și de producție care folosesc licențe ale grupului.",
+        "Art.I pct.1 (art.25 alin.(3) lit.o)) nu definește „dobânda medie”: sursa statistică, moneda, scadența, tipul creditului și perioada de referință lipsesc. „Marja fixă de cel mult 1%” sugerează discreție, deși plafonul ar trebui să fie fix. Raportarea la statul creditorului permite deduceri mai mari când creditorul e într-o țară cu dobânzi ridicate și creează nepotriviri valutare, de exemplu la un credit în lei de la o mamă din zona euro.",
+        "Noua lit.o) se suprapune cu lit.h), care trimite deja dobânzile la limitarea din art.40^2 (transpunerea ATAD). Lipsește ordinea de aplicare a celor două plafoane, la fel și tratamentul sumelor nedeductibile: sunt reportabile, ca în art.40^2, sau pierdute definitiv?",
+        "Art.II fixează intrarea în vigoare la 1 ianuarie 2027, deși la 24.11.2026 proiectul e încă la comisii. Termenul de cel puțin 6 luni de la art.4 din Codul fiscal nu mai poate fi respectat, iar o publicare după 1.01.2027 ar ridica o problemă de retroactivitate (art.15 alin.(2) din Constituție)."
+      ],
+      "blindSpotsCaught": "Litera n) a art.25 alin.(3) apare în forma consolidată ca „Eliminată”. Proiectul introduce o lit.o) după ea, dar textul nu explică raportul cu regimul existent al dobânzilor (lit.h) și art.40^2), care are deja praguri, reportare și excepții. Mai subtil: interdicția de la lit.w) nu distinge între prestatorii rezidenți și nerezidenți. Asta o ferește parțial de reproșul de discriminare pe dreptul UE, dar o face să lovească și grupurile românești fără nicio componentă de transfer în străinătate, unde impozitul se plătește oricum în România. Data fixă din Art.II, 1.01.2027, e practic imposibil de respectat procedural.",
+      "constitutionalityNote": "Art.1 alin.(5) (calitatea legii): noțiunile „intra-grup”, „dobânda medie”, „asistență” și „transferul drepturilor de proprietate intelectuală” sunt imprecise, deci destinatarul nu își poate anticipa obligația fiscală. Art.56 alin.(2) (așezarea justă a sarcinilor fiscale): nedeductibilitatea absolută a unor cheltuieli reale impozitează practic venitul brut, nu profitul, fără legătură cu existența unui abuz. Se poate discuta și o atingere adusă art.45 (libertatea economică) și art.135 alin.(2) lit.a) (concurența loială), deoarece aceeași prestație e deductibilă dacă vine de la un terț și nedeductibilă dacă vine din grup. Art.15 alin.(2): dacă legea apare în Monitorul Oficial după 1.01.2027, data fixă din Art.II ar produce efecte retroactive. Proiectul aduce venituri suplimentare la buget, deci nu ridică probleme din perspectiva art.138 alin.(5).",
+      "euLawNote": "Directiva 2018/958 (test de proporționalitate pentru profesii reglementate) și Directiva TRIS 2015/1535 nu sunt aplicabile: proiectul nu reglementează accesul la profesii și nici servicii ale societății informaționale. Pe fond, ATAD (Directiva 2016/1164) e o directivă de standard minim, deci plafoanele suplimentare de dobândă (lit.o)) sunt în principiu admisibile. Pentru lit.w), jurisprudența CJUE privind libertatea de stabilire (art.49 TFUE), de exemplu C-524/04 Test Claimants in the Thin Cap Group Litigation și C-484/19 Lexel, cere ca măsurile anti-abuz să vizeze aranjamente pur artificiale și să permită contribuabilului să dovedească justificarea comercială. O interdicție absolută, fără probă contrară, riscă să fie considerată disproporționată dacă e aplicată efectiv mai sever relațiilor transfrontaliere. Directiva 2003/49 (dobânzi și redevențe) privește impozitul reținut la sursă, nu deductibilitatea, deci nu e încălcată direct. Se creează însă un risc de dublă impunere economică, contrar logicii art.9 din convențiile de evitare a dublei impuneri.",
+      "senatForm": {
+        "articleRef": "Art.I pct.2 – art.25 alin.(4) lit.w) Cod fiscal",
+        "proposalContent": "Lit.w) devine: „w) cheltuielile cu servicii de management, consultanță, asistență sau cu drepturi de proprietate intelectuală achiziționate de la persoane afiliate, potrivit art.7 pct.26, pentru care contribuabilul nu demonstrează prin documentația prețurilor de transfer prestarea efectivă, beneficiul economic și respectarea principiului valorii de piață.”",
+        "argumentation": "Interdicția absolută lovește și serviciile reale, la preț de piață, inclusiv în grupuri 100% românești, și creează dublă impunere economică. CJUE (C-524/04, Lexel C-484/19) cere ca normele anti-abuz să permită contribuabilului să probeze justificarea comercială. Varianta propusă vizează doar costurile artificiale, în acord cu art.11 Cod fiscal și Ghidul OCDE.",
+        "otherComments": "La lit.o): definiți „dobânda medie” (sursă, monedă, scadență, perioadă), clarificați raportul cu lit.h) și art.40^2 și înlocuiți „intra-grup” cu „persoane afiliate”. Art.II: data de 1.01.2027 nu respectă termenul de 6 luni din art.4 Cod fiscal; propun 1 ianuarie a anului următor publicării, la minimum 6 luni."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -141,7 +171,7 @@
         "codex": 7
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:49:15.933Z",
+      "replacedAt": "2026-11-24T14:51:55.488Z",
       "reasons": [
         "model"
       ]

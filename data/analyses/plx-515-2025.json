@@ -2,7 +2,7 @@
   "billId": "Pl-x 515/2025",
   "slug": "plx-515-2025",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:50:20.649Z",
+  "updatedAt": "2026-11-24T14:52:12.755Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,22 +31,22 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 3.5,
+    "riskScore": 3.3,
     "riskLevel": "green",
-    "plainTitle": "Alerte obligatorii prin SMS, RO-ALERT și TV/radio la cutremure, inclusiv pentru seisme slabe",
-    "summaryTlDr": "Intenție benignă de protecție civilă, dar redactare tehnic defectuoasă și necorelată cu legislația RO-ALERT. Riscă să creeze alerte inutile la cutremure inofensive, să încarce rețelele SMS și să impună costuri neacoperite operatorilor telecom și posturilor TV/radio.",
-    "initiatorClaim": "Inițiatorii susțin că România nu are un sistem național unitar de avertizare seismică pentru populație și propun un sistem rapid de tip japonez, care să anunțe cetățenii în intervalul critic înainte ca unda distructivă secundară să ajungă la ei.",
-    "realityCheck": "În realitate, legea impune trimiterea gratuită și prioritară de SMS-uri, mesaje RO-ALERT și întreruperi radio/TV pentru orice cutremur crustal peste 3,5 sau intermediar peste 4,0 — praguri foarte joase, care apar frecvent fără pagube. Textul confundă SMS-ul cu tehnologia Cell Broadcast (RO-ALERT), vorbește eronat de avertizare „anterior producerii” seismelor și mută toate regulile operative în ordine de ministru, decizii ANCOM/CNA și protocoale interinstituționale, fără sursă de finanțare și fără regim de sancțiuni.",
+    "plainTitle": "Alertă pe telefon și la TV imediat după detectarea unui cutremur",
+    "summaryTlDr": "Este o lege utilă, de interes public, fără taxe, sancțiuni sau monopoluri noi. Problemele sunt de execuție: praguri de alertare prea joase, distribuire teritorială lăsată la discreția normelor, nicio sursă de finanțare și ignorarea limitelor tehnice ale SMS-ului clasic.",
+    "initiatorClaim": "Inițiatorii spun că România nu are un sistem național, unitar și accesibil publicului de avertizare seismică timpurie, ci doar unul sectorial orientat spre infrastructura critică din București. Vor ca populația să fie anunțată în secundele dintre detectarea undei primare și sosirea undei secundare, prin SMS, RO-ALERT, radio și TV.",
+    "realityCheck": "Legea obligă STS să genereze, pe baza datelor INCDFP, un mesaj cu ora, coordonatele, magnitudinea și adâncimea seismului. Mesajul se transmite prin operatorii telecom și furnizorii audiovizuali, cu prioritate și gratuit, pentru orice cutremur intermediar cu ML>4 sau crustal cu ML>3,5. Aproape toate detaliile esențiale (ce canal, ce zonă, la ce magnitudine) sunt delegate unor norme prin ordin comun MDLPA–MAI, unor decizii ANCOM/CNA și unui protocol interinstituțional. Pragurile alese ar declanșa frecvent alerte pentru seisme pe care populația nu le simte. Mesajul nu conține nicio instrucțiune de autoprotecție.",
     "affectedGroups": [
       "Toți cetățenii",
       "IMM & Antreprenori",
       "IT & AI"
     ],
     "senatForm": {
-      "articleRef": "Art. 1 alin. (2) și Art. 3",
-      "proposalContent": "La Art. 1(2), eliminarea sintagmei „anterior producerii acestora” și a transmiterii prin SMS, păstrând doar tehnologia Cell Broadcast (RO-ALERT) și canalele audiovizuale. La Art. 3, ridicarea pragului de alertare la magnitudini cu potențial distructiv (ex. ML≥5,0), stabilite științific de INCDFP și DSU.",
-      "argumentation": "Cutremurele nu pot fi prezise înainte de producere, ci detectate după declanșare, înaintea undei S. SMS-ul are latențe mari și nu funcționează în timp real, spre deosebire de Cell Broadcast (RO-ALERT). Pragurile ML>3,5 și ML>4 ar genera zeci de alerte anual pentru seisme inofensive, producând panică și oboseală de alertare.",
-      "otherComments": "Proiectul se suprapune cu OUG 46/2019 (RO-ALERT) și omite sursa de finanțare pentru aplicația STS (art. 138 alin. 5 Constituție). Recomandăm integrarea prevederilor direct în OUG 46/2019, consultarea tehnică a INCDFP, DSU, ANCOM și CNA și evaluarea costurilor pentru operatorii telecom și radiodifuzori."
+      "articleRef": "Art. 4 alin. (2) și Art. 7 alin. (1)",
+      "proposalContent": "Art. 4 alin. (2): Mesajul se transmite prioritar prin RO-ALERT (cell broadcast), numai în zonele unde intensitatea estimată depășește pragul din norme, și conține instrucțiuni scurte de autoprotecție. SMS-ul clasic e complementar. Art. 7 (1): normele se adoptă și cu avizul ministerului de coordonare al INCDFP, STS și ANCOM.",
+      "argumentation": "«Uneia sau tuturor persoanelor» e imprevizibil. Pragurile ML>3,5/ML>4 aplicate național ar genera alerte dese pentru seisme nesimțite, cu risc de ignorare a alertelor reale. SMS-ul clasic are latență prea mare pentru secundele disponibile; cell broadcast e tehnologia RO-ALERT, conformă art. 110 din Directiva 2018/1972.",
+      "otherComments": "Lipsește sursa de finanțare (art. 138 alin. 5 Constituție) și o clauză de exonerare pentru alerte false sau ratate. Coordonatele lat/long sunt inutile pentru public; se poate indica zona epicentrală (ex. «Vrancea») și intensitatea estimată. Corectură: «territoriul» la art. 3."
     }
   },
   "council": {
@@ -86,8 +86,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 46614,
+      "sourceEndMarker": "SF-433503B7",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Alertă pe telefon și la TV imediat după detectarea unui cutremur",
+      "verdictShort": "Este o lege utilă, de interes public, fără taxe, sancțiuni sau monopoluri noi. Problemele sunt de execuție: praguri de alertare prea joase, distribuire teritorială lăsată la discreția normelor, nicio sursă de finanțare și ignorarea limitelor tehnice ale SMS-ului clasic.",
+      "initiatorClaim": "Inițiatorii spun că România nu are un sistem național, unitar și accesibil publicului de avertizare seismică timpurie, ci doar unul sectorial orientat spre infrastructura critică din București. Vor ca populația să fie anunțată în secundele dintre detectarea undei primare și sosirea undei secundare, prin SMS, RO-ALERT, radio și TV.",
+      "realityCheck": "Legea obligă STS să genereze, pe baza datelor INCDFP, un mesaj cu ora, coordonatele, magnitudinea și adâncimea seismului. Mesajul se transmite prin operatorii telecom și furnizorii audiovizuali, cu prioritate și gratuit, pentru orice cutremur intermediar cu ML>4 sau crustal cu ML>3,5. Aproape toate detaliile esențiale (ce canal, ce zonă, la ce magnitudine) sunt delegate unor norme prin ordin comun MDLPA–MAI, unor decizii ANCOM/CNA și unui protocol interinstituțional. Pragurile alese ar declanșa frecvent alerte pentru seisme pe care populația nu le simte. Mesajul nu conține nicio instrucțiune de autoprotecție.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "IT & AI"
+      ],
+      "keyFindings": [
+        "Art. 1 alin. (2): transmiterea prin rețelele celulare și prin canalele audiovizuale se face «cu prioritate și gratuit». Operatorii privați suportă astfel costul fără compensare, la fel ca în regimul RO-ALERT din OUG 46/2019, deci sarcina nu este nouă pentru telecom. Pentru radiodifuzori, obligația este însă formulată generic.",
+        "Art. 3: pragurile ML>4 (adâncime intermediară) și ML>3,5 (crustal) sunt foarte joase. Vrancea produce anual numeroase seisme peste ML 4 care nu sunt resimțite semnificativ. Fără o regulă bazată pe intensitatea estimată la destinatar, apare riscul de «oboseală a alertei» și de ignorare a mesajelor reale.",
+        "Art. 4 alin. (2): mesajul se transmite «uneia sau tuturor persoanelor» de la alin. (1), după magnitudine, «în condițiile stabilite în normele de aplicare». Legea nu fixează niciun criteriu, deci practic întreg mecanismul de diseminare este delegat.",
+        "Art. 2: conținutul minim (latitudine, longitudine, adâncime) este util specialiștilor, nu publicului. Lipsesc zona afectată, intensitatea estimată și o recomandare de acțiune (de ex. «adăpostiți-vă»), adică exact ce contează în câteva secunde.",
+        "Art. 7 alin. (1): normele se adoptă prin ordin comun MDLPA–MAI. Lipsesc ministerul de coordonare al INCDFP (cercetare), STS și ANCOM, deși acestea operează efectiv sistemul.",
+        "Legea nu conține sancțiuni, taxe sau licențe noi și nu creează sarcini pentru cetățeni sau IMM-uri."
+      ],
+      "blindSpotsCaught": "Art. 1 alin. (2) promite informarea «anterior producerii» situației de urgență, dar sistemul descris poate doar detecta seismul deja declanșat și concura cu unda S. Pentru zonele apropiate de epicentru, avertizarea poate sosi după unda distructivă. SMS-ul clasic (punct la punct, store-and-forward) are latențe de secunde până la minute la încărcare mare, deci este nepotrivit pentru avertizarea timpurie. Doar cell broadcast (tehnologia RO-ALERT) răspunde cerinței de viteză, însă legea pune SMS-ul pe picior de egalitate. Legea nu prevede nici exonerare de răspundere pentru alerte false sau ratate (INCDFP, STS, operatori), ceea ce poate descuraja aplicarea. Pare să nu țină cont nici de componentele de avertizare deja operaționale la INCDFP, așa că există risc de suprapunere.",
+      "constitutionalityNote": "Nu se observă atingeri grave ale drepturilor fundamentale, iar obligația de transmitere gratuită are un scop legitim (art. 22 dreptul la viață, art. 34 sănătate) și este proporțională, cu precedent în OUG 46/2019. Rezervele țin de previzibilitate (art. 1 alin. 5): art. 4 alin. (2) și art. 5 lasă elementele esențiale pe seama normelor și a deciziilor ANCOM/CNA, fără criterii legale. Propunerea implică cheltuieli (aplicația STS, integrarea INCDFP–RO-ALERT), dar nu indică sursa de finanțare (art. 138 alin. 5). De asemenea, trebuie solicitat punctul de vedere al Guvernului (art. 111 alin. 1). CCR a constatat în mod repetat neconstituționalitatea pentru lipsa fișei financiare, iar acesta este un risc procedural real.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă, pentru că legea nu reglementează nicio profesie. TRIS (2015/1535) este puțin probabil aplicabilă: obligațiile privesc rețele și servicii de comunicații electronice (reglementate de Directiva 2018/1972, EECC) și servicii media audiovizuale, nu servicii ale societății informaționale. Art. 110 din EECC impune statelor un sistem public de avertizare prin rețele mobile, obligație pe care România o îndeplinește deja prin RO-ALERT. Legea este compatibilă cu acesta dacă diseminarea se face prioritar prin cell broadcast. Obligația furnizorilor audiovizuali de a difuza mesaje de urgență este o măsură de interes general admisă de Directiva AVMS. Nu apar bariere pe piața unică, iar sarcina gratuită se aplică nediscriminatoriu tuturor operatorilor.",
+      "senatForm": {
+        "articleRef": "Art. 4 alin. (2) și Art. 7 alin. (1)",
+        "proposalContent": "Art. 4 alin. (2): Mesajul se transmite prioritar prin RO-ALERT (cell broadcast), numai în zonele unde intensitatea estimată depășește pragul din norme, și conține instrucțiuni scurte de autoprotecție. SMS-ul clasic e complementar. Art. 7 (1): normele se adoptă și cu avizul ministerului de coordonare al INCDFP, STS și ANCOM.",
+        "argumentation": "«Uneia sau tuturor persoanelor» e imprevizibil. Pragurile ML>3,5/ML>4 aplicate național ar genera alerte dese pentru seisme nesimțite, cu risc de ignorare a alertelor reale. SMS-ul clasic are latență prea mare pentru secundele disponibile; cell broadcast e tehnologia RO-ALERT, conformă art. 110 din Directiva 2018/1972.",
+        "otherComments": "Lipsește sursa de finanțare (art. 138 alin. 5 Constituție) și o clauză de exonerare pentru alerte false sau ratate. Coordonatele lat/long sunt inutile pentru public; se poate indica zona epicentrală (ex. «Vrancea») și intensitatea estimată. Corectură: «territoriul» la art. 3."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -140,7 +169,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:50:20.649Z",
+      "replacedAt": "2026-11-24T14:52:12.755Z",
       "reasons": [
         "model"
       ]

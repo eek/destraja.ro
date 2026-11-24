@@ -2,7 +2,7 @@
   "billId": "Pl-x 636/2026",
   "slug": "plx-636-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:46:59.707Z",
+  "updatedAt": "2026-11-24T14:49:57.102Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "key": "6bc8d941771e8029"
   },
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 2.7,
     "riskLevel": "green",
-    "plainTitle": "Primăriile, obligate să justifice cu studii de impact majorările de taxe locale peste inflație",
-    "summaryTlDr": "Proiect benign și util în intenție, orientat spre protecția contribuabililor, dar redactat imprecis. Fără clarificarea modului de calcul al pragului și a conținutului minimal al studiilor, riscă să rămână o formalitate birocratică sau să genereze litigii în cascadă împotriva hotărârilor de consiliu local.",
-    "initiatorClaim": "Inițiatorii susțin că proiectul crește transparența, predictibilitatea fiscală și protecția contribuabililor, obligând autoritățile locale să fundamenteze obiectiv și să dezbată public orice majorare de impozite și taxe locale peste rata inflației comunicată de INS.",
-    "realityCheck": "Legea nu plafonează taxele locale și nu introduce sancțiuni noi, ci adaugă obligația a trei documente justificative (studiu de impact, raport privind efectele și notă de fundamentare) și a consultării publice la majorările peste inflație. În practică, consultarea publică (Legea 52/2003) și controlul în contencios (Legea 554/2004) există deja în lege, iar lipsa unor criterii clare privind ce inflație se folosește și ce trebuie să conțină studiile poate duce fie la justificări de formă, fie la blocarea bugetelor locale în instanță.",
+    "plainTitle": "Primăriile trebuie să justifice cu studii orice creștere a taxelor locale peste inflație",
+    "summaryTlDr": "Este o lege procedurală, în esență benignă și utilă pentru transparență. Nu plafonează taxele locale, dar este redactată neglijent: are două repere diferite pentru inflație, adaugă documente obligatorii fără conținut definit și repetă reguli deja în vigoare.",
+    "initiatorClaim": "Inițiatorii spun că primăriile au majorat impozitele locale peste inflație fără justificare economică. Ei vor să oblige consiliile locale să fundamenteze astfel de majorări și să le supună consultării publice, pentru predictibilitate și echitate.",
+    "realityCheck": "Proiectul introduce în art. 491 trei alineate și un art. 491¹ nou. Peste pragul inflației, consiliul local trebuie să adopte un studiu de impact bugetar și economic, un raport privind efectele asupra contribuabililor, o notă de fundamentare și să organizeze consultare publică. Majorarea rămâne permisă, deci contribuabilul nu are niciun plafon, ci doar un temei în plus pentru a contesta hotărârea în contencios dacă documentele lipsesc. Efectul secundar real este o povară administrativă pentru comunele mici fără personal de specialitate și, în timp, riscul ca aceste studii să devină formulare-tip.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
@@ -44,10 +44,10 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 1 (art. 491 alin. (1²)-(1³))",
-      "proposalContent": "La art. 491 alin. (1²), clarificați că pragul este rata inflației pe anul fiscal anterior comunicată de MF/MDLPA și vizează majorările opționale (inclusiv art. 489), nu pe cele impuse de lege sau alin. (2). La alin. (1³), comasați cele 3 acte într-un singur studiu de impact cu structură minimală clară, publicat cu 30 de zile înainte.",
-      "argumentation": "Fără anul de referință al inflației și corelarea cu art. 489 și alin. (2) (Directiva 1999/62/CE), norma încalcă art. 1 alin. (5) din Constituție și riscă să blocheze bugetele locale în litigii. Un singur document cu conținut minimal clar previne atât formalismele goale, cât și costuri de consultanță pentru comunele mici.",
-      "otherComments": "Eliminați paralelismul cu Legea nr. 52/2003 și Legea nr. 554/2004 din art. 491¹ și corectați tehnica legislativă: numerotarea Art. I, preambulul neuzual cu art. 69 din Constituție, trimiterea la lege organică (art. 76 alin. 1) pentru Codul fiscal și integrarea într-un art. 491 care acum se referă doar la anul 2026 (OUG 78/2025)."
+      "articleRef": "Art. I pct. 1 – art. 491 alin. (1²)–(1³) Cod fisca",
+      "proposalContent": "(1²) Dacă nivelul unui impozit sau al unei taxe locale crește față de anul anterior peste rata inflației prevăzută la alin. (1), autoritatea deliberativă fundamentează măsura prin documentele de la alin. (1³), publicate odată cu proiectul de hotărâre. În UAT-urile sub 10.000 de locuitori, documentele pot fi reunite într-o singură notă.",
+      "argumentation": "Textul inițial folosește rata inflației comunicată de INS, iar alin. (1) în vigoare trimite la rata comunicată de MF și MDLPA: două repere pentru aceeași noțiune. Nu e clar nici dacă pragul se aplică pe fiecare taxă sau global. Trei documente separate sunt o povară excesivă pentru comunele fără economiști.",
+      "otherComments": "Art. 491¹ alin. (1) și (3) repetă Legea 52/2003 și Legea 554/2004, deja aplicabile. Art. 491 alin. (1) e scris doar pentru 2026, iar noile alineate sunt generale, deci trebuie corelate. Aplicarea automată a nivelurilor maxime, când consiliul nu indexează, rămâne fără fundamentare. Numerotarea e greșită: Art. 1 vs Art. II."
     }
   },
   "council": {
@@ -88,8 +88,40 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 51156,
+      "sourceEndMarker": "SF-84CE6782",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Primăriile trebuie să justifice cu studii orice creștere a taxelor locale peste inflație",
+      "verdictShort": "Este o lege procedurală, în esență benignă și utilă pentru transparență. Nu plafonează taxele locale, dar este redactată neglijent: are două repere diferite pentru inflație, adaugă documente obligatorii fără conținut definit și repetă reguli deja în vigoare.",
+      "initiatorClaim": "Inițiatorii spun că primăriile au majorat impozitele locale peste inflație fără justificare economică. Ei vor să oblige consiliile locale să fundamenteze astfel de majorări și să le supună consultării publice, pentru predictibilitate și echitate.",
+      "realityCheck": "Proiectul introduce în art. 491 trei alineate și un art. 491¹ nou. Peste pragul inflației, consiliul local trebuie să adopte un studiu de impact bugetar și economic, un raport privind efectele asupra contribuabililor, o notă de fundamentare și să organizeze consultare publică. Majorarea rămâne permisă, deci contribuabilul nu are niciun plafon, ci doar un temei în plus pentru a contesta hotărârea în contencios dacă documentele lipsesc. Efectul secundar real este o povară administrativă pentru comunele mici fără personal de specialitate și, în timp, riscul ca aceste studii să devină formulare-tip.",
+      "affectedGroups": [
+        "Proprietari & Imobiliare",
+        "IMM & Antreprenori",
+        "Șoferi & Auto",
+        "Contabili & Fiscalitate",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1, alin. (1²) din art. 491: pragul este «rata anuală a inflației comunicată oficial de INS». Art. 491 alin. (1) în vigoare trimite însă la rata inflației «comunicată pe site-urile oficiale ale MF și MDLPA». Rezultă două surse pentru aceeași noțiune. Nu se precizează nici indicatorul (media anuală sau decembrie/decembrie), nici anul de referință.",
+        "Alin. (1²) nu spune dacă pragul se aplică pe fiecare impozit sau taxă ori pe sarcina fiscală totală. Nu e clar nici dacă privește doar nivelurile în lei sau și cotele procentuale, de exemplu impozitul pe clădiri pe valoare (art. 457), unde creșterea poate veni din bază, nu din cotă.",
+        "Alin. (1³) cere trei documente distincte (studiu de impact, raport privind efectele asupra contribuabililor, notă de fundamentare). Legea nu le definește conținutul minim și nu prevede o variantă simplificată pentru UAT-urile mici. Expunerea de motive susține că nu apar costuri suplimentare, fără nicio cuantificare.",
+        "Art. 491¹ alin. (1) și (3) sunt în mare parte declarative. Transparența decizională (Legea nr. 52/2003, care cere deja publicarea proiectului cu nota de fundamentare și referatul de aprobare) și controlul în contencios (Legea nr. 554/2004) se aplică deja hotărârilor consiliilor locale. Elementul nou e doar consultarea publică explicit obligatorie din alin. (2), dar «consultarea» nu este definită separat de procedura din Legea 52/2003.",
+        "Proiectul nu prevede nicio sancțiune proprie și nicio limită a cuantumului. Singurul efect juridic este că hotărârea nefundamentată devine mai ușor anulabilă în instanță. E un câștig real de verificabilitate, dar nu o protecție automată.",
+        "Art. II limitează aplicarea la actele adoptate după intrarea în vigoare, deci nu afectează hotărârile deja adoptate pentru 2026 (termen-limită 31.12.2025, potrivit art. 491 alin. (4) și OUG 78/2025)."
+      ],
+      "blindSpotsCaught": "Art. 491 în vigoare (forma dată de OUG 78/2025) este redactat strict «pentru anul fiscal 2026». Alin. (1)–(4) au termene fixate pe 2025/2026, iar noile alin. (1¹)–(1³), formulate general și «anual», ar fi grefate pe un articol temporar, ceea ce produce o necorelare de tehnică legislativă. Mai important, art. 491 alin. (1) prevede că, dacă indexarea nu s-a făcut, compartimentul de specialitate aplică direct nivelurile maxime din Cod, indexate. Acea creștere, posibil mult peste inflație, nu este o decizie a autorității deliberative, deci ar scăpa complet de obligația de fundamentare și consultare. Legea poate fi astfel ocolită tocmai prin inacțiunea consiliului local. Redactarea are și scăpări formale: «Art. 1» urmat de «Art. II», «(1')» în loc de «(1¹)», «principiilor transparente decizionale». Titlul anunță «modificarea și completarea», dar textul doar completează.",
+      "constitutionalityNote": "Proiectul este compatibil cu art. 120 și 121 (autonomia locală) și cu art. 139 alin. (2). Potrivit acestuia, impozitele și taxele locale se stabilesc de consiliile locale «în limitele și în condițiile legii», deci legiuitorul poate impune condiții procedurale de fundamentare fără să golească de conținut competența locală. Proiectul nu interzice majorarea, așa că nu atinge substanța autonomiei. Pe art. 1 alin. (5) (claritate și previzibilitate) există vulnerabilități: reperul de inflație e ambiguu (INS versus MF/MDLPA, indicator și an nedefinite), «majorare» nu e definită, iar conținutul documentelor obligatorii e nedeterminat. Acestea nu par suficiente pentru o neconstituționalitate în sensul jurisprudenței CCR, dar vor genera practică neunitară în instanțe. Art. 44 (proprietatea) și art. 56 alin. (2) (justa așezare a sarcinilor fiscale) sunt mai degrabă susținute de proiect.",
+      "euLawNote": "Directiva (UE) 2018/958 privind testul de proporționalitate nu este aplicabilă, deoarece proiectul nu reglementează accesul la profesii reglementate. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reglementări tehnice și nici reguli privind serviciile societății informaționale, deci notificarea nu este necesară. Proiectul nu afectează libertatea de stabilire sau de prestare a serviciilor și nu introduce discriminări între operatorii din UE. Nu atinge nici art. 491 alin. (2) privind indexarea sumelor pentru vehicule grele conform Directivei 1999/62/CE, care rămâne separat. Nu sunt incidente reguli de ajutor de stat.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 1 – art. 491 alin. (1²)–(1³) Cod fiscal",
+        "proposalContent": "(1²) Dacă nivelul unui impozit sau al unei taxe locale crește față de anul anterior peste rata inflației prevăzută la alin. (1), autoritatea deliberativă fundamentează măsura prin documentele de la alin. (1³), publicate odată cu proiectul de hotărâre. În UAT-urile sub 10.000 de locuitori, documentele pot fi reunite într-o singură notă.",
+        "argumentation": "Textul inițial folosește rata inflației comunicată de INS, iar alin. (1) în vigoare trimite la rata comunicată de MF și MDLPA: două repere pentru aceeași noțiune. Nu e clar nici dacă pragul se aplică pe fiecare taxă sau global. Trei documente separate sunt o povară excesivă pentru comunele fără economiști.",
+        "otherComments": "Art. 491¹ alin. (1) și (3) repetă Legea 52/2003 și Legea 554/2004, deja aplicabile. Art. 491 alin. (1) e scris doar pentru 2026, iar noile alineate sunt generale, deci trebuie corelate. Aplicarea automată a nivelurilor maxime, când consiliul nu indexează, rămâne fără fundamentare. Numerotarea e greșită: Art. 1 vs Art. II."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -146,7 +178,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:46:59.707Z",
+      "replacedAt": "2026-11-24T14:49:57.102Z",
       "reasons": [
         "model"
       ]

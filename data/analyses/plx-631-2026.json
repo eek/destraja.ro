@@ -2,7 +2,7 @@
   "billId": "Pl-x 631/2026",
   "slug": "plx-631-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:51:53.767Z",
+  "updatedAt": "2026-11-24T14:53:05.701Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "key": "0693c5d08bfe92a8"
   },
   "consensus": {
-    "riskScore": 3.5,
+    "riskScore": 3.3,
     "riskLevel": "green",
-    "plainTitle": "Coduri QR la ghișee pentru evaluarea rapidă a instituțiilor publice",
-    "summaryTlDr": "O idee utilă și benignă pentru cetățeni, care nu restrânge dreptul de petiționare, dar redactată neglijent și cu riscuri reale de blocaj administrativ și neconstituționalitate. Proiectul obligă toate instituțiile să-și adapteze sistemele IT fără buget sau platformă unică și introduce abateri disciplinare vagi fără a preciza cine răspunde.",
-    "initiatorClaim": "Inițiatorii susțin că instituția petiției clasice este prea rigidă pentru nemulțumirile imediate de la ghișeu și propun un „Mecanism de Feedback Digital Instant” prin coduri QR, cu costuri nule și fără povară birocratică.",
-    "realityCheck": "Legea creează într-adevăr un canal anonim de evaluare statistică separat de petiții (fără obligație de înregistrare sau răspuns individual), dar lasă în aer arhitectura tehnică: pct. 5 obligă fiecare autoritate și instituție publică la „conformarea tehnică a sistemelor informatice” în 90 de zile, fără a stabili dacă există o platformă națională unică și fără finanțare. În plus, modificarea art. 14 elimină din legea în vigoare indicarea compartimentului responsabil cu raportul semestrial, exact când art. 15 lit. d)-e) introduce abateri disciplinare pentru lipsa raportului sau „obstrucționarea” accesului la codul QR.",
+    "plainTitle": "Cod QR la fiecare ghișeu, prin care cetățenii pot nota instituțiile și funcționarii",
+    "summaryTlDr": "Este o idee utilă de modernizare și nu atinge drepturile cetățenilor. Textul are însă goluri: funcționarii sunt notați nominal și anonim fără nicio protecție, abaterile disciplinare nu spun cine răspunde, iar costul pentru instituțiile mici nu e prevăzut.",
+    "initiatorClaim": "Inițiatorii vor să înlocuiască condica de sugestii și petiția formală, greoaie pentru probleme de zi cu zi, cu un feedback digital instant prin cod QR. Datele ar fi centralizate și folosite pentru decizii manageriale, fără costuri suplimentare.",
+    "realityCheck": "Legea obligă toate autoritățile și instituțiile publice să afișeze un cod QR la fiecare punct de contact cu publicul. Codul duce la un formular anonim de calificative pentru instituție și pentru funcționari, care nu e petiție și nu primește răspuns. Instituțiile trebuie să analizeze semestrial rezultatele și să adopte măsuri corective. Neafișarea codului, «obstrucționarea» accesului și lipsa analizei devin abateri disciplinare, deși obligațiile revin instituției și textul nu spune ce angajat răspunde. Costurile și protecția datelor nu sunt reglementate.",
     "affectedGroups": [
       "Toți cetățenii",
       "Angajați & HR",
@@ -44,10 +44,10 @@
       "IT & AI"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct. 2 (art. 12^2), pct. 3-5",
-      "proposalContent": "Să se prevadă o platformă centralizată administrată de ADR (nu dezvoltări IT separate), să se păstreze în art. 14 referirea la compartimentul de la art. 6 alin. (1), să se clarifice faptele și responsabilii la art. 15 lit. d)-e) și să se mute dispozițiile tranzitorii într-un Art. II distinct.",
-      "argumentation": "Fără o platformă unică, instituțiile mici nu au buget sau IT pentru conformare în 90 de zile. Eliminarea din art. 14 a structurii responsabile face neclare abaterile din art. 15 lit. d)-e), iar „obstrucționarea” vagă vulnerabilizează legea pe art. 1 alin. (5) Constituție. Necesită și reguli GDPR și anti-spam.",
-      "otherComments": "Verificați caracterul legii: noi abateri disciplinare pentru funcționari publici (art. 15) țin de statutul lor și cer lege organică (art. 73 alin. 3 lit. j și art. 76 alin. 1 Constituție), nu ordinară. Actualizați și formula „se modifică și se completează”, denumirea ministerelor din art. 12^2 și trimiterea la fosta Lege 188/1999."
+      "articleRef": "Art. unic pct. 2 – art. 12^1 din OG nr. 27/2002",
+      "proposalContent": "Se introduc alin. (3)-(4): „(3) Formularul respectă cerințele de accesibilitate și nu colectează date personale ale evaluatorului; rezultatele agregate se publică semestrial pe site-ul instituției. (4) Calificativele acordate prin Mecanism nu pot constitui, singure, temei pentru evaluarea profesională sau sancționarea disciplinară a unui funcționar.”",
+      "argumentation": "Evaluarea nominală, anonimă și neverificată a funcționarilor poate fi abuzată (recenzii false, șicane) și ridică probleme GDPR. Publicarea agregată aduce transparență reală, iar accesibilitatea e cerută de Directiva (UE) 2016/2102 și OUG 112/2018. Feedback-ul rămâne util managerial, fără să devină instrument de sancționare.",
+      "otherComments": "Art. 15 lit. d)-e) nu arată cine răspunde disciplinar, deși obligația e a instituției; trebuie precizat. Normele de la art. 12^2 să fie emise de autoritatea actuală pentru digitalizare și să prevadă o platformă unică gratuită. Pct. 5 să devină art. II, distinct de OG. Lipsește fișa financiară pentru autoritățile locale."
     }
   },
   "council": {
@@ -87,8 +87,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 54642,
+      "sourceEndMarker": "SF-A4B401F2",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Cod QR la fiecare ghișeu, prin care cetățenii pot nota instituțiile și funcționarii",
+      "verdictShort": "Este o idee utilă de modernizare și nu atinge drepturile cetățenilor. Textul are însă goluri: funcționarii sunt notați nominal și anonim fără nicio protecție, abaterile disciplinare nu spun cine răspunde, iar costul pentru instituțiile mici nu e prevăzut.",
+      "initiatorClaim": "Inițiatorii vor să înlocuiască condica de sugestii și petiția formală, greoaie pentru probleme de zi cu zi, cu un feedback digital instant prin cod QR. Datele ar fi centralizate și folosite pentru decizii manageriale, fără costuri suplimentare.",
+      "realityCheck": "Legea obligă toate autoritățile și instituțiile publice să afișeze un cod QR la fiecare punct de contact cu publicul. Codul duce la un formular anonim de calificative pentru instituție și pentru funcționari, care nu e petiție și nu primește răspuns. Instituțiile trebuie să analizeze semestrial rezultatele și să adopte măsuri corective. Neafișarea codului, «obstrucționarea» accesului și lipsa analizei devin abateri disciplinare, deși obligațiile revin instituției și textul nu spune ce angajat răspunde. Costurile și protecția datelor nu sunt reglementate.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "Angajați & HR",
+        "IT & AI",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 1^2 alin. (3) derogă expres de la art. 7 din OG 27/2002, care azi exclude petițiile anonime. Feedback-ul anonim e permis tocmai pentru că nu e considerat petiție: nu se înregistrează și nu primește răspuns individual (art. 6 și art. 8). Procedura clasică a petiției rămâne neatinsă.",
+        "Art. 12^1 alin. (2) permite calificative date «funcționarilor publici», deci evaluarea nominală și anonimă a unor persoane identificabile. Legea nu prevede nimic împotriva recenziilor false sau a manipulării în masă, nu limitează folosirea acestor note la evaluarea profesională și nu cere protecția datelor personale (GDPR).",
+        "Art. 15 lit. d) și e) creează abateri disciplinare pentru obligații care sunt ale instituției: afișarea codului QR și analiza semestrială. Nu se precizează ce angajat răspunde, iar «obstrucționarea accesului» este o formulare vagă. Trimiterea la Legea nr. 188/1999 e moștenită din textul actual, deși statutul funcționarilor publici e reglementat acum în principal de Codul administrativ (OUG 57/2019).",
+        "Art. 14 se modifică și nu mai menționează că raportul semestrial e întocmit de compartimentul de petiții (art. 6 alin. 1). Textul nou cere obligatoriu gradul de satisfacție și un plan de măsuri corective, dar nu obligă la publicarea rezultatelor. Transparența față de public rămâne astfel limitată.",
+        "Termenele sunt: 60 de zile pentru norme prin ordin comun (art. 12^2), apoi 90 de zile pentru conformare (pct. 5). Termenul de 60 de zile nu are nicio sancțiune dacă e depășit. Expunerea de motive afirmă că impactul bugetar este nul, dar nu există fișă financiară, deși obligația se aplică și primăriilor mici, școlilor sau spitalelor."
+      ],
+      "blindSpotsCaught": "Pct. 5 (dispoziții tranzitorii) e inclus ca punct al articolului unic care modifică OG 27/2002. Tehnic, ar însemna că devine parte din ordonanță; corect ar fi un art. II separat (Legea nr. 24/2000). Titlul din lista susținătorilor vorbește doar de «completare», deși art. 14 este modificat. Art. 12^2 numește «ministrul Cercetării, Inovării și Digitalizării», iar dacă structura Guvernului se schimbă, normele pot rămâne fără emitent; e mai sigură o formulare generică («autoritatea centrală în domeniul digitalizării»). Formularul trebuie să fie accesibil persoanelor cu dizabilități, conform Directivei (UE) 2016/2102 și OUG 112/2018, ceea ce legea nu spune. Cine nu are smartphone nu are acces la mecanism, deși condica fizică nu este reglementată ca alternativă.",
+      "constitutionalityNote": "Nu există o problemă constituțională majoră. Dreptul de petiționare (art. 51) nu e restrâns, pentru că mecanismul e complementar și separat de petiție. Problema principală privește claritatea și previzibilitatea normei sancționatoare (art. 1 alin. 5). La art. 15 lit. d), noțiunea de «obstrucționare» și lipsa subiectului răspunderii pot face abaterile greu de aplicat. Evaluarea nominală și anonimă a funcționarilor atinge dreptul la viață privată și la imagine (art. 26), fără garanții legale. Impunerea unor obligații noi autorităților locale fără sursă de finanțare se poate discuta din perspectiva art. 138 alin. (5) și a principiului autonomiei locale, deși costul real e probabil mic.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că nu sunt reglementate profesii. Directiva (UE) 2015/1535 (TRIS) nu pare aplicabilă: obligațiile privesc autoritățile publice, nu reguli pentru furnizorii de servicii ale societății informaționale. Concurența nu e afectată, dar alegerea platformei prin ordin trebuie să respecte achizițiile publice sau să folosească o soluție guvernamentală existentă. Sunt relevante GDPR (Regulamentul 2016/679), privind minimizarea datelor, câmpurile de text liber care pot conține date personale și evaluarea nominală a angajaților, precum și Directiva (UE) 2016/2102 privind accesibilitatea site-urilor și aplicațiilor din sectorul public.",
+      "senatForm": {
+        "articleRef": "Art. unic pct. 2 – art. 12^1 din OG nr. 27/2002",
+        "proposalContent": "Se introduc alin. (3)-(4): „(3) Formularul respectă cerințele de accesibilitate și nu colectează date personale ale evaluatorului; rezultatele agregate se publică semestrial pe site-ul instituției. (4) Calificativele acordate prin Mecanism nu pot constitui, singure, temei pentru evaluarea profesională sau sancționarea disciplinară a unui funcționar.”",
+        "argumentation": "Evaluarea nominală, anonimă și neverificată a funcționarilor poate fi abuzată (recenzii false, șicane) și ridică probleme GDPR. Publicarea agregată aduce transparență reală, iar accesibilitatea e cerută de Directiva (UE) 2016/2102 și OUG 112/2018. Feedback-ul rămâne util managerial, fără să devină instrument de sancționare.",
+        "otherComments": "Art. 15 lit. d)-e) nu arată cine răspunde disciplinar, deși obligația e a instituției; trebuie precizat. Normele de la art. 12^2 să fie emise de autoritatea actuală pentru digitalizare și să prevadă o platformă unică gratuită. Pct. 5 să devină art. II, distinct de OG. Lipsește fișa financiară pentru autoritățile locale."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -143,7 +173,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:51:53.767Z",
+      "replacedAt": "2026-11-24T14:53:05.701Z",
       "reasons": [
         "model"
       ]

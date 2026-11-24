@@ -1,127 +1,185 @@
 {
   "billId": "PL-x 557/2026",
   "slug": "plx-557-2026",
-  "updatedAt": "2026-10-28T23:17:29.936Z",
+  "version": "senat",
+  "updatedAt": "2026-11-24T14:57:37.308Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 4046,
+    "ordinanceChars": 0,
+    "memoChars": 8936,
+    "memoSupplied": 8936,
+    "marker": "SF-73C8EB27"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-557-2026.json",
+    "form": "senat",
+    "textHash": "73c8eb27859cba60",
+    "fetchedAt": "2026-11-19T11:20:06.069Z",
+    "acts": 2,
+    "actsFound": 2,
+    "actsRepealed": 0,
+    "articlesFound": 3,
+    "articlesShown": 3,
+    "articleCap": 8000,
+    "articlesCut": 1,
+    "chars": 15414,
+    "truncated": false,
+    "included": true,
+    "key": "bbdbcdfb916d9188"
+  },
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 3.7,
     "riskLevel": "green",
     "plainTitle": "Statul plătește fix 90% pentru asistenții persoanelor cu handicap, iar salariul lor nu mai e impozitat",
-    "summaryTlDr": "Lege socială benefică: transformă plafonul „cel mult 90%” într-o garanție fixă pentru primării și mărește salariul net al asistenților personali. Defectele țin de redactare și finanțare: o dată deja trecută la art.51 alin.(12), un cost bugetar fără sursă indicată și un Art.IV vag despre locuințele protejate.",
-    "initiatorClaim": "Inițiatorii spun că formula „în proporție de cel mult 90%” permite bugetului de stat să dea oricât sub 90%, astfel încât primăriile nu pot planifica salariile asistenților personali și costul serviciilor sociale. Vor și salarii nete mai mari pentru asistenți, plus clădiri ale statului transformate în locuințe protejate, ca să accelereze dezinstituționalizarea.",
-    "realityCheck": "Art.I fixează la exact 90% partea statului pentru salariile asistenților personali (art.40) și pentru serviciile sociale (art.51). Baza de calcul rămâne însă „necesarul stabilit anual de minister”, deci statul poate subestima în continuare nevoia reală. Art.II scutește complet de impozit pe venit salariile asistenților personali, dar CAS și CASS rămân datorate, iar o parte din impozitul pierdut ar fi ajuns tot la bugetele locale. Art.IV nu obligă ministerul să finanțeze nimic: promisiunea din expunere privind finanțarea sau cofinanțarea renovării nu apare în text. Primăriile trebuie să renoveze „din fonduri proprii” sau prin programe care nu sunt garantate.",
+    "summaryTlDr": "Proiect social bine intenționat, care reduce o ambiguitate reală: „cel mult 90%” devine „90%”. Are însă un cost bugetar necuantificat, o scutire fiscală redactată neglijent și un articol despre transferul de imobile prea vag ca să poată fi aplicat.",
+    "initiatorClaim": "Inițiatorii spun că formula „în proporție de cel mult 90%” lasă primăriile fără predictibilitate bugetară și produce aplicare neunitară. Mai urmăresc să facă postul de asistent personal mai atractiv și să grăbească dezinstituționalizarea prin locuințe protejate.",
+    "realityCheck": "Art. I transformă un plafon maxim într-o obligație fixă a bugetului de stat de a acoperi 90% din salariile asistenților personali, din serviciile sociale și din sumele de la art. 47. Partea de 10% rămâne în sarcina bugetelor locale. Art. II scutește integral de impozit pe venit salariul asistenților personali. Impozitul pe venit alimentează însă, prin cote defalcate, chiar bugetele UAT-urilor care angajează acești asistenți, deci o parte din câștigul pentru primării se pierde pe această cale. Art. IV obligă Guvernul să „asigure transferul” unor imobile fără să spună ale cui sunt, prin ce act se transferă și după ce criterii.",
     "affectedGroups": [
+      "Justiție & Drepturi Civile",
       "Angajați & HR",
       "Contabili & Fiscalitate",
-      "Justiție & Drepturi Civile",
-      "Sănătate & Educație"
+      "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art.I pct.2 (art.51 alin.12) și Art.III",
-      "proposalContent": "La art.51 alin.(12) se elimină sintagma „Începând cu data de 1 ianuarie 2026,”. Art.III devine: „(1) Prezenta lege intră în vigoare la 30 de zile de la publicarea în Monitorul Oficial al României, Partea I. (2) Prevederile art.I și art.II se aplică începând cu data de 1 ianuarie a anului următor intrării în vigoare a prezentei legi.”",
-      "argumentation": "Legea intră în vigoare cel mai devreme la finalul lui 2026, deci data «1 ianuarie 2026» ar avea efect retroactiv, interzis de art.15 alin.(2) din Constituție, și ar naște litigii pentru diferențe. Aplicarea de la 1 ianuarie următor permite includerea costului în bugetul anual (art.138 alin.(5)) și dă predictibilitate fiscală angajatorilor (art.4 Cod fiscal).",
-      "otherComments": "Art.51 alin.(10) folosește denumirea veche «Ministerul Muncii și Solidarității Sociale», iar Art.V pe cea actuală: trebuie unificate. La Art.II, elementul nou se numerotează «pct.1^1», nu «pct.2». Art.IV trebuie să precizeze dacă imobilele trec în proprietate sau doar în administrare și după ce criterii."
+      "articleRef": "Art. II (art. 60 Cod fiscal) și Art. III",
+      "proposalContent": "Art. II: «1^1. persoanele fizice, pentru veniturile din salarii și asimilate salariilor prevăzute la art. 76 alin. (1)-(3), realizate ca asistent personal sau asistent personal profesionist al persoanei cu handicap grav, potrivit Legii nr. 448/2006.» Se introduce Art. II^1: dispozițiile art. II se aplică de la 1 ianuarie a anului următor publicării.",
+      "argumentation": "Pct. 2 al art. 60 a fost abrogat (fosta scutire IT); Legea nr. 24/2000 cere ca elementele noi să primească indice, nu numărul unui element abrogat. Formula actuală omite veniturile asimilate și lasă neclar dacă e inclus asistentul personal profesionist. Data aplicării corelează cu art. 4 C.fiscal și cu ciclul bugetar, dând predictibilitate angajatorilor UAT.",
+      "otherComments": "Solicitați punctul de vedere al Guvernului și fișa financiară (art. 111 și 138 alin. 5 Constituție, art. 15 L. 500/2002) pentru art. I și II. La art. IV, precizați regimul juridic al imobilelor (domeniul public/privat al statului), actul de transfer (HG) și criteriile. Corelați denumirea ministerului din art. I cu art. V."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 57271,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Finanțare garantată de 90% de la stat și scutire de impozit pe salariu pentru asistenții personali ai persoanelor cu handicap",
-      "verdictShort": "O lege cu impact social pozitiv, care obligă Guvernul să deconteze fix 90% din costurile cu asistenții personali și serviciile sociale și scutește de impozitul pe venit salariile asistenților personali. Totuși, textul adoptat tacit de Senat conține erori serioase de tehnică legislativă și termene retroactive care trebuie corectate în comisii pentru a nu pica la CCR.",
-      "initiatorClaim": "Inițiatorii vor să elimine formularea ambiguă „în proporție de cel mult 90%” din Legea nr. 448/2006 — care permitea Guvernului să subfinanțeze primăriile —, să crească salariile nete ale asistenților personali prin scutirea de impozit pe venit și să faciliteze transferul unor clădiri către primării pentru a fi transformate în locuințe protejate.",
-      "realityCheck": "Măsurile sunt benefice pentru persoanele cu dizabilități, asistenții personali și bugetele locale, fără să impună taxe sau sarcini birocratice cetățenilor. Însă proiectul este redactat neglijent: fixează un termen deja depășit („1 ianuarie 2026”), încurcă numerotarea punctelor din art. 60 al Codului fiscal și reglementează vag transferul imobilelor de la stat către primării, riscând blocaje la aplicare sau la Curtea Constituțională.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 83767,
+      "sourceEndMarker": "SF-73C8EB27",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Finanțare de 90% și scutire fiscală pentru asistenții persoanelor cu handicap, fără sursă bugetară",
+      "verdictShort": "Un proiect cu scop social util, dar adoptat tacit de Senat fără fișă financiară și fără indicarea sursei de finanțare, ceea ce îl expune direct invalidării la CCR. În plus, reglementează opac transferul unor imobile ale statului către primării și introduce erori tehnice în Codul fiscal.",
+      "initiatorClaim": "Inițiatorii susțin că vor să elimine ambiguitatea expresiei «în proporție de cel mult 90%» din finanțarea serviciilor pentru persoanele cu handicap, să crească salariile nete ale asistenților personali prin scutirea de impozit pe venit și să accelereze dezinstituționalizarea prin transformarea unor imobile ale statului în locuințe protejate.",
+      "realityCheck": "În realitate, legea transformă plafonul maxim de finanțare de la bugetul de stat (cel mult 90%) într-o cotă fixă obligatorie de 90% și scutește de impozit salariile asistenților personali, însă nu conține nicio estimare a impactului bugetar și nu precizează de unde vin banii. Totodată, Art. IV obligă Guvernul să transfere imobile către primării fără a stabili regimul juridic (proprietate sau administrare), criteriile de selecție sau interdicția schimbării destinației. În plan fiscal, scutirea omite veniturile asimilate salariilor și asistenții personali profesioniști și intră în vigoare la 30 de zile, riscând aplicarea în mijlocul unei luni calendaristice.",
       "affectedGroups": [
+        "Justiție & Drepturi Civile",
         "Angajați & HR",
         "Contabili & Fiscalitate",
-        "Justiție & Drepturi Civile",
-        "Sănătate & Educație"
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 1 și 2 înlocuiesc plafonul variabil „în proporție de cel mult 90%” cu cota fixă „în procent de 90%” la finanțarea de la bugetul de stat (din sume defalcate din TVA) a salariilor asistenților personali și a măsurilor de protecție socială, eliminând arbitrariul alocărilor guvernamentale către UAT-uri.",
-        "Art. II modifică art. 60 din Codul fiscal (Legea nr. 227/2015) pentru a scuti de impozitul pe venit (10%) salariile asistenților personali ai persoanelor cu handicap, însă introduce greșit un „nou punct, pct. 2”, deși art. 60 are deja puncte numerotate până la pct. 7.",
-        "Art. I pct. 2 păstrează în alin. (12) al art. 51 sintagma „Începând cu data de 1 ianuarie 2026”, deși legea este încă în dezbatere parlamentară și, potrivit Art. III, va intra în vigoare la 30 de zile de la publicarea în Monitorul Oficial, generând un conflict de neretroactivitate.",
-        "Art. IV alin. (1) obligă Guvernul ca în 180 de zile să asigure „transferul imobilelor care pot fi transformate în locuințe protejate” la cererea primăriilor, fără a preciza natura juridică a transferului (în proprietate sau în administrare, așa cum apare în Expunerea de motive) și fără trimitere la procedura din Codul administrativ."
+        "Art. I pct. 1-2 (modifică art. 40 alin. (1) și art. 51 alin. (10), (12) din Legea nr. 448/2006): schimbă finanțarea de la bugetul de stat din «cel mult 90%» în cotă fixă «de 90%» din sume defalcate din TVA, sporind presiunea bugetară fără fișă financiară sau sursă de finanțare.",
+        "Art. II și Art. III (completează art. 60 din Codul fiscal): introduc scutirea de impozit pe venit pe poziția unui punct deja abrogat (pct. 2), acoperă doar «veniturile din salarii» (nu și cele asimilate salariilor), exclud asistentul personal profesionist și intră în vigoare la 30 de zile, ignorând regula calendarului fiscal.",
+        "Art. IV alin. (1)-(2): obligă Guvernul ca în 180 de zile, la cererea primăriilor, să «asigure transferul imobilelor care pot fi transformate în locuințe protejate», fără a preciza ce imobile sunt vizate, dacă se transferă proprietatea sau doar administrarea, termenul de solicitare ori interdicția schimbării destinației.",
+        "Adoptare tacită cu erori de redactare: textul păstrează la Art. I vechea denumire «Ministerul Muncii și Solidarității Sociale» (deși la Art. V folosește denumirea actualizată), conține dezacorduri («completare unor acte», «unitățile administrative-teritoriale»), iar Expunerea de motive trimite greșit la art. 51 alin. (11) în loc de (12)."
       ],
-      "blindSpotsCaught": "Textul adoptat tacit de Senat conține numeroase carențe de tehnică legislativă (Legea nr. 24/2000): chiar titlul legii și Art. IV alin. (1) au dezacorduri gramaticale („pentru modificarea și completare”, „la propunerea Ministerul”), iar denumirea Ministerului Muncii este diferită în Art. I pct. 2 („Ministerul Muncii și Solidarității Sociale”) față de Art. V („Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale”). În plus, în Expunerea de motive inițiatorii invocă modificarea alin. (11) al art. 51 și darea imobilelor „în administrare”, dar în textul legii modifică alin. (12) și folosesc termenul generic „transferul”.",
-      "constitutionalityNote": "Proiectul prezintă patru vulnerabilități constituționale remediabile prin amendamente: (1) Art. 15 alin. (2) privind neretroactivitatea legii, din cauza datei „1 ianuarie 2026” din Art. I pct. 2; (2) Art. 1 alin. (5) privind calitatea și previzibilitatea legii, din cauza suprapunerii numerotării la art. 60 pct. 2 din Codul fiscal și a caracterului vag al Art. IV alin. (1); (3) Art. 136 privind regimul proprietății publice, întrucât transferul bunurilor din domeniul public al statului către UAT-uri nu poate fi impus generic fără individualizarea regimului juridic (proprietate vs. administrare); (4) Art. 138 alin. (5), deoarece creșterea cheltuielilor bugetare și scutirea fiscală necesită indicarea sursei de finanțare și fișa financiară.",
-      "euLawNote": "Nu ridică probleme pe Directiva (UE) 2018/958 (nu restricționează accesul la o profesie reglementată) și nici pe Directiva (UE) 2015/1535 (TRIS). Din contră, obiectivele proiectului (dezinstituționalizarea adulților cu dizabilități prin locuințe protejate și susținerea asistenței personale în comunitate) sunt aliniate cu art. 19 din Convenția ONU privind drepturile persoanelor cu dizabilități (UNCRPD) și cu Strategia europeană privind drepturile persoanelor cu dizabilități 2021-2030.",
+      "blindSpotsCaught": "Două chichițe importante trecute neobservate la adoptarea tacită: (1) Art. II folosește formula restrictivă «veniturile realizate din salarii», omițând sintagma standard din art. 60 Cod fiscal («și asimilate salariilor prevăzute la art. 76 alin. (1)-(3)»), ceea ce poate genera impozitarea neunitară a unor sporuri/indemnizații și discriminează «asistentul personal profesionist»; (2) Art. IV alin. (1) nu prevede un termen-limită pentru cererile primăriilor în interiorul celor 180 de zile impuse Guvernului și lasă o portiță pentru preluarea de imobile ale statului fără garanții privind păstrarea destinației sociale.",
+      "constitutionalityNote": "Risc ridicat de neconstituționalitate față de art. 138 alin. (5) din Constituție (obligația stabilirii sursei de finanțare): proiectul creează cheltuieli bugetare fixe și reduce încasările din impozitul pe venit fără fișă financiară (art. 15 Legea nr. 500/2002) și fără sursă indicată. De asemenea, Art. IV este vulnerabil pe art. 1 alin. (5) (claritatea și previzibilitatea legii) și art. 136 (regimul proprietății publice), neprecizând natura juridică a transferului de imobile și garanțiile de folosință.",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează profesii reglementate) și nici a Directivei (UE) 2015/1535 (TRIS, nevizând servicii digitale sau norme tehnice). Nu creează obstacole pe piața internă și nu constituie ajutor de stat (vizează servicii sociale publice neeconomice și salariați persoane fizice). Scopul dezinstituționalizării este compatibil cu Strategia UE 2021-2030 privind drepturile persoanelor cu dizabilități, însă accesarea fondurilor europene menționate la Art. IV alin. (2) cere un regim juridic clar al imobilelor.",
       "senatForm": {
-        "articleRef": "Art. I pct. 2, Art. II și Art. IV alin. (1)",
-        "proposalContent": "1. La Art.I pct.2, din alin.(12) al art.51 se elimină sintagma „Începând cu data de 1 ianuarie 2026,” și se actualizează denumirea ministerului. 2. La Art.II, scutirea din art.60 Cod fiscal se introduce ca pct.1^1 (sau pct.8), nu pct.2. 3. La Art.IV alin.(1), transferul imobilelor se realizează în condițiile art.292 din OUG nr.57/2019 privind Codul administrativ.",
-        "argumentation": "Termenul „1 ianuarie 2026” încalcă principiul neretroactivității (art.15 alin.2 Constituție), legea urmând a intra în vigoare ulterior. La art.60 din Codul fiscal, pct.2 a existat deja în structura articolului, deci renumerotarea încalcă Legea nr.24/2000. La Art.IV, sintagma „asigură transferul” este vagă fără trimitere la regimul bunurilor publice din Codul administrativ.",
-        "otherComments": "Se impune și corectarea erorii gramaticale din titlul legii („pentru modificarea și completare unor acte normative” -> „completarea”) și din Art.IV alin.(1) („la propunerea Ministerul” -> „Ministerului”), precum și solicitarea fișei financiare de la Guvern conform art.138 alin.(5) din Constituție pentru a preveni o obiecție de neconstituționalitate."
-      }
+        "articleRef": "Art. II, Art. III și Art. IV",
+        "proposalContent": "La Art. II, introduceți pct. 6^2 incluzând «veniturile asimilate salariilor» (art. 76 alin. 1-3) și asistentul personal profesionist. La Art. III, stabiliți aplicarea Art. II de la data de 1 a lunii următoare. La Art. IV, precizați expres regimul transferului (proprietate publică ori administrare), procedura prin HG și interdicția schimbării destinației.",
+        "argumentation": "Fără fișa financiară și indicarea sursei de finanțare, proiectul riscă neconstituționalitatea (art. 138 alin. 5 Constituție). Formularea actuală a Art. II exclude veniturile asimilate salariilor și suprapune un punct abrogat, iar aplicarea în mijlocul lunii complică salarizarea. Art. IV nu respectă art. 1 alin. 5 și art. 136 privind regimul imobilelor statului.",
+        "otherComments": "Solicitați Guvernului fișa financiară (art. 15 Legea 500/2002) și punctul de vedere înainte de raport, proiectul fiind adoptat tacit de Senat. Corectați și erorile de redactare: denumirea actuală a Ministerului Muncii la Art. I pct. 2, «taxa pe valoarea adăugată», «unitățile administrativ-teritoriale» și titlul («completarea» în loc de «completare»)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 252108,
-      "riskScore": 3,
-      "riskLevel": "green",
+      "durationMs": 61076,
+      "sourceEndMarker": "SF-73C8EB27",
+      "riskScore": 4,
+      "riskLevel": "yellow",
       "plainTitle": "Statul plătește fix 90% pentru asistenții persoanelor cu handicap, iar salariul lor nu mai e impozitat",
-      "verdictShort": "Lege socială benefică: transformă plafonul „cel mult 90%” într-o garanție fixă pentru primării și mărește salariul net al asistenților personali. Defectele țin de redactare și finanțare: o dată deja trecută la art.51 alin.(12), un cost bugetar fără sursă indicată și un Art.IV vag despre locuințele protejate.",
-      "initiatorClaim": "Inițiatorii spun că formula „în proporție de cel mult 90%” permite bugetului de stat să dea oricât sub 90%, astfel încât primăriile nu pot planifica salariile asistenților personali și costul serviciilor sociale. Vor și salarii nete mai mari pentru asistenți, plus clădiri ale statului transformate în locuințe protejate, ca să accelereze dezinstituționalizarea.",
-      "realityCheck": "Art.I fixează la exact 90% partea statului pentru salariile asistenților personali (art.40) și pentru serviciile sociale (art.51). Baza de calcul rămâne însă „necesarul stabilit anual de minister”, deci statul poate subestima în continuare nevoia reală. Art.II scutește complet de impozit pe venit salariile asistenților personali, dar CAS și CASS rămân datorate, iar o parte din impozitul pierdut ar fi ajuns tot la bugetele locale. Art.IV nu obligă ministerul să finanțeze nimic: promisiunea din expunere privind finanțarea sau cofinanțarea renovării nu apare în text. Primăriile trebuie să renoveze „din fonduri proprii” sau prin programe care nu sunt garantate.",
+      "verdictShort": "Proiect social bine intenționat, care reduce o ambiguitate reală: „cel mult 90%” devine „90%”. Are însă un cost bugetar necuantificat, o scutire fiscală redactată neglijent și un articol despre transferul de imobile prea vag ca să poată fi aplicat.",
+      "initiatorClaim": "Inițiatorii spun că formula „în proporție de cel mult 90%” lasă primăriile fără predictibilitate bugetară și produce aplicare neunitară. Mai urmăresc să facă postul de asistent personal mai atractiv și să grăbească dezinstituționalizarea prin locuințe protejate.",
+      "realityCheck": "Art. I transformă un plafon maxim într-o obligație fixă a bugetului de stat de a acoperi 90% din salariile asistenților personali, din serviciile sociale și din sumele de la art. 47. Partea de 10% rămâne în sarcina bugetelor locale. Art. II scutește integral de impozit pe venit salariul asistenților personali. Impozitul pe venit alimentează însă, prin cote defalcate, chiar bugetele UAT-urilor care angajează acești asistenți, deci o parte din câștigul pentru primării se pierde pe această cale. Art. IV obligă Guvernul să „asigure transferul” unor imobile fără să spună ale cui sunt, prin ce act se transferă și după ce criterii.",
       "affectedGroups": [
         "Angajați & HR",
         "Contabili & Fiscalitate",
         "Sănătate & Educație",
-        "Justiție & Drepturi Civile"
+        "Justiție & Drepturi Civile",
+        "Proprietari & Imobiliare"
       ],
       "keyFindings": [
-        "Art.I pct.1 și pct.2 (art.40 alin.(1), art.51 alin.(10) și (12) din Legea 448/2006): „în proporție de cel mult 90%” devine „în procent de 90%”. Plafonul devine obligație fermă a bugetului de stat, iar 10% rămân în sarcina bugetului local. Nu se revine la finanțarea integrală de dinainte de OUG 90/2017.",
-        "Art.I pct.2 (art.51 alin.(12)): noul text începe cu „Începând cu data de 1 ianuarie 2026”, deși legea intră în vigoare abia la 30 de zile de la publicare (Art.III), adică cel mai devreme la finalul lui 2026. Data fie nu are niciun efect, fie sugerează aplicarea retroactivă a procentului fix, cu risc de cereri de diferențe pentru lunile trecute.",
-        "Art.I: baza de calcul rămâne „necesarul stabilit anual” de Ministerul Muncii pe standarde de cost (art.51) și numărul de beneficiari comunicat de primării (art.40). Procentul e fix, dar suma reală depinde tot de cât de realist e calculat necesarul.",
-        "Art.II (art.60 Cod fiscal): scutirea de impozit pe venit nu are plafon și se aplică numai salariului din activitatea de asistent personal. CAS și CASS rămân datorate, iar impozitul de 10% se calculează după contribuții și deduceri, deci sporul net este de câteva procente din brut. Intrarea în vigoare la 30 de zile contrazice art.4 alin.(1) Cod fiscal, care cere minimum 6 luni de la publicare.",
-        "Art.IV: Guvernul „asigură transferul” imobilelor care „pot fi transformate” în locuințe protejate, fără inventar, fără criterii de selecție și fără regim juridic clar: expunerea vorbește de „administrare”, textul de „transfer”. Alin.(2) obligă primăriile să renoveze imobilele din fonduri proprii sau prin programe MDLPA, dar ministerul nu primește nicio obligație de finanțare.",
-        "Impact bugetar nedeclarat: Art.I poate crește transferurile de la bugetul de stat, iar Art.II reduce încasările din impozitul pe venit. Nici textul, nici expunerea de motive nu cuantifică acest cost și nu indică o sursă de finanțare."
+        "Art. I pct. 1-2 (art. 40 alin. 1, art. 51 alin. 10 și 12 din Legea 448/2006): „cel mult 90%” devine „în procent de 90%”. Azi statul poate da mai puțin; după proiect, este obligat să dea exact 90% din necesar. Costul suplimentar pentru bugetul de stat nu este estimat nicăieri în dosar.",
+        "Art. II introduce în art. 60 din Codul fiscal un „pct. 2”. Este exact numărul fostei scutiri pentru programatori, abrogată de la 1.01.2025 prin OUG 156/2024. Normele de tehnică legislativă cer ca un element nou să primească indice (de ex. pct. 1^1), nu numărul unui element abrogat.",
+        "Art. II vorbește doar de venituri „din salarii”, spre deosebire de pct. 1 și 3, care includ „salarii și asimilate salariilor prevăzute la art. 76 alin. (1)-(3)”. Nu spune nici dacă scutirea acoperă și asistentul personal profesionist. Ambele lacune vor produce interpretări diferite la angajatori.",
+        "Art. III pune intrarea în vigoare la 30 de zile, inclusiv pentru modificarea Codului fiscal. Art. 4 alin. (1) din Codul fiscal prevede un termen de minimum 6 luni pentru modificările codului. Legea ulterioară poate deroga, dar predictibilitatea fiscală are de suferit, iar scutirea ar porni în mijlocul anului bugetar.",
+        "Art. IV alin. (1) cere Guvernului să „asigure transferul imobilelor care pot fi transformate în locuințe protejate” în 180 de zile. Textul nu precizează domeniul (public sau privat al statului), titularul, actul juridic (HG) și criteriile de selecție. Expunerea de motive vorbește de „dare în administrare”, iar textul de „transfer”. Alin. (2) trimite la programe MDLPA nenumite.",
+        "Art. 51 alin. (12) păstrează formula „Începând cu data de 1 ianuarie 2026”, o dată deja trecută. Nu este clar dacă UAT-urile pot pretinde diferența până la 90% pentru perioada dinaintea intrării în vigoare."
       ],
-      "blindSpotsCaught": "Senatul a adoptat proiectul tacit (art.75 alin.(2) teza a III-a), fără dezbatere, așa că erorile de redactare au rămas. Titlul spune „completare” în loc de „completarea”. Art.51 alin.(10) folosește denumirea „Ministerul Muncii și Solidarității Sociale”, iar Art.V „Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale”. Expunerea vorbește de alin.(11), dar textul modifică alin.(12). În Codul fiscal, art.60 are deja elemente numerotate după pct.1, inclusiv fosta facilitate pentru programatori de la pct.2, deci noul element ar trebui numerotat pct.1^1, conform regulilor de tehnică legislativă din Legea 24/2000. Mai subtil: impozitul pe venit ajunge în mare parte la bugetele locale prin cote defalcate, așa că scutirea de la Art.II reduce veniturile chiar ale primăriilor pe care Art.I vrea să le ajute. În fine, termenul de 180 de zile din Art.IV e ambiguu: nu reiese dacă limitează depunerea cererilor sau finalizarea transferului.",
-      "constitutionalityNote": "Obiectivul respectă art.50 din Constituție (protecția specială a persoanelor cu handicap), iar înlocuirea plafonului „cel mult 90%” cu un procent fix întărește previzibilitatea normei (art.1 alin.(5)). Riscurile reale sunt patru. (1) Proiectul modifică bugetul de stat, deci informarea Guvernului este obligatorie (art.111 alin.(1) teza finală). Trebuie verificat dacă Guvernul a transmis punctul de vedere; fără el, legea riscă neconstituționalitatea extrinsecă. (2) Art.138 alin.(5) cere indicarea sursei de finanțare. CCR a admis că cerința e respectată când aplicarea măsurii e corelată cu exercițiul bugetar următor, dar textul nu prevede această corelare. (3) Data de 1 ianuarie 2026 din art.51 alin.(12) poate fi citită ca efect retroactiv, interzis de art.15 alin.(2). (4) Art.IV, fără criterii pentru selectarea imobilelor, este slab la capitolul previzibilitate. Scutirea acordată doar asistenților personali, nu și altor lucrători din îngrijire, poate fi justificată obiectiv, deci riscul pe art.16 este redus.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu introduce condiții noi de acces la profesia de asistent personal. Nici Directiva TRIS (2015/1535) nu e incidentă: nu există reguli tehnice sau servicii ale societății informaționale. Scutirea de impozit vizează persoane fizice salariate, iar angajatorii sunt în principal autorități locale, deci riscul de ajutor de stat (art.107 TFUE) este neglijabil. Direcția proiectului este conformă cu art.19 din Convenția ONU privind drepturile persoanelor cu dizabilități (ratificată de România și de UE) și cu Strategia UE 2021–2030. Singura tensiune ține de procedura de deficit excesiv în care se află România: măsurile cresc cheltuielile și scad veniturile fără compensare.",
+      "blindSpotsCaught": "Sunt câteva lucruri ușor de ratat. Proiectul a trecut de Senat prin adoptare tacită (art. 75 alin. 2 din Constituție), deci fără dezbatere de fond. Expunerea de motive anunță modificarea art. 51 alin. (10) și (11), dar textul modifică alin. (10) și (12). Art. I păstrează denumirea „Ministerul Muncii și Solidarității Sociale”, în timp ce art. V folosește „Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale”. Art. III, dispoziția de intrare în vigoare, este așezat înaintea art. IV și V, contrar ordinii firești a dispozițiilor finale. Scutirea fiscală, finanțată indirect și din cotele de impozit pe venit ale UAT-urilor, reduce chiar veniturile locale pe care proiectul vrea să le protejeze.",
+      "constitutionalityNote": "Fondul nu ridică probleme majore. Scutirea fiscală pentru o categorie socială vulnerabilă intră în marja de apreciere a legiuitorului (art. 16 și art. 56). Riscul principal este procedural-bugetar. Art. I și II măresc cheltuielile și reduc veniturile bugetare, deci cad sub art. 111 alin. (1) teza a doua (punctul de vedere obligatoriu al Guvernului) și sub art. 138 alin. (5) (nicio cheltuială fără sursă de finanțare). Trebuie corelate cu art. 15 din Legea 500/2002, care cere fișă financiară. CCR a sancționat în mod constant legi adoptate fără aceste elemente. Dosarul analizat nu conține nici punctul de vedere al Guvernului, nici fișa financiară. Art. IV, prin lipsa de criterii și a regimului juridic al bunurilor, poate fi criticat pe art. 1 alin. (5) (claritate și previzibilitate) și trebuie corelat cu art. 136 și cu Codul administrativ privind transferul bunurilor între domenii.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este relevantă: proiectul nu restrânge accesul la o profesie reglementată și nu condiționează exercitarea ei. Directiva (UE) 2015/1535 (TRIS) nu se aplică, fiindcă nu sunt reglementate servicii ale societății informaționale sau reguli tehnice. Scutirea de impozit vizează persoane fizice salariate, nu întreprinderi, deci nu constituie ajutor de stat în sensul art. 107 TFUE. Proiectul este în linie cu art. 19 din Convenția ONU privind drepturile persoanelor cu dizabilități (ratificată și de UE), referitor la viața independentă, și cu Strategia UE 2021-2030. Rămâne de verificat compatibilitatea costului cu angajamentele de deficit din procedura de deficit excesiv.",
       "senatForm": {
-        "articleRef": "Art.I pct.2 (art.51 alin.12) și Art.III",
-        "proposalContent": "La art.51 alin.(12) se elimină sintagma „Începând cu data de 1 ianuarie 2026,”. Art.III devine: „(1) Prezenta lege intră în vigoare la 30 de zile de la publicarea în Monitorul Oficial al României, Partea I. (2) Prevederile art.I și art.II se aplică începând cu data de 1 ianuarie a anului următor intrării în vigoare a prezentei legi.”",
-        "argumentation": "Legea intră în vigoare cel mai devreme la finalul lui 2026, deci data «1 ianuarie 2026» ar avea efect retroactiv, interzis de art.15 alin.(2) din Constituție, și ar naște litigii pentru diferențe. Aplicarea de la 1 ianuarie următor permite includerea costului în bugetul anual (art.138 alin.(5)) și dă predictibilitate fiscală angajatorilor (art.4 Cod fiscal).",
-        "otherComments": "Art.51 alin.(10) folosește denumirea veche «Ministerul Muncii și Solidarității Sociale», iar Art.V pe cea actuală: trebuie unificate. La Art.II, elementul nou se numerotează «pct.1^1», nu «pct.2». Art.IV trebuie să precizeze dacă imobilele trec în proprietate sau doar în administrare și după ce criterii."
-      }
+        "articleRef": "Art. II (art. 60 Cod fiscal) și Art. III",
+        "proposalContent": "Art. II: «1^1. persoanele fizice, pentru veniturile din salarii și asimilate salariilor prevăzute la art. 76 alin. (1)-(3), realizate ca asistent personal sau asistent personal profesionist al persoanei cu handicap grav, potrivit Legii nr. 448/2006.» Se introduce Art. II^1: dispozițiile art. II se aplică de la 1 ianuarie a anului următor publicării.",
+        "argumentation": "Pct. 2 al art. 60 a fost abrogat (fosta scutire IT); Legea nr. 24/2000 cere ca elementele noi să primească indice, nu numărul unui element abrogat. Formula actuală omite veniturile asimilate și lasă neclar dacă e inclus asistentul personal profesionist. Data aplicării corelează cu art. 4 C.fiscal și cu ciclul bugetar, dând predictibilitate angajatorilor UAT.",
+        "otherComments": "Solicitați punctul de vedere al Guvernului și fișa financiară (art. 111 și 138 alin. 5 Constituție, art. 15 L. 500/2002) pentru art. I și II. La art. IV, precizați regimul juridic al imobilelor (domeniul public/privat al statului), actul de transfer (HG) și criteriile. Corelați denumirea ministerului din art. I cu art. V."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 104357,
+      "durationMs": 81681,
+      "sourceEndMarker": "SF-73C8EB27",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Finanțare mai sigură pentru dizabilitate și salarii scutite de impozit pentru asistenții personali",
-      "verdictShort": "Proiectul este predominant benefic: consolidează finanțarea serviciilor sociale și sprijină asistenții personali. Necesită corecturi privind aplicarea în timp, numerotarea scutirii fiscale și transferul imobilelor, fără să introducă monopoluri, taxe sau sancțiuni.",
-      "initiatorClaim": "Inițiatorii urmăresc finanțarea predictibilă a drepturilor persoanelor cu handicap, creșterea veniturilor nete ale asistenților personali și accelerarea dezinstituționalizării prin locuințe protejate. Ei prezintă plafonul actual de finanțare drept o sursă de incertitudine și dezechilibre locale.",
-      "realityCheck": "Art. I transformă contribuția statului dintr-un plafon de maximum 90% într-o cotă obligatorie de 90%; pentru serviciile finanțate după standarde de cost, aceasta nu garantează acoperirea a 90% din cheltuielile efective. Art. II scutește salariile aferente activității de asistent personal de impozitul pe venit, fără să elimine contribuțiile sociale. Art. IV obligă Guvernul să asigure transferuri de imobile la solicitarea autorităților locale, dar nu precizează dreptul transmis și nu garantează alocări individuale pentru lucrări.",
+      "plainTitle": "Finanțare fixă pentru asistență și scutire de impozit pentru asistenții personali",
+      "verdictShort": "Proiectul este predominant favorabil persoanelor cu dizabilități și asistenților personali: transformă plafonul finanțării de stat într-o cotă obligatorie și introduce o scutire fiscală. Principalele vulnerabilități sunt mecanismul imobiliar insuficient precizat și fundamentarea bugetară care trebuie verificată în dosarul legislativ.",
+      "initiatorClaim": "Inițiatorii urmăresc finanțarea predictibilă a serviciilor și drepturilor persoanelor cu handicap, creșterea veniturilor nete ale asistenților personali și accelerarea dezinstituționalizării prin amenajarea unor locuințe protejate.",
+      "realityCheck": "Art. I înlocuiește finanțarea de maximum 90% cu finanțarea obligatorie de 90%; pentru art. 51, procentul privește necesarul calculat potrivit standardelor de cost, fără să garanteze acoperirea tuturor cheltuielilor efective. Art. II scutește salariile asistenților personali de impozitul pe venit, fără să modifice contribuțiile sociale. Art. IV obligă Guvernul să asigure transferuri imobiliare la solicitarea autorităților locale, dar nu precizează natura transferului, iar accesul la programe de investiții nu echivalează cu o alocare bugetară garantată.",
       "affectedGroups": [
         "Contabili & Fiscalitate",
         "Angajați & HR",
         "Proprietari & Imobiliare",
-        "Justiție & Drepturi Civile"
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. I produce o schimbare bugetară reală, nu doar una de vocabular. Formula „cel mult 90%” exprimă un plafon inteligibil; simpla existență a unui plafon nu dovedește încălcarea clarității legii. Cota fixă îmbunătățește predictibilitatea, dar proiectul nu adaugă un calendar al transferurilor.",
-        "Art. II privește veniturile salariale din activitatea eligibilă, nu toate veniturile persoanei și nici indemnizația alternativă primită de persoana cu handicap. Asistentul personal profesionist are un statut distinct; eventuala includere în scutire trebuie precizată, nu presupusă.",
-        "Art. I pct. 2 păstrează data de 1 ianuarie 2026 din reglementarea existentă. Aceasta nu dovedește singură retroactivitatea, dar trebuie clarificat că noua cotă fixă operează pentru viitor. Este necesară și corelarea cu art. 24 din Legea nr. 7/2023, care reglementează finanțarea drepturilor de la art. 47. [Legea nr. 448/2006, cu trimiterile legislative](https://legislatie.just.ro/Public/DetaliiDocument/88315)",
-        "Art. III prevede intrarea în vigoare după 30 de zile, fără o derogare expresă de la termenul general de minimum șase luni pentru modificarea Codului fiscal. Trebuie stabilită și prima lună salarială pentru care se aplică scutirea. [Codul fiscal, art. 4](https://legislatie.just.ro/Public/DetaliiDocumentAfis/289529)",
-        "Art. IV nu identifică patrimoniul din care provin imobilele, beneficiarul juridic al transferului și dacă se transmite proprietatea ori administrarea. Termenul de 180 de zile curge de la intrarea în vigoare, fără să fie corelat cu momentul solicitării; finanțarea lucrărilor rămâne dependentă de resursele și programele disponibile.",
-        "Proiectul nu impune cetățenilor sau IMM-urilor taxe, autorizații ori raportări noi. Impactul principal constă în contribuții obligatorii ale statului, reducerea încasărilor din impozitul salarial și sarcini administrative pentru autorități; materialele furnizate nu permit cuantificarea impactului net."
+        "Art. I pct. 1: obligația autorităților locale de a bugeta salariile și celelalte drepturi ale asistenților personali există deja. Noutatea este cota fixă de 90% de la bugetul de stat, în locul plafonului de maximum 90%; proiectul nu introduce termene pentru virarea efectivă a sumelor.",
+        "Art. I pct. 2: aceeași schimbare privește art. 51 alin. (10) și (12), raportată la necesarul stabilit anual pe baza standardelor de cost. Diferența până la cheltuielile efective poate depăși 10% dacă acestea depășesc necesarul astfel calculat.",
+        "Art. II: scutirea privește veniturile salariale obținute din activitatea de asistent personal, nu toate veniturile persoanei și nici CAS sau CASS. Persoanele cu handicap grav sau accentuat beneficiază deja de propria scutire, conform art. 60 pct. 1; proiectul introduce un temei distinct pentru asistenți.",
+        "Art. IV alin. (1): expresia «asigură transferul imobilelor» nu stabilește dacă se transmite proprietatea sau administrarea, din ce patrimoniu provin bunurile și prin ce procedură sunt selectate. Expunerea de motive vorbește despre administrare, dar această explicație nu completează juridic dispozitivul legii; regulile generale privind proprietatea rămân aplicabile.",
+        "Art. IV alin. (2): autoritățile locale primesc obligația de reabilitare, modernizare și dotare, cu surse alternative de finanțare enumerate, însă fără bugete, criterii de acces sau termene pentru lucrări. Nu se instituie taxe ori obligații administrative directe pentru cetățeni sau IMM-uri.",
+        "Art. III–V: legea intră în vigoare după 30 de zile, actualizarea normelor are termen de încă 60 de zile, iar transferurile au termen de 180 de zile de la intrarea în vigoare. Termenul pentru actualizarea normelor nu suspendă automat aplicarea dispozițiilor legii."
       ],
-      "blindSpotsCaught": "Art. II reutilizează numărul 2 din art. 60, deși acel punct a fost abrogat începând cu 2025; soluția corectă este introducerea unui punct cu indice, potrivit regulilor de completare. Proiectul nu elimină prin această operațiune o scutire IT încă existentă. Adoptarea tacită la Senat nu certifică examinarea și rezolvarea problemelor de fond. [Codul fiscal, art. 60](https://edirect.e-guvernare.ro/Uploads/Legi/36824/CODUL%20FISCAL.pdf), [Legea nr. 24/2000, art. 60](https://legislatie.just.ro/Public/DetaliiDocument/126884)",
-      "constitutionalityNote": "Scopul este compatibil cu protecția specială prevăzută de art. 50. Prin raportare la art. 1 alin. (5), sunt necesare precizări privind transferul imobilelor și aplicarea temporală; aplicarea cotei noi unor perioade anterioare ar ridica problema art. 15 alin. (2). Art. 23 alin. (12), privind legalitatea pedepsei, nu este incident: proiectul nu instituie pedepse. Pentru efectele bugetare trebuie verificată solicitarea informării Guvernului conform art. 111 alin. (1) și respectarea art. 138 alin. (5); textul indică surse, iar lipsa unei estimări în documentele furnizate nu demonstrează automat neconstituționalitatea. Art. IV necesită corelare cu regimul proprietății din art. 136. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355)",
-      "euLawNote": "Din text nu rezultă bariere de acces pe piață sau privilegii exclusive pentru operatori. Directiva (UE) 2018/958 nu impune aici un test de proporționalitate profesională: proiectul nu introduce restricții privind accesul la o profesie reglementată sau exercitarea acesteia. [Directiva 2018/958, art. 1–2](https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX%3A32018L0958). Nici notificarea TRIS nu este declanșată de prevederile prezentate, care nu stabilesc reglementări tehnice pentru produse ori norme privind servicii ale societății informaționale, inclusiv AI. [Directiva 2015/1535, art. 1 și 5](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535)",
+      "blindSpotsCaught": "Data de 1 ianuarie 2026 din art. 51 alin. (12) există deja în textul în vigoare: nu este o noutate a proiectului și nu justifică automat recalcularea retroactivă la cota fixă. Este necesară o delimitare temporală expresă pentru evitarea disputelor. Art. II folosește numărul unui punct abrogat din Codul fiscal; completarea trebuie corelată tehnic cu structura actuală, preferabil printr-un punct 1^1. Mențiunea din expunerea de motive despre modificarea alin. (11) nu schimbă faptul că dispozitivul modifică alin. (10) și (12).",
+      "constitutionalityNote": "Obiectivul este compatibil cu protecția specială garantată de art. 50 din Constituție. Art. IV necesită precizări pentru previzibilitate, potrivit art. 1 alin. (5), și pentru respectarea regimului proprietății și autonomiei locale, potrivit art. 44, 120 și 136; nu rezultă însă că legea ar permite preluarea gratuită a proprietății private. Finanțarea din sume defalcate din TVA este identificată, dar trebuie verificate fundamentarea impactului, sursele pentru investiții și îndeplinirea obligației de solicitare a informării Guvernului, potrivit art. 111 alin. (1) și art. 138 alin. (5). Documentele furnizate nu permit constatarea unei încălcări procedurale. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident: proiectul nu instituie pedepse.",
+      "euLawNote": "Directiva (UE) 2018/958 nu impune aici un test de proporționalitate pentru accesul la profesii reglementate: proiectul nu introduce condiții de acces sau exercitare profesională. Nu rezultă o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535, deoarece textul nu introduce reglementări tehnice privind produse ori servicii ale societății informaționale și nu reglementează servicii digitale sau AI. Nu apar exclusivități ori bariere noi pentru IMM-uri. Reabilitarea imobilelor rămâne supusă regulilor generale aplicabile achizițiilor publice, fără derogări introduse prin proiect.",
       "senatForm": {
-        "articleRef": "Art. II – completarea art. 60 din Codul fiscal",
-        "proposalContent": "Art. II. – La articolul 60 din Legea nr. 227/2015 privind Codul fiscal, după punctul 1 se introduce un nou punct, pct. 1^1, cu următorul cuprins: „1^1. persoanele fizice, pentru veniturile din salarii obținute din activitatea de asistent personal al persoanei cu handicap, potrivit Legii nr. 448/2006.”",
-        "argumentation": "Punctul 2 a fost abrogat prin OUG nr. 156/2024. Numerotarea cu indice evită reutilizarea unei poziții abrogate și respectă art. 60 alin. (2) din Legea nr. 24/2000. Trimiterea la Legea nr. 448/2006 identifică activitatea eligibilă și păstrează scopul social al scutirii.",
-        "otherComments": "Termenul indicat pentru amendamente, 16.09.2026, a trecut. Memoriul poate fi trimis comisiilor sesizate pentru raport; preluarea ca amendament depinde de un deputat și de procedura parlamentară. Se solicită și corelarea art. III cu art. 4 din Codul fiscal."
-      }
+        "articleRef": "Art. IV alin. (1)",
+        "proposalContent": "(1) La cererea consiliilor locale sau județene, Guvernul aprobă, în termen de 180 de zile de la intrarea în vigoare a legii, prin hotărâre și în condițiile Codului administrativ, trecerea imobilelor din domeniul public al statului în domeniul public al unităților administrativ-teritoriale solicitante, cu destinația de locuințe protejate pentru adulți cu handicap.",
+        "argumentation": "Sintagma «asigură transferul imobilelor» nu identifică dreptul transmis și patrimoniile implicate. Amendamentul stabilește expres mecanismul pentru bunurile publice ale statului, autoritatea solicitantă și destinația, păstrând procedurile și limitele Codului administrativ.",
+        "otherComments": "Amendamentul privește imobilele din domeniul public al statului; pentru alte categorii sunt necesare reguli distincte. Separat, trebuie clarificată aplicarea în timp a cotei de 90%. Analiza folosește documentele furnizate; verificarea online a legislației și a dosarului nu a fost disponibilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T23:17:29.936Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:57:37.308Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

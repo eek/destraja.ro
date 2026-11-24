@@ -1,14 +1,42 @@
 {
   "billId": "Pl-x 630/2026",
   "slug": "plx-630-2026",
-  "updatedAt": "2026-10-28T22:06:48.844Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T14:50:00.259Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 7963,
+    "ordinanceChars": 0,
+    "memoChars": 12667,
+    "memoSupplied": 12667,
+    "marker": "SF-ADFFF5BD"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-630-2026.json",
+    "form": "initiator",
+    "textHash": "adfff5bd1545d66d",
+    "fetchedAt": "2026-11-19T09:40:14.778Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
     "riskScore": 4.7,
     "riskLevel": "yellow",
-    "plainTitle": "Bani și reduceri de taxe pentru angajatorii persoanelor cu dizabilități",
-    "summaryTlDr": "Intenție bună, construcție șubredă. Legea promite subvenții și scutiri, dar nu spune cât costă și nici de unde vin banii pentru bonus. Nu împiedică dubla finanțare și plătește inclusiv angajări care există deja, iar Art. 11 lasă sume datorate statului să ajungă la ONG-uri „acreditate” după reguli care nu există.",
-    "initiatorClaim": "Inițiatorii spun că actualul sistem se bazează prea mult pe obligații și sancțiuni. Vor să-l înlocuiască cu stimulente pentru ca angajatorii să angajeze și să păstreze pe termen lung persoane cu dizabilități: facilități fiscale, subvenții și finanțarea adaptării locurilor de muncă.",
-    "realityCheck": "Legea nu înlocuiește sistemul actual: cota obligatorie de 4% din Legea 448/2006 rămâne, iar Art. 11 schimbă doar destinația banilor plătiți de cei care nu o respectă. Peste ea adaugă, într-o lege paralelă, o reducere de 50% a CAM, o subvenție lunară de 2.500–3.000 lei din bugetul de șomaj, un bonus de 5.000 lei și finanțare de până la 90% pentru adaptări. Subvenția nu e legată de angajări noi, nu are plafon față de salariu și nu e coordonată cu subvențiile din Legea 76/2002. Poate plăti deci posturi existente sau joburi de 4 ore create doar pentru bani, iar recuperarea sumelor, bonusul și verificarea banilor redirecționați sunt lăsate pe seama normelor Guvernului.",
+    "plainTitle": "Bani și scutiri pentru firmele care angajează persoane cu handicap",
+    "summaryTlDr": "Scopul e bun și necesar, dar textul e scris în grabă: subvenții fixe care pot depăși salariul unui angajat cu jumătate de normă, cost bugetar neevaluat și o portiță prin care banii datorați statului pot ajunge la ONG-uri neprecizate. Merită susținut doar cu amendamente serioase.",
+    "initiatorClaim": "Inițiatorii vor să treacă de la un sistem bazat pe obligații și amenzi la unul bazat pe stimulente: facilități fiscale, subvenții și finanțarea adaptării locului de muncă, ca să crească rata de ocupare a persoanelor cu dizabilități și să le păstreze angajate pe termen lung.",
+    "realityCheck": "Legea dă angajatorilor o subvenție lunară de 2.500–3.000 lei pentru 24 de luni din bugetul de șomaj, un bonus de 5.000 lei după 24 de luni, finanțare de până la 90% pentru adaptarea locului de muncă și reducerea cu 50% a CAM. Subvenția nu e legată de salariu și se acordă și pentru contracte de 4 ore pe zi, deci poate acoperi integral costul salarial și poate stimula angajări de fațadă. Legea nu are fișă financiară, nu spune dacă subvenția se cumulează cu cea din Legea 76/2002 și lasă detaliile esențiale (bonus, recuperare, ONG-uri „acreditate”) în seama normelor Guvernului.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
@@ -17,87 +45,23 @@
     ],
     "senatForm": {
       "articleRef": "Art. 7 – Subvenții pentru angajare",
-      "proposalContent": "Se introduce alin. (3): «Subvenția se acordă numai pentru salariații a căror încadrare crește numărul mediu de salariați față de ultimele 12 luni, nu poate depăși 75% din costul salarial lunar al salariatului și nu se cumulează, pentru același salariat, cu sumele acordate în baza Legii nr. 76/2002.»",
-      "argumentation": "Fără aceste limite, statul plătește și angajări existente sau impuse oricum de cota de 4% din Legea 448/2006, iar la o normă de 4 ore plătită la salariul minim subvenția depășește întregul salariu brut. Plafonul de 75% e cel din art. 33 al Regulamentului (UE) 651/2014 (GBER), iar interdicția de cumul evită dubla plată din bugetul de șomaj.",
-      "otherComments": "Art. 11 alin. (1) lit. c) permite direcționarea sumelor datorate statului către ONG-uri „acreditate”, fără a spune cine acreditează și fără a interzice legătura cu angajatorul. Art. 14 alin. (1) lit. c) dă aceeași interdicție de 5 ani pentru o simplă neregulă și pentru fraudă. Bonusul din Art. 8 nu are sursă de finanțare (art. 138 alin. (5) din Constituție)."
+      "proposalContent": "Art. 7 (1) Angajatorii beneficiază, din bugetul asigurărilor pentru șomaj, de o subvenție lunară de 2.500 lei (handicap mediu), respectiv 3.000 lei (accentuat sau grav), proporțional cu timpul de muncă, fără a depăși 75% din costul salarial lunar. (3) Subvenția nu se cumulează, pentru aceeași persoană, cu cea prevăzută la art. 85 din Legea nr. 76/2002.",
+      "argumentation": "La un contract de 4 ore/zi plătit cu salariul minim, costul salarial total e sub 2.500 lei, deci subvenția fixă ar acoperi integral sau peste salariu. Asta încalcă plafonul de 75% din Reg. (UE) 651/2014 (art. 33) și stimulează angajări fictive. Fără o regulă de necumul cu Legea 76/2002, aceeași persoană poate fi finanțată de două ori.",
+      "otherComments": "Mai solicităm: fișă financiară și punctul de vedere al Guvernului (art. 111, art. 138 alin. 5 din Constituție); înscrierea facilităților fiscale direct în Codul fiscal; criterii clare de acreditare pentru ONG-urile de la art. 11; interdicția de 5 ani de la art. 14 doar pentru fraudă, nu pentru orice eroare."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 60874,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 90984,
+      "sourceEndMarker": "SF-ADFFF5BD",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Subvenții și deduceri pentru angajarea persoanelor cu dizabilități, dar cu portițe de abuz și haos fiscal",
-      "verdictShort": "Deși scopul social este lăudabil, proiectul este redactat diletant: creează o lege paralelă cu Legea 448/2006, Legea 76/2002 și Codul Fiscal, permite încasarea unor subvenții mai mari decât salariul brut la contractele part-time de 4 ore și deschide o portiță pentru redirecționarea netransparentă a taxei de dizabilitate către ONG-uri sau unități protejate.",
-      "initiatorClaim": "Inițiatorii susțin că vor să treacă de la un sistem bazat pe amenzi la unul bazat pe stimulente financiare (subvenții lunare, bonusuri de stabilitate, decontarea a 90% din adaptarea locului de muncă și facilități fiscale) pentru angajatorii care încadrează persoane cu dizabilități.",
-      "realityCheck": "În realitate, proiectul suprapune norme noi peste legislația existentă fără a le corela. Permite angajarea la 4 ore/zi (salariu minim brut ~2.025 lei) cu încasarea unei subvenții fixe de 3.000 lei/lună (Art. 6 și 7), prevede concomitent decontarea de către stat a 90% din cheltuielile de adaptare și deducerea lor fiscală integrală (Art. 5 și 9) și permite redirecționarea sumelor datorate statului către ONG-uri și programe prin simple norme metodologice (Art. 11).",
-      "affectedGroups": [
-        "IMM & Antreprenori",
-        "Contabili & Fiscalitate",
-        "Angajați & HR"
-      ],
-      "keyFindings": [
-        "Subvenție mai mare decât salariul la part-time și dublă finanțare (Art. 6 alin. 1 lit. b și Art. 7): Condiția minimă este de 4 ore/zi, dar subvenția este fixă (2.500 - 3.000 lei/lună), fără plafonare la salariul brut efectiv și fără corelare cu subvenția de 2.250 lei/lună deja existentă în art. 85 din Legea nr. 76/2002.",
-        "Portiță de ocolire a bugetului de stat pentru fondul de handicap (Art. 11): Angajatorii care nu ating cota de 4% din Legea 448/2006 pot direcționa sumele datorate direct către „programe”, unități protejate sau ONG-uri acreditate, ocolind plafonul de 50% și condiția achiziției de bunuri realizate prin munca proprie a persoanelor cu dizabilități din art. 78 al Legii 448/2006.",
-        "Modificări fiscale în afara Codului Fiscal și deducere dublă (Art. 5, Art. 9 și Art. 12): Reducerea CAM cu 50% (adică ~1,12% din salariu) și deducerile integrale sunt introduse printr-o lege specială, încălcând art. 1 alin. (3) din Codul Fiscal, în timp ce Art. 9 decontează 90% din adaptarea locului de muncă, iar Art. 5 alin. (1) lit. b) oferă deductibilitate integrală pentru aceleași cheltuieli.",
-        "Redactare deficitară și obligații vagi (Art. 8, Art. 9, Art. 13): Proiectul sare în numerotare direct de la Capitolul IV la Capitolul VI, nu indică ce instituție și din ce buget plătește bonusul de 5.000 lei (Art. 8) sau finanțarea de 90% (Art. 9) și obligă angajatorii să trimită anual raportări (Art. 13 lit. c) fără a preciza cărei autorități."
-      ],
-      "blindSpotsCaught": "Pe lângă omiterea Capitolului V din numerotarea legii, Art. 11 alin. (1) rescrie mascat mecanismul taxei pe dizabilitate din Legea 448/2006: după ce în 2017-2020 statul a înăsprit regulile privind unitățile protejate pentru a opri intermedierile fictive, acest articol permite din nou direcționarea integrală a sumelor datorate bugetului către ONG-uri și „programe”, lăsând tot controlul în seama unor viitoare norme metodologice.",
-      "constitutionalityNote": "Proiectul încalcă art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii) prin paralelism legislativ masiv (interzis de art. 16 din Legea nr. 24/2000) cu Legea nr. 448/2006, Legea nr. 76/2002 și Codul Fiscal, precum și prin delegarea unor elemente esențiale ale obligațiilor bugetare către norme metodologice (Art. 8, 11, 12). De asemenea, angajează cheltuieli bugetare majore fără indicarea sursei de finanțare, contrar art. 138 alin. (5) din Constituție.",
-      "euLawNote": "Deși Art. 5 alin. (2) menționează formal respectarea legislației privind ajutorul de stat, acordarea cumulativă de subvenții salariale, bonusuri, granturi de 90% pentru echipamente și facilități fiscale suplimentare (Art. 12) necesită încadrarea strictă în Regulamentul (UE) nr. 651/2014 (GBER - art. 33 și 34 privind ajutoarele pentru angajarea lucrătorilor cu handicap, unde intensitatea ajutorului nu poate depăși 75% din costurile salariale eligibile) sau în plafoanele de minimis. Nu intră sub incidența Directivei (UE) 2015/1535 (TRIS) sau a Directivei (UE) 2018/958.",
-      "senatForm": {
-        "articleRef": "Art. 6 alin. (1), Art. 7, Art. 11 și Art. 15",
-        "proposalContent": "La Art. 7 se introduce alin. (3): „Cuantumul subvenției nu poate depăși salariul de bază brut lunar al angajatului și nu se cumulează cu subvențiile din Legea nr. 76/2002.” Art. 11 se aliniază cu plafonul de 50% din art. 78 alin. (3) din Legea nr. 448/2006, iar facilitățile fiscale de la Art. 5 se transpun expres în Legea nr. 227/2015 privind Codul fiscal.",
-        "argumentation": "Forma actuală permite angajarea cu 4 ore/zi (art. 6) și încasarea unei subvenții fixe de 3.000 lei/lună (art. 7), depășind salariul brut part-time și suprapunându-se peste art. 85 din Legea 76/2002. De asemenea, art. 11 permite deturnarea integrală a taxei de handicap către ONG-uri sau programe, ocolind regulile stricte din Legea 448/2006.",
-        "otherComments": "Proiectul încalcă Legea 24/2000 prin paralelism legislativ cu Legea 448/2006, Legea 76/2002 și Codul fiscal (art. 1 alin. 3). Lipsesc sursele de finanțare și instituția plătitoare la art. 8 și 9 (încălcând art. 138 alin. 5 din Constituție), lipsește Capitolul V din numerotare, iar art. 13 lit. c) impune raportări anuale fără a indica instituția."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 243097,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Bani și reduceri de taxe pentru angajatorii persoanelor cu dizabilități",
-      "verdictShort": "Intenție bună, construcție șubredă. Legea promite subvenții și scutiri, dar nu spune cât costă și nici de unde vin banii pentru bonus. Nu împiedică dubla finanțare și plătește inclusiv angajări care există deja, iar Art. 11 lasă sume datorate statului să ajungă la ONG-uri „acreditate” după reguli care nu există.",
-      "initiatorClaim": "Inițiatorii spun că actualul sistem se bazează prea mult pe obligații și sancțiuni. Vor să-l înlocuiască cu stimulente pentru ca angajatorii să angajeze și să păstreze pe termen lung persoane cu dizabilități: facilități fiscale, subvenții și finanțarea adaptării locurilor de muncă.",
-      "realityCheck": "Legea nu înlocuiește sistemul actual: cota obligatorie de 4% din Legea 448/2006 rămâne, iar Art. 11 schimbă doar destinația banilor plătiți de cei care nu o respectă. Peste ea adaugă, într-o lege paralelă, o reducere de 50% a CAM, o subvenție lunară de 2.500–3.000 lei din bugetul de șomaj, un bonus de 5.000 lei și finanțare de până la 90% pentru adaptări. Subvenția nu e legată de angajări noi, nu are plafon față de salariu și nu e coordonată cu subvențiile din Legea 76/2002. Poate plăti deci posturi existente sau joburi de 4 ore create doar pentru bani, iar recuperarea sumelor, bonusul și verificarea banilor redirecționați sunt lăsate pe seama normelor Guvernului.",
-      "affectedGroups": [
-        "IMM & Antreprenori",
-        "Angajați & HR",
-        "Contabili & Fiscalitate"
-      ],
-      "keyFindings": [
-        "Art. 7 + Art. 6 alin. (1) lit. b): subvenția de 2.500–3.000 lei pe lună se acordă și pentru o normă de 4 ore pe zi. La salariul minim, ea depășește întregul salariu brut al postului și trece de plafonul de 75% din costul salarial permis de art. 33 din Regulamentul (UE) 651/2014. Rezultă un stimulent pentru angajări de fațadă.",
-        "Art. 5 și Art. 7 nu cer ca angajarea să fie nouă. Pot încasa reducerea CAM și subvenția pentru posturi deja existente: firmele care au deja salariați cu dizabilități, cele cu cel puțin 50 de salariați, obligate oricum de cota de 4%, și instituțiile publice, ale căror posturi sunt plătite deja din bani publici.",
-        "Nu există regulă anti-cumul cu subvențiile pe care Legea nr. 76/2002 le acordă deja, din același buget de șomaj, angajatorilor care încadrează persoane cu handicap. Bonusul de 5.000 lei din Art. 8 nu are sursă de finanțare și nu se precizează dacă se plătește o singură dată.",
-        "Art. 11 alin. (1): angajatorii care nu respectă cota pot direcționa sumele datorate statului către „programe de integrare” sau „ONG-uri acreditate”. Nu se spune cine acreditează și nu e interzisă legătura dintre ONG și angajator, iar verificarea e lăsată pe normele metodologice. Lit. b) (unitățile protejate) există deja în Legea 448/2006.",
-        "Art. 6 alin. (2): banii se recuperează doar dacă raportul de muncă încetează „din motive imputabile angajatorului”, noțiune pe care Codul muncii nu o definește. O încetare prin acordul părților sau o demisie obținută prin presiune lasă subvențiile la angajator.",
-        "Art. 5 alin. (1) lit. b): deducerea cheltuielilor de adaptare a locului de muncă e deja prevăzută de Legea 448/2006 printre drepturile angajatorilor. Art. 9 spune doar că „statul poate finanța”, fără să numească instituția plătitoare sau bugetul; singurul element obligatoriu este termenul de 30 de zile.",
-        "Art. 14 alin. (1) lit. c) aplică aceeași interdicție de 5 ani pentru orice utilizare „nelegală”, inclusiv o eroare de raportare, ca și pentru fraudă, iar cine constată rămâne nedefinit („instituțiile competente”). Probleme de tehnică legislativă: Capitolul V lipsește, Art. 12 are doar alin. (1), iar „voucherele” din Art. 10 și „facilitățile fiscale suplimentare” din Art. 12 sunt nedefinite, deci declarative."
-      ],
-      "blindSpotsCaught": "Reducerea de 50% a CAM din Art. 5 alin. (1) lit. a) e prezentată ca facilitate majoră, dar valorează circa 1,1% din salariul brut, fiindcă CAM e de 2,25%. Deductibilitatea din lit. b)–c) nu ajută microîntreprinderile, care plătesc impozit pe venituri, nu pe profit, și nici instituțiile publice incluse în Art. 2 alin. (1). Greutatea reală a legii stă deci în subvenția din Art. 7, adică exact în partea fără plafon, fără condiția de angajare nouă și fără regulă de cumul. Art. 15 spune că legea „completează” Legea 448/2006, dar nu o modifică expres. Art. 11 schimbă de facto regimul de la art. 78 din Legea 448/2006 (plata la bugetul de stat sau achiziția de la unități protejate) și creează un paralelism contrar Legii nr. 24/2000. Art. 12 lit. b) promite avantaje în achizițiile publice fără legătură cu obiectul contractului, deși dreptul UE permite doar contractele rezervate.",
-      "constitutionalityNote": "Scopul e în acord cu art. 41 și art. 50 din Constituție, iar facilitățile pentru o categorie vulnerabilă nu încalcă art. 16 sau art. 56 alin. (2). Problemele sunt de procedură și de claritate. (1) Art. 5 și Art. 7–8 reduc venituri și creează cheltuieli obligatorii („beneficiază”). Nici textul, nici expunerea de motive (în partea disponibilă) nu conțin fișă financiară sau estimare de cost, cerute de art. 15 din Legea nr. 500/2002, iar pentru bonusul din Art. 8 nu e indicată nicio sursă. Potrivit jurisprudenței CCR, lipsa sursei de finanțare (art. 138 alin. (5)) duce la neconstituționalitate, la fel ca lipsa informării Guvernului (art. 111 alin. (1) teza a doua), dacă aceasta nu a fost solicitată. (2) Art. 1 alin. (5): rămân nedefinite noțiuni esențiale: „instituțiile competente”, „ONG-uri acreditate”, „motive imputabile angajatorului”, „facilități fiscale suplimentare” și autoritatea care finanțează adaptările. Condițiile bonusului și recuperarea sumelor sunt delegate integral normelor Guvernului, deci legea nu e previzibilă pentru angajatori. (3) Art. 2 alin. (2) include toate gradele de handicap, dar Art. 7 exclude gradul ușor de la subvenție. Diferența poate avea o justificare obiectivă, dar nu e motivată. (4) Interdicția de 5 ani din Art. 14 are bază legală, dar e aceeași pentru o simplă neregulă și pentru fraudă, ceea ce ridică o problemă de proporționalitate.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă legea nu reglementează accesul la profesii sau exercitarea lor. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: legea nu conține reguli tehnice pentru produse sau pentru servicii ale societății informaționale. Relevant este regimul ajutorului de stat (art. 107 TFUE), pentru că reducerea CAM, subvenția, bonusul și finanțarea adaptărilor sunt avantaje selective pentru angajatorii care sunt întreprinderi. Ele pot fi scutite de notificare prin Regulamentul (UE) nr. 651/2014: art. 33 permite subvenții salariale de cel mult 75% din costul salarial, iar art. 34 acoperă costurile suplimentare și adaptările până la 100%. A doua cale e regimul de minimis (Regulamentul (UE) 2023/2831). Ambele cer plafon, reguli de cumul (art. 8 GBER) și raportare, iar legea nu are niciunul dintre ele. Clauza din Art. 5 alin. (2) acoperă doar facilitățile fiscale, nu și subvențiile din Art. 7–9, iar Art. 7 poate depăși plafonul de 75%. Art. 12 lit. b) trebuie să respecte Directiva 2014/24/UE: criteriile de atribuire trebuie legate de obiectul contractului (art. 67). Avantajul pentru angajatorii de persoane cu dizabilități există deja sub forma contractelor rezervate (art. 20), transpuse prin Legea nr. 98/2016. Măsurile sunt compatibile cu Directiva 2000/78/CE (adaptarea rezonabilă de la art. 5, acțiunea pozitivă de la art. 7) și cu Convenția ONU ratificată prin Legea nr. 221/2010. Impactul asupra concurenței e redus, fiindcă sprijinul e deschis tuturor angajatorilor în aceleași condiții.",
-      "senatForm": {
-        "articleRef": "Art. 7 – Subvenții pentru angajare",
-        "proposalContent": "Se introduce alin. (3): «Subvenția se acordă numai pentru salariații a căror încadrare crește numărul mediu de salariați față de ultimele 12 luni, nu poate depăși 75% din costul salarial lunar al salariatului și nu se cumulează, pentru același salariat, cu sumele acordate în baza Legii nr. 76/2002.»",
-        "argumentation": "Fără aceste limite, statul plătește și angajări existente sau impuse oricum de cota de 4% din Legea 448/2006, iar la o normă de 4 ore plătită la salariul minim subvenția depășește întregul salariu brut. Plafonul de 75% e cel din art. 33 al Regulamentului (UE) 651/2014 (GBER), iar interdicția de cumul evită dubla plată din bugetul de șomaj.",
-        "otherComments": "Art. 11 alin. (1) lit. c) permite direcționarea sumelor datorate statului către ONG-uri „acreditate”, fără a spune cine acreditează și fără a interzice legătura cu angajatorul. Art. 14 alin. (1) lit. c) dă aceeași interdicție de 5 ani pentru o simplă neregulă și pentru fraudă. Bonusul din Art. 8 nu are sursă de finanțare (art. 138 alin. (5) din Constituție)."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 139374,
-      "riskScore": 5,
-      "riskLevel": "yellow",
-      "plainTitle": "Sprijin pentru angajarea persoanelor cu dizabilități, cu reguli financiare neclare",
-      "verdictShort": "Proiectul urmărește un obiectiv social legitim și poate reduce costurile angajării persoanelor cu dizabilități. În forma analizată, însă, suprapunerile legislative, finanțarea insuficient fundamentată și regulile neclare de redirecționare a banilor publici justifică amendamente substanțiale.",
-      "initiatorClaim": "Inițiatorii promit creșterea ocupării și stabilității profesionale prin stimulente pentru angajatori, adaptarea locurilor de muncă și formare profesională. Expunerea prezintă intervenția drept trecerea de la obligații și sancțiuni la sprijin economic.",
-      "realityCheck": "Articolele acordă avantaje financiare angajatorilor, fără să garanteze direct persoanei cu dizabilități un salariu mai mare sau un loc de muncă. Sistemul existent cuprinde deja deduceri, formare și subvenții, iar proiectul nu stabilește suficient raportul cu acestea. Art. 11 permite redirecționarea sumelor datorate pentru neîndeplinirea cotei de angajare, fără limite și garanții suficiente în lege.",
+      "plainTitle": "Subvenții generoase pentru angajarea persoanelor cu dizabilități, dar fără sursă de finanțare și cu portițe fiscale neclare",
+      "verdictShort": "Intenția socială este legitimă și utilă, însă proiectul este redactat ca o schiță declarativă plină de goluri juridice, fără fișă financiară și cu suprapuneri grave peste Codul Fiscal, Legea 448/2006 și Legea șomajului. În forma actuală, legea riscă neconstituționalitatea, blocajul în aplicare și redirecționarea netransparentă a taxei pe dizabilitate către ONG-uri fără criterii legale de control.",
+      "initiatorClaim": "Inițiatorii susțin că vor să înlocuiască actualul model bazat pe obligații și sancțiuni cu unul de stimulare economică, acordând angajatorilor facilități fiscale, subvenții lunare și finanțare pentru adaptarea locurilor de muncă, astfel încât să crească rata de ocupare a persoanelor cu dizabilități.",
+      "realityCheck": "Textul promite subvenții de 2.500–3.000 lei/lună timp de 24 de luni, bonusuri de 5.000 lei, reducere de 50% la CAM și finanțare de până la 90% a adaptării locurilor de muncă, dar nu indică sursa de finanțare, nu modifică Codul Fiscal și lasă aproape toate regulile esențiale la discreția normelor metodologice. În plus, Art. 11 deschide o portiță prin care angajatorii pot direcționa integral taxa pe dizabilitate către „programe” și „ONG-uri acreditate” nedefinite în lege, intrând în conflict direct cu Art. 78 din Legea nr. 448/2006.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
@@ -105,24 +69,120 @@
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 5, 7 și 9 oferă sprijin concret: reducerea cu 50% a contribuției asiguratorii pentru muncă aferente salariaților eligibili, subvenții lunare de 2.500/3.000 lei și finanțarea adaptărilor până la 90%, aceasta din urmă în limita fondurilor aprobate. Reducerea privește contribuția angajatorului, nu toate taxele salariale.",
-        "Premisa unui sistem lipsit de stimulente este incompletă: art. 84 din Legea nr. 448/2006 prevede deja deduceri și sprijin financiar, iar art. 85 alin. (2) din Legea nr. 76/2002 reglementează subvenționarea angajării persoanelor cu handicap. Proiectul nu clarifică înlocuirea, cumulul sau delimitarea mecanismelor. Surse: [Legea nr. 448/2006](https://legislatie.just.ro/Public/DetaliiDocument/190491), [Legea nr. 76/2002](https://legislatie.just.ro/Public/DetaliiDocument/33919).",
-        "Art. 6 cere contract nedeterminat, minimum patru ore zilnic și menținerea raportului de muncă 24 de luni. Pragul orar poate dezavantaja persoanele care pot lucra doar perioade mai scurte; art. 7 omite handicapul ușor și nu prevede ajustarea subvenției după timpul lucrat. Aceste diferențe necesită justificare obiectivă, fără a fi automat neconstituționale.",
-        "Art. 8 acordă bonusul de 5.000 lei pentru menținerea peste 24 de luni, fără o durată suplimentară minimă stabilită în lege. Astfel, stabilitatea după încheierea subvenționării nu este garantată suficient; art. 6 alin. (2) lasă normelor detaliile recuperării proporționale.",
-        "Art. 11 nu precizează cât din obligația datorată poate fi redirecționat și în ce condiții plata către programe, unități protejate sau ONG-uri stinge datoria. Raportul cu mecanismul existent la art. 78 din Legea nr. 448/2006 este neclar, creând risc de diminuare a veniturilor bugetare și de selecție discreționară a beneficiarilor. [Cadrul existent](https://legislatie.just.ro/Public/DetaliiDocument/240574).",
-        "Impactul bugetar nu este cuantificat în expunerea furnizată. Art. 7 indică bugetul asigurărilor pentru șomaj, însă art. 8 nu identifică sursa bonusului, iar art. 9 nu numește bugetul finanțator; Consiliul Fiscal a cerut documentele financiare lipsă prin adresa nr. 42/02.07.2026. Aceasta nu demonstrează că situația a rămas neschimbată ulterior. [Adresa Consiliului Fiscal](https://www.senat.ro/legis/PDF/2026/26L480CF.PDF).",
-        "Art. 13 lit. c) impune raportare anuală fără să stabilească destinatarul și conținutul datelor, ceea ce lasă incertă sarcina administrativă pentru IMM-uri. Art. 14 aplică aceeași interdicție de cinci ani utilizării nelegale și celei frauduloase, fără criterii de individualizare și fără desemnarea clară a autorităților competente.",
-        "Art. 12 promite facilități fiscale suplimentare și departajare favorabilă la achiziții, condiționate de legislația specifică, fără un mecanism suficient determinat în acest proiect. Art. 15 declară generic completarea Legii nr. 448/2006, fără intervenții punctuale; Consiliul Legislativ a emis aviz negativ, inclusiv pentru paralelisme și lipsă de precizie. [Avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L480LG.PDF)."
+        "Impact bugetar masiv fără sursă de finanțare (Art. 5, 7, 8, 9, 10): proiectul creează cheltuieli de până la 60.000–72.000 lei/angajat doar din subvenția lunară (Art. 7), plus bonus de 5.000 lei (Art. 8), cofinanțare de 90% fără plafon valoric maxim (Art. 9) și reduceri fiscale (Art. 5), fără fișă financiară și fără indicarea bugetului pentru Art. 8 și 9.",
+        "Portiță riscantă și conflict normativ la taxa pe dizabilitate (Art. 11): permite redirecționarea sumelor datorate conform Legii nr. 448/2006 către ONG-uri și programe de integrare nedefinite în lege, fără limita de 50% din art. 78 alin. (3) din Legea 448/2006 și fără criterii legale de acreditare sau audit, totul fiind delegat Guvernului.",
+        "Paralelism legislativ cu 4 legi organice/fundamentale: modifică regimul CAM și deductibilitățile fără a modifica Codul Fiscal (Art. 5, 10, 12), dublează subvențiile din Legea nr. 76/2002 fără reguli de necumulare (Art. 7), alterează achizițiile publice fără a modifica Legea nr. 98/2016 (Art. 12 lit. b) și „completează” vag Legea 448/2006 (Art. 15).",
+        "Sancțiune disproporționată și lipsă de autoritate de control (Art. 14): orice „utilizare nelegală” — inclusiv o eroare formală neintenționată — atrage automat interdicția de 5 ani de accesare a facilităților, fără a preciza care instituție constată și aplică sancțiunea.",
+        "Incoerențe de aplicare (Art. 2, 4, 6, 7): include angajatorii din sectorul public la subvenții din bugetul șomajului și facilități fiscale (Art. 2 alin. 1), exclude persoanele cu grad de handicap ușor de la subvenția lunară (Art. 7) și limitează definiția angajatorului la PJ și PFA, omițând alte forme de exercitare a profesiilor (Art. 4 lit. b)."
       ],
-      "blindSpotsCaught": "Art. 5 alin. (2) invocă ajutorul de stat numai pentru facilitățile fiscale, deși și subvențiile, bonusurile sau finanțările pot necesita încadrare europeană; obligațiile UE se aplică indiferent de această omisiune. Procedural, Senatul a respins propunerea la 21.09.2026, ceea ce nu împiedică dezbaterea în Camera Deputaților, cameră decizională. [Fișa Senatului](https://www.senat.ro/Legis/Lista.aspx?AN=2026&NR=b346&cod=27782&pos=0).",
-      "constitutionalityNote": "Obiectivul susține art. 41 și 50; stimulentele pentru incluziune sunt, în principiu, compatibile cu egalitatea din art. 16. Vulnerabilitățile principale țin de art. 1 alin. (5): condiții incomplete, suprapuneri și delegarea unor elemente esențiale către norme. Art. 14 necesită precizarea faptelor, competențelor și individualizarea interdicției; art. 23 alin. (12) privește legalitatea pedepselor și nu transformă automat recuperările financiare în sancțiuni penale. Pentru cheltuieli trebuie respectat art. 138 alin. (5), iar informarea Guvernului trebuie solicitată în condițiile art. 111 alin. (1); nu se poate deduce din extras că solicitarea a lipsit. Sursa finanțării și suficiența fondurilor sunt probleme distincte. Surse: [Constituția](https://legislatie.just.ro/Public/DetaliiDocument/47355), [Decizia CCR nr. 766/2016](https://legislatie.just.ro/Public/DetaliiDocument/186883).",
-      "euLawNote": "Directiva 2018/958 nu este incidentă pe textul analizat: proiectul nu restrânge accesul la profesii reglementate. Nici notificarea TRIS potrivit Directivei 2015/1535 nu rezultă necesară: simpla finanțare a tehnologiilor asistive nu introduce specificații tehnice sau reguli dedicate serviciilor digitale/AI. Riscul european real privește ajutorul de stat și concurența: trebuie stabilite temeiul schemei, costurile eligibile, intensitățile și cumulul. Regulamentul 651/2014 permite, condiționat, subvenții salariale de până la 75% din costurile eligibile prin art. 33 și compensarea costurilor suplimentare până la 100% prin art. 34; procentul de 90% din proiect nu este, singur, nelegal. Surse: [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng), [Directiva 2015/1535](https://eur-lex.europa.eu/eli/dir/2015/1535/oj/eng), [Regulamentul 651/2014](https://eur-lex.europa.eu/eli/reg/2014/651).",
+      "blindSpotsCaught": "Mai multe vicii subtile scapă la o primă lectură: (1) textul sare direct de la Capitolul IV la Capitolul VI (Capitolul V lipsește complet); (2) Art. 2 alin. (1) face instituțiile publice eligibile pentru subvenții din bugetul șomajului, bonusuri de 5.000 lei și cofinanțări de 90%, generând transferuri circulare de fonduri publice; (3) doar Art. 5 alin. (2) menționează regulile de ajutor de stat, nu și Art. 7–9 sau 12, deși cumulul lor poate depăși plafonul UE; (4) Art. 17 stabilește intrarea în vigoare la 120 de zile, contravenind termenului de 6 luni din art. 4 al Codului Fiscal; (5) Art. 13 lit. c impune raportări anuale fără a indica instituția destinatară sau termenul.",
+      "constitutionalityNote": "Proiectul prezintă riscuri majore de neconstituționalitate: (1) Art. 138 alin. (5) și Art. 111 alin. (1) din Constituție — aprobă cheltuieli bugetare semnificative și reduceri de venituri fără fișă financiară și fără indicarea sursei reale de finanțare; (2) Art. 1 alin. (5) privind calitatea și previzibilitatea legii — norme pur declarative („facilități fiscale suplimentare” nedefinite la Art. 12), paralelism cu Legea 448/2006, Legea 76/2002 și Codul Fiscal, delegarea excesivă a elementelor esențiale (condiții de acordare, acreditări, control) către norme metodologice și lipsa indicării autorităților competente pentru sancțiunea de la Art. 14; (3) Art. 16 alin. (1) — potențială discriminare nejustificată prin excluderea persoanelor cu grad de handicap ușor de la subvenția prevăzută la Art. 7.",
+      "euLawNote": "Proiectul ridică două probleme serioase de drept UE: (1) Ajutor de stat (Art. 107–108 TFUE și Regulamentul (UE) nr. 651/2014 – GBER, art. 33–34): cumulul dintre subvenția lunară (Art. 7), reducerea CAM (Art. 5), bonusul de stabilitate (Art. 8) și finanțarea de 90% a adaptării (Art. 9) nu este limitat la intensitățile maxime permise de GBER (75% din costurile salariale, respectiv costuri suplimentare eligibile), riscând calificare ca ajutor de stat ilegal în lipsa notificării/exceptării corecte; (2) Achiziții publice (Directiva 2014/24/UE): criteriile de departajare favorabile de la Art. 12 lit. b sunt formulate vag, fără legătură cu obiectul contractului, riscând distorsionarea concurenței pe piața unică. Directivele (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și (UE) 2015/1535 (TRIS pentru servicii digitale/AI) nu sunt incidente direct.",
+      "senatForm": {
+        "articleRef": "Art. 11 alin. (1) și (2)",
+        "proposalContent": "Se modifică Art. 11: (1) Direcționarea sumelor datorate conf. art. 78 alin. (3) din Legea 448/2006 se face în limita de 50% doar către unități protejate autorizate sau furnizori de formare acreditați legal, cu raportare publică. (2) Acreditarea și verificarea utilizării fondurilor se stabilesc în lege, nu exclusiv prin norme metodologice.",
+        "argumentation": "Art. 11 intră în conflict cu art. 78 din Legea 448/2006, permițând redirecționarea integrală a taxei pe dizabilitate către ONG-uri și programe nedefinite, fără plafonul de 50%. Lăsarea criteriilor de acreditare și control la normele metodologice încalcă art. 1 alin. (5) din Constituție și creează risc de deturnare a fondurilor.",
+        "otherComments": "Solicitați Guvernului fișa financiară (art. 138 alin. 5 Constituție), corelați textul cu Codul Fiscal, Legea 76/2002 și plafoanele UE de ajutor de stat (GBER), excludeți instituțiile publice de la subvenții din bugetul șomajului, corectați lipsa Cap. V și precizați autoritatea competentă și proporționalitatea sancțiunii la Art. 14."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 59304,
+      "sourceEndMarker": "SF-ADFFF5BD",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Bani și scutiri pentru firmele care angajează persoane cu handicap",
+      "verdictShort": "Scopul e bun și necesar, dar textul e scris în grabă: subvenții fixe care pot depăși salariul unui angajat cu jumătate de normă, cost bugetar neevaluat și o portiță prin care banii datorați statului pot ajunge la ONG-uri neprecizate. Merită susținut doar cu amendamente serioase.",
+      "initiatorClaim": "Inițiatorii vor să treacă de la un sistem bazat pe obligații și amenzi la unul bazat pe stimulente: facilități fiscale, subvenții și finanțarea adaptării locului de muncă, ca să crească rata de ocupare a persoanelor cu dizabilități și să le păstreze angajate pe termen lung.",
+      "realityCheck": "Legea dă angajatorilor o subvenție lunară de 2.500–3.000 lei pentru 24 de luni din bugetul de șomaj, un bonus de 5.000 lei după 24 de luni, finanțare de până la 90% pentru adaptarea locului de muncă și reducerea cu 50% a CAM. Subvenția nu e legată de salariu și se acordă și pentru contracte de 4 ore pe zi, deci poate acoperi integral costul salarial și poate stimula angajări de fațadă. Legea nu are fișă financiară, nu spune dacă subvenția se cumulează cu cea din Legea 76/2002 și lasă detaliile esențiale (bonus, recuperare, ONG-uri „acreditate”) în seama normelor Guvernului.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Angajați & HR",
+        "Contabili & Fiscalitate",
+        "Sănătate & Educație",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 7 + art. 6 alin. (1) lit. b): subvenția fixă de 2.500/3.000 lei se acordă și pentru contracte de 4 ore/zi. La jumătate de normă plătită cu salariul minim, costul salarial total e sub acest nivel, deci statul ar plăti mai mult decât salariul. Asta riscă să încalce plafonul de 75% din costurile salariale prevăzut de art. 33 din Reg. (UE) 651/2014 (GBER) și deschide calea angajărilor fictive.",
+        "Art. 7: nu există nicio regulă de necumul cu subvenția deja prevăzută la art. 85 din Legea nr. 76/2002 pentru angajarea persoanelor cu handicap, deci aceeași persoană poate fi finanțată de două ori. Măsurile se aplică și angajatorilor din sectorul public (art. 2 alin. 1), unde banii publici doar circulă dintr-un buget în altul.",
+        "Art. 11: angajatorii care nu respectă cota de 4% din Legea 448/2006 pot «direcționa» sumele datorate către ONG-uri «acreditate» și programe nedefinite. Legea nu spune cine acreditează aceste ONG-uri, după ce criterii și cum se previn conflictele de interese. Efectul este o pierdere de venituri la buget și un risc real de circuite de complezență.",
+        "Art. 5 alin. (1) lit. b) și c): «deductibilitatea» cheltuielilor de adaptare și formare nu spune dacă e deducere suplimentară sau cea obișnuită. Legea 448/2006 prevede deja deducerea cheltuielilor de adaptare, iar Codul fiscal nu este modificat. Rezultatul e incertitudine fiscală, contrară art. 4 din Codul fiscal.",
+        "Art. 14 alin. (1) lit. c): interdicția de 5 ani se aplică pentru orice utilizare «nelegală», nu doar frauduloasă, fără gradare. O eroare administrativă de bună-credință ar fi sancționată la fel ca frauda.",
+        "Art. 8 și art. 6 alin. (2): bonusul de 5.000 lei și recuperarea «proporțională» sunt lăsate integral normelor metodologice. Legea nu fixează momentul plății, nici ce înseamnă «motive imputabile angajatorului»."
+      ],
+      "blindSpotsCaught": "Combinația art. 6 lit. b) (minimum 4 ore/zi) cu art. 7 (sumă fixă, nelegată de salariu) produce supracompensare și incompatibilitate cu GBER, deși art. 5 alin. (2) invocă generic regulile de ajutor de stat (care nici nu se aplică subvenției de la art. 7). Art. 15 spune că legea «completează» Legea 448/2006, dar nu inserează niciun text în ea: rezultă legislație paralelă, contrară art. 14 din Legea nr. 24/2000. Numerotarea sare de la Capitolul IV la VI. Lipsesc fișa financiară (art. 15 din Legea 500/2002) și sursa de finanțare pentru bonus și pentru cofinanțarea de 90%.",
+      "constitutionalityNote": "Obiectivul se sprijină pe art. 41 și art. 50 din Constituție. Riscuri: (1) art. 138 alin. (5): cheltuielile noi (subvenții, bonus, reducerea CAM) nu au sursă de finanțare stabilită, iar CCR a sancționat repetat astfel de legi; (2) art. 111 alin. (1): este necesară informarea Guvernului, iar lipsa ei poate fi viciu de procedură; (3) art. 1 alin. (5): termeni vagi («ONG-uri acreditate», «deductibilitate», «motive imputabile») și delegarea elementelor esențiale către normele metodologice afectează claritatea și previzibilitatea; (4) art. 16 și proporționalitatea: interdicția de 5 ani fără gradare poate fi excesivă.",
+      "euLawNote": "Directiva 2018/958 (test de proporționalitate) nu e aplicabilă, pentru că proiectul nu reglementează accesul la profesii. TRIS 2015/1535 nu e aplicabilă: nu există reguli privind servicii digitale sau AI. Problema europeană reală este ajutorul de stat: facilitățile pentru angajatorii privați trebuie să respecte art. 33–34 din Reg. (UE) 651/2014 (plafon de 75% din costurile salariale, regula cumulului, raportare) sau regimul de minimis, altfel e necesară notificarea la Comisie. Art. 12 lit. b) (avantaj în achizițiile publice) trebuie aliniat la Directiva 2014/24/UE: contractele rezervate de la art. 20 și criteriile legate de obiectul contractului (art. 67) nu permit un avantaj general pentru angajatorii care depășesc cota. Convenția ONU (Legea 221/2010) susține scopul.",
+      "senatForm": {
+        "articleRef": "Art. 7 – Subvenții pentru angajare",
+        "proposalContent": "Art. 7 (1) Angajatorii beneficiază, din bugetul asigurărilor pentru șomaj, de o subvenție lunară de 2.500 lei (handicap mediu), respectiv 3.000 lei (accentuat sau grav), proporțional cu timpul de muncă, fără a depăși 75% din costul salarial lunar. (3) Subvenția nu se cumulează, pentru aceeași persoană, cu cea prevăzută la art. 85 din Legea nr. 76/2002.",
+        "argumentation": "La un contract de 4 ore/zi plătit cu salariul minim, costul salarial total e sub 2.500 lei, deci subvenția fixă ar acoperi integral sau peste salariu. Asta încalcă plafonul de 75% din Reg. (UE) 651/2014 (art. 33) și stimulează angajări fictive. Fără o regulă de necumul cu Legea 76/2002, aceeași persoană poate fi finanțată de două ori.",
+        "otherComments": "Mai solicităm: fișă financiară și punctul de vedere al Guvernului (art. 111, art. 138 alin. 5 din Constituție); înscrierea facilităților fiscale direct în Codul fiscal; criterii clare de acreditare pentru ONG-urile de la art. 11; interdicția de 5 ani de la art. 14 doar pentru fraudă, nu pentru orice eroare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 87708,
+      "sourceEndMarker": "SF-ADFFF5BD",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Subvenții și reduceri fiscale pentru angajarea persoanelor cu dizabilități",
+      "verdictShort": "Proiectul urmărește un obiectiv social legitim și oferă sprijin concret pentru angajare. Necesită însă corectarea mecanismului de redirecționare a contribuțiilor, clarificarea finanțării și stabilirea unor reguli suficiente pentru acordarea și recuperarea ajutoarelor.",
+      "initiatorClaim": "Inițiatorii urmăresc creșterea ocupării persoanelor cu dizabilități prin reducerea costurilor angajatorilor, adaptarea locurilor de muncă și încurajarea stabilității profesionale. Expunerea de motive promite proceduri mai simple și un sistem sustenabil.",
+      "realityCheck": "Proiectul acordă facilități fiscale, subvenții lunare pentru maximum 24 de luni, un bonus de stabilitate și posibilitatea finanțării adaptărilor. Art. 11 introduce și o alternativă insuficient delimitată pentru angajatorii care nu respectă cota de angajare, fără să modifice expres mecanismul corespunzător din Legea nr. 448/2006. Sustenabilitatea și simplificarea anunțate în motivare nu sunt demonstrate printr-o estimare financiară sau prin proceduri suficient definite în textul furnizat.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 5 și 7 prevăd reducerea cu 50% a contribuției asiguratorii pentru muncă timp de 24 de luni și subvenții lunare de 2.500 sau 3.000 lei. Sunt stimulente reale; acordarea lor trebuie corelată cu facilitățile existente și cu regulile privind cumulul ajutoarelor.",
+        "Art. 6 condiționează facilitățile de contracte pe durată nedeterminată, minimum patru ore zilnic și menținerea raporturilor de muncă timp de 24 de luni. Pragul orar poate exclude angajări adaptate persoanelor care pot lucra mai puțin; necesitatea lui nu este justificată în documentele furnizate.",
+        "Art. 7 nu include gradul de handicap ușor, deși art. 2 definește un domeniu general de beneficiari. Diferențierea sprijinului după nevoi poate fi justificată, dar delimitarea trebuie explicată; nu reprezintă automat discriminare.",
+        "Art. 11 permite direcționarea sumelor datorate pentru neîndeplinirea cotei de angajare către programe, unități protejate și ONG-uri acreditate. Lipsesc limitele, condițiile acreditării și raportul exact cu obligațiile existente; există riscul unei substituiri neclare a plăților obligatorii.",
+        "Art. 7 indică bugetul asigurărilor pentru șomaj, însă art. 8 nu identifică bugetul bonusului de 5.000 lei. Art. 9 limitează finanțarea adaptărilor la fondurile aprobate anual, ceea ce înseamnă că sprijinul de până la 90% nu este garantat fiecărui solicitant.",
+        "Art. 8 permite bonusul după depășirea a 24 de luni fără să stabilească o perioadă suplimentară obligatorie de păstrare a angajatului. Textul nu împiedică explicit încetarea raportului de muncă imediat după obținerea bonusului.",
+        "Art. 14 prevede recuperarea sumelor, accesorii fiscale și excluderea pentru cinci ani, dar nu individualizează suficient abaterile, autoritățile și procedura. Aceeași formulare acoperă utilizarea nelegală și frauda, fără criterii explicite de diferențiere după gravitate.",
+        "Art. 13 introduce raportarea anuală fără să precizeze destinatarul, conținutul și relația cu raportările existente. Pentru IMM-uri, simplificarea promisă poate deveni o obligație administrativă suplimentară.",
+        "Art. 15 declară generic completarea Legii nr. 448/2006, fără intervenții legislative punctuale. Art. 16 și 17 acordă 90 de zile pentru norme și 120 de zile până la intrarea în vigoare, dar nu clarifică eligibilitatea contractelor existente și momentul de la care se calculează perioadele de sprijin."
+      ],
+      "blindSpotsCaught": "Art. 11 este schimbarea cu efectul potențial cel mai sensibil: sub titlul incluziunii introduce o cale alternativă de conformare pentru angajatorii care nu angajează suficiente persoane cu dizabilități. În plus, trimiterea expresă la ajutorul de stat din art. 5 alin. (2) privește facilitățile fiscale; subvențiile și celelalte avantaje trebuie evaluate separat, chiar dacă obligațiile europene li se aplică independent de această omisiune.",
+      "constitutionalityNote": "Obiectivul sprijină art. 41 și 50 din Constituție; avantajele destinate compensării dezavantajelor persoanelor cu dizabilități sunt, în principiu, compatibile cu egalitatea din art. 16. Riscurile principale privesc art. 1 alin. (5): suprapunerea neclară cu legislația existentă și delegarea către norme a unor elemente esențiale privind eligibilitatea, redirecționarea banilor și sancțiunile. Art. 138 alin. (5) impune stabilirea sursei de finanțare, iar art. 111 alin. (1) cere solicitarea informării Guvernului când inițiativa modifică prevederi bugetare; documentele furnizate nu permit verificarea îndeplinirii acestei proceduri. Lipsa unei estimări financiare nu dovedește singură neconstituționalitatea. Art. 23 alin. (12) privește legalitatea pedepselor și nu trebuie aplicat automat recuperării ajutoarelor sau excluderii administrative prevăzute aici.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testarea proporționalității restricțiilor asupra profesiilor reglementate; proiectul nu introduce asemenea restricții, deci nu rezultă aplicabilitatea sa. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu este declanșată de simpla finanțare a tehnologiilor asistive: textul nu stabilește reguli tehnice pentru produse sau servicii ale societății informaționale. Problema relevantă este ajutorul de stat pentru angajatorii care desfășoară activități economice: trebuie stabilite temeiul acordării, costurile eligibile, intensitățile și cumulul. În cadrul exceptării prevăzute de Regulamentul (UE) nr. 651/2014, ajutorul salarial pentru lucrătorii cu handicap are un plafon de 75% din costurile eligibile, iar compensarea anumitor costuri suplimentare poate ajunge la 100%; procentul de 90% pentru adaptare nu este, singur, nelegal. Subvențiile fixe, inclusiv pentru patru ore zilnic, necesită verificarea raportării la costurile efective. Avantajele la achiziții din art. 12 trebuie să respecte transparența, egalitatea de tratament și legătura criteriilor cu obiectul contractului.",
       "senatForm": {
         "articleRef": "Art. 11",
         "proposalContent": "Articolul 11 se elimină.",
-        "argumentation": "Textul permite redirecționarea unor sume datorate fără plafon, criterii de selecție ori reguli de evitare a conflictelor de interese. Se suprapune neclar peste art. 78 din Legea nr. 448/2006 și poate reduce veniturile bugetare fără garanții privind angajarea efectivă.",
-        "otherComments": "Propunere pentru comisiile Camerei Deputaților, spre eventuala preluare de un deputat. Termenul indicat, 06.10.2026, este depășit la data analizei, 29.10.2026; transmiterea unei petiții nu echivalează cu depunerea unui amendament parlamentar în termen."
-      }
+        "argumentation": "Articolul permite redirecționarea sumelor aferente cotei de angajare fără limite, criterii de eligibilitate și garanții suficiente stabilite prin lege. Eliminarea evită suprapunerea neclară cu Legea nr. 448/2006. O eventuală extindere a mecanismului trebuie reglementată expres în acea lege, cu reguli de control și trasabilitate.",
+        "otherComments": "Analiza se bazează pe textele furnizate; dosarul parlamentar și legislația consolidată nu au putut fi verificate extern. Sunt necesare și corelarea cu Legea nr. 76/2002 și Codul fiscal, identificarea finanțării, reguli de cumul și clarificarea sancțiunilor."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-28T22:06:48.844Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:50:00.259Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

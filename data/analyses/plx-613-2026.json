@@ -1,125 +1,184 @@
 {
   "billId": "Pl-x 613/2026",
   "slug": "plx-613-2026",
-  "updatedAt": "2026-10-28T21:46:32.427Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T14:56:16.170Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 2845,
+    "ordinanceChars": 0,
+    "memoChars": 4892,
+    "memoSupplied": 4892,
+    "marker": "SF-E2ADF39B"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-613-2026.json",
+    "form": "initiator",
+    "textHash": "e2adf39b4a652d04",
+    "fetchedAt": "2026-11-19T11:20:06.015Z",
+    "acts": 2,
+    "actsFound": 2,
+    "actsRepealed": 0,
+    "articlesFound": 2,
+    "articlesShown": 2,
+    "articleCap": 8000,
+    "articlesCut": 1,
+    "chars": 12945,
+    "truncated": false,
+    "included": true,
+    "key": "49b3f915db116ed9"
+  },
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
-    "plainTitle": "Firmele își pot plăti voucherele de vacanță ale angajaților din impozitul pe profit",
-    "summaryTlDr": "Idee bună pentru angajați și pentru turism, dar croită în grabă. Statul ar plăti integral voucherele firmelor profitabile, fără nicio estimare de cost. Angajatorii pe pierdere și cei care trec de plafon ar pierde deducerea pe care o au azi.",
-    "initiatorClaim": "Inițiatorii spun că voucherele de vacanță sunt rare în mediul privat din cauza costului. Vor să stimuleze turismul intern lăsând firmele să scadă valoarea voucherelor din impozitul pe profit, până la 20% din acesta. Promit și venituri fiscale indirecte din turism, fără să le cuantifice.",
-    "realityCheck": "Mecanic, legea copiază schema sponsorizării. Voucherele devin cheltuială nedeductibilă (art. 25 alin. 4), iar valoarea lor se scade integral din impozit, până la 20% din impozitul datorat. În limita plafonului, bugetul plătește practic tot voucherul, față de cei 16% de azi prin deducere, inclusiv pentru voucherele pe care firmele le dau deja. Peste plafon sau la firmele fără impozit de plată, voucherele devin nedeductibile, fără reportare. Microîntreprinderile nu primesc nimic.",
+    "plainTitle": "Statul ar plăti, din impozitul pe profit, voucherele de vacanță date de firme angajaților",
+    "summaryTlDr": "Ideea e simplă și utilă: firma își scade din impozitul pe profit valoarea voucherelor de vacanță, până la 20% din impozit. Redactarea are însă o capcană. Voucherele sunt mutate în lista cheltuielilor NEdeductibile, așa că firmele pe pierdere sau cu vouchere peste plafon pot ajunge să plătească mai mult decât acum.",
+    "initiatorClaim": "Inițiatorii vor să extindă voucherele de vacanță în mediul privat și să stimuleze turismul intern. Pentru asta, firmele plătitoare de impozit pe profit ar scădea din impozit valoarea voucherelor, în limita a 20% din impozitul datorat.",
+    "realityCheck": "Art. I pct. 1 scoate voucherele din art. 25 alin. (3) lit. c), unde azi sunt cheltuieli cu deductibilitate limitată. Pct. 2 le pune la alin. (4), lista cheltuielilor nedeductibile, și le dă un credit fiscal egal cu minimul dintre valoarea voucherelor și 20% din impozit. O firmă sub plafon câștigă: în loc de deducerea de azi (circa 16% din valoare), scade din impozit 100% din valoare, deci un beneficiu net de circa 84%. O firmă pe pierdere sau cu impozit mic pierde însă deducerea de azi și nu primește credit, iar partea care depășește plafonul de 20% devine nedeductibilă. Art. 24¹ din Legea 165/2018 e în mare parte declarativ, iar plafonul și procedura sunt lăsate pe seama normelor aprobate prin HG.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
-      "Angajați & HR"
+      "Angajați & HR",
+      "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 2 – Cod fiscal art. 25(4) lit. h¹)",
-      "proposalContent": "Lit. h¹) devine: „h¹) cheltuielile cu voucherele de vacanță acordate potrivit legii, în limita sumei scăzute din impozitul pe profit; contribuabilii scad din impozitul pe profit datorat minimul dintre valoarea voucherelor acordate în anul fiscal și 20% din impozitul datorat. Partea nescăzută rămâne cheltuială deductibilă.”",
-      "argumentation": "Textul trece voucherele la cheltuieli nedeductibile (alin. 4), deci tot ce depășește plafonul de 20% și tot ce acordă firmele pe pierdere devine nedeductibil, mai rău decât azi, fără reportare ca la sponsorizare. Amendamentul păstrează creditul, dar lasă deductibilă partea nescăzută, evitând dubla deducere și penalizarea angajatorilor generoși sau pe pierdere.",
-      "otherComments": "Lipsesc fișa financiară și sursa de acoperire (art. 15 Legea 500/2002, art. 111 alin. 1 Constituție). Art. 24¹ alin. (3) lasă plafonul anual pe seama HG, deși elementele facilității țin de lege (art. 139). Alin. (2) e ambiguu: ce contribuții se datorează? Art. IV poate încălca termenul de 6 luni din art. 4 C. fiscal."
+      "articleRef": "Art. I pct. 2 – art. 25 alin. (4) lit. h¹) CF",
+      "proposalContent": "La lit. h¹) se adaugă: «Este nedeductibilă numai suma efectiv scăzută din impozitul pe profit; valoarea voucherelor care depășește această sumă rămâne deductibilă. Suma nescăzută din cauza plafonului de 20% se reportează în următorii 5 ani fiscali.»",
+      "argumentation": "Lit. h¹) e pusă la alin. (4), unde sunt cheltuielile nedeductibile, iar art. I pct. 1 scoate voucherele de la alin. (3) lit. c). Firmele pe pierdere sau cu vouchere peste 20% din impozit ar pierde deducerea de azi și ar plăti mai mult decât acum, contrar scopului declarat de stimulare a turismului.",
+      "otherComments": "Art. 24¹ alin. (3) L.165/2018 lasă plafonul pe seama HG, deși el e fixat la art. 24 alin. (3); elementele facilității trebuie stabilite prin lege (art. 139 Const.). Trebuie precizate ordinea față de creditul de sponsorizare (art. 25 alin. (4) lit. i) și aplicarea la plățile trimestriale. Necesară fișa financiară."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 71134,
-      "riskScore": 5,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 97267,
+      "sourceEndMarker": "SF-E2ADF39B",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Vouchere de vacanță la privat scăzute din impozitul pe profit, dar cu capcane fiscale și neclarități",
-      "verdictShort": "Intenția de a permite firmelor să scadă voucherele de vacanță direct din impozitul pe profit (până la 20%, după modelul sponsorizării) este favorabilă mediului privat, însă textul este redactat defectuos. Mutarea cheltuielii la categoria nedeductibile penalizează firmele cu profit mic sau în pierdere, iar delegarea plafonului anual către Guvern prin norme metodologice încalcă exigențele constituționale de previzibilitate fiscală.",
-      "initiatorClaim": "Inițiatorii vor să stimuleze turismul intern și acordarea voucherelor de vacanță în sectorul privat, permițând firmelor să scadă contravaloarea acestora direct din impozitul pe profit datorat, în limita a 20% din impozit.",
-      "realityCheck": "Proiectul mută voucherele de vacanță de la cheltuieli cu deductibilitate limitată (art. 25 alin. 3 lit. c) la cheltuieli nedeductibile cu credit fiscal (art. 25 alin. 4 lit. h¹), ceea ce înseamnă că firmele cu profit redus sau în pierdere fiscală pierd chiar și deductibilitatea actuală de 16% pentru sumele care depășesc 20% din impozit. Totodată, microîntreprinderile sunt excluse complet, iar noul art. 24¹ din Legea 165/2018 lasă plafonul anual la discreția Guvernului prin HG și creează confuzii privind taxarea salarială.",
+      "plainTitle": "Vouchere de vacanță la privat plătite direct din impozitul pe profit al statului",
+      "verdictShort": "O facilitate fiscală populistă care transferă integral costul voucherelor de vacanță ale firmelor profitabile în cârca bugetului de stat, fără fișă financiară și cu vicii grave de redactare. Deși avantajează companiile mari și sectorul HoReCa, proiectul penalizează paradoxal firmele cu profit mic sau pierdere și încalcă norme constituționale esențiale.",
+      "initiatorClaim": "Inițiatorii (parlamentari PSD, AUR, PNL și UPR) susțin că măsura va stimula turismul intern și va sprijini angajații din mediul privat, eliminând povara financiară care descurajează în prezent firmele să acorde vouchere de vacanță.",
+      "realityCheck": "În prezent (art. 25 alin. 3 lit. c Cod fiscal), voucherele de vacanță sunt cheltuieli deductibile limitat, deci statul suportă doar 16% din costul lor. Proiectul le mută la cheltuieli nedeductibile (art. 25 alin. 4 lit. h^1), dar permite scăderea lor integrală (credit fiscal 100%) direct din impozitul pe profit datorat, în limita a 20% din acesta. Rezultatul real este o gaură bugetară neevaluată finanțată de toți contribuabilii, excluderea microîntreprinderilor și pierderea deductibilității pentru firmele pe pierdere sau cu profit mic.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
-        "Angajați & HR"
+        "Angajați & HR",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 1 și 2 elimină voucherele de vacanță din categoria cheltuielilor deductibile (art. 25 alin. 3 lit. c) și le trece la cheltuieli nedeductibile (art. 25 alin. 4 lit. h¹) cu scădere din impozitul pe profit în limita a 20%; pentru firmele cu mulți angajați și marjă mică de profit, suma ce depășește 20% din impozit devine integral nedeductibilă și nu se reportează.",
-        "Art. II (art. 24¹ alin. 3 din Legea 165/2018) deleagă în alb stabilirea „condițiilor și a plafonului anual” prin Hotărâre de Guvern (Normele metodologice ale Codului fiscal), deși art. 24 alin. (3) din aceeași lege stabilește deja prin lege organică/ordinară plafonul de 6 salarii minime brute.",
-        "Art. II (art. 24¹ alin. 2) prevede vag că voucherele „se supun regimului fiscal prevăzut de legislația fiscală în vigoare pentru veniturile salariale”, formulare care riscă să fie interpretată de ANAF ca impunând toate contribuțiile salariale (inclusiv CAS 25% și CAM 2,25%), nu regimul special al biletelor de valoare (doar impozit 10% și CASS 10%).",
-        "Proiectul nu corelează noul credit fiscal de 20% cu plafonul de 20% aferent sponsorizărilor (art. 25 alin. 4 lit. i Cod fiscal) și exclude total plătitorii de impozit pe veniturile microîntreprinderilor, PFA-urile și ONG-urile."
+        "Finanțare 100% de la buget fără sursă de acoperire (Art. I pct. 2): scăderea directă din impozitul pe profit (până la 20%) reduce costul net al angajatorului profitabil la zero, dar proiectul nu are fișă financiară și nu indică nicio sursă de acoperire a pierderii bugetare.",
+        "Capcană pentru firmele cu profit mic sau pierdere (Art. I pct. 1-2): eliminarea voucherelor din categoria cheltuielilor deductibile (art. 25 alin. 3 lit. c) și mutarea lor la nedeductibile (alin. 4 lit. h^1), fără drept de reportare, face ca orice sumă peste 20% din impozitul pe profit să devină integral nedeductibilă fiscal.",
+        "Delegare neconstituțională către Guvern (Art. II, art. 24^1 alin. 3): stabilirea „condițiilor” și a „plafonului anual” este lăsată unei simple Hotărâri de Guvern, deși art. 24 alin. (3) din Legea nr. 165/2018 fixează deja prin lege plafonul maxim de 6 salarii minime brute/an.",
+        "Ambiguitate privind taxarea angajaților (Art. II, art. 24^1 alin. 2): formularea generică „regimul fiscal pentru veniturile salariale”, fără trimitere la exceptările specifice biletelor de valoare, riscă să deschidă interpretări ANAF privind aplicarea CAS (25%) și CAM (2,25%), nu doar a impozitului (10%) și CASS (10%).",
+        "Blocaj procedural și necorelare în Codul fiscal (Art. I pct. 2, Art. III și Art. IV): nu se clarifică cumulul sau ordinea de scădere față de creditul fiscal de 20% pentru sponsorizări (art. 25 alin. 4 lit. i) ori față de impozitul minim pe cifra de afaceri, iar normele care stabilesc plafonul apar abia la 60 de zile după intrarea în vigoare."
       ],
-      "blindSpotsCaught": "Eliminarea sintagmei „și voucherele de vacanță” de la art. 25 alin. (3) lit. c) are un efect pervers ascuns: o companie aflată în pierdere fiscală sau cu profit mic care acordă astăzi vouchere de vacanță își deduce 100% cheltuiala la calculul rezultatului fiscal (în limita a 6 salarii minime/angajat); prin mutarea lor la alin. (4) fără drept de reportare sau deducere a diferenței, tot ce trece de 20% din impozitul pe profit devine cheltuială pur nedeductibilă, crescând baza impozabilă.",
-      "constitutionalityNote": "Ridică probleme de constituționalitate raportat la art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii) și art. 139 alin. (1) (legalitatea impunerii), întrucât art. 24¹ alin. (3) deleagă stabilirea plafonului anual și a condițiilor de acordare prin Hotărâre de Guvern, contrazicând totodată art. 24 din Legea 165/2018. De asemenea, lipsa fișei financiare și a estimării impactului bugetar încalcă exigențele art. 138 alin. (5) din Constituție și ale Legii nr. 69/2010.",
-      "euLawNote": "Măsura este general aplicabilă tuturor plătitorilor de impozit pe profit și nu încalcă Directiva (UE) 2018/958 sau Directiva TRIS 2015/1535, însă decontarea integrală din impozitul pe profit a unor vouchere utilizabile exclusiv în structuri turistice din România poate atrage o analiză de compatibilitate cu normele UE privind ajutoarele de stat indirecte (art. 107 TFUE) și libera prestare a serviciilor turistice în piața unică.",
+      "blindSpotsCaught": "Trei chichițe subtile pot genera litigii fiscale imediate: (1) firmele aflate pe pierdere sau cu marje reduse care au deja obligații de acordare a voucherelor prin contractul colectiv de muncă vor fi taxate mai dur decât în legea actuală, pierzând deductibilitatea de 16%; (2) în primele 60 de zile ale anului fiscal (diferența dintre Art. IV și Art. III), legea va fi inaplicabilă în lipsa normelor HG care fixează plafonul; (3) absența unei reguli de cumul cu sponsorizările (tot 20% la lit. i) poate fie să dubleze erodarea impozitului pe profit la 40%, fie să canibalizeze finanțarea ONG-urilor.",
+      "constitutionalityNote": "Proiectul prezintă riscuri majore de neconstituționalitate: (1) încalcă art. 138 alin. (5) din Constituție, deoarece reduce substanțial veniturile bugetare din impozitul pe profit (până la 20%) fără solicitarea fișei financiare și fără indicarea sursei de finanțare; (2) încalcă art. 139 alin. (1) și art. 108 alin. (2), delegând Guvernului prin HG (art. 24^1 alin. 3) stabilirea unui plafon anual și a condițiilor unei facilități fiscale, elemente rezervate exclusiv legii; (3) încalcă art. 1 alin. (5) privind calitatea și previzibilitatea legii prin contradicția cu art. 24 alin. (3) din Legea nr. 165/2018, expresia juridic imprecisă „din impozitul pe profit redus” și necorelarea cu art. 25 alin. (4) lit. i) și regimul contribuțiilor salariale.",
+      "euLawNote": "Măsura ridică riscuri serioase din perspectiva normelor UE privind ajutoarele de stat (art. 107 și art. 108 alin. 3 TFUE): prin renunțarea directă la 100% din resurse bugetare (până la 20% din impozitul pe profit) pentru finanțarea unor vouchere utilizabile exclusiv în turismul intern (art. 24 alin. 1 și 9 din Legea nr. 165/2018), statul acordă un avantaj selectiv indirect sectorului HoReCa național și pieței concentrate a emitenților de vouchere, avantajând totodată companiile profitabile față de microîntreprinderi. Subvenționarea directă din buget a consumului turistic strict intern poate genera și fricțiuni cu art. 56 TFUE (libera prestare a serviciilor). Proiectul nu intră sub incidența Directivei TRIS (UE) 2015/1535 (nu vizează servicii digitale/AI) și nici direct sub Directiva (UE) 2018/958 (nu reglementează profesii reglementate).",
       "senatForm": {
-        "articleRef": "Art. I pct. 2 și Art. II (art. 24¹ alin. 2-3)",
-        "proposalContent": "La Art. I pct. 2, sumele ce depășesc plafonul de 20% din impozitul pe profit rămân cheltuieli deductibile sau se reportează. La Art. II, la art. 24¹ alin. (2) se precizează aplicarea regimului specific biletelor de valoare din Codul fiscal, iar alin. (3) se modifică pentru a păstra plafonul anual de 6 salarii minime brute stabilit prin art. 24 din Legea 165/2018, nu prin HG.",
-        "argumentation": "Mutarea voucherelor la cheltuieli nedeductibile (art. 25 alin. 4) fără deductibilitatea diferenței peste 20% din impozit penalizează firmele cu marjă mică și mult personal. În plus, delegarea plafonului anual prin HG (art. 24¹ alin. 3) încalcă art. 1 alin. (5) din Constituție și contrazice art. 24 din Legea 165/2018, iar alin. (2) riscă supraimpozitarea cu CAS de 25%.",
-        "otherComments": "Se impune corelarea cu plafonul de sponsorizare (art. 25 alin. 4 lit. i Cod fiscal) pentru a clarifica ordinea scăderii creditelor fiscale din impozitul pe profit datorat, precum și analizarea unei măsuri echivalente pentru microîntreprinderi, care sunt excluse total de la această facilitate."
-      }
+        "articleRef": "Art. I pct. 2 și Art. II (art. 24^1)",
+        "proposalContent": "La art. 25 alin. (4) lit. h^1) se clarifică ordinea de scădere față de sponsorizări (lit. i) și IMCA, plus păstrarea deductibilității pentru sumele peste plafon. La art. 24^1 alin. (2) se face trimitere expresă la art. 76/142 Cod fiscal, iar la alin. (3) se elimină stabilirea plafonului prin HG, menținând limita din art. 24 alin. (3) al Legii nr. 165/2018.",
+        "argumentation": "Stabilirea plafonului fiscal prin HG încalcă art. 139 alin. (1) și art. 1 alin. (5) din Constituție și contrazice art. 24 alin. (3) din Legea 165/2018. Mutarea voucherelor la cheltuieli nedeductibile penalizează firmele cu profit mic sau pierdere. Lipsa corelării cu sponsorizarea și regimul de contribuții salariale creează incertitudine fiscală.",
+        "otherComments": "Proiectul nu are fișă financiară și sursă de finanțare pentru reducerea cu până la 20% a impozitului pe profit (risc pe art. 138 alin. 5 Constituție). Finanțarea din buget a turismului intern impune analiza de ajutor de stat (art. 107 TFUE), iar termenul de 60 de zile de după 1 ianuarie (Art. III) va bloca aplicarea în trimestrul I."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 292745,
-      "riskScore": 5,
+      "durationMs": 64981,
+      "sourceEndMarker": "SF-E2ADF39B",
+      "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Firmele își pot plăti voucherele de vacanță ale angajaților din impozitul pe profit",
-      "verdictShort": "Idee bună pentru angajați și pentru turism, dar croită în grabă. Statul ar plăti integral voucherele firmelor profitabile, fără nicio estimare de cost. Angajatorii pe pierdere și cei care trec de plafon ar pierde deducerea pe care o au azi.",
-      "initiatorClaim": "Inițiatorii spun că voucherele de vacanță sunt rare în mediul privat din cauza costului. Vor să stimuleze turismul intern lăsând firmele să scadă valoarea voucherelor din impozitul pe profit, până la 20% din acesta. Promit și venituri fiscale indirecte din turism, fără să le cuantifice.",
-      "realityCheck": "Mecanic, legea copiază schema sponsorizării. Voucherele devin cheltuială nedeductibilă (art. 25 alin. 4), iar valoarea lor se scade integral din impozit, până la 20% din impozitul datorat. În limita plafonului, bugetul plătește practic tot voucherul, față de cei 16% de azi prin deducere, inclusiv pentru voucherele pe care firmele le dau deja. Peste plafon sau la firmele fără impozit de plată, voucherele devin nedeductibile, fără reportare. Microîntreprinderile nu primesc nimic.",
+      "plainTitle": "Statul ar plăti, din impozitul pe profit, voucherele de vacanță date de firme angajaților",
+      "verdictShort": "Ideea e simplă și utilă: firma își scade din impozitul pe profit valoarea voucherelor de vacanță, până la 20% din impozit. Redactarea are însă o capcană. Voucherele sunt mutate în lista cheltuielilor NEdeductibile, așa că firmele pe pierdere sau cu vouchere peste plafon pot ajunge să plătească mai mult decât acum.",
+      "initiatorClaim": "Inițiatorii vor să extindă voucherele de vacanță în mediul privat și să stimuleze turismul intern. Pentru asta, firmele plătitoare de impozit pe profit ar scădea din impozit valoarea voucherelor, în limita a 20% din impozitul datorat.",
+      "realityCheck": "Art. I pct. 1 scoate voucherele din art. 25 alin. (3) lit. c), unde azi sunt cheltuieli cu deductibilitate limitată. Pct. 2 le pune la alin. (4), lista cheltuielilor nedeductibile, și le dă un credit fiscal egal cu minimul dintre valoarea voucherelor și 20% din impozit. O firmă sub plafon câștigă: în loc de deducerea de azi (circa 16% din valoare), scade din impozit 100% din valoare, deci un beneficiu net de circa 84%. O firmă pe pierdere sau cu impozit mic pierde însă deducerea de azi și nu primește credit, iar partea care depășește plafonul de 20% devine nedeductibilă. Art. 24¹ din Legea 165/2018 e în mare parte declarativ, iar plafonul și procedura sunt lăsate pe seama normelor aprobate prin HG.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Angajați & HR"
       ],
       "keyFindings": [
-        "Art. I pct. 2 (art. 25 alin. 4 lit. h¹ C. fiscal) mută voucherele de vacanță printre cheltuielile nedeductibile și dă în schimb un credit fiscal. Creditul este egal cu cea mai mică valoare dintre totalul voucherelor din anul fiscal și 20% din impozitul pe profit datorat. Este aceeași construcție ca la sponsorizare (lit. i).",
-        "În limita plafonului, bugetul suportă practic 100% din voucher, față de aproximativ 16% azi prin deducere. Asta include și voucherele pe care firmele le acordă deja, un cost care nu aduce niciun efect suplimentar asupra turismului.",
-        "Două categorii de vouchere devin nedeductibile: partea care depășește plafonul și voucherele date de firmele fără impozit de plată (pierdere fiscală). Nu există reportarea pe 7 ani prevăzută la sponsorizare. Pentru acești angajatori, legea e mai dezavantajoasă decât regimul actual.",
-        "Beneficiază doar plătitorii de impozit pe profit care au impozit de plată. Microîntreprinderile, care plătesc impozit pe venit, sunt excluse, deși Expunerea de motive vorbește despre angajații din mediul privat în general.",
-        "Art. II (art. 24¹ Legea 165/2018), alin. (1): voucherele se acordă „din impozitul pe profit redus”, o formulare imprecisă. Alin. (2) le supune „regimului fiscal pentru veniturile salariale”, fără să spună ce contribuții se datorează. Același voucher poate ajunge astfel la două regimuri, după cum angajatorul cere sau nu creditul.",
-        "Art. 24¹ alin. (3) trimite „condițiile, plafonul anual și procedura” în Normele Codului fiscal (HG 1/2016). Art. III dă Guvernului 60 de zile de la intrarea în vigoare, deci regulile vin după ce legea începe să se aplice. Rămâne neclar dacă plafonul e pe angajat sau unul suplimentar față de cel de 20%.",
-        "Art. IV prevede intrarea în vigoare la „1 ianuarie a anului fiscal următor publicării”. Dacă legea apare în a doua jumătate a anului, intră în vigoare în mai puțin de 6 luni, contrar art. 4 alin. (1) C. fiscal. Formula e neclară și pentru firmele cu an fiscal modificat (art. 16 C. fiscal).",
-        "Nu există nicio estimare de cost și nicio sursă de acoperire, deși România se află în procedură de deficit excesiv. „Creșterea veniturilor fiscale indirecte” este doar afirmată, nu calculată."
+        "Art. I pct. 2 introduce lit. h¹) la art. 25 alin. (4), care enumeră cheltuielile NEdeductibile. Combinat cu eliminarea voucherelor din alin. (3) lit. c) (pct. 1), costul voucherelor nu se mai deduce deloc din baza impozabilă și rămâne doar creditul plafonat.",
+        "Creditul este min(valoarea voucherelor; 20% din impozitul pe profit datorat). Nu există report al sumei nescăzute, deci firmele pe pierdere, nou-înființate sau cu profit mic sunt dezavantajate față de regimul actual. Microîntreprinderile, care plătesc impozit pe venit, nu beneficiază deloc.",
+        "Nu se precizează cum se aplică creditul la plățile anticipate sau trimestriale și nici ordinea față de creditul pentru sponsorizare (art. 25 alin. (4) lit. i), plafonat tot la 20% din impozit). E neclar dacă cele două se cumulează sau se concurează.",
+        "Art. 24¹ alin. (1) din Legea 165/2018 («vouchere acordate din impozitul pe profit redus») e o formulare fără conținut normativ clar. Alin. (2) trimite generic la «regimul fiscal al veniturilor salariale» și poate genera dispute despre contribuțiile sociale datorate.",
+        "Art. 24¹ alin. (3) deleagă «condițiile, plafonul anual și procedura» către normele aprobate prin HG, deși plafonul este deja fixat prin lege la art. 24 alin. (3) (6 salarii minime brute). Rezultă un posibil conflict între lege și normă.",
+        "Măsura reduce veniturile bugetare: statul suportă practic integral voucherele până la plafon. În documentele furnizate nu apare o fișă financiară cu estimarea impactului și sursa de compensare."
       ],
-      "blindSpotsCaught": "Principala capcană e plasarea voucherelor la alin. (4), unde sunt cheltuielile nedeductibile. Tot ce trece de plafonul de 20% devine nedeductibil, fără reportarea pe 7 ani de la sponsorizare. O firmă cu pierdere fiscală sau una care dă vouchere tuturor angajaților pierde deci deducerea de azi. Textul nu spune nici dacă plafonul de 20% pentru vouchere se cumulează cu cel de 20% pentru sponsorizare (până la 40% din impozit) și în ce ordine se aplică cele două credite. Nici plățile anticipate trimestriale nu sunt tratate.",
-      "constitutionalityNote": "Fondul măsurii ține de marja legiuitorului în politica fiscală (art. 56 și 139). Diferența de tratament față de microîntreprinderi decurge din regimuri fiscale distincte, pe care CCR le acceptă de regulă. Problemele sunt de previzibilitate (art. 1 alin. 5): art. 24¹ alin. (1) și (2) sunt confuze. Alin. (3) lasă „plafonul anual” pe seama unei hotărâri de Guvern, deși elementele esențiale ale unei facilități fiscale țin de lege (art. 139 alin. 1), iar HG-ul doar organizează executarea legii (art. 108 alin. 2). Procedural, inițiativa diminuează veniturile bugetare, deci informarea Guvernului e obligatorie (art. 111 alin. 1); din datele disponibile nu reiese dacă a fost obținută. Lipsa sursei de acoperire contravine art. 15 din Legea 500/2002, aspect pe care CCR l-a corelat în alte cauze cu art. 111 și art. 138 alin. (5). Textul nu conține sancțiuni, deci art. 23 alin. (12) nu e în discuție.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează accesul la profesii. Nici Directiva TRIS 2015/1535 nu se aplică: nu sunt reguli tehnice pentru servicii ale societății informaționale, iar creditul fiscal nu e legat de specificații tehnice. Relevante sunt regulile de ajutor de stat (art. 107 TFUE). Creditul e deschis tuturor plătitorilor de impozit pe profit, dar banii publici ajung, prin vouchere utilizabile doar în România, la operatorii turistici afiliați. Acesta poate fi un avantaj selectiv indirect și merită analizat de Consiliul Concurenței. Restricția teritorială există deja în Legea 165/2018, dar acum ar fi finanțată din buget, ceea ce ridică întrebări de liberă prestare a serviciilor (art. 56 TFUE). O scădere de venituri necompensată contrazice și angajamentele din procedura de deficit excesiv (art. 126 TFUE).",
+      "blindSpotsCaught": "Capcana tehnică este plasamentul: noua lit. h¹) stă în lista cheltuielilor nedeductibile, nu într-o dispoziție separată de credit fiscal. Pentru cine nu are impozit suficient, măsura prezentată ca stimulent devine o majorare de impozit față de azi. Al doilea punct subtil: art. I pct. 1 rescrie și litera c), lăsând acolo doar tichetele de masă. Voucherele nu mai au deci nicio bază de deducere în afara creditului.",
+      "constitutionalityNote": "Problema principală ține de claritate și previzibilitate (art. 1 alin. (5)). Mesajul legii (stimulent) contrazice efectul mecanic pentru o parte din contribuabili, iar art. 24¹ alin. (1)–(2) e vag. Delegarea către HG a «plafonului anual» al unei facilități fiscale ridică probleme față de art. 139 alin. (1), potrivit căruia elementele esențiale ale impozitelor se stabilesc prin lege. Fiind o reducere de venituri bugetare, propunerea are nevoie de fișă financiară și de punctul de vedere al Guvernului (art. 111 și art. 138 alin. (5) Constituție, art. 15 din Legea 500/2002). Lipsa lor poate fi invocată la CCR. Intrarea în vigoare la 1 ianuarie a anului următor asigură previzibilitatea fiscală.",
+      "euLawNote": "Directiva 2018/958 nu se aplică, fiindcă nu sunt reglementate profesii. Nici TRIS 2015/1535 nu se aplică, fiindcă nu sunt vizate servicii digitale. Creditul e deschis tuturor plătitorilor de impozit pe profit, deci pare o măsură generală, nu ajutor de stat selectiv. Avantajul economic ajunge însă exclusiv la operatorii de turism din România (unitățile afiliate de la art. 24 alin. (9)) și la unitățile emitente. Restrângerea la turismul intern există deja în Legea 165/2018. Finanțarea ei directă din impozit accentuează totuși riscul de restricție la libera prestare a serviciilor (art. 56 TFUE) față de prestatorii din alte state membre.",
       "senatForm": {
-        "articleRef": "Art. I pct. 2 – Cod fiscal art. 25(4) lit. h¹)",
-        "proposalContent": "Lit. h¹) devine: „h¹) cheltuielile cu voucherele de vacanță acordate potrivit legii, în limita sumei scăzute din impozitul pe profit; contribuabilii scad din impozitul pe profit datorat minimul dintre valoarea voucherelor acordate în anul fiscal și 20% din impozitul datorat. Partea nescăzută rămâne cheltuială deductibilă.”",
-        "argumentation": "Textul trece voucherele la cheltuieli nedeductibile (alin. 4), deci tot ce depășește plafonul de 20% și tot ce acordă firmele pe pierdere devine nedeductibil, mai rău decât azi, fără reportare ca la sponsorizare. Amendamentul păstrează creditul, dar lasă deductibilă partea nescăzută, evitând dubla deducere și penalizarea angajatorilor generoși sau pe pierdere.",
-        "otherComments": "Lipsesc fișa financiară și sursa de acoperire (art. 15 Legea 500/2002, art. 111 alin. 1 Constituție). Art. 24¹ alin. (3) lasă plafonul anual pe seama HG, deși elementele facilității țin de lege (art. 139). Alin. (2) e ambiguu: ce contribuții se datorează? Art. IV poate încălca termenul de 6 luni din art. 4 C. fiscal."
-      }
+        "articleRef": "Art. I pct. 2 – art. 25 alin. (4) lit. h¹) CF",
+        "proposalContent": "La lit. h¹) se adaugă: «Este nedeductibilă numai suma efectiv scăzută din impozitul pe profit; valoarea voucherelor care depășește această sumă rămâne deductibilă. Suma nescăzută din cauza plafonului de 20% se reportează în următorii 5 ani fiscali.»",
+        "argumentation": "Lit. h¹) e pusă la alin. (4), unde sunt cheltuielile nedeductibile, iar art. I pct. 1 scoate voucherele de la alin. (3) lit. c). Firmele pe pierdere sau cu vouchere peste 20% din impozit ar pierde deducerea de azi și ar plăti mai mult decât acum, contrar scopului declarat de stimulare a turismului.",
+        "otherComments": "Art. 24¹ alin. (3) L.165/2018 lasă plafonul pe seama HG, deși el e fixat la art. 24 alin. (3); elementele facilității trebuie stabilite prin lege (art. 139 Const.). Trebuie precizate ordinea față de creditul de sponsorizare (art. 25 alin. (4) lit. i) și aplicarea la plățile trimestriale. Necesară fișa financiară."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 100855,
-      "riskScore": 5,
+      "durationMs": 90601,
+      "sourceEndMarker": "SF-E2ADF39B",
+      "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Vouchere de vacanță plătite parțial prin reducerea impozitului firmei",
-      "verdictShort": "Inițiativa poate sprijini angajații și turismul, dar mecanismul fiscal are lacune importante. Riscul principal este aplicarea neclară și pierderea deductibilității pentru cheltuieli care nu pot fi recuperate prin noua facilitate.",
-      "initiatorClaim": "Inițiatorii urmăresc creșterea acordării voucherelor de vacanță în mediul privat și stimularea turismului intern. Ei susțin că activitatea turistică suplimentară va genera venituri fiscale indirecte.",
-      "realityCheck": "Art. I transformă cheltuiala cu voucherele din cheltuială deductibilă în cheltuială nedeductibilă, însoțită de scăderea directă din impozitul pe profit în limita valorii voucherelor și a plafonului de 20%. Microîntreprinderile impozitate pe venit nu beneficiază de acest mecanism, iar contribuabilii fără impozit pe profit datorat nu pot utiliza creditul în anul respectiv; textul nu prevede reportarea sumelor neutilizate. Acordarea rămâne facultativă, fiscalitatea salariatului nu este eliminată, iar încasările fiscale indirecte promise nu sunt cuantificate în expunerea furnizată.",
+      "plainTitle": "Vouchere de vacanță plătite parțial din impozitul firmei",
+      "verdictShort": "Proiectul poate sprijini angajații și turismul intern, fără să introducă taxe sau sancțiuni noi. Riscul principal este o facilitate fiscală insuficient clarificată, cu impact bugetar necuantificat în documentele furnizate și cu un plafon trimis neclar la normele Guvernului.",
+      "initiatorClaim": "Inițiatorii urmăresc extinderea voucherelor de vacanță în mediul privat și stimularea turismului intern. Ei susțin că veniturile fiscale indirecte generate de turism vor crește, fără să prezinte în expunerea furnizată o estimare numerică.",
+      "realityCheck": "În textul actual furnizat, voucherele sunt cheltuieli cu deductibilitate limitată la calculul profitului impozabil; proiectul le face nedeductibile și permite scăderea valorii lor direct din impozitul pe profit, în limita a 20% din acesta. Facilitatea avantajează firmele care datorează suficient impozit pe profit: microîntreprinderile impozitate pe venit nu o pot utiliza, iar firmele fără impozit datorat pierd deducerea fără să obțină compensarea. Acordarea rămâne facultativă, iar proiectul nu introduce o scutire fiscală nouă pentru angajat.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Angajați & HR"
       ],
       "keyFindings": [
-        "Art. I pct. 1–2: eliminarea voucherelor din art. 25 alin. (3) lit. c) și introducerea lor la alin. (4) elimină deductibilitatea întregii cheltuieli. Partea care depășește creditul fiscal rămâne nedeductibilă, fără mecanism expres de reportare; pentru unele firme, rezultatul poate fi mai nefavorabil decât regimul actual.",
-        "Art. I pct. 2: expresia «20% din impozitul pe profit datorat» nu precizează dacă baza se determină înaintea acestei scăderi și nici ordinea față de celelalte reduceri fiscale. Sunt necesare reguli clare pentru calculul și regularizarea facilității.",
-        "Art. II, art. 24¹ alin. (1): formularea «din impozitul pe profit redus» confundă obligația fiscală cu sursa de finanțare. Firma achită voucherele și apoi utilizează facilitatea; această problemă este semnalată și de [Consiliul Legislativ](https://www.senat.ro/legis/PDF/2026/26L373LG.PDF).",
-        "Art. II, art. 24¹ alin. (3): delegarea «condițiilor» și a «plafonului anual» către normele Guvernului nu distinge plafonul individual al voucherelor de limita creditului fiscal. Art. 24 alin. (3) din Legea nr. 165/2018 stabilește deja plafonul individual de șase salarii minime brute; normele nu pot modifica legea. [Legea nr. 165/2018](https://legislatie.just.ro/Public/DetaliiDocument/249369).",
-        "Impactul bugetar trebuie evaluat ca diferență între noul credit fiscal și economia fiscală aferentă deductibilității eliminate. Lipsesc din expunerea furnizată estimările privind beneficiarii, costul net și compensarea acestuia; obligația documentării impactului este subliniată de [Consiliul Legislativ](https://www.senat.ro/legis/PDF/2026/26L373LG.PDF).",
-        "Art. III permite adoptarea normelor la 60 de zile după intrarea legii în vigoare, ceea ce poate produce incertitudine inițială. Art. IV nu garantează intervalul general de minimum șase luni dintre publicare și modificarea Codului fiscal, dacă publicarea intervine în a doua jumătate a anului; corelarea sau derogarea trebuie explicitată. [Codul fiscal, art. 4](https://static.anaf.ro/static/10/Anaf/legislatie/Cod_fiscal_norme_2023.htm)."
+        "Art. I pct. 1–2 schimbă natura avantajului: voucherele ies din art. 25 alin. (3) lit. c), privind deductibilitatea limitată, și intră în alin. (4), privind cheltuielile nedeductibile, însoțite de o scădere directă din impozit. Tichetele de masă își păstrează regimul prevăzut la lit. c).",
+        "Art. I pct. 2 permite scăderea minimului dintre valoarea voucherelor acordate în anul fiscal și 20% din impozitul datorat. La un impozit de referință de 100.000 lei și vouchere de 30.000 lei, plafonul ar permite scăderea a 20.000 lei; proiectul nu prevede reportarea sau restituirea diferenței.",
+        "Art. II, noul art. 24¹ alin. (1), folosește formula «din impozitul pe profit redus», deși scăderea fiscală presupune cheltuieli deja efectuate cu voucherele. Nu se instituie o plată anticipată către angajator; acesta trebuie să finanțeze acordarea.",
+        "Art. I pct. 2 nu precizează suficient baza plafonului de 20% și ordinea aplicării sale față de alte scăderi din impozit. Corelarea cu regulile fiscale generale trebuie verificată și explicitată pentru a evita calcule divergente.",
+        "Art. II, noul art. 24¹ alin. (3), trimite «condițiile, plafonul anual și procedura» la norme. Totuși, art. 24 alin. (3), reprodus în documentație, stabilește deja maximum 6 salarii minime brute pe angajat, iar proiectul fixează separat plafonul fiscal de 20%; raportul dintre aceste limite trebuie clarificat.",
+        "Art. II alin. (2) trimite la regimul fiscal salarial existent. Obligațiile fiscale ale angajatului nu dispar prin scăderea acordată angajatorului, iar proiectul nu obligă firmele să acorde vouchere tuturor angajaților.",
+        "Art. III acordă Guvernului 60 de zile după intrarea în vigoare pentru modificarea normelor. Art. IV activează legea la 1 ianuarie, ceea ce poate lăsa începutul aplicării fără procedura actualizată; trebuie corelată și situația contribuabililor cu an fiscal modificat.",
+        "Expunerea furnizată nu cuantifică pierderea de venituri din impozitul pe profit, distribuția beneficiilor sau costurile administrative. Creșterea încasărilor din turism este o ipoteză a inițiatorilor, nu o compensare bugetară demonstrată."
       ],
-      "blindSpotsCaught": "Trimiterea la Legea nr. 165/2018 trebuie corelată cu tranziția legislativă: potrivit art. 34–36 din forma consultată, regimul voucherelor din această lege devine aplicabil la 1 ianuarie 2027, când este prevăzută și abrogarea OUG nr. 8/2009. [Dispozițiile tranzitorii](https://legislatie.just.ro/Public/DetaliiDocument/248242). Proiectul nu creează un monopol sau sancțiuni noi; costurile administrative suplimentare provin din calculul și evidența facilității.",
-      "constitutionalityNote": "Există vulnerabilități de claritate și previzibilitate raportate la art. 1 alin. (5), în special privind baza plafonului și delegarea elementelor esențiale către Guvern; aceasta trebuie evaluată și prin art. 139 alin. (1). Art. 23 alin. (12) privește legalitatea pedepselor și nu este direct incident, deoarece proiectul nu instituie pedepse. Art. 111 alin. (1) impune solicitarea informării Guvernului pentru modificările bugetare; dosarul Senatului consemnează solicitarea și primirea unui punct de vedere negativ, deci nu se poate susține că această etapă a lipsit. Diminuarea veniturilor nu echivalează automat cu aprobarea unei cheltuieli fără sursă de finanțare în sensul art. 138 alin. (5). Acestea sunt riscuri de remediat, nu o constatare definitivă de neconstituționalitate. [Constituția](https://www.senat.ro/pagini/constitutia/constitutia.htm), [dosarul legislativ](https://www.senat.ro/legis/lista.aspx?an_cls=2026&nr_cls=L373).",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă acestui mecanism fiscal: ea privește restricțiile privind accesul la profesii reglementate sau exercitarea lor. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng). Textul nu introduce specificații tehnice ori reguli dedicate serviciilor societății informaționale; nu rezultă o obligație TRIS doar din utilizarea voucherelor electronice. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=celex%3A32015L1535). Facilitatea favorizează consumul turistic intern, continuând o limitare teritorială existentă, ceea ce justifică analiza compatibilității cu libera prestare a serviciilor; promovarea economiei naționale nu demonstrează singură proporționalitatea restricției. [Art. 56 TFUE](https://eur-lex.europa.eu/eli/treaty/tfeu_2008/art_56/oj/eng). Trebuie examinată și eventuala existență a unui avantaj selectiv indirect pentru sectorul turistic, fără a presupune automat un ajutor de stat ilegal: contează îndeplinirea cumulativă a criteriilor art. 107 alin. (1) TFUE. [Comisia Europeană](https://competition-policy.ec.europa.eu/state-aid/overview_en).",
+      "blindSpotsCaught": "Detaliul decisiv este mutarea voucherelor între cheltuielile nedeductibile: plafonul de 20% nu garantează recuperarea întregii cheltuieli, iar lipsa reportării poate dezavantaja firmele cu profit mic sau pierderi. Plafonul existent pe angajat nu este abrogat prin simpla trimitere la norme. Analiza folosește documentele furnizate; verificarea online a consolidărilor, a dispozițiilor temporare și a dosarului parlamentar nu a fost disponibilă.",
+      "constitutionalityNote": "Art. 1 alin. (5) impune clarificarea calculului și a raportului dintre plafoane. Delegarea către Guvern a unor condiții esențiale sau a cuantumului facilității ar ridica probleme și prin raportare la art. 139 alin. (1) și art. 108 alin. (2): normele execută legea, fără să îi stabilească discreționar elementele fiscale esențiale. Art. 23 alin. (12), referitor la pedepse, nu este incident direct, deoarece proiectul nu instituie sancțiuni. Pentru modificarea veniturilor bugetare trebuie verificată solicitarea informării Guvernului potrivit art. 111 alin. (1); documentele furnizate nu permit constatarea respectării sau încălcării procedurii. Reducerea veniturilor fiscale nu echivalează automat cu aprobarea unei cheltuieli în sensul art. 138 alin. (5). Diferența dintre plătitorii de impozit pe profit și microîntreprinderi nu demonstrează, singură, o discriminare neconstituțională.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor privind accesul la profesii reglementate și exercitarea lor; proiectul nu introduce asemenea restricții. Nu rezultă nici o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535: textul nu stabilește cerințe tehnice noi pentru produse sau reguli dedicate serviciilor societății informaționale ori AI. Facilitatea poate favoriza indirect operatorii turistici din România și firmele cu profit impozabil suficient. Trebuie evaluată compatibilitatea cu libertatea de prestare a serviciilor și, dacă există avantaj selectiv, cu criteriile cumulative ale ajutorului de stat din art. 107 alin. (1) TFUE; nu se poate afirma automat existența unui ajutor ilegal. Destinația internă a voucherelor există deja în art. 24 furnizat, dar noul avantaj fiscal îi amplifică efectul economic.",
       "senatForm": {
         "articleRef": "Art. II – art. 24¹ alin. (3)",
-        "proposalContent": "(3) Plafonul anual al voucherelor acordate unui angajat este cel prevăzut la art. 24 alin. (3). Limita scăderii din impozitul pe profit este cea prevăzută la art. 25 alin. (4) lit. h¹) din Codul fiscal. Normele metodologice stabilesc exclusiv procedura de aplicare, fără modificarea beneficiarilor, condițiilor de fond sau plafoanelor stabilite prin lege.",
-        "argumentation": "Elementele esențiale ale facilității fiscale trebuie stabilite prin lege, conform art. 1 alin. (5) și art. 139 alin. (1) din Constituție. Textul elimină delegarea nedeterminată către Guvern și corelează plafonul individual cu limita creditului fiscal, reducând riscul unor interpretări fiscale divergente.",
-        "otherComments": "Propunere pentru comisiile de buget și muncă ale Camerei Deputaților, Pl-x 613/2026. Se solicită și clarificarea bazei plafonului de 20%, a ordinii reducerilor fiscale și a tratamentului excedentului, precum și evaluarea impactului bugetar. Termenul comunicat pentru amendamente, 06.10.2026, a trecut; un deputat poate propune preluarea, potrivit procedurii aplicabile."
-      }
+        "proposalContent": "(3) Plafonul anual pe angajat este cel prevăzut la art. 24 alin. (3). Normele metodologice reglementează exclusiv documentele justificative, declararea și verificarea facilității, fără a modifica beneficiarii, plafonul pe angajat sau limita de 20% din impozitul pe profit stabilite prin lege.",
+        "argumentation": "Textul actual permite stabilirea prin norme a unui plafon anual, deși legea conține deja limite. Elementele esențiale ale facilității fiscale trebuie stabilite prin lege. Propunerea clarifică plafonul pe angajat și limitează normele la executarea legii, pentru previzibilitate fiscală.",
+        "otherComments": "Se solicită și clarificarea bazei plafonului de 20%, a ordinii scăderilor fiscale și a tratamentului excedentului. Normele trebuie pregătite până la intrarea în vigoare. Este necesară evaluarea impactului bugetar și verificarea informării Guvernului. Termenul de amendamente indicat, 06.10.2026, a trecut."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-28T21:46:32.427Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:56:16.170Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

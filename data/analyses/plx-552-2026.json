@@ -1,14 +1,42 @@
 {
   "billId": "PL-x 552/2026",
   "slug": "plx-552-2026",
-  "updatedAt": "2026-10-28T23:43:56.923Z",
+  "version": "senat",
+  "updatedAt": "2026-11-24T14:52:19.081Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 1476,
+    "ordinanceChars": 0,
+    "memoChars": 4717,
+    "memoSupplied": 4717,
+    "marker": "SF-69107C02"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-552-2026.json",
+    "form": "senat",
+    "textHash": "69107c022207722e",
+    "fetchedAt": "2026-11-19T10:07:51.579Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 2,
+    "articlesShown": 2,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 8618,
+    "truncated": false,
+    "included": true,
+    "key": "8523fdf9f4e9619d"
+  },
   "consensus": {
-    "riskScore": 2,
+    "riskScore": 2.7,
     "riskLevel": "green",
-    "plainTitle": "ONG-urile, parohiile și alte unități de cult pot plăti legal zilieri",
-    "summaryTlDr": "Lege tehnică și utilă: asociațiile, fundațiile și unitățile de cult pot plăti legal muncă ocazională, în loc să o plătească la negru. Problema reală este redactarea noului art. 13 alin. (3), care inversează rolurile și s-ar putea să nu acopere tocmai entitățile vizate.",
-    "initiatorClaim": "Inițiatorii spun că instituțiile de control interpretează diferit dacă asociațiile, fundațiile și unitățile de cult pot folosi zilieri. Aceste entități au nevoie de muncă necalificată pentru activități punctuale, dar nu au un cod CAEN potrivit. Ei vor ca legea să se aplice la fel peste tot și să existe mai puțină muncă nedeclarată.",
-    "realityCheck": "Punctul 1 rescrie definiția beneficiarului și numește expres UAT-urile, asociațiile, fundațiile și unitățile de cult. ONG-urile și unitățile de cult cu personalitate juridică erau însă deja persoane juridice, deci efectul este în mare parte clarificator. Schimbarea care contează este noul art. 13 alin. (3), care permite activitățile din lista art. 13 alin. (1) și beneficiarilor fără cod CAEN. Textul spune însă că activitățile sunt „prestate de beneficiari”, iar criteriul „fără cod CAEN” poate lăsa pe dinafară exact ONG-urile și parohiile care au un cod CAEN înregistrat, dar unul care nu figurează în listă.",
+    "plainTitle": "Asociațiile, fundațiile și bisericile pot lua zilieri, chiar dacă nu au cod CAEN",
+    "summaryTlDr": "Este o lege mică și în mare parte clarificatoare. Pune în scris că ONG-urile și unitățile de cult pot folosi legal zilieri și reduce munca la negru. Singura problemă reală este redactarea stângace a noului art. 13 alin. (3), care lasă loc de interpretări la controalele ITM.",
+    "initiatorClaim": "Inițiatorii spun că instituțiile au aplicat neunitar legea în privința asociațiilor, fundațiilor și unităților de cult. Aceste entități folosesc în practică muncă necalificată ocazională, dar nu au cod CAEN. Proiectul vrea să le numească expres ca beneficiari, ca să reducă munca nedeclarată.",
+    "realityCheck": "Art. 1 alin. (1) lit. b) în vigoare include deja „persoana juridică”, deci asociațiile, fundațiile și unitățile de cult cu personalitate juridică erau acoperite. Partea cu efect nou este art. 13 alin. (3): beneficiarii fără cod CAEN pot folosi zilieri în domeniile listate la alin. (1). Textul spune însă greșit că activitățile sunt „prestate de beneficiari”, nu de zilieri. Nici nu precizează cum se dovedește la control încadrarea activității într-un domeniu CAEN pe care entitatea nu îl are.",
     "affectedGroups": [
       "Angajați & HR",
       "Contabili & Fiscalitate",
@@ -16,108 +44,137 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct. 2 (art. 13 alin. (3) nou)",
-      "proposalContent": "Se reformulează: „(3) Asociațiile, fundațiile, unitățile de cult și instituțiile aparținând cultelor religioase recunoscute potrivit legii pot utiliza zilieri pentru activitățile prevăzute la alin. (1), indiferent dacă au sau nu cod CAEN ori dacă acesta se regăsește printre cele de la alin. (1).”",
-      "argumentation": "Textul Senatului spune că activitățile sunt „prestate de beneficiari”, deși le prestează zilierul, și vizează doar entitățile fără cod CAEN. Multe ONG-uri și parohii au cod CAEN la fisc (ex. 9491, 9499), dar în afara domeniilor de la alin. (1), deci ar rămâne neacoperite. Reformularea atinge scopul declarat, fără ambiguitate.",
-      "otherComments": "Sugerez ca raportul comisiei să precizeze că limitele de zile și evidența zilierilor se aplică identic și acestor entități, iar ITM le poate controla, pentru ca munca ocazională să nu înlocuiască posturi permanente (îngrijitor, paracliser). Merită verificată și corelarea codurilor din art. 13 alin. (1) cu nomenclatorul CAEN Rev. 3."
+      "articleRef": "Art. unic pct. 2 – art. 13 alin. (3)",
+      "proposalContent": "„(3) Beneficiarii prevăzuți la art. 1 alin. (1) lit. b) care nu au cod CAEN pot utiliza zilieri numai pentru activitățile din domeniile prevăzute la alin. (1) și (2), în condițiile prezentei legi; încadrarea activității se stabilește după natura ei efectivă, potrivit normelor metodologice.”",
+      "argumentation": "Textul Senatului spune că activitățile sunt „prestate de beneficiari”, deși zilierul este cel care prestează. Formularea propusă clarifică faptul că entitățile fără cod CAEN rămân în lista închisă de domenii. Ea oferă și ITM un criteriu de verificare, natura efectivă a activității, și previne aplicarea neunitară pe care inițiatorii vor s-o elimine (art. 1 alin. 5 din Constituție).",
+      "otherComments": "La art. 1 alin. (1) lit. b) propun să se precizeze „instituțiile cu personalitate juridică aparținând cultelor”, pentru ca obligațiile privind Registrul și reținerea impozitului să revină unei entități identificabile. Recomand ca Guvernul să actualizeze normele metodologice în 60 de zile de la intrarea în vigoare."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 46293,
-      "riskScore": 2,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 257577,
+      "sourceEndMarker": "SF-69107C02",
+      "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Asociațiile, fundațiile și parohiile vor putea angaja legal zilieri chiar dacă nu au cod CAEN",
-      "verdictShort": "O inițiativă legislativă utilă și debirocratizantă, care scoate din zona gri munca ocazională prestată pentru ONG-uri și unități de cult. Textul adoptat de Senat conține însă o eroare gramaticală și de redactare la art. 13 alin. (3) care merită corectată în Camera Deputaților.",
-      "initiatorClaim": "Inițiatorii urmăresc clarificarea Legii nr. 52/2011 astfel încât asociațiile, fundațiile și unitățile de cult să poată utiliza legal zilieri pentru activități punctuale necalificate, eliminând interpretările neunitare ale inspectoratelor teritoriale de muncă generate de lipsa unui cod CAEN.",
-      "realityCheck": "Măsura rezolvă o problemă practică reală: ONG-urile și parohiile fără activitate economică nu dețin coduri CAEN înscrise la Registrul Comerțului și erau blocate când încercau să înregistreze zilieri pentru întreținerea spațiilor verzi, cantine sociale sau evenimente. Totuși, formularea noului art. 13 alin. (3) este deficitară gramatical și tehnic („activitățile... pot fi prestate de către beneficiarii care nu au cod CAEN prevăzute...”), iar lipsa unui termen pentru actualizarea aplicației informatice a Inspecției Muncii poate întârzia aplicarea practică.",
+      "plainTitle": "ONG-urile și unitățile de cult pot folosi oficial zilieri fără cod CAEN",
+      "verdictShort": "Inițiativă utilă și benignă ca scop, care rezolvă un blocaj practic real pentru sectorul non-profit și culte, fără taxe sau privilegii ascunse. Totuși, art. 13 alin. (3) adoptat de Senat este redactat neglijent și ambiguu, necesitând o corecție tehnică la Camera Deputaților.",
+      "initiatorClaim": "Inițiatorii urmăresc să elimine interpretările administrative neunitare prin menționarea expresă a asociațiilor, fundațiilor și unităților de cult ca beneficiari în Legea zilierilor și prin permiterea folosirii zilierilor de către entități fără cod CAEN, pentru a reduce munca la negru.",
+      "realityCheck": "Legea nr. 52/2011 în vigoare acoperă deja generic „persoana juridică” și UAT-urile, însă în practică entitățile neînregistrate cu cod CAEN întâmpină obstacole la folosirea zilierilor. Proiectul enumeră expres asociațiile, fundațiile, unitățile de cult și instituțiile acestora la art. 1 alin. (1) lit. b), păstrând limitarea la domeniile stricte din art. 13 alin. (1), dar adaugă un art. 13 alin. (3) formulat defectuos („prestate inclusiv de către beneficiarii... prevăzute”) și nu prevede un termen pentru adaptarea registrului electronic gestionat de Inspecția Muncii.",
       "affectedGroups": [
         "Angajați & HR",
         "Contabili & Fiscalitate",
         "Agricultură & Mediu"
       ],
       "keyFindings": [
-        "Art. unic pct. 1 (Art. 1 alin. (1) lit. b)): Include expres asociațiile, fundațiile, unitățile de cult și instituțiile aparținând cultelor religioase recunoscute în definiția „beneficiarului de lucrări” pentru care zilierul poate presta muncă necalificată ocazională.",
-        "Art. unic pct. 2 (Art. 13 alin. (3)): Permite utilizarea zilierilor și de către beneficiarii care nu dețin cod CAEN, însă textul adoptat de Senat suferă de un dezacord gramatical („beneficiarii care nu au cod CAEN prevăzute la art. 1...”) și inversează subiectul raportului de muncă (în economia Legii nr. 52/2011, munca este prestată de zilier PENTRU beneficiar, nu de către beneficiar).",
-        "Lipsa unei dispoziții tranzitorii pentru actualizarea Registrului electronic de evidență a zilierilor (administrat de Inspecția Muncii), care în prezent validează înregistrarea pe baza codului CAEN asociat beneficiarului."
+        "Art. 1 alin. (1) lit. b) clarifică expres că asociațiile, fundațiile, unitățile de cult și instituțiile aparținând cultelor religioase recunoscute pot avea calitatea de beneficiari de zilieri, aliniind textul cu statutul lor de persoane juridice și cu regimul deja acordat UAT-urilor.",
+        "Art. 13 alin. (3) conține o eroare gravă de redactare: afirmă că activitățile „pot fi prestate inclusiv de către beneficiarii care nu au cod CAEN prevăzute la art. 1 alin. (1) lit. b)”, deși în economia legii zilierii prestează activitățile pentru beneficiari, nu invers, iar adjectivul „prevăzute” este în dezacord gramatical cu „beneficiarii”.",
+        "Proiectul nu extinde abuziv domeniile permise pentru munca ocazională (rămân valabile doar cele din art. 13 alin. 1, precum agricultură, întreținere peisagistică, târguri, spectacole), dar nu corelează expres noul alin. (3) cu alin. (2) (curățenie, întreținere, manipulare mărfuri în acele domenii)."
       ],
-      "blindSpotsCaught": "În textul adoptat de Senat la art. 13 alin. (3) s-a strecurat eroarea de redactare „beneficiarii care nu au cod CAEN prevăzute la art.1 alin.(1) lit.b)”, alături de omisiunea obligării Ministerului Muncii de a modifica Ordinul nr. 1.140/2020 și aplicația informatică a Inspecției Muncii, care cere obligatoriu completarea câmpului CAEN la înregistrarea beneficiarului.",
-      "constitutionalityNote": "Proiectul este pe deplin compatibil cu Constituția României, sprijinind dreptul la muncă (art. 41) și libertatea de asociere și a cultelor (art. 29 și art. 40). Pentru respectarea exigențelor de calitate și claritate a legii (art. 1 alin. (5) din Constituție și Legea nr. 24/2000), este necesară corectarea dezacordului gramatical și a confuziei terminologice din art. 13 alin. (3).",
-      "euLawNote": "Proiectul nu ridică probleme de compatibilitate cu dreptul Uniunii Europene: nu introduce restricții privind accesul la profesii reglementate (Directiva (UE) 2018/958), nu vizează servicii ale societății informaționale (Directiva (UE) 2015/1535 - TRIS) și elimină o barieră administrativă disproporționată pentru sectorul non-profit.",
+      "blindSpotsCaught": "Sintagma „beneficiarii care nu au cod CAEN” din art. 13 alin. (3) ascunde o ambiguitate dublă: dacă se citește restrictiv („nu au niciun cod CAEN”), un ONG care desfășoară o mică activitate economică secundară cu cod CAEN ar rămâne paradoxal exclus; dacă se citește extensiv („nu au acel cod CAEN”), societățile comerciale ar putea încerca să folosească zilieri în domenii pentru care nu sunt autorizate. În plus, lipsa unei dispoziții tranzitorii pentru actualizarea Registrului electronic de evidență a zilierilor riscă să amâne aplicarea practică a legii.",
+      "constitutionalityNote": "Scopul legii respectă art. 16 (egalitatea în drepturi) și art. 29 (libertatea cultelor) din Constituția României, eliminând o barieră administrativă discriminatorie. Există însă o vulnerabilitate pe art. 1 alin. (5) privind calitatea, claritatea și previzibilitatea legii la art. 13 alin. (3): inversarea subiectului prestării muncii, dezacordul gramatical și imprecizia expresiei „care nu au cod CAEN” pot genera interpretări arbitrare și sancțiuni contravenționale neunitare din partea ITM.",
+      "euLawNote": "Directiva (UE) 2018/958 privind testul de proporționalitate nu este incidentă (legea privește muncă necalificată ocazională, nu profesii reglementate), iar Directiva (UE) 2015/1535 (TRIS) nu se aplică (nu vizează norme tehnice sau servicii digitale). Din perspectiva pieței unice și a concurenței, măsura este neutră cât timp Camera Deputaților clarifică faptul că excepția privind codul CAEN privește exclusiv entitățile care, prin statutul lor juridic, nu au obligația deținerii unui cod CAEN, fără a favoriza operatorii comerciali neautorizați.",
       "senatForm": {
-        "articleRef": "Articol unic pct. 2 (Art. 13 alin. (3))",
-        "proposalContent": "„(3) Munca necalificată cu caracter ocazional în domeniile prevăzute la alin. (1) poate fi prestată și pentru beneficiarii prevăzuți la art. 1 alin. (1) lit. b) care, potrivit statutului sau legii lor de organizare, nu dețin cod CAEN, prin raportare la natura efectivă a activității desfășurate de zilier.”",
-        "argumentation": "Forma adoptată de Senat conține un dezacord gramatical („beneficiarii... prevăzute”) și o confuzie conceptuală: munca din Legea 52/2011 este prestată de zilier PENTRU beneficiar, nu de către beneficiar. De asemenea, trebuie precizat că încadrarea în domeniile de la art. 13 alin. (1) se face după natura activității prestate efectiv.",
-        "otherComments": "Recomandăm introducerea unui Art. II prin care Ministerul Muncii și Inspecția Muncii să actualizeze în 30 de zile aplicația informatică „Registrul electronic de evidență a zilierilor”, astfel încât entitățile fără cod CAEN să își poată deschide cont fără blocaje tehnice."
-      }
+        "articleRef": "Art. unic, pct. 2 (Art. 13 alin. (3))",
+        "proposalContent": "„(3) Activitățile prevăzute la alin. (1) și (2) pot fi prestate de zilieri și în folosul beneficiarilor prevăzuți la art. 1 alin. (1) lit. b) care, potrivit statutului lor juridic, nu au obligația deținerii unui cod CAEN aferent domeniilor prevăzute la alin. (1).”",
+        "argumentation": "Textul Senatului inversează subiectul („prestate de către beneficiarii”, deși zilierii prestează munca), are dezacord gramatical („beneficiarii... prevăzute”) și o ambiguitate: nu e clar cum se aplică ONG-urilor cu alt cod CAEN sau firmelor fără codul CAEN respectiv, încălcând cerința de claritate din art. 1 alin. (5) al Constituției.",
+        "otherComments": "Recomandăm introducerea unui articol II prin care Ministerul Muncii și Inspecția Muncii să fie obligate să actualizeze în 30-60 de zile Normele metodologice și Registrul electronic de evidență a zilierilor, astfel încât ONG-urile și unitățile de cult fără cod CAEN să poată înregistra efectiv zilierii fără blocaje tehnice."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 139637,
+      "durationMs": 38029,
+      "sourceEndMarker": "SF-69107C02",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "ONG-urile, parohiile și alte unități de cult pot plăti legal zilieri",
-      "verdictShort": "Lege tehnică și utilă: asociațiile, fundațiile și unitățile de cult pot plăti legal muncă ocazională, în loc să o plătească la negru. Problema reală este redactarea noului art. 13 alin. (3), care inversează rolurile și s-ar putea să nu acopere tocmai entitățile vizate.",
-      "initiatorClaim": "Inițiatorii spun că instituțiile de control interpretează diferit dacă asociațiile, fundațiile și unitățile de cult pot folosi zilieri. Aceste entități au nevoie de muncă necalificată pentru activități punctuale, dar nu au un cod CAEN potrivit. Ei vor ca legea să se aplice la fel peste tot și să existe mai puțină muncă nedeclarată.",
-      "realityCheck": "Punctul 1 rescrie definiția beneficiarului și numește expres UAT-urile, asociațiile, fundațiile și unitățile de cult. ONG-urile și unitățile de cult cu personalitate juridică erau însă deja persoane juridice, deci efectul este în mare parte clarificator. Schimbarea care contează este noul art. 13 alin. (3), care permite activitățile din lista art. 13 alin. (1) și beneficiarilor fără cod CAEN. Textul spune însă că activitățile sunt „prestate de beneficiari”, iar criteriul „fără cod CAEN” poate lăsa pe dinafară exact ONG-urile și parohiile care au un cod CAEN înregistrat, dar unul care nu figurează în listă.",
+      "plainTitle": "Asociațiile, fundațiile și bisericile pot lua zilieri, chiar dacă nu au cod CAEN",
+      "verdictShort": "Este o lege mică și în mare parte clarificatoare. Pune în scris că ONG-urile și unitățile de cult pot folosi legal zilieri și reduce munca la negru. Singura problemă reală este redactarea stângace a noului art. 13 alin. (3), care lasă loc de interpretări la controalele ITM.",
+      "initiatorClaim": "Inițiatorii spun că instituțiile au aplicat neunitar legea în privința asociațiilor, fundațiilor și unităților de cult. Aceste entități folosesc în practică muncă necalificată ocazională, dar nu au cod CAEN. Proiectul vrea să le numească expres ca beneficiari, ca să reducă munca nedeclarată.",
+      "realityCheck": "Art. 1 alin. (1) lit. b) în vigoare include deja „persoana juridică”, deci asociațiile, fundațiile și unitățile de cult cu personalitate juridică erau acoperite. Partea cu efect nou este art. 13 alin. (3): beneficiarii fără cod CAEN pot folosi zilieri în domeniile listate la alin. (1). Textul spune însă greșit că activitățile sunt „prestate de beneficiari”, nu de zilieri. Nici nu precizează cum se dovedește la control încadrarea activității într-un domeniu CAEN pe care entitatea nu îl are.",
       "affectedGroups": [
         "Angajați & HR",
-        "Contabili & Fiscalitate",
-        "Agricultură & Mediu"
+        "Agricultură & Mediu",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate"
       ],
       "keyFindings": [
-        "Art. unic pct. 1 (art. 1 alin. (1) lit. b)): lista beneficiarilor numește expres UAT-urile, asociațiile și fundațiile, unitățile de cult și instituțiile cultelor recunoscute. Pentru entitățile cu personalitate juridică modificarea e declarativă, dar oprește practicile administrative neunitare invocate în expunerea de motive.",
-        "Art. unic pct. 2 (art. 13 alin. (3) nou) este singura schimbare de fond: activitățile din lista art. 13 alin. (1) devin accesibile și beneficiarilor fără cod CAEN. Nu se adaugă domenii noi de activitate și nu se modifică limitele de durată, remunerația minimă sau drepturile zilierului.",
-        "Redactarea alin. (3) are două defecte. Spune că activitățile sunt „prestate ... de către beneficiari”, deși le prestează zilierul pentru beneficiar. În plus, „prevăzute la art.1 alin.(1) lit.b)” are un acord ambiguu: se poate lega fie de „activitățile”, fie de „beneficiarii”.",
-        "Criteriul „nu au cod CAEN” poate rata ținta. Multe asociații și parohii au un cod CAEN înregistrat la fisc (de exemplu 9499 sau 9491), dar acesta nu se află printre domeniile din art. 13 alin. (1). Citit literal, textul nu le acoperă: ele nu sunt nici „fără cod”, nici în domeniile permise.",
-        "Impactul bugetar și birocratic este redus. Nu apar taxe, autorizații sau sancțiuni noi. Entitățile care aleg să folosească zilieri preiau doar obligațiile de evidență și de reținere a impozitului pe care legea le prevede deja. Ar putea crește veniturile din muncă declarată."
+        "Art. unic pct. 1 (art. 1 alin. (1) lit. b)): în lista beneficiarilor apar expres „asociațiile și fundațiile” și „unitățile de cult și instituțiile aparținând cultelor religioase recunoscute”. Efectul este în principal declarativ, pentru că ele erau deja incluse ca persoane juridice. Câștigul este certitudinea juridică în fața ITM.",
+        "Art. unic pct. 2 (noul art. 13 alin. (3)) conține o eroare de redactare: activitățile ar fi „prestate” de beneficiari, deși în economia legii zilierul este cel care prestează. Textul nu spune clar nici dacă entitățile fără cod CAEN rămân limitate la domeniile din alin. (1), ceea ce pare intenția, sau dacă primesc o derogare mai largă.",
+        "Limitele din lege nu se schimbă: lista închisă de domenii din art. 13 alin. (1), restricția din alin. (2) pentru manipulare mărfuri și curățenie, excluderea instituțiilor publice din art. 1 alin. (3) și obligațiile privind Registrul electronic. De exemplu, lucrările de construcții la lăcașuri de cult nu devin permise prin zilieri.",
+        "„Instituțiile aparținând cultelor” este o noțiune neclară. Nu reiese dacă sunt vizate doar structurile cu personalitate juridică sau și entități fără personalitate proprie, care nu pot avea calitatea de beneficiar obligat la Registru și la plata impozitului reținut.",
+        "Impactul bugetar este neutru spre pozitiv, prin formalizarea unor plăți făcute azi informal. Pentru ONG-uri și parohii apare o sarcină administrativă nouă, dar ușoară: ținerea Registrului electronic și reținerea și virarea obligațiilor fiscale."
       ],
-      "blindSpotsCaught": "Expunerea de motive și fișa Camerei pornesc de la premisa că aceste entități „nu beneficiază de cod CAEN”. În practică, problema este mai des un cod CAEN care există, dar nu se află printre domeniile din art. 13 alin. (1). Formularea Senatului rezolvă doar cazul entităților fără niciun cod, deci divergențele de interpretare pe care legea vrea să le elimine pot continua. Alin. (3) se aplică și tuturor celorlalți beneficiari fără cod CAEN de la lit. b), nu doar ONG-urilor și cultelor, deci are o sferă mai largă decât motivarea, chiar dacă practic restrânsă.",
-      "constitutionalityNote": "Nu se identifică probleme constituționale majore. Modificarea este compatibilă cu art. 16 (egalitate), pentru că elimină o diferență de tratament între persoane juridice în funcție de domeniul de activitate. Nu afectează nici autonomia cultelor (art. 29 alin. (3)), deoarece le oferă doar o opțiune, fără obligații noi. Pe art. 1 alin. (5), noul alin. (3) este redactat imprecis: nu reiese clar cine prestează activitatea, iar acordul lui „prevăzute” este ambiguu. Acest lucru poate produce exact interpretările divergente pe care legea vrea să le elimine; o reformulare în comisie rezolvă problema. Art. 23 alin. (12) nu este relevant, pentru că legea nu introduce sancțiuni. Art. 41 nu este afectat, fiindcă regimul de protecție al zilierilor rămâne neschimbat.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, deoarece legea nu reglementează accesul la o profesie și nu introduce cerințe de calificare. Nu este o regulă tehnică și nu privește servicii ale societății informaționale, deci nu necesită notificare TRIS (2015/1535). Punctul de urmărit este Directiva (UE) 2019/1152 privind condiții de muncă transparente și previzibile, care poate acoperi și lucrătorii ocazionali, în sensul jurisprudenței CJUE. Modificarea nu reduce protecțiile zilierilor, dar extinde la noi beneficiari un regim fără contract de muncă, deci garanțiile minime trebuie respectate și aici. Impactul asupra concurenței și pieței unice este neglijabil.",
+      "blindSpotsCaught": "Nici legea actuală, nici proiectul nu spun cum stabilește inspectorul ITM, la o entitate fără cod CAEN, că activitatea efectivă intră într-unul dintre domeniile din art. 13 alin. (1). Este de pildă cazul curățeniei la o biserică, care e permisă doar „în domeniile prevăzute la alin. (1)”. Fără norme metodologice actualizate, interpretarea neunitară invocată de inițiatori se va muta pur și simplu de la art. 1 la art. 13. Mai există un risc de abuz: activități permanente, ca îngrijirea de terenuri ale parohiilor sau ale ONG-urilor, ar putea fi acoperite repetat prin zilieri în loc de contracte de muncă, deși legea cere caracter ocazional.",
+      "constitutionalityNote": "Nu există o problemă de constituționalitate pe fond. Includerea expresă a ONG-urilor și a cultelor susține egalitatea de tratament între persoanele juridice (art. 16) și nu afectează autonomia cultelor (art. 29). Formularea „prestate de către beneficiarii” din art. 13 alin. (3) slăbește claritatea și previzibilitatea cerute de art. 1 alin. (5), dar defectul se poate corecta prin amendament și nu atrage neconstituționalitatea. Adoptarea de către Senat ca primă cameră și de Cameră ca decizională respectă art. 75, legea fiind ordinară.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă proiectul nu reglementează accesul la o profesie reglementată. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică, fiindcă nu există servicii ale societății informaționale sau reguli tehnice. Nu apar elemente de ajutor de stat sau restricții pe piața unică. Rămân aplicabile garanțiile din Directiva (UE) 2019/1152 privind condiții de muncă transparente și previzibile, relevantă pentru munca ocazională, și din dreptul UE în materie de securitate și sănătate în muncă. Proiectul nu le diminuează.",
       "senatForm": {
-        "articleRef": "Art. unic pct. 2 (art. 13 alin. (3) nou)",
-        "proposalContent": "Se reformulează: „(3) Asociațiile, fundațiile, unitățile de cult și instituțiile aparținând cultelor religioase recunoscute potrivit legii pot utiliza zilieri pentru activitățile prevăzute la alin. (1), indiferent dacă au sau nu cod CAEN ori dacă acesta se regăsește printre cele de la alin. (1).”",
-        "argumentation": "Textul Senatului spune că activitățile sunt „prestate de beneficiari”, deși le prestează zilierul, și vizează doar entitățile fără cod CAEN. Multe ONG-uri și parohii au cod CAEN la fisc (ex. 9491, 9499), dar în afara domeniilor de la alin. (1), deci ar rămâne neacoperite. Reformularea atinge scopul declarat, fără ambiguitate.",
-        "otherComments": "Sugerez ca raportul comisiei să precizeze că limitele de zile și evidența zilierilor se aplică identic și acestor entități, iar ITM le poate controla, pentru ca munca ocazională să nu înlocuiască posturi permanente (îngrijitor, paracliser). Merită verificată și corelarea codurilor din art. 13 alin. (1) cu nomenclatorul CAEN Rev. 3."
-      }
+        "articleRef": "Art. unic pct. 2 – art. 13 alin. (3)",
+        "proposalContent": "„(3) Beneficiarii prevăzuți la art. 1 alin. (1) lit. b) care nu au cod CAEN pot utiliza zilieri numai pentru activitățile din domeniile prevăzute la alin. (1) și (2), în condițiile prezentei legi; încadrarea activității se stabilește după natura ei efectivă, potrivit normelor metodologice.”",
+        "argumentation": "Textul Senatului spune că activitățile sunt „prestate de beneficiari”, deși zilierul este cel care prestează. Formularea propusă clarifică faptul că entitățile fără cod CAEN rămân în lista închisă de domenii. Ea oferă și ITM un criteriu de verificare, natura efectivă a activității, și previne aplicarea neunitară pe care inițiatorii vor s-o elimine (art. 1 alin. 5 din Constituție).",
+        "otherComments": "La art. 1 alin. (1) lit. b) propun să se precizeze „instituțiile cu personalitate juridică aparținând cultelor”, pentru ca obligațiile privind Registrul și reținerea impozitului să revină unei entități identificabile. Recomand ca Guvernul să actualizeze normele metodologice în 60 de zile de la intrarea în vigoare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 93230,
-      "riskScore": 2,
+      "durationMs": 70647,
+      "sourceEndMarker": "SF-69107C02",
+      "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "ONG-urile și cultele pot folosi zilieri chiar fără cod CAEN",
-      "verdictShort": "Proiect util, cu risc redus: clarifică accesul la munca zilierilor, fără taxe sau sancțiuni noi. Formularea despre beneficiarii fără cod CAEN trebuie corectată pentru a preveni interpretările administrative divergente.",
-      "initiatorClaim": "Inițiatorii urmăresc eliminarea practicilor administrative neunitare privind folosirea zilierilor de către asociații, fundații și entități religioase. Susțin că acceptarea beneficiarilor fără cod CAEN va facilita declararea muncii ocazionale.",
-      "realityCheck": "Articolul unic pct. 1 enumeră expres entități dintre care cele cu personalitate juridică erau deja cuprinse în categoria generală a persoanelor juridice; noutatea practică principală este acceptarea beneficiarilor fără cod CAEN prin pct. 2. [Legea nr. 52/2011](https://legislatie.just.ro/Public/DetaliiDocument/254012). Excepția privește toate categoriile de beneficiari enumerate care nu au cod CAEN, nu exclusiv ONG-urile și cultele. Trimiterea la art. 13 alin. (1) păstrează limitarea domeniilor permise, dar expresia „prestate [...] de către beneficiarii” confundă beneficiarul cu zilierul care execută munca.",
+      "plainTitle": "Folosirea zilierilor de către organizații fără cod CAEN",
+      "verdictShort": "Proiectul este predominant util: clarifică accesul ONG-urilor și cultelor la munca ocazională, fără taxe ori sancțiuni noi. Principala problemă este formularea imprecisă a regulii pentru beneficiarii fără cod CAEN, care merită corectată înainte de adoptare.",
+      "initiatorClaim": "Inițiatorii urmăresc eliminarea interpretărilor administrative neunitare privind folosirea zilierilor de către asociații, fundații și structuri ale cultelor religioase. Ei susțin că recunoașterea expresă a beneficiarilor fără cod CAEN va reduce munca informală.",
+      "realityCheck": "În prezent, definiția beneficiarului include deja persoanele juridice, categorie în care intră asociațiile, fundațiile și structurile religioase cu personalitate juridică; enumerarea lor expresă are în principal rol clarificator. Noutatea este admiterea expresă a beneficiarilor fără cod CAEN, printr-o regulă aplicabilă tuturor categoriilor din art. 1 alin. (1) lit. b), nu exclusiv sectorului nonprofit și cultelor. Lista domeniilor permise și celelalte condiții ale muncii zilierilor rămân aplicabile, însă textul atribuie greșit prestarea activităților beneficiarilor.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Angajați & HR",
-        "Justiție & Drepturi Civile",
         "Agricultură & Mediu"
       ],
       "keyFindings": [
-        "Articolul unic pct. 1 clarifică definiția beneficiarului; nu creează un drept exclusiv pentru culte și nu elimină accesul firmelor.",
-        "Articolul unic pct. 2 înlătură obstacolul lipsei codului CAEN, fără să permită automat orice activitate nonprofit sau religioasă.",
-        "Art. 13 alin. (2) rămâne aplicabil: curățenia, întreținerea și manipularea mărfurilor sunt permise numai în domeniile enumerate la alin. (1). Nerespectarea domeniilor poate atrage sancțiunile existente din art. 14 alin. (1) lit. e). [Legea nr. 52/2011](https://legislatie.just.ro/Public/DetaliiDocument/254012).",
-        "Proiectul nu introduce taxe, autorizații sau cheltuieli publice obligatorii. Beneficiarii care utilizează zilieri suportă obligațiile existente privind evidența, fiscalitatea și securitatea muncii; impactul bugetar net nu poate fi cuantificat din text. [Legea nr. 52/2011](https://legislatie.just.ro/Public/DetaliiDocument/254012).",
-        "Regimul zilierilor nu oferă toate protecțiile unui contract individual de muncă: activitatea nu conferă, prin ea însăși, asigurare de sănătate. Această limitare este preexistentă, nu introdusă de proiect. [Art. 9 din Legea nr. 52/2011](https://legislatie.just.ro/Public/DetaliiDocument/254012)."
+        "Articolul unic pct. 1: asociațiile și fundațiile sunt menționate expres, dar persoanele juridice sunt deja beneficiari potrivit legii actuale. Unitățile administrativ-teritoriale figurează și ele deja în definiție.",
+        "Articolul unic pct. 2: noul art. 13 alin. (3) permite explicit utilizarea mecanismului de către beneficiari fără cod CAEN. Trimiterea generală la art. 1 alin. (1) lit. b) îi conferă un domeniu mai larg decât exemplele nonprofit din expunerea de motive.",
+        "Noul art. 13 alin. (3) spune că activitățile pot fi prestate «de către beneficiarii», deși zilierii prestează munca pentru beneficiari. Corectarea subiectului obligației ar preveni interpretări administrative divergente.",
+        "Art. 13 alin. (1) și (2) nu sunt modificate: absența codului CAEN nu autorizează orice activitate. De exemplu, simpla calitate de unitate de cult nu permite automat folosirea zilierilor pentru curățenia unui lăcaș de cult, în afara domeniilor legale.",
+        "Art. 1 alin. (3), privind excluderea instituțiilor publice și excepțiile sale, rămâne aplicabil. Proiectul nu deschide folosirea zilierilor tuturor instituțiilor publice.",
+        "Nu sunt introduse taxe, sancțiuni, abrogări sau dispoziții tranzitorii. Obligațiile existente privind evidența zilierilor, remunerarea și protecția muncii continuă să se aplice; nu rezultă o cheltuială bugetară obligatorie nouă, iar eventualele efecte financiare indirecte nu sunt cuantificate în materialele furnizate."
       ],
-      "blindSpotsCaught": "Expunerea de motive sugerează o soluție pentru activități punctuale ale ONG-urilor și cultelor, însă articolul propus păstrează lista sectorială: simplul scop caritabil sau religios nu este suficient. În plus, „prevăzute” nu se acordă cu „beneficiarii”, iar „prestate de către beneficiari” trebuie înlocuit cu o formulare care identifică zilierii drept executanți. Implementarea trebuie să permită înregistrarea beneficiarului fără cod CAEN și identificarea domeniului activității efective.",
-      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă. Din perspectiva art. 1 alin. (5), formularea art. 13 alin. (3) necesită precizare, mai ales deoarece delimitarea domeniilor are consecințe contravenționale. [Constituția, art. 1](https://www.cdep.ro/ords/pls/dic/site2015.page?den=act2_1&par1=1). Art. 23 alin. (12) consacră legalitatea pedepselor; proiectul nu introduce incriminări sau pedepse penale, astfel că problema identificată privește în principal calitatea legii. Enumerarea cultelor recunoscute nu demonstrează singură discriminare, câtă vreme categoria generală a persoanelor juridice rămâne deschisă. [Constituția, art. 16, 23 și 29](https://www.cdep.ro/ords/pls/dic/site2015.page?den=act2_1&par1=2).",
-      "euLawNote": "Directiva (UE) 2018/958 nu impune aici testul special de proporționalitate: art. 2 privește restricțiile asupra profesiilor reglementate, iar proiectul privește beneficiarii muncii necalificate ocazionale. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX%3A32018L0958). Nu se identifică reglementări tehnice privind produse sau norme specifice serviciilor societății informaționale care să declanșeze notificarea TRIS; existența registrului electronic nu schimbă această concluzie. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=celex%3A32015L1535). Din text nu rezultă monopoluri, ajutoare de stat sau bariere transfrontaliere noi; eliminarea obstacolului administrativ poate facilita concurența, cu aplicarea acelorași condiții pentru activități comparabile.",
+      "blindSpotsCaught": "Excepția privește existența codului CAEN al beneficiarului, nu lista activităților admise. Expunerea de motive nu poate transforma această regulă generală într-o facilitate rezervată ONG-urilor și cultelor și nici nu poate autoriza activități religioase sau caritabile care nu se încadrează în art. 13. Termenul pentru amendamente indicat în fișă, 14.09.2026, este deja depășit la data analizei.",
+      "constitutionalityNote": "Problema principală ține de art. 1 alin. (5) din Constituție: inversarea rolurilor dintre zilier și beneficiar afectează precizia normei, inclusiv în aplicarea controalelor și sancțiunilor existente. Art. 23 alin. (12), referitor la legalitatea pedepsei, nu constituie aici un temei direct pentru constatarea unei încălcări, deoarece proiectul nu instituie pedepse penale. Nu rezultă o discriminare evidentă contrară art. 16 sau eliminarea protecțiilor muncii prevăzute de art. 41. Adoptarea potrivit art. 76 alin. (2) nu demonstrează singură încălcarea rezervei de lege organică: trebuie analizat dacă intervenția privește regimul general al raporturilor de muncă, în sensul art. 73 alin. (3) lit. p).",
+      "euLawNote": "Directiva (UE) 2018/958 privește testarea proporționalității restricțiilor privind accesul la profesii reglementate sau exercitarea acestora; proiectul privind munca necalificată ocazională nu prezintă un asemenea obiect. Nu se identifică reglementări tehnice privind produse ori servicii ale societății informaționale care să atragă notificarea TRIS potrivit Directivei (UE) 2015/1535. Efectul concurențial probabil este reducerea unei bariere administrative; textul nu instituie monopoluri sau scutiri de obligațiile salariale și fiscale pentru beneficiarii fără CAEN. Verificarea online nu a fost disponibilă; evaluarea nu confirmă independent stadiul parlamentar sau actualitatea consolidării furnizate.",
       "senatForm": {
-        "articleRef": "Articol unic pct. 2 – art. 13 alin. (3)",
-        "proposalContent": "(3) Beneficiarii prevăzuți la art. 1 alin. (1) lit. b) care nu au atribuit un cod CAEN pot utiliza zilieri exclusiv pentru activități necalificate cu caracter ocazional încadrabile în domeniile prevăzute la alin. (1), cu respectarea alin. (2) și a celorlalte condiții ale prezentei legi.",
-        "argumentation": "Textul precizează că zilierii prestează activitățile în folosul beneficiarilor, nu invers. Lipsa codului CAEN nu înlătură obligația încadrării activității efective în domeniile permise și nici condițiile privind curățenia și întreținerea. Se reduce riscul aplicării neunitare și al sancționării imprevizibile.",
-        "otherComments": "Propunere pentru Comisia pentru muncă și protecție socială a Camerei Deputaților, PL-x 552/2026. Termenul indicat, 14.09.2026, este depășit; petiția nu echivalează cu un amendament depus regulamentar. Se recomandă adaptarea registrului electronic pentru beneficiarii fără cod CAEN."
-      }
+        "articleRef": "Articolul unic pct. 2 — art. 13 alin. (3)",
+        "proposalContent": "(3) Beneficiarii prevăzuți la art. 1 alin. (1) lit. b) care nu au atribuit un cod CAEN pot utiliza zilieri exclusiv pentru activități necalificate cu caracter ocazional din domeniile prevăzute la alin. (1), cu respectarea alin. (2) și a celorlalte condiții ale prezentei legi.",
+        "argumentation": "Zilierii prestează activitățile, iar beneficiarii îi utilizează și îi remunerează. Reformularea corectează inversarea rolurilor și precizează că lipsa codului CAEN nu înlătură lista domeniilor permise sau garanțiile legale existente, reducând riscul practicilor administrative neunitare.",
+        "otherComments": "Propunere destinată Comisiei pentru muncă și protecție socială a Camerei Deputaților. Termenul indicat pentru amendamente, 14.09.2026, a trecut; eventuala preluare de către un deputat trebuie raportată la stadiul lucrărilor și la procedura parlamentară aplicabilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T23:43:56.923Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:52:19.081Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

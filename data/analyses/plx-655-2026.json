@@ -1,14 +1,42 @@
 {
   "billId": "PL-x 655/2026",
   "slug": "plx-655-2026",
-  "updatedAt": "2026-10-28T21:23:50.501Z",
+  "version": "senat",
+  "updatedAt": "2026-11-24T14:54:00.982Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 963,
+    "ordinanceChars": 0,
+    "memoChars": 12445,
+    "memoSupplied": 12445,
+    "marker": "SF-BFB9AC70"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-655-2026.json",
+    "form": "senat",
+    "textHash": "bfb9ac7001bceb08",
+    "fetchedAt": "2026-11-19T09:37:38.077Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 7471,
+    "truncated": false,
+    "included": true,
+    "key": "cc060142c15ae551"
+  },
   "consensus": {
     "riskScore": 2,
     "riskLevel": "green",
-    "plainTitle": "Oricine poate reclama la poliție vânzarea de lucrări de licență",
-    "summaryTlDr": "Corecție procedurală utilă: elimină condiția care lăsa poliția să intervină numai după cererea motivată a universității. Nu creează fapte noi și nu mărește amenzile, dar le face mai ușor de aplicat, inclusiv pe cele, deja foarte mari, pentru cumpărători.",
-    "initiatorClaim": "Inițiatorii USR spun că traficul de lucrări de licență, disertație și doctorat continuă la vedere online (site-uri, grupuri, anunțuri promovate pe TikTok), iar poliția poate interveni doar la cererea motivată a universității. Vor ca oricine să poată sesiza și ca poliția să poată acționa din oficiu.",
-    "realityCheck": "Articolul unic schimbă un singur lucru: elimină condiția „solicitării motivate a instituției de învățământ superior” și permite constatarea la cererea oricărei persoane sau din oficiu. Modificarea se aplică tuturor faptelor de la alin.(2)-(4), deci și programelor de studii neautorizate de ARACIS, nu doar vânzării de lucrări. Efect secundar: amenzile de 100.000–200.000 lei, inclusiv pentru cumpărători (de regulă studenți), devin mult mai ușor de declanșat, de exemplu prin reclamațiile colegilor sau ale concurenților.",
+    "plainTitle": "Poliția poate amenda vânzarea de lucrări de licență și fără cererea universității",
+    "summaryTlDr": "Este o corectură procedurală utilă și benignă. Elimină o condiție atipică, care lega acțiunea poliției de o cerere a universității, și aliniază textul la regula generală din dreptul contravențional. Nu creează fapte noi și nu mărește amenzile.",
+    "initiatorClaim": "Inițiatorii spun că piața online de lucrări de licență, disertații și teze rămâne înfloritoare. Motivul invocat este că poliția poate acționa doar la solicitarea motivată a unei instituții de învățământ superior. Ei vor ca oricine să poată sesiza poliția, iar poliția să se poată autosesiza.",
+    "realityCheck": "Articolul unic schimbă doar declanșatorul din art. 259 alin. (6). Acum poliția acționează doar „la solicitarea motivată a instituției de învățământ superior”. După modificare, va acționa „la solicitarea oricărei persoane fizice sau juridice de drept public sau drept privat, precum și din oficiu”. Faptele (alin. 2-4), amenzile (alin. 5) și mecanismul de blocare a conținutului online (alin. 7-15) rămân neschimbate. Ca efect secundar, amenzile foarte mari deja în vigoare, de 100.000-200.000 lei și pentru cumpărătorii persoane fizice, adică studenții, vor fi aplicate mai des. Problema lor de proporționalitate devine astfel mai vizibilă, deși nu este creată de acest proiect.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Justiție & Drepturi Civile",
@@ -16,85 +44,89 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. unic – art. 259 alin.(6) din Legea 199/2023",
-      "proposalContent": "(6) Constatarea contravenției și aplicarea amenzilor prevăzute la alin.(5) se fac de ofițerii sau agenții de poliție din cadrul Ministerului Afacerilor Interne cu competențe în domeniu, din oficiu sau la sesizarea oricărei persoane fizice ori juridice. Instituțiile de învățământ superior și ARACIS sesizează poliția de îndată ce află de faptele de la alin.(2)-(4).",
-      "argumentation": "„La solicitarea” poate fi citit ca obligație a poliției de a amenda la cererea oricui. Formula „din oficiu sau la sesizarea” arată clar că sesizarea doar declanșează verificarea, iar agentul constată el fapta. Obligația universităților și a ARACIS păstrează canalul instituțional, util mai ales pentru programele neautorizate de la alin.(4).",
-      "otherComments": "Amenda minimă de 100.000 lei pentru cumpărarea unei lucrări (alin.(3) și (5) lit.a) poate lovi disproporționat studenții acum, când oricine poate sesiza. Merită o propunere separată de graduare a amenzii pentru persoane fizice. Termenul de amendamente (13.10.2026) a trecut; textul poate fi susținut de un membru al comisiei la dezbatere."
+      "articleRef": "Art. unic – art. 259 alin. (6) Legea 199/2023",
+      "proposalContent": "(6) Constatarea contravenției și aplicarea amenzilor prevăzute la alin. (5) se fac de ofițerii sau agenții de poliție din cadrul MAI cu competențe în domeniu, din oficiu sau la sesizarea oricărei persoane fizice ori juridice. Instituția de învățământ superior vizată este informată despre procesul-verbal întocmit.",
+      "argumentation": "„Sesizare” este termenul consacrat în OG 2/2001, în timp ce „solicitare” poate sugera că poliția ar fi obligată să sancționeze la cerere. Informarea universității îi permite să acționeze disciplinar și să anuleze lucrarea. Textul actual asigura implicit acest lucru, pentru că procedura pornea chiar de la universitate.",
+      "otherComments": "Amenzile de 100.000-200.000 lei pentru cumpărare (alin. 5 lit. a) se aplică și studenților persoane fizice. Odată cu deschiderea sesizării, ele vor fi aplicate mai des. Recomandăm reanalizarea proporționalității, de exemplu printr-un plafon diferențiat pentru persoane fizice, și precizarea structurii MAI competente."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 51412,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 65616,
+      "sourceEndMarker": "SF-BFB9AC70",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Poliția va putea amenda din oficiu sau la sesizarea oricui site-urile care vând lucrări de licență și doctorat",
-      "verdictShort": "O corecție procedurală utilă și justificată, care deblochează aplicarea amenzilor împotriva comerțului online cu lucrări universitare. Singurele riscuri minore țin de posibile sesizări șicanatorii și de lipsa unui filtru tehnic ARACIS pentru faptele de la alin. (4).",
-      "initiatorClaim": "Inițiatorii vor să elimine blocajul actual prin care Poliția poate sancționa vânzarea și cumpărarea de lucrări de licență, disertație sau doctorat doar dacă există o solicitare motivată din partea unei universități.",
-      "realityCheck": "Modificarea aliniază procedura la dreptul contravențional comun (OG nr. 2/2001), permițând Poliției să acționeze din oficiu ori la sesizarea oricărei persoane (studenți, jurnaliști, ONG-uri). Totuși, eliminarea condiției ca sesizarea să fie „motivată” și includerea la pachet a contravenției de la alin. (4) (activități de formare fără autorizare ARACIS) pot genera plângeri abuzive dacă agenții constatatori nu filtrează riguros probele.",
+      "plainTitle": "Poliția poate amenda vânzarea de lucrări de licență și din oficiu",
+      "verdictShort": "Este o corecție procedurală utilă și de bun-simț, care elimină un blocaj absurd din legea actuală fără a introduce taxe, interdicții sau sancțiuni noi. Singura atenție necesară ține de aplicarea proporțională în practică, deoarece deblochează amenzi deja foarte dure (până la 200.000 lei) și măsuri rapide de blocare a site-urilor.",
+      "initiatorClaim": "Inițiatorii arată că fenomenul vânzării de lucrări de licență, disertație și doctorat continuă nestingherit online, deoarece în prezent poliția nu poate interveni decât la solicitarea motivată a unei universități. Ei vor să permită sesizarea poliției de către orice persoană fizică sau juridică, precum și autosesizarea din oficiu.",
+      "realityCheck": "Legea în vigoare (art. 259 din Legea nr. 199/2023, modificat prin Legea nr. 427/2023) prevede deja interdicția vânzării și cumpărării de lucrări, amenzile de 100.000–200.000 lei și procedura MAI–ANCOM de blocare a site-urilor, dar bloca aplicarea lor prin condiția solicitării venite exclusiv de la o universitate. Proiectul modifică strict alin. (6) pentru a permite constatarea contravențiilor la cererea oricărei persoane fizice sau juridice ori din oficiu, aliniind procedura la regula generală din dreptul contravențional (OG nr. 2/2001). Nu aduce costuri bugetare noi și nu extinde faptele sancționate, dar face efectiv aplicabile sancțiuni foarte aspre deja existente.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 259 alin. (6) se modifică astfel încât amenzile uriașe deja existente în lege (100.000 - 200.000 lei pentru vânzarea/cumpărarea de lucrări universitare) să poată fi aplicate de Poliție din oficiu sau la sesizarea oricărei persoane fizice ori juridice.",
-        "Se elimină filtrul exclusiv al „solicitării motivate a instituției de învățământ superior”, care făcea textul inaplicabil în practică față de platformele online și reclamele generale de pe rețelele sociale care nu vizau o universitate anume.",
-        "Proiectul nu creează taxe, contravenții noi sau obligații birocratice pentru cetățeni sau firmele oneste, ci doar deblochează mecanismul de sesizare pentru faptele deja interzise la art. 259 alin. (2)-(4)."
+        "Deblocarea sesizării la art. 259 alin. (6): se elimină monopolul instituțiilor de învățământ superior asupra declanșării procedurii contravenționale; studenții, profesorii, ONG-urile, instituțiile publice sau orice cetățean pot sesiza poliția, iar agenții MAI se pot autosesiza.",
+        "Nu există sancțiuni sau cenzură nouă în acest proiect: amenzile de 100.000–200.000 lei (alin. 5 lit. a), 50.000–100.000 lei (alin. 5 lit. b) și mecanismul de blocare a domeniilor «.ro» ori a accesului prin ANCOM fără efect suspensiv al contestației (alin. 7–13) sunt deja în vigoare din ianuarie 2024.",
+        "Eliminarea cerinței motivării și mici imprecizii tehnice: noul alin. (6) renunță la cuvântul «motivată» pentru solicitare, păstrează formula vagă «care au competențe în domeniu» pentru polițiști și menține singularul «constatarea contravenției», deși alin. (5) acoperă trei contravenții distincte."
       ],
-      "blindSpotsCaught": "Expunerea de motive vorbește exclusiv despre traficul de lucrări științifice (alin. 2 și 3), însă alin. (6) reglementează constatarea tuturor faptelor de la alin. (5), inclusiv pe cea de la alin. (4) — organizarea de activități de formare fără autorizare ARACIS (amendă 50.000 - 100.000 lei). Fără un aviz tehnic din partea ARACIS, un agent de poliție sesizat de un concurent ar putea avea dificultăți în a distinge între un program universitar clandestin și un curs privat de formare profesională ori bootcamp IT perfect legal.",
-      "constitutionalityNote": "Proiectul este în acord cu Constituția României, dar păstrează din forma actuală a legii formularea imprecisă „ofițerii sau agenții de poliție din cadrul MAI, care au competențe în domeniu”. Sub aspectul calității și previzibilității legii (art. 1 alin. 5 din Constituție), în lipsa desemnării clare a structurii competente, contravenienții pot invoca în instanță necompetența materială a agentului constatator.",
-      "euLawNote": "Nu încalcă dreptul Uniunii Europene. Nu introduce restricții noi privind accesul la profesii reglementate (Directiva 2018/958) și nici cerințe tehnice noi pentru serviciile societății informaționale care să impună notificarea TRIS (Directiva 2015/1535), vizând doar procedura internă de sesizare a organelor de poliție.",
+      "blindSpotsCaught": "Expunerea de motive vorbește exclusiv despre vânzarea de lucrări (alin. 2–3), dar omite un efect pozitiv important: alin. (6) guvernează și contravenția de la art. 259 alin. (4) — organizarea de programe de studii universitare neautorizate de ARACIS (amendă 50.000–100.000 lei). În forma actuală, nici măcar ARACIS sau Ministerul Educației nu puteau declanșa direct amendarea unei entități neautorizate fără «solicitarea unei instituții de învățământ superior». Pe de altă parte, deblocarea sesizărilor nemotivate de la orice persoană crește riscul de reclamații șicanatorii și necesită discernământ din partea poliției pentru a nu confunda serviciile legale (meditații, corectură, resurse educaționale oferite gratuit) cu expresia largă din alin. (2) existent («punerea la dispoziție, cu orice titlu»).",
+      "constitutionalityNote": "Proiectul respectă Constituția României (inclusiv art. 76 alin. 2 privind adoptarea legilor ordinare și art. 1 alin. 5 privind calitatea legii în ceea ce privește obiectul său restrâns). Nu creează discriminări și nu afectează garanțiile procesuale din OG nr. 2/2001 (dreptul la plângere contravențională rămâne intact). Sintagma moștenită din legea actuală «ofițerii sau agenții de poliție... care au competențe în domeniu» rămâne ușor imprecisă, iar sensibilitatea constituțională reală (art. 21 și art. 30) nu aparține acestui proiect, ci alin. (12) deja în vigoare, potrivit căruia contestarea în instanță nu suspendă blocarea site-ului dispusă de ANCOM.",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958 privind testul de proporționalitate (nu reglementează accesul la profesii reglementate) și nici nu declanșează obligația de notificare TRIS conform Directivei (UE) 2015/1535, întrucât nu introduce norme tehnice noi pentru serviciile societății informaționale, ci modifică doar regula internă de sesizare a poliției. Totuși, întrucât modificarea va face aplicabile pe scară mai largă măsurile de eliminare și blocare a conținutului online din alin. (7)–(13) deja în vigoare, autoritățile (MAI și ANCOM) trebuie să respecte cerințele art. 9 din Regulamentul (UE) 2022/2065 (Digital Services Act — DSA) privind motivarea precisă și proporționalitatea ordinelor adresate furnizorilor de servicii intermediare.",
       "senatForm": {
-        "articleRef": "Articol unic - Art. 259 alin. (6) Legea 199/2023",
-        "proposalContent": "„(6) Constatarea contravenției și aplicarea amenzilor contravenționale prevăzute la alin. (5) se fac de către ofițerii sau agenții de poliție din cadrul Ministerului Afacerilor Interne, din oficiu sau la sesizarea motivată a oricărei persoane fizice ori juridice de drept public sau privat; pentru fapta de la alin. (4) este necesar avizul tehnic al ARACIS.”",
-        "argumentation": "Deși deblocarea sesizării Poliției este binevenită contra site-urilor care vând lucrări de licență, păstrarea condiției ca sesizarea să fie „motivată” previne denunțurile șicanatorii între studenți sau concurenți. În plus, pentru fapta de la alin. (4) (programe fără autorizare ARACIS), Poliția are nevoie de confirmarea tehnică a ARACIS pentru a nu afecta cursuri private legale.",
-        "otherComments": "Eliminarea sintagmei vagi „care au competențe în domeniu” sau clarificarea ei prin trimitere la structurile de investigare a criminalității economice din MAI ar crește previzibilitatea normei (art. 1 alin. 5 din Constituție) și ar evita anularea în instanță a proceselor-verbale pe motiv de necompetență materială a agentului constatator."
-      }
+        "articleRef": "Articol unic (art. 259 alin. (6))",
+        "proposalContent": "„(6) Constatarea contravențiilor și aplicarea amenzilor contravenționale prevăzute la alin. (5) se fac de către ofițerii sau agenții de poliție din cadrul Ministerului Afacerilor Interne, care au competențe în domeniu, la solicitarea motivată a oricărei persoane fizice sau juridice de drept public sau de drept privat, precum și din oficiu.”",
+        "argumentation": "Menținerea cerinței ca solicitarea să fie motivată descurajează sesizările șicanatorii și oferă poliției indicii concrete, fără a bloca dreptul oricărei persoane sau al ARACIS de a sesiza faptele. Totodată, pluralul «contravențiilor» corelează textul cu alin. (5), care reglementează trei fapte distincte, iar «de drept privat» corectează formularea.",
+        "otherComments": "Proiectul rezolvă un blocaj real, permițând sancționarea fabricilor de lucrări și a programelor neautorizate ARACIS. Recomandăm ca în practică MAI să delimiteze clar comerțul ilicit de lucrări de serviciile legale de meditații sau corectură și să respecte cerințele Regulamentului UE privind serviciile digitale (DSA) la ordinele de blocare online."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 110003,
+      "durationMs": 34840,
+      "sourceEndMarker": "SF-BFB9AC70",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Oricine poate reclama la poliție vânzarea de lucrări de licență",
-      "verdictShort": "Corecție procedurală utilă: elimină condiția care lăsa poliția să intervină numai după cererea motivată a universității. Nu creează fapte noi și nu mărește amenzile, dar le face mai ușor de aplicat, inclusiv pe cele, deja foarte mari, pentru cumpărători.",
-      "initiatorClaim": "Inițiatorii USR spun că traficul de lucrări de licență, disertație și doctorat continuă la vedere online (site-uri, grupuri, anunțuri promovate pe TikTok), iar poliția poate interveni doar la cererea motivată a universității. Vor ca oricine să poată sesiza și ca poliția să poată acționa din oficiu.",
-      "realityCheck": "Articolul unic schimbă un singur lucru: elimină condiția „solicitării motivate a instituției de învățământ superior” și permite constatarea la cererea oricărei persoane sau din oficiu. Modificarea se aplică tuturor faptelor de la alin.(2)-(4), deci și programelor de studii neautorizate de ARACIS, nu doar vânzării de lucrări. Efect secundar: amenzile de 100.000–200.000 lei, inclusiv pentru cumpărători (de regulă studenți), devin mult mai ușor de declanșat, de exemplu prin reclamațiile colegilor sau ale concurenților.",
+      "plainTitle": "Poliția poate amenda vânzarea de lucrări de licență și fără cererea universității",
+      "verdictShort": "Este o corectură procedurală utilă și benignă. Elimină o condiție atipică, care lega acțiunea poliției de o cerere a universității, și aliniază textul la regula generală din dreptul contravențional. Nu creează fapte noi și nu mărește amenzile.",
+      "initiatorClaim": "Inițiatorii spun că piața online de lucrări de licență, disertații și teze rămâne înfloritoare. Motivul invocat este că poliția poate acționa doar la solicitarea motivată a unei instituții de învățământ superior. Ei vor ca oricine să poată sesiza poliția, iar poliția să se poată autosesiza.",
+      "realityCheck": "Articolul unic schimbă doar declanșatorul din art. 259 alin. (6). Acum poliția acționează doar „la solicitarea motivată a instituției de învățământ superior”. După modificare, va acționa „la solicitarea oricărei persoane fizice sau juridice de drept public sau drept privat, precum și din oficiu”. Faptele (alin. 2-4), amenzile (alin. 5) și mecanismul de blocare a conținutului online (alin. 7-15) rămân neschimbate. Ca efect secundar, amenzile foarte mari deja în vigoare, de 100.000-200.000 lei și pentru cumpărătorii persoane fizice, adică studenții, vor fi aplicate mai des. Problema lor de proporționalitate devine astfel mai vizibilă, deși nu este creată de acest proiect.",
       "affectedGroups": [
         "Sănătate & Educație",
-        "Justiție & Drepturi Civile",
-        "IT & AI"
+        "IT & AI",
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. unic / art. 259 alin.(6): dispare condiția procedurală ca universitatea să ceară motivat intervenția poliției. Dispare astfel și un posibil motiv de anulare în instanță a proceselor-verbale încheiate fără o astfel de cerere.",
-        "Proiectul nu creează contravenții noi și nu modifică amenzile de la alin.(5): 100.000–200.000 lei pentru vânzare și cumpărare (lit.a), 50.000–100.000 lei pentru activități de formare neautorizate (lit.b).",
-        "Modificarea acoperă și alin.(4) (activități de formare fără autorizare ARACIS și programe de studii neautorizate). Expunerea de motive nu discută acest efect, deși este unul pozitiv.",
-        "Formularea „la solicitarea oricărei persoane” este imprecisă: sesizarea ar trebui doar să declanșeze verificarea, iar agentul trebuie să constate el fapta. Textul nu ar trebui citit ca obligație a poliției de a amenda la cerere.",
-        "Viteza contează: potrivit OG 2/2001, la faptele instantanee (o vânzare, o cumpărare) aplicarea amenzii se prescrie în 6 luni de la săvârșire, iar așteptarea cererii universității putea consuma acest termen.",
-        "Impactul bugetar și birocratic pentru cetățeni și IMM-uri este neglijabil. Crește doar volumul de sesizări pe care poliția trebuie să le verifice, fără ca proiectul să prevadă o structură specializată."
+        "Articol unic – art. 259 alin. (6): dispare condiția „solicitării motivate a instituției de învățământ superior”. Poliția poate acționa la cererea oricărei persoane sau din oficiu. Competența rămâne la ofițerii și agenții MAI.",
+        "Modificarea acoperă toate faptele din alin. (5), inclusiv alin. (4): programe de studii neautorizate sau formare fără autorizație ARACIS. În regimul actual, constatarea acestor fapte depindea de solicitarea unei instituții de învățământ superior, chiar când instituția era ea însăși cea care organiza programele neautorizate. Noua formă înlătură această anomalie.",
+        "Mecanismul de blocare a site-urilor (alin. 7-15, prin ANCOM, ICI și furnizorii de găzduire) depinde de un proces-verbal al poliției. Deblocarea declanșatorului face acest mecanism efectiv utilizabil, fără a-i schimba garanțiile: contestație în contencios și încetarea măsurii la anularea procesului-verbal.",
+        "Nu există impact bugetar direct și nici obligații noi pentru firme sau cetățeni. Poliția preia un posibil volum suplimentar de sesizări, în limitele competențelor existente.",
+        "Amenzile din alin. (5) lit. a), 100.000-200.000 lei, se aplică identic vânzătorului profesionist și studentului care cumpără o lucrare. Proiectul nu le modifică, dar le va face mai des aplicabile."
       ],
-      "blindSpotsCaught": "Expunerea de motive vorbește doar de traficul de lucrări, dar alin.(6) modificat se aplică și faptelor de la alin.(4), adică activităților de formare fără autorizare ARACIS. Acestea vor putea fi constatate din oficiu. Cuvântul „solicitare”, în locul lui „sesizare”, sugerează că poliția ar trebui să acționeze la cererea oricui; textul ar trebui clarificat. Blocarea site-urilor, invocată în Expunere ca beneficiu, nu este modificată de proiect: efectul asupra platformelor depinde exclusiv de mecanismele deja existente.",
-      "constitutionalityNote": "Nu ridică probleme de constituționalitate. Textul este clar și previzibil (art. 1 alin.(5)): organul competent, faptele și sancțiunile rămân cele deja stabilite prin lege (art. 23 alin.(12)); se lărgește doar cercul celor care pot declanșa procedura. Prezumția de nevinovăție (art. 23 alin.(11)) și accesul la justiție (art. 21) rămân garantate prin plângerea contravențională din OG 2/2001. Amenzile de 100.000–200.000 lei au, după jurisprudența CEDO (Engel; Anghel c. României), natura unei «acuzații în materie penală». Constatarea trebuie deci să se bazeze pe probe verificate de agent, nu doar pe denunț. Proporționalitatea minimului de 100.000 lei pentru cumpărători rămâne discutabilă, dar ține de alin.(5) existent, nu de acest proiect. Lege ordinară, adoptată de Senat ca primă cameră (art. 75, art. 76 alin.(2)).",
-      "euLawNote": "Fără impact relevant asupra dreptului UE. Directiva (UE) 2018/958 nu se aplică: proiectul nu reglementează accesul la o profesie sau exercitarea ei. Nu este o regulă tehnică și nu vizează specific serviciile societății informaționale, deci nu necesită notificare TRIS conform Directivei (UE) 2015/1535: schimbă doar cine poate sesiza poliția pentru contravenții deja existente. Nu creează bariere pe piața unică. Eventualele ordine de blocare sau eliminare a conținutului adresate platformelor online trebuie să respecte în continuare Regulamentul (UE) 2022/2065 (DSA), pe care proiectul nu îl atinge.",
+      "blindSpotsCaught": "Textul folosește „la solicitarea” în loc de termenul consacrat „sesizare”. Formularea poate sugera că poliția ar fi obligată să constate contravenția la cerere, deși constatarea presupune verificare proprie. Universitatea nu mai este informată despre sancțiunile aplicate, deși are interes să anuleze lucrarea sau diploma și să acționeze disciplinar. Rămâne neclar ce structură din MAI are „competențe în domeniu”. Termenul de prescripție de 6 luni din OG 2/2001 se aplică în continuare, ceea ce face reacția rapidă importantă.",
+      "constitutionalityNote": "Nu se identifică probleme de constituționalitate. Textul este clar și previzibil (art. 1 alin. 5), iar competența organului constatator rămâne stabilită prin lege. Dreptul la apărare și accesul la justiție rămân garantate prin plângerea contravențională din art. 31 din OG 2/2001 și prin contencios (art. 259 alin. 11-12). Lărgirea sesizării nu atinge prezumția de nevinovăție, pentru că sarcina constatării rămâne la poliție. O discuție de proporționalitate (art. 53) ar putea viza cuantumul amenzilor pentru persoane fizice din alin. (5), dar acesta este în vigoare din 2024 și nu este modificat de proiect.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă, pentru că proiectul nu reglementează accesul la o profesie sau exercitarea ei. Nici notificarea TRIS (Directiva 2015/1535) nu este necesară: modificarea este pur procedurală și nu introduce reguli noi pentru serviciile societății informaționale. Mecanismul de eliminare sau blocare a conținutului (alin. 7-10) există deja și trebuie aplicat în acord cu Regulamentul (UE) 2022/2065 (DSA), însă proiectul nu îl modifică. Nu există impact asupra pieței unice.",
       "senatForm": {
-        "articleRef": "Art. unic – art. 259 alin.(6) din Legea 199/2023",
-        "proposalContent": "(6) Constatarea contravenției și aplicarea amenzilor prevăzute la alin.(5) se fac de ofițerii sau agenții de poliție din cadrul Ministerului Afacerilor Interne cu competențe în domeniu, din oficiu sau la sesizarea oricărei persoane fizice ori juridice. Instituțiile de învățământ superior și ARACIS sesizează poliția de îndată ce află de faptele de la alin.(2)-(4).",
-        "argumentation": "„La solicitarea” poate fi citit ca obligație a poliției de a amenda la cererea oricui. Formula „din oficiu sau la sesizarea” arată clar că sesizarea doar declanșează verificarea, iar agentul constată el fapta. Obligația universităților și a ARACIS păstrează canalul instituțional, util mai ales pentru programele neautorizate de la alin.(4).",
-        "otherComments": "Amenda minimă de 100.000 lei pentru cumpărarea unei lucrări (alin.(3) și (5) lit.a) poate lovi disproporționat studenții acum, când oricine poate sesiza. Merită o propunere separată de graduare a amenzii pentru persoane fizice. Termenul de amendamente (13.10.2026) a trecut; textul poate fi susținut de un membru al comisiei la dezbatere."
-      }
+        "articleRef": "Art. unic – art. 259 alin. (6) Legea 199/2023",
+        "proposalContent": "(6) Constatarea contravenției și aplicarea amenzilor prevăzute la alin. (5) se fac de ofițerii sau agenții de poliție din cadrul MAI cu competențe în domeniu, din oficiu sau la sesizarea oricărei persoane fizice ori juridice. Instituția de învățământ superior vizată este informată despre procesul-verbal întocmit.",
+        "argumentation": "„Sesizare” este termenul consacrat în OG 2/2001, în timp ce „solicitare” poate sugera că poliția ar fi obligată să sancționeze la cerere. Informarea universității îi permite să acționeze disciplinar și să anuleze lucrarea. Textul actual asigura implicit acest lucru, pentru că procedura pornea chiar de la universitate.",
+        "otherComments": "Amenzile de 100.000-200.000 lei pentru cumpărare (alin. 5 lit. a) se aplică și studenților persoane fizice. Odată cu deschiderea sesizării, ele vor fi aplicate mai des. Recomandăm reanalizarea proporționalității, de exemplu printr-un plafon diferențiat pentru persoane fizice, și precizarea structurii MAI competente."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 87049,
+      "durationMs": 63114,
+      "sourceEndMarker": "SF-BFB9AC70",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Oricine poate sesiza poliția despre vânzarea lucrărilor universitare",
-      "verdictShort": "Proiectul elimină un obstacol procedural în combaterea fraudei academice: poliția va putea interveni fără solicitarea unei universități. Este o modificare utilă, cu risc redus, care nu introduce contravenții sau amenzi noi.",
-      "initiatorClaim": "Inițiatorii urmăresc intervenții mai rapide împotriva comercializării lucrărilor universitare, în special online. Ei susțin că dependența de solicitarea motivată a universității împiedică aplicarea eficientă a sancțiunilor existente.",
-      "realityCheck": "Articolul unic permite intervenția poliției la sesizarea oricărei persoane fizice sau juridice și din oficiu, păstrând competențele și amenzile existente. Efectul privește toate contravențiile indicate la art. 259 alin. (5), inclusiv activitățile educaționale neautorizate de la alin. (4), deși motivarea insistă asupra traficului de lucrări. Sesizarea nu dovedește contravenția și nu produce automat amendarea sau blocarea unui site.",
+      "plainTitle": "Oricine poate sesiza poliția despre comerțul cu lucrări universitare",
+      "verdictShort": "Modificarea este utilă și are risc legislativ redus: elimină dependența intervenției poliției de solicitarea unei universități. Nu introduce contravenții, amenzi sau puteri de blocare noi.",
+      "initiatorClaim": "Inițiatorii urmăresc combaterea mai eficientă a comercializării lucrărilor universitare, în special online. Propun sesizarea poliției de către orice persoană și intervenția acesteia din oficiu.",
+      "realityCheck": "Articolul unic înlocuiește solicitarea motivată a universității cu solicitarea oricărei persoane fizice sau juridice și permite constatarea din oficiu. Trimiterea la întregul alin. (5) extinde această schimbare procedurală și asupra activităților educaționale neautorizate de la alin. (4), deși motivarea insistă asupra comerțului cu lucrări. Sesizarea nu dovedește automat contravenția, iar sancțiunile și mecanismul existent de blocare a conținutului rămân supuse condițiilor legale.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Justiție & Drepturi Civile",
@@ -102,19 +134,44 @@
         "IT & AI"
       ],
       "keyFindings": [
-        "Art. 259 alin. (6): dispare condiția solicitării motivate formulate de instituția de învățământ superior. Studenții, profesorii, jurnaliștii, ONG-urile și alte persoane pot sesiza direct poliția competentă.",
-        "Trimiterea la alin. (5) include atât comercializarea și cumpărarea lucrărilor, sancționate deja cu 100.000–200.000 lei, cât și faptele privind activitățile educaționale neautorizate, sancționate cu 50.000–100.000 lei. Severitatea acestor amenzi aparține reglementării existente; proiectul crește posibilitatea aplicării lor.",
-        "Nu apar taxe, autorizații, raportări obligatorii sau costuri administrative directe noi pentru cetățeni și IMM-uri. Totuși, mai multe sesizări pot însemna muncă suplimentară pentru poliție și cheltuieli de verificare ori contestare; afirmația inițiatorilor privind absența oricărui impact bugetar nu este demonstrată printr-o estimare."
+        "Articolul unic, art. 259 alin. (6): în prezent este necesară solicitarea motivată a instituției de învățământ superior; proiectul permite sesizarea oricărei persoane și intervenția din oficiu a poliției competente.",
+        "Schimbarea privește toate contravențiile de la alin. (5), inclusiv organizarea și desfășurarea activităților educaționale neautorizate prevăzute la alin. (4). Nu modifică regimul distinct al contravenției de la alin. (14), constatată de personalul ANCOM.",
+        "Amenzile de 100.000–200.000 lei pentru faptele privind lucrările și de 50.000–100.000 lei pentru activitățile neautorizate există deja. Proiectul crește posibilitatea aplicării lor efective, fără să le majoreze.",
+        "Blocarea conținutului și a domeniilor este deja reglementată la alin. (7)–(13). Solicitarea motivată a MAI către ANCOM, documentele justificative și căile de atac nu sunt eliminate; lipsa suspendării automate a deciziei ANCOM este tot o regulă existentă.",
+        "Nu apar taxe, raportări obligatorii sau costuri administrative directe noi pentru cetățeni și IMM-uri. Volumul verificărilor poliției poate crește, astfel încât afirmația din motivare privind absența oricărui impact bugetar nu este demonstrată doar prin text."
       ],
-      "blindSpotsCaught": "Modificarea facilitează indirect folosirea mecanismului existent pentru conținutul online, dar nu creează o putere nouă de închidere automată a platformelor. Art. 259 alin. (7) privește fapta de la alin. (2); intervenția ANCOM potrivit alin. (8)–(10) presupune neexecutarea sancțiunii complementare, solicitare motivată a MAI și documentele prevăzute de lege. Extinderea sesizării nu elimină aceste condiții. [Legea nr. 199/2023, art. 259](https://legislatie.just.ro/Public/DetaliiDocument/298845)",
-      "constitutionalityNote": "Nu identific un viciu evident de constituționalitate în modificarea analizată. Din perspectiva art. 1 alin. (5), mecanismul este inteligibil; termenul «sesizare» ar exprima însă mai precis rolul cetățeanului decât «solicitare». Legalitatea sancționării, examinată și prin raportare la art. 23 alin. (12), impune în continuare stabilirea faptei și a răspunderii, nu sancționarea pe baza simplei acuzații. Proporționalitatea sancțiunii rămâne obligatorie potrivit art. 21 alin. (3) din OG nr. 2/2001. Adoptarea ca lege ordinară nu este, prin ea însăși, problematică: intervenția privește procedura contravențională, fără să modifice organizarea generală a învățământului rezervată legii organice. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355?isFormaDeBaza=True); [OG nr. 2/2001](https://legislatie.just.ro/Public/DetaliiDocument/284399)",
-      "euLawNote": "Proiectul nu creează monopoluri, calificări obligatorii sau condiții noi de acces la o profesie reglementată; pe textul analizat, testul special din Directiva (UE) 2018/958 nu este incident. Aplicarea mai eficientă a interdicțiilor existente poate proteja concurența loială în educație. În privința Directivei (UE) 2015/1535, simpla referire la internet în motivare nu dovedește obligația notificării TRIS: modificarea este procedurală și se aplică inclusiv faptelor offline. Totuși, definiția reglementării tehnice include dispozițiile administrative aferente, astfel încât legătura cu mecanismul existent de blocare justifică verificarea încadrării; documentele furnizate nu demonstrează o încălcare a obligației de notificare. Nu sunt introduse reguli specifice serviciilor AI. [Directiva 2018/958, art. 1–2](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng); [Directiva 2015/1535, art. 1 și 5](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535)",
+      "blindSpotsCaught": "Dispare cerința unei solicitări motivate a universității, nu obligația autorității de a stabili fapta și de a justifica sancțiunea. De asemenea, simpla sesizare nu permite blocarea imediată a unui site: rămân condițiile succesive din alin. (7)–(10). Textul propus nu conține derogări, abrogări sau dispoziții tranzitorii ascunse.",
+      "constitutionalityNote": "Pe baza textelor furnizate, nu rezultă o încălcare evidentă a exigențelor de legalitate și previzibilitate relevante potrivit art. 1 alin. (5) și art. 23 alin. (12) din Constituție. Lărgirea posibilității de sesizare urmărește un interes public legitim și nu suprimă accesul la justiție ori dreptul la apărare, protejate de art. 21 și 24. Mențiunea adoptării potrivit art. 76 alin. (2) nu indică singură un viciu: o intervenție strict contravențională nu intră automat în domeniul organic al organizării generale a învățământului. Evaluarea este documentară; verificarea online a surselor externe nu a fost disponibilă.",
+      "euLawNote": "Directiva (UE) 2018/958 nu apare aplicabilă: proiectul nu introduce și nu modifică restricții privind accesul la o profesie reglementată sau exercitarea acesteia. Pentru Directiva (UE) 2015/1535, intervenția exclusiv asupra sesizării poliției nu prezintă, în sine, caracteristicile unei noi reglementări tehnice privind serviciile societății informaționale; aplicarea inclusiv online nu determină automat notificarea TRIS. Nu sunt create exclusivități sau avantaje concurențiale selective. Eventualele probleme europene ale mecanismului existent de blocare trebuie analizate separat și nu pot fi atribuite automat acestei modificări.",
       "senatForm": {
         "articleRef": "Articol unic – art. 259 alin. (6)",
-        "proposalContent": "(6) Constatarea contravențiilor și aplicarea amenzilor contravenționale prevăzute la alin. (5) se fac, din oficiu sau la sesizarea oricărei persoane fizice ori juridice, de drept public sau privat, de către ofițerii sau agenții de poliție din cadrul Ministerului Afacerilor Interne, competenți potrivit legii.",
-        "argumentation": "Înlocuirea termenului «solicitare» cu «sesizare» precizează că persoana semnalează fapte, fără a putea impune sancționarea. Se păstrează intervenția din oficiu și accesul tuturor persoanelor la sesizare. Constatarea și individualizarea sancțiunii rămân în sarcina organului competent, potrivit legii.",
-        "otherComments": "Propunerea se adresează Comisiei pentru învățământ a Camerei Deputaților. Termenul indicat, 13.10.2026, este depășit; transmiterea observațiilor nu garantează preluarea lor ca amendament de către un deputat."
-      }
+        "proposalContent": "(6) Constatarea contravențiilor și aplicarea amenzilor prevăzute la alin. (5) se fac de către ofițerii sau agenții de poliție din cadrul Ministerului Afacerilor Interne, care au competențe în domeniu, din oficiu sau la sesizarea oricărei persoane fizice ori juridice. Sesizarea nu constituie, prin ea însăși, dovada săvârșirii contravenției.",
+        "argumentation": "Termenul «sesizare» descrie mai precis declanșarea verificărilor decât «solicitare». Precizarea finală clarifică distincția dintre sesizare și probarea faptei, fără a restrânge intervenția din oficiu. Soluția păstrează competența poliției și acoperă toate contravențiile indicate la alin. (5).",
+        "otherComments": "Susțin modificarea. Recomand completarea motivării cu efectul asupra activităților educaționale neautorizate de la alin. (4). Termenul indicat pentru amendamente, 13.10.2026, este depășit; transmiterea observației către comisie nu garantează preluarea ei ca amendament."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T21:23:50.501Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:54:00.982Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

@@ -1,116 +1,173 @@
 {
   "billId": "PL-x 405/2026",
   "slug": "plx-405-2026",
-  "updatedAt": "2026-10-29T01:27:27.504Z",
+  "version": "senat",
+  "updatedAt": "2026-11-24T14:57:35.812Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 759,
+    "ordinanceChars": 5491,
+    "memoChars": 14409,
+    "memoSupplied": 14409,
+    "marker": "SF-8D47EC46"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-405-2026.json",
+    "form": "senat",
+    "textHash": "8d47ec46da09bf8d",
+    "fetchedAt": "2026-11-19T10:17:37.753Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 3.3,
     "riskLevel": "green",
-    "plainTitle": "SPP poate cumpăra mașini noi în 2026, deși restul instituțiilor statului nu au voie",
-    "summaryTlDr": "E o excepție tehnică și temporară. SPP poate cumpăra autoturisme până la 31.12.2026, din bugetul deja aprobat, iar textul nu creează taxe, sancțiuni sau monopoluri. Problema reală e alta: Parlamentul aprobă un cec în alb, fără număr de mașini, plafon de valoare sau raportare, cu o urgență argumentată slab.",
-    "initiatorClaim": "Guvernul, la inițiativa SPP, spune că parcul auto al Serviciului este uzat și deficitar, cu mașini Euro 4 sau mai vechi. Mai spune că războiul din Ucraina și conflictul din Orientul Mijlociu cer înlocuirea urgentă a mașinilor, ca demnitarii să fie protejați.",
-    "realityCheck": "Articolul unic suspendă doar pentru SPP, până la 31.12.2026, interdicția generală de cumpărare a autoturismelor din OUG 34/2023 art. III alin. (1) lit. a). Interdicția fusese prelungită pentru 2026 de Legea 141/2025 art. XXVIII. Limita e bugetul aprobat prin Legea 43/2026. Textul nu spune câte mașini, de ce categorie, cât pot costa sau ce normă de poluare trebuie să respecte. Nota de fundamentare scrie la impactul financiar „nu se referă la acest subiect”. Derogarea acoperă doar cumpărarea, nu leasingul sau închirierea, și nu schimbă regulile de achiziții publice. Cetățenii și IMM-urile nu sunt afectați direct.",
+    "plainTitle": "SPP primește voie să cumpere mașini noi în 2026, deși instituțiile publice nu au voie",
+    "summaryTlDr": "Este o derogare punctuală, temporară și finanțată din bugetul deja aprobat, cu impact zero asupra cetățenilor și firmelor. Problema reală este că legea nu plafonează nici suma, nici numărul mașinilor: cele 8,67 milioane lei apar doar în expunerea de motive, nu în text.",
+    "initiatorClaim": "Guvernul spune că parcul auto al SPP este învechit (unele mașini au norma Euro 4 sau mai veche), că este insuficient și că riscurile de securitate generate de războiul din Ucraina și de conflictul din Orientul Mijlociu cer înlocuirea urgentă a mașinilor folosite la protecția demnitarilor.",
+    "realityCheck": "Articolul unic suspendă pentru SPP, până la 31.12.2026, interdicția generală de achiziție de autoturisme prevăzută de art. III alin. (1) lit. a) din OUG 34/2023, prelungită prin art. XXVIII din Legea 141/2025. Singura limită din text este „în limita fondurilor bugetare aprobate prin Legea nr. 43/2026”, adică întregul buget al SPP, nu o sumă dedicată. Derogarea privește doar achiziția, nu și leasingul sau închirierea. Legislația achizițiilor publice rămâne aplicabilă, însă textul nu impune nicio limită de număr, tip sau valoare per vehicul și nicio raportare publică.",
     "affectedGroups": [
       "Toți cetățenii",
       "IMM & Antreprenori",
       "Șoferi & Auto"
     ],
     "senatForm": {
-      "articleRef": "OUG 27/2026, articol unic – alin. (2) nou",
-      "proposalContent": "Articolul unic devine alin. (1); se introduce alin. (2): „(2) Achizițiile prevăzute la alin. (1) se limitează la autoturismele folosite direct în misiunile de protecție și pază. Până la 31.03.2027, SPP prezintă comisiilor pentru apărare ale celor două Camere un raport cu numărul, categoria, valoarea și procedura de atribuire a autoturismelor achiziționate.”",
-      "argumentation": "Ordonanța nu fixează număr, valoare maximă sau categorii de autoturisme, iar fișa financiară (secț. 4) nu cifrează nimic. Derogarea de la interdicția generală din OUG 34/2023 se justifică doar pentru vehiculele operative invocate în preambul. Raportarea către comisiile care controlează SPP asigură transparența banului public fără a afecta informațiile clasificate.",
-      "otherComments": "Preambulul recunoaște că deficitele se perpetuează de la un an la altul, ceea ce slăbește caracterul „extraordinar” cerut de art. 115 alin. (4). Senatul a adoptat tacit, deci Camera este singura care dezbate efectiv textul. Cerem ca termenul de 31.12.2026 să nu fie prelungit fără fundamentare cifrată."
+      "articleRef": "Articolul unic din OUG nr. 27/2026",
+      "proposalContent": "Se completează articolul unic cu teza: „Valoarea totală a achizițiilor nu poate depăși 8.670 mii lei, cu respectarea Legii nr. 37/2018. Până la 31 martie 2027, SPP publică pe site-ul propriu numărul, categoria și valoarea totală a autoturismelor achiziționate, cu excepția informațiilor clasificate.”",
+      "argumentation": "Textul nu limitează numărul sau valoarea achizițiilor. Suma de 8.670 mii lei apare doar în expunerea de motive, fără forță juridică. Plafonul și raportarea agregată asigură previzibilitate și control parlamentar fără a afecta securitatea, iar justificarea prin mașinile Euro 4 cere și respectarea obligației privind vehiculele nepoluante.",
+      "otherComments": "Derogarea expiră la 31.12.2026, deci legea de aprobare vine după ce efectele s-au produs aproape integral. Amendamentul contează mai ales ca precedent pentru viitoarele derogări de la interdicția din OUG 34/2023: orice astfel de excepție ar trebui să conțină un plafon valoric în textul normativ."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 47946,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Excepție de la „ordonanța austerității” pentru ca SPP să poată cumpăra mașini în 2026",
-      "verdictShort": "Act normativ cu impact strict administrativ, care nu impune taxe sau obligații cetățenilor ori firmelor, ci acordă Serviciului de Protecție și Pază (SPP) o derogare temporară de la interdicția achizițiilor auto în 2026. Deși încadrarea în bugetul deja aprobat limitează riscul fiscal, proiectul ilustrează practica guvernamentală a austerității selective și nu oferă nicio cifră privind numărul sau costul mașinilor vizate.",
-      "initiatorClaim": "Guvernul susține că SPP are nevoie urgentă de înnoirea parcului auto uzat fizic și moral (inclusiv mașini Euro 4 cu costuri mari de întreținere), pentru a face față riscurilor de securitate generate de războiul de la graniță și din Orientul Mijlociu.",
-      "realityCheck": "În realitate, legea aprobă OUG nr. 27/2026 prin care SPP este exceptat, până la 31 decembrie 2026, de la interdicția generală de achiziție de autoturisme impusă instituțiilor publice prin OUG nr. 34/2023 și prelungită prin Legea nr. 141/2025. Achizițiile se fac în limita bugetului deja alocat SPP pe 2026, fără efort bugetar suplimentar, însă textul normativ oferă o derogare în alb, fără să oblige la casarea mașinilor vechi invocate în preambul și fără să prezinte în Expunerea de motive numărul de vehicule sau suma estimată.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 53552,
+      "sourceEndMarker": "SF-8D47EC46",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Derogare de la austeritate: SPP primește voie să cumpere mașini în 2026",
+      "verdictShort": "O derogare punctuală și temporară (până la finalul lui 2026) de la interdicția generală de achiziție de autoturisme, dar adoptată printr-o OUG cu urgență discutabilă și fără plafon de sumă sau număr de vehicule în textul legii.",
+      "initiatorClaim": "Guvernul și SPP susțin că războiul din Ucraina, conflictul din Orientul Mijlociu și vechimea parcului auto (inclusiv mașini Euro 4 sau mai vechi) impun înlocuirea de urgență a autoturismelor pentru protecția demnitarilor, fără bani suplimentari de la buget.",
+      "realityCheck": "Articolul unic al OUG nr. 27/2026 exceptează SPP până la 31 decembrie 2026 de la interdicția cumpărării de autoturisme instituită prin OUG nr. 34/2023 și prelungită pe 2026 prin Legea nr. 141/2025. Deși cheltuiala rămâne în bugetul deja aprobat al SPP pe 2026 și nu derogă de la legislația achizițiilor publice, estimarea de 8,67 milioane lei apare doar în expunerea de motive, nu ca plafon obligatoriu în lege, iar proiectul a trecut tacit de Senat fără dezbatere.",
       "affectedGroups": [
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articolul unic din OUG nr. 27/2026: Instituie o derogare temporară (16 aprilie – 31 decembrie 2026) de la art. III alin. (1) lit. a) din OUG nr. 34/2023 și art. XXVIII din Legea nr. 141/2025, permițând SPP să achiziționeze autoturisme.",
-        "Încadrare bugetară fără cheltuieli suplimentare: Achizițiile se realizează exclusiv în limita fondurilor deja aprobate pentru SPP prin Legea bugetului de stat pe anul 2026 nr. 43/2026.",
-        "Lipsă de transparență în nota de fundamentare: Toate rubricile privind impactul financiar și calculele detaliate (Secțiunea a 4-a din Expunerea de motive) sunt completate cu formula „Prezentul act nu se referă la acest subiect”, fără a indica numărul de autoturisme sau bugetul disponibil pentru această achiziție."
+        "Articolul unic din OUG nr. 27/2026 acordă SPP o derogare temporară (16 aprilie – 31 decembrie 2026) de la art. III alin. (1) lit. a) din OUG nr. 34/2023 și art. XXVIII din Legea nr. 141/2025 pentru a cumpăra autoturisme (definite la art. 3 pct. 2 din OG nr. 27/2011) din bugetul propriu aprobat pe 2026 (Legea nr. 43/2026).",
+        "Textul ordonanței nu fixează un număr maxim de autoturisme și nici un plafon valoric expres: suma estimată de 8.670 mii lei (8,67 milioane lei) este menționată exclusiv la Secțiunea 4.8 din Expunerea de motive, lipsită de forță juridică obligatorie, în timp ce tabelele de impact bugetar (Secțiunile 4.1–4.7) sunt necompletate.",
+        "Proiectul de aprobare a trecut prin adoptare tacită la Senat (art. 115 alin. 5 teza a III-a din Constituție), eliminând un filtru parlamentar asupra oportunității și dimensionării achiziției."
       ],
-      "blindSpotsCaught": "Contradicție între preambul și logica urgenței constituționale: Guvernul justifică emiterea unei Ordonanțe de Urgență (care cere o situație extraordinară, imprevizibilă) recunoscând chiar în preambul că uzura flotei auto și deficitele de dotare „se perpetuează de la un an la altul”. Mai mult, faptul că banii erau deja prevăzuți în Legea bugetului de stat pe 2026 (Legea nr. 43/2026) arată că intenția de achiziție era cunoscută la momentul adoptării bugetului în Parlament, dar derogarea a fost dată ulterior prin OUG și trecută tacit prin Senat.",
-      "constitutionalityNote": "Sub aspectul art. 115 alin. (4) din Constituție, motivarea situației extraordinare este discutabilă, întrucât uzura fizică și morală a parcului auto (vehicule Euro 4) reprezintă o problemă logistică cronică și previzibilă, nu un eveniment subit. Sub aspectul art. 1 alin. (5), norma este clară și previzibilă, având aplicabilitate strictă și temporară până la 31 decembrie 2026.",
-      "euLawNote": "Proiectul nu ridică probleme de compatibilitate cu dreptul UE: nu reglementează profesii (Directiva 2018/958 nu este aplicabilă), nu instituie reglementări tehnice sau servicii digitale care să necesite notificare TRIS (Directiva 2015/1535) și nu derogă de la pragurile sau procedurile europene de achiziții publice.",
+      "blindSpotsCaught": "Trei detalii subtile ies în evidență: (1) deși preambulul invocă amenințări grave la securitatea națională și conflicte externe, la Secțiunea 6.5 din Expunerea de motive nu este menționat un aviz CSAT, ci doar avizul Consiliului Legislativ nr. 359/2026; (2) Secțiunea 2.3 a Expunerii de motive omite trimiterea la art. XXVIII din Legea nr. 141/2025, prezentă însă corect în textul OUG; (3) adoptarea tacită în Senat face din Camera Deputaților singura cameră care mai poate verifica realitatea necesarului și impune un plafon legal.",
+      "constitutionalityNote": "Principala vulnerabilitate vizează art. 115 alin. (4) din Constituție (situația extraordinară): uzura cronică a parcului auto ('deficitele perpetuându-se de la un an la altul') și interdicția bugetară cunoscută încă din 2025 (Legea nr. 141/2025) nu constituie o împrejurare neprevăzută care să nu fi putut fi reglementată în Legea bugetului de stat nr. 43/2026 sau prin lege ordinară în procedură de urgență. Sub aspectul art. 1 alin. (5) (calitatea și previzibilitatea legii), norma este clară ca mecanism și limitată în timp, dar lipsa plafonului valoric și cantitativ în dispozitiv diminuează rigoarea controlului parlamentar asupra fondurilor publice.",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează profesii) și nici a Directivei (UE) 2015/1535 (TRIS – nu instituie reglementări tehnice sau servicii digitale). Nu sunt identificate incompatibilități cu piața unică, întrucât OUG nu derogă de la directivele europene privind achizițiile publice (Directiva 2014/24/UE sau 2009/81/CE în domeniul apărării/securității). La executarea achiziției vor trebui respectate însă și obligațiile privind vehiculele nepoluante (Directiva (UE) 2019/1161), în măsura în care autoturismele nu se încadrează în excepțiile stricte de securitate.",
       "senatForm": {
-        "articleRef": "Articol unic (Articol unic din OUG nr. 27/2026)",
-        "proposalContent": "La articolul unic din OUG nr. 27/2026, după cuvintele „misiunilor specifice,” se introduce sintagma: „exclusiv pentru activități operative de protecție și pază, cu obligația casării sau scoaterii din funcțiune a unui număr echivalent de autovehicule cu normă de poluare Euro 4 sau inferioară din dotarea proprie,”.",
-        "argumentation": "Preambulul OUG invocă uzura fizică și existența în flotă a unor vehicule Euro 4 sau inferioare cu costuri mari de operare. Textul normativ nu prevede însă nici obligația casării vehiculelor vechi (care ar genera economia invocată), nici limitarea achizițiilor la autovehiculele strict operative, lăsând o derogare în alb de la OUG nr. 34/2023.",
-        "otherComments": "În Expunerea de motive, toate secțiunile privind impactul financiar și calculele de fundamentare (pct. 4.1-4.6) sunt completate cu „Prezentul act nu se referă la acest subiect”. Solicităm comisiilor raportoare să ceară SPP prezentarea numărului estimat de autoturisme și a plafonului valoric alocat din Legea bugetului de stat nr. 43/2026."
-      }
+        "articleRef": "Articol unic (OUG nr. 27/2026)",
+        "proposalContent": "Completarea articolului unic al OUG nr. 27/2026 prin introducerea expresă în textul legii a plafonului maxim de 8.670 mii lei menționat în expunerea de motive, a numărului maxim de autoturisme și a obligației de a respecta normele de achiziții publice și de eficiență energetică, cu raportare către comisiile parlamentare de apărare.",
+        "argumentation": "Suma estimată de 8,67 mil. lei apare doar în expunerea de motive, fără forță juridică. Fără un plafon valoric și cantitativ în textul legii, derogarea permite cheltuirea oricăror sume din bugetul SPP pe 2026. Cum proiectul a trecut tacit de Senat, Camera Deputaților trebuie să impună control parlamentar real și transparență.",
+        "otherComments": "Solicităm comisiilor raportoare să ceară SPP situația numerică a flotei actuale, numărul de vehicule Euro 4 propuse spre înlocuire și confirmarea că achiziția respectă regulile europene privind vehiculele nepoluante (Directiva 2019/1161) și legislația achizițiilor publice, fără exceptări tacite."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 133272,
+      "durationMs": 39425,
+      "sourceEndMarker": "SF-8D47EC46",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "SPP poate cumpăra mașini noi în 2026, deși restul instituțiilor statului nu au voie",
-      "verdictShort": "E o excepție tehnică și temporară. SPP poate cumpăra autoturisme până la 31.12.2026, din bugetul deja aprobat, iar textul nu creează taxe, sancțiuni sau monopoluri. Problema reală e alta: Parlamentul aprobă un cec în alb, fără număr de mașini, plafon de valoare sau raportare, cu o urgență argumentată slab.",
-      "initiatorClaim": "Guvernul, la inițiativa SPP, spune că parcul auto al Serviciului este uzat și deficitar, cu mașini Euro 4 sau mai vechi. Mai spune că războiul din Ucraina și conflictul din Orientul Mijlociu cer înlocuirea urgentă a mașinilor, ca demnitarii să fie protejați.",
-      "realityCheck": "Articolul unic suspendă doar pentru SPP, până la 31.12.2026, interdicția generală de cumpărare a autoturismelor din OUG 34/2023 art. III alin. (1) lit. a). Interdicția fusese prelungită pentru 2026 de Legea 141/2025 art. XXVIII. Limita e bugetul aprobat prin Legea 43/2026. Textul nu spune câte mașini, de ce categorie, cât pot costa sau ce normă de poluare trebuie să respecte. Nota de fundamentare scrie la impactul financiar „nu se referă la acest subiect”. Derogarea acoperă doar cumpărarea, nu leasingul sau închirierea, și nu schimbă regulile de achiziții publice. Cetățenii și IMM-urile nu sunt afectați direct.",
+      "plainTitle": "SPP primește voie să cumpere mașini noi în 2026, deși instituțiile publice nu au voie",
+      "verdictShort": "Este o derogare punctuală, temporară și finanțată din bugetul deja aprobat, cu impact zero asupra cetățenilor și firmelor. Problema reală este că legea nu plafonează nici suma, nici numărul mașinilor: cele 8,67 milioane lei apar doar în expunerea de motive, nu în text.",
+      "initiatorClaim": "Guvernul spune că parcul auto al SPP este învechit (unele mașini au norma Euro 4 sau mai veche), că este insuficient și că riscurile de securitate generate de războiul din Ucraina și de conflictul din Orientul Mijlociu cer înlocuirea urgentă a mașinilor folosite la protecția demnitarilor.",
+      "realityCheck": "Articolul unic suspendă pentru SPP, până la 31.12.2026, interdicția generală de achiziție de autoturisme prevăzută de art. III alin. (1) lit. a) din OUG 34/2023, prelungită prin art. XXVIII din Legea 141/2025. Singura limită din text este „în limita fondurilor bugetare aprobate prin Legea nr. 43/2026”, adică întregul buget al SPP, nu o sumă dedicată. Derogarea privește doar achiziția, nu și leasingul sau închirierea. Legislația achizițiilor publice rămâne aplicabilă, însă textul nu impune nicio limită de număr, tip sau valoare per vehicul și nicio raportare publică.",
       "affectedGroups": [
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articol unic OUG 27/2026: derogare nominală pentru SPP de la interdicția de achiziție a autoturismelor. Se aplică de la publicarea în MO nr. 304/16.04.2026 până la 31.12.2026, apoi interdicția revine automat.",
-        "Plafonul sunt „fondurile bugetare aprobate prin Legea 43/2026”. Orice rectificare bugetară modifică chiar această lege, așa că promisiunea „fără cheltuieli suplimentare” ține doar până la următoarea rectificare.",
-        "Nu există număr maxim de vehicule, valoare-limită, distincție între mașini operative și administrative sau obligație de raportare. Definiția din OG 27/2011 art. 3 pct. 2 cuprinde orice autoturism, deci și mașini de serviciu pentru conducere.",
-        "Contradicție în nota de fundamentare: preambulul justifică măsura prin costuri de operare și emisii Euro 4, dar secțiunile 3.6 (mediu) și 4 (impact financiar) sunt bifate „nu se referă la acest subiect”. Textul nu impune niciun standard de emisii.",
-        "Senatul a adoptat proiectul tacit, prin depășirea termenului (art. 115 alin. 5 teza a III-a), deci textul nu a fost dezbătut acolo. Camera Deputaților este singura cameră care îl analizează efectiv.",
-        "Proiectul e încă la comisii la sfârșitul lui octombrie 2026, iar efectele expiră la 31.12.2026. Votul Camerei va confirma în principal efecte deja produse. O respingere ar opri derogarea doar pentru viitor, iar efectele produse s-ar reglementa conform art. 115 alin. (8)."
+        "Articolul unic din OUG 27/2026 derogă exclusiv de la interdicția de cumpărare de autoturisme (art. III alin. (1) lit. a) OUG 34/2023 și art. XXVIII Legea 141/2025). Leasingul și închirierea rămân interzise, iar regulile de achiziție publică nu sunt înlăturate.",
+        "Estimarea de 8.670 mii lei apare doar la pct. 4.8 din expunerea de motive. Textul normativ trimite generic la „fondurile bugetare aprobate” pentru SPP, deci nu există un plafon juridic obligatoriu specific acestei derogări.",
+        "Măsura este limitată în timp (de la intrarea în vigoare, 16.04.2026, până la 31.12.2026) și nu cere fonduri suplimentare, dar nu limitează numărul de vehicule, categoria lor sau valoarea unitară.",
+        "Expunerea de motive bifează „nu se referă la acest subiect” la impactul asupra achizițiilor publice (pct. 5.2) și asupra mediului (pct. 3.6), deși invocă explicit înlocuirea mașinilor Euro 4 din motive de emisii și eficiență energetică.",
+        "Senatul a adoptat proiectul tacit (art. 115 alin. (5) teza a III-a din Constituție), fără dezbatere de fond. Camera decide, dar derogarea expiră peste circa o lună, așa că efectele sunt deja aproape consumate."
       ],
-      "blindSpotsCaught": "(1) Plafonul e legat de Legea 43/2026, care se modifică la fiecare rectificare, deci limita e mobilă. (2) Textul nu precizează ce înseamnă „poate achiziționa” până la 31.12.2026: contract semnat, livrare sau plată. Preambulul invocă tocmai termenele lungi de livrare, așa că un contract cu livrare în 2027 ar fi discutabil, iar principiul anualității bugetului împinge plățile în 2026. (3) Leasingul și închirierea rămân interzise, deci SPP trebuie să plătească integral din bugetul pe 2026. (4) Preambulul invocă emisiile Euro 4, dar textul nu cere nicio performanță de mediu, deși Directiva 2009/33/CE poate fi aplicabilă mașinilor neoperative.",
-      "constitutionalityNote": "Pe fond, măsura nu atinge drepturi fundamentale, legi constituționale sau regimul instituțiilor fundamentale (art. 115 alin. 6). Este o derogare bugetar-administrativă. Punctul slab este art. 115 alin. (4). Preambulul invocă un context de securitate general, cu un război început în 2022, și recunoaște că deficitele „se perpetuează de la un an la altul”. Asta descrie o problemă cronică și previzibilă, nu o situație extraordinară obiectivă, iar jurisprudența CCR cere ca urgența să nu fie imputabilă Guvernului. Argumentul legat de durata achizițiilor într-un singur an bugetar face totuși urgența plauzibilă. Art. 138 alin. (5) e respectat formal, pentru că fondurile sunt deja aprobate. Previzibilitatea (art. 1 alin. 5) e acceptabilă: beneficiarul, obiectul și durata sunt clare. Lipsesc limitele cantitative și momentul exact până la care trebuie făcută achiziția.",
-      "euLawNote": "Directiva 2018/958 nu se aplică, pentru că nu se reglementează accesul la profesii. Nici TRIS 2015/1535 nu se aplică, pentru că textul nu conține reguli tehnice sau reguli pentru servicii ale societății informaționale. Achizițiile rămân supuse Directivei 2014/24/UE (Legea 98/2016). Pentru vehicule blindate sau special adaptate se aplică Directiva 2009/81/CE și, eventual, art. 346 TFUE. OUG nu exceptează SPP de la licitație, așa că impactul asupra concurenței și pieței unice e neutru. Pentru autoturismele obișnuite peste praguri, Directiva 2009/33/CE (modificată de 2019/1161) poate impune cote de vehicule curate. Statul poate excepta vehiculele forțelor de ordine, dar nu automat și mașinile administrative.",
+      "blindSpotsCaught": "Ordonanța folosește drept argument de urgență poluarea și consumul mașinilor Euro 4, dar nu obligă SPP să cumpere vehicule nepoluante. Obligația există totuși independent, prin Legea nr. 37/2018, care transpune Directiva 2009/33/CE modificată prin Directiva (UE) 2019/1161 privind vehiculele curate. Expunerea de motive nu o menționează. Totodată, absența unui plafon valoric în text face ca suma de 8,67 milioane lei să fie doar indicativă. Achizițiile de vehicule speciale (blindate) pot intra sub regimul achizițiilor în domeniul apărării și securității (Directiva 2009/81/CE), cu transparență redusă, ceea ce sporește nevoia unei raportări agregate.",
+      "constitutionalityNote": "Nu se identifică vicii majore. OUG nu afectează drepturi fundamentale, instituții fundamentale sau regimul proprietății, deci limitele art. 115 alin. (6) sunt respectate. Situația extraordinară (art. 115 alin. (4)) este motivată mai ales prin contextul de securitate, dar uzura unui parc auto este o problemă cronică, recunoscută chiar în preambul („deficitele se perpetuează de la un an la altul”). Motivarea urgenței este deci discutabilă, deși CCR acceptă de regulă astfel de justificări în domeniul securității naționale. Textul este clar și previzibil în privința beneficiarului, a perioadei și a sursei de finanțare (art. 1 alin. (5)). Lipsa unui plafon explicit nu îl face neconstituțional. Natura ordinară a legii este corectă.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă, deoarece măsura nu reglementează accesul la profesii. Directiva (UE) 2015/1535 (TRIS) nu este aplicabilă: nu există reglementări tehnice sau servicii ale societății informaționale. Pe piața unică, achizițiile rămân supuse Legii 98/2016 sau Legii 99/2016 ori regimului din Directiva 2009/81/CE pentru apărare și securitate, după caz. Legea 37/2018 (Directiva vehiculelor curate) impune cote minime de vehicule nepoluante. Riscul de denaturare a concurenței este redus, cu condiția ca procedurile să nu fie atribuite direct invocând excepții de securitate fără o justificare reală.",
       "senatForm": {
-        "articleRef": "OUG 27/2026, articol unic – alin. (2) nou",
-        "proposalContent": "Articolul unic devine alin. (1); se introduce alin. (2): „(2) Achizițiile prevăzute la alin. (1) se limitează la autoturismele folosite direct în misiunile de protecție și pază. Până la 31.03.2027, SPP prezintă comisiilor pentru apărare ale celor două Camere un raport cu numărul, categoria, valoarea și procedura de atribuire a autoturismelor achiziționate.”",
-        "argumentation": "Ordonanța nu fixează număr, valoare maximă sau categorii de autoturisme, iar fișa financiară (secț. 4) nu cifrează nimic. Derogarea de la interdicția generală din OUG 34/2023 se justifică doar pentru vehiculele operative invocate în preambul. Raportarea către comisiile care controlează SPP asigură transparența banului public fără a afecta informațiile clasificate.",
-        "otherComments": "Preambulul recunoaște că deficitele se perpetuează de la un an la altul, ceea ce slăbește caracterul „extraordinar” cerut de art. 115 alin. (4). Senatul a adoptat tacit, deci Camera este singura care dezbate efectiv textul. Cerem ca termenul de 31.12.2026 să nu fie prelungit fără fundamentare cifrată."
-      }
+        "articleRef": "Articolul unic din OUG nr. 27/2026",
+        "proposalContent": "Se completează articolul unic cu teza: „Valoarea totală a achizițiilor nu poate depăși 8.670 mii lei, cu respectarea Legii nr. 37/2018. Până la 31 martie 2027, SPP publică pe site-ul propriu numărul, categoria și valoarea totală a autoturismelor achiziționate, cu excepția informațiilor clasificate.”",
+        "argumentation": "Textul nu limitează numărul sau valoarea achizițiilor. Suma de 8.670 mii lei apare doar în expunerea de motive, fără forță juridică. Plafonul și raportarea agregată asigură previzibilitate și control parlamentar fără a afecta securitatea, iar justificarea prin mașinile Euro 4 cere și respectarea obligației privind vehiculele nepoluante.",
+        "otherComments": "Derogarea expiră la 31.12.2026, deci legea de aprobare vine după ce efectele s-au produs aproape integral. Amendamentul contează mai ales ca precedent pentru viitoarele derogări de la interdicția din OUG 34/2023: orice astfel de excepție ar trebui să conțină un plafon valoric în textul normativ."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 81051,
+      "durationMs": 62460,
+      "sourceEndMarker": "SF-8D47EC46",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "SPP poate cumpăra mașini în 2026 din bugetul aprobat",
-      "verdictShort": "Măsură limitată și potențial utilă pentru înlocuirea vehiculelor uzate, fără taxe sau obligații noi pentru populație. Principalele rezerve privesc fundamentarea urgenței și lipsa cuantificării achizițiilor în documentele furnizate.",
-      "initiatorClaim": "Guvernul susține că riscurile de securitate și uzura parcului auto impun modernizarea urgentă a mobilității SPP. Achizițiile ar susține protecția demnitarilor și siguranța personalului, folosind fonduri deja aprobate.",
-      "realityCheck": "Articolul unic al legii aprobă OUG nr. 27/2026, care permite exclusiv SPP să cumpere autoturisme până la 31 decembrie 2026, prin derogare de la interdicția fiscal-bugetară aplicabilă. Nu suplimentează singur bugetul și nu instituie o derogare de la legislația achizițiilor publice. Încadrarea în bugetul aprobat nu înseamnă cost zero: sunt permise cheltuieli efective, fără ca ordonanța să precizeze numărul vehiculelor sau valoarea achizițiilor. [OUG nr. 27/2026](https://legislatie.just.ro/Public/DetaliiDocumentAfis/309609)",
+      "plainTitle": "SPP poate cumpăra mașini în 2026, din bugetul aprobat",
+      "verdictShort": "Derogarea este limitată și are o utilitate operațională plauzibilă, fără taxe, sancțiuni sau obligații noi pentru populație. Principalele rezerve privesc justificarea urgenței și transparența cheltuielilor.",
+      "initiatorClaim": "Inițiatorii invocă riscurile de securitate și uzura parcului auto pentru a permite înlocuirea urgentă a autoturismelor SPP. Achizițiile ar urma să fie finanțate din bugetul deja aprobat pentru 2026.",
+      "realityCheck": "Articolul unic al legii aprobă fără modificări OUG nr. 27/2026, care permite SPP să cumpere autoturisme până la 31 decembrie 2026, prin derogare de la interdicția fiscal-bugetară indicată. Autorizația privește cumpărarea, fără o permisiune expresă pentru leasing sau închiriere și fără derogări de la procedurile de achiziție aplicabile. Estimarea de 8,67 milioane lei apare numai în expunerea de motive: articolul nu fixează acest plafon, numărul mașinilor sau criterii de înlocuire, dar impune respectarea fondurilor bugetare aprobate.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Șoferi & Auto",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articolul unic al OUG stabilește beneficiarul, obiectul, termenul și limita bugetară; nu introduce taxe, sancțiuni sau formalități pentru cetățeni și IMM-uri.",
-        "Derogarea permite achiziționarea autoturismelor; nu autorizează expres leasingul sau închirierea, deși interdicția de bază le cuprinde separat. [Art. III din OUG nr. 34/2023](https://legislatie.just.ro/Public/DetaliiDocumentAfis/270188)",
-        "Invocarea vehiculelor Euro 4 în preambul nu creează în articolul unic obligația cumpărării unor vehicule cu o anumită normă de poluare și nici obligația casării celor înlocuite.",
-        "Expunerea furnizată nu cuantifică achizițiile, economiile de întreținere sau costurile viitoare. Secțiunea financiară este trunchiată, deci nu se poate afirma că întregul dosar legislativ este lipsit de documente financiare."
+        "Articolul unic al OUG instituie o excepție pentru SPP, aplicabilă de la intrarea în vigoare până la 31 decembrie 2026; nu elimină interdicția generală pentru celelalte instituții.",
+        "Derogarea vizează atât art. III alin. (1) lit. a) din OUG nr. 34/2023, cât și art. XXVIII din Legea nr. 141/2025, care, potrivit documentelor furnizate, menține interdicția în 2026.",
+        "Cele 8.670 mii lei reprezintă o estimare din expunerea de motive, nu o limită numerică introdusă în norma obligatorie. Încadrarea în buget nu înseamnă absența unei cheltuieli publice sau a costurilor ulterioare de exploatare.",
+        "Nu sunt introduse taxe, sancțiuni, avize sau raportări pentru cetățeni ori IMM-uri și nu este desemnat vreun furnizor privilegiat.",
+        "Deși preambulul invocă emisii și eficiență energetică, articolul nu impune o normă de poluare, casarea vehiculelor vechi sau o reducere măsurabilă a costurilor.",
+        "În textul furnizat nu există alte articole finale, abrogări ori modificări ascunse. Formula matematică și numele deformate din zona semnăturilor sunt indicii de erori de extragere, fără conținut normativ identificabil."
       ],
-      "blindSpotsCaught": "OUG produce efecte înaintea aprobării parlamentare; legea de aprobare nu deschide pentru prima dată posibilitatea achizițiilor. Adoptarea tacită la Senat este mecanismul prevăzut de art. 115 alin. (5), nu dovada unui vot favorabil pe fond. Formula matematică și numele deformate din extras sunt artefacte de extragere, absente din textul oficial verificat, și nu trebuie tratate ca norme. [Fișa parlamentară](https://www.cdep.ro/ords/pls/proiecte/upl_pck.proiect?cam=2&idp=23275), [textul oficial al OUG](https://legislatie.just.ro/Public/DetaliiDocumentAfis/309609)",
-      "constitutionalityNote": "Din perspectiva art. 1 alin. (5), derogarea este suficient de determinată; absența unei cantități fixe nu produce automat neconstituționalitate. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident. Vulnerabilitatea principală este art. 115 alin. (4): uzura și deficitele multianuale explică necesitatea investiției, dar trebuie demonstrat concret de ce reglementarea nu putea fi amânată; contextul de securitate poate susține urgența, fără să o dovedească automat. CCR distinge utilitatea măsurii de existența situației extraordinare, iar aprobarea parlamentară nu vindecă un eventual viciu originar. Menținerea în bugetul aprobat nu indică, prin ea însăși, încălcarea art. 138 alin. (5). [Constituția](https://legislatie.just.ro/Public/DetaliiDocument/47355), [Decizia CCR nr. 255/2005](https://legislatie.just.ro/Public/DetaliiDocumentAfis/62401)",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: textul nu restrânge accesul la profesii reglementate sau exercitarea lor. Directiva (UE) 2015/1535 nu impune notificare TRIS pentru această simplă autorizare bugetară: nu sunt stabilite reglementări tehnice pentru produse ori norme privind servicii digitale sau AI. Nu sunt desemnați furnizori și nu apare un monopol comercial; eventuala restrângere a concurenței trebuie evaluată în procedurile concrete de achiziție. Invocarea securității naționale nu acordă automat o exceptare generală de la regulile aplicabile achizițiilor. [Directiva 2018/958, art. 2](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32018L0958), [Directiva 2015/1535, art. 1](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32015L1535)",
+      "blindSpotsCaught": "Adoptarea tacită în Senat, indicată prin trimiterea la art. 115 alin. (5) din Constituție, nu echivalează cu o validare de fond a urgenței. De asemenea, expirarea derogării nu anulează automat contractele legal încheiate anterior; textul nu reglementează expres livrările și plățile ulterioare, care trebuie analizate potrivit regulilor contractuale și bugetare aplicabile.",
+      "constitutionalityNote": "Prin raportare la art. 1 alin. (5), beneficiarul, obiectul, perioada și limita bugetară sunt suficient de identificabile; lipsa unui număr de autoturisme nu produce singură neconstituționalitate. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident, deoarece nu se instituie pedepse. Vulnerabilitatea principală privește art. 115 alin. (4): uzura și deficitele perpetuate anual sunt probleme previzibile, iar invocarea conflictelor trebuie legată concret de imposibilitatea amânării măsurii. Preambulul oferă argumente operaționale, dar documentele nu permit o concluzie definitivă asupra îndeplinirii condiției constituționale; aprobarea parlamentară nu ar înlătura un eventual viciu originar. Fondurile aprobate indică o sursă de finanțare relevantă pentru art. 138 alin. (5), fără a demonstra singure suficiența acesteia.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testul de proporționalitate pentru reglementarea profesiilor și nu este incidentă unei autorizații de cumpărare de autoturisme. Textul nu introduce reglementări tehnice pentru produse ori reguli privind servicii ale societății informaționale, astfel că nu rezultă o obligație de notificare TRIS în temeiul Directivei (UE) 2015/1535. Nu sunt instituite monopoluri sau restricții explicite pentru furnizori. Rămâne obligatorie respectarea regimului de achiziții aplicabil fiecărui contract; invocarea securității naționale în preambul nu acordă automat o excepție de la concurență și transparență.",
       "senatForm": {
-        "articleRef": "Articolul unic din OUG nr. 27/2026",
-        "proposalContent": "Se adaugă un alineat: „Până la 31 martie 2027, Serviciul de Protecție și Pază publică un raport agregat privind numărul autoturismelor achiziționate în baza prezentei ordonanțe de urgență, valoarea totală a achizițiilor și justificarea necesității acestora, cu respectarea regimului informațiilor clasificate.”",
-        "argumentation": "Derogarea poate susține misiunile SPP, dar documentele furnizate nu cuantifică achizițiile și costurile. Raportarea agregată permite verificarea utilizării fondurilor publice, fără divulgarea datelor operative sau impunerea unor obligații cetățenilor și IMM-urilor.",
-        "otherComments": "Propunere pentru comisiile de buget și de apărare ale Camerei Deputaților. Termenul indicat pentru amendamente, 08.06.2026, a trecut; preluarea de către un deputat și admisibilitatea procedurală trebuie verificate. Nu se solicită divulgarea informațiilor clasificate."
-      }
+        "articleRef": "Articolul unic al OUG nr. 27/2026, alin. (2) nou",
+        "proposalContent": "(2) În termen de 90 de zile de la încetarea derogării, Serviciul de Protecție și Pază transmite comisiilor pentru buget și apărare ale celor două Camere un raport privind numărul autoturismelor achiziționate și valoarea totală a achizițiilor. O sinteză cu informațiile neclasificate se publică pe site-ul instituției.",
+        "argumentation": "Raportarea permite verificarea utilizării derogării și a fondurilor publice. Estimarea din expunerea de motive nu este plafon legal, iar textul nu prevede monitorizarea rezultatelor. Publicarea informațiilor neclasificate asigură transparență, cu respectarea protecției informațiilor clasificate.",
+        "otherComments": "Textul existent devine alin. (1). Propunerea poate fi preluată de un deputat ca amendament la legea de aprobare. Analiza privește documentele furnizate; verificarea online a referințelor legislative nu a fost disponibilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T01:27:27.504Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:57:35.812Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

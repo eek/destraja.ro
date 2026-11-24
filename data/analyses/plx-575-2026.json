@@ -1,14 +1,42 @@
 {
   "billId": "Pl-x 575/2026",
   "slug": "plx-575-2026",
-  "updatedAt": "2026-10-28T23:12:02.556Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T14:56:50.479Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 4517,
+    "ordinanceChars": 0,
+    "memoChars": 4423,
+    "memoSupplied": 4423,
+    "marker": "SF-81E84579"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-575-2026.json",
+    "form": "initiator",
+    "textHash": "81e8457993f5cd52",
+    "fetchedAt": "2026-11-19T11:20:06.065Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 3,
+    "articlesShown": 3,
+    "articleCap": 8000,
+    "articlesCut": 2,
+    "chars": 24353,
+    "truncated": false,
+    "included": true,
+    "key": "86b91a480df4b4a7"
+  },
   "consensus": {
     "riskScore": 2.7,
     "riskLevel": "green",
-    "plainTitle": "Fără impozit pe casă, teren și mașină pentru persoanele cu handicap grav și reducere de 80% pentru handicap accentuat",
-    "summaryTlDr": "Măsura socială e benefică și nu impune nicio obligație nouă cetățenilor sau firmelor. Costul îl suportă integral bugetele locale, fără nicio cifră de impact, iar o greșeală de numerotare la art. 456 trebuie corectată în comisie.",
-    "initiatorClaim": "Inițiatorii spun că reducerile actuale, stabilite prin OUG nr. 9/2026, nu acoperă costurile suplimentare generate de dizabilitate. Potrivit Expunerii de motive, acestea sunt de 50% pentru handicap grav și 25% pentru handicap accentuat. Invocând art. 50 din Constituție, inițiatorii cer scutire integrală pentru handicap grav și reducere de 80% pentru handicap accentuat.",
-    "realityCheck": "Legea rescrie alineatele privind facilitățile din art. 456 (clădiri), art. 464 (teren) și art. 469 (mijloace de transport). Persoanele cu handicap grav și reprezentanții lor legali primesc scutire de 100%, iar cele cu handicap accentuat și reprezentanții lor primesc reducere de 80%. Facilitatea se aplică doar locuinței de domiciliu, terenului aferent și unei singure mașini sub 2.000 cmc. Pierderea de venituri revine exclusiv primăriilor, fără estimare și fără compensare de la bugetul de stat. Expunerea vorbește de o „sferă restrânsă” de beneficiari, deși categoria cuprinde sute de mii de persoane. Facilitatea nu se acordă automat: beneficiarul trebuie să depună documentele justificative la organul fiscal local.",
+    "plainTitle": "Scutire totală de impozite locale pentru persoanele cu handicap grav și reducere de 80% pentru cele cu handicap accentuat",
+    "summaryTlDr": "Este o lege socială favorabilă, fără capcane pentru cetățeni. Riscurile sunt două: greșeli de redactare care trebuie corectate în comisie și pierderea de venituri a bugetelor locale, pe care inițiatorii nu au cuantificat-o.",
+    "initiatorClaim": "Inițiatorii spun că reducerile actuale, de 50% pentru handicap grav și 25% pentru handicap accentuat, introduse prin OUG nr. 9/2026, nu acoperă vulnerabilitatea economică a persoanelor cu dizabilități. Ei invocă art. 50 din Constituție ca să ceară scutire integrală, respectiv reducere de 80%.",
+    "realityCheck": "Proiectul înlocuiește procentele din art. 456, 464 și 469 din Codul fiscal. Pentru clădirea de domiciliu, terenul aferent și un singur vehicul sub 2.000 cmc, persoanele cu handicap grav și reprezentanții lor legali trec de la reducere de 50% la scutire integrală, iar cele cu handicap accentuat trec de la 25% la 80%. Costul îl suportă exclusiv bugetele locale, iar expunerea de motive nu dă nicio estimare a sumei și nicio sursă de compensare. Textul are erori de numerotare: două puncte vizează același alineat (2^7) al art. 456.",
     "affectedGroups": [
       "Proprietari & Imobiliare",
       "Șoferi & Auto",
@@ -16,23 +44,24 @@
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 4, 8, 9 (art. 456, 469 Cod fiscal)",
-      "proposalContent": "Pct. 4 să vizeze alin. (2⁸) al art. 456, nu (2⁷), altfel același alineat e modificat de două ori cu texte diferite. La art. 469 alin. (2¹) și (2²), după „2.000 cmc” se introduce: „sau, indiferent de capacitatea cilindrică, autovehiculele electrice ori adaptate pentru transportul persoanei cu handicap”.",
-      "argumentation": "Dubla trimitere la alin. (2⁷) din art. 456 face norma neclară (art. 1 alin. 5 Constituție, Legea 24/2000). Pragul de 2.000 cmc e ambiguu pentru mașinile electrice, care n-au capacitate cilindrică, și poate exclude vehicule adaptate pentru scaun rulant cu motor de peste 2.000 cmc, de care au nevoie tocmai familiile cu handicap grav.",
-      "otherComments": "Solicităm ca raportul să cuprindă estimarea pierderii de venituri la bugetele locale (art. 15 din Legea 500/2002) și o soluție de compensare pentru primăriile mici. Verificați și dacă textul actual al alineatelor rescrise include persoanele cu invaliditate gradul I: rescrierea integrală le-ar putea scoate din facilitate."
+      "articleRef": "Art. I pct. 1-7 (art. 456 și 464, numerotare)",
+      "proposalContent": "La Art. I pct. 4, partea dispozitivă se reformulează: „4. Alineatul (2^8) al articolului 456 se modifică și va avea următorul cuprins:”. La pct. 1-3 și 5-7 se corectează numerotarea alineatelor în (2^5), (2^6), (2^7), (2^8), inclusiv în trimiterile interne „alin. (2^5) și (2^6)”.",
+      "argumentation": "Pct. 3 și pct. 4 modifică formal același alin. (2^7) al art. 456, iar aplicate succesiv, pct. 4 ar înlocui regula privind coproprietatea cu soțul. Scrierea „(25)”, „(26)” în loc de (2^5), (2^6) contravine Legii nr. 24/2000 și poate crea incertitudini la aplicare pentru organele fiscale locale (art. 1 alin. (5) Constituție).",
+      "otherComments": "Recomand solicitarea fișei financiare (art. 15 din Legea nr. 500/2002) cu estimarea pierderii de venituri a bugetelor locale. Recomand și clarificarea regimului vehiculelor electrice, care nu au capacitate cilindrică, și al vehiculelor adaptate peste 2.000 cmc, frecvente la persoanele în scaun rulant."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 48734,
-      "riskScore": 2,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 73599,
+      "sourceEndMarker": "SF-81E84579",
+      "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Scutire totală de impozite locale pentru persoanele cu handicap grav și reducere de 80% pentru handicap accentuat",
-      "verdictShort": "O inițiativă socială favorabilă cetățenilor vulnerabili, care mărește facilitățile la impozitele pe locuință, teren și mașină diminuate la începutul anului 2026. Textul conține însă două erori de tehnică legislativă și lasă nota de plată exclusiv pe bugetele primăriilor.",
-      "initiatorClaim": "Inițiatorii urmăresc creșterea protecției fiscale pentru persoanele cu dizabilități și reprezentanții lor legali, considerând insuficiente reducerile de 50% (handicap grav) și 25% (handicap accentuat) introduse prin OUG nr. 9/2026.",
-      "realityCheck": "Legea acordă scutire de 100% la impozitul pe clădirea de domiciliu, terenul aferent și un autoturism sub 2.000 cmc pentru persoanele cu handicap grav, respectiv o reducere de 80% pentru cele cu handicap accentuat. Mecanismul este clar și se aplică din anul următor publicării, însă proiectul are o greșeală de numerotare la Art. I pct. 4 și omite corelarea unui alineat de la impozitul pe teren (art. 464 alin. 2⁷).",
+      "plainTitle": "Scutire totală de impozite locale la handicap grav și reducere de 80% la handicap accentuat",
+      "verdictShort": "Inițiativă socială benignă și favorabilă unei categorii vulnerabile, fără capcane pentru cetățeni sau firme, care necesită însă corectarea unor erori serioase de redactare și clarificarea impactului asupra bugetelor locale.",
+      "initiatorClaim": "Inițiatorii susțin că reducerile actuale introduse prin OUG nr. 9/2026 (50% pentru handicap grav și 25% pentru handicap accentuat) sunt insuficiente raportat la costurile vieții și obligația constituțională de protecție a persoanelor cu dizabilități. Ei propun consolidarea sprijinului prin scutire integrală, respectiv reducere de 80% la principalele impozite locale, aplicabile unitar și previzibil din anul fiscal următor.",
+      "realityCheck": "În realitate, proiectul majorează substanțial facilitățile actuale din Codul fiscal (de la 50% la 100% pentru handicap grav și de la 25% la 80% pentru handicap accentuat) pentru locuința de domiciliu, terenul aferent și un singur vehicul sub 2.000 cmc, inclusiv pentru reprezentanții legali pe durata îngrijirii. Mecanismul de acordare pe baza documentelor justificative rămâne în esență cel în vigoare, dar textul conține o eroare gravă de numerotare la art. 456 și nu oferă primăriilor nicio estimare sau compensare pentru scăderea veniturilor locale.",
       "affectedGroups": [
         "Proprietari & Imobiliare",
         "Șoferi & Auto",
@@ -40,64 +69,68 @@
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I pct. 1, 5 și 8: Instituie scutirea integrală (100%, față de 50% în prezent) de la plata impozitului pe clădirea de domiciliu, terenul aferent și un singur mijloc de transport sub 2.000 cmc pentru persoanele cu handicap grav și reprezentanții lor legali.",
-        "Art. I pct. 2, 6 și 9: Majorează de la 25% la 80% reducerea impozitului pe clădirea de domiciliu, terenul aferent și un mijloc de transport sub 2.000 cmc pentru persoanele cu handicap accentuat și reprezentanții lor legali.",
-        "Art. I pct. 4 și 7: Conțin erori de redactare legislativă – pct. 4 dispune modificarea alin. (2⁷) al art. 456 (deja modificat la pct. 3) în loc de alin. (2⁸), iar la art. 464 este omisă actualizarea alin. (2⁷) privind terenul deținut în coproprietate cu soțul/soția sau cu terți."
+        "Art. I pct. 1-2, 5-6 și 8-9 modifică art. 456, 464 și 469 din Codul fiscal, crescând facilitatea față de legea în vigoare (OUG nr. 9/2026) de la reducere de 50% la scutire integrală (100%) pentru persoanele cu handicap grav și de la 25% la 80% pentru cele cu handicap accentuat, pentru clădirea de domiciliu, terenul aferent și un singur mijloc de transport cu capacitate cilindrică sub 2.000 cmc.",
+        "Art. I pct. 4 conține o eroare materială severă: partea dispozitivă modifică din nou „Alineatul 2⁷ al articolului 456” (deja modificat la pct. 3), deși textul redat vizează alin. (2⁸); adoptată ca atare, norma ar suprascrie regula coproprietății cu soțul/soția.",
+        "Art. II respectă predictibilitatea fiscală prevăzând intrarea în vigoare la 1 ianuarie a anului următor publicării, însă proiectul nu include o fișă financiară și nu indică sursa de compensare pentru diminuarea veniturilor proprii ale bugetelor locale."
       ],
-      "blindSpotsCaught": "Proiectul conține o dublă eroare de tehnică legislativă (Legea nr. 24/2000): la Art. I pct. 4, partea dispozitivă modifică pentru a doua oară alin. (2⁷) al art. 456, deși conținutul redat este cel al alin. (2⁸). Totodată, deși Expunerea de motive invocă înlocuirea unitară a termenului „reduceri” cu „facilități fiscale”, inițiatorii au uitat să modifice art. 464 alin. (2⁷) referitor la coproprietatea asupra terenului aferent domiciliului. În plus, în fișa de prezentare a Camerei apare eroarea materială „2000 m³” în loc de „2.000 cmc”.",
-      "constitutionalityNote": "Măsura valorifică art. 50 din Constituție (protecția specială a persoanelor cu handicap) și respectă principiul predictibilității prin intrarea în vigoare la 1 ianuarie a anului următor (Art. II). Totuși, erorile de trimitere de la Art. I pct. 4 și omisiunea art. 464 alin. (2⁷) trebuie corectate în comisie pentru a nu încălca exigențele de claritate și precizie a legii (art. 1 alin. 5 din Constituție).",
-      "euLawNote": "Proiectul nu ridică probleme de compatibilitate cu dreptul UE: vizează fiscalitatea directă locală aplicabilă exclusiv persoanelor fizice (nu constituie ajutor de stat în sensul art. 107 TFUE), nu restrânge accesul la profesii reglementate (Directiva 2018/958 nu este incidentă) și nu reglementează servicii ale societății informaționale (Directiva TRIS 2015/1535 nu se aplică).",
+      "blindSpotsCaught": "Pe lângă dublarea modificării alin. (2⁷) al art. 456 la Art. I pct. 3 și pct. 4 (în loc de alin. 2⁸ la pct. 4), proiectul omite să modifice alin. (2⁷) al art. 464 (terenuri) în oglindă cu art. 456 alin. (2⁷), riscând o necorelare terminologică în privința terenurilor deținute în coproprietate cu soțul/soția. De asemenea, partea introductivă a Art. I indică greșit Monitorul Oficial nr. 668 (în loc de 688) pentru Legea nr. 227/2015, iar la pct. 5 și 8 folosește formularea improprie „impozitul [...] se scutește integral”.",
+      "constitutionalityNote": "Pe fond, măsura dă expresie art. 50 din Constituție (protecția specială a persoanelor cu handicap). Există însă două vulnerabilități ce trebuie remediate la comisie: (1) lipsa fișei financiare și a indicării sursei de finanțare/compensare pentru bugetele locale, cu risc de neconstituționalitate extrinsecă în raport cu art. 111 alin. (1) teza a II-a și art. 138 alin. (5) din Constituție; (2) încălcarea cerințelor de claritate și tehnică legislativă (art. 1 alin. 5) prin eroarea de numerotare de la Art. I pct. 4 și omisiunea corelării art. 464 alin. (2⁷).",
+      "euLawNote": "Proiectul este compatibil cu dreptul Uniunii Europene. Impozitarea directă a proprietăților și vehiculelor persoanelor fizice intră în competența națională, facilitățile acordate persoanelor fizice vulnerabile nu constituie ajutor de stat (nefiind vizate activități economice), iar actul nu reglementează profesii ori servicii digitale, nefiind incidente Directiva (UE) 2018/958 sau Directiva (UE) 2015/1535 (TRIS).",
       "senatForm": {
-        "articleRef": "Art. I pct. 4 și pct. 6¹ (nou) din proiect",
-        "proposalContent": "La Art. I pct. 4, partea dispozitivă se corectează: „4. Alineatul (2⁸) al articolului 456 se modifică și va avea următorul cuprins:”. După pct. 6 se introduce pct. 6¹, care modifică art. 464 alin. (2⁷) pentru a înlocui termenul „Reducerile” cu „Facilitățile fiscale”, similar art. 456 alin. (2⁷).",
-        "argumentation": "La pct. 4 există o eroare materială: partea dispozitivă indică modificarea alin. (2⁷) al art. 456 (deja modificat la pct. 3), deși redă textul alin. (2⁸). De asemenea, la art. 464 a fost omis alin. (2⁷) privind coproprietatea cu soțul/terții, care trebuie corelat terminologic („facilități fiscale” în loc de „reduceri”), conform Legii nr. 24/2000.",
-        "otherComments": "Se recomandă consultarea structurilor asociative ale autorităților publice locale (AMR, ACoR, UNCJR) conform Legii nr. 273/2006, întrucât impozitele pe clădiri, terenuri și auto sunt venituri proprii ale bugetelor locale, iar extinderea scutirilor/reducerilor diminuează resursele UAT-urilor fără un mecanism de compensare."
-      }
+        "articleRef": "Art. I pct. 4 și pct. 6^1 (art. 456, 464)",
+        "proposalContent": "La Art. I pct. 4, partea dispozitivă se corectează astfel: «4. Alineatul (2^8) al articolului 456 se modifică și va avea următorul cuprins:». După pct. 6 se introduce un nou punct care actualizează art. 464 alin. (2^7) în oglindă cu art. 456 alin. (2^7), pentru ca regula coproprietății cu soțul/soția să acopere expres și scutirea integrală.",
+        "argumentation": "În forma inițiatorului, atât pct. 3 cât și pct. 4 vizează alin. (2^7) al art. 456, ceea ce ar suprascrie regula coproprietății cu soțul/soția în loc să modifice alin. (2^8). De asemenea, omisiunea alin. (2^7) la art. 464 lasă o necorelare terminologică la impozitul pe teren, afectând claritatea legii (art. 1 alin. 5 Constituție).",
+        "otherComments": "Corectați și numărul Monitorului Oficial al Legii 227/2015 la Art. I (688, nu 668) și formulările «impozitul se scutește» (pct. 5 și 8). Solicitați Guvernului fișa financiară și analiza impactului asupra bugetelor locale (art. 111 alin. 1 și art. 138 alin. 5 Constituție), pentru a preîntâmpina o eventuală respingere la CCR."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 168331,
-      "riskScore": 3,
+      "durationMs": 54190,
+      "sourceEndMarker": "SF-81E84579",
+      "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Fără impozit pe casă, teren și mașină pentru persoanele cu handicap grav și reducere de 80% pentru handicap accentuat",
-      "verdictShort": "Măsura socială e benefică și nu impune nicio obligație nouă cetățenilor sau firmelor. Costul îl suportă integral bugetele locale, fără nicio cifră de impact, iar o greșeală de numerotare la art. 456 trebuie corectată în comisie.",
-      "initiatorClaim": "Inițiatorii spun că reducerile actuale, stabilite prin OUG nr. 9/2026, nu acoperă costurile suplimentare generate de dizabilitate. Potrivit Expunerii de motive, acestea sunt de 50% pentru handicap grav și 25% pentru handicap accentuat. Invocând art. 50 din Constituție, inițiatorii cer scutire integrală pentru handicap grav și reducere de 80% pentru handicap accentuat.",
-      "realityCheck": "Legea rescrie alineatele privind facilitățile din art. 456 (clădiri), art. 464 (teren) și art. 469 (mijloace de transport). Persoanele cu handicap grav și reprezentanții lor legali primesc scutire de 100%, iar cele cu handicap accentuat și reprezentanții lor primesc reducere de 80%. Facilitatea se aplică doar locuinței de domiciliu, terenului aferent și unei singure mașini sub 2.000 cmc. Pierderea de venituri revine exclusiv primăriilor, fără estimare și fără compensare de la bugetul de stat. Expunerea vorbește de o „sferă restrânsă” de beneficiari, deși categoria cuprinde sute de mii de persoane. Facilitatea nu se acordă automat: beneficiarul trebuie să depună documentele justificative la organul fiscal local.",
+      "plainTitle": "Scutire totală de impozite locale pentru persoanele cu handicap grav și reducere de 80% pentru cele cu handicap accentuat",
+      "verdictShort": "Este o lege socială favorabilă, fără capcane pentru cetățeni. Riscurile sunt două: greșeli de redactare care trebuie corectate în comisie și pierderea de venituri a bugetelor locale, pe care inițiatorii nu au cuantificat-o.",
+      "initiatorClaim": "Inițiatorii spun că reducerile actuale, de 50% pentru handicap grav și 25% pentru handicap accentuat, introduse prin OUG nr. 9/2026, nu acoperă vulnerabilitatea economică a persoanelor cu dizabilități. Ei invocă art. 50 din Constituție ca să ceară scutire integrală, respectiv reducere de 80%.",
+      "realityCheck": "Proiectul înlocuiește procentele din art. 456, 464 și 469 din Codul fiscal. Pentru clădirea de domiciliu, terenul aferent și un singur vehicul sub 2.000 cmc, persoanele cu handicap grav și reprezentanții lor legali trec de la reducere de 50% la scutire integrală, iar cele cu handicap accentuat trec de la 25% la 80%. Costul îl suportă exclusiv bugetele locale, iar expunerea de motive nu dă nicio estimare a sumei și nicio sursă de compensare. Textul are erori de numerotare: două puncte vizează același alineat (2^7) al art. 456.",
       "affectedGroups": [
         "Proprietari & Imobiliare",
         "Șoferi & Auto",
-        "Justiție & Drepturi Civile",
-        "Contabili & Fiscalitate"
+        "Contabili & Fiscalitate",
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I pct. 3 și pct. 4: ambele puncte modifică „alineatul 2⁷” al art. 456, cu conținut diferit. Textul de la pct. 4 poartă însă numărul (2⁸). Este o eroare materială evidentă, dar, necorectată, produce două norme de modificare contradictorii pentru același alineat.",
-        "Art. I pct. 1, 5 și 8: scutire integrală pentru clădirea de domiciliu, terenul aferent și un singur mijloc de transport sub 2.000 cmc, la alegerea contribuabilului, pentru persoanele cu handicap grav și reprezentanții lor legali.",
-        "Art. I pct. 2, 6 și 9: impozitul se reduce cu 80% pentru persoanele cu handicap accentuat și reprezentanții lor legali. Potrivit Expunerii, reducerea actuală este de 25%.",
-        "Art. I pct. 4, 7 și 10: facilitatea se aplică pe baza documentelor valabile la 31 decembrie a anului anterior sau din luna următoare depunerii lor. Mecanismul administrativ existent rămâne neschimbat.",
-        "Art. II: intrarea în vigoare la 1 ianuarie a anului următor publicării respectă art. 4 din Codul fiscal. Dacă legea se publică după 31.12.2026, efectele se amână până la 1.01.2028.",
-        "Lipsește orice estimare a impactului bugetar. Expunerea afirmă o „diminuare limitată” a veniturilor locale fără nicio cifră și fără sursă de compensare."
+        "Art. I pct. 1-2 și 5-6 (art. 456 și 464 alin. (2^5)-(2^6)): pentru clădirea de domiciliu și terenul aferent, reducerea crește de la 50% la 100% la handicap grav și de la 25% la 80% la handicap accentuat. Formula care condiționează beneficiul pentru reprezentanții legali rămâne cea actuală: «pe perioada în care au în îngrijire, supraveghere și întreținere».",
+        "Art. I pct. 8-9 (art. 469 alin. (2^1)-(2^2)): pentru un singur vehicul sub 2.000 cmc, ales de contribuabil, impozitul trece de la reducere de 50% la scutire integrală (handicap grav) și de la 25% la reducere de 80% (handicap accentuat). Plafonul de capacitate cilindrică rămâne neschimbat.",
+        "Art. I pct. 3: facilitatea se acordă pentru întreaga clădire deținută în comun cu soțul, dar nu și pentru cota-parte a terților. Este o clarificare utilă, care evită dispute cu organele fiscale locale.",
+        "Art. I pct. 4: partea dispozitivă spune «Alineatul 2⁷ al articolului 456 se modifică», dar conținutul este alin. (2⁸). Pct. 3 și pct. 4 modifică formal același alineat, iar luat literal, pct. 4 ar înlocui regula despre coproprietatea cu soțul. Pe lângă asta, alineatele sunt scrise peste tot «(25)», «(26)» în loc de (2^5), (2^6).",
+        "Art. I pct. 10 (art. 469 alin. (2^3)) și omologii din art. 456 și 464 simplifică regula de aplicare: documentele valabile la 31 decembrie a anului anterior sau, după caz, începând cu luna următoare depunerii. Este mai clar decât textul actual.",
+        "Art. II: legea intră în vigoare la 1 ianuarie a anului următor publicării. Regula este conformă cu art. 4 din Codul fiscal și nu creează obligații noi pentru contribuabili, pentru că modificarea le este favorabilă."
       ],
-      "blindSpotsCaught": "(1) Dubla modificare a alin. (2⁷) al art. 456 (pct. 3 și 4). (2) Alineatele sunt rescrise integral. Orice categorie sau condiție din textul în vigoare care nu e repetată dispare. De exemplu, dacă forma actuală include și persoanele cu invaliditate gradul I, acestea ar pierde facilitatea, deci textul trebuie confruntat cu forma în vigoare după OUG nr. 9/2026. (3) Condiția „pe perioada în care au în îngrijire, supraveghere și întreținere persoane cu handicap” se leagă gramatical și de persoana cu handicap însăși, nu doar de reprezentantul legal. Formularea, moștenită din textele anterioare, poate primi interpretări restrictive la ghișeu. (4) Pragul de „capacitate cilindrică mai mică de 2.000 cmc” e ambiguu pentru vehiculele electrice. (5) Termenul de amendamente (23.09.2026) a expirat, deci corecturile trebuie preluate direct de comisie în raport.",
-      "constitutionalityNote": "Pe fond, măsura concretizează art. 50 (protecția specială a persoanelor cu handicap) și este compatibilă cu art. 56 alin. (2) (așezarea justă a sarcinilor fiscale). Diferențierea dintre handicap grav (100%) și accentuat (80%) se bazează pe un criteriu obiectiv și rezonabil, deci nu încalcă art. 16. Riscurile sunt de procedură și de redactare. (a) Măsura reduce veniturile bugetare fără fișa financiară cerută de art. 15 din Legea nr. 500/2002 și de art. 15 din Legea nr. 69/2010. Jurisprudența CCR a sancționat astfel de omisiuni prin raportare la art. 138 alin. (5) și la art. 111 alin. (1) (punctul de vedere al Guvernului), așa că riscul este moderat dacă avizul Guvernului lipsește. (b) Eroarea de numerotare de la pct. 3–4 afectează claritatea și previzibilitatea normei (art. 1 alin. (5)). (c) Pierderea de venituri cade integral pe bugetele locale, fără compensare, ceea ce ridică o problemă de autonomie financiară locală (art. 120), deși nu una de neconstituționalitate directă.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, deoarece legea nu reglementează accesul la profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu există reguli tehnice sau servicii digitale. Nu este ajutor de stat (art. 107 TFUE), beneficiarii fiind persoane fizice, nu întreprinderi. Impozitele locale pe proprietate nu sunt armonizate la nivelul UE, deci statul are marjă largă de apreciere. Pragul de 2.000 cmc e neutru față de originea vehiculului. Măsura e în linia Convenției ONU privind drepturile persoanelor cu dizabilități, la care UE și România sunt părți. Rămâne o nuanță: facilitatea depinde de încadrarea în grad de handicap făcută de comisiile românești. Persoanele cu dizabilitate recunoscută în alt stat membru care dețin bunuri în România nu beneficiază automat. Directiva (UE) 2024/2841 privind Cardul european pentru persoanele cu dizabilități nu acoperă facilitățile fiscale, deci situația nu e o încălcare, dar merită clarificată în norme.",
+      "blindSpotsCaught": "1) Erorile de numerotare de la pct. 3-4 pot fi folosite la aplicare pentru a contesta care text e în vigoare la alin. (2^7) al art. 456. 2) Plafonul «capacitate cilindrică mai mică de 2.000 cmc» lasă neclar regimul vehiculelor electrice, care nu au capacitate cilindrică. Exclude și multe vehicule adaptate pentru scaun rulant (dube, monovolume peste 2.000 cmc), adică exact categoria cea mai dependentă de mobilitate. 3) Lipsește fișa financiară prevăzută de art. 15 din Legea nr. 500/2002 și Legea nr. 69/2010. Sunt afectate în special UAT-urile mici, cu pondere mare de beneficiari, iar proiectul nu prevede niciun mecanism de compensare din bugetul de stat. 4) Practic, proiectul se apropie din nou de regimul de scutire care exista înainte de modificările din 2025-2026, ceea ce arată instabilitate legislativă pe acest subiect.",
+      "constitutionalityNote": "Proiectul concretizează art. 50 (protecția persoanelor cu handicap). Diferența dintre 100% la handicap grav și 80% la handicap accentuat are o justificare obiectivă, așa că nu încalcă art. 16. Riscul principal este procedural: e o inițiativă parlamentară care reduce veniturile bugetelor locale fără fișă financiară și fără o sursă de compensare indicată. Asta poate fi invocat în raport cu art. 138 alin. (5), cu art. 111 alin. (1) (punctul de vedere al Guvernului) și cu autonomia financiară locală (art. 120). Erorile de numerotare afectează claritatea normei (art. 1 alin. (5)), dar se pot corecta ușor în comisie.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reguli tehnice sau servicii ale societății informaționale. Beneficiarii sunt persoane fizice, deci regulile de ajutor de stat (art. 107 TFUE) nu sunt relevante, cu excepția teoretică a unor bunuri folosite în activitate economică (de exemplu, de un PFA). Impozitele locale pe proprietate nu sunt armonizate la nivelul UE. Măsura este coerentă cu Convenția ONU privind drepturile persoanelor cu dizabilități, la care UE este parte.",
       "senatForm": {
-        "articleRef": "Art. I pct. 4, 8, 9 (art. 456, 469 Cod fiscal)",
-        "proposalContent": "Pct. 4 să vizeze alin. (2⁸) al art. 456, nu (2⁷), altfel același alineat e modificat de două ori cu texte diferite. La art. 469 alin. (2¹) și (2²), după „2.000 cmc” se introduce: „sau, indiferent de capacitatea cilindrică, autovehiculele electrice ori adaptate pentru transportul persoanei cu handicap”.",
-        "argumentation": "Dubla trimitere la alin. (2⁷) din art. 456 face norma neclară (art. 1 alin. 5 Constituție, Legea 24/2000). Pragul de 2.000 cmc e ambiguu pentru mașinile electrice, care n-au capacitate cilindrică, și poate exclude vehicule adaptate pentru scaun rulant cu motor de peste 2.000 cmc, de care au nevoie tocmai familiile cu handicap grav.",
-        "otherComments": "Solicităm ca raportul să cuprindă estimarea pierderii de venituri la bugetele locale (art. 15 din Legea 500/2002) și o soluție de compensare pentru primăriile mici. Verificați și dacă textul actual al alineatelor rescrise include persoanele cu invaliditate gradul I: rescrierea integrală le-ar putea scoate din facilitate."
-      }
+        "articleRef": "Art. I pct. 1-7 (art. 456 și 464, numerotare)",
+        "proposalContent": "La Art. I pct. 4, partea dispozitivă se reformulează: „4. Alineatul (2^8) al articolului 456 se modifică și va avea următorul cuprins:”. La pct. 1-3 și 5-7 se corectează numerotarea alineatelor în (2^5), (2^6), (2^7), (2^8), inclusiv în trimiterile interne „alin. (2^5) și (2^6)”.",
+        "argumentation": "Pct. 3 și pct. 4 modifică formal același alin. (2^7) al art. 456, iar aplicate succesiv, pct. 4 ar înlocui regula privind coproprietatea cu soțul. Scrierea „(25)”, „(26)” în loc de (2^5), (2^6) contravine Legii nr. 24/2000 și poate crea incertitudini la aplicare pentru organele fiscale locale (art. 1 alin. (5) Constituție).",
+        "otherComments": "Recomand solicitarea fișei financiare (art. 15 din Legea nr. 500/2002) cu estimarea pierderii de venituri a bugetelor locale. Recomand și clarificarea regimului vehiculelor electrice, care nu au capacitate cilindrică, și al vehiculelor adaptate peste 2.000 cmc, frecvente la persoanele în scaun rulant."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 113852,
+      "durationMs": 65225,
+      "sourceEndMarker": "SF-81E84579",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Impozite locale mai mici pentru persoanele cu dizabilități",
-      "verdictShort": "Proiectul oferă un sprijin fiscal real, fără taxe noi, sancțiuni sau privilegii comerciale. Riscurile provin din redactarea necorelată și fundamentarea bugetară insuficientă, probleme care trebuie corectate înaintea adoptării.",
-      "initiatorClaim": "Inițiatorii urmăresc reducerea cheltuielilor persoanelor cu handicap grav sau accentuat și sprijinirea autonomiei acestora. Ei susțin că diminuarea veniturilor locale ar fi limitată și că aplicarea poate folosi procedurile administrative existente.",
-      "realityCheck": "Pentru bunurile eligibile, proiectul înlocuiește reducerea de 50% cu scutirea integrală pentru handicap grav și reducerea de 25% cu reducerea de 80% pentru handicap accentuat; în ultimul caz rămâne de plătit 20% din impozitul calculat înaintea facilității. Beneficiul privește domiciliul, terenul aferent și un singur vehicul sub 2.000 cmc, inclusiv bunurile reprezentanților legali în condițiile prevăzute, fără să ajute direct persoanele care nu dețin bunuri eligibile. Veniturile locale scad, însă caracterul «limitat» al pierderii nu este demonstrat prin cifre în expunerea furnizată.",
+      "plainTitle": "Impozite locale mai mici pentru persoanele cu handicap grav sau accentuat",
+      "verdictShort": "Proiectul oferă un sprijin fiscal concret persoanelor cu dizabilități, fără taxe noi sau sancțiuni. Necesită însă corectarea unei trimiteri legislative contradictorii și fundamentarea reducerii veniturilor locale.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea presiunii financiare asupra persoanelor cu handicap grav sau accentuat și sprijinirea autonomiei acestora. Propun scutirea integrală pentru handicap grav și reducerea cu 80% pentru handicap accentuat.",
+      "realityCheck": "Proiectul acordă aceste facilități pentru locuința de domiciliu, terenul aferent și un singur vehicul cu cilindree strict sub 2.000 cmc, inclusiv reprezentanților legali în condițiile prevăzute. Pentru vehicule, reducerile actuale de 50% și 25% devin scutire integrală, respectiv reducere de 80%; pentru clădiri și terenuri, aceleași niveluri actuale sunt indicate în expunerea de motive, dar alineatele relevante lipsesc din extrasele consolidate furnizate. Punctul 4 indică modificarea aceluiași alineat ca punctul 3, deși reproduce un alineat diferit, iar pierderea de venituri locale nu este cuantificată.",
       "affectedGroups": [
         "Contabili & Fiscalitate",
         "Șoferi & Auto",
@@ -105,22 +138,46 @@
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I pct. 4 indică modificarea art. 456 alin. (2⁷), deja modificat prin pct. 3, dar reproduce un text numerotat (2⁸). Contradicția trebuie eliminată pentru a proteja atât regula coproprietății, cât și regula documentelor; Consiliul Legislativ a semnalat expres eroarea. [Avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L375LG.PDF)",
-        "Art. I pct. 5–7 nu actualizează art. 464 alin. (2⁷), care vorbește în continuare despre «reducerea» pentru terenul deținut cu soțul sau soția. După introducerea scutirii integrale, trimiterea devine terminologic incompletă și poate genera interpretări diferite privind cotele de proprietate. [Reglementarea introdusă prin OUG nr. 9/2026](https://static.anaf.ro/static/10/Anaf/legislatie/OUG_9_2026.pdf)",
-        "Art. I pct. 8–9 păstrează pragul strict sub 2.000 cmc și limita unui singur vehicul: un motor de exact 2.000 cmc nu intră în această facilitate. Pragul există deja; proiectul nu introduce această excludere. Mențiunea «m³» din fișa parlamentară nu corespunde unității din textul normativ.",
-        "Consiliul Fiscal a constatat, în opinia din 04.06.2026, neîndeplinirea cerințelor art. 21 din Legea nr. 69/2010 și a solicitat documentele financiare necesare evaluării diminuării veniturilor. Afirmația că impactul este mic nu substituie estimarea și încadrarea bugetară. [Opinia Consiliului Fiscal](https://www.senat.ro/legis/PDF/2026/26L375CF.PDF)",
-        "Art. II stabilește aplicarea de la 1 ianuarie următor publicării, dar nu garantează intervalul general de minimum șase luni prevăzut de art. 4 alin. (1) din Codul fiscal. Pentru publicarea în semestrul al doilea este necesară corelarea termenului sau o derogare expresă și motivată. [Codul fiscal, art. 4](https://legislatie.just.ro/Public/DetaliiDocumentAfis/292547)",
-        "Proiectul nu instituie obligații directe pentru IMM-uri și nu creează structuri administrative noi. Pentru beneficiari rămâne necesară justificarea dreptului, iar organele fiscale locale trebuie să adapteze calculul și evidențele; nu există un mecanism expres de compensare a pierderilor locale."
+        "Art. I pct. 1–2, 5–6 și 8–9 stabilesc scutirea integrală pentru handicap grav și reducerea cu 80% pentru handicap accentuat. În a doua situație rămâne de achitat 20% din impozit.",
+        "Art. I pct. 3 păstrează facilitatea pentru întreaga locuință deținută împreună cu soțul sau soția, dar exclude cotele terților. Nu se instituie o scutire generală pentru toate proprietățile beneficiarului.",
+        "Art. I pct. 4 anunță modificarea art. 456 alin. (2⁷), deja modificat la pct. 3, însă textul reprodus este numerotat (2⁸). Neconcordanța trebuie corectată pentru a identifica neechivoc norma modificată.",
+        "Art. I pct. 8–9 menține limita de un vehicul și pragul strict sub 2.000 cmc, existente deja în textul actual furnizat. Un vehicul de exact 2.000 cmc nu intră în aceste facilități; unitatea m³ din fișa de prezentare nu apare în norma propusă.",
+        "Art. I pct. 4, 7 și 10 reformulează aplicarea pe baza documentelor justificative. Dispare mențiunea expresă privind contribuabilii care nu beneficiaseră de scutire în anul anterior, iar raportul dintre aplicarea anuală și aplicarea din luna următoare depunerii merită precizat.",
+        "Art. II stabilește intrarea în vigoare la 1 ianuarie după publicare. Proiectul nu prevede aplicarea retroactivă sau restituirea impozitelor din 2026; dispozițiile pentru 2026 reproduse în extrase aparțin altui act normativ.",
+        "Facilitățile sunt obligatorii prin lege, fără o nouă opțiune de aprobare a consiliilor locale. Expunerea califică diminuarea veniturilor locale drept limitată, dar nu prezintă numărul beneficiarilor, costul estimat sau distribuția pierderilor între localități."
       ],
-      "blindSpotsCaught": "Formulele «valabile la 31 decembrie» și «sau, după caz, începând cu luna următoare depunerii» nu delimitează suficient beneficiarii existenți de cei care dobândesc ulterior dreptul; nu trebuie presupusă automat obligația redepunerii anuale. Consiliul Legislativ a cerut reanalizarea acestei reguli pentru toate cele trei impozite. Separat, Senatul a respins propunerea, fără a încheia procedura: Camera Deputaților rămâne decizională. Termenul indicat pentru amendamente, 23.09.2026, este deja expirat la data analizei. [Aviz legislativ](https://www.senat.ro/legis/PDF/2026/26L375LG.PDF), [Fișa Camerei Deputaților](https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23489&prn=1)",
-      "constitutionalityNote": "Finalitatea este compatibilă cu protecția specială prevăzută de art. 50 și cu așezarea justă a sarcinilor fiscale, potrivit art. 56 alin. (2). Diferențierea după gravitatea handicapului are o justificare obiectivă plauzibilă; Constituția nu impune însă procentele alese. Dublarea alineatului și regulile temporale insuficient delimitate ridică probleme remediabile de claritate și previzibilitate prin raportare la art. 1 alin. (5). Art. 23 alin. (12) privește legalitatea pedepselor și nu este incident direct, deoarece proiectul nu instituie pedepse. Diminuarea veniturilor nu echivalează automat cu instituirea unei cheltuieli în sensul art. 138 alin. (5). Nu se poate invoca lipsa consultării Guvernului: dosarul conține punctul său de vedere negativ, care critică inclusiv fundamentarea financiară. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355), [Punctul de vedere al Guvernului](https://www.senat.ro/legis/PDF/2026/26L375PV.PDF)",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea acestora. Nu reglementează servicii digitale ori AI și nu introduce specificații tehnice noi; pragul cilindric preexistent delimitează facilitatea fiscală, astfel că nu se identifică o obligație nouă de notificare TRIS potrivit Directivei (UE) 2015/1535. Din text nu rezultă monopoluri, bariere de acces pe piață sau avantaje acordate unor întreprinderi determinate; sprijinul persoanelor fizice pentru bunurile personale nu constituie automat ajutor de stat. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng), [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535)",
+      "blindSpotsCaught": "Neconcordanța de la art. I pct. 4 privește identificarea normei modificate, nu doar aspectul grafic: dispozitivul vizează alin. (2⁷), iar conținutul este numerotat (2⁸). Nu rezultă însă automat că garanția privind coproprietatea cu soțul este eliminată. Separat, articolele III și IV reproduse în extrasele legii actuale sunt dispoziții ale unei ordonanțe anterioare, nu dispoziții tranzitorii ale proiectului analizat.",
+      "constitutionalityNote": "Scopul măsurii este susținut de art. 50 din Constituție, iar diferențierea după gravitatea handicapului are o justificare obiectivă aparentă. Problema principală de claritate, raportată la art. 1 alin. (5), este contradicția dintre identificarea alineatului și textul reprodus la art. I pct. 4. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident, deoarece nu se instituie sancțiuni penale. Diminuarea veniturilor locale impune verificarea solicitării informării Guvernului potrivit art. 111 alin. (1) și o fundamentare bugetară reală; documentele furnizate nu permit constatarea îndeplinirii sau încălcării acestei proceduri. Reducerea veniturilor nu echivalează automat cu o cheltuială nouă supusă art. 138 alin. (5). Art. II trebuie corelat cu termenul constituțional minim de trei zile de la publicare și cu regulile aplicabile modificării Codului fiscal, deoarece publicarea chiar la sfârșitul lui decembrie poate crea un conflict de calendar.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: proiectul nu restrânge accesul la o profesie reglementată sau exercitarea acesteia. Nu rezultă o reglementare tehnică notificabilă potrivit Directivei (UE) 2015/1535; proiectul nu reglementează servicii digitale sau AI, iar pragul de cilindree delimitează o facilitate fiscală deja existentă. Din text nu rezultă avantaje selective acordate întreprinderilor sau restricții noi asupra concurenței și pieței unice: beneficiarii direcți sunt persoane fizice, pentru bunurile și situațiile personale prevăzute.",
       "senatForm": {
-        "articleRef": "Art. I pct. 4 – art. 456 alin. (2⁸)",
-        "proposalContent": "4. Alineatul (2⁸) al articolului 456 se modifică și va avea următorul cuprins: „(2⁸) Facilitățile fiscale prevăzute la alin. (2⁵) și (2⁶) se acordă pe baza documentelor justificative valabile la 31 decembrie a anului fiscal anterior sau, pentru persoanele care dobândesc ulterior dreptul la facilități, începând cu luna următoare depunerii documentelor la organul fiscal local.”",
-        "argumentation": "Pct. 3 modifică deja alin. (2⁷), referitor la coproprietate. Repetarea acestuia la pct. 4 contrazice numerotarea textului înlocuitor și creează incertitudine. Amendamentul identifică alineatul corect și delimitează aplicarea anuală de acordarea facilității pentru un drept dobândit ulterior.",
-        "otherComments": "Solicit preluarea de către un deputat în Comisia pentru buget, finanțe și bănci. Sunt necesare corelarea art. 464 alin. (2⁷) cu scutirea integrală, fișa financiară cerută de Consiliul Fiscal și corelarea art. II cu art. 4 alin. (1) din Codul fiscal. Termenul indicat pentru amendamente, 23.09.2026, a expirat; e-mailul cetățeanului nu constituie amendament parlamentar."
-      }
+        "articleRef": "Art. I pct. 4",
+        "proposalContent": "4. Alineatul (2⁸) al articolului 456 se modifică și va avea următorul cuprins: «(2⁸) Facilitățile fiscale prevăzute la alin. (2⁵) și (2⁶) se aplică pe baza documentelor justificative valabile la data de 31 decembrie a anului fiscal anterior sau, după caz, începând cu luna următoare depunerii acestora la organul fiscal local.»",
+        "argumentation": "Punctul 3 modifică deja alin. (2⁷), privind coproprietatea. Punctul 4 indică din nou acest alineat, deși reproduce alin. (2⁸), privind documentele justificative. Corectarea identificării normei înlătură contradicția și asigură claritatea cerută de art. 1 alin. (5) din Constituție.",
+        "otherComments": "Propunere pentru Comisia pentru buget, finanțe și bănci a Camerei Deputaților. Termenul indicat pentru amendamente, 23.09.2026, este depășit la data analizei; transmiterea ca petiție nu garantează preluarea ca amendament. Sunt necesare și estimarea impactului local, și corelarea art. II cu termenul constituțional de intrare în vigoare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T23:12:02.556Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:56:50.479Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

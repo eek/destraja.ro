@@ -1,124 +1,180 @@
 {
   "billId": "Pl-x 588/2026",
   "slug": "plx-588-2026",
-  "updatedAt": "2026-10-28T22:55:59.194Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T14:55:07.711Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 3882,
+    "ordinanceChars": 0,
+    "memoChars": 5225,
+    "memoSupplied": 5225,
+    "marker": "SF-5FD66B19"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-588-2026.json",
+    "form": "initiator",
+    "textHash": "5fd66b19982b64fa",
+    "fetchedAt": "2026-11-19T10:03:24.678Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 3,
+    "articlesShown": 3,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 8573,
+    "truncated": false,
+    "included": true,
+    "key": "05b4f24d0ac681e2"
+  },
   "consensus": {
     "riskScore": 5.7,
     "riskLevel": "yellow",
-    "plainTitle": "Amendă de până la 20.000 lei pentru țăranul care vinde în piață mai mult decât scrie în atestat",
-    "summaryTlDr": "Scopul e legitim: prinderea samsarilor care revând marfă cumpărată drept producție proprie. Mecanismul îl lovește însă și pe producătorul cinstit care a avut o recoltă mai bună decât estimarea: amendă de 10.000–20.000 lei, 10 zile lucrătoare de așteptare fără aprobare tacită și obligații vagi, dar sancționate, pentru administratorii piețelor. Se poate repara prin amendamente; nu trebuie respinsă în bloc.",
-    "initiatorClaim": "Inițiatorii afirmă că Legea nr. 145/2014 nu prevede expres verificarea concordanței dintre datele din documentele producătorului și cantitățile efectiv vândute, ceea ce permite folosirea abuzivă a acestor documente. Vor trasabilitate reală, control mai eficient și protejarea producătorilor autentici și a consumatorilor, fără atribuții noi și fără costuri bugetare semnificative.",
-    "realityCheck": "Producătorul trebuie să ceară actualizarea documentelor înainte de a vinde orice cantitate peste cea înscrisă, fără nicio marjă de toleranță. Primăria are 10 zile lucrătoare să răspundă și nu suportă nicio consecință dacă întârzie, iar vânzarea surplusului în acest interval este contravenție, cu amendă de 10.000–20.000 lei și posibilă interdicție de 6 luni pe taraba respectivă. Administratorii piețelor sunt obligați să sesizeze „de îndată” autorități nenumite, sub amenințarea unei amenzi de 5.000–10.000 lei. Primăriile primesc o verificare anuală nouă, nefinanțată, deși expunerea de motive susține că nu se creează atribuții noi.",
+    "plainTitle": "Amenzi de până la 20.000 lei pentru țăranii care vând în piață mai mult decât scrie în atestat",
+    "summaryTlDr": "Scopul e legitim: combaterea „țăranilor” falși care revând marfă cumpărată. Mecanismul lovește însă tocmai producătorul autentic care a avut o recoltă mai bună decât estimarea. Amenda e mai mare decât cea pentru revânzarea propriu-zisă, iar actualizarea depinde de primărie, fără termen sancționat și fără aprobare tacită.",
+    "initiatorClaim": "Inițiatorii spun că închid o lacună: lipsa verificării concordanței dintre datele din atestatul și carnetul de producător și cantitățile vândute efectiv. Vor astfel trasabilitate reală, concurență loială și încrederea consumatorilor.",
+    "realityCheck": "Proiectul obligă producătorul să ceară actualizarea documentelor înainte să vândă orice cantitate peste cea înscrisă. Cererea se soluționează în 10 zile lucrătoare, dar nu e prevăzută nicio consecință dacă primăria întârzie. Vânzarea fără actualizare se amendează cu 10.000–20.000 lei, plus interdicția de 6 luni pe spațiul de vânzare, pusă în executare de administratorul pieței. Administratorii primesc o nouă obligație de raportare, greu de îndeplinit, iar minimul amenzii lor crește de la 3.000 la 5.000 lei.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "IMM & Antreprenori",
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 2 și 4 (art. 14¹, art. 16 lit. h¹)",
-      "proposalContent": "Art. 14¹ alin. (4): cererea se soluționează în 5 zile lucrătoare, altfel operează aprobarea tacită. Art. 16 lit. h¹): valorificarea, fără depunerea cererii de actualizare, a unor cantități care depășesc cu peste 20% datele înscrise, cu amendă de la 1.000 la 3.000 lei; la repetarea faptei în 12 luni, contravenientului i se poate interzice vânzarea în acea piață pe 3 luni.",
-      "argumentation": "O recoltă mai bună decât estimarea nu e fraudă. Amenda de 10.000–20.000 lei poate depăși venitul anual din surplus al unei gospodării mici, iar 10 zile lucrătoare de așteptare fără aprobare tacită înseamnă marfă perisabilă pierdută. Interdicția vizează doar taraba: vânzătorul se mută alături, deci e ambiguă și ineficientă. Propunerea păstrează scopul anti-samsari.",
-      "otherComments": "Verificați pct. 3: lit. f¹) apare fără partea introductivă. Art. 14 alin. (6) trebuie să numească autoritatea sesizată (ex. primăria emitentă). Art. 14¹ dă primăriilor o verificare anuală nouă, fără sursă de finanțare (art. 138 alin. 5 Constituție), iar primăria emitentă nu poate controla piețe din alte localități. Corectați „constată faptă”."
+      "articleRef": "Art. I pct. 2 (art. 14¹) și pct. 4 (art. 16 h¹)",
+      "proposalContent": "Art. 14¹ alin. (4): «Cererea se soluționează în 5 zile lucrătoare; la depășirea termenului, actualizarea se consideră aprobată tacit.» Art. 16 lit. h¹): amendă de la 2.000 la 5.000 lei pentru depășiri de peste 20% față de datele înscrise; avertisment la prima abatere; interdicția spațiului doar la repetarea faptei în 12 luni, pe max. 3 luni.",
+      "argumentation": "Recolta reală depășește frecvent estimarea din atestat. Fără aprobare tacită, producătorul pierde marfa perisabilă așteptând primăria. Amenda de 10.000–20.000 lei depășește sancțiunea pentru revânzarea produselor cumpărate (lit. h, 7.500–15.000 lei) și e disproporționată pentru un mic fermier; art. 53 din Constituție și OG 2/2001 cer gradualitate.",
+      "otherComments": "Lipsește antetul pct. 3 (modificarea art. 16 lit. f¹), care ridică minimul de la 3.000 la 5.000 lei. Art. 14 alin. (6) cere administratorului să constate cantități pe care nu are mijloace să le măsoare. Corectați «constată faptă» și precizați autoritatea competentă din art. 14¹ alin. (1)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 64308,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 84769,
+      "sourceEndMarker": "SF-5FD66B19",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Amenzi de până la 20.000 lei și interzis 6 luni în piață pentru producătorii care vând peste estimarea din acte",
-      "verdictShort": "Deși legea țintește corect samsarii care vând marfă de import sub paravanul unui atestat de producător, mecanismul propus lovește în țăranii onești: dacă recolta e mai bogată decât estimarea inițială, producătorul trebuie să aștepte până la 10 zile lucrătoare (2 săptămâni) aprobarea primăriei înainte să vândă surplusul, timp în care legumele și fructele perisabile se strică.",
-      "initiatorClaim": "Inițiatorii vor să asigure trasabilitatea produselor din piețele agroalimentare și să elimine practicile prin care comercianții vând cantități mult mai mari decât cele declarate în atestatul de producător și carnetul de comercializare.",
-      "realityCheck": "Legea transformă estimările de producție agricolă în plafoane rigide: fermierul care obține o recoltă mai mare nu poate vinde surplusul fără o actualizare prealabilă la primărie, care durează până la 10 zile lucrătoare. Vânzarea fără această așteptare birocratică atrage amenzi uriașe (10.000–20.000 lei) și pierderea tarabei pe 6 luni (practic, întreg sezonul agricol), iar administratorii piețelor sunt transformați în organe de verificare a cantităților sub amenințarea unor amenzi de până la 10.000 lei.",
+      "plainTitle": "Amenzi mai mari decât pentru fraudă și blocaj de 10 zile pentru fermierii cu recolte peste estimări",
+      "verdictShort": "Deși vizează combaterea falșilor producători din piețe, proiectul lovește disproporționat micii fermieri autentici: îi obligă să aștepte până la 10 zile lucrătoare pentru a-și vinde surplusul perisabil și sancționează omisiunea birocratică mai dur decât vânzarea de marfă care nu provine din gospodăria proprie.",
+      "initiatorClaim": "Inițiatorii susțin că proiectul acoperă o lacună a Legii nr. 145/2014 pentru a asigura trasabilitatea reală a produselor agricole, a opri abuzurile cu atestatele de producător și a proteja fermierii autentici și consumatorii, fără costuri bugetare semnificative.",
+      "realityCheck": "În prezent, Legea nr. 145/2014 sancționează vânzarea de produse care nu sunt din producție proprie (art. 16 lit. h) cu amendă de 7.500–15.000 lei, fără interdicție de tarabă. Proiectul introduce obligația fermierului de a-și actualiza documentele înainte de a vinde cantități peste estimările inițiale (cu un termen de soluționare de 10 zile lucrătoare, fatal pentru marfa perisabilă) și pedepsește depășirea neactualizată (art. 16 lit. h¹) cu 10.000–20.000 lei plus interdicție fixă de 6 luni la tarabă; totodată, impune administratorilor piețelor obligații vagi de raportare sub amenințarea unor amenzi mărite la 5.000–10.000 lei (de la 3.000–10.000 lei), în timp ce actualizarea trimiterii GDPR de la art. 22 este singura măsură tehnică benignă.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Blocaj birocratic pentru marfa perisabilă (Art. 14¹ alin. 3 și 4): Dacă producția agricolă depășește estimarea inițială din documente, producătorul este obligat să ceară actualizarea datelor ÎNAINTE de a vinde cantitățile suplimentare, iar primăria are termen de 10 zile lucrătoare (2 săptămâni calendaristice) pentru soluționare — interval în care recoltele perisabile (roșii, căpșuni, cireșe, verdețuri) se alterează.",
-        "Sancțiuni disproporționate pentru persoane fizice (Art. 16 lit. h¹): Depășirea cantităților înscrise în acte fără actualizarea prealabilă se sancționează cu amendă de la 10.000 lei la 20.000 lei și interzicerea ocupării spațiului de vânzare timp de 6 luni, fără a face distincție între un țăran cu recoltă mai bogată din propria grădină și un comerciant care revinde marfă cumpărată.",
-        "Pasarea controlului către administratorii piețelor (Art. 14 alin. 6 și Art. 16 lit. f¹): Administratorii piețelor sunt obligați să sesizeze „de îndată” neconcordanțele de cantitate sub sancțiunea unei amenzi de 5.000–10.000 lei, deși aceștia nu au mijloacele legale de a verifica ce cantități cumulate a vândut un producător în alte piețe sau în zilele anterioare.",
-        "Eroare de tehnică legislativă în textul proiectului: La Art. I lipsește partea introductivă a punctului 3, textul literei f¹) fiind inserat direct după Art. 14¹ alin. (6) fără formula de modificare a Art. 16, în condițiile în care nerespectarea Art. 14 alin. (5) este deja sancționată în Legea nr. 145/2014 la Art. 16 lit. f)."
+        "Ierarhie inversată a sancțiunilor (art. 16 lit. h¹ vs. lit. h în vigoare): un producător autentic care vinde surplusul propriu fără actualizarea prealabilă a actelor riscă amendă de 10.000–20.000 lei și interdicție fixă de 6 luni de ocupare a spațiului de vânzare, adică o pedeapsă mai severă decât frauda propriu-zisă — vânzarea de produse din afara producției proprii (art. 16 lit. h: 7.500–15.000 lei, fără interdicție).",
+        "Blocaj birocratic pentru produse perisabile (art. 14¹ alin. 3–5): fermierul nu poate vinde cantități peste datele declarate anterior decât după actualizarea documentelor la primărie, care are la dispoziție 10 zile lucrătoare (două săptămâni calendaristice) fără mecanism de aprobare tacită sau marjă de toleranță pentru variațiile naturale ale recoltei.",
+        "Atribuții vagi de control transferate administratorilor piețelor (art. 14 alin. 6 și art. 16 lit. f¹): aceștia riscă amenzi între 5.000 și 10.000 lei (pragul minim crește de la 3.000 lei) dacă nu raportează «de îndată» depășirile de cantități, deși conform art. 14 alin. (4)–(5) verifică doar deținerea copiilor documentelor la tarabă și nu au pârghii de audit al vânzărilor cumulate.",
+        "Actualizare tehnică necesară la art. 22: proiectul înlocuiește corect trimiterea abrogată la Legea nr. 677/2001 cu Regulamentul (UE) 2016/679 (GDPR) și Legea nr. 190/2018."
       ],
-      "blindSpotsCaught": "La Art. 17¹ se prevede că administratorul pieței pune în executare interdicția de 6 luni „în baza procesului-verbal de constatare a contravenției rămas definitiv, fără a afecta dreptul persoanei sancționate de a se adresa instanței”. Formularea este juridic contradictorie (conform OG nr. 2/2001, procesul-verbal devine definitiv tocmai prin neexercitarea căii de atac în 15 zile sau după pronunțarea unei hotărâri definitive) și nu instituie nicio procedură prin care poliția, primăria sau instanța să comunice administratorului pieței momentul în care actul a rămas definitiv.",
-      "constitutionalityNote": "Ridică probleme de claritate și previzibilitate a legii (Art. 1 alin. 5 din Constituție) prin omisiunea formulei introductive de la pct. 3, suprapunerea sancțiunii pentru Art. 14 alin. (5) cu actualul Art. 16 lit. f) și contradicția procedurală din Art. 17¹. De asemenea, amenda de 10.000–20.000 lei și interdicția de 6 luni aplicate pentru o simplă neactualizare birocratică a unei producții proprii pot încălca principiul proporționalității restrângerii exercițiului drepturilor (Art. 53 raportat la Art. 44 și Art. 45 din Constituție).",
-      "euLawNote": "Proiectul actualizează corect la Art. 22 trimiterea la Regulamentul (UE) 2016/679 (GDPR). Nu intră sub incidența Directivei (UE) 2015/1535 (TRIS), însă sub aspectul proporționalității restricțiilor de comercializare pe piața internă și al principiilor Politicii Agricole Comune (sprijinirea lanțurilor scurte de aprovizionare), termenul administrativ de 10 zile lucrătoare înainte de vânzarea surplusului de produse agricole proaspete constituie o barieră administrativă excesivă.",
+      "blindSpotsCaught": "Proiectul conține o eroare gravă de tehnică legislativă: lipsește complet formula introductivă a punctului 3 (care ar fi trebuit să dispună modificarea art. 16 lit. f¹), textul sărind direct de la art. 14¹ alin. (6) la textul lit. f¹). În plus, introduce noua contravenție de la art. 16 lit. h¹) fără a corela explicit art. 17 privind agenții constatatori competenți, iar art. 17¹ obligă administratorul pieței să execute interdicția de 6 luni după rămânerea definitivă a procesului-verbal fără a stabili cine și cum îi comunică oficial acest fapt și ce se întâmplă cu contractul de închiriere a tarabei.",
+      "constitutionalityNote": "Există vulnerabilități serioase față de art. 1 alin. (5) (claritatea și previzibilitatea legii), art. 45 (libertatea economică) și art. 53 (proporționalitatea restrângerilor) din Constituție. Sancțiunea complementară de 6 luni este lăsată la libera apreciere a agentului («se poate aplica») fără criterii legale de individualizare și fără gradație în funcție de cantitatea depășită, iar sancționarea unei omisiuni administrative mai aspru decât frauda (art. 16 lit. h) și blocarea timp de 10 zile lucrătoare a vânzării de recolte perisabile încalcă exigența proporționalității.",
+      "euLawNote": "Art. 22 aliniază corect legea națională la Regulamentul (UE) 2016/679 (GDPR). Directiva (UE) 2018/958 privind testul de proporționalitate nu este incidentă (activitatea de producător agricol nu este profesie reglementată), iar Directiva (UE) 2015/1535 (TRIS) nu se aplică, nefiind reglementate servicii digitale sau standarde tehnice de produs. Pe piața unică, întrucât art. 14 alin. (2) în vigoare exceptează producătorii din alte state membre UE (care operează pe baza actelor din țara de origine), povara actualizărilor prealabile și a blocajului de 10 zile creează o discriminare inversă în defavoarea micilor fermieri români.",
       "senatForm": {
-        "articleRef": "Art. I pct. 2 (Art. 14¹) și pct. 4 (Art. 16 h¹)",
-        "proposalContent": "La Art. 14¹ alin. (3)-(4), actualizarea cantităților pentru produse perisabile se face prin simplă notificare, cu verificare ulterioară, sau în cel mult 24 de ore. La Art. 16 lit. h¹), amenda se reduce la 1.000-3.000 lei, iar interdicția de 6 luni se aplică doar dacă produsele nu provin din gospodăria proprie (comerț ilicit).",
-        "argumentation": "Producția agricolă depinde de vreme, iar cantitățile din carnetul de comercializare sunt doar estimări inițiale. Obligarea țăranului să aștepte 10 zile lucrătoare (2 săptămâni) la primărie înainte de a vinde recolta suplimentară duce la alterarea mărfii perisabile, iar amenda de 10.000-20.000 lei și interdicția de 6 luni sunt vădit disproporționate.",
-        "otherComments": "Din textul propunerii lipsește formula introductivă a pct. 3 de la Art. I (înainte de lit. f¹ figurează direct textul sancțiunii fără indicarea art. 16). De asemenea, la Art. 17¹ nu este reglementată procedura prin care administratorul pieței află când procesul-verbal a rămas definitiv în instanță pentru a pune în executare interdicția."
-      }
+        "articleRef": "Art. I pct. 2 (art. 14¹) și pct. 4 (art. 16 h¹)",
+        "proposalContent": "La art. 14¹ alin. (3)-(4), instituirea unei marje de toleranță de 20% pentru producția proprie și a unui termen de 48 de ore cu aprobare tacită pentru produse perisabile. La art. 16 lit. h¹), reducerea amenzii la 2.000-5.000 lei (avertisment la prima abatere) și aplicarea interdicției de 1-3 luni doar la recidivă, pe criterii clare.",
+        "argumentation": "Recoltele variază natural; blocarea vânzării surplusului perisabil 10 zile lucrătoare duce la pierderea mărfii. În plus, amenda de 10.000-20.000 lei și interdicția fixă de 6 luni pentru o omisiune formală sunt mai dure decât sancțiunea pentru fraudă din art. 16 lit. h) (7.500-15.000 lei, fără interdicție), încălcând art. 53 din Constituție.",
+        "otherComments": "Corectați lipsa formulei introductive a pct. 3 (înainte de lit. f¹), corelați art. 17 privind agenții constatatori competenți pentru noua lit. h¹) și clarificați cum pot verifica administratorii piețelor cantitățile vândute în afara documentelor de la tarabă, pentru a evita amenzi arbitrare în baza art. 14 alin. (6)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 198372,
+      "durationMs": 46488,
+      "sourceEndMarker": "SF-5FD66B19",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Amendă de până la 20.000 lei pentru țăranul care vinde în piață mai mult decât scrie în atestat",
-      "verdictShort": "Scopul e legitim: prinderea samsarilor care revând marfă cumpărată drept producție proprie. Mecanismul îl lovește însă și pe producătorul cinstit care a avut o recoltă mai bună decât estimarea: amendă de 10.000–20.000 lei, 10 zile lucrătoare de așteptare fără aprobare tacită și obligații vagi, dar sancționate, pentru administratorii piețelor. Se poate repara prin amendamente; nu trebuie respinsă în bloc.",
-      "initiatorClaim": "Inițiatorii afirmă că Legea nr. 145/2014 nu prevede expres verificarea concordanței dintre datele din documentele producătorului și cantitățile efectiv vândute, ceea ce permite folosirea abuzivă a acestor documente. Vor trasabilitate reală, control mai eficient și protejarea producătorilor autentici și a consumatorilor, fără atribuții noi și fără costuri bugetare semnificative.",
-      "realityCheck": "Producătorul trebuie să ceară actualizarea documentelor înainte de a vinde orice cantitate peste cea înscrisă, fără nicio marjă de toleranță. Primăria are 10 zile lucrătoare să răspundă și nu suportă nicio consecință dacă întârzie, iar vânzarea surplusului în acest interval este contravenție, cu amendă de 10.000–20.000 lei și posibilă interdicție de 6 luni pe taraba respectivă. Administratorii piețelor sunt obligați să sesizeze „de îndată” autorități nenumite, sub amenințarea unei amenzi de 5.000–10.000 lei. Primăriile primesc o verificare anuală nouă, nefinanțată, deși expunerea de motive susține că nu se creează atribuții noi.",
+      "plainTitle": "Amenzi de până la 20.000 lei pentru țăranii care vând în piață mai mult decât scrie în atestat",
+      "verdictShort": "Scopul e legitim: combaterea „țăranilor” falși care revând marfă cumpărată. Mecanismul lovește însă tocmai producătorul autentic care a avut o recoltă mai bună decât estimarea. Amenda e mai mare decât cea pentru revânzarea propriu-zisă, iar actualizarea depinde de primărie, fără termen sancționat și fără aprobare tacită.",
+      "initiatorClaim": "Inițiatorii spun că închid o lacună: lipsa verificării concordanței dintre datele din atestatul și carnetul de producător și cantitățile vândute efectiv. Vor astfel trasabilitate reală, concurență loială și încrederea consumatorilor.",
+      "realityCheck": "Proiectul obligă producătorul să ceară actualizarea documentelor înainte să vândă orice cantitate peste cea înscrisă. Cererea se soluționează în 10 zile lucrătoare, dar nu e prevăzută nicio consecință dacă primăria întârzie. Vânzarea fără actualizare se amendează cu 10.000–20.000 lei, plus interdicția de 6 luni pe spațiul de vânzare, pusă în executare de administratorul pieței. Administratorii primesc o nouă obligație de raportare, greu de îndeplinit, iar minimul amenzii lor crește de la 3.000 la 5.000 lei.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "IMM & Antreprenori",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I pct. 2 (art. 14¹ alin. 3 și 5) și pct. 4 (art. 16 lit. h¹): orice depășire a cantităților înscrise, oricât de mică, devine contravenție cu amendă de 10.000–20.000 lei. O recoltă mai bună decât estimarea este tratată la fel ca revânzarea de marfă cumpărată.",
-        "Art. 14¹ alin. (4): termenul de 10 zile lucrătoare pentru actualizare nu prevede aprobare tacită și nici vreo sancțiune pentru autoritatea care întârzie. Pentru produse perisabile, în vârf de sezon, așteptarea înseamnă fie marfă pierdută, fie vânzare cu risc de amendă.",
-        "Art. 16 lit. h¹ și art. 17¹: sancțiunea complementară vizează doar „spațiul de vânzare în care a fost constatată fapta”, nu piața și nici activitatea persoanei, așa că vânzătorul se poate muta la taraba vecină. Pe de altă parte, 6 luni pot acoperi un sezon întreg. Executarea sancțiunii e lăsată administratorului pieței, care este adesea un operator economic.",
-        "Art. 14 alin. (6) și lit. f¹: administratorul trebuie să informeze „de îndată” „autoritățile competente, potrivit legii”, fără ca acestea să fie numite. I se cere și să constate neconcordanțe de cantitate pe care nu are mijloace să le măsoare. Amenda de 5.000–10.000 lei sancționează astfel o obligație cu contur vag.",
-        "Art. 14¹ alin. (1)–(2): autoritățile locale primesc o verificare anuală nouă, inclusiv prin „constatări la fața locului”. Este o atribuție nouă și nefinanțată, deși expunerea de motive susține contrariul. Impactul bugetar e declarat „redus”, fără fișă financiară.",
-        "Art. 22: actualizarea trimiterii la Regulamentul (UE) 2016/679 și la Legea nr. 190/2018 este o corectură tehnică utilă și neutră.",
-        "Tehnică legislativă: în textul extras lipsește partea introductivă a pct. 3 (lit. f¹ apare fără norma de modificare). Aceeași faptă e definită de două ori, în art. 14¹ alin. (5) și în art. 16 lit. h¹, ceea ce înseamnă paralelism legislativ. Textul conține și greșeala „constată faptă”."
+        "Art. 16 lit. h¹) nou: vânzarea peste datele înscrise, fără actualizare prealabilă, se amendează cu 10.000–20.000 lei, plus interdicția de 6 luni a spațiului de vânzare. Sancțiunea depășește lit. h) în vigoare, care pedepsește revânzarea de produse care nu sunt din producție proprie cu 7.500–15.000 lei. Rezultă o ierarhie inversă: abaterea formală costă mai mult decât frauda propriu-zisă.",
+        "Art. 14¹ alin. (3)–(4): actualizarea trebuie obținută înainte de valorificare, iar termenul de soluționare e de 10 zile lucrătoare. Nu există aprobare tacită și nici sancțiune pentru autoritatea care întârzie. Producătorul cu marfă perisabilă poate rămâne blocat.",
+        "Nu există nicio marjă de toleranță: orice depășire, chiar de câteva procente față de o producție estimată, intră sub incidența amenzii maxime.",
+        "Art. 14 alin. (6) nou: administratorul pieței trebuie să informeze despre „valorificarea unor cantități care nu corespund” documentelor. Administratorul nu are mijloace de cântărire sau de evidență a vânzărilor fiecărui producător. Cu toate acestea, riscă 5.000–10.000 lei (lit. f¹ modificată).",
+        "Art. 17¹: sancțiunea complementară se execută de administratorul pieței, adesea o entitate comercială, după ce procesul-verbal rămâne definitiv. Formula „fără a afecta dreptul de a se adresa instanței” e confuză după ce procesul-verbal a devenit deja definitiv.",
+        "Art. 22 modificat: trimiterea la Legea nr. 677/2001, abrogată, e înlocuită cu trimiterea la GDPR și la Legea nr. 190/2018. Corecție tehnică utilă."
       ],
-      "blindSpotsCaught": "Art. 14¹ nu precizează care autoritate locală este competentă: primăria emitentă, de la domiciliul producătorului, sau cea din localitatea pieței. Vânzarea se face adesea în alt oraș, iar legea nu spune cum ajung la autoritatea care verifică datele despre cantitățile efectiv vândute. Art. 17¹ promite că executarea „nu afectează dreptul de a se adresa instanței”, dar sancțiunea se aplică doar după ce procesul-verbal a rămas definitiv, adică după ce calea plângerii contravenționale s-a închis, așa că garanția e în mare parte declarativă. În plus, datele din documente sunt fixate la emitere, de regulă înainte ca recolta să fie cunoscută, iar legea le transformă din estimare în plafon de vânzare.",
-      "constitutionalityNote": "Nu apare o neconstituționalitate flagrantă, dar există vulnerabilități. Art. 1 alin. (5): „autoritățile competente, potrivit legii”, „neconcordanțele constatate” și „spațiul de vânzare” sunt noțiuni vagi într-o normă sancționatorie. Potrivit CEDO (Anghel c. României, 2007), contravențiile de acest tip intră în „materia penală” a art. 6, deci exigența de claritate este sporită. Art. 23 alin. (12) este respectat formal, întrucât sancțiunile sunt prevăzute de lege. Proporționalitatea cerută de art. 53 este însă discutabilă, ca și respectarea libertății economice garantate de art. 45, din cauza lipsei oricărei toleranțe și a amenzii minime de 10.000 lei pentru gospodării mici. Expunerea invocă art. 44, dar dreptul afectat în primul rând este cel din art. 45. Art. 14¹ creează o cheltuială nouă pentru autoritățile locale fără sursă de finanțare (art. 138 alin. 5), iar lipsa fișei financiare contravine art. 15 din Legea nr. 500/2002. Trebuie verificat și dacă a fost cerută informarea Guvernului (art. 111 alin. 1).",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, deoarece vânzarea produselor din gospodăria proprie nu este o profesie reglementată care să ceară calificări profesionale. Nici Directiva (UE) 2015/1535 (TRIS) nu este incidentă, pentru că textul nu reglementează specificații tehnice ale produselor și nici servicii ale societății informaționale. Mai relevantă, deși cu aplicabilitate discutabilă pentru producătorii persoane fizice, este Directiva 2006/123/CE privind serviciile, transpusă prin OUG nr. 49/2009. Dacă documentele producătorului sunt privite ca regim de autorizare a vânzării cu amănuntul, termenul de 10 zile fără aprobare tacită intră în tensiune cu art. 13 alin. (4), iar condițiile trebuie să fie necesare și proporționale. În dreptul intern, termenul ar trebui corelat cu OUG nr. 27/2003 privind aprobarea tacită. Art. 22 modificat aliniază corect legea la GDPR. Pentru concurență, efectul e ambivalent: legea descurajează revânzarea mascată, care este concurență neloială față de producătorii autentici. Amenzile disproporționate pot însă împinge micii producători din piețe, în favoarea intermediarilor și a marilor lanțuri.",
+      "blindSpotsCaught": "Lipsește antetul punctului 3: modificarea art. 16 lit. f¹) apare în text fără formula introductivă și fără numerotare, un viciu de tehnică legislativă (Legea nr. 24/2000). Această modificare ridică minimul amenzii administratorului de la 3.000 la 5.000 lei și extinde fapta la noul alin. (6). Art. 14¹ alin. (1) nu precizează care autoritate locală e „competentă” și nici ce „date” se verifică (suprafețe, efective de animale sau producție estimată). Producătorii din alte state UE sunt exceptați prin art. 14 alin. (2), așa că sarcina nouă cade doar pe fermierii români. Există și o greșeală de redactare: „constată faptă”. Ordinul comun trebuie modificat în 60 de zile, adică exact la intrarea în vigoare a legii, deci fără perioadă de tranziție.",
+      "constitutionalityNote": "Previzibilitatea (art. 1 alin. 5) e afectată de noțiuni nedefinite: „datele care au stat la baza emiterii”, „cantități suplimentare”, „autoritatea competentă”. Proporționalitatea (art. 53) e discutabilă: o amendă minimă de 10.000 lei pentru o persoană fizică, fără gradualitate, fără avertisment și fără toleranță, plus pierderea spațiului de vânzare, depășește ce e necesar scopului. Sancțiunea e și mai severă decât cea pentru frauda pe care o vizează legea. Restrângerea libertății economice (art. 45) depinde de celeritatea primăriei, fără garanții. Nu sunt încălcări flagrante, dar există riscul ca o excepție de neconstituționalitate să fie admisă parțial.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: proiectul nu reglementează profesii. Directiva (UE) 2015/1535 (TRIS) nu e incidentă: nu sunt reglementate servicii ale societății informaționale și nici specificații tehnice de produs. Libera circulație nu e afectată, deoarece producătorii din UE sunt exceptați prin art. 14 alin. (2). Rezultă o discriminare inversă față de fermierii români, permisă de dreptul UE, dar relevantă pentru egalitate (art. 16 din Constituție). Alinierea art. 22 la Regulamentul (UE) 2016/679 este conformă.",
       "senatForm": {
-        "articleRef": "Art. I pct. 2 și 4 (art. 14¹, art. 16 lit. h¹)",
-        "proposalContent": "Art. 14¹ alin. (4): cererea se soluționează în 5 zile lucrătoare, altfel operează aprobarea tacită. Art. 16 lit. h¹): valorificarea, fără depunerea cererii de actualizare, a unor cantități care depășesc cu peste 20% datele înscrise, cu amendă de la 1.000 la 3.000 lei; la repetarea faptei în 12 luni, contravenientului i se poate interzice vânzarea în acea piață pe 3 luni.",
-        "argumentation": "O recoltă mai bună decât estimarea nu e fraudă. Amenda de 10.000–20.000 lei poate depăși venitul anual din surplus al unei gospodării mici, iar 10 zile lucrătoare de așteptare fără aprobare tacită înseamnă marfă perisabilă pierdută. Interdicția vizează doar taraba: vânzătorul se mută alături, deci e ambiguă și ineficientă. Propunerea păstrează scopul anti-samsari.",
-        "otherComments": "Verificați pct. 3: lit. f¹) apare fără partea introductivă. Art. 14 alin. (6) trebuie să numească autoritatea sesizată (ex. primăria emitentă). Art. 14¹ dă primăriilor o verificare anuală nouă, fără sursă de finanțare (art. 138 alin. 5 Constituție), iar primăria emitentă nu poate controla piețe din alte localități. Corectați „constată faptă”."
-      }
+        "articleRef": "Art. I pct. 2 (art. 14¹) și pct. 4 (art. 16 h¹)",
+        "proposalContent": "Art. 14¹ alin. (4): «Cererea se soluționează în 5 zile lucrătoare; la depășirea termenului, actualizarea se consideră aprobată tacit.» Art. 16 lit. h¹): amendă de la 2.000 la 5.000 lei pentru depășiri de peste 20% față de datele înscrise; avertisment la prima abatere; interdicția spațiului doar la repetarea faptei în 12 luni, pe max. 3 luni.",
+        "argumentation": "Recolta reală depășește frecvent estimarea din atestat. Fără aprobare tacită, producătorul pierde marfa perisabilă așteptând primăria. Amenda de 10.000–20.000 lei depășește sancțiunea pentru revânzarea produselor cumpărate (lit. h, 7.500–15.000 lei) și e disproporționată pentru un mic fermier; art. 53 din Constituție și OG 2/2001 cer gradualitate.",
+        "otherComments": "Lipsește antetul pct. 3 (modificarea art. 16 lit. f¹), care ridică minimul de la 3.000 la 5.000 lei. Art. 14 alin. (6) cere administratorului să constate cantități pe care nu are mijloace să le măsoare. Corectați «constată faptă» și precizați autoritatea competentă din art. 14¹ alin. (1)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 83293,
+      "durationMs": 103823,
+      "sourceEndMarker": "SF-5FD66B19",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Amenzi pentru fermierii care vând peste recolta estimată în acte",
-      "verdictShort": "Combaterea falșilor producători este utilă, dar proiectul riscă să sancționeze inclusiv fermierul care obține o recoltă proprie mai bună decât estimarea. Obligația de actualizare înaintea vânzării, amenda de 10.000–20.000 lei și posibila pierdere temporară a locului de vânzare necesită corectări substanțiale.",
-      "initiatorClaim": "Inițiatorii urmăresc verificarea provenienței produselor, descurajarea folosirii abuzive a documentelor de producător și protejarea concurenței loiale. Ei susțin că măsurile folosesc competențele și structurile existente, cu impact bugetar redus.",
-      "realityCheck": "Art. 14¹ introduce verificări anuale sau la sesizare și obligă titularul să solicite actualizarea documentelor înainte să valorifice cantități suplimentare, cererea fiind soluționată în maximum 10 zile lucrătoare. Coroborat cu art. 16 lit. h¹), mecanismul poate transforma estimările agricole în plafoane administrative de vânzare, fără să distingă suficient recolta proprie suplimentară de produsele cumpărate pentru revânzare. Proiectul nu introduce explicit taxe sau monopoluri, dar creează sarcini administrative și riscuri de pierdere a produselor perisabile.",
+      "plainTitle": "Amenzi pentru producătorii care vând peste cantitățile din acte",
+      "verdictShort": "Combaterea falsei proveniențe agricole este utilă, dar proiectul poate sancționa și producătorul autentic care obține o recoltă mai mare. Amenda de 10.000–20.000 lei și posibila interdicție de șase luni cer o definiție mult mai precisă a abaterii.",
+      "initiatorClaim": "Inițiatorii urmăresc să verifice proveniența și cantitățile produselor agricole, să descurajeze folosirea abuzivă a documentelor și să protejeze producătorii autentici și consumatorii. Susțin că verificările vor folosi structurile existente, cu impact bugetar redus.",
+      "realityCheck": "Proiectul introduce verificări locale anuale sau la sesizare și condiționează vânzarea cantităților suplimentare de actualizarea prealabilă a documentelor, cu soluționarea cererii în 10 zile lucrătoare. Depășirea cantităților documentate devine contravenție distinctă, chiar fără dovada că produsele provin de la altcineva; vânzarea produselor din afara producției proprii este deja sancționată de art. 16 lit. h). Pentru administratorii piețelor, obligația de sesizare se extinde, iar minimul amenzii existente crește de la 3.000 la 5.000 lei.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "IMM & Antreprenori",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 14¹ alin. (3)-(5) și art. 16 lit. h¹): nu sunt identificate precis documentul cantitativ relevant, perioada de calcul, cumularea vânzărilor în piețe diferite sau tratamentul diferențelor normale de producție. Legea existentă utilizează producții estimate în carnet, potrivit art. 8 alin. (6); depășirea unei estimări nu dovedește singură proveniența nelegală. [Legea nr. 145/2014](https://legislatie.just.ro/Public/DetaliiDocument/162616)",
-        "Art. 16 lit. h¹): amenda propusă este de 10.000–20.000 lei indiferent de mărimea depășirii. Comparativ, vânzarea produselor altora în baza carnetului este deja sancționată cu 7.500–15.000 lei prin art. 16 lit. h). Diferența necesită o justificare: abaterea documentară poate primi o amendă mai mare decât practica frauduloasă vizată. [Regimul existent](https://legislatie.just.ro/Public/DetaliiDocument/162616)",
-        "Art. 16 lit. h¹) permite, fără să impună automat, interzicerea ocupării spațiului pentru șase luni. Textul nu interzice expres vânzarea în toate piețele, însă nu clarifică suficient dacă spațiul vizat este taraba sau un perimetru mai larg și nici momentul de început al interdicției.",
-        "Art. 17¹ condiționează executarea interdicției de definitivarea procesului-verbal, ceea ce reprezintă o garanție utilă. Proiectul nu exclude expres avertismentul pentru fapte de gravitate redusă sau individualizarea sancțiunilor, prevăzute de OG nr. 2/2001; acestea nu repară însă descrierea insuficientă a faptei. [OG nr. 2/2001, art. 5 și 7](https://legislatie.just.ro/Public/DetaliiDocument/29779)",
-        "Art. 14 alin. (6): administratorul trebuie să sesizeze de îndată autoritățile competente, sub sancțiunea unei amenzi de 5.000–10.000 lei. Trebuie precizate destinatarul sesizării și verificările rezonabil exigibile administratorului; textul nu îi conferă explicit puteri generale de investigație.",
-        "Art. 14¹ alin. (1)-(4) generează muncă administrativă suplimentară: verificări, deplasări, cereri și procese-verbale. Folosirea personalului existent nu demonstrează absența costurilor; expunerea nu cuantifică volumul de lucru sau pierderile posibile ale producătorilor în așteptarea actualizării.",
-        "Art. 22 actualizează util trimiterea privind protecția datelor. Art. II și III stabilesc același reper de 60 de zile pentru adaptarea normelor și intrarea în vigoare, fără o perioadă distinctă pentru conformarea producătorilor după publicarea formularelor actualizate."
+        "Art. 14¹ alin. (3)–(5) și art. 16 lit. h¹): nu sunt precizate documentul cantitativ determinant, perioada de referință, calculul depășirii și tratamentul estimărilor de producție. Aceste elemente sunt esențiale pentru previzibilitatea contravenției.",
+        "Art. 14¹ alin. (4): termenul de 10 zile lucrătoare nu este însoțit de o procedură pentru produse perisabile sau de dreptul de a vinde surplusul după notificare. Așteptarea actualizării poate produce pierderi chiar pentru recolte autentice.",
+        "Art. 16 lit. h¹): amenda nouă este de 10.000–20.000 lei, cu posibilitatea interzicerii ocupării spațiului respectiv timp de șase luni. Interdicția privește spațiul în care s-a constatat fapta, nu toate piețele și nici întreaga activitate comercială.",
+        "Art. 17¹: interdicția se execută pe baza procesului-verbal rămas definitiv. Proiectul nu înlătură regimul general al plângerii contravenționale și al suspendării executării; lipsa repetării acestor garanții nu înseamnă eliminarea lor.",
+        "Art. 14 alin. (6) și modificarea art. 16 lit. f¹): administratorul trebuie să sesizeze de îndată neconcordanțele constatate. Sancțiunea vizează și obligațiile sale existente de supraveghere a documentelor, cu majorarea minimului amenzii la 5.000 lei.",
+        "Art. II–III: legea intră în vigoare după 60 de zile, iar ordinul comun trebuie adaptat în același interval. Nu există o etapă distinctă pentru actualizarea documentelor deja emise; elementele esențiale ale contravenției trebuie stabilite în lege, nu lăsate ordinului.",
+        "Art. 22 actualizează trimiterea depășită la Legea nr. 677/2001 prin referirea la GDPR și Legea nr. 190/2018. Este o corelare utilă, nu momentul de la care GDPR ar deveni aplicabil.",
+        "Controalele recurente, sesizările și cererile de actualizare adaugă muncă pentru primării, administratori și producători. Folosirea structurilor existente nu demonstrează, singură, absența unor costuri suplimentare."
       ],
-      "blindSpotsCaught": "Capcana principală este diferența dintre estimarea producției și dovada provenienței: proiectul poate sancționa depășirea primeia fără să dovedească falsificarea celei de-a doua. În extras lipsește formula introductivă a punctului 3, înaintea lit. f¹); trebuie verificat documentul oficial înainte de a considera aceasta o eroare a proiectului. Analiza privește forma inițiatorului furnizată, fără a presupune că eventualele amendamente ulterioare au același conținut.",
-      "constitutionalityNote": "Riscul principal privește art. 1 alin. (5): o contravenție trebuie să permită identificarea previzibilă a conduitei interzise, iar expresia cantități care depășesc datele înscrise nu stabilește suficient reperul verificabil. Art. 23 alin. (12) exprimă legalitatea pedepselor; pentru contravențiile administrative, critica trebuie fundamentată în primul rând pe art. 1 alin. (5), cu respectarea garanțiilor materiei sancționatorii. Art. 45 și art. 135 impun evaluarea efectelor asupra activității economice și concurenței. Nu rezultă o expropriere sau o încălcare automată a art. 44. Dacă măsura constituie o restrângere în sensul art. 53, necesitatea și proporționalitatea trebuie demonstrate concret; invocarea generică a ordinii economice nu este suficientă. Acestea sunt vulnerabilități, nu o constatare definitivă de neconstituționalitate. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355?isFormaDeBaza=True)",
-      "euLawNote": "Directiva (UE) 2018/958 privește accesul la profesii reglementate și exercitarea acestora în cadrul Directivei 2005/36/CE. Atestatul de producător nu reprezintă, prin el însuși, o calificare profesională; textul analizat nu indică aplicabilitatea acestui test special. [Directiva 2018/958, art. 2](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018L0958) Proiectul nu reglementează servicii digitale sau AI. Totuși, TRIS nu privește exclusiv asemenea servicii: Directiva 2015/1535 acoperă și reglementări tehnice pentru produse agricole. Din extras nu rezultă clar o specificație tehnică notificabilă; trebuie verificat dacă mecanismul cantitativ constituie o altă cerință care influențează semnificativ comercializarea, înainte de a concluziona că notificarea este obligatorie sau inutilă. [Explicațiile Comisiei Europene privind TRIS](https://technical-regulation-information-system.ec.europa.eu/en/about-the-20151535/what-is-a-technical-regulation) Verificarea provenienței poate susține concurența loială, dar blocarea vânzărilor pentru depășirea estimărilor poate dezavantaja producătorii mici; nu este demonstrată din text o discriminare a produselor importate.",
+      "blindSpotsCaught": "Motivarea prezintă măsura ca instrument împotriva documentelor folosite abuziv, dar noua contravenție poate transforma o cantitate estimată într-un plafon practic de comercializare, inclusiv pentru producția proprie. În extras lipsește formula introductivă a punctului 3, înaintea lit. f¹); aceasta trebuie confruntată cu documentul oficial, fără a presupune că omisiunea există și în original.",
+      "constitutionalityNote": "Riscul principal privește art. 1 alin. (5): o amendă importantă trebuie să se bazeze pe obligații și criterii cantitative identificabile. Natura contravențională a măsurii impune evitarea unei aplicări mecanice a art. 23 alin. (12), specific legalității pedepsei. Amenda și interdicția necesită o justificare proporțională în raport cu libertatea economică, potrivit art. 45, și cu efectele patrimoniale relevante pentru art. 44. Regimul general contravențional păstrează individualizarea și controlul judecătoresc, dar acestea nu repară integral o faptă definită neclar. Invocarea art. 53 în expunere nu dovedește singură necesitatea măsurii. Sunt riscuri de constituționalitate care cer corectarea textului, nu o neconstituționalitate certă.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementărilor privind profesiile reglementate; obligațiile de comercializare agricolă din proiect nu indică, prin ele însele, intrarea în acest domeniu. Directiva (UE) 2015/1535 acoperă și reglementări tehnice privind produse, inclusiv agricole, nu doar servicii digitale: proiectul nu reglementează servicii digitale sau AI, iar o obligație TRIS nu rezultă evident din aceste cerințe documentare. Concurența poate beneficia de combaterea falsei proveniențe, dar costurile fixe și blocarea surplusului pot afecta disproporționat producătorii mici. Trebuie clarificată aplicarea noilor obligații față de producătorii din alte state membre, ale căror documente sunt deja recunoscute prin art. 14 alin. (2), evitând condiții discriminatorii. Verificarea online nu a fost disponibilă; analiza privește textele furnizate și cadrul juridic general.",
       "senatForm": {
         "articleRef": "Art. I pct. 2, 4 și 5",
-        "proposalContent": "Se elimină alin. (3)-(5) ale art. 14¹, propuse la art. I pct. 2. Se elimină art. I pct. 4 și 5, privind introducerea art. 16 lit. h¹) și a art. 17¹.",
-        "argumentation": "Producțiile estimate nu sunt plafoane certe. Depășirea lor nu dovedește revânzarea produselor altora, deja sancționată de art. 16 lit. h). Actualizarea prealabilă poate bloca vânzarea recoltei perisabile. Eliminarea acestor dispoziții păstrează verificările și sesizările, evitând sancționarea unei recolte proprii mai bune.",
-        "otherComments": "Propunere cetățenească adresată comisiilor raportoare ale Camerei Deputaților; poate fi preluată de un deputat. Termenul de amendamente indicat, 28.09.2026, a trecut; transmiterea unei opinii nu garantează înregistrarea sa ca amendament. Verificați în documentul oficial și formula de modificare a art. 16 lit. f¹), absentă din extras."
-      }
+        "proposalContent": "La art. 14¹: alin. (3) devine „(3) Titularul notifică emitentului modificarea estimărilor înaintea vânzării surplusului din producția proprie, fără suspendarea comercializării.”; alin. (4) devine „(4) Documentele se actualizează în 10 zile lucrătoare de la notificare.”; alin. (5) se elimină, iar alin. (6) devine alin. (5). Pct. 4 și 5 se elimină.",
+        "argumentation": "Recolta efectivă poate depăși estimările fără fraudă. Actualizarea prealabilă, amenda de 10.000–20.000 lei și interdicția de șase luni pot afecta producătorii autentici și produsele perisabile. Notificarea permite verificarea fără blocarea vânzării; sancțiunea existentă pentru comercializarea produselor din afara producției proprii rămâne aplicabilă.",
+        "otherComments": "Propunere pentru comisiile raportoare ale Camerei Deputaților, preluabilă de un deputat. O eventuală sancțiune pentru nedeclarare trebuie definită separat, prin documente, perioade și criterii clare. Termenul de amendamente indicat, 28.09.2026, este depășit; transmiterea cetățenească nu echivalează cu depunerea formală a unui amendament."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-28T22:55:59.194Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:55:07.711Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

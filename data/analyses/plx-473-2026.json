@@ -2,122 +2,179 @@
   "billId": "PL-x 473/2026",
   "slug": "plx-473-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T00:43:02.338Z",
+  "updatedAt": "2026-11-24T14:52:08.766Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 1784,
+    "ordinanceChars": 0,
+    "memoChars": 18004,
+    "memoSupplied": 18004,
+    "marker": "SF-466BDEEA"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-473-2026.json",
+    "form": "senat",
+    "textHash": "466bdeeae28e47c5",
+    "fetchedAt": "2026-11-19T10:12:27.605Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 2569,
+    "truncated": false,
+    "included": true,
+    "key": "4780a00137cb7ab0"
+  },
   "consensus": {
-    "riskScore": 3.3,
+    "riskScore": 3.7,
     "riskLevel": "green",
-    "plainTitle": "Bunurile firmelor în insolvență, anunțate obligatoriu și gratuit pe un site UNPIR",
-    "summaryTlDr": "Ideea e bună: anunțurile de vânzare din insolvență ajung gratuit online, pentru toate tipurile de vânzare, nu doar în ziare. Problema e că textul leagă sancțiunea nulității de o platformă pe care legea nu o definește. Nu există nici un plan B dacă site-ul pică sau nu e gata în 6 luni.",
-    "initiatorClaim": "Inițiatorii (parlamentari AUR) spun că anunțurile din ziare ajung la prea puțini cumpărători, așa că bunurile firmelor insolvente se vând sub valoarea de piață. Ei vor un portal public gratuit al UNPIR pentru toate vânzările, nu doar pentru licitații, ca să crească concurența și sumele recuperate de creditori.",
-    "realityCheck": "Art. I adaugă publicarea gratuită pe o platformă UNPIR, dar păstrează obligatoriu și anunțul din ziar. Prin urmare, costul publicității plătite din averea debitorului nu scade, deși expunerea sugerează asta. Efectul juridic real e sancțiunea: vânzarea făcută fără oricare dintre cele două publicații devine nulă, iar textul nu spune dacă nulitatea e absolută sau relativă. Dacă UNPIR nu pune platforma în funcțiune în 6 luni (art. III), legea nu oferă nicio soluție, iar vânzările riscă să se blocheze sau să devină anulabile.",
+    "plainTitle": "Anunțurile de vânzare din falimente vor apărea gratuit și pe o platformă online a UNPIR",
+    "summaryTlDr": "Este o lege mică și utilă, care adaugă publicitatea online gratuită la vânzările din insolvență. Forma Senatului lasă însă neclar ce fel de nulitate se aplică și nu are norme tranzitorii, iar asta poate crea litigii exact acolo unde voia să aducă transparență.",
+    "initiatorClaim": "Inițiatorii spun că anunțurile tipărite în ziare ajung la puțini cumpărători, iar activele se vând sub valoarea de piață. De aceea vor ca toate vânzările din insolvență, inclusiv cele prin negociere directă, să fie publicate gratuit pe un portal UNPIR, ca să existe mai multă concurență și prețuri mai bune pentru creditori.",
+    "realityCheck": "Art. I păstrează obligația de publicare în ziar și adaugă publicarea gratuită pe o „platformă electronică unică” a UNPIR. Vânzarea se poate face „numai” după ambele publicări, „sub sancțiunea nulității”. Costul anunțului din ziar rămâne, deci economia promisă în expunerea de motive este exagerată. Sancțiunea nu precizează dacă nulitatea e absolută sau relativă, iar legea nu spune ce se întâmplă dacă platforma nu e funcțională la termen sau cu vânzările deja anunțate înainte de intrarea în vigoare.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Justiție & Drepturi Civile",
-      "Proprietari & Imobiliare",
-      "Angajați & HR"
+      "Proprietari & Imobiliare"
     ],
     "senatForm": {
-      "articleRef": "Art. I (art. 156 alin. (4) din Legea 85/2014)",
-      "proposalContent": "(4) Vânzarea activelor se face numai după publicarea anunțului de către administratorul/lichidatorul judiciar într-un ziar de largă circulație și, gratuit, pe platforma UNPIR, cu acces liber, fără cont, până la vânzare, sub sancțiunea nulității relative. Indisponibilitatea dovedită a platformei nu atrage nulitatea. Persoanele interesate pot inspecta bunurile după publicare.",
-      "argumentation": "Nulitatea fără precizare lasă instanțelor să decidă dacă e absolută sau relativă (art. 1 alin. 5 Constituție). O eroare IT a unei platforme pe care practicianul nu o controlează nu trebuie să anuleze vânzarea către un cumpărător de bună-credință. Accesul liber, fără cont, e cel care aduce efectiv mai mulți cumpărători și prețuri mai bune.",
-      "otherComments": "Art. III: dacă UNPIR nu operaționalizează platforma în 6 luni, nicio vânzare nu mai e posibilă; e nevoie de o regulă de tranziție și pentru vânzările deja anunțate. Ziarul rămâne obligatoriu, deci costul nu scade, cum promite expunerea; Parlamentul poate face publicarea în ziar facultativă. Conținutul minim al anunțului ar trebui stabilit prin lege."
+      "articleRef": "Art.I – art.156 alin.(4) L.85/2014; art.III^1 nou",
+      "proposalContent": "Art.156 alin.(4) teza I se încheie: „...sub sancțiunea nulității relative, ce poate fi invocată de orice parte interesată în termen de 30 de zile de la data vânzării.” Art.III^1 nou: „Dispozițiile art.I se aplică vânzărilor ale căror publicații se efectuează după intrarea în vigoare a prezentei legi.”",
+      "argumentation": "Textul Senatului spune doar „sub sancțiunea nulității”, fără să precizeze dacă e absolută sau relativă, cine o poate invoca și în ce termen. Riscul este ca vânzările să fie contestate ani de zile, cumpărătorii de bună-credință să se retragă și prețurile să scadă, adică exact opusul scopului legii. Lipsește și o regulă pentru vânzările deja anunțate.",
+      "otherComments": "Art.III obligă UNPIR să facă platforma funcțională în 6 luni, dar nu prevede ce se întâmplă dacă nu o face. Cum vânzarea se poate face „numai” după publicarea pe platformă, o întârziere ar bloca toate valorificările. Propunem ca platforma să emită o dovadă datată a publicării, depusă la dosar, și ca legea să fixeze o durată minimă de afișare."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 53654,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Publicarea gratuită online pe portalul UNPIR a tuturor vânzărilor de bunuri din insolvență",
-      "verdictShort": "O măsură utilă și binevenită de transparentizare, care scoate la lumină vânzările de active din insolvență (inclusiv negocierile directe) ascunse până acum doar în ziare tipărite. Textul are însă câteva lacune tehnice și tranzitorii care pot genera litigii privind nulitatea vânzărilor.",
-      "initiatorClaim": "Inițiatorii urmăresc creșterea transparenței și a prețurilor obținute la vânzarea activelor firmelor în insolvență (și reducerea costurilor de publicitate), obligând practicienii în insolvență să publice gratuit anunțurile pe o platformă electronică unică a UNPIR.",
-      "realityCheck": "Legea extinde oportun obligația publicării online pe platforma UNPIR de la licitațiile publice (deja reglementate la art. 154 alin. 2) la toate modalitățile de vânzare, sub sancțiunea nulității. Totuși, nu reduce costurile cu presa scrisă (deoarece păstrează cumulativ obligația publicării într-un „ziar de largă circulație”) și omite o normă tranzitorie pentru dosarele de insolvență deja aflate pe rol.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 88741,
+      "sourceEndMarker": "SF-466BDEEA",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Anunțuri gratuite pe platforma UNPIR în insolvență, sub sancțiunea nulității",
+      "verdictShort": "Inițiativa urmărește un obiectiv legitim și util — digitalizarea gratuită a publicității tuturor vânzărilor de active din insolvență — fără costuri bugetare sau taxe noi. Totuși, introducerea unei sancțiuni de nulitate necalibrate, fără termen minim de afișare, fără reguli tranzitorii și păstrând obligatoriu și „ziarul de largă circulație”, riscă să genereze contestații și blocaje în valorificarea activelor.",
+      "initiatorClaim": "Inițiatorii susțin că publicitatea exclusivă în presa scrisă este costisitoare și ineficientă, motiv pentru care extind obligația de publicare gratuită pe un portal electronic administrat de UNPIR la toate tipurile de vânzare din insolvență (nu doar licitațiile publice), pentru a crește transparența, concurența și prețul obținut pentru creditori.",
+      "realityCheck": "Față de forma în vigoare a art. 156 alin. (4) din Legea nr. 85/2014 (care cere doar publicarea într-un ziar de largă circulație, fără sancțiune expresă), proiectul adaugă publicarea gratuită pe o platformă unică a UNPIR, dar menține cumulativ ziarul și introduce sintagma „numai după... sub sancțiunea nulității”. În practică, lipsa precizării naturii nulității, a unei durate minime de afișare, a excepțiilor (ex. bunuri perisabile) și a protecției terților cumpărători de bună-credință transformă o măsură bună de transparență într-o armă procedurală pentru contestarea și anularea vânzărilor.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Justiție & Drepturi Civile",
         "Proprietari & Imobiliare"
       ],
       "keyFindings": [
-        "Art. I (modificarea art. 156 alin. 4): Introduce obligația publicării gratuite pe platforma electronică unică a UNPIR pentru toate vânzările de active (inclusiv negociere directă), sub sancțiunea nulității, limitând practica ascunderii anunțurilor în ziare cu tiraj obscur.",
-        "Contradicție cu Expunerea de Motive: Deși inițiatorii invocă „reducerea costurilor de publicitate din averea debitorului”, textul Art. I păstrează obligativitatea publicării simultane într-un ziar de largă circulație, deci nu elimină cheltuielile cu presa tipărită.",
-        "Art. III: Stabilește că publicarea anunțurilor este gratuită, dar nu precizează expres că și accesul publicului larg (al potențialilor cumpărători) la consultarea completă a anunțurilor și a detaliilor bunurilor pe platformă este gratuit și necondiționat de abonament.",
-        "Lipsa termenului minim: Art. 156 alin. (4) impune sancțiunea nulității vânzării fără publicație, dar nu prevede cu câte zile înainte de vânzare trebuie publicat anunțul pe platforma UNPIR pentru ca inspecția bunurilor să fie efectivă."
+        "Sancțiune de nulitate necalibrată la Art. I (art. 156 alin. (4)): proiectul introduce pentru prima dată sancțiunea expresă a nulității (spre deosebire de legea în vigoare), dar nu clarifică dacă este nulitate absolută sau relativă, dacă trebuie dovedită o vătămare și cum este protejat cumpărătorul de bună-credință.",
+        "Păstrarea anacronică a ziarului sub sancțiunea nulității: deși Expunerea de Motive critică presa scrisă ca fiind scumpă și ineficientă, Art. I păstrează obligația publicării într-un „ziar de largă circulație” (noțiune nedefinită legal) și o supune acum expres nulității, inclusiv pentru active de valoare mică sau bunuri perisabile.",
+        "Delegare vagă către UNPIR la Art. III: proiectul obligă UNPIR să operaționalizeze platforma în 6 luni și să adopte „măsurile tehnice necesare”, fără ca legea să fixeze garanții minime esențiale (termen minim de afișare înainte de vânzare, dovada publicării cu dată certă, procedura în caz de defecțiune tehnică a platformei).",
+        "Lipsa normelor tranzitorii și a corelării legislative: Art. II stabilește intrarea în vigoare în 6 luni, dar nu precizează dacă noua condiție de validitate se aplică procedurilor de insolvență deja deschise sau anunțurilor aflate în derulare, și nu corelează textul cu art. 154 alin. (2) care menționează încă afișarea pe „site-ul UNPIR” și în BPI."
       ],
-      "blindSpotsCaught": "Capcană de drept tranzitoriu: Legea nr. 85/2014 se completează cu Codul de procedură civilă (art. 342 alin. 1), iar potrivit art. 24 C. proc. civ., legea nouă se aplică doar proceselor începute după intrarea ei în vigoare. În lipsa unei dispoziții tranzitorii exprese în Art. II, noua obligație de publicare online nu s-ar aplica miilor de dosare de insolvență deja deschise (care durează ani de zile) sau va genera practică neunitară și anulări de vânzări în instanță.",
-      "constitutionalityNote": "Proiectul este în linii mari conform cu Constituția, servind protejării dreptului de proprietate al creditorilor (Art. 44). Sub aspectul calității și previzibilității legii (Art. 1 alin. 5), înlocuirea de către Senat a sintagmei „nulității absolute” cu „sub sancțiunea nulității” fără precizarea regimului juridic (relativă/absolută/necondiționată) și fără o normă tranzitorie clară poate genera interpretări judiciare divergente.",
-      "euLawNote": "Proiectul este aliniat cu art. 28 din Directiva (UE) 2019/1023 privind digitalizarea procedurilor de insolvență. Nu încalcă Directiva (UE) 2018/958 (testul de proporționalitate), deoarece nu introduce restricții de acces în profesie, ci o regulă de transparență procedurală gratuită. De asemenea, nu impune notificarea TRIS conform Directivei (UE) 2015/1535, vizând exclusiv o platformă instituțională de publicitate procedurală.",
+      "blindSpotsCaught": "Între forma inițială (reflectată în fișa Camerei Deputaților, care menționa „nulității absolute”) și forma adoptată de Senat s-a eliminat cuvântul „absolute”, rămânând generic „sub sancțiunea nulității” — ceea ce, în procedura civilă română, creează o nulitate expresă (cu vătămare prezumată) și deschide dispute judiciare asupra regimului ei juridic. În plus, condiționarea validității vânzării de funcționarea tehnică a unei platforme administrate de un organism profesional (UNPIR), fără un mecanism legal de suplinire în caz de indisponibilitate (downtime) sau de certificare automată cu marcă temporală, introduce un risc operațional major.",
+      "constitutionalityNote": "Proiectul ridică vulnerabilități față de art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii): sancțiunea nulității este atașată atât unei noțiuni legale nedefinite („ziar de largă circulație”), cât și unei platforme pentru care legea nu fixează durata minimă de afișare, dovada publicării ori normele tranzitorii, delegând „măsurile tehnice” unei organizații profesionale de utilitate publică (UNPIR), fără criterii legale. Lipsa protecției exprese a dobânditorilor de bună-credință poate afecta securitatea circuitului civil și dreptul de proprietate (art. 44). Adoptarea de către Senat cu majoritate de lege organică (art. 76 alin. 1) respectă caracterul actului modificat.",
+      "euLawNote": "Măsura este aliniată cu obiectivele de digitalizare și transparență din Directiva (UE) 2019/1023 (art. 28) și Regulamentul (UE) 2015/848 privind insolvența. Nu intră sub incidența restricțiilor privind accesul la profesii reglementate din Directiva (UE) 2018/958 și nu necesită notificare TRIS conform Directivei (UE) 2015/1535, întrucât nu impune bariere furnizorilor de servicii ale societății informaționale și nu interzice publicitatea suplimentară pe portaluri private. Din perspectiva concurenței, centralizarea gratuită la UNPIR este justificată de interesul public (punct unic de informare), cu condiția să nu fie legată de servicii comerciale contra cost și să permită accesul la date deschise.",
       "senatForm": {
-        "articleRef": "Art. I (art. 156 alin. 4) și Art. II",
-        "proposalContent": "La Art. I, teza I se completează cu: „cu cel puțin 10 zile înainte de vânzare, platforma generând automat dovada certă a publicării”. La Art. II se adaugă alin. (2): „Prevederile art. I se aplică procedurilor de vânzare a căror publicitate este inițiată după intrarea în vigoare a prezentei legi, inclusiv în dosarele de insolvență aflate în curs.”",
-        "argumentation": "Fără o normă tranzitorie expresă, conform art. 24 Cod proc. civ. raportat la art. 342 din Legea nr. 85/2014, noua regulă s-ar aplica doar insolvențelor deschise după intrarea în vigoare a legii, omițând mii de dosare în curs. În plus, sancțiunea nulității impune un termen minim de publicare și o dovadă electronică automată a afișării.",
-        "otherComments": "Se recomandă precizarea expresă a caracterului gratuit și pentru accesul publicului la consultarea platformei (nu doar pentru publicarea anunțurilor de către practician), precum și eliminarea sintagmei vagi „ziar de largă circulație” în favoarea unor criterii obiective sau opționale pentru creanțele mici."
-      }
+        "articleRef": "Art. I (art. 156 alin. (4) Legea 85/2014)",
+        "proposalContent": "„(4) Vânzarea activelor se face după publicarea gratuită, cu cel puțin 15 zile înainte, pe platforma electronică unică a UNPIR, cu dată certă. Lipsa publicării atrage nulitatea relativă doar dacă se dovedește o vătămare, fără a afecta terții de bună-credință. Bunurile perisabile sunt exceptate. Cei interesați pot inspecta bunurile după publicare.”",
+        "argumentation": "Forma Senatului introduce nulitatea fără a preciza natura ei, durata minimă de afișare sau protecția cumpărătorilor de bună-credință, generând riscuri de contestații și insecuritate juridică. În plus, menține sub sancțiunea nulității cerința vagă și costisitoare a „ziarului de largă circulație”, contrazicând scopul digitalizării.",
+        "otherComments": "Corelați art. 154 alin. (2) cu noua platformă unică și introduceți la art. II/III o normă tranzitorie clară privind vânzările deja inițiate la intrarea în vigoare. Stabiliți clar procedura în caz de indisponibilitate tehnică a platformei UNPIR și asigurați accesul la date deschise (open data) pentru a nu crea blocaje concurențiale."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 196322,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Bunurile firmelor în insolvență, anunțate obligatoriu și gratuit pe un site UNPIR",
-      "verdictShort": "Ideea e bună: anunțurile de vânzare din insolvență ajung gratuit online, pentru toate tipurile de vânzare, nu doar în ziare. Problema e că textul leagă sancțiunea nulității de o platformă pe care legea nu o definește. Nu există nici un plan B dacă site-ul pică sau nu e gata în 6 luni.",
-      "initiatorClaim": "Inițiatorii (parlamentari AUR) spun că anunțurile din ziare ajung la prea puțini cumpărători, așa că bunurile firmelor insolvente se vând sub valoarea de piață. Ei vor un portal public gratuit al UNPIR pentru toate vânzările, nu doar pentru licitații, ca să crească concurența și sumele recuperate de creditori.",
-      "realityCheck": "Art. I adaugă publicarea gratuită pe o platformă UNPIR, dar păstrează obligatoriu și anunțul din ziar. Prin urmare, costul publicității plătite din averea debitorului nu scade, deși expunerea sugerează asta. Efectul juridic real e sancțiunea: vânzarea făcută fără oricare dintre cele două publicații devine nulă, iar textul nu spune dacă nulitatea e absolută sau relativă. Dacă UNPIR nu pune platforma în funcțiune în 6 luni (art. III), legea nu oferă nicio soluție, iar vânzările riscă să se blocheze sau să devină anulabile.",
+      "durationMs": 42704,
+      "sourceEndMarker": "SF-466BDEEA",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Anunțurile de vânzare din falimente vor apărea gratuit și pe o platformă online a UNPIR",
+      "verdictShort": "Este o lege mică și utilă, care adaugă publicitatea online gratuită la vânzările din insolvență. Forma Senatului lasă însă neclar ce fel de nulitate se aplică și nu are norme tranzitorii, iar asta poate crea litigii exact acolo unde voia să aducă transparență.",
+      "initiatorClaim": "Inițiatorii spun că anunțurile tipărite în ziare ajung la puțini cumpărători, iar activele se vând sub valoarea de piață. De aceea vor ca toate vânzările din insolvență, inclusiv cele prin negociere directă, să fie publicate gratuit pe un portal UNPIR, ca să existe mai multă concurență și prețuri mai bune pentru creditori.",
+      "realityCheck": "Art. I păstrează obligația de publicare în ziar și adaugă publicarea gratuită pe o „platformă electronică unică” a UNPIR. Vânzarea se poate face „numai” după ambele publicări, „sub sancțiunea nulității”. Costul anunțului din ziar rămâne, deci economia promisă în expunerea de motive este exagerată. Sancțiunea nu precizează dacă nulitatea e absolută sau relativă, iar legea nu spune ce se întâmplă dacă platforma nu e funcțională la termen sau cu vânzările deja anunțate înainte de intrarea în vigoare.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Justiție & Drepturi Civile",
         "Proprietari & Imobiliare"
       ],
       "keyFindings": [
-        "Art. I: vânzarea se face „numai după” publicarea în ziar și, gratuit, pe platforma UNPIR, „sub sancțiunea nulității”. Sancțiunea acoperă ambele publicații, nu doar pe cea online.",
-        "Neconcordanță: fișa Camerei și expunerea vorbesc de „nulitate absolută”, dar forma Senatului spune doar „nulității”. Legea nu precizează felul nulității, așa că vor decide instanțele, caz cu caz. Regimul diferă mult: cine o poate invoca și în ce termen.",
-        "Anunțul în ziarul de largă circulație rămâne obligatoriu. Platforma se adaugă, nu înlocuiește, deci reducerea costurilor de publicitate promisă în expunere nu se regăsește în text.",
-        "Art. III îi dă UNPIR 6 luni să facă platforma operațională, dar nu spune ce se întâmplă dacă termenul e ratat sau dacă site-ul nu funcționează în ziua publicării. Lipsește și o normă tranzitorie pentru vânzările deja anunțate.",
-        "Gratuitatea privește doar publicarea, nu și accesul publicului. Costul trece la UNPIR, deci indirect la practicieni prin cotizații. Expunerea invocă drept sursă și fondurile constituite potrivit art. 4 din Legea 85/2014, care au în principal altă destinație."
+        "Art. I (art. 156 alin. 4): publicarea pe platforma UNPIR se adaugă la anunțul din ziar, nu îl înlocuiește. Averea debitorului plătește în continuare anunțul tipărit.",
+        "Art. I: textul în vigoare nu prevede nicio sancțiune. Forma Senatului introduce „sancțiunea nulității” și pentru publicarea în ziar, și pentru cea online, dar nu spune dacă e absolută sau relativă, cine o poate invoca și în ce termen. Inițiatorii propuseseră nulitate absolută, iar Senatul a eliminat calificativul fără să-l înlocuiască.",
+        "Art. I: s-a adăugat cuvântul „numai” („se va face numai după efectuarea publicațiilor”). Orice omisiune sau eroare de publicare devine astfel motiv de contestare a vânzării, ceea ce poate speria cumpărătorii de bună-credință.",
+        "Art. III: UNPIR trebuie să operaționalizeze platforma în 6 luni, dar legea nu prevede nicio consecință dacă nu o face. Combinat cu „numai după” și cu nulitatea, o întârziere tehnică ar putea bloca toate valorificările din insolvență.",
+        "Legea nu are dispoziție tranzitorie. Nu e clar dacă vânzările deja publicate în ziar înainte de intrarea în vigoare trebuie republicate online.",
+        "Platforma este numită doar „unică” și „administrată de UNPIR”. Legea nu precizează adresa, durata minimă de afișare, conținutul obligatoriu al anunțului sau dovada publicării. Expunerea de motive invocă site-urile existente, dar textul legii nu le menționează."
       ],
-      "blindSpotsCaught": "Nulitatea e prevăzută expres. Dacă vânzarea e tratată ca act de procedură, art. 175 alin. (2) din Codul de procedură civilă prezumă vătămarea. Astfel, un debitor sau un asociat nemulțumit poate ataca vânzarea invocând doar o publicare lipsă sau defectuoasă, chiar dacă licitația a avut destui participanți, iar cumpărătorul de bună-credință rămâne în incertitudine. Expunerea vorbește de două site-uri UNPIR existente, pe când legea vorbește de o platformă „unică” fără nume. UNPIR, asociația practicienilor care fac chiar vânzările, ar administra canalul obligatoriu de anunțuri și, potrivit expunerii, și licitații online, fără nicio regulă de neutralitate față de platformele private. Buletinul procedurilor de insolvență (BPI), canalul oficial existent, nu apare deloc în noul alineat.",
-      "constitutionalityNote": "Nu vedem o problemă constituțională de fond. Transparența vânzărilor servește creditorii și ocrotirea proprietății (art. 44), iar UNPIR este deja persoană juridică de utilitate publică, cu atribuții date prin lege. Problemele țin de claritate și previzibilitate (art. 1 alin. (5)): platforma „unică” nu are denumire, adresă sau reguli de funcționare, iar nulitatea nu e calificată. Lipsa unei norme tranzitorii lasă nesigur regimul vânzărilor anunțate înainte de intrarea în vigoare. Senatul a adoptat textul cu majoritatea de la art. 76 alin. (1), iar Camera Deputaților e decizională. Legea nu implică cheltuieli de la bugetul de stat, deci art. 138 alin. (5) nu e în discuție.",
-      "euLawNote": "Directiva (UE) 2018/958: practicianul în insolvență exercită o profesie reglementată, iar noua obligație îi schimbă modul de lucru. Ea ține însă mai degrabă de procedura insolvenței decât de accesul la profesie, iar sarcina e mică, deci ar trece testul de proporționalitate, chiar dacă expunerea nu îl face. TRIS (2015/1535): legea nu impune reguli serviciilor online private, ci desemnează un canal public și gratuit pentru anunțuri legale. Notificarea nu pare necesară, atât timp cât platforma UNPIR nu devine singurul loc unde se pot ține licitații online. Trimiterea la art. 28 din Directiva (UE) 2019/1023 e un argument general, fiindcă articolul privește comunicarea electronică între participanți (creanțe, notificări, contestații), nu publicitatea vânzărilor. Pentru piața unică, accesul online gratuit ajută cumpărătorii din alte state membre, dacă platforma e accesibilă fără cont și fără date de identificare românești.",
+      "blindSpotsCaught": "Senatul a renunțat la „nulitatea absolută” din propunerea inițială, dar a lăsat simplu „sub sancțiunea nulității”. Din cauza acestei ambiguități, instanțele vor trebui să decidă singure regimul nulității, iar practica neunitară poate dura ani. De asemenea, sancțiunea acoperă acum și publicarea în ziar, care până acum nu era sancționată expres. Este o înăsprire pe care expunerea de motive nu o discută. Trimiterea expunerii la art. 28 din Directiva 2019/1023 este forțată: articolul se referă la comunicările electronice dintre părți și instanță, nu la publicitatea vânzărilor.",
+      "constitutionalityNote": "Nu există o problemă constituțională serioasă. Scopul (transparența, maximizarea valorii averii) este legitim, iar măsura e proporțională. Riscul ține de art. 1 alin. (5), adică de claritatea și previzibilitatea normei. O nulitate fără regim precizat, legată de o platformă nedefinită în lege și fără normă tranzitorie, poate fi criticată ca imprevizibilă și poate afecta securitatea raporturilor juridice și dreptul de proprietate al cumpărătorilor (art. 44). Obligația impusă UNPIR, organizație profesională de utilitate publică, de a oferi gratuit un serviciu este acceptabilă, fiind legată de rolul său legal în procedura insolvenței.",
+      "euLawNote": "Directiva 2018/958 nu este relevantă în mod esențial: legea nu reglementează accesul la profesia de practician în insolvență, ci doar adaugă o formalitate de publicitate în exercitarea ei, fără costuri pentru practicieni. TRIS (2015/1535) probabil nu se aplică, pentru că legea nu impune reguli tehnice furnizorilor de servicii ale societății informaționale. Ea creează o obligație de publicitate pe o platformă profesională, ceea ce nu pare să necesite notificare. Platforma unică administrată de UNPIR nu restrânge concurența între platformele private de anunțuri, care pot fi folosite în continuare voluntar. Măsura este compatibilă cu obiectivele de digitalizare și eficiență din Directiva 2019/1023 și cu Regulamentul 2015/848.",
       "senatForm": {
-        "articleRef": "Art. I (art. 156 alin. (4) din Legea 85/2014)",
-        "proposalContent": "(4) Vânzarea activelor se face numai după publicarea anunțului de către administratorul/lichidatorul judiciar într-un ziar de largă circulație și, gratuit, pe platforma UNPIR, cu acces liber, fără cont, până la vânzare, sub sancțiunea nulității relative. Indisponibilitatea dovedită a platformei nu atrage nulitatea. Persoanele interesate pot inspecta bunurile după publicare.",
-        "argumentation": "Nulitatea fără precizare lasă instanțelor să decidă dacă e absolută sau relativă (art. 1 alin. 5 Constituție). O eroare IT a unei platforme pe care practicianul nu o controlează nu trebuie să anuleze vânzarea către un cumpărător de bună-credință. Accesul liber, fără cont, e cel care aduce efectiv mai mulți cumpărători și prețuri mai bune.",
-        "otherComments": "Art. III: dacă UNPIR nu operaționalizează platforma în 6 luni, nicio vânzare nu mai e posibilă; e nevoie de o regulă de tranziție și pentru vânzările deja anunțate. Ziarul rămâne obligatoriu, deci costul nu scade, cum promite expunerea; Parlamentul poate face publicarea în ziar facultativă. Conținutul minim al anunțului ar trebui stabilit prin lege."
-      }
+        "articleRef": "Art.I – art.156 alin.(4) L.85/2014; art.III^1 nou",
+        "proposalContent": "Art.156 alin.(4) teza I se încheie: „...sub sancțiunea nulității relative, ce poate fi invocată de orice parte interesată în termen de 30 de zile de la data vânzării.” Art.III^1 nou: „Dispozițiile art.I se aplică vânzărilor ale căror publicații se efectuează după intrarea în vigoare a prezentei legi.”",
+        "argumentation": "Textul Senatului spune doar „sub sancțiunea nulității”, fără să precizeze dacă e absolută sau relativă, cine o poate invoca și în ce termen. Riscul este ca vânzările să fie contestate ani de zile, cumpărătorii de bună-credință să se retragă și prețurile să scadă, adică exact opusul scopului legii. Lipsește și o regulă pentru vânzările deja anunțate.",
+        "otherComments": "Art.III obligă UNPIR să facă platforma funcțională în 6 luni, dar nu prevede ce se întâmplă dacă nu o face. Cum vânzarea se poate face „numai” după publicarea pe platformă, o întârziere ar bloca toate valorificările. Propunem ca platforma să emită o dovadă datată a publicării, depusă la dosar, și ca legea să fixeze o durată minimă de afișare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 109868,
+      "durationMs": 80101,
+      "sourceEndMarker": "SF-466BDEEA",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Anunțuri online gratuite pentru vânzările din insolvență",
-      "verdictShort": "Publicitatea online gratuită este utilă și poate atrage mai mulți cumpărători. Riscul moderat vine din sancțiunea insuficient precizată și din condiționarea vânzărilor de funcționarea unei singure platforme, fără reguli pentru incidente tehnice.",
-      "initiatorClaim": "Inițiatorii urmăresc creșterea transparenței, participarea mai multor cumpărători și recuperarea unor sume mai mari pentru creditori. Susțin că infrastructura existentă permite publicarea gratuită, fără cheltuieli bugetare suplimentare.",
-      "realityCheck": "Art. I adaugă publicarea gratuită pe platforma UNPIR la obligația publicării în ziar, inclusiv pentru negocierea directă; costul ziarului rămâne. Forma Senatului prevede nulitatea, fără calificarea expresă drept absolută din fișa proiectului, și nu condiționează explicit sancțiunea de existența unei vătămări. Art. II–III acordă șase luni pentru implementare, dar nu reglementează indisponibilitatea platformei sau vânzările deja anunțate. [Forma Senatului](https://www.senat.ro/legis/PDF/2026/26L300FS.PDF)",
+      "plainTitle": "Anunțuri gratuite online pentru vânzările din insolvență",
+      "verdictShort": "Publicitatea online gratuită este utilă și poate atrage mai mulți cumpărători. Riscul principal este sancțiunea nulității, insuficient precizată pentru erori de publicare sau blocaje tehnice ale platformei obligatorii.",
+      "initiatorClaim": "Inițiatorii urmăresc să extindă accesul la anunțurile de vânzare, să crească participarea cumpărătorilor și să îmbunătățească recuperarea creanțelor. Ei prezintă platforma UNPIR ca o soluție gratuită, realizabilă cu infrastructura existentă.",
+      "realityCheck": "Art.I adaugă publicarea electronică gratuită la obligația existentă de publicare în ziar; cheltuiala cu ziarul rămâne. Pentru vânzările supuse art.156 alin.(4), publicitatea pe ambele canale devine o condiție expresă însoțită de sancțiunea nulității, fără precizarea naturii acesteia și fără o soluție explicită pentru indisponibilitatea platformei. Art.II amână aplicarea cu șase luni, iar art.III obligă UNPIR să operaționalizeze platforma în acest interval.",
       "affectedGroups": [
         "IMM & Antreprenori",
-        "Angajați & HR",
         "Proprietari & Imobiliare",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I poate îmbunătăți concurența dintre cumpărători prin centralizarea anunțurilor. Platforma UNPIR devine canalul electronic obligatoriu, dar textul nu interzice publicitatea suplimentară pe platforme concurente și nu impune desfășurarea licitațiilor online prin UNPIR.",
-        "Eliminarea cuvântului „absolută” contează juridic: nulitatea absolută nu poate fi dedusă automat din fișa proiectului. Pentru contracte, art. 1250 și 1252 Cod civil disting interesul general protejat de situațiile în care natura nulității rămâne nedeterminată; trebuie avut în vedere și regimul actului de valorificare contestat. [Codul civil](https://portal.just.ro/197/Documents/NCC.pdf)",
-        "Nu sunt instituite taxe sau formalități generale pentru cetățeni și IMM-uri. Practicienii suportă obligația publicării suplimentare, iar UNPIR trebuie să opereze platforma: gratuitatea publicării nu înseamnă inexistența costurilor tehnice. Textul nu prevede o alocare bugetară.",
-        "Publicitatea electronică nu pornește de la zero: art. 154 alin. (2) prevede deja publicitatea pe site-ul UNPIR pentru licitații. Noutatea relevantă este extinderea obligației prin norma generală și asocierea unei sancțiuni exprese. [Avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L300LG.PDF)"
+        "Art.I: publicarea în ziar și posibilitatea inspectării bunurilor există deja. Noutățile sunt publicarea electronică gratuită obligatorie și sancțiunea expresă a nulității.",
+        "Art.I: formula «sub sancțiunea nulității» nu precizează dacă nulitatea este absolută sau relativă. Mențiunea «nulitate absolută» din fișa Camerei nu poate înlocui formularea adoptată de Senat.",
+        "Publicitatea electronică pentru licitațiile publice este deja prevăzută de art.154 alin.(2), potrivit cadrului descris în documentație. Proiectul extinde obligația prin art.156 alin.(4), inclusiv asupra negocierii directe; nu abrogă publicitatea în BPI și celelalte obligații existente.",
+        "Art.II–III: termenul de șase luni oferă timp pentru implementare, însă nu există o soluție expresă dacă platforma nu este funcțională la expirarea termenului sau devine temporar indisponibilă.",
+        "Art.III: lipsesc cerințe minime privind dovada și momentul publicării, accesibilitatea anunțurilor și continuitatea serviciului. Aceste elemente contează deoarece publicarea condiționează validitatea vânzării.",
+        "Proiectul nu instituie taxe pentru cetățeni sau IMM-uri și nici o cheltuială bugetară expresă. Totuși, gratuitatea publicării nu înseamnă absența costurilor: UNPIR suportă administrarea platformei, iar practicienii îndeplinesc o formalitate suplimentară.",
+        "Nu există o dispoziție tranzitorie expresă pentru anunțurile publicate înaintea intrării în vigoare, urmate de vânzări ulterioare. Situația trebuie clarificată în raport cu normele generale privind aplicarea în timp a legii procesuale, fără a presupune automat anularea actelor deja efectuate."
       ],
-      "blindSpotsCaught": "Art. II amână intrarea în vigoare a întregii legi șase luni, inclusiv a art. III, deși acesta obligă UNPIR să pregătească platforma chiar în acel interval. Rezultă o necorelare temporală: obligația pregătitoare trebuie să intre în vigoare anticipat. Separat, gratuitatea publicării nu garantează explicit accesul gratuit al publicului la consultarea anunțurilor.",
-      "constitutionalityNote": "Obiectivul transparenței este legitim; nu rezultă o neconstituționalitate evidentă a publicității digitale. Art. 1 alin. (5) reclamă însă precizarea sancțiunii, a dovezii publicării și a soluției pentru indisponibilitatea platformei, pentru protejarea securității tranzacțiilor. Nulitatea poate proteja concurența efectivă, dar aplicarea ei pentru deficiențe pur formale, fără efect relevant, ridică probleme de proporționalitate. Corelarea art. II–III trebuie făcută și prin raportare la art. 78. Art. 23 alin. (12) privește legalitatea pedepselor și nu este temeiul direct pentru controlul acestei sancțiuni civile. [Constituția](https://legislatie.just.ro/Public/DetaliiDocument/47355?isFormaDeBaza=True)",
-      "euLawNote": "Concurența dintre cumpărători poate beneficia de centralizare; desemnarea UNPIR nu dovedește singură un monopol anticoncurențial. Directiva 2018/958 nu impune un test pentru orice platformă: dacă noua obligație restrânge exercitarea profesiei reglementate de practician în insolvență, art. 2 și 4 cer evaluarea proporționalității înaintea adoptării. Fragmentul furnizat nu demonstrează efectuarea acesteia. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj?locale=ro) Pentru TRIS, trebuie verificat dacă dispozițiile constituie norme specifice privind servicii ale societății informaționale, în sensul art. 1 din Directiva 2015/1535; caracterul economic al serviciului contează, iar gratuitatea pentru utilizator nu exclude singură aplicabilitatea. Simpla utilizare a internetului nu face notificarea obligatorie și nu există temei pentru a afirma că notificarea lipsește. Proiectul nu reglementează AI. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=celex%3A32015L1535) Art. 28 din Directiva 2019/1023 cere posibilitatea unor comunicări și depuneri electronice, fără să impună această platformă exclusivă de publicitate sau sancțiunea nulității. [Directiva 2019/1023](https://eur-lex.europa.eu/legal-content/ro/ALL/?uri=CELEX%3A32019L1023)",
+      "blindSpotsCaught": "Diferența decisivă este între nulitatea absolută anunțată în fișa Camerei și simpla nulitate prevăzută efectiv de Senat. În plus, platforma unică devine o dependență tehnică obligatorie pentru vânzări, deși legea nu stabilește o alternativă pentru avarii. Absența unor remedii în proiect nu înlătură automat regulile generale privind nulitățile și contestarea actelor, aplicabile în completarea procedurii speciale.",
+      "constitutionalityNote": "Obiectivul transparenței este legitim. Principala vulnerabilitate privește art.1 alin.(5): consecințele nepublicării și regimul incidentelor tehnice trebuie să fie suficient de previzibile, mai ales când pot afecta stabilitatea vânzărilor și interesele patrimoniale protejate de art.44. Caracterul disproporționat al sancțiunii nu poate fi declarat automat, fără interpretarea sa în cadrul normelor generale aplicabile. Art.23 alin.(12), referitor la legalitatea pedepsei, nu este incident direct unei nulități civile. Termenul de șase luni este compatibil cu art.78. Verificarea online a cadrului juridic nu a fost disponibilă; evaluarea se bazează pe documentele furnizate și pe regulile generale relevante.",
+      "euLawNote": "Centralizarea la UNPIR poate facilita accesul cumpărătorilor și concurența pentru active; textul nu îi atribuie exclusivitatea tuturor serviciilor comerciale de licitații online. Directiva 2018/958 privește reglementarea accesului la profesii reglementate și a exercitării acestora: trebuie verificat dacă obligația suplimentară intră în domeniul său, fără a deduce automat o restricție profesională nejustificată. Publicarea pe o platformă nu declanșează automat notificarea TRIS potrivit Directivei 2015/1535; trebuie stabilit dacă dispoziția constituie o regulă privind serviciile societății informaționale, în sensul directivei. Art.28 din Directiva 2019/1023 susține comunicațiile electronice, dar nu impune această platformă unică sau această sancțiune. Nu rezultă o incompatibilitate europeană evidentă din textul furnizat.",
       "senatForm": {
-        "articleRef": "Art. I și art. II",
-        "proposalContent": "La art. I, „sub sancțiunea nulității” se înlocuiește cu „sub sancțiunea nulității relative a vânzării, dacă lipsa publicității a produs o vătămare ce nu poate fi înlăturată altfel”. La art. II se adaugă: „Prin excepție, art. III intră în vigoare la 3 zile de la publicarea legii în Monitorul Oficial al României, Partea I.”",
-        "argumentation": "Publicitatea digitală este utilă, dar anularea vânzării trebuie limitată la încălcări cu efect real asupra intereselor protejate. Clarificarea nulității protejează creditorii și cumpărătorii. Intrarea anticipată în vigoare a art. III face obligatorie pregătirea platformei în cele 6 luni, înainte ca publicarea online să devină condiție de validitate.",
-        "otherComments": "Solicit și reguli legale pentru indisponibilitatea platformei, dovada și durata publicării, accesul public gratuit și vânzările deja anunțate. Termenul comunicat pentru amendamente, 17.06.2026, este depășit; prezenta propunere poate fi transmisă ca petiție și preluată de un deputat potrivit procedurii parlamentare."
-      }
+        "articleRef": "Art.I – art.156 alin.(4), teza I",
+        "proposalContent": "Sintagma «sub sancțiunea nulității» se înlocuiește cu «sub sancțiunea nulității vânzării, dacă încălcarea a produs o vătămare care nu poate fi înlăturată altfel». După prima teză se introduce: «În caz de indisponibilitate tehnică dovedită a platformei, publicarea pe site-ul Uniunii îndeplinește obligația de publicitate electronică.»",
+        "argumentation": "Sancțiunea trebuie corelată cu o vătămare concretă, pentru a evita desființarea vânzărilor pentru nereguli fără consecințe. Alternativa de publicare permite continuarea valorificării activelor în timpul avariilor și protejează creditorii și cumpărătorii.",
+        "otherComments": "Clarificați regimul anunțurilor publicate înaintea intrării în vigoare. La art.III, prevedeați dovada publicării și reguli de constatare a indisponibilității. Forma Senatului prevede nulitate, fără calificarea drept absolută folosită în fișa Camerei."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T00:43:02.338Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 4,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:52:08.766Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

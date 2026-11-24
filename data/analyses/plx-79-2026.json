@@ -2,136 +2,176 @@
   "billId": "PL-x 79/2026",
   "slug": "plx-79-2026",
   "version": "senat",
-  "updatedAt": "2026-11-19T11:40:58.038Z",
+  "updatedAt": "2026-11-24T15:19:32.791Z",
   "coverage": {
     "method": "whole-text-v1",
+    "form": "senat",
     "billChars": 1067,
     "ordinanceChars": 14586,
     "memoChars": 22246,
     "memoSupplied": 22246,
-    "marker": "SF-BDF642ED",
-    "form": "senat"
+    "marker": "SF-BDF642ED"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-79-2026.json",
+    "form": "senat",
+    "textHash": "bdf642ed63e348c0",
+    "fetchedAt": "2026-11-19T10:41:08.807Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 2.3,
+    "riskScore": 2.7,
     "riskLevel": "green",
-    "plainTitle": "Agenția pentru egalitate de șanse (ANES) trece de la Guvern la Ministerul Muncii",
-    "summaryTlDr": "Este o lege de reorganizare administrativă, practic neutră pentru cetățeni și firme: ANES se mută sub Ministerul Muncii și primește bani prin bugetul acestuia. Problemele reale sunt justificarea slabă a urgenței, afirmația că nu are impact financiar deși deschide noi linii de finanțare și o literă din text redactată defectuos.",
-    "initiatorClaim": "Guvernul spune că mutarea ANES la Ministerul Muncii permite o abordare integrată a serviciilor sociale pentru victimele violenței domestice. Mai spune că aceasta facilitează cofinanțarea fondurilor europene (PIDS, Acțiunea 8.2) și pregătește transpunerea Directivei (UE) 2024/1385.",
-    "realityCheck": "Efectul juridic concret este schimbarea subordonării ANES, a ordonatorului principal de credite (de la SGG la MMFTSS) și preluarea personalului și a patrimoniului în 30 de zile (Art. II). Ordonanța nu creează direct nicio măsură nouă de protecție a victimelor: pachetul de sprijin, asistentul pentru victime și extinderea Helpline sunt doar anunțate în expunerea de motive pentru o lege viitoare. Art. I alin. (3) enumeră destinații posibile de finanțare („se pot aloca”), fără sume și fără obligație, deci beneficiul depinde integral de bugetele anuale. Este a doua mutare a ANES în circa un an (OUG 153/2024 o mutase de la minister la Guvern), ceea ce indică instabilitate instituțională.",
+    "plainTitle": "Agenția pentru egalitate între femei și bărbați trece de la Guvern la Ministerul Muncii",
+    "summaryTlDr": "Este o reorganizare administrativă: agenția trece sub alt minister și primește temei pentru finanțarea unor servicii pentru victimele violenței domestice. Legea nu creează obligații, taxe sau sancțiuni pentru cetățeni ori firme. Problemele sunt de redactare și de stabilitate instituțională, nu de fond.",
+    "initiatorClaim": "Guvernul spune că mutarea ANES sub Ministerul Muncii permite o abordare unitară a serviciilor sociale pentru victimele violenței domestice. Mai invocă transpunerea Directivei (UE) 2024/1385 și accesarea rapidă a cofinanțării din Programul Incluziune și Demnitate Socială.",
+    "realityCheck": "Efectiv, OUG schimbă subordonarea ANES (Art. I alin. 1), o face ordonator terțiar finanțat prin bugetul MMFTSS (alin. 2) și enumeră destinații pentru care „se pot aloca” fonduri (alin. 3). Personalul și patrimoniul se preiau de la SGG în 30 de zile, cu menținerea drepturilor salariale (Art. II). Preambulul promite însă măsuri pe care OUG nu le conține, precum compensații pentru copiii rămași fără mamă, pachet de sprijin pentru victime sau asistentul de sprijin. Acestea depind de o lege viitoare de modificare a Legii 217/2003.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
-      "Angajați & HR"
+      "Angajați & HR",
+      "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. I alin. (3) lit. b) din OUG nr. 83/2025",
-      "proposalContent": "Art. I alin. (3) lit. b) se modifică: «b) finanțarea programelor de subvenționare a furnizorilor privați de servicii sociale, acreditați, derulate de Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale, în condițiile Legii nr. 34/1998;». La lit. a) se corectează: «Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale».",
-      "argumentation": "Forma actuală omite cuvinte esențiale („furnizorilo servicii sociale”, „Tineretului și Sociale”) și denumește greșit ministerul, ceea ce afectează claritatea normei (art. 1 alin. (5) Constituție). Expunerea de motive confirmă că se vizau furnizorii privați. Trimiterea la Legea 34/1998 și cerința acreditării asigură criterii transparente de acordare a subvențiilor.",
-      "otherComments": "Recomand completarea alin. (3) cu obligația ca alocările de la lit. b) și e) să se facă prin procedură competitivă și transparentă, cu respectarea regulilor de ajutor de stat (SIEG). Recomand și o fișă financiară pentru Helpline și serviciile anunțate, deoarece afirmația „fără impact financiar” contrazice obiectivele declarate."
+      "articleRef": "OUG 83/2025: Art. I alin.(3) lit.b) și Art. III",
+      "proposalContent": "Lit. b): „finanțarea programelor de subvenționare a furnizorilor privați de servicii sociale, derulate de MMFTSS;”. Art. III: „În termen de 45 de zile lucrătoare de la data intrării în vigoare a prezentei ordonanțe de urgență, MMFTSS propune Guvernului proiectele de acte normative privind organizarea și funcționarea MMFTSS și a ANES.”",
+      "argumentation": "Textul extras are lacune: la lit. b) lipsesc cuvinte, iar Art. III se oprește în mijlocul frazei, fără să numească actul pe care trebuie să-l adopte Guvernul. Corectarea asigură claritatea și previzibilitatea normei (art. 1 alin. 5 din Constituție) și respectă Legea 24/2000. Fără aceasta, termenul de 45 de zile nu are un obiect clar.",
+      "otherComments": "Rog verificarea textului față de MO nr. 1181/2025. Propun un termen legal pentru proiectul de modificare a Legii 217/2003, pe care preambulul îl invocă drept motiv al urgenței, și pentru actualizarea HG 177/2016. ANES a fost mutată de două ori în circa un an; stabilitatea ei și a liniei HELPLINE ar trebui garantată."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 38528,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 65211,
       "sourceEndMarker": "SF-BDF642ED",
-      "riskScore": 2,
+      "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Mutarea Agenției pentru Egalitatea de Șanse (ANES) în subordinea Ministerului Muncii",
-      "verdictShort": "Proiect tehnic benign de reorganizare administrativă, fără taxe, monopoluri sau riscuri pentru cetățeni și IMM-uri. Singura rezervă vizează decalajul dintre preambulul amplu privind combaterea violenței domestice și efectul concret al articolelor, care se limitează la transferul instituțional al ANES.",
-      "initiatorClaim": "Guvernul susține că trecerea ANES la Ministerul Muncii este urgentă pentru abordarea integrată a serviciilor sociale, accesarea fondurilor europene (PIDS), combaterea violenței domestice și pregătirea măsurilor de sprijin pentru victime și transpunerea Directivei (UE) 2024/1385.",
-      "realityCheck": "În realitate, articolele OUG nr. 83/2025 nu modifică Legea nr. 217/2003, nu creează compensații pentru copii orfani și nu alocă fonduri noi (impactul financiar fiind declarat zero). Actul realizează exclusiv transferul ANES de la Cancelaria Prim-Ministrului la Ministerul Muncii, cu preluarea posturilor și patrimoniului, și enumeră facultativ destinațiile posibile ale finanțării serviciilor sociale.",
+      "plainTitle": "Mutarea agenției pentru egalitate de șanse (ANES) în subordinea Ministerului Muncii",
+      "verdictShort": "Act tehnic și benign de reorganizare administrativă, fără taxe, restricții sau poveri noi pentru cetățeni și firme. Principala slăbiciune este folosirea forțată a ordonanței de urgență cu un preambul dramatic, deși textul nu adoptă nicio măsură imediată de protecție a victimelor.",
+      "initiatorClaim": "Guvernul susține că trecerea ANES sub Ministerul Muncii este urgentă pentru a răspunde escaladării violenței domestice, a integra serviciile sociale cu finanțări europene și a pregăti alinierea la Directiva (UE) 2024/1385 și recomandările GREVIO și OECD.",
+      "realityCheck": "În realitate, ordonanța nu instituie nicio măsură concretă de protecție pentru victime sau copii și nu modifică Legea nr. 217/2003, ci doar mută ANES de la Cancelaria Prim-Ministrului la Ministerul Muncii (după ce o mutase invers cu un an înainte, prin OUG nr. 153/2024). Art. I alin. (3) adaugă o listă facultativă de cheltuieli posibile pentru servicii sociale, dar fără buget asumat și fără criterii de alocare stabilite în lege.",
       "affectedGroups": [
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I alin. (1)-(2) mută ANES din subordinea Guvernului și coordonarea prim-ministrului în subordinea Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale (MMFTSS), ca ordonator terțiar finanțat integral de la bugetul de stat prin bugetul ministerului.",
-        "Art. I alin. (3) prevede facultativ («se pot aloca») finanțarea programelor de interes național, a subvenționării furnizorilor de servicii sociale, a structurilor-pilot și contractarea de servicii specializate de la furnizori privați, fără a institui obligații bugetare concrete.",
-        "Art. II și III reglementează finanțarea provizorie până la bugetul pe 2026 (conform art. 37 alin. 1 din Legea nr. 500/2002), preluarea în 30 de zile a personalului și patrimoniului de la SGG și elaborarea în 45 de zile lucrătoare a HG-urilor de organizare și funcționare."
+        "Art. I alin. (1)-(2) și Art. II operează o reorganizare pur internă: ANES trece la Ministerul Muncii ca ordonator terțiar de credite, cu preluarea posturilor, personalului și patrimoniului în 30 de zile, fără efecte negative directe asupra cetățenilor sau IMM-urilor.",
+        "Art. I alin. (3) creează temeiul pentru finanțarea unor programe naționale, structuri-pilot, cofinanțări și contractarea furnizorilor privați de servicii sociale (lit. a-e), dar folosește formularea potestativă «se pot aloca» și nu stabilește criterii transparente de selecție.",
+        "Deși preambulul invocă o urgență extremă legată de omorurile din 2025 și pierderea fondurilor UE, Secțiunea 7.1 din Expunerea de motive arată că proiectul a fost în consultare publică încă din septembrie 2025 și a fost adoptat ca OUG abia în decembrie 2025, cu impact financiar declarat zero.",
+        "OUG nu abrogă și nu modifică expres prevederile anterioare privind subordonarea ANES (OUG nr. 153/2024 și art. 23 alin. 1 din Legea nr. 202/2002) și amână reorganizarea efectivă prin hotărâri de Guvern ulterioare (Art. III, termen de 45 de zile lucrătoare)."
       ],
-      "blindSpotsCaught": "Discrepanță evidentă între preambul/Expunerea de motive (care invocă măsuri urgente pentru copiii rămași fără mamă, asistentul de sprijin și transpunerea Directivei UE 2024/1385) și textul efectiv al ordonanței, care nu introduce nicio normă de acest tip. În plus, textul extras al OUG prezintă erori materiale la Art. I alin. (3) lit. b) («furnizorilo», denumire trunchiată a ministerului) și o trunchiere a ultimei propoziții din Art. III («și a»).",
-      "constitutionalityNote": "Pe fond, măsura este constituțională și ține de prerogativa Guvernului de a organiza administrația publică centrală. Totuși, justificarea urgenței și a situației extraordinare (art. 115 alin. 4 din Constituție) pentru o simplă mutare administrativă este discutabilă, iar erorile materiale și trunchierea din Art. I și Art. III afectează exigențele de claritate ale art. 1 alin. (5).",
-      "euLawNote": "Proiectul nu impune restricții privind accesul la profesii sau servicii digitale, nefiind incidentă Directiva (UE) 2018/958 (testul de proporționalitate) sau Directiva (UE) 2015/1535 (TRIS). Contractarea furnizorilor privați prevăzută la Art. I alin. (3) lit. e) se face «în condițiile legii», în acord cu normele de achiziții publice. Deși invocată în preambul, Directiva (UE) 2024/1385 (termen 14 iunie 2027) nu este transpusă prin acest act.",
+      "blindSpotsCaught": "Discrepanța clară între urgența invocată și calendarul real: proiectul a fost publicat în transparență decizională la 19 septembrie 2025 (Secțiunea 7.1 din Expunerea de motive), dar a fost emis prin OUG abia la 18 decembrie 2025 sub pretextul imposibilității procedurii parlamentare. În plus, Expunerea de motive susține că actul nu are legătură cu achizițiile publice, ajutoarele de stat sau bugetul, deși Art. I alin. (3) lit. b) și e) prevăd subvenționarea și contractarea furnizorilor privați.",
+      "constitutionalityNote": "Proiectul nu restrânge drepturi fundamentale și respectă corect procedura de lege ordinară (art. 76 alin. 2). Există însă o vulnerabilitate pe art. 115 alin. (4) din Constituție: urgența dramatică din preambul (violența domestică, termenul Directivei UE din 2027) nu se reflectă în dispozitivul OUG, care face doar o mutare instituțională ținută trei luni după consultarea publică. Pe art. 1 alin. (5), lipsesc corelările exprese cu OUG nr. 153/2024 și Legea nr. 202/2002.",
+      "euLawNote": "Nu afectează piața unică și nu intră sub incidența Directivei (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) sau a Directivei (UE) 2015/1535 (TRIS pentru servicii digitale/AI). Deși preambulul citează Directiva (UE) 2024/1385 (termen de transpunere 14 iunie 2027), OUG nu transpune nicio normă a acesteia. La aplicarea Art. I alin. (3) lit. b) și e) (subvenționarea și contractarea furnizorilor privați), vor trebui respectate normele UE privind achizițiile publice și serviciile sociale de interes general (SIEG).",
       "senatForm": {
-        "articleRef": "Articol unic (ref. Art. I, III OUG 83/2025)",
-        "proposalContent": "Se propune completarea Articolului unic cu modificarea Art. I alin. (3) lit. b) din OUG 83/2025 pentru corectarea erorilor materiale („furnizorilo”, denumirea ministerului) și clarificarea finalului Art. III prin menționarea expresă a ANES, stabilind totodată obligația MMFTSS de a raporta anual modul de finanțare a serviciilor prevăzute la Art. I alin. (3).",
-        "argumentation": "Textul conține scăpări de redactare care afectează claritatea legii (art. 1 alin. 5 din Constituție), iar preambulul promite măsuri pentru victime fără mecanisme obligatorii de finanțare sau evaluare. Corectarea tehnică și introducerea unei obligații de raportare cresc transparența cheltuirii fondurilor publice.",
-        "otherComments": "Preambulul invocă statistici grave privind violența domestică și nevoia de compensații pentru copiii rămași fără mamă, însă OUG realizează exclusiv o mutare instituțională a ANES, cu impact bugetar declarat zero. Recomandăm solicitarea calendarului de modificare a Legii nr. 217/2003."
+        "articleRef": "Art. I alin. (3) din OUG nr. 83/2025",
+        "proposalContent": "Se introduce alin. (4) la Art. I: „(4) Alocarea fondurilor și contractarea serviciilor prevăzute la alin. (3) se realizează pe bază de proceduri competitive, criterii transparente de eligibilitate și indicatori de performanță stabiliți prin hotărâre a Guvernului, cu publicarea listei beneficiarilor și a sumelor alocate.”",
+        "argumentation": "Art. I alin. (3) deschide linii de finanțare și contractare a furnizorilor privați fără norme privind transparența și competiția. Completarea asigură previzibilitate (art. 1 alin. 5 Constituție), previne alocările discreționare și garantează că fondurile ajung efectiv la serviciile de sprijin pentru victimele violenței domestice.",
+        "otherComments": "Propunem și corelarea expresă a art. 23 alin. (1) din Legea nr. 202/2002 și a OUG nr. 153/2024 privind subordonarea ANES, pentru a evita paralelismele legislative. De asemenea, Guvernul ar trebui să prezinte evaluarea financiară reală pentru măsurile anunțate în expunerea de motive (extinderea Helpline și cofinanțări UE)."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 42584,
+      "durationMs": 42218,
       "sourceEndMarker": "SF-BDF642ED",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Agenția pentru egalitate de șanse (ANES) trece de la Guvern la Ministerul Muncii",
-      "verdictShort": "Este o lege de reorganizare administrativă, practic neutră pentru cetățeni și firme: ANES se mută sub Ministerul Muncii și primește bani prin bugetul acestuia. Problemele reale sunt justificarea slabă a urgenței, afirmația că nu are impact financiar deși deschide noi linii de finanțare și o literă din text redactată defectuos.",
-      "initiatorClaim": "Guvernul spune că mutarea ANES la Ministerul Muncii permite o abordare integrată a serviciilor sociale pentru victimele violenței domestice. Mai spune că aceasta facilitează cofinanțarea fondurilor europene (PIDS, Acțiunea 8.2) și pregătește transpunerea Directivei (UE) 2024/1385.",
-      "realityCheck": "Efectul juridic concret este schimbarea subordonării ANES, a ordonatorului principal de credite (de la SGG la MMFTSS) și preluarea personalului și a patrimoniului în 30 de zile (Art. II). Ordonanța nu creează direct nicio măsură nouă de protecție a victimelor: pachetul de sprijin, asistentul pentru victime și extinderea Helpline sunt doar anunțate în expunerea de motive pentru o lege viitoare. Art. I alin. (3) enumeră destinații posibile de finanțare („se pot aloca”), fără sume și fără obligație, deci beneficiul depinde integral de bugetele anuale. Este a doua mutare a ANES în circa un an (OUG 153/2024 o mutase de la minister la Guvern), ceea ce indică instabilitate instituțională.",
+      "plainTitle": "Agenția pentru egalitate între femei și bărbați trece de la Guvern la Ministerul Muncii",
+      "verdictShort": "Este o reorganizare administrativă: agenția trece sub alt minister și primește temei pentru finanțarea unor servicii pentru victimele violenței domestice. Legea nu creează obligații, taxe sau sancțiuni pentru cetățeni ori firme. Problemele sunt de redactare și de stabilitate instituțională, nu de fond.",
+      "initiatorClaim": "Guvernul spune că mutarea ANES sub Ministerul Muncii permite o abordare unitară a serviciilor sociale pentru victimele violenței domestice. Mai invocă transpunerea Directivei (UE) 2024/1385 și accesarea rapidă a cofinanțării din Programul Incluziune și Demnitate Socială.",
+      "realityCheck": "Efectiv, OUG schimbă subordonarea ANES (Art. I alin. 1), o face ordonator terțiar finanțat prin bugetul MMFTSS (alin. 2) și enumeră destinații pentru care „se pot aloca” fonduri (alin. 3). Personalul și patrimoniul se preiau de la SGG în 30 de zile, cu menținerea drepturilor salariale (Art. II). Preambulul promite însă măsuri pe care OUG nu le conține, precum compensații pentru copiii rămași fără mamă, pachet de sprijin pentru victime sau asistentul de sprijin. Acestea depind de o lege viitoare de modificare a Legii 217/2003.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Angajați & HR"
       ],
       "keyFindings": [
-        "Art. I alin. (1)-(2): ANES trece în subordinea MMFTSS, rămâne ordonator terțiar de credite și se finanțează integral de la bugetul de stat prin bugetul MMFTSS.",
-        "Art. I alin. (3): se pot aloca fonduri pentru programe de interes național (aprobate prin HG, la propunerea ANES), pentru subvenționarea furnizorilor de servicii sociale, pentru proiecte-pilot, pentru cofinanțare și pentru contractarea de furnizori privați. Formularea este facultativă, fără cuantum și fără criterii de selecție.",
-        "Art. I alin. (3) lit. b) este redactată defectuos: „furnizorilo servicii sociale, derulate de Ministerul Muncii, Familiei, Tineretului și Sociale”. Lipsesc „privați de” și „Solidarității”, iar expunerea de motive confirmă că se vizau „furnizorii privați”.",
-        "Art. II alin. (2): personalul este preluat cu menținerea drepturilor salariale, pe bază de protocol încheiat în 30 de zile. Este o garanție pozitivă pentru angajații ANES.",
-        "Expunerea de motive, secțiunea 4, afirmă că actul nu are impact financiar și nu prezintă fișă financiară. Totuși, aceeași expunere anunță extinderea Helpline și noi alocări pentru servicii sociale, ceea ce este inconsecvent.",
-        "Art. III, termenul de 45 de zile lucrătoare pentru actele de organizare a MMFTSS și ANES, apare trunchiat în textul extras. Restul ordonanței (de exemplu, eventuale abrogări sau intrarea în vigoare) nu a putut fi verificat."
+        "Art. I alin. (1)-(2): ANES trece din subordinea Guvernului (prin Cancelaria Prim-Ministrului) în subordinea MMFTSS, ca ordonator terțiar de credite finanțat integral prin bugetul ministerului.",
+        "Art. I alin. (3): fondurile pentru programe de interes național, subvenționarea furnizorilor de servicii sociale, proiecte-pilot, cofinanțare și contractarea serviciilor pentru victime de la furnizori privați sunt facultative („se pot aloca”). Impactul real depinde deci de legea bugetară.",
+        "Art. II alin. (2): personalul se preia în 30 de zile, cu respectarea regimului juridic al fiecărei categorii și cu menținerea drepturilor salariale. Pentru angajați, aceasta este o garanție pozitivă.",
+        "Art. III este trunchiat în textul extras („...a MMFTSS și a” fără continuare) și îi lipsește „de la” înainte de „data intrării în vigoare”. Art. I alin. (3) lit. b) are lacune („furnizorilo servicii sociale”, „Tineretului și Sociale”). Pot fi artefacte de extragere, dar trebuie verificate față de MO nr. 1181/2025.",
+        "Este a doua mutare a ANES în circa un an: OUG 153/2024 a scos-o din Ministerul Familiei și a pus-o sub Guvern, iar acum revine sub un minister. Schimbările repetate pot afecta continuitatea activității, de exemplu a liniei HELPLINE 0800 500 333."
       ],
-      "blindSpotsCaught": "Preambulul invocă urgența prin statistici despre femicide, dar măsura adoptată este exclusiv organizatorică: urgența privește de fapt tema, nu mutarea instituției. Expunerea de motive se contrazice și la transparență: invocă excepția de la art. 7 alin. (13) din Legea 52/2003, dar spune și că proiectul a fost pus în dezbatere publică în perioada 19-28.09.2025 (9 zile). În enumerarea din expunere lipsește litera d), iar lit. e) contractarea furnizorilor privați ridică problema regulilor de achiziții publice și de ajutor de stat (Decizia 2012/21/UE privind SIEG), pe care textul nu le menționează.",
-      "constitutionalityNote": "Reorganizarea unui organ de specialitate subordonat nu afectează regimul instituțiilor fundamentale ale statului, deci limita art. 115 alin. (6) nu pare încălcată. Art. 117 alin. (2) permite subordonarea față de ministere. Punctul vulnerabil este art. 115 alin. (4): jurisprudența CCR cere ca situația extraordinară să fie legată direct de măsura adoptată, iar aici legătura dintre femicide și schimbarea subordonării este indirectă. Riscul este însă moderat, fiind vorba de o chestiune organizatorică. Lipsa fișei financiare poate fi discutată prin prisma art. 138 alin. (5), deși alin. (3) este facultativ și nu stabilește cheltuieli certe. Eroarea de la lit. b) afectează claritatea normei (art. 1 alin. (5)).",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă, deoarece nu se reglementează accesul la o profesie. Nici Directiva 2015/1535 (TRIS) nu este relevantă, actul neconținând reglementări tehnice sau privind servicii digitale ori AI. Actul nu transpune Directiva 2024/1385 (termen 14.06.2027), ci doar pregătește cadrul instituțional. Subvenționarea și contractarea furnizorilor privați (Art. I alin. (3) lit. b) și e)) trebuie să respecte normele UE privind ajutorul de stat (SIEG) și achizițiile publice (Directiva 2014/24/UE, regimul simplificat pentru servicii sociale), pentru a nu discrimina furnizorii.",
+      "blindSpotsCaught": "Expunerea de motive se contrazice. La pct. 6.1 invocă exceptarea de la transparență decizională (art. 7 alin. 13 din Legea 52/2003), iar la pct. 7.1 spune că proiectul a fost în consultare publică între 19 și 28.09.2025, adică doar 10 zile. Secțiunea financiară declară „fără impact”, deși Art. I alin. (3) deschide finanțări noi; fiind facultative, costul este doar amânat la legea bugetară. Lista din expunere sare de la lit. c) la e), deci nu corespunde exact textului OUG.",
+      "constitutionalityNote": "Art. 116 alin. (2) din Constituție permite organizarea organelor de specialitate în subordinea Guvernului sau a ministerelor. CCR a acceptat în mod constant reorganizări ale administrației centrale prin OUG, deci fondul nu ridică probleme majore. Motivarea urgenței (art. 115 alin. 4) este slabă: statisticile despre violența domestică nu explică de ce schimbarea subordonării nu putea aștepta procedura obișnuită. O parte din preambul descrie măsuri care lipsesc din OUG. Textul trunchiat al Art. III, dacă se confirmă, afectează claritatea normei (art. 1 alin. 5). Nu sunt afectate drepturi fundamentale (art. 115 alin. 6).",
+      "euLawNote": "Directiva 2018/958 nu se aplică, pentru că nu se reglementează accesul la profesii. Nici Directiva TRIS 2015/1535 nu se aplică, pentru că nu sunt reguli tehnice sau servicii digitale. OUG nu transpune Directiva 2024/1385, termen 14.06.2027; doar pregătește cadrul instituțional. Dacă ANES îndeplinește atribuții de organism de egalitate în sensul Directivei 2006/54, Directivele 2024/1499 și 2024/1500 cer independență, iar subordonarea directă față de un minister merită verificată din acest unghi. Contractarea serviciilor de la furnizori privați (lit. e) trebuie să respecte regulile de achiziții publice și de ajutor de stat.",
       "senatForm": {
-        "articleRef": "Art. I alin. (3) lit. b) din OUG nr. 83/2025",
-        "proposalContent": "Art. I alin. (3) lit. b) se modifică: «b) finanțarea programelor de subvenționare a furnizorilor privați de servicii sociale, acreditați, derulate de Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale, în condițiile Legii nr. 34/1998;». La lit. a) se corectează: «Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale».",
-        "argumentation": "Forma actuală omite cuvinte esențiale („furnizorilo servicii sociale”, „Tineretului și Sociale”) și denumește greșit ministerul, ceea ce afectează claritatea normei (art. 1 alin. (5) Constituție). Expunerea de motive confirmă că se vizau furnizorii privați. Trimiterea la Legea 34/1998 și cerința acreditării asigură criterii transparente de acordare a subvențiilor.",
-        "otherComments": "Recomand completarea alin. (3) cu obligația ca alocările de la lit. b) și e) să se facă prin procedură competitivă și transparentă, cu respectarea regulilor de ajutor de stat (SIEG). Recomand și o fișă financiară pentru Helpline și serviciile anunțate, deoarece afirmația „fără impact financiar” contrazice obiectivele declarate."
+        "articleRef": "OUG 83/2025: Art. I alin.(3) lit.b) și Art. III",
+        "proposalContent": "Lit. b): „finanțarea programelor de subvenționare a furnizorilor privați de servicii sociale, derulate de MMFTSS;”. Art. III: „În termen de 45 de zile lucrătoare de la data intrării în vigoare a prezentei ordonanțe de urgență, MMFTSS propune Guvernului proiectele de acte normative privind organizarea și funcționarea MMFTSS și a ANES.”",
+        "argumentation": "Textul extras are lacune: la lit. b) lipsesc cuvinte, iar Art. III se oprește în mijlocul frazei, fără să numească actul pe care trebuie să-l adopte Guvernul. Corectarea asigură claritatea și previzibilitatea normei (art. 1 alin. 5 din Constituție) și respectă Legea 24/2000. Fără aceasta, termenul de 45 de zile nu are un obiect clar.",
+        "otherComments": "Rog verificarea textului față de MO nr. 1181/2025. Propun un termen legal pentru proiectul de modificare a Legii 217/2003, pe care preambulul îl invocă drept motiv al urgenței, și pentru actualizarea HG 177/2016. ANES a fost mutată de două ori în circa un an; stabilitatea ei și a liniei HELPLINE ar trebui garantată."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 65629,
+      "durationMs": 61627,
       "sourceEndMarker": "SF-BDF642ED",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "ANES trece la Ministerul Muncii",
-      "verdictShort": "O reorganizare administrativă cu risc redus, care poate facilita finanțarea serviciilor pentru victimele violenței domestice. Principalele vulnerabilități sunt justificarea urgenței și fundamentarea financiară insuficientă, fără taxe, monopoluri sau sancțiuni noi în dispozițiile disponibile.",
-      "initiatorClaim": "Guvernul urmărește coordonarea mai eficientă a protecției victimelor, dezvoltarea serviciilor sociale și accesarea finanțărilor europene. Reorganizarea este prezentată drept o condiție pentru intervenții rapide împotriva violenței domestice.",
-      "realityCheck": "Articolul unic aprobă fără modificări OUG nr. 83/2025, care mută ANES la Ministerul Muncii, stabilește finanțarea prin bugetul acestuia și permite finanțarea mai multor categorii de servicii sociale. Textul nu instituie pachetul personalizat pentru victime, ocupația de asistent de sprijin sau compensațiile pentru copii invocate în motivare. Extrasul art. III este întrerupt, astfel încât integralitatea dispozițiilor finale nu poate fi confirmată.",
+      "plainTitle": "ANES trece la Ministerul Muncii și poate finanța servicii pentru victime",
+      "verdictShort": "Reglementarea este în principal administrativă și poate facilita finanțarea serviciilor pentru victime. Riscurile identificate privesc justificarea urgenței și transparența finanțărilor; textul lizibil nu introduce taxe, monopoluri sau sancțiuni.",
+      "initiatorClaim": "Inițiatorii urmăresc coordonarea mai eficientă a prevenirii violenței domestice, dezvoltarea serviciilor pentru victime și accesarea finanțărilor europene. Prezintă transferul ANES ca premisă pentru intervenții rapide și pentru viitoare măsuri de sprijin.",
+      "realityCheck": "Art. I schimbă subordonarea ANES și circuitul finanțării sale, permițând și finanțarea unor programe, cofinanțări și contractarea serviciilor specializate. Textul nu instituie efectiv pachetul individual de sprijin, compensațiile pentru copii sau extinderea personalului helpline invocate în justificare. Alocările pentru servicii sunt facultative și dependente de buget, iar extrasul art. III este întrerupt, ceea ce limitează verificarea dispozițiilor finale.",
       "affectedGroups": [
+        "Angajați & HR",
         "Justiție & Drepturi Civile",
-        "Angajați & HR"
+        "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. I alin. (1)-(2): ANES își păstrează personalitatea juridică, trece în subordinea Ministerului Muncii și este finanțată integral de la bugetul de stat, ca ordonator terțiar.",
-        "Art. I alin. (3): formularea «se pot aloca fonduri» permite finanțarea, dar nu garantează sume, servicii efective sau drepturi individuale imediat exigibile pentru victime.",
-        "Art. I alin. (3) lit. b)-e): sunt prevăzute subvenționări, cofinanțări și contractarea serviciilor de la furnizori privați. Nu este instituită o exclusivitate pentru un furnizor și nu apare o derogare expresă de la regulile generale aplicabile finanțării și contractării.",
-        "Art. II alin. (2): preluarea personalului trebuie să respecte regimul juridic al fiecărei categorii și să mențină drepturile salariale existente la preluare.",
-        "Art. II-III: termenele de 30 de zile și 45 de zile lucrătoare curg de la intrarea în vigoare a ordonanței; simpla aprobare prin lege nu le repornește. Finanțarea tranzitorie din art. II alin. (1) încetează la intrarea în vigoare a bugetului pe 2026.",
-        "Expunerea declară lipsa impactului financiar, dar invocă extinderea serviciilor și a personalului HELPLINE. Aceste obiective nu sunt însoțite aici de alocări cuantificate; reorganizarea poate fi neutră bugetar, însă dezvoltările ulterioare necesită fundamentare distinctă."
+        "Articolul unic aprobă OUG nr. 83/2025 fără modificări; efectele concrete provin din ordonanța aprobată.",
+        "Art. I alin. (1)-(2) păstrează personalitatea juridică a ANES și finanțarea integrală de la bugetul de stat, prin Ministerul Muncii, agenția având calitatea de ordonator terțiar de credite.",
+        "Art. I alin. (3) permite finanțări pentru programe și servicii sociale, inclusiv contractarea furnizorilor privați în condițiile legii. Nu acordă exclusivitate unui furnizor și nu autorizează expres atribuirea directă a contractelor.",
+        "Art. II alin. (2) prevede transferul posturilor, personalului și patrimoniului în 30 de zile, cu respectarea regimului fiecărei categorii de personal și menținerea drepturilor salariale existente la preluare.",
+        "Art. II alin. (1) reglementează finanțarea până la intrarea în vigoare a bugetului pentru 2026. Aprobarea parlamentară nu repornește termenele calculate de la intrarea în vigoare a ordonanței.",
+        "Afirmația din expunere privind lipsa impactului financiar necesită fundamentare pentru eventualele programe noi; simpla mutare a bugetului existent nu implică însă automat cheltuieli suplimentare.",
+        "Art. III apare întrerupt după formularea «și a». Această lipsă poate proveni din extragere și nu dovedește că actul oficial este incomplet; finalul trebuie confruntat cu documentul autentic."
       ],
-      "blindSpotsCaught": "Finalul art. III se oprește la «și a», iar art. I alin. (3) lit. b) conține fragmente evident deteriorate. Acestea sunt limite ale extrasului, nu vicii demonstrate ale actului oficial. Nu am putut verifica online forma integrală; nu pot exclude alte dispoziții finale sau corelări. Promisiunile sociale din motivare nu trebuie confundate cu măsurile efectiv instituite.",
-      "constitutionalityNote": "Vulnerabilitatea principală privește art. 115 alin. (4): gravitatea violenței domestice justifică intervenția publică, însă trebuie demonstrat concret de ce schimbarea subordonării ANES nu putea aștepta procedura parlamentară. Aprobarea prin lege nu înlătură automat un eventual viciu originar al ordonanței. Pentru art. 1 alin. (5), trebuie verificată corelarea cu legislația existentă și continuitatea administrativă; trunchierile extrasului nu demonstrează neclaritatea normei oficiale. Art. 23 alin. (12) nu este incident, deoarece dispozițiile disponibile nu instituie pedepse. Art. 138 alin. (5) impune indicarea sursei pentru cheltuielile bugetare: sursa este menționată, iar lipsa cuantificării nu dovedește singură neconstituționalitatea unei autorizări facultative de finanțare.",
-      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă dispozițiilor disponibile: acestea nu restrâng accesul la o profesie reglementată ori exercitarea ei; ocupația de asistent de sprijin apare numai în motivare. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu rezultă necesară, deoarece nu sunt introduse reguli tehnice pentru produse sau servicii ale societății informaționale, inclusiv AI. Finanțarea furnizorilor privați trebuie să respecte regulile aplicabile privind concurența, achizițiile și ajutorul de stat, după caz. Invocarea Directivei (UE) 2024/1385 nu transformă reorganizarea într-o transpunere completă. Nu sunt introduse taxe sau obligații birocratice directe pentru cetățeni ori IMM-uri.",
+      "blindSpotsCaught": "Preambulul invocă intervenții imediate, compensații și protecție pentru copii, dar articolele lizibile stabilesc în principal organizarea instituțională și posibilități de finanțare. Expunerea indică o consultare începută în septembrie 2025, anterior adoptării ordonanței în decembrie: această cronologie cere explicarea împrejurării concrete care a făcut imposibilă așteptarea procedurii parlamentare. Nu dovedește singură neconstituționalitatea.",
+      "constitutionalityNote": "Transferul unei agenții în subordinea unui minister este, în principiu, compatibil cu organizarea administrației centrale prevăzută de art. 116-117. Principalul punct de verificat este art. 115 alin. (4): gravitatea violenței domestice trebuie legată concret de necesitatea imediată a transferului instituțional și de imposibilitatea amânării acestuia. Aprobarea prin lege nu înlătură un eventual viciu originar al ordonanței. Pentru art. 1 alin. (5), formulările deteriorate din extras trebuie confruntate cu originalul înainte de constatarea unor defecte normative. Art. 23 alin. (12) nu are incidență directă, deoarece nu sunt instituite pedepse. Finanțările viitoare trebuie să respecte și cerințele bugetare ale art. 138 alin. (5), fără ca formularea facultativă din art. I alin. (3) să dovedească singură încălcarea acestora.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă pe textul lizibil: nu sunt introduse condiții de acces sau exercitare a unei profesii reglementate. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu rezultă necesară, deoarece nu sunt stabilite reglementări tehnice pentru produse sau reguli privind serviciile societății informaționale, inclusiv AI. Finanțarea și contractarea furnizorilor privați trebuie să respecte normele aplicabile privind concurența, achizițiile și, după caz, ajutoarele de stat; ordonanța nu prevede o derogare expresă. Transferul ANES poate sprijini implementarea Directivei (UE) 2024/1385, dar nu echivalează cu transpunerea obligațiilor sale materiale.",
       "senatForm": {
-        "articleRef": "OUG nr. 83/2025, art. I alin. (4) nou",
-        "proposalContent": "La art. I se introduce alin. (4): «Fondurile prevăzute la alin. (3) se acordă în limita creditelor bugetare aprobate, pe baza unor criterii obiective și transparente, publicate anterior selecției beneficiarilor, cu respectarea normelor privind achizițiile publice și ajutorul de stat, după caz.»",
-        "argumentation": "Finanțările, subvențiile și cofinanțările trebuie distribuite previzibil și verificabil. Publicarea prealabilă a criteriilor reduce riscul favorizării unor furnizori și clarifică aplicarea instrumentelor de finanțare, fără a impune o majorare a cheltuielilor.",
-        "otherComments": "Propunere pentru Comisia pentru muncă și protecție socială, de preluat ca amendament de un deputat. Înaintea raportului trebuie confruntate art. I alin. (3) lit. b) și finalul art. III cu textul oficial: extrasul furnizat este deteriorat și incomplet."
+        "articleRef": "Articolul unic; art. I din OUG nr. 83/2025",
+        "proposalContent": "La art. I, după alin. (3) se introduce alin. (4): «(4) Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale publică anual sumele alocate potrivit alin. (3), criteriile de selecție, furnizorii finanțați și rezultatele programelor, cu respectarea legislației privind protecția datelor cu caracter personal.»",
+        "argumentation": "Finanțarea facultativă a programelor și serviciilor trebuie însoțită de transparență privind distribuirea banilor și rezultatele obținute. Raportarea permite controlul utilizării fondurilor și evaluarea sprijinului efectiv oferit victimelor.",
+        "otherComments": "Analiza se bazează pe extrasul furnizat; verificarea online nu a fost disponibilă. Înaintea depunerii, trebuie consultate finalul autentic al art. III și forma oficială a art. I alin. (3) lit. b), deteriorată în extras. Solicitarea cetățeanului poate fi preluată ca amendament de un deputat."
       },
       "reachedEnd": true,
       "status": "ok"
     }
   },
   "history": [
+    {
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-19T11:40:58.038Z",
+      "method": "whole-text-v1",
+      "textChars": 15653,
+      "form": "senat",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:19:32.791Z",
+      "reasons": [
+        "model"
+      ]
+    },
     {
       "riskScore": 2.3,
       "riskLevel": "green",

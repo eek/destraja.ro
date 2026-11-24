@@ -2,23 +2,41 @@
   "billId": "PL-x 196/2026",
   "slug": "plx-196-2026",
   "version": "senat",
-  "updatedAt": "2026-11-19T11:59:36.061Z",
+  "updatedAt": "2026-11-24T15:18:30.372Z",
   "coverage": {
     "method": "whole-text-v1",
+    "form": "senat",
     "billChars": 812,
     "ordinanceChars": 18583,
     "memoChars": 28062,
     "memoSupplied": 28062,
-    "marker": "SF-E8FB626F",
-    "form": "senat"
+    "marker": "SF-E8FB626F"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-196-2026.json",
+    "form": "senat",
+    "textHash": "e8fb626fa5ce213e",
+    "fetchedAt": "2026-11-19T10:35:42.903Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 11,
+    "articlesShown": 11,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 22050,
+    "truncated": false,
+    "included": true,
+    "key": "d9c75f1016a09769"
   },
   "consensus": {
     "riskScore": 5,
     "riskLevel": "yellow",
-    "plainTitle": "Salarii restante plătite din fondul de garantare până la 12 luni, dar doar la firmele alese de Guvern ca „strategice”",
-    "summaryTlDr": "Ținta socială e legitimă: salariații firmelor în insolvență primesc mai mult și mai mult timp, iar concordatul preventiv intră în schemă. Problema e că Guvernul alege prin HG cine e „strategic”, după criterii atât de largi încât aproape orice angajator mare poate fi desemnat, inclusiv ad-hoc, după ce a intrat deja în insolvență, iar costul de ~302 mil. lei/an e suportat dintr-un fond alimentat de toți angajatorii.",
-    "initiatorClaim": "Guvernul spune că protejează salariații operatorilor economici esențiali pentru apărare, energie și infrastructuri critice, ca să evite plecarea personalului, blocarea proiectelor finanțate prin SAFE, STEP și FTJ și tensiunile sociale din zonele monoindustriale. Mai spune că măsura e temporară, nu e ajutor de stat și nu are impact bugetar semnificativ.",
-    "realityCheck": "Textul extinde, pentru toți angajatorii, plata din FGPCS la procedura de concordat preventiv (art. 2). Pentru firmele desemnate strategice prin HG, ridică plafonul de la 5 la 12 salarii medii brute pe 12 luni în insolvență, respectiv 6 salarii pe 6 luni în concordat (art. 14 alin. 1¹-1², art. 15). Caracterul „temporar” invocat în preambul nu apare în articole, care nu au nicio limită în timp. Desemnarea e un act discreționar al executivului, fără motivare publică, fără regulă despre momentul desemnării și fără aviz de concurență. Lista e alcătuită de ministere, nu de lege.",
+    "plainTitle": "Salarii restante plătite de stat până la 12 luni, dar numai pentru firmele alese de Guvern ca „strategice”",
+    "summaryTlDr": "Protecția mai mare pentru salariați e reală și utilă, dar cine o primește decide Guvernul prin HG, pe criterii foarte largi, fără termen și fără control efectiv. Rezultatul e un tratament inegal între salariați, cu risc de ajutor de stat mascat pentru câteva companii.",
+    "initiatorClaim": "Guvernul spune că salariații operatorilor economici de interes strategic (energie, apărare, infrastructuri critice) trebuie protejați mai bine la insolvență sau concordat preventiv. Altfel, aceste firme își pierd personalul calificat și riscă pierderea finanțărilor europene (FTJ, STEP, SAFE).",
+    "realityCheck": "Legea creează un regim cu două viteze. Salariații firmelor obișnuite primesc din Fond maximum 5 luni / 5 salarii medii. Salariații firmelor trecute pe o listă aprobată prin HG primesc până la 12 luni / 12 salarii medii (pentru concordat, 6 luni în OUG 6/2026, ridicat ulterior la 12 de OUG 44/2026). Cum în concordat preventiv firma continuă să funcționeze, Fondul ajunge să finanțeze practic statul de plată al unor companii selectate politic, din banii (CAM) plătiți de toți angajatorii, inclusiv IMM-uri.",
     "affectedGroups": [
       "Angajați & HR",
       "IMM & Antreprenori",
@@ -26,58 +44,58 @@
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 6 – art. 14 alin. (1⁵) L. 200/2006",
-      "proposalContent": "(1⁵) Criteriile și lista se aprobă prin HG, la propunerea ministerului de resort, cu avizul MMFTSS și al Consiliului Concurenței. Desemnarea produce efecte doar pentru procedurile deschise după intrarea în vigoare a HG. Lista se publică cu motivarea fiecărei desemnări și se reevaluează anual. Alin. (1¹) și (1²) se aplică până la 31.12.2028.",
-      "argumentation": "Criteriul de la alin. (1³) lit. d) permite desemnarea aproape oricărui angajator mare, chiar după intrarea în insolvență. Fără motivare publică, termen și aviz de concurență, accesul la 12 salarii din fondul plătit de toți angajatorii devine discreționar (art. 1 alin. 5 și art. 16 Constituție). Preambulul invocă un caracter temporar absent din text.",
-      "otherComments": "Art. 17 alin. (2) impune dobânda tuturor angajatorilor, deși expunerea de motive o limitează la cei strategici. Art. 17 alin. (1) nu precizează dacă restituirea e datorată și la închiderea concordatului prin eșec. Fișa financiară estimează +301,9 mil. lei/an fără calcul de fundamentare (sec. 4 pct. 6 e gol)."
+      "articleRef": "Art. I pct. 6 - art. 14 alin. (1^5) L. 200/2006",
+      "proposalContent": "(1^5) Criteriile și lista se aprobă prin HG, la propunerea ministerului de resort, cu avizul MMFTSS și al Consiliului Concurenței, după consultare publică de min. 10 zile. Lista se publică în M.Of. și se revizuiește anual; includerea încetează după 24 de luni dacă nu e reînnoită motivat. Refuzul includerii se motivează și poate fi atacat în contencios administrativ.",
+      "argumentation": "Accesul salariaților la 12 luni de garanție în loc de 5 depinde exclusiv de o listă aprobată prin HG pe criterii vagi (ex. impact asupra pieței muncii). Fără publicitate, termen și control, regimul devine discreționar, contrar art. 1 alin. (5) și art. 16 din Constituție, iar sprijinul selectiv riscă să fie calificat drept ajutor de stat (art. 107 TFUE).",
+      "otherComments": "Legea de aprobare trebuie corelată cu OUG nr. 44/2026, care a modificat deja art. 2, 14 alin. (1^2), 15 și 21. Impactul bugetar din fișă (aprox. 302 mil. lei/an) contrazice afirmația că nu ar exista impact semnificativ. Solicit date pe operator și raportare anuală ANOFM privind sumele plătite și cele recuperate."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 49695,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 102882,
       "sourceEndMarker": "SF-E8FB626F",
-      "riskScore": 5,
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Garanții salariale mai mari, dar doar pentru firmele declarate «strategice» prin HG",
-      "verdictShort": "OUG extinde util Fondul de garantare la concordatul preventiv și obligă firmele care se redresează să restituie banii cu dobândă, însă lasă Guvernului o discreție prea largă să aleagă nominal companiile «strategice» cu plafon dublu (12 salarii). În plus, impactul bugetar de 301,86 mil. lei/an nu are calcule fundamentate în expunerea de motive.",
-      "initiatorClaim": "Guvernul susține că vrea să protejeze salariații companiilor de interes strategic aflate în dificultate temporară, pentru a preveni exodul personalului calificat, blocarea infrastructurilor critice și pierderea finanțărilor europene (FTJ, STEP, SAFE). Măsura ar armoniza și Legea nr. 200/2006 cu procedura concordatului preventiv din Legea nr. 85/2014.",
-      "realityCheck": "Legea extinde Fondul de garantare (FGPCS) la toate firmele în concordat preventiv, însă creează un regim privilegiat pentru «operatorii de interes strategic» desemnați prin HG: până la 12 salarii medii brute pe 12 luni (insolvență) sau 6 salarii pe 6 luni (concordat), față de plafonul obișnuit de 5 salarii pe 5 luni. Criteriile de desemnare sunt disjunctive («cel puțin unul») și foarte vagi, permițând includerea oricărui angajator mare dintr-o comunitate locală. Dacă firma se redresează sau închide concordatul, trebuie să restituie integral sumele în 6 luni, cu dobânda de recuperare a Comisiei Europene.",
+      "plainTitle": "Salarii garantate dublu pentru firmele „strategice” alese prin HG, dar cu dobândă pentru toate firmele care se redresează",
+      "verdictShort": "Deși urmărește un scop legitim de protecție socială, OUG 6/2026 lasă Guvernului libertatea discreționară de a alege prin HG firmele privilegiate și ascunde o dobândă nouă aplicabilă tuturor angajatorilor care reușesc să se salveze, nu doar celor strategici.",
+      "initiatorClaim": "Guvernul susține că protejează salariații companiilor vitale (energie, apărare, infrastructuri critice) aflate în dificultate temporară, extinzând plafonul Fondului de garantare și aliniind legea la concordatul preventiv pentru a nu pierde fonduri europene (SAFE, STEP, Tranziție Justă).",
+      "realityCheck": "În realitate, legea deleagă ministerelor și Guvernului desemnarea prin HG a firmelor „strategice” pe criterii extrem de vagi (inclusiv simplul „impact local”), oferindu-le salariaților acestora până la 12 salarii medii brute din fondul alimentat prin contribuția tuturor angajatorilor. În plus, contrar expunerii de motive, art. 17 impune dobânda de recuperare a Comisiei Europene TUTUROR angajatorilor care ies cu succes din insolvență sau concordat (inclusiv IMM-urilor obișnuite), iar fișa financiară declară un minus de 301,8 mil. lei/an fără niciun calcul de fundamentare.",
       "affectedGroups": [
         "Angajați & HR",
         "IMM & Antreprenori",
-        "Contabili & Fiscalitate",
-        "Justiție & Drepturi Civile"
+        "Contabili & Fiscalitate"
       ],
       "keyFindings": [
-        "Art. I pct. 6 (art. 14 alin. (1^1)-(1^5)): ridică plafonul la 12 salarii medii brute/12 luni (insolvență) și 6 salarii/6 luni (concordat preventiv) doar pentru firmele stabilite prin HG, pe baza a 4 criterii alternative extrem de largi (inclusiv «impactul potențial asupra pieței muncii și comunităților locale»).",
-        "Art. I pct. 1 și pct. 9 (art. 2 și art. 17): extinde protecția FGPCS la concordatul preventiv și obligă angajatorii la care procedura se închide prin redresare sau închiderea concordatului să restituie sumele în 6 luni, plus «dobândă la nivelul pieței» (rata Comisiei Europene).",
-        "Art. I pct. 4 (art. 13 alin. (2)): instituie o derogare generică de la întreg Codul fiscal (Legea 227/2015), separând declararea contribuțiilor și impozitului prin D112 (rămâne la angajator) de plata efectivă la bugete (preluată ca plătitor la sursă de AJOFM).",
-        "Secțiunea a 4-a din Expunerea de motive estimează cheltuieli suplimentare de +301.858 mii lei/an (2026-2030) din bugetul asigurărilor pentru șomaj, dar lasă complet goale rubricile privind sursele de acoperire și calculele detaliate."
+        "Selecție discreționară prin HG (Art. I pct. 3 și 6 — art. 4 lit. e și art. 14 alin. 1³-1⁵): O firmă poate fi declarată «de interes strategic» și primi plafon de 12 salarii medii brute/12 luni în insolvență (sau 6 salarii/6 luni în concordat), față de plafonul standard de 5 salarii/5 luni, dacă bifează «cel puțin unul» dintre 4 criterii generice — inclusiv lit. d) «impactul potențial asupra pieței muncii și comunităților locale», criterii detaliate tot prin HG.",
+        "Capcană pentru firmele obișnuite la restituire (Art. I pct. 9 — art. 17 alin. 1-2): Expunerea de motive susține că dobânda la nivelul pieței (rata Comisiei Europene) se aplică «angajatorilor de interes strategic» și doar «peste contribuțiile proprii», dar textul legal o impune TUTUROR angajatorilor (inclusiv IMM-urilor) care se redresează în insolvență (inclusiv în perioada de observație) sau închid concordatul preventiv, pentru întreaga sumă suportată din Fond.",
+        "Impact bugetar masiv fără fundamentare (Secțiunea 4 a Expunerii de motive): Deși textul afirmă că nu există impact semnificativ asupra bugetului public, tabelul oficial indică o creștere a cheltuielilor și un impact negativ pe bugetul asigurărilor pentru șomaj de -301,858 milioane lei anual (peste 1,5 miliarde lei în 5 ani), cu rubricile de fundamentare și surse de acoperire lăsate complet goale.",
+        "Derogare fiscală și obligații de raportare (Art. I pct. 4-5 — art. 13 alin. 2-3): Sumele se plătesc net; prin derogare de la Codul fiscal (Legea 227/2015), impozitul pe venit și contribuțiile sociale se declară în continuare de angajatorul în insolvență/concordat prin D112, dar se virează direct la bugete de agențiile teritoriale (AJOFM) ca plătitor la sursă.",
+        "Eroare procedurală și necorelare legislativă (Art. I pct. 13 — art. 21 alin. 1-2): Art. 21 alin. (1) trimite doar la cererile administratorului/lichidatorului (art. 19 alin. 1 și 3), omițând cererile depuse direct de salariați sau sindicate (art. 19 alin. 2). Totodată, OUG 6/2026 nu conținea o regulă anti-cumul între concordat și insolvență ulterioară, lacună pe care Guvernul a corectat-o ulterior prin OUG 44/2026 (care a modificat deja din nou art. 2, 4, 13, 14, 15, 19 și 21 din Legea 200/2006)."
       ],
-      "blindSpotsCaught": "Există o contradicție între Expunerea de motive și textul normativ: nota de fundamentare afirmă că dobânda la nivelul pieței se aplică doar angajatorilor strategici și doar pentru sumele «peste contribuțiile proprii», însă art. 17 alin. (1)-(2) adoptat aplică obligația de restituire integrală cu dobânda CE tuturor angajatorilor care se redresează sau închid concordatul preventiv. De asemenea, art. 13 alin. (2) nu prevede ce se întâmplă dacă angajatorul insolvabil nu depune D112, blocând viramentele fiscale ale AJOFM.",
-      "constitutionalityNote": "Ridică rezerve privind art. 16 (egalitatea în drepturi) și art. 1 alin. (5) (claritatea legii): doi salariați în situații identice primesc 12 versus 5 salarii garantate exclusiv în funcție de includerea discreționară a angajatorului pe o listă aprobată prin HG, pe criterii necumulative. Totodată, derogarea vagă de la Codul fiscal (art. 13 alin. (2)) și lipsa fundamentării financiare la impactul de 301,86 mil. lei/an creează tensiuni cu art. 138 alin. (5), iar consultarea publică din octombrie 2025 slăbește justificarea urgenței extraordinare din februarie 2026 (art. 115 alin. (4)).",
-      "euLawNote": "Directiva (UE) 2008/94/CE permite statelor membre să acorde o protecție salarială peste minimul european. Obligația de restituire cu dobânda de recuperare a Comisiei Europene (art. 17) atenuează riscul de ajutor de stat ilegal (art. 107 TFUE) pentru firmele viabile, dar desemnarea selectivă prin HG a unor companii active aflate în concordat preventiv rămâne sensibilă concurențial dacă acestea ajung ulterior în faliment fără a mai restitui sumele. Directivele (UE) 2018/958 (profesii reglementate) și 2015/1535 (TRIS, servicii digitale) nu sunt incidente.",
+      "blindSpotsCaught": "Contradicția flagrantă dintre Expunerea de motive (pct. 2.3.7) și art. 17 alin. (2) este un punct orb major: Guvernul promite că dobânda de piață vizează doar firmele strategice pentru sumele peste propriile contribuții, dar legea o aplică universal tuturor firmelor redresate pentru toată suma. În plus, aprobarea nemodificată a OUG 6/2026 în condițiile în care OUG 44/2026 (din noiembrie 2026) a rescris deja mare parte din aceleași articole (ridicând și concordatul la 12 luni și înlocuind «dispoziția» cu «decizia» la art. 21) impune corelare tehnică atentă în comisia Camerei Deputaților.",
+      "constitutionalityNote": "Vulnerabilități serioase față de art. 1 alin. (5) (calitatea și previzibilitatea legii) și art. 16 alin. (1) (egalitatea în drepturi): definirea categoriilor beneficiare de o protecție de 2,4 ori mai mare din același fond contributiv (CAM) este delegată executivului prin HG, pe criterii alternative extrem de laxe, permițând arbitrar. De asemenea, urgența invocată pe art. 115 alin. (4) este slăbită de faptul că proiectul a fost în consultare publică încă din octombrie 2025 și adoptat abia în februarie 2026, iar lipsa sursei de finanțare și a calculelor pentru impactul de -301,8 mil. lei/an ridică probleme sub art. 138 alin. (5).",
+      "euLawNote": "Risc ridicat de ajutor de stat ilegal (art. 107-108 TFUE): contrar susținerii din Expunerea de motive (și a punctului de vedere citat al Consiliului Concurenței), în jurisprudența CJUE fondurile alimentate din contribuții parafiscale obligatorii (CAM) gestionate de stat sunt «resurse de stat». Acordarea unui plafon majorat (12 salarii) doar unor companii selectate discreționar prin HG — mai ales în concordat preventiv, unde firma continuă activitatea comercială și păstrează personalul și eligibilitatea la fonduri — oferă un avantaj economic selectiv indirect. Directiva 2008/94/CE permite protecție sporită, dar nu derogă de la regulile ajutoarelor de stat. Directivele (UE) 2018/958 (profesii reglementate) și 2015/1535 (TRIS) nu sunt incidente.",
       "senatForm": {
-        "articleRef": "Art. I pct. 6 (art. 14 alin. (1^3) și (1^5))",
-        "proposalContent": "La art. 14 alin. (1^3), sintagma «cel puțin unul dintre următoarele criterii» se înlocuiește cu «cumulativ criteriul prevăzut la lit. d) și cel puțin unul dintre criteriile prevăzute la lit. a)-c)», iar la alin. (1^5) se introduce avizul conform al Consiliului Concurenței privind compatibilitatea cu normele de ajutor de stat.",
-        "argumentation": "Forma actuală permite desemnarea discreționară prin HG a oricărui mare angajator local doar pe baza lit. d), creând discriminare între salariați (art. 16 Constituție) și risc de ajutor de stat selectiv (art. 107 TFUE) pentru firmele active în concordat preventiv. Avizul Consiliului Concurenței și criteriile cumulative previn abuzurile.",
-        "otherComments": "Solicităm și clarificarea art. 13 alin. (2) privind articolele exacte din Codul fiscal de la care se derogă și mecanismul aplicabil dacă angajatorul insolvabil nu depune Declarația 112, precum și publicarea calculelor lipsă din Secțiunea a 4-a pentru impactul de 301,86 mil. lei/an."
+        "articleRef": "Art. I pct. 6 (art. 14 alin. 1³-1⁵)",
+        "proposalContent": "Modificați art. 14 alin. (1³)-(1⁵) pentru a stabili prin lege criterii obiective și cuantificabile (infrastructuri critice, apărare, prag minim de salariați), eliminând criteriul vag de la lit. d). Hotărârea de Guvern trebuie doar să constate îndeplinirea criteriilor legale, nu să le inventeze, și să necesite aviz obligatoriu al Consiliului Concurenței.",
+        "argumentation": "Textul permite Guvernului să desemneze discreționar prin HG firme «strategice» chiar pe un singur criteriu vag (lit. d), încălcând art. 1 alin. (5) și art. 16 din Constituție. Acordarea unui plafon de 12 salarii din fondul alimentat prin CAM doar unor firme selectate administrativ creează risc serios de ajutor de stat ilegal (art. 107 TFUE).",
+        "otherComments": "Corectați și: 1) art. 17 alin. (2), care impune dobânda pieței tuturor firmelor redresate (inclusiv IMM), contrar expunerii de motive; 2) art. 21 alin. (1), care omite cererile salariaților (art. 19 alin. 2); 3) corelarea cu OUG 44/2026 (care a modificat deja aceleași articole) și lipsa calculelor pentru impactul bugetar de 301,8 mil. lei/an."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 69300,
+      "durationMs": 58063,
       "sourceEndMarker": "SF-E8FB626F",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Salarii restante plătite din fondul de garantare până la 12 luni, dar doar la firmele alese de Guvern ca „strategice”",
-      "verdictShort": "Ținta socială e legitimă: salariații firmelor în insolvență primesc mai mult și mai mult timp, iar concordatul preventiv intră în schemă. Problema e că Guvernul alege prin HG cine e „strategic”, după criterii atât de largi încât aproape orice angajator mare poate fi desemnat, inclusiv ad-hoc, după ce a intrat deja în insolvență, iar costul de ~302 mil. lei/an e suportat dintr-un fond alimentat de toți angajatorii.",
-      "initiatorClaim": "Guvernul spune că protejează salariații operatorilor economici esențiali pentru apărare, energie și infrastructuri critice, ca să evite plecarea personalului, blocarea proiectelor finanțate prin SAFE, STEP și FTJ și tensiunile sociale din zonele monoindustriale. Mai spune că măsura e temporară, nu e ajutor de stat și nu are impact bugetar semnificativ.",
-      "realityCheck": "Textul extinde, pentru toți angajatorii, plata din FGPCS la procedura de concordat preventiv (art. 2). Pentru firmele desemnate strategice prin HG, ridică plafonul de la 5 la 12 salarii medii brute pe 12 luni în insolvență, respectiv 6 salarii pe 6 luni în concordat (art. 14 alin. 1¹-1², art. 15). Caracterul „temporar” invocat în preambul nu apare în articole, care nu au nicio limită în timp. Desemnarea e un act discreționar al executivului, fără motivare publică, fără regulă despre momentul desemnării și fără aviz de concurență. Lista e alcătuită de ministere, nu de lege.",
+      "plainTitle": "Salarii restante plătite de stat până la 12 luni, dar numai pentru firmele alese de Guvern ca „strategice”",
+      "verdictShort": "Protecția mai mare pentru salariați e reală și utilă, dar cine o primește decide Guvernul prin HG, pe criterii foarte largi, fără termen și fără control efectiv. Rezultatul e un tratament inegal între salariați, cu risc de ajutor de stat mascat pentru câteva companii.",
+      "initiatorClaim": "Guvernul spune că salariații operatorilor economici de interes strategic (energie, apărare, infrastructuri critice) trebuie protejați mai bine la insolvență sau concordat preventiv. Altfel, aceste firme își pierd personalul calificat și riscă pierderea finanțărilor europene (FTJ, STEP, SAFE).",
+      "realityCheck": "Legea creează un regim cu două viteze. Salariații firmelor obișnuite primesc din Fond maximum 5 luni / 5 salarii medii. Salariații firmelor trecute pe o listă aprobată prin HG primesc până la 12 luni / 12 salarii medii (pentru concordat, 6 luni în OUG 6/2026, ridicat ulterior la 12 de OUG 44/2026). Cum în concordat preventiv firma continuă să funcționeze, Fondul ajunge să finanțeze practic statul de plată al unor companii selectate politic, din banii (CAM) plătiți de toți angajatorii, inclusiv IMM-uri.",
       "affectedGroups": [
         "Angajați & HR",
         "IMM & Antreprenori",
@@ -85,68 +103,85 @@
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I pct. 6 – art. 14 alin. (1¹): plafonul crește de la 5 la 12 salarii medii brute pe salariat, dar numai pentru operatorii „stabiliți ca fiind de interes strategic prin hotărâre a Guvernului”. Dreptul salariatului depinde astfel de o decizie politică luată la nivelul firmei, nu de situația lui.",
-        "Art. 14 alin. (1³): ajunge îndeplinirea a „cel puțin unul” dintre criterii, iar lit. d), adică impactul asupra pieței muncii și a comunităților locale la încetarea activității, poate fi invocată de aproape orice angajator mare. Criteriile nu filtrează efectiv.",
-        "Legea nu cere ca desemnarea să preceadă deschiderea procedurii de insolvență sau de concordat. Guvernul poate deci include pe listă, prin HG, o firmă anume aflată deja în insolvență. Art. II reglementează doar cererile depuse anterior, nu desemnările ulterioare.",
-        "Art. I pct. 1 – art. 2: fondul acoperă de acum și angajatorii în concordat preventiv, adică firme care nu sunt insolvente și își continuă activitatea. FGPCS ajunge astfel să finanțeze, în fapt, salariile unor firme în funcțiune.",
-        "Art. I pct. 9 – art. 17 alin. (2): dobânda la rata de recuperare a Comisiei Europene se aplică tuturor angajatorilor care își restituie sumele, deși expunerea de motive (pct. 7) susține că vizează doar angajatorii strategici și doar sumele „peste contribuțiile proprii”. Textul e mai sever decât intenția declarată.",
-        "Art. 17 alin. (1): obligația de restituire în 6 luni se declanșează la „închiderea procedurii de concordat preventiv”, fără să distingă între succesul și eșecul concordatului. Nu e clar dacă și o firmă intrată ulterior în faliment datorează restituirea.",
-        "Fișa financiară (sec. 4) estimează +301,858 mil. lei pe an, constant pe 5 ani, la cheltuieli, dar rândul 6, cu calculele de fundamentare, e gol. Asta contrazice afirmația că măsura nu are „impact semnificativ”, iar costul pe 5 ani depășește 1,5 mld. lei.",
-        "Art. 14 alin. (2) raportează plafonul la salariul mediu brut din luna deschiderii procedurii. Art. 15 alin. (4) calculează perioada înapoi de la data cererii, nu de la deschiderea procedurii, cum afirmă expunerea la pct. 3.1."
+        "Art. I pct. 6 (art. 14 alin. (1^1)-(1^2)): plafonul crește de la 5 la 12 salarii medii brute pe salariat, numai pentru operatorii „stabiliți ca fiind de interes strategic prin hotărâre a Guvernului”. Accesul la protecția extinsă depinde de un act administrativ, nu de situația salariatului.",
+        "Art. 14 alin. (1^3): ajunge îndeplinirea unui singur criteriu dintre patru. Criteriul d) („impactul potențial asupra pieței muncii și asupra comunităților locale”) poate fi invocat de practic orice angajator mare, deci discreția Guvernului e aproape nelimitată.",
+        "Art. 14 alin. (1^4)-(1^5): fiecare minister își face propriile criterii, aprobate prin HG. Legea nu prevede consultare publică, termen de valabilitate a includerii pe listă, revizuire periodică sau cale de atac pentru firmele ori salariații excluși. Preambulul OUG vorbește de caracter „temporar”, dar textul nu are nicio limită în timp.",
+        "Art. 15 alin. (2)-(5): perioada acoperită crește de la 5 la 12 luni consecutive anterioare cererii (6 luni pentru concordat în forma OUG 6). Regula pentru o nouă cerere se ajustează proporțional.",
+        "Art. 17 alin. (2): introduce dobânda „la nivelul pieței” (rata Comisiei Europene pentru recuperări) la restituirea sumelor de către angajatorii redresați. Expunerea de motive o prezintă ca obligație a angajatorilor strategici, dar textul o aplică tuturor angajatorilor, inclusiv IMM-urilor ieșite din insolvență sau concordat.",
+        "Fișa financiară arată +301.858 mii lei/an cheltuieli (aprox. 302 mil. lei anual, 5 ani la rând), deși expunerea de motive susține că impactul nu e „semnificativ”. Plata e acoperită din excedentul Fondului, adică din CAM plătit de toți angajatorii.",
+        "Art. I pct. 1 (art. 2) a eliminat, în forma OUG 6, „actele normative cu putere de lege” ca sursă a creanțelor garantate. OUG 44/2026 le-a reintrodus. Legea de aprobare preia textul OUG 6 fără să țină cont de modificările ulterioare."
       ],
-      "blindSpotsCaught": "Urgența OUG e slăbită chiar de documentele inițiatorului: proiectul a fost în consultare publică între 13 și 22.10.2025, iar Consiliul Concurenței a răspuns la o adresă din 24.10.2025, însă ordonanța a fost adoptată abia pe 19.02.2026. Patru luni de inacțiune sunt greu de împăcat cu „situația extraordinară a cărei reglementare nu poate fi amânată”. Deși preambulul invocă apărarea națională și SAFE, CSAT nu apare la avize, iar consultările cu ONG-uri și organisme consultative sunt trecute „Nu este cazul”. Preambulul descrie măsura ca „temporară”, dar textul nu are clauză de caducitate. Finanțarea vine din CAM, contribuție plătită de toate firmele, inclusiv IMM-uri, așa că rezultă un transfer de la angajatorii mici către salariații marilor operatori aleși de Guvern.",
-      "constitutionalityNote": "Art. 115 alin. (4): urgența e discutabilă, având în vedere întârzierea de circa 4 luni dintre consultare și adoptare. Totuși, CCR a acceptat în mod constant OUG-uri cu motivare extinsă, iar preambulul de aici e detaliat. Art. 115 alin. (6): OUG extinde drepturi, nu le restrânge, deci nu e afectat. Art. 16 (egalitatea) și art. 1 alin. (5) (previzibilitatea) ridică riscul principal. Diferențierea între salariați după statutul angajatorului poate fi justificată obiectiv, dar legea lasă în seama HG-urilor atât criteriile, cât și lista. Criteriile legale sunt vagi și alternative, iar momentul desemnării nu e reglementat. Rezultă o putere discreționară a executivului de a acorda unui grup de salariați un drept legal mai mare. Salariații firmelor excluse pot ataca HG-ul în contencios administrativ. Ambiguitatea de la art. 17 privind restituirea la închiderea concordatului afectează și ea claritatea normei.",
-      "euLawNote": "Directiva 2008/94/CE permite garanții peste minim, deci extinderea în sine e compatibilă. Ajutor de stat (art. 107 TFUE): afirmația din expunere că resursele FGPCS nu sunt de stat e fragilă. CAM e o contribuție obligatorie instituită prin lege, colectată și administrată de autorități publice, iar jurisprudența CJUE (de ex. Steinike & Weinlig) tratează asemenea resurse parafiscale ca resurse de stat. Selectivitatea e reală: doar firmele desemnate prin HG beneficiază, iar în concordat preventiv firma își continuă activitatea în timp ce costul salarial e preluat de fond. Faptul că se percepe dobândă la rata de recuperare a Comisiei sugerează chiar că inițiatorii au anticipat acest risc. Avizul Consiliului Concurenței atenuează riscul, dar nu înlocuiește o evaluare a Comisiei. Directiva 2018/958 nu e incidentă, pentru că nu sunt reglementate profesii. TRIS 2015/1535 nu e incidentă, pentru că nu sunt vizate servicii digitale sau reguli tehnice. Art. 49 TFUE: textul spune că se aplică „indiferent de forma de proprietate”, deci nu există discriminare formală.",
+      "blindSpotsCaught": "Proiectul aprobă OUG 6/2026 „ca atare”, dar între timp OUG 44/2026 (MO 944/12.11.2026) a modificat deja art. 2, art. 4 lit. d), art. 14 alin. (1^2) (concordat: de la 6 la 12 salarii), art. 15 (fostul alin. (3) eliminat, introdus mecanismul de diminuare la trecerea din concordat în insolvență) și art. 21 („decizie” în loc de „dispoziție”, cu cale de atac în contencios). Fără corelare, legea de aprobare poate crea incertitudine asupra textului aplicabil. În plus, Fondul acoperă și salariile din perioada concordatului preventiv, când firma e solvabilă formal și își continuă activitatea. Asta depășește logica Directivei 2008/94/CE, care vizează insolvența, și seamănă cu un sprijin de lichiditate pentru firmă.",
+      "constitutionalityNote": "Art. 1 alin. (5) (previzibilitate): criteriile din art. 14 alin. (1^3) sunt alternative și foarte generale, iar lista se stabilește discreționar prin HG. Legea lasă practic executivului definirea sferei beneficiarilor unui drept social. Art. 16 (egalitate): salariați aflați în aceeași situație (angajator insolvent, salarii neplătite) primesc protecție de 5 sau de 12 luni după criteriul angajatorului, nu al nevoii lor. Justificarea (interes strategic) e legitimă, dar proporționalitatea e slab asigurată în lipsa unor criterii precise și a controlului. Art. 115 alin. (4): urgența e motivată amplu, dar pe argumente generale (context geopolitic, finanțări UE), nu pe o situație punctuală, deci e criticabilă, deși CCR a acceptat de regulă astfel de motivări. Art. 115 alin. (6): măsura extinde drepturi, nu le restrânge, deci riscul e redus. Art. 41 și 47: efectul asupra salariaților beneficiari e pozitiv.",
+      "euLawNote": "Directiva 2008/94/CE permite statelor dispoziții mai favorabile (art. 11), însă extinderea selectivă, pe listă guvernamentală, ridică problema ajutorului de stat (art. 107 TFUE). Afirmația din expunerea de motive că CAM nu ar fi resursă de stat e discutabilă: CAM e o contribuție obligatorie colectată la bugetul de stat, iar jurisprudența CJUE tratează prelevările parafiscale obligatorii administrate de stat ca resurse de stat. Avantajul pentru angajator e indirect, dar real: Fondul îi preia costul salarial în concordat, cu restituire doar la redresare. Avizul Consiliului Concurenței invocat e favorabil, dar nu ține loc de notificare la Comisie. Directiva 2019/1023 (restructurare preventivă) e relevantă pentru concordat. Directiva 2018/958 (proporționalitate pentru profesii reglementate) nu e aplicabilă. TRIS 2015/1535 nu e aplicabilă (nu sunt reglementate servicii digitale sau reguli tehnice). Art. 49 TFUE: criteriile sunt formal neutre față de originea capitalului, dar discreția HG permite selecții preferențiale.",
       "senatForm": {
-        "articleRef": "Art. I pct. 6 – art. 14 alin. (1⁵) L. 200/2006",
-        "proposalContent": "(1⁵) Criteriile și lista se aprobă prin HG, la propunerea ministerului de resort, cu avizul MMFTSS și al Consiliului Concurenței. Desemnarea produce efecte doar pentru procedurile deschise după intrarea în vigoare a HG. Lista se publică cu motivarea fiecărei desemnări și se reevaluează anual. Alin. (1¹) și (1²) se aplică până la 31.12.2028.",
-        "argumentation": "Criteriul de la alin. (1³) lit. d) permite desemnarea aproape oricărui angajator mare, chiar după intrarea în insolvență. Fără motivare publică, termen și aviz de concurență, accesul la 12 salarii din fondul plătit de toți angajatorii devine discreționar (art. 1 alin. 5 și art. 16 Constituție). Preambulul invocă un caracter temporar absent din text.",
-        "otherComments": "Art. 17 alin. (2) impune dobânda tuturor angajatorilor, deși expunerea de motive o limitează la cei strategici. Art. 17 alin. (1) nu precizează dacă restituirea e datorată și la închiderea concordatului prin eșec. Fișa financiară estimează +301,9 mil. lei/an fără calcul de fundamentare (sec. 4 pct. 6 e gol)."
+        "articleRef": "Art. I pct. 6 - art. 14 alin. (1^5) L. 200/2006",
+        "proposalContent": "(1^5) Criteriile și lista se aprobă prin HG, la propunerea ministerului de resort, cu avizul MMFTSS și al Consiliului Concurenței, după consultare publică de min. 10 zile. Lista se publică în M.Of. și se revizuiește anual; includerea încetează după 24 de luni dacă nu e reînnoită motivat. Refuzul includerii se motivează și poate fi atacat în contencios administrativ.",
+        "argumentation": "Accesul salariaților la 12 luni de garanție în loc de 5 depinde exclusiv de o listă aprobată prin HG pe criterii vagi (ex. impact asupra pieței muncii). Fără publicitate, termen și control, regimul devine discreționar, contrar art. 1 alin. (5) și art. 16 din Constituție, iar sprijinul selectiv riscă să fie calificat drept ajutor de stat (art. 107 TFUE).",
+        "otherComments": "Legea de aprobare trebuie corelată cu OUG nr. 44/2026, care a modificat deja art. 2, 14 alin. (1^2), 15 și 21. Impactul bugetar din fișă (aprox. 302 mil. lei/an) contrazice afirmația că nu ar exista impact semnificativ. Solicit date pe operator și raportare anuală ANOFM privind sumele plătite și cele recuperate."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 144621,
+      "durationMs": 80186,
       "sourceEndMarker": "SF-E8FB626F",
-      "riskScore": 5,
+      "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Salarii garantate mai mari pentru angajații firmelor declarate strategice",
-      "verdictShort": "Proiectul oferă protecție salarială utilă, dar accesul la garanțiile majorate depinde de desemnări guvernamentale insuficient delimitate. Riscurile principale sunt selecția beneficiarilor, fundamentarea cheltuielilor și regulile de recuperare a banilor.",
-      "initiatorClaim": "Inițiatorii urmăresc protejarea salariaților operatorilor strategici și evitarea întreruperii unor activități esențiale. Susțin că fondul poate suporta extinderea garanțiilor fără dezechilibre bugetare și fără acordarea unui ajutor de stat.",
-      "realityCheck": "Art. I extinde accesul la Fond pentru angajatorii în concordat preventiv în general, iar pentru operatorii desemnați strategici introduce plafoane de 12 salarii medii brute în insolvență și 6 în concordat, pentru perioade de 12, respectiv 6 luni. Desemnarea depinde de criterii sectoriale și liste aprobate de Guvern, fără o durată expresă a regimului privilegiat, deși preambulul îl prezintă drept temporar. Restituirea cu dobândă prevăzută de noul art. 17 nu este limitată la operatorii strategici sau la sumele care depășesc contribuțiile proprii, contrar prezentării din motivare.",
+      "plainTitle": "Garantarea salariilor restante, cu protecție suplimentară pentru firmele strategice",
+      "verdictShort": "Protecția salariaților este utilă, dar accesul la garanțiile suplimentare depinde de o selecție guvernamentală insuficient delimitată. Riscul este moderat: privește distribuirea banilor publici și fundamentarea costurilor, fără taxe noi sau sancțiuni disproporționate.",
+      "initiatorClaim": "Inițiatorii urmăresc protejarea salariaților și păstrarea personalului în întreprinderile strategice aflate în dificultate. Invocă prevenirea întreruperii activităților esențiale și a pierderii finanțărilor europene.",
+      "realityCheck": "Forma Senatului aprobă fără modificări OUG nr. 6/2026, ale cărei măsuri sunt deja aplicabile; aprobarea nu creează acum întregul mecanism descris în expunere. Conform consolidării furnizate, OUG nr. 44/2026 a extins ulterior și concordatul strategic la plafonul de 12 salarii medii brute și perioada de 12 luni: simpla aprobare a OUG nr. 6/2026 nu restabilește automat limitele inițiale de 6 salarii și 6 luni și nu elimină modificările ulterioare. Mecanismul plătește creanțe efectiv datorate, în limite legale, iar avantajul suplimentar depinde de desemnarea angajatorului prin hotărâre a Guvernului.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Angajați & HR",
-        "Justiție & Drepturi Civile",
-        "Toți cetățenii"
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I pct. 1 și 11: includerea concordatului preventiv și posibilitatea cererilor formulate de salariați ori organizațiile reprezentative îmbunătățesc protecția efectivă. Pentru angajatorii nestrategici rămân plafonul general de 5 salarii medii brute și perioada de 5 luni.",
-        "Art. I pct. 6, art. 14 alin. (1³)-(1⁵): desemnarea poate avea la bază un singur criteriu general, inclusiv impactul asupra comunităților locale, fără praguri legale. Definiția activității esențiale limitează această apreciere, dar lipsesc obligații exprese de motivare publică individuală și reevaluare periodică.",
-        "Art. 14 alin. (1¹)-(1²) și art. 15 alin. (2)-(3): regula de 12 salarii și 12 luni nu exclude expres concordatul, reglementat separat prin limita de 6. Interpretarea sistematică susține aplicarea limitei speciale de 6, însă delimitarea și cumulul la trecerea din concordat în insolvență trebuie clarificate.",
-        "Art. 15 alin. (4): perioadele eligibile sunt anterioare depunerii cererii, nu obligatoriu deschiderii insolvenței, cum afirmă o parte a motivării. Plafonul exprimat în salarii medii brute nu garantează compensarea integrală a salariului efectiv al fiecărui angajat.",
-        "Art. 17: orice închidere a concordatului declanșează, potrivit formulării, restituirea în 6 luni, fără distingerea succesului de eșecul procedurii. Pentru insolvență, obligația este legată de închiderea ca urmare a redresării; dobânda privește sumele restituibile integral.",
-        "Expunerea de motive estimează cheltuieli suplimentare de 301,858 milioane lei anual, aproximativ 1,509 miliarde lei în cinci ani. Extrasul nu oferă calcule privind beneficiarii, expunerea maximă sau recuperările; existența unui excedent nu demonstrează singură sustenabilitatea.",
-        "Art. 13 alin. (2)-(3): agențiile virează impozitul și contribuțiile datorate de salariați, dar declararea rămâne la angajator. Nu sunt introduse taxe noi, însă funcționarea mecanismului depinde de corelarea declarațiilor angajatorului cu plățile agenției.",
-        "Art. II păstrează legea aplicabilă la depunere pentru soluționarea cererilor anterioare. Art. III impune actualizarea normelor în 30 de zile, fără un termen expres distinct pentru aprobarea criteriilor și listei operatorilor strategici."
+        "Cronologia schimbă concluzia: articolul unic aprobă o ordonanță deja în vigoare din februarie 2026. Art. 2, 14, 15, 19 și 21 au fost modificate ulterior prin OUG nr. 44/2026, potrivit documentelor furnizate; textele istorice reproduse în OUG nr. 6/2026 nu trebuie prezentate ca înlocuind automat consolidarea actuală.",
+        "Art. I pct. 1, 2 și 11–12 din OUG nr. 6/2026 extind mecanismul la concordatul preventiv inclusiv pentru angajatorii care nu sunt strategici. Afirmația din preambul că obiectul este exclusiv protecția salariaților angajatorilor strategici este mai îngustă decât efectul normelor.",
+        "Art. 14 alin. (1³)–(1⁵) permite desemnarea pe baza a cel puțin unui criteriu general, inclusiv impactul asupra comunității locale, fără praguri legale. Definiția de la art. 4 lit. e) cere totuși o activitate esențială, iar criteriile ministeriale trebuie să fie obiective și transparente; riscul este marja largă de aplicare, nu o libertate juridică nelimitată.",
+        "Art. 14 stabilește plafoane totale per salariat, exprimate în salarii medii brute pe economie, nu promisiunea plății integrale a 12 salarii personale. Art. 15 raportează perioada eligibilă la depunerea cererii, nu la deschiderea insolvenței, contrar unei formulări din expunerea de motive.",
+        "Art. 13 alin. (2)–(3), deja în vigoare, separă declararea fiscală de plată: angajatorul declară, agenția teritorială virează impozitul și contribuțiile salariatului, iar salariatul primește netul. Aceasta cere coordonare administrativă, dar nu instituie o contribuție nouă pentru cetățeni sau IMM-uri.",
+        "Art. 17 obligă la restituire în șase luni de la închiderea insolvenței prin redresare și în cazul închiderii concordatului, cu dobândă calculată de la plata efectivă. Textul privește toți angajatorii aflați în aceste situații și toate sumele suportate, nu doar operatorii strategici sau partea peste contribuțiile proprii, cum sugerează expunerea.",
+        "Expunerea estimează cheltuieli suplimentare de 301,858 milioane lei anual, respectiv 1,50929 miliarde lei în cinci ani. Excedentul fondului poate susține finanțarea, dar nu transformă această cheltuială în impact bugetar nesemnificativ; lipsesc din material calculele detaliate și scenariile de sustenabilitate.",
+        "Caracterul temporar este afirmat în motivare, însă articolele nu prevăd o dată de încetare a regimului strategic. Art. II păstrează legea aplicabilă cererilor depuse înainte de intrarea în vigoare a OUG nr. 6/2026, iar termenul de 30 de zile din art. III curge de la ordonanță, fără să reînceapă prin aprobarea parlamentară."
       ],
-      "blindSpotsCaught": "Afirmația că banii proveniți din CAM nu pot constitui resurse de stat este juridic insuficientă: originea contributivă nu exclude controlul public asupra fondurilor. Totodată, dobânda de recuperare utilizată de Comisia Europeană nu demonstrează automat existența unei finanțări în condiții de piață pentru fiecare angajator în dificultate. Regimul favorabil nu are termen de încetare în articolele operative.",
-      "constitutionalityNote": "Art. 1 alin. (5) impune clarificarea delimitării dintre plafoane, a recuperării după închiderea concordatului și a criteriilor de desemnare. Art. 16 permite diferențierea justificată prin importanța strategică, dar aplicarea trebuie să excludă selecția arbitrară; simpla desemnare prin hotărâre nu dovedește neconstituționalitatea. Protecția salarială susține obiectivele art. 41 și 47. Pentru art. 115 alin. (4), preambulul indică riscuri relevante, însă extrasul nu identifică suficient situații și termene concrete care demonstrează imposibilitatea amânării; aprobarea parlamentară nu înlătură un eventual viciu originar. Nu rezultă o afectare interzisă de art. 115 alin. (6). Estimarea financiară necesită fundamentare, fără ca lipsurile extrasului să dovedească automat încălcarea art. 138 alin. (5). Art. 23 alin. (12), referitor la pedepse, nu este incident: textul nu instituie pedepse.",
-      "euLawNote": "Directiva 2008/94/CE permite protecție mai favorabilă salariaților; extinderea la concordat nu este, prin ea însăși, incompatibilă. Directiva (UE) 2018/958 privește reglementarea accesului la profesii și a exercitării acestora, astfel că testul său nu este aplicabil acestui mecanism salarial. Textul nu introduce reglementări tehnice ori reguli pentru servicii ale societății informaționale care să impună notificarea TRIS potrivit Directivei (UE) 2015/1535. Pentru art. 107-108 TFUE trebuie examinate concret resursele publice, avantajul indirect pentru angajator, selectivitatea și efectele asupra concurenței și comerțului. Plata către salariați și deschiderea către orice formă de proprietate nu exclud singure ajutorul de stat; nici existența acestuia nu poate fi declarată automat din extras.",
+      "blindSpotsCaught": "Textul istoric al OUG nr. 6/2026 nu trebuie confundat cu dreptul consolidat din noiembrie. Regula actuală de deducere a sumelor deja plătite în concordat din plafonul aplicabil insolvenței ulterioare, introdusă la art. 14 alin. (1⁶), nu este eliminată prin simpla aprobare; aceeași precauție se aplică perioadelor deduse potrivit art. 15 actual. Nici contestarea actelor agenției potrivit art. 21 alin. (4) și Legii nr. 554/2004 nu dispare. Analiza folosește documentele furnizate; verificarea online independentă nu a fost disponibilă.",
+      "constitutionalityNote": "Art. 1 alin. (5) justifică precizarea criteriilor de desemnare și corelarea aprobării cu modificările ulterioare, pentru aplicare previzibilă. Diferențierea dintre salariați trebuie justificată obiectiv și proporțional potrivit art. 16; rolul strategic poate constitui o justificare, dar simpla includere pe o listă nu înlocuiește demonstrarea sa. Protecția urmărită susține art. 41 și 47, iar finanțarea are o sursă identificată, astfel că nu rezultă automat încălcarea art. 138 alin. (5). Preambulul invocă riscuri și urgență, însă caracterul concret al situației extraordinare și imposibilitatea amânării rămân de verificat potrivit art. 115 alin. (4); aprobarea parlamentară nu vindecă un eventual viciu originar. Nu rezultă o afectare negativă evidentă în sensul art. 115 alin. (6). Art. 23 alin. (12) nu este incident: textul nu instituie pedepse.",
+      "euLawNote": "Directiva 2008/94/CE permite protecție mai favorabilă decât minimul european; extinderea garanțiilor nu este, prin ea însăși, incompatibilă. Directiva 2018/958 privește restricțiile privind profesiile reglementate, absente aici, iar procedura TRIS din Directiva 2015/1535 nu este declanșată de aceste norme privind creanțele salariale: nu sunt reglementate produse ori servicii ale societății informaționale. Problema relevantă este art. 107 TFUE: proveniența contributivă a banilor și plata către salariați nu exclud singure resursele de stat sau un avantaj indirect pentru angajatori. Selectivitatea desemnării, obligația de restituire și condițiile dobânzii trebuie analizate împreună; rata de recuperare a Comisiei nu dovedește automat finanțarea în condiții de piață. Punctul de vedere al Consiliului Concurenței este relatat în expunere, fără documentul integral. Nu rezultă automat existența unui ajutor, dar nici excluderea sa categorică nu este demonstrată prin motivarea prezentată.",
       "senatForm": {
-        "articleRef": "Art. I pct. 6 – art. 14 alin. (1⁵)",
-        "proposalContent": "Criteriile și lista operatorilor economici de interes strategic se aprobă prin hotărâre a Guvernului, la propunerea ministerului de resort, cu avizul Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale. Criteriile includ praguri verificabile. Pentru fiecare operator se publică motivarea desemnării și impactul financiar estimat.",
-        "argumentation": "Accesul la garanții majorate trebuie justificat prin indicatori verificabili și prin costuri estimate pentru Fond. Publicarea motivării permite controlul tratamentului egal și al selecției beneficiarilor, păstrând competența Guvernului de a desemna operatorii.",
-        "otherComments": "Analiza privește forma furnizată; verificarea online a surselor oficiale nu a fost disponibilă. Sunt necesare și corelarea plafoanelor pentru concordat și insolvență, clarificarea restituirii și fundamentarea impactului bugetar."
+        "articleRef": "Art. I pct. 6 – art. 14 alin. (1³)",
+        "proposalContent": "Partea introductivă a alin. (1³) va avea următorul cuprins: „Desemnarea presupune dovedirea caracterului esențial al activității potrivit art. 4 lit. e) și îndeplinirea a cel puțin unuia dintre următoarele criterii, pe baza unei evaluări motivate, publicate cu protejarea informațiilor clasificate:”",
+        "argumentation": "Leagă desemnarea de definiția legală și impune justificarea verificabilă a accesului la garanții suplimentare. Reduce riscul selecției arbitrare între angajatori și salariați, fără a elimina protecția socială sau criteriile sectoriale.",
+        "otherComments": "Propunere cetățenească pentru Comisia pentru muncă și protecție socială a Camerei Deputaților. Deputații pot prelua textul ca amendament. Forma finală trebuie corelată cu OUG nr. 44/2026, fără revenirea implicită la limitele istorice de 6 salarii și 6 luni."
       },
       "reachedEnd": true,
       "status": "ok"
     }
   },
   "history": [
+    {
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-19T11:59:36.061Z",
+      "method": "whole-text-v1",
+      "textChars": 19395,
+      "form": "senat",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:18:30.372Z",
+      "reasons": [
+        "model"
+      ]
+    },
     {
       "riskScore": 5,
       "riskLevel": "yellow",

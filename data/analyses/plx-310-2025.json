@@ -2,7 +2,7 @@
   "billId": "Pl-x 310/2025",
   "slug": "plx-310-2025",
   "version": "initiator",
-  "updatedAt": "2026-11-19T15:46:13.715Z",
+  "updatedAt": "2026-11-24T15:21:08.666Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -12,125 +12,167 @@
     "memoSupplied": 3905,
     "marker": "SF-EB72F9F0"
   },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-310-2025.json",
+    "form": "initiator",
+    "textHash": "eb72f9f0ca001196",
+    "fetchedAt": "2026-11-20T07:43:41.950Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 1,
+    "chars": 10271,
+    "truncated": false,
+    "included": true,
+    "key": "023a6e00feb0b19f"
+  },
   "consensus": {
     "riskScore": 2.7,
     "riskLevel": "green",
-    "plainTitle": "Operatorul de apă, obligat să vină la verificare când îi ceri și să-ți dea un proces-verbal",
-    "summaryTlDr": "O lege mică și utilă pentru cei care plătesc apă pe care nu au consumat-o: operatorul trebuie să verifice la cerere și să dea un proces-verbal. Lipsesc însă trei lucruri: în cât timp vine operatorul, cine plătește și ce valoare are procesul-verbal.",
-    "initiatorClaim": "Inițiatorii spun că tot mai mulți utilizatori văd consumuri facturate fără explicație, iar operatorii refuză să verifice instalațiile interioare sau coloanele comune ale blocului. Vor o obligație legală de verificare la cerere, încheiată cu un proces-verbal care să poată fi folosit ca probă.",
-    "realityCheck": "Articolul unic adaugă lit. f) la art. 31 alin. (7). Operatorul verifică, la cererea scrisă și justificată a utilizatorului sau a asociației, fraude, intervenții neautorizate, defecțiuni sau pierderi, inclusiv pe coloanele comune și, cu acord, pe proprietatea utilizatorului, apoi comunică un proces-verbal în 3 zile lucrătoare. Textul nu spune în cât timp trebuie făcută verificarea, de când curg cele 3 zile, cine plătește, ce se întâmplă dacă cineva refuză să semneze și ce efect are procesul-verbal asupra facturii contestate. Cererile nu au nicio limită, iar costul lor poate ajunge, prin tarif, la toți abonații.",
+    "plainTitle": "Operatorul de apă, obligat să verifice la cerere pierderile și furturile de apă din bloc și să dea proces-verbal",
+    "summaryTlDr": "Este o lege mică și utilă pentru locatari: transformă într-un drept clar ceea ce azi depinde de bunăvoința operatorului. Problemele sunt de redactare și de aplicare: nu are termen pentru verificare, nu spune cine plătește și se aplică doar blocurilor cu contracte individuale.",
+    "initiatorClaim": "Inițiatorii spun că mulți utilizatori contestă consumuri facturate, iar operatorii refuză să verifice instalațiile interioare sau coloanele comune. Vor o obligație expresă de verificare la cerere și un proces-verbal care să servească drept probă în litigii.",
+    "realityCheck": "Articolul unic adaugă lit. f) la art. 31 alin. (7). Operatorul devine obligat să verifice, la cererea scrisă și justificată a utilizatorului sau a asociației, suspiciuni de fraudă, intervenții neautorizate, defecțiuni ori pierderi, inclusiv pe coloanele comune și, cu acord, în locuință, apoi să comunice un proces-verbal în 3 zile lucrătoare. Alin. (7) privește însă doar obligațiile față de utilizatorii din condominii cu contracte individuale, deci majoritatea blocurilor, care au contract colectiv cu asociația, și casele rămân în afara noii reguli. Textul nu fixează un termen pentru efectuarea verificării, nu spune cine suportă costul și nu rezolvă situația în care una dintre părți refuză să semneze procesul-verbal.",
     "affectedGroups": [
       "Proprietari & Imobiliare",
       "Toți cetățenii",
-      "IMM & Antreprenori"
+      "IMM & Antreprenori",
+      "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Articol unic – art. 31 alin. (7) lit. f)",
-      "proposalContent": "f) să efectueze în 10 zile lucrătoare, la cererea scrisă a utilizatorului sau a asociației de proprietari, verificări privind fraude, intervenții neautorizate, defecțiuni sau pierderi, inclusiv pe instalațiile comune ori, cu acordul ocupantului, în locuințe; procesul-verbal, semnat de cei prezenți sau cu refuzul consemnat, se comunică în 3 zile lucrătoare de la verificare.",
-      "argumentation": "Textul inițial nu fixează un termen pentru verificare și nici momentul de la care curg cele 3 zile. Cere semnătura «ambelor părți», deși pot fi trei (operator, asociație, locatar), iar oricine poate bloca actul refuzând să semneze. Acordul trebuie dat de cel care ocupă locuința verificată, nu doar de solicitant (art. 27 Constituție).",
-      "otherComments": "Ar trebui stabilit cine plătește verificarea: gratuit pentru solicitant când se confirmă o defecțiune a rețelei sau frauda altcuiva, altfel la tariful aprobat. Ar trebui spus și ce efect are procesul-verbal asupra facturii contestate. Titlul spune «modificarea», dar articolul doar completează legea; corect: «pentru completarea Legii nr. 241/2006»."
+      "articleRef": "Art. 31 alin. (7) lit. f) din Legea 241/2006",
+      "proposalContent": "Operatorul efectuează verificarea în cel mult 10 zile lucrătoare de la cerere. Procesul-verbal cuprinde aspectele verificate, constatările, neregulile și recomandările, se semnează de părți, iar refuzul sau obiecțiunile se consemnează. Se comunică în 3 zile lucrătoare de la verificare. Verificarea e gratuită dacă neregula ține de operator.",
+      "argumentation": "Textul nu dă termen pentru verificare, deci operatorul poate amâna indefinit, iar termenul de 3 zile nu are punct de plecare. Lipsa semnăturii unei părți ar bloca procesul-verbal. Conținutul minim e cel promis în expunerea de motive, dar absent din text. Regula privind costul evită ca utilizatorul să plătească verificări cerute din cauza operatorului.",
+      "otherComments": "Lit. f) e plasată la alin. (7), aplicabil doar condominiilor cu contracte individuale; blocurile cu contract colectiv și casele rămân în afară. Recomand mutarea într-un articol general. Eliminați «ex.» din textul normativ și corectați titlul: e o completare, nu o modificare."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
       "modelId": "gemini-4-neon-high",
-      "durationMs": 65410,
+      "durationMs": 76009,
       "sourceEndMarker": "SF-EB72F9F0",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Companiile de apă, obligate să verifice pierderi și fraude și pe instalațiile din blocuri",
-      "verdictShort": "Intenție utilă pentru consumatori, dar legea este redactată incomplet: nu stabilește termen de intervenție, sancțiuni sau cine plătește verificările pe instalații private. Fără amendamente, riscă fie să rămână literă moartă, fie să umfle tarifele apei pentru toți cetățenii.",
-      "initiatorClaim": "Inițiatorii vor să crească transparența facturării și să combată furturile și pierderile de apă, obligând operatorii să facă verificări tehnice la cererea utilizatorilor sau asociațiilor de proprietari și să emită un proces-verbal utilizabil în litigii.",
-      "realityCheck": "Articolul unic obligă operatorii de apă să facă verificări și dincolo de rețeaua publică, pe instalațiile comune ale imobilelor și pe proprietăți private, dar nu spune în cât timp trebuie făcut controlul, cine suportă costurile și ce se întâmplă dacă operatorul refuză. Cerințele vagi („cerere justificată”, proces-verbal „semnat de ambele părți”) creează portițe de blocaj, iar cheltuielile suplimentare pot ajunge în tariful unic al apei.",
+      "plainTitle": "Verificări de apă la cerere în blocuri, dar aplicabile doar pe jumătate",
+      "verdictShort": "Intenția de a obliga operatorii de apă să verifice pierderile și suspiciunile de fraudă la cererea locatarilor este utilă, însă norma este introdusă într-un alineat greșit și omite termenele, costurile și sancțiunile. În forma actuală, legea exclude majoritatea blocurilor cu contract colectiv și riscă să rămână blocată în ambiguități procedurale.",
+      "initiatorClaim": "Inițiatorii susțin că vor să protejeze consumatorii de bună-credință de facturi umflate prin pierderi sau furturi de apă, obligând operatorii să facă verificări tehnice la fața locului și să emită un proces-verbal cu valoare probatorie.",
+      "realityCheck": "Deși expunerea de motive vizează toți consumatorii și asociațiile de proprietari, textul introduce noua literă f) la art. 31 alin. (7), care se aplică exclusiv condominiilor cu contracte individuale (unde contractul cu asociația a încetat de drept, conform alin. 6), lăsând pe dinafară majoritatea blocurilor și casele individuale. În plus, proiectul nu fixează un termen în care operatorul trebuie să vină la verificare, nu prevede sancțiuni pentru refuz și extinde controlul dincolo de punctul de delimitare al rețelei publice fără a spune cine suportă costurile.",
       "affectedGroups": [
         "Proprietari & Imobiliare",
-        "Toți cetățenii",
-        "IMM & Antreprenori"
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 31 alin. (7) lit. f) nu impune un termen-limită pentru efectuarea verificării în teren și nu precizează de când curge termenul de 3 zile lucrătoare pentru comunicarea procesului-verbal (de la cerere sau de la control).",
-        "Textul extinde obligația operatorilor pe instalațiile comune și pe proprietatea utilizatorului fără a reglementa finanțarea verificărilor, existând riscul ca sesizările abuzive și controalele pe rețele private să fie socializate în tariful apei.",
-        "Formularea „cerere justificată” lasă la discreția operatorului respingerea solicitărilor, iar obligația de a întocmi un proces-verbal „semnat de ambele părți” nu rezolvă situația refuzului de semnare.",
-        "Proiectul nu introduce nicio sancțiune contravențională corelativă în Legea nr. 241/2006 și conține vicii de tehnică legislativă (titlul vorbește de „modificare” în loc de „completare” și include abrevierea „ex.” în textul normativ)."
+        "Încadrare defectuoasă în art. 31 alin. (7): acest alineat reglementează strict obligațiile operatorului în condominiile cu contracte individuale, unde contractul colectiv cu asociația încetează de drept (art. 31 alin. 6). Menționarea «asociației de proprietari» devine contradictorie, iar utilizatorii cu contract colectiv sau din locuințe individuale nu beneficiază de noua obligație.",
+        "Lipsa elementelor procedurale esențiale: textul obligă la comunicarea procesului-verbal în 3 zile lucrătoare, dar nu stabilește niciun termen pentru efectuarea verificării în sine, nu definește ce înseamnă «cerere justificată», nu reglementează refuzul uneia dintre părți de a semna procesul-verbal și nu prevede nicio sancțiune dacă operatorul ignoră cererea.",
+        "Confuzie privind limita de proprietate, costurile și accesul: conform art. 31 alin. (5) și (8) lit. a), instalațiile comune și interioare sunt dincolo de punctul de delimitare al operatorului; proiectul nu precizează cine plătește verificările (cu risc de transfer în tariful apei) și nu corelează cerința «cu acordul acestuia» cu obligația deja existentă la art. 31 alin. (8) lit. e) de a permite accesul în 48 de ore la suspiciuni de fraudă.",
+        "Viciu de tehnică legislativă și încadrare constituțională: formula finală invocă art. 76 alin. (1) din Constituție (lege organică), deși Legea nr. 241/2006 este lege ordinară (art. 76 alin. 2); totodată, titlul vorbește de «modificare» în loc de «completare», iar textul normativ folosește paranteza exemplificativă «(ex. coloane aflate în spații comune)» contrar Legii nr. 24/2000."
       ],
-      "blindSpotsCaught": "Proiectul obligă operatorii să verifice „suspiciuni de fraudă” inclusiv pe instalații comune și proprietăți private, deși operatorul nu are competențe de organ de control asupra proprietății unui terț (vecin suspectat) care refuză accesul; în plus, preluarea diagnosticării instalațiilor interioare private de către monopolul public al apei fără regim tarifar clar poate distorsiona piața instalatorilor privați autorizați.",
-      "constitutionalityNote": "Textul ridică vulnerabilități serioase față de art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii) prin lipsa termenului de efectuare a verificării, nedeterminarea momentului de la care curg cele 3 zile lucrătoare, sintagma vagă „cerere justificată” și absența regimului costurilor. De asemenea, verificările privind suspiciuni de fraudă în imobile colective trebuie corelate strict cu art. 27 (inviolabilitatea domiciliului) și art. 44 (dreptul de proprietate privată).",
-      "euLawNote": "Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente. Totuși, impunerea de activități obligatorii pe instalații private fără clarificarea modului de tarifare poate crea tensiuni cu principiul recuperării transparente a costurilor serviciilor de apă din Directiva-cadru privind apa 2000/60/CE (art. 9) și cu normele privind subvenționarea încrucișată în servicii de interes economic general.",
+      "blindSpotsCaught": "Cea mai subtilă chichiță este contradicția internă creată prin plasarea lit. f) la art. 31 alin. (7): legea în vigoare stabilește la alin. (6) că la trecerea la contracte individuale contractul cu asociația încetează de drept, iar alin. (8) lit. e) obligă deja utilizatorul suspectat de fraudă să permită accesul în 48 de ore sub sancțiunea paușalului — obligație pe care noua formulare «cu acordul acestuia» o poate dilua. Totodată, citarea art. 76 alin. (1) din Constituție transformă eronat proiectul într-o lege organică.",
+      "constitutionalityNote": "Proiectul ridică probleme serioase față de art. 1 alin. (5) din Constituție (cerințele de claritate, precizie și previzibilitate a legii), din cauza absenței termenului de efectuare a verificării, a sintagmei nedefinite «cerere justificată», a lipsei regulilor privind costurile și a contradicției cu art. 31 alin. (5), (6) și (8) lit. e). De asemenea, formula de atestare invocă eronat art. 76 alin. (1) (lege organică) în locul art. 76 alin. (2) (lege ordinară), obiectul reglementării neîncadrându-se în art. 73 alin. (3). Condiționarea accesului pe proprietatea privată de acordul utilizatorului respectă formal art. 27 (inviolabilitatea domiciliului) și art. 44 (dreptul de proprietate), dar necesită corelare explicită cu art. 31 alin. (8) lit. e).",
+      "euLawNote": "Proiectul nu reglementează produse sau servicii digitale/AI, deci nu intră sub incidența Directivei (UE) 2015/1535 (TRIS), și nu vizează accesul la profesii reglementate în sensul Directivei (UE) 2018/958 privind testul de proporționalitate. Întrucât alimentarea cu apă este un serviciu de interes economic general operat în regim de monopol natural local, introducerea de obligații tehnice suplimentare pentru operatori fără clarificarea finanțării trebuie evaluată în raport cu principiul recuperării costurilor din art. 9 al Directivei-cadru privind apa (2000/60/CE), pentru a evita distorsionarea tarifelor reglementate.",
       "senatForm": {
-        "articleRef": "Articol unic (art. 31 alin. (7) lit. f))",
-        "proposalContent": "f) să verifice, în cel mult 10 zile lucrătoare de la cererea scrisă a utilizatorului ori asociației, suspiciunile de pierderi, defecțiuni sau intervenții neautorizate, inclusiv pe instalații comune ori private, cu acordul proprietarului, pe cheltuiala părții în culpă. Procesul-verbal, cu mențiunea refuzului de semnare, se comunică în 3 zile lucrătoare.",
-        "argumentation": "Textul actual nu fixează un termen de intervenție, nu arată de când curg cele 3 zile lucrătoare și omite cine suportă costurile verificării instalațiilor private, riscând transferul lor în tariful apei. Sintagma «cerere justificată» permite refuzuri arbitrare, iar obligativitatea semnăturii ambelor părți poate bloca procesul-verbal.",
-        "otherComments": "Corectați și erorile de tehnică legislativă (Legea 24/2000): titlul și articolul unic trebuie să vizeze «completarea» Legii nr. 241/2006 (cu menționarea datelor de republicare), nu «modificarea»; eliminați abrevierea «ex.» din textul normativ și corelați obligația cu regimul contravențiilor din lege, altfel măsura rămâne fără forță executorie."
+        "articleRef": "Articol unic - Art. 31 alin. (7) lit. f)",
+        "proposalContent": "Mutarea prevederii într-un alineat nou, aplicabil tuturor utilizatorilor (contracte colective și individuale), cu termen clar de verificare (max. 10 zile lucrătoare de la cerere), menționarea refuzului semnării PV, precizarea suportării costurilor (gratuit la nereguli confirmate) și corectarea formulei de atestare la art. 76 alin. (2) din Constituție.",
+        "argumentation": "Art. 31 alin. (7) vizează exclusiv condominiile cu contracte individuale, unde contractul cu asociația încetează de drept (alin. 6), lăsând pe dinafară majoritatea blocurilor. Lipsa termenului de verificare și neclaritatea costurilor încalcă art. 1 alin. (5) din Constituție privind previzibilitatea legii și pot genera refuzuri arbitrare sau creșteri de tarife.",
+        "otherComments": "Corelați noua obligație cu art. 31 alin. (5) (punctul de delimitare a rețelei) și art. 31 alin. (8) lit. e) (accesul în 48h la suspiciuni de fraudă). Corectați titlul și articolul unic din „modificare” în „completare”, eliminați paranteza exemplificativă („ex. coloane...”) conform Legii nr. 24/2000 și stabiliți o sancțiune pentru neîndeplinirea obligației."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 123781,
+      "durationMs": 41845,
       "sourceEndMarker": "SF-EB72F9F0",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Operatorul de apă, obligat să vină la verificare când îi ceri și să-ți dea un proces-verbal",
-      "verdictShort": "O lege mică și utilă pentru cei care plătesc apă pe care nu au consumat-o: operatorul trebuie să verifice la cerere și să dea un proces-verbal. Lipsesc însă trei lucruri: în cât timp vine operatorul, cine plătește și ce valoare are procesul-verbal.",
-      "initiatorClaim": "Inițiatorii spun că tot mai mulți utilizatori văd consumuri facturate fără explicație, iar operatorii refuză să verifice instalațiile interioare sau coloanele comune ale blocului. Vor o obligație legală de verificare la cerere, încheiată cu un proces-verbal care să poată fi folosit ca probă.",
-      "realityCheck": "Articolul unic adaugă lit. f) la art. 31 alin. (7). Operatorul verifică, la cererea scrisă și justificată a utilizatorului sau a asociației, fraude, intervenții neautorizate, defecțiuni sau pierderi, inclusiv pe coloanele comune și, cu acord, pe proprietatea utilizatorului, apoi comunică un proces-verbal în 3 zile lucrătoare. Textul nu spune în cât timp trebuie făcută verificarea, de când curg cele 3 zile, cine plătește, ce se întâmplă dacă cineva refuză să semneze și ce efect are procesul-verbal asupra facturii contestate. Cererile nu au nicio limită, iar costul lor poate ajunge, prin tarif, la toți abonații.",
+      "plainTitle": "Operatorul de apă, obligat să verifice la cerere pierderile și furturile de apă din bloc și să dea proces-verbal",
+      "verdictShort": "Este o lege mică și utilă pentru locatari: transformă într-un drept clar ceea ce azi depinde de bunăvoința operatorului. Problemele sunt de redactare și de aplicare: nu are termen pentru verificare, nu spune cine plătește și se aplică doar blocurilor cu contracte individuale.",
+      "initiatorClaim": "Inițiatorii spun că mulți utilizatori contestă consumuri facturate, iar operatorii refuză să verifice instalațiile interioare sau coloanele comune. Vor o obligație expresă de verificare la cerere și un proces-verbal care să servească drept probă în litigii.",
+      "realityCheck": "Articolul unic adaugă lit. f) la art. 31 alin. (7). Operatorul devine obligat să verifice, la cererea scrisă și justificată a utilizatorului sau a asociației, suspiciuni de fraudă, intervenții neautorizate, defecțiuni ori pierderi, inclusiv pe coloanele comune și, cu acord, în locuință, apoi să comunice un proces-verbal în 3 zile lucrătoare. Alin. (7) privește însă doar obligațiile față de utilizatorii din condominii cu contracte individuale, deci majoritatea blocurilor, care au contract colectiv cu asociația, și casele rămân în afara noii reguli. Textul nu fixează un termen pentru efectuarea verificării, nu spune cine suportă costul și nu rezolvă situația în care una dintre părți refuză să semneze procesul-verbal.",
       "affectedGroups": [
         "Proprietari & Imobiliare",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articolul unic introduce art. 31 alin. (7) lit. f): o obligație nouă a operatorului de a verifica la cerere fraude, intervenții neautorizate, defecțiuni și pierderi de apă, inclusiv pe instalațiile comune ale imobilului. Este singura modificare din proiect, fără dispoziții tranzitorii sau abrogări.",
-        "Nu există termen pentru efectuarea verificării. Cele 3 zile lucrătoare privesc doar comunicarea procesului-verbal și nu se spune de la ce moment curg, așa că operatorul poate amâna verificarea fără să încalce legea.",
-        "Cerința «semnat de ambele părți» blochează procesul-verbal dacă solicitantul sau ocupantul refuză să semneze. Ea ignoră și situația cu trei părți: operatorul, asociația care cere verificarea și proprietarul apartamentului verificat.",
-        "Textul nu spune cine suportă costul verificării și nu limitează cererile repetate. Pentru «cererea justificată» nu există criterii, deci operatorul decide singur ce cereri accepta.",
-        "Ce trebuie să conțină procesul-verbal (constatări, nereguli, recomandări) și rolul lui ca probă în litigii apar doar în expunerea de motive, nu în textul legii.",
-        "Proiectul nu adaugă o sancțiune pentru operatorul care refuză sau amână verificarea. Rămâne neclar dacă regimul contravențional existent din lege acoperă noua literă."
+        "Art. 31 alin. (7) lit. f) nouă: operatorul este obligat să facă verificări la cererea scrisă și justificată a utilizatorului sau a asociației de proprietari. Legea actuală nu prevede deloc o astfel de obligație; ea există acum doar în sens invers, la alin. (8) lit. e), unde utilizatorul trebuie să permită accesul operatorului în 48 de ore în caz de suspiciune de fraudă. Proiectul creează astfel o simetrie rezonabilă.",
+        "Domeniu restrâns: alin. (7) se aplică exclusiv «în cazul încheierii de contracte individuale» în condominii. Utilizatorii cu contract colectiv prin asociație și cei din case nu beneficiază de noua obligație, deși expunerea de motive vorbește generic despre toți consumatorii.",
+        "Lipsesc termenul și costul: singurul termen privește comunicarea procesului-verbal (3 zile lucrătoare, fără punct de plecare explicit), nu efectuarea verificării, așa că operatorul poate amâna intervenția. Nu se spune cine plătește verificarea, iar costul poate ajunge în tarif sau în facturi separate.",
+        "Procesul-verbal trebuie «semnat de ambele părți», fără o soluție pentru refuzul de semnare sau pentru obiecțiuni. Conținutul minim promis în expunerea de motive (aspecte verificate, constatări, nereguli, recomandări) nu apare în textul normativ.",
+        "Neclaritate de perimetru: conform art. 31 alin. (5), limita de responsabilitate a operatorului este contorul de branșament al condominiului. Verificarea instalațiilor interioare și a coloanelor comune îl scoate în afara rețelei sale, iar legea nu clarifică răspunderea pentru constatări sau eventuale daune.",
+        "Redactare: titlul spune «modificarea», deși e o completare. Textul normativ conține «(ex. coloane aflate în spații comune)», o formulare improprie unei legi. Noțiunea de cerere «justificată» nu e definită, ceea ce îi lasă operatorului loc să respingă discreționar solicitări."
       ],
-      "blindSpotsCaught": "Acordul este cerut doar pentru «proprietatea utilizatorului». Când asociația cere verificarea sau când frauda bănuită e în apartamentul unui vecin, nu e clar al cui acord contează: al solicitantului sau al ocupantului locuinței verificate. Coloanele din spațiile comune sunt, de regulă, dincolo de punctul de delimitare, deci în proprietatea comună a proprietarilor. Operatorul ar interveni pe instalații care nu sunt ale lui, fără reguli despre răspunderea pentru eventuale daune, iar un singur proprietar ar putea cere verificarea lor fără acordul asociației. Un proces-verbal care descrie frauda unui vecin și se comunică solicitantului conține date personale despre un terț. În fine, titlul spune «modificarea», dar articolul doar completează legea, cum recunoaște și expunerea de motive.",
-      "constitutionalityNote": "Nu se vede o problemă gravă de constituționalitate. Inviolabilitatea domiciliului (art. 27) este respectată în principiu, fiindcă intrarea pe proprietate cere acord. Textul ar trebui totuși să precizeze că acordul îl dă ocupantul locuinței verificate, nu doar solicitantul. Lipsa termenelor și a criteriilor pentru «cererea justificată» slăbește previzibilitatea normei (art. 1 alin. (5)), dar nu la nivelul la care CCR declară de obicei un text neconstituțional. Obligația impusă operatorilor unui serviciu public este proporțională (art. 45). Proiectul nu creează cheltuieli directe la bugetul de stat, deci nu ridică probleme pe art. 138 alin. (5).",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă proiectul nu reglementează accesul la o profesie. Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu sunt reguli tehnice pentru produse sau servicii ale societății informaționale. Distribuția apei și canalizarea sunt excluse de la libera prestare a serviciilor (art. 17 din Directiva 2006/123/CE), iar măsura nu schimbă condițiile de concurență dintre operatori. Proiectul e în spiritul protecției consumatorului. Datele despre terți din procesul-verbal intră sub incidența GDPR, deci comunicarea lor către solicitant ar trebui limitată la ce e necesar.",
+      "blindSpotsCaught": "Plasarea la alin. (7) limitează efectul la blocurile cu contracte individuale, care sunt minoritare. Mai e o chichiță: textul nu conține o sancțiune proprie pentru operatorul care nu efectuează verificarea, iar fără un termen pentru intervenție obligația riscă să rămână declarativă. Pentru costuri, aplicarea va depinde de contractul-cadru ANRSC (Ordinul nr. 90/2007), care ar trebui actualizat; proiectul nu prevede această actualizare și nici un termen de punere în aplicare.",
+      "constitutionalityNote": "Nu ridică probleme constituționale serioase. Accesul în locuință este condiționat de acordul utilizatorului, deci inviolabilitatea domiciliului (art. 27) este respectată. Previzibilitatea (art. 1 alin. 5) este parțial afectată: lipsesc termenul de efectuare a verificării, punctul de plecare al celor 3 zile, regimul refuzului de semnare și o definiție a cererii «justificate». Acestea sunt deficiențe de calitate a normei, nu motive probabile de neconstituționalitate. Obligația impusă operatorilor este proporțională cu natura de serviciu public (art. 135 alin. 2 lit. b) și nu afectează nucleul dreptului de proprietate (art. 44). Nu are impact direct asupra bugetului de stat, deci art. 111 alin. (1) și art. 138 alin. (5) nu sunt relevante în mod semnificativ.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: proiectul nu reglementează accesul la o profesie sau exercitarea ei. Directiva (UE) 2015/1535 (TRIS) nu este incidentă, pentru că nu sunt reglementări tehnice pentru produse sau servicii ale societății informaționale. Distribuția apei beneficiază de derogarea de la art. 16 din Directiva 2006/123/CE (art. 17), iar măsura nu creează bariere pe piața unică. Proiectul este compatibil cu principiile de protecție a consumatorilor din dreptul UE și nu ridică probleme de ajutor de stat sau de concurență.",
       "senatForm": {
-        "articleRef": "Articol unic – art. 31 alin. (7) lit. f)",
-        "proposalContent": "f) să efectueze în 10 zile lucrătoare, la cererea scrisă a utilizatorului sau a asociației de proprietari, verificări privind fraude, intervenții neautorizate, defecțiuni sau pierderi, inclusiv pe instalațiile comune ori, cu acordul ocupantului, în locuințe; procesul-verbal, semnat de cei prezenți sau cu refuzul consemnat, se comunică în 3 zile lucrătoare de la verificare.",
-        "argumentation": "Textul inițial nu fixează un termen pentru verificare și nici momentul de la care curg cele 3 zile. Cere semnătura «ambelor părți», deși pot fi trei (operator, asociație, locatar), iar oricine poate bloca actul refuzând să semneze. Acordul trebuie dat de cel care ocupă locuința verificată, nu doar de solicitant (art. 27 Constituție).",
-        "otherComments": "Ar trebui stabilit cine plătește verificarea: gratuit pentru solicitant când se confirmă o defecțiune a rețelei sau frauda altcuiva, altfel la tariful aprobat. Ar trebui spus și ce efect are procesul-verbal asupra facturii contestate. Titlul spune «modificarea», dar articolul doar completează legea; corect: «pentru completarea Legii nr. 241/2006»."
+        "articleRef": "Art. 31 alin. (7) lit. f) din Legea 241/2006",
+        "proposalContent": "Operatorul efectuează verificarea în cel mult 10 zile lucrătoare de la cerere. Procesul-verbal cuprinde aspectele verificate, constatările, neregulile și recomandările, se semnează de părți, iar refuzul sau obiecțiunile se consemnează. Se comunică în 3 zile lucrătoare de la verificare. Verificarea e gratuită dacă neregula ține de operator.",
+        "argumentation": "Textul nu dă termen pentru verificare, deci operatorul poate amâna indefinit, iar termenul de 3 zile nu are punct de plecare. Lipsa semnăturii unei părți ar bloca procesul-verbal. Conținutul minim e cel promis în expunerea de motive, dar absent din text. Regula privind costul evită ca utilizatorul să plătească verificări cerute din cauza operatorului.",
+        "otherComments": "Lit. f) e plasată la alin. (7), aplicabil doar condominiilor cu contracte individuale; blocurile cu contract colectiv și casele rămân în afară. Recomand mutarea într-un articol general. Eliminați «ex.» din textul normativ și corectați titlul: e o completare, nu o modificare."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 68693,
+      "durationMs": 63229,
       "sourceEndMarker": "SF-EB72F9F0",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Verificarea pierderilor și fraudelor la apă, la cererea consumatorilor",
-      "verdictShort": "Proiectul introduce o protecție utilă pentru consumatori, fără taxe, monopoluri sau sancțiuni noi. Principala slăbiciune este lipsa unui termen pentru efectuarea verificării, care poate reduce eficiența obligației.",
-      "initiatorClaim": "Inițiatorii urmăresc identificarea pierderilor, fraudelor și defecțiunilor care produc consumuri contestate. Ei promit mai multă transparență și protejarea utilizatorilor care suportă costuri nejustificate.",
-      "realityCheck": "Articolul unic obligă operatorul să efectueze verificări la cererea scrisă și justificată a utilizatorului sau asociației, inclusiv asupra instalațiilor comune și pe proprietatea utilizatorului, cu acordul acestuia. Termenul de 3 zile lucrătoare privește comunicarea procesului-verbal, fără să existe un termen pentru verificare sau un moment explicit de la care curge termenul comunicării. Textul nu stabilește gratuitatea verificării, obligația de remediere ori corectarea facturilor și nici conținutul detaliat al procesului-verbal descris în expunerea de motive.",
+      "plainTitle": "Verificarea pierderilor și fraudelor de apă la cererea locatarilor",
+      "verdictShort": "Proiectul adaugă o protecție utilă pentru utilizatori, fără taxe sau sancțiuni noi. Principalele slăbiciuni sunt lipsa unui termen pentru efectuarea verificării și aplicarea mai îngustă decât sugerează expunerea de motive.",
+      "initiatorClaim": "Inițiatorii urmăresc verificarea consumurilor suspecte, identificarea pierderilor și protejarea utilizatorilor care suportă costuri nejustificate. Ei prezintă procesul-verbal ca instrument de transparență și probă în eventualele litigii.",
+      "realityCheck": "Noua obligație este introdusă la art. 31 alin. (7), care privește utilizatorii din condominii cu contracte individuale; formularea nu o extinde clar la contractele colective sau la toate categoriile de utilizatori. Operatorul trebuie să verifice și să documenteze situația, dar proiectul nu impune repararea instalațiilor, corectarea facturii ori suspendarea plății contestate. Cele 3 zile lucrătoare privesc comunicarea procesului-verbal, fără un moment inițial explicit și fără termen pentru efectuarea verificării.",
       "affectedGroups": [
         "Proprietari & Imobiliare",
         "IMM & Antreprenori",
-        "Toți cetățenii"
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 31 alin. (7) lit. f) propus permite solicitarea verificărilor inclusiv pentru instalațiile comune ale imobilului, acoperind o dificultate practică semnalată de inițiatori.",
-        "Obligația de comunicare în 3 zile lucrătoare nu garantează o intervenție în acest interval. Lipsesc termenul verificării și regulile aplicabile când solicitantul refuză să semneze procesul-verbal.",
-        "Proiectul nu introduce sancțiuni sau taxe noi și nu conține derogări, abrogări ori modificări ascunse la final. Generează însă muncă tehnică și administrativă pentru operatori, fără estimarea costurilor și fără precizarea suportării lor."
+        "Art. 31 alin. (7) lit. f) propusă introduce o obligație expresă de verificare la cererea scrisă și justificată a utilizatorului sau asociației. Domeniul acesteia rămâne condiționat de alineatul privind condominiile cu contracte individuale.",
+        "Art. 31 alin. (8) lit. e) prevede deja accesul operatorului pentru suspiciuni de fraudă, cu termen de 48 de ore și consecințe pentru refuz. Noutatea este obligația operatorului de a răspunde solicitării, inclusiv pentru defecțiuni și pierderi, împreună cu documentarea constatărilor.",
+        "Termenul de 3 zile lucrătoare nu garantează intervenția în 3 zile. Proiectul nu stabilește când trebuie efectuată verificarea și nici de când curge termenul comunicării.",
+        "Semnarea procesului-verbal de ambele părți nu este însoțită de reguli pentru absență, refuzul semnării sau obiecțiuni. Conținutul minim al documentului apare în expunerea de motive, dar nu este introdus în norma propusă.",
+        "Proiectul nu modifică repartizarea egală a diferenței de consum, prevăzută deja la art. 31 alin. (7) lit. b), și nici obligațiile proprietarilor privind întreținerea instalațiilor comune. Constatarea unei pierderi nu produce automat recalcularea facturii.",
+        "Nu sunt prevăzute taxe, sancțiuni noi, derogări, abrogări ori dispoziții tranzitorii. Apar însă costuri de deplasare, personal și documentare pentru operatori; gratuitatea verificării și suportarea acestor costuri nu sunt stabilite expres."
       ],
-      "blindSpotsCaught": "Procesul-verbal trebuie semnat de «ambele părți», deși operatorul și solicitantul pot avea interese contradictorii; refuzul semnării nu este reglementat. Documentul poate servi ca probă potrivit regulilor generale, dar proiectul nu îi conferă o forță probantă specială și nu garantează recuperarea sumelor contestate.",
-      "constitutionalityNote": "Nu rezultă o încălcare constituțională evidentă. Art. 1 alin. (5) justifică precizarea termenelor, a condițiilor unei cereri justificate și a procedurii în cazul refuzului semnării. Accesul trebuie corelat cu inviolabilitatea domiciliului și protecția proprietății, potrivit art. 27 și 44: solicitarea asociației nu autorizează singură intrarea în locuința unui terț. Art. 23 alin. (12), privind legalitatea pedepselor, nu este direct incident, deoarece proiectul nu instituie pedepse.",
-      "euLawNote": "Textul nu rezervă activități unei profesii reglementate și nu modifică accesul la aceasta, astfel că nu rezultă incidența testului prevăzut de Directiva (UE) 2018/958. Nu reglementează servicii digitale, AI sau cerințe tehnice pentru produse care să indice o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535. Nu introduce exclusivități sau discriminări concurențiale evidente; costurile verificărilor și eventuala lor reflectare în tarife trebuie totuși clarificate în cadrul reglementării serviciului.",
+      "blindSpotsCaught": "Amplasarea obligației într-un alineat dedicat contractelor individuale limitează promisiunea generală din expunerea de motive. În plus, cererea unei asociații nu autorizează accesul forțat în locuința altui proprietar. Procesul-verbal întocmit de operator poate constitui probă, dar proiectul nu îl transformă într-o expertiză independentă și nu îi conferă o valoare probatorie obligatorie pentru instanță.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă din textul furnizat. Art. 1 alin. (5) reclamă clarificarea termenului verificării, a începutului termenului de comunicare și a procedurii în cazul refuzului semnării; aceste lipsuri nu echivalează automat cu neconstituționalitatea. Acordul pentru accesul pe proprietatea utilizatorului susține protecția domiciliului și proprietății, potrivit art. 27 și 44, fără să creeze o putere de intrare forțată. Regimul existent al accesului pentru suspiciuni de fraudă nu este abrogat expres și trebuie corelat cu noua dispoziție. Art. 23 alin. (12), privind legalitatea pedepsei, nu ridică aici o problemă directă, deoarece proiectul nu instituie pedepse. Diferența dintre contractele individuale și cele colective merită justificată, dar nu dovedește singură încălcarea art. 16.",
+      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile privind accesul la profesii reglementate și exercitarea acestora; obligația tehnică impusă operatorilor de apă nu declanșează, prin ea însăși, testul prevăzut de această directivă. Directiva (UE) 2015/1535 nu privește exclusiv serviciile digitale, însă proiectul nu introduce specificații tehnice pentru produse sau reguli pentru servicii ale societății informaționale care să indice necesitatea notificării TRIS. Nu apar drepturi exclusive noi ori bariere profesionale de acces pe piață. Costurile suplimentare de conformare trebuie evaluate proporțional, fără a presupune că afirmația inițiatorilor privind cheltuielile reduse constituie o evaluare economică demonstrată.",
       "senatForm": {
-        "articleRef": "Art. 31 alin. (7) lit. f), teza a II-a",
-        "proposalContent": "Verificarea se efectuează în cel mult 10 zile lucrătoare de la înregistrarea cererii. Operatorul întocmește un proces-verbal, semnat de reprezentantul său și de solicitant, pe care îl comunică solicitantului în 3 zile lucrătoare de la verificare. Absența ori refuzul semnării de către solicitant se consemnează și nu împiedică întocmirea sau comunicarea actului.",
-        "argumentation": "Termenul actual privește numai comunicarea procesului-verbal și permite amânarea verificării. Amendamentul stabilește un termen de intervenție și momentul de început al termenului comunicării. Consemnarea absenței sau refuzului semnării permite documentarea constatărilor inclusiv atunci când părțile sunt în dezacord.",
-        "otherComments": "De clarificat costurile verificărilor și accesul în spații comune sau locuințe aparținând terților. Termenul propus nu trebuie să înlocuiască intervențiile urgente prevăzute pentru avarii. Propunerea poate fi transmisă comisiilor Camerei pentru eventuala preluare de un deputat; termenul indicat pentru amendamente, 09.10.2025, a trecut."
+        "articleRef": "Art. unic: art. 31 alin. (7) lit. f), teza II",
+        "proposalContent": "Verificarea se efectuează în cel mult 10 zile lucrătoare de la primirea cererii. Operatorul întocmește un proces-verbal cu verificările, constatările și recomandările, semnat de reprezentantul său și de solicitant. Absența sau refuzul solicitantului de a semna se consemnează. Copia se comunică solicitantului în 3 zile lucrătoare de la verificare.",
+        "argumentation": "Termenul actual privește numai comunicarea și permite amânarea verificării. Amendamentul stabilește un termen de intervenție, momentul de la care curge termenul comunicării și conținutul minim al documentului. Refuzul semnării nu trebuie să blocheze consemnarea și comunicarea constatărilor.",
+        "otherComments": "Se păstrează prima teză a lit. f). Termenul de 10 zile este o opțiune propusă, de calibrat cu capacitatea operatorilor și obligațiile existente pentru urgențe. Comisiile Camerei Deputaților ar trebui să clarifice separat aplicarea la contractele colective și suportarea costurilor verificărilor."
       },
       "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-19T15:46:13.715Z",
+      "method": "whole-text-v1",
+      "textChars": 1176,
+      "form": "initiator",
+      "agyModel": "gemini-4-neon-high",
+      "scores": {
+        "agy": 4,
+        "claude": 2,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:21:08.666Z",
+      "reasons": [
+        "reluare"
+      ]
+    }
+  ]
 }

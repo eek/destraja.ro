@@ -2,80 +2,100 @@
   "billId": "Pl-x 477/2025",
   "slug": "plx-477-2025",
   "version": "initiator",
-  "updatedAt": "2026-11-19T08:49:37.529Z",
+  "updatedAt": "2026-11-24T15:20:04.469Z",
   "coverage": {
     "method": "whole-text-v1",
+    "form": "initiator",
     "billChars": 4195,
     "ordinanceChars": 0,
     "memoChars": 8617,
     "memoSupplied": 8617,
     "marker": "SF-6EA76B5A"
   },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-477-2025.json",
+    "form": "initiator",
+    "textHash": "6ea76b5a1571d71c",
+    "fetchedAt": "2026-11-20T07:41:47.428Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 6,
+    "riskScore": 6.3,
     "riskLevel": "yellow",
-    "plainTitle": "Garanția din orice contract devine obligatoriu blocată într-un cont escrow până la final",
-    "summaryTlDr": "Ideea de a standardiza escrow-ul e utilă, dar textul o face obligatorie pentru absolut orice contract cu garanție, fără prag, fără perioadă de tranziție și cu reguli de eliberare care pot paraliza garanția. Pe scurt, transformă un instrument opțional bun într-o obligație costisitoare și ușor de abuzat.",
-    "initiatorClaim": "Inițiatorii spun că vor un cadru unitar pentru conturile escrow, care acum se folosesc prin practică contractuală nearmonizată. Scopul declarat este reducerea litigiilor și a riscului de folosire abuzivă a fondurilor, fără costuri semnificative și fără a restrânge libertatea contractuală.",
-    "realityCheck": "Art. 3 alin. (1) coroborat cu art. 7 obligă ca orice garanție prevăzută într-un contract civil sau comercial (inclusiv o garanție de chirie între persoane fizice) să fie depusă la o bancă, un notar sau un avocat, ceea ce înseamnă comisioane și formalități. Asta contrazice afirmația că legea nu restrânge libertatea contractuală. Art. 3 alin. (2) și art. 5 interzic executarea garanției pe durata contractului fără acordul ambelor părți, fără hotărâre judecătorească sau fără o clauză contractuală. În plus, art. 5 alin. (2) blochează suma cât timp există orice litigiu nerezolvat, deci debitorul poate îngheța garanția doar introducând o acțiune. Legea nu are dispoziții tranzitorii pentru contractele în curs, iar sancțiunile de la art. 8 sunt pur declarative.",
+    "plainTitle": "Orice garanție dintr-un contract ar trebui blocată obligatoriu într-un cont escrow",
+    "summaryTlDr": "Escrow-ul e o unealtă utilă, dar aici devine obligatoriu pentru aproape orice contract cu garanție: chirii, contracte între firme, contracte cu statul. Mai mult, textul blochează exact executarea garanției, adică rostul ei. Proiectul e scurt și vag, nu are norme tranzitorii și aduce costuri și birocrație pe care expunerea de motive le neagă.",
+    "initiatorClaim": "Inițiatorii vor un cadru unitar pentru conturile escrow folosite deja în practică, ca să scadă incertitudinea juridică, abuzurile asupra fondurilor și litigiile privind eliberarea garanției, fără costuri administrative semnificative.",
+    "realityCheck": "Art. 3 alin. (1) nu doar standardizează escrow-ul, ci îl face OBLIGATORIU ori de câte ori un contract prevede o garanție. Art. 7 extinde regula la toate contractele civile și comerciale, între orice persoane, inclusiv garanția la o chirie de apartament. Art. 3 alin. (2) și art. 5 alin. (2) interzic executarea garanției pe durata contractului și o blochează pe toată durata litigiului, deci beneficiarul nu se mai poate despăgubi rapid la neexecutare, iar debitorul rău-platnic poate amâna totul doar declanșând un proces. În paralel, art. 5 alin. (1) lit. d) lasă părțile să stabilească orice altă condiție de eliberare, ceea ce face regula imperativă în același timp împovărătoare și ușor de ocolit.",
     "affectedGroups": [
-      "IMM & Antreprenori",
+      "Toți cetățenii",
       "Proprietari & Imobiliare",
-      "Justiție & Drepturi Civile",
-      "Toți cetățenii"
+      "IMM & Antreprenori",
+      "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. 3 alin. (1) coroborat cu art. 7",
-      "proposalContent": "Art. 3 (1) Părțile pot conveni ca garanția în bani prevăzută de contract să fie depusă într-un depozit colateral; în acest caz se aplică prezenta lege. Legea nu se aplică garanțiilor personale, scrisorilor de garanție, garanțiilor financiare din OUG nr. 9/2004, garanțiilor reglementate prin legi speciale și contractelor în curs la intrarea în vigoare.",
-      "argumentation": "Obligativitatea generală (art. 3 coroborat cu art. 7) impune costuri de escrow și pentru garanții mici (chirii, IMM-uri), restrânge libertatea contractuală (art. 45 din Constituție) și creează incertitudine pentru garanțiile reglementate special. Un regim opțional păstrează beneficiile standardizării fără sarcini disproporționate și fără efecte retroactive.",
-      "otherComments": "Art. 5 alin. (2) permite debitorului să blocheze garanția prin simpla introducere a unei acțiuni; propun menținerea blocajului doar dacă instanța dispune suspendarea. Art. 4 lit. a) să includă și sucursalele băncilor din UE. Art. 6: regulă supletivă, dobânda revine deponentului. Art. 9: precizați actul de aprobare a normelor."
+      "articleRef": "Art. 3 alin. (1) și art. 7",
+      "proposalContent": "(1) Părțile pot conveni ca garanția în bani să fie depusă într-un depozit colateral; legea se aplică numai dacă au optat expres pentru acesta. (2) Legea nu se aplică garanțiilor financiare (OUG 9/2004), scrisorilor de garanție și garanțiilor din achiziții publice. (3) Se aplică doar contractelor încheiate după intrarea ei în vigoare.",
+      "argumentation": "Obligativitatea escrow pentru orice garanție (chirii, B2B, consum) impune comisioane și birocrație disproporționate, restrânge libertatea contractuală (art. 45 Constituție) și blochează executarea garanției la neexecutare (art. 3 alin. 2, art. 5 alin. 2). Lipsa normelor tranzitorii riscă aplicarea retroactivă la contracte în curs (art. 15 alin. 2).",
+      "otherComments": "Art. 8 trimite vag la Codul civil/penal fără faptă și sancțiune definite. Trebuie precizate: termenul de eliberare de către gestionar, cine suportă comisioanele, separarea fondurilor escrow de patrimoniul gestionarului în insolvență și regimul garanțiilor nemonetare («valoare echivalentă», art. 2 lit. a)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 35294,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 86873,
       "sourceEndMarker": "SF-6EA76B5A",
-      "riskScore": 6,
-      "riskLevel": "yellow",
-      "plainTitle": "Garanții contractuale blocate obligatoriu în conturi escrow la bănci, notari sau avocați",
-      "verdictShort": "Deși pretinde că reduce costurile și protejează părțile, legea obligă ca orice garanție din orice contract civil sau comercial să treacă printr-un cont escrow la bancă, notar sau avocat. Fără prag valoric și cu sancțiuni vagi pentru „refuzul gestionării”, proiectul impune birocrație și comisioane forțate cetățenilor și IMM-urilor.",
-      "initiatorClaim": "Inițiatorii susțin că proiectul standardizează conturile escrow pentru a reduce incertitudinea juridică, costurile de tranzacție și riscul de abuz asupra garanțiilor, fără a afecta bugetul sau libertatea contractuală.",
-      "realityCheck": "În realitate, Art. 3 alin. (1) coroborat cu Art. 7 transformă escrow-ul dintr-o opțiune într-o obligație pentru toate contractele civile și comerciale (de la chirii între persoane fizice la contracte B2B), fără niciun prag valoric. Mai mult, Art. 5 alin. (2) blochează suma până la soluționarea definitivă a oricărui litigiu, iar Art. 8 introduce răspunderea pentru „refuzul nejustificat al gestionării” fără a-l defini.",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Cont escrow obligatoriu la bancă, notar sau avocat pentru orice garanție din contracte",
+      "verdictShort": "Deși pretinde că doar standardizează conturile escrow, proiectul le face obligatorii pentru orice contract cu garanție — inclusiv chirii sau mici afaceri — impunând comisioane la bănci, notari sau avocați. În plus, legea este grav necorelată cu Codul civil, blochează banii automat la orice dispută și conține sancțiuni vagi și neconstituționale.",
+      "initiatorClaim": "Inițiatorii susțin că proiectul creează un cadru unitar, accesibil și neinvaziv pentru conturile escrow, care ar reduce litigiile și riscul de abuz fără a restrânge libertatea contractuală.",
+      "realityCheck": "În realitate, art. 3 alin. (1) și art. 7 obligă toate persoanele fizice și firmele să depună orice garanție contractuală (inclusiv garanția la chirie sau mici garanții comerciale), fără prag valoric, într-un cont escrow la bancă, notar sau avocat. Art. 5 alin. (2) îngheață automat banii pe toată durata oricărui litigiu, iar art. 8 amenință inclusiv băncile, notarii sau avocații cu sancțiuni civile/penale vagi pentru „refuzul nejustificat” de a gestiona depozitul.",
       "affectedGroups": [
-        "IMM & Antreprenori",
+        "Toți cetățenii",
         "Proprietari & Imobiliare",
-        "Justiție & Drepturi Civile",
-        "Toți cetățenii"
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Obligație universală fără prag valoric (Art. 3 alin. 1 și Art. 7): orice garanție în bani sau «valoare echivalentă» din contracte civile ori comerciale între persoane fizice sau juridice trebuie depusă obligatoriu într-un depozit colateral administrat de bănci, notari sau avocați.",
-        "Blocaj pe termen nedeterminat și sancțiuni neclare (Art. 5 alin. 2 și Art. 8): simpla existență a unui litigiu blochează banii până la hotărâre definitivă, iar «constituirea fictivă» și «refuzul nejustificat al gestionării» sunt sancționate fără definiții legale.",
-        "Vid de reglementare și lipsă de norme tranzitorii (Art. 9 și Art. 10): legea intră în vigoare la 30 de zile de la publicare, însă normele metodologice MJ–BNR apar abia la 60 de zile după intrarea în vigoare, fără reguli pentru contractele aflate în derulare."
+        "Obligativitate universală fără prag valoric (art. 2 lit. a, art. 3 alin. 1, art. 7): orice garanție contractuală („orice sumă de bani sau valoare echivalentă”) între persoane fizice sau juridice trebuie blocată obligatoriu într-un cont escrow la bancă, notar sau avocat, generând comisioane și birocrație disproporționate chiar și pentru o chirie sau un contract mic.",
+        "Blocarea automată a banilor la orice dispută (art. 5 alin. 2): simpla existență a unui „litigiu nerezolvat” (termen nedefinit) blochează suma până la o hotărâre definitivă, anulând eficiența garanțiilor contractuale și încurajând procesele șicanatorii.",
+        "Sancțiuni neclare și obligarea terților să accepte depozite (art. 8): textul sancționează „refuzul nejustificat al gestionării depozitului colateral” și „constituirea fictivă” printr-o trimitere vagă la Codul civil și Codul penal, fără a defini faptele și în conflict cu libertatea contractuală și regulile AML/KYC.",
+        "Lipsa protecției împotriva popririi și insolvenței, plus vid legislativ de 60 de zile (art. 9 și 10): legea nu instituie un patrimoniu de afectațiune insesizabil pentru sumele din escrow, nu are dispoziții tranzitorii și intră în vigoare cu 60 de zile înaintea emiterii normelor metodologice."
       ],
-      "blindSpotsCaught": "Expunerea de motive afirmă că legea «nu restrânge libertatea contractuală» și reduce costurile, dar Art. 3 alin. (1) nu instituie un mecanism facultativ, ci unul imperativ («se depune obligatoriu»). De asemenea, Art. 2 lit. a) include și «orice valoare echivalentă» (nu doar sume de bani, cum pretinde expunerea), ceea ce poate afecta chiar și garanțiile nebănești, iar lipsa unui prag minim obligă la costuri de administrare chiar și pentru garanții modice (ex. chirii).",
-      "constitutionalityNote": "Risc de neconstituționalitate față de art. 1 alin. (5) privind calitatea și previzibilitatea legii (termeni nedefiniți precum «valoare echivalentă», «constituirea fictivă» sau «refuzul nejustificat al gestionării» în Art. 2 și Art. 8; necorelare de termene între Art. 9 și Art. 10; absența dispozițiilor tranzitorii). Impunerea obligativității intermedierii prin terți pentru toate contractele afectează și libertatea economică și autonomia de voință (art. 45 și art. 135 din Constituție).",
-      "euLawNote": "Nu intră sub incidența Directivei (UE) 2015/1535 (TRIS), nevizând servicii ale societății informaționale sau reglementări tehnice. Din perspectiva Directivei (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate), proiectul nu restrânge accesul la profesii, dar obligarea la intermediere exclusivă prin bănci, notari, avocați sau alte entități autorizate creează o sarcină economică și poate ridica probleme de proporționalitate și libertate de a presta servicii (art. 56 TFUE) raportat la instituții de plată sau monedă electronică din UE neincluse explicit în Art. 4.",
+      "blindSpotsCaught": "Art. 4 alin. (1) lit. a) permite gestionarea depozitelor doar de către instituțiile de credit „autorizate de Banca Națională a României”, excluzând băncile din alte state UE care operează în România prin pașaport european (art. 56 și 63 TFUE) și instituțiile de plată (PSD2). Totodată, art. 9 și 10 creează un vid operațional de 60 de zile (legea intră în vigoare în 30 de zile, dar normele MJ/BNR apar în 60 de zile de la intrarea în vigoare), iar art. 7 folosește noțiunea abrogată din 2011 de „contracte comerciale”, fără corelare cu fiducia, arvuna sau garanțiile din Codul civil.",
+      "constitutionalityNote": "Proiectul ridică vicii serioase de neconstituționalitate: încalcă art. 1 alin. (5) (calitatea și previzibilitatea legii) prin termeni nedefiniți („valoare echivalentă”, „constituire fictivă”, „refuz nejustificat”, „litigii nerezolvate”) și lipsa normelor tranzitorii; încalcă art. 23 alin. (12) prin trimiterea penală imprevizibilă de la art. 8; și restrânge disproporționat libertatea economică și dreptul de proprietate (art. 44, art. 45 și art. 53) prin impunerea unui escrow obligatoriu, generator de comisioane, pentru absolut orice garanție contractuală.",
+      "euLawNote": "Restrângerea depozitelor bancare exclusiv la „instituții de credit autorizate de BNR” (art. 4 alin. 1 lit. a) contravine liberei prestări a serviciilor și liberei circulații a capitalurilor (art. 56 și 63 TFUE, Directiva CRD IV), excluzând băncile cu pașaport UE și furnizorii de servicii de plată (PSD2). Crearea unei piețe captive obligatorii pentru bănci, notari și avocați fără prag valoric contravine principiului proporționalității (în spiritul Directivei 2018/958). Nu intră direct sub Directiva (UE) 2015/1535 (TRIS), dar poate bloca mecanismele de garanție ale platformelor digitale transfrontaliere.",
       "senatForm": {
-        "articleRef": "Art. 3 alin. (1)",
-        "proposalContent": "„(1) Părțile pot conveni constituirea garanției contractuale într-un depozit colateral, în condițiile prezentei legi, fără a aduce atingere altor forme de garanție prevăzute de Codul civil sau de legi speciale.”",
-        "argumentation": "Obligativitatea escrow pentru orice contract civil sau comercial (inclusiv chirii ori garanții IMM mici) impune comisioane bancare/notariale disproporționate și restrânge libertatea contractuală (art. 135 Constituție). Caracterul opțional sau un prag valoric minim păstrează protecția fără costuri forțate.",
-        "otherComments": "Vă rugăm să eliminați din Art. 8 sintagma vagă «refuzul nejustificat al gestionării» (încalcă art. 1 alin. 5 din Constituție, forțând bănci/notari/avocați să contracteze în pofida riscurilor KYC) și să corelați Art. 9 cu Art. 10 pentru ca normele să apară înainte de intrarea în vigoare."
+        "articleRef": "Art. 3 alin. (1), Art. 4 alin. (1) și Art. 8",
+        "proposalContent": "La art. 3(1), constituirea depozitului colateral să devină opțională („poate fi depusă prin acordul părților”), nu obligatorie. La art. 4(1)(a), includerea instituțiilor de credit și de plată autorizate în UE. La art. 8, eliminarea sintagmei „refuzul nejustificat al gestionării” și a trimiterilor vagi la Codul penal.",
+        "argumentation": "Escrow-ul obligatoriu fără prag valoric obligă cetățenii (ex. chirii) și IMM-urile la comisioane bancare/notariale disproporționate (art. 45 și 53 Constituție). Excluderea băncilor din UE încalcă TFUE (art. 56, 63), iar sancționarea „refuzului nejustificat” la art. 8 încalcă libertatea economică și art. 1 alin. (5) din Constituție.",
+        "otherComments": "Este necesară corelarea cu Codul civil (fiducie, garanții, arvună) și Legea 85/2014 (protejarea contului escrow de poprire și insolvență), clarificarea art. 5(2) privind blocarea la litigii, stabilirea normelor tranzitorii și corelarea termenelor de la art. 9 și 10 (normele metodologice apar abia la 60 de zile după intrarea în vigoare)."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 66002,
+      "durationMs": 54073,
       "sourceEndMarker": "SF-6EA76B5A",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Garanția din orice contract devine obligatoriu blocată într-un cont escrow până la final",
-      "verdictShort": "Ideea de a standardiza escrow-ul e utilă, dar textul o face obligatorie pentru absolut orice contract cu garanție, fără prag, fără perioadă de tranziție și cu reguli de eliberare care pot paraliza garanția. Pe scurt, transformă un instrument opțional bun într-o obligație costisitoare și ușor de abuzat.",
-      "initiatorClaim": "Inițiatorii spun că vor un cadru unitar pentru conturile escrow, care acum se folosesc prin practică contractuală nearmonizată. Scopul declarat este reducerea litigiilor și a riscului de folosire abuzivă a fondurilor, fără costuri semnificative și fără a restrânge libertatea contractuală.",
-      "realityCheck": "Art. 3 alin. (1) coroborat cu art. 7 obligă ca orice garanție prevăzută într-un contract civil sau comercial (inclusiv o garanție de chirie între persoane fizice) să fie depusă la o bancă, un notar sau un avocat, ceea ce înseamnă comisioane și formalități. Asta contrazice afirmația că legea nu restrânge libertatea contractuală. Art. 3 alin. (2) și art. 5 interzic executarea garanției pe durata contractului fără acordul ambelor părți, fără hotărâre judecătorească sau fără o clauză contractuală. În plus, art. 5 alin. (2) blochează suma cât timp există orice litigiu nerezolvat, deci debitorul poate îngheța garanția doar introducând o acțiune. Legea nu are dispoziții tranzitorii pentru contractele în curs, iar sancțiunile de la art. 8 sunt pur declarative.",
+      "plainTitle": "Orice garanție dintr-un contract ar trebui blocată obligatoriu într-un cont escrow",
+      "verdictShort": "Escrow-ul e o unealtă utilă, dar aici devine obligatoriu pentru aproape orice contract cu garanție: chirii, contracte între firme, contracte cu statul. Mai mult, textul blochează exact executarea garanției, adică rostul ei. Proiectul e scurt și vag, nu are norme tranzitorii și aduce costuri și birocrație pe care expunerea de motive le neagă.",
+      "initiatorClaim": "Inițiatorii vor un cadru unitar pentru conturile escrow folosite deja în practică, ca să scadă incertitudinea juridică, abuzurile asupra fondurilor și litigiile privind eliberarea garanției, fără costuri administrative semnificative.",
+      "realityCheck": "Art. 3 alin. (1) nu doar standardizează escrow-ul, ci îl face OBLIGATORIU ori de câte ori un contract prevede o garanție. Art. 7 extinde regula la toate contractele civile și comerciale, între orice persoane, inclusiv garanția la o chirie de apartament. Art. 3 alin. (2) și art. 5 alin. (2) interzic executarea garanției pe durata contractului și o blochează pe toată durata litigiului, deci beneficiarul nu se mai poate despăgubi rapid la neexecutare, iar debitorul rău-platnic poate amâna totul doar declanșând un proces. În paralel, art. 5 alin. (1) lit. d) lasă părțile să stabilească orice altă condiție de eliberare, ceea ce face regula imperativă în același timp împovărătoare și ușor de ocolit.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Proprietari & Imobiliare",
@@ -84,37 +104,35 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 3 alin. (1) + art. 7: escrow-ul este obligatoriu pentru toate contractele cu garanție, între orice persoane, publice sau private. Nu există prag valoric și nici excepție pentru consumatori sau garanțiile de chirie, așa că apar costuri de comision chiar și pentru sume mici.",
-        "Art. 5 alin. (1) lit. a): eliberarea la final cere confirmarea îndeplinirii obligațiilor de către ambele părți. Partea care refuză confirmarea poate bloca suma pe termen nelimitat, iar gestionarul nu are niciun termen de eliberare.",
-        "Art. 5 alin. (2): orice litigiu nerezolvat menține blocajul, chiar dacă există o clauză contractuală de executare (lit. d). Debitorul de rea-credință poate paraliza garanția printr-o simplă cerere de chemare în judecată, ceea ce golește garanția de funcția ei.",
-        "Art. 2 lit. a): definiția include și „valoare echivalentă” banilor. Nu se știe dacă sunt vizate scrisorile de garanție bancară, titlurile de valoare sau bunurile, pentru care escrow-ul nu are sens practic.",
-        "Art. 4 alin. (1) lit. a): sunt admise doar instituțiile de credit autorizate de BNR. Rămân în afara listei sucursalele băncilor din alte state UE, care funcționează prin pașaport, și instituțiile de plată sau fintech-urile care oferă deja servicii escrow, în lipsa unui act special.",
-        "Art. 6 alin. (2): dobânda se alocă doar prin acord. Nu există regulă supletivă pentru cazul în care contractul tace.",
-        "Art. 8: nu instituie sancțiuni proprii, ci trimite generic la Codul civil și Codul penal. Formula „refuzul nejustificat al gestionării” este neclară, pentru că nu rezultă cine are obligația să accepte gestionarea și nici dacă o bancă poate fi constrânsă să ofere serviciul.",
-        "Art. 9: Ministerul Justiției și BNR primesc împreună sarcina normelor metodologice, deși BNR nu supraveghează notarii și avocații, iar MJ nu supraveghează băncile. Nu se precizează actul de aprobare (ordin comun, hotărâre de guvern)."
+        "Art. 3 alin. (1) coroborat cu art. 7: depunerea în escrow devine obligatorie pentru orice contract care prevede o garanție, indiferent de valoare sau de părți. Intră aici garanțiile la chirii, avansurile garantate între firme și contractele cu entități publice. Costurile de comision (bancă, notar, avocat) cad pe cetățeni și IMM-uri, iar expunerea de motive nu le evaluează.",
+        "Art. 3 alin. (2) și art. 5: garanția nu poate fi executată pe durata contractului decât cu hotărâre definitivă, cu acordul ambelor părți sau dacă contractul prevede altceva. Art. 5 alin. (2) o blochează pe toată durata oricărui litigiu, așa că garanția își pierde funcția de despăgubire promptă și apare un stimulent pentru litigii dilatorii.",
+        "Lipsesc normele tranzitorii. Art. 7 se referă la «toate contractele», fără să distingă între contractele în curs și cele noi. Sunt deci incerte garanțiile deja constituite (de ex. depozitele de chirie aflate la proprietar), cu risc de aplicare retroactivă.",
+        "Art. 2 lit. a) definește garanția ca «sumă de bani sau valoare echivalentă», dar escrow-ul funcționează doar cu bani. Nu se spune ce se întâmplă cu scrisorile de garanție bancară, cu garanțiile reale sau cu titlurile de valoare.",
+        "Art. 8 face doar o trimitere generică la Codul civil și Codul penal. Nu definește fapte noi și nici sancțiuni, iar «refuzul nejustificat al gestionării» sugerează o obligație ca băncile, notarii și avocații să accepte mandatul, deși legea nu o instituie explicit.",
+        "Legea nu stabilește un termen în care gestionarul trebuie să elibereze suma, nu spune cine suportă comisioanele și nu prevede separarea fondurilor escrow de patrimoniul gestionarului în caz de insolvență. Toate acestea sunt lăsate unor norme MJ–BNR care trebuie emise în 60 de zile (art. 9)."
       ],
-      "blindSpotsCaught": "Legea nu are nicio dispoziție tranzitorie. Nu se știe dacă garanțiile deja constituite în contracte în curs trebuie mutate în escrow în cele 30 de zile până la intrarea în vigoare, ceea ce creează riscul unei aplicări retroactive (art. 15 alin. (2) din Constituție și art. 6 din Codul civil). Clauza „cu excepția cazurilor în care legea prevede altfel” lasă neclar raportul cu regimurile speciale: garanția de bună execuție din achiziții publice (Legea nr. 98/2016), garanțiile gestionarilor (Legea nr. 22/1969) și contractele de garanție financiară (OUG nr. 9/2004, care transpune Directiva 2002/47/CE). În formula de adoptare se invocă art. 76 alin. (1), adică majoritatea pentru legi organice, deși materia este de lege ordinară. Preambulul invocă și art. 69 din Constituție (mandatul reprezentativ), care nu are legătură cu obiectul legii.",
-      "constitutionalityNote": "Problema principală este claritatea și previzibilitatea (art. 1 alin. (5)): definiția „valoare echivalentă” este vagă, raportul cu legile speciale este nedeterminat, lipsesc normele tranzitorii, iar art. 8 nu precizează conduita interzisă și subiectul obligației. Obligația generală de escrow, fără prag și fără alternativă, este o restrângere a libertății economice și contractuale (art. 45) și a dreptului de dispoziție asupra propriilor fonduri (art. 44). Pentru tranzacțiile mici, proporționalitatea ei este îndoielnică în sensul art. 53. Art. 5 alin. (2) poate afecta și accesul efectiv la justiție (art. 21), pentru că transformă simpla sesizare a instanței într-un instrument de blocaj. Nu se poate susține că textul este neconstituțional în întregime, dar dispozițiile menționate sunt vulnerabile la o eventuală sesizare a CCR.",
-      "euLawNote": "Directiva (UE) 2015/1535 (TRIS) nu este relevantă, deoarece legea nu reglementează servicii ale societății informaționale. Directiva (UE) 2018/958 privind testul de proporționalitate este relevantă indirect: legea rezervă gestionarea escrow-ului unor categorii limitate (bănci autorizate de BNR, notari, avocați), fără vreo analiză de proporționalitate. Mai importantă este compatibilitatea cu libera prestare a serviciilor și libera circulație a capitalurilor (art. 56 și 63 TFUE) și cu regimul pașaportului bancar (CRD). Limitarea la instituții „autorizate de BNR” exclude băncile din UE care operează prin sucursale sau prestări transfrontaliere. Aplicarea la „toate contractele” poate intra în conflict cu Directiva 2002/47/CE privind garanțiile financiare, care interzice condiționarea acestor garanții de formalități suplimentare. Este necesară cel puțin o excludere expresă.",
+      "blindSpotsCaught": "Excepția «cu excepția cazurilor în care legea prevede altfel» (art. 3 alin. 1) e singura punte către regimurile speciale, de exemplu garanția de bună execuție din achizițiile publice (Legea 98/2016 și normele ei) sau garanțiile financiare din OUG 9/2004, care transpune Directiva 2002/47/CE. Formularea e prea vagă ca să excludă clar garanțiile financiare cu transfer de proprietate, pe care directiva le protejează. Apoi, art. 9 obligă BNR, autoritate independentă, să emită norme comune cu un minister, iar normele ar acoperi și notari și avocați, care nu sunt sub supravegherea BNR. Statutul acestor norme e confuz. În fine, art. 6 alin. (1) condiționează dobânda de oferta băncii, iar art. 6 alin. (2) o lasă «prin acord», fără o regulă implicită dacă părțile nu au convenit nimic.",
+      "constitutionalityNote": "Există riscuri reale pe art. 1 alin. (5), adică claritate și previzibilitate: definiția ambiguă a garanției, sancțiuni prin simplă trimitere (art. 8), lipsa termenelor de eliberare și a regimului contractelor în curs. Art. 7, aplicat fără norme tranzitorii contractelor deja încheiate, poate încălca neretroactivitatea (art. 15 alin. 2). Obligativitatea generală a escrow-ului restrânge libertatea economică și contractuală (art. 45) și afectează dreptul de proprietate al beneficiarului asupra garanției (art. 44). Restrângerea nu pare proporțională în sensul art. 53, pentru că un regim opțional ar atinge același scop. Proiectul nu creează instituții noi și nu are impact bugetar direct, deci problema art. 111 alin. (1) nu pare să se pună, dar avizul Guvernului și al BNR rămân relevante.",
+      "euLawNote": "Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu sunt reglementate servicii ale societății informaționale. Directiva (UE) 2018/958 este marginal relevantă, pentru că legea nu creează o profesie reglementată nouă. Totuși, prin lista închisă de gestionari (art. 4) și trimiterea la «alte entități autorizate», ar trebui evaluat dacă nu se rezervă de facto activitatea de escrow unor profesii, cu impact asupra concurenței (art. 49 și 56 TFUE, Directiva 2006/123/CE). Punctul cel mai sensibil este Directiva 2002/47/CE privind contractele de garanție financiară: impunerea escrow-ului și blocarea executării până la hotărâre definitivă ar putea contraveni regulii de executare rapidă, fără formalități, a garanțiilor financiare, dacă acestea nu sunt excluse expres. Pentru operatorii din alte state membre, obligația de escrow la orice contract cu garanție poate deveni o barieră în comerțul transfrontalier.",
       "senatForm": {
-        "articleRef": "Art. 3 alin. (1) coroborat cu art. 7",
-        "proposalContent": "Art. 3 (1) Părțile pot conveni ca garanția în bani prevăzută de contract să fie depusă într-un depozit colateral; în acest caz se aplică prezenta lege. Legea nu se aplică garanțiilor personale, scrisorilor de garanție, garanțiilor financiare din OUG nr. 9/2004, garanțiilor reglementate prin legi speciale și contractelor în curs la intrarea în vigoare.",
-        "argumentation": "Obligativitatea generală (art. 3 coroborat cu art. 7) impune costuri de escrow și pentru garanții mici (chirii, IMM-uri), restrânge libertatea contractuală (art. 45 din Constituție) și creează incertitudine pentru garanțiile reglementate special. Un regim opțional păstrează beneficiile standardizării fără sarcini disproporționate și fără efecte retroactive.",
-        "otherComments": "Art. 5 alin. (2) permite debitorului să blocheze garanția prin simpla introducere a unei acțiuni; propun menținerea blocajului doar dacă instanța dispune suspendarea. Art. 4 lit. a) să includă și sucursalele băncilor din UE. Art. 6: regulă supletivă, dobânda revine deponentului. Art. 9: precizați actul de aprobare a normelor."
+        "articleRef": "Art. 3 alin. (1) și art. 7",
+        "proposalContent": "(1) Părțile pot conveni ca garanția în bani să fie depusă într-un depozit colateral; legea se aplică numai dacă au optat expres pentru acesta. (2) Legea nu se aplică garanțiilor financiare (OUG 9/2004), scrisorilor de garanție și garanțiilor din achiziții publice. (3) Se aplică doar contractelor încheiate după intrarea ei în vigoare.",
+        "argumentation": "Obligativitatea escrow pentru orice garanție (chirii, B2B, consum) impune comisioane și birocrație disproporționate, restrânge libertatea contractuală (art. 45 Constituție) și blochează executarea garanției la neexecutare (art. 3 alin. 2, art. 5 alin. 2). Lipsa normelor tranzitorii riscă aplicarea retroactivă la contracte în curs (art. 15 alin. 2).",
+        "otherComments": "Art. 8 trimite vag la Codul civil/penal fără faptă și sancțiune definite. Trebuie precizate: termenul de eliberare de către gestionar, cine suportă comisioanele, separarea fondurilor escrow de patrimoniul gestionarului în insolvență și regimul garanțiilor nemonetare («valoare echivalentă», art. 2 lit. a)."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 96215,
+      "durationMs": 77576,
       "sourceEndMarker": "SF-6EA76B5A",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Garanțiile contractuale, blocate obligatoriu la un terț",
-      "verdictShort": "Protejarea garanțiilor împotriva folosirii abuzive este utilă, dar proiectul impune un mecanism prea general și permite blocarea banilor pe durata unor litigii fără limite suficient de clare. Riscul principal este imobilizarea disproporționată a lichidităților, nu introducerea unor taxe sau infracțiuni noi.",
-      "initiatorClaim": "Inițiatorii urmăresc reguli uniforme pentru păstrarea și eliberarea garanțiilor contractuale, astfel încât banii să nu poată fi utilizați abuziv. Ei susțin că standardizarea va reduce litigiile și costurile, fără impact bugetar ori administrativ semnificativ.",
-      "realityCheck": "Art. 3 nu obligă toate contractele să conțină garanții, dar impune depozitul colateral atunci când contractul prevede o garanție, sub rezerva excepțiilor legale. Art. 5 alin. (1) lit. d) permite eliberarea în condițiile convenite contractual, inclusiv înaintea finalizării contractului, însă alin. (2) introduce blocarea până la soluționarea definitivă a litigiilor, fără delimitări suficiente. Mecanismul poate genera comisioane și costuri de finanțare, iar protecția fondurilor față de creditorii ori insolvența gestionarului nu este reglementată expres.",
+      "plainTitle": "Garanțiile contractuale, blocate obligatoriu la un intermediar",
+      "verdictShort": "Protejarea banilor depuși drept garanție este utilă, dar proiectul impune un mecanism foarte larg și permite blocarea fondurilor pe întreaga durată a unui litigiu. Riscurile principale sunt imobilizarea disproporționată a banilor și costurile obligatorii de intermediere.",
+      "initiatorClaim": "Inițiatorii urmăresc protejarea garanțiilor împotriva folosirii abuzive și uniformizarea regulilor de administrare și eliberare. Expunerea de motive promite reducerea litigiilor și costuri administrative nesemnificative.",
+      "realityCheck": "Proiectul nu obligă toate contractele să conțină garanții, dar impune depozitul colateral atunci când acestea sunt prevăzute contractual, sub rezerva excepțiilor legale. Art. 5 alin. (1) lit. d) permite stabilirea contractuală a condițiilor de eliberare, însă alin. (2) poate paraliza acest mecanism prin blocarea automată în cazul litigiilor nerezolvate. Nu sunt stabilite comisioane sau taxe noi, dar administrarea obligatorie poate genera costuri și afectează disponibilitatea lichidităților.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Proprietari & Imobiliare",
@@ -122,26 +140,48 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 2 lit. a), art. 3 și art. 7: definiția «orice sumă de bani sau valoare echivalentă» și aplicarea la toate contractele cu garanții nu delimitează suficient garanțiile bănești de celelalte instrumente de garantare. Nu rezultă însă o obligație generală de a constitui garanții și nici desființarea explicită a garanțiilor nebănești.",
-        "Art. 5 alin. (2): existența unor «litigii nerezolvate» menține suma blocată până la soluționarea definitivă. Lipsesc cerința legăturii directe cu garanția, delimitarea sumei contestate și un control judiciar necesar pentru continuarea blocării; astfel, un litigiu poate întârzia inclusiv eliberarea părții necontestate.",
-        "Art. 5 alin. (1) lit. a): eliberarea la finalizarea contractului presupune confirmarea ambelor părți. Nu există termen pentru confirmare sau soluție expresă pentru tăcere, ceea ce poate obliga partea îndreptățită să recurgă la litigiu dacă nu a negociat alte condiții de eliberare.",
-        "Art. 5 alin. (1) lit. d): părțile pot stabili contractual alte condiții de eliberare. Blocarea «până la finalizarea contractului» din titlu nu este, așadar, absolută; raportul dintre această flexibilitate și blocarea impusă de alin. (2) trebuie clarificat.",
-        "Art. 4: gestionarea este rezervată unor categorii reglementate, dar lista include bănci, notari, avocați și alte entități autorizate prin acte speciale. Nu există un monopol bancar sau un tarif legal nou; există însă costuri potențiale de administrare și o rezervare a activității care necesită justificare.",
-        "Art. 4 și art. 6: simpla obligație de a păstra suma blocată nu stabilește separarea patrimonială, protecția în insolvență ori limitele urmăririi de către creditorii gestionarului. Dobânda nu este garantată, iar proiectul nu oferă o regulă subsidiară pentru atribuirea ei atunci când contractul nu conține un acord.",
-        "Art. 8: trimiterea la Codul civil și Codul penal nu creează infracțiuni, contravenții sau pedepse autonome. «Refuzul nejustificat al gestionării» rămâne neclar și nu poate justifica sancțiuni penale în lipsa unei incriminări aplicabile; trebuie respectate inclusiv obligațiile legale de refuz din materia prevenirii spălării banilor.",
-        "Art. 9–10: obligațiile devin aplicabile la 30 de zile de la publicare, iar termenul pentru elaborarea normelor expiră la 60 de zile după intrarea în vigoare. Poate exista astfel o perioadă de până la 60 de zile de aplicare fără normele prevăzute; lipsesc dispoziții tranzitorii exprese pentru contractele și garanțiile existente."
+        "Art. 3 alin. (1) și art. 7 instituie o obligație generală pentru contractele cu garanții, inclusiv între persoane fizice și pentru persoane juridice publice. Excepția pentru cazurile reglementate diferit prin lege protejează regimurile speciale, dar nu clarifică toate suprapunerile.",
+        "Art. 5 alin. (2) nu cere ca litigiul să privească efectiv garanția, nu limitează blocarea la suma contestată și nu impune verificarea prealabilă de către o instanță. Regula poate încuraja litigii folosite pentru întârzierea eliberării banilor.",
+        "Art. 5 alin. (1) lit. d) permite eliberarea potrivit clauzelor contractuale, inclusiv înainte de finalizarea contractului. Prin urmare, titlul nu descrie o interdicție absolută de eliberare anticipată; problema este raportul neclar cu blocarea obligatorie în caz de litigiu.",
+        "Art. 2 lit. a) include «valoare echivalentă», deși mecanismul este construit pentru sume depuse într-un cont. Trebuie delimitate garanțiile bănești de ipoteci, fideiusiuni și alte instrumente care nu pot fi tratate identic.",
+        "Art. 4 admite bănci, notari, avocați și alte entități autorizate, deci nu creează un monopol bancar. Totuși, nu stabilește expres separarea fondurilor de patrimoniul gestionarului, protecția față de creditorii acestuia sau procedura aplicabilă insolvenței sale.",
+        "Art. 8 nu definește o infracțiune nouă și nu stabilește pedepse noi. Trimiterea generică la Codul civil și Codul penal nu creează însă un regim sancționator propriu și lasă neclar sensul «refuzului nejustificat» de gestionare.",
+        "Art. 9 acordă 60 de zile de la intrarea în vigoare pentru elaborarea normelor. Obligațiile legale devin astfel aplicabile înaintea termenului pentru normele de aplicare; nu este precizată nici forma actului comun și nici împărțirea competențelor de supraveghere.",
+        "Art. 10 nu conține dispoziții tranzitorii pentru contractele și garanțiile existente. Proiectul nu cuprinde modificări sau abrogări exprese ale altor legi, iar corelările enumerate în expunerea de motive nu țin locul unor dispoziții normative.",
+        "Neutralitatea bugetară și reducerea costurilor sunt afirmații ale expunerii de motive. Textul nu cuantifică administrarea și supravegherea, nu plafonează comisioanele și nu demonstrează că obligația generală este economic justificată pentru garanții mici."
       ],
-      "blindSpotsCaught": "Dispoziția decisivă este art. 5 alin. (2): simpla existență a litigiului poate neutraliza practic condițiile contractuale de eliberare permise de alin. (1) lit. d). Art. 3 alin. (1) păstrează excepțiile prevăzute de alte legi, astfel încât nu trebuie presupusă înlăturarea automată a regimurilor speciale. Expunerea promite trasabilitate, conservarea documentelor și integrarea AML/KYC, dar articolele nu instituie explicit toate aceste obligații. Textul se încheie cu art. 10, fără modificări sau abrogări exprese. Verificarea online nu a fost disponibilă; evaluarea privește forma inițiatorului furnizată, fără confirmarea unui eventual raport ulterior.",
-      "constitutionalityNote": "Există vulnerabilități raportate la art. 1 alin. (5): domeniul garanțiilor vizate, efectele litigiilor, refuzul nejustificat și competențele de supraveghere nu sunt suficient precizate. Blocarea generală pe durata litigiilor ridică probleme de proporționalitate în raport cu proprietatea privată, art. 44, și libertatea economică, art. 45, în contextul art. 135; un scop legitim de protecție contractuală nu justifică automat orice durată sau întindere a indisponibilizării. Art. 23 alin. (12) împiedică folosirea art. 8 drept incriminare autonomă: pedeapsa presupune o normă penală aplicabilă și previzibilă. Absența dispozițiilor tranzitorii trebuie corectată, dar nu dovedește singură retroactivitate; rămân relevante art. 15 alin. (2) și regulile generale privind aplicarea legii civile în timp. Acestea sunt riscuri de constituționalitate, nu constatări certe de neconstituționalitate.",
-      "euLawNote": "Directiva (UE) 2018/958 nu impune un test pentru orice reglementare economică. Trebuie verificat dacă rezervarea gestionării și noile condiții de exercitare intră în domeniul său privind profesiile reglementate; în măsura aplicabilității, sunt necesare justificarea și evaluarea proporționalității, nu doar afirmația că măsura este minim invazivă. Limitarea accesului la gestionare trebuie analizată și prin libertatea de stabilire și libera prestare a serviciilor, inclusiv recunoașterea operatorilor eligibili din alte state membre; formularea despre autorizarea BNR necesită corelare cu regimul european al instituțiilor de credit. Directiva (UE) 2015/1535, TRIS, nu prezintă un temei aparent de notificare: textul nu reglementează specific servicii ale societății informaționale, AI ori cerințe tehnice pentru produse. Proiectul nu introduce expres noi obligații AML/KYC; normele subsecvente trebuie să respecte cadrul legal existent. Nu se poate confirma neutralitatea bugetară din simpla absență a unor instituții noi: supravegherea poate consuma resurse, iar cetățenii și IMM-urile pot suporta comisioane și costul lichidităților blocate.",
+      "blindSpotsCaught": "Interacțiunea dintre art. 5 alin. (1) lit. d) și alin. (2) este decisivă: părțile pot conveni condiții de plată, dar simpla existență a unui litigiu poate menține întreaga sumă blocată, fără o măsură judiciară și fără delimitarea sumei contestate. În plus, normele viitoare și obligațiile de transparență sau raportare promise în expunerea de motive nu pot fi considerate deja instituite prin lege.",
+      "constitutionalityNote": "Există vulnerabilități serioase de claritate și previzibilitate raportate la art. 1 alin. (5): domeniul garanțiilor, raportul dintre cazurile de eliberare și litigii, competențele de supraveghere și aplicarea în timp. Blocarea automată și potențial îndelungată trebuie justificată proporțional în raport cu proprietatea privată, potrivit art. 44, și libertatea economică, potrivit art. 45. Absența dispozițiilor tranzitorii cere clarificare prin raportare la art. 15 alin. (2), fără a demonstra singură retroactivitatea. Art. 23 alin. (12) nu justifică afirmarea existenței unei pedepse neconstituționale: art. 8 nu instituie o incriminare sau pedeapsă nouă. Formula de adoptare potrivit art. 76 alin. (1) nu dovedește, singură, caracterul organic al legii.",
+      "euLawNote": "Directiva (UE) 2018/958 nu impune un test pentru orice reglementare economică; trebuie analizat dacă dispozițiile introduc restricții privind accesul sau exercitarea unor profesii reglementate aflate în domeniul său. Obligația generală de intermediere necesită oricum justificarea necesității și proporționalității, inclusiv a efectelor asupra concurenței. Formula privind instituțiile de credit «autorizate de BNR» trebuie verificată și corelată cu accesul legal al instituțiilor din alte state membre prin mecanismele europene de autorizare. Textul nu reglementează specific servicii digitale sau AI, astfel încât nu rezultă o obligație de notificare TRIS în temeiul Directivei (UE) 2015/1535 doar pentru că administrarea unui cont poate fi electronică. Afirmația compatibilității europene din expunerea de motive nu înlocuiește analiza. Referințele juridice externe nu au putut fi verificate online în această sesiune.",
       "senatForm": {
         "articleRef": "Art. 5 alin. (2)",
-        "proposalContent": "(2) Existența unui litigiu nu suspendă de drept eliberarea garanției în condițiile alin. (1). Instanța sau tribunalul arbitral competent poate dispune, la cerere, menținerea blocării, integral ori parțial, potrivit legii.",
-        "argumentation": "Blocarea automată până la soluționarea definitivă poate imobiliza inclusiv sume necontestate și poate încuraja litigii dilatorii. Controlul instanței sau al tribunalului arbitral permite protejarea creanței printr-o măsură adaptată cazului, cu respectarea proprietății și a proporționalității.",
-        "otherComments": "Se recomandă delimitarea garanțiilor bănești, protecția fondurilor în insolvența gestionarului, reguli tranzitorii și corelarea intrării în vigoare cu normele. Amendamentul poate fi preluat de un deputat în comisiile Camerei Deputaților sesizate pentru raport."
+        "proposalContent": "(2) Existența unui litigiu nu împiedică eliberarea garanției în condițiile alin. (1), cu excepția sumelor a căror indisponibilizare a fost dispusă de instanța competentă, prin măsură provizorie, în condițiile legii.",
+        "argumentation": "Blocarea automată a întregii garanții pe durata oricărui litigiu permite întârzieri abuzive și afectează lichiditățile. Controlul judiciar permite verificarea necesității măsurii și limitarea acesteia la sumele justificate, protejând proprietatea și drepturile ambelor părți.",
+        "otherComments": "Analiza privește forma inițiatorului furnizată. Sunt necesare și delimitarea garanțiilor bănești, reguli pentru contractele existente și protecția fondurilor față de creditorii gestionarului. Normele de aplicare trebuie corelate temporal cu intrarea în vigoare."
       },
       "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-19T08:49:37.529Z",
+      "method": "whole-text-v1",
+      "textChars": 4195,
+      "form": "initiator",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 6,
+        "claude": 6,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:20:04.469Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

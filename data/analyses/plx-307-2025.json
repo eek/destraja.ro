@@ -2,7 +2,7 @@
   "billId": "PL-x 307/2025",
   "slug": "plx-307-2025",
   "version": "senat",
-  "updatedAt": "2026-11-19T15:39:51.840Z",
+  "updatedAt": "2026-11-24T15:19:17.566Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -12,13 +12,31 @@
     "memoSupplied": 20857,
     "marker": "SF-F68A82AF"
   },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-307-2025.json",
+    "form": "senat",
+    "textHash": "f68a82af03017705",
+    "fetchedAt": "2026-11-20T07:43:36.373Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
     "riskScore": 3.7,
     "riskLevel": "green",
-    "plainTitle": "Cântărire automată a camioanelor, amenzi mai mari pentru cine fuge de control și convoaie mai lungi pentru eoliene",
-    "summaryTlDr": "Lege în mare parte necesară: scoate vizarea documentelor de la granițele devenite interne odată cu Schengen și dă CNAIR cântărirea automată permisă de UE. Riscul real stă în amenzile date automat pe baza cântăririi în mers. Garanțiile lor (toleranțe, probă, contestare) sunt lăsate unui ordin de ministru.",
-    "initiatorClaim": "Guvernul spune că, după intrarea în Schengen terestru, vizarea documentului de acces la granițele cu Ungaria și Bulgaria nu mai e posibilă și că unii transportatori ocolesc autorizarea pentru depășiri de mase și dimensiuni. Vrea să protejeze drumurile naționale prin cântărire automată și amenzi mai mari și să deblocheze transportul turbinelor eoliene cu termene PNRR/CfD.",
-    "realityCheck": "Articolul unic aprobă fără modificări OG 15/2025. Ordonanța face patru lucruri: abrogă vizarea documentului de acces la intrare/ieșire și tarifele suplimentare legate de ea, crește amenzile pentru sustragerea de la control la 15.000–30.000 lei, permite personalului CNAIR să constate și să sancționeze cu sisteme WIM certificate și lungește convoiul agabaritic de la 75 m la 200 m. Regulile controlului automat vin printr-un ordin al ministrului, care trebuia dat în 30 de zile. Textul ordonanței nu e în dosarul analizat, deci formulările exacte nu pot fi verificate aici.",
+    "plainTitle": "Camioanele supraîncărcate vor putea fi amendate automat de CNAIR, prin cântărire din mers",
+    "summaryTlDr": "Este o lege în mare parte tehnică și utilă: adaptează controlul pe drumuri la Schengen, protejează drumurile de camioanele supraîncărcate și ajută transportul turbinelor eoliene. Riscul real vine din amenzile automate aplicate de o companie de stat, ale căror garanții sunt lăsate pe seama unui ordin de ministru.",
+    "initiatorClaim": "Guvernul spune că, după intrarea României în Schengen terestru, controlul la frontiera internă nu mai poate fi făcut, iar unii transportatori ocolesc autorizarea depășirilor de mase și dimensiuni. Propune control automat prin sisteme WIM, amenzi mai mari pentru sustragerea de la control și convoaie mai lungi pentru componentele eoliene.",
+    "realityCheck": "Legea are un singur articol, care aprobă fără modificări OG nr. 15/2025. Textul ordonanței nu este atașat formei Senatului, așa că efectele de mai jos vin din expunerea de motive și din fișa Camerei. Concret, se elimină vizarea documentului de acces la frontieră și se redefinesc drumurile naționale legate de punctele de frontieră (art. 6 alin. 1 lit. d). Personalul CNAIR poate controla și sancționa pe baza cântăririi din mers (WIM). Amenzile pentru sustragerea de la control cresc de la 10.000–20.000 lei la 15.000–30.000 lei, iar convoiul agabaritic poate avea până la 200 m în loc de 75 m. Problema principală: procedura de control automat se stabilește prin norme aprobate prin ordin de ministru în 30 de zile, nu prin lege.",
     "affectedGroups": [
       "Șoferi & Auto",
       "IMM & Antreprenori",
@@ -26,115 +44,136 @@
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. unic – OG 43/1997, art. 60 alin. (5^1) nou",
-      "proposalContent": "Se introduce alin. (5^1): „Sancțiunea pe baza sistemelor WIM se aplică numai dacă aparatul are verificare metrologică valabilă, iar depășirea trece de eroarea maximă tolerată a aparatului sau e confirmată prin cântărire statică. Procesul-verbal se comunică în 30 de zile, cu fotografia și datele măsurării. Datele vehiculelor conforme se șterg în 24 de ore.”",
-      "argumentation": "Directiva 96/53/CE permite sancțiuni automate doar cu sisteme certificate. Cântărirea în mers are erori mai mari decât cea statică, iar amenzile pentru depășirea masei sunt mari. Când o măsurare devine probă suficientă trebuie să scrie în lege, nu doar într-un ordin de ministru (art. 1 alin. (5) din Constituție). Ștergerea rapidă protejează datele șoferilor în regulă.",
-      "otherComments": "Comisia ar trebui să verifice dacă normele metodologice cerute în 30 de zile de la intrarea în vigoare a OG 15/2025 au fost publicate. Expunerea de motive nu evaluează impactul bugetar, asupra afacerilor și asupra drepturilor (rubrici goale sau «Nu este cazul»), deși proiectul aduce sisteme WIM, camere video și amenzi mai mari."
+      "articleRef": "Art. unic – OG 43/1997, art. 61^2 lit. c)",
+      "proposalContent": "Se completează art. 61^2 lit. c): «Sancționarea pe baza sistemelor WIM se face numai cu sisteme omologate și verificate metrologic de BRML, cu buletin valabil la data faptei, aplicând toleranța de măsurare a sistemului; procesul-verbal se comunică în 30 de zile și cuprinde fotografiile, valorile măsurate și dovada verificării metrologice.»",
+      "argumentation": "Art. 10d din Directiva 96/53/CE permite sancțiuni automate numai cu sisteme certificate. Lăsarea condițiilor doar în norme aprobate prin ordin în 30 de zile afectează previzibilitatea (art. 1 alin. 5 Const.) și dreptul la apărare al transportatorului, care nu poate contesta o cântărire fără date verificabile.",
+      "otherComments": "Fișa de impact spune „nu este cazul” la impact bugetar, mediu de afaceri și conformitate UE, deși OG majorează amenzile cu 50%, introduce sancțiuni automate și invocă Directiva 96/53/CE. Recomand completarea fișei cu estimări și cu numărul de sisteme WIM vizate. Textul OG nr. 15/2025 nu este atașat formei Senatului."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
       "modelId": "gemini-4-neon-high",
-      "durationMs": 73375,
+      "durationMs": 84825,
       "sourceEndMarker": "SF-F68A82AF",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Cântărire automată în mișcare cu amenzi de la CNAIR, eliminarea vizelor de tranzit post-Schengen și convoaie de 200 m",
-      "verdictShort": "Măsurile de fond sunt în mare parte legitime (alinierea la Schengen, protejarea drumurilor și transportul eolienelor), însă proiectul aprobă «în bloc» o ordonanță al cărei text nu apare în lege, lasă procedura amenzilor automate WIM la mâna unui ordin de ministru și are o Expunere de motive plină de contradicții.",
-      "initiatorClaim": "Guvernul susține că proiectul aliniază legislația rutieră la intrarea României în Schengen terestru, protejează drumurile naționale prin cântărire automată (WIM) și amenzi mai mari pentru sustragerea de la control și accelerează proiectele eoliene prin creșterea lungimii maxime a convoaielor agabaritice de la 75 m la 200 m.",
-      "realityCheck": "Forma adoptată de Senat conține doar un articol unic care aprobă fără modificări OG nr. 15/2025 (publicată în M.O. nr. 784/2025), fără a include textul ordonanței în proiect. Din fișa Camerei și Expunerea de motive reiese că angajații CNAIR S.A. primesc atribuții de sancționare prin sisteme automate WIM dotate cu camere video pe baza unui viitor ordin ministerial, amenzile pentru refuzul/obstrucționarea controlului cresc cu 50% (15.000–30.000 lei), iar convoaiele agabaritice pot ajunge la 200 m pe drumurile naționale, totul fără nicio analiză reală de impact bugetar, rutier sau asupra drepturilor fundamentale.",
+      "plainTitle": "Cântărire automată pe șosele, amenzi mai mari și convoaie agabaritice de 200 m",
+      "verdictShort": "Legea aprobă fără modificări OG nr. 15/2025, un act necesar după intrarea în Schengen terestru și util pentru protejarea drumurilor și transportul turbinelor eoliene. Riscul real stă în lăsarea procedurii de sancționare automată prin camere și cântare WIM pe seama unui simplu ordin de ministru, cu amenzi urcate la 30.000 lei și fără nicio analiză de impact.",
+      "initiatorClaim": "Guvernul susține că adaptează regimul drumurilor la intrarea României în Spațiul Schengen terestru, protejează șoselele de camioanele supraîncărcate prin cântărire automată în mișcare (WIM) și deblochează proiectele de energie eoliană din PNRR prin permiterea convoaielor agabaritice de până la 200 de metri.",
+      "realityCheck": "Forma adoptată de Senat conține un singur articol care aprobă integral OG nr. 15/2025 (deja în vigoare din august 2025), fără a publica sau corecta textul ordonanței. În fapt, legea elimină vizarea birocratică a documentelor de acces la granițe, dar oferă CNAIR S.A. puterea de a sancționa automat din mișcare transportatorii și ridică amenzile pentru refuzul controlului la 15.000–30.000 lei, delegând regulile esențiale ale controlului automat către un ordin de ministru și extinzând convoaiele agabaritice de la 75 m la 200 m fără evaluări de impact publicate.",
       "affectedGroups": [
         "Șoferi & Auto",
         "IMM & Antreprenori",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articol unic (aprobare OG nr. 15/2025): Senatul a aprobat ordonanța «en bloc» prin lege ordinară (art. 76 alin. 2 Constituție); textul efectiv al modificărilor aduse OG nr. 43/1997 nu figurează în proiectul transmis, ceea ce reduce transparența dezbaterii publice.",
-        "Sancționare automată prin WIM și ordin de ministru (art. 60 alin. 5 OG nr. 43/1997, conform Expunerii de motive): CNAIR S.A. poate constata și sancționa depășirile de masă/dimensiuni prin sisteme automate WIM cu camere video, însă normele de control sunt delegate unui ordin al ministrului transporturilor (termen 30 de zile), fără garanții detaliate în legea primară privind marjele de eroare, probatoriul și datele personale.",
-        "Majorare cu 50% a amenzilor și convoaie de 200 m (art. 41 și art. 61 OG nr. 43/1997): amenzile pentru sustragerea/refuzul controlului cresc de la 10.000–20.000 lei la 15.000–30.000 lei, iar lungimea maximă a convoaielor cu depășiri aproape se triplează (de la 75 m la 200 m), măsură motivată prin eoliene, dar aplicabilă general fără studiu de siguranță rutieră.",
-        "Eliminare justificată a birocrației de frontieră (abrogarea art. 40¹ lit. b și art. 41¹ alin. 1, modificarea art. 6 alin. 1 lit. d din OG nr. 43/1997): dispare verificarea și vizarea documentului de acces rutier la intrare/ieșire, devenită imposibilă și nelegală după eliminarea controalelor la frontierele interne Schengen."
+        "Articol unic (aprobarea OG nr. 15/2025): Senatul a aprobat ordonanța în bloc, fără amendamente, validând transferul reglementării controlului automat WIM al CNAIR (art. 60 alin. (5) din OG nr. 43/1997) către norme metodologice emise prin ordin al ministrului transporturilor în 30 de zile.",
+        "Modificarea art. 61 alin. (1) lit. k)-l) și art. 61^2 lit. c) din OG nr. 43/1997 (conform Expunerii de motive și Fișei Camerei): amenzile pentru sustragerea sau refuzul controlului cresc cu 50% (de la 10.000–20.000 lei la 15.000–30.000 lei), iar personalul CNAIR primește atribuții de constatare și sancționare prin sisteme automate WIM dotate cu camere video.",
+        "Abrogarea art. 40^1 lit. b) și art. 41^1 alin. (1) și modificarea art. 6 alin. (1) lit. d) din OG nr. 43/1997: elimină verificarea și vizarea documentelor de acces la frontieră și actualizează definiția drumurilor naționale interconectate în Spațiul Schengen terestru, măsuri tehnice necesare.",
+        "Modificarea art. 41 din OG nr. 43/1997: extinde lungimea maximă a convoaielor cu depășiri de mase/dimensiuni de la 75 m la 200 m (cu suplimentarea mașinilor de însoțire) pentru transportul echipamentelor eoliene, dar această modificare majoră a fost omisă din lista oficială a schimbărilor preconizate de la Secțiunea 2.3 a Expunerii de motive."
       ],
-      "blindSpotsCaught": "Expunerea de motive are inconsecvențe majore: (1) Secțiunea 2.3 omite din lista articolelor modificate chiar extinderea convoaielor (art. 41) și restricțiile de înălțime prezentate la Secțiunea 2.2; (2) Secțiunile 3, 4 și 5 bifează «Nu este cazul» la impactul financiar, socio-economic, drepturi fundamentale (deși introduce supraveghere video automată WIM), măsuri normative subsecvente (deși cere ordin de ministru în 30 de zile) și conformitate cu dreptul UE (deși aplică Regulamentul Schengen și Directiva 96/53/CE); (3) lipsește avizul Consiliului Economic și Social (CES), fiind menționat doar Avizul Consiliului Legislativ nr. 575/2025.",
-      "constitutionalityNote": "Adoptarea OG nr. 15/2025 respectă formal temeiul abilitării (art. 115 alin. 1-3 Constituție, Legea nr. 134/2025 art. 1 pct. VII.1) și procedura legii ordinare (art. 76 alin. 2). Există însă un risc real sub aspectul art. 1 alin. (5) (calitatea și previzibilitatea legii), art. 21/24 (dreptul la apărare) și art. 26 (viața privată): delegarea regulilor de control și sancționare automată WIM cu camere video către un ordin de ministru, în favoarea unei societăți pe acțiuni (CNAIR S.A.), contravine jurisprudenței CCR care impune stabilirea prin lege a elementelor esențiale ale regimului contravențional și ale prelucrării datelor personale. De asemenea, omisiunile flagrante din Expunerea de motive încalcă exigențele Legii nr. 24/2000.",
-      "euLawNote": "Eliminarea vizării documentului de acces la rețeaua rutieră și actualizarea definiției drumurilor transfrontaliere sunt necesare și conforme cu art. 24 din Regulamentul (UE) 2016/399 (Codul Frontierelor Schengen) și Decizia (UE) 2024/3212. Utilizarea sistemelor automate certificate WIM este permisă și încurajată de Directiva 96/53/CE (modificată prin Directiva 2015/719), cu condiția certificării metrologice și a nediscriminării transportatorilor din alte state membre. Directiva (UE) 2018/958 (profesii reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt direct incidente, însă sistemele WIM cu camere video implică prelucrări de date reglementate de GDPR (Regulamentul UE 2016/679), complet ignorate în fundamentarea proiectului.",
+      "blindSpotsCaught": "Expunerea de motive conține contradicții grave și formulări copiate neatent: Secțiunile 3 (impact socio-economic, drepturi, mediu de afaceri) și 4 (impact financiar) sunt completate integral cu „Nu este cazul”, deși se majorează amenzi, se elimină tarife suplimentare la frontieră și se introduc camere video cu sancționare automată (implicații GDPR neanalizate). Secțiunea 5.3 afirmă că actul „nu se referă” la legislația UE, contrazicând direct Secțiunea 2.2 care invocă Regulamentul (UE) 2016/399 și Directiva 96/53/CE. De asemenea, textul justificării vorbește despre „regim de urgență” și „situație extraordinară” (formule de OUG), deși actul este o ordonanță simplă emisă pe legea de abilitare nr. 134/2025.",
+      "constitutionalityNote": "Sub aspect procedural, OG nr. 15/2025 este o ordonanță simplă emisă legal în temeiul art. 115 alin. (1)-(3) din Constituție și al Legii de abilitare nr. 134/2025 (art. 1 pct. VII.1), într-un domeniu de lege ordinară (adoptată de Senat cu respectarea art. 76 alin. (2)). Riscul constituțional vizează art. 1 alin. (5) (calitatea și previzibilitatea legii) și art. 26 (viața privată): stabilirea procedurii de constatare și sancționare automată prin sisteme WIM cu camere video prin simplu ordin al ministrului transporturilor, în lipsa garanțiilor esențiale în lege (metrologie, marje de eroare, identificarea contravenientului, prelucrarea datelor), contravine jurisprudenței CCR privind legalitatea regimului contravențional.",
+      "euLawNote": "Pe fond, abrogarea controalelor și vizărilor la frontieră este impusă de Regulamentul (UE) 2016/399 (Codul Frontierelor Schengen, art. 24) și Decizia (UE) 2024/3212, iar utilizarea sistemelor WIM certificate este aliniată cu Directiva 96/53/CE privind masele și dimensiunile vehiculelor. Totuși, fundamentarea ignoră obligațiile din Regulamentul (UE) 2016/679 (GDPR) privind supravegherea video automată. Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) nu este incidentă direct, iar Directiva (UE) 2015/1535 (TRIS) ar putea deveni aplicabilă ulterior dacă ordinul ministrului privind sistemele WIM va impune cerințe tehnice naționale specifice pe piața echipamentelor de cântărire.",
       "senatForm": {
-        "articleRef": "Articol unic (modificare OG nr. 15/2025)",
-        "proposalContent": "Completarea legii de aprobare a OG 15/2025 astfel încât elementele esențiale ale sancționării automate WIM (verificare metrologică, marje de eroare, acces la proba video și termenul de stocare a datelor) să fie stabilite prin lege, nu prin ordin de ministru, și condiționarea convoaielor de 200 m de rute și intervale orare prestabilite.",
-        "argumentation": "Potrivit art. 1 alin. (5) din Constituție și jurisprudenței CCR, regimul probatoriu și garanțiile de apărare în sancționarea contravențională automată (WIM) nu pot fi delegate exclusiv unui ordin ministerial. În plus, extinderea convoaielor agabaritice de la 75 m la 200 m necesită garanții explicite de siguranță rutieră pe drumurile cu o bandă pe sens.",
-        "otherComments": "Solicităm și completarea impactului financiar și socio-economic (lipsă în Expunerea de motive, unde figurează «Nu este cazul»), clarificarea competențelor CNAIR S.A. față de ISCTR și Poliția Rutieră, precum și publicarea textului integral al OG nr. 15/2025 în raportul comisiei pentru dezbatere transparentă."
+        "articleRef": "Articol unic (OG 15/2025 - control WIM)",
+        "proposalContent": "Completarea Articolului unic pentru a include direct în OG nr. 43/1997 garanțiile esențiale ale controlului automat WIM: certificarea metrologică periodică, marjele de eroare aplicate în favoarea transportatorului, identificarea operatorului, termenele de comunicare a procesului-verbal și normele GDPR pentru camerele video, nu doar prin ordin de ministru.",
+        "argumentation": "Potrivit art. 1 alin. (5) din Constituție, regulile esențiale de sancționare nu pot fi lăsate unui simplu ordin de ministru. Sistemele WIM cu camere video implică date personale (GDPR), iar amenzile de 15.000-30.000 lei cer garanții clare direct în lege pentru previzibilitate și evitarea erorilor tehnice.",
+        "otherComments": "Solicităm Comisiei pentru transporturi publicarea unei evaluări reale de impact (Secțiunile 3-4 din Expunerea de motive sunt completate cu „Nu este cazul”) și clarificarea în lege a condițiilor de siguranță rutieră și a numărului minim de autovehicule de însoțire pentru convoaiele agabaritice extinse de la 75 m la 200 m."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 152588,
+      "durationMs": 45295,
       "sourceEndMarker": "SF-F68A82AF",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Cântărire automată a camioanelor, amenzi mai mari pentru cine fuge de control și convoaie mai lungi pentru eoliene",
-      "verdictShort": "Lege în mare parte necesară: scoate vizarea documentelor de la granițele devenite interne odată cu Schengen și dă CNAIR cântărirea automată permisă de UE. Riscul real stă în amenzile date automat pe baza cântăririi în mers. Garanțiile lor (toleranțe, probă, contestare) sunt lăsate unui ordin de ministru.",
-      "initiatorClaim": "Guvernul spune că, după intrarea în Schengen terestru, vizarea documentului de acces la granițele cu Ungaria și Bulgaria nu mai e posibilă și că unii transportatori ocolesc autorizarea pentru depășiri de mase și dimensiuni. Vrea să protejeze drumurile naționale prin cântărire automată și amenzi mai mari și să deblocheze transportul turbinelor eoliene cu termene PNRR/CfD.",
-      "realityCheck": "Articolul unic aprobă fără modificări OG 15/2025. Ordonanța face patru lucruri: abrogă vizarea documentului de acces la intrare/ieșire și tarifele suplimentare legate de ea, crește amenzile pentru sustragerea de la control la 15.000–30.000 lei, permite personalului CNAIR să constate și să sancționeze cu sisteme WIM certificate și lungește convoiul agabaritic de la 75 m la 200 m. Regulile controlului automat vin printr-un ordin al ministrului, care trebuia dat în 30 de zile. Textul ordonanței nu e în dosarul analizat, deci formulările exacte nu pot fi verificate aici.",
+      "plainTitle": "Camioanele supraîncărcate vor putea fi amendate automat de CNAIR, prin cântărire din mers",
+      "verdictShort": "Este o lege în mare parte tehnică și utilă: adaptează controlul pe drumuri la Schengen, protejează drumurile de camioanele supraîncărcate și ajută transportul turbinelor eoliene. Riscul real vine din amenzile automate aplicate de o companie de stat, ale căror garanții sunt lăsate pe seama unui ordin de ministru.",
+      "initiatorClaim": "Guvernul spune că, după intrarea României în Schengen terestru, controlul la frontiera internă nu mai poate fi făcut, iar unii transportatori ocolesc autorizarea depășirilor de mase și dimensiuni. Propune control automat prin sisteme WIM, amenzi mai mari pentru sustragerea de la control și convoaie mai lungi pentru componentele eoliene.",
+      "realityCheck": "Legea are un singur articol, care aprobă fără modificări OG nr. 15/2025. Textul ordonanței nu este atașat formei Senatului, așa că efectele de mai jos vin din expunerea de motive și din fișa Camerei. Concret, se elimină vizarea documentului de acces la frontieră și se redefinesc drumurile naționale legate de punctele de frontieră (art. 6 alin. 1 lit. d). Personalul CNAIR poate controla și sancționa pe baza cântăririi din mers (WIM). Amenzile pentru sustragerea de la control cresc de la 10.000–20.000 lei la 15.000–30.000 lei, iar convoiul agabaritic poate avea până la 200 m în loc de 75 m. Problema principală: procedura de control automat se stabilește prin norme aprobate prin ordin de ministru în 30 de zile, nu prin lege.",
       "affectedGroups": [
         "Șoferi & Auto",
         "IMM & Antreprenori",
-        "Justiție & Drepturi Civile"
+        "Justiție & Drepturi Civile",
+        "Agricultură & Mediu"
       ],
       "keyFindings": [
-        "Articolul unic aprobă OG 15/2025 fără nicio modificare. Efectele reale sunt în ordonanță, nu în proiectul de lege, iar Camera, fiind decizională, încă poate aduce amendamente.",
-        "Abrogarea art. 40^1 lit. b) și a art. 41^1 alin. (1) din OG 43/1997 elimină vizarea documentului de acces la intrarea și ieșirea din țară și tarifele suplimentare calculate pe baza ei. După Schengen terestru, aceste tarife nu mai puteau fi stabilite corect, deci abrogarea e favorabilă transportatorilor.",
-        "Amenzile pentru neoprire la semnal, obstrucționarea controlului, refuzul cântăririi sau al prezentării documentelor cresc cu 50% (art. 61 alin. (1) lit. k) și l)): de la 10.000–20.000 lei la 15.000–30.000 lei. Vizează comportamente deliberate, deci par proporționale.",
-        "Personalul CNAIR poate constata și sancționa depășirile de mase și dimensiuni cu sisteme WIM certificate (sistemele automate de la art. 60 alin. (5)). Normele metodologice se aprobă prin ordin de ministru în 30 de zile, iar din descriere nu reiese că toleranțele de măsurare, condițiile probei și comunicarea procesului-verbal sunt fixate în lege.",
-        "Convoiul de vehicule cu depășiri de mase sau dimensiuni poate avea până la 200 m în loc de 75 m, cu mai multe autovehicule de însoțire și cu poliție. Măsura ajută transportul turbinelor eoliene, dar blochează mai mult timp drumurile naționale cu o singură bandă pe sens."
+        "Se abrogă art. 40^1 lit. b) și art. 41^1 alin. (1) din OG 43/1997: dispare verificarea și vizarea documentului de acces la frontieră pentru toate camioanele. Este o aliniere corectă la art. 24 din Codul Frontierelor Schengen și elimină taxări fără temei la ieșirea din țară.",
+        "Art. 61^2 lit. c) permite personalului CNAIR să sancționeze depășirile de mase și dimensiuni pe baza sistemelor WIM. Condițiile concrete (certificare, toleranțe, probe, comunicare) sunt lăsate în normele metodologice aprobate prin ordin MTI în 30 de zile.",
+        "Art. 61 alin. (1) lit. k) și l): amenzile pentru neoprire, obstrucționarea controlului sau refuzul cântăririi cresc cu 50%, la 15.000–30.000 lei. Sunt descurajante, dar sunt aceleași pentru un camion mic și pentru un transport agabaritic.",
+        "Art. 41: lungimea maximă a convoiului crește de la 75 m la 200 m, cu mai multe autovehicule de însoțire. Măsura este justificată explicit de proiectele eoliene finanțate prin PNRR și CfD.",
+        "Fișa de impact răspunde „nu este cazul” la impact bugetar, mediu de afaceri și conformitate UE, deși actul majorează amenzi, introduce sancțiuni automate și invocă Directiva 96/53/CE."
       ],
-      "blindSpotsCaught": "Dosarul de la Senat conține doar articolul unic: textul OG 15/2025 nu e anexat. Lista schimbărilor din secțiunea 2.3 a expunerii nu pomenește nici convoiul de 200 m, nici măsura pentru vehiculele prea înalte, deși ambele sunt descrise la 2.2 și în fișa Camerei. Secțiunea 5.1 spune că nu sunt necesare alte acte, deși proiectul cere un ordin de ministru în 30 de zile. Secțiunea 5.3 spune că actul nu privește dreptul UE, deși aplică Directiva 96/53/CE. Expunerea folosește limbaj de ordonanță de urgență („situație extraordinară”, „regim de urgență”) pentru o ordonanță simplă.",
-      "constitutionalityNote": "OG 15/2025 e o ordonanță simplă, dată pe baza Legii de abilitare nr. 134/2025, într-un domeniu de lege ordinară (regimul drumurilor, contravenții), deci art. 115 alin. (1)–(3) pare respectat. Formulările despre urgență din expunere nu sunt cerute pentru o ordonanță simplă și nu schimbă analiza. Dreptul personalului CNAIR, o societate pe acțiuni, de a constata și sancționa există deja în OG 43/1997. Trecerea la constatarea automată cere însă, pentru previzibilitate (art. 1 alin. (5)), ca regulile esențiale să fie în lege, nu doar într-un ordin: când e suficientă o măsurare în mers și ce toleranță se aplică. Contestarea procesului-verbal în instanță după OG 2/2001 rămâne posibilă (art. 21). Camerele care filmează vehiculele ating viața privată (art. 26), deci temeiul și durata păstrării datelor trebuie să fie clare.",
-      "euLawNote": "Abrogarea vizării la intrare și ieșire aliniază legea la Codul Frontierelor Schengen (Regulamentul (UE) 2016/399), care interzice controalele cu efect echivalent la frontierele interne. Controalele WIM pe rețeaua de drumuri sunt permise cât timp nu devin verificări sistematice la fostele puncte de frontieră. Directiva 96/53/CE, modificată prin Directiva (UE) 2015/719, permite expres sisteme automate de constatare și sancționare, cu condiția să fie certificate. Directiva 2018/958 nu se aplică, fiindcă nu e vizată o profesie reglementată. Nici TRIS 2015/1535 nu se aplică, fiindcă nu sunt reglementate servicii ale societății informaționale. Camerele care preiau numere de înmatriculare cer un temei legal clar și, probabil, o evaluare de impact potrivit GDPR (art. 35). Măsurile se aplică la fel transportatorilor români și străini, deci nu discriminează pe piața unică.",
+      "blindSpotsCaught": "Art. 10d din Directiva 96/53/CE (introdus prin Directiva 2015/719) permite sancțiuni pe baza sistemelor automate numai dacă acestea sunt certificate. Expunerea promite sisteme „certificate”, dar nu spune de cine, după ce standard metrologic și cu ce toleranță. Totodată, la secțiunea 5.3 declară că actul nu are legătură cu legislația UE. Mai e o neconcordanță: secțiunea 5.1 spune că nu sunt necesare măsuri normative de aplicare, deși textul cere chiar un ordin de ministru în 30 de zile.",
+      "constitutionalityNote": "Ordonanța a fost emisă în baza legii de abilitare nr. 134/2025 (art. 115 alin. 1–3 din Constituție), într-un domeniu de lege ordinară. Senatul a adoptat-o corect, conform art. 76 alin. (2). Problema de previzibilitate (art. 1 alin. 5) apare pentru că elementele esențiale ale sancționării automate (proba, toleranța de măsurare, persoana răspunzătoare, termenul de comunicare) sunt delegate unui ordin de ministru. Asta poate afecta dreptul la apărare (art. 24) și accesul liber la justiție (art. 21) când se contestă un proces-verbal bazat doar pe date WIM. Majorarea amenzilor rămâne în marja de apreciere a legiuitorului.",
+      "euLawNote": "Abrogarea vizării la frontieră este cerută de art. 24 din Regulamentul (UE) 2016/399 (Codul Frontierelor Schengen). Sancționarea prin WIM este compatibilă cu Directiva 96/53/CE (art. 10d) doar dacă sistemele sunt certificate. Directiva 2018/958 (test de proporționalitate pentru profesii reglementate) nu se aplică. Directiva TRIS 2015/1535 nu se aplică serviciilor digitale aici. Ar putea deveni relevantă numai dacă normele metodologice impun specificații tehnice naționale de produs pentru echipamentele WIM. Regulile se aplică la fel transportatorilor din orice stat membru, deci nu există discriminare pe piața unică.",
       "senatForm": {
-        "articleRef": "Art. unic – OG 43/1997, art. 60 alin. (5^1) nou",
-        "proposalContent": "Se introduce alin. (5^1): „Sancțiunea pe baza sistemelor WIM se aplică numai dacă aparatul are verificare metrologică valabilă, iar depășirea trece de eroarea maximă tolerată a aparatului sau e confirmată prin cântărire statică. Procesul-verbal se comunică în 30 de zile, cu fotografia și datele măsurării. Datele vehiculelor conforme se șterg în 24 de ore.”",
-        "argumentation": "Directiva 96/53/CE permite sancțiuni automate doar cu sisteme certificate. Cântărirea în mers are erori mai mari decât cea statică, iar amenzile pentru depășirea masei sunt mari. Când o măsurare devine probă suficientă trebuie să scrie în lege, nu doar într-un ordin de ministru (art. 1 alin. (5) din Constituție). Ștergerea rapidă protejează datele șoferilor în regulă.",
-        "otherComments": "Comisia ar trebui să verifice dacă normele metodologice cerute în 30 de zile de la intrarea în vigoare a OG 15/2025 au fost publicate. Expunerea de motive nu evaluează impactul bugetar, asupra afacerilor și asupra drepturilor (rubrici goale sau «Nu este cazul»), deși proiectul aduce sisteme WIM, camere video și amenzi mai mari."
+        "articleRef": "Art. unic – OG 43/1997, art. 61^2 lit. c)",
+        "proposalContent": "Se completează art. 61^2 lit. c): «Sancționarea pe baza sistemelor WIM se face numai cu sisteme omologate și verificate metrologic de BRML, cu buletin valabil la data faptei, aplicând toleranța de măsurare a sistemului; procesul-verbal se comunică în 30 de zile și cuprinde fotografiile, valorile măsurate și dovada verificării metrologice.»",
+        "argumentation": "Art. 10d din Directiva 96/53/CE permite sancțiuni automate numai cu sisteme certificate. Lăsarea condițiilor doar în norme aprobate prin ordin în 30 de zile afectează previzibilitatea (art. 1 alin. 5 Const.) și dreptul la apărare al transportatorului, care nu poate contesta o cântărire fără date verificabile.",
+        "otherComments": "Fișa de impact spune „nu este cazul” la impact bugetar, mediu de afaceri și conformitate UE, deși OG majorează amenzile cu 50%, introduce sancțiuni automate și invocă Directiva 96/53/CE. Recomand completarea fișei cu estimări și cu numărul de sisteme WIM vizate. Textul OG nr. 15/2025 nu este atașat formei Senatului."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 69523,
+      "durationMs": 79786,
       "sourceEndMarker": "SF-F68A82AF",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Controale pentru camioane supraîncărcate și convoaie mai lungi",
-      "verdictShort": "Scopul declarat este util: protejarea drumurilor și adaptarea controalelor după intrarea în Schengen. Evaluarea rămâne provizorie, deoarece textul furnizat aprobă o ordonanță al cărei conținut normativ nu este reprodus.",
-      "initiatorClaim": "Guvernul urmărește eliminarea verificărilor devenite neadaptate după aderarea la Schengen, controlul automat al transporturilor cu depășiri de masă sau dimensiuni și descurajarea refuzului de control. Extinderea convoaielor ar facilita inclusiv transportul echipamentelor pentru investiții eoliene.",
-      "realityCheck": "Articolul unic aprobă integral OG nr. 15/2025, fără amendamente; efectele materiale trebuie verificate în ordonanța aprobată, care lipsește din materialul furnizat. Amenzile majorate, controalele WIM, abrogările și convoaiele de până la 200 m sunt descrise în expunerea de motive, care nu poate înlocui dispozițiile normative. Nu există suficiente probe pentru a constata un monopol, o discriminare sau sancțiuni vădit disproporționate.",
+      "plainTitle": "Controale automate pentru camioane și convoaie mai lungi",
+      "verdictShort": "Reglementarea are o finalitate legitimă: protejarea drumurilor și adaptarea controalelor după intrarea în Schengen. Nu rezultă o capcană constituțională evidentă, dar sancționarea prin cântărire automată trebuie să permită verificarea și contestarea probelor.",
+      "initiatorClaim": "Inițiatorii urmăresc adaptarea verificărilor transporturilor la eliminarea controalelor de la frontierele interne Schengen, depistarea camioanelor supraîncărcate și descurajarea evitării controlului. Extinderea convoaielor ar facilita inclusiv transportul componentelor turbinelor eoliene.",
+      "realityCheck": "Articolul unic aprobă OG nr. 15/2025 fără amendamente; măsurile concrete se găsesc în ordonanța aprobată, al cărei text nu este reprodus în materialul furnizat și nu a putut fi verificat independent. Potrivit fișei oficiale și motivării, sunt eliminate anumite verificări ale documentelor de acces, sunt introduse controale WIM, amenzile pentru evitarea controlului cresc de la 10.000–20.000 la 15.000–30.000 lei, iar lungimea maximă a convoaielor crește de la 75 la 200 m. Eliminarea vizării documentelor nu trebuie confundată cu eliminarea obligațiilor de autorizare sau a controalelor privind masele și dimensiunile.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Șoferi & Auto",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Articolul unic aprobă OG nr. 15/2025 prin trimitere. Această tehnică este obișnuită și nu obligă Parlamentul să reproducă ordonanța, dar împiedică auditarea integrală numai pe baza extrasului furnizat.",
-        "Expunerea indică majorarea amenzilor pentru împiedicarea sau refuzul controlului de la 10.000–20.000 lei la 15.000–30.000 lei, adică o creștere de 50%. Aceasta privește conduita față de control și nu trebuie prezentată drept majorare generală a tuturor amenzilor pentru supraîncărcare.",
-        "Pentru sancțiunile bazate pe WIM trebuie verificate în ordonanță identificarea persoanei răspunzătoare, cerințele de certificare și metrologie, toleranțele și accesul la probe. Absența acestor garanții nu poate fi dedusă din simpla lor nemenționare în expunere.",
-        "Extinderea convoaielor de la 75 m la 200 m și suplimentarea însoțirii sunt prezentate în motivare. Justificarea prin investiții eoliene nu dovedește că beneficiul legal este rezervat acestui sector.",
-        "Expunerea anunță norme metodologice în 30 de zile de la intrarea în vigoare a ordonanței, dar secțiunile privind implementarea și măsurile normative sunt completate cu formule precum «Nu este cazul». Aceasta este o inconsecvență de fundamentare, nu dovada inexistenței normelor.",
-        "Declarația de impact bugetar nul nu este susținută prin estimări privind administrarea sistemelor, procesarea sancțiunilor sau reducerea unor încasări. Totuși, materialul nu demonstrează că proiectul impune achiziții noi ori cheltuieli suplimentare obligatorii."
+        "Articolul unic aprobă integral ordonanța indicată. Expunerea de motive explică măsurile, dar nu poate substitui formularea normelor, excepțiilor și dispozițiilor tranzitorii din OG nr. 15/2025.",
+        "Majorarea amenzii minime și maxime pentru evitarea controlului este de 50%, potrivit fișei oficiale. Impactul asupra transportatorilor mici este semnificativ, dar cuantumul, singur, nu dovedește disproporționalitatea; contează gravitatea conduitei și individualizarea sancțiunii.",
+        "Pentru modificarea referitoare la convoaie, motivarea invocă transportul echipamentelor eoliene, însă descrie o extindere generală la 200 m. Nu rezultă că beneficiul ar fi rezervat sectorului eolian; condițiile exacte de însoțire trebuie verificate în ordonanță.",
+        "Expunerea anunță norme metodologice pentru controlul automat în 30 de zile, dar declară ulterior că măsurile normative de aplicare nu sunt relevante. Este o inconsecvență a fundamentării; termenul și executarea obligației nu pot fi confirmate numai din această explicație.",
+        "Mențiunea repetată «Nu este cazul» la impactul financiar nu cuantifică eventualele costuri ale sistemelor, veniturile din sancțiuni sau efectele eliminării unor verificări. Această lacună nu demonstrează automat cheltuieli bugetare noi ori taxe noi."
       ],
-      "blindSpotsCaught": "Documentul supus aprobării este o ordonanță simplă, emisă în baza unei legi de abilitare, nu o ordonanță de urgență. Formulările despre «situația extraordinară» din motivare nu fac aplicabile condițiile art. 115 alin. (4) din Constituție. De asemenea, termenul de 30 de zile descris în expunere curge de la intrarea în vigoare a ordonanței, nu se reia automat la aprobarea ei prin lege.",
-      "constitutionalityNote": "Articolul unic este clar și nu prezintă, în sine, o problemă evidentă față de art. 1 alin. (5). Pentru ordonanța aprobată trebuie verificate limitele abilitării și respectarea art. 115 alin. (1)–(3), precum și precizia faptelor contravenționale și a persoanelor răspunzătoare. Art. 23 alin. (12) consacră legalitatea pedepsei; în materia contravențională sunt relevante exigențele de legalitate și previzibilitate, împreună cu accesul efectiv la instanță și dreptul la apărare, potrivit art. 21 și 24. Creșterea amenzilor nu dovedește singură disproporționalitatea. Pentru camerele video trebuie verificat și cadrul de protecție a datelor. Lipsa textului ordonanței nu permite un verdict definitiv.",
-      "euLawNote": "Directiva 2018/958 privește reglementarea accesului la profesii reglementate și a exercitării acestora, nu orice obligație impusă transportatorilor; materialul nu indică o asemenea restricție profesională nouă. Directiva 2015/1535 nu devine aplicabilă automat deoarece se folosesc sisteme WIM sau camere și nu există aici o reglementare identificabilă a serviciilor digitale ori AI. Trebuie totuși verificat dacă ordonanța introduce specificații tehnice obligatorii notificabile pentru echipamente. Directiva 96/53/CE permite folosirea sistemelor automate certificate pentru constatarea încălcărilor și sancționare. Eliminarea controalelor asupra persoanelor la frontierele interne Schengen nu interzice, în sine, controalele rutiere nediscriminatorii și nici nu impune automat eliminarea verificărilor la frontierele externe. Înregistrările video intră, după caz, sub cerințele GDPR.",
+      "blindSpotsCaught": "Aprobarea printr-un singur articol nu face ordonanța lipsită de efecte substanțiale. Schengen impune eliminarea controalelor la frontierele interne, dar nu justifică automat eliminarea verificărilor documentare și la frontierele externe; această extindere necesită o justificare distinctă. De asemenea, actul aprobat este o ordonanță simplă, nu una de urgență: formulările despre «situația extraordinară» din motivare nu atrag condițiile art. 115 alin. (4) din Constituție.",
+      "constitutionalityNote": "Nu se identifică un viciu evident în articolul unic. Art. 1 alin. (5) cere însă ca faptele sancționate, persoana răspunzătoare și condițiile utilizării probelor WIM să fie previzibile; elementele esențiale ale răspunderii nu pot fi lăsate integral unui ordin ministerial. Art. 23 alin. (12) privește legalitatea pedepselor și nu trebuie aplicat mecanic oricărei amenzi contravenționale; sunt relevante și accesul la justiție, dreptul la apărare și garanțiile convenționale aplicabile materiei contravenționale. Controlul cu înregistrare video trebuie să respecte protecția vieții private. Fundamentarea financiară sumară nu dovedește singură încălcarea art. 138 alin. (5), fără identificarea unei cheltuieli bugetare suplimentare.",
+      "euLawNote": "Directiva 96/53/CE permite utilizarea sistemelor automate certificate pentru constatarea încălcărilor și sancționare, în condițiile sale. Directiva (UE) 2018/958 privește restricțiile privind accesul la profesii reglementate sau exercitarea acestora; măsurile descrise nu indică o asemenea restricție și nici un monopol profesional nou. Utilizarea camerelor și WIM nu constituie, prin ea însăși, reglementarea unui serviciu digital sau AI supusă notificării TRIS; eventualele prescripții tehnice obligatorii pentru echipamente trebuie analizate separat potrivit Directivei (UE) 2015/1535. Aplicarea controalelor trebuie să fie nediscriminatorie, compatibilă cu libera circulație și cu RGPD. Schengen nu exclude controalele rutiere interne care respectă condițiile dreptului UE.",
       "senatForm": {
-        "articleRef": "După articolul unic – articol nou",
-        "proposalContent": "Art. II. Persoanei sancționate pe baza sistemelor automate de cântărire i se asigură accesul la înregistrarea constatării, la rezultatul măsurării, la toleranța aplicată și la documentele care atestă îndeplinirea cerințelor legale de certificare și verificare metrologică la data faptei, pentru exercitarea dreptului la apărare.",
-        "argumentation": "Controlul automat poate proteja infrastructura și reduce opririle în trafic. Accesul la probe permite verificarea identificării vehiculului și a exactității măsurării, susținând dreptul la apărare. Completarea este justificată numai dacă aceste garanții nu sunt deja asigurate suficient de cadrul aplicabil.",
-        "otherComments": "Articolul unic se renumerotează ca art. I. Textul trebuie corelat cu OG nr. 15/2025, OG nr. 2/2001 și legislația metrologică, pentru evitarea suprapunerilor. Termenul pentru amendamente indicat în fișă, 09.10.2025, este depășit; transmiterea unei propuneri nu garantează preluarea sa de către un deputat."
+        "articleRef": "Articolul unic",
+        "proposalContent": "Se aprobă Ordonanța Guvernului nr. 15/2025. În cazul sancțiunilor bazate pe date WIM, procesul-verbal indică sistemul utilizat, valabilitatea verificării metrologice, masa măsurată și marja de eroare aplicată în favoarea contravenientului. Acesta are acces gratuit la înregistrarea și datele care fundamentează sancțiunea.",
+        "argumentation": "Trasabilitatea măsurării și accesul la probe permit verificarea sancțiunii și exercitarea efectivă a dreptului la apărare. Garanțiile propuse reduc riscul sancționării pentru erori de măsurare, fără a împiedica utilizarea sistemelor automate.",
+        "otherComments": "Propunerea trebuie corelată cu textul integral al OG nr. 15/2025 și cu procedura contravențională existentă, pentru a evita dublările. Termenul pentru amendamente indicat în fișă, 9 octombrie 2025, este depășit; transmiterea unei observații nu garantează preluarea sa ca amendament."
       },
       "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-19T15:39:51.840Z",
+      "method": "whole-text-v1",
+      "textChars": 771,
+      "form": "senat",
+      "agyModel": "gemini-4-neon-high",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:19:17.566Z",
+      "reasons": [
+        "reluare"
+      ]
+    }
+  ]
 }

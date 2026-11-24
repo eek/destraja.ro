@@ -2,7 +2,7 @@
   "billId": "Pl-x 185/2025",
   "slug": "plx-185-2025",
   "version": "initiator",
-  "updatedAt": "2026-11-19T14:48:26.830Z",
+  "updatedAt": "2026-11-24T15:19:19.024Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -12,130 +12,169 @@
     "memoSupplied": 11061,
     "marker": "SF-0EFA71EB"
   },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-185-2025.json",
+    "form": "initiator",
+    "textHash": "0efa71ebc5930385",
+    "fetchedAt": "2026-11-20T07:44:52.685Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 7417,
+    "truncated": false,
+    "included": true,
+    "key": "247c80825647d35c"
+  },
   "consensus": {
-    "riskScore": 6.3,
+    "riskScore": 6,
     "riskLevel": "yellow",
-    "plainTitle": "Investițiile străine: prag urcat la 5 milioane € și fără verificări de securitate din oficiu",
-    "summaryTlDr": "Ridicarea pragului la 5 milioane € e o relaxare rezonabilă pentru startup-uri și IMM-uri. Proiectul taie însă și plasa de siguranță: statul pierde dreptul de a verifica din oficiu investițiile mici din sectoare critice, iar noul criteriu de 10% e scris confuz și poate lăsa pe dinafară tranzacții mari care nu trec prin preluare de acțiuni.",
-    "initiatorClaim": "Inițiatorii spun că pragul de 2 milioane € e prea mic, încarcă inutil Comisia pentru examinarea investițiilor străine directe (CEISD) și descurajează investitorii, mai ales pe cei cu proiecte noi. Ei propun un prag de 5 milioane €, un criteriu suplimentar de 10% din drepturile de vot și eliminarea examinării pe care o numesc «discreționară» sub prag.",
-    "realityCheck": "Proiectul are doar două puncte: urcă pragul de la art. 3 alin. (1) lit. b) la 5 milioane €, cu adaosul «dar nu mai puțin de 10% din drepturile de vot ale unei companii», și abrogă alin. (2), care permitea CEISD să examineze investițiile sub prag cu impact asupra securității sau ordinii publice. Dacă citim criteriul ca fiind cumulativ, cum spune expunerea, pot ieși de sub control și investiții de zeci de milioane care nu presupun dobândirea a 10% din voturi: achiziții de active, concesiuni, extinderi de capacitate, pachete minoritare cu drepturi speciale. În același timp, statul nu mai are nicio pârghie din oficiu pentru investițiile mici din apărare, energie sau infrastructură critică, iar proiectul nu spune nimic despre dosarele aflate deja la CEISD.",
+    "plainTitle": "Mai puține investiții străine verificate pentru riscuri de securitate: pragul de 10% din voturi și dispariția controlului pentru tranzacțiile mici",
+    "summaryTlDr": "Principalul argument al proiectului, ridicarea pragului de la 2 la 5 milioane de euro, nu mai are obiect: pragul de 5 milioane e deja în vigoare din martie 2026 (OUG 17/2026). Ce rămâne are efect real: un criteriu de 10% din voturi formulat ambiguu și eliminarea puterii statului de a verifica investiții mici, dar periculoase.",
+    "initiatorClaim": "Inițiatorii spun că pragul de 2 milioane de euro e prea mic, aglomerează CEISD și descurajează investitorii. Propun pragul de 5 milioane, un criteriu suplimentar de minimum 10% din drepturile de vot și eliminarea examinării „discreționare” a investițiilor sub prag.",
+    "realityCheck": "Legea în vigoare (art. 3 alin. (1) lit. b), modificat prin OUG 17/2026) prevede deja pragul de 5.000.000 de euro, iar alin. (2) se referă tot la investițiile sub 5 milioane, nu sub 2 milioane, cum afirmă expunerea de motive. Efectul real are două părți. Prima este adăugarea condiției „dar nu mai puțin de 10% din drepturile de vot”, care pune în aceeași frază euro și procente și ar putea scoate din control investițiile noi (greenfield) și achizițiile de active, unde nu există drepturi de vot. A doua este abrogarea alin. (2): statul pierde posibilitatea de a examina investiții sub prag care afectează securitatea națională, ordinea publică sau proiecte de interes pentru UE.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "IT & AI",
-      "Proprietari & Imobiliare",
-      "Toți cetățenii"
+      "Toți cetățenii",
+      "Proprietari & Imobiliare"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 1 și 2 (art. 3 din OUG 46/2022)",
-      "proposalContent": "Pct. 1: «b) a căror valoare depășește 5.000.000 euro și prin care investitorul dobândește, direct sau indirect, cel puțin 10% din drepturile de vot, controlul unei societăți sau active strategice.» Pct. 2 se elimină: alin. (2) rămâne, limitat la sectoarele critice din ordonanță, cu termen de 15 luni de la finalizarea investiției.",
-      "argumentation": "«Dar nu mai puțin de 10%» amestecă euro cu procente și nu spune dacă e condiție cumulativă ori dacă privește tranzacția sau deținerea totală. Fără alin. (2), un pachet de 9% sau o achiziție de active într-o firmă strategică scapă oricărui control, iar România n-ar avea temei să reacționeze la observațiile Comisiei (art. 7 Reg. 2019/452).",
-      "otherComments": "Lipsește o normă tranzitorie pentru dosarele aflate la CEISD și o regulă anti-fragmentare (tranșe sub 5 mil. € sau sub 10%). Exemplele din expunere nu susțin abrogarea: Germania, citată ca model, nu are prag în euro și păstrează examinarea din oficiu. Problema invocată, domeniile prea generice, nu e atinsă de proiect."
+      "articleRef": "Art. I pct. 1 și 2 (OUG 46/2022, art. 3)",
+      "proposalContent": "Se elimină pct. 2, alin. (2) rămânând în vigoare. La pct. 1, lit. b) devine: „b) a căror valoare depășește pragul de 5.000.000 de euro [...], iar, în cazul achiziției de acțiuni sau părți sociale, conferă cel puțin 10% din drepturile de vot.” Investițiile noi și achizițiile de active rămân supuse doar pragului valoric.",
+      "argumentation": "Pragul de 5 mil. euro e deja în vigoare (OUG 17/2026). Formula „dar nu mai puțin de 10%” amestecă euro cu procente și ar scoate din control investițiile noi și achizițiile de active, fără drepturi de vot. Abrogarea alin. (2) ar lăsa statul fără instrument pentru investiții mici dar riscante (ex. terenuri lângă unități militare).",
+      "otherComments": "Pentru previzibilitate, alin. (2) poate fi păstrat cu garanții: termen-limită pentru declanșarea examinării din oficiu după finalizarea tranzacției și criterii publicate de CEISD. Mecanismul de cooperare din Regulamentul (UE) 2019/452 presupune ca statul să poată reacționa la comentariile Comisiei și ale altor state membre."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
       "modelId": "gemini-4-neon-high",
-      "durationMs": 80920,
+      "durationMs": 91286,
       "sourceEndMarker": "SF-0EFA71EB",
-      "riskScore": 6,
-      "riskLevel": "yellow",
-      "plainTitle": "Slăbirea verificării investițiilor străine sub 5 milioane de euro",
-      "verdictShort": "Deși ridică o problemă reală de birocrație pentru tranzacțiile mici, proiectul desființează complet plasa de siguranță a statului pentru investițiile cu risc de securitate națională sub 5 milioane de euro. În plus, redactarea defectuoasă lasă portițe legale majore pentru achizițiile de active și participațiile minoritare strategice.",
-      "initiatorClaim": "Inițiatorii susțin că pragul actual de 2 milioane de euro supraîncarcă autoritățile și alungă investitorii prin birocrație excesivă. Ei afirmă că ridicarea pragului la 5 milioane de euro, cumulată cu minim 10% din drepturile de vot și eliminarea controlului sub prag, aliniază România la practicile din Germania, Franța și Spania.",
-      "realityCheck": "În realitate, proiectul face mult mai mult decât o simplă debirocratizare: prin abrogarea art. 3 alin. (2) din OUG 46/2022, CEISD pierde total dreptul de a interveni la tranzacții sub 5 milioane de euro, chiar dacă acestea vizează startup-uri de apărare, securitate cibernetică, presă sau infrastructură critică. Mai grav, cumularea rigidă a pragului de 5 milioane de euro cu condiția de „minim 10% din drepturile de vot ale unei companii” creează breșe pentru achizițiile directe de active (asset deals), investițiile fragmentate sau pachetele sub 10% care oferă drept de veto ori acces la date sensibile.",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Eliminarea filtrului de securitate națională pentru investiții străine sub 5 milioane de euro sau sub 10% din voturi",
+      "verdictShort": "Deși ridică aparent pragul de avizare a investițiilor străine la 5 milioane de euro (prag deja introdus în vigoare prin OUG nr. 17/2026), proiectul desființează complet mecanismul de siguranță al statului pentru tranzacțiile riscante sub acest prag și creează portițe majore prin condiția cumulativă de 10% din drepturile de vot.",
+      "initiatorClaim": "Inițiatorii susțin că pragul actual de 2 milioane de euro generează birocrație excesivă, supraîncarcă autoritățile și alungă investitorii străini, iar majorarea la 5 milioane de euro, introducerea pragului de 10% din drepturile de vot și abrogarea examinării sub prag ar alinia România la standardele europene.",
+      "realityCheck": "În realitate, pragul de 5 milioane de euro este deja în vigoare din martie 2026 (prin OUG nr. 17/2026), astfel că efectele reale noi ale legii sunt două reduceri drastice ale controlului de securitate națională: (1) abrogarea art. 3 alin. (2) lasă Comisia pentru examinarea investițiilor străine directe (CEISD) fără bază legală să examineze preluări ostile sub 5 milioane de euro, oricât de sensibile ar fi (ex. startup-uri de apărare, securitate cibernetică sau AI); (2) condiția cumulativă de minim 10% din drepturile de vot, redactată defectuos, scoate din sfera obligației pachete mari sub 10% cu drepturi de veto și creează ambiguitate gravă pentru achizițiile de active și investițiile noi (greenfield).",
       "affectedGroups": [
         "IMM & Antreprenori",
         "IT & AI",
-        "Proprietari & Imobiliare",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 2 abrogă integral art. 3 alin. (2) din OUG 46/2022, eliminând mecanismul de salvgardare („call-in”) prin care CEISD poate bloca investiții sub pragul valoric atunci când acestea prezintă riscuri concrete la adresa securității sau ordinii publice, facilitând și eludarea legii prin fragmentarea tranzacțiilor.",
-        "Art. I pct. 1 modifică art. 3 alin. (1) lit. b) introducând cumulativ pragul de 5.000.000 de euro și condiția „nu mai puțin de 10% din drepturile de vot ale unei companii”, ceea ce scoate de sub control investiții de zeci de milioane de euro în participații sub 10% cu drepturi speciale/veto și generează incertitudine juridică pentru investițiile noi (greenfield) sau achizițiile directe de active fără cumpărare de acțiuni.",
-        "Comparația cu Germania, Franța și Spania din Expunerea de Motive este înșelătoare: în aceste state, pragul de 10% din drepturile de vot în sectoare sensibile se aplică independent de valoarea în euro, tocmai pentru a putea filtra preluările de firme tehnologice sau strategice cu evaluări mici.",
-        "Proiectul nu corelează abrogarea alin. (2) și noul prag cu celelalte dispoziții ale OUG 46/2022 și folosește noțiunea juridic neconsacrată de „companie” în locul termenilor legali de „întreprindere” sau „societate”."
+        "Pragul de 5.000.000 de euro propus la art. I pct. 1 (modificarea art. 3 alin. (1) lit. b) din OUG nr. 46/2022) este deja în vigoare din 13 martie 2026, fiind introdus prin OUG nr. 17/2026; proiectul din 2025 rămâne astfel parțial fără obiect în privința justificării sale principale.",
+        "Art. I pct. 2 abrogă integral art. 3 alin. (2) din OUG nr. 46/2022, eliminând posibilitatea CEISD de a examina excepțional investițiile sub 5 milioane de euro care prezintă riscuri la adresa securității naționale, ordinii publice sau a proiectelor și programelor de interes pentru Uniunea Europeană.",
+        "Introducerea la art. 3 alin. (1) lit. b) a condiției cumulative „dar nu mai puțin de 10% din drepturile de vot ale unei companii” este necorelată cu restul articolului: nu clarifică regimul investițiilor noi (greenfield) sau al achizițiilor directe de active (fără drepturi de vot), permite ocolirea filtrului prin pachete sub 10% cu drepturi speciale de guvernanță și nu se corelează cu alin. (2^2) privind fracționarea tranzacțiilor și alin. (3) privind controlul efectiv."
       ],
-      "blindSpotsCaught": "Cea mai subtilă capcană stă în interacțiunea dintre cumularea „peste 5 mil. EUR + minim 10% drepturi de vot” și abrogarea alin. (2): o entitate străină poate cumpăra 100% din activele strategice ale unei firme (terenuri, brevete, infrastructură) prin contract de vânzare de active — fără a dobândi „drepturi de vot ale unei companii” — sau poate cumpăra un startup de drone/AI cu 4,9 milioane de euro, fără ca CEISD să mai aibă temei legal de verificare. În plus, inițiatorii nu cuantifică diminuarea veniturilor din taxa de examinare CEISD și nu prevăd corelarea trimiterilor interne din OUG 46/2022.",
-      "constitutionalityNote": "Proiectul ridică probleme serioase pe art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii), deoarece termenul „companie” nu este definit în OUG 46/2022, nu clarifică regimul investițiilor greenfield și al achizițiilor de active în raport cu condiția de „10% din drepturile de vot” și lasă necorelate celelalte trimiteri din actul de bază. Vizând securitatea națională, adoptarea fără avizul CSAT (art. 119 din Constituție) și fără o evaluare clară a impactului asupra veniturilor publice (art. 111 alin. 1) reprezintă vulnerabilități procedurale suplimentare.",
-      "euLawNote": "Directiva (UE) 2018/958 (profesii reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente, iar relaxarea condițiilor de investiții nu contravine art. 63 TFUE (libera circulație a capitalurilor). Totuși, față de Regulamentul (UE) 2019/452, eliminarea completă a art. 3 alin. (2) slăbește capacitatea României de a da curs observațiilor Comisiei Europene sau ale altor state membre (art. 6–8) pentru tranzacții sensibile sub 5 milioane de euro și merge împotriva direcției europene de consolidare a mecanismelor de screening ISD.",
+      "blindSpotsCaught": "Trei capcane majore scapă la o lectură superficială: (1) OUG nr. 17/2026 a actualizat deja pragul la 5 milioane de euro, păstrând însă plasa de siguranță de la art. 3 alin. (2) pe care acest proiect vrea să o șteargă complet; (2) Expunerea de motive citează înșelător modelele din Germania, Franța și Spania — în aceste state pragul de 10% în sectoare strategice se aplică fără un minim valoric cumulativ de 5 milioane de euro, deci preluarea unui startup de apărare de 1 milion de euro este verificată acolo, dar ar scăpa complet în România; (3) formularea „a căror valoare depășește 5.000.000 de euro [...], dar nu mai puțin de 10% din drepturile de vot ale unei companii” amestecă impropriu valoarea cu voturile și ignoră investițiile fără achiziție de participații.",
+      "constitutionalityNote": "Proiectul ridică probleme serioase față de art. 1 alin. (5) din Constituție (cerințele de claritate, precizie și previzibilitate a legii): legarea unei condiții procentuale din drepturile de vot ale unei „companii” (termen străin OUG nr. 46/2022, care utilizează noțiunea de „întreprindere”) de un criteriu valoric generează incertitudine privind aplicarea la investițiile noi (greenfield), achizițiile de active și deținerile indirecte sau concertate, fiind necorelată cu alin. (2^2) și alin. (3). În plus, abrogarea totală a art. 3 alin. (2) intră în tensiune cu obligația statului prevăzută la art. 135 alin. (2) lit. b) din Constituție privind protejarea intereselor naționale în activitatea economică.",
+      "euLawNote": "Abrogarea art. 3 alin. (2) afectează eficacitatea aplicării Regulamentului (UE) 2019/452 privind examinarea investițiilor străine directe în Uniune: textul în vigoare permite intervenția CEISD sub prag inclusiv atunci când investițiile afectează proiecte sau programe de interes pentru Uniunea Europeană (art. 8 din Regulament) ori fac obiectul cooperării și avizelor Comisiei Europene și ale altor state membre (art. 7–8). Eliminarea acestei competențe goleşte de efect mecanismul de cooperare pentru tranzacții sub 5 milioane de euro sau sub 10% din voturi. Directiva (UE) 2018/958 (profesii reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente, deoarece actul nu reglementează profesii și nu instituie norme tehnice pentru servicii ale societății informaționale.",
       "senatForm": {
-        "articleRef": "Art. I pct. 1 și pct. 2 (art. 3 OUG 46/2022)",
-        "proposalContent": "Eliminarea pct. 2 (menținerea art. 3 alin. 2). La pct. 1, lit. b): pragul de 5.000.000 euro sau, alternativ, cel puțin 10% din drepturile de vot ori controlul efectiv în domenii strategice, cu aplicare expresă și la achizițiile de active și investițiile noi (greenfield), înlocuind termenul „companie” cu „întreprindere”.",
-        "argumentation": "Abrogarea alin. (2) lasă statul fără control la preluări ostile sub 5 mil. EUR (startup-uri tech/apărare, media, tranzacții fragmentate). Cumularea cu 10% drepturi de vot exclude achizițiile de active și participațiile minoritare cu veto. În Germania și Franța, pragul de 10% se aplică indiferent de sumă în sectoare critice.",
-        "otherComments": "Debirocratizarea pentru tranzacții benigne este utilă, dar ar trebui realizată prin separarea sectoarelor critice de cele necritice și ajustarea taxei de examinare, nu prin eliminarea clauzei de siguranță CEISD. Este necesară și corelarea celorlalte articole din OUG 46/2022 care fac trimitere la art. 3 alin. (2)."
+        "articleRef": "Art. I pct. 1 și pct. 2 (art. 3 OUG nr. 46/2022)",
+        "proposalContent": "Se propune respingerea proiectului ori: (1) eliminarea pct. 2, păstrând art. 3 alin. (2) din OUG 46/2022 privind examinarea excepțională sub prag; (2) reformularea pct. 1 astfel încât criteriul de 10% din drepturile de vot să fie alternativ, nu cumulativ cu pragul de 5 mil. EUR, și să nu afecteze investițiile noi sau achizițiile de active.",
+        "argumentation": "Pragul de 5 mil. EUR există deja din OUG 17/2026. Abrogarea alin. (2) lasă statul fără pârghie împotriva preluărilor ostile sub 5 mil. EUR (startup-uri de apărare, cyber, AI) și slăbește aplicarea Regulamentului (UE) 2019/452. Pragul cumulativ de 10% încalcă art. 1 alin. (5) din Constituție și lasă neacoperite investițiile noi și achizițiile de active.",
+        "otherComments": "În loc de abrogarea alin. (2), pentru a evita arbitrariul se poate obliga CEISD să motiveze expres și rapid declanșarea examinării sub prag, corelând textul cu OUG 17/2026 și art. 3 alin. (2^2) și (3). În Germania sau Franța, pragul de 10% în sectoare strategice se aplică fără un minim cumulativ de 5 mil. EUR, spre deosebire de acest proiect."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 147551,
+      "durationMs": 52039,
       "sourceEndMarker": "SF-0EFA71EB",
-      "riskScore": 6,
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Investițiile străine: prag urcat la 5 milioane € și fără verificări de securitate din oficiu",
-      "verdictShort": "Ridicarea pragului la 5 milioane € e o relaxare rezonabilă pentru startup-uri și IMM-uri. Proiectul taie însă și plasa de siguranță: statul pierde dreptul de a verifica din oficiu investițiile mici din sectoare critice, iar noul criteriu de 10% e scris confuz și poate lăsa pe dinafară tranzacții mari care nu trec prin preluare de acțiuni.",
-      "initiatorClaim": "Inițiatorii spun că pragul de 2 milioane € e prea mic, încarcă inutil Comisia pentru examinarea investițiilor străine directe (CEISD) și descurajează investitorii, mai ales pe cei cu proiecte noi. Ei propun un prag de 5 milioane €, un criteriu suplimentar de 10% din drepturile de vot și eliminarea examinării pe care o numesc «discreționară» sub prag.",
-      "realityCheck": "Proiectul are doar două puncte: urcă pragul de la art. 3 alin. (1) lit. b) la 5 milioane €, cu adaosul «dar nu mai puțin de 10% din drepturile de vot ale unei companii», și abrogă alin. (2), care permitea CEISD să examineze investițiile sub prag cu impact asupra securității sau ordinii publice. Dacă citim criteriul ca fiind cumulativ, cum spune expunerea, pot ieși de sub control și investiții de zeci de milioane care nu presupun dobândirea a 10% din voturi: achiziții de active, concesiuni, extinderi de capacitate, pachete minoritare cu drepturi speciale. În același timp, statul nu mai are nicio pârghie din oficiu pentru investițiile mici din apărare, energie sau infrastructură critică, iar proiectul nu spune nimic despre dosarele aflate deja la CEISD.",
+      "plainTitle": "Mai puține investiții străine verificate pentru riscuri de securitate: pragul de 10% din voturi și dispariția controlului pentru tranzacțiile mici",
+      "verdictShort": "Principalul argument al proiectului, ridicarea pragului de la 2 la 5 milioane de euro, nu mai are obiect: pragul de 5 milioane e deja în vigoare din martie 2026 (OUG 17/2026). Ce rămâne are efect real: un criteriu de 10% din voturi formulat ambiguu și eliminarea puterii statului de a verifica investiții mici, dar periculoase.",
+      "initiatorClaim": "Inițiatorii spun că pragul de 2 milioane de euro e prea mic, aglomerează CEISD și descurajează investitorii. Propun pragul de 5 milioane, un criteriu suplimentar de minimum 10% din drepturile de vot și eliminarea examinării „discreționare” a investițiilor sub prag.",
+      "realityCheck": "Legea în vigoare (art. 3 alin. (1) lit. b), modificat prin OUG 17/2026) prevede deja pragul de 5.000.000 de euro, iar alin. (2) se referă tot la investițiile sub 5 milioane, nu sub 2 milioane, cum afirmă expunerea de motive. Efectul real are două părți. Prima este adăugarea condiției „dar nu mai puțin de 10% din drepturile de vot”, care pune în aceeași frază euro și procente și ar putea scoate din control investițiile noi (greenfield) și achizițiile de active, unde nu există drepturi de vot. A doua este abrogarea alin. (2): statul pierde posibilitatea de a examina investiții sub prag care afectează securitatea națională, ordinea publică sau proiecte de interes pentru UE.",
       "affectedGroups": [
         "IMM & Antreprenori",
+        "Proprietari & Imobiliare",
         "IT & AI",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 1: formula «depășește pragul de 5.000.000 de euro […] dar nu mai puțin de 10% din drepturile de vot ale unei companii» leagă o sumă de un procent printr-un «dar» ambiguu. Textul nu spune clar că sunt condiții cumulative, nici dacă 10% înseamnă pachetul dobândit prin tranzacție sau deținerea totală după tranzacție, nici despre ce companie e vorba.",
-        "Art. I pct. 1: investițiile care nu se fac prin preluare de acțiuni (achiziții de active, concesiuni, extinderea unei capacități existente) nu au «drepturi de vot» de măsurat. Ele pot ieși din sfera controlului indiferent de valoare. La fel și un pachet de 9% cu drept de veto sau loc în consiliu, deși Regulamentul 2019/452 vizează tocmai participarea efectivă la conducere sau control.",
-        "Art. I pct. 2: abrogarea alin. (2) elimină singura cale prin care CEISD putea examina din oficiu investițiile sub prag din domenii sensibile. Textul propus nu are nici o regulă anti-fragmentare, așa că o achiziție poate fi împărțită în tranșe sub 5 milioane € sau sub 10% fără nicio verificare.",
-        "Partea utilă: startup-urile și IMM-urile care atrag runde de finanțare între 2 și 5 milioane € de la fonduri din afara UE scapă de autorizare și de întârzieri, iar CEISD își poate concentra resursele pe dosarele mari.",
-        "Expunerea de motive folosește comparațiile europene selectiv. Germania, dată ca model, nu are prag în euro: folosește praguri procentuale pe sectoare (10/20/25%) și poate examina tranzacții din oficiu. Exemplele susțin praguri procentuale pe sectoare sensibile, nu eliminarea plasei de siguranță.",
-        "Proiectul nu are articol tranzitoriu. Nu se spune ce se întâmplă cu cererile de autorizare deja depuse pentru investiții între 2 și 5 milioane € sau sub 10% din voturi."
+        "Art. I pct. 1 reia pragul de 5.000.000 de euro, care e deja în vigoare din 13.03.2026 (OUG 17/2026). Partea centrală a expunerii de motive se bazează pe o stare a legii depășită.",
+        "Art. I pct. 1: sintagma „dar nu mai puțin de 10% din drepturile de vot ale unei companii” e lipită de pragul valoric. Nu reiese dacă e o condiție cumulativă sau alternativă și nici cum se aplică investițiilor noi sau achizițiilor de active, care nu conferă drepturi de vot.",
+        "Criteriul de 10% permite ocolirea controlului prin pachete de 9,9% sau prin tranzacții structurate în afara acțiunilor. Totuși, art. 3 alin. (3) (autorizarea la schimbarea controlului în domeniile CSAT) rămâne în vigoare și limitează parțial golul.",
+        "Art. I pct. 2 abrogă alin. (2), adică examinarea din oficiu a investițiilor sub prag cu impact asupra securității naționale, ordinii publice sau programelor de interes UE. Exemple de astfel de investiții: terenuri lângă obiective militare, start-up-uri cu tehnologii critice, infrastructură digitală de mici dimensiuni.",
+        "Alin. (2^2), care cumulează operațiunile succesive până la 5 milioane, rămâne neatins și coerent cu pragul. Nu are însă corespondent pentru criteriul de 10%, deci fragmentarea pachetelor de vot sub 10% nu e acoperită.",
+        "Pentru IMM-uri și investitori, efectul de debirocratizare e minor, pentru că pragul a fost deja ridicat. Proiectul nu are fișă financiară, iar impactul bugetar e neglijabil."
       ],
-      "blindSpotsCaught": "Art. 7 din Regulamentul (UE) 2019/452 permite Comisiei și altor state membre să facă observații și asupra investițiilor neexaminate, până la 15 luni după finalizare, iar statul vizat trebuie să țină seama de ele. Fără alin. (2), România ar rămâne fără temei legal să acționeze pe un astfel de avertisment pentru o investiție sub prag. În plus, revizuirea regulamentului negociată la nivel UE merge spre obligarea statelor să poată examina din oficiu tranzacțiile nenotificate din sectoarele critice, deci abrogarea ar putea trebui anulată curând. Problema reală invocată de inițiatori, domeniile definite prea generic, nu e atinsă deloc de proiect.",
-      "constitutionalityNote": "Nu apare o neconstituționalitate evidentă. Parlamentul poate modifica prin lege ordinară o ordonanță de urgență aprobată (art. 115, art. 76 alin. (2)), iar nivelul pragului ține de oportunitate politică. Relaxarea servește libertății economice (art. 45). Punctul slab e art. 1 alin. (5): formula «dar nu mai puțin de 10%» nu îi permite investitorului să știe sigur dacă are obligația de a cere autorizarea, iar nerespectarea acestei obligații e sancționată de ordonanță. Eliminarea oricărei examinări din oficiu în sectoarele critice e greu de împăcat cu obligația statului de a proteja interesele naționale în activitatea economică (art. 135 alin. (2) lit. b)). Aceasta rămâne însă o problemă de echilibru, nu un viciu sigur de neconstituționalitate.",
-      "euLawNote": "Directiva 2018/958 (testul de proporționalitate pentru profesiile reglementate) nu se aplică. Nici TRIS 2015/1535 nu se aplică: proiectul nu conține reguli tehnice și nu privește servicii ale societății informaționale. Relevant e Regulamentul (UE) 2019/452, care lasă statelor libertatea de a stabili pragurile, dar cere ca regulile de declanșare a examinării să fie transparente (art. 3). Formularea ambiguă a criteriului de 10% contravine acestei cerințe. Regulamentul cere și ca statul să poată da curs observațiilor Comisiei și ale altor state (art. 6–7), punct slăbit de abrogarea alin. (2). Din perspectiva libertății capitalurilor (art. 63 TFUE), relaxarea e compatibilă, dar proiectul nu face distincția între investitorii din UE și cei din afara UE, pe care expunerea o laudă în exemplul Spaniei.",
+      "blindSpotsCaught": "Expunerea de motive combate o normă care nu mai există: alin. (2) vizează acum investițiile sub 5 milioane, nu sub 2 milioane. Abrogarea lui elimină și criteriul „proiecte sau programe de interes pentru Uniunea Europeană”, care face legătura cu art. 8 din Regulamentul (UE) 2019/452. Dacă Comisia sau alt stat membru transmite comentarii despre o investiție sub prag (art. 7 din Regulament), România nu ar mai avea temei legal să o examineze.",
+      "constitutionalityNote": "Proiectul nu ridică probleme constituționale de competență: Parlamentul poate modifica o OUG aprobată prin lege, iar legea e ordinară. Formularea „dar nu mai puțin de 10% din drepturile de vot” este însă problematică din perspectiva cerinței de claritate și previzibilitate (art. 1 alin. (5)), pentru că amestecă un prag monetar cu unul procentual fără să precizeze relația dintre ele. Eliminarea totală a examinării sub prag poate fi pusă în discuție față de obligația statului de a proteja interesele naționale în activitatea economică (art. 135 alin. (2) lit. a) și de a asigura securitatea națională. Totuși, alegerea instrumentelor ține de marja de apreciere a legiuitorului.",
+      "euLawNote": "Regulamentul (UE) 2019/452 nu impune un prag anume și lasă statelor libertatea de a configura examinarea. Criteriile din art. 4 trebuie totuși aplicate efectiv, iar mecanismul de cooperare (art. 6-8) presupune ca statul să poată reacționa la comentariile Comisiei și ale altor state, inclusiv pentru investiții neexaminate inițial. Abrogarea alin. (2) slăbește această capacitate și merge în sens opus tendinței europene de consolidare a examinării ISD. Directiva (UE) 2018/958 nu se aplică, pentru că nu sunt reglementate profesii. Directiva TRIS 2015/1535 nu se aplică, pentru că nu sunt reglementări tehnice sau servicii ale societății informaționale. Pe piața unică, investițiile intra-UE rămân sub incidența OUG, iar proiectul nu schimbă această opțiune.",
       "senatForm": {
-        "articleRef": "Art. I pct. 1 și 2 (art. 3 din OUG 46/2022)",
-        "proposalContent": "Pct. 1: «b) a căror valoare depășește 5.000.000 euro și prin care investitorul dobândește, direct sau indirect, cel puțin 10% din drepturile de vot, controlul unei societăți sau active strategice.» Pct. 2 se elimină: alin. (2) rămâne, limitat la sectoarele critice din ordonanță, cu termen de 15 luni de la finalizarea investiției.",
-        "argumentation": "«Dar nu mai puțin de 10%» amestecă euro cu procente și nu spune dacă e condiție cumulativă ori dacă privește tranzacția sau deținerea totală. Fără alin. (2), un pachet de 9% sau o achiziție de active într-o firmă strategică scapă oricărui control, iar România n-ar avea temei să reacționeze la observațiile Comisiei (art. 7 Reg. 2019/452).",
-        "otherComments": "Lipsește o normă tranzitorie pentru dosarele aflate la CEISD și o regulă anti-fragmentare (tranșe sub 5 mil. € sau sub 10%). Exemplele din expunere nu susțin abrogarea: Germania, citată ca model, nu are prag în euro și păstrează examinarea din oficiu. Problema invocată, domeniile prea generice, nu e atinsă de proiect."
+        "articleRef": "Art. I pct. 1 și 2 (OUG 46/2022, art. 3)",
+        "proposalContent": "Se elimină pct. 2, alin. (2) rămânând în vigoare. La pct. 1, lit. b) devine: „b) a căror valoare depășește pragul de 5.000.000 de euro [...], iar, în cazul achiziției de acțiuni sau părți sociale, conferă cel puțin 10% din drepturile de vot.” Investițiile noi și achizițiile de active rămân supuse doar pragului valoric.",
+        "argumentation": "Pragul de 5 mil. euro e deja în vigoare (OUG 17/2026). Formula „dar nu mai puțin de 10%” amestecă euro cu procente și ar scoate din control investițiile noi și achizițiile de active, fără drepturi de vot. Abrogarea alin. (2) ar lăsa statul fără instrument pentru investiții mici dar riscante (ex. terenuri lângă unități militare).",
+        "otherComments": "Pentru previzibilitate, alin. (2) poate fi păstrat cu garanții: termen-limită pentru declanșarea examinării din oficiu după finalizarea tranzacției și criterii publicate de CEISD. Mecanismul de cooperare din Regulamentul (UE) 2019/452 presupune ca statul să poată reacționa la comentariile Comisiei și ale altor state membre."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 70389,
+      "durationMs": 71929,
       "sourceEndMarker": "SF-0EFA71EB",
-      "riskScore": 7,
-      "riskLevel": "red",
-      "plainTitle": "Mai puține investiții verificate, inclusiv în sectoare sensibile",
-      "verdictShort": "Reducerea birocrației pentru investiții este utilă, dar proiectul elimină și posibilitatea examinării unor operațiuni mici care prezintă riscuri pentru securitate. Riscul principal rezultă din cumularea pragurilor cu abrogarea acestei plase de siguranță.",
-      "initiatorClaim": "Inițiatorii urmăresc atragerea investițiilor și reducerea încărcării administrative prin majorarea pragului de examinare de la 2 la 5 milioane de euro și introducerea unui prag de 10% din drepturile de vot. Ei susțin că eliminarea examinării sub prag sporește predictibilitatea și limitează discreția autorităților.",
-      "realityCheck": "Art. I pct. 1 introduce un prag strict mai mare de 5 milioane de euro și, potrivit intenției declarate, condiția cumulativă de minimum 10% din drepturile de vot, păstrând celelalte condiții ale articolului modificat. Pct. 2 abrogă mecanismul de examinare sub prag pentru motive de securitate sau ordine publică: efectul nu se limitează la investițiile sub 2 milioane invocate în motivare, ci afectează și operațiunile dintre vechiul și noul prag. Formula care leagă valoarea investiției de procentul drepturilor de vot este ambiguă și poate exclude inclusiv investiții mari cu participații sub 10%.",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Mai puține investiții verificate, inclusiv când pot exista riscuri de securitate",
+      "verdictShort": "Reducerea birocrației este justificabilă, dar proiectul elimină și posibilitatea verificării unor investiții mici cu risc strategic. Condiția privind 10% din voturi este insuficient definită și nu este corelată cu celelalte obligații de autorizare.",
+      "initiatorClaim": "Inițiatorii urmăresc atragerea investițiilor și reducerea numărului de autorizări prin creșterea pragului de la 2 la 5 milioane de euro, introducerea unei participații minime de 10% și eliminarea examinării sub prag. Ei susțin că astfel resursele autorităților vor fi concentrate asupra investițiilor importante.",
+      "realityCheck": "În forma consolidată furnizată, pragul este deja de 5 milioane de euro, în urma modificării din martie 2026: proiectul nu îl mai majorează. Efectele suplimentare sunt introducerea condiției privind voturile și abrogarea mecanismului de examinare sub prag pentru riscuri concrete, inclusiv asupra proiectelor UE. Obligațiile privind schimbarea controlului și cumularea operațiunilor rămân însă în text, astfel încât nu se poate afirma că orice investiție sub prag sau sub 10% devine automat exceptată.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "IT & AI",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 1: formularea «depășește pragul de 5.000.000» exclude și investițiile de exact 5 milioane de euro de la această condiție de examinare obligatorie.",
-        "Art. I pct. 2: abrogarea integrală a art. 3 alin. (2) elimină temeiul special de examinare sub prag bazat pe riscuri pentru securitate sau ordine publică. Valoarea mică a unei investiții nu dovedește absența acestor riscuri.",
-        "Art. I pct. 1: nu se precizează dacă procentul de 10% privește drepturile dobândite prin operațiune sau participația totală rezultată, nici modul de tratare a deținerilor indirecte. Aplicarea criteriului investițiilor noi necesită, de asemenea, clarificare.",
-        "Proiectul poate reduce costurile administrative și întârzierile pentru investitori, inclusiv IMM-uri, și volumul de lucru al autorităților. Nu introduce taxe, monopoluri sau sancțiuni noi; economiile și efectele bugetare nu sunt însă cuantificate în materialele furnizate.",
-        "Textul furnizat nu conține dispoziții tranzitorii pentru cererile aflate în examinare. Mențiunea solicitării punctului de vedere al Guvernului și a fișei financiare nu dovedește primirea sau conținutul acestora."
+        "Art. I pct. 1: pragul propus, de peste 5 milioane de euro, coincide cu pragul din forma consolidată furnizată. Majorarea prezentată în expunerea de motive descrie situația anterioară modificării din 2026.",
+        "Art. I pct. 1: formularea «dar nu mai puțin de 10% din drepturile de vot» nu precizează dacă procentul privește voturile dobândite prin operațiune sau participația totală rezultată, nici cum se calculează deținerile indirecte. Aplicarea la achiziții de active și la anumite investiții noi rămâne neclară.",
+        "Art. I pct. 2: abrogarea alin. (2) elimină posibilitatea expresă de examinare sub prag pentru investiții care pot afecta securitatea, ordinea publică sau proiecte și programe de interes pentru UE. Valoarea redusă nu exclude asemenea riscuri.",
+        "Art. 3 alin. (1), rămas nemodificat în partea introductivă, include și investițiile din UE și investițiile noi. Efectele proiectului depășesc investițiile provenite din afara Uniunii.",
+        "Art. 3 alin. (2^2) și (3) rămân în vigoare: există în continuare cumularea operațiunilor interdependente și obligații privind schimbarea controlului efectiv. Proiectul trebuie corelat cu acestea; nu elimină integral mecanismele împotriva fragmentării tranzacțiilor.",
+        "Pentru investițiile care ies efectiv din procedură pot scădea costurile administrative și întârzierile, inclusiv pentru IMM-uri. Documentele furnizate nu cuantifică economiile administrative sau efectul bugetar net și nu conțin reguli tranzitorii pentru cererile deja depuse."
       ],
-      "blindSpotsCaught": "Expunerea prezintă abrogarea ca eliminare a examinării investițiilor sub 2 milioane de euro, deși proiectul majorează simultan pragul la 5 milioane. În plus, pragul de 10% nu reprezintă în sine un test al riscului: o participație mai mică poate conferi influență relevantă în anumite circumstanțe. Textul nu adaugă garanții pentru aceste situații, iar motivarea nu demonstrează că mecanismele rămase acoperă golul creat.",
-      "constitutionalityNote": "Principala vulnerabilitate privește art. 1 alin. (5) din Constituție: expresia «a căror valoare [...] dar nu mai puțin de 10% din drepturile de vot» combină indicatori diferiți fără a defini suficient condiția juridică. Art. 23 alin. (12) privește legalitatea pedepselor și nu constituie aici un temei direct, proiectul neintroducând pedepse; eventualele consecințe sancționatorii ale obligației de autorizare reclamă însă delimitarea clară a acesteia. Art. 135 alin. (2) lit. a) și b) impune concilierea libertății comerțului și concurenței cu protejarea intereselor naționale în activitatea economică. Legiuitorul poate modifica pragurile, iar eliminarea examinării sub prag nu dovedește singură neconstituționalitatea, dar necesită o justificare solidă privind riscurile rămase neacoperite.",
-      "euLawNote": "Regulamentul (UE) 2019/452 nu impune tuturor statelor un prag valoric unic și nu face automat ilegal pragul de 5 milioane de euro sau criteriul de 10%. Mecanismul național trebuie însă corelat cu cerințele regulamentului, inclusiv prevenirea eludării, iar eliminarea unui temei intern de examinare nu înlătură mecanismele europene de cooperare. Directiva (UE) 2018/958 privește proporționalitatea reglementării profesiilor și nu este aplicabilă direct acestei modificări. Directiva TRIS 2015/1535 nu devine aplicabilă doar fiindcă investițiile pot viza IT sau AI: textul furnizat nu stabilește o regulă tehnică ori o regulă specifică serviciilor societății informaționale care să indice obligația notificării. Reducerea examinării poate facilita accesul pe piață, fără ca acest beneficiu să demonstreze că eliminarea controlului bazat pe risc este necesară.",
+      "blindSpotsCaught": "Comparația relevantă este cu legea consolidată furnizată, în care pragul a fost deja ridicat la 5 milioane de euro. În plus, alin. (2) nu obligă la examinarea tuturor investițiilor mici: permite examinarea celor cu riscuri specifice. Eliminarea lui sacrifică această supapă, iar păstrarea alin. (3) împiedică prezentarea proiectului drept o exceptare generală și sigură pentru toate tranzacțiile sub prag.",
+      "constitutionalityNote": "Principalul risc privește art. 1 alin. (5) din Constituție: condiția privind voturile și raportul ei cu obligațiile păstrate trebuie să fie clare și previzibile, mai ales într-un regim a cărui încălcare poate atrage sancțiuni. Art. 23 alin. (12) privește legalitatea pedepsei penale; proiectul nu introduce infracțiuni sau pedepse penale. Protejarea intereselor naționale în activitatea economică, potrivit art. 135 alin. (2) lit. b), impune justificarea reducerii controlului, dar nu face automat neconstituțională alegerea unui prag. Nu rezultă din documentele furnizate o neconstituționalitate certă sau un monopol nou.",
+      "euLawNote": "Regulamentul (UE) 2019/452 permite statelor membre să instituie mecanisme de examinare și nu impune el însuși un prag valoric general sau verificarea fiecărei investiții: abrogarea propusă nu dovedește singură o încălcare a regulamentului. Totuși, riscurile relevante pot exista indiferent de valoare, iar cooperarea europeană poate privi și investiții neexaminate național. Directiva (UE) 2018/958 privește reglementarea profesiilor și nu impune aici testul său specific. Directiva TRIS 2015/1535 nu devine aplicabilă doar fiindcă investițiile pot viza IT sau AI: textul nu stabilește reguli tehnice pentru produse ori reguli specifice serviciilor societății informaționale. Reducerea sarcinilor poate facilita investițiile și concurența, dar criteriile și eventualele diferențe de tratament trebuie să respecte libertățile pieței unice și proporționalitatea.",
       "senatForm": {
-        "articleRef": "Art. I, integral (pct. 1 și 2)",
-        "proposalContent": "Art. I – La art. 3 alin. (1) din Ordonanța de urgență a Guvernului nr. 46/2022, lit. b) va avea următorul cuprins: „b) a căror valoare depășește pragul de 5.000.000 de euro, calculat la cursul de schimb comunicat de Banca Națională a României valabil pentru ultima zi a exercițiului financiar din anul anterior realizării operațiunii.”",
-        "argumentation": "Majorarea pragului reduce sarcina administrativă. Menținerea alin. (2) permite examinarea investițiilor sub prag atunci când există riscuri pentru securitate sau ordine publică. Eliminarea criteriului de 10% evită ambiguitățile și excluderea unor operațiuni relevante numai din cauza procentului drepturilor de vot.",
-        "otherComments": "Se propune înlocuirea integrală a art. I; astfel, dispare și dispoziția de abrogare a alin. (2). Comisiile ar trebui să solicite date despre dosarele între 2 și 5 milioane de euro, cazurile examinate sub prag și economiile administrative estimate, precum și să clarifice regimul cererilor în curs."
+        "articleRef": "Art. I",
+        "proposalContent": "Se elimină art. I.",
+        "argumentation": "Pragul de 5 milioane euro există deja în forma consolidată furnizată. Criteriul privind 10% din voturi este neclar și necorelat cu schimbarea controlului. Abrogarea alin. (2) elimină examinarea unor investiții mici cu riscuri strategice. Întrucât art. I conține singurele măsuri ale proiectului, propunerea susține respingerea acestuia.",
+        "otherComments": "Analiza privește forma inițiatorului și textul consolidat furnizat, nu un eventual raport cu amendamente. Verificarea online nu a fost disponibilă. O variantă revizuită ar trebui să păstreze examinarea bazată pe risc și să clarifice calculul voturilor, corelările și tratamentul cererilor în curs."
       },
       "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 6.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-19T14:48:26.830Z",
+      "method": "whole-text-v1",
+      "textChars": 1639,
+      "form": "initiator",
+      "agyModel": "gemini-4-neon-high",
+      "scores": {
+        "agy": 6,
+        "claude": 6,
+        "codex": 7
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:19:19.024Z",
+      "reasons": [
+        "reluare"
+      ]
+    }
+  ]
 }

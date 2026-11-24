@@ -2,7 +2,7 @@
   "billId": "PL-x 190/2025",
   "slug": "plx-190-2025",
   "version": "senat",
-  "updatedAt": "2026-11-19T14:52:11.361Z",
+  "updatedAt": "2026-11-24T15:17:43.650Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -12,126 +12,165 @@
     "memoSupplied": 4508,
     "marker": "SF-832F1D59"
   },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-190-2025.json",
+    "form": "senat",
+    "textHash": "832f1d591657efb6",
+    "fetchedAt": "2026-11-20T07:44:39.397Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 6545,
+    "truncated": false,
+    "included": true,
+    "key": "98f6260db76be0c2"
+  },
   "consensus": {
-    "riskScore": 3.3,
+    "riskScore": 3.7,
     "riskLevel": "green",
-    "plainTitle": "Avansurile plătite de primării pot fi justificate până la plata finală, nu până la 31 decembrie",
-    "summaryTlDr": "Lege tehnică și în mare utilă. Unifică regulile pentru avansurile din bani publici locali și scoate presiunea artificială a datei de 31 decembrie pentru contractele pe mai mulți ani. Are însă scăpări reale: majorări calculate de la data avansului, fără normă tranzitorie și fără regulă pentru contractele reziliate.",
-    "initiatorClaim": "Inițiatorii vor să scape proiectele multianuale (infrastructură, școli, spitale, fonduri europene) de obligația de a recupera la sfârșit de an avansurile încă nejustificate. Vor și ca aceeași regulă să se aplice indiferent de sursa banilor.",
-    "realityCheck": "Articolul unic rescrie art. 54 alin. (9): avansurile nejustificate se recuperează la termenul plății finale din contract, nu la sfârșitul anului, oricare ar fi sursa banilor. Abrogă și alin. (9¹)-(9²), generalizând o formulă preluată din regimul proiectelor cu finanțare externă (memorandumuri, acorduri, ordine de finanțare). Odată cu termenul mai lung vine și partea dură: majorări de întârziere pentru orice avans recuperat, calculate de la data acordării lui, fără normă tranzitorie pentru contractele în curs. Termenul devine elastic, fiindcă se poate muta prin act adițional, iar riscul ca firma să intre în insolvență cu avansul public nejustificat crește odată cu durata contractului.",
+    "plainTitle": "Primăriile și instituțiile locale pot lăsa avansurile date firmelor nejustificate până la plata finală din contract, nu doar până la 31 decembrie",
+    "summaryTlDr": "Este o lege tehnică de execuție bugetară, utilă pentru proiectele care durează mai mulți ani. Extinde însă regula până acum rezervată fondurilor UE și la banii proprii ai bugetelor locale, fără o limită de timp sau o garanție obligatorie, ceea ce mărește puțin riscul ca avansurile să rămână blocate la contractori.",
+    "initiatorClaim": "Inițiatorii spun că obligația de a recupera la sfârșitul anului avansurile nejustificate blochează proiectele complexe (infrastructură, educație, sănătate) care durează mai mult de un an. Vor ca termenul de justificare să fie plata finală prevăzută în contract, oricare ar fi sursa de finanțare.",
+    "realityCheck": "Astăzi, art. 54 alin. (9) cere recuperarea avansurilor nejustificate până la sfârșitul anului. Excepția «până la plata finală» există deja, prin alin. (9^1) și (9^2), pentru fondurile externe nerambursabile, inclusiv PNRR, și pentru POS Mediu. Proiectul face din această excepție regula generală pentru orice sursă, deci și pentru veniturile proprii locale și transferurile de la bugetul de stat, și abrogă alin. (9^1) și (9^2). Efecte secundare: un avans de până la 30% (40% la PNRR) poate rămâne ani de zile la contractor pe contracte multianuale. Dispar și condiționarea prin hotărâre a Guvernului pentru POS Mediu și excluderea POS Transport. În schimb, majorările de întârziere devin aplicabile tuturor avansurilor nerecuperate la termen, nu doar celor din regimul de excepție.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct. 1 – art. 54 alin. (9); art. II nou",
-      "proposalContent": "La alin. (9) se adaugă la final: „Majorările sunt datorate de beneficiarul avansului. Dacă contractul încetează înainte de plata finală, sumele nejustificate se recuperează în 30 de zile de la încetare.” și un art. II: „Majorările prevăzute la art. 54 alin. (9) se aplică numai avansurilor acordate după intrarea în vigoare a prezentei legi.”",
-      "argumentation": "Dacă contractul e reziliat, termenul plății finale devine incert și avansul poate rămâne la firmă. Nu se spune cine plătește majorările: firma sau instituția care restituie bugetului. Fără normă tranzitorie, majorările de la data acordării ar lovi și avansuri date înainte de lege, din contracte care nu le prevedeau (art. 15 alin. 2 din Constituție).",
-      "otherComments": "Majorările curg de la acordarea avansului, nu de la termenul ratat: la 1%/lună (bugete locale), un avans ținut legal 2 ani și apoi nejustificat costă încă ~24%, sancțiune grea pentru IMM-uri. Comisia ar putea porni calculul de la termenul plății finale. Util și ca eventuala garanție de avans să rămână valabilă până la acest termen."
+      "articleRef": "Art. unic pct.1 (art.54 alin.9 L.273/2006)",
+      "proposalContent": "La alin. (9), după «conform contractelor încheiate» se introduce: «, dar nu mai târziu de 12 luni de la acordarea avansului, pentru avansurile finanțate exclusiv din venituri proprii ale bugetelor locale, cu excepția cazului în care avansul este acoperit integral de o garanție de returnare a avansului, constituită în condițiile legii».",
+      "argumentation": "Pentru fondurile UE, termenul până la plata finală există deja în alin. (9^1). Extinderea fără limită la banii proprii ai comunelor transformă avansul într-un credit fără dobândă pe ani pentru contractor, pe contracte multianuale. O limită de 12 luni sau o garanție de avans protejează bugetul local de insolvența contractorului fără să blocheze proiectele.",
+      "otherComments": "Corelați alin. (11), care trimite la excepțiile de la alin. (9), cu noua regulă generală. Clarificați termenul aplicabil când contractul nu fixează data plății finale sau este prelungit prin act adițional. Corelați cu regula similară din Legea nr. 500/2002 pentru bugetul de stat, ca aplicarea să fie unitară."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
       "modelId": "gemini-4-neon-high",
-      "durationMs": 72879,
+      "durationMs": 96223,
       "sourceEndMarker": "SF-832F1D59",
-      "riskScore": 4,
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Avansuri din bani locali fără termen anual de returnare",
-      "verdictShort": "O măsură practică pentru șantierele multianuale, dar care elimină filtrul anual de recuperare a avansurilor din bugetele locale pentru orice sursă de finanțare. Fără garanții legale împotriva prelungirii repetate a contractelor și fără norme tranzitorii, banii publici pot rămâne blocați ani de zile la firme private.",
-      "initiatorClaim": "Inițiatorii susțin că obligația actuală de justificare sau returnare a avansurilor până la finalul anului calendaristic blochează proiectele complexe și multianuale (infrastructură, educație, sănătate, cultură) și frânează absorbția fondurilor externe. Propunerea urmărește să permită justificarea avansurilor până la termenul de plată finală din contract, oferind flexibilitate și predictibilitate ordonatorilor de credite.",
-      "realityCheck": "Articolul unic modifică art. 54 alin. (9) din Legea nr. 273/2006 și abrogă alin. (9¹) și (9²), transformând excepția aplicabilă anterior fondurilor speciale sau externe în regulă generală pentru toate avansurile locale, indiferent de sursa de finanțare. Deși elimină blocajele artificiale de la final de an din contractele multianuale, extinderea asupra fondurilor pur locale (unde nu există controlul autorităților de management europene) permite păstrarea avansurilor nejustificate ani la rând prin acte adiționale de prelungire a termenului de plată finală. În plus, legea nu include nicio normă tranzitorie pentru contractele aflate deja în execuție, deși expunerea de motive vizează expres salvarea proiectelor în curs.",
+      "plainTitle": "Primăriile pot lăsa avansurile de 30% nejustificate peste anul bugetar, până la finalul contractului",
+      "verdictShort": "Un proiect cu o intenție practică legitimă pentru investițiile multianuale, dar care elimină filtrul disciplinei bugetare de la 31 decembrie fără a pune în loc garanții legale contra abuzurilor. Fără reguli de garanție, deducere etapizată și norme tranzitorii, riscă să faciliteze blocarea banilor locali la firme pe termen lung.",
+      "initiatorClaim": "Inițiatorii (29 de parlamentari PNL, PSD și UDMR) susțin că obligația actuală de a recupera la final de an avansurile nejustificate blochează proiectele multianuale locale (infrastructură, educație, sănătate) și că extinderea termenului până la plata finală pentru toate sursele de finanțare va crește eficiența și absorbția fondurilor.",
+      "realityCheck": "În prezent, art. 54 alin. (9¹) permite justificarea multianuală a avansurilor doar pentru proiectele cu fonduri europene/PNRR; proiectul abrogă alin. (9¹)–(9²) și extinde regula în alin. (9) la absolut toate sursele, inclusiv bugetele locale și programele naționale. Mecanismul deschide însă riscul «spartului bugetului» în decembrie prin acordarea de avansuri de 30% care nu mai trebuie returnate la final de an și pot rămâne la firme ani de zile, inclusiv prin prelungirea repetată a termenului de plată finală prin acte adiționale, fără garanții suplimentare în lege și fără dispoziții tranzitorii pentru contractele în curs.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. unic pct. 1 (modificarea art. 54 alin. (9) din Legea nr. 273/2006) elimină termenul anual de justificare/recuperare a avansurilor din fonduri publice locale pentru orice sursă de finanțare, mutând scadența la «termenul stabilit pentru plata finală conform contractelor încheiate».",
-        "Art. unic pct. 2 abrogă alin. (9¹) și (9²) ale art. 54, punând pe picior de egalitate avansurile din fonduri europene (supravegheate extern) cu cele din bugetele proprii locale, fără a introduce obligații suplimentare privind menținerea garanției de returnare a avansului sau limite la prelungirea contractelor.",
-        "Textul omite dispozițiile tranzitorii pentru contractele în derulare și menține calculul majorărilor de întârziere retroactiv de la data acordării avansului, ceea ce pe contracte de 3-5 ani poate genera penalități cumulative severe chiar și pentru resturi nejustificate parțial."
+        "Extinderea la bugetele locale fără garanții noi (art. unic pct. 1 / art. 54 alin. 9): regula justificării până la plata finală, valabilă acum doar pentru fonduri externe/PNRR (alin. 9¹), devine generală pentru orice sursă de finanțare, fără ca legea să impună o garanție irevocabilă de returnare valabilă pe toată durata (inclusiv prelungiri) sau deducerea etapizată a avansului.",
+        "Lipsa normelor tranzitorii pentru contractele în curs: deși expunerea de motive invocă urgența aplicării «înainte de închiderea anului bugetar 2025» pentru proiectele aflate în derulare, textul adoptat de Senat nu conține niciun articol tranzitoriu care să clarifice aplicarea la avansurile deja plătite și la contractele cu clauză de restituire la 31 decembrie.",
+        "Redundanță legislativă și necorelări tehnice (art. 54 alin. 9 vs. alin. 10 și Legea 369/2023): noul alin. (9) introduce majorări de întârziere calculate de la data acordării avansului, dublând alin. (10) care rămâne nemodificat; totodată, referirea strictă la avansurile «efectuate potrivit alin. (8)» (plafon 30%) și abrogarea alin. (9¹) creează ambiguitate pentru avansurile de până la 40% acordate prin derogare pentru PNRR (art. III din Legea nr. 369/2023)."
       ],
-      "blindSpotsCaught": "Portița actelor adiționale: scadența justificării avansului este legată exclusiv de «termenul stabilit pentru plata finală conform contractelor încheiate». Prin acte adiționale succesive de prelungire a duratei contractului, ordonatorii de credite locali și contractorii pot amâna legal recuperarea avansului pe termen lung, fără verificare anuală obligatorie și cu risc major de pierdere a banilor publici dacă firma intră între timp în insolvență.",
-      "constitutionalityNote": "Proiectul nu afectează direct drepturi fundamentale, însă prezintă vulnerabilități sub aspectul clarității și previzibilității legii (art. 1 alin. (5) din Constituție): lipsa unor norme tranzitorii creează incertitudine cu privire la aplicarea noii reguli avansurilor deja acordate în contractele în curs (deși expunerea de motive vizează exact acest scop), putând genera dispute legate de neretroactivitate (art. 15 alin. (2)) și constatări divergente în auditurile Curții de Conturi (art. 140).",
-      "euLawNote": "Directiva (UE) 2018/958 (profesiile reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente, proiectul reglementând exclusiv execuția bugetelor locale. Regula respectă explicit condițiile din acordurile și deciziile de finanțare europene și poate sprijini absorbția fondurilor UE, însă aplicarea ei extinsă asupra fondurilor locale fără garanții ferme sau prin modificarea ulterioară a contractelor în derulare poate ridica riscuri punctuale privind modificarea substanțială a contractelor publice (Directiva 2014/24/UE) ori avantaje financiare neconcurențiale (art. 107 TFUE).",
+      "blindSpotsCaught": "Trei chichițe ușor de ratat: 1) termenul de justificare depinde de «termenul stabilit pentru plata finală conform contractelor încheiate», ceea ce permite părților să amâne recuperarea avansului prin simple acte adiționale de prelungire a contractului, fără un plafon legal; 2) se creează o asimetrie față de bugetul de stat (Legea nr. 500/2002) și o necorelare cu normele secundare din HG nr. 264/2003; 3) deși expunerea de motive solicită procedură de urgență, proiectul a urmat procedura ordinară și nu include o evaluare a impactului asupra cash-flow-ului și deficitului bugetar.",
+      "constitutionalityNote": "Vulnerabilități moderate față de art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), coroborat cu Legea nr. 24/2000: lipsesc dispozițiile tranzitorii pentru contractele în derulare, se creează un paralelism legislativ privind penalitățile între noul alin. (9) și alin. (10) rămas în vigoare și apare o necorelare cu derogarea de 40% pentru PNRR (Legea nr. 369/2023). Întrucât amânarea recuperării avansurilor între ani afectează execuția bugetară de casă, este necesară solicitarea punctului de vedere și a informării Guvernului conform art. 111 alin. (1) și art. 138 din Constituție.",
+      "euLawNote": "Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și Directiva (UE) 2015/1535 (TRIS pentru reglementări tehnice/servicii digitale) nu sunt aplicabile. Indirect, există implicații privind concurența loială în achizițiile publice (Directiva 2014/24/UE) și disciplina bugetară (Pactul de Stabilitate / procedura de deficit excesiv): acordarea discreționară de avansuri de 30% din fonduri locale fără obligație de justificare anuală și fără garanții ferme poate avantaja selectiv firme subcapitalizate și poate amplifica cheltuielile bugetare de casă la final de an fără livrabile efective.",
       "senatForm": {
-        "articleRef": "Articol unic, pct. 1 (art. 54 alin. (9))",
-        "proposalContent": "La art. 54 alin. (9), după «contractelor încheiate» se adaugă: «cu condiția menținerii garanției de returnare a avansului pe toată durata contractului, inclusiv a prelungirilor, și a raportării anuale a stadiului justificării». Se introduce un articol tranzitoriu care clarifică aplicarea pentru contractele aflate în derulare.",
-        "argumentation": "Flexibilizarea ajută proiectele multianuale, dar eliminarea pragului anual fără garanție continuă și raportare anuală expune bugetele locale la riscul blocării banilor prin prelungiri succesive și al insolvenței firmelor. Norma tranzitorie este necesară (art. 1 alin. 5 Constituție) pentru claritatea aplicării la contractele în curs.",
-        "otherComments": "Recomandăm și clarificarea regimului majorărilor de întârziere în cazul restituirii voluntare a avansului neutilizat înainte de plata finală (de ex. reduceri de cantități), pentru a nu penaliza retroactiv pe mai mulți ani operatorii economici de bună-credință."
+        "articleRef": "Art. unic, pct. 1 (art. 54 alin. 9)",
+        "proposalContent": "La art. 54 alin. (9), să se condiționeze reportarea justificării avansurilor din fonduri naționale/locale de existența unei garanții de returnare valabile până la justificarea integrală (inclusiv la prelungiri) și de deducerea proporțională din plățile intermediare, plus corelarea cu alin. (10) și introducerea unei norme tranzitorii.",
+        "argumentation": "Eliminarea termenului de 31 decembrie pentru toate sursele de finanțare, fără garanții legale exprese și fără decontare etapizată, riscă să transforme avansurile de 30% din bugetele locale în credite fără dobândă pe ani de zile (prelungite prin acte adiționale), cu risc de nerecuperare la insolvența firmelor și de cheltuire abuzivă în decembrie.",
+        "otherComments": "Solicităm și: 1) normă tranzitorie clară pentru contractele în derulare; 2) eliminarea paralelismului dintre noul alin. (9) și alin. (10) (Legea 24/2000); 3) corelarea sintagmei «potrivit alin. (8)» cu derogările de tip 40% PNRR (Legea 369/2023); 4) solicitarea punctului de vedere și a impactului financiar de la Guvern (art. 111 Constituție)."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 187796,
+      "durationMs": 43051,
       "sourceEndMarker": "SF-832F1D59",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Avansurile plătite de primării pot fi justificate până la plata finală, nu până la 31 decembrie",
-      "verdictShort": "Lege tehnică și în mare utilă. Unifică regulile pentru avansurile din bani publici locali și scoate presiunea artificială a datei de 31 decembrie pentru contractele pe mai mulți ani. Are însă scăpări reale: majorări calculate de la data avansului, fără normă tranzitorie și fără regulă pentru contractele reziliate.",
-      "initiatorClaim": "Inițiatorii vor să scape proiectele multianuale (infrastructură, școli, spitale, fonduri europene) de obligația de a recupera la sfârșit de an avansurile încă nejustificate. Vor și ca aceeași regulă să se aplice indiferent de sursa banilor.",
-      "realityCheck": "Articolul unic rescrie art. 54 alin. (9): avansurile nejustificate se recuperează la termenul plății finale din contract, nu la sfârșitul anului, oricare ar fi sursa banilor. Abrogă și alin. (9¹)-(9²), generalizând o formulă preluată din regimul proiectelor cu finanțare externă (memorandumuri, acorduri, ordine de finanțare). Odată cu termenul mai lung vine și partea dură: majorări de întârziere pentru orice avans recuperat, calculate de la data acordării lui, fără normă tranzitorie pentru contractele în curs. Termenul devine elastic, fiindcă se poate muta prin act adițional, iar riscul ca firma să intre în insolvență cu avansul public nejustificat crește odată cu durata contractului.",
-      "affectedGroups": [
-        "IMM & Antreprenori",
-        "Contabili & Fiscalitate"
-      ],
-      "keyFindings": [
-        "Art. unic pct. 1 (art. 54 alin. 9): termenul de recuperare a avansurilor nejustificate trece de la sfârșitul anului la «termenul stabilit pentru plata finală conform contractelor încheiate», pentru orice sursă de finanțare. Schimbarea e utilă pentru lucrările și serviciile care durează mai mult de un an.",
-        "Același alineat extinde la toate avansurile majorările de întârziere ale veniturilor bugetare. Ele se calculează de la data acordării avansului până la recuperare, nu de la termenul ratat. La nivelul de 1% pe lună prevăzut pentru bugetele locale în Codul de procedură fiscală, un avans dovedit nejustificat după 2 ani se întoarce cu aproximativ 24% în plus.",
-        "Termenul de recuperare depinde în întregime de contract și poate fi mutat prin acte adiționale. Pentru contractele reziliate înainte de plata finală, textul nu spune când devine scadentă recuperarea.",
-        "Art. unic pct. 2 abrogă alin. (9¹) și (9²) fără să le reproducă. În logica expunerii, ele conțin regimurile speciale pe surse de finanțare, devenite inutile prin generalizare. Comisiile ar trebui totuși să verifice că nu se pierde o regulă specifică din ele.",
-        "Lipsește norma tranzitorie: nu se spune dacă noul regim, inclusiv majorările de la data acordării, se aplică și avansurilor deja plătite și contractelor în curs."
-      ],
-      "blindSpotsCaught": "Cine datorează majorările? Textul spune că sumele «vor fi recuperate de către instituțiile publice care au acordat avansurile și se vor restitui bugetului din care au fost avansate, cu perceperea majorărilor». Formularea se poate citi și ca obligație a instituției (de exemplu o școală sau un spital subordonat) față de bugetul care a avansat banii, nu doar a firmei care a primit avansul. Nici «majorările existente pentru veniturile bugetare» nu indică bugetul de referință: la bugetele locale sunt majorări de 1% pe lună, la bugetul de stat sunt dobânzi și penalități. Trimiterea rămâne deci vagă pentru sumele venite prin transferuri de la bugetul de stat. Separat, expunerea cerea urgență ca legea să se aplice înainte de închiderea anului bugetar 2025. Termenul a trecut, iar proiectul e încă în faza de raport la Cameră, fără procedură de urgență.",
-      "constitutionalityNote": "Nu ridică probleme majore. Camera Deputaților este corect decizională (art. 75), iar legea e ordinară, adoptată de Senat conform art. 76 alin. (2). Mutarea termenului nu încalcă anualitatea bugetului (art. 138), deoarece angajamentele multianuale există deja prin credite de angajament. Nu atinge nici autonomia locală (art. 120) și nu creează cheltuieli noi care să ceară sursă de finanțare (art. 138 alin. 5). Riscurile țin de previzibilitate (art. 1 alin. 5): debitorul majorărilor nu e numit, iar trimiterea la «majorările existente pentru veniturile bugetare» e vagă. Lipsa unei norme tranzitorii ar permite și calculul majorărilor pentru perioade de dinainte de intrarea în vigoare, la contracte care nu le prevedeau, ceea ce poate fi retroactivitate interzisă de art. 15 alin. (2).",
-      "euLawNote": "Proiectul nu reglementează profesii, deci Directiva 2018/958 nu se aplică. Nu conține nici reguli tehnice sau privind serviciile digitale, deci TRIS 2015/1535 nu se aplică. Clauza «cu respectarea eventualelor prevederi specifice din memorandumuri/acorduri/contracte/decizii/ordine de finanțare» păstrează întâietatea regulilor programelor UE (fonduri de coeziune, PNRR) față de termenul general. Directiva 2011/7/UE privind întârzierea plăților vizează plățile autorităților către firme, nu recuperarea avansurilor, deci nu e afectată. Prelungirea termenului plății finale prin acte adiționale rămâne limitată de regulile privind modificarea contractelor din Directiva 2014/24/UE, transpusă prin Legea nr. 98/2016. Efectul asupra concurenței e neutru: aceeași regulă se aplică tuturor contractanților, indiferent de sursa banilor.",
-      "senatForm": {
-        "articleRef": "Art. unic pct. 1 – art. 54 alin. (9); art. II nou",
-        "proposalContent": "La alin. (9) se adaugă la final: „Majorările sunt datorate de beneficiarul avansului. Dacă contractul încetează înainte de plata finală, sumele nejustificate se recuperează în 30 de zile de la încetare.” și un art. II: „Majorările prevăzute la art. 54 alin. (9) se aplică numai avansurilor acordate după intrarea în vigoare a prezentei legi.”",
-        "argumentation": "Dacă contractul e reziliat, termenul plății finale devine incert și avansul poate rămâne la firmă. Nu se spune cine plătește majorările: firma sau instituția care restituie bugetului. Fără normă tranzitorie, majorările de la data acordării ar lovi și avansuri date înainte de lege, din contracte care nu le prevedeau (art. 15 alin. 2 din Constituție).",
-        "otherComments": "Majorările curg de la acordarea avansului, nu de la termenul ratat: la 1%/lună (bugete locale), un avans ținut legal 2 ani și apoi nejustificat costă încă ~24%, sancțiune grea pentru IMM-uri. Comisia ar putea porni calculul de la termenul plății finale. Util și ca eventuala garanție de avans să rămână valabilă până la acest termen."
-      },
-      "reachedEnd": true,
-      "status": "ok"
-    },
-    "codex": {
-      "model": "codex",
-      "durationMs": 81303,
-      "sourceEndMarker": "SF-832F1D59",
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Avansurile pentru contractele locale pot fi justificate până la termenul plății finale",
-      "verdictShort": "Proiectul oferă o flexibilitate utilă pentru contractele care depășesc anul bugetar și păstrează recuperarea obligatorie a avansurilor nejustificate, cu accesorii. Principalele vulnerabilități sunt dependența de termenele contractuale și lipsa unor reguli tranzitorii explicite.",
-      "initiatorClaim": "Inițiatorii urmăresc evitarea recuperării avansurilor la sfârșitul anului pentru proiecte încă în execuție. Ei invocă reducerea blocajelor și facilitarea proiectelor multianuale, inclusiv a celor finanțate din fonduri europene.",
-      "realityCheck": "Articolul unic pct. 1 stabilește termenul plății finale din contract ca reper pentru justificarea avansului, indiferent de finanțare, cu respectarea prevederilor specifice ale documentelor de finanțare. Dacă avansul rămâne nejustificat la acel termen, recuperarea este obligatorie, iar majorările se calculează de la acordarea avansului până la recuperarea restanței; textul nu stabilește însă un termen distinct pentru efectuarea recuperării. Prelungirea legală a contractului poate amâna acest reper, iar pct. 2 abrogă două alineate al căror conținut anterior nu este reprodus în documentele furnizate.",
+      "plainTitle": "Primăriile și instituțiile locale pot lăsa avansurile date firmelor nejustificate până la plata finală din contract, nu doar până la 31 decembrie",
+      "verdictShort": "Este o lege tehnică de execuție bugetară, utilă pentru proiectele care durează mai mulți ani. Extinde însă regula până acum rezervată fondurilor UE și la banii proprii ai bugetelor locale, fără o limită de timp sau o garanție obligatorie, ceea ce mărește puțin riscul ca avansurile să rămână blocate la contractori.",
+      "initiatorClaim": "Inițiatorii spun că obligația de a recupera la sfârșitul anului avansurile nejustificate blochează proiectele complexe (infrastructură, educație, sănătate) care durează mai mult de un an. Vor ca termenul de justificare să fie plata finală prevăzută în contract, oricare ar fi sursa de finanțare.",
+      "realityCheck": "Astăzi, art. 54 alin. (9) cere recuperarea avansurilor nejustificate până la sfârșitul anului. Excepția «până la plata finală» există deja, prin alin. (9^1) și (9^2), pentru fondurile externe nerambursabile, inclusiv PNRR, și pentru POS Mediu. Proiectul face din această excepție regula generală pentru orice sursă, deci și pentru veniturile proprii locale și transferurile de la bugetul de stat, și abrogă alin. (9^1) și (9^2). Efecte secundare: un avans de până la 30% (40% la PNRR) poate rămâne ani de zile la contractor pe contracte multianuale. Dispar și condiționarea prin hotărâre a Guvernului pentru POS Mediu și excluderea POS Transport. În schimb, majorările de întârziere devin aplicabile tuturor avansurilor nerecuperate la termen, nu doar celor din regimul de excepție.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articolul unic pct. 1: formularea «vor fi recuperate» instituie o obligație pentru instituția publică, nu o opțiune de a recupera sau de a ierta avansul.",
-        "Art. 54 alin. (9) propus: reperul privește justificarea avansului până la termenul contractual al plății finale; nu impune recuperarea efectivă înaintea acelei plăți.",
-        "Majorările privesc sumele rămase nejustificate și se calculează de la acordarea avansului. Textul nu transformă orice avans justificat la timp într-o finanțare purtătoare de dobândă.",
-        "Formula «indiferent de sursa de finanțare» este însoțită de obligația respectării prevederilor specifice din documentele de finanțare. Uniformizarea nu este, așadar, absolută.",
-        "Articolul unic pct. 2 abrogă integral alin. (9¹) și (9²). Fără textul lor anterior nu poate fi verificată complet întinderea excepțiilor sau condițiilor eliminate.",
-        "Proiectul nu introduce taxe, profesii rezervate sau obligații administrative generale pentru cetățeni. Poate prelungi însă perioada în care bani publici rămân avansați contractanților, fără ca documentele furnizate să cuantifice efectul asupra lichidității bugetelor locale."
+        "Art. unic pct. 1 (art. 54 alin. 9): termenul de justificare a avansului trece de la «sfârșitul anului» la «termenul stabilit pentru plata finală conform contractelor încheiate», pentru avansurile din orice sursă de finanțare.",
+        "Art. unic pct. 2 abrogă alin. (9^1) și (9^2). Regimul special pentru fondurile UE și PNRR nu se pierde, ci este preluat în noul alin. (9). Dispar însă excluderea POS Transport și obligația ca proiectele POS Mediu să fie stabilite prin hotărâre a Guvernului.",
+        "Noul alin. (9) prevede majorări de întârziere pentru toate avansurile nerecuperate, calculate de la data acordării avansului. Textul actual al alin. (9) nu le prevedea pentru regula de sfârșit de an; ele apăreau doar la alin. (9^2) și (10). Pentru contractori este o înăsprire, nu doar o relaxare.",
+        "Plafonul avansului de 30% din alin. (8) rămâne neschimbat, la fel ca derogarea de 40% pentru PNRR din Legea nr. 369/2023. Riscul financiar maxim per contract este deci limitat.",
+        "Pentru banii proprii ai unei comune sau ai unui județ, avansul poate deveni de facto o finanțare fără dobândă acordată contractorului pe toată durata contractului multianual, fără vreo limită maximă de timp în lege."
       ],
-      "blindSpotsCaught": "Expunerea solicită procedură de urgență, dar datele oficiale indică faptul că aceasta nu se aplică; solicitarea nu echivalează cu aprobarea procedurii. De asemenea, aplicarea înainte de închiderea anului 2025 este doar un obiectiv din motivare: textul normativ nu conține dispoziții tranzitorii, o dată specială de aplicare sau o prevedere care să stingă creanțele deja născute. Abrogarea celor două alineate trebuie evaluată prin confruntare cu forma lor în vigoare, fără a presupune conținutul acestora.",
-      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă. Art. 1 alin. (5) justifică precizarea raportului dintre termenul contractual, documentele de finanțare și aplicarea în timp, mai ales pentru avansurile deja acordate. Simpla enumerare a unor memorandumuri sau ordine nu le permite să deroge de la norme superioare. Art. 23 alin. (12), referitor la pedepse, nu este incident direct majorărilor de întârziere de natură financiară. Respectarea art. 15 alin. (2) exclude deducerea unei ștergeri retroactive a obligațiilor deja născute. Menținerea avansurilor peste anul bugetar nu încalcă prin ea însăși Constituția, iar textul nu permite constatarea automată a unei încălcări a art. 138 alin. (5).",
-      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea acestora. Nici notificarea TRIS în temeiul Directivei (UE) 2015/1535 nu este impusă de textul analizat, care nu introduce reglementări tehnice pentru produse ori norme privind serviciile societății informaționale. Condițiile avansurilor trebuie aplicate transparent și nediscriminatoriu. Modificarea ulterioară a termenelor contractelor rămâne supusă regulilor achizițiilor publice, iar legea națională nu poate înlătura condițiile obligatorii ale finanțărilor europene. Nu există suficiente elemente pentru a constata un ajutor de stat sau o restrângere nejustificată a concurenței.",
+      "blindSpotsCaught": "Alin. (11) («Fac excepție de la prevederile alin. (9) situațiile expres reglementate prin dispoziții legale») rămâne în vigoare și trimite acum la o regulă deja relaxată, deci corelarea trebuie verificată. Textul nu spune ce se întâmplă dacă contractul nu stabilește o dată fermă pentru plata finală, de exemplu în contractele-cadru sau în cele prelungite prin acte adiționale. În practică, prelungirea contractului amână automat și termenul de recuperare. Regula similară pentru bugetul de stat din Legea nr. 500/2002 nu este modificată, așa că apare o asimetrie între finanțele locale și cele centrale. Expunerea de motive cere urgență ca legea să se aplice înainte de închiderea anului 2025, dar procedura nu este de urgență, iar proiectul este încă la raport în noiembrie 2026.",
+      "constitutionalityNote": "Nu apar probleme constituționale serioase. Textul este suficient de clar și previzibil (art. 1 alin. 5), cu o rezervă: termenul depinde de contract, ceea ce este acceptabil, dar poate genera interpretări neunitare dacă data plății finale nu este fixată. Proiectul nu afectează autonomia locală (art. 120-121) și nici principiile bugetare din art. 137-138. Anualitatea privește autorizarea creditelor, nu termenul de justificare a unui avans plătit. Art. 23 alin. (12) nu este relevant, pentru că majorările de întârziere sunt accesorii civile-bugetare, nu sancțiuni penale. Inițiativa a fost adoptată de Senat ca primă cameră, iar Camera Deputaților este corect decizională.",
+      "euLawNote": "Directiva (UE) 2018/958 privind testul de proporționalitate nu se aplică, pentru că proiectul nu reglementează accesul la profesii. Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu există reguli tehnice și nici servicii ale societății informaționale. Pentru fondurile UE, textul păstrează trimiterea la prevederile specifice din acordurile și deciziile de finanțare, deci este compatibil cu regulile programelor. Pe fond, flexibilizarea ajută absorbția. Directiva 2011/85/UE privind cadrele bugetare nu este încălcată. Avansurile multianuale ar trebui totuși reflectate corect în evidența angajamentelor și în raportările ESA. Nu se identifică efecte de ajutor de stat sau de distorsionare a concurenței, deoarece regula se aplică uniform tuturor contractorilor.",
       "senatForm": {
-        "articleRef": "Articol unic: punct nou, art. 54 alin. (9³)",
-        "proposalContent": "(9³) Prelungirea termenului de justificare a avansurilor se motivează și respectă legislația aplicabilă modificării contractelor. Instituțiile publice verifică anual utilizarea avansurilor și menținerea garanțiilor obligatorii. Noua reglementare nu stinge creanțele de restituire și accesoriile născute anterior intrării sale în vigoare.",
-        "argumentation": "Flexibilitatea pentru proiectele multianuale trebuie însoțită de verificarea periodică a banilor avansați. Motivarea prelungirilor limitează amânările arbitrare, iar protejarea creanțelor deja născute clarifică aplicarea în timp și previne interpretarea modificării ca ștergere a restanțelor.",
-        "otherComments": "Înaintea adoptării, raportul comisiilor ar trebui să prezinte conținutul și efectele abrogării alin. (9¹) și (9²), precum și impactul estimat asupra lichidității bugetelor locale. Trebuie clarificat și termenul în care instituția inițiază recuperarea după constatarea avansului nejustificat."
+        "articleRef": "Art. unic pct.1 (art.54 alin.9 L.273/2006)",
+        "proposalContent": "La alin. (9), după «conform contractelor încheiate» se introduce: «, dar nu mai târziu de 12 luni de la acordarea avansului, pentru avansurile finanțate exclusiv din venituri proprii ale bugetelor locale, cu excepția cazului în care avansul este acoperit integral de o garanție de returnare a avansului, constituită în condițiile legii».",
+        "argumentation": "Pentru fondurile UE, termenul până la plata finală există deja în alin. (9^1). Extinderea fără limită la banii proprii ai comunelor transformă avansul într-un credit fără dobândă pe ani pentru contractor, pe contracte multianuale. O limită de 12 luni sau o garanție de avans protejează bugetul local de insolvența contractorului fără să blocheze proiectele.",
+        "otherComments": "Corelați alin. (11), care trimite la excepțiile de la alin. (9), cu noua regulă generală. Clarificați termenul aplicabil când contractul nu fixează data plății finale sau este prelungit prin act adițional. Corelați cu regula similară din Legea nr. 500/2002 pentru bugetul de stat, ca aplicarea să fie unitară."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 61068,
+      "sourceEndMarker": "SF-832F1D59",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Avansurile pentru contractele locale pot fi justificate până la plata finală",
+      "verdictShort": "Proiectul introduce o flexibilitate utilă pentru investițiile locale care depășesc anul bugetar. Riscurile principale sunt amânarea recuperării banilor prin prelungirea legală a contractelor și lipsa unor reguli pentru avansurile deja acordate.",
+      "initiatorClaim": "Inițiatorii urmăresc eliminarea recuperării avansurilor la sfârșitul anului, care poate perturba proiectele multianuale. Ei invocă reducerea blocajelor financiare și îmbunătățirea absorbției fondurilor externe.",
+      "realityCheck": "Proiectul înlocuiește termenul general de justificare de la sfârșitul anului cu termenul contractual pentru plata finală, indiferent de sursa finanțării; pentru numeroase proiecte europene, această facilitate există deja. După expirarea termenului, recuperarea avansurilor nejustificate rămâne obligatorie, cu majorări calculate de la acordarea avansului, nu doar de la scadență. Nu crește plafonul avansurilor, dar permite menținerea lor mai mult timp la contractanți și nu precizează regimul tranzitoriu.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Articolul unic pct. 1: justificarea avansurilor până la plata finală devine regula generală. Textul nu stabilește că recuperarea trebuie finalizată până la plata finală; expirarea acestui termen declanșează obligația de recuperare pentru sumele nejustificate.",
+        "Articolul unic pct. 2: abrogarea alin. (9¹) și (9²) generalizează un mecanism deja existent pentru anumite finanțări externe. Dispar delimitările speciale, inclusiv condiționarea de o hotărâre a Guvernului prevăzută la actualul alin. (9¹) lit. b), în cadrul acestui articol.",
+        "Majorările de întârziere nu sunt o invenție a proiectului: ele există deja la alin. (9²) și (10). Noul alin. (9) le prevede expres pentru toate avansurile nejustificate la termenul contractual; alin. (10) rămâne în vigoare.",
+        "Alin. (8) rămâne nemodificat: plafonul general este de 30%, cu derogările legale aplicabile, inclusiv cea indicată pentru PNRR. Nici regulile generale privind justificarea plăților și controlul financiar nu sunt eliminate.",
+        "Termenul depinde de contract și poate fi deplasat prin prelungiri legal încheiate; proiectul nu introduce un termen maxim propriu sau controale intermediare suplimentare. Lipsesc și dispoziții tranzitorii pentru avansurile acordate ori creanțele născute anterior."
+      ],
+      "blindSpotsCaught": "Abrogarea excepțiilor nu elimină facilitatea acordată proiectelor europene, ci o transformă în regulă generală. În plus, alin. (11), care păstrează excepțiile expres reglementate prin alte dispoziții legale, supraviețuiește: expresia «indiferent de sursa de finanțare» nu uniformizează automat toate regimurile speciale. Solicitarea procedurii de urgență din expunerea de motive nu schimbă procedura oficială indicată, care este fără urgență.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă. Art. 1 alin. (5) justifică precizarea aplicării în timp și a raportului dintre termenul contractual și regulile specifice finanțării. Potrivit art. 15 alin. (2), nu trebuie presupus că noua regulă șterge retroactiv creanțe și accesorii deja născute; proiectul nu prevede o asemenea ștergere. Art. 23 alin. (12) privește pedepsele și nu este direct incident acestor majorări bugetare. Menținerea avansurilor peste anul calendaristic nu încalcă, prin ea însăși, anualitatea bugetară, dar efectul asupra lichidității bugetelor locale merită cuantificat.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor asupra profesiilor reglementate; proiectul nu introduce asemenea restricții. Directiva (UE) 2015/1535 nu impune notificarea TRIS pentru această regulă de execuție bugetară, care nu reglementează produse sau servicii ale societății informaționale. Nu apar monopoluri ori bariere profesionale; flexibilitatea avansurilor poate ajuta inclusiv IMM-urile contractante. Aplicarea trebuie să respecte regulile achizițiilor publice și condițiile finanțărilor europene; eventualele prelungiri contractuale nu devin automat permise prin această modificare.",
+      "senatForm": {
+        "articleRef": "Articol nou după articolul unic",
+        "proposalContent": "Art. II. Prevederile art. 54 alin. (9), astfel modificate, se aplică și avansurilor acordate anterior intrării în vigoare a prezentei legi, dacă termenul legal de justificare nu s-a împlinit. Creanțele de restituire și accesoriile născute anterior rămân supuse legii aplicabile la data nașterii lor.",
+        "argumentation": "Regula tranzitorie permite continuarea contractelor în curs fără a transforma noul termen într-o ștergere retroactivă a creanțelor bugetare. Delimitarea reduce interpretările divergente ale instituțiilor publice și protejează previzibilitatea obligațiilor contractanților.",
+        "otherComments": "Corelativ, «Articol unic» devine «Art. I». Evaluarea privește forma Senatului și textele furnizate; verificarea online nu a fost posibilă. Propunerea poate fi transmisă comisiilor Camerei Deputaților pentru a fi preluată ca amendament de un deputat."
       },
       "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-19T14:52:11.361Z",
+      "method": "whole-text-v1",
+      "textChars": 1398,
+      "form": "senat",
+      "agyModel": "gemini-4-neon-high",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:17:43.650Z",
+      "reasons": [
+        "reluare"
+      ]
+    }
+  ]
 }

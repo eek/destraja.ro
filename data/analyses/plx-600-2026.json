@@ -1,115 +1,171 @@
 {
   "billId": "Pl-x 600/2026",
   "slug": "plx-600-2026",
-  "updatedAt": "2026-10-28T22:33:35.637Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T14:59:00.637Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 981,
+    "ordinanceChars": 0,
+    "memoChars": 4431,
+    "memoSupplied": 4431,
+    "marker": "SF-9A5273C0"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-600-2026.json",
+    "form": "initiator",
+    "textHash": "9a5273c07196a304",
+    "fetchedAt": "2026-11-19T11:04:57.222Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 2313,
+    "truncated": false,
+    "included": true,
+    "key": "3b6c4ec160c15590"
+  },
   "consensus": {
     "riskScore": 1.3,
     "riskLevel": "green",
-    "plainTitle": "Orice modificare de lege să vină cu un tabel „înainte și după”",
-    "summaryTlDr": "Lege tehnică și utilă: obligă inițiatorii să arate, coloană lângă coloană, textul actual și cel propus. Riscul e minim, iar problemele găsite sunt omisiuni de redactare, nu capcane.",
-    "initiatorClaim": "Deputații USR spun că modificările legislative sunt greu de urmărit, pentru că sunt prezentate fragmentat. Ei vor un tabel comparativ obligatoriu, util parlamentarilor, instituțiilor avizatoare, presei și cetățenilor.",
-    "realityCheck": "Articolul unic adaugă lit. e) la art. 30 alin. (1) din Legea 24/2000, așa că tabelul comparativ devine document obligatoriu pentru orice proiect de act normativ care modifică sau completează alt act. Obligația vizează legile, dar și ordonanțele, hotărârile de Guvern și celelalte acte normative. Propunerea nu prevede nicio consecință dacă tabelul lipsește, nu acoperă explicit abrogările și nu cere actualizarea tabelului după amendamente. Efectul real depinde deci de cât de strict o aplică birourile permanente, Consiliul Legislativ și Guvernul.",
+    "plainTitle": "Fiecare proiect care schimbă o lege trebuie să arate textul vechi lângă cel nou",
+    "summaryTlDr": "Este o măsură tehnică, benignă și utilă pentru transparență: proiectele care modifică legi trebuie să aibă un tabel cu „înainte” și „după”. Riscurile sunt minime. Textul are însă câteva goluri de redactare: abrogările nu sunt menționate, iar proiectele pentru care Guvernul își angajează răspunderea rămân în afara regulii.",
+    "initiatorClaim": "Inițiatorii spun că modificările legislative sunt greu de urmărit, pentru că apar fragmentat. Un tabel comparativ obligatoriu ar ajuta parlamentarii, instituțiile avizatoare, presa și cetățenii să vadă imediat ce se schimbă.",
+    "realityCheck": "Articolul unic adaugă la art. 30 alin. (1) din Legea nr. 24/2000 o lit. e) nouă. Tabelul comparativ intră astfel printre documentele de motivare obligatorii pentru proiectele care modifică sau completează acte în vigoare. Formularea vorbește doar de „modificare sau completare”, nu și de abrogare. Alin. (2) și (3) ale art. 30 nu sunt actualizate, deci proiectele asumate de Guvern rămân exceptate. Nu există o sancțiune sau o regulă de actualizare a tabelului după amendamente.",
     "affectedGroups": [
-      "Toți cetățenii",
-      "Justiție & Drepturi Civile"
+      "Justiție & Drepturi Civile",
+      "Toți cetățenii"
     ],
     "senatForm": {
       "articleRef": "Art. unic – art. 30 alin. (1) lit. e) L. 24/2000",
-      "proposalContent": "„e) tabelul comparativ care cuprinde, în coloane paralele, textul în vigoare la data inițierii, atunci când este cazul, și forma propusă, pentru fiecare dispoziție modificată, completată sau abrogată; în cazul legilor, tabelul se actualizează cu forma adoptată de prima Cameră sesizată.”",
-      "argumentation": "Textul inițial omite abrogările, deși Legea 24/2000 le tratează distinct de modificări și completări; tocmai ele sunt ușor de ratat. Fără data de referință, tabelul poate reproduce o formă depășită. După prima Cameră, amendamentele pot schimba mult proiectul, așa că tabelul trebuie refăcut pe forma adoptată.",
-      "otherComments": "Tehnic: lit. e) devine ultima literă, deci ar trebui încheiată cu punct, iar lit. d) cu punct și virgulă. Obligația vizează și ordonanțele, hotărârile Guvernului și alte acte normative; un model-tip de tabel și un termen de intrare în vigoare ar ușura aplicarea. Susțin adoptarea propunerii."
+      "proposalContent": "„e) tabelul comparativ care cuprinde, într-o primă coloană, reglementarea în vigoare, iar într-o a doua coloană, forma propusă, pentru fiecare dispoziție modificată, completată sau abrogată, inclusiv în cazul proiectelor prevăzute la alin. (3);” Se completează corespunzător și alin. (2) cu mențiunea tabelului comparativ.",
+      "argumentation": "Textul inițiatorului omite abrogările, care pot avea efecte majore. Alin. (3) enumeră limitativ documentele pentru proiectele asumate de Guvern, deci tabelul n-ar fi obligatoriu tocmai unde dezbaterea parlamentară lipsește. Alin. (2) trebuie actualizat pentru coerența art. 30.",
+      "otherComments": "Propun și obligația ca tabelul să fie actualizat după amendamentele adoptate în fiecare Cameră și publicat pe site-ul Camerei în format deschis. De asemenea, propun înlocuirea sintagmei „atunci când este cazul” cu „pentru actele care modifică, completează sau abrogă acte în vigoare”, pentru a evita interpretări care ocolesc obligația."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 35055,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 52353,
+      "sourceEndMarker": "SF-9A5273C0",
       "riskScore": 1,
       "riskLevel": "green",
-      "plainTitle": "Tabel comparativ obligatoriu („înainte și după”) pentru orice proiect care schimbă o lege existentă",
-      "verdictShort": "O inițiativă excelentă pentru transparența legislativă, fără costuri sau birocrație pentru cetățeni. Are însă o mică scăpare tehnică: uită să menționeze și „abrogarea” (ștergerea de articole) alături de modificare și completare.",
-      "initiatorClaim": "Inițiatorii vor ca orice proiect de act normativ care modifică sau completează legislația să fie însoțit obligatoriu de un tabel comparativ pe două coloane, pentru ca parlamentarii, presa și cetățenii să vadă imediat ce se schimbă.",
-      "realityCheck": "Măsura este 100% benefică și stopează practica modificărilor „ascunse” prin trimiteri greu de urmărit la articole din legi vechi. Singura chichiță tehnică este că textul propus menționează doar „modificarea sau completarea”, omițând „abrogarea” (eliminarea unui text), care în Legea nr. 24/2000 este o operațiune juridică distinctă.",
-      "affectedGroups": [
-        "Toți cetățenii",
-        "Justiție & Drepturi Civile"
-      ],
-      "keyFindings": [
-        "Articol unic (art. 30 alin. (1) lit. e) din Legea 24/2000): Introduce tabelul comparativ pe două coloane (forma în vigoare vs. forma propusă) ca document de motivare obligatoriu pentru toate proiectele de acte normative.",
-        "Obligația se aplică exclusiv instituțiilor publice și inițiatorilor de acte normative (parlamentari, Guvern, ministere), fără a impune nicio sarcină birocratică sau fiscală cetățenilor ori mediului privat.",
-        "Scăpare de tehnică legislativă: Textul vizează doar dispozițiile care fac obiectul „modificării sau completării”, fără a include „abrogarea”, deși eliminarea unui articol existent este adesea cea mai sensibilă intervenție legislativă."
-      ],
-      "blindSpotsCaught": "În arhitectura Legii nr. 24/2000 (art. 58-65), „modificarea”, „completarea” și „abrogarea” sunt trei evenimente legislative distincte. Dacă un inițiator scrie doar „Art. 14 se abrogă”, fără includerea cuvântului „abrogării” în noua lit. e), acesta ar putea susține că nu are obligația de a arăta în tabelul comparativ ce conținea articolul șters.",
-      "constitutionalityNote": "Proiectul este pe deplin constituțional și consolidează exigențele de calitate, claritate și previzibilitate a legii consacrate de art. 1 alin. (5) din Constituția României în jurisprudența Curții Constituționale.",
-      "euLawNote": "Nu ridică probleme de compatibilitate cu dreptul UE; nu restrânge concurența (Directiva 2018/958) și nu necesită notificare TRIS (Directiva 2015/1535), fiind o normă internă de tehnică legislativă aliniată bunelor practici europene de „Better Regulation”.",
-      "senatForm": {
-        "articleRef": "Articol unic - art. 30 alin. (1) lit. e)",
-        "proposalContent": "„e) tabelul comparativ care cuprinde, într-o primă coloană, reglementarea în vigoare, atunci când este cazul, iar într-o a doua coloană, forma propusă spre adoptare, pentru fiecare dispoziție care face obiectul modificării, completării sau abrogării exprese;”",
-        "argumentation": "În tehnica legislativă (Legea nr. 24/2000, art. 58-65), modificarea, completarea și abrogarea sunt evenimente legislative distincte. Omisiunea „abrogării” din textul propus ar permite inițiatorilor să elimine articole întregi fără a afișa în tabelul comparativ textul în vigoare care dispare, ocolind chiar scopul legii.",
-        "otherComments": "Măsura este binevenită pentru transparența decizională. Opțional, se poate prevedea ca tabelul comparativ să fie publicat și în format deschis, editabil, pe site-urile Camerelor Parlamentului și ale autorităților inițiatoare."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 112950,
-      "riskScore": 1,
-      "riskLevel": "green",
-      "plainTitle": "Orice modificare de lege să vină cu un tabel „înainte și după”",
-      "verdictShort": "Lege tehnică și utilă: obligă inițiatorii să arate, coloană lângă coloană, textul actual și cel propus. Riscul e minim, iar problemele găsite sunt omisiuni de redactare, nu capcane.",
-      "initiatorClaim": "Deputații USR spun că modificările legislative sunt greu de urmărit, pentru că sunt prezentate fragmentat. Ei vor un tabel comparativ obligatoriu, util parlamentarilor, instituțiilor avizatoare, presei și cetățenilor.",
-      "realityCheck": "Articolul unic adaugă lit. e) la art. 30 alin. (1) din Legea 24/2000, așa că tabelul comparativ devine document obligatoriu pentru orice proiect de act normativ care modifică sau completează alt act. Obligația vizează legile, dar și ordonanțele, hotărârile de Guvern și celelalte acte normative. Propunerea nu prevede nicio consecință dacă tabelul lipsește, nu acoperă explicit abrogările și nu cere actualizarea tabelului după amendamente. Efectul real depinde deci de cât de strict o aplică birourile permanente, Consiliul Legislativ și Guvernul.",
-      "affectedGroups": [
-        "Toți cetățenii",
-        "Justiție & Drepturi Civile"
-      ],
-      "keyFindings": [
-        "Art. unic introduce lit. e) la art. 30 alin. (1) din Legea 24/2000: un tabel cu două coloane, reglementarea în vigoare și forma propusă, pentru fiecare dispoziție modificată sau completată.",
-        "Obligația vizează toate „proiectele de acte normative”, nu doar legile. Intră aici și ordonanțele și hotărârile de Guvern (însoțite azi de note de fundamentare), precum și actele însoțite de referate de aprobare.",
-        "Textul acoperă doar „modificarea sau completarea”. Abrogările, pe care Legea 24/2000 le tratează ca intervenție distinctă, nu sunt menționate, deși sunt cel mai ușor de ratat.",
-        "Tabelul se cere doar la inițiere. Nu există obligația de a-l actualiza după amendamentele din prima Cameră, așa că Camera decizională poate primi un tabel depășit.",
-        "Propunerea nu stabilește ce se întâmplă dacă tabelul lipsește, deci respectarea obligației rămâne la latitudinea instituțiilor care primesc proiectele.",
-        "Impactul bugetar e neglijabil, iar cetățenii și IMM-urile nu primesc nicio sarcină nouă. Faptul că inițiatorii au atașat chiar ei un astfel de tabel arată că obligația e ușor de respectat."
-      ],
-      "blindSpotsCaught": "Ironic pentru o lege despre tehnică legislativă: noua lit. e) devine ultima din enumerare, dar se încheie cu punct și virgulă, iar lit. d) rămâne cu punct. Nu se precizează la ce dată se raportează „reglementarea în vigoare”, deși legislația se poate schimba chiar în timpul procedurii, inclusiv prin OUG. Lipsește și o normă tranzitorie, așa că obligația se va aplica, cel mai probabil, doar proiectelor inițiate după intrarea în vigoare. În plus, tabelul e încadrat la „documente de motivare”, deși e un instrument de prezentare, nu de justificare.",
-      "constitutionalityNote": "Nu există probleme de constituționalitate. Măsura susține cerința de claritate și previzibilitate a normelor (art. 1 alin. 5) și dreptul la informație (art. 31), pentru că face vizibil ce se schimbă. Legea 24/2000 e lege ordinară, iar formula de adoptare (art. 75 și art. 76 alin. 2) e corectă. Senatul ca primă Cameră și Camera Deputaților ca decizională respectă art. 75. Obligația nu restrânge dreptul de inițiativă legislativă (art. 74), ci adaugă doar o cerință formală minoră, inclusiv pentru inițiativele cetățenești. Art. 23 alin. (12) nu este relevant, pentru că textul nu creează sancțiuni.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că propunerea nu reglementează accesul la profesii sau exercitarea lor. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reguli tehnice pentru produse sau servicii ale societății informaționale, deci nu e necesară notificarea. Propunerea nu afectează piața unică sau concurența. Măsura e în spiritul principiilor UE de „better regulation”: instituțiile UE folosesc curent documente comparative pe coloane în negocierile legislative (trilogurile).",
-      "senatForm": {
-        "articleRef": "Art. unic – art. 30 alin. (1) lit. e) L. 24/2000",
-        "proposalContent": "„e) tabelul comparativ care cuprinde, în coloane paralele, textul în vigoare la data inițierii, atunci când este cazul, și forma propusă, pentru fiecare dispoziție modificată, completată sau abrogată; în cazul legilor, tabelul se actualizează cu forma adoptată de prima Cameră sesizată.”",
-        "argumentation": "Textul inițial omite abrogările, deși Legea 24/2000 le tratează distinct de modificări și completări; tocmai ele sunt ușor de ratat. Fără data de referință, tabelul poate reproduce o formă depășită. După prima Cameră, amendamentele pot schimba mult proiectul, așa că tabelul trebuie refăcut pe forma adoptată.",
-        "otherComments": "Tehnic: lit. e) devine ultima literă, deci ar trebui încheiată cu punct, iar lit. d) cu punct și virgulă. Obligația vizează și ordonanțele, hotărârile Guvernului și alte acte normative; un model-tip de tabel și un termen de intrare în vigoare ar ușura aplicarea. Susțin adoptarea propunerii."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 68541,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Modificările legislative, prezentate alături de textul actual",
-      "verdictShort": "Proiect util, cu risc redus: ajută la înțelegerea modificărilor legislative, fără taxe sau sancțiuni noi. Eficiența sa depinde de publicarea și actualizarea tabelelor, aspecte pe care textul nu le reglementează expres.",
-      "initiatorClaim": "Inițiatorii urmăresc creșterea transparenței și îmbunătățirea dezbaterii legislative prin compararea textului existent cu cel propus. Ei apreciază că documentul poate fi întocmit cu resursele existente, cu impact bugetar nesemnificativ.",
-      "realityCheck": "Articolul unic introduce un document obligatoriu cu două coloane pentru dispozițiile modificate sau completate, fără să impună expres evidențierea diferențelor în interiorul textului. Obligația privește elaborarea actelor normative, nu activitatea curentă a firmelor și cetățenilor. Abrogările, publicarea tabelului și actualizarea sa după amendamente nu sunt prevăzute expres, astfel încât beneficiul de transparență rămâne parțial dependent de practica instituțiilor.",
+      "plainTitle": "Tabel comparativ obligatoriu pentru toate proiectele care schimbă legi",
+      "verdictShort": "Un proiect tehnic util și pro-transparență, fără capcane sau costuri pentru cetățeni și firme. Ar deveni și mai solid dacă ar include explicit și abrogările în tabelul comparativ.",
+      "initiatorClaim": "Inițiatorii susțin că proiectul crește transparența și calitatea dezbaterii legislative, ajutând parlamentarii, instituțiile, presa și cetățenii să vadă imediat diferențele dintre legea actuală și cea propusă.",
+      "realityCheck": "În realitate, legea face exact ce promite: adaugă tabelul comparativ (text în vigoare vs. text propus) pe lista documentelor obligatorii care însoțesc orice proiect de act normativ (legi, ordonanțe, hotărâri de Guvern, ordine, hotărâri locale). Nu impune nicio sarcină cetățenilor sau firmelor, ci doar inițiatorilor de acte normative. Singurele scăpări tehnice sunt omiterea abrogărilor din definiția tabelului și neactualizarea alin. (2) și (3) ale art. 30.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articolul unic, noua lit. e): comparația devine obligatorie pentru fiecare dispoziție modificată sau completată. Textul nu instituie taxe, amenzi, autorizații, monopoluri sau condiții de acces pe piață.",
-        "Prin raportare la art. 3 din Legea nr. 24/2000, obligația are un domeniu mai larg decât dezbaterea parlamentară: poate privi și acte normative guvernamentale, ministeriale și locale. Rezultă muncă administrativă suplimentară pentru elaboratori; costul redus este plauzibil, dar expunerea furnizată nu îl cuantifică. Nu apar obligații administrative curente pentru IMM-uri sau cetățeni, cu rezerva cetățenilor care exercită inițiativa legislativă. [Legea nr. 24/2000](https://legislatie.just.ro/public/detaliidocument/21698).",
-        "Proiectul este încă o propunere: respingerea de către Senat la 16.09.2026 nu închide procedura, Camera Deputaților fiind decizională. Termenul pentru amendamente, 30.09.2026, este depășit la data analizei; observațiile unui cetățean nu devin automat amendamente parlamentare. [Fișa Camerei Deputaților](https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23516)."
+        "Articol unic (art. 30 alin. (1) lit. e) din Legea nr. 24/2000): introduce obligația ca proiectele de acte normative care modifică sau completează legislația să fie însoțite de un tabel comparativ pe două coloane (forma în vigoare vs. forma propusă).",
+        "Efect extins dincolo de Parlament: fiind plasată la art. 30 alin. (1), obligația vizează toate proiectele de acte normative — inclusiv OUG, HG, ordine de ministru și hotărâri locale — unde lipsa documentelor de motivare poate fi cenzurată în contencios administrativ.",
+        "Lacună tehnică reparabilă: textul obligă la tabel comparativ doar pentru «modificare sau completare», omițând explicit «abrogarea», și nu actualizează corelativ art. 30 alin. (2) (lista instrumentelor de prezentare) și alin. (3) (angajarea răspunderii Guvernului)."
       ],
-      "blindSpotsCaught": "Abrogarea este o intervenție legislativă distinctă, omisă din enumerarea propusă. În plus, art. 30 alin. (2) enumeră instrumentele de prezentare și motivare fără tabel, ceea ce reclamă o corelare, iar art. 32 alin. (2) cere deja reconsiderarea motivării după observațiile avizatorilor, fără să asigure expres actualizarea tabelului după amendamente parlamentare. Acestea sunt limite de redactare și aplicare, nu dovezi ale unei capcane. [Art. 30 și 32](https://legislatie.just.ro/Public/DetaliiDocumentAfis/126884).",
-      "constitutionalityNote": "Pe textul analizat, nu se identifică un viciu evident de neconstituționalitate. Măsura sprijină claritatea procesului legislativ, în acord cu exigențele art. 1 alin. (5); omisiunile privind abrogările și actualizarea justifică precizări, fără a determina automat neconstituționalitatea. [Constituția, art. 1](https://www.cdep.ro/ords/pls/dic/site2015.page?den=act2_1&par1=1). Art. 23 alin. (12) privește legalitatea pedepselor și nu este incident direct, deoarece proiectul nu instituie pedepse. [Constituția, art. 23](https://www.cdep.ro/pls/dic/site.page?den=act2_1&par1=2).",
-      "euLawNote": "Nu rezultă restrângeri ale concurenței sau libertăților pieței unice. Directiva (UE) 2018/958 nu impune un test pentru acest proiect: art. 2 vizează restricțiile privind accesul la profesii reglementate sau exercitarea lor, inexistente aici. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng/pdf). Nici notificarea TRIS nu este declanșată: proiectul nu stabilește reglementări tehnice pentru produse și nici cerințe adresate specific serviciilor societății informaționale, inclusiv serviciilor digitale sau AI, în sensul art. 1 și 5 din Directiva (UE) 2015/1535. Tabelul nu înlocuiește evaluările ori notificările europene necesare pentru alte proiecte. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535).",
+      "blindSpotsCaught": "Proiectul acoperă modificările și completările, dar omite abrogările (deși art. 58 din Legea nr. 24/2000 le include între evenimentele legislative) și nu modifică art. 30 alin. (3), astfel că legile adoptate prin angajarea răspunderii Guvernului nu ar avea obligația expresă a tabelului comparativ. În plus, lipsa unei dispoziții tranzitorii lasă neclar regimul proiectelor deja aflate pe circuitul de avizare la data intrării în vigoare.",
+      "constitutionalityNote": "Pe deplin compatibil cu Constituția României și în spiritul art. 1 alin. (5) privind calitatea și previzibilitatea legii, precum și al art. 31 privind dreptul la informație. Potrivit jurisprudenței CCR, nerespectarea izolată a unei norme din Legea nr. 24/2000 nu duce automat la neconstituționalitate decât dacă afectează claritatea legii, deci măsura nu creează blocaje constituționale artificiale. Formula de adoptare (lege ordinară, art. 76 alin. (2)) este corectă.",
+      "euLawNote": "Nu intră sub incidența Directivei (UE) 2015/1535 (TRIS, reglementări tehnice/servicii digitale) și nici a Directivei (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate), neafectând piața internă sau concurența. Din contră, măsura este aliniată cu principiile europene privind o mai bună legiferare (Better Regulation) și transparența decizională.",
       "senatForm": {
-        "articleRef": "Articol unic – art. 30 alin. (1) lit. e)",
-        "proposalContent": "e) tabele comparative pentru proiectele care modifică, completează sau abrogă dispoziții în vigoare, cu textul integral al fiecărei dispoziții vizate în prima coloană și forma propusă ori mențiunea «se abrogă» în a doua; pentru dispozițiile noi se indică lipsa unui text corespondent. Tabelele se actualizează și se publică odată cu fiecare formă oficială a proiectului.",
-        "argumentation": "Tabelul este util, dar trebuie să arate și abrogările și să permită urmărirea schimbărilor intervenite în procedură. Publicarea și actualizarea expresă fac informația accesibilă cetățenilor și evită comparațiile bazate pe versiuni depășite.",
-        "otherComments": "Destinatar: Comisia juridică a Camerei Deputaților, Pl-x 600/2026. Termenul pentru amendamente, 30.09.2026, a trecut; valorificarea propunerii depinde de procedura parlamentară. Se recomandă și corelarea art. 30 alin. (2) cu noua literă."
-      }
+        "articleRef": "Articol unic - art. 30 alin. (1) lit. e)",
+        "proposalContent": "„e) tabelul comparativ care cuprinde, într-o primă coloană, reglementarea în vigoare, atunci când este cazul, iar într-o a doua coloană, forma propusă spre adoptare sau mențiunea abrogării, pentru fiecare dispoziție care face obiectul modificării, completării sau abrogării;”",
+        "argumentation": "Potrivit art. 58 din Legea nr. 24/2000, intervențiile legislative includ nu doar modificarea și completarea, ci și abrogarea. Fără includerea expresă a abrogărilor, eliminarea unor articole importante (adesea ascunsă în dispozițiile finale) ar putea lipsi din tabelul comparativ, reducând transparența urmărită de proiect.",
+        "otherComments": "Recomandăm și corelarea art. 30 alin. (2) și (3) din Legea nr. 24/2000, astfel încât enumerarea instrumentelor de prezentare și procedura angajării răspunderii Guvernului să includă expres tabelul comparativ. Totodată, o normă tranzitorie ar clarifica aplicarea doar proiectelor inițiate după intrarea în vigoare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 34339,
+      "sourceEndMarker": "SF-9A5273C0",
+      "riskScore": 1,
+      "riskLevel": "green",
+      "plainTitle": "Fiecare proiect care schimbă o lege trebuie să arate textul vechi lângă cel nou",
+      "verdictShort": "Este o măsură tehnică, benignă și utilă pentru transparență: proiectele care modifică legi trebuie să aibă un tabel cu „înainte” și „după”. Riscurile sunt minime. Textul are însă câteva goluri de redactare: abrogările nu sunt menționate, iar proiectele pentru care Guvernul își angajează răspunderea rămân în afara regulii.",
+      "initiatorClaim": "Inițiatorii spun că modificările legislative sunt greu de urmărit, pentru că apar fragmentat. Un tabel comparativ obligatoriu ar ajuta parlamentarii, instituțiile avizatoare, presa și cetățenii să vadă imediat ce se schimbă.",
+      "realityCheck": "Articolul unic adaugă la art. 30 alin. (1) din Legea nr. 24/2000 o lit. e) nouă. Tabelul comparativ intră astfel printre documentele de motivare obligatorii pentru proiectele care modifică sau completează acte în vigoare. Formularea vorbește doar de „modificare sau completare”, nu și de abrogare. Alin. (2) și (3) ale art. 30 nu sunt actualizate, deci proiectele asumate de Guvern rămân exceptate. Nu există o sancțiune sau o regulă de actualizare a tabelului după amendamente.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. unic introduce art. 30 alin. (1) lit. e): tabelul comparativ devine document obligatoriu care însoțește proiectul, cu reglementarea în vigoare pe o coloană și forma propusă pe cealaltă, pentru fiecare dispoziție modificată sau completată.",
+        "Abrogările nu sunt menționate („modificării sau completării”). Tocmai eliminarea unor dispoziții, care poate avea efecte majore, ar putea scăpa obligației de tabel.",
+        "Art. 30 alin. (3), nemodificat, enumeră limitativ documentele pentru proiectele asumate de Guvern: expunerea de motive și, după caz, raportul de la art. 29. Ca normă specială, poate exclude tabelul exact acolo unde dezbaterea parlamentară lipsește.",
+        "Art. 30 alin. (2), care definește „instrumentele de prezentare și motivare”, nu este completat cu tabelul comparativ. Rezultă o incoerență internă minoră.",
+        "Legea nr. 24/2000 se aplică și actelor administrației centrale și locale. Obligația va viza deci și HG-uri, ordine de ministru sau, după caz, acte ale autorităților locale. Pentru instituțiile mici apare o sarcină administrativă suplimentară, dar redusă."
+      ],
+      "blindSpotsCaught": "Propunerea nu acoperă trei situații. Prima: tabelul nu trebuie actualizat după amendamentele din comisii și plen, iar forma finală poate diferi mult de cea inițială. A doua: lipsește o cerință de publicare în format deschis. A treia: sintagma „atunci când este cazul” poate fi invocată pentru a ocoli obligația. În plus, art. 30 alin. (3) rămâne o excepție de facto pentru angajarea răspunderii Guvernului.",
+      "constitutionalityNote": "Nu ridică probleme de constituționalitate. Măsura sprijină principiul calității legii și al previzibilității derivat din art. 1 alin. (5) din Constituție. Jurisprudența CCR a reținut că normele de tehnică legislativă au relevanță constituțională prin prisma acestui articol. Propunerea respectă art. 74 și art. 75 din Constituție și se adoptă ca lege ordinară, conform art. 76 alin. (2), cum indică formula de adoptare.",
+      "euLawNote": "Nu intră sub incidența Directivei (UE) 2018/958, pentru că nu reglementează accesul la profesii, și nici a Directivei (UE) 2015/1535 (TRIS), pentru că nu conține reguli tehnice privind produse sau servicii ale societății informaționale. Nu afectează piața unică sau concurența. Măsura este în acord cu principiile UE de „better regulation” și transparență legislativă.",
+      "senatForm": {
+        "articleRef": "Art. unic – art. 30 alin. (1) lit. e) L. 24/2000",
+        "proposalContent": "„e) tabelul comparativ care cuprinde, într-o primă coloană, reglementarea în vigoare, iar într-o a doua coloană, forma propusă, pentru fiecare dispoziție modificată, completată sau abrogată, inclusiv în cazul proiectelor prevăzute la alin. (3);” Se completează corespunzător și alin. (2) cu mențiunea tabelului comparativ.",
+        "argumentation": "Textul inițiatorului omite abrogările, care pot avea efecte majore. Alin. (3) enumeră limitativ documentele pentru proiectele asumate de Guvern, deci tabelul n-ar fi obligatoriu tocmai unde dezbaterea parlamentară lipsește. Alin. (2) trebuie actualizat pentru coerența art. 30.",
+        "otherComments": "Propun și obligația ca tabelul să fie actualizat după amendamentele adoptate în fiecare Cameră și publicat pe site-ul Camerei în format deschis. De asemenea, propun înlocuirea sintagmei „atunci când este cazul” cu „pentru actele care modifică, completează sau abrogă acte în vigoare”, pentru a evita interpretări care ocolesc obligația."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 51628,
+      "sourceEndMarker": "SF-9A5273C0",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Tabele comparative obligatorii pentru modificările legislative",
+      "verdictShort": "Proiect util, cu risc redus: face modificările legislative mai ușor de urmărit, fără taxe, sancțiuni sau restricții economice noi. Eficiența sa depinde însă de publicarea și actualizarea tabelelor, aspecte pe care textul nu le reglementează expres.",
+      "initiatorClaim": "Inițiatorii urmăresc creșterea transparenței și a calității legiferării prin prezentarea în paralel a textului existent și a modificărilor propuse. Ei apreciază că obligația poate fi îndeplinită cu resursele existente.",
+      "realityCheck": "Articolul unic adaugă tabelul comparativ documentelor obligatorii care însoțesc proiectele de acte normative, pentru dispozițiile modificate sau completate; obligația nu este limitată la proiectele discutate în Parlament. Nu stabilește expres publicarea tabelului, actualizarea după amendamente sau includerea abrogărilor. Sarcina administrativă revine elaboratorilor proiectelor, fără obligații directe noi pentru cetățeni ori IMM-uri; costul efectiv nu este cuantificat.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Articolul unic introduce art. 30 alin. (1) lit. e): legea actuală enumeră documente de motivare și studii de impact, iar proiectul adaugă obligația unui tabel cu textul existent și forma propusă pentru fiecare dispoziție modificată sau completată.",
+        "Abrogările nu sunt menționate expres. Prin urmare, textul nu garantează prezentarea în tabel a dispozițiilor eliminate integral, deși acestea pot produce efecte importante.",
+        "Proiectul nu introduce o obligație expresă de publicare sau actualizare a tabelului după amendamente și nici o sancțiune proprie pentru lipsa acestuia; regulile procedurale generale rămân aplicabile.",
+        "Textul furnizat se încheie după articolul unic și formula de adoptare: nu conține derogări, dispoziții tranzitorii, abrogări sau modificări ascunse ale altor legi."
+      ],
+      "blindSpotsCaught": "Tabelul este introdus în lista documentelor de motivare, dar enumerarea instrumentelor din art. 30 alin. (2) rămâne nemodificată. Este necesară și verificarea corelării cu alin. (3), care stabilește documentele pentru proiectele asupra cărora Guvernul își angajează răspunderea. Aceste necorelări justifică precizări tehnice, fără să transforme proiectul într-unul cu risc major.",
+      "constitutionalityNote": "Obligația sprijină accesibilitatea procesului legislativ și obiectivul calității legii asociat art. 1 alin. (5) din Constituție. Omisiunile privind abrogările și actualizarea tabelelor sunt probleme de completitudine și aplicare, fără a demonstra singure neconstituționalitatea. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident, deoarece proiectul nu introduce pedepse. Evaluarea se bazează pe documentele furnizate; verificarea online nu a fost posibilă.",
+      "euLawNote": "Directiva (UE) 2018/958 privește evaluarea proporționalității reglementărilor care restrâng accesul la profesii reglementate sau exercitarea acestora; proiectul nu introduce asemenea restricții. Nu rezultă o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535: textul nu stabilește reglementări tehnice pentru produse sau norme privind serviciile societății informaționale. Nu sunt identificate bariere pentru concurență ori piața unică.",
+      "senatForm": {
+        "articleRef": "Articolul unic – art. 30 alin. (1) lit. e)",
+        "proposalContent": "e) tabele comparative pentru proiectele care modifică, completează sau abrogă dispoziții în vigoare, cu două coloane: textul în vigoare și textul propus ori mențiunea «abrogat». Tabelele se publică împreună cu proiectele și se actualizează pentru forma supusă adoptării;",
+        "argumentation": "Includerea expresă a abrogărilor permite urmărirea dispozițiilor eliminate. Publicarea și actualizarea tabelului asigură accesul publicului la comparația relevantă pentru forma adoptată, inclusiv după amendamente.",
+        "otherComments": "Se recomandă corelarea art. 30 alin. (2) și (3) cu noua obligație. Destinatar: Comisia juridică, de disciplină și imunități a Camerei Deputaților, pentru Pl-x 600/2026. Termenul de amendamente indicat în fișă, 30.09.2026, este depășit; preluarea propunerii depinde de procedura parlamentară aplicabilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 1.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T22:33:35.637Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:59:00.637Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

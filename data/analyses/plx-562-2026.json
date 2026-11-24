@@ -1,14 +1,42 @@
 {
   "billId": "PL-x 562/2026",
   "slug": "plx-562-2026",
-  "updatedAt": "2026-10-28T23:25:13.358Z",
+  "version": "senat",
+  "updatedAt": "2026-11-24T15:01:05.791Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 2484,
+    "ordinanceChars": 0,
+    "memoChars": 8713,
+    "memoSupplied": 8713,
+    "marker": "SF-2D77A149"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-562-2026.json",
+    "form": "senat",
+    "textHash": "2d77a149d67ac4ee",
+    "fetchedAt": "2026-11-19T10:07:03.125Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1261,
+    "truncated": false,
+    "included": true,
+    "key": "f3928d0efb60063a"
+  },
   "consensus": {
-    "riskScore": 3.3,
-    "riskLevel": "green",
-    "plainTitle": "Facturi în lei la cursul BNR, fără comision, când prețul e în euro",
-    "summaryTlDr": "Lege utilă și fără capcane pentru cetățeni: cine îți vinde în euro trebuie să te factureze în lei la cursul BNR, fără „cursul casei” și fără comision. Textul are însă o portiță (prețul în lei indexat la euro), nu prevede amenzi și aplică regula de drept contractelor în curs, punct vulnerabil la CCR.",
-    "initiatorClaim": "Inițiatorii, 24 de parlamentari USR, spun că unii profesioniști stabilesc prețul în euro, dar facturează în lei la un curs propriu sau cu marje și comisioane ascunse. Exemplele lor sunt leasingul, serviciile financiare și abonamentele pe termen lung. Ei vor un standard unic, cursul BNR fără adaos, și informarea clară a consumatorului înainte de semnare.",
-    "realityCheck": "Mecanic, art. 18¹ obligă orice profesionist care stabilește prețul în valută să îi factureze consumatorului în lei, la cursul BNR din ziua lucrătoare anterioară, fără marjă sau comision, și să îl informeze dinainte. Art. 70 cere ca, în 90 de zile, contractele în curs să fie aliniate prin act adițional gratuit; altfel, regula li se aplică de drept. Legea nu plafonează prețul: profesionistul poate urca prețul în euro sau poate trece direct la lei, dar costul devine vizibil, nu mai e ascuns în curs. Chichițele: prețul în lei indexat la euro poate scăpa de interdicție, nu există o sancțiune dedicată, iar excepția cu „acord expres” poate deveni o simplă bifă în contractul standard.",
+    "riskScore": 4,
+    "riskLevel": "yellow",
+    "plainTitle": "Prețurile în euro se facturează în lei la cursul BNR, fără adaos la curs",
+    "summaryTlDr": "Scopul e bun și concret: dispare „cursul casei” cu marjă ascunsă, întâlnit des la leasing, chirii sau apartamente vândute în euro. Textul e însă redactat neglijent: cursul aplicabil e ambiguu, nu e clar ce sancțiune primește cine încalcă regula, se aplică forțat contractelor în curs și nu ține cont de vânzătorii din alte state UE.",
+    "initiatorClaim": "Inițiatorii USR spun că profesioniștii care stabilesc prețul în euro și facturează în lei aplică cursuri proprii, marje și comisioane pe care consumatorul nu le vede clar. Vor un standard unic: factură în lei, la cursul BNR, fără costuri adăugate la curs.",
+    "realityCheck": "Noul art. 18¹ obligă orice profesionist care contractează cu un consumator un preț în valută să emită factura în lei, la cursul BNR, și interzice orice marjă aplicată cursului. Plata în valută rămâne posibilă doar cu acordul expres al consumatorului și numai unde „dispozițiile legale aplicabile” o permit, dispoziții pe care textul nu le numește. Art. 70 impune în 90 de zile acte adiționale la contractele în derulare, iar dacă acestea lipsesc, regula se aplică oricum de drept. Riscul de curs dintre emiterea facturii și cumpărarea valutei trece la profesionist, care îl poate recupera majorând prețul în euro. Legea elimină marja ascunsă din curs, nu și costul în sine.",
     "affectedGroups": [
       "Toți cetățenii",
       "IMM & Antreprenori",
@@ -16,115 +44,146 @@
       "Șoferi & Auto"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct. 1, art. 18¹ alin. (1)",
-      "proposalContent": "(1) În contractele dintre profesioniști și consumatori în care prețul este exprimat în euro sau în altă monedă străină ori este indexat sau calculat prin raportare la cursul unei monede străine, suma de plată în lei se determină exclusiv potrivit alin. (2) și (3) și se înscrie pe factură, alături de valoarea în valută și de cursul aplicat.",
-      "argumentation": "Textul acoperă doar prețul „exprimat în euro”. Clauza „prețul în lei = echivalentul a X euro la cursul nostru + 2%” poate fi prezentată ca preț în lei și scăpa de interdicție, deși e chiar practica din expunerea de motive. Amendamentul închide breșa. Cerința „sumă în lei pe factură”, în loc de „factură în lei”, evită tensiunea cu art. 230 din Directiva TVA.",
-      "otherComments": "Art. 70 trebuie mutat în corpul legii (art. II): în OG 21/1992, „prezenta lege” e ambiguu. Alin. (4) să vizeze expres doar facturile emise după intrarea în vigoare, ca să reducă riscul de retroactivitate (art. 15 alin. (2) Constituție). Art. 18¹ trebuie trecut în articolul de contravenții al OG. La art. 18¹ alin. (5), acordul consumatorului să fie dat separat de contract."
+      "articleRef": "Art. unic pct.1-2: art.18¹ alin.(2), (6); art.70",
+      "proposalContent": "Alin.(2): «Conversia se face la cursul de referință publicat de BNR în ultima zi bancară anterioară datei emiterii facturii.» Alin.(6) nou: «Încălcarea alin.(1)-(4) constituie contravenție și se sancționează potrivit art.50.» Art.70 devine art.II în legea de completare, cu «profesioniștii» în loc de «comercianții».",
+      "argumentation": "BNR publică pe la ora 13 cursul valabil pentru ziua bancară următoare, deci textul actual nu spune clar ce curs se aplică. Fără trimitere expresă la regimul sancționator, ANPC nu are temei clar de amendă (OG 2/2001). Normele tranzitorii trebuie să stea în legea de completare (Legea 24/2000), nu permanent în OG.",
+      "otherComments": "Limitați aplicarea la profesioniștii stabiliți în România sau clarificați situația comerțului online transfrontalier (art.56 TFUE, art.230 din Directiva TVA). Precizați ce «dispoziții legale» permit plata în valută la alin.(5), de exemplu regulamentul valutar BNR, și coordonați textul cu regimul creditelor de consum și ipotecare."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 82399,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Facturarea în lei exclusiv la cursul BNR, fără adaosuri valutare, pentru contractele cu preț în euro",
-      "verdictShort": "O inițiativă benefică pentru consumatori, care elimină practica ascunsă a „cursului BNR + 1-2%” sau a cursului băncii comerciale din facturile de leasing, telefonie și imobiliare. Textul adoptat tacit de Senat suferă însă de erori tehnice: omite să lege noua obligație de articolul cu sancțiuni din OG 21/1992 și intervine retroactiv în contractele deja semnate.",
-      "initiatorClaim": "Inițiatorii urmăresc eliminarea costurilor suplimentare ascunse generate de cursurile valutare proprii sau marjele aplicate unilateral de comercianți atunci când prețul din contract este exprimat în euro, dar factura se plătește în lei.",
-      "realityCheck": "Măsura aliniază cursul de facturare B2C la standardul deja folosit în Codul Fiscal (cursul BNR din ziua lucrătoare precedentă), ceea ce ajută atât consumatorii, cât și contabilii. Totuși, proiectul creează o obligație fără sancțiune (nu modifică art. 50 din OG 21/1992) și impune birocratic emiterea de acte adiționale în 90 de zile pentru toate contractele în derulare, deși prevede simultan că regula se aplică oricum „de drept”.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 89154,
+      "sourceEndMarker": "SF-2D77A149",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Facturi în lei exclusiv la cursul BNR, fără adaos, și acte adiționale obligatorii",
+      "verdictShort": "Intenția de a elimina adaosurile ascunse la cursul valutar este legitimă, dar proiectul a trecut tacit de Senat cu vicii grave de redactare: uită să prevadă sancțiuni în OG 21/1992 și impune birocrație inutilă pentru milioane de contracte aflate deja în derulare.",
+      "initiatorClaim": "Inițiatorii (parlamentari USR) susțin că vor să oprească practica firmelor (în special leasing, servicii financiare și abonamente) de a afișa prețuri în euro și de a factura în lei la cursuri proprii umflate cu marje sau comisioane netransparente.",
+      "realityCheck": "Legea obligă firmele să factureze în lei strict la cursul BNR din ziua lucrătoare precedentă (ora 13:00), fără niciun adaos, ceea ce le împiedică să acopere marja reală a băncilor la cumpărarea valutei și le va împinge să includă preventiv un adaos direct în prețul de bază în euro. În plus, art. 70 impune emiterea de acte adiționale în 90 de zile pentru toate contractele în derulare, deși alin. (4) aplică oricum regula de drept, iar proiectul nu modifică art. 50 din OG 21/1992, lăsând noile obligații fără o sancțiune contravențională proprie.",
       "affectedGroups": [
         "Toți cetățenii",
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
-        "Șoferi & Auto",
-        "Proprietari & Imobiliare"
+        "Șoferi & Auto"
       ],
       "keyFindings": [
-        "Interzicerea marjelor de curs valutar (Art. 18¹ alin. 1-3): Obligă la emiterea facturilor în lei strict la cursul BNR din ziua lucrătoare precedentă (publicat la ora 13:00), eliminând comisioanele de conversie și „cursul băncii finanțatorului” folosite frecvent în leasing auto, telefonie și imobiliare.",
-        "Omisiunea sancțiunii – lex imperfecta (Art. 18¹ raportat la Art. 50 din OG 21/1992): Proiectul introduce art. 18¹, dar uită să modifice art. 50 din OG 21/1992 (care enumeră limitativ articolele a căror încălcare constituie contravenție). Fără această corelare, ANPC nu poate aplica amenzi în baza OG 21/1992.",
-        "Birocrație contradictorie și intervenție în contractele în derulare (Art. 70 alin. 2-4): Obligă comercianții să trimită acte adiționale în 90 de zile pentru toate contractele active, deși alin. (4) prevede că, dacă nu o fac, legea se aplică „de drept” (automat), făcând actele adiționale complet inutile."
+        "Lipsa totală a sancțiunilor (lex imperfecta): deși Expunerea de Motive mizează pe amenzile ANPC, proiectul introduce art. 18^1 și art. 70 fără să completeze art. 50 din OG 21/1992 (articolul contravențiilor), făcând sancționarea directă imposibilă.",
+        "Birocrație absurdă pe contractele în derulare (art. 70 alin. 2-4): firmele sunt obligate ca în 90 de zile să trimită «act adițional comunicat consumatorului» (o contradicție juridică, actul adițional fiind bilateral), deși alin. (4) prevede că art. 18^1 se aplică oricum de drept dacă nu se face modificarea.",
+        "Efect economic bumerang (art. 18^1 alin. 2-3): cursul BNR este un curs de referință, nu unul de tranzacționare; firmele cu finanțare sau furnizori în euro (leasing, telecom, importatori) nu pot cumpăra valută la cursul BNR și vor transfera marja bancară în prețul inițial exprimat în euro.",
+        "Vicii evidente de tehnică legislativă: art. 18^1 folosește termenul «profesioniști», art. 70 folosește «comercianții», iar OG 21/1992 operează cu «operatori economici»; art. 70 introduce norme tranzitorii referitoare la «prezenta lege» în corpul unei ordonanțe din 1992; lipsesc reguli pentru valutele necotate de BNR și apare eroarea «date emiterii».",
+        "Tensiune cu Codul fiscal: art. 290 alin. (2) din Codul fiscal permite în prezent utilizarea cursului băncii comerciale pentru facturarea în lei a prețurilor în valută, flexibilitate restrânsă unilateral în relația B2C fără corelare legislativă."
       ],
-      "blindSpotsCaught": "Proiectul încalcă unitatea terminologică cerută de Legea nr. 24/2000: OG 21/1992 operează cu noțiunea definită de „operator economic” (art. 2 pct. 3), în timp ce proiectul introduce termenul „profesioniști” la art. 18¹ și „comercianți” la art. 70, plus o eroare materială la art. 18¹ alin. (2) („date emiterii facturii” în loc de „datei emiterii facturii”).",
-      "constitutionalityNote": "Aplicarea noilor reguli de preț/conversie asupra contractelor deja încheiate (art. 70 alin. 2-4) ridică probleme de neretroactivitate a legii civile (Art. 15 alin. 2 din Constituție și jurisprudența CCR privind modificarea legislativă a echilibrului prestațiilor în contractele în curs). De asemenea, lipsa sancțiunii și necorelarea terminologică afectează previzibilitatea normei (Art. 1 alin. 5 din Constituție).",
-      "euLawNote": "Proiectul este în acord cu principiile Directivei 2011/83/UE privind drepturile consumatorilor și ale Directivei 93/13/CEE privind clauzele abuzive (transparența prețului). Nu creează bariere profesionale sub incidența Directivei (UE) 2018/958 și nu necesită notificare TRIS (Directiva 2015/1535), dar trebuie aplicat fără a restricționa plățile transfrontaliere reglementate de Regulamentul (UE) 2021/1230.",
+      "blindSpotsCaught": "Proiectul a fost adoptat tacit de Senat (art. 75 alin. 2 teza a III-a Constituție) fără dezbatere pe fond, motiv pentru care au scăpat două chichițe majore: absența completării art. 50 din OG 21/1992 (obligație fără amendă specifică ANPC) și caracterul redundant al art. 70 alin. (2)-(3), care obligă la modificarea prin act adițional a tuturor contractelor existente în 90 de zile, deși alin. (4) produce automat exact același efect juridic la expirarea termenului.",
+      "constitutionalityNote": "Există vulnerabilități serioase pe art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii): inconsecvența terminologică internă («profesioniști» vs. «comercianți» vs. «operatori economici» din OG 21/1992), introducerea unei norme tranzitorii privind «prezenta lege» ca art. 70 în corpul unei ordonanțe de guvern (contrar Legii nr. 24/2000), confuzia juridică privind «actul adițional comunicat» unilateral și lacuna valutelor necotate de BNR. Modificarea de drept a mecanismului de preț din contractele în derulare (art. 70) ridică și discuții din perspectiva art. 15 alin. (2) (neretroactivitate, chiar dacă vizează facturi viitoare), art. 44 (drept de proprietate/creanță) și art. 45 (libertatea economică).",
+      "euLawNote": "Directiva (UE) 2018/958 (testul de proporționalitate) nu este incidentă (nu vizează profesii reglementate), iar Directiva (UE) 2015/1535 (TRIS) nu este aplicabilă direct (normă generală de protecție a consumatorilor, nu reglementare tehnică pentru servicii digitale). Totuși, art. 18^1 alin. (4) introduce o obligație nouă de informare precontractuală ce poate intra în coliziune cu armonizarea maximă a Directivei 2011/83/UE (drepturile consumatorilor), iar aplicarea nediferențiată asupra contractelor financiare/de leasing poate crea suprapuneri cu directivele sectoriale (2008/48/CE, 2014/17/UE) și restricții de libertate a serviciilor (art. 56 TFUE) pentru prestatorii transfrontalieri. În plus, regulile privind plata în valută vs. monedă națională ar fi trebuit verificate sub aspectul consultării BNR/BCE (Decizia 98/415/CE).",
       "senatForm": {
-        "articleRef": "Articolul unic (art. 18¹, art. 50 și art. 70)",
-        "proposalContent": "1. În tot textul, termenii „profesioniști” și „comercianți” se înlocuiesc cu „operatori economici”, iar la art. 18¹ alin. (2) „date” devine „datei”. 2. La art. 50 alin. (1) lit. c) din OG 21/1992 se introduce trimiterea la art. 18¹. 3. Art. 70 alin. (2)-(4) se reformulează astfel încât art. 18¹ să se aplice doar contractelor încheiate după intrarea în vigoare a legii.",
-        "argumentation": "Fără completarea art. 50 din OG 21/1992, încălcarea art. 18¹ rămâne fără sancțiune contravențională (lex imperfecta), ANPC neputând aplica amenzi prin analogie. Totodată, modificarea contractelor în derulare (art. 70) riscă neconstituționalitatea (art. 15 alin. 2 Constituție) și impune acte adiționale inutile când alin. (4) prevede aplicarea de drept.",
-        "otherComments": "OG 21/1992 definește și utilizează noțiunea de „operator economic” (art. 2 pct. 3), motiv pentru care folosirea alternativă a termenilor „profesioniști” și „comercianți” încalcă art. 37 alin. (1) din Legea 24/2000 privind unitatea terminologică. Alinierea cursului la cel din Codul Fiscal (BNR din ziua precedentă) este însă benefică pentru consumatori și contabili."
-      }
+        "articleRef": "Art. unic pct. 1 și 2 (art. 18^1 și art. 70)",
+        "proposalContent": "Mutarea art. 70 ca Art. II și eliminarea obligației de acte adiționale în 90 de zile (înlocuită cu aplicare pentru contracte noi sau simplă notificare). Înlocuirea termenilor «profesioniști»/«comercianți» cu «operatori economici», corectarea «datei emiterii» la art. 18^1(2), reglementarea valutelor necotate BNR și completarea art. 50 cu sancțiuni.",
+        "argumentation": "Art. 70 impune birocrație inutilă (acte adiționale obligatorii, deși alin. 4 aplică oricum regula de drept) și încalcă Legea 24/2000, introducând norme tranzitorii despre «prezenta lege» într-o ordonanță. Lipsa completării art. 50 lasă obligația fără sancțiuni ANPC, iar termenii neunitari încalcă art. 1 alin. (5) din Constituție.",
+        "otherComments": "Proiectul a trecut tacit de Senat fără dezbatere. Comisiile Camerei ar trebui să consulte BNR și să coreleze textul cu art. 290 alin. (2) Codul fiscal și cu OUG 50/2010 / OUG 52/2016 (servicii financiare), analizând impactul interzicerii integrale a costului bancar real de schimb valutar asupra prețurilor finale în euro."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 297411,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Facturi în lei la cursul BNR, fără comision, când prețul e în euro",
-      "verdictShort": "Lege utilă și fără capcane pentru cetățeni: cine îți vinde în euro trebuie să te factureze în lei la cursul BNR, fără „cursul casei” și fără comision. Textul are însă o portiță (prețul în lei indexat la euro), nu prevede amenzi și aplică regula de drept contractelor în curs, punct vulnerabil la CCR.",
-      "initiatorClaim": "Inițiatorii, 24 de parlamentari USR, spun că unii profesioniști stabilesc prețul în euro, dar facturează în lei la un curs propriu sau cu marje și comisioane ascunse. Exemplele lor sunt leasingul, serviciile financiare și abonamentele pe termen lung. Ei vor un standard unic, cursul BNR fără adaos, și informarea clară a consumatorului înainte de semnare.",
-      "realityCheck": "Mecanic, art. 18¹ obligă orice profesionist care stabilește prețul în valută să îi factureze consumatorului în lei, la cursul BNR din ziua lucrătoare anterioară, fără marjă sau comision, și să îl informeze dinainte. Art. 70 cere ca, în 90 de zile, contractele în curs să fie aliniate prin act adițional gratuit; altfel, regula li se aplică de drept. Legea nu plafonează prețul: profesionistul poate urca prețul în euro sau poate trece direct la lei, dar costul devine vizibil, nu mai e ascuns în curs. Chichițele: prețul în lei indexat la euro poate scăpa de interdicție, nu există o sancțiune dedicată, iar excepția cu „acord expres” poate deveni o simplă bifă în contractul standard.",
+      "durationMs": 74440,
+      "sourceEndMarker": "SF-2D77A149",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Prețurile în euro se facturează în lei la cursul BNR, fără adaos la curs",
+      "verdictShort": "Scopul e bun și concret: dispare „cursul casei” cu marjă ascunsă, întâlnit des la leasing, chirii sau apartamente vândute în euro. Textul e însă redactat neglijent: cursul aplicabil e ambiguu, nu e clar ce sancțiune primește cine încalcă regula, se aplică forțat contractelor în curs și nu ține cont de vânzătorii din alte state UE.",
+      "initiatorClaim": "Inițiatorii USR spun că profesioniștii care stabilesc prețul în euro și facturează în lei aplică cursuri proprii, marje și comisioane pe care consumatorul nu le vede clar. Vor un standard unic: factură în lei, la cursul BNR, fără costuri adăugate la curs.",
+      "realityCheck": "Noul art. 18¹ obligă orice profesionist care contractează cu un consumator un preț în valută să emită factura în lei, la cursul BNR, și interzice orice marjă aplicată cursului. Plata în valută rămâne posibilă doar cu acordul expres al consumatorului și numai unde „dispozițiile legale aplicabile” o permit, dispoziții pe care textul nu le numește. Art. 70 impune în 90 de zile acte adiționale la contractele în derulare, iar dacă acestea lipsesc, regula se aplică oricum de drept. Riscul de curs dintre emiterea facturii și cumpărarea valutei trece la profesionist, care îl poate recupera majorând prețul în euro. Legea elimină marja ascunsă din curs, nu și costul în sine.",
       "affectedGroups": [
         "Toți cetățenii",
-        "IMM & Antreprenori",
         "Șoferi & Auto",
         "Proprietari & Imobiliare",
-        "Contabili & Fiscalitate"
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 18¹ alin. (1)-(3): factura către consumator se emite în lei, la cursul BNR al zilei lucrătoare precedente, fără marje, adaosuri sau comisioane. Dispar practicile de tip „cursul casei” sau „BNR + 2%”, frecvente de exemplu la leasingul auto, la agențiile de turism și la dezvoltatorii imobiliari care vând în euro.",
-        "Art. 18¹ alin. (1) acoperă doar prețul „exprimat în euro sau în altă monedă străină”. Un preț stabilit în lei, dar indexat la euro după cursul propriu al profesionistului, poate fi prezentat ca preț în lei și poate scăpa de interdicție, deși expunerea de motive invocă tocmai indexarea în valută.",
-        "Art. 18¹ alin. (5): excepția (factură și plată în valută, cu „acordul expres” al consumatorului) se aplică doar în cazurile permise de legislația valutară, în principal Regulamentul BNR nr. 4/2005. Textul nu cere însă ca acordul să fie dat separat de contract. În plus, dacă plătește în valută, consumatorul suportă oricum marja de schimb a propriei bănci.",
-        "Art. 70 e inserat în OG 21/1992, deși vorbește despre „prezenta lege” și despre „comercianți”, în timp ce restul textului spune „profesioniști”. Locul corect al unei dispoziții tranzitorii e un articol distinct al legii de completare (art. II), conform tehnicii legislative din Legea nr. 24/2000.",
-        "Art. 70 alin. (4) aplică noile reguli de drept contractelor în curs, chiar fără act adițional. E punctul cel mai fragil. Codul civil (art. 6 alin. (2)) și Legea nr. 71/2011 (art. 102 alin. (1)) supun contractul legii de la data încheierii. Iar CCR a invalidat legea conversiei creditelor în franci elvețieni, care intervenea în contracte în derulare (Decizia nr. 62/2017).",
-        "Proiectul nu prevede nicio sancțiune pentru încălcarea art. 18¹ și nu modifică articolul de contravenții al OG 21/1992. Expunerea spune că ANPC va controla și sancționa „în cadrul atribuțiilor deja exercitate”, dar fără o contravenție anume, temeiul amenzii devine discutabil. Consumatorului îi rămâne calea instanței (clauze abuzive, Legea nr. 193/2000).",
-        "Pretext vs. realitate: cifrele ANPC din expunere (peste 5.000 de sancțiuni și peste 26 de milioane de lei amenzi în ianuarie 2026) privesc toate abaterile de la protecția consumatorului, nu conversia valutară. Expunerea nu cuantifică problema concretă pe care legea o rezolvă, deși problema există și e cunoscută."
+        "Art. 18¹ alin. (2) e ambiguu: BNR publică în jurul orei 13:00 cursul valabil pentru ziua bancară următoare. Formula „cursul comunicat pentru ziua lucrătoare precedentă datei emiterii facturii, publicat la ora 13.00” poate desemna două cursuri diferite. Textul are și o greșeală de redactare („date emiterii”).",
+        "Art. 18¹ alin. (3) interzice marjele, adaosurile și comisioanele aplicate cursului. E efectul util al legii, cu impact direct pe leasingul auto, chiriile, abonamentele și vânzările imobiliare de la dezvoltatori în euro, unde practica „curs BNR + 1-2%” e frecventă.",
+        "Proiectul nu modifică regimul sancționator al OG 21/1992 ca să trimită la art. 18¹. Contravențiile trebuie prevăzute expres (OG 2/2001), așa că ANPC ar putea să nu aibă temei clar de amendă. Ar rămâne doar nulitatea sau acțiunea civilă a consumatorului.",
+        "Art. 70 alin. (4) aplică de drept noul regim contractelor în executare. Aplicarea privește doar facturile viitoare (facta futura), dar modifică echilibrul economic convenit, ceea ce atinge libertatea contractuală.",
+        "Art. 70 e o normă tranzitorie inserată permanent în OG și se referă la „prezenta lege”, ceea ce e greșit din punctul de vedere al tehnicii legislative (Legea 24/2000). În plus, folosește „comercianți” în loc de „profesioniști”, terminologia actuală a OG 21/1992.",
+        "Art. 18¹ alin. (5) lasă excepția (factură și plată în valută) dependentă de „dispozițiile legale aplicabile”, fără să le numească (de exemplu, regulamentul valutar BNR). Domeniul excepției devine imprevizibil."
       ],
-      "blindSpotsCaught": "1. BNR nu cotează toate monedele, deci pentru o valută fără curs BNR alin. (2) nu oferă nicio regulă de conversie. 2. Alin. (2) fixează „ora 13.00”, deși BNR publică cursul în jurul acelei ore, și conține greșeala „date emiterii” în loc de „datei emiterii”. 3. Directiva TVA 2006/112/CE (art. 230) permite ca sumele de pe factură să fie exprimate în orice monedă, cu condiția ca TVA să fie în moneda națională. Obligația strictă de „factură în lei” intră astfel în tensiune cu directiva; mai sigur e să se ceară ca suma de plată în lei să apară pe factură. 4. Senatul a adoptat proiectul tacit (art. 75 alin. (2) teza a III-a din Constituție), deci Camera Deputaților e singurul loc unde textul este dezbătut efectiv.",
-      "constitutionalityNote": "Scopul, protecția consumatorului față de costuri ascunse, e legitim. Regula de curs e clară și verificabilă, așa că art. 18¹ trece în general testul de claritate și previzibilitate (art. 1 alin. (5)). Există însă trei probleme. Prima: art. 70, inserat într-o ordonanță cu trimitere la „prezenta lege”, și amestecul „profesioniști”/„comercianți” creează ambiguitate. A doua: lipsa unei contravenții dedicate ridică problema legalității sancțiunii (art. 1 alin. (5); principiul din art. 23 alin. (12), extins de CCR și CEDO la contravenții). A treia, cea mai serioasă: art. 70 alin. (4), care aplică regula de drept contractelor în curs, poate fi atacat pe art. 15 alin. (2), art. 44 și art. 45, în lumina Deciziei CCR nr. 62/2017. Apărarea solidă e că regula vizează doar facturile viitoare și are un impact economic redus (doar marja de curs); legea ar trebui să spună asta explicit.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: proiectul nu reglementează accesul la o profesie reglementată sau exercitarea ei. Nici TRIS (Directiva (UE) 2015/1535) nu impune notificarea, pentru că regula vizează toate contractele cu consumatorii, nu în mod specific serviciile societății informaționale. Informarea de la alin. (4) se încadrează în informațiile despre prețul total și modalitățile de plată din Directiva 2011/83/UE (art. 5 și 6). Interdicția marjei atacă aceeași problemă pe care CJUE a analizat-o, prin prisma Directivei 93/13/CEE, în cauza Kásler (C-26/13). Rămân de verificat trei aspecte: (1) art. 230 din Directiva TVA 2006/112/CE, care permite facturi în orice monedă; (2) aplicarea obligației profesioniștilor din alte state membre care vând online consumatorilor din România, o restricție la libera circulație (art. 34 și 56 TFUE) care trebuie justificată ca proporționată; (3) raportul cu regimurile speciale pentru creditele în valută (Directiva 2014/17/UE, transpusă prin OUG nr. 52/2016).",
+      "blindSpotsCaught": "Textul nu se limitează la profesioniștii stabiliți în România. Literal, un magazin online din Germania care vinde în euro unui consumator român ar trebui să emită factura în lei, la cursul BNR, ceea ce ridică probleme de libertate de circulație (art. 34 și 56 TFUE). Mai e o tensiune cu art. 230 din Directiva TVA 2006/112, potrivit căruia sumele de pe factură pot fi exprimate în orice monedă și doar TVA trebuie exprimată în moneda națională. La creditele în valută (bănci, IFN-uri), dacă excepția de la alin. (5) nu se aplică, regula poate intra în conflict cu regimul armonizat din Directiva 2014/17/UE și din noua Directivă (UE) 2023/2225 privind creditele de consum. Scrutinul tacit la Senat (art. 75 alin. 2 din Constituție) explică de ce aceste scăpări n-au fost corectate.",
+      "constitutionalityNote": "Riscul constituțional e moderat. Alin. (2) nu indică precis cursul aplicabil, deci claritatea e afectată (art. 1 alin. 5). Lipsa unei sancțiuni expres prevăzute face norma greu de aplicat, fără să o facă neconstituțională. Aplicarea de drept la contractele în curs (art. 70 alin. 4) nu e retroactivă în sensul art. 15 alin. (2), pentru că vizează doar facturile viitoare. Totuși, eliminarea marjei de curs convenite intervine în echilibrul contractual (art. 44 și 45). Curtea Constituțională a sancționat intervenții mai dure de acest tip, de exemplu legea conversiei creditelor în CHF (Decizia nr. 62/2017). Aici intervenția e mult mai limitată și urmărește un scop legitim (protecția consumatorilor, art. 135 alin. 2 lit. a), deci are șanse bune să treacă testul de proporționalitate.",
+      "euLawNote": "Directiva 2018/958 (testul de proporționalitate) nu se aplică, pentru că proiectul nu reglementează accesul la o profesie. Nici TRIS 2015/1535 nu e incidentă: nu e o regulă tehnică dedicată serviciilor societății informaționale. Problemele reale țin de piața unică: obligația generală de facturare în lei, extinsă la comercianții din alte state membre, poate fi o restricție nejustificată (art. 34 și 56 TFUE) și intră în tensiune cu art. 230 din Directiva TVA. Interzicerea costurilor ascunse de conversie e compatibilă cu spiritul Directivei 2005/29/CE (practici comerciale neloiale) și al Directivei 93/13/CEE (clauze abuzive). La creditul de consum și ipotecar, armonizarea europeană cere coordonare, ca să nu apară conflict cu directivele.",
       "senatForm": {
-        "articleRef": "Art. unic pct. 1, art. 18¹ alin. (1)",
-        "proposalContent": "(1) În contractele dintre profesioniști și consumatori în care prețul este exprimat în euro sau în altă monedă străină ori este indexat sau calculat prin raportare la cursul unei monede străine, suma de plată în lei se determină exclusiv potrivit alin. (2) și (3) și se înscrie pe factură, alături de valoarea în valută și de cursul aplicat.",
-        "argumentation": "Textul acoperă doar prețul „exprimat în euro”. Clauza „prețul în lei = echivalentul a X euro la cursul nostru + 2%” poate fi prezentată ca preț în lei și scăpa de interdicție, deși e chiar practica din expunerea de motive. Amendamentul închide breșa. Cerința „sumă în lei pe factură”, în loc de „factură în lei”, evită tensiunea cu art. 230 din Directiva TVA.",
-        "otherComments": "Art. 70 trebuie mutat în corpul legii (art. II): în OG 21/1992, „prezenta lege” e ambiguu. Alin. (4) să vizeze expres doar facturile emise după intrarea în vigoare, ca să reducă riscul de retroactivitate (art. 15 alin. (2) Constituție). Art. 18¹ trebuie trecut în articolul de contravenții al OG. La art. 18¹ alin. (5), acordul consumatorului să fie dat separat de contract."
-      }
+        "articleRef": "Art. unic pct.1-2: art.18¹ alin.(2), (6); art.70",
+        "proposalContent": "Alin.(2): «Conversia se face la cursul de referință publicat de BNR în ultima zi bancară anterioară datei emiterii facturii.» Alin.(6) nou: «Încălcarea alin.(1)-(4) constituie contravenție și se sancționează potrivit art.50.» Art.70 devine art.II în legea de completare, cu «profesioniștii» în loc de «comercianții».",
+        "argumentation": "BNR publică pe la ora 13 cursul valabil pentru ziua bancară următoare, deci textul actual nu spune clar ce curs se aplică. Fără trimitere expresă la regimul sancționator, ANPC nu are temei clar de amendă (OG 2/2001). Normele tranzitorii trebuie să stea în legea de completare (Legea 24/2000), nu permanent în OG.",
+        "otherComments": "Limitați aplicarea la profesioniștii stabiliți în România sau clarificați situația comerțului online transfrontalier (art.56 TFUE, art.230 din Directiva TVA). Precizați ce «dispoziții legale» permit plata în valută la alin.(5), de exemplu regulamentul valutar BNR, și coordonați textul cu regimul creditelor de consum și ipotecare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 110677,
-      "riskScore": 4,
-      "riskLevel": "yellow",
+      "durationMs": 93836,
+      "sourceEndMarker": "SF-2D77A149",
+      "riskScore": 3,
+      "riskLevel": "green",
       "plainTitle": "Facturi la cursul BNR, fără adaos valutar",
-      "verdictShort": "Proiectul oferă o protecție utilă împotriva adaosurilor valutare, fără taxe noi sau privilegii pentru anumite firme. Riscul moderat provine din necorelarea monedei facturii cu dreptul UE și din tranziția ambiguă pentru contractele existente.",
-      "initiatorClaim": "Inițiatorii urmăresc eliminarea costurilor suplimentare rezultate din cursuri valutare stabilite de profesioniști și informarea clară a consumatorilor. Statisticile generale ANPC invocate nu cuantifică însă problema specifică a adaosurilor valutare.",
-      "realityCheck": "Art. 18¹ impune, ca regulă, facturarea în lei la cursul BNR din ziua lucrătoare precedentă și interzice adaosurile asupra acestui curs, inclusiv pe cele convenite contractual, nu doar stabilite ulterior unilateral. Textul păstrează exprimarea prețului în valută, deci consumatorul suportă în continuare fluctuațiile valutare, iar interdicția nu garantează reducerea prețului total. Art. 70 cere adaptarea contractelor existente în 90 de zile, prin acte adiționale gratuite pentru consumator, dar lasă neclar regimul facturilor emise în acest interval.",
+      "verdictShort": "Proiectul oferă o protecție utilă împotriva adaosurilor de conversie valutară și nu introduce taxe, monopoluri sau sancțiuni disproporționate. Necesită însă clarificări privind contractele existente, obligația de facturare și aplicarea efectivă a regulilor.",
+      "initiatorClaim": "Inițiatorii urmăresc eliminarea costurilor suplimentare generate de cursurile stabilite de profesioniști și uniformizarea conversiei prețurilor în valută. Ei invocă și necesitatea informării clare a consumatorului înainte de contractare.",
+      "realityCheck": "Art. 18¹ introduce facturarea în lei la cursul BNR din ziua lucrătoare precedentă, interzice adaosurile asupra acestui curs și păstrează o excepție pentru facturarea și plata legală în valută, cu acord expres. Regula elimină marja de conversie, dar păstrează fluctuația prețului în lei determinată de curs și nu împiedică stabilirea unor prețuri contractuale viitoare mai mari. Art. 70 impune adaptarea contractelor existente în 90 de zile, însă nu delimitează suficient aplicarea regulilor în perioada tranzitorie și raportul dintre actul adițional comunicat și modificarea de drept.",
       "affectedGroups": [
         "IMM & Antreprenori",
-        "IT & AI",
         "Contabili & Fiscalitate",
         "Șoferi & Auto",
+        "Proprietari & Imobiliare",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 18¹ alin. (1)-(3): standardizarea conversiei face ofertele mai ușor de comparat și elimină o sursă de cost suplimentar. Nu introduce monopoluri, autorizări profesionale sau plafonarea prețului de bază; transferarea unor costuri în preț rămâne un posibil răspuns comercial.",
-        "Art. 18¹ alin. (5): facturarea și plata în valută cer cumulativ permisiunea legislației aplicabile și acordul expres al consumatorului. Simplul acord nu înlătură restricțiile valutare dintre rezidenți. [Regulamentul BNR nr. 4/2005, art. 2-3](https://legislatie.just.ro/Public/DetaliiDocument/60607).",
-        "Art. 70 alin. (2)-(4): comunicarea unui act adițional nu clarifică necesitatea acceptării sale. Aplicarea de drept în lipsa modificării protejează consumatorul, dar momentul aplicării trebuie precizat; obligația informării anterior încheierii contractului nu poate fi executată retrospectiv.",
-        "Art. 18¹ alin. (2): lipsesc soluții pentru monede fără curs BNR și pentru regularizări sau stornări. Data emiterii facturii influențează suma datorată, iar cursul contractual trebuie delimitat de regulile fiscale pentru TVA.",
-        "Proiectul nu stabilește amenzi noi distincte. Totuși, art. 50 alin. (1) lit. d) din OG nr. 21/1992 sancționează încălcarea art. 17-25 cu 1.000-10.000 lei; această trimitere poate acoperi noul art. 18¹ și trebuie corelată expres, evitând interpretările extensive. [OG nr. 21/1992](https://legislatie.just.ro/Public/DetaliiDocumentAfis/231463).",
-        "Nu apar cheltuieli bugetare obligatorii expres prevăzute, însă neutralitatea bugetară afirmată nu înseamnă absența costurilor administrative. IMM-urile suportă actualizarea programelor de facturare, documentelor și comunicărilor; consumatorului nu i se pot cere costuri pentru actul adițional."
+        "Regula este nouă: potrivit situației legislative furnizate, art. 18¹ și art. 70 nu există în prezent. Protecțiile generale deja aplicabile consumatorilor rămân în vigoare.",
+        "Art. 18¹ alin. (1)-(3) fixează un reper verificabil și interzice adaosurile asupra cursului. Nu plafonează prețul bunului sau serviciului și nu transformă prețul exprimat în valută într-un preț fix în lei.",
+        "Art. 18¹ alin. (1), prin formularea «au obligația de a emite facturi», poate fi interpretat ca instituind o obligație generală de facturare, inclusiv pentru operațiuni unde factura nu era obligatorie. Trebuie precizat dacă norma reglementează doar moneda facturilor emise potrivit legislației aplicabile.",
+        "Art. 18¹ alin. (5) cere cumulativ permisiunea legală pentru exprimarea și executarea obligației în valută și acordul expres al consumatorului. Acordul singur nu permite evitarea regulii; excepția privește expres numai alin. (1), ceea ce justifică precizarea tratamentului conversiei pentru aceste operațiuni.",
+        "Art. 70 alin. (2)-(4) nu precizează expres ce reguli guvernează facturile din primele 90 de zile. Nici simpla comunicare a unui act adițional nu clarifică dacă este necesară acceptarea consumatorului sau dacă modificarea operează direct prin lege.",
+        "Trimiterea art. 70 la întregul art. 18¹ include informarea anterioară contractării, imposibil de realizat retroactiv pentru contractele existente. Pentru acestea trebuie prevăzută o notificare privind efectele viitoare.",
+        "Proiectul nu introduce expres o contravenție pentru încălcarea noului articol. Afirmația din expunerea de motive despre sancționarea de către ANPC nu înlocuiește temeiul legal; sancțiunile existente pot fi aplicate numai dacă sunt îndeplinite condițiile lor.",
+        "Costurile directe sunt adaptarea programelor de facturare, revizuirea documentelor și comunicarea către clienți, inclusiv pentru IMM-uri. Nu sunt prevăzute taxe pentru cetățeni; statisticile generale ANPC invocate nu cuantifică separat problema adaosurilor valutare sau costul implementării."
       ],
-      "blindSpotsCaught": "Norma tranzitorie este introdusă în ordonanță ca art. 70, dar folosește expresia «prezentei legi», ceea ce face reperul temporal impropriu după încorporare. Ar trebui plasată distinct în legea de completare, cu delimitarea facturilor viitoare și a celor deja emise; această soluție respectă logica dispozițiilor tranzitorii și a încorporării modificărilor. [Legea nr. 24/2000, art. 54 și 62](https://legislatie.just.ro/Public/DetaliiDocument/262035).",
-      "constitutionalityNote": "Protecția consumatorului poate justifica limitarea libertății contractuale, cu respectarea art. 45 și 135. Principala vulnerabilitate privește art. 1 alin. (5): momentul aplicării, excepțiile și consecințele sancționatorii trebuie să fie previzibile. Aplicarea pentru viitor contractelor existente nu constituie automat retroactivitate, dar trebuie exclusă recalcularea obligațiilor deja consumate, în acord cu art. 15 alin. (2). Art. 23 alin. (12) privește legalitatea pedepselor; proiectul nu creează infracțiuni, iar analiza contravențională cere în primul rând claritate și tipicitate. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355?isFormaDeBaza=True).",
-      "euLawNote": "Directiva 2018/958 privește restricțiile asupra profesiilor reglementate, nu orice obligație impusă profesioniștilor; textul analizat nu declanșează, prin el însuși, testul special. Rămâne necesară justificarea proporționalității sarcinilor asupra prestatorilor transfrontalieri. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018L0958). TRIS nu rezultă aplicabil doar fiindcă norma acoperă și abonamente digitale sau AI: proiectul nu le vizează explicit și specific și nu stabilește specificații tehnice pentru produse. [Directiva 2015/1535, art. 1](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535). Problema concretă este art. 230 din Directiva TVA, care permite exprimarea sumelor facturate în orice monedă, cu TVA în moneda națională: obligația generală de facturare în lei prezintă un risc de incompatibilitate, distinct de stabilirea sumei plătibile în lei. [Directiva 2006/112/CE, art. 230](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A02006L0112-20250101).",
+      "blindSpotsCaught": "Art. 70 este introdus în OG nr. 21/1992, dar folosește repetat formula «intrarea în vigoare a prezentei legi». Dispozițiile tranzitorii ar trebui plasate distinct în legea de completare, pentru identificarea neechivocă a momentului de referință. Lipsa unei date speciale de intrare în vigoare atrage regula constituțională generală; termenul de 90 de zile nu reprezintă, prin el însuși, amânarea întregii legi.",
+      "constitutionalityNote": "Obiectivul este compatibil cu protejarea consumatorilor prevăzută de art. 135 alin. (2) lit. f). Principalele vulnerabilități țin de claritatea și previzibilitatea cerute de art. 1 alin. (5): tranziția, întinderea obligației de facturare și mecanismul modificării contractelor. Aplicarea la efectele viitoare ale contractelor existente nu încalcă automat art. 15 alin. (2); recalcularea obligațiilor deja consumate ar necesita o analiză distinctă și nu este cerută expres aici. Limitarea adaosurilor valutare nu apare vădit disproporționată față de libertatea economică protejată de art. 45. Art. 23 alin. (12) nu justifică singur o critică, deoarece proiectul nu introduce pedepse; eventualele sancțiuni trebuie să aibă un temei legal previzibil.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementării accesului la profesii reglementate și a exercitării acestora, nu orice restricție comercială; textul nu indică un asemenea obiect. Directiva (UE) 2015/1535 nu impune notificare TRIS doar pentru că regula poate afecta și servicii digitale: proiectul instituie o regulă generală de facturare, fără a viza specific serviciile societății informaționale. Standardizarea poate favoriza compararea ofertelor și concurența prin preț, deși generează costuri de adaptare. Trebuie verificată corelarea cu regimurile europene sectoriale și cu regulile TVA, deoarece conversia pentru plata facturii și conversia fiscală pot avea repere diferite. Nu rezultă o incompatibilitate evidentă din textul furnizat; normele conexe nu au putut fi reverificate online.",
       "senatForm": {
-        "articleRef": "Art. unic pct. 1 – art. 18¹ alin. (1)",
-        "proposalContent": "(1) Pe facturile emise în executarea contractelor dintre profesioniști și consumatori pentru bunuri sau servicii cu prețul exprimat în valută se înscrie distinct suma de plată în lei, calculată potrivit alin. (2)-(3), fără a aduce atingere normelor fiscale privind moneda facturii și conversia TVA.",
-        "argumentation": "Protecția consumatorului cere o sumă de plată verificabilă, fără adaos valutar. Art. 230 din Directiva 2006/112/CE permite exprimarea sumelor facturate în orice monedă, cu TVA în moneda națională. Propunerea păstrează conversia la cursul BNR și evită confundarea monedei facturii cu moneda plății.",
-        "otherComments": "Separat, mutați art. 70 într-un articol tranzitoriu al legii: aplicare automată, după 90 de zile, pentru facturile viitoare ale contractelor existente, cu notificare gratuită, fără acte adiționale obligatorii și fără recalcularea facturilor anterioare. Clarificați expres regimul contravențional."
-      }
+        "articleRef": "Art. unic pct. 2, art. 70 alin. (2)-(4)",
+        "proposalContent": "(2) Pentru contractele în derulare, art. 18¹ alin. (1)-(3) și (5) se aplică facturilor emise după expirarea a 90 de zile de la intrarea în vigoare a prezentei legi. (3) Profesioniștii notifică gratuit consumatorii în acest termen; modificarea operează de drept. (4) Art. 18¹ alin. (4) se aplică numai contractelor încheiate după intrarea în vigoare a legii.",
+        "argumentation": "Textul stabilește momentul aplicării pentru contractele existente, înlocuiește actele adiționale obligatorii cu notificarea gratuită și evită impunerea retroactivă a informării precontractuale. Reduce costurile administrative și incertitudinea privind necesitatea acceptării modificării.",
+        "otherComments": "Dispozițiile tranzitorii trebuie plasate distinct în legea de completare. Corelați art. 18¹ cu obligațiile fiscale de facturare și conversia TVA; clarificați excepția valutară, monedele fără curs BNR și temeiul sancțiunilor aplicabile."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T23:25:13.358Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:01:05.791Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

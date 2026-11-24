@@ -1,117 +1,173 @@
 {
   "billId": "PL-x 173/2026",
   "slug": "plx-173-2026",
-  "updatedAt": "2026-10-28T21:04:11.479Z",
+  "version": "senat",
+  "updatedAt": "2026-11-24T15:00:52.486Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 784,
+    "ordinanceChars": 0,
+    "memoChars": 23665,
+    "memoSupplied": 23665,
+    "marker": "SF-6811F5B4"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-173-2026.json",
+    "form": "senat",
+    "textHash": "6811f5b47b83d2b4",
+    "fetchedAt": "2026-11-19T10:36:43.807Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 2.3,
+    "riskScore": 2,
     "riskLevel": "green",
-    "plainTitle": "Impozitul minim global pe multinaționale: o singură declarație pe grup și schimb automat de date între fiscurile UE",
-    "summaryTlDr": "Lege tehnică, de transpunere obligatorie a DAC9. Nu creează taxe noi și nu atinge IMM-urile sau cetățenii, ci doar grupurile cu venituri consolidate de peste 750 de milioane de euro, cărora chiar le reduce birocrația. Riscurile sunt minore și procedurale.",
-    "initiatorClaim": "Guvernul spune că transpune Directiva (UE) 2025/872 (DAC9). Scopul declarat este ca grupurile multinaționale și naționale mari să depună centralizat Declarația informativă privind impozitul suplimentar (impozitul minim global de 15%), iar fiscurile din UE să-și transmită automat aceste date, ca să scadă povara administrativă pentru firme și pentru administrații.",
-    "realityCheck": "Legea are un articol unic și doar aprobă OG nr. 1/2026. Ordonanța a fost publicată în MO nr. 75 din 30.01.2026 și produce deja efecte. Ea modifică art. 291 alin. (4) și art. 291^2 din Codul de procedură fiscală și introduce trei articole noi: art. 291^7 (formatul declarației), art. 291^8 (termenele) și art. 291^9 (corecții și aplicare între state). Nu introduce niciun impozit nou, pentru că obligația de plată există deja în Legea nr. 431/2023. Singura chichiță: conținutul efectiv al declarației, adică punctele de date din Secțiunea IV a anexei DAC9, nu apare în lege. El vine prin ordin al președintelui ANAF.",
+    "plainTitle": "Marile grupuri multinaționale depun o singură declarație pentru impozitul minim global, iar ANAF o schimbă automat cu celelalte state UE",
+    "summaryTlDr": "Este o lege tehnică de transpunere a Directivei DAC9, utilă și cu termenul de transpunere (31.12.2025) deja depășit. Privește doar grupurile foarte mari (pragul Pilonului 2, de 750 mil. euro cifră de afaceri) și reduce raportarea multiplă. Riscurile reale sunt mărunte: delegarea modelului standard către un ordin ANAF și o contravenție legată de folosirea formularului.",
+    "initiatorClaim": "Guvernul spune că transpune DAC9 pentru a permite schimbul automat între statele UE al Declarației informative privind impozitul suplimentar (impozitul minim global, Legea 431/2023) și pentru a permite depunerea centralizată la nivel de grup, ca să scadă povara administrativă și să existe un temei pentru infringement evitat.",
+    "realityCheck": "Textul votat de Senat este un articol unic care aprobă fără modificări OG nr. 1/2026. Efectele concrete vin din ordonanță: noile art. 291^7–291^9 din Codul de procedură fiscală, completarea art. 291, 301, 305 și 336 și o nouă Anexă nr. 7. Modelul standard al declarației (Secțiunea IV din anexa DAC9) nu este preluat în lege, ci lăsat unui ordin al președintelui ANAF. În plus, se introduce o contravenție pentru folosirea altui formular decât cel prevăzut la art. 291^7 alin. (1).",
     "affectedGroups": [
       "Contabili & Fiscalitate",
-      "IMM & Antreprenori",
-      "IT & AI",
-      "Justiție & Drepturi Civile"
+      "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. 291^9 Legea 207/2015 (art. I OG 1/2026)",
-      "proposalContent": "Se introduce la art. 291^9 un alineat nou: „Când primește o notificare de la autoritatea altui stat membru privind informații incorecte sau incomplete, ANAF o comunică entității din România care a depus declarația și îi acordă un termen de cel puțin 30 de zile pentru corectare sau explicații, cu respectarea dreptului de a fi ascultat prevăzut la art. 9.”",
-      "argumentation": "Art. 291^9 permite ca ANAF să ceară corecții pe baza semnalărilor altor state, informații pe care firma nu le cunoaște. Un termen minim și dreptul de a fi ascultat asigură previzibilitate (art. 1 alin. 5 Constituție) și evită sancțiuni bazate pe date contestabile. DAC9 lasă statelor procedura internă, deci amendamentul e compatibil.",
-      "otherComments": "Restul OG e transpunere tehnică a DAC9 și reduce depunerile multiple; recomand aprobarea. Dacă art. 291^9 prevede deja audierea firmei, amendamentul e inutil. De verificat: încadrarea în art. 1 pct. I.1 din Legea 244/2025 și publicarea la timp a ordinului ANAF cu modelul declarației (Secțiunea IV din anexa DAC9 nu e în lege)."
+      "articleRef": "Art. unic – OG 1/2026, art. 336 CPF",
+      "proposalContent": "Se completează legea de aprobare: „Contravenția privind utilizarea altui formular decât cel prevăzut la art. 291^7 alin. (1) se aplică numai după 6 luni de la publicarea în Monitorul Oficial a ordinului președintelui ANAF care aprobă modelul standard; până atunci, ANAF notifică contribuabilul și acordă termen de 30 de zile pentru redepunere.”",
+      "argumentation": "Elementul faptei depinde de un formular aprobat prin ordin ulterior, la 60 de zile de la intrarea în vigoare a OG. Fără o perioadă de tranziție, sancțiunea poate lovi depuneri făcute cu bună-credință pe modelul OCDE GIR, ceea ce încalcă previzibilitatea (art. 1 alin. 5 din Constituție) și proporționalitatea cerută de art. 25a din Directiva 2011/16/UE.",
+      "otherComments": "Propunem și precizarea la art. 305 lit. d) a criteriilor pentru durata de păstrare de 5–10 ani. De asemenea, fișa financiară ar trebui completată cu costurile IT ale ANAF pentru schimbul automat. În rest, proiectul este tehnic, necesar și benefic, iar adoptarea rapidă este justificată de întârzierea transpunerii DAC9."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 35369,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 59239,
+      "sourceEndMarker": "SF-6811F5B4",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Aprobarea OG 1/2026: Schimb automat de date fiscale în UE privind impozitul minim global al multinaționalelor (DAC9)",
-      "verdictShort": "O lege tehnică de transpunere europeană (Directiva DAC9) care simplifică raportarea fiscală pentru grupurile multinaționale mari, permițând depunerea centralizată a declarației privind impozitul suplimentar și schimbul automat de date între fiscurile din UE.",
-      "initiatorClaim": "Guvernul urmărește transpunerea Directivei (UE) 2025/872 (DAC9) în Codul de procedură fiscală pentru a permite schimbul automat de informații între statele membre cu privire la impozitul minim global (Pilonul 2) și pentru a reduce povara administrativă prin depunerea unei declarații centralizate la nivel de grup.",
-      "realityCheck": "Legea aprobă fără modificări OG nr. 1/2026, care introduce în Codul de procedură fiscală articolele 291^7 - 291^9 și corectează un detaliu tehnic din DAC2 privind schimbul de informații despre conturile financiare. Efectul practic este pozitiv pentru filialele din România ale marilor corporații, care scapă de depunerea multiplă locală dacă societatea-mamă raportează centralizat în alt stat membru, însă lasă modelul efectiv al declarației (Secțiunea IV din Anexa directivei) în sarcina unui ordin al președintelui ANAF.",
+      "plainTitle": "Schimb automat de date în UE pentru impozitul minim global al marilor grupuri (DAC9)",
+      "verdictShort": "Lege tehnică, benignă, care aprobă OG nr. 1/2026 pentru transpunerea directivei europene DAC9 privind impozitul minim global al marilor multinaționale. Nu aduce taxe noi și nu afectează cetățenii sau IMM-urile, având doar mici scăpări de tehnică legislativă și de fundamentare bugetară.",
+      "initiatorClaim": "Guvernul susține că proiectul transpune Directiva (UE) 2025/872 (DAC9) în Codul de procedură fiscală pentru a permite schimbul automat de informații privind impozitul suplimentar (impozitul minim global) și depunerea centralizată a declarației de către marile grupuri, reducând sarcina administrativă și prevenind procedura de infringement.",
+      "realityCheck": "Forma adoptată de Senat conține un singur Articol unic care aprobă fără modificări OG nr. 1/2026 (publicată în M.Of. nr. 75/30.01.2026), fără a reproduce textul ordonanței. Conform expunerii de motive, OG nr. 1/2026 introduce în Legea nr. 207/2015 mecanismul de raportare și schimb automat al Declarației informative privind impozitul suplimentar (art. 291^7–291^9, Anexa nr. 7), repară o lacună privind schimbul de date pentru noile conturi financiare din DAC2 și adaugă o contravenție pentru neutilizarea formularului standard, formular care nu este însă în lege, ci delegat unui viitor ordin al președintelui ANAF.",
       "affectedGroups": [
         "Contabili & Fiscalitate"
       ],
       "keyFindings": [
-        "Articolul unic aprobă OG nr. 1/2026, care introduce art. 291^7 - 291^9 în Legea nr. 207/2015 pentru operaționalizarea schimbului automat de date aferent Declarației informative privind impozitul suplimentar (reglementat de Legea nr. 431/2023 pentru grupuri cu venituri de peste 750 milioane EUR).",
-        "Modificarea art. 291 alin. (4) și art. 291^2 acoperă o omisiune tehnică din transpunerile anterioare (DAC2), asigurând că noile tipuri de conturi financiare nu sunt doar raportate intern, ci fac și obiectul schimbului automat de informații între autoritățile fiscale.",
-        "Secțiunea IV din Anexa Directivei (UE) 2025/872 (care conține structura detaliată a punctelor de date din formularul standard GloBE) nu este inclusă direct în corpul legii, ci este delegată spre adoptare prin ordin al președintelui ANAF."
+        "Articol unic (forma Senatului): aprobă „în bloc” OG nr. 1/2026, emisă în temeiul legii de abilitare nr. 244/2025, ceea ce limitează vizibilitatea directă a modificărilor din Codul de procedură fiscală în textul proiectului de lege.",
+        "Art. 291^7–291^9 și Anexa nr. 7 din CPF (descrise în expunerea de motive): vizează strict grupurile de întreprinderi multinaționale și grupurile naționale de mari dimensiuni aflate sub incidența Legii nr. 431/2023, permițând depunerea centralizată a declarației (reducere reală de birocrație); prima comunicare între state are loc cel mai devreme la 1 decembrie 2026.",
+        "Art. 336 și art. II din OG (descrise în expunerea de motive): instituie o contravenție pentru utilizarea altui formular decât modelul standard de la art. 291^7 alin. (1), deși modelul standard (Secțiunea IV din Anexa DAC9) este scos din ordonanță și delegat unui OPANAF emis în termen de 60 de zile.",
+        "Art. 305 lit. d) și Secțiunea a 4-a a expunerii de motive: prevede păstrarea evidențelor 5–10 ani „în funcție de natura datelor transmise”, iar tabelul de impact bugetar este complet gol, fără estimarea costurilor IT ale ANAF."
       ],
-      "blindSpotsCaught": "Proiectul transpune Directiva (UE) 2025/872 cu excepția Secțiunii IV din Anexă, lăsând structura concretă a formularului standard în sarcina unui ordin ANAF; este esențial ca ANAF să nu adauge câmpuri naționale suplimentare (gold-plating) care ar compromite interoperabilitatea IT a raportării centralizate.",
-      "constitutionalityNote": "Actul normativ respectă temeiul constituțional al delegării legislative (art. 115 alin. 1-3 din Constituție, fiind emis în baza Legii de abilitare nr. 244/2025) și normele de tehnică legislativă, fără a ridica probleme de neconstituționalitate.",
-      "euLawNote": "Transpune fidel obligațiile din Directiva (UE) 2025/872 (DAC9) și se corelează cu Directiva (UE) 2022/2523 (Pilonul 2 OCDE/UE). Nu instituie bariere pe piața unică și nu intră sub incidența procedurii de notificare TRIS (Directiva 2015/1535) sau a testului de proporționalitate pe profesii reglementate (Directiva 2018/958).",
+      "blindSpotsCaught": "Secțiunea IV din Anexa DAC9 (modelul standard al declarației) nu a fost transpusă prin OG nr. 1/2026, ci lăsată în seama unui ordin al președintelui ANAF cu termen de 60 de zile, deși OG creează deja o contravenție la art. 336 pentru neutilizarea acestui formular. În plus, termenul UE de transpunere (31.12.2025) a fost depășit, iar consultarea publică pe Legea nr. 52/2003 a durat doar 7 zile (23–30 ianuarie 2026) în regim de urgență.",
+      "constitutionalityNote": "În ansamblu compatibilă cu Constituția (adoptată de Senat cu respectarea art. 76 alin. 2, aprobând o ordonanță simplă emisă în temeiul art. 115 alin. 1–3 și al Legii de abilitare nr. 244/2025). Există o sensibilitate minoră față de art. 1 alin. (5) (claritatea și previzibilitatea legii) prin legarea contravenției de la art. 336 de un formular tehnic stabilit ulterior prin act infralegal (OPANAF), precum și față de criteriul neprecizat al stocării datelor între 5 și 10 ani la art. 305 lit. d).",
+      "euLawNote": "Proiectul asigură transpunerea obligatorie a Directivei (UE) 2025/872 (DAC9), corelată cu Directiva (UE) 2022/2523 privind impozitul minim global, și corectează o omisiune anterioară din DAC2 privind schimbul de date pentru conturi financiare. Nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează profesii) și nici a Directivei (UE) 2015/1535 (TRIS, fiind transpunere de directivă în materie fiscală). Rămâne un risc rezidual de infringement pentru transpunere incompletă dacă OPANAF cu Secțiunea IV a Anexei nu este adoptat și notificat Comisiei Europene la timp.",
       "senatForm": {
-        "articleRef": "Articol unic (privind Art. II din OG nr. 1/2026)",
-        "proposalContent": "La articolul unic, se completează aprobarea OG nr. 1/2026 cu precizarea că Ordinul președintelui ANAF prevăzut pentru aprobarea modelului standard al Declarației informative privind impozitul suplimentar preia strict punctele de date din Secțiunea IV a Anexei la Directiva (UE) 2025/872, fără cerințe suplimentare de raportare națională.",
-        "argumentation": "Deși transpunerea DAC9 are chiar rolul de a reduce birocrația prin raportare centralizată la nivel de grup multinațional, delegarea Secțiunii IV din Anexa directivei către un ordin ANAF nu trebuie să permită adăugarea unor câmpuri naționale atipice (gold-plating), care ar anula compatibilitatea informatică europeană și ar îngreuna raportarea.",
-        "otherComments": "Proiectul este tehnic și benefic pentru conformarea fiscală a marilor grupuri de întreprinderi, aliniind România la standardul european DAC9. Clarificarea propusă garantează că legislația secundară emisă de ANAF rămâne fidelă formularului standardizat la nivel OCDE și UE."
-      }
+        "articleRef": "Articol unic (cu referire la art. 336 din CPF)",
+        "proposalContent": "Aprobarea OG nr. 1/2026 cu completarea art. II sau a art. 336 din Legea nr. 207/2015: contravenția pentru utilizarea altui formular decât modelul standard prevăzut la art. 291^7 alin. (1) devine aplicabilă la 30 de zile de la publicarea în Monitorul Oficial a ordinului președintelui ANAF care aprobă modelul standard.",
+        "argumentation": "Modelul standard al declarației (Secțiunea IV din DAC9) se adoptă ulterior prin OPANAF. Pentru respectarea principiului previzibilității legii (art. 1 alin. 5 din Constituție), sancțiunea contravențională trebuie să producă efecte abia după publicarea în Monitorul Oficial a ordinului care definește formularul obligatoriu.",
+        "otherComments": "Comisia ar trebui să solicite Ministerului Finanțelor și ANAF confirmarea publicării OPANAF în termenul de 60 de zile, pentru a evita riscul de infringement al Comisiei Europene pentru transpunere incompletă a DAC9, precum și o estimare a costurilor IT aferente, omisă din Secțiunea a 4-a a expunerii de motive."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 155977,
+      "durationMs": 36075,
+      "sourceEndMarker": "SF-6811F5B4",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Impozitul minim global pe multinaționale: o singură declarație pe grup și schimb automat de date între fiscurile UE",
-      "verdictShort": "Lege tehnică, de transpunere obligatorie a DAC9. Nu creează taxe noi și nu atinge IMM-urile sau cetățenii, ci doar grupurile cu venituri consolidate de peste 750 de milioane de euro, cărora chiar le reduce birocrația. Riscurile sunt minore și procedurale.",
-      "initiatorClaim": "Guvernul spune că transpune Directiva (UE) 2025/872 (DAC9). Scopul declarat este ca grupurile multinaționale și naționale mari să depună centralizat Declarația informativă privind impozitul suplimentar (impozitul minim global de 15%), iar fiscurile din UE să-și transmită automat aceste date, ca să scadă povara administrativă pentru firme și pentru administrații.",
-      "realityCheck": "Legea are un articol unic și doar aprobă OG nr. 1/2026. Ordonanța a fost publicată în MO nr. 75 din 30.01.2026 și produce deja efecte. Ea modifică art. 291 alin. (4) și art. 291^2 din Codul de procedură fiscală și introduce trei articole noi: art. 291^7 (formatul declarației), art. 291^8 (termenele) și art. 291^9 (corecții și aplicare între state). Nu introduce niciun impozit nou, pentru că obligația de plată există deja în Legea nr. 431/2023. Singura chichiță: conținutul efectiv al declarației, adică punctele de date din Secțiunea IV a anexei DAC9, nu apare în lege. El vine prin ordin al președintelui ANAF.",
+      "plainTitle": "Marile grupuri multinaționale depun o singură declarație pentru impozitul minim global, iar ANAF o schimbă automat cu celelalte state UE",
+      "verdictShort": "Este o lege tehnică de transpunere a Directivei DAC9, utilă și cu termenul de transpunere (31.12.2025) deja depășit. Privește doar grupurile foarte mari (pragul Pilonului 2, de 750 mil. euro cifră de afaceri) și reduce raportarea multiplă. Riscurile reale sunt mărunte: delegarea modelului standard către un ordin ANAF și o contravenție legată de folosirea formularului.",
+      "initiatorClaim": "Guvernul spune că transpune DAC9 pentru a permite schimbul automat între statele UE al Declarației informative privind impozitul suplimentar (impozitul minim global, Legea 431/2023) și pentru a permite depunerea centralizată la nivel de grup, ca să scadă povara administrativă și să existe un temei pentru infringement evitat.",
+      "realityCheck": "Textul votat de Senat este un articol unic care aprobă fără modificări OG nr. 1/2026. Efectele concrete vin din ordonanță: noile art. 291^7–291^9 din Codul de procedură fiscală, completarea art. 291, 301, 305 și 336 și o nouă Anexă nr. 7. Modelul standard al declarației (Secțiunea IV din anexa DAC9) nu este preluat în lege, ci lăsat unui ordin al președintelui ANAF. În plus, se introduce o contravenție pentru folosirea altui formular decât cel prevăzut la art. 291^7 alin. (1).",
       "affectedGroups": [
         "Contabili & Fiscalitate"
       ],
       "keyFindings": [
-        "Articol unic: aprobă fără modificări OG nr. 1/2026, emisă în baza art. 1 pct. I.1 din Legea nr. 244/2025. Ordonanța se aplică deja, deci votul Camerei o confirmă sau, prin amendamente, o poate corecta.",
-        "Art. 291^7 (nou): declarația informativă privind impozitul suplimentar prevăzută de Legea nr. 431/2023 se depune după un «model standard», adică declarația prevăzută la art. II din OG. Grupul poate depune centralizat, în loc ca fiecare entitate constitutivă să depună separat.",
-        "Art. 291^8 (nou): primul an de raportare este primul an fiscal care începe de la 31.12.2023. Pentru acest prim an, ANAF transmite datele în cel mult 6 luni de la termenul din art. 48 alin. (9) din Legea nr. 431/2023, dar nu mai devreme de 1.12.2026. Pentru statele care au amânat IIR/UTPR (art. 50 din Directiva 2022/2523) există un regim special.",
-        "Art. 291^9 (nou): ANAF notifică alte state membre când are motive să creadă că o declarație depusă acolo e incorectă și primește, la rândul său, notificări privind declarațiile depuse în România. Expunerea nu descrie cum este informată și ascultată firma vizată.",
-        "Art. 291 alin. (4) și art. 291^2: completează schimbul automat de informații pentru noile tipuri de conturi financiare. Raportarea acestora fusese deja reglementată, dar schimbul între state nu.",
-        "Pentru IMM-uri și cetățeni nu apar taxe, amenzi sau obligații noi. Pentru grupurile mari efectul net este o reducere a depunerilor multiple."
+        "Articolul unic aprobă OG 1/2026 fără modificări. Conținutul normativ efectiv (art. 291^7–291^9 și Anexa nr. 7 din Codul de procedură fiscală) este cunoscut aici doar din expunerea de motive, nu din textul supus votului.",
+        "Art. 291^8: primul an de raportare este primul an fiscal care începe de la 31.12.2023. Prima comunicare a ANAF are loc cel mai devreme la 1.12.2026, iar pentru primul an fiscal de raportare informațiile se comunică în cel mult 6 luni de la termenul prevăzut de art. 48 alin. (9) din Legea 431/2023. Există și regimuri speciale pentru statele care au optat pentru amânarea IIR/UTPR (art. 50 din Directiva 2022/2523).",
+        "Art. 291^9: ANAF are proceduri de corectare a erorilor evidente și de semnalare a neprimirii informațiilor. Când ANAF este notificat că un stat nu a primit informațiile, stabilește cauza și face schimbul în maximum 90 de zile.",
+        "Art. 336 completat: devine contravenție folosirea de către grupurile din Secțiunea III a Anexei nr. 7 a altui formular decât cel prevăzut la art. 291^7 alin. (1). Cuantumul amenzii nu apare în materialele furnizate, deci proporționalitatea nu poate fi verificată.",
+        "Art. 305 lit. d): informațiile primite prin schimb automat, inclusiv cele din art. 291^7, se păstrează între 5 și 10 ani, „în funcție de natura datelor”, fără criterii clare de alegere a perioadei.",
+        "Impactul asupra IMM-urilor și a cetățenilor este practic nul: sunt vizate exclusiv grupurile multinaționale și grupurile naționale de mari dimensiuni care intră sub incidența Legii 431/2023."
       ],
-      "blindSpotsCaught": "1) Secțiunea IV din anexa DAC9, adică exact ce date trebuie raportate, nu e transpusă în lege. Art. II din OG o lasă în seama unui ordin ANAF. Pentru formulare fiscale e o practică obișnuită, dar conținutul obligației depinde astfel de un act infralegal care trebuie publicat la timp în MO. 2) OG a apărut pe 30.01.2026, după termenul de transpunere al DAC9 (31.12.2025). Legea de aprobare figurează încă la stadiul «raport», deși are procedură de urgență. Practic nu contează, pentru că ordonanța se aplică deja. 3) Analiza se bazează pe Expunerea de motive, fiindcă textul integral al art. 291^7–291^9 nu a fost disponibil. Formulările exacte trebuie verificate în MO nr. 75/2026.",
-      "constitutionalityNote": "Nu se vede nicio problemă. Este o ordonanță simplă, emisă în baza unei legi de abilitare (art. 115 alin. 1–3), într-un domeniu de lege ordinară. Senatul a adoptat-o ca primă cameră, cu respectarea art. 76 alin. (2), iar Camera Deputaților decide (art. 75). Art. 56 și art. 139 nu sunt atinse, pentru că impozitul suplimentar e stabilit deja prin Legea nr. 431/2023. Nici art. 23 alin. (12) nu e pus în discuție, fiindcă Expunerea nu menționează sancțiuni noi. Previzibilitatea (art. 1 alin. 5) e asigurată de trimiterea la modelul standard OCDE/UE, cu condiția ca ordinul ANAF să fie publicat la timp. Rămâne de verificat dacă OG se încadrează în obiectul abilitării din art. 1 pct. I.1 din Legea nr. 244/2025 (art. 115 alin. 2).",
-      "euLawNote": "Legea transpune Directiva (UE) 2025/872 (DAC9), care modifică Directiva 2011/16/UE și pune în aplicare obligațiile de raportare din Directiva (UE) 2022/2523 (Pilonul 2), în linie cu Acordul multilateral GloBE al OCDE. Directiva 2018/958 nu se aplică, pentru că nu se reglementează accesul la vreo profesie. Nici TRIS 2015/1535 nu se aplică: nu sunt reguli tehnice privind produse sau servicii ale societății informaționale. Pentru piața unică efectul e pozitiv: un singur set de date pe grup, în format comun în toată UE. Schimbul de date intră sub garanțiile de confidențialitate și de protecție a datelor din art. 16 și art. 25 ale Directivei 2011/16/UE. Transpunerea completă depinde de ordinul ANAF care preia Secțiunea IV.",
+      "blindSpotsCaught": "Expunerea de motive afirmă că transpunerea se face „cu excepția Secțiunii IV din Anexa DAC9”, adică exact modelul standard al declarației, care va fi aprobat prin ordin ANAF în termen de 60 de zile. Contravenția din art. 336 se raportează însă la „formularul prevăzut la art. 291^7 alin. (1)”, deci elementul constitutiv al faptei depinde de un act administrativ ulterior. Dacă ordinul întârzie sau se modifică, previzibilitatea sancțiunii are de suferit. Fișa financiară (Secțiunea a 4-a) este goală, deși ANAF va avea costuri IT pentru schimbul automat. Dezbaterea publică a fost scurtată (afișare pe 23.01.2026, adoptare pe 30.01.2026), invocându-se riscul de infringement.",
+      "constitutionalityNote": "Ordonanța a fost emisă pe 30.01.2026, în baza legii de abilitare nr. 244/2025, în vacanța parlamentară, ceea ce respectă art. 115 alin. (1)–(3). Nu reglementează domenii de lege organică. Aprobarea prin lege ordinară, cu Camera Deputaților cameră decizională, este corectă (art. 75–76). Sub aspectul art. 1 alin. (5), riscul principal este trimiterea elementului material al contravenției la un formular stabilit prin ordin. Curtea Constituțională a acceptat astfel de norme de trimitere dacă actul subsecvent este publicat și accesibil. Păstrarea datelor timp de 5–10 ani privește în principal persoane juridice, deci impactul asupra art. 26 (viața privată) este redus, dar criteriul de alegere a duratei ar trebui precizat.",
+      "euLawNote": "Proiectul transpune Directiva (UE) 2025/872 (DAC9), care modifică Directiva 2011/16/UE, cu întârziere față de termenul din 31.12.2025, deci adoptarea este în interesul conformității cu dreptul UE. Directiva 2018/958 (testul de proporționalitate pentru profesii reglementate) nu este aplicabilă, pentru că nu se reglementează acces la profesii. Nici procedura TRIS (Directiva 2015/1535) nu se aplică: nu sunt reglementări tehnice privind produse sau servicii ale societății informaționale, ci obligații fiscale de raportare. Impactul pe piața unică este pozitiv, prin depunerea centralizată o singură dată per grup. Sancțiunea din art. 336 trebuie să fie efectivă, proporțională și disuasivă, conform art. 25a din Directiva 2011/16/UE.",
       "senatForm": {
-        "articleRef": "Art. 291^9 Legea 207/2015 (art. I OG 1/2026)",
-        "proposalContent": "Se introduce la art. 291^9 un alineat nou: „Când primește o notificare de la autoritatea altui stat membru privind informații incorecte sau incomplete, ANAF o comunică entității din România care a depus declarația și îi acordă un termen de cel puțin 30 de zile pentru corectare sau explicații, cu respectarea dreptului de a fi ascultat prevăzut la art. 9.”",
-        "argumentation": "Art. 291^9 permite ca ANAF să ceară corecții pe baza semnalărilor altor state, informații pe care firma nu le cunoaște. Un termen minim și dreptul de a fi ascultat asigură previzibilitate (art. 1 alin. 5 Constituție) și evită sancțiuni bazate pe date contestabile. DAC9 lasă statelor procedura internă, deci amendamentul e compatibil.",
-        "otherComments": "Restul OG e transpunere tehnică a DAC9 și reduce depunerile multiple; recomand aprobarea. Dacă art. 291^9 prevede deja audierea firmei, amendamentul e inutil. De verificat: încadrarea în art. 1 pct. I.1 din Legea 244/2025 și publicarea la timp a ordinului ANAF cu modelul declarației (Secțiunea IV din anexa DAC9 nu e în lege)."
-      }
+        "articleRef": "Art. unic – OG 1/2026, art. 336 CPF",
+        "proposalContent": "Se completează legea de aprobare: „Contravenția privind utilizarea altui formular decât cel prevăzut la art. 291^7 alin. (1) se aplică numai după 6 luni de la publicarea în Monitorul Oficial a ordinului președintelui ANAF care aprobă modelul standard; până atunci, ANAF notifică contribuabilul și acordă termen de 30 de zile pentru redepunere.”",
+        "argumentation": "Elementul faptei depinde de un formular aprobat prin ordin ulterior, la 60 de zile de la intrarea în vigoare a OG. Fără o perioadă de tranziție, sancțiunea poate lovi depuneri făcute cu bună-credință pe modelul OCDE GIR, ceea ce încalcă previzibilitatea (art. 1 alin. 5 din Constituție) și proporționalitatea cerută de art. 25a din Directiva 2011/16/UE.",
+        "otherComments": "Propunem și precizarea la art. 305 lit. d) a criteriilor pentru durata de păstrare de 5–10 ani. De asemenea, fișa financiară ar trebui completată cu costurile IT ale ANAF pentru schimbul automat. În rest, proiectul este tehnic, necesar și benefic, iar adoptarea rapidă este justificată de întârzierea transpunerii DAC9."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 127054,
-      "riskScore": 3,
+      "durationMs": 62771,
+      "sourceEndMarker": "SF-6811F5B4",
+      "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Schimb automat de date fiscale pentru grupurile mari",
-      "verdictShort": "Proiect predominant tehnic și util, care facilitează raportarea fiscală centralizată. Riscurile sunt limitate, dar există o amendă pentru formularul greșit și necorelări ale termenelor care merită corectate.",
-      "initiatorClaim": "Guvernul urmărește transpunerea DAC9 și schimbul automat al declarațiilor informative privind impozitul suplimentar. Depunerea centralizată ar reduce raportările repetate și ar ajuta administrațiile fiscale să verifice aplicarea impozitării minime globale.",
-      "realityCheck": "Articolul unic aprobă fără modificări OG nr. 1/2026; efectele juridice trebuie căutate în ordonanță, nu doar în expunerea de motive. Centralizarea poate reduce raportările duplicate, dar implementarea presupune adaptări informatice și costuri administrative pentru ANAF și entitățile raportoare, necuantificabile din documentele furnizate. Proiectul nu introduce un nou impozit general pentru cetățeni sau IMM-uri; impozitarea vizată există deja în [Legea nr. 431/2023](https://legislatie.just.ro/Public/DetaliiDocumentAfis/301697).",
+      "plainTitle": "Schimb de informații fiscale despre marile grupuri de firme",
+      "verdictShort": "Proiectul are un scop tehnic și aparent util: simplificarea raportării și cooperarea fiscală europeană. Riscul redus este însă o evaluare provizorie: textul ordonanței aprobate, care conține regulile și sancțiunile efective, nu apare în documentele furnizate.",
+      "initiatorClaim": "Inițiatorii urmăresc transpunerea DAC9 și schimbul automat de informații despre impozitul suplimentar al marilor grupuri. Depunerea centralizată ar trebui să reducă raportările repetitive și costurile administrative.",
+      "realityCheck": "Articolul unic aprobă integral OG nr. 1/2026, fără amendamente în forma Senatului; efectele de fond provin din ordonanță. Expunerea descrie schimburi de informații, corectarea declarațiilor, păstrarea evidențelor și sancționarea folosirii altui formular, dar nu poate ține locul dispozițiilor normative. Cuantumul sancțiunii, derogările și dispozițiile tranzitorii ale ordonanței nu pot fi auditate complet din materialul furnizat.",
       "affectedGroups": [
         "Contabili & Fiscalitate",
-        "IMM & Antreprenori",
-        "IT & AI",
-        "Justiție & Drepturi Civile"
+        "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Raportarea impozitului suplimentar privește entitățile grupurilor care ating, în principiu, venituri consolidate de minimum 750 milioane euro în cel puțin două dintre ultimele patru exerciții. IMM-urile independente sunt, în mod obișnuit, în afara acestui mecanism; dimensiunea unei filiale nu decide singură aplicabilitatea. Sursa: [art. 2 din Legea nr. 431/2023](https://legislatie.just.ro/Public/DetaliiDocumentAfis/301697).",
-        "OG introduce la art. 336 alin. (1) lit. pp) și alin. (2) lit. w) o amendă de 10.000–30.000 lei pentru utilizarea altui formular. Cuantumul nu este vădit disproporționat pentru destinatarii vizați, dar sancționarea unei abateri formale cere individualizare. Sursa: [OG nr. 1/2026](https://static.anaf.ro/static/10/Anaf/legislatie/OG_1_2026.pdf).",
-        "Art. 291^8 alin. (4) prevede 180 de zile și trimite la declarația impozitului național. DAC9 prevede șase luni după termenul declarației informative; cele două durate nu sunt identice. Surse: [OG nr. 1/2026](https://static.anaf.ro/static/10/Anaf/legislatie/OG_1_2026.pdf), [DAC9, art. 27d introdus în Directiva 2011/16/UE](https://eur-lex.europa.eu/eli/dir/2025/872/oj/eng)."
+        "Articolul unic aprobă OG nr. 1/2026 prin trimitere. Absența unor prevederi problematice în acest articol nu exclude existența lor în ordonanța aprobată.",
+        "Potrivit expunerii, obligațiile privesc grupuri multinaționale și grupuri naționale de mari dimensiuni; nu rezultă o obligație generală nouă pentru cetățeni sau toate IMM-urile.",
+        "Expunerea anunță o contravenție la art. 336 pentru utilizarea altui formular, însă nu reproduce cuantumul amenzii. Proporționalitatea sancțiunii nu poate fi confirmată.",
+        "Termenul de 1 decembrie 2026, atribuit în expunere art. 291^8 alin. (5), privește prima comunicare între autorități; nu trebuie confundat cu termenul contribuabilului pentru depunerea declarației.",
+        "Păstrarea evidențelor între 5 și 10 ani este descrisă în expunere. Textul normativ trebuie verificat pentru criteriile duratei, confidențialitate și protecția eventualelor date personale.",
+        "Tabelul impactului bugetar este necompletat în expunerea furnizată. Costurile informatice și administrative pentru ANAF și contribuabili nu sunt cuantificate; aceasta nu dovedește că sunt inexistente."
       ],
-      "blindSpotsCaught": "Exceptarea secțiunii IV din transpunerea prin ordonanță nu înseamnă abandonarea formularului european: art. II îl trimite la ordin ANAF. Ordonanța privește și date despre conturi financiare și controale asupra furnizorilor de servicii de criptoactive, deci efectele depășesc raportarea grupurilor mari. Sursa: [OG nr. 1/2026](https://static.anaf.ro/static/10/Anaf/legislatie/OG_1_2026.pdf).",
-      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă. Art. 1 alin. (5) impune corelarea termenelor și identificarea clară a entității care răspunde contravențional, formularea prin referire la grup meritând precizată. Art. 23 alin. (12) privește legalitatea pedepselor; calificarea amenzii drept contravenție nu înlătură cerințele de previzibilitate și proporționalitate. Schimbul datelor personale trebuie să respecte art. 26 și garanțiile protecției datelor. Raportarea unor exerciții anterioare nu dovedește singură retroactivitate fiscală și nu permite sancționarea retroactivă. Procedura parlamentară urgentă nu transformă OG într-o OUG: nu i se aplică cerința situației extraordinare din art. 115 alin. (4). Reper: [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355).",
-      "euLawNote": "Uniformizarea raportării poate sprijini concurența prin reducerea costurilor duplicate; nu identific un monopol profesional sau o barieră nouă de acces pe piață. Directiva 2018/958 privește restricțiile asupra profesiilor reglementate, astfel că testul său specific nu este declanșat aici. [Art. 2 din Directiva 2018/958](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018L0958). Raportarea electronică și controalele fiscale asupra criptoactivelor nu declanșează automat TRIS; pentru măsurile care execută obligații europene operează și excepția art. 7 alin. (1) lit. a). [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32015L1535). DAC9 cere sancțiuni proporționale și stabilea termenul general de transpunere la 31.12.2025; adoptarea OG în ianuarie 2026 indică întârzierea acestei măsuri. [DAC9, art. 1 și 2](https://eur-lex.europa.eu/eli/dir/2025/872/oj/eng).",
+      "blindSpotsCaught": "Aprobarea fără modificări încorporează efectele ordonanței, deși aceasta nu este reprodusă. În plus, excluderea Secțiunii IV din anexa DAC9 este explicată prin adoptarea modelului declarației prin ordin ANAF în 60 de zile: nu dovedește singură o omisiune de transpunere, dar impune verificarea ordinului, a temeiului delegării și a concordanței formularului cu directiva. Verificarea externă nu a fost disponibilă.",
+      "constitutionalityNote": "Articolul unic furnizat nu relevă, singur, o încălcare constituțională evidentă. Art. 1 alin. (5) impune ca obligațiile și contravențiile din ordonanță să fie clare și previzibile, inclusiv raportarea lor la formularul aprobat ulterior. Art. 23 alin. (12) privește legalitatea pedepselor și nu trebuie transformat automat în temei direct pentru orice amendă contravențională. Raportarea unor informații despre ani fiscali anteriori nu înseamnă, prin ea însăși, retroactivitate; trebuie verificat dacă se sancționează conduite anterioare intrării în vigoare. Încadrarea în abilitarea prevăzută de art. 115 și eventualele probleme privind datele personale necesită textul integral al ordonanței.",
+      "euLawNote": "Obiectivul descris este compatibil, în principiu, cu cooperarea fiscală europeană și poate reduce raportările multiple. Directiva (UE) 2018/958 privește proporționalitatea reglementării profesiilor, nu orice obligație fiscală; documentele nu indică restricții de acces la o profesie. Nici raportarea electronică nu declanșează automat notificarea TRIS conform Directivei (UE) 2015/1535: nu este identificată aici o reglementare tehnică notificabilă. Nu rezultă monopoluri sau avantaje selective, dar conformitatea integrală cu DAC9 și proporționalitatea sancțiunilor rămân neverificate. Expunerea indică depășirea termenului de transpunere de 31 decembrie 2025.",
       "senatForm": {
-        "articleRef": "OG nr. 1/2026, art. I pct. 6, art. 291^8 (4)",
-        "proposalContent": "(4) Autoritatea competentă din România comunică informațiile prevăzute la art. 291^7 pentru primul An fiscal de raportare în termen de cel mult 6 luni de la termenul de depunere a Declarației informative privind impozitul suplimentar stabilit potrivit art. 48 alin. (7) și art. 55 din Legea nr. 431/2023, cu modificările și completările ulterioare.",
-        "argumentation": "Art. 27d alin. (3) din Directiva 2011/16/UE, introdus prin DAC9, prevede 6 luni, nu 180 de zile. Art. 48 alin. (9) privește declararea și plata impozitului suplimentar național; pentru declarația informativă sunt relevante art. 48 alin. (7) și termenul tranzitoriu din art. 55. Corelarea evită confuzia dintre declarații.",
-        "otherComments": "Propunere pentru comisia de buget a Camerei Deputaților; poate fi preluată de un deputat. Termenul de amendamente indicat, 23.03.2026, este depășit la data analizei; petiția nu garantează preluarea. Evaluarea privește forma Senatului furnizată, coroborată cu OG nr. 1/2026."
-      }
+        "articleRef": "Articolul unic",
+        "proposalContent": "Se menține articolul unic în forma adoptată de Senat.",
+        "argumentation": "Documentele furnizate nu demonstrează un viciu concret care să justifice modificarea articolului unic. Amendamentele privind obligațiile, sancțiunile sau delegarea către ANAF trebuie fundamentate pe textul integral al OG nr. 1/2026, nu pe descrierea din expunerea de motive.",
+        "otherComments": "Pentru examinarea în comisie sunt necesare ordonanța integrală, anexele și ordinele ANAF relevante. Se recomandă verificarea cuantumului amenzii, a termenelor tranzitorii, a transpunerii Secțiunii IV și a costurilor de implementare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T21:04:11.479Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:00:52.486Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

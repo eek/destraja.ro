@@ -1,123 +1,184 @@
 {
   "billId": "PL-x 507/2026",
   "slug": "plx-507-2026",
-  "updatedAt": "2026-10-29T00:01:52.618Z",
+  "version": "senat",
+  "updatedAt": "2026-11-24T15:01:53.967Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 3633,
+    "ordinanceChars": 0,
+    "memoChars": 8417,
+    "memoSupplied": 8417,
+    "marker": "SF-B7B06950"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-507-2026.json",
+    "form": "senat",
+    "textHash": "b7b069507df91a76",
+    "fetchedAt": "2026-11-19T10:08:34.305Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 8333,
+    "truncated": false,
+    "included": true,
+    "key": "95e4b1717dcebae3"
+  },
   "consensus": {
-    "riskScore": 3.3,
-    "riskLevel": "green",
+    "riskScore": 4,
+    "riskLevel": "yellow",
     "plainTitle": "Șoferii vor fi obligați să oprească în spatele microbuzelor școlare care urcă sau coboară copii",
-    "summaryTlDr": "Lege utilă de siguranță rutieră: înlocuiește simpla încetinire cu oprirea obligatorie lângă vehiculele care transportă copii, după modelul nord-american al autobuzului școlar. Riscul e mic, dar textul lasă Guvernului detaliile esențiale (distanța, semnalele, ce vehicule intră), iar aplicarea depinde de o HG fără un termen-limită care să aibă consecințe.",
-    "initiatorClaim": "Inițiatorii spun că reducerea vitezei pe lângă vehiculele care transportă copii nu îi protejează pe minorii care traversează prin fața sau prin spatele vehiculului. De aceea cer oprirea completă, la minimum 5 metri, sancționată cu amendă și suspendarea permisului.",
-    "realityCheck": "Forma Senatului obligă la oprire toți șoferii din același sens, pe orice bandă. Pe drumurile cu o singură bandă pe sens și fără zonă despărțitoare îi obligă și pe cei din sens opus, iar mersul se reia doar după ce vehiculul copiilor stinge semnalele și pleacă. Distanța de 5 m din expunerea de motive a dispărut din text, iar ce înseamnă «semnalele de avertizare specifice», «zona de îmbarcare» și «orice alt autovehicul» de transport organizat al copiilor se stabilește prin HG. Încălcarea se sancționează la art. 101 alin. (3), cu amendă din clasa a III-a și suspendarea dreptului de a conduce pentru 30 de zile.",
+    "summaryTlDr": "Lege de siguranță rutieră utilă și în general bine construită, inspirată din regula „school bus stop” din alte țări. Problemele sunt de detaliu, dar contează: nu e clar ce semnal declanșează obligația, multe elemente sunt lăsate pe seama unei HG fără termen-limită real, iar sancțiunea (amendă și permis suspendat 60 de zile) e severă pentru o regulă încă vagă.",
+    "initiatorClaim": "Inițiatorii spun că obligația actuală de a reduce viteza lângă un autovehicul care transportă copii nu protejează suficient minorii, care traversează imprevizibil prin fața sau prin spatele vehiculului. De aceea propun oprirea completă a vehiculelor din jur.",
+    "realityCheck": "Art.53¹ obligă șoferii de pe același sens, de pe orice bandă, să oprească în spatele autovehiculului de copii oprit cu semnalele specifice aprinse. Pe drumurile cu o bandă pe sens și fără zonă despărțitoare obligația se aplică și celor din sens opus, cu excepția cazului în care vehiculul e oprit în alveolă sau refugiu. Pornirea e permisă doar după stingerea semnalelor și plecarea vehiculului. Nerespectarea intră la art.101 alin.(3): amendă clasa a III-a (9–20 puncte-amendă) și suspendarea permisului pe 60 de zile. Expunerea de motive promite o distanță minimă de 5 m, dar textul nu o prevede și lasă distanța în seama regulamentului. Aplicarea efectivă depinde în întregime de o HG: regula intră în vigoare abia la 90 de zile după publicarea ei.",
     "affectedGroups": [
       "Șoferi & Auto",
       "Sănătate & Educație",
-      "Toți cetățenii",
-      "IMM & Antreprenori"
+      "IMM & Antreprenori",
+      "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct.1 – art.53¹ alin.(1) și (1¹) nou",
-      "proposalContent": "La alin.(1), după «în spatele autovehiculului» se introduc cuvintele «, la cel puțin 5 metri de acesta,». Se introduce alin.(1¹): «Conducătorul autovehiculului destinat transportului exclusiv al copiilor semnalizează din timp intenția de oprire, activează semnalele prevăzute la alin.(1) numai după oprirea completă și oprește în alveolă, acolo unde există.»",
-      "argumentation": "Inițiatorii propuneau o distanță minimă de 5 m, dar forma Senatului o lasă regulamentului, deși fapta se sancționează cu suspendarea permisului 30 de zile; distanța trebuie fixată în lege (art.1 alin.(5) Constituție). Semnalizarea prealabilă previne frânele bruște și tamponările din spate, iar oprirea în alveolă scutește traficul din sens opus de oprire.",
-      "otherComments": "Art.III alin.(2) leagă aplicarea de HG: dacă Guvernul întârzie, regula nu se aplică deloc; propun un termen fix (ex. 12 luni de la publicare). HG, dacă impune lămpi sau marcaje noi pe vehicule, trebuie notificată TRIS și corelată cu omologarea UE, iar costul dotării microbuzelor școlare ale primăriilor și operatorilor privați trebuie estimat."
+      "articleRef": "Art.I pct.1 – art.53¹ alin.(4) OUG 195/2002",
+      "proposalContent": "Art.53¹ alin.(4) se completează: „...precum și orice alt autovehicul utilizat pentru transportul organizat al copiilor, inscripționat vizibil «Transport copii» și dotat cu lămpi de avertizare omologate, distincte de luminile de avarie, stabilite prin regulament. Folosirea acestor lămpi în afara îmbarcării sau debarcării copiilor este interzisă.”",
+      "argumentation": "Obligația de oprire, sancționată cu amendă și suspendarea permisului pe 60 de zile, trebuie declanșată de un semnal inconfundabil. Dacă „semnalele specifice” pot fi confundate cu avariile oricărui microbuz, șoferul nu poate prevedea când are obligația (art.1 alin.5 din Constituție), iar folosirea abuzivă a semnalelor ar bloca traficul fără motiv.",
+      "otherComments": "Art.III alin.(2) amână aplicarea legii până la 90 de zile după HG, fără limită dacă Guvernul întârzie. Propun adăugarea: „dar nu mai târziu de 12 luni de la publicarea legii”. Sancțiunea nu acoperă bicicliștii și trotinetele. De verificat trimiterea la art.6 pct.23 și notificarea TRIS a cerințelor tehnice pentru lămpi."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 66440,
-      "riskScore": 4,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 94047,
+      "sourceEndMarker": "SF-B7B06950",
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Oprire obligatorie la microbuzele școlare: scop bun, dar cu capcane în trafic și permis suspendat 60 de zile",
-      "verdictShort": "Proiectul urmărește un obiectiv legitim și necesar – protejarea copiilor la urcarea și coborârea din microbuzele școlare –, însă textul adoptat de Senat conține erori de tehnică legislativă care pot bloca inutil traficul și lăsa șoferii fără permis pe 60 de zile în situații absurde.",
-      "initiatorClaim": "Inițiatorii susțin că simpla reducere a vitezei lângă autovehiculele școlare oprite este insuficientă și propun oprirea completă a traficului la minimum 5 metri distanță, fără a perturba nejustificat arterele cu mai multe benzi.",
-      "realityCheck": "Textul votat de Senat a eliminat distanța de 5 metri din lege (lăsând-o la latitudinea unei viitoare Hotărâri de Guvern), obligă la oprire pe toate benzile aceluiași sens chiar și când microbuzul este tras într-o alveolă la trotuar și interzice reluarea deplasării până când microbuzul nu pleacă fizic de pe loc, chiar dacă a stins semnalele de avertizare.",
+      "plainTitle": "Oprire obligatorie la microbuzele școlare, cu 60 de zile fără permis și reguli incomplete",
+      "verdictShort": "Obiectivul proiectului este legitim și util — protejarea copiilor la îmbarcarea și debarcarea din microbuzele școlare —, dar forma adoptată de Senat atașează o sancțiune dură (60 de zile suspendare a permisului) unor reguli neclare și parțial impracticabile. Lipsa excepției alveolei pe același sens și interdicția de a pleca până când autobuzul se pune în mișcare riscă să genereze blocaje, tamponări și sancțiuni disproporționate.",
+      "initiatorClaim": "Inițiatorii susțin în expunerea de motive că obligația actuală de reducere a vitezei este insuficientă pentru a preveni accidentele în care copiii traversează imprevizibil în jurul autovehiculelor școlare. Aceștia afirmă că introducerea opririi complete (menționând în motivare o distanță de minimum 5 metri) protejează viața minorilor fără cheltuieli suplimentare de la buget.",
+      "realityCheck": "În prezent, legislația rutieră sancționează doar nereducerea vitezei în cazurile prevăzute de regulament (art. 101 alin. 1 pct. 9 din OUG 195/2002); proiectul introduce art. 53¹ cu obligația de oprire completă și încadrează încălcarea ei la art. 101 alin. (3) lit. i) (amendă clasa a III-a și suspendarea permisului pentru 60 de zile). În forma adoptată de Senat, distanța de 5 metri din expunerea de motive a dispărut din lege și a fost lăsată la regulament, iar excepția opririi în alveolă sau refugiu este prevăzută doar pentru sensul opus, nu și pentru vehiculele de pe același sens. În plus, art. 53¹ alin. (3) permite reluarea deplasării doar după ce autovehiculul școlar a dezactivat semnalele luminoase «și s-a pus în mișcare», creând un blocaj literal dacă vehiculul rămâne staționat la destinație după coborârea copiilor.",
+      "affectedGroups": [
+        "Șoferi & Auto",
+        "Sănătate & Educație",
+        "IMM & Antreprenori",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I pct. 2 (art. 101 alin. 3 lit. i): Nerespectarea obligației de oprire devine contravenție sancționată cu amendă din clasa a III-a și suspendarea dreptului de a conduce pentru 60 de zile (același prag cu depășirea neregulamentară sau neacordarea priorității pietonilor), aplicabilă conducătorilor de autovehicule, tractoare și tramvaie.",
+        "Art. I pct. 1 (art. 53¹ alin. 1 vs. alin. 2): Excepția pentru cazul în care autovehiculul de transport copii este oprit într-o alveolă, refugiu ori spațiu în afara părții carosabile apare doar la alin. (2) (sens opus), nu și la alin. (1) (același sens), unde toți șoferii trebuie să oprească indiferent de bandă.",
+        "Art. I pct. 1 (art. 53¹ alin. 3): Condiția cumulativă ca autovehiculul școlar să dezactiveze semnalele luminoase «și să se pună în mișcare» înainte ca vehiculele oprite să poată pleca creează o situație absurdă atunci când microbuzul rămâne parcat la școală sau la destinație după debarcare.",
+        "Art. I pct. 1 (art. 53¹ alin. 1 și 4) și Art. II: Elemente esențiale ale contravenției — distanța exactă de oprire, definirea «semnalelor luminoase de avertizare specifice» și a «inscripționării specifice» pentru orice alt autovehicul de transport organizat al copiilor — nu sunt stabilite prin lege, ci delegate Guvernului prin modificarea HG nr. 1.391/2006.",
+        "Art. III alin. (2): Noile obligații și sancțiuni intră în vigoare la 90 de zile de la publicarea hotărârii de Guvern prevăzute la art. II; deși amânarea previne aplicarea înainte de regulament, o eventuală întârziere a executivului peste termenul de 60 de zile lasă legea neaplicabilă pe termen nedefinit."
+      ],
+      "blindSpotsCaught": "Trei detalii subtile ies în evidență la comparația textelor: (1) Expunerea de motive anunță oprirea la «minimum 5 metri», dar în forma adoptată de Senat cifra a fost eliminată din art. 53¹ și trimisă la regulament; (2) art. 53¹ impune obligația «conducătorului vehiculului» (incluzând bicicliști și trotinetiști), însă sancțiunea de la art. 101 alin. (3) vizează doar autovehicule, tractoare și tramvaie, iar șoferului de transport copii nu i se prevede nicio obligație corelativă de a nu abuza de semnalele luminoase; (3) deși inițiatorii afirmă că nu există impact bugetar, dacă regulamentul va impune dispozitive luminoase suplimentare față de avariile obișnuite, atât autoritățile locale (pentru microbuzele din Legea nr. 162/2024), cât și operatorii privați de transport copii vor avea costuri de dotare și omologare.",
+      "constitutionalityNote": "Proiectul ridică probleme serioase sub aspectul art. 1 alin. (5) din Constituția României privind claritatea și previzibilitatea legii. În materie contravențională cu sancțiuni severe (suspendarea exercitării dreptului de a conduce pentru 60 de zile), definirea elementelor esențiale ale faptei — zona/distanța exactă de oprire, tipul semnalelor luminoase și modul de identificare a vehiculelor de transport organizat al copiilor — ar trebui stabilită în legea primară, nu delegată integral unei hotărâri de Guvern. În plus, omisiunea excepției alveolei la alin. (1) și condiția «punerii în mișcare» de la alin. (3) creează imprevizibilitate în aplicare.",
+      "euLawNote": "Directiva (UE) 2018/958 privind testul de proporționalitate nu este incidentă (nu reglementează profesii reglementate), iar proiectul nu vizează servicii ale societății informaționale sau AI. Totuși, dacă hotărârea de Guvern de la art. II va impune specificații tehnice naționale noi privind dispozitivele de semnalizare luminoasă sau inscripționarea autovehiculelor de transport copii, acele cerințe tehnice pentru produse vor necesita notificare prealabilă la Comisia Europeană în baza Directivei (UE) 2015/1535 (TRIS) și corelare cu Regulamentul (UE) 2018/858 și regulamentele ONU-ECE privind omologarea vehiculelor, pentru a nu crea bariere pe piața unică pentru transportatorii din alte state membre.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 1 (art. 53¹ alin. 1 și 3)",
+        "proposalContent": "La art. 53¹ alin. (1), includeți excepția opririi în alveolă/refugiu și stabiliți direct în lege distanța de oprire și semnalele luminoase specifice. La alin. (3), eliminați condiția «și s-a pus în mișcare», astfel încât deplasarea să poată fi reluată după dezactivarea semnalelor luminoase, chiar dacă autovehiculul școlar rămâne staționat.",
+        "argumentation": "Nerespectarea normei atrage 60 de zile fără permis, însă regulile esențiale sunt trimise la HG, afectând previzibilitatea legii (art. 1 alin. 5 Constituție). Oprirea pe toate benzile când autobuzul e în alveolă și așteptarea punerii lui în mișcare produc blocaje și risc de tamponări dacă vehiculul rămâne oprit la destinație.",
+        "otherComments": "Clarificați obligația șoferului de transport copii de a aprinde semnalele doar la îmbarcare/debarcare și de a le stinge imediat după. Evaluați și impactul financiar pentru dotarea microbuzelor școlare de stat (Legea 162/2024) și a operatorilor privați, precum și notificarea TRIS dacă HG va impune echipamente tehnice naționale noi."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 57570,
+      "sourceEndMarker": "SF-B7B06950",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Șoferii vor fi obligați să oprească în spatele microbuzelor școlare care urcă sau coboară copii",
+      "verdictShort": "Lege de siguranță rutieră utilă și în general bine construită, inspirată din regula „school bus stop” din alte țări. Problemele sunt de detaliu, dar contează: nu e clar ce semnal declanșează obligația, multe elemente sunt lăsate pe seama unei HG fără termen-limită real, iar sancțiunea (amendă și permis suspendat 60 de zile) e severă pentru o regulă încă vagă.",
+      "initiatorClaim": "Inițiatorii spun că obligația actuală de a reduce viteza lângă un autovehicul care transportă copii nu protejează suficient minorii, care traversează imprevizibil prin fața sau prin spatele vehiculului. De aceea propun oprirea completă a vehiculelor din jur.",
+      "realityCheck": "Art.53¹ obligă șoferii de pe același sens, de pe orice bandă, să oprească în spatele autovehiculului de copii oprit cu semnalele specifice aprinse. Pe drumurile cu o bandă pe sens și fără zonă despărțitoare obligația se aplică și celor din sens opus, cu excepția cazului în care vehiculul e oprit în alveolă sau refugiu. Pornirea e permisă doar după stingerea semnalelor și plecarea vehiculului. Nerespectarea intră la art.101 alin.(3): amendă clasa a III-a (9–20 puncte-amendă) și suspendarea permisului pe 60 de zile. Expunerea de motive promite o distanță minimă de 5 m, dar textul nu o prevede și lasă distanța în seama regulamentului. Aplicarea efectivă depinde în întregime de o HG: regula intră în vigoare abia la 90 de zile după publicarea ei.",
       "affectedGroups": [
         "Șoferi & Auto",
         "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Capcana blocajului din Art. 53¹ alin. (3): șoferii opriți își pot relua deplasarea doar după ce microbuzul școlar a dezactivat semnalele luminoase ȘI s-a pus în mișcare (condiții cumulative). Dacă șoferul microbuzului stinge semnalele după îmbarcare, dar rămâne staționat pe loc, depășirea lui atrage suspendarea permisului pe 60 de zile.",
-        "Asimetrie între sensuri și frânări pe bulevarde în Art. 53¹ alin. (1) și (2): deși pentru sensul opus există excepție când microbuzul oprește într-o alveolă sau în afara carosabilului, pe același sens obligația se aplică „indiferent de banda de circulație” și fără excepția alveolei, forțând oprirea inclusiv pe banda 3 a unui bulevard când copiii coboară din alveolă direct pe trotuar.",
-        "Sancțiune severă pe elemente nedefinite în legea primară (Art. 101 alin. 3 lit. i): nerespectarea regulii se sancționează cu amendă din clasa a III-a (6-8 puncte-amendă) și suspendarea permisului pentru 60 de zile, deși atât „zona de îmbarcare/debarcare”, cât și „semnalele luminoase specifice” sunt lăsate spre definire ulterioară prin Regulament (HG)."
+        "Art.I pct.1 (art.53¹ alin.1): obligația depinde de „semnalele luminoase de avertizare specifice”, pe care legea nu le definește. Dacă în practică acestea înseamnă luminile de avarie, orice microbuz oprit cu avariile aprinse poate crea confuzie, iar șoferii nu pot ști sigur când riscă suspendarea permisului.",
+        "Art.53¹ alin.(4): pe lângă autobuzele școlare din Legea nr.162/2024, definiția include „orice alt autovehicul utilizat pentru transportul organizat al copiilor”, identificat prin inscripționare și semnalizare stabilite prin regulament. Cine poate declanșa obligația de oprire pentru ceilalți participanți la trafic se stabilește deci prin HG, nu prin lege.",
+        "Art.I pct.2: fapta intră la art.101 alin.(3), care sancționează doar conducătorii de autovehicul, tractor sau tramvai. Art.53¹ obligă însă „conducătorul vehiculului”, deci și bicicliștii și utilizatorii de trotinete electrice. Pentru aceștia obligația rămâne fără sancțiune.",
+        "Art.III alin.(2): art.53¹ și sancțiunea intră în vigoare la 90 de zile după publicarea HG de modificare a Regulamentului. Termenul de 60 de zile din Art.II nu e sancționat, așa că o întârziere a Guvernului amână regula pe termen nedefinit. Art.III alin.(1) pune practic în vigoare la 30 de zile doar Art.II.",
+        "Sancțiunea (clasa a III-a și 60 de zile de suspendare) este la nivelul altor încălcări grave, precum neacordarea priorității pietonilor. E justificabilă prin protecția copiilor, dar devine discutabilă cât timp semnalul care declanșează obligația nu e clar definit."
       ],
-      "blindSpotsCaught": "Discrepanță majoră între Expunerea de motive și textul adoptat de Senat: inițiatorii afirmă în expunere că oprirea se face la „minimum 5 metri” și că sunt exceptate arterele cu mai multe benzi pentru fluidizarea traficului, însă în Art. 53¹ alin. (1) obligația a fost extinsă pe toate benzile aceluiași sens. În plus, OUG 195/2002 (art. 32) reglementează limitativ semnalele luminoase speciale (roșu, albastru, galben), fără a prevedea un regim juridic în legea primară pentru „semnalele luminoase specifice” ale transportului de copii.",
-      "constitutionalityNote": "Sub aspectul art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii), jurisprudența CCR impune ca elementele esențiale ale unei contravenții sancționate sever (suspendarea dreptului de a conduce pe 60 de zile) să fie stabilite direct prin lege, nu delegate integral în legislația secundară (HG) în privința distanței de oprire și a semnalizării tehnice.",
-      "euLawNote": "Proiectul nu încalcă Directiva (UE) 2018/958 și nu creează bariere pe piața unică, regulile de circulație rutieră fiind în competența statelor membre și aliniate Convenției de la Viena privind circulația rutieră. Totuși, dacă prin HG se vor impune echipamente optice/luminoase nestandardizate la nivel UE pentru autovehiculele private de transport organizat al copiilor, reglementarea tehnică va necesita atenție sub unghiul omologării vehiculelor (Regulamentul UE 2018/858).",
+      "blindSpotsCaught": "1) Echiparea vehiculelor cu lămpi de avertizare „specifice” poate intra în conflict cu art.101 alin.(1) pct.10, care sancționează montarea de lumini neomologate, și cu omologarea UE/UNECE a instalațiilor de iluminare. Fără lămpi omologate și o procedură clară de dotare, transportatorii privați, școlile și primăriile riscă să încalce legea chiar când încearcă să o respecte. Costurile de dotare nu sunt evaluate, deși expunerea de motive susține că nu există impact bugetar. 2) Trimiterea la art.6 pct.23 pentru „zonă despărțitoare” trebuie verificată în forma republicată a OUG. 3) Regula actuală din regulament, care cere doar reducerea vitezei și e sancționată prin art.101 alin.(1) pct.9, trebuie abrogată explicit, ca să nu existe dublă încadrare. 4) Legea nu prevede niciun mijloc de constatare, de exemplu camere pe autobuzele școlare. În practică, regula va fi aplicată doar când un polițist e de față.",
+      "constitutionalityNote": "Scopul, adică protecția vieții și integrității copiilor (art.22 și art.49 din Constituție), este legitim, iar măsura e adecvată. Riscurile țin de claritate și previzibilitate (art.1 alin.5). Semnalul care declanșează obligația, distanța de oprire și categoriile de vehicule care intră în definiție sunt lăsate regulamentului. Este admisibil, pentru că OG nr.2/2001 permite stabilirea contravențiilor și prin HG, dar legea ar trebui să fixeze ea însăși elementele esențiale. Condiționarea intrării în vigoare de o HG fără termen-limită efectiv nu e neconstituțională în sine, însă subminează securitatea juridică. Sancțiunea complementară este proporțională doar dacă obligația e clar recognoscibilă pentru șofer.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: legea nu reglementează accesul la o profesie. Proiectul nu privește servicii digitale sau AI, deci TRIS (2015/1535) nu e incident pentru textul legii. Dacă însă HG prevăzută la Art.II impune cerințe tehnice obligatorii pentru lămpile de avertizare sau inscripționarea vehiculelor, acestea pot constitui „reglementare tehnică” și trebuie notificate prin TRIS. Totodată trebuie respectate cadrul UE de omologare a vehiculelor (Regulamentul (UE) 2018/858) și cerințele UNECE privind iluminarea, ca să nu se creeze bariere pentru vehiculele înmatriculate în alte state membre. Impactul asupra concurenței este neglijabil.",
       "senatForm": {
-        "articleRef": "Art. I pct. 1 (Art. 53¹ alin. 1 și 3)",
-        "proposalContent": "La art. 53¹, alin. (1) se completează cu teza: „Obligația nu se aplică pe benzile 2 și următoarele dacă autovehiculul este oprit într-o alveolă sau în afara părții carosabile cu acces direct pe trotuar.” Alin. (3) se modifică: „(3) Reluarea deplasării este permisă după dezactivarea semnalelor luminoase de avertizare sau punerea în mișcare a autovehiculului.”",
-        "argumentation": "Alin. (3) cere cumulativ ca microbuzul să stingă semnalele ȘI să plece de pe loc; dacă stinge semnalele dar rămâne staționat lângă școală, traficul rămâne blocat legal sub sancțiunea suspendării permisului pe 60 de zile. Totodată, pe arterele cu mai multe benzi, oprirea microbuzului în alveolă la trotuar nu justifică frânarea bruscă pe benzile 2 sau 3.",
-        "otherComments": "Definirea „semnalelor luminoase specifice” trebuie corelată cu art. 32 din OUG 195/2002, nu lăsată exclusiv în HG. Pentru o contravenție sancționată cu 60 de zile fără permis (art. 101 alin. 3 lit. i), distanța de oprire trebuie prevăzută direct în lege (ex: min. 5 m, cum figura în Expunerea de motive), conform art. 1 alin. (5) din Constituție."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 233010,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Șoferii vor fi obligați să oprească în spatele microbuzelor școlare care urcă sau coboară copii",
-      "verdictShort": "Lege utilă de siguranță rutieră: înlocuiește simpla încetinire cu oprirea obligatorie lângă vehiculele care transportă copii, după modelul nord-american al autobuzului școlar. Riscul e mic, dar textul lasă Guvernului detaliile esențiale (distanța, semnalele, ce vehicule intră), iar aplicarea depinde de o HG fără un termen-limită care să aibă consecințe.",
-      "initiatorClaim": "Inițiatorii spun că reducerea vitezei pe lângă vehiculele care transportă copii nu îi protejează pe minorii care traversează prin fața sau prin spatele vehiculului. De aceea cer oprirea completă, la minimum 5 metri, sancționată cu amendă și suspendarea permisului.",
-      "realityCheck": "Forma Senatului obligă la oprire toți șoferii din același sens, pe orice bandă. Pe drumurile cu o singură bandă pe sens și fără zonă despărțitoare îi obligă și pe cei din sens opus, iar mersul se reia doar după ce vehiculul copiilor stinge semnalele și pleacă. Distanța de 5 m din expunerea de motive a dispărut din text, iar ce înseamnă «semnalele de avertizare specifice», «zona de îmbarcare» și «orice alt autovehicul» de transport organizat al copiilor se stabilește prin HG. Încălcarea se sancționează la art. 101 alin. (3), cu amendă din clasa a III-a și suspendarea dreptului de a conduce pentru 30 de zile.",
-      "affectedGroups": [
-        "Șoferi & Auto",
-        "Sănătate & Educație",
-        "IMM & Antreprenori"
-      ],
-      "keyFindings": [
-        "Art. 53¹ alin. (1): oprirea completă e obligatorie pentru toți șoferii din același sens, «indiferent de banda de circulație». Excepția pentru alveolă sau refugiu există doar pentru sensul opus (alin. 2). Pe un bulevard cu 3 benzi se opresc deci toate benzile, chiar dacă microbuzul a tras complet în afara carosabilului.",
-        "Distanța minimă de 5 m promisă în expunerea de motive nu mai apare în text. Oprirea se face «înainte de a ajunge în dreptul» vehiculului, «în condițiile stabilite prin regulament». Elementul central al unei fapte pedepsite cu suspendarea permisului rămâne astfel la decizia Guvernului.",
-        "Art. 101 alin. (3) lit. i): amendă din clasa a III-a (9–20 puncte-amendă) plus suspendarea dreptului de a conduce pentru 30 de zile. E același regim ca la nerespectarea regulilor de prioritate pentru pietoni: sever, dar proporțional cu riscul pentru copii.",
-        "Art. 53¹ alin. (4): pe lângă autovehiculele școlare din Legea 162/2024 intră «orice alt autovehicul» de transport organizat al copiilor (grădinițe private, after-school, tabere), dar numai dacă are inscripționarea și semnalizarea specifică stabilite prin HG. Până la HG, șoferul nu știe concret ce lumini trebuie să vadă ca să oprească.",
-        "Art. III alin. (2): art. I se aplică abia la 90 de zile după publicarea HG care modifică regulamentul. Termenul de 60 de zile din art. II nu are nicio consecință dacă e ratat, așa că regula poate rămâne pe hârtie oricât, dacă Guvernul întârzie.",
-        "Textul nu prevede o fază de avertizare înainte de oprire (în modelul nord-american se aprind întâi lumini galbene, apoi roșii). Obligația se aplică și în afara localităților, la 90–100 km/h, deci există risc de frânări bruște și tamponări din spate dacă regulamentul nu introduce o astfel de fază.",
-        "Expunerea afirmă că legea nu implică cheltuieli. Dacă HG cere lămpi sau marcaje noi, costul dotării cade însă pe primării (proprietarele microbuzelor școlare) și pe operatorii privați, iar nimeni nu l-a estimat."
-      ],
-      "blindSpotsCaught": "(1) Legea nu obligă pe nimeni să doteze vehiculele cu semnalele «specifice». Nu sancționează nici folosirea lor abuzivă sau prelungită de către șoferul microbuzului, care ar putea bloca o arteră pe toate benzile. Tot echilibrul dintre protecție și fluiditatea traficului depinde de HG. (2) Dacă HG impune lămpi, culori sau inscripționări noi pe vehicule, devine reglementare tehnică de produs. Atunci trebuie notificată prin TRIS și corelată cu omologarea UE. (3) «Standardele consacrate în alte sisteme juridice» invocate sunt de fapt nord-americane. În Germania (StVO §20), pe lângă autobuzul școlar oprit cu avariile aprinse se trece cu viteza pasului, inclusiv din sens opus, fără oprire obligatorie. (4) Expunerea invocă «date statistice» și «cercetări europene», dar nu citează nicio cifră despre accidentele cu copii în România.",
-      "constitutionalityNote": "Scopul e legitim și bine ancorat constituțional: dreptul la viață și integritate fizică (art. 22) și protecția specială a copiilor (art. 49). Restrângerea libertății de circulație (art. 25) e minimă, temporară și proporțională. Punctul slab e previzibilitatea (art. 1 alin. 5): distanța, semnalele care declanșează obligația și sfera vehiculelor vizate sunt completate prin HG. Trimiterea la regulamentul OUG 195/2002 e în principiu admisibilă, iar OG 2/2001 permite completarea regimului contravențional prin HG. Art. III alin. (2) evită și aplicarea înainte de existența regulamentului. Problema ține deci de calitatea legii, nu de neconstituționalitate. Suspendarea permisului face ca fapta să fie «acuzație în materie penală» în sens CEDO, deci exigența de claritate e ridicată. Sancțiunea e prevăzută expres în lege, ceea ce satisface art. 23 alin. (12) aplicat prin analogie. Adoptarea ca lege ordinară (art. 76 alin. 2) e corectă.",
-      "euLawNote": "Directiva 2018/958 nu se aplică, fiindcă legea nu reglementează accesul la o profesie. Directiva TRIS 2015/1535 nu privește legea în sine, care e o regulă de conduită în trafic, nu un serviciu digital sau o specificație de produs. HG-ul de aplicare va fi însă probabil notificabil dacă impune lămpi sau marcaje specifice pe vehicule. Acestea trebuie să fie compatibile cu Regulamentul (UE) 2018/858 privind omologarea și cu regulamentele CEE-ONU privind instalarea dispozitivelor de iluminare. Nu există discriminare între operatorii români și cei din alte state membre: obligația revine tuturor șoferilor, iar transportatorii străini nu sunt forțați să se doteze. Regulile de conduită față de autobuzele școlare nu sunt armonizate la nivel UE, deci statul are libertate de reglementare.",
-      "senatForm": {
-        "articleRef": "Art. I pct.1 – art.53¹ alin.(1) și (1¹) nou",
-        "proposalContent": "La alin.(1), după «în spatele autovehiculului» se introduc cuvintele «, la cel puțin 5 metri de acesta,». Se introduce alin.(1¹): «Conducătorul autovehiculului destinat transportului exclusiv al copiilor semnalizează din timp intenția de oprire, activează semnalele prevăzute la alin.(1) numai după oprirea completă și oprește în alveolă, acolo unde există.»",
-        "argumentation": "Inițiatorii propuneau o distanță minimă de 5 m, dar forma Senatului o lasă regulamentului, deși fapta se sancționează cu suspendarea permisului 30 de zile; distanța trebuie fixată în lege (art.1 alin.(5) Constituție). Semnalizarea prealabilă previne frânele bruște și tamponările din spate, iar oprirea în alveolă scutește traficul din sens opus de oprire.",
-        "otherComments": "Art.III alin.(2) leagă aplicarea de HG: dacă Guvernul întârzie, regula nu se aplică deloc; propun un termen fix (ex. 12 luni de la publicare). HG, dacă impune lămpi sau marcaje noi pe vehicule, trebuie notificată TRIS și corelată cu omologarea UE, iar costul dotării microbuzelor școlare ale primăriilor și operatorilor privați trebuie estimat."
-      }
+        "articleRef": "Art.I pct.1 – art.53¹ alin.(4) OUG 195/2002",
+        "proposalContent": "Art.53¹ alin.(4) se completează: „...precum și orice alt autovehicul utilizat pentru transportul organizat al copiilor, inscripționat vizibil «Transport copii» și dotat cu lămpi de avertizare omologate, distincte de luminile de avarie, stabilite prin regulament. Folosirea acestor lămpi în afara îmbarcării sau debarcării copiilor este interzisă.”",
+        "argumentation": "Obligația de oprire, sancționată cu amendă și suspendarea permisului pe 60 de zile, trebuie declanșată de un semnal inconfundabil. Dacă „semnalele specifice” pot fi confundate cu avariile oricărui microbuz, șoferul nu poate prevedea când are obligația (art.1 alin.5 din Constituție), iar folosirea abuzivă a semnalelor ar bloca traficul fără motiv.",
+        "otherComments": "Art.III alin.(2) amână aplicarea legii până la 90 de zile după HG, fără limită dacă Guvernul întârzie. Propun adăugarea: „dar nu mai târziu de 12 luni de la publicarea legii”. Sancțiunea nu acoperă bicicliștii și trotinetele. De verificat trimiterea la art.6 pct.23 și notificarea TRIS a cerințelor tehnice pentru lămpi."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 87306,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Oprire obligatorie când copiii urcă sau coboară din transportul școlar",
-      "verdictShort": "Proiectul are un scop legitim și un mecanism util pentru protejarea copiilor, fără taxe sau privilegii comerciale. Necesită însă clarificarea semnalizării și a reluării circulației, deoarece încălcarea obligației atrage inclusiv suspendarea permisului.",
-      "initiatorClaim": "Inițiatorii urmăresc prevenirea accidentelor produse în timpul îmbarcării, debarcării și traversării copiilor. Susțin că simpla reducere a vitezei este insuficientă, dar extrasul expunerii nu identifică studiile și statisticile invocate.",
-      "realityCheck": "Art. 53¹ impune oprirea pe toate benzile aceluiași sens; din sens opus, obligația intervine numai în configurația rutieră descrisă la alin. (2), cu excepția opririi transportului în alveolă, refugiu sau în afara carosabilului. Distanța minimă de 5 metri din expunerea de motive nu apare în textul adoptat, care trimite condițiile opririi la regulament. Reluarea circulației presupune cumulativ stingerea semnalelor și plecarea transportului, ceea ce poate prelungi inutil așteptarea dacă acesta rămâne pe loc după terminarea îmbarcării.",
+      "durationMs": 93413,
+      "sourceEndMarker": "SF-B7B06950",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Oprire obligatorie lângă vehiculele care îmbarcă sau debarcă copii",
+      "verdictShort": "Proiectul urmărește un scop legitim și util: protejarea copiilor la urcarea și coborârea din vehicule. Necesită însă corectarea condiției care poate prelungi inutil blocarea traficului și precizarea elementelor de care depinde aplicarea sancțiunii.",
+      "initiatorClaim": "Inițiatorii consideră insuficientă simpla reducere a vitezei lângă vehiculele care transportă copii și propun oprirea traficului pentru prevenirea accidentelor. Ei susțin că măsura păstrează echilibrul între protecția copiilor și circulația rutieră.",
+      "realityCheck": "Art.53¹ impune oprirea pe toate benzile aceluiași sens; pentru sensul opus, obligația este limitată la drumurile cu o bandă pe sens, fără separare, când vehiculul transportator este pe carosabil. Nerespectarea obligației intră, pentru conducătorii enumerați la art.101 alin.(3), sub sancțiunea amenzii din clasa a III-a și a suspendării permisului pentru 60 de zile. Distanța minimă de 5 metri din expunerea de motive nu apare în textul adoptat, iar reluarea circulației cere cumulativ stingerea semnalelor și punerea în mișcare a vehiculului transportator.",
       "affectedGroups": [
         "Șoferi & Auto",
         "Sănătate & Educație",
-        "IMM & Antreprenori"
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I pct. 2 introduce fapta la art. 101 alin. (3): amendă din clasa a III-a, de 6–8 puncte-amendă, și suspendarea dreptului de a conduce pentru 60 de zile. Regimul existent exclude avertismentul pentru această categorie; sancțiunea este severă, dar nu rezultă că ar fi vădit disproporționată față de pericolul protejat. [OUG nr. 195/2002, art. 95, 98 și 101](https://legislatie.just.ro/Public/DetaliiDocument/74028)",
-        "Art. 53¹ alin. (1) condiționează oprirea de îmbarcare/debarcare și de funcționarea semnalelor specifice. Excepția pentru alveole este formulată numai pentru sensul opus; conducătorii de pe același sens trebuie să oprească și în această situație, dacă sunt îndeplinite condițiile alin. (1).",
-        "Art. 53¹ alin. (4) include atât autovehiculele școlare publice, cât și alte transporturi organizate ale copiilor, identificate corespunzător. Textul nu rezervă protecția unui operator, unei mărci sau unui furnizor și nu instituie un monopol.",
-        "Afirmația că nu există cheltuieli suplimentare nu este demonstrată: semnalizarea specifică poate necesita echipare sau adaptări pentru operatori și autorități locale, în funcție de regulament. Proiectul nu introduce taxe, dosare ori autorizații noi, dar implică timpi de așteptare și costuri posibile de conformare.",
-        "Art. II–III amână aplicarea obligației și sancțiunii până la 90 de zile după publicarea hotărârii Guvernului. Termenul de 60 de zile pentru emiterea acesteia începe după intrarea generală în vigoare a legii, la 30 de zile de la publicare; întârzierea Guvernului poate amâna operaționalizarea măsurii."
+        "Art.I pct.1 introduce o obligație nouă de oprire, distinctă de reducerea vitezei descrisă în expunerea de motive. Textul adoptat nu stabilește o distanță numerică minimă; poziția opririi și zona protejată urmează să fie detaliate prin regulament.",
+        "Art.53¹ alin.(2): excepția pentru alveole, refugii și spații din afara carosabilului privește obligația celor care vin din sens opus. Alin.(1) nu conține aceeași excepție pentru vehiculele care circulă pe același sens.",
+        "Art.53¹ alin.(3): chiar după încheierea debarcării și dezactivarea semnalelor, ceilalți conducători trebuie să aștepte plecarea vehiculului transportator. O staționare prelungită sau o defecțiune poate astfel menține blocajul după dispariția riscului pentru copii.",
+        "Art.I pct.2 folosește regimul sancționator deja existent la art.101 alin.(3): amendă din clasa a III-a și suspendare pentru 60 de zile. Nu este necesară producerea unui accident pentru aplicarea noii litere i).",
+        "Obligația privește toți conducătorii de vehicule, dar art.101 alin.(3) îi enumeră pe conducătorii de autovehicule, tractoare agricole sau forestiere și tramvaie. Noua literă nu stabilește, prin ea însăși, o sancțiune echivalentă pentru bicicliști; trebuie verificată corelarea cu celelalte contravenții.",
+        "Art.53¹ alin.(4) include și alte transporturi organizate de copii decât transportul școlar public. Identificarea vehiculelor și semnalele specifice trebuie definite suficient de clar; proiectul nu stabilește o autorizație exclusivă, o taxă sau un monopol.",
+        "Art.II–III: cadrul pentru adoptarea regulamentului intră în vigoare după 30 de zile, Guvernul are apoi 60 de zile pentru emiterea hotărârii, iar obligația și sancțiunea se aplică la 90 de zile după publicarea acesteia. Dacă etapele sunt parcurse la termen și hotărârea este publicată imediat, intervalul total este de aproximativ 180 de zile.",
+        "Afirmația privind absența cheltuielilor bugetare nu este demonstrată printr-o estimare în materialele furnizate. Semnalizarea, inscripționarea și eventuala echipare pot genera costuri pentru operatori și autorități, în funcție de regulament; proiectul nu instituie direct noi formulare sau taxe."
       ],
-      "blindSpotsCaught": "TRIS nu privește exclusiv serviciile digitale: eventualele specificații obligatorii pentru echipamentele luminoase trebuie evaluate separat ca posibile reglementări tehnice. Procedural, termenul pentru amendamente, 08.09.2026, este deja depășit la data analizei; mesajul cetățeanului constituie o petiție sau propunere, iar preluarea sa ca amendament depinde de procedura parlamentară. [Fișa Camerei Deputaților](https://www.cdep.ro/ords/pls/proiecte/upl_pck.proiect?cam=2&idp=23393)",
-      "constitutionalityNote": "Protecția vieții și protecția specială a copiilor susțin măsura prin art. 22 și 49. Problema principală de previzibilitate, potrivit art. 1 alin. (5), este identificarea fără echivoc a semnalelor care declanșează obligația și delimitarea condițiilor de oprire și reluare; regulamentul poate detalia executarea, dar nu ar trebui să redefinească elementele esențiale ale contravenției. Art. 23 alin. (12) privește pedepsele penale și nu trebuie transpus automat asupra acestei sancțiuni contravenționale. Nu rezultă o neconstituționalitate evidentă; sunt justificate corecții de redactare înaintea adoptării. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355)",
-      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă prin simplul fapt că regula afectează șoferi profesioniști: proiectul nu introduce condiții de calificare sau de acces la o profesie reglementată. Nu identific restricții discriminatorii ori avantaje comerciale selective; costurile echipării trebuie totuși evaluate. [Directiva 2018/958, art. 2](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng) Proiectul nu reglementează servicii digitale sau AI, deci nu apare un temei TRIS pe această componentă; eventuala notificare a cerințelor tehnice privind semnalizarea necesită examinarea conținutului lor și a excepțiilor aplicabile, fără a putea afirma acum existența unei încălcări. [Directiva 2015/1535, art. 1 și 5](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535)",
+      "blindSpotsCaught": "Aplicarea obligației și a sancțiunii depinde de publicarea unei hotărâri a Guvernului, fără o dată calendaristică alternativă dacă aceasta întârzie. În plus, formularea «nerespectarea obligației de oprire» trebuie corelată explicit cu interdicția reluării premature a deplasării, pentru a evita dispute asupra încadrării acestei conduite.",
+      "constitutionalityNote": "Protejarea vieții și a copiilor susține măsura prin art.22 și art.49 din Constituție. Principala vulnerabilitate privește art.1 alin.(5): semnalele declanșatoare, identificarea vehiculelor și conduita sancționată trebuie să fie clare, iar regulamentul poate detalia aplicarea fără să creeze independent elementele esențiale ale contravenției. Art.23 alin.(12), referitor la legalitatea pedepselor, nu trebuie aplicat automat unei contravenții fără analiza naturii sancțiunii. Nu rezultă o neconstituționalitate evidentă, însă așteptarea obligatorie până la plecarea vehiculului necesită o justificare de proporționalitate sau o reformulare.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor asupra accesului la profesii reglementate și exercitării acestora; regula rutieră propusă nu intră, prin obiectul său, în această categorie. Nu sunt reglementate servicii digitale sau AI. Totuși, Directiva (UE) 2015/1535 nu se limitează la servicii digitale: eventualele cerințe tehnice obligatorii pentru echiparea ori marcarea vehiculelor trebuie examinate, la redactarea regulamentului, pentru a determina dacă necesită notificare TRIS și dacă respectă normele europene aplicabile vehiculelor. Textul nu evidențiază discriminări între operatori sau restricții concurențiale exclusive.",
       "senatForm": {
-        "articleRef": "Art. I pct. 1 – art. 53¹ alin. (3)",
-        "proposalContent": "(3) Reluarea deplasării este permisă după dezactivarea semnalelor luminoase de avertizare specifice, cu respectarea regulilor de prioritate și după asigurarea că nu sunt puși în pericol copiii. Conducătorul autovehiculului de transport dezactivează aceste semnale după încheierea îmbarcării sau debarcării și eliberarea zonei de circulație de către copii.",
-        "argumentation": "Condiția cumulativă a punerii în mișcare poate prelungi blocarea traficului când transportul rămâne pe loc după îmbarcare. Propunerea păstrează protecția copiilor și stabilește responsabilitatea dezactivării semnalelor, fără a condiționa reluarea circulației de plecarea autovehiculului.",
-        "otherComments": "Petiție pentru comisiile Camerei Deputaților; un deputat o poate prelua ca amendament. Termenul afișat, 08.09.2026, este depășit; preluarea depinde de procedura parlamentară. Se recomandă și precizarea semnalelor, a distanței de oprire și evaluarea costurilor de echipare."
-      }
+        "articleRef": "Art.I pct.1, art.53¹ alin.(3)",
+        "proposalContent": "(3) Reluarea deplasării de către vehiculele oprite conform alin.(1) și (2) este permisă după încheierea îmbarcării sau debarcării, eliberarea zonei de către copii și dezactivarea semnalelor luminoase de avertizare specifice, cu respectarea celorlalte reguli de circulație.",
+        "argumentation": "Condiția suplimentară a punerii în mișcare a vehiculului transportator poate bloca traficul după încheierea operațiunilor, inclusiv în caz de defecțiune sau staționare prelungită. Textul propus menține protecția copiilor și permite reluarea circulației după dispariția situației care justifică oprirea.",
+        "otherComments": "Analiza folosește documentele furnizate; verificarea online nu a fost disponibilă. Termenul de amendamente indicat, 08.09.2026, este depășit; eventuala preluare a propunerii depinde de etapa procedurală și de regulile aplicabile în Camera Deputaților."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T00:01:52.618Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:01:53.967Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

@@ -1,126 +1,155 @@
 {
   "billId": "PL-x 685/2026",
   "slug": "plx-685-2026",
-  "updatedAt": "2026-10-28T20:18:02.992Z",
+  "version": "senat",
+  "updatedAt": "2026-11-24T12:47:05.617Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 8682,
+    "ordinanceChars": 0,
+    "memoChars": 9789,
+    "memoSupplied": 9789,
+    "marker": "SF-E68A3E74"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-685-2026.json",
+    "form": "senat",
+    "textHash": "e68a3e742a6eacf8",
+    "fetchedAt": "2026-11-19T11:19:57.543Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1360,
+    "truncated": false,
+    "included": true,
+    "key": "0ae7f15d6c4bdbb1"
+  },
   "consensus": {
-    "riskScore": 2.3,
+    "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Statul te anunță, dacă vrei, cu 30 de zile înainte să-ți expire un act",
-    "summaryTlDr": "Lege utilă și inofensivă pentru cetățeni: la cerere, primești un e-mail sau un SMS înainte să-ți expire un act, un permis sau o autorizație. Problemele sunt de redactare: termene de implementare care se contrazic, amenzi simbolice plătite din bani publici către bani publici și o excepție largă pentru legile speciale.",
-    "initiatorClaim": "Inițiatorii USR vor ca statul să-i ajute pe cetățenii de bună-credință să nu rateze expirarea documentelor, ca să evite amenzi și blocaje, printr-o notificare trimisă cu cel puțin 30 de zile înainte. Expunerea de motive promite costuri neglijabile și aplicare din 1 ianuarie 2027.",
-    "realityCheck": "Forma Senatului obligă emitenții de acte cu valabilitate limitată să ofere opțiunea unei notificări electronice printr-o platformă unică a ADR. Lista emitenților include autorități centrale și locale, autorități autonome și operatori, inclusiv privați, cu servicii publice delegate. Obligația vizează doar actele emise după 1 iulie 2028; pentru actele mai vechi, titularul poate opta separat. Lipsa notificării nu scuză nimic (art. 4¹ alin. 4), deci cetățeanul nu câștigă un drept pe care să-l poată invoca. Singura sancțiune este o amendă de 500–1.000 lei aplicată de ADR altor instituții. Excepția de la alin. (6) scoate din sfera legii orice act pentru care o lege specială prevede deja vreo formă de informare.",
+    "plainTitle": "Notificări digitale opționale înainte de expirarea actelor publice",
+    "summaryTlDr": "O lege utilă și benignă pentru cetățeni și firme, care introduce notificări opționale prin e-mail sau SMS cu 30 de zile înainte de expirarea actelor emise de stat. Principalele riscuri nu sunt abuzuri, ci vicii de redactare, termene contradictorii și lipsa bugetării platformei naționale gestionate de ADR.",
+    "initiatorClaim": "Inițiatorii vor să elimine amenzile și blocajele cauzate de expirarea neintenționată a actelor oficiale (permise, pașapoarte, autorizații, licențe), obligând statul să trimită cetățenilor care își dau acordul o notificare digitală cu cel puțin 30 de zile înainte de expirare.",
+    "realityCheck": "Textul adoptat de Senat introduce art. 4¹ în Codul administrativ (în prezent art. 4 reglementează doar domeniul general de aplicare), obligând instituțiile publice și toate entitățile private cu competențe delegate de serviciu public să ofere această opțiune printr-o platformă unică dezvoltată de ADR, operațională din 1 iulie 2028. Mecanismul este strict opțional (opt-in), nu afectează valabilitatea actelor și nu exonerează cetățeanul dacă notificarea nu ajunge, dar legea conține termene contradictorii, o sancțiune simbolică redactată defectuos (500–1.000 lei) și o subestimare nerealistă a costurilor tehnice.",
     "affectedGroups": [
-      "Toți cetățenii",
       "IMM & Antreprenori",
       "Șoferi & Auto",
-      "Proprietari & Imobiliare"
+      "Proprietari & Imobiliare",
+      "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I, art. 4¹ alin. (2) și (7) din OUG 57/2019",
-      "proposalContent": "Alin. (2): se elimină „în termen de 6 luni de la data intrării în vigoare a prezentei legi”; termenul rămâne cel din art. II alin. (2). Alin. (7), teza I: „Neutilizarea, după punerea în funcțiune a platformei prevăzute la alin. (2), a sistemului digitalizat pentru notificarea titularilor care au optat potrivit alin. (1) și (3) constituie contravenție...”",
-      "argumentation": "Odată inserată în Cod (o OUG din 2019), sintagma „prezenta lege” devine ambiguă, iar termenul de 6 luni concurează cu cele din art. II (31.12.2027 și 1.07.2028). Platforma e dezvoltată de ADR: o primărie nu poate fi amendată pentru „neimplementarea” unui sistem pe care nu îl controlează. Art. 1 alin. (5) din Constituție cere un singur termen și o faptă imputabilă.",
-      "otherComments": "Legea nu spune cine e operatorul datelor din platforma unică ADR (emitentul sau ADR) și nici cât se păstrează datele; propun ștergerea la retragerea opțiunii sau la expirarea actului. Expunerea nu cuantifică costul (platformă, SMS) – art. 138 alin. (5) Constituție. Amenzile date de ADR unor autorități independente (ANCOM, ANRE) sunt discutabile."
+      "articleRef": "Art. 4¹ alin. (2) și (7), Art. II alin. (1)",
+      "proposalContent": "La art. 4¹ alin. (2) se elimină termenul «în termen de 6 luni de la data intrării în vigoare a prezentei legi» și se clarifică rolul ADR privind datele personale. La alin. (7), «neimplementarea și neutilizarea» devine «neimplementarea sau neutilizarea», doar din culpă proprie. La Art. II alin. (1), termenul curge de la intrarea în vigoare a art. II.",
+      "argumentation": "Art. III alin. (1) fixează intrarea în vigoare la 1.01.2028, intrând în conflict cu termenul din Art. II alin. (1) («nu mai târziu de 31.12.2027»). «Prezenta lege» nu poate fi inserată într-o OUG din 2019. Formularea cumulativă «și» din alin. (7) blochează sancțiunea, iar instituțiile nu trebuie amendate de ADR pentru disfuncționalități ale platformei ADR.",
+      "otherComments": "Solicităm fișă financiară (art. 138 alin. 5 Constituție) pentru costurile platformei ADR și ale SMS-urilor, plus un termen clar de ștergere a datelor de contact după expirarea actului sau retragerea opțiunii. Inițiativa este utilă cetățenilor, dar fără aceste corecții riscă blocaje tehnice sau neconstituționalitate."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 45415,
-      "riskScore": 2,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 87521,
+      "sourceEndMarker": "SF-E68A3E74",
+      "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Alerte prin SMS și e-mail cu 30 de zile înainte să-ți expire actele, permisele sau autorizațiile",
-      "verdictShort": "O inițiativă legislativă utilă și pro-cetățean, care obligă instituțiile statului să ofere notificări digitale gratuite înainte de expirarea documentelor oficiale. Forma adoptată de Senat centralizează soluția tehnică la ADR pentru a evita risipa bugetară locală, însă conține mici necorelări tehnice privind termenele tranzitorii.",
-      "initiatorClaim": "Inițiatorii doresc ca statul să îi ajute proactiv pe cetățenii și antreprenorii de bună-credință, trimițându-le notificări electronice cu cel puțin 30 de zile înainte de expirarea actelor administrative (permise, pașapoarte, licențe, autorizații), pentru a preveni amenzile și blocajele birocratice involuntare.",
-      "realityCheck": "Legea instituie un mecanism opțional (opt-in) prin care cetățenii și firmele pot cere alerte prin SMS sau e-mail, printr-o platformă unică dezvoltată de Autoritatea pentru Digitalizarea României (ADR) până la 1 iulie 2028. Atenție însă: conform art. 4¹ alin. (4), dacă sistemul informatic dă erori și nu primești mesajul, răspunderea îți aparține în continuare și nu ești scutit de amendă pentru acte expirate.",
+      "plainTitle": "Notificări digitale opționale înainte de expirarea actelor publice",
+      "verdictShort": "O lege utilă și benignă pentru cetățeni și firme, care introduce notificări opționale prin e-mail sau SMS cu 30 de zile înainte de expirarea actelor emise de stat. Principalele riscuri nu sunt abuzuri, ci vicii de redactare, termene contradictorii și lipsa bugetării platformei naționale gestionate de ADR.",
+      "initiatorClaim": "Inițiatorii vor să elimine amenzile și blocajele cauzate de expirarea neintenționată a actelor oficiale (permise, pașapoarte, autorizații, licențe), obligând statul să trimită cetățenilor care își dau acordul o notificare digitală cu cel puțin 30 de zile înainte de expirare.",
+      "realityCheck": "Textul adoptat de Senat introduce art. 4¹ în Codul administrativ (în prezent art. 4 reglementează doar domeniul general de aplicare), obligând instituțiile publice și toate entitățile private cu competențe delegate de serviciu public să ofere această opțiune printr-o platformă unică dezvoltată de ADR, operațională din 1 iulie 2028. Mecanismul este strict opțional (opt-in), nu afectează valabilitatea actelor și nu exonerează cetățeanul dacă notificarea nu ajunge, dar legea conține termene contradictorii, o sancțiune simbolică redactată defectuos (500–1.000 lei) și o subestimare nerealistă a costurilor tehnice.",
       "affectedGroups": [
-        "Toți cetățenii",
         "IMM & Antreprenori",
         "Șoferi & Auto",
-        "Proprietari & Imobiliare"
+        "Proprietari & Imobiliare",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I (art. 4¹ alin. 1 și 2): Toate autoritățile centrale, locale și entitățile care prestează servicii publice vor trebui să ofere, de la 1 iulie 2028, opțiunea notificării prin e-mail sau SMS cu minimum 30 de zile înainte de expirarea actelor, folosind o platformă informatică unică furnizată de ADR.",
-        "Art. I (art. 4¹ alin. 4) și Art. III alin. (3): Lipsa notificării nu prelungește valabilitatea documentului și nu apără titularul de sancțiuni legale, iar documentele cu valabilitate mai mică de 30 de zile sunt exceptate de la procedură.",
-        "Art. I (art. 4¹ alin. 7-8): Instituțiile publice care nu implementează și nu utilizează sistemul riscă amenzi între 500 și 1.000 lei, aplicate chiar de către personalul ADR."
+        "Contradicție de termene între Art. II alin. (1) și Art. III alin. (1): legea intră în vigoare la 1 ianuarie 2028 (cu excepția Art. II, la 3 zile de la publicare), dar Art. II alin. (1) obligă autoritățile să își adapteze regulamentele «în termen de 6 luni de la data intrării în vigoare a prezentei legi, dar nu mai târziu de 31 decembrie 2027» — un termen logic imposibil față de 1 ianuarie 2028; în plus, Art. 4¹ alin. (2) introduce sintagma «prezentei legi» direct în corpul OUG nr. 57/2019.",
+        "Conflict de roluri și formulare defectuoasă a contravenției la Art. 4¹ alin. (7)–(8): ADR dezvoltă și administrează platforma unică, dar tot personalul ADR constată și amendează instituțiile (cu 500–1.000 lei) pentru «neimplementarea și neutilizarea» sistemului; conjuncția cumulativă «și» poate face sancțiunea inaplicabilă dacă o instituție se înrolează formal, dar nu transmite notificări, iar legea nu exonerează instituțiile dacă platforma ADR întârzie sau nu funcționează.",
+        "Extinderea sferei de aplicare față de Expunerea de Motive: deși inițiatorii menționau doar entitățile unde statul este acționar unic sau majoritar, forma Senatului (Art. 4¹ alin. 1) obligă și sancționează toate entitățile cărora le-au fost delegate competențe de prestare a unui serviciu public care emit documente administrative cu valabilitate determinată (cu excepția celor sub 30 de zile sau acoperite de legi speciale, conform Art. 4¹ alin. 6 și Art. III alin. 3)."
       ],
-      "blindSpotsCaught": "Există o contradicție de tehnică legislativă între Art. II alin. (1) și Art. III alin. (1): Art. II alin. (1) cere adaptarea regulamentelor „în termen de 6 luni de la data intrării în vigoare a prezentei legi, dar nu mai târziu de 31 decembrie 2027”, în timp ce Art. III alin. (1) prevede că legea intră în vigoare abia la 1 ianuarie 2028 (doar Art. II intrând în vigoare la 3 zile de la publicare). De asemenea, ADR este simultan dezvoltatorul platformei și organul care amendează primăriile dacă nu o folosesc, fără a se condiționa sancțiunea de livrarea la timp a platformei de către ADR.",
-      "constitutionalityNote": "Proiectul respectă exigențele constituționale, însă mica contradicție dintre termenele de la Art. II alin. (1) și Art. III alin. (1) ar trebui corectată în Camera Deputaților pentru a asigura deplina claritate și previzibilitate a normei conform Art. 1 alin. (5) din Constituție.",
-      "euLawNote": "Măsura este pe deplin aliniată cu Regulamentul (UE) 2016/679 (GDPR), prelucrarea datelor de contact fiind bazată strict pe consimțământul explicit al titularului (opt-in, cu drept de retragere oricând) și limitată exclusiv la scopul notificării (art. 4¹ alin. 3 și 5). Nu ridică probleme pe Directiva 2018/958 sau TRIS 2015/1535, vizând un serviciu public administrativ intern.",
+      "blindSpotsCaught": "Există o discrepanță majoră între Expunerea de Motive (care presupune replicarea unei configurații simple pe infrastructura existentă, fără impact bugetar semnificativ) și forma adoptată de Senat, care impune ADR să construiască și să opereze o platformă informatică unică la nivel național cu notificări SMS/e-mail pentru mii de instituții și milioane de acte, fără nicio sursă de finanțare. În plus, deși Art. 4¹ alin. (5) invocă GDPR, legea nu stabilește termenul de ștergere a datelor de contact după expirarea actului sau retragerea opțiunii și nici delimitarea rolurilor de operator/persoană împuternicită între ADR și autoritățile emitente.",
+      "constitutionalityNote": "Două vulnerabilități principale: (1) Art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii), din cauza conflictului de termene dintre Art. II alin. (1) și Art. III alin. (1), a trimiterii la «prezenta lege» inserate în OUG nr. 57/2019 și a formulării neclare a contravenției («neimplementarea și neutilizarea»); (2) Art. 138 alin. (5) (stabilirea sursei de finanțare), întrucât dezvoltarea unei platforme naționale unice la ADR, integrarea instituțiilor și costurile recurente de SMS generează cheltuieli bugetare certe, neacoperite de o fișă financiară. De verificat și caracterul legii (adoptată de Senat ca lege ordinară, art. 76 alin. 2), întrucât impune obligații și sancțiuni contravenționale inclusiv unităților administrativ-teritoriale (posibilă atingere adusă art. 73 alin. 3 lit. o privind regimul general al autonomiei locale).",
+      "euLawNote": "Mecanismul este aliniat obiectivelor UE de digitalizare a serviciilor publice și respectă în principiu Regulamentul (UE) 2016/679 (GDPR) prin cerința de opțiune prealabilă (opt-in), retragere oricând și limitare a scopului (Art. 4¹ alin. 3 și 5, Art. III alin. 6), însă necesită clarificări în normele aplicabile privind durata stocării datelor (art. 5 GDPR) și calitatea de operator/împuternicit a ADR (art. 26/28 GDPR). Nu intră sub incidența Directivei (UE) 2015/1535 (TRIS), deoarece vizează o platformă publică de e-guvernare, nu reglementări tehnice pentru furnizori privați de servicii digitale, și nici sub Directiva (UE) 2018/958 privind profesiile reglementate.",
       "senatForm": {
-        "articleRef": "Art. I (Art. 4^1 alin. 7) și Art. II alin. (1)",
-        "proposalContent": "La art. 4^1 alin. (7), după sintagma „în termenul prevăzut de lege” se introduce „și după punerea la dispoziție a platformei funcționale de către ADR”. La Art. II alin. (1), sintagma „În termen de 6 luni de la data intrării în vigoare a prezentei legi, dar nu mai târziu de 31 decembrie 2027” devine „Până la data de 31 decembrie 2027”.",
-        "argumentation": "Art. III alin. (1) stabilește intrarea în vigoare a legii la 1 ianuarie 2028 (doar Art. II intră la 3 zile de la publicare), făcând contradictoriu termenul din Art. II alin. (1) („6 luni de la intrarea în vigoare a legii, dar nu mai târziu de 31 dec. 2027”). Totodată, instituțiile nu pot fi sancționate de ADR dacă ADR nu a livrat încă platforma.",
-        "otherComments": "Inițiativa este excelentă pentru debirocratizare și prevenirea amenzilor accidentale. Dezvoltarea unei aplicații unice de către ADR evită cheltuielile IT redundante în fiecare primărie, dar necesită fluxuri automatizate (API) ca să nu dubleze munca funcționarilor."
-      }
+        "articleRef": "Art. 4¹ alin. (2) și (7), Art. II alin. (1)",
+        "proposalContent": "La art. 4¹ alin. (2) se elimină termenul «în termen de 6 luni de la data intrării în vigoare a prezentei legi» și se clarifică rolul ADR privind datele personale. La alin. (7), «neimplementarea și neutilizarea» devine «neimplementarea sau neutilizarea», doar din culpă proprie. La Art. II alin. (1), termenul curge de la intrarea în vigoare a art. II.",
+        "argumentation": "Art. III alin. (1) fixează intrarea în vigoare la 1.01.2028, intrând în conflict cu termenul din Art. II alin. (1) («nu mai târziu de 31.12.2027»). «Prezenta lege» nu poate fi inserată într-o OUG din 2019. Formularea cumulativă «și» din alin. (7) blochează sancțiunea, iar instituțiile nu trebuie amendate de ADR pentru disfuncționalități ale platformei ADR.",
+        "otherComments": "Solicităm fișă financiară (art. 138 alin. 5 Constituție) pentru costurile platformei ADR și ale SMS-urilor, plus un termen clar de ștergere a datelor de contact după expirarea actului sau retragerea opțiunii. Inițiativa este utilă cetățenilor, dar fără aceste corecții riscă blocaje tehnice sau neconstituționalitate."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 197880,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Statul te anunță, dacă vrei, cu 30 de zile înainte să-ți expire un act",
-      "verdictShort": "Lege utilă și inofensivă pentru cetățeni: la cerere, primești un e-mail sau un SMS înainte să-ți expire un act, un permis sau o autorizație. Problemele sunt de redactare: termene de implementare care se contrazic, amenzi simbolice plătite din bani publici către bani publici și o excepție largă pentru legile speciale.",
-      "initiatorClaim": "Inițiatorii USR vor ca statul să-i ajute pe cetățenii de bună-credință să nu rateze expirarea documentelor, ca să evite amenzi și blocaje, printr-o notificare trimisă cu cel puțin 30 de zile înainte. Expunerea de motive promite costuri neglijabile și aplicare din 1 ianuarie 2027.",
-      "realityCheck": "Forma Senatului obligă emitenții de acte cu valabilitate limitată să ofere opțiunea unei notificări electronice printr-o platformă unică a ADR. Lista emitenților include autorități centrale și locale, autorități autonome și operatori, inclusiv privați, cu servicii publice delegate. Obligația vizează doar actele emise după 1 iulie 2028; pentru actele mai vechi, titularul poate opta separat. Lipsa notificării nu scuză nimic (art. 4¹ alin. 4), deci cetățeanul nu câștigă un drept pe care să-l poată invoca. Singura sancțiune este o amendă de 500–1.000 lei aplicată de ADR altor instituții. Excepția de la alin. (6) scoate din sfera legii orice act pentru care o lege specială prevede deja vreo formă de informare.",
-      "affectedGroups": [
-        "Toți cetățenii",
-        "Șoferi & Auto",
-        "IMM & Antreprenori",
-        "Proprietari & Imobiliare",
-        "IT & AI"
-      ],
-      "keyFindings": [
-        "Art. 4¹ alin. (1)–(3) și (5): mecanismul este opțional, gratuit și poate fi retras oricând. Datele de contact se folosesc exclusiv pentru notificare. Cetățenii și firmele nu primesc nicio obligație sau cost nou, iar actele valabile sub 30 de zile sunt excluse (art. III alin. 3).",
-        "Termenele nu se potrivesc între ele. Art. 4¹ alin. (2) dă ADR 6 luni de la intrarea în vigoare a legii, adică din 1.01.2028 până la 1.07.2028. Art. II alin. (1) cere adaptarea procedurilor în 6 luni, dar nu mai târziu de 31.12.2027, deși legea intră în vigoare abia la 1.01.2028. Art. II alin. (2) fixează punerea în funcțiune la 1.07.2028. Termenul de 6 luni și plafonul din 2027 nu pot fi respectate simultan.",
-        "Art. 4¹ alin. (7) sancționează „neimplementarea și neutilizarea” sistemului. Fapta este greu de imputat unei primării sau unui operator, pentru că platforma o construiește ADR. Amenda de 500–1.000 lei (250 lei dacă se plătește în 15 zile, art. 28 OG 2/2001) e simbolică și circulă din bugete publice tot spre bugetul de stat.",
-        "Art. 4¹ alin. (6) exclude orice act pentru care o lege specială reglementează „o procedură privind notificarea sau informarea”. Legea nu cere ca acea procedură să fie digitală sau să respecte avansul de 30 de zile, așa că exact actele importante pot rămâne în afara noului sistem.",
-        "Art. III alin. (4) lasă sub vechiul regim actele aflate în curs de emitere la 1.07.2028, iar alin. (5) acoperă doar actele emise înainte de această dată. Rezultă o categorie neclară de titulari care s-ar putea să nu poată opta pentru notificare.",
-        "Expunerea și textul adoptat diferă. Expunerea vorbește de aplicare din 1.01.2027, de entități cu capital majoritar de stat și de notificări pentru prima eliberare sau pentru plata unor sume. Textul vizează doar expirarea, include și operatori privați cu servicii delegate și amână aplicarea la 1.07.2028."
-      ],
-      "blindSpotsCaught": "1) Termenul de la art. 4¹ alin. (2) intră în textul Codului administrativ, care este o OUG din 2019. Acolo, sintagma „prezenta lege” devine ambiguă, iar termenele tranzitorii ar trebui să stea doar în art. II. 2) Alin. (6) vorbește de „obligația de notificare prevăzută la alin. (1)”, dar alin. (1) obligă doar la oferirea opțiunii; obligația de a trimite efectiv mesajul se deduce indirect din alin. (2). 3) Platforma unică a ADR va concentra telefonul, e-mailul și datele de expirare ale tuturor actelor pentru milioane de oameni. Legea nu spune cine este operatorul datelor (ADR sau emitentul), cât timp se păstrează ele și dacă se șterg la retragerea opțiunii. 4) ADR, aflată în subordinea Guvernului, ar putea amenda autorități administrative autonome, inclusiv regulatori pe care dreptul UE îi vrea independenți (ANCOM, ANRE). În schimb, dacă ADR întârzie platforma, legea nu prevede nicio sancțiune pentru ea.",
-      "constitutionalityNote": "Riscul constituțional e scăzut: legea nu restrânge drepturi și nu impune obligații cetățenilor. Punctul slab e previzibilitatea (art. 1 alin. 5). Textul conține termene incompatibile (6 luni de la 1.01.2028, plafonul de 31.12.2027 și 1.07.2028). În plus, contravenția de la art. 4¹ alin. (7) trimite la „termenul prevăzut de lege” fără ca acesta să fie univoc, ceea ce afectează și legalitatea sancțiunii (art. 23 alin. 12, aplicat de CCR și contravențiilor). Al doilea punct: platforma ADR și transmiterea SMS-urilor generează cheltuieli bugetare necuantificate (art. 138 alin. 5). Dacă nu s-a solicitat informarea Guvernului (art. 111 alin. 1 teza a II-a), legea e expusă unei obiecții la CCR pe acest temei. Viața privată (art. 26) și autonomia locală (art. 120) sunt respectate prin caracterul opțional, limitarea scopului și reglementarea prin lege.",
-      "euLawNote": "GDPR: legea oferă un temei clar (opțiunea titularului și o sarcină de interes public, art. 6 alin. 1 lit. a/e și alin. 3) și limitează scopul. Îi lipsesc însă desemnarea operatorului sau a operatorilor asociați (art. 26) și durata de stocare. Pentru o bază de date la scară națională sunt necesare o evaluare de impact (art. 35) și consultarea ANSPDCP asupra proiectului (art. 36 alin. 4). Directiva 2018/958 nu se aplică, pentru că nu se reglementează accesul la profesii. TRIS 2015/1535: textul reglementează comunicarea autorităților cu titularii, nu servicii ale societății informaționale, deci notificarea la Comisie nu pare necesară. Notificarea nu produce efecte juridice, deci nu are nevoie de servicii eIDAS de livrare electronică înregistrată. Singura tensiune ține de amenzile ADR aplicate regulatorilor independenți (art. 8 din Directiva 2018/1972 pentru ANCOM, art. 57 din Directiva 2019/944 pentru ANRE); ar fi mai sigur ca aceștia să fie exceptați de la sancțiune.",
-      "senatForm": {
-        "articleRef": "Art. I, art. 4¹ alin. (2) și (7) din OUG 57/2019",
-        "proposalContent": "Alin. (2): se elimină „în termen de 6 luni de la data intrării în vigoare a prezentei legi”; termenul rămâne cel din art. II alin. (2). Alin. (7), teza I: „Neutilizarea, după punerea în funcțiune a platformei prevăzute la alin. (2), a sistemului digitalizat pentru notificarea titularilor care au optat potrivit alin. (1) și (3) constituie contravenție...”",
-        "argumentation": "Odată inserată în Cod (o OUG din 2019), sintagma „prezenta lege” devine ambiguă, iar termenul de 6 luni concurează cu cele din art. II (31.12.2027 și 1.07.2028). Platforma e dezvoltată de ADR: o primărie nu poate fi amendată pentru „neimplementarea” unui sistem pe care nu îl controlează. Art. 1 alin. (5) din Constituție cere un singur termen și o faptă imputabilă.",
-        "otherComments": "Legea nu spune cine e operatorul datelor din platforma unică ADR (emitentul sau ADR) și nici cât se păstrează datele; propun ștergerea la retragerea opțiunii sau la expirarea actului. Expunerea nu cuantifică costul (platformă, SMS) – art. 138 alin. (5) Constituție. Amenzile date de ADR unor autorități independente (ANCOM, ANRE) sunt discutabile."
-      }
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 99742,
+      "durationMs": 88032,
+      "sourceEndMarker": "SF-E68A3E74",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Notificări opționale înainte să expire actele",
-      "verdictShort": "Proiectul oferă un ajutor util cetățenilor și firmelor, fără taxe noi sau sancțiuni noi pentru titularii documentelor. Riscurile principale sunt termenele ambigue, costurile insuficient fundamentate și regulile incomplete pentru funcționarea notificărilor.",
-      "initiatorClaim": "Inițiatorii urmăresc reducerea expirării neintenționate a documentelor și prevenirea sancțiunilor prin informarea cetățenilor din timp. Ei prezintă notificarea ca pe un serviciu simplu, cu costuri reduse, care poate îmbunătăți relația cu administrația.",
-      "realityCheck": "Forma Senatului instituie notificări electronice la cerere, printr-o platformă unică administrată de ADR, pentru documente cu valabilitate determinată; nu introduce reînnoirea automată sau notificarea generală a obligațiilor fiscale. Lipsa mesajului nu prelungește documentul și nu înlătură sancțiunile existente, iar amenda nouă de 500–1.000 lei vizează entitățile responsabile de implementarea și utilizarea sistemului. Aplicarea generală începe pentru documentele emise de la 1 iulie 2028, cu excepții tranzitorii, deși expunerea de motive vorbește despre 1 ianuarie 2027.",
+      "plainTitle": "Notificări opționale înainte să expire documentele",
+      "verdictShort": "Proiectul introduce un serviciu util, fără taxe noi și fără să transfere cetățenilor obligații suplimentare de reînnoire. Principalele probleme sunt corelarea termenelor de implementare și formularea insuficient de precisă a contravenției.",
+      "initiatorClaim": "Inițiatorii urmăresc să reducă expirarea neintenționată a documentelor și riscul de sancționare, prin informarea prealabilă a titularilor. Expunerea de motive prezintă notificarea ca pe un sprijin pentru conformarea voluntară și afirmă că implementarea ar avea costuri reduse.",
+      "realityCheck": "Textul adoptat instituie notificări electronice opționale pentru documentele cu valabilitate determinată, printr-o platformă unică asigurată de Autoritatea pentru Digitalizarea României, cu aplicare în principal de la 1 iulie 2028. Nu prelungește documentele și nu înlătură sancțiunile pentru folosirea lor după expirare; amenda nouă privește entitățile responsabile de sistem. Față de expunerea de motive, mecanismul nu notifică în general obligația primei obțineri a unui document, iar calendarul și destinatarii rezultă din articole, nu din explicațiile inițiatorilor.",
       "affectedGroups": [
-        "Toți cetățenii",
         "IMM & Antreprenori",
         "IT & AI",
         "Șoferi & Auto",
         "Proprietari & Imobiliare",
-        "Justiție & Drepturi Civile"
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 4¹ alin. (1)–(4): serviciul este opțional, iar opțiunea poate fi retrasă. Beneficiarul rămâne responsabil pentru valabilitatea documentului. Alin. (3) permite însă înscrierea oricând în perioada de valabilitate, fără să rezolve cazul în care mai sunt sub 30 de zile până la expirare: termenul minim de notificare devine imposibil de respectat.",
-        "Art. II alin. (1) și art. III alin. (1): pregătirile trebuie făcute în 6 luni de la intrarea în vigoare a legii, dar cel târziu la 31 decembrie 2027; intrarea generală este 1 ianuarie 2028, iar art. II intră anticipat în vigoare. Reperul celor 6 luni trebuie precizat. Termenul ADR pentru platformă, din art. 4¹ alin. (2), ajunge chiar la data lansării generale, 1 iulie 2028, fără o perioadă distinctă garantată pentru integrarea instituțiilor.",
-        "Art. 4¹ alin. (2), (7) și (8): platforma unică poate uniformiza serviciul, dar presupune dezvoltare, integrare, mentenanță, securitate și transmiterea mesajelor. Expunerea furnizată nu cuantifică aceste costuri. Formula contravenției, «neimplementarea și neutilizarea», nu distinge suficient abaterile și nu sancționează explicit fiecare notificare omisă; amenzile instituțiilor publice se suportă, în principiu, din resurse publice."
+        "Art. I adaugă art. 4¹ fără să modifice actualul art. 4, care stabilește domeniul general de aplicare al Codului administrativ. Noutatea este obligația transversală de a oferi notificarea opțională, nu obligația titularului de a urmări expirarea documentelor.",
+        "Art. 4¹ alin. (1)-(3): titularul poate activa sau retrage notificările, inclusiv după emiterea documentului. Legea nu impune expres folosirea cumulativă a e-mailului și SMS-ului și nu reglementează utilizarea inteligenței artificiale.",
+        "Art. 4¹ alin. (4): lipsa notificării nu prelungește valabilitatea și nu suspendă sancțiunile prevăzute de legislația aplicabilă. Textul nu elimină căile generale de contestare a sancțiunilor sau, prin el însuși, eventuala răspundere a administrației.",
+        "Art. II și art. III stabilesc etape distincte: pregătirea începe după intrarea în vigoare anticipată a art. II, legea intră în general în vigoare la 1 ianuarie 2028, iar sistemul trebuie să funcționeze până la 1 iulie 2028. Trimiterea din art. II alin. (1) la intrarea în vigoare a «prezentei legi», combinată cu limita de 31 decembrie 2027, necesită clarificarea momentului de la care curg cele șase luni.",
+        "Art. III alin. (2)-(5): documentele cu valabilitate sub 30 de zile sunt excluse; pentru cele emise anterior datei de 1 iulie 2028 există posibilitatea înscrierii dacă rămâne suficient timp. Procedurile aflate în curs la acea dată păstrează regimul anterior, ceea ce poate exclude documente eliberate ulterior și trebuie corelat cu regula generală de aplicare.",
+        "Art. 4¹ alin. (3) permite activarea notificării oricând în perioada de valabilitate, dar nu rezolvă situația activării cu mai puțin de 30 de zile înainte de expirare. Condiția privind timpul rămas apare expres doar pentru documentele vechi, la art. III alin. (5).",
+        "Art. 4¹ alin. (7)-(9): amenda de 500-1.000 lei este suportată de persoana juridică indicată de text, inclusiv de unitatea administrativ-teritorială, nu automat de funcționar. Conjuncția «și» din «neimplementarea și neutilizarea» lasă neclar dacă neutilizarea unui sistem deja implementat este sancționabilă separat; o notificare individuală omisă nu este descrisă distinct drept contravenție. Garanțiile OG nr. 2/2001 rămân aplicabile.",
+        "Platforma unică presupune integrarea evidențelor, administrare, securitate, suport și eventual costuri SMS. Afirmația din expunerea de motive privind costurile nesemnificative nu reprezintă o estimare bugetară; textul furnizat nu cuantifică aceste cheltuieli și nu identifică expres finanțarea lor."
       ],
-      "blindSpotsCaught": "Art. III alin. (4) păstrează regimul anterior pentru procedurile deja începute la 1 iulie 2028, chiar dacă documentul se emite ulterior; acestea nu intră nici în opțiunea tranzitorie din alin. (5), rezervată documentelor emise anterior. Art. 4¹ alin. (6) exclude orice procedură specială de informare dintre cele enumerate, fără să ceară expres un termen sau o protecție echivalentă. În plus, destinatarii includ și entități private cu competențe delegate, fără condiția ca statul să fie acționar majoritar, menționată în expunerea de motive.",
-      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă a mecanismului. Vulnerabilitățile față de art. 1 alin. (5) sunt corelarea termenelor, opțiunea tardivă și descrierea contravenției; legalitatea sancțiunilor trebuie analizată și prin garanțiile art. 23 alin. (12), fără a confunda contravenția cu o infracțiune. Jurisprudența CCR cere descrierea clară a faptelor contravenționale: [Decizia nr. 180/2025](https://legislatie.just.ro/Public/DetaliiDocument/309608). Pentru art. 26 trebuie clarificate responsabilitățile privind datele. Costurile impun verificarea sursei de finanțare potrivit art. 138 alin. (5) și a solicitării informării Guvernului, dacă sunt modificate prevederi bugetare, potrivit art. 111 alin. (1); documentele furnizate nu permit constatarea îndeplinirii sau încălcării acestor cerințe. Adoptarea ca lege ordinară nu este automat greșită doar fiindcă se completează Codul administrativ: contează materia efectiv reglementată. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355?isFormaDeBaza=True).",
-      "euLawNote": "Directiva 2018/958 nu impune aici testul special de proporționalitate: proiectul nu restrânge accesul la profesii reglementate sau exercitarea lor. [Art. 2](https://eur-lex.europa.eu/legal-content/RO/ALL/?uri=celex%3A32018L0958). Nu identific în text o obligație TRIS demonstrată: digitalizarea unui serviciu administrativ nu este suficientă pentru aplicarea Directivei 2015/1535, iar proiectul nu reglementează AI. Eventualele norme tehnice ulterioare trebuie evaluate separat. [Art. 1 și 5](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=celex%3A32015L1535). Platforma ADR nu conferă unui furnizor privat o exclusivitate comercială și nu interzice serviciile private de reminder; achizițiile și interoperabilitatea vor conta în implementare. GDPR nu cere consimțământ pentru orice prelucrare administrativă: art. 6 permite și obligația legală sau sarcina de interes public. Opțiunea pentru notificări trebuie diferențiată de temeiul prelucrării, iar rolurile ADR și instituțiilor, păstrarea datelor și securitatea trebuie clarificate. [Regulamentul 2016/679](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1692157436818&uri=CELEX%3A32016R0679).",
+      "blindSpotsCaught": "Excepția din art. 4¹ alin. (6) înlătură mecanismul general ori de câte ori o lege specială reglementează o procedură de notificare sau informare privind reînnoirea ori emiterea unui nou document. Nu cere ca procedura specială să fie digitală sau să asigure anticiparea cu 30 de zile, astfel încât protecția nu va fi uniformă. În plus, sfera entităților delegate nu este limitată în textul normativ la societăți cu capital public majoritar, deși expunerea de motive sugerează această limitare.",
+      "constitutionalityNote": "Scopul este legitim, iar textul furnizat nu indică o restrângere gravă a drepturilor. Art. 1 alin. (5) impune însă clarificarea calendarului, a activării tardive a notificărilor și a conduitei sancționate. Art. 23 alin. (12) privește legalitatea pedepsei; pentru contravenția propusă, reperul direct al clarității este art. 1 alin. (5). Completarea Codului administrativ nu atrage automat caracterul organic al legii: trebuie analizat dacă soluțiile intră material în domeniile art. 73 alin. (3), inclusiv organizarea administrației locale. Adoptarea indicată potrivit art. 76 alin. (2) nu dovedește singură un viciu. Pentru cheltuielile publice trebuie verificate documentele privind sursa finanțării și solicitarea informării Guvernului, potrivit art. 138 alin. (5) și art. 111 alin. (1), în măsura aplicabilității lor; lipsa acestor documente din materialul primit nu dovedește că procedura a fost omisă. Verificarea externă online nu a fost disponibilă.",
+      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile privind accesul la profesii reglementate și exercitarea acestora. Simpla notificare a expirării unei licențe nu introduce o asemenea restricție, deci textul furnizat nu justifică aplicarea testului specific directivei. Nici existența unei platforme digitale nu declanșează automat notificarea TRIS potrivit Directivei (UE) 2015/1535: nu rezultă aici o reglementare specifică a accesului la servicii ale societății informaționale sau a exercitării lor. Platforma publică unică nu constituie, prin ea însăși, un monopol comercial, dar achizițiile aferente trebuie să respecte regulile aplicabile concurenței și achizițiilor publice. GDPR se aplică direct: opțiunea pentru notificări nu trebuie confundată automat cu un consimțământ care ar constitui singurul temei posibil al prelucrării; trebuie stabilite temeiul adecvat, responsabilitățile ADR și ale emitenților, datele strict necesare și durata păstrării. Trimiterea generală la GDPR nu permite reutilizarea nelimitată a datelor colectate anterior.",
       "senatForm": {
         "articleRef": "Art. II alin. (1)",
-        "proposalContent": "(1) Până la data de 31 decembrie 2027, autoritățile, instituțiile, organismele și entitățile prevăzute la art. 4¹ alin. (1) din Ordonanța de urgență a Guvernului nr. 57/2019 întreprind demersurile necesare pentru adaptarea actelor normative de organizare și funcționare, a regulamentelor, procedurilor și instrucțiunilor aplicabile, în vederea aplicării prezentei legi.",
-        "argumentation": "Termenul de 6 luni de la intrarea în vigoare a legii este ambiguu: art. III alin. (1) fixează intrarea generală la 1 ianuarie 2028, dar art. II intră anticipat în vigoare și impune limita de 31 decembrie 2027. Un termen calendaristic unic clarifică pregătirile și termenul ADR din art. II alin. (3), fără a schimba lansarea din 1 iulie 2028.",
-        "otherComments": "Separat, trebuie reglementate opțiunile exprimate cu mai puțin de 30 de zile înaintea expirării, clarificată contravenția și stabilite costurile și finanțarea platformei. Propunerea cetățeanului se trimite comisiilor Camerei Deputaților care întocmesc raportul; un deputat o poate prelua ca amendament."
-      }
+        "proposalContent": "(1) Până la 31 decembrie 2027, entitățile prevăzute la art. 4¹ alin. (1) din Ordonanța de urgență a Guvernului nr. 57/2019 întreprind, potrivit competențelor legale, demersurile necesare pentru adaptarea cadrului normativ de organizare și funcționare și a procedurilor aplicabile, în vederea punerii în aplicare a prezentei legi.",
+        "argumentation": "Art. III stabilește două momente de intrare în vigoare. Formula actuală poate raporta cele șase luni la 1 ianuarie 2028, deși termenul maxim este 31 decembrie 2027. Un termen calendaristic unic elimină ambiguitatea și păstrează perioada de pregătire înaintea lansării sistemului.",
+        "otherComments": "Termenul presupune publicarea legii suficient de devreme. Se recomandă separat precizarea conduitei sancționate la art. 4¹ alin. (7), reglementarea opțiunilor exprimate în ultimele 30 de zile și corelarea regulilor pentru documentele provenite din proceduri aflate în curs la 1 iulie 2028."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T20:18:02.992Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T12:47:05.617Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

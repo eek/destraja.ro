@@ -1,116 +1,146 @@
 {
   "billId": "PL-x 609/2026",
   "slug": "plx-609-2026",
-  "updatedAt": "2026-10-28T21:39:23.246Z",
+  "version": "senat",
+  "updatedAt": "2026-11-24T12:49:14.126Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 1312,
+    "ordinanceChars": 0,
+    "memoChars": 10284,
+    "memoSupplied": 10284,
+    "marker": "SF-8BA77E02"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-609-2026.json",
+    "form": "senat",
+    "textHash": "8ba77e02560137f1",
+    "fetchedAt": "2026-11-19T09:39:01.251Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 1.3,
+    "riskScore": 1.5,
     "riskLevel": "green",
-    "plainTitle": "2029 devine „Anul Doina Cornea”, la 100 de ani de la nașterea disidentei",
-    "summaryTlDr": "Lege simbolică și inofensivă: nu impune nimănui obligații, taxe sau sancțiuni, doar permite instituțiilor să organizeze evenimente. Singura lipsă reală este că nu spune de unde vin banii dacă statul alege să finanțeze ceva.",
-    "initiatorClaim": "Deputații PNL vor să marcheze centenarul nașterii Doinei Cornea (1929–2018), simbol al rezistenței anticomuniste. Scopul declarat este un cadru pentru programe culturale, educaționale și științifice care să transmită noilor generații valorile democratice.",
-    "realityCheck": "Legea are 4 articole, toate permisive („pot”): dă anului 2029 o denumire simbolică și permite autorităților, școlilor, ONG-urilor, ministerelor și SRR/SRTV să organizeze sau să finanțeze evenimente. Nu creează nicio obligație, niciun coordonator, niciun program național aprobat prin HG și niciun buget dedicat, așa că efectul concret depinde în întregime de voința instituțiilor. Instituțiile puteau face aceste lucruri și fără lege; valoarea ei este de semnal public.",
+    "plainTitle": "Anul 2029 devine „Anul Doina Cornea”, cu evenimente opționale",
+    "summaryTlDr": "O lege pur comemorativă și benignă, fără obligații, taxe sau sancțiuni pentru cetățeni sau firme. Singura scăpare tehnică este lipsa mențiunii privind încadrarea finanțărilor în bugetele aprobate și respectarea procedurilor legale de atribuire.",
+    "initiatorClaim": "Inițiatorii vor să marcheze centenarul nașterii disidentei anticomuniste Doina Cornea (1929–2018) în 2029, la 40 de ani de la Revoluția din 1989, promovând valorile democratice și memoria istoriei recente.",
+    "realityCheck": "Legea instituie titlul simbolic „Anul Doina Cornea” pentru 2029 și folosește exclusiv formulări permisive („pot organiza”, „pot acorda”, „pot include”). Nu obligă nicio instituție, școală, ONG sau televiziune publică să cheltuiască bani sau să organizeze evenimente și nu modifică alte legi. Totuși, art. 3 deschide posibilitatea acordării de sprijin financiar din bani publici fără a preciza expres limita bugetului aprobat sau procedurile legale aplicabile.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Toți cetățenii",
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. 3 (sprijin logistic și financiar)",
-      "proposalContent": "Art. 3 - Ministerele cu atribuții în domeniile culturii și educației și alte instituții publice pot acorda sprijin logistic și financiar programelor și proiectelor dedicate „Anului Doina Cornea”, în limita fondurilor aprobate în bugetele proprii. Finanțările nerambursabile către ONG-uri se acordă prin procedură competitivă, potrivit legii.",
-      "argumentation": "Art. 138 alin. (5) din Constituție cere stabilirea sursei de finanțare pentru orice cheltuială bugetară, iar textul nu o indică. Formula „în limita fondurilor aprobate” arată clar că legea nu creează cheltuieli noi, iar procedura competitivă garantează că banii publici ajung la ONG-uri transparent, nu discreționar.",
-      "otherComments": "Denumirile generice ale ministerelor evită ca legea să devină neclară dacă structura Guvernului se schimbă până în 2029. Art. 2 și 4 sunt pur permisive: SRR/SRTV pot difuza oricum astfel de emisiuni, iar autonomia lor editorială (art. 31 alin. 5 Constituție) rămâne neatinsă. Proiectul e util simbolic; susținem adoptarea cu această precizare."
+      "articleRef": "Art. 3",
+      "proposalContent": "Art. 3.- Ministerul Culturii, Ministerul Educației și Cercetării și alte instituții publice pot acorda sprijin logistic și financiar, în limita bugetelor proprii aprobate și în condițiile legii, pentru realizarea programelor și proiectelor dedicate „Anului Doina Cornea”.",
+      "argumentation": "Art. 3 permite sprijin financiar fără a indica sursa (art. 138 alin. 5 din Constituție) ori cadrul legal de finanțare (Legea 350/2005). Mențiunea „în limita bugetelor proprii aprobate și în condițiile legii” previne cheltuielile discreționare și riscul de neconstituționalitate, fără a afecta scopul legii.",
+      "otherComments": "Inițiativa este benignă și oportună ca gest simbolic. Aceeași precizare privind încadrarea în bugetele aprobate poate fi introdusă, pentru coerență, și la art. 2. La adoptare merită verificată și denumirea actuală a ministerului responsabil de educație."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 35111,
-      "riskScore": 1,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 36039,
+      "sourceEndMarker": "SF-8BA77E02",
+      "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Anul 2029 declarat oficial „Anul Doina Cornea” la centenarul nașterii sale",
-      "verdictShort": "O lege pur simbolică și comemorativă, fără obligații, taxe sau restricții impuse cetățenilor ori mediului privat. Toate prevederile privind organizarea și finanțarea de evenimente sunt facultative pentru instituțiile statului.",
-      "initiatorClaim": "Inițiatorii propun instituirea anului 2029 drept „Anul Doina Cornea” pentru a marca 100 de ani de la nașterea disidentei anticomuniste (precum și 40 de ani de la Revoluția din 1989) prin manifestări culturale, educaționale și științifice.",
-      "realityCheck": "Din punct de vedere mecanic, legea are caracter exclusiv permisiv și onorific, folosind verbul „pot” în raport cu autoritățile publice, școlile și televiziunea/radioul public. Singura lacună tehnică se află la Art. 3, unde posibilitatea acordării de sprijin financiar de către ministere și alte instituții publice nu este condiționată expres de încadrarea în bugetele deja aprobate și de proceduri transparente de selecție.",
+      "plainTitle": "Anul 2029 devine „Anul Doina Cornea”, cu evenimente opționale",
+      "verdictShort": "O lege pur comemorativă și benignă, fără obligații, taxe sau sancțiuni pentru cetățeni sau firme. Singura scăpare tehnică este lipsa mențiunii privind încadrarea finanțărilor în bugetele aprobate și respectarea procedurilor legale de atribuire.",
+      "initiatorClaim": "Inițiatorii vor să marcheze centenarul nașterii disidentei anticomuniste Doina Cornea (1929–2018) în 2029, la 40 de ani de la Revoluția din 1989, promovând valorile democratice și memoria istoriei recente.",
+      "realityCheck": "Legea instituie titlul simbolic „Anul Doina Cornea” pentru 2029 și folosește exclusiv formulări permisive („pot organiza”, „pot acorda”, „pot include”). Nu obligă nicio instituție, școală, ONG sau televiziune publică să cheltuiască bani sau să organizeze evenimente și nu modifică alte legi. Totuși, art. 3 deschide posibilitatea acordării de sprijin financiar din bani publici fără a preciza expres limita bugetului aprobat sau procedurile legale aplicabile.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 1 și Art. 2 instituie simbolic „Anul Doina Cornea” în 2029 și creează baza legală facultativă („pot organiza sau sprijini”) pentru ca autoritățile centrale/locale, instituțiile culturale, școlile și ONG-urile să desfășoare evenimente comemorative.",
-        "Art. 3 permite Ministerului Culturii, Ministerului Educației și Cercetării și altor instituții publice să acorde sprijin logistic și financiar, însă omite clauza standard privind încadrarea în alocațiile bugetare aprobate.",
-        "Art. 4 permite Societății Române de Televiziune (TVR) și Societății Române de Radiodifuziune (SRR) să includă în programele lor emisiuni dedicate Doinei Cornea, fără a le impune cote obligatorii care să le afecteze autonomia editorială."
+        "Caracter pur facultativ (Art. 2, Art. 3, Art. 4): toate acțiunile instituțiilor publice, școlilor, ONG-urilor, TVR și SRR sunt opționale („pot”), fără nicio obligație juridică, taxă sau sancțiune.",
+        "Omisiune bugetară și procedurală (Art. 3): textul permite Ministerului Culturii, Ministerului Educației și Cercetării și „altor instituții publice” să acorde sprijin financiar fără clauza standard „în limita bugetelor aprobate și în condițiile legii”.",
+        "Lipsa efectelor ascunse: proiectul are doar 4 articole clare, fără derogări, fără modificări ale altor acte normative și fără povară birocratică asupra cetățenilor sau IMM-urilor."
       ],
-      "blindSpotsCaught": "La Art. 3 lipsește sintagma uzuală de tehnică legislativă „în limita bugetelor aprobate și în condițiile legii”, necesară pentru a preveni acordarea discreționară de fonduri publice în afara procedurilor concurențiale din Legea nr. 350/2005. Curiozitate din Expunerea de Motive: nota de subsol 9 conține un link copiat direct din bara unui browser cu extensie locală („chrome-extension://...”).",
-      "constitutionalityNote": "Proiectul este constituțional și a fost adoptat corect de Senat ca lege ordinară conform Art. 76 alin. (2) din Constituție. Pentru o rigoare deplină în raport cu Art. 1 alin. (5) (claritatea legii) și Art. 138 alin. (5) (stabilirea sursei de finanțare), la Art. 3 este recomandabilă precizarea încadrării în bugetele aprobate.",
-      "euLawNote": "Proiectul nu are incidență în dreptul Uniunii Europene: nu reglementează profesii și nu restrânge concurența pe piața unică (Directiva UE 2018/958), nici nu instituie norme tehnice sau digitale notificabile conform Directivei (UE) 2015/1535 (TRIS).",
+      "blindSpotsCaught": "Art. 3 lasă ușa deschisă acordării de „sprijin financiar” de către orice instituție publică fără trimitere expresă la legislația finanțărilor nerambursabile (ex. Legea 350/2005 sau OG 51/1998) și fără plafonul „în limita bugetului aprobat”. Deși verbul „pot” atenuează impactul, în practică astfel de formulări laxe pot genera finanțări netransparente sau neclarități de executare bugetară. De asemenea, art. 3 fixează în lege denumirea actuală a „Ministerului Educației și Cercetării”, sensibilă la restructurări guvernamentale până în 2029.",
+      "constitutionalityNote": "În general conformă cu Constituția, fiind o lege ordinară simbolică (art. 76 alin. 2). Există totuși o vulnerabilitate minoră la art. 3 față de art. 138 alin. (5) (indicarea sursei de finanțare) și art. 1 alin. (5) (claritatea legii), deoarece autorizează cheltuieli publice fără a preciza că se fac în limita alocărilor bugetare aprobate și în condițiile legii. Autonomia editorială a TVR și SRR (art. 31) este respectată, întrucât art. 4 este facultativ.",
+      "euLawNote": "Fără impact asupra dreptului UE. Nu reglementează servicii ale societății informaționale sau AI (nu intră sub incidența Directivei 2015/1535 – TRIS), nu restricționează accesul la profesii (Directiva 2018/958 nu este aplicabilă) și nu afectează piața unică. Eventualele finanțări către entități cu activitate economică acordate în 2029 vor trebui să respecte regulile generale privind ajutorul de stat.",
       "senatForm": {
         "articleRef": "Art. 3",
-        "proposalContent": "Art. 3. - Ministerul Culturii, Ministerul Educației și Cercetării și alte instituții publice pot acorda sprijin logistic și financiar, în limita bugetelor aprobate și în condițiile legii, pentru realizarea programelor și proiectelor dedicate „Anului Doina Cornea”.",
-        "argumentation": "Introducerea sintagmei „în limita bugetelor aprobate și în condițiile legii” asigură respectarea art. 138 alin. (5) din Constituție și a Legii nr. 500/2002 privind finanțele publice, garantând totodată că finanțările către entități private se acordă transparent, conform Legii nr. 350/2005.",
-        "otherComments": "Inițiativa este binevenită din perspectivă istorică și educațională. Amendamentul tehnic propus la Art. 3 previne alocările discreționare de fonduri publice sub umbrela evenimentelor aniversare."
-      }
+        "proposalContent": "Art. 3.- Ministerul Culturii, Ministerul Educației și Cercetării și alte instituții publice pot acorda sprijin logistic și financiar, în limita bugetelor proprii aprobate și în condițiile legii, pentru realizarea programelor și proiectelor dedicate „Anului Doina Cornea”.",
+        "argumentation": "Art. 3 permite sprijin financiar fără a indica sursa (art. 138 alin. 5 din Constituție) ori cadrul legal de finanțare (Legea 350/2005). Mențiunea „în limita bugetelor proprii aprobate și în condițiile legii” previne cheltuielile discreționare și riscul de neconstituționalitate, fără a afecta scopul legii.",
+        "otherComments": "Inițiativa este benignă și oportună ca gest simbolic. Aceeași precizare privind încadrarea în bugetele aprobate poate fi introdusă, pentru coerență, și la art. 2. La adoptare merită verificată și denumirea actuală a ministerului responsabil de educație."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 83608,
-      "riskScore": 1,
-      "riskLevel": "green",
-      "plainTitle": "2029 devine „Anul Doina Cornea”, la 100 de ani de la nașterea disidentei",
-      "verdictShort": "Lege simbolică și inofensivă: nu impune nimănui obligații, taxe sau sancțiuni, doar permite instituțiilor să organizeze evenimente. Singura lipsă reală este că nu spune de unde vin banii dacă statul alege să finanțeze ceva.",
-      "initiatorClaim": "Deputații PNL vor să marcheze centenarul nașterii Doinei Cornea (1929–2018), simbol al rezistenței anticomuniste. Scopul declarat este un cadru pentru programe culturale, educaționale și științifice care să transmită noilor generații valorile democratice.",
-      "realityCheck": "Legea are 4 articole, toate permisive („pot”): dă anului 2029 o denumire simbolică și permite autorităților, școlilor, ONG-urilor, ministerelor și SRR/SRTV să organizeze sau să finanțeze evenimente. Nu creează nicio obligație, niciun coordonator, niciun program național aprobat prin HG și niciun buget dedicat, așa că efectul concret depinde în întregime de voința instituțiilor. Instituțiile puteau face aceste lucruri și fără lege; valoarea ei este de semnal public.",
-      "affectedGroups": [
-        "Sănătate & Educație",
-        "Toți cetățenii"
-      ],
-      "keyFindings": [
-        "Art. 1 are efect strict simbolic: denumește anul 2029, fără consecințe juridice pentru cetățeni sau firme.",
-        "Art. 2–4 folosesc exclusiv verbul „pot”. Nicio autoritate, școală, ONG sau televiziune publică nu este obligată la nimic, deci nu există costuri impuse și nici sancțiuni.",
-        "Art. 3 permite sprijin financiar din bani publici, dar nu menționează sursa de finanțare, nu are plafon și nu stabilește o procedură de acordare (de exemplu, competiție de proiecte). Riscul de alocări discreționare către ONG-uri este mic, dar există.",
-        "Legea nu desemnează un minister coordonator și nu prevede un program național. „Anul Doina Cornea” poate rămâne doar pe hârtie dacă instituțiile nu acționează din proprie inițiativă.",
-        "Art. 3 numește „Ministerul Educației și Cercetării”, însă denumirile ministerelor se schimbă des, iar legea produce efecte abia în 2029."
-      ],
-      "blindSpotsCaught": "Art. 4 privind SRR și SRTV este formulat corect cu „pot”. O formulare imperativă („vor include”) ar fi intrat în conflict cu autonomia serviciilor publice de radio și televiziune (art. 31 alin. 5 din Constituție, Legea nr. 41/1994). Formularea permisivă evită conflictul, dar face articolul juridic superfluu. Separat, Expunerea de motive se sprijină pe surse slabe (pagini de librărie online, un link de tip chrome-extension://). Aceasta nu afectează textul legii, ci doar calitatea documentării.",
-      "constitutionalityNote": "Nu am identificat probleme de constituționalitate. Textul este clar și previzibil (art. 1 alin. 5), iar art. 23 alin. 12 nu este incident, pentru că legea nu conține sancțiuni. Încadrarea ca lege ordinară (art. 76 alin. 2) și ordinea Senat–Camera decizională (art. 75) sunt corecte. Formularea permisivă respectă autonomia universitară (art. 32 alin. 6) și autonomia SRR/SRTV (art. 31 alin. 5). Singura atenție privește art. 138 alin. (5): Art. 3 nu creează cheltuieli obligatorii, dar ar fi mai sigur să precizeze explicit „în limita fondurilor aprobate”.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, deoarece nu este reglementată nicio profesie. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu există reguli tehnice sau servicii ale societății informaționale. Legea nu afectează piața unică sau concurența. Eventualele finanțări publice pentru evenimente culturale ale ONG-urilor au în general caracter non-economic sau intră sub art. 53 din Regulamentul (UE) 651/2014 (GBER) ori sub pragul de minimis (Regulamentul (UE) 2023/2831), deci riscul de ajutor de stat este neglijabil.",
-      "senatForm": {
-        "articleRef": "Art. 3 (sprijin logistic și financiar)",
-        "proposalContent": "Art. 3 - Ministerele cu atribuții în domeniile culturii și educației și alte instituții publice pot acorda sprijin logistic și financiar programelor și proiectelor dedicate „Anului Doina Cornea”, în limita fondurilor aprobate în bugetele proprii. Finanțările nerambursabile către ONG-uri se acordă prin procedură competitivă, potrivit legii.",
-        "argumentation": "Art. 138 alin. (5) din Constituție cere stabilirea sursei de finanțare pentru orice cheltuială bugetară, iar textul nu o indică. Formula „în limita fondurilor aprobate” arată clar că legea nu creează cheltuieli noi, iar procedura competitivă garantează că banii publici ajung la ONG-uri transparent, nu discreționar.",
-        "otherComments": "Denumirile generice ale ministerelor evită ca legea să devină neclară dacă structura Guvernului se schimbă până în 2029. Art. 2 și 4 sunt pur permisive: SRR/SRTV pot difuza oricum astfel de emisiuni, iar autonomia lor editorială (art. 31 alin. 5 Constituție) rămâne neatinsă. Proiectul e util simbolic; susținem adoptarea cu această precizare."
-      }
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 82364,
-      "riskScore": 2,
+      "durationMs": 56398,
+      "sourceEndMarker": "SF-8BA77E02",
+      "riskScore": 1,
       "riskLevel": "green",
       "plainTitle": "2029, an dedicat memoriei Doinei Cornea",
-      "verdictShort": "Proiect comemorativ cu risc redus, util pentru educația despre rezistența anticomunistă. Nu introduce taxe, sancțiuni sau obligații pentru cetățeni și firme; principala îmbunătățire ar fi clarificarea condițiilor finanțării publice.",
-      "initiatorClaim": "Inițiatorii urmăresc marcarea centenarului nașterii Doinei Cornea și promovarea libertății, demnității și responsabilității civice. Propun susținerea unor manifestări culturale, educaționale și științifice dedicate memoriei sale.",
-      "realityCheck": "Art. 1 instituie denumirea comemorativă, iar art. 2-4 permit organizarea și sprijinirea unor manifestări și realizarea unor emisiuni, fără să le impună. Legea nu garantează un program național, un număr de evenimente sau finanțări determinate. Art. 3 permite sprijin financiar fără să detalieze selecția beneficiarilor ori sumele, dar nu înlătură legislația generală privind utilizarea fondurilor publice.",
+      "verdictShort": "Proiect comemorativ cu risc redus: permite evenimente și sprijin public, fără taxe, sancțiuni sau obligații pentru cetățeni și firme. Principala îmbunătățire utilă este precizarea limitelor bugetare ale finanțării.",
+      "initiatorClaim": "Inițiatorii urmăresc recunoașterea contribuției Doinei Cornea la rezistența anticomunistă și promovarea valorilor democratice. Centenarul nașterii sale ar urma să fie marcat prin programe culturale, educaționale și științifice.",
+      "realityCheck": "Art. 1 instituie denumirea comemorativă pentru anul 2029, iar art. 2–4 permit organizarea evenimentelor, acordarea sprijinului și realizarea emisiunilor dedicate. Formularea «pot» păstrează caracterul facultativ: legea nu alocă automat bani și nu obligă instituțiile să organizeze activități. Art. 3 nu precizează sursele și limitele finanțării, dar nici nu instituie o derogare de la regulile bugetare existente.",
       "affectedGroups": [
-        "Sănătate & Educație",
         "Justiție & Drepturi Civile",
+        "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 1-2: recunoașterea comemorativă poate sprijini educația istorică, însă participarea instituțiilor și ONG-urilor este facultativă. Nu apar formulare, autorizații, raportări sau costuri obligatorii noi pentru cetățeni și IMM-uri.",
-        "Art. 3: sunt posibile cheltuieli publice pentru proiecte și sprijin logistic, dar cuantumul lor nu poate fi calculat din documentele furnizate. Caracterul facultativ nu înseamnă impact bugetar zero; cheltuielile rămân condiționate de aprobările și prevederile bugetare legale. Surse: [Legea nr. 500/2002, art. 14](https://legislatie.just.ro/Public/DetaliiDocument/262780), [Legea nr. 273/2006, art. 14](https://legislatie.just.ro/Public/DetaliiDocumentAfis/205520).",
-        "Art. 4: TVR și Radioul public pot difuza emisiuni tematice, fără cote obligatorii sau sancțiuni. Proiectul nu impune conținut presei private și nu reglementează platforme digitale ori sisteme AI."
+        "Art. 1 are un efect predominant simbolic și cultural: declară anul 2029 «Anul Doina Cornea».",
+        "Art. 2 permite implicarea autorităților, instituțiilor culturale, instituțiilor de învățământ și ONG-urilor, fără obligații de participare, raportări noi sau costuri administrative impuse cetățenilor și IMM-urilor.",
+        "Art. 3 permite sprijin logistic și financiar, fără cuantum, sursă bugetară ori procedură proprie de acordare. Nu creează însă un drept automat al organizatorilor la finanțare.",
+        "Art. 4 permite emisiuni la televiziunea și radioul public, fără cote obligatorii, durate minime sau sancțiuni.",
+        "Textul se încheie la art. 4: nu conține derogări, abrogări, modificări ale altor legi sau dispoziții tranzitorii care să introducă efecte suplimentare."
       ],
-      "blindSpotsCaught": "Fundația evocată în expunerea de motive nu este desemnată beneficiar în articole: nu primește exclusivitate, finanțare automată sau monopol asupra comemorării. De asemenea, formularea «pot» păstrează libertatea de decizie, dar permite ca anul comemorativ să rămână fără un program coordonat; obiectivele educaționale din motivare nu devin obligații juridice.",
-      "constitutionalityNote": "Pe textul furnizat nu rezultă o neconstituționalitate evidentă. Prin prisma art. 1 alin. (5), obiectul și caracterul facultativ sunt clare; art. 3 ar beneficia de precizarea competențelor, limitelor bugetare și transparenței finanțării. [Constituția, art. 1](https://www.cdep.ro/ords/pls/dic/site2015.page?den=act2_1&par1=1). Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident: proiectul nu stabilește pedepse. Scopul cultural este compatibil cu art. 33, iar formularea permisivă a art. 4 respectă autonomia serviciilor publice audiovizuale prevăzută de art. 31 alin. (5). [Constituția, titlul II](https://www.cdep.ro/ords/pls/dic/site2015.page?den=act2_1&par1=2). Art. 138 alin. (5) trebuie respectat pentru cheltuielile aprobate; simpla posibilitate de finanțare nu dovedește încălcarea sa. Documentele furnizate nu permit verificarea integrală a fundamentării bugetare. [Constituția, art. 138](https://www.cdep.ro/ords/pls/dic/site2015.page?den=act2_1&par1=4).",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea lor. [Directiva, art. 2 și 4](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX%3A32018L0958). Nu se identifică obligația notificării TRIS potrivit Directivei (UE) 2015/1535: lipsesc reglementările tehnice privind produsele și normele specifice serviciilor societății informaționale; simpla menționare a emisiunilor radio-TV nu activează procedura. [Directiva, art. 1 și 5](https://eur-lex.europa.eu/legal-content/RO/ALL/?uri=celex%3A32015L1535). Nu sunt instituite monopoluri sau bariere pe piața unică. Dacă finanțările concrete favorizează operatori care desfășoară activități economice, trebuie verificată îndeplinirea condițiilor cumulative ale ajutorului de stat, inclusiv efectul asupra concurenței și schimburilor dintre statele membre; scopul cultural nu constituie singur o exceptare automată. [TFUE, art. 107](https://eur-lex.europa.eu/legal-content/RO/ALL/?uri=CELEX%3A12012E107).",
+      "blindSpotsCaught": "Permisiunea de finanțare din art. 3 nu reprezintă, prin ea însăși, o alocare bugetară și nu înlătură regulile aplicabile competenței instituțiilor, finanțărilor publice și achizițiilor. Menționarea ONG-urilor în art. 2 nu desemnează o fundație beneficiară exclusivă și nu instituie un monopol.",
+      "constitutionalityNote": "Nu rezultă o incompatibilitate constituțională evidentă. Obiectul și caracterul facultativ al măsurilor sunt suficient de clare în raport cu art. 1 alin. (5); art. 23 alin. (12), referitor la legalitatea pedepselor, nu este incident, deoarece proiectul nu stabilește pedepse. Art. 3 ar beneficia de o precizare privind creditele bugetare aprobate. Dacă se instituie cheltuieli bugetare, trebuie respectat art. 138 alin. (5), iar dacă propunerea implică modificarea prevederilor bugetare, este obligatorie solicitarea informării Guvernului potrivit art. 111 alin. (1). Documentele furnizate nu permit verificarea acestei proceduri; omisiunea unei clauze bugetare nu dovedește singură neconstituționalitatea.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea acestora. Notificarea TRIS potrivit Directivei (UE) 2015/1535 nu este declanșată de acest text, care nu introduce reglementări tehnice pentru produse ori norme privind serviciile societății informaționale; simpla posibilitate a unor emisiuni comemorative nu este suficientă. Nu apar bariere de acces pe piață sau avantaje exclusive. Eventualele finanțări pentru activități economice trebuie evaluate concret potrivit regulilor UE privind ajutoarele de stat, fără ca proiectul să dovedească, prin el însuși, existența unui ajutor incompatibil.",
       "senatForm": {
         "articleRef": "Art. 3",
-        "proposalContent": "Art. 3. – Ministerul Culturii, Ministerul Educației și Cercetării și alte instituții publice pot acorda sprijin logistic și financiar pentru programele și proiectele dedicate „Anului Doina Cornea”, în limita competențelor și a creditelor bugetare aprobate, cu respectarea legislației aplicabile finanțărilor și cu publicarea beneficiarilor, sumelor și criteriilor de acordare.",
-        "argumentation": "Precizarea limitelor bugetare și a legislației aplicabile face mai previzibilă acordarea sprijinului. Publicarea beneficiarilor, sumelor și criteriilor permite controlul utilizării banilor publici și reduce riscul selecției arbitrare, păstrând caracterul facultativ al finanțării.",
-        "otherComments": "Propunere cetățenească adresată comisiei Camerei Deputaților, pentru eventuala preluare de către un deputat. Termenul indicat, 6 octombrie 2026, este depășit la data analizei, 28 octombrie 2026; transmiterea observației nu garantează preluarea sau admisibilitatea unui amendament."
-      }
+        "proposalContent": "Art. 3. — Ministerul Culturii, Ministerul Educației și Cercetării și celelalte instituții publice competente pot acorda sprijin logistic și financiar pentru programele și proiectele dedicate «Anului Doina Cornea», în limita creditelor bugetare aprobate cu această destinație și cu respectarea legislației aplicabile finanțărilor publice.",
+        "argumentation": "Precizarea competenței instituțiilor și a limitelor bugetare clarifică aplicarea articolului. Se păstrează caracterul facultativ al sprijinului și se evită interpretarea că legea alocă automat fonduri sau permite finanțări în afara cadrului legal existent.",
+        "otherComments": "Potrivit datelor furnizate, termenul pentru amendamente, 6 octombrie 2026, a trecut. Cetățeanul poate transmite observații, dar acestea nu echivalează cu un amendament parlamentar depus în termen. Sursele externe și stadiul procedural actual nu au putut fi verificate independent în această sesiune."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 1.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T21:39:23.246Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T12:49:14.126Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

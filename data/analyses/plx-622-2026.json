@@ -1,14 +1,42 @@
 {
   "billId": "PL-x 622/2026",
   "slug": "plx-622-2026",
-  "updatedAt": "2026-10-28T21:59:13.719Z",
+  "version": "senat",
+  "updatedAt": "2026-11-24T12:51:37.876Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 2368,
+    "ordinanceChars": 0,
+    "memoChars": 10437,
+    "memoSupplied": 10437,
+    "marker": "SF-1A4CDCF7"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-622-2026.json",
+    "form": "senat",
+    "textHash": "1a4cdcf77653b130",
+    "fetchedAt": "2026-11-19T11:20:06.019Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 6468,
+    "truncated": false,
+    "included": true,
+    "key": "19449308556f9dd2"
+  },
   "consensus": {
-    "riskScore": 3.7,
-    "riskLevel": "green",
-    "plainTitle": "Impozit pe teren redus sau zero pentru micii proprietari care țin animale",
-    "summaryTlDr": "O scutire bine intenționată pentru gospodăriile mici, dar scrisă neglijent. Plafonul de 5 ha pe exploatație există doar în Expunere, nu și în lege, iar pragurile se suprapun. Beneficiul real e de câteva zeci de lei pe an, prea puțin ca să convingă pe cineva să cumpere o vacă.",
-    "initiatorClaim": "Inițiatorii AUR spun că impozitul pe teren se aplică la fel pe terenurile folosite și pe cele nefolosite. Vor să recompenseze cu reduceri graduale de 50–100% gospodăriile de până la 5 ha care folosesc efectiv terenul în zootehnie.",
-    "realityCheck": "Legea reduce impozitul pe terenurile agricole din extravilan (arabil, pășune, fâneață, vie, livadă) în funcție de câte animale are titularul, nu de modul în care e folosit terenul: o vie de 0,9 ha nelucrată a cuiva care are un vițel e scutită integral, iar un legumicultor intensiv fără animale nu primește nimic. Pragurile sunt raportate la «terenuri», nu la exploatație sau la contribuabil, așa că cine are multe parcele mici poate scăpa de impozit pe toate. Primăriile pierd venituri mici, dar neestimate și necompensate, iar normele de aplicare apar abia după intrarea în vigoare, la 1 ianuarie.",
+    "riskScore": 4.5,
+    "riskLevel": "yellow",
+    "plainTitle": "Impozit redus pe terenul agricol mic cu animale, dar cu praguri suprapuse și blocaj la aplicare",
+    "summaryTlDr": "Intenția de a sprijini micile gospodării cu animale este benignă, dar proiectul este redactat defectuos: suprapune pragurile matematice, lasă neclară limita de 5 ha și amână normele de aplicare până după termenul de plată a impozitului. În plus, reduce veniturile primăriilor rurale fără niciun calcul de impact bugetar.",
+    "initiatorClaim": "Inițiatorii susțin că instituie un stimul fiscal echitabil pentru micile gospodării (sub 5 ha) care utilizează efectiv terenul agricol extravilan în activități zootehnice, fără a produce dezechilibre semnificative la nivelul bugetelor locale.",
+    "realityCheck": "În prezent, art. 465 alin. (7) din Codul fiscal stabilește impozitul pe terenul extravilan după suprafață, categoria de folosință (ex. 54–75 lei/ha pășune, 112–134 lei/ha arabil, 129–150 lei/ha vie/livadă) și coeficientul de corecție, indiferent de efectivele de animale. Proiectul acordă reduceri de 50%–100% pentru terenuri de până la 5 ha, dar nu clarifică dacă plafonul se aplică pe parcelă sau pe toată exploatația, suprapune tranșele de reducere la exact 0,7 și 1 UVM/ha și trimite stabilirea coeficienților UVM într-o hotărâre de Guvern adoptată abia după intrarea în vigoare.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "Proprietari & Imobiliare",
@@ -16,86 +44,24 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. I – art. 465 alin. (7²) Codul fiscal",
-      "proposalContent": "Alin. (7²) se aplică dacă suprafața totală deținută de contribuabil în UAT e de cel mult 5 ha. Încărcătura = UVM din registrul agricol, verificate în RNE/ANSVSA, raportate la această suprafață totală. Reducere: 50% de la 0,5 la sub 0,7 UVM/ha; 75% de la 0,7 la sub 1 UVM/ha; 100% de la 1 UVM/ha. Lit. a) se elimină; scara se aplică tuturor.",
-      "argumentation": "Pragurile vizează fiecare teren, nu exploatația: cine are multe parcele sub 1 ha și 0,5 UVM poate fi scutit 100% pe toate, iar plafonul de 5 ha din Expunere nu apare în lege. Intervalele se suprapun la 0,7 și 1 UVM/ha. 1 ha cu 0,5 UVM primește 100%, dar 1,1 ha cu 0,55 UVM doar 50%. Previzibilitate (art. 1 alin. 5) și echitate fiscală (art. 56 alin. 2).",
-      "otherComments": "Cereți fișa financiară (art. 15 Legea 500/2002): Expunerea admite că nu poate estima pierderea bugetelor locale. Normele din art. II vin la 90 de zile după 1 ianuarie, deci după primul termen de plată (31 martie); HG ar trebui adoptată înainte de intrarea în vigoare. Pentru PFA, II și firme agricole, reducerea e ajutor de minimis și trebuie înregistrată."
+      "articleRef": "Art. I - art. 465 alin. (7²) și Art. II",
+      "proposalContent": "La alin. (7²) lit. b) pct. (i) și (ii) să se înlocuiască «nu mai mult de 0,7» cu «sub 0,7» și «nu mai mare de 1» cu «sub 1»; să se precizeze expres că pragurile de 1 ha și 5 ha privesc suprafața totală cumulată a contribuabilului. La Art. II, normele metodologice și coeficienții UVM să se adopte cu cel puțin 30 de zile înainte de intrarea în vigoare.",
+      "argumentation": "Textul actual suprapune pragurile: la exact 0,7 UVM/ha se aplică simultan 50% și 75%, iar la 1 UVM/ha atât 75%, cât și 100% (art. 1 alin. 5 Constituție). Neclaritatea parcelă vs. suprafață totală permite abuzuri prin fărâmițare. Adoptarea normelor în 90 de zile după 1 ianuarie blochează aplicarea până după termenul de plată din 31 martie.",
+      "otherComments": "Solicitați Ministerului Finanțelor fișa financiară privind impactul asupra comunelor rurale (art. 138 alin. 5 Constituție) și clarificați încadrarea în schema de minimis UE pentru PFA/SRL. Alternativ, transformați reducerea în facilitate opțională stabilită de consiliul local, pentru respectarea autonomiei locale."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 57182,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Reducerea impozitului pe terenurile agricole de până la 5 hectare pentru micii crescători de animale",
-      "verdictShort": "Măsura este pozitivă în intenție și oferă o scutire sau reducere fiscală micilor gospodării care cresc animale, dar textul adoptat de Senat conține erori tehnice de redactare (praguri matematice care se suprapun și birocrație inutilă la primării) ce trebuie corectate în Camera Deputaților.",
-      "initiatorClaim": "Inițiatorii doresc să stimuleze lucrarea efectivă a terenurilor agricole mici (sub 5 hectare) și zootehnia de subzistență, reducând cu 50%, 75% sau 100% impozitul pe terenul din extravilan în funcție de numărul de animale (exprimate în Unități Vită Mare - UVM) înscrise în Registrul agricol.",
-      "realityCheck": "În practică, beneficiul financiar pentru fermier este modest (impozitul pe teren extravilan este de ordinul a 50–100 lei/hectar/an), însă Art. II obligă Guvernul să ceară „documente justificative” suplimentare, deși primăriile dețin deja datele în Registrul agricol. În plus, treptele de reducere de la Art. I lit. b) se suprapun la valorile de 0,7 UVM/ha și 1 UVM/ha, iar normele metodologice ar urma să apară la 90 de zile după 1 ianuarie, când impozitele locale sunt deja scadente pentru bonificație.",
-      "affectedGroups": [
-        "Agricultură & Mediu",
-        "Proprietari & Imobiliare",
-        "Contabili & Fiscalitate"
-      ],
-      "keyFindings": [
-        "Suprapunere matematică a tranșelor de reducere la Art. I alin. (7²) lit. b): la exact 0,7 UVM/ha se aplică simultan atât reducerea de 50% („nu mai mult de 0,7”), cât și cea de 75% („cel puțin 0,7”), iar la exact 1,0 UVM/ha se suprapun reducerile de 75% și 100%.",
-        "Ambiguitate privind plafonul de suprafață la Art. I alin. (7²): textul se referă la „terenurile cu suprafața de până la 1 ha / 5 ha inclusiv”, fără a preciza clar dacă plafonul se calculează per parcelă individuală sau pe totalul suprafeței agricole deținute de contribuabil în unitatea administrativ-teritorială.",
-        "Birocrație redundantă și decalaj de calendar la Art. II și Art. III: deși Art. I stabilește că efectivul de animale se ia din Registrul agricol (gestionat chiar de primărie), Art. II cere norme pentru „documente justificative” emise în 90 de zile DUPĂ intrarea în vigoare (1 ianuarie), și doar la propunerea MADR, omițând Ministerul Finanțelor."
-      ],
-      "blindSpotsCaught": "Textul include viile și livezile în baza de calcul a încărcăturii de animale pe hectar (UVM/ha), deși pășunatul în vii și livezi este impropriu agronomic, iar termenul de 90 de zile pentru norme curge abia de la 1 ianuarie (data intrării în vigoare), ceea ce lasă primăriile fără metodologie tocmai în perioada ianuarie–martie când cetățenii își plătesc impozitele locale.",
-      "constitutionalityNote": "Scopul legii este conform cu art. 56 alin. (2) din Constituție (așezarea justă a sarcinilor fiscale), însă suprapunerea pragurilor de la Art. I lit. b) încalcă exigențele de claritate și previzibilitate a normei fiscale (art. 1 alin. 5 din Constituție). De asemenea, diminuarea veniturilor proprii ale bugetelor locale fără indicarea unei surse de compensare poate ridica discuții pe art. 138 alin. (5) și principiul autonomiei locale (art. 120), deși impactul bugetar este redus.",
-      "euLawNote": "Proiectul nu ridică probleme pe Directiva (UE) 2018/958 (nu reglementează profesii) sau pe Directiva (UE) 2015/1535 TRIS (nu vizează servicii digitale). Din perspectiva normelor UE privind ajutoarele de stat în agricultură, sumele scutite pentru exploatații de maximum 5 ha sunt infime (câteva sute de lei pe an per beneficiar), încadrându-se facil în plafoanele de minimis agricol (Regulamentul UE nr. 1408/2013).",
-      "senatForm": {
-        "articleRef": "Art. I și Art. II din proiectul de lege",
-        "proposalContent": "La Art. I, pragurile de la lit. b) se reformulează fără suprapuneri („până la 0,7 UVM/ha exclusiv”, „peste 0,7 până la 1 UVM/ha exclusiv”), precizându-se că plafonul de 5 ha vizează suprafața cumulată pe UAT. La Art. II, reducerea se aplică din oficiu pe baza Registrului agricol, fără documente suplimentare, iar normele se emit de MF și MADR înainte de intrarea în vigoare.",
-        "argumentation": "În textul adoptat de Senat, pragurile de 0,7 și 1 UVM/ha se suprapun simultan pe două trepte de reducere (50%/75%, respectiv 75%/100%), încălcând cerința de previzibilitate (art. 1 alin. 5 din Constituție). Totodată, cum primăriile gestionează deja Registrul agricol, solicitarea unor documente justificative suplimentare pentru o scutire de câțiva zeci de lei/an creează birocrație inutilă.",
-        "otherComments": "Termenul de 90 de zile pentru norme curge după intrarea în vigoare (1 ianuarie), blocând calculul impozitelor locale în primul trimestru. Normele trebuie emise în 60 de zile de la publicarea legii, înainte de 1 ianuarie, cu co-inițierea Ministerului Finanțelor."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 245239,
-      "riskScore": 4,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 83008,
+      "sourceEndMarker": "SF-1A4CDCF7",
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Impozit pe teren redus sau zero pentru micii proprietari care țin animale",
-      "verdictShort": "O scutire bine intenționată pentru gospodăriile mici, dar scrisă neglijent. Plafonul de 5 ha pe exploatație există doar în Expunere, nu și în lege, iar pragurile se suprapun. Beneficiul real e de câteva zeci de lei pe an, prea puțin ca să convingă pe cineva să cumpere o vacă.",
-      "initiatorClaim": "Inițiatorii AUR spun că impozitul pe teren se aplică la fel pe terenurile folosite și pe cele nefolosite. Vor să recompenseze cu reduceri graduale de 50–100% gospodăriile de până la 5 ha care folosesc efectiv terenul în zootehnie.",
-      "realityCheck": "Legea reduce impozitul pe terenurile agricole din extravilan (arabil, pășune, fâneață, vie, livadă) în funcție de câte animale are titularul, nu de modul în care e folosit terenul: o vie de 0,9 ha nelucrată a cuiva care are un vițel e scutită integral, iar un legumicultor intensiv fără animale nu primește nimic. Pragurile sunt raportate la «terenuri», nu la exploatație sau la contribuabil, așa că cine are multe parcele mici poate scăpa de impozit pe toate. Primăriile pierd venituri mici, dar neestimate și necompensate, iar normele de aplicare apar abia după intrarea în vigoare, la 1 ianuarie.",
-      "affectedGroups": [
-        "Agricultură & Mediu",
-        "Proprietari & Imobiliare",
-        "Contabili & Fiscalitate"
-      ],
-      "keyFindings": [
-        "Art. I, alin. (7²): plafonul de 5 ha pe exploatație, invocat în Expunere, nu există în text. Pragurile se aplică «terenurilor», iar impozitul se stabilește pe fiecare teren înscris în evidența fiscală. Un proprietar cu multe parcele de până la 1 ha și un singur efectiv de 0,5 UVM poate cere reducere de 100% pentru toate.",
-        "Alin. (7²) lit. b): legea nu spune la ce suprafață se raportează animalele (parcela respectivă sau totalul). În plus, intervalele se suprapun: 0,7 UVM/ha este și «nu mai mult de 0,7» la pct. (i), și «cel puțin 0,7» la pct. (ii); la fel, 1 UVM/ha se încadrează atât la (ii), cât și la (iii).",
-        "Efect de prag între lit. a) și lit. b): 1 ha cu 0,5 UVM primește reducere de 100%, dar 1,1 ha cu 0,55 UVM, adică aceeași încărcătură pe hectar, primește doar 50%.",
-        "Criteriul nu verifică folosirea terenului: contează animalele titularului, nu ce se întâmplă pe parcelă. Cu coeficienții UE uzuali, 0,5 UVM înseamnă un vițel de peste 6 luni, 4 oi sau capre ori câteva zeci de păsări. Art. II lit. d) lasă Guvernul să adauge prin HG și specii «neprevăzute expres».",
-        "Art. II: normele se aprobă la propunerea MADR, în 90 de zile de la intrarea în vigoare (1 ianuarie). Asta înseamnă după emiterea deciziilor de impunere și, posibil, după primul termen de plată (31 martie), deci primul an de aplicare e incert. Ministerul Finanțelor, care elaborează de regulă normele Codului fiscal, nu e menționat. Lit. c) anunță «documente justificative», adică drumuri la primărie pentru o sumă mică.",
-        "Impact bugetar: Expunerea recunoaște că taxa extravilană e de «ordinul zecilor de lei pe hectar» și că pierderea pentru bugetele locale nu poate fi estimată. Stimulentul este prea mic ca să schimbe comportamentul cuiva, deci scopul declarat, de «conversie a terenului în factor de producție», e nerealist. Primăriile pierd venituri fără compensare și primesc o sarcină nouă de verificare."
-      ],
-      "blindSpotsCaught": "Expunerea susține că regimul actual nu asociază nicio consecință fiscală gradului de utilizare a terenului. Totuși, art. 489 alin. (4) din Codul fiscal permite deja consiliilor locale să majoreze cu până la 500% impozitul pe terenul agricol nelucrat timp de doi ani consecutivi. Legea se bazează pe registrul agricol, care e declarativ, deși bovinele, ovinele, caprinele și porcinele sunt evidențiate oficial în Registrul Național al Exploatațiilor (ANSVSA). Corelarea nu e cerută, ceea ce lasă loc declarațiilor umflate la 31 decembrie. Textul nu spune nici ale cui animale contează când terenul e arendat sau dat în folosință: impozitul îl plătește proprietarul, dar animalele sunt ale arendașului.",
-      "constitutionalityNote": "Legiuitorul poate acorda facilități fiscale, iar o reducere de impozit nu e în sine neconstituțională. Problemele țin de redactare și de egalitate. (1) Art. 1 alin. (5), previzibilitatea: intervalele de la lit. b) se suprapun, raportul UVM/ha nu are numitor definit și nu e clar dacă «terenul» înseamnă parcela sau exploatația, așa că primării diferite vor aplica diferit aceeași normă. (2) Art. 16 și art. 56 alin. (2): scopul declarat e recompensarea utilizării efective, dar criteriul ales îi exclude pe cultivatorii care lucrează intens arabilul, via sau livada și îi favorizează pe deținătorii de animale chiar dacă parcela stă nelucrată. Justificarea obiectivă și rezonabilă cerută de CCR pentru diferențieri fiscale e slabă la aceste categorii, iar efectul de prag de la 1 ha agravează situația. (3) Art. 139 alin. (1): prin HG, Guvernul poate stabili coeficienții UVM și poate adăuga specii, deci decide efectiv cine beneficiază. Ar fi mai sigur ca legea să trimită la coeficienți deja existenți. (4) Expunerea nu conține o estimare a impactului. Dacă lipsește și fișa financiară (art. 15 din Legea 500/2002, art. 15 din Legea 69/2010), apare un viciu procedural des invocat la CCR. Legea nu instituie sancțiuni, deci art. 23 alin. (12) nu e incident.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă legea nu reglementează accesul la o profesie. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reglementări tehnice și nici servicii ale societății informaționale, deci nu e necesară notificarea. Problema reală de drept UE este ajutorul de stat (art. 107 alin. (1) TFUE). O reducere de impozit acordată doar deținătorilor de animale cu terenuri mici este un avantaj selectiv, finanțat din resurse publice locale. Pentru gospodăriile fără activitate economică nu contează, dar pentru PFA, întreprinderile individuale sau familiale și firmele agricole este ajutor de stat. Sumele fiind mici, măsura se poate încadra în regimul de minimis agricol (Regulamentul (UE) nr. 1408/2013, cu plafonul majorat în 2024 la 50.000 euro pe 3 ani). Asta cere însă declarații privind cumulul și raportarea în RegAS, iar nici legea, nici art. II nu prevăd ceva. Efectul asupra concurenței și asupra pieței unice este neglijabil.",
-      "senatForm": {
-        "articleRef": "Art. I – art. 465 alin. (7²) Codul fiscal",
-        "proposalContent": "Alin. (7²) se aplică dacă suprafața totală deținută de contribuabil în UAT e de cel mult 5 ha. Încărcătura = UVM din registrul agricol, verificate în RNE/ANSVSA, raportate la această suprafață totală. Reducere: 50% de la 0,5 la sub 0,7 UVM/ha; 75% de la 0,7 la sub 1 UVM/ha; 100% de la 1 UVM/ha. Lit. a) se elimină; scara se aplică tuturor.",
-        "argumentation": "Pragurile vizează fiecare teren, nu exploatația: cine are multe parcele sub 1 ha și 0,5 UVM poate fi scutit 100% pe toate, iar plafonul de 5 ha din Expunere nu apare în lege. Intervalele se suprapun la 0,7 și 1 UVM/ha. 1 ha cu 0,5 UVM primește 100%, dar 1,1 ha cu 0,55 UVM doar 50%. Previzibilitate (art. 1 alin. 5) și echitate fiscală (art. 56 alin. 2).",
-        "otherComments": "Cereți fișa financiară (art. 15 Legea 500/2002): Expunerea admite că nu poate estima pierderea bugetelor locale. Normele din art. II vin la 90 de zile după 1 ianuarie, deci după primul termen de plată (31 martie); HG ar trebui adoptată înainte de intrarea în vigoare. Pentru PFA, II și firme agricole, reducerea e ajutor de minimis și trebuie înregistrată."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 106427,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Impozit redus pe terenurile agricole pentru cei care dețin animale",
-      "verdictShort": "Facilitatea poate ajuta gospodăriile agricole și nu introduce taxe sau sancțiuni noi. Totuși, textul trebuie corectat: pragurile se suprapun, plafonul de suprafață este ambiguu, iar pierderile bugetelor locale nu sunt estimate.",
-      "initiatorClaim": "Inițiatorii urmăresc sprijinirea exploatațiilor de până la 5 hectare și folosirea productivă a terenurilor. Ei prezintă numărul de animale raportat la suprafață drept indicator al utilizării efective a terenului.",
-      "realityCheck": "Art. I acordă reduceri de 50%, 75% sau 100% pentru anumite terenuri agricole extravilane, pe baza animalelor înregistrate la 31 decembrie anterior. Nu cere dovada că animalele folosesc terenurile respective și nu verifică utilizarea lor pe parcursul anului. Textul nu stabilește explicit cumularea parcelelor pentru plafonul de 5 hectare și nici suprafața exactă folosită la calculul UVM/ha.",
+      "plainTitle": "Impozit redus pe terenul agricol mic cu animale, dar cu praguri suprapuse și blocaj la aplicare",
+      "verdictShort": "Intenția de a sprijini micile gospodării cu animale este benignă, dar proiectul este redactat defectuos: suprapune pragurile matematice, lasă neclară limita de 5 ha și amână normele de aplicare până după termenul de plată a impozitului. În plus, reduce veniturile primăriilor rurale fără niciun calcul de impact bugetar.",
+      "initiatorClaim": "Inițiatorii susțin că instituie un stimul fiscal echitabil pentru micile gospodării (sub 5 ha) care utilizează efectiv terenul agricol extravilan în activități zootehnice, fără a produce dezechilibre semnificative la nivelul bugetelor locale.",
+      "realityCheck": "În prezent, art. 465 alin. (7) din Codul fiscal stabilește impozitul pe terenul extravilan după suprafață, categoria de folosință (ex. 54–75 lei/ha pășune, 112–134 lei/ha arabil, 129–150 lei/ha vie/livadă) și coeficientul de corecție, indiferent de efectivele de animale. Proiectul acordă reduceri de 50%–100% pentru terenuri de până la 5 ha, dar nu clarifică dacă plafonul se aplică pe parcelă sau pe toată exploatația, suprapune tranșele de reducere la exact 0,7 și 1 UVM/ha și trimite stabilirea coeficienților UVM într-o hotărâre de Guvern adoptată abia după intrarea în vigoare.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "Proprietari & Imobiliare",
@@ -103,24 +69,86 @@
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Art. I, alin. (7²) lit. b): la exact 0,7 UVM/ha sunt îndeplinite atât condițiile reducerii de 50%, cât și cele de 75%; la exact 1 UVM/ha se suprapun reducerile de 75% și 100%. Intervalele trebuie delimitate fără suprapuneri.",
-        "Art. I vorbește despre «terenurile» de până la 5 ha, în timp ce expunerea justifică sprijinirea «exploatațiilor» de până la 5 ha. Fără o regulă de cumulare, apare riscul interpretării plafonului pe parcelă, inclusiv pentru contribuabili cu exploatații mai mari.",
-        "Art. I nu definește numitorul raportului UVM/ha: parcela, totalul terenurilor vizate sau întreaga suprafață a exploatației. Nici repartizarea aceluiași efectiv între terenuri ori localități nu este reglementată.",
-        "Art. I lit. a) cere minimum 0,5 UVM în total, nu pe hectar. Pentru 1 ha și 0,5 UVM rezultă reducere de 100%; pentru 1,01 ha și același efectiv, raportul scade sub 0,5 UVM/ha și nu mai este prevăzută nicio reducere.",
-        "Deținerea animalelor la 31 decembrie este un criteriu administrativ verificabil, dar nu demonstrează utilizarea efectivă a terenului. Mecanismul include și vii sau livezi, fără o legătură obligatorie între animale și exploatarea acestora.",
-        "Beneficiarul trebuie să datoreze impozitul/taxa pe teren. Un arendaș care crește animale nu primește automat reducerea impozitului datorat de proprietar; relația dintre contribuabil, titular și exploatație necesită clarificare.",
-        "Expunerea recunoaște absența unei estimări bugetare, dar afirmă că nu vor exista dezechilibre locale. Caracterul redus al impozitului pe hectar nu dovedește un impact neglijabil în fiecare comună; verificările și documentele prevăzute de art. II implică și costuri administrative.",
-        "Art. II permite adoptarea normelor la 90 de zile după intrarea în vigoare, deci aplicarea poate începe fără proceduri și coeficienți compleți. Art. III trebuie corelat și cu termenul general de minimum șase luni pentru modificarea Codului fiscal, dacă publicarea intervine în semestrul al doilea. [Codul fiscal, art. 4](https://legislatie.just.ro/Public/DetaliiDocument/196995)"
+        "Praguri matematice suprapuse (Art. I, alin. (7²) lit. b)): la exact 0,7 UVM/ha sunt îndeplinite simultan condițiile pentru reducerea de 50% («nu mai mult de 0,7») și 75% («cel puțin 0,7»), iar la exact 1 UVM/ha atât 75%, cât și 100%, generând incertitudine directă la impunere.",
+        "Blocaj calendaristic în primul an (Art. II și Art. III): legea intră în vigoare la 1 ianuarie, însă Guvernul are termen 90 de zile de la intrarea în vigoare (până la 1 aprilie) pentru normele metodologice și coeficienții UVM, adică după termenul de 31 martie pentru prima rată și bonificația de 10%.",
+        "Ambiguitate parcelă vs. exploatație și efect de prag (Art. I, alin. (7²)): textul nu precizează dacă pragurile de 1 ha și 5 ha vizează fiecare parcelă sau suprafața cumulată a contribuabilului; în plus, la 1 ha cu 0,5 UVM reducerea este de 100%, dar la 1,01 ha cu aceeași densitate scade brusc la 50%.",
+        "Venituri locale tăiate fără estimare și birocrație disproporționată: expunerea de motive recunoaște lipsa datelor agregate și nu propune compensări pentru comunele rurale, iar primăriile vor gestiona anual verificări și documente justificative pentru reduceri de ordinul zecilor sau sutelor de lei."
       ],
-      "blindSpotsCaught": "Problema principală este diferența dintre plafonarea exploatației, promisă în motivare, și plafonarea terenurilor, formulată în articol. Normele Guvernului nu ar trebui să decidă ele însele elementele esențiale omise: agregarea suprafețelor, beneficiarul și baza raportului UVM/ha. Analiza privește textul furnizat; stadiul dosarului și eventualele amendamente ulterioare nu au fost confirmate independent.",
-      "constitutionalityNote": "Ambiguitățile privind suprafața și pragurile ridică probleme de claritate și previzibilitate potrivit art. 1 alin. (5), iar diferențele de tratament trebuie justificate prin raportare la art. 16 și art. 56 alin. (2). Sprijinirea fermelor mici poate constitui un scop legitim; diferențierea nu este automat neconstituțională. Art. 23 alin. (12) nu este direct incident, deoarece proiectul nu instituie pedepse. Reducerea veniturilor locale impune verificarea solicitării informării Guvernului conform art. 111 alin. (1); rugămintea din expunere nu dovedește îndeplinirea procedurii. Art. 138 alin. (5), referitor la cheltuieli, nu trebuie confundat cu orice diminuare de venituri. Stabilirea prin lege a facilității este permisă de art. 139 alin. (2). [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355)",
-      "euLawNote": "Directiva 2018/958 nu se aplică: proiectul nu restrânge accesul la profesii reglementate sau exercitarea lor. [Directiva, art. 2](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32018L0958) Nu rezultă nici obligația notificării TRIS: textul nu stabilește reglementări tehnice pentru produse ori norme privind servicii digitale/AI. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32015L1535) Facilitatea favorizează fiscal contribuabilii cu animale față de agricultorii fără animale; pentru beneficiarii care desfășoară activitate economică trebuie verificată îndeplinirea condițiilor cumulative ale ajutorului de stat, inclusiv efectul asupra concurenței și schimburilor comerciale. Nu există un monopol instituit prin text. [TFUE, art. 107](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:12016E107) Valoarea mică nu dispensează automat măsura de reguli: eventuala încadrare în regimul de minimis agricol presupune respectarea condițiilor, cumulului și monitorizării aplicabile. [Regulamentul 2024/3118](https://eur-lex.europa.eu/eli/reg/2024/3118/oj)",
+      "blindSpotsCaught": "Două chichițe importante: (1) Art. II lit. d) deleagă Guvernului stabilirea coeficienților de conversie UVM «inclusiv pentru speciile neprevăzute expres de normele în vigoare», lăsând un element decisiv al facilității fiscale la nivelul unei HG; (2) textul vizează orice «contribuabil», incluzând și PFA/II/IF/SRL, ceea ce ridică problema încadrării ca ajutor de stat / de minimis în agricultură, ignorată complet în proiect.",
+      "constitutionalityNote": "Vulnerabilități serioase pe Art. 1 alin. (5) (lipsă de claritate și previzibilitate prin suprapunerea tranșelor la 0,7 și 1 UVM/ha și ambiguitatea parcelă vs. exploatație), Art. 138 alin. (5) (diminuarea veniturilor bugetelor locale fără fișă financiară și fără indicarea sursei de finanțare, contrar jurisprudenței CCR), Art. 120 alin. (1) (reducere obligatorie impusă peste autonomia financiară locală) și Art. 139 alin. (1) (delegarea prin Art. II lit. d) a coeficienților UVM, element esențial al facilității fiscale, către o hotărâre de Guvern).",
+      "euLawNote": "Directiva (UE) 2018/958 privind testul de proporționalitate pentru profesii reglementate și Directiva (UE) 2015/1535 (TRIS) nu sunt aplicabile. Întrucât reducerea fiscală selectivă (doar pentru terenuri ≤5 ha cu animale) se aplică oricărui «contribuabil», inclusiv întreprinderilor agricole (PFA, II, SRL), măsura poate constitui ajutor de stat în sensul Art. 107 TFUE; chiar dacă sumele individuale sunt mici, aplicarea ca ajutor de minimis în agricultură (Regulamentul (UE) nr. 1408/2013) necesită mecanisme de verificare a cumulului care lipsesc din lege.",
       "senatForm": {
-        "articleRef": "Art. I – alin. (7²), completare la final",
-        "proposalContent": "Pragurile de suprafață se aplică totalului terenurilor vizate de prezentul alineat ale contribuabilului, din toate UAT-urile. Încărcătura este raportul dintre UVM deținute de contribuabil și acest total; fiecare animal se numără o singură dată. Intervalele de la lit. b) sunt: 50% pentru [0,5;0,7) UVM/ha, 75% pentru [0,7;1) UVM/ha și 100% de la 1 UVM/ha.",
-        "argumentation": "Cumularea suprafețelor face efectiv plafonul de 5 ha și evită acordarea facilității pe parcele ale unor exploatații mai mari. Definirea raportului și eliminarea suprapunerilor la 0,7 și 1 UVM/ha permit calculul uniform al reducerii și previn folosirea repetată a aceluiași efectiv.",
-        "otherComments": "Sunt necesare estimări ale pierderilor pe UAT, verificarea regimului ajutoarelor de stat și norme disponibile înainte de aplicare. Termenul de amendamente indicat, 6 octombrie 2026, a trecut; memoriul poate fi trimis comisiei, iar un deputat poate solicita preluarea sa în condițiile regulamentului."
-      }
+        "articleRef": "Art. I - art. 465 alin. (7²) și Art. II",
+        "proposalContent": "La alin. (7²) lit. b) pct. (i) și (ii) să se înlocuiască «nu mai mult de 0,7» cu «sub 0,7» și «nu mai mare de 1» cu «sub 1»; să se precizeze expres că pragurile de 1 ha și 5 ha privesc suprafața totală cumulată a contribuabilului. La Art. II, normele metodologice și coeficienții UVM să se adopte cu cel puțin 30 de zile înainte de intrarea în vigoare.",
+        "argumentation": "Textul actual suprapune pragurile: la exact 0,7 UVM/ha se aplică simultan 50% și 75%, iar la 1 UVM/ha atât 75%, cât și 100% (art. 1 alin. 5 Constituție). Neclaritatea parcelă vs. suprafață totală permite abuzuri prin fărâmițare. Adoptarea normelor în 90 de zile după 1 ianuarie blochează aplicarea până după termenul de plată din 31 martie.",
+        "otherComments": "Solicitați Ministerului Finanțelor fișa financiară privind impactul asupra comunelor rurale (art. 138 alin. 5 Constituție) și clarificați încadrarea în schema de minimis UE pentru PFA/SRL. Alternativ, transformați reducerea în facilitate opțională stabilită de consiliul local, pentru respectarea autonomiei locale."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 90080,
+      "sourceEndMarker": "SF-1A4CDCF7",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Impozit redus pe terenurile agricole pentru cei care dețin animale",
+      "verdictShort": "Proiectul oferă o facilitate fiscală utilă pentru gospodăriile agricole, fără taxe sau sancțiuni noi. Totuși, plafonul de suprafață și calculul încărcăturii animale sunt insuficient definite, ceea ce poate produce reduceri diferite pentru situații identice și avantaje dincolo de fermele mici vizate.",
+      "initiatorClaim": "Inițiatorii urmăresc stimularea utilizării productive a terenurilor și sprijinirea exploatațiilor agricole de până la 5 hectare. Susțin că efectivele de animale reflectă utilizarea terenului, iar pierderile pentru bugetele locale ar fi limitate.",
+      "realityCheck": "În prezent, art. 465 calculează impozitul după suprafață, categoria terenului și coeficientul aplicabil; proiectul adaugă reduceri obligatorii de 50%, 75% sau 100%, condiționate de animale. Textul nu stabilește explicit că plafonul de 5 hectare se verifică asupra întregii exploatații și nici suprafața folosită la calculul UVM/ha. Deținerea animalelor la data de referință poate aduce facilitatea fără demonstrarea utilizării efective a terenului respectiv, inclusiv pentru vii și livezi.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Proprietari & Imobiliare",
+        "Agricultură & Mediu"
+      ],
+      "keyFindings": [
+        "Art. I: facilitatea privește exclusiv terenurile extravilane arabile, pășunile, fânețele, viile și livezile înscrise în registrul agricol. Nu modifică impozitarea tuturor terenurilor și nu introduce sancțiuni.",
+        "Art. I, alin. (7²) lit. a): până la 1 ha inclusiv se cere un efectiv absolut de minimum 0,5 UVM, nu 0,5 UVM/ha. Pentru suprafețe peste 1 ha se folosește densitatea; astfel, 1 ha cu 0,5 UVM beneficiază de reducere integrală, iar 1,1 ha cu 0,55 UVM beneficiază de numai 50%.",
+        "Art. I, alin. (7²) lit. b): la exact 0,7 UVM/ha sunt îndeplinite literal condițiile reducerilor de 50% și 75%; la exact 1 UVM/ha sunt îndeplinite condițiile reducerilor de 75% și 100%. Legea trebuie să elimine suprapunerile.",
+        "Art. I: expresia «terenurile cu suprafața» nu precizează cumularea parcelelor, inclusiv între localități. Nu sunt clarificate nici atribuirea animalelor unei exploatații, nici raportul dintre contribuabil, titularul terenului și deținătorul animalelor.",
+        "Art. I: referința la registrul agricol din 31 decembrie al anului anterior oferă o dată verificabilă, dar nu impune menținerea efectivului în anul facilității. Înscrierea animalelor nu dovedește singură utilizarea productivă a fiecărei suprafețe.",
+        "Art. II și III: legea se aplică de la 1 ianuarie, dar Guvernul primește încă 90 de zile după intrarea în vigoare pentru norme, inclusiv coeficienți UVM. Calculul facilității poate începe înainte ca toate regulile necesare să fie disponibile.",
+        "Impactul bugetar constă în diminuarea veniturilor locale, fără o compensare expresă. Expunerea nu cuantifică pierderea și nici costurile verificărilor; caracterul redus al impozitului individual nu demonstrează un impact neglijabil în fiecare comună.",
+        "Față de nivelurile actuale furnizate, motivarea prin valori de ordinul zecilor de lei este incompletă: tabelul include 112–134 lei/ha pentru arabil și 129–150 lei/ha pentru livezi, înaintea coeficientului aplicabil."
+      ],
+      "blindSpotsCaught": "Dispozițiile finale permit adoptarea normelor după începerea aplicării facilității. În plus, plafonul de 5 ha la nivelul întregii exploatații apare în justificare, dar nu este formulat explicit în norma propusă; expunerea de motive nu poate suplini această lipsă. Reducerea este obligatorie când sunt îndeplinite condițiile legale, fără o nouă opțiune a consiliului local de a o acorda.",
+      "constitutionalityNote": "Vulnerabilitatea principală privește art. 1 alin. (5): suprapunerea tranșelor și incertitudinea privind cumularea suprafețelor afectează previzibilitatea obligației fiscale. Art. 16 și art. 56 alin. (2) cer justificarea obiectivă a diferențelor dintre contribuabili; stimularea zootehniei poate constitui un scop legitim, dar discontinuitatea de la 1 ha și legătura slab demonstrată dintre animale și utilizarea terenului necesită fundamentare. Coeficienții tehnici pot fi stabiliți prin norme, însă acestea nu trebuie să creeze criteriile esențiale de eligibilitate omise de lege. Art. 139 alin. (2) permite legii să stabilească limitele fiscalității locale, deci facilitatea nu încalcă automat autonomia locală. Solicitarea informării Guvernului este obligatorie potrivit art. 111 alin. (1), întrucât sunt afectate venituri bugetare; documentele furnizate nu dovedesc îndeplinirea procedurii. Diminuarea veniturilor nu trebuie confundată automat cu o cheltuială fără sursă de finanțare în sensul art. 138 alin. (5). Art. 23 alin. (12), referitor la pedepse, nu este incident.",
+      "euLawNote": "Directiva (UE) 2018/958 privește reglementarea accesului la profesii și a exercitării acestora; proiectul nu intră în acest domeniu. Nu reglementează servicii digitale sau AI și nu rezultă o obligație TRIS potrivit Directivei (UE) 2015/1535: condiția privind efectivele de animale nu constituie, prin ea însăși, o specificație tehnică a produselor. Pentru beneficiarii care desfășoară activități economice, reducerea selectivă poate constitui ajutor de stat dacă sunt îndeplinite cumulativ condițiile art. 107 alin. (1) TFUE. Trebuie verificat un temei de compatibilitate, o exceptare sau regimul de minimis aplicabil, inclusiv cumulul și monitorizarea; incompatibilitatea nu poate fi dedusă doar din existența facilității. Avantajul pentru exploatațiile cu animale față de cele exclusiv vegetale poate influența concurența, fără a fi automat interzis.",
+      "senatForm": {
+        "articleRef": "Art. I – alin. (7²), teze noi la final",
+        "proposalContent": "Facilitatea se aplică numai exploatațiilor cu cel mult 5 ha de teren agricol, însumate indiferent de parcelare și localizare. Încărcătura se calculează pe suprafața agricolă totală a exploatației; fiecare animal se atribuie unei singure exploatații. La lit. b) pct. (i) și (ii), limitele superioare sunt exclusive.",
+        "argumentation": "Textul nu precizează dacă plafonul privește parcela sau întreaga exploatație, deși motivarea invocă fermele mici. Cumularea împiedică extinderea facilității prin parcelare, iar intervalele fără suprapuneri elimină două reduceri posibile pentru aceeași încărcătură.",
+        "otherComments": "Normele trebuie adoptate până la intrarea în vigoare, iar impactul local și regimul ajutorului de stat trebuie clarificate. Analiza folosește documentele furnizate; verificarea externă nu a fost posibilă. Aceste documente nu includ fișa financiară ori dovada solicitării informării Guvernului."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T21:59:13.719Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T12:51:37.876Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

@@ -1,128 +1,156 @@
 {
   "billId": "PL-x 580/2026",
   "slug": "plx-580-2026",
-  "updatedAt": "2026-10-28T22:45:28.936Z",
+  "version": "senat",
+  "updatedAt": "2026-11-24T12:53:18.854Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 8301,
+    "ordinanceChars": 0,
+    "memoChars": 9819,
+    "memoSupplied": 9819,
+    "marker": "SF-935A88B1"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-580-2026.json",
+    "form": "senat",
+    "textHash": "935a88b171eeb978",
+    "fetchedAt": "2026-11-19T10:03:12.129Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 7,
+    "articlesShown": 7,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 17743,
+    "truncated": false,
+    "included": true,
+    "key": "37b4ab73b6a2900c"
+  },
   "consensus": {
-    "riskScore": 4.3,
+    "riskScore": 5.5,
     "riskLevel": "yellow",
-    "plainTitle": "Registrul agricol trece pe o singură platformă națională, cu amenzi mai mari",
-    "summaryTlDr": "Este o digitalizare utilă, așteptată de mult: un singur registru agricol electronic, administrat de ANCPI, în locul sutelor de aplicații locale incompatibile. Textul a trecut însă tacit de Senat. Mărește amenzile pentru gospodării, dă ANCPI dreptul să sancționeze fapte pe care nu le definește și are un calendar care se contrazice.",
-    "initiatorClaim": "Inițiatorii spun că registrul agricol e împărțit între hârtie și aplicații locale necompatibile. Rezultatul ar fi date incomplete, raportări paralele și statistici și subvenții distorsionate. Ei vor o platformă unică și obligatorie, cu acces în timp real pentru instituții și sancțiuni care să descurajeze.",
-    "realityCheck": "RAN există deja în lege. Proiectul îl face singura evidență primară de la 1 ianuarie 2028, interzice primăriilor aplicațiile proprii (abrogă art. 6 alin. 3), înlocuiește raportările cu acces direct al instituțiilor și îl conectează obligatoriu cu cadastrul, APIA, ANSVSA, INS și sistemele Ministerului Finanțelor. Efecte secundare: amenzile pentru cetățeni și firme cresc, iar funcționarii locali pot fi amendați personal cu până la 10.000 lei. Lucrurile esențiale rămân în seama unor norme ale Guvernului: regulile de acces la date, momentul „operaționalizării complete” și rolul arhivei pe hârtie. Costul pentru ANCPI și pentru migrarea datelor din peste 3.000 de UAT-uri nu este cuantificat; expunerea afirmă doar că se folosesc infrastructura și fondurile existente.",
+    "plainTitle": "Registru agricol unic obligatoriu la ANCPI din 2028, cu amenzi mărite de 4–40 de ori și vicii de redactare",
+    "summaryTlDr": "Ideea centralizării și interconectării Registrului Agricol Național (RAN) pentru a elimina raportările pe hârtie este utilă, dar proiectul a trecut tacit de Senat cu vicii serioase de tehnică legislativă, sancțiuni neclare și riscuri operaționale. Camera Deputaților trebuie să corecteze neconcordanțele juridice și garanțiile RGPD înainte de adoptare.",
+    "initiatorClaim": "Inițiatorii susțin că proiectul elimină fragmentarea dintre aplicațiile locale ale primăriilor și evidențele pe hârtie, creează o bază de date unică interconectată în timp real pentru subvenții și politici agricole, fără costuri bugetare noi semnificative și fără a afecta autonomia locală.",
+    "realityCheck": "În prezent, OG 28/2008 prevede deja formatul electronic încă din 2018 și existența RAN la ANCPI, dar permite primăriilor să contracteze aplicații locale separate (art. 6 alin. 3) și să țină registre pe hârtie. Proiectul interzice complet aplicațiile locale din 1 ianuarie 2028, majorează amenzile de 4–5 ori pentru persoane fizice (500–2.000 lei), de ~6,6 ori pentru persoane juridice (2.000–10.000 lei) și de 40 de ori pentru funcționarii primăriilor (2.000–10.000 lei), dar introduce competențe sancționatorii pentru fapte nedefinite ca contravenții și lasă în vigoare articole contradictorii privind hârtia.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "Proprietari & Imobiliare",
       "IT & AI",
-      "Justiție & Drepturi Civile"
+      "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. 1 pct. 9, art. 20 alin. (3) lit. c)",
-      "proposalContent": "Lit. c) va avea cuprinsul: „c) Agenția Națională de Cadastru și Publicitate Imobiliară, în calitate de administrator al Registrului Agricol Național, sau persoanele împuternicite de aceasta, pentru contravențiile prevăzute la alin. (2).” Se elimină trimiterea la „neutilizarea sau utilizarea neconformă” a RAN.",
-      "argumentation": "ANCPI ar putea sancționa „neutilizarea sau utilizarea neconformă” a RAN, dar art. 20 nu descrie aceste fapte și nu le stabilește amenda. Art. 3 din OG 2/2001 cere ca actul normativ să descrie fiecare contravenție și sancțiunea ei; altfel textul e imprevizibil (art. 1 alin. 5 din Constituție). Obligațiile privind RAN sunt deja sancționate la alin. (2).",
-      "otherComments": "Expunerea anunță 1 ianuarie 2027, textul pune 1 ianuarie 2028, iar art. II alin. (1) amână trecerea până la o „operaționalizare completă” nedatată – trebuie corelate. Pentru persoane fizice, la prima nedeclarare (art. 20 alin. 1 lit. c) ar trebui să se aplice avertisment. De corectat: „roi”, „ia fața locului”, „secretarul comunei” (azi „secretarul general al UAT”)."
+      "articleRef": "Art. I pct. 9 (Art. 20 alin. (2) și (3))",
+      "proposalContent": "La art. 20 alin. (2) lit. c) se introduce subiectul activ (secretarul general al UAT). La alin. (3) se delimitează competența: a) primarul, doar pentru alin. (1); b) prefectul, doar pentru alin. (2); c) ANCPI, doar pentru alin. (2) lit. a)-b), eliminând teza finală „și pentru faptele privind neutilizarea sau utilizarea neconformă a RAN”.",
+      "argumentation": "Forma adoptată tacit de Senat încalcă art. 1 alin. (5) din Constituție și OG 2/2001: art. 20 alin. (3) lit. c) dă ANCPI dreptul să sancționeze fapte nedefinite ca contravenții și fără amendă stabilită, alin. (2) lit. c) omite autorul faptei, iar lit. a)-b) suprapun competențele primarului și prefectului.",
+      "otherComments": "Corelați și restul textului adoptat tacit: (1) la Art. I pct. 1 indicați expres introducerea alin. (1^2)-(1^3); (2) armonizați art. 6 alin. (1)-(2), (4) cu eliminarea hârtiei; (3) eliminați confuzia dintre „norme tehnice” (ordin comun) și „norme metodologice” (HG); (4) introduceți garanții RGPD la art. 16 și o clauză dacă RAN nu e gata la 1.01.2028."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 59381,
-      "riskScore": 4,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 116024,
+      "sourceEndMarker": "SF-935A88B1",
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Registrul Agricol Național devine unic și obligatoriu, dar cresc de până la 6 ori amenzile pentru proprietari și fermieri",
-      "verdictShort": "O reformă de digitalizare necesară, care elimină achizițiile locale redundante de softuri din primării și raportările pe hârtie, dar care mărește sever amenzile pentru cetățeni și conține erori de tehnică legislativă în regimul sancționator.",
-      "initiatorClaim": "Inițiatorii vor să elimine haosul aplicațiilor informatice cumpărate separat de fiecare primărie și să impună Registrul Agricol Național (RAN), gestionat de ANCPI, ca bază de date electronică unică și interconectată în timp real cu APIA, ANSVSA, Cadastrul și Fiscul.",
-      "realityCheck": "Pe fond, centralizarea în RAN și interzicerea raportărilor paralele sunt măsuri binevenite care opresc risipa banilor publici pe softuri locale neinteroperabile. Totuși, proiectul crește de 4-6 ori amenzile pentru cetățenii și firmele care întârzie declararea datelor agricole (până la 2.000 lei, respectiv 10.000 lei), creează o sancțiune neclară la art. 20 alin. (3) lit. c) și interzice sistemele locale fără a garanta prin lege API-uri bidirecționale cu programele de taxe și impozite ale primăriilor.",
+      "plainTitle": "Registru agricol unic obligatoriu la ANCPI din 2028, cu amenzi mărite de 4–40 de ori și vicii de redactare",
+      "verdictShort": "Ideea centralizării și interconectării Registrului Agricol Național (RAN) pentru a elimina raportările pe hârtie este utilă, dar proiectul a trecut tacit de Senat cu vicii serioase de tehnică legislativă, sancțiuni neclare și riscuri operaționale. Camera Deputaților trebuie să corecteze neconcordanțele juridice și garanțiile RGPD înainte de adoptare.",
+      "initiatorClaim": "Inițiatorii susțin că proiectul elimină fragmentarea dintre aplicațiile locale ale primăriilor și evidențele pe hârtie, creează o bază de date unică interconectată în timp real pentru subvenții și politici agricole, fără costuri bugetare noi semnificative și fără a afecta autonomia locală.",
+      "realityCheck": "În prezent, OG 28/2008 prevede deja formatul electronic încă din 2018 și existența RAN la ANCPI, dar permite primăriilor să contracteze aplicații locale separate (art. 6 alin. 3) și să țină registre pe hârtie. Proiectul interzice complet aplicațiile locale din 1 ianuarie 2028, majorează amenzile de 4–5 ori pentru persoane fizice (500–2.000 lei), de ~6,6 ori pentru persoane juridice (2.000–10.000 lei) și de 40 de ori pentru funcționarii primăriilor (2.000–10.000 lei), dar introduce competențe sancționatorii pentru fapte nedefinite ca contravenții și lasă în vigoare articole contradictorii privind hârtia.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "Proprietari & Imobiliare",
-        "IT & AI"
+        "IT & AI",
+        "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Majorarea masivă a amenzilor pentru cetățeni și firme (Art. I pct. 9 - art. 20 alin. (1)): amenzile pentru nedeclararea în termen a datelor agricole sau refuzul verificării în teren cresc de la 100-500 lei la 500-2.000 lei pentru persoanele fizice și de la 300-1.500 lei la 2.000-10.000 lei pentru persoanele juridice.",
-        "Competență de sancționare fără contravenție definită (Art. I pct. 9 - art. 20 alin. (3) lit. c)): ANCPI primește dreptul de a constata contravenții și aplica sancțiuni „pentru faptele privind neutilizarea sau utilizarea neconformă a Registrului Agricol Național”, deși această faptă nu este definită și nu are stabilită o amendă la alin. (1) sau (2).",
-        "Interzicerea aplicațiilor locale din 1 ianuarie 2028 (Art. I pct. 2 - art. 1 alin. (7) și pct. 3): se abrogă art. 6 alin. (3) care permitea primăriilor să cumpere propriile softuri de registru agricol, însă art. 1 alin. (1³) prevede interconectarea RAN doar cu instituțiile centrale, fără a obliga ANCPI să ofere interfețe (API) gratuite pentru sincronizarea cu sistemele de taxe și impozite locale ale primăriilor.",
-        "Deficiențe de tehnică legislativă și erori materiale: Art. I pct. 1 anunță doar modificarea alin. (1¹), dar introduce neprocedural și două alineate noi, (1²) și (1³); Expunerea de motive indică termenul 1 ianuarie 2027, în timp ce legea prevede 1 ianuarie 2028; forma adoptată tacit de Senat conține greșeli de tipar în textul normativ („roi de backup” la art. 1 alin. (6), „ia fața locului” la art. 20 alin. (1) lit. b))."
+        "Contravenții neclare și suprapuneri de competență (Art. I pct. 9 / Art. 20): amenzile cresc abrupt (PF: de la 100–500 la 500–2.000 lei; PJ: de la 300–1.500 la 2.000–10.000 lei; personal UAT: de la 50–250 la 2.000–10.000 lei). Mai grav, art. 20 alin. (3) lit. c) împuternicește ANCPI să sancționeze „faptele privind neutilizarea sau utilizarea neconformă a RAN”, deși aceste fapte nu sunt definite nicăieri în alin. (1)-(2) și nu au amendă stabilită; totodată, alin. (2) lit. c) omite autorul faptei, iar alin. (3) lit. a)-b) elimină delimitarea dintre competența primarului și cea a prefectului.",
+        "Confuzie normativă și contradicții interne (Art. I pct. 2–3, Art. II): art. 6 alin. (3) (contractarea de aplicații locale) este abrogat imediat, dar art. 6 alin. (1)-(2) și (4) rămân nemodificate, obligând în continuare primarii la registre cusute, sigilate și reînnoite pe hârtie. În plus, art. II alin. (3) obligă Guvernul să modifice în 6 luni „normele tehnice” (care potrivit art. 7 alin. 3 se aprobă prin ordin comun al 7 instituții, nu prin HG), în timp ce 4 articole noi trimit la „norme metodologice aprobate prin HG” fără niciun termen de adoptare.",
+        "Risc de blocaj administrativ la 1 ianuarie 2028 și impact asupra contractelor IT (Art. I pct. 2 / Art. 1 alin. 7 și Art. II alin. 4): termenul precedent din 2018 a eșuat deja, însă proiectul impune o interdicție rigidă a sistemelor locale din 1.01.2028 (în expunerea de motive apare eronat 2027) fără o clauză de salvgardare dacă platforma ANCPI și interconectările cu APIA, ANSVSA, INS, cadastru și MF nu vor fi funcționale, și fără dispoziții privind rezilierea contractelor multianuale ale primăriilor cu furnizorii IT locali.",
+        "Scăpări de tehnică legislativă și impact bugetar nefundamentat: la Art. I pct. 1 partea dispozitivă anunță doar modificarea alin. (1¹), dar introduce tacit și alin. (1²)–(1³); deși interconectarea în timp real între 6 mari sisteme informatice naționale și migrarea datelor din 3.181 de UAT-uri implică cert costuri de infrastructură și instruire, expunerea de motive declară impact neutru fără fișă financiară."
       ],
-      "blindSpotsCaught": "La art. 20 alin. (3) lit. c) s-a strecurat o eroare clasică de drept contravențional: se desemnează agentul constatator (ANCPI) pentru o faptă („neutilizarea sau utilizarea neconformă a RAN”) care nu există în lista contravențiilor de la alin. (1) și (2), făcând sancțiunea inaplicabilă sau neconstituțională. De asemenea, art. 1 alin. (5) impune completarea obligatorie în RAN imediat la intrarea în vigoare a legii, intrând în coliziune cu norma tranzitorie de la Art. II alin. (1).",
-      "constitutionalityNote": "Prevederea de la art. 20 alin. (3) lit. c) teza finală încalcă principiul legalității și previzibilității legii (Art. 1 alin. (5) din Constituție) și principiul legalității răspunderii contravenționale, deoarece vizează sancționarea unei fapte nedefinite („utilizarea neconformă”) și lipsite de o limită de amendă individualizată. Totodată, nerespectarea normelor de tehnică legislativă (Legea nr. 24/2000) la Art. I pct. 1 privind introducerea alineatelor (1²) și (1³) afectează rigoarea formală a actului normativ.",
-      "euLawNote": "Proiectul este convergent cu regulamentele europene privind Politica Agricolă Comună (interoperabilitatea cu sistemul integrat de administrare și control gestionat de APIA) și cu Regulamentul (UE) 2024/903 (Interoperable Europe Act), reducând riscul corecțiilor financiare pe fonduri UE. Nu instituie bariere nejustificate pe piața unică și nu necesită notificare TRIS (Directiva 2015/1535), vizând exclusiv organizarea unei evidențe publice interne a statului.",
+      "blindSpotsCaught": "Adoptarea tacită la Senat (art. 75 alin. 2 teza a III-a din Constituție) a lăsat intact un viciu major la art. 20 alin. (3) lit. c): ANCPI primește dreptul de a aplica amenzi pentru „neutilizarea sau utilizarea neconformă a RAN”, dar această faptă nu există în lista contravențiilor și nu are sancțiune prevăzută în lege. În paralel, art. 16 alin. (3) acordă acces în timp real la datele personale și patrimoniale din RAN către instituții publice, delegând integral regulile de acces și autorizare către o simplă hotărâre de Guvern.",
+      "constitutionalityNote": "Proiectul ridică trei vulnerabilități constituționale serioase: (1) încălcarea art. 1 alin. (5) (calitatea și previzibilitatea legii) și a legalității sancțiunilor prin art. 20 alin. (3) lit. c) (competență de sancționare pentru fapte nedefinite și fără cuantum al amenzii), omisiunea subiectului activ la art. 20 alin. (2) lit. c), suprapunerea competențelor de control și confuzia dintre ordinul comun (art. 7 alin. 3) și HG; (2) riscuri privind art. 26 (viața privată) și art. 53, întrucât interconectarea datelor personale și accesul în timp real între 6 instituții sunt lăsate fără garanții minimale în lege, fiind delegate integral la HG (art. 16 alin. 3); (3) posibila incidență a art. 138 alin. (5) prin lipsa sursei concrete de finanțare pentru dezvoltarea/interconectarea platformei ANCPI.",
+      "euLawNote": "Directiva (UE) 2018/958 (profesii reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente, RAN fiind un sistem intern al administrației publice, nu un serviciu al societății informaționale sau o reglementare profesională. Nici dreptul UE al concurenței nu este încălcat prin centralizarea unui registru public oficial (exercitare a autorității publice), deși piața privată de software local de registru agricol dispare din 2028. Punctul sensibil de drept UE este RGPD (Regulamentul (UE) 2016/679): art. 1 alin. (1²) numește UAT-urile „operatori de date” fără a defini statutul ANCPI (operator asociat art. 26 sau împuternicit art. 28), iar delegarea totală către HG a condițiilor de acces în timp real (art. 16 alin. 3) tensioneză cerințele art. 6 alin. (3) și principiul minimizării datelor.",
       "senatForm": {
-        "articleRef": "Art. I pct. 1, pct. 2 și pct. 9 (Art. 1 și 20)",
-        "proposalContent": "La Art. I pct. 9, teza finală a art. 20 alin. (3) lit. c) („și pentru faptele privind neutilizarea sau utilizarea neconformă a RAN”) se elimină, iar amenzile de la art. 20 alin. (1) se mențin la un nivel proporțional (200-1.000 lei persoane fizice; 500-3.000 lei persoane juridice). La art. 1 alin. (7) se permite sincronizarea prin API cu sistemele fiscale ale UAT.",
-        "argumentation": "Art. 20 alin. (3) lit. c) împuternicește ANCPI să sancționeze „utilizarea neconformă a RAN”, faptă care nu este definită și nici sancționată la alin. (1) sau (2), încălcând art. 1 alin. (5) din Constituție. Totodată, majorarea de până la 6 ori a amenzilor pentru cetățeni și fermieri este disproporționată, iar primăriile au nevoie de API-uri pentru taxele locale.",
-        "otherComments": "La Art. I pct. 1, partea introductivă trebuie corectată conform Legii 24/2000, deoarece textul nu doar modifică alin. (1¹), ci introduce și două alineate noi, (1²) și (1³). Totodată, trebuie corelat art. 1 alin. (5) cu termenul tranzitoriu de la art. 1 alin. (7) și Art. II (1 ianuarie 2028) și corectate erorile materiale („roi” în loc de „rol”, „ia” în loc de „la”)."
-      }
+        "articleRef": "Art. I pct. 9 (Art. 20 alin. (2) și (3))",
+        "proposalContent": "La art. 20 alin. (2) lit. c) se introduce subiectul activ (secretarul general al UAT). La alin. (3) se delimitează competența: a) primarul, doar pentru alin. (1); b) prefectul, doar pentru alin. (2); c) ANCPI, doar pentru alin. (2) lit. a)-b), eliminând teza finală „și pentru faptele privind neutilizarea sau utilizarea neconformă a RAN”.",
+        "argumentation": "Forma adoptată tacit de Senat încalcă art. 1 alin. (5) din Constituție și OG 2/2001: art. 20 alin. (3) lit. c) dă ANCPI dreptul să sancționeze fapte nedefinite ca contravenții și fără amendă stabilită, alin. (2) lit. c) omite autorul faptei, iar lit. a)-b) suprapun competențele primarului și prefectului.",
+        "otherComments": "Corelați și restul textului adoptat tacit: (1) la Art. I pct. 1 indicați expres introducerea alin. (1^2)-(1^3); (2) armonizați art. 6 alin. (1)-(2), (4) cu eliminarea hârtiei; (3) eliminați confuzia dintre „norme tehnice” (ordin comun) și „norme metodologice” (HG); (4) introduceți garanții RGPD la art. 16 și o clauză dacă RAN nu e gata la 1.01.2028."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 226202,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Registrul agricol trece pe o singură platformă națională, cu amenzi mai mari",
-      "verdictShort": "Este o digitalizare utilă, așteptată de mult: un singur registru agricol electronic, administrat de ANCPI, în locul sutelor de aplicații locale incompatibile. Textul a trecut însă tacit de Senat. Mărește amenzile pentru gospodării, dă ANCPI dreptul să sancționeze fapte pe care nu le definește și are un calendar care se contrazice.",
-      "initiatorClaim": "Inițiatorii spun că registrul agricol e împărțit între hârtie și aplicații locale necompatibile. Rezultatul ar fi date incomplete, raportări paralele și statistici și subvenții distorsionate. Ei vor o platformă unică și obligatorie, cu acces în timp real pentru instituții și sancțiuni care să descurajeze.",
-      "realityCheck": "RAN există deja în lege. Proiectul îl face singura evidență primară de la 1 ianuarie 2028, interzice primăriilor aplicațiile proprii (abrogă art. 6 alin. 3), înlocuiește raportările cu acces direct al instituțiilor și îl conectează obligatoriu cu cadastrul, APIA, ANSVSA, INS și sistemele Ministerului Finanțelor. Efecte secundare: amenzile pentru cetățeni și firme cresc, iar funcționarii locali pot fi amendați personal cu până la 10.000 lei. Lucrurile esențiale rămân în seama unor norme ale Guvernului: regulile de acces la date, momentul „operaționalizării complete” și rolul arhivei pe hârtie. Costul pentru ANCPI și pentru migrarea datelor din peste 3.000 de UAT-uri nu este cuantificat; expunerea afirmă doar că se folosesc infrastructura și fondurile existente.",
-      "affectedGroups": [
-        "Agricultură & Mediu",
-        "Proprietari & Imobiliare",
-        "IT & AI",
-        "Justiție & Drepturi Civile"
-      ],
-      "keyFindings": [
-        "Art. 1 pct. 2 și art. II alin. (4): de la 1 ianuarie 2028, RAN devine singura evidență primară, iar primăriilor li se interzice orice sistem informatic local propriu. Art. 6 alin. (3), care, potrivit expunerii, le permitea să-și contracteze aplicații, se abrogă. Hârtia rămâne doar „backup” pentru situații excepționale stabilite prin norme. Nu e clar dacă ținerea ei în paralel rămâne obligatorie.",
-        "Art. 1 pct. 9 (art. 20 alin. 1): amenzile cresc la 500–2.000 lei pentru persoane fizice și la 2.000–10.000 lei pentru persoane juridice, inclusiv pentru simpla nedeclarare la termen a datelor gospodăriei. Inițiatorii numesc explicit măsura o majorare. Legea nu cere avertisment la prima abatere (OG 2/2001 doar îl permite), deși mulți dintre cei care declară sunt gospodării mici din mediul rural.",
-        "Art. 20 alin. (2): funcționarii primăriei și secretarul UAT pot fi amendați personal cu 2.000–10.000 lei, inclusiv pentru „neurmărirea” activității colegilor. Legea nu spune ce se întâmplă când întârzierea vine din indisponibilitatea platformei centrale.",
-        "Art. 20 alin. (3) lit. c): ANCPI poate sancționa „neutilizarea sau utilizarea neconformă” a RAN, dar aceste fapte nu sunt descrise nicăieri ca contravenții și nu au o amendă stabilită.",
-        "Art. 1 alin. (1³) și art. 16: datele din registru (membrii gospodăriei, terenuri, animale) devin accesibile în timp real instituțiilor cu „drept de acces potrivit legii”. Registrul se interconectează obligatoriu cu cadastrul, APIA, ANSVSA, INS și Ministerul Finanțelor. Nivelurile de acces și regulile de folosire a datelor sunt lăsate în întregime unei hotărâri de Guvern.",
-        "Calendarul se contrazice. Expunerea de motive anunță termenul 1 ianuarie 2027, textul spune 1 ianuarie 2028. Art. II alin. (1) păstrează regimul vechi până la o „operaționalizare completă” fără dată, în timp ce alin. (4) impune RAN ca evidență unică la 1 ianuarie 2028."
-      ],
-      "blindSpotsCaught": "Senatul nu a dezbătut proiectul: l-a adoptat tacit, în forma inițială (art. 75 alin. 2 teza a III-a din Constituție). De aceea, neconcordanța 2027/2028 vine chiar din documentele inițiatorilor, iar în text au rămas greșeli precum „roi de backup” și „a constata ia fața locului”. Tot de aici vin formula „se modifică” folosită pentru alineatele noi (1²) și (1³) și termenul „secretarul comunei”, deși Codul administrativ folosește „secretarul general al UAT”. Mai subtil: textul folosește când „norme metodologice”, când „norme tehnice”, fără să precizeze dacă e vorba de același act. De aceste norme depind momentul trecerii la RAN, situațiile în care se folosește hârtia și forma în care cetățeanul își declară datele, sub sancțiunea de la art. 20 alin. (1) lit. c).",
-      "constitutionalityNote": "Scopul, o evidență agricolă unitară, este legitim. Controlul ANCPI și al prefectului nu pare să încalce autonomia locală (art. 120–121), pentru că registrul agricol este în esență o evidență de interes național pe care primăriile o țin pentru stat. Problemele țin de claritate și previzibilitate (art. 1 alin. 5): art. II alin. (1) și (4) se contrazic, iar art. 20 alin. (3) lit. c) dă o competență de sancționare pentru fapte nedescrise, deși art. 3 din OG 2/2001 cere ca actul normativ să descrie fiecare contravenție și sancțiunea ei. Accesul în timp real și interconectarea datelor personale restrâng dreptul la viață privată (art. 26 și art. 53). Jurisprudența CCR privind prelucrarea datelor, de pildă deciziile despre reținerea datelor de trafic, cere ca garanțiile esențiale să fie în lege, nu în hotărâri de Guvern. Există și un risc moderat pe art. 138 alin. (5): sarcinile noi ale ANCPI nu au o sursă de finanțare cuantificată.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează accesul la o profesie. Nici notificarea TRIS (Directiva 2015/1535) nu e necesară: este un sistem informatic intern al administrației, nu o regulă tehnică pentru produse sau servicii ale societății informaționale oferite de privați. Principala zonă de risc este GDPR (Regulamentul 2016/679). Interconectarea cu fiscul, APIA și ANSVSA cere temei legal clar, scopuri delimitate și minimizarea datelor (art. 5 și art. 6 alin. 3), iar o bază de date centralizată de această amploare cere o evaluare de impact (art. 35). Partea bună: proiectul urmează principiul „o singură dată” promovat de UE și poate face mai coerente datele folosite de APIA în sistemul integrat de administrare și control al PAC (Regulamentul 2021/2116). Interzicerea aplicațiilor locale elimină piața furnizorilor privați de software pentru primării, dar statul poate opta legal pentru un sistem propriu, așa că nu apare o problemă de drept UE al concurenței.",
-      "senatForm": {
-        "articleRef": "Art. 1 pct. 9, art. 20 alin. (3) lit. c)",
-        "proposalContent": "Lit. c) va avea cuprinsul: „c) Agenția Națională de Cadastru și Publicitate Imobiliară, în calitate de administrator al Registrului Agricol Național, sau persoanele împuternicite de aceasta, pentru contravențiile prevăzute la alin. (2).” Se elimină trimiterea la „neutilizarea sau utilizarea neconformă” a RAN.",
-        "argumentation": "ANCPI ar putea sancționa „neutilizarea sau utilizarea neconformă” a RAN, dar art. 20 nu descrie aceste fapte și nu le stabilește amenda. Art. 3 din OG 2/2001 cere ca actul normativ să descrie fiecare contravenție și sancțiunea ei; altfel textul e imprevizibil (art. 1 alin. 5 din Constituție). Obligațiile privind RAN sunt deja sancționate la alin. (2).",
-        "otherComments": "Expunerea anunță 1 ianuarie 2027, textul pune 1 ianuarie 2028, iar art. II alin. (1) amână trecerea până la o „operaționalizare completă” nedatată – trebuie corelate. Pentru persoane fizice, la prima nedeclarare (art. 20 alin. 1 lit. c) ar trebui să se aplice avertisment. De corectat: „roi”, „ia fața locului”, „secretarul comunei” (azi „secretarul general al UAT”)."
-      }
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 84505,
-      "riskScore": 5,
+      "durationMs": 93873,
+      "sourceEndMarker": "SF-935A88B1",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Registru agricol unic online, cu amenzi mai mari și tranziție insuficient clarificată",
-      "verdictShort": "Unificarea registrului agricol poate reduce raportările inutile și erorile administrative. Proiectul necesită însă corectarea sancțiunilor neclare, justificarea majorării amenzilor și garanții pentru funcționarea platformei și protecția datelor.",
-      "initiatorClaim": "Inițiatorii urmăresc eliminarea aplicațiilor locale fragmentate și a raportărilor paralele, printr-o platformă națională interoperabilă. Susțin că economiile rezultate permit implementarea fără cheltuieli publice noi semnificative.",
-      "realityCheck": "Proiectul impune primăriilor folosirea exclusivă a RAN de la 1 ianuarie 2028, interzice evidențele informatice locale distincte și înlocuiește raportările instituționale cu accesul direct la platformă. Nu introduce taxe și nici obligația cetățenilor de a declara exclusiv online, dar majorează amenzile pentru obligațiile declarative existente și pentru personalul primăriilor. Economiile, reducerea deplasărilor și accelerarea subvențiilor sunt rezultate posibile, fără mecanisme suficiente în text pentru a le garanta.",
+      "plainTitle": "Registru agricol unic online, cu amenzi mult mai mari",
+      "verdictShort": "Proiectul urmărește o simplificare administrativă utilă, dar combină centralizarea obligatorie cu amenzi mult majorate și reguli insuficient de clare pentru tranziție și sancționare. Sunt necesare amendamente înainte de adoptare, în special pentru protejarea personalului împotriva sancționării unor deficiențe tehnice neimputabile.",
+      "initiatorClaim": "Inițiatorii urmăresc eliminarea aplicațiilor locale fragmentate, a raportărilor repetitive și a neconcordanțelor dintre evidențele publice. Susțin că infrastructura existentă permite implementarea fără cheltuieli noi semnificative.",
+      "realityCheck": "RAN și administrarea sa de către ANCPI există deja în lege, ca și obligația evidenței electronice; noutatea principală este utilizarea exclusivă a platformei naționale, cu interzicerea evidențelor informatice locale distincte din 1 ianuarie 2028. Proiectul înlocuiește raportările cu acces instituțional direct, impune interconectări și majorează substanțial amenzile. Neutralitatea bugetară și capacitatea platformei de a susține toate primăriile sunt afirmații ale expunerii de motive, nedemonstrate prin textul normativ furnizat.",
       "affectedGroups": [
         "Agricultură & Mediu",
-        "Proprietari & Imobiliare",
         "IMM & Antreprenori",
         "IT & AI",
+        "Proprietari & Imobiliare",
+        "Contabili & Fiscalitate",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I pct. 1 și 7: centralizarea și accesul instituțional pot elimina raportările repetitive. RAN și administrarea sa de către ANCPI există deja în legislație; noutatea principală este exclusivitatea obligatorie a platformei. [OG nr. 28/2008](https://legislatie.just.ro/Public/DetaliiDocumentAfis/187493).",
-        "Art. I pct. 9: amenzile persoanelor fizice cresc de la 100–500 la 500–2.000 lei, iar ale persoanelor juridice de la 300–1.500 la 2.000–10.000 lei. Pentru personalul vizat, limitele cresc de 40 de ori, de la 50–250 la 2.000–10.000 lei. Expunerea nu fundamentează numeric aceste salturi. [Regimul actual](https://legislatie.just.ro/Public/DetaliiDocumentAfis/187493).",
-        "Art. 20 alin. (3) lit. c) propus atribuie ANCPI competență pentru neutilizarea sau utilizarea neconformă a RAN, fără definirea distinctă a acestor contravenții și a sancțiunii aferente. Competența de constatare nu poate suplini descrierea faptei; eventualele suprapuneri cu alin. (2) trebuie clarificate.",
-        "Art. II alin. (1) permite evidențele existente până la operaționalizarea completă, dar alin. (4) și art. 1 alin. (7) impun exclusivitatea la 1 ianuarie 2028. Lipsește soluția explicită pentru nefuncționarea platformei la termen. Statutul hârtiei este, de asemenea, necorelat: rezervă operațională în art. 1 alin. (6), exclusiv arhivă în art. II alin. (4).",
-        "Art. I pct. 2–3 elimină piața aplicațiilor locale pentru ținerea distinctă a registrului. Este o restrângere reală pentru furnizorii IT, dar textul nu desemnează un beneficiar privat și nu dovedește un monopol comercial ilegal. Trebuie justificat de ce o evidență națională unică necesită și interzicerea soluțiilor locale interoperabile.",
-        "Neutralitatea bugetară nu este demonstrată prin estimări ale migrării, interconectării, instruirii și securității. Opinia Consiliului Fiscal nr. 32/04.06.2026 identifică explicit inițiativa între proiectele pentru care nu erau îndeplinite cerințele art. 15 alin. (1) din Legea nr. 69/2010 și solicită documentele financiare. Aceasta nu stabilește valoarea costurilor. [Opinia Consiliului Fiscal](https://www.senat.ro/legis/PDF/2026/26L371CF.PDF?nocache=true).",
-        "Art. 1 alin. (1²)–(1³) și art. 16 propuse prevăd operatorii locali și accesul instituțiilor abilitate, însă nu clarifică suficient rolul ANCPI în prelucrarea datelor. Trebuie precizate responsabilitățile, scopurile schimburilor, accesul limitat și trasabilitatea; centralizarea nu înseamnă automat acces public la date."
+        "Art. I pct. 1–3: RAN nu este creat acum, iar ANCPI este deja administrator. Proiectul înlocuiește modelul aplicațiilor locale interconectate cu o platformă obligatorie pentru toate UAT-urile și abrogă obligația contractării locale a programelor informatice.",
+        "Art. I pct. 2 și art. II alin. (4): termenul obligatoriu este 1 ianuarie 2028. Anul 2027 menționat în expunerea de motive nu produce efecte normative. Interdicția privește sistemele locale distincte pentru ținerea registrului, nu orice aplicație informatică folosită de primării.",
+        "Art. II alin. (1) permite evidențele existente până la operaționalizarea completă, fără un termen-limită explicit al acestei derogări. Corelarea cu exclusivitatea RAN din 2028 este insuficientă: dacă platforma întârzie, textul nu stabilește clar regimul aplicabil. Noul art. 1 alin. (6) permite utilizări excepționale ale hârtiei, în timp ce art. II alin. (4) rezervă evidențelor vechi exclusiv rolul de arhivă.",
+        "Art. I pct. 9: pentru persoanele fizice, amenzile cresc de la 100–500 lei la 500–2.000 lei, iar pentru persoanele juridice, de la 300–1.500 lei la 2.000–10.000 lei. Faptele sancționate ale declarantului sunt, în esență, cele existente; creșterea amenzii reprezintă însă un impact financiar real asupra fermierilor și întreprinderilor.",
+        "Noul art. 20 alin. (2): amenzile personalului responsabil cresc de la 50–250 lei la 2.000–10.000 lei, adică de 40 de ori la ambele limite. Expunerea nu justifică suficient această creștere prin gravitatea faptelor și nu diferențiază întârzierile minore de omisiunile grave. Regimul general al OG nr. 2/2001 privind vinovăția, proporționalitatea și contestarea sancțiunilor rămâne aplicabil.",
+        "Noul art. 20 alin. (3) lit. c) atribuie ANCPI competență și pentru «neutilizarea sau utilizarea neconformă» a RAN, fără definirea separată a acestor contravenții și a sancțiunilor aferente. Formula de competență nu poate constitui singură temei de amendare; fapta trebuie să întrunească elementele unei contravenții efectiv prevăzute de lege. La lit. a) și b) dispar și delimitările explicite ale competențelor primarului și prefectului.",
+        "Noile art. 16–17 pot elimina raportări repetitive și pot accelera identificarea erorilor. Accesul este rezervat instituțiilor cu drept legal, nu publicului, iar securitatea este cerută expres. Trebuie însă precizate responsabilitățile ANCPI și UAT-urilor pentru date, corectarea erorilor, trasabilitatea accesului și continuitatea serviciului.",
+        "Corelări omise: art. 7 alin. (3) păstrează normele tehnice aprobate prin ordin comun, în timp ce proiectul trimite repetat la norme metodologice aprobate prin hotărâre a Guvernului și cere Guvernului modificarea normelor tehnice. Art. 6 alin. (1), (2) și (4), nemodificate, păstrează referiri la evidența pe hârtie. Acordul scris al secretarului pentru modificarea datelor, prevăzut de art. 9 alin. (3), rămâne obligatoriu."
       ],
-      "blindSpotsCaught": "Punctul 1 anunță doar modificarea alin. (1¹), deși include și două alineate noi, care trebuie introduse expres prin formula legislativă. Expunerea menționează 2027, dar textul normativ stabilește 2028: acesta din urmă este reperul juridic. Adoptarea tacită de către Senat, confirmată de fișa oficială, nu reprezintă validarea pe fond a soluțiilor. [Fișa Senatului](https://www.senat.ro/legis/lista.aspx?an_cls=2026&nr_cls=L371).",
-      "constitutionalityNote": "Riscul principal privește art. 1 alin. (5): formulări sancționatorii insuficient determinate și reguli tranzitorii necorelate. Art. 23 alin. (12) consacră legalitatea pedepsei; pentru amenzile contravenționale propuse, analiza trebuie ancorată în previzibilitate și proporționalitate, fără confundarea lor cu pedepsele penale. Un sistem național comun nu încalcă prin el însuși autonomia locală din art. 120. Interconectarea necesită garanții pentru viața privată, potrivit art. 26. Art. 111 alin. (1) și art. 138 alin. (5) impun verificarea informării și finanțării atunci când sunt afectate bugetele; documentele furnizate nu permit constatarea definitivă a unui viciu procedural. [Constituția](https://legislatie.just.ro/Public/DetaliiDocument/47355).",
-      "euLawNote": "Directiva 2018/958 nu este aplicabilă direct: proiectul nu condiționează accesul la o profesie reglementată sau exercitarea acesteia. [Art. 2](https://eur-lex.europa.eu/legal-content/ro/ALL/?uri=CELEX%3A32018L0958). Digitalizarea nu declanșează automat notificarea TRIS. Totuși, interdicția aplicațiilor locale justifică verificarea încadrării ca regulă vizând expres servicii ale societății informaționale, dacă afectează servicii online remunerate; pentru programe exclusiv offline analiza diferă. Dacă sunt îndeplinite condițiile directivei, notificarea și perioada de așteptare trebuie respectate. Nu există aici dovada unei încălcări TRIS și textul nu reglementează AI. [Directiva 2015/1535, art. 1, 5–6](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1730190859396&uri=CELEX%3A32015L1535). Restrângerea pieței trebuie justificată proporțional, fără prezumția că administrarea publică unică încalcă automat concurența. GDPR rămâne aplicabil: limitarea scopurilor și datelor, responsabilități clare, securitate și evaluarea impactului dacă prelucrarea prezintă risc ridicat. [Regulamentul 2016/679](https://eur-lex.europa.eu/legal-content/EN/ALL/?tid=+121438634&uri=celex%3A32016R0679).",
+      "blindSpotsCaught": "Dispoziția tranzitorie bazată pe operaționalizarea completă poate intra în conflict cu termenul fix din 2028 exact când platforma nu funcționează. Separat, sintagma despre utilizarea neconformă apare într-o normă de competență sancționatorie, fără o incriminare contravențională autonomă. Proiectul nu stabilește nici procedura migrării, validării și reconcilierii datelor divergente, deși acestea vor alimenta o evidență primară unică.",
+      "constitutionalityNote": "Riscul principal privește art. 1 alin. (5) din Constituție: previzibilitatea contravențiilor, coerența tranziției și delimitarea normelor de aplicare. Art. 23 alin. (12) privește legalitatea pedepselor; proiectul nu introduce infracțiuni, iar analiza sancțiunilor contravenționale trebuie făcută fără confundarea lor cu pedepsele penale. Majorarea amenzilor nu dovedește singură neconstituționalitatea, dar necesită o justificare proporțională. Centralizarea tehnică nu încalcă automat autonomia locală protejată de art. 120–121, deoarece operarea datelor rămâne locală. Interconectarea trebuie să respecte viața privată, potrivit art. 26. Pentru art. 111 alin. (1) și art. 138 alin. (5), trebuie verificate documentele financiare și solicitarea informațiilor Guvernului, dacă există implicații bugetare; lipsa lor nu poate fi dedusă exclusiv din materialele furnizate.",
+      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile privind accesul la profesii reglementate și exercitarea acestora; proiectul nu instituie asemenea restricții, astfel că testul său nu este aplicabil doar fiindcă sunt afectați furnizori IT. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu rezultă automat din digitalizarea unei evidențe administrative: textul nu reglementează evident un serviciu al societății informaționale furnizat în mod normal contra remunerației. Actele de aplicare trebuie reevaluate dacă introduc cerințe tehnice pentru produse ori reguli specifice unor asemenea servicii. Retragerea cererii publice pentru aplicații locale afectează furnizorii, dar administrarea internă a unui registru public nu constituie prin ea însăși un monopol comercial ilicit; achizițiile necesare rămân supuse regulilor aplicabile. GDPR continuă să se aplice: scopuri determinate, minimizarea datelor, acces proporțional, securitate și responsabilități stabilite după rolurile efective, inclusiv evaluarea necesității unei evaluări de impact asupra protecției datelor.",
       "senatForm": {
-        "articleRef": "Art. I pct. 9 – art. 20 alin. (3) lit. c)",
-        "proposalContent": "c) personalul împuternicit al Agenției Naționale de Cadastru și Publicitate Imobiliară, exclusiv pentru contravențiile prevăzute la alin. (2).",
-        "argumentation": "Sintagma privind neutilizarea sau utilizarea neconformă a RAN nu identifică distinct fapta, autorul și sancțiunea aplicabilă. Competența de control nu poate suplini definirea contravenției. Eliminarea ei asigură previzibilitatea cerută de art. 1 alin. (5) din Constituție și art. 3 din OG nr. 2/2001.",
-        "otherComments": "Propunere pentru comisiile raportoare ale Camerei Deputaților, preluabilă de un deputat. Se solicită separat corelarea tranziției cu termenul de 1 ianuarie 2028 și protejarea persoanelor de sancțiuni pentru indisponibilitatea neimputabilă a platformei. Termenul comunicat pentru amendamente, 28.09.2026, este depășit."
-      }
+        "articleRef": "Art. I pct. 9 – art. 20 alin. (2) și (3)",
+        "proposalContent": "La art. 20 alin. (2), amenda este de la 500 la 2.000 lei. Alin. (3) lit. c) va avea următorul cuprins: «c) personalul împuternicit al ANCPI, pentru contravențiile prevăzute la alin. (2).» Se introduce alin. (4): «Nu constituie contravenție neîndeplinirea obligațiilor cauzată exclusiv de indisponibilitatea RAN, neimputabilă persoanei.»",
+        "argumentation": "Creșterea de 40 de ori a limitelor amenzii pentru personal nu este justificată suficient. Formula privind utilizarea neconformă atribuie competență fără a defini distinct fapta și sancțiunea. Amendamentul reduce severitatea, delimitează competența ANCPI și protejează personalul când platforma este indisponibilă din cauze neimputabile.",
+        "otherComments": "Sunt necesare și corelarea tranziției cu termenul din 2028, reguli pentru migrare și întreruperi, precum și delimitarea actelor de aplicare. Propunerea se adresează comisiilor raportoare ale Camerei Deputaților; termenul indicat pentru amendamente este depășit. Analiza folosește textele furnizate; verificarea externă nu a fost posibilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-28T22:45:28.936Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T12:53:18.854Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

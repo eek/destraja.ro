@@ -1,120 +1,149 @@
 {
   "billId": "Pl-x 714/2026",
   "slug": "plx-714-2026",
-  "updatedAt": "2026-10-28T19:32:27.623Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T12:47:44.710Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 2197,
+    "ordinanceChars": 0,
+    "memoChars": 16767,
+    "memoSupplied": 16767,
+    "marker": "SF-CFE6ADB1"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-714-2026.json",
+    "form": "initiator",
+    "textHash": "cfe6adb1a632066e",
+    "fetchedAt": "2026-11-19T11:19:57.520Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 3,
+    "articlesShown": 3,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 16708,
+    "truncated": false,
+    "included": true,
+    "key": "11673a451faf894c"
+  },
   "consensus": {
-    "riskScore": 3,
-    "riskLevel": "green",
-    "plainTitle": "Firmele micro: plafonul urcă înapoi de la 100.000 la 500.000 de euro",
-    "summaryTlDr": "Este o relaxare fiscală reală pentru firmele mici, dar textul e scris în grabă. Rescrie integral un articol din care pot dispărea reguli nemenționate, abrogă două alineate fără să explice ce conțin și nu calculează costul pentru buget, deși România e în procedură de deficit excesiv.",
-    "initiatorClaim": "Inițiatorii (62 de parlamentari AUR) spun că scăderea plafonului de la 500.000 la 250.000 și apoi la 100.000 euro a mutat la impozitul pe profit firme mici care nu au crescut și a stricat predictibilitatea fiscală. Ei propun revenirea la 500.000 euro și un calcul mai simplu al plafonului.",
-    "realityCheck": "Concret, legea schimbă suma în art. 47 alin. (1) lit. c) și în art. 52 alin. (1) și (5¹) și abrogă art. 54 alin. (3)-(4), fără ca Expunerea de motive să spună ce prevăd aceste alineate. Firmele cu venituri între 100.000 și 500.000 euro ar plăti din nou 1% din venituri în loc de 16% din profit. Cele profitabile câștigă, dar cele cu marjă de profit sub 6,25% sau pe pierdere ar plăti mai mult. Inițiatorii recunosc că bugetul pierde venituri, dar nu spun cât și nici de unde se acoperă pierderea.",
+    "riskScore": 4,
+    "riskLevel": "yellow",
+    "plainTitle": "Ridicarea plafonului pentru microîntreprinderi de la 100.000 la 500.000 euro, dar fără sursă de finanțare și cu erori tehnice",
+    "summaryTlDr": "Deși măsura este favorabilă micilor afaceri, proiectul nu indică nicio sursă de compensare a pierderii bugetare, riscă sancțiuni europene prin răsturnarea jaloanelor PNRR și conține scăpări legislative care pot încurca firmele HoReCa și întreg ecosistemul contabil.",
+    "initiatorClaim": "Inițiatorii susțin că readucerea plafonului microîntreprinderilor la 500.000 euro și abrogarea art. 54 alin. (3)-(4) vor reda predictibilitatea fiscală, vor simplifica calculul plafonului și vor proteja IMM-urile împotriva trecerii forțate la impozitul pe profit.",
+    "realityCheck": "Legea ridică într-adevăr plafonul de venituri de la 100.000 la 500.000 euro (păstrând însă regulile stricte de cumul pentru întreprinderile legate, condiția salariatului și limita unei singure microîntreprinderi), dar abrogarea art. 54 alin. (4) nu simplifică baza de calcul, ci șterge corelarea codurilor CAEN Rev. 3 pentru HoReCa. În plus, proiectul nu conține norme tranzitorii pentru firmele deja scoase din regimul micro în 2025-2026 și dispune renumerotarea întregului Cod fiscal pentru trei modificări punctuale.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 2 – art. 52 Cod fiscal",
-      "proposalContent": "Pct. 2 va avea următorul cuprins: „2. La articolul 52 alineatele (1) și (5¹), sintagma «100.000 euro» se înlocuiește cu sintagma «500.000 euro».” Restul textului celor două alineate rămâne cel în vigoare.",
-      "argumentation": "Expunerea de motive vizează doar plafonul. Rescrierea integrală a alin. (1) păstrează doar suma și poate elimina implicit alte reguli din forma în vigoare (condiții de ieșire din regim, cursul de schimb). Înlocuirea punctuală a sumei atinge același scop fără efecte nedorite, conform art. 1 alin. (5) din Constituție și Legii nr. 24/2000.",
-      "otherComments": "Pct. 1: trimiterea corectă este „art. 47 alin. (1) lit. c)”. Pct. 3: inițiatorii să arate ce prevăd art. 54 alin. (3)-(4) și cum schimbă abrogarea calculul plafonului. Opinia Guvernului și fișa financiară (art. 111 Constituție, art. 15 L. 500/2002) trebuie să existe înainte de vot. Lipsește o normă tranzitorie pentru firmele ieșite din regim în 2025–2026."
+      "articleRef": "Art. I pct. 1 și 3; Art. II",
+      "proposalContent": "La Art. I pct. 1, indicați expres „art. 47 alin. (1) lit. c)”. La Art. I pct. 3, abrogați doar art. 54 alin. (3), menținând alin. (4) privind codurile CAEN HoReCa. Eliminați Art. II (renumerotarea Codului fiscal) și clarificați tranzitoriu regimul firmelor ieșite din micro în 2025-2026.",
+      "argumentation": "Art. 47 are mai multe alineate cu litere; omiterea alin. (1) afectează claritatea normei (art. 1 alin. 5 Constituție). Art. 54 alin. (4) vizează codurile CAEN Rev. 3 pentru HoReCa, nu plafonul, iar abrogarea sa produce incertitudine. Renumerotarea întregului Cod fiscal ar invalida trimiterile din legi și norme secundare.",
+      "otherComments": "Înainte de raport, comisia trebuie să obțină fișa financiară a Guvernului (art. 111 alin. 1 și art. 138 alin. 5 Constituție) și avizul Consiliului Fiscal, evaluând impactul bugetar și riscul de reversare a jaloanelor PNRR asumate de România privind plafonul microîntreprinderilor."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 66012,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Readucerea plafonului pentru microîntreprinderi de la 100.000 euro la 500.000 euro",
-      "verdictShort": "Măsură fiscală pozitivă pentru mediul de afaceri, care reduce povara fiscală și birocratică pentru micile companii prin revenirea la plafonul de 500.000 euro. Proiectul suferă însă de o omisiune tehnică majoră: nu modifică art. 48 alin. (2) din Codul fiscal, ceea ce împiedică firmele scoase din regimul micro în 2025-2026 să revină la acest sistem.",
-      "initiatorClaim": "Inițiatorii urmăresc sprijinirea micilor afaceri și restabilirea predictibilității fiscale prin readucerea plafonului de încadrare ca microîntreprindere de la 100.000 euro la 500.000 euro, protejând firmele care au fost obligate să treacă la impozitul pe profit de 16%.",
-      "realityCheck": "Textul legii modifică art. 47 lit. c) și art. 52 alin. (1) și (5¹) pentru a ridica pragul la 500.000 euro și abrogă regulile tranzitorii de la art. 54 alin. (3)-(4). Totuși, inițiatorii au uitat de interdicția de la art. 48 alin. (2) din Codul fiscal, potrivit căreia o firmă care a mai fost microîntreprindere după 1 ianuarie 2023 și a trecut la impozit pe profit nu mai poate reveni niciodată la regimul micro. Astfel, fără un amendament, doar firmele nou-înființate sau cele care au rămas sub 100.000 euro vor beneficia de noul prag.",
-      "affectedGroups": [
-        "IMM & Antreprenori",
-        "Contabili & Fiscalitate"
-      ],
-      "keyFindings": [
-        "Art. I pct. 1 și 2 majorează plafonul de venituri pentru microîntreprinderi (inclusiv pentru întreprinderile legate) de la 100.000 euro la 500.000 euro, calculat la cursul de la închiderea exercițiului financiar.",
-        "Art. I pct. 3 abrogă art. 54 alin. (3) și (4) din Codul fiscal, eliminând normele tranzitorii introduse prin OUG nr. 156/2024 care impuneau verificarea plafoanelor reduse de 250.000 euro și 100.000 euro.",
-        "Omisiune legislativă critică: proiectul nu modifică art. 48 alin. (2) din Codul fiscal, lăsând în vigoare interdicția ca firmele care au pierdut statutul de microîntreprindere după 1 ianuarie 2023 (inclusiv cele trecute la impozit pe profit în 2025 și 2026) să poată opta din nou pentru regimul micro."
-      ],
-      "blindSpotsCaught": "1) Capcana art. 48 alin. (2) Cod fiscal: deși Expunerea de motive invocă salvarea firmelor scoase din regimul micro prin OUG 156/2024, acestea nu se pot întoarce la impozitul pe venitul microîntreprinderilor fără o derogare expresă de la regula că nu poți reintra în sistem dacă ai mai fost micro după 01.01.2023. 2) Art. III prevede intrarea în vigoare la 1 ianuarie a anului următor publicării, fără a deroga expres de la termenul de 6 luni prevăzut de art. 4 alin. (1) din Codul fiscal. 3) Revenirea la plafonul de 500.000 euro intră în coliziune cu angajamentele asumate de România în Jalonul 206 din PNRR.",
-      "constitutionalityNote": "Sub aspectul art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), omisiunea corelării cu art. 48 alin. (2) și cu art. 4 alin. (1) din Codul fiscal creează o neconcordanță între scopul declarat al legii și efectul ei normativ. De asemenea, raportat la art. 138 alin. (5) din Constituție și art. 15 din Legea nr. 69/2010, propunerea generează o diminuare pe termen scurt a veniturilor bugetare fără indicarea concretă a sursei de compensare.",
-      "euLawNote": "Măsura este favorabilă concurenței și IMM-urilor, neintroducând restricții profesionale (Directiva 2018/958 nu este incidentă) sau reglementări tehnice digitale (Directiva TRIS 2015/1535 nu se aplică), și se încadrează în pragul de 2 milioane euro din Recomandarea 2003/361/CE. Totuși, raportat la Regulamentul (UE) 2021/241 (Mecanismul de redresare și reziliență), inversarea scăderii plafonului micro fără renegocierea Jalonului 206 din PNRR cu Comisia Europeană expune România riscului de suspendare parțială a fondurilor PNRR.",
-      "senatForm": {
-        "articleRef": "Art. I, pct. 1¹ nou (art. 48 alin. (2))",
-        "proposalContent": "După pct. 1 se introduce pct. 1¹: „La art. 48, alin. (2) se modifică: (2) Persoanele juridice române, inclusiv cele trecute la impozit pe profit prin scăderea plafonului sub 500.000 euro în perioada 2025-2026, pot opta să aplice regimul microîntreprinderilor începând cu anul fiscal următor celui în care îndeplinesc condițiile de la art. 47.”",
-        "argumentation": "Fără modificarea art. 48 alin. (2) din Codul fiscal (care interzice revenirea la regimul micro pentru firmele care au mai fost microîntreprinderi după 1 ianuarie 2023), firmele scoase forțat din sistem în 2025-2026 prin scăderea pragului la 250.000/100.000 euro nu vor putea reveni la regimul micro, anulând scopul declarat în Expunerea de motive.",
-        "otherComments": "La Art. III este necesară menționarea expresă a derogării de la art. 4 alin. (1) din Codul fiscal (termenul de 6 luni) dacă legea se publică după 1 iulie, precum și evaluarea compatibilității cu Jalonul 206 din PNRR și cu art. 138 alin. (5) din Constituție privind indicarea sursei de acoperire a diminuării veniturilor bugetare."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 253786,
-      "riskScore": 4,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 67821,
+      "sourceEndMarker": "SF-CFE6ADB1",
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Firmele micro: plafonul urcă înapoi de la 100.000 la 500.000 de euro",
-      "verdictShort": "Este o relaxare fiscală reală pentru firmele mici, dar textul e scris în grabă. Rescrie integral un articol din care pot dispărea reguli nemenționate, abrogă două alineate fără să explice ce conțin și nu calculează costul pentru buget, deși România e în procedură de deficit excesiv.",
-      "initiatorClaim": "Inițiatorii (62 de parlamentari AUR) spun că scăderea plafonului de la 500.000 la 250.000 și apoi la 100.000 euro a mutat la impozitul pe profit firme mici care nu au crescut și a stricat predictibilitatea fiscală. Ei propun revenirea la 500.000 euro și un calcul mai simplu al plafonului.",
-      "realityCheck": "Concret, legea schimbă suma în art. 47 alin. (1) lit. c) și în art. 52 alin. (1) și (5¹) și abrogă art. 54 alin. (3)-(4), fără ca Expunerea de motive să spună ce prevăd aceste alineate. Firmele cu venituri între 100.000 și 500.000 euro ar plăti din nou 1% din venituri în loc de 16% din profit. Cele profitabile câștigă, dar cele cu marjă de profit sub 6,25% sau pe pierdere ar plăti mai mult. Inițiatorii recunosc că bugetul pierde venituri, dar nu spun cât și nici de unde se acoperă pierderea.",
+      "plainTitle": "Ridicarea plafonului pentru microîntreprinderi de la 100.000 la 500.000 euro, dar fără sursă de finanțare și cu erori tehnice",
+      "verdictShort": "Deși măsura este favorabilă micilor afaceri, proiectul nu indică nicio sursă de compensare a pierderii bugetare, riscă sancțiuni europene prin răsturnarea jaloanelor PNRR și conține scăpări legislative care pot încurca firmele HoReCa și întreg ecosistemul contabil.",
+      "initiatorClaim": "Inițiatorii susțin că readucerea plafonului microîntreprinderilor la 500.000 euro și abrogarea art. 54 alin. (3)-(4) vor reda predictibilitatea fiscală, vor simplifica calculul plafonului și vor proteja IMM-urile împotriva trecerii forțate la impozitul pe profit.",
+      "realityCheck": "Legea ridică într-adevăr plafonul de venituri de la 100.000 la 500.000 euro (păstrând însă regulile stricte de cumul pentru întreprinderile legate, condiția salariatului și limita unei singure microîntreprinderi), dar abrogarea art. 54 alin. (4) nu simplifică baza de calcul, ci șterge corelarea codurilor CAEN Rev. 3 pentru HoReCa. În plus, proiectul nu conține norme tranzitorii pentru firmele deja scoase din regimul micro în 2025-2026 și dispune renumerotarea întregului Cod fiscal pentru trei modificări punctuale.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 1: plafonul de încadrare din art. 47 alin. (1) lit. c) crește de 5 ori, de la 100.000 la 500.000 euro, cu cursul valabil la închiderea exercițiului. Legea trimite la „art. 47, litera c)” și omite alin. (1). Este o eroare de tehnică legislativă, ușor de corectat.",
-        "Art. I pct. 2: art. 52 alin. (1) este rescris integral și păstrează doar pragul de 500.000 euro, fără să precizeze cursul de schimb. Dacă forma în vigoare mai conține și alte cauze de ieșire din regim, de exemplu ponderea veniturilor din consultanță sau management, acestea dispar automat, fără ca Expunerea de motive să o spună.",
-        "Art. I pct. 3: abrogă art. 54 alin. (3) și (4) cu motivarea vagă că „îngreunau aplicarea regimului”. Nici legea, nici Expunerea nu spun ce reguli dispar, așa că efectul asupra calculului plafonului nu poate fi evaluat din dosar.",
-        "Un calcul simplu: 1% din venituri e egal cu 16% din profit la o marjă de profit de 6,25%. Sub această marjă (comerț, distribuție, firme pe pierdere), revenirea la regimul micro crește impozitul. Extinderea nu avantajează deci toate firmele vizate.",
-        "Impact bugetar: Expunerea admite că încasările din impozitul pe profit scad, dar lasă calculul în seama Guvernului. Nu propune nicio sursă de compensare, deși art. 15 din Legea nr. 500/2002 o cere.",
-        "Puncte bune: art. 52 alin. (5¹) păstrează cumularea veniturilor cu întreprinderile legate, deci împărțirea unei afaceri în mai multe firme micro rămâne limitată. Art. III amână aplicarea până la 1 ianuarie a anului următor publicării, ceea ce dă predictibilitate."
+        "Majorarea plafonului de la 100.000 la 500.000 euro (Art. I pct. 1-2, modificând art. 47 alin. (1) lit. c) și art. 52 alin. (1) și (5^1)) nu modifică regulile complexe de cumul al veniturilor întreprinderilor legate și nici condițiile privind salariații sau deținerea unei singure microîntreprinderi.",
+        "Abrogarea art. 54 alin. (4) (Art. I pct. 3) este justificată eronat în expunerea de motive drept o simplificare a calculului plafonului: în realitate, alin. (4) corelează codurile CAEN Rev. 3 din HoReCa (5611, 5612, 5622) cu art. 48 alin. (2^2), iar eliminarea sa creează incertitudine pentru restaurante și catering.",
+        "Expunerea de motive recunoaște diminuarea veniturilor bugetare pe termen scurt fără a cuantifica impactul sau a indica o sursă de compensare, iar Art. II obligă la republicarea cu renumerotare a întregului Cod fiscal (Legea nr. 227/2015), ceea ce ar bulversa mii de trimiteri din legislația secundară și programele contabile."
       ],
-      "blindSpotsCaught": "Data de la care se aplică depinde de data publicării. Dacă procedura se prelungește în 2027, noul plafon se aplică abia din 2028. Dacă legea apare în decembrie, firmele au doar câteva săptămâni de pregătire, deși art. 4 din Codul fiscal cere, de regulă, 6 luni. Nu există o normă tranzitorie pentru firmele trecute la impozitul pe profit în 2025–2026. Comparația cu Recomandarea 2003/361/CE nu e relevantă: pragul de 2 milioane euro definește IMM-urile pentru politicile UE, nu un plafon fiscal.",
-      "constitutionalityNote": "Nivelul plafonului ține de marja largă de decizie a Parlamentului în politica fiscală (art. 56 alin. (2) și art. 139), deci fondul legii nu ridică probleme. Riscurile sunt procedurale și de redactare. Art. 111 alin. (1) obligă Parlamentul să ceară opinia Guvernului când o inițiativă modifică bugetul. Inițiatorii spun că au cerut-o, iar ea trebuie să existe înainte de vot, altfel legea poate fi atacată la CCR. Trimiterea greșită la art. 47, rescrierea integrală a art. 52 alin. (1) fără curs de schimb și abrogarea nemotivată a art. 54 alin. (3)-(4) slăbesc claritatea cerută de art. 1 alin. (5). Art. 23 alin. (12) nu e relevant, pentru că legea nu prevede sancțiuni.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează accesul la o profesie. Nici TRIS (2015/1535) nu se aplică, pentru că legea nu conține reguli tehnice și nu privește servicii ale societății informaționale. Ajutor de stat (art. 107 TFUE): regimul micro e o măsură fiscală generală, bazată pe criterii obiective de dimensiune, aplicată ani la rând cu plafoane de până la 1 milion euro, deci riscul de selectivitate e mic. Problema reală e bugetară: România e în procedura de deficit excesiv, iar o scădere a veniturilor fără compensare merge împotriva traiectoriei de ajustare asumate față de Consiliul UE.",
+      "blindSpotsCaught": "Pe lângă faptul că abrogă din greșeală regula CAEN Rev. 3 pentru HoReCa (art. 54 alin. 4) sub pretextul simplificării plafonului, proiectul omite să indice „alin. (1)” la Art. I pct. 1 (art. 47 având mai multe alineate cu litere) și nu prevede nicio dispoziție tranzitorie care să permită revenirea la regimul micro firmelor deja trecute la impozit pe profit în 2025-2026 din cauza plafonului redus.",
+      "constitutionalityNote": "Există un risc serios de neconstituționalitate raportat la art. 138 alin. (5) și art. 111 alin. (1) din Constituție: proiectul reduce veniturile bugetului de stat fără a avea fișa financiară a Guvernului și fără a indica surse reale de compensare (conform jurisprudenței constante a CCR). De asemenea, omiterea alin. (1) la Art. I pct. 1, abrogarea nejustificată a art. 54 alin. (4) și lipsa normelor tranzitorii pentru firmele deja ieșite din sistem afectează claritatea și previzibilitatea legii (art. 1 alin. 5) și pot genera inegalități fiscale (art. 56 alin. 2).",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează profesii) și nici a Directivei (UE) 2015/1535 / TRIS (nu vizează reglementări tehnice sau servicii digitale), iar ca regim fiscal general nu constituie ajutor de stat selectiv (art. 107 TFUE). Totuși, reducerea plafonului microîntreprinderilor a fost un jalon cheie în PNRR (Regulamentul (UE) 2021/241), astfel că revenirea la 500.000 euro creează un risc major de reversare a reformelor asumate, cu posibile suspendări de fonduri europene și agravarea procedurii de deficit excesiv (art. 126 TFUE).",
       "senatForm": {
-        "articleRef": "Art. I pct. 2 – art. 52 Cod fiscal",
-        "proposalContent": "Pct. 2 va avea următorul cuprins: „2. La articolul 52 alineatele (1) și (5¹), sintagma «100.000 euro» se înlocuiește cu sintagma «500.000 euro».” Restul textului celor două alineate rămâne cel în vigoare.",
-        "argumentation": "Expunerea de motive vizează doar plafonul. Rescrierea integrală a alin. (1) păstrează doar suma și poate elimina implicit alte reguli din forma în vigoare (condiții de ieșire din regim, cursul de schimb). Înlocuirea punctuală a sumei atinge același scop fără efecte nedorite, conform art. 1 alin. (5) din Constituție și Legii nr. 24/2000.",
-        "otherComments": "Pct. 1: trimiterea corectă este „art. 47 alin. (1) lit. c)”. Pct. 3: inițiatorii să arate ce prevăd art. 54 alin. (3)-(4) și cum schimbă abrogarea calculul plafonului. Opinia Guvernului și fișa financiară (art. 111 Constituție, art. 15 L. 500/2002) trebuie să existe înainte de vot. Lipsește o normă tranzitorie pentru firmele ieșite din regim în 2025–2026."
-      }
+        "articleRef": "Art. I pct. 1 și 3; Art. II",
+        "proposalContent": "La Art. I pct. 1, indicați expres „art. 47 alin. (1) lit. c)”. La Art. I pct. 3, abrogați doar art. 54 alin. (3), menținând alin. (4) privind codurile CAEN HoReCa. Eliminați Art. II (renumerotarea Codului fiscal) și clarificați tranzitoriu regimul firmelor ieșite din micro în 2025-2026.",
+        "argumentation": "Art. 47 are mai multe alineate cu litere; omiterea alin. (1) afectează claritatea normei (art. 1 alin. 5 Constituție). Art. 54 alin. (4) vizează codurile CAEN Rev. 3 pentru HoReCa, nu plafonul, iar abrogarea sa produce incertitudine. Renumerotarea întregului Cod fiscal ar invalida trimiterile din legi și norme secundare.",
+        "otherComments": "Înainte de raport, comisia trebuie să obțină fișa financiară a Guvernului (art. 111 alin. 1 și art. 138 alin. 5 Constituție) și avizul Consiliului Fiscal, evaluând impactul bugetar și riscul de reversare a jaloanelor PNRR asumate de România privind plafonul microîntreprinderilor."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 119532,
+      "durationMs": 82084,
+      "sourceEndMarker": "SF-CFE6ADB1",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Plafonul pentru impozitul micro crește la 500.000 euro",
-      "verdictShort": "Proiectul extinde o opțiune fiscală utilă pentru firmele mici, fără să introducă taxe, sancțiuni sau monopoluri. Riscurile principale sunt impactul bugetar necuantificat și câteva necorelări legislative care trebuie corectate.",
-      "initiatorClaim": "Inițiatorii urmăresc să readucă plafonul microîntreprinderilor la 500.000 euro, pentru a reduce costurile fiscale și administrative ale firmelor mici. Ei susțin că măsura va proteja locurile de muncă și va restabili predictibilitatea fiscală.",
-      "realityCheck": "Art. I majorează plafonul de acces și de ieșire din regimul micro la 500.000 euro, păstrând celelalte condiții de eligibilitate și cumularea veniturilor persoanelor legate. Firmele eligibile vor putea opta pentru regimul micro potrivit regulilor aplicabile, fără ca majorarea plafonului să producă automat reîncadrarea tuturor firmelor ieșite anterior; posibilitatea revenirii rezultă deja din modificarea art. 48 alin. (2) prin [OUG nr. 8/2026](https://legislatie.just.ro/Public/DetaliiDocument/307580). Abrogarea art. 54 alin. (3) și (4) elimină dispoziții tranzitorii și o corelare CAEN pentru HoReCa, nu regulile generale de calcul al plafonului.",
+      "plainTitle": "Plafon de 500.000 euro pentru impozitarea microîntreprinderilor",
+      "verdictShort": "Proiectul extinde accesul la regimul fiscal al microîntreprinderilor, fără taxe sau sancțiuni noi. Principalele rezerve privesc impactul bugetar necuantificat și calendarul intrării în vigoare, iar simplificarea promisă este mai restrânsă decât sugerează motivarea.",
+      "initiatorClaim": "Inițiatorii urmăresc revenirea la plafonul de 500.000 euro pentru a sprijini micile afaceri și a îmbunătăți predictibilitatea fiscală. Ei susțin și simplificarea determinării veniturilor relevante pentru încadrare.",
+      "realityCheck": "Art. I majorează de la 100.000 la 500.000 euro atât plafonul anual de eligibilitate, cât și pragul depășirii în cursul anului, păstrând cumularea veniturilor întreprinderilor legate și celelalte condiții legale. Abrogarea art. 54 alin. (3) și (4) elimină o regulă tranzitorie pentru 2025/2026 și o corespondență de coduri CAEN, fără să modifice formula generală de determinare a veniturilor din alin. (1). Aplicarea începe în anul următor publicării, fără recalcularea retroactivă a impozitelor aferente anilor anteriori.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate"
       ],
       "keyFindings": [
-        "Art. I pct. 1 și 2: plafonul crește de cinci ori, dar condițiile privind salariatul, deținerile asociaților și celelalte restricții ale regimului micro continuă să se aplice. Depășirea plafonului atrage impozitul pe profit din trimestrul depășirii.",
-        "Art. 52 alin. (5¹) păstrează verificarea cumulată cu persoanele legate. Prin urmare, plafonul de 500.000 euro nu reprezintă o alocație separată pentru fiecare societate dintr-o structură de întreprinderi legate.",
-        "Art. I pct. 3 este motivat imprecis: art. 54 alin. (3) privește verificări tranzitorii pentru 2025/2026, iar alin. (4) privește coduri CAEN din HoReCa. Aceste dispoziții au fost introduse prin [OUG nr. 156/2024](https://legislatie.just.ro/Public/FormaPrintabila/00000G2FMI0T63INXE53PJ4F0GG6DE51); abrogarea lor nu simplifică în sine baza generală de calcul.",
-        "Beneficiul fiscal diferă după profitabilitate: în ipoteza unor baze comparabile, 1% din venituri egalează 16% din profit la o marjă de 6,25%. Sub această marjă, impozitul micro poate fi mai mare; afirmația că impozitul pe profit este întotdeauna mai oneros este incorectă.",
-        "Expunerea furnizată nu cuantifică pierderea netă de venituri bugetare și nu demonstrează compensarea ei prin creștere economică. Dacă rezultă diminuarea veniturilor, sunt relevante fișa financiară și condițiile din art. 21–22 ale [Legii nr. 69/2010](https://legislatie.just.ro/Public/FormaPrintabila/00000G0BK2IH4MH4MVS040MHDOLCNGTJ).",
-        "Art. III permite intrarea în vigoare la scurt timp după publicarea în decembrie. Este necesară corelarea cu termenul de minimum 6 luni din art. 4 alin. (1) al Codului fiscal sau o derogare expresă și motivată; această cerință este explicată și într-un [aviz al Consiliului Legislativ privind o altă modificare fiscală](https://www.senat.ro/legis/PDF/2025/25L293LG.pdf?nocache=true)."
+        "Art. I pct. 1: plafonul verificat la 31 decembrie pentru anul fiscal următor crește de cinci ori, de la 100.000 la 500.000 euro. Metoda cursului de schimb rămâne aceeași; eligibilitatea presupune în continuare îndeplinirea cumulativă a celorlalte condiții.",
+        "Art. I pct. 2: trecerea la impozitul pe profit se va produce la depășirea a 500.000 euro, începând cu trimestrul depășirii. Atât momentul trecerii, cât și cumularea veniturilor întreprinderilor legate există deja în lege.",
+        "Art. I pct. 3: abrogarea art. 54 alin. (3) elimină dispoziții referitoare la verificările pentru 2025/2026. Nu rezultă o anulare a obligațiilor fiscale născute legal în acești ani.",
+        "Tot art. I pct. 3 elimină art. 54 alin. (4), referitor la codurile CAEN 5611, 5612 și 5622 și la trimiterea către art. 48 alin. (2²). Această intervenție necesită verificarea dispoziției de trimitere în forma consolidată; nu poate fi descrisă drept simplificare a bazei de venituri.",
+        "Art. 54 alin. (1) rămâne nemodificat: verificarea plafonului folosește cifra de afaceri și, în condițiile prevăzute acolo, anumite venituri din transferul mijloacelor fixe sau terenurilor. Proiectul nu modifică nici cota impozitului micro.",
+        "Expunerea de motive admite posibilitatea diminuării veniturilor bugetare, dar nu oferă o estimare numerică. Economiile administrative și efectele favorabile asupra ocupării sunt argumente ale inițiatorilor, nu rezultate demonstrate prin documentele furnizate.",
+        "Art. III fixează intrarea în vigoare la 1 ianuarie următor publicării, fără un interval minim explicit. Dacă publicarea intervine la sfârșitul lunii decembrie, data poate intra în conflict cu termenul constituțional de intrare în vigoare; trebuie verificată și corelarea cu regulile de predictibilitate din art. 4 al Codului fiscal.",
+        "Art. II dispune republicarea întregului Cod fiscal cu renumerotare. Aceasta nu reprezintă o nouă modificare materială a impozitelor, dar necesită corelarea atentă a trimiterilor legislative."
       ],
-      "blindSpotsCaught": "Recomandarea 2003/361/CE nu obligă România să acorde regimul fiscal micro până la 2 milioane euro: definiția europeană include și criteriul numărului de persoane ocupate și servește altui scop decât stabilirea acestui impozit. Invocarea ei nu demonstrează că plafonul fiscal românesc încalcă dreptul UE. [Recomandarea Comisiei](https://eur-lex.europa.eu/legal-content/En/ALL/?uri=celex%3A32003H0361). De asemenea, art. II dispune renumerotarea întregului Cod fiscal pentru o intervenție restrânsă, ceea ce impune verificarea atentă a trimiterilor legislative.",
-      "constitutionalityNote": "Majorarea plafonului nu prezintă, prin ea însăși, o neconstituționalitate evidentă. Art. 1 alin. (5) impune însă corelarea intrării în vigoare și identificarea exactă a dispoziției modificate: art. 47 alin. (1) lit. c). Art. 23 alin. (12) privește legalitatea pedepselor și nu este incident direct, deoarece proiectul nu introduce sancțiuni. Solicitarea informării Guvernului este obligatorie în condițiile art. 111 alin. (1); simpla menționare în expunere nu dovedește îndeplinirea procedurii. Diminuarea veniturilor nu trebuie confundată automat cu aprobarea unei cheltuieli fără sursă de finanțare, vizată de art. 138 alin. (5). [Constituția republicată](https://www.senat.ro/pagini/constitutia/constitutia.htm).",
-      "euLawNote": "Directiva (UE) 2018/958 nu impune aici testul special de proporționalitate, deoarece proiectul nu restrânge accesul la profesii reglementate sau exercitarea lor. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng). Nu rezultă o obligație TRIS: proiectul nu introduce cerințe tehnice pentru produse și nici reguli care vizează în mod specific servicii digitale sau AI; simpla aplicare a impozitului și firmelor IT nu este suficientă. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535). În evaluarea concurenței, pragul poate încuraja menținerea artificială sub plafon și poate diferenția sarcina fiscală a firmelor concurente, dar textul nu creează exclusivități. Nu se poate concluziona automat existența unui ajutor de stat incompatibil doar din majorarea plafonului.",
+      "blindSpotsCaught": "Abrogările finale nu elimină regulile generale de calcul sau agregarea veniturilor întreprinderilor legate. În special, art. 54 alin. (4) privește coduri CAEN, nu calculul bazei de venituri, contrar prezentării globale din motivare. De asemenea, majorarea plafonului nu echivalează cu o revenire automată și necondiționată în regimul micro: regulile de opțiune din art. 48, neincluse în materialul comparativ, trebuie verificate separat.",
+      "constitutionalityNote": "Majorarea plafonului intră, în principiu, în marja de apreciere fiscală a Parlamentului și nu indică prin ea însăși o încălcare a egalității sau a justei așezări a sarcinilor fiscale. Art. 1 alin. (5) impune însă corelarea normelor și un calendar previzibil; art. III trebuie să respecte termenul minim din art. 78. Trimiterea de la art. I pct. 1 ar trebui precizată ca art. 47 alin. (1) lit. c). Întrucât propunerea afectează prevederile bugetului de stat, solicitarea informării Guvernului prevăzută de art. 111 alin. (1) trebuie verificată în dosarul parlamentar; afirmația din motivare nu dovedește îndeplinirea procedurii. O posibilă reducere a veniturilor nu demonstrează singură încălcarea art. 138 alin. (5), care privește aprobarea cheltuielilor bugetare. Art. 23 alin. (12) nu este incident: proiectul nu instituie pedepse.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementării accesului la profesii reglementate și a exercitării acestora; majorarea acestui plafon fiscal nu intră, prin obiectul său, în domeniul directivei. Textul nu introduce reglementări tehnice sau cerințe specifice serviciilor societății informaționale care să indice obligația notificării TRIS potrivit Directivei (UE) 2015/1535; aplicabilitatea sa și unor firme IT nu este suficientă. Plafonul poate influența concurența între firme aflate în regimuri fiscale diferite, dar aceasta nu dovedește automat o discriminare interzisă sau un ajutor de stat. Recomandarea 2003/361/CE definește categoriile de IMM pentru scopurile sale, fără să valideze automat un regim fiscal național ori absența selectivității. Eventualele angajamente relevante din PNRR trebuie verificate separat înainte de afirmarea compatibilității europene complete.",
       "senatForm": {
-        "articleRef": "Art. III – intrarea în vigoare",
-        "proposalContent": "Prezenta lege intră în vigoare la data de 1 ianuarie a primului an calendaristic care începe după împlinirea unui termen de 6 luni de la publicarea în Monitorul Oficial al României, Partea I.",
-        "argumentation": "Art. 4 alin. (1) din Codul fiscal prevede minimum 6 luni între publicare și intrarea în vigoare a legii de modificare. Formula actuală permite aplicarea imediat după o publicare în decembrie. Textul propus oferă timp pentru exercitarea opțiunii fiscale și adaptarea evidențelor.",
-        "otherComments": "La art. I pct. 1, trimiterea corectă este art. 47 alin. (1) lit. c). Solicitați fișa financiară și justificarea distinctă a abrogării art. 54 alin. (4), care privește coduri CAEN din HoReCa, nu baza generală de calcul a plafonului."
-      }
+        "articleRef": "Art. III",
+        "proposalContent": "Art. III – Prezenta lege intră în vigoare la data de 1 ianuarie a primului an pentru care sunt respectate atât termenul prevăzut de art. 78 din Constituția României, cât și termenele aplicabile potrivit art. 4 din Legea nr. 227/2015 privind Codul fiscal.",
+        "argumentation": "Formula actuală poate fixa intrarea în vigoare înaintea împlinirii termenului constituțional de trei zile, dacă publicarea intervine la sfârșitul lunii decembrie. Corelarea expresă cu regulile Codului fiscal asigură timpul legal de pregătire pentru contribuabili și administrație.",
+        "otherComments": "Analiza folosește textele furnizate; verificarea online nu a fost disponibilă. Termenul indicat pentru amendamente, 6 noiembrie 2026, este depășit. Observația poate fi transmisă Comisiei pentru buget, finanțe și bănci, dar preluarea sa ca amendament nu este garantată."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T19:32:27.623Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 4,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T12:47:44.710Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

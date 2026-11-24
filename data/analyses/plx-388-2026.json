@@ -2,123 +2,149 @@
   "billId": "Pl-x 388/2026",
   "slug": "plx-388-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T02:04:27.421Z",
+  "updatedAt": "2026-11-24T13:04:30.126Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 2941,
+    "ordinanceChars": 0,
+    "memoChars": 3416,
+    "memoSupplied": 3416,
+    "marker": "SF-4F86D2A1"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-388-2026.json",
+    "form": "initiator",
+    "textHash": "4f86d2a1c7303de6",
+    "fetchedAt": "2026-11-19T10:19:53.032Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 3,
+    "articlesShown": 3,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 16066,
+    "truncated": false,
+    "included": true,
+    "key": "31aa2e1518e713e2"
+  },
   "consensus": {
-    "riskScore": 3.7,
-    "riskLevel": "green",
-    "plainTitle": "Banii donați în campanie nu mai pot fi decontați de la buget",
-    "summaryTlDr": "Ideea e de bun-simț: banii primiți gratuit de la donatori nu ar trebui plătiți încă o dată de contribuabili. Execuția tehnică e însă șubredă. Legea nu spune cum împarți un leu dintr-un cont în care s-au amestecat donații și contribuții, așa că măsura poate fi ocolită printr-o simplă etichetare contabilă.",
-    "initiatorClaim": "Inițiatorii spun că astăzi statul rambursează cheltuielile de campanie indiferent dacă au fost plătite din donații, așa că sprijinul voluntar al donatorilor ajunge suportat de toți contribuabilii. Ei vor ca partea finanțată din donații să nu mai fie rambursată și ca sursa fiecărei cheltuieli să poată fi urmărită.",
-    "realityCheck": "Legea adaugă la art. 48 alin. (11) o nouă literă, potrivit căreia doar partea unei cheltuieli plătită din donații nu se rambursează. Nu e vorba de întreaga cheltuială «finanțată integral sau parțial», cum spun expunerea și fișa Camerei. Competitorii și mandatarul financiar trebuie să evidențieze și să certifice, pentru fiecare cheltuială, proporția din donații.\n\nChichița: banii dintr-un cont de campanie sunt fungibili, iar legea nu spune cum se calculează această proporție. Competitorul poate «aloca» donațiile pe cheltuieli oricum nerambursabile și poate încasa rambursarea integral. În plus, fondurile virate de partid ajung în campanie amestecate cu cotizații și subvenții.\n\nEfect secundar: crește tentația de a deghiza donațiile în contribuții proprii ale candidaților sau în împrumuturi, care rămân rambursabile.",
+    "riskScore": 4,
+    "riskLevel": "yellow",
+    "plainTitle": "Statul nu mai rambursează cheltuielile de campanie plătite din donații",
+    "summaryTlDr": "Intenția este legitimă și protejează bugetul de stat de o anomalie reală, dar redactarea tehnică este deficitară. Lipsa unui cont bancar separat pentru donații face imposibil calculul obiectiv al fiecărei cheltuieli și riscă să lase rambursările la discreția AEP.",
+    "initiatorClaim": "Inițiatorii vor să oprească paradoxul prin care cheltuielile de campanie finanțate din donații private ajung să fie rambursate ulterior din bugetul de stat, reducând povara bugetară și crescând transparența finanțării electorale.",
+    "realityCheck": "În legea actuală, art. 48 alin. (11) exclude de la rambursare cheltuielile din subvenții de stat, dar permite rambursarea celor din donații, iar art. 48 alin. (10) obligă partidele să restituie candidaților sumele rambursate conform contribuțiilor depuse. Proiectul adaugă lit. e) la art. 48 alin. (11) pentru a bloca rambursarea cheltuielilor acoperite din donații, însă nu creează un cont bancar distinct pentru acestea, ci cere calcularea „proporției din donații” pe fiecare cheltuială într-un cont comun. Practic, măsura poate descuraja donațiile transparente (afectând mai ales independenții și partidele mici) și poate stimula substituirea lor prin împrumuturi, care rămân rambursabile.",
     "affectedGroups": [
-      "Contabili & Fiscalitate",
       "Justiție & Drepturi Civile",
+      "Contabili & Fiscalitate",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 1, 2 și 4 (art. 28, 30, 48 alin. 14)",
-      "proposalContent": "Art. 48 alin. (14): Partea finanțată din donații se calculează global, ca pondere a donațiilor în totalul sumelor intrate în conturile de campanie; pentru fondurile virate de partid se aplică ponderea donațiilor în veniturile partidului din ultimele 12 luni înainte de alegeri. Se elimină pct. 1 și 2 (art. 28 alin. 15¹ și art. 30 alin. 4).",
-      "argumentation": "Banii din contul de campanie sunt fungibili. O alocare «pe fiecare cheltuială» permite punerea donațiilor pe cheltuieli oricum nerambursabile, golind măsura de efect, și cere aceeași certificare de trei ori (art. 28, 30, 48). O pondere globală fixată în lege e simplă, verificabilă și nu lasă calculul rambursării la discreția normelor AEP.",
-      "otherComments": "Art. II: normele AEP pot apărea la 60 de zile după intrarea în vigoare, deci obligațiile s-ar aplica fără metodologie. Propun ca normele să fie adoptate în 30 de zile de la publicare, iar legea să se aplice doar campaniilor începute după adoptarea lor. Lit. c) din art. II se încheie cu «;» — enumerare neterminată."
+      "articleRef": "Art. I pct. 1 (art. 28 alin. 15¹)",
+      "proposalContent": "Prin excepție de la alin. (3)-(5), contribuțiile provenite din donații se încasează și se cheltuiesc printr-un cont bancar distinct, notificat AEP, aplicându-se corespunzător regimul contului pentru subvenții. Mandatarul financiar certifică situația acestui cont la depunerea documentelor justificative.",
+      "argumentation": "Banii dintr-un cont unic sunt fungibili: fără cont separat, „proporția din donații” pe fiecare cheltuială devine arbitrară (art. 1 alin. 5 Constituție). Legea 334/2006 folosește deja cont distinct la art. 28 alin. (8) și art. 30 alin. (3) pentru subvențiile nerambursabile; același model asigură trasabilitate exactă.",
+      "otherComments": "Corelați și art. 48 alin. (10) și (12) cu noua lit. e), clarificați regimul donațiilor anterioare din conturile curente ale partidelor (art. 30) și introduceți o normă tranzitorie la art. III, deoarece legea intră în vigoare în 30 de zile, iar AEP are 60 de zile pentru norme metodologice."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 84366,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Fără decontare de la bugetul de stat pentru cheltuielile electorale făcute din donații",
-      "verdictShort": "O inițiativă pozitivă pentru bugetul public, care oprește partidele și candidații să încaseze de la stat bani pentru cheltuieli deja acoperite gratuit din donațiile cetățenilor. Totuși, textul suferă de erori tehnico-contabile privind trasabilitatea banilor fungibili și lasă deschisă portița împrumuturilor electorale.",
-      "initiatorClaim": "Inițiatorii vor să elimine situația în care cheltuielile de campanie finanțate din donații private sunt ulterior rambursate de Autoritatea Electorală Permanentă (AEP) din bugetul de stat, protejând astfel banii contribuabililor și crescând transparența financiară.",
-      "realityCheck": "Legea oprește corect dubla finanțare (donație privată plus decontare de la buget), dar obligă mandatarii financiari să certifice pe fiecare factură proporția din donații fără a permite deschiderea unui cont bancar separat de cel unic de campanie. În practică, politicienii cu resurse vor ocoli ușor interdicția transformând donațiile în împrumuturi (care rămân 100% rambursabile de la stat), în timp ce candidații independenți finanțați prin micro-donații civice vor suporta birocrație contabilă suplimentară.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 81756,
+      "sourceEndMarker": "SF-4F86D2A1",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Statul nu mai rambursează cheltuielile de campanie plătite din donații",
+      "verdictShort": "Intenția este legitimă și protejează bugetul de stat de o anomalie reală, dar redactarea tehnică este deficitară. Lipsa unui cont bancar separat pentru donații face imposibil calculul obiectiv al fiecărei cheltuieli și riscă să lase rambursările la discreția AEP.",
+      "initiatorClaim": "Inițiatorii vor să oprească paradoxul prin care cheltuielile de campanie finanțate din donații private ajung să fie rambursate ulterior din bugetul de stat, reducând povara bugetară și crescând transparența finanțării electorale.",
+      "realityCheck": "În legea actuală, art. 48 alin. (11) exclude de la rambursare cheltuielile din subvenții de stat, dar permite rambursarea celor din donații, iar art. 48 alin. (10) obligă partidele să restituie candidaților sumele rambursate conform contribuțiilor depuse. Proiectul adaugă lit. e) la art. 48 alin. (11) pentru a bloca rambursarea cheltuielilor acoperite din donații, însă nu creează un cont bancar distinct pentru acestea, ci cere calcularea „proporției din donații” pe fiecare cheltuială într-un cont comun. Practic, măsura poate descuraja donațiile transparente (afectând mai ales independenții și partidele mici) și poate stimula substituirea lor prin împrumuturi, care rămân rambursabile.",
       "affectedGroups": [
-        "Contabili & Fiscalitate",
         "Justiție & Drepturi Civile",
+        "Contabili & Fiscalitate",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 3 (art. 48 alin. (11) lit. e) din Legea nr. 334/2006) exclude de la rambursarea din bugetul de stat partea din cheltuielile electorale finanțată din donații, eliminând un mecanism prin care partidele și candidații rămâneau cu profit net după decontare.",
-        "Art. I pct. 1, 2 și 4 introduc aceeași obligație de evidențiere și certificare în trei locuri diferite din lege (art. 28 alin. (15¹), art. 30 alin. (4) și art. 48 alin. (14)), încălcând normele de tehnică legislativă privind evitarea paralelismelor (art. 16 din Legea nr. 24/2000).",
-        "Art. I pct. 1 și 2 obligă mandatarul financiar să evidențieze distinct donațiile în conturile bancare de campanie și să certifice proporția acestora „pentru fiecare cheltuială”, deși banii virați într-un cont bancar unic de campanie devin fungibili.",
-        "Art. II și Art. III creează un decalaj procedural: legea intră în vigoare în 30 de zile de la publicare, dar AEP primește 60 de zile de la intrarea în vigoare pentru a adopta normele metodologice de trasabilitate contabilă."
+        "Art. I pct. 3 (art. 48 alin. 11 lit. e) elimină rambursarea din bugetul de stat pentru cheltuielile electorale finanțate din donații, corectând o portiță reală prin care candidații (prin art. 48 alin. 10) sau partidele puteau păstra banii publici peste donațiile primite gratuit.",
+        "Art. I pct. 1, 2 și 4 (art. 28 alin. 15¹, art. 30 alin. 4, art. 48 alin. 14) cer evidențierea distinctă și certificarea „proporției provenite din donații” pentru fiecare cheltuială, dar fără a institui un cont bancar separat pentru donații, deși banii într-un cont unic sunt fungibili și nu pot fi separați obiectiv pe facturi.",
+        "Textul nu clarifică regimul donațiilor intrate anterior în trezoreria generală a partidelor (art. 30) și nu corelează modificarea cu art. 48 alin. (10) privind restituirea către candidați și cu art. 48 alin. (12) privind condițiile de validare de către AEP.",
+        "Împrumuturile și veniturile proprii ale candidaților rămân rambursabile integral, ceea ce creează un stimulent de eludare (acordarea de împrumuturi în locul donațiilor) și dezavantajează indirect candidații independenți și formațiunile noi fără subvenții."
       ],
-      "blindSpotsCaught": "Textul ignoră două realități mecanice ale Legii nr. 334/2006: (1) Atunci când un partid transferă bani din contul său curent permanent în contul de campanie, acele fonduri provin dintr-un amestec istoric de cotizații și donații; proiectul nu clarifică dacă interdicția vizează doar donațiile directe de campanie sau și transferurile de partid. (2) Împrumuturile acordate candidaților/partidelor rămân integral rambursabile de la buget, ceea ce va încuraja convertirea formală a donațiilor mari în contracte de împrumut.",
-      "constitutionalityNote": "Scopul legii este pe deplin compatibil cu art. 8 (pluralismul politic) și art. 135 (protejarea resurselor publice) din Constituție, întrucât statul nu are obligația constituțională de a deconta cheltuieli acoperite din liberalități. Totuși, tripla repetare a aceleiași norme și lipsa unor criterii legale clare privind separarea sumelor fungibile în conturile de campanie (lăsate integral la latitudinea normelor AEP) ridică obiecții de previzibilitate a legii conform art. 1 alin. (5) din Constituție.",
-      "euLawNote": "Nu intră sub incidența Directivei (UE) 2015/1535 (TRIS). Din perspectiva Directivei (UE) 2018/958 privind testul de proporționalitate, obligațiile suplimentare de certificare impuse mandatarilor financiari (experți contabili și auditori financiari) sunt proporționale ca scop, dar trebuie clarificate tehnic pentru a nu genera răspundere contravențională arbitrară. Măsura este aliniată recomandărilor Comisiei de la Veneția și OSCE/ODIHR privind prevenirea supra-compensării din fonduri publice a campaniilor electorale.",
+      "blindSpotsCaught": "Spre deosebire de art. 28 alin. (8) și art. 30 alin. (3) în vigoare, care impun un cont bancar distinct pentru subvențiile de stat tocmai pentru că acestea nu se rambursează, proiectul omite să creeze un cont distinct pentru donații și pasează metodologia către AEP. În plus, Art. III prevede intrarea în vigoare în 30 de zile de la publicare, dar Art. II oferă AEP 60 de zile de la intrarea în vigoare pentru modificarea normelor metodologice, creând un vid de aplicare de 60 de zile fără dispoziții tranzitorii pentru eventuale campanii în curs.",
+      "constitutionalityNote": "Proiectul este corect încadrat ca lege organică (art. 73 alin. 3 lit. a și b, art. 76 alin. 1 din Constituție) și urmărește un scop legitim de protecție a bugetului public (art. 135), fără a încălca direct pluralismul politic (art. 8) sau egalitatea în drepturi (art. 16). Există însă o vulnerabilitate pe art. 1 alin. (5) privind claritatea și previzibilitatea legii: neprecizarea modului de determinare a „proporției din donații” în conturi bancare unice și delegarea mecanismului către norme metodologice AEP pot genera practică arbitrară la invalidarea rambursărilor.",
+      "euLawNote": "Finanțarea campaniilor electorale ține de competența națională și nu contravine dreptului pieței unice. Proiectul nu intră sub incidența Directivei (UE) 2015/1535 (TRIS), deoarece nu vizează servicii digitale sau reglementări tehnice, și nici nu restricționează accesul la o profesie reglementată în sensul Directivei (UE) 2018/958 (testul de proporționalitate), chiar dacă adaugă sarcini de certificare pentru mandatarii financiari. Standardele europene (GRECO, Comisia de la Veneția) susțin trasabilitatea, dar cer reguli clare care să nu dezavantajeze disproporționat competitorii fără resurse proprii.",
       "senatForm": {
-        "articleRef": "Art. I pct. 1-4 și Art. II din proiectul de lege",
-        "proposalContent": "Art. 28 alin. (15¹) va avea cuprinsul: „(15¹) Donațiile pentru campanie se evidențiază într-un cont/subcont bancar distinct, iar plățile efectuate din acesta se certifică de mandatarul financiar ca nerambursabile potrivit art. 48 alin. (11) lit. e).” Punctele 2 și 4 ale Art. I se elimină, iar la Art. II termenul de 60 de zile curge de la publicarea legii.",
-        "argumentation": "Banii dintr-un cont bancar unic sunt fungibili; fără un subcont distinct pentru donații, mandatarul financiar nu poate certifica matematic proporția donațiilor pe fiecare factură individuală. De asemenea, pct. 1, 2 și 4 repetă aceeași obligație în trei articole diferite (încălcând art. 16 din Legea nr. 24/2000), iar normele AEP trebuie adoptate înainte de aplicarea legii.",
-        "otherComments": "Trebuie clarificat că interdicția vizează donațiile colectate pentru campania electorală, nu transferurile din contul curent al partidului (unde cotizațiile și donațiile istorice sunt deja amestecate). Totodată, rămâne deschisă portița prin care marii finanțatori vor înlocui donațiile cu împrumuturi, care rămân 100% rambursabile de la bugetul de stat."
-      }
+        "articleRef": "Art. I pct. 1 (art. 28 alin. 15¹)",
+        "proposalContent": "Prin excepție de la alin. (3)-(5), contribuțiile provenite din donații se încasează și se cheltuiesc printr-un cont bancar distinct, notificat AEP, aplicându-se corespunzător regimul contului pentru subvenții. Mandatarul financiar certifică situația acestui cont la depunerea documentelor justificative.",
+        "argumentation": "Banii dintr-un cont unic sunt fungibili: fără cont separat, „proporția din donații” pe fiecare cheltuială devine arbitrară (art. 1 alin. 5 Constituție). Legea 334/2006 folosește deja cont distinct la art. 28 alin. (8) și art. 30 alin. (3) pentru subvențiile nerambursabile; același model asigură trasabilitate exactă.",
+        "otherComments": "Corelați și art. 48 alin. (10) și (12) cu noua lit. e), clarificați regimul donațiilor anterioare din conturile curente ale partidelor (art. 30) și introduceți o normă tranzitorie la art. III, deoarece legea intră în vigoare în 30 de zile, iar AEP are 60 de zile pentru norme metodologice."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 207931,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Banii donați în campanie nu mai pot fi decontați de la buget",
-      "verdictShort": "Ideea e de bun-simț: banii primiți gratuit de la donatori nu ar trebui plătiți încă o dată de contribuabili. Execuția tehnică e însă șubredă. Legea nu spune cum împarți un leu dintr-un cont în care s-au amestecat donații și contribuții, așa că măsura poate fi ocolită printr-o simplă etichetare contabilă.",
-      "initiatorClaim": "Inițiatorii spun că astăzi statul rambursează cheltuielile de campanie indiferent dacă au fost plătite din donații, așa că sprijinul voluntar al donatorilor ajunge suportat de toți contribuabilii. Ei vor ca partea finanțată din donații să nu mai fie rambursată și ca sursa fiecărei cheltuieli să poată fi urmărită.",
-      "realityCheck": "Legea adaugă la art. 48 alin. (11) o nouă literă, potrivit căreia doar partea unei cheltuieli plătită din donații nu se rambursează. Nu e vorba de întreaga cheltuială «finanțată integral sau parțial», cum spun expunerea și fișa Camerei. Competitorii și mandatarul financiar trebuie să evidențieze și să certifice, pentru fiecare cheltuială, proporția din donații.\n\nChichița: banii dintr-un cont de campanie sunt fungibili, iar legea nu spune cum se calculează această proporție. Competitorul poate «aloca» donațiile pe cheltuieli oricum nerambursabile și poate încasa rambursarea integral. În plus, fondurile virate de partid ajung în campanie amestecate cu cotizații și subvenții.\n\nEfect secundar: crește tentația de a deghiza donațiile în contribuții proprii ale candidaților sau în împrumuturi, care rămân rambursabile.",
-      "affectedGroups": [
-        "Toți cetățenii",
-        "Contabili & Fiscalitate",
-        "Justiție & Drepturi Civile"
-      ],
-      "keyFindings": [
-        "Art. I pct. 3 (art. 48 alin. 11 lit. e): exclude de la rambursare doar partea finanțată din donații, nu întreaga cheltuială, cum afirmă expunerea de motive și fișa Camerei. Textul articolului e mai proporțional decât prezentarea lui, iar soluția din text e cea corectă.",
-        "Lipsește regula de alocare. Art. 30 alin. (4) și art. 48 alin. (14) cer «proporția provenită din donații» pentru fiecare cheltuială, dar nu spun cum se calculează când în același cont intră donații, contribuții și împrumuturi. Fără o metodă fixată în lege (pondere globală, FIFO etc.), donațiile pot fi «etichetate» pe cheltuieli oricum nerambursabile, iar economia la buget poate fi zero.",
-        "Aceeași obligație apare de trei ori. Art. 28 alin. (15¹), art. 30 alin. (4) și art. 48 alin. (14) cer, cu formulări diferite, evidențierea distinctă și certificarea sursei fiecărei cheltuieli. Este un paralelism interzis de art. 16 din Legea nr. 24/2000 și o sursă de interpretări contradictorii la verificarea AEP.",
-        "Formula «evidențierea distinctă în conturile bancare» (art. 28 alin. 15¹) e neclară. Banca nu marchează sursa banilor într-un cont unic, deci textul fie impune subconturi separate pentru donații, fie nu are un conținut concret. Opțiunea trebuie aleasă în lege, nu lăsată normelor AEP.",
-        "Nu introduce taxe, sancțiuni contravenționale noi sau costuri pentru cetățeni ori IMM-uri. Consecința practică e pierderea parțială a rambursării. Impactul bugetar e pozitiv (mai puține rambursări), dar nu e cuantificat nicăieri în expunere. Costul birocratic cade pe mandatarii financiari.",
-        "Art. II: normele AEP pot apărea la până la 60 de zile după intrarea în vigoare, interval în care obligațiile s-ar aplica fără metodologie. Lipsește și o normă tranzitorie pentru campaniile sau rambursările aflate în curs."
-      ],
-      "blindSpotsCaught": "Inițiativa vizează banii privați, dar nu spune nimic despre fondurile virate de partid în contul de campanie, care amestecă donații, cotizații și subvenția de la bugetul de stat. Dacă legea în vigoare nu exclude deja de la rambursare cheltuielile plătite din subvenție, acolo banul public poate fi plătit de două ori, o problemă mai mare decât cea a donațiilor. Pentru banii veniți de la partid, regula «sursa fiecărei cheltuieli» e practic imposibil de aplicat fără o formulă de pondere. Contribuțiile proprii ale candidaților rămân rambursabile, deci un donator poate «împrumuta» candidatul în loc să doneze. Tehnic, lit. c) din art. II se încheie cu «;», semn de enumerare neterminată, iar sintagma «sumele respective nefiind rambursabile» din noua lit. e) dublează sensul alineatului în care e inserată.",
-      "constitutionalityNote": "Nu restrânge drepturi electorale (art. 8, 37, 40). Nimeni nu e împiedicat să candideze sau să primească donații, iar regula se aplică uniform tuturor competitorilor (art. 16).\n\nProblema reală e de previzibilitate (art. 1 alin. 5). Metoda de stabilire a «proporției din donații» determină direct suma rambursată, dar nu e fixată în lege, ci lăsată normelor AEP (art. II). Asta poate fi criticat ca delegare a unui element esențial către un act infralegal.\n\nLipsa unei norme tranzitorii ridică problema aplicării la proceduri de rambursare în curs (art. 15 alin. 2). Legea e organică (art. 73 alin. 3 lit. a și c), iar formula de adoptare citează corect art. 76 alin. (1). Calendarul (următoarele alegeri generale în 2028) permite adoptarea cu respectarea recomandării Comisiei de la Veneția privind stabilitatea legislației electorale.\n\nInvocarea art. 135 în expunere e forțată: acesta privește economia de piață, nu protecția fondurilor publice.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că nu se reglementează accesul la o profesie sau exercitarea ei. Nu se aplică nici Directiva (UE) 2015/1535 (TRIS): nu există norme tehnice sau reguli privind serviciile societății informaționale, deci nu e necesară notificarea. Finanțarea campaniilor naționale ține de competența statelor membre. Textul e compatibil cu Regulamentul (UE) 2024/900 privind transparența publicității politice și nu afectează finanțarea partidelor politice europene (Regulamentul nr. 1141/2014). Nu există efecte asupra pieței unice sau a concurenței.",
-      "senatForm": {
-        "articleRef": "Art. I pct. 1, 2 și 4 (art. 28, 30, 48 alin. 14)",
-        "proposalContent": "Art. 48 alin. (14): Partea finanțată din donații se calculează global, ca pondere a donațiilor în totalul sumelor intrate în conturile de campanie; pentru fondurile virate de partid se aplică ponderea donațiilor în veniturile partidului din ultimele 12 luni înainte de alegeri. Se elimină pct. 1 și 2 (art. 28 alin. 15¹ și art. 30 alin. 4).",
-        "argumentation": "Banii din contul de campanie sunt fungibili. O alocare «pe fiecare cheltuială» permite punerea donațiilor pe cheltuieli oricum nerambursabile, golind măsura de efect, și cere aceeași certificare de trei ori (art. 28, 30, 48). O pondere globală fixată în lege e simplă, verificabilă și nu lasă calculul rambursării la discreția normelor AEP.",
-        "otherComments": "Art. II: normele AEP pot apărea la 60 de zile după intrarea în vigoare, deci obligațiile s-ar aplica fără metodologie. Propun ca normele să fie adoptate în 30 de zile de la publicare, iar legea să se aplice doar campaniilor începute după adoptarea lor. Lit. c) din art. II se încheie cu «;» — enumerare neterminată."
-      }
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 158592,
-      "riskScore": 5,
+      "durationMs": 77995,
+      "sourceEndMarker": "SF-4F86D2A1",
+      "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Donațiile pentru campanii nu se mai decontează de la stat",
-      "verdictShort": "Transparența finanțării este utilă, dar proiectul schimbă accesul la rambursare fără reguli suficiente de aplicare. Riscul principal este refuzul unor decontări pe baza unei evidențe ambigue, cu efecte potențial mai apăsătoare asupra competitorilor cu resurse reduse.",
-      "initiatorClaim": "Inițiatorii urmăresc economisirea banilor publici și păstrarea donațiilor ca sprijin privat definitiv. Ei prezintă rambursarea cheltuielilor finanțate din donații drept inechitabilă și susțin că noua evidență nu afectează competiția electorală.",
-      "realityCheck": "Art. I pct. 3 exclude numai partea cheltuielii finanțată din donații: la o factură eligibilă de 1.000 lei, finanțată cu 200 lei din donații, restul de 800 lei poate rămâne rambursabil, contrar formulării mai largi din expunerea de motive. Proiectul adaugă evidențe și certificări pentru fiecare cheltuială, fără să stabilească metoda de repartizare a banilor dintr-un cont cu surse amestecate. Nerambursabilitatea donației în raportul donator–beneficiar nu demonstrează, singură, că rambursarea publică a unei cheltuieli electorale eligibile reprezintă un abuz.",
+      "plainTitle": "Donațiile pentru campanii nu se mai rambursează de la buget",
+      "verdictShort": "Proiectul introduce o economie bugetară legitimă și întărește verificarea finanțării electorale. Riscul principal este aplicarea neuniformă: lipsesc reguli suficiente pentru identificarea banilor donați în fondurile amestecate și pentru trecerea la noul regim.",
+      "initiatorClaim": "Inițiatorii urmăresc să împiedice rambursarea din bani publici a cheltuielilor susținute prin donații și să asigure trasabilitatea fiecărei cheltuieli electorale. Ei prezintă măsura ca pe o clarificare necesară pentru echitate și responsabilitate bugetară.",
+      "realityCheck": "Proiectul introduce o excludere nouă de la rambursare pentru donațiile legal primite; legea actuală nu exclude aceste cheltuieli doar pentru originea lor în donații. Contrar formulării mai largi din expunerea de motive, art. I pct. 3 exclude numai partea finanțată din donații, astfel că o factură plătită 20% din donații nu devine integral nerambursabilă. Evidența și certificarea devin mai detaliate, dar identificarea sursei fiecărei plăți din disponibilități amestecate rămâne insuficient reglementată.",
       "affectedGroups": [
         "Contabili & Fiscalitate",
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 1, 2 și 4 suprapun obligații de evidență și certificare. Nu precizează dacă evidențierea bancară distinctă presupune conturi separate sau cum se atribuie plăților fondurile amestecate. AEP identifică expres această problemă în analiza proiectului. [Observațiile AEP, secțiunea 2](https://www.senat.ro/legis/PDF/2026/26L202AEP.PDF?nocache=true).",
-        "Art. 38 alin. (4) din legea existentă consideră donații sumele primite de partid de la candidații săi. Fără corelare, noua excludere poate fi interpretată ca acoperind inclusiv contribuțiile provenite inițial din veniturile proprii sau împrumuturile candidaților. Este un risc de interpretare, nu o consecință inevitabilă. [Legea nr. 334/2006](https://legislatie.just.ro/Public/DetaliiDocument/120830).",
-        "Proiectul nu introduce expres amenzi noi, însă art. 52 alin. (2) sancționează deja încălcarea art. 28 și 30 cu 15.000–50.000 lei. Completarea acestor articole poate atrage sancționarea noilor obligații; neclaritatea certificării are astfel și consecințe contravenționale. [Regimul sancționator existent](https://legislatie.just.ro/Public/DetaliiDocument/120830).",
-        "Art. II atribuie AEP modificarea unor norme aprobate prin hotărâre a Guvernului. Competența trebuie corectată: Guvernul modifică normele, la propunerea AEP. Consiliul Legislativ solicită explicit reformularea. [Avizul Consiliului Legislativ, pct. 6.4](https://www.senat.ro/legis/PDF/2026/26L202LG.PDF?nocache=true).",
-        "Art. III pune legea în vigoare după 30 de zile de la publicare, dar art. II permite adaptarea normelor încă 60 de zile după intrarea în vigoare. Pot exista până la 60 de zile de aplicare fără norme actualizate; lipsesc și dispoziții pentru campaniile sau cererile de rambursare în curs.",
-        "Nu sunt instituite taxe ori obligații generale pentru cetățeni sau IMM-uri. Apar însă costuri administrative pentru competitori, mandatari și AEP; economiile bugetare sunt posibile, dar necuantificate în expunerea furnizată. Dezavantajarea competitorilor dependenți de donații trebuie evaluată, nu presupusă inexistentă pentru că regula este uniformă. [Avizul CES](https://www.senat.ro/legis/PDF/2026/26L202ES.PDF?nocache=true)."
+        "Art. I pct. 3, noul art. 48 alin. (11) lit. e): exclude numai componenta cheltuielii provenită din donații. Plafoanele, pragurile electorale și celelalte condiții de rambursare rămân aplicabile; finanțarea din subvenții publice este deja exclusă prin lit. d).",
+        "Art. I pct. 1: conturile bancare de campanie și declararea sursei contribuțiilor există deja în art. 28. Noutatea este urmărirea donațiilor până la fiecare cheltuială și certificarea acestei evidențe, fără o cerință expresă de deschidere a unor conturi suplimentare.",
+        "Art. I pct. 1, 2 și 4: obligațiile de evidență și certificare se suprapun. Nu este clar cum se atribuie sursa unei plăți dintr-un cont cu donații, venituri proprii și împrumuturi sau cum se urmăresc donațiile în contribuțiile transferate din patrimoniul partidului.",
+        "Art. II: normele metodologice ale Legii nr. 334/2006 sunt aprobate prin HG nr. 10/2016. Modificarea lor trebuie realizată prin actul autorității competente; obligația pusă exclusiv în sarcina AEP nu îi conferă acesteia competența de a modifica o hotărâre a Guvernului.",
+        "Art. II și III: legea intră în vigoare la 30 de zile de la publicare, iar termenul pentru adaptarea normelor expiră abia după încă 60 de zile. Obligațiile pot deveni aplicabile înaintea procedurilor detaliate; lipsesc reguli pentru campaniile în curs și cererile de rambursare aferente cheltuielilor anterioare.",
+        "Art. 48 alin. (13), nemodificat, permite corectarea neconcordanțelor și erorilor până la finalizarea controlului AEP. Proiectul nu elimină această garanție și nu introduce expres amenzi ori infracțiuni noi.",
+        "Impactul bugetar urmărit este reducerea rambursărilor, dar economia netă nu este cuantificată în documentele furnizate. Sarcina administrativă suplimentară privește competitorii, mandatarii financiari și AEP; nu apar taxe sau obligații generale noi pentru cetățeni și IMM-uri."
       ],
-      "blindSpotsCaught": "Afirmația că rambursarea există indiferent de proveniența banilor este prea largă: finanțarea din subvenții publice este deja exclusă prin art. 48 alin. (11) lit. d). Donațiile și subvențiile nu au însă aceeași natură, astfel că extinderea excluderii reprezintă o alegere nouă de politică legislativă. [Legea nr. 334/2006](https://legislatie.just.ro/Public/DetaliiDocument/120830). De asemenea, termenul pentru amendamente indicat, 21 mai 2026, este expirat la data analizei; cetățeanul poate transmite o petiție, fără ca aceasta să devină automat amendament parlamentar.",
-      "constitutionalityNote": "Obiectivul protejării fondurilor publice este legitim, iar Constituția nu garantează rambursarea oricărei cheltuieli electorale. Totuși, lipsa metodei de alocare a surselor, suprapunerile și necorelarea competențelor ridică probleme prin art. 1 alin. (5). Art. 8 și 16 impun evaluarea efectului asupra pluralismului și egalității de șanse; aplicarea formal uniformă nu exclude un impact disproporționat. Art. 23 alin. (12) privește legalitatea pedepsei și nu fundamentează automat o obiecție penală aici; proiectul nu creează infracțiuni. Aplicarea noilor condiții trebuie delimitată temporal, cu respectarea art. 15 alin. (2). Art. 135 invocat în motivare nu înlocuiește analiza bugetară și de proporționalitate. Acestea sunt vulnerabilități de remediat, nu o constatare certă de neconstituționalitate. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355?isFormaDeBaza=True).",
-      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile privind accesul la profesii reglementate sau exercitarea lor, nu concurența electorală în general. Certificarea contabilă propusă nu introduce, prin ea însăși, condiții de calificare ori acces profesional care să demonstreze aplicabilitatea directivei. [Art. 1–2 din Directiva 2018/958](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018L0958). Directiva (UE) 2015/1535 nu impune notificare TRIS pentru acest text: nu sunt reglementate cerințe tehnice pentru produse sau, explicit și țintit, servicii ale societății informaționale ori AI. Folosirea documentelor electronice sau decontarea publicității online nu sunt suficiente. Nu rezultă o restricție directă asupra pieței unice; problema concurențială identificată privește competiția politică internă. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535).",
+      "blindSpotsCaught": "Expunerea de motive sugerează excluderea întregii cheltuieli finanțate chiar și parțial din donații, însă norma propusă exclude numai partea donată. Rambursarea permisă astăzi nu reprezintă, prin ea însăși, o ilegalitate sau o dublă plată nelegală. În plus, termenul parlamentar pentru amendamente indicat în fișă, 21.05.2026, este depășit la data analizei; un mesaj al cetățeanului nu devine automat amendament parlamentar.",
+      "constitutionalityNote": "Scopul protejării fondurilor publice este legitim, iar Constituția nu garantează rambursarea fiecărei cheltuieli electorale. Principala vulnerabilitate privește art. 1 alin. (5): identificarea donațiilor în fonduri amestecate și regulile de aplicare trebuie să fie previzibile. Art. 15 alin. (2) impune respectarea neretroactivității; lipsa dispozițiilor tranzitorii creează incertitudine, fără să dovedească singură retroactivitatea. Prin raportare la art. 8 și 16, trebuie justificat efectul asupra competitorilor dependenți de donații, față de cei cu venituri proprii ori acces la împrumuturi; aplicarea formal uniformă nu exclude diferențele de impact, dar nici nu dovedește automat discriminarea. Art. 23 alin. (12) nu este direct incident unei incriminări noi, deoarece proiectul nu introduce una.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementărilor care restrâng accesul la profesii reglementate sau exercitarea acestora. Proiectul adaugă obligații de evidență mandatarului financiar, fără să introducă asemenea restricții profesionale, astfel că nu rezultă obligația testului prevăzut de directivă. Nu sunt reglementate produse, servicii digitale ori AI și nu rezultă o obligație de notificare TRIS în temeiul Directivei (UE) 2015/1535. Efectul concurențial relevant este asupra competiției electorale; textele furnizate nu indică bariere pentru piața unică sau monopoluri economice.",
       "senatForm": {
-        "articleRef": "Art. I pct. 3 – art. 48 alin. (11) lit. e)",
-        "proposalContent": "e) exclusiv partea cheltuielii electorale finanțată din donații de la terți, inclusiv cele primite de candidați, identificată prin evidență distinctă. Contribuțiile candidaților provenite din venituri proprii sau împrumuturi nu sunt donații în sensul prezentei litere. Finanțarea parțială din donații nu exclude rambursarea părții eligibile din alte surse.",
-        "argumentation": "Textul separă donațiile reale de contribuțiile candidaților asimilate donațiilor prin art. 38 alin. (4). Împiedică extinderea neintenționată a excluderii la veniturile proprii și împrumuturi și confirmă rambursarea proporțională. Trasabilitatea trebuie să aibă o regulă legală verificabilă, pentru a evita certificările arbitrare.",
-        "otherComments": "Solicit Comisiei juridice a Camerei Deputaților preluarea propunerii ca amendament. Art. II trebuie să prevadă modificarea normelor de către Guvern, la propunerea AEP, înainte de aplicare; sunt necesare reguli pentru conturile mixte și campaniile în curs. Termenul indicat, 21.05.2026, este expirat; prezenta reprezintă o petiție."
-      }
+        "articleRef": "Art. II",
+        "proposalContent": "Art. II. – În cel mult 30 de zile de la publicare, Guvernul, la propunerea AEP, adaptează normele metodologice, stabilind reguli obiective de alocare a surselor pentru plățile mixte. Noile dispoziții se aplică numai campaniilor electorale care încep după intrarea în vigoare a prezentei legi.",
+        "argumentation": "Normele aprobate prin hotărâre a Guvernului trebuie modificate de autoritatea competentă. Adaptarea lor până la intrarea în vigoare și aplicarea noului regim unor campanii viitoare reduc incertitudinea, protejează previzibilitatea finanțării și permit verificarea uniformă a cheltuielilor.",
+        "otherComments": "În lege trebuie precizată și întinderea noțiunii de donații pentru contribuțiile provenite din fondurile partidelor. Analiza folosește documentele furnizate; verificarea online independentă nu a fost disponibilă. Propunerea cetățeanului necesită preluare parlamentară pentru a deveni amendament."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T02:04:27.421Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T13:04:30.126Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

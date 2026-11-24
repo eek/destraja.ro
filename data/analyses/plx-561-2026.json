@@ -1,14 +1,42 @@
 {
   "billId": "PL-x 561/2026",
   "slug": "plx-561-2026",
-  "updatedAt": "2026-10-28T23:23:10.407Z",
+  "version": "senat",
+  "updatedAt": "2026-11-24T13:07:33.065Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 3401,
+    "ordinanceChars": 0,
+    "memoChars": 7754,
+    "memoSupplied": 7754,
+    "marker": "SF-91910225"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-561-2026.json",
+    "form": "senat",
+    "textHash": "91910225d3e66277",
+    "fetchedAt": "2026-11-19T10:07:03.124Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 6644,
+    "truncated": false,
+    "included": true,
+    "key": "c56db6bfa932858f"
+  },
   "consensus": {
-    "riskScore": 6,
-    "riskLevel": "yellow",
-    "plainTitle": "Șoferii nerezidenți care nu plătesc amenda pe loc rămân fără permis până la 3 luni",
-    "summaryTlDr": "Problema e reală, iar o garanție pentru nerezidenți a fost acceptată în principiu de CJUE. Textul e însă scris în grabă: alineatele cer sume și durate diferite, plata se poate face doar cu cardul, reținerea la frontieră intră în tensiune cu Convenția de la Viena, iar baza de date pe care se sprijină nu există încă. Merită corectat prin amendamente, nu respins.",
-    "initiatorClaim": "Cei 10 deputați USR inițiatori spun că șoferii nerezidenți pleacă din țară fără să-și plătească amenzile: în trei ani s-au aplicat amenzi de 44,66 milioane lei și s-au încasat doar 25,07 milioane. Mai spun că trimiterea proceselor-verbale prin poștă în străinătate costă până la 250 lei pe plic. Vor un instrument de încasare pe loc, inspirat din Bulgaria, Italia, Franța și Elveția.",
-    "realityCheck": "Polițistul este obligat să rețină permisul oricărui nerezident care comite orice contravenție, dacă acesta are amenzi vechi neplătite sau nu plătește pe loc (ori nu lasă garanție). Plata se face exclusiv electronic, iar reținerea durează până la plată, dar cel mult 3 luni. Textul se contrazice între alineate (sume și durate diferite), îi include și pe românii din diaspora cu domiciliul în străinătate și depinde de o bază de date care va exista abia peste 6 luni. Spre deosebire de modelele invocate (Bulgaria reține plăcuțele, Italia și Franța blochează mașina), aici se reține un document emis de alt stat, uneori și după ce titularul a părăsit țara.",
+    "riskScore": 7.5,
+    "riskLevel": "red",
+    "plainTitle": "Permis reținut pe loc pentru șoferii din afara țării care nu plătesc amenda cu cardul",
+    "summaryTlDr": "Scopul de a încasa amenzile neplătite de nerezidenți este legitim, dar forma adoptată tacit de Senat este disproporționată și plină de goluri procedurale. Ea transformă orice contravenție minoră într-o blocare imediată a dreptului de a conduce și sechestrează permise emise de alte state până la 3 luni.",
+    "initiatorClaim": "Inițiatorii vor să acopere un vid legislativ care ar fi produs un deficit de circa 4 milioane de euro în 3 ani din amenzi rutiere neîncasate de la șoferi străini, invocând modele de garanții financiare din Bulgaria, Italia, Franța și Elveția.",
+    "realityCheck": "Față de art. 111 în vigoare — unde permisul se reține doar pentru abateri grave de siguranță rutieră, infracțiuni sau documente nevalabile — noul art. 111¹ îl reține fără drept de circulație ca instrument fiscal pentru orice contravenție rutieră a unui nerezident (inclusiv cetățeni români cu domiciliul în străinătate). Plata este permisă exclusiv electronic, cuantumul garanției se contrazice între alineate, iar procedura de depunere și restituire a garanției în caz de câștig în instanță lipsește complet.",
     "affectedGroups": [
       "Șoferi & Auto",
       "Justiție & Drepturi Civile",
@@ -16,89 +44,63 @@
       "Angajați & HR"
     ],
     "senatForm": {
-      "articleRef": "Art. unic – art. 111¹ alin.(1)-(3) OUG 195/2002",
-      "proposalContent": "Alin.(1) lit.b): «refuză plata pe loc a jumătate din minimul amenzii prevăzute pentru contravenția săvârșită ori depunerea unei garanții de aceeași valoare». Alin.(2): se elimină teza «Măsura se dispune până la achitarea integrală a debitelor». Alin.(3), teză nouă: «Dacă plata electronică nu este posibilă din motive neimputabile contravenientului, măsura nu se dispune.»",
-      "argumentation": "Alin.(1) lit.b) cere garanție egală cu amenda, alin.(3) doar jumătate din minim; alin.(2) ține permisul până la plata integrală, alin.(4) îl restituie după 3 luni. Contradicțiile încalcă art. 1 alin.(5) din Constituție. CJUE (C-224/00) acceptă garanția pentru vehicule străine doar dacă e proporțională. Fără POS, șoferul n-ar trebui să piardă permisul din vina statului.",
-      "otherComments": "Convenția de la Viena 1968 (art. 42) permite reținerea permisului străin doar până la ieșirea din țară; păstrarea lui 3 luni, chiar după plecarea titularului, e greu de apărat. «Nerezident» include românii cu domiciliul în străinătate. Lit.a) să se aplice după ce baza de date de la alin.(6) funcționează. Restituirea garanției după contestația câștigată trebuie reglementată."
+      "articleRef": "Art. unic (art. 111¹ din OUG nr. 195/2002)",
+      "proposalContent": "Modificarea art. 111¹: înlocuirea reținerii permisului străin cu suspendarea dreptului de a conduce în România doar peste un prag minim; acceptarea plății și în numerar; clarificarea procedurii de depunere/restituire a garanției (50% din minim); amânarea intrării în vigoare până la baza de date MAI-MF și adăugarea garanțiilor GDPR.",
+      "argumentation": "Textul adoptat tacit încalcă art. 1(5), 21, 26 și 53 din Constituție și proporționalitatea UE. Sechestrarea permisului străin până la 3 luni pentru o amendă minoră și plata exclusiv cu cardul (fără soluție la erori POS) afectează circulația și în afara țării, iar procedura depunerii/restituirii garanției lipsește complet.",
+      "otherComments": "Solicităm corelarea cu Codul Frontierelor Schengen (fără controale sistematice la frontierele interne UE), cu Convenția de la Viena (1968) privind permisele străine, întocmirea fișei financiare (art. 138 alin. 5 Constituție) pentru baza de date și terminalele POS, și clarificarea situației românilor din diaspora vizați de lege."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 72920,
-      "riskScore": 5,
-      "riskLevel": "yellow",
-      "plainTitle": "Reținerea pe loc a permisului auto pentru șoferii nerezidenți (străini sau români din diaspora) care nu achită imediat amenzile rutiere",
-      "verdictShort": "Scopul de a colecta amenzile de la șoferii nerezidenți este legitim și inspirat din practici europene, însă textul adoptat tacit de Senat conține erori tehnice majore: contrazice Convenția de la Viena prin confiscarea fizică a permisului chiar și la ieșirea din țară, impune plata exclusiv electronică fără alternativă când polițistul nu are POS sau semnal și are contradicții interne privind valoarea garanției.",
-      "initiatorClaim": "Inițiatorii urmăresc eliminarea impunității șoferilor nerezidenți care comit abateri rutiere și părăsesc România fără a plăti amenzile, acoperind un deficit de colectare estimat la 4 milioane de euro și degrevând firmele de închirieri auto (rent-a-car) de sancțiunile clienților străini.",
-      "realityCheck": "Legea dispune reținerea fizică a permisului (inclusiv pentru cetățenii români cu domiciliul în străinătate) pentru orice contravenție măruntă dacă șoferul nu plătește pe loc exclusiv cu cardul, fără nicio soluție pentru zonele fără semnal GSM sau echipajele fără POS. În plus, alin. (1) lit. b) și alin. (3) se contrazic direct asupra sumei cerute ca garanție pentru contestarea în instanță, iar procedura de restituire a garanției nu este reglementată.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 94754,
+      "sourceEndMarker": "SF-91910225",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Permis reținut pe loc pentru șoferii din afara țării care nu plătesc amenda cu cardul",
+      "verdictShort": "Scopul de a încasa amenzile neplătite de nerezidenți este legitim, dar forma adoptată tacit de Senat este disproporționată și plină de goluri procedurale. Ea transformă orice contravenție minoră într-o blocare imediată a dreptului de a conduce și sechestrează permise emise de alte state până la 3 luni.",
+      "initiatorClaim": "Inițiatorii vor să acopere un vid legislativ care ar fi produs un deficit de circa 4 milioane de euro în 3 ani din amenzi rutiere neîncasate de la șoferi străini, invocând modele de garanții financiare din Bulgaria, Italia, Franța și Elveția.",
+      "realityCheck": "Față de art. 111 în vigoare — unde permisul se reține doar pentru abateri grave de siguranță rutieră, infracțiuni sau documente nevalabile — noul art. 111¹ îl reține fără drept de circulație ca instrument fiscal pentru orice contravenție rutieră a unui nerezident (inclusiv cetățeni români cu domiciliul în străinătate). Plata este permisă exclusiv electronic, cuantumul garanției se contrazice între alineate, iar procedura de depunere și restituire a garanției în caz de câștig în instanță lipsește complet.",
       "affectedGroups": [
         "Șoferi & Auto",
         "Justiție & Drepturi Civile",
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Contradicție normativă internă: Art. 111¹ alin. (1) lit. b) prevede depunerea unei garanții „echivalente sumei amenzii” (întregul cuantum stabilit de agent), în timp ce alin. (3) prevede o garanție echivalentă cu „jumătate din minimul amenzii prevăzute de lege”.",
-        "Capcana plății exclusiv electronice (Art. 111¹ alin. 3): Plata pe loc sau depunerea garanției se face „exclusiv prin instrumente de plată electronică”, fără excepții pentru situațiile în care echipajul nu are terminal POS, bateria este descărcată sau lipsește semnalul de date mobile, ceea ce duce automat la lăsarea șoferului fără permis în drum.",
-        "Reținerea fizică a permisului la ieșirea din țară (Art. 111¹ alin. 2 și 4): Poliția de Frontieră reține permisul nerezidentului pentru 3 luni chiar în momentul în care acesta părăsește România, împiedicându-l să conducă în propria țară de reședință.",
-        "Termene decorelate (Art. 111¹ alin. 6): Măsura reținerii permisului intră în vigoare în 3 zile de la publicare, deși Ministerul Afacerilor Interne și Ministerul Finanțelor primesc un răgaz de 6 luni pentru a crea baza de date comună și infrastructura tehnică."
+        "Sechestrare disproporționată a permisului străin (art. 111¹ alin. 1 și 4): pentru orice contravenție rutieră, oricât de minoră, neplata pe loc atrage dovadă fără drept de circulație și reținerea fizică a permisului până la 3 luni — o soluție mai intruzivă chiar decât modelele europene citate în expunerea de motive (care vizează vehiculul sau plăcuțele), afectând dreptul de a conduce și în afara României.",
+        "Contradicție internă și vid procedural privind garanția (art. 111¹ alin. 1 lit. b vs. alin. 3): alin. (1) cere o garanție echivalentă „sumei amenzii”, în timp ce alin. (3) prevede „jumătate din minimul amenzii”; legea nu stabilește unde se consemnează banii, cum se eliberează dovada și în ce termen se restituie dacă instanța anulează procesul-verbal.",
+        "Plată exclusiv electronică fără plasă de siguranță (art. 111¹ alin. 3): obligativitatea plății exclusiv prin instrumente electronice nu prevede nicio soluție dacă autospeciala nu are POS funcțional, lipsește semnalul, cardul străin este respins sau șoferul dispune doar de numerar.",
+        "Necorelare la frontieră și la restituire (art. 111¹ alin. 2 vs. alin. 4): Poliția de Frontieră aplică măsura „până la achitarea integrală a debitelor” (fără limita de 3 luni din alin. 4), nu este clar dacă o poate dispune în lipsa unei contravenții curente, iar alin. (4) atribuie restituirea exclusiv poliției rutiere.",
+        "Exonerare vagă pentru firmele de rent-a-car/leasing și bază de date fără garanții (art. 111¹ alin. 5-6): alin. (5) exonerează proprietarul persoană juridică „de plata oricărei sancțiuni” la comunicarea datelor șoferului nerezident (deși obligația de comunicare există deja în OUG 195/2002), iar alin. (6) creează o bază de date comună MAI–MF în 6 luni fără reguli de protecție a datelor și fără termen amânat pentru intrarea în vigoare a sancțiunilor."
       ],
-      "blindSpotsCaught": "Proiectul încalcă Art. 42 alin. (1) lit. b) din Convenția de la Viena asupra circulației rutiere (1968), la care România este parte: un stat poate reține fizic un permis străin doar până la expirarea suspendării sau „până când titularul părăsește teritoriul său, oricare dintre aceste termene este mai scurt”. Statul român poate suspenda doar dreptul de a conduce pe teritoriul României, nu să sechestreze documentul fizic emis de alt stat timp de 3 luni după ce șoferul iese la frontieră. De asemenea, la alin. (5), exonerarea firmelor de leasing/rent-a-car de „plata oricărei sancțiuni” la comunicarea datelor șoferului este redundantă față de regimul actual din OUG 195/2002 (unde amenzile sunt deja personale, nu pe proprietarul mașinii) și nu acoperă rovinieta (reglementată separat prin OG 15/2002).",
-      "constitutionalityNote": "Textul ridică probleme de constituționalitate raportat la Art. 1 alin. (5) (claritatea și previzibilitatea legii), din cauza contradicției dintre alin. (1) lit. b) și alin. (3) privind cuantumul garanției și a lipsei oricărei norme privind contul în care se consemnează garanția și procedura de restituire a acesteia. Totodată, condiționarea exercitării căii de atac fără o procedură clară de restituire a cauțiunii și fără alternativă de plată în numerar sau în termen scurt (24-48 ore) afectează accesul liber la justiție (Art. 21) și respectarea tratatelor internaționale (Art. 11).",
-      "euLawNote": "În jurisprudența CJUE (ex. C-224/00, Comisia/Italia; C-29/95, Pastoors), instituirea unei garanții pentru nerezidenți este permisă în raport cu Art. 18 TFUE (nediscriminarea) doar dacă este strict proporțională. Confiscarea fizică a unui permis emis de un alt stat membru UE (protejat de Directiva 2006/126/CE privind permisele de conducere) la ieșirea din țară, pentru o simplă contravenție care nu atrage suspendarea dreptului de a conduce pentru rezidenți, depășește limitele proporționalității și încalcă recunoașterea reciprocă a permiselor în UE. Nu necesită notificare TRIS (Directiva 2015/1535) și nu vizează profesii reglementate (Directiva 2018/958).",
+      "blindSpotsCaught": "Proiectul conține patru capcane majore neobservate: (1) vizează orice persoană fără domiciliu/reședință în România, lovind direct milioanele de cetățeni români din diaspora (CRDS), nu doar turiștii străini; (2) intră în vigoare la 3 zile de la publicare deși baza de date comună MAI–MF are termen 6 luni și regulamentul de aplicare nu e adaptat; (3) competența Poliției de Frontieră (alin. 2) ignoră faptul că la frontierele interne Schengen nu mai există controale sistematice; (4) reținerea fizică timp de 3 luni a unui permis emis de alt stat intră în coliziune cu art. 42 din Convenția de la Viena (1968), care cere restituirea permisului străin la părăsirea teritoriului.",
+      "constitutionalityNote": "Risc ridicat de neconstituționalitate: (1) art. 1 alin. (5) (claritate și previzibilitate) este încălcat de contradicția privind cuantumul garanției, absența procedurii de restituire a acesteia și ambiguitatea competenței la frontieră; (2) art. 53 (proporționalitate) și art. 21 (acces liber la justiție) sunt afectate de reținerea permisului fără drept de circulație pentru abateri minore și condiționarea contestării de o garanție nereglementată; (3) art. 26 (viață privată) este vulnerabilizat de baza de date comună MAI–MF fără garanții privind categoriile de date, stocarea și remedierea erorilor; (4) art. 138 alin. (5) este ignorat prin lipsa sursei de finanțare pentru baza de date în timp real și terminalele POS.",
+      "euLawNote": "Directiva (UE) 2018/958 (profesii reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt aplicabile. Însă textul ridică probleme serioase față de TFUE (art. 18, 21, 45, 56 — nediscriminare și liberă circulație): conform jurisprudenței CJUE (Pastoors, C-29/95; Comisia/Italia, C-224/00), garanțiile impuse nerezidenților sunt admisibile doar dacă sunt strict proporționale și au proceduri clare. Sechestrarea fizică până la 3 luni a unui permis emis de alt stat membru (împiedicând conducerea în întreaga UE) încalcă limitele teritoriale ale Directivei 2006/126/CE; aplicarea la frontierele interne UE intră în tensiune cu Codul Frontierelor Schengen (Reg. UE 2016/399), iar baza de date MAI–MF necesită garanții conforme GDPR / Directivei (UE) 2016/680.",
       "senatForm": {
-        "articleRef": "Articol unic - Art. 111^1 alin. (1)-(4)",
-        "proposalContent": "La art. 111^1 alin. (1) și (2), în locul reținerii fizice a permisului străin se suspendă doar dreptul de a conduce pe teritoriul României. La alin. (3), garanția se fixează unitar la jumătate din minimul amenzii, iar plata se poate face și în numerar sau în 24 de ore dacă agentul nu deține terminal POS funcțional ori nu există semnal.",
-        "argumentation": "Art. 42 alin. (1) lit. b) din Convenția de la Viena (1968) interzice reținerea permisului străin după ce titularul părăsește teritoriul statului. În plus, alin. (1) lit. b) și alin. (3) se contrazic privind cuantumul garanției, iar plata exclusiv electronică blochează șoferii de bună-credință când polițistul nu are POS funcțional sau semnal GSM.",
-        "otherComments": "Legea trebuie să reglementeze expres procedura de consemnare și restituire a garanției în caz de admitere a plângerii contravenționale, iar aplicarea art. 111^1 alin. (1)-(4) trebuie amânată la 6 luni, simultan cu operaționalizarea bazei de date comune MAI-MF prevăzute la alin. (6) și dotarea completă cu terminale POS."
-      }
+        "articleRef": "Art. unic (art. 111¹ din OUG nr. 195/2002)",
+        "proposalContent": "Modificarea art. 111¹: înlocuirea reținerii permisului străin cu suspendarea dreptului de a conduce în România doar peste un prag minim; acceptarea plății și în numerar; clarificarea procedurii de depunere/restituire a garanției (50% din minim); amânarea intrării în vigoare până la baza de date MAI-MF și adăugarea garanțiilor GDPR.",
+        "argumentation": "Textul adoptat tacit încalcă art. 1(5), 21, 26 și 53 din Constituție și proporționalitatea UE. Sechestrarea permisului străin până la 3 luni pentru o amendă minoră și plata exclusiv cu cardul (fără soluție la erori POS) afectează circulația și în afara țării, iar procedura depunerii/restituirii garanției lipsește complet.",
+        "otherComments": "Solicităm corelarea cu Codul Frontierelor Schengen (fără controale sistematice la frontierele interne UE), cu Convenția de la Viena (1968) privind permisele străine, întocmirea fișei financiare (art. 138 alin. 5 Constituție) pentru baza de date și terminalele POS, și clarificarea situației românilor din diaspora vizați de lege."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 252974,
-      "riskScore": 5,
-      "riskLevel": "yellow",
-      "plainTitle": "Șoferii nerezidenți care nu plătesc amenda pe loc rămân fără permis până la 3 luni",
-      "verdictShort": "Problema e reală, iar o garanție pentru nerezidenți a fost acceptată în principiu de CJUE. Textul e însă scris în grabă: alineatele cer sume și durate diferite, plata se poate face doar cu cardul, reținerea la frontieră intră în tensiune cu Convenția de la Viena, iar baza de date pe care se sprijină nu există încă. Merită corectat prin amendamente, nu respins.",
-      "initiatorClaim": "Cei 10 deputați USR inițiatori spun că șoferii nerezidenți pleacă din țară fără să-și plătească amenzile: în trei ani s-au aplicat amenzi de 44,66 milioane lei și s-au încasat doar 25,07 milioane. Mai spun că trimiterea proceselor-verbale prin poștă în străinătate costă până la 250 lei pe plic. Vor un instrument de încasare pe loc, inspirat din Bulgaria, Italia, Franța și Elveția.",
-      "realityCheck": "Polițistul este obligat să rețină permisul oricărui nerezident care comite orice contravenție, dacă acesta are amenzi vechi neplătite sau nu plătește pe loc (ori nu lasă garanție). Plata se face exclusiv electronic, iar reținerea durează până la plată, dar cel mult 3 luni. Textul se contrazice între alineate (sume și durate diferite), îi include și pe românii din diaspora cu domiciliul în străinătate și depinde de o bază de date care va exista abia peste 6 luni. Spre deosebire de modelele invocate (Bulgaria reține plăcuțele, Italia și Franța blochează mașina), aici se reține un document emis de alt stat, uneori și după ce titularul a părăsit țara.",
-      "affectedGroups": [
-        "Șoferi & Auto",
-        "Justiție & Drepturi Civile",
-        "IMM & Antreprenori"
-      ],
-      "keyFindings": [
-        "Art. 111¹ alin.(1) lit.b) cere o garanție „echivalentă sumei amenzii”, iar alin.(3) se mulțumește cu „jumătate din minimul amenzii”. Sunt două sume diferite pentru aceeași situație, iar contravenientul nu poate ști pe care o datorează.",
-        "Alin.(2) spune că măsura se dispune „până la achitarea integrală a debitelor”, iar alin.(4) impune restituirea permisului după 3 luni. Cele două alineate se contrazic direct în privința duratei reținerii.",
-        "Alin.(2) dă Poliției de Frontieră competență pentru lit.a) „în mod corespunzător”, dar alin.(1) cere o contravenție nouă. Nu e clar dacă la graniță permisul poate fi reținut doar pentru amenzi vechi. Dacă e reținut la ieșire, mașina rămâne blocată la frontieră, iar documentul rămâne în România după plecarea titularului.",
-        "Alin.(3) permite plata „exclusiv prin instrumente de plată electronică”, dar legea nu obligă dotarea echipajelor cu POS. Dacă terminalul lipsește sau cardul străin e respins, șoferul pierde permisul fără vina lui.",
-        "„Nerezident” înseamnă oricine nu are domiciliul sau reședința în România. Sunt incluși și cetățenii români din diaspora cu domiciliul în străinătate, nu doar turiștii și străinii aflați în tranzit.",
-        "Lit.a) se aplică de la intrarea în vigoare, dar baza de date comună MAI–Ministerul Finanțelor (alin.6) are termen de 6 luni. Până atunci agentul nu are de unde verifica istoricul. Restituirea garanției după o contestație câștigată nu este reglementată deloc.",
-        "Alin.(5) scutește firmele de închiriere și leasing de orice sancțiune dacă transmit datele șoferului nerezident. Însă textul trimite la un „termen prevăzut de lege” nenumit și la „instrumente de cooperare internațională” nedefinite. Firmele câștigă sigur, executarea de către stat rămâne incertă.",
-        "Expunerea arată un deficit de circa 19,6 milioane lei în 3 ani, adică aproximativ 1,3 milioane euro pe an. Problema e reală, dar modestă față de „creșterea masivă” a încasărilor promisă."
-      ],
-      "blindSpotsCaught": "Convenția de la Viena din 1968 privind circulația rutieră (art. 42), la care România este parte, permite reținerea permisului străin doar până la expirarea suspendării sau până când șoferul părăsește țara, oricare survine primul. Proiectul permite reținerea la punctele de frontieră și păstrarea documentului 3 luni, inclusiv după plecarea titularului. Apoi, multe amenzi vechi aplicate nerezidenților nu au fost comunicate valabil în străinătate, deci nu sunt „definitive”. Prin urmare, lit.a) fie prinde foarte puțini, fie e aplicată pe date greșite. În fine, criteriul de la lit.b), „intenționează să conteste”, e subiectiv și nu poate fi verificat de agent. Senatul a adoptat proiectul tacit (art. 75 alin.(2) teza a III-a), fără nicio dezbatere.",
-      "constitutionalityNote": "Scopul, adică executarea amenzilor, e legitim. Tratamentul diferit al nerezidenților are o justificare obiectivă (executarea în străinătate e dificilă), deci art. 16 nu e încălcat în sine. Problemele principale țin de calitatea legii (art. 1 alin.(5)): sume contradictorii între alin.(1) lit.b) și alin.(3), durată contradictorie între alin.(2) și alin.(4), competența neclară a Poliției de Frontieră și un criteriu subiectiv („intenționează să conteste”). Proiectul califică măsura drept „tehnico-administrativă”, dar o reținere de până la 3 luni, cu scop exclusiv de încasare, are efectele unei sancțiuni (art. 23 alin.(12)). Restrângerea dreptului de a conduce pentru orice contravenție, oricât de minoră, trebuie să treacă testul de proporționalitate din art. 53. Plafonul de 3 luni și posibilitatea de a plăti ajută. Presiunea de a plăti sau de a garanta pentru a păstra permisul poate descuraja contestația (art. 21), mai ales că restituirea garanției nu e reglementată. Art. 11 impune respectarea Convenției de la Viena. Baza de date și terminalele POS implică cheltuieli; dacă lipsește fișa financiară și sursa de finanțare, apare un risc pe art. 138 alin.(5).",
-      "euLawNote": "Criteriul rezidenței e o discriminare indirectă pe criteriul cetățeniei (art. 18 TFUE) și afectează libera circulație (art. 21, 45 și 56 TFUE). În C-224/00 Comisia/Italia (2002), CJUE a acceptat în principiu o garanție pentru vehiculele înmatriculate în alt stat, dar a condamnat garanția dublă ca disproporționată. O garanție egală cu amenda e deci defensabilă. Reținerea permisului pentru orice contravenție combinată cu amenzi vechi e mai greu de apărat. Permisele emise în UE sunt reglementate de Directiva 2006/126/CE, iar reținerea documentului ca garanție de plată nu e o măsură prevăzută acolo, deci rămâne o zonă gri. Proiectul ignoră canalele UE existente: Directiva (UE) 2015/413 privind schimbul transfrontalier de informații despre contravențiile rutiere (revizuită în 2024) și Decizia-cadru 2005/214/JAI. Directiva 2018/958 nu se aplică, fiindcă proiectul nu reglementează o profesie. Nici TRIS 2015/1535 nu e incidentă: proiectul nu conține reguli tehnice pentru produse sau servicii ale societății informaționale.",
-      "senatForm": {
-        "articleRef": "Art. unic – art. 111¹ alin.(1)-(3) OUG 195/2002",
-        "proposalContent": "Alin.(1) lit.b): «refuză plata pe loc a jumătate din minimul amenzii prevăzute pentru contravenția săvârșită ori depunerea unei garanții de aceeași valoare». Alin.(2): se elimină teza «Măsura se dispune până la achitarea integrală a debitelor». Alin.(3), teză nouă: «Dacă plata electronică nu este posibilă din motive neimputabile contravenientului, măsura nu se dispune.»",
-        "argumentation": "Alin.(1) lit.b) cere garanție egală cu amenda, alin.(3) doar jumătate din minim; alin.(2) ține permisul până la plata integrală, alin.(4) îl restituie după 3 luni. Contradicțiile încalcă art. 1 alin.(5) din Constituție. CJUE (C-224/00) acceptă garanția pentru vehicule străine doar dacă e proporțională. Fără POS, șoferul n-ar trebui să piardă permisul din vina statului.",
-        "otherComments": "Convenția de la Viena 1968 (art. 42) permite reținerea permisului străin doar până la ieșirea din țară; păstrarea lui 3 luni, chiar după plecarea titularului, e greu de apărat. «Nerezident» include românii cu domiciliul în străinătate. Lit.a) să se aplice după ce baza de date de la alin.(6) funcționează. Restituirea garanției după contestația câștigată trebuie reglementată."
-      }
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 114601,
+      "durationMs": 149587,
+      "sourceEndMarker": "SF-91910225",
       "riskScore": 8,
       "riskLevel": "red",
-      "plainTitle": "Permis reținut dacă șoferul nerezident nu plătește amenda pe loc",
-      "verdictShort": "Recuperarea amenzilor este legitimă, dar proiectul folosește oprirea imediată a conducerii ca presiune pentru plată, inclusiv înaintea judecării contestației. Contradicțiile privind garanția, durata și restituirea permisului creează un risc ridicat de aplicare disproporționată.",
-      "initiatorClaim": "Inițiatorii urmăresc recuperarea amenzilor rutiere neachitate de nerezidenți și reducerea costurilor executării transfrontaliere. Ei prezintă reținerea permisului drept o garanție temporară, inspirată din practici europene.",
-      "realityCheck": "Art. 111¹ alin. (1) permite reținerea permisului cu dovadă fără drept de circulație pentru orice contravenție rutieră, dacă există restanțe definitive neprescrise sau este refuzată plata imediată ori garanția pentru amenda curentă. Criteriul este domiciliul/reședința, astfel încât pot fi vizați și cetățeni români din diaspora, iar străinii rezidenți în România nu intră automat în această categorie. Mecanismul urmărește colectarea banilor, fără individualizarea măsurii după gravitatea abaterii, cuantumul datoriei sau riscul concret de neexecutare.",
+      "plainTitle": "Permis reținut pentru amenzi, dacă nu locuiești în România",
+      "verdictShort": "Recuperarea amenzilor este legitimă, dar proiectul permite oprirea imediată a dreptului de a conduce pentru neplata unei datorii, inclusiv înaintea soluționării contestației. Contradicțiile privind garanția, restituirea și durata măsurii creează riscuri serioase de aplicare disproporționată.",
+      "initiatorClaim": "Inițiatorii urmăresc încasarea amenzilor rutiere aplicate nerezidenților și reducerea costurilor recuperării lor transfrontaliere. Susțin că reținerea temporară a permisului și plata electronică vor crește disciplina rutieră și veniturile publice.",
+      "realityCheck": "Proiectul adaugă reținerea permisului, cu dovadă fără drept de circulație, pentru nerezidenții care comit o contravenție și au amenzi definitive restante sau refuză plata imediată ori garanția pentru amenda curentă. Mecanismul afectează inclusiv cetățenii români fără domiciliu sau reședință în România și poate interveni pentru contravenții care, în prezent, nu justifică pierderea dreptului de a conduce. Plata redusă și garanția permit evitarea măsurii, dar textul nu corelează suficient aceste opțiuni cu restituirea permisului, contestația și limita de trei luni.",
       "affectedGroups": [
         "Șoferi & Auto",
         "IMM & Antreprenori",
@@ -106,22 +108,49 @@
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 111¹ alin. (1) lit. b): amenda curentă nu trebuie să fie definitivă pentru reținerea permisului. Garanția poate fi legitimă în principiu, dar textul nu reglementează custodia, imputarea și restituirea ei după anularea amenzii și nu distinge refuzul de imposibilitatea tehnică a plății. Corelarea cu efectul suspensiv al plângerii și restituirea permisului din art. 118 alin. (2)-(3) rămâne neclară. [OUG nr. 195/2002](https://legislatie.just.ro/public/detaliidocument/74028)",
-        "Art. 111¹ alin. (1)-(4): alin. (1) cere o garanție egală cu amenda, iar alin. (3) permite jumătate din minimul legal. Alin. (3) prevede încetarea imediată inclusiv prin garanție, dar alin. (4) menționează numai plata integrală sau expirarea a trei luni. Formula «până la achitarea integrală» din alin. (2) trebuie corelată explicit cu acest plafon; expirarea lui nu stinge datoria.",
-        "Art. 111¹ alin. (2): trimiterea «în mod corespunzător» nu clarifică dacă Poliția de Frontieră poate reține permisul exclusiv pentru restanțe sau trebuie îndeplinită și condiția unei contravenții noi din alin. (1). Textul nu instituie expres o interdicție de ieșire din țară, dar împiedică titularul să continue legal călătoria conducând.",
-        "Art. 111¹ alin. (3) și (6): plata exclusiv electronică nu are soluție pentru terminal defect, lipsă de conexiune sau instrument de plată indisponibil. Baza comună trebuie operaționalizată în șase luni, însă aplicarea măsurii nu este amânată până atunci; lipsesc reguli pentru verificarea erorilor, actualizarea plăților și protecția datelor.",
-        "Art. 111¹ alin. (5): identificarea șoferului poate proteja util firmele de închirieri și leasing, dar exonerarea de «orice sancțiune» este prea largă și poate genera litigii privind abaterile proprii ale proprietarului. Identificarea utilizatorului nu garantează recuperarea internațională; aceasta depinde de instrumentul aplicabil și de condițiile sale.",
-        "Impact economic și bugetar: nu se instituie o taxă nouă sau un monopol expres, dar blocarea conducerii poate întrerupe transporturi, activitatea șoferilor profesioniști și contractele IMM-urilor. Expunerea nu cuantifică dezvoltarea bazei de date, terminalele, administrarea garanțiilor și litigiile. Din cifrele prezentate rezultă 19.593.166 lei neîncasați, aproximativ 44% din valoarea amenzilor; acestea nu demonstrează singure necesitatea mecanismului ales."
+        "Schimbarea principală: art. 111 în vigoare nu include neplata amenzii între motivele reținerii permisului. Noul art. 111¹ instituie acest motiv pentru nerezidenți, independent de gravitatea concretă a contravenției și fără prag minim al datoriei.",
+        "Art. 111¹ alin. (1) lit. a) privește numai amenzi anterioare definitive, neachitate și neprescrise; acestea sunt limite reale ale măsurii. În schimb, lit. b) permite reținerea pentru amenda curentă înainte ca aceasta să devină definitivă, dacă șoferul refuză plata imediată sau garanția.",
+        "Regimul general permite plata a jumătate din minimul amenzii în termen de 15 zile. Alin. (3) păstrează cuantumul redus, dar constrânge nerezidentul să plătească imediat sau să garanteze pentru a continua să conducă, diminuând utilitatea practică a termenului general.",
+        "Garanția este contradictorie: alin. (1) lit. b) cere echivalentul amenzii aplicate, iar alin. (3) permite echivalentul jumătății minimului legal. Nu sunt stabilite suficient administrarea, restituirea și valorificarea garanției după soluționarea contestației.",
+        "Alin. (2) prevede menținerea măsurii până la plata integrală, iar alin. (4) impune restituirea permisului după trei luni. Aceste texte trebuie armonizate; în plus, nu există un plafon cumulativ care să împiedice noi rețineri pentru aceeași datorie atunci când sunt îndeplinite din nou condițiile legale.",
+        "La frontieră, alin. (2) extinde competența privind amenzile restante, dar formularea «în mod corespunzător» nu clarifică dacă rămâne obligatorie săvârșirea unei noi contravenții, cerută de alin. (1). Poliția de Frontieră nu primește expres competența privind refuzul plății amenzii curente.",
+        "Alin. (3) admite încetarea imediată prin garanție, însă alin. (4) descrie restituirea prin dovada achitării integrale sau expirarea celor trei luni. Restituirea efectivă după depunerea garanției trebuie prevăzută explicit, inclusiv pentru permisele reținute la frontieră.",
+        "Alin. (5) nu trebuie prezentat ca introducând pentru prima dată răspunderea personală a șoferului: aceasta există deja pentru faptele sale. Formula exonerării persoanei juridice de «orice sancțiune» este prea largă, iar identificarea utilizatorului nu poate înlocui probarea faptei, comunicarea actelor și respectarea dreptului său la apărare.",
+        "Alin. (6) acordă șase luni pentru baza comună de date, dar proiectul nu amână până atunci aplicarea reținerii și nu stabilește un termen pentru adaptarea regulamentului. Plata exclusiv electronică nu are soluții pentru indisponibilitatea sistemului sau lipsa accesului șoferului la un instrument electronic.",
+        "Materialul furnizat nu cuantifică dezvoltarea bazei de date, echipamentele, întreținerea și administrarea garanțiilor. Impactul net pozitiv afirmat în expunere nu rezultă demonstrat; trebuie verificate fundamentarea financiară, sursele de finanțare și, după caz, cerințele art. 111 alin. (1) și art. 138 alin. (5) din Constituție."
       ],
-      "blindSpotsCaught": "Comparația cu Bulgaria omite că măsuri similare de reținere a permisului și oprire a vehiculului pentru amenzi neachitate au fost declarate neconstituționale prin Decizia nr. 3/23.03.2021; aceasta este o observație comparativă, nu un precedent obligatoriu pentru România. [Sinteză publicată de CJUE](https://curia.europa.eu/site/upload/docs/application/pdf/2023-07/flash_interest_1-2021_en.pdf). Pragul european de 70 EUR este un motiv facultativ de refuz al recunoașterii și executării sub acest cuantum, nu o interdicție absolută de cooperare. [Decizia-cadru 2005/214/JAI, art. 7 alin. (2) lit. h)](https://eur-lex.europa.eu/eli/dec_framw/2005/214/oj/eng). În plus, există deja un regim distinct pentru titularii permiselor românești, cu termen de 90 de zile și durată raportată la debit; suprapunerea cu nerezidenții titulari ai unui permis românesc trebuie clarificată. [Normele din 9 iulie 2026](https://legislatie.just.ro/Public/DetaliiDocument/312151)",
-      "constitutionalityNote": "Există vulnerabilități serioase prin raportare la art. 1 alin. (5): cuantumul garanției, momentul restituirii și competența la frontieră trebuie să fie previzibile. Art. 21 și 24 impun o cale efectivă de contestare; eticheta de măsură tehnico-administrativă nu rezolvă problema presiunii financiare înaintea controlului judiciar. Art. 23 alin. (12) privește legalitatea pedepsei și nu trebuie aplicat automat unei măsuri administrative; garanția centrală aici este calitatea legii. Diferențierea după reședință necesită o justificare obiectivă în raport cu egalitatea de tratament. Dreptul de a conduce nu este, ca atare, un drept fundamental autonom, dar efectele asupra muncii și liberei circulații cer examinarea proporționalității potrivit art. 41, 25 și 53, în măsura afectării acestor drepturi. Acestea sunt riscuri de neconstituționalitate, nu o constatare jurisdicțională. [Constituția României](https://www.cdep.ro/pls/dic/site.page?den=act2_1&par1=2)",
-      "euLawNote": "Diferențierea după reședință poate dezavantaja lucrătorii și transportatorii transfrontalieri și necesită justificarea necesității, proporționalității și alternativelor mai puțin restrictive. În C-224/00, CJUE a acceptat în principiu o garanție pentru contravenienții nerezidenți, dar a sancționat caracterul discriminatoriu al cuantumului; cauza nu validează automat reținerea permisului din acest proiect. [CJUE, Comisia/Italia](https://curia.europa.eu/en/actu/communiques/cp02/aff/cp0225en.htm). Directiva 2018/958 privește reglementarea accesului la profesii și exercitării profesiilor reglementate: proiectul nu introduce cerințe de calificare profesională, astfel că nu rezultă aplicabilitatea ei directă doar pentru că sunt afectați șoferi profesioniști. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng). Nu rezultă o obligație TRIS din textul analizat: baza administrativă și plata electronică nu constituie, singure, reglementarea specifică a serviciilor societății informaționale sau o reglementare tehnică notificabilă; proiectul nu reglementează AI. [Directiva 2015/1535, art. 1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32015L1535)",
+      "blindSpotsCaught": "Contestația și garanțiile generale nu sunt eliminate expres. Totuși, suspendarea executării amenzii și a sancțiunilor complementare nu clarifică automat soarta acestei rețineri, calificată separat drept măsură tehnico-administrativă; este necesară corelarea expresă cu procedura plângerii. Totodată, criteriul este domiciliul sau reședința, nu cetățenia: sunt vizați și români din diaspora, iar cetățenii străini rezidenți nu intră în această categorie. Expunerea recunoaște existența cooperării internaționale, deci dificultatea recuperării nu echivalează cu inexistența oricărui mecanism juridic.",
+      "constitutionalityNote": "Există riscuri serioase privind art. 1 alin. (5), prin contradicțiile dintre cuantumurile garanției, condițiile restituirii și durata măsurii. Diferența de tratament bazată pe rezidență trebuie justificată obiectiv și proporțional în raport cu art. 16; dificultatea recuperării transfrontaliere poate constitui o justificare, dar nu validează automat orice constrângere. Condiționarea posibilității de a continua conducerea de plata ori garantarea imediată ridică probleme pentru exercitarea efectivă a drepturilor din art. 21 și 24, fără ca accesul la instanță să fie formal suprimat. Conducerea unui autovehicul nu este, în sine, un drept fundamental distinct; efectele asupra circulației și muncii pot impune însă analiza art. 25, 41 și, după caz, 53. Art. 23 alin. (12) devine relevant în măsura calificării materiale ca pedeapsă; simpla denumire administrativă nu tranșează natura măsurii. Evaluarea folosește textele furnizate; verificarea online nu a fost disponibilă în această sesiune.",
+      "euLawNote": "Diferențierea după rezidență poate dezavantaja indirect cetățenii altor state membre și trebuie examinată prin art. 18, 21 și 56 TFUE, inclusiv proporționalitatea garanției și a împiedicării continuării călătoriei. Jurisprudența CJUE privind garanțiile pentru contravenții rutiere, inclusiv cauza C-224/00, Comisia/Italia, cere justificarea concretă a diferențelor de tratament; nu interzice automat orice garanție cerută nerezidenților. Decizia-cadru 2005/214/JAI oferă mecanisme de executare transfrontalieră, iar pragul de 70 euro constituie un motiv posibil de refuz, nu dovada inexistenței mecanismului pentru toate amenzile mici. Directiva (UE) 2018/958 nu este incidentă doar fiindcă sunt afectați șoferi profesioniști: proiectul nu reglementează calificări sau accesul la o profesie reglementată în sensul său. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu rezultă necesară din simpla creare a unei baze administrative de date și folosirea plăților electronice. Baza comună trebuie să respecte RGPD, inclusiv exactitatea evidențelor, limitarea păstrării, rectificarea și securitatea accesului. Costurile și indisponibilizarea șoferilor pot afecta transportatorii și firmele de închirieri; proiectul nu instituie expres un monopol comercial.",
       "senatForm": {
-        "articleRef": "Articolul unic – art. 111¹ alin. (1)-(4)",
-        "proposalContent": "Alineatele (1)-(4) se înlocuiesc cu un singur alineat: «(1) Neachitarea amenzii sau nedepunerea unei garanții nu justifică reținerea permisului în temeiul prezentului articol. Amenzile definitive se recuperează potrivit procedurilor de executare silită și de cooperare internațională aplicabile.»",
-        "argumentation": "Colectarea amenzilor este legitimă, dar blocarea imediată a conducerii, indiferent de gravitatea faptei și înaintea soluționării contestației, este excesivă. Soluția elimină contradicțiile privind garanția și restituirea și protejează accesul efectiv la justiție, fără a înlătura reținerile pentru siguranța rutieră prevăzute de alte articole.",
-        "otherComments": "Se renumerotează alineatele rămase. Exonerarea proprietarului trebuie limitată la fapta conducătorului, fără acoperirea abaterilor proprii. Sunt necesare costuri estimate, reguli de protecție a datelor și corelarea cu OUG nr. 7/2026. Termenul de amendamente din fișă, 16.09.2026, a expirat; petiția nu echivalează cu un amendament depus."
-      }
+        "articleRef": "Articol unic – art. 111¹ alin. (1)-(4)",
+        "proposalContent": "Alineatele (1)-(4) se înlocuiesc cu un singur alineat: «(1) Neplata unei amenzi rutiere nu constituie, prin ea însăși, temei pentru reținerea permisului de conducere. Amenzile se recuperează prin procedurile legale de executare, inclusiv prin cooperare internațională.» Alineatele (5) și (6) se renumerotează.",
+        "argumentation": "Reținerea fără drept de circulație pentru o datorie, inclusiv înainte de soluționarea contestației, produce o constrângere severă, fără legătură necesară cu pericolul rutier. Eliminarea ei protejează proporționalitatea și accesul efectiv la justiție; sancțiunile rutiere și executarea silită rămân aplicabile.",
+        "otherComments": "Trebuie revizuite și actualele alin. (5)-(6): întinderea exonerării, protecția datelor, costurile și calendarul bazei de date. Termenul de amendamente indicat, 16.09.2026, este depășit; preluarea propunerii de către un deputat depinde de procedura comisiilor."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-28T23:23:10.407Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 8
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T13:07:33.065Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

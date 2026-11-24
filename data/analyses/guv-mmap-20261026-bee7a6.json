@@ -1,119 +1,175 @@
 {
   "billId": "guv-mmap-20261026-bee7a6",
   "slug": "guv-mmap-20261026-bee7a6",
-  "updatedAt": "2026-11-10T14:19:14.155Z",
+  "updatedAt": "2026-11-24T15:48:10.112Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "proiect",
+    "billChars": 3552,
+    "ordinanceChars": 0,
+    "memoChars": 14143,
+    "memoSupplied": 14143,
+    "marker": "SF-6BE0E07B"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/guv-mmap-20261026-bee7a6.json",
+    "form": "initiator",
+    "textHash": "6be0e07b813ae491",
+    "fetchedAt": "2026-11-24T15:47:05.229Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 2.7,
+    "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Ministerele aprobă bugetele pe 2026 ale parcurilor naționale și naturale administrate de Romsilva și ale Muzeului Cinegetic Posada",
-    "summaryTlDr": "Este un act tehnic și benign: aprobă bugetele anuale ale unor unități de stat, fără obligații, taxe sau sancțiuni pentru cetățeni ori firme. Problemele reale țin de transparență și de calendar: bugetul pe 2026 se aprobă abia la final de an, iar anexele cu cifrele nu apar în materialul extras.",
-    "initiatorClaim": "Inițiatorii vor să aprobe, prin ordin comun al MMAP, MMFTSS și MF, bugetele de venituri și cheltuieli pe 2026 ale celor 23 de unități cu personalitate juridică din subordinea Romsilva (pct. 1-22 și 24 din anexa nr. 2 la HG nr. 123/2026). Temeiul este art. 4 alin. (1) lit. b) din OG nr. 26/2013.",
-    "realityCheck": "Ordinul are 4 articole pur procedurale: aprobă bugetele, trimite la anexele nr. 1-23, obligă unitățile să le execute și dispune publicarea. Bugetul cumulat este echilibrat, cu 58.669 mii lei venituri și cheltuieli, din care 48.694 mii lei (circa 83%) sunt cheltuieli de personal, iar fondurile europene însumează 44.361 mii lei. Efectul practic al aprobării în noiembrie 2026 este validarea aproape ex-post a unui an bugetar deja consumat, iar unitatea de la pct. 23 este exclusă fără vreo explicație în referat.",
+    "plainTitle": "Bugetele pe 2026 ale parcurilor naționale și naturale Romsilva și ale Muzeului Cinegetic Posada",
+    "summaryTlDr": "Ordin tehnic de aprobare a 23 de bugete, fără efecte asupra cetățenilor sau firmelor. Problemele reale sunt aprobarea întârziată, aproape la final de an, și lipsa anexelor cu cifrele pe fiecare unitate din textul pus în consultare.",
+    "initiatorClaim": "Ministerele vor să aprobe, conform art. 4 din OG nr. 26/2013, bugetele pe 2026 ale unităților Romsilva care administrează arii protejate și ale Muzeului Posada. Susțin că bugetele respectă înghețarea salarială din art. XXXVI al OUG nr. 89/2025.",
+    "realityCheck": "Art. 1-4 doar aprobă bugetele din anexele 1-23: venituri și cheltuieli de 58.669 mii lei, din care 48.694 mii lei cheltuieli de personal (circa 83%), plus 44.361 mii lei din fonduri europene. Ordinul este emis în noiembrie 2026 pentru anul 2026, așa că validează în mare parte cheltuieli deja făcute. Unitatea de la pct. 23 din anexa nr. 2 la HG nr. 123/2026 este exclusă fără nicio explicație.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "Angajați & HR",
+      "Toți cetățenii",
       "Contabili & Fiscalitate"
     ],
     "senatForm": {
-      "articleRef": "Art. 2 și Anexele nr. 1–23",
-      "proposalContent": "Propun completarea Art. 2 cu: „Anexele nr. 1–23 se publică integral în Monitorul Oficial și pe site-urile MMAP și RNP-Romsilva, cu indicarea distinctă, pentru fiecare unitate, a cheltuielilor de personal, a sumelor din fonduri europene și a investițiilor.”",
-      "argumentation": "Ordinul aprobă circa 58,7 mil. lei, din care 48,7 mil. lei cheltuieli de personal (83%), dar anexele cu cifrele pe fiecare unitate nu apar în materialul pus în consultare. Fără ele, publicul nu poate evalua bugetele parcurilor naționale. Legea 52/2003 și Legea 544/2001 impun accesul la date concrete.",
-      "otherComments": "Solicit explicarea în referat a excluderii unității de la pct. 23 din anexa nr. 2 la HG 123/2026 și a motivelor pentru care bugetul pe 2026 se aprobă abia la final de an, practic ex-post. Recomand afișarea expresă a termenului de consultare pe pagina MMAP și publicarea referatului complet, deoarece textul este trunchiat."
+      "articleRef": "Art. 1-2 și anexele nr. 1-23",
+      "proposalContent": "Publicarea integrală a anexelor nr. 1-23 cu indicatorii pe fiecare unitate și completarea referatului cu motivul excluderii pct. 23 din anexa nr. 2 la HG nr. 123/2026. Dacă se dorește derogarea de la plafoanele art. 8 din OG nr. 26/2013, propusă în referat, aceasta trebuie prevăzută expres într-un articol nou.",
+      "argumentation": "Fără anexe, consultarea publică cerută de Legea nr. 52/2003 nu poate avea obiect, deoarece cifrele sunt doar agregate. Excluderea nemotivată a unei unități și derogarea menționată doar în referat afectează claritatea și previzibilitatea actului (art. 1 alin. 5 din Constituție).",
+      "otherComments": "Recomand ca bugetele pentru 2027 să fie supuse consultării la începutul anului, nu în ultimele săptămâni ale exercițiului. Recomand și raportarea separată a gradului de execuție a proiectelor POIM, pentru a reduce riscul de corecții financiare."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 55955,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Aprobarea cu întârziere a bugetelor pe 2026 pentru administrațiile parcurilor naționale și naturale din subordinea Romsilva",
-      "verdictShort": "Act administrativ tehnic fără impact negativ asupra cetățenilor sau mediului privat, dar care aprobă formal bugetele pe anul 2026 abia la sfârșitul lunii octombrie, când exercițiul financiar este aproape încheiat.",
-      "initiatorClaim": "Ministerele inițiatoare urmăresc aprobarea bugetelor de venituri și cheltuieli pe anul 2026 pentru 23 de unități cu personalitate juridică din subordinea RNP - Romsilva (administrațiile parcurilor naționale/naturale și Muzeul Cinegetic Posada), în baza rigorilor de disciplină financiară din OG nr. 26/2013.",
-      "realityCheck": "Ordinul nu introduce taxe, sancțiuni sau sarcini birocratice pentru cetățeni ori firme, însă transformă controlul bugetar preventiv într-o simplă formalitate post-factum prin lansarea în consultare publică pe 26 octombrie 2026. Din bugetul total de 58,66 milioane lei, 48,69 milioane lei (peste 83%) merg pe cheltuieli de personal, cu un câștig mediu brut de 11.705 lei/salariat și beneficii din CCM ce includ 5-6 mc de lemn de foc pe an pentru fiecare angajat.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 64879,
+      "sourceEndMarker": "SF-6BE0E07B",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Bugetele pe 2026 ale parcurilor naționale și Muzeului Posada, aprobate abia în octombrie",
+      "verdictShort": "Act administrativ tehnic fără taxe sau poveri directe pentru cetățeni, dar cu probleme serioase de disciplină bugetară și transparență: bugetele pe 2026 sunt puse în consultare abia la final de octombrie, fără anexele financiare, iar referatul de aprobare cere acoperirea retroactivă a eventualelor cheltuieli făcute peste plafoanele legale.",
+      "initiatorClaim": "Inițiatorii susțin că aprobă bugetele de venituri și cheltuieli pe 2026 pentru 22 de administrații de parcuri naționale/naturale și Muzeul Cinegetic „Posada” (unități Romsilva) în echilibru financiar, fără majorări salariale față de noiembrie 2025 și cu respectarea legilor fiscal-bugetare.",
+      "realityCheck": "Textul propriu-zis al ordinului are doar 4 articole formale și trimite la Anexele nr. 1–23, care nu sunt incluse în documentul pus în consultare, făcând imposibil controlul public pe fiecare parc. Mai grav, aprobarea vine în luna a zecea a anului fiscal, iar Referatul de aprobare propune validarea cheltuielilor deja realizate chiar dacă au depășit plafoanele provizorii din art. 8 al OG nr. 26/2013, deși un ordin de ministru nu poate deroga de la o ordonanță de guvern.",
       "affectedGroups": [
         "Agricultură & Mediu",
-        "Angajați & HR"
+        "Angajați & HR",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 1 și 2 aprobă bugetele pe anul 2026 pentru 23 de unități din subordinea Romsilva (prevăzute în anexa nr. 2 pct. 1-22 și pct. 24 din HG nr. 123/2026), cu venituri și cheltuieli totale egale, în sumă de 58.669 mii lei.",
-        "Conform Referatului de aprobare, cheltuielile de personal reprezintă 83% din bugetul total (48.694 mii lei), incluzând tichete de masă (1.180 mii lei), cheltuieli sociale (587 mii lei) și alte drepturi conform CCM (436 mii lei, inclusiv 5-6 mc/an/salariat lemn fasonat de foc).",
-        "Proiectul de buget pentru întregul an 2026 a fost publicat în transparență decizională abia pe 26 octombrie 2026, ceea ce înseamnă că unitățile au funcționat 10 luni fără buget aprobat prin ordin interministerial."
+        "Anexele nr. 1–23, declarate parte integrantă din act prin Art. 2, lipsesc din proiectul afișat, publicul având acces doar la câteva cifre agregate din Referatul de aprobare.",
+        "Întârziere masivă și tentativă de derogare ascunsă în Referat: BVC pe 2026 este avizat de CA Romsilva abia la 21.10.2026 și pus în consultare la 26.10.2026, iar Referatul cere ca nivelul cheltuielilor aprobate să acopere sumele „efectiv realizate” chiar dacă au depășit plafoanele legale din art. 8 alin. (1), (2) și (4) al OG nr. 26/2013.",
+        "Structură bugetară dominată de salarii și neclaritate la fondurile UE: cheltuielile de personal (48.694 mii lei; câștig mediu 11.705 lei/lună, plus tichete și 5-6 mc lemn de foc/an) reprezintă 83% din bugetul total de 58.669 mii lei, iar investițiile proprii sunt doar 642 mii lei (față de 14.572 mii lei din fonduri UE). În plus, nu reiese cum se reconciliază veniturile totale de 58,67 mil. lei cu fluxurile de 44,36 mil. lei din fonduri europene."
       ],
-      "blindSpotsCaught": "Depășirea severă a termenelor legale din OG nr. 26/2013 (care impune aprobarea bugetelor de venituri și cheltuieli imediat după adoptarea legii bugetului de stat), precum și omiterea neexplicată în Referatul de aprobare a poziției nr. 23 din anexa nr. 2 la HG nr. 123/2026 (ordinul vizează doar pct. 1-22 și pct. 24).",
-      "constitutionalityNote": "Ordinul este emis în limitele de competență ale celor trei ministere, însă adoptarea bugetului anual în ultimele două luni ale anului bugetar golește de substanță principiul previzibilității și legalității disciplinei financiare (Art. 1 alin. 5 din Constituția României).",
-      "euLawNote": "Actul nu ridică probleme de compatibilitate cu Directiva (UE) 2018/958 privind testul de proporționalitate sau cu Directiva (UE) 2015/1535 (TRIS), ci doar integrează în bugetele administrațiilor de parcuri venituri și cheltuieli din fonduri europene nerambursabile în valoare de 44.361 mii lei.",
+      "blindSpotsCaught": "În antepenultimul paragraf al Referatului de aprobare este strecurată o cerere de amnistie bugetară retroactivă pentru cheltuielile care au depășit plafoanele de 1/12 impuse de art. 8 din OG nr. 26/2013 până la aprobarea bugetului — solicitare ce nu apare în articolele ordinului și nici nu ar putea fi reglementată legal printr-un ordin comun. Totodată, ordinul vizează pct. 1–22 și pct. 24 din Anexa 2 la HG nr. 123/2026, sărind fără nicio explicație peste pct. 23 (probabil structura de cabaline), și invocă proiecte POIM în 2026 fără a lămuri dacă sunt proiecte fazate.",
+      "constitutionalityNote": "Art. 1 alin. (5) din Constituție (calitatea, previzibilitatea actului și ierarhia normelor) este vulnerabilizat din două direcții: (1) lipsa Anexelor nr. 1–23 goleşte de conținut art. 2 și consultarea publică; (2) propunerea din Referatul de aprobare de a acoperi cheltuieli peste limitele art. 8 din OG nr. 26/2013 nu poate produce efecte printr-un act administrativ subsecvent și ridică probleme și față de art. 15 alin. (2) (neretroactivitate). Art. 23 alin. (12) nu este incident, actul neinstituind sancțiuni penale.",
+      "euLawNote": "Proiectul nu reglementează profesii, servicii digitale ori standarde tehnice și nu creează bariere pe piața unică, deci nu intră sub incidența Directivei (UE) 2018/958 (testul de proporționalitate) și nici a Directivei (UE) 2015/1535 (TRIS). Există însă relevanță indirectă din perspectiva bunei gestiuni financiare a fondurilor europene (44,36 mil. lei în 2026, +142,8% față de 2025), unde întârzierea de 10 luni în aprobarea bugetelor afectează predictibilitatea cofinanțării și a implementării proiectelor din ariile protejate.",
       "senatForm": {
-        "articleRef": "Art. 2 și Referatul de aprobare",
-        "proposalContent": "Se completează Art. 2 cu un nou alineat: „(2) Execuția bugetară realizată până la data intrării în vigoare a prezentului ordin se regularizează cu încadrarea strictă în plafoanele anuale aprobate în anexele nr. 1-23, iar anexele bugetare defalcate pe fiecare parc național/natural se publică pe site-ul MMAP.”",
-        "argumentation": "Aprobarea bugetelor pe 2026 abia în noiembrie 2026 încalcă spiritul OG nr. 26/2013 privind disciplina financiară preventivă. De asemenea, în consultarea publică nu au fost detaliate anexele 1-23 aferente fiecărei administrații de parc, deși cheltuielile de personal absorb 83% din totalul bugetat (48,69 mil. lei din 58,66 mil. lei).",
-        "otherComments": "Solicităm clarificarea în Referatul de aprobare a motivului pentru care unitatea prevăzută la anexa nr. 2 pct. 23 din HG nr. 123/2026 a fost exceptată de la acest ordin comun (care acoperă doar pct. 1-22 și pct. 24), precum și justificarea acordării a 5-6 mc/an de lemn de foc per salariat în cadrul administrațiilor de parcuri și al Muzeului Posada."
+        "articleRef": "Art. 2 și Anexele nr. 1-23",
+        "proposalContent": "Solicit publicarea integrală în consultare publică a Anexelor nr. 1-23 și introducerea unui articol care să impună respectarea strictă a plafoanelor din art. 8 alin. (1), (2) și (4) din OG nr. 26/2013, eliminând din Referatul de aprobare propunerea de acoperire retroactivă a cheltuielilor ce depășesc limitele legale.",
+        "argumentation": "Fără Anexele 1-23, consultarea publică conform Legii nr. 52/2003 este formală, cetățenii neputând verifica bugetul fiecărui parc. Totodată, un ordin de ministru nu poate deroga de la art. 8 din OG nr. 26/2013 (ierarhia actelor normative, art. 1 alin. 5 din Constituție) pentru a valida retroactiv cheltuieli efectuate peste plafoanele provizorii din 2026.",
+        "otherComments": "Vă rugăm să clarificați și: (1) de ce BVC 2026 este supus aprobării abia la finalul lunii octombrie 2026; (2) relația contabilă dintre veniturile totale (58,67 mil. lei) și fondurile UE (44,36 mil. lei); (3) motivul excluderii unității de la pct. 23 din Anexa 2 la HG nr. 123/2026 și ponderea de 83% a cheltuielilor de personal."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 38109,
+      "durationMs": 36599,
+      "sourceEndMarker": "SF-6BE0E07B",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Ministerele aprobă bugetele pe 2026 ale parcurilor naționale și naturale administrate de Romsilva și ale Muzeului Cinegetic Posada",
-      "verdictShort": "Este un act tehnic și benign: aprobă bugetele anuale ale unor unități de stat, fără obligații, taxe sau sancțiuni pentru cetățeni ori firme. Problemele reale țin de transparență și de calendar: bugetul pe 2026 se aprobă abia la final de an, iar anexele cu cifrele nu apar în materialul extras.",
-      "initiatorClaim": "Inițiatorii vor să aprobe, prin ordin comun al MMAP, MMFTSS și MF, bugetele de venituri și cheltuieli pe 2026 ale celor 23 de unități cu personalitate juridică din subordinea Romsilva (pct. 1-22 și 24 din anexa nr. 2 la HG nr. 123/2026). Temeiul este art. 4 alin. (1) lit. b) din OG nr. 26/2013.",
-      "realityCheck": "Ordinul are 4 articole pur procedurale: aprobă bugetele, trimite la anexele nr. 1-23, obligă unitățile să le execute și dispune publicarea. Bugetul cumulat este echilibrat, cu 58.669 mii lei venituri și cheltuieli, din care 48.694 mii lei (circa 83%) sunt cheltuieli de personal, iar fondurile europene însumează 44.361 mii lei. Efectul practic al aprobării în noiembrie 2026 este validarea aproape ex-post a unui an bugetar deja consumat, iar unitatea de la pct. 23 este exclusă fără vreo explicație în referat.",
+      "plainTitle": "Bugetele pe 2026 ale parcurilor naționale și naturale Romsilva și ale Muzeului Cinegetic Posada",
+      "verdictShort": "Ordin tehnic de aprobare a 23 de bugete, fără efecte asupra cetățenilor sau firmelor. Problemele reale sunt aprobarea întârziată, aproape la final de an, și lipsa anexelor cu cifrele pe fiecare unitate din textul pus în consultare.",
+      "initiatorClaim": "Ministerele vor să aprobe, conform art. 4 din OG nr. 26/2013, bugetele pe 2026 ale unităților Romsilva care administrează arii protejate și ale Muzeului Posada. Susțin că bugetele respectă înghețarea salarială din art. XXXVI al OUG nr. 89/2025.",
+      "realityCheck": "Art. 1-4 doar aprobă bugetele din anexele 1-23: venituri și cheltuieli de 58.669 mii lei, din care 48.694 mii lei cheltuieli de personal (circa 83%), plus 44.361 mii lei din fonduri europene. Ordinul este emis în noiembrie 2026 pentru anul 2026, așa că validează în mare parte cheltuieli deja făcute. Unitatea de la pct. 23 din anexa nr. 2 la HG nr. 123/2026 este exclusă fără nicio explicație.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "Angajați & HR"
       ],
       "keyFindings": [
-        "Art. 1-3: actul nu creează drepturi sau obligații pentru cetățeni ori IMM-uri. Aprobă exclusiv bugetele unor operatori economici de stat (administrații de parcuri și Muzeul Cinegetic Posada), deci nu are impact birocratic sau fiscal extern.",
-        "Referat: cheltuielile cu salariile scad cu 1,0% (496 mii lei) față de BVC 2025, cu respectarea înghețării salariale din art. XXXVI din OUG nr. 89/2025. Câștigul mediu lunar recalculat este de 11.705 lei/persoană, iar beneficiile din CCM includ tichete de 16 lei/zi și 5-6 mc de lemn de foc pe an pentru fiecare salariat.",
-        "Referat: dependența de fonduri europene este majoră. Cele 44.361 mii lei (+142,8% față de 2025) provin în principal din proiecte POIM, iar APN Munții Rodnei singură are 16.357 mii lei. Orice întârziere în implementare dezechilibrează direct bugetele aprobate.",
-        "Art. 1-3 vizează pct. 1-22 și pct. 24 din anexa nr. 2 la HG nr. 123/2026, deci exclud pct. 23. Nici ordinul, nici referatul nu precizează ce unitate este exclusă și de ce.",
-        "Contribuțiile angajatorului (1.052 mii lei) sunt coerente cu CAM de 2,25% aplicat fondului de salarii. Nu se observă o anomalie de calcul."
+        "Art. 2 trimite la anexele nr. 1-23, care conțin tot conținutul economic, dar ele nu apar în textul publicat. Fără anexe, publicul nu poate evalua nimic concret.",
+        "Art. 1-3 vizează pct. 1-22 și 24 din anexa nr. 2 la HG nr. 123/2026. Pct. 23 este omis, iar nici ordinul, nici referatul nu explică de ce (buget separat, pierderi sau altă procedură?).",
+        "Referatul propune ca, până la aprobare, cheltuielile să fie la nivelul celor realizate chiar dacă depășesc plafoanele art. 8 din OG nr. 26/2013. Această derogare nu apare în niciun articol al ordinului, deci nu are efect juridic.",
+        "Salariile scad cu 1,0% față de bugetul aprobat pe 2025, conform înghețării din OUG nr. 89/2025. Câștigul mediu lunar este de 11.705 lei. Beneficiile din CCM (tichete de 16 lei/zi, 5-6 mc de lemn de foc/an/salariat, ajutoare sociale) sunt menținute.",
+        "Cheltuielile din fonduri europene cresc cu 142,8%, concentrate pe proiecte POIM (de exemplu APN Munții Rodnei, 16.357 mii lei). Asta crește riscul de neexecutare sau de corecții financiare dacă implementarea întârzie."
       ],
-      "blindSpotsCaught": "Bugetul pe 2026 este pus în consultare abia pe 26 octombrie 2026, deci aprobarea vine practic după ce cheltuielile au fost efectuate. Asta golește de conținut controlul ex-ante urmărit de OG nr. 26/2013. Pe lângă asta, unitatea de la pct. 23 din anexa nr. 2 la HG nr. 123/2026 este exclusă nemotivat, iar textul referatului este trunchiat la final. Termenul de consultare nu este afișat pe pagina instituției, ceea ce afectează previzibilitatea procedurii prevăzute de Legea nr. 52/2003.",
-      "constitutionalityNote": "Nu se ridică probleme de constituționalitate substanțială. Ordinul este un act administrativ de executare emis în temeiul OG nr. 26/2013, al art. 57 din Codul administrativ și al HG-urilor de organizare a ministerelor, deci în limitele competenței (art. 108 și art. 120 din Constituție, prin analogie cu principiul legalității). Claritatea normei (art. 1 alin. (5)) este suficientă, cu rezerva că efectul juridic real depinde integral de anexe. Publicarea în Monitorul Oficial, Partea I, este prevăzută expres.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, deoarece actul nu reglementează accesul la profesii sau exercitarea acestora. Directiva (UE) 2015/1535 (TRIS) nu se aplică, deoarece actul nu conține reglementări tehnice și nu vizează servicii ale societății informaționale. Pe ajutoarele de stat (art. 107 TFUE) nu se ridică probleme evidente: unitățile administrează arii naturale protejate, o activitate de interes public preponderent nonconcurențială, iar finanțarea europeană urmează regulile POIM. Creșterea de cabaline, menționată în HG, nu face obiectul acestor bugete.",
+      "blindSpotsCaught": "Bugetul anual se aprobă cu aproximativ o lună înainte de sfârșitul exercițiului, deci consultarea publică este în practică ex post. Referatul conține o cerere de derogare de la plafoanele art. 8 din OG nr. 26/2013 care nu a fost transpusă în dispozitiv. Titlul de pe pagina de transparență vorbește de „bugetul” (singular), iar textul de „bugetele”. Referatul citează denumirile vechi ale ministerelor din OG nr. 26/2013, ceea ce nu are efecte juridice.",
+      "constitutionalityNote": "Nu se pune o problemă de constituționalitate în sens propriu: este un act administrativ individual-colectiv, emis pe baza art. 4 alin. (1) lit. b) din OG nr. 26/2013 și a Codului administrativ. Aprobarea târzie ridică doar o problemă de previzibilitate și bună administrare (art. 1 alin. 5), deoarece unitățile au funcționat aproape tot anul sub regimul provizoriu al art. 8 din OG nr. 26/2013. Ordinul nu impune obligații terților.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă, pentru că ordinul nu reglementează accesul la profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu există reglementări tehnice sau servicii digitale. Singurul punct de legătură cu dreptul UE este gestionarea fondurilor POIM: cheltuielile trebuie să respecte planurile financiare ale proiectelor și regulile de eligibilitate. Ordinul nu ridică probleme de ajutor de stat, fiind vorba de administrarea unor arii protejate.",
       "senatForm": {
-        "articleRef": "Art. 2 și Anexele nr. 1–23",
-        "proposalContent": "Propun completarea Art. 2 cu: „Anexele nr. 1–23 se publică integral în Monitorul Oficial și pe site-urile MMAP și RNP-Romsilva, cu indicarea distinctă, pentru fiecare unitate, a cheltuielilor de personal, a sumelor din fonduri europene și a investițiilor.”",
-        "argumentation": "Ordinul aprobă circa 58,7 mil. lei, din care 48,7 mil. lei cheltuieli de personal (83%), dar anexele cu cifrele pe fiecare unitate nu apar în materialul pus în consultare. Fără ele, publicul nu poate evalua bugetele parcurilor naționale. Legea 52/2003 și Legea 544/2001 impun accesul la date concrete.",
-        "otherComments": "Solicit explicarea în referat a excluderii unității de la pct. 23 din anexa nr. 2 la HG 123/2026 și a motivelor pentru care bugetul pe 2026 se aprobă abia la final de an, practic ex-post. Recomand afișarea expresă a termenului de consultare pe pagina MMAP și publicarea referatului complet, deoarece textul este trunchiat."
+        "articleRef": "Art. 1-2 și anexele nr. 1-23",
+        "proposalContent": "Publicarea integrală a anexelor nr. 1-23 cu indicatorii pe fiecare unitate și completarea referatului cu motivul excluderii pct. 23 din anexa nr. 2 la HG nr. 123/2026. Dacă se dorește derogarea de la plafoanele art. 8 din OG nr. 26/2013, propusă în referat, aceasta trebuie prevăzută expres într-un articol nou.",
+        "argumentation": "Fără anexe, consultarea publică cerută de Legea nr. 52/2003 nu poate avea obiect, deoarece cifrele sunt doar agregate. Excluderea nemotivată a unei unități și derogarea menționată doar în referat afectează claritatea și previzibilitatea actului (art. 1 alin. 5 din Constituție).",
+        "otherComments": "Recomand ca bugetele pentru 2027 să fie supuse consultării la începutul anului, nu în ultimele săptămâni ale exercițiului. Recomand și raportarea separată a gradului de execuție a proiectelor POIM, pentru a reduce riscul de corecții financiare."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 76477,
+      "durationMs": 61922,
+      "sourceEndMarker": "SF-6BE0E07B",
       "riskScore": 3,
       "riskLevel": "green",
       "plainTitle": "Bugetele pe 2026 pentru parcurile și muzeul din subordinea Romsilva",
-      "verdictShort": "Proiectul este preponderent tehnic: aprobă bugete și nu introduce taxe, sancțiuni sau restricții pentru cetățeni ori firme. Principala rezervă privește lipsa celor 23 de anexe din materialul furnizat, fără de care repartizarea banilor nu poate fi auditată.",
-      "initiatorClaim": "Inițiatorii urmăresc aprobarea bugetelor unităților Romsilva care administrează parcuri naturale și naționale și Muzeul Cinegetic „Posada”. Referatul susține respectarea disciplinei financiare și a restricțiilor salariale aplicabile în 2026.",
-      "realityCheck": "Articolele 1–2 aprobă bugetele a 23 de unități, iar articolele 3–4 stabilesc executarea și publicarea ordinului; efectul financiar concret se află în anexe. Afirmațiile despre înghețarea salariilor, bonusuri și investiții provin din referat și necesită verificare în bugetele individuale. Fiind un ordin comun, actul urmează procedura administrativă de emitere, nu procedura parlamentară de adoptare a unei legi.",
+      "verdictShort": "Proiectul este predominant tehnic: aprobă bugete, fără să introducă taxe, sancțiuni sau restricții pentru public. Verificarea rămâne incompletă deoarece lipsesc cele 23 de anexe, iar referatul ridică o problemă privind cheltuielile efectuate înaintea aprobării bugetelor.",
+      "initiatorClaim": "Inițiatorii urmăresc finanțarea administrării parcurilor, a muzeului și a proiectelor europene, cu respectarea limitelor salariale și a disciplinei financiare. Referatul prezintă venituri și cheltuieli totale egale, de câte 58.669 mii lei.",
+      "realityCheck": "Art. 1–2 aprobă bugetele pentru 23 de unități determinate și încorporează anexele; art. 3 stabilește executarea, iar art. 4 publicarea ordinului. Referatul propune aprobarea unor cheltuieli la nivelul efectiv realizat, inclusiv când depășesc plafoanele aplicabile anterior aprobării, dar această formulare nu apare în articole și nu constituie singură o derogare. Fără anexe nu pot fi controlate alocările individuale, sursele de finanțare sau respectarea plafoanelor.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "Angajați & HR",
         "Contabili & Fiscalitate"
       ],
       "keyFindings": [
-        "Art. 2 încorporează 23 de anexe, absente din materialul furnizat. Cele 22 de poziții de la pct. 1–22, împreună cu pct. 24, corespund numeric celor 23 de bugete; omiterea pct. 23 nu dovedește, singură, o neregulă.",
-        "Referatul indică venituri și cheltuieli totale egale, de 58.669 mii lei, dintre care 48.694 mii lei cheltuieli de personal, aproximativ 83%. Ponderea ridicată nu demonstrează prin ea însăși risipă sau nelegalitate.",
-        "Creșterea cheltuielilor cu salariile față de execuția din 2025 nu contrazice automat menținerea salariilor individuale. Explicația privind economiile din anul anterior trebuie însă susținută prin date despre personal, perioade lucrate și finanțarea din proiecte.",
-        "Condiția privind absența pierderilor contabile anterioare, invocată pentru anumite bonusuri, trebuie verificată pentru fiecare operator vizat. Echilibrul bugetar agregat și absența plăților restante nu demonstrează îndeplinirea acestei condiții.",
-        "Suma de 44.361 mii lei pentru fonduri europene trebuie reconciliată cu totalurile și investițiile din anexe. Extrasul nu permite stabilirea eventualelor suprapuneri; simpla prezentare separată nu dovedește dublă finanțare.",
-        "Art. 1–4 nu creează obligații administrative sau costuri directe pentru cetățeni și IMM-uri. Aprobarea spre sfârșitul anului justifică explicarea finanțării activității anterioare, dar nu dovedește automat cheltuieli nelegale."
+        "Art. 1–2 vizează punctele 1–22 și 24 din anexa nr. 2 la HG nr. 123/2026: sunt 23 de poziții, corespunzătoare numeric anexelor nr. 1–23. Excluderea punctului 23 nu dovedește, singură, un tratament nelegal.",
+        "Anexele sunt chiar obiectul aprobării bugetare, dar nu sunt incluse în materialul furnizat. Aceasta este o limită a auditului, nu dovada că ministerul nu le-a publicat.",
+        "Pasajul final din referat despre cheltuieli efective care depășesc plafoanele necesită justificare distinctă. Aprobarea ulterioară a bugetului nu demonstrează, prin ea însăși, legalitatea cheltuielilor efectuate anterior; trebuie verificate regulile și eventualele aprobări permise de art. 8 din OG nr. 26/2013.",
+        "Creșterea cu 1,7% a cheltuielilor salariale față de execuția din 2025 nu dovedește automat majorarea salariilor individuale. Explicația privind economiile din 2025 trebuie verificată prin datele fiecărei unități, inclusiv condițiile privind pierderile contabile invocate pentru bonusuri.",
+        "Art. 1–4 nu conțin derogări exprese, abrogări, sancțiuni sau modificări ale altor acte. Referatul menționează separat 44.361 mii lei din fonduri europene, însă lipsa anexelor împiedică verificarea relației acestei sume cu totalurile și investițiile."
       ],
-      "blindSpotsCaught": "Termenul de 5 noiembrie este prezentat ca estimare și nu poate fi tratat drept termen oficial. Dacă procedura Legii nr. 52/2003 este aplicabilă, intervalul pentru recomandări și perioada de publicitate înaintea adoptării sunt cerințe distincte: în principiu, minimum 10 zile calendaristice pentru recomandări și publicarea anunțului cu cel puțin 30 de zile lucrătoare înaintea supunerii spre avizare. Natura normativă sau individuală a aprobării unor bugete determinate trebuie examinată, nu presupusă doar din denumirea de ordin. Accesul la sursele oficiale nu a fost disponibil pentru verificare independentă; analiza se bazează pe extrasele furnizate, iar referatul este trunchiat.",
-      "constitutionalityNote": "Din articolele furnizate nu rezultă o încălcare constituțională evidentă. Art. 1 alin. (5) impune verificarea competenței emitenților, a încadrării unităților în temeiul legal invocat și a identificării clare a anexelor; simpla personalitate juridică nu demonstrează toate condițiile aplicării OG nr. 26/2013. Art. 23 alin. (12) privește legalitatea pedepselor și nu este incident, deoarece proiectul nu instituie pedepse. Aprobarea unui buget anual după începerea exercițiului nu constituie, prin ea însăși, retroactivitate și nici nu validează automat eventuale cheltuieli nelegale anterioare.",
-      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementărilor care restrâng accesul la profesii reglementate sau exercitarea acestora; proiectul prezentat nu introduce asemenea restricții. Nu apar specificații tehnice pentru produse sau reguli privind servicii ale societății informaționale care să indice o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535. Nu se identifică bariere concurențiale în articolele 1–4. Eventualele probleme de ajutor de stat, achiziții ori finanțare europeană depind de activitățile și finanțările concrete din anexe; aprobarea bugetelor nu dovedește singură existența lor.",
+      "blindSpotsCaught": "Problema subtilă apare în referat, spre final: se cere adaptarea bugetelor la cheltuieli deja realizate peste plafoane. Această explicație nu trebuie confundată cu o autorizare juridică înscrisă în ordin. De asemenea, termenul de consultare indicat este estimat și nu permite constatarea unei încălcări a Legii nr. 52/2003. Formele actualizate ale temeiurilor legale și documentele originale nu au putut fi verificate online.",
+      "constitutionalityNote": "Din articolele furnizate nu rezultă o încălcare constituțională evidentă. Art. 1 alin. (5) din Constituție impune respectarea actelor superioare și o reglementare accesibilă, ceea ce face esențiale anexele și justificarea încadrării cheltuielilor în lege. Un ordin nu poate înlătura limite stabilite prin ordonanță fără o abilitare legală aplicabilă. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident: proiectul nu instituie pedepse. Nu există o dispoziție expresă de aplicare retroactivă; aprobarea unui buget anual în cursul anului nu dovedește singură retroactivitate neconstituțională.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor asupra accesului la profesii reglementate și exercitării acestora; asemenea restricții nu apar aici. Proiectul nu introduce reglementări tehnice pentru produse sau reguli privind servicii ale societății informaționale care să indice o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535. Nu rezultă bariere noi pentru IMM-uri sau concurenți. Eventuala incidență a regulilor privind ajutoarele de stat depinde de activitățile economice finanțate și de sursele concrete, imposibil de stabilit fără anexe; simpla aprobare a bugetelor nu dovedește existența unui ajutor incompatibil.",
       "senatForm": {
         "articleRef": "Art. 2",
-        "proposalContent": "Bugetele de venituri și cheltuieli prevăzute la art. 1 sunt cuprinse în anexele nr. 1–23, care fac parte integrantă din prezentul ordin. Fiecare anexă identifică unitatea beneficiară prin denumirea completă și poziția corespunzătoare din anexa nr. 2 la Hotărârea Guvernului nr. 123/2026.",
-        "argumentation": "Identificarea expresă a fiecărei unități asigură corespondența verificabilă între cele 23 de bugete și pozițiile 1–22 și 24 din hotărârea invocată. Precizarea sprijină claritatea actului și controlul utilizării fondurilor, fără să modifice alocările bugetare.",
-        "otherComments": "Solicit publicarea integrală a celor 23 de anexe, precizarea termenului oficial pentru recomandări și explicarea aprobării târzii. Referatul ar trebui să reconcilieze fondurile europene cu totalurile bugetare și să documenteze, pentru fiecare unitate, condițiile acordării bonusurilor."
+        "proposalContent": "Bugetele prevăzute la art. 1 sunt cuprinse în anexele nr. 1–23, care fac parte integrantă din prezentul ordin și se publică împreună cu acesta în Monitorul Oficial al României, Partea I.",
+        "argumentation": "Anexele conțin indicatorii efectiv aprobați. Publicarea lor integrală permite identificarea sumelor și verificarea legalității bugetelor, în acord cu cerințele de accesibilitate și previzibilitate rezultate din art. 1 alin. (5) din Constituție.",
+        "otherComments": "Solicit publicarea anexelor și justificarea, pentru fiecare unitate, a cheltuielilor efectuate înaintea aprobării bugetului, cu indicarea plafoanelor și a aprobărilor aplicabile potrivit art. 8 din OG nr. 26/2013. Referatul nu poate constitui singur temei pentru depășirea limitelor legale."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-10T14:19:14.155Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:48:10.112Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

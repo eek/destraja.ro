@@ -1,122 +1,150 @@
 {
   "billId": "Pl-x 585/2026",
   "slug": "plx-585-2026",
-  "updatedAt": "2026-10-28T22:52:54.759Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T12:37:22.266Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 3304,
+    "ordinanceChars": 0,
+    "memoChars": 7632,
+    "memoSupplied": 7632,
+    "marker": "SF-EA27E755"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-585-2026.json",
+    "form": "initiator",
+    "textHash": "ea27e7558dbaa37f",
+    "fetchedAt": "2026-11-19T11:20:06.048Z",
+    "acts": 2,
+    "actsFound": 2,
+    "actsRepealed": 0,
+    "articlesFound": 2,
+    "articlesShown": 2,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1990,
+    "truncated": false,
+    "included": true,
+    "key": "71d06bc011bdb6cc"
+  },
   "consensus": {
-    "riskScore": 3.3,
+    "riskScore": 3.5,
     "riskLevel": "green",
-    "plainTitle": "Pensionarii ar putea direcționa 3,5% din impozit către ONG-uri și culte",
-    "summaryTlDr": "Ideea e rezonabilă și ieftină: pensionarii care plătesc impozit primesc dreptul pe care salariații îl au deja prin Formularul 230. Problema e Art. II, care, prezentat drept „clarificare”, poate schimba împărțirea impozitului pe pensii între stat și primării fără nicio cifră.",
-    "initiatorClaim": "Cei 62 de parlamentari AUR inițiatori spun că pensionarii sunt singurii contribuabili care nu pot direcționa 3,5% din impozit, o diferență pe care o consideră nejustificată. Susțin că extinderea mecanismului ar sprijini ONG-urile și cultele fără cheltuieli bugetare suplimentare, iar Art. II ar fi doar o clarificare.",
-    "realityCheck": "Art. I preia mecanismul Formularului 230. Pensionarul cere, până la 25 mai, ca ANAF să vireze 3,5% din impozitul reținut pe pensie către un ONG sau o unitate de cult din registrul oficial. Măsura contează doar pentru cei cu pensii peste pragul neimpozabil de 3.000 lei/lună, iar sumele sunt mici: circa 40 de lei pe an la o pensie de 4.000 lei. Art. II, prezentat ca „clarificare”, scoate pensiile din regula care ține integral la bugetul de stat impozitul pe pensii. Acea regulă privește împărțirea cu bugetele locale, așa că efectul real poate fi o mutare de bani între bugete, pe care nimeni nu a evaluat-o.",
+    "plainTitle": "Pensionarii ar putea redirecționa 3,5% din impozit către ONG-uri și biserici",
+    "summaryTlDr": "Intenția legii este pozitivă și elimină o diferență de tratament față de salariați, dar execuția are o eroare tehnică serioasă la Art. II care afectează bugetul de stat dincolo de cei 3,5%. Fără fișă financiară, corelări tehnice și termen de aplicare, proiectul riscă blocaje practice și neconstituționalitate.",
+    "initiatorClaim": "Inițiatorii susțin că elimină o discriminare din Codul fiscal, oferind pensionarilor care plătesc impozit pe venit dreptul de a redirecționa 3,5% către ONG-uri și unități de cult, fără cheltuieli bugetare suplimentare și cu o clarificare tehnică în OUG nr. 115/2023.",
+    "realityCheck": "Pe fond, proiectul extinde mecanismul de redirecționare (până la 3,5%, valabil până la 2 ani) la pensiile impozitate din România. Însă Art. II confundă «redistribuirea» impozitului pe pensii către bugetele locale (blocată prin art. LVIII din OUG nr. 115/2023) cu redirecționarea de 3,5%, deschizând neintenționat transferul întregului impozit pe pensii de la bugetul de stat spre bugetele locale. În plus, legea nu are sursă de finanțare, nici dată de aplicare și conține necorelări între impozitul lunar și cel anual.",
     "affectedGroups": [
-      "Contabili & Fiscalitate",
-      "Sănătate & Educație",
       "Toți cetățenii",
+      "Contabili & Fiscalitate",
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. II (art. LVIII din OUG nr. 115/2023)",
-      "proposalContent": "Se elimină Art. II. În art. 101² se introduce alin. (6): «Sumele prevăzute la alin. (1) se plătesc din impozitul pe venitul din pensii încasat la bugetul de stat, prin derogare de la art. LVIII din OUG nr. 115/2023, care rămâne aplicabil în rest.»",
-      "argumentation": "Art. LVIII ține integral la bugetul de stat impozitul pe pensii, adică nu îl împarte cu bugetele locale; nu privește Formularul 230. Scoaterea pensiilor nu e necesară pentru redirecționare, dar poate muta bani de la bugetul de stat la bugetele locale, impact neevaluat în Expunerea de motive (art. 111 alin. (1), 138 alin. (5) Constituție).",
-      "otherComments": "Separat, în art. 101²: la alin. (1) „3,5%” să devină „până la 3,5%”, ca la alin. (3) și la salariați; să se adauge bursele private; „Contribuabili” → „Contribuabilii”; „aceștia” (alin. (3)) → „contribuabilii”. Să se prevadă data de la care se aplică (art. 4 din Codul fiscal: minimum 6 luni de la publicare)."
+      "articleRef": "Art. I (art. 101^2) și Art. II",
+      "proposalContent": "Eliminarea Art. II; la Art. I (art. 101^2): alin. (1) să prevadă «până la 3,5% din impozitul anual aferent veniturilor din pensii» (inclusiv art. 130); termen de 60 zile la alin. (5) pentru ordinul ANAF; adăugarea unui Art. III privind aplicarea începând cu veniturile anului fiscal următor.",
+      "argumentation": "Art. LVIII din OUG 115/2023 blochează redistribuirea către bugetele locale, nu redirecționarea de 3,5%; modificarea lui generează un impact bugetar neevaluat. Clarificarea «până la 3,5% din impozitul anual», termenul pentru ordinul ANAF și data aplicării asigură previzibilitatea (art. 1 alin. 5 Constituție, art. 4 Cod fiscal).",
+      "otherComments": "Comisiile de buget și muncă trebuie să solicite Guvernului fișa financiară (art. 111 alin. 1 și art. 138 alin. 5 Constituție) pentru a evita neconstituționalitatea. De asemenea, art. 101^1 a fost abrogat prin OUG 11/2025, iar în alin. (1) și (4) trebuie corectată eroarea «Contribuabili» în «Contribuabilii»."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 69823,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Dreptul pensionarilor de a redirecționa 3,5% din impozitul pe pensie către ONG-uri și biserici",
-      "verdictShort": "O inițiativă pozitivă și echitabilă care le redă pensionarilor dreptul (abrogat la finalul anului 2023) de a direcționa 3,5% din impozitul pe pensie către ONG-uri și unități de cult. Textul conține însă o confuzie tehnică la Art. II și mici erori de redactare care trebuie corectate în comisii.",
-      "initiatorClaim": "Inițiatorii doresc să elimine discriminarea fiscală dintre salariați și pensionari, permițându-le și celor care plătesc impozit pe pensii să redirecționeze 3,5% din acest impozit către entități nonprofit și unități de cult.",
-      "realityCheck": "La nivel de fond (Art. I), legea reintroduce corect mecanismul formularului 230 pentru pensionarii cu pensii impozabile, fără a crește taxele sau birocrația. Totuși, la Art. II, inițiatorii confundă „redistribuirea” impozitului între bugetul de stat și primării (cotele defalcate din OUG 115/2023) cu „redirecționarea” de 3,5% către ONG-uri, ceea ce ar produce un efect bugetar secundar neintenționat.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 85093,
+      "sourceEndMarker": "SF-EA27E755",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Pensionarii ar putea redirecționa 3,5% din impozit către ONG-uri și biserici",
+      "verdictShort": "Intenția legii este pozitivă și elimină o diferență de tratament față de salariați, dar execuția are o eroare tehnică serioasă la Art. II care afectează bugetul de stat dincolo de cei 3,5%. Fără fișă financiară, corelări tehnice și termen de aplicare, proiectul riscă blocaje practice și neconstituționalitate.",
+      "initiatorClaim": "Inițiatorii susțin că elimină o discriminare din Codul fiscal, oferind pensionarilor care plătesc impozit pe venit dreptul de a redirecționa 3,5% către ONG-uri și unități de cult, fără cheltuieli bugetare suplimentare și cu o clarificare tehnică în OUG nr. 115/2023.",
+      "realityCheck": "Pe fond, proiectul extinde mecanismul de redirecționare (până la 3,5%, valabil până la 2 ani) la pensiile impozitate din România. Însă Art. II confundă «redistribuirea» impozitului pe pensii către bugetele locale (blocată prin art. LVIII din OUG nr. 115/2023) cu redirecționarea de 3,5%, deschizând neintenționat transferul întregului impozit pe pensii de la bugetul de stat spre bugetele locale. În plus, legea nu are sursă de finanțare, nici dată de aplicare și conține necorelări între impozitul lunar și cel anual.",
       "affectedGroups": [
+        "Toți cetățenii",
         "Contabili & Fiscalitate",
-        "Sănătate & Educație",
-        "Toți cetățenii"
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I (art. 101² Codul fiscal): Restabilește dreptul pensionarilor plătitori de impozit pe venit de a redirecționa până la 3,5% din impozit către ONG-uri și unități de cult înscrise în registrul ANAF, inclusiv cu opțiune pe 2 ani.",
-        "Art. II (modificarea art. LVIII din OUG 115/2023): Conține o confuzie tehnică majoră – art. LVIII vizează reținerea integrală la bugetul de stat a impozitului pe pensii, dobânzi, jocuri de noroc și dividende (fără împărțirea în cote defalcate către bugetele locale), nu mecanismul de 3,5% pentru ONG-uri.",
-        "Tehnică legislativă și redactare (Art. I): Noul art. 101² este introdus „după art. 101¹”, deși art. 101¹ a fost abrogat prin OUG 115/2023, iar alin. (1) prevede o cotă fixă („3,5%”) în timp ce alin. (3) prevede o cotă variabilă („până la 3,5%”), existând și dezacorduri gramaticale („Contribuabili pot dispune”)."
+        "Art. II modifică eronat art. LVIII din OUG nr. 115/2023: textul în vigoare reține integral la bugetul de stat impozitul pe pensii (începând cu 1 ianuarie 2024) pentru a nu fi repartizat bugetelor locale ca cote defalcate, nu vizează redirecționarea de 3,5%; scoaterea pensiilor de aici și ștergerea datei de 1 ianuarie 2024 generează un impact bugetar major și neevaluat.",
+        "Lipsa fișei financiare și a sursei de finanțare: contrar afirmației din expunerea de motive, redirecționarea a 3,5% diminuează veniturile bugetului de stat, iar combinată cu Art. II expune legea la neconstituționalitate pe art. 138 alin. (5) și art. 111 alin. (1) din Constituție.",
+        "Necorelări interne în Art. I (noul art. 101² Cod fiscal): alin. (1) indică o cotă fixă de «3,5%» din impozitul stabilit la art. 101 alin. (2) (care este un impozit lunar), în timp ce alin. (2) și (3) se referă la «impozitul anual datorat» și «până la 3,5%»; referința «depuse de aceștia» din alin. (3) are antecedent gramatical greșit, iar alin. (5) nu stabilește un termen pentru ordinul ANAF.",
+        "Lipsa dispozițiilor tranzitorii și a predictibilității: proiectul nu precizează anul fiscal de la care se aplică facilitatea (încălcând regula din art. 4 Cod fiscal), nu include pensiile obținute din străinătate impozitate în România (art. 130) și inserează art. 101² după art. 101¹, care a fost abrogat prin OUG nr. 11/2025."
       ],
-      "blindSpotsCaught": "Capcana tehnică este la Art. II: inițiatorii au crezut că sintagma „nu se redistribuie” din art. LVIII al OUG nr. 115/2023 interzice redirecționarea de 3,5% către ONG-uri (deși în același articol apar impozitele pe dividende, dobânzi și jocuri de noroc, care nu au făcut niciodată obiectul formularului 230). În realitate, acel articol oprește virarea de cote defalcate către bugetele locale conform Legii nr. 273/2006.",
-      "constitutionalityNote": "Sub aspectul scopului, măsura susține principiul egalității în drepturi și al așezării juste a sarcinilor fiscale (art. 16 și art. 56 din Constituție). Însă erorile de tehnică legislativă (raportarea la un articol abrogat și confuzia conceptuală de la Art. II) încalcă standardul de calitate și previzibilitate a legii (art. 1 alin. 5), iar lipsa fișei financiare și a solicitării informării Guvernului poate ridica probleme pe art. 138 alin. (5) din Constituție dacă Art. II nu este eliminat.",
-      "euLawNote": "Nu există incidente pe dreptul Uniunii Europene: măsura vizează impozitarea directă a persoanelor fizice și finanțarea voluntară a sectorului nonprofit, fără a restricționa accesul la profesii reglementate (Directiva 2018/958), libera circulație pe piața unică sau serviciile societății informaționale (Directiva TRIS 2015/1535).",
+      "blindSpotsCaught": "Cea mai importantă chichiță ascunsă este în Art. II: inițiatorii cred că art. LVIII din OUG nr. 115/2023 blochează redirecționarea de 3,5% către ONG-uri, când în realitate sintagma «se reține integral la același buget și nu se redistribuie» blochează alocarea cotelor defalcate din impozitul pe pensii către primării și consilii județene. Eliminarea pensiilor din art. LVIII (în loc de introducerea unei derogări stricte pentru art. 101²) ar redeschide distribuirea masivă a acestui impozit spre bugetele locale. În plus, proiectul se ancorează legislativ după art. 101¹ din Codul fiscal, articol deja abrogat din 13 martie 2025 prin OUG nr. 11/2025.",
+      "constitutionalityNote": "Risc ridicat de neconstituționalitate extrinsecă în raport cu art. 138 alin. (5) și art. 111 alin. (1) din Constituție: diminuarea veniturilor bugetului de stat (atât prin cota de 3,5%, cât și prin efectul Art. II) obligă la solicitarea fișei financiare de la Guvern și indicarea sursei de finanțare. Există și vulnerabilități pe art. 1 alin. (5) (calitatea și previzibilitatea legii) din cauza contradicțiilor «3,5%» vs «până la 3,5%», impozit lunar (art. 101 alin. 2) vs impozit anual, absenței termenului pentru ordinul ANAF și a lipsei normelor tranzitorii. Pe art. 16 alin. (1) (egalitate), măsura repară diferența față de salariați, dar exclude nejustificat pensionarii cu pensii din străinătate (art. 130).",
+      "euLawNote": "Impozitarea directă a pensiilor ține de competența națională; proiectul nu afectează profesii reglementate (Directiva (UE) 2018/958 nu se aplică) și nu instituie reguli pentru servicii digitale supuse notificării TRIS (Directiva (UE) 2015/1535), transmiterea electronică a centralizatorului de către ONG-uri fiind o procedură fiscală internă. Singura atenționare minoră de drept UE vizează limitarea la pensiile impozitate după art. 101 alin. (2), ceea ce ar putea dezavantaja rezidenții fiscali români care primesc pensii din alte state membre UE și plătesc impozit în România (art. 130), în raport cu libera circulație a persoanelor (art. 21 TFUE).",
       "senatForm": {
-        "articleRef": "Art. I (art. 101^2 alin. 1) și Art. II",
-        "proposalContent": "La Art. I, la art. 101^2 alin. (1) și (4) cuvântul „Contribuabili” se înlocuiește cu „Contribuabilii”, iar la alin. (1) sintagma „reprezentând 3,5%” se înlocuiește cu „reprezentând până la 3,5%”. Art. II privind modificarea art. LVIII din OUG nr. 115/2023 se elimină integral.",
-        "argumentation": "Art. LVIII din OUG 115/2023 reglementează repartizarea impozitului între bugetul de stat și bugetele locale (alături de dobânzi, dividende și jocuri de noroc), nu redirecționarea de 3,5% către ONG-uri. Modificarea lui ar genera un impact bugetar neintenționat. Se corectează și dezacordul gramatical, aliniindu-se cota de „până la 3,5%” între alin. (1) și (3).",
-        "otherComments": "Întrucât art. 101^1 din Codul fiscal a fost abrogat prin OUG nr. 115/2023 (art. LIII pct. 73), conform Legii nr. 24/2000 privind normele de tehnică legislativă, noul articol trebuie introdus după art. 101, nu după un articol abrogat. Măsura de fond (redirecționarea a 3,5% din impozitul pe pensii) este însă binevenită și echitabilă social."
-      }
+        "articleRef": "Art. I (art. 101^2) și Art. II",
+        "proposalContent": "Eliminarea Art. II; la Art. I (art. 101^2): alin. (1) să prevadă «până la 3,5% din impozitul anual aferent veniturilor din pensii» (inclusiv art. 130); termen de 60 zile la alin. (5) pentru ordinul ANAF; adăugarea unui Art. III privind aplicarea începând cu veniturile anului fiscal următor.",
+        "argumentation": "Art. LVIII din OUG 115/2023 blochează redistribuirea către bugetele locale, nu redirecționarea de 3,5%; modificarea lui generează un impact bugetar neevaluat. Clarificarea «până la 3,5% din impozitul anual», termenul pentru ordinul ANAF și data aplicării asigură previzibilitatea (art. 1 alin. 5 Constituție, art. 4 Cod fiscal).",
+        "otherComments": "Comisiile de buget și muncă trebuie să solicite Guvernului fișa financiară (art. 111 alin. 1 și art. 138 alin. 5 Constituție) pentru a evita neconstituționalitatea. De asemenea, art. 101^1 a fost abrogat prin OUG 11/2025, iar în alin. (1) și (4) trebuie corectată eroarea «Contribuabili» în «Contribuabilii»."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 264738,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Pensionarii ar putea direcționa 3,5% din impozit către ONG-uri și culte",
-      "verdictShort": "Ideea e rezonabilă și ieftină: pensionarii care plătesc impozit primesc dreptul pe care salariații îl au deja prin Formularul 230. Problema e Art. II, care, prezentat drept „clarificare”, poate schimba împărțirea impozitului pe pensii între stat și primării fără nicio cifră.",
-      "initiatorClaim": "Cei 62 de parlamentari AUR inițiatori spun că pensionarii sunt singurii contribuabili care nu pot direcționa 3,5% din impozit, o diferență pe care o consideră nejustificată. Susțin că extinderea mecanismului ar sprijini ONG-urile și cultele fără cheltuieli bugetare suplimentare, iar Art. II ar fi doar o clarificare.",
-      "realityCheck": "Art. I preia mecanismul Formularului 230. Pensionarul cere, până la 25 mai, ca ANAF să vireze 3,5% din impozitul reținut pe pensie către un ONG sau o unitate de cult din registrul oficial. Măsura contează doar pentru cei cu pensii peste pragul neimpozabil de 3.000 lei/lună, iar sumele sunt mici: circa 40 de lei pe an la o pensie de 4.000 lei. Art. II, prezentat ca „clarificare”, scoate pensiile din regula care ține integral la bugetul de stat impozitul pe pensii. Acea regulă privește împărțirea cu bugetele locale, așa că efectul real poate fi o mutare de bani între bugete, pe care nimeni nu a evaluat-o.",
-      "affectedGroups": [
-        "Contabili & Fiscalitate",
-        "Justiție & Drepturi Civile",
-        "Toți cetățenii"
-      ],
-      "keyFindings": [
-        "Art. I introduce art. 101² în Codul fiscal. Pensionarii pot direcționa 3,5% din impozitul pe pensie către ONG-uri și unități de cult înscrise în registrul de la art. 25 alin. (4¹). ANAF calculează și plătește suma pe baza unei cereri depuse până la 25 mai, valabilă cel mult 2 ani. Este aceeași logică ca la Formularul 230 al salariaților.",
-        "Beneficiul e mic și limitat. Majoritatea pensionarilor au pensii sub pragul neimpozabil (în prezent 3.000 lei/lună), deci nu plătesc impozit și nu au ce direcționa. La o pensie de 4.000 lei, 3,5% înseamnă în jur de 40 de lei pe an.",
-        "Art. 101² are incoerențe de redactare, care contrazic chiar scopul declarat de „tratament unitar”. Alin. (1) spune „3,5%” fix, iar alin. (3) spune „până la 3,5%”. Lipsesc bursele private, pe care salariații le pot susține. „Contribuabili” apare fără articol, iar „aceștia” din alin. (3) nu are antecedent.",
-        "Art. II scoate pensiile din art. LVIII al OUG nr. 115/2023, regula care ține integral la bugetul de stat impozitul pe pensii, dobânzi, jocuri de noroc și dividende. Formula „se reține integral la același buget și nu se redistribuie” privește împărțirea cu bugetele locale, nu redirecționarea de 3,5%.",
-        "Lipsesc fișa financiară și data de aplicare. Expunerea de motive spune că impactul „urmează a fi detaliat”, deci nu e evaluat. Fără o dată, legea intră în vigoare la 3 zile de la publicare, ignorând termenul de minimum 6 luni din art. 4 al Codului fiscal și bugetul deja aprobat pe anul în curs.",
-        "ANAF ar trebui să cunoască impozitul reținut pe fiecare pensionar de la toți plătitorii: casele de pensii publice, casele sectoriale și fondurile private. Ar mai avea nevoie de un formular nou sau extins, prin ordin al președintelui ANAF (alin. (5)). Textul nu spune dacă cine are și salariu, și pensie depune o cerere sau două."
-      ],
-      "blindSpotsCaught": "Chichița e Art. II. Expunerea îl prezintă drept „clarificare a sferei veniturilor pentru care nu se aplică mecanismul redirecționării”. Formula „încasat la bugetul de stat se reține integral la același buget și nu se redistribuie” este însă limbaj de finanțe publice locale: derogarea de la cotele defalcate din impozitul pe venit care merg la primării și județe (Legea nr. 273/2006). Redirecționarea de 3,5% funcționează la salarii fără o asemenea modificare, deci Art. II nu e necesar pentru scopul declarat. Efectul lui mecanic: impozitul pe pensii ar putea reintra în împărțirea cu bugetele locale. Ar fi o mutare de bani mult mai mare decât cei 3,5%, neevaluată, în plină consolidare fiscală. Poate fi bine-venită pentru primării, dar trebuie decisă la vedere și cu cifre.",
-      "constitutionalityNote": "Pe fond, Art. I nu ridică probleme. Extinde un drept existent și reduce diferența de tratament dintre salariați și pensionari (art. 16), fără sarcini noi pentru cetățeni (art. 56 și art. 139). Unitățile de cult sunt preluate din mecanismul existent și rămân o opțiune neutră, pentru că alege contribuabilul (art. 29). Nu există sancțiuni, deci art. 23 alin. (12) nu e incident. Rămân două riscuri. Primul ține de claritate (art. 1 alin. (5)): contradicția „3,5%” / „până la 3,5%” și trimiterile imprecise trebuie corectate, iar trimiterea la art. 101 alin. (2) trebuie verificată față de forma în vigoare. Al doilea ține de procedura bugetară: măsura reduce sumele rămase la bugetul de stat, iar Art. II poate muta sume către bugetele locale. Asta cere informarea Guvernului (art. 111 alin. (1)) și fișă financiară cu sursa de acoperire (art. 138 alin. (5), Legea nr. 500/2002, Legea nr. 69/2010). CCR a constatat în mai multe rânduri neconstituționalitatea legilor adoptate fără aceste elemente.",
-      "euLawNote": "Legea nu creează monopoluri: orice ONG sau unitate de cult din registru poate primi bani. Directiva (UE) 2018/958 nu se aplică, pentru că nu se reglementează accesul la o profesie. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reguli tehnice pentru produse sau servicii ale societății informaționale, iar depunerea electronică a cererilor e o procedură administrativă internă. Riscul de ajutor de stat (art. 107 TFUE) e redus, ca la mecanismul existent pentru salariați: banii merg unde decide contribuabilul, către entități în principal non-economice. Rămâne un punct teoretic: limitarea la registrul național poate fi discutată prin prisma liberei circulații a capitalurilor (CJUE, Persche, C-318/07). Problema există însă deja la Formularul 230 și nu e adusă de această lege. Mai relevantă e procedura de deficit excesiv, în care orice pierdere de venit la bugetul de stat trebuie cuantificată.",
-      "senatForm": {
-        "articleRef": "Art. II (art. LVIII din OUG nr. 115/2023)",
-        "proposalContent": "Se elimină Art. II. În art. 101² se introduce alin. (6): «Sumele prevăzute la alin. (1) se plătesc din impozitul pe venitul din pensii încasat la bugetul de stat, prin derogare de la art. LVIII din OUG nr. 115/2023, care rămâne aplicabil în rest.»",
-        "argumentation": "Art. LVIII ține integral la bugetul de stat impozitul pe pensii, adică nu îl împarte cu bugetele locale; nu privește Formularul 230. Scoaterea pensiilor nu e necesară pentru redirecționare, dar poate muta bani de la bugetul de stat la bugetele locale, impact neevaluat în Expunerea de motive (art. 111 alin. (1), 138 alin. (5) Constituție).",
-        "otherComments": "Separat, în art. 101²: la alin. (1) „3,5%” să devină „până la 3,5%”, ca la alin. (3) și la salariați; să se adauge bursele private; „Contribuabili” → „Contribuabilii”; „aceștia” (alin. (3)) → „contribuabilii”. Să se prevadă data de la care se aplică (art. 4 din Codul fiscal: minimum 6 luni de la publicare)."
-      }
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 101721,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Pensionarii ar putea direcționa 3,5% din impozit către ONG-uri și culte",
-      "verdictShort": "Măsura este utilă și voluntară, fără să mărească impozitul pensionarilor. Riscul moderat provine din redactare: art. II modifică repartizarea veniturilor publice mai amplu decât cere mecanismul de 3,5%, iar calendarul aplicării lipsește.",
-      "initiatorClaim": "Inițiatorii urmăresc să permită pensionarilor să sprijine ONG-uri și unități de cult prin redirecționarea impozitului, invocând egalitatea între contribuabili. Susțin că impactul bugetar este limitat, însă nu prezintă în expunerea furnizată o cuantificare care să demonstreze această apreciere.",
-      "realityCheck": "Art. I permite direcționarea unei părți din impozitul datorat pentru pensii, fără modificarea pensiei nete; pentru pensiile fără impozit datorat nu există sume de direcționat. Cererea este opțională, cu termen la 25 mai, iar beneficiarul trebuie să figureze în registrul fiscal la momentul plății. Art. II elimină integral pensiile din regula reținerii exclusive la bugetul de stat, afectând și repartizarea către bugetele locale, efect semnalat expres de Guvern: [punctul de vedere](https://www.senat.ro/legis/PDF/2026/26L348PV.PDF).",
+      "durationMs": 71927,
+      "sourceEndMarker": "SF-EA27E755",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Pensionarii pot direcționa 3,5% din impozit către ONG-uri și culte",
+      "verdictShort": "Proiectul introduce o opțiune utilă, fără impozite suplimentare pentru pensionari. Principala rezervă privește articolul final: eliminarea pensiilor din regula păstrării integrale a impozitului la bugetul de stat poate avea efecte bugetare mai ample decât redirecționarea anunțată.",
+      "initiatorClaim": "Inițiatorii urmăresc să permită și pensionarilor direcționarea a 3,5% din impozit către organizații nonprofit și unități de cult. Susțin că astfel elimină un tratament diferențiat și sprijină serviciile comunitare, fără cheltuieli bugetare suplimentare.",
+      "realityCheck": "Art. I creează o opțiune asupra impozitului datorat, fără să reducă impozitul pensionarului sau să majoreze pensia; persoanele fără impozit datorat nu au sume de direcționat. Art. II elimină integral pensiile din sfera art. LVIII, ceea ce necesită verificarea efectului asupra repartizării veniturilor între bugetul de stat și bugetele locale. Afirmația că nu apar cheltuieli suplimentare nu înlătură diminuarea resurselor bugetare disponibile și costurile administrative ale mecanismului.",
       "affectedGroups": [
         "Contabili & Fiscalitate",
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I, art. 101² alin. (1) și (3): procentul este formulat o dată ca 3,5%, apoi ca până la 3,5%. Trebuie unificat plafonul și precizat explicit calculul asupra impozitului anual aferent pensiilor.",
-        "Art. I, art. 101² alin. (3)-(4): nerespectarea termenului atrage pierderea posibilității de redirecționare pentru anul vizat, fără amendă nouă. Depunerea la ONG sau cult presupune transmiterea centralizatorului până la același termen; întârzierea beneficiarului poate compromite opțiunea contribuabilului.",
-        "Art. I, art. 101² alin. (2): înscrierea beneficiarului se verifică la plată. O organizație eligibilă la depunerea cererii poate pierde ulterior posibilitatea încasării.",
-        "Redirecționarea diminuează resursele publice disponibile, chiar dacă nu introduce o taxă sau o cheltuială obligatorie pentru pensionar. ANAF și organizațiile care colectează cereri au sarcini administrative; proiectul nu instituie obligații directe noi pentru IMM-uri.",
-        "Lipsesc data aplicării, primul an de venituri eligibile și termenul ordinului ANAF. Consiliul Legislativ solicită corelarea intrării în vigoare cu termenul de minimum șase luni din art. 4 alin. (1) al Codului fiscal sau o derogare motivată: [avizul](https://www.senat.ro/legis/PDF/2026/26L348LG.PDF)."
+        "Art. I, art. 101² alin. (1): introduce dreptul pensionarului de a direcționa o parte din impozitul pe pensie. Nu introduce o taxă, o contribuție obligatorie sau o donație suplimentară din pensie.",
+        "Art. I, art. 101² alin. (2): beneficiarul trebuie să figureze în registrul fiscal la momentul plății efectuate de ANAF. Înscrierea la data cererii nu garantează singură primirea banilor.",
+        "Art. I, art. 101² alin. (3)-(4): termenul de 25 mai este prevăzut sub sancțiunea decăderii. Dacă cererea este lăsată la ONG sau cult, transmiterea centralizatorului depinde de beneficiar; textul nu precizează distinct protecția opțiunii când acesta întârzie.",
+        "Art. I, art. 101² alin. (3): permite opțiunea pentru aceiași beneficiari pentru cel mult doi ani. Alin. (1) indică 3,5%, iar alin. (3) spune «până la 3,5%»; formulările trebuie armonizate pentru a clarifica alegerea unei cote mai mici.",
+        "Art. II: în prezent, art. LVIII păstrează integral la bugetul de stat impozitul din pensii, dobânzi, jocuri de noroc și dividende. Proiectul scoate pensiile din această enumerare; nu formulează doar o excepție limitată la sumele direcționate către ONG-uri și culte.",
+        "Proiectul nu conține dispoziții tranzitorii privind primul an de venituri eligibile și nici termen pentru emiterea ordinului ANAF. Aceste precizări ar face aplicarea predictibilă, mai ales în raport cu termenul anual de 25 mai.",
+        "Expunerea de motive promite detalierea impactului într-o fișă financiară, dar aceasta nu este inclusă în materialul furnizat. Nu se poate deduce de aici că documentul lipsește din dosarul parlamentar."
       ],
-      "blindSpotsCaught": "Art. LVIII din OUG nr. 115/2023 reglementează reținerea integrală a unor impozite la bugetul de stat, nu doar redirecționarea către ONG-uri. Scoaterea completă a pensiilor din această regulă are astfel un efect distinct asupra relației dintre bugetul de stat și bugetele locale; pentru obiectivul declarat este suficientă o excepție limitată la sumele de 3,5%. Textul actual poate fi consultat în [OUG nr. 115/2023](https://legislatie.just.ro/Public/DetaliiDocument/280302).",
-      "constitutionalityNote": "Nu se identifică o neconstituționalitate evidentă a dreptului de opțiune. Art. 1 alin. (5) impune însă clarificarea procentului, bazei anuale și aplicării în timp. Art. 23 alin. (12), privind legalitatea pedepsei, nu este direct incident: decăderea dintr-o opțiune fiscală nu reprezintă o pedeapsă penală. Art. 16 și art. 56 alin. (2) nu impun automat facilități identice pentru toate categoriile de venituri; afirmația inițiatorilor despre discriminarea existentă necesită argumentare. Informarea Guvernului cerută de art. 111 alin. (1) a fost solicitată și există un punct de vedere negativ, care nu constituie veto. Diminuarea veniturilor nu demonstrează, singură, încălcarea art. 138 alin. (5), referitor la cheltuieli fără sursă de finanțare. Referință: [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355).",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea acestora, potrivit [art. 2](https://eur-lex.europa.eu/legal-content/ro/ALL/?uri=CELEX%3A32018L0958). Nu rezultă o obligație de notificare TRIS în temeiul Directivei (UE) 2015/1535: transmiterea electronică a unui formular fiscal nu reprezintă, prin ea însăși, reglementarea specifică a serviciilor societății informaționale; proiectul nu reglementează AI sau produse prin cerințe tehnice: [directiva](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=celex%3A32015L1535). Nu sunt instituite monopoluri, tarife ori bariere pentru IMM-uri. Eventuala calificare ca ajutor de stat ar necesita examinarea cumulativă a condițiilor art. 107 alin. (1) TFUE, inclusiv existența unei activități economice; statutul nonprofit nu tranșează singur această analiză.",
+      "blindSpotsCaught": "Art. II privește reținerea și redistribuirea veniturilor între bugete, nu doar opțiunea individuală de 3,5%. Eliminarea completă a pensiilor poate permite aplicarea regulilor generale de repartizare bugetară, în măsura în care sunt incidente; efectul trebuie verificat în corelare cu legislația finanțelor locale și cu derogările bugetare aplicabile. O excepție expresă numai pentru redirecționarea instituită ar delimita mai sigur obiectivul declarat.",
+      "constitutionalityNote": "Pe textele furnizate, nu rezultă o încălcare constituțională evidentă. Art. 1 alin. (5) justifică precizarea aplicării în timp și corelarea efectelor bugetare; diferențele de redactare nu produc automat neconstituționalitate. Extinderea opțiunii este compatibilă în principiu cu art. 16 și art. 56, însă egalitatea nu impune automat același mecanism pentru toate categoriile de venituri. Trebuie verificată solicitarea informării Guvernului potrivit art. 111 alin. (1), deoarece sunt afectate venituri bugetare; art. 138 alin. (5) nu trebuie invocat mecanic ca pentru o cheltuială nouă. Art. 23 alin. (12), privind pedepsele, nu este incident simplei decăderi din exercitarea opțiunii fiscale. Verificarea online nu a fost disponibilă; evaluarea se bazează pe documentele furnizate.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea acestora. Nu rezultă obligația notificării TRIS în temeiul Directivei (UE) 2015/1535: transmiterea electronică a unui formular fiscal nu constituie, singură, o reglementare a serviciilor societății informaționale. Nu sunt instituite monopoluri sau bariere explicite pentru IMM-uri. Finanțarea entităților nonprofit nu reprezintă automat ajutor de stat; o asemenea analiză depinde de activitățile economice și de condițiile concrete ale avantajului. Prelucrarea cererilor de către beneficiari rămâne supusă GDPR.",
       "senatForm": {
         "articleRef": "Art. II – art. LVIII din OUG nr. 115/2023",
-        "proposalContent": "La art. LVIII se adaugă o teză: „Prin excepție, din impozitul pe veniturile din pensii se distribuie numai sumele solicitate potrivit art. 101² din Legea nr. 227/2015, în limita a 3,5% din impozitul datorat. Restul impozitului se reține integral la bugetul de stat și nu se redistribuie.”",
-        "argumentation": "Eliminarea integrală a pensiilor din art. LVIII afectează și repartizarea impozitului către bugetele locale, depășind obiectivul redirecționării de 3,5%. Excepția punctuală păstrează acest drept și limitează intervenția asupra repartizării veniturilor publice.",
-        "otherComments": "Sunt necesare și un calendar de aplicare corelat cu art. 4 din Codul fiscal, primul an de venituri eligibile și un termen pentru ordinul ANAF. Termenul de amendamente din 28.09.2026 a trecut; propunerea cetățeanului poate fi trimisă comisiilor, dar preluarea sa de un deputat depinde de procedura parlamentară."
-      }
+        "proposalContent": "Art. LVIII – Impozitul datorat de persoanele fizice pe veniturile din pensii, din dobânzi, din jocuri de noroc și din dividende, încasat la bugetul de stat începând cu 1 ianuarie 2024, se reține integral la acest buget și nu se redistribuie, cu excepția sumelor din impozitul pe veniturile din pensii distribuite potrivit art. 101² din Legea nr. 227/2015.",
+        "argumentation": "Exceptarea expresă a sumelor direcționate către ONG-uri și culte permite aplicarea noului drept, păstrând regula bugetară pentru restul impozitului. Eliminarea integrală a pensiilor din enumerare poate produce efecte asupra repartizării între bugete care depășesc obiectivul declarat și necesită cuantificare.",
+        "otherComments": "Termenul pentru amendamente indicat, 28.09.2026, a trecut. Memoriul poate solicita preluarea propunerii de către un deputat, în condițiile procedurii parlamentare. Separat, sunt necesare precizarea primului an de aplicare, termenul ordinului ANAF și evaluarea financiară."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T22:52:54.759Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T12:37:22.266Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

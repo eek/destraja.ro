@@ -1,14 +1,42 @@
 {
   "billId": "Pl-x 587/2026",
   "slug": "plx-587-2026",
-  "updatedAt": "2026-10-28T22:55:46.133Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T12:37:37.007Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 3081,
+    "ordinanceChars": 0,
+    "memoChars": 7125,
+    "memoSupplied": 7125,
+    "marker": "SF-911BD246"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-587-2026.json",
+    "form": "initiator",
+    "textHash": "911bd24650a90476",
+    "fetchedAt": "2026-11-19T10:03:24.678Z",
+    "acts": 2,
+    "actsFound": 2,
+    "actsRepealed": 0,
+    "articlesFound": 2,
+    "articlesShown": 2,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 13170,
+    "truncated": false,
+    "included": true,
+    "key": "6c6eefb8a6563cca"
+  },
   "consensus": {
-    "riskScore": 2.3,
+    "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Firmele își pot plăti taxele cu banii pe care statul le datorează pentru concediile medicale",
-    "summaryTlDr": "Lege tehnică și utilă: statul își stinge datoria față de angajatori scăzând-o din taxele pe care aceștia le datorează, fără să reducă vreo obligație fiscală. Problemele țin de execuție, nu de fond: lipsesc termenul pentru casa de sănătate, data stingerii și regularizarea între bugete.",
-    "initiatorClaim": "Inițiatorii (AUR, prim-semnatar senatorul Cătălin Silegeanu) spun că angajatorii plătesc concediile medicale din bani proprii și așteaptă mult restituirea de la casele de sănătate, un stoc raportat de 4,08 miliarde lei la finalul lui 2024, în timp ce trebuie să-și achite integral și la timp taxele la ANAF. Vor să permită stingerea reciprocă a celor două datorii.",
-    "realityCheck": "Legea creează o excepție de la art. 167 alin. (1) din Codul de procedură fiscală, care permite compensarea doar când ambele creanțe sunt administrate de aceeași autoritate: angajatorul cu o sumă aprobată la restituire de casa de sănătate poate cere ANAF să o scadă din taxele exigibile. Nu reduce nicio obligație, dar mută efectul de trezorerie, pentru că datoria FNUASS ajunge să fie plătită din încasări ale bugetului de stat (TVA, impozite), iar proiectul nu spune cum se regularizează între bugete și nici cât costă imediat. Eficiența depinde integral de casa de sănătate, care aprobă suma și emite confirmarea fără niciun termen impus.",
+    "plainTitle": "Compensarea concediilor medicale aprobate de CNAS cu taxele datorate la ANAF",
+    "summaryTlDr": "O inițiativă utilă și echilibrată pentru mediul de afaceri, care rezolvă un blocaj real de lichiditate cauzat de întârzierile CNAS. Totuși, lipsesc detalii tehnice esențiale (data stingerii datoriilor, termenul de confirmare și decontarea între bugete), care trebuie completate în comisii pentru ca legea să fie aplicabilă și constituțională.",
+    "initiatorClaim": "Inițiatorii susțin că elimină blocajul legislativ actual (care permite compensarea fiscală doar în cadrul aceleiași autorități), permițând angajatorilor să stingă taxele la ANAF cu sumele aprobate la restituire din FNUASS pentru concedii medicale (un stoc de peste 4 miliarde lei la finalul lui 2024), fără a crea privilegii fiscale.",
+    "realityCheck": "Legea creează o derogare punctuală și voluntară de la art. 167 alin. (1) din Codul de procedură fiscală, aplicabilă strict sumelor deja verificate și aprobate la restituire de casele de asigurări de sănătate. Mecanismul ajută real firmele care așteaptă plata de la CNAS după aprobare, dar nu rezolvă întârzierile din etapa de verificare a dosarelor și lasă nereglementate data exactă la care se opresc dobânzile ANAF, termenul în care CAS trimite confirmarea și modul în care bugetul de stat își recuperează banii de la FNUASS.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
@@ -16,86 +44,24 @@
       "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. I, art. 167¹ alin. (4) Cod proc. fiscală",
-      "proposalContent": "(4) Compensarea se constată de organul fiscal central competent, pe baza confirmării sumei aprobate la restituire, transmisă de casa de asigurări de sănătate în cel mult 15 zile de la solicitare. Stingerea operează la data depunerii cererii de compensare. Ministerul Finanțelor regularizează între bugete sumele compensate.",
-      "argumentation": "Fără termen pentru confirmarea casei de sănătate, mecanismul poate fi blocat chiar de instituția care datorează banii. Fără data stingerii nu se știe de când încetează dobânzile și penalitățile. Fără regularizare, compensarea cu TVA sau impozit pe profit scade încasările bugetului de stat fără ca datoria FNUASS să fie evidențiată transparent.",
-      "otherComments": "Corectați „numaî” din art. 167¹ alin. (3) și dați noului articol o denumire marginală, ca restul Codului. Includeți ANAF în ordinul comun de la art. III. Verificați că există informarea Guvernului și fișa financiară (art. 111 alin. 1 și art. 138 alin. 5 din Constituție), altfel legea poate fi atacată la CCR. Ideal, compensați întâi cu CASS, venit al FNUASS."
+      "articleRef": "Art. I (art. 167¹ CPF) și Art. II",
+      "proposalContent": "La art. 167¹ alin. (4) se adaugă: „Casa de asigurări transmite confirmarea în 10 zile de la cerere, iar compensarea produce efecte de la data depunerii cererii, aplicându-se corespunzător art. 165 și art. 167 alin. (8).” La art. II se adaugă derogarea expresă de la art. 38 alin. (1) teza finală și regula decontării între bugetul de stat și FNUASS.",
+      "argumentation": "Fără termen pentru confirmarea CAS și fără data stingerii datoriei, angajatorii riscă dobânzi și penalități la ANAF cât așteaptă. Lipsa derogării de la art. 38 alin. (1) teza finală creează ambiguitate la compensarea cu CASS, iar absența regulii de decontare între bugete expune legea la riscuri pe art. 1 alin. (5) și art. 138 alin. (5) din Constituție.",
+      "otherComments": "Susținem principiul proiectului, util pentru lichiditatea IMM-urilor. Recomandăm corectarea erorilor materiale din Art. I (Monitorul Oficial nr. 547 este din 23 iulie 2015, nu 23 iunie 2015; „numai” în loc de „numaî”) și solicitarea fișei financiare de la Guvern conform Legii nr. 500/2002."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 48114,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Compensarea datoriilor la ANAF cu sumele pe care statul întârzie să le ramburseze firmelor pentru concediile medicale",
-      "verdictShort": "O măsură binevenită și echitabilă pentru mediul de afaceri, care deblochează lichiditățile firmelor prin compensarea concediilor medicale aprobate la plată cu taxele curente datorate către ANAF. Are însă nevoie de două reglaje tehnice privind termenele de comunicare între CNAS și ANAF și regularizarea între bugete, pentru a nu rămâne blocată în birocrație.",
-      "initiatorClaim": "Inițiatorii vor să elimine blocajul birocratic prin care firmele sunt obligate să achite taxe la zi către ANAF în timp ce așteaptă cu lunile sau anii rambursarea concediilor medicale (restanțe de peste 4 miliarde lei) de la Casele de Asigurări de Sănătate, doar pentru că cele două instituții sunt diferite.",
-      "realityCheck": "Legea instituie o derogare punctuală și opțională la art. 167 din Codul de procedură fiscală, permițând angajatorilor să stingă taxele administrate de ANAF cu sumele aprobate la restituire din FNUASS. Totuși, mecanismul depinde de o confirmare transmisă de Casa de Asigurări către ANAF fără ca legea să impună un termen-limită de transmitere sau să prevadă explicit decontarea inter-bugetară între FNUASS și bugetul de stat.",
-      "affectedGroups": [
-        "IMM & Antreprenori",
-        "Contabili & Fiscalitate",
-        "Angajați & HR"
-      ],
-      "keyFindings": [
-        "Art. I (noul art. 167¹ alin. 1-2 din Codul de procedură fiscală) permite angajatorilor, exclusiv la cererea acestora, să compenseze indemnizațiile de concedii medicale suportate din FNUASS cu obligațiile fiscale datorate la ANAF.",
-        "Art. I (art. 167¹ alin. 3-4) limitează compensarea strict la sumele deja „aprobate la restituire” și condiționează operațiunea de o confirmare transmisă de Casa de Asigurări de Sănătate către ANAF, fără a institui însă un termen maxim în care Casa este obligată să emită această confirmare.",
-        "Art. III deleagă procedura practică unui ordin comun al ministrului Finanțelor și președintelui CNAS în 60 de zile, dar omite să reglementeze la nivel de lege primară mecanismul de regularizare financiară prin Trezorerie între bugetul FNUASS și bugetul de stat."
-      ],
-      "blindSpotsCaught": "Legea nu precizează data la care operează stingerea obligațiilor fiscale (data depunerii cererii de către angajator sau data la care Casa de Sănătate trimite confirmarea la ANAF), ceea ce poate genera calcularea abuzivă de dobânzi și penalități pe durata corespondenței interinstituționale, și nu reglementează decontarea contabilă între FNUASS și bugetele administrate de ANAF.",
-      "constitutionalityNote": "Proiectul respectă principiul echității fiscale și protejează dreptul de proprietate al contribuabililor (art. 44 din Constituție), însă sub aspectul art. 1 alin. (5) privind previzibilitatea legii și al art. 138 privind bugetul public național, necesită precizarea expresă a regularizării bugetare între FNUASS și bugetul de stat și a momentului stingerii creanței fiscale.",
-      "euLawNote": "Măsura nu ridică probleme de compatibilitate cu dreptul UE; nu introduce restricții profesionale sub incidența Directivei (UE) 2018/958, nu vizează reglementări tehnice digitale (Directiva TRIS 2015/1535) și nu constituie ajutor de stat, ci o modalitate de stingere a unor creanțe certe, lichide și exigibile pe care statul le datorează deja tuturor angajatorilor în mod nediscriminatoriu.",
-      "senatForm": {
-        "articleRef": "Art. I - Art. 167¹ alin. (4) Cod proc. fiscală",
-        "proposalContent": "La art. I, alin. (4) al art. 167¹ se modifică și va avea următorul cuprins: „(4) Casa de asigurări de sănătate transmite electronic organului fiscal central confirmarea sumei aprobate la restituire în cel mult 10 zile lucrătoare de la cerere. Compensarea operează de drept la data depunerii cererii de compensare de către angajator, fără perceperea de accesorii după această dată.”",
-        "argumentation": "Forma propusă nu prevede un termen-limită în care Casa de Asigurări de Sănătate trebuie să trimită confirmarea către ANAF și nici momentul exact la care se sting obligațiile. Fără un termen clar și fără înghețarea dobânzilor și penalităților la data depunerii cererii, angajatorii riscă să plătească accesorii fiscale din cauza întârzierilor birocratice dintre CNAS și ANAF.",
-        "otherComments": "Se recomandă completarea Art. III cu precizarea că ordinul comun MF-CNAS va reglementa și mecanismul de regularizare contabilă și bugetară prin Trezoreria Statului între bugetul FNUASS și bugetele cărora le revin obligațiile fiscale stinse prin compensare, pentru a evita blocajele de trezorerie."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 195521,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Firmele își pot plăti taxele cu banii pe care statul le datorează pentru concediile medicale",
-      "verdictShort": "Lege tehnică și utilă: statul își stinge datoria față de angajatori scăzând-o din taxele pe care aceștia le datorează, fără să reducă vreo obligație fiscală. Problemele țin de execuție, nu de fond: lipsesc termenul pentru casa de sănătate, data stingerii și regularizarea între bugete.",
-      "initiatorClaim": "Inițiatorii (AUR, prim-semnatar senatorul Cătălin Silegeanu) spun că angajatorii plătesc concediile medicale din bani proprii și așteaptă mult restituirea de la casele de sănătate, un stoc raportat de 4,08 miliarde lei la finalul lui 2024, în timp ce trebuie să-și achite integral și la timp taxele la ANAF. Vor să permită stingerea reciprocă a celor două datorii.",
-      "realityCheck": "Legea creează o excepție de la art. 167 alin. (1) din Codul de procedură fiscală, care permite compensarea doar când ambele creanțe sunt administrate de aceeași autoritate: angajatorul cu o sumă aprobată la restituire de casa de sănătate poate cere ANAF să o scadă din taxele exigibile. Nu reduce nicio obligație, dar mută efectul de trezorerie, pentru că datoria FNUASS ajunge să fie plătită din încasări ale bugetului de stat (TVA, impozite), iar proiectul nu spune cum se regularizează între bugete și nici cât costă imediat. Eficiența depinde integral de casa de sănătate, care aprobă suma și emite confirmarea fără niciun termen impus.",
-      "affectedGroups": [
-        "IMM & Antreprenori",
-        "Contabili & Fiscalitate",
-        "Angajați & HR"
-      ],
-      "keyFindings": [
-        "Art. I (art. 167¹ alin. 1 și 3): compensarea e permisă doar pentru sume deja aprobate la restituire de casa de sănătate, nu pentru cereri aflate în verificare. Limitarea e corectă și elimină riscul folosirii unor creanțe nevalidate.",
-        "Art. I (art. 167¹ alin. 2): compensarea se face numai la cererea angajatorului, deci ANAF nu o poate impune din oficiu. Firma alege între banii în cont și stingerea taxelor.",
-        "Art. I (art. 167¹ alin. 4): constatarea compensării depinde de confirmarea casei de asigurări de sănătate, pentru care nu există niciun termen, așa că instituția care datorează banii poate întârzia chiar mecanismul. Nu se stabilește nici data la care operează stingerea, deși de ea depind dobânzile și penalitățile.",
-        "Proiectul nu spune ce buget suportă compensarea. Dacă firma își stinge TVA-ul sau impozitul pe profit, bugetul de stat încasează mai puțin, iar regularizarea cu FNUASS nu e reglementată. Textul extras al expunerii de motive nu conține o estimare a impactului de trezorerie, deși stocul invocat (4,08 mld. lei) arată ordinul de mărime.",
-        "Art. III–IV: ordinul de procedură se emite în 60 de zile, înainte de intrarea în vigoare (90 de zile), ceea ce e bine calibrat. Totuși, îl semnează doar ministrul finanțelor și președintele CNAS, nu și ANAF, care aplică efectiv compensarea, și nu există nicio consecință dacă ordinul întârzie.",
-        "Tehnică legislativă: greșeala „numaî” în art. 167¹ alin. (3) și lipsa denumirii marginale a noului articol, deși articolele Codului au titlu. Art. II dublează prin trimitere regula din Cod, ceea ce e redundant, dar inofensiv."
-      ],
-      "blindSpotsCaught": "Cifra folosită pentru a demonstra necesitatea (4,08 mld. lei datorate angajatorilor) este și măsura impactului potențial imediat asupra încasărilor bugetului de stat, într-o perioadă de consolidare fiscală. Textul nu prevede regularizarea între bugete și nici prioritatea compensării cu veniturile proprii ale FNUASS (de pildă CASS, ca înainte de 2018), așa că datoria fondului de sănătate se mută tacit în bugetul de stat. Apoi, derogarea vizează doar art. 167 alin. (1) și nu precizează dacă restul regulilor de compensare din art. 167 se aplică. Rămâne astfel o lacună privind data stingerii, pe care ar fi riscant să o acopere un simplu ordin.",
-      "constitutionalityNote": "Pe fond, proiectul e compatibil cu Constituția. Protejează creanța certă a angajatorului față de stat (art. 44), nu creează privilegii fiscale (art. 56) și se aplică nediscriminatoriu tuturor angajatorilor (art. 16). E corect calificat ca lege ordinară (art. 76 alin. 2), iar art. 23 alin. (12) nu e incident, pentru că nu se instituie sancțiuni. Claritatea (art. 1 alin. 5) e în general bună, cu excepția lacunelor privind termenul de confirmare și data stingerii. Riscul real e procedural: compensarea cu venituri ale bugetului de stat afectează execuția bugetară, deci sunt necesare informarea Guvernului (art. 111 alin. 1) și fișa financiară (art. 138 alin. 5, art. 15 din Legea 500/2002). CCR a sancționat în mod repetat legi cu impact bugetar adoptate fără aceste condiții. Contraargumentul e solid: nu se creează o cheltuială nouă, ci se plătește o datorie existentă.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă proiectul nu reglementează accesul la profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reglementări tehnice sau servicii ale societății informaționale. Nu e ajutor de stat (art. 107 TFUE): măsura e generală, accesibilă oricărui angajator, nu reduce obligații și doar stinge o datorie pe care statul o are deja. Directiva 2011/7/UE privind întârzierea plăților nu acoperă aceste restituiri, care nu sunt tranzacții comerciale. Singura dimensiune europeană relevantă e bugetară, în contextul procedurii de deficit excesiv. În principiu, efectul e mai ales de trezorerie, deoarece în ESA 2010 indemnizațiile sunt deja înregistrate ca cheltuială, însă necesarul de finanțare în numerar poate crește temporar.",
-      "senatForm": {
-        "articleRef": "Art. I, art. 167¹ alin. (4) Cod proc. fiscală",
-        "proposalContent": "(4) Compensarea se constată de organul fiscal central competent, pe baza confirmării sumei aprobate la restituire, transmisă de casa de asigurări de sănătate în cel mult 15 zile de la solicitare. Stingerea operează la data depunerii cererii de compensare. Ministerul Finanțelor regularizează între bugete sumele compensate.",
-        "argumentation": "Fără termen pentru confirmarea casei de sănătate, mecanismul poate fi blocat chiar de instituția care datorează banii. Fără data stingerii nu se știe de când încetează dobânzile și penalitățile. Fără regularizare, compensarea cu TVA sau impozit pe profit scade încasările bugetului de stat fără ca datoria FNUASS să fie evidențiată transparent.",
-        "otherComments": "Corectați „numaî” din art. 167¹ alin. (3) și dați noului articol o denumire marginală, ca restul Codului. Includeți ANAF în ordinul comun de la art. III. Verificați că există informarea Guvernului și fișa financiară (art. 111 alin. 1 și art. 138 alin. 5 din Constituție), altfel legea poate fi atacată la CCR. Ideal, compensați întâi cu CASS, venit al FNUASS."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 112796,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 79836,
+      "sourceEndMarker": "SF-911BD246",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Firmele pot achita taxe cu banii de recuperat pentru concedii medicale",
-      "verdictShort": "Proiectul oferă o soluție utilă pentru lichiditatea angajatorilor, fără taxe, sancțiuni sau monopoluri noi. Riscul este redus, dar data compensării și circuitul dintre instituții trebuie clarificate pentru ca avantajul să funcționeze efectiv.",
-      "initiatorClaim": "Inițiatorii urmăresc deblocarea sumelor datorate angajatorilor pentru indemnizațiile de concediu medical, permițând compensarea lor cu obligațiile fiscale. Ei susțin că separarea administrativă dintre casele de sănătate și ANAF împiedică în prezent această soluție.",
-      "realityCheck": "Art. I–II permit compensarea exclusiv la cererea angajatorului, pentru sume aprobate la restituire și creanțe certe, lichide și exigibile, până la concurența celei mai mici sume. Mecanismul nu grăbește aprobarea dosarelor și nu acoperă impozitele locale administrate de primării. Nu reduce cuantumul taxelor datorate, însă utilitatea sa depinde de confirmarea casei de sănătate și de procedura comună prevăzută la art. III.",
+      "plainTitle": "Compensarea concediilor medicale aprobate de CNAS cu taxele datorate la ANAF",
+      "verdictShort": "O inițiativă utilă și echilibrată pentru mediul de afaceri, care rezolvă un blocaj real de lichiditate cauzat de întârzierile CNAS. Totuși, lipsesc detalii tehnice esențiale (data stingerii datoriilor, termenul de confirmare și decontarea între bugete), care trebuie completate în comisii pentru ca legea să fie aplicabilă și constituțională.",
+      "initiatorClaim": "Inițiatorii susțin că elimină blocajul legislativ actual (care permite compensarea fiscală doar în cadrul aceleiași autorități), permițând angajatorilor să stingă taxele la ANAF cu sumele aprobate la restituire din FNUASS pentru concedii medicale (un stoc de peste 4 miliarde lei la finalul lui 2024), fără a crea privilegii fiscale.",
+      "realityCheck": "Legea creează o derogare punctuală și voluntară de la art. 167 alin. (1) din Codul de procedură fiscală, aplicabilă strict sumelor deja verificate și aprobate la restituire de casele de asigurări de sănătate. Mecanismul ajută real firmele care așteaptă plata de la CNAS după aprobare, dar nu rezolvă întârzierile din etapa de verificare a dosarelor și lasă nereglementate data exactă la care se opresc dobânzile ANAF, termenul în care CAS trimite confirmarea și modul în care bugetul de stat își recuperează banii de la FNUASS.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
@@ -103,21 +69,85 @@
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. I, art. 167¹ alin. (1)–(3): eligibilitatea este limitată la creanțe aprobate la restituire. Angajatorii cu dosare încă neverificate rămân în așteptare; stocul de obligații invocat în expunerea de motive nu reprezintă automat suma compensabilă.",
-        "Art. I, art. 167¹ alin. (2)–(4): cererea este obligatorie, dar data exactă a stingerii nu este stabilită expres. Corelarea cu compensarea de drept din art. 167 alin. (4) trebuie precizată, deoarece influențează calculul accesoriilor fiscale. [Codul de procedură fiscală, art. 167](https://edirect.e-guvernare.ro/Uploads/Legi/36825/CODUL%20DE%20PROCEDURA%20FISCALA.pdf).",
-        "Art. III–IV: ordinul trebuie aprobat în 60 de zile de la publicare, deși legea intră în vigoare după 90 de zile. Calendarul necesită armonizare; Consiliul Legislativ recomandă calcularea termenului ordinului de la intrarea în vigoare. Același aviz semnalează suprapunerea dintre art. I și II și trimiterile insuficient de precise. [Avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L377LG.PDF).",
-        "Pentru IMM-uri, compensarea poate reduce nevoia de finanțare a sumelor avansate salariaților. Există însă o cerere suplimentară și un circuit de confirmare între instituții, fără termen special pentru confirmare în textul legii.",
-        "Nu rezultă automat un cost bugetar egal cu valoarea compensărilor: se sting obligații deja existente. Consiliul Fiscal a constatat lipsa indiciilor de majorare a cheltuielilor ori diminuare a veniturilor care să necesite opinia sa; rămân de organizat evidența și decontarea între bugete. [Poziția Consiliului Fiscal, pct. 3](https://www.senat.ro/legis/PDF/2026/26L377CF.PDF)."
+        "Art. I (noul art. 167¹ din Legea nr. 207/2015) derogă de la regula aceleiași autorități publice din art. 167 alin. (1) și permite angajatorilor să compenseze, la cerere, indemnizațiile de concediu medical aprobate la restituire cu obligațiile fiscale administrate de ANAF, în limita celei mai mici sume.",
+        "Compensarea nu operează din oficiu și nu vizează cererile aflate încă în verificare: art. 167¹ alin. (2)-(4) impune cererea expresă a angajatorului, aprobarea prealabilă potrivit legii speciale și confirmarea transmisă de casa de asigurări de sănătate către organul fiscal central.",
+        "Art. II (noul art. 38 alin. (1¹) din OUG nr. 158/2005) dublează mecanismul în legislația de sănătate, dar nu derogă expres de la teza finală a art. 38 alin. (1) în vigoare, care interzice recuperarea acestor indemnizații din contribuția de asigurări sociale de sănătate (CASS), creând risc de interpretări contradictorii.",
+        "Art. III și IV acordă 60 de zile pentru ordinul comun MF–CNAS privind procedura de compensare și 90 de zile până la intrarea în vigoare, însă aplicarea efectivă depinde integral de emiterea la timp a acestui ordin și de interoperabilitatea instituțională."
       ],
-      "blindSpotsCaught": "Art. 38 alin. (1) existent interzice recuperarea indemnizațiilor din sumele constituite drept CASS, în timp ce noul mecanism vizează generic obligațiile fiscale administrate central, categorie care include și CASS. Este necesară o corelare expresă pentru a distinge compensarea autorizată de reținerea unilaterală a contribuțiilor și pentru a păstra evidența bugetară corectă; nu rezultă că angajatorul poate înceta singur plata contribuțiilor. [Art. 38, astfel cum a fost modificat prin OUG nr. 145/2020](https://legislatie.just.ro/Public/DetaliiDocumentAfis/229549).",
-      "constitutionalityNote": "Nu identific o neconstituționalitate evidentă în soluția compensării voluntare. Art. 1 alin. (5) impune însă clarificarea datei stingerii, a raportului cu regulile generale și a trimiterilor normative; un ordin poate detalia procedura, fără să stabilească discreționar condițiile esențiale ale dreptului. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident: proiectul nu instituie pedepse. Pentru eventuale modificări ale prevederilor bugetare trebuie respectată solicitarea informării Guvernului potrivit art. 111 alin. (1), iar eventualele cheltuieli noi trebuie analizate prin art. 138 alin. (5); existența mecanismului nu dovedește singură încălcarea acestor articole. [Jurisprudență CCR privind cerințele bugetare](https://legislatie.just.ro/Public/DetaliiDocument/186425).",
-      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile privind accesul la profesii reglementate sau exercitarea acestora; proiectul nu introduce asemenea restricții, deci testul său specific nu este aplicabil. [Directiva 2018/958, art. 1–2](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng). Nu sunt introduse cerințe tehnice pentru produse sau norme destinate explicit serviciilor societății informaționale, astfel că textul analizat nu declanșează notificarea TRIS; utilizarea eventuală a unui portal electronic nu schimbă această concluzie. [Directiva 2015/1535, art. 1](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535). Nu se observă monopoluri, bariere sectoriale sau discriminări după naționalitate; mecanismul general de stingere a unor datorii existente nu indică, prin el însuși, un ajutor de stat selectiv.",
+      "blindSpotsCaught": "Trei omisiuni procedurale subtile pot frâna aplicarea: (1) Art. 38 alin. (1) teza finală din OUG 158/2005 interzice expres recuperarea indemnizațiilor din sumele reprezentând CASS, iar noul alin. (1¹) nu înlătură această interdicție; (2) Art. 167¹ nu stabilește data exactă a stingerii obligației fiscale și nici un termen-limită pentru confirmarea CAS, expunând angajatorii la dobânzi și penalități ANAF pe durata așteptării, și nu face trimitere la art. 165 (ordinea stingerii) sau art. 167 alin. (8) (termenul de 7 zile pentru decizie); (3) Lipsa regulii de regularizare financiară între bugetul de stat și FNUASS, plus două erori materiale minore în Art. I (data Monitorului Oficial al Legii 207/2015 este 23 iulie 2015, nu 23 iunie 2015; grafia „numaî”).",
+      "constitutionalityNote": "Obiectivul legii este constituțional, dar există două vulnerabilități remediabile la comisii: pe art. 138 alin. (5) din Constituție (coroborat cu art. 15 din Legea nr. 500/2002), deși compensarea este neutră contabil la nivelul statului, în execuția de casă ea diminuează încasările bugetului de stat administrate de ANAF în contul datoriilor FNUASS, ceea ce impune fișă financiară și reglementarea decontării interbugetare; pe art. 1 alin. (5) (claritatea și previzibilitatea legii), elemente esențiale precum data stingerii creanței, termenele de confirmare și raportul cu interdicția privind CASS din art. 38 alin. (1) nu pot fi lăsate exclusiv pe seama unui ordin administrativ.",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează accesul sau exercitarea profesiilor reglementate) și nici a Directivei (UE) 2015/1535 (TRIS), nevizând servicii ale societății informaționale sau reglementări tehnice. Din perspectiva pieței interne și a art. 107 TFUE (ajutor de stat), măsura are caracter general și neselectiv, stingând creanțe reciproce certe și aprobate legal, fără a acorda reduceri fiscale sau avantaje concurențiale distorsive.",
       "senatForm": {
-        "articleRef": "Art. I – art. 167¹ alin. (5) nou",
-        "proposalContent": "(5) Compensarea operează la data înregistrării cererii, dacă la acea dată creanțele sunt certe, lichide și exigibile, în limita sumei aprobate și nestinse. Casa de asigurări transmite confirmarea organului fiscal în 5 zile lucrătoare de la solicitarea acestuia. Întârzierea confirmării nu modifică data stingerii.",
-        "argumentation": "Caracterul voluntar trebuie corelat cu art. 167 alin. (4), care prevede compensarea de drept. Stabilirea datei stingerii previne litigii privind accesoriile fiscale și împiedică transferarea costului întârzierilor dintre instituții asupra angajatorului. Confirmarea verifică suma disponibilă, fără să amâne efectele cererii eligibile.",
-        "otherComments": "Corelați expres art. II cu interdicția recuperării din CASS; precizați decontarea între bugete și armonizați art. III–IV. Termenul de amendamente din 28.09.2026 a trecut: propunerea cetățeanului poate fi trimisă comisiilor ca petiție, fără garanția preluării ca amendament."
-      }
+        "articleRef": "Art. I (art. 167¹ CPF) și Art. II",
+        "proposalContent": "La art. 167¹ alin. (4) se adaugă: „Casa de asigurări transmite confirmarea în 10 zile de la cerere, iar compensarea produce efecte de la data depunerii cererii, aplicându-se corespunzător art. 165 și art. 167 alin. (8).” La art. II se adaugă derogarea expresă de la art. 38 alin. (1) teza finală și regula decontării între bugetul de stat și FNUASS.",
+        "argumentation": "Fără termen pentru confirmarea CAS și fără data stingerii datoriei, angajatorii riscă dobânzi și penalități la ANAF cât așteaptă. Lipsa derogării de la art. 38 alin. (1) teza finală creează ambiguitate la compensarea cu CASS, iar absența regulii de decontare între bugete expune legea la riscuri pe art. 1 alin. (5) și art. 138 alin. (5) din Constituție.",
+        "otherComments": "Susținem principiul proiectului, util pentru lichiditatea IMM-urilor. Recomandăm corectarea erorilor materiale din Art. I (Monitorul Oficial nr. 547 este din 23 iulie 2015, nu 23 iunie 2015; „numai” în loc de „numaî”) și solicitarea fișei financiare de la Guvern conform Legii nr. 500/2002."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 77309,
+      "sourceEndMarker": "SF-911BD246",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Compensarea taxelor cu banii de recuperat pentru concedii medicale",
+      "verdictShort": "Proiectul introduce un mecanism util pentru angajatorii care au de recuperat indemnizații deja aprobate. Riscurile principale sunt neclaritatea datei compensării și coordonarea dintre ANAF și casele de sănătate, fără taxe, sancțiuni sau privilegii profesionale noi.",
+      "initiatorClaim": "Inițiatorii urmăresc deblocarea banilor angajatorilor prin compensarea indemnizațiilor aprobate la restituire cu obligațiile fiscale. Susțin că mecanismul simplifică plățile fără să reducă taxele datorate.",
+      "realityCheck": "În prezent, art. 167 alin. (1) condiționează compensarea de administrarea creanțelor de aceeași autoritate; proiectul permite expres compensarea creanțelor aprobate de casele de sănătate cu obligații administrate de organul fiscal central. Mecanismul este voluntar, acoperă numai sume aprobate și nu rezolvă întârzierile în verificarea cererilor încă neaprobate. Nu reduce nominal datoriile fiscale, dar modifică fluxurile de numerar și decontările între bugete, astfel încât neutralitatea bugetară nu trebuie confundată cu absența oricărui impact financiar.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Angajați & HR",
+        "Sănătate & Educație"
+      ],
+      "keyFindings": [
+        "Art. I, noul art. 167¹ alin. (1): derogarea înlătură obstacolul administrării de autorități diferite pentru această categorie de creanțe. Nu permite compensarea cu orice datorie, inclusiv impozite locale, ci numai cu obligații fiscale administrate de organul fiscal central.",
+        "Art. I, alin. (2)-(3): cererea angajatorului și aprobarea restituirii sunt obligatorii. Caracterul cert, lichid și exigibil și limita celei mai mici sume există deja în mecanismul general; noutatea principală este compensarea între creanțe administrate separat.",
+        "Art. I, alin. (3)-(4): textul precizează care sume sunt eligibile, dar nu stabilește expres data exigibilității și raportul dintre cerere, aprobare și confirmarea casei de sănătate. Corelarea cu art. 167 alin. (4)-(5) și art. 38 alin. (3) trebuie clarificată pentru calcularea eventualelor accesorii fiscale.",
+        "Art. II: noul alin. (1¹) adaugă o cale de stingere a creanței angajatorului. Nu modifică indemnizațiile angajaților și nu autorizează automat deducerea directă a concediilor medicale din contribuția de asigurări sociale de sănătate.",
+        "Art. I și III: confirmarea dintre instituții poate reduce demersurile angajatorului, dar procedura trebuie să prevină compensarea unei sume deja plătite și să asigure evidențierea și decontarea între bugetele implicate.",
+        "Art. III-IV: ordinul comun trebuie aprobat în 60 de zile de la publicare, iar legea intră în vigoare după 90 de zile. Calendarul oferă un interval de pregătire; proiectul nu conține abrogări sau dispoziții tranzitorii exprese pentru cererile și aprobările deja existente.",
+        "Proiectul nu elimină expres regulile generale privind comunicarea deciziei de compensare și contestarea actelor fiscale. Absența repetării acestora în articolul nou nu înseamnă dispariția garanțiilor."
+      ],
+      "blindSpotsCaught": "Filtrul decisiv este aprobarea restituirii: angajatorii cu cereri blocate la verificare nu obțin prin această lege compensarea sumelor solicitate. Totodată, aprobarea nu este corelată suficient de explicit cu data efectivă a stingerii fiscale. În extrasul informativ al art. 38, pasajele despre termenele din 2021/2022 aparțin dispoziției distincte din art. IV al OUG nr. 74/2021, nu unor alineate introduse de proiect.",
+      "constitutionalityNote": "Pe textele furnizate, nu rezultă o neconstituționalitate evidentă. Art. 1 alin. (5) justifică precizarea momentului stingerii și păstrarea elementelor esențiale în lege, ordinul comun urmând să detalieze executarea. Art. 23 alin. (12) nu este incident, deoarece nu sunt instituite pedepse. Categoria beneficiarilor are o justificare obiectivă, fără o încălcare evidentă a art. 16. Informarea Guvernului este obligatorie potrivit art. 111 alin. (1) dacă inițiativa modifică prevederile bugetare; art. 138 alin. (5) privește aprobarea cheltuielilor fără sursă de finanțare, iar compensarea unor datorii existente nu demonstrează singură apariția unor cheltuieli noi. Dosarul procedural și formele consolidate nu au putut fi verificate online.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă acestei măsuri: proiectul nu restrânge accesul la profesii reglementate sau exercitarea lor. Nu rezultă obligația notificării TRIS potrivit Directivei (UE) 2015/1535, deoarece nu sunt introduse reglementări tehnice pentru produse sau norme privind serviciile societății informaționale; un eventual schimb electronic între instituții nu declanșează singur notificarea. Mecanismul poate îmbunătăți lichiditatea și concurența prin reducerea blocajelor financiare. Din text nu rezultă o selecție sectorială sau un avantaj care să permită calificarea automată drept ajutor de stat.",
+      "senatForm": {
+        "articleRef": "Art. I – art. 167¹ alin. (3)",
+        "proposalContent": "(3) Compensarea produce efecte la data la care sunt îndeplinite cumulativ condițiile: cererea de compensare este înregistrată la organul fiscal central, restituirea este aprobată, iar creanțele reciproce sunt certe, lichide și exigibile. Confirmarea ulterioară a casei de asigurări de sănătate nu modifică această dată.",
+        "argumentation": "Textul actual identifică sumele eligibile, fără să fixeze clar data stingerii. Precizarea acesteia asigură previzibilitatea calculării accesoriilor fiscale și împiedică întârzierea efectelor compensării exclusiv din cauza transmiterii confirmării între instituții.",
+        "otherComments": "Ordinul comun trebuie să stabilească termenele de confirmare, verificarea sumelor deja plătite și decontările între bugete. Este utilă precizarea aplicării mecanismului și sumelor aprobate anterior intrării în vigoare, dar încă neachitate, fără redeschiderea creanțelor prescrise."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T22:55:46.133Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T12:37:37.007Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

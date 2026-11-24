@@ -2,14 +2,41 @@
   "billId": "Pl-x 411/2026",
   "slug": "plx-411-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T01:22:56.998Z",
+  "updatedAt": "2026-11-24T13:03:07.621Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1786,
+    "ordinanceChars": 0,
+    "memoChars": 2644,
+    "memoSupplied": 2644,
+    "marker": "SF-5CBA98B6"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-411-2026.json",
+    "form": "initiator",
+    "textHash": "5cba98b656ea29fb",
+    "fetchedAt": "2026-11-19T10:18:53.447Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 2867,
+    "truncated": false,
+    "included": true,
+    "key": "bdcc5fcdfff2019b"
+  },
   "consensus": {
-    "riskScore": 2.3,
+    "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "CNAS, obligată să plătească concediile medicale în 90 de zile, cu penalități dacă întârzie",
-    "summaryTlDr": "Măsură pozitivă: pune un termen și o sancțiune pe întârzierile la plata concediilor medicale. Dar e scrisă în grabă: nu spune cui se plătește și când e complet dosarul, iar penalitatea de 0,01% pe zi (~3,65% pe an) e mai mică decât ce cere statul de la un contribuabil care întârzie.",
-    "initiatorClaim": "Cei 37 de parlamentari din aproape toate partidele (inițiator principal: deputatul UDMR Bende Sándor) vor ca CNAS să fie obligată prin lege să plătească indemnizațiile de concediu medical în cel mult 90 de zile de la primirea documentelor justificative. Dacă întârzie, CNAS ar plăti penalități.",
-    "realityCheck": "Legea adaugă un singur articol, art. 40¹, în OUG 158/2005. CNAS are 90 de zile de la primirea „documentelor justificative” ca să asigure plata indemnizației, altfel datorează penalități de 0,01% pe zi, prin trimitere la art. 176 din Codul de procedură fiscală. Textul nu spune cine primește banii (asiguratul sau angajatorul care i-a avansat), ce înseamnă dosar complet, la ce sumă se calculează penalitatea și din ce buget se plătește. Iar art. 176 a fost gândit pentru datoriile contribuabililor față de stat, nu invers. Expunerea de motive nu arată câte dosare întârzie, cu cât și de ce, așa că nu e clar dacă o sancțiune simbolică, plătită tot din FNUASS, schimbă ceva.",
+    "plainTitle": "Termen de 90 de zile și penalități pentru plata concediilor medicale",
+    "summaryTlDr": "Intenție legitimă și utilă pentru angajatori și asigurați, dar redactată neglijent: trimite la articolul greșit din Codul de procedură fiscală și nu clarifică mecanismul real de plată a penalităților, riscând să rămână inaplicabilă sau să pice la CCR.",
+    "initiatorClaim": "Inițiatorii susțin că vor să oblige CNAS să achite indemnizațiile de concediu medical în cel mult 90 de zile de la depunerea documentelor justificative și să introducă penalități zilnice pentru a descuraja întârzierile cronice.",
+    "realityCheck": "Legea introduce art. 40¹ în OUG nr. 158/2005 cu un termen de 90 de zile și penalități de 0,01%/zi. Totuși, atribuie obligația către CNAS central în loc de casele teritoriale de sănătate, omite asigurații de la art. 32 alin. (1) și nu stabilește cine calculează, din ce buget se plătesc penalitățile și ce se întâmplă cu cererile deja restante, riscând blocaje administrative sau chiar legalizarea unor întârzieri de 90 de zile.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Angajați & HR",
@@ -17,23 +44,24 @@
       "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. I – art. 40¹ alin. (1)-(2), OUG 158/2005",
-      "proposalContent": "(1) Casele de asigurări de sănătate plătesc indemnizația sau restituie angajatorului suma avansată în cel mult 90 de zile de la depunerea documentației complete; lipsurile se comunică în 15 zile, altfel dosarul se consideră complet. (2) Pentru întârziere, beneficiarul primește din FNUASS dobânzi și penalități la nivelul art. 174 și 176 din Legea nr. 207/2015.",
-      "argumentation": "Textul nu spune cui se plătește (asigurat sau angajator), nici când dosarul e „complet”, deci termenul poate fi blocat prin cereri repetate de acte. Art. 176 CPF privește datoriile contribuabililor: aplicat invers, statul ar plăti doar 0,01%/zi, deși încasează 0,03%/zi. Plata efectivă o fac casele județene, nu CNAS.",
-      "otherComments": "Lipsește o normă tranzitorie: nu se știe dacă termenul se aplică dosarelor depuse înainte de intrarea în vigoare. Expunerea de motive nu are fișa de impact financiar cerută de art. 15 din Legea 500/2002 și art. 31 din Legea 24/2000; fără sursă de finanțare, textul riscă o critică pe art. 138 alin. (5) din Constituție. Trebuie precizată baza de calcul: suma neplătită."
+      "articleRef": "Art. I (art. 40^1) și Art. II",
+      "proposalContent": "Art. 40^1: (1) Casele de asigurări de sănătate achită sau decontează indemnizațiile în 60 de zile de la depunerea actelor pentru art. 1 alin. (1)-(2), art. 32 alin. (1) și art. 36 alin. (3) lit. a)-b). (2) Neplata atrage dobânzi potrivit art. 182 din Legea 207/2015, achitate din oficiu. Art. II: Se aplică și cererilor restante.",
+      "argumentation": "Plățile și rambursările sunt făcute de casele teritoriale de sănătate, nu de CNAS central, iar omiterea art. 32 alin. (1) creează discriminare. Art. 176 CPF vizează penalități datorate de contribuabil, în timp ce art. 182 CPF reglementează corect dobânzile datorate de stat (0,02%/zi). Fără reguli tranzitorii, restanțele actuale rămân nesancționate.",
+      "otherComments": "Pentru a evita neconstituționalitatea pe art. 138 alin. (5) din Constituție, comisiile trebuie să solicite fișa financiară de la Guvern și să precizeze explicit sursa bugetară de plată a dobânzilor, precum și posibilitatea compensării acestora cu contribuțiile datorate de angajatori."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 67526,
-      "riskScore": 2,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 59971,
+      "sourceEndMarker": "SF-5CBA98B6",
+      "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Termen maxim de 90 de zile și penalități pentru CNAS dacă întârzie decontarea concediilor medicale",
-      "verdictShort": "O inițiativă binevenită și echitabilă care obligă statul să deconteze concediile medicale în maximum 90 de zile, sub sancțiunea unor penalități de 0,01% pe zi. Textul are însă câteva stângăcii tehnice de redactare care trebuie corectate în comisii pentru ca CNAS să nu poată ocoli plata.",
-      "initiatorClaim": "Inițiatorii vor să elimine întârzierile cronice la decontarea concediilor medicale din FNUASS, obligând CNAS să achite sumele în cel mult 90 de zile de la primirea documentelor justificative și instituind penalități de întârziere de 0,01% pe zi.",
-      "realityCheck": "Măsura este pozitivă pentru firme și asigurați, însă textul propus confundă „plata indemnizației” (făcută de angajator către salariat) cu „restituirea sumelor din FNUASS” (făcută de casele teritoriale de sănătate către angajator conform art. 38 din OUG 158/2005). În plus, trimiterea la art. 176 din Codul de procedură fiscală este tehnic greșită, acel articol vizând penalitățile datorate de contribuabil statului, nu invers.",
+      "plainTitle": "Termen de 90 de zile și penalități pentru plata concediilor medicale",
+      "verdictShort": "Intenție legitimă și utilă pentru angajatori și asigurați, dar redactată neglijent: trimite la articolul greșit din Codul de procedură fiscală și nu clarifică mecanismul real de plată a penalităților, riscând să rămână inaplicabilă sau să pice la CCR.",
+      "initiatorClaim": "Inițiatorii susțin că vor să oblige CNAS să achite indemnizațiile de concediu medical în cel mult 90 de zile de la depunerea documentelor justificative și să introducă penalități zilnice pentru a descuraja întârzierile cronice.",
+      "realityCheck": "Legea introduce art. 40¹ în OUG nr. 158/2005 cu un termen de 90 de zile și penalități de 0,01%/zi. Totuși, atribuie obligația către CNAS central în loc de casele teritoriale de sănătate, omite asigurații de la art. 32 alin. (1) și nu stabilește cine calculează, din ce buget se plătesc penalitățile și ce se întâmplă cu cererile deja restante, riscând blocaje administrative sau chiar legalizarea unor întârzieri de 90 de zile.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Angajați & HR",
@@ -41,64 +69,37 @@
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. I (noul Art. 40¹ alin. 1) impune un termen de 90 de zile de la primirea documentelor justificative pentru asigurarea plății indemnizațiilor de concediu medical aferente asiguraților și angajatorilor.",
-        "Art. I (noul Art. 40¹ alin. 2) introduce o penalitate de 0,01% pe zi de întârziere în sarcina CNAS dacă depășește termenul de 90 de zile, creând o minimă simetrie față de sancțiunile fiscale aplicate firmelor.",
-        "Deficiență de tehnică legislativă: cererile de recuperare și documentele justificative se depun la casele teritoriale de asigurări de sănătate (CAS), nu direct la CNAS, iar pentru salariați (art. 36 alin. 3 lit. a) operațiunea juridică este de restituire/decontare către angajator (art. 38), nu de plată directă a indemnizației."
+        "Art. 40¹ alin. (1) obligă «CNAS» să asigure plata în 90 de zile, dar în arhitectura OUG nr. 158/2005 plățile directe și decontările către angajatori sunt făcute de casele de asigurări de sănătate teritoriale; în plus, sunt omiși beneficiarii prevăzuți la art. 32 alin. (1), prezenți în art. 40 alin. (1) în vigoare.",
+        "Art. 40¹ alin. (2) face trimitere la art. 176 din Legea nr. 207/2015 (penalități de 0,01%/zi datorate de contribuabil bugetului), în loc de art. 182 CPF care reglementează dobânzile datorate de stat la restituiri/rambursări (0,02%/zi), și nu prevede procedura de solicitare, calcul sau compensare.",
+        "Art. II stabilește intrarea în vigoare la 30 de zile de la publicare, dar nu conține dispoziții tranzitorii pentru dosarele de decontare deja depuse și restante de luni de zile la casele de asigurări de sănătate."
       ],
-      "blindSpotsCaught": "Textul trimite la art. 176 din Legea nr. 207/2015 (Codul de procedură fiscală), care reglementează penalitățile de întârziere datorate de contribuabil bugetului, în timp ce dobânzile datorate de stat pentru sume de restituit sunt reglementate la art. 182 CPF (și sunt de 0,02% pe zi, dar numai la cerere). De asemenea, Normele metodologice actuale (art. 64 din Ordinul MS/CNAS nr. 15/2018) prevăd deja un termen de 60 de zile pentru decontare sau respingere, pe care legea îl urcă la 90 de zile, dar îi atașează pentru prima dată o sancțiune pecuniară.",
-      "constitutionalityNote": "Sub aspectul art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), formularea „CNAS... asigură plata indemnizației... pentru persoanele prevăzute la art. 36 alin. (3) lit. a)” creează o contradicție internă cu art. 36 și art. 38 din OUG nr. 158/2005, unde plătitorul indemnizației este angajatorul, iar plătitorul decontării din FNUASS este casa teritorială de asigurări de sănătate. De asemenea, întrucât penalitățile grevează bugetul FNUASS/CNAS, este necesară respectarea art. 138 alin. (5) din Constituție privind indicarea sursei de finanțare.",
-      "euLawNote": "Proiectul nu ridică probleme de incompatibilitate cu dreptul UE; nu intră sub incidența Directivei (UE) 2015/1535 (TRIS) și nici nu restrânge accesul la profesii conform Directivei (UE) 2018/958. Dimpotrivă, spiritul reglementării este convergent cu principiile europene de bună administrare și de combatere a întârzierii în efectuarea plăților de către autoritățile publice.",
+      "blindSpotsCaught": "Trimiterea eronată la art. 176 din Codul de procedură fiscală (aplicabil debitorului privat, nu statului, și la jumătate din dobânda de 0,02%/zi din art. 182 CPF), confuzia dintre plata indemnizației către asigurat și recuperarea sumelor avansate de angajator (art. 36 alin. 3 lit. a), omisiunea art. 32 alin. (1) și lipsa oricărei reguli tranzitorii pentru stocul uriaș de restanțe acumulate.",
+      "constitutionalityNote": "Există vulnerabilități pe art. 1 alin. (5) din Constituție (lipsa de claritate și previzibilitate: confuzie instituțională CNAS vs. case teritoriale, absența procedurii de stabilire și plată a penalităților) și pe art. 138 alin. (5) din Constituție, întrucât cheltuielile bugetare generate de penalități nu au stabilită sursa de finanțare și lipsește fișa financiară.",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează profesii) și nici a Directivei (UE) 2015/1535 (TRIS, nu vizează servicii digitale sau reglementări tehnice). Obiectivul de disciplinare a plăților publice este compatibil cu normele UE de securitate socială și sprijină indirect lichiditatea IMM-urilor pe piața unică.",
       "senatForm": {
-        "articleRef": "Art. I (noul Art. 40¹ alin. (1) și (2))",
-        "proposalContent": "Art. 40¹. – (1) Casele de asigurări de sănătate și CNAS asigură decontarea sau plata sumelor suportate din FNUASS conform art. 38 în cel mult 90 de zile de la depunerea documentelor justificative complete. (2) Depășirea termenului atrage dobânzi și penalități de 0,01% pe zi de întârziere, acordate din oficiu odată cu plata debitului principal.",
-        "argumentation": "Forma inițială obligă doar CNAS la „plata indemnizației”, deși pentru salariați indemnizația e achitată de angajator, iar casele teritoriale fac restituirea sumelor din FNUASS (art. 38). Totodată, art. 176 Cod proc. fiscală reglementează penalitățile datorate de contribuabil statului, nu invers, fiind necesară stipularea plății din oficiu a penalităților.",
-        "otherComments": "Măsura este binevenită pentru IMM-uri, care creditează gratuit statul cu lunile sau anii pentru concediile medicale. Fără clarificarea distincției dintre plata indemnizației și restituirea sumelor către angajatori prin casele teritoriale, CNAS ar putea bloca aplicarea legii invocând lipsa calității procesuale sau inaplicabilitatea art. 176 CPF."
-      }
+        "articleRef": "Art. I (art. 40^1) și Art. II",
+        "proposalContent": "Art. 40^1: (1) Casele de asigurări de sănătate achită sau decontează indemnizațiile în 60 de zile de la depunerea actelor pentru art. 1 alin. (1)-(2), art. 32 alin. (1) și art. 36 alin. (3) lit. a)-b). (2) Neplata atrage dobânzi potrivit art. 182 din Legea 207/2015, achitate din oficiu. Art. II: Se aplică și cererilor restante.",
+        "argumentation": "Plățile și rambursările sunt făcute de casele teritoriale de sănătate, nu de CNAS central, iar omiterea art. 32 alin. (1) creează discriminare. Art. 176 CPF vizează penalități datorate de contribuabil, în timp ce art. 182 CPF reglementează corect dobânzile datorate de stat (0,02%/zi). Fără reguli tranzitorii, restanțele actuale rămân nesancționate.",
+        "otherComments": "Pentru a evita neconstituționalitatea pe art. 138 alin. (5) din Constituție, comisiile trebuie să solicite fișa financiară de la Guvern și să precizeze explicit sursa bugetară de plată a dobânzilor, precum și posibilitatea compensării acestora cu contribuțiile datorate de angajatori."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 162365,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "CNAS, obligată să plătească concediile medicale în 90 de zile, cu penalități dacă întârzie",
-      "verdictShort": "Măsură pozitivă: pune un termen și o sancțiune pe întârzierile la plata concediilor medicale. Dar e scrisă în grabă: nu spune cui se plătește și când e complet dosarul, iar penalitatea de 0,01% pe zi (~3,65% pe an) e mai mică decât ce cere statul de la un contribuabil care întârzie.",
-      "initiatorClaim": "Cei 37 de parlamentari din aproape toate partidele (inițiator principal: deputatul UDMR Bende Sándor) vor ca CNAS să fie obligată prin lege să plătească indemnizațiile de concediu medical în cel mult 90 de zile de la primirea documentelor justificative. Dacă întârzie, CNAS ar plăti penalități.",
-      "realityCheck": "Legea adaugă un singur articol, art. 40¹, în OUG 158/2005. CNAS are 90 de zile de la primirea „documentelor justificative” ca să asigure plata indemnizației, altfel datorează penalități de 0,01% pe zi, prin trimitere la art. 176 din Codul de procedură fiscală. Textul nu spune cine primește banii (asiguratul sau angajatorul care i-a avansat), ce înseamnă dosar complet, la ce sumă se calculează penalitatea și din ce buget se plătește. Iar art. 176 a fost gândit pentru datoriile contribuabililor față de stat, nu invers. Expunerea de motive nu arată câte dosare întârzie, cu cât și de ce, așa că nu e clar dacă o sancțiune simbolică, plătită tot din FNUASS, schimbă ceva.",
-      "affectedGroups": [
-        "Angajați & HR",
-        "IMM & Antreprenori",
-        "Contabili & Fiscalitate",
-        "Sănătate & Educație"
-      ],
-      "keyFindings": [
-        "Art. 40¹ alin. (1): termenul de 90 de zile curge „de la primirea documentelor justificative de plată”, dar nu se definește ce documente și nici ce se întâmplă dacă sunt declarate incomplete. Există riscul ca termenul să fie ocolit prin cereri repetate de completare.",
-        "Art. 40¹ alin. (1) obligă „CNAS”, deși plățile și restituirile se fac efectiv prin casele de asigurări de sănătate. Pentru salariați, indemnizația o plătește lunar angajatorul, care apoi o recuperează din FNUASS. Nu e clar dacă „plata indemnizației” înseamnă plata către asigurat sau restituirea către angajator.",
-        "Art. 40¹ alin. (2): penalitatea de 0,01%/zi (≈3,65%/an) e preluată din art. 176 Cod procedură fiscală, normă scrisă pentru obligațiile fiscale ale contribuabililor. Lipsesc beneficiarul penalității, baza de calcul, data de la care curge și procedura prin care se cere.",
-        "Asimetrie: un contribuabil care întârzie plata către stat datorează 0,02%/zi dobândă plus 0,01%/zi penalitate. CNAS ar datora doar 0,01%/zi, deci efectul descurajant e modest.",
-        "Art. II: art. 40¹ intră în vigoare la 30 de zile de la publicare. Nu există însă o normă tranzitorie pentru dosarele deja depuse și neplătite.",
-        "Expunerea de motive are patru paragrafe. Nu conține evaluare de impact bugetar și nu cuantifică întârzierile, deși art. 31 din Legea nr. 24/2000 și art. 15 din Legea nr. 500/2002 o cer."
-      ],
-      "blindSpotsCaught": "Trimiterea la art. 176 CPF aplică unei datorii a statului un regim gândit pentru creanțele fiscale ale statului. Codul are deja un mecanism separat pentru sumele de restituit de la buget (dobânzi, art. 182), iar legea nu spune care se aplică și nici dacă se cumulează. Dacă normele de aplicare ale OUG 158/2005 prevăd deja termene de soluționare a cererilor de restituire, art. 40¹ trebuie corelat cu ele, altfel vor exista două termene paralele. Penalitățile nu au altă sursă prevăzută, deci ar fi plătite tot din FNUASS, adică din banii asiguraților. Directiva 2011/7/UE privind întârzierile de plată nu se aplică, pentru că nu e vorba de tranzacții comerciale. Standardul ei (30 de zile pentru autorități publice, dobândă egală cu rata BCE plus 8 puncte) arată însă cât de blândă e sancțiunea propusă.",
-      "constitutionalityNote": "Fondul legii întărește accesul efectiv la dreptul la asigurări sociale (art. 47 alin. 2 din Constituție) și nu restrânge niciun drept. Problemele sunt de tehnică legislativă. Imprecizia privind beneficiarul plății, momentul de la care curge termenul și baza de calcul a penalității afectează claritatea și previzibilitatea cerute de art. 1 alin. (5). Probabil nu e un viciu care să ducă la neconstituționalitate, dar e o sursă sigură de litigii. Mai serios: penalitățile reprezintă o cheltuială nouă din FNUASS, fără sursă de finanțare și fără fișă financiară, ceea ce poate atrage o critică pe art. 138 alin. (5) și art. 111 alin. (1). Curtea Constituțională a sancționat în mod repetat astfel de omisiuni. Riscul e atenuat de faptul că penalitatea apare doar dacă CNAS încalcă legea.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează accesul la profesii reglementate. Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu sunt reguli tehnice și nici servicii ale societății informaționale. Regulamentul (CE) 883/2004 privind coordonarea sistemelor de securitate socială nu e afectat: regula procedurală se aplică la fel lucrătorilor migranți asigurați în România, fără discriminare. Nu sunt efecte asupra concurenței sau ajutoare de stat. Directiva 2011/7/UE nu acoperă prestațiile de securitate socială, deci nu impune un alt termen.",
-      "senatForm": {
-        "articleRef": "Art. I – art. 40¹ alin. (1)-(2), OUG 158/2005",
-        "proposalContent": "(1) Casele de asigurări de sănătate plătesc indemnizația sau restituie angajatorului suma avansată în cel mult 90 de zile de la depunerea documentației complete; lipsurile se comunică în 15 zile, altfel dosarul se consideră complet. (2) Pentru întârziere, beneficiarul primește din FNUASS dobânzi și penalități la nivelul art. 174 și 176 din Legea nr. 207/2015.",
-        "argumentation": "Textul nu spune cui se plătește (asigurat sau angajator), nici când dosarul e „complet”, deci termenul poate fi blocat prin cereri repetate de acte. Art. 176 CPF privește datoriile contribuabililor: aplicat invers, statul ar plăti doar 0,01%/zi, deși încasează 0,03%/zi. Plata efectivă o fac casele județene, nu CNAS.",
-        "otherComments": "Lipsește o normă tranzitorie: nu se știe dacă termenul se aplică dosarelor depuse înainte de intrarea în vigoare. Expunerea de motive nu are fișa de impact financiar cerută de art. 15 din Legea 500/2002 și art. 31 din Legea 24/2000; fără sursă de finanțare, textul riscă o critică pe art. 138 alin. (5) din Constituție. Trebuie precizată baza de calcul: suma neplătită."
-      }
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 112382,
+      "durationMs": 69253,
+      "sourceEndMarker": "SF-5CBA98B6",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Termen de plată și penalități pentru concediile medicale neachitate",
-      "verdictShort": "Proiectul urmărește un scop util: disciplinarea plăților pentru concediile medicale, fără taxe sau sancțiuni noi pentru cetățeni și firme. Riscul principal este redactarea neclară, care poate îngreuna aplicarea și poate pune în discuție termene existente mai favorabile.",
-      "initiatorClaim": "Inițiatorii vor să reducă întârzierile prin obligarea CNAS să asigure plata în maximum 90 de zile de la primirea documentelor justificative. Penalitățile de 0,01% pe zi ar trebui să descurajeze acumularea restanțelor.",
-      "realityCheck": "Art. I introduce termenul și penalitatea, dar nu separă explicit plata către asigurat de restituirea către angajator a indemnizațiilor deja achitate. Formula «CNAS asigură plata» nu clarifică suficient obligațiile caselor competente, beneficiarul penalităților și procedura acordării lor. Proiectul nu alocă prin el însuși fonduri suplimentare și nu garantează stingerea restanțelor existente.",
+      "plainTitle": "Termen de plată și penalități pentru banii de concediu medical",
+      "verdictShort": "Proiectul urmărește un scop util: plata predictibilă a indemnizațiilor și compensarea întârzierilor. Riscul principal este aplicarea neunitară, deoarece textul confundă parțial plata către asigurat cu rambursarea către angajator și lasă penalitățile insuficient definite.",
+      "initiatorClaim": "Inițiatorii vor să oblige CNAS să asigure plata în maximum 90 de zile de la primirea documentelor justificative. Penalitatea zilnică de 0,01% ar trebui să descurajeze întârzierile.",
+      "realityCheck": "Art. 40 existent stabilește 90 de zile pentru solicitarea indemnizațiilor; proiectul adaugă un termen distinct, pentru plată, calculat de la primirea documentelor. Obligația este atribuită CNAS, fără delimitarea clară a plății directe către asigurați de rambursarea sumelor avansate de angajatori și alți plătitori. Trimiterea la o penalitate fiscală nu precizează suficient cine o primește, cine o calculează și asupra cărei sume.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
@@ -106,21 +107,45 @@
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. 40¹ alin. (1) trebuie corelat cu art. 36 alin. (3): angajatorul plătește indemnizația lunar, cel târziu odată cu lichidarea salariului; decontarea din FNUASS este un raport distinct, reglementat de art. 38. Noul termen nu trebuie interpretat ca permisiune de amânare a plății salariatului. [OUG nr. 158/2005](https://legislatie.just.ro/Public/DetaliiDocument/311615)",
-        "Există deja un termen de 60 de zile pentru plata sumelor aprobate spre restituire, în limita creditelor bugetare, la art. 64 alin. (7) din norme. Cele 90 de zile propuse necesită corelare expresă pentru a evita o interpretare mai nefavorabilă angajatorilor. [Normele de aplicare](https://legislatie.just.ro/Public/DetaliiDocument/196683)",
-        "Art. 40¹ alin. (2) stabilește o penalitate moderată: pentru 10.000 lei restanți și 100 de zile de întârziere după scadență, aceasta înseamnă 100 lei. Nu este o amendă pentru angajat sau angajator și nu reprezintă răspunderea personală automată a funcționarilor.",
-        "Impactul favorabil asupra lichidității IMM-urilor depinde de clarificarea dreptului lor la decontare și penalități. Nu apar formulare sau obligații declarative noi expres prevăzute, dar administrarea penalităților implică operațiuni suplimentare pentru casele de asigurări; costul bugetar nu este cuantificat în materialele furnizate.",
-        "Art. II amână aplicarea noii norme cu 30 de zile, dar nu stabilește tratamentul cererilor deja depuse. Termenul de 90 de zile pentru solicitarea indemnizațiilor, prevăzut la art. 40, rămâne distinct de noul termen pentru plată. [OUG nr. 158/2005](https://legislatie.just.ro/Public/DetaliiDocument/311615)"
+        "Art. I, noul art. 40¹ alin. (1): termenul de plată de 90 de zile nu înlocuiește termenul de solicitare din art. 40. Sunt două termene cu puncte de pornire diferite.",
+        "Art. 36 alin. (3) lit. a) și b) identifică plătitori, inclusiv angajatorii; proiectul îi include într-o formulare despre «persoane», fără să reglementeze explicit rambursarea. CNAS și casele de asigurări de sănătate trebuie diferențiate în stabilirea obligațiilor.",
+        "Noul art. 40¹ nu derogă expres de la termenele în care angajatorii trebuie să achite indemnizațiile. Nu rezultă automat că aceștia pot amâna plata către salariați timp de 90 de zile.",
+        "Art. 40¹ alin. (2): art. 176 din Codul de procedură fiscală privește penalități pentru neachitarea obligațiilor fiscale. Folosirea lui pentru o datorie a sistemului de asigurări de sănătate cere precizarea beneficiarului, bazei de calcul și perioadei de întârziere.",
+        "Penalitatea de 0,01% pe zi înseamnă aproximativ 3,65% pentru 365 de zile, fără capitalizare. Nu este o amendă aplicată cetățenilor sau IMM-urilor; implică însă cheltuieli publice suplimentare și administrarea accesoriilor.",
+        "Art. II amână aplicarea noului articol cu 30 de zile de la publicare, dar nu stabilește regimul cererilor deja depuse. Nu există abrogări sau alte modificări ascunse la finalul textului furnizat."
       ],
-      "blindSpotsCaught": "Trimiterea generală la art. 176 din Codul de procedură fiscală preia un mecanism destinat întârzierilor fiscale într-un raport de plată a prestațiilor sociale. Același articol menționează că penalitatea nu înlătură dobânzile: proiectul trebuie să precizeze întinderea trimiterii și raportul cu eventualele dobânzi datorate, fără a presupune că acestea devin automat aplicabile. [Art. 176](https://legislatie.just.ro/Public/DetaliiDocument/262777)",
-      "constitutionalityNote": "Scopul este compatibil cu protecția socială garantată de art. 47 alin. (2). Există vulnerabilități de claritate și corelare sub art. 1 alin. (5), privind debitorul efectiv, creditorul penalităților și termenele concurente. Art. 23 alin. (12), referitor la pedepse, nu este direct incident acestei penalități patrimoniale. Pentru cheltuielile suplimentare trebuie verificată respectarea art. 138 alin. (5) și, în condițiile art. 111 alin. (1), solicitarea informării Guvernului; lipsa datelor din extras nu dovedește singură încălcarea procedurii. Aplicarea la cererile pendinte trebuie clarificată cu respectarea neretroactivității din art. 15 alin. (2). [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355?isFormaDeBaza=True)",
-      "euLawNote": "Nu rezultă bariere noi de acces pe piață, privilegii pentru anumite firme sau restrângeri ale concurenței. Directiva (UE) 2018/958 nu este incidentă: proiectul nu restricționează accesul la profesii reglementate ori exercitarea lor. [Directiva, art. 2](https://eur-lex.europa.eu/eli/dir/2018/958/oj?locale=ro) Nu rezultă obligație de notificare TRIS potrivit Directivei (UE) 2015/1535: textul nu introduce reglementări tehnice pentru produse sau norme specifice serviciilor societății informaționale și nu reglementează AI. [Directiva 2015/1535](https://eur-lex.europa.eu/eli/dir/2015/1535/oj/ron/pdf)",
+      "blindSpotsCaught": "Termenul pornește de la «primirea documentelor», fără să se precizeze instituția competentă, caracterul complet al dosarului sau efectul solicitărilor de completare. Totodată, trebuie corelate termenele existente de verificare și decontare, pentru ca noul termen să nu amâne obligații deja scadente. Art. II nu permite presupunerea că penalitățile se datorează automat și pentru întârzieri anterioare intrării în vigoare.",
+      "constitutionalityNote": "Scopul este compatibil cu protecția socială și ocrotirea sănătății. Principala vulnerabilitate privește art. 1 alin. (5): identificarea debitorului, a creditorului, a scadenței și a mecanismului penalităților trebuie clarificată. Art. 23 alin. (12) nu este direct incident, deoarece nu sunt instituite pedepse penale. Aplicarea temporală trebuie să respecte art. 15 alin. (2). Costurile penalităților și finanțarea plăților cer fundamentare potrivit art. 138 alin. (5), iar solicitarea informării Guvernului trebuie examinată în condițiile art. 111 alin. (1); lipsa acestor documente din materialul furnizat nu dovedește încălcarea Constituției.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor asupra accesului la profesii reglementate și exercitării acestora; proiectul nu introduce asemenea restricții. Nu reglementează servicii digitale, AI sau cerințe tehnice care să indice o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535. Nu apar monopoluri ori bariere concurențiale; decontarea predictibilă poate îmbunătăți lichiditatea angajatorilor, inclusiv a IMM-urilor.",
       "senatForm": {
-        "articleRef": "Art. I – art. 40¹ alin. (2)",
-        "proposalContent": "(2) Pentru sumele datorate și neachitate la termenul prevăzut la alin. (1), casa de asigurări de sănătate competentă plătește din oficiu creditorului penalități de 0,01% pe zi, calculate asupra soldului restant, din ziua următoare expirării termenului până la data plății inclusiv. Penalitățile se suportă din bugetul Fondului național unic de asigurări sociale de sănătate.",
-        "argumentation": "Trimiterea la art. 176 din Codul de procedură fiscală nu clarifică suficient aplicarea unui mecanism fiscal la plata indemnizațiilor și decontărilor. Textul propus precizează debitorul, creditorul, baza și perioada de calcul, plata automată și bugetul suportator. Cota inițiatorilor se păstrează.",
-        "otherComments": "Corelați alin. (1) cu art. 36 și 38: separați plata asiguraților de decontarea plătitorilor și păstrați termenele mai scurte. Reglementați completarea dosarelor și cererile pendinte, fără penalități retroactive. Cereți evaluarea bugetară și stabilirea finanțării. Termenul de amendamente din fișă, 08.06.2026, a expirat; cetățeanul poate trimite o propunere comisiilor."
-      }
+        "articleRef": "Art. I – art. 40¹ alin. (1) și (2)",
+        "proposalContent": "(1) Casele de asigurări de sănătate plătesc asiguraților și rambursează plătitorilor sumele datorate din FNUASS în 90 de zile de la înregistrarea cererii complete. (2) Pentru întârziere se datorează beneficiarului penalități de 0,01% pe zi din suma neachitată, din ziua următoare scadenței până la plată. Termenele de plată către asigurați prevăzute la art. 36 rămân aplicabile.",
+        "argumentation": "Textul distinge plata către asigurat de rambursarea către plătitor și identifică instituția obligată, beneficiarul și calculul penalității. Elimină trimiterea insuficient adaptată la penalitățile fiscale și protejează termenele de plată către salariați. Sunt necesare reguli pentru completarea dosarelor și corelarea cu termenele existente.",
+        "otherComments": "Art. II trebuie să precizeze regimul cererilor în curs, fără penalități retroactive. Termenul de amendamente indicat, 08.06.2026, este depășit; preluarea propunerii depinde de procedura parlamentară. Analiza privește documentele furnizate; verificarea externă a legislației și a dosarului parlamentar nu a fost disponibilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T01:22:56.998Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T13:03:07.621Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

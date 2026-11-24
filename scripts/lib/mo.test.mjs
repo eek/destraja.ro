@@ -28,13 +28,51 @@ test('categoriile: etichetele vechi și cele noi ale portalului ajung în aceea�
   assert.equal(categoryOf({ type: 'RECTIFICARE' }), 'altele');
 });
 
-test('un act listat de două ori se numără o dată; ordinele cu titlu diferit rămân două', () => {
+test('un act listat de două ori se numără o dată: același Monitor, aceeași familie de tip, același număr', () => {
   const a = act({ portalId: 1 });
   const b = act({ portalId: 2, issuers: ['Ministerul Finanțelor'] });
-  const c = act({ portalId: 3, title: 'privind altceva' });
+  // Același ordin din import: alt id, fără titlu, numărul scris cu punct.
+  const imported = act({ portalId: 3, title: null, numberRaw: '10', source: 'scriptogre-2026-11-23', issuers: ['MINISTERUL SĂNĂTĂȚII'] });
+  const other = act({ portalId: 4, number: 11, numberRaw: '11' });
   assert.equal(actKey(a), actKey(b));
-  assert.notEqual(actKey(a), actKey(c));
+  assert.equal(actKey(a), actKey(imported));
+  assert.notEqual(actKey(a), actKey(other));
+  assert.equal(actKey(act({ numberRaw: '6.434' })), actKey(act({ numberRaw: '6434' })));
+  // Fără număr, titlul deosebește actele.
+  assert.notEqual(actKey(act({ numberRaw: null, number: null, title: 'norme' })), actKey(act({ numberRaw: null, number: null, title: 'regulament' })));
   assert.equal(actKey({ portalId: 9, mo: null }), 'id:9');
+});
+
+test('importul romanian-law-data: ordonanțele nedeosebite, emitentul Guvernului scris altfel, copia din listele pe zile câștigă', () => {
+  assert.equal(categoryOf({ type: 'ORDONANTA', typeLabel: 'ORDONANȚĂ', source: 'scriptogre-2026-11-23' }), 'ord');
+  assert.equal(categoryOf({ type: 'ORDONANTA', typeLabel: 'ORDONANȚĂ', source: null }), 'og');
+  assert.equal(categoryOf({ type: 'HOTARARE', issuers: ['GUVERNUL ROMÂNIEI'] }), 'hg');
+  assert.equal(categoryOf({ type: 'HOTARARE', issuers: ['GUVERN'] }), 'hg');
+  const listed = act({ portalId: 1, title: 'privind ceva' });
+  const imported = act({ portalId: 2, title: null, source: 'scriptogre-2026-11-23' });
+  const s = aggregate([{ date: '2025-03-04', status: 'ok', acts: [imported, listed] }], { from: '2025-01-01', to: '2025-12-31' });
+  assert.equal(s.byYear.find((r) => r.year === 2025).ordin, 1);
+});
+
+test('tabelul întreg: anul complet după seria legilor și a hotărârilor, actele fără dată în totalurile anului', () => {
+  const days = [];
+  for (let d = new Date('2024-01-01T00:00:00Z'); d <= new Date('2025-12-31T00:00:00Z'); d.setUTCDate(d.getUTCDate() + 1)) days.push({ date: d.toISOString().slice(0, 10), status: 'ok', acts: [] });
+  const put = (a) => days.find((x) => x.date === a.mo.date).acts.push(a);
+  // 2024: legile 1–20, toate; hotărârile 1–10, toate. 2025: legile 1 și 20 (2 din 20).
+  for (let n = 1; n <= 20; n++) put(act({ portalId: n, type: 'LEGE', number: n, numberRaw: String(n), year: 2024, title: `legea ${n}`, mo: { number: n, bis: false, date: '2024-02-01' } }));
+  for (let n = 1; n <= 10; n++) put(act({ portalId: 100 + n, type: 'HG', number: n, numberRaw: String(n), year: 2024, title: `hg ${n}`, mo: { number: 50 + n, bis: false, date: '2024-03-01' } }));
+  for (const n of [1, 20]) put(act({ portalId: 200 + n, type: 'LEGE', number: n, numberRaw: String(n), year: 2025, title: `legea ${n}`, mo: { number: n, bis: false, date: '2025-02-01' } }));
+  put(act({ portalId: 300, type: 'HG', number: 1, numberRaw: '1', year: 2025, title: 'hg', mo: { number: 99, bis: false, date: '2025-03-01' } }));
+  const undated = [act({ portalId: 400, type: 'ORDIN', year: 2024, mo: null }), act({ portalId: 400, type: 'ORDIN', year: 2024, mo: null })];
+  // `to` în 2026, ca 2025 să nu fie anul în curs.
+  const s = aggregate(days, { from: '2024-01-01', to: '2026-01-05', undated, quality: true });
+  const c = Object.fromEntries(s.coverage.map((x) => [x.year, x]));
+  assert.equal(c[2024].complete, true);
+  assert.equal(c[2025].complete, false, 'doar 2 din 20 de numere de lege');
+  assert.deepEqual([c[2024].lawFound, c[2024].lawMax, c[2024].hgFound, c[2024].hgMax, c[2024].undated], [20, 20, 10, 10, 1]);
+  const r24 = s.byYear.find((r) => r.year === 2024);
+  assert.equal(r24.undated, 1, 'un singur act fără dată, deși apare de două ori');
+  assert.equal(r24.total, 31);
 });
 
 test('starea zilei: refuzată doar când fiecare parte a pierdut prima pagină', () => {

@@ -78,7 +78,7 @@ export function YearColumns({
         let y = base;
         return (
           <g key={b.year}>
-            <title>{`${b.year}${st === 'partial' ? ' (an citit parțial)' : st === 'in-curs' ? ' (an în curs)' : ''}: ${ro(total)}`}</title>
+            <title>{`${b.year}${st === 'partial' ? ' (an incomplet)' : st === 'in-curs' ? ' (an în curs)' : ''}: ${ro(total)}`}</title>
             {b.ref !== undefined && b.ref > total && (
               <path d={top(x, base - h(b.ref), bw, base, 1.2)} fill="none" stroke="var(--line-strong)" strokeWidth="1" vectorEffect="non-scaling-stroke" />
             )}

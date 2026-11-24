@@ -13,7 +13,7 @@ interface Peak {
 }
 
 /**
- * Zidul de zile: un rând pe an (2003 → anul curent), o celulă pe zi, bleumarin mai închis = mai multe acte. Hașura
+ * Zidul de zile: un rând pe an (1990 → anul curent), o celulă pe zi, bleumarin mai închis = mai multe acte. Hașura
  * înseamnă „necitit încă” (sau, în ultimele săptămâni, „încă neindexat”); celula pală = zi citită fără niciun act (de
  * regulă weekend sau sărbătoare). Pe telefon, săptămâni în loc de zile. Desenat pe server: un <path> pe treaptă.
  */
@@ -89,10 +89,12 @@ function WallSvg({ mode, stats, peaks }: { mode: WallMode; stats: MoStats; peaks
   });
 
   const labelEvery = mode === 'day' ? 1 : 2;
+  // Din tabelul întreg: anii incompleți în index au un pătrat hașurat în fața anului (formă, nu doar culoare).
+  const incomplete = new Set(stats.mode === 'tabel' ? stats.coverage.filter((c) => !c.complete && !c.inProgress).map((c) => c.year) : []);
   return (
     <svg viewBox={`0 0 ${width} ${height}`} className="block h-auto w-full" role="img" aria-labelledby={`zid-${mode}-desc`}>
       <desc id={`zid-${mode}-desc`}>
-        {`Actele publicate în Monitorul Oficial, Partea I, în fiecare ${mode === 'day' ? 'zi' : 'săptămână'} din ${stats.calendar[0].year} până pe ${stats.to}, după indexul Portalului Legislativ. Zonele hașurate nu sunt citite încă. Cifrele pe ani sunt în tabelul de la final.`}
+        {`Actele publicate în Monitorul Oficial, Partea I, în fiecare ${mode === 'day' ? 'zi' : 'săptămână'} din ${stats.calendar[0].year} până pe ${stats.to}, după indexul Portalului Legislativ. Zonele hașurate nu sunt încă în index sau nu sunt citite încă. Cifrele pe ani sunt în tabelul de la final.`}
       </desc>
       <defs>
         <pattern id={`hatch-${mode}`} width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
@@ -116,6 +118,11 @@ function WallSvg({ mode, stats, peaks }: { mode: WallMode; stats: MoStats; peaks
           <text key={c.year} x={g.label - 6} y={g.top + r * pitch + g.row - (mode === 'day' ? 3 : 1.5)} textAnchor="end" className="fill-muted tabular-nums" fontSize={mode === 'day' ? 10 : 7.5}>
             {mode === 'day' ? c.year : `’${String(c.year).slice(2)}`}
           </text>
+        ) : null,
+      )}
+      {stats.calendar.map((c, r) =>
+        incomplete.has(c.year) ? (
+          <rect key={`i${c.year}`} x={0.5} y={g.top + r * pitch + 0.5} width={mode === 'day' ? 7 : 5} height={g.row - 1} rx={1.5} fill={`url(#hatch-${mode})`} stroke="var(--mo-hatch)" strokeWidth="0.8" />
         ) : null,
       )}
       <path d={hatches.join('')} fill={`url(#hatch-${mode})`} />

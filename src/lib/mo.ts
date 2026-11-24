@@ -71,7 +71,7 @@ export async function getMoLaw(slug: string): Promise<{ law: MoLaw; readOn: stri
 
 // ---------- Agregatele
 
-export type MoCategory = 'lege' | 'oug' | 'og' | 'hg' | 'decret' | 'decizie' | 'ordin' | 'altele';
+export type MoCategory = 'lege' | 'oug' | 'og' | 'ord' | 'hg' | 'decret' | 'decizie' | 'ordin' | 'altele';
 
 export interface MoCoverageYear {
   year: number;
@@ -82,9 +82,16 @@ export interface MoCoverageYear {
   missing: number;
   inProgress: boolean;
   complete: boolean;
+  /** Doar din tabelul întreg: acte cu dată și fără, legi și hotărâri ale Guvernului găsite față de cel mai mare număr. */
+  acts?: number;
+  undated?: number;
+  lawFound?: number;
+  lawMax?: number;
+  hgFound?: number;
+  hgMax?: number;
 }
 
-export type MoYearRow = { year: number; total: number } & Record<MoCategory, number>;
+export type MoYearRow = { year: number; total: number; undated?: number } & Record<MoCategory, number>;
 
 export interface MoSeries {
   year: number;
@@ -95,6 +102,20 @@ export interface MoSeries {
 export interface MoStats {
   generatedAt: string;
   source: { name: string; note: string };
+  /** „tabel”: tabelul întreg al actelor (din 1990); „zile”: listele pe zile (din 2003). */
+  mode?: 'tabel' | 'zile';
+  table?: {
+    generatedAt: string | null;
+    rows: number;
+    buletinOficial: number;
+    before1990: number;
+    parteaV: number;
+    unpublished: number;
+    partNull: number;
+    undatedWithYear: number;
+    undatedNoYear: number;
+    fromDayListsOnly: number;
+  } | null;
   from: string;
   to: string;
   totals: { acts: number; laws: number; daysWithData: number; days: number; completeYears: number[] };
@@ -102,11 +123,12 @@ export interface MoStats {
   calendar: { year: number; values: (number | null)[] }[];
   byYear: MoYearRow[];
   issues: { year: number; issues: number; bis: number; maxNumber: number }[];
-  laws: { year: number; laws: number; approveOrdinance: number; rejectOrdinance: number; inForce3: number; inForceSooner: number; inForceLater: number; inForceUnknown: number; enteredInForce: number }[];
+  laws: { year: number; laws: number; titled?: number; approveOrdinance: number; rejectOrdinance: number; inForce3: number; inForceSooner: number; inForceLater: number; inForceUnknown: number; enteredInForce: number }[];
   ytd?: { through: string; years: { year: number; total: number; lege: number; oug: number }[] };
   lawsByMonth: Record<string, number>;
   lawNumbering: MoSeries[];
   ougNumbering: MoSeries[];
+  hgNumbering?: MoSeries[];
   ogNumbering: MoSeries[];
   pendingDays: string[];
   busiest: ({ date: string; count: number; topTitle: string | null; topCount: number } & Record<MoCategory, number>)[];

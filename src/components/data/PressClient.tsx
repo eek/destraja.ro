@@ -111,7 +111,7 @@ export default function PressClient({ bills: initial, coverage, builtOn }: { bil
                 .
               </p>
               <p className="mt-3 text-[15px] leading-7 text-body">
-                Și actele din Monitorul Oficial, din 2003 încoace, din indexul Portalului Legislativ:{' '}
+                Și actele din Monitorul Oficial, din 1990 încoace, din indexul Portalului Legislativ:{' '}
                 <Link href="/monitorul-oficial" className={linkCls}>
                   Monitorul Oficial, în cifre
                 </Link>

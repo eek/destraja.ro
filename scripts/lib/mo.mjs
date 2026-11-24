@@ -3,15 +3,17 @@
 // fără dubluri, acoperirea pe ani, agregatele pentru /monitorul-oficial și legătura dintre proiectele noastre și legi.
 //
 // Ce numărăm: actele din indexul portalului publicate în Partea I, fără notele de presă ale ÎCCJ trecute la „nr. 0” (nu
-// apar în Monitor). Un act care apare de două ori în index (ordinele comune, câte o intrare pe emitent) se numără o dată:
-// același număr de Monitor, același tip, același număr și același titlu. Portalul e un index, nu Monitorul: adaugă actele
-// cu întârziere și nu indexează orice element al unui număr; doar Monitorul tipărit e autentic.
+// apar în Monitor). Un act care apare de două ori în index (același act sub două id-uri, din liste diferite, sau un
+// ordin comun, câte o intrare pe emitent) se numără o dată: același număr de Monitor, aceeași familie de tip și același
+// număr (pentru actele fără număr, același titlu). Portalul e un index, nu Monitorul: adaugă actele cu întârziere și nu
+// indexează orice element al unui număr; doar Monitorul tipărit e autentic.
 
 /** Categoriile din grafice, în ordinea stivei (de jos în sus). */
 export const CATEGORIES = [
   ['lege', 'Legi'],
   ['oug', 'Ordonanțe de urgență'],
   ['og', 'Ordonanțe simple'],
+  ['ord', 'Ordonanțe nedeosebite (de urgență sau simple)'],
   ['hg', 'Hotărâri ale Guvernului'],
   ['decret', 'Decrete prezidențiale'],
   ['decizie', 'Decizii (CCR, ÎCCJ, premier și altele)'],
@@ -25,24 +27,44 @@ const plain = (s) => String(s ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').to
  * Categoria unui act. Portalul a schimbat etichetele în timp: până în 2011 „OUG”, „OG”, „HG”; din 2021 „ORD DE
  * URGENTA”, „ORDONANTA”, „HOTARARE” cu emitentul Guvernul (hotărârile Parlamentului, CSM, BNR rămân „altele”).
  */
+export const IMPORTED = 'scriptogre-2026-11-23';
 export function categoryOf(act) {
   const t = String(act.type ?? '').toUpperCase();
   if (t === 'LEGE') return 'lege';
   if (t === 'OUG' || t === 'ORD DE URGENTA') return 'oug';
+  // Actele importate din romanian-law-data (scriptogre) au doar „ORDONANȚĂ”, fără „de urgență”: nu le putem împărți.
+  if (t === 'ORDONANTA' && String(act.source ?? '').startsWith('scriptogre') && !/urgen/i.test(act.typeLabel ?? '')) return 'ord';
   if (t === 'OG' || t === 'ORDONANTA') return 'og';
   if (t === 'HG') return 'hg';
-  if (t === 'HOTARARE') return (act.issuers ?? []).some((i) => plain(i) === 'guvernul') ? 'hg' : 'altele';
+  // „Guvernul”, „GUVERNUL ROMÂNIEI”, „GUVERN”: emitentul scris în feluri diferite în surse diferite.
+  if (t === 'HOTARARE') return (act.issuers ?? []).some((i) => /^guvern/.test(plain(i))) ? 'hg' : 'altele';
   if (t === 'DECRET') return 'decret';
   if (t === 'DECIZIE') return 'decizie';
   if (t === 'ORDIN') return 'ordin';
   return 'altele';
 }
 
-/** Cheia unui act fără dubluri (vezi sus). Un act necitit (fără Monitor) rămâne unic după id-ul din portal. */
+/** Familia de tip, pentru dubluri: sursele numesc diferit ordonanțele și hotărârile Guvernului. */
+const family = (act) => {
+  const c = categoryOf(act);
+  return c === 'oug' || c === 'og' || c === 'ord' ? 'ordonanta' : c === 'altele' ? String(act.type ?? '').toUpperCase() : c;
+};
+const numKey = (act) => String(act.numberRaw ?? act.number ?? '').replace(/\./g, '').toUpperCase();
+
+/** Cheia unui act fără dubluri (vezi sus). Un act fără Monitor rămâne unic după id-ul din portal. */
 export function actKey(act) {
-  if (!act.mo) return `id:${act.portalId}`;
-  return [act.mo.number, act.mo.bis ? 'bis' : '', act.mo.date, String(act.type ?? '').toUpperCase(), act.numberRaw ?? '', plain(act.title).replace(/[^a-z0-9]+/g, ' ').trim()].join('|');
+  if (!act.mo?.date) return `id:${act.portalId}`;
+  const issue = [act.mo.number, act.mo.bis ? 'bis' : '', act.mo.date, family(act)];
+  const n = numKey(act);
+  if (n) return [...issue, n].join('|');
+  const t = plain(act.title).replace(/[^a-z0-9]+/g, ' ').trim();
+  // Fără număr și fără titlu (rândurile din import): nu le putem deosebi între ele; „?” le strânge pe cele din același
+  // număr de Monitor și aceeași familie într-unul singur (vezi aggregate).
+  return [...issue, t || '?'].join('|');
 }
+
+/** Dintre două copii ale aceluiași act, cea mai bogată: cu titlu, din listele pe zile, nu din import. */
+const richness = (a) => (a.title ? 2 : 0) + (String(a.source ?? '').startsWith('scriptogre') ? 0 : 1);
 
 /**
  * Ziua din samples, după Partea I: „refuzată” (portalul n-a dat prima pagină: nu știm nimic), „parțială” (pagini lipsă)
@@ -98,16 +120,25 @@ const median = (xs) => {
  * days: [{ date, status: 'ok'|'parțială'|'refuzată', acts: [...] }] pentru fiecare zi din samples (actele zilei, toate
  * Părțile I). from/to: intervalul afișat (zilele fără folder în el sunt „lipsă”).
  */
-export function aggregate(days, { from, to, lagDays = 30 }) {
+/** Pragurile pentru un an „complet” când actele vin din tabelul întreg (vezi `quality` în aggregate). */
+export const QUALITY = { laws: 0.95, hg: 0.9, dated: 0.95 };
+
+export function aggregate(days, { from, to, lagDays = 30, undated = [], quality = false }) {
   const byDate = new Map(days.map((d) => [d.date, d]));
   const seen = new Map(); // key -> act
   for (const d of days) {
     for (const a of d.acts) {
       if (a.notInGazette) continue;
       const k = actKey(a);
-      if (!seen.has(k)) seen.set(k, { ...a, _day: a.mo?.date ?? d.date });
+      const prev = seen.get(k);
+      if (!prev || richness(a) > richness(prev)) seen.set(k, { ...a, _day: a.mo?.date ?? d.date });
     }
   }
+  // Un rând fără număr și fără titlu nu se numără dacă același număr de Monitor are deja un act din aceeași familie
+  // (de obicei e chiar acela, sub alt id); altfel rămâne unul singur. Cifrele pot scădea cu puțin: o limită de jos.
+  const issueFamilies = new Set();
+  for (const k of seen.keys()) if (!k.endsWith('|?')) issueFamilies.add(k.split('|').slice(0, 4).join('|'));
+  for (const k of [...seen.keys()]) if (k.endsWith('|?') && issueFamilies.has(k.slice(0, -2))) seen.delete(k);
   const acts = [...seen.values()].filter((a) => a._day >= from && a._day <= to);
   // Legile: o singură publicare pe număr (prima); celelalte apariții ale aceluiași număr (republicări) trec la „altele”.
   const firstLaw = new Map();
@@ -126,6 +157,28 @@ export function aggregate(days, { from, to, lagDays = 30 }) {
   const lastYear = Number(to.slice(0, 4));
   const years = [];
   for (let y = firstYear; y <= lastYear; y++) years.push(y);
+  // Actele fără dată de publicare, dar cu anul actului: intră în totalurile anului, nu în zid. O singură dată pe id.
+  const undatedActs = [...new Map(undated.filter((a) => a.year >= firstYear && a.year <= lastYear).map((a) => [a.portalId, a])).values()];
+
+  // Legile, ordonanțele de urgență, ordonanțele simple și hotărârile Guvernului au câte o serie de numere pe an, de la 1:
+  // cel mai mare număr văzut spune până unde s-a ajuns, iar numerele găsite cât din serie e în index.
+  const series = (kind) => {
+    const m = new Map();
+    for (const a of [...acts, ...undatedActs]) {
+      if (cat(a) !== kind || !a.number || !a.year) continue;
+      const e = m.get(a.year) ?? { numbers: new Set(), max: 0 };
+      e.numbers.add(a.number);
+      e.max = Math.max(e.max, a.number);
+      m.set(a.year, e);
+    }
+    return [...m.entries()].filter(([y]) => y >= firstYear).sort((a, b) => a[0] - b[0]).map(([year, e]) => ({ year, found: e.numbers.size, maxNumber: e.max }));
+  };
+  const lawSeries = new Map(series('lege').map((x) => [x.year, x]));
+  const hgSeries = new Map(series('hg').map((x) => [x.year, x]));
+  const datedByYear = new Map();
+  for (const a of acts) datedByYear.set(a._day.slice(0, 4), (datedByYear.get(a._day.slice(0, 4)) ?? 0) + 1);
+  const undatedByYear = new Map();
+  for (const a of undatedActs) undatedByYear.set(String(a.year), (undatedByYear.get(String(a.year)) ?? 0) + 1);
 
   // Acoperirea, pe zile și pe ani.
   const coverage = years.map((y) => {
@@ -145,6 +198,23 @@ export function aggregate(days, { from, to, lagDays = 30 }) {
     // „Citit”: cel puțin 99 din 100 de zile citite fără lipsuri (zilele refuzate, lipsă sau cu o pagină refuzată sunt cel
     // mult una la sută, hașurate pe zid și numărate în tabel). Ultimul an din date nu e niciodată „citit”.
     c.complete = !c.inProgress && c.refused + c.missing + c.partial <= Math.ceil(c.days / 100);
+    if (quality) {
+      // Fără „zile citite” (actele vin din tabelul întreg al portalului, după id), anul e complet când indexul are cel
+      // puțin 95% din numerele de lege ale anului și cel puțin 95% din actele anului au dată de publicare.
+      const ls = lawSeries.get(y);
+      c.acts = datedByYear.get(String(y)) ?? 0;
+      c.undated = undatedByYear.get(String(y)) ?? 0;
+      c.lawFound = ls?.found ?? 0;
+      c.lawMax = ls?.maxNumber ?? 0;
+      const lawShare = c.lawMax ? c.lawFound / c.lawMax : 0;
+      const datedShare = c.acts + c.undated ? c.acts / (c.acts + c.undated) : 0;
+      // A doua probă, pentru actele Guvernului: hotărârile au și ele o serie pe an (90%: indexul are mai puține).
+      const hs = hgSeries.get(y);
+      c.hgFound = hs?.found ?? 0;
+      c.hgMax = hs?.maxNumber ?? 0;
+      const hgShare = c.hgMax ? c.hgFound / c.hgMax : 0;
+      c.complete = !c.inProgress && lawShare >= QUALITY.laws && hgShare >= QUALITY.hg && datedShare >= QUALITY.dated;
+    }
     return c;
   });
   const complete = new Set(coverage.filter((c) => c.complete).map((c) => c.year));
@@ -174,7 +244,7 @@ export function aggregate(days, { from, to, lagDays = 30 }) {
 
   // Pe ani și categorii.
   const empty = () => Object.fromEntries(CATEGORIES.map(([k]) => [k, 0]));
-  const byYear = new Map(years.map((y) => [y, { year: y, total: 0, ...empty() }]));
+  const byYear = new Map(years.map((y) => [y, { year: y, total: 0, undated: 0, ...empty() }]));
   const laws = [];
   const issues = new Map(years.map((y) => [y, { numbers: new Set(), bis: 0, max: 0 }]));
   const issuers = new Map();
@@ -194,7 +264,7 @@ export function aggregate(days, { from, to, lagDays = 30 }) {
       }
       i.max = Math.max(i.max, a.mo.number);
     }
-    for (const who of new Set(a.issuers ?? [])) {
+    for (const who of new Set((a.issuers ?? []).map((i) => (/^[^a-zăâîșțş]+$/.test(i) ? i.charAt(0) + i.slice(1).toLocaleLowerCase('ro') : i)))) {
       const k = who.trim();
       if (!k) continue;
       const e = issuers.get(k) ?? { name: k, total: 0, byYear: {} };
@@ -204,16 +274,24 @@ export function aggregate(days, { from, to, lagDays = 30 }) {
     }
   }
 
+  for (const a of undatedActs) {
+    const row = byYear.get(a.year);
+    row[cat(a)]++;
+    row.total++;
+    row.undated++;
+  }
+
   // Legile: pe luni, aprobarea ordonanțelor, intrarea în vigoare, numerotarea (cât din seria anului e în index).
   const lawsByMonth = {};
   const lawYear = new Map();
-  const emptyLawYear = (y) => ({ year: y, laws: 0, approveOrdinance: 0, rejectOrdinance: 0, inForce3: 0, inForceSooner: 0, inForceLater: 0, inForceUnknown: 0, enteredInForce: 0 });
+  const emptyLawYear = (y) => ({ year: y, laws: 0, titled: 0, approveOrdinance: 0, rejectOrdinance: 0, inForce3: 0, inForceSooner: 0, inForceLater: 0, inForceUnknown: 0, enteredInForce: 0 });
   for (const l of laws) {
     const m = l._day.slice(0, 7);
     lawsByMonth[m] = (lawsByMonth[m] ?? 0) + 1;
     const y = Number(l._day.slice(0, 4));
     const e = lawYear.get(y) ?? emptyLawYear(y);
     e.laws++;
+    if (l.title) e.titled++;
     const act = ordinanceAction(l.title);
     if (act) e.approveOrdinance++;
     if (act === 'respinge') e.rejectOrdinance++;
@@ -251,20 +329,6 @@ export function aggregate(days, { from, to, lagDays = 30 }) {
       }
       return { year: y, total, lege, oug };
     });
-  // Legile, ordonanțele de urgență și ordonanțele simple au câte o serie de numere pe an, de la 1: cel mai mare număr
-  // văzut spune câte s-au adoptat cel puțin, iar numerele găsite cât din serie e în index.
-  const series = (kind) => {
-    const m = new Map();
-    for (const a of acts) {
-      if (cat(a) !== kind || !a.number || !a.year) continue;
-      const e = m.get(a.year) ?? { numbers: new Set(), max: 0 };
-      e.numbers.add(a.number);
-      e.max = Math.max(e.max, a.number);
-      m.set(a.year, e);
-    }
-    return [...m.entries()].filter(([y]) => y >= firstYear).sort((a, b) => a[0] - b[0]).map(([year, e]) => ({ year, found: e.numbers.size, maxNumber: e.max }));
-  };
-
   // Cele mai aglomerate zile.
   const busiest = [...perDay.entries()]
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
@@ -311,6 +375,7 @@ export function aggregate(days, { from, to, lagDays = 30 }) {
     ytd: { through: md, years: ytd },
     lawsByMonth,
     lawNumbering: series('lege'),
+    hgNumbering: series('hg'),
     ougNumbering: series('oug'),
     ogNumbering: series('og'),
     pendingDays,

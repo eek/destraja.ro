@@ -2,126 +2,181 @@
   "billId": "Pl-x 72/2026",
   "slug": "plx-72-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T06:54:24.510Z",
+  "updatedAt": "2026-11-24T15:28:51.965Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 6268,
+    "ordinanceChars": 0,
+    "memoChars": 6545,
+    "memoSupplied": 6545,
+    "marker": "SF-ADC66029"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-72-2026.json",
+    "form": "initiator",
+    "textHash": "adc660290339d034",
+    "fetchedAt": "2026-11-19T10:42:32.087Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
     "riskScore": 5,
     "riskLevel": "yellow",
     "plainTitle": "Depozite publice pentru recolte și o bursă online de stat pentru fermieri",
-    "summaryTlDr": "Idee utilă pentru micii fermieri, dar textul e o schiță nefinanțată și plină de erori: invocă o agenție care nu există, inventează clase de calitate diferite de cele din normele UE și îi lasă pe cumpărători în afara propriei burse. Nu e o lege periculoasă, dar în forma asta nu poate fi aplicată.",
-    "initiatorClaim": "Inițiatorii spun că micii fermieri pierd anual 20-40% din legume și fructe din lipsă de depozite și își vând recolta sub preț intermediarilor. Ei propun o rețea publică de depozite frigorifice și silozuri, plus o bursă digitală de stat prin care fermierii să vândă direct.",
-    "realityCheck": "Legea obligă statul să construiască centre de depozitare și să creeze o platformă, dar nu spune cât costă, cine plătește, cine deține centrele și cine le operează. Toate acestea sunt lăsate pe seama unor norme ulterioare. Bursa nu elimină intermediarii prin niciun mecanism concret, iar cumpărătorii nici nu apar printre membrii ei. Textul mai conține erori de fond: o agenție inexistentă, clase de calitate incompatibile cu standardele UE și regiuni istorice în loc de județe. Cifrele din Expunerea de motive (20-40% pierderi) sunt atribuite unor «estimări oficiale» fără sursă.",
+    "summaryTlDr": "Intenția e bună și textul nu impune taxe sau sancțiuni, dar e o lege-cadru declarativă, fără bani alocați, cu o instituție de control care nu există și cu o «bursă» în care, literal, cumpărătorii și cooperativele nu pot fi membri. Riscul real ține de neclaritate, de buget și de ajutorul de stat, nu de abuz.",
+    "initiatorClaim": "Inițiatorii vor să reducă pierderile de 20-40% la fructe și legume prin centre publice de depozitare și să le dea micilor fermieri acces direct la piață, la prețuri transparente, printr-o bursă agricolă digitală care să elimine intermediarii.",
+    "realityCheck": "Legea doar anunță că se vor construi depozite și o platformă (BAN), fără să stabilească cine le deține, cine le operează, cu ce statut juridic și cu ce buget: finanțarea e facultativă («poate fi finanțat»), iar detaliile sunt lăsate unei metodologii viitoare. Art. 4 alin. (4) permite ca membri doar producători, PFA, II și IF, adică exclude societățile agricole, cooperativele și cumpărătorii, deși bursa ar trebui să lege tocmai producători de cumpărători. Art. 5 alin. (2) poate fi citit ca obligație generală de înregistrare a produselor pe BAN, iar art. 5 alin. (3) prevede verificări periodice fără autoritate, procedură sau consecințe definite.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "IMM & Antreprenori",
-      "Contabili & Fiscalitate",
+      "Toți cetățenii",
       "IT & AI"
     ],
     "senatForm": {
-      "articleRef": "Art. 4 alin. (4) – membrii BAN",
-      "proposalContent": "(4) Pot fi membri ai BAN, cu acces nediscriminatoriu: producătorii agricoli persoane fizice și juridice, PFA, întreprinderile individuale și familiale, cooperativele agricole, grupurile și organizațiile de producători, precum și cumpărătorii (procesatori, comercianți, exportatori). Condițiile de înscriere și tarifele se aprobă prin hotărâre a Guvernului și se publică.",
-      "argumentation": "Lista din forma actuală nu îi menționează pe cumpărători (procesatori, retaileri, exportatori), deși art. 4 alin. (2) lit. c) se bazează pe tranzacții directe cu ei, și lasă neclar dacă SRL-urile agricole, cooperativele și grupurile de producători pot participa. Fără cerere bursa nu funcționează, iar Expunerea de motive promite chiar stimularea cooperativelor.",
-      "otherComments": "Art. 9 numește o instituție inexistentă (corect: ANSVSA). Clasele A/B/C de la art. 6 trebuie aliniate la clasele UE pentru fructe și legume (Extra, I, II). Art. 3 folosește regiuni istorice, nu județe, și omite Moldova și Dobrogea. Costurile nu sunt estimate, iar PNRR nu mai finanțează proiecte noi. Art. 8 alin. (2) nu se corelează cu art. 4 alin. (3) privind normele."
+      "articleRef": "Art. 4 alin. (4) și Art. 5 alin. (2)",
+      "proposalContent": "Art. 4 (4): «Pot fi membri ai BAN, în condiții nediscriminatorii: producătorii agricoli, indiferent de forma juridică, PFA, II, IF, cooperativele agricole, grupurile și organizațiile de producători, precum și cumpărătorii (procesatori, comercianți, exportatori).» Art. 5 (2): «Înscrierea pe BAN este facultativă și nu condiționează accesul la depozite.»",
+      "argumentation": "Art. 4 alin. (4) exclude societățile agricole, cooperativele și cumpărătorii, deși art. 4 alin. (2) lit. c) vizează vânzarea directă producător-cumpărător: o bursă fără cumpărători nu funcționează. Excluderea cooperativelor contrazice scopul declarat. Art. 5 alin. (2) e ambiguu (obligație sau condiție?), contrar art. 1 alin. (5) din Constituție.",
+      "otherComments": "De corectat: art. 9 numește o agenție inexistentă (competentă e ANSVSA); termene contradictorii pentru norme (art. 4 alin. 3 vs. art. 8 alin. 2); clasele A/B/C nu corespund standardelor UE de comercializare (Extra/I/II); lipsesc fișa financiară (art. 138 alin. 5 Constituție) și analiza de ajutor de stat pentru depozitarea gratuită (art. 107 TFUE)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 67123,
-      "riskScore": 5,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 78451,
+      "sourceEndMarker": "SF-ADC66029",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Depozite agricole de stat și Bursă Agricolă Națională: intenție bună, dar text legislativ plin de erori și instituții inexistente",
-      "verdictShort": "Deși ideea sprijinirii micilor fermieri cu depozite regionale și o bursă digitală este binevenită, proiectul este redactat extrem de neglijent (stil șablon generat automat), fiind inaplicabil în forma actuală. Legea împuternicește o agenție de stat care nu există în România, exclude cooperativele agricole și firmele din bursă și contrazice standardele europene de calitate.",
-      "initiatorClaim": "Inițiatorii propun construirea unei rețele naționale de depozite publice (pentru fructe/legume și cereale) și înființarea Bursei Agricole Naționale (BAN) sub coordonarea Ministerului Agriculturii, pentru a reduce pierderile post-recoltă și a elimina intermediarii.",
-      "realityCheck": "În realitate, proiectul este o schiță declarativă fără acoperire bugetară și fără studiu de impact, care ignoră existența Casei de Comerț Agroalimentar „Unirea” și Legea 357/2005 privind bursele de mărfuri. Textul deleagă controlul unei instituții-fantomă („Agenția Națională de Stat pentru Agricultură și Siguranța Alimentară”), omite regiuni agricole majore precum Moldova și Dobrogea și blochează accesul cooperativelor și al SRL-urilor ca membri ai bursei.",
+      "plainTitle": "Depozite agricole de stat și Bursă Agricolă – idee utilă, dar lege inaplicabilă",
+      "verdictShort": "Deși obiectivul de a sprijini micii fermieri este legitim, proiectul este redactat atât de superficial încât nu poate funcționa în practică și are vicii grave de neconstituționalitate. Atribuie controlul unei instituții fictive, creează riscuri de ajutor de stat ilegal și propune cheltuieli publice uriașe fără sursă reală de finanțare.",
+      "initiatorClaim": "Inițiatorii susțin că vor reduce pierderile de 20–40% din recolta de fructe și legume și vor elimina intermediarii prin construirea unei rețele naționale de depozite publice și lansarea unei Burse Agricole Naționale digitale.",
+      "realityCheck": "Textul funcționează mai degrabă ca un eseu programatic decât ca o lege: nu stabilește cine deține depozitele, cine răspunde pentru degradarea mărfii, care sunt regulile de tranzacționare sau sancțiunile, pasând totul către norme ulterioare. În plus, introduce standarde naționale paralele de calitate (A, B, C), omite cumpărătorii și cooperativele dintre membrii bursei și blochează aplicarea prin termene imposibile și referințe la o agenție care nu există.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "IMM & Antreprenori",
-        "Contabili & Fiscalitate"
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Instituție-fantomă inventată în lege (Art. 9 alin. 1): Monitorizarea depozitelor este atribuită „Agenției Naționale de Stat pentru Agricultura și Siguranța Alimentară” — o instituție care nu există în arhitectura statului român (unde funcționează ANSVSA și MADR) și pe care legea nici nu o înființează.",
-        "Excluderea cooperativelor, a SRL-urilor și a cumpărătorilor (Art. 4 alin. 4): Deși expunerea de motive promite stimularea cooperativelor și tranzacții directe cu retailerii/procesatorii, Art. 4(4) limitează calitatea de membru al Bursei exclusiv la „producători agricoli, PFA, întreprinderi individuale sau familiale”, omițând cooperativele agricole, grupurile de producători, societățile comerciale (SRL) și cumpărătorii.",
-        "Discriminare regională și termene contradictorii (Art. 3, Art. 8 și Art. 10): Art. 3(1) lit. a) acordă prioritate doar pentru „Muntenia, Oltenia, Banat, Transilvania”, ignorând inexplicabil Moldova, Dobrogea și Crișana. Totodată, Art. 8(3) impune un program-pilot în 6 luni „de la aprobare”, exact în momentul în care legea abia intră în vigoare conform Art. 10(1) și înainte de adoptarea normelor metodologice.",
-        "Clauze de tip text generat automat și paralelism legislativ (Art. 10 alin. 2): Prevederea conform căreia „modificările ulterioare ale prezentei legi se vor face prin proceduri legislative obișnuite” încalcă normele de tehnică legislativă (Legea nr. 24/2000), fiind o formulare redundantă specifică ciornelor nesupravegheate juridic."
+        "Art. 9 alin. (1) desemnează «Agenția Națională de Stat pentru Agricultura și Siguranța Alimentară» să monitorizeze depozitele – o instituție care nu există în România (atribuțiile reale aparțin ANSVSA și MADR).",
+        "Contradicție cronologică și de competență (Art. 4, 8 și 10): programul pilot trebuie lansat în 6 luni de la aprobare, dar legea intră în vigoare abia la 6 luni de la publicare, iar normele de aplicare se emit după alte 3 luni; Art. 4 atribuie metodologia Guvernului, în timp ce Art. 8 o atribuie Ministerului Agriculturii.",
+        "Art. 4 alin. (4) limitează calitatea de membri ai Bursei Agricole la producători agricoli, PFA, II și IF, omițând complet cumpărătorii (retaileri, procesatori, exportatori), cooperativele și societățile comerciale agricole.",
+        "Art. 5 alin. (1) promite acces gratuit sau subvenționat fermierilor cu până la 10 ha, iar Art. 7 invocă generic bugetul MADR, PNRR și bugetele locale fără fișă financiară, estimare de costuri sau mecanism de ajutor de stat.",
+        "Art. 6 alin. (1) impune o clasificare națională pe clasele A, B, C care intră în conflict direct cu standardele UE de comercializare (Extra, Clasa I, Clasa II) și nu se corelează cu legislația existentă (Legea 357/2005 privind bursele de mărfuri)."
       ],
-      "blindSpotsCaught": "Proiectul alocă din pix fonduri din PNRR și InvestEU (Art. 7 alin. 1 lit. b), deși Parlamentul național nu poate modifica unilateral jaloanele PNRR agreate cu Comisia Europeană. De asemenea, în timp ce Art. 8(2) obligă Ministerul să elaboreze normele în 3 luni, Expunerea de Motive (cap. VII) vorbește despre o Hotărâre de Guvern în 6 luni, iar Bursa se suprapune peste obiectul de activitate al Casei de Comerț Agroalimentar „Unirea”.",
-      "constitutionalityNote": "Proiectul încalcă Art. 1 alin. (5) din Constituție (principiul legalității, clarității și previzibilității legii, consacrat în jurisprudența CCR) prin împuternicirea unei autorități publice inexistente (Art. 9), contradicții interne între termene și paralelism legislativ. De asemenea, încalcă Art. 138 alin. (5) din Constituție, instituind cheltuieli bugetare majore (construcția unei rețele naționale de silozuri/depozite frigorifice și subvenționarea depozitării la Art. 5) fără fișă financiară și fără indicarea sursei reale de finanțare.",
-      "euLawNote": "Art. 6 alin. (1) introduce o clasificare națională ad-hoc a produselor agricole pe categoriile „A, B, C” (unde „C” include produse defecte/avariate), ceea ce intră în conflict direct cu Regulamentul (UE) nr. 1308/2013 (OCP) și Regulamentul de punere în aplicare (UE) 2023/2429, care stabilesc standarde uniforme de comercializare în UE (Categoria Extra, Categoria I, Categoria II). În plus, accesul gratuit/subvenționat la depozitare (Art. 5 alin. 1) și obligativitatea înregistrării pe o platformă de stat (Art. 5 alin. 2) ridică probleme de ajutor de stat (Art. 107 TFUE / Regulamentul de minimis 1408/2013) și necesită notificare TRIS conform Directivei (UE) 2015/1535 pentru reglementarea serviciilor digitale ale platformei BAN.",
+      "blindSpotsCaught": "Pe lângă instituția inexistentă din Art. 9 alin. (1) și paradoxul termenelor (programul pilot cerut înainte ca legea să producă efecte și înainte de normele metodologice), Art. 3 alin. (1) lit. a) enumeră regiunile agricole prioritare (Muntenia, Oltenia, Banat, Transilvania) omițând complet Moldova și Dobrogea. De asemenea, obligarea la standarde proprii de clasificare/etichetare și operarea unei platforme digitale publice pot declanșa obligația de notificare prealabilă la Comisia Europeană prin procedura TRIS (Directiva 2015/1535).",
+      "constitutionalityNote": "Risc ridicat de neconstituționalitate: încalcă Art. 1 alin. (5) (calitatea și previzibilitatea legii) prin desemnarea unei autorități fictive, contradicții interne de termene și competențe, precum și delegarea integrală a elementelor esențiale (statutul BAN, eligibilitate, sancțiuni) către acte subsecvente. Încalcă și Art. 138 alin. (5) privind stabilirea reală a sursei de finanțare, prin invocarea formală a bugetului de stat, a bugetelor locale (afectând și autonomia locală – Art. 120) și a PNRR (program cu alocări deja angajate și termene la final în 2026), fără fișă financiară.",
+      "euLawNote": "Accesul gratuit sau subvenționat la depozite construite din bani publici (Art. 5 alin. 1) constituie un potențial ajutor de stat conform Art. 107–108 TFUE, ce necesită notificare la Comisia Europeană sau încadrare strictă în regulamentele de minimis/exceptare pe categorii în agricultură. Clasificarea obligatorie în clasele A, B, C (Art. 6) intră în coliziune cu Regulamentul (UE) nr. 1308/2013 privind organizarea comună a piețelor și poate necesita notificare conform Directivei (UE) 2015/1535 (TRIS). Limitarea sugerată de titlu la «producătorii români» riscă să încalce principiul nediscriminării pe piața unică (Art. 18 și 34 TFUE); Directiva (UE) 2018/958 nu este direct incidentă (nu reglementează o profesie), însă restricționarea arbitrară a membrilor la Art. 4 alin. (4) ridică probleme de proporționalitate.",
       "senatForm": {
-        "articleRef": "Art. 3, Art. 4 alin. (4), Art. 6 și Art. 9",
-        "proposalContent": "La Art.3(1) lit.a) se elimină enumerarea limitativă a regiunilor. La Art.4(4) se includ cooperativele agricole, grupurile de producători, SRL-urile și cumpărătorii. La Art.6(1) clasificarea A, B, C se înlocuiește cu standardele de comercializare din Regulamentul (UE) nr.1308/2013. La Art.9(1) agenția inexistentă se înlocuiește cu ANSVSA și MADR, iar Art.10(2) se abrogă.",
-        "argumentation": "Textul actual conține erori grave de tehnică legislativă (Legea 24/2000): Art.9(1) atribuie competențe unei instituții inexistente („Agenția Națională de Stat pentru Agricultură și Siguranța Alimentară”), Art.4(4) omite cooperativele agricole și societățile comerciale, Art.3 omite Moldova și Dobrogea, iar Art.6 încalcă standardele UE de calitate (Extra, I, II).",
-        "otherComments": "Proiectul trebuie corelat cu Legea 357/2005 privind bursele de mărfuri și cu cadrul Casei de Comerț „Unirea”, plus fișă financiară cf. art. 138(5) din Constituție. Subvențiile de la Art. 5(1) trebuie încadrate în regulile ajutorului de minimis (Reg. UE 1408/2013), iar termenele contradictorii dintre Art. 8(2)-(3) și Art. 10(1) trebuie armonizate."
-      }
+        "articleRef": "Art. 4 alin. (4), Art. 6 și Art. 9 alin. (1)",
+        "proposalContent": "La Art. 4 alin. (4), includeți cooperativele agricole, SRL-urile și cumpărătorii ca membri BAN. La Art. 6 alin. (1), înlocuiți clasele A/B/C cu standardele UE de comercializare (Reg. UE 1308/2013). La Art. 9 alin. (1), înlocuiți instituția inexistentă cu ANSVSA și MADR, delimitând atribuțiile.",
+        "argumentation": "Art. 9 alin. (1) desemnează o instituție fictivă („Agenția Națională de Stat pentru Agricultura și Siguranța Alimentară”), încălcând Art. 1 alin. (5) din Constituție. Clasificarea A/B/C din Art. 6 contravine Regulamentului UE 1308/2013 (clasele Extra, I, II). Art. 4 alin. (4) omite cooperativele și cumpărătorii, blocând funcționarea bursei.",
+        "otherComments": "Solicit avizul Consiliului Concurenței (ajutor de stat la Art. 5), fișă financiară conform Art. 138 alin. (5) din Constituție și corelarea termenelor din Art. 8 și Art. 10 (pilotul e cerut înainte de normele de aplicare). Proiectul trebuie armonizat cu Legea 357/2005 privind bursele de mărfuri și notificat UE (TRIS) dacă impune standarde tehnice."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 218403,
+      "durationMs": 67233,
+      "sourceEndMarker": "SF-ADC66029",
       "riskScore": 4,
       "riskLevel": "yellow",
       "plainTitle": "Depozite publice pentru recolte și o bursă online de stat pentru fermieri",
-      "verdictShort": "Idee utilă pentru micii fermieri, dar textul e o schiță nefinanțată și plină de erori: invocă o agenție care nu există, inventează clase de calitate diferite de cele din normele UE și îi lasă pe cumpărători în afara propriei burse. Nu e o lege periculoasă, dar în forma asta nu poate fi aplicată.",
-      "initiatorClaim": "Inițiatorii spun că micii fermieri pierd anual 20-40% din legume și fructe din lipsă de depozite și își vând recolta sub preț intermediarilor. Ei propun o rețea publică de depozite frigorifice și silozuri, plus o bursă digitală de stat prin care fermierii să vândă direct.",
-      "realityCheck": "Legea obligă statul să construiască centre de depozitare și să creeze o platformă, dar nu spune cât costă, cine plătește, cine deține centrele și cine le operează. Toate acestea sunt lăsate pe seama unor norme ulterioare. Bursa nu elimină intermediarii prin niciun mecanism concret, iar cumpărătorii nici nu apar printre membrii ei. Textul mai conține erori de fond: o agenție inexistentă, clase de calitate incompatibile cu standardele UE și regiuni istorice în loc de județe. Cifrele din Expunerea de motive (20-40% pierderi) sunt atribuite unor «estimări oficiale» fără sursă.",
-      "affectedGroups": [
-        "Agricultură & Mediu",
-        "IMM & Antreprenori"
-      ],
-      "keyFindings": [
-        "Art. 9 alin. (1) încredințează monitorizarea «Agenției Naționale de Stat pentru Agricultura și Siguranța Alimentară», instituție care nu există în România. Autoritatea competentă pentru siguranța alimentelor este ANSVSA. Așa cum e scris, articolul nu poate fi aplicat.",
-        "Art. 4 alin. (4) enumeră ca membri ai BAN doar producători agricoli, PFA, întreprinderi individuale și familiale. Lipsesc cumpărătorii (retaileri, procesatori, exportatori), deși vânzarea directă de la art. 4 alin. (2) lit. c) se bazează pe ei. Rămâne neclar și dacă SRL-urile agricole și cooperativele pot participa.",
-        "Art. 5 alin. (1) acordă acces «gratuit sau subvenționat» fermelor de până la 10 ha, după criterii nedefinite (volumul recoltei, disponibilitate), și nu spune ce plătesc ceilalți producători. Alin. (2) formulează înregistrarea pe BAN ca obligație. Alin. (3) prevede verificări periodice fără a spune cine le face și după ce norme.",
-        "Art. 2 alin. (2) lit. b) și art. 6 prezintă clasele A/B/C ca standarde europene. Normele UE de comercializare pentru fructe și legume folosesc însă clasele Extra, I și II, iar clasa C («produse defecte sau avariate») nu are corespondent.",
-        "Art. 3 alin. (2) spune că centrele «vor fi construite», dar art. 7 doar enumeră surse posibile («poate fi finanțat»), fără costuri estimate. PNRR, citat ca sursă, nu mai poate finanța proiecte noi după termenul din august 2026.",
-        "Art. 3 alin. (1) lit. a) dă prioritate unor regiuni istorice (Muntenia, Oltenia, Banat, Transilvania), care nu sunt unități administrativ-teritoriale. Moldova și Dobrogea, zone agricole majore, rămân în afara priorității.",
-        "Termenele nu se corelează. Legea intră în vigoare la 6 luni de la publicare (art. 10). Normele se elaborează de minister în 3 luni (art. 8 alin. 2), deși art. 4 alin. (3) cere o metodologie aprobată de Guvern, iar Expunerea vorbește de HG în 6 luni. Pilotul de la art. 8 alin. (3) curge «de la aprobare», fără să precizeze aprobarea cărui act.",
-        "Pretext vs. efect: Expunerea promite eliminarea intermediarilor, a speculei și a evaziunii, plus «sancționarea utilizării incorecte», dar textul nu conține niciun mecanism și nicio sancțiune. Art. 10 alin. (2) nu are conținut normativ."
-      ],
-      "blindSpotsCaught": "Agenția de la art. 9 nu există în România. Denumirea seamănă cu agenția de profil din Republica Moldova, semn că textul a fost preluat fără adaptare. Termenul «bursă» nu e legat de legislația pieței de capital: dacă BAN ar tranzacționa contracte cu livrare la termen, ar intra sub MiFID II și sub supravegherea ASF, aspect ignorat complet. Există deja platforme private de tranzacționare agricolă, precum Bursa Română de Mărfuri, cu care BAN s-ar suprapune. Termenul oficial pentru amendamente la Cameră (26.02.2026) a trecut, deci o propunere cetățenească ajunge în raport doar dacă e preluată de un membru al comisiei.",
-      "constitutionalityNote": "Principala problemă ține de art. 138 alin. (5): art. 3 alin. (2) impune construirea de centre, iar art. 5 alin. (1) acordă acces gratuit sau subvenționat. Totuși, art. 7 doar enumeră surse posibile, fără estimarea costurilor. Jurisprudența constantă a CCR sancționează legile care creează cheltuieli fără sursă de finanțare concretă și fără informarea Guvernului. Previzibilitatea (art. 1 alin. 5) e afectată de instituția inexistentă de la art. 9, de criteriile nedefinite pentru gratuitate și de verificările fără autoritate desemnată (art. 5 alin. 3). Art. 23 alin. (12) nu e direct atins, pentru că legea nu prevede sancțiuni. Dacă sancțiunile sugerate de Expunere ar fi introduse prin ordin de ministru, ar fi nelegale. Art. 135 alin. (2) lit. a) cere ca o rețea de stat subvenționată să nu distorsioneze nejustificat concurența cu depozitele private. Pragul de 10 ha este un criteriu obiectiv, dar nemotivat (art. 16).",
-      "euLawNote": "Directiva 2018/958 nu se aplică, pentru că legea nu reglementează profesii. TRIS (2015/1535): BAN e o platformă publică și nu impune reguli furnizorilor privați de servicii online, deci nu pare notificabilă ca atare. O clasificare obligatorie A/B/C (art. 6) ar putea însă constitui reglementare tehnică. Pentru fructe și legume, domeniul este oricum armonizat prin Reg. (UE) 1308/2013 și Reg. delegat (UE) 2023/2429 (clasele Extra, I, II). Accesul gratuit sau subvenționat la depozite este ajutor de stat (art. 107 TFUE) și trebuie încadrat în Reg. (UE) 2022/2472 sau în plafonul de minimis agricol. Titlul vorbește de «producătorii români», iar textul nu restrânge expres accesul după naționalitate. O asemenea restricție introdusă în norme ar încălca art. 18 și 34 TFUE. PNRR (Reg. 2021/241) nu mai finanțează proiecte noi după august 2026, iar finanțarea din FEADR presupune modificarea Planului Strategic PAC.",
-      "senatForm": {
-        "articleRef": "Art. 4 alin. (4) – membrii BAN",
-        "proposalContent": "(4) Pot fi membri ai BAN, cu acces nediscriminatoriu: producătorii agricoli persoane fizice și juridice, PFA, întreprinderile individuale și familiale, cooperativele agricole, grupurile și organizațiile de producători, precum și cumpărătorii (procesatori, comercianți, exportatori). Condițiile de înscriere și tarifele se aprobă prin hotărâre a Guvernului și se publică.",
-        "argumentation": "Lista din forma actuală nu îi menționează pe cumpărători (procesatori, retaileri, exportatori), deși art. 4 alin. (2) lit. c) se bazează pe tranzacții directe cu ei, și lasă neclar dacă SRL-urile agricole, cooperativele și grupurile de producători pot participa. Fără cerere bursa nu funcționează, iar Expunerea de motive promite chiar stimularea cooperativelor.",
-        "otherComments": "Art. 9 numește o instituție inexistentă (corect: ANSVSA). Clasele A/B/C de la art. 6 trebuie aliniate la clasele UE pentru fructe și legume (Extra, I, II). Art. 3 folosește regiuni istorice, nu județe, și omite Moldova și Dobrogea. Costurile nu sunt estimate, iar PNRR nu mai finanțează proiecte noi. Art. 8 alin. (2) nu se corelează cu art. 4 alin. (3) privind normele."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 127909,
-      "riskScore": 6,
-      "riskLevel": "yellow",
-      "plainTitle": "Depozite publice și o platformă de vânzare pentru fermieri",
-      "verdictShort": "Depozitarea modernă și vânzarea directă pot ajuta fermierii, dar proiectul lasă neclare finanțarea, accesul la sprijin și responsabilitățile instituțiilor. Riscul principal este un sistem costisitor și administrat discreționar, nu introducerea unor taxe sau pedepse ascunse.",
-      "initiatorClaim": "Inițiatorii promit reducerea pierderilor după recoltare, venituri mai bune pentru micii producători și tranzacții transparente, prin depozite publice conectate la Bursa Agricolă Națională. Procentele pierderilor și efectele economice din expunerea de motive sunt justificări invocate, nu rezultate demonstrate sau garantate de articole.",
-      "realityCheck": "Art. 2–8 prevăd infrastructură de depozitare, o platformă publică sub autoritatea MADR, înregistrarea produselor și acces gratuit sau subvenționat pentru exploatații de până la 10 hectare, fără mecanisme suficiente de alocare și funcționare. Textul nu instituie un preț minim garantat, taxe noi, contravenții sau exclusivitatea generală a BAN, iar eliminarea intermediarilor este formulată ca funcție a platformei, fără interzicerea generală a activității lor. Înregistrarea, clasificarea și verificările periodice generează sarcini administrative, fără estimarea costurilor pentru fermieri sau precizarea asistenței disponibile.",
+      "verdictShort": "Intenția e bună și textul nu impune taxe sau sancțiuni, dar e o lege-cadru declarativă, fără bani alocați, cu o instituție de control care nu există și cu o «bursă» în care, literal, cumpărătorii și cooperativele nu pot fi membri. Riscul real ține de neclaritate, de buget și de ajutorul de stat, nu de abuz.",
+      "initiatorClaim": "Inițiatorii vor să reducă pierderile de 20-40% la fructe și legume prin centre publice de depozitare și să le dea micilor fermieri acces direct la piață, la prețuri transparente, printr-o bursă agricolă digitală care să elimine intermediarii.",
+      "realityCheck": "Legea doar anunță că se vor construi depozite și o platformă (BAN), fără să stabilească cine le deține, cine le operează, cu ce statut juridic și cu ce buget: finanțarea e facultativă («poate fi finanțat»), iar detaliile sunt lăsate unei metodologii viitoare. Art. 4 alin. (4) permite ca membri doar producători, PFA, II și IF, adică exclude societățile agricole, cooperativele și cumpărătorii, deși bursa ar trebui să lege tocmai producători de cumpărători. Art. 5 alin. (2) poate fi citit ca obligație generală de înregistrare a produselor pe BAN, iar art. 5 alin. (3) prevede verificări periodice fără autoritate, procedură sau consecințe definite.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "IMM & Antreprenori",
         "IT & AI"
       ],
       "keyFindings": [
-        "Art. 5 alin. (1): pragul de 10 hectare este precis, dar alegerea între gratuitate și subvenție, cuantumul sprijinului, durata depozitării și ordinea distribuirii spațiilor insuficiente nu sunt stabilite. Sprijinirea fermelor mici poate fi justificată; mecanismul actual permite însă tratamente neuniforme.",
-        "Art. 4 alin. (4): categoria generală «producători agricoli» nu clarifică expres participarea societăților și cooperativelor; cumpărătorii apar la alin. (2), fără reguli clare de participare. Este o ambiguitate, nu o excludere certă. Consiliul Concurenței cere acces deschis, transparent și nediscriminatoriu. [Avizul Consiliului Concurenței](https://www.senat.ro/legis/PDF/2025/25L647CC.PDF)",
-        "Art. 7 enumeră surse posibile, fără costuri pentru construcții, energie, personal, mentenanță și subvenții. Menționarea fondurilor europene nu dovedește eligibilitatea sau disponibilitatea lor. Consiliul Fiscal a constatat lipsa documentelor cerute pentru fundamentarea majorării cheltuielilor. [Opinia Consiliului Fiscal](https://www.senat.ro/legis/PDF/2025/25L647CF.PDF)",
-        "Art. 4 și 8 nu stabilesc suficient statutul juridic și responsabilitățile operatorului BAN. Trebuie clarificată relația cu Legea nr. 357/2005 privind bursele de mărfuri: simpla denumire de «bursă» și trimiterea la o metodologie nu rezolvă regimul de constituire și funcționare. [Avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2025/25L647LG.PDF)",
-        "Art. 6: clasele generale A/B/C nu corespund automat standardelor UE specifice produselor; pentru anumite fructe și legume există clasele Extra, I și II. Categoria C nu poate autoriza comercializarea alimentelor nesigure. [Regulamentul delegat (UE) 2023/2429](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AL_202302429)",
-        "Art. 9 atribuie monitorizarea unei «Agenții Naționale de Stat pentru Agricultura și Siguranța Alimentară», fără să o înființeze sau să identifice temeiul organizării sale. Denumirea nu este cea a ANSVSA; autoritățile competente și atribuțiile lor trebuie identificate corect. [Cadrul de organizare ANSVSA](https://legislatie.just.ro/Public/DetaliiDocument/171245)",
-        "Art. 4 alin. (3) prevede o metodologie aprobată de Guvern, iar art. 8 alin. (2) atribuie Ministerului dezvoltarea și implementarea normelor în trei luni. Expunerea de motive vorbește despre șase luni și hotărâre de Guvern, dar nu poate modifica articolele. Termenul pilotului, «6 luni de la aprobare», nu identifică actul de referință."
+        "Art. 4 alin. (4) limitează membrii BAN la producători, PFA, întreprinderi individuale și familiale. Sunt excluse SRL-urile agricole, cooperativele și grupurile de producători (contrar expunerii de motive, care promite stimularea cooperativelor), dar și procesatorii, retailerii și exportatorii, pe care art. 4 alin. (2) lit. c) îi numește drept contrapartide.",
+        "Art. 9 alin. (1) atribuie monitorizarea «Agenției Naționale de Stat pentru Agricultura și Siguranța Alimentară», o instituție care nu există în România. Autoritatea competentă este ANSVSA, iar denumirea seamănă cu cea a unei agenții din Republica Moldova. Prevederea nu poate fi aplicată așa cum e scrisă.",
+        "Termenele și emitentul normelor se contrazic: art. 4 alin. (3) cere o metodologie aprobată de Guvern, art. 8 alin. (2) cere ca Ministerul să elaboreze normele în 3 luni, iar expunerea de motive vorbește de HG în 6 luni. Art. 8 alin. (3) fixează programul pilot la «6 luni de la aprobare», fără să spună aprobarea cui.",
+        "Art. 2 alin. (2) lit. b) și art. 6 introduc clasele A/B/C, care nu corespund standardelor UE de comercializare pentru fructe și legume (clasele Extra/I/II din Reg. (UE) 1308/2013 și Reg. delegat (UE) 2023/2429). Clasa C («produse defecte sau avariate») poate intra în conflict cu aceste standarde.",
+        "Art. 7 nu alocă nicio sumă și nu are fișă financiară. Art. 7 alin. (1) lit. c) presupune contribuții ale autorităților locale fără să le asigure resursele.",
+        "Art. 5 alin. (1) dă acces gratuit sau subvenționat pentru fermele de până la 10 ha, criteriu de suprafață inaplicabil fermelor zootehnice sau celor în sere. Este, totodată, un avantaj economic acordat din resurse de stat, care cere încadrare în regulile UE privind ajutorul de stat."
       ],
-      "blindSpotsCaught": "TRIS nu privește doar platforma digitală: clasificarea și etichetarea obligatorii din art. 2 și 6 pot necesita examinare ca specificații tehnice pentru produse agricole. Înființarea unei platforme publice nu dovedește singură obligația notificării; trebuie verificate natura cerințelor, caracterul obligatoriu și excepțiile aplicabile. Nu rezultă din materialele analizate dacă notificarea a fost efectuată. [Directiva (UE) 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX%3A32015L1535)",
-      "constitutionalityNote": "Există vulnerabilități serioase de claritate și previzibilitate în raport cu art. 1 alin. (5): criterii incomplete pentru beneficii, operator insuficient definit și competențe instituționale neclare. Art. 23 alin. (12), privind legalitatea pedepsei, nu are incidență directă: proiectul nu instituie pedepse. Finanțarea trebuie examinată prin art. 138 alin. (5), iar procedura prin art. 111 alin. (1); dosarul consemnează solicitarea și primirea unui punct de vedere guvernamental, deci nu se poate afirma lipsa consultării Guvernului. Diferențierile între beneficiari trebuie justificate obiectiv prin raportare la art. 16, iar funcționarea sistemului trebuie să respecte libertatea economică și concurența, potrivit art. 45 și 135. Acestea sunt riscuri de neconstituționalitate, nu o constatare obligatorie a CCR. [Constituția](https://www.senat.ro/pagini/constitutia/constitutia.htm), [Dosarul legislativ](https://www.senat.ro/legis/lista.aspx?an_cls=2025&nr_cls=L647)",
-      "euLawNote": "Directiva 2018/958 privește restricțiile asupra profesiilor reglementate; proiectul nu introduce calificări profesionale obligatorii sau activități rezervate, deci nu rezultă aplicabilitatea sa directă. [Directiva 2018/958, art. 1–2](https://eur-lex.europa.eu/legal-content/ro/ALL/?uri=CELEX%3A32018L0958) Pentru TRIS trebuie examinate distinct regulile specifice serviciului electronic și cerințele tehnice privind produsele; existența BAN nu declanșează automat notificarea, iar proiectul nu reglementează AI. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX%3A32015L1535) Gratuitatea, subvențiile și finanțarea operatorului pot constitui ajutoare de stat dacă sunt întrunite condițiile aplicabile; trebuie stabilit temeiul legal al acordării, inclusiv eventuala exceptare sau încadrare de minimis, fără a presupune că orice sprijin este ilegal. Accesul trebuie formulat fără discriminări nejustificate după cetățenie sau origine, iar avantajele publice trebuie evaluate față de depozitele și platformele concurente. Consiliul Concurenței recunoaște beneficiile posibile ale proiectului și solicită aceste garanții. [Avizul Consiliului Concurenței](https://www.senat.ro/legis/PDF/2025/25L647CC.PDF)",
+      "blindSpotsCaught": "Denumirea «Bursa Agricolă Națională» și licitațiile electronice pot crea confuzie cu piețele reglementate de mărfuri și instrumente financiare (Legea nr. 357/2005 privind bursele de mărfuri, MiFID II / Legea nr. 126/2018). Textul nu precizează că BAN e o platformă de tranzacții spot fizice, fără contracte derivate, și nu delimitează rolul ASF. Mai e un efect tăcut: centrele publice de depozitare gratuită ar concura direct cu silozurile și depozitele frigorifice private, multe construite cu fonduri FEADR, fără vreo analiză de impact asupra concurenței. Lipsesc și regulile privind datele de trasabilitate și de tranzacționare (GDPR, cine le accesează). Art. 10 alin. (2) («modificările se fac prin proceduri obișnuite») nu are niciun efect normativ.",
+      "constitutionalityNote": "Previzibilitatea (art. 1 alin. (5)) are probleme serioase: art. 9 indică o autoritate inexistentă; art. 5 alin. (2) nu lămurește dacă înregistrarea pe BAN e obligație generală sau condiție pentru acces; art. 5 alin. (3) prevede verificări fără titular și fără procedură; termenele de la art. 4 și art. 8 se contrazic. Excluderea persoanelor juridice și a cooperativelor de la BAN, fără justificare obiectivă, ridică probleme de egalitate (art. 16) și de liberă inițiativă și concurență loială (art. 45, art. 135 alin. (2) lit. a)). Legea creează cheltuieli bugetare fără sursă de finanțare și fără fișă financiară, ceea ce riscă încălcarea art. 138 alin. (5) și a art. 15 din Legea nr. 500/2002. Pentru o inițiativă parlamentară cu impact bugetar e necesar și punctul de vedere al Guvernului (art. 111). Obligațiile implicite pentru autoritățile locale (art. 7 alin. (1) lit. c)) trebuie corelate cu autonomia locală (art. 120) și cu Legea nr. 273/2006. Nu se aplică art. 23 alin. (12), fiindcă legea nu conține sancțiuni penale sau contravenționale.",
+      "euLawNote": "Directiva (UE) 2018/958 nu e relevantă: legea nu reglementează o profesie. TRIS (Directiva (UE) 2015/1535) probabil nu cere notificare pentru textul legii, pentru că BAN e o platformă publică, nu o regulă impusă furnizorilor privați de servicii ale societății informaționale. Metodologia viitoare trebuie totuși verificată dacă va impune cerințe operatorilor privați de platforme electronice de tranzacționare agricolă. Riscul principal în dreptul UE este ajutorul de stat (art. 107-108 TFUE): depozitarea gratuită sau subvenționată și construirea de centre publice care operează pe o piață concurențială trebuie încadrate în Reg. (UE) 2022/2472 (exceptare pe categorii pentru agricultură), în regimul de minimis agricol (Reg. (UE) 1408/2013, modificat) sau notificate Comisiei. Clasificarea A/B/C trebuie aliniată la standardele de comercializare din Reg. (UE) 1308/2013 (OCP), iar intervenția publică și depozitarea privată sunt deja reglementate la nivelul UE. Obiectivul de protecție a micilor producători poate fi corelat cu Directiva (UE) 2019/633 privind practicile comerciale neloiale, transpusă prin Legea nr. 81/2022.",
       "senatForm": {
-        "articleRef": "Art. 5 alin. (2)",
-        "proposalContent": "(2) Tranzacționarea prin BAN este facultativă. Accesul la depozitare și la sprijinul prevăzut la alin. (1) nu este condiționat de vânzarea prin BAN. Înregistrarea loturilor depozitate este obligatorie pentru trasabilitate și se asigură gratuit, inclusiv cu asistență la centru. Producătorii pot utiliza și alte canale de vânzare.",
-        "argumentation": "Separă trasabilitatea de alegerea canalului comercial, previne interpretarea BAN ca intermediar obligatoriu și protejează accesul fermierilor fără competențe digitale. Obligația de înregistrare rămâne limitată la loturile depozitate, pentru a evita o sarcină generală asupra tuturor producătorilor.",
-        "otherComments": "Propunere pentru comisiile de industrii și agricultură ale Camerei Deputaților. Termenul indicat, 26.02.2026, este depășit; preluarea ca amendament depinde de procedura parlamentară. Sunt necesare separat criterii pentru subvenții, finanțare cuantificată și corectarea autorității din art. 9."
-      }
+        "articleRef": "Art. 4 alin. (4) și Art. 5 alin. (2)",
+        "proposalContent": "Art. 4 (4): «Pot fi membri ai BAN, în condiții nediscriminatorii: producătorii agricoli, indiferent de forma juridică, PFA, II, IF, cooperativele agricole, grupurile și organizațiile de producători, precum și cumpărătorii (procesatori, comercianți, exportatori).» Art. 5 (2): «Înscrierea pe BAN este facultativă și nu condiționează accesul la depozite.»",
+        "argumentation": "Art. 4 alin. (4) exclude societățile agricole, cooperativele și cumpărătorii, deși art. 4 alin. (2) lit. c) vizează vânzarea directă producător-cumpărător: o bursă fără cumpărători nu funcționează. Excluderea cooperativelor contrazice scopul declarat. Art. 5 alin. (2) e ambiguu (obligație sau condiție?), contrar art. 1 alin. (5) din Constituție.",
+        "otherComments": "De corectat: art. 9 numește o agenție inexistentă (competentă e ANSVSA); termene contradictorii pentru norme (art. 4 alin. 3 vs. art. 8 alin. 2); clasele A/B/C nu corespund standardelor UE de comercializare (Extra/I/II); lipsesc fișa financiară (art. 138 alin. 5 Constituție) și analiza de ajutor de stat pentru depozitarea gratuită (art. 107 TFUE)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 76090,
+      "sourceEndMarker": "SF-ADC66029",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Depozite publice pentru fermieri și o bursă agricolă online",
+      "verdictShort": "Proiectul urmărește un obiectiv util, dar lasă neclare administrarea infrastructurii, acordarea subvențiilor și finanțarea efectivă. Riscul principal este construirea unui sistem public costisitor și discreționar; textul nu instituie taxe noi, sancțiuni sau un monopol expres.",
+      "initiatorClaim": "Inițiatorii promit reducerea pierderilor agricole, depozitare modernă și acces direct al fermierilor la cumpărători. Expunerea de motive susține că transparența și reducerea intermedierii vor crește veniturile producătorilor.",
+      "realityCheck": "Articolele prevăd dezvoltarea depozitelor și înființarea BAN, dar nu stabilesc suficient operatorul, patrimoniul, tarifele, răspunderea și regulile tranzacțiilor. Gratuitatea sau subvenționarea pentru exploatații de până la 10 hectare depinde de condiții insuficient definite, iar enumerarea surselor financiare nu garantează fondurile. Înregistrarea pe BAN condiționează participarea la mecanismele platformei; proiectul nu obligă expres comercializarea întregii producții prin aceasta și nu interzice în general intermediarii.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Agricultură & Mediu"
+      ],
+      "keyFindings": [
+        "Art. 4 și art. 8 nu stabilesc clar statutul juridic și operatorul BAN, raporturile cu administratorii depozitelor sau răspunderea pentru tranzacții și pentru promisa garantare a calității. Elementele esențiale sunt lăsate unei metodologii și desemnării ulterioare a unei structuri.",
+        "Art. 5 alin. (1) promite acces gratuit sau subvenționat pentru producătorii cu cel mult 10 hectare, fără să precizeze alegerea între cele două beneficii, nivelul sprijinului ori ordinea solicitanților când spațiul este insuficient. Apar riscuri de tratament discreționar și de avantaj concurențial selectiv.",
+        "Art. 7 enumeră bugetul de stat, fonduri europene și contribuții locale, dar textul furnizat nu cuantifică investițiile, funcționarea, întreținerea sau subvențiile. Menționarea FEADR, PNRR și InvestEU nu dovedește eligibilitatea și disponibilitatea finanțării.",
+        "Art. 4 alin. (4) enumeră potențialii membri fără să clarifice accesul cumpărătorilor prevăzuți la alin. (2). Nu rezultă o excludere certă a cooperativelor sau societăților agricole, deoarece noțiunea de producător agricol rămâne nedefinită.",
+        "Art. 9 atribuie controlul unei «Agenții Naționale de Stat pentru Agricultura și Siguranța Alimentară», fără să o înființeze sau să indice actul său de organizare. Autoritatea competentă și raporturile cu instituțiile existente trebuie identificate fără echivoc.",
+        "Art. 2 și art. 6 folosesc o clasificare generală A/B/C, fără corelare suficientă cu standardele obligatorii pentru fiecare produs. Produsele defecte sau avariate din categoria C nu pot fi comercializate pentru consum ori procesare alimentară dacă sunt nesigure; această clasificare nu înlătură dreptul UE.",
+        "Art. 8 alin. (2) fixează normele la trei luni după intrarea în vigoare, iar art. 10 amână intrarea în vigoare cu șase luni de la publicare: termenul normelor ajunge astfel la nouă luni de la publicare. Pilotul este prevăzut la șase luni «de la aprobare», reper nedefinit, care poate produce o succesiune nefuncțională.",
+        "Înregistrarea produselor, etichetarea, trasabilitatea și verificările periodice din art. 5–6 implică sarcini administrative pentru fermieri și operatori. Textul nu prevede amenzi, confiscări sau obligația generală de a utiliza exclusiv depozitele publice."
+      ],
+      "blindSpotsCaught": "Expunerea de motive anunță norme aprobate prin hotărâre de Guvern în șase luni de la intrarea în vigoare, dar art. 8 alin. (2) prevede trei luni și atribuie Ministerului dezvoltarea și implementarea lor; explicația nu poate corecta norma. Art. 10 nu conține abrogări, derogări sau modificări ascunse ale altor legi. Analiza folosește documentele furnizate; verificarea online a surselor oficiale și a stadiului parlamentar nu a fost disponibilă.",
+      "constitutionalityNote": "Principala vulnerabilitate privește art. 1 alin. (5) din Constituție: beneficiile, competențele, regulile esențiale ale BAN și termenele trebuie să fie clare și previzibile. Delegarea detaliilor tehnice este permisă, însă metodologia nu ar trebui să creeze singură regimul juridic esențial. Pragul de 10 hectare nu este automat discriminatoriu, dar necesită justificare obiectivă și aplicare coerentă, în raport cu art. 16 și art. 135. Pentru cheltuieli trebuie verificate fundamentarea și sursa efectivă de finanțare, potrivit art. 138 alin. (5), precum și solicitarea informării Guvernului în condițiile art. 111 alin. (1); documentele furnizate nu permit constatarea îndeplinirii sau încălcării procedurii. Art. 23 alin. (12) nu constituie aici un temei central, deoarece proiectul nu stabilește pedepse.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor asupra accesului la profesii reglementate sau exercitării lor; proiectul nu introduce evident asemenea restricții, deci directiva nu devine aplicabilă doar pentru că există efecte concurențiale. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu rezultă automat din crearea unei platforme publice: trebuie verificat dacă dispozițiile concrete constituie reglementări tehnice sau norme privind serviciile societății informaționale supuse notificării. Textul nu reglementează AI. Gratuitățile, subvențiile și finanțarea operatorilor impun examinarea regulilor UE privind ajutoarele de stat, inclusiv a particularităților sectorului agricol; nu se poate prezuma că sunt interzise ori exceptate. Standardele de comercializare și obligațiile de siguranță și trasabilitate, inclusiv Regulamentul (CE) nr. 178/2002, prevalează asupra clasificării naționale A/B/C. Titlul referitor la producători români nu instituie singur o condiție de cetățenie, iar aplicarea trebuie să respecte piața internă.",
+      "senatForm": {
+        "articleRef": "Art. 5 alin. (1)",
+        "proposalContent": "Accesul se acordă pe baza unor criterii obiective, transparente și nediscriminatorii. Producătorii cu cel mult 10 ha pot beneficia de gratuități sau reduceri, în limita creditelor bugetare aprobate și cu respectarea normelor UE privind ajutoarele de stat. Criteriile de prioritate și nivelul sprijinului se stabilesc prin hotărâre a Guvernului.",
+        "argumentation": "Textul actual nu precizează când accesul este gratuit ori subvenționat și cum se repartizează capacitatea insuficientă. Amendamentul reduce discreția administrativă, introduce o limită bugetară și cere respectarea regulilor UE. Fundamentarea costurilor rămâne necesară.",
+        "otherComments": "Se solicită și clarificarea art. 4, 8 și 9: operatorul BAN, accesul cumpărătorilor, autoritatea de control și calendarul aplicării. Termenul de amendamente indicat, 26.02.2026, este depășit; posibilitatea preluării propunerii de un deputat trebuie verificată la comisiile raportoare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T06:54:24.510Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:28:51.965Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

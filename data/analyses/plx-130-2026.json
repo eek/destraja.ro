@@ -2,113 +2,169 @@
   "billId": "Pl-x 130/2026",
   "slug": "plx-130-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T06:45:44.640Z",
+  "updatedAt": "2026-11-24T15:26:05.671Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 586,
+    "ordinanceChars": 0,
+    "memoChars": 2106,
+    "memoSupplied": 2106,
+    "marker": "SF-54F7A3D7"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-130-2026.json",
+    "form": "initiator",
+    "textHash": "54f7a3d72df3878f",
+    "fetchedAt": "2026-11-19T10:39:27.937Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 2758,
+    "truncated": false,
+    "included": true,
+    "key": "8365ce2123a8ed02"
+  },
   "consensus": {
-    "riskScore": 1.7,
+    "riskScore": 2.3,
     "riskLevel": "green",
     "plainTitle": "Asociațiile rezerviștilor militari pot depune coroane la ceremoniile oficiale",
-    "summaryTlDr": "Lege simbolică și inofensivă. Adaugă o categorie pe lista celor care depun coroane de flori la ceremoniile oficiale, fără bani publici și fără obligații pentru cetățeni sau firme. Are doar scăpări mici de redactare: nu spune câte coroane se depun și în ce ordine, iar veteranii din motivare lipsesc din text.",
-    "initiatorClaim": "Inițiatorii spun că majoritatea ceremoniilor oficiale marchează momente istorice la care Armata Română a avut un rol esențial, dar legea nu permite organizațiilor rezerviștilor și veteranilor să depună coroane. Vor să repare omisiunea, ca gest de recunoaștere pentru militarii rezerviști.",
-    "realityCheck": "Articolul unic introduce o literă nouă în art. 16 alin. (1) din Legea nr. 215/2016. Asociațiile și fundațiile rezerviștilor militari intră astfel în ordinea de precădere la depunerea coroanelor, după corpul diplomatic (lit. g). Calitatea de utilitate publică se acordă prin hotărâre de Guvern, potrivit OG nr. 26/2000, deci beneficiază doar câteva organizații. Textul nu spune dacă fiecare asociație depune o coroană proprie sau toate depun una comună, nici în ce ordine se succed între ele, iar veteranii invocați în Expunerea de motive nu apar în text.",
+    "summaryTlDr": "Este o modificare simbolică și inofensivă, fără costuri, taxe sau sancțiuni. Are însă o eroare de tehnică legislativă: vizează art.16 alin.(1), care nu conține nicio enumerare, așa că trebuie corectată înainte de adoptare.",
+    "initiatorClaim": "Inițiatorii spun că rezerviștii militari, care au contribuit la evenimentele comemorate, nu se regăsesc în ordinea de precădere la depunerea coroanelor de flori. Propun ca asociațiile și fundațiile lor de utilitate publică să fie incluse, ca gest de recunoaștere.",
+    "realityCheck": "Articolul unic adaugă o literă h) „după litera g)” în art.16 alin.(1), dar alin.(1) are o singură frază, fără litere. Lista entităților este la alin.(3), unde lit.g) („entitatea organizatoare”) închide enumerarea. Plasarea după g) ar pune rezerviștii după organizator, iar formularea la plural („asociațiile și fundațiile”) lasă neclar dacă depune coroană fiecare organizație sau doar una pentru toată categoria. Pentru cetățeni și firme, efectul practic este nul.",
     "affectedGroups": [
       "Toți cetățenii",
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. unic – art. 16 alin. (1) lit. h) L. 215/2016",
-      "proposalContent": "„h) asociațiile și fundațiile cadrelor militare în rezervă și în retragere și ale veteranilor, recunoscute ca fiind de utilitate publică, câte o coroană din partea fiecăreia, în ordinea datei recunoașterii statutului de utilitate publică;”",
-      "argumentation": "Textul inițiatorului nu spune dacă se depune o singură coroană pentru toate asociațiile sau câte una fiecare și nici ordinea dintre ele, ceea ce lasă organizatorului o decizie arbitrară. Expunerea de motive invocă și veteranii, dar textul îi omite. Formularea propusă păstrează criteriul obiectiv al utilității publice și dă o regulă clară de precedență.",
-      "otherComments": "Verificați numerotarea: Expunerea de motive enumeră 8 categorii, ultima fiind entitatea organizatoare. Dacă alin. (1) are deja o lit. h), noua literă trebuie marcată g¹), conform Legii nr. 24/2000, ca să nu apară două litere h). De clarificat și dacă sunt incluse cadrele în rezervă ale MAI și SRI care au statut militar."
+      "articleRef": "Art. unic – art.16 alin.(3), nouă lit. f^3)",
+      "proposalContent": "La art.16 alin.(3) din Legea nr.215/2016, după lit.f^2) se introduce lit.f^3): „f^3) asociațiile și fundațiile rezerviștilor militari de utilitate publică, printr-o singură coroană comună, depusă de o delegație desemnată de comun acord;”",
+      "argumentation": "Art.16 alin.(1) nu are litere; enumerarea este la alin.(3). Lit.g) „entitatea organizatoare” încheie lista, deci noua literă trebuie plasată înaintea ei, după f^2) (veteranii). O coroană comună evită prelungirea ceremoniei și disputele de prioritate între mai multe organizații.",
+      "otherComments": "Titlul legii trebuie corectat în „completarea art.16 alin.(3)”. De clarificat raportul cu lit.f^2) (veterani deja incluși) și sensul noțiunii de „rezervist” față de Legea nr.80/1995. Propunerea nu are impact bugetar."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 46164,
-      "riskScore": 1,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 43826,
+      "sourceEndMarker": "SF-54F7A3D7",
+      "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Dreptul asociațiilor de rezerviști militari de a depune coroane de flori la ceremoniile oficiale",
-      "verdictShort": "O modificare pur protocolară și benignă, fără impact fiscal sau birocratic asupra cetățenilor ori mediului privat. Textul suferă însă de mici stângăcii de redactare, omițând veteranii și cadrele în retragere pe care inițiatorii îi invocă în motivare.",
-      "initiatorClaim": "Inițiatorii doresc să includă asociațiile și fundațiile rezerviștilor militari și ale veteranilor (recunoscute ca fiind de utilitate publică) pe lista entităților care pot depune oficial coroane de flori la ceremoniile de stat, în semn de prețuire pentru contribuția lor istorică.",
-      "realityCheck": "Legea adaugă o nouă poziție (lit. h) la finalul ordinii de precădere din art. 16 alin. (1) al Legii nr. 215/2016 privind ceremoniile oficiale. Măsura nu generează cheltuieli bugetare obligatorii sau sarcini administrative, însă formularea lasă neclar dacă toate asociațiile de profil prezente la un eveniment vor depune o singură coroană comună sau câte una pentru fiecare organizație.",
+      "plainTitle": "Coroane de flori la ceremonii oficiale pentru asociațiile rezerviștilor militari",
+      "verdictShort": "Inițiativă pur simbolică și benignă, fără costuri bugetare sau impact asupra cetățenilor și firmelor. Conține însă o eroare flagrantă de tehnică legislativă: modifică un alineat greșit al legii, care nu are litere, motiv pentru care trebuie corectată la comisie.",
+      "initiatorClaim": "Inițiatorii vor să recunoască rolul militarilor rezerviști în istoria națională, permițând asociațiilor și fundațiilor acestora de utilitate publică să depună coroane de flori în cadrul ceremoniilor oficiale, în ordinea de precădere.",
+      "realityCheck": "Pe fond, proiectul adaugă o singură categorie protocolară pe lista entităților care depun coroane la ceremonii oficiale, fără obligații, sancțiuni sau cheltuieli publice. În realitate însă, textul trimite greșit la art. 16 alin. (1) din Legea nr. 215/2016 în loc de art. 16 alin. (3), unde se află lista efectivă (lit. a-g), iar formularea la plural lasă neclar dacă asociațiile de rezerviști depun împreună o singură coroană sau câte una fiecare.",
       "affectedGroups": [
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articolul unic introduce lit. h) la art. 16 alin. (1) din Legea nr. 215/2016, permițând asociațiilor și fundațiilor rezerviștilor militari de utilitate publică să depună coroane în cadrul părții oficiale a ceremoniilor.",
-        "Există o neconcordanță între Expunerea de Motive (care menționează explicit și organizațiile pentru veterani) și textul normativ propus, care se limitează strict la „rezerviștii militari”, omițând veteranii și cadrele în retragere.",
-        "Proiectul nu are niciun impact negativ asupra bugetului de stat, concurenței economice sau drepturilor și libertăților cetățenești."
+        "Eroare materială de trimitere (Titlul și Articolul unic): proiectul introduce lit. h) după lit. g) la art. 16 alin. (1) din Legea nr. 215/2016, dar alin. (1) reglementează cooperarea cu MApN/MAI și nu conține nicio literă; lista cu lit. a)-g) este la art. 16 alin. (3).",
+        "Ambiguitate practică la aplicare: art. 16 alin. (3) prevede depunerea „câte unei singure coroane” din partea entităților listate, dar lit. h) folosește pluralul generic „asociațiile și fundațiile rezerviștilor militari, recunoscute ca fiind de utilitate publică”, fără a stabili dacă depun o coroană comună ori câte una per organizație.",
+        "Neconcordanță cu forma actuală a legii: expunerea de motive susține că organizațiile de veterani lipsesc din lege și omite modificările anterioare, deși art. 16 alin. (3) conține deja lit. f^1) (AFDPR, din 2020) și lit. f^2) (ANVR și AMVVD, introdusă prin Legea nr. 98/2026), ambele plasate înaintea organizatorului (lit. g), nu după acesta."
       ],
-      "blindSpotsCaught": "Deși Expunerea de Motive vorbește despre „militarii aflați în rezervă sau pentru veterani”, textul legii folosește doar sintagma „rezerviștilor militari” — o noțiune incompletă față de terminologia Legii nr. 80/1995 („cadre militare în rezervă și în retragere”) și a Legii nr. 168/2020 privind veteranii din teatrele de operații. În plus, cum partea introductivă a art. 16 alin. (1) prevede depunerea a „câte o singură coroană din partea următoarelor entități”, pluralul folosit la lit. h) nu clarifică dacă mai multe ONG-uri de utilitate publică depun o singură coroană comună sau câte una separat.",
-      "constitutionalityNote": "Proiectul este pe deplin constituțional. Pentru o conformitate impecabilă cu art. 1 alin. (5) din Constituție (calitatea și claritatea legii) și cu Legea nr. 24/2000 privind tehnica legislativă, este recomandată doar corelarea terminologiei militare cu legislația în vigoare.",
-      "euLawNote": "Proiectul reglementează exclusiv protocolul ceremoniilor oficiale naționale și locale. Nu intră în sfera de aplicare a Directivei (UE) 2018/958 privind testul de proporționalitate, nu vizează servicii digitale/TRIS (Directiva 2015/1535) și nu afectează piața unică europeană.",
+      "blindSpotsCaught": "Proiectul vizează explicit „art. 16 alin. (1)” atât în titlu, cât și în articolul unic, deși enumerarea pe litere de la a) la g) a entităților cu drept de depunere a coroanelor se află la art. 16 alin. (3). În plus, plasarea ca lit. h) după lit. g) („entitatea organizatoare”) pune rezerviștii după organizator, spre deosebire de asociațiile de veterani și foști deținuți politici de la lit. f^1) și f^2).",
+      "constitutionalityNote": "Pe fond, nu încalcă drepturi fundamentale și nu generează cheltuieli bugetare (art. 138 alin. 5). Însă adoptarea în forma actuală ar încălca art. 1 alin. (5) din Constituție privind calitatea, claritatea și previzibilitatea legii (precum și Legea nr. 24/2000), întrucât introduce o literă nouă într-un alineat care nu are litere și lasă neclar numărul coroanelor permise.",
+      "euLawNote": "Fără incidență asupra dreptului Uniunii Europene. Reglementează strict protocolul național al ceremoniilor oficiale, fără a afecta piața unică, concurența, profesiile reglementate (Directiva 2018/958) sau serviciile societății informaționale (Directiva 2015/1535).",
       "senatForm": {
-        "articleRef": "Articol unic (Art. 16 alin. (1) lit. h))",
-        "proposalContent": "h) asociațiile și fundațiile cadrelor militare în rezervă și în retragere, precum și ale veteranilor, recunoscute ca fiind de utilitate publică, printr-o singură coroană comună.",
-        "argumentation": "Expunerea de motive invocă și veteranii, dar textul propus îi omite și folosește termenul impropriu de „rezerviști militari” în loc de „cadre militare în rezervă și în retragere” (conform Legii nr. 80/1995). Totodată, precizarea depunerii unei singure coroane comune evită prelungirea excesivă a ceremonialului când participă mai multe asociații.",
-        "otherComments": "Din punct de vedere al tehnicii legislative (Legea nr. 24/2000), întrucât lit. h) devine ultima enumerare a alin. (1), textul trebuie să se încheie cu punct (.), nu cu punct și virgulă (;), iar la finalul lit. g) punctul actual trebuie înlocuit cu punct și virgulă."
-      }
+        "articleRef": "Titlul și Articolul unic (art. 16)",
+        "proposalContent": "Înlocuirea referinței „art. 16 alin. (1)” cu „art. 16 alin. (3)” atât în titlu, cât și în articolul unic, iar la textul propus clarificarea regulii de depunere (o coroană comună sau câte una per asociație), eventual prin plasarea ca lit. f^3), înaintea entității organizatoare.",
+        "argumentation": "În Legea nr. 215/2016, art. 16 alin. (1) vizează doar cooperarea cu MApN/MAI și nu are litere; lista cu lit. a)-g) este la art. 16 alin. (3). Trimiterea greșită încalcă art. 1 alin. (5) din Constituție și face textul inaplicabil. Pluralul „asociațiile și fundațiile” necesită clarificare față de regula „câte o singură coroană”.",
+        "otherComments": "Art. 16 alin. (3) include deja lit. f^1) (AFDPR) și lit. f^2) (ANVR și AMVVD, introdusă prin Legea nr. 98/2026), plasate înaintea lit. g) (entitatea organizatoare). Pentru coerență cu structura legii în vigoare, comisia poate armoniza redactarea și ordinea de precădere cu aceste prevederi."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 87665,
-      "riskScore": 1,
+      "durationMs": 30681,
+      "sourceEndMarker": "SF-54F7A3D7",
+      "riskScore": 2,
       "riskLevel": "green",
       "plainTitle": "Asociațiile rezerviștilor militari pot depune coroane la ceremoniile oficiale",
-      "verdictShort": "Lege simbolică și inofensivă. Adaugă o categorie pe lista celor care depun coroane de flori la ceremoniile oficiale, fără bani publici și fără obligații pentru cetățeni sau firme. Are doar scăpări mici de redactare: nu spune câte coroane se depun și în ce ordine, iar veteranii din motivare lipsesc din text.",
-      "initiatorClaim": "Inițiatorii spun că majoritatea ceremoniilor oficiale marchează momente istorice la care Armata Română a avut un rol esențial, dar legea nu permite organizațiilor rezerviștilor și veteranilor să depună coroane. Vor să repare omisiunea, ca gest de recunoaștere pentru militarii rezerviști.",
-      "realityCheck": "Articolul unic introduce o literă nouă în art. 16 alin. (1) din Legea nr. 215/2016. Asociațiile și fundațiile rezerviștilor militari intră astfel în ordinea de precădere la depunerea coroanelor, după corpul diplomatic (lit. g). Calitatea de utilitate publică se acordă prin hotărâre de Guvern, potrivit OG nr. 26/2000, deci beneficiază doar câteva organizații. Textul nu spune dacă fiecare asociație depune o coroană proprie sau toate depun una comună, nici în ce ordine se succed între ele, iar veteranii invocați în Expunerea de motive nu apar în text.",
+      "verdictShort": "Este o modificare simbolică și inofensivă, fără costuri, taxe sau sancțiuni. Are însă o eroare de tehnică legislativă: vizează art.16 alin.(1), care nu conține nicio enumerare, așa că trebuie corectată înainte de adoptare.",
+      "initiatorClaim": "Inițiatorii spun că rezerviștii militari, care au contribuit la evenimentele comemorate, nu se regăsesc în ordinea de precădere la depunerea coroanelor de flori. Propun ca asociațiile și fundațiile lor de utilitate publică să fie incluse, ca gest de recunoaștere.",
+      "realityCheck": "Articolul unic adaugă o literă h) „după litera g)” în art.16 alin.(1), dar alin.(1) are o singură frază, fără litere. Lista entităților este la alin.(3), unde lit.g) („entitatea organizatoare”) închide enumerarea. Plasarea după g) ar pune rezerviștii după organizator, iar formularea la plural („asociațiile și fundațiile”) lasă neclar dacă depune coroană fiecare organizație sau doar una pentru toată categoria. Pentru cetățeni și firme, efectul practic este nul.",
       "affectedGroups": [
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articolul unic adaugă la art. 16 alin. (1) din Legea nr. 215/2016, după lit. g) (corpul diplomatic), categoria «asociațiile și fundațiile rezerviștilor militari, recunoscute ca fiind de utilitate publică».",
-        "Filtrul «utilitate publică» este un criteriu obiectiv și verificabil, pentru că statutul se acordă prin hotărâre de Guvern, potrivit OG nr. 26/2000. Filtrul împiedică înmulțirea coroanelor și ține lista scurtă, dar lasă pe dinafară asociațiile fără acest statut, oricât de reprezentative ar fi.",
-        "Legea, în logica actuală, permite «câte o singură coroană» de la fiecare entitate. Pentru o categorie la plural, textul nu spune dacă depun coroană toate asociațiile eligibile sau una singură în numele tuturor, nici cum se stabilește ordinea între ele. Decizia rămâne la latitudinea organizatorului.",
-        "Expunerea de motive vorbește despre «militarii aflați în rezervă sau veterani», dar textul se oprește la «rezerviștii militari». Asociațiile veteranilor de război (Legea nr. 44/1994) și ale veteranilor din teatrele de operații (Legea nr. 168/2020) nu sunt acoperite explicit.",
-        "Nu are impact bugetar, așa cum afirmă inițiatorii: coroanele le plătesc asociațiile. Pentru instituțiile organizatoare și pentru MApN/MAI, efortul suplimentar este doar de protocol și coordonare."
+        "Eroare de trimitere: Articolul unic modifică „art.16 alin.(1)”, însă în forma în vigoare alin.(1) spune doar că ceremonia se organizează în cooperare cu MApN și/sau MAI. Enumerarea entităților cu ordine de precădere este la art.16 alin.(3). Și titlul legii repetă greșeala.",
+        "Problemă de ordine de precădere: în alin.(3), lit.g) „entitatea organizatoare” încheie lista. O lit.h) „după lit.g)” ar așeza rezerviștii după organizator, contrar logicii actuale. Varianta coerentă este o lit.f^3), după f^2).",
+        "Suprapunere parțială cu dispozițiile existente: lit.f^2), completată prin Legea nr.98/2026, include deja Asociația Națională a Veteranilor de Război și AMVVD, numite expres ca asociații militare reprezentative și de utilitate publică. Noua literă adaugă o categorie generică, deschisă, nu entități nominalizate.",
+        "Ambiguitate privind numărul de coroane: alin.(3) permite „câte o singură coroană din partea următoarelor entități”. La plural, pot exista mai multe asociații și fundații de rezerviști cu statut de utilitate publică, deci nu e clar dacă fiecare depune câte o coroană, ceea ce ar putea prelungi ceremonia și ar crea dispute de prioritate.",
+        "Fără impact bugetar sau birocratic: coroanele sunt depuse pe cheltuiala organizațiilor, iar statutul de utilitate publică este deja reglementat de OG nr.26/2000. Nu se creează obligații, taxe sau sancțiuni."
       ],
-      "blindSpotsCaught": "Expunerea de motive enumeră opt categorii care depun coroane, ultima fiind «entitatea organizatoare». Dacă alin. (1) are deja o lit. h), formula «după litera g) se introduce o nouă literă, lit. h)» ar produce două litere h). Potrivit Legii nr. 24/2000, tehnica corectă ar fi lit. g¹). Mai e o problemă de terminologie: Legea nr. 80/1995 deosebește cadrele militare «în rezervă» de cele «în retragere». Citit strict, «rezerviștii militari» ar putea exclude organizațiile pensionarilor militari trecuți în retragere. Nu e clar nici dacă sunt incluse cadrele cu statut militar din MAI și SRI.",
-      "constitutionalityNote": "Nu ridică probleme de constituționalitate. Claritatea și previzibilitatea (art. 1 alin. (5)) sunt în general respectate, cu rezervele de mai sus despre numărul de coroane și ordinea dintre asociații. Ele pot fi corectate prin amendament și nu afectează drepturi fundamentale. Diferența dintre asociațiile cu și fără statut de utilitate publică se bazează pe un criteriu obiectiv și rezonabil, deci nu încalcă egalitatea (art. 16). Nu restrânge libertatea de asociere (art. 40). Nu creează cheltuieli bugetare care să ceară sursă de finanțare (art. 138 alin. (5)).",
-      "euLawNote": "Dreptul UE nu se aplică în mod relevant. Directiva (UE) 2018/958 nu este incidentă, pentru că nu se reglementează accesul la o profesie sau exercitarea ei. Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu există reguli tehnice și nici servicii ale societății informaționale. Nu există efecte asupra concurenței, a pieței unice sau a ajutoarelor de stat. Este o normă pur protocolară, de competență națională.",
+      "blindSpotsCaught": "Expunerea de motive descrie lista ca fiind în art.16 și o redă într-o formă veche (fără f^1 și f^2), ceea ce explică probabil trimiterea greșită la alin.(1). Inițiatorii par să fi lucrat pe o versiune neactualizată a legii. Ignoră că veteranii au fost deja incluși (lit.f^2) și că lit.g) trebuie să rămână ultima. Criteriul „rezerviști” nu este corelat cu definițiile din Legea nr.80/1995 sau cu legislația privind veteranii.",
+      "constitutionalityNote": "Nu ridică probleme de fond: nu restrânge drepturi și nu creează discriminări nejustificate, iar criteriul de utilitate publică este obiectiv. Sub aspectul art.1 alin.(5) din Constituție (claritate și previzibilitate) și al Legii nr.24/2000 privind tehnica legislativă, trimiterea la un alineat fără enumerare și plasarea după lit.g) produc un text greu de aplicat. Comisia ar trebui să le corecteze, altfel norma riscă să fie inaplicabilă sau interpretată contradictoriu.",
+      "euLawNote": "Fără incidență în dreptul UE. Nu reglementează o profesie (Directiva 2018/958 nu se aplică), nici servicii ale societății informaționale sau reglementări tehnice (TRIS 2015/1535 nu se aplică) și nu afectează piața unică sau concurența.",
       "senatForm": {
-        "articleRef": "Art. unic – art. 16 alin. (1) lit. h) L. 215/2016",
-        "proposalContent": "„h) asociațiile și fundațiile cadrelor militare în rezervă și în retragere și ale veteranilor, recunoscute ca fiind de utilitate publică, câte o coroană din partea fiecăreia, în ordinea datei recunoașterii statutului de utilitate publică;”",
-        "argumentation": "Textul inițiatorului nu spune dacă se depune o singură coroană pentru toate asociațiile sau câte una fiecare și nici ordinea dintre ele, ceea ce lasă organizatorului o decizie arbitrară. Expunerea de motive invocă și veteranii, dar textul îi omite. Formularea propusă păstrează criteriul obiectiv al utilității publice și dă o regulă clară de precedență.",
-        "otherComments": "Verificați numerotarea: Expunerea de motive enumeră 8 categorii, ultima fiind entitatea organizatoare. Dacă alin. (1) are deja o lit. h), noua literă trebuie marcată g¹), conform Legii nr. 24/2000, ca să nu apară două litere h). De clarificat și dacă sunt incluse cadrele în rezervă ale MAI și SRI care au statut militar."
-      }
+        "articleRef": "Art. unic – art.16 alin.(3), nouă lit. f^3)",
+        "proposalContent": "La art.16 alin.(3) din Legea nr.215/2016, după lit.f^2) se introduce lit.f^3): „f^3) asociațiile și fundațiile rezerviștilor militari de utilitate publică, printr-o singură coroană comună, depusă de o delegație desemnată de comun acord;”",
+        "argumentation": "Art.16 alin.(1) nu are litere; enumerarea este la alin.(3). Lit.g) „entitatea organizatoare” încheie lista, deci noua literă trebuie plasată înaintea ei, după f^2) (veteranii). O coroană comună evită prelungirea ceremoniei și disputele de prioritate între mai multe organizații.",
+        "otherComments": "Titlul legii trebuie corectat în „completarea art.16 alin.(3)”. De clarificat raportul cu lit.f^2) (veterani deja incluși) și sensul noțiunii de „rezervist” față de Legea nr.80/1995. Propunerea nu are impact bugetar."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 133757,
+      "durationMs": 52568,
+      "sourceEndMarker": "SF-54F7A3D7",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Organizațiile rezerviștilor pot depune coroane în ceremonia oficială",
-      "verdictShort": "Inițiativa are un scop legitim și un impact practic redus, fără taxe, sancțiuni sau monopoluri economice. Textul trebuie însă corectat: indică un alineat care nu conține lista pe care dorește să o completeze.",
-      "initiatorClaim": "Inițiatorii urmăresc recunoașterea contribuției militarilor prin includerea organizațiilor rezerviștilor de utilitate publică între participanții care depun coroane în ceremonia oficială. Ei susțin că măsura nu afectează bugetul general consolidat.",
-      "realityCheck": "Efectul urmărit este includerea organizațiilor eligibile în secvența oficială a depunerilor, după entitatea organizatoare. Nu se modifică anexa privind ordinea generală de precădere și nu sunt acordate indemnizații sau finanțări. În redactarea transmisă, trimiterea greșită la alin. (1), în locul alin. (3), împiedică integrarea coerentă a completării.",
+      "plainTitle": "Organizațiile rezerviștilor la depunerea oficială de coroane",
+      "verdictShort": "Proiectul are un scop legitim și un risc redus: permite reprezentarea rezerviștilor în ceremonia oficială. Trimiterea la un alineat greșit trebuie însă corectată pentru ca modificarea să se integreze în lege.",
+      "initiatorClaim": "Inițiatorii vor să recunoască rolul militarilor rezerviști, incluzând asociațiile și fundațiile lor de utilitate publică între entitățile care pot depune coroane în cadrul ceremoniei oficiale. Ei declară că propunerea nu afectează bugetul general consolidat.",
+      "realityCheck": "Articolul unic urmărește adăugarea unei litere h), după entitatea organizatoare, pentru organizațiile rezerviștilor recunoscute ca fiind de utilitate publică; lista se află însă la art. 16 alin. (3), nu la alin. (1), cum scrie în proiect. În forma consolidată furnizată, două organizații ale veteranilor sunt deja menționate la lit. f^2), iar celelalte entități și persoane pot depune coroane după încheierea ceremoniei, potrivit alin. (4). Noutatea urmărită privește, așadar, participarea acestor organizații în cadrul ceremoniei oficiale, fără taxe, sancțiuni sau obligații noi pentru public.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articolul unic indică art. 16 alin. (1), dar acesta reglementează cooperarea cu MApN/MAI și nu conține litere. Lista terminată cu lit. g) aparține alin. (3); trebuie corectate atât articolul unic, cât și titlul. [Legea nr. 215/2016](https://legislatie.just.ro/Public/DetaliiDocument/310787)",
-        "Condiția utilității publice exclude de la noua poziție organizațiile fără acest statut. Recunoașterea se acordă de Guvern potrivit OG nr. 26/2000; proiectul nu acordă automat statutul și nu creează o procedură nouă. Este o selecție de protocol, fără monopol comercial. [Art. 38–39 din OG nr. 26/2000](https://legislatie.just.ro/Public/DetaliiDocument/231450)",
-        "Textul furnizat nu impune cetățenilor sau IMM-urilor taxe, raportări ori autorizări. Pot exista costuri organizatorice marginale, dar nu este instituită o obligație expresă de finanțare publică a coroanelor; afirmația inițiatorilor privind impactul bugetar zero nu constituie o evaluare financiară demonstrată.",
-        "La data analizei, Legea nr. 98/2026 introdusese deja la art. 16 alin. (3) lit. f^2) două organizații de veterani, ANVR și AMVVD. Completarea generală trebuie corelată cu această intervenție pentru organizațiile care s-ar încadra în ambele poziții. [Legea nr. 98/2026](https://legislatie.just.ro/Public/DetaliiDocument/311458)"
+        "Articolul unic indică art. 16 alin. (1), care reglementează cooperarea cu MApN și/sau MAI și nu conține litere. Introducerea literei h) trebuie raportată la alin. (3), unde există lista și litera g).",
+        "Noua literă h) ar plasa organizațiile eligibile după entitatea organizatoare în lista depunerii coroanelor; proiectul nu modifică ordinea generală de precădere pentru toate ceremoniile oficiale.",
+        "Condiția recunoașterii utilității publice exclude de la noua categorie organizațiile rezerviștilor fără acest statut. Ele păstrează posibilitatea depunerii de coroane după ceremonia oficială, conform alin. (4).",
+        "Forma consolidată furnizată include deja, la lit. f^2), două organizații ale veteranilor. Pentru organizațiile care se încadrează și în noua categorie trebuie păstrată aplicarea regulii existente privind o singură coroană din partea aceleiași entități.",
+        "Proiectul conține numai articolul unic: nu introduce derogări, abrogări, sancțiuni sau dispoziții tranzitorii. Nu impune cheltuieli ori formalități cetățenilor și IMM-urilor; pot exista costuri organizatorice marginale, astfel că afirmația unui impact bugetar nul nu este demonstrată printr-un calcul."
       ],
-      "blindSpotsCaught": "Expunerea de motive sugerează o imposibilitate generală de participare, însă art. 16 alin. (4) permite deja altor entități și persoane să depună coroane după ceremonia oficială. Noutatea este accesul în secvența oficială. Textul nu precizează ordinea dintre organizațiile nou-incluse și nici suficient de explicit dacă fiecare depune propria coroană. [Art. 16](https://legislatie.just.ro/Public/DetaliiDocument/310787)",
-      "constitutionalityNote": "Problema principală privește claritatea și coerența normativă, raportate la art. 1 alin. (5): trimiterea la alineatul greșit trebuie remediată înaintea adoptării. Condiția utilității publice merită justificată obiectiv în raport cu egalitatea de tratament, fără a rezulta automat o discriminare neconstituțională. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident: proiectul nu instituie pedepse. [Constituția, titlul I](https://www.cdep.ro/ords/pls/dic/site.page?id=339&idl=1&par1=1), [titlul II](https://www.cdep.ro/ords/pls/dic/site.page?id=339&idl=1&par1=2)",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă: proiectul nu restrânge accesul la o profesie reglementată sau exercitarea acesteia. Nu rezultă obligația notificării TRIS potrivit Directivei (UE) 2015/1535, deoarece textul nu stabilește reglementări tehnice pentru produse sau norme privind serviciile societății informaționale, inclusiv servicii digitale ori AI. Nu se identifică restricții economice asupra concurenței sau pieței unice. [Directiva 2018/958, art. 2](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32018L0958), [Directiva 2015/1535, art. 1](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32015L1535)",
+      "blindSpotsCaught": "Eroarea esențială este confundarea alineatului care stabilește organizarea ceremoniei cu alineatul care enumeră participanții. Separat, completările privind veteranii din forma consolidată sunt datate iunie 2026, ulterior inițierii din 2025: expunerea de motive trebuie evaluată în contextul redactării sale, iar soluția legislativă trebuie corelată cu legea actualizată. Verificarea online nu a fost disponibilă; analiza se bazează pe documentele furnizate.",
+      "constitutionalityNote": "Trimiterea la un alineat fără litere ridică o problemă concretă de claritate și integrare legislativă, relevantă pentru art. 1 alin. (5) din Constituție; eroarea este remediabilă prin indicarea alin. (3). Nu rezultă o încălcare evidentă a egalității prevăzute de art. 16: statutul de utilitate publică poate justifica diferențierea pentru participarea la un ceremonial oficial, dar alegerea criteriului merită explicată. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident, deoarece proiectul nu instituie pedepse.",
+      "euLawNote": "Nu rezultă restricții asupra concurenței economice, accesului pe piață sau exercitării unei profesii reglementate. Directiva (UE) 2018/958 privind testul de proporționalitate pentru reglementarea profesiilor nu este aplicabilă acestei reguli ceremoniale. Proiectul nu stabilește reglementări tehnice pentru produse sau servicii ale societății informaționale, astfel că nu rezultă o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535.",
       "senatForm": {
-        "articleRef": "Articol unic – art. 16 alin. (3), lit. h)",
-        "proposalContent": "La art. 16 alin. (3) din Legea nr. 215/2016, după lit. g) se introduce lit. h): „h) asociațiile și fundațiile rezerviștilor militari recunoscute ca fiind de utilitate publică, fiecare prin depunerea unei singure coroane, în ordinea alfabetică a denumirilor; organizațiile prevăzute la lit. f^2) depun numai la poziția respectivă.”",
-        "argumentation": "Se corectează trimiterea la alin. (1), care nu conține litere. Includerea rezerviștilor în ceremonia oficială este utilă. Precizarea unei coroane pentru fiecare organizație și a ordinii alfabetice previne aplicarea neunitară; corelarea cu lit. f^2) evită dubla depunere de către aceeași organizație.",
-        "otherComments": "Corectați și titlul proiectului prin înlocuirea alin. (1) cu alin. (3). Propunerea se transmite comisiei de raport a Camerei Deputaților; un deputat o poate prelua ca amendament. Termenul indicat, 12.03.2026, este depășit la data analizei; trimiterea unui e-mail nu echivalează cu depunerea unui amendament parlamentar."
-      }
+        "articleRef": "Articolul unic — art. 16 alin. (3)",
+        "proposalContent": "Articol unic. La articolul 16 alineatul (3) din Legea nr. 215/2016 privind ceremoniile oficiale, cu modificările și completările ulterioare, după litera g) se introduce o nouă literă, lit. h), cu următorul cuprins: „h) asociațiile și fundațiile rezerviștilor militari, recunoscute ca fiind de utilitate publică;”.",
+        "argumentation": "Lista entităților care pot depune coroane se află la art. 16 alin. (3). Alineatul (1) reglementează cooperarea cu MApN și/sau MAI și nu conține litera g). Corectarea trimiterii permite integrarea modificării și respectarea cerințelor de claritate prevăzute de art. 1 alin. (5) din Constituție.",
+        "otherComments": "Corelați completarea cu lit. f^2), astfel încât aceeași organizație să nu depună două coroane în temeiul unor categorii suprapuse. Termenul indicat pentru amendamente, 12.03.2026, este depășit; transmiterea observației prin e-mail nu echivalează cu depunerea unui amendament parlamentar în termen."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T06:45:44.640Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:26:05.671Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

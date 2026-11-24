@@ -2,14 +2,41 @@
   "billId": "PL-x 84/2026",
   "slug": "plx-84-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T06:49:28.676Z",
+  "updatedAt": "2026-11-24T15:26:38.390Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 5673,
+    "ordinanceChars": 0,
+    "memoChars": 18119,
+    "memoSupplied": 18119,
+    "marker": "SF-4D8901C1"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-84-2026.json",
+    "form": "senat",
+    "textHash": "4d8901c11cc0ce84",
+    "fetchedAt": "2026-11-19T11:20:55.931Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 3,
+    "articlesShown": 3,
+    "articleCap": 8000,
+    "articlesCut": 3,
+    "chars": 28405,
+    "truncated": false,
+    "included": true,
+    "key": "94b6c5563a71e86c"
+  },
   "consensus": {
-    "riskScore": 3.3,
-    "riskLevel": "green",
-    "plainTitle": "Firmele pot plăti angajaților tratamente de fertilitate fără impozit, iar angajatorii „prietenoși cu familia” deduc mai mult",
-    "summaryTlDr": "Este o lege utilă, cu impact bugetar modest. Clarifică faptul că sprijinul dat de firme pentru tratamente de infertilitate nu se impozitează și încurajează politicile favorabile familiei. Textul are însă greșeli de redactare care trebuie corectate în comisie: o trimitere greșită în Art. II, un plafon de 7% ambiguu și o dată de intrare în vigoare care nu mai poate fi respectată.",
-    "initiatorClaim": "Inițiatorii vor să combată scăderea natalității prin implicarea angajatorilor. Firmele ar putea finanța tratamentele de fertilizare ale angajaților ca ajutor social deductibil și neimpozabil, completând Programul FIV al statului, și ar fi stimulate să se certifice ca „angajatori favorabili mediului familial”.",
-    "realityCheck": "Legea face trei lucruri. Creează ajutorul pentru creșterea natalității, adică medicamente și proceduri recomandate de un medic specialist, inclus în plafonul de 5%. Îl scutește de impozit pe venit și de CAS (art. 76 și 142). Acordă angajatorilor certificați de Ministerul Muncii un plafon de deducere de 7%, facilitate pe care fișa Camerei nici nu o menționează. Plafoanele de 5% și 7% limitează doar deducerea la impozitul pe profit; scutirea pentru angajat nu are plafon pe persoană și nici obligația expresă de justificare cu facturi. Criteriile de certificare sunt lăsate integral unui ordin de ministru, iar textul pare să acopere doar procedurile recomandate salariatului însuși, nu și partenerului din cuplu.",
+    "riskScore": 4,
+    "riskLevel": "yellow",
+    "plainTitle": "Firmele pot plăti FIV-ul angajaților fără impozit, iar angajatorii „prietenoși cu familia” primesc deducere socială de 7%",
+    "summaryTlDr": "Este o lege fiscală favorabilă, fără sancțiuni și fără obligații noi pentru firme sau cetățeni. Redactarea are însă scăpări reale: o trimitere internă greșită, raportul neclar dintre plafonul de 5% și cel de 7% și criterii de certificare lăsate integral pe seama unui ordin de ministru.",
+    "initiatorClaim": "Inițiatorii vor să combată scăderea natalității. Pentru asta, angajatorii ar putea suporta, fără costuri fiscale pentru angajat, tratamentele de fertilitate, iar firmele care aplică politici favorabile familiei ar fi recompensate cu un plafon mai mare de deducere a cheltuielilor sociale.",
+    "realityCheck": "Proiectul introduce „ajutorul pentru creșterea natalității” în lista cheltuielilor sociale deductibile în plafonul de 5% (art. 25). Același ajutor devine neimpozabil și scutit de CAS la angajat (art. 76 și 142). Contrar expunerii de motive, care susține că nu există o facilitate nouă, scutirea pe partea angajatului este un efect fiscal real, cu cost bugetar nul doar în aparență. Plafonul de 7% folosește numai plătitorilor de impozit pe profit certificați de MMFTSS. Microîntreprinderile, impozitate pe cifra de afaceri, nu beneficiază de el.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
@@ -17,23 +44,24 @@
       "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 2 (art. 25 alin. (3) lit. b¹)",
-      "proposalContent": "Lit. b¹) teza I devine: „Prin derogare de la lit. b), angajatorii certificați ca favorabili mediului familial deduc cheltuielile sociale de la lit. b) pct. 1-4 în limita a 7% din cheltuielile cu salariile, în locul limitei de 5%, pe durata valabilității certificatului (maximum 3 ani), înscris într-un registru public consultabil de ANAF.”",
-      "argumentation": "Textul nu spune dacă plafonul de 7% înlocuiește sau se adaugă celui de 5% de la lit. b); o lectură literală permite cumul (12%), cu risc de litigii cu ANAF și pierderi bugetare necuantificate. Certificarea nu are durată, registru sau mod de verificare, deși condiționează deductibilitatea. Se asigură previzibilitatea (art. 1 alin. 5 Constituție).",
-      "otherComments": "Art. II trimite greșit la „Art. I pct. 3” (art. 76); instrucțiunile privesc Art. I pct. 2. Data de 1.01.2027 nu mai respectă termenul minim de 6 luni din art. 4 alin. (1) Cod fiscal și trebuie decalată. În art. 76 și 142 se va scrie „dispozitive”, iar textul se va modifica doar prin inserarea sintagmei noi, nu prin rescrierea integrală a literelor."
+      "articleRef": "Art. I pct. 2 (art. 25 (3) b¹) și Art. II",
+      "proposalContent": "La lit. b¹): „prin excepție de la lit. b), cheltuielile sociale prevăzute la lit. b) pct. 1-4, inclusiv pct. 1¹ și 3¹, suportate de angajatorii certificați, sunt deductibile în limita unei cote totale de până la 7%...”. Art. II: „instrucțiunile prevăzute la art. I pct. 2”, emise în 60 de zile de la publicarea legii, pe baza criteriilor minime stabilite în lege.",
+      "argumentation": "Textul nu spune dacă plafonul de 7% înlocuiește sau se adaugă la cel de 5% (risc de 12%) și trimite la pct. 3 (art. 76), unde nu există instrucțiuni. Un termen de 30 de zile calculat de la 1.01.2027 face facilitatea inaplicabilă la începutul anului fiscal. Criteriile esențiale ale unei facilități fiscale trebuie fixate în lege, nu doar în ordin (art. 139 Constituție).",
+      "otherComments": "Corectați „dispositive” în „dispozitive” (art. 76 și 142). Definiția ajutorului pentru natalitate apare doar la art. 25: adăugați o trimitere în art. 76 alin. (4) lit. a) și art. 142 lit. b). Prevedeți confidențialitatea datelor medicale (GDPR art. 9). Dacă legea nu e publicată până la 1.01.2027, mutați intrarea în vigoare la 1.01.2028."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 59853,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Scutire de taxe pentru decontarea tratamentelor de fertilitate (FIV) de către angajatori și plafon mărit pentru firmele „family-friendly”",
-      "verdictShort": "O inițiativă fiscală pozitivă și utilă, care permite firmelor să deconteze fără taxe tratamentele de fertilitate ale angajaților în limita plafonului de cheltuieli sociale. Textul adoptat tacit de Senat conține însă erori tehnice de redactare, o trimitere greșită care blochează normele de aplicare și o procedură birocratică de certificare prea greoaie pentru IMM-uri.",
-      "initiatorClaim": "Inițiatorii vor să sprijine creșterea natalității permițând angajatorilor să deconteze procedurile și medicamentele pentru tratarea infertilității (precum FIV) fără impozit pe venit și CAS pentru angajat, în limita plafonului deductibil de 5% din fondul de salarii, respectiv 7% pentru companiile certificate ca fiind favorabile mediului familial.",
-      "realityCheck": "Decontarea tratamentelor de fertilitate în plafonul existent de 5% este clară și direct aplicabilă pentru salariați, dar omite contractele de mandat la scutirea de impozit pe venit și CAS. În schimb, creșterea plafonului de la 5% la 7% aduce o economie reală de impozit pe profit de cel mult 0,32% din fondul de salarii, condiționată însă de o certificare birocratică la Ministerul Muncii pe criterii vagi („implicarea în comunitate”), accesibilă în practică doar marilor corporații.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 88752,
+      "sourceEndMarker": "SF-4D8901C1",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Scutiri fiscale pentru proceduri de fertilitate și plafon fiscal mărit pentru firme certificate de Ministerul Muncii",
+      "verdictShort": "Scopul social este pozitiv, dar adoptarea tacită la Senat a lăsat în text erori tehnice care blochează aplicarea și o delegare fiscală în alb către Ministerul Muncii. Fără corecții la Camera Deputaților, facilitatea de 7% riscă să favorizeze birocratic marile companii în defavoarea IMM-urilor și să creeze litigii cu ANAF.",
+      "initiatorClaim": "Inițiatorii susțin că vor să combată declinul demografic permițând firmelor să deconteze fără taxe tratamente de fertilitate (precum FIV) și să încurajeze politicile de echilibru viață-muncă prin creșterea plafonului deductibil pentru cheltuieli sociale de la 5% la 7% pentru angajatorii certificați «pro-familie».",
+      "realityCheck": "Față de Codul fiscal actual (care scutește doar ajutoarele de naștere/adopție în plafonul de 5%), proiectul adaugă ajutoarele pentru creșterea natalității la impozitul pe profit, impozitul pe venit și contribuțiile sociale, dar creează simultan un regim fiscal privilegiat (7%) ale cărui condiții sunt lăsate integral la discreția unui ordin al ministrului Muncii, fără criterii în lege și fără implicarea Ministerului Finanțelor. Mai mult, textul conține o trimitere greșită în Art. II care lasă procedura de certificare în aer și nu introduce niciun plafon valoric per beneficiar în art. 76 și art. 142.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
@@ -41,65 +69,68 @@
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Clarificare fiscală binevenită (Art. I pct. 1, 3 și 4): Ajutoarele pentru creșterea natalității (medicamente și proceduri medicale recomandate de medicul specialist pentru persoane singure sau cupluri infertile) devin cheltuieli sociale deductibile și venituri neimpozabile/scutite de contribuții sociale, eliminând riscul reîncadrării lor de către ANAF.",
-        "Eroare materială de trimitere care blochează normele (Art. II): Articolul II obligă Ministerul Muncii să emită în 30 de zile instrucțiunile prevăzute la „Art. I pct. 3”, însă pct. 3 vizează impozitul pe venit (Art. 76 Cod fiscal), în timp ce instrucțiunile de certificare se află în realitate la Art. I pct. 2 (Art. 25 alin. (3) lit. b¹).",
-        "Neconcordanță între administratori/directori și salariați (Art. I pct. 1 vs. pct. 3-4): Deși Art. 25 alin. (3) lit. b) pct. 1¹ include explicit administratorii și directorii (care lucrează pe contract de mandat), la Art. 76 alin. (4) lit. a) și Art. 142 lit. b) scutirea de impozit și CAS rămâne condiționată de prevederea ajutorului în „contractul de muncă sau în regulamentul intern”, lăsând administratorii expuși impozitării.",
-        "Tehnică legislativă defectuoasă și erori de ortografie (Art. I pct. 2, 3 și 4): Introducerea cotei de 7% printr-o literă separată b¹), fără corelare cu lit. b) (5%), lasă neclar dacă plafoanele se exclud sau se cumulează. În plus, la Art. I pct. 3 și 4 cuvântul „dispozitive” din Codul fiscal în vigoare a fost înlocuit din eroare cu anglicismul „dispositive” („ajutoarele pentru dispositive medicale”)."
+        "Delegare fiscală în alb și birocrație neclară (Art. I pct. 2 — art. 25 alin. (3) lit. b¹)): creșterea deductibilității de la 5% (cota actuală din lit. b)) la 7% depinde exclusiv de certificarea ca «angajator favorabil mediului familial» de către Ministerul Muncii, pe baza unor criterii și proceduri stabilite integral prin ordin de ministru, fără praguri legale, durată de valabilitate, cale de atac sau avizul Ministerului Finanțelor.",
+        "Eroare materială blocantă și vid normativ (Art. II și Art. III): Art. II obligă Ministerul Muncii să emită instrucțiunile prevăzute la «Art. I pct. 3», dar pct. 3 modifică art. 76 alin. (4) lit. a) (impozitul pe venit), unde nu există nicio instrucțiune — normele fiind prevăzute la Art. I pct. 2. În plus, ordinul se emite în 30 de zile după intrarea în vigoare (1 ianuarie 2027), făcând facilitatea inaplicabilă la debutul anului fiscal.",
+        "Ambiguitate privind cumulul cotelor și lipsa plafonului individual (Art. I pct. 1, 2, 3 și 4): textul lit. b¹) nu precizează expres că limita de 7% înlocuiește cota de 5% de la lit. b). Totodată, la art. 76 alin. (4) lit. a) și art. 142 lit. b), noțiunea «ajutoarele pentru creșterea natalității» nu trimite la definiția și condiția recomandării medicale din art. 25 pct. 1¹ și nu are un plafon individual per beneficiar (spre deosebire de cadourile de 300 lei sau creșă), creând riscuri de abuz sau reîncadrare fiscală, inclusiv la microîntreprinderi și pentru administratori/directori.",
+        "Impact bugetar necuantificat: deși Expunerea de motive recunoaște o scădere pe termen scurt a veniturilor din impozitul pe profit din cauza majorării plafonului la 7%, proiectul nu este însoțit de estimări cifrice sau surse de compensare."
       ],
-      "blindSpotsCaught": "Art. II trimite eronat la Art. I pct. 3 în loc de Art. I pct. 2 pentru emiterea ordinului de ministru, textul introduce greșeala de tipar „dispositive medicale” chiar în corpul Codului fiscal, iar certificarea fiscală este lăsată exclusiv la Ministerul Muncii, fără ordin comun cu Ministerul Finanțelor.",
-      "constitutionalityNote": "Sub aspectul Art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), trimiterea eronată din Art. II și delegarea stabilirii condițiilor unei deduceri fiscale către instrucțiuni ale Ministerului Muncii bazate pe noțiuni vagi („implicarea în comunitate”, „bunăstarea”) generează insecuritate juridică. În materie fiscală, criteriile care determină baza de impozitare trebuie să fie obiective și previzibile direct din lege.",
-      "euLawNote": "Măsura este compatibilă cu dreptul UE și cu recomandările europene privind echilibrul dintre viața profesională și cea privată (Directiva (UE) 2019/1158). Nu intră sub incidența Directivei (UE) 2015/1535 (TRIS) și nu restrânge accesul la profesii reglementate conform Directivei (UE) 2018/958, însă procedura de certificare trebuie să fie simplă și nediscriminatorie pentru a nu dezavantaja IMM-urile pe piața internă.",
+      "blindSpotsCaught": "Fișa oficială a Camerei Deputaților prezintă proiectul ca vizând doar includerea ajutoarelor de natalitate în plafonul existent de 5%, omițând complet introducerea noului sistem de certificare de către Ministerul Muncii și a plafonului mărit de 7% (Art. I pct. 2). De asemenea, adoptarea tacită la Senat a păstrat atât eroarea de trimitere din Art. II (la pct. 3 în loc de pct. 2), cât și introducerea erorii de redactare «dispositive medicale» în art. 76 și art. 142, în timp ce definiția condiționată de recomandare medicală de la art. 25 nu este preluată și pentru plătitorii care nu datorează impozit pe profit.",
+      "constitutionalityNote": "Art. I pct. 2 ridică probleme serioase față de art. 1 alin. (5) (calitatea și previzibilitatea legii) și art. 139 alin. (1) din Constituție (rezerva de lege în materie fiscală), întrucât condițiile substanțiale de acces la o facilitate fiscală care modifică baza impozabilă sunt delegate integral unui act administrativ inferior (ordin al ministrului Muncii), fără repere normative minime. Lipsa unor criterii obiective și accesibile IMM-urilor poate tensiona și principiul așezării juste a sarcinilor fiscale (art. 56 alin. (2)), iar absența fișei financiare contravine exigențelor de disciplină bugetară din Legea nr. 500/2002 și Legea nr. 69/2010.",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează accesul la profesii reglementate) și nici a Directivei (UE) 2015/1535 TRIS (nu vizează servicii ale societății informaționale sau AI). Totuși, acordarea unei deductibilități fiscale sporite (7% vs. 5%) pe baza unei certificări ministeriale cu criterii nedefinite prin lege riscă să creeze o facilitate fiscală selectivă în sensul art. 107 TFUE (ajutor de stat) și să distorsioneze concurența în defavoarea IMM-urilor și a angajatorilor fără resurse administrative pentru auditare.",
       "senatForm": {
-        "articleRef": "Art. I pct. 2-4 și Art. II din proiectul de lege",
-        "proposalContent": "La Art.I pct.2, cota de 7% se integrează direct în art.25 alin.(3) lit.b), pe baza unor criterii obiective emise prin ordin comun MMFTSS-MF, nu în o literă separată b¹). La Art.I pct.3-4 se corectează termenul „dispositive” în „dispozitive” și se includ contractele de mandat. La Art.II, trimiterea „Art.I pct.3” se corectează în „Art.I pct.2”.",
-        "argumentation": "Art.II trimite eronat la Art.I pct.3 (impozit pe venit) în loc de pct.2 (certificarea MMFTSS), blocând aplicarea legii. Separarea lit.b¹) de lit.b) creează confuzie fiscală (cumulare vs. alternativă), iar la Art.76 și 142 lipsesc contractele de mandat (administratori/directori), deși sunt menționate la Art.25, plus eroarea de scriere „dispositive”.",
-        "otherComments": "Măsura decontării FIV este binevenită, dar certificarea birocratică la Ministerul Muncii pentru creșterea plafonului de la 5% la 7% oferă o economie de impozit pe profit de doar 0,32% din fondul de salarii. Fără o procedură digitală prin declarație pe propria răspundere, IMM-urile vor fi excluse de facto din cauza costurilor de conformare."
-      }
+        "articleRef": "Art. I pct. 2 și Art. II",
+        "proposalContent": "La Art. I pct. 2, precizați că limita de 7% înlocuiește cota de 5% de la lit. b), iar criteriile de certificare, proporționale și pentru IMM-uri, se stabilesc prin ordin comun al MMFTSS și MF. La Art. II, corectați trimiterea de la «Art. I pct. 3» la «Art. I pct. 2» și emiteți ordinul anterior datei de 1 ianuarie 2027.",
+        "argumentation": "Art. II trimite eronat la Art. I pct. 3 (art. 76), unde nu există instrucțiuni, blocând aplicarea. Stabilirea condițiilor unei facilități fiscale doar prin ordin al MMFTSS încalcă art. 1 alin. 5 și art. 139 din Constituție și dezavantajează IMM-urile. Emiterea normelor după intrarea în vigoare creează vid normativ în 2027.",
+        "otherComments": "Corectați și la Art. I pct. 3 și 4: introduceți trimiterea la definiția de la art. 25 alin. (3) lit. b) pct. 1¹, corectați greșeala de redactare «dispositive» în «dispozitive» și evaluați oportunitatea unui plafon anual per beneficiar, pentru a preveni abuzurile fiscale și a avea o fișă financiară realistă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 177999,
+      "durationMs": 58396,
+      "sourceEndMarker": "SF-4D8901C1",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Firmele pot plăti angajaților tratamente de fertilitate fără impozit, iar angajatorii „prietenoși cu familia” deduc mai mult",
-      "verdictShort": "Este o lege utilă, cu impact bugetar modest. Clarifică faptul că sprijinul dat de firme pentru tratamente de infertilitate nu se impozitează și încurajează politicile favorabile familiei. Textul are însă greșeli de redactare care trebuie corectate în comisie: o trimitere greșită în Art. II, un plafon de 7% ambiguu și o dată de intrare în vigoare care nu mai poate fi respectată.",
-      "initiatorClaim": "Inițiatorii vor să combată scăderea natalității prin implicarea angajatorilor. Firmele ar putea finanța tratamentele de fertilizare ale angajaților ca ajutor social deductibil și neimpozabil, completând Programul FIV al statului, și ar fi stimulate să se certifice ca „angajatori favorabili mediului familial”.",
-      "realityCheck": "Legea face trei lucruri. Creează ajutorul pentru creșterea natalității, adică medicamente și proceduri recomandate de un medic specialist, inclus în plafonul de 5%. Îl scutește de impozit pe venit și de CAS (art. 76 și 142). Acordă angajatorilor certificați de Ministerul Muncii un plafon de deducere de 7%, facilitate pe care fișa Camerei nici nu o menționează. Plafoanele de 5% și 7% limitează doar deducerea la impozitul pe profit; scutirea pentru angajat nu are plafon pe persoană și nici obligația expresă de justificare cu facturi. Criteriile de certificare sunt lăsate integral unui ordin de ministru, iar textul pare să acopere doar procedurile recomandate salariatului însuși, nu și partenerului din cuplu.",
+      "plainTitle": "Firmele pot plăti FIV-ul angajaților fără impozit, iar angajatorii „prietenoși cu familia” primesc deducere socială de 7%",
+      "verdictShort": "Este o lege fiscală favorabilă, fără sancțiuni și fără obligații noi pentru firme sau cetățeni. Redactarea are însă scăpări reale: o trimitere internă greșită, raportul neclar dintre plafonul de 5% și cel de 7% și criterii de certificare lăsate integral pe seama unui ordin de ministru.",
+      "initiatorClaim": "Inițiatorii vor să combată scăderea natalității. Pentru asta, angajatorii ar putea suporta, fără costuri fiscale pentru angajat, tratamentele de fertilitate, iar firmele care aplică politici favorabile familiei ar fi recompensate cu un plafon mai mare de deducere a cheltuielilor sociale.",
+      "realityCheck": "Proiectul introduce „ajutorul pentru creșterea natalității” în lista cheltuielilor sociale deductibile în plafonul de 5% (art. 25). Același ajutor devine neimpozabil și scutit de CAS la angajat (art. 76 și 142). Contrar expunerii de motive, care susține că nu există o facilitate nouă, scutirea pe partea angajatului este un efect fiscal real, cu cost bugetar nul doar în aparență. Plafonul de 7% folosește numai plătitorilor de impozit pe profit certificați de MMFTSS. Microîntreprinderile, impozitate pe cifra de afaceri, nu beneficiază de el.",
       "affectedGroups": [
-        "Angajați & HR",
-        "Contabili & Fiscalitate",
         "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Angajați & HR",
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. II cere publicarea în 30 de zile a „instrucțiunilor de aplicare prevăzute la Art. I pct. 3”. Pct. 3 modifică însă art. 76 (venituri neimpozabile) și nu prevede nicio instrucțiune. Instrucțiunile privind certificarea sunt la Art. I pct. 2 (lit. b¹). Citit literal, ordinul de certificare rămâne fără termen.",
-        "Art. I pct. 2 (art. 25 alin. (3) lit. b¹): plafonul de 7% nu este formulat ca derogare de la lit. b). Textul nu spune dacă înlocuiește plafonul de 5% sau se adaugă lui, deși pct. 3 vizează aceleași cheltuieli (lit. b) pct. 1-4). O lectură literală permite cumulul, adică 12%, cu risc de litigii cu ANAF și pierderi bugetare necuantificate.",
-        "Art. I pct. 2: criteriile, procedura, durata și retragerea certificării, precum și căile de atac, sunt delegate integral unui ordin al Ministerului Muncii. Ministerul Finanțelor și ANAF nu au niciun rol, deși certificarea condiționează deductibilitatea fiscală. Lipsesc un registru public și un mecanism de verificare la control.",
-        "Art. I pct. 1, 3 și 4: ajutorul pentru creșterea natalității este scutit de impozit și de CAS fără plafon individual și se poate acorda și administratorului sau directorului. În firmele mici, unde asociatul este și administrator, acesta își poate acorda singur sume scutite. Contrapondere există doar prin condiția recomandării medicului specialist.",
-        "Art. I pct. 3 și 4 rescriu integral art. 76 alin. (4) lit. a) și art. 142 lit. b), în loc să insereze doar sintagma nouă. Textul conține greșeala „dispositive” în ambele articole. Orice modificare adusă acestor litere până la intrarea în vigoare ar fi anulată tacit.",
-        "Plafonul de 7% avantajează mai ales companiile mari, cu pachete de beneficii bogate. IMM-urile depășesc rar 5% cheltuieli sociale și ar suporta costul administrativ al certificării pentru un beneficiu pe care nu-l folosesc."
+        "Art. I pct. 1 adaugă art. 25 alin. (3) lit. b) pct. 1¹. Ajutorul pentru costurile cu medicamentele și procedurile de fertilitate, acordat salariatului, administratorului sau directorului cu recomandarea unui medic specialist, intră în plafonul existent de 5% din fondul de salarii. Plafonul nu crește.",
+        "Art. I pct. 2 creează lit. b¹), cu un plafon de până la 7% pentru angajatorii certificați. Textul nu spune însă că lit. b¹) se aplică „prin excepție” de la lit. b). Rămâne posibilă interpretarea că cele două plafoane se cumulează (5% + 7%), ceea ce va naște dispute cu ANAF. Nu e clar nici dacă formula „pct. 1-4” include pct. 1¹ și 3¹.",
+        "Art. II cere instrucțiunile „prevăzute la Art. I pct. 3”. Pct. 3 modifică însă art. 76 (impozitul pe venit), unde nu există instrucțiuni. Trimiterea corectă este la pct. 2. În plus, termenul de 30 de zile curge de la 1.01.2027, deci la începutul anului fiscal 2027 nu va exista niciun angajator certificat.",
+        "Art. I pct. 3 și 4 fac ajutorul pentru natalitate neimpozabil (art. 76 alin. 4 lit. a) și exclus din baza CAS (art. 142 lit. b), fără plafon valoric pe persoană. Definiția ajutorului apare doar la art. 25 (Titlul II), fără trimitere din Titlurile IV și V. Textul conține și greșeala „dispositive”, în loc de „dispozitive”.",
+        "Toate criteriile de certificare (echilibru viață-muncă, sprijin pentru părinți, sănătate, comunitate, formare) sunt doar enumerate generic, „conform instrucțiunilor aplicabile”. Durata certificării, retragerea ei și căile de contestare lipsesc din lege."
       ],
-      "blindSpotsCaught": "1. Senatul a adoptat proiectul tacit, conform art. 75 alin. (2) teza a III-a din Constituție, deci textul nu a trecut prin nicio dezbatere. Așa se explică greșeala „dispositive” și trimiterea eronată din Art. II la pct. 3 în loc de pct. 2. 2. Art. III fixează intrarea în vigoare la 1.01.2027, dar art. 4 alin. (1) din Codul fiscal cere minimum 6 luni de la publicare. La 29.10.2026 proiectul este încă la comisii, deci data nu mai poate fi respectată și trebuie amânată. 3. Fișa Camerei descrie doar includerea în plafonul de 5% și omite facilitatea nouă de 7% de la lit. b¹).",
-      "constitutionalityNote": "Fondul nu ridică probleme de constituționalitate. Stabilirea facilităților fiscale prin lege ține de marja legiuitorului (art. 139 alin. (1)). Tratamentul diferit al angajatorilor certificați se poate justifica obiectiv, cu condiția ca criteriile să fie obiective și accesibile tuturor (art. 16). Problemele țin de calitatea legii (art. 1 alin. (5)): plafonul de 7% ambiguu, trimiterea greșită din Art. II și delegarea integrală a criteriilor de certificare către un ordin de ministru, fără repere minime în lege, deși acestea afectează baza impozabilă. Proiectul reduce veniturile bugetare (impozit pe profit, impozit pe venit, CAS), deci necesită fișă de impact și punctul de vedere al Guvernului (art. 111 și art. 138 alin. (5) din Constituție, art. 15 din Legea nr. 500/2002). CCR a sancționat în repetate rânduri lipsa acestora. Legea nu instituie sancțiuni, deci art. 23 alin. (12) nu este incident.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează accesul la profesii sau exercitarea lor. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reguli tehnice pentru produse sau servicii ale societății informaționale. Din perspectiva ajutorului de stat (art. 107 TFUE), măsura pare generală: este deschisă oricărui angajator care îndeplinește criteriile și este proporțională cu fondul de salarii. Riscul de selectivitate ar apărea doar dacă ordinul ministerului ar favoriza anumite sectoare sau dimensiuni de firmă. Obiectivele sunt compatibile cu Directiva (UE) 2019/1158 privind echilibrul dintre viața profesională și cea privată.",
+      "blindSpotsCaught": "Ajutorul pentru FIV presupune ca angajatorul să primească o recomandare medicală despre infertilitatea angajatului. Aceasta este o dată privind sănătatea, din categoria specială de la art. 9 GDPR, iar legea nu prevede nicio garanție de confidențialitate și nicio regulă de minimizare. Mai e o problemă de calendar: proiectul este încă la comisii, deși termenul pentru amendamente (5.03.2026) a trecut. Dacă legea nu apare în Monitorul Oficial înainte de 1.01.2027, data fixă din art. III ar produce efecte retroactive. Dacă apare după 1 iulie, se încalcă și practica art. 4 din Codul fiscal privind previzibilitatea. Expunerea de motive cere procedură de urgență, dar fișa Camerei arată că aceasta nu a fost aplicată. Proiectul a trecut de Senat tacit (art. 75 alin. 2 din Constituție), fără dezbatere în plen.",
+      "constitutionalityNote": "Proiectul nu ridică probleme constituționale de fond. Este o facilitate fiscală opțională, care nu restrânge drepturi. Există însă riscuri de previzibilitate (art. 1 alin. 5): trimiterea greșită din art. II și raportul neclar dintre lit. b) și b¹). Mai discutabilă este delegarea către un ordin de ministru a tuturor criteriilor care condiționează o facilitate fiscală, ținând cont de rezerva de lege din art. 139 alin. (1) privind stabilirea impozitelor. Lipsa unei fișe financiare și a sursei de acoperire pentru scutirea de impozit pe venit, CAS și deducerea suplimentară ar putea fi invocată pe temeiul art. 138 alin. (5) și al art. 15 din Legea 500/2002. Expunerea pretinde impact zero sau pozitiv fără o estimare cifrată.",
+      "euLawNote": "Directiva 2018/958 nu se aplică, pentru că proiectul nu reglementează accesul la o profesie. Directiva TRIS 2015/1535 nu este incidentă, pentru că nu sunt vizate servicii digitale. Pe ajutorul de stat (art. 107 TFUE): deducerea majorată este, în principiu, o măsură generală, deschisă oricărui angajator plătitor de impozit pe profit. Dacă certificarea MMFTSS devine discreționară sau netransparentă, măsura riscă să fie considerată selectivă. Prelucrarea datelor medicale ale angajaților trebuie să respecte art. 9 GDPR.",
       "senatForm": {
-        "articleRef": "Art. I pct. 2 (art. 25 alin. (3) lit. b¹)",
-        "proposalContent": "Lit. b¹) teza I devine: „Prin derogare de la lit. b), angajatorii certificați ca favorabili mediului familial deduc cheltuielile sociale de la lit. b) pct. 1-4 în limita a 7% din cheltuielile cu salariile, în locul limitei de 5%, pe durata valabilității certificatului (maximum 3 ani), înscris într-un registru public consultabil de ANAF.”",
-        "argumentation": "Textul nu spune dacă plafonul de 7% înlocuiește sau se adaugă celui de 5% de la lit. b); o lectură literală permite cumul (12%), cu risc de litigii cu ANAF și pierderi bugetare necuantificate. Certificarea nu are durată, registru sau mod de verificare, deși condiționează deductibilitatea. Se asigură previzibilitatea (art. 1 alin. 5 Constituție).",
-        "otherComments": "Art. II trimite greșit la „Art. I pct. 3” (art. 76); instrucțiunile privesc Art. I pct. 2. Data de 1.01.2027 nu mai respectă termenul minim de 6 luni din art. 4 alin. (1) Cod fiscal și trebuie decalată. În art. 76 și 142 se va scrie „dispozitive”, iar textul se va modifica doar prin inserarea sintagmei noi, nu prin rescrierea integrală a literelor."
-      }
+        "articleRef": "Art. I pct. 2 (art. 25 (3) b¹) și Art. II",
+        "proposalContent": "La lit. b¹): „prin excepție de la lit. b), cheltuielile sociale prevăzute la lit. b) pct. 1-4, inclusiv pct. 1¹ și 3¹, suportate de angajatorii certificați, sunt deductibile în limita unei cote totale de până la 7%...”. Art. II: „instrucțiunile prevăzute la art. I pct. 2”, emise în 60 de zile de la publicarea legii, pe baza criteriilor minime stabilite în lege.",
+        "argumentation": "Textul nu spune dacă plafonul de 7% înlocuiește sau se adaugă la cel de 5% (risc de 12%) și trimite la pct. 3 (art. 76), unde nu există instrucțiuni. Un termen de 30 de zile calculat de la 1.01.2027 face facilitatea inaplicabilă la începutul anului fiscal. Criteriile esențiale ale unei facilități fiscale trebuie fixate în lege, nu doar în ordin (art. 139 Constituție).",
+        "otherComments": "Corectați „dispositive” în „dispozitive” (art. 76 și 142). Definiția ajutorului pentru natalitate apare doar la art. 25: adăugați o trimitere în art. 76 alin. (4) lit. a) și art. 142 lit. b). Prevedeți confidențialitatea datelor medicale (GDPR art. 9). Dacă legea nu e publicată până la 1.01.2027, mutați intrarea în vigoare la 1.01.2028."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 169443,
+      "durationMs": 120132,
+      "sourceEndMarker": "SF-4D8901C1",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Ajutoare pentru fertilitate și deduceri mai mari pentru firme certificate",
-      "verdictShort": "Sprijinul fiscal pentru tratamentele de fertilitate este util. Riscul moderat vine din certificarea insuficient reglementată care condiționează deducerea de 7% și din necorelările care pot produce interpretări fiscale diferite.",
-      "initiatorClaim": "Inițiatorii urmăresc să încurajeze angajatorii să susțină tratamentele de fertilitate și echilibrul dintre muncă și familie. Ei prezintă ajutorul drept o completare voluntară a sprijinului public pentru persoanele care doresc copii.",
-      "realityCheck": "Art. I pct. 1, 3 și 4 includ expres ajutorul pentru fertilitate între cheltuielile sociale deductibile limitat și veniturile exceptate de la impozitul salarial și CAS; excluderea din baza CASS și CAM operează prin trimiterile existente la art. 142. Separat, pct. 2 introduce un plafon de 7% pentru angajatorii certificați, aplicabil unei categorii largi de cheltuieli sociale, fără să precizeze expres raportul cu plafonul general de 5%. Legea nu obligă angajatorul să acorde ajutorul și nu garantează accesul universal la tratament.",
+      "plainTitle": "Ajutoare pentru fertilitate și deduceri mai mari pentru firmele care sprijină familia",
+      "verdictShort": "Proiectul oferă un sprijin fiscal util, fără taxe sau sancțiuni noi. Riscul principal este accesul insuficient reglementat la deducerea majorată: criteriile decisive sunt lăsate ministerului, iar raportul dintre plafoanele fiscale trebuie clarificat.",
+      "initiatorClaim": "Inițiatorii urmăresc sprijinirea persoanelor care au nevoie de tratamente pentru fertilitate și încurajarea angajatorilor să adopte măsuri favorabile familiei. Susțin că implicarea financiară a firmelor poate contribui la creșterea natalității și poate reduce presiunea asupra bugetelor publice.",
+      "realityCheck": "Proiectul include explicit ajutoarele pentru fertilitate între cheltuielile sociale deductibile limitat și între veniturile exceptate de la impozitare și contribuții, introducând și plafonul de 7% pentru angajatorii certificați, față de plafonul obișnuit de 5%. Acordarea ajutoarelor rămâne facultativă, iar certificarea nu creează automat un drept al angajatului la finanțare. Condițiile esențiale ale certificării, articularea celor două plafoane și aplicarea facilității pentru administratori fără contract de muncă necesită precizări.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
@@ -107,22 +138,47 @@
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. I pct. 1 clarifică deductibilitatea ajutorului pentru medicamente și proceduri recomandate de specialist. Plafonul de 5% privește totalul cheltuielilor sociale raportat la cheltuielile salariale ale angajatorului; nu reprezintă un plafon individual al ajutorului sau al scutirii beneficiarului.",
-        "Art. I pct. 2 lasă criteriile efective de certificare instrucțiunilor ministeriale. Legea nu stabilește pragurile minime, durata certificatului, termenele de soluționare ori efectele pierderii certificării asupra deducerilor deja aplicate. Avantajul fiscal poate deveni astfel greu de anticipat.",
-        "Noua lit. b¹) trimite la lit. b) pct. 1-4, fără să menționeze distinct noul pct. 1¹. Aceasta este o necorelare care trebuie clarificată, nu dovada sigură că ajutorul pentru fertilitate este exclus din plafonul de 7%. Nici cumularea plafoanelor până la 12% nu este autorizată expres.",
-        "Art. II indică greșit art. I pct. 3 pentru instrucțiunile privind certificarea; trimiterea corectă este la pct. 2. În plus, instrucțiunile trebuie publicate abia în 30 de zile de la intrarea în vigoare, deși facilitatea ar trebui să funcționeze de la 1 ianuarie 2027.",
-        "Art. I pct. 1 include administratori și directori, însă pct. 3 și 4 nu corelează explicit regimul acestora, inclusiv când lucrează exclusiv pe mandat. Guvernul a semnalat această problemă, criteriile prea generale ale certificării și posibila reducere a veniturilor bugetare. [Punctul de vedere al Guvernului](https://www.senat.ro/legis/PDF/2025/25L492PV.PDF?nocache=true)",
-        "Beneficiul deducerii suplimentare privește contribuabilii pentru care cheltuiala influențează impozitul pe profit; nu reduce direct impozitul microîntreprinderii calculat asupra veniturilor. Certificarea poate presupune costuri administrative proporțional mai mari pentru firmele mici, dar proiectul nu instituie o taxă de certificare sau sancțiuni noi."
+        "Art. I pct. 1: în prezent, art. 25 alin. (3) lit. b) permite deducerea cheltuielilor sociale în limita a 5% din cheltuielile salariale, fără o categorie expresă pentru fertilitate. Proiectul introduce această categorie, cu recomandare de la medicul specialist, inclusiv pentru administratori și directori; nu stabilește un ajutor obligatoriu sau o sumă garantată.",
+        "Art. I pct. 2: plafonul de 7% privește toate categoriile de cheltuieli sociale indicate prin trimitere, nu exclusiv tratamentele pentru fertilitate. Intenția declarată este majorarea de la 5% la 7%, dar păstrarea ambelor litere fără o regulă expresă de substituire și necumulare lasă loc disputelor; un plafon de 12% nu rezultă automat.",
+        "Art. I pct. 2: ministerul stabilește criteriile și procedura certificării, însă legea enumeră numai domenii foarte generale. Lipsesc pragurile minime, durata certificatului și regulile speciale privind retragerea și efectele fiscale ale acesteia. Aceste elemente influențează efectiv accesul la avantajul fiscal.",
+        "Art. I pct. 3 și 4: noutatea este includerea ajutoarelor pentru creșterea natalității. Scutirile pentru celelalte ajutoare și plafonul de 300 lei pentru cadourile acordate cu anumite ocazii există deja; plafonul cadourilor nu se aplică ajutorului pentru fertilitate.",
+        "Limitele de 5% și 7% privesc deducerea cheltuielii angajatorului la calculul rezultatului fiscal, nu valoarea individuală neimpozabilă a ajutorului. Prin trimiterile generale la art. 142, modificarea este relevantă și pentru CASS și contribuția asiguratorie pentru muncă. Afirmația din expunere că definirea ajutorului nu are niciun impact suplimentar nu este demonstrată printr-o evaluare bugetară.",
+        "Definiția ajutorului este introdusă la art. 25, fără o trimitere expresă în art. 76 și 142. În plus, acestea păstrează referirea la contractul de muncă sau regulamentul intern, deși proiectul include administratori și directori care pot avea numai contract de mandat. Sunt necesare corelări pentru aplicare fiscală uniformă.",
+        "Pentru IMM-uri, certificarea este opțională, dar presupune documentare și costuri administrative încă necunoscute. Majorarea deducerii nu reduce direct impozitul pe veniturile microîntreprinderilor; avantajul privește contribuabilii care determină profitul impozabil. Remunerațiile de mandat nu măresc automat baza plafonului, calculată din salariile potrivit Codului muncii.",
+        "Art. II trimite greșit la art. I pct. 3, deși certificarea este reglementată la pct. 2. Art. III stabilește intrarea în vigoare la 1 ianuarie 2027, dar instrucțiunile pot fi publicate abia ulterior, în termen de 30 de zile, fără reguli pentru începutul perioadei fiscale sau certificările obținute în cursul anului."
       ],
-      "blindSpotsCaught": "Plafonul de 300 lei din art. 76 și 142 privește cadourile la ocaziile enumerate, nu ajutorul pentru fertilitate; nici suma de 15.000 lei evocată în motivare nu devine plafon al acestui ajutor. Adoptarea tacită la Senat este un mecanism constituțional, nu o confirmare a calității textului. Termenul pentru amendamente, 05.03.2026, este deja depășit la data analizei; transmiterea unei propuneri cetățenești nu echivalează cu depunerea unui amendament parlamentar. [Fișa Camerei Deputaților](https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22996)",
-      "constitutionalityNote": "Principala vulnerabilitate privește art. 1 alin. (5): criteriile fiscale insuficient determinate, raportul neclar dintre plafoane și trimiterea eronată reduc previzibilitatea. Raportat la art. 139 alin. (1), condițiile esențiale ale avantajului fiscal trebuie stabilite prin lege, instrucțiunile putând detalia aplicarea. Diferențierea între angajatori poate avea justificare socială, dar necesită criterii obiective și proporționale, inclusiv din perspectiva art. 56 alin. (2). Art. 23 alin. (12) privește legalitatea pedepselor și nu constituie un temei direct aici: proiectul nu introduce pedepse. Impactul asupra veniturilor bugetare impune evaluare și informarea Guvernului potrivit art. 111 alin. (1); nu dovedește singur încălcarea art. 138 alin. (5). Acestea sunt vulnerabilități de remediat, nu o constatare certă de neconstituționalitate. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355)",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă: certificarea angajatorilor pentru o facilitate fiscală nu reglementează accesul la o profesie reglementată sau exercitarea acesteia. [Directiva, art. 1-2](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX%3A32018L0958). Textul nu introduce reglementări tehnice pentru produse și nici norme specifice serviciilor digitale sau AI, astfel că nu rezultă o obligație de notificare TRIS potrivit Directivei 2015/1535. [Comisia Europeană — domeniul TRIS](https://technical-regulation-information-system.ec.europa.eu/ro/faq). Plafonul preferențial de 7% justifică verificarea selectivității și a efectelor concurențiale potrivit art. 107 alin. (1) TFUE; existența certificării nu demonstrează automat un ajutor de stat incompatibil. Proiectul nu rezervă tratamentele unui furnizor și nu instituie un monopol privat. [Art. 107 TFUE](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX%3A12012E107)",
+      "blindSpotsCaught": "Dispozițiile finale produc o problemă concretă de aplicare: instrucțiunile sunt prevăzute după intrarea în vigoare și printr-o trimitere greșită. Expunerea cere procedură de urgență, dar fișa oficială furnizată indică NU; cererea inițiatorilor nu dovedește aprobarea procedurii. Textul nu conține abrogări sau sancțiuni noi. Verificarea online nu a fost disponibilă; evaluarea se bazează pe documentele furnizate și pe cadrul juridic relevant cunoscut.",
+      "constitutionalityNote": "Art. 1 alin. (5) este reperul principal: accesul la plafonul de 7%, raportul cu plafonul de 5% și momentul aplicării trebuie să fie previzibile. Delegarea detaliilor tehnice este admisibilă, dar condițiile esențiale ale avantajului fiscal trebuie stabilite suficient prin lege, în raport și cu art. 139 alin. (1). Diferențierea între angajatori certificați și necertificați poate avea o justificare obiectivă, dacă cerințele sunt clare și accesibile, inclusiv pentru IMM-uri. Art. 23 alin. (12) nu ridică o problemă specifică, deoarece nu sunt instituite pedepse. Trebuie verificată solicitarea informării Guvernului potrivit art. 111 alin. (1), fără a deduce din documentele incomplete că aceasta lipsește. Reducerea veniturilor fiscale nu reprezintă automat o cheltuială fără sursă în sensul art. 138 alin. (5). Data de 1 ianuarie 2027 nu demonstrează singură respectarea termenelor art. 4 din Codul fiscal; contează publicarea și eventualele excepții aplicabile.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă: certificarea fiscală a angajatorului nu reglementează accesul la o profesie reglementată sau exercitarea acesteia. Nici procedura TRIS din Directiva (UE) 2015/1535 nu este declanșată de măsurile descrise, care nu stabilesc reguli tehnice pentru produse ori servicii ale societății informaționale; proiectul nu reglementează servicii digitale sau AI. Avantajul fiscal trebuie analizat prin prisma art. 107 alin. (1) TFUE, în special a eventualei selectivități; certificarea nu dovedește singură existența unui ajutor de stat. Criteriile trebuie să fie obiective și nediscriminatorii, iar costurile certificării pot dezavantaja practic firmele mici. Documentele medicale necesare acordării ajutorului rămân supuse GDPR, inclusiv protecției speciale a datelor de sănătate.",
       "senatForm": {
-        "articleRef": "Art. I pct. 2 și art. II",
-        "proposalContent": "Articolul I punctul 2 și articolul II se elimină.",
-        "argumentation": "Se păstrează ajutorul pentru creșterea natalității și plafonul general de deductibilitate de 5%. Eliminarea regimului de 7% înlătură certificarea insuficient definită, costurile administrative și incertitudinea privind cumularea plafoanelor, fără a împiedica sprijinul voluntar al angajatorilor.",
-        "otherComments": "Se solicită și corelarea definiției ajutorului cu art. 76 și 142, inclusiv pentru administratorii/directorii fără contract de muncă. Mesajul cetățeanului este o propunere; un deputat o poate prelua ca amendament. Termenul din fișă, 05.03.2026, este depășit; se verifică posibilitatea procedurală a preluării."
-      }
+        "articleRef": "Art. I pct. 2, lit. b¹), partea introductivă",
+        "proposalContent": "b¹) Prin excepție de la lit. b), pentru angajatorii favorabili mediului familial certificați, cheltuielile sociale prevăzute la lit. b) sunt deductibile în limita unui plafon total de 7% din cheltuielile cu salariile personalului, potrivit Codului muncii. Plafoanele de 5% și 7% nu se cumulează. Se aplică următoarele condiții:",
+        "argumentation": "Textul exprimă fără echivoc majorarea plafonului de la 5% la 7%, potrivit scopului declarat al inițiatorilor. Înlătură interpretările privind cumularea limitelor sau deducerea repetată a aceleiași cheltuieli și permite contribuabililor să estimeze corect tratamentul fiscal.",
+        "otherComments": "Se păstrează pct. 1-3 ale lit. b¹). Separat, art. II trebuie să trimită la art. I pct. 2. Criteriile esențiale, durata și efectele retragerii certificării trebuie stabilite prin lege, iar instrucțiunile și regulile pentru certificarea în cursul anului trebuie corelate cu aplicarea facilității."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T06:49:28.676Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:26:38.390Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

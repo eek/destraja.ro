@@ -1,117 +1,175 @@
 {
   "billId": "Pl-x 162/2026",
   "slug": "plx-162-2026",
-  "updatedAt": "2026-10-28T21:08:56.327Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T15:26:12.312Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 2165,
+    "ordinanceChars": 0,
+    "memoChars": 4468,
+    "memoSupplied": 4468,
+    "marker": "SF-869D3CF2"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-162-2026.json",
+    "form": "initiator",
+    "textHash": "869d3cf24ad9c7c8",
+    "fetchedAt": "2026-11-19T10:37:31.198Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1179,
+    "truncated": false,
+    "included": true,
+    "key": "9203d96156e7f7bb"
+  },
   "consensus": {
     "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Analize gratuite de vitamina D și B12 pentru bolnavii grav și cronic",
-    "summaryTlDr": "Măsură utilă pentru bolnavii de cancer avansat, scleroză multiplă, lupus sau miastenie, fără taxe, sancțiuni sau capcane pentru cetățeni. Problemele sunt de redactare: cercul beneficiarilor e nedefinit, „fără plafon” nu atinge plafonul real al laboratoarelor și lipsește sursa de finanțare.",
-    "initiatorClaim": "Expunerea de motive spune că pacienții cu boli grave, cronice și invalidante plătesc integral analizele de vitamina D și B12 (circa 150 de lei doar vitamina D) și le amână din lipsă de bani, ceea ce strică ajustarea tratamentului. Propunerea vrea ca ele să fie decontate integral, ori de câte ori medicul le recomandă.",
-    "realityCheck": "Legea adaugă un singur articol (230¹) în Legea nr. 95/2006, care obligă sistemul de asigurări să deconteze integral cele două analize, fără coplată și fără limită de număr. Cercul beneficiarilor rămâne însă deschis: lista e doar exemplificativă, iar formula „grave, cronice sau invalidante” poate cuprinde, la limită, orice boală cronică. Efectul practic depinde de normele CNAS și de valoarea de contract a laboratoarelor, pe care legea nu le atinge, iar costul pentru FNUASS nu este estimat.",
+    "plainTitle": "Analize gratuite de vitamina D și B12 pentru bolnavii cronici grav",
+    "summaryTlDr": "Este o măsură socială benignă și utilă pentru pacienții vulnerabili, fără capcane pentru cetățeni sau firme. Problemele sunt de redactare și de finanțare: lista bolilor e deschisă, lipsește sursa de bani, iar termenele și autoritățile de aplicare sunt nerealiste.",
+    "initiatorClaim": "Inițiatoarea vrea ca pacienții cu boli grave, cronice sau invalidante (cancer avansat, scleroză multiplă, lupus, miastenie etc.) să nu mai plătească din buzunar dozarea vitaminei D (circa 150 lei) și a vitaminei B12. Motivul invocat este că aceste analize sunt esențiale pentru ajustarea tratamentului.",
+    "realityCheck": "Proiectul introduce art. 230^1 în Legea 95/2006. Acesta dă asiguraților cu afecțiuni grave dreptul la decontarea integrală a celor două dozări, fără coplată, plafon sau limită anuală, la recomandarea medicului de familie sau a specialistului. Lista bolilor este doar exemplificativă („fără a se limita la”, lit. e), așa că încadrarea rămâne la aprecierea medicului și a casei de asigurări, cu risc de aplicare neunitară. Formula „fără plafon” intră în tensiune cu mecanismul actual de finanțare a serviciilor paraclinice pe bugete limitate. Proiectul nu are fișă financiară și nu indică o sursă de finanțare.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Toți cetățenii",
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 1 – art. 230¹ alin. (1) și (3)",
-      "proposalContent": "Alin. (1): „afecțiuni grave, cronice și invalidante”; lit. e) devine: „alte afecțiuni stabilite prin normele de aplicare a contractului-cadru, la propunerea comisiilor de specialitate ale Ministerului Sănătății”. Alin. (3): „Guvernul, la propunerea MS și CNAS, modifică pachetele de servicii și contractul-cadru în 30 de zile de la publicarea legii.”",
-      "argumentation": "Cu „sau”, orice boală cronică ar putea intra, iar „impact major” de la lit. e) nu are criteriu, deci casele de asigurări vor decide diferit (art. 1 alin. (5) Constituție). Pachetele de servicii și contractul-cadru se aprobă prin hotărâre a Guvernului, nu de MS și CNAS, iar termenul actual curge după intrarea în vigoare, deci dreptul ar exista fără norme.",
-      "otherComments": "Cereți fișa financiară și punctul de vedere al Guvernului, cu numărul estimat de beneficiari și costul anual pentru FNUASS (art. 138 alin. (5) Constituție). Precizați în alin. (2) că analizele se decontează în afara valorii de contract a laboratorului, altfel „fără plafon” rămâne declarativ. Corectați numerotarea în Art. I și Art. II."
+      "articleRef": "Art. I pct. 1 – art. 230^1 alin. (1) și (3)",
+      "proposalContent": "Alin. (3): «Guvernul, la propunerea MS și CNAS, modifică pachetul de servicii de bază și contractul-cadru în 60 de zile de la intrarea în vigoare. Afecțiunile de la alin. (1) lit. e) se stabilesc prin normele de aplicare, cu avizul comisiilor de specialitate ale MS.»",
+      "argumentation": "Pachetul de bază și contractul-cadru se aprobă prin HG, nu de MS/CNAS singure, iar 30 de zile coincide cu intrarea în vigoare, deci termenul e nerealist. Lista deschisă de la lit. e) nu spune cine încadrează pacientul. O listă stabilită de comisiile de specialitate asigură previzibilitatea (art. 1 alin. 5 Constituție) și aplicarea unitară.",
+      "otherComments": "Solicitați fișa financiară (art. 15 L. 500/2002, art. 15 L. 69/2010) și indicarea sursei de finanțare (art. 138 alin. 5 Constituție). Verificați dacă dozările sunt deja în pachetul paraclinic. Corectați numerotarea: Art. 2 devine Art. II."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 40789,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 56689,
+      "sourceEndMarker": "SF-869D3CF2",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Analize gratuite și fără plafon pentru Vitamina D și B12 la pacienții cu boli grave sau cronice",
-      "verdictShort": "O inițiativă socială benefică pentru pacienții oncologici și cu boli autoimune sau neurologice, dar redactată cu lacune tehnice care pot bloca decontarea reală în laboratoare dacă nu este clarificat mecanismul financiar CNAS.",
-      "initiatorClaim": "Inițiatoarea urmărește decontarea integrală, fără coplată și fără limită de plafon, a analizelor de sânge pentru Vitamina D (25-OH) și Vitamina B12 la pacienții cu afecțiuni grave, cronice sau invalidante, la recomandarea medicului de familie sau specialist.",
-      "realityCheck": "Intenția este pozitivă, însă legea introduce două analize punctuale direct în Legea nr. 95/2006 (deși lista investigațiilor se reglementează prin Contractul-cadru aprobat prin HG). Mai mult, sintagma „fără plafon” nu obligă explicit Casele de Asigurări să suplimenteze contractele laboratoarelor peste plafonul financiar lunar, riscând ca pacienții să găsească tot uși închise.",
+      "plainTitle": "Analize gratuite de vitamina D și B12 pentru pacienții cu boli grave și cronice",
+      "verdictShort": "Inițiativă socială benefică, fără capcane ascunse, care elimină un cost real pentru pacienții vulnerabili. Totuși, redactarea imprecisă și lipsa sursei de finanțare riscă fie s-o blocheze la CCR, fie s-o lase greu de aplicat în laboratoare.",
+      "initiatorClaim": "Inițiatoarea susține că lipsa decontării analizelor de 25-OH vitamina D și vitamina B12 creează o barieră financiară severă pentru bolnavii cu neoplazii, boli autoimune sau neurologice grave, afectând ajustarea tratamentelor.",
+      "realityCheck": "Proiectul introduce art. 230^1 în Legea 95/2006 și acordă asiguraților cu afecțiuni grave, cronice sau invalidante decontarea integrală a celor două analize, la recomandarea medicului de familie sau specialist, fără coplată și fără plafon. În practică însă, lista bolilor este lăsată deschisă, lipsește mecanismul financiar prin care laboratoarele să deconteze peste plafonul lunar al CAS, iar obligația modificării contractului-cadru este atribuită greșit Ministerului Sănătății și CNAS în locul Guvernului.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 230¹ alin. (1) și (2) garantează gratuitatea și eliminarea coplății sau a plafoanelor pentru determinarea serică a 25-OH Vitamina D și Vitamina B12 la pacienții cu neoplazii avansate, scleroză multiplă, lupus, miastenia gravis și alte afecțiuni grave.",
-        "Art. 230¹ alin. (1) lit. e) folosește o formulare deschisă și vagă („alte boli autoimmune ori afecțiuni neurologice sau sistemice cu impact major asupra capacității funcționale”), fără trimitere la o listă de coduri CIM-10, ceea ce expune medicii prescriptori la imputări în urma controalelor CNAS.",
-        "Proiectul nu este însoțit de o fișă financiară și de calcule de impact asupra bugetului FNUASS, deși impune decontări „fără plafon și fără limitare numerică anuală” în termen de 60 de zile de la publicare."
+        "Art. 230^1 alin. (1) folosește o enumerare deschisă („inclusiv, dar fără a se limita la... alte boli autoimmune ori afecțiuni neurologice sau sistemice cu impact major”) fără a delega stabilirea unei liste de coduri de diagnostic, ceea ce va crea incertitudine la prescriere și la controalele CNAS.",
+        "Art. 230^1 alin. (2) promite analize „fără plafon și fără limitare numerică anuală”, dar nu instituie un mecanism de decontare peste valoarea de contract a laboratoarelor (similar regimului Monitor), riscând ca accesul să rămână blocat în practică de epuizarea fondurilor lunare.",
+        "Art. 230^1 alin. (3) obligă Ministerul Sănătății și CNAS să modifice pachetul de bază și contractul-cadru în 30 de zile, deși potrivit art. 229 alin. (4) din Legea 95/2006 acestea se aprobă prin Hotărâre de Guvern, nu prin ordin ministerial.",
+        "Limitarea de la art. 230^1 alin. (1) lit. a) la „neoplazii în stadii avansate” poate exclude nejustificat pacienții oncologici în stadii incipiente aflați sub terapii active, creând diferențe de tratament discutabile clinic."
       ],
-      "blindSpotsCaught": "În sistemul CNAS, laboratoarele funcționează pe baza unei valori lunare de contract (plafon financiar). Dacă legea spune că pacientul beneficiază de analize „fără plafon”, dar nu instituie mecanismul de decontare la nivelul realizat prin acte adiționale (cum există la monitorizarea oncologică tip AP-PC), laboratoarele private vor refuza recoltarea după epuizarea fondurilor lunare curente. De asemenea, proiectul conține erori de tehnică legislativă: numerotarea combină cifre romane („Art. I”) cu cifre arabe („Art. 2”), iar textul conține englezismul „autoimmune”.",
-      "constitutionalityNote": "Proiectul ridică vulnerabilități față de art. 138 alin. (5) din Constituție (aprobarea cheltuielilor bugetare fără stabilirea sursei de finanțare și fără fișa financiară prevăzută de Legea nr. 500/2002) și față de art. 1 alin. (5) privind calitatea și previzibilitatea legii, întrucât sfera pacienților eligibili este definită imprecis prin expresia „inclusiv, dar fără a se limita la”.",
-      "euLawNote": "Măsura nu contravine dreptului Uniunii Europene. Organizarea sistemelor de securitate socială și stabilirea pachetului de servicii medicale decontate țin de competența exclusivă a statelor membre (art. 168 alin. (7) TFUE), fără a ridica probleme pe Directiva (UE) 2018/958 sau Directiva TRIS (UE) 2015/1535.",
+      "blindSpotsCaught": "Proiectul conține o eroare procedurală în formula de adoptare, indicând art. 76 alin. (1) din Constituție (lege organică), deși materia pachetului de servicii medicale din Legea 95/2006 ține de legea ordinară (art. 76 alin. 2). În plus, există scăpări de tehnică legislativă: titlul anunță „modificarea și completarea” deși se face doar completare, articolele sunt numerotate inconsecvent (Art. I și Art. 2), iar termenul medical apare scris greșit ca „autoimmune”.",
+      "constitutionalityNote": "Măsura susține dreptul la ocrotirea sănătății (art. 34), dar prezintă un risc ridicat de neconstituționalitate pe art. 138 alin. (5) din Constituție: generează cheltuieli suplimentare nelimitate din FNUASS fără indicarea sursei de finanțare și fără fișa financiară a Guvernului. De asemenea, formula vagă a bolilor eligibile și atribuirea modificării contractului-cadru către MS/CNAS în locul Guvernului afectează calitatea și previzibilitatea legii (art. 1 alin. 5).",
+      "euLawNote": "Proiectul nu ridică probleme de drept al Uniunii Europene: organizarea și finanțarea pachetelor de servicii medicale intră în competența națională conform art. 168 alin. (7) TFUE. Nu intră sub incidența Directivei (UE) 2018/958 (profesii reglementate), nici a Directivei (UE) 2015/1535 (TRIS) și nu distorsionează concurența între laboratoarele aflate în contract cu CNAS.",
       "senatForm": {
-        "articleRef": "Art. I pct. 1 (Art. 230¹ alin. (1) și (2))",
-        "proposalContent": "La alin. (1) lit. e), sintagma „alte boli autoimmune…” se înlocuiește cu „alte afecțiuni cronice stabilite prin normele Contractului-cadru”. La alin. (2), se adaugă teza: „Decontarea către furnizorii paraclinici se realizează la nivelul realizat, prin acte adiționale peste valoarea de contract, din bugetul FNUASS.”",
-        "argumentation": "Fără o listă exactă de coduri de boală în normele CNAS, sintagma „impact major asupra capacității funcționale” va genera imputări la controalele CAS. De asemenea, mențiunea „fără plafon” rămâne inaplicabilă practic dacă laboratoarelor nu li se decontează aceste analize peste plafonul lunar de contract prin acte adiționale.",
-        "otherComments": "Pentru respectarea Legii nr. 24/2000 privind tehnica legislativă, „Art. 2” trebuie renumerotat ca „Art. II”, iar eroarea de redactare „autoimmune” de la art. 230¹ alin. (1) lit. e) trebuie corectată în „autoimune”. De asemenea, este necesară solicitarea fișei financiare conform art. 138 alin. (5) din Constituție."
-      }
+        "articleRef": "Art. I pct. 1 (Art. 230^1 alin. 3)",
+        "proposalContent": "La propunerea Ministerului Sănătății și CNAS, Guvernul modifică pachetul de bază și contractul-cadru în 60 de zile, stabilind lista codurilor de boală eligibile și mecanismul de decontare a analizelor peste valoarea de contract a laboratoarelor, din fonduri dedicate în FNUASS.",
+        "argumentation": "Contractul-cadru se aprobă prin HG (art. 229 alin. 4), nu direct de MS/CNAS. Lista deschisă de la alin. (1) și lipsa regulilor de decontare peste plafonul laboratoarelor pot bloca accesul real al pacienților și genera litigii la controlul CNAS. Clarificarea asigură previzibilitatea legii (art. 1 alin. 5 Constituție).",
+        "otherComments": "Solicitați Guvernului fișa financiară (art. 138 alin. 5 Constituție) și corectați: formula de adoptare la art. 76 alin. (2) (lege ordinară), numerotarea Art. II (nu Art. 2), termenul «autoimune» (nu «autoimmune») și titlul (doar completare). Evaluați includerea tuturor stadiilor neoplaziilor aflate sub tratament."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 173606,
+      "durationMs": 40450,
+      "sourceEndMarker": "SF-869D3CF2",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Analize gratuite de vitamina D și B12 pentru bolnavii grav și cronic",
-      "verdictShort": "Măsură utilă pentru bolnavii de cancer avansat, scleroză multiplă, lupus sau miastenie, fără taxe, sancțiuni sau capcane pentru cetățeni. Problemele sunt de redactare: cercul beneficiarilor e nedefinit, „fără plafon” nu atinge plafonul real al laboratoarelor și lipsește sursa de finanțare.",
-      "initiatorClaim": "Expunerea de motive spune că pacienții cu boli grave, cronice și invalidante plătesc integral analizele de vitamina D și B12 (circa 150 de lei doar vitamina D) și le amână din lipsă de bani, ceea ce strică ajustarea tratamentului. Propunerea vrea ca ele să fie decontate integral, ori de câte ori medicul le recomandă.",
-      "realityCheck": "Legea adaugă un singur articol (230¹) în Legea nr. 95/2006, care obligă sistemul de asigurări să deconteze integral cele două analize, fără coplată și fără limită de număr. Cercul beneficiarilor rămâne însă deschis: lista e doar exemplificativă, iar formula „grave, cronice sau invalidante” poate cuprinde, la limită, orice boală cronică. Efectul practic depinde de normele CNAS și de valoarea de contract a laboratoarelor, pe care legea nu le atinge, iar costul pentru FNUASS nu este estimat.",
+      "plainTitle": "Analize gratuite de vitamina D și B12 pentru bolnavii cronici grav",
+      "verdictShort": "Este o măsură socială benignă și utilă pentru pacienții vulnerabili, fără capcane pentru cetățeni sau firme. Problemele sunt de redactare și de finanțare: lista bolilor e deschisă, lipsește sursa de bani, iar termenele și autoritățile de aplicare sunt nerealiste.",
+      "initiatorClaim": "Inițiatoarea vrea ca pacienții cu boli grave, cronice sau invalidante (cancer avansat, scleroză multiplă, lupus, miastenie etc.) să nu mai plătească din buzunar dozarea vitaminei D (circa 150 lei) și a vitaminei B12. Motivul invocat este că aceste analize sunt esențiale pentru ajustarea tratamentului.",
+      "realityCheck": "Proiectul introduce art. 230^1 în Legea 95/2006. Acesta dă asiguraților cu afecțiuni grave dreptul la decontarea integrală a celor două dozări, fără coplată, plafon sau limită anuală, la recomandarea medicului de familie sau a specialistului. Lista bolilor este doar exemplificativă („fără a se limita la”, lit. e), așa că încadrarea rămâne la aprecierea medicului și a casei de asigurări, cu risc de aplicare neunitară. Formula „fără plafon” intră în tensiune cu mecanismul actual de finanțare a serviciilor paraclinice pe bugete limitate. Proiectul nu are fișă financiară și nu indică o sursă de finanțare.",
       "affectedGroups": [
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. 230¹ alin. (1): formula „grave, cronice sau invalidante” (cu „sau”, nu cu „și”, cum scrie fișa Camerei), lista deschisă „fără a se limita la” și criteriul vag de la lit. e) („impact major asupra capacității funcționale”) lasă neclar cine are dreptul. Fiecare casă de asigurări poate interpreta altfel.",
-        "Art. 230¹ alin. (2): „fără plafon” îl privește pe pacient, dar laboratoarele lucrează cu o valoare de contract cu casa, împărțită pe luni. Dacă analizele nu sunt decontate în afara acestei valori, pacientul poate fi trimis tot „luna viitoare” sau la plată.",
-        "Art. 230¹ alin. (3): pachetele de servicii și contractul-cadru se aprobă prin hotărâre a Guvernului, deci MS și CNAS nu le pot modifica singure. În plus, termenul de 30 de zile curge după intrarea în vigoare, așa că dreptul există legal înainte de normele care îl pun în practică.",
-        "Nu există fișă financiară, estimare a numărului de beneficiari sau sursă de finanțare (art. 138 alin. (5) din Constituție, art. 15 din Legea nr. 500/2002, art. 15 din Legea nr. 69/2010), deși formula „fără limitare numerică anuală” lasă costul pentru FNUASS deschis.",
-        "Tehnică legislativă: titlul și Art. I spun „se modifică și se completează”, dar textul doar completează, iar articolele sunt numerotate Art. I și Art. 2. Înscrierea unor analize anume direct în lege rigidizează un conținut care se stabilește de regulă prin pachetul de servicii și se adaptează după ghiduri."
+        "Art. 230^1 alin. (1): enumerarea bolilor este deschisă („inclusiv, dar fără a se limita la”), iar lit. e) („alte boli autoimune ori afecțiuni neurologice sau sistemice cu impact major asupra capacității funcționale”) nu are criterii obiective. Nu se precizează cine stabilește încadrarea.",
+        "Art. 230^1 alin. (2): investigațiile se acordă „fără coplată, fără plafon și fără limitare numerică anuală”, cu singura limită a justificării clinice „potrivit ghidurilor și protocoalelor”. Impactul bugetar asupra FNUASS nu este estimat, iar plafonul, specific contractării laboratoarelor cu casele, este înlăturat expres pentru aceste analize.",
+        "Art. 230^1 alin. (3): obligația este pusă în sarcina MS și CNAS. În practică, pachetul de servicii de bază și contractul-cadru se aprobă prin hotărâre de Guvern, după negocieri cu organizațiile profesionale. Termenul de 30 de zile se suprapune cu termenul de intrare în vigoare (Art. 2), deci dreptul ar exista pe hârtie înainte de a fi operațional.",
+        "Expunerea de motive afirmă că pacienții suportă „integral” costul acestor analize. Afirmația trebuie verificată față de pachetul paraclinic actual din normele contractului-cadru, unde anumite dozări pot fi deja decontate în condiții restrictive. Dacă sunt, proiectul extinde un drept existent, nu creează unul nou.",
+        "Tehnică legislativă: articolele sunt numerotate inconsecvent („Art. I”, apoi „Art. 2” în loc de „Art. II”). Proiectul nu are nicio prevedere tranzitorie privind contractele cu laboratoarele aflate în derulare."
       ],
-      "blindSpotsCaught": "Fișa Camerei descrie beneficiarii ca pacienți cu afecțiuni „grave, cronice și invalidante”, dar textul votat spune „grave, cronice sau invalidante”. O singură conjuncție lărgește cercul de la un grup restrâns de bolnavi grav la, teoretic, orice bolnav cronic. Apoi, „fără plafon” nu atinge mecanismul care limitează azi accesul real, adică valoarea de contract a laboratorului cu casa de asigurări. Dacă legea nu spune că aceste analize se decontează în afara ei, pacientul poate auzi tot „s-au terminat fondurile pe luna asta”.",
-      "constitutionalityNote": "Scopul se sprijină pe art. 34 (dreptul la ocrotirea sănătății) și art. 50 (protecția persoanelor cu handicap). Riscul principal ține de art. 138 alin. (5): legea creează o cheltuială nouă și nelimitată din FNUASS fără să indice sursa de finanțare, iar CCR a sancționat în mod repetat legi adoptate astfel. Dosarul ar trebui să conțină și punctul de vedere al Guvernului (art. 111 alin. (1)). Lista deschisă de la alin. (1) lit. e) ridică o problemă de previzibilitate (art. 1 alin. (5)), dar se poate corecta prin trimitere la norme. Art. 23 alin. (12) nu e relevant, pentru că legea nu prevede sancțiuni.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează accesul la o profesie sau exercitarea ei. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reguli tehnice privind produse sau servicii ale societății informaționale. Organizarea și finanțarea serviciilor de sănătate sunt competență națională (art. 168 alin. (7) TFUE). Singurul efect european este că, odată intrate în pachetul de bază, analizele pot fi rambursate și când sunt făcute în alt stat membru, până la nivelul tarifului românesc (Directiva 2011/24/UE). Concurența nu e afectată, pentru că orice laborator aflat în contract cu casa le poate efectua.",
+      "blindSpotsCaught": "Proiectul poartă titlul „modificarea și completarea”, dar doar completează legea. Obligația impusă MS și CNAS nu ține cont de faptul că pachetul de bază și contractul-cadru sunt acte ale Guvernului. Lipsa limitei numerice mută controlul costului exclusiv pe „justificarea clinică”, care este greu de verificat la decontare. Asta poate duce fie la refuzuri arbitrare ale caselor, fie la depășiri ale bugetelor paraclinice. Laboratoarele necontractate cu CNAS rămân în afara beneficiului, ca în sistemul actual.",
+      "constitutionalityNote": "Măsura concretizează dreptul la ocrotirea sănătății (art. 34) și protecția persoanelor cu handicap (art. 50), deci scopul este legitim. Riscurile țin de art. 1 alin. (5) (previzibilitate), din cauza listei deschise de afecțiuni. Mai importante sunt art. 138 alin. (5) și art. 111 alin. (1): o cheltuială nouă din FNUASS fără sursă de finanțare și fără fișă financiară (art. 15 din Legea 500/2002, art. 15 din Legea 69/2010) poate fi declarată neconstituțională, conform jurisprudenței constante a CCR. Este necesară solicitarea informării Guvernului.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă, pentru că proiectul nu reglementează accesul la o profesie sau exercitarea ei. Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu sunt vizate servicii ale societății informaționale sau reglementări tehnice. Organizarea și finanțarea serviciilor de sănătate țin de competența statelor membre (art. 168 alin. 7 TFUE). Nu se ridică probleme de ajutor de stat sau de piață unică, accesul laboratoarelor la contractarea cu CNAS rămânând nediscriminatoriu.",
       "senatForm": {
-        "articleRef": "Art. I pct. 1 – art. 230¹ alin. (1) și (3)",
-        "proposalContent": "Alin. (1): „afecțiuni grave, cronice și invalidante”; lit. e) devine: „alte afecțiuni stabilite prin normele de aplicare a contractului-cadru, la propunerea comisiilor de specialitate ale Ministerului Sănătății”. Alin. (3): „Guvernul, la propunerea MS și CNAS, modifică pachetele de servicii și contractul-cadru în 30 de zile de la publicarea legii.”",
-        "argumentation": "Cu „sau”, orice boală cronică ar putea intra, iar „impact major” de la lit. e) nu are criteriu, deci casele de asigurări vor decide diferit (art. 1 alin. (5) Constituție). Pachetele de servicii și contractul-cadru se aprobă prin hotărâre a Guvernului, nu de MS și CNAS, iar termenul actual curge după intrarea în vigoare, deci dreptul ar exista fără norme.",
-        "otherComments": "Cereți fișa financiară și punctul de vedere al Guvernului, cu numărul estimat de beneficiari și costul anual pentru FNUASS (art. 138 alin. (5) Constituție). Precizați în alin. (2) că analizele se decontează în afara valorii de contract a laboratorului, altfel „fără plafon” rămâne declarativ. Corectați numerotarea în Art. I și Art. II."
-      }
+        "articleRef": "Art. I pct. 1 – art. 230^1 alin. (1) și (3)",
+        "proposalContent": "Alin. (3): «Guvernul, la propunerea MS și CNAS, modifică pachetul de servicii de bază și contractul-cadru în 60 de zile de la intrarea în vigoare. Afecțiunile de la alin. (1) lit. e) se stabilesc prin normele de aplicare, cu avizul comisiilor de specialitate ale MS.»",
+        "argumentation": "Pachetul de bază și contractul-cadru se aprobă prin HG, nu de MS/CNAS singure, iar 30 de zile coincide cu intrarea în vigoare, deci termenul e nerealist. Lista deschisă de la lit. e) nu spune cine încadrează pacientul. O listă stabilită de comisiile de specialitate asigură previzibilitatea (art. 1 alin. 5 Constituție) și aplicarea unitară.",
+        "otherComments": "Solicitați fișa financiară (art. 15 L. 500/2002, art. 15 L. 69/2010) și indicarea sursei de finanțare (art. 138 alin. 5 Constituție). Verificați dacă dozările sunt deja în pachetul paraclinic. Corectați numerotarea: Art. 2 devine Art. II."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 121493,
+      "durationMs": 79214,
+      "sourceEndMarker": "SF-869D3CF2",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Analize gratuite pentru vitaminele D și B12 la bolnavii cronici",
-      "verdictShort": "Proiectul poate reduce cheltuielile pacienților vulnerabili și nu introduce taxe, sancțiuni sau monopoluri. Riscul principal este aplicarea neuniformă a unui drept pentru care finanțarea și procedura de decontare nu sunt suficient clarificate.",
-      "initiatorClaim": "Inițiatoarea urmărește eliminarea barierelor financiare pentru analizele necesare diagnosticării și monitorizării bolilor severe. Expunerea de motive susține că aceste investigații sunt indispensabile și că pacienții le suportă integral costurile.",
-      "realityCheck": "Art. 230¹ propus acordă asiguraților eligibili decontarea integrală a celor două determinări, la recomandarea medicului, fără plafon și fără limită numerică anuală, dar condiționat de justificarea clinică și de ghidurile aplicabile. Formularea «grave, cronice sau invalidante» este alternativă și poate acoperi mai mulți pacienți decât sugerează prezentarea inițiativei; persoanele neasigurate nu dobândesc acest drept prin proiect. Textul nu stabilește suficient mecanismul de plată peste bugetele contractate și nici nu garantează disponibilitatea imediată a analizelor.",
+      "plainTitle": "Analize gratuite pentru vitaminele D și B12 la pacienții cu boli cronice sau grave",
+      "verdictShort": "Proiectul extinde util accesul la investigații medicale, fără să introducă taxe, sancțiuni sau monopoluri. Principalele vulnerabilități sunt finanțarea insuficient explicitată și sincronizarea defectuoasă a aplicării.",
+      "initiatorClaim": "Inițiatoarea urmărește eliminarea costurilor analizelor de vitamina D și B12 pentru pacienții vulnerabili, astfel încât monitorizarea și ajustarea tratamentului să depindă de necesitatea medicală, nu de veniturile familiei.",
+      "realityCheck": "Proiectul introduce un drept legal expres pentru asigurați, condiționat de recomandarea medicală și justificarea clinică; formularea «grave, cronice sau invalidante» permite includerea unei boli cronice chiar dacă nu este gravă sau invalidantă. Gratuitatea nu înseamnă testare nelimitată la simpla cerere, deoarece rămân aplicabile ghidurile și protocoalele medicale. Afirmația expunerii de motive că pacienții suportă actualmente integral aceste analize nu este demonstrată de absența art. 230¹: eventualele decontări existente prin reglementări secundare nu au putut fi verificate independent.",
       "affectedGroups": [
         "Sănătate & Educație",
-        "IMM & Antreprenori"
+        "IMM & Antreprenori",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 230¹ alin. (1): enumerarea bolilor este exemplificativă, nu limitativă. Lipsesc criterii explicite pentru «afecțiuni grave» și «impact major asupra capacității funcționale», ceea ce poate produce interpretări diferite între medici și casele de asigurări.",
-        "Art. 230¹ alin. (2): repetarea analizelor rămâne condiționată medical; proiectul nu autorizează testarea nelimitată la simpla cerere a pacientului. Nu precizează însă cum se procedează când ghidurile lipsesc sau nu reglementează frecvența investigației.",
-        "Afirmația că pacienții plătesc întotdeauna integral ambele analize este prea generală: determinarea vitaminei B12 poate fi deja decontată prin CAS, cu trimitere și în limita fondurilor disponibile. Pentru aceasta, noutatea urmărită este în special eliminarea plafonării pentru beneficiarii proiectului. [Informațiile furnizorului](https://www.reginamaria.ro/utile/dictionar-de-analize/vitamina-b12-cobalamina).",
-        "Art. 230¹ alin. (2): eliminarea plafonului poate crește cheltuielile FNUASS, dar documentele furnizate nu cuantifică beneficiarii, frecvența analizelor sau costul total. Nu sunt introduse taxe ori obligații declarative noi pentru cetățeni și IMM-uri; laboratoarele și cabinetele vor necesita adaptarea procedurilor de recomandare și decontare.",
-        "Art. 230¹ alin. (3), coroborat cu art. 2: legea intră în vigoare după 30 de zile de la publicare, iar actualizarea actelor de aplicare poate interveni încă 30 de zile mai târziu. Rezultă un posibil interval în care dreptul există, dar procedurile necesare exercitării sale nu sunt adaptate.",
-        "Stadiul verificat este mai precis decât simplul «raport»: Senatul a respins inițiativa la 04.03.2026, iar Camera Deputaților a primit raportul de respingere al comisiei de sănătate la 15.04.2026; fișa indică așteptarea înscrierii pe ordinea de zi. Aceste etape nu echivalează cu respingerea definitivă de către Camera decizională. [Fișa Camerei Deputaților](https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?idp=22835)."
+        "Art. I pct. 1 introduce art. 230¹, absent din cadrul actual furnizat. Noutatea este garanția legală expresă a decontării integrale pentru categoria definită, nu dovada că analizele nu sunt decontate astăzi în nicio situație.",
+        "Art. 230¹ alin. (1) folosește o enumerare deschisă și condiții alternative: «grave, cronice sau invalidante». Beneficiarii pot fi considerabil mai numeroși decât sugerează exemplele de boli severe; termeni precum «grave» și «impact major» necesită criterii medicale previzibile.",
+        "Art. 230¹ alin. (2) exclude coplata, plafonul și limita numerică anuală, dar păstrează justificarea clinică și recomandarea medicului de familie sau specialist. Nu creează un drept la analize repetate arbitrar și nici o procedură expresă de rambursare a analizelor plătite direct de pacient.",
+        "Art. 230¹ alin. (2) nu precizează dacă «fără plafon» înlătură explicit și valoarea lunară contractată de laborator. Clarificarea decontării peste valoarea de contract este necesară pentru ca gratuitatea să producă acces efectiv.",
+        "Art. 230¹ alin. (3), coroborat cu art. 2, permite adoptarea măsurilor de aplicare până la aproximativ 60 de zile de la publicare, deși dreptul intră în vigoare după 30 de zile. În plus, modificarea contractului-cadru trebuie corelată cu competența Guvernului de a-l aproba.",
+        "Proiectul nu cuantifică beneficiarii, frecvența analizelor sau cheltuiala suplimentară. Reduce costurile directe ale pacienților, dar crește necesarul de finanțare și poate necesita adaptarea contractării și raportării pentru laboratoare; nu introduce taxe sau obligații birocratice generale pentru IMM-uri."
       ],
-      "blindSpotsCaught": "Alin. (3) atribuie MS și CNAS modificarea pachetului și contractului-cadru, deși aprobarea acestora se realizează prin hotărâre a Guvernului. În plus, termenul raportat la intrarea în vigoare a «prezentei legi» este introdus în Legea nr. 95/2006, unde referința devine improprie: obligația tranzitorie trebuie plasată separat în legea de completare. Consiliul Legislativ semnalează aceste probleme. [Avizul oficial](https://www.senat.ro/Legis/PDF/2026/26L031LG.pdf?nocache=true).",
-      "constitutionalityNote": "Scopul este compatibil cu protecția sănătății, potrivit art. 34. Art. 1 alin. (5) impune clarificarea eligibilității, competențelor și mecanismului de aplicare; art. 16 cere criterii obiective pentru diferențierea beneficiarilor. Art. 23 alin. (12), referitor la legalitatea pedepsei, nu este incident: proiectul nu instituie pedepse. Pentru cheltuiala suplimentară sunt relevante art. 111 alin. (1) și art. 138 alin. (5): trebuie verificată solicitarea informării Guvernului și fundamentarea sursei de finanțare; nu se poate deduce automat neconstituționalitatea numai din lipsa unei sume în articol. [Constituția](https://legislatie.just.ro/Public/DetaliiDocument/1413). Formula finală care invocă art. 76 alin. (1) trebuie corelată cu încadrarea proiectului ca lege ordinară, pentru care este relevant alin. (2). [Avizul Consiliului Legislativ](https://www.senat.ro/Legis/PDF/2026/26L031LG.pdf?nocache=true).",
-      "euLawNote": "Textul nu rezervă piața unor laboratoare, nu impune apartenența la o organizație profesională și nu introduce restricții noi de calificare sau acces profesional. Prin urmare, nu identific un motiv pentru declanșarea testului din Directiva (UE) 2018/958, al cărei art. 2 privește restricțiile asupra accesului la profesii reglementate ori exercitării lor. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/ro/ALL/?uri=CELEX%3A32018L0958). Nu sunt reglementate servicii digitale, AI sau specificații tehnice pentru produse, astfel că nu identific o obligație de notificare TRIS pentru textul analizat. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=celex%3A32015L1535). Criteriile ulterioare de contractare trebuie să rămână transparente și nediscriminatorii.",
+      "blindSpotsCaught": "Dispoziția finală creează un posibil interval de 30 de zile în care dreptul este în vigoare, dar actualizarea cadrului de aplicare încă nu este scadentă. Separat, expunerea vorbește frecvent despre boli «grave, cronice și invalidante», însă norma folosește «sau», ceea ce lărgește eligibilitatea. Textul integral furnizat nu conține abrogări, sancțiuni sau derogări suplimentare.",
+      "constitutionalityNote": "Obiectivul este compatibil cu protecția sănătății din art. 34. Art. 1 alin. (5) impune clarificarea eligibilității, a plafonului eliminat și a mecanismului de aplicare; aceste probleme nu justifică singure un verdict de neconstituționalitate. Trebuie verificate fundamentarea cheltuielilor și sursa finanțării potrivit art. 138 alin. (5), precum și respectarea art. 111 alin. (1), în măsura aplicabilității sale bugetare. Lipsa documentelor bugetare din materialul transmis nu dovedește că procedura parlamentară a fost încălcată. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident: proiectul nu instituie pedepse.",
+      "euLawNote": "Proiectul nu introduce condiții de acces la o profesie reglementată sau restricții asupra exercitării acesteia, astfel că nu rezultă declanșarea testului prevăzut de Directiva (UE) 2018/958. Nu reglementează servicii digitale, AI ori cerințe tehnice pentru produse care să indice obligația notificării TRIS potrivit Directivei (UE) 2015/1535. Nu rezervă investigațiile unui furnizor și nu creează un monopol; mecanismul de contractare și plată trebuie aplicat prin criterii transparente și nediscriminatorii furnizorilor eligibili.",
       "senatForm": {
-        "articleRef": "Art. I pct. 1 – art. 230¹ alin. (2)",
-        "proposalContent": "(2) Investigațiile prevăzute la alin. (1) se acordă la furnizori în contract cu casele de asigurări de sănătate, pe baza recomandării motivate clinic a medicului de familie sau specialist, fără costuri pentru asigurat și fără limită numerică anuală. Decontarea se face din FNUASS, la tarifele aprobate, inclusiv peste valoarea lunară contractată, fără dublă finanțare.",
-        "argumentation": "Precizarea finanțatorului și a decontării peste valoarea contractată face efectivă eliminarea plafonului. Tarifele aprobate și justificarea clinică permit controlul cheltuielilor fără limitarea arbitrară a accesului. Amendamentul trebuie însoțit de estimarea impactului și de verificarea sursei de finanțare.",
-        "otherComments": "Destinatar: Comisia pentru sănătate și familie a Camerei Deputaților. Termenul de amendamente, 19.03.2026, a trecut; un deputat poate valorifica propunerea potrivit procedurii aplicabile. Corelați alin. (3) cu aprobarea prin HG și adoptați normele până la intrarea în vigoare; mutați dispoziția tranzitorie într-un articol distinct."
-      }
+        "articleRef": "Art. I pct. 1 – art. 230¹ alin. (3)",
+        "proposalContent": "(3) În 30 de zile de la publicarea legii, Guvernul adaptează pachetul de bază și contractul-cadru, iar Ministerul Sănătății și CNAS, normele de aplicare. Actele se aplică odată cu legea și prevăd criterii clinice unitare și decontarea din FNUASS, în afara valorii de contract a furnizorului, a investigațiilor prevăzute la alin. (1).",
+        "argumentation": "Corelează competențele autorităților și elimină intervalul dintre intrarea în vigoare a dreptului și termenul actualizării cadrului de aplicare. Precizează mecanismul plății fără plafon. Indicarea FNUASS trebuie însoțită de estimarea costurilor și de asigurarea resurselor bugetare necesare.",
+        "otherComments": "Termenul indicat pentru amendamente, 19.03.2026, este depășit. Propunerea cetățenească poate fi transmisă Comisiei pentru sănătate și familie spre eventuala preluare de un deputat; transmiterea nu garantează admisibilitatea procedurală. Analiza privește forma inițiatorului furnizată, nu un eventual raport cu amendamente."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T21:08:56.327Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:26:12.312Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

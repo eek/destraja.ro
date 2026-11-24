@@ -2,38 +2,100 @@
   "billId": "PL-x 156/2026",
   "slug": "plx-156-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T06:33:53.799Z",
+  "updatedAt": "2026-11-24T15:29:37.552Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 2141,
+    "ordinanceChars": 0,
+    "memoChars": 6595,
+    "memoSupplied": 6595,
+    "marker": "SF-AD185B83"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-156-2026.json",
+    "form": "senat",
+    "textHash": "ad185b8331248cd5",
+    "fetchedAt": "2026-11-19T10:37:19.871Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 3344,
+    "truncated": false,
+    "included": true,
+    "key": "194ecbaf18c0031c"
+  },
   "consensus": {
-    "riskScore": 4.7,
+    "riskScore": 4.3,
     "riskLevel": "yellow",
-    "plainTitle": "Penalități zilnice aproape automate pentru cei care refuză să execute o hotărâre judecătorească",
-    "summaryTlDr": "Lege utilă, care întărește executarea hotărârilor pe care doar debitorul le poate îndeplini, de exemplu reintegrarea unui angajat sau eliberarea unui act. Forma Senatului are însă o greșeală de redactare chiar în textul-cheie și un apel acordat numai creditorului, ceea ce poate duce la practică neunitară și la obiecții de neconstituționalitate.",
-    "initiatorClaim": "Inițiatorii spun că instanțele resping prea ușor cererile de penalități și că unele executări durează 5–8 ani fără rezultat. Ei vor penalități greu de refuzat, posibilitatea unei cereri noi și o cale de atac pentru creditorul respins, invocând art. 6 CEDO.",
-    "realityCheck": "Textul transformă penalitatea dintr-o posibilitate („poate”) într-o obligație („este constrâns”). Dublează plaja pentru obligațiile neevaluabile în bani la 200–2.000 lei/zi, față de 100–1.000 lei/zi în prezent, permite o cerere nouă la 3 luni după o respingere definitivă și dă apel numai creditorului respins. Debitorul nu primește expres o cale de atac împotriva încheierii de admitere. Îi rămân apelul la fixarea sumei definitive (alin. 4) și contestația la executare, unde poate cere reducerea sau înlăturarea penalității (alin. 5).",
+    "plainTitle": "Debitorii care nu execută hotărârile judecătorești vor fi obligați mai sigur la penalități zilnice, iar creditorul primește drept de apel",
+    "summaryTlDr": "Este o lege procedurală în mare parte utilă, care întărește executarea hotărârilor rămase neexecutate ani de zile. Are însă două probleme: dă cale de atac doar creditorului, iar textul Senatului conține o greșeală de redactare la alin. (2) („este obliga”).",
+    "initiatorClaim": "Inițiatorii spun că instanțele resping des cererile de penalități, că încheierea nu poate fi atacată și că astfel debitorii rău-platnici pot ignora titluri executorii timp de 5–8 ani. Ei vor să limiteze marja de apreciere a judecătorului, să introducă apelul și să permită o cerere nouă după respingere.",
+    "realityCheck": "Proiectul transformă aplicarea penalităților din facultativă („poate fi constrâns”, „îl poate obliga”) în obligatorie. Dublează plafoanele, de la 100–1.000 lei la 200–2.000 lei pe zi, și cere judecarea de urgență, în camera de consiliu. Creditorului respins îi dă drept de apel și posibilitatea unei cereri noi după 3 luni, dar debitorul obligat la penalități nu primește nicio cale de atac explicită, iar termenul de apel nu este stabilit.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
-      "Proprietari & Imobiliare",
       "IMM & Antreprenori",
+      "Proprietari & Imobiliare",
       "Toți cetățenii"
     ],
     "senatForm": {
       "articleRef": "Art. unic pct. 3 – art. 906 alin. (2) CPC",
-      "proposalContent": "(2) Când obligația nu este evaluabilă în bani, instanța sesizată de creditor obligă pe debitor, prin încheiere executorie, cu citarea părților, să plătească creditorului o penalitate de la 200 lei la 2.000 lei pe zi de întârziere, până la executarea obligației. Încheierea poate fi atacată cu apel de oricare parte, în 10 zile de la comunicare; apelul se judecă de urgență.",
-      "argumentation": "Forma Senatului conține eroarea „este obliga”, care lasă neclar dacă penalitatea e obligatorie. Apelul rezervat doar creditorului rupe egalitatea armelor (art. 16 și art. 21 alin. 3 din Constituție) și expune legea unei decizii de neconstituționalitate. Fără termen special, apelul s-ar declara în 30 de zile (art. 468 CPC), contrar urgenței urmărite de inițiatori.",
-      "otherComments": "Alin. (1¹) ar trebui să precizeze că termenul de 3 luni nu se aplică respingerii pentru motive procedurale (ex. cerere prematură), altfel creditorul ar aștepta inutil. Alin. (3), nemodificat, păstrează „poate aplica” și nu prevede apel pentru obligațiile evaluabile în bani — trebuie corelat cu noul alin. (1)."
+      "proposalContent": "«(2) Când obligația nu este evaluabilă în bani, instanța sesizată de creditor obligă debitorul, prin încheiere executorie dată cu citarea părților, la o penalitate de 200–2.000 lei pe zi de întârziere, până la executarea obligației. Încheierea poate fi atacată cu apel de oricare parte, în 10 zile de la comunicare. Apelul se judecă de urgență, cu citarea părților.»",
+      "argumentation": "Textul Senatului conține eroarea «este obliga» și acordă apel doar creditorului, la respingere. Debitorul obligat la penalități de până la 2.000 lei/zi nu are cale de atac, ceea ce ridică problema egalității de arme (art. 16, 21 Constituție, art. 6 CEDO). Termenul de apel lipsește; 10 zile asigură celeritatea urmărită de inițiatori.",
+      "otherComments": "La alin. (1¹), termenul de 3 luni curge de la rămânerea definitivă a respingerii; cu noul apel, aceasta poate fi data deciziei din apel. Se recomandă precizarea că cererea nouă e admisibilă doar dacă obligația rămâne neexecutată, iar alin. (1) și (2) ar trebui armonizate, ambele reglementând aceeași procedură."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 89178,
-      "riskScore": 5,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 90821,
+      "sourceEndMarker": "SF-AD185B83",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Amenzi zilnice mai mari și drept de apel când datornicul refuză să execute o hotărâre judecătorească",
-      "verdictShort": "Intenția legii este bună — ajută cetățenii care au câștigat definitiv un proces să forțeze datornicul (inclusiv primării sau instituții) să execute obligațiile „de a face”. Totuși, forma adoptată de Senat conține o greșeală gramaticală flagrantă chiar în textul legii („este obliga pe debitor”), încurcă etapele executării silite și oferă drept de apel doar unei singure părți, riscând blocaje de neconstituționalitate.",
-      "initiatorClaim": "Inițiatorii vor să deblocheze executările silite care stagnează cu anii atunci când un debitor refuză să îndeplinească o obligație de a face (de exemplu, emiterea unui act, punerea în posesie, demolarea unei lucrări), iar judecătorul respinge definitiv cererea creditorului de aplicare a penalităților zilnice.",
-      "realityCheck": "Legea dublează penalitățile zilnice (de la 100–1.000 lei la 200–2.000 lei/zi), permite creditorului să reia cererea după 3 luni dacă a fost respinsă și introduce calea apelului. Însă textul votat de Senat elimină formal marja de apreciere a judecătorului prin formulări imperative (inclusiv agramatismul „este obliga pe debitor”), dar reglementează simultan respingerea cererii, califică eronat prima încheiere drept „executorie” și creează un apel asimetric, exclusiv în favoarea creditorului.",
+      "plainTitle": "Penalități duble pentru neexecutarea hotărârilor, cu drept de apel doar pentru creditor",
+      "verdictShort": "Deși urmărește un scop legitim — deblocarea executării hotărârilor judecătorești — forma adoptată de Senat introduce un viciu constituțional major prin acordarea apelului exclusiv creditorului. În plus, dublează penalitățile zilnice fără nicio explicație în expunerea de motive și conține erori grave de redactare și incoerențe procedurale.",
+      "initiatorClaim": "Inițiatorii susțin că vor să elimine blocajele de ani de zile din executarea obligațiilor de a face sau a nu face, limitând refuzul arbitrar al instanțelor de a aplica penalități, oferind o cale de atac contra respingerii și grăbind soluționarea acestor cereri.",
+      "realityCheck": "Față de art. 906 CPC în vigoare, proiectul transformă aplicarea penalităților din facultativă în obligatorie, permite reluarea cererii din 3 în 3 luni după respingere și dublează penalitatea pentru obligațiile neevaluabile în bani de la 100–1.000 lei/zi la 200–2.000 lei/zi. În același timp, acordă drept de apel exclusiv creditorului (lăsând debitorul fără apel când este sancționat cu până la 60.000 lei/lună), califică greșit încheierea drept „executorie” și conține o greșeală gramaticală severă („este obliga pe debitor”) care afectează claritatea normei.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "IMM & Antreprenori",
+        "Proprietari & Imobiliare",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Apel unilateral neconstituțional (art. 906 alin. (2) propus): în prezent încheierea este definitivă pentru ambele părți; proiectul introduce apelul „de creditor în cazul respingerii cererii sale”, dar nu acordă debitorului nicio cale de atac împotriva admiterii, încălcând principiul egalității armelor.",
+        "Dublare nesemnalată a penalităților și eliminarea aprecierii judecătorului (art. 906 alin. (1) și (2)): „poate fi constrâns” devine „este constrâns”, iar pragurile cresc de la 100–1.000 lei/zi la 200–2.000 lei/zi fără nicio mențiune sau justificare în Expunerea de motive; un debitor cu imposibilitate obiectivă de executare poate fi sancționat automat, neputând cere reducerea pe contestație la executare decât după ce execută obligația (art. 906 alin. (5)).",
+        "Incoerențe tehnice și agramatism în forma Senatului (art. 906 alin. (2) și (3)): textul conține formula agramată „instanța sesizată de creditor este obliga pe debitor”, declară încheierea „executorie” deși suma certă se stabilește abia ulterior prin încheierea executorie de la alin. (4) și (6), nu stabilește termenul de apel și nu corelează regimul cu alin. (3) (obligații evaluabile în bani, unde rămâne „poate fi stabilită”).",
+        "Reiterarea nelimitată a cererilor respinse (art. 906 alin. (1¹)): creditorul poate formula o nouă cerere după 3 luni de la respingerea definitivă, fără ca legea să ceară intervenirea unor împrejurări noi sau să distingă situațiile în care respingerea anterioară a stabilit cu autoritate de lucru judecat că obligația nu intră sub incidența art. 906."
+      ],
+      "blindSpotsCaught": "În Expunerea de motive și în fișa Camerei nu se menționează nicăieri dublarea penalităților zilnice (de la 100–1.000 lei la 200–2.000 lei/zi — adică până la 180.000 lei pe un ciclu de 3 luni), modificarea strecurându-se direct în textul alin. (2). Totodată, schimbarea calificării încheierii de la alin. (2) din „definitivă” în „executorie” intră în coliziune directă cu alin. (4) și (6), unde abia încheierea de fixare a sumei definitive după 3 luni este titlu executoriu, riscând executări silite premature și practică neunitară.",
+      "constitutionalityNote": "Risc ridicat de neconstituționalitate: (1) Art. 16 alin. (1) (egalitatea în fața legii), art. 21 alin. (3) (proces echitabil / egalitatea armelor) și art. 129 din Constituție, coroborate cu art. 6 CEDO — acordarea căii de atac a apelului exclusiv creditorului, nu și debitorului obligat la penalități, creează o discriminare procesuală fără justificare obiectivă; (2) Art. 1 alin. (5) (calitatea și previzibilitatea legii) — prin redactarea agramată („este obliga”), lipsa termenului de apel, contradicția dintre caracterul „executoriu” al alin. (2) și alin. (4)/(6), necorelarea cu alin. (3) și afectarea autorității de lucru judecat prin alin. (1¹).",
+      "euLawNote": "Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și Directiva (UE) 2015/1535 (TRIS pentru reglementări tehnice/servicii digitale) nu sunt incidente, fiind o normă de procedură civilă generală. Totuși, în litigiile civile și comerciale care intră în domeniul de aplicare al dreptului UE (ex. proprietate intelectuală, protecția consumatorilor, executarea hotărârilor sub Regulamentul (UE) nr. 1215/2012), apelul unilateral acordat exclusiv creditorului intră în tensiune cu art. 47 din Carta Drepturilor Fundamentale a UE (dreptul la o cale de atac efectivă și egalitatea armelor).",
+      "senatForm": {
+        "articleRef": "Art. unic pct. 3 (art. 906 alin. (2) CPC)",
+        "proposalContent": "„(2) Când obligația nu este evaluabilă în bani, instanța îl poate obliga pe debitor, prin încheiere dată cu citarea părților, să plătească creditorului o penalitate de la 100 la 1.000 lei pe zi de întârziere, până la executarea obligației. Încheierea poate fi atacată cu apel de oricare dintre părți, în 10 zile de la comunicare; apelul se judecă de urgență.”",
+        "argumentation": "Apelul acordat doar creditorului încalcă egalitatea armelor (art. 16, art. 21 Constituție; art. 6 CEDO). Forma Senatului conține eroarea „este obliga” (art. 1 alin. 5), califică greșit încheierea ca „executorie” (contrar alin. 4 și 6) și dublează penalitățile fără motivare. Apelul simetric, în 10 zile, corectează aceste vicii fără a bloca celeritatea.",
+        "otherComments": "Corelați cu alin. (1) și (3) pentru a menține marja de apreciere a judecătorului în caz de imposibilitate obiectivă de executare și clarificați aplicarea apelului și la alin. (3). La alin. (1¹), condiționați noua cerere după 3 luni de apariția unor împrejurări noi sau de neîndeplinirea culpabilă, pentru a nu încălca autoritatea de lucru judecat."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 47845,
+      "sourceEndMarker": "SF-AD185B83",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Debitorii care nu execută hotărârile judecătorești vor fi obligați mai sigur la penalități zilnice, iar creditorul primește drept de apel",
+      "verdictShort": "Este o lege procedurală în mare parte utilă, care întărește executarea hotărârilor rămase neexecutate ani de zile. Are însă două probleme: dă cale de atac doar creditorului, iar textul Senatului conține o greșeală de redactare la alin. (2) („este obliga”).",
+      "initiatorClaim": "Inițiatorii spun că instanțele resping des cererile de penalități, că încheierea nu poate fi atacată și că astfel debitorii rău-platnici pot ignora titluri executorii timp de 5–8 ani. Ei vor să limiteze marja de apreciere a judecătorului, să introducă apelul și să permită o cerere nouă după respingere.",
+      "realityCheck": "Proiectul transformă aplicarea penalităților din facultativă („poate fi constrâns”, „îl poate obliga”) în obligatorie. Dublează plafoanele, de la 100–1.000 lei la 200–2.000 lei pe zi, și cere judecarea de urgență, în camera de consiliu. Creditorului respins îi dă drept de apel și posibilitatea unei cereri noi după 3 luni, dar debitorul obligat la penalități nu primește nicio cale de atac explicită, iar termenul de apel nu este stabilit.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Proprietari & Imobiliare",
@@ -41,86 +103,129 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Eroare gramaticală votată oficial de Senat la art. 906 alin. (2): prin înlocuirea mecanică a sintagmei „îl poate obliga” a rezultat textul „instanța sesizată de creditor este obliga pe debitor”, încălcând normele de tehnică legislativă (Legea nr. 24/2000).",
-        "Dublarea penalităților și apel unilateral la art. 906 alin. (2): amenda cominatorie crește la 200–2.000 lei/zi de întârziere, iar încheierea poate fi atacată cu apel doar de către creditor și doar în cazul respingerii cererii (nu și dacă i se acordă o sumă prea mică, nici de către debitor dacă măsura a fost dispusă nelegal).",
-        "Posibilitatea formulării unei noi cereri după 3 luni la art. 906 alin. (1¹): dacă instanța respinge aplicarea penalităților, creditorul nu mai rămâne blocat de autoritatea de lucru judecat, ci poate depune o nouă cerere după 3 luni dacă obligația tot nu a fost îndeplinită.",
-        "Confuzie procedurală prin sintagma „încheiere executorie” la art. 906 alin. (2): prima încheiere stabilește doar tariful zilnic provizoriu, în timp ce suma concretă devine titlu executoriu abia după 3 luni, prin încheierea de lichidare de la alin. (4) și (6) (conform Deciziei ÎCCJ nr. 16/2017 RIL)."
+        "Art. 906 alin. (1) și (2): „poate fi constrâns” devine „este constrâns”, iar „îl poate obliga” devine „este obliga”. Judecătorul nu mai are discreție asupra oportunității penalității, dacă sunt îndeplinite condițiile: obligație de a face sau de a nu face, care nu poate fi îndeplinită de altă persoană, și neexecutare în 10 zile.",
+        "Art. 906 alin. (2): plafoanele penalității cresc de la 100–1.000 lei la 200–2.000 lei pe zi de întârziere. Alin. (3), cu penalitatea procentuală de 0,1%–1% pentru obligațiile evaluabile în bani, rămâne neschimbat.",
+        "Art. 906 alin. (2): încheierea nu mai este „definitivă”, ci „executorie”. Apelul este prevăzut expres numai pentru creditor și numai în caz de respingere. Debitorul obligat la penalități nu are o cale de atac expresă; îi rămâne contestația la executare din alin. (5), dar numai după ce execută obligația.",
+        "Art. 906 alin. (1¹), nou: creditorul respins poate depune o cerere nouă după 3 luni de la rămânerea definitivă a respingerii, cât timp dosarul de executare este pe rol și obligația nu este îndeplinită. Astfel se înlătură, într-o formă limitată, autoritatea de lucru judecat a respingerii.",
+        "Greșeala de redactare „instanța sesizată de creditor este obliga pe debitor” face textul agramatical. Trebuie corectată („obligă” sau „va obliga”) pentru claritate."
       ],
-      "blindSpotsCaught": "Proiectul modifică alin. (1) și (2) înlocuind verbul „poate” cu o obligație imperativă pentru judecător, însă uită nemodificat alin. (3) (privind obligațiile de a face evaluabile în bani), unde rămâne formularea facultativă „poate fi stabilită de instanță”. În plus, dacă la alin. (1) și (2) judecătorul ar fi obligat automat să aplice penalități la simpla expirare a celor 10 zile, nu se precizează în ce situații legale mai poate pronunța soluția de respingere prevăzută la alin. (1¹).",
-      "constitutionalityNote": "Proiectul ridică două vulnerabilități serioase: (1) Încălcarea art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii) prin eroarea de redactare „este obliga pe debitor”, prin contradicția dintre caracterul imperativ al aplicării penalității și ipoteza respingerii cererii, precum și prin calificarea primei încheieri drept „executorie”; (2) Încălcarea art. 16 alin. (1), art. 21 alin. (3) și art. 129 din Constituție (egalitatea armelor în procesul civil), întrucât calea de atac a apelului împotriva aceleiași încheieri date în contradictoriu este recunoscută exclusiv creditorului, nu și debitorului.",
-      "euLawNote": "Proiectul reglementează exclusiv norme naționale de procedură civilă (executare silită), fără impact asupra concurenței profesionale (Directiva UE 2018/958 nu este incidentă) și fără reglementări tehnice sau servicii digitale care să necesite notificare TRIS (Directiva UE 2015/1535). Din perspectiva art. 47 din Carta Drepturilor Fundamentale a UE și art. 6 CEDO, scopul eficientizării executării silite este legitim, dar asimetria căii de atac trebuie corectată.",
-      "senatForm": {
-        "articleRef": "Articol unic pct. 3 - Art. 906 alin. (2) CPC",
-        "proposalContent": "„(2) Când obligația nu este evaluabilă în bani, instanța sesizată de creditor îl obligă pe debitor, prin încheiere dată cu citarea părților, la plata către creditor a unei penalități de la 200 lei la 2.000 lei pe zi de întârziere, până la executarea obligației din titlul executoriu. Încheierea este supusă numai apelului, judecat de urgență, cu citarea părților.”",
-        "argumentation": "Forma Senatului conține o eroare gramaticală în textul normativ („este obliga pe debitor”), califică greșit încheierea din prima etapă drept „executorie” (deși suma se lichidează abia ulterior, conform alin. 4 și 6) și acordă apel exclusiv creditorului la respingere, încălcând egalitatea armelor (art. 16 și 21 Constituție) și dreptul apelării cuantumului.",
-        "otherComments": "Se impune corelarea sintagmelor imperative „este constrâns” (alin. 1) și „îl obligă” (alin. 2) cu ipoteza respingerii cererii din alin. (1¹), prin menționarea condiției ca neexecutarea să fie culpabilă. De asemenea, alin. (3) rămâne cu verbul „poate fi stabilită”, creând un regim diferit între obligațiile neevaluabile și cele evaluabile în bani."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 167179,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Penalități zilnice aproape automate pentru cei care refuză să execute o hotărâre judecătorească",
-      "verdictShort": "Lege utilă, care întărește executarea hotărârilor pe care doar debitorul le poate îndeplini, de exemplu reintegrarea unui angajat sau eliberarea unui act. Forma Senatului are însă o greșeală de redactare chiar în textul-cheie și un apel acordat numai creditorului, ceea ce poate duce la practică neunitară și la obiecții de neconstituționalitate.",
-      "initiatorClaim": "Inițiatorii spun că instanțele resping prea ușor cererile de penalități și că unele executări durează 5–8 ani fără rezultat. Ei vor penalități greu de refuzat, posibilitatea unei cereri noi și o cale de atac pentru creditorul respins, invocând art. 6 CEDO.",
-      "realityCheck": "Textul transformă penalitatea dintr-o posibilitate („poate”) într-o obligație („este constrâns”). Dublează plaja pentru obligațiile neevaluabile în bani la 200–2.000 lei/zi, față de 100–1.000 lei/zi în prezent, permite o cerere nouă la 3 luni după o respingere definitivă și dă apel numai creditorului respins. Debitorul nu primește expres o cale de atac împotriva încheierii de admitere. Îi rămân apelul la fixarea sumei definitive (alin. 4) și contestația la executare, unde poate cere reducerea sau înlăturarea penalității (alin. 5).",
-      "affectedGroups": [
-        "Justiție & Drepturi Civile",
-        "Angajați & HR",
-        "IMM & Antreprenori"
-      ],
-      "keyFindings": [
-        "Art. 906 alin. (2), în forma Senatului, conține eroarea gramaticală „instanța sesizată de creditor este obliga pe debitor”. Greșeala apare exact în propoziția care trebuie să stabilească dacă penalitatea e obligatorie, așa că trebuie corectată la Cameră în „obligă”.",
-        "Alin. (1) și (2): „poate” devine obligație. Judecătorul nu mai decide dacă penalitatea este oportună, ci verifică doar condițiile legale și fixează cuantumul. Plaja se dublează la 200–2.000 lei/zi, deși expunerea de motive nu menționează și nu justifică această majorare.",
-        "Alin. (2): apelul este deschis doar creditorului și doar la respingere. Nu există un termen special, deci se aplică termenul general de 30 de zile (art. 468 CPC), deși textul cere judecarea apelului „de urgență”.",
-        "Alin. (1¹), nou: creditorul poate depune o cerere nouă după 3 luni de la respingerea definitivă, cât timp dosarul execuțional e pe rol și obligația nu e îndeplinită. Textul lămurește relația cu autoritatea de lucru judecat, dar se aplică oricărei respingeri, inclusiv celor pentru vicii procedurale reparabile. Astfel, creditorul poate fi obligat să aștepte inutil.",
-        "Alin. (3), nemodificat, păstrează pentru obligațiile evaluabile în bani formula „poate aplica” și nu prevede apel. Rezultă o necorelare cu noul alin. (1), care face constrângerea obligatorie pentru toate obligațiile de a face sau a nu face.",
-        "Impact: nu introduce taxe noi. Judecătoriile și tribunalele vor primi mai multe dosare (cereri reînnoite, apeluri). Debitorii care amână execută mai scump: angajatori obligați la reintegrare, firme, instituții publice (acestea plătesc din bugete publice). Creditorii persoane fizice și IMM-urile câștigă un instrument real de presiune."
-      ],
-      "blindSpotsCaught": "Alin. (2) nu mai califică încheierea drept „definitivă”, ci „executorie”, și prevede apel doar „în cazul respingerii”. Apare astfel o ambiguitate: debitorul poate invoca regula generală a art. 466 CPC (hotărârile primei instanțe sunt supuse apelului dacă legea nu prevede altfel) pentru a ataca încheierea de admitere, iar practica se poate diviza. Separat, inițiatorii susțin că lipsa apelului încalcă „dublul grad de jurisdicție”. În materie civilă, acesta nu este însă o garanție constituțională, deci argumentul este mai degrabă un pretext. Justificarea solidă este efectivitatea executării ca parte a procesului echitabil (CEDO, Hornsby c. Greciei).",
-      "constitutionalityNote": "Obiectivul este conform art. 21 (acces la justiție, termen rezonabil) și art. 126 alin. (2) / art. 129 (legiuitorul stabilește procedura și căile de atac). Obligativitatea penalității nu încalcă art. 124 alin. (3): judecătorul verifică în continuare condițiile și stabilește cuantumul, iar debitorul are supapa contestației (alin. 5). Majorarea penalității, condiționată de neexecutarea unui titlu executoriu, nu pare disproporționată față de art. 44. Riscurile reale sunt două. Primul ține de art. 1 alin. (5): eroarea „este obliga” și necorelarea cu alin. (3) afectează claritatea și previzibilitatea. Al doilea ține de art. 16 și art. 21 alin. (3): un apel rezervat unei singure părți ridică problema egalității armelor. CCR a cenzurat în trecut diferențieri nejustificate în accesul la căi de atac (de exemplu Decizia nr. 369/2017, privind limitarea recursului după valoare), argument valabil aici prin analogie.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă textul nu reglementează accesul la profesii sau exercitarea lor. Directiva (UE) 2015/1535 (TRIS) nu se aplică, fiindcă nu sunt vizate servicii ale societății informaționale sau AI. Procedura civilă ține de autonomia procedurală a statelor, limitată de principiul efectivității, iar textul întărește efectivitatea executării. Un detaliu util: potrivit art. 55 din Regulamentul (UE) nr. 1215/2012 (Bruxelles I bis), o hotărâre de obligare la penalități se execută în alt stat membru doar după ce instanța de origine a stabilit definitiv suma. Pentru debitorii din alte state contează deci încheierea de la alin. (4), nu cea de la alin. (2). Legea nu are efecte asupra concurenței sau a pieței unice.",
+      "blindSpotsCaught": "Nu este clar dacă debitorul poate ataca încheierea de admitere. Textul nu o mai numește „definitivă”, iar regula generală din art. 466 CPC permite apelul dacă legea nu prevede altfel. Pe de altă parte, formularea „poate fi atacată cu apel de creditor în cazul respingerii” sugerează că apelul este rezervat creditorului. Instanțele ar putea interpreta diferit. În plus, proiectul nu fixează termenul de apel, deci s-ar aplica termenul general de 30 de zile, ceea ce contrazice celeritatea urmărită. Alin. (1) și (2) reglementează amândouă procedura (urgență, camera de consiliu, citarea părților), cu o suprapunere care nu era necesară.",
+      "constitutionalityNote": "Legiuitorul poate stabili căile de atac (art. 126 alin. (2) și art. 129 din Constituție), iar întărirea executării hotărârilor servește dreptului la un proces echitabil și în termen rezonabil (art. 21 alin. (3)), care include faza executării. Problema este asimetria: în aceeași procedură, o singură parte primește cale de atac, ceea ce poate fi criticat din perspectiva egalității în fața legii și a accesului liber la justiție (art. 16 și art. 21). Formularea „este obliga” și neclaritatea regimului de atac al încheierii de admitere afectează previzibilitatea legii (art. 1 alin. (5)). Penalitatea obligatorie nu pare disproporționată, deoarece instanța verifică în continuare condițiile legale, iar alin. (5) permite reducerea sau înlăturarea penalității pentru motive temeinice.",
+      "euLawNote": "Proiectul nu reglementează accesul la profesii, deci Directiva (UE) 2018/958 nu este incidentă. Nu privește servicii digitale sau reguli tehnice, deci nu necesită notificare TRIS conform Directivei (UE) 2015/1535. Nu afectează piața unică. Este relevant art. 6 din CEDO și jurisprudența Curții Europene a Drepturilor Omului privind neexecutarea hotărârilor judecătorești, cu care proiectul este în general convergent.",
       "senatForm": {
         "articleRef": "Art. unic pct. 3 – art. 906 alin. (2) CPC",
-        "proposalContent": "(2) Când obligația nu este evaluabilă în bani, instanța sesizată de creditor obligă pe debitor, prin încheiere executorie, cu citarea părților, să plătească creditorului o penalitate de la 200 lei la 2.000 lei pe zi de întârziere, până la executarea obligației. Încheierea poate fi atacată cu apel de oricare parte, în 10 zile de la comunicare; apelul se judecă de urgență.",
-        "argumentation": "Forma Senatului conține eroarea „este obliga”, care lasă neclar dacă penalitatea e obligatorie. Apelul rezervat doar creditorului rupe egalitatea armelor (art. 16 și art. 21 alin. 3 din Constituție) și expune legea unei decizii de neconstituționalitate. Fără termen special, apelul s-ar declara în 30 de zile (art. 468 CPC), contrar urgenței urmărite de inițiatori.",
-        "otherComments": "Alin. (1¹) ar trebui să precizeze că termenul de 3 luni nu se aplică respingerii pentru motive procedurale (ex. cerere prematură), altfel creditorul ar aștepta inutil. Alin. (3), nemodificat, păstrează „poate aplica” și nu prevede apel pentru obligațiile evaluabile în bani — trebuie corelat cu noul alin. (1)."
-      }
+        "proposalContent": "«(2) Când obligația nu este evaluabilă în bani, instanța sesizată de creditor obligă debitorul, prin încheiere executorie dată cu citarea părților, la o penalitate de 200–2.000 lei pe zi de întârziere, până la executarea obligației. Încheierea poate fi atacată cu apel de oricare parte, în 10 zile de la comunicare. Apelul se judecă de urgență, cu citarea părților.»",
+        "argumentation": "Textul Senatului conține eroarea «este obliga» și acordă apel doar creditorului, la respingere. Debitorul obligat la penalități de până la 2.000 lei/zi nu are cale de atac, ceea ce ridică problema egalității de arme (art. 16, 21 Constituție, art. 6 CEDO). Termenul de apel lipsește; 10 zile asigură celeritatea urmărită de inițiatori.",
+        "otherComments": "La alin. (1¹), termenul de 3 luni curge de la rămânerea definitivă a respingerii; cu noul apel, aceasta poate fi data deciziei din apel. Se recomandă precizarea că cererea nouă e admisibilă doar dacă obligația rămâne neexecutată, iar alin. (1) și (2) ar trebui armonizate, ambele reglementând aceeași procedură."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 181013,
-      "riskScore": 5,
+      "durationMs": 103934,
+      "indicativ": "PL-x 156/2026",
+      "formaAnalizata": "Forma adoptată de Senat la 4 martie 2026",
+      "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Penalități duble și noi cereri pentru obligațiile neexecutate",
-      "verdictShort": "Proiectul urmărește un obiectiv legitim: executarea efectivă a titlurilor executorii. Forma Senatului necesită însă corecturi privind penalizarea obligatorie, rejudecarea cererilor respinse și echilibrul căilor de atac.",
-      "initiatorClaim": "Inițiatorii vor să împiedice debitorii să blocheze executarea obligațiilor personale și să ofere creditorilor apel și posibilitatea unei noi cereri. Ei prezintă lipsa apelului ca incompatibilă cu procesul echitabil, deși această concluzie nu rezultă automat din Constituție sau CEDO.",
-      "realityCheck": "Textul impune judecarea urgentă, în camera de consiliu cu citarea părților, înlocuiește formulările permisive cu unele imperative și dublează limitele penalităților pentru obligațiile neevaluabile în bani, la 200–2.000 lei zilnic. Permite repetarea cererii după minimum trei luni de la respingerea definitivă, fără să solicite expres împrejurări noi, și prevede expres apelul creditorului împotriva respingerii. Nu privește simpla neplată a unei datorii bănești, ci obligațiile de a face sau de a nu face care nu pot fi îndeplinite prin altă persoană.",
-      "affectedGroups": [
-        "Justiție & Drepturi Civile",
-        "IMM & Antreprenori",
-        "Toți cetățenii"
+      "sinteza": "Proiectul urmărește legitim accelerarea executării obligațiilor care nu pot fi îndeplinite prin altă persoană. Introduce judecarea urgentă, dublează penalitățile pentru obligațiile neevaluabile în bani și permite creditorului să atace respingerea cererii. Principalele probleme sunt ambiguitatea dreptului debitorului la apel, condițiile insuficient precizate ale cererilor repetate și lipsa unei soluții explicite pentru executările deja începute.",
+      "modificariImportante": [
+        {
+          "articol": "Art. 906 alin. (1)",
+          "acum": "Debitorul poate fi constrâns prin penalități dacă nu execută în 10 zile de la comunicarea încheierii de încuviințare a executării.",
+          "dupa": "Constrângerea este formulată imperativ, iar cererea se judecă de urgență, în camera de consiliu, cu citarea părților.",
+          "efect": "Restrânge aprecierea asupra aplicării penalității, fără să înlăture verificarea condițiilor legale. Termenul de 10 zile și limitarea la obligații nesusceptibile de executare prin altă persoană existau deja."
+        },
+        {
+          "articol": "Art. 906 alin. (1¹), nou",
+          "acum": "Nu există această regulă specială de reiterare după respingere.",
+          "dupa": "Creditorul poate formula o nouă cerere după 3 luni de la rămânerea definitivă a respingerii precedente, dacă executarea continuă și obligația rămâne neîndeplinită.",
+          "efect": "Creează o posibilitate expresă de revenire, dar nu distinge motivele respingerii și schimbările de împrejurări care justifică rejudecarea."
+        },
+        {
+          "articol": "Art. 906 alin. (2)",
+          "acum": "Pentru obligațiile neevaluabile în bani, penalitatea este de 100–1.000 lei pe zi, prin încheiere definitivă.",
+          "dupa": "Limitele devin 200–2.000 lei pe zi; încheierea este executorie, iar creditorul primește expres apel împotriva respingerii, judecat de urgență.",
+          "efect": "Dublează presiunea patrimonială asupra debitorului și deschide controlul judiciar al respingerii. Regimul apelului împotriva admiterii necesită clarificare."
+        },
+        {
+          "articol": "Art. 906 alin. (3)–(7), nemodificate",
+          "acum": "Există penalități procentuale pentru obligații evaluabile în bani, fixarea sumei definitive după intervale de 3 luni și posibilitatea condiționată de reducere sau înlăturare.",
+          "dupa": "Aceste mecanisme rămân în vigoare.",
+          "efect": "Proiectul nu dublează procentele de 0,1%–1% și nu elimină etapa fixării sumei definitive. Reducerea sau înlăturarea presupune în continuare executarea obligației și dovedirea motivelor temeinice ale întârzierii."
+        }
       ],
-      "keyFindings": [
-        "Art. 906 alin. (1) și (2): formulările imperative pot favoriza aplicarea penalităților fără o examinare suficientă a motivelor justificate de neexecutare. Instanța trebuie să poată verifica îndeplinirea condițiilor legale și apărările debitorului; obligativitatea nu justifică admiterea unei cereri neîntemeiate. Această problemă este semnalată și în [observațiile CSM](https://www.senat.ro/legis/PDF/2025/25L557SM.PDF).",
-        "Art. 906 alin. (2): intervalul existent de 100–1.000 lei pe zi devine 200–2.000 lei. Pentru 30 de zile, expunerea ar fi de 6.000–60.000 lei, în funcție de cuantumul stabilit; încasarea presupune etapa distinctă de fixare a sumei definitive. Dublarea nu este, singură, dovada disproporționalității, dar necesită justificare.",
-        "Noul alin. (1¹): trei luni reprezintă un termen minim de așteptare, nu un termen-limită pentru depunere. Simpla scurgere a timpului nu justifică rejudecarea unor chestiuni definitiv tranșate și neschimbate; trebuie delimitate împrejurările noi și motivele respingerii precedente. [Punctul de vedere al Guvernului](https://www.senat.ro/legis/PDF/2025/25L557PV.PDF) identifică problema autorității de lucru judecat.",
-        "Art. 906 alin. (2): apelul este prevăzut expres pentru creditor la respingere, dar eliminarea caracterului definitiv impune clarificarea raportului cu regula generală din art. 651 alin. (4), care permite apelul în 10 zile de la comunicare. Nu se poate afirma categoric că debitorului îi este interzis apelul; tocmai această incertitudine trebuie eliminată. Este necesară și corelarea cu obligațiile evaluabile în bani de la alin. (3).",
-        "Art. 906 alin. (2): expresia «este obliga» apare inclusiv în [forma oficială adoptată de Senat](https://www.senat.ro/legis/PDF/2025/25L557FS.PDF), deci problema nu poate fi atribuită doar transcrierii furnizate. Corectarea trebuie să clarifice și întinderea obligației instanței.",
-        "Proiectul nu introduce taxe, autorizații sau raportări administrative noi. Cererile repetate și apelurile pot crește cheltuielile judiciare ale cetățenilor și IMM-urilor și volumul de muncă al instanțelor; materialele furnizate nu cuantifică acest impact. Penalitățile sunt datorate creditorului, nu constituie amenzi încasate de stat."
+      "problemePrincipale": [
+        {
+          "problema": "Apel formulat expres numai în beneficiul creditorului",
+          "analiza": "Eliminarea caracterului definitiv trebuie corelată cu regula generală a apelului din art. 651 alin. (4) CPC. Textul special poate genera interpretări divergente: fie rezervă apelul creditorului împotriva respingerii, fie lasă aplicabil dreptul comun pentru celelalte soluții. Dacă debitorului i se exclude apelul împotriva admiterii, diferența de tratament necesită o justificare obiectivă și proporțională.",
+          "remediu": "Prevederea expresă a apelului pentru partea interesată, inclusiv împotriva admiterii și a respingerii parțiale."
+        },
+        {
+          "problema": "Cereri repetate și autoritatea de lucru judecat",
+          "analiza": "Persistența neexecutării poate justifica examinarea unei perioade sau situații noi. Totuși, simpla trecere a 3 luni nu remediază lipsa unui titlu apt de executare ori alte impedimente deja stabilite definitiv. Expunerea de motive nu demonstrează că orice reiterare ar respecta automat autoritatea de lucru judecat.",
+          "remediu": "Clarificarea condițiilor reiterării și a efectelor motivelor reținute prin hotărârea definitivă anterioară."
+        },
+        {
+          "problema": "Aplicarea în timp",
+          "analiza": "Proiectul se încheie fără dispoziții tranzitorii sau derogări. Potrivit regulilor generale din art. 24–25 CPC, executările începute sub legea veche rămân, în principiu, supuse acesteia. Beneficiul pentru dosarele vechi invocate în motivare nu este, așadar, automat.",
+          "remediu": "Precizarea expresă a regimului executărilor în curs, cu respectarea hotărârilor definitive."
+        },
+        {
+          "problema": "Corelare și redactare",
+          "analiza": "În extras apare formula defectuoasă «instanța sesizată de creditor este obliga pe debitor», care trebuie confruntată cu originalul. Caracterul imperativ al noului alin. (1) trebuie corelat cu formularea «poate fi stabilită» păstrată la alin. (3).",
+          "remediu": "Corectarea exprimării și delimitarea clară între obligația aplicării penalității și aprecierea cuantumului."
+        }
       ],
-      "blindSpotsCaught": "Expunerea de motive prezintă incomplet protecția debitorului: art. 906 alin. (5) condiționează reducerea sau înlăturarea penalității de executarea obligației și de dovedirea unor motive temeinice pentru întârziere. Contestația nu este, așadar, un substitut necondiționat al apelului. De asemenea, apelul poate îmbunătăți controlul judiciar fără ca absența lui să fi fost automat neconstituțională. [CCR, Decizia nr. 22/2024](https://legislatie.just.ro/Public/FormaPrintabila/00000G2HBVTVH447O4H1DAXJHJ23O2T4).",
-      "constitutionalityNote": "Există riscuri raportate la art. 1 alin. (5): redactare defectuoasă, raport neclar între regulile apelului și posibilitatea repetării cererii fără delimitarea lucrului judecat. Art. 21, 24 și 129 impun evaluarea echilibrului procesual; o eventuală rezervare a apelului exclusiv creditorului trebuie justificată obiectiv. Constituția și art. 6 CEDO nu garantează două grade de jurisdicție pentru orice incident civil; CCR a validat caracterul definitiv al încheierilor din această materie, fără ca aceasta să interzică legiuitorului introducerea apelului. Stabilirea unor condiții imperative nu încalcă prin ea însăși independența judecătorului, dar trebuie să păstreze verificarea condițiilor și apărărilor. Art. 23 alin. (12), privind legalitatea pedepselor, nu este reperul direct: penalitățile analizate sunt mijloace civile de constrângere. Dublarea cuantumurilor cere evaluarea proporționalității sarcinii patrimoniale, inclusiv prin raportare la art. 44, fără a permite constatarea automată a neconstituționalității. [CCR, Decizia nr. 22/2024](https://legislatie.just.ro/Public/FormaPrintabila/00000G2HBVTVH447O4H1DAXJHJ23O2T4).",
-      "euLawNote": "Nu se identifică monopoluri, privilegii profesionale sau bariere directe pentru concurență. Directiva (UE) 2018/958 privește restricțiile privind accesul la profesii reglementate sau exercitarea lor; această modificare procedurală generală nu declanșează testul specific al directivei. Nu sunt reglementate produse, servicii digitale sau AI prin cerințe tehnice ori norme dedicate, astfel că textul analizat nu indică o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535. Eventuala aplicare în litigii cu firme IT nu schimbă această concluzie. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32018L0958), [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32015L1535).",
+      "evaluareConstitutionala": {
+        "repere": [
+          "Art. 1 alin. (5): claritatea și previzibilitatea regimului apelului și al reiterării.",
+          "Art. 16, art. 21 alin. (3) și art. 24: justificarea diferențelor procesuale dintre creditor și debitor.",
+          "Art. 44: proporționalitatea sarcinii patrimoniale.",
+          "Art. 126 alin. (2) și art. 129: competența legiuitorului de a configura procedura și căile de atac."
+        ],
+        "concluzie": "Nu rezultă o neconstituționalitate evidentă a mecanismului în ansamblu. Obligativitatea unei măsuri procedurale, dacă sunt îndeplinite condițiile legale, nu încalcă prin ea însăși independența judecătorului. Nici dublarea limitelor penalității nu dovedește singură disproporționalitatea; instanța păstrează individualizarea cuantumului.",
+        "corectieExpunereMotive": "Nu există un drept general la două grade de jurisdicție în orice cauză civilă. Art. 6 CEDO protejează și executarea efectivă a hotărârilor, dar lipsa apelului nu constituie automat o încălcare. CEDO aparține sistemului Consiliului Europei, distinct de dreptul Uniunii Europene."
+      },
+      "concurentaSiDreptEuropean": {
+        "concurenta": "Nu sunt instituite monopoluri, privilegii profesionale, taxe sau restricții de acces pe piață. Penalitățile sunt plătite creditorului și au funcție de constrângere, nu reprezintă amenzi către stat.",
+        "profesiiReglementate": "Din obiectul și conținutul proiectului nu rezultă incidența evaluării proporționalității pentru restricționarea accesului la profesii reglementate.",
+        "TRIS": "Textul nu introduce reguli tehnice privind produse sau servicii ale societății informaționale; nu rezultă o obligație de notificare TRIS.",
+        "CartaUE": "Art. 47 din Carta drepturilor fundamentale este relevant atunci când litigiul intră în domeniul dreptului Uniunii, nu automat pentru orice executare civilă."
+      },
+      "impactPractic": "Creditorii pot beneficia de constrângere financiară mai puternică și de controlul respingerii. Debitorii suportă limite zilnice duble pentru obligațiile neevaluabile în bani. Cererile repetate și apelurile pot crește volumul instanțelor; efectul net asupra duratei executărilor nu este cuantificat în documentele furnizate.",
       "senatForm": {
-        "articleRef": "Articol unic pct. 2 – art. 906 alin. (1¹)",
-        "proposalContent": "(1¹) După 3 luni de la rămânerea definitivă a încheierii de respingere, creditorul poate formula o nouă cerere dacă executarea silită este în curs și invocă împrejurări noi, ulterioare judecății precedente, relevante pentru aplicarea penalităților. Dezlegările definitive privind aspectele neschimbate își păstrează autoritatea de lucru judecat.",
-        "argumentation": "Simpla trecere a trei luni nu înlătură autoritatea de lucru judecat. Condiția unor împrejurări noi permite sancționarea neexecutării persistente atunci când situația s-a schimbat și împiedică rejudecarea nelimitată a aceleiași cereri, pe aceleași motive. Sunt protejate executarea efectivă și securitatea raporturilor juridice.",
-        "otherComments": "La alin. (1) și (2), precizați neexecutarea culpabilă și păstrați examinarea apărărilor debitorului. Corectați «este obliga». Reglementați expres apelul pentru ambele părți și pentru situația alin. (3). Motivați dublarea limitelor penalității. Propunerea poate fi preluată de un deputat; termenul de amendamente indicat, 19.03.2026, este depășit."
-      }
+        "destinatar": "Comisia juridică, de disciplină și imunități a Camerei Deputaților",
+        "subiect": "Propunere de amendament la PL-x 156/2026",
+        "articol": "Articol unic pct. 3 – art. 906 alin. (2)",
+        "textPropus": "La alin. (2), sintagma «este obliga» se înlocuiește cu «îl obligă», iar ultimele două teze se înlocuiesc cu: «Încheierea poate fi atacată numai cu apel de partea interesată, în termen de 10 zile de la comunicare. Apelul se judecă de urgență, cu citarea părților.»",
+        "motivare": "Amendamentul asigură accesul ambelor părți la control judiciar și clarifică raportul cu art. 651 alin. (4) CPC, păstrând celeritatea urmărită de proiect.",
+        "observatiiSuplimentare": "Solicit și clarificarea condițiilor cererilor repetate, corelarea alin. (3) cu noul alin. (1) și precizarea regimului executărilor începute anterior."
+      },
+      "limitaVerificarii": "Analiza folosește documentele furnizate. Instrumentul de consultare externă nu a fost disponibil; autenticitatea extraselor și eventualele evoluții legislative ulterioare nu au putut fi verificate independent.",
+      "reachedEnd": false,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T06:33:53.799Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:29:37.552Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

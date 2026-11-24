@@ -1,117 +1,176 @@
 {
   "billId": "Pl-x 572/2026",
   "slug": "plx-572-2026",
-  "updatedAt": "2026-10-28T23:06:43.586Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T14:48:15.345Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 2829,
+    "ordinanceChars": 0,
+    "memoChars": 3573,
+    "memoSupplied": 3573,
+    "marker": "SF-C8546B1A"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-572-2026.json",
+    "form": "initiator",
+    "textHash": "c8546b1a7d9abbed",
+    "fetchedAt": "2026-11-19T10:06:50.755Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 2,
+    "articlesShown": 2,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 12127,
+    "truncated": false,
+    "included": true,
+    "key": "a2a2e2a5c14bc336"
+  },
   "consensus": {
-    "riskScore": 3.7,
-    "riskLevel": "green",
-    "plainTitle": "Viitorii părinți adoptivi pot fi trimiși la o expertiză psihiatrică gratuită",
-    "summaryTlDr": "Ideea e rezonabilă și are garanții bune: evaluarea e doar funcțională, gratuită și poate fi contestată prin contraexpertiză. Textul e însă scris grăbit: condiția în care se cere expertiza e vagă, lipsesc termenele, iar cadrul actual al medicinei legale nu prevede expertize cerute de DGASPC.",
-    "initiatorClaim": "Inițiatorii spun că evaluarea actuală a viitorilor adoptatori are doar o componentă psihologică, fără valoare medico-legală. Ei invocă cele peste 20.000 de cazuri de abuz asupra copiilor raportate în 2024 și cer o expertiză psihiatrică medico-legală care să verifice capacitatea parentală înainte de atestare.",
-    "realityCheck": "Expertiza nu devine obligatorie pentru toți. DGASPC o cere doar când specialiștii constată, motivat, „elemente obiective” sau când evaluarea „nu e concludentă” (art. 18 alin. 1¹), iar concluziile sunt doar „avute în vedere” la raportul final, fără să decidă automat. Legea nu fixează termene pentru expertiză și contraexpertiză, nu spune dacă termenul de evaluare se suspendă și nu spune ce se întâmplă dacă persoana refuză sau dacă cele două expertize ajung la concluzii diferite. Statistica de 20.000 de cazuri din Expunere privește copiii în general, nu familiile adoptive, deci justificarea e mai largă decât efectul real al textului.",
+    "riskScore": 4,
+    "riskLevel": "yellow",
+    "plainTitle": "Expertiză psihiatrică gratuită, doar la nevoie, pentru cei care vor să adopte",
+    "summaryTlDr": "Este o completare rezonabilă și moderată: expertiza psihiatrică nu devine obligatorie pentru toți, ci se cere doar motivat sau când evaluarea e neconcludentă, iar persoana are drept la contraexpertiză gratuită. Problemele țin de redactare și de lipsa unei estimări a costurilor, nu de abuz.",
+    "initiatorClaim": "Inițiatorii spun că evaluarea psihologică actuală nu are valoare medico-legală și vor un mijloc de probă solid pentru capacitatea psihică a adoptatorului. Invocă interesul superior al copilului, art. 49 din Constituție și Convenția de la Haga.",
+    "realityCheck": "Legea în vigoare cere deja, la art. 18 alin. (3) lit. a), evaluarea personalității și a stării de sănătate a adoptatorului. Proiectul adaugă un instrument opțional, expertiza medico-legală psihiatrică, pe care direcția o solicită motivat. Expertiza este limitată la impactul funcțional, se face cu contraexpertiză și gratuit, cu plata de la Ministerul Sănătății. Rămân neclare câteva lucruri: cine declanșează expertiza când evaluarea o face un organism privat autorizat, dacă termenul de evaluare se suspendă și ce valoare au concluziile. Argumentul celor peste 20.000 de cazuri de abuz privește în principal familiile biologice, nu adoptatorii, deci e mai degrabă un pretext statistic.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 2 – art. 18 alin. (1¹) și (1⁵) nou",
-      "proposalContent": "La alin. (1¹) se adaugă: „Solicitarea se face prin referat motivat, comunicat persoanei evaluate.” Se introduce alin. (1⁵): „Expertiza se efectuează în cel mult 45 de zile de la solicitare, iar contraexpertiza în cel mult 45 de zile de la cerere; pe durata acestora, termenul de evaluare se suspendă.”",
-      "argumentation": "Textul nu fixează termene pentru expertiză și contraexpertiză și nu spune ce se întâmplă cu termenul de evaluare. Fără ele, atestarea poate rămâne blocată luni de zile, iar copiii stau mai mult în sistem. Referatul motivat comunicat persoanei face controlabil criteriul vag „elemente obiective” (art. 1 alin. 5 din Constituție).",
-      "otherComments": "OG nr. 1/2000 și HG nr. 774/2000 leagă, de regulă, expertiza de dispoziția organelor judiciare: e nevoie de o normă expresă pentru DGASPC. Contraexpertiza ar trebui făcută de altă instituție decât prima. Lipsește o estimare cifrată a costului (art. 15 din Legea nr. 500/2002). „(1')” și „(14)” devin „(1¹)” și „(1⁴)”."
+      "articleRef": "Art. I pct. 2 – art. 18 alin. (1^1) și (1^4)",
+      "proposalContent": "Alin.(1^1): după «direcția generală de asistență socială și protecția copilului» se adaugă «, din oficiu sau la sesizarea organismului privat autorizat care face evaluarea,». Alin.(1^4) se completează: «Termenul de evaluare se suspendă pe durata expertizei și contraexpertizei; raportul final ține seama de concluziile contraexpertizei, dacă s-a efectuat.»",
+      "argumentation": "Art. 18 alin.(3) permite evaluarea și de organisme private autorizate, dar textul dă inițiativa doar direcției, deci rămâne neclar cine sesizează. Fără suspendare, termenul de evaluare poate expira în timpul expertizei, iar fără regulă de prevalență nu se știe ce se întâmplă când expertiza și contraexpertiza diferă.",
+      "otherComments": "Propunerea are nevoie de fișă financiară și de punctul de vedere al Guvernului (art. 111 și 138 alin. 5 Constituție, art. 15 Legea 500/2002), pentru că expunerea nu estimează nici numărul de expertize, nici costul. Termenul de 90 de zile pentru norme depășește intrarea în vigoare la 60 de zile."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 55002,
-      "riskScore": 4,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 51365,
+      "sourceEndMarker": "SF-C8546B1A",
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Expertiză psihiatrică la IML pentru persoanele care vor să adopte un copil, atunci când evaluarea DGASPC este neclară",
-      "verdictShort": "Intenția de a proteja copiii adoptați și de a asigura gratuitatea expertizei este pozitivă, dar proiectul conține capcane procedurale care pot bloca și întârzia nejustificat adopțiile. Criteriile vagi de trimitere la IML și nesuspendarea termenului legal de evaluare riscă să transforme o măsură de siguranță într-un blocaj birocratic.",
-      "initiatorClaim": "Inițiatorii doresc creșterea siguranței copiilor adoptați prin introducerea unei expertize medico-legale psihiatrice gratuite (și a dreptului la contraexpertiză) atunci când apar dubii privind capacitatea psihică a viitorilor părinți adoptivi.",
-      "realityCheck": "În practică, formularea vagă permite asistenților sociali să trimită adoptatorii la Institutul de Medicină Legală (IML) ori de câte ori consideră că propria lor evaluare „nu este concludentă”, pasând responsabilitatea. Mai mult, proiectul nu suspendă termenul legal de 90 de zile pentru obținerea atestatului, deși o expertiză și o contraexpertiză la IML durează luni de zile.",
+      "plainTitle": "Expertiză medico-legală psihiatrică pentru cei care vor să adopte un copil",
+      "verdictShort": "Intenția de a proteja copiii adoptați este legitimă și măsura este punctuală și gratuită, dar proiectul introduce instrumentul greoi al medicinei legale într-o procedură administrativă fără criterii clare, fără corelare cu legea IML și cu riscuri reale de blocaj birocratic și neconstituționalitate.",
+      "initiatorClaim": "Inițiatorii susțin că evaluarea psihologică actuală nu are valoare probatorie suficientă și că introducerea unei expertize medico-legale psihiatrice, gratuite și însoțite de dreptul la contraexpertiză, va preveni abuzurile asupra copiilor (invocând cele peste 20.000 de cazuri confirmate în 2024).",
+      "realityCheck": "Legea nr. 273/2004 impune deja evaluarea personalității și a stării de sănătate a adoptatorului (art. 18 alin. 3 lit. a). Proiectul permite DGASPC să trimită solicitanții la IML pe baza unor formulări vagi („elemente obiective”, „rezultate neconcludente”), fără să modifice cadrul medicinei legale (OG nr. 1/2000), fără să reglementeze consimțământul ori efectele refuzului și fără să suspende termenele adopției, riscând amânări de luni de zile într-o rețea medico-legală deja supraîncărcată.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. I pct. 2 (art. 18 alin. 1¹): Permite DGASPC să solicite expertiză psihiatrică la IML nu doar pe baza unor elemente obiective, ci și când „rezultatele evaluării nu sunt concludente” — o formulare subiectivă ce poate duce la abuz de trimiteri și stigmatizare.",
-        "Art. I pct. 2 (art. 18 alin. 1⁴): Reglementează o „contraexpertiză” în termen de 30 de zile, fără a suspenda termenul general de 90 de zile în care DGASPC este obligată să finalizeze atestarea adoptatorului și folosind o terminologie străină de OG nr. 1/2000 (care prevede „noua expertiză medico-legală”).",
-        "Art. II și Art. III: Legea intră în vigoare la 60 de zile de la publicare (Art. III), dar Guvernul are la dispoziție 90 de zile de la intrarea în vigoare pentru a adopta normele metodologice (Art. II), creând un vid procedural și de decontare de 3 luni."
+        "Art. 18 alin. (1¹) folosește declanșatori neclari („elemente obiective”, „rezultatele evaluării nu sunt concludente”) fără a stabili o procedură de contestare a trimiterii la IML, efectele unui eventual refuz sau modul în care acționează organismele private autorizate (care fac și ele evaluări conform art. 18 alin. 3 în vigoare).",
+        "Art. 18 alin. (1⁴) oferă 30 de zile pentru a cere o contraexpertiză, dar nu suspendă emiterea raportului final de evaluare și nici termenul legal al procedurii de atestare; totodată, proiectul nu modifică OG nr. 1/2000 pentru a abilita expres DGASPC să dispună expertize medico-legale.",
+        "Art. 18 alin. (3³) trece costurile în sarcina bugetului Ministerului Sănătății fără fișă financiară și fără indicarea unei surse reale de finanțare, iar Art. II și Art. III creează un vid de aplicare: legea intră în vigoare în 60 de zile, dar Guvernul are 90 de zile după intrarea în vigoare pentru a adopta normele metodologice."
       ],
-      "blindSpotsCaught": "Proiectul ignoră faptul că procedura de evaluare din Legea nr. 273/2004 are o durată maximă de 90 de zile; cum programarea unei comisii psihiatrice la IML, redactarea raportului, termenul de 30 de zile pentru contestație și o a doua expertiză depășesc frecvent 4-6 luni, lipsa unei prevederi de suspendare a termenului de evaluare va bloca dosarele de adopție. De asemenea, medicii legiști psihiatri evaluează discernământul și patologia psihiatrică, nu „capacitatea de exercitare a responsabilităților parentale”, concept pentru care nu există bareme medico-legale în OG nr. 1/2000.",
-      "constitutionalityNote": "Potențiale vulnerabilități raportat la Art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), întrucât sintagma „rezultatele evaluării nu sunt concludente” nu oferă criterii obiective pentru dispunerea unei măsuri intruzive în viața privată (Art. 26 Constituție), precum și necorelarea cu terminologia legislației medico-legale în vigoare.",
-      "euLawNote": "Proiectul nu încalcă Directiva (UE) 2018/958 și nu intră sub incidența Directivei TRIS 2015/1535. Din perspectiva art. 9 din GDPR (Regulamentul 2016/679) și a art. 8 CEDO, prelucrarea datelor psihiatrice necesită garanții stricte de proporționalitate și păstrare limitată, care sunt doar enunțate general la alin. (3¹), fără termene de ștergere sau reguli de acces.",
+      "blindSpotsCaught": "Expunerea de motive justifică măsura prin cele peste 20.000 de cazuri de abuz asupra copiilor din 2024, dar statistica ANPDCA vizează totalitatea copiilor din România (preponderent familii biologice/medii vulnerabile), nu familiile adoptatoare. În plus, legea intră în vigoare cu 90 de zile înainte de termenul-limită pentru normele metodologice de decontare și procedură, blocând practic aplicarea inițială.",
+      "constitutionalityNote": "Există trei vulnerabilități serioase: (1) Art. 1 alin. (5) – lipsa de claritate și previzibilitate a criteriilor de trimitere la IML și lipsa corelării cu legislația de medicină legală; (2) Art. 138 alin. (5) – impunerea de cheltuieli noi bugetului Ministerului Sănătății fără stabilirea sursei de finanțare; (3) Art. 26 (viața privată) – lipsa reglementării exprese a consimțământului și a garanțiilor procedurale pentru o examinare psihiatrică medico-legală cu caracter intruziv.",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează profesii) și nici a Directivei (UE) 2015/1535 TRIS (nu vizează servicii digitale sau standarde tehnice). Însă prelucrarea datelor de sănătate psihică intră sub art. 9 din Regulamentul (UE) 2016/679 (GDPR): simpla trimitere din art. 18 alin. (3¹) la legislația datelor personale nu acoperă lipsa garanțiilor specifice (durata de stocare, ștergerea datelor în caz de respingere/retragere, limitarea accesului la dosar).",
       "senatForm": {
-        "articleRef": "Art. I pct. 2 - art. 18 alin. (1^1) și (1^4)",
-        "proposalContent": "La art. 18, alin. (1^1) și (1^4) se modifică: „(1^1) Dacă psihologul DGASPC constată motivat indicii clinice de tulburări psihice ce afectează discernământul sau capacitatea parentală, DGASPC solicită o expertiză medico-legală psihiatrică. (1^4) Persoana poate solicita o nouă expertiză în 30 de zile. Pe durata expertizelor, termenul de evaluare se suspendă de drept.”",
-        "argumentation": "Sintagma „rezultatele evaluării nu sunt concludente” este vagă și permite trimiterea arbitrară a adoptatorilor la IML. De asemenea, Legea 273/2004 impune un termen de 90 de zile pentru evaluare; fără suspendarea termenului pe durata expertizei și a noii expertize (termenul corect conform OG 1/2000, nu „contraexpertiză”), procedura de atestare se va bloca prin expirarea termenului.",
-        "otherComments": "La Art. II, termenul de 90 de zile pentru adoptarea normelor metodologice curge de la intrarea în vigoare a legii (prevăzută la Art. III la 60 de zile de la publicare), ceea ce lasă legea inaplicabilă timp de 3 luni după intrarea în vigoare. Recomandăm ca normele metodologice să fie adoptate în cele 60 de zile anterioare intrării în vigoare a legii."
-      }
+        "articleRef": "Art. I pct. 2 – art. 18 alin. (1¹) și (1⁴)",
+        "proposalContent": "Clarificarea criteriilor de trimitere la evaluare psihiatrică clinică (nu medico-legală), cu consimțământul solicitantului, suspendarea termenului de atestare până la finalizarea contraexpertizei și stabilirea termenului de ștergere a datelor medicale. Corelați Art. II și III: normele să apară înainte de intrarea în vigoare.",
+        "argumentation": "Criteriile actuale („elemente obiective”, „rezultate neconcludente”) sunt vagi (art. 1 alin. 5 Constituție) și nu se corelează cu OG nr. 1/2000 privind medicina legală, riscând blocaje de luni de zile în adopții. Lipsa consimțământului expres și a duratei de stocare a datelor vulnerabilizează art. 26 Constituție și art. 9 GDPR.",
+        "otherComments": "Art. 18 alin. (3³) impune cheltuieli noi bugetului Ministerului Sănătății fără fișă financiară și sursă de finanțare (risc pe art. 138 alin. 5 Constituție). De asemenea, Art. II prevede norme în 90 de zile după intrarea în vigoare (Art. III - 60 zile), creând un vid de aplicare de 3 luni. Evaluarea de către organisme private nu e clarificată."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 164830,
+      "durationMs": 49439,
+      "sourceEndMarker": "SF-C8546B1A",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Viitorii părinți adoptivi pot fi trimiși la o expertiză psihiatrică gratuită",
-      "verdictShort": "Ideea e rezonabilă și are garanții bune: evaluarea e doar funcțională, gratuită și poate fi contestată prin contraexpertiză. Textul e însă scris grăbit: condiția în care se cere expertiza e vagă, lipsesc termenele, iar cadrul actual al medicinei legale nu prevede expertize cerute de DGASPC.",
-      "initiatorClaim": "Inițiatorii spun că evaluarea actuală a viitorilor adoptatori are doar o componentă psihologică, fără valoare medico-legală. Ei invocă cele peste 20.000 de cazuri de abuz asupra copiilor raportate în 2024 și cer o expertiză psihiatrică medico-legală care să verifice capacitatea parentală înainte de atestare.",
-      "realityCheck": "Expertiza nu devine obligatorie pentru toți. DGASPC o cere doar când specialiștii constată, motivat, „elemente obiective” sau când evaluarea „nu e concludentă” (art. 18 alin. 1¹), iar concluziile sunt doar „avute în vedere” la raportul final, fără să decidă automat. Legea nu fixează termene pentru expertiză și contraexpertiză, nu spune dacă termenul de evaluare se suspendă și nu spune ce se întâmplă dacă persoana refuză sau dacă cele două expertize ajung la concluzii diferite. Statistica de 20.000 de cazuri din Expunere privește copiii în general, nu familiile adoptive, deci justificarea e mai largă decât efectul real al textului.",
+      "plainTitle": "Expertiză psihiatrică gratuită, doar la nevoie, pentru cei care vor să adopte",
+      "verdictShort": "Este o completare rezonabilă și moderată: expertiza psihiatrică nu devine obligatorie pentru toți, ci se cere doar motivat sau când evaluarea e neconcludentă, iar persoana are drept la contraexpertiză gratuită. Problemele țin de redactare și de lipsa unei estimări a costurilor, nu de abuz.",
+      "initiatorClaim": "Inițiatorii spun că evaluarea psihologică actuală nu are valoare medico-legală și vor un mijloc de probă solid pentru capacitatea psihică a adoptatorului. Invocă interesul superior al copilului, art. 49 din Constituție și Convenția de la Haga.",
+      "realityCheck": "Legea în vigoare cere deja, la art. 18 alin. (3) lit. a), evaluarea personalității și a stării de sănătate a adoptatorului. Proiectul adaugă un instrument opțional, expertiza medico-legală psihiatrică, pe care direcția o solicită motivat. Expertiza este limitată la impactul funcțional, se face cu contraexpertiză și gratuit, cu plata de la Ministerul Sănătății. Rămân neclare câteva lucruri: cine declanșează expertiza când evaluarea o face un organism privat autorizat, dacă termenul de evaluare se suspendă și ce valoare au concluziile. Argumentul celor peste 20.000 de cazuri de abuz privește în principal familiile biologice, nu adoptatorii, deci e mai degrabă un pretext statistic.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. I pct. 2, art. 18 alin. (1¹): expertiza se declanșează condiționat și vag („elemente obiective”, rezultate „neconcludente”), fără criterii sau o listă de situații. Expunerea vorbește de o aplicare „uniformă tuturor persoanelor”, ceea ce textul nu prevede.",
-        "Art. 18 alin. (1²): expertiza evaluează „exclusiv impactul funcțional” al sănătății psihice, nu diagnosticul în sine. Este o garanție bună contra excluderii automate a persoanelor cu un istoric psihiatric și e în spiritul art. 23 din Convenția ONU privind drepturile persoanelor cu dizabilități (ratificată prin Legea nr. 221/2010).",
-        "Art. 18 alin. (1⁴): contraexpertiza se cere în 30 de zile. Formula „comisie distinctă din cadrul instituțiilor competente” nu clarifică dacă e vorba de altă instituție sau doar de altă comisie din aceeași instituție și nu spune care concluzie prevalează.",
-        "Art. 18 alin. (3²)–(3³): procedura e gratuită pentru persoană, iar costul revine Ministerului Sănătății. Expunerea afirmă un impact „limitat”, dar nu dă nicio cifră (număr estimat de cazuri, cost pe expertiză).",
-        "Art. II–III: legea se aplică la 60 de zile de la publicare, dar normele metodologice pot apărea în 90 de zile de la intrarea în vigoare, adică până la circa 150 de zile de la publicare. Până atunci, DGASPC are obligația, dar nu și procedura."
+        "Art. I pct. 2 (art. 18 alin. 1^1): expertiza NU este generalizată. Se cere doar când specialiștii constată «în mod motivat» elemente obiective sau când evaluarea e neconcludentă. Asta limitează riscul de stigmatizare și de birocratizare a tuturor solicitanților.",
+        "Art. 18 alin. (1^2) propus: expertiza evaluează «exclusiv impactul funcțional» al sănătății psihice asupra capacității parentale, nu simpla existență a unui diagnostic. Este o garanție antidiscriminare importantă, în acord cu art. 23 din Convenția ONU privind drepturile persoanelor cu dizabilități.",
+        "Art. 18 alin. (1^4) propus: contraexpertiza se poate cere în 30 de zile și o face o comisie distinctă. Textul nu spune însă ce concluzie prevalează dacă cele două diferă și nici cine are obligația de comunicare.",
+        "Art. 18 alin. (1^3) propus: concluziile sunt doar «avute în vedere» la raportul final, deci nu sunt obligatorii. Formula e flexibilă, dar lasă direcției o marjă largă de apreciere și poate genera practică neunitară.",
+        "Art. 18 alin. (3^2)-(3^3) propus: gratuitatea pentru cetățean este reală, dar costul trece la Ministerul Sănătății «în condițiile legii». Expunerea de motive nu dă nicio cifră și nici numărul estimat de expertize.",
+        "Art. II și art. III: legea intră în vigoare la 60 de zile, iar normele metodologice se modifică în 90 de zile. Între ele rămâne o fereastră de circa 30 de zile în care noile dispoziții se aplică fără proceduri detaliate."
       ],
-      "blindSpotsCaught": "Cadrul actual al medicinei legale (OG nr. 1/2000 și regulamentul aprobat prin HG nr. 774/2000) rezervă, de regulă, expertiza medico-legală organelor judiciare. Pentru alte autorități și pentru persoane se fac examinări sau constatări. Fără o normă care să modifice expres acest cadru, formula „DGASPC solicită, în condițiile legii, efectuarea unei expertize” poate rămâne inaplicabilă. În practică, ar putea deveni o simplă constatare, adică exact actul pe care inițiatorii îl consideră insuficient. Expunerea mai afirmă că adopția produce efecte „definitive și irevocabile”, deși Codul civil (art. 475) prevede încetarea ei prin desfacere sau nulitate. Există și erori de tehnică legislativă: „(1')” și „(14)” în loc de „(1¹)” și „(1⁴)”.",
-      "constitutionalityNote": "Scopul, protecția copilului (art. 49), e legitim. Limitarea la impactul funcțional și dreptul la contraexpertiză fac măsura, în principiu, proporțională cu ingerința în viața intimă (art. 26). Rămân două probleme. (a) Art. 1 alin. (5): „elemente obiective” și „rezultate neconcludente” lasă o marjă largă de apreciere, care poate duce la tratament diferit al unor persoane aflate în situații similare (art. 16). (b) Art. 138 alin. (5) și art. 111 alin. (1): cheltuiala nouă la Ministerul Sănătății nu are o estimare cifrată, iar CCR a declarat neconstituționale legi de inițiativă parlamentară cu impact bugetar adoptate fără informarea Guvernului. Dacă informarea a fost cerută în procedura de la Senat, acest al doilea risc scade.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că nu se reglementează accesul la o profesie. Nici TRIS (2015/1535) nu e relevantă: nu există servicii digitale sau reglementări tehnice. Concurența nu e afectată, expertiza fiind un serviciu public gratuit. Relevant e GDPR: datele despre sănătatea mintală sunt categorie specială (art. 9), iar art. 9 alin. (2) cere ca legea națională să prevadă măsuri adecvate și specifice. Art. 18 alin. (3¹) doar repetă principiul limitării scopului. Nu stabilește un termen de păstrare, nu spune cine vede raportul complet și cine doar concluziile și nici dacă raportul ajunge la instanță la încuviințarea adopției. Convenția de la Haga din 1993 (art. 15) cere informații despre starea de sănătate a adoptatorilor, dar doar pentru adopția internațională și fără să impună o expertiză psihiatrică.",
+      "blindSpotsCaught": "Art. 18 alin. (3) în vigoare permite ca evaluarea să fie făcută și de organisme private autorizate, dar alin. (1^1) propus dă inițiativa doar direcției. Nu e clar cum ajunge un caz de la organismul privat la direcție. Proiectul tace și despre termenul de evaluare din procedura existentă, care poate fi depășit pe durata expertizei și a contraexpertizei, și despre membrii gospodăriei vizați de art. 18 alin. (2), pentru care nu se prevede nimic. Prelucrarea datelor de sănătate e circumscrisă scopului adopției (alin. 3^1), fără termen de păstrare.",
+      "constitutionalityNote": "Fondul este compatibil cu art. 49 (protecția copilului) și art. 26 (viața privată). Ingerința în viața privată e prevăzută de lege, urmărește un scop legitim și pare proporțională, fiind declanșată motivat și limitată la impactul funcțional. Art. 16 și art. 50 sunt respectate prin criteriul funcțional, nu diagnostic. Sub aspectul art. 1 alin. (5), formulele «în condițiile legii», «avute în vedere» și lipsa unei reguli de prevalență între expertiză și contraexpertiză slăbesc previzibilitatea, fără a o anula. Pe partea bugetară, propunerea majorează cheltuielile publice, deci intră sub art. 111 alin. (1) teza a II-a (informarea Guvernului) și art. 138 alin. (5) (stabilirea sursei de finanțare). Lipsa unei fișe financiare concrete este un risc procedural real în fața CCR.",
+      "euLawNote": "Directiva (UE) 2018/958 nu e relevantă, pentru că proiectul nu reglementează accesul la o profesie. Directiva TRIS 2015/1535 nu se aplică, fiind vorba de o procedură administrativ-medicală, fără servicii ale societății informaționale sau reguli tehnice. Datele de sănătate sunt categorie specială după art. 9 GDPR. Temeiul ar fi art. 9 alin. (2) lit. g) sau h), cu dispoziție legală națională, pe care proiectul o oferă parțial prin alin. (3^1), dar fără perioade de stocare și fără reguli de acces. Proiectul nu afectează piața unică.",
       "senatForm": {
-        "articleRef": "Art. I pct. 2 – art. 18 alin. (1¹) și (1⁵) nou",
-        "proposalContent": "La alin. (1¹) se adaugă: „Solicitarea se face prin referat motivat, comunicat persoanei evaluate.” Se introduce alin. (1⁵): „Expertiza se efectuează în cel mult 45 de zile de la solicitare, iar contraexpertiza în cel mult 45 de zile de la cerere; pe durata acestora, termenul de evaluare se suspendă.”",
-        "argumentation": "Textul nu fixează termene pentru expertiză și contraexpertiză și nu spune ce se întâmplă cu termenul de evaluare. Fără ele, atestarea poate rămâne blocată luni de zile, iar copiii stau mai mult în sistem. Referatul motivat comunicat persoanei face controlabil criteriul vag „elemente obiective” (art. 1 alin. 5 din Constituție).",
-        "otherComments": "OG nr. 1/2000 și HG nr. 774/2000 leagă, de regulă, expertiza de dispoziția organelor judiciare: e nevoie de o normă expresă pentru DGASPC. Contraexpertiza ar trebui făcută de altă instituție decât prima. Lipsește o estimare cifrată a costului (art. 15 din Legea nr. 500/2002). „(1')” și „(14)” devin „(1¹)” și „(1⁴)”."
-      }
+        "articleRef": "Art. I pct. 2 – art. 18 alin. (1^1) și (1^4)",
+        "proposalContent": "Alin.(1^1): după «direcția generală de asistență socială și protecția copilului» se adaugă «, din oficiu sau la sesizarea organismului privat autorizat care face evaluarea,». Alin.(1^4) se completează: «Termenul de evaluare se suspendă pe durata expertizei și contraexpertizei; raportul final ține seama de concluziile contraexpertizei, dacă s-a efectuat.»",
+        "argumentation": "Art. 18 alin.(3) permite evaluarea și de organisme private autorizate, dar textul dă inițiativa doar direcției, deci rămâne neclar cine sesizează. Fără suspendare, termenul de evaluare poate expira în timpul expertizei, iar fără regulă de prevalență nu se știe ce se întâmplă când expertiza și contraexpertiza diferă.",
+        "otherComments": "Propunerea are nevoie de fișă financiară și de punctul de vedere al Guvernului (art. 111 și 138 alin. 5 Constituție, art. 15 Legea 500/2002), pentru că expunerea nu estimează nici numărul de expertize, nici costul. Termenul de 90 de zile pentru norme depășește intrarea în vigoare la 60 de zile."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 136088,
+      "durationMs": 91307,
+      "sourceEndMarker": "SF-C8546B1A",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Expertiză psihiatrică gratuită în unele evaluări pentru adopție",
-      "verdictShort": "Proiectul urmărește un scop legitim și include garanții utile, dar lasă neclarități care pot întârzia adopțiile și slăbi dreptul la contraexpertiză. Riscul este procedural și administrativ, fără taxe noi pentru adoptatori sau sancțiuni disproporționate.",
-      "initiatorClaim": "Inițiatorii susțin că expertiza medico-legală poate identifica riscuri privind capacitatea parentală pe care evaluarea actuală nu le clarifică suficient. Invocă prevenirea abuzurilor și protejarea interesului superior al copilului.",
-      "realityCheck": "Textul obligă DGASPC să solicite expertiza atunci când apar elemente obiective motivate sau rezultate neconcludente; nu instituie examinarea medico-legală a tuturor solicitanților. Concluziile intră în evaluarea finală, fără să determine expres și automat respingerea, iar expertiza și contraexpertiza sunt gratuite. Lipsesc însă termenele efectuării lor și corelarea cu procedura atestării, ceea ce poate produce întârzieri și aplicări diferite între județe.",
+      "plainTitle": "Expertiză psihiatrică gratuită pentru unii solicitanți de adopție",
+      "verdictShort": "Proiectul urmărește legitim protecția copilului și include garanții utile. Riscul principal este trimiterea la expertiză pe baza unei evaluări neconcludente, fără delimitarea suficientă a motivelor, combinată cu o procedură de contraexpertiză incomplet corelată cu atestarea.",
+      "initiatorClaim": "Inițiatorii urmăresc identificarea problemelor de sănătate psihică ce afectează capacitatea parentală, printr-o expertiză medico-legală suplimentară. Invocă prevenirea abuzului asupra copiilor și propun gratuitatea expertizei și a contraexpertizei.",
+      "realityCheck": "Legea actuală verifică deja sănătatea, personalitatea și aptitudinile parentale; proiectul adaugă expertiza medico-legală psihiatrică în anumite situații, fără să o impună tuturor solicitanților. Evaluarea exclusiv funcțională, contraexpertiza și gratuitatea sunt garanții reale, dar alternativa privind rezultatele neconcludente poate permite trimiteri insuficient justificate. Statisticile generale despre abuz, invocate în motivare, nu demonstrează separat existența unei probleme în familiile adoptatoare sau eficiența acestei intervenții.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. I pct. 2, art. 18 alin. (1¹): alternativa rezultatelor „neconcludente” nu precizează că neclaritatea trebuie să privească sănătatea psihică și nici nu impune explicit epuizarea unor clarificări mai puțin intruzive. Această formulare poate extinde trimiterile dincolo de cazurile obiectiv justificate.",
-        "Evaluarea sănătății există deja în art. 18 alin. (3) lit. a); proiectul adaugă un instrument medico-legal. Guvernul semnalează inclusiv suprapunerea cu evaluările existente, dar aceasta nu dovedește că expertiza ar fi inutilă în orice caz individual. [Legea nr. 273/2004](https://legislatie.just.ro/Public/DetaliiDocumentAfis/232354), [punctul de vedere al Guvernului](https://www.senat.ro/legis/PDF/2026/26L359PV.pdf?nocache=true).",
-        "Art. 18 alin. (1⁴) propus acordă 30 de zile pentru solicitarea contraexpertizei, fără să împiedice finalizarea între timp a evaluării. Art. 20 existent prevede maximum 90 de zile pentru raport și numai 5 zile lucrătoare pentru contestarea rezultatului nefavorabil; termenele trebuie corelate pentru ca noua garanție să fie efectivă. [Art. 20–22](https://legislatie.just.ro/Public/DetaliiDocumentAfis/232354).",
-        "Art. 18 alin. (3²)–(3³) propus elimină plata expertizelor de către solicitant și identifică bugetul Ministerului Sănătății drept sursă. Expunerea nu cuantifică însă numărul estimat de cazuri, tarifele sau capacitatea disponibilă; gratuitatea nu acoperă expres deplasările și timpul pierdut. Nu rezultă obligații directe pentru IMM-uri.",
-        "Art. II permite aprobarea normelor până la 90 de zile după intrarea în vigoare, iar art. III stabilește intrarea în vigoare la 60 de zile de la publicare. Poate exista astfel un interval de până la 90 de zile în care obligația funcționează fără normele actualizate; lipsesc și reguli explicite pentru evaluările deja începute.",
-        "Expunerea invocă statistici generale despre abuzul asupra copiilor, fără să izoleze adopțiile sau să demonstreze contribuția lipsei expertizei la aceste cazuri. Nici descrierea adopției ca absolut irevocabilă nu este exactă: art. 475 Cod civil permite încetarea prin desfacere, anulare sau constatarea nulității, în condițiile legii. [Codul civil](https://legislatie.just.ro/Public/DetaliiDocument/282147)."
+        "Art. I pct. 1–2: față de verificarea sănătății și aptitudinilor deja prevăzută la art. 18, se introduce explicit o expertiză medico-legală psihiatrică, ale cărei concluzii sunt luate în considerare în raportul final. Textul nu îi conferă expres valoare decisivă și nu introduce automat o interdicție de adopție pe baza diagnosticului.",
+        "Art. I pct. 2, art. 18 alin. (1¹): prima ipoteză cere elemente obiective privind capacitatea psihică, constatate motivat; alternativa privind evaluarea neconcludentă nu precizează că neclaritățile trebuie să privească aceeași capacitate. Aceasta este principala vulnerabilitate de previzibilitate și proporționalitate.",
+        "Art. I pct. 2, art. 18 alin. (1²): examinarea exclusiv a impactului funcțional al sănătății psihice este o garanție pozitivă împotriva concluziilor bazate numai pe etichete diagnostice.",
+        "Art. I pct. 2, art. 18 alin. (1⁴): există dreptul de a solicita contraexpertiza în 30 de zile de la comunicarea concluziilor. Proiectul nu precizează raportul acestui termen cu finalizarea evaluării și nici soluția pentru concluzii contradictorii; căile de contestare existente nu sunt însă eliminate.",
+        "Art. I pct. 3: expertiza și contraexpertiza sunt gratuite pentru persoana evaluată, iar plata revine bugetului Ministerului Sănătății. Nu sunt introduse taxe sau amenzi; rămân costuri administrative, deplasări și posibile întârzieri pentru solicitanți.",
+        "Art. II–III: legea intră în vigoare la 60 de zile după publicare, dar termenul pentru adaptarea normelor expiră abia după alte 90 de zile. Poate exista astfel o perioadă de până la 90 de zile cu procedura nouă aplicabilă și normele încă neadaptate, fără ca aceasta să suspende automat legea.",
+        "Art. 18 alin. (3), nemodificat, permite evaluarea și prin organisme private autorizate, în timp ce noua solicitare a expertizei aparține DGASPC. Trebuie clarificat circuitul sesizării între evaluatorul privat și direcție.",
+        "Proiectul nu conține abrogări, sancțiuni sau dispoziții care să impună automat reexpertizarea tuturor titularilor unor atestate existente. Art. II, deși intitulat «Dispoziții tranzitorii», nu stabilește expres regimul evaluărilor deja începute."
       ],
-      "blindSpotsCaught": "Limitarea expertizei la impactul funcțional nu elimină automat impedimentul preexistent din art. 459 Cod civil privind persoanele cu boli psihice și handicap mintal. Este necesară corelarea normelor, pentru a clarifica raportul dintre diagnosticul medical, funcționalitate și eligibilitatea pentru adopție; proiectul nu modifică expres această interdicție. [Art. 459, astfel cum a fost modificat prin Legea nr. 71/2011](https://portal.just.ro/338/Documents/Legea%20de%20punere%20in%20aplicare%20a%20%20NCC.pdf).",
-      "constitutionalityNote": "Scopul este susținut de art. 49, iar gratuitatea, evaluarea funcțională și contraexpertiza sunt garanții pozitive. Problemele de claritate și corelare trebuie examinate prin art. 1 alin. (5), împreună cu egalitatea, viața privată și accesul la justiție, protejate de art. 16, 26 și 21. Art. 23 alin. (12) privește legalitatea pedepselor și nu este incident direct: proiectul nu introduce pedepse. Pentru art. 138 alin. (5), sursa finanțării este indicată, dar sustenabilitatea cheltuielii trebuie documentată; lipsa cuantificării nu dovedește singură neconstituționalitatea. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355).",
-      "euLawNote": "Directiva 2018/958 privește accesul la profesii reglementate și exercitarea lor, nu atestarea adoptatorilor. Textul nu modifică expres calificările profesionale și nu dovedește crearea unui monopol nou; trebuie totuși verificat dacă extinde o activitate rezervată și justificată proporțional orice asemenea extindere. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32018L0958). Nu reglementează produse sau servicii digitale/AI, astfel că nu identific un temei pentru notificare TRIS. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=celex:32015L1535). Trimiterea generică la protecția datelor trebuie completată cu reguli privind accesul, transmiterea și păstrarea datelor medicale, respectând art. 5, 6 și 9 GDPR. [GDPR](https://eur-lex.europa.eu/legal-content/RO/TXT/PDF/?uri=CELEX:32016R0679). Convenția de la Haga este un tratat internațional distinct de dreptul UE și nu impune această expertiză specifică. [Convenția, art. 5 și 15](https://www.hcch.net/en/instruments/conventions/full-text/?cid=69).",
+      "blindSpotsCaught": "Termenul normelor curge de la intrarea în vigoare, nu de la publicare: termenul-limită ajunge astfel la aproximativ 150 de zile după publicare. În plus, o «comisie distinctă» pentru contraexpertiză nu garantează textual excluderea tuturor autorilor primei expertize; această independență trebuie verificată în regimul medico-legal aplicabil și precizată dacă este necesar. Garanțiile generale nerepetate în proiect nu pot fi considerate eliminate.",
+      "constitutionalityNote": "Protecția copilului, prevăzută de art. 49, justifică verificarea aptitudinilor parentale. Art. 1 alin. (5), art. 16 și art. 26 cer însă criterii previzibile, aplicare nediscriminatorie și o ingerință proporțională în viața privată; declanșarea expertizei pentru rezultate generic neconcludente merită restrânsă. Contraexpertiza trebuie corelată cu contestarea evaluării pentru efectivitatea protecției juridice, relevantă și pentru art. 21. Art. 23 alin. (12), referitor la pedepse, nu este incident direct, deoarece nu se introduc sancțiuni penale. Sursa de finanțare este indicată expres, astfel că încălcarea art. 138 alin. (5) nu rezultă automat; trebuie verificate fundamentarea cheltuielilor și îndeplinirea obligației de solicitare a informării Guvernului potrivit art. 111 alin. (1). Analiza se bazează pe textele furnizate; verificarea externă a legislației și a dosarului parlamentar nu a fost disponibilă.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor asupra accesului la profesii reglementate sau exercitării acestora; proiectul nu introduce explicit asemenea restricții, deci nu rezultă obligația testului specific directivei. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu rezultă din text: nu sunt reglementate produse ori servicii ale societății informaționale. Rezervarea expertizelor instituțiilor medico-legale competente nu demonstrează, singură, crearea unui monopol comercial nou sau încălcarea concurenței. Datele psihiatrice sunt date privind sănătatea: trimiterea la legislația generală păstrează aplicabilitatea GDPR, dar implementarea trebuie să respecte art. 5, 6, 9 și 32, inclusiv necesitatea datelor, temeiurile prelucrării, accesul limitat și securitatea. Convenția de la Haga invocată în motivare este un instrument internațional distinct de dreptul UE și nu impune prin ea însăși această procedură concretă.",
       "senatForm": {
-        "articleRef": "Art. I pct. 2 – art. 18 alin. (1⁴)",
-        "proposalContent": "(1⁴) Raportul expertizei se comunică persoanei în 5 zile lucrătoare. În 30 de zile, aceasta poate cere contraexpertiza, realizată în 30 de zile de o comisie fără membri ai primei comisii. Termenul art. 20 alin. (1) se suspendă de la comunicarea raportului până la expirarea termenului de cerere sau, dacă s-a cerut contraexpertiza, până la comunicarea rezultatului.",
-        "argumentation": "Dreptul la contraexpertiză trebuie exercitat înaintea raportului final. Termenul propus de 30 de zile este necorelat cu evaluarea de maximum 90 de zile și contestația de 5 zile lucrătoare. Amendamentul stabilește comunicarea, separarea comisiilor și termene verificabile, pentru ca dreptul să poată fi folosit efectiv.",
-        "otherComments": "Propunere cetățenească pentru comisiile de muncă și juridică ale Camerei Deputaților; poate fi preluată de un deputat. Termenul de amendamente indicat, 23.09.2026, a trecut; e-mailul nu echivalează cu depunerea unui amendament parlamentar. Corelați și art. II–III, pentru adoptarea normelor până la intrarea în vigoare."
-      }
+        "articleRef": "Art. I pct. 2 – art. 18 alin. (1¹)",
+        "proposalContent": "(1¹) Dacă evaluarea identifică elemente obiective privind capacitatea psihică de exercitare a responsabilităților parentale, care nu pot fi clarificate prin evaluarea obișnuită, direcția solicită motivat o expertiză medico-legală psihiatrică. Caracterul neconcludent al evaluării, în lipsa acestor elemente, nu justifică expertiza.",
+        "argumentation": "Formula privind rezultatele neconcludente poate permite trimiterea la psihiatrie pentru neclarități fără legătură cu sănătatea psihică. Un prag obiectiv, motivat și subsidiar protejează viața privată, limitează discriminarea și păstrează protecția copilului.",
+        "otherComments": "Corelați termenul contraexpertizei cu finalizarea și contestarea evaluării. Normele trebuie adaptate până la intrarea în vigoare. Clarificați evaluările în curs și circuitul evaluatorilor privați. Fundamentați costurile și verificați solicitarea informării Guvernului potrivit art. 111 alin. (1) din Constituție."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T23:06:43.586Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:48:15.345Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

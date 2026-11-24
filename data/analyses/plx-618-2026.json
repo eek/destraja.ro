@@ -1,117 +1,172 @@
 {
   "billId": "PL-x 618/2026",
   "slug": "plx-618-2026",
-  "updatedAt": "2026-10-28T21:51:01.277Z",
+  "version": "senat",
+  "updatedAt": "2026-11-24T14:49:18.466Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 1593,
+    "ordinanceChars": 0,
+    "memoChars": 5380,
+    "memoSupplied": 5380,
+    "marker": "SF-C99F0E6E"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-618-2026.json",
+    "form": "senat",
+    "textHash": "c99f0e6ebfba9014",
+    "fetchedAt": "2026-11-19T09:39:31.473Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
     "riskScore": 1.7,
     "riskLevel": "green",
     "plainTitle": "7 aprilie devine „Ziua Mircea Lucescu”, fără zi liberă",
-    "summaryTlDr": "Lege pur simbolică și inofensivă: recunoaște oficial o zi de omagiu, fără zi liberă, fără obligații pentru nimeni și fără cheltuieli obligatorii. Singurele probleme sunt de redactare, nu de fond.",
-    "initiatorClaim": "Inițiatorii vor ca statul să recunoască oficial contribuția lui Mircea Lucescu la fotbalul românesc. Au ales 7 aprilie, data decesului său, ca zi anuală de omagiu și de promovare a sportului în rândul tinerilor.",
-    "realityCheck": "Legea doar trece 7 aprilie în calendarul zilelor omagiale. Art. 2-4 folosesc exclusiv „pot”, deci nimeni nu e obligat să organizeze ceva, iar banii pot veni doar din bugetele deja aprobate sau din sponsorizări. Nu este zi liberă, pentru că art. 139 din Codul muncii enumeră limitativ zilele nelucrătoare, deși eticheta „sărbătoare națională” poate crea această impresie, iar art. 2 conține o formulare greșită („afirmarea României în sportul românesc european și mondial”).",
+    "summaryTlDr": "Lege simbolică și benignă. Nu creează zi liberă, obligații, taxe sau sancțiuni. Singura problemă reală este termenul „sărbătoare națională”, care poate fi înțeles greșit ca zi nelucrătoare.",
+    "initiatorClaim": "Inițiatorii vor ca statul să recunoască oficial contribuția lui Mircea Lucescu la fotbalul românesc și internațional. Ziua ar urma să ofere un cadru anual pentru acțiuni educative și sportive. Data aleasă este cea a decesului, deoarece 29 iulie, ziua nașterii, este deja Ziua Imnului Național.",
+    "realityCheck": "Legea are doar efect declarativ. Art. 2–4 folosesc exclusiv verbul „pot”, deci nicio autoritate, școală, federație sau televiziune publică nu este obligată să facă ceva. Banii se dau doar din bugetele deja aprobate sau din sponsorizări. Legea nu modifică art. 139 din Codul muncii, deci 7 aprilie nu devine zi liberă, însă formula „sărbătoare națională” din titlu și din art. 1 poate crea confuzie la angajatori și salariați.",
     "affectedGroups": [
       "Sănătate & Educație",
-      "Toți cetățenii",
-      "Angajați & HR"
+      "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 2",
-      "proposalContent": "La art. 2, sintagma „la afirmarea României în sportul românesc european și mondial” se înlocuiește cu „la afirmarea sportului românesc pe plan european și mondial”, iar „organiza și/sau sprijini” se înlocuiește cu „organiza ori sprijini”.",
-      "argumentation": "Textul actual („afirmarea României în sportul românesc european și mondial”) e greșit: România nu se afirmă în propriul sport, iar „românesc european” nu are sens. Corectura păstrează intenția inițiatorilor. „Și/sau” e evitat în tehnica legislativă; „ori” acoperă ambele variante. Temei: claritatea legii, art. 1 alin. (5) din Constituție și Legea nr. 24/2000.",
-      "otherComments": "Proiectul e benign: nu impune obligații sau cheltuieli. Termenul de amendamente (6.10.2026) a trecut, dar fiind o corectură redacțională o poate prelua un membru al comisiei la dezbatere. Comisia ar putea preciza în raport că „sărbătoare națională” nu înseamnă zi liberă (Codul muncii, art. 139), ca să nu creeze așteptări greșite."
+      "articleRef": "Art. 1 și titlul legii",
+      "proposalContent": "Art. 1 se modifică: „Art. 1. – Ziua de 7 aprilie se declară «Ziua Mircea Lucescu», zi națională. Aceasta nu este zi de sărbătoare legală în care nu se lucrează, în sensul art. 139 din Legea nr. 53/2003 – Codul muncii.” Titlul legii se modifică în mod corespunzător, prin înlocuirea sintagmei „sărbătoare națională” cu „zi națională”.",
+      "argumentation": "Art. 12 alin. (2) din Constituție rezervă noțiunea de „Ziua națională” pentru 1 Decembrie, iar „sărbătoare națională” poate fi confundată cu o zi liberă. Practica legislativă folosește „zi națională”. Precizarea expresă, confirmată de expunerea de motive, asigură previzibilitatea (art. 1 alin. 5) pentru angajatori și angajați.",
+      "otherComments": "La art. 2, sintagma „afirmarea României în sportul românesc european și mondial” este confuză. Propun „la afirmarea sportului românesc pe plan european și mondial”. La art. 5, propun eliminarea denumirii marginale „Intrare în vigoare”, neuzuală potrivit normelor de tehnică legislativă (Legea nr. 24/2000)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 34293,
-      "riskScore": 2,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 66640,
+      "sourceEndMarker": "SF-C99F0E6E",
+      "riskScore": 1,
       "riskLevel": "green",
-      "plainTitle": "Declararea zilei de 7 aprilie ca „Ziua Mircea Lucescu”, sărbătoare națională cu caracter simbolic",
-      "verdictShort": "Lege pur simbolică și comemorativă, fără obligații pentru cetățeni sau firme și fără instituirea unei zile libere nelucrătoare. Singurul efect juridic concret este crearea cadrului legal pentru ca primăriile și instituțiile publice să poată deconta opțional evenimente sportive sau culturale din bugetele proprii.",
-      "initiatorClaim": "Inițiatorii doresc consacrarea legislativă a zilei de 7 aprilie (data decesului marelui antrenor) ca „Ziua Mircea Lucescu”, pentru a-i onora contribuția la sportul românesc și pentru a promova modelele de performanță în rândul tinerilor.",
-      "realityCheck": "Norma este exclusiv permisivă („pot organiza”, „pot fi asigurate”) și nu modifică Codul Muncii, deci nu acordă o nouă zi liberă plătită. În practică, articolul 4 oferă autorităților centrale și locale baza legală justificativă pentru a aloca bani publici (în limita bugetelor aprobate) către gale, evenimente comemorative sau competiții sportive locale.",
+      "plainTitle": "7 aprilie devine «Ziua Mircea Lucescu», zi comemorativă fără obligații sau zi liberă",
+      "verdictShort": "Un proiect simbolic și benign, fără impact negativ asupra cetățenilor, firmelor sau bugetului. Nu instituie zi liberă legală și nu impune nicio obligație, având doar mici scăpări de redactare corectabile la Camera Deputaților.",
+      "initiatorClaim": "Inițiatorii (un grup transpartinic de parlamentari) propun consacrarea prin lege a zilei de 7 aprilie — data trecerii în eternitate a lui Mircea Lucescu — drept sărbătoare națională, pentru a-i onora moștenirea sportivă și a promova performanța în rândul tinerilor.",
+      "realityCheck": "În practică, legea este pur declarativă și opțională: autoritățile publice, școlile, cluburile sportive, ONG-urile, TVR și Radio România «pot» (dar nu sunt obligate să) organizeze manifestări sau emisiuni, exclusiv în limita bugetelor deja aprobate ori din sponsorizări și donații. Nu modifică Codul Muncii, deci 7 aprilie rămâne zi lucrătoare obișnuită, și nu introduce taxe, sancțiuni sau birocrație nouă.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 1 și Expunerea de Motive: Deși este intitulată „sărbătoare națională”, legea nu modifică art. 139 din Codul Muncii, deci 7 aprilie rămâne zi lucrătoare normală pentru angajați și angajatori.",
-        "Art. 2 și Art. 4: Autoritățile centrale și locale, școlile și cluburile sportive primesc dreptul (nu obligația) de a organiza evenimente dedicate și de a le finanța din bugetele proprii aprobate sau din sponsorizări.",
-        "Art. 2 conține o eroare de tehnică legislativă și redactare: sintagma „afirmarea României în sportul românesc european și mondial” este pleonastică și omite virgula dintre „românesc” și „european”."
+        "Caracter integral facultativ și fără zi liberă (Art. 1–3): formulările «pot organiza și/sau sprijini» și «pot include» nu generează obligații juridice pentru instituții, unități de învățământ, media publice ori mediul privat, iar Codul Muncii nu este modificat.",
+        "Fără impact bugetar obligatoriu (Art. 4): eventualele cheltuieli sunt opționale și strict plafonate «în limita creditelor bugetare aprobate», putând fi acoperite și din sponsorizări, donații sau alte surse legal constituite.",
+        "Mici scăpări de redactare și claritate (Art. 1, Art. 2, Art. 5): sintagma «sărbătoare națională» poate induce confuzii cu zilele libere legale, art. 2 conține pleonasmul «afirmarea României în sportul românesc european și mondial» și nu precizează expres «în condițiile legii» pentru sprijinul material."
       ],
-      "blindSpotsCaught": "Proiectul a fost adoptat tacit de Senat (Art. 75 alin. 2 teza a III-a din Constituție), fără dezbatere în plen și fără corectarea greșelilor de redactare din Art. 2. Totodată, ilustrează fenomenul de inflație legislativă prin care Parlamentul emite legi organice sau ordinare pentru zile tematice punctuale, care oferă primăriilor temei legal pentru cheltuieli de protocol și evenimente festive.",
-      "constitutionalityNote": "Proiectul nu încalcă prevederi constituționale, neavând caracter sancționator sau restrictiv de drepturi. Din perspectiva Art. 1 alin. (5) privind calitatea legii și a Legii nr. 24/2000 privind normele de tehnică legislativă, redactarea Art. 2 este ușor deficitară stilistic („afirmarea României în sportul românesc european”), iar folosirea titulaturii de „sărbătoare națională” pentru o zi comemorativă sectorială creează confuzie terminologică față de Ziua Națională a României consfințită la Art. 12 alin. (2) din Constituție.",
-      "euLawNote": "Proiectul nu are incidență asupra dreptului Uniunii Europene: nu restrânge accesul la profesii reglementate (Directiva 2018/958 nu este aplicabilă), nu vizează servicii ale societății informaționale (Directiva TRIS 2015/1535 nu se aplică) și nu distorsionează piața unică sau regulile privind ajutorul de stat.",
+      "blindSpotsCaught": "Proiectul a trecut prin Senat prin adoptare tacită (art. 75 alin. 2 teza a III-a din Constituție), fără filtrul obișnuit de tehnică legislativă: art. 5 are titlu marginal («Intrare în vigoare») spre deosebire de art. 1–4, termenul de 30 de zile pentru intrarea în vigoare nu este motivat în expunerea de motive, iar posibilitatea autorităților de a «sprijini logistic și material» din art. 2 nu face trimitere explicită la legislația finanțărilor nerambursabile și a achizițiilor publice.",
+      "constitutionalityNote": "Proiectul este în principiu constituțional: respectă art. 138 alin. (5) privind sursa de finanțare (cheltuielile fiind facultative și limitate la creditele bugetare aprobate) și art. 78 privind intrarea în vigoare. Sub aspectul art. 1 alin. (5) (calitatea legii) și al distincției față de art. 12 alin. (2) (Ziua națională – 1 Decembrie), utilizarea termenului «sărbătoare națională» pentru o zi comemorativă lucrătoare și micile erori de redactare din art. 2 și art. 5 merită corectate la Camera Deputaților.",
+      "euLawNote": "Fără incidență asupra dreptului Uniunii Europene: actul are caracter pur intern și comemorativ, nu reglementează profesii și nu restrânge concurența (Directiva (UE) 2018/958 nu se aplică), nici nu vizează servicii ale societății informaționale sau reglementări tehnice (Directiva (UE) 2015/1535 – TRIS nu se aplică). Eventualul sprijin material acordat de autorități unor cluburi cu activitate economică rămâne guvernat de regulile generale privind ajutorul de stat.",
       "senatForm": {
-        "articleRef": "Art. 2 și Art. 4 din proiectul de lege",
-        "proposalContent": "La Art. 2, sintagma „în sportul românesc european și mondial” se înlocuiește cu „în sportul național, european și mondial”. La Art. 4, se adaugă la final teza: „Cheltuielile din fonduri publice sunt permise exclusiv pentru activități sportive și educative dedicate tinerilor și copiilor.”",
-        "argumentation": "Corectează eroarea de redactare și pleonasmul din Art. 2 („afirmarea României în sportul românesc” fără virgulă) și previne folosirea Art. 4 ca paravan pentru decontarea unor recepții, gale festive sau achiziții directe inoportune din bugetele locale, direcționând banii publici exclusiv spre sportul juvenil.",
-        "otherComments": "Proiectul a trecut tacit de Senat fără dezbatere reală. Deși este o inițiativă simbolică benignă, fără obligații pentru mediul privat sau zile libere suplimentare, Parlamentul ar trebui să evite inflația de legi omagiale punctuale, care încarcă inutil fondul activ al legislației."
-      }
+        "articleRef": "Art. 1 și Art. 2",
+        "proposalContent": "La art. 1, sintagma „ca sărbătoare națională” se înlocuiește cu „ca zi națională comemorativă”. La art. 2, sintagma „pot organiza și/sau sprijini logistic și material” devine „pot organiza și, în condițiile legii, sprijini logistic și material”, iar finalul devine „afirmarea sportului românesc la nivel european și mondial”.",
+        "argumentation": "Termenul „sărbătoare națională” generează confuzie cu zilele libere legale și cu Ziua Națională (art. 12 Constituție). Precizarea „în condițiile legii” pentru sprijinul material previne cheltuirea discreționară a fondurilor publice, iar reformularea finalului art. 2 corectează pleonasmul „afirmarea României în sportul românesc”.",
+        "otherComments": "Proiectul a trecut tacit de Senat, fără corecturi de tehnică legislativă. Recomandăm eliminarea titlului marginal „Intrare în vigoare” de la art. 5 (pentru uniformitate cu art. 1–4, conform Legii nr. 24/2000) și verificarea oportunității termenului de 30 de zile de la art. 5, nemotivat în expunerea de motive."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 121220,
-      "riskScore": 1,
+      "durationMs": 32459,
+      "sourceEndMarker": "SF-C99F0E6E",
+      "riskScore": 2,
       "riskLevel": "green",
       "plainTitle": "7 aprilie devine „Ziua Mircea Lucescu”, fără zi liberă",
-      "verdictShort": "Lege pur simbolică și inofensivă: recunoaște oficial o zi de omagiu, fără zi liberă, fără obligații pentru nimeni și fără cheltuieli obligatorii. Singurele probleme sunt de redactare, nu de fond.",
-      "initiatorClaim": "Inițiatorii vor ca statul să recunoască oficial contribuția lui Mircea Lucescu la fotbalul românesc. Au ales 7 aprilie, data decesului său, ca zi anuală de omagiu și de promovare a sportului în rândul tinerilor.",
-      "realityCheck": "Legea doar trece 7 aprilie în calendarul zilelor omagiale. Art. 2-4 folosesc exclusiv „pot”, deci nimeni nu e obligat să organizeze ceva, iar banii pot veni doar din bugetele deja aprobate sau din sponsorizări. Nu este zi liberă, pentru că art. 139 din Codul muncii enumeră limitativ zilele nelucrătoare, deși eticheta „sărbătoare națională” poate crea această impresie, iar art. 2 conține o formulare greșită („afirmarea României în sportul românesc european și mondial”).",
+      "verdictShort": "Lege simbolică și benignă. Nu creează zi liberă, obligații, taxe sau sancțiuni. Singura problemă reală este termenul „sărbătoare națională”, care poate fi înțeles greșit ca zi nelucrătoare.",
+      "initiatorClaim": "Inițiatorii vor ca statul să recunoască oficial contribuția lui Mircea Lucescu la fotbalul românesc și internațional. Ziua ar urma să ofere un cadru anual pentru acțiuni educative și sportive. Data aleasă este cea a decesului, deoarece 29 iulie, ziua nașterii, este deja Ziua Imnului Național.",
+      "realityCheck": "Legea are doar efect declarativ. Art. 2–4 folosesc exclusiv verbul „pot”, deci nicio autoritate, școală, federație sau televiziune publică nu este obligată să facă ceva. Banii se dau doar din bugetele deja aprobate sau din sponsorizări. Legea nu modifică art. 139 din Codul muncii, deci 7 aprilie nu devine zi liberă, însă formula „sărbătoare națională” din titlu și din art. 1 poate crea confuzie la angajatori și salariați.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 1 folosește formula „sărbătoare națională”, dar nu adaugă 7 aprilie la zilele libere. Lista din art. 139 din Codul muncii rămâne neschimbată, așa că nu există niciun efect asupra angajaților sau angajatorilor.",
-        "Art. 2-4 sunt integral facultative („pot organiza”, „pot include”, „pot fi asigurate”). Primăriile, școlile, cluburile și SRR/SRTV nu au nicio obligație, deci autonomia locală și independența editorială rămân neatinse.",
-        "Art. 4 limitează orice cheltuială la „creditele bugetare aprobate” și la sponsorizări sau donații. Legea nu cere bani noi de la buget, în linie cu art. 138 alin. (5) din Constituție.",
-        "Art. 2 are o eroare de redactare: „afirmarea României în sportul românesc european și mondial” nu are sens, pentru că România nu se poate afirma în propriul sport. Tot acolo apare formula „și/sau”, evitată în tehnica legislativă.",
-        "Senatul nu a dezbătut proiectul. A fost adoptat tacit, prin depășirea termenului (art. 75 alin. (2) teza a III-a din Constituție), așa că singura dezbatere reală are loc la Camera Deputaților, care este camera decizională."
+        "Art. 1 folosește formula „sărbătoare națională”, nu formula uzuală „zi națională”. Textul nu precizează că ziua nu este liberă, deși expunerea de motive afirmă asta. Ziua nu devine liberă, pentru că lista zilelor libere legale din art. 139 Codul muncii nu se modifică.",
+        "Art. 2 și art. 3 sunt pur facultative („pot organiza”, „pot include”). Nu există obligații pentru instituții, școli, cluburi, SRR sau SRTV și nici sancțiuni.",
+        "Art. 4 limitează finanțarea la creditele bugetare deja aprobate și la surse private. Impactul bugetar obligatoriu este practic zero, iar pentru IMM-uri și cetățeni nu există costuri sau birocrație nouă.",
+        "Art. 2 are o formulare defectuoasă („afirmarea României în sportul românesc european și mondial”). Art. 5 conține o denumire marginală („Intrare în vigoare”) neobișnuită în tehnica legislativă. Sunt doar scăpări de redactare.",
+        "Senatul a adoptat proiectul tacit, prin depășirea termenului (art. 75 alin. 2 teza a III-a din Constituție), deci fără dezbatere de fond. Camera Deputaților este camera decizională."
       ],
-      "blindSpotsCaught": "Adoptarea tacită la Senat înseamnă că textul nu a fost analizat până acum de nicio comisie, ceea ce explică de ce eroarea de la art. 2 a rămas necorectată. Expunerea de motive are un capitol despre „garanțiile pentru drepturi fundamentale”, dar nu discută niciun drept fundamental. De asemenea, temeiul „juridic solid” invocat pentru data de 7 aprilie este doar simbolic, fiind data decesului. Numai art. 5 are titlu marginal („Intrare în vigoare”), ceea ce e inconsecvent cu restul textului. Termenul de 30 de zile până la intrarea în vigoare este permis de art. 78 din Constituție.",
-      "constitutionalityNote": "Proiectul nu ridică probleme de constituționalitate. Efectul juridic este clar (nu impune nimic), iar formularea defectuoasă de la art. 2 nu afectează aplicarea, deci exigențele art. 1 alin. (5) sunt respectate în substanță. Art. 12 alin. (2) rămâne neatins: Ziua națională rămâne 1 Decembrie, iar „sărbătoarea națională” este o zi omagială, ca Ziua Imnului Național (29 iulie, Legea nr. 99/1998). Formulările facultative respectă autonomia locală (art. 120) și autonomia serviciilor publice de radio și televiziune (art. 31 alin. (5)). Art. 4 respectă art. 138 alin. (5), pentru că nu creează cheltuieli fără sursă. Adoptarea tacită la Senat este o procedură constituțională validă. Art. 23 alin. (12) nu este relevant, deoarece legea nu prevede sancțiuni.",
-      "euLawNote": "Dreptul UE nu este afectat. Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează accesul la nicio profesie. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică, fiindcă textul nu conține reguli tehnice pentru produse sau pentru servicii ale societății informaționale. Concurența și piața unică nu sunt afectate. Un singur punct de atenție: dacă o autoritate ar finanța direct un club profesionist pentru astfel de evenimente, sprijinul ar trebui să respecte regulile privind ajutorul de stat (art. 107 TFUE), de regulă prin plafonul de minimis. Legea însă nu obligă la astfel de finanțări.",
+      "blindSpotsCaught": "Formula „sărbătoare națională” poate intra în conflict terminologic cu art. 12 alin. (2) din Constituție, care rezervă noțiunea de „Ziua națională” pentru 1 Decembrie. Poate fi confundată și cu „sărbătorile legale” din Codul muncii. Lipsa unei mențiuni exprese că ziua nu este liberă este singura sursă reală de imprevizibilitate. Separat, Senatul a adoptat proiectul tacit, deci textul nu a trecut printr-un filtru de calitate, iar comisiile Camerei sunt singurul loc unde redactarea mai poate fi corectată.",
+      "constitutionalityNote": "Nu se identifică probleme de constituționalitate. Parlamentul poate institui prin lege ordinară zile dedicate unor personalități sau valori, iar practica legislativă confirmă asta. Legea nu restrânge drepturi și nu impune obligații, deci art. 53 nu este incident. Pentru claritate și previzibilitate (art. 1 alin. 5), se recomandă înlocuirea formulei „sărbătoare națională” cu „zi națională” și menționarea expresă că ziua nu este nelucrătoare, ca să nu existe vreo suprapunere aparentă cu Ziua națională prevăzută la art. 12 alin. (2). Neexistând cheltuieli obligatorii noi, art. 138 alin. (5) nu este încălcat.",
+      "euLawNote": "Dreptul UE nu este incident. Legea nu reglementează profesii, deci Directiva (UE) 2018/958 nu se aplică. Nu conține reglementări tehnice sau reguli privind serviciile societății informaționale, deci Directiva (UE) 2015/1535 (TRIS) nu se aplică. Nu creează bariere pe piața unică și nu acordă ajutoare de stat selective. Sprijinul facultativ pentru manifestări culturale și sportive, din bugete aprobate, nu ridică probleme de concurență.",
       "senatForm": {
-        "articleRef": "Art. 2",
-        "proposalContent": "La art. 2, sintagma „la afirmarea României în sportul românesc european și mondial” se înlocuiește cu „la afirmarea sportului românesc pe plan european și mondial”, iar „organiza și/sau sprijini” se înlocuiește cu „organiza ori sprijini”.",
-        "argumentation": "Textul actual („afirmarea României în sportul românesc european și mondial”) e greșit: România nu se afirmă în propriul sport, iar „românesc european” nu are sens. Corectura păstrează intenția inițiatorilor. „Și/sau” e evitat în tehnica legislativă; „ori” acoperă ambele variante. Temei: claritatea legii, art. 1 alin. (5) din Constituție și Legea nr. 24/2000.",
-        "otherComments": "Proiectul e benign: nu impune obligații sau cheltuieli. Termenul de amendamente (6.10.2026) a trecut, dar fiind o corectură redacțională o poate prelua un membru al comisiei la dezbatere. Comisia ar putea preciza în raport că „sărbătoare națională” nu înseamnă zi liberă (Codul muncii, art. 139), ca să nu creeze așteptări greșite."
-      }
+        "articleRef": "Art. 1 și titlul legii",
+        "proposalContent": "Art. 1 se modifică: „Art. 1. – Ziua de 7 aprilie se declară «Ziua Mircea Lucescu», zi națională. Aceasta nu este zi de sărbătoare legală în care nu se lucrează, în sensul art. 139 din Legea nr. 53/2003 – Codul muncii.” Titlul legii se modifică în mod corespunzător, prin înlocuirea sintagmei „sărbătoare națională” cu „zi națională”.",
+        "argumentation": "Art. 12 alin. (2) din Constituție rezervă noțiunea de „Ziua națională” pentru 1 Decembrie, iar „sărbătoare națională” poate fi confundată cu o zi liberă. Practica legislativă folosește „zi națională”. Precizarea expresă, confirmată de expunerea de motive, asigură previzibilitatea (art. 1 alin. 5) pentru angajatori și angajați.",
+        "otherComments": "La art. 2, sintagma „afirmarea României în sportul românesc european și mondial” este confuză. Propun „la afirmarea sportului românesc pe plan european și mondial”. La art. 5, propun eliminarea denumirii marginale „Intrare în vigoare”, neuzuală potrivit normelor de tehnică legislativă (Legea nr. 24/2000)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 75712,
+      "durationMs": 58584,
+      "sourceEndMarker": "SF-C99F0E6E",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "7 aprilie, zi dedicată lui Mircea Lucescu, fără liber obligatoriu",
-      "verdictShort": "Proiectul are un risc redus: instituie o comemorare și permite activități sportive și educative, fără taxe, sancțiuni sau obligații noi pentru firme. Principalele aspecte de clarificat sunt formularea „sărbătoare națională” și costurile evenimentelor opționale.",
-      "initiatorClaim": "Inițiatorii urmăresc recunoașterea contribuției lui Mircea Lucescu și păstrarea memoriei sale. Ei prezintă această zi ca instrument educativ pentru promovarea sportului, disciplinei și performanței.",
-      "realityCheck": "Art. 1 instituie ziua comemorativă, iar art. 2–3 permit organizarea ori sprijinirea manifestărilor și includerea unor emisiuni în programele radioului și televiziunii publice. Proiectul nu acordă automat o zi liberă și nu modifică regimul zilelor nelucrătoare din Codul muncii; explicația expresă apare însă numai în expunerea de motive. Art. 4 permite cheltuieli din creditele bugetare aprobate, deci caracterul voluntar nu înseamnă cost public zero. [Codul muncii – Inspecția Muncii](https://reges.inspectiamuncii.ro/informatii-utile/codul-muncii/?faqid=8066)",
+      "plainTitle": "Zi dedicată lui Mircea Lucescu, fără liber obligatoriu",
+      "verdictShort": "Proiectul are un efect predominant simbolic și un risc juridic redus. Permite manifestări și finanțarea lor din fonduri existente, fără să introducă taxe, sancțiuni sau obligații pentru cetățeni și firme.",
+      "initiatorClaim": "Inițiatorii urmăresc recunoașterea contribuției lui Mircea Lucescu la sport și promovarea performanței în rândul tinerilor. Expunerea prezintă manifestările ca voluntare și finanțabile în limitele bugetelor aprobate.",
+      "realityCheck": "Art. 1 instituie o sărbătoare națională, dar nu modifică lista zilelor nelucrătoare din Codul muncii. Art. 2–4 permit organizarea, sprijinirea și mediatizarea manifestărilor, fără obligații anuale sau cheltuieli minime impuse. Pot exista cheltuieli publice efective și costuri administrative pentru organizatori, chiar dacă acestea sunt limitate de creditele bugetare aprobate.",
       "affectedGroups": [
         "Sănătate & Educație",
-        "Angajați & HR",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 1: expresia „sărbătoare națională” nu instituie, singură, un drept la liber plătit. O precizare expresă ar preveni confuziile angajaților și angajatorilor.",
-        "Art. 2–3: formularea „pot” conferă posibilități de acțiune, fără să impună organizarea anuală a unor evenimente sau difuzarea obligatorie a unor emisiuni.",
-        "Art. 4: finanțarea publică este permisă în limita creditelor aprobate, alături de sponsorizări și donații. Textul nu cuantifică eventualele costuri și nici nu garantează finanțare organizatorilor.",
-        "Proiectul nu introduce autorizații, raportări, taxe, sancțiuni, exclusivități comerciale sau condiții de acces la profesii; nu rezultă sarcini administrative directe suplimentare pentru cetățeni și IMM-uri."
+        "Art. 1 nu acordă automat o zi liberă: proiectul nu modifică art. 139 din Codul muncii. O precizare expresă ar evita confuzia dintre sărbătoarea simbolică și sărbătoarea legală nelucrătoare.",
+        "Art. 2 și 3 folosesc «pot»: autoritățile, școlile, organizațiile sportive și serviciile publice de radio și televiziune nu sunt obligate să organizeze sau să difuzeze manifestări.",
+        "Art. 4 permite utilizarea banilor publici în limita creditelor aprobate. Nu instituie o alocare obligatorie, o taxă nouă sau o derogare de la regulile generale privind cheltuielile publice.",
+        "Art. 5 stabilește intrarea în vigoare la 30 de zile de la publicare. Textul nu conține dispoziții tranzitorii, abrogări, modificări ale altor legi ori sancțiuni.",
+        "Pentru cetățeni și IMM-uri nu apar cereri, raportări, autorizări sau obligații financiare noi."
       ],
-      "blindSpotsCaught": "Adoptarea tacită la Senat, consemnată potrivit art. 75 alin. (2), nu reprezintă un vot favorabil asupra fondului proiectului. Termenul pentru amendamente indicat pentru Cameră, 6 octombrie 2026, este depășit la data analizei: o opinie cetățenească transmisă comisiilor nu devine automat amendament parlamentar și nu are garantată preluarea. [Fișa Senatului](https://www.senat.ro/legis/lista.aspx?an_cls=2026&nr_cls=L356)",
-      "constitutionalityNote": "Din text nu rezultă o neconstituționalitate evidentă. Pentru art. 1 alin. (5), distincția dintre sărbătoarea comemorativă și ziua nelucrătoare merită explicitată; art. 23 alin. (12), privind legalitatea pedepselor, nu este incident, deoarece proiectul nu stabilește pedepse. Art. 4 identifică surse de finanțare și limitează utilizarea bugetelor aprobate, fără ca aceasta să demonstreze absența oricărui impact financiar, relevant pentru art. 138 alin. (5). Intrarea în vigoare după 30 de zile, prevăzută la art. 5, este permisă de art. 78. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355)",
-      "euLawNote": "Directiva (UE) 2018/958 nu impune aici un test de proporționalitate: proiectul nu restrânge accesul la profesii reglementate sau exercitarea lor. Nu conține reglementări tehnice pentru produse ori norme privind servicii ale societății informaționale, inclusiv AI, care să declanșeze notificarea TRIS potrivit Directivei (UE) 2015/1535; posibilitatea difuzării unor emisiuni comemorative nu constituie o asemenea reglementare. Nu rezultă bariere pentru piața unică ori monopoluri; finanțările concrete trebuie să respecte regulile aplicabile achizițiilor și, după caz, ajutoarelor de stat. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018L0958), [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535)",
+      "blindSpotsCaught": "Mențiunea finală indică adoptarea tacită de către Senat, potrivit art. 75 alin. (2) din Constituție; nu dovedește un vot favorabil pe fond și nu echivalează cu adoptarea definitivă. De asemenea, caracterul voluntar al manifestărilor nu înseamnă absența oricăror cheltuieli publice.",
+      "constitutionalityNote": "Nu rezultă o problemă evidentă de constituționalitate din text. Art. 1 alin. (5) justifică o clarificare terminologică privind zilele nelucrătoare, dar ambiguitatea nu indică singură un viciu grav. Art. 23 alin. (12), referitor la legalitatea pedepselor, nu este incident, deoarece nu sunt prevăzute pedepse. Denumirea de sărbătoare națională nu schimbă Ziua Națională stabilită prin art. 12 alin. (2). Art. 4 identifică surse de finanțare relevante pentru art. 138 alin. (5), însă verificarea integrală a fundamentării bugetare și a procedurii necesită documentele dosarului. Termenul din art. 5 este compatibil cu art. 78. Verificarea externă a legislației și a dosarului nu a fost posibilă.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea acestora. Nici notificarea TRIS în temeiul Directivei (UE) 2015/1535 nu rezultă necesară, deoarece textul nu introduce reglementări tehnice privind produse sau cerințe pentru servicii ale societății informaționale. Nu apar monopoluri, bariere de acces pe piață ori restricții privind servicii digitale sau AI. Finanțările concrete rămân supuse regulilor generale aplicabile, inclusiv celor privind ajutorul de stat atunci când sunt îndeplinite condițiile acestora.",
       "senatForm": {
         "articleRef": "Art. 1",
-        "proposalContent": "Se declară ziua de 7 aprilie „Ziua Mircea Lucescu”, ca sărbătoare națională. Declararea acestei zile nu instituie o zi de sărbătoare legală în care nu se lucrează.",
-        "argumentation": "Precizarea transpune în text intenția declarată în expunerea de motive și previne confuzia dintre o sărbătoare comemorativă și zilele nelucrătoare reglementate de art. 139 din Codul muncii. Nu extinde obligațiile angajatorilor.",
-        "otherComments": "Propunere cetățenească pentru cele două comisii sesizate în fond ale Camerei Deputaților. Termenul indicat, 6 octombrie 2026, a trecut; transmiterea unei opinii nu echivalează cu depunerea unui amendament parlamentar și nu garantează preluarea acesteia."
-      }
+        "proposalContent": "Se declară ziua de 7 aprilie „Ziua Mircea Lucescu”, ca sărbătoare națională. Instituirea acestei sărbători nu modifică regimul zilelor de sărbătoare legală în care nu se lucrează, prevăzut la art. 139 din Legea nr. 53/2003 – Codul muncii, republicată, cu modificările și completările ulterioare.",
+        "argumentation": "Precizarea transpune în textul normativ intenția declarată în expunerea de motive și previne interpretarea sărbătorii ca zi liberă suplimentară. Clarifică efectele pentru angajatori, salariați și instituții, fără să afecteze zilele nelucrătoare care pot coincide cu această dată.",
+        "otherComments": "Propunerea privește forma adoptată tacit de Senat și poate fi preluată ca amendament de un deputat în comisiile raportoare ale Camerei Deputaților. Nu presupune alocări bugetare suplimentare și păstrează caracterul facultativ al manifestărilor."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T21:51:01.277Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 1,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:49:18.466Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

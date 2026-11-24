@@ -2,118 +2,173 @@
   "billId": "PL-x 582/2023",
   "slug": "plx-582-2023",
   "version": "senat",
-  "updatedAt": "2026-11-10T09:13:32.020Z",
+  "updatedAt": "2026-11-24T14:47:46.312Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 3698,
+    "ordinanceChars": 0,
+    "memoChars": 4354,
+    "memoSupplied": 4354,
+    "marker": "SF-B162B83D"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-582-2023.json",
+    "form": "senat",
+    "textHash": "b162b83dd0bfd392",
+    "fetchedAt": "2026-11-19T11:20:55.995Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 7138,
+    "truncated": false,
+    "included": true,
+    "key": "ef9637aadeff2f89"
+  },
   "consensus": {
-    "riskScore": 3.7,
-    "riskLevel": "green",
-    "plainTitle": "Primăriile pot păstra terenurile primite de la stat dacă termină investițiile întârziate",
-    "summaryTlDr": "Este o lege tehnică și în mare parte utilă: oferă o soluție legală pentru investițiile locale începute și blocate când a expirat termenul. Textul are însă scăpări de redactare și permite prelungiri repetate, fără limită.",
-    "initiatorClaim": "Inițiatorii spun că vor să umple un gol din Codul administrativ. Este vorba de situația în care termenul de realizare a investiției pe un imobil primit de la stat a expirat, autoritatea locală vrea să termine lucrările, iar statul nu are interes ca bunul să-i revină.",
-    "realityCheck": "Legea introduce o excepție de la alin.(7) al art.292. Dacă investiția a fost începută și consiliul local sau județean își asumă finalizarea, bunul poate rămâne în domeniul public local printr-o hotărâre a Guvernului, inițiată de ministerul care l-a administrat anterior. Problemele: nu există un prag minim pentru ce înseamnă investiție «începută», nimeni nu are un termen în care să se pronunțe, iar alin.(17) lit.c) permite reluarea procedurii la nesfârșit.",
+    "riskScore": 4,
+    "riskLevel": "yellow",
+    "plainTitle": "Primăriile pot păstra terenurile primite de la stat dacă termenul investiției a expirat, dar lucrarea e începută",
+    "summaryTlDr": "Este o lege tehnică și utilă, care închide un gol real: investiții locale începute pe bunuri primite de la stat, dar neterminate la termen. Redactarea are însă defecte. Cererea este pusă în sarcina autorității greșite, numerotarea se suprapune peste un alineat abrogat, iar procedura poate fi repetată fără limită.",
+    "initiatorClaim": "Inițiatorii spun că Codul administrativ nu rezolvă situația în care termenul pentru o investiție pe un bun trecut de la stat la o comună, un oraș sau un județ a expirat, deși autoritatea locală vrea să termine lucrarea. Ei vor ca bunul să nu se mai întoarcă automat la stat.",
+    "realityCheck": "Proiectul introduce o derogare de la art.292 alin.(7). Dacă investiția a fost începută, bunul poate rămâne în domeniul public local, prin hotărâre de Guvern inițiată de ministerul care l-a administrat, cu un nou termen. Alin.(17) lit.c) permite apoi reluarea aceleiași proceduri la expirarea noului termen. Nu există plafon de durată sau de număr de reluări, așa că termenul inițial poate deveni formal. Nu există nici termen în care ministerul să inițieze hotărârea de Guvern și nici nu se spune ce se întâmplă dacă cererea este respinsă.",
     "affectedGroups": [
-      "Proprietari & Imobiliare",
       "Toți cetățenii",
-      "IMM & Antreprenori"
+      "Proprietari & Imobiliare"
     ],
     "senatForm": {
-      "articleRef": "Art. unic, art.292 alin.(12) și alin.(17) lit.c)",
-      "proposalContent": "Alin.(12): «...prelungit potrivit alin.(7) lit.b)...». La alin.(17) lit.c) se adaugă: «Procedura se aplică o singură dată, iar termenul suplimentar nu poate depăși 3 ani.» Se introduce alin.(15^1): «Hotărârea prevăzută la alin.(15) se adoptă sau solicitarea se respinge motivat în termen de 90 de zile de la primire.»",
-      "argumentation": "Trimiterea la «lit.b)» din alin.(12) este imprecisă, pentru că alin.(12) nu are litere (Legea 24/2000). Alin.(17) lit.c) permite reluarea nelimitată a procedurii, golind de conținut condiția transferului. Lipsa unui termen de soluționare lasă bunul într-un statut juridic incert, contrar art.1 alin.(5) din Constituție.",
-      "otherComments": "Recomand definirea pragului minim pentru «obiectiv început», de exemplu stadiul fizic atestat prin raport de expertiză tehnică. Trebuie clarificat și cine formulează solicitarea: alin.(12) indică autoritățile de la art.287 lit.a), iar alin.(13) presupune o hotărâre a consiliului local sau județean."
+      "articleRef": "Art. unic – art.292 alin.(12)-(18) Cod adm.",
+      "proposalContent": "Renumerotare ca alin.(11^1)-(11^7), alin.(12) fiind abrogat. Primul alineat: cererea se formulează de consiliul județean/local, prin hotărâre, către autoritățile de la art.287 lit.a), cu trimitere la «alin.(7) lit.b)». HG se inițiază în 60 de zile, aplicându-se alin.(1^1). Noul termen: max. 3 ani; reluarea procedurii (fostul alin.17 lit.c) – o singură dată.",
+      "argumentation": "Textul actual pune cererea în sarcina autorităților centrale (art.287 lit.a), deși ea vine de la UAT, și trimite vag la «lit.b)». Fără termen pentru minister și fără plafon, procedura poate fi reluată la nesfârșit, golind de conținut condiția investiției din art.292 alin.(7). Claritatea normei este cerută de art.1 alin.(5) din Constituție.",
+      "otherComments": "Proiectul (2023) trebuie corelat cu OUG nr.7/2026, care a modificat art.292 alin.(7) lit.b), (8) și (9). Recomand definirea «obiectivului început» (ex. ordin de începere și execuție fizică minimă), precizarea efectelor respingerii cererii (aplicarea alin.(9)-(11)) și transmiterea recepției către autoritatea de la art.287 lit.a)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 70958,
-      "riskScore": 4,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 74927,
+      "sourceEndMarker": "SF-B162B83D",
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Păstrarea de către primării și consilii județene a terenurilor și clădirilor primite de la stat, chiar dacă au depășit termenul de finalizare a investițiilor",
-      "verdictShort": "O măsură administrativă cu intenție practică bună — salvarea șantierelor locale deja începute pe bunuri preluate de la stat —, dar redactată cu o buclă legislativă care permite prelungirea la nesfârșit a lucrărilor fără niciun termen-limită maxim.",
-      "initiatorClaim": "Inițiatorii vor să ofere o soluție legală pentru situațiile în care autoritățile locale au început o investiție pe un imobil primit gratuit din domeniul public al statului, au depășit termenul de realizare (inclusiv prelungirea de 5 ani), dar vor să finalizeze lucrările, iar ministerele nu mai au nevoie de bunul deja modificat.",
-      "realityCheck": "În practică, legea creează o excepție de la obligația restituirii bunului către stat dacă lucrările au fost măcar „începute”, fără a defini un prag minim de execuție fizică și fără a impune un termen maxim pentru finalizare în alin. (13). Mai mult, prin alin. (17) lit. c) și alin. (18), dacă primăria nu termină lucrarea nici în noul termen aprobat prin Hotărâre de Guvern, poate cere din nou păstrarea bunului în buclă infinită.",
+      "plainTitle": "Prelungiri fără limită pentru primării pe imobilele primite de la stat",
+      "verdictShort": "Intenția de a salva investițiile locale aflate deja în șantier este rezonabilă, însă legea este redactată deficitar și deschide o buclă de prelungiri infinite pe imobilele statului. În plus, proiectul conține o eroare gravă privind autoritatea care face cererea și este necorelat cu modificările ulterioare ale Codului administrativ.",
+      "initiatorClaim": "Inițiatorii susțin că lipsa unei soluții legale după expirarea termenului de realizare a unei investiții locale blochează șantiere deja începute și obligă statul să preia înapoi imobile de care nu mai are nevoie, plătind eventual despăgubiri. Proiectul ar crea cadrul prin care bunul rămâne la autoritatea locală cu acordul Guvernului.",
+      "realityCheck": "În practică, noile alineate (12)-(18) permit autorităților locale care au depășit deja termenele legale fără să fi terminat lucrările să ceară păstrarea imobilului de la stat pe o perioadă nelimitată și să repete această procedură la nesfârșit. Textul nu definește ce înseamnă că investiția «a fost începută», nu impune un stadiu fizic minim și nu stabilește termene de răspuns pentru Guvern, lăsând loc arbitrariului politic și blocării unor terenuri sau clădiri publice prin lucrări simbolice.",
       "affectedGroups": [
-        "Proprietari & Imobiliare",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Eroare de corelare la alin. (12): textul prevede că „autoritățile prevăzute la art. 287 lit. a) solicită rămânerea bunului în domeniul public al UAT”, deși art. 287 lit. a) desemnează Guvernul și ministerele (autoritățile centrale), în timp ce la alin. (17) lit. c) obligația de a solicita aparține corect autorităților administrației publice locale.",
-        "Lipsa unui plafon temporal la alin. (13): spre deosebire de regula actuală din art. 292 alin. (7) lit. b), care limitează prelungirea la maximum 5 ani, noul mecanism lasă consiliul local/județean să își stabilească orice „perioadă de timp necesară”, fără o limită maximă expresă.",
-        "Prelungiri perpetue prin alin. (17) lit. c) și alin. (18): dacă investiția nu este gata nici după noul termen stabilit prin Hotărâre de Guvern, autoritatea locală poate relua procedura de la alin. (13)-(16) de un număr nelimitat de ori, câtă vreme șantierul figurează ca „început”."
+        "Eroare de redactare la art. 292 alin. (12): textul prevede că «autoritățile prevăzute la art. 287 lit. a)» (adică autoritățile centrale ale statului) solicită Guvernului rămânerea bunului la UAT și tot ele inițiază HG de aprobare (alin. 15), contrazicând alin. (17) lit. c), unde aceeași solicitare revine autorităților administrației publice locale.",
+        "Buclă nelimitată de prelungiri (art. 292 alin. 17 lit. c și alin. 18): dacă nici noul termen aprobat prin HG nu este respectat, primăria sau consiliul județean poate cere din nou rămânerea bunului, reluând procedura din alin. (13)-(16) fără limită de număr de prelungiri, fără durată maximă și fără un prag minim de execuție a lucrărilor.",
+        "Lipsă de criterii obiective, termene procedurale și corelare legislativă: proiectul nu fixează un termen în care ministerele/Guvernul trebuie să soluționeze solicitarea și nu este actualizat la forma art. 292 modificată prin OUG nr. 7/2026 (unde alin. 7 lit. b a fost deja relaxat, iar un alin. 12 figurează abrogat)."
       ],
-      "blindSpotsCaught": "Proiectul nu stabilește niciun termen de decădere înăuntrul căruia autoritatea locală sau centrală trebuie să demareze procedura după expirarea termenului inițial de investiție și nu definește ce înseamnă „obiectiv de investiții început” (putând acoperi inclusiv lucrări incipiente sau șantiere abandonate cu anii).",
-      "constitutionalityNote": "Potențiale vulnerabilități raportate la art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), din cauza contradicției dintre alin. (12) și alin. (17) lit. c) privind titularul solicitării, precum și la art. 136 alin. (4) privind protecția și regimul proprietății publice, întrucât condiția rezolutorie a realizării investiției devine pur potestativă prin posibilitatea reînnoirii nelimitate a termenelor.",
-      "euLawNote": "Proiectul vizează exclusiv raporturile patrimoniale de drept administrativ dintre stat și unitățile administrativ-teritoriale privind bunuri din domeniul public. Nu restrânge accesul la profesii reglementate (Directiva 2018/958 nu este incidentă) și nu reglementează servicii ale societății informaționale (Directiva TRIS 2015/1535 nu se aplică).",
+      "blindSpotsCaught": "Pe lângă confuzia de subiect dintre stat (art. 287 lit. a) și autoritățile locale la alin. (12) și trimiterea incompletă «prelungit potrivit lit. b)» fără menționarea alin. (7), proiectul creează o inconsecvență administrativă la alin. (17): recepția investiției se transmite «Guvernului» (lit. a), dar nerealizarea se notifică «autorităților prevăzute la art. 287 lit. a)» (lit. b), spre deosebire de alin. (7) lit. a). De asemenea, introducerea «după alineatul (11)» intră în coliziune tehnică cu modificările aduse art. 292 în februarie 2026 prin OUG nr. 7/2026.",
+      "constitutionalityNote": "Proiectul ridică probleme serioase față de art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii) din cauza desemnării greșite a titularului solicitării la alin. (12), a lipsei unei definiri a sintagmei «a fost început», a trimiterii trunchiate la «lit. b)» și a necorelării cu forma în vigoare a art. 292. Sub aspectul art. 136 (proprietatea publică), absența unei limite de prelungiri și a unor criterii obiective de evaluare slăbește protecția domeniului public al statului și permite tratament preferențial din partea Guvernului între unitățile administrativ-teritoriale.",
+      "euLawNote": "Nu sunt incidente Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și nici Directiva (UE) 2015/1535 (TRIS), întrucât proiectul vizează exclusiv administrarea domeniului public între stat și autoritățile locale. Totuși, dacă pe imobilele păstrate prin derogări repetate se desfășoară activități economice (de exemplu infrastructură cu exploatare comercială), lipsa unor criterii obiective și transparente ar putea genera riscuri punctuale din perspectiva regulilor UE privind ajutorul de stat (art. 107 TFUE).",
       "senatForm": {
-        "articleRef": "Art. unic - art. 292 alin. (12), (13) și (17)",
-        "proposalContent": "La alin. (12), sintagma „autoritățile prevăzute la art. 287 lit. a) solicită” se înlocuiește cu „autoritățile administrației publice locale solicită, în cel mult 6 luni de la împlinirea termenului,”. La alin. (13) final se adaugă „, fără a putea depăși 5 ani”. Alin. (17) lit. c) și teza finală a alin. (18) se elimină.",
-        "argumentation": "Alin. (12) conține o eroare de tehnică legislativă: art. 287 lit. a) desemnează ministerele, deși solicitarea și hotărârea aparțin autorităților locale (cum apare corect la alin. 17 lit. c). Totodată, lipsa unui termen-limită la alin. (13) și bucla recursivă de la alin. (17) lit. c) și (18) permit prelungiri perpetue pentru șantiere abia începute.",
-        "otherComments": "Măsura este utilă pentru deblocarea investițiilor locale deja începute pe terenuri sau clădiri preluate de la stat, dar fără o durată maximă de finalizare și fără eliminarea re-prelungirilor la nesfârșit riscă să încurajeze tergiversarea lucrărilor și blocarea patrimoniului public în șantiere neterminate."
+        "articleRef": "Articol unic, art. 292 alin. (12), (17)-(18)",
+        "proposalContent": "La alin. (12), înlocuiți «autoritățile prevăzute la art.287 lit.a)» cu «autoritățile administrației publice locale», precizați «alin.(7) lit.b)» și cereți un stadiu fizic minim al lucrărilor (ex. 20%) și o durată maximă de prelungire. Eliminați alin. (17) lit.c) și teza finală a alin. (18) pentru a permite o singură prelungire post-termen.",
+        "argumentation": "Alin. (12) conține o eroare de redactare (art. 287 lit.a vizează statul, nu UAT-urile) contrară art. 1 alin. (5) din Constituție. Totodată, alin. (17) lit.c) și alin. (18) creează o buclă de prelungiri infinite fără prag de execuție, permițând blocarea imobilelor statului prin lucrări simbolice și arbitrariu politic la aprobarea HG.",
+        "otherComments": "Corelați proiectul din 2023 cu modificările aduse art. 292 prin OUG nr. 7/2026 (unde alin. 7 lit. b a fost deja modificat, iar un alin. 12 este abrogat). Introduceți un termen clar (ex. 60 de zile) pentru soluționarea cererii de către minister/Guvern și uniformizați destinatarul documentului de recepție la alin. (17) lit. a)."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 45557,
+      "durationMs": 50433,
+      "sourceEndMarker": "SF-B162B83D",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Primăriile pot păstra terenurile primite de la stat dacă termină investițiile întârziate",
-      "verdictShort": "Este o lege tehnică și în mare parte utilă: oferă o soluție legală pentru investițiile locale începute și blocate când a expirat termenul. Textul are însă scăpări de redactare și permite prelungiri repetate, fără limită.",
-      "initiatorClaim": "Inițiatorii spun că vor să umple un gol din Codul administrativ. Este vorba de situația în care termenul de realizare a investiției pe un imobil primit de la stat a expirat, autoritatea locală vrea să termine lucrările, iar statul nu are interes ca bunul să-i revină.",
-      "realityCheck": "Legea introduce o excepție de la alin.(7) al art.292. Dacă investiția a fost începută și consiliul local sau județean își asumă finalizarea, bunul poate rămâne în domeniul public local printr-o hotărâre a Guvernului, inițiată de ministerul care l-a administrat anterior. Problemele: nu există un prag minim pentru ce înseamnă investiție «începută», nimeni nu are un termen în care să se pronunțe, iar alin.(17) lit.c) permite reluarea procedurii la nesfârșit.",
+      "plainTitle": "Primăriile pot păstra terenurile primite de la stat dacă termenul investiției a expirat, dar lucrarea e începută",
+      "verdictShort": "Este o lege tehnică și utilă, care închide un gol real: investiții locale începute pe bunuri primite de la stat, dar neterminate la termen. Redactarea are însă defecte. Cererea este pusă în sarcina autorității greșite, numerotarea se suprapune peste un alineat abrogat, iar procedura poate fi repetată fără limită.",
+      "initiatorClaim": "Inițiatorii spun că Codul administrativ nu rezolvă situația în care termenul pentru o investiție pe un bun trecut de la stat la o comună, un oraș sau un județ a expirat, deși autoritatea locală vrea să termine lucrarea. Ei vor ca bunul să nu se mai întoarcă automat la stat.",
+      "realityCheck": "Proiectul introduce o derogare de la art.292 alin.(7). Dacă investiția a fost începută, bunul poate rămâne în domeniul public local, prin hotărâre de Guvern inițiată de ministerul care l-a administrat, cu un nou termen. Alin.(17) lit.c) permite apoi reluarea aceleiași proceduri la expirarea noului termen. Nu există plafon de durată sau de număr de reluări, așa că termenul inițial poate deveni formal. Nu există nici termen în care ministerul să inițieze hotărârea de Guvern și nici nu se spune ce se întâmplă dacă cererea este respinsă.",
       "affectedGroups": [
         "Toți cetățenii",
-        "IMM & Antreprenori"
+        "Proprietari & Imobiliare"
       ],
       "keyFindings": [
-        "Alin.(12) trimite la «lit.b)», deși alin.(12) nu are litere. Trimiterea corectă ar fi «alin.(7) lit.b)», iar forma actuală încalcă normele de tehnică legislativă din Legea nr. 24/2000.",
-        "Alin.(17) lit.c), coroborat cu alin.(18), permite ca după noul termen stabilit prin HG să se ceară din nou păstrarea bunului. Procedura poate fi reluată de câte ori se dorește, fără plafon de timp, ceea ce golește de conținut condiționalitatea transferului.",
-        "Alin.(13) cere doar «perioada de timp necesară» pentru finalizare, fără o durată maximă. De asemenea, nu e definit pragul pentru «obiectiv de investiții început», așa că lucrări minime ar putea fi folosite pentru a evita revenirea bunului la stat.",
-        "Nu există termen pentru transmiterea solicitării după expirarea termenului inițial și nici termen pentru inițierea sau adoptarea HG (alin.(15)). Între timp, regimul juridic al bunului rămâne incert, iar procedura de revenire de la alin.(9)–(11) este suspendată de facto.",
-        "Decizia rămâne discreționară: dacă ministerul care a administrat bunul nu inițiază HG, autoritatea locală nu are nicio cale de urmat, deoarece textul nu prevede un mecanism de răspuns obligatoriu."
+        "Art. unic, noul alin.(12): textul spune că «autoritățile prevăzute la art.287 lit.a)», adică ministerele și organele centrale, «solicită rămânerea bunului». Alin.(13) arată însă că cererea vine cu hotărârea consiliului local sau județean. Inițiatorul cererii este deci contradictoriu.",
+        "Noul alin.(12) trimite la termenul «prelungit potrivit lit.b)» fără să precizeze alineatul. Trimiterea corectă ar fi art.292 alin.(7) lit.b), dar norma este imprecisă (art.1 alin.(5) din Constituție).",
+        "Forma consolidată în vigoare arată art.292 alin.(12) ca «Abrogat», în urma intervențiilor din OUG nr.7/2026. Proiectul introduce totuși, «după alin.(11)», alin.(12)-(18). Asta contravine regulii din Legea nr.24/2000 de a nu refolosi numerotarea textelor abrogate. Corect ar fi alin.(11^1)-(11^7) sau alin.(13)-(19).",
+        "Noul alin.(17) lit.c) și alin.(18) permit reluarea procedurii de câte ori termenul stabilit prin hotărârea de Guvern expiră și lucrarea e doar «începută». Nu există un număr maxim de reluări și nici o durată maximă.",
+        "Noul alin.(15) nu stabilește un termen pentru inițierea hotărârii de Guvern de către minister. Nu spune nici ce efect are refuzul sau tăcerea ministerului. Art.292 alin.(1^1), cu memorandumul după 60 de zile, nu este declarat aplicabil.",
+        "Noul alin.(17) lit.a) obligă UAT să transmită recepția investiției «Guvernului». Art.292 alin.(7) lit.a) în vigoare prevede transmiterea către autoritatea centrală de la art.287 lit.a). Destinatarul diferă fără justificare.",
+        "Noțiunea de «obiectiv de investiții început» nu este definită. Un simplu ordin de începere sau o lucrare minimă ar putea fi suficiente pentru a declanșa derogarea."
       ],
-      "blindSpotsCaught": "Alin.(12) se contrazice cu alin.(13). Alin.(12) spune că solicitarea o fac «autoritățile prevăzute la art.287 lit.a)», adică organele centrale care exercită proprietatea publică a statului. Alin.(13) presupune însă că solicitarea vine de la nivel local, însoțită de hotărârea consiliului. Nu e clar cine formulează cererea. Pe lângă asta, trimiterea eliptică la «lit.b)» și ciclul nelimitat de la alin.(17) lit.c) sunt defecte de previzibilitate pe care comisiile le pot corecta ușor.",
-      "constitutionalityNote": "Nu se identifică o neconstituționalitate de fond. Regimul proprietății publice (art.136) rămâne respectat, pentru că bunul trece doar între domeniul public al statului și cel al UAT, iar inalienabilitatea și destinația de uz public se mențin. Soluția sprijină autonomia locală și descentralizarea (art.120). Există totuși vulnerabilități față de art.1 alin.(5) privind claritatea și previzibilitatea legii: trimiterea imprecisă la «lit.b)», ambiguitatea privind autorul solicitării și lipsa unor termene și plafoane. Legea este organică (art.73 alin.(3) lit.o), modifică Codul administrativ) și a fost adoptată de Senat ca primă cameră, conform art.75–76.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reguli tehnice și nici servicii ale societății informaționale sau AI. Nu se creează bariere pe piața unică. Pe ajutorul de stat, riscul este redus: transferul se face între entități publice, pentru uz sau interes public, de regulă fără activitate economică. Dacă însă imobilul este exploatat economic după finalizare, art.107 TFUE trebuie avut în vedere. Regulile de achiziții publice pentru continuarea lucrărilor rămân aplicabile.",
+      "blindSpotsCaught": "Proiectul a fost redactat în 2023, înainte de OUG nr.7/2026. Acea ordonanță a modificat art.292 alin.(7) lit.b), alin.(8) și alin.(9) și a lăsat alin.(12) abrogat. Expunerea de motive se bazează pe prelungirea «până la 5 ani» de la alin.(7) lit.b). Textul consolidat actual al lit.b) nu mai conține acest plafon și prevede doar cererea motivată de prelungire. Raportul comisiilor trebuie să coreleze proiectul cu forma actuală a articolului. Altfel apar o suprapunere de numerotare și o trimitere la un regim de prelungire care s-a schimbat. Mai există o problemă: alin.(15) leagă inițierea de autoritatea care «avea în administrare bunul» la momentul transferului. Dacă ministerul a fost reorganizat între timp, nu este clar cine inițiază hotărârea.",
+      "constitutionalityNote": "Proiectul nu ridică probleme constituționale de fond. Trecerea bunurilor între domeniul public al statului și cel al UAT rămâne prin hotărâre de Guvern, cu respectarea art.136 din Constituție. Ministerul trebuie să motiveze de ce nu vrea bunul înapoi (alin.16), iar acest lucru protejează interesul public național. Măsura sprijină autonomia locală (art.120). Riscurile țin de calitatea legii (art.1 alin.(5)): subiectul cererii este contradictoriu (art.287 lit.a) față de consiliul local), trimiterea la «lit.b)» este imprecisă, iar termenul nou nu are limită. Acestea afectează previzibilitatea, dar nu par suficient de grave pentru neconstituționalitate. Pot fi corectate în comisie.",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958, pentru că nu reglementează accesul la profesii, și nici a Directivei (UE) 2015/1535 (TRIS), pentru că nu conține reglementări tehnice sau privind servicii digitale. Nu afectează piața unică și nici concurența, fiind vorba de relații între autorități publice privind proprietatea publică. Există o singură atenționare: dacă finalizarea investiției se finanțează din fonduri europene, menținerea bunului în domeniul public local trebuie corelată cu regulile de eligibilitate și de durabilitate a operațiunii.",
       "senatForm": {
-        "articleRef": "Art. unic, art.292 alin.(12) și alin.(17) lit.c)",
-        "proposalContent": "Alin.(12): «...prelungit potrivit alin.(7) lit.b)...». La alin.(17) lit.c) se adaugă: «Procedura se aplică o singură dată, iar termenul suplimentar nu poate depăși 3 ani.» Se introduce alin.(15^1): «Hotărârea prevăzută la alin.(15) se adoptă sau solicitarea se respinge motivat în termen de 90 de zile de la primire.»",
-        "argumentation": "Trimiterea la «lit.b)» din alin.(12) este imprecisă, pentru că alin.(12) nu are litere (Legea 24/2000). Alin.(17) lit.c) permite reluarea nelimitată a procedurii, golind de conținut condiția transferului. Lipsa unui termen de soluționare lasă bunul într-un statut juridic incert, contrar art.1 alin.(5) din Constituție.",
-        "otherComments": "Recomand definirea pragului minim pentru «obiectiv început», de exemplu stadiul fizic atestat prin raport de expertiză tehnică. Trebuie clarificat și cine formulează solicitarea: alin.(12) indică autoritățile de la art.287 lit.a), iar alin.(13) presupune o hotărâre a consiliului local sau județean."
+        "articleRef": "Art. unic – art.292 alin.(12)-(18) Cod adm.",
+        "proposalContent": "Renumerotare ca alin.(11^1)-(11^7), alin.(12) fiind abrogat. Primul alineat: cererea se formulează de consiliul județean/local, prin hotărâre, către autoritățile de la art.287 lit.a), cu trimitere la «alin.(7) lit.b)». HG se inițiază în 60 de zile, aplicându-se alin.(1^1). Noul termen: max. 3 ani; reluarea procedurii (fostul alin.17 lit.c) – o singură dată.",
+        "argumentation": "Textul actual pune cererea în sarcina autorităților centrale (art.287 lit.a), deși ea vine de la UAT, și trimite vag la «lit.b)». Fără termen pentru minister și fără plafon, procedura poate fi reluată la nesfârșit, golind de conținut condiția investiției din art.292 alin.(7). Claritatea normei este cerută de art.1 alin.(5) din Constituție.",
+        "otherComments": "Proiectul (2023) trebuie corelat cu OUG nr.7/2026, care a modificat art.292 alin.(7) lit.b), (8) și (9). Recomand definirea «obiectivului început» (ex. ordin de începere și execuție fizică minimă), precizarea efectelor respingerii cererii (aplicarea alin.(9)-(11)) și transmiterea recepției către autoritatea de la art.287 lit.a)."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 87161,
+      "durationMs": 92631,
+      "sourceEndMarker": "SF-B162B83D",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Termene suplimentare pentru investiții locale începute și neterminate",
-      "verdictShort": "Proiectul poate ajuta la finalizarea investițiilor publice, dar permite solicitarea repetată a unor noi termene, fără un plafon expres. Riscul principal este perpetuarea investițiilor neterminate, nu introducerea unor taxe, sancțiuni sau monopoluri.",
-      "initiatorClaim": "Inițiatorii urmăresc salvarea investițiilor locale începute pe imobile transferate din proprietatea publică a statului. Ei invocă situații în care termenul a expirat, administrația locală dorește continuarea lucrărilor, iar fostul administrator nu justifică revenirea bunului la stat.",
-      "realityCheck": "Alin.(12)-(16) instituie o procedură prin care Guvernul poate aproba menținerea bunului în domeniul public local, pe baza asumării investiției și a unor justificări ale autorităților implicate. Alin.(17) lit.c), împreună cu alin.(18), permite reluarea procedurii după expirarea noului termen, fără limitarea expresă a numărului solicitărilor sau a duratei cumulate. Continuarea nu este însă automată: presupune implicarea fostului administrator și o nouă hotărâre a Guvernului.",
+      "plainTitle": "Investițiile locale întârziate pot păstra imobilele primite de la stat",
+      "verdictShort": "Proiectul poate salva investiții publice începute, pentru care revenirea imobilului la stat ar fi nepractică. Riscul principal este posibilitatea repetării procedurii după fiecare termen ratat, fără o limită totală de timp sau un prag minim de progres.",
+      "initiatorClaim": "Inițiatorii urmăresc continuarea investițiilor locale întârziate atunci când administrația locală dorește finalizarea lor, iar autoritatea centrală nu este interesată de recuperarea imobilului. Ei invocă evitarea blocajelor, deprecierii lucrărilor și costurilor revenirii bunurilor la stat.",
+      "realityCheck": "Textul actual furnizat permite deja prelungiri motivate, fără un plafon numeric expres; proiectul adaugă o procedură pentru păstrarea imobilului după expirarea termenului, dacă investiția a început. Sunt necesare o hotărâre locală motivată, indicarea surselor de finanțare, justificarea autorității centrale și o hotărâre a Guvernului. Alin. (17) lit. c) și alin. (18) permit repetarea procedurii, fără să impună o durată cumulată maximă, finanțare asigurată sau un progres minim al lucrărilor.",
       "affectedGroups": [
         "Proprietari & Imobiliare",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Alin.(17) lit.c) și alin.(18) creează posibilitatea unor aprobări succesive, fără plafon numeric ori temporal expres; acesta este principalul risc al mecanismului.",
-        "Alin.(14) și alin.(16) prevăd garanții reale: justificarea întârzierii, indicarea surselor de finanțare, justificarea interesului public local și motivarea dezinteresului fostului administrator pentru revenirea bunului.",
-        "Indicarea surselor de finanțare, cerută de alin.(14), nu echivalează cu asigurarea efectivă a banilor. Textul nu impune expres un grafic de execuție sau indicatori intermediari de progres.",
-        "Alin.(12)-(18) nu stabilesc expres termenul depunerii solicitării și nici tratamentul procedurilor de revenire deja începute. Aceste omisiuni pot genera interpretări administrative diferite.",
-        "Proiectul nu introduce taxe, amenzi sau obligații declarative pentru cetățeni ori IMM-uri. Creează documentație suplimentară pentru administrații și poate prelungi cheltuielile publice aferente investițiilor; valoarea impactului bugetar nu poate fi dedusă din materialele furnizate.",
-        "Trimiterea din alin.(12) la «lit.b)» trebuie precizată ca trimitere la alin.(7) lit.b). Expunerea de motive nu poate suplini precizia normei."
+        "Art. 292 alin. (12)-(16) propuse introduc o excepție pentru investiții începute și nefinalizate la termen. Păstrarea bunului necesită aprobarea Guvernului; simpla asumare locală a continuării lucrărilor nu este suficientă.",
+        "Alin. (14) cere motive obiective, surse de finanțare avute în vedere și justificarea interesului public local. Aceste condiții sunt utile, dar indicarea unei surse posibile nu echivalează cu existența finanțării disponibile.",
+        "Alin. (17) lit. c), coroborat cu alin. (18), permite solicitări succesive după ratarea noului termen. Nu există o limită numerică, o durată cumulată sau condiții suplimentare pentru repetarea procedurii.",
+        "Alin. (17) lit. b) și alin. (18) păstrează mecanismul existent de constatare a neîndeplinirii investiției și de inițiere a revenirii bunului la stat, inclusiv regulile privind eventualele despăgubiri, când autoritatea locală notifică imposibilitatea finalizării.",
+        "Alin. (12) trimite incomplet la «lit. b)», fără identificarea alineatului. Alin. (15) ar trebui să prevadă expres înscrierea noului termen în hotărârea Guvernului, termen presupus ulterior de alin. (17).",
+        "Proiectul nu introduce taxe, amenzi sau obligații administrative directe pentru cetățeni și IMM-uri. El presupune documentație și decizii suplimentare pentru administrații, iar continuarea investițiilor poate angaja cheltuieli publice al căror cuantum nu poate fi stabilit din textele furnizate."
       ],
-      "blindSpotsCaught": "Reluarea procedurii este mai importantă decât simpla acordare a unui termen suplimentar: fiecare nouă hotărâre adoptată potrivit alin.(15) reactivează obligațiile alin.(17), inclusiv posibilitatea unei noi solicitări. Totuși, Guvernul păstrează rolul de aprobare, iar documentarea interesului public rămâne obligatorie; textul nu acordă administrației locale un drept unilateral de păstrare nelimitată a bunului.",
-      "constitutionalityNote": "Art.1 alin.(5) este relevant pentru precizia trimiterilor, previzibilitatea termenelor și corelarea cu procedura revenirii bunului. Absența unui plafon al prelungirilor este în primul rând o vulnerabilitate de politică legislativă și bună administrare, nu dovada suficientă a neconstituționalității. Art.23 alin.(12), privind legalitatea pedepselor, nu este incident: proiectul nu instituie pedepse. Mecanismul nu contrazice prin el însuși art.136 alin.(4): bunul rămâne proprietate publică, schimbându-se condițiile menținerii sale la titularul local. Aplicarea la efectele viitoare ale unor situații existente nu este automat retroactivă; trebuie însă clarificat că procedura nu desființează transferuri de revenire deja încheiate sau hotărâri judecătorești definitive. Mențiunea adoptării potrivit art.76 alin.(1) indică majoritatea cerută legilor organice, fără să permită verificarea votului efectiv din materialele furnizate.",
-      "euLawNote": "Directiva (UE) 2018/958 privește testul de proporționalitate pentru reglementarea profesiilor; proiectul nu introduce condiții de acces sau exercitare a unei profesii, deci testul acestei directive nu este incident. Directiva (UE) 2015/1535 privește notificarea anumitor reglementări tehnice pentru produse și servicii ale societății informaționale; textul analizat nu conține asemenea reguli, inclusiv pentru servicii digitale sau AI. Nu rezultă o restricție directă a concurenței ori un monopol. Dacă imobilele sunt ulterior utilizate pentru avantaje selective acordate unor întreprinderi, trebuie verificat separat regimul ajutoarelor de stat, inclusiv art.107 TFUE; simpla menținere a proprietății publice locale nu dovedește existența unui asemenea ajutor.",
+      "blindSpotsCaught": "Mecanismul repetabil se află la final: alin. (18) retrimite la alin. (13)-(16) pentru fiecare nouă solicitare întemeiată pe alin. (17) lit. c). Expunerea din 2023 invocă limita de cinci ani, dar aceasta nu apare în forma actuală furnizată a alin. (7) lit. b). În plus, proiectul nu conține dispoziții tranzitorii care să clarifice situațiile cu termen deja expirat sau cu procedură de revenire începută; nu rezultă o validare retroactivă generală a neîndeplinirii obligațiilor anterioare.",
+      "constitutionalityNote": "Scopul continuării unei investiții și menținerea bunului în proprietate publică sunt, în principiu, compatibile cu art. 136 din Constituție. Prin raportare la art. 1 alin. (5), trebuie clarificate întinderea excepției de la alin. (7), trimiterea incompletă din alin. (12), termenul aprobat și regimul dintre expirarea termenului și soluționarea solicitării. Repetarea procedurii justifică garanții suplimentare pentru administrarea patrimoniului, dar nu demonstrează singură neconstituționalitatea. Art. 23 alin. (12) nu este incident, deoarece proiectul nu instituie pedepse.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea acestora. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu este declanșată de acest text, care nu introduce reglementări tehnice pentru produse ori reguli privind serviciile societății informaționale. Nu sunt create monopoluri sau privilegii comerciale explicite; regulile privind achizițiile publice, concurența și ajutoarele de stat rămân aplicabile operațiunilor relevante.",
       "senatForm": {
-        "articleRef": "Articol unic – art.292 alin.(17) lit.c)",
-        "proposalContent": "c) să solicite rămânerea bunului în domeniul public local pentru o singură perioadă suplimentară, de cel mult 3 ani de la expirarea termenului acordat prin prima hotărâre adoptată potrivit alin.(15), pe baza unui grafic de execuție și a dovezii finanțării. Dacă investiția nu este finalizată la termenul final, se aplică alin.(9)-(11).",
-        "argumentation": "Limitarea perioadei suplimentare împiedică reluarea nelimitată a procedurii prin alin.(18), păstrând posibilitatea finalizării investiției. Graficul de execuție și dovada finanțării fac asumarea verificabilă. Termenul de 3 ani reprezintă o opțiune de politică legislativă, nu o durată impusă de Constituție.",
-        "otherComments": "Trebuie plafonată și durata primei aprobări potrivit alin.(15), corelate trimiterile și introduse reguli tranzitorii pentru termenele deja expirate. Analiza privește exclusiv forma Senatului furnizată. Instrumentul de consultare online a fost indisponibil; nu au putut fi verificate sursele externe sau stadiul actual."
+        "articleRef": "Art. unic: art. 292 alin. (17) lit. c) și (18)",
+        "proposalContent": "Alin. (17) lit. c) se elimină. Alin. (18) va avea următorul cuprins: «(18) În cazul prevăzut la alin. (17) lit. b) sau al nefinalizării investiției la termenul stabilit prin hotărârea prevăzută la alin. (15), se aplică alin. (9)-(11). Procedura prevăzută la alin. (12)-(16) se aplică o singură dată pentru aceeași investiție.»",
+        "argumentation": "Se păstrează posibilitatea salvării unei investiții începute, dar se înlătură repetarea nelimitată a procedurii după fiecare termen ratat. La expirarea termenului suplimentar, mecanismul existent de constatare și revenire a bunului devine aplicabil fără a depinde exclusiv de notificarea imposibilității de finalizare.",
+        "otherComments": "Corelați numerotarea cu alin. (12) marcat abrogat în forma furnizată din 2026. În noul alin. (12), precizați «alin. (7) lit. b)»; la alin. (15), impuneți înscrierea termenului în HG. Clarificați situațiile cu termene deja expirate și procedurile de revenire în curs. Analiza se bazează pe textele furnizate, fără verificare externă independentă."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-10T09:13:32.020Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:47:46.312Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

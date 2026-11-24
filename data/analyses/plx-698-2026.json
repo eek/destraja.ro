@@ -1,116 +1,176 @@
 {
   "billId": "Pl-x 698/2026",
   "slug": "plx-698-2026",
-  "updatedAt": "2026-10-28T19:51:22.189Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T14:46:27.841Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 2143,
+    "ordinanceChars": 0,
+    "memoChars": 6640,
+    "memoSupplied": 6640,
+    "marker": "SF-AFAE8FFA"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-698-2026.json",
+    "form": "initiator",
+    "textHash": "afae8ffab2377b2f",
+    "fetchedAt": "2026-11-19T09:34:41.951Z",
+    "acts": 2,
+    "actsFound": 2,
+    "actsRepealed": 0,
+    "articlesFound": 2,
+    "articlesShown": 2,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 3472,
+    "truncated": false,
+    "included": true,
+    "key": "a8fc4c76c106a5e4"
+  },
   "consensus": {
     "riskScore": 3.7,
     "riskLevel": "green",
-    "plainTitle": "Asociațiile și fundațiile vor putea înființa curți de arbitraj permanente",
-    "summaryTlDr": "Scopul e legitim și pro-concurență: arbitraj specializat, mai puțină presiune pe instanțe, sfârșitul cvasi-monopolului camerelor de comerț. Textul e însă minimalist: orice asociație sau fundație ar putea găzdui un tribunal ale cărui hotărâri sunt executorii, fără standarde minime de transparență, independență sau protecție a consumatorului.",
-    "initiatorClaim": "Inițiatorii vor să înlăture, pentru viitor, efectul Deciziei ÎCCJ nr. 10/2024 (RIL), care a limitat arbitrajul instituționalizat la entități autorizate prin lege specială. Ei vor să permită asociațiilor, fundațiilor și federațiilor să organizeze arbitraj permanent, pentru degrevarea instanțelor și soluționarea specializată a litigiilor.",
-    "realityCheck": "Art. I rescrie art. 616 alin. (1) CPC: în locul «organizației neguvernamentale de interes public..., în condițiile legii» apare orice asociație, fundație sau federație constituită după OG 26/2000, fără cerința de utilitate publică și fără vreo autorizare. Art. II adaugă taxele arbitrale ca sursă de venit (art. 46 lit. h) și un art. 48² care permite înființarea arbitrajului prin simplu statut. Hotărârile acestor tribunale sunt titluri executorii (art. 615 CPC), cenzurabile doar prin acțiune în anulare pe motive limitate, iar legea nu adaugă nicio garanție de transparență, independență a arbitrilor, denumire neînșelătoare sau protecție a consumatorilor față de clauzele arbitrale din contractele de adeziune.",
+    "plainTitle": "Orice asociație sau fundație își va putea face propria curte de arbitraj permanentă",
+    "summaryTlDr": "Propunerea răstoarnă o decizie a ÎCCJ și deschide arbitrajul permanent tuturor ONG-urilor, ceea ce e legitim și poate fi util. Dar o face fără nicio garanție minimă: nu există autorizare, transparență, reguli de denumire sau protecție a consumatorilor, deși hotărârile arbitrale devin titluri executorii.",
+    "initiatorClaim": "Inițiatorii spun că, după RIL nr. 10/2024, arbitrajul permanent e limitat la câteva instituții, ca Camerele de Comerț, barourile, notarii, ORDA și CNAS. Vor să-l extindă la asociații și fundații, ca să degreveze instanțele și să ofere arbitraj specializat pe domenii.",
+    "realityCheck": "Art. I scoate din art. 616 alin. (1) CPC formula «organizație neguvernamentală de interes public de sine stătătoare, în condițiile legii», pe care se sprijinea RIL 10/2024. O înlocuiește cu orice asociație, fundație sau federație constituită potrivit OG 26/2000, fără autorizare prealabilă. Efectul: oricine înființează o asociație, cu minimum 3 membri, poate deschide o «curte de arbitraj» permanentă. Ale cui hotărâri sunt titluri executorii și pot fi atacate doar pe motivele limitate ale acțiunii în anulare. Proiectul nu stabilește standarde de independență, transparență sau denumire. Incremental, riscul e moderat, pentru că arbitrajul ad-hoc e deja posibil cu orice arbitri, iar convenția arbitrală rămâne obligatorie. Câștigul principal al unei instituții permanente este însă eticheta, iar aceasta poate fi folosită abuziv în contracte de adeziune.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "IMM & Antreprenori",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. II pct. 2 – art. 48² din OG nr. 26/2000",
-      "proposalContent": "Art. 48²: (1) Asociațiile, fundațiile și federațiile pot organiza arbitraj instituționalizat dacă publică online regulamentul, lista arbitrilor și onorariile. (2) Denumirea indică explicit caracterul arbitral și entitatea organizatoare, fără confuzie cu instanțele statului. (3) Clauza arbitrală încheiată cu un consumator înainte de nașterea litigiului nu îl obligă.",
-      "argumentation": "Hotărârea arbitrală este titlu executoriu, iar instanța o controlează doar prin acțiunea în anulare, pe motive limitate. Fără garanții minime, orice asociație ar putea emite titluri executorii, iar clauze din contracte de adeziune pot priva consumatorii de instanță. Transparența și denumirea clară nu blochează piața, dar previn abuzuri și confuzii.",
-      "otherComments": "Art. 46 lit. h) trebuie corelat cu Codul fiscal (art. 15): nu e clar dacă taxele arbitrale sunt venit scutit sau activitate economică. Lipsește o normă tranzitorie pentru clauzele arbitrale anterioare legii. Fraza «nu are caracter economic» pare să dubleze art. 616 alin. (2) CPC. Fără «în condițiile legii», și firmele ar putea găzdui arbitraj."
+      "articleRef": "Art. II pct. 2 (art. 48² din OG 26/2000)",
+      "proposalContent": "Art. 48²: (1) Asociațiile, fundațiile și federațiile pot înființa arbitraj instituționalizat potrivit statutului. (2) Denumirea nu poate crea confuzie cu instanțele statului. Regulamentul, lista arbitrilor și taxele se publică online. (3) Nu se pot soluționa litigii cu consumatori în baza unei clauze încheiate înainte de nașterea litigiului.",
+      "argumentation": "Proiectul elimină condiția de autorizare din art. 616 CPC fără nicio garanție minimă. Hotărârea arbitrală e titlu executoriu, iar anularea ei e limitată. Riscul unor «curți de arbitraj» cu denumiri care imită instanțele, impuse prin contracte de adeziune, e real. Transparența și protecția consumatorilor trebuie fixate în lege.",
+      "otherComments": "Art. 46 alin. (2) OG 26/2000 trimite doar la lit. b)-g). Fundațiile pot organiza arbitraj (art. 48²), dar n-au taxele arbitrale (noua lit. h) printre venituri, deci trebuie scris «b)-h)». Lipsesc norme tranzitorii pentru clauzele arbitrale și procedurile anterioare intrării în vigoare."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 67454,
-      "riskScore": 4,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 73309,
+      "sourceEndMarker": "SF-AFAE8FFA",
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Orice asociație sau fundație va putea înființa propriul tribunal de arbitraj permanent",
-      "verdictShort": "Inițiativa sparge în mod justificat cvasi-monopolul Camerelor de Comerț asupra arbitrajului instituționalizat (instaurat după Decizia ÎCCJ nr. 10/2024), dar o face fără nicio garanție minimă de transparență sau integritate, riscând apariția unor „tribunale arbitrale de apartament”.",
-      "initiatorClaim": "Inițiatorii vor să deblocheze posibilitatea ONG-urilor și federațiilor de profil de a organiza arbitraj instituționalizat permanent, după ce Înalta Curte (Decizia RIL nr. 10/2024) a decis că doar entitățile autorizate prin legi speciale pot face acest lucru.",
-      "realityCheck": "Legea permite oricărei asociații (chiar și nou-înființate de 3 persoane cu 200 lei patrimoniu) să organizeze arbitraj permanent ale cărui hotărâri sunt titluri executorii (art. 614-615 CPC), fără să impună condiții minime de pregătire juridică a arbitrilor, publicarea regulamentului și a taxelor sau reguli de incompatibilitate între fondatorii ONG-ului și părțile din litigiu. În plus, textul conține o capcană de redactare care ar putea menține exact blocajul creat de ÎCCJ.",
-      "affectedGroups": [
-        "Justiție & Drepturi Civile",
-        "IMM & Antreprenori"
-      ],
-      "keyFindings": [
-        "Art. I modifică art. 616 alin. (1) din Codul de procedură civilă, eliminând condiția ca ONG-ul să fie „de interes public” și sintagma „în condițiile legii”, permițând oricărei asociații, fundații sau federații constituite pe OG nr. 26/2000 să organizeze arbitraj instituționalizat.",
-        "Lipsesc filtrele contra abuzurilor: hotărârea arbitrală are puterea unei hotărâri judecătorești definitive (art. 615 CPC), însă proiectul nu cere nici vechime a ONG-ului, nici publicarea listei de arbitri/taxelor, lăsând loc clauzelor arbitrale captive în contractele B2B cu IMM-urile.",
-        "Art. II pct. 2 introduce art. 48² în OG nr. 26/2000, dar reintroduce la final exact expresia „în condițiile prevăzute de lege” pe care ÎCCJ a folosit-o în RIL nr. 10/2024 pentru a cere o lege specială de autorizare, creând un cerc vicios de interpretare."
-      ],
-      "blindSpotsCaught": "1. Cerc vicios normativ: inițiatorii șterg „în condițiile legii” din art. 616 CPC tocmai pentru a depăși RIL 10/2024, dar scriu „în condițiile prevăzute de lege” în noul art. 48² din OG 26/2000. 2. Eroare de tehnică legislativă: art. 48² (care vizează capacitatea de a înființa arbitraj) este inserat în Capitolul VII („Veniturile”) din OG nr. 26/2000, care se termină la art. 48.",
-      "constitutionalityNote": "Legiuitorul are marja de apreciere să reglementeze arbitrajul ca jurisdicție alternativă (art. 126 și art. 21 din Constituție), fără a încălca rolul ÎCCJ (art. 126 alin. 3), întrucât RIL-ul a interpretat legea în vigoare. Totuși, contradicția dintre eliminarea sintagmei „în condițiile legii” din CPC și păstrarea ei în OG 26/2000 vulnerabilizează claritatea și previzibilitatea normei (art. 1 alin. 5 din Constituție).",
-      "euLawNote": "Proiectul are un efect pro-concurențial pe piața serviciilor de soluționare alternativă a disputelor, eliminând restricțiile de intrare semnalate de jurisprudența RIL 10/2024, în acord cu principiile Directivei (UE) 2018/958. Nu intră sub incidența notificării TRIS (Directiva 2015/1535) și nu afectează protecția consumatorilor (OG 38/2015 / Directiva 2013/11/UE privind SAL).",
-      "senatForm": {
-        "articleRef": "Art. I (art. 616 CPC) și Art. II pct. 2",
-        "proposalContent": "La Art. I (art. 616 alin. 1 CPC) se adaugă: „Regulamentul, taxele și lista arbitrilor se publică pe site-ul entității, iar fondatorii sau conducerea ONG-ului nu pot arbitra litigii ale persoanelor afiliate lor.” La Art. II pct. 2, sintagma „în condițiile prevăzute de lege” se înlocuiește cu „în condițiile Codului de procedură civilă”.",
-        "argumentation": "Deblocarea arbitrajului organizat de ONG-uri după Decizia ÎCCJ nr. 10/2024 este utilă, dar lipsa oricăror garanții permite apariția unor „tribunale de apartament” (3 membri) folosite abuziv în contracte cu IMM-uri. Totodată, formula „în condițiile prevăzute de lege” din Art. 48² riscă să perpetueze chiar blocajul din RIL 10/2024.",
-        "otherComments": "Din punct de vedere al tehnicii legislative (Legea nr. 24/2000), introducerea art. 48² în Capitolul VII („Veniturile”) din OG nr. 26/2000 este improprie, deoarece norma reglementează capacitatea ONG-urilor de a înființa arbitraj instituționalizat, nu regimul veniturilor. Articolul ar trebui plasat în Capitolul I sau III din ordonanță."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 190790,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Asociațiile și fundațiile vor putea înființa curți de arbitraj permanente",
-      "verdictShort": "Scopul e legitim și pro-concurență: arbitraj specializat, mai puțină presiune pe instanțe, sfârșitul cvasi-monopolului camerelor de comerț. Textul e însă minimalist: orice asociație sau fundație ar putea găzdui un tribunal ale cărui hotărâri sunt executorii, fără standarde minime de transparență, independență sau protecție a consumatorului.",
-      "initiatorClaim": "Inițiatorii vor să înlăture, pentru viitor, efectul Deciziei ÎCCJ nr. 10/2024 (RIL), care a limitat arbitrajul instituționalizat la entități autorizate prin lege specială. Ei vor să permită asociațiilor, fundațiilor și federațiilor să organizeze arbitraj permanent, pentru degrevarea instanțelor și soluționarea specializată a litigiilor.",
-      "realityCheck": "Art. I rescrie art. 616 alin. (1) CPC: în locul «organizației neguvernamentale de interes public..., în condițiile legii» apare orice asociație, fundație sau federație constituită după OG 26/2000, fără cerința de utilitate publică și fără vreo autorizare. Art. II adaugă taxele arbitrale ca sursă de venit (art. 46 lit. h) și un art. 48² care permite înființarea arbitrajului prin simplu statut. Hotărârile acestor tribunale sunt titluri executorii (art. 615 CPC), cenzurabile doar prin acțiune în anulare pe motive limitate, iar legea nu adaugă nicio garanție de transparență, independență a arbitrilor, denumire neînșelătoare sau protecție a consumatorilor față de clauzele arbitrale din contractele de adeziune.",
+      "plainTitle": "Orice asociație sau fundație își poate face propria curte de arbitraj",
+      "verdictShort": "Intenția de a sparge cvasi-monopolul actual al arbitrajului instituționalizat este legitimă, dar proiectul deschide ușa „curților de arbitraj de apartament” fără nicio garanție minimă de independență. În plus, conține două erori de redactare juridică ce pot reaprinde blocajul din instanțe.",
+      "initiatorClaim": "Inițiatorii vor să degreveze instanțele judecătorești și să încurajeze soluționarea rapidă, specializată a litigiilor, permițând asociațiilor și fundațiilor să organizeze arbitraj permanent după ce Decizia RIL nr. 10/2024 a ÎCCJ le-a blocat acest drept fără o autorizare legală expresă.",
+      "realityCheck": "Art. I elimină din art. 616 alin. (1) Cod procedură civilă condițiile ca entitatea arbitrală să fie „de interes public” și să funcționeze „în condițiile legii”, permițând oricărei asociații (înființate de 3 persoane), fundații sau federații să administreze arbitraj cu hotărâri executorii, fără filtre de integritate, transparență sau conflict de interese. Totodată, Art. II reintroduce în OG nr. 26/2000 exact sintagma vagă „în condițiile prevăzute de lege” fără a defini acele condiții și omite să actualizeze art. 46 alin. (2), lăsând fundațiile fără temei expres de încasare a taxelor arbitrale.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "IMM & Antreprenori",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I (art. 616 alin. 1 CPC): dispar cerința «de interes public» și sintagma «în condițiile legii». Orice asociație (minimum 3 membri), fundație sau federație poate deveni jurisdicție arbitrală permanentă, fără autorizare, registru public sau control al vreunei autorități.",
-        "Sintagma «în condițiile legii» dispare din toată fraza. Textul poate fi citit ca deschizând fără autorizare și ramura «pe lângă o organizație sau instituție internă», inclusiv pe lângă societăți comerciale. Efectul depășește scopul declarat, care privește doar ONG-urile.",
-        "Art. II pct. 2 (art. 48² OG 26/2000) trimite la «condițiile prevăzute de lege», dar nicio lege nu le stabilește. Este exact tipul de trimitere vagă pe care ÎCCJ a interpretat-o în Decizia 10/2024 drept cerință de autorizare specială, deci riscul de practică neunitară reapare.",
-        "Art. II pct. 1 (art. 46 lit. h): taxele arbitrale devin venit legal al ONG-ului, dar nu se corelează cu Codul fiscal (art. 15 – venituri scutite vs. activități economice) și cu regimul TVA, deși art. 616 declară activitatea fără caracter economic.",
-        "Efecte pozitive: nu are cost bugetar, nu aduce birocrație nouă pentru cetățeni sau IMM-uri și permite arbitraj specializat (sportiv, profesional, tehnic). Filtrul instanței sau al notarului pentru hotărârile arbitrale care transferă drepturi reale asupra imobilelor rămâne în vigoare."
+        "Liberalizare fără plase de siguranță (Art. I – art. 616 alin. 1 CPC): se renunță la cerința ca organizația neguvernamentală să fie „de interes public” și la orice autorizare, deși hotărârile arbitrale sunt definitive, fără apel pe fond și constituie titluri executorii (art. 606 și 615 CPC). Apare riscul „arbitrajelor captive” create de creditori, dezvoltatori sau companii mari pentru contracte de adeziune cu IMM-uri ori persoane fizice.",
+        "Contradicție internă care riscă să repete blocajul RIL nr. 10/2024 (Art. II pct. 2 – art. 48^2 OG 26/2000): deși inițiatorii elimină expresia „în condițiile legii” din CPC tocmai pentru că ÎCCJ a interpretat-o ca necesitând o lege specială de autorizare, ei reintroduc formula „în condițiile prevăzute de lege” în art. 48^2, fără a stabili condițiile.",
+        "Omisiune legislativă privind veniturile fundațiilor (Art. II pct. 1 – art. 46 alin. 1 lit. h OG 26/2000): se adaugă lit. h) pentru taxele arbitrale la veniturile asociațiilor și federațiilor, dar art. 46 alin. (2) rămâne nemodificat și trimite în continuare doar la lit. b)-g) pentru fundații.",
+        "Neconcordanță privind autonomia jurisdicțională: art. 616 alin. (2) CPC (nemodificat) cere autonomia arbitrajului față de instituția care l-a înființat, dar proiectul nu prevede mecanisme concrete de prevenire a conflictelor de interese atunci când arbitrajul funcționează chiar ca o asociație privată simplă."
       ],
-      "blindSpotsCaught": "Trei detalii scapă textului. (1) Lipsește o normă tranzitorie: clauzele arbitrale încheiate înainte de lege cu «curți» organizate ca ONG și litigiile pendinte rămân sub incidența Deciziei ÎCCJ 10/2024, ceea ce poate genera din nou practică neunitară. (2) Fraza «nu are caracter economic și nu urmărește obținerea de profit», adăugată în alin. (1), pare să dubleze alin. (2) al art. 616 în vigoare, care nu este abrogat. (3) Nimic nu împiedică denumiri de tip «Curtea de Arbitraj ...», ușor de confundat de cetățeni cu instanțele statului.",
-      "constitutionalityNote": "Legea este compatibilă în principiu cu Constituția. Parlamentul poate schimba pentru viitor soluția dată de ÎCCJ într-un RIL: decizia își încetează aplicabilitatea la modificarea textului interpretat (art. 518 CPC), fără încălcarea art. 126 alin. (3). Arbitrajul rămâne consensual și supus acțiunii în anulare, deci accesul liber la justiție (art. 21) este păstrat, iar tribunalele arbitrale nu sunt instanțe extraordinare (art. 126 alin. 5). Punctul slab este art. 1 alin. (5): trimiterea fără conținut din art. 48², lipsa normelor tranzitorii și lipsa oricăror criterii minime reduc previzibilitatea. Legea nu poate valida retroactiv hotărâri pronunțate anterior (art. 15 alin. 2).",
-      "euLawNote": "Directiva 2018/958 nu se aplică: activitatea de arbitru nu este o profesie reglementată, iar legea elimină o barieră în loc să creeze una. Deschiderea pieței este conformă Directivei 2006/123 privind serviciile; eventualele condiții suplimentare trebuie să fie nediscriminatorii și proporționale (transparență, nu autorizare discreționară). TRIS 2015/1535 nu este incidentă, pentru că legea nu conține reguli tehnice sau privind serviciile societății informaționale. Riscul real ține de protecția consumatorilor. CJUE (Mostaza Claro, C-168/05; Asturcom, C-40/08) obligă instanțele să verifice din oficiu clauzele arbitrale abuzive (Directiva 93/13/CEE). Directiva 2013/11/UE (art. 10) interzice, în sfera sa de aplicare, ca un acord de soluționare alternativă încheiat înainte de litigiu să priveze consumatorul de accesul la instanță.",
+      "blindSpotsCaught": "Cea mai subtilă capcană este dubla necorelare din Art. II: proiectul adaugă taxele arbitrale la art. 46 alin. (1) lit. h) din OG nr. 26/2000 fără să extindă trimiterea de la alin. (2) („lit. b)-g)”) pentru fundații, iar prin art. 48^2 introduce trimiterea în gol „în condițiile prevăzute de lege” în capitolul despre venituri/activități economice, deși art. 616 alin. (1) CPC declară activitatea arbitrală neeconomică și nonprofit. La nivel practic, lipsa unor standarde minime riscă să permită ocolirea acreditării riguroase cerute entităților de soluționare alternativă a litigiilor cu consumatorii (SAL/ADR).",
+      "constitutionalityNote": "Parlamentul are deplina competență constituțională să modifice legea pentru viitor și să depășească o interpretare obligatorie pronunțată printr-un RIL (art. 61), iar procedura de lege ordinară (art. 76 alin. 2) este coerentă cu regimul OG nr. 26/2000 și al dispozițiilor arbitrale din CPC. Totuși, proiectul este vulnerabil sub aspectul art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii) din cauza trimiterii nedefinite „în condițiile prevăzute de lege” din art. 48^2 și a necorelării art. 46 alin. (2). De asemenea, lipsa unor garanții legale minime de independență și imparțialitate pentru entitățile arbitrale private poate afecta în practică exigențele procesului echitabil (art. 21 alin. 3).",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2015/1535 (TRIS), nevizând servicii digitale, și nu încalcă Directiva (UE) 2018/958 privind testul de proporționalitate, deoarece elimină restricții de acces, nu impune noi bariere profesionale — efectul asupra pieței serviciilor arbitrale fiind pro-concurențial față de cvasi-monopolul actual. Există însă un risc de tensiune cu protecția consumatorilor din Directiva 93/13/CEE (clauze abuzive) și cu standardele de independență ale Directivei 2013/11/UE (SAL/ADR) dacă ONG-uri neacreditate ajung să gestioneze litigii de consum pe baza unor clauze arbitrale standardizate.",
       "senatForm": {
-        "articleRef": "Art. II pct. 2 – art. 48² din OG nr. 26/2000",
-        "proposalContent": "Art. 48²: (1) Asociațiile, fundațiile și federațiile pot organiza arbitraj instituționalizat dacă publică online regulamentul, lista arbitrilor și onorariile. (2) Denumirea indică explicit caracterul arbitral și entitatea organizatoare, fără confuzie cu instanțele statului. (3) Clauza arbitrală încheiată cu un consumator înainte de nașterea litigiului nu îl obligă.",
-        "argumentation": "Hotărârea arbitrală este titlu executoriu, iar instanța o controlează doar prin acțiunea în anulare, pe motive limitate. Fără garanții minime, orice asociație ar putea emite titluri executorii, iar clauze din contracte de adeziune pot priva consumatorii de instanță. Transparența și denumirea clară nu blochează piața, dar previn abuzuri și confuzii.",
-        "otherComments": "Art. 46 lit. h) trebuie corelat cu Codul fiscal (art. 15): nu e clar dacă taxele arbitrale sunt venit scutit sau activitate economică. Lipsește o normă tranzitorie pentru clauzele arbitrale anterioare legii. Fraza «nu are caracter economic» pare să dubleze art. 616 alin. (2) CPC. Fără «în condițiile legii», și firmele ar putea găzdui arbitraj."
-      }
+        "articleRef": "Art. II pct. 1 și 2 (OG nr. 26/2000)",
+        "proposalContent": "La art. 46 alin. (2) se înlocuiește „b)-g)” cu „b)-h)”. Art. 48^2 se completează cu condiții minime: statut de utilitate publică ori avizul Ministerului Justiției, regulament și listă de arbitri publice, reguli de imparțialitate și interdicția soluționării litigiilor în care fondatorii sau membrii au un interes direct ori indirect.",
+        "argumentation": "Proiectul omite corelarea art. 46 alin. (2) pentru fundații și păstrează în art. 48^2 formula vagă „în condițiile prevăzute de lege”, sursa blocajului din RIL nr. 10/2024. Cum hotărârile arbitrale sunt titluri executorii fără apel pe fond, lipsa garanțiilor minime de independență creează riscul „curților de arbitraj captive”.",
+        "otherComments": "Liberalizarea arbitrajului față de monopolul actual este benefică, dar necesită un registru public al curților arbitrale și excluderea expresă a clauzelor arbitrale din contractele de adeziune cu consumatori, conform Directivei 93/13/CEE. De corectat și ghilimelele lipsă la finalul Art. I."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 62006,
+      "sourceEndMarker": "SF-AFAE8FFA",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Orice asociație sau fundație își va putea face propria curte de arbitraj permanentă",
+      "verdictShort": "Propunerea răstoarnă o decizie a ÎCCJ și deschide arbitrajul permanent tuturor ONG-urilor, ceea ce e legitim și poate fi util. Dar o face fără nicio garanție minimă: nu există autorizare, transparență, reguli de denumire sau protecție a consumatorilor, deși hotărârile arbitrale devin titluri executorii.",
+      "initiatorClaim": "Inițiatorii spun că, după RIL nr. 10/2024, arbitrajul permanent e limitat la câteva instituții, ca Camerele de Comerț, barourile, notarii, ORDA și CNAS. Vor să-l extindă la asociații și fundații, ca să degreveze instanțele și să ofere arbitraj specializat pe domenii.",
+      "realityCheck": "Art. I scoate din art. 616 alin. (1) CPC formula «organizație neguvernamentală de interes public de sine stătătoare, în condițiile legii», pe care se sprijinea RIL 10/2024. O înlocuiește cu orice asociație, fundație sau federație constituită potrivit OG 26/2000, fără autorizare prealabilă. Efectul: oricine înființează o asociație, cu minimum 3 membri, poate deschide o «curte de arbitraj» permanentă. Ale cui hotărâri sunt titluri executorii și pot fi atacate doar pe motivele limitate ale acțiunii în anulare. Proiectul nu stabilește standarde de independență, transparență sau denumire. Incremental, riscul e moderat, pentru că arbitrajul ad-hoc e deja posibil cu orice arbitri, iar convenția arbitrală rămâne obligatorie. Câștigul principal al unei instituții permanente este însă eticheta, iar aceasta poate fi folosită abuziv în contracte de adeziune.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "IMM & Antreprenori",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I (art. 616 alin. 1 CPC). Acum, arbitrajul instituționalizat poate funcționa ca ONG de interes public «în condițiile legii», iar ÎCCJ (RIL 10/2024) a cerut pentru aceasta o autorizare legală specială. După proiect, orice asociație, fundație sau federație după OG 26/2000 poate organiza arbitraj permanent, iar sintagma «în condițiile legii» dispare din CPC.",
+        "Art. II pct. 2 (art. 48² nou din OG 26/2000) reintroduce totuși formula «în condițiile prevăzute de lege». Se creează astfel o ambiguitate: un judecător ar putea susține din nou că e nevoie de o lege specială de autorizare, adică exact raționamentul RIL 10/2024 pe care proiectul vrea să-l înlăture.",
+        "Art. II pct. 1 adaugă la art. 46 alin. (1) lit. h), adică taxele arbitrale ca venit al asociațiilor. Art. 46 alin. (2), nemodificat, trimite însă pentru fundații doar la lit. b)-g). Rezultă că fundațiile pot organiza arbitraj (art. 48²), dar taxele arbitrale nu apar expres printre veniturile lor.",
+        "Proiectul nu prevede nicio garanție pentru noile instituții arbitrale: registru public, publicarea regulamentului, a listei de arbitri și a taxelor, reguli de incompatibilitate față de fondatori sau interdicția unor denumiri care imită instanțele statului («Curtea de…», «Tribunalul…»).",
+        "Lipsesc dispozițiile tranzitorii. Nu se spune ce se întâmplă cu clauzele arbitrale încheiate anterior în favoarea arbitrajelor ONG considerate nelegale după RIL 10/2024 și nici cu procedurile aflate în curs.",
+        "Textul păstrează din regimul actual caracterul nelucrativ al arbitrajului instituționalizat și autonomia față de entitatea fondatoare (art. 616 alin. 2), care rămâne nemodificat. La o asociație care este ea însăși arbitrajul, autonomia «față de instituția care l-a înființat» devine însă greu de aplicat."
+      ],
+      "blindSpotsCaught": "Prima problemă e circulară. Proiectul scoate «în condițiile legii» din CPC, dar pune «în condițiile prevăzute de lege» în noul art. 48² din OG 26/2000. Interpretarea restrictivă a ÎCCJ rămâne astfel posibilă, iar scopul declarat poate fi ratat. A doua problemă privește fundațiile: noua lit. h) de la art. 46 nu le e aplicabilă, pentru că alin. (2) trimite doar la b)-g). A treia ține de consumatori. Legea 193/2000 (anexa, lit. q din Directiva 93/13) consideră abuzivă clauza care impune arbitraj neacoperit de prevederi legale. Odată ce arbitrajul ONG devine «acoperit de lege», comercianții ar putea argumenta că astfel de clauze în contracte de adeziune nu mai sunt suspecte. De aici vine nevoia unei interdicții explicite pentru clauzele arbitrale cu consumatori încheiate înainte de nașterea litigiului.",
+      "constitutionalityNote": "Proiectul nu ridică probleme constituționale de fond. Legiuitorul poate adopta o soluție contrară unui RIL, pentru că deciziile ÎCCJ interpretează legea în vigoare și nu limitează funcția legislativă (art. 61 și art. 126 alin. 3). Arbitrajul este o jurisdicție facultativă, bazată pe consimțământ, admisă de CCR. Nu încalcă art. 21 (accesul liber la justiție), câtă vreme controlul prin acțiunea în anulare rămâne. Legea poate fi ordinară, deoarece arbitrajul nu ține de organizarea instanțelor (art. 73 alin. 3 lit. l). La claritate și previzibilitate (art. 1 alin. 5), apar obiecții: contradicția dintre noul art. 616 CPC și formula «în condițiile prevăzute de lege» din art. 48², omisiunea de la art. 46 alin. (2) și lipsa normelor tranzitorii pot genera din nou practică neunitară. Pentru că o entitate privată, neautorizată, poate emite titluri executorii, garanțiile minime de independență și transparență ar susține și exigențele art. 21 alin. (3) privind procesul echitabil.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică. Proiectul nu reglementează o profesie (activitatea de arbitru nu devine profesie reglementată) și, oricum, elimină o restricție în loc să introducă una. Liberalizarea e compatibilă cu Directiva 2006/123 privind serviciile și cu libertatea de asociere. TRIS (2015/1535) nu e relevantă, pentru că nu sunt vizate servicii ale societății informaționale sau reglementări tehnice. Punctul sensibil e protecția consumatorilor. Directiva 93/13 (anexa, lit. q) și jurisprudența CJUE (Mostaza Claro, Asturcom) obligă instanța să verifice din oficiu caracterul abuziv al clauzelor arbitrale. Directiva 2013/11/UE (art. 10) cere ca o soluție ADR obligatorie pentru consumator să se bazeze pe acordul dat după nașterea litigiului. Proiectul nu face nicio distincție pentru consumatori. Este de menționat și că textul se referă doar la entități constituite după OG 26/2000; organizațiile din alte state membre pot recurge la varianta «organizație internațională» sau la recunoaștere, deci nu apare o discriminare evidentă.",
+      "senatForm": {
+        "articleRef": "Art. II pct. 2 (art. 48² din OG 26/2000)",
+        "proposalContent": "Art. 48²: (1) Asociațiile, fundațiile și federațiile pot înființa arbitraj instituționalizat potrivit statutului. (2) Denumirea nu poate crea confuzie cu instanțele statului. Regulamentul, lista arbitrilor și taxele se publică online. (3) Nu se pot soluționa litigii cu consumatori în baza unei clauze încheiate înainte de nașterea litigiului.",
+        "argumentation": "Proiectul elimină condiția de autorizare din art. 616 CPC fără nicio garanție minimă. Hotărârea arbitrală e titlu executoriu, iar anularea ei e limitată. Riscul unor «curți de arbitraj» cu denumiri care imită instanțele, impuse prin contracte de adeziune, e real. Transparența și protecția consumatorilor trebuie fixate în lege.",
+        "otherComments": "Art. 46 alin. (2) OG 26/2000 trimite doar la lit. b)-g). Fundațiile pot organiza arbitraj (art. 48²), dar n-au taxele arbitrale (noua lit. h) printre venituri, deci trebuie scris «b)-h)». Lipsesc norme tranzitorii pentru clauzele arbitrale și procedurile anterioare intrării în vigoare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 99292,
-      "riskScore": 3,
+      "durationMs": 74352,
+      "sourceEndMarker": "SF-AFAE8FFA",
+      "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "ONG-urile vor putea organiza arbitraj pentru soluționarea litigiilor",
-      "verdictShort": "Proiectul este în principal util: permite mai multor organizații să ofere arbitraj, fără să oblige cetățenii sau firmele să îl folosească. Riscul este redus, dar textul trebuie corelat pentru ca fundațiile să poată încasa explicit aceleași venituri arbitrale ca asociațiile.",
-      "initiatorClaim": "Inițiatorii urmăresc să permită asociațiilor și fundațiilor organizarea permanentă a arbitrajului, după interpretarea restrictivă dată legislației existente de ÎCCJ. Ei anticipează soluționarea mai rapidă a litigiilor specializate și reducerea încărcării instanțelor.",
-      "realityCheck": "Art. I și noul art. 48² autorizează expres asociațiile, fundațiile și federațiile constituite potrivit OG nr. 26/2000 să organizeze arbitraj instituționalizat, iar art. II introduce veniturile arbitrale între sursele de finanțare. Arbitrajul rămâne întemeiat pe convenția părților și limitat la materiile arbitrabile; proiectul nu garantează termene mai scurte, tarife mai mici sau degrevarea instanțelor. Nu introduce sancțiuni, contribuții generale, autorități noi ori cheltuieli bugetare directe, însă participarea la arbitraj poate presupune costuri private.",
+      "plainTitle": "Asociațiile și fundațiile vor putea organiza arbitraj permanent",
+      "verdictShort": "Proiectul deschide accesul la organizarea arbitrajului și poate crește concurența între furnizori. Riscul este redus; principala problemă concretă este necorelarea veniturilor fundațiilor cu noua autorizare.",
+      "initiatorClaim": "Inițiatorii urmăresc să permită asociațiilor, fundațiilor și federațiilor să organizeze arbitraj instituționalizat, depășind limitarea rezultată din interpretarea ÎCCJ. Ei invocă soluționarea specializată și rapidă a litigiilor și reducerea presiunii asupra instanțelor.",
+      "realityCheck": "Art. I și art. II introduc o autorizare legală generală pentru aceste entități, fără condiția recunoașterii utilității publice, în cadrul regulilor existente privind arbitrajul și convenția arbitrală. Caracterul neeconomic și absența scopului lucrativ existau deja; proiectul nu instituie o scutire fiscală generală și nici arbitraj obligatoriu. Noua sursă de venit este prevăzută expres pentru asociații și federații, dar trimiterea privind veniturile fundațiilor rămâne neactualizată.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I și art. II pct. 2 înlătură lipsa autorizării legislative identificate prin RIL nr. 10/2024. ÎCCJ admite chiar posibilitatea unei asemenea intervenții legislative, la paragraful 110; schimbarea regulii pentru viitor nu reprezintă nesocotirea hotărârii. [ÎCCJ, Decizia nr. 10/2024](https://legislatie.just.ro/Public/DetaliiDocumentAfis/287708)",
-        "Art. II pct. 1 adaugă lit. h) la art. 46 alin. (1), dar alin. (2), privind fundațiile, trimite numai la lit. b)-g). Este o necorelare remediabilă: lit. g), privind alte venituri prevăzute de lege, poate susține o interpretare permisivă, dar includerea expresă a lit. h) elimină incertitudinea. [OG nr. 26/2000, art. 46](https://legislatie.just.ro/Public/DetaliiDocumentAfis/280838)",
-        "Caracterul nonprofit nu înseamnă arbitraj gratuit: taxele și onorariile sunt deja prevăzute de art. 620 CPC. Proiectul extinde organizatorii și sursele lor explicite de venit, fără să stabilească tarife, scutiri fiscale sau obligații administrative noi pentru toate IMM-urile. [Codul de procedură civilă, art. 620](https://legislatie.just.ro/Public/FormaPrintabila/00000G2P1OZO5VH3J8E2IILIO8MFFMJM)"
+        "Art. I înlocuiește referirea la organizația neguvernamentală de interes public de sine stătătoare cu asociația, fundația sau federația constituită potrivit OG nr. 26/2000. Art. II pct. 2 furnizează autorizarea legală generală cerută, în cadrul normativ actual, de RIL nr. 10/2024.",
+        "Art. II pct. 1 adaugă taxele arbitrale la art. 46 alin. (1) lit. h), însă alin. (2) continuă să trimită pentru fundații numai la lit. b)-g). Este o necorelare de remediat, fără a putea afirma că fundațiilor li se interzice categoric încasarea taxelor, deoarece lit. g) permite alte venituri prevăzute de lege.",
+        "Autonomia prevăzută de art. 616 alin. (2), limitele legale ale litigiilor arbitrabile și controlul judecătoresc prin acțiunea în anulare rămân aplicabile. Proiectul nu transferă automat litigiile cetățenilor către arbitraj.",
+        "Proiectul nu introduce un monopol, tarife obligatorii pentru populație, sancțiuni sau proceduri administrative suplimentare de autorizare. Taxele arbitrale pot reprezenta un cost pentru utilizatori, dar arbitrajul presupune convenție arbitrală; economiile bugetare și reducerea duratei litigiilor nu sunt demonstrate prin date în expunerea furnizată."
       ],
-      "blindSpotsCaught": "Autorizarea organizatorilor nu validează automat convențiile arbitrale sau hotărârile pronunțate anterior; proiectul nu conține o asemenea dispoziție. Garanțiile existente rămân aplicabile: autonomia față de fondator, prevăzută de art. 616 alin. (2), și controlul judecătoresc prin acțiunea în anulare, pentru motivele limitate din art. 608; acesta nu echivalează cu un apel general asupra fondului. [Art. 616, reprodus în RIL nr. 10/2024](https://legislatie.just.ro/Public/DetaliiDocumentAfis/287708), [CPC, art. 608](https://legislatie.just.ro/Public/FormaPrintabila/00000G2P1OZO5VH3J8E2IILIO8MFFMJM)",
-      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă din textul furnizat. Pentru claritate și previzibilitate, art. 1 alin. (5) justifică remedierea trimiterii incomplete privind veniturile fundațiilor. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident, deoarece proiectul nu instituie pedepse. Art. 21 și 24 impun păstrarea consimțământului valabil, imparțialității și dreptului la apărare; extinderea organizatorilor nu elimină aceste cerințe. Adoptarea ca lege ordinară este justificabilă prin obiectul reglementării: arbitraj privat, fără reorganizarea instanțelor judecătorești. [Constituția, titlul I](https://www.cdep.ro/ords/pls/dic/site.page?id=339&idl=1&par1=1), [titlul II](https://www.cdep.ro/ords/pls/dic/site.page?id=339&idl=1&par1=2), [titlul III](https://www.cdep.ro/ords/pls/dic/site.page?id=339&idl=1&par1=3)",
-      "euLawNote": "Efectul anticipat asupra concurenței este favorabil, prin extinderea organizatorilor eligibili, fără exclusivități noi. Directiva (UE) 2018/958 privește restricțiile asupra accesului la profesii reglementate și exercitării lor; textul analizat nu introduce calificări profesionale obligatorii ori activități rezervate unei profesii, astfel că nu se identifică un temei concret pentru aplicarea testului obligatoriu. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018L0958) Nu rezultă obligația notificării TRIS: proiectul nu stabilește cerințe tehnice și nu reglementează explicit servicii digitale sau AI; eventuala desfășurare online a arbitrajului nu este suficientă. [Directiva 2015/1535, art. 1](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535) Calificarea națională a arbitrajului drept activitate fără caracter economic, deja existentă, nu exclude automat aplicarea dreptului UE al concurenței activităților administrative oferite pe piață; evaluarea depinde de activitatea concretă. [CJUE, MOTOE, pct. 27](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A62007CJ0049)",
+      "blindSpotsCaught": "Neactualizarea art. 46 alin. (2) afectează tocmai fundațiile pe care proiectul le autorizează expres. Textul nu conține dispoziții tranzitorii sau validarea retroactivă a activităților anterioare; noua autorizare nu trebuie confundată cu înlăturarea hotărârilor judecătorești definitive pronunțate sub legea veche.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă. Parlamentul poate modifica pentru viitor cadrul interpretat printr-un recurs în interesul legii, cu respectarea neretroactivității și a autorității hotărârilor definitive. Art. 1 alin. (5) justifică remedierea necorelării veniturilor fundațiilor. Accesul la justiție și dreptul la apărare rămân protejate de regulile generale ale arbitrajului și de controlul judecătoresc. Art. 23 alin. (12) nu este incident: proiectul nu instituie pedepse.",
+      "euLawNote": "Efectul probabil este favorabil concurenței prin extinderea organizatorilor eligibili. Directiva (UE) 2018/958 privește restricțiile privind accesul la profesii reglementate și exercitarea acestora; textul nu introduce asemenea condiții profesionale, astfel că nu rezultă obligația unui test în temeiul ei. Nu sunt reglementate specific servicii ale societății informaționale sau produse, deci nu rezultă o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535. Protecția consumatorilor împotriva clauzelor arbitrale abuzive rămâne aplicabilă.",
       "senatForm": {
-        "articleRef": "Art. II – art. 46 alin. (2) din OG nr. 26/2000",
-        "proposalContent": "La articolul 46, alineatul (2) se modifică și va avea următorul cuprins: „(2) Veniturile fundațiilor sunt cele prevăzute la alin. (1) lit. b)-h).”",
-        "argumentation": "Proiectul introduce taxele arbitrale la lit. h), dar alin. (2) trimite numai la lit. b)-g). Corelarea include expres fundațiile între beneficiarii noii surse de venit și evită interpretări divergente, fără a institui taxe obligatorii sau cheltuieli bugetare.",
-        "otherComments": "Observație pentru Comisia juridică a Camerei Deputaților, Pl-x 698/2026, termen 03.11.2026. Propunerea poate fi preluată de un deputat ca amendament. Se recomandă și publicarea regulamentelor și tarifelor arbitrale."
-      }
+        "articleRef": "Art. II – art. 46 alin. (2) OG nr. 26/2000",
+        "proposalContent": "La articolul II se introduce punctul 3: „3. La articolul 46, alineatul (2) se modifică și va avea următorul cuprins: «(2) Veniturile fundațiilor sunt cele prevăzute la alin. (1) lit. b)-h).»”",
+        "argumentation": "Proiectul autorizează și fundațiile să organizeze arbitraj instituționalizat, dar introduce veniturile arbitrale la lit. h), în afara trimiterii actuale din alin. (2). Corelarea elimină incertitudinea privind încasarea taxelor de către fundații și asigură coerența reglementării.",
+        "otherComments": "Verificarea online nu a fost disponibilă; analiza se bazează pe textele furnizate. Termenul indicat pentru amendamente, 03.11.2026, este depășit la data analizei, 24.11.2026. Propunerea poate fi transmisă comisiei ca observație, fără garanția preluării procedurale."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T19:51:22.189Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:46:27.841Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

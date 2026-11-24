@@ -2,7 +2,7 @@
   "billId": "Pl-x 453/2026",
   "slug": "plx-453-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:08:21.933Z",
+  "updatedAt": "2026-11-24T15:01:56.930Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,21 +31,21 @@
     "key": "ff95ad81c29dc364"
   },
   "consensus": {
-    "riskScore": 4,
-    "riskLevel": "yellow",
-    "plainTitle": "Alegerea primarilor și a șefilor de consilii județene în două tururi",
-    "summaryTlDr": "Revenirea la alegerea în două tururi este o opțiune legislativă permisă de Constituție, aflată constant în dezbaterea publică. Totuși, forma actuală a proiectului are erori serioase de redactare (în special la art. 102) și omite regulile operaționale, de campanie și bugetare necesare desfășurării turului al doilea.",
-    "initiatorClaim": "Inițiatorii (parlamentari AUR) susțin în Expunerea de motive că votul într-un singur tur a redus legitimitatea aleșilor locali și a consolidat poziția candidaților deja în funcție, iar revenirea la două tururi ar crește reprezentativitatea, pluralismul politic și șansele partidelor mici sau ale candidaților independenți.",
-    "realityCheck": "În prezent, Legea nr. 115/2015 declară ales candidatul cu cel mai mare număr de voturi dintr-un singur tur, al doilea tur având loc doar în caz de egalitate (balotaj). Proiectul modifică doar trei articole (101, 101^1 și 102) pentru a cere majoritatea voturilor valabil exprimate (peste 50%), dar introduce contradicții de redactare în art. 102, lasă neclar balotajul pentru locul al doilea și nu corelează restul legii cu organizarea efectivă a unui tur al doilea.",
+    "riskScore": 3.7,
+    "riskLevel": "green",
+    "plainTitle": "Primarii și președinții de consilii județene, aleși din nou în două tururi",
+    "summaryTlDr": "Proiectul readuce turul doi la alegerea primarilor și a președinților de CJ. Este o opțiune politică legitimă și constituțională. Textul e însă redactat neglijent: noul art. 102 descrie o situație imposibilă și nu mai spune ce se întâmplă dacă unul dintre cei doi finaliști se retrage înainte de turul doi.",
+    "initiatorClaim": "Inițiatorii AUR susțin că turul unic, în vigoare din 2012, favorizează candidatul dominant (de regulă primarul în funcție) și scade legitimitatea aleșilor. Cer revenirea la sistemul majoritar în două tururi, ca să crească reprezentativitatea, pluralismul și șansele partidelor mici și ale independenților.",
+    "realityCheck": "Mecanic, art. 101 alin. (2) și art. 101^1 alin. (2) cer majoritatea voturilor valabil exprimate în turul I. Altfel urmează un tur II între primii doi, câștigat cu majoritate relativă. La egalitate în turul II se reiau alegerile la nesfârșit, fără o regulă de departajare finală. Art. 102 rescris pierde cazurile de renunțare și de pierdere a eligibilității din legea actuală, deci retragerea unui finalist rămâne nereglementată. Costul unui tur suplimentar în toate UAT-urile cu tur II nu este estimat nicăieri.",
     "affectedGroups": [
       "Toți cetățenii",
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 3 (Art. 102 din Legea 115/2015)",
-      "proposalContent": "Art. 102: Dacă unul dintre cei 2 candidați între care urmează să se desfășoare al doilea tur sau un nou tur de balotaj decedează, renunță ori nu mai îndeplinește condițiile legale pentru a fi ales, nu mai au loc alegeri, biroul electoral de circumscripție declarându-l ales primar sau, după caz, președinte al consiliului județean pe celălalt candidat.",
-      "argumentation": "Textul propus conține o contradicție („s-a desfășurat” vs. „a mai participa” la turul 2), omite decesul ori retragerea între turul 1 și turul 2 fără balotaj și înlocuiește criterii clare cu formula vagă „imposibilitatea de a mai participa”, creând riscuri de neconstituționalitate pe art. 1 alin. (5) privind claritatea legii.",
-      "otherComments": "Corelați art. 101 și 101^1: clarificați balotajul pentru locul 2, uniformizați termenul („la două săptămâni” vs. „în termen de două săptămâni”), reglementați campania și finanțarea turului 2, introduceți norme tranzitorii pentru alegerile parțiale și atașați fișa financiară pentru costurile bugetare suplimentare."
+      "articleRef": "Art. I pct. 3 (art. 102 din Legea 115/2015)",
+      "proposalContent": "Art. 102: Dacă, înainte de turul al doilea, unul dintre cei 2 candidați calificați decedează, renunță sau nu mai îndeplinește condițiile legale, participă în locul său candidatul clasat următor în turul I. Dacă rămâne un singur candidat eligibil, biroul electoral de circumscripție îl declară ales.",
+      "argumentation": "Textul propus vorbește de un tur doi deja «desfășurat» la care un candidat nu mai poate participa – situație imposibilă – și elimină cazurile de renunțare și pierdere a eligibilității din legea actuală. Fără regulă clară, retragerea unui finalist blochează alegerea și generează litigii. Soluția păstrează caracterul competitiv al turului II.",
+      "otherComments": "Unificați termenul turului II (art. 101: «la două săptămâni», art. 101^1: «în termen de»), precizați «peste jumătate din voturile valabil exprimate», limitați reluarea la egalitate (ex. tragere la sorți) și anexați fișa de impact bugetar (art. 15 L. 500/2002). La art. 101^1 corectați «doîlea» și biroul «de circumscripție județeană»."
     }
   },
   "council": {
@@ -84,8 +84,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 70544,
+      "sourceEndMarker": "SF-4829AC74",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Primarii și președinții de consilii județene, aleși din nou în două tururi",
+      "verdictShort": "Proiectul readuce turul doi la alegerea primarilor și a președinților de CJ. Este o opțiune politică legitimă și constituțională. Textul e însă redactat neglijent: noul art. 102 descrie o situație imposibilă și nu mai spune ce se întâmplă dacă unul dintre cei doi finaliști se retrage înainte de turul doi.",
+      "initiatorClaim": "Inițiatorii AUR susțin că turul unic, în vigoare din 2012, favorizează candidatul dominant (de regulă primarul în funcție) și scade legitimitatea aleșilor. Cer revenirea la sistemul majoritar în două tururi, ca să crească reprezentativitatea, pluralismul și șansele partidelor mici și ale independenților.",
+      "realityCheck": "Mecanic, art. 101 alin. (2) și art. 101^1 alin. (2) cer majoritatea voturilor valabil exprimate în turul I. Altfel urmează un tur II între primii doi, câștigat cu majoritate relativă. La egalitate în turul II se reiau alegerile la nesfârșit, fără o regulă de departajare finală. Art. 102 rescris pierde cazurile de renunțare și de pierdere a eligibilității din legea actuală, deci retragerea unui finalist rămâne nereglementată. Costul unui tur suplimentar în toate UAT-urile cu tur II nu este estimat nicăieri.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 și 2 (art. 101 și 101^1 alin. 2–3): pragul trece de la „cel mai mare număr de voturi” (legea actuală) la „majoritatea voturilor valabil exprimate”. Dacă nimeni nu-l atinge, turul II se dă între primii doi clasați. Este o schimbare reală de sistem electoral, nu doar tehnică.",
+        "Art. I pct. 3 (art. 102 nou) vorbește de balotaj între doi candidați „între care s-a desfășurat cel de-al doilea tur”, unul aflat în imposibilitatea de a participa „la cel de-al doilea tur”. Situația e logic imposibilă, pentru că turul II deja a avut loc. Textul actual acoperă decesul, renunțarea și pierderea condițiilor de eligibilitate. Varianta nouă le înlocuiește cu o formulă vagă și nu mai reglementează retragerea unui finalist înainte de turul II.",
+        "Art. 101 alin. (6) și art. 101^1 alin. (6): la egalitate în turul II se organizează un nou tur, iar la o nouă egalitate textul nu oferă nicio soluție de departajare finală. Rezultă un ciclu teoretic nelimitat de scrutinuri, cu funcția vacantă între timp.",
+        "Termenele diferă între texte: pentru primar turul II are loc „la două săptămâni”, pentru președintele CJ „în termen de două săptămâni”. La art. 101^1 alin. (3), procesul-verbal e atribuit „biroului electoral de circumscripție”, deși alin. (1) vorbește de biroul de circumscripție județeană. Există și greșeala „doîlea” la alin. (4).",
+        "Art. 101 alin. (4) („balotaj între mai mulți candidați”) nu precizează dacă e vorba de egalitate pe primul loc, pe locul doi sau ambele. Nu e clar dacă, la egalitate pe locul doi, merg în turul II toți cei la egalitate alături de primul clasat.",
+        "Proiectul nu are fișă financiară. Turul II înseamnă costuri suplimentare cu birourile electorale, buletinele și logistica, iar art. 15 din Legea nr. 500/2002 și art. 138 alin. (5) din Constituție cer indicarea sursei de finanțare.",
+        "Nu există dispoziții tranzitorii și nici corelări cu restul Legii nr. 115/2015, de exemplu campania între tururi, tipărirea buletinelor, calendarul electoral și validarea mandatelor. Art. II prevede doar intrarea în vigoare la 30 de zile."
+      ],
+      "blindSpotsCaught": "Expunerea de motive se contrazice singură. Spune că din 2012 câștigătorii au trecut de 50% în peste 70% din localități, deci acolo turul II nu s-ar fi organizat oricum, iar efectul real s-ar limita la o minoritate de UAT-uri. Datele „60% în 2004 și 2008” intră în conflict cu „48% în 2008”, citat imediat după. Juridic, cea mai serioasă scăpare e art. 102: legea actuală spune clar ce se întâmplă când un candidat calificat renunță sau devine neeligibil, iar proiectul șterge aceste ipoteze. Rămâne loc de manipulare, de pildă prin retragerea tactică a unui finalist, și de litigii la tribunal pe validarea rezultatului. Titlul reproduce denumirea lungă a Legii nr. 115/2015, care menționează Legea nr. 215/2001, deși aceasta e în mare parte abrogată prin Codul administrativ. Este inofensiv, dar poate induce în eroare.",
+      "constitutionalityNote": "Alegerea între sistemul într-un tur și cel în două tururi ține de marja de apreciere a legiuitorului. Constituția (art. 121, art. 2) nu impune niciun model, iar sistemul electoral pentru autoritățile locale se reglementează prin lege organică (art. 73 alin. 3 lit. a), lucru respectat de formula finală. Riscul ține de art. 1 alin. (5) (claritate și previzibilitate): art. 102 nou e incoerent, art. 101 alin. (4) e ambiguu, iar egalitatea repetată nu are soluție. În materie electorală, CCR și Comisia de la Veneția cer reguli precise, iar Codul de bune practici recomandă ca elementele fundamentale să nu se schimbe cu mai puțin de un an înainte de scrutin. Cu alegerile locale în 2028, termenul este încă respectat. Lipsa estimării de impact bugetar poate fi invocată pe temeiul art. 138 alin. (5) și al art. 111. Inițiatorul a cerut punctul de vedere al Guvernului, dar fără fișă financiară.",
+      "euLawNote": "Proiectul reglementează exclusiv modul de alegere a autorităților locale, materie de competență națională. Nu intră sub incidența Directivei (UE) 2018/958, pentru că nu reglementează profesii, și nici a Directivei (UE) 2015/1535 (TRIS), pentru că nu privește servicii ale societății informaționale sau reglementări tehnice. Singura legătură cu dreptul UE e dreptul cetățenilor Uniunii rezidenți de a vota și de a candida la alegerile locale (art. 22 TFUE, Directiva 94/80/CE). Proiectul nu-l afectează, deoarece turul II se aplică în mod egal tuturor alegătorilor și candidaților. Nu are impact asupra concurenței sau a pieței unice.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 3 (art. 102 din Legea 115/2015)",
+        "proposalContent": "Art. 102: Dacă, înainte de turul al doilea, unul dintre cei 2 candidați calificați decedează, renunță sau nu mai îndeplinește condițiile legale, participă în locul său candidatul clasat următor în turul I. Dacă rămâne un singur candidat eligibil, biroul electoral de circumscripție îl declară ales.",
+        "argumentation": "Textul propus vorbește de un tur doi deja «desfășurat» la care un candidat nu mai poate participa – situație imposibilă – și elimină cazurile de renunțare și pierdere a eligibilității din legea actuală. Fără regulă clară, retragerea unui finalist blochează alegerea și generează litigii. Soluția păstrează caracterul competitiv al turului II.",
+        "otherComments": "Unificați termenul turului II (art. 101: «la două săptămâni», art. 101^1: «în termen de»), precizați «peste jumătate din voturile valabil exprimate», limitați reluarea la egalitate (ex. tragere la sorți) și anexați fișa de impact bugetar (art. 15 L. 500/2002). La art. 101^1 corectați «doîlea» și biroul «de circumscripție județeană»."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -137,7 +167,7 @@
         "codex": 5
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:08:21.933Z",
+      "replacedAt": "2026-11-24T15:01:56.930Z",
       "reasons": [
         "model"
       ]

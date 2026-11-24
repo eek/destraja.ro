@@ -2,7 +2,7 @@
   "billId": "Pl-x 191/2026",
   "slug": "plx-191-2026",
   "version": "camera",
-  "updatedAt": "2026-11-24T13:09:26.889Z",
+  "updatedAt": "2026-11-24T15:02:07.989Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "camera",
@@ -31,21 +31,22 @@
     "key": "c73cae284d8056d8"
   },
   "consensus": {
-    "riskScore": 4,
-    "riskLevel": "yellow",
-    "plainTitle": "Audit anual extins al repartizării dosarelor în instanțe, organizat de Ministerul Justiției",
-    "summaryTlDr": "Proiectul urmărește un scop legitim — oprirea manipulării repartizării aleatorii a dosarelor —, dar pune un auditor privat selectat de executiv să verifice legalitatea modificării completurilor de judecată. În plus, slăbește discret rolul societății civile și impune publicarea integrală a vulnerabilităților IT și a suspiciunilor disciplinare fără filtre de securitate.",
-    "initiatorClaim": "Inițiatorii susțin că auditul actual la doi ani este pur formal și strict tehnic, insuficient pentru a depista manipularea completurilor sau redistribuirile abuzive de dosare. Ei propun un audit anual care să verifice și intervențiile umane, log-urile și modificările de completuri, pentru a crește transparența și încrederea în justiție.",
-    "realityCheck": "Legea mărește frecvența auditului de la doi ani la anual și îl extinde de la aplicația informatică la verificarea „conformității cu dispozițiile legale” a operațiunilor administrative și a modificărilor de completuri, cu obligația de a consemna și publica integral în raport eventualele indicii de abateri disciplinare sau încălcări ale legii. Deși auditul intră puternic pe terenul administrării justiției, organizarea rămâne la Ministerul Justiției, iar implicarea societății civile și a asociațiilor de magistrați este retrogradată din obligație legală în simplă opțiune de consultare.",
+    "riskScore": 3.3,
+    "riskLevel": "green",
+    "plainTitle": "Verificare anuală și mai amănunțită a sistemului care împarte dosarele la judecători",
+    "summaryTlDr": "Este o lege de transparență, utilă și cu risc mic: auditul repartizării aleatorii a dosarelor devine anual, mai cuprinzător, iar raportul se publică integral. Are însă un regres discret: implicarea societății civile, azi obligatorie, devine facultativă.",
+    "initiatorClaim": "Inițiatorii USR spun că auditul actual e prea formal și pur tehnic și nu poate depista eludările practice ale repartizării aleatorii, de exemplu intervenții manuale, recompuneri de completuri sau redistribuiri repetate. Vor un audit real, care să verifice și intervențiile umane și să sesizeze CSM și Inspecția Judiciară.",
+    "realityCheck": "Proiectul înlocuiește auditul tehnic făcut la 2 ani cu un audit anual, tehnic, procedural și operațional, care verifică log-urile, recompunerile de completuri, redistribuirile și operațiunile manuale. Raportul se publică integral, nu doar concluziile, iar indiciile de abateri se transmit de îndată CSM, Inspecției Judiciare sau organelor competente. Efecte secundare: consultarea societății civile și a asociațiilor magistraților trece de la «cu implicarea» (obligatoriu) la «poate include» (facultativ). Analiza operațiunilor anterioare auditării nu are nicio limită în timp. Lipsesc o obligație expresă de acces la date pentru auditor, o dispoziție tranzitorie și o estimare a costului anual.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
-      "Toți cetățenii"
+      "Toți cetățenii",
+      "IT & AI"
     ],
     "senatForm": {
-      "articleRef": "Art. 58 alin. (4), (5²) și (6)",
-      "proposalContent": "Alin. (4): eliminați verificarea „conformității cu dispozițiile legale” de către auditor. Alin. (6): auditul să fie organizat de CSM, cu implicarea obligatorie a societății civile și a asociațiilor de magistrați, iar publicarea să excludă vulnerabilitățile IT exploatabile și datele ce identifică magistrați din sesizări neconfirmate.",
-      "argumentation": "Un auditor selectat de executiv nu poate evalua legalitatea modificării completurilor fără a încălca art. 1 alin. (4) și art. 124 alin. (3) din Constituție. Totodată, textul face facultativă implicarea societății civile (acum obligatorie) și cere publicarea integrală a vulnerabilităților IT și a indiciilor disciplinare, creând riscuri de securitate.",
-      "otherComments": "Propunerea are un scop legitim (combaterea eludării repartizării aleatorii), dar fără clarificarea perioadei auditate, a autorizării de acces la dosare nepublice/clasificate și a criteriilor de independență a auditorului, riscă invalidarea la CCR. Adoptați legea cu vot de lege organică (art. 73 alin. 3 lit. l) Constituție) și stabiliți sursa de finanțare."
+      "articleRef": "Art. unic pct. 3 și 4 – art. 58 alin. (5¹), (6)",
+      "proposalContent": "Alin. (6) teza a II-a: «Procedura de selecție și caietul de sarcini se stabilesc cu consultarea obligatorie a societății civile și a asociațiilor profesionale ale magistraților.» La alin. (5¹) se adaugă: «Instanțele, ÎCCJ și CSM asigură auditorului accesul integral la datele necesare, în cel mult 15 zile de la solicitare.»",
+      "argumentation": "Legea în vigoare impune implicarea societății civile («cu implicarea»), iar proiectul o face facultativă («poate include»). Ar fi un regres de transparență, contrar scopului declarat. Fără o obligație expresă de acces la date, auditorul depinde de bunăvoința instanțelor, iar verificarea log-urilor, miezul reformei, poate fi blocată.",
+      "otherComments": "Recomand și: o perioadă de referință pentru analiza retrospectivă (de la ultimul audit), o dispoziție tranzitorie pentru primul audit anual, fișă financiară și punctul de vedere al Guvernului (art. 111 și art. 138 alin. 5 din Constituție), precum și precizarea că auditul nu privește secretul deliberării și conținutul actelor jurisdicționale."
     }
   },
   "council": {
@@ -84,8 +85,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 46509,
+      "sourceEndMarker": "SF-58D0B9AE",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Verificare anuală și mai amănunțită a sistemului care împarte dosarele la judecători",
+      "verdictShort": "Este o lege de transparență, utilă și cu risc mic: auditul repartizării aleatorii a dosarelor devine anual, mai cuprinzător, iar raportul se publică integral. Are însă un regres discret: implicarea societății civile, azi obligatorie, devine facultativă.",
+      "initiatorClaim": "Inițiatorii USR spun că auditul actual e prea formal și pur tehnic și nu poate depista eludările practice ale repartizării aleatorii, de exemplu intervenții manuale, recompuneri de completuri sau redistribuiri repetate. Vor un audit real, care să verifice și intervențiile umane și să sesizeze CSM și Inspecția Judiciară.",
+      "realityCheck": "Proiectul înlocuiește auditul tehnic făcut la 2 ani cu un audit anual, tehnic, procedural și operațional, care verifică log-urile, recompunerile de completuri, redistribuirile și operațiunile manuale. Raportul se publică integral, nu doar concluziile, iar indiciile de abateri se transmit de îndată CSM, Inspecției Judiciare sau organelor competente. Efecte secundare: consultarea societății civile și a asociațiilor magistraților trece de la «cu implicarea» (obligatoriu) la «poate include» (facultativ). Analiza operațiunilor anterioare auditării nu are nicio limită în timp. Lipsesc o obligație expresă de acces la date pentru auditor, o dispoziție tranzitorie și o estimare a costului anual.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii",
+        "IT & AI"
+      ],
+      "keyFindings": [
+        "Art. unic pct. 1 (art. 58 alin. 4): frecvența auditului crește de la «la fiecare 2 ani» la «anual», iar obiectul se extinde de la «sub aspect tehnic» la aspectele tehnice, procedurale și operaționale, inclusiv intervențiile umane și conformitatea lor cu legea.",
+        "Art. unic pct. 3 (alin. 5¹ nou): verificarea jurnalelor informatice (log-uri), a modificărilor din compunerea completurilor, a redistribuirilor și a operațiunilor manuale sau administrative devine obligatorie. Aceasta e miezul util al legii, pentru că exact pe aici se pot eluda regulile.",
+        "Art. unic pct. 3 (alin. 5² nou): auditorul consemnează indiciile de încălcări ale legii sau de abateri disciplinare și le comunică de îndată CSM, Inspecției Judiciare sau organelor competente. Auditorul nu primește puteri de anchetă sau de sancționare, deci rolul Inspecției Judiciare nu este substituit.",
+        "Art. unic pct. 4 (alin. 6): auditorul devine o «entitate independentă» selectată prin «procedură transparentă», iar raportul se publică integral, cu protecția datelor personale. Azi se publică doar concluziile, deci transparența crește.",
+        "Regres la alin. (6): implicarea societății civile și a asociațiilor profesionale ale magistraților, azi imperativă, devine opțională («poate include consultarea»). Dispar și ordinul ministrului ca temei, precum și sintagma «în raport de competențele sale» privind CSM. Ultima omisiune nu are efect juridic, pentru că atribuțiile CSM decurg din Constituție.",
+        "Proiectul a fost adoptat tacit de Camera Deputaților (art. 75 alin. 2 teza a III-a din Constituție), fără dezbatere și fără amendamente. Senatul, cameră decizională, este primul for care examinează efectiv textul."
+      ],
+      "blindSpotsCaught": "1) «Operațiunile efectuate anterior auditării» nu au o perioadă de referință, așa că un auditor ar putea fi obligat să analizeze ani întregi de istoric. O limitare firească ar fi «de la ultimul audit». 2) Nu există o obligație expresă a instanțelor, a ÎCCJ și a CSM de a da auditorului acces la log-uri și date. Formula «organizează Ministerul Justiției» nu acoperă instanțele, care sunt independente, iar auditul poate fi blocat practic. 3) Nu e clar dacă auditul acoperă și sistemul propriu al ÎCCJ. 4) Nu există o dispoziție tranzitorie privind primul audit anual. 5) Expresia «în condițiile legii» trimite implicit la achizițiile publice (Legea 98/2016), deci la un ciclu anual de licitație și la riscul de contestații și întârzieri. 6) Nu se precizează că auditul nu vizează secretul deliberării și conținutul actelor jurisdicționale. 7) Proiectul nu are fișă financiară.",
+      "constitutionalityNote": "Proiectul este în esență conform cu Constituția și consolidează art. 21 alin. (3) (proces echitabil) și art. 124 alin. (3) (independența judecătorilor). Repartizarea aleatorie este o garanție a imparțialității, iar CCR a confirmat-o ca element al bunei funcționări a justiției. Rolul Ministerului Justiției există deja în legea în vigoare, iar auditul are caracter tehnic și sistemic, nu jurisdicțional. Remedierea rămâne la CSM (art. 133 alin. 1), iar cercetarea disciplinară la Inspecția Judiciară, deci separația puterilor (art. 1 alin. 4) nu este afectată. Pentru claritate și previzibilitate (art. 1 alin. 5), lipsa unei limite temporale pentru analiza retrospectivă și formula vagă «organe competente» sunt deficiențe minore, nu vicii de neconstituționalitate. Creșterea frecvenței auditului generează o cheltuială suplimentară anuală. Ar trebui identificată sursa de finanțare (art. 138 alin. 5) și solicitat punctul de vedere al Guvernului (art. 111 alin. 1). Lipsa acestora este un risc procedural real, dar redus, dacă se invocă în fața CCR.",
+      "euLawNote": "Directiva (UE) 2018/958 privind testul de proporționalitate nu se aplică, pentru că proiectul nu reglementează accesul la o profesie sau exercitarea ei. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că proiectul nu stabilește reguli tehnice pentru servicii ale societății informaționale. Auditul privește un sistem intern al statului, nu servicii oferite publicului. Proiectul este aliniat cu art. 19 alin. (1) TUE și art. 47 din Carta drepturilor fundamentale (instanță independentă și imparțială), cu rapoartele Comisiei privind statul de drept și cu fostele recomandări MCV. Selecția auditorului intră sub incidența Directivei 2014/24/UE, transpusă prin Legea 98/2016. Accesul la log-uri și publicarea raportului trebuie să respecte RGPD (temei art. 6 alin. 1 lit. c/e, minimizarea datelor) și, după caz, Directiva (UE) 2016/680. Textul face trimitere generală la protecția datelor, ceea ce e suficient, deși ar fi utilă precizarea anonimizării.",
+      "senatForm": {
+        "articleRef": "Art. unic pct. 3 și 4 – art. 58 alin. (5¹), (6)",
+        "proposalContent": "Alin. (6) teza a II-a: «Procedura de selecție și caietul de sarcini se stabilesc cu consultarea obligatorie a societății civile și a asociațiilor profesionale ale magistraților.» La alin. (5¹) se adaugă: «Instanțele, ÎCCJ și CSM asigură auditorului accesul integral la datele necesare, în cel mult 15 zile de la solicitare.»",
+        "argumentation": "Legea în vigoare impune implicarea societății civile («cu implicarea»), iar proiectul o face facultativă («poate include»). Ar fi un regres de transparență, contrar scopului declarat. Fără o obligație expresă de acces la date, auditorul depinde de bunăvoința instanțelor, iar verificarea log-urilor, miezul reformei, poate fi blocată.",
+        "otherComments": "Recomand și: o perioadă de referință pentru analiza retrospectivă (de la ultimul audit), o dispoziție tranzitorie pentru primul audit anual, fișă financiară și punctul de vedere al Guvernului (art. 111 și art. 138 alin. 5 din Constituție), precum și precizarea că auditul nu privește secretul deliberării și conținutul actelor jurisdicționale."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -137,7 +168,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:09:26.889Z",
+      "replacedAt": "2026-11-24T15:02:07.989Z",
       "reasons": [
         "model"
       ]

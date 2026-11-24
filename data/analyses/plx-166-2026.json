@@ -2,7 +2,7 @@
   "billId": "Pl-x 166/2026",
   "slug": "plx-166-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:04:47.233Z",
+  "updatedAt": "2026-11-24T14:59:23.603Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,22 +31,23 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 7,
-    "riskLevel": "red",
-    "plainTitle": "Etichete stigmatizante și amenzi de minimum 50.000 lei pentru citricele de categoria a II-a",
-    "summaryTlDr": "Sub pretextul informării consumatorilor, proiectul stigmatizează prin lege citricele legale de categoria a II-a, introduce răspundere contravențională fără culpă și prevede amenzi minime de 50.000 lei care pot falimenta micii comercianți. Textul încalcă flagrant dreptul UE și conține vicii grave de claritate constituțională.",
-    "initiatorClaim": "Inițiatorul susține că vrea să oprească inducerea în eroare a cumpărătorilor și să blocheze vânzarea pe rafturile din România a citricelor importate inițial pentru procesare industrială ca fiind produse de calitate superioară.",
-    "realityCheck": "În realitate, legea obligă comercianții să eticheteze citricele de categoria a II-a (perfect legale și sigure în UE) cu mențiunea peiorativă «produs sub standardul comercial uzual» și să le izoleze într-o «altă zonă comercială». În plus, interzice magazinelor să se apere invocând documentele furnizorului și stabilește amenzi de la 50.000 la 500.000 lei (raportate arbitrar la cifra de afaceri) plus suspendarea activității fără limită de timp.",
+    "riskScore": 6.7,
+    "riskLevel": "yellow",
+    "plainTitle": "Citricele de calitate inferioară: etichetă separată, raft separat și amenzi de cel puțin 50.000 lei",
+    "summaryTlDr": "Scopul e legitim: consumatorul nu trebuie păcălit cu portocale de procesare vândute ca produse premium. Totuși, amenzile pornesc de la 50.000 lei pentru orice tarabă, răspunderea contravențională e făcută solidară, trimiterea la regulamentul UE e depășită, iar proiectul riscă să fie inaplicabil dacă nu este notificat prin TRIS.",
+    "initiatorClaim": "Inițiatorul spune că citrice destinate în alte state procesării ajung în rafturile din România prezentate ca produse de calitate superioară. Vrea să oblige comercianții la etichetare, separare la raft și răspundere comună cu importatorul.",
+    "realityCheck": "Legea impune o etichetă stigmatizantă („produs sub standardul comercial uzual”) și raft separat pentru orice citrice sub categoria I, deși categoria II este perfect legală conform normelor UE. Sancțiunile sunt uniforme și foarte mari (50.000–500.000 lei), cu o mențiune vagă „raportată la cifra de afaceri” și o suspendare a activității fără durată maximă. Efectul practic: micii comercianți din piețe și magazinele de proximitate vor renunța probabil la categoria II, mai ieftină, iar consumatorii cu venituri mici pierd o opțiune legală.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Toți cetățenii",
-      "Agricultură & Mediu"
+      "Agricultură & Mediu",
+      "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. 3, Art. 6 alin. (2) și Art. 7",
-      "proposalContent": "Eliminarea mențiunii obligatorii «produs sub standardul comercial uzual» (art. 3) și a art. 6 alin. (2). La art. 7: amenzi proporționale (ex. 2.000-50.000 lei), eliminare sintagmă neclară «raportată la cifra de afaceri», precizare durată maximă a suspendării și trimitere expresă la OG 2/2001.",
-      "argumentation": "Categoria II este un standard legal UE (Reg. 2023/2429, care a abrogat Reg. 543/2011); eticheta stigmatizantă încalcă art. 34 TFUE. Art. 6(2) impune răspundere contravențională fără culpă (art. 23 alin. 11 Constituție). Minimul de 50.000 lei și suspendarea fără termen încalcă art. 1 alin. 5 Constituție și lovesc micii comercianți.",
-      "otherComments": "Proiectul impune norme tehnice de etichetare și prezentare, necesitând notificare prealabilă la Comisia Europeană (Directiva 2015/1535 TRIS și Reg. 1169/2011), altfel legea este inaplicabilă. Actualizați trimiterea la Reg. 543/2011 (abrogat) și corectați formula de adoptare (lege ordinară, art. 76 alin. 2)."
+      "articleRef": "Art. 7 alin. (2)-(3) – amenzi și suspendare",
+      "proposalContent": "(2) Faptele se sancționează cu amendă de la 5.000 la 50.000 lei pentru PFA, II, IF și microîntreprinderi și de la 20.000 la 200.000 lei pentru ceilalți operatori. (3) Constatarea și aplicarea se fac de agenții ANPC și ANSVSA, potrivit OG nr. 2/2001. (4) La a treia abatere în 12 luni se poate suspenda vânzarea citricelor pentru cel mult 30 de zile.",
+      "argumentation": "Minimul de 50.000 lei este același pentru taraba din piață și pentru hipermarket. Sintagma „raportată la cifra de afaceri”, fără procent sau prag, este imprevizibilă (art. 1 alin. 5 din Constituție). O suspendare fără durată și fără definiția repetării riscă anularea în instanță. Gradarea amenzii după mărimea firmei respectă proporționalitatea.",
+      "otherComments": "Art. 6: răspunderea contravențională este personală, nu solidară; fiecare operator trebuie să răspundă pentru propria obligație. Trimiterea la Reg. 543/2011 trebuie actualizată la Reg. delegat (UE) 2023/2429. Categoria II este legală, iar mențiunea „sub standard” o stigmatizează. Proiectul trebuie notificat prin TRIS (Directiva 2015/1535)."
     }
   },
   "council": {
@@ -86,8 +87,39 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 44166,
+      "sourceEndMarker": "SF-4E6F39DE",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Citricele de calitate inferioară: etichetă separată, raft separat și amenzi de cel puțin 50.000 lei",
+      "verdictShort": "Scopul e legitim: consumatorul nu trebuie păcălit cu portocale de procesare vândute ca produse premium. Totuși, amenzile pornesc de la 50.000 lei pentru orice tarabă, răspunderea contravențională e făcută solidară, trimiterea la regulamentul UE e depășită, iar proiectul riscă să fie inaplicabil dacă nu este notificat prin TRIS.",
+      "initiatorClaim": "Inițiatorul spune că citrice destinate în alte state procesării ajung în rafturile din România prezentate ca produse de calitate superioară. Vrea să oblige comercianții la etichetare, separare la raft și răspundere comună cu importatorul.",
+      "realityCheck": "Legea impune o etichetă stigmatizantă („produs sub standardul comercial uzual”) și raft separat pentru orice citrice sub categoria I, deși categoria II este perfect legală conform normelor UE. Sancțiunile sunt uniforme și foarte mari (50.000–500.000 lei), cu o mențiune vagă „raportată la cifra de afaceri” și o suspendare a activității fără durată maximă. Efectul practic: micii comercianți din piețe și magazinele de proximitate vor renunța probabil la categoria II, mai ieftină, iar consumatorii cu venituri mici pierd o opțiune legală.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Agricultură & Mediu",
+        "Toți cetățenii",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 7 alin. (2): amendă minimă de 50.000 lei, aceeași pentru o tarabă din piață și pentru un hipermarket. Formula „raportată la cifra de afaceri” nu indică niciun procent sau mecanism de calcul, deci aplicarea ei e imprevizibilă.",
+        "Art. 7 alin. (3): suspendarea activității de comercializare a fructelor (nu doar a citricelor) la „repetarea” contravențiilor. Nu se definesc nici repetarea, nici intervalul de timp, nici durata maximă a suspendării.",
+        "Art. 6: răspunderea pentru contravenții este declarată solidară între importator și comerciant, iar comerciantul nu se poate apăra cu documentele furnizorului. Asta contrazice caracterul personal al răspunderii contravenționale.",
+        "Art. 3 și 4: produsele de categoria II, comercializabile legal în toată UE, sunt etichetate obligatoriu „sub standardul comercial uzual” și izolate fizic de categoriile I și Extra. Obligația depășește simpla informare și funcționează ca o barieră comercială.",
+        "Art. 5: interdicția de reclasificare are la bază o „destinație inițială” de procesare care nu e definită. Legea nu spune ce document o stabilește și cine o verifică, deci fapta de la art. 7 alin. (2) lit. d) e greu de probat.",
+        "Art. 7 alin. (1): nu desemnează agenții constatatori și nu face trimitere la OG nr. 2/2001 sau la Legea nr. 270/2017 a prevenirii. Rămâne neclar dacă se aplică avertismentul și planul de remediere."
+      ],
+      "blindSpotsCaught": "Art. 2 face trimitere „în special” la Regulamentul (UE) nr. 543/2011. Partea privind standardele de comercializare pentru fructe și legume a fost însă înlocuită de Regulamentul delegat (UE) 2023/2429, aplicabil din 1 ianuarie 2025. Ambele regulamente stabilesc deja categoriile Extra/I/II pentru citrice și obligația de a afișa categoria la vânzarea cu amănuntul. Afișarea categoriei reale este deci deja obligatorie. Noutatea reală a proiectului constă doar în eticheta suplimentară peiorativă, separarea fizică și amenzile mari. În plus, art. 7 alin. (3) extinde suspendarea la toate fructele, nu doar la citrice.",
+      "constitutionalityNote": "Probleme de claritate și previzibilitate (art. 1 alin. 5): formula „raportată la cifra de afaceri” nu are mecanism de calcul, „repetarea” nu e definită, „destinația inițială” nu e definită, iar suspendarea nu are durată. Răspunderea contravențională solidară contravine principiului personalității răspunderii, care se aplică și contravențiilor, potrivit jurisprudenței CCR și CEDO (dacă sancțiunea are caracter penal în sens Engel). Minimul de 50.000 lei aplicat uniform poate încălca proporționalitatea restrângerii libertății economice (art. 45 și art. 53). Formula de adoptare invocă art. 75 și art. 76 alin. (1), adică lege organică. Pentru o lege de contravenții și protecția consumatorului, caracterul ordinar pare mai potrivit.",
+      "euLawNote": "Standardele de comercializare pentru citrice sunt armonizate prin Regulamentul (UE) nr. 1308/2013 și Regulamentul delegat (UE) 2023/2429. O mențiune națională suplimentară care declară „sub standard” un produs conform categoriei II poate fi văzută ca o măsură cu efect echivalent restricțiilor cantitative (art. 34 TFUE) și ca o informare alimentară națională suplimentară nepermisă de art. 38 din Regulamentul (UE) nr. 1169/2011. Art. 3 și 4 sunt cerințe tehnice privind produsul (etichetare, prezentare), deci proiectul trebuie notificat Comisiei prin TRIS (Directiva 2015/1535) înainte de adoptare. Fără notificare, norma riscă să fie inopozabilă operatorilor (jurisprudența CIA Security). Directiva 2018/958 nu este relevantă, pentru că proiectul nu reglementează profesii. Mai trebuie verificată compatibilitatea cu armonizarea maximă din Directiva 2005/29 privind practicile comerciale neloiale, transpusă prin Legea nr. 363/2007, care sancționează deja prezentarea înșelătoare a calității.",
+      "senatForm": {
+        "articleRef": "Art. 7 alin. (2)-(3) – amenzi și suspendare",
+        "proposalContent": "(2) Faptele se sancționează cu amendă de la 5.000 la 50.000 lei pentru PFA, II, IF și microîntreprinderi și de la 20.000 la 200.000 lei pentru ceilalți operatori. (3) Constatarea și aplicarea se fac de agenții ANPC și ANSVSA, potrivit OG nr. 2/2001. (4) La a treia abatere în 12 luni se poate suspenda vânzarea citricelor pentru cel mult 30 de zile.",
+        "argumentation": "Minimul de 50.000 lei este același pentru taraba din piață și pentru hipermarket. Sintagma „raportată la cifra de afaceri”, fără procent sau prag, este imprevizibilă (art. 1 alin. 5 din Constituție). O suspendare fără durată și fără definiția repetării riscă anularea în instanță. Gradarea amenzii după mărimea firmei respectă proporționalitatea.",
+        "otherComments": "Art. 6: răspunderea contravențională este personală, nu solidară; fiecare operator trebuie să răspundă pentru propria obligație. Trimiterea la Reg. 543/2011 trebuie actualizată la Reg. delegat (UE) 2023/2429. Categoria II este legală, iar mențiunea „sub standard” o stigmatizează. Proiectul trebuie notificat prin TRIS (Directiva 2015/1535)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -142,7 +174,7 @@
         "codex": 7
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:04:47.233Z",
+      "replacedAt": "2026-11-24T14:59:23.603Z",
       "reasons": [
         "model"
       ]

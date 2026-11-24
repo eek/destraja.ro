@@ -2,7 +2,7 @@
   "billId": "PL-x 414/2026",
   "slug": "plx-414-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T13:04:48.938Z",
+  "updatedAt": "2026-11-24T14:59:36.569Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,12 +31,12 @@
     "key": "1dbf62034375bf70"
   },
   "consensus": {
-    "riskScore": 8.5,
+    "riskScore": 8,
     "riskLevel": "red",
-    "plainTitle": "Lista publică a donatorilor ONG și închiderea automată a asociațiilor fără proces",
-    "summaryTlDr": "Deși invocă transparența fondurilor publice și europene, textul adoptat de Senat impune publicarea numelor donatorilor privați și introduce suspendarea și dizolvarea automată („de drept”) a ONG-urilor fără hotărâre judecătorească. Proiectul prezintă vicii severe de constituționalitate și contravine direct dreptului Uniunii Europene și jurisprudenței CJUE.",
-    "initiatorClaim": "Potrivit expunerii de motive, inițiatorii susțin că proiectul urmărește alinierea la principiul european al transparenței și combaterea utilizării abuzive a ONG-urilor, prin clarificarea provenienței fondurilor, în special a sumelor primite de la stat ori de la Uniunea Europeană.",
-    "realityCheck": "În realitate, art. 48² introdus prin Art. I nu se limitează la fondurile publice sau europene, ci vizează toate veniturile și finanțările, indiferent de proveniență, obligând asociațiile, fundațiile și federațiile să raporteze la ANAF „toate elementele de identificare” ale persoanelor juridice (fără niciun prag minim) și ale persoanelor fizice (pentru sume peste 5.000 de lei), cu publicarea numelor donatorilor persoane fizice pe site-ul ANAF. Orice neîndeplinire a obligației atrage automat suspendarea activității și, după un an, dizolvarea de drept a organizației, fără somație, fără termen de remediere și fără control judecătoresc.",
+    "plainTitle": "ONG-urile care nu-și declară anual finanțatorii sunt suspendate, iar după un an se desființează automat",
+    "summaryTlDr": "Transparența finanțării ONG-urilor este un scop legitim, dar mijloacele sunt disproporționate. Proiectul publică pe site-ul ANAF numele donatorilor persoane fizice și desființează automat, fără judecător, orice asociație care întârzie o declarație.",
+    "initiatorClaim": "Inițiatorii spun că vor să elimine lipsa de transparență privind cine finanțează asociațiile, fundațiile și federațiile, mai ales din bani publici sau europeni. Susțin că unele entități sunt folosite în interes personal sau de finanțatori cu interese ascunse.",
+    "realityCheck": "Art.48² obligă toate asociațiile, fundațiile și federațiile, de la clubul sportiv de cartier la ONG-urile mari, să declare anual la ANAF toate veniturile și sursele lor: persoanele juridice indiferent de sumă, iar persoanele fizice peste 5.000 lei. Declarația se publică pe site-ul ANAF cu numele donatorilor persoane fizice. Lipsa declarației duce la suspendarea de drept a entității, iar după un an la dizolvarea ei de drept, fără hotărâre judecătorească și fără o procedură prin care cineva să constate neconformarea. Deși motivarea vorbește despre bani publici și europeni, textul nu se limitează la aceștia: acoperă și cotizațiile, donațiile private și sponsorizările.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Contabili & Fiscalitate",
@@ -44,10 +44,10 @@
       "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. I (art. 48^2) și Art. II",
-      "proposalContent": "Limitarea art. 48^2 strict la fondurile publice și europene, fără publicarea numelor donatorilor persoane fizice. Înlocuirea suspendării și dizolvării de drept de la alin. (3) cu amenzi graduale, termen de remediere și control judecătoresc, plus intrare în vigoare după adoptarea normelor ANAF (min. 180 zile).",
-      "argumentation": "Publicarea numelor donatorilor privați și dizolvarea automată fără hotărâre judecătorească încalcă art. 1(5), 21, 26, 40 și 53 din Constituție, GDPR (art. 5, 6, 9) și jurisprudența CJUE (cauza C-78/18, Comisia/Ungaria) privind libera circulație a capitalurilor și libertatea de asociere. Termenul de 30 de zile fără norme tehnice face legea inaplicabilă.",
-      "otherComments": "Expunerea de motive vizează fondurile publice și UE, dar textul include toate veniturile private, fără prag pentru firme și fără a defini „toate elementele de identificare”. ONG-urile depun deja bilanțuri la ANAF și declară beneficiarii reali (Legea 129/2019). Se impune consultarea ANSPDCP și a Ministerului Finanțelor."
+      "articleRef": "Art.I – art.48² alin.(2) și (3) din OG 26/2000",
+      "proposalContent": "Alin.(3) se înlocuiește: „Nerespectarea obligației prevăzute la alin.(1) constituie contravenție și se sancționează cu amendă de la 500 la 5.000 lei. Dizolvarea poate fi cerută instanței, potrivit art.56, doar dacă abaterea persistă după 12 luni de la aplicarea amenzii.” La alin.(2), numele persoanelor fizice se publică doar cu acordul lor.",
+      "argumentation": "Suspendarea și dizolvarea de drept, fără hotărâre judecătorească, pentru o omisiune declarativă, sunt disproporționate (art.40, 53 Constituție; art.11 CEDO). Publicarea nominală a donatorilor poate dezvălui convingeri religioase, politice sau starea de sănătate (art.9 GDPR); CJUE a invalidat accesul public la registrul beneficiarilor reali (C-37/20).",
+      "otherComments": "Clarificați dacă pragul de 5.000 lei e pe donație sau cumulat anual și ce se declară sub prag. Prevedeți aplicarea doar pentru veniturile încasate după intrarea în vigoare, o procedură ANAF de notificare și un termen de 90 de zile pentru norme. Corectați „territoriale”."
     }
   },
   "council": {
@@ -89,8 +89,39 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 55242,
+      "sourceEndMarker": "SF-5588BF2B",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "ONG-urile care nu-și declară anual finanțatorii sunt suspendate, iar după un an se desființează automat",
+      "verdictShort": "Transparența finanțării ONG-urilor este un scop legitim, dar mijloacele sunt disproporționate. Proiectul publică pe site-ul ANAF numele donatorilor persoane fizice și desființează automat, fără judecător, orice asociație care întârzie o declarație.",
+      "initiatorClaim": "Inițiatorii spun că vor să elimine lipsa de transparență privind cine finanțează asociațiile, fundațiile și federațiile, mai ales din bani publici sau europeni. Susțin că unele entități sunt folosite în interes personal sau de finanțatori cu interese ascunse.",
+      "realityCheck": "Art.48² obligă toate asociațiile, fundațiile și federațiile, de la clubul sportiv de cartier la ONG-urile mari, să declare anual la ANAF toate veniturile și sursele lor: persoanele juridice indiferent de sumă, iar persoanele fizice peste 5.000 lei. Declarația se publică pe site-ul ANAF cu numele donatorilor persoane fizice. Lipsa declarației duce la suspendarea de drept a entității, iar după un an la dizolvarea ei de drept, fără hotărâre judecătorească și fără o procedură prin care cineva să constate neconformarea. Deși motivarea vorbește despre bani publici și europeni, textul nu se limitează la aceștia: acoperă și cotizațiile, donațiile private și sponsorizările.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Contabili & Fiscalitate",
+        "IMM & Antreprenori",
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art.48² alin.(3): suspendarea și dizolvarea operează „de drept”. Nu se precizează cine constată neconformarea, cum se notifică entitatea, cum se înscrie suspendarea în Registrul asociațiilor și fundațiilor și ce se întâmplă cu contractele, angajații și granturile în curs. Prin derogare implicită de la dizolvarea judecătorească din art.56 OG 26/2000, o omisiune declarativă devine sancțiunea maximă pentru o persoană juridică.",
+        "Art.48² alin.(2): numele donatorilor persoane fizice se publică pe internet. Donația către un cult, un partid-satelit, o asociație de pacienți (HIV, boli rare) sau o organizație LGBT poate dezvălui convingeri religioase sau politice ori starea de sănătate, adică date sensibile protejate de art.9 GDPR. Efectul probabil este descurajarea donațiilor.",
+        "Art.48² alin.(1) este redactat ambiguu („persoanelor fizice - pentru sume mai mari de 5.000 de lei, și juridice”). Nu reiese dacă pragul se aplică pe fiecare donație sau cumulat pe an, nici dacă donatorii sub prag trebuie declarați anonim. Persoanele juridice se declară de la primul leu. Termenul „indiferent de proveniență” include și cotizațiile membrilor.",
+        "Declarația vizează veniturile „din anul anterior”. Cu intrarea în vigoare la 30 de zile (Art.II), vor fi publicate numele unor donatori care au dat bani când confidențialitatea era regula, ceea ce ridică o problemă de retroactivitate de fapt (art.15 alin.2 Constituție).",
+        "Proiectul nu prevede norme metodologice, formular ANAF, termen de implementare sau scutiri pentru entitățile foarte mici. Rezultă birocrație nouă pentru zeci de mii de asociații cu buget minim și cost pentru contabilii lor. Textul conține și o eroare de redactare („structurile territoriale”)."
+      ],
+      "blindSpotsCaught": "Expunerea de motive afirmă că la ONG-uri „nu există noțiunea de beneficiar real”, ceea ce e fals: Legea nr.129/2019 a introdus deja în OG 26/2000 obligația de a declara beneficiarii reali, ținuți într-un registru dedicat. CJUE a invalidat în C-37/20 (WM și Sovim, 2022) accesul public general la registrele de beneficiari reali, ca ingerință disproporționată în viața privată. Publicarea nominală a donatorilor merge mai departe decât acel regim. Dizolvarea „de drept” nu are nici procedură de constatare, nici cale de atac explicită.",
+      "constitutionalityNote": "Proiectul are probleme serioase cu mai multe articole din Constituție. Art.40 (libertatea de asociere) și art.53 (proporționalitatea restrângerii): dizolvarea automată pentru o omisiune declarativă, fără o gradare a sancțiunilor (avertisment, amendă), nu este măsura cea mai puțin restrictivă, iar CEDO consideră dizolvarea măsura extremă (art.11 CEDO, de ex. Tebieti Mühafize Cemiyyeti c. Azerbaidjan). Art.21 și art.24 (acces la justiție, drept la apărare): sancțiunea nu presupune nicio decizie individuală care să poată fi contestată. Art.26 (viața privată): publicarea numelui donatorilor nu se limitează la fondurile publice. Art.1 alin.(5) (previzibilitate): pragul este ambiguu, autoritatea care constată neconformarea nu este stabilită, iar efectele suspendării nu sunt definite. Art.15 alin.(2): datele din anul anterior intrării în vigoare sunt publicate retroactiv.",
+      "euLawNote": "Directiva 2018/958 nu este relevantă, deoarece proiectul nu reglementează profesii. Nici Directiva TRIS 2015/1535 nu se aplică, pentru că nu reglementează servicii ale societății informaționale. Pe dreptul UE, problemele sunt două. Publicarea datelor donatorilor trebuie să respecte GDPR: temeiul de la art.6 alin.(1) lit.c)/e) cere necesitate și proporționalitate, iar pentru date sensibile se aplică art.9. Se aplică și art.7, 8 și 12 din Carta drepturilor fundamentale. Hotărârea CJUE C-78/18 (Comisia c. Ungaria, 2020) a sancționat legea ungară a transparenței ONG-urilor pentru încălcarea acestor drepturi și a liberei circulații a capitalurilor (art.63 TFUE). Proiectul nu discriminează finanțarea străină, ceea ce reduce riscul pe art.63, dar critica privind proporționalitatea și protecția datelor rămâne valabilă, la fel și jurisprudența C-37/20.",
+      "senatForm": {
+        "articleRef": "Art.I – art.48² alin.(2) și (3) din OG 26/2000",
+        "proposalContent": "Alin.(3) se înlocuiește: „Nerespectarea obligației prevăzute la alin.(1) constituie contravenție și se sancționează cu amendă de la 500 la 5.000 lei. Dizolvarea poate fi cerută instanței, potrivit art.56, doar dacă abaterea persistă după 12 luni de la aplicarea amenzii.” La alin.(2), numele persoanelor fizice se publică doar cu acordul lor.",
+        "argumentation": "Suspendarea și dizolvarea de drept, fără hotărâre judecătorească, pentru o omisiune declarativă, sunt disproporționate (art.40, 53 Constituție; art.11 CEDO). Publicarea nominală a donatorilor poate dezvălui convingeri religioase, politice sau starea de sănătate (art.9 GDPR); CJUE a invalidat accesul public la registrul beneficiarilor reali (C-37/20).",
+        "otherComments": "Clarificați dacă pragul de 5.000 lei e pe donație sau cumulat anual și ce se declară sub prag. Prevedeți aplicarea doar pentru veniturile încasate după intrarea în vigoare, o procedură ANAF de notificare și un termen de 90 de zile pentru norme. Corectați „territoriale”."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -147,7 +178,7 @@
         "codex": 9
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:04:48.938Z",
+      "replacedAt": "2026-11-24T14:59:36.569Z",
       "reasons": [
         "model"
       ]

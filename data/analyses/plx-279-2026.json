@@ -2,7 +2,7 @@
   "billId": "Pl-x 279/2026",
   "slug": "plx-279-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:08:52.370Z",
+  "updatedAt": "2026-11-24T15:01:48.007Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "key": "45ea463cf9311de5"
   },
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 4.3,
     "riskLevel": "yellow",
-    "plainTitle": "TVA pe momentul consumului la utilități și abonamente, dar cu blocaje tehnice",
-    "summaryTlDr": "Intenția de a nu aplica o cotă de TVA mărită consumului din luna anterioară este legitimă, dar proiectul este redactat defectuos: rupe cota de TVA de faptul generator, intră în conflict cu Directiva europeană TVA și șterge regula pentru contractele fără dată fixă de plată.",
-    "initiatorClaim": "Inițiatorii susțin că vor să elimine ambiguitățile apărute la majorarea TVA din 2025 și să alinieze Codul fiscal la Directiva 2006/112/CE, astfel încât pentru utilități și servicii continue să se aplice mereu cota de TVA de la momentul consumului efectiv, nu cea de la data facturii.",
-    "realityCheck": "În prezent, art. 281 alin. (8) fixează faptul generator la data plății din contract sau, în lipsa acesteia, la data emiterii facturii, iar cota aplicabilă urmează faptul generator (art. 291 alin. 4). Proiectul păstrează faptul generator la data plății din contract, dar lipește o regulă paralelă pentru cota de TVA la „momentul prestării/consumului efectiv” (nedefinit) și elimină complet regula subsidiară pentru contractele fără scadență fixă, generând vid legislativ și haos la facturare și regularizări.",
+    "plainTitle": "TVA la facturi de utilități, chirii și abonamente: cota se stabilește după perioada consumului, nu după data facturii",
+    "summaryTlDr": "Scopul e legitim și util: după episodul din 2025 cu schimbarea cotei, regula pentru serviciile continue trebuie clarificată. Redactarea e însă stângace. Taie fără înlocuitor regula de rezervă a facturii și desparte cota de faptul generator, așa că poate crea exact incertitudinea pe care spune că o elimină.",
+    "initiatorClaim": "Inițiatorii vor să pună capăt practicii neunitare privind cota de TVA la livrările și prestările continue (gaze, apă, curent, telefonie, chirii, leasing), apărută la majorarea cotei din 2025. Propun ca cota aplicabilă să fie cea în vigoare la momentul consumului efectiv, indiferent de data facturării.",
+    "realityCheck": "Art. I face două modificări. Elimină teza actuală după care, în lipsa unei date de plată în contract, livrarea se consideră efectuată la data emiterii facturii. Adaugă regula că cota de TVA e cea de la momentul prestării sau consumului efectiv. Rezultatul: faptul generator rămâne legat de data de plată din contract, dar cota se raportează la consum. Pentru contractele fără scadențe nu mai există o regulă expresă privind momentul livrării. Iar furnizorii de utilități vor trebui să împartă consumul unei perioade de facturare peste data schimbării cotei, fără ca legea să le spună cum (citiri estimate, regularizări).",
     "affectedGroups": [
       "Toți cetățenii",
       "Contabili & Fiscalitate",
@@ -44,10 +44,10 @@
       "Proprietari & Imobiliare"
     ],
     "senatForm": {
-      "articleRef": "Art. I (art. 281 alin. (8) din Codul fiscal)",
-      "proposalContent": "Modificarea art. 281 alin. (8) astfel: faptul generator intervine la expirarea perioadei la care se referă decontarea ori plata prevăzută în contract sau, în lipsa acesteia, la data emiterii facturii, perioada de decontare neputând depăși un an. Corelarea cu art. 291 alin. (4) și norme clare de alocare pro-rata la schimbarea cotei TVA.",
-      "argumentation": "Proiectul rupe cota TVA de faptul generator, contrar art. 93 din Directiva TVA și art. 291 alin. (4) Cod fiscal. Ștergerea regulii pentru lipsa datei de plată creează vid legal, iar „consumul efectiv” e imprevizibil fără contorizare zilnică. Mutarea faptului generator la finalul perioadei de decontare atinge scopul și respectă art. 64 din Directivă.",
-      "otherComments": "Solicit și corelarea Art. II alin. (2), care trimite la „regula faptului generator” contrazicând Art. I, precum și consultarea Ministerului Finanțelor privind impactul asupra sistemelor e-Factura, utilităților, telecom și contractelor de leasing/chirii, plus reguli tranzitorii clare pentru perioadele de facturare ce traversează o modificare de cotă TVA."
+      "articleRef": "Art. I (art. 281 alin. 8 C. fiscal); Art. II(2)",
+      "proposalContent": "Se păstrează teza „sau, în lipsa unei astfel de prevederi contractuale, la data emiterii unei facturi”. Teza nouă devine: „În cazul modificării cotei, livrarea/prestarea se consideră efectuată și la data modificării, pentru consumul sau perioada anterioară acesteia.” Art. II alin. (2) teza a II-a se elimină.",
+      "argumentation": "Eliminarea tezei facturii lasă fără fapt generator contractele fără date de plată. Cota stabilită după consum, separat de faptul generator, intră în conflict cu art. 93 din Directiva 2006/112/CE. Un fapt generator special la data schimbării cotei rezolvă cazul din 2025 și rămâne conform directivei. Teza din Art. II(2) e circulară.",
+      "otherComments": "Termenul de 6 luni respectă art. 4 C. fiscal. Normele metodologice ar trebui să precizeze alocarea consumului la citiri estimate și regularizări (index, pro rata zile). Cerem avizul Consiliului Legislativ, punctul de vedere al Guvernului și consultarea ANRE și ANAF înainte de raport."
     }
   },
   "council": {
@@ -88,8 +88,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 51565,
+      "sourceEndMarker": "SF-764C58FE",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "TVA la facturi de utilități, chirii și abonamente: cota se stabilește după perioada consumului, nu după data facturii",
+      "verdictShort": "Scopul e legitim și util: după episodul din 2025 cu schimbarea cotei, regula pentru serviciile continue trebuie clarificată. Redactarea e însă stângace. Taie fără înlocuitor regula de rezervă a facturii și desparte cota de faptul generator, așa că poate crea exact incertitudinea pe care spune că o elimină.",
+      "initiatorClaim": "Inițiatorii vor să pună capăt practicii neunitare privind cota de TVA la livrările și prestările continue (gaze, apă, curent, telefonie, chirii, leasing), apărută la majorarea cotei din 2025. Propun ca cota aplicabilă să fie cea în vigoare la momentul consumului efectiv, indiferent de data facturării.",
+      "realityCheck": "Art. I face două modificări. Elimină teza actuală după care, în lipsa unei date de plată în contract, livrarea se consideră efectuată la data emiterii facturii. Adaugă regula că cota de TVA e cea de la momentul prestării sau consumului efectiv. Rezultatul: faptul generator rămâne legat de data de plată din contract, dar cota se raportează la consum. Pentru contractele fără scadențe nu mai există o regulă expresă privind momentul livrării. Iar furnizorii de utilități vor trebui să împartă consumul unei perioade de facturare peste data schimbării cotei, fără ca legea să le spună cum (citiri estimate, regularizări).",
+      "affectedGroups": [
+        "Contabili & Fiscalitate",
+        "IMM & Antreprenori",
+        "Proprietari & Imobiliare",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I (art. 281 alin. 8): dispare teza „sau, în lipsa unei astfel de prevederi contractuale, la data emiterii unei facturi”. Pentru contractele continue fără date de plată (frecvente la chirii între persoane, servicii B2B informale) nu mai e stabilit expres momentul faptului generator. Rămâne doar limita de un an a perioadei de decontare.",
+        "Art. I: cota se leagă de „momentul prestării/consumului efectiv”, iar faptul generator rămâne la „fiecare dată prevăzută în contract pentru plată”. Apar două momente diferite pentru aceeași operațiune. Asta contrazice logica art. 281 alin. (1) și principiul din Directiva TVA că se aplică cota de la faptul generator.",
+        "Lipsește orice metodă de alocare a consumului când cota se schimbă în mijlocul perioadei de facturare (pro rata zile, citire de index, estimare). Utilitățile cu facturi lunare sau trimestriale pe consum estimat vor aplica tot interpretări divergente, adică exact problema invocată în expunerea de motive.",
+        "Art. II alin. (1): intrarea în vigoare la 6 luni de la publicare respectă art. 4 alin. (1) din Codul fiscal. Ca modificare tehnică, nu majorare de impozit, nu e necesară amânarea până la 1 ianuarie. E un punct pozitiv pentru previzibilitate.",
+        "Art. II alin. (2), teza a II-a: „pentru contractele în derulare, cota se determină potrivit regulii faptului generator” este circulară și ambiguă. Nu reiese dacă se aplică noua regulă (cota după consum) sau cea veche (cota la data de plată sau facturare)."
+      ],
+      "blindSpotsCaught": "Directiva 2006/112/CE nu cere ce susține expunerea de motive. Art. 64 alin. (1) prevede că livrările continue se consideră efectuate la expirarea perioadelor la care se referă plățile, iar art. 93 că se aplică cota în vigoare la faptul generator. Regula actuală din Codul fiscal este deci, în esență, transpunerea fidelă a directivei. Problema din 2025 nu ținea de neconformitatea textului cu dreptul UE. Ținea de lipsa unor norme tranzitorii clare la schimbarea cotei, iar soluția corectă ar fi un fapt generator special la data modificării cotei, nu decuplarea cotei de faptul generator. Expunerea de motive afirmă și că Ministerul Finanțelor ar fi „precizat ulterior” aplicarea din iulie. Afirmația nu e susținută de vreun act citat și nu trebuie luată ca fapt.",
+      "constitutionalityNote": "Nu ridică probleme de fond. Materia e reglementată prin lege (art. 139 alin. 1 și art. 56 din Constituție), iar termenul de 6 luni respectă previzibilitatea fiscală. Riscul ține de calitatea legii (art. 1 alin. 5). Eliminarea regulii de rezervă și coexistența a două momente diferite (data de plată pentru faptul generator, consumul pentru cotă), fără criterii de alocare, scad claritatea normei. Art. II alin. (2) e neclar pentru contractele în derulare. Avizul Consiliului Legislativ și punctul de vedere al Guvernului (art. 111) sunt necesare. Impactul bugetar e probabil neutru, dar o fișă financiară ar fi utilă (art. 138 alin. 5 și art. 15 din Legea nr. 500/2002).",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că nu reglementează profesii. Nici TRIS 2015/1535 nu se aplică, pentru că nu sunt reglementări tehnice sau servicii ale societății informaționale. Testul relevant e Directiva 2006/112/CE. Art. 63–64 stabilesc momentul faptului generator pentru livrări continue, iar art. 93 impune cota de la faptul generator. O cotă stabilită după consum, separat de faptul generator stabilit la data de plată, poate fi contestată ca abatere de la art. 93. Pentru conformitate, faptul generator ar trebui definit astfel încât schimbarea cotei să închidă perioada de consum. Nu există efecte asupra pieței unice sau concurenței: regula e neutră între operatori.",
+      "senatForm": {
+        "articleRef": "Art. I (art. 281 alin. 8 C. fiscal); Art. II(2)",
+        "proposalContent": "Se păstrează teza „sau, în lipsa unei astfel de prevederi contractuale, la data emiterii unei facturi”. Teza nouă devine: „În cazul modificării cotei, livrarea/prestarea se consideră efectuată și la data modificării, pentru consumul sau perioada anterioară acesteia.” Art. II alin. (2) teza a II-a se elimină.",
+        "argumentation": "Eliminarea tezei facturii lasă fără fapt generator contractele fără date de plată. Cota stabilită după consum, separat de faptul generator, intră în conflict cu art. 93 din Directiva 2006/112/CE. Un fapt generator special la data schimbării cotei rezolvă cazul din 2025 și rămâne conform directivei. Teza din Art. II(2) e circulară.",
+        "otherComments": "Termenul de 6 luni respectă art. 4 C. fiscal. Normele metodologice ar trebui să precizeze alocarea consumului la citiri estimate și regularizări (index, pro rata zile). Cerem avizul Consiliului Legislativ, punctul de vedere al Guvernului și consultarea ANRE și ANAF înainte de raport."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -143,7 +173,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:08:52.370Z",
+      "replacedAt": "2026-11-24T15:01:48.007Z",
       "reasons": [
         "model"
       ]

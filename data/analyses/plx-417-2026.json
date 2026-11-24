@@ -2,7 +2,7 @@
   "billId": "Pl-x 417/2026",
   "slug": "plx-417-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:09:01.221Z",
+  "updatedAt": "2026-11-24T15:02:02.759Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,22 +31,22 @@
     "key": "ada5c7f06e18a6fd"
   },
   "consensus": {
-    "riskScore": 5.5,
+    "riskScore": 5,
     "riskLevel": "yellow",
-    "plainTitle": "Taxare inversă la TVA pentru tractoare și utilaje agricole noi",
-    "summaryTlDr": "Intenția de a sprijini fluxul de numerar al fermierilor și dealerilor români este legitimă, însă proiectul încalcă direct Directiva europeană privind TVA și este redactat atât de vag încât devine o capcană fiscală. Fără aprobare prealabilă din partea Consiliului UE și fără definirea clară prin coduri NC, legea riscă infringement european și amenzi ANAF pentru firme.",
-    "initiatorClaim": "Inițiatorii susțin că eliminarea plății TVA între firme la vânzarea internă de tractoare și utilaje agricole noi va debloca lichiditățile fermierilor (care vând cereale tot cu taxare inversă) și va descuraja facturarea prin firme externe, aducând peste 2 milioane EUR anual la buget din impozitarea profiturilor păstrate în România.",
-    "realityCheck": "În realitate, România nu poate introduce unilateral taxare inversă pentru utilaje agricole, deoarece acestea nu se află pe lista excepțiilor permise de Directiva UE privind TVA; fără o derogare de la Consiliul UE, măsura este ilegală la nivel european. Mai mult, proiectul constă într-o singură frază lipsită de definiții, coduri vamale (NC), praguri valorice sau termen de intrare în vigoare, expunând dealerii și fermierii la reclasificări fiscale și penalități la controalele ANAF.",
+    "plainTitle": "Fără TVA plătit pe loc la cumpărarea de tractoare și utilaje agricole noi",
+    "summaryTlDr": "Măsura e bine intenționată și ar ușura fluxul de numerar al fermierilor plătitori de TVA, dar așa cum e scrisă e vagă și, cel mai probabil, incompatibilă cu Directiva TVA fără o derogare aprobată de Consiliul UE. Riscul nu e abuziv, e de aplicabilitate.",
+    "initiatorClaim": "Inițiatorii spun că fermierii acumulează TVA de recuperat, pentru că plătesc TVA la utilaje, dar își vând cerealele în taxare inversă. Mai spun că facturarea din străinătate a utilajelor mută profitul în afara țării, cu o pierdere estimată de circa 2 milioane EUR/an la buget.",
+    "realityCheck": "Articolul unic adaugă la art. 331 alin. (2) Cod fiscal o lit. m): livrările interne de tractoare și utilaje agricole noi trec în taxare inversă. Vânzătorul nu mai colectează TVA, iar cumpărătorul îl autodeclară și îl deduce simultan. Ca toate operațiunile din art. 331, mecanismul funcționează doar între persoane înregistrate în scopuri de TVA, deci micii fermieri neînregistrați sau aflați în regimul special agricol nu câștigă nimic. Termenul „utilaje agricole” nu e delimitat prin coduri NC, iar categoria nu figurează printre cele permise de Directiva 2006/112/CE pentru taxare inversă internă.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "Contabili & Fiscalitate",
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Articol unic - art. 331 alin. (2) Cod fiscal",
-      "proposalContent": "Se introduce un art. II: „Prezenta lege intră în vigoare la 1 ianuarie al anului următor obținerii autorizării Consiliului UE conform art. 395 din Directiva 2006/112/CE.” La lit. m) se adaugă: „Codurile NC și criteriile de încadrare a tractoarelor și utilajelor agricole noi se stabilesc prin normele metodologice.”",
-      "argumentation": "Directiva 2006/112/CE nu permite introducerea unilaterală a taxării inverse la utilaje agricole (nefiind în art. 199/199a), impunând derogare UE (art. 395). Fără coduri NC și definirea termenului „noi”, textul încalcă art. 1 alin. (5) din Constituție și expune dealerii și fermierii la penalități ANAF conform art. 331 alin. (4).",
-      "otherComments": "Vă rugăm să solicitați Guvernului fișa financiară privind impactul real asupra încasărilor de TVA (art. 111 alin. (1) și art. 138 alin. (5) din Constituție) și să corelați intrarea în vigoare cu termenul de predictibilitate de la art. 4 din Codul fiscal, respectiv cu demersul Ministerului Finanțelor de obținere a derogării UE."
+      "articleRef": "Art. unic – art. 331 alin. (2) lit. m) Cod fiscal",
+      "proposalContent": "m) livrarea de tractoare și utilaje agricole noi, încadrate la codurile NC stabilite prin normele metodologice, către persoane impozabile care desfășoară activități agricole. Prevederea se aplică de la 1 ianuarie a anului următor obținerii derogării prevăzute la art. 395 din Directiva 2006/112/CE.",
+      "argumentation": "Taxarea inversă internă pentru aceste bunuri nu e prevăzută la art. 199/199a din Directiva TVA și cere derogare de la Consiliul UE. Fără coduri NC, termenul „utilaje agricole” e imprevizibil (art. 1 alin. 5 din Constituție), iar furnizorul și beneficiarul riscă corecții fiscale. Corelarea cu art. 4 din Codul fiscal asigură previzibilitatea.",
+      "otherComments": "Solicit avizul Guvernului și o fișă financiară reală, fiindcă estimarea de 2 mil. EUR din expunerea de motive privește impozitul pe profit, nu TVA. De analizat și un sprijin pentru fermierii neînregistrați în scopuri de TVA, care nu beneficiază de taxarea inversă."
     }
   },
   "council": {
@@ -85,8 +85,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 46333,
+      "sourceEndMarker": "SF-DEC06219",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Fără TVA plătit pe loc la cumpărarea de tractoare și utilaje agricole noi",
+      "verdictShort": "Măsura e bine intenționată și ar ușura fluxul de numerar al fermierilor plătitori de TVA, dar așa cum e scrisă e vagă și, cel mai probabil, incompatibilă cu Directiva TVA fără o derogare aprobată de Consiliul UE. Riscul nu e abuziv, e de aplicabilitate.",
+      "initiatorClaim": "Inițiatorii spun că fermierii acumulează TVA de recuperat, pentru că plătesc TVA la utilaje, dar își vând cerealele în taxare inversă. Mai spun că facturarea din străinătate a utilajelor mută profitul în afara țării, cu o pierdere estimată de circa 2 milioane EUR/an la buget.",
+      "realityCheck": "Articolul unic adaugă la art. 331 alin. (2) Cod fiscal o lit. m): livrările interne de tractoare și utilaje agricole noi trec în taxare inversă. Vânzătorul nu mai colectează TVA, iar cumpărătorul îl autodeclară și îl deduce simultan. Ca toate operațiunile din art. 331, mecanismul funcționează doar între persoane înregistrate în scopuri de TVA, deci micii fermieri neînregistrați sau aflați în regimul special agricol nu câștigă nimic. Termenul „utilaje agricole” nu e delimitat prin coduri NC, iar categoria nu figurează printre cele permise de Directiva 2006/112/CE pentru taxare inversă internă.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Art. unic – lit. m) nou introdusă la art. 331 alin. (2): taxare inversă pentru „livrările interne de tractoare și utilaje agricole noi”. Este singura dispoziție de fond a proiectului.",
+        "Spre deosebire de lit. c) în vigoare (cereale), unde normele metodologice stabilesc codurile NC, noua literă nu definește „utilaj agricol”. Furnizorul și beneficiarul răspund amândoi de aplicarea corectă (art. 331 alin. (4)), deci vagul termen creează risc de încadrare greșită și de corecții la control.",
+        "Beneficiul e limitat la cumpărătorii înregistrați în scopuri de TVA, pentru că art. 331 alin. (1) cere înregistrarea ambelor părți. Fermierii mici, care ar avea cea mai mare nevoie de sprijin, rămân în afara măsurii.",
+        "Expunerea de motive confundă două lucruri. Taxarea inversă privește TVA-ul, nu impozitul pe profit, iar estimarea de 2 milioane EUR se sprijină pe ipoteze arbitrare (marje, comisioane). Argumentul solid e altul: achiziția intracomunitară e deja în autolichidare, iar taxarea inversă internă ar elimina dezavantajul de trezorerie al dealerilor români.",
+        "Proiectul nu are dispoziție de intrare în vigoare, deși art. 4 din Codul fiscal cere ca modificările să intre în vigoare de la 1 ianuarie, la cel puțin 6 luni de la publicare. Formula „se modifică și se completează” e improprie, pentru că textul doar completează."
+      ],
+      "blindSpotsCaught": "Taxarea inversă internă pe bunuri e permisă doar pentru categoriile limitative din art. 199 și 199a din Directiva 2006/112/CE sau prin derogare individuală aprobată unanim de Consiliu (art. 395). Tractoarele și utilajele agricole nu sunt pe aceste liste. Mai mult, taxarea inversă e gândită pentru lanțuri cu risc de fraudă, nu pentru bunuri de capital la utilizatorul final. Rămâne și un risc de utilizare a mecanismului la achiziții care nu au destinație agricolă reală.",
+      "constitutionalityNote": "Nu sunt afectate drepturi fundamentale. Problemele țin de art. 1 alin. (5) din Constituție (claritate și previzibilitate): „utilaje agricole” nu e definit, iar data aplicării nu e corelată cu art. 4 din Codul fiscal. Inițiativa are impact asupra încasărilor din TVA (cel puțin de trezorerie), așa că avizul Guvernului (art. 111) și fișa financiară (art. 15 din Legea nr. 500/2002, art. 138 alin. (5) din Constituție) sunt relevante. Eventuala lor lipsă ar fi un viciu procedural, nu de fond. Conflictul cu Directiva TVA poate ridica și problema art. 148 alin. (2) din Constituție (prioritatea dreptului UE).",
+      "euLawNote": "Directiva 2018/958 nu e relevantă, pentru că proiectul nu reglementează profesii. Nici TRIS 2015/1535 nu se aplică, fiindcă nu există reguli tehnice sau servicii digitale. Problema centrală e Directiva 2006/112/CE: art. 199 și 199a nu includ tractoarele și utilajele agricole, deci aplicarea taxării inverse fără o derogare aprobată în temeiul art. 395 ar fi neconformă și ar putea atrage procedură de infringement. Măsura reduce oarecum asimetria față de achizițiile intracomunitare, dar nu exclude furnizorii din alte state membre.",
+      "senatForm": {
+        "articleRef": "Art. unic – art. 331 alin. (2) lit. m) Cod fiscal",
+        "proposalContent": "m) livrarea de tractoare și utilaje agricole noi, încadrate la codurile NC stabilite prin normele metodologice, către persoane impozabile care desfășoară activități agricole. Prevederea se aplică de la 1 ianuarie a anului următor obținerii derogării prevăzute la art. 395 din Directiva 2006/112/CE.",
+        "argumentation": "Taxarea inversă internă pentru aceste bunuri nu e prevăzută la art. 199/199a din Directiva TVA și cere derogare de la Consiliul UE. Fără coduri NC, termenul „utilaje agricole” e imprevizibil (art. 1 alin. 5 din Constituție), iar furnizorul și beneficiarul riscă corecții fiscale. Corelarea cu art. 4 din Codul fiscal asigură previzibilitatea.",
+        "otherComments": "Solicit avizul Guvernului și o fișă financiară reală, fiindcă estimarea de 2 mil. EUR din expunerea de motive privește impozitul pe profit, nu TVA. De analizat și un sprijin pentru fermierii neînregistrați în scopuri de TVA, care nu beneficiază de taxarea inversă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -139,7 +168,7 @@
         "codex": 5
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:09:01.221Z",
+      "replacedAt": "2026-11-24T15:02:02.759Z",
       "reasons": [
         "model"
       ]

@@ -2,7 +2,7 @@
   "billId": "Pl-x 476/2026",
   "slug": "plx-476-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:06:15.567Z",
+  "updatedAt": "2026-11-24T15:00:10.226Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -33,10 +33,10 @@
   "consensus": {
     "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Medic specialist din altă zonă a țării, obligatoriu la expertizele de malpraxis civil",
-    "summaryTlDr": "Inițiativă în esență pozitivă și proporțională, care întărește imparțialitatea și calitatea expertizelor medico-legale în procesele civile de malpraxis. Necesită însă câteva clarificări procedurale (onorariu, termene și modul de lucru cu IML) pentru a evita blocajele și costurile neclare pentru pacienți.",
-    "initiatorClaim": "Inițiatorii susțin că medicii legiști nu pot acoperi singuri complexitatea tuturor specialităților medicale și invocă condamnările României la CEDO (precum Codarcea și Eugenia Lazăr) pentru a impune cooptarea obligatorie a unui medic specialist în expertizele medico-legale de malpraxis.",
-    "realityCheck": "Art. 687¹ introdus în Legea nr. 95/2006 transformă o posibilitate deja existentă și facultativă (art. 330 alin. (3) CPC și art. 2 din Regulamentul OG nr. 1/2000) într-o regulă obligatorie pentru procesele civile de malpraxis, adăugând desemnarea aleatorie de către instanță din lista națională de la art. 680 și din raza unei alte curți de apel. În practică, măsura sporește șansele unei analize obiective, dar lasă nereglementate onorariul specialistului (avansat de regulă de partea care cere proba), modul concret de colaborare cu instituția medico-legală și termenul după care instanța poate trece peste lipsa unui specialist. În plus, deși expunerea de motive citează cauza penală Eugenia Lazăr c. România, textul se aplică strict răspunderii civile profesionale, nu și proceselor penale de malpraxis.",
+    "plainTitle": "În procesele de malpraxis, la expertiza medico-legală participă obligatoriu un medic din specialitatea cazului",
+    "summaryTlDr": "Propunerea este utilă și bine intenționată: pune un medic din specialitatea în cauză alături de legiști, numit aleatoriu dintr-o altă rază de curte de apel. Riscurile sunt de redactare și de cost, nu de fond: cine plătește specialistul, cum se face tragerea aleatorie și ce înseamnă „motive obiective” rămân nereglementate.",
+    "initiatorClaim": "Inițiatorii spun că legiștii nu au pregătirea de specialitate necesară pentru cazurile complexe de malpraxis, iar CEDO a criticat România pentru expertize incomplete. Propun ca participarea unui specialist din domeniul cazului să devină obligatorie și să fie decisă în condiții de contradictorialitate.",
+    "realityCheck": "Articolul unic introduce art. 687¹: când instanța civilă dispune o expertiză medico-legală pentru răspunderea civilă din malpraxis, la expertiză participă obligatoriu un specialist din lista de la art. 680. Specialistul este numit aleatoriu dintre experții care lucrează pe raza altei curți de apel, iar părțile se pot învoi asupra altei persoane. Dacă specialistul nu poate fi obținut „din motive obiective”, expertiza se face fără el. Efectele secundare: costuri mai mari, plătite în avans de reclamant (de regulă pacientul), posibile întârzieri și lipsa unor reguli despre onorariu, despre mecanismul de tragere aleatorie și despre ce se întâmplă când specialistul și legiștii nu sunt de acord.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Sănătate & Educație",
@@ -44,10 +44,10 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Articol unic (Art. 687¹ alin. (1), (4) și (5))",
-      "proposalContent": "La art. 687¹, stabiliți explicit modul de integrare a concluziilor specialistului în raportul IML, regimul onorariului acestuia (după regulile CPC privind expertiza) și un termen maxim (ex. 30 zile) după care instanța constată imposibilitatea obiectivă prevăzută la alin. (5) și dispune continuarea expertizei fără specialist.",
-      "argumentation": "Fără reguli clare privind cooperarea IML cu specialistul din altă curte de apel, onorariul acestuia și un termen-limită pentru constatarea imposibilității obiective, procesele de malpraxis riscă tergiversări, iar pacienții costuri neclare. Clarificarea asigură previzibilitatea legii (art. 1 alin. 5 din Constituție) și termenul rezonabil (art. 21).",
-      "otherComments": "Ar fi utilă corelarea terminologică între alin. (1) („participarea obligatorie”, „concluzii motivate”) și alin. (5) („punct de vedere”), precum și clarificarea dacă acordul părților de la alin. (3) poate deroga de la regula altei curți de apel. De asemenea, merită evaluată extinderea garanției și la cauzele penale de malpraxis."
+      "articleRef": "Art. unic – art. 687¹ alin. (5) și alin. nou (6)",
+      "proposalContent": "Alin.(5): «Imposibilitatea obiectivă se constată de instanță prin încheiere motivată, după tragerea la sorți din cel puțin două alte curți de apel.» Alin.(6) nou: «Onorariul specialistului se stabilește de instanță și se avansează conform CPC; pentru partea cu ajutor public judiciar se suportă din fondurile aferente.»",
+      "argumentation": "«Motive obiective» e vag și poate goli regula de conținut (art. 1 alin. 5 Constituție). Fără reguli de onorariu, pacientul reclamant suportă un avans mai mare, iar accesul la justiție (art. 21) e afectat. Încheierea motivată permite controlul părților și al instanței de apel.",
+      "otherComments": "Propun extinderea regulii și la expertizele din procesul penal privind malpraxisul, vizate de cauzele CEDO invocate. Trebuie clarificat rolul specialistului (coautor sau opinie separată), dreptul de recuzare și modul tehnic al numirii aleatorii. La alin. (3), de precizat dacă specialistul ales prin învoială trebuie să fie pe lista de la art. 680."
     }
   },
   "council": {
@@ -87,8 +87,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 43800,
+      "sourceEndMarker": "SF-2595E5AD",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "În procesele de malpraxis, la expertiza medico-legală participă obligatoriu un medic din specialitatea cazului",
+      "verdictShort": "Propunerea este utilă și bine intenționată: pune un medic din specialitatea în cauză alături de legiști, numit aleatoriu dintr-o altă rază de curte de apel. Riscurile sunt de redactare și de cost, nu de fond: cine plătește specialistul, cum se face tragerea aleatorie și ce înseamnă „motive obiective” rămân nereglementate.",
+      "initiatorClaim": "Inițiatorii spun că legiștii nu au pregătirea de specialitate necesară pentru cazurile complexe de malpraxis, iar CEDO a criticat România pentru expertize incomplete. Propun ca participarea unui specialist din domeniul cazului să devină obligatorie și să fie decisă în condiții de contradictorialitate.",
+      "realityCheck": "Articolul unic introduce art. 687¹: când instanța civilă dispune o expertiză medico-legală pentru răspunderea civilă din malpraxis, la expertiză participă obligatoriu un specialist din lista de la art. 680. Specialistul este numit aleatoriu dintre experții care lucrează pe raza altei curți de apel, iar părțile se pot învoi asupra altei persoane. Dacă specialistul nu poate fi obținut „din motive obiective”, expertiza se face fără el. Efectele secundare: costuri mai mari, plătite în avans de reclamant (de regulă pacientul), posibile întârzieri și lipsa unor reguli despre onorariu, despre mecanismul de tragere aleatorie și despre ce se întâmplă când specialistul și legiștii nu sunt de acord.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație"
+      ],
+      "keyFindings": [
+        "Art. 687¹ alin. (1): participarea specialistului devine obligatorie, dar numai la expertizele pentru «răspunderea civilă profesională». Procesele penale, unde au apărut cauzele CEDO citate în expunerea de motive (Codarcea, Eugenia Lazăr), nu sunt acoperite. Rămâne neclar și dacă regula se aplică acțiunii civile alăturate procesului penal.",
+        "Alin. (2): numirea aleatorie a unui expert dintr-o altă rază de curte de apel decât locul faptei este o garanție reală de imparțialitate, aici un medic ar putea judeca un coleg din același spital sau oraș. Legea nu spune însă cum se face tragerea aleatorie (sistem informatic, procedură, cine o operează).",
+        "Alin. (1) folosește termenul «specialist», alin. (2) trimite la «experții medicali» de pe lista de la art. 680. CPC distinge între expert, specialist (art. 330 alin. 3) și consilier al părții. Rolul procedural al acestei persoane rămâne ambiguu: coautor al raportului sau autor al unei opinii separate? Nu e reglementat nici ce se întâmplă dacă își contrazice concluziile cu legiștii.",
+        "Alin. (3): învoiala părților pare să înlăture și tragerea aleatorie, și condiția de altă rază teritorială. Legea nu precizează dacă specialistul ales prin învoială trebuie să fie pe lista de la art. 680.",
+        "Alin. (5): «motive obiective» nu sunt definite în text. Expunerea de motive dă exemple (lipsa specialiștilor pe listă, incompatibilități), dar nu are forță normativă. Fără o încheiere motivată a instanței, excepția poate goli regula de conținut.",
+        "Nu există nicio prevedere despre onorariul specialistului. Expunerea de motive spune că nu se cer resurse bugetare pentru că plătește partea care pierde, dar avansul îl suportă reclamantul, iar pentru beneficiarii de ajutor public judiciar plătește statul."
+      ],
+      "blindSpotsCaught": "Regula se leagă exclusiv de «răspunderea civilă profesională», deci jurisprudența CEDO invocată (pronunțată pe procese penale și pe obligația pozitivă din art. 2 CEDO) nu este, de fapt, adresată. Al doilea punct subtil: alin. (2) leagă competența specialistului de lista din art. 680, construită pentru comisiile de monitorizare și competență profesională. Dacă lista nu acoperă o specialitate, se ajunge automat la excepția din alin. (5). Al treilea: alin. (4) trimite la CPC, dar nu spune dacă părțile pot cere recuzarea specialistului sau o contraexpertiză cu alt specialist.",
+      "constitutionalityNote": "Nu se văd probleme majore de constituționalitate. Reglementarea procedurii ține de lege (art. 126 alin. 2) și întărește dreptul la un proces echitabil și accesul la justiție (art. 21). Legea este ordinară, iar mențiunea finală privind art. 75 și 76 alin. (2) este corectă. Pentru previzibilitate (art. 1 alin. 5), noțiunile «motive obiective», «în mod aleatoriu» și raportul specialist–expert ar trebui precizate. Dacă onorariile ajung, prin ajutorul public judiciar, să încarce bugetul, ar putea fi invocat art. 138 alin. (5) privind sursa de finanțare; totuși, impactul pare marginal.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este relevantă: proiectul nu reglementează accesul la profesia de medic sau exercitarea ei, ci doar procedura probatorie în instanță. Directiva TRIS 2015/1535 nu se aplică, pentru că nu sunt vizate servicii ale societății informaționale sau reglementări tehnice. Nu se văd efecte asupra pieței unice. Ca observație, folosirea exclusivă a listei naționale exclude specialiștii din alte state membre, ceea ce ar putea conta în specialitățile rare.",
+      "senatForm": {
+        "articleRef": "Art. unic – art. 687¹ alin. (5) și alin. nou (6)",
+        "proposalContent": "Alin.(5): «Imposibilitatea obiectivă se constată de instanță prin încheiere motivată, după tragerea la sorți din cel puțin două alte curți de apel.» Alin.(6) nou: «Onorariul specialistului se stabilește de instanță și se avansează conform CPC; pentru partea cu ajutor public judiciar se suportă din fondurile aferente.»",
+        "argumentation": "«Motive obiective» e vag și poate goli regula de conținut (art. 1 alin. 5 Constituție). Fără reguli de onorariu, pacientul reclamant suportă un avans mai mare, iar accesul la justiție (art. 21) e afectat. Încheierea motivată permite controlul părților și al instanței de apel.",
+        "otherComments": "Propun extinderea regulii și la expertizele din procesul penal privind malpraxisul, vizate de cauzele CEDO invocate. Trebuie clarificat rolul specialistului (coautor sau opinie separată), dreptul de recuzare și modul tehnic al numirii aleatorii. La alin. (3), de precizat dacă specialistul ales prin învoială trebuie să fie pe lista de la art. 680."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -143,7 +172,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:06:15.567Z",
+      "replacedAt": "2026-11-24T15:00:10.226Z",
       "reasons": [
         "model"
       ]

@@ -2,7 +2,7 @@
   "billId": "PL-x 152/2026",
   "slug": "plx-152-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:15:26.983Z",
+  "updatedAt": "2026-11-24T14:31:43.291Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -33,20 +33,21 @@
   "consensus": {
     "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Definirea medicului curant și recunoașterea medicului curant intervenționist",
-    "summaryTlDr": "Proiect util și benign, care clarifică rolul medicului curant și recunoaște explicit medicul intervenționist, fără a introduce taxe, sancțiuni sau monopoluri. Necesită însă retușuri tehnice la Camera Deputaților pentru a evita ambiguități privind malpraxisul, trimiterea incompletă din Art. II și ruperea de mecanismul de decontare CNAS.",
-    "initiatorClaim": "Inițiatorii susțin că medicii de radiologie intervențională și neuroradiologie intervențională au rămas încadrați ca specialități paraclinice și nu pot prescrie direct anumite proceduri, fiind obligați să retrimită pacientul la un clinician sau la medicul de familie. Proiectul ar urma să îi recunoască drept medici curanți și să fluidizeze îngrijirea pacienților.",
-    "realityCheck": "Forma adoptată de Senat rescrie complet inițiativa: renunță la art. 133¹ dedicat exclusiv radiologiei intervenționale și introduce în art. 381 definiții generale ale „medicului curant” și „medicului curant intervenționist” pentru orice specialist cu competență atestată în proceduri invazive/minim invazive. Textul este binevenit în principiu, dar elimină CNAS din elaborarea normelor (Art. II), deși art. 381 alin. (4) în vigoare leagă prescripțiile și decontările de contractul-cadru CNAS, și lasă neclară granița răspunderii profesionale privind „indicația” procedurii când în caz intervin doi medici.",
+    "plainTitle": "Legea definește cine este „medicul curant” și „medicul curant intervenționist”",
+    "summaryTlDr": "Este o lege tehnică, cu risc mic, care pune în lege definiții folosite deja în practică. Problema ei este alta: scopul declarat, ca medicii de radiologie intervențională să poată prescrie direct proceduri, nu apare în text și depinde în întregime de norme ale Ministerului Sănătății, al căror conținut legea nu îl fixează.",
+    "initiatorClaim": "Inițiatorii spun că medicii de radiologie intervențională și neuroradiologie intervențională operează și își urmăresc pacienții. Totuși, adesea nu pot prescrie proceduri și trebuie să trimită pacientul la un clinician sau la medicul de familie. Ei vor ca acești medici să fie recunoscuți ca medici curanți.",
+    "realityCheck": "Senatul a adoptat un text diferit de cel descris în expunerea de motive. Nu se introduce art. 133^1 și nu sunt numite radiologia sau neuroradiologia intervențională. În art. 381 se adaugă patru alineate cu definiții generale ale medicului curant și ale medicului curant intervenționist, condiționat de o „competență atestată” nedefinită. Legea nu acordă expres niciun drept de prescriere sau de recomandare. Art. 381 alin. (4), deja în vigoare, limitează decontarea la serviciile din contractul-cadru, așa că efectul practic depinde de normele Ministerului Sănătății și de reglementările CNAS.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Toți cetățenii",
+      "Justiție & Drepturi Civile",
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. I alin. (2³) și Art. II (PL-x 152/2026)",
-      "proposalContent": "Art. II: În termen de 60 de zile de la intrarea în vigoare a prezentei legi, Ministerul Sănătății și CNAS elaborează normele metodologice de aplicare a art. 381 alin. (2³) și (2⁴) din Legea nr. 95/2006, republicată, cu modificările și completările ulterioare, privind delimitarea răspunderii, atribuțiile de prescriere și condițiile de decontare.",
-      "argumentation": "Actualul Art. II omite indicarea art. 381 din Legea nr. 95/2006 (normă de trimitere incompletă, contrară art. 1 alin. 5 din Constituție) și exclude CNAS, deși art. 381 alin. (4) condiționează prescripțiile și decontările de contractul-cadru. Totodată, e necesară delimitarea clară a răspunderii privind „indicația” între medicul curant și cel intervenționist.",
-      "otherComments": "Corectați erorile de redactare din forma Senatului: „foia de observație” -> „foaia de observație” la art. 381 alin. (2²) lit. a) și „elaborază” -> „elaborează” la Art. II. Dacă normele MS ar impune examene sau cursuri noi medicilor deja atestați, este necesar testul de proporționalitate conform Directivei (UE) 2018/958."
+      "articleRef": "Art. II",
+      "proposalContent": "Art. II. În termen de 60 de zile de la intrarea în vigoare a prezentei legi, Ministerul Sănătății, cu consultarea CNAS și a Colegiului Medicilor din România, aprobă prin ordin normele de aplicare a alin. (2¹)-(2⁴), inclusiv modul de desemnare a medicului curant, competențele intervenționale și dreptul de recomandare al medicului curant intervenționist.",
+      "argumentation": "Scopul din expunerea de motive, ca medicii intervenționiști să poată recomanda direct proceduri, nu apare în lege. Fără CNAS, conform art. 381 alin. (4), recomandările lor nu pot fi decontate. Forma actului (ordin) și includerea alin. (2¹)-(2²) asigură previzibilitate (art. 1 alin. 5 din Constituție) și aplicarea efectivă a legii.",
+      "otherComments": "Alin. (2²) lit. a): propun eliminarea sintagmei „de regulă”, care face neclară identificarea medicului curant. Alin. (2¹): trebuie precizat cine desemnează medicul curant, respectând dreptul pacientului de a-și alege medicul (Legea nr. 46/2003). Art. II: „elaborază” trebuie corectat în „elaborează”."
     }
   },
   "council": {
@@ -85,8 +86,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 38015,
+      "sourceEndMarker": "SF-0E65A88C",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Legea definește cine este „medicul curant” și „medicul curant intervenționist”",
+      "verdictShort": "Este o lege tehnică, cu risc mic, care pune în lege definiții folosite deja în practică. Problema ei este alta: scopul declarat, ca medicii de radiologie intervențională să poată prescrie direct proceduri, nu apare în text și depinde în întregime de norme ale Ministerului Sănătății, al căror conținut legea nu îl fixează.",
+      "initiatorClaim": "Inițiatorii spun că medicii de radiologie intervențională și neuroradiologie intervențională operează și își urmăresc pacienții. Totuși, adesea nu pot prescrie proceduri și trebuie să trimită pacientul la un clinician sau la medicul de familie. Ei vor ca acești medici să fie recunoscuți ca medici curanți.",
+      "realityCheck": "Senatul a adoptat un text diferit de cel descris în expunerea de motive. Nu se introduce art. 133^1 și nu sunt numite radiologia sau neuroradiologia intervențională. În art. 381 se adaugă patru alineate cu definiții generale ale medicului curant și ale medicului curant intervenționist, condiționat de o „competență atestată” nedefinită. Legea nu acordă expres niciun drept de prescriere sau de recomandare. Art. 381 alin. (4), deja în vigoare, limitează decontarea la serviciile din contractul-cadru, așa că efectul practic depinde de normele Ministerului Sănătății și de reglementările CNAS.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. I, alin. (2¹): medicul curant este „medicul desemnat sau ales”, dar textul nu spune de cine este desemnat (pacient, șef de secție, unitate) și nici cum se armonizează cu dreptul pacientului de a-și alege medicul din Legea nr. 46/2003.",
+        "Alin. (2²) lit. a): formula „de regulă” face definiția medicului curant din spital neclară, fiindcă nu sunt precizate excepțiile. La lit. b), în ambulatoriu pot fi medici curanți atât specialistul, cât și medicul de familie, fără un criteriu clar de departajare.",
+        "Alin. (2³): medicul curant intervenționist trebuie să aibă „competență atestată în proceduri intervenționale”. Legea nu precizează ce document atestă competența (specialitate, atestat de studii complementare, competență) și nici cine îl emite, iar acest lucru rămâne în seama normelor.",
+        "Alin. (2³) leagă calitatea de medic curant intervenționist de asumarea răspunderii profesionale pentru indicație, executare și monitorizare. Asta poate conta în cazurile de răspundere pentru malpraxis din Titlul XV al Legii nr. 95/2006, prin clarificarea medicului răspunzător pentru procedură.",
+        "Art. II: Ministerul Sănătății „elaborază” (greșeală de redactare, corect „elaborează”) norme numai pentru alin. (2³) și (2⁴), în 60 de zile. Textul nu spune prin ce act se aprobă normele (ordin) și nu prevede consultarea CNAS, deși expunerea de motive o menționa, iar decontarea depinde de CNAS.",
+        "Legea nu modifică nicio normă privind decontarea, contractul-cadru sau dreptul de a emite bilete de trimitere ori prescripții. Fără modificări corespunzătoare în normele CNAS, efectul concret pentru pacienți poate fi nul.",
+        "Expunerea de motive declară impact bugetar zero și nu conține consultări. Dacă normele extind dreptul de recomandare, ar putea crește numărul de proceduri decontate, dar acest efect nu este estimat."
+      ],
+      "blindSpotsCaught": "Expunerea de motive descrie altă soluție legislativă (art. 133^1 nou, cu nominalizarea expresă a radiologiei intervenționale), iar textul Senatului este generic. Fișa Camerei confirmă varianta generică. Art. 381 tratează independența profesională a medicului, așa că definițiile sunt așezate eterogen în acest articol, cu abatere de la tehnica legislativă din Legea nr. 24/2000. Art. II nu acoperă normele pentru alin. (2¹)-(2²), deși acolo apar formulele vagi („desemnat”, „de regulă”). Termenul de 60 de zile nu are sancțiune și, ca de obicei, poate fi depășit.",
+      "constitutionalityNote": "Nu ridică probleme constituționale de fond. Clarifică rolurile medicale și poate sprijini dreptul la ocrotirea sănătății (art. 34). Din perspectiva art. 1 alin. (5), privind calitatea legii, există slăbiciuni: „de regulă”, „desemnat sau ales” fără autor și „competență atestată” nedefinită, aspecte lăsate integral normelor infralegale. Ele țin de redactare și nu fac legea neconstituțională, dar normele nu vor putea adăuga condiții care nu reies din lege. Art. 23 alin. (12) nu este relevant, pentru că legea nu conține sancțiuni.",
+      "euLawNote": "Directiva (UE) 2018/958 privind testul de proporționalitate se aplică în principiu reglementărilor care condiționează exercitarea unei profesii. Definițiile nu restrâng accesul la profesie, dar condiția de „competență atestată” pentru calitatea de medic curant intervenționist poate funcționa ca rezervare de activitate. Normele metodologice ar trebui să o justifice ca proporțională și să recunoască titlurile obținute în alte state membre, conform Directivei 2005/36/CE. Directiva TRIS (UE) 2015/1535 nu se aplică, fiindcă nu sunt reglementate servicii ale societății informaționale. Nu se observă efecte anticoncurențiale.",
+      "senatForm": {
+        "articleRef": "Art. II",
+        "proposalContent": "Art. II. În termen de 60 de zile de la intrarea în vigoare a prezentei legi, Ministerul Sănătății, cu consultarea CNAS și a Colegiului Medicilor din România, aprobă prin ordin normele de aplicare a alin. (2¹)-(2⁴), inclusiv modul de desemnare a medicului curant, competențele intervenționale și dreptul de recomandare al medicului curant intervenționist.",
+        "argumentation": "Scopul din expunerea de motive, ca medicii intervenționiști să poată recomanda direct proceduri, nu apare în lege. Fără CNAS, conform art. 381 alin. (4), recomandările lor nu pot fi decontate. Forma actului (ordin) și includerea alin. (2¹)-(2²) asigură previzibilitate (art. 1 alin. 5 din Constituție) și aplicarea efectivă a legii.",
+        "otherComments": "Alin. (2²) lit. a): propun eliminarea sintagmei „de regulă”, care face neclară identificarea medicului curant. Alin. (2¹): trebuie precizat cine desemnează medicul curant, respectând dreptul pacientului de a-și alege medicul (Legea nr. 46/2003). Art. II: „elaborază” trebuie corectat în „elaborează”."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -139,7 +170,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:15:26.983Z",
+      "replacedAt": "2026-11-24T14:31:43.291Z",
       "reasons": [
         "model"
       ]

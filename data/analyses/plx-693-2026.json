@@ -2,7 +2,7 @@
   "billId": "Pl-x 693/2026",
   "slug": "plx-693-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:21:51.885Z",
+  "updatedAt": "2026-11-24T14:35:33.699Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,22 +31,22 @@
     "key": "1cf4997398797189"
   },
   "consensus": {
-    "riskScore": 3.5,
+    "riskScore": 3.7,
     "riskLevel": "green",
-    "plainTitle": "Reducerea impozitului pe dividende de la 16% la 8% pentru firme și persoane fizice române",
-    "summaryTlDr": "Măsură favorabilă antreprenorilor și investitorilor, fără capcane ascunse pentru contribuabili, dar redactată incomplet: nu are impact bugetar calculat, omite nerezidenții (risc de încălcare a dreptului UE) și nu clarifică regimul dividendelor distribuite anterior.",
-    "initiatorClaim": "Inițiatorii susțin că impozitul de 16% pe dividende descurajează antreprenoriatul autohton și investițiile, motiv pentru care reducerea la 8% ar reda predictibilitatea fiscală și ar stimula reinvestirea capitalului în economia reală.",
-    "realityCheck": "Legea reduce mecanic cota impozitului pe dividende de la 16% la 8% de la 1 ianuarie al anului următor publicării, atât pentru dividendele plătite între persoane juridice române (art. 43 alin. 2), cât și pentru persoanele fizice și investitorii în fonduri de investiții (art. 97 alin. 7), păstrând neschimbate termenele și procedurile de reținere. Deși nu introduce birocrație, omite să modifice impozitarea dividendelor plătite nerezidenților din Titlul VI al Codului fiscal, nu include nicio fișă financiară pentru golul bugetar creat și lasă descoperită situația dividendelor distribuite anterior, dar plătite după intrarea în vigoare.",
+    "plainTitle": "Impozitul pe dividende scade de la 16% la 8%, pentru firme și pentru persoane fizice",
+    "summaryTlDr": "E o reducere de taxă clară și simplă, favorabilă antreprenorilor și investitorilor. Riscul nu ține de cetățeni, ci de buget: proiectul nu are estimare de impact și nicio sursă de compensare, într-o perioadă de deficit excesiv. Lipsește și o regulă tranzitorie, ceea ce lasă loc de litigii și de amânări tactice ale plății dividendelor.",
+    "initiatorClaim": "Inițiatorii spun că cota de 16% pe dividende, plătită peste impozitul pe profit, penalizează capitalul autohton și investiția. Spun și că majorările succesive au distrus previzibilitatea fiscală. Reducerea la 8% ar stimula reinvestirea, distribuirea transparentă a dividendelor și încrederea mediului privat.",
+    "realityCheck": "Proiectul înlocuiește doar cifra 16% cu 8% în două locuri. Primul este art. 43 alin. (2), pentru dividendele plătite către persoane juridice române care nu beneficiază de scutirea pentru participații de minimum 10% deținute un an. Al doilea este art. 97 alin. (7), pentru dividendele încasate de persoanele fizice și pentru câștigurile din unități de fond. Fișa Camerei menționează doar persoanele juridice, dar efectul economic principal este reducerea pentru persoanele fizice (asociați, acționari, investitori în fonduri). Proiectul nu stabilește dacă noua cotă se aplică după data distribuirii sau după data plății, nu atinge cota pentru nerezidenți și nu cuantifică pierderea de venituri bugetare.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 1 și Art. 2",
-      "proposalContent": "Corelarea cotei de 8% și pentru dividendele plătite nerezidenților (Titlul VI din Codul fiscal), introducerea unei norme tranzitorii la Art. 2 privind dividendele distribuite începând cu 1 ianuarie și corectarea formulei de atestare la art. 76 alin. (2) din Constituție.",
-      "argumentation": "O cotă de 8% doar pentru rezidenți, menținând 16% pentru nerezidenții din UE/SEE, încalcă libera circulație a capitalurilor (art. 63 TFUE). Fără o normă tranzitorie pentru dividendele distribuite anterior, dar plătite după 1 ianuarie, apar litigii fiscale. Modificarea cotelor din Codul fiscal ține de legea ordinară.",
-      "otherComments": "Potrivit art. 111 alin. (1) din Constituție și Legii nr. 69/2010, comisia trebuie să solicite fișa financiară cu impactul asupra veniturilor bugetului de stat și măsurile de compensare. A se corecta și eroarea materială «modifcarea» din titlul proiectului."
+      "articleRef": "Art. 2 – dispoziție tranzitorie nouă",
+      "proposalContent": "Art. 2 se completează: «Cota de 8% prevăzută la art. 43 alin. (2) și art. 97 alin. (7) se aplică dividendelor distribuite începând cu 1 ianuarie a anului următor publicării, dar nu mai devreme de 6 luni de la publicare. Dividendele distribuite anterior se impozitează cu cota în vigoare la data distribuirii, indiferent de data plății.»",
+      "argumentation": "Fără regulă tranzitorie, dividendele aprobate la 16% dar plătite după intrarea în vigoare ar putea fi impozitate cu 8%. Asta stimulează amânarea plăților și generează litigii. Legea 141/2025 a folosit același criteriu, data distribuirii. Termenul de 6 luni respectă art. 4 din Codul fiscal și previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
+      "otherComments": "Solicitați fișa financiară (art. 15 L. 500/2002, L. 69/2010) cu impactul bugetar și sursa de compensare. Verificați art. 224 Cod fiscal: dacă nerezidenții UE rămân la 16% iar rezidenții trec la 8%, diferența poate încălca art. 63 TFUE, deci ar trebui redusă și acolo. CASS pe dividende rămâne neschimbată."
     }
   },
   "council": {
@@ -86,8 +86,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 53274,
+      "sourceEndMarker": "SF-8D39F0F5",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Impozitul pe dividende scade de la 16% la 8%, pentru firme și pentru persoane fizice",
+      "verdictShort": "E o reducere de taxă clară și simplă, favorabilă antreprenorilor și investitorilor. Riscul nu ține de cetățeni, ci de buget: proiectul nu are estimare de impact și nicio sursă de compensare, într-o perioadă de deficit excesiv. Lipsește și o regulă tranzitorie, ceea ce lasă loc de litigii și de amânări tactice ale plății dividendelor.",
+      "initiatorClaim": "Inițiatorii spun că cota de 16% pe dividende, plătită peste impozitul pe profit, penalizează capitalul autohton și investiția. Spun și că majorările succesive au distrus previzibilitatea fiscală. Reducerea la 8% ar stimula reinvestirea, distribuirea transparentă a dividendelor și încrederea mediului privat.",
+      "realityCheck": "Proiectul înlocuiește doar cifra 16% cu 8% în două locuri. Primul este art. 43 alin. (2), pentru dividendele plătite către persoane juridice române care nu beneficiază de scutirea pentru participații de minimum 10% deținute un an. Al doilea este art. 97 alin. (7), pentru dividendele încasate de persoanele fizice și pentru câștigurile din unități de fond. Fișa Camerei menționează doar persoanele juridice, dar efectul economic principal este reducerea pentru persoanele fizice (asociați, acționari, investitori în fonduri). Proiectul nu stabilește dacă noua cotă se aplică după data distribuirii sau după data plății, nu atinge cota pentru nerezidenți și nu cuantifică pierderea de venituri bugetare.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 1 pct. 2 (art. 97 alin. 7 Cod fiscal): cota pentru dividendele persoanelor fizice scade de la 16% la 8%, impozit final. Același regim se aplică și câștigurilor din deținerea de titluri de participare la organisme de plasament colectiv (fonduri de investiții). Fișa oficială a Camerei omite acest efect, deși este cel mai important.",
+        "Art. 1 pct. 1 (art. 43 alin. 2): cota de 8% se aplică doar dividendelor între persoane juridice române care nu îndeplinesc scutirea din art. 43 alin. (4), adică deținere de cel puțin 10% timp de un an. Prin art. 43 alin. (5), nemodificat, de reducere beneficiază și fondurile de pensii private și facultative. Mecanismul de declarare și termenul de plată (25 ale lunii următoare) rămân aceleași.",
+        "Art. 2: intrarea în vigoare la 1 ianuarie a anului următor publicării nu este însoțită de nicio dispoziție tranzitorie. Prin comparație, Legea 141/2025 a legat cota de 16% de dividendele distribuite începând cu 1.01.2026. Art. 97 alin. (7) leagă însă reținerea de momentul plății. Rămâne neclar ce cotă se aplică dividendelor aprobate la 16% și plătite după intrarea în vigoare, iar asta încurajează amânarea plăților.",
+        "Proiectul nu are fișă financiară și nici estimare a impactului bugetar sau a unei surse de compensare (art. 15 din Legea 500/2002, Legea 69/2010). Expunerea de motive nu conține nicio cifră, deși măsura reduce sensibil veniturile din impozitul pe venit și pe dividende, în plină procedură de deficit excesiv.",
+        "Rămân neschimbate CASS pe dividende pentru persoanele fizice și impozitul pe profit sau pe veniturile microîntreprinderilor. Povara totală scade, dar nu se înjumătățește."
+      ],
+      "blindSpotsCaught": "Proiectul nu modifică impozitul pe dividende plătite nerezidenților (Titlul VI, art. 224 Cod fiscal). Dacă cota acolo rămâne 16%, un acționar persoană fizică din alt stat UE ar plăti dublu față de unul rezident, ceea ce poate fi contestat ca restricție a liberei circulații a capitalurilor. A doua problemă: art. 4 din Codul fiscal cere ca modificările să intre în vigoare la minimum 6 luni de la publicare. Dacă legea e publicată în toamnă sau iarnă, termenul de 1 ianuarie următor încalcă această regulă de previzibilitate, chiar dacă o lege ulterioară o poate deroga. A treia problemă: fără criteriul «data distribuirii», firmele vor amâna plata dividendelor deja aprobate ca să prindă cota de 8%, iar asta mută venituri între ani bugetari.",
+      "constitutionalityNote": "Proiectul nu ridică probleme majore de constituționalitate. Este o lege ordinară de natură fiscală, legiferarea impozitelor revine Parlamentului (art. 139), iar reducerea poverii fiscale este compatibilă cu art. 56 alin. (2). Art. 138 alin. (5), privind sursa de finanțare, vizează cheltuielile, nu reducerile de venituri. Totuși, lipsa estimării impactului încalcă Legea 500/2002 și Legea 69/2010, iar punctul de vedere al Guvernului (art. 111) este necesar și relevant. Absența unei reguli tranzitorii pentru dividendele distribuite înainte și plătite după intrarea în vigoare afectează claritatea și previzibilitatea legii (art. 1 alin. 5), iar CCR a sancționat anterior asemenea imprecizii.",
+      "euLawNote": "Directiva 2018/958, privind testul de proporționalitate pentru profesii reglementate, nu este incidentă. Nici Directiva TRIS 2015/1535 nu se aplică, pentru că nu este vorba de servicii digitale sau reglementări tehnice. Măsura este generală, nu selectivă, deci nu constituie ajutor de stat. Directiva mamă-filială 2011/96 nu e afectată, scutirea pentru participații rămânând neschimbată. Riscul real este diferența de tratament dintre rezidenți (8%) și nerezidenții UE/SEE (cota din art. 224, nemodificată), care poate încălca art. 63 TFUE. Pe plan fiscal-bugetar, măsura trebuie corelată cu angajamentele din procedura de deficit excesiv și din planul fiscal-structural asumat față de Comisia Europeană.",
+      "senatForm": {
+        "articleRef": "Art. 2 – dispoziție tranzitorie nouă",
+        "proposalContent": "Art. 2 se completează: «Cota de 8% prevăzută la art. 43 alin. (2) și art. 97 alin. (7) se aplică dividendelor distribuite începând cu 1 ianuarie a anului următor publicării, dar nu mai devreme de 6 luni de la publicare. Dividendele distribuite anterior se impozitează cu cota în vigoare la data distribuirii, indiferent de data plății.»",
+        "argumentation": "Fără regulă tranzitorie, dividendele aprobate la 16% dar plătite după intrarea în vigoare ar putea fi impozitate cu 8%. Asta stimulează amânarea plăților și generează litigii. Legea 141/2025 a folosit același criteriu, data distribuirii. Termenul de 6 luni respectă art. 4 din Codul fiscal și previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
+        "otherComments": "Solicitați fișa financiară (art. 15 L. 500/2002, L. 69/2010) cu impactul bugetar și sursa de compensare. Verificați art. 224 Cod fiscal: dacă nerezidenții UE rămân la 16% iar rezidenții trec la 8%, diferența poate încălca art. 63 TFUE, deci ar trebui redusă și acolo. CASS pe dividende rămâne neschimbată."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -139,7 +168,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:21:51.885Z",
+      "replacedAt": "2026-11-24T14:35:33.699Z",
       "reasons": [
         "model"
       ]

@@ -2,7 +2,7 @@
   "billId": "PL-x 20/2026",
   "slug": "plx-20-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:15:05.309Z",
+  "updatedAt": "2026-11-24T14:32:11.888Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,21 +31,21 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 2,
+    "riskScore": 1.7,
     "riskLevel": "green",
-    "plainTitle": "Plata cotizațiilor anuale ale DNSC la două rețele internaționale de securitate cibernetică",
-    "summaryTlDr": "Lege tehnică, benignă și necesară, cu impact bugetar minuscul (~20.000 lei/an), care menține accesul României la rețelele internaționale de răspuns la atacuri cibernetice. Singurele scăpări sunt de tehnică legislativă și pot fi ușor corectate.",
-    "initiatorClaim": "Inițiatorii urmăresc asigurarea temeiului legal pentru ca Directoratul Național de Securitate Cibernetică (DNSC) să își plătească cotizațiile de membru la FIRST și TF/CSIRT Trusted Introducer, evitând excluderea României din aceste forumuri.",
-    "realityCheck": "Legea autorizează plata din bugetul SGG a 2.800 USD/an (FIRST) și 1.200 EUR/an plus TVA (TF/CSIRT Trusted Introducer) și permite Guvernului să actualizeze ulterior cuantumul prin HG. Nu impune taxe, obligații sau restricții cetățenilor ori firmelor, însă lasă neabrogată vechea Lege nr. 146/2014 (pentru fostul CERT-RO) și nu reglementează expres plata facturilor restante din 2024–2025 invocate în motivare.",
+    "plainTitle": "Statul plătește cotizațiile DNSC la două rețele internaționale de securitate cibernetică (aproximativ 20.000 lei/an)",
+    "summaryTlDr": "Lege tehnică, benignă și utilă: menține România în cele două rețele-cheie de schimb de informații între echipele CSIRT, cu un cost anual neglijabil. Singurele probleme sunt de redactare: un art. 2 formulat prea larg și lipsa abrogării legii vechi din 2014.",
+    "initiatorClaim": "Inițiatorii vor să ofere DNSC un temei legal actualizat pentru plata cotizațiilor anuale la FIRST (2.800 USD) și Trusted Introducer (1.200 EUR + TVA). Motivul invocat este că facturile pe 2025 au fost emise, iar neplata ar duce la excluderea din aceste rețele, la costuri de reacreditare și la afectarea imaginii României.",
+    "realityCheck": "Art. 1 aprobă plata celor două cotizații din bugetul SGG, plafonată la echivalentul în lei de la data plății. Art. 2 permite Guvernului să actualizeze prin HG cuantumul cotizațiilor la toate organismele neguvernamentale la care DNSC este parte, nu doar la cele două numite, deci formularea depășește obiectul legii. Legea nr. 146/2014, care autoriza aceleași plăți pentru CERT-RO (predecesorul DNSC), nu este abrogată expres, așa că rămân două temeiuri paralele pentru aceeași cheltuială.",
     "affectedGroups": [
       "IT & AI",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 1 alin. (1), Art. 2 și dispoziții finale",
-      "proposalContent": "Corectarea «Foram» în «Forum» la Art. 1(1) și precizarea cursului BNR la Art. 1(3). Reformularea Art. 2: «Cuantumul cotizațiilor prevăzute la art. 1 se actualizează prin HG, la modificarea acestora de către organismele respective.» Introducerea Art. 3: «La data intrării în vigoare a prezentei legi, Legea nr. 146/2014 se abrogă.»",
-      "argumentation": "Modificările elimină paralelismul legislativ cu Legea nr. 146/2014 (aferentă fostului CERT-RO), corectează eroarea materială din forma Senatului și asigură previzibilitatea delegării către Guvern conform art. 1 alin. (5) din Constituție, limitând actualizarea prin HG la modificările decise de organizațiile internaționale.",
-      "otherComments": "Expunerea de motive menționează facturi restante din 2024-2025, însă proiectul nu include o normă tranzitorie pentru plata acestora. Recomandăm clarificarea în raport a temeiului legal de plată pentru perioadele anterioare, pentru a evita blocaje la trezorerie sau obiecții ale Curții de Conturi."
+      "articleRef": "Art. 2 și Art. 3 (nou)",
+      "proposalContent": "Art. 2: «Cuantumul cotizațiilor prevăzute la art. 1 se actualizează prin hotărâre a Guvernului, la decizia organismelor respective, cu încadrare în bugetul aprobat SGG.» Art. 3 (nou): «La data intrării în vigoare a prezentei legi, Legea nr. 146/2014 se abrogă.»",
+      "argumentation": "Art. 2 vizează acum toate organismele neguvernamentale la care DNSC este parte, nu doar cele două aprobate, lăsând Guvernului o marjă nedefinită. Legea 146/2014 acoperă aceleași cotizații pentru CERT-RO, iar fără abrogare expresă rămân două temeiuri paralele pentru aceeași plată (art. 1 alin. 5 Constituție, Legea 24/2000).",
+      "otherComments": "Corectură materială la art. 1 alin. (1): «Foram» → «Forum». La alin. (3): «Lei» → «lei» și «Ia data» → «la data». Recomand ca nota de fundamentare să precizeze cota de TVA aplicată (1.452 € = 1.200 € + 21%) și dacă plata acoperă și restanțele 2024-2025."
     }
   },
   "council": {
@@ -83,8 +83,36 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 36548,
+      "sourceEndMarker": "SF-7C5C5996",
+      "riskScore": 1,
+      "riskLevel": "green",
+      "plainTitle": "Statul plătește cotizațiile DNSC la două rețele internaționale de securitate cibernetică (aproximativ 20.000 lei/an)",
+      "verdictShort": "Lege tehnică, benignă și utilă: menține România în cele două rețele-cheie de schimb de informații între echipele CSIRT, cu un cost anual neglijabil. Singurele probleme sunt de redactare: un art. 2 formulat prea larg și lipsa abrogării legii vechi din 2014.",
+      "initiatorClaim": "Inițiatorii vor să ofere DNSC un temei legal actualizat pentru plata cotizațiilor anuale la FIRST (2.800 USD) și Trusted Introducer (1.200 EUR + TVA). Motivul invocat este că facturile pe 2025 au fost emise, iar neplata ar duce la excluderea din aceste rețele, la costuri de reacreditare și la afectarea imaginii României.",
+      "realityCheck": "Art. 1 aprobă plata celor două cotizații din bugetul SGG, plafonată la echivalentul în lei de la data plății. Art. 2 permite Guvernului să actualizeze prin HG cuantumul cotizațiilor la toate organismele neguvernamentale la care DNSC este parte, nu doar la cele două numite, deci formularea depășește obiectul legii. Legea nr. 146/2014, care autoriza aceleași plăți pentru CERT-RO (predecesorul DNSC), nu este abrogată expres, așa că rămân două temeiuri paralele pentru aceeași cheltuială.",
+      "affectedGroups": [
+        "IT & AI",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 1 alin. (1)-(2): cotizații plafonate la 2.800 USD/an (FIRST) și 1.200 EUR/an plus TVA (TI). Impactul bugetar estimat este de circa 19,7 mii lei/an (98,5 mii lei pe 5 ani), încadrat în bugetul aprobat al SGG, deci fără cheltuieli noi pentru cetățeni sau IMM-uri.",
+        "Art. 2: Guvernul poate actualiza prin HG cuantumul cotizațiilor la «organismele internaționale neguvernamentale la care DNSC este parte», fără a le limita la cele două prevăzute la art. 1 și fără plafon sau criteriu. Delegarea este minoră ca valoare, dar imprecisă ca întindere.",
+        "Lipsește o dispoziție de abrogare a Legii nr. 146/2014, care reglementează aceleași cotizații pentru CERT-RO, entitate preluată de DNSC prin OUG 104/2021. Rezultă un paralelism legislativ contrar Legii nr. 24/2000.",
+        "Erori materiale: «Foram» în loc de «Forum» la art. 1 alin. (1), «Lei» cu majusculă și «Ia data» la alin. (3).",
+        "Expunerea de motive calculează TI la 1.452 EUR (1.200 EUR + 21% TVA olandez), iar art. 1 alin. (2) lasă TVA-ul nemenționat cantitativ. Este corect juridic, dar plafonul real depinde de cota de TVA din statul de sediu."
+      ],
+      "blindSpotsCaught": "Art. 2 nu se limitează la FIRST și TI. Formularea generică poate fi citită ca o abilitare permanentă a Guvernului de a stabili prin HG cuantumul oricărei cotizații DNSC la organisme neguvernamentale, deși OG 41/1994 nu acoperă astfel de organisme, iar până acum aprobarea s-a făcut prin lege. În plus, Legea 146/2014 rămâne în vigoare, iar referirea ei la TERENA este depășită, pentru că TI funcționează acum în cadrul GÉANT. Rezultă o dublă bază legală nesincronizată.",
+      "constitutionalityNote": "Nu se identifică probleme constituționale de fond. Cheltuiala are sursă de finanțare indicată (bugetul SGG), conform art. 138 alin. (5) din Constituție. Delegarea din art. 2 către HG poate fi încadrată în art. 108 alin. (2), ca organizare a executării legii, dar formularea vagă («organismele… la care DNSC este parte») slăbește previzibilitatea cerută de art. 1 alin. (5). Este de verificat procedural dacă a fost solicitată informarea Guvernului conform art. 111 alin. (1), propunerea fiind de inițiativă parlamentară cu impact bugetar; nota de fundamentare nu o menționează.",
+      "euLawNote": "Legea nu reglementează profesii, servicii sau produse, deci Directiva (UE) 2018/958 privind testul de proporționalitate nu este aplicabilă. Nu conține reguli tehnice privind serviciile societății informaționale, deci nu necesită notificare TRIS (Directiva 2015/1535). Nu afectează concurența și nu constituie ajutor de stat, fiind o plată de cotizații ale unei autorități publice. Este în linie cu Directiva NIS2 (UE) 2022/2555, transpusă prin OUG 155/2024, care încurajează cooperarea internațională a CSIRT-urilor naționale.",
+      "senatForm": {
+        "articleRef": "Art. 2 și Art. 3 (nou)",
+        "proposalContent": "Art. 2: «Cuantumul cotizațiilor prevăzute la art. 1 se actualizează prin hotărâre a Guvernului, la decizia organismelor respective, cu încadrare în bugetul aprobat SGG.» Art. 3 (nou): «La data intrării în vigoare a prezentei legi, Legea nr. 146/2014 se abrogă.»",
+        "argumentation": "Art. 2 vizează acum toate organismele neguvernamentale la care DNSC este parte, nu doar cele două aprobate, lăsând Guvernului o marjă nedefinită. Legea 146/2014 acoperă aceleași cotizații pentru CERT-RO, iar fără abrogare expresă rămân două temeiuri paralele pentru aceeași plată (art. 1 alin. 5 Constituție, Legea 24/2000).",
+        "otherComments": "Corectură materială la art. 1 alin. (1): «Foram» → «Forum». La alin. (3): «Lei» → «lei» și «Ia data» → «la data». Recomand ca nota de fundamentare să precizeze cota de TVA aplicată (1.452 € = 1.200 € + 21%) și dacă plata acoperă și restanțele 2024-2025."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -135,7 +163,7 @@
         "codex": 2
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:15:05.309Z",
+      "replacedAt": "2026-11-24T14:32:11.888Z",
       "reasons": [
         "model"
       ]

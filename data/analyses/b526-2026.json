@@ -1,7 +1,7 @@
 {
   "billId": "B526/2026",
   "slug": "b526-2026",
-  "updatedAt": "2026-11-24T12:12:40.907Z",
+  "updatedAt": "2026-11-24T14:31:23.252Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -32,20 +32,21 @@
   "consensus": {
     "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Parcare gratuită pe orice loc public pentru persoanele cu handicap, când locurile dedicate sunt ocupate",
-    "summaryTlDr": "O inițiativă socială legitimă și utilă care face efectiv dreptul la parcare gratuită pentru persoanele cu handicap, fără a introduce taxe sau restricții noi. Redactarea are însă două scăpări importante care pot genera conflicte pe locurile de reședință și amenzi nedrepte, ușor de corectat prin amendamente.",
-    "initiatorClaim": "Inițiatorii susțin că locurile rezervate persoanelor cu handicap sunt adesea insuficiente sau ocupate abuziv, făcând dreptul legal la parcare gratuită pur teoretic, și propun dreptul de a parca gratuit pe orice alt loc public disponibil.",
-    "realityCheck": "Legea în vigoare (art. 65 alin. 2) recunoaște deja gratuitatea parcării pentru posesorii de card-legitimație, dar în practică autoritățile locale o limitează frecvent la locurile dedicate. Proiectul introduce alin. (6) și (7) pentru a permite parcarea gratuită pe „orice loc de parcare situat pe domeniul public sau privat al statului ori al UAT” când locurile dedicate sunt ocupate, însă formula largă nu exclude locurile de reședință închiriate altor cetățeni sau locurile rezervate și introduce o condiție dificil de dovedit ulterior în caz de control.",
+    "plainTitle": "Persoanele cu handicap pot parca gratuit în orice loc public cu plată dacă locurile rezervate sunt ocupate",
+    "summaryTlDr": "Este o măsură socială utilă și de bun-simț, care face efectiv un drept deja existent. Textul are însă trei probleme care trebuie corectate: o formulare prea largă („orice loc de parcare”), o condiție greu de probat la control și omiterea cardului european de parcare.",
+    "initiatorClaim": "Inițiatorii spun că dreptul la parcare gratuită al persoanelor cu handicap rămâne teoretic, pentru că locurile rezervate sunt puține sau ocupate abuziv. Vor ca titularii cardului-legitimație să poată folosi gratuit și alte locuri publice atunci când cele dedicate sunt ocupate.",
+    "realityCheck": "Proiectul adaugă două alineate la art. 65. Când locurile rezervate sunt ocupate, autovehiculul care transportă o persoană cu card-legitimație poate parca fără tarif pe orice loc de pe domeniul public sau privat al statului ori al UAT, dar nu acolo unde oprirea sau staționarea este interzisă. Art. 65 alin. (2) în vigoare spune deja generic că autovehiculul „beneficiază de parcare gratuită”, iar multe primării îl aplică și pe locurile cu plată, așa că noutatea este parțial o clarificare. Chichițele: „orice loc” poate include locuri repartizate nominal (alin. 5, abonamente rezidențiale), locuri de taxi, de livrări sau de încărcare electrică și parcări concesionate unor operatori privați. În plus, condiția „locurile sunt ocupate” nu are reper spațial și nu se poate verifica la control.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Șoferi & Auto",
+      "Proprietari & Imobiliare",
       "IMM & Antreprenori"
     ],
     "senatForm": {
       "articleRef": "Art. 65 alin. (6) și (7) din Legea nr. 448/2006",
-      "proposalContent": "Modificarea alin. (6) pentru a excepta expres locurile de parcare de reședință atribuite nominal și pe cele rezervate instituțiilor sau încărcării electrice, precum și clarificarea modului de verificare a ocupării locurilor dedicate. Eliminarea sintagmei finale redundante din alin. (7) și corelarea titlului (doar completare).",
-      "argumentation": "Sintagma „orice loc de parcare” de pe domeniul public/privat include și locurile de reședință închiriate altor cetățeni ori locurile rezervate, generând conflicte (art. 1 alin. 5 Constituție). În plus, beneficiarul nu poate dovedi ulterior că locurile dedicate erau ocupate la momentul parcării, dacă între timp s-au eliberat.",
-      "otherComments": "Se recomandă corelarea cu Directiva (UE) 2024/2841 privind Cardul european de parcare pentru persoanele cu dizabilități, precizarea obligației afișării cardului la loc vizibil, corectarea acordului gramatical din alin. (6) („deținătoare”) și evaluarea impactului asupra contractelor de delegare a parcărilor publice."
+      "proposalContent": "Alin. (6): „orice loc de parcare cu plată, cu excepția celor atribuite nominal, a celor pentru taxi, livrări sau încărcare electrică”. Beneficiari: și titularii cardului european de parcare (Directiva (UE) 2024/2841). Alin. (7): „...fără a permite parcarea unde oprirea sau staționarea este interzisă.”",
+      "argumentation": "„Orice loc” intră în conflict cu locurile atribuite nominal (alin. 5, abonamente) și cu contractele operatorilor. Condiția „locuri ocupate” nu are reper (care locuri?) și e greu de probat la control. Alin. (7) e confuz. Omiterea cardului european contravine Directivei 2024/2841.",
+      "otherComments": "Recomandăm: precizarea că dovada ocupării locurilor rezervate nu cade în sarcina beneficiarului; compensarea operatorilor din bugetele locale (art. 65 alin. 4); fișă financiară și punctul de vedere al Guvernului (art. 111 Constituție, art. 15 L. 500/2002); actualizarea normelor din HG 268/2007."
     }
   },
   "council": {
@@ -84,8 +85,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 45467,
+      "sourceEndMarker": "SF-ECDA35C8",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Persoanele cu handicap pot parca gratuit în orice loc public cu plată dacă locurile rezervate sunt ocupate",
+      "verdictShort": "Este o măsură socială utilă și de bun-simț, care face efectiv un drept deja existent. Textul are însă trei probleme care trebuie corectate: o formulare prea largă („orice loc de parcare”), o condiție greu de probat la control și omiterea cardului european de parcare.",
+      "initiatorClaim": "Inițiatorii spun că dreptul la parcare gratuită al persoanelor cu handicap rămâne teoretic, pentru că locurile rezervate sunt puține sau ocupate abuziv. Vor ca titularii cardului-legitimație să poată folosi gratuit și alte locuri publice atunci când cele dedicate sunt ocupate.",
+      "realityCheck": "Proiectul adaugă două alineate la art. 65. Când locurile rezervate sunt ocupate, autovehiculul care transportă o persoană cu card-legitimație poate parca fără tarif pe orice loc de pe domeniul public sau privat al statului ori al UAT, dar nu acolo unde oprirea sau staționarea este interzisă. Art. 65 alin. (2) în vigoare spune deja generic că autovehiculul „beneficiază de parcare gratuită”, iar multe primării îl aplică și pe locurile cu plată, așa că noutatea este parțial o clarificare. Chichițele: „orice loc” poate include locuri repartizate nominal (alin. 5, abonamente rezidențiale), locuri de taxi, de livrări sau de încărcare electrică și parcări concesionate unor operatori privați. În plus, condiția „locurile sunt ocupate” nu are reper spațial și nu se poate verifica la control.",
+      "affectedGroups": [
+        "Șoferi & Auto",
+        "Justiție & Drepturi Civile",
+        "Proprietari & Imobiliare",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. 65 alin. (6) propus: condiția declanșatoare („locurile adaptate... sunt ocupate”) nu spune care locuri (cele din aceeași parcare? cele mai apropiate?) și nici cine dovedește că erau ocupate. La control, agentul nu are cum să verifice situația din momentul parcării, ceea ce generează litigii contravenționale.",
+        "Art. 65 alin. (6) propus: sintagma „orice loc de parcare” intră în conflict cu locurile atribuite nominal prin art. 65 alin. (5) sau prin abonamente rezidențiale, precum și cu locurile cu destinație specială (taxi, livrări, încărcare electrică, ambulanțe). Alin. (7) exclude doar zonele unde oprirea sau staționarea e interzisă prin lege, nu și aceste locuri.",
+        "Parcările de pe domeniul public sau privat sunt adesea concesionate ori date în administrarea unor operatori. Gratuitatea afectează veniturile contractuale, iar art. 65 alin. (4) în vigoare pune costurile în sarcina bugetelor locale. Afirmația din expunere că nu există costuri semnificative nu este susținută de o fișă financiară.",
+        "Art. 65 alin. (7) propus are o redactare confuză („...interzisă prin lege, altele decât cele destinate parcării”), care trebuie simplificată pentru claritate normativă.",
+        "Beneficiul este legat strict de „cardul-legitimație prevăzut la alin. (2)”, adică de cardul național, nu și de cardul european de parcare pentru persoanele cu dizabilități."
+      ],
+      "blindSpotsCaught": "Directiva (UE) 2024/2841 privind cardul european pentru persoanele cu dizabilități și cardul european de parcare obligă statele să acorde titularilor cardului european de parcare aceleași condiții ca titularilor cardului național. Referirea exclusivă la cardul de la alin. (2) poate crea o discriminare a persoanelor cu handicap din alte state membre și o neconformitate la transpunere. Proiectul nu prevede nici actualizarea normelor metodologice din HG nr. 268/2007 și nici un mecanism de dovadă la control. De asemenea, nu răspunde riscului de folosire abuzivă a cardului fără ca persoana cu handicap să fie transportată.",
+      "constitutionalityNote": "Proiectul concretizează art. 50 din Constituție (protecția persoanelor cu handicap) și este compatibil în fond cu art. 16. Riscurile sunt de previzibilitate (art. 1 alin. 5): condiția „locurile sunt ocupate” și sintagma „orice loc” sunt imprecise. Pot apărea și tensiuni cu art. 44 (drepturile concesionarilor și ale titularilor de locuri atribuite) și cu autonomia locală (art. 120), întrucât veniturile bugetelor locale sunt afectate. Conform art. 111 alin. (1) din Constituție și art. 15 din Legea nr. 500/2002, o măsură care diminuează veniturile bugetare cere fișă financiară și punctul de vedere al Guvernului; lipsa lor a fost sancționată de CCR în alte cazuri.",
+      "euLawNote": "Directiva 2018/958 nu este aplicabilă, pentru că proiectul nu reglementează accesul la o profesie. Directiva TRIS 2015/1535 nu este incidentă, întrucât nu sunt reglementate servicii ale societății informaționale sau reguli tehnice. Este relevantă Directiva (UE) 2024/2841 (cardul european de parcare), care cere tratament egal pentru titularii cardului european, motiv pentru care textul trebuie extins. Măsura este în linie cu art. 20 din Convenția ONU privind drepturile persoanelor cu dizabilități, la care UE este parte, și cu Recomandarea 98/376/CE.",
+      "senatForm": {
+        "articleRef": "Art. 65 alin. (6) și (7) din Legea nr. 448/2006",
+        "proposalContent": "Alin. (6): „orice loc de parcare cu plată, cu excepția celor atribuite nominal, a celor pentru taxi, livrări sau încărcare electrică”. Beneficiari: și titularii cardului european de parcare (Directiva (UE) 2024/2841). Alin. (7): „...fără a permite parcarea unde oprirea sau staționarea este interzisă.”",
+        "argumentation": "„Orice loc” intră în conflict cu locurile atribuite nominal (alin. 5, abonamente) și cu contractele operatorilor. Condiția „locuri ocupate” nu are reper (care locuri?) și e greu de probat la control. Alin. (7) e confuz. Omiterea cardului european contravine Directivei 2024/2841.",
+        "otherComments": "Recomandăm: precizarea că dovada ocupării locurilor rezervate nu cade în sarcina beneficiarului; compensarea operatorilor din bugetele locale (art. 65 alin. 4); fișă financiară și punctul de vedere al Guvernului (art. 111 Constituție, art. 15 L. 500/2002); actualizarea normelor din HG 268/2007."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -139,7 +170,7 @@
         "codex": 1.8
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:12:40.907Z",
+      "replacedAt": "2026-11-24T14:31:23.252Z",
       "reasons": [
         "model"
       ]

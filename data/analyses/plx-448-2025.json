@@ -2,7 +2,7 @@
   "billId": "PL-x 448/2025",
   "slug": "plx-448-2025",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:18:08.605Z",
+  "updatedAt": "2026-11-24T14:33:29.744Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,12 +31,12 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 4.3,
     "riskLevel": "yellow",
-    "plainTitle": "Primăriile pot garanta și lua credite fără plafon pentru combustibilul de iarnă",
-    "summaryTlDr": "O măsură de avarie cu scop social legitim (căldura populației iarna), dar care ridică toate frânele prudențiale de îndatorare locală fără plafoane de sumă, dobândă sau durată și fără evaluarea impactului bugetar.",
-    "initiatorClaim": "Guvernul susține că ordonanța este o măsură urgentă pentru a asigura continuitatea încălzirii centralizate în sezonul rece 2025-2026, permițând operatorilor locali de termoficare și primăriilor să finanțeze achiziția în avans a combustibilului.",
-    "realityCheck": "Articolul unic din OUG nr. 54/2025 suspendă până la finalul anului 2025 toate barierele prudențiale din Legea finanțelor publice locale (limitarea creditelor la investiții, plafonul de îndatorare de 30% și interdicția de împrumut pentru primăriile cu arierate sau deficit), plus plafonul fiscal-bugetar din Legea nr. 8/2025 pentru primăriile care sunt ele însele operatori. Deși necesarul declarat depășește 560 mil. lei, legea nu impune limite de sumă, dobândă sau termen de rambursare, iar riscul de neplată al unor operatori deja subfinanțați se mută direct pe umerii contribuabililor locali.",
+    "plainTitle": "Primăriile pot garanta sau lua credite ca să cumpere gaze și păcură pentru termoficare în iarna 2025-2026",
+    "summaryTlDr": "Este o măsură de avarie, utilă și limitată la un singur sezon rece, care ține căldura pornită în orașele cu termoficare. Prețul ei este suspendarea, fără plafon de sumă, a frânelor de îndatorare pentru primăriile care au deja datorii, arierate sau deficit.",
+    "initiatorClaim": "Guvernul spune că operatorii de termoficare ai primăriilor nu au bani să plătească în avans combustibilul pentru iarna 2025-2026. Prin urmare, UAT-urile trebuie să le poată garanta creditele sau să se împrumute direct, chiar dacă depășesc limitele legale de îndatorare.",
+    "realityCheck": "Articolul unic suspendă, pentru împrumuturile destinate combustibilului, plafonul de 30% al serviciului datoriei și interdicția de a se împrumuta pentru UAT-urile cu plăți restante sau deficit la secțiunea de funcționare (art. 61 alin. 1, art. 63 alin. 4 și 4^1 din Legea 273/2006). Alin. (2) suspendă și plafonul din cadrul fiscal-bugetar (art. 3 alin. 2 din Legea 8/2025). Nu există limită de sumă, de dobândă sau de durată a creditului, așa că rambursările pot apăsa bugetele locale după 2025. Rămân totuși două filtre: avizul Comisiei de autorizare a împrumuturilor locale (art. 61 alin. 3 nu e derogat) și hotărârea consiliului local.",
     "affectedGroups": [
       "Toți cetățenii",
       "Proprietari & Imobiliare",
@@ -44,10 +44,10 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Articol unic (OUG nr. 54/2025), alin. (1) și (2)",
-      "proposalContent": "Propunem completarea Articolului unic al OUG 54/2025 prin: (1) limitarea duratei creditelor garantate/contractate la maximum 18 luni, cu rambursare prioritară din încasările sezonului rece; (2) extinderea obligației de respectare a normelor privind ajutorul de stat și la alin. (2); (3) publicarea online a condițiilor de creditare aprobate.",
-      "argumentation": "Fără limită de maturitate, cheltuielile curente cu combustibilul se pot transforma în datorie locală pe termen lung peste plafonul de 30% din Legea 273/2006. Extinderea verificării ajutorului de stat și la UAT-urile operatori (alin. 2) previne riscul de neconformitate cu art. 107 TFUE, iar transparența condițiilor bancare protejează banii contribuabililor.",
-      "otherComments": "Solicităm comisiei să ceară Ministerului Finanțelor completarea Secțiunii a 4-a din Expunerea de motive (acum goală) cu impactul real al celor ~560 mil. lei estimați asupra datoriei publice și deficitului, precum și raportarea sumelor rămase nerambursate din derogările similare din 2023 (OG 41/2023) și 2024 (OG 33/2024)."
+      "articleRef": "Art. unic OUG 54/2025, alin. (3) nou",
+      "proposalContent": "Se introduce alin.(3): «În 60 de zile de la intrarea în vigoare a legii de aprobare, UAT-urile publică pe site și transmit MDLPA și MF lista împrumuturilor contractate sau garantate în baza alin.(1)-(2): beneficiar, sumă, dobândă, scadență, garanții executate. MF publică situația centralizată.»",
+      "argumentation": "Ordonanța elimină plafonul de 30% și interdicția pentru UAT-urile cu arierate sau deficit, fără limită de sumă sau durată, iar fișa financiară e goală, deși necesarul raportat depășește 559 mil. lei. Transparența ex post permite controlul datoriei locale și verificarea respectării regulilor de ajutor de stat.",
+      "otherComments": "Măsura se repetă anual (OG 41/2023, OG 33/2024, OUG 54/2025). Recomandăm un mecanism permanent, cu plafoane și condiții clare în Legea 273/2006, în locul ordonanțelor de urgență adoptate în pragul iernii, pentru a evita derogările ad-hoc și justificarea artificială a urgenței."
     }
   },
   "council": {
@@ -86,8 +86,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 49361,
+      "sourceEndMarker": "SF-843508F5",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Primăriile pot garanta sau lua credite ca să cumpere gaze și păcură pentru termoficare în iarna 2025-2026",
+      "verdictShort": "Este o măsură de avarie, utilă și limitată la un singur sezon rece, care ține căldura pornită în orașele cu termoficare. Prețul ei este suspendarea, fără plafon de sumă, a frânelor de îndatorare pentru primăriile care au deja datorii, arierate sau deficit.",
+      "initiatorClaim": "Guvernul spune că operatorii de termoficare ai primăriilor nu au bani să plătească în avans combustibilul pentru iarna 2025-2026. Prin urmare, UAT-urile trebuie să le poată garanta creditele sau să se împrumute direct, chiar dacă depășesc limitele legale de îndatorare.",
+      "realityCheck": "Articolul unic suspendă, pentru împrumuturile destinate combustibilului, plafonul de 30% al serviciului datoriei și interdicția de a se împrumuta pentru UAT-urile cu plăți restante sau deficit la secțiunea de funcționare (art. 61 alin. 1, art. 63 alin. 4 și 4^1 din Legea 273/2006). Alin. (2) suspendă și plafonul din cadrul fiscal-bugetar (art. 3 alin. 2 din Legea 8/2025). Nu există limită de sumă, de dobândă sau de durată a creditului, așa că rambursările pot apăsa bugetele locale după 2025. Rămân totuși două filtre: avizul Comisiei de autorizare a împrumuturilor locale (art. 61 alin. 3 nu e derogat) și hotărârea consiliului local.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "Proprietari & Imobiliare"
+      ],
+      "keyFindings": [
+        "Alin. (1): UAT-urile pot garanta creditele operatorilor din subordine care produc energie termică, numai pentru combustibil și «cu respectarea legislației în domeniul ajutorului de stat». Termenul se referă la acordarea garanției («în anul 2025»), nu la durata ei, care rămâne nedefinită.",
+        "Alin. (2): UAT-urile care sunt ele însele operatori (cazul Iași) se pot împrumuta direct până la 31.12.2025. Derogarea vizează inclusiv plafonul din Legea 8/2025 privind cadrul fiscal-bugetar, ceea ce adaugă datorie publică locală într-un context de deficit excesiv.",
+        "Expunerea de motive enumeră necesaruri de circa 449,8 mil. lei (8 UAT-uri) plus 110 mil. lei pentru Iași, deci aproape 560 mil. lei. Secțiunea 4 (impact financiar) este totuși complet goală: nu există fișă financiară și nici estimare a riscului de executare a garanțiilor.",
+        "Inițiatorul refuză explicit plafonarea dobânzii și a sumei, motivând că acestea sunt «inoportune». Controlul se mută integral la nivel local și la CAIL.",
+        "Măsura este a treia de acest fel în trei ani (OG 41/2023, OG 33/2024, OUG 54/2025), deci problema este structurală, nu accidentală.",
+        "Efectele s-au consumat în timp: termenele din 2025 au expirat, iar legea de aprobare consolidează retroactiv împrumuturi deja contractate."
+      ],
+      "blindSpotsCaught": "Alin. (1) beneficiază doar operatorii care «prestează serviciul public de producere», nu și cei care doar distribuie sau furnizează. Niciun alineat nu limitează scadența creditelor, așa că un împrumut contractat în 2025 «pentru sezonul 2025-2026» poate fi rambursat pe mai mulți ani, fără o regulă care să-l lege de încasările sezonului. Derogarea de la art. 63 alin. 4^1 permite exact UAT-urilor cu arierate sau deficit, cele mai fragile, să-și asume datorie nouă. Analiza de ajutor de stat este lăsată pe seama fiecărui UAT, deși Comunicarea 2008/C 155/02 cere sumă maximă fixată și durată limitată, adică exact elementele pe care ordonanța refuză să le stabilească. Am citit doar 12 din cele 15 pagini ale expunerii de motive (lipsesc consultările și avizele).",
+      "constitutionalityNote": "Fondul nu ridică probleme: UAT-urile acționează în sfera propriei autonomii (art. 120-121), iar măsura protejează un serviciu public esențial. Punctul vulnerabil este art. 115 alin. (4). Situația se repetă previzibil în fiecare toamnă din 2023 încoace, iar CCR a reținut constant că o situație previzibilă, creată prin inacțiunea autorităților, nu are caracter «extraordinar». Pe art. 1 alin. (5), lipsa duratei maxime a garanției și a creditelor scade previzibilitatea. Nu este afectat însă niciun drept fundamental și nicio lege organică, iar art. 115 alin. (6) nu e incident.",
+      "euLawNote": "Directiva 2018/958 (test de proporționalitate pentru profesii reglementate) și Directiva TRIS 2015/1535 nu sunt aplicabile: nu se reglementează profesii, servicii digitale sau reguli tehnice. Relevante sunt art. 107-108 TFUE. Garanțiile UAT pot constitui ajutor de stat, compatibil doar dacă se încadrează în Comunicarea privind garanțiile (2008/C 155/02) sau în Decizia SIEG 2012/21/UE (compensare pentru serviciu public, fără supracompensare). Ordonanța trimite generic la regulile de ajutor de stat, dar nu instituie un mecanism de verificare sau notificare. Derogarea de la plafoanele fiscale contravine spiritului cadrului de guvernanță economică al UE și procedurii de deficit excesiv aplicate României, chiar dacă suma e mică la nivel macro.",
+      "senatForm": {
+        "articleRef": "Art. unic OUG 54/2025, alin. (3) nou",
+        "proposalContent": "Se introduce alin.(3): «În 60 de zile de la intrarea în vigoare a legii de aprobare, UAT-urile publică pe site și transmit MDLPA și MF lista împrumuturilor contractate sau garantate în baza alin.(1)-(2): beneficiar, sumă, dobândă, scadență, garanții executate. MF publică situația centralizată.»",
+        "argumentation": "Ordonanța elimină plafonul de 30% și interdicția pentru UAT-urile cu arierate sau deficit, fără limită de sumă sau durată, iar fișa financiară e goală, deși necesarul raportat depășește 559 mil. lei. Transparența ex post permite controlul datoriei locale și verificarea respectării regulilor de ajutor de stat.",
+        "otherComments": "Măsura se repetă anual (OG 41/2023, OG 33/2024, OUG 54/2025). Recomandăm un mecanism permanent, cu plafoane și condiții clare în Legea 273/2006, în locul ordonanțelor de urgență adoptate în pragul iernii, pentru a evita derogările ad-hoc și justificarea artificială a urgenței."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -140,7 +169,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:18:08.605Z",
+      "replacedAt": "2026-11-24T14:33:29.744Z",
       "reasons": [
         "model"
       ]

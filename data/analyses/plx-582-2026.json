@@ -2,7 +2,7 @@
   "billId": "PL-x 582/2026",
   "slug": "plx-582-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:21:56.475Z",
+  "updatedAt": "2026-11-24T14:34:21.638Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,12 +31,12 @@
     "key": "cb20c2ef8fb6235f"
   },
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 2.7,
     "riskLevel": "green",
-    "plainTitle": "Verificarea electronică a calității de asigurat medical devine regulă, fără adeverințe pe hârtie",
-    "summaryTlDr": "Un proiect benefic de debirocratizare care scutește pacienții de adeverințe de asigurat și rezolvă temporar blocajul cărții electronice de identitate în sănătate. Merită însă câteva retușuri tehnice la Camera Deputaților pentru a evita un vid normativ de 90 de zile și posibile blocaje la decontarea serviciilor fără card fizic.",
-    "initiatorClaim": "Inițiatorii urmăresc eliminarea birocrației prin transformarea verificării electronice în regula generală pentru dovada calității de asigurat, interzicând cererea adeverinței fizice atunci când sistemul CNAS funcționează și oferind rezultatului electronic valoare juridică echivalentă.",
-    "realityCheck": "Legea își atinge în mare parte scopul declarat și adaugă, prin amendamentul Senatului la art. 338, o derogare utilă care permite folosirea alternativă a cardului de sănătate și a cărții electronice de identitate (CEI) până la 31 decembrie 2027. Totuși, Senatul a eliminat termenul de 120 de zile pentru intrarea în vigoare, lăsând o fereastră de 90 de zile în care obligațiile noi intră în vigoare înaintea normelor și adaptărilor IT, și a lăsat nerezolvată tensiunea dintre accesul pacientului fără card și regulile de validare/decontare ale furnizorilor.",
+    "plainTitle": "Gata cu adeverința de asigurat: medicul și farmacia verifică online dacă ești asigurat",
+    "summaryTlDr": "Este o lege utilă de debirocratizare, cu un singur efect real: pacientul nu mai e trimis după adeverință dacă sistemul CNAS îi poate confirma calitatea de asigurat. Riscurile sunt de redactare, nu de fond. Cele mai importante sunt fraza ambiguă despre plata serviciilor de la art.343 alin.(3) și lipsa unei norme tranzitorii până la noul ordin CNAS.",
+    "initiatorClaim": "Inițiatorii vor ca verificarea electronică a calității de asigurat să devină regula, iar adeverința fizică excepția. Pacientul nu ar mai trebui să dovedească cu hârtii o informație pe care statul o are deja în baze de date.",
+    "realityCheck": "Legea actuală permite deja verificarea prin instrumentul electronic CNAS (art.223 alin.(1)). Noutatea reală este interdicția de a cere adeverința când verificarea online e posibilă (alin.(1⁵)), plus un înscris electronic cu sigiliu calificat și marcă temporală, cu valoarea unei adeverințe. Senatul a adăugat ceva ce nu era în propunere: până la 31.12.2027, cardul de sănătate și cartea electronică de identitate pot fi folosite alternativ (art.338 alin.(6)), prin derogare de la regula că cardul expiră la emiterea CEI. Totodată, Senatul a eliminat termenul de 120 de zile până la intrarea în vigoare, deci legea se aplică la 3 zile de la publicare, iar ordinul CNAS poate veni abia după 90 de zile.",
     "affectedGroups": [
       "Toți cetățenii",
       "Sănătate & Educație",
@@ -44,10 +44,10 @@
       "Angajați & HR"
     ],
     "senatForm": {
-      "articleRef": "Art. IV (nou) — Intrarea în vigoare",
-      "proposalContent": "Se introduce un nou articol, Art. IV, cu următorul cuprins: „Art. IV.- Prezenta lege intră în vigoare la 120 de zile de la publicarea în Monitorul Oficial al României, Partea I, cu excepția Art. I pct. 8, Art. II și Art. III, care intră în vigoare la 3 zile de la publicare.”",
-      "argumentation": "Senatul a eliminat termenul de 120 de zile, deși Art. II și III dau 90 de zile pentru norme și implementarea sigiliului electronic calificat în PIAS. Fără termen, interdicția solicitării adeverinței ar intra în vigoare în vid normativ și tehnic. Intrarea imediată a pct. 8 protejează însă de îndată posesorii de CEI.",
-      "otherComments": "Corelați și art. 322 alin. (7) (trimite la art. 223 alin. (1²), mutat acum la alin. (1⁸)), păstrați în art. 222 alin. (6) temeiul pentru documentele justificative, reintroduceți referința la persoanele private de libertate și armonizați regulile de validare/decontare fără card între art. 342 și art. 343."
+      "articleRef": "Art.I pct.10 (art.343 alin.(3) L.95/2006)",
+      "proposalContent": "Fraza a doua devine: „Dacă asiguratul nu prezintă cardul național sau adeverința de asigurat, furnizorul verifică electronic calitatea de asigurat; serviciile se acordă contra cost numai dacă această calitate nu poate fi atestată nici electronic, nici potrivit art.223 alin.(1⁶)-(1⁸), cu excepția serviciilor prevăzute la art.232.”",
+      "argumentation": "Forma adoptată poate fi citită ca limitând excepția pentru pachetul minimal, nu regula plății contra cost, invers față de scopul legii. Reformularea elimină ambiguitatea (art.1 alin.(5) Constituție) și protejează și persoanele încă neînregistrate, de ex. salariații noi (art.223 alin.(1⁸)), care altfel ar plăti deși sunt asigurate.",
+      "otherComments": "Recomand și: menținerea explicită în art.223 a persoanelor private de libertate (acum în alin.(1¹)); o normă tranzitorie care păstrează ordinul CNAS actual până la noul ordin; clarificarea dacă art.338 alin.(6) repune în valabilitate cardurile deja încetate; termen de valabilitate pentru adeverința celor care refuză cardul; corectarea „aggregate”, „dispositive”."
     }
   },
   "council": {
@@ -89,8 +89,39 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 71249,
+      "sourceEndMarker": "SF-EC7CF703",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Gata cu adeverința de asigurat: medicul și farmacia verifică online dacă ești asigurat",
+      "verdictShort": "Este o lege utilă de debirocratizare, cu un singur efect real: pacientul nu mai e trimis după adeverință dacă sistemul CNAS îi poate confirma calitatea de asigurat. Riscurile sunt de redactare, nu de fond. Cele mai importante sunt fraza ambiguă despre plata serviciilor de la art.343 alin.(3) și lipsa unei norme tranzitorii până la noul ordin CNAS.",
+      "initiatorClaim": "Inițiatorii vor ca verificarea electronică a calității de asigurat să devină regula, iar adeverința fizică excepția. Pacientul nu ar mai trebui să dovedească cu hârtii o informație pe care statul o are deja în baze de date.",
+      "realityCheck": "Legea actuală permite deja verificarea prin instrumentul electronic CNAS (art.223 alin.(1)). Noutatea reală este interdicția de a cere adeverința când verificarea online e posibilă (alin.(1⁵)), plus un înscris electronic cu sigiliu calificat și marcă temporală, cu valoarea unei adeverințe. Senatul a adăugat ceva ce nu era în propunere: până la 31.12.2027, cardul de sănătate și cartea electronică de identitate pot fi folosite alternativ (art.338 alin.(6)), prin derogare de la regula că cardul expiră la emiterea CEI. Totodată, Senatul a eliminat termenul de 120 de zile până la intrarea în vigoare, deci legea se aplică la 3 zile de la publicare, iar ordinul CNAS poate veni abia după 90 de zile.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Toți cetățenii",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art.223 alin.(1⁵): furnizorii în contract cu CNAS (cabinete, spitale, farmacii, furnizori de dispozitive) nu mai pot cere adeverința de asigurat dacă verificarea electronică funcționează. Singura excepție este adeverința persoanelor care refuză cardul din motive religioase sau de conștiință.",
+        "Art.223 alin.(1²)-(1³): înscrisul electronic generat de CNAS are sigiliu electronic calificat și marcă temporală și produce aceleași efecte juridice ca adeverința. Conținutul său este limitat expres și nu include date despre starea de sănătate, ceea ce respectă principiul minimizării datelor.",
+        "Art.223 alin.(1⁶): documentele pot fi cerute doar în patru situații. Acestea sunt: motive tehnice, indisponibilitatea temporară a sistemelor, imposibilitatea identificării persoanei și lipsa temporară a datelor. Lista este limitativă, deci previzibilă.",
+        "Art.343 alin.(3): fraza finală („cu excepția serviciilor prevăzute la art.232, doar în situația în care calitatea de asigurat nu poate fi atestată prin verificare electronică”) e ambiguă. Condiția poate fi citită ca limitând excepția pentru pachetul minimal, nu regula plății contra cost, adică exact invers față de intenția din expunerea de motive.",
+        "Art.338 alin.(6)-(7), introduse de Senat: până la 31.12.2027 cardul național și CEI funcționează alternativ pentru autentificare, dovada calității de asigurat și validarea serviciilor. Normele tehnice se aprobă prin ordin comun MAI–CNAS în 90 de zile (Art.III).",
+        "Art.322 alin.(1): datele pentru stabilirea, actualizarea și verificarea calității de asigurat pot circula acum și prin platforme de interoperabilitate, nu doar pe bază de protocoale. Alin.(9) limitează verificarea la scopurile legii.",
+        "Art.322 alin.(10): CNAS publică anual statistici agregate, inclusiv situațiile în care verificarea electronică a eșuat. Este un instrument util de control public."
+      ],
+      "blindSpotsCaught": "1) Actualul art.223 alin.(1¹) menționa expres persoanele private de libertate (pedeapsă, arest preventiv, măsuri educative sau de siguranță) și situațiile fără card emis. Noul alin.(1¹) le înlocuiește cu o regulă generală, iar acestea dispar din text. Rămân acoperite doar indirect, prin alin.(1⁶)-(1⁷). 2) Art.222 alin.(6) schimbă temeiul ordinului CNAS: de la „documente justificative” la „procedura de verificare electronică”. Legea nu are normă tranzitorie, iar Senatul a eliminat vacatio legis de 120 de zile. Astfel, în primele 90 de zile, ordinul actual privind documentele justificative rămâne fără temei clar, deși interdicția din alin.(1⁵) se aplică imediat. 3) Textul nu spune dacă art.338 alin.(6) repune în valabilitate cardurile deja încetate la emiterea CEI. 4) Adeverința pentru cei care refuză cardul își pierde termenul de 3 luni, fără înlocuire. 5) Interdicția din alin.(1⁵) nu are sancțiune proprie, deci depinde de contractul-cadru. 6) Terminologia e neunitară: „normele metodologice” (art.223) față de „procedura” prin ordin (art.222 alin.(6)), respectiv „nu li se poate atesta” (art.232 alin.(1)) față de „nu fac dovada” (art.232 alin.(3²)-(3³)). 7) Erori materiale: „dispositive”, „aggregate”, lipsește „privind” la art.322 alin.(10), iar la alin.(1⁷) apar „(16)/(17)” în loc de indici.",
+      "constitutionalityNote": "Nu am identificat probleme de neconstituționalitate de fond. Legea facilitează dreptul la ocrotirea sănătății (art.34) și respectă viața intimă și protecția datelor (art.26). Are scop limitat (art.322 alin.(9)) și minimizează datele (art.223 alin.(1³)). Procedura a fost respectată: Senatul, prima cameră, a adoptat conform art.76 alin.(2), iar Camera Deputaților e decizională pentru o lege ordinară. Exigența de claritate și previzibilitate (art.1 alin.(5)) e afectată punctual de art.343 alin.(3), unde fraza finală admite două lecturi cu efecte opuse asupra plății serviciilor. Lipsa normei tranzitorii pentru actul subsecvent creează și ea incertitudine temporară. Ambele se pot corecta prin amendament și nu par suficiente pentru o decizie CCR de neconstituționalitate. Impactul bugetar e redus: CNAS își adaptează sistemele existente (sigiliu, marcă temporală). Nu apar cheltuieli noi semnificative care să ridice probleme serioase sub art.138 alin.(5).",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă legea nu reglementează accesul la o profesie sau exercitarea ei. Directiva (UE) 2015/1535 (TRIS) nu impune notificarea: textul organizează o procedură administrativă internă a sistemului public de asigurări, nu reguli privind serviciile societății informaționale. Sigiliul electronic calificat și marca temporală calificată sunt în linie cu Regulamentul eIDAS (UE) 910/2014, modificat prin 2024/1183, art.35 și art.41. Regulamentul impune ca efectele juridice să fie recunoscute, iar legea le echivalează explicit cu adeverința. Pe GDPR, art.6 alin.(1) lit.(c)/(e) oferă temei legal, iar alin.(1³) și art.322 alin.(9) respectă minimizarea și limitarea scopului. Pentru schimbul prin platforme de interoperabilitate ar fi utilă o evaluare de impact (art.35 GDPR) și avizul ANSPDCP. Măsura e conformă principiului „o singură dată” promovat de Regulamentul (UE) 2018/1724. Nu afectează concurența: obligația de a folosi instrumentele CNAS se aplică egal tuturor furnizorilor contractați.",
+      "senatForm": {
+        "articleRef": "Art.I pct.10 (art.343 alin.(3) L.95/2006)",
+        "proposalContent": "Fraza a doua devine: „Dacă asiguratul nu prezintă cardul național sau adeverința de asigurat, furnizorul verifică electronic calitatea de asigurat; serviciile se acordă contra cost numai dacă această calitate nu poate fi atestată nici electronic, nici potrivit art.223 alin.(1⁶)-(1⁸), cu excepția serviciilor prevăzute la art.232.”",
+        "argumentation": "Forma adoptată poate fi citită ca limitând excepția pentru pachetul minimal, nu regula plății contra cost, invers față de scopul legii. Reformularea elimină ambiguitatea (art.1 alin.(5) Constituție) și protejează și persoanele încă neînregistrate, de ex. salariații noi (art.223 alin.(1⁸)), care altfel ar plăti deși sunt asigurate.",
+        "otherComments": "Recomand și: menținerea explicită în art.223 a persoanelor private de libertate (acum în alin.(1¹)); o normă tranzitorie care păstrează ordinul CNAS actual până la noul ordin; clarificarea dacă art.338 alin.(6) repune în valabilitate cardurile deja încetate; termen de valabilitate pentru adeverința celor care refuză cardul; corectarea „aggregate”, „dispositive”."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -147,7 +178,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:21:56.475Z",
+      "replacedAt": "2026-11-24T14:34:21.638Z",
       "reasons": [
         "model"
       ]

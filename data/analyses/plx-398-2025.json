@@ -2,7 +2,7 @@
   "billId": "PL-x 398/2025",
   "slug": "plx-398-2025",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:18:13.650Z",
+  "updatedAt": "2026-11-24T14:33:21.915Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,21 +31,21 @@
     "key": "66035f6796e22c0b"
   },
   "consensus": {
-    "riskScore": 5.5,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
-    "plainTitle": "Mandate nelimitate și preluarea locului consumatorilor de către ANPC la Centrul de litigii bancare",
-    "summaryTlDr": "Sub pretextul util al deblocării Colegiului CSALB, forma adoptată de Senat strecoară eliminarea limitei de două mandate și permite ANPC să preia locul asociațiilor de consumatori, dublându-și votul. Textul conține și erori clare de redactare și termene lipsă, vulnerabile pe art. 1 alin. (5) din Constituție.",
-    "initiatorClaim": "Inițiatorii susțin că proiectul rezolvă blocajul activității Colegiului de coordonare al Centrului de Soluționare Alternativă a Litigiilor în Domeniul Bancar (CSALB), apărut atunci când una dintre entitățile prevăzute de lege nu își desemnează reprezentantul.",
-    "realityCheck": "Pe lângă deblocarea funcționării în componență redusă (alin. 10), proiectul elimină pe tăcute limita legală actuală prin care mandatul de 5 ani putea fi reînnoit „o singură dată” (alin. 4), permițând mandate nelimitate fără nicio justificare în expunerea de motive (exact la 10 ani de la înființarea CSALB în 2015). În plus, filtrează asociațiile de consumatori printr-o condiție neclară de proiecte în ultimii 3 ani (lit. d), permite alegerea membrului independent fără reprezentantul consumatorilor (lit. e) și dă ANPC dreptul de a numi un al doilea membru dacă asociațiile nu desemnează unul după o convocare fără procedură sau termen clar (alin. 11–12). Excepția de incompatibilitate de la alin. (4) este deja în vigoare și nu reprezintă o noutate.",
+    "plainTitle": "Colegiul care coordonează Centrul de mediere bancară nu mai rămâne blocat când lipsește un membru",
+    "summaryTlDr": "Lege tehnică și în principal utilă: deblochează Colegiul de coordonare al Centrului SAL bancar când o entitate nu-și desemnează reprezentantul. Are însă o trimitere greșită care face greu de aplicat procedura nouă și elimină, fără nicio explicație, limita de un singur mandat reînnoit.",
+    "initiatorClaim": "Inițiatorii spun că una dintre entitățile din art. 22 alin. (1) nu și-a desemnat reprezentantul în Colegiul de coordonare, iar asta blochează activitatea Colegiului. Vor să evite pe viitor astfel de blocaje.",
+    "realityCheck": "Colegiul poate funcționa și decide în componența rămasă dacă o entitate nu desemnează pe nimeni în 30 de zile. Membrul independent poate fi ales de membrii aflați în funcție, iar dacă asociațiile de consumatori nu desemnează un membru nici după convocare, locul lor îl completează ANPC. Pe lângă asta, legea schimbă două lucruri pe care expunerea de motive nu le pomenește: permite reînnoirea nelimitată a mandatelor și restrânge accesul asociațiilor de consumatori la cele care dovedesc acțiuni de informare în domeniul bancar în ultimii 3 ani.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct. 2 și 3 (art. 22 alin. 4, 11-12)",
-      "proposalContent": "Păstrarea limitei de reînnoire „o singură dată” la alin. (4). La alin. (11), corectarea trimiterii din „alin. (1)” în „alin. (10)” și stabilirea procedurii de vot. La alin. (12), precizarea că membrul desemnat de ANPC are mandat provizoriu, până la desemnarea reprezentantului de către asociațiile de consumatori.",
-      "argumentation": "Eliminarea limitei de mandate nu e motivată și permite perpetuarea conducerii CSALB. Trimiterea la „termenul de la alin. (1)” e o eroare (termenul e la alin. 10), contrară art. 1 alin. (5) din Constituție. Înlocuirea permanentă a asociațiilor de către ANPC dublează votul statului și afectează echilibrul prevăzut de Directiva 2013/11/UE.",
-      "otherComments": "La art. 22 alin. (1) lit. d) trebuie clarificate dovada proiectelor din ultimii 3 ani, entitatea care o verifică și menținerea trimiterii la art. 32-33 din OG nr. 21/1992, corectând totodată eroarea „domeniul/serviciilor”. La alin. (12) trebuie fixat un termen clar după convocare pentru desemnarea membrului de către asociații."
+      "articleRef": "Art. unic pct. 3 – art. 22 alin. (11)-(12)",
+      "proposalContent": "Alin.(11): „termenul prevăzut la alin.(1)” devine „termenul prevăzut la alin.(10)”, iar „acesta” devine „Colegiul de coordonare”. Alin.(12) se completează: „ANPC desemnează membrul în 15 zile, dintre persoane cu experiență în protecția consumatorilor, până la desemnarea unui reprezentant de către asociațiile de la alin.(1) lit.d).”",
+      "argumentation": "Alin.(1) nu prevede niciun termen, deci trimiterea e eronată și face incertă procedura de convocare (art.1 alin.5 Constituție, Legea 24/2000). Fără termen și criterii pentru ANPC, blocajul se poate muta de la asociații la autoritate, iar locul consumatorilor poate fi ocupat 5 ani de un al doilea reprezentant al statului.",
+      "otherComments": "Art.22 alin.(8) trebuie corelat cu noua lit.e): revocarea membrului independent o fac tot „cei 4 membri”. Eliminarea limitei de o singură reînnoire a mandatului (alin.4) nu e motivată în expunerea de motive; recomand păstrarea ei pentru independența Colegiului. De corectat și „domeniul/serviciilor” de la lit.d)."
     }
   },
   "council": {
@@ -83,8 +83,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 51584,
+      "sourceEndMarker": "SF-FA35058C",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Colegiul care coordonează Centrul de mediere bancară nu mai rămâne blocat când lipsește un membru",
+      "verdictShort": "Lege tehnică și în principal utilă: deblochează Colegiul de coordonare al Centrului SAL bancar când o entitate nu-și desemnează reprezentantul. Are însă o trimitere greșită care face greu de aplicat procedura nouă și elimină, fără nicio explicație, limita de un singur mandat reînnoit.",
+      "initiatorClaim": "Inițiatorii spun că una dintre entitățile din art. 22 alin. (1) nu și-a desemnat reprezentantul în Colegiul de coordonare, iar asta blochează activitatea Colegiului. Vor să evite pe viitor astfel de blocaje.",
+      "realityCheck": "Colegiul poate funcționa și decide în componența rămasă dacă o entitate nu desemnează pe nimeni în 30 de zile. Membrul independent poate fi ales de membrii aflați în funcție, iar dacă asociațiile de consumatori nu desemnează un membru nici după convocare, locul lor îl completează ANPC. Pe lângă asta, legea schimbă două lucruri pe care expunerea de motive nu le pomenește: permite reînnoirea nelimitată a mandatelor și restrânge accesul asociațiilor de consumatori la cele care dovedesc acțiuni de informare în domeniul bancar în ultimii 3 ani.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. unic pct. 3, noul art. 22 alin. (10): dacă o entitate nu desemnează un reprezentant în 30 de zile de la încetarea mandatului, Colegiul deliberează și decide în componența rămasă, în condițiile art. 23 alin. (1). Acesta este efectul principal și rezolvă blocajul invocat.",
+        "Art. unic pct. 1, art. 22 alin. (1) lit. e): membrul independent este ales de ceilalți membri aflați în exercițiul mandatului, nu de «cei 4 membri desemnați». Alin. (8) rămâne însă necorelat: revocarea membrului independent o fac tot «cei 4 membri».",
+        "Art. unic pct. 2, art. 22 alin. (4): dispare sintagma «o singură dată». Acum mandatul de 5 ani se poate reînnoi o singură dată; după proiect, se poate reînnoi de oricâte ori. Expunerea de motive nu justifică schimbarea, deși ea contează pentru independența și rotația membrilor.",
+        "Art. unic pct. 1, art. 22 alin. (1) lit. d): asociațiile de consumatori eligibile nu mai sunt definite prin art. 32 sau 33 din OG nr. 21/1992. Ele trebuie să îndeplinească condițiile OG nr. 21/1992 și să dovedească «proiecte/acțiuni de informare» în domeniul financiar-bancar în ultimii 3 ani. Criteriul e vag, iar legea nu spune cine îl verifică. Textul conține și eroarea de redactare «domeniul/serviciilor».",
+        "Noul alin. (11) trimite la «termenul prevăzut la alin. (1)», dar alin. (1) nu stabilește niciun termen; trimiterea corectă ar fi la alin. (10). În plus, folosește sintagma «asociațiile de consumatori legal constituite și recunoscute», care nu coincide cu criteriile de la lit. d).",
+        "Noul alin. (12): ANPC desemnează un membru care înlocuiește membrul asociațiilor de consumatori. Legea nu fixează un termen pentru ANPC, nu stabilește criterii și nu spune pentru cât timp. ANPC ar ajunge astfel să aibă două locuri în Colegiu, posibil pentru tot mandatul de 5 ani.",
+        "Proiectul nu are impact bugetar și nu impune obligații noi cetățenilor sau IMM-urilor. Consumatorii de servicii bancare câștigă indirect, pentru că Centrul SAL bancar poate funcționa fără blocaje."
+      ],
+      "blindSpotsCaught": "Expunerea de motive vorbește doar despre deblocare, dar textul strecoară două schimbări fără legătură cu blocajul: reînnoirea nelimitată a mandatelor (alin. 4) și un filtru nou pentru asociațiile de consumatori (proiecte de informare bancară în ultimii 3 ani). Trimiterea eronată de la alin. (11) la alin. (1) lasă loc de interpretare tocmai în procedura care ar trebui să prevină blocajul. La alin. (12) nu e clar dacă membrul desemnat de ANPC rămâne până la sfârșitul mandatului sau doar până când asociațiile își desemnează un reprezentant. Expunerea de motive numește greșit actul «OG nr. 38/2025», dar textul legii folosește corect OG nr. 38/2015.",
+      "constitutionalityNote": "Nu se vede o problemă de neconstituționalitate de fond. Este o lege ordinară care modifică o ordonanță, iar Camera Deputaților este corect cameră decizională. Pe criteriul calității legii (art. 1 alin. (5) din Constituție și Legea nr. 24/2000) există deficiențe. Trimiterea de la alin. (11) la «termenul prevăzut la alin. (1)» nu are obiect. Pronumele «acesta» este ambiguu, iar lit. e) nu e corelată cu alin. (8). Nici alin. (12) nu precizează termenul și condițiile desemnării de către ANPC. Aceste neclarități afectează previzibilitatea, dar pot fi corectate prin amendament sau prin regulamentul Colegiului și nu ating drepturi fundamentale.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: proiectul nu reglementează accesul la o profesie, iar cerința de studii juridice exista deja în alin. (5). Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu sunt vizate servicii ale societății informaționale sau reguli tehnice. Relevantă este Directiva 2013/11/UE privind SAL, transpusă prin OG nr. 38/2015, care cere ca entitățile SAL să fie independente, imparțiale și eficace. Deblocarea Colegiului servește eficacitatea. În schimb, reînnoirea nelimitată a mandatelor și înlocuirea reprezentantului asociațiilor de consumatori cu un membru desemnat de o autoritate publică pot slăbi echilibrul de reprezentare și percepția de independență. Nu încalcă direct directiva, dar merită o garanție suplimentară.",
+      "senatForm": {
+        "articleRef": "Art. unic pct. 3 – art. 22 alin. (11)-(12)",
+        "proposalContent": "Alin.(11): „termenul prevăzut la alin.(1)” devine „termenul prevăzut la alin.(10)”, iar „acesta” devine „Colegiul de coordonare”. Alin.(12) se completează: „ANPC desemnează membrul în 15 zile, dintre persoane cu experiență în protecția consumatorilor, până la desemnarea unui reprezentant de către asociațiile de la alin.(1) lit.d).”",
+        "argumentation": "Alin.(1) nu prevede niciun termen, deci trimiterea e eronată și face incertă procedura de convocare (art.1 alin.5 Constituție, Legea 24/2000). Fără termen și criterii pentru ANPC, blocajul se poate muta de la asociații la autoritate, iar locul consumatorilor poate fi ocupat 5 ani de un al doilea reprezentant al statului.",
+        "otherComments": "Art.22 alin.(8) trebuie corelat cu noua lit.e): revocarea membrului independent o fac tot „cei 4 membri”. Eliminarea limitei de o singură reînnoire a mandatului (alin.4) nu e motivată în expunerea de motive; recomand păstrarea ei pentru independența Colegiului. De corectat și „domeniul/serviciilor” de la lit.d)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -138,7 +168,7 @@
         "codex": 5
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:18:13.650Z",
+      "replacedAt": "2026-11-24T14:33:21.915Z",
       "reasons": [
         "model"
       ]

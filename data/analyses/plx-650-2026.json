@@ -2,7 +2,7 @@
   "billId": "Pl-x 650/2026",
   "slug": "plx-650-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:21:39.656Z",
+  "updatedAt": "2026-11-24T14:35:13.834Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 5.5,
+    "riskScore": 5.3,
     "riskLevel": "yellow",
-    "plainTitle": "Catalog electronic obligatoriu din 2027, cumpărat obligatoriu de la privat, dar cu hârtia păstrată în paralel",
-    "summaryTlDr": "Deși digitalizarea școlilor este necesară, proiectul creează o piață captivă de circa 165 de milioane de lei/an pentru furnizorii privați și păstrează catalogul pe hârtie în paralel, dublând munca profesorilor. În plus, textul are vicii grave de constituționalitate: sancțiuni în alb, termene contradictorii și lipsa sursei reale de finanțare.",
-    "initiatorClaim": "Inițiatorii susțin că proiectul elimină birocrația analogică, crește implicarea părinților și reduce absenteismul prin generalizarea catalogului electronic la nivel național, într-un model descentralizat și concurențial similar e-Factura.",
-    "realityCheck": "În realitate, Art. 3 alin. (2) obligă școlile să mențină în paralel catalogul pe hârtie ca document de referință, anulând promisiunea debirocratizării. Art. 3 alin. (5) forțează toate școlile de stat și particulare să cumpere soluții de pe piața liberă până la 30 iunie 2027 (excluzând practic o soluție publică gratuită), în timp ce Art. 4 fixează un tarif-ancoră de 60 lei/elev/an doar pentru școlile de stat și lasă validarea furnizorilor și sancțiunile la discreția Ministerului Educației.",
+    "plainTitle": "Catalog electronic obligatoriu în toate școlile din 2027, plătit de stat cu 60 lei pe elev",
+    "summaryTlDr": "Digitalizarea catalogului este utilă și are susținere largă. Textul are însă trei probleme serioase: obligă fiecare școală să cumpere o soluție de la firme private, fixează prin lege un preț de 60 lei pe elev care poate deveni prețul unic al pieței și trimite datele tuturor elevilor minori în timp real către o platformă centrală, fără limite stabilite în lege.",
+    "initiatorClaim": "Inițiatorii vor să generalizeze catalogul electronic, ca să scadă birocrația, părinții să fie informați în timp real și deciziile să se bazeze pe date. Propun un model ca eFactura: o platformă centrală cu API standard, la care se conectează soluțiile alese liber de școli, finanțate cu 60 lei/elev/an (circa 165 mil. lei anual).",
+    "realityCheck": "Art. 3 alin. (5) obligă toate școlile de stat și particulare să finalizeze până la 30.06.2027 achiziția unei soluții „de pe piața liberă”. Asta exclude soluțiile proprii sau un modul gratuit al Ministerului, deși alin. (3) spune că implementarea se face „în cadrul” SIIMS. Rezultă o piață captivă finanțată public, cu un preț-reper fixat prin lege, iar furnizorii sunt validați prin ordin de ministru, cu sancțiuni nedefinite. În paralel, catalogul pe hârtie rămâne obligatoriu (art. 3 alin. 2), deci profesorii vor completa două cataloage.",
     "affectedGroups": [
       "Sănătate & Educație",
       "IT & AI",
@@ -44,10 +44,10 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 3 alin. (2) și (5)",
-      "proposalContent": "La Art. 3 alin. (2), catalogul fizic să fie păstrat doar 1 an ca tranziție, apoi înlocuit cu arhivare digitală securizată. La Art. 3 alin. (5), permiteți școlilor să aleagă între modulul public gratuit din SIMS și furnizori privați interoperabili, iar termenul de achiziție să curgă doar după publicarea efectivă a API-ului Ministerului Educației.",
-      "argumentation": "Păstrarea permanentă a catalogului pe hârtie dublează munca profesorilor și anulează debirocratizarea. Obligarea școlilor să cumpere de pe piața liberă creează o piață captivă de ~165 mil. lei/an și ignoră SIMS. În plus, școlile nu pot achiziționa până la 30 iunie 2027 soluții compatibile cu un API fără termen legal de lansare.",
-      "otherComments": "Corelați termenele contradictorii (Art. 3 vs. Art. 6), indicați sursa de finanțare (Art. 138 alin. 5 Constituție), definiți în lege sancțiunile (Art. 5 alin. 4 lit. e) și criteriile de validare a furnizorilor, clarificați regimul creșelor/grădinițelor și al școlilor particulare, și notificați proiectul prin TRIS (Dir. 2015/1535)."
+      "articleRef": "Art. 3 alin. (5)",
+      "proposalContent": "(5) Unitățile de învățământ asigură până la 30 iunie 2027 o soluție de catalog electronic conformă, la alegere: modulul gratuit al SIIMS pus la dispoziție de Ministerul Educației, o soluție proprie sau un serviciu achiziționat cu respectarea Legii nr. 98/2016. Furnizorii validați se publică într-un registru public, cu criterii obiective și termene de răspuns.",
+      "argumentation": "Textul actual obligă peste 7.000 de școli să cumpere de la firme private, deși art. 3 alin. (3) plasează catalogul în SIIMS. Exclude soluțiile gratuite sau proprii și creează o piață captivă de ~165 mil. lei/an. Lăsarea alegerii păstrează concurența, reduce costul public și respectă proporționalitatea.",
+      "otherComments": "Suma de 60 lei/elev riscă să devină preț unic de piață. Sancțiunile din art. 5 alin. (4) lit. e) trebuie definite în lege. Catalogul pe hârtie paralel (art. 3 alin. 2) dublează munca; precizați ce înscriere prevalează. Datele transmise central și durata păstrării lor trebuie fixate în lege (GDPR, minori)."
     }
   },
   "council": {
@@ -89,8 +89,40 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 60923,
+      "sourceEndMarker": "SF-8944269E",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Catalog electronic obligatoriu în toate școlile din 2027, plătit de stat cu 60 lei pe elev",
+      "verdictShort": "Digitalizarea catalogului este utilă și are susținere largă. Textul are însă trei probleme serioase: obligă fiecare școală să cumpere o soluție de la firme private, fixează prin lege un preț de 60 lei pe elev care poate deveni prețul unic al pieței și trimite datele tuturor elevilor minori în timp real către o platformă centrală, fără limite stabilite în lege.",
+      "initiatorClaim": "Inițiatorii vor să generalizeze catalogul electronic, ca să scadă birocrația, părinții să fie informați în timp real și deciziile să se bazeze pe date. Propun un model ca eFactura: o platformă centrală cu API standard, la care se conectează soluțiile alese liber de școli, finanțate cu 60 lei/elev/an (circa 165 mil. lei anual).",
+      "realityCheck": "Art. 3 alin. (5) obligă toate școlile de stat și particulare să finalizeze până la 30.06.2027 achiziția unei soluții „de pe piața liberă”. Asta exclude soluțiile proprii sau un modul gratuit al Ministerului, deși alin. (3) spune că implementarea se face „în cadrul” SIIMS. Rezultă o piață captivă finanțată public, cu un preț-reper fixat prin lege, iar furnizorii sunt validați prin ordin de ministru, cu sancțiuni nedefinite. În paralel, catalogul pe hârtie rămâne obligatoriu (art. 3 alin. 2), deci profesorii vor completa două cataloage.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "IT & AI",
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 3 alin. (3) vs. alin. (5): implementarea se face „în cadrul” SIIMS operat de Minister, dar școlile sunt obligate să cumpere o soluție „de pe piața liberă”. Textul este contradictoriu și exclude alternativa gratuită sau proprie.",
+        "Art. 4 alin. (3): suma de 60 lei/elev/an, fixată prin lege și actualizată prin HG „în funcție de evoluția pieței”, riscă să funcționeze ca preț focal. Furnizorii vor tinde să ofere toți exact suma alocată, ceea ce reduce concurența pe preț.",
+        "Art. 4 alin. (1) și Expunerea de motive: banii vin „prin finanțarea de bază per elev, cu destinație specifică”, iar inițiatorii susțin că impactul „se încadrează în limitele finanțării de bază”. Dacă suma nu este suplimentară, ea se scade din alte cheltuieli ale școlilor. Costul platformei centrale (art. 4 alin. 5) nu este estimat deloc.",
+        "Art. 3 alin. (2): catalogul fizic se menține „complementar” și este documentul de referință la disfuncționalități. Munca se dublează pentru 220.000 de profesori, iar legea nu spune ce înscriere prevalează când cele două cataloage diferă.",
+        "Art. 5 alin. (4) lit. e) și alin. (5): Ministerul aplică „sancțiuni” și validează furnizorii prin ordin. Legea nu definește contravențiile, cuantumul amenzilor, criteriile de validare sau căile de atac. Este un regim de autorizare lăsat la discreția administrației.",
+        "Art. 3 alin. (8) și art. 5: platformele transmit datele către infrastructura centrală, iar din Expunerea de motive reiese că transmiterea se face „în timp real”. Legea nu precizează ce date se transmit, cât timp sunt păstrate și cine are acces la ele, deși este vorba de date ale minorilor.",
+        "Termene incoerente: art. 3 alin. (1) impune obligativitatea din anul școlar 2027-2028, art. 6 alin. (1) prevede implementare etapizată 2026–2028, iar art. 6 alin. (3) promite „implementare graduală” școlilor care nu îndeplinesc condițiile. Obligația devine practic nesancționabilă pentru școlile de stat."
+      ],
+      "blindSpotsCaught": "Art. 3 alin. (6) leagă furnizorii de Ordinul nr. 3.896/2023, adică de standardele „pentru școlile-pilot”. Art. 7 alin. (3) spune vag că ordinul „se completează și se corelează corespunzător”, fără să precizeze cum. Conținutul obligațiilor depinde astfel de un act administrativ modificabil oricând. De asemenea, 7.160 de școli care achiziționează separat, cu valori mici, vor ajunge în principal la achiziții directe: rezultă fragmentare, putere de negociere redusă și risc de capturare locală. Interdicția de a cere bani părinților (art. 4 alin. 1) acoperă doar școlile de stat, iar particularii sunt obligați să cumpere, dar pot transfera costul asupra familiilor. Art. 7 alin. (1) cere Ministerului să „elaboreze” norme metodologice, dar nu spune prin ce act se aprobă (HG sau ordin).",
+      "constitutionalityNote": "Art. 1 alin. (5) (claritate și previzibilitate): contradicțiile dintre art. 3 alin. (3) și (5), dintre art. 3 alin. (1) și art. 6, precum și trimiterea la un ordin „care se completează” afectează previzibilitatea. Sancțiunile din art. 5 alin. (4) lit. e), lăsate în seama unui ordin de ministru, contravin principiului legalității sancțiunilor, conform jurisprudenței CCR privind contravențiile. Art. 111 alin. (1) și art. 138 alin. (5): proiectul generează cheltuieli bugetare de cel puțin 165 mil. lei/an, plus infrastructura centrală. Este nevoie de punctul de vedere al Guvernului și de indicarea sursei de finanțare. Afirmația că impactul se încadrează în finanțarea de bază nu ține loc de fișă financiară. Art. 26 (viața intimă) este relevant pentru centralizarea datelor minorilor fără limite stabilite prin lege. Formula finală invocă art. 76 alin. (2), adică lege ordinară. Dacă textul modifică în fond organizarea învățământului prevăzută de Legea nr. 198/2023, merită verificat caracterul organic (art. 73 alin. 3 lit. n).",
+      "euLawNote": "GDPR: calificarea Ministerului ca „operator asociat” (art. 5 alin. 3) presupune un acord conform art. 26 din Regulamentul (UE) 2016/679, care lipsește. Pentru prelucrarea pe scară largă a datelor minorilor sunt necesare minimizarea datelor și o evaluare de impact (art. 35), care nu sunt prevăzute. Directiva (UE) 2015/1535 (TRIS): obligațiile impuse furnizorilor de servicii digitale (standarde tehnice, API obligatoriu, validare prin ordin) sunt reguli care vizează specific servicii ale societății informaționale. Proiectul, precum și ordinele de aplicare, ar trebui notificate Comisiei înainte de adoptare, altfel riscă să fie inopozabile. Directiva 2006/123 (servicii): validarea furnizorilor este un regim de autorizare și trebuie să se bazeze pe criterii nediscriminatorii, clare, publice și proporționale. Directiva (UE) 2018/958 nu se aplică direct, pentru că nu este vizată o profesie reglementată, dar logica testului de proporționalitate rămâne utilă. Achizițiile publice: obligația de cumpărare de pe piață trebuie corelată cu Legea nr. 98/2016 și cu regulile privind fracționarea contractelor.",
+      "senatForm": {
+        "articleRef": "Art. 3 alin. (5)",
+        "proposalContent": "(5) Unitățile de învățământ asigură până la 30 iunie 2027 o soluție de catalog electronic conformă, la alegere: modulul gratuit al SIIMS pus la dispoziție de Ministerul Educației, o soluție proprie sau un serviciu achiziționat cu respectarea Legii nr. 98/2016. Furnizorii validați se publică într-un registru public, cu criterii obiective și termene de răspuns.",
+        "argumentation": "Textul actual obligă peste 7.000 de școli să cumpere de la firme private, deși art. 3 alin. (3) plasează catalogul în SIIMS. Exclude soluțiile gratuite sau proprii și creează o piață captivă de ~165 mil. lei/an. Lăsarea alegerii păstrează concurența, reduce costul public și respectă proporționalitatea.",
+        "otherComments": "Suma de 60 lei/elev riscă să devină preț unic de piață. Sancțiunile din art. 5 alin. (4) lit. e) trebuie definite în lege. Catalogul pe hârtie paralel (art. 3 alin. 2) dublează munca; precizați ce înscriere prevalează. Datele transmise central și durata păstrării lor trebuie fixate în lege (GDPR, minori)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -145,7 +177,7 @@
         "codex": 6
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:21:39.656Z",
+      "replacedAt": "2026-11-24T14:35:13.834Z",
       "reasons": [
         "model"
       ]

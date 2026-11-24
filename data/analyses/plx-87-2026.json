@@ -2,7 +2,7 @@
   "billId": "PL-x 87/2026",
   "slug": "plx-87-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:20:24.822Z",
+  "updatedAt": "2026-11-24T14:34:38.027Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -33,10 +33,10 @@
   "consensus": {
     "riskScore": 5,
     "riskLevel": "yellow",
-    "plainTitle": "Interdicția reclamelor online la jocuri de noroc între 06:00–24:00 și a influencerilor",
-    "summaryTlDr": "Intenție legitimă de protecție a minorilor, dar transpusă prin reguli copiate mecanic din televiziune, neclare pe internet și lipsite de sancțiuni explicite sau norme tranzitorii. Fără notificare la Comisia Europeană (TRIS) și clarificări tehnice, legea riscă să devină inopozabilă în instanță sau aplicată arbitrar.",
-    "initiatorClaim": "Inițiatorii vor să protejeze minorii și sănătatea publică de dependența de jocuri de noroc, eliminând reclamele online pe timpul zilei (06:00–24:00), excluzându-le din materialele pentru copii și interzicând promovarea lor de către vedete și influenceri.",
-    "realityCheck": "În prezent, art. 1² din OUG 77/2009 interzice doar spam-ul electronic și panourile outdoor peste 35 mp, exceptând paginile proprii ale operatorilor; proiectul adaugă interdicții dure în online (interval 06:00–24:00 și interzicerea persoanelor cu „notorietate online”). În practică, textul nu definește ce înseamnă „difuzare” pe interval orar pentru conținutul static (postări, videoclipuri la cerere, articole), nu clarifică regimul transmisiilor sportive online cu sponsori pe tricouri, nu introduce sancțiuni exprese și nu prevede norme tranzitorii pentru contractele sau materialele deja publicate.",
+    "plainTitle": "Reclamele la jocuri de noroc pe internet: permise doar între miezul nopții și ora 6, fără vedete și influenceri",
+    "summaryTlDr": "Scopul, protejarea copiilor de reclamele la pariuri, este legitim și susținut de jurisprudența UE. Textul este însă redactat vag: nu spune cine răspunde, ce înseamnă «notorietate online» și nu prevede nicio sancțiune. Din aceste motive riscă să rămână greu de aplicat sau să fie contestat.",
+    "initiatorClaim": "Inițiatorii vor să reducă expunerea minorilor la reclamele online pentru jocuri de noroc. Invocă studiul Salvați Copiii din 2023: 7 din 10 copii văd des astfel de reclame, iar 11% urmăresc influenceri care le promovează.",
+    "realityCheck": "Art. I adaugă la art. 1² din OUG 77/2009 patru alineate. Acestea interzic orice conținut online care promovează jocuri de noroc între 06.00 și 24.00, interzic includerea jocurilor în materiale pentru minori și interzic reclamele cu persoane publice sau «alte persoane» cu notorietate online. Nu se stabilește cine răspunde (organizatorul, agenția, influencerul sau platforma), după ce fus orar se aplică intervalul și ce se întâmplă cu postările publicate noaptea care rămân vizibile ziua. Pentru noile interdicții nu este prevăzută nicio sancțiune, iar legea intră în vigoare imediat, deși normele metodologice vin abia în 180 de zile (art. II).",
     "affectedGroups": [
       "Sănătate & Educație",
       "IMM & Antreprenori",
@@ -44,10 +44,10 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I - art. 1² alin. (1¹) și (1⁴)",
-      "proposalContent": "Modificarea alin. (1¹) pentru a viza expres comunicările comerciale plătite, cu reguli tehnice clare pentru conținutul static/la cerere și exceptarea transmisiilor sportive/editoriale. Definirea obiectivă a „notorietății” la alin. (1⁴) și introducerea expresă a sancțiunilor, autorității de control și normelor tranzitorii.",
-      "argumentation": "Scopul protejării minorilor e legitim, dar un interval orar TV (06-24) pe internet e neclar pentru conținutul static și vulnerabil la art. 1 alin. (5) din Constituție. Fără criterii pentru „notorietate”, sancțiuni clare și norme tranzitorii pentru contractele în curs, legea riscă să fie inaplicabilă sau aplicată arbitrar.",
-      "otherComments": "Atenție la obligația de notificare la Comisia Europeană prin procedura TRIS (Directiva UE 2015/1535) pentru reguli privind servicii digitale; lipsa notificării face legea inopozabilă în instanță. Corelați intrarea în vigoare cu termenul de 180 zile (Art. II) și clarificați relația cu excepția site-urilor proprii din alin. (1)."
+      "articleRef": "Art. I – art. 1² alin. (1¹) OUG 77/2009",
+      "proposalContent": "(1¹) Se interzice publicarea, contra cost sau alt beneficiu, de reclame la jocuri de noroc pe platforme online accesibile din România între orele 06.00 și 24.00, ora României, inclusiv menținerea vizibilă în acest interval a celor publicate anterior. Nu intră sub interdicție paginile proprii ale organizatorilor, prevăzute la alin. (1).",
+      "argumentation": "Textul actual nu precizează cine răspunde (organizator, influencer, platformă), ce fus orar se aplică și ce se întâmplă cu postările vizibile după ora 06.00. Fără aceste precizări interdicția e greu de aplicat, e vulnerabilă la critica de lipsă de previzibilitate (art. 1 alin. 5 Constituție) și intră în conflict cu excepția de la alin. (1).",
+      "otherComments": "Proiectul nu prevede sancțiuni pentru noile alineate, deci trebuie completate dispozițiile privind contravențiile din OUG 77/2009. Alin. (1⁴) ar trebui să definească «notorietatea» (ex. prag de urmăritori). Textul trebuie notificat Comisiei Europene prin TRIS (2015/1535) și să intre în vigoare după adoptarea normelor."
     }
   },
   "council": {
@@ -88,8 +88,40 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 52638,
+      "sourceEndMarker": "SF-B0725C16",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Reclamele la jocuri de noroc pe internet: permise doar între miezul nopții și ora 6, fără vedete și influenceri",
+      "verdictShort": "Scopul, protejarea copiilor de reclamele la pariuri, este legitim și susținut de jurisprudența UE. Textul este însă redactat vag: nu spune cine răspunde, ce înseamnă «notorietate online» și nu prevede nicio sancțiune. Din aceste motive riscă să rămână greu de aplicat sau să fie contestat.",
+      "initiatorClaim": "Inițiatorii vor să reducă expunerea minorilor la reclamele online pentru jocuri de noroc. Invocă studiul Salvați Copiii din 2023: 7 din 10 copii văd des astfel de reclame, iar 11% urmăresc influenceri care le promovează.",
+      "realityCheck": "Art. I adaugă la art. 1² din OUG 77/2009 patru alineate. Acestea interzic orice conținut online care promovează jocuri de noroc între 06.00 și 24.00, interzic includerea jocurilor în materiale pentru minori și interzic reclamele cu persoane publice sau «alte persoane» cu notorietate online. Nu se stabilește cine răspunde (organizatorul, agenția, influencerul sau platforma), după ce fus orar se aplică intervalul și ce se întâmplă cu postările publicate noaptea care rămân vizibile ziua. Pentru noile interdicții nu este prevăzută nicio sancțiune, iar legea intră în vigoare imediat, deși normele metodologice vin abia în 180 de zile (art. II).",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație"
+      ],
+      "keyFindings": [
+        "Alin. (1¹): interdicția se aplică la «orice tip de conținut audio, video, imagini» care promovează jocuri de noroc, nu doar la reclama plătită. Formularea poate prinde și conținut editorial, recenzii sau postări fără plată.",
+        "Alin. (1¹) intră în tensiune cu alin. (1) în vigoare, care prevede că acțiunile organizatorilor «pe paginile de internet proprii» nu sunt considerate reclamă. Proiectul nu clarifică dacă aceste pagini sunt sau nu supuse restricției orare.",
+        "Alin. (1⁴) extinde interdicția la «alte persoane» care «datorită notorietății în mediul online, pot încuraja participarea». Nu există niciun criteriu obiectiv, cum ar fi un prag de urmăritori, așa că oricine poate fi considerat «notoriu» după aprecierea autorității.",
+        "Alin. (1²) trimite la «principiile privind protecția minorilor» din Regulamentul (UE) 2022/2065 (DSA). DSA impune însă obligații furnizorilor de platforme online, nu celor care fac publicitate, iar trimiterea nu precizează nicio obligație concretă. Rezultatul este o normă declarativă.",
+        "Proiectul nu stabilește sancțiuni pentru alin. (1¹)-(1⁴) și nici nu modifică dispozițiile privind contravențiile. Rămâne neclar dacă și cum pot fi sancționate încălcările.",
+        "Restricția se aplică doar online. Reclama la TV și cea stradală (până la 35 mp/panou) rămân permise ziua potrivit regimului în vigoare, ceea ce slăbește coerența măsurii.",
+        "Art. II obligă Guvernul să actualizeze normele în 180 de zile, dar legea nu amână intrarea în vigoare a interdicțiilor. Operatorii vor avea obligații imediate, fără reguli de aplicare."
+      ],
+      "blindSpotsCaught": "Internetul nu are «grilă orară»: o postare publicată la ora 01.00 rămâne accesibilă și la 10.00, iar textul nu spune dacă interdicția privește momentul publicării sau vizibilitatea. Fusul orar nu este precizat, ceea ce contează pentru conținutul difuzat din străinătate. Excepția deja existentă pentru site-urile proprii ale organizatorilor (art. 1² alin. 1) poate goli de conținut alin. (1¹). În plus, alin. (1²) trimite la DSA, care este un regulament de armonizare maximă pentru intermediari: legea națională nu poate adăuga obligații platformelor pe aspecte deja reglementate de DSA.",
+      "constitutionalityNote": "Restrângerea publicității comerciale atinge libertatea de exprimare (art. 30) și libertatea economică (art. 45). Ea poate fi justificată de protecția tinerilor (art. 49) și a sănătății publice (art. 34), cu condiția proporționalității (art. 53). Principala vulnerabilitate ține de art. 1 alin. (5), privind claritatea și previzibilitatea normei. Formulările «orice tip de conținut», «alte persoane» cu «notorietate» și «materiale online adresate minorilor» nu permit destinatarilor să își adapteze conduita. Lipsa subiectului obligației și a sancțiunii agravează problema. Proporționalitatea interdicției de 18 ore pentru toți utilizatorii, inclusiv adulți, este discutabilă, deoarece există alternative mai țintite: verificarea vârstei sau interzicerea țintirii minorilor.",
+      "euLawNote": "Directiva 2018/958 nu este relevantă, pentru că proiectul nu reglementează accesul la o profesie. Jurisprudența CJUE (Placanica, Carmen Media, Stoß) admite restricții la publicitatea pentru jocuri de noroc, dar cere ca politica să fie «coerentă și sistematică». Interdicția doar online, în timp ce TV-ul și panourile rămân permise, poate fi contestată pe acest temei, mai ales de operatori licențiați în alte state membre (art. 56 TFUE). Restricția vizează specific serviciile societății informaționale, deci este probabil o «normă tehnică» care trebuie notificată prin TRIS (Directiva 2015/1535; vezi C-213/11 Fortuna). Nenotificarea face norma inopozabilă particularilor. Trebuie avute în vedere și DSA (armonizare maximă pentru platforme) și Directiva 2010/13/UE (AVMSD), care aplică principiul țării de origine serviciilor la cerere și platformelor video stabilite în alte state membre.",
+      "senatForm": {
+        "articleRef": "Art. I – art. 1² alin. (1¹) OUG 77/2009",
+        "proposalContent": "(1¹) Se interzice publicarea, contra cost sau alt beneficiu, de reclame la jocuri de noroc pe platforme online accesibile din România între orele 06.00 și 24.00, ora României, inclusiv menținerea vizibilă în acest interval a celor publicate anterior. Nu intră sub interdicție paginile proprii ale organizatorilor, prevăzute la alin. (1).",
+        "argumentation": "Textul actual nu precizează cine răspunde (organizator, influencer, platformă), ce fus orar se aplică și ce se întâmplă cu postările vizibile după ora 06.00. Fără aceste precizări interdicția e greu de aplicat, e vulnerabilă la critica de lipsă de previzibilitate (art. 1 alin. 5 Constituție) și intră în conflict cu excepția de la alin. (1).",
+        "otherComments": "Proiectul nu prevede sancțiuni pentru noile alineate, deci trebuie completate dispozițiile privind contravențiile din OUG 77/2009. Alin. (1⁴) ar trebui să definească «notorietatea» (ex. prag de urmăritori). Textul trebuie notificat Comisiei Europene prin TRIS (2015/1535) și să intre în vigoare după adoptarea normelor."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -145,7 +177,7 @@
         "codex": 6
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:20:24.822Z",
+      "replacedAt": "2026-11-24T14:34:38.027Z",
       "reasons": [
         "model"
       ]

@@ -2,7 +2,7 @@
   "billId": "PL-x 216/2026",
   "slug": "plx-216-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:16:14.091Z",
+  "updatedAt": "2026-11-24T14:32:29.613Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,21 +31,21 @@
     "key": "1ab00701bf9faf0b"
   },
   "consensus": {
-    "riskScore": 2.5,
+    "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "Fabricile și depozitele de îngrășăminte chimice intră pe lista infrastructurilor critice",
-    "summaryTlDr": "O completare tehnică de două articole, fără capcane majore sau taxe ascunse, care adaugă producția, procesarea, transportul și depozitarea îngrășămintelor chimice în lista infrastructurilor critice naționale. Totuși, legea nu oferă niciunul dintre ajutoarele de stat promise în expunerea de motive și riscă să aducă doar costuri suplimentare de securitate și dublă reglementare față de noul cadru european.",
-    "initiatorClaim": "Inițiatorii susțin că proiectul consolidează securitatea alimentară, reduce dependența de importuri și protejează lanțul agricol prin recunoașterea sectorului ca infrastructură critică. În expunerea de motive, aceștia leagă demersul de necesitatea unor scheme de ajutor de stat și a unor mecanisme de sprijin pentru ca fermierii să cumpere îngrășăminte produse local.",
-    "realityCheck": "În realitate, textul adoptat de Senat nu creează nicio schemă de ajutor de stat, nicio subvenție la gaze și niciun stimulent pentru fermieri, ci introduce doar subsectorul 9.3 în Anexa nr. 1 la OUG nr. 98/2010. Efectul mecanic real este că obiectivele mari din producția, procesarea, transportul sau depozitarea îngrășămintelor vor putea fi desemnate infrastructuri critice naționale, ceea ce atrage pentru operatori obligații de securitate (ofițer de legătură, Plan de Securitate al Operatorului, controale și sancțiuni pentru neconformare). Fermierii obișnuiți și micii distribuitori nu sunt vizați automat, dar aplicarea corectă depinde critic de pragurile sectoriale ulterioare.",
+    "plainTitle": "Fabricile și depozitele de îngrășăminte chimice pot fi declarate infrastructură critică",
+    "summaryTlDr": "Este o modificare tehnică, de un rând, care adaugă îngrășămintele chimice pe lista sectoarelor din care statul poate desemna infrastructuri critice. Riscul e mic. Problema reală e formularea vagă („chimice”, „transportul”), nu un abuz.",
+    "initiatorClaim": "Inițiatorii vor să protejeze producția, transportul și depozitarea îngrășămintelor ca verigă a securității alimentare. Invocă dependența de importuri, prețul gazelor și opririle de producție din Europa.",
+    "realityCheck": "Proiectul doar adaugă subsectorul 9.3 în anexa nr. 1 a OUG 98/2010 și obligă Guvernul să modifice HG 35/2019, care desemnează autoritatea responsabilă. Nicio instalație nu devine automat infrastructură critică: desemnarea urmează procedura și criteriile din ordonanță. Operatorii desemnați vor avea obligații și costuri de protecție (plan de securitate, ofițer de legătură). Ajutorul de stat și schema de sprijin pentru fermieri, pomenite în expunerea de motive, nu apar deloc în textul legii.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. II alin. (1)",
-      "proposalContent": "„(1) În termen de 60 de zile de la data publicării prezentei legi în Monitorul Oficial al României, Partea I, Guvernul modifică Hotărârea Guvernului nr. 35/2019 și stabilește pragurile de criticitate pentru subsectorul 9.3, corelat cu Directiva (UE) 2022/2557 și cu excluderea micilor operatori agricoli.”",
-      "argumentation": "Textul actual creează un vid de 60 de zile fără autoritate responsabilă, întrucât HG 35/2019 se modifică după intrarea în vigoare. Stabilirea termenului de la publicare asigură operaționalizarea la ziua 90 și clarifică pragurile, prevenind costuri disproporționate pe IMM-uri și dubla reglementare față de Directiva (UE) 2022/2557.",
-      "otherComments": "Expunerea de motive promite ajutoare de stat, dar legea creează doar baza pentru obligații de securitate. Comisiile ar trebui să ceară avizul MAI/CSAT pentru integrarea acestui subsector în transpunerea unitară a Directivei (UE) 2022/2557 (CER) și corelarea cu obligațiile Seveso III (Legea 59/2016), evitând suprapunerea controalelor."
+      "articleRef": "Art. I (anexa nr. 1, subsectorul 9.3)",
+      "proposalContent": "„9.3. Producția, procesarea și depozitarea îngrășămintelor minerale (anorganice), inclusiv a materiilor prime pentru acestea (amoniac, azotați), precum și instalațiile dedicate de transport și încărcare ale acestora.”",
+      "argumentation": "„Îngrășăminte chimice” nu e definit nici în OUG 98/2010, nici în Reg. (UE) 2019/1009, care folosește „îngrășăminte anorganice”. „Transportul” fără precizare suprapune subsectorul peste sectorul Transporturi și ar putea atrage transportatori mici. Precizarea face legea previzibilă (art. 1 alin. 5 Constituție) și țintește activele relevante.",
+      "otherComments": "Propun ca Art. II alin. (1) să numească expres autoritatea responsabilă (Ministerul Economiei sau MADR), nu doar să trimită la HG 35/2019. Includerea în anexă nu aduce ajutor de stat: schema invocată în expunerea de motive cere un act separat și notificare la Comisia Europeană (art. 107-108 TFUE)."
     }
   },
   "council": {
@@ -84,8 +84,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 44304,
+      "sourceEndMarker": "SF-4D7F70C9",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Fabricile și depozitele de îngrășăminte chimice pot fi declarate infrastructură critică",
+      "verdictShort": "Este o modificare tehnică, de un rând, care adaugă îngrășămintele chimice pe lista sectoarelor din care statul poate desemna infrastructuri critice. Riscul e mic. Problema reală e formularea vagă („chimice”, „transportul”), nu un abuz.",
+      "initiatorClaim": "Inițiatorii vor să protejeze producția, transportul și depozitarea îngrășămintelor ca verigă a securității alimentare. Invocă dependența de importuri, prețul gazelor și opririle de producție din Europa.",
+      "realityCheck": "Proiectul doar adaugă subsectorul 9.3 în anexa nr. 1 a OUG 98/2010 și obligă Guvernul să modifice HG 35/2019, care desemnează autoritatea responsabilă. Nicio instalație nu devine automat infrastructură critică: desemnarea urmează procedura și criteriile din ordonanță. Operatorii desemnați vor avea obligații și costuri de protecție (plan de securitate, ofițer de legătură). Ajutorul de stat și schema de sprijin pentru fermieri, pomenite în expunerea de motive, nu apar deloc în textul legii.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. I introduce la Sectorul Industrie subsectorul 9.3 „Producția, procesarea, transportul și depozitarea îngrășămintelor chimice”. Efectul e doar de încadrare: lărgește aria din care autoritățile pot identifica și desemna infrastructuri critice naționale.",
+        "Art. II alin. (1) obligă Guvernul să modifice HG nr. 35/2019 în 60 de zile de la intrarea în vigoare, ca să stabilească autoritatea publică responsabilă pentru noul subsector. Textul nu spune care minister va fi (Economie sau Agricultură).",
+        "Art. II alin. (2) amână intrarea în vigoare cu 90 de zile de la publicare. Cu termenul pentru HG, reglementarea devine operațională după aproximativ 150 de zile.",
+        "Termenul „îngrășăminte chimice” nu e definit. Nu corespunde nici terminologiei din Regulamentul (UE) 2019/1009, care vorbește de îngrășăminte anorganice/minerale. Rămâne neclar dacă intră și amestecurile, distribuitorii en-detail sau depozitele mici.",
+        "„Transportul” fără nicio precizare se poate suprapune cu sectorul Transporturi din aceeași anexă. Teoretic, ar putea viza și transportatori rutieri obișnuiți, deși pragurile de criticitate fac improbabilă desemnarea unor IMM-uri.",
+        "Expunerea de motive cere ajutor de stat și stimulente pentru îngrășămintele locale, dar proiectul nu conține nimic din acestea. Statutul de infrastructură critică nu dă, prin el însuși, bani sau prețuri preferențiale la gaz."
+      ],
+      "blindSpotsCaught": "Discursul public despre proiect (sprijin financiar, reluarea producției) depășește efectul juridic real, care e doar de clasificare. Pentru operatori, desemnarea aduce în primul rând obligații și costuri, nu beneficii. În plus, unele instalații de îngrășăminte pot intra deja sub subsectoarele chimice existente sau sub regimul SEVESO, deci noul subsector poate fi parțial redundant. Expunerea de motive invocă Directiva CER (UE) 2022/2557, dar anexa acesteia nu cuprinde industria chimică (aceasta apare ca sector în NIS2). Extinderea este așadar o opțiune națională, permisă, nu o transpunere.",
+      "constitutionalityNote": "Nu se vede o problemă constituțională. Parlamentul poate modifica o ordonanță de urgență aprobată prin lege. Obligarea Guvernului să-și modifice o hotărâre într-un termen e o tehnică acceptată, dacă nu impune conținutul actului executiv. Singurul punct sensibil ține de claritate și previzibilitate (art. 1 alin. (5)): termenii „chimice” și „transportul” sunt imprecizi. Efectul e atenuat de faptul că obligațiile apar numai după o desemnare individuală, prin act administrativ care poate fi contestat. Adoptarea ca lege ordinară (art. 76 alin. (2)) pare corectă.",
+      "euLawNote": "Directiva CER (UE) 2022/2557 permite statelor să mențină sau să adopte reguli naționale mai largi, deci extinderea e compatibilă. Directiva 2018/958 nu se aplică: proiectul nu reglementează profesii. TRIS 2015/1535 nu se aplică: nu există reguli tehnice și nici servicii digitale. Pe concurență și piața unică textul e neutru, pentru că nu restricționează importurile și nu favorizează producătorii locali. Orice schemă de ajutor de stat sau de preferință pentru îngrășăminte „produse local”, cum sugerează expunerea de motive, ar intra sub art. 107-108 TFUE. O preferință bazată pe origine ar putea încălca art. 34 TFUE.",
+      "senatForm": {
+        "articleRef": "Art. I (anexa nr. 1, subsectorul 9.3)",
+        "proposalContent": "„9.3. Producția, procesarea și depozitarea îngrășămintelor minerale (anorganice), inclusiv a materiilor prime pentru acestea (amoniac, azotați), precum și instalațiile dedicate de transport și încărcare ale acestora.”",
+        "argumentation": "„Îngrășăminte chimice” nu e definit nici în OUG 98/2010, nici în Reg. (UE) 2019/1009, care folosește „îngrășăminte anorganice”. „Transportul” fără precizare suprapune subsectorul peste sectorul Transporturi și ar putea atrage transportatori mici. Precizarea face legea previzibilă (art. 1 alin. 5 Constituție) și țintește activele relevante.",
+        "otherComments": "Propun ca Art. II alin. (1) să numească expres autoritatea responsabilă (Ministerul Economiei sau MADR), nu doar să trimită la HG 35/2019. Includerea în anexă nu aduce ajutor de stat: schema invocată în expunerea de motive cere un act separat și notificare la Comisia Europeană (art. 107-108 TFUE)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -136,7 +165,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:16:14.091Z",
+      "replacedAt": "2026-11-24T14:32:29.613Z",
       "reasons": [
         "model"
       ]

@@ -2,7 +2,7 @@
   "billId": "PL-x 445/2026",
   "slug": "plx-445-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:18:23.437Z",
+  "updatedAt": "2026-11-24T14:33:22.525Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -33,20 +33,21 @@
   "consensus": {
     "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Limită de 5 km/h pentru bărci în localitățile din Delta Dunării, fără confiscarea ambarcațiunii",
-    "summaryTlDr": "Proiect benign și proporțional, care introduce în lege limita de 5 km/h în localitățile și zonele de acostare din Deltă și elimină riscul disproporționat al confiscării bărcii pentru această abatere. Forma adoptată de Senat are însă scăpări de claritate privind perimetrul exact al zonelor de acostare și suprapunerea cu vechea contravenție generală de navigație.",
-    "initiatorClaim": "Inițiatorii susțin că proiectul acoperă o lacună din Legea nr. 82/1993 pentru a proteja malurile, pontoanele, locuitorii și fauna Deltei Dunării de traficul nautic intens, prin introducerea limitei de 5 km/h în zonele locuite și a unei interdicții privind formarea valurilor distructive.",
-    "realityCheck": "În realitate, interdicția privind «valurile distructive» din expunerea de motive lipsește complet din textul adoptat de Senat. Legea nr. 82/1993 sancționa deja la art. 12 pct. 6 nerespectarea regulilor de navigație cu amenzi de 250–700 lei (PF) / 320–1.000 lei (PJ) plus confiscarea obligatorie a ambarcațiunii; proiectul desprinde limita de 5 km/h în intravilane și zonele de acostare (fără brațele Dunării), o exceptează expres de la confiscare și majorează ușor doar minimul amenzii pentru firme la 500 lei. Rămân însă ambiguități: legea nu definește raza «zonei punctelor de acostare», iar formularea se suprapune cu art. 12 pct. 6, unde confiscarea rămâne aplicabilă.",
+    "plainTitle": "Limită de 5 km/h pentru bărci în satele și la debarcaderele din Delta Dunării",
+    "summaryTlDr": "Lege mică și în esență utilă: introduce o limită de viteză pentru ambarcațiuni în zonele locuite din Deltă și, ca bonus, scutește această abatere de confiscarea bărcii. Problema reală este redactarea stângace a faptei, care poate genera contestații, nu un abuz ascuns.",
+    "initiatorClaim": "Inițiatorii spun că traficul nautic intens din zonele locuite erodează malurile, avariază pontoanele și casele și deranjează localnicii și fauna. Vor o limită clară de 5 km/h și o interdicție de a forma valuri distructive.",
+    "realityCheck": "Proiectul adaugă la art. 12 o contravenție nouă (pct. 6¹): nerespectarea limitei de 5 km/h în intravilan și lângă punctele de acostare/staționare, cu excepția brațelor Dunării. Amenda este de 250–700 lei pentru persoane fizice și 500–1.000 lei pentru persoane juridice, iar art. 13 alin. (2) este modificat ca pentru această faptă să nu se confiște ambarcațiunea. Interdicția privind valurile distructive, prezentată în expunerea de motive, nu apare deloc în text. Fapta este formulată confuz și se suprapune cu pct. 6 existent, care atrage confiscarea, deci există risc de încadrare arbitrară.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "IMM & Antreprenori",
+      "Justiție & Drepturi Civile",
       "Proprietari & Imobiliare"
     ],
     "senatForm": {
       "articleRef": "Art. I pct. 1 (art. 12 pct. 6¹)",
-      "proposalContent": "6¹. Depășirea vitezei de 5 km/h pe canalele și lacurile din RBDD, fără brațele Dunării, în intravilanele localităților și pe o rază stabilită prin HG 538/2015 în jurul punctelor permise de acostare/staționare a ambarcațiunilor și pontoanelor-dormitor. La art. 12 pct. 6 se adaugă: «cu excepția faptei de la pct. 6¹».",
-      "argumentation": "Forma Senatului încalcă cerința de claritate (art. 1 alin. 5 Constituție): nu incriminează explicit «depășirea vitezei», nu delimitează spațial «zona» punctelor de acostare și se suprapune cu art. 12 pct. 6, care atrage confiscarea bărcii. Delimitarea clară elimină abuzurile, eroarea de redactare («territoriul») și riscul încadrării arbitrare.",
-      "otherComments": "Sancțiunea de la art. 13² ar trebui integrată direct în art. 13 alin. (1) pentru ca actualizarea periodică a amenzilor din art. 13 alin. (4) să fie aplicabilă fără dubii. De asemenea, comisiile ar trebui să clarifice dacă renunță definitiv la interdicția «valurilor distructive» din expunerea de motive și cum se măsoară viteza de 5 km/h în curent."
+      "proposalContent": "„6¹. depășirea vitezei de 5 km/h pe canalele și lacurile interioare ale rezervației, în intravilanul localităților și pe o rază de 100 m de punctele permise pentru acostarea/staționarea navelor, ambarcațiunilor și pontoanelor-dormitor; limita nu se aplică pe brațele Dunării.”",
+      "argumentation": "Forma actuală amestecă „nerespectarea regulilor” cu limita de viteză, nu definește „zona punctelor” și plasează ambiguu excepția brațelor Dunării. Fapta trebuie descrisă exact (art. 1 alin. 5 din Constituție) și delimitată de pct. 6, care atrage confiscarea, pentru a evita dubla încadrare.",
+      "otherComments": "Valurile distructive, invocate în expunerea de motive, nu apar în text; pot fi introduse ca faptă distinctă. De corectat „territoriul”. Termenul de 30 de zile din art. II e scurt. Ar trebui stabilit și modul de constatare a vitezei (GPS sau sistemele de monitorizare de la pct. 36)."
     }
   },
   "council": {
@@ -84,8 +85,39 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 42173,
+      "sourceEndMarker": "SF-B140BC25",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Limită de 5 km/h pentru bărci în satele și la debarcaderele din Delta Dunării",
+      "verdictShort": "Lege mică și în esență utilă: introduce o limită de viteză pentru ambarcațiuni în zonele locuite din Deltă și, ca bonus, scutește această abatere de confiscarea bărcii. Problema reală este redactarea stângace a faptei, care poate genera contestații, nu un abuz ascuns.",
+      "initiatorClaim": "Inițiatorii spun că traficul nautic intens din zonele locuite erodează malurile, avariază pontoanele și casele și deranjează localnicii și fauna. Vor o limită clară de 5 km/h și o interdicție de a forma valuri distructive.",
+      "realityCheck": "Proiectul adaugă la art. 12 o contravenție nouă (pct. 6¹): nerespectarea limitei de 5 km/h în intravilan și lângă punctele de acostare/staționare, cu excepția brațelor Dunării. Amenda este de 250–700 lei pentru persoane fizice și 500–1.000 lei pentru persoane juridice, iar art. 13 alin. (2) este modificat ca pentru această faptă să nu se confiște ambarcațiunea. Interdicția privind valurile distructive, prezentată în expunerea de motive, nu apare deloc în text. Fapta este formulată confuz și se suprapune cu pct. 6 existent, care atrage confiscarea, deci există risc de încadrare arbitrară.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 (art. 12 pct. 6¹): fapta e redactată ca „nerespectarea regulilor de navigație și circulație cu o limită maximă de viteză de 5 km/h”. Nu reiese limpede dacă se sancționează depășirea vitezei sau orice încălcare a regulilor în aceste zone. Nici poziția excepției „cu excepția brațelor Dunării” nu e clară.",
+        "Noțiunea „zona punctelor permise pentru acostarea/staționarea” navelor și pontoanelor-dormitor nu are o rază sau o delimitare. Agentul constatator ar decide pe teren unde începe zona, ceea ce slăbește previzibilitatea.",
+        "Art. I pct. 2: art. 13 alin. (2) exceptează pct. 6¹ de la confiscarea obligatorie a navelor și ambarcațiunilor. Este o măsură pozitivă de proporționalitate: pentru o depășire de viteză nu se mai pierde barca, pe când pentru pct. 6 confiscarea se aplică în continuare.",
+        "Suprapunere cu pct. 6 existent („nerespectarea regulilor de navigație și circulație pe teritoriul rezervației”), sancționat la art. 13 alin. (1) lit. d) cu aceeași amendă pentru persoane fizice, dar cu confiscare. Aceeași faptă de viteză ar putea fi încadrată la pct. 6, cu confiscare, sau la pct. 6¹, fără confiscare.",
+        "Interdicția privind formarea valurilor distructive „chiar și în cazul respectării limitei de viteză”, promisă în expunerea de motive și în fișa Camerei, lipsește din textul adoptat de Senat.",
+        "Art. II obligă Guvernul să modifice HG nr. 538/2015 în 30 de zile, termen scurt și de regulă nesancționat. Legea nu spune cum se constată viteza (radar, GPS, sistemele de monitorizare de la pct. 36).",
+        "Amenzile din noul art. 13² (250–700 lei pentru persoane fizice, 500–1.000 lei pentru persoane juridice) sunt moderate și aliniate la categoria lit. d). Impactul asupra IMM-urilor din turismul nautic este redus: mai mult timp de deplasare în zonele locuite, nu costuri noi."
+      ],
+      "blindSpotsCaught": "Excepția de la confiscare din noul art. 13 alin. (2) privește strict pct. 6¹. Pentru că pct. 6 rămâne în vigoare cu confiscare obligatorie, beneficiul depinde de încadrarea aleasă de agent, care poate opta pentru textul mai sever. Apoi, valurile distructive, argumentul central al expunerii de motive, au dispărut din text, deci legea nu rezolvă situația unei ambarcațiuni mari care face valuri și la 5 km/h. Mai există o greșeală de redactare („territoriul”), iar „zona punctelor permise” rămâne nedefinită. Art. 13 alin. (4) permite actualizarea amenzilor prin HG și se va aplica și noului art. 13².",
+      "constitutionalityNote": "Nu există o problemă constituțională gravă. Scopul se sprijină pe art. 35 (dreptul la mediu sănătos) și art. 135 alin. (2) lit. e) din Constituție, iar restrângerea este proporțională. Excluderea confiscării pentru pct. 6¹ întărește respectarea art. 44 (proprietatea). Vulnerabilitatea ține de art. 1 alin. (5): norma contravențională trebuie să descrie precis fapta, iar formularea pct. 6¹, zona nedelimitată și concursul cu pct. 6 pot fi invocate în plângeri contravenționale ca lipsă de previzibilitate. Adoptarea ca lege ordinară, cu art. 76 alin. (2), este corectă. Regimul general din OG nr. 2/2001 (plângere, prescripție, avertisment) rămâne aplicabil.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: proiectul nu reglementează accesul la o profesie. Directiva (UE) 2015/1535 (TRIS) nu este incidentă: nu sunt reglementate servicii ale societății informaționale sau reguli tehnice privind produse. Limita de viteză se aplică nediscriminatoriu tuturor operatorilor, inclusiv celor din alte state membre, și este justificată de protecția mediului într-un sit Natura 2000 și Ramsar. Este compatibilă cu libera prestare a serviciilor (art. 56 TFUE) și susține obiectivele Directivelor Habitate (92/43/CEE) și Păsări (2009/147/CE). Navigația internațională pe brațele Dunării, protejată de Convenția de la Belgrad, este expres exceptată.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 1 (art. 12 pct. 6¹)",
+        "proposalContent": "„6¹. depășirea vitezei de 5 km/h pe canalele și lacurile interioare ale rezervației, în intravilanul localităților și pe o rază de 100 m de punctele permise pentru acostarea/staționarea navelor, ambarcațiunilor și pontoanelor-dormitor; limita nu se aplică pe brațele Dunării.”",
+        "argumentation": "Forma actuală amestecă „nerespectarea regulilor” cu limita de viteză, nu definește „zona punctelor” și plasează ambiguu excepția brațelor Dunării. Fapta trebuie descrisă exact (art. 1 alin. 5 din Constituție) și delimitată de pct. 6, care atrage confiscarea, pentru a evita dubla încadrare.",
+        "otherComments": "Valurile distructive, invocate în expunerea de motive, nu apar în text; pot fi introduse ca faptă distinctă. De corectat „territoriul”. Termenul de 30 de zile din art. II e scurt. Ar trebui stabilit și modul de constatare a vitezei (GPS sau sistemele de monitorizare de la pct. 36)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -140,7 +172,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:18:23.437Z",
+      "replacedAt": "2026-11-24T14:33:22.525Z",
       "reasons": [
         "model"
       ]

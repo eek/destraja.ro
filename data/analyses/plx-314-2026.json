@@ -2,7 +2,7 @@
   "billId": "Pl-x 314/2026",
   "slug": "plx-314-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:16:03.690Z",
+  "updatedAt": "2026-11-24T15:06:12.028Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 5.5,
+    "riskScore": 5.3,
     "riskLevel": "yellow",
-    "plainTitle": "Depunere de acte și plată de taxe prin poștă și curieri, dar cu găuri mari de securitate",
-    "summaryTlDr": "Ideea unui ghișeu digital asistat prin oficii poștale este utilă pentru cetățenii fără acces online, dar legea de 8 articole e redactată superficial și ascunde riscuri serioase: lasă firme de curierat să încaseze impozite fără licență BNR, să acceseze date fiscale fără garanții GDPR și obligă statul să accepte orice act scanat fără excepții.",
-    "initiatorClaim": "Inițiatorii vor să creeze un „ghișeu digital asistat” prin furnizorii de servicii poștale, astfel încât vârstnicii, locuitorii din mediul rural și persoanele fără competențe digitale să poată depune acte și plăti taxe către instituții publice fără deplasări la ghișee.",
-    "realityCheck": "În realitate, proiectul obligă toate instituțiile publice să accepte orice document scanat și transmis de un furnizor poștal ca pe un original depus la sediu — fără excepții pentru acte autentice, stare civilă sau proceduri speciale — și permite oricărei firme poștale sau de curierat să încaseze bani publici contra cost și să acceseze decizii de impunere și amenzi, fără autorizare de plată de la BNR, fără termene de virare în Trezorerie și fără reguli GDPR pentru platformele private de stocare.",
+    "plainTitle": "Depui acte la instituții prin oficiul poștal: scanare, sigiliu electronic și transmitere online",
+    "summaryTlDr": "Ideea e bună: un ghișeu digital asistat la poștă pentru cei fără competențe digitale. Textul are însă doar 8 articole și lasă găuri serioase: răspundere imposibilă pentru furnizor, echivalare fără excepții cu originalul și acces privat la date fiscale fără garanții.",
+    "initiatorClaim": "Inițiatorii vor ca vârstnicii, locuitorii din mediul rural și persoanele cu dizabilități să poată depune documente la instituții fără deplasare, prin rețeaua poștală, cu valoare juridică garantată de un sigiliu electronic calificat eIDAS.",
+    "realityCheck": "Legea permite oricărui furnizor de servicii poștale să scaneze contra cost documentele, să le sigileze electronic și să le trimită pe e-mail instituțiilor, care sunt obligate să le accepte ca pe cele depuse fizic (art. 3). Sigiliul atestă doar că scanarea provine de la furnizor și nu a fost alterată, nu autenticitatea actului. Totuși, art. 4 face furnizorul răspunzător pentru «conformitatea documentelor furnizate de utilizator», iar art. 5 îi permite să încaseze taxe și amenzi și să acceseze date din deciziile de impunere, fără reguli privind secretul fiscal și protecția datelor.",
     "affectedGroups": [
       "Toți cetățenii",
       "IMM & Antreprenori",
@@ -44,10 +44,10 @@
       "IT & AI"
     ],
     "senatForm": {
-      "articleRef": "Art. 5 (și corelări Art. 2, 3, 7, 8)",
-      "proposalContent": "Art. 5 se modifică: încasarea taxelor se face doar de furnizori autorizați ca instituții/agenți de plată (Legea 209/2019), cu virare în Trezorerie în max. 2 zile lucrătoare și dovadă de plată eliberatoare. Accesul la date fiscale (ANAF/Ghișeul.ro) necesită consimțământul expres al contribuabilului, cu respectarea secretului fiscal și a GDPR.",
-      "argumentation": "Art. 5 încalcă Directiva PSD2 (Legea 209/2019), permițând firmelor poștale neautorizate de BNR să colecteze bani publici fără garanții sau termene de virare, expunând contribuabilii la penalități. Accesul la decizii de impunere și amenzi fără consimțământul cetățeanului încalcă secretul fiscal (art. 11 CPF) și Regulamentul GDPR.",
-      "otherComments": "Corelați și restul legii: la Art. 2 înlocuiți „semnătura electronică olografă” cu verificarea identității și termenii eIDAS; la Art. 3 exceptați actele autentice/judiciare și stabiliți reguli GDPR pentru stocare; la Art. 7-8 schimbați „de la adoptare” cu „de la intrarea în vigoare” (art. 78 Constituție) și atribuiți normele Guvernului, nu doar ANCOM."
+      "articleRef": "Art. 4 și art. 3 alin. (1)",
+      "proposalContent": "Art. 4 – (1) Furnizorul răspunde pentru conformitatea copiei electronice cu documentul prezentat și integritatea transmiterii. (2) Utilizatorul răspunde pentru autenticitatea și conținutul documentelor. (3) Art. 3 alin. (1) nu se aplică actelor pentru care legea cere originalul sau forma autentică.",
+      "argumentation": "Furnizorul nu poate verifica autenticitatea unui act (fals, alterat), deci forma actuală îi impune o răspundere imposibilă și neclară (art. 1 alin. 5 Const.), care va fi transferată în tarife. Sigiliul calificat atestă doar integritatea scanării. Echivalarea totală cu depunerea fizică ar permite ocolirea cerințelor de original sau de act notarial.",
+      "otherComments": "Art. 5 alin. (3): accesul furnizorului privat la decizii de impunere și amenzi trebuie limitat strict (secret fiscal, GDPR). Termenele de 30 de zile «de la adoptare» din art. 7-8 trebuie raportate la intrarea în vigoare. Normele ANCOM trebuie avizate de ADR (organism eIDAS). Se cere fișă financiară (art. 138 alin. 5 Const.)."
     }
   },
   "council": {
@@ -89,8 +89,40 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 50418,
+      "sourceEndMarker": "SF-D834886D",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Depui acte la instituții prin oficiul poștal: scanare, sigiliu electronic și transmitere online",
+      "verdictShort": "Ideea e bună: un ghișeu digital asistat la poștă pentru cei fără competențe digitale. Textul are însă doar 8 articole și lasă găuri serioase: răspundere imposibilă pentru furnizor, echivalare fără excepții cu originalul și acces privat la date fiscale fără garanții.",
+      "initiatorClaim": "Inițiatorii vor ca vârstnicii, locuitorii din mediul rural și persoanele cu dizabilități să poată depune documente la instituții fără deplasare, prin rețeaua poștală, cu valoare juridică garantată de un sigiliu electronic calificat eIDAS.",
+      "realityCheck": "Legea permite oricărui furnizor de servicii poștale să scaneze contra cost documentele, să le sigileze electronic și să le trimită pe e-mail instituțiilor, care sunt obligate să le accepte ca pe cele depuse fizic (art. 3). Sigiliul atestă doar că scanarea provine de la furnizor și nu a fost alterată, nu autenticitatea actului. Totuși, art. 4 face furnizorul răspunzător pentru «conformitatea documentelor furnizate de utilizator», iar art. 5 îi permite să încaseze taxe și amenzi și să acceseze date din deciziile de impunere, fără reguli privind secretul fiscal și protecția datelor.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Contabili & Fiscalitate",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 3 alin. (1)-(2): echivalarea totală a copiei scanate cu depunerea fizică nu are nicio excepție pentru actele care, potrivit legii, cer originalul, forma autentică notarială sau prezența personală. Astfel pot fi ocolite cerințe din legi speciale.",
+        "Art. 4: furnizorul răspunde pentru «autenticitatea certificării și conformitatea documentelor furnizate de utilizator». Furnizorul nu poate verifica dacă un act e fals, iar natura răspunderii (civilă, contravențională, penală) nu e precizată. Textul e imprevizibil, iar riscul va fi transferat în tarife.",
+        "Art. 2 alin. (2): «semnătură electronică olografă» nu este o categorie din eIDAS. O semnătură pe tabletă e cel mult o semnătură electronică simplă, iar efectul ei juridic nu e definit.",
+        "Art. 5 alin. (3): furnizorul privat încheie acorduri de acces la date din decizii de impunere, amenzi și taxe, direct din sistemele instituțiilor. Lipsesc garanțiile privind secretul fiscal, temeiul GDPR, limitarea scopului și durata păstrării. Formula «poate încasa contra-cost veniturile» e confuză: nu se știe dacă e un comision suplimentar plătit de cetățean.",
+        "Art. 3 alin. (3): transmiterea prin e-mail simplu și stocarea pe «platforma proprie» a furnizorului a unor documente cu date personale, fără standarde de securitate și termen de retenție. Soluția ignoră Platforma națională de interoperabilitate din Legea nr. 242/2022, deși art. 6 o invocă pentru RNDC.",
+        "Art. 7-8: termenele de 30 de zile curg «de la adoptare», nu de la intrarea în vigoare. Normele sunt date doar ANCOM («vor elabora»), deși ANCOM nu este autoritatea competentă pentru serviciile de încredere eIDAS (ADR). Nu există nicio sancțiune pentru instituția care refuză documentele."
+      ],
+      "blindSpotsCaught": "Titlul de pe lista de semnături vorbește de «furnizorii de servicii universale», adică practic Poșta Română, în timp ce textul vizează orice «furnizor de serviciu poștal». Discrepanța arată o ambiguitate privind beneficiarul real. Trimiterea din art. 1 este greșit redactată («în sensul legii Legii nr. 187/2013»); referința corectă este OUG nr. 13/2013. Mai mult, efectul juridic privilegiat al art. 3 e rezervat furnizorilor poștali. Prestatorii calificați de servicii de încredere, notarii, băncile sau firmele IT care ar putea oferi același serviciu sunt excluși fără nicio justificare.",
+      "constitutionalityNote": "Art. 4 și art. 2 alin. (2) ridică probleme de claritate și previzibilitate (art. 1 alin. (5)). Destinatarul nu poate anticipa conținutul și limitele răspunderii, iar «semnătura olografă electronică» nu are definiție legală. Obligațiile impuse SGG și tuturor instituțiilor (operaționalizare RNDC, recepție, înregistrare, acorduri de acces) generează cheltuieli fără sursă de finanțare indicată. Asta poate încălca art. 138 alin. (5) și impune solicitarea informării Guvernului potrivit art. 111 alin. (1). Accesul unui operator privat la date fiscale fără garanții legale afectează art. 26 (viața intimă). Legea nu stabilește nici data intrării în vigoare corelată cu termenele din art. 7-8.",
+      "euLawNote": "Directiva 2018/958 nu se aplică direct, pentru că nu se reglementează o profesie. Rezervarea efectului juridic pentru furnizorii poștali poate constitui însă o restricție nejustificată în sensul Directivei 2006/123 (servicii) și al art. 49/56 TFUE, fără test de necesitate și proporționalitate. Regulamentul eIDAS (910/2014, modificat prin 2024/1183) este respectat formal prin sigiliul calificat, dar sigiliul atestă originea și integritatea, nu autenticitatea originalului. Art. 2 alin. (2) introduce un concept străin regulamentului. Componenta de platformă și transmitere electronică poate intra sub incidența Directivei TRIS (UE) 2015/1535 ca regulă privind serviciile societății informaționale, deci notificarea prealabilă e recomandată. GDPR (art. 6, 25, 32) cere temei, minimizare și securitate pentru stocarea și accesul la date, aspecte absente din text.",
+      "senatForm": {
+        "articleRef": "Art. 4 și art. 3 alin. (1)",
+        "proposalContent": "Art. 4 – (1) Furnizorul răspunde pentru conformitatea copiei electronice cu documentul prezentat și integritatea transmiterii. (2) Utilizatorul răspunde pentru autenticitatea și conținutul documentelor. (3) Art. 3 alin. (1) nu se aplică actelor pentru care legea cere originalul sau forma autentică.",
+        "argumentation": "Furnizorul nu poate verifica autenticitatea unui act (fals, alterat), deci forma actuală îi impune o răspundere imposibilă și neclară (art. 1 alin. 5 Const.), care va fi transferată în tarife. Sigiliul calificat atestă doar integritatea scanării. Echivalarea totală cu depunerea fizică ar permite ocolirea cerințelor de original sau de act notarial.",
+        "otherComments": "Art. 5 alin. (3): accesul furnizorului privat la decizii de impunere și amenzi trebuie limitat strict (secret fiscal, GDPR). Termenele de 30 de zile «de la adoptare» din art. 7-8 trebuie raportate la intrarea în vigoare. Normele ANCOM trebuie avizate de ADR (organism eIDAS). Se cere fișă financiară (art. 138 alin. 5 Const.)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -147,7 +179,7 @@
         "codex": 5
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:16:03.690Z",
+      "replacedAt": "2026-11-24T15:06:12.028Z",
       "reasons": [
         "model"
       ]

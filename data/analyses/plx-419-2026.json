@@ -2,7 +2,7 @@
   "billId": "Pl-x 419/2026",
   "slug": "plx-419-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:12:04.629Z",
+  "updatedAt": "2026-11-24T15:03:44.323Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 6.5,
+    "riskScore": 6,
     "riskLevel": "yellow",
-    "plainTitle": "Verificare obligatorie a vârstei online prin sistem MAI, cu risc de suspendare a activității",
-    "summaryTlDr": "Obiectivul de protecție a minorilor este legitim, dar legea conține erori grave de calendar și de redactare: sancționează comercianții cu 6 luni înainte ca sistemul gratuit al statului să existe și permite închiderea întregii activități economice pe durată nedeterminată.",
-    "initiatorClaim": "Inițiatorii vor să elimine verificarea pur formală a vârstei online (bifa „am peste 18 ani”) pentru produse precum alcool, tutun, pirotehnice sau jocuri de noroc și să oblige statul (MAI) să ofere gratuit o infrastructură interoperabilă, aliniată la modelul european.",
-    "realityCheck": "În forma actuală, obligațiile și amenzile intră în vigoare înainte de adoptarea normelor tehnice (+60 de zile) și înainte ca sistemul gratuit al MAI să devină operațional (+6 luni). În plus, interdicția absolută de prelucrare a datelor de identificare se aplică inclusiv furnizorului terț și MAI, blocând tehnic verificarea, iar recidiva în 30 de zile duce la suspendarea integrală a activității economice fără durată precizată.",
+    "plainTitle": "Verificare reală a vârstei când cumperi online alcool, tutun, pirotehnie sau joci jocuri de noroc",
+    "summaryTlDr": "Scopul e legitim, iar garanțiile de confidențialitate sunt peste medie: nu se pot cere copii după buletin, iar comerciantul primește doar un „da/nu”. Problema e execuția. Obligația se aplică înaintea normelor și a sistemului MAI, pedeapsa de suspendare a întregii activități este disproporționată și nedefinită, iar aplicarea pe platforme și comercianți din alte state UE intră în coliziune cu dreptul Uniunii.",
+    "initiatorClaim": "Inițiatorii vor să pună capăt practicii bifei „am peste 18 ani”, ca interdicțiile de vânzare către minori să fie aplicate efectiv și online. Statul, prin MAI, ar urma să ofere gratuit o infrastructură de verificare aliniată la modelul european (EUDI Wallet).",
+    "realityCheck": "Orice comerciant online și orice platformă de intermediere care vinde către România produse sau servicii cu prag de vârstă trebuie să verifice electronic vârsta înainte de comandă, sub sancțiunea unei amenzi fixe de 15.000-25.000 lei. Este interzisă colectarea datelor de identificare sau a copiilor după acte (art. 3 alin. 2), dar se cere un „nivel ridicat de încredere” (art. 2 lit. d). În practică, singurele soluții conforme rămân SVV și portofelele eIDAS. Legea intră în vigoare la 12 luni de la publicare, iar SVV devine operațional abia după încă 6 luni. Între timp, obligația și sancțiunile se aplică deja, fără instrumentul promis.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "IT & AI",
@@ -44,10 +44,10 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 6 alin. (3) și Art. 7 alin. (2)-(3)",
-      "proposalContent": "Art. 6(3): La repetarea faptei în 30 zile de la rămânerea definitivă a sancțiunii anterioare, se suspendă pentru 15-30 zile exclusiv comercializarea produselor/serviciilor cu restricții de vârstă. Art. 7(2)-(3): Normele metodologice se adoptă în 60 zile de la publicare, iar obligațiile și sancțiunile se aplică doar după operaționalizarea SVV.",
-      "argumentation": "Suspendarea integrală a activității fără durată determinată (Art. 6 alin. 3) încalcă art. 1(5), 45 și 53 din Constituție. Totodată, legea intră în vigoare cu 60 zile înaintea normelor tehnice și cu 6 luni înaintea sistemului SVV (Art. 5 alin. 5), sancționând comercianții înainte ca regulile și infrastructura gratuită să existe.",
-      "otherComments": "Proiectul impune reguli serviciilor societății informaționale și trebuie notificat Comisiei Europene conform Directivei (UE) 2015/1535 (TRIS), altfel devine inopozabil. Recomandăm și clarificarea Art. 3(2), care interzice chiar furnizorului terț și MAI să prelucreze date de identificare pentru verificare, blocând tehnic funcționarea sistemului."
+      "articleRef": "Art. 6 alin. (3)",
+      "proposalContent": "(3) Repetarea contravenției prevăzute la alin. (1) în termen de 12 luni de la rămânerea definitivă a sancțiunii anterioare se sancționează, pe lângă amendă, cu suspendarea, pe o durată de 30-90 de zile, exclusiv a comercializării online a categoriei de produse sau servicii cu restricții de vârstă în legătură cu care s-a săvârșit fapta.",
+      "argumentation": "Textul actual permite suspendarea întregii activități, fără durată, la a doua constatare în 30 de zile, chiar dacă prima sancțiune nu e definitivă. Măsura încalcă art. 45 și 53 din Constituție și lovește și vânzările licite. Limitarea la categoria vizată și o durată determinată asigură previzibilitate și proporționalitate.",
+      "otherComments": "Art. 3 se aplică înainte de norme (60 de zile) și de SVV (6 luni). Propun aplicarea art. 3 și 6 la 6 luni de la operaționalizarea SVV. Proiectul trebuie notificat Comisiei Europene conform Directivei (UE) 2015/1535 și corelat cu DSA pentru platforme. Propun și includerea ANPC între organele de control."
     }
   },
   "council": {
@@ -88,8 +88,40 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 57841,
+      "sourceEndMarker": "SF-15C7B009",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Verificare reală a vârstei când cumperi online alcool, tutun, pirotehnie sau joci jocuri de noroc",
+      "verdictShort": "Scopul e legitim, iar garanțiile de confidențialitate sunt peste medie: nu se pot cere copii după buletin, iar comerciantul primește doar un „da/nu”. Problema e execuția. Obligația se aplică înaintea normelor și a sistemului MAI, pedeapsa de suspendare a întregii activități este disproporționată și nedefinită, iar aplicarea pe platforme și comercianți din alte state UE intră în coliziune cu dreptul Uniunii.",
+      "initiatorClaim": "Inițiatorii vor să pună capăt practicii bifei „am peste 18 ani”, ca interdicțiile de vânzare către minori să fie aplicate efectiv și online. Statul, prin MAI, ar urma să ofere gratuit o infrastructură de verificare aliniată la modelul european (EUDI Wallet).",
+      "realityCheck": "Orice comerciant online și orice platformă de intermediere care vinde către România produse sau servicii cu prag de vârstă trebuie să verifice electronic vârsta înainte de comandă, sub sancțiunea unei amenzi fixe de 15.000-25.000 lei. Este interzisă colectarea datelor de identificare sau a copiilor după acte (art. 3 alin. 2), dar se cere un „nivel ridicat de încredere” (art. 2 lit. d). În practică, singurele soluții conforme rămân SVV și portofelele eIDAS. Legea intră în vigoare la 12 luni de la publicare, iar SVV devine operațional abia după încă 6 luni. Între timp, obligația și sancțiunile se aplică deja, fără instrumentul promis.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Decalaj temporal (art. 7 alin. 2-3 și art. 5 alin. 5): obligația din art. 3 se aplică de la intrarea în vigoare. Normele metodologice, care fixează cerințele minime ale mijloacelor de verificare (art. 4 alin. 2), pot apărea până la 60 de zile după aceea, iar SVV gratuit abia după 6 luni. Comercianții riscă amenzi fără să aibă o soluție conformă.",
+        "Art. 6 alin. (3) prevede suspendarea întregii activități economice a comerciantului dacă fapta se repetă în 30 de zile de la constatarea primei fapte. Textul nu stabilește durata suspendării și nici nu o limitează la categoria restricționată. Nu cere nici ca prima sancțiune să fie definitivă. Pentru un marketplace mare, o simplă eroare tehnică repetată poate opri toată activitatea, inclusiv vânzările licite.",
+        "Art. 6 alin. (1) prevede o amendă fixă de 15.000-25.000 lei, identică pentru un PFA și pentru o multinațională. Nu se sancționează încălcarea interdicțiilor de prelucrare a datelor (art. 3 alin. 2-3) și nici furnizorul terț de verificare. Garanțiile de confidențialitate rămân fără sancțiune proprie, fiind acoperite doar indirect de GDPR.",
+        "Art. 2 lit. b) asimilează platformele de intermediere online comercianților, cu aceeași răspundere directă. Această soluție intră în tensiune cu regimul de răspundere al intermediarilor din Regulamentul (UE) 2022/2065 (DSA) și cu art. 28 DSA privind protecția minorilor, care este armonizat la nivel european.",
+        "Art. 2 lit. a) definește produsele restricționate deschis: „interzisă ori condiționată în funcție de vârstă, potrivit legii”. Sfera poate cuprinde, pe lângă alcool, tutun și jocuri de noroc, și conținut audiovizual clasificat pe vârste sau servicii digitale. Expunerea de motive susține că sfera nu se extinde, dar textul nu o delimitează.",
+        "Art. 6 alin. (2) dă competența de control Autorității pentru Digitalizarea României și Poliției, dar nu și ANPC, autoritatea firească pentru comerțul electronic. ADR nu are, în prezent, un corp de control dedicat."
+      ],
+      "blindSpotsCaught": "Art. 1 alin. (2) se aplică tuturor comercianților care oferă către persoane aflate în România, inclusiv celor stabiliți în alte state UE. Potrivit hotărârii CJUE C-376/22 (Google Ireland), un stat membru nu poate impune măsuri generale și abstracte furnizorilor de servicii ale societății informaționale stabiliți în alt stat membru (art. 3 din Directiva 2000/31/CE). Rezultă o discriminare inversă: obligația ar lovi efectiv doar firmele românești. În plus, art. 3 alin. (1) vorbește despre „vârsta acestuia” fără ca un consumator să fi fost menționat anterior, iar proiectul nu are fișă financiară pentru SVV, deși finanțarea revine bugetului MAI (art. 5 alin. 4).",
+      "constitutionalityNote": "Scopul se sprijină pe art. 49 (protecția copiilor) și art. 34 (sănătatea), iar limitarea datelor colectate respectă art. 26 (viața privată). Riscurile constituționale sunt următoarele. (1) Art. 1 alin. (5): obligația se aplică înainte de norme și de SVV, iar definiția „nivel ridicat de încredere” este vagă și lasă cerințele în seama unei hotărâri de Guvern. (2) Art. 45 și 53: suspendarea întregii activități, fără durată și fără legătură cu activitatea ilicită, este o măsură disproporționată. (3) Art. 111 alin. (1) și art. 138 alin. (5): pentru cheltuielile bugetare ale MAI nu se indică sursa de finanțare și lipsește fișa financiară, viciu invocat frecvent de CCR.",
+      "euLawNote": "Directiva (UE) 2015/1535 (TRIS) este aplicabilă: proiectul impune reguli privind serviciile societății informaționale (verificarea vârstei ca o condiție de acces) și trebuie notificat Comisiei înainte de adoptare. Fără notificare, legea este inopozabilă particularilor (C-194/94 CIA Security). Directiva 2000/31/CE și hotărârea C-376/22 împiedică aplicarea legii furnizorilor stabiliți în alte state membre, cu excepția jocurilor de noroc, care sunt excluse din directivă. DSA (art. 6, 8 și 28) armonizează obligațiile platformelor privind minorii, deci asimilarea lor comercianților poate fi contrară regulamentului. Directiva (UE) 2018/958 nu este relevantă, pentru că proiectul nu reglementează profesii. Alinierea la Regulamentul eIDAS 2.0 și la blueprint-ul UE de verificare a vârstei este un punct forte, dar textul nu menționează explicit atestările de vârstă din EUDI Wallet.",
+      "senatForm": {
+        "articleRef": "Art. 6 alin. (3)",
+        "proposalContent": "(3) Repetarea contravenției prevăzute la alin. (1) în termen de 12 luni de la rămânerea definitivă a sancțiunii anterioare se sancționează, pe lângă amendă, cu suspendarea, pe o durată de 30-90 de zile, exclusiv a comercializării online a categoriei de produse sau servicii cu restricții de vârstă în legătură cu care s-a săvârșit fapta.",
+        "argumentation": "Textul actual permite suspendarea întregii activități, fără durată, la a doua constatare în 30 de zile, chiar dacă prima sancțiune nu e definitivă. Măsura încalcă art. 45 și 53 din Constituție și lovește și vânzările licite. Limitarea la categoria vizată și o durată determinată asigură previzibilitate și proporționalitate.",
+        "otherComments": "Art. 3 se aplică înainte de norme (60 de zile) și de SVV (6 luni). Propun aplicarea art. 3 și 6 la 6 luni de la operaționalizarea SVV. Proiectul trebuie notificat Comisiei Europene conform Directivei (UE) 2015/1535 și corelat cu DSA pentru platforme. Propun și includerea ANPC între organele de control."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -146,7 +178,7 @@
         "codex": 6
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:12:04.629Z",
+      "replacedAt": "2026-11-24T15:03:44.323Z",
       "reasons": [
         "model"
       ]

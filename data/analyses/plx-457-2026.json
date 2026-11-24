@@ -2,7 +2,7 @@
   "billId": "Pl-x 457/2026",
   "slug": "plx-457-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:38:54.754Z",
+  "updatedAt": "2026-11-24T15:07:55.490Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,21 +31,21 @@
     "key": "5562e5be3fe5e8d6"
   },
   "consensus": {
-    "riskScore": 4,
-    "riskLevel": "yellow",
-    "plainTitle": "Termenele maxime de prescripție penală cresc de la dublul la de două ori și jumătate termenul de bază",
-    "summaryTlDr": "O modificare simplă și constituțională în principiu, dar slab fundamentată și aplicată nediferențiat tuturor infracțiunilor. Deși vizează marile dosare de corupție, proiectul nu rezolvă cauza reală a prescripțiilor din 2023–2024 și riscă să prelungească excesiv durata proceselor penale pentru orice cetățean.",
-    "initiatorClaim": "Inițiatorii susțin că vor să combată valul de dosare închise prin prescripție (în special faptele complexe de corupție cu prejudicii mari), oferind procurorilor și instanțelor mai mult timp pentru a trage la răspundere autorii infracțiunilor.",
-    "realityCheck": "Modificarea art. 155 alin. (4) Cod penal mărește cu 25% durata maximă a prescripției speciale — de la „încă o dată” (2x termenul general de la art. 154) la „încă o dată și jumătate” (2,5x), ceea ce urcă plafoanele de la 6–30 de ani la 7,5–37,5 ani. Măsura nu se aplică retroactiv dosarelor deja în curs (principiul legii penale mai favorabile) și lovește uniform în toate infracțiunile, inclusiv în fapte minore sau din culpă, putând scădea presiunea de celeritate asupra anchetelor.",
+    "riskScore": 3.7,
+    "riskLevel": "green",
+    "plainTitle": "Faptele penale se prescriu mai greu: termenul maxim crește de la dublu la de 2,5 ori termenul general",
+    "summaryTlDr": "Este o modificare scurtă și tehnică, care ține de opțiunea legiuitorului. Ar reduce numărul dosarelor închise prin prescripție. Nu creează riscuri constituționale majore, cu condiția să se aplice doar pentru viitor. Slăbiciunile ei sunt motivarea subțire și lipsa unei norme tranzitorii.",
+    "initiatorClaim": "Inițiatorii vor să scadă numărul mare de dosare, mai ales de corupție, care se închid prin prescripție. Pentru asta, propun mai mult timp pentru urmărire și judecată în cauzele complexe, cu prejudicii mari.",
+    "realityCheck": "Articolul unic modifică doar art. 155 alin. (4) CP. Prescripția specială trece de la 2× la 2,5× termenele din art. 154: 15→37,5 ani în loc de 30; 10→25 în loc de 20; 8→20 în loc de 16; 5→12,5 în loc de 10; 3→7,5 în loc de 6. Majorarea se aplică uniform tuturor infracțiunilor, inclusiv celor minore, nu doar corupției. Pentru că prescripția ține de dreptul penal material, noul termen nu se poate aplica faptelor săvârșite înainte de intrarea în vigoare (art. 15 alin. 2 Constituție, art. 5 CP). Efectul real va apărea deci abia peste ani.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. unic (art. 155 alin. (4) Cod penal)",
-      "proposalContent": "Menținerea formei actuale a art. 155 alin. (4) sau limitarea majorării la „încă o dată și jumătate” strict pentru infracțiunile de corupție, de serviciu și cele cu prejudicii grave, nu generalizat pentru toate infracțiunile din Codul penal, corelat cu măsuri procedurale de accelerare a urmăririi penale și a judecății.",
-      "argumentation": "Valul de prescripții din 2023-2024 a rezultat din vidul legislativ 2018-2022 privind întreruperea, nu din plafonul de 2x. Extinderea generală la 2,5x (până la 12,5-37,5 ani) nu operează retroactiv (art. 15 alin. 2 Constituție), descurajează celeritatea anchetelor (art. 21 alin. 3) și ține cetățenii în incertitudine pentru fapte minore.",
-      "otherComments": "Solicităm realizarea unui studiu de impact cu CSM și Ministerul Justiției privind cauzele reale ale prescripțiilor după OUG 71/2022 și corectarea tehnicii legislative (art. unic menționează greșit „publicat” în loc de „publicată” și folosește pct. 1 pentru un singur alineat, iar expunerea de motive confundă prescripția specială cu cea generală)."
+      "articleRef": "Art. unic – art. 155 alin. (4) Cod penal",
+      "proposalContent": "Alin. (4): „Termenele prevăzute la art. 154, dacă au fost depășite cu încă o dată și jumătate durata lor, vor fi socotite îndeplinite oricâte întreruperi ar interveni.” Art. II nou: „Art. 155 alin. (4), astfel modificat, se aplică doar infracțiunilor săvârșite după intrarea în vigoare a prezentei legi.”",
+      "argumentation": "Prescripția e instituție de drept penal material (CCR 1092/2012, 297/2018), deci legea mai severă nu poate retroactiva (art. 15 alin. 2 Constituție, art. 5 CP). O normă tranzitorie expresă evită practica neunitară în dosarele în curs. Precizarea „durata lor” elimină orice dubiu că termenul total devine 2,5 × termenul general.",
+      "otherComments": "Expunerea de motive vorbește de creșterea „prescripției generale”, deși textul modifică doar prescripția specială. Lipsesc date despre impactul asupra instanțelor și justificarea coeficientului 1,5. Comisia ar putea analiza limitarea majorării la infracțiunile grave (corupție, evaziune, PIF), fără cele cu termen general de 3-5 ani."
     }
   },
   "council": {
@@ -84,8 +84,36 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 48667,
+      "sourceEndMarker": "SF-E1C76EE5",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Faptele penale se prescriu mai greu: termenul maxim crește de la dublu la de 2,5 ori termenul general",
+      "verdictShort": "Este o modificare scurtă și tehnică, care ține de opțiunea legiuitorului. Ar reduce numărul dosarelor închise prin prescripție. Nu creează riscuri constituționale majore, cu condiția să se aplice doar pentru viitor. Slăbiciunile ei sunt motivarea subțire și lipsa unei norme tranzitorii.",
+      "initiatorClaim": "Inițiatorii vor să scadă numărul mare de dosare, mai ales de corupție, care se închid prin prescripție. Pentru asta, propun mai mult timp pentru urmărire și judecată în cauzele complexe, cu prejudicii mari.",
+      "realityCheck": "Articolul unic modifică doar art. 155 alin. (4) CP. Prescripția specială trece de la 2× la 2,5× termenele din art. 154: 15→37,5 ani în loc de 30; 10→25 în loc de 20; 8→20 în loc de 16; 5→12,5 în loc de 10; 3→7,5 în loc de 6. Majorarea se aplică uniform tuturor infracțiunilor, inclusiv celor minore, nu doar corupției. Pentru că prescripția ține de dreptul penal material, noul termen nu se poate aplica faptelor săvârșite înainte de intrarea în vigoare (art. 15 alin. 2 Constituție, art. 5 CP). Efectul real va apărea deci abia peste ani.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. unic (art. 155 alin. 4 CP): formula „depășite cu încă o dată și jumătate” înseamnă un termen total de 2,5× termenul general (fișa Camerei confirmă). Textul în vigoare spune „cu încă o dată”, adică 2×.",
+        "Termenul general (art. 154), cazurile de întrerupere (art. 155 alin. 1, forma OUG 71/2022), suspendarea (art. 156) și infracțiunile imprescriptibile (art. 153 alin. 2) rămân neschimbate. Se modifică doar plafonul absolut.",
+        "Proiectul nu are normă tranzitorie. Conform jurisprudenței CCR (prescripția e instituție de drept material) și art. 5 CP, pentru faptele anterioare se aplică legea veche, mai favorabilă. Pe termen scurt, efectul asupra dosarelor aflate acum pe rol va fi practic nul.",
+        "Expunerea de motive vorbește de creșterea „prescripției generale”, dar textul nu modifică art. 154. Afirmația din motivare nu corespunde efectului juridic.",
+        "Motivarea nu cuprinde un studiu de impact asupra volumului instanțelor și parchetelor. Nu justifică nici alegerea coeficientului 1,5, iar datele citate (3.534 vs ~100.000 de dosare prescrise) sunt eterogene și nu sunt explicate."
+      ],
+      "blindSpotsCaught": "Majorarea uniformă lovește și infracțiunile mici. O faptă cu termen general de 3 ani se va putea urmări până la 7,5 ani. Asta prelungește incertitudinea pentru persoane și poate reduce presiunea pe organele judiciare să lucreze rapid, cu risc pentru „termenul rezonabil” (art. 6 CEDO, art. 21 alin. 3 Constituție). Pentru minori, art. 131 CP înjumătățește termenele, iar majorarea se combină cu această regulă. Lipsa unei norme tranzitorii exprese poate produce practică neunitară, ca după Deciziile CCR 297/2018 și 358/2022.",
+      "constitutionalityNote": "Textul este clar și previzibil (art. 1 alin. 5), chiar dacă formularea „cu încă o dată și jumătate” e puțin greoaie. Durata prescripției ține de marja de apreciere a legiuitorului, iar CCR a validat în trecut termene speciale de acest ordin. Limita esențială este art. 15 alin. (2): legea penală mai severă nu retroactivează. Aplicarea noului plafon faptelor anterioare ar fi neconstituțională. Nu sunt atinse drepturi fundamentale dincolo de prelungirea expunerii la răspundere penală, care e proporționată cu scopul combaterii impunității.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează profesii. Nici TRIS (2015/1535) nu se aplică, pentru că nu există reguli privind servicii digitale. Proiectul nu are impact asupra concurenței sau asupra IMM-urilor. Este relevant art. 12 din Directiva (UE) 2017/1371 (PIF), care cere termene de prescripție suficiente pentru infracțiunile ce afectează interesele financiare ale UE. Relevantă e și jurisprudența CJUE (C-357/19 Euro Box Promotion, C-107/23 PPU Lin) privind riscul sistemic de impunitate în fraudă și corupție. Majorarea este compatibilă cu aceste obligații și le susține, dar CJUE a recunoscut că principiul legii penale mai favorabile limitează aplicarea retroactivă.",
+      "senatForm": {
+        "articleRef": "Art. unic – art. 155 alin. (4) Cod penal",
+        "proposalContent": "Alin. (4): „Termenele prevăzute la art. 154, dacă au fost depășite cu încă o dată și jumătate durata lor, vor fi socotite îndeplinite oricâte întreruperi ar interveni.” Art. II nou: „Art. 155 alin. (4), astfel modificat, se aplică doar infracțiunilor săvârșite după intrarea în vigoare a prezentei legi.”",
+        "argumentation": "Prescripția e instituție de drept penal material (CCR 1092/2012, 297/2018), deci legea mai severă nu poate retroactiva (art. 15 alin. 2 Constituție, art. 5 CP). O normă tranzitorie expresă evită practica neunitară în dosarele în curs. Precizarea „durata lor” elimină orice dubiu că termenul total devine 2,5 × termenul general.",
+        "otherComments": "Expunerea de motive vorbește de creșterea „prescripției generale”, deși textul modifică doar prescripția specială. Lipsesc date despre impactul asupra instanțelor și justificarea coeficientului 1,5. Comisia ar putea analiza limitarea majorării la infracțiunile grave (corupție, evaziune, PIF), fără cele cu termen general de 3-5 ani."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -137,7 +165,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:38:54.754Z",
+      "replacedAt": "2026-11-24T15:07:55.490Z",
       "reasons": [
         "model"
       ]

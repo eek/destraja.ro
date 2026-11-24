@@ -2,7 +2,7 @@
   "billId": "Pl-x 460/2026",
   "slug": "plx-460-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:13:46.046Z",
+  "updatedAt": "2026-11-24T15:04:38.664Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "key": "b15999d987cffcae"
   },
   "consensus": {
-    "riskScore": 4,
-    "riskLevel": "yellow",
-    "plainTitle": "Desființarea Institutului Levantului, dar cu o lichidare blocată juridic",
-    "summaryTlDr": "Scopul bugetar este benign pentru cetățeni și economie (eliminarea unei cheltuieli de ~3,4 mil. lei/an), însă proiectul are vicii serioase de tehnică legislativă: desființează instituția și abrogă legea din prima zi, fără a desemna cine o administrează și semnează concedierile în cele 30–45 de zile de lichidare.",
-    "initiatorClaim": "Inițiatorii (parlamentari USR) susțin că Institutul Levantului funcționează ca o sinecură fără rezultate științifice relevante, cheltuind anual ~3,4 milioane de lei din subvenții de la bugetul de stat aproape exclusiv pe salarii și administrație, și propun desființarea lui pentru a face economii.",
-    "realityCheck": "Legea desființează institutul și abrogă Legea nr. 117/2017 chiar la data intrării în vigoare (art. 1, 2 și 7), dar acordă 30–45 de zile pentru concedierea personalului, predarea arhivei la Senat și redistribuirea patrimoniului prin HG (art. 3, 4 și 6), fără a desemna un lichidator, un ordonator de credite sau un succesor în contracte, datorii și litigii. În plus, proiectul vizează vechea denumire (ISACCL), deși legea consolidată în vigoare numește instituția „Institutul Levant de Studii Avansate pentru Cultura Păcii - ILSACP”.",
+    "riskScore": 3.7,
+    "riskLevel": "green",
+    "plainTitle": "Se desființează Institutul Levantului, finanțat prin bugetul Senatului",
+    "summaryTlDr": "Este o lege scurtă de desființare a unei instituții publice. Oportunitatea ei e o decizie politică legitimă, iar riscul pentru cetățeni și firme e practic nul. Problemele sunt de tehnică legislativă: nu spune cine preia contractele, datoriile și procesele institutului și lasă un gol între oprirea activității și încetarea contractelor de muncă.",
+    "initiatorClaim": "Inițiatorii (USR) spun că ISACCL e o sinecură fără rezultate științifice, finanțată aproape integral de la bugetul de stat, cu cheltuieli concentrate pe salarii. Ei estimează o economie anuală de circa 3,4 milioane lei.",
+    "realityCheck": "Proiectul desființează institutul, oprește activitatea la intrarea în vigoare a legii, încheie contractele de muncă în 45 de zile și lasă Guvernului, prin HG, destinația patrimoniului. Senatul preia arhiva și raportările financiare. Legea nu desemnează un succesor pentru drepturile și obligațiile institutului (contracte comerciale, parteneriate, creanțe, datorii, litigii). Nu spune nici cine este ordonator de credite și cine plătește salariile între oprirea activității (art. 2) și încetarea contractelor (art. 3).",
     "affectedGroups": [
       "Angajați & HR",
       "Sănătate & Educație",
@@ -44,10 +44,10 @@
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. 1 - Art. 7 (corelare și tranziție)",
-      "proposalContent": "Actualizarea denumirii la „Institutul Levant de Studii Avansate pentru Cultura Păcii - ILSACP” (Legea 117/2017); producerea desființării și abrogării la finalul celor 45 de zile de lichidare; desemnarea Senatului ca succesor în drepturi, obligații și litigii; aplicarea integrală a Codului muncii la concediere.",
-      "argumentation": "Desființarea și abrogarea Legii 117/2017 din ziua 1 lasă institutul fără ordonator de credite și reprezentant legal în cele 30-45 de zile de lichidare, creând risc de neconstituționalitate (art. 1 alin. 5) și procese de muncă pierdute. Denumirea ISACCL nu mai corespunde legii în vigoare, iar contractele și litigiile rămân fără succesor.",
-      "otherComments": "Solicităm și clarificarea situației spațiilor asigurate de RA-APPS (art. 9 din Legea 117/2017), a eventualelor proiecte cu finanțare externă în derulare, precum și obținerea punctului de vedere al Guvernului (art. 111 alin. 1 Constituție) privind costurile de lichidare și impactul bugetar net."
+      "articleRef": "Art. 5 (preluarea drepturilor și obligațiilor)",
+      "proposalContent": "Art. 5 se modifică: «Senatul României preia, de la data intrării în vigoare a prezentei legi, drepturile și obligațiile ISACCL, inclusiv contractele în derulare, litigiile, creanțele și datoriile, obligațiile de raportare financiară și plata drepturilor salariale și a compensațiilor datorate personalului până la încetarea contractelor de muncă.»",
+      "argumentation": "Art. 2 oprește activitatea la intrarea în vigoare a legii, dar contractele de muncă încetează în 45 de zile. Proiectul nu spune cine plătește salariile în acest interval, cine e ordonator de credite și cine răspunde de contractele, datoriile și procesele institutului. Fără un succesor clar, creditorii și angajații riscă blocaje și litigii.",
+      "otherComments": "La art. 3, «plata oricăror indemnizații» trebuie să vizeze doar indemnizațiile membrilor organelor de conducere, nu compensațiile legale la concediere. La art. 4, bunurile primite în folosință de la RA-APPS trebuie restituite acesteia, nu redistribuite prin HG."
     }
   },
   "council": {
@@ -87,8 +87,36 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 42182,
+      "sourceEndMarker": "SF-0F1DA897",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Se desființează Institutul Levantului, finanțat prin bugetul Senatului",
+      "verdictShort": "Este o lege scurtă de desființare a unei instituții publice. Oportunitatea ei e o decizie politică legitimă, iar riscul pentru cetățeni și firme e practic nul. Problemele sunt de tehnică legislativă: nu spune cine preia contractele, datoriile și procesele institutului și lasă un gol între oprirea activității și încetarea contractelor de muncă.",
+      "initiatorClaim": "Inițiatorii (USR) spun că ISACCL e o sinecură fără rezultate științifice, finanțată aproape integral de la bugetul de stat, cu cheltuieli concentrate pe salarii. Ei estimează o economie anuală de circa 3,4 milioane lei.",
+      "realityCheck": "Proiectul desființează institutul, oprește activitatea la intrarea în vigoare a legii, încheie contractele de muncă în 45 de zile și lasă Guvernului, prin HG, destinația patrimoniului. Senatul preia arhiva și raportările financiare. Legea nu desemnează un succesor pentru drepturile și obligațiile institutului (contracte comerciale, parteneriate, creanțe, datorii, litigii). Nu spune nici cine este ordonator de credite și cine plătește salariile între oprirea activității (art. 2) și încetarea contractelor (art. 3).",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Sănătate & Educație"
+      ],
+      "keyFindings": [
+        "Art. 2 și art. 3: activitatea încetează la intrarea în vigoare a legii, dar contractele de muncă încetează abia în 45 de zile. Nu e clar cine conduce instituția, cine e ordonator de credite și din ce buget se plătesc salariile în acest interval.",
+        "Art. 3: termenul de 45 de zile, «în condițiile legii», permite procedura de concediere colectivă din Codul muncii (art. 68–74) și preavizul de 20 de zile lucrătoare, dar e strâns. Sintagma «plata oricăror indemnizații» e ambiguă. Ar putea fi citită ca anulând și compensațiile datorate la concediere, ceea ce ar fi incorect juridic, pentru că legislația muncii rămâne aplicabilă.",
+        "Art. 4–6: Senatul preia doar arhiva și raportările financiare, iar patrimoniul merge unde decide Guvernul prin HG în 30 de zile. Nimeni nu preia expres contractele în derulare, datoriile, creanțele și litigiile. Lipsește și o procedură de lichidare.",
+        "Art. 7: se abrogă integral Legea nr. 117/2017, inclusiv art. 9, care autoriza RA-APPS să asigure spațiul și mijloacele institutului. Bunurile primite în folosință de la RA-APPS ar trebui restituite acesteia, nu redistribuite prin HG.",
+        "Expunerea de motive conține imprecizii. Afirmă un Consiliu științific de maximum 36 de membri, dar legea în vigoare prevede maximum 25 de membri și 36 de posturi salarizate. Afirmația că Levantul nu e studiat instituțional «nicăieri în lume» este polemică, nu un argument juridic. Aceste imprecizii nu afectează însă efectul mecanic al legii."
+      ],
+      "blindSpotsCaught": "Textul consolidat al art. 1 din Legea nr. 117/2017 denumește entitatea «Institutul Levant de Studii Avansate pentru Cultura Păcii – ILSACP», iar proiectul o numește «Institutul de Studii Avansate pentru Cultura și Civilizația Levantului». Identificarea prin numărul legii înlătură riscul de confuzie, dar denumirea ar trebui verificată și armonizată. Formula finală invocă art. 76 alin. (1) din Constituție (lege organică), deși înființarea și desființarea unui institut de acest tip pare materie de lege ordinară, potrivit art. 76 alin. (2). Senatul preia raportările financiare, dar nu și bugetul rămas sau sumele necheltuite. Ar fi necesară și o rectificare a bugetului Senatului.",
+      "constitutionalityNote": "Parlamentul poate desființa prin lege o instituție înființată prin lege, iar abrogarea integrală e corectă (art. 61, art. 73 din Constituție). Riscurile vizează previzibilitatea (art. 1 alin. 5). Golul de 45 de zile fără un organ de conducere și fără ordonator de credite și lipsa unui succesor pentru obligații pot genera litigii. Atribuirea către Guvern, prin HG, a destinației patrimoniului unei instituții finanțate prin bugetul Senatului e admisibilă, fiind o delegare prin lege, dar ar fi mai coerent ca Senatul să preia patrimoniul alături de arhivă. Drepturile salariale și compensațiile angajaților rămân protejate de legislația muncii (art. 41 din Constituție), pentru că proiectul nu le înlătură expres. Formularea art. 3 trebuie totuși clarificată.",
+      "euLawNote": "Directiva (UE) 2018/958 nu e incidentă, pentru că legea nu reglementează o profesie. Directiva (UE) 2015/1535 (TRIS) nu e incidentă, pentru că nu sunt vizate servicii ale societății informaționale sau reglementări tehnice. Nu există impact asupra concurenței sau a pieței unice. Directiva 98/59/CE privind concedierile colective exclude, la art. 1 alin. (2) lit. b), lucrătorii organismelor administrației publice. Codul muncii aplică însă procedura și instituțiilor publice. Dacă există proiecte cu finanțare europeană în derulare, trebuie desemnat un succesor, pentru a evita obligații de restituire.",
+      "senatForm": {
+        "articleRef": "Art. 5 (preluarea drepturilor și obligațiilor)",
+        "proposalContent": "Art. 5 se modifică: «Senatul României preia, de la data intrării în vigoare a prezentei legi, drepturile și obligațiile ISACCL, inclusiv contractele în derulare, litigiile, creanțele și datoriile, obligațiile de raportare financiară și plata drepturilor salariale și a compensațiilor datorate personalului până la încetarea contractelor de muncă.»",
+        "argumentation": "Art. 2 oprește activitatea la intrarea în vigoare a legii, dar contractele de muncă încetează în 45 de zile. Proiectul nu spune cine plătește salariile în acest interval, cine e ordonator de credite și cine răspunde de contractele, datoriile și procesele institutului. Fără un succesor clar, creditorii și angajații riscă blocaje și litigii.",
+        "otherComments": "La art. 3, «plata oricăror indemnizații» trebuie să vizeze doar indemnizațiile membrilor organelor de conducere, nu compensațiile legale la concediere. La art. 4, bunurile primite în folosință de la RA-APPS trebuie restituite acesteia, nu redistribuite prin HG."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -143,7 +171,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:13:46.046Z",
+      "replacedAt": "2026-11-24T15:04:38.664Z",
       "reasons": [
         "model"
       ]

@@ -2,7 +2,7 @@
   "billId": "PL-x 437/2026",
   "slug": "plx-437-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T13:38:50.805Z",
+  "updatedAt": "2026-11-24T15:07:49.410Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,12 +31,12 @@
     "key": "5599d3019440dc67"
   },
   "consensus": {
-    "riskScore": 3.5,
+    "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Restituirea permisului străin contra dovezii de plată a amenzii — o modificare redundantă și mai vagă decât legea actuală",
-    "summaryTlDr": "Proiectul vrea să condiționeze restituirea permisului străin de plata amenzii, dar această regulă este deja în vigoare într-o formă mai clară. Adoptat tacit de Senat, textul riscă să creeze ambiguități birocratice fără să rezolve încasarea amenzilor de la șoferii nerezidenți.",
-    "initiatorClaim": "Inițiatorii susțin că lipsa unui mecanism de recuperare a amenzilor rutiere de la șoferii străini afectează bugetul de stat, siguranța rutieră și concurența loială față de transportatorii români. Ei propun condiționarea restituirii permisului străin de plata amenzii și stabilirea unui cont unic de încasare.",
-    "realityCheck": "În realitate, art. 113 alin. (1^1) din OUG nr. 195/2002 cere deja prezentarea dovezii achitării amenzii pentru restituirea anticipată a permisului străin, într-o formulare chiar mai precisă decât proiectul. Modificarea propusă înlocuiește expresia actuală cu formula mai vagă „pe baza înscrisului care face dovada că amenda a fost achitată” și se aplică oricum doar cazurilor cu suspendarea permisului, nu tuturor amenzilor rutiere aplicate străinilor. Singura noutate reală, Art. II, obligă vag Ministerul Finanțelor să „comunice” un cont unic în 90 de zile, fără să spună cui, prin ce act sau cum se rezolvă blocajul informatic al Legii nr. 203/2018.",
+    "plainTitle": "Șoferii străini cu permisul suspendat: reformulare a regulii de restituire plus un cont unic pentru amenzi",
+    "summaryTlDr": "Proiectul e benign și aproape cosmetic. Nu creează mecanismul de recuperare a amenzilor de la străini pe care îl promite expunerea de motive. Reformulează o regulă care există deja și cere ministerului să comunice un cont de plată.",
+    "initiatorClaim": "Inițiatorii spun că România nu are un mecanism eficient de încasare a amenzilor de circulație aplicate străinilor. Asta ar crea concurență neloială față de transportatorii români și ar priva bugetul de stat de venituri.",
+    "realityCheck": "Art. I rescrie art. 113 alin. (1¹) din OUG 195/2002. Și azi, șoferul cu permis străin își poate recupera documentul înainte de plecarea din țară dacă dovedește plata amenzii. Noua formă înlocuiește «amenda aplicată pentru contravenția care a determinat suspendarea» cu simplul «amenda», deci textul devine mai vag. Singurul element nou e Art. II: ministerul trebuie să «comunice», în 90 de zile, un cont unic pentru plata amenzilor de către străini, dar textul nu spune cui, cum și cu ce consecință dacă termenul nu e respectat.",
     "affectedGroups": [
       "Șoferi & Auto",
       "Justiție & Drepturi Civile",
@@ -44,10 +44,10 @@
       "Contabili & Fiscalitate"
     ],
     "senatForm": {
-      "articleRef": "Art. I și Art. II (PL-x 437/2026)",
-      "proposalContent": "Eliminarea Art. I (condiția există deja, mai clar, în art. 113 alin. (1^1) OUG 195/2002) sau precizarea expresă a acceptării dovezii electronice de plată. La Art. II: «În termen de 90 de zile, Ministerul Finanțelor publică în Monitorul Oficial și pe site-ul propriu și comunică MAI contul unic pentru plata amenzilor de către nerezidenți.»",
-      "argumentation": "Forma în vigoare a art. 113 alin. (1^1) prevede deja dovada achitării amenzii aferente contravenției ce a dus la suspendare. Textul propus reduce claritatea (art. 1 alin. 5 Constituție) și restrânge dovada la «înscris». Art. II folosește denumirea veche «Ministerul Finanțelor Publice» și nu precizează cui și cum se comunică contul unic.",
-      "otherComments": "Proiectul a trecut tacit de Senat fără corecții. Pentru încasarea reală a amenzilor de la nerezidenți e necesară operaționalizarea sistemului informatic din Legea nr. 203/2018 și corelarea cu regimul plângerii contravenționale, nu reformularea mai vagă a unui alineat deja în vigoare."
+      "articleRef": "Art. I (art.113 alin.1¹ OUG 195/2002) și Art. II",
+      "proposalContent": "Art.I: se păstrează condiția actuală: «dovada achitării amenzii aplicate pentru contravenția care a determinat suspendarea». Art.II: «În 90 de zile de la intrarea în vigoare a legii, Ministerul Finanțelor publică, pe site-ul propriu și al IGPR, în română și engleză, contul unic pentru plata amenzilor de către persoanele fără domiciliu în România.»",
+      "argumentation": "Noua formulare a art.113 alin.(1¹) pierde legătura dintre amendă și contravenția care a dus la suspendare, deci e mai puțin previzibilă (art.1 alin.5 Const.). Art.II folosește denumirea veche a ministerului, nu spune cui se comunică contul și leagă termenul de «modificările propuse»; publicarea pe site face contul accesibil efectiv șoferilor străini.",
+      "otherComments": "Proiectul nu creează un mecanism real de recuperare a amenzilor de la nerezidenți, cum promite expunerea de motive. Recomand ca soluțiile efective să fie urmărite separat, prin aplicarea Legii nr. 5/2014 și transpunerea Directivei (UE) 2024/3237 (care modifică Directiva 2015/413), unde se află instrumentele de executare transfrontalieră."
     }
   },
   "council": {
@@ -86,8 +86,36 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 47767,
+      "sourceEndMarker": "SF-197AF44C",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Șoferii străini cu permisul suspendat: reformulare a regulii de restituire plus un cont unic pentru amenzi",
+      "verdictShort": "Proiectul e benign și aproape cosmetic. Nu creează mecanismul de recuperare a amenzilor de la străini pe care îl promite expunerea de motive. Reformulează o regulă care există deja și cere ministerului să comunice un cont de plată.",
+      "initiatorClaim": "Inițiatorii spun că România nu are un mecanism eficient de încasare a amenzilor de circulație aplicate străinilor. Asta ar crea concurență neloială față de transportatorii români și ar priva bugetul de stat de venituri.",
+      "realityCheck": "Art. I rescrie art. 113 alin. (1¹) din OUG 195/2002. Și azi, șoferul cu permis străin își poate recupera documentul înainte de plecarea din țară dacă dovedește plata amenzii. Noua formă înlocuiește «amenda aplicată pentru contravenția care a determinat suspendarea» cu simplul «amenda», deci textul devine mai vag. Singurul element nou e Art. II: ministerul trebuie să «comunice», în 90 de zile, un cont unic pentru plata amenzilor de către străini, dar textul nu spune cui, cum și cu ce consecință dacă termenul nu e respectat.",
+      "affectedGroups": [
+        "Șoferi & Auto",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. I nu schimbă substanța art. 113 alin. (1¹) în vigoare. Rămân aceleași condiții: cerere la șeful poliției rutiere, cel mult o zi lucrătoare înainte de părăsirea țării, dovada plății. Dispare însă legătura expresă dintre amendă și contravenția care a dus la suspendare, deci nu mai e clar ce amendă trebuie achitată.",
+        "Art. II este o normă de executare fără destinatar și fără sancțiune. Nu precizează cui se comunică contul (public, poliție, autorități străine). Folosește denumirea «Ministerul Finanțelor Publice», depășită față de actualul «Ministerul Finanțelor». Leagă termenul de «intrarea în vigoare a modificărilor propuse la art. I», o formulă improprie pentru o lege adoptată.",
+        "Proiectul nu atinge cauzele reale descrise chiar în expunerea de motive: transmiterea proceselor-verbale către ANAF/AFCN, neimplementarea seriei unice și a titlului de creanță electronic din Legea 203/2018, executarea transfrontalieră prin Legea 5/2014. Exemplul de la Vâlcea (1.899 străini sancționați, mai ales cu avertisment) nu e rezolvat de text.",
+        "Senatul a adoptat proiectul tacit, în baza art. 75 alin. (2) teza a III-a din Constituție, fără dezbatere de fond.",
+        "Formula «pe baza înscrisului» ar putea fi citită restrictiv, ca obligație de a prezenta un document pe hârtie. Practic, dovezile de plată electronice sunt înscrisuri după Codul de procedură civilă, deci riscul este minor."
+      ],
+      "blindSpotsCaught": "Expunerea de motive citează greșit «Directiva 3237/2024». Actul corect este Directiva (UE) 2024/3237, care modifică Directiva (UE) 2015/413. Adevărata pârghie pentru executarea transfrontalieră a amenzilor ține de transpunerea acestei directive și de modificarea Legii 5/2014, nu de art. 113 din OUG 195/2002. În plus, noua redactare a art. 113 alin. (1¹) elimină referirea la contravenția care a determinat suspendarea. Asta poate deschide dispute: i se poate cere unui străin plata tuturor amenzilor înainte de restituire? Sau ajunge plata uneia oarecare?",
+      "constitutionalityNote": "Proiectul nu ridică probleme constituționale majore. Pe previzibilitate (art. 1 alin. (5)), noua formă a art. 113 alin. (1¹) e ușor mai vagă decât cea în vigoare, iar Art. II are o redactare deficitară: destinatar neprecizat, denumire veche a ministerului, termen raportat la «modificări propuse». Acestea sunt deficiențe de tehnică legislativă (Legea 24/2000), nu vicii de neconstituționalitate. Tratamentul diferit al titularilor de permise străine există deja și are o justificare obiectivă, faptul că nu au domiciliu în România, deci nu încalcă art. 16.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: proiectul nu reglementează accesul la profesii. Nici procedura TRIS (Directiva 2015/1535) nu se aplică: nu sunt reglementări tehnice sau servicii ale societății informaționale. Pe piața unică și nediscriminare (art. 18 TFUE), restituirea anticipată a permisului condiționată de plată e o facilitate pentru nerezidenți, nu o restricție nouă. Cadrul UE relevant este Directiva 2015/413, modificată de Directiva (UE) 2024/3237. Proiectul nu transpune și nu operaționalizează nimic din acestea.",
+      "senatForm": {
+        "articleRef": "Art. I (art.113 alin.1¹ OUG 195/2002) și Art. II",
+        "proposalContent": "Art.I: se păstrează condiția actuală: «dovada achitării amenzii aplicate pentru contravenția care a determinat suspendarea». Art.II: «În 90 de zile de la intrarea în vigoare a legii, Ministerul Finanțelor publică, pe site-ul propriu și al IGPR, în română și engleză, contul unic pentru plata amenzilor de către persoanele fără domiciliu în România.»",
+        "argumentation": "Noua formulare a art.113 alin.(1¹) pierde legătura dintre amendă și contravenția care a dus la suspendare, deci e mai puțin previzibilă (art.1 alin.5 Const.). Art.II folosește denumirea veche a ministerului, nu spune cui se comunică contul și leagă termenul de «modificările propuse»; publicarea pe site face contul accesibil efectiv șoferilor străini.",
+        "otherComments": "Proiectul nu creează un mecanism real de recuperare a amenzilor de la nerezidenți, cum promite expunerea de motive. Recomand ca soluțiile efective să fie urmărite separat, prin aplicarea Legii nr. 5/2014 și transpunerea Directivei (UE) 2024/3237 (care modifică Directiva 2015/413), unde se află instrumentele de executare transfrontalieră."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -141,7 +169,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:38:50.805Z",
+      "replacedAt": "2026-11-24T15:07:49.410Z",
       "reasons": [
         "model"
       ]

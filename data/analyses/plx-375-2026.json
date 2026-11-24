@@ -2,7 +2,7 @@
   "billId": "PL-x 375/2026",
   "slug": "plx-375-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T13:13:00.071Z",
+  "updatedAt": "2026-11-24T15:04:18.633Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,12 +31,12 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 5.5,
+    "riskScore": 5.3,
     "riskLevel": "yellow",
-    "plainTitle": "Rente și scutiri fiscale pentru olimpicii internaționali și profesorii lor, dar cu reguli vagi și interdicție la munca pentru firme străine",
-    "summaryTlDr": "Intenția de a recompensa performanța școlară este lăudabilă, însă proiectul adoptat de Senat este redactat atât de defectuos încât devine inaplicabil, vulnerabil la CCR și contrar dreptului UE. Lasă sumele și durata la bunul-plac al ministerelor, blochează munca pentru angajatori străini chiar și de acasă și creează un cost bugetar complet necalculat.",
-    "initiatorClaim": "Inițiatorul susține că vrea să oprească exodul tinerelor elite și să motiveze profesorii performanți, oferindu-le olimpicilor internaționali și coordonatorilor lor fie o rentă de merit pe durată determinată, fie facilități fiscale, după modelul rentelor sportivilor.",
-    "realityCheck": "În realitate, legea nu fixează nici cuantumul exact („până la 50%”), nici durata exactă („maximum 10 ani”) și uită chiar să scrie dacă renta este lunară sau anuală, pasând totul către norme metodologice. În plus, elimină de la beneficii olimpicii care trăiesc în România dar lucrează cu contract de muncă pentru un angajator din străinătate, omite limita de 10 ani în cazul profesorilor și taie impozite locale fără a modifica Codul fiscal și fără a estima costul bugetar.",
+    "plainTitle": "Bani sau scutiri de taxe pentru olimpicii internaționali și profesorii lor",
+    "summaryTlDr": "Scopul e bun și legitim, dar textul e scris în grabă. Renta pentru profesori nu are limită de timp, sumele sunt lăsate la discreția normelor, iar condiția „fără contract cu angajator străin” intră în conflict cu dreptul UE. Costul nu este cuantificat, iar o parte din el cade pe bugetele locale fără compensare.",
+    "initiatorClaim": "Inițiatorul vrea să recunoască pe termen lung performanța olimpicilor internaționali și a profesorilor care i-au pregătit, după modelul rentei pentru sportivii olimpici, și să reducă exodul tinerilor de elită.",
+    "realityCheck": "Olimpicii aleg ireversibil între o rentă de până la 10 ani (până la 50%/35%/20% din salariul mediu brut) și scutirea de impozit pe locuință și pe un autoturism, condiționate de cetățenie, domiciliu și lipsa unui contract de muncă cu un angajator străin. Profesorilor li se aplică doar art.5 alin.(2)-(3), deci renta lor nu are durată maximă, cumulul pentru mai mulți elevi nu este reglementat, iar cuantumul concret („până la”) este lăsat integral normelor metodologice. Nu se precizează dacă legea acoperă și medaliile obținute înainte de intrarea în vigoare, ceea ce poate multiplica masiv costul.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Angajați & HR",
@@ -44,10 +44,10 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 3 alin. (1) lit. d), Art. 5 și Art. 7",
-      "proposalContent": "Eliminarea art. 3 alin. (1) lit. d) privind interdicția CIM cu angajatori străini. La art. 5 alin. (1)-(2), precizarea periodicității lunare, a cuantumului și duratei fixe (fără „până la”/„maximum”) și a regulii de cumul. La art. 7, adăugarea trimiterii la art. 5 alin. (1) și reguli clare pentru cumulul profesorilor.",
-      "argumentation": "Interdicția CIM cu angajatori din UE (art. 3) încalcă art. 45 TFUE (libera circulație a lucrătorilor). Formulele vagi („până la”, „maximum”) și lipsa periodicității încalcă art. 1 alin. (5) din Constituție, lăsând dreptul la discreția normelor. Omiterea art. 5 alin. (1) în art. 7 lasă renta profesorilor fără durată determinată.",
-      "otherComments": "Solicităm fișă financiară (art. 138 alin. 5 Constituție), integrarea facilităților fiscale (art. 6) în Codul fiscal cu compensarea bugetelor locale, clarificarea aplicării în timp (doar pentru viitor sau și retroactiv) și corelarea termenului de intrare în vigoare (art. 10: 30 zile) cu cel pentru norme (art. 8: 60 zile)."
+      "articleRef": "Art. 3 alin. (1) lit. d)",
+      "proposalContent": "Se elimină art.3 alin.(1) lit.d). Legătura beneficiarului cu România rămâne asigurată de condiția domiciliului stabil pe toată durata beneficiului (art.3 alin.(1) lit.b)) și de suspendarea de drept a rentei la pierderea domiciliului (art.5 alin.(3)).",
+      "argumentation": "Interdicția unui contract cu angajator străin restrânge libera circulație a lucrătorilor (art.45 TFUE, Reg. 492/2011) și penalizează telemunca unui rezident care plătește impozit în România. Nu e proporțională, domiciliul ancorează deja beneficiarul. Termenul «derulează» e vag și nu acoperă PFA sau contracte de servicii.",
+      "otherComments": "Art.7 trimite doar la art.5 alin.(2)-(3): renta profesorilor nu are durată maximă și nici reguli de cumul pentru mai mulți olimpici. Propun trimitere și la art.5 alin.(1) și art.3 alin.(1) lit.c). Lipsesc fișa financiară (art.138 alin.(5) Constituție) și precizarea dacă legea vizează rezultate anterioare intrării în vigoare."
     }
   },
   "council": {
@@ -88,8 +88,39 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 47158,
+      "sourceEndMarker": "SF-E3597B85",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Bani sau scutiri de taxe pentru olimpicii internaționali și profesorii lor",
+      "verdictShort": "Scopul e bun și legitim, dar textul e scris în grabă. Renta pentru profesori nu are limită de timp, sumele sunt lăsate la discreția normelor, iar condiția „fără contract cu angajator străin” intră în conflict cu dreptul UE. Costul nu este cuantificat, iar o parte din el cade pe bugetele locale fără compensare.",
+      "initiatorClaim": "Inițiatorul vrea să recunoască pe termen lung performanța olimpicilor internaționali și a profesorilor care i-au pregătit, după modelul rentei pentru sportivii olimpici, și să reducă exodul tinerilor de elită.",
+      "realityCheck": "Olimpicii aleg ireversibil între o rentă de până la 10 ani (până la 50%/35%/20% din salariul mediu brut) și scutirea de impozit pe locuință și pe un autoturism, condiționate de cetățenie, domiciliu și lipsa unui contract de muncă cu un angajator străin. Profesorilor li se aplică doar art.5 alin.(2)-(3), deci renta lor nu are durată maximă, cumulul pentru mai mulți elevi nu este reglementat, iar cuantumul concret („până la”) este lăsat integral normelor metodologice. Nu se precizează dacă legea acoperă și medaliile obținute înainte de intrarea în vigoare, ceea ce poate multiplica masiv costul.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Justiție & Drepturi Civile",
+        "Proprietari & Imobiliare",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Art.7 trimite doar la art.5 alin.(2) și (3), nu și la alin.(1). Renta cadrelor didactice nu are deci limita de 10 ani și poate fi interpretată ca nelimitată. Nu se spune nici ce cuantum primește un profesor cu mai mulți olimpici sau cu medalii diferite.",
+        "Art.5 alin.(2) stabilește doar plafoane („până la 50%/35%/20%”), fără criterii de individualizare. Cuantumul real ajunge să fie decis prin norme ale ministerului, ceea ce ridică probleme de previzibilitate (art.1 alin.(5) din Constituție).",
+        "Art.3 alin.(1) lit.d) exclude beneficiarul care are un contract de muncă cu un angajator din afara României, chiar dacă locuiește și plătește impozite în România. Măsura restrânge libera circulație a lucrătorilor (art.45 TFUE) și discriminează telemunca transfrontalieră.",
+        "Art.6 scutește de impozitul pe clădiri, terenuri și autoturism, adică de venituri ale bugetelor locale, fără mecanism de compensare și fără modificarea Codului fiscal. Art.9 acoperă din bugetul de stat doar sumele „necesare aplicării”, deci nu și pierderea primăriilor.",
+        "Art.5 alin.(1) leagă începutul rentei fie de „anul următor obținerii rezultatului”, fie de împlinirea vârstei de 18 ani, fără o regulă de departajare. Cumulul mai multor medalii nu este reglementat, iar aplicarea în timp (medalii obținute înainte de lege) rămâne neclară.",
+        "Art.8 fixează termenul pentru norme la 60 de zile de la publicare, dar legea intră în vigoare la 30 de zile (art.10). Între cele două momente, dreptul există fără procedură de acordare."
+      ],
+      "blindSpotsCaught": "Cea mai importantă scăpare: art.7 omite trimiterea la art.5 alin.(1), deci renta profesorilor nu are durată limitată, și la art.3 alin.(1) lit.c), deci condiția lipsei condamnării nu li se aplică, deși olimpicilor da. Profesorilor li se cere doar domiciliul, nu și cetățenia, deci condițiile sunt asimetrice. Lipsesc fișa financiară și orice regulă de aplicare în timp, astfel încât generațiile anterioare de olimpici ar putea revendica dreptul.",
+      "constitutionalityNote": "Obiectivul e compatibil cu Constituția (art.32 – dreptul la învățătură, art.135 – stimularea cercetării). Există însă riscuri reale. (1) Art.138 alin.(5) și art.111 alin.(1): lipsesc fișa financiară și sursa concretă de finanțare, iar CCR a constatat neconstituționalitatea unor legi care instituiau cheltuieli fără estimarea impactului (ex. Dec. 593/2016, 331/2019). (2) Art.1 alin.(5): cuantumuri nedeterminate, durată neclară pentru profesori și momentul de început alternativ afectează previzibilitatea. (3) Art.16: tratamentul diferit al rezidentului care lucrează pentru un angajator străin față de cel cu angajator român nu are o justificare obiectivă evidentă. (4) Art.120-121 și autonomia financiară locală (art.9 din Carta europeană a autonomiei locale): scutirile de impozite locale fără compensare.",
+      "euLawNote": "Directiva 2018/958 nu este relevantă: legea nu reglementează accesul la o profesie. TRIS 2015/1535 nu se aplică: nu sunt servicii digitale sau reguli tehnice. Nici ajutorul de stat nu este relevant, beneficiarii fiind persoane fizice care nu desfășoară activitate economică în această calitate. Problema reală este art.3 alin.(1) lit.a) și d): condiția cetățeniei române exclude cetățenii UE rezidenți în România (art.18 și 21 TFUE, art.7 alin.(2) din Reg. 492/2011 privind avantajele sociale), iar interdicția contractului cu un angajator din alt stat membru descurajează exercitarea liberei circulații a lucrătorilor (art.45 TFUE). Condiția domiciliului poate fi justificată ca legătură reală cu statul, dar lit.d) pare disproporționată.",
+      "senatForm": {
+        "articleRef": "Art. 3 alin. (1) lit. d)",
+        "proposalContent": "Se elimină art.3 alin.(1) lit.d). Legătura beneficiarului cu România rămâne asigurată de condiția domiciliului stabil pe toată durata beneficiului (art.3 alin.(1) lit.b)) și de suspendarea de drept a rentei la pierderea domiciliului (art.5 alin.(3)).",
+        "argumentation": "Interdicția unui contract cu angajator străin restrânge libera circulație a lucrătorilor (art.45 TFUE, Reg. 492/2011) și penalizează telemunca unui rezident care plătește impozit în România. Nu e proporțională, domiciliul ancorează deja beneficiarul. Termenul «derulează» e vag și nu acoperă PFA sau contracte de servicii.",
+        "otherComments": "Art.7 trimite doar la art.5 alin.(2)-(3): renta profesorilor nu are durată maximă și nici reguli de cumul pentru mai mulți olimpici. Propun trimitere și la art.5 alin.(1) și art.3 alin.(1) lit.c). Lipsesc fișa financiară (art.138 alin.(5) Constituție) și precizarea dacă legea vizează rezultate anterioare intrării în vigoare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -146,7 +177,7 @@
         "codex": 5
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:13:00.071Z",
+      "replacedAt": "2026-11-24T15:04:18.633Z",
       "reasons": [
         "model"
       ]

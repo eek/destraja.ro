@@ -2,7 +2,7 @@
   "billId": "Pl-x 341/2026",
   "slug": "plx-341-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:12:45.858Z",
+  "updatedAt": "2026-11-24T15:04:16.503Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "key": "afdcd11e7beb9787"
   },
   "consensus": {
-    "riskScore": 5.5,
+    "riskScore": 5,
     "riskLevel": "yellow",
-    "plainTitle": "Zero impozit pe locuința principală sub 150 m², dar fără bani pentru primării și cu erori grave de redactare",
-    "summaryTlDr": "Deși promite o ușurare fiscală populară pentru proprietarii de locuințe, proiectul este redactat neglijent: suprascrie o scutire deja existentă în Codul fiscal, conține termeni nedefiniți și ar crea un gol major în bugetele locale fără nicio sursă de compensare.",
-    "initiatorClaim": "Inițiatorii susțin că vor să asigure echitate fiscală și să protejeze dreptul la locuire prin scutirea de impozit a primei clădiri cu destinație exclusiv rezidențială de până la 150 m², diferențiind locuința necesară traiului de proprietățile investiționale.",
-    "realityCheck": "În realitate, textul propus nu limitează scutirea la «prima» sau «singura» locuință, astfel că și proprietarii cu mai multe imobile ar beneficia de scutire pentru locuința declarată «principală». Măsura ar elimina o mare parte din veniturile proprii ale primăriilor fără fișă financiară sau compensare, iar din eroare de tehnică legislativă introduce o nouă literă r) exact unde există deja literele q) și r) în vigoare.",
+    "plainTitle": "Fără impozit pe casa în care locuiești, dacă are cel mult 150 mp",
+    "summaryTlDr": "Este o relaxare fiscală reală și ușor de înțeles pentru milioane de proprietari, dar textul e redactat neglijent. Ar crea o a doua literă r), folosește o noțiune nedefinită și nu prevede nicio compensare pentru bugetele locale, care pierd una dintre principalele surse de venit.",
+    "initiatorClaim": "Inițiatorii spun că vor un tratament fiscal echitabil pentru locuința de folosință proprie, separată de proprietatea investițională. Ei propun scutirea de impozit pentru prima clădire, cu destinație exclusiv rezidențială, de până la 150 mp.",
+    "realityCheck": "Articolul unic scutește orice clădire deținută de persoane fizice și „utilizată ca locuință principală”, de până la 150 mp desfășurați, fără condiția „primei clădiri” și fără plafon de venit sau de valoare. Din expunerea de motive, textul nu preia nici limitarea la o singură clădire, nici destinația „exclusiv rezidențială”. Costul cade în întregime pe primării și consilii locale. Proiectul nu are fișă financiară și nu prevede nicio compensare, iar pragul de 150 mp creează un salt brusc: la 151 mp se plătește impozit pe toată suprafața.",
     "affectedGroups": [
       "Proprietari & Imobiliare",
       "Contabili & Fiscalitate",
@@ -44,10 +44,10 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Articol unic, pct. 1 (art. 456 alin. (1))",
-      "proposalContent": "La art. 456 alin. (1), după lit. r) se introduce lit. s): «s) singura clădire rezidențială folosită ca domiciliu de persoanele fizice, pentru primii 150 m² suprafață construită desfășurată, cu excepția încăperilor folosite pentru activități economice sau profesionale.» Aplicarea se face doar după stabilirea sursei de compensare a bugetelor locale.",
-      "argumentation": "Textul actual introduce greșit lit. r) după lit. p), ignorând că lit. q) și r) există deja în Codul fiscal. Sintagma «locuință principală» nu este definită legal și contrazice expunerea de motive (care vizează prima locuință). Pragul fix creează inechități între 150 m² și 151 m², iar lipsa compensării încalcă autonomia financiară locală.",
-      "otherComments": "Solicităm obligarea inițiatorilor să obțină fișa financiară de la Guvern (art. 111 alin. 1 și art. 138 alin. 5 Constituție), cu estimarea pierderilor pentru primării și mecanismul de compensare, precum și clarificarea regimului coproprietății (corelare cu art. 456 alin. 5) și a termenului de intrare în vigoare (art. 4 Cod fiscal)."
+      "articleRef": "Art. unic – art. 456 alin.(1) lit. r) C. fiscal",
+      "proposalContent": "Art. 456 alin.(1) lit. s): «clădirea folosită ca domiciliu, aflată în proprietatea sau coproprietatea persoanelor fizice, cu suprafața construită desfășurată de până la 150 m² inclusiv, pentru o singură clădire per contribuabil, cu excepția încăperilor folosite pentru activități economice». Alin.(5) se aplică și lit. s). Intră în vigoare la 1 ianuarie a anului următor.",
+      "argumentation": "Litera r) există deja (organizațiile minorităților), deci textul ar crea două litere r). «Locuință principală» nu e definită în Codul fiscal, care folosește «domiciliu». Expunerea promite scutire doar pentru prima clădire, dar textul nu o limitează. Fără regula de la alin.(5), cotele terților sunt neclare.",
+      "otherComments": "Impozitul pe clădiri e venit propriu al bugetelor locale. Lipsesc fișa financiară (art. 15 L.500/2002) și sursa de finanțare (art. 138 alin.(5) Constituție). Propun compensarea pierderilor UAT de la bugetul de stat și scutirea primilor 150 m² și pentru casele mai mari, ca să evităm pragul brusc."
     }
   },
   "council": {
@@ -88,8 +88,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 51588,
+      "sourceEndMarker": "SF-6E78F206",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Fără impozit pe casa în care locuiești, dacă are cel mult 150 mp",
+      "verdictShort": "Este o relaxare fiscală reală și ușor de înțeles pentru milioane de proprietari, dar textul e redactat neglijent. Ar crea o a doua literă r), folosește o noțiune nedefinită și nu prevede nicio compensare pentru bugetele locale, care pierd una dintre principalele surse de venit.",
+      "initiatorClaim": "Inițiatorii spun că vor un tratament fiscal echitabil pentru locuința de folosință proprie, separată de proprietatea investițională. Ei propun scutirea de impozit pentru prima clădire, cu destinație exclusiv rezidențială, de până la 150 mp.",
+      "realityCheck": "Articolul unic scutește orice clădire deținută de persoane fizice și „utilizată ca locuință principală”, de până la 150 mp desfășurați, fără condiția „primei clădiri” și fără plafon de venit sau de valoare. Din expunerea de motive, textul nu preia nici limitarea la o singură clădire, nici destinația „exclusiv rezidențială”. Costul cade în întregime pe primării și consilii locale. Proiectul nu are fișă financiară și nu prevede nicio compensare, iar pragul de 150 mp creează un salt brusc: la 151 mp se plătește impozit pe toată suprafața.",
+      "affectedGroups": [
+        "Proprietari & Imobiliare",
+        "Toți cetățenii",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Articol unic pct. 1: textul introduce „litera r) după litera p)”, dar art. 456 alin. (1) are deja literele q) (servicii sociale) și r) (organizațiile minorităților naționale). Ar rezulta două litere r), iar actuala literă q) ar fi ocolită, o eroare de tehnică legislativă care trebuie corectată prin renumerotare (lit. s).",
+        "Noțiunea „locuință principală” nu este definită în Codul fiscal. Scutirile similare de la lit. o) și p) și reducerile de la alin. (2^4)-(2^6) folosesc „clădirea folosită ca domiciliu”, legată de actul de identitate. Termenul nou lasă fiecare primărie să decidă cum se dovedește calitatea de locuință principală.",
+        "Textul nu limitează scutirea la o singură clădire per contribuabil. Coproprietari diferiți sau soți cu domicilii declarate separat ar putea cere scutirea pentru mai multe imobile, ceea ce contrazice expunerea de motive („strict la prima clădire”).",
+        "Regula de la art. 456 alin. (5), prin care scutirea nu se acordă pentru cota-parte a terților, se aplică doar literelor o) și p). Pentru noua literă rămâne neclar dacă se scutește întreaga clădire aflată în coproprietate sau numai cota celui care locuiește efectiv acolo.",
+        "Impozitul pe clădiri al persoanelor fizice este venit propriu al bugetelor locale (Legea nr. 273/2006). Scutirea generală a locuințelor de până la 150 mp, adică marea majoritate a apartamentelor și caselor, ar elimina o parte substanțială din această sursă, fără fișă financiară și fără mecanism de compensare de la bugetul de stat.",
+        "Proiectul nu stabilește data aplicării. Potrivit art. 4 din Codul fiscal, modificarea s-ar aplica de la 1 ianuarie a anului următor publicării, doar dacă legea e publicată cu cel puțin 6 luni înainte. Altfel, aplicarea se amână cu încă un an."
+      ],
+      "blindSpotsCaught": "Pe lângă dubla literă r), textul propus nu corespunde expunerii de motive. Expunerea vorbește de „prima clădire” și „destinație exclusiv rezidențială”, textul doar de „locuință principală” și exceptează încăperile cu activități economice, deci admite implicit utilizarea mixtă. Lipsește corelarea cu alin. (5) (cotele terților) și cu alin. (2^5)-(2^7): o persoană cu handicap grav care avea reducere de 50% ar primi acum scutire totală doar dacă locuința are sub 150 mp. Peste prag ar rămâne la reducerea de 50%, deci persoane vulnerabile ar putea fi tratate mai puțin favorabil decât proprietari fără nicio vulnerabilitate, dar cu locuințe mai mici.",
+      "constitutionalityNote": "Fondul nu ridică probleme: legiuitorul are o largă marjă de apreciere în acordarea facilităților fiscale (art. 56, art. 139 Constituție), iar criteriul folosinței ca locuință și plafonul de suprafață sunt obiective și nediscriminatorii. Riscurile sunt procedurale și de redactare. (1) Art. 138 alin. (5) cere stabilirea sursei de finanțare pentru orice cheltuială bugetară, iar o reducere masivă de venituri locale fără fișă financiară (art. 15 din Legea nr. 500/2002, Legea nr. 69/2010) și fără punctul de vedere al Guvernului (art. 111 alin. (1)) a fost sancționată în jurisprudența CCR. (2) Art. 120 (autonomia locală) și art. 9 din Carta europeană a autonomiei locale cer resurse proprii suficiente; pierderea necompensată a impozitului pe clădiri poate fi contestată de autoritățile locale. (3) Noțiunea nedefinită „locuință principală” și dubla numerotare afectează claritatea și previzibilitatea legii (art. 1 alin. (5)).",
+      "euLawNote": "Impact redus asupra dreptului UE. Scutirea vizează persoane fizice pentru locuința proprie, nu întreprinderi, deci nu intră sub regulile ajutorului de stat (art. 107 TFUE). Pentru încăperile cu activități economice, excepția este prevăzută expres. Directiva (UE) 2018/958 nu se aplică, fiindcă nu se reglementează accesul la profesii, iar Directiva (UE) 2015/1535 (TRIS) nici atât, fiindcă nu există reguli tehnice sau servicii digitale. Scutirea nu condiționează beneficiul de cetățenie, ci de proprietate și folosință, așa că cetățenii UE rezidenți în România beneficiază în aceleași condiții, compatibil cu art. 18 și 21 TFUE. Singurul aspect european indirect este cadrul fiscal-bugetar: pierderea de venituri fără compensare contează în contextul procedurii de deficit excesiv în care se află România.",
+      "senatForm": {
+        "articleRef": "Art. unic – art. 456 alin.(1) lit. r) C. fiscal",
+        "proposalContent": "Art. 456 alin.(1) lit. s): «clădirea folosită ca domiciliu, aflată în proprietatea sau coproprietatea persoanelor fizice, cu suprafața construită desfășurată de până la 150 m² inclusiv, pentru o singură clădire per contribuabil, cu excepția încăperilor folosite pentru activități economice». Alin.(5) se aplică și lit. s). Intră în vigoare la 1 ianuarie a anului următor.",
+        "argumentation": "Litera r) există deja (organizațiile minorităților), deci textul ar crea două litere r). «Locuință principală» nu e definită în Codul fiscal, care folosește «domiciliu». Expunerea promite scutire doar pentru prima clădire, dar textul nu o limitează. Fără regula de la alin.(5), cotele terților sunt neclare.",
+        "otherComments": "Impozitul pe clădiri e venit propriu al bugetelor locale. Lipsesc fișa financiară (art. 15 L.500/2002) și sursa de finanțare (art. 138 alin.(5) Constituție). Propun compensarea pierderilor UAT de la bugetul de stat și scutirea primilor 150 m² și pentru casele mai mari, ca să evităm pragul brusc."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -145,7 +175,7 @@
         "codex": 5
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:12:45.858Z",
+      "replacedAt": "2026-11-24T15:04:16.503Z",
       "reasons": [
         "model"
       ]

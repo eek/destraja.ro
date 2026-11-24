@@ -2,7 +2,7 @@
   "billId": "Pl-x 461/2026",
   "slug": "plx-461-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:14:03.263Z",
+  "updatedAt": "2026-11-24T15:04:51.947Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "key": "23519bf1e4b9764f"
   },
   "consensus": {
-    "riskScore": 4,
-    "riskLevel": "yellow",
-    "plainTitle": "Desființarea Institutului Român pentru Drepturile Omului (IRDO)",
-    "summaryTlDr": "Scopul de economisire a banilor publici prin închiderea unei instituții inactive este legitim și nu afectează negativ cetățenii sau mediul de afaceri, dar proiectul este redactat deficitar: abrogă legea din prima zi, lăsând transferul patrimoniului și concedierile în vid juridic. Fără amendamente de tranziție în comisie, legea riscă blocaje administrative, procese de muncă și obiecții de neconstituționalitate.",
-    "initiatorClaim": "Inițiatorii susțin că IRDO este o instituție ineficientă, finanțată cu 1,5–3 milioane de lei anual din bugetul Parlamentului fără rezultate concrete și cu cel mai slab calificativ ONU (C), motiv pentru care desființarea sa ar elimina o risipă bugetară.",
-    "realityCheck": "Textul propus desființează IRDO, îi încetează activitatea și abrogă Legea nr. 9/1991 chiar la data intrării în vigoare (art. 1, 2 și 7), însă stabilește termene ulterioare de 30 de zile pentru transferul patrimoniului/arhivei (art. 4 și 6) și de 45 de zile pentru încetarea contractelor de muncă (art. 3), fără să desemneze o comisie de lichidare sau un reprezentant legal. În plus, Camera Deputaților preia explicit doar patrimoniul și raportările financiare (art. 4–5), lăsând nereglementate litigiile în curs, contractele active, datoriile și accesul public la centrul de documentare.",
+    "riskScore": 3.7,
+    "riskLevel": "green",
+    "plainTitle": "Se desființează Institutul Român pentru Drepturile Omului (IRDO), iar bunurile și arhiva lui trec la Camera Deputaților",
+    "summaryTlDr": "Este o lege scurtă de desființare a unei instituții finanțate de Parlament. Nu are efecte asupra cetățenilor sau firmelor. Riscul real e tehnic: textul nu spune cine preia datoriile, contractele și procesele IRDO și nici ce se întâmplă cu centrul de documentare public.",
+    "initiatorClaim": "Inițiatorii USR susțin că IRDO e un „institut-fantomă”, fără rezultate, fără control parlamentar real și cu o conducere netransparentă. Potrivit expunerii de motive, desființarea ar economisi circa 1,5 milioane lei pe an din bugetul Parlamentului.",
+    "realityCheck": "Proiectul are 7 articole. Activitatea IRDO încetează la intrarea în vigoare (art. 2). Contractele de muncă încetează în 45 de zile (art. 3). Patrimoniul, arhiva și raportările financiare trec la Camera Deputaților în 30 de zile (art. 4-6), iar Legea nr. 9/1991 se abrogă (art. 7). Textul nu reglementează succesiunea drepturilor și obligațiilor: contracte în derulare, datorii, litigii pendinte, donații primite „în regim de fundație”. Nu spune nici ce devine centrul de documentare deschis publicului. În plus, între încetarea activității și încetarea contractelor (până la 45 de zile) angajații rămân plătiți fără activitate.",
     "affectedGroups": [
       "Angajați & HR",
       "Justiție & Drepturi Civile",
@@ -44,10 +44,10 @@
       "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. 2, Art. 3, Art. 4 și Art. 7",
-      "proposalContent": "Instituirea unei comisii de lichidare și predare-primire pentru 45 de zile de la intrarea în vigoare, abrogarea Legii nr. 9/1991 la expirarea acestui termen, preluarea expresă de către Camera Deputaților a drepturilor, obligațiilor și litigiilor în curs, precum și menținerea accesului public la fondul documentar.",
-      "argumentation": "Abrogarea Legii nr. 9/1991 din prima zi creează un vid juridic: IRDO își pierde personalitatea juridică și conducerea înainte de transferul patrimoniului (30 zile) și încetarea contractelor (45 zile). Reglementarea tranziției și a succesiunii în litigii previne riscul de neconstituționalitate (art. 1 alin. 5) și procesele de muncă.",
-      "otherComments": "Corectați și eroarea materială din art. 6 („Omuluise”) și eliminați mențiunea „cu modificările și completările ulterioare” din art. 1 și 7, întrucât Legea nr. 9/1991 nu a fost modificată. Recomandăm clarificarea instituției care va prelua rolul de instituție națională pentru drepturile omului conform Principiilor de la Paris."
+      "articleRef": "Art. 4^1 (nou) – preluare drepturi și obligații",
+      "proposalContent": "Art. 4^1. De la data intrării în vigoare a prezentei legi, Camera Deputaților preia drepturile și obligațiile IRDO, inclusiv contractele în derulare și calitatea procesuală în litigiile pendinte. Fondul documentar al IRDO se integrează în biblioteca Camerei Deputaților și rămâne accesibil publicului, gratuit.",
+      "argumentation": "Art. 4-6 transferă patrimoniul, arhiva și raportările, dar nu spun cine răspunde de datoriile, contractele și procesele IRDO după încetarea activității (art. 2). Lacuna creează incertitudine pentru creditori, foști angajați și furnizori. Centrul de documentare (art. 3 lit. a din L. 9/1991) e o resursă publică ce merită păstrată.",
+      "otherComments": "Art. 1 și 7 menționează «cu modificările și completările ulterioare», deși Legea 9/1991 nu a fost modificată (o spune chiar EM), deci sintagma trebuie eliminată. Ar fi utilă și precizarea soartei donațiilor primite «în regim de fundație» (art. 9 L. 9/1991) și a sumelor bugetare neutilizate în anul desființării."
     }
   },
   "council": {
@@ -87,8 +87,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 50450,
+      "sourceEndMarker": "SF-8BD34290",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Se desființează Institutul Român pentru Drepturile Omului (IRDO), iar bunurile și arhiva lui trec la Camera Deputaților",
+      "verdictShort": "Este o lege scurtă de desființare a unei instituții finanțate de Parlament. Nu are efecte asupra cetățenilor sau firmelor. Riscul real e tehnic: textul nu spune cine preia datoriile, contractele și procesele IRDO și nici ce se întâmplă cu centrul de documentare public.",
+      "initiatorClaim": "Inițiatorii USR susțin că IRDO e un „institut-fantomă”, fără rezultate, fără control parlamentar real și cu o conducere netransparentă. Potrivit expunerii de motive, desființarea ar economisi circa 1,5 milioane lei pe an din bugetul Parlamentului.",
+      "realityCheck": "Proiectul are 7 articole. Activitatea IRDO încetează la intrarea în vigoare (art. 2). Contractele de muncă încetează în 45 de zile (art. 3). Patrimoniul, arhiva și raportările financiare trec la Camera Deputaților în 30 de zile (art. 4-6), iar Legea nr. 9/1991 se abrogă (art. 7). Textul nu reglementează succesiunea drepturilor și obligațiilor: contracte în derulare, datorii, litigii pendinte, donații primite „în regim de fundație”. Nu spune nici ce devine centrul de documentare deschis publicului. În plus, între încetarea activității și încetarea contractelor (până la 45 de zile) angajații rămân plătiți fără activitate.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 2 oprește activitatea IRDO din prima zi. Art. 3 lasă însă contractele de muncă să mai curgă până la 45 de zile, iar textul nu spune cine plătește salariile și cine conduce instituția în acest interval.",
+        "Art. 3 trimite la încetarea contractelor „în condițiile legii”, deci se aplică regulile Codului muncii (preaviz, eventual concediere colectivă). Termenul de 45 de zile e strâns, dar realizabil. Legea nu prevede măsuri de redistribuire a personalului.",
+        "Art. 4-6 transferă către Camera Deputaților doar patrimoniul, arhiva și raportările financiare. Lipsește o normă expresă privind preluarea obligațiilor (datorii, contracte cu furnizori, litigii), ceea ce poate crea incertitudine pentru creditori și foști angajați.",
+        "Legea nr. 9/1991 (art. 9) prevede finanțarea din „bugetul Parlamentului”, adică al ambelor camere. Proiectul atribuie totul exclusiv Camerei Deputaților, fără să explice de ce Senatul e exclus.",
+        "Art. 1 și art. 7 folosesc sintagma „cu modificările și completările ulterioare”. Expunerea de motive afirmă însă chiar ea că Legea nr. 9/1991 nu a fost niciodată modificată, deci e o eroare de tehnică legislativă.",
+        "Centrul de documentare și buletinul prevăzute de art. 3 lit. a) și g) din Legea nr. 9/1991 dispar fără ca proiectul să spună dacă fondul documentar rămâne accesibil publicului."
+      ],
+      "blindSpotsCaught": "Expunerea de motive spune că IRDO e „singura instituție din România acreditată conform Principiilor de la Paris”, dar cu calificativul C. Afirmația e internă contradictorie: statutul C înseamnă, în sistemul ONU (GANHRI), lipsa conformității cu Principiile de la Paris, nu o acreditare propriu-zisă. Argumentul trebuie verificat la sursă înainte de a fi folosit în dezbatere. Desființarea nu lasă România fără instituție de drepturile omului, pentru că Avocatul Poporului (art. 58-60 din Constituție) are un mandat general în domeniu. Un alt detaliu: art. 9 din Legea nr. 9/1991 permitea donații și liberalități „în regim de fundație”. Bunurile primite cu sarcini de la donatori pot ridica probleme la transferul automat către Camera Deputaților, iar proiectul tace în această privință.",
+      "constitutionalityNote": "IRDO a fost înființat prin lege ordinară și nu are rang constituțional, deci Parlamentul îl poate desființa tot prin lege ordinară (art. 76 alin. 2 din Constituție). Camera Deputaților este decizională conform art. 75. Nu se afectează drepturi fundamentale ale cetățenilor. Garanțiile instituționale rămân la Avocatul Poporului, CNCD și instanțe. Ca previzibilitate (art. 1 alin. 5), textul e clar, dar incomplet: lipsa unei norme de succesiune pentru obligații și litigii poate genera incertitudine juridică. Corelarea dintre art. 2 și art. 3, adică încetarea imediată a activității versus contractele care mai curg până la 45 de zile, merită precizată. Sintagma „cu modificările și completările ulterioare” încalcă regulile din Legea nr. 24/2000 privind tehnica legislativă, fiindcă actul nu a fost modificat.",
+      "euLawNote": "Nu sunt incidente Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate), Directiva (UE) 2015/1535 (TRIS) sau regulile pieței unice: proiectul nu reglementează profesii, servicii sau produse. Dreptul UE nu obligă statele să mențină o instituție națională de drepturile omului de tip IRDO. Organismele de egalitate cerute de Directivele 2024/1499 și 2024/1500 sunt în România atribuția CNCD, care nu este afectat. Principiile de la Paris (Rezoluția ONU 48/134) sunt soft law. România poate primi totuși recomandări ONU sau ale Consiliului Europei privind existența unei instituții naționale conforme, rol pe care îl poate prelua Avocatul Poporului.",
+      "senatForm": {
+        "articleRef": "Art. 4^1 (nou) – preluare drepturi și obligații",
+        "proposalContent": "Art. 4^1. De la data intrării în vigoare a prezentei legi, Camera Deputaților preia drepturile și obligațiile IRDO, inclusiv contractele în derulare și calitatea procesuală în litigiile pendinte. Fondul documentar al IRDO se integrează în biblioteca Camerei Deputaților și rămâne accesibil publicului, gratuit.",
+        "argumentation": "Art. 4-6 transferă patrimoniul, arhiva și raportările, dar nu spun cine răspunde de datoriile, contractele și procesele IRDO după încetarea activității (art. 2). Lacuna creează incertitudine pentru creditori, foști angajați și furnizori. Centrul de documentare (art. 3 lit. a din L. 9/1991) e o resursă publică ce merită păstrată.",
+        "otherComments": "Art. 1 și 7 menționează «cu modificările și completările ulterioare», deși Legea 9/1991 nu a fost modificată (o spune chiar EM), deci sintagma trebuie eliminată. Ar fi utilă și precizarea soartei donațiilor primite «în regim de fundație» (art. 9 L. 9/1991) și a sumelor bugetare neutilizate în anul desființării."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -144,7 +173,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:14:03.263Z",
+      "replacedAt": "2026-11-24T15:04:51.947Z",
       "reasons": [
         "model"
       ]

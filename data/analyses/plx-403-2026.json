@@ -2,7 +2,7 @@
   "billId": "Pl-x 403/2026",
   "slug": "plx-403-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:38:59.006Z",
+  "updatedAt": "2026-11-24T15:07:40.416Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,22 +31,23 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 4,
-    "riskLevel": "yellow",
-    "plainTitle": "Alerte pe e-mail și SMS înainte să expire autorizațiile și avizele de la stat",
-    "summaryTlDr": "Intenția este utilă și benignă pentru cetățeni și firme, dar textul conține erori de redactare cu impact sancționator și creează un risc real de blocaj în achizițiile IT publice prin avizul CTE fără prag valoric. Proiectul are în prezent procedura legislativă încetată.",
-    "initiatorClaim": "Inițiatorii vor să oblige instituțiile publice să trimită notificări electronice preventive cu 60 (sau 10) zile înainte de expirarea actelor administrative individuale (autorizații, licențe, avize), pentru a preveni sancțiunile sau blocajele cauzate de uitarea termenelor.",
-    "realityCheck": "Notificarea are rol pur informativ și este opțională pentru cetățeni (fără a schimba valabilitatea actelor sau obligațiile titularilor). În practică însă, legea introduce amenzi de 4.000–20.000 lei aplicate instituțiilor de către ADR pe baza unor norme neclare și nesincronizate cu termenul de adaptare IT, fără sursă de finanțare, și blochează orice achiziție publică de software administrativ fără avizul prealabil al CTE, indiferent de valoare.",
+    "riskScore": 3.7,
+    "riskLevel": "green",
+    "plainTitle": "Statul te anunță pe e-mail sau SMS înainte să-ți expire autorizația sau licența",
+    "summaryTlDr": "Este o idee utilă și favorabilă cetățenilor: un memento gratuit și opțional, fără efecte asupra valabilității actelor. Riscurile țin de redactare: amenzi aplicate de ADR instituțiilor publice, o condiție de aplicare formulată ambiguu și lipsa oricărei surse de finanțare.",
+    "initiatorClaim": "Inițiatorii vor ca autoritățile care emit autorizații, licențe și avize cu termen să-i anunțe electronic pe beneficiari înainte de expirare. Scopul declarat este reducerea expirărilor neobservate, a sancțiunilor, a procedurilor reluate și a practicilor informale sau discreționare.",
+    "realityCheck": "Legea obligă instituțiile centrale și locale să ceară opțional date de contact la emiterea actului și să trimită o notificare cu cel puțin 60 de zile înainte de expirare (sau 10 zile pentru actele scurte). Notificarea nu produce efecte juridice: lipsa ei nu prelungește actul, iar răspunderea rămâne integral la beneficiar (art. 1 alin. 2, art. 6). Ca efecte secundare, instituțiile publice pot primi amenzi de 4.000–20.000 lei aplicate de ADR, iar orice aplicație informatică nouă pentru astfel de acte are nevoie de aviz CTE, care poate bloca achiziția.",
     "affectedGroups": [
       "Toți cetățenii",
       "IMM & Antreprenori",
-      "IT & AI"
+      "IT & AI",
+      "Șoferi & Auto"
     ],
     "senatForm": {
-      "articleRef": "Art. 13 alin. (3)-(5)",
-      "proposalContent": "Art. 13 alin. (3) se modifică pentru a supune avizării CTE doar proiectele ce depășesc pragurile valorice prevăzute de HG nr. 941/2013, iar alin. (5) se elimină sau se reformulează pentru a permite remedierea documentației fără blocarea procedurilor de achiziție deja inițiate.",
-      "argumentation": "Impunerea avizului CTE fără prag valoric ca impediment legal pentru orice aplicație ce gestionează acte administrative riscă să blocheze achizițiile IT ale primăriilor și instituțiilor mici. Totodată, trimiterea unei interdicții legale la un act infralegal (HG) afectează previzibilitatea legii (art. 1 alin. 5 Constituție).",
-      "otherComments": "De corectat și: (1) art. 2 alin. (2), înlocuirea conjuncției «sau» cu «și»; (2) art. 12 alin. (2), eliminarea sintagmei neclare «după caz» din textul contravențional; (3) art. 14 alin. (2), extinderea termenului de grație de 6 luni și asupra art. 8 alin. (1) și art. 12. Mențiune: procedura legislativă a proiectului este încetată."
+      "articleRef": "Art. 12 (Contravenții)",
+      "proposalContent": "Se elimină art. 12. Alternativ, alin. (1) devine: «Constituie contravenție nerespectarea repetată a obligațiilor de la art. 4 și art. 7 alin. (1), după expirarea termenului de conformare dispus potrivit art. 11 alin. (2).», iar alin. (2) se elimină.",
+      "argumentation": "O amendă între instituții publice mută bani dintr-un buget public în altul și nu îl ajută pe cetățean. ADR nu are rol de control asupra autorităților locale autonome (art. 120 din Constituție). Sancționarea lipsei informațiilor de la lit. f), aplicabile «după caz», e prea vagă pentru o contravenție. Art. 10-11 asigură deja răspunderea.",
+      "otherComments": "La art. 2 alin. (2), «sau» trebuie înlocuit cu «și»: obligația are sens doar când există cumulativ datele actului, data expirării și datele de contact. Proiectul nu are fișă financiară, iar adaptarea aplicațiilor în 6 luni cere o sursă de finanțare (art. 138 alin. 5 din Constituție)."
     }
   },
   "council": {
@@ -85,8 +86,41 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 48782,
+      "sourceEndMarker": "SF-5441B9BC",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Statul te anunță pe e-mail sau SMS înainte să-ți expire autorizația sau licența",
+      "verdictShort": "Este o idee utilă și favorabilă cetățenilor: un memento gratuit și opțional, fără efecte asupra valabilității actelor. Riscurile țin de redactare: amenzi aplicate de ADR instituțiilor publice, o condiție de aplicare formulată ambiguu și lipsa oricărei surse de finanțare.",
+      "initiatorClaim": "Inițiatorii vor ca autoritățile care emit autorizații, licențe și avize cu termen să-i anunțe electronic pe beneficiari înainte de expirare. Scopul declarat este reducerea expirărilor neobservate, a sancțiunilor, a procedurilor reluate și a practicilor informale sau discreționare.",
+      "realityCheck": "Legea obligă instituțiile centrale și locale să ceară opțional date de contact la emiterea actului și să trimită o notificare cu cel puțin 60 de zile înainte de expirare (sau 10 zile pentru actele scurte). Notificarea nu produce efecte juridice: lipsa ei nu prelungește actul, iar răspunderea rămâne integral la beneficiar (art. 1 alin. 2, art. 6). Ca efecte secundare, instituțiile publice pot primi amenzi de 4.000–20.000 lei aplicate de ADR, iar orice aplicație informatică nouă pentru astfel de acte are nevoie de aviz CTE, care poate bloca achiziția.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Șoferi & Auto",
+        "Proprietari & Imobiliare"
+      ],
+      "keyFindings": [
+        "Art. 1 alin. (2) și art. 6: notificarea are caracter pur informativ. Lipsa ei, întârzierea sau datele de contact greșite nu afectează valabilitatea actului ori efectele expirării, deci cetățeanul nu poate invoca lipsa notificării ca apărare.",
+        "Art. 2 alin. (2) folosește «sau» între datele actului, data expirării și datele de contact. Citit literal, obligația ar exista și când instituția are doar una dintre aceste informații, ceea ce e absurd tehnic; condițiile trebuie să fie cumulative.",
+        "Art. 12: instituțiile publice devin contravenienți, cu amenzi de 4.000–20.000 lei aplicate de Autoritatea pentru Digitalizarea României. Banii trec dintr-un buget public în altul, iar ADR capătă rol de control asupra autorităților locale autonome.",
+        "Art. 12 alin. (2) sancționează și lipsa informațiilor de la art. 5 lit. f), aplicabile «după caz». Formularea este prea vagă pentru o normă contravențională.",
+        "Art. 13 alin. (2)-(5): orice aplicație nouă pentru acte cu termen trebuie să aibă componentă de notificare și să primească avizul prealabil al CTE. Avizul negativ blochează achiziția publică, inclusiv pentru autoritățile locale, care de regulă nu intră în sfera HG 941/2013.",
+        "Art. 14: legea intră în vigoare la 90 de zile, dar art. 4 alin. (1) se aplică abia după încă 6 luni. Contravențiile pentru art. 7 alin. (1) și art. 8 alin. (1) par însă aplicabile imediat, ceea ce creează o necorelare temporală.",
+        "Proiectul nu are fișă financiară și nu indică o sursă de finanțare pentru adaptarea sistemelor informatice în 6 luni la nivelul tuturor instituțiilor."
+      ],
+      "blindSpotsCaught": "Art. 14 alin. (2) amână doar obligația de la art. 4 alin. (1), nu și sancțiunile din art. 12 pentru art. 7 alin. (1) și art. 8 alin. (1), așa că o instituție poate fi amendată înainte de expirarea perioadei de adaptare. Art. 2 alin. (1) definește sfera prin trimitere la art. 2 alin. (1) pct. 30 din Legea 500/2002, care privește instituțiile publice finanțate din bugetul de stat; pentru autoritățile locale definiția relevantă este în Legea 273/2006, deci aplicarea la primării e discutabilă. Art. 2 alin. (3) și art. 4 alin. (3) creează o fereastră îngustă: pentru un act valabil 11 zile, notificarea trebuie trimisă practic la emitere. Tabelul de semnături diferă de lista oficială (de exemplu, Rus Vasile-Ciprian apare la PNL, nu la USR), probabil din cauza extragerii OCR. Stadiul este «procedură încetată», deci proiectul nu mai produce efecte.",
+      "constitutionalityNote": "Fondul proiectului este compatibil cu Constituția și susține buna administrare și accesul la informație (art. 31). Există însă patru vulnerabilități. (1) Art. 138 alin. (5): o măsură care generează cheltuieli bugetare fără sursă de finanțare a fost sancționată constant de CCR, iar proiectul nu are fișă financiară. (2) Art. 1 alin. (5): ambiguitatea lui «sau» din art. 2 alin. (2) și sintagma «după caz» din norma contravențională (art. 12 alin. 2) afectează previzibilitatea. (3) Art. 120-121: ADR, organ al administrației centrale, sancționează autorități locale autonome, iar avizul CTE condiționează achizițiile locale, ceea ce poate fi o ingerință în autonomia locală. (4) Corelarea dintre art. 12 și art. 14 alin. (2) este deficitară.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, deoarece proiectul nu reglementează accesul la o profesie sau exercitarea ei. Directiva (UE) 2015/1535 (TRIS) nu pare aplicabilă: obligațiile privesc autoritățile publice în relația cu proprii beneficiari, nu impun reguli prestatorilor privați de servicii ale societății informaționale, iar art. 8 lasă libertatea soluției tehnice. Regulamentul (UE) 2016/679 (GDPR) este respectat în principiu: furnizarea datelor este opțională, scopul e limitat (art. 7 alin. 3), iar temeiul legal este art. 6 alin. (1) lit. c)/e). Proiectul este aliniat cu principiile Regulamentului (UE) 2018/1724 (Single Digital Gateway) și cu Declarația de la Tallinn privind serviciile publice proactive. Nu are impact negativ asupra pieței unice sau a concurenței.",
+      "senatForm": {
+        "articleRef": "Art. 12 (Contravenții)",
+        "proposalContent": "Se elimină art. 12. Alternativ, alin. (1) devine: «Constituie contravenție nerespectarea repetată a obligațiilor de la art. 4 și art. 7 alin. (1), după expirarea termenului de conformare dispus potrivit art. 11 alin. (2).», iar alin. (2) se elimină.",
+        "argumentation": "O amendă între instituții publice mută bani dintr-un buget public în altul și nu îl ajută pe cetățean. ADR nu are rol de control asupra autorităților locale autonome (art. 120 din Constituție). Sancționarea lipsei informațiilor de la lit. f), aplicabile «după caz», e prea vagă pentru o contravenție. Art. 10-11 asigură deja răspunderea.",
+        "otherComments": "La art. 2 alin. (2), «sau» trebuie înlocuit cu «și»: obligația are sens doar când există cumulativ datele actului, data expirării și datele de contact. Proiectul nu are fișă financiară, iar adaptarea aplicațiilor în 6 luni cere o sursă de finanțare (art. 138 alin. 5 din Constituție)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -140,7 +174,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:38:59.006Z",
+      "replacedAt": "2026-11-24T15:07:40.416Z",
       "reasons": [
         "model"
       ]

@@ -2,7 +2,7 @@
   "billId": "Pl-x 134/2026",
   "slug": "plx-134-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:12:32.564Z",
+  "updatedAt": "2026-11-24T15:03:52.908Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
-    "plainTitle": "Taxă de campare „în alb” și plată exclusiv online în Delta Dunării",
-    "summaryTlDr": "Intenția de a legaliza și controla camparea în Delta Dunării este rezonabilă, dar proiectul este redactat atât de sumar încât creează o taxă neconstituțională „în alb”, fără cuantum, destinație bugetară sau sancțiuni clare. În plus, obligativitatea plății exclusiv online și necorelarea cu Legea nr. 82/1993 fac legea greu de aplicat în practică.",
-    "initiatorClaim": "Inițiatorii susțin că vor să ofere pescarilor amatori o alternativă legală și predictibilă pentru camparea în Delta Dunării, transformând o practică sancționabilă într-una controlată, responsabilă ecologic și generatoare de venituri pentru ARBDD și comunitățile locale.",
-    "realityCheck": "În realitate, legea nu stabilește nici măcar limitele taxei sau unde ajung banii încasați, lăsând totul la discreția unui ordin anual al Guvernatorului ARBDD, deși o numește expres «taxă». Deși titlul vizează doar pescarii amatori, Art. 1 alin. (2) o extinde la orice persoană fizică cu cort sau rulotă, iar lipsa corelării cu Legea nr. 82/1993 și emiterea normelor abia la 90 de zile după intrarea în vigoare generează vid și paralelism legislativ.",
+    "plainTitle": "Taxă plătită online pentru camparea pescarilor în Delta Dunării",
+    "summaryTlDr": "Ideea e utilă: legalizează camparea controlată a pescarilor amatori în Deltă, care azi riscă amendă. Execuția e însă șubredă: legea creează o taxă fără să-i fixeze cuantumul, plafonul sau destinația și lasă totul la ordinul guvernatorului ARBDD. Asta ridică o problemă reală de constituționalitate (art. 139).",
+    "initiatorClaim": "Inițiatorii spun că pescarii amatori nu pot campa legal în zonele de pescuit din Deltă. Propun o taxă de campare plătită online, în zone autorizate, care să înlocuiască amenzile cu un regim controlat și să aducă venituri ARBDD.",
+    "realityCheck": "Legea instituie o taxă al cărei cuantum e stabilit anual exclusiv prin ordin al guvernatorului ARBDD (avizat de minister), fără plafon, bază de calcul, scutiri sau destinație a banilor scrisă în text. Plata e permisă doar electronic, cu declararea locației cortului pe hartă. Asta exclude persoanele fără card, smartphone sau semnal în Deltă și creează o bază de date de geolocalizare fără termen de păstrare. Deși titlul vizează pescarii, art. 1 alin. (2) se aplică oricărei persoane fizice care campează, iar sancțiunile de la art. 3 trimit la o «autorizație» și la contravenții nedefinite.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "Toți cetățenii",
@@ -44,10 +44,10 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. 1 alin. (3), Art. 2 alin. (1) și Art. 4",
-      "proposalContent": "La Art. 1 alin. (3), stabilirea prin lege a limitelor taxei, a destinației sumelor și corelarea cu Legea nr. 82/1993, cu tarif aprobat prin ordin al ministrului mediului. La Art. 2 alin. (1), eliminarea cuvântului «exclusiv» pentru a permite și plata fizică. La Art. 4 alin. (2), emiterea normelor anterior intrării în vigoare.",
-      "argumentation": "Art. 139 alin. (1) din Constituție impune stabilirea elementelor taxei prin lege, nu integral prin ordin al Guvernatorului ARBDD. Plata exclusiv online exclude cetățenii fără card și ignoră lipsa semnalului în Deltă. Emiterea normelor după intrarea în vigoare face legea inaplicabilă timp de 3 luni și creează paralelism cu Legea 82/1993.",
-      "otherComments": "Clarificați la Art. 1 alin. (2) dacă taxa vizează doar pescarii sau toți turiștii, precizați sancțiunile și procedura de anulare la Art. 3 alin. (2) și cereți evaluare Natura 2000 la Art. 4 alin. (1). Includeți fișa financiară pentru platforma IT (art. 138 alin. 5 Constituție) și corelați Art. 2 alin. (3) cu scopul fiscal."
+      "articleRef": "Art. 1 alin. (3) și Art. 2 alin. (1)",
+      "proposalContent": "Art. 1 (3): Taxa se datorează pe loc de campare și zi, în cuantum de maximum 20 lei, stabilit anual prin ordin al guvernatorului ARBDD, cu avizul MMAP, și se face venit la bugetul ARBDD. Art. 2 (1): Plata se face electronic sau, alternativ, la punctele de control și centrele de informare ARBDD.",
+      "argumentation": "Art. 139 alin. (1) din Constituție cere ca taxele să fie stabilite prin lege. Forma actuală lasă cuantumul integral la ordinul guvernatorului, fără plafon sau criterii, deci e imprevizibilă (art. 1 alin. 5). Plata exclusiv online exclude persoanele fără card sau fără semnal în zonele izolate ale Deltei.",
+      "otherComments": "Art. 1 alin. (2) vizează toate persoanele fizice, nu doar pescarii; textul trebuie clarificat. Art. 3 alin. (2) trimite la o «autorizație» și la sancțiuni nedefinite. Lipsesc termenul de păstrare a datelor de localizare, regimul rambursărilor, scutirile și corelarea cu permisul de acces ARBDD."
     }
   },
   "council": {
@@ -87,8 +87,39 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 41422,
+      "sourceEndMarker": "SF-59C970CD",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Taxă plătită online pentru camparea pescarilor în Delta Dunării",
+      "verdictShort": "Ideea e utilă: legalizează camparea controlată a pescarilor amatori în Deltă, care azi riscă amendă. Execuția e însă șubredă: legea creează o taxă fără să-i fixeze cuantumul, plafonul sau destinația și lasă totul la ordinul guvernatorului ARBDD. Asta ridică o problemă reală de constituționalitate (art. 139).",
+      "initiatorClaim": "Inițiatorii spun că pescarii amatori nu pot campa legal în zonele de pescuit din Deltă. Propun o taxă de campare plătită online, în zone autorizate, care să înlocuiască amenzile cu un regim controlat și să aducă venituri ARBDD.",
+      "realityCheck": "Legea instituie o taxă al cărei cuantum e stabilit anual exclusiv prin ordin al guvernatorului ARBDD (avizat de minister), fără plafon, bază de calcul, scutiri sau destinație a banilor scrisă în text. Plata e permisă doar electronic, cu declararea locației cortului pe hartă. Asta exclude persoanele fără card, smartphone sau semnal în Deltă și creează o bază de date de geolocalizare fără termen de păstrare. Deși titlul vizează pescarii, art. 1 alin. (2) se aplică oricărei persoane fizice care campează, iar sancțiunile de la art. 3 trimit la o «autorizație» și la contravenții nedefinite.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "Justiție & Drepturi Civile",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. 1 alin. (3): cuantumul taxei este delegat integral unui ordin al guvernatorului ARBDD, fără niciun plafon sau criteriu în lege. Taxele trebuie însă stabilite prin lege (art. 139 alin. 1 din Constituție).",
+        "Art. 1 alin. (1) vs. alin. (2): titlul și alin. (1) vorbesc de «pescari amatori», dar definiția din alin. (2) cuprinde orice persoană fizică ce instalează cort sau rulotă. Sfera persoanelor obligate la plată e neclară.",
+        "Art. 2 alin. (1): plata se face «exclusiv prin mijloace electronice». Lipsește o alternativă pentru persoanele fără card sau fără acoperire de rețea, frecvente în zonele izolate ale Deltei.",
+        "Art. 2 alin. (2) lit. a) și alin. (3): se colectează localizarea exactă a cortului, dar legea nu numește operatorul de date, nu dă termenul de păstrare și nu precizează cine are acces la date.",
+        "Art. 3 alin. (2): textul sancționează prin «anularea autorizației de campare», deși legea nu creează nicio autorizație distinctă de dovada de plată. Trimiterea la «sancțiunile contravenționale prevăzute de lege» nu indică nicio normă concretă.",
+        "Expunerea de motive spune că veniturile merg la ARBDD și la autoritățile locale, dar textul legii nu stabilește destinația sumelor. Nu există nici fișă de impact financiar pentru costul platformei.",
+        "Legea nu face legătura cu permisul de acces ARBDD și cu permisul de pescuit recreativ deja existente. Nu reglementează nici rambursarea, anularea sau scutirile (localnici, minori, persoane cu dizabilități)."
+      ],
+      "blindSpotsCaught": "Aproape toate elementele esențiale ale taxei lipsesc din lege: cuantum, plafon, unitate de calcul (zi sau loc), scutiri, destinația veniturilor, regim de restituire. Ele sunt lăsate unui ordin intern, ceea ce face legea în mare parte o delegare în alb. De asemenea, delimitarea zonelor de campare în arii Natura 2000 (art. 4) ar trebui supusă evaluării adecvate conform art. 6 alin. (3) din Directiva Habitate, nu doar unei aprecieri a «capacității de suport».",
+      "constitutionalityNote": "Riscul principal privește art. 139 alin. (1) din Constituție: taxele se stabilesc numai prin lege. Curtea Constituțională admite detalieri prin acte subordonate doar dacă legea fixează elementele esențiale (cuantum sau plafon, criterii). Aici lipsesc complet, deci delegarea e excesivă și încalcă și previzibilitatea cerută de art. 1 alin. (5). Art. 3 alin. (2) e neclar, fiindcă trimite la o «autorizație» și la sancțiuni nedefinite. Lipsa sursei de finanțare pentru platformă poate ridica și problema art. 138 alin. (5), iar plata exclusiv electronică poate ridica discuții privind egalitatea în accesul la serviciul public (art. 16). Prelucrarea datelor de localizare fără garanții minime atinge art. 26 (viața privată).",
+      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă, deoarece nu se reglementează accesul la o profesie. Directiva (UE) 2015/1535 (TRIS) nu pare incidentă: platforma este un instrument de plată al unei autorități publice, nu o regulă tehnică pentru servicii ale societății informaționale. Relevante sunt GDPR (date de geolocalizare: operator, temei, durată de stocare, minimizare) și Directiva Habitate 92/43/CEE, respectiv Directiva Păsări, pentru stabilirea zonelor de campare în situri Natura 2000. Taxa trebuie aplicată nediscriminatoriu cetățenilor UE, iar textul nu ridică probleme în acest sens.",
+      "senatForm": {
+        "articleRef": "Art. 1 alin. (3) și Art. 2 alin. (1)",
+        "proposalContent": "Art. 1 (3): Taxa se datorează pe loc de campare și zi, în cuantum de maximum 20 lei, stabilit anual prin ordin al guvernatorului ARBDD, cu avizul MMAP, și se face venit la bugetul ARBDD. Art. 2 (1): Plata se face electronic sau, alternativ, la punctele de control și centrele de informare ARBDD.",
+        "argumentation": "Art. 139 alin. (1) din Constituție cere ca taxele să fie stabilite prin lege. Forma actuală lasă cuantumul integral la ordinul guvernatorului, fără plafon sau criterii, deci e imprevizibilă (art. 1 alin. 5). Plata exclusiv online exclude persoanele fără card sau fără semnal în zonele izolate ale Deltei.",
+        "otherComments": "Art. 1 alin. (2) vizează toate persoanele fizice, nu doar pescarii; textul trebuie clarificat. Art. 3 alin. (2) trimite la o «autorizație» și la sancțiuni nedefinite. Lipsesc termenul de păstrare a datelor de localizare, regimul rambursărilor, scutirile și corelarea cu permisul de acces ARBDD."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -144,7 +175,7 @@
         "codex": 6
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:12:32.564Z",
+      "replacedAt": "2026-11-24T15:03:52.908Z",
       "reasons": [
         "model"
       ]

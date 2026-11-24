@@ -2,7 +2,7 @@
   "billId": "Pl-x 463/2026",
   "slug": "plx-463-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:14:33.038Z",
+  "updatedAt": "2026-11-24T15:05:06.957Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "key": "fa60bc79773aae76"
   },
   "consensus": {
-    "riskScore": 4.5,
+    "riskScore": 4,
     "riskLevel": "yellow",
-    "plainTitle": "Desființarea Academiei de Științe Tehnice, dar fără plan de lichidare",
-    "summaryTlDr": "Scopul financiar este legitim și nu afectează cetățenii sau mediul de afaceri, dar legea e redactată în grabă: desființează instituția din prima zi fără să desemneze un lichidator sau un succesor pentru datorii, contracte și concedieri. În forma actuală, riscă blocaje administrative și invalidare la Curtea Constituțională pe lipsă de claritate și previzibilitate.",
-    "initiatorClaim": "Inițiatorii (USR) susțin că ASTR consumă circa 4 milioane de lei anual de la buget (din care peste 93% pe indemnizațiile celor 95 de membri) fără să producă cercetare relevantă, propunând desființarea ei pentru a economisi bani publici.",
-    "realityCheck": "Legea abrogă complet Legea nr. 230/2008 și oprește imediat activitatea și plata indemnizațiilor, dar lasă în aer toate operațiunile de lichidare. Deși persoana juridică dispare din ziua intrării în vigoare (Art. 1, 2 și 8), proiectul prevede încă 45 de zile pentru încetarea contractelor de muncă (Art. 4) și 30 de zile pentru predarea arhivei și a patrimoniului (Art. 5 și 7), fără a stabili cine semnează actele, cine plătește salariile și datoriile curente sau cine preia contractele și eventualele litigii.",
+    "plainTitle": "Desființarea Academiei de Științe Tehnice și oprirea indemnizațiilor pentru membrii ei",
+    "summaryTlDr": "Este o decizie politică legitimă de reorganizare a cheltuielilor publice, cu impact direct redus asupra cetățenilor. Proiectul are însă goluri tehnice: nu spune cine preia datoriile, contractele în derulare și procesele ASTR, iar regimul bunurilor „aduse de membri” este neclar.",
+    "initiatorClaim": "Inițiatorii susțin că ASTR consumă circa 4 milioane lei pe an, din care peste 93% merg la indemnizațiile membrilor, fără rezultate științifice relevante. De aceea propun desființarea ei și economisirea banilor.",
+    "realityCheck": "Legea desființează ASTR și oprește activitatea și indemnizațiile chiar de la intrarea în vigoare (Art. 2-3). Contractele de muncă încetează în 45 de zile, Guvernul decide prin HG soarta patrimoniului, Ministerul Educației preia doar raportările financiare, iar arhiva merge la Academia Română. Nu este desemnat un succesor general în drepturi și obligații. Între oprirea activității (ziua 1) și încetarea contractelor (ziua 45) nu se știe cine e angajator, cine e ordonator de credite și cine plătește salariile sau eventualele datorii.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Angajați & HR",
@@ -44,10 +44,10 @@
       "Proprietari & Imobiliare"
     ],
     "senatForm": {
-      "articleRef": "Art. 1, Art. 2, Art. 3 și Art. 6",
-      "proposalContent": "ASTR intră în lichidare la intrarea în vigoare și se desființează în 60 de zile. Ministerul Educației și Cercetării preia drepturile, obligațiile, litigiile și atribuțiile de lichidator. La Art. 3, „încetează plata” se înlocuiește cu „încetează dreptul la indemnizații pentru viitor”.",
-      "argumentation": "Forma actuală desființează ASTR din prima zi, fără lichidator sau succesor universal, dar lasă contractele de muncă active 45 de zile și predarea arhivei în 30 de zile. Fără entitate legală care să plătească datorii, salarii ori să semneze decizii, legea încalcă Art. 1 alin. (5) și Art. 15 alin. (2) din Constituție.",
-      "otherComments": "Clarificați și Art. 5: restituirea contribuțiilor din 1997-2008 către foști membri ai ONG-ului este neclară juridic (OG 26/2000) și greu aplicabilă; stabiliți criterii legale clare pentru patrimoniul propriu al ASTR și sursele de finanțare pentru preluarea arhivei de către Academia Română."
+      "articleRef": "Art. 6 (succesiunea drepturilor și obligațiilor)",
+      "proposalContent": "Art.6: Ministerul Educației și Cercetării preia, de la data intrării în vigoare, toate drepturile și obligațiile ASTR, inclusiv contractele în derulare, creanțele, datoriile și litigiile, precum și obligațiile de raportare financiară. Bunurile proprietate publică/privată a statului sau a UAT date în administrarea ASTR revin titularului dreptului de proprietate.",
+      "argumentation": "Art.6 actual transferă doar raportările financiare. Lipsește un succesor pentru contracte, datorii, proiecte de cercetare și procese în curs, iar Art.2 oprește activitatea imediat. Fără succesor clar, creditorii și angajații nu știu de la cine își recuperează drepturile, ceea ce afectează previzibilitatea legii (art.1 alin.5 Constituție).",
+      "otherComments": "Art.5: excepția privind bunurile Asociației e neclară, Asociația fiind desființată în 2008 (art.6 Legea 230/2008), iar ASTR i-a fost unic legatar; trebuie precizat cine și cum dovedește aportul. Art.7: arhiva ar trebui predată și conform Legii nr. 16/1996. Art.4: de precizat cine e angajator și plătitor în cele 45 de zile."
     }
   },
   "council": {
@@ -86,8 +86,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 45332,
+      "sourceEndMarker": "SF-22E3A30E",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Desființarea Academiei de Științe Tehnice și oprirea indemnizațiilor pentru membrii ei",
+      "verdictShort": "Este o decizie politică legitimă de reorganizare a cheltuielilor publice, cu impact direct redus asupra cetățenilor. Proiectul are însă goluri tehnice: nu spune cine preia datoriile, contractele în derulare și procesele ASTR, iar regimul bunurilor „aduse de membri” este neclar.",
+      "initiatorClaim": "Inițiatorii susțin că ASTR consumă circa 4 milioane lei pe an, din care peste 93% merg la indemnizațiile membrilor, fără rezultate științifice relevante. De aceea propun desființarea ei și economisirea banilor.",
+      "realityCheck": "Legea desființează ASTR și oprește activitatea și indemnizațiile chiar de la intrarea în vigoare (Art. 2-3). Contractele de muncă încetează în 45 de zile, Guvernul decide prin HG soarta patrimoniului, Ministerul Educației preia doar raportările financiare, iar arhiva merge la Academia Română. Nu este desemnat un succesor general în drepturi și obligații. Între oprirea activității (ziua 1) și încetarea contractelor (ziua 45) nu se știe cine e angajator, cine e ordonator de credite și cine plătește salariile sau eventualele datorii.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Angajați & HR"
+      ],
+      "keyFindings": [
+        "Art. 3 oprește imediat indemnizațiile prevăzute azi de art. 15 din Legea 230/2008: 1.800 lei brut pentru titulari, 1.400 lei pentru corespondenți, plus 20% pentru prezidiu, indexate anual. Indemnizațiile sunt stabilite prin lege, nu sunt drepturi contractuale, deci legiuitorul le poate elimina.",
+        "Art. 2 oprește activitatea ASTR de la intrarea în vigoare, dar Art. 4 lasă contractele de muncă să mai curgă 45 de zile. Președintele ASTR este azi ordonator de credite (art. 27 din Legea 230/2008), iar legea nu spune cine semnează încetarea contractelor și cine plătește drepturile salariale în acest interval.",
+        "Art. 6 transferă către Ministerul Educației și Cercetării doar „obligațiile privind raportările financiare”. Nu transferă datoriile, creanțele, contractele în derulare (inclusiv eventuale proiecte de cercetare finanțate) și litigiile. Rămâne un gol de succesiune juridică.",
+        "Art. 5 exceptează de la HG „bunurile care au făcut obiectul contribuției membrilor Asociației”. Însă Asociația a fost desființată în 2008, iar ASTR este „continuatoarea și unicul legatar” al ei (art. 6 din Legea 230/2008). Bunurile au intrat astfel în patrimoniul ASTR, iar mecanismul de restituire către foștii membri e neclar și poate genera litigii.",
+        "Patrimoniul ASTR include și bunuri ale statului sau ale UAT-urilor date în administrare (art. 29 alin. 3 lit. b din Legea 230/2008). Legea nu spune expres că acestea revin titularilor, ci lasă totul la HG.",
+        "Art. 7 dă arhiva Academiei Române, deși regimul arhivelor instituțiilor desființate e reglementat de Legea nr. 16/1996 a Arhivelor Naționale. Aceasta se aplică în continuare, dar legea nu le corelează."
+      ],
+      "blindSpotsCaught": "Excepția din Art. 5 trimite la membrii unei asociații care nu mai există din 2008 și al cărei unic legatar este chiar ASTR, deci restituirea „după caz” e greu de pus în practică. Lipsește un succesor universal. Formula de adoptare invocă art. 76 alin. (1) din Constituție (lege organică), iar caracterul organic sau ordinar trebuie verificat în raport cu natura Legii 230/2008. Expunerea de motive vorbește de un maxim statutar de 201 membri, în timp ce art. 12 alin. (3) din lege permite 150 de titulari și 100 de corespondenți. Discrepanța nu afectează efectul proiectului.",
+      "constitutionalityNote": "Parlamentul poate desființa printr-o lege o instituție înființată prin lege. Autonomia ASTR (art. 2 din Legea 230/2008) este legală, nu constituțională: art. 32 alin. (6) din Constituție protejează autonomia universitară, nu academiile de ramură. Indemnizațiile nu sunt drepturi patrimoniale câștigate pentru viitor, așa că încetarea lor nu încalcă art. 44. Punctele vulnerabile țin de previzibilitate (art. 1 alin. 5): nu există un succesor pentru obligații, intervalul dintre Art. 2 și Art. 4 e neclar, iar excepția patrimonială din Art. 5 e vagă. Angajații beneficiază în continuare de protecția Codului muncii, inclusiv preaviz și, după caz, procedura concedierii colective, pentru că Art. 4 trimite la „condițiile legii”.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă proiectul nu reglementează accesul la o profesie sau exercitarea ei. Directiva (UE) 2015/1535 (TRIS) nu se aplică, fiindcă nu există reguli tehnice ori servicii ale societății informaționale. Nu apar efecte asupra concurenței sau a pieței unice. Singurul risc indirect apare dacă ASTR derulează proiecte cu finanțare europeană: fără un succesor desemnat, obligațiile contractuale față de finanțatori ar putea rămâne neacoperite și ar putea duce la corecții financiare.",
+      "senatForm": {
+        "articleRef": "Art. 6 (succesiunea drepturilor și obligațiilor)",
+        "proposalContent": "Art.6: Ministerul Educației și Cercetării preia, de la data intrării în vigoare, toate drepturile și obligațiile ASTR, inclusiv contractele în derulare, creanțele, datoriile și litigiile, precum și obligațiile de raportare financiară. Bunurile proprietate publică/privată a statului sau a UAT date în administrarea ASTR revin titularului dreptului de proprietate.",
+        "argumentation": "Art.6 actual transferă doar raportările financiare. Lipsește un succesor pentru contracte, datorii, proiecte de cercetare și procese în curs, iar Art.2 oprește activitatea imediat. Fără succesor clar, creditorii și angajații nu știu de la cine își recuperează drepturile, ceea ce afectează previzibilitatea legii (art.1 alin.5 Constituție).",
+        "otherComments": "Art.5: excepția privind bunurile Asociației e neclară, Asociația fiind desființată în 2008 (art.6 Legea 230/2008), iar ASTR i-a fost unic legatar; trebuie precizat cine și cum dovedește aportul. Art.7: arhiva ar trebui predată și conform Legii nr. 16/1996. Art.4: de precizat cine e angajator și plătitor în cele 45 de zile."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -141,7 +170,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:14:33.038Z",
+      "replacedAt": "2026-11-24T15:05:06.957Z",
       "reasons": [
         "model"
       ]

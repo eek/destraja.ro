@@ -2,7 +2,7 @@
   "billId": "Pl-x 71/2026",
   "slug": "plx-71-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:39:37.278Z",
+  "updatedAt": "2026-11-24T15:07:58.440Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "key": "1b85cbe841ae5848"
   },
   "consensus": {
-    "riskScore": 5.5,
+    "riskScore": 5,
     "riskLevel": "yellow",
-    "plainTitle": "Amenzi de până la 100.000 lei și interdicție la licitații pentru abandonarea lucrărilor de drumuri",
-    "summaryTlDr": "Scopul este legitim (oprirea șantierelor abandonate pe drumuri), dar textul e redactat slab și ascunde riscuri majore: autoritățile pot interzice unilateral firme de la licitații până la 2 ani fără garanțiile din dreptul UE, iar simpla notificare a opririi creează o portiță de scăpare.",
-    "initiatorClaim": "Inițiatorii susțin că legislația actuală nu sancționează expres abandonarea lucrărilor rutiere și vor să responsabilizeze constructorii prin amenzi mari și interdicții la licitații, pentru a crește siguranța rutieră și a proteja fondurile publice.",
-    "realityCheck": "În realitate, deși sancționează cu 50.000–100.000 lei oprirea neautorizată peste 15 zile, textul introduce la art. 55¹ alin. (4) o armă de abuz administrativ: autoritatea contractantă (adesea parte în dispute de neplată cu constructorul) poate interzice firma de la licitații până la 2 ani fără criterii clare de «repetare» și fără drept la autocorectare. Totodată, definirea abandonului prin condiția cumulativă «și fără notificarea administratorului» permite firmelor să scape de amendă printr-o simplă hârtie, iar poliția rutieră primește atribuții de a judeca justificări tehnice și contractuale pe care nu le poate verifica.",
+    "plainTitle": "Amendă de până la 100.000 lei pentru constructorii care abandonează lucrările la drumuri",
+    "summaryTlDr": "Scopul e legitim: șantierele de drum lăsate în paragină sunt periculoase. Textul este însă redactat neclar și dă autorității contractante o putere de excludere de la licitații care intră în conflict cu legea achizițiilor publice și cu dreptul UE.",
+    "initiatorClaim": "Inițiatorii spun că legislația actuală nu sancționează contravențional abandonarea lucrărilor la drumuri. Vor să responsabilizeze executanții și să protejeze siguranța rutieră și banii publici.",
+    "realityCheck": "Proiectul introduce art. 55¹ în OG 43/1997. Sancțiunea este o amendă de 50.000–100.000 lei pentru executant. La repetarea faptei, autoritatea contractantă poate dispune interdicția de a participa la licitații pentru drumuri timp de până la 2 ani. Alin. (1) și alin. (2) definesc abandonul în moduri diferite, iar noțiunea de «justificare» nu este lămurită. Astfel, poate fi amendat și constructorul care oprește lucrul pentru că beneficiarul public nu l-a plătit. Interdicția de la alin. (4) nu are procedură, criterii sau cale de atac proprie.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Șoferi & Auto",
@@ -44,10 +44,10 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I, art. 55¹ alin. (2), (4) și (5)",
-      "proposalContent": "Eliminarea alin. (4), excluderea din licitații rămânând guvernată de Legea 98/2016. La alin. (2), eliminarea condiției «și fără notificarea administratorului» și definirea clară a justificărilor (inclusiv neplata lucrărilor). La alin. (5), poliția rutieră să constate doar lipsa semnalizării, nu clauzele contractuale.",
-      "argumentation": "Interdicția de 2 ani dispusă unilateral de autoritatea contractantă (alin. 4) încalcă art. 57 din Directiva 2014/24/UE (fără autocorectare) și art. 1 alin. (5) din Constituție («repetare» nedefinită). Poliția rutieră nu poate evalua dispute contractuale, iar simpla notificare nu trebuie să exonereze lăsarea drumului periculos.",
-      "otherComments": "Corelați art. II și art. III: legea intră în vigoare în 30 de zile, dar normele MTI apar în 60 de zile de la intrarea în vigoare, creând un vid de aplicare. Normele nu pot fi emise doar de MTI pentru poliția rutieră (MAI) și autorități locale. Recomandăm și integrarea contravenției în capitolul Sancțiuni al OG 43/1997."
+      "articleRef": "Art. I – art. 55¹ alin. (2) și (4) din OG 43/1997",
+      "proposalContent": "Se elimină alin. (4). Alin. (2) devine: „Abandonul există când, peste 15 zile consecutive, executantul oprește lucrările fără ordin de sistare, fără caz de forță majoră sau neplată imputabilă beneficiarului și fără notificarea administratorului, în situațiile de la alin. (1) lit. a) sau b).”",
+      "argumentation": "Interdicția de participare la achiziții nu poate fi dispusă discreționar de o autoritate contractantă. Excluderea ofertanților e reglementată exhaustiv de Legea 98/2016 și de art. 57 din Directiva 2014/24/UE, cu proceduri și remedii. Definiția actuală a abandonului e neclară și poate sancționa constructorul neplătit de beneficiar.",
+      "otherComments": "Definiți „repetarea faptei” (de ex. în termen de 2 ani) și precizați dacă răspunde contractantul principal sau subcontractantul. Normele de la art. II ar trebui adoptate înainte de intrarea în vigoare a sancțiunii, iar poliția ar trebui să constate doar pericolul rutier, nu justificarea tehnică."
     }
   },
   "council": {
@@ -86,8 +86,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 46830,
+      "sourceEndMarker": "SF-1EFD0988",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Amendă de până la 100.000 lei pentru constructorii care abandonează lucrările la drumuri",
+      "verdictShort": "Scopul e legitim: șantierele de drum lăsate în paragină sunt periculoase. Textul este însă redactat neclar și dă autorității contractante o putere de excludere de la licitații care intră în conflict cu legea achizițiilor publice și cu dreptul UE.",
+      "initiatorClaim": "Inițiatorii spun că legislația actuală nu sancționează contravențional abandonarea lucrărilor la drumuri. Vor să responsabilizeze executanții și să protejeze siguranța rutieră și banii publici.",
+      "realityCheck": "Proiectul introduce art. 55¹ în OG 43/1997. Sancțiunea este o amendă de 50.000–100.000 lei pentru executant. La repetarea faptei, autoritatea contractantă poate dispune interdicția de a participa la licitații pentru drumuri timp de până la 2 ani. Alin. (1) și alin. (2) definesc abandonul în moduri diferite, iar noțiunea de «justificare» nu este lămurită. Astfel, poate fi amendat și constructorul care oprește lucrul pentru că beneficiarul public nu l-a plătit. Interdicția de la alin. (4) nu are procedură, criterii sau cale de atac proprie.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Șoferi & Auto",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 55¹ alin. (1) și (2) se suprapun și sunt neclare. Alin. (1) leagă abandonul de lipsa semnalizării sau de pericolul pentru circulație. Alin. (2) îl definește ca oprire de peste 15 zile, fără justificare și fără notificarea administratorului. Nu reiese dacă aceste condiții sunt cumulative sau alternative. «Nejustificat» și «justificare tehnică sau legală» nu sunt definite.",
+        "Art. 55¹ alin. (2) nu exclude expres situațiile frecvente de oprire legitimă: neplata de către beneficiar, ordinul de sistare, forța majoră, lipsa autorizațiilor sau a exproprierilor. Contractantul neplătit poate fi amendat pentru o întârziere cauzată chiar de autoritate.",
+        "Art. 55¹ alin. (4) permite unei singure autorități contractante să interzică participarea la toate procedurile privind drumurile publice, timp de până la 2 ani. Excluderea ofertanților este reglementată exhaustiv de Legea 98/2016 și de art. 57 din Directiva 2014/24/UE, care cer o evaluare de la caz la caz și permit operatorului să-și demonstreze reabilitarea. «Repetarea faptei» nu este definită (nu există un termen).",
+        "Amenda are minimul de 50.000 lei și maximul de 100.000 lei, care este plafonul general pentru amenzile stabilite prin lege. Potrivit OG 2/2001, contravenientul poate plăti jumătate din minim, adică 25.000 lei, în 15 zile. Pentru o microîntreprindere suma este mare, pentru marii constructori este mică în raport cu valoarea contractelor.",
+        "Art. 55¹ alin. (3) vorbește de «operatorul economic executant al lucrării». Nu se precizează dacă răspunde contractantul principal sau subcontractantul care lucrează efectiv pe amplasament.",
+        "Art. II–III: legea intră în vigoare după 30 de zile, iar normele metodologice se elaborează în 60 de zile de la intrarea în vigoare. Sancțiunea poate fi deci aplicată înainte să existe normele de constatare."
+      ],
+      "blindSpotsCaught": "Agentul constatator este «personalul administratorului drumului». Administratorul drumului este adesea chiar beneficiarul contractului, aflat în litigiu cu constructorul. El ajunge astfel să constate fapta și să aplice amenda într-un conflict comercial propriu, iar apoi, ca autoritate contractantă, poate dispune și excluderea de la licitații. Amenda se poate transforma într-o pârghie de presiune contractuală. Poate exista și o suprapunere cu obligațiile de semnalizare a lucrărilor deja prevăzute în legislația rutieră. Poliția rutieră nu are competență tehnică să aprecieze «justificarea tehnică» a opririi.",
+      "constitutionalityNote": "Riscul ține de art. 1 alin. (5) din Constituție, care cere claritatea și previzibilitatea legii. Definițiile divergente ale abandonului și termenii nedefiniți («nejustificat», «repetarea faptei», «în condițiile legii») lasă o marjă largă de apreciere agentului constatator. Interdicția de la alin. (4) este o sancțiune cu efect sever asupra libertății economice (art. 45). Ea nu are procedură, criterii de individualizare sau cale de atac proprie, deci ridică probleme de proporționalitate (art. 53) și de acces la justiție (art. 21). Amenda în sine se încadrează în limitele OG 2/2001 și poate fi contestată în instanță.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă proiectul nu reglementează accesul la o profesie. Nici TRIS (2015/1535) nu se aplică, fiindcă nu sunt vizate servicii ale societății informaționale. Relevantă este Directiva 2014/24/UE. Art. 57 alin. (4) lit. g) permite excluderea pentru deficiențe semnificative în executarea unui contract anterior care au dus la rezilierea acestuia. Art. 57 alin. (6) și (7) cer măsuri de reabilitare (self-cleaning) și o durată stabilită de statul membru. O interdicție automată, decisă discreționar de o autoritate și extinsă la toate procedurile de drumuri, riscă să contravină directivei și să discrimineze operatorii din alte state membre.",
+      "senatForm": {
+        "articleRef": "Art. I – art. 55¹ alin. (2) și (4) din OG 43/1997",
+        "proposalContent": "Se elimină alin. (4). Alin. (2) devine: „Abandonul există când, peste 15 zile consecutive, executantul oprește lucrările fără ordin de sistare, fără caz de forță majoră sau neplată imputabilă beneficiarului și fără notificarea administratorului, în situațiile de la alin. (1) lit. a) sau b).”",
+        "argumentation": "Interdicția de participare la achiziții nu poate fi dispusă discreționar de o autoritate contractantă. Excluderea ofertanților e reglementată exhaustiv de Legea 98/2016 și de art. 57 din Directiva 2014/24/UE, cu proceduri și remedii. Definiția actuală a abandonului e neclară și poate sancționa constructorul neplătit de beneficiar.",
+        "otherComments": "Definiți „repetarea faptei” (de ex. în termen de 2 ani) și precizați dacă răspunde contractantul principal sau subcontractantul. Normele de la art. II ar trebui adoptate înainte de intrarea în vigoare a sancțiunii, iar poliția ar trebui să constate doar pericolul rutier, nu justificarea tehnică."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -142,7 +172,7 @@
         "codex": 6
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:39:37.278Z",
+      "replacedAt": "2026-11-24T15:07:58.440Z",
       "reasons": [
         "model"
       ]

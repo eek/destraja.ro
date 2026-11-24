@@ -2,7 +2,7 @@
   "billId": "Pl-x 165/2026",
   "slug": "plx-165-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:13:30.374Z",
+  "updatedAt": "2026-11-24T15:04:34.513Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
-    "plainTitle": "Apă de rezervă în situații de criză, dar cu o lege imposibil de aplicat în forma actuală",
-    "summaryTlDr": "Intenția de a proteja populația în crize de apă este legitimă, dar proiectul este redactat atât de lacunar și contradictoriu încât devine inaplicabil juridic și vulnerabil la controlul de constituționalitate.",
-    "initiatorClaim": "Inițiatorul vrea să oblige operatorii de apă să aibă planuri de continuitate, surse alternative și distribuție de urgență în 6 ore, fără costuri pentru primării sau creșteri de tarife în primii 3 ani.",
-    "realityCheck": "Legea instituie obligații și amenzi până la 80.000 lei, dar uită să desemneze cine aplică amenzile, sancționează o obligație de informare a populației care nu există în text și se contrazice frontal privind finanțarea (cere fonduri „exclusiv” europene, dar impune implementare obligatorie în 36 de luni și în lipsa lor). După expirarea celor 3 ani, costurile neacoperite pot fi transferate în facturile de apă ale populației.",
+    "plainTitle": "Operatorii de apă ar trebui să aducă apă oamenilor în 6 ore când se oprește alimentarea",
+    "summaryTlDr": "Ideea e bună și necesară după Paltinu, dar textul e scris în grabă. Promite că nu costă pe nimeni, nu spune clar cine plătește și îi amendează pe operatori pentru obligații pe care încă nu au cum să le îndeplinească.",
+    "initiatorClaim": "Inițiatorul vrea să umple un gol din lege: nicio normă nu obligă azi operatorii să aibă surse alternative, rezerve și un plan pentru situații de criză, cum a fost cea de la acumularea Paltinu. Spune că legea nu va pune costuri pe bugetele locale sau pe tarife.",
+    "realityCheck": "Legea obligă operatorii să facă anual un Plan de Continuitate și să distribuie apă în 6 ore de la orice criză, sub amenzi de până la 80.000 lei. Banii ar veni „exclusiv” din fonduri europene. Dacă fondurile lipsesc, costurile nu pot intra în tarif 3 ani, așa că pierderile ajung la operatorii publici și, indirect, la UAT-urile care îi dețin, deși Art. 4 spune că UAT-urile nu sunt obligate la finanțare. Termenul de 6 ore se aplică de la 30 de zile după publicare, deși implementarea poate dura 36 de luni.",
     "affectedGroups": [
       "Toți cetățenii",
       "Sănătate & Educație",
@@ -44,10 +44,10 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. 2, Art. 3, Art. 6, Art. 8 și Art. 9",
-      "proposalContent": "Modificarea Art. 2 lit. a) cu prag clar de durată; eliminarea contradicției din Art. 3 alin. (2)-(3) privind finanțarea; introducerea obligației de informare a populației la Art. 6; stabilirea agenților constatatori și trimiterea la OG 2/2001 în Art. 8; înlocuirea «DSP» cu «Ministerul Sănătății» la Art. 9 și corelarea intrării în vigoare cu emiterea normelor.",
-      "argumentation": "În forma actuală, legea încalcă Art. 1 alin. (5) din Constituție: Art. 8 prevede amenzi fără agent constatator și sancționează neinformarea populației fără o obligație prealabilă în text. DSP sunt structuri județene fără drept de a emite norme naționale, iar Art. 3 impune finanțare «exclusiv» europeană, dar cere implementare obligatorie în 36 de luni fără fonduri.",
-      "otherComments": "Este necesară corelarea cu Legea nr. 241/2006, OG nr. 7/2023 (calitatea apei) și legislația privind reziliența entităților critice (Directiva UE 2022/2557), pentru a evita dublarea planurilor. De asemenea, la Art. 7 certificarea forței majore nu intră în competența ISU, iar legea are caracter ordinar (Art. 76 alin. 2 Constituție), nu organic."
+      "articleRef": "Art. 3 alin. (2)-(5)",
+      "proposalContent": "(2) Implementarea se finanțează prioritar din fonduri europene și programe naționale nerambursabile. (4) După 3 ani, costurile nefinanțate pot fi incluse în tarif cu avizul ANRSC. (5) Termenul de 6 ore se aplică după 36 de luni de la intrarea în vigoare; până atunci operatorii asigură distribuirea apei în maximum 24 de ore.",
+      "argumentation": "„Exclusiv” contrazice Art. 1 și alin. (3) și lasă neclar cine plătește dacă nu există fonduri. Termenul de 6 ore se aplică din ziua 30, înainte ca rezervele să existe, așa că amenzile de 30.000–80.000 lei ar lovi operatori fără mijloace. Interdicția absolută de tarif mută pierderile la UAT-urile acționare.",
+      "otherComments": "Art. 8: lipsesc agentul constatator și trimiterea la OG 2/2001, iar „neinformarea populației” nu corespunde niciunei obligații din lege. Art. 7: forța majoră se certifică de CCIR, nu de ISU. Art. 2 lit. a) e prea larg. Recomand corelarea cu Legea 241/2006 și cu Directivele (UE) 2020/2184 și 2022/2557."
     }
   },
   "council": {
@@ -88,8 +88,39 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 43036,
+      "sourceEndMarker": "SF-55EB4B71",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Operatorii de apă ar trebui să aducă apă oamenilor în 6 ore când se oprește alimentarea",
+      "verdictShort": "Ideea e bună și necesară după Paltinu, dar textul e scris în grabă. Promite că nu costă pe nimeni, nu spune clar cine plătește și îi amendează pe operatori pentru obligații pe care încă nu au cum să le îndeplinească.",
+      "initiatorClaim": "Inițiatorul vrea să umple un gol din lege: nicio normă nu obligă azi operatorii să aibă surse alternative, rezerve și un plan pentru situații de criză, cum a fost cea de la acumularea Paltinu. Spune că legea nu va pune costuri pe bugetele locale sau pe tarife.",
+      "realityCheck": "Legea obligă operatorii să facă anual un Plan de Continuitate și să distribuie apă în 6 ore de la orice criză, sub amenzi de până la 80.000 lei. Banii ar veni „exclusiv” din fonduri europene. Dacă fondurile lipsesc, costurile nu pot intra în tarif 3 ani, așa că pierderile ajung la operatorii publici și, indirect, la UAT-urile care îi dețin, deși Art. 4 spune că UAT-urile nu sunt obligate la finanțare. Termenul de 6 ore se aplică de la 30 de zile după publicare, deși implementarea poate dura 36 de luni.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "Sănătate & Educație",
+        "Agricultură & Mediu"
+      ],
+      "keyFindings": [
+        "Art. 3 alin. (2) cere finanțare „exclusiv” din fonduri europene și programe nerambursabile. Art. 1 spune „prioritar”, iar alin. (3) prevede implementare etapizată „în lipsa finanțărilor externe”. Rămâne neclar din ce bani se face implementarea dacă fondurile nu vin.",
+        "Art. 3 alin. (4) interzice includerea costurilor în tarif timp de 3 ani. Asta contrazice principiul recuperării costurilor din Legea 51/2006 și Legea 241/2006. Pierderile operatorilor, de regulă societăți ale UAT-urilor, se mută indirect la autoritățile locale, contrar Art. 4 alin. (1) și Art. 5 alin. (3).",
+        "Art. 3 alin. (5) și Art. 8 lit. c): obligația de 6 ore și amenda de 30.000–80.000 lei se aplică de la intrarea în vigoare (Art. 10, 30 de zile). Rezervele și sursele alternative pot fi realizate abia în 36 de luni. Operatorii riscă amenzi înainte de a avea mijloacele cerute.",
+        "Art. 2 lit. a) definește foarte larg „situația de criză”: orice eveniment care face imposibilă furnizarea apei în parametri legali. În definiție ar putea intra avarii minore, lucrări planificate sau episoade scurte de turbiditate, fiecare cu termenul de 6 ore și riscul de amendă.",
+        "Art. 8 lit. b) sancționează „neinformarea populației”, dar legea nu prevede nicio obligație de informare a populației. Art. 6 cere doar informarea DSP, ISU și UAT. Legea nu numește nici agentul constatator și nu trimite la OG 2/2001.",
+        "Art. 7 dă ISU rolul de a certifica forța majoră. În practica românească, forța majoră se certifică de CCIR. În plus, evenimente de tip Paltinu (turbiditate după ploi) ar putea fi încadrate ca forță majoră, ceea ce ar goli de conținut răspunderea operatorului.",
+        "Art. 5 alin. (2): planul se ține la sediul operatorului și se arată autorităților doar la cerere, fără raportare. Controlul preventiv al calității planurilor devine foarte slab."
+      ],
+      "blindSpotsCaught": "Legea vine paralel cu Legea 241/2006, fără să o modifice, ceea ce încalcă cerința de integrare din Legea 24/2000 (art. 14–16) și creează două regimuri distincte pentru același serviciu. Art. 9 dă emiterea normelor unei autorități județene (DSP), nu Ministerului Sănătății, și nu spune prin ce act se aprobă. Lipsește și corelarea cu Directiva (UE) 2020/2184 privind apa potabilă și cu regimul entităților critice (Directiva 2022/2557), care cer deja evaluări de risc și planuri de reziliență pentru operatorii de apă.",
+      "constitutionalityNote": "Art. 1 alin. (5) din Constituție cere claritate și previzibilitate. Contradicțiile interne pun problema la încercare: „exclusiv” față de „prioritar”, termenul de 6 ore aplicabil imediat față de implementarea în 36 de luni, o sancțiune fără obligație corespunzătoare. Sancțiunile din Art. 8 nu au agent constatator și procedură, deci pot fi contestate ca imprevizibile. Interdicția de a include costuri în tarif, combinată cu obligații de investiții, poate afecta indirect bugetele locale. Asta ridică probleme față de Art. 138 alin. (5) (sursa de finanțare), Art. 111 alin. (1) (punctul de vedere al Guvernului) și autonomia locală (Art. 120). Fișa financiară lipsește.",
+      "euLawNote": "Directiva 2018/958 nu se aplică, pentru că legea nu reglementează profesii. TRIS 2015/1535 nu se aplică, pentru că nu sunt vizate servicii ale societății informaționale sau reglementări tehnice pentru produse. Relevante sunt Directiva (UE) 2020/2184 (abordarea bazată pe risc a aprovizionării cu apă potabilă) și Directiva (UE) 2022/2557 CER, în care apa potabilă este sector critic, cu obligații de evaluare a riscurilor și planuri de reziliență. Legea ar trebui corelată cu acestea, ca să nu dubleze cerințele. Dacă finanțarea vine „exclusiv” din fonduri UE, condiționarea unei obligații legale de disponibilitatea acestor fonduri poate crea și probleme de eligibilitate, pentru că o obligație legală preexistentă nu mai e cheltuială suplimentară.",
+      "senatForm": {
+        "articleRef": "Art. 3 alin. (2)-(5)",
+        "proposalContent": "(2) Implementarea se finanțează prioritar din fonduri europene și programe naționale nerambursabile. (4) După 3 ani, costurile nefinanțate pot fi incluse în tarif cu avizul ANRSC. (5) Termenul de 6 ore se aplică după 36 de luni de la intrarea în vigoare; până atunci operatorii asigură distribuirea apei în maximum 24 de ore.",
+        "argumentation": "„Exclusiv” contrazice Art. 1 și alin. (3) și lasă neclar cine plătește dacă nu există fonduri. Termenul de 6 ore se aplică din ziua 30, înainte ca rezervele să existe, așa că amenzile de 30.000–80.000 lei ar lovi operatori fără mijloace. Interdicția absolută de tarif mută pierderile la UAT-urile acționare.",
+        "otherComments": "Art. 8: lipsesc agentul constatator și trimiterea la OG 2/2001, iar „neinformarea populației” nu corespunde niciunei obligații din lege. Art. 7: forța majoră se certifică de CCIR, nu de ISU. Art. 2 lit. a) e prea larg. Recomand corelarea cu Legea 241/2006 și cu Directivele (UE) 2020/2184 și 2022/2557."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -143,7 +174,7 @@
         "codex": 6
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:13:30.374Z",
+      "replacedAt": "2026-11-24T15:04:34.513Z",
       "reasons": [
         "model"
       ]

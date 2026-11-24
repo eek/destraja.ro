@@ -2,7 +2,7 @@
   "billId": "PL-x 225/2026",
   "slug": "plx-225-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T13:15:05.264Z",
+  "updatedAt": "2026-11-24T15:05:39.330Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,12 +31,12 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 2.7,
     "riskLevel": "green",
-    "plainTitle": "Reguli pe specialități pentru telemedicină, telerecuperare și amânarea subiectelor unice la examenul de medic specialist",
-    "summaryTlDr": "Proiect util și în esență benign, care recunoaște oficial telerecuperarea și rezolvă un blocaj logistic real la examenul de specialitate, dar lasă Guvernului o marjă largă de reglementare prin HG și are mici vicii de redactare.",
-    "initiatorClaim": "Guvernul susține că vrea să creeze baza legală pentru a adapta telemedicina la specificul fiecărei specialități medicale și să amâne subiectele unice pe țară la examenul de specialist până în semestrul II al anului 2026, pentru a pregăti logistica de securitate în centrele universitare.",
-    "realityCheck": "Legea aprobă OG nr. 2/2026 (care deleagă către HG nr. 1.133/2022 stabilirea serviciilor de telemedicină permise și a situațiilor cu consult obligatoriu față în față, și mută subiectele unice în semestrul II 2026) și, prin amendamentele Senatului, introduce telerecuperarea în Legea nr. 95/2006 (art. 30¹ și art. 30¹³), inclusiv pentru fizioterapeuți. Nu conține taxe, monopoluri sau sancțiuni abuzive, dar lipsește un termen pentru actualizarea normelor de aplicare și există o delegare largă către executiv fără criterii legale minime.",
+    "plainTitle": "Telemedicina e reglementată pe specialități, se adaugă recuperarea medicală la distanță, iar subiectele unice la examenul de specialist se amână",
+    "summaryTlDr": "Este o lege tehnică și în mare parte utilă. Introduce temeiul legal pentru reguli de telemedicină diferențiate pe specialități și adaugă telerecuperarea. Riscul real e mutat în normele metodologice (HG), care vor stabili concret ce e permis și ce e interzis la distanță.",
+    "initiatorClaim": "Guvernul spune că legea actuală tratează telemedicina uniform, iar HG 1.133/2022 nu poate introduce restricții pe specialități fără mandat legal. Mai spune că centrele universitare nu sunt pregătite logistic pentru subiecte unice pe țară la examenul de specialist din semestrul I 2026.",
+    "realityCheck": "Ordonanța mută la Guvern, prin norme, decizia despre ce servicii de telemedicină sunt permise pe fiecare specialitate și când consultul față în față e obligatoriu. Este o delegare largă, fără criterii materiale în lege. Senatul adaugă telerecuperarea (art. 30¹ alin. (6) lit. g) și art. 30¹³): medicii de recuperare și fizioterapeuții pot lucra la distanță, dar serviciile conexe se fac doar pe prescripția medicului curant. Decontarea, cerințele tehnice și termenul pentru norme nu sunt prevăzute. Amânarea subiectelor unice e deja consumată în timp: legea de aprobare vine după sesiunea vizată.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Toți cetățenii",
@@ -44,10 +44,10 @@
       "IT & AI"
     ],
     "senatForm": {
-      "articleRef": "Art. unic, pct. 1 și 2 (art. 30¹ și 30¹³)",
-      "proposalContent": "Corectarea numerotării la pct. 1 („1¹.” în loc de „,-”, „art. 30¹”). La art. 30¹³ alin. (2), precizarea că actul de consult revine exclusiv medicului, iar prin alin. (4) impunerea actualizării HG nr. 1.133/2022 în 60 de zile, pe criterii obiective de siguranță clinică și proporționalitate.",
-      "argumentation": "Eroarea de numerotare de la pct. 1 încalcă art. 1 alin. (5) din Constituție. Lipsa unui termen de actualizare a HG nr. 1.133/2022 riscă să amâne aplicarea telerecuperării, iar delegarea către Guvern fără criterii clinice poate genera restricții disproporționate față de Directiva (UE) 2018/958.",
-      "otherComments": "Urgența examenului de rezidențiat (art. 7 alin. 13 Legea 52/2003) a fost folosită pentru a omite consultarea publică și pe telemedicină. Recomandăm audierea pacienților, CMR, CFZRO și clinicilor private în comisie și verificarea obligației de notificare TRIS (Dir. 2015/1535) la modificarea HG 1.133/2022."
+      "articleRef": "Art. unic pct. 2 – art. 30¹³ alin. (4) nou",
+      "proposalContent": "Se introduce alin. (4): «(4) Normele prevăzute la art. 30¹² stabilesc, în termen de 90 de zile de la intrarea în vigoare a legii de aprobare, condițiile tehnice minime, situațiile în care evaluarea inițială față în față este obligatorie și modalitatea de decontare a serviciilor de telerecuperare.»",
+      "argumentation": "Fără termen și fără legătură expresă cu normele, telerecuperarea rămâne declarativă: pacienții cu mobilitate redusă nu beneficiază de ea, iar furnizorii nu știu ce cerințe tehnice și de siguranță trebuie respectate. Evaluarea funcțională inițială în prezența pacientului reduce riscul de accidentare la exerciții nesupravegheate.",
+      "otherComments": "Recomandăm numerotarea punctului introdus înaintea pct. 1 (apare fără număr) și clarificarea raportului dintre specialitățile «medicină fizică și de reabilitare» și «medicină fizică și balneologie». Normele tehnice pentru serviciile la distanță ar trebui notificate prin procedura TRIS (Directiva 2015/1535)."
     }
   },
   "council": {
@@ -86,8 +86,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 42814,
+      "sourceEndMarker": "SF-234F7A60",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Telemedicina e reglementată pe specialități, se adaugă recuperarea medicală la distanță, iar subiectele unice la examenul de specialist se amână",
+      "verdictShort": "Este o lege tehnică și în mare parte utilă. Introduce temeiul legal pentru reguli de telemedicină diferențiate pe specialități și adaugă telerecuperarea. Riscul real e mutat în normele metodologice (HG), care vor stabili concret ce e permis și ce e interzis la distanță.",
+      "initiatorClaim": "Guvernul spune că legea actuală tratează telemedicina uniform, iar HG 1.133/2022 nu poate introduce restricții pe specialități fără mandat legal. Mai spune că centrele universitare nu sunt pregătite logistic pentru subiecte unice pe țară la examenul de specialist din semestrul I 2026.",
+      "realityCheck": "Ordonanța mută la Guvern, prin norme, decizia despre ce servicii de telemedicină sunt permise pe fiecare specialitate și când consultul față în față e obligatoriu. Este o delegare largă, fără criterii materiale în lege. Senatul adaugă telerecuperarea (art. 30¹ alin. (6) lit. g) și art. 30¹³): medicii de recuperare și fizioterapeuții pot lucra la distanță, dar serviciile conexe se fac doar pe prescripția medicului curant. Decontarea, cerințele tehnice și termenul pentru norme nu sunt prevăzute. Amânarea subiectelor unice e deja consumată în timp: legea de aprobare vine după sesiunea vizată.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "IT & AI",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. I din OG (art. 30¹ alin. (7) și art. 30¹² din Legea 95/2006): normele metodologice primesc competența de a stabili, pe fiecare specialitate, tipurile de telemedicină permise, limitele lor și situațiile cu consult obligatoriu față în față. Legea nu fixează criterii proprii.",
+        "Amendamentul Senatului, pct. 1 (art. 30¹ alin. (6) lit. g)): telerecuperarea devine tip distinct de serviciu de telemedicină.",
+        "Amendamentul Senatului, pct. 2 (art. 30¹³): telerecuperarea poate fi furnizată de medici de medicină fizică și de reabilitare / balneologie și de fizioterapeuți, «în limitele competențelor stabilite prin lege». Serviciile conexe se fac strict pe prescripția medicului curant, deci fizioterapeutul nu poate lucra la distanță în mod autonom.",
+        "Modificarea art. 15 alin. (32) din OG 18/2009: subiectele unice pe țară la proba scrisă a examenului de specialist se aplică de la sesiunea din semestrul II 2026. La data aprobării parlamentare, efectul este practic epuizat.",
+        "Expunerea de motive declară impact bugetar zero și lipsa consultării cu ONG-uri. Invocă art. 7 alin. (13) din Legea 52/2003 pentru transparență scurtată, deși justificarea (înscrierile la examen) privește doar componenta de rezidențiat, nu și telemedicina."
+      ],
+      "blindSpotsCaught": "Punctul introdus de Senat înaintea pct. 1 apare fără număr, deci e o problemă de tehnică legislativă la renumerotare. Telerecuperarea nu e legată expres de normele art. 30¹² și nu are termen de aplicare, așa că poate rămâne declarativă. Nu se spune nici dacă va fi decontată de CNAS. Justificarea urgenței pentru transparență scurtată a fost folosită și pentru o reformă de fond în telemedicină, care nu avea nicio legătură cu calendarul examenelor.",
+      "constitutionalityNote": "Ordonanța e emisă pe baza legii de abilitare 244/2025 (art. 115 alin. (1)–(3)) și nu ridică probleme de domeniu. Punctul sensibil e delegarea către HG a restricțiilor asupra actului medical la distanță, fără criterii materiale în lege. Sub art. 1 alin. (5) (previzibilitate) și art. 53 (restrângeri doar prin lege, proporționale) e defendabilă, fiindcă dreptul la ocrotirea sănătății (art. 34) justifică norme tehnice de siguranță. Totuși, restricțiile severe ar trebui să aibă repere în lege. Amendamentele Senatului țin de obiectul ordonanței și nu ridică probleme constituționale.",
+      "euLawNote": "Directiva 2018/958: legea extinde modul de exercitare pentru medici și fizioterapeuți, deci nu e restrictivă în sine. Viitoarele restricții din norme privind profesiile reglementate ar trebui însă supuse testului de proporționalitate. TRIS (2015/1535): telemedicina fără prezența fizică a pacientului poate fi serviciu al societății informaționale, așa că normele care impun cerințe specifice (platforme, autentificare, standarde) ar trebui notificate. Directiva 2011/24 și GDPR (date de sănătate) se aplică furnizării transfrontaliere și monitorizării la distanță.",
+      "senatForm": {
+        "articleRef": "Art. unic pct. 2 – art. 30¹³ alin. (4) nou",
+        "proposalContent": "Se introduce alin. (4): «(4) Normele prevăzute la art. 30¹² stabilesc, în termen de 90 de zile de la intrarea în vigoare a legii de aprobare, condițiile tehnice minime, situațiile în care evaluarea inițială față în față este obligatorie și modalitatea de decontare a serviciilor de telerecuperare.»",
+        "argumentation": "Fără termen și fără legătură expresă cu normele, telerecuperarea rămâne declarativă: pacienții cu mobilitate redusă nu beneficiază de ea, iar furnizorii nu știu ce cerințe tehnice și de siguranță trebuie respectate. Evaluarea funcțională inițială în prezența pacientului reduce riscul de accidentare la exerciții nesupravegheate.",
+        "otherComments": "Recomandăm numerotarea punctului introdus înaintea pct. 1 (apare fără număr) și clarificarea raportului dintre specialitățile «medicină fizică și de reabilitare» și «medicină fizică și balneologie». Normele tehnice pentru serviciile la distanță ar trebui notificate prin procedura TRIS (Directiva 2015/1535)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -140,7 +169,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:15:05.264Z",
+      "replacedAt": "2026-11-24T15:05:39.330Z",
       "reasons": [
         "model"
       ]

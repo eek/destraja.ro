@@ -2,113 +2,169 @@
   "billId": "Pl-x 170/2026",
   "slug": "plx-170-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T09:35:00.298Z",
+  "updatedAt": "2026-11-24T15:29:16.234Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1069,
+    "ordinanceChars": 0,
+    "memoChars": 3037,
+    "memoSupplied": 3037,
+    "marker": "SF-57255826"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-170-2026.json",
+    "form": "initiator",
+    "textHash": "57255826c874930d",
+    "fetchedAt": "2026-11-19T11:00:28.279Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1790,
+    "truncated": false,
+    "included": true,
+    "key": "744b4da7737b93d2"
+  },
   "consensus": {
     "riskScore": 2,
     "riskLevel": "green",
-    "plainTitle": "Arhitectura se studiază 6 ani, scris explicit în lege",
-    "summaryTlDr": "Lege tehnică și benignă: trece în Legea învățământului superior ce se întâmplă deja la facultățile de arhitectură, adică 6 ani și 360 de credite. Problemele sunt de redactare și o expunere de motive care citează directiva UE într-o formă depășită.",
-    "initiatorClaim": "Inițiatorii vor ca legea să spună explicit că studiile de arhitectură durează 6 ani și totalizează 360 de credite ECTS. Motivul invocat este coerența cu celelalte profesii sectoriale armonizate la nivelul UE (medic, farmacist, medic veterinar etc.).",
-    "realityCheck": "Articolul unic reia formula actuală a art. 46 alin. (1) și adaugă doar sintagma «cu o durată de 6 ani de studii și 360 credite de studii transferabile ECTS/SECT» după programul Arhitectură. Programele de Arhitectură din România funcționează deja, în general, pe 6 ani, așa că efectul real este fixarea status quo-ului în lege: o scurtare la 5 ani (minimul UE) ar cere o nouă lege. Nu apar taxe, sancțiuni sau obligații noi, iar fișa arată procedura încetată, deci textul nu va produce efecte în această formă.",
+    "plainTitle": "Arhitectura: 6 ani de facultate, 360 de credite și diploma de arhitect, scrise explicit în lege",
+    "summaryTlDr": "Este o modificare tehnică, de clarificare, fără costuri și fără sancțiuni. Riscul real ține doar de redactare: cuvântul „respectiv” lasă loc de interpretare privind relația dintre diploma de arhitect și diploma de licență și master.",
+    "initiatorClaim": "Inițiatorii vor ca legea să spună explicit că studiile de arhitectură durează 6 ani și totalizează 360 de credite ECTS. Scopul declarat este coerența cu celelalte șase profesii sectoriale armonizate prin Directiva 2005/36/CE.",
+    "realityCheck": "Articolul unic rescrie art. 46 alin. (1) din Legea nr. 199/2023. Azi, textul spune doar că, la programele comasate de 5-6 ani pentru profesii reglementate, se acordă diploma de licență și master. Proiectul adaugă „respectiv diploma de arhitect” pentru programul Arhitectură, cu durata fixă de 6 ani și 360 ECTS/SECT. Efectul practic e mic, pentru că programele de arhitectură din România au deja, de regulă, 6 ani. Chichițele sunt de redactare: „respectiv” poate fi citit fie ca diplomă care o înlocuiește pe cea de licență și master, fie ca diplomă care o echivalează; în plus, textul folosește „masterat” în loc de termenul legii, „master”.",
     "affectedGroups": [
       "Sănătate & Educație",
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. unic, art. 46 alin. (1) din Legea 199/2023",
-      "proposalContent": "„(1) Pentru profesiile reglementate, unde ciclul I și ciclul II sunt oferite comasat într-un program de studii universitare cu durata cuprinsă între 5 și 6 ani, se acordă diploma de licență și masterat. Programul de studii Arhitectură are durata de 6 ani și 360 credite ECTS/SECT, iar absolvenților li se acordă diploma de arhitect.”",
-      "argumentation": "Forma inițiatorului leagă durata de 6 ani de acordarea diplomei, nu de program, și lasă loc interpretării că un program de 5 ani ar fi legal, dar fără diplomă de arhitect. O normă separată, imperativă, respectă cerința de claritate (art. 1 alin. 5 Constituție) și codifică durata deja practicată de facultăți, fără costuri noi.",
-      "otherComments": "Procedura e încetată; propunerea servește unei reluări a inițiativei. Expunerea de motive citează art. 46 din Directiva 2005/36/CE în forma dinainte de Directiva 2013/55/UE (azi: minim 5 ani sau 4 + 2 ani stagiu); 6 ani depășește minimul UE, permis, dar cere justificare de proporționalitate (Directiva 2018/958). Corectați „La articolului 46” în „La articolul 46”."
+      "articleRef": "Art. unic – art. 46 alin. (1) din Legea 199/2023",
+      "proposalContent": "(1) Pentru profesiile reglementate, unde ciclul I și II sunt oferite comasat într-un program cu durata de 5-6 ani, se acordă diploma de licență și master. Programul de studii Arhitectură are durata de 6 ani și 360 ECTS/SECT, iar absolvenților li se acordă diploma de arhitect, echivalentă diplomei de licență și master.",
+      "argumentation": "Textul inițiatorului e ambiguu: „respectiv” poate fi citit ca înlocuind diploma de licență și master cu cea de arhitect. Textul amestecă și „masterat” cu termenul legii, „master”. Formularea propusă fixează clar durata de 6 ani și 360 ECTS și efectul diplomei, util pentru recunoașterea automată în UE (Directiva 2005/36/CE).",
+      "otherComments": "Se corectează „La articolului 46” în „La articolul 46”. Recomand o notă de proporționalitate (Directiva 2018/958) privind fixarea duratei. Recomand și corelarea cu art. 75 (profesii sectoriale), invocat în expunerea de motive, eventual prin includerea arhitecturii acolo. Expunerea citează art. 46 din Directivă în forma anterioară Directivei 2013/55/UE."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 44808,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 68152,
+      "sourceEndMarker": "SF-57255826",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Clarificarea în lege a duratei de 6 ani și 360 de credite ECTS pentru facultatea de Arhitectură",
-      "verdictShort": "O intervenție legislativă tehnică și benignă, care consacră explicit în legea educației durata de 6 ani (360 ECTS) a studiilor comasate de Arhitectură, fără a introduce restricții noi pe piață.",
-      "initiatorClaim": "Inițiatorii doresc completarea art. 46 din Legea învățământului superior nr. 199/2023 pentru a prevedea explicit că programul de studii Arhitectură are o durată de 6 ani și 360 de credite ECTS, similar profesiilor din sănătate și medicină veterinară reglementate la art. 75.",
-      "realityCheck": "Modificarea nu schimbă în practică durata studiilor de arhitectură (care este deja de 6 ani și 360 ECTS prin hotărâre de guvern și notificată ca atare la nivelul UE), ci doar ridică această precizare la rang de lege primară. Singurele deficiențe sunt de tehnică legislativă: plasarea duratei studiilor în articolul dedicat diplomelor (art. 46) în loc de cel dedicat duratei profesiilor reglementate sectorial (art. 75) și citarea unei versiuni abrogate a Directivei 2005/36/CE în expunerea de motive.",
+      "plainTitle": "Diploma de arhitect și durata de 6 ani (360 ECTS), trecute explicit în Legea învățământului superior",
+      "verdictShort": "O modificare tehnică și benignă, care consacră explicit în lege realitatea deja existentă a studiilor de Arhitectură de 6 ani (360 ECTS) și a diplomei de arhitect. Nu introduce riscuri majore, taxe sau blocaje, dar are mici scăpări de redactare, nu precizează expres echivalența diplomei cu masterul, iar procedura legislativă figurează deja ca încetată.",
+      "initiatorClaim": "Inițiatorii susțin că vor să asigure coerența Legii învățământului superior nr. 199/2023 cu Directiva europeană 2005/36/CE pentru toate cele șapte profesii sectoriale armonizate, menționând explicit durata de 6 ani și cele 360 de credite ECTS pentru domeniul Arhitectură.",
+      "realityCheck": "În prezent, art. 46 alin. (1) din Legea nr. 199/2023 (în forma modificată prin OUG nr. 95/2024) prevede generic acordarea «diplomei de licență și master» pentru profesiile reglementate cu ciclul I și II comasate pe 5–6 ani, fără a numi expres arhitectura. Proiectul schimbă «master» în «masterat» și adaugă explicit acordarea «diplomei de arhitect» pentru programul Arhitectură de 6 ani și 360 ECTS/SECT, fără a afecta alte articole și fără efecte bugetare ori birocratice noi.",
       "affectedGroups": [
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Articolul unic modifică art. 46 alin. (1) din Legea nr. 199/2023, precizând că „diploma de arhitect” se acordă pentru programul de studii Arhitectură cu o durată de 6 ani și 360 de credite ECTS/SECT.",
-        "Deși Expunerea de motive vorbește generic despre „învățământul superior din domeniul arhitectură” (care include și programe mai scurte, precum Arhitectură de interior sau Peisagistică), textul normativ este corect circumscris doar la programul de studii „Arhitectură”.",
-        "Textul conține o eroare gramaticală în partea introductivă a Articolului unic („La articolului 46” în loc de „La articolul 46”), iar procedura legislativă pentru această inițiativă a încetat."
+        "Articolul unic reintroduce mențiunea explicită a «diplomei de arhitect» și fixează durata de 6 ani și 360 credite ECTS/SECT în art. 46 alin. (1) din Legea nr. 199/2023, codificând practica universitară deja în vigoare.",
+        "Formularea propusă («se acordă diploma de licență și masterat, respectiv diploma de arhitect») nu precizează expres că diploma de arhitect este echivalentă cu diploma de licență și master, ceea ce poate lăsa loc de interpretări birocratice izolate, deși alineatul se referă în ansamblu la studiile comasate de ciclul I și II.",
+        "Textul conține o eroare gramaticală în partea dispozitivă («La articolului 46») și înlocuiește termenul «master» (folosit în forma în vigoare a art. 46 după OUG nr. 95/2024) cu «masterat», creând o mică necorelare terminologică.",
+        "Conform datelor Camerei Deputaților, procedura legislativă pentru Pl-x 170/2026 este deja încetată, deci textul nu mai produce efecte juridice în această formă decât dacă va fi redepus."
       ],
-      "blindSpotsCaught": "În Expunerea de motive, inițiatorii citează o versiune veche a art. 46 alin. (1) din Directiva 2005/36/CE (care prevedea minimum 4 ani de studii integrale sau 6 ani din care 3 integrali), ignorând faptul că articolul a fost modificat substanțial prin Directiva 2013/55/UE (care prevede fie minimum 5 ani de studii universitare, fie minimum 4 ani de studii plus 2 ani de stagiu profesional). De asemenea, tehnic, durata și creditele profesiilor sectoriale își aveau sediul materiei la art. 75 din Legea nr. 199/2023, nu la art. 46 (care reglementează denumirea actelor de studii).",
-      "constitutionalityNote": "Proiectul nu ridică probleme de constituționalitate, urmărind creșterea clarității și previzibilității normei (art. 1 alin. (5) din Constituție), cu rezerva necesității de corelare sistematică între art. 46 și art. 75 din Legea nr. 199/2023 conform Legii nr. 24/2000.",
-      "euLawNote": "Conform cu Directiva 2005/36/CE (modificată prin Directiva 2013/55/UE), Anexa V pct. 5.7.1, unde România are deja notificată „Diploma de arhitect” pentru ciclul comasat de 6 ani. Nu introduce restricții noi privind accesul în profesie, deci nu necesită un test suplimentar de proporționalitate conform Directivei (UE) 2018/958 și nu intră sub incidența notificării TRIS (Directiva 2015/1535).",
+      "blindSpotsCaught": "În expunerea de motive, inițiatorii citează vechea formulare din 2005 a art. 46 alin. (1) din Directiva 2005/36/CE («cel puțin patru ani... sau șase ani»), ignorând modificarea adusă prin Directiva 2013/55/UE (care stabilește minim 5 ani de studii integrale ori 4 ani de studii plus 2 ani de stagiu profesional). În plus, expunerea de motive afirmă că Legea nr. 199/2023 a reintrodus diploma de arhitect, dar omite să menționeze că OUG nr. 95/2024 a modificat ulterior art. 46 alin. (1) lăsând doar formula generală «diploma de licență și master».",
+      "constitutionalityNote": "Proiectul nu ridică probleme de fond față de Constituția României (art. 32 privind dreptul la învățătură și art. 73 alin. (3) lit. n) privind regimul general al învățământului prin lege organică, respectând procedura art. 75 și art. 76 alin. (1)). Există doar deficiențe minore de tehnică legislativă în raport cu art. 1 alin. (5) (calitatea și claritatea legii): greșeala gramaticală «La articolului 46» și oportunitatea de a menționa explicit echivalența diplomei de arhitect cu ciclul I și II (licență și master).",
+      "euLawNote": "Măsura este compatibilă cu Directiva 2005/36/CE (modificată prin Directiva 2013/55/UE), întrucât 6 ani de studii și 360 ECTS depășesc pragul minim european pentru recunoașterea automată a titlului de arhitect. În raport cu Directiva (UE) 2018/958 (testul de proporționalitate), proiectul nu introduce o restricție nouă de acces la profesie, ci confirmă durata deja aplicată în România; totuși, o evaluare formală de proporționalitate lipsește din motivare. Directiva (UE) 2015/1535 (TRIS) nu este aplicabilă, nefiind reglementate produse sau servicii digitale/AI.",
       "senatForm": {
-        "articleRef": "Articol unic (modificarea art. 46 alin. (1))",
-        "proposalContent": "Corectarea erorii gramaticale din partea introductivă („La articolul 46”, nu „La articolului 46”) și, opțional, corelarea cu art. 75 alin. (1) din Legea nr. 199/2023, unde sunt reglementate sistematic durata și creditele ECTS pentru celelalte profesii reglementate sectorial.",
-        "argumentation": "Art. 46 din Legea nr. 199/2023 reglementează regimul actelor de studii (diplomelor), în timp ce durata și creditele ECTS pentru profesiile reglementate sectorial sunt prevăzute la art. 75. De asemenea, în Expunerea de motive este citată forma veche a art. 46 din Directiva 2005/36/CE, anterioară modificării prin Directiva 2013/55/UE.",
-        "otherComments": "Propunerea este tehnică și benefică pentru claritatea statutului absolvenților de Arhitectură, însă procedura legislativă a încetat (fiind depuse în paralel inițiative similare pentru corelarea cu art. 75 din Legea nr. 199/2023)."
-      }
+        "articleRef": "Articol unic (Art. 46 alin. (1) Legea 199/2023)",
+        "proposalContent": "La articolul 46 din Legea nr. 199/2023, alin. (1) se modifică: «(1) Pentru profesiile reglementate, unde ciclul I și II sunt oferite comasat pe 5–6 ani, se acordă diploma de licență și master, respectiv diploma de arhitect, echivalentă acesteia, pentru programul Arhitectură de 6 ani și 360 credite ECTS/SECT.»",
+        "argumentation": "Corectează eroarea gramaticală («La articolului 46»), menține termenul unitar «licență și master» din Legea nr. 199/2023 (OUG nr. 95/2024) și precizează expres echivalența diplomei de arhitect cu ciclurile I și II comasate, evitând ambiguități administrative la înscrierea la doctorat ori la recunoașterea calificărilor.",
+        "otherComments": "Notă: procedura legislativă pentru Pl-x 170/2026 figurează ca încetată. Dacă inițiativa va fi reluată, expunerea de motive trebuie actualizată cu art. 46 din Directiva 2005/36/CE modificat prin Directiva 2013/55/UE (minim 5 ani sau 4 ani + 2 ani stagiu) și corelată cu testul de proporționalitate din Directiva (UE) 2018/958."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 133209,
+      "durationMs": 35262,
+      "sourceEndMarker": "SF-57255826",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Arhitectura se studiază 6 ani, scris explicit în lege",
-      "verdictShort": "Lege tehnică și benignă: trece în Legea învățământului superior ce se întâmplă deja la facultățile de arhitectură, adică 6 ani și 360 de credite. Problemele sunt de redactare și o expunere de motive care citează directiva UE într-o formă depășită.",
-      "initiatorClaim": "Inițiatorii vor ca legea să spună explicit că studiile de arhitectură durează 6 ani și totalizează 360 de credite ECTS. Motivul invocat este coerența cu celelalte profesii sectoriale armonizate la nivelul UE (medic, farmacist, medic veterinar etc.).",
-      "realityCheck": "Articolul unic reia formula actuală a art. 46 alin. (1) și adaugă doar sintagma «cu o durată de 6 ani de studii și 360 credite de studii transferabile ECTS/SECT» după programul Arhitectură. Programele de Arhitectură din România funcționează deja, în general, pe 6 ani, așa că efectul real este fixarea status quo-ului în lege: o scurtare la 5 ani (minimul UE) ar cere o nouă lege. Nu apar taxe, sancțiuni sau obligații noi, iar fișa arată procedura încetată, deci textul nu va produce efecte în această formă.",
+      "plainTitle": "Arhitectura: 6 ani de facultate, 360 de credite și diploma de arhitect, scrise explicit în lege",
+      "verdictShort": "Este o modificare tehnică, de clarificare, fără costuri și fără sancțiuni. Riscul real ține doar de redactare: cuvântul „respectiv” lasă loc de interpretare privind relația dintre diploma de arhitect și diploma de licență și master.",
+      "initiatorClaim": "Inițiatorii vor ca legea să spună explicit că studiile de arhitectură durează 6 ani și totalizează 360 de credite ECTS. Scopul declarat este coerența cu celelalte șase profesii sectoriale armonizate prin Directiva 2005/36/CE.",
+      "realityCheck": "Articolul unic rescrie art. 46 alin. (1) din Legea nr. 199/2023. Azi, textul spune doar că, la programele comasate de 5-6 ani pentru profesii reglementate, se acordă diploma de licență și master. Proiectul adaugă „respectiv diploma de arhitect” pentru programul Arhitectură, cu durata fixă de 6 ani și 360 ECTS/SECT. Efectul practic e mic, pentru că programele de arhitectură din România au deja, de regulă, 6 ani. Chichițele sunt de redactare: „respectiv” poate fi citit fie ca diplomă care o înlocuiește pe cea de licență și master, fie ca diplomă care o echivalează; în plus, textul folosește „masterat” în loc de termenul legii, „master”.",
       "affectedGroups": [
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Articol unic, art. 46 alin. (1): durata de 6 ani / 360 ECTS este atașată acordării diplomei de arhitect, nu formulată ca obligație distinctă pentru program. Rămâne astfel o ambiguitate: un program de Arhitectură de 5 ani ar fi interzis, sau doar nu ar mai conduce la «diploma de arhitect»?",
-        "Expunerea de motive citează art. 46 din Directiva 2005/36/CE în forma originală (4 ani cu program integral sau 6 ani, din care 3 integral). Această formă a fost înlocuită prin Directiva 2013/55/UE, care cere minimum 5 ani cu program integral sau 4 ani plus 2 ani de stagiu profesional. Cei 6 ani depășesc minimul UE, ceea ce este permis, dar nu sunt impuși de directivă, cum sugerează justificarea.",
-        "Impact bugetar și birocratic practic nul: nu se creează instituții, taxe, avize sau proceduri noi, iar durata codificată este cea deja practicată. Lipsesc dispozițiile tranzitorii, dar ele ar conta doar dacă vreun program ar avea acum altă durată.",
-        "Eroare de tehnică legislativă în partea introductivă: «La articolului 46» în loc de «La articolul 46».",
-        "Inițiativă susținută transpartinic (PSD, AUR, PNL, UDMR, minorități). Procedura a fost totuși încetată, iar motivul nu reiese din datele primite."
+        "Art. unic – art. 46 alin. (1): durata programului Arhitectură devine fixă prin lege, 6 ani și 360 ECTS/SECT. O universitate nu ar mai putea organiza un program comasat de arhitectură de 5 ani, deși intervalul general de 5-6 ani rămâne valabil pentru celelalte profesii.",
+        "Raportul dintre „diploma de licență și masterat” și „diploma de arhitect” nu e definit. Nu se spune dacă diploma de arhitect se acordă în locul diplomei de licență și master, alături de ea sau ca echivalentă cu ea. Asta contează pentru accesul la doctorat și la concursurile care cer master.",
+        "Terminologia e inconsecventă: textul nou spune „masterat”, iar legea în vigoare spune „master”. Formula introductivă are și o greșeală gramaticală: „La articolului 46”.",
+        "Proiectul nu creează taxe sau sancțiuni și nu aduce sarcini birocratice pentru cetățeni sau IMM-uri. Impactul bugetar este neglijabil.",
+        "Procedura legislativă a încetat, deci textul nu va produce efecte în această formă."
       ],
-      "blindSpotsCaught": "Expunerea de motive se sprijină pe un text al Directivei 2005/36/CE care nu mai este în vigoare în acea formă, după modificarea prin Directiva 2013/55/UE. De asemenea, numește «art. (19)» ceea ce este de fapt considerentul (19) al directivei, nu un articol. Iar construcția frazei din forma propusă leagă cerința de 6 ani de diplomă, nu de program, deci obiectivul declarat, ca legea să spună «explicit» durata, este atins doar pe jumătate.",
-      "constitutionalityNote": "Nu se ridică probleme de constituționalitate. Legea nr. 199/2023 ține de organizarea generală a învățământului, adică lege organică conform art. 73 alin. (3) lit. n). Este corectă, deci, trimiterea la art. 76 alin. (1), la fel și ordinea camerelor conform art. 75: Camera Deputaților primă cameră, Senatul decizional. Fixarea prin lege a duratei pentru o profesie reglementată intră în marja legiuitorului și nu golește de conținut autonomia universitară (art. 32 alin. 6). Sub aspectul clarității și previzibilității (art. 1 alin. 5), textul e în general inteligibil, cu ambiguitatea minoră descrisă mai sus. Nu există impact bugetar care să ceară informarea Guvernului conform art. 111.",
-      "euLawNote": "Directiva 2005/36/CE (art. 46, modificat prin Directiva 2013/55/UE) stabilește doar o durată minimă a formării de arhitect, care poate fi exprimată și în ECTS. Un stat membru poate cere mai mult pentru diplomele proprii, deci 6 ani / 360 ECTS este compatibil. Recunoașterea automată a arhitecților din alte state, cu diplome conforme art. 46 și Anexei V, nu este afectată: o eventuală diferență ar atinge doar absolvenții români, nu libera circulație. Directiva (UE) 2018/958 se aplică în principiu, pentru că este o cerință de calificare peste minimul armonizat, lăsată la alegerea statului. Ar fi trebuit deci însoțită de o evaluare a proporționalității, care lipsește din expunerea de motive. Riscul e redus, pentru că se codifică o practică existentă. Directiva (UE) 2015/1535 (TRIS) nu este relevantă: nu se reglementează servicii ale societății informaționale sau AI.",
+      "blindSpotsCaught": "Expunerea de motive citează art. 46 din Directiva 2005/36/CE în varianta inițială (4 ani integral sau 6 ani, din care 3 integral). Directiva 2013/55/UE a modificat acest text: acum minimul este de 5 ani de studii cu normă întreagă, sau 4 ani plus 2 ani de stagiu profesional. Durata de 6 ani propusă depășește oricum minimul european, deci nu există conflict, dar motivarea se sprijină pe un text depășit. Totodată, expunerea invocă art. 75 din lege, unde sunt enumerate profesiile sectoriale, însă proiectul nu modifică art. 75. Coerența pe care o promite rămâne astfel parțială.",
+      "constitutionalityNote": "Nu se văd probleme de constituționalitate de fond. Parlamentul poate stabili prin lege durata și actele de studii (art. 32 din Constituție). Autonomia universitară (art. 32 alin. 6) se exercită în condițiile legii, iar fixarea duratei pentru o profesie reglementată sectorial e justificată. Singurul punct sensibil ține de claritate și previzibilitate (art. 1 alin. 5): ambiguitatea lui „respectiv” și terminologia inconsecventă ar trebui corectate, dar nu ating pragul unei neconstituționalități evidente.",
+      "euLawNote": "Proiectul e compatibil cu Directiva 2005/36/CE: 6 ani și 360 ECTS depășesc minimul de la art. 46 (forma modificată prin Directiva 2013/55/UE) și sprijină recunoașterea automată a diplomei. Directiva (UE) 2018/958 privind testul de proporționalitate e relevantă în principiu, pentru că fixarea duratei formării poate fi o cerință de acces la o profesie reglementată. Pentru o confirmare a practicii existente, sub nivelul armonizat al profesiilor sectoriale, impactul e minim, dar o scurtă justificare de proporționalitate ar fi fost recomandabilă. Directiva TRIS 2015/1535 nu se aplică, fiindcă proiectul nu privește servicii digitale sau reglementări tehnice.",
       "senatForm": {
-        "articleRef": "Art. unic, art. 46 alin. (1) din Legea 199/2023",
-        "proposalContent": "„(1) Pentru profesiile reglementate, unde ciclul I și ciclul II sunt oferite comasat într-un program de studii universitare cu durata cuprinsă între 5 și 6 ani, se acordă diploma de licență și masterat. Programul de studii Arhitectură are durata de 6 ani și 360 credite ECTS/SECT, iar absolvenților li se acordă diploma de arhitect.”",
-        "argumentation": "Forma inițiatorului leagă durata de 6 ani de acordarea diplomei, nu de program, și lasă loc interpretării că un program de 5 ani ar fi legal, dar fără diplomă de arhitect. O normă separată, imperativă, respectă cerința de claritate (art. 1 alin. 5 Constituție) și codifică durata deja practicată de facultăți, fără costuri noi.",
-        "otherComments": "Procedura e încetată; propunerea servește unei reluări a inițiativei. Expunerea de motive citează art. 46 din Directiva 2005/36/CE în forma dinainte de Directiva 2013/55/UE (azi: minim 5 ani sau 4 + 2 ani stagiu); 6 ani depășește minimul UE, permis, dar cere justificare de proporționalitate (Directiva 2018/958). Corectați „La articolului 46” în „La articolul 46”."
-      }
+        "articleRef": "Art. unic – art. 46 alin. (1) din Legea 199/2023",
+        "proposalContent": "(1) Pentru profesiile reglementate, unde ciclul I și II sunt oferite comasat într-un program cu durata de 5-6 ani, se acordă diploma de licență și master. Programul de studii Arhitectură are durata de 6 ani și 360 ECTS/SECT, iar absolvenților li se acordă diploma de arhitect, echivalentă diplomei de licență și master.",
+        "argumentation": "Textul inițiatorului e ambiguu: „respectiv” poate fi citit ca înlocuind diploma de licență și master cu cea de arhitect. Textul amestecă și „masterat” cu termenul legii, „master”. Formularea propusă fixează clar durata de 6 ani și 360 ECTS și efectul diplomei, util pentru recunoașterea automată în UE (Directiva 2005/36/CE).",
+        "otherComments": "Se corectează „La articolului 46” în „La articolul 46”. Recomand o notă de proporționalitate (Directiva 2018/958) privind fixarea duratei. Recomand și corelarea cu art. 75 (profesii sectoriale), invocat în expunerea de motive, eventual prin includerea arhitecturii acolo. Expunerea citează art. 46 din Directivă în forma anterioară Directivei 2013/55/UE."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 126528,
+      "durationMs": 60865,
+      "sourceEndMarker": "SF-57255826",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Diploma de arhitect după 6 ani și 360 de credite",
-      "verdictShort": "Proiect predominant tehnic și util pentru clarificarea diplomei de arhitect, fără taxe, sancțiuni sau privilegii profesionale noi. Riscul redus provine din redactarea imperfectă și justificarea europeană depășită.",
-      "initiatorClaim": "Inițiatorii urmăresc înscrierea expresă în Legea învățământului superior a duratei de 6 ani și a celor 360 de credite pentru programul Arhitectură. Invocă necesitatea corelării formării arhitecților cu regimul profesiilor reglementate sectorial.",
-      "realityCheck": "Articolul unic ar introduce expres diploma de arhitect în regula programelor care comasează licența și masterul și ar fixa durata și creditele programului Arhitectură. Aceste cerințe există deja în anexa nr. 3 la HG nr. 840/2025, astfel că proiectul nu adaugă efectiv un an de studii și nu instituie costuri bugetare, taxe sau obligații birocratice noi pentru cetățeni ori IMM-uri. Procedura fiind încetată, textul analizat nu produce prin el însuși modificarea legii. [Cerințele existente](https://legislatie.just.ro/Public/DetaliiDocumentAfis/302966); [fișa proiectului](https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23073).",
+      "plainTitle": "Diplomă de arhitect după 6 ani și 360 de credite",
+      "verdictShort": "Proiect predominant tehnic, cu risc redus: precizează durata, creditele și diploma pentru programul Arhitectură. Necesită o justificare europeană actualizată și clarificarea aplicării pentru studenții deja înscriși; procedura legislativă este însă încetată.",
+      "initiatorClaim": "Inițiatorii urmăresc să prevadă explicit pentru arhitectură o formare de 6 ani și 360 de credite, pentru coerență cu reglementarea celorlalte profesii sectoriale. Invocă și existența diplomei de arhitect în cadrul legislativ.",
+      "realityCheck": "Art. 46 alin. (1) în vigoare prevede deja programe comasate de 5–6 ani și diploma de licență și master; proiectul introduce expres diploma de arhitect pentru programul Arhitectură, fixat la 6 ani și 360 de credite. Nu reglementează direct dreptul de semnătură, recunoașterea calificărilor străine sau celelalte programe din domeniul arhitecturii. Fiind o propunere cu procedura încetată, textul nu produce prin el însuși efecte juridice.",
       "affectedGroups": [
         "Sănătate & Educație",
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Articolul unic privește programul de studii Arhitectură; nu transformă automat toate programele din domeniul Arhitectură în programe de 6 ani.",
-        "Durata de 6 ani și cele 360 de credite sunt deja obligatorii potrivit articolului unic alin. (1) din anexa nr. 3 la HG nr. 840/2025. Modificarea le-ar consacra și la nivelul legii. [Sursa oficială](https://legislatie.just.ro/Public/DetaliiDocumentAfis/302966).",
-        "Textul înlocuiește pentru toate programele integrate denumirea existentă «diploma de licență și master» cu «diploma de licență și masterat», deși scopul declarat privește arhitectura. În plus, art. 44 include deja diploma de arhitect între diplomele de licență; această suprapunere trebuie corelată cu regimul programului integrat. [Art. 44–46 în vigoare](https://legislatie.just.ro/Public/DetaliiDocument/271898).",
-        "Proiectul nu modifică dreptul de semnătură, înscrierea într-un organism profesional, tarifele sau activitățile rezervate arhitecților. Nu rezultă un monopol nou ori o barieră concurențială suplimentară față de durata de formare deja stabilită."
+        "Articolul unic modifică exclusiv art. 46 alin. (1): regula generală a programelor comasate există deja; noutatea este prevederea expresă privind programul Arhitectură, durata, creditele și diploma sa.",
+        "Art. 46 alin. (2), privind informațiile înscrise pe diplome, rămâne aplicabil. Textul integral nu conține alte modificări legislative, derogări, abrogări sau dispoziții finale și tranzitorii.",
+        "Nu sunt introduse taxe, sancțiuni ori obligații administrative pentru firme. Pot exista adaptări administrative ale universităților și documentelor de studii, dar documentele furnizate nu permit cuantificarea costurilor.",
+        "Lipsa dispozițiilor tranzitorii lasă neclară aplicarea noii denumiri a diplomei pentru cohortele deja înscrise; nu rezultă însă anularea diplomelor emise anterior."
       ],
-      "blindSpotsCaught": "Expunerea citează versiunea veche a art. 46 din Directiva 2005/36/CE. Regula europeană actuală prevede minimum 5 ani de studii cu frecvență sau minimum 4 ani de studii cu frecvență însoțiți de un stagiu profesional de 2 ani; UE nu impune universal 6 ani universitari. Pasajul atribuit «art. (19)» este, în realitate, considerentul (19). Aceste erori slăbesc motivarea, fără să facă automat ilegală durata națională de 6 ani. [Condițiile europene actuale](https://employment-social-affairs.ec.europa.eu/policies-and-activities/skills-and-qualifications/recognition-professional-qualifications/automatic-recognition_en); [directiva inițială](https://eur-lex.europa.eu/eli/dir/2005/36/oj?locale=ro).",
-      "constitutionalityNote": "Nu se identifică o neconstituționalitate evidentă de fond. Pentru art. 1 alin. (5), problemele concrete sunt terminologia diplomei și corelarea art. 44 cu art. 46; ele justifică îmbunătățirea redactării, fără a demonstra singure încălcarea Constituției. Art. 23 alin. (12) privește legalitatea pedepselor și nu este incident, deoarece proiectul nu instituie pedepse. Din text nu rezultă o atingere evidentă a dreptului la învățătură ori a autonomiei universitare. [Constituția republicată](https://legislatie.just.ro/Public/DetaliiDocument/47355?isFormaDeBaza=True).",
-      "euLawNote": "Durata națională de 6 ani nu contravine automat Directivei 2005/36/CE, dar nu poate justifica refuzul recunoașterii calificărilor europene care îndeplinesc condițiile aplicabile. Pentru Directiva 2018/958, simpla clarificare tehnică fără restricții profesionale suplimentare nu declanșează automat un test; dacă măsura introduce sau modifică efectiv o restricție de acces, evaluarea prealabilă trebuie să justifice necesitatea și proporționalitatea acesteia, inclusiv durata formării și alternativele. Excepția pentru transpuneri fără marjă națională nu justifică singură alegerea celor 6 ani. [Directiva 2018/958, considerentul (9) și art. 2, 4, 7](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018L0958). TRIS nu este incident: textul nu reglementează produse, servicii digitale sau AI. [Directiva 2015/1535, art. 1](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535).",
+      "blindSpotsCaught": "Expunerea de motive reproduce o versiune veche a art. 46 din Directiva 2005/36/CE, iar pasajul prezentat drept „art. (19)” aparține considerentului (19). În plus, afirmația despre reintroducerea diplomei de arhitect trebuie confruntată cu modificarea din 2024: forma în vigoare furnizată prevede diploma de licență și master. Expunerea nu poate suplini textul normativ.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă. Stabilirea prin lege a duratei unui program pentru o profesie reglementată este, în principiu, compatibilă cu art. 32 și autonomia universitară. Art. 1 alin. (5) justifică delimitarea mai clară a diplomei specifice și a aplicării temporale; art. 15 alin. (2) împiedică aplicarea retroactivă. Art. 23 alin. (12), privind sancțiunile penale, nu este incident. Formula privind adoptarea ca lege organică nu dovedește singură respectarea procedurii și a majorității constituționale.",
+      "euLawNote": "Art. 46 din Directiva 2005/36/CE, astfel cum a fost modificat prin Directiva 2013/55/UE, prevede alternative de minimum 5 ani de studii universitare integrale sau minimum 4 ani de asemenea studii împreună cu un stagiu profesional de minimum 2 ani; nu impune universal 6 ani universitari. Durata națională de 6 ani nu este automat incompatibilă cu dreptul UE, dar, dacă modificarea introduce ori înăsprește cerințele de acces la profesie, trebuie justificată prin evaluarea proporționalității cerută de Directiva (UE) 2018/958, inclusiv asupra concurenței și alternativelor mai puțin restrictive. Documentele furnizate nu demonstrează existența acestei evaluări. Proiectul nu înlătură mecanismele europene de recunoaștere a calificărilor. Nu reglementează servicii digitale, AI sau cerințe tehnice care să atragă notificarea TRIS potrivit Directivei (UE) 2015/1535.",
       "senatForm": {
-        "articleRef": "Articol unic – art. 46 alin. (1)",
-        "proposalContent": "(1) Pentru profesiile reglementate, ciclurile I și II oferite comasat în programe de 5–6 ani se finalizează cu diplomă de licență și master. Prin excepție, programul integrat Arhitectură, cu durata de 6 ani și 360 de credite ECTS/SECT, se finalizează cu diplomă de arhitect.",
-        "argumentation": "Se păstrează denumirea legală a diplomei de licență și master și se precizează distinct diploma programului integrat Arhitectură. Durata și creditele sunt deja prevăzute în anexa nr. 3 la HG nr. 840/2025. Clarificarea nu trebuie să afecteze recunoașterea calificărilor europene conforme Directivei 2005/36/CE.",
-        "otherComments": "Procedura legislativă este încetată, iar termenul de 23.03.2026 a trecut; textul poate servi unei inițiative viitoare. La reluare, trebuie corelat și art. 44 privind diploma de arhitect și documentată proporționalitatea eventualelor restricții profesionale. Petiția cetățeanului nu constituie amendament parlamentar."
-      }
+        "articleRef": "Articolul unic – art. 46 alin. (1)",
+        "proposalContent": "(1) Pentru profesiile reglementate pentru care ciclurile I și II sunt oferite comasat, în programe de 5–6 ani, se acordă diploma de licență și master, cu excepția programului Arhitectură, cu durata de 6 ani și 360 de credite ECTS/SECT, pentru care se acordă diploma de arhitect.",
+        "argumentation": "Formularea delimitează explicit diploma de arhitect de diploma generală și păstrează terminologia actuală pentru celelalte programe. Durata de 6 ani trebuie susținută printr-o justificare actualizată și, dacă modifică cerințele de acces la profesie, prin evaluarea proporționalității potrivit Directivei (UE) 2018/958.",
+        "otherComments": "Procedura este încetată, iar termenul de amendamente din 23.03.2026 a trecut; acesta este un model pentru o eventuală reluare. Trebuie clarificată aplicarea pentru cohortele existente. Verificarea online nu a fost disponibilă; analiza folosește documentele furnizate și cadrul juridic cunoscut."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T09:35:00.298Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:29:16.234Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

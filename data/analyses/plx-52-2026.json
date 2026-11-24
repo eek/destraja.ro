@@ -2,14 +2,41 @@
   "billId": "Pl-x 52/2026",
   "slug": "plx-52-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T06:59:42.362Z",
+  "updatedAt": "2026-11-24T15:31:12.030Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1531,
+    "ordinanceChars": 0,
+    "memoChars": 2790,
+    "memoSupplied": 2790,
+    "marker": "SF-FED25F40"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-52-2026.json",
+    "form": "initiator",
+    "textHash": "fed25f405140e555",
+    "fetchedAt": "2026-11-19T10:45:53.679Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 2140,
+    "truncated": false,
+    "included": true,
+    "key": "d52d16422f83b167"
+  },
   "consensus": {
-    "riskScore": 3.7,
+    "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Mașini și tractoare fără numere, permise doar pe câmp și în pădure, nu pe drum",
-    "summaryTlDr": "Lege în mare parte declarativă: folosirea vehiculelor neînmatriculate pe terenuri închise circulației publice e deja în afara Codului rutier. Nu face rău prin efectul ei, dar e scrisă vag și nu spune nimic despre asigurare, vârsta șoferului sau proveniența vehiculului.",
-    "initiatorClaim": "Inițiatorii spun că fermierii și proprietarii de păduri nu au un cadru legal clar pentru a folosi vehicule neînmatriculate pe propriile terenuri, că sunt obligați la înmatriculări costisitoare și inutile și că riscă sancțiuni.",
-    "realityCheck": "Codul rutier se aplică doar pe drumurile deschise circulației publice, iar infracțiunea de conducere a unui vehicul neînmatriculat (art. 334 C.pen.) cere deja ca fapta să aibă loc pe drumul public. Așadar, pe terenul propriu închis publicului nu exista o interdicție reală, iar legea doar confirmă acest lucru. O face însă vag („alte zone”), extinde excepția la orice vehicul, nu doar la „autovehiculele mici” din expunere, și tace despre asigurare, vârsta șoferului și proveniența vehiculului. Traversarea drumului public rămâne interzisă, iar parcelele sunt fragmentate, așa că fermierii câștigă puțin în practică.",
+    "plainTitle": "Mașini și tractoare neînmatriculate, permise la muncă pe câmp și în pădure, dar nu pe drum",
+    "summaryTlDr": "Proiectul e în mare parte inofensiv, dar și inutil juridic. Art. 12 alin. (1) cere înmatricularea doar pentru circulația pe drumurile publice, deci folosirea pe teren privat nu e interzisă nici azi. Riscul real stă în formularea care creează confuzie și în golul de asigurare pentru eventualele victime.",
+    "initiatorClaim": "Inițiatorii vor să le permită fermierilor și proprietarilor de păduri să folosească vehicule neînmatriculate pe terenuri private, fără costurile înmatriculării, păstrând interdicția de a circula cu ele pe drumurile publice.",
+    "realityCheck": "Legea în vigoare (art. 12 alin. 1 și 4 din OUG 195/2002) privește doar drumurile publice, deci noul alin. (1¹) e o „derogare” de la o regulă care nu se aplică acolo. Textul limitează excepția la scopuri agricole sau forestiere și poate sugera, prin interpretare a contrario, că alte folosiri pe teren privat (de exemplu în curte sau în incinte industriale) ar fi interzise, ceea ce azi nu e cazul. Interdicția de a traversa sau de a folosi drumul public rămâne totală, așa că beneficiul practic e mic pentru parcelele despărțite de drumuri.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "Șoferi & Auto",
@@ -17,23 +44,24 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. I – art. 12 alin. (1¹) din OUG 195/2002",
-      "proposalContent": "(1¹) Prin derogare de la alin. (1), vehiculele neînmatriculate pot fi utilizate în scopuri agricole sau forestiere numai pe terenuri care nu sunt deschise circulației publice, fără a circula pe drumurile publice ori a le traversa. Proprietarul trebuie să dețină actul de proveniență al vehiculului, iar derogarea nu înlătură răspunderea sa pentru prejudicii.",
-      "argumentation": "Textul inițial e vag: „alte zone care nu fac parte din categoria drumurilor publice” nu are corespondent în definiția drumului public, care se raportează la deschiderea circulației publice. Formularea propusă folosește același criteriu, lămurește că traversarea drumului rămâne interzisă și previne folosirea derogării pentru vehicule de proveniență necunoscută.",
-      "otherComments": "Neînmatriculate, vehiculele nu au RCA, deși Directiva 2009/103/CE modificată prin Directiva (UE) 2021/2118 privește utilizarea indiferent de teren; trebuie clarificat cine despăgubește victimele. Lipsesc și reguli privind vârsta conducătorului. Fără precizare, art. I poate fi citit a contrario: folosirea în alte scopuri pe teren privat ar cere înmatriculare."
+      "articleRef": "Art. I – art. 12 alin. (1¹) OUG 195/2002",
+      "proposalContent": "„(1¹) Obligația prevăzută la alin. (1) nu se aplică vehiculelor utilizate exclusiv în afara drumurilor publice, inclusiv în scopuri agricole sau forestiere. Proprietarul răspunde pentru prejudiciile cauzate prin utilizarea acestora, potrivit dreptului comun și legislației privind asigurarea obligatorie.”",
+      "argumentation": "Alin. (1) privește doar drumurile publice, deci „derogarea” propusă nu are obiect și, limitată la agricultură/silvicultură, poate fi citită ca interdicție pentru alte utilizări pe teren privat, permise azi. Formularea propusă clarifică fără a restrânge și evită impresia unei scutiri de răspundere sau asigurare față de victime.",
+      "otherComments": "Recomand ca HG de modificare a Regulamentului (art. II) să clarifice statutul drumurilor de exploatare agricolă/forestieră deschise circulației publice, care sunt drumuri publice potrivit art. 6 din OUG 195/2002, pentru ca fermierii să știe exact unde pot folosi aceste vehicule fără risc de sancțiune."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 72349,
-      "riskScore": 5,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 88834,
+      "sourceEndMarker": "SF-FED25F40",
+      "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Vehicule neînmatriculate pe terenuri private: intenție bună pentru fermieri, dar formulare-capcană în Codul Rutier",
-      "verdictShort": "Proiectul vrea să îi ajute pe fermieri să folosească legal mașini și utilaje neînmatriculate pe terenuri private, dar este redactat defectuos. Prin folosirea cuvântului „exclusiv”, textul riscă să interzică indirect utilizarea vehiculelor neînmatriculate în curți industriale, pe șantiere sau pe circuite sportive private.",
-      "initiatorClaim": "Inițiatorii doresc să creeze o excepție clară în Codul Rutier prin care agricultorii și proprietarii de păduri să poată folosi autovehicule neînmatriculate (autoturisme, autoutilitare, tractoare, motociclete) pe terenuri private și în afara drumurilor publice, fără costuri de înmatriculare și fără riscul unor sancțiuni.",
-      "realityCheck": "OUG nr. 195/2002 reglementează deja doar circulația pe drumurile publice, deci conducerea unui vehicul neînmatriculat pe un teren privat închis traficului public nu este nici acum interzisă de art. 12 alin. (1). Însă, introducând o derogare care permite această utilizare „exclusiv în scopuri agricole sau forestiere”, legea creează un efect pervers (per a contrario): orice altă utilizare pe teren privat (șantiere, hale industriale, karting/motorsport, agrement în propria curte) ar deveni brusc ilegală, iar accesul necontrolat cu motociclete și mașini de teren în păduri sau pe pășuni ar intra în coliziune cu Codul Silvic.",
+      "plainTitle": "Vehicule neînmatriculate în agricultură și păduri: o derogare inutilă și ambiguă",
+      "verdictShort": "Proiectul încearcă să legalizeze ceva ce Codul Rutier nu interzice în prezent, dar o face printr-o redactare defectuoasă care creează riscuri juridice noi. Formularea restrictivă („exclusiv”) și termenii vagi pot genera blocaje pentru alte activități private, confuzii în fondul forestier și necorelări cu regulile RCA.",
+      "initiatorClaim": "Inițiatorii susțin că legislația actuală nu distinge clar între drumurile publice și terenurile private, forțând fermierii și proprietarii de păduri la costuri inutile de înmatriculare pentru vehiculele folosite strict pe proprietatea privată.",
+      "realityCheck": "În realitate, art. 12 alin. (1) din OUG nr. 195/2002 impune obligația înmatriculării sau înregistrării exclusiv pentru vehiculele care circulă pe drumurile publice, nu pe terenuri private închise circulației. Prin introducerea unei „derogări” care permite utilizarea vehiculelor neînmatriculate „exclusiv în scopuri agricole sau forestiere”, proiectul creează un risc serios de interpretare per a contrario împotriva altor utilizări private (șantiere, incinte industriale, curți, poligoane) și deschide neclarități privind accesul motorizat neidentificabil în fondul forestier.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "Șoferi & Auto",
@@ -41,62 +69,68 @@
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Paradox juridic la Art. I (alin. 1¹): Art. 12 alin. (1) din OUG 195/2002 impune înmatricularea doar „pentru a circula pe drumurile publice”. A deroga de la o obligație valabilă pe drumul public pentru a reglementa circulația în afara drumului public extinde artificial sfera Codului Rutier pe proprietatea privată.",
-        "Capcana cuvântului „exclusiv” din Art. I: Permisiunea de a folosi vehicule neînmatriculate pe terenuri private „exclusiv în scopuri agricole sau forestiere” înseamnă, prin interpretare per a contrario, că folosirea lor în scop industrial (curți de fabrici, depozite), în construcții (șantiere închise) sau în motorsport (circuite private) devine interzisă.",
-        "Vulnerabilitate pentru fondul forestier și pășuni: Sintagma vagă „în alte zone care nu fac parte din categoria drumurilor publice” nu cere acordul proprietarului terenului și nu este corelată cu Codul Silvic și OUG 57/2007, putând fi invocată ca scuză pentru accesul abuziv cu motociclete enduro sau SUV-uri neînmatriculate pe drumuri forestiere și în natură."
+        "Derogare fără obiect real (Art. I, alin. (1¹) raportat la art. 12 alin. (1) din OUG nr. 195/2002): norma în vigoare reglementează doar vehiculele care circulă pe drumurile publice, astfel că o derogare pentru activități desfășurate în afara drumurilor publice este contradictorie și redundantă.",
+        "Capcana adverbului „exclusiv” (Art. I, alin. (1¹)): menționarea că vehiculele neînmatriculate pot fi utilizate „exclusiv în scopuri agricole sau forestiere” pe terenuri private poate crea incertitudine juridică pentru utilizarea perfect legală a vehiculelor neînmatriculate în incinte industriale, șantiere, depozite, service-uri auto sau poligoane.",
+        "Riscuri de mediu și necorelare silvică (Art. I, alin. (1¹)): permisiunea acordată pentru „autoturisme, autoutilitare, tractoare și motociclete” neînmatriculate „în alte zone care nu fac parte din categoria drumurilor publice” nu face trimitere la restricțiile din Codul Silvic și legislația ariilor protejate și lasă vehiculele fără elemente de identificare.",
+        "Mandat neclar pentru Guvern și omisiuni tehnice (Art. I și Art. II): textul omite categoria vehiculelor „neînregistrate” (prevăzută în art. 12 alin. 1), iar Art. II obligă Guvernul să modifice în 60 de zile Regulamentul rutier (HG nr. 1.391/2006) fără a indica ce ar trebui reglementat în afara drumurilor publice."
       ],
-      "blindSpotsCaught": "Inițiatorii au omis două acte normative esențiale care blochează în practică fermierii: (1) Art. 17 din OUG 195/2002 privind condițiile în care un proprietar poate radia la cerere o mașină veche pentru a o păstra pe teren privat și (2) Legea nr. 132/2017 privind asigurarea RCA (care transpune Directiva UE 2021/2118), unde obligația de asigurare depinde de „utilizarea unui vehicul” chiar și pe teren privat, dacă nu există o derogare expresă în legea asigurărilor.",
-      "constitutionalityNote": "Proiectul ridică probleme de claritate, precizie și previzibilitate a legii (Art. 1 alin. (5) din Constituție, raportat la Legea nr. 24/2000 privind normele de tehnică legislativă). Instituirea unei derogări de la o normă care nu se aplică ipotezei vizate (circulația în afara drumurilor publice) și lipsa de corelare cu legislația silvică și de mediu generează paralelism și confuzie în aplicarea sancțiunilor contravenționale sau penale (art. 334 Cod penal vizează strict drumurile publice).",
-      "euLawNote": "Nu încalcă Directiva (UE) 2018/958 (nu reglementează profesii) și nu necesită notificare TRIS conform Directivei (UE) 2015/1535. Totuși, necesită atenție în raport cu Directiva 2009/103/CE modificată prin Directiva (UE) 2021/2118 privind asigurarea de răspundere civilă auto (jurisprudența CJUE Vnuk): statele membre pot scuti de RCA anumite vehicule neadmise pe drumurile publice, dar numai dacă prevăd mecanisme clare de despăgubire a terților în caz de accident pe teren privat sau forestier.",
+      "blindSpotsCaught": "Proiectul ratează adevărata problemă practică a fermierilor: statutul drumurilor agricole și forestiere care nu sunt semnalizate ca închise circulației publice (fiind tratate juridic ca drumuri publice) și necesitatea traversării drumurilor publice între parcele. Totodată, lipsa oricărei corelări cu regimul asigurării RCA și al răspunderii pentru accidente pe terenuri private sau în păduri lasă neacoperită protecția terților și a lucrătorilor.",
+      "constitutionalityNote": "Proiectul ridică vulnerabilități față de art. 1 alin. (5) din Constituția României privind calitatea, claritatea și previzibilitatea legii: instituie o „derogare” de la o obligație inexistentă în afara drumurilor publice, folosește sintagme vagi („alte zone care nu fac parte din categoria drumurilor publice”) și poate genera, prin efectul restrictiv al cuvântului „exclusiv”, interpretări care ating exercițiul dreptului de proprietate privată (art. 44). De asemenea, lipsa corelării cu regimul silvic poate afecta indirect protecția mediului (art. 35). Încadrarea ca lege ordinară (art. 76 alin. 2) este formal corectă pentru OUG nr. 195/2002.",
+      "euLawNote": "Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente, proiectul nevând ca obiect profesii reglementate, servicii digitale sau standarde tehnice de produs. Este însă relevantă Directiva 2009/103/CE, modificată prin Directiva (UE) 2021/2118 privind asigurarea RCA: în dreptul UE, obligația de asigurare a vehiculelor utilizate ca mijloc de transport nu depinde de caracterul public sau privat al terenului, iar derogările naționale pentru vehicule neadmise pe drumurile publice presupun mecanisme clare de garantare a despăgubirii victimelor — aspect complet ignorat de inițiativă.",
       "senatForm": {
-        "articleRef": "Art. I (alin. (1^1) al art. 12 din OUG 195/2002)",
-        "proposalContent": "Se reformulează Art. I: „(1^1) Obligația prevăzută la alin. (1) nu se aplică vehiculelor utilizate în afara drumurilor publice, pe terenuri private ori pe drumuri închise circulației publice, în activități agricole, forestiere, industriale, de șantier sau sportive, cu acordul proprietarului și cu respectarea legislației silvice și de mediu.”",
-        "argumentation": "OUG 195/2002 reglementează doar drumurile publice. Introducerea unei derogări care permite folosirea vehiculelor neînmatriculate pe teren privat „exclusiv” în scop agricol sau forestier ar interzice indirect (per a contrario) folosirea lor pe șantiere, în curți industriale sau pe circuite sportive private și ar ignora regulile din Codul Silvic.",
-        "otherComments": "Pentru a ajuta real fermierii, trebuie corelat și art. 17 din OUG 195/2002 (radierea la cerere pentru păstrarea vehiculului pe teren privat), precum și Legea nr. 132/2017 privind asigurarea RCA (care transpune Directiva UE 2021/2118), astfel încât proprietarii să poată scoate legal mașinile din circulația publică fără birocrație excesivă."
-      }
+        "articleRef": "Art. I-II (Art. 12 alin. (1¹) OUG 195/2002)",
+        "proposalContent": "Propun respingerea proiectului sau reformularea Art. I astfel: „(1¹) Obligația de la alin. (1) nu se aplică vehiculelor utilizate exclusiv pe terenuri private ori în incinte închise circulației publice, fără a aduce atingere legislației silvice, de mediu și privind asigurarea RCA.” și eliminarea Art. II.",
+        "argumentation": "Art. 12 alin. (1) vizează doar drumurile publice, deci o „derogare” nu are obiect și încalcă claritatea legii (art. 1 alin. 5 Constituție). Formularea „exclusiv agricol sau forestier” riscă blocaje pe șantiere ori în incinte industriale, iar sintagma „alte zone” intră în coliziune cu Codul Silvic și normele UE privind RCA.",
+        "otherComments": "Proiectul nu rezolvă problema reală a fermierilor: traversarea sau utilizarea scurtă a drumurilor publice între parcele și statutul drumurilor agricole ori forestiere deschise circulației. Recomand solicitarea avizelor Ministerului Mediului, MAI și ASF, plus verificarea compatibilității cu Directiva (UE) 2021/2118 privind RCA."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 224755,
+      "durationMs": 46150,
+      "sourceEndMarker": "SF-FED25F40",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Mașini și tractoare fără numere, permise doar pe câmp și în pădure, nu pe drum",
-      "verdictShort": "Lege în mare parte declarativă: folosirea vehiculelor neînmatriculate pe terenuri închise circulației publice e deja în afara Codului rutier. Nu face rău prin efectul ei, dar e scrisă vag și nu spune nimic despre asigurare, vârsta șoferului sau proveniența vehiculului.",
-      "initiatorClaim": "Inițiatorii spun că fermierii și proprietarii de păduri nu au un cadru legal clar pentru a folosi vehicule neînmatriculate pe propriile terenuri, că sunt obligați la înmatriculări costisitoare și inutile și că riscă sancțiuni.",
-      "realityCheck": "Codul rutier se aplică doar pe drumurile deschise circulației publice, iar infracțiunea de conducere a unui vehicul neînmatriculat (art. 334 C.pen.) cere deja ca fapta să aibă loc pe drumul public. Așadar, pe terenul propriu închis publicului nu exista o interdicție reală, iar legea doar confirmă acest lucru. O face însă vag („alte zone”), extinde excepția la orice vehicul, nu doar la „autovehiculele mici” din expunere, și tace despre asigurare, vârsta șoferului și proveniența vehiculului. Traversarea drumului public rămâne interzisă, iar parcelele sunt fragmentate, așa că fermierii câștigă puțin în practică.",
+      "plainTitle": "Mașini și tractoare neînmatriculate, permise la muncă pe câmp și în pădure, dar nu pe drum",
+      "verdictShort": "Proiectul e în mare parte inofensiv, dar și inutil juridic. Art. 12 alin. (1) cere înmatricularea doar pentru circulația pe drumurile publice, deci folosirea pe teren privat nu e interzisă nici azi. Riscul real stă în formularea care creează confuzie și în golul de asigurare pentru eventualele victime.",
+      "initiatorClaim": "Inițiatorii vor să le permită fermierilor și proprietarilor de păduri să folosească vehicule neînmatriculate pe terenuri private, fără costurile înmatriculării, păstrând interdicția de a circula cu ele pe drumurile publice.",
+      "realityCheck": "Legea în vigoare (art. 12 alin. 1 și 4 din OUG 195/2002) privește doar drumurile publice, deci noul alin. (1¹) e o „derogare” de la o regulă care nu se aplică acolo. Textul limitează excepția la scopuri agricole sau forestiere și poate sugera, prin interpretare a contrario, că alte folosiri pe teren privat (de exemplu în curte sau în incinte industriale) ar fi interzise, ceea ce azi nu e cazul. Interdicția de a traversa sau de a folosi drumul public rămâne totală, așa că beneficiul practic e mic pentru parcelele despărțite de drumuri.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "Șoferi & Auto",
         "Proprietari & Imobiliare"
       ],
       "keyFindings": [
-        "Art. I (alin. 1¹ nou din art. 12): efectul juridic e în mare parte declarativ. OUG nr. 195/2002 reglementează circulația pe drumurile deschise circulației publice, după definiția din art. 6. Art. 334 alin. (1) C.pen. sancționează conducerea unui vehicul neînmatriculat doar pe drumul public. Folosirea pe terenul propriu, închis publicului, nu era interzisă nici până acum, deci argumentul „riscului de sancțiuni” din expunere e în mare parte nefondat.",
-        "Formula „alte zone care nu fac parte din categoria drumurilor publice” nu are corespondent în terminologia OUG. Nu spune dacă include drumurile de exploatare agricolă sau forestiere, unele dintre ele deschise circulației publice. Terenurile sunt fragmentate și traversarea unui drum public rămâne interzisă, așa că vehiculul trebuie dus pe platformă de la o parcelă la alta. Beneficiul practic e mic, iar traversările ilegale devin tentante.",
-        "Enumerarea „toate tipurile de vehicule neînmatriculate — inclusiv autoturisme, autoutilitare, tractoare și motociclete” nu are nicio condiție însoțitoare: nici asigurare, nici vârstă minimă a conducătorului, nici dovada provenienței. Expunerea vorbește despre „autovehicule mici”, dar textul acoperă orice vehicul. Riscul de accidente pe câmp (răsturnări, minori la volan) rămâne nereglementat, iar proiectul nu spune cine despăgubește victimele.",
-        "Condiția „exclusiv în scopuri agricole sau forestiere” nu are nicio consecință dacă nu e respectată: nu există sancțiune și nici autoritate care să verifice scopul pe un teren privat. Rămâne o condiție fără efect.",
-        "Art. II obligă Guvernul să modifice Regulamentul aprobat prin HG nr. 1.391/2006 în 60 de zile, fără să indice ce prevederi trebuie schimbate. Impactul bugetar și birocratic e neglijabil: nu apar taxe, avize sau sancțiuni noi. Singurul efect posibil e marginal: Codul fiscal leagă impozitul local pe mijloacele de transport de obligația de înmatriculare sau înregistrare, deci vehiculele scutite de ea ar putea ieși din baza de impozitare."
+        "Art. I (alin. 1¹ nou): se declară „derogare” de la alin. (1), deși alin. (1) reglementează numai vehiculele care circulă pe drumurile publice. Pe terenul privat nu există azi obligație de înmatriculare în temeiul acestui articol, deci norma are efect mai mult declarativ.",
+        "Art. I: condiționarea de „scopuri agricole sau forestiere” poate fi citită a contrario ca interdicție pentru orice altă utilizare pe teren privat. Asta ar fi o restrângere neintenționată față de situația actuală.",
+        "Art. I: „alte zone care nu fac parte din categoria drumurilor publice” e un criteriu neclar. Potrivit art. 6 din OUG 195/2002, drumul public include orice cale deschisă circulației publice, deci și drumurile de exploatare agricolă sau forestieră nesemnalizate ca închise. Fermierul poate fi sancționat pe un drum de câmp pe care îl credea privat.",
+        "Textul nu spune nimic despre asigurarea de răspundere civilă (RCA) și nici despre răspunderea pentru accidente. Vehiculele neînmatriculate sunt de regulă neasigurate, iar victimele (lucrători agricoli, membri ai familiei, terți) pot ajunge să depindă de Fondul de protecție a victimelor străzii sau de acțiuni civile împotriva unor persoane fără resurse.",
+        "Art. II: Guvernul are 60 de zile să modifice Regulamentul aprobat prin HG 1391/2006, termen rezonabil. Proiectul nu impune taxe, sancțiuni noi sau sarcini birocratice pentru cetățeni sau IMM-uri; impactul bugetar e neglijabil.",
+        "Formularea e eterogenă: „vehicule” și „autovehicule” sunt folosite alternativ, iar „toate tipurile” e urmat de o enumerare exemplificativă. Sunt imprecizii de tehnică legislativă (Legea 24/2000), nu capcane."
       ],
-      "blindSpotsCaught": "Prima problemă e un paradox a contrario. O derogare acordată „pentru scopuri agricole sau forestiere” sugerează că orice altă folosire pe teren privat ar cere înmatriculare: ATV de agrement, mașină de colecție, pistă privată, curtea unei firme. Legea ar putea astfel restrânge o libertate care azi există implicit. A doua problemă e asigurarea. Proiectul legitimează folosirea acestor vehicule fără RCA, pentru că obligația de RCA e legată de înmatriculare sau înregistrare. Totuși, CJUE a decis în cauza Vnuk (C-162/13) că un tractor manevrat într-o curte de fermă intră în noțiunea de „utilizare a vehiculului” relevantă pentru asigurarea obligatorie. A treia problemă ține de păduri: controlul transportului de lemn (SUMAL) se bazează pe identificarea mijlocului de transport. Legitimarea vehiculelor fără număr pe drumuri forestiere închise publicului poate complica trasabilitatea.",
-      "constitutionalityNote": "Proiectul nu atinge drepturi fundamentale și nu impune obligații noi. E lege ordinară, iar formula finală (art. 75 și art. 76 alin. (2)) e corectă. Problemele țin de art. 1 alin. (5), adică de claritate și previzibilitate. „Derogarea” se face de la o regulă care oricum nu se aplică pe terenurile închise publicului. Sintagma „alte zone” nu e definită. Condiția privind scopul agricol sau forestier nu are nicio consecință juridică. În raport cu obligația pozitivă a statului de a proteja viața (art. 22), lipsa oricărei reguli despre despăgubirea victimelor e o lacună de politică legislativă, nu o neconstituționalitate. Expunerea de motive conține o evaluare de impact generică, fără date și fără punctul de vedere al MAI, ceea ce slăbește calitatea normei cerută de Legea nr. 24/2000. Riscul de neconstituționalitate e scăzut.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează profesii. Directiva (UE) 2015/1535 (TRIS) nu e relevantă sub aspectul serviciilor digitale. Deși TRIS acoperă și reguli privind utilizarea produselor, o relaxare fără specificații tehnice noi e puțin probabil să necesite notificare, însă o verificare de rutină rămâne prudentă. Regulamentul (UE) nr. 167/2013 privind omologarea vehiculelor agricole și forestiere vizează punerea pe piață, nu folosirea, deci nu e afectat. Punctul sensibil este asigurarea obligatorie. Directiva 2009/103/CE, modificată prin Directiva (UE) 2021/2118, definește utilizarea vehiculului indiferent de terenul pe care are loc. CJUE a aplicat-o unui tractor într-o curte de fermă (Vnuk, C-162/13), dar nu și tractorului folosit ca utilaj staționar (Rodrigues de Andrade, C-514/16). Directiva permite unele derogări, însă regimul lor trebuie analizat expres, iar proiectul nu o face. Nu are efecte asupra concurenței sau a pieței unice.",
+      "blindSpotsCaught": "Dreptul UE privind asigurarea auto (Directiva 2009/103/CE, modificată prin Directiva (UE) 2021/2118, și jurisprudența CJUE Vnuk C-162/13 și Rodrigues de Andrade C-514/16) leagă obligația de asigurare de folosirea vehiculului ca mijloc de transport, indiferent de teren, cu derogări posibile doar în condiții precise. O „legalizare” fără clauză de răspundere poate fi interpretată greșit ca scutire de asigurare. Pe partea fiscală, impozitul local pe mijloacele de transport (Codul fiscal) se raportează la vehiculele supuse înmatriculării, iar proiectul nu clarifică statutul fiscal.",
+      "constitutionalityNote": "Proiectul nu ridică probleme constituționale majore: nu restrânge drepturi și nu afectează proprietatea (art. 44); dimpotrivă, confirmă libertatea de folosire a bunurilor proprii. Problema e de calitate a legii (art. 1 alin. 5): o „derogare” de la o normă inaplicabilă situației vizate și criteriul vag al zonelor care nu sunt drumuri publice afectează previzibilitatea, mai ales pentru că abaterea de pe drum public e sancționabilă contravențional. Procedura (art. 75, Senat primă cameră, Camera Deputaților decizională) e corectă pentru o lege ordinară.",
+      "euLawNote": "Directiva 2018/958 nu e relevantă, pentru că proiectul nu reglementează accesul la o profesie. Directiva TRIS 2015/1535 nu se aplică: nu sunt servicii ale societății informaționale și nici reglementări tehnice de produs. Punctul sensibil e Directiva 2009/103/CE privind asigurarea auto (modificată prin 2021/2118): legiuitorul trebuie să evite ca norma să fie înțeleasă ca scutire de RCA pentru vehicule folosite ca mijloc de transport. De menționat și Directiva 2000/53/CE privind vehiculele scoase din uz, dacă excepția ajunge să prelungească folosirea unor mașini radiate.",
       "senatForm": {
-        "articleRef": "Art. I – art. 12 alin. (1¹) din OUG 195/2002",
-        "proposalContent": "(1¹) Prin derogare de la alin. (1), vehiculele neînmatriculate pot fi utilizate în scopuri agricole sau forestiere numai pe terenuri care nu sunt deschise circulației publice, fără a circula pe drumurile publice ori a le traversa. Proprietarul trebuie să dețină actul de proveniență al vehiculului, iar derogarea nu înlătură răspunderea sa pentru prejudicii.",
-        "argumentation": "Textul inițial e vag: „alte zone care nu fac parte din categoria drumurilor publice” nu are corespondent în definiția drumului public, care se raportează la deschiderea circulației publice. Formularea propusă folosește același criteriu, lămurește că traversarea drumului rămâne interzisă și previne folosirea derogării pentru vehicule de proveniență necunoscută.",
-        "otherComments": "Neînmatriculate, vehiculele nu au RCA, deși Directiva 2009/103/CE modificată prin Directiva (UE) 2021/2118 privește utilizarea indiferent de teren; trebuie clarificat cine despăgubește victimele. Lipsesc și reguli privind vârsta conducătorului. Fără precizare, art. I poate fi citit a contrario: folosirea în alte scopuri pe teren privat ar cere înmatriculare."
-      }
+        "articleRef": "Art. I – art. 12 alin. (1¹) OUG 195/2002",
+        "proposalContent": "„(1¹) Obligația prevăzută la alin. (1) nu se aplică vehiculelor utilizate exclusiv în afara drumurilor publice, inclusiv în scopuri agricole sau forestiere. Proprietarul răspunde pentru prejudiciile cauzate prin utilizarea acestora, potrivit dreptului comun și legislației privind asigurarea obligatorie.”",
+        "argumentation": "Alin. (1) privește doar drumurile publice, deci „derogarea” propusă nu are obiect și, limitată la agricultură/silvicultură, poate fi citită ca interdicție pentru alte utilizări pe teren privat, permise azi. Formularea propusă clarifică fără a restrânge și evită impresia unei scutiri de răspundere sau asigurare față de victime.",
+        "otherComments": "Recomand ca HG de modificare a Regulamentului (art. II) să clarifice statutul drumurilor de exploatare agricolă/forestieră deschise circulației publice, care sunt drumuri publice potrivit art. 6 din OUG 195/2002, pentru ca fermierii să știe exact unde pot folosi aceste vehicule fără risc de sancțiune."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 116492,
-      "riskScore": 3,
+      "durationMs": 68990,
+      "sourceEndMarker": "SF-FED25F40",
+      "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Vehicule fără înmatriculare pentru muncile agricole și forestiere în afara drumurilor publice",
-      "verdictShort": "Proiect cu intenție utilă și risc redus, dar cu beneficii juridice supraestimate. Clarifică o situație deja acoperită în mare parte de lege, printr-o formulare care trebuie corectată pentru a evita confuziile.",
-      "initiatorClaim": "Inițiatorii urmăresc reducerea costurilor și a riscului de sancționare pentru fermierii și proprietarii de păduri care folosesc vehicule neînmatriculate exclusiv în afara drumurilor publice. Ei prezintă modificarea ca pe o excepție necesară pentru legalizarea acestei utilizări.",
-      "realityCheck": "Art. I permite expres utilizarea agricolă sau forestieră în afara drumurilor publice, însă art. 12 alin. (1) condiționează deja înmatricularea ori înregistrarea de circulația pe drumurile publice, ceea ce limitează noutatea reală. Proprietatea privată nu exclude calificarea unei căi ca drum public dacă aceasta este deschisă circulației publice; condiția finală din proiect menține interdicția conducerii acolo. Proiectul nu introduce taxe sau sancțiuni și nu acordă scutiri fiscale ori de RCA. [OUG nr. 195/2002, art. 6 și 12](https://legislatie.just.ro/Public/DetaliiDocument/74028)",
+      "plainTitle": "Vehicule neînmatriculate folosite la fermă și în pădure",
+      "verdictShort": "Proiectul are un risc redus: nu introduce taxe, monopoluri sau sancțiuni și păstrează condiția neutilizării pe drumurile publice. Utilitatea sa este însă limitată, deoarece obligația de înmatriculare sau înregistrare din articolul modificat privește deja numai circulația pe drumurile publice.",
+      "initiatorClaim": "Inițiatorii urmăresc să permită folosirea vehiculelor neînmatriculate în agricultură și silvicultură, exclusiv în afara drumurilor publice. Ei susțin că astfel reduc costurile administrative și riscul sancționării fermierilor.",
+      "realityCheck": "Art. 12 alin. (1) condiționează deja înmatricularea sau înregistrarea de circulația pe drumurile publice, astfel încât derogarea propusă este în principal redundantă față de această normă. Proprietatea privată nu exclude automat caracterul de drum public, dar condiția finală a textului împiedică folosirea derogării pe asemenea drumuri. Proiectul nu instituie scutiri generale de asigurare, de obligații de mediu ori de securitate a muncii și nu conferă dreptul de acces pe terenurile altor persoane.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Șoferi & Auto",
@@ -104,20 +138,46 @@
         "Agricultură & Mediu"
       ],
       "keyFindings": [
-        "Art. I: derogarea este în mare parte redundantă, deoarece regula vizată privește drumurile publice. Condiționarea de scopul exclusiv agricol sau forestier poate sugera, greșit, că alte utilizări în afara drumurilor publice ar deveni interzise.",
-        "Art. I: termenul «neînmatriculate» nu tratează explicit vehiculele neînregistrate, deși norma completată distinge între înmatriculare și înregistrare. Nu se permite nici traversarea unui drum public prin conducerea vehiculului în aceste condiții.",
-        "Art. II: Guvernul trebuie să adapteze regulamentul în 60 de zile; termenul nu amână expres aplicarea art. I. Textul nu instituie cereri, avize sau dovezi suplimentare pentru cetățeni ori IMM-uri, iar economiile administrative invocate nu sunt cuantificate.",
-        "Obligația RCA rămâne distinctă: Legea nr. 132/2017, modificată prin Legea nr. 181/2025, privește utilizarea vehiculului ca mijloc de transport indiferent de teren. Folosirea pe proprietate privată nu produce automat o scutire. [Legea nr. 132/2017, art. 2 pct. 27¹ și art. 3](https://legislatie.just.ro/public/DetaliiDocument/190029)"
+        "Art. I: înainte și după modificare, circulația pe drumurile publice rămâne supusă obligației de înmatriculare sau înregistrare, după caz, cu excepțiile legale existente. Proiectul nu autorizează nici traversarea unui drum public cu un vehicul neînmatriculat.",
+        "Art. I: derogarea privește o obligație care nu se aplică, prin chiar formularea actuală a art. 12 alin. (1), utilizării exclusiv în afara drumurilor publice. Economiile prezentate în expunerea de motive nu sunt demonstrate prin identificarea unei obligații actuale pe care proiectul ar elimina-o.",
+        "Art. I: terenul privat și drumul închis circulației publice sunt noțiuni diferite. Un drum aflat în proprietate privată poate intra în categoria drumurilor publice dacă îndeplinește definiția legală; condiția finală a alineatului rămâne decisivă.",
+        "Art. I: formula «toate tipurile de vehicule neînmatriculate» nu distinge suficient între înmatriculare și înregistrare, deși alineatul de la care derogă folosește ambele noțiuni. Enumerarea tractoarelor nu rezolvă această diferență.",
+        "Art. I: limitarea expresă la scopuri agricole sau forestiere poate genera interpretări inutile despre folosirea vehiculelor în alte scopuri în afara drumurilor publice. Textul nu instituie însă expres o interdicție nouă pentru aceste utilizări.",
+        "Art. II: termenul de 60 de zile privește modificarea regulamentului, nu amânarea intrării în vigoare a legii. Regulamentul trebuie să respecte limitele legii și nu poate transforma această clarificare într-o scutire de alte obligații legale.",
+        "Proiectul nu introduce taxe, dosare, autorizații sau sancțiuni noi. Sarcina administrativă expresă revine Guvernului, prin actualizarea regulamentului; amploarea eventualelor economii pentru cetățeni și IMM-uri nu este cuantificată."
       ],
-      "blindSpotsCaught": "Excepția de la înmatriculare nu echivalează cu autorizarea oricărei activități forestiere, cu dreptul de acces pe terenul altuia sau cu înlăturarea normelor de mediu și securitate a muncii. Procedural, Senatul a respins propunerea la 2 februarie 2026; aceasta continuă la Camera Deputaților, care decide definitiv, fără ca respingerea primei Camere să încheie procedura. [Fișa Senatului L517/2025](https://www.senat.ro/legis/lista.aspx?an_cls=2025&nr_cls=L517)",
-      "constitutionalityNote": "Problema principală ține de claritatea și coerența cerute de art. 1 alin. (5): o derogare redundantă și scopurile insuficient delimitate pot genera interpretări divergente. Art. 23 alin. (12) nu este încălcat evident, deoarece proiectul nu instituie pedepse; acesta nici nu înlătură răspunderea penală existentă pentru conducerea pe drumurile publice în condițiile art. 334 Cod penal. Caracterul de lege ordinară este plauzibil cât timp nu sunt modificate infracțiunile sau pedepsele. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355?isFormaDeBaza=True); [art. 334, prezentat de Instituția Prefectului Harghita](https://hr.prefectura.mai.gov.ro/modificari-legislative-privind-circulatia-tractoarelor-si-utilajelor-agricole-pe-drumurile-publice/)",
-      "euLawNote": "Nu rezultă monopoluri, condiții discriminatorii de acces pe piață sau restricții privind calificările profesionale. Directiva 2018/958 nu este aplicabilă acestui obiect: privește accesul la profesii reglementate și exercitarea lor. Proiectul nu reglementează servicii digitale sau AI; totuși, TRIS 2015/1535 acoperă și produse, astfel că eventuala notificare trebuie evaluată după efectul asupra utilizării vehiculelor, nu exclusă doar pentru lipsa componentei digitale; textul analizat nu demonstrează singur existența unei obligații de notificare încălcate. Cadrul european RCA rămâne relevant și în afara drumurilor publice. [Directiva 2018/958, art. 1–2](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng); [Directiva 2015/1535, art. 1](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535); [Directiva 2021/2118](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32021L2118)",
+      "blindSpotsCaught": "Detaliul central este că derogarea nu înlătură o obligație aplicabilă deja utilizării exclusiv în afara drumurilor publice: art. 12 alin. (1) reglementează circulația pe drumurile publice. Totodată, referirea la proprietatea privată nu permite circulația pe un drum privat deschis circulației publice, deoarece condiția finală exclude drumurile publice. Art. II nu conține abrogări sau derogări suplimentare.",
+      "constitutionalityNote": "Pe textul furnizat nu rezultă o neconstituționalitate evidentă. Art. 1 alin. (5) justifică îmbunătățirea redactării: derogarea redundantă, amestecul dintre proprietate și regimul circulației și omiterea înregistrării reduc claritatea. Art. 23 alin. (12) nu este afectat direct prin crearea unei pedepse, deoarece proiectul nu instituie sancțiuni; nici nu modifică expres incriminările existente. Eventualele consecințe sancționatorii trebuie stabilite potrivit normelor aplicabile, fără extinderi prin analogie.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testul de proporționalitate pentru reglementarea profesiilor; proiectul nu introduce condiții de acces la o profesie reglementată, deci nu rezultă aplicabilitatea sa. Nu apar privilegii exclusive, bariere profesionale sau avantaje rezervate anumitor operatori. Directiva (UE) 2015/1535 acoperă atât reglementări tehnice privind produsele, cât și anumite reguli privind serviciile societății informaționale, nu doar domeniul digital. Textul nu reglementează servicii digitale sau AI și nu stabilește specificații tehnice; caracterul său predominant clarificator nu indică, prin el însuși, o obligație de notificare TRIS. Nu sunt înlăturate obligațiile europene aplicabile separat asigurării, produselor ori protecției mediului.",
       "senatForm": {
         "articleRef": "Art. I – art. 12 alin. (1¹)",
-        "proposalContent": "Utilizarea vehiculelor neînmatriculate sau neînregistrate în scopuri agricole ori forestiere, exclusiv în afara drumurilor publice definite la art. 6 pct. 14, nu este supusă obligației de la alin. (1). Rămân aplicabile normele privind RCA, protecția mediului, securitatea muncii și dreptul de acces pe teren.",
-        "argumentation": "Art. 12 alin. (1) privește deja circulația pe drumurile publice. Textul propus clarifică această limită fără o derogare fictivă, include vehiculele supuse înregistrării și evită confundarea proprietății private cu închiderea circulației publice. Mențiunea RCA previne interpretarea greșită ca scutire de asigurare.",
-        "otherComments": "Solicitare către cele patru comisii raportoare ale Camerei Deputaților pentru Pl-x 52/2026. Un deputat poate prelua textul ca amendament. Precizarea nu trebuie interpretată ca interdicție a altor utilizări legale în afara drumurilor publice. Termenul indicat pentru amendamente, 18.02.2026, este depășit; primirea observațiilor nu garantează preluarea lor."
-      }
+        "proposalContent": "„(1¹) Obligația de înmatriculare sau înregistrare prevăzută la alin. (1) nu se aplică vehiculelor utilizate în scopuri agricole sau forestiere exclusiv în afara drumurilor publice. Încadrarea unei căi de comunicație ca drum public se stabilește potrivit art. 6 pct. 14, indiferent de forma de proprietate.”",
+        "argumentation": "Art. 12 alin. (1) privește deja numai circulația pe drumurile publice. Redactarea propusă păstrează scopul clarificator, elimină derogarea inutilă, include înregistrarea și împiedică echivalarea proprietății private cu excluderea circulației publice.",
+        "otherComments": "Propunere destinată comisiilor raportoare ale Camerei Deputaților, pentru eventuala preluare de către un deputat. Evaluarea se bazează pe textele furnizate; verificarea online a legislației și a dosarului parlamentar nu a fost posibilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T06:59:42.362Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:31:12.030Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

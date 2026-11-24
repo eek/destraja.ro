@@ -2,125 +2,180 @@
   "billId": "PL-x 153/2026",
   "slug": "plx-153-2026",
   "version": "camera",
-  "updatedAt": "2026-10-29T10:01:24.955Z",
+  "updatedAt": "2026-11-24T15:36:32.903Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "camera",
+    "billChars": 3114,
+    "ordinanceChars": 0,
+    "memoChars": 7315,
+    "memoSupplied": 7315,
+    "marker": "SF-291FD15B"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-153-2026.json",
+    "form": "camera",
+    "textHash": "291fd15b2b27ca1c",
+    "fetchedAt": "2026-11-19T11:01:20.284Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 4903,
+    "truncated": false,
+    "included": true,
+    "key": "d249ad4890b095a4"
+  },
   "consensus": {
     "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "Recuperarea medicală la distanță (video, aplicații) intră oficial în telemedicină",
-    "summaryTlDr": "Lege benignă și utilă: dă bază legală explicită kinetoterapiei și recuperării prin mijloace digitale, fără taxe, sancțiuni sau monopoluri. Textul adoptat e însă mult mai sărac decât promite expunerea de motive, are o incoerență între lit. b)–d) și lit. e) și lasă aproape totul pe seama unor norme fără termen real de aprobare.",
-    "initiatorClaim": "Cei 55 de inițiatori, din aproape toate grupurile, spun că vor să reglementeze explicit recuperarea medicală la distanță, pentru pacienții din zone rurale sau cu mobilitate redusă. Promit garanții de consimțământ, integrare în dosarul electronic de sănătate și decontare CNAS, susținând că statul ar putea deconta mai multe ședințe fără să crească bugetul.",
-    "realityCheck": "Legea doar adaugă telereabilitarea pe lista formelor de telemedicină (art. 30¹ alin. 6 lit. g), o definește și enumeră cine o poate presta: medici de recuperare, cardiologi, neurologi și ortopezi (aceștia doar 3 luni), alte specialități clinice și furnizori de servicii conexe (de ex. fizioterapeuți, logopezi), aceștia din urmă numai pe prescripția medicului curant. Consimțământul, dosarul electronic și includerea în pachetul CNAS, promise în expunere, nu apar în articole. Ele depind de regulile generale de telemedicină existente, de normele de aplicare și de contractul-cadru. Afirmația că se pot deconta mai multe tratamente fără costuri suplimentare nu e cuantificată nicăieri.",
+    "plainTitle": "Recuperarea medicală la distanță (telereabilitarea) intră oficial în telemedicină",
+    "summaryTlDr": "Este o lege scurtă, utilă și benignă. Adaugă telereabilitarea pe lista serviciilor de telemedicină și spune cine o poate face. Problemele sunt de redactare și de coerență, nu de abuz: lit. e) e prea larg formulată, iar garanțiile promise în expunerea de motive (consimțământ, dosar electronic, decontare CNAS) nu apar în text și sunt lăsate pe seama normelor.",
+    "initiatorClaim": "Inițiatorii spun că recuperarea medicală prin mijloace digitale nu are un cadru legal explicit. Vor să o reglementeze ca să crească accesul pacienților din zonele izolate sau cu mobilitate redusă, să asigure continuitatea terapiei și să poată fi decontată de CNAS, după ei fără costuri bugetare suplimentare.",
+    "realityCheck": "Legea face doar trei lucruri. Adaugă lit. g) „telereabilitarea” la art. 30^1 alin. (6). Introduce art. 30^13, care enumeră furnizorii și definește serviciul. Prin art. II obligă Ministerul Sănătății să elaboreze în 30 de zile norme aprobate prin HG. Prevederile despre consimțământul informat, integrarea în dosarul electronic de sănătate și includerea în pachetul decontat, anunțate în expunerea de motive și în fișa Camerei, NU există în textul adoptat. Rămân aplicabile doar regulile generale (drepturile pacientului, GDPR) și ce vor stabili normele. Lit. e) („medici de alte specialități clinice”, fără limită de timp) slăbește coerența limitei de 3 luni impuse la lit. b)-d).",
     "affectedGroups": [
       "Sănătate & Educație",
-      "IT & AI",
       "Toți cetățenii",
-      "IMM & Antreprenori"
+      "IMM & Antreprenori",
+      "IT & AI"
     ],
     "senatForm": {
-      "articleRef": "Art. 30¹³ alin. (1) lit. e) și alin. (4) nou",
-      "proposalContent": "Lit. e) devine: „e) medicii de alte specialități clinice decât cele prevăzute la lit. b)–d), în limitele competențelor profesionale stabilite prin lege;”. Se introduce alin. (4): „(4) Normele prevăzute la art. II stabilesc criteriile de eligibilitate a pacienților, consimțământul informat și înregistrarea serviciilor în dosarul electronic de sănătate.”",
-      "argumentation": "Lit. b)–d) limitează cardiologii, neurologii și ortopezii la primele 3 luni, dar lit. e) admite «alte specialități clinice» fără limită și fără a preciza față de ce sunt «alte»; limita de 3 luni poate fi ocolită (art. 1 alin. 5 Constituție). Alin. (4) aduce în lege garanțiile promise în expunerea de motive (consimțământ, dosar electronic) și omise din text.",
-      "otherComments": "Proiectul a devenit Legea nr. 138/2026, deci propunerea se poate face doar printr-o nouă inițiativă; până atunci, golurile pot fi acoperite în normele de aplicare. Art. II fixează 30 de zile doar pentru elaborarea normelor, nu și pentru aprobarea prin HG. Normele care impun cerințe tehnice platformelor ar trebui notificate prin TRIS (Directiva 2015/1535)."
+      "articleRef": "Art. 30^13 alin. (1) lit. e) din Legea 95/2006",
+      "proposalContent": "Se reformulează lit. e): „e) medicii din alte specialități clinice, pentru afecțiunile din specialitatea proprie, în condițiile și pe durata stabilite prin normele aprobate prin hotărâre a Guvernului, în limitele competențelor profesionale stabilite prin lege;”",
+      "argumentation": "Lit. e) permite oricărui medic clinician să facă telereabilitare fără limita de 3 luni impusă cardiologilor, neurologilor și ortopezilor la lit. b)-d). Asta creează incoerență și lasă neclar dacă aceștia pot ocoli limita prin lit. e). Trimiterea la norme asigură previzibilitate (art. 1 alin. 5 din Constituție).",
+      "otherComments": "Legea e deja publicată (Legea 138/2026), deci propunerea vizează o modificare viitoare. Normele HG ar trebui să prevadă expres consimțământul informat, securitatea datelor, înregistrarea în DES și decontarea CNAS, promise în expunerea de motive dar absente din text. Termenul de 30 de zile din art. II e nerealist."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 42221,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 89417,
+      "sourceEndMarker": "SF-291FD15B",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Introducerea telereabilitării medicale în pachetul oficial de servicii de telemedicină",
-      "verdictShort": "O lege utilă și modernizatoare care legalizează explicit recuperarea medicală la distanță (kinetoterapie, logopedie, recuperare cardiacă sau neurologică online). Singura rigiditate este limitarea la primele 3 luni a intervenției cardiologilor, neurologilor și ortopezilor, rodul unui compromis de breaslă cu medicii de recuperare.",
-      "initiatorClaim": "Inițiatorii susțin că vor să faciliteze accesul pacienților cu mobilitate redusă sau din zone izolate la servicii de recuperare medicală prin mijloace digitale, permițând monitorizarea de la distanță și decontarea prin CNAS.",
-      "realityCheck": "Legea integrează curat „telereabilitarea” în arhitectura existentă a telemedicinei din Legea nr. 95/2006, deschizând calea pentru decontarea ședințelor la distanță efectuate de medici și kinetoterapeuți/furnizori de servicii conexe. Totuși, textul adoptat impune un prag rigid de maximum 3 luni de la evenimentul acut/intervenție pentru telereabilitarea oferită de cardiologi, neurologi și ortopezi, lăsând fazele ulterioare exclusiv medicilor de recuperare (RMFB).",
+      "plainTitle": "Recuperarea medicală la distanță intră oficial în telemedicină",
+      "verdictShort": "O lege utilă și benignă, care recunoaște legal telereabilitarea fără să impună taxe, sancțiuni sau birocrație directă. Totuși, textul adoptat este mult mai sumar decât promisiunile din expunerea de motive și lasă detaliile practice pe seama unei hotărâri de Guvern cu termen nerealist de 30 de zile.",
+      "initiatorClaim": "Inițiatorii susțin că reglementează „telerecuperarea” pentru a crește accesul pacienților izolați sau cu mobilitate redusă, stabilind clar responsabilitățile medicilor și terapeuților, consimțământul informat, integrarea în Dosarul Electronic de Sănătate (DES) și decontarea prin CNAS.",
+      "realityCheck": "În realitate, legea adaugă „telereabilitarea” ca al șaptelea serviciu de telemedicină la art. 30¹ alin. (6) din Legea nr. 95/2006 (pe lângă cele șase deja existente) și introduce art. 30¹³ cu definiția și categoriile de furnizori. Nu modifică pachetul CNAS și nu introduce reguli specifice privind DES sau consimțământul (rămânând aplicabile normele generale din Legea nr. 95/2006), delegând toată punerea în aplicare către o hotărâre de Guvern.",
       "affectedGroups": [
         "Sănătate & Educație",
-        "IT & AI",
-        "Toți cetățenii"
-      ],
-      "keyFindings": [
-        "Art. I pct. 1 și 2 (Art. 30¹ alin. 6 lit. g și Art. 30¹³ alin. 2): Definește telereabilitarea ca furnizarea la distanță, prin mijloace digitale, a serviciilor de medicină fizică și de reabilitare și a serviciilor conexe actului medical (evaluare, terapie, educare și monitorizare).",
-        "Art. I pct. 2 (Art. 30¹³ alin. 1 lit. b-d): Plafonează dreptul medicilor cardiologi, neurologi/neurochirurgi și ortopezi de a furniza telereabilitare doar la „primele 3 luni” de la evenimentul acut sau intervenția chirurgicală, o barieră temporală fixă introdusă direct în legea primară.",
-        "Art. I pct. 2 (Art. 30¹³ alin. 1 lit. f și alin. 3): Permite fizioterapeuților, logopezilor și altor furnizori autorizați de servicii conexe să presteze telereabilitare, dar exclusiv în baza prescripției și recomandărilor medicului curant.",
-        "Art. II: Stabilește un termen de 30 de zile pentru ca Ministerul Sănătății să elaboreze normele metodologice aprobate prin Hotărâre de Guvern (textul oficial conținând și eroarea materială „elaborază”)."
-      ],
-      "blindSpotsCaught": "Disimetrie de reglementare între specialitățile medicale la Art. 30¹³ alin. (1): în timp ce cardiologii, neurologii și ortopezii sunt limitați strict la primele 3 luni post-eveniment acut (lit. b-d), litera e) permite „medicilor de alte specialități clinice” (ex. pneumologi, pediatri, reumatologi, geriatri) să furnizeze telereabilitare în limitele competențelor legale, fără un plafon temporal de 3 luni.",
-      "constitutionalityNote": "Legea respectă exigențele Constituției României, contribuind la garantarea dreptului la ocrotirea sănătății (art. 34). Din perspectiva calității legii (art. 1 alin. 5), textul este clar și se integrează organic în regimul juridic al telemedicinei reglementat deja la art. 30¹-30¹² din Legea nr. 95/2006.",
-      "euLawNote": "Măsura este aliniată cu strategiile UE privind sănătatea digitală (eHealth) și nu ridică probleme sub Directiva (UE) 2018/958 privind testul de proporționalitate, întrucât nu introduce restricții noi de acces în profesie, ci extinde modalitățile de furnizare la distanță pentru profesioniștii deja autorizați. De asemenea, nu instituie cerințe tehnice naționale restrictive care să impună notificarea TRIS conform Directivei (UE) 2015/1535.",
-      "senatForm": {
-        "articleRef": "Art. I pct. 2 (Art. 30^13 alin. (1) lit. b-d)",
-        "proposalContent": "Eliminarea plafonului rigid de „în primele 3 luni” de la lit. b), c) și d) ale art. 30^13 alin. (1) sau înlocuirea sintagmei cu „conform ghidurilor și protocoalelor clinice de practică medicală aprobate prin ordin al ministrului sănătății, în limitele competențelor profesionale”.",
-        "argumentation": "Limitarea fixă la 3 luni în legea primară pentru cardiologi, neurologi și ortopezi este arbitrară din punct de vedere clinic, întrucât recuperarea subacută poate depăși acest prag în funcție de patologie. Criteriile temporale trebuie stabilite flexibil prin protocoale medicale, nu înghețate rigid în lege.",
-        "otherComments": "Termenul de 30 de zile prevăzut la Art. II pentru elaborarea normelor metodologice și aprobarea lor prin Hotărâre a Guvernului este nerealist administrativ; se recomandă extinderea la 60-90 de zile și corectarea erorii materiale „elaborază” („elaborează”)."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 143304,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Recuperarea medicală la distanță (video, aplicații) intră oficial în telemedicină",
-      "verdictShort": "Lege benignă și utilă: dă bază legală explicită kinetoterapiei și recuperării prin mijloace digitale, fără taxe, sancțiuni sau monopoluri. Textul adoptat e însă mult mai sărac decât promite expunerea de motive, are o incoerență între lit. b)–d) și lit. e) și lasă aproape totul pe seama unor norme fără termen real de aprobare.",
-      "initiatorClaim": "Cei 55 de inițiatori, din aproape toate grupurile, spun că vor să reglementeze explicit recuperarea medicală la distanță, pentru pacienții din zone rurale sau cu mobilitate redusă. Promit garanții de consimțământ, integrare în dosarul electronic de sănătate și decontare CNAS, susținând că statul ar putea deconta mai multe ședințe fără să crească bugetul.",
-      "realityCheck": "Legea doar adaugă telereabilitarea pe lista formelor de telemedicină (art. 30¹ alin. 6 lit. g), o definește și enumeră cine o poate presta: medici de recuperare, cardiologi, neurologi și ortopezi (aceștia doar 3 luni), alte specialități clinice și furnizori de servicii conexe (de ex. fizioterapeuți, logopezi), aceștia din urmă numai pe prescripția medicului curant. Consimțământul, dosarul electronic și includerea în pachetul CNAS, promise în expunere, nu apar în articole. Ele depind de regulile generale de telemedicină existente, de normele de aplicare și de contractul-cadru. Afirmația că se pot deconta mai multe tratamente fără costuri suplimentare nu e cuantificată nicăieri.",
-      "affectedGroups": [
-        "Sănătate & Educație",
-        "IT & AI",
+        "Toți cetățenii",
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Art. I pct. 1: telereabilitarea devine lit. g) în lista formelor de telemedicină din art. 30¹ alin. (6). Efectul principal e că o practică existentă informal capătă temei legal explicit, ceea ce deschide drumul spre contractare și decontare.",
-        "Art. 30¹³ alin. (1) lit. b)–d): cardiologii, neurologii/neurochirurgii și ortopezii pot presta telereabilitare doar în primele 3 luni de la eveniment sau intervenție. Lit. e) admite însă «medici de alte specialități clinice» fără nicio limită de timp și fără să precizeze față de ce sunt «alte», deci restricțiile pot fi ocolite sau aplicate inegal.",
-        "Art. 30¹³ alin. (1) lit. c)–d) leagă «faza acută și subacută» de un plafon de 3 luni. În clasificările uzuale (de ex. post-AVC), faza subacută târzie poate ține până la 6 luni, așa că textul se contrazice parțial.",
-        "Art. 30¹³ alin. (3): serviciile conexe se prestează strict conform prescripției medicului curant. E o garanție bună de siguranță, dar înseamnă că fără o prescripție medicală prealabilă nu există telereabilitare cu terapeutul.",
-        "Garanțiile promise în expunerea de motive (consimțământ informat, integrare în dosarul electronic de sănătate, decontare CNAS) lipsesc din textul adoptat. Se aplică doar în măsura în care le acoperă deja regulile generale de telemedicină din Legea 95/2006 sau viitoarele norme.",
-        "Art. II impune ca normele să fie «elaborate» în 30 de zile (text cu greșeala «elaborază»), dar aprobarea prin HG nu are termen. Până la HG lipsesc regulile concrete: eligibilitatea pacienților, tarifarea, cerințele tehnice ale platformelor.",
-        "Terminologia e inconsecventă: expunerea vorbește de «telerecuperare», legea de «telereabilitare». Noțiunile «eveniment cardiovascular acut» și «traumatism musculo-scheletic major» nu sunt definite, așa că vor fi interpretate de CNAS la decontare."
+        "Extindere permisivă a telemedicinei (Art. I pct. 1-2): față de forma anterioară a art. 30¹ alin. (6) din Legea nr. 95/2006, care cuprindea șase servicii (de la teleconsultație la telemonitorizare), legea adaugă lit. g) „telereabilitarea” și introduce art. 30¹³, definind furnizarea la distanță prin mijloace digitale a medicinei fizice, reabilitării și serviciilor conexe.",
+        "Decalaj între expunerea de motive și textul adoptat: deși motivarea promite integrarea în DES, obligații de consimțământ și includerea în pachetul decontat de CNAS, legea nu conține dispoziții în acest sens; fără actualizarea normelor și a Contractului-cadru CNAS, serviciile nu devin automat decontate.",
+        "Asimetrie între specialități (art. 30¹³ alin. 1): cardiologii, neurologii/neurochirurgii și ortopezii sunt limitați la primele 3 luni post-eveniment acut sau intervenție (lit. b-d), în timp ce „medici de alte specialități clinice” (lit. e) nu au niciun plafon temporal, iar furnizorii de servicii conexe (alin. 3) depind strict de prescripția medicului curant.",
+        "Delegare cu termen nerealist și risc de fragmentare (Art. II): Ministerul Sănătății are doar 30 de zile să elaboreze norme metodologice aprobate prin HG (textul conținând și greșeala de tipar „elaborază”), deși art. 30¹ alin. (7) trimite deja la HG-ul unitar privind telemedicina."
       ],
-      "blindSpotsCaught": "Plafoanele de 3 luni de la lit. b)–d) vor funcționa în practică drept criterii de decontare. Un pacient post-AVC aflat în luna a 4-a nu mai poate fi urmărit la distanță de neurologul său în baza lit. c), ci doar de un medic de recuperare, care tocmai în zonele rurale lipsește, adică exact problema pe care legea pretinde că o rezolvă. Rămâne deschis dacă neurologul poate invoca lit. e) ca «altă specialitate clinică». Separat, alin. (1) spune că telereabilitarea «poate face parte» din telemedicină, deși art. I pct. 1 o include deja în listă: formularea permisivă e redundantă și sugerează că a fost scrisă înaintea pct. 1.",
-      "constitutionalityNote": "Nu există probleme majore. Legea concretizează art. 34 (dreptul la ocrotirea sănătății) și nu restrânge drepturi. Nu creează cheltuieli bugetare obligatorii, decontarea rămânând la nivelul contractului-cadru, deci art. 138 alin. (5) nu e afectat. Există riscuri minore de previzibilitate (art. 1 alin. 5): raportul neclar dintre lit. b)–d) și lit. e), termeni nedefiniți și faza «subacută» comprimată în 3 luni. Delegarea către HG e conformă art. 108, dar termenul din art. II vizează doar elaborarea, nu adoptarea normelor. Datele de sănătate rămân protejate de art. 26 și de GDPR, însă textul nu adaugă garanții proprii.",
-      "euLawNote": "Directiva 2018/958: lit. b)–d) stabilesc limite de exercitare (3 luni) pentru profesii reglementate, iar expunerea nu conține analiza de proporționalitate cerută. Riscul practic e mic, pentru că restricțiile țin de repartizarea competențelor între medici (justificabilă prin sănătatea publică), iar lit. e)–f) lărgesc accesul. TRIS 2015/1535: telereabilitarea prin video sau aplicații e un serviciu al societății informaționale. Legea e în principal o normă profesională, dar normele de aplicare care ar impune cerințe tehnice platformelor ar trebui notificate Comisiei, altfel riscă să fie inopozabile. Concurență: legea deschide piața pentru clinici private și servicii de kinetoterapie online, fără monopol. Furnizorii stabiliți în alte state membre se supun, în principiu, regulilor statului lor (Directiva 2011/24 și principiul țării de origine din Directiva 2000/31).",
+      "blindSpotsCaught": "Două chichițe subtile: (1) forma adoptată schimbă denumirea din „telerecuperare” în „telereabilitare” și omite complet prevederile promise în expunerea de motive privind DES și CNAS; (2) art. 30¹³ alin. (3) subordonează strict furnizorii de servicii conexe (fizioterapeuți, kinetoterapeuți, logopezi) prescripției medicului curant, ceea ce împiedică furnizarea autonomă la distanță, iar viitoarea HG va trebui verificată sub Directiva (UE) 2015/1535 (TRIS) dacă va impune standarde tehnice platformelor digitale.",
+      "constitutionalityNote": "Fără vicii majore de neconstituționalitate, fiind o normă permisivă care nu afectează drepturi fundamentale și nu introduce sarcini fiscale. Prezintă însă scăpări punctuale de claritate și previzibilitate (art. 1 alin. 5 din Constituție): asimetria plafonului de 3 luni între lit. b)-d) și lit. e) din art. 30¹³ alin. (1) și termenul practic imposibil de 30 de zile pentru emiterea unei HG.",
+      "euLawNote": "Compatibilă în principiu cu dreptul UE și cu direcțiile europene de digitalizare medicală. Sub Directiva (UE) 2018/958 (testul de proporționalitate), plafonul de 3 luni pentru anumite specialități și condiționarea serviciilor conexe de prescripția medicului curant constituie reguli privind exercitarea profesiilor reglementate, justificabile însă prin siguranța pacientului. Dacă normele din HG vor stabili cerințe tehnice pentru aplicații și platforme digitale, devine aplicabilă notificarea TRIS (Directiva (UE) 2015/1535), iar datele medicale rămân supuse direct GDPR.",
       "senatForm": {
-        "articleRef": "Art. 30¹³ alin. (1) lit. e) și alin. (4) nou",
-        "proposalContent": "Lit. e) devine: „e) medicii de alte specialități clinice decât cele prevăzute la lit. b)–d), în limitele competențelor profesionale stabilite prin lege;”. Se introduce alin. (4): „(4) Normele prevăzute la art. II stabilesc criteriile de eligibilitate a pacienților, consimțământul informat și înregistrarea serviciilor în dosarul electronic de sănătate.”",
-        "argumentation": "Lit. b)–d) limitează cardiologii, neurologii și ortopezii la primele 3 luni, dar lit. e) admite «alte specialități clinice» fără limită și fără a preciza față de ce sunt «alte»; limita de 3 luni poate fi ocolită (art. 1 alin. 5 Constituție). Alin. (4) aduce în lege garanțiile promise în expunerea de motive (consimțământ, dosar electronic) și omise din text.",
-        "otherComments": "Proiectul a devenit Legea nr. 138/2026, deci propunerea se poate face doar printr-o nouă inițiativă; până atunci, golurile pot fi acoperite în normele de aplicare. Art. II fixează 30 de zile doar pentru elaborarea normelor, nu și pentru aprobarea prin HG. Normele care impun cerințe tehnice platformelor ar trebui notificate prin TRIS (Directiva 2015/1535)."
-      }
+        "articleRef": "Art. II (norme metodologice)",
+        "proposalContent": "Art. II. - În termen de 60 de zile de la intrarea în vigoare a prezentei legi, Ministerul Sănătății elaborează completarea normelor metodologice privind telemedicina, aprobate prin HG, incluzând condițiile tehnice, siguranța pacientului, integrarea în DES și corelarea cu decontarea CNAS.",
+        "argumentation": "Termenul de 30 de zile este nerealist pentru o HG, iar un act separat ar fragmenta cadrul telemedicinei. Corectează eroarea „elaborază” și transpune în norma de delegare obiectivele din expunerea de motive (DES, decontare CNAS), crescând previzibilitatea legii (art. 1 alin. 5 Constituție).",
+        "otherComments": "Se recomandă și clarificarea art. 30^13 alin. (1) lit. b)-e), unde cardiologii, neurologii și ortopezii sunt limitați la primele 3 luni, dar alte specialități clinice nu au plafon temporal. De verificat notificarea TRIS (Dir. 2015/1535) pentru eventuale cerințe tehnice ale platformelor."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 126929,
+    "claude": {
+      "model": "claude",
+      "durationMs": 48911,
+      "sourceEndMarker": "SF-291FD15B",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Recuperare medicală la distanță, recunoscută explicit prin lege",
-      "verdictShort": "Textul are un efect predominant util: recunoaște telereabilitarea și identifică furnizorii acesteia. Riscurile principale sunt ambiguitățile privind competențele și limita de trei luni; nu introduce taxe, sancțiuni sau un monopol profesional explicit.",
-      "initiatorClaim": "Inițiatorii urmăresc acces mai bun la recuperare, continuitatea tratamentului și reducerea costurilor. Ei anunță și clarificarea consimțământului, integrarea documentelor în dosarul electronic și posibilitatea decontării prin CNAS.",
-      "realityCheck": "Art. I introduce telereabilitarea între serviciile de telemedicină, o definește și enumeră furnizorii, iar serviciile conexe sunt subordonate prescripției și recomandărilor medicale. Forma analizată nu introduce dispoziții proprii privind consimțământul, dosarul electronic sau decontarea CNAS; aceste rezultate depind de cadrul general și de reglementări suplimentare. Limita de trei luni pentru anumite specialități trebuie corelată cu permisiunea largă acordată altor specialități clinice.",
+      "plainTitle": "Recuperarea medicală la distanță (telereabilitarea) intră oficial în telemedicină",
+      "verdictShort": "Este o lege scurtă, utilă și benignă. Adaugă telereabilitarea pe lista serviciilor de telemedicină și spune cine o poate face. Problemele sunt de redactare și de coerență, nu de abuz: lit. e) e prea larg formulată, iar garanțiile promise în expunerea de motive (consimțământ, dosar electronic, decontare CNAS) nu apar în text și sunt lăsate pe seama normelor.",
+      "initiatorClaim": "Inițiatorii spun că recuperarea medicală prin mijloace digitale nu are un cadru legal explicit. Vor să o reglementeze ca să crească accesul pacienților din zonele izolate sau cu mobilitate redusă, să asigure continuitatea terapiei și să poată fi decontată de CNAS, după ei fără costuri bugetare suplimentare.",
+      "realityCheck": "Legea face doar trei lucruri. Adaugă lit. g) „telereabilitarea” la art. 30^1 alin. (6). Introduce art. 30^13, care enumeră furnizorii și definește serviciul. Prin art. II obligă Ministerul Sănătății să elaboreze în 30 de zile norme aprobate prin HG. Prevederile despre consimțământul informat, integrarea în dosarul electronic de sănătate și includerea în pachetul decontat, anunțate în expunerea de motive și în fișa Camerei, NU există în textul adoptat. Rămân aplicabile doar regulile generale (drepturile pacientului, GDPR) și ce vor stabili normele. Lit. e) („medici de alte specialități clinice”, fără limită de timp) slăbește coerența limitei de 3 luni impuse la lit. b)-d).",
       "affectedGroups": [
         "Sănătate & Educație",
         "IMM & Antreprenori",
-        "IT & AI",
-        "Justiție & Drepturi Civile"
+        "IT & AI"
       ],
       "keyFindings": [
-        "Art. I pct. 2, art. 30¹³ alin. (1) lit. a)-f), permite participarea mai multor specialități medicale și a furnizorilor autorizați de servicii conexe. Textul nu rezervă întreaga activitate unei singure specialități.",
-        "Art. 30¹³ alin. (1) lit. b)-d) introduce intervale de trei luni pentru anumite situații cardiologice, neurologice și ortopedice. Raportul acestora cu lit. e), privind alte specialități clinice, rămâne insuficient precizat; nu rezultă o interdicție generală de continuare a telereabilitării după trei luni.",
-        "Art. 30¹³ alin. (3) condiționează serviciile conexe de prescripția și recomandările medicale. Trimiterea la competențele profesionale existente nu permite furnizorilor să efectueze acte pentru care nu sunt autorizați.",
-        "Textul nu stabilește tarife, coplăți, sancțiuni, o platformă obligatorie sau un drept automat la decontare. Furnizarea efectivă poate presupune cheltuieli pentru echipamente, securitatea datelor și organizarea serviciului, dar acestea nu sunt cuantificate.",
-        "Art. II fixează termenul de 30 de zile pentru elaborarea normelor de către Ministerul Sănătății; nu formulează distinct un termen pentru adoptarea hotărârii Guvernului. Simpla expirare a termenului nu produce automat norme sau decontări."
+        "Art. I pct. 1: la art. 30^1 alin. (6) se adaugă lit. g) „telereabilitarea”. Forma consolidată arată că modificarea e deja în vigoare din 16.07.2026, prin Legea nr. 138/2026 (M.Of. nr. 574/13.07.2026).",
+        "Art. 30^13 alin. (1) lit. b)-d): cardiologii, neurologii/neurochirurgii și ortopezii pot face telereabilitare doar în primele 3 luni de la evenimentul acut, de la intervenție sau de la traumatism. În schimb, lit. e) permite oricărui medic de altă specialitate clinică să o facă fără limită temporală. Rămâne neclar dacă specialiștii de la b)-d) pot invoca lit. e) pentru a trece de cele 3 luni.",
+        "Art. 30^13 alin. (2) definește telereabilitarea ca furnizare la distanță a „serviciilor de medicină fizică și de reabilitare”, deși alin. (1) admite și alte specialități. Definiția și lista furnizorilor nu se suprapun perfect.",
+        "Art. 30^13 alin. (3) este o garanție reală: serviciile conexe (de ex. kinetoterapia) se furnizează strict conform prescripției medicului curant. Asta limitează riscul ca terapeuții să lucreze la distanță fără supraveghere medicală.",
+        "Expunerea de motive promite consimțământ informat, integrare în dosarul electronic de sănătate și decontare CNAS, dar nimic din toate acestea nu e în text. Decontarea depinde exclusiv de contractul-cadru și de normele CNAS, nu de această lege.",
+        "Art. II impune un termen de 30 de zile pentru norme, nerealist pentru un HG cu avize interministeriale. Există și o suprapunere cu normele generale de telemedicină prevăzute deja la art. 30^1 alin. (7), introdus prin OG nr. 2/2026. Textul conține și greșeala de redactare „elaborază”."
       ],
-      "blindSpotsCaught": "Rezumatul administrativ și expunerea de motive promit mai mult decât reglementează efectiv articolele, în special privind dosarul electronic și CNAS. Statutul indicat, Lege 138/2026, înseamnă că formularul de amendamente pentru proiect nu mai corespunde etapei parlamentare descrise. Verificarea online nu a fost disponibilă; analiza se bazează pe extrasele furnizate și nu certifică stadiul oficial, forma consolidată sau existența notificărilor europene.",
-      "constitutionalityNote": "Nu rezultă din text o neconstituționalitate evidentă. Reglementarea sprijină protecția sănătății, potrivit art. 34 din Constituție. Art. 1 alin. (5) justifică însă clarificarea raportului dintre specialitățile enumerate, intervalele de trei luni și noțiuni precum traumatism musculo-scheletic major. Justificarea diferențelor dintre furnizori trebuie să fie obiectivă, în raport cu art. 16 și cu siguranța pacientului. Art. 23 alin. (12) privește legalitatea pedepselor și nu este direct incident: textul nu instituie pedepse. Evaluarea completă presupune coroborarea cu garanțiile generale privind drepturile pacientului și cu reglementările profesionale existente.",
-      "euLawNote": "Directiva (UE) 2018/958 impune evaluarea proporționalității dispozițiilor care restricționează accesul la profesii reglementate sau exercitarea lor. Enumerarea furnizorilor, condiționarea serviciilor conexe și limitele temporale trebuie examinate pentru a identifica eventuale restricții noi; protecția sănătății poate justifica restricții adecvate și necesare, dar nu înlocuiește motivarea acestora. Pentru Directiva (UE) 2015/1535, vizarea expresă a unui serviciu digital justifică verificarea încadrării ca normă privind serviciile societății informaționale și a eventualei obligații de notificare TRIS; caracterul medical nu oferă singur o excludere automată. Din extrase nu poate fi constatată omiterea unei notificări obligatorii. Textul nu reglementează distinct AI. Prelucrarea datelor de sănătate rămâne supusă RGPD, inclusiv condițiilor aplicabile categoriilor speciale de date; consimțământul medical nu trebuie confundat cu temeiul juridic al prelucrării.",
+      "blindSpotsCaught": "Norma are două straturi de delegare: art. 30^1 alin. (7) (normele generale de telemedicină, prin HG) și art. II (norme separate pentru această lege, tot prin HG). Riscul este să apară două seturi de reguli necorelate. Mai e un detaliu: alin. (1) folosește formula permisivă „pot face parte”, deci telereabilitarea nu devine un drept exigibil al pacientului. Accesul real depinde integral de HG și de contractul-cadru CNAS. Afirmația din expunerea de motive că durata de tratament decontată poate crește „fără a impacta bugetul” nu are niciun calcul în spate și nu e transpusă în text.",
+      "constitutionalityNote": "Nu se văd probleme majore de constituționalitate. Legea nu impune sancțiuni, taxe sau obligații pentru cetățeni și nici nu stabilește direct cheltuieli bugetare noi, așa că art. 111 alin. (1) și art. 138 alin. (5) nu sunt incidente în mod evident. Există o ușoară tensiune cu cerința de claritate și previzibilitate (art. 1 alin. (5)), din cauza lit. e) deschise și a nepotrivirii dintre alin. (1) și alin. (2). Pacienții nu pierd drepturi: Legea nr. 46/2003 privind drepturile pacientului și GDPR se aplică în continuare, chiar dacă nu sunt repetate în text. Delegarea către HG este admisibilă, pentru că legea fixează elementele esențiale (cine furnizează și ce înseamnă serviciul).",
+      "euLawNote": "Directiva (UE) 2018/958: limitarea la 3 luni pentru anumite specialități (lit. b-d) restrânge exercitarea unor profesii reglementate. Expunerea de motive nu conține analiza de proporționalitate cerută de directivă. Restricția poate fi totuși justificată prin obiective de sănătate publică și siguranța pacientului, deci riscul e redus. Directiva (UE) 2015/1535 (TRIS): telereabilitarea e un serviciu furnizat la distanță, prin mijloace electronice, deci poate fi calificată drept serviciu al societății informaționale. Legea nu impune însă cerințe tehnice proprii; acestea vor veni prin normele HG, care ar putea necesita notificare TRIS dacă stabilesc condiții specifice pentru platforme sau aplicații. Pe piața unică, legea nu discriminează furnizorii din alte state membre, iar Directiva 2011/24/UE (asistența medicală transfrontalieră) rămâne aplicabilă.",
       "senatForm": {
-        "articleRef": "Art. I pct. 2 – art. 30¹³, alin. (4) nou",
-        "proposalContent": "(4) Limitele temporale prevăzute la alin. (1) lit. b)-d) nu înlătură posibilitatea continuării telereabilitării prin furnizorii competenți potrivit legii. Furnizarea la distanță se bazează pe evaluarea individuală a siguranței și a adecvării clinice și nu extinde competențele profesionale.",
-        "argumentation": "Clarificarea previne interpretarea termenului de trei luni ca interdicție generală de continuare a tratamentului. Evaluarea individuală protejează pacientul, iar menținerea limitelor competențelor profesionale evită autorizarea implicită a unor acte medicale.",
-        "otherComments": "Dacă stadiul Lege 138/2026 este corect, textul poate servi unei inițiative legislative ulterioare, nu unui amendament în dosarul deja finalizat. Termenul de amendamente indicat, 19.03.2026, este depășit. Trebuie verificate forma publicată, evaluarea proporționalității și eventuala notificare TRIS."
-      }
+        "articleRef": "Art. 30^13 alin. (1) lit. e) din Legea 95/2006",
+        "proposalContent": "Se reformulează lit. e): „e) medicii din alte specialități clinice, pentru afecțiunile din specialitatea proprie, în condițiile și pe durata stabilite prin normele aprobate prin hotărâre a Guvernului, în limitele competențelor profesionale stabilite prin lege;”",
+        "argumentation": "Lit. e) permite oricărui medic clinician să facă telereabilitare fără limita de 3 luni impusă cardiologilor, neurologilor și ortopezilor la lit. b)-d). Asta creează incoerență și lasă neclar dacă aceștia pot ocoli limita prin lit. e). Trimiterea la norme asigură previzibilitate (art. 1 alin. 5 din Constituție).",
+        "otherComments": "Legea e deja publicată (Legea 138/2026), deci propunerea vizează o modificare viitoare. Normele HG ar trebui să prevadă expres consimțământul informat, securitatea datelor, înregistrarea în DES și decontarea CNAS, promise în expunerea de motive dar absente din text. Termenul de 30 de zile din art. II e nerealist."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 74365,
+      "sourceEndMarker": "SF-291FD15B",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Recuperare medicală la distanță, recunoscută prin lege",
+      "verdictShort": "Legea este în principal utilă: recunoaște telereabilitarea și păstrează limitele competențelor profesionale. Nu introduce taxe, sancțiuni sau un monopol profesional, dar nici nu garantează decontarea promisă în expunerea de motive.",
+      "initiatorClaim": "Inițiatorii urmăresc acces mai bun la recuperare medicală pentru persoanele cu mobilitate redusă sau din zone insuficient deservite. Ei promit continuitatea tratamentului, protecția pacientului și posibilitatea extinderii serviciilor decontate fără creșterea bugetului.",
+      "realityCheck": "Art. I introduce expres telereabilitarea între serviciile de telemedicină, o definește și stabilește furnizorii eligibili, inclusiv furnizorii autorizați de servicii conexe actului medical. Textul nu instituie decontare automată, durate suplimentare de tratament finanțat sau obligații noi explicite privind dosarul electronic; garanțiile generale privind consimțământul, confidențialitatea și datele personale continuă să se aplice. Art. II cere elaborarea normelor în 30 de zile, însă nu fixează distinct termenul aprobării lor de către Guvern.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "IMM & Antreprenori",
+        "IT & AI"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 recunoaște expres telereabilitarea într-un cadru care permite deja furnizarea asistenței medicale prin telemedicină. Noutatea este consacrarea categoriei și a regulilor sale speciale, nu autorizarea pentru prima dată a oricărei îngrijiri la distanță.",
+        "Art. 30¹³ alin. (1) lit. a)-f) permite participarea mai multor specialități medicale și a furnizorilor autorizați de servicii conexe. Nu rezervă întreaga activitate exclusiv medicilor de medicină fizică și de reabilitare și nu acordă furnizorilor IT competențe medicale.",
+        "Limitele de trei luni din art. 30¹³ alin. (1) lit. b)-d) privesc furnizarea serviciilor de către specialitățile enumerate, în situațiile descrise. Ele nu stabilesc o durată maximă generală a recuperării pacientului și nu limitează în același mod activitatea specialității de la lit. a).",
+        "Formularea «medici de alte specialități clinice» de la lit. e) ar merita precizată în raport cu lit. b)-d), pentru a evita interpretări divergente asupra aplicării limitelor temporale. Trimiterea repetată la competențele profesionale nu extinde, prin ea însăși, competențele stabilite de legislația profesională.",
+        "Art. 30¹³ alin. (3) condiționează serviciile conexe de prescripția și recomandările medicale ale medicului curant. Este o condiție expresă de furnizare pentru această modalitate de lucru; efectul asupra autonomiei fiecărei profesii trebuie evaluat împreună cu legislația sa existentă.",
+        "Nu există în text un drept nou la decontare CNAS și nici o demonstrație că durata tratamentelor finanțate poate crește fără resurse suplimentare. Furnizorii pot avea costuri de platformă, securitate și organizare, dar legea nu introduce taxe, raportări distincte sau obligația pacientului de a utiliza servicii digitale.",
+        "Art. II este ultima dispoziție: nu conține abrogări, derogări sau modificări ascunse ale altor legi. Termenul de 30 de zile privește elaborarea normelor de către Ministerul Sănătății, nu explicit și adoptarea hotărârii Guvernului."
+      ],
+      "blindSpotsCaught": "Baza comparativă furnizată amestecă momente legislative: consolidarea din 19.11.2026 include deja lit. g), cu mențiunea introducerii prin Legea nr. 138/2026, în timp ce prezentarea art. 30¹³ îl descrie ca încă inexistent. Lit. g) nu trebuie interpretată ca o dublare produsă de proiect: consolidarea reproduce chiar efectul legii evaluate. În plus, stadiul indicat este deja de lege, astfel încât termenul parlamentar pentru amendamente nu mai constituie o cale procedurală actuală.",
+      "constitutionalityNote": "Pe textul furnizat nu rezultă o neconstituționalitate evidentă. Reglementarea susține protecția sănătății, potrivit art. 34 din Constituție, iar cerințele de competență și autorizare au o justificare legitimă în siguranța pacientului. Art. 1 alin. (5) justifică precizarea raportului dintre specialități și limitele temporale, precum și coordonarea normelor de aplicare; aceste neclarități nu dovedesc singure un viciu constituțional grav. Art. 23 alin. (12), privind stabilirea și aplicarea pedepselor, nu este direct incident, deoarece textul nu instituie pedepse. În lipsa unei obligații bugetare noi determinate, nu se poate afirma numai din acest text încălcarea art. 138 alin. (5).",
+      "euLawNote": "Directiva (UE) 2018/958 este relevantă în măsura în care condițiile noi restrâng accesul la sau exercitarea unor profesii reglementate: limitele pe specialități, ferestrele de trei luni și condiția prescripției trebuie examinate pentru necesitate, nediscriminare și proporționalitate. Protecția sănătății poate justifica asemenea condiții, dar nu înlocuiește evaluarea lor; documentele furnizate nu permit confirmarea efectuării testului. Directiva (UE) 2015/1535 impune verificarea încadrării dispozițiilor ca reguli privind servicii ale societății informaționale: utilizarea mijloacelor digitale nu dovedește singură obligația notificării TRIS, însă caracterul expres orientat spre furnizarea la distanță justifică examinarea acesteia. Textul nu reglementează distinct AI, iar GDPR și normele generale privind drepturile pacientului rămân aplicabile. Verificarea online a legislației și a eventualelor notificări nu a fost disponibilă.",
+      "senatForm": {
+        "articleRef": "Art. II",
+        "proposalContent": "Art. II. – În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Guvernul aprobă, la propunerea Ministerului Sănătății, normele metodologice de aplicare, prin modificarea și completarea normelor în vigoare privind telemedicina.",
+        "argumentation": "Textul actual fixează termenul elaborării, fără să stabilească expres termenul aprobării normelor. Propunerea introduce un termen pentru adoptare și cere integrarea în cadrul existent, pentru a evita reglementările paralele și întârzierile de aplicare.",
+        "otherComments": "În stadiul indicat, Legea nr. 138/2026, propunerea nu mai poate deveni amendament la proiectul încheiat. Poate fi trimisă comisiei ca petiție și sugestie pentru o inițiativă legislativă ulterioară; termenul trebuie atunci adaptat noului act."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T10:01:24.955Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "camera",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:36:32.903Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "billId": "Pl-x 162/2025",
   "slug": "plx-162-2025",
   "version": "initiator",
-  "updatedAt": "2026-11-19T14:38:08.152Z",
+  "updatedAt": "2026-11-24T15:21:32.209Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -12,124 +12,166 @@
     "memoSupplied": 4077,
     "marker": "SF-D0D2B350"
   },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-162-2025.json",
+    "form": "initiator",
+    "textHash": "d0d2b3504159dc57",
+    "fetchedAt": "2026-11-20T07:44:59.457Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 2626,
+    "truncated": false,
+    "included": true,
+    "key": "201bbb7204bafc1c"
+  },
   "consensus": {
     "riskScore": 2,
     "riskLevel": "green",
-    "plainTitle": "Concediat, dar încă membru de sindicat cât durează procesul",
-    "summaryTlDr": "Modificare mică și utilă. Omul dat afară nu-și mai pierde sindicatul tocmai când are cea mai mare nevoie de el, în instanță. Are două scăpări de redactare (intervalul până la depunerea acțiunii și votul pentru grevă), dar nu costă nimic și nu ascunde nicio capcană pentru firme.",
-    "initiatorClaim": "Inițiatorul vrea să oprească excepțiile prin care se susține că un salariat sau funcționar concediat nu mai e membru de sindicat. Dacă excepția ar fi admisă, sindicatul nu l-ar mai putea apăra în procesul pentru concediere sau pentru drepturile restante.",
-    "realityCheck": "Legea adaugă o singură frază la art. 3 din Legea dialogului social. Foștii salariați sau funcționari aflați în proces și apărați de sindicat rămân membri până la hotărârea definitivă, dar nu se numără la reprezentativitate. Efectul e strict procedural și îl ajută pe cel concediat. Scăpările: textul nu acoperă explicit perioada dintre încetare și depunerea acțiunii, nu îi exclude de la alte calcule raportate la numărul membrilor (de pildă acordul pentru grevă) și nu spune nimic despre procesele deja pe rol.",
+    "plainTitle": "Cine e concediat și se judecă rămâne membru de sindicat până la finalul procesului",
+    "summaryTlDr": "Este o lege scurtă, tehnică și favorabilă salariaților. Închide o portiță procedurală prin care angajatorii pot contesta dreptul sindicatului de a-și apăra în instanță foștii membri. Formularea are câteva neclarități, dar nu creează riscuri serioase.",
+    "initiatorClaim": "Inițiatorul vrea să evite excepțiile ridicate în instanță potrivit cărora persoana concediată nu mai e membră de sindicat, așa că sindicatul n-ar mai avea calitate procesuală să o apere în litigiile privind concedierea sau drepturile anterioare.",
+    "realityCheck": "Articolul unic introduce alin. (2^1) la art. 3 din Legea 367/2022. Persoanele cu raporturi de muncă sau de serviciu încetate își păstrează calitatea de membru până la soluționarea definitivă a procesului, dacă le apără sindicatul, fără să fie numărate la reprezentativitate. Azi, alin. (2) acoperă doar «șomerii», un statut tehnic din Legea 76/2002 pe care nu îl are orice concediat: cine nu s-a înregistrat, nu e eligibil sau s-a angajat între timp rămâne descoperit. Neclarități: ce înseamnă exact «apărate de sindicat în condițiile legii» (reprezentare prin acțiune în numele membrului, asistență, apărător ales?), ce se întâmplă cu cotizația și dacă «definitiv» include căile extraordinare de atac.",
     "affectedGroups": [
       "Angajați & HR",
       "Justiție & Drepturi Civile",
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. unic – art. 3 alin. (2^1) din L. 367/2022",
-      "proposalContent": "(2^1) Persoanele prevăzute la alin. (1) care, în termenul legal, contestă încetarea raportului de muncă sau de serviciu ori cer drepturi anterioare ei, reprezentate ori asistate de sindicat, sunt considerate membri de sindicat fără întrerupere de la încetare până la soluționarea definitivă a cauzei. Nu se iau în calcul la reprezentativitate și la votul pentru grevă.",
-      "argumentation": "Textul inițial nu spune ce se întâmplă între încetare și depunerea acțiunii (de la zeci de zile la 3 ani pentru drepturi salariale), așa că angajatorul poate invoca lipsa calității de membru la data sesizării. „Apărate în condițiile legii” lasă deschisă disputa dacă sindicatul e parte sau doar asigură avocatul. Amendamentul închide ambele portițe.",
-      "otherComments": "Lipsește o normă tranzitorie pentru procesele aflate deja pe rol. Titlul promite „modificarea și completarea”, dar textul doar completează art. 3, deci titlul corect e „pentru completarea art. 3”. Propunerea nu costă bugetul și nu împovărează firmele; o susțin, cu clarificările de mai sus. Cotizația pe durata procesului rămâne de stabilit prin statut."
+      "articleRef": "Art. unic – art. 3 alin. (2^1) L. 367/2022",
+      "proposalContent": "«(2^1) ...își păstrează calitatea de membri de sindicat până la soluționarea definitivă a cauzei, dacă sindicatul le reprezintă sau le asistă în proces potrivit art. 28, inclusiv în procesele aflate pe rol. Statutul stabilește regimul cotizației pe această perioadă. Aceste persoane nu sunt luate în considerare la stabilirea reprezentativității.»",
+      "argumentation": "Formula «apărate de sindicat în condițiile legii» e vagă: nu spune dacă ajunge asistența sau doar acțiunea formulată de sindicat, nici dacă vizează procesele deja începute. Trimiterea la art. 28 și la statut pentru cotizație elimină chiar excepțiile procedurale pe care inițiativa vrea să le prevină și respectă autonomia statutară.",
+      "otherComments": "Titlul spune «modificarea și completarea», dar articolul unic doar completează art. 3; recomand «privind completarea art. 3» (Legea 24/2000). De clarificat dacă «soluționarea definitivă» include căile extraordinare de atac."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
       "modelId": "gemini-4-neon-high",
-      "durationMs": 44859,
+      "durationMs": 43636,
       "sourceEndMarker": "SF-D0D2B350",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Foștii angajați rămân membri de sindicat pe durata proceselor cu fostul angajator",
-      "verdictShort": "O inițiativă tehnică utilă și benignă, care elimină un blocaj procedural în litigiile de muncă fără să creeze costuri sau abuzuri. Are doar câteva imperfecțiuni minore de redactare care pot fi corectate ușor la comisie.",
-      "initiatorClaim": "Inițiatorul vrea să evite situațiile în care angajatorii invocă în instanță că un fost salariat și-a pierdut calitatea de membru de sindicat după încetarea contractului și nu mai poate fi reprezentat de sindicat în proces.",
-      "realityCheck": "Proiectul introduce alin. (2^1) la art. 3 din Legea dialogului social, permițând foștilor angajați sau funcționari publici să rămână membri de sindicat până la soluționarea definitivă a proceselor privind concedierea ori drepturi restante, dacă sunt apărați de sindicat. Textul include o garanție importantă: acești membri nu se pun la calculul reprezentativității sindicatului, prevenind umflarea artificială a numărului de membri.",
+      "plainTitle": "Foștii angajați rămân membri de sindicat până la finalul proceselor cu angajatorul",
+      "verdictShort": "O completare tehnică benignă și utilă, care închide o portiță procedurală folosită pentru a bloca reprezentarea sindicală în instanță după concediere sau încetarea contractului. Are însă câteva scăpări de redactare și o circularitate logică ușor de corectat în comisii.",
+      "initiatorClaim": "Inițiatorul vrea să prevină situațiile în care angajatorii contestă în instanță dreptul sindicatului de a apăra foști angajați, pe motiv că aceștia și-au pierdut calitatea de membri odată cu încetarea contractului de muncă sau a raportului de serviciu.",
+      "realityCheck": "Legea nr. 367/2022 permite deja șomerilor să rămână membri de sindicat (art. 3 alin. 2), dar lasă în aer foștii angajați care nu au statut de șomer (de exemplu, s-au reangajat sau s-au pensionat) și se judecă cu fostul angajator. Proiectul introduce alin. (2^1) pentru a le menține calitatea de membru până la sentința definitivă, fără a umfla artificial pragul de reprezentativitate al sindicatului. Riscul nu este de abuz, ci de interpretări birocratice generate de redactarea ușor circulară a condiției „dacă sunt apărate de sindicat”.",
       "affectedGroups": [
         "Angajați & HR",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. unic introduce alin. (2^1) la art. 3 din Legea nr. 367/2022, acoperind lacuna pentru foștii lucrători care nu au statut de șomer (deja protejați de art. 3 alin. (2)), de exemplu cei care s-au angajat imediat în altă parte sau s-au pensionat, dar contestă vechea concediere.",
-        "Teza a doua a alin. (2^1) blochează abuzurile sindicale: persoanele aflate în litigiu nu intră în calculul pragului de reprezentativitate al sindicatului, păstrând echilibrul în negocierile colective cu angajatorii.",
-        "Există o ușoară imprecizie de redactare: formularea „își păstrează calitatea... dacă sunt apărate de sindicat” creează un mic cerc vicios pentru intervalul dintre data încetării contractului și data efectivă a introducerii acțiunii în instanță."
+        "Art. 3 alin. (2^1) propus extinde protecția existentă pentru șomeri (alin. 2) la toți foștii salariați și funcționari publici aflați în litigii privind încetarea raportului de muncă/serviciu sau drepturi restante, până la soluționarea definitivă.",
+        "Teza a II-a a alin. (2^1) blochează umflarea artificială a reprezentativității sindicale: foștii angajați aflați în procese nu se numără la stabilirea pragului de reprezentativitate al sindicatului.",
+        "Formularea „își păstrează calitatea ... dacă sunt apărate de sindicat” introduce o circularitate logică (apărarea conform art. 28 presupune deja calitatea de membru) și pare automată, fără a trimite explicit la voința persoanei și la statutul sindicatului.",
+        "Titlul și partea introductivă a articolului unic menționează incorect „modificarea și completarea” art. 3, deși textul nu modifică niciun alineat existent, ci doar completează articolul cu alin. (2^1)."
       ],
-      "blindSpotsCaught": "Titlul și partea introductivă a articolului unic vorbesc despre „modificarea și completarea” art. 3, deși textul face exclusiv o completare (încălcare minoră de tehnică legislativă – Legea nr. 24/2000). De asemenea, proiectul nu precizează dacă pe durata procesului acești membri plătesc cotizație sau au drept de vot în sindicat, aspect ce ar trebui lăsat expres în seama statutului sindical.",
-      "constitutionalityNote": "Proiectul este în acord cu Constituția, consolidând liberul acces la justiție (art. 21) și rolul sindicatelor (art. 9 și art. 40), fiind adoptat ca lege organică (art. 73 alin. (3) lit. p). Pentru o mai bună claritate și previzibilitate (art. 1 alin. (5)) și respectarea autonomiei statutare a sindicatelor (art. 9), merită reformulat ca un drept exercitat în condițiile statutului.",
-      "euLawNote": "Nu ridică probleme de drept al Uniunii Europene: nu afectează piața unică, concurența sau profesiile reglementate (Directiva (UE) 2018/958 nu este incidentă) și nu intră sub incidența procedurii de notificare TRIS (Directiva (UE) 2015/1535). Dimpotrivă, este aliniat cu dreptul la o cale de atac eficientă (art. 47 din Carta drepturilor fundamentale a UE).",
+      "blindSpotsCaught": "Expresia imperativă „își păstrează calitatea de membri de sindicat ... dacă sunt apărate de sindicat” intră într-o ușoară tensiune atât cu art. 3 alin. (4) (libertatea de retragere din sindicat), cât și cu autonomia statutară (obligațiile de membru, precum cotizația). În plus, condiția circulară „dacă sunt apărate de sindicat” poate genera noi excepții procesuale chiar la debutul procesului, înainte de depunerea cererii de apărare. Nicio incidență asupra directivelor UE privind piața internă sau serviciile digitale.",
+      "constitutionalityNote": "Proiectul este în principiu conform Constituției, susținând libertatea sindicală (art. 9 și art. 40) și accesul liber la justiție (art. 21), fiind corect încadrat ca lege organică (art. 73 alin. 3 lit. p). Pentru respectarea deplină a clarității și previzibilității legii (art. 1 alin. 5) și a autonomiei statutare a sindicatelor (art. 9), formularea „își păstrează ... dacă sunt apărate” ar trebui reformulată ca drept („au dreptul să rămână membri, potrivit statutului”).",
+      "euLawNote": "Fără incompatibilități cu dreptul Uniunii Europene. Nu reglementează accesul la profesii (Directiva (UE) 2018/958 privind testul de proporționalitate nu este aplicabilă), nu impune cerințe tehnice sau pentru servicii digitale (Directiva (UE) 2015/1535 TRIS nu este aplicabilă) și nu creează bariere concurențiale sau sarcini fiscale pentru IMM-uri. Măsura este aliniată spiritului art. 12, 28 și 47 din Carta Drepturilor Fundamentale a UE.",
       "senatForm": {
-        "articleRef": "Art. unic, art. 3 alin. (2^1) L. 367/2022",
-        "proposalContent": "(2^1) Persoanele prevăzute la alin. (1) ale căror raporturi de muncă sau de serviciu au încetat au dreptul să își păstreze calitatea de membri de sindicat până la soluționarea definitivă a litigiilor privind încetarea acestora ori drepturi aferente perioadei anterioare, în condițiile statutului. Acestea nu se iau în calcul la constatarea reprezentativității.",
-        "argumentation": "Formularea inițială creează un cerc vicios („dacă sunt apărate de sindicat”), lăsând neclar intervalul dintre concediere și depunerea acțiunii în instanță. În plus, instituirea ca „drept”, cu trimitere la statut, respectă autonomia sindicală (art. 9 Constituție) și libertatea de asociere, clarificând obligațiile privind cotizația și dreptul de vot.",
-        "otherComments": "Recomandăm și corelarea titlului și a părții introductive a articolului unic cu tehnica legislativă (Legea nr. 24/2000): proiectul vizează exclusiv completarea art. 3, nu și modificarea acestuia. Pe fond, inițiativa este utilă pentru protejarea accesului la justiție al foștilor salariați."
+        "articleRef": "Art. 3 alin. (2^1) din Legea nr. 367/2022",
+        "proposalContent": "(2^1) Persoanele prevăzute la alin. (1) ale căror contracte ori raporturi de muncă sau de serviciu au încetat au dreptul să rămână membri de sindicat, potrivit statutului, până la soluționarea definitivă a litigiilor privind încetarea ori drepturile aferente acestor raporturi, fără a fi luate în calcul la reprezentativitate.",
+        "argumentation": "Formula „au dreptul să rămână”, corelată cu alin. (2) și (4), respectă libertatea sindicală și autonomia statutară (art. 9 și 40 din Constituție). Eliminarea condiției circulare „dacă sunt apărate de sindicat” previne excepții procesuale sterile, întrucât apărarea sindicală conform art. 28 presupune deja calitatea de membru.",
+        "otherComments": "Corectați titlul și partea introductivă a articolului unic: proiectul doar „completează” (nu „modifică și completează”) art. 3 din Legea nr. 367/2022, conform normelor de tehnică legislativă din Legea nr. 24/2000."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 144229,
+      "durationMs": 39324,
       "sourceEndMarker": "SF-D0D2B350",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Concediat, dar încă membru de sindicat cât durează procesul",
-      "verdictShort": "Modificare mică și utilă. Omul dat afară nu-și mai pierde sindicatul tocmai când are cea mai mare nevoie de el, în instanță. Are două scăpări de redactare (intervalul până la depunerea acțiunii și votul pentru grevă), dar nu costă nimic și nu ascunde nicio capcană pentru firme.",
-      "initiatorClaim": "Inițiatorul vrea să oprească excepțiile prin care se susține că un salariat sau funcționar concediat nu mai e membru de sindicat. Dacă excepția ar fi admisă, sindicatul nu l-ar mai putea apăra în procesul pentru concediere sau pentru drepturile restante.",
-      "realityCheck": "Legea adaugă o singură frază la art. 3 din Legea dialogului social. Foștii salariați sau funcționari aflați în proces și apărați de sindicat rămân membri până la hotărârea definitivă, dar nu se numără la reprezentativitate. Efectul e strict procedural și îl ajută pe cel concediat. Scăpările: textul nu acoperă explicit perioada dintre încetare și depunerea acțiunii, nu îi exclude de la alte calcule raportate la numărul membrilor (de pildă acordul pentru grevă) și nu spune nimic despre procesele deja pe rol.",
-      "affectedGroups": [
-        "Angajați & HR",
-        "Justiție & Drepturi Civile"
-      ],
-      "keyFindings": [
-        "Articolul unic introduce alin. (2^1) la art. 3 din Legea 367/2022. Persoana al cărei contract de muncă sau raport de serviciu a încetat rămâne membru de sindicat până la soluționarea definitivă a procesului, dacă e apărată de sindicat. Procesul trebuie să privească încetarea raportului sau drepturile pentru perioada anterioară ei. Practic, angajatorul nu mai poate scoate sindicatul din proces pe motiv că omul nu mai e membru.",
-        "Aceeași frază exclude acești membri de la calculul reprezentativității. Sindicatul nu își poate umfla deci artificial efectivul cu foști salariați aflați în litigiu. Măsura e echilibrată și protejează și angajatorul, și celelalte sindicate.",
-        "Textul nu reglementează intervalul dintre încetarea raportului și depunerea acțiunii. Pentru drepturi salariale, termenul de sesizare poate ajunge la 3 ani. Formula „își păstrează” sugerează continuitate, dar nu o garantează explicit, așa că rămâne loc pentru aceeași excepție pe care inițiatorul vrea s-o elimine.",
-        "Condiția „dacă sunt apărate de sindicat în condițiile legii” e ambiguă. Nu e clar dacă sindicatul trebuie să fie el însuși parte, cu calitate procesuală activă, sau dacă ajunge să asigure avocatul ori asistența juridică.",
-        "Excluderea vizează doar reprezentativitatea. Pentru alte reguli raportate la numărul membrilor, cum e acordul pentru declanșarea grevei, foștii salariați ar putea fi luați în calcul, deși conflictul de muncă nu îi mai privește.",
-        "Propunerea nu are impact bugetar și nu creează obligații, taxe sau sancțiuni pentru firme sau IMM-uri. Lipsește însă o normă tranzitorie pentru procesele aflate deja pe rol la intrarea în vigoare."
-      ],
-      "blindSpotsCaught": "Condiția are o circularitate: calitatea de membru se păstrează doar dacă persoana e apărată de sindicat, iar sindicatul o poate apăra doar dacă e membru și i-a cerut-o în scris. Dacă acțiunea se depune după încetare, angajatorul poate susține că la data sesizării omul nu mai era membru, deci nici apărat nu putea fi. Remediul e să se precizeze că acțiunea introdusă în termenul legal păstrează calitatea de membru fără întrerupere de la data încetării. Separat, titlul promite „modificarea și completarea”, dar textul doar completează art. 3. Potrivit tehnicii legislative, titlul corect ar fi „pentru completarea art. 3”.",
-      "constitutionalityNote": "Propunerea se sprijină pe art. 9 și art. 40 din Constituție (libertatea de asociere în sindicate) și întărește accesul liber la justiție (art. 21). Reglementează regimul sindicatelor, deci e lege organică potrivit art. 73 alin. (3) lit. p). Traseul Senat ca primă cameră și Camera Deputaților ca cameră decizională e conform art. 75. Libertatea negativă de asociere e respectată, fiindcă păstrarea calității depinde de voința persoanei de a fi apărată. Norma se suprapune peste statutele care ar înceta calitatea la încetarea contractului, dar ingerința în autonomia sindicală e minimă și în interesul membrilor. Pe art. 1 alin. (5) (claritate și previzibilitate) există lacune, dar nu atât de grave încât să facă norma neconstituțională. Lipsa unei norme tranzitorii lasă instanțelor de decis aplicarea la procesele în curs, în limitele art. 15 alin. (2).",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă textul nu reglementează accesul la o profesie reglementată. Directiva (UE) 2015/1535 (TRIS) nu se aplică, fiindcă nu sunt vizate servicii ale societății informaționale sau reglementări tehnice. Nu există efecte asupra pieței unice sau concurenței. Măsura e în spiritul art. 12 și art. 28 din Carta drepturilor fundamentale, al art. 11 CEDO și al Convențiilor OIM nr. 87 și 98, ratificate de România, care protejează libertatea sindicală și apărarea membrilor.",
-      "senatForm": {
-        "articleRef": "Art. unic – art. 3 alin. (2^1) din L. 367/2022",
-        "proposalContent": "(2^1) Persoanele prevăzute la alin. (1) care, în termenul legal, contestă încetarea raportului de muncă sau de serviciu ori cer drepturi anterioare ei, reprezentate ori asistate de sindicat, sunt considerate membri de sindicat fără întrerupere de la încetare până la soluționarea definitivă a cauzei. Nu se iau în calcul la reprezentativitate și la votul pentru grevă.",
-        "argumentation": "Textul inițial nu spune ce se întâmplă între încetare și depunerea acțiunii (de la zeci de zile la 3 ani pentru drepturi salariale), așa că angajatorul poate invoca lipsa calității de membru la data sesizării. „Apărate în condițiile legii” lasă deschisă disputa dacă sindicatul e parte sau doar asigură avocatul. Amendamentul închide ambele portițe.",
-        "otherComments": "Lipsește o normă tranzitorie pentru procesele aflate deja pe rol. Titlul promite „modificarea și completarea”, dar textul doar completează art. 3, deci titlul corect e „pentru completarea art. 3”. Propunerea nu costă bugetul și nu împovărează firmele; o susțin, cu clarificările de mai sus. Cotizația pe durata procesului rămâne de stabilit prin statut."
-      },
-      "reachedEnd": true,
-      "status": "ok"
-    },
-    "codex": {
-      "model": "codex",
-      "durationMs": 47001,
-      "sourceEndMarker": "SF-D0D2B350",
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Sprijin sindical pentru foștii angajați aflați în litigiu",
-      "verdictShort": "Proiectul oferă o protecție utilă persoanelor care se judecă pentru drepturile lor după încetarea raportului de muncă sau de serviciu. Riscurile sunt reduse și țin de clarificarea condițiilor în care se păstrează calitatea de membru.",
-      "initiatorClaim": "Inițiatorul urmărește să împiedice contestarea dreptului sindicatului de a apăra foști salariați sau funcționari pe motiv că încetarea raportului de muncă ori de serviciu ar fi atras pierderea calității de membru.",
-      "realityCheck": "Noul art. 3 alin. (2^1) garantează păstrarea calității de membru până la soluționarea definitivă a litigiilor privind încetarea raporturilor sau drepturi aferente perioadei anterioare, dacă persoanele sunt apărate de sindicat în condițiile legii. Persoanele respective sunt excluse din numărul membrilor folosit pentru stabilirea reprezentativității sindicatului. Norma nu dispune reintegrarea, nu garantează câștigarea procesului și nu stabilește pierderea automată a calității de membru după hotărârea definitivă.",
+      "plainTitle": "Cine e concediat și se judecă rămâne membru de sindicat până la finalul procesului",
+      "verdictShort": "Este o lege scurtă, tehnică și favorabilă salariaților. Închide o portiță procedurală prin care angajatorii pot contesta dreptul sindicatului de a-și apăra în instanță foștii membri. Formularea are câteva neclarități, dar nu creează riscuri serioase.",
+      "initiatorClaim": "Inițiatorul vrea să evite excepțiile ridicate în instanță potrivit cărora persoana concediată nu mai e membră de sindicat, așa că sindicatul n-ar mai avea calitate procesuală să o apere în litigiile privind concedierea sau drepturile anterioare.",
+      "realityCheck": "Articolul unic introduce alin. (2^1) la art. 3 din Legea 367/2022. Persoanele cu raporturi de muncă sau de serviciu încetate își păstrează calitatea de membru până la soluționarea definitivă a procesului, dacă le apără sindicatul, fără să fie numărate la reprezentativitate. Azi, alin. (2) acoperă doar «șomerii», un statut tehnic din Legea 76/2002 pe care nu îl are orice concediat: cine nu s-a înregistrat, nu e eligibil sau s-a angajat între timp rămâne descoperit. Neclarități: ce înseamnă exact «apărate de sindicat în condițiile legii» (reprezentare prin acțiune în numele membrului, asistență, apărător ales?), ce se întâmplă cu cotizația și dacă «definitiv» include căile extraordinare de atac.",
       "affectedGroups": [
         "Angajați & HR",
         "Justiție & Drepturi Civile",
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Art. 3 alin. (2^1), prima teză: protecția acoperă atât contestarea încetării raportului, cât și litigiile pentru drepturi aferente perioadei anterioare, inclusiv drepturi salariale.",
-        "Art. 3 alin. (2^1), prima teză: condiția «dacă sunt apărate de sindicat» poate crea o circularitate, deoarece apărarea sindicală este legată tocmai de calitatea de membru pe care norma urmărește să o protejeze.",
-        "Art. 3 alin. (2^1), ultima teză: membrii protejați astfel nu contribuie la pragul de reprezentativitate; păstrarea apartenenței sindicale nu echivalează cu păstrarea ponderii în acest calcul.",
-        "Textul nu introduce taxe, amenzi, autorizații sau obligații de raportare și nu instituie cheltuieli bugetare directe. Actualizarea evidențelor pentru calculul reprezentativității poate presupune un efort administrativ limitat pentru sindicate."
+        "Art. unic – art. 3 alin. (2^1) nou: calitatea de membru de sindicat se păstrează până la soluționarea definitivă a litigiilor privind încetarea raportului de muncă sau de serviciu ori drepturile aferente perioadei anterioare. Condiția este ca persoana să fie apărată de sindicat.",
+        "Proiectul completează alin. (2) în vigoare, care permite doar șomerilor să rămână membri. Persoanele concediate care nu au statut de șomer nu au acum o bază legală expresă pentru păstrarea calității de membru, deci prevederea umple o lacună reală.",
+        "Reprezentativitatea nu poate fi umflată artificial: persoanele vizate sunt excluse expres din calculul numărului de membri, la fel ca șomerii la alin. (2).",
+        "Textul se leagă de art. 28, care dă sindicatului calitate procesuală activă doar pentru «membrii lor» și la cererea lor scrisă. Fără acest alineat, angajatorul poate invoca lipsa calității de membru după concediere.",
+        "Condiția «dacă sunt apărate de sindicat în condițiile legii» nu precizează forma apărării (acțiune formulată de sindicat în numele membrului, intervenție, asistență, avocat ales de sindicat). Nu precizează nici dacă se aplică proceselor deja pe rol.",
+        "Titlul spune «modificarea și completarea», dar textul doar completează art. 3. Este o inexactitate de tehnică legislativă, fără efecte juridice."
       ],
-      "blindSpotsCaught": "Textul nu clarifică expres intervalul dintre încetarea raportului și introducerea acțiunii, deși tocmai atunci poate apărea disputa asupra calității de membru. Nu conține dispoziții tranzitorii pentru procesele deja începute; aplicarea în timp va urma regulile generale, fără ca această omisiune să dovedească, singură, un viciu de constituționalitate. Articolul unic nu cuprinde alte derogări, abrogări sau modificări ascunse.",
-      "constitutionalityNote": "Soluția susține rolul sindicatelor și libertatea de asociere prevăzute de art. 9 și art. 40, precum și accesul la justiție, protejat de art. 21. Nu rezultă o neconstituționalitate evidentă. Pentru claritatea cerută de art. 1 alin. (5), ar fi utilă precizarea declanșării protecției și a faptului că păstrarea calității nu împiedică retragerea voluntară din sindicat. Art. 23 alin. (12), referitor la legalitatea pedepselor, nu este incident: proiectul nu introduce pedepse. Materia intră în domeniul legii organice potrivit art. 73 alin. (3) lit. p), iar formula finală indică majoritatea prevăzută de art. 76 alin. (1); respectarea efectivă a procedurii nu poate fi verificată din text.",
-      "euLawNote": "Directiva (UE) 2018/958 nu impune aici testul de proporționalitate pentru reglementarea profesiilor: proiectul nu restrânge accesul la o profesie reglementată sau exercitarea acesteia. Nu sunt introduse reguli tehnice privind produse ori servicii ale societății informaționale care să atragă notificarea TRIS potrivit Directivei (UE) 2015/1535. Nu se identifică monopoluri profesionale, bariere de intrare pe piață sau restricții evidente asupra concurenței și libertăților pieței unice.",
+      "blindSpotsCaught": "Textul nu spune nimic despre cotizație: persoana fără salariu mai plătește? Dacă statutul prevede excluderea pentru neplata cotizației, formula imperativă «își păstrează calitatea» poate intra în conflict cu autonomia statutară garantată de art. 9 din Constituție. Apare și o circularitate: calitatea de membru depinde de apărarea de către sindicat, iar apărarea în condițiile art. 28 depinde de calitatea de membru. Instanțele ar putea cere ca procesul să fi fost deja introdus de sindicat înainte de încetarea raportului. Nici «soluționarea definitivă» nu acoperă clar revizuirea sau contestația în anulare. Pentru independenți și membri cooperatori, formula «contracte încetate» se aplică forțat.",
+      "constitutionalityNote": "Proiectul este compatibil cu art. 40 (libertatea de asociere), art. 9 (rolul sindicatelor), art. 21 (accesul liber la justiție) și art. 41 (protecția muncii). Întărește efectivitatea dreptului de a fi apărat de sindicat. Ca normă de lege organică (art. 73 alin. (3) lit. p), trebuie adoptată cu majoritatea prevăzută de art. 76 alin. (1), lucru menționat corect în formula de adoptare. Art. 3 alin. (4), care interzice constrângerea de a rămâne membru, rămâne aplicabil, deci persoana se poate retrage oricând. Singurul punct de previzibilitate (art. 1 alin. (5)) este sintagma vagă «apărate de sindicat în condițiile legii». Ea poate fi clarificată prin amendament și nu duce la neconstituționalitate.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă proiectul nu reglementează accesul la profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reguli tehnice sau servicii ale societății informaționale. Proiectul este în linie cu art. 12 și 28 din Carta drepturilor fundamentale a UE, cu art. 11 CEDO și cu Convențiile OIM nr. 87 și 98 privind libertatea sindicală și protecția împotriva discriminării antisindicale. Nu are impact asupra concurenței sau a pieței unice.",
       "senatForm": {
-        "articleRef": "Articol unic – art. 3 alin. (2^1), prima teză",
-        "proposalContent": "În prima teză, sintagma „dacă sunt apărate de sindicat în condițiile legii” se înlocuiește cu „dacă solicită în scris apărarea de către sindicat, în condițiile art. 28, fără a aduce atingere dreptului de retragere din sindicat”.",
-        "argumentation": "Calitatea de membru trebuie protejată de la solicitarea apărării, fără a depinde de preluarea efectivă a cauzei de către sindicat. Se evită circularitatea dintre apartenența sindicală și apărarea în justiție și se păstrează caracterul voluntar al asocierii.",
-        "otherComments": "Se recomandă clarificarea protecției în intervalul dintre încetarea raportului și sesizarea instanței, precum și a aplicării la litigiile în curs. Excluderea din calculul reprezentativității poate fi păstrată. Propunerea se adresează comisiilor raportoare ale Camerei Deputaților."
+        "articleRef": "Art. unic – art. 3 alin. (2^1) L. 367/2022",
+        "proposalContent": "«(2^1) ...își păstrează calitatea de membri de sindicat până la soluționarea definitivă a cauzei, dacă sindicatul le reprezintă sau le asistă în proces potrivit art. 28, inclusiv în procesele aflate pe rol. Statutul stabilește regimul cotizației pe această perioadă. Aceste persoane nu sunt luate în considerare la stabilirea reprezentativității.»",
+        "argumentation": "Formula «apărate de sindicat în condițiile legii» e vagă: nu spune dacă ajunge asistența sau doar acțiunea formulată de sindicat, nici dacă vizează procesele deja începute. Trimiterea la art. 28 și la statut pentru cotizație elimină chiar excepțiile procedurale pe care inițiativa vrea să le prevină și respectă autonomia statutară.",
+        "otherComments": "Titlul spune «modificarea și completarea», dar articolul unic doar completează art. 3; recomand «privind completarea art. 3» (Legea 24/2000). De clarificat dacă «soluționarea definitivă» include căile extraordinare de atac."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 64255,
+      "sourceEndMarker": "SF-D0D2B350",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Păstrarea sprijinului sindical după încetarea muncii",
+      "verdictShort": "Proiectul oferă o protecție utilă persoanelor care se judecă pentru drepturi legate de fostul loc de muncă. Riscurile sunt reduse și privesc delimitarea beneficiarilor și calculul reprezentativității sindicale.",
+      "initiatorClaim": "Inițiatorul urmărește să împiedice contestarea dreptului sindicatului de a apăra foști angajați sau funcționari pe motiv că încetarea raportului de muncă ori de serviciu ar determina pierderea calității de membru.",
+      "realityCheck": "Noul art. 3 alin. (2^1) menține calitatea de membru până la soluționarea definitivă a litigiilor privind încetarea raportului sau drepturi anterioare, dacă persoana este apărată de sindicat. Art. 3 alin. (2) permite deja șomerilor să adere ori să rămână membri, astfel încât protecția propusă se suprapune parțial celei existente și poate acoperi persoane care nu au statut de șomer. Excluderea tuturor beneficiarilor din calculul reprezentativității este prea generală pentru situațiile în care aceștia se reangajează.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Articolul unic introduce numai art. 3 alin. (2^1). Textul furnizat nu conține derogări, abrogări, sancțiuni sau modificări ale altor legi ascunse în dispoziții finale.",
+        "Art. 3 alin. (2) recunoaște deja dreptul șomerilor de a rămâne membri de sindicat și îi exclude din calculul reprezentativității. Noutatea este protecția expresă legată de litigiu, independent de încadrarea persoanei ca șomer.",
+        "Sintagma «își păstrează» presupune o calitate de membru preexistentă; proiectul nu acordă, prin acest alineat, un drept general de înscriere în sindicat după încetarea raportului.",
+        "Condițiile «se judecă» și «dacă sunt apărate de sindicat» nu clarifică expres continuitatea calității de membru între încetarea raportului și introducerea acțiunii ori preluarea apărării. Aceasta este o incertitudine de redactare, nu dovada că protecțiile existente dispar.",
+        "Excluderea din reprezentativitate nu distinge între persoanele rămase fără raporturi de muncă și cele reangajate, inclusiv la același angajator. Aplicarea literală poate exclude și membri care îndeplinesc din nou condițiile obișnuite.",
+        "Nu sunt prevăzute taxe, cheltuieli bugetare directe sau formalități noi pentru cetățeni și IMM-uri. Sindicatele vor trebui să distingă administrativ membrii păstrați pentru litigii de cei eligibili pentru calculul reprezentativității."
+      ],
+      "blindSpotsCaught": "Menținerea calității de membru și includerea în calculul reprezentativității sunt efecte distincte. Prima susține apărarea în litigiu; a doua poate afecta nejustificat persoanele reangajate dacă excluderea rămâne absolută. Totodată, soluționarea definitivă încheie protecția specială introdusă, fără să determine automat pierderea calității de membru atunci când există un alt temei pentru păstrarea ei. Libertatea retragerii rămâne garantată de art. 3 alin. (4).",
+      "constitutionalityNote": "Obiectivul este compatibil cu art. 9 și art. 40 din Constituție, privind rolul sindicatelor și libertatea de asociere, și sprijină accesul la justiție protejat de art. 21. Art. 1 alin. (5) justifică precizarea momentului de început al protecției și a efectelor reangajării, fără ca aceste ambiguități să demonstreze singure neconstituționalitatea proiectului. Art. 23 alin. (12), privind legalitatea pedepsei, nu are incidență directă: nu sunt instituite pedepse. Materia ține de legea organică potrivit art. 73 alin. (3) lit. p); formula finală invocă art. 76 alin. (1), dar respectarea efectivă a procedurii și majorității necesită documentele parlamentare.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testarea proporționalității restricțiilor pentru accesul la profesii reglementate sau exercitarea lor; proiectul nu introduce asemenea restricții. Directiva (UE) 2015/1535 nu impune notificare TRIS pentru această dispoziție, care nu stabilește reglementări tehnice pentru produse ori norme privind serviciile societății informaționale. Nu sunt identificate bariere pentru piața unică, monopoluri profesionale sau avantaje comerciale exclusive. Calculul reprezentativității poate influența negocierea colectivă, dar acest efect nu constituie, prin el însuși, o restrângere nejustificată a concurenței.",
+      "senatForm": {
+        "articleRef": "Articol unic – art. 3 alin. (2^1), teza a II-a",
+        "proposalContent": "La stabilirea reprezentativității, aceste persoane sunt luate în considerare numai dacă îndeplinesc condițiile legale aplicabile angajaților/lucrătorilor în activitate. Simpla menținere a calității de membru potrivit prezentului alineat nu permite includerea lor în numărul de membri relevant.",
+        "argumentation": "Excluderea absolută poate afecta foști salariați care s-au reangajat, inclusiv la același angajator. Textul propus păstrează distincția dintre apartenența sindicală pentru apărarea în litigiu și condițiile reprezentativității, fără a exclude persoanele care îndeplinesc din nou cerințele legale.",
+        "otherComments": "Analiza privește forma inițiatorului și textele furnizate, fără verificare externă finalizată. Termenul indicat pentru amendamente, 10.06.2025, este depășit. Propunerea poate fi transmisă comisiilor raportoare ale Camerei Deputaților; preluarea ei ca amendament depinde de procedura parlamentară aplicabilă."
       },
       "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-19T14:38:08.152Z",
+      "method": "whole-text-v1",
+      "textChars": 1415,
+      "form": "initiator",
+      "agyModel": "gemini-4-neon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:21:32.209Z",
+      "reasons": [
+        "reluare"
+      ]
+    }
+  ]
 }

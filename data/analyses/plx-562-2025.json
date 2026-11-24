@@ -2,71 +2,101 @@
   "billId": "Pl-x 562/2025",
   "slug": "plx-562-2025",
   "version": "initiator",
-  "updatedAt": "2026-11-16T07:58:54.528Z",
+  "updatedAt": "2026-11-24T15:24:04.492Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 4687,
+    "ordinanceChars": 0,
+    "memoChars": 3120,
+    "memoSupplied": 3120,
+    "marker": "SF-9AC35F75"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-562-2025.json",
+    "form": "initiator",
+    "textHash": "9ac35f75fd0419ee",
+    "fetchedAt": "2026-11-19T10:46:41.001Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 5.7,
+    "riskScore": 6,
     "riskLevel": "yellow",
     "plainTitle": "Bon fiscal obligatoriu, plată cu cardul și camere video la parcările de lângă aeroporturi",
-    "summaryTlDr": "Scopul este legitim: parcările de lângă aeroport care încasează «la negru», cu confirmare pe WhatsApp, sunt o problemă reală. Textul este însă redactat neglijent: perimetrul de 5 km aplicat «de drept» prinde și parcări fără legătură cu aeroportul, transformă bonul în contract de depozit și cere un aviz local fără niciun criteriu.",
-    "initiatorClaim": "Inițiatorul vrea să oblige parcările private din jurul aeroporturilor să emită bon fiscal sau e-Factura, să accepte plata electronică și să afișeze tarifele. Obiectivele declarate sunt reducerea evaziunii, protejarea consumatorilor și eliminarea concurenței neloiale, fără costuri bugetare.",
-    "realityCheck": "Obligația de a emite bon fiscal există deja prin OUG nr. 28/1999 și Codul fiscal, așa că legea dublează aceeași faptă cu un regim sancționator separat și mai sever (10.000–30.000 lei), aplicat doar în funcție de geografie. Pe lângă fiscalizare, legea introduce trei sarcini noi: supraveghere video obligatorie cu păstrare minimum 30 de zile, răspunderea de depozitar din Codul civil pentru orice vehicul și un «aviz al autorității publice locale» nedefinit. Prin art. 1 alin. (3), aceste sarcini se aplică oricărei parcări cu plată din raza de 5 km, inclusiv parcărilor municipale, de mall sau de hotel din Otopeni, nordul Bucureștiului (zona Aeroportului Băneasa), Iași sau Cluj-Napoca.",
+    "summaryTlDr": "Scopul e legitim: parcările «la negru» de lângă aeroporturi chiar există. Textul însă trage prea larg. Prinde de drept orice parcare pe o rază de 5 km, transformă bonul în contract de depozit, cu răspundere pentru mașină, și creează un aviz local fără nicio regulă.",
+    "initiatorClaim": "Inițiatorul vrea să oblige parcările private din jurul aeroporturilor să emită bon fiscal sau e-Factura în loc de confirmări pe SMS sau WhatsApp. Urmărește reducerea evaziunii, protecția clienților și o concurență corectă.",
+    "realityCheck": "Obligația de bon fiscal există deja (OUG 28/1999 și Codul fiscal), așa că legea adaugă mai ales un regim paralel de amenzi mari (10.000–30.000 lei) și suspendarea activității. Peste el vin obligații noi și costisitoare: plată electronică, CCTV cu arhivă de 30 de zile, aviz local și răspundere de depozitar pentru vehicul. Toate se aplică automat oricărei parcări contra cost pe o rază de 5 km, fie că deservește sau nu pasagerii.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Șoferi & Auto",
       "Contabili & Fiscalitate",
-      "Proprietari & Imobiliare"
+      "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. 1 alin. (3) – perimetrul de aplicare",
-      "proposalContent": "Art. 1 alin. (3) va avea cuprinsul: «Intră sub incidența legii parcările cu plată situate la cel mult 5 km de incinta aeroportului internațional care oferă transfer la terminal sau tarif pe durata călătoriei. Sunt exceptate parcările publice ale UAT și cele ale clădirilor rezidențiale, centrelor comerciale și hotelurilor, rezervate clienților proprii.»",
-      "argumentation": "Formula «de drept» la 5 km include parcări municipale, rezidențiale, de mall sau hotel din Otopeni, nordul Bucureștiului, Iași ori Cluj-Napoca, fără legătură cu aeroportul, supunându-le avizului, supravegherii video 30 de zile și amenzilor de până la 30.000 lei. Criteriul funcțional asigură previzibilitatea cerută de art. 1 alin. (5) din Constituție și proporționalitatea.",
-      "otherComments": "Art. 5 alin. (1): calificarea ca depozit transferă răspunderea pentru furt/daune; propun eliminarea. Art. 6 alin. (1): «avizul autorității locale» nu are criterii și termen; a se defini sau elimina. Art. 7: precizați că nu suspendă sancțiunile din OUG 28/1999. Art. 9: corelare cu OUG 28/1999 și desemnarea agentului constatator."
+      "articleRef": "Art. 1 alin. (3) și Art. 5 alin. (1)",
+      "proposalContent": "Art. 1 alin. (3) se elimină. Art. 5 alin. (1) devine: «Documentul fiscal emis face dovada contractului de parcare, a perioadei și a prețului. Operatorul răspunde pentru vehicul potrivit regulilor depozitului din Codul civil doar dacă a preluat cheile sau custodia acestuia.»",
+      "argumentation": "Criteriul de 5 km aplică legea de drept oricărei parcări (mall, bloc, parcare publică), fără legătură cu pasagerii, încălcând art. 1 alin. (5) și art. 16 din Constituție. Asimilarea bonului cu depozitul face operatorul răspunzător pentru vehicul și bunuri chiar când clientul păstrează cheile, un cost disproporționat pentru IMM-uri.",
+      "otherComments": "Art. 6: avizul local nu are criterii, termen sau procedură. Art. 9: amenzile se suprapun cu OUG 28/1999; trebuie precizate regimul aplicabil și agentul constatator. Suspendarea «până la remediere» trebuie limitată în timp. ISCTR nu are competențe în parcări. Art. 7 nu produce efecte înainte de intrarea în vigoare."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 43364,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 99794,
+      "sourceEndMarker": "SF-9AC35F75",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Reguli dure, răspundere de depozit și camere video pentru parcările de lângă aeroporturi",
-      "verdictShort": "Sub pretextul combaterii evaziunii din parcările aeroportuare (deja acoperită de OUG 28/1999), proiectul lovește automat orice parcare pe o rază de 5 km și introduce obligații disproporționate. Transformarea bonului în contract de depozit, avizul local fără criterii și stocarea video de 30 de zile pentru controale ANAF creează riscuri juridice și costuri majore pentru IMM-uri.",
-      "initiatorClaim": "Inițiatorul susține că dorește să combată încasările nefiscalizate din parcările private din jurul aeroporturilor internaționale, unde confirmările se transmit prin WhatsApp sau SMS. Scopul declarat este protecția consumatorilor, transparența tarifară și eliminarea concurenței neloiale.",
-      "realityCheck": "În realitate, Art. 1 alin. (3) aplică legea «de drept» tuturor parcărilor pe o rază de 5 km de «limitele funcționale» ale aeroporturilor, capturând inclusiv parcări de mall-uri, spitale, birouri sau primării din orașe precum Cluj-Napoca, Iași ori nordul Bucureștiului (Băneasa). Totodată, Art. 5 alin. (1) transformă automat orice bon de parcare în contract de depozit civil (transferând răspunderea de pază asupra operatorului), iar Art. 6 alin. (1) introduce un aviz al autorității locale fără niciun criteriu legal de acordare.",
+      "plainTitle": "Regim fiscal paralel, camere video obligatorii și răspundere de depozit pentru toate parcările pe 5 km lângă aeroporturi",
+      "verdictShort": "Intenția de a combate evaziunea din parcările de lângă aeroporturi este legitimă, dar proiectul este scris defectuos și creează capcane juridice majore. Extinde automat obligații grele asupra oricărei parcări pe o rază de 5 km, transformă bonul în contract de depozit și intră în conflict direct cu GDPR și cu legislația contravențională.",
+      "initiatorClaim": "Inițiatorul susține că vrea să stopeze evaziunea fiscală din parcările private de lângă aeroporturi, unde plata se confirmă doar pe WhatsApp sau SMS, să protejeze pasagerii și să asigure concurență loială fără taxe noi sau costuri bugetare.",
+      "realityCheck": "Deși obligația de a emite bon fiscal și de a accepta cardul există deja în lege, proiectul creează un regim paralel care prinde automat toate parcările cu plată pe o rază de 5 km de aeroporturile internaționale (inclusiv mall-uri, hoteluri, clădiri de birouri și parcări publice din București-Băneasa, Cluj sau Iași). În plus, transformă bonul de parcare în contract de depozit cu răspundere sporită, impune stocarea imaginilor video minimum 30 de zile pentru controale ANAF și introduce suspendarea vagă a activității plus un aviz local nedefinit.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Șoferi & Auto",
         "Contabili & Fiscalitate",
-        "Proprietari & Imobiliare",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Rază oarbă de 5 km (Art. 1 alin. 3): termenul «limitele funcționale» nu este definit, iar aplicarea «de drept» include parcări urbane generale în orașe cu aeroport în intravilan, Guvernul putând ajusta perimetrul abia între lunile 6 și 12 (Art. 1 alin. 4).",
-        "Răspundere civilă agravată (Art. 5 alin. 1): bonul sau factura devine automat contract de depozit conform Codului civil, impunând obligații de pază și conservare a vehiculelor chiar și parcărilor automate sau nepăzite.",
-        "Barieră administrativă și supraveghere extinsă (Art. 5 alin. 2 și Art. 6): impune stocarea imaginilor video minimum 30 de zile inclusiv pentru «verificări fiscale», un aviz local fără criterii sau termene și control din partea ISCTR asupra parcărilor staționare.",
-        "Sancțiuni severe și dublare legislativă (Art. 2 și Art. 9): obligația de bon fiscal există deja în OUG 28/1999, dar proiectul adaugă amenzi de 5.000–30.000 lei fără avertisment și suspendarea activității de către ANAF la repetarea abaterii în 12 luni."
+        "Rază automată de 5 km fără filtru (Art. 1 alin. 3-4): Legea se aplică de drept tuturor parcărilor aflate la maximum 5 km de «limitele funcționale» ale aeroporturilor internaționale, termen nedefinit legal. Pentru aeroporturile din interiorul sau marginea orașelor (ex. Băneasa, Cluj-Napoca, Iași, Sibiu), perimetrul include mall-uri, hoteluri și parcări urbane care nu deservesc pasageri aerieni, iar Guvernul are interdicție să ajusteze perimetrul în primele 6 luni.",
+        "Transformarea forțată a bonului în contract de depozit (Art. 5 alin. 1): Bonul sau factura capătă prin lege valoarea unui contract de depozit conform Codului civil, ceea ce mută prezumția de răspundere pentru furturi sau avarii asupra operatorului, chiar dacă șoferul nu predă cheile și nu se întocmește proces-verbal de constatare a stării mașinii.",
+        "Stocare video obligatorie «minimum 30 de zile» fără plafon maxim (Art. 5 alin. 2): Impune păstrarea înregistrărilor video și a evidențelor electronice cel puțin 30 de zile și în scop de verificări fiscale, răsturnând regula GDPR unde 30 de zile reprezintă de obicei termenul maxim admis, fără proceduri de acces al ANAF și cu costuri suplimentare pentru micii operatori.",
+        "Sancțiuni paralele și suspendare abuzivă a activității (Art. 9): Neemiterea documentelor fiscale se amendează cu 10.000–30.000 lei, dublând OUG nr. 28/1999 fără trimitere la OG nr. 2/2001 și fără a stabili clar agenții constatatori. Repetarea în 12 luni duce la «suspendarea activității până la remediere» prin decizie ANAF, o formulare imposibil de aplicat previzibil pentru o faptă deja consumată.",
+        "Aviz local arbitrar și autoritate de control fără competență (Art. 6): Impune obligativitatea unui «aviz al autorității publice locale» fără criterii, procedură sau termen de eliberare și include ISCTR în echipa de control, deși ISCTR are competențe în transportul rutier comercial, nu în administrarea parcărilor de autoturisme."
       ],
-      "blindSpotsCaught": "Două capcane subtile ale textului: (1) Art. 5 alin. (2) impune stocarea video de 30 de zile nu doar pentru litigii cu clienții, ci explicit «în vederea verificărilor fiscale», transformând operatorii privați în arhivatori video pentru ANAF; (2) Art. 6 alin. (2) implică ISCTR în controlul unor parcări fixe, deși instituția are competențe pe transportul rutier comercial, nu pe staționări imobiliare.",
-      "constitutionalityNote": "Există vulnerabilități serioase pe Art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii): sintagma «limitele funcționale ale aeroporturilor» este nedefinită, iar «avizul autorității publice locale» de la Art. 6 alin. (1) nu are criterii, procedură sau termen de eliberare, permițând blocaje arbitrare. De asemenea, suspendarea activității prin decizie ANAF (Art. 9 alin. 2) și amenzile mari pentru omisiuni formale (Art. 9 alin. 3) tensionează principiul proporționalității și libertatea economică (Art. 45).",
-      "euLawNote": "Directiva (UE) 2018/958 privind testul de proporționalitate vizează profesiile reglementate, nefiind direct incidentă aici, însă «avizul autorității publice locale» fără criterii obiective de la Art. 6 alin. (1) contravine Directivei Serviciilor 2006/123/CE (art. 9–10), care impune autorizări justificate, transparente și nediscriminatorii. Stocarea obligatorie timp de 30 de zile a imaginilor video în scop fiscal (Art. 5 alin. 2) tensionează principiul minimizării datelor din GDPR (Regulamentul UE 2016/679, Art. 5), iar regulile privind platformele de rezervare online și transmiterea automată a e-Factura (Art. 2 și Art. 4) ating tangențial domeniul notificabil sub Directiva (UE) 2015/1535 (TRIS).",
+      "blindSpotsCaught": "Proiectul conține o capcană temporală bizară la Art. 1 alin. (4): Guvernul poate ajusta perimetrul de 5 km doar între luna a 6-a și luna a 12-a de la intrarea în vigoare, blocând atât corectarea rapidă a anomaliilor, cât și orice adaptare ulterioară. De asemenea, Art. 2 alin. (2) confundă sistemul ANAF RO e-Factura cu trimiterea unei facturi pe e-mail, lipsește complet trimiterea la OG nr. 2/2001 pentru contravenții, iar formula finală califică proiectul drept lege organică (art. 76 alin. 1 Constituție) fără să atingă vreun domeniu al art. 73 alin. (3).",
+      "constitutionalityNote": "Risc ridicat de neconstituționalitate pe art. 1 alin. (5) (calitatea, claritatea și previzibilitatea legii) din cauza sintagmelor nedefinite («limitele funcționale», «avizul autorității publice locale», «suspendarea activității până la remediere»), a paralelismului legislativ cu OUG nr. 28/1999 (Legea nr. 24/2000) și a omisiunii de a stabili agenții constatatori și regimul căilor de atac. Stocarea obligatorie a imaginilor video pe «minimum 30 de zile» fără limită maximă și garanții de acces încalcă art. 26 (viața privată) în lumina jurisprudenței CCR privind retenția datelor, iar suspendarea vagă a activității și extinderea arbitrară pe 5 km afectează proporționalitatea în raport cu art. 45 (libertatea economică) și art. 53.",
+      "euLawNote": "Art. 5 alin. (2) contravine principiilor minimizării datelor și limitării stocării din art. 5 alin. (1) lit. c) și e) din GDPR (Regulamentul UE 2016/679) prin impunerea unui prag minim de 30 de zile fără termen maxim și prin folosirea supravegherii video private ca instrument de control fiscal. Obligația unui «aviz al autorității publice locale» fără criterii obiective și transparente (Art. 6 alin. 1) riscă să încalce art. 9–10 din Directiva Servicii (2006/123/CE). Directiva (UE) 2018/958 privind profesiile reglementate nu este direct aplicabilă, însă cerințele de afișare și transmitere automată impuse platformelor de rezervare online (Art. 2 alin. 2 și Art. 4) pot impune verificarea obligației de notificare în procedura TRIS (Directiva UE 2015/1535).",
       "senatForm": {
-        "articleRef": "Art. 1 alin. (3)",
-        "proposalContent": "(3) Dispozițiile prezentei legi se aplică parcărilor amplasate la maximum 5 km de aeroporturile internaționale doar în măsura în care oferă, în mod direct sau prin publicitate, servicii dedicate pasagerilor sau personalului navigant al acestora.",
-        "argumentation": "Aplicarea automată pe o rază de 5 km lovește parcări urbane sau comerciale fără legătură cu aeroporturile (ex. Cluj, Iași, Băneasa). Legarea aplicării de destinația efectivă a serviciului asigură proporționalitatea și evită impunerea forțată a contractului de depozit, a avizului local și a camerelor video pe parcări obișnuite.",
-        "otherComments": "Recomandăm și limitarea Art. 5 alin. (1) (contract de depozit) la parcările cu pază, stabilirea unor criterii obiective pentru avizul primăriei de la Art. 6 alin. (1) și eliminarea ISCTR din Art. 6 alin. (2), neavând competență pe parcări staționare."
+        "articleRef": "Art. 1 alin. (3)-(4) și Art. 5 alin. (1)-(2)",
+        "proposalContent": "Eliminarea alin. (3)-(4) din art. 1 (aplicarea doar după criteriul destinației din alin. 2). La art. 5: eliminarea calificării bonului ca contract de depozit (alin. 1); la alin. (2), înlocuirea «minimum 30 de zile» cu «cel mult 30 de zile, conform GDPR, exclusiv pentru protecția bunurilor și soluționarea reclamațiilor».",
+        "argumentation": "Raza de 5 km prinde automat mall-uri, hoteluri și parcări urbane lângă aeroporturi (Băneasa, Cluj, Iași). Calificarea bonului drept contract de depozit impune răspundere de pază fără predarea vehiculului. Stocarea video «minimum 30 de zile» fără termen maxim și în scop fiscal încalcă art. 5 GDPR și art. 1 alin. (5) din Constituție.",
+        "otherComments": "Corelați sancțiunile din art. 9 cu OUG 28/1999 și OG 2/2001, clarificați agenții constatatori (eliminați ISCTR, fără competență pe parcări), definiți condițiile avizului local din art. 6 și clarificați «suspendarea până la remediere». Fiscalizarea se poate rezolva prin aplicarea strictă a OUG 28/1999, fără legi paralele."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 80413,
-      "riskScore": 5,
+      "durationMs": 55878,
+      "sourceEndMarker": "SF-9AC35F75",
+      "riskScore": 6,
       "riskLevel": "yellow",
       "plainTitle": "Bon fiscal obligatoriu, plată cu cardul și camere video la parcările de lângă aeroporturi",
-      "verdictShort": "Scopul este legitim: parcările de lângă aeroport care încasează «la negru», cu confirmare pe WhatsApp, sunt o problemă reală. Textul este însă redactat neglijent: perimetrul de 5 km aplicat «de drept» prinde și parcări fără legătură cu aeroportul, transformă bonul în contract de depozit și cere un aviz local fără niciun criteriu.",
-      "initiatorClaim": "Inițiatorul vrea să oblige parcările private din jurul aeroporturilor să emită bon fiscal sau e-Factura, să accepte plata electronică și să afișeze tarifele. Obiectivele declarate sunt reducerea evaziunii, protejarea consumatorilor și eliminarea concurenței neloiale, fără costuri bugetare.",
-      "realityCheck": "Obligația de a emite bon fiscal există deja prin OUG nr. 28/1999 și Codul fiscal, așa că legea dublează aceeași faptă cu un regim sancționator separat și mai sever (10.000–30.000 lei), aplicat doar în funcție de geografie. Pe lângă fiscalizare, legea introduce trei sarcini noi: supraveghere video obligatorie cu păstrare minimum 30 de zile, răspunderea de depozitar din Codul civil pentru orice vehicul și un «aviz al autorității publice locale» nedefinit. Prin art. 1 alin. (3), aceste sarcini se aplică oricărei parcări cu plată din raza de 5 km, inclusiv parcărilor municipale, de mall sau de hotel din Otopeni, nordul Bucureștiului (zona Aeroportului Băneasa), Iași sau Cluj-Napoca.",
+      "verdictShort": "Scopul e legitim: parcările «la negru» de lângă aeroporturi chiar există. Textul însă trage prea larg. Prinde de drept orice parcare pe o rază de 5 km, transformă bonul în contract de depozit, cu răspundere pentru mașină, și creează un aviz local fără nicio regulă.",
+      "initiatorClaim": "Inițiatorul vrea să oblige parcările private din jurul aeroporturilor să emită bon fiscal sau e-Factura în loc de confirmări pe SMS sau WhatsApp. Urmărește reducerea evaziunii, protecția clienților și o concurență corectă.",
+      "realityCheck": "Obligația de bon fiscal există deja (OUG 28/1999 și Codul fiscal), așa că legea adaugă mai ales un regim paralel de amenzi mari (10.000–30.000 lei) și suspendarea activității. Peste el vin obligații noi și costisitoare: plată electronică, CCTV cu arhivă de 30 de zile, aviz local și răspundere de depozitar pentru vehicul. Toate se aplică automat oricărei parcări contra cost pe o rază de 5 km, fie că deservește sau nu pasagerii.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
@@ -75,34 +105,36 @@
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 1 alin. (3) aplică legea «de drept» tuturor parcărilor aflate la cel mult 5 km de «limitele funcționale» ale aeroportului, noțiune nedefinită. Nu contează dacă parcarea se adresează pasagerilor, așa că definiția funcțională de la alin. (2) devine inutilă. Sunt prinse și parcări de mall, rezidențiale, hoteliere sau ale UAT-urilor.",
-        "Art. 1 alin. (4) permite Guvernului să modifice prin HG perimetrul de aplicare doar într-o fereastră ciudată, între luna 6 și luna 12 de la intrarea în vigoare. Practic, întinderea unei legi care sancționează contravențional este lăsată la un act administrativ, fără criterii.",
-        "Art. 5 alin. (1) declară că bonul fiscal «are valoarea unui contract de depozit». Operatorul răspunde astfel ca depozitar pentru furtul sau avarierea vehiculelor, cu costuri de asigurare semnificative pentru micii operatori. Calificarea contravine practicii, în care parcarea este de regulă tratată ca folosință a unui loc, nu ca pază.",
-        "Art. 5 alin. (2) impune supraveghere video, cu păstrare «minimum» 30 de zile și fără termen maxim. Scopul declarat include «verificările fiscale», ceea ce este greu de justificat sub principiile minimizării datelor și limitării stocării din GDPR (art. 5). Art. 8 doar repetă trimiterea la GDPR.",
-        "Art. 6 alin. (1) cere «avizul autorității publice locale» fără a preciza care autoritate, ce criterii, ce termen sau ce taxă se aplică. Este un regim de autorizare discreționar, iar art. 9 nu prevede nicio sancțiune pentru lipsa avizului sau a sistemului video.",
-        "Art. 9 nu desemnează agentul constatator: art. 6 menționează ANAF, ANPC și ISCTR, dar ISCTR nu are competențe în parcare. Faptele de la art. 9 alin. (1) sunt deja contravenții după OUG nr. 28/1999, ceea ce creează un concurs de norme pentru aceeași faptă.",
-        "Art. 7 promite o perioadă «fără sancțiuni» de 90 de zile. Poate fi citit ca o suspendare temporară a sancțiunilor deja aplicabile din OUG nr. 28/1999, adică efectul opus celui urmărit. În plus, ANAF nu are atribuția de a «instala» aparate de marcat."
+        "Art. 1 alin. (3): legea se aplică «de drept» tuturor parcărilor aflate la maximum 5 km de «limitele funcționale» ale aeroporturilor. Sunt prinse și parcările de mall, hotel, bloc sau cele municipale, care nu au legătură cu pasagerii. Noțiunea de «limite funcționale» nu este definită.",
+        "Art. 5 alin. (1): bonul sau factura «are valoarea unui contract de depozit». Operatorul devine depozitar după Codul civil și răspunde pentru vehicul și eventual pentru bunurile din el, chiar și la parcarea în regim self-park, unde clientul păstrează cheile și nu predă bunul. Rezultă costuri de asigurare semnificative.",
+        "Art. 9: minimul de 10.000 lei pentru neemiterea unui singur bon se aplică la fel unui operator cu 10 locuri și unuia cu 2.000. Regimul se suprapune cu sancțiunile din OUG 28/1999, fără o normă de corelare, deci există riscul de dublă sancționare sau de incertitudine asupra legii aplicabile.",
+        "Art. 9 alin. (2): suspendarea activității «până la remediere», dispusă de ANAF la repetarea abaterii, nu are durată maximă. Nici nu e clar ce înseamnă «remedierea» unei încălcări care s-a consumat deja (un bon neemis).",
+        "Art. 6 alin. (1): impune «avizul autorității publice locale» fără criterii, procedură, termen, taxă sau cale de contestare. Practic se creează o autorizare discreționară.",
+        "Art. 5 alin. (2) și art. 8: CCTV obligatoriu, cu arhivă de minimum 30 de zile, pentru toate parcările din perimetru. Scopul declarat de «verificări fiscale» este greu de justificat pentru imagini video (minimizarea datelor, GDPR art. 5). Costul cade disproporționat pe micii operatori.",
+        "Art. 6 alin. (2): ISCTR este inclus printre organele de control, deși nu are competențe în materie de parcări. Nicio prevedere nu stabilește care autoritate constată și aplică fiecare contravenție."
       ],
-      "blindSpotsCaught": "Art. 7 poate funcționa ca o mini-amnistie: operatorii care azi încalcă OUG nr. 28/1999 ar putea invoca 90 de zile «fără sancțiuni». Art. 2 alin. (2) confundă RO e-Factura, care este un sistem de raportare către ANAF, cu transmiterea facturii către client pe e-mail. Expunerea de motive susține că legea nu are costuri bugetare, deși sunt prevăzute controale comune ANAF–ANPC–ISCTR, sprijin ANAF pentru conformare și raport anual. Fișa de impact cerută de Legea nr. 24/2000 lipsește. Nici aeroporturile care își operează propriile parcări nu sunt excluse.",
-      "constitutionalityNote": "Art. 1 alin. (5) din Constituție (calitatea legii): sunt probleme serioase de claritate și previzibilitate. Noțiunea «limite funcționale» nu este definită, raportul dintre art. 1 alin. (2) și (3) este neclar, «avizul» de la art. 6 nu are reglementare, iar agentul constatator lipsește. Art. 16 (egalitatea): aceeași faptă, neemiterea bonului, este sancționată diferit numai după distanța față de aeroport. Diferențierea poate fi justificată de riscul de evaziune doar dacă este motivată și proporțională. Art. 26 (viața privată): supravegherea video obligatorie, fără termen maxim, ridică probleme de proporționalitate. Art. 45 și art. 135 alin. (2) lit. a): scopul de a asigura concurență loială este legitim, dar sarcinile suplimentare trebuie să fie necesare. Legea este ordinară, cu adoptare corectă, deci nu se pune problema unei legi organice.",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă, deoarece operarea unei parcări nu este o profesie reglementată. Relevantă este Directiva 2006/123/CE privind serviciile, transpusă prin OUG nr. 49/2009. Avizul local de la art. 6 este un regim de autorizare care trebuie să fie nediscriminatoriu, necesar și proporțional, cu criterii clare, obiective și publicate (art. 9–10 din directivă), condiții pe care textul nu le îndeplinește. TRIS (Directiva 2015/1535) este un risc marginal: art. 2 alin. (2) și art. 4 vizează și platformele de rezervare online. Dacă se consideră că acestea sunt reguli adresate specific serviciilor societății informaționale, ar fi necesară notificarea prealabilă la Comisie. GDPR (Regulamentul 2016/679): o obligație legală de prelucrare, întemeiată pe art. 6 alin. (1) lit. c), cere ca legea să stabilească scopul, durata maximă și garanțiile. Formula «minimum 30 de zile» nu respectă art. 5 alin. (1) lit. e). Obligațiile de informare de la art. 4 sunt compatibile cu Directiva 2011/83/UE.",
+      "blindSpotsCaught": "Art. 7 promite «sprijin ANAF» și lipsă de sancțiuni «în termenul prevăzut la art. 10», adică înainte de intrarea în vigoare, când legea oricum nu produce efecte. Norma este fie inutilă, fie interpretabilă ca o amnistie temporară față de obligațiile deja existente din OUG 28/1999. Art. 1 alin. (4) permite Guvernului să modifice perimetrul doar într-o fereastră fixă (între 6 și 12 luni), fără criterii, după care perimetrul rămâne înghețat. Și parcările aeroporturilor, operate de companii de stat, intră sub regimul de depozit și CCTV.",
+      "constitutionalityNote": "Art. 1 alin. (5) (claritate și previzibilitate): sunt vulnerabile «limitele funcționale», avizul local fără criterii, suspendarea fără termen și lipsa agentului constatator. Art. 16 și art. 45 (egalitate, libertate economică): criteriul geografic de 5 km tratează diferit activități identice și impune sarcini fără legătură cu scopul. Art. 53 (proporționalitate): suspendarea nelimitată și amenzile cu minim ridicat, nediferențiate, sunt contestabile. Art. 44: asimilarea forțată cu depozitul modifică retroactiv economia contractelor în curs. Art. 2 alin. (4) intră în coliziune cu regimul din OUG 28/1999, fără normă de abrogare sau corelare (Legea 24/2000).",
+      "euLawNote": "Directiva 2018/958 nu se aplică, fiindcă nu este reglementată o profesie. Relevantă este Directiva 2006/123 privind serviciile: avizul local din art. 6 este un regim de autorizare care trebuie să fie nediscriminatoriu, necesar, proporțional și bazat pe criterii clare (art. 9–10), condiții neîndeplinite de text. Obligațiile specifice rezervărilor online și platformelor (art. 2 alin. 2, art. 4) pot constitui «reguli privind serviciile societății informaționale», deci ar trebui notificate prin TRIS (Directiva 2015/1535). Lipsa notificării le face inopozabile. CCTV-ul trebuie justificat pe temeiul art. 6 GDPR, cu limitarea scopului, iar trimiterea generică la Regulamentul 2016/679 nu acoperă acest test.",
       "senatForm": {
-        "articleRef": "Art. 1 alin. (3) – perimetrul de aplicare",
-        "proposalContent": "Art. 1 alin. (3) va avea cuprinsul: «Intră sub incidența legii parcările cu plată situate la cel mult 5 km de incinta aeroportului internațional care oferă transfer la terminal sau tarif pe durata călătoriei. Sunt exceptate parcările publice ale UAT și cele ale clădirilor rezidențiale, centrelor comerciale și hotelurilor, rezervate clienților proprii.»",
-        "argumentation": "Formula «de drept» la 5 km include parcări municipale, rezidențiale, de mall sau hotel din Otopeni, nordul Bucureștiului, Iași ori Cluj-Napoca, fără legătură cu aeroportul, supunându-le avizului, supravegherii video 30 de zile și amenzilor de până la 30.000 lei. Criteriul funcțional asigură previzibilitatea cerută de art. 1 alin. (5) din Constituție și proporționalitatea.",
-        "otherComments": "Art. 5 alin. (1): calificarea ca depozit transferă răspunderea pentru furt/daune; propun eliminarea. Art. 6 alin. (1): «avizul autorității locale» nu are criterii și termen; a se defini sau elimina. Art. 7: precizați că nu suspendă sancțiunile din OUG 28/1999. Art. 9: corelare cu OUG 28/1999 și desemnarea agentului constatator."
+        "articleRef": "Art. 1 alin. (3) și Art. 5 alin. (1)",
+        "proposalContent": "Art. 1 alin. (3) se elimină. Art. 5 alin. (1) devine: «Documentul fiscal emis face dovada contractului de parcare, a perioadei și a prețului. Operatorul răspunde pentru vehicul potrivit regulilor depozitului din Codul civil doar dacă a preluat cheile sau custodia acestuia.»",
+        "argumentation": "Criteriul de 5 km aplică legea de drept oricărei parcări (mall, bloc, parcare publică), fără legătură cu pasagerii, încălcând art. 1 alin. (5) și art. 16 din Constituție. Asimilarea bonului cu depozitul face operatorul răspunzător pentru vehicul și bunuri chiar când clientul păstrează cheile, un cost disproporționat pentru IMM-uri.",
+        "otherComments": "Art. 6: avizul local nu are criterii, termen sau procedură. Art. 9: amenzile se suprapun cu OUG 28/1999; trebuie precizate regimul aplicabil și agentul constatator. Suspendarea «până la remediere» trebuie limitată în timp. ISCTR nu are competențe în parcări. Art. 7 nu produce efecte înainte de intrarea în vigoare."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 155086,
+      "durationMs": 89761,
+      "sourceEndMarker": "SF-9AC35F75",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Reguli fiscale și camere video pentru parcările de lângă aeroporturi",
-      "verdictShort": "Scopul fiscal și protecția clienților sunt legitime, iar proiectul nu introduce taxe noi. În forma furnizată, însă, extinde neclar obligațiile asupra parcărilor din apropierea aeroporturilor și impune supraveghere video și suspendări insuficient delimitate.",
-      "initiatorClaim": "Inițiatorul urmărește reducerea încasărilor nefiscalizate, protejarea clienților și eliminarea avantajelor operatorilor care lucrează ilegal. Susține că documentele fiscale, plățile electronice și păstrarea probelor vor îmbunătăți controlul fără costuri bugetare suplimentare.",
-      "realityCheck": "Proiectul instituie un regim sectorial cu documente fiscale, plată electronică, aviz local, evidențe și supraveghere video, inclusiv pentru parcările prinse în regula teritorială de 5 km. Bonul sau factura primește valoarea unui contract de depozit, ceea ce poate adăuga obligații de custodie, iar repetarea neemiterii documentelor poate conduce la suspendarea activității fără o durată maximă precizată. Costurile de echipare, stocare, conformare și control există chiar dacă nu sunt introduse taxe noi.",
+      "plainTitle": "Reguli fiscale, camere video și suspendarea parcărilor din jurul aeroporturilor",
+      "verdictShort": "Proiectul urmărește un obiectiv legitim, dar depășește fiscalizarea: extinde obligațiile asupra parcărilor comerciale dintr-un perimetru larg și permite suspendarea activității fără durată maximă expresă. Necesită amendamente privind sancțiunile, supravegherea video, autorizarea și corelarea cu legislația fiscală existentă.",
+      "initiatorClaim": "Inițiatorul urmărește reducerea evaziunii fiscale, protejarea clienților și eliminarea avantajelor operatorilor care nu emit documente fiscale. Expunerea susține că proiectul nu generează costuri bugetare suplimentare.",
+      "realityCheck": "Pe lângă documente fiscale și plăți electronice, proiectul impune aviz local, păstrarea imaginilor și a evidențelor electronice, precum și atribuirea valorii unui contract de depozit bonului sau facturii. Art. 1 alin. (3) poate include și parcări comerciale fără legătură efectivă cu aeroportul, iar art. 9 permite suspendarea până la o remediere insuficient definită. Costurile echipamentelor, stocării și conformării pentru operatori sunt reale, iar afirmația privind absența costurilor publice nu este susținută de o evaluare a noilor sarcini administrative.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
@@ -111,25 +143,50 @@
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 1: aplicarea de drept tuturor parcărilor din raza de 5 km poate cuprinde parcări contra cost care nu deservesc pasageri. Raportul dintre această regulă și limitarea inițială la operatorii serviciilor aeroportuare este neclar; textul nu justifică extinderea la parcările private fără activitate economică.",
-        "Art. 1 alin. (3)-(4): nu sunt definite «limitele funcționale» ale aeroportului și metoda de măsurare. Guvernul poate ajusta perimetrul după «specificul local», fără limite materiale suficiente; aceste schimbări determină cine suportă obligațiile și sancțiunile.",
-        "Art. 2: formula «bon fiscal sau factură» trebuie corelată cu OUG nr. 28/1999, fără a sugera că factura înlocuiește întotdeauna bonul obligatoriu. Trimiterea unui document prin e-mail și transmiterea facturii prin sistemul RO e-Factura sunt operațiuni distincte, pe care textul le confundă.",
-        "Art. 5 alin. (1): transformarea bonului sau facturii în contract de depozit poate extinde răspunderea operatorului dincolo de simpla punere la dispoziție a unui loc. Lipsesc reguli clare privind predarea vehiculului și întinderea custodiei; lipsa documentului fiscal nu trebuie interpretată ca pierdere a drepturilor clientului.",
-        "Art. 5 alin. (2) și art. 8: păstrarea imaginilor pentru minimum 30 de zile presupune supraveghere video obligatorie și nu stabilește un plafon. Invocarea GDPR nu suplinește justificarea necesității, delimitarea zonelor filmate, controlul accesului și regulile de ștergere.",
-        "Art. 6: avizul local nu are condiții, procedură sau termen de soluționare. Această incertitudine poate deveni o barieră de intrare pe piață; implicarea ISCTR necesită delimitarea atribuțiilor pentru controlul parcării, distinct de eventualele servicii de transport.",
-        "Art. 9: amenzile nu sunt individualizate în text după gravitate sau valoarea încasării, iar suspendarea la repetarea abaterii nu are criterii clare de încetare. Trebuie precizate raportul cu sancțiunile fiscale existente, constatarea repetării și procedura reluării activității, evitând dublarea nejustificată a sancționării aceleiași fapte.",
-        "Art. 7 și art. 10: cele 90 de zile sunt perioada anterioară intrării în vigoare, nu o derogare clară de la obligațiile fiscale deja existente. Expunerea invocă aplicarea imediată, dar articolul operativ prevede intrarea în vigoare după 90 de zile; afirmația privind absența costurilor nu este susținută de o evaluare a sarcinilor pentru IMM-uri și autorități."
+        "Art. 1 alin. (1)-(3): definiția funcțională privește serviciile destinate pasagerilor și personalului navigant, dar aplicarea automată pe raza de 5 km poate cuprinde și parcări comerciale pentru alte categorii de clienți. Textul trebuie să precizeze raportul dintre aceste criterii; nu rezultă că orice parcare privată gratuită devine automat operator reglementat.",
+        "Art. 1 alin. (3)-(4): «limitele funcționale» ale aeroportului și metoda de măsurare a distanței nu sunt definite. Guvernul poate ajusta perimetrul fără limite cantitative și criterii suficient de precise, însă numai în intervalul indicat de lege, începând la șase luni după intrarea în vigoare.",
+        "Art. 2: documentarea încasărilor este utilă, dar alternativa «bon fiscal sau factură fiscală electronică» trebuie corelată cu OUG nr. 28/1999 și OUG nr. 120/2021. Trimiterea unei facturi prin e-mail clientului și transmiterea ei prin sistemul RO e-Factura sunt operațiuni distincte; textul le confundă.",
+        "Art. 3-4: acceptarea unei plăți electronice, afișarea tarifelor și identificarea operatorului sporesc transparența. Proiectul nu instituie un furnizor exclusiv, o taxă nouă sau un monopol expres.",
+        "Art. 5 alin. (1): bonul sau factura primește valoarea unui contract de depozit. Această regulă poate implica obligații de pază și restituire care depășesc simpla punere la dispoziție a unui loc de parcare; întinderea lor trebuie clarificată pentru operatori și clienți.",
+        "Art. 5 alin. (2) și art. 8: păstrarea imaginilor și evidențelor pentru minimum 30 de zile implică infrastructură și costuri. Nu sunt stabilite o durată maximă ori criterii de prelungire, reguli de acces sau delimitarea supravegherii; simpla trimitere la GDPR nu demonstrează necesitatea și proporționalitatea măsurii.",
+        "Art. 6: avizul autorității locale devine o condiție de funcționare fără procedură, criterii, termen de soluționare sau corelare cu autorizațiile existente. Această incertitudine poate crea bariere administrative și aplicare neuniformă; nu dovedește, singură, existența unui monopol.",
+        "Art. 9: amenzile nu sunt diferențiate după valoarea încasării nedocumentate, iar repetarea în 12 luni atrage suspendarea până la remediere, fără plafon temporal expres. Lipsesc reperul de calcul al repetării și criteriile concrete de reluare a activității.",
+        "Art. 9: sancțiunile trebuie corelate expres cu regimul fiscal existent pentru a evita suprapuneri pentru aceeași faptă. Nu sunt individualizate suficient competențele de constatare și sancționare ale instituțiilor menționate la art. 6.",
+        "Art. 7 și 10: cele 90 de zile preced intrarea în vigoare. Formularea «fără sancțiuni în această perioadă» nu instituie clar o derogare de la sancțiunile fiscale deja aplicabile și nu trebuie prezentată drept amnistie.",
+        "Art. 10 și dispozițiile finale: legea nu se aplică imediat, contrar formulării din expunerea de motive, ci după 90 de zile de la publicare. Nu există abrogări sau modificări exprese ale legislației fiscale care să rezolve suprapunerile create."
       ],
-      "blindSpotsCaught": "Directiva 2018/958 privește accesul la profesii reglementate și exercitarea acestora, nu orice restricție comercială: nu devine aplicabilă doar pentru că parcările primesc obligații noi. Similar, rezervarea online nu transformă automat serviciul fizic de parcare într-un serviciu supus notificării TRIS. Separat, formula finală privind majoritatea organică nu demonstrează că obiectul legii aparține domeniului legilor organice.",
-      "constitutionalityNote": "Principala vulnerabilitate privește art. 1 alin. (5) din Constituție: destinatarii obligațiilor, perimetrul, avizul și mecanismul suspendării trebuie să fie previzibile. Art. 23 alin. (12) consacră legalitatea pedepselor; pentru contravenții, analiza trebuie să țină seama de natura sancțiunilor și de garanțiile aplicabile, fără echivalarea automată cu pedepsele penale. Supravegherea obligatorie implică art. 26, iar restrângerea vieții private trebuie justificată inclusiv prin exigențele art. 53. Diferențele teritoriale și suspendarea activității cer o justificare obiectivă și proporțională în raport cu art. 16 și art. 45. Nu rezultă automat neconstituționalitatea întregului proiect. Art. 138 alin. (5) devine relevant dacă sunt stabilite cheltuieli bugetare fără sursă de finanțare; simpla existență a costurilor private nu îl încalcă.",
-      "euLawNote": "Din text nu rezultă instituirea unei profesii reglementate, astfel încât Directiva (UE) 2018/958 nu este reperul direct pentru acest regim comercial. Avizul local și condițiile de funcționare trebuie analizate, în măsura aplicabilității, prin Directiva 2006/123/CE: nediscriminare, necesitate, proporționalitate și proceduri clare. Pentru Directiva (UE) 2015/1535, obligațiile accesorii privind rezervările și facturile online nu demonstrează singure existența unei reguli vizând în mod specific serviciile societății informaționale; nu poate fi afirmată o încălcare TRIS din textul furnizat. Nu există reglementări privind AI. Obligația legală de filmare trebuie să respecte cerințele GDPR privind necesitatea, proporționalitatea, minimizarea și limitarea stocării; simpla trimitere la regulament nu rezolvă aceste probleme.",
+      "blindSpotsCaught": "Problema subtilă este combinarea a trei mecanisme: includerea automată prin distanță, transformarea documentului fiscal în contract de depozit și suspendarea până la o remediere nedefinită. Astfel, o parcare comercială destinată altui public poate suporta obligații suplimentare doar prin amplasare. De asemenea, termenul de conformare nu suspendă clar obligațiile fiscale existente, iar referirea la art. 76 alin. (1) din Constituție în formula finală nu demonstrează că obiectul legii aparține domeniului organic.",
+      "constitutionalityNote": "Există vulnerabilități serioase de claritate și previzibilitate în raport cu art. 1 alin. (5): perimetrul, avizul local, repetarea contravenției și încetarea suspendării sunt insuficient determinate. Art. 23 alin. (12) privește legalitatea pedepsei; nu trebuie invocat automat ca temei direct pentru orice amendă contravențională, deși natura concretă a sancțiunii poate atrage garanțiile materiei penale în sens convențional. Suspendarea și condițiile de acces la activitate trebuie evaluate prin art. 45, iar supravegherea prin art. 26 și, în măsura restrângerii unor drepturi fundamentale, art. 53. Diferențierea geografică necesită justificare obiectivă și proporțională, inclusiv din perspectiva art. 16. Acestea sunt riscuri de constituționalitate, nu constatări definitive. Evaluarea privește textul furnizat; verificarea online a legislației și a stadiului parlamentar nu a fost posibilă în această sesiune.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testul de proporționalitate pentru reglementarea profesiilor; exploatarea unei parcări nu devine profesie reglementată prin acest proiect, astfel că directiva nu este, pe datele furnizate, direct aplicabilă. Pentru avizul local și accesul la activitatea de servicii este relevantă analiza Directivei 2006/123/CE, cu respectarea excluderii fiscalității din domeniul acesteia: condițiile de autorizare trebuie justificate și proporționale. Directiva (UE) 2015/1535 nu impune automat notificare TRIS doar pentru că sunt menționate rezervări online, aplicații sau facturi electronice; trebuie verificat dacă există o regulă vizând în mod specific servicii ale societății informaționale ori o altă reglementare tehnică notificabilă. Textul nu reglementează AI și nu permite constatarea certă a unei obligații TRIS. GDPR impune necesitate, minimizarea datelor și limitarea stocării, inclusiv pentru obligațiile legale de supraveghere. Costurile fixe pot dezavantaja operatorii mici și favoriza concentrarea pieței, fără ca aceasta să demonstreze automat încălcarea dreptului concurenței.",
       "senatForm": {
-        "articleRef": "Art. 5 alin. (2)",
-        "proposalContent": "Operatorii păstrează evidențele electronice de parcare 30 de zile, fără a afecta termenele legale fiscale. Supravegherea video se realizează numai dacă este necesară și proporțională, conform GDPR. Imaginile se șterg în cel mult 30 de zile; cele privind incidente documentate se păstrează doar cât este necesar soluționării lor.",
-        "argumentation": "Un termen minim general de 30 de zile, fără plafon și fără justificarea necesității filmării, poate produce stocare excesivă și costuri disproporționate. Amendamentul păstrează evidențele utile controlului, condiționează supravegherea de necesitate și permite conservarea probelor privind incidente concrete.",
-        "otherComments": "Solicit și clarificarea perimetrului, a avizului local, a raportului cu obligațiile fiscale existente și a condițiilor suspendării. Contribuția poate fi preluată ca amendament de un deputat. Analiza privește exclusiv textele furnizate; verificarea online a formei și stadiului actuale nu a fost disponibilă."
+        "articleRef": "Art. 9 alin. (2)",
+        "proposalContent": "Repetarea faptei prevăzute la alin. (1), în 12 luni de la rămânerea definitivă a primei sancțiuni, poate atrage suspendarea activității pentru cel mult 15 zile, dacă abaterea continuă după un termen de conformare de 10 zile. Decizia motivată a ANAF indică măsurile necesare reluării activității; suspendarea încetează imediat ce acestea sunt îndeplinite.",
+        "argumentation": "Suspendarea fără durată maximă și fără criterii de remediere poate bloca disproporționat activitatea. Amendamentul definește reperul repetării, introduce o posibilitate reală de conformare și limitează durata măsurii, sporind previzibilitatea și protecția libertății economice.",
+        "otherComments": "Sunt necesare amendamente distincte pentru perimetrul de 5 km, avizul local, stocarea video și corelarea fiscală. Termenul comunicat, 17.12.2025, este depășit; calendarul actual trebuie verificat. E-mailul cetățeanului reprezintă o propunere care poate fi preluată ca amendament de un deputat."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-16T07:58:54.528Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:24:04.492Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

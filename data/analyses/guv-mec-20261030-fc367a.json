@@ -1,114 +1,173 @@
 {
   "billId": "guv-mec-20261030-fc367a",
   "slug": "guv-mec-20261030-fc367a",
-  "updatedAt": "2026-11-10T14:04:51.085Z",
+  "updatedAt": "2026-11-24T15:49:07.330Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "proiect",
+    "billChars": 447454,
+    "ordinanceChars": 0,
+    "memoChars": 0,
+    "memoSupplied": 0,
+    "marker": "SF-021AA340"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/guv-mec-20261030-fc367a.json",
+    "form": "initiator",
+    "textHash": "021aa34015686cbe",
+    "fetchedAt": "2026-11-24T15:47:01.054Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 2.7,
-    "riskLevel": "green",
-    "plainTitle": "Regulile anuale pentru transferul, angajarea și repartizarea profesorilor în anul școlar 2027-2028",
-    "summaryTlDr": "Este un act tehnic recurent, care se adoptă în fiecare an și preia în mare parte cadrul din Legea nr. 198/2023. Nu conține taxe, monopoluri sau sancțiuni noi. Problemele sunt de redactare și de previzibilitate, nu de fond.",
-    "initiatorClaim": "Ministerul urmărește să stabilească regulile de ocupare a posturilor vacante sau rezervate și etapele de mobilitate a cadrelor didactice pentru anul școlar 2027-2028. Nota de fundamentare nu poate fi verificată, deoarece este publicată ca PDF scanat, fără text.",
-    "realityCheck": "Proiectul definește noțiunile de bază (titular, unitate de învățământ, consorțiu) și condițiile de pregătire psihopedagogică: 30 de credite pentru nivelurile inferioare și 60 de credite sau master didactic pentru liceu. Art. 2 alin. (6) lasă unității și inspectoratului o marjă largă de a stabili în care școală și pe ce disciplină își face norma un titular repartizat în mai multe locuri, fără criterii explicite. Textul analizat este trunchiat la art. 3 alin. (8), deci etapele propriu-zise de mobilitate nu au putut fi evaluate.",
+    "riskScore": 5.3,
+    "riskLevel": "yellow",
+    "plainTitle": "Regulile anuale pentru mutarea, angajarea și titularizarea profesorilor în 2027-2028",
+    "summaryTlDr": "Metodologia e una tehnică, care se reia an de an și în mare parte transpune Legea 198/2023. Are însă erori de redactare care pot schimba soarta unui profesor (6 vs. 7 ani de interdicție, an școlar greșit, trimiteri greșite la cazier) și a fost pusă în consultare cu textul trunchiat.",
+    "initiatorClaim": "Ministerul vrea să stabilească pentru anul școlar 2027-2028 ordinea și condițiile etapelor de mobilitate: încadrare, completare de normă, restrângere, pretransfer, prelungiri de contract și concursul național de titularizare. Nota de fundamentare nu e disponibilă ca text.",
+    "realityCheck": "Proiectul reproduce mecanismul din anii anteriori, cu ierarhizări după punctaj, domiciliu și grad didactic, atribuire din oficiu a postului și concediere pentru cei care refuză dosarul sau postul (art. 54 alin. 7-8), și schimbarea CIM din nedeterminat în determinat pentru titularii fără definitivat (art. 5 alin. 7). Chichițele sunt procedurale. La mobilitate nu se admit contestații la inspecțiile și probele practice (art. 4 alin. 10), deși aceleași probe pot fi contestate la concurs. Unele contestații au termen de doar 24 de ore (art. 63 alin. 4). Mai multe trimiteri interne sunt greșite exact în dispozițiile care elimină sau departajează candidați.",
     "affectedGroups": [
       "Sănătate & Educație",
-      "Angajați & HR"
+      "Angajați & HR",
+      "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. 2 alin. (6) lit. a)-c)",
-      "proposalContent": "Se elimină repetiția „în două în două” de la lit. a) și se introduce alin. (7): „Stabilirea normei conform alin. (6) se face prin hotărâre motivată a consiliului de administrație, după criterii obiective publicate anterior, cu consultarea prealabilă a cadrului didactic și comunicare scrisă către acesta.”",
-      "argumentation": "Lit. a)-c) lasă la discreția conducerii unde și pe ce disciplină se stabilește norma unui titular, fără criterii, motivare sau comunicare. Acest lucru afectează previzibilitatea normei (art. 1 alin. 5 din Constituție) și poate genera tratament inegal între titulari. Motivarea și comunicarea scrisă permit contestarea efectivă.",
-      "otherComments": "Corectați titlul de pe pagina de transparență („Metdodologie”). Clarificați art. 1 alin. (4): unitățile „existente la 1 septembrie 2027” nu sunt cunoscute cu certitudine la data etapelor de mobilitate. Publicați nota de fundamentare în format text căutabil, nu scanat, conform Legii nr. 52/2003."
+      "articleRef": "Art. 4 alin. (10)",
+      "proposalContent": "Se elimină teza «La aceste probe nu se admit contestații… nota/calificativul stabilite de comisie rămânând definitivă» și se introduce: «Contestațiile la inspecția specială/proba practică se depun în 24 de ore de la comunicare și se soluționează, pe baza înregistrării audio-video, de o comisie cu alți evaluatori, conform art. 68 alin. (7)-(8).»",
+      "argumentation": "Aceeași probă, cu nota minimă 7, poate fi contestată la concursul național (art. 68), dar nu și la mobilitate, deși decide transferul, pretransferul sau CIM pe viabilitate. Tratamentul diferit nu e justificat, iar lipsa plângerii prealabile îngreunează accesul în instanță (art. 16 și 21 din Constituție, Legea 554/2004).",
+      "otherComments": "Corectați: art. 67 alin. (3) lit. e), 6 ani vs. 7 ani la art. 6 alin. (15) și art. 215 L198/2023; art. 4 alin. (16), «2026-2027» în loc de 2027-2028; art. 64 alin. (9), «media 5 (opt)»; art. 67 alin. (4) și art. 6 alin. (10), trimiteri greșite la cazier; art. 36 alin. (5)-(6). Publicați integral art. 77-110 și anexele."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 51735,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Regulile anuale de angajare, titularizare și transfer pentru profesorii din școli și licee în anul școlar 2027-2028",
-      "verdictShort": "Un act normativ tehnic și de rutină anuală, necesar pentru organizarea din timp a mișcării personalului didactic în anul școlar 2027-2028. Deși nu conține capcane majore, suferă de mici erori de redactare, lipsa unui referat de aprobare în format text accesibil și o marjă de apreciere neclară la repartizarea orelor profesorilor titulari pe mai multe școli sau discipline.",
-      "initiatorClaim": "Ministerul Educației și Cercetării stabilește cadrul procedural anual pentru constituirea posturilor, completarea normelor, transferul, titularizarea și angajarea personalului didactic de predare în învățământul preuniversitar pentru anul școlar 2027-2028, în baza Legii nr. 198/2023.",
-      "realityCheck": "Metodologia păstrează arhitectura clasică a mobilității cadrelor didactice (inclusiv menținerea structurilor ISJ/ISMB și CCD, a căror reorganizare a fost prorogată succesiv) și clarifică echivalările de studii psihopedagogice. Totuși, Art. 2 alin. (6) permite concentrarea sau mutarea normei unui profesor titular pe mai multe unități/discipline în doar una sau unele dintre acestea fără a preciza criteriul de prioritate sau acordul salariatului.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 126269,
+      "sourceEndMarker": "SF-021AA340",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Regulile de angajare, transfer și titularizare a profesorilor pentru anul școlar 2027-2028",
+      "verdictShort": "Metodologia este un act tehnic anual necesar funcționării școlilor, dar versiunea pusă în consultare are discriminări de gen la concurs, restrângeri ale căilor de atac și erori grave de redactare care pot bloca verificarea cazierului sau prelungirea contractelor.",
+      "initiatorClaim": "Referatul de aprobare nu are text disponibil, însă din cuprinsul proiectului reiese că Ministerul Educației și Cercetării urmărește stabilirea calendarului și a regulilor unitare de constituire a normelor, încadrare, transfer, detașare și titularizare pentru anul școlar 2027-2028, în acord cu Legea nr. 198/2023 și normele majorate prin Legea nr. 141/2025.",
+      "realityCheck": "În practică, ordinul transpune normele didactice crescute din Legea nr. 141/2025 (20 ore/săptămână la gimnaziu-liceu, 26 ore instruire practică, 2 ore remediale obligatorii la primar) și gestionează redistribuirea personalului. Totuși, introduce sau perpetuează bariere problematice: exclude femeile netitulare între 62 de ani și 9 luni și 65 de ani de la concursul național, elimină contestațiile la probele de mobilitate, comprimă plângerea prealabilă la 24 de ore și conține zeci de trimiteri greșite (inclusiv la articolele privind cazierul penal și anul prelungirii contractelor). De asemenea, documentul disponibil în consultare se oprește la art. 76, lipsind dispozițiile finale (art. 106-110) și anexele 1-20.",
       "affectedGroups": [
         "Sănătate & Educație",
-        "Angajați & HR"
+        "Angajați & HR",
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 2 alin. (6) lit. a)-c) permite ca, pentru profesorii titulari pe două sau mai multe unități școlare ori discipline, norma didactică să fie stabilită „doar în unele dintre unități” sau „integral sau parțial” pe oricare dintre discipline, fără a fixa în acest articol criterii obiective de opțiune (acordul cadrului didactic) și conținând o eroare materială la lit. a) („repartizat în două în două sau mai multe unități”).",
-        "Art. 1 alin. (5) reglementează constituirea de catedre vacante comune la nivelul consorțiilor școlare și al consorțiilor de învățământ dual din aceeași localitate sau din localități învecinate, facilitând completarea normelor didactice fragmentate.",
-        "Art. 3 consolidează regimul pregătirii psihopedagogice (minimum 30 credite ECTS pentru educație timpurie/primar/gimnaziu și 60 credite ECTS sau master didactic pentru liceu/postliceal), menținând excepțiile istorice pentru absolvenții de dinainte de 2005/2006 și 2009."
+        "Discriminare directă pe criteriu de sex la concursul național (Art. 67 alin. 3 lit. b coroborat cu Art. 26 alin. 3): femeile care nu sunt deja titulare sau angajate pe viabilitate și au între 62 ani 9 luni și 65 de ani nu au voie să participe la concurs, în timp ce bărbații de aceeași vârstă pot candida.",
+        "Restrângerea dreptului la contestație și a plângerii prealabile (Art. 4 alin. 10, Art. 63 alin. 4, Art. 68 alin. 6 și 8, Art. 72): la probele practice/inspecțiile din etapele de mobilitate nu se admit deloc contestații; la alte etape, ordinul reduce termenul plângerii prealabile din Legea nr. 554/2004 la 24 de ore; la concurs, vizualizarea lucrării se face abia după rezultatele finale, fără drept de fotografiere/copie și fără corectarea erorilor.",
+        "Erori grave de trimitere și date greșite cu efect juridic direct: Art. 6 alin. (10) și Art. 67 alin. (4) trimit la alineate/litere greșite (conversie profesională, respectiv aviz medical) pentru verificarea cazierului penal și a Registrului infracțiunilor sexuale; Art. 4 alin. (16) prevede prelungirea CIM pentru anul „2026-2027” în loc de „2027-2028”; Art. 64 alin. (9) cere „cel puțin media 5 (opt)”.",
+        "Prioritizarea domiciliului peste meritul profesional și bariere teritoriale (Art. 4 alin. 17, Art. 36 alin. 5, Art. 53 alin. 4, Art. 56 alin. 10, Art. 57 alin. 18-19, Art. 61 alin. 7, Art. 65 alin. 1): domiciliul din actul de identitate este condiție eliminatorie pentru transfer/pretransfer interjudețean și primul criteriu de departajare, înaintea gradului didactic și a mediei de concurs.",
+        "Modificări sensibile ale raporturilor de muncă prin ordin (Art. 5 alin. 7-8, Art. 6 alin. 13): transformarea unilaterală a CIM din nedeterminat în determinat pentru titularii pre-2012 fără definitivat (cu excepție neexplicată pentru antrenori) și anularea automată a repartizării în toate unitățile la sancționarea disciplinară într-o singură școală."
       ],
-      "blindSpotsCaught": "Referatul de aprobare a fost publicat exclusiv ca imagine scanată (inaccesibilă căutării automate și persoanelor cu deficiențe de vedere), iar termenul de consultare este cel minim legal (10 zile calendaristice) pentru o metodologie voluminoasă, chiar în titlul oficial de pe site strecurându-se eroarea de tastare „Metdodologie-cadru”.",
-      "constitutionalityNote": "Actul respectă în ansamblu exigențele Constituției și delegarea legislativă din Legea nr. 198/2023, însă formularea Art. 2 alin. (6) necesită corelare strictă cu Art. 1 alin. (5) din Constituție (previzibilitatea normei) și cu principiul stabilității raportului de muncă, pentru a evita schimbarea unilaterală a locului de muncă al titularilor încadrați pe mai multe școli.",
-      "euLawNote": "Art. 3 alin. (8) asigură conformitatea cu dreptul UE privind libera circulație a lucrătorilor și Directiva 2005/36/CE (recunoașterea calificărilor profesionale și a pregătirii psihopedagogice din UE/SEE/Elveția). Condițiile de calificare sunt proporționale conform Directivei (UE) 2018/958, iar actul nu intră sub incidența notificării TRIS (Directiva 2015/1535).",
+      "blindSpotsCaught": "Cea mai subtilă capcană este combinarea Art. 67 alin. (3) lit. b) cu Art. 26 alin. (3): excepția care permite menținerea până la 65 de ani este acordată exclusiv femeilor deja titulare sau angajate pe viabilitate, interzicând astfel femeilor suplinitoare sau candidatelor din afara sistemului de 62 ani și 9 luni – 65 de ani să se înscrie la concursul național, deși bărbații de aceeași vârstă pot concura. În plus, Art. 6 alin. (10) și Art. 67 alin. (4) ratează temeiul corect pentru filtrul anti-infracțiuni sexuale/cazier (trimit la alin. 7 și lit. c), vulnerabilizând juridic eventualele excluderi, iar textul consultat este trunchiat la art. 76 fără anexele esențiale (grila de punctaj, calendarul).",
+      "constitutionalityNote": "Proiectul prezintă vulnerabilități serioase față de Art. 1 alin. (5) (claritatea și previzibilitatea normei: trimiteri interne false în art. 6, 57, 58, 61, 67, 75, duble numerotări la art. 22, 27, 45, ani greșiți la art. 4 alin. 16 și art. 56 alin. 13, contradicția „5 (opt)” la art. 64 alin. 9), Art. 16 (egalitate în drepturi — excluderea femeilor netitulare între 62 ani 9 luni și 65 de ani, tratamentul diferențiat al antrenorilor la art. 5 alin. 8, criteriul domiciliului), Art. 21 și Art. 52 (acces liber la justiție — lipsa contestațiilor la art. 4 alin. 10 și reducerea printr-un ordin de ministru a termenului legal de 30 de zile al plângerii prealabile din Legea organică nr. 554/2004 la 24 de ore) și Art. 41/Art. 73 alin. (3) lit. p) (afectarea regimului CIM prin act infralegal).",
+      "euLawNote": "Directiva (UE) 2015/1535 (TRIS) nu este aplicabilă, actul vizând administrarea resurselor umane din educație, nu servicii ale societății informaționale. Pe Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate), recunoașterea formării psihopedagogice din UE/SEE/Elveția este păstrată (art. 3 alin. 8), însă multiplicarea avizelor discreționare (art. 4 alin. 2) și condiționarea mobilității de domiciliul local/județean ridică riscuri de proporționalitate și tensiuni cu Art. 45 TFUE (libera circulație a lucrătorilor). Cel mai acut risc de neconformitate cu dreptul UE vizează Directiva 2006/54/CE și Directiva 2000/78/CE (egalitate de tratament pe criteriu de sex și vârstă) din cauza excluderii femeilor netitulare între 62 ani 9 luni și 65 de ani de la concursul național (art. 67 alin. 3 lit. b).",
       "senatForm": {
-        "articleRef": "Art. 2 alin. (6) din Anexa la Ordin",
-        "proposalContent": "La art. 2 alin. (6), lit. a) se corectează eroarea materială („în două sau mai multe unități”), iar la finalul alin. (6) se introduce teza: „Stabilirea normei didactice într-una sau în unele dintre unități ori discipline se face cu acordul scris al cadrului didactic titular sau, în lipsa acestuia, în ordinea descrescătoare a numărului de ore vacante disponibile.”",
-        "argumentation": "Forma actuală permite stabilirea normei în doar unele dintre unitățile/disciplinele din actul de numire fără a fixa un criteriu obiectiv sau consimțământul titularului, riscând modificarea unilaterală a locului muncii (contravenind art. 41 din Codul muncii). De asemenea, la lit. a) există o dublare accidentală a sintagmei „în două”.",
-        "otherComments": "Se recomandă corectarea titlului oficial pe pagina de transparență („Metdodologie-cadru”) și publicarea Referatului de aprobare în format text editabil/selectabil (nu PDF scanat ca imagine), pentru a asigura accesul efectiv la justificarea modificărilor față de metodologia anului școlar precedent, conform Legii nr. 52/2003."
+        "articleRef": "Art. 4(10),(16), Art. 6(10), Art. 67(3)-(4)",
+        "proposalContent": "1) La art. 67(3) lit. b), extindeți excepția până la 65 de ani la toate femeile candidate; 2) La art. 4(10), introduceți dreptul la contestație și înregistrarea probelor; 3) Corectați trimiterile eronate din art. 6(10) (alin. 9), art. 67(4) (lit. d), anul „2027-2028” la art. 4(16) și „media 5 (cinci)” la art. 64(9).",
+        "argumentation": "Excluderea femeilor netitulare între 62 ani 9 luni și 65 ani creează discriminare de sex (art. 16 Constituție, Directiva 2006/54/CE). Lipsa contestațiilor la probe afectează art. 21 Constituție. Trimiterile greșite (inclusiv la verificarea cazierului penal) și anii eronați încalcă art. 1(5) Constituție și produc litigii.",
+        "otherComments": "Eliminați limitarea la 24h a plângerii prealabile din Legea 554/2004 (art. 63 alin. 4, art. 68 alin. 6-8), permiteți obținerea copiei propriei lucrări la vizualizare (art. 72), reevaluați prioritatea domiciliului peste merit (art. 65) și corectați dubla numerotare a alineatelor (art. 22, 27, 45) și lipsa textului complet/anexelor în consultare."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 31977,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Regulile anuale pentru transferul, angajarea și repartizarea profesorilor în anul școlar 2027-2028",
-      "verdictShort": "Este un act tehnic recurent, care se adoptă în fiecare an și preia în mare parte cadrul din Legea nr. 198/2023. Nu conține taxe, monopoluri sau sancțiuni noi. Problemele sunt de redactare și de previzibilitate, nu de fond.",
-      "initiatorClaim": "Ministerul urmărește să stabilească regulile de ocupare a posturilor vacante sau rezervate și etapele de mobilitate a cadrelor didactice pentru anul școlar 2027-2028. Nota de fundamentare nu poate fi verificată, deoarece este publicată ca PDF scanat, fără text.",
-      "realityCheck": "Proiectul definește noțiunile de bază (titular, unitate de învățământ, consorțiu) și condițiile de pregătire psihopedagogică: 30 de credite pentru nivelurile inferioare și 60 de credite sau master didactic pentru liceu. Art. 2 alin. (6) lasă unității și inspectoratului o marjă largă de a stabili în care școală și pe ce disciplină își face norma un titular repartizat în mai multe locuri, fără criterii explicite. Textul analizat este trunchiat la art. 3 alin. (8), deci etapele propriu-zise de mobilitate nu au putut fi evaluate.",
+      "durationMs": 61122,
+      "sourceEndMarker": "SF-021AA340",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Regulile anuale pentru mutarea, angajarea și titularizarea profesorilor în 2027-2028",
+      "verdictShort": "Metodologia e una tehnică, care se reia an de an și în mare parte transpune Legea 198/2023. Are însă erori de redactare care pot schimba soarta unui profesor (6 vs. 7 ani de interdicție, an școlar greșit, trimiteri greșite la cazier) și a fost pusă în consultare cu textul trunchiat.",
+      "initiatorClaim": "Ministerul vrea să stabilească pentru anul școlar 2027-2028 ordinea și condițiile etapelor de mobilitate: încadrare, completare de normă, restrângere, pretransfer, prelungiri de contract și concursul național de titularizare. Nota de fundamentare nu e disponibilă ca text.",
+      "realityCheck": "Proiectul reproduce mecanismul din anii anteriori, cu ierarhizări după punctaj, domiciliu și grad didactic, atribuire din oficiu a postului și concediere pentru cei care refuză dosarul sau postul (art. 54 alin. 7-8), și schimbarea CIM din nedeterminat în determinat pentru titularii fără definitivat (art. 5 alin. 7). Chichițele sunt procedurale. La mobilitate nu se admit contestații la inspecțiile și probele practice (art. 4 alin. 10), deși aceleași probe pot fi contestate la concurs. Unele contestații au termen de doar 24 de ore (art. 63 alin. 4). Mai multe trimiteri interne sunt greșite exact în dispozițiile care elimină sau departajează candidați.",
       "affectedGroups": [
         "Sănătate & Educație",
-        "Angajați & HR"
+        "Angajați & HR",
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 2 alin. (6) lit. a)-c): norma unui titular repartizat în mai multe unități sau pe mai multe discipline se poate stabili în una, în unele sau în toate unitățile, integral sau parțial, fără criterii, motivare sau termen. Aceasta este principala zonă de discreție administrativă.",
-        "Art. 2 alin. (6) lit. a) conține o eroare de redactare („în două în două sau mai multe unități”). Titlul de pe pagina de transparență are și el o greșeală („Metdodologie”).",
-        "Art. 1 alin. (4) se raportează la unitățile „existente la data de 1 septembrie 2027”, deși etapele de mobilitate se desfășoară înainte de această dată, când rețeaua școlară poate să nu fie definitivă.",
-        "Art. 3 alin. (5)-(7) reiau corect pragurile de 30 și 60 de credite și excepțiile istorice pentru absolvenții de dinainte de 2005/2006 și 2009, ceea ce protejează drepturile câștigate.",
-        "Art. 2 alin. (3) recunoaște titularizarea în învățământul particular atât cu aviz ISJ, cât și doar prin comunicare către ISJ, ceea ce oferă flexibilitate rezonabilă școlilor private."
+        "Art. 67 alin. (3) lit. e) exclude de la concurs persoanele sancționate cu desfacerea disciplinară a CIM în ultimii 6 ani școlari. Art. 6 alin. (15) și art. 215 alin. (2) din Legea 198/2023 prevăd 7 ani: contradicție directă între texte.",
+        "Art. 4 alin. (10) declară definitivă, fără contestație, nota de la inspecția specială sau proba practică din etapele de mobilitate. Nota minimă de 7 condiționează transferul, pretransferul și CIM pe viabilitate, iar aceleași probe sunt contestabile la concursul național (art. 68 alin. 6-8).",
+        "Art. 4 alin. (16) permite prelungirea CIM pe perioadă determinată «în anul școlar 2026-2027» (de două ori), deși metodologia vizează 2027-2028.",
+        "Art. 64 alin. (9) cere «media 5 (opt)» la inspecțiile din definitivat, o ambiguitate numerică într-o condiție eliminatorie. Alin. (7) și alin. (10) numesc instituții diferite pentru elaborarea subiectelor (CNCE vs. «Centrul Național de Politici și Evaluare în Educație»).",
+        "Art. 67 alin. (4) trimite la alin. (3) lit. c) (certificatul medical) pentru verificarea cazierului, care e de fapt la lit. d). Art. 6 alin. (10) trimite la alin. (7) în loc de alin. (9). Art. 36 alin. (5)-(6) trimite la alin. (3) pentru criteriile care sunt la alin. (4), iar art. 37 alin. (5) lit. b) trimite la comisia de la art. 36 alin. (9) în loc de alin. (10).",
+        "Art. 56 alin. (13) cere CIM încheiat până la începerea anului 2025-2026, în contradicție cu alin. (5), care spune 2026-2027.",
+        "Art. 63 alin. (4): contestația la prelungirea CIM se depune în 24 de ore și se soluționează în 48 de ore, un termen foarte scurt pentru plângerea prealabilă."
       ],
-      "blindSpotsCaught": "Discreția din art. 2 alin. (6) poate fi folosită pentru a muta de facto un titular între școli sau discipline fără procedură de transfer. Textul nu cere acordul sau măcar consultarea cadrului didactic. Termenul de propuneri, între 30.10 și 09.11.2026, respectă la limită minimul de 10 zile din art. 7 al Legii nr. 52/2003. Nota de fundamentare scanată ca imagine reduce accesibilitatea reală a consultării.",
-      "constitutionalityNote": "Nu se observă încălcări directe. Ordinul este emis în executarea Legii nr. 198/2023 și nu adaugă la lege obligații de rang legal. Riscul ține de previzibilitate (art. 1 alin. (5)): lipsa criteriilor în art. 2 alin. (6) poate conduce la aplicare neuniformă între inspectorate. Aspectul atinge și egalitatea de tratament (art. 16) și dreptul la muncă (art. 41), dar se poate corecta prin criterii obiective și motivare.",
-      "euLawNote": "Profesia didactică este o profesie reglementată. Directiva 2018/958 privind testul de proporționalitate are însă impact redus, deoarece cerințele de calificare provin din lege și din ordine anterioare, nu sunt create acum. Art. 3 alin. (8) prevede recunoașterea pregătirii psihopedagogice din UE, SEE și Elveția, ceea ce este conform cu Directiva 2005/36/CE. Directiva TRIS 2015/1535 nu se aplică, deoarece actul nu reglementează servicii digitale sau AI. Nu există efecte asupra pieței unice sau concurenței.",
+      "blindSpotsCaught": "Textul publicat se oprește la art. 76, dar trimite la art. 106, 107, 109 și 110 și la anexele 1-20, care lipsesc. În consultare nu se văd deci capitolele despre detașare, plata cu ora, pensionari, angajări pe parcursul anului și contestațiile generale (art. 110, la care trimite art. 4 alin. 20). Cetățenii nu pot comenta exact partea care afectează cei mai mulți suplinitori și pensionari. Nota de fundamentare e doar scanată, deci fără analiză de impact verificabilă.",
+      "constitutionalityNote": "Mecanismul are în general bază în Legea 198/2023. Riscurile țin de previzibilitate (art. 1 alin. 5): contradicția 6/7 ani, anul școlar greșit și trimiterile greșite în dispoziții eliminatorii pot duce la aplicare neunitară între inspectorate. Excluderea contestației la probele de mobilitate (art. 4 alin. 10), în timp ce probe identice sunt contestabile la concurs, ridică probleme de egalitate (art. 16) și de acces efectiv la justiție (art. 21), pentru că Legea 554/2004 cere plângere prealabilă. Ordinul ar trebui să clarifice calea de atac. Modificarea CIM în determinat (art. 5 alin. 7) și concedierea după atribuirea din oficiu (art. 54 alin. 8) trebuie să aibă bază legală expresă în lege, nu doar în ordin.",
+      "euLawNote": "Directiva TRIS 2015/1535 nu se aplică, proiectul nu reglementează servicii ale societății informaționale. Directiva 2018/958 privind testul de proporționalitate are relevanță redusă: ordinul nu introduce cerințe noi de acces la profesie, ci aplică condițiile de studii din lege. Recunoașterea pregătirii psihopedagogice din UE/SEE/CH e tratată (art. 3 alin. 8). Criteriile de prioritate bazate pe domiciliul în localitate sau județ (art. 36, 53 alin. 4, 57, 65) pot constitui discriminare indirectă pentru lucrătorii din alte state membre (art. 45 TFUE, Reg. 492/2011), dacă nu sunt justificate proporțional. Impactul practic e limitat.",
       "senatForm": {
-        "articleRef": "Art. 2 alin. (6) lit. a)-c)",
-        "proposalContent": "Se elimină repetiția „în două în două” de la lit. a) și se introduce alin. (7): „Stabilirea normei conform alin. (6) se face prin hotărâre motivată a consiliului de administrație, după criterii obiective publicate anterior, cu consultarea prealabilă a cadrului didactic și comunicare scrisă către acesta.”",
-        "argumentation": "Lit. a)-c) lasă la discreția conducerii unde și pe ce disciplină se stabilește norma unui titular, fără criterii, motivare sau comunicare. Acest lucru afectează previzibilitatea normei (art. 1 alin. 5 din Constituție) și poate genera tratament inegal între titulari. Motivarea și comunicarea scrisă permit contestarea efectivă.",
-        "otherComments": "Corectați titlul de pe pagina de transparență („Metdodologie”). Clarificați art. 1 alin. (4): unitățile „existente la 1 septembrie 2027” nu sunt cunoscute cu certitudine la data etapelor de mobilitate. Publicați nota de fundamentare în format text căutabil, nu scanat, conform Legii nr. 52/2003."
+        "articleRef": "Art. 4 alin. (10)",
+        "proposalContent": "Se elimină teza «La aceste probe nu se admit contestații… nota/calificativul stabilite de comisie rămânând definitivă» și se introduce: «Contestațiile la inspecția specială/proba practică se depun în 24 de ore de la comunicare și se soluționează, pe baza înregistrării audio-video, de o comisie cu alți evaluatori, conform art. 68 alin. (7)-(8).»",
+        "argumentation": "Aceeași probă, cu nota minimă 7, poate fi contestată la concursul național (art. 68), dar nu și la mobilitate, deși decide transferul, pretransferul sau CIM pe viabilitate. Tratamentul diferit nu e justificat, iar lipsa plângerii prealabile îngreunează accesul în instanță (art. 16 și 21 din Constituție, Legea 554/2004).",
+        "otherComments": "Corectați: art. 67 alin. (3) lit. e), 6 ani vs. 7 ani la art. 6 alin. (15) și art. 215 L198/2023; art. 4 alin. (16), «2026-2027» în loc de 2027-2028; art. 64 alin. (9), «media 5 (opt)»; art. 67 alin. (4) și art. 6 alin. (10), trimiteri greșite la cazier; art. 36 alin. (5)-(6). Publicați integral art. 77-110 și anexele."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 110377,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Regulile de ocupare a posturilor didactice pentru 2027–2028",
-      "verdictShort": "Fragmentul descrie o reglementare administrativă utilă, cu risc redus, care organizează ocuparea posturilor didactice. Există formulări care merită clarificate, dar nu apar taxe noi, monopoluri sau sancțiuni disproporționate în textul disponibil.",
-      "initiatorClaim": "Potrivit art. 1, metodologia urmărește să stabilească regulile de ocupare a posturilor, etapele mobilității și procedurile de recrutare, angajare și eliberare din funcție. Motivația distinctă din referatul de aprobare nu poate fi stabilită, deoarece documentul nu este disponibil în format lizibil.",
-      "realityCheck": "Art. 2 definește titularizarea, documentele justificative și constituirea normei în una sau mai multe școli și specializări, iar art. 3 stabilește cerințe de pregătire psihopedagogică și echivalări. Cerința generală de 60 de credite trebuie citită împreună cu regula de 30 de credite pentru anumite niveluri și cu excepțiile prevăzute ulterior, pentru a evita respingeri administrative greșite. Evaluarea privește exclusiv fragmentul primit, întrerupt la art. 3 alin. (8), și nu acoperă eventualele restricții din restul metodologiei.",
-      "affectedGroups": [
-        "Angajați & HR",
-        "Sănătate & Educație"
-      ],
+      "durationMs": 105160,
+      "sourceEndMarker": "SFÂRȘIT EXTRAS",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Regulile de ocupare și păstrare a posturilor profesorilor în 2027–2028",
+      "verdictShort": "Metodologia este necesară, dar conține restricții serioase privind păstrarea postului, accesul la concurs și apărarea drepturilor candidaților. Forma prezentată necesită corectări substanțiale înainte de adoptare, dincolo de simple îndreptări de redactare.",
+      "initiatorClaim": "Potrivit art. 1, proiectul urmărește organizarea ocupării posturilor, a mobilității, recrutării, angajării și eliberării din funcție a profesorilor. Referatul de aprobare nu este furnizat, astfel încât nu pot fi atribuite inițiatorului justificări suplimentare.",
+      "realityCheck": "Proiectul organizează repartizarea posturilor, continuitatea predării și protecția personalului afectat de reducerea activității, fără să instituie taxe explicite pentru candidați. Totuși, prevede pierderea unor situații contractuale existente, condiționări teritoriale și de vârstă, publicarea extinsă a datelor profesionale și limitări ale accesului la propriile documente de examen. Analiza acoperă întregul extras furnizat, până la art. 75 alin. (1): acesta nu cuprinde restul metodologiei, anexele și dispozițiile finale la care textul face trimitere, iar verificarea online a legislației consolidate nu a fost disponibilă.",
       "keyFindings": [
-        "Art. 3 alin. (2), (5)–(7): regula generală privind 60 de credite coexistă cu cerința de 30 de credite pentru anumite încadrări și cu echivalări pentru studii anterioare. Diferențierea este explicită în text; problema este lizibilitatea raportului dintre reguli, nu existența demonstrată a unei obligații universale de 60 de credite.",
-        "Art. 2 alin. (2)–(3) și art. 3: dosarele presupun documente de numire/repartizare, contractul de muncă și dovezi ale pregătirii. Acestea implică sarcini administrative pentru candidați, școli și inspectorate; fragmentul nu permite cuantificarea unor costuri suplimentare față de regimul anterior.",
-        "Consultarea: între 30.10.2026 și 09.11.2026 sunt 10 zile calendaristice. Acest interval nu demonstrează încălcarea termenului minim pentru recomandări din Legea nr. 52/2003; separat trebuie verificată publicarea anunțului cu cel puțin 30 de zile lucrătoare înainte de supunerea proiectului spre avizare, precum și eventualele excepții legale aplicabile."
+        "PĂSTRAREA POSTULUI: Art. 43 alin. (4), art. 64 alin. (15) și art. 73 alin. (4) leagă pierderea angajării pe durata viabilității de rezultate sub 5 la un concurs ulterior sau de eliminarea pentru fraudă/tentativă. Trebuie identificat temeiul legal expres pentru fiecare efect asupra contractului existent și prevăzute garanții de contestare; anularea participării la concurs nu justifică automat orice consecință contractuală. Art. 46 alin. (5) dispune încetarea de drept a contractelor și încheierea altora la reorganizare, fără să distingă situațiile în care legea impune transferul și continuitatea raporturilor de muncă. Aplicabilitatea art. 173–174 din Codul muncii și a Legii nr. 67/2006 trebuie verificată pentru operațiunile concrete.",
+        "ACCES ȘI EGALITATE: Art. 53 alin. (4), art. 54 alin. (4) și art. 57 alin. (18)–(19) folosesc domiciliul pentru a condiționa accesul la anumite transferuri, nu doar pentru departajare. Art. 56 alin. (10) acordă prioritate domiciliului înaintea notei, iar art. 67 alin. (3) exclude pensionarii și anumite persoane ajunse la vârsta pensionării; art. 59 alin. (4) limitează schimbul de posturi inclusiv pentru persoane care vor împlini 65 de ani până în august 2029. Stabilitatea personalului și apropierea de domiciliu pot fi scopuri legitime, dar fiecare diferență de tratament necesită temei legal și justificare proporțională. Aceste condiții nu pot fi declarate automat discriminatorii numai pentru că diferențiază candidații.",
+        "APĂRARE ȘI DATE PERSONALE: Art. 72 alin. (3) interzice absolut copiile propriei lucrări, deși răspunsurile și observațiile examinatorului pot constitui date personale accesibile potrivit GDPR. Art. 63 alin. (4) fixează 24 de ore pentru o contestație calificată drept plângere prealabilă: termenul procedurii interne trebuie separat de termenul legal al plângerii prealabile. Art. 4 alin. (10) exclude contestațiile administrative la anumite probe, în timp ce art. 68 permite reevaluarea probelor similare din concursul național; diferența necesită justificare și garanții. Art. 61 alin. (5) impune publicarea online a domiciliului la nivel de localitate, calificativelor și sancțiunilor disciplinare, fără să precizeze durata afișării sau să demonstreze necesitatea publicării fiecărei categorii."
       ],
-      "blindSpotsCaught": "Termenul pentru recomandări și intervalul anterior avizării sunt obligații distincte; durata aparent scurtă a consultării nu dovedește singură nelegalitatea. De asemenea, simpla menționare a eliberării din funcție la art. 1 nu permite identificarea unor motive noi de concediere. Verificarea online nu a fost posibilă în această sesiune, astfel că autenticitatea paginii, forma actualizată a legislației și actele aplicabile în 2027–2028 rămân neconfirmate.",
-      "constitutionalityNote": "Art. 1 alin. (5) din Constituție impune claritate și respectarea ierarhiei actelor normative: ordinul poate detalia aplicarea legii, fără să modifice condițiile legale de acces la profesie, titularizare sau încetare a raporturilor de muncă. Preambulul și proiectul integral sunt necesare pentru verificarea competenței și a temeiurilor legale. Fragmentul nu demonstrează o încălcare a egalității ori a dreptului la muncă, protejate de art. 16 și 41; diferențele între calificări trebuie însă să aibă justificări obiective. Art. 23 alin. (12), privind legalitatea pedepsei, nu este incident în lipsa unor dispoziții penale.",
-      "euLawNote": "Directiva (UE) 2018/958 trebuie examinată dacă proiectul introduce sau modifică restricții privind accesul la o profesie reglementată ori exercitarea acesteia, în domeniul său de aplicare. Caracterul anual al metodologiei nu exclude această verificare, dar nici simpla reluare a unor cerințe existente nu dovedește o restricție nouă; este necesară comparația cu regimul anterior. Art. 3 alin. (8), disponibil incomplet, trebuie corelat cu normele aplicabile recunoașterii calificărilor profesionale, inclusiv Directiva 2005/36/CE. Fragmentul nu reglementează servicii ale societății informaționale sau cerințe tehnice pentru produse, astfel că nu rezultă o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535. Nu este identificată o restrângere directă a concurenței între furnizori ori un impact specific asupra IMM-urilor.",
+      "blindSpotsCaught": "Art. 6 alin. (11) trimite, pentru eliberarea din funcție, la alin. (8), care reglementează suspendarea contractului; această trimitere trebuie corectată expres, deoarece lectura literală confundă instituții juridice distincte. Art. 61 alin. (1) anunță accesul persoanelor fără normă completă, apoi îl limitează la cele cu mai puțin de jumătate de normă, excluzând reducerea integrală; alin. (10) descrie însă păstrarea calității pentru solicitanți respinși care au cel puțin jumătate de normă. Art. 57 alin. (15) trimite pentru ierarhizare la alineate care nu conțin criteriile respective. Aceste necorelări afectează eligibilitatea și rezultatul procedurilor. Art. 18 alin. (10) lit. a) permite, excepțional, absolvenților de limba română să ocupe inclusiv posturi de profesor-psiholog: trebuie verificată delimitarea față de activitățile psihologice rezervate și condițiile legale de calificare. Nu se poate confirma existența sau absența altor derogări și abrogări în partea nefurnizată.",
+      "constitutionalityNote": "Principalele repere sunt art. 1 alin. (5), art. 16, art. 21, art. 41, art. 52 și art. 126 alin. (6) din Constituție. Trimiterile greșite cu efect asupra concedierii și regulile contradictorii de eligibilitate afectează previzibilitatea; condițiile teritoriale și de vârstă necesită justificare obiectivă, iar consecințele contractuale trebuie să respecte legea. Un ordin nu poate crea autonom cauze de încetare a contractului sau modifica termene legale și competențe jurisdicționale. Calificarea generală din art. 4 alin. (20) nu poate transforma eventualele conflicte de muncă în litigii administrative. Lipsa unei contestații administrative nu dovedește singură încălcarea accesului la justiție. Art. 23 alin. (12), privind pedepsele, nu se aplică direct oricărei sancțiuni disciplinare. Ordinul este adoptat de ministru, fără procedură parlamentară, iar controlul său se realizează în contencios administrativ, nu prin excepție de neconstituționalitate îndreptată direct împotriva ordinului.",
+      "euLawNote": "Directiva (UE) 2018/958 este relevantă în măsura în care proiectul introduce sau modifică restricții privind accesul la o profesie reglementată ori exercitarea acesteia; simpla organizare anuală a mobilității nu declanșează automat testul pentru fiecare dispoziție. Condițiile suplimentare de calificare, avizare și acces trebuie examinate distinct, inclusiv prin raportare la Directiva 2005/36/CE. Cerințele de domiciliu pot ridica probleme potrivit liberei circulații a lucrătorilor atunci când există o situație transfrontalieră. Folosirea înscrierii online și a înregistrărilor nu transformă metodologia într-o reglementare a serviciilor societății informaționale: extrasul nu indică o obligație de notificare TRIS potrivit Directivei 2015/1535 și nu reglementează AI. Art. 72 alin. (3) trebuie corelat cu art. 15 GDPR și cu hotărârile CJUE C-434/16, Nowak, și C-487/21 privind accesul la date și reproducerea lor fidelă; dreptul nu echivalează cu acces nelimitat la datele terților. Publicarea prevăzută la art. 61 alin. (5) necesită verificarea minimizării datelor și limitării stocării. Nu apar taxe noi explicite; există costuri administrative pentru candidați, școli și angajatori particulari, inclusiv procuri notariale, avize și verificări repetate, fără o cuantificare disponibilă.",
       "senatForm": {
-        "articleRef": "Art. 3 alin. (2)",
-        "proposalContent": "La finalul alineatului se adaugă: „Cerința de minimum 60 de credite se aplică cu respectarea condițiilor diferențiate și a echivalărilor prevăzute la alin. (3)–(7), în funcție de nivelul de învățământ solicitat și de studiile absolvite.”",
-        "argumentation": "Trimiterea expresă previne interpretarea cerinței generale de 60 de credite ca obligație aplicabilă tuturor candidaților, deși alin. (5) permite 30 de credite pentru anumite încadrări. Clarificarea sprijină aplicarea unitară și previzibilitatea cerute de art. 1 alin. (5) din Constituție.",
-        "otherComments": "Termenul indicat, 09.11.2026, a expirat. Observația poate fi transmisă la dgmrurs@edu.gov.ro cu solicitarea analizării, fără a o prezenta ca depusă în termen. Pentru auditul integral sunt necesare proiectul complet, referatul de aprobare și comparația cu metodologia anterioară."
+        "articleRef": "Art. 72 alin. (3)",
+        "proposalContent": "Candidatul poate consulta lucrarea proprie și poate primi, la cerere, o copie a lucrării și a datelor personale aferente evaluării, în condițiile art. 15 din Regulamentul (UE) 2016/679, cu protejarea drepturilor terților. Exercitarea acestui drept nu modifică, prin ea însăși, nota acordată.",
+        "argumentation": "Interdicția absolută de copiere restrânge accesul la date personale și îngreunează apărarea. CJUE, C-434/16, califică răspunsurile și observațiile examinatorului drept date personale; C-487/21 cere o reproducere fidelă și inteligibilă. Ordinul trebuie să respecte garanțiile art. 15 GDPR.",
+        "otherComments": "Termenul anunțat, 09.11.2026, a expirat. Solicit înregistrarea propunerii ca petiție, analizarea ei înaintea adoptării și reluarea consultării după corectări substanțiale. Solicit publicarea documentației integrale. Intervalul anunțat nu dovedește singur încălcarea Legii nr. 52/2003; trebuie verificat separat termenul anterior avizării."
       },
+      "reachedEnd": false,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-10T14:04:51.085Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:49:07.330Z",
+      "reasons": [
+        "metoda",
+        "model"
+      ]
+    }
+  ]
 }

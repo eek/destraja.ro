@@ -2,14 +2,41 @@
   "billId": "PL-x 117/2026",
   "slug": "plx-117-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T06:45:31.592Z",
+  "updatedAt": "2026-11-24T15:27:31.043Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 2995,
+    "ordinanceChars": 0,
+    "memoChars": 3415,
+    "memoSupplied": 3415,
+    "marker": "SF-75C4ABDD"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-117-2026.json",
+    "form": "senat",
+    "textHash": "75c4abdd1638e711",
+    "fetchedAt": "2026-11-19T11:20:37.093Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1108,
+    "truncated": false,
+    "included": true,
+    "key": "9a3d3a5367965e15"
+  },
   "consensus": {
     "riskScore": 5.3,
     "riskLevel": "yellow",
     "plainTitle": "Fără impozit pe salariu pentru părinții cu cel puțin doi copii",
-    "summaryTlDr": "Ideea e generoasă pentru familii, dar textul e scris în grabă. Definiția copilului contrazice condiția de bază, plafonul e neclar, data intrării în vigoare a trecut deja, iar costul de 7-8 miliarde lei pe an nu are nicio sursă de acoperire. În forma actuală, legea riscă să fie inaplicabilă sau declarată neconstituțională.",
-    "initiatorClaim": "Expunerea de motive invocă scăderea natalității și sărăcia copiilor. Scutirea de impozit ar crește venitul disponibil al familiilor cu cel puțin doi copii și ar stimula natalitatea și consumul, după modelul Poloniei și Ungariei.",
-    "realityCheck": "Legea scutește de impozitul de 10% pe salariu doar salariații, la funcția de bază, până la 150.000 lei venit impozabil pe an. Câștigul maxim e de circa 15.000 lei pe an și crește odată cu salariul: cei cu salarii mici, care au deja deducere personală, câștigă puțin. Părinții cu PFA, drepturi de autor, venituri agricole sau fără loc de muncă nu primesc nimic. Definiția din alin. (3) contrazice condiția «copii minori», iar «cumularea» plafonului între soți nu are sens într-un sistem de impozitare individuală. Modelele invocate sunt mai țintite: Polonia scutește familiile cu cel puțin 4 copii, iar Ungaria doar mamele, cu extindere treptată.",
+    "summaryTlDr": "Măsura e favorabilă familiilor, dar textul e scris atât de defectuos încât, citit literal, aproape nimeni nu se califică. În plus, data de intrare în vigoare e deja trecută, iar costul de 7–8 miliarde lei pe an nu are nicio sursă de finanțare.",
+    "initiatorClaim": "Inițiatoarea vrea să combată scăderea natalității și sărăcia copiilor. Propune creșterea venitului disponibil al familiilor cu cel puțin doi copii prin scutirea de impozit pe salariu, după modelul Poloniei și al Ungariei.",
+    "realityCheck": "Proiectul introduce art. 60¹ în Codul fiscal: scutire de impozitul de 10% pe salariu de la funcția de bază, până la un venit impozabil de 150.000 lei pe an, deci un câștig maxim de circa 15.000 lei pe an pentru fiecare părinte. Definiția copilului din alin. (3) cere însă ca acesta să urmeze învățământ superior, ceea ce contrazice cerința de «copii minori» de la alin. (1) lit. a). Câștigul e mai mare la salariile mari și nul pentru PFA, șomeri, persoanele cu venituri doar din drepturi de autor sau din activități agricole și pentru părinții cu un singur copil. Bugetul pierde 7–8 mld. lei pe an fără compensare.",
     "affectedGroups": [
       "Angajați & HR",
       "Contabili & Fiscalitate",
@@ -17,23 +44,24 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 60¹ alin. (2)-(3) și pct. II",
-      "proposalContent": "Alin.(3): «Copil în întreținere este copilul minor sau tânărul până la 25 de ani înscris la studii superioare, pentru care contribuabilul e părinte, adoptator, tutore sau are plasament.» Alin.(2): scutire pentru partea din venitul brut lunar de până la 12.500 lei, plafon individual, necumulabil. Art. II: intrare în vigoare la 1 ianuarie a anului următor publicării.",
-      "argumentation": "Alin.(3) definește copilul doar ca student până la 25 de ani, contrar lit. a) «copii minori»: literal, aproape nimeni nu s-ar califica. Plafonul anual «cumulat» între soți nu poate fi aplicat lunar de angajator; impunerea e individuală. Data de 1 ianuarie 2026 a trecut: o lege nu poate intra în vigoare înainte de publicare (art. 78 și 15 alin. (2) din Constituție).",
-      "otherComments": "Impactul estimat în expunerea de motive (7-8 mld. lei/an) nu are sursă de finanțare (art. 138 alin. (5) Constituție, Legea 500/2002, Legea 69/2010) și afectează bugetele locale, care primesc cote din impozitul pe venit. De corelat lit. a) cu alin.(3), de clarificat cine beneficiază când părinții sunt despărțiți și de corectat «cresce» din alin.(7)."
+      "articleRef": "Art. unic pct. I, art. 60¹ alin. (3) și pct. II",
+      "proposalContent": "Alin.(3): «Copil aflat în întreținere este copilul minor sau tânărul până la 25 de ani aflat într-o formă de învățământ acreditată, față de care contribuabilul e părinte, adoptator, tutore sau are plasamentul.» Pct.II: «Legea intră în vigoare la 1 ianuarie a anului următor publicării, la cel puțin 6 luni de la aceasta.»",
+      "argumentation": "Alin.(3) actual cere ca orice copil să urmeze învățământ superior, contrazicând alin.(1) lit.a) (copii minori): literal, aproape niciun părinte nu se califică. Intrarea în vigoare la 1.01.2026 e deja trecută (retroactivitate, art.15 alin.2 Const.) și încalcă art.4 Cod fiscal. Fără corecții, legea e inaplicabilă sau neconstituțională.",
+      "otherComments": "De clarificat: dacă depășirea plafonului de 150.000 lei anulează scutirea sau o limitează; ce înseamnă «se cumulează» la soți; cumulul cu deducerea personală (art.77); cine beneficiază la părinți separați. Lipsesc fișa financiară, avizul Guvernului (art.111 Const.) și sursa de finanțare a 7–8 mld. lei/an (art.138 alin.5)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 65736,
-      "riskScore": 5,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 70839,
+      "sourceEndMarker": "SF-75C4ABDD",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Scutirea de impozit pe salariu pentru părinții cu cel puțin doi copii",
-      "verdictShort": "O măsură cu intenție socială pozitivă (sprijinirea familiilor cu minimum doi copii), dar redactată deficitar, cu contradicții interne, mecanisme contabile inaplicabile pentru angajatori și o dată de intrare în vigoare retroactivă (1 ianuarie 2026).",
-      "initiatorClaim": "Inițiatoarea propune scutirea de la plata impozitului pe venitul din salarii (10%) pentru părinții care cresc minimum doi copii, în limita unui plafon anual de 150.000 lei/contribuabil, pentru a combate declinul demografic și sărăcia infantilă.",
-      "realityCheck": "Deși ideea ajută salariații părinți, textul adoptat tacit de Senat este inaplicabil tehnic: impozitul pe salariu se reține lunar la sursă de angajator, însă legea instituie un plafon anual de 150.000 lei care „se cumulează între soți”, fără ca angajatorii diferiți să poată cunoaște sau regla lunar veniturile celuilalt soț. În plus, textul se contrazice cu privire la vârsta copiilor (minori vs. studenți până la 25 de ani) și prevede intrarea în vigoare la 1 ianuarie 2026, dată deja depășită.",
+      "plainTitle": "Scutire de impozit pe salariu pentru părinții cu 2+ copii, nefinanțată și plină de contradicții",
+      "verdictShort": "Deși scopul sprijinirii familiilor este legitim, proiectul adoptat tacit de Senat este neconstituțional (intrare retroactivă în vigoare și gol bugetar de 7–8 miliarde lei fără sursă de finanțare) și imposibil de aplicat corect de angajatori din cauza contradicțiilor interne.",
+      "initiatorClaim": "Inițiatoarea propune scutirea de impozit pe salarii pentru părinții cu cel puțin doi copii (până la un plafon anual de 150.000 lei/contribuabil) pentru a combate criza demografică, a reduce sărăcia infantilă și a consolida clasa de mijloc.",
+      "realityCheck": "În prezent, Codul fiscal nu conține art. 60¹ și nu oferă scutire totală de impozit pe criteriu familial, ci doar deduceri personale limitate pentru venituri mici. Proiectul introduce o facilitate masivă nefinanțată care avantajează disproporționat salariile mari (până la 300.000 lei/an cumulat pe familie, excluzând părinții PFA sau profesii liberale) și aruncă în sarcina angajatorilor verificarea unor reguli contradictorii și neclare.",
       "affectedGroups": [
         "Angajați & HR",
         "Contabili & Fiscalitate",
@@ -41,64 +69,69 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Mecanism fiscal imposibil de operat de HR/contabilitate (art. 60¹ alin. 2): plafonul este stabilit anual (150.000 lei venit impozabil) și se cumulează între soți, deși impozitul pe salarii se calculează și se reține lunar prin stopaj la sursă de către fiecare angajator în parte.",
-        "Contradicție internă privind vârsta copiilor (art. 60¹ alin. 1 lit. a vs. alin. 3): alin. (1) lit. a) condiționează scutirea de întreținerea a cel puțin doi „copii minori”, în timp ce alin. (3) definește copilul în întreținere ca fiind persoana „până la vârsta de 25 de ani, dacă urmează o formă de învățământ superior acreditată”, fără a include în lista documentelor de la alin. (5) adeverința de student.",
-        "Retroactivitate și nesincronizare a termenelor (pct. II vs. art. 60¹ alin. 6): pct. II prevede că legea intră în vigoare la 1 ianuarie 2026 (dată anterioară dezbaterii în Camera decizională) și că ordinul ministrului finanțelor se emite în 60 de zile de la publicare, în timp ce art. 60¹ alin. (6) prevede emiterea ordinului în 60 de zile de la intrarea în vigoare.",
-        "Impact bugetar major neacoperit și erori de redactare: Expunerea de motive recunoaște un impact bugetar net de 7-8 miliarde lei anual fără indicarea unei surse certe de finanțare, iar la alin. (7) apare eroarea gramaticală „părinților singuri care cresce cel puțin doi copii”."
+        "Impact bugetar masiv fără sursă de finanțare: expunerea de motive admite o pierdere netă de 7–8 miliarde lei/an fără a indica nicio sursă concretă de acoperire, încălcând Art. 138 alin. (5) din Constituție și Legea responsabilității fiscal-bugetare nr. 69/2010.",
+        "Retroactivitate directă (Punctul II): textul prevede intrarea în vigoare la 1 ianuarie 2026, o dată deja depășită în cursul dezbaterii la Camera Deputaților, în contradicție cu Art. 15 alin. (2) și Art. 78 din Constituție, dar și cu regula predictibilității din Art. 4 Cod fiscal.",
+        "Contradicție flagrantă privind vârsta copiilor: Art. 60¹ alin. (1) lit. a) cere explicit cel puțin doi «copii minori», dar alin. (3) extinde noțiunea la tineri până la 25 de ani studenți, fără a include adeverința de student în lista documentelor justificative de la alin. (5).",
+        "Plafon cumulat inaplicabil la reținerea la sursă (Art. 60¹ alin. (2)): plafonul anual de 150.000 lei se «cumulează» între soți, însă impozitul pe salarii se reține lunar de angajatori diferiți, care nu au nici baza legală, nici documentele pentru a cunoaște veniturile celuilalt soț sau starea civilă.",
+        "Incoerență procedurală și lipsă de tehnică legislativă: Art. 60¹ alin. (6) dă Ministerului Finanțelor 60 de zile de la «intrarea în vigoare» pentru emiterea ordinului de aplicare, în timp ce Punctul II fixează 60 de zile de la «publicarea» în Monitorul Oficial; de asemenea, nu se clarifică aplicarea unui plafon anual la un impozit calculat lunar."
       ],
-      "blindSpotsCaught": "Textul omite corelarea cu art. 77 din Codul fiscal (deducerea personală de bază și deducerea suplimentară de 100 lei/lună pentru fiecare copil înscris la școală/grădiniță), lăsând neclar dacă plafonul de 150.000 lei venit impozabil se calculează înainte sau după aplicarea deducerilor personale și de asemenea instituie la alin. (3) noțiunile de „tutore legal” sau „plasament familial” pentru tineri majori de până la 25 de ani, deși tutela minorului încetează de drept la 18 ani potrivit Codului civil.",
-      "constitutionalityNote": "Proiectul ridică probleme serioase de constituționalitate raportat la art. 15 alin. (2) din Constituție (principiul neretroactivității legii), întrucât pct. II stabilește intrarea în vigoare la 1 ianuarie 2026. De asemenea, contradicțiile dintre alin. (1) lit. a) și alin. (3), precum și imposibilitatea practică de aplicare a cumulului plafonului anual între soți la reținerea lunară la sursă încalcă cerințele de claritate, precizie și previzibilitate a legii consacrate de art. 1 alin. (5) din Constituție, iar lipsa fișei financiare pentru un impact de 7-8 miliarde lei/an contravine exigențelor art. 138 alin. (5) din Constituție și Legii nr. 69/2010.",
-      "euLawNote": "Măsura ține de politica fiscală directă și demografică a statului membru, neintrând sub incidența Directivei (UE) 2015/1535 (TRIS) sau a Directivei (UE) 2018/958 privind testul de proporționalitate pentru profesii reglementate. Totuși, din perspectiva liberei circulații a lucrătorilor (art. 45 TFUE), condiția de la alin. (3) ca instituția de învățământ superior să fie acreditată trebuie interpretată încât să nu excludă copiii lucrătorilor care studiază la universități acreditate din alte state membre UE.",
+      "blindSpotsCaught": "Proiectul a trecut de Senat prin adoptare tacită (art. 75 alin. (2) teza a III-a din Constituție), fără dezbatere și fără corectarea unor vicii elementare: data retroactivă de 1 ianuarie 2026, imposibilitatea practică de administrare a plafonului cumulat între soți și efectul regresiv ascuns — plafonul de 150.000 lei/an venit impozabil (~19.200 lei salariu brut/lună per părinte) oferă economii fiscale maxime familiilor cu venituri foarte mari, nu celor expuse sărăciei infantile.",
+      "constitutionalityNote": "Risc major de neconstituționalitate pe cel puțin trei paliere: (1) Art. 138 alin. (5) — lipsa stabilirii sursei de finanțare și a fișei financiare pentru un impact de 7–8 miliarde lei/an; (2) Art. 15 alin. (2) și Art. 78 — neretroactivitatea legii și regulile privind intrarea în vigoare (1 ianuarie 2026 fiind depășită); (3) Art. 1 alin. (5) — lipsă gravă de claritate și previzibilitate (contradicția «copii minori» vs. studenți până la 25 de ani, cumulul plafonului între soți fără mecanism legal, lipsa adeverinței de studii). Suplimentar, excluderea părinților cu venituri din activități independente ridică discuții sub Art. 56 alin. (2) (justa așezare a sarcinilor fiscale).",
+      "euLawNote": "Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și Directiva (UE) 2015/1535 (TRIS, servicii digitale/reglementări tehnice) nu sunt incidente, fiscalitatea directă a persoanelor fizice fiind competență națională. Totuși, un impact bugetar nefinanțat de 7–8 miliarde lei/an intră în tensiune directă cu obligațiile României în Procedura de deficit excesiv (Art. 126 TFUE), iar art. 60¹ alin. (3) ar trebui să clarifice recunoașterea universităților acreditate din alte state membre pentru a evita bariere față de libera circulație a lucrătorilor (Art. 45 TFUE).",
       "senatForm": {
-        "articleRef": "Art. unic pct. I (Art. 60¹) și pct. II",
-        "proposalContent": "La art. 60¹: alin. (1) lit. a) și (3) se corelează spre a viza atât minorii, cât și tinerii sub 25 de ani la studii (cu adeverință la alin. 5); la alin. (2) plafonul se stabilește lunar individual (12.500 lei/lună), fără cumul între soți; la alin. (7) „cresce” devine „cresc”. La pct. II, legea intră în vigoare la 1 ianuarie 2027.",
-        "argumentation": "Impozitul salarial se reține lunar la sursă; un plafon anual cumulat între soți (cu angajatori diferiți) este imposibil de aplicat de departamentele HR. Totodată, alin. (1) lit. a) cere „copii minori”, contrazicând alin. (3) (studenți sub 25 ani), iar data de 1 ianuarie 2026 încalcă neretroactivitatea (art. 15 alin. 2 Constituție).",
-        "otherComments": "Se impune corelarea cu art. 77 din Codul fiscal (deducerile personale și suplimentare de 100 lei/copil preșcolar/elev), pentru a clarifica dacă scutirea înlocuiește sau se adaugă acestora, precum și unificarea termenului de 60 de zile pentru ordinul MF (alin. 6 raportează termenul la intrarea în vigoare, iar pct. II la publicarea în Monitorul Oficial)."
-      }
+        "articleRef": "Art. 60¹ alin. (1)-(5) și Punctul II",
+        "proposalContent": "Corelarea alin. (1) lit. a) cu alin. (3) (copii minori sau studenți până la 25 ani); plafon lunar individual, fără cumul între soți la angajator; adăugarea adeverinței de studii la alin. (5); modificarea Punctului II pentru intrare în vigoare la 1 ianuarie 2027, condiționat de avizul Guvernului și stabilirea sursei de finanțare.",
+        "argumentation": "Textul adoptat tacit de Senat încalcă Art. 15(2) (intrare retroactivă la 1 ianuarie 2026), Art. 138(5) (lipsă sursă de finanțare pentru 7-8 mld. lei/an) și Art. 1(5) din Constituție. Contradicția dintre „copii minori” și tineri până la 25 ani, lipsa adeverinței de studii și plafonul cumulat între soți fac legea imposibil de aplicat de angajatori.",
+        "otherComments": "Solicităm obținerea fișei financiare obligatorii conform Legii nr. 69/2010 și corelarea termenelor contradictorii pentru ordinul MF din alin. (6) și Punctul II. Recomandăm reevaluarea plafonului de 150.000 lei/an, care avantajează disproporționat veniturile mari, în dezacord cu scopul reducerii sărăciei infantile."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 215192,
+      "durationMs": 59947,
+      "sourceEndMarker": "SF-75C4ABDD",
       "riskScore": 5,
       "riskLevel": "yellow",
       "plainTitle": "Fără impozit pe salariu pentru părinții cu cel puțin doi copii",
-      "verdictShort": "Ideea e generoasă pentru familii, dar textul e scris în grabă. Definiția copilului contrazice condiția de bază, plafonul e neclar, data intrării în vigoare a trecut deja, iar costul de 7-8 miliarde lei pe an nu are nicio sursă de acoperire. În forma actuală, legea riscă să fie inaplicabilă sau declarată neconstituțională.",
-      "initiatorClaim": "Expunerea de motive invocă scăderea natalității și sărăcia copiilor. Scutirea de impozit ar crește venitul disponibil al familiilor cu cel puțin doi copii și ar stimula natalitatea și consumul, după modelul Poloniei și Ungariei.",
-      "realityCheck": "Legea scutește de impozitul de 10% pe salariu doar salariații, la funcția de bază, până la 150.000 lei venit impozabil pe an. Câștigul maxim e de circa 15.000 lei pe an și crește odată cu salariul: cei cu salarii mici, care au deja deducere personală, câștigă puțin. Părinții cu PFA, drepturi de autor, venituri agricole sau fără loc de muncă nu primesc nimic. Definiția din alin. (3) contrazice condiția «copii minori», iar «cumularea» plafonului între soți nu are sens într-un sistem de impozitare individuală. Modelele invocate sunt mai țintite: Polonia scutește familiile cu cel puțin 4 copii, iar Ungaria doar mamele, cu extindere treptată.",
+      "verdictShort": "Măsura e favorabilă familiilor, dar textul e scris atât de defectuos încât, citit literal, aproape nimeni nu se califică. În plus, data de intrare în vigoare e deja trecută, iar costul de 7–8 miliarde lei pe an nu are nicio sursă de finanțare.",
+      "initiatorClaim": "Inițiatoarea vrea să combată scăderea natalității și sărăcia copiilor. Propune creșterea venitului disponibil al familiilor cu cel puțin doi copii prin scutirea de impozit pe salariu, după modelul Poloniei și al Ungariei.",
+      "realityCheck": "Proiectul introduce art. 60¹ în Codul fiscal: scutire de impozitul de 10% pe salariu de la funcția de bază, până la un venit impozabil de 150.000 lei pe an, deci un câștig maxim de circa 15.000 lei pe an pentru fiecare părinte. Definiția copilului din alin. (3) cere însă ca acesta să urmeze învățământ superior, ceea ce contrazice cerința de «copii minori» de la alin. (1) lit. a). Câștigul e mai mare la salariile mari și nul pentru PFA, șomeri, persoanele cu venituri doar din drepturi de autor sau din activități agricole și pentru părinții cu un singur copil. Bugetul pierde 7–8 mld. lei pe an fără compensare.",
       "affectedGroups": [
         "Angajați & HR",
         "Contabili & Fiscalitate",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 60¹ alin. (1) lit. a) cere «cel puțin doi copii minori». Alin. (3) definește însă copilul aflat în întreținere ca persoana de până la 25 de ani care urmează o formă de învățământ superior acreditată. Citite împreună, textele exclud aproape toți părinții de copii mici sau duc la interpretări opuse la angajatori și ANAF.",
-        "Art. 60¹ alin. (1) lit. b) și alin. (2) nu spun clar dacă depășirea plafonului de 150.000 lei anulează toată scutirea sau doar partea care depășește. Plafonul e anual, dar angajatorul reține impozitul lunar. Nici «cumularea» plafonului între soți nu poate fi gestionată de doi angajatori diferiți.",
-        "Pct. II din articolul unic fixează intrarea în vigoare la 1 ianuarie 2026, dată deja trecută, cu proiectul încă la comisiile Camerei. Aceasta contravine art. 78 din Constituție și regulii din art. 4 din Codul fiscal și ar obliga la recalcularea impozitelor deja reținute. Termenul de 60 de zile pentru ordinul ministrului finanțelor curge de la intrarea în vigoare în alin. (6), dar de la publicare în pct. II.",
-        "Expunerea de motive estimează chiar ea un cost de 7-8 miliarde lei pe an, fără fișă financiară și fără măsuri compensatorii, deși România e în procedură de deficit excesiv. O parte importantă din impozitul pe venit merge, prin cote defalcate, la bugetele locale (Legea nr. 273/2006), deci și primăriile și consiliile județene pierd venituri direct.",
-        "Verificarea se bazează pe o declarație pe propria răspundere depusă la angajator. Textul nu spune ce se întâmplă când părinți despărțiți revendică amândoi aceiași copii. Nici nu spune cine răspunde dacă scutirea e acordată greșit, deși angajatorul e plătitorul care reține impozitul la sursă.",
-        "Alin. (7) e redundant, pentru că alin. (1) nu cere căsătoria, și conține greșeala «cresce». «Persoanele cu responsabilitate parentală» nu sunt corelate cu lista din alin. (3). Formula «se modifică și se completează» apare deși legea doar completează Codul, iar clauza de intrare în vigoare e inclusă în lista de modificări."
+        "Art. 60¹ alin. (3): copilul în întreținere e definit ca persoana de până la 25 de ani «dacă urmează o formă de învățământ superior acreditată». Combinat cu alin. (1) lit. a) («cel puțin doi copii minori»), rezultă o condiție aproape imposibilă, fiindcă minorii rar sunt studenți. Este o eroare de redactare care face legea practic inaplicabilă sau interpretabilă arbitrar.",
+        "Pct. II: intrarea în vigoare e fixată la 1 ianuarie 2026, dată deja trecută. Asta înseamnă fie retroactivitate (art. 15 alin. (2) din Constituție), fie o normă imposibilă. Data contrazice și termenul minim de 6 luni de la publicare prevăzut la art. 4 din Codul fiscal și obligația ca ordinul ministrului să fie emis în 60 de zile.",
+        "Art. 60¹ alin. (1) lit. b) și alin. (2): nu e clar dacă depășirea plafonului de 150.000 lei anulează complet scutirea (efect de prag) sau doar o limitează la acest nivel. Formula «plafonul se cumulează» în cazul soților nu are sens când scutirea se aplică fiecărui salariu în parte.",
+        "Impact bugetar estimat chiar de inițiatoare la 7–8 mld. lei pe an, fără fișă financiară și fără sursă de finanțare. Asta ridică probleme față de art. 138 alin. (5) din Constituție și de Legea responsabilității fiscal-bugetare, într-un moment în care România se află în procedura de deficit excesiv.",
+        "Beneficiul e regresiv: un părinte cu salariu minim câștigă câteva sute de lei pe an, iar unul cu salariu mare până la 15.000 lei. Sunt excluși cei fără salariu sau cu venituri din alte surse, adică tocmai gospodăriile cu cel mai mare risc de sărăcie, pe care expunerea de motive spune că vrea să le ajute.",
+        "Proiectul nu reglementează raportul cu deducerea personală pentru persoanele în întreținere (art. 77 din Codul fiscal) și nici situația părinților separați. Ambii părinți pot cere scutirea pentru aceiași copii pe baza unei simple declarații pe propria răspundere, iar verificarea e lăsată în întregime pe seama unui ordin al ministrului."
       ],
-      "blindSpotsCaught": "Senatul a adoptat proiectul tacit (art. 75 alin. (2) teza a III-a din Constituție), deci textul n-a trecut prin nicio dezbatere sau corectură, de unde și greșelile de redactare. Costul nu cade doar pe bugetul de stat, ci și pe bugetele locale, finanțate în mare parte din cote defalcate din impozitul pe venit. Expunerea de motive se contrazice: vorbește de circa 820.000 de familii cu cel puțin doi copii minori, dar de 1,2 milioane de beneficiari, fără un calcul care să susțină cifra de 7-8 miliarde lei. Angajatorul preia riscul fiscal al unor declarații pe care nu le poate verifica.",
-      "constitutionalityNote": "Art. 1 alin. (5) (claritate și previzibilitate): contradicția dintre lit. a) și alin. (3), plafonul ambiguu și termenele divergente pentru ordinul ministrului fac textul greu de aplicat unitar. Art. 78 și art. 15 alin. (2): o lege nu poate intra în vigoare la o dată anterioară publicării, deci data de 1 ianuarie 2026 trebuie înlocuită. Art. 138 alin. (5) și art. 111 alin. (1) teza a II-a: o scădere a veniturilor bugetare de 7-8 miliarde lei pe an cere fișă financiară (Legea nr. 500/2002, Legea nr. 69/2010) și informarea Guvernului. Textele furnizate nu arată că acestea există, iar CCR a sancționat în mai multe rânduri legi cu impact bugetar adoptate fără ele. Pe fond, scopul e legitim (protecția familiei și a copiilor, art. 48-49), iar legiuitorul are o marjă largă la facilitățile fiscale. Diferența de tratament între părinții salariați și cei cu alte venituri e discutabilă față de art. 16 și art. 56 alin. (2), dar nu e în sine neconstituțională.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: legea nu reglementează accesul la o profesie. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reguli tehnice și nici servicii ale societății informaționale. Nu e ajutor de stat (art. 107 TFUE), pentru că beneficiarii sunt persoane fizice în calitate de salariați, iar măsura e neutră pentru angajatori. Libera circulație a lucrătorilor (art. 45 TFUE, art. 7 alin. (2) din Regulamentul (UE) nr. 492/2011) e respectată, fiindcă scutirea nu depinde de reședința copiilor în România. Ordinul MF trebuie însă să accepte și acte de stare civilă din alte state membre. Riscul european real e bugetar: România e în procedura de deficit excesiv (art. 126 TFUE), iar o reducere necompensată de venituri de circa 0,4% din PIB contravine traiectoriei de ajustare asumate față de Consiliul UE.",
+      "blindSpotsCaught": "Proiectul a trecut de Senat tacit (art. 75 alin. (2) din Constituție), deci fără nicio dezbatere care să corecteze erorile. Cea mai gravă e definiția din alin. (3): condiția învățământului superior pare să fi fost destinată doar tinerilor de 18–25 de ani, dar redactarea o aplică tuturor copiilor. Scutirea privește numai impozitul pe venit, iar CAS și CASS rămân datorate, lucru pe care expunerea de motive nu îl spune. Alin. (7) repetă inutil ce rezultă deja din alin. (1) și (3).",
+      "constitutionalityNote": "Riscuri serioase. (1) Art. 1 alin. (5): lipsa de claritate și previzibilitate. Alin. (3) contrazice alin. (1) lit. a), iar plafonul și cumularea lui sunt ambigue. (2) Art. 15 alin. (2): data de 1.01.2026, anterioară adoptării, creează o aplicare retroactivă confuză. Retroactivitatea favorabilă e admisă doar pentru legea penală și contravențională, nu pentru cea fiscală. (3) Art. 138 alin. (5) și art. 111 alin. (1): o lege care reduce veniturile bugetare cu miliarde trebuie să aibă sursă de finanțare și informarea Guvernului. CCR a declarat neconstituționale legi similare pentru lipsa acestora. (4) Art. 16: diferențierea după numărul de copii și tipul venitului ține de marja de apreciere a legiuitorului, dar excluderea veniturilor non-salariale poate fi contestată.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă proiectul nu reglementează accesul la o profesie. Nici Directiva TRIS 2015/1535 nu se aplică, pentru că nu există reglementări tehnice sau servicii ale societății informaționale. Nu e ajutor de stat (art. 107 TFUE), deoarece beneficiarii sunt persoane fizice, nu întreprinderi. Proiectul nu impune condiții de rezidență pentru copii, deci nu ridică probleme de liberă circulație a lucrătorilor (art. 45 TFUE). Principala problemă europeană e fiscal-bugetară: costul nefinanțat afectează traiectoria de corecție a deficitului din cadrul de guvernanță economică (Regulamentul (UE) 2024/1263) și procedura de deficit excesiv în care se află România.",
       "senatForm": {
-        "articleRef": "Art. 60¹ alin. (2)-(3) și pct. II",
-        "proposalContent": "Alin.(3): «Copil în întreținere este copilul minor sau tânărul până la 25 de ani înscris la studii superioare, pentru care contribuabilul e părinte, adoptator, tutore sau are plasament.» Alin.(2): scutire pentru partea din venitul brut lunar de până la 12.500 lei, plafon individual, necumulabil. Art. II: intrare în vigoare la 1 ianuarie a anului următor publicării.",
-        "argumentation": "Alin.(3) definește copilul doar ca student până la 25 de ani, contrar lit. a) «copii minori»: literal, aproape nimeni nu s-ar califica. Plafonul anual «cumulat» între soți nu poate fi aplicat lunar de angajator; impunerea e individuală. Data de 1 ianuarie 2026 a trecut: o lege nu poate intra în vigoare înainte de publicare (art. 78 și 15 alin. (2) din Constituție).",
-        "otherComments": "Impactul estimat în expunerea de motive (7-8 mld. lei/an) nu are sursă de finanțare (art. 138 alin. (5) Constituție, Legea 500/2002, Legea 69/2010) și afectează bugetele locale, care primesc cote din impozitul pe venit. De corelat lit. a) cu alin.(3), de clarificat cine beneficiază când părinții sunt despărțiți și de corectat «cresce» din alin.(7)."
-      }
+        "articleRef": "Art. unic pct. I, art. 60¹ alin. (3) și pct. II",
+        "proposalContent": "Alin.(3): «Copil aflat în întreținere este copilul minor sau tânărul până la 25 de ani aflat într-o formă de învățământ acreditată, față de care contribuabilul e părinte, adoptator, tutore sau are plasamentul.» Pct.II: «Legea intră în vigoare la 1 ianuarie a anului următor publicării, la cel puțin 6 luni de la aceasta.»",
+        "argumentation": "Alin.(3) actual cere ca orice copil să urmeze învățământ superior, contrazicând alin.(1) lit.a) (copii minori): literal, aproape niciun părinte nu se califică. Intrarea în vigoare la 1.01.2026 e deja trecută (retroactivitate, art.15 alin.2 Const.) și încalcă art.4 Cod fiscal. Fără corecții, legea e inaplicabilă sau neconstituțională.",
+        "otherComments": "De clarificat: dacă depășirea plafonului de 150.000 lei anulează scutirea sau o limitează; ce înseamnă «se cumulează» la soți; cumulul cu deducerea personală (art.77); cine beneficiază la părinți separați. Lipsesc fișa financiară, avizul Guvernului (art.111 Const.) și sursa de finanțare a 7–8 mld. lei/an (art.138 alin.5)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 152869,
-      "riskScore": 6,
+      "durationMs": 81910,
+      "sourceEndMarker": "SF-75C4ABDD",
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Scutire de impozit pentru salariații cu cel puțin doi copii",
-      "verdictShort": "Sprijinul fiscal poate crește veniturile familiilor eligibile, dar forma Senatului conține contradicții care fac nesigură aplicarea. Riscul principal vine din eligibilitatea neclară, data de intrare în vigoare depășită și fundamentarea bugetară insuficientă.",
-      "initiatorClaim": "Inițiatoarea urmărește creșterea natalității, reducerea sărăciei infantile și sprijinirea familiilor prin majorarea venitului disponibil. Estimează aproximativ 1,2 milioane de beneficiari și un impact bugetar net de 7–8 miliarde lei anual; acestea sunt estimările expunerii de motive, nu rezultate demonstrate.",
-      "realityCheck": "Proiectul scutește veniturile salariale de la funcția de bază, în limita unui plafon anual de venit impozabil de 150.000 lei pentru fiecare contribuabil eligibil; nu introduce scutiri de CAS sau CASS. Părinții fără venituri salariale eligibile, inclusiv cei care obțin exclusiv venituri din activități independente, nu primesc acest avantaj. Beneficiul crește odată cu impozitul care ar fi datorat, până la plafon, astfel încât măsura nu direcționează automat sprijinul către familiile cele mai sărace și nu garantează creșterea natalității.",
+      "plainTitle": "Scutire de impozit pentru salariații care cresc cel puțin doi copii",
+      "verdictShort": "Sprijinul fiscal pentru familii este legitim și poate crește veniturile disponibile. Forma analizată necesită însă corectarea datei de intrare în vigoare, a condițiilor contradictorii privind copiii și a regulilor plafonului, precum și fundamentarea pierderii de venituri bugetare.",
+      "initiatorClaim": "Inițiatoarea urmărește sprijinirea familiilor cu minimum doi copii, reducerea sărăciei infantile și stimularea natalității. Expunerea estimează aproximativ 1,2 milioane de beneficiari și un impact bugetar net de 7–8 miliarde lei anual.",
+      "realityCheck": "Proiectul introduce o scutire de impozit pentru veniturile salariale de la funcția de bază, până la un venit impozabil anual de 150.000 lei pentru fiecare contribuabil eligibil; nu elimină contribuțiile sociale. Beneficiul depinde de existența veniturilor salariale impozabile și nu ajută direct părinții fără asemenea venituri. Aplicarea este nesigură din cauza contradicției dintre condiția existenței a doi copii minori și definiția copilului întreținut până la 25 de ani, a cumulării neclare a plafoanelor soților și a datei de intrare în vigoare deja depășite.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
@@ -106,23 +139,46 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 60¹ alin. (1) lit. a) cere cel puțin doi copii minori, însă alin. (3) definește copilul întreținut prin raportare la vârsta de până la 25 de ani și la învățământul superior acreditat. Nu rezultă clar dacă studenții majori contează pentru pragul de doi copii; lectura literală poate condiționa chiar și eligibilitatea minorilor de studii universitare.",
-        "Art. 60¹ alin. (2) stabilește plafonul pentru fiecare contribuabil, apoi prevede cumularea pentru soți. Nu precizează dacă este doar însumarea avantajelor individuale sau permite transferul plafonului neutilizat între soți; în ultima interpretare apare și o diferență față de părinții necăsătoriți.",
-        "Art. 60¹ alin. (2), (4) și (6) nu stabilesc mecanismul urmăririi plafonului anual în calculul salarial lunar, mai ales la schimbarea angajatorului. Încetarea scutirii la data pierderii eligibilității necesită și reguli pentru luna incompletă și notificarea angajatorului.",
-        "Art. 60¹ alin. (5) impune acte și o declarație privind întreținerea efectivă, fără să definească suficient această întreținere sau să prevadă dovada studiilor invocate la alin. (3). Angajatorii, inclusiv IMM-urile, vor avea sarcini suplimentare de verificare, evidență și adaptare a salarizării.",
-        "Pct. II fixează intrarea în vigoare la 1 ianuarie 2026, deși proiectul a fost adoptat tacit de Senat abia la 22 februarie 2026. Totodată, termenul ordinului curge de la intrarea în vigoare potrivit alin. (6), dar de la publicare potrivit pct. II; ambele necorelări trebuie eliminate. [Fișa Senatului](https://www.senat.ro/legis/lista.aspx?an_cls=2025&nr_cls=L563)",
-        "Expunerea de motive nu oferă metodologia necesară verificării impactului de 7–8 miliarde lei sau măsuri concrete de compensare. Consiliul Fiscal a constatat la 3 decembrie 2025 neîndeplinirea cerințelor art. 21 din Legea nr. 69/2010 și a solicitat documentele necesare; aceasta nu este o validare a estimării inițiatoarei. [Opinia Consiliului Fiscal](https://www.senat.ro/legis/PDF/2025/25L563CF.PDF?nocache=true)",
-        "La cota de 10%, plafonul individual de 150.000 lei ar permite o economie de impozit de până la 15.000 lei anual, dacă există suficient venit impozabil eligibil și sunt îndeplinite condițiile de aplicare. Plafonul privește baza impozabilă, nu salariul brut și nici valoarea ajutorului. [Codul fiscal, art. 64](https://legislatie.just.ro/Public/DetaliiDocument/216306)"
+        "Art. 60¹ este nou față de cadrul furnizat. Scutirea privește impozitul pe veniturile salariale de la funcția de bază; nu modifică CAS sau CASS și nu instituie taxe ori sancțiuni noi.",
+        "Art. 60¹ alin. (1) lit. a) cere minimum doi copii minori, dar alin. (3) definește copilul întreținut prin vârsta de până la 25 de ani și frecventarea învățământului superior acreditat. Citită literal, definiția poate exclude chiar minorii care nu sunt studenți; ea nu extinde clar eligibilitatea la părinții cu copii majori studenți.",
+        "Art. 60¹ alin. (2) stabilește plafonul pentru venitul impozabil, nu pentru salariul brut. Cumularea plafoanelor soților nu precizează dacă partea nefolosită poate fi transferată între ei și cum ar verifica angajatorii acest lucru.",
+        "Art. 60¹ alin. (4) acordă scutirea din luna următoare depunerii documentelor, dar prevede încetarea la data pierderii eligibilității. Lipsesc reguli clare pentru calculul în luna încetării, urmărirea plafonului la schimbarea angajatorului și regularizarea eventualelor depășiri.",
+        "Art. 60¹ alin. (5) nu cere dovada studiilor, deși alin. (3) introduce această condiție. Angajatorii primesc sarcini de verificare și evidență, iar elementele esențiale ale eligibilității trebuie clarificate prin lege, nu lăsate integral ordinului ministerial.",
+        "Punctul II fixează intrarea în vigoare la 1 ianuarie 2026, dată anterioară termenului de amendamente din Camera Deputaților. Totodată, termenul ordinului curge de la publicare potrivit punctului II și de la intrarea în vigoare potrivit art. 60¹ alin. (6), repere care pot produce scadențe diferite.",
+        "Impactul de 7–8 miliarde lei anual este o estimare din expunerea de motive, nu un rezultat demonstrat prin documentele furnizate. Compensarea prin consum, ocupare și natalitate este ipotetică; lipsesc o metodologie verificabilă și măsuri bugetare concrete."
       ],
-      "blindSpotsCaught": "Adoptarea tacită înseamnă depășirea termenului constituțional al primei Camere, nu validarea juridică sau bugetară a soluției. În plus, ordinul ministrului poate detalia procedura, dar nu ar trebui să decidă în locul legii dacă studenții majori sunt eligibili ori dacă plafonul poate fi transferat între soți. [Fișa procedurii legislative](https://www.senat.ro/legis/lista.aspx?an_cls=2025&nr_cls=L563)",
-      "constitutionalityNote": "Contradicțiile privind beneficiarii, plafonul și termenele ridică probleme serioase de claritate și previzibilitate prin art. 1 alin. (5). Data depășită trebuie înlocuită pentru respectarea art. 15 alin. (2) și art. 78: caracterul favorabil al unei scutiri fiscale nu autorizează retroactivitatea. Sprijinirea familiilor poate justifica diferențe de tratament, dar acestea trebuie motivate în raport cu art. 16 și justa așezare a sarcinilor fiscale din art. 56 alin. (2). Art. 23 alin. (12) nu este direct incident, proiectul neinstituind pedepse. Art. 111 alin. (1) impune solicitarea informării Guvernului când sunt modificate prevederi bugetare; fișa consemnează solicitarea și primirea punctului de vedere. Diminuarea veniturilor nu echivalează automat cu aprobarea unei cheltuieli în sensul art. 138 alin. (5). [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355)",
-      "euLawNote": "Directiva (UE) 2018/958, art. 2, privește restricțiile privind accesul la profesii reglementate sau exercitarea lor; această scutire salarială nu intră în domeniul său și nu declanșează testul specific prevăzut de directivă. Proiectul nu reglementează produse ori servicii digitale/AI și nu conține reguli tehnice care să impună notificarea TRIS potrivit Directivei (UE) 2015/1535. Nu rezultă monopoluri, bariere profesionale sau avantaje sectoriale pentru întreprinderi; beneficiarii direcți sunt persoanele fizice. Nu se identifică din text o încălcare evidentă a concurenței sau a pieței unice. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32018L0958), [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32015L1535)",
+      "blindSpotsCaught": "Problema decisivă din dispoziția finală este data intrării în vigoare, deja depășită în cursul procedurii parlamentare. Separat, definiția aparent favorabilă până la 25 de ani nu înlătură cerința celor doi copii minori și poate chiar restrânge accidental beneficiarii prin condiția studiilor superioare. Adoptarea tacită de către Senat, menționată în text, nu validează constituțional aceste prevederi.",
+      "constitutionalityNote": "Contradicțiile privind beneficiarii, plafonul și termenele ridică probleme de claritate și previzibilitate potrivit art. 1 alin. (5). Intrarea în vigoare la o dată anterioară publicării contravine art. 78 și ridică problema neretroactivității din art. 15 alin. (2); caracterul fiscal favorabil nu constituie excepția rezervată legii penale sau contravenționale mai favorabile. Sprijinirea familiilor are un scop legitim, inclusiv prin raportare la art. 49, iar diferențele de tratament trebuie justificate potrivit art. 16 și art. 56 alin. (2), fără a fi automat discriminatorii. Pentru efectele asupra bugetului trebuie verificată respectarea obligației de solicitare a informării Guvernului din art. 111 alin. (1); documentele furnizate nu permit constatarea omisiunii. Pierderea de venituri fiscale nu reprezintă automat o cheltuială bugetară nouă în sensul art. 138 alin. (5). Art. 23 alin. (12), privind pedepsele, nu este incident: proiectul nu instituie sancțiuni.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testul de proporționalitate pentru reglementarea accesului la profesii și a exercitării acestora; această scutire fiscală familială nu intră, prin obiectul descris, în domeniul ei. Nu sunt introduse reglementări tehnice privind produse sau norme privind serviciile societății informaționale care să justifice notificarea TRIS potrivit Directivei (UE) 2015/1535. Textul nu rezervă piețe și nu instituie avantaje sectoriale pentru anumite întreprinderi; beneficiul salariatului nu constituie, prin el însuși, ajutor de stat pentru angajator. Aplicarea trebuie să respecte libera circulație și egalitatea de tratament, inclusiv în recunoașterea documentelor privind copiii din alte state membre.",
       "senatForm": {
-        "articleRef": "Articolul unic pct. II",
-        "proposalContent": "II. Prezenta lege intră în vigoare la 1 ianuarie a primului an care începe după împlinirea unui termen de 6 luni de la publicarea în Monitorul Oficial al României, Partea I. Ordinul prevăzut la art. 60¹ alin. (6) se emite în termen de 60 de zile de la intrarea în vigoare a prezentei legi.",
-        "argumentation": "Data de 1 ianuarie 2026 precedă adoptarea definitivă și publicarea legii. Textul propus asigură aplicarea pentru viitor, un interval de pregătire și un singur reper pentru termenul ordinului, în acord cu art. 15 alin. (2) și art. 78 din Constituție.",
-        "otherComments": "Termenul indicat, 12.03.2026, a trecut. Sunt necesare amendamente distincte pentru eligibilitatea copiilor, plafon, calculul lunar și schimbarea angajatorului, precum și actualizarea fișei financiare. E-mailul cetățeanului nu constituie automat amendament; propunerea poate fi preluată de un deputat în comisia Camerei Deputaților."
-      }
+        "articleRef": "Punctul II",
+        "proposalContent": "II. Prezenta lege intră în vigoare la 1 ianuarie a primului an care începe după împlinirea a 6 luni de la publicarea în Monitorul Oficial al României. Prin derogare de la art. 60¹ alin. (6), ordinul se emite în termen de 60 de zile de la publicare.",
+        "argumentation": "Data de 1 ianuarie 2026 este depășită. Textul propus respectă intrarea în vigoare pentru viitor, asigură pregătirea aplicării și predictibilitatea fiscală și stabilește un singur termen pentru ordin, care trebuie emis înainte de aplicarea scutirii.",
+        "otherComments": "Sunt necesare amendamente distincte pentru vârsta copiilor, cumularea plafoanelor și regularizare, precum și fundamentarea impactului bugetar. Analiza folosește documentele furnizate; verificarea independentă a surselor oficiale nu a fost disponibilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T06:45:31.592Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:27:31.043Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

@@ -2,119 +2,135 @@
   "billId": "PL-x 467/2026",
   "slug": "plx-467-2026",
   "version": "senat",
-  "updatedAt": "2026-11-19T12:01:59.959Z",
+  "updatedAt": "2026-11-24T15:20:58.149Z",
   "coverage": {
     "method": "whole-text-v1",
+    "form": "senat",
     "billChars": 19483,
     "ordinanceChars": 0,
     "memoChars": 17715,
     "memoSupplied": 17715,
-    "marker": "SF-6255CB0B",
-    "form": "senat"
+    "marker": "SF-6255CB0B"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-467-2026.json",
+    "form": "senat",
+    "textHash": "6255cb0be73d91ea",
+    "fetchedAt": "2026-11-19T10:11:18.481Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 4.7,
+    "riskScore": 5.3,
     "riskLevel": "yellow",
-    "plainTitle": "Cum cer procurorii și judecătorii datele de pe internet direct de la firmele de IT din alte țări UE",
-    "summaryTlDr": "Este o lege tehnică și necesară, fără de care Regulamentul UE privind probele electronice nu poate funcționa în România. Problema reală e redactarea: textul despre cazurile urgente lasă loc unei interpretări periculoase, amenzile uriașe nu au criterii de stabilire, iar câteva proceduri par să se abată de la Regulament.",
-    "initiatorClaim": "Guvernul spune că asistența judiciară clasică e prea lentă pentru probele electronice, care pot dispărea rapid. Legea desemnează autoritățile române care emit și execută ordinele europene de păstrare și divulgare și stabilește căile de atac și sancțiunile.",
-    "realityCheck": "Legea transformă ordonanțele procurorului și încheierile judecătorului în ordine europene trimise direct furnizorilor de servicii (e-mail, cloud, rețele sociale) din UE. De la 18.08.2026 Regulamentul se aplică direct, deci legea doar îl operaționalizează. Efecte secundare: art.4 alin.(2)-(6) este confuz cu privire la ce poate face procurorul în urgență, fără judecător. Art.8 alin.(8) permite procurorului să aplice amenzi de la 100.000 lei până la 2% din cifra de afaceri mondială, fără niciun criteriu de individualizare. Termenele de 48 de ore și de 3 zile sunt foarte scurte pentru persoanele vizate și pentru furnizori.",
+    "plainTitle": "Cum obțin procurorii și judecătorii date de la Google, Meta & co. direct, oriunde în UE",
+    "summaryTlDr": "Este o lege tehnică și necesară. Fără ea, Regulamentul e-evidence, aplicabil de la 18 august 2026, nu poate funcționa în România. Are însă trei puncte slabe: o excepție de urgență redactată confuz, care poate fi citită ca permițând procurorului să ceară date de trafic și conținut fără judecător, o amendă cu minim fix de 100.000 lei fără criterii de individualizare și o contestație care nu spune ce se întâmplă cu datele dacă persoana câștigă.",
+    "initiatorClaim": "Guvernul spune că asistența judiciară clasică este prea lentă, iar probele electronice dispar între timp. Legea desemnează autoritățile române care emit și execută ordinele europene de păstrare și divulgare și stabilește căile de atac, sancțiunile și autoritățile centrale.",
+    "realityCheck": "Legea transformă ordonanța procurorului sau încheierea judecătorului în ordin european, transmis direct furnizorului de servicii din alt stat membru. Introduce termene foarte scurte: 48 de ore pentru furnizori, 3 zile pentru contestația persoanei vizate și 48 de ore pentru controlul jurisdicțional. Art.4 alin.(2)-(6) creează o procedură de urgență cu confirmare judiciară ulterioară în 48+24 de ore. Art.8 alin.(8) permite autorității de executare, inclusiv procurorului, să aplice amenzi între 100.000 lei și 2% din cifra de afaceri mondială, cu trimitere la art.284 CPP, un mecanism conceput pentru amenzi de câteva mii de lei.",
     "affectedGroups": [
+      "Justiție & Drepturi Civile",
       "IT & AI",
       "IMM & Antreprenori",
-      "Justiție & Drepturi Civile",
       "Toți cetățenii"
     ],
     "senatForm": {
       "articleRef": "Art.4 alin.(2)-(6)",
-      "proposalContent": "Alin.(2) se reformulează: «În cazurile urgente prevăzute la art.3 pct.18 și art.4 alin.(5) din Regulament, procurorul poate emite ordinele prevăzute la art.2 și 3 fără autorizarea prealabilă a judecătorului, când legea o cere. Ordinele prevăzute la alin.(1) nu pot fi emise în urgență de procuror.» Alin.(5)-(6) vizează și ordinele de păstrare.",
-      "argumentation": "Textul actual stă în art.4 (trafic/conținut), dar trimite la art.2-3. Astfel permite interpretarea că procurorul ar putea emite în urgență ordine pentru trafic/conținut fără judecător, contrar art.4 alin.(2) și (5) din Regulament și art.26, 28 și 53 din Constituție. Confirmarea/infirmarea ulterioară acoperă azi doar ordinele de divulgare.",
-      "otherComments": "Recomandăm și: criterii de individualizare a amenzii din art.8 alin.(8) și eliminarea minimului fix de 100.000 lei pentru furnizorii mici; sesizarea din oficiu a instanței de către autoritatea emitentă la art.9 (art.17 din Regulament); o soluție de competență când emitentul este ÎCCJ (art.7 alin.4, art.9 alin.4)."
+      "proposalContent": "Alin.(2)-(6) se înlocuiesc cu: «(2) Ordinele prevăzute la alin.(1) lit.a) se emit numai de judecătorul de drepturi și libertăți, inclusiv în cazurile urgente prevăzute la art.3 pct.18 din Regulament. (3) În cazurile urgente, judecătorul se pronunță în cel mult 24 de ore de la sesizarea procurorului, prin încheiere motivată, în camera de consiliu, fără citare.»",
+      "argumentation": "Art.4 alin.(2) din Regulament rezervă ordinele pentru trafic și conținut unui judecător sau unei instanțe, iar derogarea de urgență (art.4 alin.(5)) privește doar datele de abonat și păstrarea. Trimiterea la art.2-3 contrazice confirmarea ordinului de divulgare din alin.(5)-(6). Art.28 din Constituție și jurisprudența CCR cer autorizare judiciară prealabilă.",
+      "otherComments": "La art.8 alin.(8): eliminarea minimului de 100.000 lei, disproporționat pentru furnizorii mici, introducerea unor criterii de individualizare (gravitate, durată, culpă, capacitate financiară) și controlul amenzii aplicate de procuror de către judecătorul de drepturi și libertăți. La art.7: precizarea efectelor admiterii contestației (excluderea și ștergerea datelor)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 38907,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 270700,
       "sourceEndMarker": "SF-6255CB0B",
-      "riskScore": 5,
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Reguli naționale pentru ordinele europene de predare a probelor digitale",
-      "verdictShort": "Proiect necesar pentru aplicarea unui regulament UE obligatoriu, dar viciat de o eroare gravă de trimitere la accesul fără mandat al procurorului și de o amendă minimă de 100.000 lei disproporționată pentru furnizorii mici.",
-      "initiatorClaim": "Guvernul susține că proiectul desemnează autoritățile și procedurile interne necesare aplicării din 18 august 2026 a Regulamentului (UE) 2023/1543, pentru obținerea și păstrarea rapidă a probelor electronice în anchete penale transfrontaliere.",
-      "realityCheck": "Legea stabilește competențele procurorilor și instanțelor și introduce termene foarte scurte (48 de ore pentru conformarea furnizorilor, 3 zile pentru contestația persoanei vizate, fără efect suspensiv). Totuși, art. 4 alin. (2) face o trimitere greșită la art. 2 și art. 3 în locul art. 4 alin. (1) pentru derogarea de urgență fără judecător, iar art. 8 alin. (8) impune o amendă minimă de 100.000 lei care poate depăși plafonul maxim de 2% din cifra de afaceri pentru IMM-uri.",
+      "plainTitle": "Probele electronice în UE: amenzi imposibile pentru IMM-uri IT și garanții slabe",
+      "verdictShort": "Deși legea este necesară pentru aplicarea unui regulament UE obligatoriu din august 2026, forma adoptată de Senat conține erori grave de redactare care încalcă plafonul european al amenzilor pentru firmele mici de IT și slăbesc protecția datelor cetățenilor. Fără amendamente tehnice în Camera Deputaților, textul va genera blocaje judiciare și neconstituționalitate.",
+      "initiatorClaim": "Guvernul susține că proiectul doar desemnează autoritățile române și procedurile interne necesare aplicării Regulamentului (UE) 2023/1543 (e-evidence) pentru combaterea rapidă a criminalității informatice, afirmând în Expunerea de motive că actul nu are niciun impact asupra mediului de afaceri, IMM-urilor sau bugetului.",
+      "realityCheck": "În realitate, legea introduce un prag minim de amendă de 100.000 lei (până la 2% din cifra de afaceri globală) care depășește matematic plafonul european de 2% pentru orice furnizor IT/hosting cu venituri sub 5 milioane lei și poate fi aplicat chiar de procuror. În plus, conține o trimitere legislativă greșită la urgențele fără mandat judecătoresc și oferă cetățenilor doar 3 zile (fără efect suspensiv și fără reguli de ștergere a datelor) pentru a contesta divulgarea comunicațiilor lor.",
       "affectedGroups": [
+        "Justiție & Drepturi Civile",
         "IT & AI",
         "IMM & Antreprenori",
-        "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 4 alin. (2) permite procurorului în cazuri urgente să emită fără autorizarea judecătorului ordinele de la «art. 2, respectiv art. 3», deși acelea sunt emise oricum de procuror în urmărirea penală, în loc să trimită la art. 4 alin. (1) (date de trafic și conținut).",
-        "Art. 8 alin. (8) fixează o amendă judiciară minimă de 100.000 lei și maximă de 2% din cifra de afaceri mondială; pentru un furnizor cu cifră de afaceri sub 5 milioane lei, minimul legal devine mai mare decât maximul.",
-        "Art. 7 alin. (2) acordă persoanei ale cărei date sunt solicitate un termen de doar 3 zile pentru contestație, care nu este suspensivă de executare, astfel încât datele pot fi transmise înainte de controlul judecătoresc.",
-        "Art. 8 alin. (4)-(5) obligă furnizorii de servicii să se conformeze sau să depună obiecții în maximum 48 de ore de la solicitarea autorității române de executare."
+        "Art. 8 alin. (8) stabilește o amendă judiciară între minimum 100.000 lei și maximum 2% din cifra de afaceri anuală mondială: pentru orice IMM IT/hosting/SaaS cu cifră de afaceri sub 5 milioane lei, minimul de 100.000 lei depășește plafonul maxim de 2% permis de Regulamentul UE, fiind o imposibilitate matematică și o sancțiune disproporționată aplicabilă inclusiv de procuror prin procedura sumară a art. 284 CPP.",
+        "Art. 4 alin. (2) conține o eroare majoră de trimitere: pentru cazurile urgente fără autorizare judecătorească prealabilă trimite la ordinele de la art. 2 și art. 3 (pe care procurorul le emite deja fără judecător în urmărirea penală), în loc de art. 4 alin. (1) (date de trafic și conținut), creând ambiguitate gravă privind accesul de urgență la comunicații private.",
+        "Art. 7 oferă cetățeanului vizat doar 3 zile pentru a contesta divulgarea datelor sale, contestația nu suspendă executarea, legea nu prevede obligația ștergerii/excluderii datelor în caz de admitere, iar în urmărirea penală contestația se judecă de JDL de la aceeași instanță care a autorizat inițial ordinul (art. 4 alin. 1 lit. a).",
+        "Expunerea de motive bifează «Nu este cazul» la impactul asupra mediului de afaceri, IMM-urilor și bugetului, ignorând termenele de conformare de 48 de ore și amenzile minime de 100.000 lei pentru furnizori, precum și costurile de traducere puse în sarcina autorităților emitente (art. 5 alin. 3-4)."
       ],
-      "blindSpotsCaught": "Contradicția matematică din art. 8 alin. (8) (100.000 lei minim vs. 2% din cifra de afaceri maxim, în condițiile în care art. 15 din Regulamentul (UE) 2023/1543 cere doar plafon de 2% și proporționalitate) și eroarea de trimitere din art. 4 alin. (2) (care citează greșit și «art. 3 alin. (1) pct. 18» din Regulament, art. 3 neavând alineate), lăsând fără temei clar procedura de urgență pentru datele de trafic și conținut.",
-      "constitutionalityNote": "Eroarea de trimitere din art. 4 alin. (2) încalcă cerințele de claritate și previzibilitate a legii (art. 1 alin. (5) din Constituție) într-un domeniu sensibil pentru viața privată și secretul corespondenței (art. 26 și art. 28). Lipsa efectului suspensiv al contestației (art. 7 alin. (2)) și amenda minimă rigidă de 100.000 lei aplicabilă prin trimitere la art. 284 CPP ridică rezerve privind proporționalitatea și accesul efectiv la justiție (art. 21 și art. 53).",
-      "euLawNote": "Măsurile pun în aplicare Regulamentul (UE) 2023/1543, însă pragul minim fix de 100.000 lei din art. 8 alin. (8) contravine cerinței de proporționalitate a sancțiunilor din art. 15 al Regulamentului față de furnizorii mici. Nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează profesii) și nici a obligației de notificare TRIS conform Directivei (UE) 2015/1535, fiind măsuri procedurale penale de aplicare a unui regulament UE.",
+      "blindSpotsCaught": "Mai multe scăpări procedurale ascunse vor bloca practica: (1) art. 4 alin. (1) lit. a) trimite pentru obținerea «datelor referitoare la conținut» la art. 152 CPP, articol care reglementează exclusiv datele de trafic și localizare, nu conținutul comunicațiilor; (2) art. 6 alin. (1)-(2) nu fixează un criteriu de competență teritorială (sediul reprezentantului legal vs. domiciliul persoanei vizate) pentru ordinele străine, riscând conflicte negative de competență în termene de 96 de ore; (3) art. 9 alin. (4) omite complet faza camerei preliminare la controlul jurisdicțional al obligațiilor contradictorii, deși ordinele se pot emite în această fază.",
+      "constitutionalityNote": "Proiectul ridică vicii serioase față de art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii) prin intervalul sancționator matematic contradictoriu din art. 8 alin. (8), trimiterea eronată din art. 4 alin. (2) și necorelarea cu art. 152 CPP din art. 4 alin. (1) lit. a). Totodată, termenul de 3 zile fără efect suspensiv și fără reglementarea efectelor admiterii (art. 7), precum și aplicarea de către procuror a unor amenzi de până la 2% din cifra de afaceri globală prin simpla trimitere la art. 284 CPP (art. 8 alin. 8) afectează accesul efectiv la justiție (art. 21), proporționalitatea restrângerii drepturilor (art. 53) și protecția vieții private și a secretului corespondenței (art. 26 și art. 28).",
+      "euLawNote": "Deși legea pune în aplicare Regulamentul (UE) 2023/1543 (obligatoriu din 18 august 2026), pragul minim de 100.000 lei din art. 8 alin. (8) încalcă direct plafonul maxim de 2% din cifra de afaceri anuală mondială stabilit de art. 15 alin. (1) din Regulament pentru furnizorii cu venituri sub 5 milioane lei, contravine proporționalității sancțiunilor (art. 49 alin. 3 Carta DFUE) și slăbește calea de atac efectivă cerută de art. 18 din Regulament și art. 47 din Cartă. Directiva (UE) 2018/958 (profesii reglementate) nu este incidentă, iar notificarea TRIS (Directiva 2015/1535) este în principiu exceptată pentru măsuri de punere în aplicare a regulamentelor UE, dar suprareglementarea pragului minim de amendă afectează disproporționat furnizorii mici de servicii ale societății informaționale pe piața unică.",
       "senatForm": {
         "articleRef": "Art. 8 alin. (8)",
-        "proposalContent": "La art. 8 alin. (8), sintagma «în cuantum minim de 100.000 lei, până la 2% din cifra de afaceri anuală» se modifică și va avea următorul cuprins: «în cuantum de până la 2% din cifra de afaceri anuală».",
-        "argumentation": "Pragul minim fix de 100.000 lei depășește plafonul maxim de 2% pentru furnizorii mici (cifră de afaceri sub 5 mil. lei), creând o contradicție internă și afectând proporționalitatea impusă de art. 15 din Regulamentul (UE) 2023/1543.",
-        "otherComments": "Corectați și trimiterea greșită de la art. 4 alin. (2): derogarea de urgență de la autorizarea judecătorului privește ordinele din art. 4 alin. (1) (date de trafic și conținut), nu pe cele din art. 2 și art. 3 (emise oricum de procuror)."
+        "proposalContent": "Se elimină pragul minim de 100.000 lei și se prevede aplicarea amenzii doar de instanță: «În cazul neconformării nejustificate la art. 10, 11 și art. 13 alin. (4) din Regulament, instanța competentă poate aplica, proporțional cu gravitatea faptei, o amendă judiciară de până la 2% din cifra de afaceri anuală mondială din exercițiul financiar precedent.»",
+        "argumentation": "Pragul minim de 100.000 lei este imposibil matematic pentru IMM-urile IT/hosting cu afaceri sub 5 mil. lei, depășind plafonul de 2% din art. 15 alin. (1) al Regulamentului (UE) 2023/1543. Încalcă art. 1 alin. (5) și art. 53 din Constituție. O amendă de până la 2% din cifra globală impune control jurisdicțional deplin, nu ordonanță a procurorului.",
+        "otherComments": "Corectați urgent și: (1) art. 4 alin. (2), care trimite greșit la art. 2 și 3 în loc de art. 4 alin. (1) pentru urgențe fără mandat JDL; (2) art. 7, unde termenul de 3 zile e prea scurt, nesuspensiv și nu prevede ștergerea datelor la admitere; (3) art. 9 alin. (4), care omite camera preliminară, și art. 6, fără criteriu de competență teritorială."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 121526,
+      "durationMs": 75447,
       "sourceEndMarker": "SF-6255CB0B",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Cum cer procurorii și judecătorii datele de pe internet direct de la firmele de IT din alte țări UE",
-      "verdictShort": "Este o lege tehnică și necesară, fără de care Regulamentul UE privind probele electronice nu poate funcționa în România. Problema reală e redactarea: textul despre cazurile urgente lasă loc unei interpretări periculoase, amenzile uriașe nu au criterii de stabilire, iar câteva proceduri par să se abată de la Regulament.",
-      "initiatorClaim": "Guvernul spune că asistența judiciară clasică e prea lentă pentru probele electronice, care pot dispărea rapid. Legea desemnează autoritățile române care emit și execută ordinele europene de păstrare și divulgare și stabilește căile de atac și sancțiunile.",
-      "realityCheck": "Legea transformă ordonanțele procurorului și încheierile judecătorului în ordine europene trimise direct furnizorilor de servicii (e-mail, cloud, rețele sociale) din UE. De la 18.08.2026 Regulamentul se aplică direct, deci legea doar îl operaționalizează. Efecte secundare: art.4 alin.(2)-(6) este confuz cu privire la ce poate face procurorul în urgență, fără judecător. Art.8 alin.(8) permite procurorului să aplice amenzi de la 100.000 lei până la 2% din cifra de afaceri mondială, fără niciun criteriu de individualizare. Termenele de 48 de ore și de 3 zile sunt foarte scurte pentru persoanele vizate și pentru furnizori.",
+      "plainTitle": "Cum obțin procurorii și judecătorii date de la Google, Meta & co. direct, oriunde în UE",
+      "verdictShort": "Este o lege tehnică și necesară. Fără ea, Regulamentul e-evidence, aplicabil de la 18 august 2026, nu poate funcționa în România. Are însă trei puncte slabe: o excepție de urgență redactată confuz, care poate fi citită ca permițând procurorului să ceară date de trafic și conținut fără judecător, o amendă cu minim fix de 100.000 lei fără criterii de individualizare și o contestație care nu spune ce se întâmplă cu datele dacă persoana câștigă.",
+      "initiatorClaim": "Guvernul spune că asistența judiciară clasică este prea lentă, iar probele electronice dispar între timp. Legea desemnează autoritățile române care emit și execută ordinele europene de păstrare și divulgare și stabilește căile de atac, sancțiunile și autoritățile centrale.",
+      "realityCheck": "Legea transformă ordonanța procurorului sau încheierea judecătorului în ordin european, transmis direct furnizorului de servicii din alt stat membru. Introduce termene foarte scurte: 48 de ore pentru furnizori, 3 zile pentru contestația persoanei vizate și 48 de ore pentru controlul jurisdicțional. Art.4 alin.(2)-(6) creează o procedură de urgență cu confirmare judiciară ulterioară în 48+24 de ore. Art.8 alin.(8) permite autorității de executare, inclusiv procurorului, să aplice amenzi între 100.000 lei și 2% din cifra de afaceri mondială, cu trimitere la art.284 CPP, un mecanism conceput pentru amenzi de câteva mii de lei.",
       "affectedGroups": [
-        "IT & AI",
         "Justiție & Drepturi Civile",
+        "IT & AI",
         "IMM & Antreprenori",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art.4 alin.(2): textul se află în articolul despre datele de trafic și conținut, dar trimite la ordinele din art.2-3 (păstrare și date de abonat). Pe acestea procurorul le emite oricum singur, potrivit art.154 și art.170 CPP. Formula „atunci când aceasta este necesară, conform legii” este goală sau ambiguă. Ea poate fi citită ca o permisiune pentru procuror de a cere în urgență date de trafic sau conținut fără judecător, ceea ce art.4 alin.(2) și (5) din Regulament nu permit.",
-        "Art.4 alin.(5)-(6): confirmarea sau infirmarea ulterioară de către judecătorul de drepturi și libertăți privește doar ordinul de divulgare, nu și pe cel de păstrare emis în urgență. Nu se spune ce se întâmplă dacă procurorul ratează termenul de 48h. Sancțiunea prevăzută, „ștergerea sau, după caz, restricționarea utilizării datelor”, este vagă.",
-        "Art.8 alin.(8): amendă judiciară cu minim fix de 100.000 lei și maxim 2% din cifra de afaceri globală. Ea poate fi aplicată chiar de procuror (prin art.284 CPP), cu control judiciar doar ulterior, la cerere. Lipsesc criteriile de dozare (gravitate, mărime, cooperare, caracter repetat). Nu e clar dacă se raportează la entitatea juridică sau la grup. Minimul fix poate fi disproporționat pentru un furnizor mic de hosting sau un forum.",
-        "Art.9 alin.(1): controlul jurisdicțional pentru obligații contradictorii cu legea unui stat terț depinde de o cerere a destinatarului depusă în 48h. Art.17 din Regulament pare să oblige autoritatea emitentă să sesizeze ea instanța atunci când menține ordinul, cu suspendarea executării. Termenul de 48h pentru instanță (alin.5) e greu compatibil cu analiza dreptului unui stat terț.",
-        "Art.7 și art.9 alin.(4): contestația și controlul sunt date instanței „ierarhic superioare”. Dacă ordinul a fost emis de ÎCCJ, nu există instanță superioară, deci lipsește norma de competență.",
-        "Art.7 alin.(3): când ordinul pentru trafic sau conținut este chiar încheierea unui judecător de drepturi și libertăți, contestația se judecă tot de un judecător de drepturi și libertăți de la aceeași instanță. Controlul nu e devolutiv, spre deosebire de faza de judecată, unde contestația merge la instanța superioară.",
-        "Art.2 alin.(3): aspect pozitiv. Părțile și subiecții procesuali principali, deci inclusiv apărarea, pot cere emiterea ordinelor, conform art.1 alin.(2) din Regulament."
+        "Art.4 alin.(2) permite procurorului să emită în urgență, fără judecător, ordinele «prevăzute la art.2, respectiv art.3» (păstrare și date de abonat). Acestea nu necesită oricum judecător (art.170 CPP). Alin.(5)-(6) vorbesc însă despre confirmarea sau infirmarea «ordinului european de divulgare» și despre «obținerea datelor», ceea ce sugerează că vizează de fapt datele de trafic și conținut. Textul este incoerent și imprevizibil.",
+        "Dacă excepția de urgență se aplică datelor de trafic și conținut, intră în conflict cu art.4 alin.(2) din Regulament. Acesta rezervă aceste ordine unui judecător sau unei instanțe, iar derogarea de urgență din art.4 alin.(5) privește doar datele de abonat și păstrarea. În plus, termenul de 48 de ore pentru sesizarea judecătorului este dublu față de cele 24 de ore din art.141 CPP pentru supravegherea tehnică autorizată provizoriu de procuror.",
+        "Art.8 alin.(8) stabilește un minim fix de 100.000 lei (circa 20.000 euro), indiferent de mărimea furnizorului, și nu prevede criterii de individualizare (gravitate, durată, culpă, capacitate financiară, cooperare). Un mic furnizor de hosting sau un ISP local poate fi lovit disproporționat. Trimiterea «în mod corespunzător» la art.284 CPP nu garantează că amenda aplicată de procuror, posibil de ordinul milioanelor, este controlată de un judecător independent.",
+        "Art.7 nu precizează consecințele admiterii contestației: excluderea probei, ștergerea datelor sau informarea autorității de executare. Contestația nu suspendă executarea, deci datele sunt deja transmise. Termenul de 3 zile de la informare este foarte scurt pentru o persoană care poate afla abia târziu, prin informarea amânată permisă de art.13 din Regulament.",
+        "Art.6 și art.8 alin.(3) prevăd soluționarea la instanță fără citare și fără procuror, prin încheiere definitivă. Pentru motivele de refuz, care privesc relația dintre state, soluția e acceptabilă și conformă logicii Regulamentului."
       ],
-      "blindSpotsCaught": "1) Art.5 alin.(2): pentru ordinele de trafic sau conținut, ordinul este încheierea judecătorului, dar certificatul îl emite procurorul. După art.9 din Regulament, certificatul trebuie semnat de autoritatea emitentă sau de cea de validare. Riscul este ca furnizorul sau statul de executare să conteste certificatul. 2) Legea nu reglementează când și cum este informată persoana vizată și nici condițiile de amânare a informării (art.13 din Regulament trimite la dreptul național). Contestația din art.7 curge însă de la „primirea informării”, deci dreptul la remediu poate fi golit de conținut. 3) Trimiterea „art.3 alin.(1) pct.18 din Regulament” este greșită, art.3 are puncte, nu alineate. 4) Expunerea de motive spune „impact asupra mediului de afaceri: nu este cazul”, deși introduce amenzi de până la 2% din cifra de afaceri mondială. Spune și „impact bugetar zero”, deși traducerile sunt pe cheltuiala autorității emitente și termenele de 24-48h cer permanență la parchete și instanțe. 5) Regulamentul se aplică din 18.08.2026, iar legea era încă în dezbatere la Camera Deputaților. Legea nu are o clauză de intrare în vigoare, iar dispoziția tranzitorie din art.11 vizează ordine „emise anterior”, care practic nu puteau exista sub Regulament. 6) Legea nu se corelează cu transpunerea Directivei (UE) 2023/1544 (sedii desemnate și reprezentanți legali), de care depinde executarea în România.",
-      "constitutionalityNote": "Principiul legalității și previzibilității (art.1 alin.5): art.4 alin.(2) este neclar și poate fi interpretat ca o derogare de la autorizarea judiciară pentru date de trafic și conținut. Ar fi o ingerință în art.26 (viața privată) și art.28 (secretul corespondenței), contrară jurisprudenței CCR privind datele de trafic, care cere control judiciar prealabil și garanții clare. Proporționalitate (art.53): amenzile de până la 2% din cifra de afaceri globală, aplicabile de procuror fără criterii legale, au natură cvasi-penală (criteriile Engel, art.6 CEDO), deci este nevoie de garanții sporite (art.21, art.24). Termenele de 3 zile pentru contestație și 48h pentru obiecții și control sunt la limita accesului efectiv la justiție. Lipsa unei instanțe competente când emitentul este ÎCCJ creează un vid procedural. Restul mecanismului (ordine emise de procuror sau judecător, contestații judecate în camera de consiliu, cu citare și cu procuror) este în linia CPP și nu ridică probleme majore.",
-      "euLawNote": "Legea pune în aplicare un regulament direct aplicabil, deci normele naționale nu pot contrazice Regulamentul (UE) 2023/1543 și nici nu pot condiționa aplicarea lui. Puncte de fricțiune: art.4 alin.(2) din lege față de art.4 alin.(2) și (5) din Regulament (urgența fără validare e permisă doar pentru date de abonat și păstrare); art.9 față de art.17 (cine sesizează instanța); art.8 alin.(8) față de art.15 (sancțiuni „eficace, proporționale și disuasive”, plafonul de 2% este un maxim, iar un minim fix fără criterii poate fi disproporționat pentru IMM-uri). Directiva 2018/958 nu este aplicabilă, pentru că legea nu reglementează profesii. TRIS (2015/1535) probabil nu impune notificarea: obligațiile furnizorilor de servicii digitale decurg din actul UE obligatoriu, iar măsurile care îl pun în aplicare sunt exceptate (art.7). Piața unică nu este afectată negativ, mecanismul este armonizat la nivelul UE. Lipsesc trimiterile la GDPR și la Directiva (UE) 2016/680 pentru ștergerea sau restricționarea datelor obținute ilegal.",
+      "blindSpotsCaught": "Regulamentul se aplică din 18 august 2026, iar legea nu era adoptată definitiv la acea dată. Art.11 reglementează doar ordinele «emise anterior intrării în vigoare a legii», fără să clarifice regimul celor primite între 18 august 2026 și intrarea în vigoare. Proiectul nu transpune Directiva (UE) 2023/1544 privind sediile desemnate și reprezentanții legali, al cărei termen de transpunere a expirat în februarie 2026, deși art.5 se bazează pe aceste noțiuni. Art.4 alin.(2) trimite la «art.3 alin.(1) pct.18» din Regulament, dar art.3 nu are alineate. Este o eroare de trimitere care afectează previzibilitatea.",
+      "constitutionalityNote": "Desemnarea autorităților și procedurile sunt în principiu conforme Constituției. Riscul principal privește art.26 și art.28 (viața privată, secretul corespondenței), coroborate cu art.53 și cu jurisprudența CCR privind datele de trafic (Deciziile 1258/2009, 440/2014, 461/2014), care cere control judiciar prealabil și garanții clare. Art.4 alin.(2)-(6), citit ca permițând accesul procurorului la trafic sau conținut fără judecător, cu confirmare la 72 de ore, ar fi vulnerabil, iar redactarea contradictorie încalcă oricum art.1 alin.(5) (calitatea legii). Amenda fără criterii de individualizare și cu minim fix ridică probleme de proporționalitate (art.53). Lipsa unui control judiciar efectiv asupra amenzii aplicate de procuror ridică probleme de acces la justiție (art.21). Lipsa efectelor admiterii contestației din art.7 poate face calea de atac iluzorie (art.21, art.129).",
+      "euLawNote": "Legea pune în aplicare un regulament direct aplicabil și trebuie să rămână în limitele lui. Excepția de urgență din art.4 nu poate extinde competența procurorului la datele de trafic și conținut, contrar art.4 alin.(2) și (5) din Regulamentul 2023/1543. Amenzile trebuie să fie efective, proporționale și disuasive, iar plafonul de 2% este respectat. Minimul fix fără individualizare poate fi disproporționat pentru furnizorii mici. Calea de atac a persoanei vizate (art.18 din Regulament) trebuie să fie efectivă, în sensul art.47 din Carta UE. Directiva 2018/958 (testul de proporționalitate pentru profesii reglementate) nu este aplicabilă. Directiva TRIS 2015/1535 nu este incidentă, pentru că legea nu impune reguli tehnice privind serviciile societății informaționale, ci proceduri judiciare. Impactul asupra pieței unice este cel urmărit de Regulament și nu creează obstacole suplimentare. Directiva 2023/1544 rămâne netranspusă.",
       "senatForm": {
         "articleRef": "Art.4 alin.(2)-(6)",
-        "proposalContent": "Alin.(2) se reformulează: «În cazurile urgente prevăzute la art.3 pct.18 și art.4 alin.(5) din Regulament, procurorul poate emite ordinele prevăzute la art.2 și 3 fără autorizarea prealabilă a judecătorului, când legea o cere. Ordinele prevăzute la alin.(1) nu pot fi emise în urgență de procuror.» Alin.(5)-(6) vizează și ordinele de păstrare.",
-        "argumentation": "Textul actual stă în art.4 (trafic/conținut), dar trimite la art.2-3. Astfel permite interpretarea că procurorul ar putea emite în urgență ordine pentru trafic/conținut fără judecător, contrar art.4 alin.(2) și (5) din Regulament și art.26, 28 și 53 din Constituție. Confirmarea/infirmarea ulterioară acoperă azi doar ordinele de divulgare.",
-        "otherComments": "Recomandăm și: criterii de individualizare a amenzii din art.8 alin.(8) și eliminarea minimului fix de 100.000 lei pentru furnizorii mici; sesizarea din oficiu a instanței de către autoritatea emitentă la art.9 (art.17 din Regulament); o soluție de competență când emitentul este ÎCCJ (art.7 alin.4, art.9 alin.4)."
+        "proposalContent": "Alin.(2)-(6) se înlocuiesc cu: «(2) Ordinele prevăzute la alin.(1) lit.a) se emit numai de judecătorul de drepturi și libertăți, inclusiv în cazurile urgente prevăzute la art.3 pct.18 din Regulament. (3) În cazurile urgente, judecătorul se pronunță în cel mult 24 de ore de la sesizarea procurorului, prin încheiere motivată, în camera de consiliu, fără citare.»",
+        "argumentation": "Art.4 alin.(2) din Regulament rezervă ordinele pentru trafic și conținut unui judecător sau unei instanțe, iar derogarea de urgență (art.4 alin.(5)) privește doar datele de abonat și păstrarea. Trimiterea la art.2-3 contrazice confirmarea ordinului de divulgare din alin.(5)-(6). Art.28 din Constituție și jurisprudența CCR cer autorizare judiciară prealabilă.",
+        "otherComments": "La art.8 alin.(8): eliminarea minimului de 100.000 lei, disproporționat pentru furnizorii mici, introducerea unor criterii de individualizare (gravitate, durată, culpă, capacitate financiară) și controlul amenzii aplicate de procuror de către judecătorul de drepturi și libertăți. La art.7: precizarea efectelor admiterii contestației (excluderea și ștergerea datelor)."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 142634,
+      "durationMs": 88139,
       "sourceEndMarker": "SF-6255CB0B",
-      "riskScore": 5,
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Probe electronice din alte state UE: proceduri rapide, amenzi prost calibrate",
-      "verdictShort": "Proiectul are o finalitate legitimă și utilă, dar forma Senatului necesită corecturi înainte de adoptare. Problema principală este amenda minimă de 100.000 lei, care poate depăși chiar plafonul procentual prevăzut în același articol, alături de necorelări privind controlul executării.",
-      "initiatorClaim": "Inițiatorii urmăresc obținerea și conservarea rapidă a probelor electronice deținute de furnizori din alte state membre, reducând întârzierile cooperării judiciare clasice. Susțin că procedurile asigură protecția drepturilor persoanelor și nu produc impact bugetar sau asupra mediului de afaceri.",
-      "realityCheck": "Legea desemnează autoritățile române și stabilește procedurile necesare funcționării unui mecanism european direct aplicabil. Introduce termene scurte pentru contestații și obligații de conformare pentru furnizori, sancționate prin amenzi potențial importante. Afirmațiile din expunerea de motive privind absența impactului economic și bugetar sunt insuficient fundamentate în raport cu obligațiile de procesare, traducere și soluționare judiciară prevăzute efectiv.",
+      "plainTitle": "Probe electronice din alte state UE: proceduri rapide, amenzi problematice",
+      "verdictShort": "Proiectul creează un mecanism util pentru obținerea transfrontalieră a probelor electronice, dar necesită corecturi înainte de adoptare. Principala problemă este amenda minimă de 100.000 lei, care poate depăși chiar plafonul legal pentru furnizorii mici.",
+      "initiatorClaim": "Guvernul urmărește obținerea și păstrarea rapidă a probelor electronice, evitând întârzierile cooperării judiciare clasice. Susține că procedurile asigură protecția persoanelor vizate și nu produc impact bugetar sau asupra mediului de afaceri.",
+      "realityCheck": "Legea desemnează autoritățile competente, stabilește proceduri de transmitere și executare, introduce contestații și permite sancționarea furnizorilor neconformi. Nu instituie o obligație generală de supraveghere a populației, însă accesul la date poate preceda soluționarea contestației persoanei vizate. Pragul amenzii, unele trimiteri procedurale și costurile administrative insuficient evaluate contrazic imaginea unei intervenții exclusiv tehnice.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "IT & AI",
@@ -122,29 +138,47 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art.8 alin.(8): minimul de 100.000 lei și maximul de 2% din cifra de afaceri mondială devin incompatibile pentru furnizorii cu o cifră de afaceri sub 5 milioane lei. La o cifră de afaceri de 1 milion lei, plafonul este 20.000 lei, sub minimul legal. Problema afectează previzibilitatea sancțiunii și proporționalitatea pentru operatorii mici.",
-        "Art.8 alin.(2) trimite la motivele de refuz din art.12 alin.(1) al Regulamentului, deși procedura europeană de executare pentru neconformare este reglementată de art.16, cu motive specifice pentru divulgare și păstrare. Trimiterea corectă din art.8 alin.(5), aplicabilă obiecțiilor destinatarului, nu înlătură necorelarea controlului inițial.",
-        "Art.4 alin.(1) lit.a) trimite inclusiv pentru datele de conținut la art.152 CPP, care privește datele de trafic și localizare. Trebuie clarificate condițiile interne aplicabile obținerii conținutului, pentru a evita standarde diferite sau interpretări extensive.",
-        "Art.7 oferă acces la un judecător, cu citare și motivare, dar termenul de contestare este de numai 3 zile de la informare. Caracterul nesuspensiv nu este, singur, nelegal; eficiența remediului depinde de informarea efectivă, accesul la motivele ordinului și posibilitatea înlăturării consecințelor unui ordin nelegal.",
-        "Art.7 alin.(4) și art.9 alin.(4) atribuie controlul instanței ierarhic superioare, fără soluție expresă pentru ordinele emise la nivelul ÎCCJ. Art.9 nu reglementează explicit nici controlul pentru ordinele emise în camera preliminară. Aceste situații trebuie acoperite fără a lăsa competența la presupuneri.",
-        "Art.4 alin.(2) privește expres ordinele de păstrare și divulgarea datelor despre abonați sau identificarea utilizatorului, prin trimiterile la art.2 și art.3. Nu autorizează expres procurorul să obțină în urgență conținutul comunicațiilor fără judecător; o asemenea concluzie ar depăși textul.",
-        "Art.5 alin.(3)-(4) pune traducerile în sarcina autorității emitente; art.6-9 presupun activitate suplimentară pentru parchete și instanțe. Furnizorii suportă procesarea ordinelor și organizarea conformării. Existența acestor sarcini cere o evaluare, chiar dacă nu dovedește automat necesitatea unor credite bugetare suplimentare.",
-        "Art.11 este ultima dispoziție și reglementează cererile anterioare prin raportare la instrumentul emiterii și la legea română de la primire. Textul nu conține abrogări, modificări exprese ale altor legi sau o dată specială de intrare în vigoare; norma tranzitorie nu poate amâna aplicarea directă a Regulamentului."
+        "Art. 8 alin. (8): minimumul de 100.000 lei depășește plafonul de 2% atunci când cifra de afaceri anuală mondială este sub 5.000.000 lei. Pentru acești furnizori, intervalul legal al amenzii este imposibil de respectat; problema depășește o simplă scăpare redacțională.",
+        "Art. 8 alin. (2) trimite generic la motivele de refuz din art. 12 alin. (1) al Regulamentului, deși procedura executării pentru neconformare are motive distincte la art. 16 alin. (4) și (5), inclusiv pentru păstrare. Art. 8 alin. (5) folosește această din urmă trimitere, rezultând o necorelare internă cu efect asupra garanțiilor executării.",
+        "Art. 7: persoana vizată are numai 3 zile de la informare pentru contestație, fără suspendarea executării. Există control judecătoresc și citare, dar termenul foarte scurt poate îngreuna apărarea; lipsa suspendării nu dovedește, singură, neconstituționalitatea.",
+        "Art. 4 alin. (2) privește explicit ordinele de la art. 2 și 3, nu autorizează în general procurorul să obțină urgent conținut fără judecător. Totuși, alin. (5) și (6) reglementează expres confirmarea sau infirmarea numai a divulgării, deși alin. (2) include și păstrarea.",
+        "Art. 5 impune traduceri pe cheltuiala autorității emitente, iar art. 6 și 8 presupun intervenții judiciare rapide și conformare tehnică din partea furnizorilor. Afirmațiile din expunerea de motive privind absența impactului financiar și administrativ nu sunt susținute prin estimări.",
+        "Art. 11 raportează tranziția la intrarea în vigoare a legii naționale. Trebuie clarificată corelarea cu aplicabilitatea Regulamentului din 18 august 2026, mai ales dacă legea națională intră în vigoare ulterior; aceasta nu poate amâna aplicarea dreptului UE.",
+        "Textul nu conține abrogări sau modificări ascunse ale altor legi. Art. 1 alin. (2) prevede completarea cadrului special cu Codul de procedură penală și Legea nr. 302/2004, iar art. 8 alin. (8) păstrează remediul împotriva amenzii prin trimiterea la art. 284 CPP."
       ],
-      "blindSpotsCaught": "Capcana principală este combinația dintre pragul fix și plafonul procentual al amenzii, care produce un interval imposibil pentru furnizorii mici. O a doua problemă este folosirea art.12 din Regulament la recunoașterea pentru executare, deși art.16 guvernează această procedură. În sens invers, derogarea de urgență nu trebuie prezentată exagerat ca acces general al procurorului la conținutul comunicațiilor.",
-      "constitutionalityNote": "Art.1 alin.(5) din Constituție este relevant pentru limitele contradictorii ale amenzii, trimiterile necorelate și competențele insuficient determinate. Art.21 și art.24 cer un remediu practic accesibil, inclusiv pentru ordinele emise la nivelul ÎCCJ; termenul de 3 zile trebuie evaluat împreună cu garanțiile informării. Accesul la date implică art.26 și art.28, iar restrângerile trebuie să respecte necesitatea și proporționalitatea potrivit art.53. Art.23 alin.(12) privește pedepsele penale: calificarea legală de amendă judiciară nu permite invocarea automată a acestuia ca și cum proiectul ar introduce o nouă pedeapsă penală. Procedura obișnuită indicată prin art.76 alin.(2) nu dovedește, singură, un viciu constituțional.",
-      "euLawNote": "Regulamentul 2023/1543 se aplică din 18 august 2026 și prevalează asupra unor dispoziții naționale incompatibile. Art.15 cere sancțiuni efective, proporționale și disuasive și posibilitatea aplicării unor amenzi de până la 2% din cifra de afaceri mondială; nu impune minimul românesc de 100.000 lei. Directiva 2018/958 privește restricțiile asupra accesului la profesii reglementate și exercitării lor, neidentificate aici; nu este un test general pentru orice obligație economică. Pentru TRIS, simplul fapt că sunt vizați furnizori digitali nu dovedește obligația notificării: art.7 alin.(1) lit.a) din Directiva 2015/1535 exceptează măsurile prin care sunt respectate acte obligatorii ale UE, iar eventualele cerințe naționale autonome trebuie examinate separat. Nu rezultă un monopol sau o barieră de autorizare, însă pragul fix al amenzii dezavantajează operatorii mici. Verificarea online a versiunilor consolidate și a dosarului parlamentar nu a fost posibilă; analiza privește forma furnizată.",
+      "blindSpotsCaught": "Procentul de 2% poate părea o protecție suficientă pentru firmele mici, dar combinarea lui cu minimumul fix produce exact contrariul: sub 5 milioane lei cifră de afaceri, minimumul depășește maximumul. Separat, art. 8 confundă motivele de refuz aferente notificării cu cele aplicabile executării pentru neconformare.",
+      "constitutionalityNote": "Art. 1 alin. (5) din Constituție este relevant pentru contradicția dintre limitele amenzii și pentru trimiterile procedurale necorelate. Proporționalitatea sancțiunii trebuie evaluată și prin protecția proprietății, potrivit art. 44. Accesul la date și eficacitatea contestației implică art. 21, 24, 26, 28 și 53; controlul judiciar prevăzut reprezintă o garanție reală, dar termenul de 3 zile necesită justificare. Art. 23 alin. (12), referitor la pedepse, nu se aplică automat unei amenzi judiciare. Mențiunea adoptării ca lege ordinară nu demonstrează singură un viciu constituțional.",
+      "euLawNote": "Regulamentul este direct aplicabil; legea națională trebuie să îi respecte condițiile și garanțiile, în special distincția dintre art. 12 și art. 16 și proporționalitatea sancțiunilor. Directiva 2018/958 privește reglementarea profesiilor și nu este incidentă doar pentru că sunt afectați furnizori IT. Nici notificarea TRIS potrivit Directivei 2015/1535 nu rezultă automat: trebuie identificată o regulă tehnică privind serviciile societății informaționale și verificată excepția pentru îndeplinirea obligațiilor impuse de acte obligatorii UE. Minimumul fix poate împovăra disproporționat furnizorii mici, fără ca textul să creeze un monopol. Verificarea online a surselor oficiale nu a fost disponibilă; analiza privește forma furnizată.",
       "senatForm": {
-        "articleRef": "Art.8 alin.(8)",
-        "proposalContent": "Destinatarului care încalcă nejustificat art.10, art.11 sau art.13 alin.(4) din Regulament i se poate aplica o amendă judiciară de până la 2% din cifra de afaceri mondială a furnizorului din exercițiul financiar precedent, proporțională cu gravitatea faptei, culpa și capacitatea economică. Art.284 din Codul de procedură penală se aplică în mod corespunzător.",
-        "argumentation": "Minimul de 100.000 lei depășește plafonul de 2% pentru furnizorii cu cifra de afaceri mondială sub 5 milioane lei, făcând limitele imposibil de respectat simultan. Eliminarea minimului și individualizarea amenzii asigură previzibilitatea și proporționalitatea, în acord cu art.1 alin.(5) din Constituție și art.15 din Regulament.",
-        "otherComments": "Corelați și art.8 alin.(2) cu procedura și motivele de refuz din art.16 al Regulamentului. Completați art.7 și art.9 cu instanța competentă când ordinul este emis la nivelul ÎCCJ și clarificați controlul ordinelor emise în camera preliminară."
+        "articleRef": "Art. 8 alin. (8)",
+        "proposalContent": "Neconformarea nejustificată cu art. 10, 11 și art. 13 alin. (4) din Regulament poate fi sancționată de autoritatea română de executare cu amendă judiciară de până la 2% din cifra de afaceri anuală mondială a furnizorului din exercițiul precedent, proporțională cu gravitatea faptei și capacitatea economică. Art. 284 din Codul de procedură penală se aplică corespunzător.",
+        "argumentation": "Minimumul de 100.000 lei depășește plafonul de 2% pentru furnizorii cu cifra de afaceri anuală mondială sub 5.000.000 lei. Eliminarea minimumului înlătură contradicția și permite individualizarea proporțională a sancțiunii, protejând previzibilitatea legii și evitând dezavantajarea furnizorilor mici.",
+        "otherComments": "Se solicită și corelarea art. 8 alin. (2) cu motivele de refuz din art. 16 alin. (4) și (5) al Regulamentului, clarificarea controlului ordinelor urgente de păstrare și justificarea termenului de 3 zile pentru contestație. Costurile traducerilor și conformării trebuie evaluate."
       },
       "reachedEnd": true,
       "status": "ok"
     }
   },
   "history": [
+    {
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-19T12:01:59.959Z",
+      "method": "whole-text-v1",
+      "textChars": 19483,
+      "form": "senat",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:20:58.149Z",
+      "reasons": [
+        "model"
+      ]
+    },
     {
       "riskScore": 4.3,
       "riskLevel": "yellow",

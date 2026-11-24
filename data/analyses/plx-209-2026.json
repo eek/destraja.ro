@@ -2,14 +2,41 @@
   "billId": "Pl-x 209/2026",
   "slug": "plx-209-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T06:25:30.928Z",
+  "updatedAt": "2026-11-24T15:25:25.759Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1662,
+    "ordinanceChars": 0,
+    "memoChars": 2844,
+    "memoSupplied": 2844,
+    "marker": "SF-22A93BA9"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-209-2026.json",
+    "form": "initiator",
+    "textHash": "22a93ba9cc7b0004",
+    "fetchedAt": "2026-11-19T10:36:23.618Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
     "riskScore": 1.7,
     "riskLevel": "green",
-    "plainTitle": "8 iunie devine Ziua cinematografiei românești (zi de celebrare, nu zi liberă)",
-    "summaryTlDr": "Lege simbolică și inofensivă: nu dă zi liberă, nu impune obligații și nu creează taxe sau sancțiuni. Problemele sunt doar de redactare: o formulare stângace la art. 3 alin. (2) și repetiții între articole.",
-    "initiatorClaim": "Inițiatorii vor să marcheze anual data de 8 iunie 1897, când au fost proiectate la București primele filme turnate în România, realizate de Paul Menu. Scopul declarat este promovarea cinematografiei românești și a noii generații de cineaști premiați la Berlin și Cannes.",
-    "realityCheck": "Legea declară ziua și permite, fără să oblige, autoritățile, instituțiile de cultură, universitățile, AGERPRES, SRR și TVR să organizeze evenimente sau să difuzeze conținut dedicat. Nu este zi liberă și nu are sancțiuni. Afirmația că legea nu costă nimic e doar parțial exactă: art. 3 alin. (1) permite sprijin financiar din bani publici, dar facultativ și în limita bugetelor existente. Efectul practic depinde în întregime de voința instituțiilor, care puteau organiza astfel de evenimente și fără lege.",
+    "plainTitle": "8 iunie devine Ziua cinematografiei românești",
+    "summaryTlDr": "Lege simbolică și benignă: instituie o zi aniversară, fără zi liberă, fără obligații, taxe sau sancțiuni. Singura problemă reală e o greșeală de redactare la Art. 3 alin. (2), care se poate corecta ușor în comisie.",
+    "initiatorClaim": "Inițiatorii vor să marcheze 8 iunie 1897, data primei proiecții publice a unor imagini filmate în România (Paul Menu), pentru a promova cinematografia românească și noua generație de cineaști premiați internațional.",
+    "realityCheck": "Legea doar declară ziua și permite (nu obligă) autorităților, instituțiilor de cultură, universităților, organizațiilor minorităților și presei publice să organizeze sau să sprijine evenimente, în limita resurselor disponibile. Nu creează zi nelucrătoare, structuri noi, finanțări obligatorii sau sarcini pentru cetățeni ori firme. Efectul juridic este practic doar declarativ și de legitimare a cheltuielilor facultative cu astfel de evenimente.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Toți cetățenii",
@@ -17,103 +44,129 @@
     ],
     "senatForm": {
       "articleRef": "Art. 3 alin. (2)",
-      "proposalContent": "(2) Autoritățile și instituțiile prevăzute la alin. (1) pot organiza manifestări culturale în colaborare cu muzee, cinematografe, centre culturale, unități de învățământ, asociații și fundații care au ca obiect de activitate promovarea cinematografiei sau a culturii cinematografice.",
-      "argumentation": "Textul cere ca asociațiile partenere să aibă ca obiect «promovarea Zilei cinematografiei românești», categorie care practic nu există; luat literal, ar exclude tocmai cinecluburile, festivalurile și asociațiile de film. Formularea propusă păstrează intenția inițiatorilor și respectă cerința de claritate a normei (art. 1 alin. (5) din Constituție).",
-      "otherComments": "Recomandăm și: (1) la art. 3 alin. (1), precizarea că sprijinul financiar pentru asociații și fundații se acordă cu respectarea Legii nr. 350/2005, prin selecție competitivă; (2) eliminarea suprapunerii dintre art. 2 și art. 3 (art. 16 din Legea nr. 24/2000); (3) menționarea expresă a Centrului Național al Cinematografiei, absent din text."
+      "proposalContent": "(2) Autoritățile și instituțiile prevăzute la alin. (1) pot organiza manifestări culturale în colaborare cu Centrul Național al Cinematografiei, Arhiva Națională de Filme, muzee, centre culturale, unități de învățământ, asociații și fundații care au ca obiect de activitate promovarea cinematografiei românești.",
+      "argumentation": "Forma inițiatorului cere ca asociațiile partenere să aibă ca obiect «promovarea Zilei cinematografiei românești», ceea ce practic nu are nicio entitate și restrânge absurd cercul partenerilor. Corect este «promovarea cinematografiei românești». Includerea CNC și a Arhivei Naționale de Filme, instituțiile de specialitate absente din text, dă coerență legii.",
+      "otherComments": "La Art. 1 lipsește punctul final. Legea nu creează zi liberă și nici obligații bugetare, iar formularea «pot» din Art. 4 păstrează independența editorială a SRR/SRTv (Legea nr. 41/1994). Susțin adoptarea, cu această corectură de redactare."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 29506,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 44774,
+      "sourceEndMarker": "SF-22A93BA9",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Ziua de 8 iunie devine „Ziua cinematografiei românești” (zi lucrătoare, cu caracter simbolic)",
-      "verdictShort": "O lege simbolică și benignă care marchează debutul primelor proiecții filmate în România (8 iunie 1897), fără a institui o zi liberă nelucrătoare sau obligații pentru sectorul privat. Are însă o eroare de redactare la Art. 3 alin. (2) care trebuie corectată în comisii.",
-      "initiatorClaim": "Inițiatorii propun consacrarea zilei de 8 iunie ca Ziua Cinematografiei Românești pentru a promova cineaștii și producțiile autohtone, fără a genera cheltuieli bugetare obligatorii.",
-      "realityCheck": "Legea utilizează exclusiv norme permisive („pot organiza”, „pot acorda sprijin”), lăsând eventualele evenimente la latitudinea autorităților în limita bugetelor deja existente. Nu creează taxe, birocrație sau zile libere suplimentare, dar conține o formulare neatentă privind selecția ONG-urilor partenere.",
+      "plainTitle": "8 iunie devine simbolic Ziua cinematografiei românești",
+      "verdictShort": "Lege simbolică și benignă, fără obligații, taxe, sancțiuni sau zile libere noi; singura problemă reală este o stângăcie de redactare la Art. 3 alin. (2) care restrânge absurd parteneriatele cu ONG-urile.",
+      "initiatorClaim": "Inițiatorii vor să marcheze oficial data de 8 iunie 1897, când au fost proiectate primele imagini filmate în România, pentru a promova producțiile, actorii și cineaștii români și a crește vizibilitatea culturală a țării.",
+      "realityCheck": "Legea nu impune nicio obligație și nu declară zi liberă legală: toate instituțiile publice, universitățile și serviciile publice media (AGERPRES, TVR, Radio România) doar „pot” organiza evenimente, difuza conținut sau oferi sprijin în limita bugetelor existente. În practică, impactul juridic și financiar este minim, însă o formulare neglijentă la Art. 3 alin. (2) riscă să excludă formal ONG-urile reale de film din colaborările cu statul.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 1 și Art. 2 instituie o zi tematică pur onorifică (nu modifică Codul Muncii și nu adaugă o sărbătoare legală nelucrătoare).",
-        "Art. 3 alin. (1) condiționează explicit orice sprijin material sau financiar din partea autorităților centrale/locale și al universităților de încadrarea „în limita resurselor financiare și logistice disponibile”.",
-        "Art. 3 alin. (2) conține un viciu logic de redactare: permite colaborarea cu asociații și fundații care au ca obiect de activitate promovarea „Zilei cinematografiei românești” (o zi care abia acum se legiferează), în loc de promovarea cinematografiei în general.",
-        "Art. 4 oferă posibilitatea (nu obligația) ca AGERPRES, SRR și TVR să difuzeze conținut dedicat producțiilor și cineaștilor români."
+        "Caracter pur facultativ (Art. 2–4): toate verbele operative sunt la forma „pot organiza”, „pot acorda sprijin” și „pot produce, difuza sau redifuza”, fără obligații, termene sau sancțiuni pentru instituții sau cetățeni.",
+        "Formulă restrictivă eronată la Art. 3 alin. (2): permite colaborarea cu „asociații și fundații care au ca obiect de activitate promovarea «Zilei cinematografiei românești»”, criteriu pe care nu îl îndeplinește niciun ONG cultural existent, ziua fiind abia instituită.",
+        "Sprijin financiar fără trimitere expresă la procedură (Art. 3 alin. 1): permite acordarea de „sprijin material, financiar și logistic” în limita resurselor disponibile, fără a menționa expres respectarea regulilor de finanțare nerambursabilă (ex. Legea nr. 350/2005 sau O.G. nr. 51/1998), chiar dacă Expunerea de motive afirmă că nu cresc cheltuielile publice."
       ],
-      "blindSpotsCaught": "La Art. 3 alin. (2) s-a strecurat o eroare clasică de tehnică legislativă: nicio asociație sau fundație existentă nu are în statut ca obiect de activitate promovarea „Zilei cinematografiei românești”. Interpretată strict, norma fie devine inaplicabilă, fie favorizează ONG-uri înființate ad-hoc după intrarea în vigoare a legii.",
-      "constitutionalityNote": "Proiectul este constituțional. Caracterul supletiv al normelor asigură respectarea Art. 138 alin. (5) din Constituție (nu impune cheltuieli bugetare obligatorii nesustenabile), însă Art. 3 alin. (2) necesită reformulare pentru a respecta exigențele de claritate și previzibilitate din Art. 1 alin. (5).",
-      "euLawNote": "Nu are incidență asupra dreptului UE. Nu restrânge accesul la profesii reglementate (Directiva 2018/958), nu vizează servicii ale societății informaționale (Directiva TRIS 2015/1535) și nu distorsionează concurența pe piața unică.",
+      "blindSpotsCaught": "La Art. 3 alin. (2), legiuitorul a copiat mecanic un tipar de lege comemorativă și a limitat parteneriatele la asociații și fundații care au ca obiect de activitate promovarea „Zilei cinematografiei românești” în loc de promovarea cinematografiei sau culturii — o chichiță care poate bloca avizele de legalitate ale primăriilor sau universităților la semnarea protocoalelor cu ONG-uri de profil.",
+      "constitutionalityNote": "Proiectul este în principiu constituțional: autonomia editorială a SRR și SRTV (Art. 31 alin. 5) este protejată prin caracterul facultativ din Art. 4, iar Art. 138 alin. (5) privind sursa de finanțare nu este încălcat întrucât sprijinul financiar nu este obligatoriu și se acordă în limita bugetelor aprobate. Totuși, formularea defectuoasă de la Art. 3 alin. (2) afectează ușor standardul de claritate și aplicabilitate al legii (Art. 1 alin. 5).",
+      "euLawNote": "Fără impact asupra dreptului UE: nu reglementează profesii (Directiva 2018/958 nu este aplicabilă), nu instituie norme tehnice sau reguli pentru servicii digitale/AI (Directiva 2015/1535 TRIS nu este incidentă) și nu distorsionează piața unică; orice eventual sprijin financiar acordat unor entități private conform Art. 3 alin. (1) rămâne oricum supus regulilor generale privind ajutorul de stat și transparența.",
       "senatForm": {
-        "articleRef": "Art. 3 alin. (2)",
-        "proposalContent": "„(2) Autoritățile și instituțiile prevăzute la alin. (1) pot organiza manifestări culturale în colaborare cu muzee, centre culturale, unități de învățământ, precum și cu asociații și fundații care au ca obiect de activitate promovarea cinematografiei, artei și culturii românești.”",
-        "argumentation": "Forma actuală cere ca ONG-urile partenere să aibă ca obiect de activitate promovarea „Zilei cinematografiei românești”, zi care abia acum se înființează. Nicio asociație existentă de profil nu are în statut o asemenea formulare, ceea ce ar bloca colaborările sau ar favoriza doar ONG-uri nou-create special cu acest text în statut.",
-        "otherComments": "Se recomandă ca alocarea sprijinului financiar prevăzut la Art. 3 alin. (1) către entități private să se facă exclusiv cu respectarea procedurilor transparente din Legea nr. 350/2005 privind finanțările nerambursabile din fonduri publice."
-      }
+        "articleRef": "Art. 3 alin. (1) și (2)",
+        "proposalContent": "La Art. 3 alin. (1), se adaugă la final: «în condițiile legii». La Art. 3 alin. (2), sintagma «asociații și fundații care au ca obiect de activitate promovarea \"Zilei cinematografiei românești\"» se înlocuiește cu «asociații și fundații care desfășoară activități în domeniul cinematografiei, culturii sau educației».",
+        "argumentation": "Niciun ONG existent nu are în statut exact «promovarea Zilei cinematografiei românești», ziua fiind abia instituită. Textul actual riscă să blocheze parteneriatele cu asociațiile de cineaști și festivalurile de film. Trimiterea la «condițiile legii» la alin. (1) asigură aplicarea procedurilor transparente de finanțare publică.",
+        "otherComments": "Inițiativa este benignă și utilă simbolic, însă corecția tehnică la Art. 3 alin. (2) este necesară pentru ca legea să fie aplicabilă în colaborarea cu mediul asociativ cultural, conform cerințelor de claritate din Art. 1 alin. (5) al Constituției. De asemenea, lipsește semnul punct la finalul Art. 1."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 103470,
+      "durationMs": 31051,
+      "sourceEndMarker": "SF-22A93BA9",
       "riskScore": 1,
       "riskLevel": "green",
-      "plainTitle": "8 iunie devine Ziua cinematografiei românești (zi de celebrare, nu zi liberă)",
-      "verdictShort": "Lege simbolică și inofensivă: nu dă zi liberă, nu impune obligații și nu creează taxe sau sancțiuni. Problemele sunt doar de redactare: o formulare stângace la art. 3 alin. (2) și repetiții între articole.",
-      "initiatorClaim": "Inițiatorii vor să marcheze anual data de 8 iunie 1897, când au fost proiectate la București primele filme turnate în România, realizate de Paul Menu. Scopul declarat este promovarea cinematografiei românești și a noii generații de cineaști premiați la Berlin și Cannes.",
-      "realityCheck": "Legea declară ziua și permite, fără să oblige, autoritățile, instituțiile de cultură, universitățile, AGERPRES, SRR și TVR să organizeze evenimente sau să difuzeze conținut dedicat. Nu este zi liberă și nu are sancțiuni. Afirmația că legea nu costă nimic e doar parțial exactă: art. 3 alin. (1) permite sprijin financiar din bani publici, dar facultativ și în limita bugetelor existente. Efectul practic depinde în întregime de voința instituțiilor, care puteau organiza astfel de evenimente și fără lege.",
+      "plainTitle": "8 iunie devine Ziua cinematografiei românești",
+      "verdictShort": "Lege simbolică și benignă: instituie o zi aniversară, fără zi liberă, fără obligații, taxe sau sancțiuni. Singura problemă reală e o greșeală de redactare la Art. 3 alin. (2), care se poate corecta ușor în comisie.",
+      "initiatorClaim": "Inițiatorii vor să marcheze 8 iunie 1897, data primei proiecții publice a unor imagini filmate în România (Paul Menu), pentru a promova cinematografia românească și noua generație de cineaști premiați internațional.",
+      "realityCheck": "Legea doar declară ziua și permite (nu obligă) autorităților, instituțiilor de cultură, universităților, organizațiilor minorităților și presei publice să organizeze sau să sprijine evenimente, în limita resurselor disponibile. Nu creează zi nelucrătoare, structuri noi, finanțări obligatorii sau sarcini pentru cetățeni ori firme. Efectul juridic este practic doar declarativ și de legitimare a cheltuielilor facultative cu astfel de evenimente.",
       "affectedGroups": [
         "Toți cetățenii",
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. 1 instituie doar o zi de celebrare, nu o sărbătoare legală. Nu modifică art. 139 din Codul muncii, deci nu există zi liberă și nici costuri pentru angajatori sau IMM-uri.",
-        "Art. 2–4 folosesc exclusiv verbul „pot”. Nicio autoritate, televiziune publică sau universitate nu este obligată la ceva, iar legea nu prevede sancțiuni, taxe sau proceduri noi pentru cetățeni.",
-        "Art. 3 alin. (1) permite sprijin material, financiar și logistic din fonduri publice „în limita resurselor disponibile”. Nu este o cheltuială nouă obligatorie, dar nuanțează afirmația din Expunerea de motive că nu există impact bugetar. Textul nici nu precizează procedura de finanțare a asociațiilor (Legea nr. 350/2005).",
-        "Art. 3 alin. (2) permite colaborarea doar cu asociații și fundații care au ca obiect „promovarea «Zilei cinematografiei românești»”, o categorie care practic nu există. Corect ar fi „promovarea cinematografiei”.",
-        "Art. 2 și art. 3 alin. (1) enumeră de două ori aceleași autorități, adică paralelism, pe care art. 16 din Legea nr. 24/2000 îl interzice. Centrul Național al Cinematografiei, instituția de specialitate a domeniului, nu este menționat deloc."
+        "Art. 1 instituie ziua de 8 iunie ca «Ziua cinematografiei românești»; nu o declară zi liberă și nu modifică Codul muncii.",
+        "Art. 2–4 folosesc exclusiv verbul «pot»: autoritățile, instituțiile de cultură, serviciile deconcentrate, universitățile, AGERPRES, SRR și SRTv nu au nicio obligație, iar sprijinul financiar se acordă «în limita resurselor financiare și logistice disponibile» (Art. 3 alin. 1).",
+        "Art. 3 alin. (2) cere ca asociațiile și fundațiile partenere să aibă ca obiect de activitate «promovarea Zilei cinematografiei românești». Formularea e circulară: practic nicio entitate nu are un astfel de obiect, iar cercul partenerilor ar fi restrâns absurd. Corect ar fi «promovarea cinematografiei românești».",
+        "Textul nu menționează instituțiile de specialitate ale domeniului (Centrul Național al Cinematografiei, Arhiva Națională de Filme), deși acestea sunt partenerii naturali. Ministerul Culturii și ICR, invocate în expunerea de motive, sunt acoperite doar generic.",
+        "Afirmația din expunerea de motive că legea poate «genera venituri suplimentare» este speculativă, dar irelevantă juridic, pentru că textul nu impune cheltuieli."
       ],
-      "blindSpotsCaught": "Art. 4 include AGERPRES, o agenție de știri, alături de SRR și TVR, cu facultatea de a „produce, difuza sau redifuza” conținut despre film. Prevederea e superfluă, pentru că serviciile publice pot face oricum asta, și e formulată permisiv tocmai ca să nu atingă autonomia lor editorială. Expunerea de motive numește Ministerul Culturii și ICR, dar textul nu le menționează decât generic. Data aleasă marchează primele filme turnate în România, nu prima proiecție de film din București, care a avut loc încă din 1896, cu operatori Lumière. Alegerea e discutabilă istoric, dar ține de marja de apreciere a Parlamentului.",
-      "constitutionalityNote": "Nu am identificat probleme de constituționalitate. Instituirea zilelor de celebrare ține de marja de apreciere a legiuitorului, iar legea este ordinară. Pentru că art. 4 e permisiv, este respectată autonomia serviciilor publice de radio și televiziune (art. 31 alin. (5)). Din același motiv, art. 3 nu afectează autonomia universitară (art. 32 alin. (6)). Cheltuielile sunt facultative și în limita resurselor existente, deci nu se pune problema art. 138 alin. (5) privind sursa de finanțare. Singurul punct sensibil este claritatea normei (art. 1 alin. (5)): formularea de la art. 3 alin. (2) poate fi citită literal ca o restricție absurdă și trebuie corectată.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează accesul la vreo profesie. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reguli tehnice privind produse sau servicii ale societății informaționale. Art. 4 nu impune cote de difuzare, deci nu intră în conflict cu Directiva serviciilor media audiovizuale. Singurul aspect de urmărit sunt ajutoarele de stat (art. 107 TFUE): dacă sprijinul financiar de la art. 3 alin. (1) ajunge la operatori economici precum producători sau cinematografe, trebuie încadrat în regula de minimis (Reg. (UE) 2023/2831) sau în art. 53–54 din Reg. (UE) nr. 651/2014. Pentru sumele mici tipice unor evenimente, riscul este neglijabil.",
+      "blindSpotsCaught": "Greșeala circulară de la Art. 3 alin. (2), unde «Ziua» e pusă în locul domeniului, ar face ca, la litera legii, aproape nicio asociație de film să nu se califice ca partener. Mai există o mică scăpare de redactare: lipsa punctului final la Art. 1. Art. 4 este formulat facultativ, deci nu încalcă independența editorială a SRR/SRTv garantată de Legea nr. 41/1994 și nici statutul AGERPRES.",
+      "constitutionalityNote": "Nu ridică probleme de constituționalitate. Legea este clară și previzibilă (Art. 1 alin. 5), fiind declarativă și facultativă. Nu impune cheltuieli obligatorii, deci nu e necesară indicarea sursei de finanțare (Art. 138 alin. 5) și nici fișa financiară. Respectă autonomia locală (Art. 120), pentru că autoritățile locale «pot», nu «trebuie». Nu afectează libertatea de exprimare sau independența serviciilor publice de radio și televiziune (Art. 30, Art. 31 alin. 5). Este lege ordinară, iar Camera Deputaților e decizională corect.",
+      "euLawNote": "Nu intră sub incidența Directivei (UE) 2018/958, pentru că nu reglementează accesul la profesii sau exercitarea lor. Nu intră nici sub Directiva (UE) 2015/1535 (TRIS), neexistând reguli tehnice sau privind serviciile societății informaționale. Nu restrânge concurența și nu creează avantaje economice selective care să constituie ajutor de stat, sprijinul fiind facultativ, minor și cultural (Art. 107 alin. 3 lit. d TFUE ar acoperi oricum promovarea culturii).",
       "senatForm": {
         "articleRef": "Art. 3 alin. (2)",
-        "proposalContent": "(2) Autoritățile și instituțiile prevăzute la alin. (1) pot organiza manifestări culturale în colaborare cu muzee, cinematografe, centre culturale, unități de învățământ, asociații și fundații care au ca obiect de activitate promovarea cinematografiei sau a culturii cinematografice.",
-        "argumentation": "Textul cere ca asociațiile partenere să aibă ca obiect «promovarea Zilei cinematografiei românești», categorie care practic nu există; luat literal, ar exclude tocmai cinecluburile, festivalurile și asociațiile de film. Formularea propusă păstrează intenția inițiatorilor și respectă cerința de claritate a normei (art. 1 alin. (5) din Constituție).",
-        "otherComments": "Recomandăm și: (1) la art. 3 alin. (1), precizarea că sprijinul financiar pentru asociații și fundații se acordă cu respectarea Legii nr. 350/2005, prin selecție competitivă; (2) eliminarea suprapunerii dintre art. 2 și art. 3 (art. 16 din Legea nr. 24/2000); (3) menționarea expresă a Centrului Național al Cinematografiei, absent din text."
-      }
+        "proposalContent": "(2) Autoritățile și instituțiile prevăzute la alin. (1) pot organiza manifestări culturale în colaborare cu Centrul Național al Cinematografiei, Arhiva Națională de Filme, muzee, centre culturale, unități de învățământ, asociații și fundații care au ca obiect de activitate promovarea cinematografiei românești.",
+        "argumentation": "Forma inițiatorului cere ca asociațiile partenere să aibă ca obiect «promovarea Zilei cinematografiei românești», ceea ce practic nu are nicio entitate și restrânge absurd cercul partenerilor. Corect este «promovarea cinematografiei românești». Includerea CNC și a Arhivei Naționale de Filme, instituțiile de specialitate absente din text, dă coerență legii.",
+        "otherComments": "La Art. 1 lipsește punctul final. Legea nu creează zi liberă și nici obligații bugetare, iar formularea «pot» din Art. 4 păstrează independența editorială a SRR/SRTv (Legea nr. 41/1994). Susțin adoptarea, cu această corectură de redactare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 107266,
+      "durationMs": 57719,
+      "sourceEndMarker": "SF-22A93BA9",
       "riskScore": 2,
       "riskLevel": "green",
       "plainTitle": "8 iunie, zi dedicată filmului românesc",
-      "verdictShort": "Proiect benign, cu potențial cultural util: permite evenimente și promovarea cinematografiei, fără taxe, sancțiuni sau obligații pentru cetățeni și firme. Necesită mici clarificări privind colaboratorii și folosirea banilor publici.",
-      "initiatorClaim": "Inițiatorii urmăresc recunoașterea simbolică a cinematografiei românești, invocând proiecțiile din 8 iunie 1897, și promovarea creatorilor și producțiilor românești. Ei susțin că inițiativa nu majorează cheltuielile publice și poate genera venituri pentru organizatori.",
-      "realityCheck": "Art. 1 instituie o zi comemorativă, fără să o declare zi liberă legală, iar art. 2-4 permit activități, sprijin public și promovare editorială, fără să le impună. Art. 3 permite utilizarea resurselor existente, deci caracterul facultativ nu înseamnă cost bugetar zero, iar veniturile anticipate nu sunt garantate. Textul nu introduce autorizații, raportări sau alte sarcini administrative noi pentru cetățeni și IMM-uri.",
+      "verdictShort": "Proiect cultural cu risc redus: permite evenimente și promovarea filmului românesc, fără taxe, sancțiuni sau obligații pentru cetățeni. Principalele rezerve privesc costurile publice posibile și formularea prea îngustă a parteneriatelor.",
+      "initiatorClaim": "Inițiatorii urmăresc recunoașterea contribuției cinematografiei românești și creșterea vizibilității sale, legând data de primele proiecții ale imaginilor filmate de Paul Menu în România. Expunerea de motive susține că proiectul nu mărește cheltuielile publice și poate genera venituri.",
+      "realityCheck": "Art. 1 instituie o zi comemorativă, fără să o transforme în zi liberă legală, iar art. 2–4 permit activități, sprijin public și conținut editorial, fără să le impună. Sprijinul material, financiar și logistic permis de art. 3 poate implica cheltuieli sau folosirea unor resurse publice existente, astfel că afirmația privind absența costurilor nu este demonstrată. Textul nu introduce taxe, autorizații, raportări sau sancțiuni pentru cetățeni și firme.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 1-2: recunoaștere simbolică și evenimente facultative; proiectul poate încuraja accesul publicului la filmul românesc, dar nu garantează organizarea unor manifestări sau accesul gratuit.",
-        "Art. 3 alin. (1): sprijinul material, financiar și logistic este facultativ și limitat la resursele disponibile. Nu se creează un drept automat la finanțare și nici o derogare expresă de la regulile bugetare, de achiziții sau de acordare a finanțărilor.",
-        "Art. 3 alin. (2): condiția ca asociațiile și fundațiile colaboratoare să promoveze chiar Ziua cinematografiei românești poate exclude organizații culturale existente, al căror obiect privește cinematografia în general. Este o restrângere inutilă a colaborării, fără să constituie un monopol profesional.",
-        "Art. 4: AGERPRES, radioul și televiziunea publică pot realiza conținut dedicat. Nu sunt instituite cote obligatorii, obligații pentru presa privată sau competențe de cenzură; aplicarea trebuie să respecte autonomia editorială și drepturile de autor."
+        "Art. 1–2 instituie sărbătoarea și permit organizarea de activități; nu creează obligații de participare sau dreptul la o zi liberă.",
+        "Art. 3 alin. (1) permite sprijin public în limita resurselor disponibile, dar nu stabilește un buget distinct, criterii de selecție sau o procedură proprie de finanțare. Alocările concrete rămân supuse legislației generale aplicabile.",
+        "Art. 4 permite, fără să oblige, AGERPRES, radioului și televiziunii publice să promoveze cinematografia românească. Proiectul se încheie cu acest articol și nu conține derogări, abrogări sau modificări ale altor legi."
       ],
-      "blindSpotsCaught": "Respingerea de către Senat la 11.03.2026 nu închide procedura: Camera Deputaților este decizională. Termenul pentru amendamente, 30.03.2026, este deja depășit la data analizei, 29.10.2026; un e-mail cetățenesc nu devine automat amendament parlamentar. Aceste repere sunt consemnate în [fișa legislativă oficială](https://www.senat.ro/legis/lista.aspx?an_cls=2026&nr_cls=L85).",
-      "constitutionalityNote": "Pe textul analizat nu rezultă o neconstituționalitate evidentă. Scopul cultural corespunde art. 33; cerințele de claritate ale art. 1 alin. (5) justifică reformularea condiției restrictive din art. 3 alin. (2). Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident, deoarece proiectul nu instituie pedepse. Art. 138 alin. (5) rămâne relevant pentru cheltuielile publice: formula resurselor disponibile nu înlocuiește identificarea finanțării și existența creditelor bugetare necesare, dar nici nu demonstrează singură o încălcare constituțională. Art. 4 trebuie aplicat cu respectarea autonomiei serviciilor publice de radio și televiziune, potrivit art. 31 alin. (5). [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355?isFormaDeBaza=True).",
-      "euLawNote": "Directiva (UE) 2018/958 nu impune aici un test de proporționalitate: proiectul nu restricționează accesul la profesii reglementate sau exercitarea lor, conform domeniului definit la art. 2. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/ro/ALL/?uri=CELEX%3A32018L0958). Nu rezultă o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535: textul nu introduce reglementări tehnice pentru produse ori cerințe specifice serviciilor societății informaționale și nu reglementează AI. Simpla promovare editorială nu schimbă această concluzie. [Directiva 2015/1535, art. 1 și 5](https://eur-lex.europa.eu/legal-content/RO/ALL/?uri=celex%3A32015L1535). Nu sunt create exclusivități comerciale; eventualele finanțări selective ale unor activități economice trebuie însă evaluate potrivit regulilor ajutorului de stat, dacă sunt îndeplinite condițiile art. 107 alin. (1) TFUE. Scopul cultural poate permite compatibilitatea în condițiile alin. (3) lit. (d), fără să ofere o exceptare automată. [Art. 107 TFUE](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX%3A12016E107).",
+      "blindSpotsCaught": "Art. 3 alin. (2) descrie asociațiile și fundațiile partenere prin obiectul de activitate «promovarea Zilei cinematografiei românești». Formularea poate exclude organizații care promovează cinematografia în general, fără să menționeze această sărbătoare în obiectul lor de activitate. Este o restrângere inutilă a parteneriatelor, nu instituirea unui monopol.",
+      "constitutionalityNote": "Scopul este compatibil cu art. 33 din Constituție, privind accesul la cultură. Textul este în general inteligibil în sensul art. 1 alin. (5), cu rezerva formulării restrictive din art. 3 alin. (2); art. 23 alin. (12), privind legalitatea pedepselor, nu este incident deoarece lipsesc sancțiunile. Cheltuielile efectiv aprobate trebuie să respecte art. 138 alin. (5), privind sursa de finanțare; caracterul facultativ și limita resurselor disponibile nu justifică singure concluzia că proiectul ar fi neconstituțional. Documentele furnizate nu permit verificarea îndeplinirii eventualelor cerințe procedurale din art. 111.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: proiectul nu condiționează accesul la profesii reglementate sau exercitarea acestora. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu rezultă necesară: textul nu introduce reglementări tehnice pentru produse ori norme specifice serviciilor societății informaționale. Nu apar bariere explicite pe piața unică. Eventualele finanțări acordate unor operatori economici trebuie evaluate separat potrivit regulilor privind ajutoarele de stat, dacă sunt îndeplinite condițiile art. 107 TFUE.",
       "senatForm": {
         "articleRef": "Art. 3 alin. (2)",
-        "proposalContent": "(2) Autoritățile și instituțiile prevăzute la alin. (1) pot organiza manifestări culturale în colaborare cu muzee, centre culturale, unități de învățământ, asociații și fundații care au ca obiect de activitate promovarea culturii sau a cinematografiei, cu respectarea legislației aplicabile și a principiilor transparenței și egalității de tratament.",
-        "argumentation": "Condiția actuală privind promovarea exact a Zilei cinematografiei românești poate exclude asociații și fundații culturale existente, cu experiență relevantă. Formularea propusă permite colaborarea pe criterii legate de activitatea culturală și reduce riscul unei selecții arbitrare, fără a crea un drept automat la finanțare.",
-        "otherComments": "Propunere cetățenească pentru comisiile raportoare ale Camerei Deputaților, la Pl-x 209/2026, susceptibilă de preluare de un deputat. Termenul indicat pentru amendamente, 30.03.2026, este depășit la data analizei, 29.10.2026; transmiterea prin e-mail nu garantează preluarea sau examinarea sa."
-      }
+        "proposalContent": "(2) Autoritățile și instituțiile prevăzute la alin. (1) pot organiza manifestări culturale în colaborare cu muzee, centre culturale, unități de învățământ, asociații și fundații care au ca obiect de activitate promovarea cinematografiei românești.",
+        "argumentation": "Referirea exclusivă la promovarea sărbătorii poate exclude organizațiile care promovează filmul românesc în general. Modificarea permite participarea acestora fără adaptarea obiectului de activitate la denumirea unei zile comemorative și păstrează caracterul facultativ al colaborării.",
+        "otherComments": "La 24.11.2026, termenul indicat pentru amendamente, 30.03.2026, este depășit. Preluarea propunerii de către un deputat depinde de stadiul și regulile procedurii. Analiza privește documentele furnizate; verificarea online a cadrului juridic și a dosarului parlamentar nu a fost disponibilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T06:25:30.928Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 1,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:25:25.759Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

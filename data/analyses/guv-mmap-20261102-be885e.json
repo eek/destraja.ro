@@ -1,117 +1,170 @@
 {
   "billId": "guv-mmap-20261102-be885e",
   "slug": "guv-mmap-20261102-be885e",
-  "updatedAt": "2026-11-10T14:22:21.596Z",
+  "updatedAt": "2026-11-24T15:49:29.132Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "proiect",
+    "billChars": 1304,
+    "ordinanceChars": 0,
+    "memoChars": 11225,
+    "memoSupplied": 11225,
+    "marker": "SF-F997FB47"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/guv-mmap-20261102-be885e.json",
+    "form": "initiator",
+    "textHash": "f997fb47db44f83e",
+    "fetchedAt": "2026-11-24T15:47:28.825Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1188,
+    "truncated": false,
+    "included": true,
+    "key": "b0e6c7940c9fe849"
+  },
   "consensus": {
-    "riskScore": 2.7,
+    "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "AFM vrea 40 de mașini de serviciu în loc de 30 pentru controale în teren",
-    "summaryTlDr": "Este o modificare administrativă internă, cu risc juridic redus pentru cetățeni și firme. Problema reală este nota de fundamentare: nu oferă date și nu estimează costul celor 10 mașini noi, plătite din bani publici ai Fondului pentru mediu.",
-    "initiatorClaim": "Ministerul spune că volumul controalelor și aria acoperită de AFM au crescut, iar cele 30 de autovehicule nu mai permit acțiuni simultane și reacție rapidă. Soluția propusă este creșterea parcului auto la 40 de mașini.",
-    "realityCheck": "Articolul unic schimbă o singură cifră în art. 16 din ROF-ul AFM: plafonul de autoturisme crește de la 30 la 40. Nu introduce obligații, taxe sau sancțiuni pentru terți. Totuși, nota susține că nu există impact bugetar, deși achiziția sau leasingul, combustibilul, asigurările și mentenanța vor fi plătite din Fondul pentru mediu, adică din contribuțiile operatorilor economici, care fac parte din bugetul general consolidat.",
+    "plainTitle": "Fondul pentru Mediu vrea 40 de mașini de serviciu în loc de 30",
+    "summaryTlDr": "Este o modificare administrativă internă, fără efecte asupra cetățenilor sau firmelor. Problema reală e transparența: nota de fundamentare nu spune cât costă cele 10 mașini și nu dă nicio cifră care să arate că sunt necesare.",
+    "initiatorClaim": "Ministerul spune că volumul controalelor din teren ale AFM a crescut, iar cele 30 de autoturisme limitează capacitatea de a face verificări simultane și rapide. Propune deci creșterea parcului auto la 40.",
+    "realityCheck": "Proiectul modifică un singur articol (art. 16 din Regulamentul AFM) și ridică numărul de autoturisme de la 30 la 40, pentru urmărirea proiectelor finanțate și pentru încasarea creanțelor. Nota de fundamentare declară că nu există impact bugetar. Costurile de achiziție sau leasing, carburant și întreținere vor fi însă plătite din bugetul AFM, adică din bani publici ai Fondului pentru mediu. Nu se precizează dacă mașinile vor fi cumpărate sau închiriate, nici dacă vor fi vehicule curate.",
     "affectedGroups": [
       "Agricultură & Mediu",
-      "IMM & Antreprenori",
       "Toți cetățenii"
     ],
     "senatForm": {
       "articleRef": "Art. unic pct. 1 – art. 16 Anexa HG 277/2023",
-      "proposalContent": "Art. 16 – (1) Pentru activitățile prevăzute, AFM dispune de cel mult 40 de autoturisme. (2) Autoturismele achiziționate sau închiriate după intrarea în vigoare sunt cu emisii zero sau reduse, conform legislației privind vehiculele nepoluante. (3) AFM publică anual pe site numărul controalelor în teren și gradul de utilizare a parcului auto.",
-      "argumentation": "Nota nu prezintă date: număr de controale, inspectori, gradul actual de utilizare a celor 30 de autoturisme, costul achiziției/leasingului și al exploatării. Banii Fondului pentru mediu sunt publici și fac parte din bugetul general consolidat. Instituția care finanțează Rabla și mobilitatea verde trebuie să dea exemplu cu propria flotă.",
-      "otherComments": "Secțiunea 4 indică eronat «cheltuieli de personal» și susține lipsa impactului, deși vor exista cheltuieli de capital și funcționare din Fondul pentru mediu. Solicităm cuantificarea pe 5 ani. Secțiunea 6.5 omite avizul Consiliului Legislativ (Legea 73/1993). Corelați termenii «autoturisme» (proiect) și «autovehicule» (notă)."
+      "proposalContent": "Art. 16: „...Administrația Fondului pentru Mediu dispune de un număr de maximum 40 de autoturisme, achiziționate sau închiriate cu prioritate din categoria vehiculelor curate (electrice/hibride), în limita sumelor aprobate în bugetul AFM.”",
+      "argumentation": "NF nu cuantifică costul celor 10 autoturisme (achiziție/leasing, carburant, întreținere) și afirmă lipsa impactului bugetar, deși AFM gestionează bani publici din Fondul pentru mediu. Plafonul „maximum” și prioritatea vehiculelor curate asigură coerența cu Legea 37/2018 și cu misiunea de mediu a AFM.",
+      "otherComments": "Solicităm completarea secțiunii 4 a NF cu costul estimat și sursa de finanțare, iar a secțiunii 2.3 cu date: numărul de controale/an în 2023-2026, beneficiari verificați, gradul de utilizare a celor 30 de autoturisme existente. Rugăm corectarea mențiunii că proiectul ar fi fost deja avizat de Consiliul Legislativ."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 55321,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 78949,
+      "sourceEndMarker": "SF-F997FB47",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Suplimentarea parcului auto al Administrației Fondului pentru Mediu de la 30 la 40 de autoturisme",
-      "verdictShort": "Măsură administrativă internă, fără taxe sau obligații noi pentru cetățeni, prin care parcul auto de control al AFM crește cu 10 mașini. Deși utilă operațional, Nota de fundamentare ignoră complet costurile de achiziție și întreținere ale noilor autovehicule.",
-      "initiatorClaim": "Ministerul Mediului susține că cele 30 de autovehicule actuale ale AFM sunt insuficiente pentru volumul crescut de controale în teren și verificarea proiectelor finanțate, fiind necesară suplimentarea parcului auto la 40 de unități.",
-      "realityCheck": "Actul normativ modifică exclusiv art. 16 din Regulamentul de organizare și funcționare a AFM (HG nr. 277/2023), crescând plafonul legal de autoturisme de la 30 la 40. Deși măsura nu impune sarcini birocratice sau fiscale mediului privat, fundamentarea bugetară este superficială: inițiatorul declară impact financiar zero și trece eronat mențiunea „cheltuieli de personal” la capitolul cheltuieli, fără a prezenta calcule privind achiziția, carburantul și mentenanța celor 10 mașini.",
+      "plainTitle": "AFM vrea încă 10 mașini de serviciu (de la 30 la 40), fără costuri estimate",
+      "verdictShort": "Act administrativ tehnic cu risc scăzut pentru cetățeni și firme, care mărește cu o treime parcul auto al Administrației Fondului pentru Mediu. Nu ascunde capcane juridice, dar Nota de fundamentare este superficială: nu estimează niciun cost și nu aduce cifre care să demonstreze că cele 30 de mașini actuale nu ajung.",
+      "initiatorClaim": "Ministerul Mediului susține că volumul verificărilor în teren și aria acțiunilor de control ale AFM au crescut, iar limita actuală de 30 de autoturisme blochează desfășurarea controalelor simultane. Creșterea la 40 de mașini ar asigura mobilitatea și reacția rapidă a structurilor de control pentru proiectele finanțate și încasarea creanțelor la Fondul pentru mediu.",
+      "realityCheck": "Proiectul modifică un singur număr din Art. 16 al Anexei la HG nr. 277/2023, crescând normativul de autoturisme al AFM de la 30 la 40 (+33%), în temeiul art. 5 alin. (3) din OG nr. 80/2001. Deși nu impune obligații, taxe sau sancțiuni noi cetățenilor ori mediului de afaceri, costul real al achiziției, asigurărilor, combustibilului și întreținerii celor 10 vehicule este ascuns sub formula „nu se referă la acest subiect”, deși veniturile proprii ale AFM provin din taxe și contribuții de mediu. În plus, textul nu cere ca noile mașini ale instituției de mediu să fie electrice sau nepoluante.",
       "affectedGroups": [
-        "Agricultură & Mediu",
-        "IMM & Antreprenori"
+        "Agricultură & Mediu"
       ],
       "keyFindings": [
-        "Articol unic (modificarea art. 16 din Anexa la HG nr. 277/2023): Crește numărul maxim de autoturisme alocate Administrației Fondului pentru Mediu de la 30 la 40 (+33%), destinate activităților de urmărire, control în teritoriu și încasare a creanțelor la Fondul pentru mediu.",
-        "Secțiunea a 4-a din Nota de fundamentare: Inițiatorul susține că proiectul „nu se referă la acest subiect” în privința modificării cheltuielilor bugetare și înscrie dintr-o eroare de redactare sintagma „cheltuieli de personal” la rubrica 4.2 lit. d), omițând costurile de capital și de bunuri și servicii (achiziție/leasing, RCA, CASCO, carburant, revizii) din bugetul AFM.",
-        "Lipsa indicatorilor cantitativi în Secțiunea 2.3: Suplimentarea cu 10 autoturisme este motivată generic, fără a preciza numărul actual de inspectori cu atribuții de teren, numărul de controale efectuate anual sau gradul de uzură al flotei existente."
+        "Articolul unic (pct. 1) modifică exclusiv Art. 16 din Anexa la HG nr. 277/2023, majorând parcul auto al AFM de la 30 la 40 de autoturisme, fără a schimba competențele de control sau atribuțiile instituției.",
+        "Nota de fundamentare (Secțiunile 3.1, 4.2, 4.6 și 4.7) omite complet estimarea costurilor de achiziție și exploatare pe termen scurt și pe 5 ani, deși bugetul Fondului pentru mediu gestionează bani publici colectați din contribuții de mediu.",
+        "Secțiunea 2.3 justifică suplimentarea doar prin formulări generice, fără niciun indicator cantitativ (număr de inspectori, controale anuale, grad de utilizare a flotei de 30 de mașini), și nu include criterii de mobilitate verde."
       ],
-      "blindSpotsCaught": "În Secțiunea a 6-a (pct. 6.5) din Nota de fundamentare se afirmă că proiectul nu necesită avizul Consiliului Legislativ, deși orice Hotărâre a Guvernului cu caracter normativ este supusă obligatoriu avizării Consiliului Legislativ conform Legii nr. 24/2000. De asemenea, textul nu condiționează ca noile autoturisme ale instituției care gestionează „Rabla Plus” să fie nepoluante (electrice/hibride), conform OUG nr. 71/2021.",
-      "constitutionalityNote": "Proiectul respectă temeiul constituțional al art. 108 privind adoptarea hotărârilor de Guvern pentru organizarea executării legilor (în speță, OG nr. 80/2001 privind normativele de cheltuieli). Norma este clară și previzibilă sub aspectul art. 1 alin. (5) din Constituție, dar rigoarea tehnicii legislative (Legea nr. 24/2000, art. 31) impune completarea Notei de fundamentare cu impactul financiar real.",
-      "euLawNote": "Măsura vizează organizarea internă a unei autorități publice, neavând incidență asupra Directivei (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) sau Directivei (UE) 2015/1535 (TRIS). Totuși, la achiziția efectivă a autovehiculelor, AFM va trebui să respecte pragurile de vehicule ecologice impuse prin Directiva (UE) 2019/1161 (transpusă prin OUG nr. 71/2021).",
+      "blindSpotsCaught": "Nota de fundamentare conține două erori evidente de tip copy-paste: la Secțiunea 4.2 lit. d) cheltuiala cu mașinile este încadrată eronat la „cheltuieli de personal” (în loc de bunuri și servicii / cheltuieli de capital), iar la Secțiunea 6.5 se afirmă că proiectul „nu se referă” la avizul Consiliului Legislativ, contrazicând paragraful final care susține că proiectul a fost deja avizat de Consiliul Legislativ. De asemenea, Secțiunile 3.6 și 3.8 declară că proiectul nu are impact asupra mediului sau dezvoltării durabile, omițând obligațiile privind vehiculele nepoluante în achizițiile publice (Directiva (UE) 2019/1161).",
+      "constitutionalityNote": "Proiectul respectă art. 108 din Constituție, fiind emis în executarea art. 5 alin. (3) din OG nr. 80/2001 (care permite stabilirea prin HG a unui normativ propriu de autoturisme pentru activități specifice) și nu afectează drepturi fundamentale sau art. 23 alin. (12). Textul Art. 16 este clar și previzibil sub aspectul art. 1 alin. (5), însă fundamentarea deficitară (lipsa estimării financiare și inconsecvența privind avizul obligatoriu al Consiliului Legislativ conform art. 79 din Constituție) contravine exigențelor de tehnică legislativă din Legea nr. 24/2000.",
+      "euLawNote": "Actul reglementează exclusiv organizarea logistică internă a unei instituții publice naționale, astfel că nu intră sub incidența Directivei (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate), nici a Directivei (UE) 2015/1535 (TRIS) și nu distorsionează piața unică sau concurența. Totuși, la achiziția efectivă a celor 10 autoturisme, AFM va trebui să respecte regulile UE privind achizițiile publice și cotele minime pentru vehicule nepoluante din Directiva (UE) 2019/1161 (transpusă prin OUG nr. 71/2021).",
       "senatForm": {
-        "articleRef": "Articol unic - pct. 1 (Art. 16 din Anexa HG)",
-        "proposalContent": "La Art. 16 se adaugă teza a II-a: „Achiziționarea celor 10 autoturisme suplimentare se va realiza exclusiv din categoria autovehiculelor pur electrice sau hibride plug-in, cu încadrarea în bugetul aprobat al Administrației Fondului pentru Mediu și publicarea anuală a indicatorilor de utilizare în acțiunile de control.”",
-        "argumentation": "Administrația Fondului pentru Mediu (AFM) gestionează programele naționale de reducere a emisiilor (Rabla Plus), fiind esențial ca extinderea propriului parc auto de la 30 la 40 de unități să respecte principiul exemplarității ecologice și prevederile OUG nr. 71/2021 privind promovarea vehiculelor de transport rutier nepoluante.",
-        "otherComments": "Nota de fundamentare necesită completarea Secțiunii a 4-a cu estimarea reală a costurilor de achiziție, combustibil, asigurări și mentenanță pentru cele 10 autoturisme (în loc de mențiunea eronată „cheltuieli de personal”), precum și prezentarea datelor statistice privind numărul de inspectori de teren și controale efectuate."
+        "articleRef": "Art. unic (Art. 16 din Anexa HG nr. 277/2023)",
+        "proposalContent": "Completarea Art. 16 astfel încât cele 10 autoturisme suplimentare să fie exclusiv electrice sau cu emisii zero (sau condiționarea suplimentării de publicarea prealabilă a unei analize de cost-beneficiu și a gradului de utilizare a celor 30 de autoturisme existente).",
+        "argumentation": "Nota de fundamentare nu include costul achiziției și exploatării celor 10 mașini și nici date concrete (număr de inspectori, controale, kilometraj) care să justifice creșterea parcului cu 33%. Ca administrator al programelor de mobilitate verde din taxe de mediu, AFM ar trebui să achiziționeze exclusiv vehicule nepoluante.",
+        "otherComments": "Vă rugăm să corectați erorile din Nota de fundamentare înainte de adoptare: Secțiunea 4.2 lit. d) menționează eronat «cheltuieli de personal» pentru autoturisme, Secțiunea 4 omite impactul asupra bugetului Fondului pentru mediu, iar Secțiunea 6.5 contrazice finalul documentului privind avizul obligatoriu al Consiliului Legislativ."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 47204,
+      "durationMs": 31570,
+      "sourceEndMarker": "SF-F997FB47",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "AFM vrea 40 de mașini de serviciu în loc de 30 pentru controale în teren",
-      "verdictShort": "Este o modificare administrativă internă, cu risc juridic redus pentru cetățeni și firme. Problema reală este nota de fundamentare: nu oferă date și nu estimează costul celor 10 mașini noi, plătite din bani publici ai Fondului pentru mediu.",
-      "initiatorClaim": "Ministerul spune că volumul controalelor și aria acoperită de AFM au crescut, iar cele 30 de autovehicule nu mai permit acțiuni simultane și reacție rapidă. Soluția propusă este creșterea parcului auto la 40 de mașini.",
-      "realityCheck": "Articolul unic schimbă o singură cifră în art. 16 din ROF-ul AFM: plafonul de autoturisme crește de la 30 la 40. Nu introduce obligații, taxe sau sancțiuni pentru terți. Totuși, nota susține că nu există impact bugetar, deși achiziția sau leasingul, combustibilul, asigurările și mentenanța vor fi plătite din Fondul pentru mediu, adică din contribuțiile operatorilor economici, care fac parte din bugetul general consolidat.",
+      "plainTitle": "Fondul pentru Mediu vrea 40 de mașini de serviciu în loc de 30",
+      "verdictShort": "Este o modificare administrativă internă, fără efecte asupra cetățenilor sau firmelor. Problema reală e transparența: nota de fundamentare nu spune cât costă cele 10 mașini și nu dă nicio cifră care să arate că sunt necesare.",
+      "initiatorClaim": "Ministerul spune că volumul controalelor din teren ale AFM a crescut, iar cele 30 de autoturisme limitează capacitatea de a face verificări simultane și rapide. Propune deci creșterea parcului auto la 40.",
+      "realityCheck": "Proiectul modifică un singur articol (art. 16 din Regulamentul AFM) și ridică numărul de autoturisme de la 30 la 40, pentru urmărirea proiectelor finanțate și pentru încasarea creanțelor. Nota de fundamentare declară că nu există impact bugetar. Costurile de achiziție sau leasing, carburant și întreținere vor fi însă plătite din bugetul AFM, adică din bani publici ai Fondului pentru mediu. Nu se precizează dacă mașinile vor fi cumpărate sau închiriate, nici dacă vor fi vehicule curate.",
       "affectedGroups": [
-        "Agricultură & Mediu",
-        "IMM & Antreprenori"
+        "Agricultură & Mediu"
       ],
       "keyFindings": [
-        "Articol unic pct. 1 (art. 16 din Anexa la HG 277/2023): plafonul crește de la 30 la 40 de autoturisme, pentru urmărirea proiectelor finanțate din Fondul pentru mediu sau din fonduri externe și pentru încasarea creanțelor.",
-        "Nota de fundamentare nu dă nicio cifră despre numărul controalelor, numărul inspectorilor, gradul actual de utilizare a celor 30 de mașini sau costul estimat. Justificarea se bazează doar pe formulări generale («au cunoscut o dezvoltare»).",
-        "Secțiunea 4.2 lit. d) menționează în mod eronat «cheltuieli de personal», deși măsura generează cheltuieli de capital sau de bunuri și servicii. Secțiunile 4.6 și 4.7 nu conțin niciun calcul, iar finanțarea din venituri proprii nu elimină impactul asupra bugetului general consolidat.",
-        "Firmele controlate de AFM ar putea fi verificate mai des în teren. Efectul este indirect și legitim, deoarece controlul obligațiilor față de Fondul pentru mediu este o atribuție legală."
+        "Articol unic pct. 1: art. 16 din Anexa la HG nr. 277/2023 va prevedea 40 de autoturisme. Potrivit notei de fundamentare, textul în vigoare prevede 30. Textul consolidat al art. 16 nu a fost disponibil în materiale, deci cifra actuală provine doar din NF.",
+        "Secțiunea 4 a NF afirmă lipsa impactului bugetar, deși cele 10 vehicule suplimentare generează cheltuieli din bugetul AFM. Nu există nicio estimare de cost și nicio fișă financiară. La rubrica «alte cheltuieli» apare mențiunea «cheltuieli de personal», care nu are legătură cu obiectul proiectului.",
+        "Justificarea din secțiunea 2.3 este generică. Nu oferă date despre numărul de controale pe an, despre aria acoperită sau despre gradul de utilizare a celor 30 de autoturisme existente, deci necesitatea majorării cu 33% nu poate fi verificată.",
+        "Temeiul juridic invocat (art. 108 din Constituție și art. 5 alin. (3) din OG nr. 80/2001 privind normativele de cheltuieli) este adecvat pentru stabilirea numărului de autoturisme prin HG.",
+        "NF afirmă la final că proiectul «a fost avizat de ministerele interesate și de Consiliul Legislativ», deși proiectul este abia în consultare publică. Este o formulă-șablon inexactă în acest stadiu."
       ],
-      "blindSpotsCaught": "Proiectul nu spune ce tip de vehicule vor fi achiziționate, deși Directiva 2009/33/CE privind vehiculele nepoluante, modificată prin Directiva (UE) 2019/1161 și transpusă în dreptul intern, impune autorităților contractante cote minime de vehicule curate la achiziție sau leasing. Este o omisiune paradoxală pentru instituția care finanțează programele Rabla și mobilitatea verde. În plus, secțiunea 6.5 afirmă că avizul Consiliului Legislativ nu este relevant, deși Legea nr. 73/1993 îl cere pentru hotărârile cu caracter normativ. Textul proiectului folosește termenul «autoturisme», iar nota folosește «autovehicule», ceea ce creează o mică necorelare terminologică.",
-      "constitutionalityNote": "Temeiul este corect: art. 108 din Constituție (HG pentru organizarea executării legilor), coroborat cu art. 5 alin. (3) din OG nr. 80/2001 privind normativele de cheltuieli. Textul este clar și previzibil, deci respectă art. 1 alin. (5). Proiectul nu afectează drepturi fundamentale. Singura problemă, de rigoare și nu de neconstituționalitate evidentă, este lipsa estimării costurilor și a sursei de finanțare. Aceasta slăbește conformitatea cu exigențele art. 138 alin. (5) din Constituție și ale art. 15 din Legea nr. 500/2002.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, deoarece proiectul nu reglementează accesul la profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu este incidentă, pentru că proiectul nu conține reguli tehnice privind produse sau servicii ale societății informaționale. Proiectul nu creează bariere pe piața unică și nu implică ajutor de stat. Singura legătură relevantă cu dreptul UE este Directiva privind vehiculele nepoluante (2009/33/CE, modificată prin Directiva (UE) 2019/1161), care trebuie respectată la achiziția celor 10 autoturisme suplimentare.",
+      "blindSpotsCaught": "Proiectul nu impune ca noile vehicule să fie curate (electrice sau hibride). Achiziția publică de vehicule este totuși supusă cotelor minime prevăzute de Directiva 2009/33/CE, modificată prin Directiva (UE) 2019/1161, transpusă prin Legea nr. 37/2018. Pentru o instituție care finanțează programe precum «Rabla», lipsa unei astfel de mențiuni este o incoerență de politică publică. NF mai omite să verifice compatibilitatea cu eventualele restricții privind achiziția de autoturisme din măsurile de consolidare fiscală în vigoare.",
+      "constitutionalityNote": "Nu ridică probleme de constituționalitate. HG-ul este emis pentru organizarea executării legii (art. 108 alin. (2) din Constituție), pe un temei legal expres (OG nr. 80/2001), și nu afectează drepturi sau obligații ale cetățenilor. Textul este clar și previzibil (art. 1 alin. (5)). Deficiențele țin de calitatea fundamentării (Legea nr. 24/2000, art. 6 și 31), nu de constituționalitate.",
+      "euLawNote": "Directiva 2018/958 (testul de proporționalitate pentru profesii reglementate) și Directiva TRIS 2015/1535 nu sunt aplicabile. Proiectul nu reglementează profesii, servicii digitale sau reguli tehnice. Este relevantă indirect Directiva 2009/33/CE privind vehiculele curate în achizițiile publice, care se va aplica la procurarea efectivă a autoturismelor. Nu există aspecte de ajutor de stat sau de piață unică.",
       "senatForm": {
         "articleRef": "Art. unic pct. 1 – art. 16 Anexa HG 277/2023",
-        "proposalContent": "Art. 16 – (1) Pentru activitățile prevăzute, AFM dispune de cel mult 40 de autoturisme. (2) Autoturismele achiziționate sau închiriate după intrarea în vigoare sunt cu emisii zero sau reduse, conform legislației privind vehiculele nepoluante. (3) AFM publică anual pe site numărul controalelor în teren și gradul de utilizare a parcului auto.",
-        "argumentation": "Nota nu prezintă date: număr de controale, inspectori, gradul actual de utilizare a celor 30 de autoturisme, costul achiziției/leasingului și al exploatării. Banii Fondului pentru mediu sunt publici și fac parte din bugetul general consolidat. Instituția care finanțează Rabla și mobilitatea verde trebuie să dea exemplu cu propria flotă.",
-        "otherComments": "Secțiunea 4 indică eronat «cheltuieli de personal» și susține lipsa impactului, deși vor exista cheltuieli de capital și funcționare din Fondul pentru mediu. Solicităm cuantificarea pe 5 ani. Secțiunea 6.5 omite avizul Consiliului Legislativ (Legea 73/1993). Corelați termenii «autoturisme» (proiect) și «autovehicule» (notă)."
+        "proposalContent": "Art. 16: „...Administrația Fondului pentru Mediu dispune de un număr de maximum 40 de autoturisme, achiziționate sau închiriate cu prioritate din categoria vehiculelor curate (electrice/hibride), în limita sumelor aprobate în bugetul AFM.”",
+        "argumentation": "NF nu cuantifică costul celor 10 autoturisme (achiziție/leasing, carburant, întreținere) și afirmă lipsa impactului bugetar, deși AFM gestionează bani publici din Fondul pentru mediu. Plafonul „maximum” și prioritatea vehiculelor curate asigură coerența cu Legea 37/2018 și cu misiunea de mediu a AFM.",
+        "otherComments": "Solicităm completarea secțiunii 4 a NF cu costul estimat și sursa de finanțare, iar a secțiunii 2.3 cu date: numărul de controale/an în 2023-2026, beneficiari verificați, gradul de utilizare a celor 30 de autoturisme existente. Rugăm corectarea mențiunii că proiectul ar fi fost deja avizat de Consiliul Legislativ."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 94462,
-      "riskScore": 3,
+      "durationMs": 55265,
+      "sourceEndMarker": "SF-F997FB47",
+      "riskScore": 2,
       "riskLevel": "green",
       "plainTitle": "AFM își mărește parcul auto de la 30 la 40 de mașini",
-      "verdictShort": "Proiectul este o modificare administrativă cu risc redus, care poate facilita controalele în teritoriu. Principala problemă este fundamentarea insuficientă a necesarului și a costurilor celor 10 autoturisme suplimentare.",
-      "initiatorClaim": "Ministerul susține că intensificarea controalelor și extinderea activității AFM impun mai multe deplasări simultane. Parcul actual de 30 de autoturisme ar întârzia verificările și intervențiile urgente.",
-      "realityCheck": "Articolul unic înlocuiește art. 16 din regulament și stabilește un parc de 40 de autoturisme, cu aceleași destinații funcționale. Majorarea este de 33,3%, dar proiectul nu stabilește modalitatea de procurare, prețul sau finanțarea și nu dispune explicit cumpărarea a 10 mașini noi. Nu introduce taxe, sancțiuni, atribuții suplimentare de control sau obligații administrative pentru cetățeni și întreprinderi.",
+      "verdictShort": "Proiect tehnic, cu risc redus: suplimentează mașinile pentru activitățile AFM, fără taxe, sancțiuni sau obligații noi pentru cetățeni. Principala problemă este lipsa unei fundamentări verificabile a necesarului și a costurilor.",
+      "initiatorClaim": "Inițiatorul susține că flota actuală limitează controalele simultane și intervențiile rapide în teritoriu. Cele 10 autoturisme suplimentare ar permite verificarea mai eficientă a proiectelor finanțate și încasarea creanțelor.",
+      "realityCheck": "Articolul unic înlocuiește integral art. 16 din regulament și stabilește o dotare de 40 de autoturisme, față de 30, numărul actual indicat în nota de fundamentare. Nu extinde competențele de control și nu dispune direct cumpărarea celor 10 mașini. Achiziția și exploatarea lor pot genera cheltuieli, dar documentația nu prezintă estimări, surse concrete de finanțare sau indicatori privind utilizarea flotei existente.",
       "affectedGroups": [
         "Agricultură & Mediu",
-        "IMM & Antreprenori",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articolul unic, pct. 1: singura modificare de fond identificabilă este creșterea numărului de autoturisme de la 30 la 40; atribuțiile AFM nu sunt extinse.",
-        "Nota de fundamentare, secțiunea 2.3: lipsesc indicatori verificabili despre numărul controalelor, kilometrii parcurși, disponibilitatea parcului actual și acțiunile amânate. Necesitatea exactă a celor 10 autoturisme nu este demonstrată cantitativ.",
-        "Secțiunea 4: finanțarea integrală din venituri proprii nu exclude cheltuielile publice sau impactul asupra bugetului general consolidat. Trebuie explicate costurile eventualelor achiziții, utilizării și întreținerii ori motivul pentru care acestea nu cresc.",
-        "Secțiunea 4.2.d menționează cheltuieli de personal, deși măsura privește autoturisme. Această necorelare trebuie corectată, iar impactul financiar estimat pe cinci ani.",
-        "Calendarul comunicat, 2–16 noiembrie 2026, depășește minimumul de 10 zile calendaristice pentru propuneri prevăzut de Legea nr. 52/2003. Respectarea termenului distinct de minimum 30 de zile lucrătoare înainte de supunerea spre avizare nu poate fi stabilită fără calendarul procedurii."
+        "Articolul unic, pct. 1: dotarea prevăzută pentru AFM crește de la 30 de autoturisme, potrivit notei de fundamentare, la 40, adică aproximativ 33,3%. Destinațiile declarate rămân controlul implementării proiectelor și încasarea creanțelor.",
+        "Textul proiectului se încheie după această modificare: nu conține alte derogări, abrogări, dispoziții tranzitorii, taxe ori sancțiuni. Nu acordă atribuții suplimentare inspectorilor.",
+        "Nota de fundamentare invocă intensificarea controalelor, dar nu oferă numărul misiunilor, gradul de utilizare a celor 30 de mașini sau calculul care justifică exact 10 autoturisme suplimentare.",
+        "Secțiunea financiară nu cuantifică achiziția ori alte modalități de asigurare a mașinilor, combustibilul, asigurările și întreținerea. Absența unui impact asupra bugetului de stat sau bugetelor locale nu demonstrează absența cheltuielilor din bugetul AFM.",
+        "Intervalul 02–16.11.2026 oferă cel puțin 10 zile calendaristice pentru observații. El nu dovedește însă respectarea termenului distinct de minimum 30 de zile lucrătoare înainte de supunerea proiectului spre avizare, prevăzut de Legea nr. 52/2003; data respectivă nu este furnizată.",
+        "Secțiunea 6.5 tratează avizarea ca neaplicabilă, însă finalul notei afirmă că proiectul a fost avizat inclusiv de Consiliul Legislativ. Această neconcordanță cere clarificarea stadiului avizelor, fără să dovedească singură lipsa lor."
       ],
-      "blindSpotsCaught": "Formula „dispune de un număr de 40” nu precizează expres că este un plafon; „cel mult 40” ar clarifica norma. Declarația privind lipsa impactului asupra bugetului de stat sau local nu răspunde întrebării despre costurile suportate de AFM. Extrasul notei este incomplet; analiza se bazează pe materialele furnizate, deoarece verificarea online a legislației consolidate și a dosarului consultării nu a fost disponibilă.",
-      "constitutionalityNote": "Nu rezultă o încălcare constituțională evidentă. Modificarea este inteligibilă în sensul art. 1 alin. (5), iar art. 23 alin. (12), privind legalitatea pedepselor, nu este incident. Art. 108 este pertinent pentru o HG de organizare a executării legii; temeiul special invocat trebuie corelat cu forma în vigoare a OG nr. 80/2001. Dacă implementarea determină cheltuieli suplimentare, trebuie documentată sursa de finanțare, relevantă pentru art. 138 alin. (5), și aplicate cerințele financiare incidente, inclusiv art. 15 din Legea nr. 500/2002. Fundamentarea lacunară nu dovedește, singură, neconstituționalitatea.",
-      "euLawNote": "Directiva (UE) 2018/958 privește testul de proporționalitate pentru reglementarea profesiilor; nu este aplicabilă unei majorări a parcului auto instituțional. Proiectul nu stabilește specificații tehnice pentru produse sau reguli privind servicii ale societății informaționale, astfel că textul prezentat nu indică obligația notificării TRIS potrivit Directivei (UE) 2015/1535. Nu identific restricții directe asupra concurenței, accesului pe piață sau avantaje selective pentru operatori. Eventualele achiziții ulterioare trebuie să respecte separat legislația aplicabilă achizițiilor publice.",
+      "blindSpotsCaught": "Formula «nu are impact asupra bugetului de stat sau bugetului local» lasă neexplicat impactul asupra bugetului propriu al AFM. Finanțarea din venituri proprii nu elimină necesitatea justificării cheltuielilor publice. Totodată, majorarea dotării nu reprezintă o derogare de la regulile bugetare ori de achiziții publice, care continuă să se aplice.",
+      "constitutionalityNote": "Nu rezultă o încălcare evidentă a Constituției. Modificarea unui regulament de organizare prin HG este, în principiu, compatibilă cu art. 108, iar proiectul invocă și art. 5 alin. (3) din OG nr. 80/2001 pentru dotarea auto. Din perspectiva art. 1 alin. (5), numărul și destinația autoturismelor sunt inteligibile; formularea ca plafon maxim ar fi mai precisă. Art. 23 alin. (12), privind legalitatea pedepsei, nu este incident: proiectul nu instituie pedepse. Fundamentarea financiară incompletă justifică remedierea documentației, fără să demonstreze automat neconstituționalitatea. Fiind HG, actul se adoptă de Guvern, fără procedură parlamentară de adoptare.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea lor. Nu rezultă obligația notificării TRIS potrivit Directivei (UE) 2015/1535, deoarece simpla stabilire a numărului de autoturisme nu introduce reglementări tehnice pentru produse ori reguli privind serviciile societății informaționale. Nu sunt instituite monopoluri, avantaje pentru un furnizor sau bariere de acces pe piață. Eventualele achiziții rămân supuse normelor aplicabile de concurență și achiziții publice; cetățenii și IMM-urile nu primesc obligații administrative directe suplimentare.",
       "senatForm": {
-        "articleRef": "Articolul unic pct. 1 – art. 16",
-        "proposalContent": "Art. 16. – Pentru urmărirea și controlul implementării proiectelor finanțate din Fondul pentru mediu sau din fonduri externe și pentru încasarea creanțelor la Fondul pentru mediu, activități care implică deplasări în teritoriu, Administrația Fondului pentru Mediu dispune de cel mult 40 de autoturisme, în limita creditelor bugetare aprobate.",
-        "argumentation": "Formularea precizează caracterul de plafon al dotării și condiționarea cheltuielilor de bugetul aprobat. Majorarea poate sprijini controalele, dar trebuie justificată prin date despre utilizarea parcului existent și necesarul de deplasări simultane, pentru a permite evaluarea proporționalității și eficienței.",
-        "otherComments": "Solicit completarea notei cu modalitatea de asigurare a celor 10 autoturisme, costurile estimate pe cinci ani și sursa finanțării ori explicația documentată a lipsei costurilor suplimentare. Corectați referirea la cheltuieli de personal din secțiunea 4.2.d și precizați calendarul avizării potrivit Legii nr. 52/2003."
+        "articleRef": "Articolul unic pct. 1 — art. 16",
+        "proposalContent": "Art. 16 — Pentru activitățile de urmărire și control al implementării proiectelor finanțate din Fondul pentru mediu sau din fonduri externe și de încasare a creanțelor la Fondul pentru mediu, care implică deplasări în teritoriu, AFM dispune de maximum 40 de autoturisme, în limita creditelor bugetare aprobate și cu respectarea legislației achizițiilor publice.",
+        "argumentation": "Susțin suplimentarea justificată a capacității de control. Formularea ca plafon clarifică dotarea permisă. Nota trebuie să prezinte utilizarea flotei existente, necesarul celor 10 mașini, modalitatea de asigurare, sursa finanțării și costurile estimate pe cinci ani; veniturile proprii nu înseamnă absența cheltuielilor publice.",
+        "otherComments": "Solicit clarificarea avizelor și a calendarului prevăzut de Legea nr. 52/2003: secțiunea 6.5 nu concordă cu finalul notei. Termenul anunțat pentru propuneri, 16.11.2026, este deja expirat la data analizei, 24.11.2026; observațiile transmise acum ar fi tardive față de acest termen."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-10T14:22:21.596Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:49:29.132Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

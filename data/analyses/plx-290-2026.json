@@ -2,142 +2,187 @@
   "billId": "PL-x 290/2026",
   "slug": "plx-290-2026",
   "version": "senat",
-  "updatedAt": "2026-11-19T12:17:37.122Z",
+  "updatedAt": "2026-11-24T15:19:10.508Z",
   "coverage": {
     "method": "whole-text-v1",
+    "form": "senat",
     "billChars": 27370,
     "ordinanceChars": 0,
     "memoChars": 143021,
     "memoSupplied": 60000,
-    "marker": "SF-32F1AB76",
-    "form": "senat"
+    "marker": "SF-32F1AB76"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-290-2026.json",
+    "form": "senat",
+    "textHash": "32f1ab76ca51465f",
+    "fetchedAt": "2026-11-19T11:20:12.303Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 24,
+    "articlesShown": 24,
+    "articleCap": 1715,
+    "articlesCut": 17,
+    "chars": 39862,
+    "truncated": false,
+    "included": true,
+    "key": "8d556ae213788b13"
   },
   "consensus": {
     "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "Bursa și firmele de brokeraj: reguli UE actualizate și publicarea datelor pe un portal european unic (din 2030)",
-    "summaryTlDr": "Este o lege tehnică de transpunere a două directive UE, cu termene deja depășite. Nu creează taxe noi, monopoluri sau sancțiuni excesive. Are doar câteva scăpări de redactare și o relaxare limitată, aliniată la ESMA, a interdicției privind opțiunile binare.",
-    "initiatorClaim": "Guvernul spune că transpune Directiva (UE) 2024/790 (modificarea MiFID II) și art. 12 din Directiva (UE) 2023/2864 (ESAP). Scopul declarat este mai multă transparență, acces centralizat la date și evitarea sancțiunilor pentru netranspunere.",
-    "realityCheck": "Legea abrogă dispozițiile mutate în Regulamentul MiFIR (de exemplu raportările anuale privind calitatea execuției, art. 94 alin. (1) și art. 92 alin. (2)-(3)) și cere pieței reglementate cel puțin 3 membri activi. Dă operatorului de piață puterea de a opri tranzacționarea în situații de urgență și actualizează lista contravențiilor la MiFIR, inclusiv interdicția plății pentru fluxul de ordine (art. 39a). Efectele secundare reale sunt modeste: obligația de a obține un cod LEI și de a transmite date în format prelucrabil către A.S.F. din 2030, precum și excepții de la interdicția opțiunilor binare pentru produse cu capital protejat sau cu prospect.",
+    "plainTitle": "Bursa și firmele de brokeraj se aliniază la noile reguli UE: date centralizate, pauze de urgență la tranzacționare, mai puține rapoarte duble",
+    "summaryTlDr": "Este o lege tehnică de transpunere, în mare parte obligatorie și deja întârziată, fără taxe noi și fără sancțiuni inventate la nivel național. Singura relaxare reală de politică publică este introducerea unor excepții strict delimitate de la interdicția opțiunilor binare pentru clienții de retail.",
+    "initiatorClaim": "Guvernul spune că transpune Directiva (UE) 2024/790 (modificarea MiFID II, termen depășit din 29.09.2025) și art.12 din Directiva (UE) 2023/2864 privind punctul unic de acces european (ESAP). Scopul declarat este o transparență mai bună a piețelor și acces centralizat la informații pentru investitori.",
+    "realityCheck": "Legea abrogă prevederi naționale mutate acum în Regulamentul MiFIR, direct aplicabil: interdicția plăților pentru fluxul de ordine (art.91 alin.4), rapoartele anuale privind calitatea execuției (art.92, art.94 alin.1) și sincronizarea ceasurilor (art.146). Ea adaugă reguli noi: minimum 3 membri activi pe o piață reglementată, posibilitatea operatorului de piață de a opri tranzacționarea în situații de urgență și obligația de a transmite date către ESAP din 10.01.2030. Efectul secundar notabil este noul art.104 alin.(1¹), care scoate de sub interdicție opțiunile binare cu capital protejat sau cu prospect și scadență de cel puțin 90 de zile.",
     "affectedGroups": [
       "IMM & Antreprenori",
-      "Contabili & Fiscalitate",
+      "Toți cetățenii",
       "IT & AI",
-      "Justiție & Drepturi Civile"
+      "Contabili & Fiscalitate"
     ],
     "senatForm": {
-      "articleRef": "Art.I pct.34 (art.243² alin.3) și pct.2-3, 31",
-      "proposalContent": "Art.243² alin.(3) partea introductivă: „(3) Informațiile prevăzute la alin.(1) și (2) respectă următoarele cerințe:”. La pct.2: „va avea următorul cuprins”; la pct.3, lit.a¹) se încheie cu „;”. La pct.31 lit.e): „plivind” devine „privind”, cu verificarea numărului și titlului exact al HG nr.907/2025.",
-      "argumentation": "Forma Senatului conține erori de redactare care afectează claritatea normei (art.1 alin.(5) Constituție, Legea 24/2000): partea introductivă a art.243² alin.(3) este ruptă, iar trimiterea la HG 907/2025 are greșeli. Corectarea în raport evită erate și nu schimbă soluția legislativă transpusă din Directivele 2024/790 și 2023/2864.",
-      "otherComments": "Sugerez verificarea trimiterii din art.5 alin.(1) la art.243¹, care va exista abia din 10.01.2030. Sugerez și precizarea în art.104 alin.(1¹) că excepțiile pentru opțiunile binare nu afectează obligațiile de adecvare și avertizare. Termenul de transpunere (29.09.2025) a fost depășit, iar adoptarea rapidă reduce riscul de infringement."
+      "articleRef": "Art.I pct.34 – art.243² alin.(3)",
+      "proposalContent": "La art.243², partea introductivă a alin.(3) se redactează: „(3) Informațiile prevăzute la alin.(1) și (2) respectă următoarele cerințe:”, iar lit.b) pct.(i) devine: „(i) toate denumirile S.S.I.F., ale operatorului de piață sau ale altei persoane la care se referă informațiile;”.",
+      "argumentation": "Forma Senatului conține o eroare de tehnoredactare: „cerințe:” apare înaintea alin.(3), ceea ce face textul neclar. În plus, alin.(1) trimite și la art.253 (decizii de sancționare), care pot viza și alte persoane decât S.S.I.F. sau operatorii de piață. Metadatele trebuie să acopere aceste persoane, conform art.7 din Regulamentul (UE) 2023/2859.",
+      "otherComments": "De corectat: pct.2 („va următorul cuprins”), pct.3 (lit.a¹ se încheie cu virgulă), pct.31 („plivind”), pct.13 („tranzaționare”). Expunerea vorbește de completarea art.253 alin.(8), dar textul introduce alin.(7¹); este necesară corelarea cu alin.(8) privind durata păstrării datelor personale publicate."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 35063,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 128970,
       "sourceEndMarker": "SF-32F1AB76",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Actualizarea regulilor bursei și conectarea la platforma europeană ESAP",
-      "verdictShort": "Proiect tehnic benign care transpune două directive europene privind piețele de capital (MiFID II și ESAP), fără taxe ascunse, monopoluri sau sancțiuni disproporționate. Singura problemă reală constă în câteva erori materiale de redactare rămase în forma Senatului, inclusiv o trimitere greșită într-o normă de sancționare.",
-      "initiatorClaim": "Guvernul justifică proiectul prin obligația de a transpune Directiva (UE) 2024/790 (transparența piețelor financiare) și art. 12 din Directiva (UE) 2023/2864 (Punctul Unic de Acces European - ESAP), pentru a evita procedura de infringement și a îmbunătăți accesul investitorilor la date.",
-      "realityCheck": "În substanță, legea aliniază Legea nr. 126/2018 cu noile reguli UE: abrogă obligații preluate direct de Regulamentul MiFIR (art. 5 alin. 5-7, art. 91-94, art. 146), impune piețelor reglementate minim 3 membri activi și mecanisme de calitate a datelor (art. 137), extinde controlul pozițiilor la derivatele pe certificate de emisii (art. 159-161) și obligă S.S.I.F., operatorii și emitenții să dețină cod LEI pentru raportarea în format prelucrabil către ESAP din 10 ianuarie 2030 (art. 243^1-243^4). În plus, introduce excepții punctuale de la interdicția opțiunilor binare (art. 104 alin. 1^1) și restabilește termenul de 5 ani de menținere a sancțiunilor pe site-ul A.S.F. (art. 253 alin. 7^1).",
+      "plainTitle": "Actualizarea regulilor bursei și conectarea pieței de capital la platforma europeană de date (ESAP)",
+      "verdictShort": "Proiect tehnic, benign și necesar, care transpune două directive UE obligatorii pentru piața de capital și elimină raportări birocratice inutile. Nu conține taxe ascunse sau capcane, ci doar mici scăpări de tehnică legislativă ușor de corectat în comisiile Camerei Deputaților.",
+      "initiatorClaim": "Guvernul susține că proiectul transpune Directiva (UE) 2024/790 (revizuirea MiFID II) și art. 12 din Directiva (UE) 2023/2864 (Punctul Unic de Acces European – ESAP), pentru a crește transparența pieței de capital, a facilita accesul investitorilor la date și a evita sancțiunile UE pentru netranspunere.",
+      "realityCheck": "Textul face exact ce declară inițiatorul: corelează Legea nr. 126/2018 cu Regulamentul (UE) 2024/791 (MiFIR), elimină rapoarte anuale depășite pentru brokeri, întărește mecanismele de oprire a tranzacționării în crize și pregătește raportarea în ESAP din 2030. Efectele secundare sunt minore: emitenții de pe piețele IMM (precum AeRO) vor avea nevoie de cod LEI și formate prelucrabile automat din 2030, iar două mici necorelări tehnice în articolele privind ESAP merită îndreptate.",
       "affectedGroups": [
-        "IMM & Antreprenori"
+        "IMM & Antreprenori",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 32-34 (art. 234, 234^1 și 243^1-243^4): desemnează A.S.F. și B.N.R. drept organisme de colectare pentru ESAP (cu notificare către ESMA până la 9 ianuarie 2030) și obligă emitenții, S.S.I.F. și operatorii de piață să obțină un identificator al entității juridice (LEI) și să transmită informații cu metadate din 10 ianuarie 2030.",
-        "Art. I pct. 18-21 (art. 137-140): obligă operatorii piețelor reglementate să aibă cel puțin 3 membri/utilizatori activi în mod real, să publice parametrii de întrerupere a tranzacționării și dă A.S.F. competența de a interveni dacă operatorul nu oprește tranzacționarea în situații de volatilitate severă.",
-        "Art. I pct. 13 și 35 (art. 104 alin. 1^1 și art. 253 alin. 7^1): exceptează de la interdicția generală anumite opțiuni binare cu risc limitat sau prospect aprobat (aliniere la deciziile ESMA) și obligă A.S.F. să păstreze sancțiunile publicate pe site cel puțin 5 ani.",
-        "Art. I pct. 37 (art. 261 alin. 1 lit. b)): actualizează lista obligațiilor din Regulamentul (UE) nr. 600/2014 a căror încălcare este sancționată, cu intrare în vigoare la 10 zile de la publicare (Art. II lit. b))."
+        "Reducerea birocrației pentru brokeri și actualizarea interdicției PFOF: se abrogă rapoartele periodice de calitate a executării (art. 92 alin. (1)-(3) și art. 94 alin. (1)) și se abrogă art. 91 alin. (4), întrucât interdicția plăților pentru fluxul de ordine (PFOF) se aplică direct prin art. 39a din Regulamentul (UE) nr. 600/2014, inclus acum ca faptă contravențională la art. 261 alin. (1) lit. b) pct. (xxxv).",
+        "Reguli mai stricte de stabilitate și transparență pentru burse: operatorul de piață poate întrerupe tranzacționarea și în situații de urgență (art. 138 alin. (6)), trebuie să publice pe site condițiile și parametrii acestor opriri (art. 140 alin. (1¹)), iar A.S.F. poate interveni direct dacă bursa nu oprește tranzacționarea în condiții de volatilitate perturbatoare (art. 140 alin. (1²)); piața reglementată trebuie să aibă minimum 3 membri activi (art. 137 alin. (1) lit. f²)).",
+        "Integrarea în Punctul Unic de Acces European (ESAP) din 10 ianuarie 2030: A.S.F. (art. 234 lit. e)) și B.N.R. (art. 234¹ lit. c)) devin organisme de colectare, iar cap. II¹ (art. 243¹–243⁴) obligă S.S.I.F., operatorii de piață și emitenții (inclusiv de pe piețele de creștere pentru IMM-uri, conform art. 108 alin. (2¹)) să transmită informațiile publice în format care permite extragerea de date și să dețină un cod LEI (art. 243¹ alin. (3)).",
+        "Excepții stricte la interdicția opțiunilor binare pentru retail (art. 104 alin. (1¹)): față de interdicția totală actuală din art. 104 alin. (1), se preiau cele două excepții ale Deciziei ESMA 2019/509 – produse unde plata minimă acoperă integral suma plătită de client (fără risc de pierdere a capitalului) sau produse cu scadență de minimum 90 de zile, prospect aprobat UE și fără conflict de interese/expunere la riscul de piață pentru furnizor.",
+        "Transparența sancțiunilor și regimul contravențional: se reintroduce obligația A.S.F. de a menține deciziile de sancționare pe site timp de cel puțin 5 ani (art. 253 alin. (7¹), o eroare materială omisă la adoptarea Legii nr. 126/2018) și se actualizează lista contravențiilor din art. 261 alin. (1) lit. b) pentru obligațiile MiFIR, cu termen de intrare în vigoare de 10 zile de la publicare (Art. II lit. b))."
       ],
-      "blindSpotsCaught": "În forma adoptată de Senat s-au strecurat mai multe erori materiale de redactare: la Art. I pct. 37 (art. 261 alin. 1 lit. b) pct. (x)), trimiterea la «art. 11 alin. (1b)» din Regulamentul (UE) nr. 600/2014 este tipărită greșit ca «alin. (lb)» într-o normă de sancționare; la Art. I pct. 2 lipsește verbul «avea» («și va [avea]»); la pct. 27 apare «a alineatul (2)»; la pct. 31 apare «plivind» în loc de «privind»; iar la pct. 34 (art. 243^2 alin. 3) cuvântul «cerințe:» este rupt și mutat deasupra alineatului. Termenele UE de transpunere (29.09.2025 și 10.01.2026) sunt deja depășite, însă Art. II eșalonează corect aplicarea efectivă a raportării ESAP pentru 10 ianuarie 2030, lăsând desemnările A.S.F./B.N.R. să intre în vigoare imediat.",
-      "constitutionalityNote": "Proiectul respectă în ansamblu art. 148 din Constituție (integrarea dreptului UE) și prevede corect un termen de 10 zile pentru intrarea în vigoare a noilor trimiteri sancționatorii (Art. II lit. b)). Totuși, eroarea materială «alin. (lb)» în locul lui «alin. (1b)» de la art. 261 alin. (1) lit. b) pct. (x) afectează claritatea și previzibilitatea normei sancționatorii sub aspectul art. 1 alin. (5) și art. 23 alin. (12) din Constituție și trebuie corectată la Camera Deputaților.",
-      "euLawNote": "Transpune fidel Directiva (UE) 2024/790 și art. 12 din Directiva (UE) 2023/2864, eliminând paralelismele cu Regulamentul (UE) 2024/791 (MiFIR) și respectând regimul pieței interne. Nu introduce restricții asupra profesiilor reglementate în sensul Directivei (UE) 2018/958 (testul de proporționalitate) și nu intră sub incidența obligației de notificare TRIS (Directiva (UE) 2015/1535), fiind o transpunere armonizată în domeniul serviciilor financiare.",
+      "blindSpotsCaught": "Există două necorelări tehnice reale în forma Senatului: (1) la art. 243² alin. (3) lit. b) pct. (i)-(ii), deși alin. (2) obligă B.N.R. să transmită în ESAP date despre entitățile din aria sa de competență (instituțiile de credit) și alin. (1)-(2) vizează inclusiv sancțiunile de la art. 253, metadatele obligatorii menționează exclusiv „S.S.I.F. sau operatorul de piață”, omițând instituțiile de credit și alte persoane sancționate; (2) Art. I pct. 5 (care introduce trimiterea la art. 243¹ în art. 5 alin. (1)) intră în vigoare la 3 zile de la publicare, deși art. 243¹ însuși (pct. 34) intră în vigoare abia la 10 ianuarie 2030, conform Art. II lit. a). În plus, România a depășit deja ambele termene europene de transpunere (29 septembrie 2025 și 10 ianuarie 2026).",
+      "constitutionalityNote": "Proiectul este în linii mari conform cu Constituția României (art. 148 privind integrarea europeană și art. 76 alin. (3) privind procedura de urgență, justificată de depășirea termenelor UE). Regimul contravențional (art. 261 alin. (1) lit. b)) respectă legalitatea și previzibilitatea (art. 1 alin. (5)), trimițând precis la articolele direct aplicabile din Regulamentul (UE) nr. 600/2014 și respectând termenul minim de 10 zile din art. 4 alin. (2) al O.G. nr. 2/2001 pentru cazuri urgente. Menținerea sancțiunilor online timp de 5 ani (art. 253 alin. (7¹)) rămâne proporțională din perspectiva art. 26 (viața privată), întrucât alin. (8) în vigoare limitează expres păstrarea datelor cu caracter personal conform normelor GDPR. Doar lacuna de la art. 243² alin. (3) lit. b) și decalajul de la art. 5 alin. (1) necesită corecții minore de calitate a legii (art. 1 alin. (5)).",
+      "euLawNote": "Proiectul transpune fidel Directiva (UE) 2024/790 (termen depășit: 29.09.2025) și art. 12 din Directiva (UE) 2023/2864 (termen depășit: 10.01.2026), asigurând corelarea cu Regulamentele (UE) nr. 600/2014 (modificat prin 2024/791) și (UE) 2023/2859 (ESAP) și eliminând paralelismele legislative. Directiva (UE) 2018/958 privind testul de proporționalitate nu este incidentă, nefiind vizat accesul la profesii reglementate. Notificarea TRIS în temeiul Directivei (UE) 2015/1535 nu este necesară, deoarece actul reglementează piețe de instrumente financiare și transpune norme armonizate ale Uniunii. Impactul asupra pieței unice și concurenței este pozitiv: reduce costuri administrative depășite, scutește entitățile nefinanciare ce gestionează lichidități (art. 6 alin. (1) lit. d) pct. 2) și crește vizibilitatea emitenților români în fața investitorilor europeni.",
       "senatForm": {
-        "articleRef": "Art. I pct. 37 - art. 261 alin. (1) lit. b)",
-        "proposalContent": "La articolul 261 alineatul (1) litera b), punctul (x) se modifică și va avea următorul cuprins: „(x) art. 11 alin. (1) al doilea paragraf prima teză, alin. (1a) al doilea paragraf, alin. (1b) și alin. (3) al patrulea paragraf;”",
-        "argumentation": "În forma adoptată de Senat apare eroarea materială «alin. (lb)» în loc de «alin. (1b)» din Regulamentul (UE) nr. 600/2014. Fiind o normă de sancționare, trimiterea greșită încalcă cerințele de claritate și previzibilitate a legii (art. 1 alin. (5) din Constituție) și poate bloca aplicarea sancțiunilor.",
-        "otherComments": "Corectați și erorile de redactare din forma Senatului: la Art. I pct. 2 lipsește verbul «avea» («și va [avea]»); la pct. 27 «a alineatul (2)» -> «a alineatului (2)»; la pct. 31 «plivind» -> «privind»; la pct. 34 (art. 243^2 alin. 3) mutați «cerințe:» după «respectă următoarele»."
+        "articleRef": "Art. I pct. 34 (art. 243² alin. (3) lit. b))",
+        "proposalContent": "La art. 243² alin. (3) lit. b), pct. (i) și (ii) se modifică astfel: «(i) toate denumirile S.S.I.F., ale operatorului de piață, ale instituției de credit sau ale persoanei vizate; (ii) dacă este disponibil, identificatorul entității juridice al acestora, potrivit art. 7 alin. (4) lit. (b) din Regulamentul (UE) 2023/2859;».",
+        "argumentation": "Art. 243² alin. (2) obligă B.N.R. să transmită în ESAP date despre instituțiile de credit, iar art. 253 vizează și alte entități sancționate. Limitarea metadatelor de la alin. (3) lit. b) doar la S.S.I.F. și operatori de piață creează o lacună tehnică contrară clarității legii (art. 1 alin. (5) din Constituție).",
+        "otherComments": "Se recomandă și corelarea Art. II lit. a) cu Art. I pct. 5 (trimiterea la art. 243¹ din art. 5 alin. (1) ar trebui să intre în vigoare tot la 10.01.2030, odată cu art. 243¹), precum și corectarea micilor erori materiale din forma Senatului (lipsa verbului «avea» la pct. 2 și grafia «alin. (1b)» la pct. 37 pct. (x))."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 67546,
+      "durationMs": 57380,
       "sourceEndMarker": "SF-32F1AB76",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Bursa și firmele de brokeraj: reguli UE actualizate și publicarea datelor pe un portal european unic (din 2030)",
-      "verdictShort": "Este o lege tehnică de transpunere a două directive UE, cu termene deja depășite. Nu creează taxe noi, monopoluri sau sancțiuni excesive. Are doar câteva scăpări de redactare și o relaxare limitată, aliniată la ESMA, a interdicției privind opțiunile binare.",
-      "initiatorClaim": "Guvernul spune că transpune Directiva (UE) 2024/790 (modificarea MiFID II) și art. 12 din Directiva (UE) 2023/2864 (ESAP). Scopul declarat este mai multă transparență, acces centralizat la date și evitarea sancțiunilor pentru netranspunere.",
-      "realityCheck": "Legea abrogă dispozițiile mutate în Regulamentul MiFIR (de exemplu raportările anuale privind calitatea execuției, art. 94 alin. (1) și art. 92 alin. (2)-(3)) și cere pieței reglementate cel puțin 3 membri activi. Dă operatorului de piață puterea de a opri tranzacționarea în situații de urgență și actualizează lista contravențiilor la MiFIR, inclusiv interdicția plății pentru fluxul de ordine (art. 39a). Efectele secundare reale sunt modeste: obligația de a obține un cod LEI și de a transmite date în format prelucrabil către A.S.F. din 2030, precum și excepții de la interdicția opțiunilor binare pentru produse cu capital protejat sau cu prospect.",
+      "plainTitle": "Bursa și firmele de brokeraj se aliniază la noile reguli UE: date centralizate, pauze de urgență la tranzacționare, mai puține rapoarte duble",
+      "verdictShort": "Este o lege tehnică de transpunere, în mare parte obligatorie și deja întârziată, fără taxe noi și fără sancțiuni inventate la nivel național. Singura relaxare reală de politică publică este introducerea unor excepții strict delimitate de la interdicția opțiunilor binare pentru clienții de retail.",
+      "initiatorClaim": "Guvernul spune că transpune Directiva (UE) 2024/790 (modificarea MiFID II, termen depășit din 29.09.2025) și art.12 din Directiva (UE) 2023/2864 privind punctul unic de acces european (ESAP). Scopul declarat este o transparență mai bună a piețelor și acces centralizat la informații pentru investitori.",
+      "realityCheck": "Legea abrogă prevederi naționale mutate acum în Regulamentul MiFIR, direct aplicabil: interdicția plăților pentru fluxul de ordine (art.91 alin.4), rapoartele anuale privind calitatea execuției (art.92, art.94 alin.1) și sincronizarea ceasurilor (art.146). Ea adaugă reguli noi: minimum 3 membri activi pe o piață reglementată, posibilitatea operatorului de piață de a opri tranzacționarea în situații de urgență și obligația de a transmite date către ESAP din 10.01.2030. Efectul secundar notabil este noul art.104 alin.(1¹), care scoate de sub interdicție opțiunile binare cu capital protejat sau cu prospect și scadență de cel puțin 90 de zile.",
       "affectedGroups": [
         "IMM & Antreprenori",
+        "IT & AI",
         "Contabili & Fiscalitate",
-        "IT & AI"
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 13 (art. 104 alin. (1¹)): permite vânzarea către retail a unor opțiuni binare, și anume cele la care plata minimă acoperă integral costul sau cele cu scadență de cel puțin 90 de zile, prospect aprobat și fără risc de piață pentru furnizor. Excepțiile preiau Decizia ESMA 2019/509, deci riscul pentru investitori rămâne limitat.",
-        "Art. I pct. 34 (art. 243¹-243⁴): din 10.01.2030, S.S.I.F., operatorii de piață și emitenții trebuie să transmită simultan către A.S.F. informațiile publicate, în format care permite extragerea datelor și cu metadate. Trebuie să obțină și un identificator LEI (art. 243¹ alin. (3)). Este un cost administrativ mic, dar nou, iar Secțiunea 4 a expunerii nu îl cuantifică.",
-        "Art. I pct. 37 (art. 261 alin. (1) lit. b)): lista contravențiilor la MiFIR este rescrisă și include art. 5, 8a, 8b, 22a-22c și 39a. Art. 18 dispare din listă, conform directivei. Art. II lit. b) amână intrarea în vigoare a sancțiunilor cu 10 zile, ceea ce respectă neretroactivitatea.",
-        "Art. I pct. 18 (art. 137 alin. (1) lit. f²)) și pct. 19-21 (art. 138-140): pragul de 3 membri activi pentru piața reglementată, obligația de a publica criteriile de întrerupere a tranzacționării și competența A.S.F. de a interveni (art. 140 alin. (1²)) prin puterile deja existente la art. 236 alin. (3) lit. m)-p).",
-        "Art. I pct. 32-33: A.S.F. și BNR sunt desemnate organisme de colectare ESAP și trebuie să informeze ESMA până la 9.01.2030. Art. I pct. 35 (art. 253 alin. (7¹)) introduce păstrarea pe site timp de 5 ani a informațiilor publicate de A.S.F. și corectează astfel o omisiune veche a transpunerii art. 71 alin. (3) MiFID."
+        "Art.I pct.13 (art.104 alin.1¹): sunt exceptate de la interdicția opțiunilor binare pentru retail produsele la care plata minimă acoperă integral costul clientului și cele cu scadență de cel puțin 90 de zile, prospect aprobat și fără risc de piață pentru furnizor. Excepțiile urmează Decizia ESMA 2019/509 și sunt suficient de restrictive, dar reprezintă o relaxare față de interdicția absolută actuală.",
+        "Art.I pct.7 (art.6 alin.1 lit.d pct.2): accesul electronic direct la un loc de tranzacționare nu mai atrage, singur, aplicarea legii, iar entitățile nefinanciare beneficiază și de excepția pentru gestiunea lichidităților. Scutirea de licență se extinde, conform directivei.",
+        "Art.I pct.8, 10, 11 și 23: sunt abrogate interdicția națională a plăților pentru fluxul de ordine, rapoartele RTS 27/28 și sincronizarea ceasurilor. Obligațiile nu dispar: sunt preluate de MiFIR (art.39a, art.22c), iar art.39a figurează în noua listă de contravenții (pct.37).",
+        "Art.I pct.18 (art.137 alin.1 lit.f²): o piață reglementată trebuie să aibă cel puțin 3 membri sau utilizatori activi în mod real, la fel ca SMT/SOT.",
+        "Art.I pct.19-21 (art.138-140): operatorul de piață poate opri tranzacționarea și în situații de urgență și trebuie să publice criteriile de oprire. A.S.F. poate interveni dacă operatorul nu oprește tranzacționarea în pofida unor evoluții de preț perturbatoare.",
+        "Art.II lit.b): contravențiile modificate (pct.36-37) intră în vigoare la 10 zile de la publicare, adică la minimul permis de art.4 alin.(2) din OG nr.2/2001 pentru cazuri urgente. Dispozițiile ESAP intră în vigoare la 10.01.2030."
       ],
-      "blindSpotsCaught": "Am găsit mai multe scăpări de redactare. (1) La art. 243² alin. (3), partea introductivă apare ruptă (cuvântul „cerințe:” este plasat înaintea alineatului). Poate fi un artefact de extragere, dar trebuie verificat. (2) Art. I pct. 2 spune „va următorul cuprins”, iar lit. a¹) se încheie cu virgulă. (3) La pct. 31 apare „plivind” în loc de „privind”, iar trimiterea la HG nr. 907/2025 înlocuiește HG nr. 780/2006 din centralizator, deci existența și titlul exact al HG trebuie verificate. (4) Art. 5 alin. (1) trimite deja la art. 243¹, care va intra în vigoare abia la 10.01.2030. (5) Expunerea de motive vorbește despre completarea art. 253 alin. (8), dar textul introduce un alin. (7¹). (6) Secțiunea 4 afirmă un impact bugetar pozitiv fără nicio cifră. Expunerea de motive este trunchiată (83.021 de caractere lipsă), deci nu am putut verifica integral centralizatorul pentru ESAP.",
-      "constitutionalityNote": "Nu am identificat probleme constituționale de fond. Este o lege ordinară, Senatul a fost prima Cameră și Camera Deputaților este decizională, conform art. 75 alin. (1). Adoptarea s-a făcut potrivit art. 76 alin. (2), iar procedura de urgență potrivit art. 76 alin. (3). Transpunerea pune în aplicare art. 148 alin. (2)-(4). Sancțiunile intră în vigoare după publicare, deci art. 15 alin. (2) este respectat. Erorile de redactare și trimiterea la un articol care încă nu este în vigoare afectează marginal calitatea legii (art. 1 alin. (5), Legea 24/2000), dar nu ating previzibilitatea normei, așa cum o înțelege jurisprudența CCR.",
-      "euLawNote": "Legea este în esență conformă și necesară: termenul de transpunere pentru Directiva 2024/790 a expirat la 29.09.2025, iar pentru Directiva 2023/2864 la 10.01.2026, deci există risc de procedură de infringement. Directiva 2018/958 (testul de proporționalitate) nu se aplică, pentru că nu sunt reglementate profesii. Nici TRIS (2015/1535) nu se aplică: nu sunt reguli tehnice pentru servicii ale societății informaționale, iar textul transpune oricum acte UE. Abrogările evită dublarea cu MiFIR (Regulamentul 2024/791), iar excepțiile pentru opțiunile binare urmează Decizia ESMA 2019/509. Normele nu restrâng piața unică.",
+      "blindSpotsCaught": "Art.243² din forma Senatului are o eroare de tehnoredactare: cuvântul „cerințe:” este plasat înaintea alin.(3), iar partea introductivă este ruptă. Același articol trimite la art.253 alin.(1)-(7), adică la deciziile de sancționare, care pot viza și persoane fizice. Metadatele prevăzute acoperă însă doar „S.S.I.F. sau operatorul de piață”, așa că date personale ale sancționaților ajung în ESAP fără o corelare clară cu alin.(8) privind durata de păstrare. Expunerea de motive anunță completarea art.253 alin.(8), dar textul introduce un alin.(7¹) separat. Există și greșeli minore: „va următorul cuprins” (pct.2), lit.a¹ încheiată cu virgulă (pct.3), „plivind” (pct.31), „tranzaționare” (pct.13).",
+      "constitutionalityNote": "Nu se observă probleme constituționale de fond. Transpunerea unor directive se încadrează în art.148 alin.(2) și (4) din Constituție, iar procedura de urgență este justificată de depășirea termenului de transpunere. Erorile de redactare din art.243² și trimiterile încrucișate neuniforme (art.106 alin.3¹ trimite la art.243², art.108 și 136 la art.243¹) afectează ușor claritatea cerută de art.1 alin.(5), dar pot fi corectate în comisie. Regimul contravențional respectă termenul minim de 10 zile din OG nr.2/2001 și nu creează sancțiuni retroactive.",
+      "euLawNote": "Proiectul transpune în mod fidel Directiva (UE) 2024/790 și art.12 din Directiva (UE) 2023/2864, iar abrogările evită dublarea normelor cu MiFIR modificat prin Regulamentul (UE) 2024/791, ceea ce este corect. Testul de proporționalitate din Directiva 2018/958 nu este relevant: proiectul nu reglementează accesul la o profesie, iar cerințele noi provin direct din dreptul UE. Notificarea TRIS (2015/1535) nu este necesară, pentru că proiectul nu creează reguli tehnice naționale pentru servicii ale societății informaționale dincolo de cele armonizate. România riscă în prezent o procedură de constatare a neîndeplinirii obligațiilor pentru transpunerea întârziată a Directivei 2024/790, deci adoptarea rapidă este în interes public.",
       "senatForm": {
-        "articleRef": "Art.I pct.34 (art.243² alin.3) și pct.2-3, 31",
-        "proposalContent": "Art.243² alin.(3) partea introductivă: „(3) Informațiile prevăzute la alin.(1) și (2) respectă următoarele cerințe:”. La pct.2: „va avea următorul cuprins”; la pct.3, lit.a¹) se încheie cu „;”. La pct.31 lit.e): „plivind” devine „privind”, cu verificarea numărului și titlului exact al HG nr.907/2025.",
-        "argumentation": "Forma Senatului conține erori de redactare care afectează claritatea normei (art.1 alin.(5) Constituție, Legea 24/2000): partea introductivă a art.243² alin.(3) este ruptă, iar trimiterea la HG 907/2025 are greșeli. Corectarea în raport evită erate și nu schimbă soluția legislativă transpusă din Directivele 2024/790 și 2023/2864.",
-        "otherComments": "Sugerez verificarea trimiterii din art.5 alin.(1) la art.243¹, care va exista abia din 10.01.2030. Sugerez și precizarea în art.104 alin.(1¹) că excepțiile pentru opțiunile binare nu afectează obligațiile de adecvare și avertizare. Termenul de transpunere (29.09.2025) a fost depășit, iar adoptarea rapidă reduce riscul de infringement."
+        "articleRef": "Art.I pct.34 – art.243² alin.(3)",
+        "proposalContent": "La art.243², partea introductivă a alin.(3) se redactează: „(3) Informațiile prevăzute la alin.(1) și (2) respectă următoarele cerințe:”, iar lit.b) pct.(i) devine: „(i) toate denumirile S.S.I.F., ale operatorului de piață sau ale altei persoane la care se referă informațiile;”.",
+        "argumentation": "Forma Senatului conține o eroare de tehnoredactare: „cerințe:” apare înaintea alin.(3), ceea ce face textul neclar. În plus, alin.(1) trimite și la art.253 (decizii de sancționare), care pot viza și alte persoane decât S.S.I.F. sau operatorii de piață. Metadatele trebuie să acopere aceste persoane, conform art.7 din Regulamentul (UE) 2023/2859.",
+        "otherComments": "De corectat: pct.2 („va următorul cuprins”), pct.3 (lit.a¹ se încheie cu virgulă), pct.31 („plivind”), pct.13 („tranzaționare”). Expunerea vorbește de completarea art.253 alin.(8), dar textul introduce alin.(7¹); este necesară corelarea cu alin.(8) privind durata păstrării datelor personale publicate."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 108783,
+      "durationMs": 177764,
       "sourceEndMarker": "SF-32F1AB76",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Reguli europene pentru tranzacții bursiere și acces la informații financiare",
-      "verdictShort": "Proiectul este predominant tehnic și util: modernizează supravegherea pieței și accesul la informații financiare. Excepțiile pentru opțiuni binare și publicarea datelor personale cer atenție, dar textul nu indică un monopol nou, taxe generale sau sancțiuni vădit disproporționate.",
-      "initiatorClaim": "Guvernul urmărește transpunerea modificărilor europene privind piețele financiare și punctul unic de acces european la informații, ESAP. Inițiatorul promite transparență sporită, acces mai simplu la date și evitarea consecințelor întârzierii transpunerii.",
-      "realityCheck": "Legea modifică obligațiile intermediarilor, regulile locurilor de tranzacționare și lista încălcărilor sancționabile; raportările ESAP se aplică din 10 ianuarie 2030. Introduce și excepții de la interdicția opțiunilor binare pentru clienții de retail, deci nu reprezintă exclusiv transpunerea celor două directive invocate. Nu instituie obligații generale pentru cetățeni sau toate IMM-urile, însă entitățile financiare și emitenții vizați suportă costuri de adaptare informatică și administrativă.",
+      "plainTitle": "Reguli actualizate pentru bursă și acces european la informații financiare",
+      "verdictShort": "Proiectul este predominant tehnic și util pentru transparența și funcționarea pieței financiare. Schimbarea care merită cea mai mare atenție este permiterea unor opțiuni binare pentru investitorii de retail, prin excepții strict delimitate de la interdicția actuală.",
+      "initiatorClaim": "Guvernul urmărește transpunerea modificărilor europene privind piețele financiare și pregătirea accesului centralizat la informații prin platforma europeană ESAP. Inițiatorul promite transparență mai bună, raportări armonizate și acces mai ușor la date pentru investitori.",
+      "realityCheck": "Proiectul adaptează supravegherea tranzacțiilor, elimină anumite raportări publice și pregătește transmiterea în ESAP a unor informații deja publicabile, adăugând cerințe tehnice și metadate. Separat de transpunerea celor două directive, introduce excepții de la interdicția opțiunilor binare pentru retail: una protejează suma totală plătită, cealaltă nu garantează recuperarea investiției. Nu introduce taxe pentru populație, monopoluri nominale sau majorări ale plafoanelor amenzilor, dar presupune costuri de adaptare pentru entitățile supravegheate.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Justiție & Drepturi Civile",
-        "Toți cetățenii"
+        "Agricultură & Mediu"
       ],
       "keyFindings": [
-        "Art. I pct. 13 introduce două excepții distincte pentru opțiunile binare. Prima presupune recuperarea cel puțin a plății totale, inclusiv costurile; a doua cere cumulativ minimum 90 de zile, prospect aprobat și condiții privind riscul și veniturile furnizorului. A doua excepție nu garantează recuperarea capitalului investitorului.",
-        "Art. I pct. 2-3 modifică însăși definiția opțiunilor binare, inclusiv prin condiția plății numai la lichidare sau scadență. Definiția și excepțiile trebuie analizate împreună pentru stabilirea produselor acoperite de interdicție.",
-        "Art. I pct. 8-12 elimină unele raportări privind executarea ordinelor, dar păstrează examinarea regulată a locurilor de executare și introduce informarea clientului despre locul executării pentru instrumentele vizate. Eliminarea unor raportări nu echivalează cu eliminarea obligației de a urmări cel mai bun rezultat pentru client.",
-        "Art. I pct. 6 și 23 abrogă dispoziții naționale pe care expunerea le prezintă drept transferate în MiFIR. Abrogarea trebuie citită împreună cu regulamentul european direct aplicabil; nu poate fi calificată automat drept dereglementare.",
-        "Art. I pct. 18 impune piețelor reglementate minimum trei membri sau utilizatori efectiv activi. Cerința urmărește interacțiunea reală la formarea prețurilor, dar poate crea dificultăți piețelor foarte mici; textul nu prevede o perioadă distinctă de adaptare.",
-        "Art. I pct. 34 introduce transmiterea informațiilor și metadatelor către ESAP, inclusiv obligația obținerii unui identificator al entității juridice pentru destinatarii art. 243¹. Afirmația că nu apar raportări suplimentare trebuie nuanțată: informația poate exista deja, dar transmiterea structurată și metadatele presupun operațiuni suplimentare.",
-        "Art. I pct. 35 impune păstrarea pe site-ul ASF a oricărei informații publicate potrivit art. 253 pentru minimum cinci ani. Aplicarea trebuie corelată cu protecția datelor personale; termenul minim al publicării nu justifică automat păstrarea tuturor datelor identificabile pe aceeași durată.",
-        "Art. II diferențiază intrarea în vigoare: regula generală este de trei zile, dispozițiile ESAP enumerate sunt amânate până în 2030, iar modificările contravenționale de la pct. 36-37 intră în vigoare după zece zile. Proiectul nu stabilește aici cuantumuri noi ale amenzilor, ci modifică faptele sancționabile."
+        "Art. I pct. 13: în prezent, art. 104 alin. (1) interzice comercializarea profesională a opțiunilor binare către retail sau consumatori. Proiectul permite două categorii distincte: produse al căror rezultat minim acoperă întreaga plată, inclusiv costurile, și produse care îndeplinesc cumulativ condițiile privind scadența de minimum 90 de zile, prospectul și remunerarea furnizorului.",
+        "În a doua excepție pentru opțiuni binare, lipsa expunerii furnizorului la riscul de piață nu echivalează cu protejarea capitalului clientului. Prospectul aprobat asigură informarea în condițiile legislației aplicabile, fără să garanteze rentabilitatea sau recuperarea investiției.",
+        "Art. I pct. 2-3 modifică și definiția opțiunii binare, inclusiv prin condiția plății numai la lichidare sau scadență. Încadrarea unui produs și aplicarea interdicției trebuie analizate împreună cu această definiție; modificarea nu reprezintă o autorizare generală a produselor derivate pentru retail.",
+        "Art. I pct. 9-12 elimină raportările publice despre calitatea executării și despre principalele cinci locuri de executare. Noua obligație din art. 92 alin. (1) privește instrumentele supuse obligațiilor europene de tranzacționare, față de formularea generală a actualului alin. (2); celelalte obligații europene de confirmare și informare trebuie însă luate în calcul înainte de a concluziona că un client pierde orice informare.",
+        "Obligația obținerii celui mai bun rezultat pentru client rămâne la art. 91 alin. (1)-(3). Rămân și monitorizarea politicii de executare, notificarea modificărilor importante și obligațiile de demonstrare prevăzute la art. 94 alin. (2), (4)-(6). Eliminarea rapoartelor publice nu elimină aceste garanții.",
+        "Art. I pct. 6, 8 și 23 abrogă dispoziții privind sistemele multilaterale, remunerarea direcționării ordinelor și sincronizarea ceasurilor. Aceste abrogări trebuie citite împreună cu MiFIR modificat, care preia reglementarea relevantă; nu rezultă o liberalizare generală a activității fără autorizare sau a plăților pentru fluxul de ordine.",
+        "Art. I pct. 7 lărgește posibilitatea aplicării exonerării pentru tranzacționarea pe cont propriu: elimină accesul electronic direct ca motiv autonom de excludere de la exonerare și include gestiunea lichidităților în excepția destinată entităților nefinanciare. Celelalte condiții și motive de excludere din art. 6 rămân aplicabile.",
+        "Art. I pct. 18-21 introduce standarde de calitate a datelor, minimum trei membri sau utilizatori efectiv activi pentru piața reglementată și publicarea principiilor întreruperii tranzacționării. Puterea de anulare, modificare sau corectare a tranzacțiilor în cazuri excepționale exista deja; noutatea include situațiile de urgență și mecanismul explicit de intervenție al ASF.",
+        "Art. I pct. 27-31 extinde controlul administrării pozițiilor la derivatele pe certificate de emisii și modifică raportarea pozițiilor. Raportarea săptămânală există deja; proiectul cere două rapoarte pentru locurile unde se tranzacționează opțiuni și restrânge formulările relevante de la certificatele de emisii și derivatele lor la instrumentele derivate pe certificate.",
+        "Art. I pct. 32-34 și art. II diferențiază desemnarea organismelor de colectare de funcționarea raportării ESAP. Desemnarea ASF și BNR intră sub regula generală de intrare în vigoare, notificarea ESMA trebuie făcută până la 9 ianuarie 2030, iar dispozițiile ESAP amânate expres se aplică de la 10 ianuarie 2030. Sunt necesare formate tehnice, metadate și, pentru entitățile vizate de art. 243¹, identificatori LEI.",
+        "Art. I pct. 35 introduce păstrarea informațiilor despre sancțiuni pe site-ul ASF minimum cinci ani. Nu abrogă art. 253 alin. (8), regulile privind anonimizarea sau publicarea căilor de atac și a anulării sancțiunilor. Termenul de cinci ani nu trebuie interpretat ca justificare automată pentru păstrarea tuturor datelor personale pe întreaga perioadă.",
+        "Art. I pct. 36-37 actualizează faptele contravenționale prin raportare la MiFIR; proiectul nu modifică plafoanele sancțiunilor. Art. II lit. b) stabilește pentru aceste modificări intrarea în vigoare la zece zile de la publicare, distinct de termenul general de trei zile și de aplicarea ESAP în 2030."
       ],
-      "blindSpotsCaught": "Excepțiile pentru opțiuni binare sunt o alegere normativă suplimentară, motivată printr-o decizie ESMA, nu o consecință demonstrată a celor două directive transpuse. De asemenea, sancționarea încălcării art. 39a MiFIR, inclusă la art. I pct. 37, privește interdicția europeană referitoare la plățile pentru fluxul de ordine. Data aplicării ESAP în 2030 trebuie separată de termenul transpunerii: potrivit expunerii, termenele de transpunere erau deja depășite la adoptarea de către Senat.",
-      "constitutionalityNote": "Nu rezultă din text o neconstituționalitate evidentă. Art. 1 alin. (5) impune trimiteri normative clare și corelarea dintre obligații, abrogări și sancțiuni; eventualele erori ale extrasului trebuie verificate în documentul oficial înainte de a fi atribuite legiuitorului. Art. 23 alin. (12) privește pedepsele penale, iar pentru contravenții sunt relevante legalitatea, previzibilitatea și legea mai favorabilă, inclusiv art. 15 alin. (2). Publicarea sancțiunilor trebuie să respecte viața privată, protejată de art. 26. Adoptarea ca lege ordinară nu prezintă, prin obiectul descris, o problemă evidentă; respectarea procedurii și a bicameralismului necesită documentele parlamentare complete.",
-      "euLawNote": "Conținutul urmărește în principal corelarea MiFID II cu MiFIR și organizarea ESAP, obiective favorabile transparenței și pieței unice. Directiva 2018/958 privește restricțiile privind accesul la profesii reglementate sau exercitarea lor: nu devine aplicabilă automat oricărei condiții impuse unui operator financiar, iar textul nu evidențiază o nouă rezervare profesională care să declanșeze acest test. Raportarea electronică nu declanșează singură notificarea TRIS potrivit Directivei 2015/1535; trebuie avute în vedere excluderile pentru serviciile financiare și normele care execută obligații europene. Nu sunt reglementate servicii AI. Excepțiile pentru opțiuni binare necesită justificare proprie privind protecția investitorilor; invocarea Deciziei ESMA 2019/509 nu demonstrează singură o obligație actuală de a le introduce.",
+      "blindSpotsCaught": "Excepțiile pentru opțiuni binare sunt prezentate în expunere printre modificările suplimentare, nu ca obligație de transpunere a celor două directive. Trimiterea la o decizie temporară ESMA din 2019 explică modelul excepțiilor, dar nu dovedește o obligație actuală de relaxare a interdicției naționale. De asemenea, termenele de transpunere menționate în documente, 29 septembrie 2025 și 10 ianuarie 2026, sunt distincte de aplicarea ESAP în 2030: amânarea raportării nu remediază întârzierea transpunerii. Expunerea recunoaște costuri informatice, fără să le cuantifice, iar termenul general de trei zile lasă puțin timp pentru adaptările imediate.",
+      "constitutionalityNote": "Din textul furnizat nu rezultă o încălcare constituțională evidentă. Pentru art. 1 alin. (5), trebuie verificate exactitatea trimiterilor sancționatorii și corelarea circuitelor ASF–BNR; grafia «alin. (lb)» din extras trebuie confruntată cu documentul oficial înainte de a fi tratată drept defect legislativ. Proiectul nu introduce infracțiuni; legalitatea și previzibilitatea sancțiunilor, inclusiv în raport cu art. 23 alin. (12), trebuie evaluate potrivit naturii lor contravenționale. Sunt aplicabile neretroactivitatea și legea contravențională mai favorabilă, conform art. 15 alin. (2). Publicitatea sancțiunilor implică art. 26 privind viața privată, dar garanțiile existente nu sunt eliminate. Costurile de implementare necuantificate nu demonstrează singure încălcarea art. 138 alin. (5), în lipsa identificării unor cheltuieli bugetare suplimentare impuse fără sursă de finanțare.",
+      "euLawNote": "Arhitectura proiectului corespunde obiectivelor declarate ale Directivei (UE) 2024/790 și art. 12 din Directiva (UE) 2023/2864, însă conformitatea integrală necesită confruntarea fiecărei trimiteri cu textele europene aplicabile. Regulamentele UE rămân direct aplicabile după abrogarea dispozițiilor naționale corespunzătoare. Directiva 2018/958 privește restricțiile privind accesul la profesii reglementate sau exercitarea lor; autorizarea unei firme ori cerințele pentru o piață de tranzacționare nu declanșează automat acest test. Cerința celor trei participanți activi urmărește funcționarea multilaterală, fără să instituie un monopol. Formatele digitale și raportarea electronică nu fac automat proiectul notificabil prin TRIS; Directiva 2015/1535 conține o excludere relevantă pentru materiile acoperite de legislația UE privind serviciile financiare. Nu există reglementare specifică AI. GDPR și regulile speciale privind publicarea datelor personale rămân aplicabile. Verificarea externă nu a fost disponibilă; concluziile se bazează pe documentele furnizate, iar expunerea de motive este explicit incompletă.",
       "senatForm": {
         "articleRef": "Art. I pct. 35 – art. 253 alin. (7¹)",
-        "proposalContent": "„(7¹) A.S.F. menține pe site-ul său informațiile publicate în temeiul prezentului articol cel puțin 5 ani. Prin excepție, datele cu caracter personal se mențin numai pe perioada necesară scopului publicării, cu respectarea Regulamentului (UE) 2016/679.”",
-        "argumentation": "Termenul minim de publicare a informațiilor despre sancțiuni trebuie separat de durata păstrării datelor personale identificabile. Precizarea protejează viața privată și reflectă distincția din art. 71 alin. (3) MiFID II, fără a reduce transparența informațiilor nepersonale.",
-        "otherComments": "Analiza privește forma Senatului furnizată. Expunerea este trunchiată, iar sursele externe nu au putut fi consultate. Stadiul parlamentar, legislația consolidată și corelarea amendamentului cu actualul art. 253 alin. (8) necesită verificare înaintea depunerii."
+        "proposalContent": "(7¹) A.S.F. menține informațiile publicate în temeiul prezentului articol pe site-ul său de internet cel puțin 5 ani de la publicare, cu respectarea alin. (4)-(8). Datele cu caracter personal rămân publice numai atât timp cât este necesar potrivit legislației privind protecția datelor cu caracter personal.",
+        "argumentation": "Termenul minim privește publicitatea informațiilor despre sancțiuni și nu justifică automat păstrarea numelor timp de cinci ani. Alin. (8) rămâne în vigoare; completarea clarifică raportul dintre transparență, anonimizare și protecția datelor, păstrând publicitatea sancțiunilor.",
+        "otherComments": "Propunere pentru comisiile Camerei Deputaților care întocmesc raportul. Termenul comunicat, 16.04.2026, este depășit la data analizei, 24.11.2026. Transmiterea unei petiții nu echivalează cu depunerea unui amendament; preluarea de către un deputat depinde de procedura și stadiul parlamentar efectiv."
       },
       "reachedEnd": true,
       "status": "ok"
     }
   },
   "history": [
+    {
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-19T12:17:37.122Z",
+      "method": "whole-text-v1",
+      "textChars": 27370,
+      "form": "senat",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:19:10.508Z",
+      "reasons": [
+        "model"
+      ]
+    },
     {
       "riskScore": 2.3,
       "riskLevel": "green",

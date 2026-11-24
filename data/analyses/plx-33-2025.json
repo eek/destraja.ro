@@ -2,7 +2,7 @@
   "billId": "Pl-x 33/2025",
   "slug": "plx-33-2025",
   "version": "initiator",
-  "updatedAt": "2026-11-19T14:20:59.918Z",
+  "updatedAt": "2026-11-24T15:20:57.123Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -12,13 +12,31 @@
     "memoSupplied": 2358,
     "marker": "SF-BC6869AD"
   },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-33-2025.json",
+    "form": "initiator",
+    "textHash": "bc6869ad0d7f1d33",
+    "fetchedAt": "2026-11-20T07:45:30.277Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 6.7,
+    "riskScore": 6.3,
     "riskLevel": "yellow",
-    "plainTitle": "Interzicerea celui de-al doilea post plătit de stat",
-    "summaryTlDr": "Ideea de a tăia sinecurile e legitimă, dar textul lovește orbește. Poate interzice gărzile medicilor în alt spital, orele profesorilor la altă școală și activitatea clinică din spitalele universitare, fără tranziție și fără să spună ce se întâmplă cu contractele existente, în timp ce aleșii locali rămân scutiți.",
-    "initiatorClaim": "Inițiatorii vor să evite conflictele de interese, să reducă cheltuielile publice și să elibereze posturi pentru mai mulți oameni. Pentru asta, propun ca o persoană să nu mai poată avea două sau mai multe contracte, raporturi de serviciu ori numiri plătite din bugetul de stat.",
-    "realityCheck": "Art. 1 interzice în bloc al doilea contract de muncă, raport de serviciu sau act de numire în instituții publice și companii de stat, fără să distingă între o sinecură într-un consiliu de administrație și o gardă de noapte într-un spital județean. Condiția „retribuite de la bugetul de stat” nu se potrivește cu felul în care sunt finanțate entitățile enumerate (spitalele în principal din FNUASS, primăriile din bugete locale, companiile de stat din venituri proprii), așa că nici angajatorii, nici angajații nu pot ști sigur cui se aplică. Legea nu are sancțiuni, termen de aplicare sau reguli pentru contractele în curs, iar economia promisă nu e demonstrată: munca făcută azi prin cumul tot va trebui plătită cuiva, probabil prin ore suplimentare sau angajări noi.",
+    "plainTitle": "Un singur post plătit de stat de persoană: fără al doilea contract sau a doua numire la stat",
+    "summaryTlDr": "Scopul de a reduce risipa și conflictele de interese e legitim. Textul e însă un singur articol vag, fără sancțiuni, fără termen de conformare și fără excepții pentru profesori, medici și cercetători, așa că poate lăsa școli și spitale fără personal sau poate rămâne neaplicabil.",
+    "initiatorClaim": "Inițiatorii spun că vor să evite conflictele de interese, să reducă cheltuielile publice și să distribuie mai bine posturile, astfel încât mai mulți oameni să lucreze la stat în loc ca unii să cumuleze funcții.",
+    "realityCheck": "Art. 1 interzice deținerea a două sau mai multe contracte de muncă, rapoarte de serviciu sau acte de numire la instituții publice, regii și companii de stat sau ale autorităților locale, când acestea sunt plătite «de la bugetul de stat». Nu spune ce se întâmplă cu contractele existente, cine verifică, ce sancțiune există și când intră în vigoare. Criteriul «bugetul de stat» lasă neclar dacă sunt vizate primăriile (bugete locale), spitalele (FNUASS) și companiile de stat (venituri proprii), adică exact entitățile enumerate. Cumulul nu reduce cheltuielile când al doilea contract acoperă un post greu de ocupat: ore de predare, gărzi, cercetare. Interdicția poate deci produce deficit de personal, nu economii.",
     "affectedGroups": [
       "Angajați & HR",
       "Sănătate & Educație",
@@ -26,116 +44,139 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 1 – reformulare",
-      "proposalContent": "Art. 1: «(1) O persoană poate deține cel mult un act de numire remunerat în consilii de administrație ori de supraveghere la regii autonome și societăți cu capital majoritar de stat ori al unei UAT. (2) Cumulul de funcții de execuție rămâne permis dacă timpul total de muncă nu depășește 48 de ore pe săptămână. (3) Se aplică după 12 luni de la publicare.»",
-      "argumentation": "Art. 1 poate interzice orice al doilea contract în sectorul public, deci și gărzile medicilor în alt spital, activitatea clinică a profesorilor de medicină sau orele la altă școală, fără perioadă de tranziție. Sinecurile din consiliile de administrație pot fi limitate țintit, iar plafonul de 48 de ore protejează sănătatea angajatului (Directiva 2003/88).",
-      "otherComments": "Lipsesc sancțiunile, regimul contractelor în curs și regula despre ce contract se păstrează. „Bugetul de stat” nu acoperă spitalele finanțate în principal din FNUASS, primăriile (bugete locale) sau companiile de stat, deși art. 1 le include. Art. 2 trimite la Legea nr. 1/2011, abrogată în 2023. Nu există fișă financiară și nici corelare cu art. 35 din Codul muncii."
+      "articleRef": "Art. 1 (completare cu alin. 2 și 3)",
+      "proposalContent": "La art. 1, «bugetul de stat» devine «bugetul de stat sau bugetele locale». Se introduc: «(2) Interdicția nu se aplică activităților didactice, de cercetare, medicale și de gardă, cu respectarea Legii nr. 161/2003. (3) Persoanele aflate în cumul la intrarea în vigoare optează în 6 luni pentru unul dintre contracte; până atunci contractele rămân valabile.»",
+      "argumentation": "Textul nu spune ce se întâmplă cu contractele existente și nu dă termen de conformare, ceea ce încalcă previzibilitatea (art. 1 alin. 5 din Constituție). Fără excepții pentru profesori, medici și cercetători, școlile și spitalele din zone defavorizate pierd personalul care acoperă ore și gărzi. Restrângerea dreptului la muncă trebuie să fie proporțională (art. 53).",
+      "otherComments": "Trimiterea la Legea nr. 1/2011 e depășită: legea a fost abrogată prin Legile nr. 198 și 199/2023. Excepția «interzicerea cumulului pensiei cu salariul» e incoerentă. Lipsesc sancțiunea, autoritatea de control și corelarea cu art. 35 din Codul muncii și cu Legea nr. 153/2017. Solicităm fișă financiară și aviz CES."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
       "modelId": "gemini-4-neon-high",
-      "durationMs": 56999,
+      "durationMs": 66635,
       "sourceEndMarker": "SF-BC6869AD",
       "riskScore": 7,
       "riskLevel": "red",
-      "plainTitle": "Interzicerea cumulului de funcții la stat: lege-fantomă care ratează sinecurile, dar blochează medici și profesori",
-      "verdictShort": "Deși scopul declarat (stoparea cumulului abuziv din bani publici) este legitim, textul de doar două articole este neaplicabil și neconstituțional: ratează exact consiliile de administrație ale companiilor de stat, dar lovește colateral profesori și medici activi.",
-      "initiatorClaim": "Inițiatorii susțin că interzicerea cumulului de contracte și numiri în instituții și companii de stat va elimina conflictele de interese, va optimiza cheltuielile bugetare și va distribui mai echitabil posturile publice.",
-      "realityCheck": "Art. 1 condiționează interdicția de plata „de la bugetul de stat”, dar primăriile, regiile autonome și companiile de stat plătesc din bugete locale sau venituri proprii, deci sinecurile vizate scapă în mare parte. În schimb, legea nu conține sancțiuni, procedură ori norme tranzitorii, îi exceptează pe politicienii aleși, dar interzice cumulul pentru profesori activi la două școli sau medici cu activitate clinică și universitară.",
+      "plainTitle": "Interdicția cumulului de funcții la stat: o lege-capcană care ratează sinecurile și lovește în medici și profesori",
+      "verdictShort": "Deși declară un scop legitim, proiectul de doar două articole este un colaj legislativ grav viciat, copiat parțial dintr-un proiect anterior privind cumulul pensiei cu salariul. În forma actuală, nu are sancțiuni sau norme tranzitorii, ratează sinecurile din consiliile de administrație ale companiilor de stat și riscă să blocheze spitalele și școlile.",
+      "initiatorClaim": "Inițiatorii susțin că vor să elimine conflictele de interese, să optimizeze cheltuielile publice și să distribuie mai echitabil posturile, interzicând unei persoane să dețină simultan mai multe funcții plătite din bugetul de stat.",
+      "realityCheck": "Art. 1 vizează doar contracte de muncă, rapoarte de serviciu și acte de numire plătite strict «de la bugetul de stat», lăsând descoperite contractele de mandat din consiliile de administrație ale companiilor de stat (plătite din venituri proprii) și bugetele locale/FNUASS. În schimb, în lipsa unor excepții corecte la Art. 2, interdicția lovește în medici (gărzi pe CIM separat, medici-cadre universitare) și profesori activi care predau în mai multe școli, în timp ce aleșii politici și profesorii pensionați sunt exceptați.",
       "affectedGroups": [
         "Angajați & HR",
         "Sănătate & Educație",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Capcana bugetară din Art. 1: interdicția se aplică doar funcțiilor retribuite „de la bugetul de stat”. Întrucât companiile de stat, regiile autonome și autoritățile locale nu plătesc salarii sau indemnizații din bugetul de stat (ci din venituri proprii ori bugete locale), scopul declarat devine în mare parte inoperant.",
-        "Efecte colaterale severe în Educație și Sănătate (Art. 1 și Art. 2): Art. 2 exceptează profesorii pensionați reîncadrați și demnitarii aleși, dar NU exceptează cadrele didactice active (care predau în două școli pentru completarea normei) sau medicii din spitale publice care au și contract didactic ori de gărzi.",
-        "Lipsa totală a mecanismului de aplicare: proiectul are doar două articole, fără sancțiuni, fără autoritate de control, fără termen de opțiune și fără dispoziții tranzitorii pentru contractele deja în derulare, generând blocaj juridic imediat."
+        "Art. 2 conține fragmente copiate mecanic din proiecte anterioare privind cumulul pensiei cu salariul — inclusiv excepția absurd formulată «interzicerea cumulului pensiei cu salariul», pensia de urmaș/invaliditate gradul III și trimiterea la Legea educației nr. 1/2011, abrogată încă din 2023.",
+        "Art. 1 introduce o simplă «imposibilitate» fără niciun mecanism de aplicare, fără sancțiuni, fără dispoziții tranzitorii pentru contractele aflate în derulare și fără corelare cu Codul muncii (art. 35) sau Codul administrativ.",
+        "Portiță majoră pentru sinecuri în Art. 1: condiția ca funcțiile să fie retribuite «de la bugetul de stat» exclude tehnic societățile și companiile de stat finanțate din venituri proprii, precum și contractele de mandat din consiliile de administrație (OUG nr. 109/2011).",
+        "Discriminare în Art. 2: persoanele alese în funcții de autoritate/demnitate publică și profesorii pensionați sunt exceptați, însă medicii cu contracte separate de gărzi/activitate universitară și profesorii activi cu fracțiuni de normă în mai multe școli nu sunt exceptați."
       ],
-      "blindSpotsCaught": "Art. 2 a fost copiat vizibil dintr-un vechi proiect privind interzicerea cumulului pensiei cu salariul: liniuța 3 exceptează absurd chiar „interzicerea cumulului pensiei cu salariul”, iar liniuța 5 face trimitere la Legea educației naționale nr. 1/2011, abrogată încă din septembrie 2023 prin Legile nr. 198/2023 și 199/2023. Totodată, proiectul ignoră complet art. 35 din Codul muncii.",
-      "constitutionalityNote": "Proiectul încalcă flagrant art. 1 alin. (5) din Constituție (lipsă de claritate, previzibilitate, sancțiuni, norme tranzitorii și trimitere la o lege abrogată), art. 41 coroborat cu art. 53 (restrângere absolută și disproporționată a dreptului la muncă, inclusiv pentru fracțiuni de normă) și art. 16 (discriminare nejustificată: demnitarii și profesorii pensionari sunt exceptați, în timp ce angajații activi din educație și sănătate nu).",
-      "euLawNote": "Directiva (UE) 2015/1535 (TRIS) nu este incidentă (nu vizează servicii digitale/AI), iar Directiva (UE) 2018/958 nu se aplică direct întrucât nu modifică accesul la profesii reglementate, însă restricția absolută fără analiza timpului de lucru contravine principiului proporționalității și logicii Directivei 2003/88/CE privind organizarea timpului de lucru (care permite cumulul de contracte în limita repausului legal).",
+      "blindSpotsCaught": "Art. 2 face trimitere la Legea nr. 1/2011 (abrogată prin Legile nr. 198/2023 și nr. 199/2023), iar sintagma «de la bugetul de stat» din Art. 1 contravine chiar listei din același articol (companii de stat, regii autonome și autorități locale finanțate din venituri proprii sau bugete locale). În plus, proiectul intră în coliziune directă cu art. 9 din Directiva (UE) 2019/1152 privind încadrarea în muncă în paralel.",
+      "constitutionalityNote": "Proiectul prezintă vicii majore de neconstituționalitate: încalcă art. 1 alin. (5) (calitatea și previzibilitatea legii — absența normelor tranzitorii și a sancțiunilor, referințe la legi abrogate, formulări contradictorii), art. 41 alin. (1) raportat la art. 53 (restrângere disproporționată a dreptului la muncă, fără distincție după suprapunerea programului sau existența unui conflict real de interese) și art. 16 (discriminare nejustificată între categorii socio-profesionale similare, de ex. cadre didactice active vs. pensionate).",
+      "euLawNote": "Încalcă art. 9 din Directiva (UE) 2019/1152 privind condițiile de muncă transparente și previzibile, care interzice blocarea generală a muncii în paralel în afara programului de lucru și permite restricții doar din motive obiective, clar definite și proporționale. Pentru profesiile reglementate din sectorul public (medici, profesori), lipsește o evaluare reală de proporționalitate în spiritul Directivei (UE) 2018/958. Directiva (UE) 2015/1535 (TRIS) nu este aplicabilă, textul nevizând servicii digitale sau norme tehnice.",
       "senatForm": {
-        "articleRef": "Art. 1 și Art. 2",
-        "proposalContent": "Clarificarea finanțării (buget general consolidat și venituri proprii ale companiilor de stat), exceptarea cadrelor didactice active și a medicilor, eliminarea excepției generale pentru demnitari, introducerea termenului de opțiune și a sancțiunilor, și înlocuirea trimiterii la Legea 1/2011 (abrogată) cu Legile 198/2023 și 199/2023.",
-        "argumentation": "Forma actuală încalcă art. 1 alin. (5), art. 16, art. 41 și art. 53 din Constituție: nu are sancțiuni ori norme tranzitorii, trimite la o lege abrogată și blochează medici și profesori cu norme fracționate, dar ratează sinecurile plătite din bugete locale sau venituri proprii ale companiilor de stat, nefiind finanțate din bugetul de stat.",
-        "otherComments": "Se recomandă corelarea expresă cu art. 35 din Codul muncii și Codul administrativ, precum și eliminarea sintagmei contradictorii de la art. 2 liniuța 3 (exceptarea «interzicerii cumulului pensiei cu salariul»), rămasă prin copiere dintr-un alt proiect de lege. Fără aceste corecții, legea este inaplicabilă și vulnerabilă la CCR."
+        "articleRef": "Art. 1 și Art. 2 (respingere sau rescriere)",
+        "proposalContent": "Limitarea cumulului doar la funcții de conducere, CA-uri și posturi cu program suprapus sau conflict real de interese, finanțate din orice fonduri publice/companii de stat. Exceptarea medicilor și cadrelor didactice active. Introducerea de norme tranzitorii, termen de opțiune (30 zile) și sancțiuni clare, cu corelarea Codului muncii și OUG 109/2011.",
+        "argumentation": "Textul actual încalcă art. 1 alin. (5) și art. 41 din Constituție și art. 9 din Directiva (UE) 2019/1152: nu are sancțiuni sau norme tranzitorii, citează o lege abrogată (Legea 1/2011), blochează medicii și profesorii activi cu fracțiuni de normă, dar ratează sinecurile din CA-urile companiilor de stat plătite pe contract de mandat din venituri proprii.",
+        "otherComments": "Eliminați excepțiile copiate eronat din proiectul pensie-salariu (ex. pensia de urmaș/invaliditate sau trimiterea absurdă la interzicerea cumulului pensie-salariu) și privilegiul din Art. 2 pentru aleși. Recomandăm respingerea formei actuale și corelarea cu Codul muncii și Codul administrativ."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 224910,
+      "durationMs": 41023,
       "sourceEndMarker": "SF-BC6869AD",
-      "riskScore": 7,
-      "riskLevel": "red",
-      "plainTitle": "Interzicerea celui de-al doilea post plătit de stat",
-      "verdictShort": "Ideea de a tăia sinecurile e legitimă, dar textul lovește orbește. Poate interzice gărzile medicilor în alt spital, orele profesorilor la altă școală și activitatea clinică din spitalele universitare, fără tranziție și fără să spună ce se întâmplă cu contractele existente, în timp ce aleșii locali rămân scutiți.",
-      "initiatorClaim": "Inițiatorii vor să evite conflictele de interese, să reducă cheltuielile publice și să elibereze posturi pentru mai mulți oameni. Pentru asta, propun ca o persoană să nu mai poată avea două sau mai multe contracte, raporturi de serviciu ori numiri plătite din bugetul de stat.",
-      "realityCheck": "Art. 1 interzice în bloc al doilea contract de muncă, raport de serviciu sau act de numire în instituții publice și companii de stat, fără să distingă între o sinecură într-un consiliu de administrație și o gardă de noapte într-un spital județean. Condiția „retribuite de la bugetul de stat” nu se potrivește cu felul în care sunt finanțate entitățile enumerate (spitalele în principal din FNUASS, primăriile din bugete locale, companiile de stat din venituri proprii), așa că nici angajatorii, nici angajații nu pot ști sigur cui se aplică. Legea nu are sancțiuni, termen de aplicare sau reguli pentru contractele în curs, iar economia promisă nu e demonstrată: munca făcută azi prin cumul tot va trebui plătită cuiva, probabil prin ore suplimentare sau angajări noi.",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Un singur post plătit de stat de persoană: fără al doilea contract sau a doua numire la stat",
+      "verdictShort": "Scopul de a reduce risipa și conflictele de interese e legitim. Textul e însă un singur articol vag, fără sancțiuni, fără termen de conformare și fără excepții pentru profesori, medici și cercetători, așa că poate lăsa școli și spitale fără personal sau poate rămâne neaplicabil.",
+      "initiatorClaim": "Inițiatorii spun că vor să evite conflictele de interese, să reducă cheltuielile publice și să distribuie mai bine posturile, astfel încât mai mulți oameni să lucreze la stat în loc ca unii să cumuleze funcții.",
+      "realityCheck": "Art. 1 interzice deținerea a două sau mai multe contracte de muncă, rapoarte de serviciu sau acte de numire la instituții publice, regii și companii de stat sau ale autorităților locale, când acestea sunt plătite «de la bugetul de stat». Nu spune ce se întâmplă cu contractele existente, cine verifică, ce sancțiune există și când intră în vigoare. Criteriul «bugetul de stat» lasă neclar dacă sunt vizate primăriile (bugete locale), spitalele (FNUASS) și companiile de stat (venituri proprii), adică exact entitățile enumerate. Cumulul nu reduce cheltuielile când al doilea contract acoperă un post greu de ocupat: ore de predare, gărzi, cercetare. Interdicția poate deci produce deficit de personal, nu economii.",
       "affectedGroups": [
         "Angajați & HR",
         "Sănătate & Educație",
+        "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 1 prinde orice al doilea contract sau „act de numire”, inclusiv la același angajator, fără să distingă funcțiile de conducere de cele de execuție. În sănătate și educație, unde cumulul acoperă lipsa de personal (gărzi în alt spital, integrarea clinică universitate–spital, ore la altă școală), riscă să lase linii de gardă și catedre neacoperite, mai ales în zonele mici.",
-        "Art. 1 condiționează interdicția de plata „prin indemnizații sau salarii de la bugetul de stat”. Autoritățile locale plătesc însă din bugete locale, spitalele în principal din FNUASS, iar regiile și companiile de stat din venituri proprii. Aplicarea depinde de interpretare, deci textul nu e previzibil.",
-        "Proiectul nu spune ce se întâmplă cu contractele cumulate deja existente, nici care dintre ele încetează și cine alege. Nu are nici sancțiuni, autoritate de control sau termen de intrare în vigoare. Pentru contractele noi, efectul implicit ar fi nulitatea (art. 57 Codul muncii), iar pentru cele în curs rămâne o incertitudine totală.",
-        "Art. 2 exceptează „persoanele alese în funcții de autoritate sau demnitate publică”. Parlamentarii au deja incompatibilități constituționale, așa că excepția îi avantajează practic pe consilierii locali și județeni, care pot cumula în continuare, în timp ce un medic sau un profesor pierde al doilea contract public. Diferența de tratament nu e motivată.",
-        "Art. 2 amestecă categorii fără legătură cu cumulul de funcții (pensionari de urmaș, invaliditate gradul III, o liniuță care exceptează „interzicerea cumulului pensiei cu salariul”, beneficiarii de drepturi de autor) cu noțiuni nedefinite („funcții de specialitate artistică”). Trimite și la Legea educației naționale nr. 1/2011, abrogată de Legile nr. 198/2023 și 199/2023.",
-        "Lipsesc fișa financiară (art. 15 din Legea nr. 500/2002) și orice corelare cu art. 35 din Codul muncii, care garantează azi dreptul la cumul, cu Codul administrativ, care reglementează deja incompatibilitățile funcționarilor publici, și cu Legea nr. 95/2006 privind gărzile medicale. Economia bugetară invocată nu e cuantificată deloc."
+        "Art. 1 nu prevede sancțiunea, autoritatea de control, regimul contractelor în curs, dreptul de opțiune sau un termen de conformare. Norma e ori neaplicabilă, ori aplicată arbitrar, prin încetarea unor contracte fără temei clar.",
+        "Art. 1 enumeră autorități locale, regii și companii de stat, dar condiționează interdicția de plata «de la bugetul de stat». Majoritatea acestor entități sunt finanțate din bugete locale, din FNUASS sau din venituri proprii, deci domeniul real de aplicare e contradictoriu.",
+        "Art. 2 nu are excepție pentru activitatea didactică de cumul sau plata cu ora, pentru gărzile și cumulul medicilor din spitale publice ori pentru cercetătorii care predau la universități de stat. Sunt tocmai categoriile care acoperă deficitul de personal, mai ales în zonele defavorizate.",
+        "Art. 2 trimite la Legea educației naționale nr. 1/2011, abrogată prin Legile nr. 198/2023 și 199/2023. Liniuța «interzicerea cumulului pensiei cu salariul» nu are sens ca excepție, iar «funcții de specialitate artistică» nu e definită.",
+        "Proiectul nu modifică art. 35 din Codul muncii, care permite cumulul, nici Legea nr. 153/2017 sau Legea nr. 161/2003 privind incompatibilitățile. Rezultă un conflict de norme fără regulă de prevalență."
       ],
-      "blindSpotsCaught": "Lista de excepții de la art. 2 conține categorii care au sens doar într-o interdicție de cumul pensie–salariu (pensionari de urmaș, invaliditate gradul III, cadre didactice pensionate reîncadrate) și chiar o liniuță care exceptează „interzicerea cumulului pensiei cu salariul”, semn că lista a fost preluată dintr-un alt tip de reglementare și nu adaptată. Interdicția poate prinde și contractele suplimentare la același angajator, de exemplu angajații universităților și spitalelor plătiți în echipele de proiecte cu fonduri europene sau PNRR. Problema reală a cumulului, adică oboseala și timpul total de lucru, are deja un instrument european: conform Directivei 2003/88, CJUE a decis în cauza C-585/19 (Academia de Studii Economice din București) că odihna minimă se calculează pe toate contractele cu același angajator, luate împreună. Un plafon pe lucrător ar rezolva asta fără o interdicție generală.",
-      "constitutionalityNote": "Art. 41 alin. (1) garantează libera alegere a ocupației și a locului de muncă. O restrângere trebuie să treacă testul art. 53: un scop dintre cele enumerate acolo, necesitate și proporționalitate. Jurisprudența CCR admite incompatibilități pentru funcțiile publice, deci limitarea cumulului nu e neconstituțională în sine. Însă optimizarea cheltuielilor și „distribuirea resurselor umane” nu sunt scopuri din art. 53, iar o interdicție generală, aplicată indiferent dacă există sau nu un conflict de interese, e greu de apărat ca proporțională. Textul are probleme serioase de claritate și previzibilitate (art. 1 alin. (5)): criteriul „bugetului de stat” nu corespunde finanțării entităților enumerate, lipsesc sancțiunea, autoritatea de control și regimul tranzitoriu, iar unele excepții sunt nedefinite. Scutirea aleșilor, în timp ce medicii și profesorii pierd al doilea contract, ridică o problemă de egalitate (art. 16). În zonele cu deficit de medici, măsura poate afecta dreptul la ocrotirea sănătății (art. 34). Redactarea încalcă și normele de tehnică legislativă din Legea nr. 24/2000, prin trimiterea la o lege abrogată și excepțiile formulate ca liniuțe neclare.",
-      "euLawNote": "Directiva (UE) 2015/1535 (TRIS) nu se aplică: proiectul nu conține reguli tehnice și nu privește servicii ale societății informaționale. Directiva (UE) 2018/958 vizează reglementarea accesului la profesiile reglementate și a exercitării lor. O interdicție de cumul în sectorul public ține de regimul raporturilor de muncă, nu de reglementarea profesiei, deci directiva nu se aplică direct, deși pentru medici, farmaciști sau profesori o analiză de proporționalitate ar fi o bună practică. Măsura nu discriminează după cetățenie, deci nu ridică probleme sub art. 45 TFUE. Cumulul cu sectorul privat rămâne permis, așa că nu apar restricții de concurență. Relevantă este Directiva 2003/88 privind timpul de lucru, interpretată de CJUE în C-585/19: la contracte multiple cu același angajator, limitele de odihnă se aplică tuturor contractelor luate împreună. Un plafon de ore pe lucrător ar atinge scopul de protecție fără o interdicție generală. Practic, interdicția ar putea îngreuna formarea echipelor de implementare a proiectelor cu fonduri europene și PNRR din instituțiile publice.",
+      "blindSpotsCaught": "Excepțiile din art. 2 par alese arbitrar. Cad sub interdicție cadrele didactice active cu cumul, medicii din spitale publice și cercetătorii, dar sunt exceptați clericii, membrii Academiei și profesorii pensionari reîncadrați. Asta ridică probleme de egalitate. Proiectul nu are fișă financiară care să susțină economiile invocate. Termenul «societăți comerciale» e și el depășit față de Legea nr. 31/1990 actuală.",
+      "constitutionalityNote": "Lipsa sancțiunii, a procedurii și a regimului tranzitoriu, plus criteriul contradictoriu «bugetul de stat», încalcă cerințele de claritate și previzibilitate (art. 1 alin. 5). Interdicția restrânge dreptul la muncă și libera alegere a ocupației (art. 41). Restrângerea trebuie să fie necesară și proporțională (art. 53), iar un test de proporționalitate lipsește. Încetarea forțată a raporturilor existente fără drept de opțiune poate afecta securitatea juridică. Excepțiile selective pot încălca egalitatea în drepturi (art. 16). Legea ar fi organică doar pe componentele de statut al funcționarilor publici (art. 73 alin. 3 lit. j), deci încadrarea ca lege ordinară trebuie verificată. Ar putea fi necesar și avizul CES.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică. Ea privește accesul la profesii reglementate, nu raporturile de muncă din sectorul public. Directiva TRIS 2015/1535 nu e relevantă, pentru că nu sunt vizate servicii digitale sau AI. Art. 45 alin. (4) TFUE permite statelor să reglementeze liber ocuparea posturilor din administrația publică. Directiva 2003/88/CE privind timpul de lucru ar susține o limitare a cumulului, dar prin plafonarea orelor, nu prin interzicerea totală. Riscul de conflict cu dreptul UE e redus.",
       "senatForm": {
-        "articleRef": "Art. 1 – reformulare",
-        "proposalContent": "Art. 1: «(1) O persoană poate deține cel mult un act de numire remunerat în consilii de administrație ori de supraveghere la regii autonome și societăți cu capital majoritar de stat ori al unei UAT. (2) Cumulul de funcții de execuție rămâne permis dacă timpul total de muncă nu depășește 48 de ore pe săptămână. (3) Se aplică după 12 luni de la publicare.»",
-        "argumentation": "Art. 1 poate interzice orice al doilea contract în sectorul public, deci și gărzile medicilor în alt spital, activitatea clinică a profesorilor de medicină sau orele la altă școală, fără perioadă de tranziție. Sinecurile din consiliile de administrație pot fi limitate țintit, iar plafonul de 48 de ore protejează sănătatea angajatului (Directiva 2003/88).",
-        "otherComments": "Lipsesc sancțiunile, regimul contractelor în curs și regula despre ce contract se păstrează. „Bugetul de stat” nu acoperă spitalele finanțate în principal din FNUASS, primăriile (bugete locale) sau companiile de stat, deși art. 1 le include. Art. 2 trimite la Legea nr. 1/2011, abrogată în 2023. Nu există fișă financiară și nici corelare cu art. 35 din Codul muncii."
+        "articleRef": "Art. 1 (completare cu alin. 2 și 3)",
+        "proposalContent": "La art. 1, «bugetul de stat» devine «bugetul de stat sau bugetele locale». Se introduc: «(2) Interdicția nu se aplică activităților didactice, de cercetare, medicale și de gardă, cu respectarea Legii nr. 161/2003. (3) Persoanele aflate în cumul la intrarea în vigoare optează în 6 luni pentru unul dintre contracte; până atunci contractele rămân valabile.»",
+        "argumentation": "Textul nu spune ce se întâmplă cu contractele existente și nu dă termen de conformare, ceea ce încalcă previzibilitatea (art. 1 alin. 5 din Constituție). Fără excepții pentru profesori, medici și cercetători, școlile și spitalele din zone defavorizate pierd personalul care acoperă ore și gărzi. Restrângerea dreptului la muncă trebuie să fie proporțională (art. 53).",
+        "otherComments": "Trimiterea la Legea nr. 1/2011 e depășită: legea a fost abrogată prin Legile nr. 198 și 199/2023. Excepția «interzicerea cumulului pensiei cu salariul» e incoerentă. Lipsesc sancțiunea, autoritatea de control și corelarea cu art. 35 din Codul muncii și cu Legea nr. 153/2017. Solicităm fișă financiară și aviz CES."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 73898,
+      "durationMs": 89425,
       "sourceEndMarker": "SF-BC6869AD",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "O singură funcție plătită de stat, cu excepții largi",
-      "verdictShort": "Proiectul limitează cumulul de funcții publice fără să distingă între un conflict real de interese și două activități compatibile. Excepțiile largi și lipsa regulilor pentru contractele existente creează riscuri de tratament inegal și aplicare neuniformă.",
-      "initiatorClaim": "Inițiatorii susțin că interzicerea cumulului va preveni conflictele de interese, va reduce cheltuielile publice și va permite distribuirea posturilor către mai multe persoane.",
-      "realityCheck": "Art. 1 interzice deținerea simultană a mai multor contracte, raporturi de serviciu sau acte de numire în entitățile enumerate, dacă remunerarea provine din bugetul de stat, indiferent de programul efectiv sau existența unui conflict de interese. Art. 2 exceptează numeroase categorii, uneori prin simpla calitate a persoanei, și lasă cumulul public–privat în afara interdicției, fără să clarifice raportul cu incompatibilitățile speciale existente. Economiile nu sunt demonstrate: dacă activitățile continuă cu alți angajați, cheltuielile pot rămâne similare.",
+      "plainTitle": "Interzicerea mai multor slujbe plătite de la bugetul de stat",
+      "verdictShort": "Proiectul introduce o interdicție generală insuficient delimitată, cu excepții foarte largi și fără reguli pentru contractele existente. Riscul principal este aplicarea neuniformă și restrângerea disproporționată a muncii, fără economii bugetare demonstrate.",
+      "initiatorClaim": "Inițiatorii urmăresc evitarea conflictelor de interese, reducerea cheltuielilor publice și distribuirea posturilor către mai multe persoane. Ei prezintă excepțiile drept o flexibilitate necesară pentru anumite categorii profesionale și sociale.",
+      "realityCheck": "Art. 1 interzice cumulul după numărul raporturilor juridice și sursa remunerației, fără să distingă între programe compatibile, norme parțiale și conflicte efective de interese. Referirea exclusivă la bugetul de stat face incertă acoperirea funcțiilor plătite din bugete locale sau venituri proprii, chiar dacă angajatorii locali și companiile publice sunt enumerați. Proiectul nu introduce amenzi, taxe ori proceduri de declarare și nu stabilește cum se soluționează cumulurile existente.",
       "affectedGroups": [
         "Angajați & HR",
         "Justiție & Drepturi Civile",
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. 1 nu diferențiază între normă întreagă, timp parțial sau activități desfășurate în programe distincte. Astfel, interdicția poate afecta și cumuluri fără suprapuneri de program sau conflicte de interese.",
-        "Art. 1 enumeră inclusiv instituții locale și societăți controlate public, dar condiționează interdicția de remunerarea din bugetul de stat. Salariile suportate din bugete locale ori din veniturile proprii ale societăților nu sunt acoperite explicit; simpla proprietate publică nu echivalează cu finanțarea salarială din bugetul de stat.",
-        "Art. 1 nu precizează suficient dacă sunt interzise și combinațiile dintre categorii, precum un contract individual de muncă împreună cu un raport de serviciu sau un act de numire.",
-        "Art. 2 exceptează persoanele care beneficiază de drepturi de autor, fără să limiteze explicit excepția la veniturile sau activitățile respective. Lectura literală poate scoate persoana integral de sub interdicție, inclusiv pentru funcții fără legătură cu creația.",
-        "Art. 2 nu instituie o interdicție a cumulului pensiei cu salariul. Mențiunea despre acest cumul este o excludere din obiectul proiectului, iar mai multe excepții privind pensionarii nu explică legătura cu deținerea simultană a două funcții.",
-        "Proiectul se încheie după art. 2: nu stabilește termen de opțiune pentru cumulurile existente, procedură de verificare, autoritate responsabilă sau mecanism de încetare a raporturilor. Nu introduce amenzi și nu dispune expres încetarea automată a contractelor.",
-        "Art. 2 nu prevede o excepție generală pentru activitățile medicale ori didactice. Excepția educațională privește numai personalul didactic de predare pensionat și reîncadrat, ceea ce poate afecta disponibilitatea specialiștilor care lucrează în mai multe instituții."
+        "Art. 1 poate interzice două contracte publice cu timp parțial și programe distincte, chiar fără conflict de interese. Nu există o evaluare individuală sau o diferențiere după durata muncii.",
+        "Art. 1 enumeră separat contractele de muncă, raporturile de serviciu și actele de numire. Nu precizează suficient dacă interdicția acoperă și combinațiile dintre aceste categorii ori cum se identifică sursa bugetară a remunerației.",
+        "Art. 2 exceptează persoane, nu doar activități determinate. Literal, simpla calitate de beneficiar al unor drepturi de autor poate scoate persoana din întreaga interdicție; o asemenea întindere nu este justificată în expunerea de motive.",
+        "Art. 2 exceptează aleșii și persoanele cu mandate stabilite expres prin Constituție. Această excepție nu poate fi tratată ca o autorizare generală de a ignora incompatibilitățile constituționale sau speciale existente.",
+        "Excluderea interzicerii cumulului pensiei cu salariul nu instituie o asemenea interdicție. Mai multe excepții referitoare la pensionari par preluate din alt tip de reglementare și nu explică necesitatea cumulului mai multor funcții publice.",
+        "Textul se termină după art. 2: lipsesc termenul de opțiune, procedura și efectele asupra raporturilor existente. Nu se poate deduce o concediere automată sau o sancțiune contravențională din simpla formulare a interdicției.",
+        "Economiile nu rezultă automat: dacă posturile eliberate sunt ocupate de alte persoane, cheltuiala salarială poate rămâne comparabilă. Pot apărea dificultăți de recrutare în sănătate și educație; costurile administrative nu sunt cuantificate.",
+        "Trimiterea la Legea educației naționale nr. 1/2011 necesită corelare cu legislația educației adoptată în 2023 și cu dispozițiile tranzitorii aplicabile. O referință legislativă veche nu dovedește singură neconstituționalitatea proiectului."
       ],
-      "blindSpotsCaught": "Excepția pentru beneficiarii drepturilor de autor este formulată pentru persoane, nu doar pentru activitatea remunerată astfel, ceea ce poate goli parțial interdicția de conținut. În plus, trimiterea la Legea educației naționale nr. 1/2011 trebuie actualizată în raport cu legile educației din 2023 și dispozițiile tranzitorii aplicabile. Pentru cumulul de contracte de muncă este relevantă și Directiva (UE) 2019/1152, chiar dacă nu apare în justificarea proiectului.",
-      "constitutionalityNote": "Există vulnerabilități prin raportare la art. 1 alin. (5): sfera finanțării, cumulul între tipuri diferite de raporturi și aplicarea asupra situațiilor existente sunt insuficient clarificate. Art. 16 impune justificarea obiectivă a diferențelor dintre persoanele exceptate și cele supuse interdicției; proiectul nu explică suficient de ce simpla obținere a unor drepturi de autor justifică exceptarea. Interdicția generală trebuie analizată prin prisma dreptului la muncă din art. 41 și, dacă reprezintă o restrângere a exercițiului acestuia, a condițiilor art. 53, inclusiv necesitatea și proporționalitatea. Prevenirea conflictelor de interese este un obiectiv legitim, dar nu demonstrează singură necesitatea interzicerii tuturor cumulurilor vizate. Art. 23 alin. (12) nu ridică aici o problemă directă de legalitate a pedepsei, deoarece proiectul nu instituie pedepse.",
-      "euLawNote": "Directiva (UE) 2018/958 nu devine aplicabilă doar pentru că proiectul afectează profesioniști: trebuie verificat dacă măsura restrânge accesul la o profesie reglementată sau exercitarea acesteia în sensul directivei. Dacă intră în acest domeniu, este necesară evaluarea prealabilă a proporționalității. Mai direct, art. 9 din Directiva (UE) 2019/1152 protejează, pentru lucrătorii acoperiți, posibilitatea de a lucra la alți angajatori în afara programului stabilit și permite restricții bazate pe motive obiective; trebuie analizate și derogările permise pentru anumite categorii din serviciul public. O interdicție generală justificată numai prin sursa remunerării ridică astfel probleme de compatibilitate. Directiva TRIS 2015/1535 nu este incidentă pe baza textului: nu sunt reglementate produse sau servicii ale societății informaționale. Nu se instituie un monopol ori obligații administrative directe pentru IMM-uri, dar pot apărea efecte asupra disponibilității specialiștilor și sarcini de verificare pentru angajatorii publici.",
+      "blindSpotsCaught": "Excepția pentru beneficiarii drepturilor de autor este formulată ca privilegiu al persoanei, fără legătură obligatorie cu funcțiile cumulate. În plus, Directiva (UE) 2019/1152, art. 9, privind munca în paralel este mai direct relevantă decât directivele indicate: pentru lucrătorii acoperiți, restricțiile trebuie raportate la motive obiective, precum sănătatea, integritatea serviciului public sau evitarea conflictelor de interese.",
+      "constitutionalityNote": "Există vulnerabilități relevante pentru art. 1 alin. (5), prin incertitudinea domeniului și a aplicării la raporturile existente, și pentru art. 16, prin excepțiile personale insuficient justificate. Interdicția trebuie evaluată în raport cu dreptul la muncă din art. 41 și, în măsura restrângerii exercițiului acestuia, cu cerințele art. 53; obiectivele declarate nu demonstrează singure necesitatea unei interdicții generale. Legea poate institui incompatibilități justificate, deci neconstituționalitatea nu rezultă automat. Art. 23 alin. (12), privind legalitatea pedepsei, nu este direct incident: proiectul nu instituie pedepse. Aplicarea pentru viitor raporturilor existente nu constituie, prin ea însăși, retroactivitate interzisă de art. 15 alin. (2).",
+      "euLawNote": "Directiva (UE) 2018/958 privește evaluarea proporționalității reglementărilor profesiilor reglementate; o incompatibilitate generală între slujbe publice nu intră automat în domeniul său. Este necesară o examinare distinctă pentru eventualele restricții care intră efectiv în acel domeniu. Directiva (UE) 2015/1535 nu impune notificare TRIS pentru textul prezentat, care nu reglementează produse sau servicii ale societății informaționale. Pentru salariații acoperiți, art. 9 din Directiva (UE) 2019/1152 impune examinarea justificării obiective a restricțiilor asupra muncii în paralel, ținând cont de excluderile permise pentru anumite categorii publice. Nu se instituie un monopol sau o barieră directă pentru IMM-uri; efectul principal privește accesul la personal și organizarea muncii.",
       "senatForm": {
         "articleRef": "Art. 1",
-        "proposalContent": "Art. 1. Cumulul funcțiilor remunerate în sectorul public este permis cu respectarea incompatibilităților prevăzute de lege, a regulilor privind conflictele de interese și a limitelor legale privind timpul de muncă și repausul, fără suprapunerea programelor de lucru. Restricțiile speciale se stabilesc prin lege, pe baza unor motive obiective și cu respectarea proporționalității.",
-        "argumentation": "Interdicția generală afectează inclusiv activități cu timp parțial și programe distincte, fără demonstrarea unui conflict de interese. Soluția propusă protejează buna funcționare a serviciilor publice și dreptul la muncă, permite restricții justificate și reduce riscurile raportate la art. 16 și 41 din Constituție și art. 9 din Directiva (UE) 2019/1152.",
-        "otherComments": "Art. 2 trebuie corelat cu noua regulă, eliminând excepțiile personale nejustificate. Sunt necesare reguli tranzitorii pentru raporturile existente, clarificarea surselor de finanțare vizate, actualizarea trimiterilor legislative și evaluarea efectelor asupra personalului și bugetelor. Analiza privește forma inițiatorului furnizată."
+        "proposalContent": "Art. 1. Cumulul funcțiilor remunerate din fonduri publice este permis fără suprapunerea programelor și cu respectarea timpului legal de muncă și de odihnă. Sunt interzise cumulurile prin care persoana își controlează ori evaluează propria activitate. Incompatibilitățile și conflictele de interese se soluționează potrivit legilor speciale.",
+        "argumentation": "Interdicția generală afectează inclusiv contracte cu timp parțial și programe compatibile, fără demonstrarea economiilor sau a unui conflict de interese. Propunerea urmărește riscul concret de autocontrol, păstrează incompatibilitățile speciale și permite folosirea personalului în domeniile deficitare.",
+        "otherComments": "Corelativ, se propune eliminarea art. 2, devenit inutil. Analiza privește forma inițiatorului furnizată; verificarea online a surselor nu a fost disponibilă. Termenul indicat, 11.02.2025, este expirat; preluarea propunerii depinde de procedura parlamentară aplicabilă."
       },
       "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 6.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-19T14:20:59.918Z",
+      "method": "whole-text-v1",
+      "textChars": 2916,
+      "form": "initiator",
+      "agyModel": "gemini-4-neon-high",
+      "scores": {
+        "agy": 7,
+        "claude": 7,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:20:57.123Z",
+      "reasons": [
+        "reluare"
+      ]
+    }
+  ]
 }

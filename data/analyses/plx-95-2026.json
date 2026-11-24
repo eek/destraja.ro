@@ -2,120 +2,180 @@
   "billId": "Pl-x 95/2026",
   "slug": "plx-95-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T06:52:28.220Z",
+  "updatedAt": "2026-11-24T15:28:11.440Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1486,
+    "ordinanceChars": 0,
+    "memoChars": 3121,
+    "memoSupplied": 3121,
+    "marker": "SF-9D1597FD"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-95-2026.json",
+    "form": "initiator",
+    "textHash": "9d1597fd77e69dcc",
+    "fetchedAt": "2026-11-19T10:42:16.176Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 3784,
+    "truncated": false,
+    "included": true,
+    "key": "70fab772e76da723"
+  },
   "consensus": {
     "riskScore": 4,
     "riskLevel": "yellow",
-    "plainTitle": "Diplomele celor care dau concurs pentru un post la stat, verificate obligatoriu",
-    "summaryTlDr": "Idee bună și ieftină pentru cetățeni: statul își verifică singur diplomele înainte să angajeze. Textul e însă scris în grabă. Dă exclusivitate Ministerului Educației fără termen de răspuns, verifică toți candidații în loc de câștigător și îi prinde doar indirect pe funcționarii publici, adică exact ținta declarată.",
-    "initiatorClaim": "Inițiatorii spun că în sectorul public au fost angajați oameni cu diplome false, anulate de instanțe sau obținute în străinătate fără echivalare. Ei vor ca instituțiile să verifice ex ante actele de studii prin sistemul informatic al Ministerului Educației și susțin că măsura nu costă nimic, pentru că evidența diplomelor există deja.",
-    "realityCheck": "Noul alineat obligă instituția sau autoritatea publică angajatoare să verifice, la înscrierea la concurs, diplomele, echivalările pentru studiile din străinătate și celelalte acte de studii ale candidatului. Autenticitatea poate fi certificată „exclusiv” de Ministerul Educației și Cercetării. Ministerul nu are termen de răspuns, nu există nicio regulă pentru întârzieri sau pentru un rezultat negativ, iar verificarea privește toți candidații, nu doar pe cel admis. Pentru candidați costul e zero, dar crește volumul de muncă la HR și la minister, iar expunerea de motive nu spune ce acoperire are sistemul informatic pentru diplomele mai vechi.",
+    "plainTitle": "Instituțiile publice trebuie să verifice la Ministerul Educației dacă diplomele candidaților sunt autentice",
+    "summaryTlDr": "Scopul e corect și util, combaterea diplomelor false la angajarea la stat, iar riscul pentru cetățeni e mic. Textul e însă scris neglijent: ratează funcționarii publici pe care îi vizează și creează un blocaj practic, pentru că toate verificările trec «exclusiv» prin MEC și nu există niciun termen de răspuns.",
+    "initiatorClaim": "Inițiatorii vor să oprească angajarea în sectorul public pe bază de diplome falsificate, anulate de instanțe sau obținute în străinătate și neechivalate. Pentru asta, instituțiile ar fi obligate să verifice ex ante autenticitatea actelor de studii, folosind sistemul informatic al Ministerului Educației și Cercetării.",
+    "realityCheck": "Legea adaugă un alineat (5) la art. 30 din Codul muncii. Angajatorul public trebuie să verifice, la înscrierea la concurs, autenticitatea diplomelor, a echivalărilor și a altor înscrisuri de studii, iar certificarea o face «exclusiv» MEC. Art. 30 din Codul muncii se aplică însă doar personalului contractual, nu funcționarilor publici reglementați de Codul administrativ, așa că ținta declarată din expunerea de motive rămâne parțial neacoperită. Verificarea tuturor candidaților la înscriere, fără termen de răspuns pentru MEC și fără soluție pentru diplomele vechi nedigitizate, poate întârzia sau bloca concursurile.",
     "affectedGroups": [
       "Angajați & HR",
       "Sănătate & Educație",
+      "Toți cetățenii",
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I, art. 30 alin. (5) din Codul muncii",
-      "proposalContent": "(5) Înainte de încadrare, angajatorul prevăzut la alin. (1) verifică, fără costuri pentru candidat, autenticitatea actelor de studii ale candidatului declarat admis, la Ministerul Educației și Cercetării sau la instituția emitentă, care răspund în 10 zile lucrătoare. Actele false sau anulate atrag neîncadrarea și sesizarea organelor de urmărire penală.",
-      "argumentation": "Textul inițiatorului cere verificarea tuturor candidaților la înscriere și dă exclusivitate Ministerului Educației, fără termen de răspuns. Concursurile s-ar putea bloca, iar celelalte unități bugetare din alin. (1) nu sunt numite. Verificarea doar a câștigătorului, cu termen fix și efect clar, atinge același scop antifraudă cu mult mai puțină birocrație.",
-      "otherComments": "Art. II alin. (2) cere actualizarea „normelor metodologice de aplicare a legii”, dar Codul muncii nu are norme generale de aplicare; trebuie numit regulamentul de concurs din art. 30 alin. (4). Obligația intră în vigoare înaintea metodologiei MEC, deci e nevoie de o dată de aplicare corelată. Pentru funcționarii publici trebuie completat Codul administrativ."
+      "articleRef": "Art. I – art. 30 alin. (5) Codul muncii",
+      "proposalContent": "(5) Până la validarea rezultatului final, angajatorul verifică autenticitatea actelor de studii ale candidatului declarat admis, prin interogarea electronică a registrelor gestionate de Ministerul Educației și Cercetării sau, pentru actele neînregistrate, prin solicitare către emitent ori CNRED, care răspund în 10 zile lucrătoare.",
+      "argumentation": "Verificarea tuturor candidaților la înscriere, într-un interval scurt, poate bloca concursurile. Verificarea doar a câștigătorului atinge același scop cu mai puțin efort. «Exclusiv MEC» nu acoperă diplomele vechi nedigitizate și certificatele ANC, iar lipsa unui termen de răspuns face norma greu aplicabilă.",
+      "otherComments": "Art. 30 din Codul muncii nu se aplică funcționarilor publici, deși expunerea de motive îi vizează; e necesară o completare similară a Codului administrativ (OUG 57/2019). La Art. II alin. (2): Codul muncii nu are norme metodologice; trebuie vizat regulamentul-cadru aprobat prin HG conform art. 30 alin. (4)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 53228,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 78409,
+      "sourceEndMarker": "SF-9D1597FD",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Verificarea obligatorie a diplomelor la angajarea la stat, dar cu risc de blocaj birocratic la înscrierea la concurs",
-      "verdictShort": "Scopul legii este legitim și necesar – eliminarea diplomelor false din instituțiile publice –, însă modul de redactare riscă să blocheze tehnic concursurile de angajare din spitale, școli și administrație. Obligația de a certifica diplomele tuturor candidaților încă de la înscriere, exclusiv prin Ministerul Educației, ignoră faptul că diplomele mai vechi nu sunt digitalizate centralizat.",
-      "initiatorClaim": "Inițiatorii vor să împiedice angajarea în sectorul public a persoanelor cu diplome false sau emise de entități neautorizate din străinătate, obligând instituțiile să verifice actele de studii într-un sistem informatic al Ministerului Educației.",
-      "realityCheck": "În realitate, legea impune verificarea tuturor candidaților încă de la etapa înscrierii la concurs (unde selecția dosarelor durează doar câteva zile lucrătoare) și stabilește că autenticitatea se certifică „exclusiv” de către Ministerul Educației. Cum bazele de date electronice (RMUR/SIIIR) conțin doar diplomele din anii recenți, iar certificatele de calificare profesională sunt emise sub egida Ministerului Muncii/ANC, monopolul de certificare pus pe umerii MEC și lipsa unui termen de tranziție vor paraliza concursurile de angajare.",
+      "plainTitle": "Verificarea obligatorie a diplomelor la angajarea la stat, cu risc de blocaj birocratic",
+      "verdictShort": "Intenția de a elimina diplomele false din sectorul public este legitimă, dar mecanismul propus este redactat defectuos. Impunerea certificării „exclusiv” de către Ministerul Educației chiar la înscriere, fără termene și fără amânarea intrării în vigoare, riscă să blocheze concursurile din instituțiile publice.",
+      "initiatorClaim": "Inițiatorii susțin că vor să oprească angajarea în sectorul public pe baza unor diplome falsificate, anulate sau a unor cursuri neechivalate din străinătate, folosind baza de date informatică existentă a Ministerului Educației, cu impact bugetar zero.",
+      "realityCheck": "În prezent, art. 30 din Codul muncii impune ocuparea posturilor bugetare prin concurs/examen potrivit unui regulament aprobat prin HG, fără o verificare centralizată obligatorie a diplomelor. Proiectul obligă angajatorii publici să verifice autenticitatea actelor de studii ale fiecărui candidat chiar „cu ocazia înscrierii”, cu certificare exclusivă de la MEC, fără termen de răspuns și fără a acoperi funcționarii publici (reglementați de Codul administrativ) ori diplomele vechi nedigitalizate. Mai grav, obligația intră în vigoare la 3 zile de la publicare, deși metodologia tehnică apare abia după 60-90 de zile.",
       "affectedGroups": [
         "Angajați & HR",
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. I (alin. 5 nou din art. 30 Codul muncii): Impune verificarea autenticității diplomelor „cu ocazia înscrierii la concurs”, pentru toți candidații înscriși, în loc să o impună exclusiv pentru candidatul declarat admis, anterior semnării contractului de muncă.",
-        "Art. I (teza finală): Prevede că „Autenticitatea se certifică exclusiv de către Ministerul Educației și Cercetării”, ignorând că diplomele emise înainte de 2015-2016 se află doar în arhivele fizice ale liceelor și universităților, iar certificatele de calificare sunt gestionate de ANC / Ministerul Muncii.",
-        "Art. II alin. (1) și (2): Creează un vid procedural de 60-90 de zile – obligația de verificare intră în vigoare la 3 zile de la publicarea legii, dar Ministerul Educației are 60 de zile să adopte metodologia tehnică, perioadă în care concursurile din sistemul bugetar nu vor putea respecta legea."
+        "Capcană de intrare în vigoare (Art. I vs. Art. II): Art. I intră în vigoare la 3 zile de la publicare (art. 78 Constituție), însă MEC are 60 de zile să adopte metodologia și Guvernul 90 de zile să actualizeze normele, creând un vid procedural de 2-3 luni în care concursurile pot fi blocate.",
+        "Risc de paralizie administrativă (Art. I – art. 30 alin. (5)): Verificarea este cerută la înscriere (pentru toți candidații, nu doar pentru câștigător) și certificată „exclusiv” de MEC, fără termen legal de răspuns și fără soluție pentru diplomele anterioare registrelor informatice (RMU/SIIIR) sau atestatele emise în afara sistemului MEC.",
+        "Sferă de aplicare incompletă față de intenția declarată: Deși Expunerea de motive vizează „funcțiile publice” și „unitățile finanțate de la buget”, proiectul modifică doar Codul muncii (personal contractual), lasă neatinse regulile de recrutare a funcționarilor publici din Codul administrativ (OUG nr. 57/2019) și omite sintagma „alte unități bugetare” prezentă în art. 30 alin. (1).",
+        "Eroare de tehnică legislativă și impact bugetar subestimat (Art. II alin. (2)): Codul muncii nu are „norme metodologice” generale de aplicare, ci un regulament de concurs prevăzut de art. 30 alin. (4) (actual HG nr. 1336/2022), iar afirmația de „impact bugetar zero” ignoră costul administrativ al certificării masive la MEC pentru actele nedigitalizate."
       ],
-      "blindSpotsCaught": "Art. II alin. (2) obligă Guvernul să actualizeze „normele metodologice de aplicare a legii”, însă Legea nr. 53/2003 (Codul muncii) nu are norme metodologice generale de aplicare, ci doar o hotărâre de guvern specifică pentru concursurile personalului contractual (HG nr. 1336/2022, emisă în baza art. 30 alin. 4). În plus, Expunerea de motive vorbește despre „funcții publice” (reglementate de Codul administrativ – OUG nr. 57/2019), deși proiectul modifică exclusiv Codul muncii (aplicabil personalului contractual).",
-      "constitutionalityNote": "Potențiale vicii de constituționalitate raportat la Art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii): trimiterea la „norme metodologice de aplicare a legii” inexistente în cazul Codului muncii, suprapunerea terminologică între funcția publică și personalul contractual, precum și instituirea unei obligații imposibil de executat în primele 60 de zile până la adoptarea metodologiei MEC încalcă exigențele Legii nr. 24/2000 privind tehnica legislativă.",
-      "euLawNote": "Măsura vizează organizarea internă a recrutării în sectorul public și nu ridică bariere pe piața unică dacă procedura de verificare a echivalărilor CNRED (pentru diplomele obținute în alte state membre UE, conform Directivei 2005/36/CE) nu prelungește disproporționat termenele de concurs pentru cetățenii care au studiat în UE.",
+      "blindSpotsCaught": "Textul creează un blocaj automat de 60-90 de zile deoarece nu amână intrarea în vigoare a Art. I până la adoptarea metodologiei din Art. II. În plus, monopolul de certificare al MEC ignoră faptul că pentru profesii reglementate cu diplome din UE (ex. medici, asistenți) recunoașterea se face de autorități profesionale (Colegiul Medicilor, OAMGMAMR etc.), nu de MEC, iar „alte unități bugetare” din art. 30 alin. (1) au fost omise din noul alin. (5).",
+      "constitutionalityNote": "Vulnerabilitate serioasă față de art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii): textul nu stabilește termene pentru certificare, nu reglementează suspendarea/desfășurarea concursului în așteptarea răspunsului MEC și nu prevede consecințele omisiunii, delegând elemente esențiale unui ordin de ministru. De asemenea, obligarea la aplicare înainte de adoptarea metodologiei (art. 78 coroborat cu Art. II), cuvântul „exclusiv” în raport cu arhivele universităților (art. 32 alin. 6 – autonomia universitară) și lipsa unei evaluări reale a impactului bugetar (art. 138 alin. 5) reprezintă puncte slabe.",
+      "euLawNote": "Poate genera bariere disproporționate pentru libera circulație a lucrătorilor (art. 45 TFUE) și tensiuni cu Directiva 2005/36/CE (recunoașterea calificărilor profesionale și sistemul IMI), dacă candidații cu diplome din UE sunt blocați la înscriere de cerința certificării „exclusiv” de către MEC fără termene clare. Verificarea tuturor candidaților la înscriere, și nu doar a candidatului admis, ridică probleme de proporționalitate și minimizare a datelor conform GDPR (art. 5 alin. 1 lit. c din Regulamentul UE 2016/679). Directivele (UE) 2018/958 și 2015/1535 (TRIS) nu sunt direct incidente.",
       "senatForm": {
-        "articleRef": "Art. I (alin. 5 nou) și Art. II",
-        "proposalContent": "La Art. I, alin. (5) se modifică: „(5) Anterior încheierii contractului individual de muncă pentru candidatul declarat admis, instituția sau autoritatea publică are obligația de a verifica autenticitatea actelor de studii prin registrele electronice naționale sau direct la instituțiile emitente.” Art. I intră în vigoare la 90 de zile de la publicare.",
-        "argumentation": "Verificarea tuturor candidaților la înscriere (când selecția dosarelor durează 2-5 zile lucrătoare) și exclusiv prin MEC va bloca angajările în sectorul public (spitale, școli, primării), deoarece diplomele vechi nu sunt în baza de date MEC, ci în arhivele unităților emitente. Verificarea trebuie făcută doar pentru câștigător, înainte de semnare.",
-        "otherComments": "Codul muncii nu are „norme metodologice de aplicare a legii” (cum eronat prevede Art. II alin. 2), ci doar HG nr. 1336/2022 emisă în baza art. 30 alin. (4). De asemenea, fără prorogarea intrării în vigoare a Art. I până la adoptarea metodologiei (60-90 zile), toate concursurile publice organizate în primele 3 luni vor fi blocate juridic."
-      }
+        "articleRef": "Art. I (art. 30 alin. 5) și Art. II",
+        "proposalContent": "La Art. I, alin. (5): verificarea autenticității actelor de studii să se facă înainte de încheierea contractului, pentru candidatul admis, prin registrele MEC sau instituțiile emitente/autoritățile competente, cu termen maxim de răspuns. La Art. II, adăugați alin. (3): „Art. I intră în vigoare la 90 de zile de la publicarea prezentei legi.”",
+        "argumentation": "Verificarea la înscriere, exclusiv de către MEC și fără termen, riscă să blocheze concursurile (în special pentru diplome vechi nedigitalizate sau recunoscute de alte autorități UE) și încalcă minimizarea datelor (GDPR). Fără amânarea intrării în vigoare a Art. I, obligația se aplică după 3 zile, deși metodologia apare abia după 60-90 de zile.",
+        "otherComments": "Corelați Art. I cu art. 30 alin. (1) („și alte unități bugetare”) și art. 30 alin. (4) (regulamentul aprobat prin HG nr. 1336/2022, nu „norme metodologice” generice ale Codului muncii). Dacă intenția vizează și funcționarii publici, cum indică Expunerea de motive, e necesară completarea Codului administrativ (OUG nr. 57/2019)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 188996,
+      "durationMs": 44872,
+      "sourceEndMarker": "SF-9D1597FD",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Diplomele celor care dau concurs pentru un post la stat, verificate obligatoriu",
-      "verdictShort": "Idee bună și ieftină pentru cetățeni: statul își verifică singur diplomele înainte să angajeze. Textul e însă scris în grabă. Dă exclusivitate Ministerului Educației fără termen de răspuns, verifică toți candidații în loc de câștigător și îi prinde doar indirect pe funcționarii publici, adică exact ținta declarată.",
-      "initiatorClaim": "Inițiatorii spun că în sectorul public au fost angajați oameni cu diplome false, anulate de instanțe sau obținute în străinătate fără echivalare. Ei vor ca instituțiile să verifice ex ante actele de studii prin sistemul informatic al Ministerului Educației și susțin că măsura nu costă nimic, pentru că evidența diplomelor există deja.",
-      "realityCheck": "Noul alineat obligă instituția sau autoritatea publică angajatoare să verifice, la înscrierea la concurs, diplomele, echivalările pentru studiile din străinătate și celelalte acte de studii ale candidatului. Autenticitatea poate fi certificată „exclusiv” de Ministerul Educației și Cercetării. Ministerul nu are termen de răspuns, nu există nicio regulă pentru întârzieri sau pentru un rezultat negativ, iar verificarea privește toți candidații, nu doar pe cel admis. Pentru candidați costul e zero, dar crește volumul de muncă la HR și la minister, iar expunerea de motive nu spune ce acoperire are sistemul informatic pentru diplomele mai vechi.",
+      "plainTitle": "Instituțiile publice trebuie să verifice la Ministerul Educației dacă diplomele candidaților sunt autentice",
+      "verdictShort": "Scopul e corect și util, combaterea diplomelor false la angajarea la stat, iar riscul pentru cetățeni e mic. Textul e însă scris neglijent: ratează funcționarii publici pe care îi vizează și creează un blocaj practic, pentru că toate verificările trec «exclusiv» prin MEC și nu există niciun termen de răspuns.",
+      "initiatorClaim": "Inițiatorii vor să oprească angajarea în sectorul public pe bază de diplome falsificate, anulate de instanțe sau obținute în străinătate și neechivalate. Pentru asta, instituțiile ar fi obligate să verifice ex ante autenticitatea actelor de studii, folosind sistemul informatic al Ministerului Educației și Cercetării.",
+      "realityCheck": "Legea adaugă un alineat (5) la art. 30 din Codul muncii. Angajatorul public trebuie să verifice, la înscrierea la concurs, autenticitatea diplomelor, a echivalărilor și a altor înscrisuri de studii, iar certificarea o face «exclusiv» MEC. Art. 30 din Codul muncii se aplică însă doar personalului contractual, nu funcționarilor publici reglementați de Codul administrativ, așa că ținta declarată din expunerea de motive rămâne parțial neacoperită. Verificarea tuturor candidaților la înscriere, fără termen de răspuns pentru MEC și fără soluție pentru diplomele vechi nedigitizate, poate întârzia sau bloca concursurile.",
       "affectedGroups": [
         "Angajați & HR",
-        "Sănătate & Educație"
+        "Sănătate & Educație",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I (noul art. 30 alin. 5): verificarea se face „cu ocazia înscrierii”, adică pentru toți candidații, inclusiv pentru cei respinși ulterior. La un concurs cu sute de înscriși, asta înseamnă sute de cereri către minister pentru un singur post, deși ar ajunge verificarea celui declarat admis.",
-        "Art. I: „Autenticitatea se certifică exclusiv de către Ministerul Educației și Cercetării”, dar ministerul nu primește niciun termen de răspuns, iar confirmarea directă de la universitatea sau școala emitentă devine imposibilă. Concursurile pot rămâne blocate în așteptarea ministerului.",
-        "Art. I: obligația cade pe „instituția sau autoritatea publică angajatoare”, deși art. 30 alin. (1) vizează și „alte unități bugetare”. Fișa Camerei vorbește de „toate înscrisurile”, însă textul acoperă doar actele care atestă nivelul de studii.",
-        "Art. II: metodologia ministerului vine în 60 de zile, iar normele Guvernului în 90 de zile. Legea intră însă în vigoare la 3 zile după publicare, așa că instituțiile ar avea o obligație fără procedură. Trimiterea la „normele metodologice de aplicare a legii” e vagă, pentru că Codul muncii nu are norme generale de aplicare.",
-        "Lipsesc consecințele: textul nu spune ce se întâmplă dacă actul e fals, dacă ministerul nu răspunde sau dacă instituția nu verifică. Falsul rămâne pedepsit de Codul penal, iar contractul poate fi constatat nul (art. 57 Codul muncii), dar legea nu leagă aceste efecte de noua verificare.",
-        "Partea bună: povara cade pe instituție, nu pe candidat, și nu apar taxe sau sancțiuni pentru cetățeni. Măsura respectă principiul „o singură dată”: statul verifică singur, în propriile evidențe, documente emise tot de el."
+        "Art. I (art. 30 alin. 5 nou): obligația vizează doar încadrarea salariaților prin concurs/examen la instituțiile publice și unitățile bugetare, adică personalul contractual. Funcțiile publice propriu-zise (funcționarii publici), invocate în expunerea de motive și în fișa Camerei, sunt reglementate de Codul administrativ (OUG 57/2019), pe care proiectul nu îl modifică.",
+        "Formula «autenticitatea se certifică exclusiv de către Ministerul Educației și Cercetării» transformă MEC în punct unic de verificare pentru orice act de studii. Unele «înscrisuri care atestă nivelul de studii» nu sunt emise sau evidențiate de MEC, de exemplu certificatele de calificare profesională ale furnizorilor autorizați ANC. Nici diplomele vechi, anterioare registrelor electronice, nu au neapărat o evidență digitală consultabilă.",
+        "Verificarea trebuie făcută «cu ocazia înscrierii», pentru toți candidații. Perioadele de înscriere din regulamentul-cadru sunt scurte, iar legea nu fixează un termen în care MEC să răspundă, așa că organizatorul poate ajunge să nu poată respecta calendarul concursului.",
+        "Art. II alin. (2) obligă Guvernul să «actualizeze normele metodologice de aplicare a legii», dar Codul muncii nu are norme metodologice. Condițiile concursului se stabilesc prin regulament aprobat prin HG, conform art. 30 alin. (4) în vigoare (în prezent HG 1336/2022). Trimiterea e imprecisă.",
+        "Pentru cetățeni, efectul e neutru sau pozitiv: nu apar taxe, sancțiuni noi sau sarcini pentru candidați. Falsul în înscrisuri era deja pedepsit penal. Noutatea este doar obligația proactivă de verificare pusă în sarcina angajatorului public.",
+        "Afirmația că măsura nu are impact bugetar este optimistă. MEC va trebui să proceseze un volum mare de cereri sau să deschidă acces electronic instituțiilor, iar termenul de 60 de zile din Art. II alin. (1) pentru metodologie și soluția tehnică este strâns."
       ],
-      "blindSpotsCaught": "Sintagma „cu ocazia înscrierii” mută verificarea la începutul concursului, unde selecția dosarelor are termene de câteva zile lucrătoare. Fără un termen impus ministerului, instituția fie amână concursul, fie îl derulează fără verificare și încalcă legea. În plus, expunerea vorbește despre „funcție publică”, dar funcționarii publici sunt reglementați de Codul administrativ, iar Codul muncii li se aplică doar în completare. Ținta declarată e deci atinsă doar indirect și contestabil.",
-      "constitutionalityNote": "Legea nu restrânge drepturi fundamentale. Egalitatea în accesul la funcții publice (art. 16 alin. 3) e respectată, pentru că regula se aplică tuturor candidaților, iar transmiterea datelor către minister are o finalitate legitimă (art. 26). Problemele țin de claritate și previzibilitate (art. 1 alin. 5): lipsesc termenul de răspuns și consecințele, trimiterea la norme metodologice e imprecisă, iar exclusivitatea ministerului nu se potrivește cu actele emise sau recunoscute de alte autorități. Art. 23 alin. (12) nu e relevant, pentru că legea nu introduce sancțiuni. Procedura e corectă: modificarea Codului muncii e lege organică (art. 73 alin. 3 lit. p), cu Senatul primă cameră și Camera decizională (art. 75).",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează accesul la o profesie, ci procedura internă de angajare la stat. Nici TRIS (2015/1535) nu se aplică: nu există o regulă tehnică pentru servicii ale societății informaționale, iar sistemul informatic e intern administrației. Contează însă libera circulație a lucrătorilor (art. 45 TFUE). Posturile contractuale de la stat nu intră de regulă în excepția pentru administrația publică (art. 45 alin. 4, interpretată restrictiv de CJUE), așa că diplomele din alte state UE nu pot fi supuse unor obstacole în plus. Pentru profesiile reglementate (de ex. cele medicale), Directiva 2005/36/CE desemnează autorități competente proprii și permite verificarea autenticității doar în caz de îndoieli justificate, inclusiv prin IMI. Aplicată literal, „certificarea exclusivă” de către Ministerul Educației ar dubla acest mecanism. Temeiul GDPR există (art. 6 alin. 1 lit. c), dar metodologia trebuie să limiteze datele transmise la minimul necesar.",
+      "blindSpotsCaught": "Cea mai importantă scăpare este nepotrivirea dintre ținta declarată și actul modificat. Expunerea de motive vorbește de «funcții publice», dar Codul muncii nu guvernează raportul de serviciu al funcționarilor publici, iar fără o modificare paralelă a Codului administrativ măsura nu îi acoperă. Mai sunt două probleme subtile. Cuvântul «exclusiv» exclude implicit confirmarea directă de la emitent (universitate, liceu) sau de la CNRED ca structură distinctă. Iar textul nu spune ce se întâmplă cu candidatul dacă MEC nu răspunde la timp: este respins, admis condiționat sau se amână concursul? Forma consolidată a art. 30 conține și un text intercalat (art. 1 din Legea 70/2022, cu alineate proprii), ceea ce face numerotarea noului alin. (5) confuză la consolidare.",
+      "constitutionalityNote": "Nu există probleme majore de constituționalitate. Măsura urmărește un scop legitim, integritatea accesului la funcții finanțate public, și nu restrânge disproporționat dreptul la muncă (art. 41) sau accesul la funcții publice (art. 16 alin. 3). Pe claritate și previzibilitate (art. 1 alin. 5) sunt totuși deficiențe: noțiunea vagă de «alte înscrisuri», lipsa unui termen și a consecințelor nerăspunsului, și trimiterea la «norme metodologice» inexistente. Prelucrarea datelor din actele de studii are temei legal în lege, dar metodologia MEC ar trebui să respecte principiul minimizării datelor (art. 26 Constituție, GDPR).",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu introduce o reglementare nouă de acces la o profesie, ci verifică documentele pentru posturi bugetare. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu reglementează servicii ale societății informaționale. Trebuie însă avută grijă la diplomele obținute în alte state UE. Verificarea autenticității este permisă, dar nu trebuie să devină o cerință suplimentară de echivalare care să împiedice libera circulație a lucrătorilor (art. 45 TFUE) sau să ignore regimul de recunoaștere din Directiva 2005/36/CE pentru profesiile reglementate. Recunoașterea academică pentru angajare nu poate fi refuzată nejustificat cetățenilor UE. Prelucrarea datelor trebuie să respecte GDPR (art. 6 alin. 1 lit. c, art. 5 minimizare).",
       "senatForm": {
-        "articleRef": "Art. I, art. 30 alin. (5) din Codul muncii",
-        "proposalContent": "(5) Înainte de încadrare, angajatorul prevăzut la alin. (1) verifică, fără costuri pentru candidat, autenticitatea actelor de studii ale candidatului declarat admis, la Ministerul Educației și Cercetării sau la instituția emitentă, care răspund în 10 zile lucrătoare. Actele false sau anulate atrag neîncadrarea și sesizarea organelor de urmărire penală.",
-        "argumentation": "Textul inițiatorului cere verificarea tuturor candidaților la înscriere și dă exclusivitate Ministerului Educației, fără termen de răspuns. Concursurile s-ar putea bloca, iar celelalte unități bugetare din alin. (1) nu sunt numite. Verificarea doar a câștigătorului, cu termen fix și efect clar, atinge același scop antifraudă cu mult mai puțină birocrație.",
-        "otherComments": "Art. II alin. (2) cere actualizarea „normelor metodologice de aplicare a legii”, dar Codul muncii nu are norme generale de aplicare; trebuie numit regulamentul de concurs din art. 30 alin. (4). Obligația intră în vigoare înaintea metodologiei MEC, deci e nevoie de o dată de aplicare corelată. Pentru funcționarii publici trebuie completat Codul administrativ."
-      }
+        "articleRef": "Art. I – art. 30 alin. (5) Codul muncii",
+        "proposalContent": "(5) Până la validarea rezultatului final, angajatorul verifică autenticitatea actelor de studii ale candidatului declarat admis, prin interogarea electronică a registrelor gestionate de Ministerul Educației și Cercetării sau, pentru actele neînregistrate, prin solicitare către emitent ori CNRED, care răspund în 10 zile lucrătoare.",
+        "argumentation": "Verificarea tuturor candidaților la înscriere, într-un interval scurt, poate bloca concursurile. Verificarea doar a câștigătorului atinge același scop cu mai puțin efort. «Exclusiv MEC» nu acoperă diplomele vechi nedigitizate și certificatele ANC, iar lipsa unui termen de răspuns face norma greu aplicabilă.",
+        "otherComments": "Art. 30 din Codul muncii nu se aplică funcționarilor publici, deși expunerea de motive îi vizează; e necesară o completare similară a Codului administrativ (OUG 57/2019). La Art. II alin. (2): Codul muncii nu are norme metodologice; trebuie vizat regulamentul-cadru aprobat prin HG conform art. 30 alin. (4)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 118107,
+      "durationMs": 75444,
+      "sourceEndMarker": "SF-9D1597FD",
       "riskScore": 4,
       "riskLevel": "yellow",
       "plainTitle": "Verificarea diplomelor la angajarea în instituțiile publice",
-      "verdictShort": "Prevenirea angajărilor cu diplome false este utilă și legitimă. Forma propusă necesită însă corecții: certificarea exclusivă la minister, fără termen de răspuns și fără reguli tranzitorii, poate întârzia concursurile și afecta candidații de bună-credință.",
-      "initiatorClaim": "Inițiatorii urmăresc eliminarea diplomelor false, anulate sau nerecunoscute folosite la angajarea în sectorul public. Susțin că verificarea poate utiliza infrastructura informatică existentă, fără impact bugetar suplimentar.",
-      "realityCheck": "Art. I obligă instituția sau autoritatea angajatoare să verifice, cu ocazia înscrierii, documentele privind studiile și echivalările, iar certificarea autenticității revine exclusiv ministerului. Textul nu instituie verificarea tuturor înscrisurilor din dosar, controlul general al angajaților existenți, taxe sau sancțiuni noi. În schimb, creează o sarcină administrativă fără termen pentru certificare și fără soluție expresă pentru documentele absente din registre ori pentru întârzierile autorităților.",
+      "verdictShort": "Verificarea diplomelor este utilă, dar certificarea exclusiv prin minister, fără termen de răspuns, poate bloca recrutarea unor candidați cu acte autentice. Riscul principal este birocratic; proiectul nu introduce taxe sau sancțiuni.",
+      "initiatorClaim": "Inițiatorii urmăresc împiedicarea angajării în sectorul public pe baza diplomelor falsificate, anulate sau nerecunoscute. Susțin că evidențele informatice existente permit verificarea fără impact bugetar.",
+      "realityCheck": "Art. 30 impune deja concursul sau examenul; proiectul adaugă verificarea autenticității înscrisurilor privind studiile și rezervă certificarea exclusiv Ministerului Educației și Cercetării. Introducerea obligației în Codul muncii nu asigură automat acoperirea tuturor funcționarilor publici și a tuturor regimurilor speciale invocate în motivare. Textul nu stabilește termenul certificării, efectele întârzierii sau verificarea distinctă a valabilității unei diplome autentice, dar anulate.",
       "affectedGroups": [
         "Angajați & HR",
         "Sănătate & Educație",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I: verificarea autenticității este o măsură antifraudă justificată. Certificarea copiilor pentru conformitate cu originalul, deja prevăzută de art. 35 alin. (4) din regulamentul aprobat prin HG nr. 1336/2022, nu demonstrează că originalul este autentic. [Regulamentul existent](https://legislatie.just.ro/Public/DetaliiDocument/261250).",
-        "Art. I: competența exclusivă a ministerului centralizează certificarea, fără termen individual de răspuns sau procedură alternativă expresă. Este un posibil blocaj administrativ, nu un monopol comercial acordat unei firme.",
-        "Sfera aplicării trebuie clarificată: art. 30 privește încadrarea salariaților, iar introducerea obligației în Codul muncii nu asigură singură aplicarea uniformă tuturor funcționarilor publici supuși unui statut special. Noul alineat nici nu reia expres categoria altor unități bugetare din alin. (1). [Codul muncii](https://legislatie.just.ro/Public/DetaliiDocument/191867).",
-        "Art. II: termenele de 60 și 90 de zile privesc adoptarea normelor, fără să amâne expres aplicarea obligației. Lipsesc reguli pentru concursurile aflate în desfășurare.",
-        "Impactul bugetar zero este afirmat, nu demonstrat printr-o estimare: verificarea fiecărui dosar presupune muncă pentru HR și minister, iar adaptările tehnice pot genera costuri. Proiectul nu impune obligații directe IMM-urilor sau angajatorilor privați.",
-        "Riscul administrativ are și confirmare în parcursul parlamentar: raportul suplimentar al comisiei senatoriale a recomandat respingerea pentru obligații neclare, blocaje și necorelări legislative. Aceasta este o evaluare parlamentară, nu o constatare de neconstituționalitate. [Raportul suplimentar](https://www.senat.ro/legis/PDF/2025/25L574S1.pdf?nocache=true)."
+        "Art. I: obligația nouă privește diplomele, echivalările naționale și celelalte înscrisuri care atestă nivelul studiilor, nu toate documentele din dosarul candidatului, cum sugerează expunerea de motive.",
+        "Art. I: certificarea exclusiv ministerială creează un punct unic de procesare administrativă. Nu este un monopol comercial, dar lipsesc termenul de răspuns și soluția pentru întârzierile neimputabile candidatului.",
+        "Art. I: formularea «cu ocazia înscrierii» nu precizează dacă verificarea trebuie încheiată înaintea validării dosarului, înaintea probelor sau înaintea angajării.",
+        "Art. I: autenticitatea documentului nu dovedește singură că diploma este încă valabilă, că studiile sunt recunoscute ori că îndeplinesc cerințele postului. Proiectul nu introduce expres verificarea diplomelor angajaților existenți.",
+        "Art. II: metodologia apare în maximum 60 de zile, iar actualizarea normelor în maximum 90 de zile de la publicare. În lipsa unei date speciale, legea intră în vigoare la trei zile de la publicare, astfel încât obligația poate preceda instrumentele necesare aplicării.",
+        "Art. II alin. (2): expresia «normele metodologice de aplicare a legii» nu identifică regulamentele care trebuie actualizate. Codul muncii trimite deja, la art. 30 alin. (4), la un regulament aprobat prin hotărâre a Guvernului.",
+        "Afirmația privind impactul bugetar zero nu este demonstrată doar prin existența unei baze de date: verificările repetate, documentele vechi sau străine și certificarea centralizată consumă resurse. Nu rezultă însă taxe noi pentru candidați ori obligații generale pentru IMM-uri.",
+        "Pasajele despre personalul încadrat în perioada pandemiei apar în materialul informativ ca derogări din Legea nr. 70/2022. Proiectul analizat nu le introduce, nu le abrogă și nu modifică restul art. 30."
       ],
-      "blindSpotsCaught": "Autenticitatea, valabilitatea și recunoașterea studiilor sunt verificări diferite: un document emis autentic poate fi ulterior anulat, iar autenticitatea unei diplome străine nu dovedește recunoașterea calificării. Deși expunerea invocă diplome anulate și cursuri nerecunoscute, dispozitivul cere expres certificarea autenticității, fără să reglementeze distinct aceste situații. Existența unui registru nu demonstrează că acesta acoperă toate documentele relevante.",
-      "constitutionalityNote": "Scopul este legitim. Principala vulnerabilitate privește claritatea și aplicabilitatea, prin art. 1 alin. (5): lipsesc termenul certificării, efectele întârzierii și corelarea cu procedurile de concurs. Respingerea unui candidat exclusiv pentru întârzierea autorității ar putea afecta egalitatea și dreptul la muncă, protejate de art. 16 și 41. Art. 23 alin. (12), privind legalitatea pedepselor, nu are incidență directă: proiectul nu introduce pedepse. Potrivit art. 78, în lipsa unei date ulterioare, legea intră în vigoare la trei zile de la publicare; termenele din art. II nu suspendă automat obligația. Acestea sunt riscuri de redactare și aplicare, nu o neconstituționalitate certă. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355?isFormaDeBaza=True).",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică automat oricărei proceduri de recrutare: art. 2 vizează restricțiile privind accesul la profesii reglementate sau exercitarea lor, în domeniul Directivei 2005/36/CE. Dacă certificarea suplimentară restrânge efectiv un asemenea acces, trebuie evaluată proporționalitatea, inclusiv necesitatea centralizării și alternativele mai puțin împovărătoare; textul nu dovedește singur o încălcare. Nu rezultă o restrângere directă a concurenței între firme. Notificarea TRIS nu apare necesară pentru forma analizată: proiectul nu reglementează produse sau servicii ale societății informaționale, iar utilizarea unui registru electronic nu îl transformă într-o reglementare digitală ori AI. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/ro/ALL/?uri=CELEX%3A32018L0958), [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=celex%3A32015L1535).",
+      "blindSpotsCaught": "Dispozițiile finale creează un decalaj între intrarea în vigoare și adoptarea procedurilor, fără reguli pentru concursurile deja începute. În plus, verificarea echivalărilor depuse nu înseamnă instituirea expresă a unei obligații noi de echivalare pentru orice diplomă străină, iar autenticitatea nu trebuie confundată cu valabilitatea juridică.",
+      "constitutionalityNote": "Scopul prevenirii fraudei este legitim. Art. 1 alin. (5) cere însă precizarea momentului verificării, a termenelor și a consecințelor lipsei răspunsului; aceste elemente esențiale nu ar trebui lăsate integral metodologiei. Blocarea accesului la concurs din cauza întârzierilor autorităților ar ridica probleme în raport cu art. 16 și art. 41. Art. 78 explică decalajul de aplicare, iar eventualele cheltuieli suplimentare trebuie evaluate inclusiv prin prisma art. 138 alin. (5), fără a deduce automat neconstituționalitatea. Art. 23 alin. (12), privind legalitatea pedepsei, nu este direct incident: proiectul nu introduce pedepse.",
+      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile asupra accesului la profesii reglementate sau exercitării lor; o verificare generală a diplomelor la recrutarea publică nu declanșează automat testul prevăzut de directivă. Dacă aplicarea instituie asemenea restricții, proporționalitatea trebuie evaluată concret. Directiva (UE) 2015/1535 nu impune notificarea TRIS doar pentru utilizarea unor registre informatice: textul nu reglementează specific servicii ale societății informaționale, produse sau AI. Verificările trebuie să respecte, după caz, recunoașterea calificărilor potrivit Directivei 2005/36/CE, libera circulație și cerințele RGPD privind accesul, securitatea și limitarea datelor. Exclusivitatea administrativă nu constituie, prin ea însăși, o încălcare a concurenței.",
       "senatForm": {
         "articleRef": "Art. I – art. 30 alin. (5) din Codul muncii",
-        "proposalContent": "(5) Angajatorii prevăzuți la alin. (1) verifică din oficiu și gratuit autenticitatea actelor de studii și de recunoaștere a acestora, înaintea încadrării, prin registre oficiale sau confirmarea emitentului ori a autorității competente. Autoritățile române răspund în 10 zile lucrătoare. Lipsa actului din registru ori întârzierea răspunsului nu justifică respingerea candidatului.",
-        "argumentation": "Verificarea protejează concursul de fraude, dar competența exclusivă a ministerului poate bloca recrutarea. Registrele și confirmarea emitentului oferă căi verificabile, inclusiv pentru acte vechi. Gratuitatea și interdicția respingerii pentru întârzieri administrative protejează candidații de bună-credință.",
-        "otherComments": "Corelați aplicarea obligației cu intrarea în vigoare a normelor din art. II și reglementați concursurile în curs, actele anulate și contestarea rezultatului verificării. Clarificați separat aplicarea la funcționarii publici. Termenul de amendamente indicat, 05.03.2026, a trecut; propunerea cetățeanului poate fi transmisă comisiei spre preluare de un deputat."
-      }
+        "proposalContent": "(5) Instituția sau autoritatea publică verifică gratuit autenticitatea actelor de studii și a echivalărilor, prin registre oficiale ori confirmarea emitentului sau a autorității competente. Răspunsul se comunică în 5 zile lucrătoare. Lipsa lui permite participarea provizorie la concurs; angajarea este condiționată de confirmare.",
+        "argumentation": "Verificarea previne frauda, dar certificarea exclusiv ministerială, fără termen, poate bloca recrutarea. Confirmarea din surse oficiale și participarea provizorie reduc întârzierile neimputabile candidatului, păstrând verificarea obligatorie înaintea angajării.",
+        "otherComments": "Termenul indicat, 05.03.2026, este depășit la data analizei, 24.11.2026; preluarea propunerii trebuie verificată la comisie. Corelați aplicarea obligației cu metodologia și reglementați concursurile în curs. Analiza se bazează pe textele furnizate; verificarea externă nu a fost disponibilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T06:52:28.220Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:28:11.440Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "billId": "PL-x 192/2025",
   "slug": "plx-192-2025",
   "version": "senat",
-  "updatedAt": "2026-11-19T14:55:06.163Z",
+  "updatedAt": "2026-11-24T15:21:46.093Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -12,13 +12,31 @@
     "memoSupplied": 9697,
     "marker": "SF-06CC330D"
   },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-192-2025.json",
+    "form": "senat",
+    "textHash": "06cc330db040f6a6",
+    "fetchedAt": "2026-11-20T07:44:46.409Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1846,
+    "truncated": false,
+    "included": true,
+    "key": "f1f09d5e692f7c85"
+  },
   "consensus": {
-    "riskScore": 2,
+    "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "Primăriile vor putea da legal bani pentru nou-născuți",
-    "summaryTlDr": "O lege scurtă și utilă: dă temei legal ajutoarelor pentru nou-născuți pe care multe consilii locale le acordă deja fără bază clară. Riscul real e mic și vine din ce vor scrie consiliile în regulamentele proprii, nu din textul legii.",
-    "initiatorClaim": "Inițiatorii spun că, după abrogarea Legii nr. 482/2006 privind trusoul prin Legea nr. 118/2010, consiliile locale acordă ajutoare pentru nou-născuți fără bază legală, contrar art. 14 alin. (3) din Legea nr. 273/2006. Vor să creeze un temei expres și unitar pentru acest sprijin.",
-    "realityCheck": "Articolul unic introduce art. 130¹ în Legea nr. 272/2004 și permite consiliilor locale să acorde un ajutor financiar pentru nou-născuți. Nu le obligă și nu fixează suma, beneficiarul plății, frecvența sau condițiile, toate fiind lăsate în regulamentele locale. Efectele secundare sunt diferențele mari între localitățile bogate și cele sărace, riscul unor criterii locale discutabile (cetățenie, ani mulți de domiciliu) și posibila folosire electorală a ajutorului. Legea nu creează taxe, sancțiuni sau obligații noi pentru cetățeni ori firme.",
+    "plainTitle": "Primăriile vor putea da, legal, bani pentru nou-născuți",
+    "summaryTlDr": "Este o lege scurtă și utilă. Dă temei legal unei practici pe care multe consilii locale o aplicau deja fără bază juridică. Textul este însă foarte lapidar: nu spune cine sunt beneficiarii, din ce bani se plătește ajutorul și ce limite au criteriile locale.",
+    "initiatorClaim": "După abrogarea Legii nr. 482/2006 privind trusoul, consiliile locale care acordă sprijin pentru nou-născuți nu au temei legal, iar hotărârile lor sunt contestabile (art. 14 alin. 3 din Legea 273/2006). Inițiatorii vor să abiliteze expres autoritățile locale să acorde acest ajutor.",
+    "realityCheck": "Articolul unic introduce art. 130¹ în Legea 272/2004: consiliile locale «pot hotărî» un ajutor financiar pentru nou-născuți, după criterii stabilite prin regulamente proprii. Măsura este facultativă și nu creează obligații pentru cetățeni sau firme. Lasă însă totul la discreția locală: nu definește legătura cu localitatea (domiciliu sau reședință), cuantumul, termenul de solicitare ori sursa de finanțare. Rezultatul probabil sunt practici foarte diferite de la o comună la alta și riscul unor criterii arbitrare sau discriminatorii.",
     "affectedGroups": [
       "Toți cetățenii",
       "Justiție & Drepturi Civile",
@@ -26,110 +44,132 @@
     ],
     "senatForm": {
       "articleRef": "Articol unic – art. 130¹ din Legea nr. 272/2004",
-      "proposalContent": "Art.130¹ (1) Consiliile locale pot hotărî acordarea, din bugetul local, a unui ajutor financiar unic pentru copiii nou-născuți sau adoptați, pe baza unor criterii obiective și nediscriminatorii, stabilite prin regulament propriu. (2) Ajutorul nu se ia în calcul la stabilirea venitului pentru beneficiile de asistență socială.",
-      "argumentation": "Textul Senatului nu spune de câte ori se dă ajutorul și ce limite au criteriile locale. Adopția creează aceeași filiație ca nașterea (Codul civil), deci copilul adoptat trebuie inclus. Criterii obiective și nediscriminatorii exclud condiții precum cetățenia, contestabile la prefect și în dreptul UE. Alin. (2) evită ca ajutorul să reducă venitul minim de incluziune.",
-      "otherComments": "«Hotârî» trebuie corectat în «hotărî». Fără normă tranzitorie, hotărârile deja adoptate fără temei rămân atacabile; consiliile trebuie să le readopte după intrarea în vigoare. Ar fi util ca ajutorul să fie plătit părintelui sau reprezentantului legal și să fie cerut într-un termen de la naștere sau adopție."
+      "proposalContent": "Art.130¹.-(1) Consiliile locale pot hotărî acordarea unui ajutor financiar pentru nou-născuții cu domiciliul sau reședința în unitatea administrativ-teritorială, din veniturile proprii ale bugetului local. (2) Criteriile, cuantumul și procedura se stabilesc prin regulament aprobat prin hotărâre și publicat, cu respectarea principiului nediscriminării.",
+      "argumentation": "Textul Senatului nu precizează legătura beneficiarului cu localitatea, sursa de finanțare și limitele criteriilor locale. Aceste lipsuri permit practici neunitare și criterii arbitrare. Finanțarea din venituri proprii protejează bugetul, iar nediscriminarea asigură egalitatea copiilor (art. 16 și 49 din Constituție).",
+      "otherComments": "Corectați «hotârî» în «hotărî». Recomandăm precizarea că ajutorul nu se ia în calcul la venitul pentru alte beneficii sociale. Recomandăm și clarificarea situației hotărârilor adoptate anterior, în corelare cu art. 14 alin. (3) din Legea 273/2006 și cu atribuțiile consiliului local din Codul administrativ."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
       "modelId": "gemini-4-neon-high",
-      "durationMs": 62155,
+      "durationMs": 55562,
       "sourceEndMarker": "SF-06CC330D",
-      "riskScore": 2,
+      "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Primăriile primesc bază legală să acorde bani pentru nou-născuți",
-      "verdictShort": "O lege utilă și benignă care repară un vid legislativ vechi din 2010, permițând legal consiliilor locale să acorde stimulente financiare pentru nou-născuți. Singurele riscuri țin de redactarea foarte sumară, care lasă la discreția fiecărei primării toate criteriile fără garanții minime de nediscriminare sau clarificări fiscale.",
-      "initiatorClaim": "Inițiatorii susțin că, după abrogarea Legii nr. 482/2006 (trusoul pentru nou-născuți), consiliile locale nu mai au temei legal pentru a acorda ajutoare generale familiilor cu nou-născuți, deoarece art. 130 din Legea nr. 272/2004 acoperă doar situații excepționale. Proiectul urmărește să creeze baza legală necesară pentru respectarea art. 14 alin. (3) din Legea nr. 273/2006 privind finanțele publice locale.",
-      "realityCheck": "Articolul unic introduce art. 130¹ în Legea nr. 272/2004 și le oferă consiliilor locale facultatea („pot hotărî”), nu obligația, de a acorda un ajutor financiar pentru nou-născuți pe baza unor regulamente proprii. În practică, măsura deblochează hotărârile locale contestate anterior de prefecți sau Curtea de Conturi, dar textul omite să precizeze caracterul unic al plății, vârsta maximă pentru depunerea cererii, sursa exactă (bugetul local) și dacă suma afectează alte ajutoare sociale.",
+      "plainTitle": "Bază legală pentru ajutoarele locale la naștere",
+      "verdictShort": "Un proiect scurt, benign și util, care repară un vid legislativ real privind stimulentele acordate de primării pentru nou-născuți. Riscurile sunt mici și țin doar de formularea prea sumară, care lasă toate regulile la discreția consiliilor locale.",
+      "initiatorClaim": "Inițiatorii arată că, după abrogarea în 2010 a Legii nr. 482/2006 privind trusoul pentru nou-născuți, consiliile locale nu mai au o bază legală expresă pentru a acorda stimulente la naștere, motiv pentru care astfel de hotărâri riscă să încalce art. 14 alin. (3) din Legea finanțelor publice locale nr. 273/2006.",
+      "realityCheck": "Articolul unic adaugă art. 130¹ în Legea nr. 272/2004 și le oferă consiliilor locale posibilitatea — nu obligația — de a acorda un ajutor financiar pentru nou-născuți, spre deosebire de art. 130 actual, care permite primarului doar prestații excepționale pentru familii în situații de criză. Textul este însă extrem de laconic: nu definește limita de vârstă a nou-născutului, caracterul unic al plății, regimul fiscal sau limitele criteriilor locale, lăsând spațiu pentru regulamente arbitrare ori neuniforme.",
       "affectedGroups": [
         "Toți cetățenii",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 130¹ conferă o competență facultativă consiliilor locale, astfel încât nu obligă bugetele locale săracite să facă cheltuieli nesustenabile, dar elimină riscul de nelegalitate al plăților existente.",
-        "Formularea „pe baza unor criterii stabilite prin regulamente proprii” nu include niciun filtru minimal de nediscriminare și nici un plafon, permițând în teorie condiții restrictive (ex. condiționarea dreptului copilului de lipsa datoriilor fiscale ale părinților sau vechimi excesive ale domiciliului).",
-        "Textul nu definește regimul fiscal și de asistență socială al ajutorului (dacă este neimpozabil și dacă se exclude din calculul veniturilor pentru Venitul Minim de Incluziune), ceea ce poate genera interpretări administrative neunitare.",
-        "Proiectul nu instituie taxe, sancțiuni sau sarcini birocratice pentru companii ori IMM-uri."
+        "Art. 130¹ introdus în Legea nr. 272/2004 are caracter facultativ („pot hotărî”), astfel că nu impune cheltuieli obligatorii unităților administrativ-teritoriale fără resurse și nu creează taxe ori sarcini administrative pentru cetățeni sau IMM-uri.",
+        "Spre deosebire de art. 130 în vigoare (unde primarul acordă, prin dispoziție, prestații financiare excepționale doar în cazuri individuale de dificultate temporară), noul art. 130¹ mută competența la consiliul local și permite ajutoare generale pentru nou-născuți, fără condiția unei situații excepționale.",
+        "Textul face o delegare aproape totală către regulamentele locale, fără să stabilească criterii-cadru de nediscriminare, sursa exactă (venituri proprii ale bugetului local) sau dacă ajutorul este scutit de impozit și exclus din calculul altor beneficii sociale (ex. venitul minim de incluziune)."
       ],
-      "blindSpotsCaught": "Există o necorelare minoră între fișa oficială a Camerei Deputaților (care menționează un „ajutor financiar suplimentar”) și textul adoptat de Senat (unde apare doar „un ajutor financiar”, fără a clarifica explicit cumulul cu prestațiile excepționale de la art. 130 sau cu tichetele sociale naționale pentru nou-născuți). În plus, forma adoptată de Senat conține o eroare de redactare („pot hotârî” în loc de „pot hotărî”) și nu precizează expres că plata este unică și suportată din bugetul local.",
-      "constitutionalityNote": "Proiectul este compatibil cu principiul autonomiei locale (art. 120) și cu obligația de protecție a copiilor (art. 49). Întrucât norma este facultativă și trimite la regulile privind fondurile publice, nu încalcă art. 138 alin. (5) privind indicarea sursei de finanțare. Totuși, delegarea totală a criteriilor către regulamente locale fără repere legale minime prezintă o vulnerabilitate ușoară din perspectiva calității și previzibilității legii (art. 1 alin. 5) și a riscului de tratament inegal în aplicare (art. 16).",
-      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează profesii), a Directivei (UE) 2015/1535 TRIS (nu vizează norme tehnice sau servicii ale societății informaționale) și nu constituie ajutor de stat în sensul art. 107 TFUE, beneficiarii fiind familii/persoane fizice. La punerea în aplicare prin regulamente locale, consiliile locale vor trebui să evite criterii de cetățenie sau reședință disproporționate care ar discrimina cetățenii UE rezidenți în România (art. 18 și 21 TFUE).",
+      "blindSpotsCaught": "Există o neconcordanță între fișa oficială a Camerei Deputaților (care vorbește de un „ajutor financiar suplimentar”) și forma adoptată de Senat („ajutor financiar”). În plus, textul conține eroarea ortografică „hotârî” în loc de „hotărî”, nu clarifică dacă atribuția revine și Consiliului General al Municipiului București sau doar consiliilor locale de sector și nu previne condiții locale restrictive (precum vechimea domiciliului sau lipsa datoriilor la taxe locale) care pot genera litigii de discriminare.",
+      "constitutionalityNote": "Proiectul respectă principiul autonomiei locale (art. 120–121) și nu impune cheltuieli obligatorii, dar are o vulnerabilitate moderată sub aspectul clarității și previzibilității legii (art. 1 alin. 5) și al egalității în drepturi (art. 16), deoarece nu trasează repere minime pentru regulamentele locale. Trimiterea generică la „reglementările privitoare la utilizarea fondurilor publice” acoperă parțial exigența sursei de finanțare (art. 138 alin. 5), însă precizarea expresă a veniturilor proprii locale ar fi mai riguroasă.",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează profesii) și nici a Directivei (UE) 2015/1535 privind notificarea TRIS (nu vizează reglementări tehnice ori servicii digitale). La nivelul aplicării locale, regulamentele consiliilor locale vor trebui însă să respecte principiul nediscriminării din dreptul UE (art. 18 TFUE și Directiva 2004/38/CE) față de cetățenii altor state membre rezidenți legal în localitate, evitând condiții nejustificate de cetățenie sau de durată excesivă a domiciliului.",
       "senatForm": {
-        "articleRef": "Art. unic - Art. 130¹ din Legea nr. 272/2004",
-        "proposalContent": "„Art. 130¹.- (1) Consiliile locale pot hotărî acordarea unică, din bugetele locale, a unui ajutor financiar pentru nou-născuți, pe criterii transparente și nediscriminatorii stabilite prin regulament propriu, cu respectarea legislației finanțelor publice locale. (2) Ajutorul este neimpozabil și nu afectează alte drepturi de asistență socială.”",
-        "argumentation": "Forma Senatului nu precizează sursa (bugetul local), caracterul unic, garanția nediscriminării și regimul fiscal al ajutorului, putând genera blocaje din partea Curții de Conturi ori criterii locale arbitrare. Excluderea de la calculul veniturilor protejează familiile vulnerabile care primesc venitul minim de incluziune.",
-        "otherComments": "Inițiativa este utilă, acoperind vidul creat după abrogarea Legii nr. 482/2006. Se impune și corectarea erorii de redactare din forma Senatului („pot hotârî” în loc de „pot hotărî”), precum și verificarea corelării cu art. 130 din Legea nr. 272/2004, pentru a exclude orice confuzie între prestațiile excepționale și acest ajutor."
+        "articleRef": "Art. unic (art. 130¹ din Legea nr. 272/2004)",
+        "proposalContent": "„Art. 130¹.- Consiliile locale pot hotărî acordarea, o singură dată, a unui ajutor financiar pentru nou-născuți, din veniturile proprii ale bugetului local, pe baza unor criterii obiective și nediscriminatorii stabilite prin regulamente proprii, cu respectarea Legii nr. 273/2006. Ajutorul nu se impozitează și nu afectează alte beneficii sociale.”",
+        "argumentation": "Forma Senatului lasă integral regulile la latitudinea consiliilor locale, fără garanții de nediscriminare, sursă clară de finanțare sau regim fiscal (art. 1 alin. 5 și art. 16 Constituție). Precizarea veniturilor proprii limitează derapajele bugetare, iar scutirea fiscală și socială protejează familiile vulnerabile.",
+        "otherComments": "Corectarea erorii materiale „hotârî” în „hotărî”. Se recomandă clarificarea aplicabilității și pentru Consiliul General al Municipiului București, precum și definirea termenului maxim de solicitare de la naștere, pentru a evita blocaje administrative și interpretări divergente ale Curții de Conturi."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 128854,
+      "durationMs": 36386,
       "sourceEndMarker": "SF-06CC330D",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Primăriile vor putea da legal bani pentru nou-născuți",
-      "verdictShort": "O lege scurtă și utilă: dă temei legal ajutoarelor pentru nou-născuți pe care multe consilii locale le acordă deja fără bază clară. Riscul real e mic și vine din ce vor scrie consiliile în regulamentele proprii, nu din textul legii.",
-      "initiatorClaim": "Inițiatorii spun că, după abrogarea Legii nr. 482/2006 privind trusoul prin Legea nr. 118/2010, consiliile locale acordă ajutoare pentru nou-născuți fără bază legală, contrar art. 14 alin. (3) din Legea nr. 273/2006. Vor să creeze un temei expres și unitar pentru acest sprijin.",
-      "realityCheck": "Articolul unic introduce art. 130¹ în Legea nr. 272/2004 și permite consiliilor locale să acorde un ajutor financiar pentru nou-născuți. Nu le obligă și nu fixează suma, beneficiarul plății, frecvența sau condițiile, toate fiind lăsate în regulamentele locale. Efectele secundare sunt diferențele mari între localitățile bogate și cele sărace, riscul unor criterii locale discutabile (cetățenie, ani mulți de domiciliu) și posibila folosire electorală a ajutorului. Legea nu creează taxe, sancțiuni sau obligații noi pentru cetățeni ori firme.",
+      "plainTitle": "Primăriile vor putea da, legal, bani pentru nou-născuți",
+      "verdictShort": "Este o lege scurtă și utilă. Dă temei legal unei practici pe care multe consilii locale o aplicau deja fără bază juridică. Textul este însă foarte lapidar: nu spune cine sunt beneficiarii, din ce bani se plătește ajutorul și ce limite au criteriile locale.",
+      "initiatorClaim": "După abrogarea Legii nr. 482/2006 privind trusoul, consiliile locale care acordă sprijin pentru nou-născuți nu au temei legal, iar hotărârile lor sunt contestabile (art. 14 alin. 3 din Legea 273/2006). Inițiatorii vor să abiliteze expres autoritățile locale să acorde acest ajutor.",
+      "realityCheck": "Articolul unic introduce art. 130¹ în Legea 272/2004: consiliile locale «pot hotărî» un ajutor financiar pentru nou-născuți, după criterii stabilite prin regulamente proprii. Măsura este facultativă și nu creează obligații pentru cetățeni sau firme. Lasă însă totul la discreția locală: nu definește legătura cu localitatea (domiciliu sau reședință), cuantumul, termenul de solicitare ori sursa de finanțare. Rezultatul probabil sunt practici foarte diferite de la o comună la alta și riscul unor criterii arbitrare sau discriminatorii.",
       "affectedGroups": [
         "Toți cetățenii",
+        "Justiție & Drepturi Civile",
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Articol unic (art. 130¹ nou): normă de abilitare facultativă («pot hotărî»). Rezolvă problema invocată în expunere, adică lipsa bazei legale cerute de art. 14 alin. (3) din Legea nr. 273/2006 pentru cheltuielile din bugetele locale.",
-        "Textul nu definește noțiunea de «nou-născut» (până la ce vârstă), nu spune cui se plătește ajutorul (părinte, reprezentant legal) și nici dacă se acordă o singură dată. Nu limitează criteriile locale la condiții obiective și nediscriminatorii. Toate acestea trec în regulamentele consiliilor.",
-        "Impact bugetar: niciun cost pentru bugetul de stat. Cheltuiala e opțională și suportată din bugetele locale, cu respectarea regulilor privind fondurile publice, deci localitățile cu arierate sau în dificultate financiară vor fi limitate. Pentru familii apare doar o cerere la primărie, iar IMM-urile nu sunt afectate.",
-        "Copiii adoptați nu sunt menționați. De asemenea, nu se precizează dacă ajutorul contează la calculul venitului pentru beneficiile de asistență socială, cum ar fi venitul minim de incluziune.",
-        "Nu există normă tranzitorie: hotărârile consiliilor locale adoptate până acum fără temei nu devin legale retroactiv și rămân atacabile, așa că trebuie readoptate după intrarea în vigoare."
+        "Art. 130¹ (nou) creează baza legală cerută de art. 14 alin. (3) din Legea 273/2006. Cheltuiala devine înscriptibilă în bugetele locale, iar riscul de anulare a hotărârilor la cererea prefectului sau a Curții de Conturi se reduce.",
+        "Normea este pur permisivă: consiliile locale «pot», nu «trebuie». Nu există impact bugetar obligatoriu la nivel central și nicio sarcină pentru cetățeni sau IMM-uri.",
+        "Art. 130 în vigoare rămâne neschimbat: prestațiile excepționale acordate prin dispoziția primarului, pentru situații temporare de criză. Noul ajutor este distinct și general, fără condiția unei situații excepționale.",
+        "Lipsesc elemente minime de previzibilitate: definirea beneficiarului (domiciliu sau reședință în UAT, părinte sau copil), interdicția criteriilor discriminatorii, sursa de finanțare (venituri proprii) și regimul ajutorului față de calculul venitului pentru alte beneficii sociale.",
+        "Greșeală de redactare: «hotârî» în loc de «hotărî»."
       ],
-      "blindSpotsCaught": "Fișa Camerei vorbește de un ajutor «suplimentar», dar textul adoptat de Senat nu conține acest cuvânt. Textul are și greșeala de redactare «hotârî» în loc de «hotărî». Senatul a adoptat legea ca lege organică (art. 76 alin. 1), deci și la Cameră e nevoie de majoritatea membrilor. Formula «cu respectarea reglementărilor privitoare la utilizarea fondurilor publice» trimite implicit la limitările din Legea nr. 273/2006 pentru unitățile cu dificultăți financiare.",
-      "constitutionalityNote": "Textul se sprijină pe principiul autonomiei locale (art. 120–121) și pe regimul bugetelor locale (art. 138 alin. 1 și 4) și e în acord cu art. 49 privind protecția copiilor. Fiind o abilitare facultativă, nu creează un drept subiectiv și nu impune cheltuieli obligatorii, așa că art. 138 alin. (5) nu ridică probleme. Diferențele dintre localități decurg din autonomia locală și nu încalcă art. 16, dar criteriile din regulamente trebuie să respecte egalitatea, sub controlul prefectului (art. 123 alin. 5) și al instanței de contencios administrativ. Laconismul e acceptabil sub aspectul clarității (art. 1 alin. 5) pentru o măsură facultativă, deși lipsa unui cadru minim pentru criterii lasă loc unor practici neunitare.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează profesii și nici accesul la ele. Nici Directiva TRIS (UE) 2015/1535 nu se aplică: textul nu conține reguli tehnice și nu privește servicii ale societății informaționale. Nu e vorba de ajutor de stat, deoarece beneficiarii sunt persoane fizice, nu întreprinderi. Punctul sensibil e egalitatea de tratament. Dacă regulamentele locale ar condiționa ajutorul de cetățenia română sau de ani mulți de domiciliu, ar putea încălca art. 7 alin. (2) din Regulamentul (UE) nr. 492/2011, privind avantajele sociale pentru lucrătorii din UE și familiile lor, și art. 24 din Directiva 2004/38/CE.",
+      "blindSpotsCaught": "Textul nu spune nimic despre hotărârile deja adoptate fără temei legal în ultimii ani. Legea nu le validează retroactiv, iar plățile anterioare rămân expuse constatărilor Curții de Conturi. Formula «cu respectarea reglementărilor privitoare la utilizarea fondurilor publice» este declarativă și nu interzice finanțarea din transferuri sau sume de echilibrare. UAT-urile sărace ar putea fi tentate să folosească astfel de sume, ceea ce ar adânci diferențele dintre localități. Lipsa unei limite pentru criterii permite condiții discutabile, de exemplu starea civilă a părinților, cetățenia sau o vechime lungă a domiciliului.",
+      "constitutionalityNote": "Proiectul este compatibil cu autonomia locală (art. 120–121 Constituție) și cu protecția copiilor și a familiei (art. 26, 48, 49). Nu încalcă art. 138 alin. (5): nu impune cheltuieli bugetare, ci doar permite cheltuieli locale din resursele existente. Riscul ține de claritate și previzibilitate (art. 1 alin. 5): delegarea integrală a criteriilor către regulamente locale, fără repere legale, poate produce tratament diferențiat nejustificat (art. 16). Acest risc apare însă la nivelul hotărârilor locale, controlabile în contencios administrativ, nu în textul legii.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă proiectul nu reglementează accesul la profesii. Directiva TRIS 2015/1535 nu este incidentă, fiindcă nu există reguli tehnice sau servicii digitale. Nu este vorba de ajutor de stat, beneficiarii fiind persoane fizice. Există o singură atenție de drept UE: un astfel de ajutor poate fi considerat «avantaj social» în sensul art. 7 alin. (2) din Regulamentul (UE) 492/2011 sau prestație de familie conform Regulamentului (CE) 883/2004. Criteriile locale bazate pe cetățenie ar fi discriminatorii față de cetățenii UE care locuiesc legal în România. Criteriul domiciliului sau reședinței este, în schimb, acceptabil.",
       "senatForm": {
         "articleRef": "Articol unic – art. 130¹ din Legea nr. 272/2004",
-        "proposalContent": "Art.130¹ (1) Consiliile locale pot hotărî acordarea, din bugetul local, a unui ajutor financiar unic pentru copiii nou-născuți sau adoptați, pe baza unor criterii obiective și nediscriminatorii, stabilite prin regulament propriu. (2) Ajutorul nu se ia în calcul la stabilirea venitului pentru beneficiile de asistență socială.",
-        "argumentation": "Textul Senatului nu spune de câte ori se dă ajutorul și ce limite au criteriile locale. Adopția creează aceeași filiație ca nașterea (Codul civil), deci copilul adoptat trebuie inclus. Criterii obiective și nediscriminatorii exclud condiții precum cetățenia, contestabile la prefect și în dreptul UE. Alin. (2) evită ca ajutorul să reducă venitul minim de incluziune.",
-        "otherComments": "«Hotârî» trebuie corectat în «hotărî». Fără normă tranzitorie, hotărârile deja adoptate fără temei rămân atacabile; consiliile trebuie să le readopte după intrarea în vigoare. Ar fi util ca ajutorul să fie plătit părintelui sau reprezentantului legal și să fie cerut într-un termen de la naștere sau adopție."
+        "proposalContent": "Art.130¹.-(1) Consiliile locale pot hotărî acordarea unui ajutor financiar pentru nou-născuții cu domiciliul sau reședința în unitatea administrativ-teritorială, din veniturile proprii ale bugetului local. (2) Criteriile, cuantumul și procedura se stabilesc prin regulament aprobat prin hotărâre și publicat, cu respectarea principiului nediscriminării.",
+        "argumentation": "Textul Senatului nu precizează legătura beneficiarului cu localitatea, sursa de finanțare și limitele criteriilor locale. Aceste lipsuri permit practici neunitare și criterii arbitrare. Finanțarea din venituri proprii protejează bugetul, iar nediscriminarea asigură egalitatea copiilor (art. 16 și 49 din Constituție).",
+        "otherComments": "Corectați «hotârî» în «hotărî». Recomandăm precizarea că ajutorul nu se ia în calcul la venitul pentru alte beneficii sociale. Recomandăm și clarificarea situației hotărârilor adoptate anterior, în corelare cu art. 14 alin. (3) din Legea 273/2006 și cu atribuțiile consiliului local din Codul administrativ."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 38475,
+      "durationMs": 58372,
       "sourceEndMarker": "SF-06CC330D",
       "riskScore": 2,
       "riskLevel": "green",
       "plainTitle": "Primăriile pot acorda ajutoare pentru nou-născuți",
-      "verdictShort": "Proiectul oferă consiliilor locale un temei legal expres pentru sprijinirea familiilor cu nou-născuți. Riscul este redus: ajutorul rămâne facultativ, iar condițiile și finanțarea ar merita precizate mai bine.",
-      "initiatorClaim": "Inițiatorii susțin că abrogarea legii privind trusoul pentru nou-născuți a lăsat autoritățile locale fără un temei suficient pentru acordarea unui sprijin general la naștere. Ei urmăresc autorizarea expresă a acestor ajutoare.",
-      "realityCheck": "Art. 130¹ permite consiliilor locale să instituie ajutorul și să stabilească eligibilitatea prin regulamente proprii, fără să impună acordarea lui sau un cuantum minim. Nu creează un drept automat pentru fiecare nou-născut și nu instituie finanțare de la bugetul de stat; accesul va depinde de hotărârile și resursele locale. Textul nu validează retroactiv ajutoarele acordate anterior.",
+      "verdictShort": "Proiectul creează un temei legal expres pentru un sprijin local facultativ, cu risc redus. Principalele limite sunt lipsa unor repere comune pentru acordare și dependența ajutorului de decizia și resursele fiecărei localități.",
+      "initiatorClaim": "Inițiatorii susțin că abrogarea legii privind trusoul pentru nou-născuți a lăsat ajutoarele locale generale fără un temei legal suficient. Vor să autorizeze expres consiliile locale să acorde acest sprijin.",
+      "realityCheck": "Noul art. 130¹ permite consiliilor locale să instituie ajutorul și să stabilească regulile, fără să creeze o indemnizație națională obligatorie, un cuantum minim sau o condiție de venit. Art. 130 rămâne aplicabil separat prestațiilor excepționale acordate de primar; textul propus nu califică noul ajutor drept suplimentar și nu reglementează expres cumulul cu alte prestații. Afirmația din expunere privind inexistența oricărui alt temei legal nu trebuie confundată cu o constatare obligatorie și nici cu validarea retroactivă a hotărârilor locale anterioare.",
       "affectedGroups": [
-        "Justiție & Drepturi Civile",
-        "Toți cetățenii"
+        "Toți cetățenii",
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 130¹ folosește formula «pot hotărî»: consiliile locale primesc o competență facultativă, nu o obligație de plată.",
-        "Cuantumul, termenul de solicitare, documentele necesare și condițiile de eligibilitate nu sunt stabilite prin lege, fiind lăsate regulamentelor locale.",
-        "Ajutorul propus nu este condiționat prin lege de dificultăți financiare sau de o situație excepțională, spre deosebire de prestațiile descrise la art. 130 în expunerea de motive.",
-        "Clauza privind respectarea reglementărilor fondurilor publice menține disciplina bugetară; proiectul nu introduce taxe, sancțiuni sau obligații pentru IMM-uri.",
-        "Articolul unic nu conține derogări, abrogări, dispoziții tranzitorii ori modificări ale altor legi. Referirile la alte inițiative legislative din anexele expunerii de motive nu produc efecte normative aici."
+        "Articolul unic introduce exclusiv art. 130¹: consiliile locale «pot» acorda ajutorul, deci adoptarea legii nu dă automat fiecărei familii dreptul la o plată.",
+        "În prezent, art. 130 privește dificultăți financiare temporare și excepționale, cu acordare individuală prin dispoziția primarului. Proiectul adaugă posibilitatea unui program local pentru nou-născuți, fără cerința unei asemenea situații.",
+        "Art. 130¹ lasă regulamentelor locale identificarea beneficiarilor, cuantumul, actele necesare și termenele. Această flexibilitate poate produce diferențe teritoriale și proceduri administrative variabile.",
+        "Ajutorul poate genera cheltuieli locale dacă este instituit. Textul nu stabilește cuantumul, numărul beneficiarilor sau o finanțare națională, astfel încât impactul financiar nu poate fi calculat din documentele furnizate.",
+        "Nu apar taxe, sancțiuni, obligații pentru IMM-uri, restricții concurențiale sau competențe privind servicii digitale. Sarcinile administrative probabile sunt cererea familiei și verificarea eligibilității de către autoritatea locală.",
+        "Textul se încheie după articolul unic: nu conține derogări, abrogări, dispoziții tranzitorii ori modificări ascunse ale altor legi."
       ],
-      "blindSpotsCaught": "Fișa Camerei descrie un ajutor «suplimentar», dar textul adoptat de Senat nu folosește acest termen și nu reglementează cumulul cu alte prestații. De asemenea, abrogarea vechii legi a trusoului nu demonstrează singură afirmația inițiatorilor că orice ajutor local anterior era lipsit de temei legal; aceasta ar necesita examinarea legislației aplicabile și a fiecărei măsuri.",
-      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă. Competența facultativă este compatibilă, în principiu, cu autonomia locală, iar diferențele dintre localități nu încalcă automat art. 16. Din perspectiva art. 1 alin. (5), precizarea finanțării și a unor repere pentru regulamente ar îmbunătăți previzibilitatea; criteriile locale trebuie să respecte egalitatea și interesul superior al copilului. Art. 23 alin. (12) nu este incident, deoarece nu se instituie pedepse. Art. 138 alin. (5) justifică explicitarea sursei de finanțare, dar caracterul facultativ al măsurii nu permite constatarea automată a unei încălcări.",
-      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea acestora. Nu introduce reglementări tehnice pentru produse ori servicii ale societății informaționale, astfel că nu rezultă o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535. Ajutorul acordat familiilor nu conferă, prin el însuși, un avantaj economic selectiv întreprinderilor și nu prezintă un impact direct identificabil asupra concurenței. Regulamentele locale trebuie să respecte normele UE aplicabile privind egalitatea de tratament și libera circulație.",
+      "blindSpotsCaught": "Fișa proiectului vorbește despre un ajutor «suplimentar», dar norma adoptată de Senat spune doar «ajutor financiar»; caracterul suplimentar și cumulul nu rezultă expres din ea. Trimiterea la regulile privind fondurile publice menține disciplina bugetară generală, dar nu precizează singură sursa concretă de finanțare. Lipsa repetării regulilor de nediscriminare și de contestare nu înseamnă că acestea sunt înlăturate.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă. Măsura este compatibilă, în principiu, cu protecția copiilor din art. 49 și autonomia locală din art. 120. Pentru previzibilitatea cerută de art. 1 alin. (5), ar fi utile repere privind beneficiarii, termenele și finanțarea. Regulamentele trebuie să respecte egalitatea din art. 16; diferențele dintre programele unor localități nu reprezintă automat discriminare. Respectarea art. 138 alin. (5), privind sursa finanțării cheltuielilor bugetare, și a art. 111 alin. (1), dacă sunt incidente modificări bugetare, trebuie verificată prin documentația financiară și procedurală, nefurnizată aici. Art. 23 alin. (12) nu este incident: proiectul nu reglementează pedepse.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea lor. Nici procedura TRIS din Directiva (UE) 2015/1535 nu este declanșată de acest text, care nu instituie reglementări tehnice pentru produse ori norme privind serviciile societății informaționale. Ajutorul destinat familiilor nu prezintă, prin mecanismul descris, indicii de ajutor de stat pentru întreprinderi sau de restrângere a concurenței. Eventualele criterii locale trebuie să respecte dreptul UE aplicabil situațiilor transfrontaliere.",
       "senatForm": {
-        "articleRef": "Articol unic – art. 130¹ propus",
-        "proposalContent": "Art. 130¹. Consiliile locale pot hotărî acordarea unui ajutor financiar pentru nou-născuți din bugetele locale, în limita sumelor aprobate anual cu această destinație. Regulamentele proprii stabilesc cuantumul, criterii obiective și nediscriminatorii de eligibilitate, termenul de solicitare și procedura de acordare, cu respectarea legislației privind fondurile publice.",
-        "argumentation": "Precizarea sursei de finanțare și a conținutului minim al regulamentelor îmbunătățește previzibilitatea și disciplina bugetară. Criteriile obiective și nediscriminatorii reduc riscul excluderilor arbitrare, păstrând caracterul facultativ al ajutorului și autonomia locală.",
-        "otherComments": "Propunerea poate fi transmisă comisiilor Camerei Deputaților care întocmesc raportul, pentru eventuala preluare de către un deputat. Termenul de amendamente indicat în fișă, 25.06.2025, este depășit; posibilitatea valorificării depinde de etapa procedurală actuală."
+        "articleRef": "Articolul unic – art. 130¹",
+        "proposalContent": "Art. 130¹. – Consiliile locale pot hotărî acordarea, din bugetele locale, în limita creditelor bugetare aprobate, a unui ajutor financiar pentru nou-născuți. Regulamentele proprii stabilesc beneficiarii, criterii obiective și nediscriminatorii, cuantumul, termenul de solicitare și procedura de acordare, cu respectarea legii.",
+        "argumentation": "Precizarea finanțării și a conținutului minim al regulamentelor crește previzibilitatea, păstrând caracterul facultativ al ajutorului și autonomia locală. Criteriile obiective și nediscriminatorii reduc riscul unor condiții arbitrare, iar indicarea termenului de solicitare ajută familiile să își exercite drepturile.",
+        "otherComments": "Termenul de amendamente indicat, 25.06.2025, este depășit. Observația cetățeanului nu constituie singură un amendament parlamentar; preluarea sa depinde de un parlamentar și de procedura aplicabilă la momentul examinării."
       },
       "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-19T14:55:06.163Z",
+      "method": "whole-text-v1",
+      "textChars": 912,
+      "form": "senat",
+      "agyModel": "gemini-4-neon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:21:46.093Z",
+      "reasons": [
+        "reluare"
+      ]
+    }
+  ]
 }

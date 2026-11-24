@@ -2,14 +2,41 @@
   "billId": "Pl-x 57/2026",
   "slug": "plx-57-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T00:30:52.730Z",
+  "updatedAt": "2026-11-24T15:24:30.268Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 4452,
+    "ordinanceChars": 0,
+    "memoChars": 24550,
+    "memoSupplied": 24550,
+    "marker": "SF-71271708"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-57-2026.json",
+    "form": "initiator",
+    "textHash": "71271708e3d91192",
+    "fetchedAt": "2026-11-19T10:45:53.685Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 3.7,
+    "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Reconstituirile istorice primesc o lege: contract cu gazda și reguli pentru armele de recuzită",
-    "summaryTlDr": "Lege în mare parte declarativă și inofensivă: nu aduce taxe, sancțiuni sau cheltuieli publice obligatorii, iar cine nu semnează contract nici nu intră sub ea. Singurele prevederi cu efect real, cele din art. 8, sunt prost scrise: un standard imposibil pentru armele albe și un „aviz al Poliției” fără nicio procedură.",
-    "initiatorClaim": "Inițiatorul spune că reconstituirile istorice sunt tot mai frecvente în România, dar se desfășoară fără un cadru coerent. Organizatorii se lovesc de interpretări diferite privind avizele, armele de spectacol, participanții străini și contractele cu gazdele. Legea ar oferi definiții și un cadru contractual, fără costuri bugetare.",
-    "realityCheck": "Majoritatea articolelor fie repetă că se aplică legile existente (arme, străini, Codul civil), fie spun că autoritățile „pot” sprijini aceste activități, lucru pe care îl pot face și azi. Legea se aplică doar dacă există un contract scris (art. 1 alin. 2). Prin urmare, cerințele noi din art. 8 (arme albe care să nu poată răni, avize de la Poliție, echipaj de prim ajutor) îi lovesc doar pe cei care semnează contract, adică exact pe cei care vor să respecte regulile. Definițiile din art. 2 exclud firmele și participanții plătiți: casele de film sau organizatorii de festivaluri nu pot fi nici prestator, nici beneficiar.",
+    "plainTitle": "Reguli de bază pentru reconstituirile istorice (lupte demonstrative, tabere de epocă)",
+    "summaryTlDr": "Proiectul e în mare parte declarativ: se aplică doar când părțile semnează un contract de reconstituire și nu creează taxe, monopoluri sau sancțiuni. Problemele țin de redactare: criteriul armelor care „nu pot produce răniri” și un „aviz al Poliției” nedefinit pot crea confuzie.",
+    "initiatorClaim": "Inițiatorul spune că în România nu există un cadru pentru reconstituirile istorice, iar organizatorii se lovesc de interpretări diferite privind avizele, armele de spectacol, participarea străinilor și contractele cu instituțiile gazdă. Legea ar defini noțiunile și ar stabili cadrul contractual, fără costuri bugetare.",
+    "realityCheck": "Legea se aplică doar activităților cu contract scris (art. 1 alin. 2). Prestatorii sunt doar persoane fizice și ONG-uri fără scop lucrativ, iar beneficiarii nu pot fi firme. Majoritatea articolelor repetă legislația existentă: Legea 295/2004, regimul străinilor, Codul civil, medierea. Singurele obligații noi sunt la art. 8: armele albe pot fi folosite doar dacă „nu pot produce răniri”, iar pentru arme neletale și muniție oarbă sunt cerute „avize ale Poliției Române” și un echipaj de prim ajutor, fără să se precizeze ce aviz, cine îl emite și în ce termen.",
     "affectedGroups": [
       "Sănătate & Educație",
       "IMM & Antreprenori",
@@ -17,107 +44,138 @@
     ],
     "senatForm": {
       "articleRef": "Art. 8 alin. (3) și (4)",
-      "proposalContent": "(3) Armele tăietoare sau înțepătoare se folosesc numai cu tăișul și vârful bontite, la o distanță de siguranță față de public stabilită prin contract. (4) Pentru arme neletale, muniție oarbă și efecte pirotehnice se obțin autorizațiile prevăzute de Legea nr. 295/2004 și de legislația specială; contractul stabilește cine asigură echipajul de prim ajutor.",
-      "argumentation": "Alin. (3) cere arme care „nu pot produce răniri”, standard imposibil: orice armă de metal poate răni, deci luptele demonstrative cu arme bonte ar fi excluse. Alin. (4) cere „avizele Poliției” fără să precizeze ce aviz, cine îl emite și în ce termen, nici cine plătește echipajul medical. Textul propus trimite la autorizațiile existente; contractul împarte costul.",
-      "otherComments": "Art. 1 alin. (2) face legea opțională: cine nu semnează contract scapă de cerințele în plus ale art. 8, deci textul descurajează tocmai contractul. Art. 2 trebuie împărțit pe litere, iar „prestatorul” persoană fizică nu are statut. Art. 5 alin. (3) stabilește cine coordonează întâlnirile cu prestatorii, deși asta ține de autonomia locală."
+      "proposalContent": "(3) Armele albe pot fi folosite numai dacă au tăișul și vârful neascuțite sau protejate. (4) Pentru utilizarea armelor neletale sau a muniției oarbe, prestatorul notifică structura teritorială a Poliției Române cu cel puțin 10 zile înainte, în condițiile Legii nr. 295/2004, și asigură prezența unui echipaj de prim ajutor.",
+      "argumentation": "„Nu pot produce răniri” e un criteriu imposibil: orice armă metalică poate răni, deci textul fie e ignorat, fie interzice luptele demonstrative. „Avizele Poliției” nu spun ce aviz, cine îl emite și în ce termen, deși Legea 295/2004 are deja regimul ei. O notificare cu termen clar e previzibilă (art. 1 alin. 5 Constituție) și nu adaugă birocrație.",
+      "otherComments": "Art. 1 și 2 exclud prestatorii cu scop lucrativ (SRL, PFA, actori plătiți) și beneficiarii comerciali, deși aceștia organizează multe evenimente. Propun aplicarea legii oricărui organizator care încheie contract. Art. 7 alin. (2): termenul de 30 de zile „înaintea comemorării” e neclar. De corectat „organize” din art. 1 alin. (1)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 66716,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 73328,
+      "sourceEndMarker": "SF-71271708",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Reguli și contracte-tip pentru festivalurile și demonstrațiile de reconstituire istorică (reenactment)",
-      "verdictShort": "Deși are o intenție culturală benignă și nu introduce amenzi sau taxe, legea este redactată deficitar și creează blocaje birocratice chiar pentru asociațiile și muzeele pe care vrea să le ajute. Exclude firmele private din ecuație, limitează decontările instituțiilor publice și impune condiții tehnice ambigue pentru recuzită.",
-      "initiatorClaim": "Inițiatorul susține că vrea să ofere un cadru legal coerent pentru grupurile de reconstituire istorică (reenactment), clarificând relația contractuală cu autoritățile și muzeele, regimul armelor de recuzită și participarea cetățenilor străini.",
-      "realityCheck": "În realitate, textul conține erori de tehnică legislativă și capcane birocratice: exclude firmele private (hoteluri, parcuri tematice, organizatori de evenimente) de la calitatea de beneficiar sau prestator și limitează obligația beneficiarului doar la „spațiu, logistică sau transport”, ceea ce poate bloca la Curtea de Conturi decontarea cazării, mesei sau consumabilelor. Din fericire, Art. 1 alin. (2) permite desfășurarea activităților și în afara acestei legi, pe dreptul comun.",
+      "plainTitle": "Lege pentru reconstituirile istorice: multă declarație, birocrație neclară pentru avize și prim ajutor",
+      "verdictShort": "O inițiativă benignă ca intenție, dar redactată deficitar: este în mare parte declarativă și opțională, însă strecoară cerințe neclare de avizare de la Poliție și costuri obligatorii de prim ajutor care pot bloca exact asociațiile mici pe care pretinde că le sprijină.",
+      "initiatorClaim": "Inițiatorul susține că România are nevoie de un cadru legal unitar care să alinieze reconstituirile istorice la practicile europene și să elimine interpretările neunitare privind avizarea, armele de spectacol, participanții străini și contractele cu instituțiile gazdă.",
+      "realityCheck": "În realitate, legea nu creează finanțări, facilități sau proceduri clare și devine opțională dacă nu se semnează un contract (Art. 1 alin. 2). În schimb, Art. 8 alin. (4) impune „avizele Poliției Române” fără a stabili procedura și obligă la asigurarea unui echipaj de prim ajutor la orice activitate cu arme neletale sau muniție oarbă, indiferent de amploare, excluzând totodată firmele și festivalurile comerciale din definiția legii.",
       "affectedGroups": [
         "Sănătate & Educație",
         "IMM & Antreprenori",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 1 alin. (1) și Art. 2 exclud complet persoanele juridice cu scop lucrativ (IMM-uri din turism, HoReCa, organizatori privați de evenimente sau producție culturală) de la încheierea contractelor de reconstituire istorică, plus o eroare juridică flagrantă la Art. 2 care cere ca „persoana fizică” prestatoare să aibă un „statut” în care să fie prevăzută activitatea.",
-        "Art. 2 definește restrictiv contractul de reconstituire istorică, limitând contribuția beneficiarului (de ex. primărie sau muzeu) la „spațiul, logistica sau transportul necesar”, fără menționarea cazării, mesei, onorariilor sau consumabilelor pirotehnice, creând riscul ca auditorii Curții de Conturi să considere ilegale alte decontări.",
-        "Art. 8 alin. (3) impune ca armele tăietoare sau înțepătoare să poată fi folosite doar dacă „în starea lor actuală nu pot produce răniri” (condiție fizic imposibilă în mod absolut pentru recuzita metalică grea, în loc de criteriul tehnic al tăișului și vârfului boante), iar alin. (4) obligă la asigurarea unui „echipaj de prim ajutor” și a unor „avize ale Poliției” nedefinite clar chiar și pentru o simplă prezentare muzeală cu o armă neletală.",
-        "Art. 7 alin. (3) instituie obligația bizară ca beneficiarul (care poate fi și o persoană fizică sau un ONG) să poată refuza doar „motivat” o propunere nesolicitată de eveniment venită de la un prestator, în timp ce Art. 9 alin. (2) și Art. 5 alin. (2) încarcă legea cu banalități fără valoare normativă („beneficiarul poate pune la dispoziție un interpret”, „autoritățile se pot întâlni periodic”)."
+        "Art. 8 alin. (4) introduce obligația unor „avize ale Poliției Române” fără a modifica Legea nr. 295/2004 și fără a stabili structura competentă, criteriile sau termenele, plus obligația unui echipaj de prim ajutor la orice activitate cu arme neletale (inclusiv arcuri) sau muniție oarbă, fără un prag minim de participanți.",
+        "Art. 1 alin. (2) și Art. 9 alin. (1) creează un paradox juridic: legea impune contract scris obligatoriu, dar precizează că activitățile desfășurate fără contract nu intră sub incidența legii, făcând aplicarea ei voluntară.",
+        "Art. 2 suferă de grave erori de redactare și logică juridică: definește prestatorul ca „persoana fizică sau juridică fără scop patrimonial al cărei statut prevede...” (o persoană fizică nu are statut) și exclude complet operatorii economici (SRL/PFA) atât din rolul de prestator, cât și din cel de beneficiar.",
+        "Art. 7 alin. (4) obligă instituțiile publice să își exprime inițiativa prin „anunț public”, fără a clarifica locul publicării ori corelarea cu Legea nr. 98/2016 a achizițiilor publice sau cu Legea nr. 350/2005 privind finanțările nerambursabile.",
+        "Art. 8 alin. (3) permite armele albe doar dacă „în starea lor actuală nu pot produce răniri” — un criteriu absolut și imposibil de garantat obiectiv în lipsa unor standarde tehnice (ex. muchii/vârfuri rotunjite)."
       ],
-      "blindSpotsCaught": "Expunerea de motive încorporează prin copy-paste (și se întrerupe brusc în mijlocul cuvântului „gamifica”) un studiu documentar al Camerei Deputaților din mai 2022 care contrazice chiar necesitatea legii, concluzionând explicit la pag. 3 că reconstituirea istorică „nu reprezintă o problemă de reglementare/legiferare”, ci de ghiduri practice muzeale.",
-      "constitutionalityNote": "Proiectul ridică probleme de calitate și previzibilitate a legii potrivit Art. 1 alin. (5) din Constituție și Legii nr. 24/2000: conține contradicții terminologice („persoană fizică... al cărei statut prevede”), norme pur declarative lipsite de efect juridic (Art. 5, Art. 9 alin. 2) și trimiteri vagi la „avizele Poliției Române” fără corelare exactă cu procedurile de autorizare din Legea nr. 295/2004.",
-      "euLawNote": "Excluderea operatorilor economici privați și restrângerea calității de prestator exclusiv la entități „fără scop patrimonial” (Art. 2) ridică probleme din perspectiva libertății de a presta servicii pe piața unică (Art. 56 TFUE și Directiva 2006/123/CE privind serviciile), întrucât în alte state membre UE există companii specializate în recreare istorică și edutainment care nu sunt ONG-uri.",
+      "blindSpotsCaught": "Chiar studiul documentar al Camerei Deputaților anexat de inițiator la Expunerea de Motive îl contrazice direct: documentul arată că nici Bulgaria, nici Polonia și nici Cehia nu au o lege specială a reconstituirii istorice și conchide explicit că domeniul „nu reprezintă o problemă de reglementare/legiferare”, ci de ghiduri practice și finanțări culturale. În plus, fiind lipsită de sancțiuni (lex imperfecta) și opțională în absența unui contract (Art. 1 alin. 2), legea nu rezolvă problemele reale, dar oferă autorităților un pretext formal să refuze evenimente pe motiv că nu există procedură pentru „avizele” din Art. 8 alin. (4).",
+      "constitutionalityNote": "Proiectul ridică probleme serioase în raport cu Art. 1 alin. (5) din Constituția României (calitatea, claritatea și previzibilitatea legii). Redactarea încalcă normele de tehnică legislativă (Legea nr. 24/2000): atribuie „statut” persoanelor fizice (Art. 2), conține greșeli gramaticale („organize” la Art. 1), introduce „avize” fără procedură legală (Art. 8 alin. 4), folosește formulări neexecutabile („nu pot produce răniri”) și lasă aplicarea la discreția părților prin Art. 1 alin. (2). Nu afectează autonomia locală (Art. 120), întrucât prevederile de la Art. 4–5 au caracter pur facultativ („pot”).",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2015/1535 (TRIS), neinstituind reglementări tehnice de piață sau reguli pentru servicii digitale/AI, și nici sub incidența Directivei (UE) 2018/958 privind testul de proporționalitate, întrucât nu reglementează accesul la o profesie. Totuși, excluderea firmelor din definiția prestatorului și beneficiarului (Art. 2) combinată cu procedura vagă de „anunț public” prin care instituțiile publice oferă spații, logistică și transport (Art. 7 alin. 4) poate genera incertitudini privind respectarea regulilor europene de achiziții publice și de ajutor de stat atunci când evenimentele au și o componentă economică sau turistică.",
       "senatForm": {
-        "articleRef": "Art. 1 alin. (1), Art. 2, Art. 7 și Art. 8",
-        "proposalContent": "La Art. 1 alin. (1) și Art. 2 se includ și persoanele juridice de drept privat cu scop lucrativ (ca beneficiari/organizatori), se elimină condiția ca persoana fizică să aibă „statut”, iar în contract se includ cheltuielile cu cazarea, masa și consumabilele. La Art. 7(3) se elimină refuzul motivat obligatoriu, iar la Art. 8(3) se înlocuiește cu „arme cu tăișul și vârful boante”.",
-        "argumentation": "Forma actuală exclude nejustificat firmele private (turism, HoReCa, evenimente) de la încheierea acestor contracte și limitează contribuția beneficiarului public doar la „spațiu, logistică sau transport”, riscând blocaje la Curtea de Conturi pentru decontarea mesei, cazării ori consumabilelor. De asemenea, o persoană fizică nu are „statut” juridic.",
-        "otherComments": "Expresia „nu pot produce răniri” (Art. 8 alin. 3) este imposibil de garantat fizic pentru replici metalice și creează răspundere disproporționată; standardul tehnic corect vizează muchiile și vârfurile boante. La Art. 8 alin. (4), obligativitatea unui echipaj de prim ajutor la orice activitate cu arme neletale este excesivă pentru simple prezentări muzeale."
-      }
+        "articleRef": "Art. 8 alin. (3) și (4)",
+        "proposalContent": "Alin. (3): Armele albe de recuzită au muchiile și vârfurile rotunjite, pentru prevenirea accidentelor. Alin. (4): Pentru activități cu arme de spectacol sau muniție oarbă se aplică notificarea prealabilă a Poliției Române conform Legii nr. 295/2004, iar echipajul de prim ajutor este obligatoriu doar la evenimente publice cu peste 100 de participanți.",
+        "argumentation": "Textul actual încalcă Art. 1 alin. (5) din Constituție prin lipsă de previzibilitate: impune 'avizele Poliției Române' fără procedură, criterii sau termene, riscând blocarea evenimentelor. De asemenea, obligarea unui echipaj de prim ajutor pentru orice demonstrație minoră (inclusiv cu arcuri) creează costuri disproporționate pentru ONG-uri și școli.",
+        "otherComments": "Recomand și revizuirea Art. 1 alin. (2) și Art. 2: legea devine opțională în lipsa contractului, atribuie eronat 'statut' persoanelor fizice și exclude nejustificat operatorii privați de evenimente. Chiar studiul Camerei Deputaților anexat arată că domeniul nu necesită o lege specială, ci ghiduri practice și finanțări culturale clare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 191125,
-      "riskScore": 3,
+      "durationMs": 42615,
+      "sourceEndMarker": "SF-71271708",
+      "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Reconstituirile istorice primesc o lege: contract cu gazda și reguli pentru armele de recuzită",
-      "verdictShort": "Lege în mare parte declarativă și inofensivă: nu aduce taxe, sancțiuni sau cheltuieli publice obligatorii, iar cine nu semnează contract nici nu intră sub ea. Singurele prevederi cu efect real, cele din art. 8, sunt prost scrise: un standard imposibil pentru armele albe și un „aviz al Poliției” fără nicio procedură.",
-      "initiatorClaim": "Inițiatorul spune că reconstituirile istorice sunt tot mai frecvente în România, dar se desfășoară fără un cadru coerent. Organizatorii se lovesc de interpretări diferite privind avizele, armele de spectacol, participanții străini și contractele cu gazdele. Legea ar oferi definiții și un cadru contractual, fără costuri bugetare.",
-      "realityCheck": "Majoritatea articolelor fie repetă că se aplică legile existente (arme, străini, Codul civil), fie spun că autoritățile „pot” sprijini aceste activități, lucru pe care îl pot face și azi. Legea se aplică doar dacă există un contract scris (art. 1 alin. 2). Prin urmare, cerințele noi din art. 8 (arme albe care să nu poată răni, avize de la Poliție, echipaj de prim ajutor) îi lovesc doar pe cei care semnează contract, adică exact pe cei care vor să respecte regulile. Definițiile din art. 2 exclud firmele și participanții plătiți: casele de film sau organizatorii de festivaluri nu pot fi nici prestator, nici beneficiar.",
+      "plainTitle": "Reguli de bază pentru reconstituirile istorice (lupte demonstrative, tabere de epocă)",
+      "verdictShort": "Proiectul e în mare parte declarativ: se aplică doar când părțile semnează un contract de reconstituire și nu creează taxe, monopoluri sau sancțiuni. Problemele țin de redactare: criteriul armelor care „nu pot produce răniri” și un „aviz al Poliției” nedefinit pot crea confuzie.",
+      "initiatorClaim": "Inițiatorul spune că în România nu există un cadru pentru reconstituirile istorice, iar organizatorii se lovesc de interpretări diferite privind avizele, armele de spectacol, participarea străinilor și contractele cu instituțiile gazdă. Legea ar defini noțiunile și ar stabili cadrul contractual, fără costuri bugetare.",
+      "realityCheck": "Legea se aplică doar activităților cu contract scris (art. 1 alin. 2). Prestatorii sunt doar persoane fizice și ONG-uri fără scop lucrativ, iar beneficiarii nu pot fi firme. Majoritatea articolelor repetă legislația existentă: Legea 295/2004, regimul străinilor, Codul civil, medierea. Singurele obligații noi sunt la art. 8: armele albe pot fi folosite doar dacă „nu pot produce răniri”, iar pentru arme neletale și muniție oarbă sunt cerute „avize ale Poliției Române” și un echipaj de prim ajutor, fără să se precizeze ce aviz, cine îl emite și în ce termen.",
       "affectedGroups": [
         "Sănătate & Educație",
-        "IMM & Antreprenori"
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 1 alin. (2) și art. 9 alin. (1): legea este opțională. Se aplică numai activităților cu contract scris. Cine organizează fără contract respectă doar legile generale și scapă de cerințele suplimentare din art. 8, așa că legea penalizează tocmai formalizarea.",
-        "Art. 8 alin. (3): armele tăietoare sau înțepătoare pot fi folosite doar dacă „în starea lor actuală nu pot produce răniri”. Orice sabie de metal, chiar bontită, poate răni. Luptele demonstrative, nucleul multor reconstituiri, ar deveni practic imposibile în activitățile cu contract.",
-        "Art. 8 alin. (4): pentru arme neletale sau muniție oarbă cere „avizele Poliției Române” și un „echipaj de prim ajutor”. Textul nu precizează ce aviz, ce structură îl emite, în ce termen și nici cine plătește echipajul. Pentru asociațiile mici, acesta este singurul cost și singura birocrație nouă din lege.",
-        "Art. 2: „prestatorul” poate fi doar o persoană fără scop patrimonial, iar „beneficiarul” doar o persoană fizică, o instituție publică sau un ONG. Activitatea trebuie să fie „fără caracter lucrativ pentru participanți”. Toate definițiile sunt înghesuite într-un singur alineat, iar o persoană fizică nu poate avea un „statut” care să prevadă astfel de activități.",
-        "Art. 7 alin. (2): prestatorii pot propune activități „cu cel puțin 30 de zile înaintea comemorării unui eveniment istoric relevant”. Nu reiese dacă pot propune și altceva decât comemorări sau dacă o propunere făcută cu 20 de zile înainte este interzisă.",
-        "Art. 4, 5, 6 și 10 sunt declarative sau trimit la legi existente. Nu există sancțiuni, taxe sau cheltuieli obligatorii, deci afirmația din expunere că nu apar obligații bugetare este corectă."
+        "Art. 1 alin. (2): activitățile fără contract de reconstituire nu intră sub incidența legii. Regimul e deci opțional, iar efectul juridic practic e redus.",
+        "Art. 1 alin. (1) și art. 2 exclud prestatorii cu scop lucrativ (SRL, PFA, reenactori plătiți) și beneficiarii comerciali. Legea nu le interzice activitatea, dar nici nu le oferă cadrul. Art. 2 cere și „fără caracter lucrativ pentru participanți”, deci un participant plătit scoate evenimentul din sfera legii.",
+        "Art. 8 alin. (3): armele tăietoare sau înțepătoare pot fi folosite doar dacă „nu pot produce răniri”. Orice armă metalică poate răni, așa că textul fie e ignorat, fie interzice de facto luptele demonstrative cu arme albe.",
+        "Art. 8 alin. (4) cere „avizele Poliției Române” pentru arme neletale sau muniție oarbă, fără să indice tipul avizului, structura competentă, termenul sau procedura. Poate apărea o dublare cu procedurile din Legea 295/2004.",
+        "Art. 7 alin. (2): prestatorii pot propune activități „cu cel puțin 30 de zile înaintea comemorării unui eveniment istoric relevant”. Formularea poate fi citită ca o restricție, ca și cum prestatorii ar putea propune doar legat de comemorări. Art. 7 alin. (4) cere instituțiilor publice un „anunț public”, fără să spună unde sau cum se face.",
+        "Expunerea de motive nu are evaluare de impact. Studiul documentar al Camerei, anexat chiar de inițiator, concluzionează că în Bulgaria, Cehia și Polonia domeniul nu e reglementat separat și că utilitatea ar veni mai degrabă din „ghiduri și orientări practice” decât din lege."
       ],
-      "blindSpotsCaught": "Materialul documentar al Camerei Deputaților anexat expunerii de motive (mai 2022, fără valoare de poziție oficială) spune despre standardele de autenticitate că sunt „o chestiune de standard a asociației/reenactorilor și nu reprezintă o problemă de reglementare/legiferare”. Același material arată că utilitatea vine mai ales din „ghiduri și orientări practice”. Nici exemplele străine din expunere nu sunt legi dedicate reconstituirii: sunt ghiduri, legi ale armelor sau legi generale despre ONG-uri și voluntariat. În plus, participanții sunt de fapt voluntari, dar textul nu face legătura cu Legea voluntariatului nr. 78/2014. Nici nu spune cine răspunde și ce asigurare există dacă cineva din public este rănit, deși cere echipaj de prim ajutor.",
-      "constitutionalityNote": "Legea nu restrânge drepturi și nu prevede sancțiuni, deci art. 23 alin. (12) și art. 53 nu sunt în discuție. Problema reală este calitatea legii (art. 1 alin. 5), din cauza mai multor formulări neclare: „nu pot produce răniri” (art. 8 alin. 3), „avizele Poliției Române” fără procedură, emitent sau termen (art. 8 alin. 4), „echipajul de prim ajutor” nedefinit și condiția de 30 de zile din art. 7 alin. (2). Art. 5 alin. (3) stabilește imperativ cine coordonează întâlnirile, deci intervine în organizarea aparatului de specialitate și atinge autonomia locală (art. 120). Efectul este mic, fiindcă întâlnirile sunt oricum opționale. Tehnica legislativă încalcă Legea nr. 24/2000: definiții nenumerotate și greșeli precum „organize”. Riscul de neconstituționalitate este redus, dar textul trebuie curățat.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: legea nu reglementează o profesie și nu condiționează accesul la activitate de calificări, iar activitățile fără contract rămân libere. Directiva serviciilor 2006/123/CE este puțin relevantă, pentru că activitatea este definită ca nelucrativă, iar avizele pentru arme țin de ordinea publică. Nu este vorba de un serviciu digital, deci TRIS 2015/1535 nu se declanșează. Cerințele din art. 8 privesc folosirea obiectelor la un eveniment, nu specificații tehnice ale produselor. Pentru arme și armele de foc dezactivate, textul trimite la Legea nr. 295/2004, care preia regulile UE (Directiva (UE) 2021/555), deci nu creează conflict. O mică inexactitate: art. 6 alin. (2) trimite toți participanții străini la „regimul străinilor”. Cetățenii UE intră însă sub regimul liberei circulații (Directiva 2004/38/CE, transpusă prin OUG nr. 102/2005), așa că trimiterea trebuie precizată.",
+      "blindSpotsCaught": "Legea se aplică doar dacă există contract, dar art. 8 pare să impună avize și echipaj medical. Rezultatul e paradoxal: cine semnează un contract (adică cine încearcă să respecte legea) are mai multe obligații decât cine organizează fără contract, deci regimul descurajează formalizarea. Contractul nu are preț, beneficiarul oferă doar logistică, ceea ce evită, cel puțin aparent, incidența Legii 98/2016 privind achizițiile publice. Dacă instituția publică plătește transportul sau cazarea, problema achizițiilor rămâne nelămurită. Există și erori de redactare: „organize” în loc de „organizate” la art. 1, iar art. 2 grupează toate definițiile într-un singur paragraf, contrar normelor de tehnică legislativă din Legea 24/2000.",
+      "constitutionalityNote": "Proiectul nu ridică probleme majore de constituționalitate. Nu restrânge drepturi și nu impune sarcini fiscale. Art. 8 alin. (3) și (4) sunt vulnerabile la standardul de claritate și previzibilitate (art. 1 alin. 5): criteriul „nu pot produce răniri” e imposibil de aplicat obiectiv, iar „avizele” nu au procedură. Art. 5 alin. (3) stabilește cine coordonează întâlnirile din aparatul de specialitate local, o ingerință minoră în organizarea internă a autorităților locale (art. 120 privind autonomia locală), atenuată de caracterul facultativ al întâlnirilor. Normele trimit la legislația existentă și nu contravin altor legi organice.",
+      "euLawNote": "Directiva (UE) 2018/958 nu e incidentă: proiectul nu reglementează accesul la o profesie. Directiva TRIS 2015/1535 nu e incidentă: nu există reguli tehnice pentru produse sau servicii ale societății informaționale. Art. 8 trimite la regimul armelor, armonizat deja prin Directiva (UE) 2021/555. Pentru prestatorii străini, art. 6 și art. 9 alin. (2) nu creează bariere. Avizul de poliție de la art. 8 alin. (4) ar trebui să fie nediscriminatoriu și cu procedură clară, ca să nu devină o restricție nejustificată privind serviciile (art. 56 TFUE, Directiva 2006/123), chiar dacă activitatea e în principal necomercială.",
       "senatForm": {
         "articleRef": "Art. 8 alin. (3) și (4)",
-        "proposalContent": "(3) Armele tăietoare sau înțepătoare se folosesc numai cu tăișul și vârful bontite, la o distanță de siguranță față de public stabilită prin contract. (4) Pentru arme neletale, muniție oarbă și efecte pirotehnice se obțin autorizațiile prevăzute de Legea nr. 295/2004 și de legislația specială; contractul stabilește cine asigură echipajul de prim ajutor.",
-        "argumentation": "Alin. (3) cere arme care „nu pot produce răniri”, standard imposibil: orice armă de metal poate răni, deci luptele demonstrative cu arme bonte ar fi excluse. Alin. (4) cere „avizele Poliției” fără să precizeze ce aviz, cine îl emite și în ce termen, nici cine plătește echipajul medical. Textul propus trimite la autorizațiile existente; contractul împarte costul.",
-        "otherComments": "Art. 1 alin. (2) face legea opțională: cine nu semnează contract scapă de cerințele în plus ale art. 8, deci textul descurajează tocmai contractul. Art. 2 trebuie împărțit pe litere, iar „prestatorul” persoană fizică nu are statut. Art. 5 alin. (3) stabilește cine coordonează întâlnirile cu prestatorii, deși asta ține de autonomia locală."
-      }
+        "proposalContent": "(3) Armele albe pot fi folosite numai dacă au tăișul și vârful neascuțite sau protejate. (4) Pentru utilizarea armelor neletale sau a muniției oarbe, prestatorul notifică structura teritorială a Poliției Române cu cel puțin 10 zile înainte, în condițiile Legii nr. 295/2004, și asigură prezența unui echipaj de prim ajutor.",
+        "argumentation": "„Nu pot produce răniri” e un criteriu imposibil: orice armă metalică poate răni, deci textul fie e ignorat, fie interzice luptele demonstrative. „Avizele Poliției” nu spun ce aviz, cine îl emite și în ce termen, deși Legea 295/2004 are deja regimul ei. O notificare cu termen clar e previzibilă (art. 1 alin. 5 Constituție) și nu adaugă birocrație.",
+        "otherComments": "Art. 1 și 2 exclud prestatorii cu scop lucrativ (SRL, PFA, actori plătiți) și beneficiarii comerciali, deși aceștia organizează multe evenimente. Propun aplicarea legii oricărui organizator care încheie contract. Art. 7 alin. (2): termenul de 30 de zile „înaintea comemorării” e neclar. De corectat „organize” din art. 1 alin. (1)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 112209,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Reguli pentru reconstituiri istorice, cu avize și obligații neclare",
-      "verdictShort": "Proiectul are un scop cultural legitim și nu introduce taxe, amenzi sau un monopol profesional. Forma analizată necesită însă corecturi: avizele insuficient definite și regulile de siguranță greu de verificat pot îngreuna organizarea evenimentelor.",
-      "initiatorClaim": "Inițiatorul urmărește recunoașterea și sprijinirea reconstituirilor istorice, prin clarificarea relațiilor contractuale și a condițiilor de organizare. Susține că proiectul nu generează obligații bugetare suplimentare.",
-      "realityCheck": "Textul furnizat creează un cadru contractual special pentru activități fără caracter lucrativ pentru participanți, păstrând aplicarea legislației generale pentru evenimentele fără acest contract. Sprijinul autorităților rămâne facultativ, iar trimiterea repetată la legislația existentă rezolvă doar parțial neclaritățile invocate în motivare. Art. 8 alin. (4) impune însă avize și un echipaj de prim ajutor pentru activitățile cu arme neletale sau muniție oarbă, ceea ce poate genera costuri și birocrație.",
+      "durationMs": 82359,
+      "sourceEndMarker": "SF-71271708",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Reguli pentru organizarea reconstituirilor istorice",
+      "verdictShort": "Proiectul are un risc redus: organizează colaborarea dintre participanți și gazde, fără taxe, monopoluri sau sancțiuni noi. Principalele probleme sunt avizarea insuficient definită și aplicarea unor reguli diferite de siguranță în funcție de existența contractului.",
+      "initiatorClaim": "Inițiatorul urmărește un cadru coerent pentru reconstituirile istorice, relațiile contractuale și colaborarea cu instituțiile publice. Expunerea de motive susține că proiectul clarifică organizarea fără obligații bugetare suplimentare.",
+      "realityCheck": "Legea creează un cadru contractual pentru activități fără caracter lucrativ pentru participanți și permite sprijin administrativ facultativ, fără finanțări garantate. Art. 1 alin. (2) exclude activitățile fără contract din întreaga lege, inclusiv din cerințele suplimentare de siguranță ale art. 8, dar menține legislația generală aplicabilă. Avizele Poliției și echipajul de prim ajutor pot produce costuri, iar condițiile aplicării lor sunt insuficient precizate.",
       "affectedGroups": [
-        "IMM & Antreprenori",
+        "Sănătate & Educație",
         "Justiție & Drepturi Civile",
-        "Sănătate & Educație"
+        "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Art. 1 alin. (2) exclude expres activitățile fără contractul special. Corelat cu obligația contractuală din art. 9, rezultă un domeniu de aplicare insuficient explicat: legea nu interzice în general reconstituirile fără contract, dar aplicarea propriilor garanții depinde de alegerea cadrului contractual.",
-        "Art. 1–2 limitează cadrul special pentru persoanele juridice la sectorul nonprofit, fără a interzice explicit evenimentele comerciale în temeiul dreptului comun. Cerința ca statutul prestatorului să prevadă activitatea este neclară pentru persoanele fizice; nici raportul dintre lipsa caracterului lucrativ, decontarea cheltuielilor și eventualele remunerații nu este explicat.",
-        "Art. 8 alin. (4) nu precizează solicitantul avizelor, structura competentă, documentația, criteriile sau termenul de soluționare. Echipajul de prim ajutor este cerut indiferent de riscul concret al utilizării armelor neletale; obligația are o justificare de siguranță, dar necesită calibrare.",
-        "Art. 8 alin. (3) cere ca armele tăietoare sau înțepătoare să nu poată produce răniri. Formula absolută este greu de verificat chiar pentru replici fără tăiș; sunt preferabile cerințe obiective privind muchiile, vârfurile, modul de utilizare și protejarea publicului.",
-        "Art. 4–5 permit sprijin public, fără a institui finanțare obligatorie sau un drept automat la subvenție. Contractele, anunțurile publice prevăzute de art. 7 alin. (4), avizele și echipajele pot totuși consuma resurse; absența taxelor noi nu înseamnă absența costurilor.",
-        "Termenul de 30 de zile din art. 7 alin. (2) privește propunerile prestatorilor înaintea comemorării unui eveniment relevant; nu este formulat ca termen general de autorizare a tuturor reconstituirilor."
+        "Art. 1 alin. (2), coroborat cu art. 9, face aplicarea regimului special dependentă de încheierea contractului. Lipsa contractului nu interzice evenimentul, dar înlătură inclusiv obligațiile suplimentare introduse de art. 8; legislația privind armele continuă să se aplice.",
+        "Art. 2 cere prestatorului un statut care să prevadă aceste activități, deși include și persoane fizice, care nu au un asemenea statut. Pentru instituțiile publice trebuie clarificată raportarea la actele de organizare și funcționare.",
+        "Art. 8 alin. (3) permite folosirea armelor tăietoare sau înțepătoare numai dacă nu pot produce răniri. Formula absolută nu oferă criterii verificabile: inclusiv o replică fără tăiș poate produce leziuni prin lovire.",
+        "Art. 8 alin. (4) impune avize ale Poliției Române fără să identifice procedura, autoritatea competentă concretă, criteriile și termenul de soluționare. Cerința echipajului de prim ajutor nu diferențiază activitățile după riscul efectiv.",
+        "Art. 4–5 permit sprijin public, fără să instituie un drept la subvenție sau o obligație generală de finanțare. Totuși, spațiul, transportul, logistica și asistența medicală pot implica cheltuieli; afirmația din expunere privind absența costurilor nu le elimină.",
+        "Art. 7 alin. (2) privește propunerile prestatorilor înaintea unei comemorări, nu stabilește o autorizare generală cu 30 de zile înainte pentru orice eveniment. Anunțul public cerut instituțiilor la alin. (4) nu oferă criterii de selecție și nu înlocuiește procedurile speciale aplicabile.",
+        "Limitarea cadrului special la entitățile și activitățile definite de proiect nu echivalează cu interzicerea serviciilor comerciale de reconstituire istorică. Textul nu acordă exclusivitate prestatorilor fără scop patrimonial.",
+        "Art. 10–11 mențin completarea cu dreptul comun și stabilesc intrarea în vigoare după 30 de zile. Nu există în textul furnizat abrogări, derogări exprese de la regimul armelor, sancțiuni noi sau dispoziții tranzitorii care să ascundă alte efecte."
       ],
-      "blindSpotsCaught": "Afirmația din motivare despre lipsa legislației trebuie nuanțată: Legea nr. 295/2004 definește deja armele de spectacol și acustice prin referire inclusiv la reconstituiri istorice. Proiectul nu pornește, așadar, de la un vid normativ privind armele. [Legea nr. 295/2004](https://legislatie.just.ro/Public/DetaliiDocument/244581). Procedural, fișa oficială consultată indică respingerea la Senat și depunerea unui raport comun de respingere la Camera Deputaților la 29.04.2026; raportul nu echivalează cu respingerea definitivă în plen. [Fișa proiectului](https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?idp=22966).",
-      "constitutionalityNote": "Există vulnerabilități de claritate și previzibilitate raportate la art. 1 alin. (5): delimitarea domeniului contractual, statutul persoanei fizice, avizele și imposibilitatea absolută de rănire. Nu rezultă o problemă autonomă de legalitate a pedepselor potrivit art. 23 alin. (12), deoarece proiectul nu instituie pedepse. Eventualele avantaje rezervate sectorului nonprofit trebuie justificate prin scopul reglementării, în raport cu egalitatea, libertatea economică și protecția concurenței; neconstituționalitatea nu rezultă automat din această delimitare. [Constituția României](https://legislatie.just.ro/Public/FormaPrintabila/00000G22NJ9TWT1342X3VQ1X38F1QF2B).",
-      "euLawNote": "Directiva 2018/958 nu impune automat un test de proporționalitate oricărei reguli pentru organizatori: ea privește profesiile reglementate din domeniul Directivei 2005/36/CE. Textul analizat nu condiționează activitatea de calificări profesionale specifice și nu rezervă un titlu profesional, astfel că nu rezultă aplicabilitatea sa directă. [Directiva 2018/958, art. 2](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32018L0958). Pentru servicii economice, eventualele restricții sau avantaje selective necesită separat o analiză privind piața internă; statutul nonprofit nu exclude singur caracterul economic. Proiectul nu reglementează specific servicii digitale sau AI. Totuși, TRIS acoperă și reglementări tehnice privind produse: art. 8 alin. (3) trebuie verificat pentru a stabili dacă introduce o cerință notificabilă privind caracteristicile ori utilizarea recuzitei, în condițiile directivei. Nu se poate afirma automat nici obligația notificării, nici încălcarea ei. [Directiva 2015/1535, art. 1 și 5](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32015L1535).",
+      "blindSpotsCaught": "Excluderea integrală de la art. 1 alin. (2) permite evitarea cerințelor suplimentare ale proiectului prin organizarea fără contractul special. În plus, materialul documentar anexat descrie în principal folosirea legislației generale în statele analizate, ceea ce nu demonstrează necesitatea unei legi distincte. TRIS trebuie verificat și pentru cerințe tehnice privind produsele, nu numai pentru servicii digitale.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă a întregului proiect. Art. 1 alin. (5) din Constituție ridică însă probleme punctuale de claritate pentru definiția prestatorului, standardul imposibil de garantat al absenței oricărei răniri și avizarea nedefinită. Art. 23 alin. (12) nu este direct incident, deoarece proiectul nu instituie pedepse. Diferențele de tratament trebuie justificate în raport cu art. 16, iar eventualele avantaje economice trebuie evaluate prin art. 45 și 135, fără a presupune că proiectul interzice activitatea comercială. Sprijinul local facultativ nu dovedește, prin el însuși, încălcarea autonomiei locale sau a art. 138 alin. (5).",
+      "euLawNote": "Directiva (UE) 2018/958 nu impune automat un test de proporționalitate: proiectul nu condiționează accesul la o profesie reglementată de calificări profesionale. Nu sunt reglementate servicii digitale sau AI, astfel că această componentă a Directivei (UE) 2015/1535 nu este incidentă. Totuși, art. 8 alin. (3) necesită examinare pentru a stabili dacă reprezintă o reglementare tehnică privind utilizarea produselor și dacă sunt îndeplinite condițiile notificării TRIS; obligația nu poate fi afirmată automat. Nu apare un monopol legal, dar acordarea sprijinului public trebuie să respecte normele aplicabile privind concurența, nediscriminarea și, după caz, ajutorul de stat.",
       "senatForm": {
         "articleRef": "Art. 8 alin. (4)",
-        "proposalContent": "(4) Avizele pentru utilizarea armelor și munițiilor se obțin numai în cazurile și în condițiile prevăzute de Legea nr. 295/2004, cu modificările și completările ulterioare. Pentru activitățile care implică tragere cu muniție oarbă, organizatorul asigură un echipaj de prim ajutor pe durata tragerilor.",
-        "argumentation": "Textul actual cere avize fără a preciza procedura și impune un echipaj pentru orice utilizare de arme neletale, indiferent de risc. Trimiterea la regimul special evită autorizări paralele, iar menținerea echipajului la tragerile cu muniție oarbă protejează participanții și publicul.",
-        "otherComments": "Se recomandă și clarificarea art. 1–2, precum și înlocuirea cerinței absolute din art. 8 alin. (3) cu reguli verificabile de siguranță. Termenul inițial pentru amendamente, 18.02.2026, a trecut; transmiterea unei petiții nu garantează preluarea sa ca amendament."
-      }
+        "proposalContent": "(4) Organizatorul respectă obligațiile de autorizare și de siguranță prevăzute de legislația privind armele și munițiile, indiferent de încheierea contractului prevăzut la art. 9. Asistența de prim ajutor se asigură potrivit legislației aplicabile evenimentului.",
+        "argumentation": "Textul elimină avizul generic fără procedură proprie și corelează obligațiile cu legislația specială. Împiedică evitarea cerințelor privind armele prin lipsa contractului și înlătură obligația nediferențiată de a asigura un echipaj pentru orice activitate cu arme neletale.",
+        "otherComments": "Termenul indicat pentru amendamente, 18.02.2026, este depășit. Mesajul cetățeanului constituie o propunere/petiție; preluarea parlamentară depinde de procedura aplicabilă. Analiza privește exclusiv forma furnizată. Verificarea online a legislației și a dosarului parlamentar nu a fost posibilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T00:30:52.730Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:24:30.268Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

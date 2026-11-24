@@ -1,135 +1,174 @@
 {
   "billId": "PL-x 241/2026",
   "slug": "plx-241-2026",
-  "version": "senat",
-  "updatedAt": "2026-11-19T09:08:06.179Z",
+  "version": "camera",
+  "updatedAt": "2026-11-24T15:23:02.625Z",
   "coverage": {
     "method": "whole-text-v1",
-    "billChars": 1831,
+    "form": "camera",
+    "billChars": 1200,
     "ordinanceChars": 0,
     "memoChars": 15143,
     "memoSupplied": 15143,
-    "marker": "SF-8B204145",
-    "form": "senat"
+    "marker": "SF-FE225CF9"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-241-2026.json",
+    "form": "camera",
+    "textHash": "fe225cf9d80794cf",
+    "fetchedAt": "2026-11-19T10:59:09.072Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 1.3,
+    "riskScore": 1.7,
     "riskLevel": "green",
     "plainTitle": "România ratifică acordul de sediu pentru Secretariatul regional anti-dezastre de la Sarajevo",
-    "summaryTlDr": "Este o lege de ratificare pur tehnică, cu două articole, fără costuri, taxe sau sancțiuni pentru cetățeni. Obligațiile reale cad aproape în întregime pe Bosnia și Herțegovina, ca stat gazdă.",
-    "initiatorClaim": "MAI și MAE vor să exprime consimțământul României de a fi legată de acordul care dă Secretariatului DPPI SEE de la Sarajevo personalitate juridică și statut de funcționare. Inițiativa este cooperarea regională în prevenirea și gestionarea dezastrelor, iar România este reprezentată în ea prin IGSU.",
-    "realityCheck": "Art. I ratifică acordul. Art. II menține declarația din 2018: România nu aplică acordul provizoriu de la semnare, ci doar de la intrarea lui în vigoare pentru partea română. Pentru România rămân opozabile doar art. 10 (inviolabilitatea corespondenței oficiale a Secretariatului), art. 11 (fără restricții la importul și exportul publicațiilor) și art. 14 (scutiri vamale pentru bunurile de uz oficial), cu impact practic neglijabil.",
+    "summaryTlDr": "Lege tehnică de ratificare, benignă și utilă pentru cooperarea regională în protecția civilă. Aproape toate obligațiile revin Bosniei și Herțegovina, ca stat gazdă. România își asumă doar câteva angajamente minore privind corespondența, publicațiile și scutirile vamale ale Secretariatului.",
+    "initiatorClaim": "Guvernul, la inițiativa MAI și MAE, vrea să exprime consimțământul României de a fi legată de acordul de sediu. Acordul dă Secretariatului DPPI SEE de la Sarajevo personalitate juridică și un statut clar, după ce Memorandumurile ratificate prin Legea 353/2009 și Legea 323/2015 au pregătit cadrul instituțional.",
+    "realityCheck": "Legea are un articol unic care ratifică un acord de sediu tipic pentru organizații internaționale: imunități, inviolabilitatea sediului, scutiri fiscale și vamale, statutul personalului. Potrivit expunerii de motive, României îi sunt opozabile doar art. 10 (inviolabilitatea corespondenței oficiale, fără cenzură), art. 11 (fără restricții la importul și exportul publicațiilor Secretariatului) și art. 14 (scutiri vamale pentru bunurile de uz oficial). Celelalte obligații revin statului gazdă. Impactul bugetar declarat este nul. Textul acordului în sine nu se află printre documentele furnizate, așa că evaluarea clauzelor se bazează pe rezumatul inițiatorului.",
     "affectedGroups": [
       "Toți cetățenii",
-      "Justiție & Drepturi Civile",
-      "Contabili & Fiscalitate"
+      "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I și Art. II",
-      "proposalContent": "Înlocuirea sintagmei „Acordul dintre” cu „Acordul între” în Art. I și Art. II, pentru identitate cu titlul oficial al tratatului, cu Expunerea de motive și cu fișa proiectului PL-x 241/2026.",
-      "argumentation": "Denumirea unui tratat ratificat trebuie redată identic în tot actul (Legea 24/2000, unitate terminologică), pentru a evita orice dubiu privind identificarea instrumentului ratificat în raport cu textul semnat la Sarajevo pe 4 iulie 2018.",
-      "otherComments": "Proiectul este benign și util. Sugerez verificarea ordinii Camerelor față de art. 75 alin. (1) din Constituție și o mențiune despre aplicarea scutirilor din art. 14 în limitele Regulamentului (CE) 1186/2009. Termenul de amendamente afișat (06.04.2026) pare eronat."
+      "articleRef": "Articol unic (completare cu alin. 2)",
+      "proposalContent": "Se introduce alin. (2): „Acordul se publică în Monitorul Oficial al României, Partea I, împreună cu traducerea sa în limba română, iar declarația formulată de partea română la semnare privind art. 28 alin. (3) se publică odată cu acesta.”",
+      "argumentation": "Acordul a fost semnat doar în engleză. Previzibilitatea normei (art. 1 alin. 5 din Constituție) cere ca destinatarii, inclusiv autoritățile vamale, să aibă textul oficial în română. Declarația privind neaplicarea provizorie clarifică momentul de la care acordul produce efecte pentru România.",
+      "otherComments": "Proiectul este deja la promulgare, deci propunerea mai poate fi preluată doar la publicarea actului. Recomand ca scutirile vamale din art. 14 să fie aplicate în limitele Regulamentului (CE) nr. 1186/2009 și ale Codului Vamal al Uniunii."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 32078,
-      "sourceEndMarker": "SF-8B204145",
-      "riskScore": 1,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 58628,
+      "sourceEndMarker": "SF-FE225CF9",
+      "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Ratificarea acordului de sediu pentru Secretariatul regional de prevenire a dezastrelor (DPPI SEE)",
-      "verdictShort": "Lege tehnică, benignă și de rutină diplomatică, prin care România ratifică acordul de sediu de la Sarajevo al Inițiativei de Pregătire și Prevenire a Dezastrelor din Sud-Estul Europei. Nu introduce taxe, sancțiuni sau obligații noi pentru cetățeni ori firme.",
-      "initiatorClaim": "Guvernul (prin MAI și MAE) arată că ratificarea este necesară pentru operaționalizarea ca persoană juridică a Secretariatului DPPI SEE la Sarajevo, în cadrul cooperării regionale în domeniul situațiilor de urgență (unde România participă prin IGSU).",
-      "realityCheck": "Legea are doar două articole: ratifică Acordul semnat în 2018 și formalizează declarația României că nu îl aplică provizoriu înainte de intrarea în vigoare. Aproape toate obligațiile revin statului gazdă (Bosnia și Herțegovina), României fiindu-i opozabile doar imunitatea corespondenței oficiale și scutirile vamale uzuale pentru bunurile și publicațiile oficiale ale Secretariatului.",
-      "affectedGroups": [],
-      "keyFindings": [
-        "Art. I ratifică Acordul de sediu (DPPI SEE) semnat la 4 iulie 2018; potrivit Expunerii de motive, părții române îi sunt opozabile doar art. 10 (imunitatea corespondenței oficiale), art. 11 (import/export fără restricții al publicațiilor Secretariatului) și art. 14 (scutiri vamale pentru bunurile de uz oficial).",
-        "Art. II stabilește declarația României privind art. 28 alin. (3) din Acord: din motive de procedură internă, Acordul nu se aplică provizoriu de la semnare, ci doar de la intrarea în vigoare pentru partea română.",
-        "Textul extras al formei adoptate de Senat (16.11.2026) cuprinde exclusiv cele două articole ale legii de ratificare, fără anexa cu textul integral al Acordului, iar Expunerea de motive conține o mică contradicție internă între temeiul ratificării (art. 19 alin. 1 lit. e din Legea nr. 590/2003) și secțiunea 3.3 (care indică lipsa impactului asupra drepturilor omului)."
+      "plainTitle": "Ratificarea acordului de sediu pentru Secretariatul regional anti-dezastre de la Sarajevo",
+      "verdictShort": "Lege tehnică și benignă, care ratifică un acord de cooperare regională în domeniul prevenirii dezastrelor, fără impact negativ asupra cetățenilor sau firmelor. Singurele scăpări sunt procedurale și de redactare în expunerea de motive.",
+      "initiatorClaim": "Guvernul (prin MAI și MAE) solicită ratificarea acordului de sediu semnat în 2018 pentru operaționalizarea Secretariatului Inițiativei de Pregătire și Prevenire a Dezastrelor din Sud-Estul Europei (DPPI SEE) la Sarajevo, după ce Bosnia și Herțegovina a finalizat procedurile interne.",
+      "realityCheck": "Articolul unic ratifică un tratat internațional ale cărui obligații revin aproape exclusiv țării gazdă (Bosnia și Herțegovina). Potrivit expunerii de motive, României îi revin doar obligații diplomatice uzuale (inviolabilitatea corespondenței oficiale, lipsa restricțiilor pentru publicații și scutiri vamale pentru bunurile oficiale ale Secretariatului), fără taxe noi, birocrație sau poveri pentru cetățeni ori mediul privat.",
+      "affectedGroups": [
+        "Toți cetățenii"
       ],
-      "blindSpotsCaught": "În datele de parcurs apare o neconcordanță procedurală: fișa indică 'Camera decizională: Senatul', termen de amendamente 2026-04-06 și stadiu 'la Secretarul', deși forma atașată este adoptată de Senat la 16 noiembrie 2026. De asemenea, ratificarea a fost amânată 8 ani de la semnare (2018–2026) până la finalizarea procedurilor de către statul gazdă, iar în extrasul analizat lipsește textul propriu-zis al Acordului.",
-      "constitutionalityNote": "Proiectul respectă art. 11 alin. (2), art. 76 alin. (2) și art. 91 alin. (1) din Constituția României (ratificare prin lege ordinară). Pentru respectarea exigenței de previzibilitate (art. 1 alin. 5), textul integral al Acordului trebuie anexat și publicat alături de lege în Monitorul Oficial.",
-      "euLawNote": "Nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează profesii), nici a Directivei (UE) 2015/1535 TRIS (nu vizează servicii digitale sau norme tehnice) și nu afectează concurența ori piața unică. Scutirile vamale stricte pentru uzul oficial al unui organism internațional sunt uzuale și conforme dreptului internațional.",
+      "keyFindings": [
+        "Articol unic: ratifică un acord internațional tehnic semnat de România la 4 iulie 2018 (la Sarajevo), având ca obiect funcționarea Secretariatului DPPI SEE ca persoană juridică în Bosnia și Herțegovina.",
+        "Obligații limitate pentru România: conform Secțiunii 2.3 din expunerea de motive, părții române îi sunt opozabile doar art. 10 (corespondență oficială necenzurată), art. 11 (import/export liber de publicații) și art. 14 (scutiri vamale pentru bunuri oficiale ale Secretariatului).",
+        "Adoptare tacită și lipsa anexei: proiectul a trecut prin Camera Deputaților prin adoptare tacită (art. 75 alin. 2 teza a III-a din Constituție), iar textul integral al Acordului ratificat nu apare atașat formei extrase.",
+        "Contradicție internă în expunerea de motive: Secțiunea 2.4 justifică ratificarea prin lege în baza art. 19 alin. (1) lit. e) din Legea nr. 590/2003 (tratate privind statutul persoanelor și drepturile fundamentale), dar Secțiunea 3.3 afirmă că proiectul nu se referă la drepturile și libertățile fundamentale."
+      ],
+      "blindSpotsCaught": "Secțiunea 5.3 din expunerea de motive declară că proiectul nu are legătură cu legislația UE, ignorând că art. 14 al Acordului prevede scutiri de taxe și tarife vamale – domeniu de competență exclusivă a UE (Uniunea Vamală). De asemenea, Secțiunea 4 nu estimează impactul acestor scutiri (probabil neglijabil), iar Articolul unic nu mai menționează declarația formulată de România la semnare privind art. 28 alin. (3) (inaplicabilitatea provizorie), care devine însă lipsită de obiect prin ratificare.",
+      "constitutionalityNote": "Proiectul respectă art. 11 și art. 91 alin. (1) din Constituție privind ratificarea tratatelor internaționale de către Parlament prin lege. Adoptarea tacită la Camera Deputaților (art. 75 alin. 2 teza a III-a) este procedural constituțională, însă pentru respectarea cerinței de previzibilitate a legii (art. 1 alin. 5), publicarea în Monitorul Oficial trebuie însoțită de textul integral în limba română al Acordului, conform Legii nr. 590/2003.",
+      "euLawNote": "Proiectul nu afectează piața internă și nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează profesii) ori a Directivei (UE) 2015/1535 TRIS (nu vizează servicii digitale/AI sau reglementări tehnice). Totuși, întrucât politica vamală este competență exclusivă a UE (art. 3 alin. 1 lit. a TFUE), scutirile vamale prevăzute la art. 14 al Acordului trebuie aplicate în cadrul derogărilor permise statelor membre de art. 128 din Regulamentul (CE) nr. 1186/2009 privind scutirile de taxe vamale.",
       "senatForm": {
-        "articleRef": "Art. I (menționare anexă tratat)",
-        "proposalContent": "Se ratifică Acordul dintre Consiliul de Miniștri al Bosniei și Herțegovina și Guvernele celorlalte părți la DPPI SEE privind aranjamentele țării gazdă pentru Secretariatul DPPI SEE, semnat de Guvernul României la 4 iulie 2018, la Sarajevo, prevăzut în anexa care face parte integrantă din prezenta lege.",
-        "argumentation": "Potrivit normelor de tehnică legislativă și Legii nr. 590/2003 privind tratatele, textul integral al Acordului ratificat (în limba autentică și traducerea oficială în limba română) trebuie să figureze expres ca anexă la lege, pentru asigurarea previzibilității și opozabilității normelor (art. 1 alin. 5 din Constituție).",
-        "otherComments": "Proiectul de ratificare este benign, tehnic și util cooperării regionale în domeniul situațiilor de urgență (prin IGSU). Recomandarea vizează exclusiv claritatea formală a publicării integrale a Acordului alături de legea de ratificare."
+        "articleRef": "Articol unic (fără modificări de fond)",
+        "proposalContent": "Menținerea textului Articolului unic în forma adoptată, cu asigurarea publicării în Monitorul Oficial a traducerii integrale în limba română a Acordului ratificat (inclusiv a art. 10, 11 și 14 opozabile României), în conformitate cu Legea nr. 590/2003 privind tratatele.",
+        "argumentation": "Acordul sprijină cooperarea regională în prevenirea dezastrelor (DPPI SEE) și impune României doar scutiri diplomatice standard. Întrucât forma adoptată nu include textul anexat al tratatului și a trecut tacit la Cameră, publicarea integrală a Acordului este esențială pentru previzibilitatea legii (art. 1 alin. 5 din Constituție).",
+        "otherComments": "Proiectul se află deja în stadiul „la promulgare”, deci termenul de amendamente (06.04.2026) a expirat. Nu există riscuri majore pentru cetățeni sau IMM-uri; se recomandă doar ca MAE/MAI să verifice alinierea scutirilor vamale (art. 14) cu Regulamentul (CE) nr. 1186/2009."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 39188,
-      "sourceEndMarker": "SF-8B204145",
+      "durationMs": 36409,
+      "sourceEndMarker": "SF-FE225CF9",
       "riskScore": 1,
       "riskLevel": "green",
       "plainTitle": "România ratifică acordul de sediu pentru Secretariatul regional anti-dezastre de la Sarajevo",
-      "verdictShort": "Este o lege de ratificare pur tehnică, cu două articole, fără costuri, taxe sau sancțiuni pentru cetățeni. Obligațiile reale cad aproape în întregime pe Bosnia și Herțegovina, ca stat gazdă.",
-      "initiatorClaim": "MAI și MAE vor să exprime consimțământul României de a fi legată de acordul care dă Secretariatului DPPI SEE de la Sarajevo personalitate juridică și statut de funcționare. Inițiativa este cooperarea regională în prevenirea și gestionarea dezastrelor, iar România este reprezentată în ea prin IGSU.",
-      "realityCheck": "Art. I ratifică acordul. Art. II menține declarația din 2018: România nu aplică acordul provizoriu de la semnare, ci doar de la intrarea lui în vigoare pentru partea română. Pentru România rămân opozabile doar art. 10 (inviolabilitatea corespondenței oficiale a Secretariatului), art. 11 (fără restricții la importul și exportul publicațiilor) și art. 14 (scutiri vamale pentru bunurile de uz oficial), cu impact practic neglijabil.",
+      "verdictShort": "Lege tehnică de ratificare, benignă și utilă pentru cooperarea regională în protecția civilă. Aproape toate obligațiile revin Bosniei și Herțegovina, ca stat gazdă. România își asumă doar câteva angajamente minore privind corespondența, publicațiile și scutirile vamale ale Secretariatului.",
+      "initiatorClaim": "Guvernul, la inițiativa MAI și MAE, vrea să exprime consimțământul României de a fi legată de acordul de sediu. Acordul dă Secretariatului DPPI SEE de la Sarajevo personalitate juridică și un statut clar, după ce Memorandumurile ratificate prin Legea 353/2009 și Legea 323/2015 au pregătit cadrul instituțional.",
+      "realityCheck": "Legea are un articol unic care ratifică un acord de sediu tipic pentru organizații internaționale: imunități, inviolabilitatea sediului, scutiri fiscale și vamale, statutul personalului. Potrivit expunerii de motive, României îi sunt opozabile doar art. 10 (inviolabilitatea corespondenței oficiale, fără cenzură), art. 11 (fără restricții la importul și exportul publicațiilor Secretariatului) și art. 14 (scutiri vamale pentru bunurile de uz oficial). Celelalte obligații revin statului gazdă. Impactul bugetar declarat este nul. Textul acordului în sine nu se află printre documentele furnizate, așa că evaluarea clauzelor se bazează pe rezumatul inițiatorului.",
       "affectedGroups": [
-        "Toți cetățenii"
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I face doar ratificarea. Nu modifică nicio lege internă, nu creează instituții, taxe sau sancțiuni.",
-        "Art. II reia declarația făcută la semnare privind art. 28 alin. (3) din Acord. Exclude aplicarea provizorie, ceea ce este coerent cu Legea nr. 590/2003 și cu exigența controlului parlamentar.",
-        "Expunerea de motive (secț. 4) declară impact bugetar zero. Este plauzibil, pentru că sediul, facilitățile și majoritatea privilegiilor sunt suportate de statul gazdă.",
-        "Temeiul invocat este art. 19 alin. (1) lit. e) din Legea nr. 590/2003 (tratate privind statutul persoanelor). Este justificat de regimul de privilegii și imunități pentru oficiali și experți.",
-        "Ratificarea a fost amânată din 2018 până la finalizarea procedurilor interne ale statului gazdă (secț. 2.4), ceea ce explică decalajul de aproape 8 ani."
+        "Articolul unic doar ratifică acordul și nu modifică nicio lege internă. Nu introduce taxe, sancțiuni sau obligații pentru cetățeni ori firme.",
+        "Pentru România, efectele concrete se reduc la art. 10, 11 și 14 din acord (corespondență inviolabilă, circulația liberă a publicațiilor, scutiri vamale pentru bunurile de uz oficial). Celelalte privilegii operează pe teritoriul Bosniei și Herțegovina.",
+        "La semnare, România a formulat o declarație la art. 28 alin. (3): nu aplică acordul provizoriu de la semnare, ci doar de la intrarea lui în vigoare pentru partea română. Declarația este conformă cu Legea nr. 590/2003.",
+        "Ratificarea a fost amânată intenționat până când statul gazdă și-a încheiat procedurile interne. Abordarea e prudentă și evită obligații unilaterale fără reciprocitate.",
+        "Camera Deputaților a adoptat proiectul tacit, în forma inițială, conform art. 75 alin. (2) teza a III-a din Constituție, deci fără dezbatere efectivă în prima cameră sesizată."
       ],
-      "blindSpotsCaught": "Scutirile vamale din art. 14 ating o competență exclusivă a UE (uniunea vamală, art. 3 TFUE). România le poate acorda doar în limitele regimului de scutiri din Regulamentul (CE) nr. 1186/2009, care permite scutiri pentru organizații internaționale. Expunerea de motive spune că proiectul nu se referă la legislația UE, deși tocmai acest punct ar fi meritat menționat. Mai sunt două neconcordanțe formale. Prima: titlul oficial spune „Acordului între”, textul Senatului spune „Acordul dintre”. A doua: termenul pentru amendamente afișat (2026-04-06) este anterior adoptării în Senat (16.11.2026). Merită verificată și ordinea Camerelor: art. 75 alin. (1) din Constituție stabilește Camera Deputaților ca primă Cameră sesizată pentru ratificarea tratatelor, iar aici proiectul a trecut întâi prin Senat.",
-      "constitutionalityNote": "Proiectul este conform art. 11 și art. 91 alin. (1) din Constituție. Ratificarea se face prin lege, la propunerea Guvernului. Adoptarea cu majoritatea de lege ordinară (art. 76 alin. 2) este corectă. Textul este clar și previzibil (art. 1 alin. 5). Imunitățile prevăzute nu afectează drepturile fundamentale ale cetățenilor români, deoarece se aplică pe teritoriul statului gazdă, iar pe teritoriul României doar marginal, pentru corespondență și bunuri oficiale. Singurul aspect procedural de verificat este succesiunea Camerelor în raport cu art. 75 alin. (1): Camera Deputaților trebuie să fie prima sesizată pentru ratificări, iar încălcarea ordinii Camerelor a fost sancționată de CCR în alte cazuri.",
-      "euLawNote": "Directiva 2018/958 (testul de proporționalitate) nu se aplică, pentru că proiectul nu reglementează profesii. TRIS (2015/1535) nu se aplică, pentru că nu există reglementări tehnice sau servicii digitale. Proiectul nu are impact asupra concurenței sau a ajutoarelor de stat. Singurul punct de contact cu dreptul UE sunt scutirile vamale (art. 14 din Acord) și eventual cele de TVA, care trebuie aplicate în cadrul Regulamentului (CE) 1186/2009 și al Directivei 2006/112/CE. Aceste acte permit scutiri pentru organizații internaționale recunoscute, deci nu apare un conflict.",
+      "blindSpotsCaught": "Acordul a fost semnat numai în limba engleză, iar dosarul nu conține traducerea în română a textului ratificat. Pentru previzibilitate, traducerea trebuie publicată în Monitorul Oficial odată cu legea. Separat, scutirile vamale din art. 14 țin de competența exclusivă a UE în domeniul vamal, deci trebuie aplicate prin regimul unional de scutiri (Regulamentul (CE) nr. 1186/2009, Codul Vamal al Uniunii), nu ca derogare națională autonomă. Ca observație procedurală, adoptarea tacită în Cameră arată lipsa dezbaterii parlamentare, deși pentru un astfel de tratat consecințele sunt minime.",
+      "constitutionalityNote": "Proiectul respectă art. 11 și art. 91 din Constituție (ratificarea tratatelor de către Parlament prin lege) și art. 19 alin. (1) lit. e) din Legea 590/2003, fiindcă acordul privește statutul persoanelor (imunități). Procedura e corectă: Camera Deputaților a fost prima cameră sesizată (art. 75 alin. 1), iar Senatul a decis. Legea nu atinge drepturi fundamentale ale cetățenilor români. Imunitățile de jurisdicție și de executare operează în principal în statul gazdă, așa că riscul pentru accesul liber la justiție (art. 21) pe teritoriul României este neglijabil. Claritatea normei (art. 1 alin. 5) e asigurată, cu condiția ca textul acordului să fie publicat integral în română.",
+      "euLawNote": "Directiva 2018/958 (testul de proporționalitate) nu se aplică, fiindcă legea nu reglementează profesii. Nici Directiva TRIS 2015/1535 nu se aplică, fiindcă legea nu conține reglementări tehnice sau privind serviciile societății informaționale. Nu afectează concurența și nu implică ajutor de stat. Singurul punct de contact cu dreptul UE este scutirea vamală din art. 14. Aceasta trebuie aplicată în cadrul Codului Vamal al Uniunii și al Regulamentului (CE) nr. 1186/2009, care permite scutiri pentru organizații internaționale în condițiile prevăzute de dreptul Uniunii. Statele părți care sunt membre UE (România, Bulgaria, Croația, Slovenia) au aceeași poziție față de acest regim.",
       "senatForm": {
-        "articleRef": "Art. I și Art. II",
-        "proposalContent": "Înlocuirea sintagmei „Acordul dintre” cu „Acordul între” în Art. I și Art. II, pentru identitate cu titlul oficial al tratatului, cu Expunerea de motive și cu fișa proiectului PL-x 241/2026.",
-        "argumentation": "Denumirea unui tratat ratificat trebuie redată identic în tot actul (Legea 24/2000, unitate terminologică), pentru a evita orice dubiu privind identificarea instrumentului ratificat în raport cu textul semnat la Sarajevo pe 4 iulie 2018.",
-        "otherComments": "Proiectul este benign și util. Sugerez verificarea ordinii Camerelor față de art. 75 alin. (1) din Constituție și o mențiune despre aplicarea scutirilor din art. 14 în limitele Regulamentului (CE) 1186/2009. Termenul de amendamente afișat (06.04.2026) pare eronat."
+        "articleRef": "Articol unic (completare cu alin. 2)",
+        "proposalContent": "Se introduce alin. (2): „Acordul se publică în Monitorul Oficial al României, Partea I, împreună cu traducerea sa în limba română, iar declarația formulată de partea română la semnare privind art. 28 alin. (3) se publică odată cu acesta.”",
+        "argumentation": "Acordul a fost semnat doar în engleză. Previzibilitatea normei (art. 1 alin. 5 din Constituție) cere ca destinatarii, inclusiv autoritățile vamale, să aibă textul oficial în română. Declarația privind neaplicarea provizorie clarifică momentul de la care acordul produce efecte pentru România.",
+        "otherComments": "Proiectul este deja la promulgare, deci propunerea mai poate fi preluată doar la publicarea actului. Recomand ca scutirile vamale din art. 14 să fie aplicate în limitele Regulamentului (CE) nr. 1186/2009 și ale Codului Vamal al Uniunii."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 92581,
-      "sourceEndMarker": "SF-8B204145",
+      "durationMs": 59956,
+      "sourceEndMarker": "SF-FE225CF9",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Ratificarea acordului pentru secretariatul regional de prevenire a dezastrelor",
-      "verdictShort": "Cele două articole disponibile au un risc redus: ratifică un acord de cooperare și exclud aplicarea lui provizorie pentru România. Evaluarea întregului regim de imunități și scutiri rămâne însă incompletă, deoarece textul Acordului nu este inclus în materialul furnizat.",
-      "initiatorClaim": "Inițiatorii urmăresc asigurarea cadrului juridic pentru funcționarea Secretariatului DPPI SEE la Sarajevo, în sprijinul cooperării regionale pentru prevenirea și gestionarea dezastrelor. Potrivit expunerii de motive, majoritatea obligațiilor revin statului gazdă.",
-      "realityCheck": "Art. I exprimă consimțământul României de a fi legată prin întregul Acord, ale cărui obligații nu pot fi evaluate numai din rezumatul inițiatorilor. Art. II prevede că România nu aplică provizoriu Acordul de la semnare, aplicarea urmând să înceapă la intrarea lui în vigoare pentru partea română. Cele două articole nu instituie direct taxe, sancțiuni sau formalități pentru cetățeni și IMM-uri, dar scutirile și imunitățile descrise în expunere necesită examinarea textului convențional.",
+      "plainTitle": "Acord pentru sediul secretariatului regional de prevenire a dezastrelor",
+      "verdictShort": "Textul furnizat este o lege tehnică de ratificare, fără taxe, sancțiuni sau restricții profesionale introduse explicit. Riscul identificabil este redus, dar evaluarea privilegiilor și scutirilor rămâne incompletă deoarece acordul ratificat nu este reprodus.",
+      "initiatorClaim": "Inițiatorii urmăresc asigurarea cadrului juridic pentru funcționarea Secretariatului DPPI SEE la Sarajevo și sprijinirea cooperării regionale pentru prevenirea și gestionarea dezastrelor.",
+      "realityCheck": "Articolul unic ratifică acordul identificat prin titlu și datele semnării; efectele materiale trebuie căutate în acord, nu în descrierea din expunerea de motive. Potrivit acesteia, România ar avea obligații privind corespondența oficială, circulația publicațiilor și scutirile vamale, iar celelalte obligații ar reveni statului gazdă, însă delimitarea nu poate fi confirmată fără acord. Ratificarea prin lege nu trebuie confundată cu data intrării în vigoare internaționale pentru România.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
-        "Contabili & Fiscalitate",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I ratifică întregul Acord. Materialul transmis conține numai legea de ratificare, nu și articolele Acordului privind imunitățile, scutirile, soluționarea diferendelor, amendamentele și încetarea.",
-        "Art. II exclude aplicarea provizorie de la semnare pentru România. Data aplicării nu este automat data publicării legii: trebuie stabilită potrivit clauzelor de intrare în vigoare ale Acordului.",
-        "Afirmația că numai art. 10, 11 și 14 din Acord generează obligații pentru România apare în expunerea de motive. Ea nu constituie o limitare normativă a ratificării și trebuie verificată în textul Acordului.",
-        "Potrivit expunerii, art. 14 din Acord privește scutiri vamale pentru utilizarea oficială a bunurilor de către Secretariat. Aceasta nu demonstrează existența unui privilegiu comercial general pentru întreprinderi, dar poate implica venituri vamale neîncasate, al căror cuantum nu este prezentat.",
-        "Datele procedurale sunt necorelate: fișa indică Senatul drept Cameră decizională, dar textul prezentat este deja adoptat de Senat și este descris ca aflat ulterior la Camera Deputaților. Termenul pentru amendamente precedă adoptarea indicată; traseul oficial trebuie verificat înaintea trimiterii unei propuneri.",
-        "În cele două articole nu există abrogări, modificări ale altor legi, sancțiuni sau derogări suplimentare. Eventualele asemenea efecte ale Acordului nu pot fi excluse fără citirea acestuia."
+        "Articolul unic nu modifică expres alte legi și nu conține abrogări, contravenții, obligații declarative ori taxe pentru cetățeni și IMM-uri.",
+        "Textul acordului nu este inclus în materialul furnizat. Articolele 10, 11, 14 și 28 alin. (3) sunt menționate numai în expunerea de motive; conținutul și excepțiile lor nu pot fi auditate integral.",
+        "Expunerea de motive indică o declarație formulată de România la semnare, prin care este exclusă aplicarea provizorie. Această declarație contează pentru stabilirea momentului de la care obligațiile devin aplicabile.",
+        "Scutirile vamale descrise pot însemna venituri neîncasate, fără să reprezinte automat un impact bugetar semnificativ. Documentația furnizată nu cuantifică acest efect și nu indică sarcini birocratice noi pentru populație sau IMM-uri.",
+        "Adoptarea tacită de Camera Deputaților este un mecanism prevăzut de art. 75 alin. (2) din Constituție și nu constituie, singură, un viciu.",
+        "Forma analizată este cea a Camerei Deputaților. Stadiul declarat, la promulgare, nu dovedește că aceasta coincide integral cu forma finală adoptată de Senat."
       ],
-      "blindSpotsCaught": "Principala limită este lipsa textului Acordului, nu lungimea sau redactarea legii. Expunerea invocă ratificarea unui tratat referitor la statutul persoanelor și drepturi fundamentale, dar declară ulterior că proiectul nu privește impactul asupra acestor drepturi; aceasta este o insuficiență de fundamentare, nu dovada unei încălcări. Nu a fost posibilă verificarea online a dosarului și a normelor în forma lor actualizată.",
-      "constitutionalityNote": "Din cele două articole nu rezultă o neconstituționalitate evidentă. Art. 11 din Constituție este relevant pentru efectele ratificării, iar art. 1 alin. (5) impune accesibilitatea și previzibilitatea normelor, inclusiv publicarea corespunzătoare a Acordului. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident în textul disponibil. Indicarea art. 76 alin. (2) nu este vădit greșită doar fiindcă Acordul privește imunități; încadrarea definitivă necesită textul integral. Potrivit art. 75, legile de ratificare se examinează mai întâi la Camera Deputaților, Senatul fiind Camera decizională; necorelarea documentelor nu dovedește singură încălcarea procedurii. Nu este identificată o cheltuială nouă care să permită constatarea unei încălcări a art. 138 alin. (5).",
-      "euLawNote": "Directiva (UE) 2018/958 privește testarea proporționalității reglementărilor privind accesul la profesii reglementate sau exercitarea lor; cele două articole nu introduc asemenea condiții. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu este declanșată de simpla ratificare a unui acord de sediu: textul disponibil nu stabilește reguli tehnice pentru produse sau servicii ale societății informaționale. Nu rezultă un monopol ori o restrângere a concurenței pentru IMM-uri. Scutirile vamale și libertatea circulației publicațiilor, descrise numai în expunere, trebuie verificate în raport cu regimul vamal comun și celelalte obligații europene; ratificarea nu permite României să le înlăture.",
+      "blindSpotsCaught": "Expunerea justifică ratificarea prin referirea la statutul persoanelor și drepturi fundamentale, dar declară ulterior că proiectul nu privește impactul asupra acestor drepturi; această motivare schematică merită clarificată, fără a demonstra singură neconstituționalitatea. Lipsa acordului din extras nu dovedește lipsa lui din dosarul parlamentar. La promulgare, procedura obișnuită de depunere a amendamentelor este încheiată. Verificarea externă a surselor oficiale nu a fost posibilă.",
+      "constitutionalityNote": "Articolul unic identifică precis tratatul, fără o problemă evidentă de claritate raportată la art. 1 alin. (5); accesibilitatea reglementării presupune însă publicarea textului ratificat. Art. 23 alin. (12) nu este incident direct, deoarece textul furnizat nu instituie pedepse. Ratificarea se înscrie în cadrul art. 11 și art. 75 din Constituție. Compatibilitatea eventualelor imunități cu accesul la justiție, garantat de art. 21, necesită examinarea acordului și a mecanismelor sale de soluționare a litigiilor; nu poate fi dedusă din expunere.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor asupra profesiilor reglementate; textul furnizat nu introduce asemenea restricții. Nici obligația de notificare TRIS din Directiva (UE) 2015/1535 nu rezultă din acesta: nu sunt formulate reguli tehnice pentru produse sau servicii ale societății informaționale. Nu apare un avantaj concurențial acordat unor întreprinderi, dar scutirile vamale descrise trebuie confruntate cu dreptul vamal al Uniunii, deoarece România nu poate deroga unilateral de la acesta printr-un tratat. Fără acord, nu se poate constata un conflict concret.",
       "senatForm": {
-        "articleRef": "Art. I – completare privind anexa",
-        "proposalContent": "La art. I, după cuvintele «la Sarajevo» se adaugă sintagma: «, prevăzut în anexa care face parte integrantă din prezenta lege».",
-        "argumentation": "Acordul stabilește obligațiile efective, inclusiv imunități și scutiri. Identificarea expresă a anexei facilitează examinarea și accesibilitatea normelor ratificate. Expunerea de motive nu poate înlocui textul convențional.",
-        "otherComments": "Propunerea se justifică numai dacă forma oficială nu identifică deja Acordul ca anexă. Absența lui din extras nu dovedește absența din dosar. Verificați Camera competentă și termenul actual; propunerea cetățeanului devine amendament parlamentar numai dacă este preluată potrivit procedurii."
+        "articleRef": "Articolul unic",
+        "proposalContent": "Se introduce alin. (2): «Textul în limba română al Acordului și declarația formulată de România la semnare se publică împreună cu prezenta lege.»",
+        "argumentation": "Publicarea permite identificarea obligațiilor asumate și a poziției României privind aplicarea provizorie. Completarea este utilă numai dacă publicarea acestor documente nu este deja asigurată în forma finală și potrivit legislației aplicabile.",
+        "otherComments": "Nu este identificată o necesitate de modificare materială a acordului. La promulgare nu mai sunt posibile amendamente prin procedura obișnuită a comisiei; propunerea ar putea fi examinată dacă legea revine în Parlament printr-o procedură constituțională aplicabilă. Mai întâi trebuie verificată forma finală a Senatului."
       },
       "reachedEnd": true,
       "status": "ok"
     }
   },
   "history": [
+    {
+      "riskScore": 1.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-19T09:08:06.179Z",
+      "method": "whole-text-v1",
+      "textChars": 1831,
+      "form": "senat",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:23:02.625Z",
+      "reasons": [
+        "text",
+        "model"
+      ]
+    },
     {
       "riskScore": 1.3,
       "riskLevel": "green",

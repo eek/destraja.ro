@@ -2,14 +2,41 @@
   "billId": "PL-x 122/2026",
   "slug": "plx-122-2026",
   "version": "camera",
-  "updatedAt": "2026-11-10T13:58:18.406Z",
+  "updatedAt": "2026-11-24T15:36:32.413Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "camera",
+    "billChars": 5710,
+    "ordinanceChars": 0,
+    "memoChars": 9930,
+    "memoSupplied": 9930,
+    "marker": "SF-F705738B"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-122-2026.json",
+    "form": "camera",
+    "textHash": "f705738b9eccb628",
+    "fetchedAt": "2026-11-19T11:02:08.392Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
     "riskScore": 4.7,
     "riskLevel": "yellow",
-    "plainTitle": "Gospodăriile de la sat pot primi vizitatori plătitori, prin certificat de la primărie și o platformă națională administrată de o firmă privată",
-    "summaryTlDr": "Ideea este bună și chiar simplifică viața gospodăriilor rurale. Problema este execuția: un singur operator privat încasează toți banii, cu un comision pe care legea nu îl limitează, iar regulile importante sunt lăsate pe seama unui site și a unui caiet de sarcini.",
-    "initiatorClaim": "Inițiatorii vor ca orice gospodărie rurală să poată primi turiști și să le prezinte activități tradiționale fără birocrația cerută pensiunilor și fermelor agroturistice. Ei propun un certificat de la primărie, o platformă online națională și impozitare simplă pe normă de venit.",
-    "realityCheck": "Legea creează un registru local, un certificat emis de primărie și o platformă MADR operată de o firmă privată aleasă prin licitație. Firma încasează plățile vizitatorilor, își reține comisionul stabilit prin caietul de sarcini și raportează veniturile la ANAF. Regimul pe normă de venit este real și avantajos, dar legea nu spune dacă plata prin platformă e obligatorie. Nu definește «gospodăria țărănească», nu plafonează comisionul și ignoră siguranța alimentară, răspunderea față de vizitatori și finanțarea măsurilor promise.",
+    "plainTitle": "Gospodăriile de la țară pot primi turiști legal, cu certificat de la primărie și impozit pe normă",
+    "summaryTlDr": "Scopul e bun și regimul fiscal pe normă de venit chiar simplifică viața gospodăriilor mici. Problema e că banii vizitatorilor trec printr-o platformă de stat administrată de un operator privat ales printr-o „licitație” nedefinită, cu comision neplafonat și fără o sursă de finanțare stabilită.",
+    "initiatorClaim": "Inițiatorii vor să scoată gospodăriile rurale mici din birocrația pensiunilor și fermelor agroturistice clasificate. Propun un registru local, un certificat de la primărie, o platformă națională de rezervări și impozitare simplă pe normă de venit, pentru venituri suplimentare și păstrarea tradițiilor.",
+    "realityCheck": "Legea creează un certificat de producător de activități rurale (art. 2) și o platformă MADR operată de o firmă privată (art. 4), care încasează plata vizitatorilor, reține un comision și apoi virează banii gospodăriei (art. 5 lit. f). Platforma raportează veniturile direct la ANAF (art. 5 lit. g). Nu sunt definite gospodăria țărănească, criteriile și motivele de refuz ale certificatului, plafonul comisionului, regimul datelor, nici raportul cu regulile de siguranță alimentară și cu legislația turismului. Lista activităților eligibile se publică pe platformă, nu într-un act normativ.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "IMM & Antreprenori",
@@ -17,23 +44,24 @@
       "IT & AI"
     ],
     "senatForm": {
-      "articleRef": "Art. 3 alin.(2), art. 4 alin.(2), art. 5 lit. f)",
-      "proposalContent": "Art. 4 (2): Platforma se administrează de MADR sau, prin concesiune de servicii atribuită conform Legii nr. 100/2016, de un operator. Comisionul maxim se stabilește prin HG și se afișează public. Art. 5 lit. f): plata online e opțională; beneficiarul poate încasa direct, declarând veniturile. Art. 3 (2): lista activităților se aprobă prin HG.",
-      "argumentation": "Legea impune un singur operator privat, cu comision nelimitat, prin care trec plățile și datele fiscale ale gospodăriilor. Remunerarea din comisioane înseamnă concesiune (Directiva 2014/23), nu licitație. Lista activităților eligibile trebuie aprobată prin act publicat, nu afișată pe un site (art. 1 alin. 5 Constituție).",
-      "otherComments": "Legea e deja adoptată (Lege 139/2026), deci modificarea cere o nouă inițiativă legislativă. Lipsesc: definiția gospodăriei țărănești, motivele de refuz al certificatului, reguli de siguranță alimentară (Reg. 852/2004), sursa de finanțare (art. 138 alin. 5), corelarea cu DAC7 și GDPR pentru datele transmise la ANAF."
+      "articleRef": "Art. 4 alin. (2) și art. 5 lit. e)-f)",
+      "proposalContent": "Art. 4 (2): Operarea platformei se atribuie conform Legii nr. 98/2016 sau 100/2016, pe durată limitată, cu comision plafonat prin HG și date deținute de MADR. Art. 5 lit. e)-f): Rezervarea și plata prin platformă sunt opționale; încasarea se face doar prin prestatori autorizați conform Legii nr. 209/2019, gospodăria putând încasa și direct.",
+      "argumentation": "Textul impune un operator privat unic, fără procedură clară (concesiune de servicii, comision plătit de utilizatori), fără plafon de comision ori regim al datelor. Încasarea banilor vizitatorilor și virarea lor către gospodării e serviciu de plată reglementat (PSD2). Obligarea de facto la platformă ar crea monopol față de platformele private.",
+      "otherComments": "Legea e deja adoptată (Lege 139/2026), așa că propunerea poate fi preluată într-o lege de modificare sau în normele metodologice. Mai trebuie clarificate: definiția gospodăriei țărănești, motivele de refuz ale certificatului, regulile ANSVSA și de siguranță a vizitatorilor, sursa de finanțare pentru art. 7 și art. 9."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 72082,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 93927,
+      "sourceEndMarker": "SF-F705738B",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Programul „Viața la țară”: agroturism simplificat pentru gospodării, dar cu comision către un operator privat unic și o capcană la norma de venit",
-      "verdictShort": "O inițiativă cu intenție bună pentru deschiderea gospodăriilor rurale către turiști, dar viciată de concesionarea încasărilor către un operator privat unic cu comision neplafonat și de o omisiune fiscală care poate lăsa țăranii cu taxe fixe mai mari decât încasările ocazionale.",
-      "initiatorClaim": "Inițiatorii vor să elimine birocrația clasificării turistice și să permită oricărei gospodării țărănești să primească vizitatori pentru prezentarea tradițiilor și activităților agricole, pe baza unui simplu certificat de la primărie și cu impozitare la normă de venit.",
-      "realityCheck": "Legea obligă Ministerul Agriculturii să dezvolte din bani publici platforma națională „Viața la țară”, dar predă administrarea și încasarea banilor unui singur operator privat, care percepe un comision neplafonat prin lege din plățile turiștilor înainte de a le vira sătenilor. În plus, derogarea fiscală omite pragul minim de 12 salarii minime brute al normei de venit din Codul fiscal și plafonul CASS, riscând să supraimpoziteze gospodăriile cu puțini vizitatori.",
+      "plainTitle": "Programul „Viața la țară”: agroturism cu taxe simplificate, dar intermediat de un operator privat unic",
+      "verdictShort": "Intenția de a legaliza simplu activitățile rurale pentru gospodării este utilă și voluntară, fără sancțiuni noi. Totuși, legea conține o vulnerabilitate majoră: statul construiește și promovează o platformă națională pe bani publici, dar o predă unui singur operator privat care încasează banii turiștilor și un comision neplafonat prin lege.",
+      "initiatorClaim": "Inițiatorii susțin că vor să scoată gospodăriile rurale din blocajul birocratic al pensiunilor clasificate, oferindu-le un certificat simplu de la primărie, o platformă națională de rezervări și impozitare redusă la normă de venit pentru a valorifica tradițiile și a combate depopularea satelor.",
+      "realityCheck": "Mecanic, legea creează un circuit paralel cu Codul fiscal și cu piața liberă de turism: MADR finanțează dezvoltarea platformei (art. 4 alin. 1) și promovarea ei internațională (art. 8), apoi predă administrarea și încasarea banilor către un singur operator privat ales prin licitație, cu comision stabilit doar prin caietul de sarcini (art. 4 alin. 2, art. 5 lit. f). În paralel, lasă nereglementate detalii critice precum definiția „gospodăriei țărănești”, regulile sanitare, contribuțiile sociale (CAS/CASS) și sursa de finanțare a obligațiilor puse în sarcina statului și a primăriilor.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "IMM & Antreprenori",
@@ -41,88 +69,119 @@
         "IT & AI"
       ],
       "keyFindings": [
-        "Art. 4 alin. (2) și Art. 5 lit. f): Platforma este dezvoltată de Ministerul Agriculturii pe bani publici, dar este dată în administrare unui operator privat unic, care încasează banii de la vizitatori, își oprește un comision de intermediere stabilit doar prin caietul de sarcini (fără plafon legal) și virează ulterior sumele către gospodari.",
-        "Art. 6 alin. (1)-(2): Veniturile sunt încadrate ca activități independente la normă de venit prin derogare doar de la art. 69 alin. (2) din Codul fiscal (competența de stabilire), fără a deroga și de la art. 69 alin. (3) (care interzice ca norma anuală să fie sub 12 salarii minime brute) sau de la art. 170 (baza minimă anuală de 6 salarii minime pentru CASS).",
-        "Art. 5 lit. g) vs. Art. 6 alin. (1): Deși impozitarea se face teoretic la normă fixă de venit, platforma monitorizează și transmite automat către ANAF situațiile financiare cu toate încasările fiecărui beneficiar.",
-        "Art. 2 alin. (1)-(4) și Art. 3 alin. (2): Primăriile sunt obligate să creeze registre digitale compatibile cu platforma națională și să emită „certificate de producător de activități rurale” fără termene de eliberare, fără gratuitate garantată în lege și fără definirea listei detaliate de activități eligibile prin act normativ (lista fiind doar afișată pe platformă)."
+        "Monopol privat pe infrastructură publică (art. 4 alin. 2 și art. 5 lit. f): statul construiește și promovează platforma, dar un singur operator privat o administrează, încasează banii de la turiști și aplică un comision de intermediere stabilit discreționar în caietul de sarcini, fără plafon legal și fără durată maximă.",
+        "Risc financiar în procesarea plăților (art. 5 lit. f): operatorul privat încasează sumele și le virează ulterior persoanelor fizice, fără nicio cerință legală de autorizare ca prestator de servicii de plată (BNR/PSD2) sau de protejare a fondurilor (cont escrow) în caz de insolvență.",
+        "Regim fiscal paralel și neclar (art. 6 și art. 10): deși califică încasările drept venituri din activități independente pe normă de venit (prin derogare de la art. 69 alin. 2 și art. 4 Cod fiscal), legea nu clarifică dacă persoanele fizice trebuie să aibă PFA, cum se aplică plafonul de 25.000 euro din Codul fiscal, regimul CAS/CASS sau normele sanitar-veterinare dacă se servesc produse locale.",
+        "Cheltuieli publice și sarcini pentru primării fără sursă de finanțare (art. 2 alin. 3, art. 4 alin. 1, art. 7, art. 8): legea obligă toate primăriile să creeze registre digitale interoperabile și statul să finanțeze platforma, cursuri gratuite și promovare internațională, fără fișă financiară și fără indicarea sursei de finanțare.",
+        "Delegare improprie și arbitrar local (art. 2 alin. 4 și art. 3 alin. 2): lista detaliată a activităților eligibile (de care depinde regimul fiscal special) este „prezentată pe platformă” în loc să fie aprobată prin act normativ, iar primăria nu are termen sau criterii clare de eliberare/refuz pentru certificat."
       ],
-      "blindSpotsCaught": "Omisiunea derogării de la art. 69 alin. (3) din Legea nr. 227/2015 privind Codul fiscal este o capcană tehnică majoră: în lipsa acestei derogări exprese, ordinul comun MADR-MF nu poate fixa legal o normă anuală de venit sub plafonul de 12 salarii de bază minime brute pe țară. Astfel, un gospodar care se înscrie în program și are doar câteva vizite pe vară s-ar trezi cu o bază impozabilă prezumată de zeci de mii de lei și obligația plății CASS la 6 salarii minime. Totodată, încasarea fondurilor de către operatorul privat și virarea lor ulterioară (Art. 5 lit. f) intră sub incidența Legii nr. 209/2019 (PSD2) privind serviciile de plată.",
-      "constitutionalityNote": "Sub aspectul art. 1 alin. (5) și art. 139 alin. (1) din Constituție (previzibilitatea legii și legalitatea impunerii), Art. 3 alin. (2) deleagă stabilirea listei detaliate a activităților eligibile (care determină aplicarea regimului fiscal de la Art. 6) direct unei afișări pe platforma electronică, fără aprobarea ei printr-un act normativ publicat în Monitorul Oficial.",
-      "euLawNote": "Mecanismul de la Art. 5 lit. f), prin care un operator privat colectează plățile în nume propriu de la turiști și le virează ulterior țăranilor, necesită conformarea cu Directiva (UE) 2015/2366 (PSD2) privind serviciile de plată (instituție de plată autorizată sau agent comercial reglementat). De asemenea, crearea unui canal digital exclusiv de intermediere pentru accesul la o facilitate fiscală poate ridica probleme pe art. 106 TFUE (drepturi speciale/exclusive acordate unui operator privat) și Directiva 2006/123/CE privind serviciile.",
+      "blindSpotsCaught": "Există o coliziune procedurală ascunsă între termene și o lacună critică de reglementare financiară: art. 10 derogă de la regula predictibilității fiscale (art. 4 Cod fiscal) pentru a aplica normele de venit chiar din anul fiscal următor publicării, dar art. 6 alin. (3) impune transmiterea normelor către ANAF până la 30 noiembrie, iar art. 9 alin. (2) acordă 6 luni pentru realizarea platformei. În plus, art. 5 lit. g) obligă operatorul privat să transmită ANAF „situații financiare” pentru persoane fizice (noțiune improprie persoanelor fizice, nealiniată tehnic la DAC7 și fără garanții GDPR), iar art. 5 lit. f) îl pune să colecteze fondurile turiștilor fără cadru PSD2.",
+      "constitutionalityNote": "Legea prezintă două vulnerabilități serioase: (1) Art. 138 alin. (5) din Constituție — instituie cheltuieli bugetare certe (dezvoltare platformă, registre digitale la primării, cursuri gratuite, programe de finanțare, campanii de promovare) fără a stabili sursa de finanțare; (2) Art. 1 alin. (5) (calitatea și previzibilitatea legii) — nu definește „gospodăria țărănească”, nu stabilește termene sau motive de refuz la eliberarea certificatului de către primărie și trimite lista detaliată a activităților eligibile (baza unui regim fiscal special, incident art. 56 și art. 139) la simpla afișare „pe platformă”. Impunerea registrelor digitale primăriilor fără alocare de resurse atinge și principiul autonomiei locale (art. 120).",
+      "euLawNote": "1) Directiva (UE) 2015/2366 (PSD2): colectarea banilor de la turiști și virarea lor ulterioară către gospodării (art. 5 lit. f) reprezintă serviciu de plată reglementat, ce nu poate fi operat fără autorizare sau furnizor autorizat. 2) Concurență, Ajutor de stat (art. 107 TFUE) și Directiva 2014/23/UE (concesiuni): acordarea exclusivității comerciale unui singur operator privat peste o platformă finanțată și promovată de stat, legată de un regim fiscal favorabil, riscă să distorsioneze concurența față de platformele private de agroturism. 3) Directiva (UE) 2015/1535 (TRIS): reglementarea unei platforme naționale de intermediere digitală și a obligațiilor de raportare aferente impunea evaluarea notificării TRIS. 4) Directiva (UE) 2021/514 (DAC7) și GDPR: raportarea fiscală de către operatorul privat (art. 5 lit. g) trebuie aliniată standardelor DAC7 și cerințelor de protecție a datelor. Directiva (UE) 2018/958 nu este direct incidentă (participarea e voluntară, nu o profesie reglementată clasic), dar lipsa criteriilor pentru certificatul primăriei creează riscuri de proporționalitate locală.",
       "senatForm": {
-        "articleRef": "Art. 2, Art. 4 alin. (2), Art. 5 și Art. 6",
-        "proposalContent": "La Art. 2 se introduc termene de 10 zile și gratuitate pentru certificat. La Art. 5 lit. f), comisionul operatorului privat se plafonează la max. 3%, iar plata directă la gospodărie rămâne permisă. La Art. 6 alin. (2), derogarea se extinde și la art. 69 alin. (3) și art. 170 din Codul fiscal, pentru ca norma de venit să poată fi sub 12 salarii minime și fără plafon CASS.",
-        "argumentation": "Fără derogare de la art. 69 alin. (3) din Codul fiscal, norma de venit nu poate fi sub 12 salarii minime brute, ceea ce ar obliga țăranii cu încasări ocazionale la impozit și CASS mai mari decât câștigul real. De asemenea, obligarea încasării exclusiv printr-un operator privat cu comision neplafonat în lege creează o rentă de monopol pe o platformă finanțată din bani publici.",
-        "otherComments": "La Art. 3 alin. (2), lista detaliată a activităților eligibile trebuie aprobată prin hotărârea Guvernului de la art. 9, nu doar afișată direct pe platformă, deoarece definește sfera unui regim fiscal derogatoriu. Totodată, operatorul privat care încasează banii și îi virează ulterior trebuie să respecte cerințele Legii nr. 209/2019 privind serviciile de plată."
-      }
+        "articleRef": "Art. 4 alin. (2) și Art. 5 lit. f)",
+        "proposalContent": "Art. 4 (2): Administrarea platformei se face de MADR sau prin concesiune limitată, cu interfață deschisă altor platforme. Art. 5 f): Plățile online se procesează prin prestatori autorizați BNR (PSD2), cu comision maxim plafonat prin HG și virare directă către gospodării, fără colectarea banilor în contul operatorului.",
+        "argumentation": "Predarea unei platforme construite și promovate din bani publici unui singur operator privat, cu comision neplafonat prin lege, creează risc de monopol și distorsionează concurența. În plus, încasarea și virarea banilor turiștilor fără autorizare PSD2 expune gospodăriile riscului de insolvență și încalcă legislația plăților.",
+        "otherComments": "Propunem completarea legii cu: definirea clară a „gospodăriei țărănești”, stabilirea listei activităților eligibile prin HG (nu pe platformă), termene clare de eliberare a certificatului de primărie, indicarea sursei de finanțare conform art. 138 alin. (5) Constituție și clarificarea regimului CAS/CASS și a normelor sanitare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 57589,
+      "durationMs": 60190,
+      "sourceEndMarker": "SF-F705738B",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Gospodăriile de la sat pot primi vizitatori plătitori, prin certificat de la primărie și o platformă națională administrată de o firmă privată",
-      "verdictShort": "Ideea este bună și chiar simplifică viața gospodăriilor rurale. Problema este execuția: un singur operator privat încasează toți banii, cu un comision pe care legea nu îl limitează, iar regulile importante sunt lăsate pe seama unui site și a unui caiet de sarcini.",
-      "initiatorClaim": "Inițiatorii vor ca orice gospodărie rurală să poată primi turiști și să le prezinte activități tradiționale fără birocrația cerută pensiunilor și fermelor agroturistice. Ei propun un certificat de la primărie, o platformă online națională și impozitare simplă pe normă de venit.",
-      "realityCheck": "Legea creează un registru local, un certificat emis de primărie și o platformă MADR operată de o firmă privată aleasă prin licitație. Firma încasează plățile vizitatorilor, își reține comisionul stabilit prin caietul de sarcini și raportează veniturile la ANAF. Regimul pe normă de venit este real și avantajos, dar legea nu spune dacă plata prin platformă e obligatorie. Nu definește «gospodăria țărănească», nu plafonează comisionul și ignoră siguranța alimentară, răspunderea față de vizitatori și finanțarea măsurilor promise.",
+      "plainTitle": "Gospodăriile de la țară pot primi turiști legal, cu certificat de la primărie și impozit pe normă",
+      "verdictShort": "Scopul e bun și regimul fiscal pe normă de venit chiar simplifică viața gospodăriilor mici. Problema e că banii vizitatorilor trec printr-o platformă de stat administrată de un operator privat ales printr-o „licitație” nedefinită, cu comision neplafonat și fără o sursă de finanțare stabilită.",
+      "initiatorClaim": "Inițiatorii vor să scoată gospodăriile rurale mici din birocrația pensiunilor și fermelor agroturistice clasificate. Propun un registru local, un certificat de la primărie, o platformă națională de rezervări și impozitare simplă pe normă de venit, pentru venituri suplimentare și păstrarea tradițiilor.",
+      "realityCheck": "Legea creează un certificat de producător de activități rurale (art. 2) și o platformă MADR operată de o firmă privată (art. 4), care încasează plata vizitatorilor, reține un comision și apoi virează banii gospodăriei (art. 5 lit. f). Platforma raportează veniturile direct la ANAF (art. 5 lit. g). Nu sunt definite gospodăria țărănească, criteriile și motivele de refuz ale certificatului, plafonul comisionului, regimul datelor, nici raportul cu regulile de siguranță alimentară și cu legislația turismului. Lista activităților eligibile se publică pe platformă, nu într-un act normativ.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
-        "IT & AI"
+        "IT & AI",
+        "Proprietari & Imobiliare"
       ],
       "keyFindings": [
-        "Art. 4 alin. (2) și art. 5 lit. f): operaționalizarea platformei e dată unui singur operator privat, care încasează banii vizitatorilor și percepe un comision de intermediere fixat doar prin caietul de sarcini, fără plafon legal. Rezultatul este un intermediar unic, cu putere de piață garantată de lege.",
-        "Art. 3 alin. (2): lista detaliată a activităților eligibile este «prezentată pe Platformă», nu aprobată printr-un act normativ publicat în Monitorul Oficial. Conținutul normativ ajunge astfel pe un site administrat de o firmă privată, ceea ce afectează previzibilitatea legii.",
-        "Art. 2: nu există o definiție a «gospodăriei țărănești», criterii sau termen pentru emiterea certificatului, motive de refuz ori cale de contestare. În plus, certificatul ar «atesta deținerea gospodăriei», deși primăria nu poate atesta proprietatea; poate doar consemna datele din registrul agricol.",
-        "Art. 6: regimul fiscal pe normă de venit este favorabil și clar. Totuși, alin. (2) (ordin comun MADR-MF) și alin. (3) (MADR «transmite» normele către ANAF până la 30 noiembrie) se suprapun parțial. Legea nu spune nimic despre contribuțiile CAS/CASS.",
-        "Art. 7 și art. 9 alin. (2): promite cursuri gratuite, programe de finanțare și o platformă funcțională în 6 luni, inclusiv licitația, fără sursă de finanțare indicată. Termenul este nerealist pentru o procedură de atribuire cu posibile contestații.",
-        "Legea nu are sancțiuni, deci nu ridică probleme de proporționalitate a pedepselor (art. 23 alin. 12 nu e incident). Lipsesc însă regulile minime de siguranță alimentară pentru degustări și de răspundere sau asigurare față de vizitatori."
+        "Art. 4 alin. (2) + art. 5 lit. f): un operator privat unic administrează platforma și încasează banii vizitatorilor cu „comision de intermediere conform caietului de sarcini”. Legea nu stabilește un plafon, o durată a contractului, procedura exactă (achiziție publică sau concesiune de servicii) și cine deține datele.",
+        "Art. 5 lit. e)-f): încasarea în numele gospodăriilor și virarea ulterioară a banilor este, în fond, un serviciu de plată (remitere de bani) reglementat de Legea nr. 209/2019 (PSD2). Legea nu cere ca operatorul să fie autorizat sau să lucreze printr-un prestator autorizat.",
+        "Art. 6: veniturile se impozitează pe normă de venit, ceea ce e favorabil. Prin derogare de la art. 69 alin. (2) Cod fiscal, normele se stabilesc prin ordin comun MADR–MF, nu de direcțiile regionale ale finanțelor. Art. 6 alin. (3) cere însă ca MADR „prin structurile subordonate” să transmită la ANAF norme aprobate chiar de ministrul finanțelor, o redactare circulară.",
+        "Art. 2 alin. (4): certificatul „atestă deținerea gospodăriei țărănești”. Nu se precizează dacă e necesară proprietatea, deci chiriașii sau comodatarii pot fi excluși. Lipsesc termenul de eliberare, taxa și motivele de refuz sau de retragere.",
+        "Art. 3 alin. (2): lista detaliată a activităților eligibile este „prezentată pe platformă”, adică într-un site administrat de un operator privat, nu în HG-ul de la art. 9. Asta afectează previzibilitatea.",
+        "Art. 7 și art. 9: statul trebuie să ofere cursuri gratuite, ghiduri, programe de finanțare și o platformă în 6 luni, fără o sursă de finanțare și fără fișă financiară. Termenul de 6 luni e nerealist dacă include o procedură de atribuire către un operator privat.",
+        "Art. 10: derogarea de la art. 4 Cod fiscal (regula de previzibilitate de 6 luni) permite aplicarea regimului de la 1 ianuarie 2027, deși legea e adoptată în iunie 2026. Efectul e favorabil contribuabililor, dar slăbește principiul stabilității fiscale."
       ],
-      "blindSpotsCaught": "Un operator remunerat din comisioanele plătite de vizitatori, nu de minister, preia riscul de exploatare. Juridic, aceasta este o concesiune de servicii (Directiva 2014/23/UE, Legea 100/2016), nu o «licitație publică» clasică, iar formularea greșită poate duce la contestații și întârzieri. Al doilea punct slab: operatorul transmite ANAF date fiscale despre persoane fizice. Asta se suprapune cu obligațiile de raportare din DAC7 (Directiva 2021/514) și cere temei clar GDPR, inclusiv limitarea datelor și calitatea de persoană împuternicită. Titlul vorbește de «agroturism», dar textul nu reglementează cazarea, așa că relația cu OG 58/1998 și cu normele de clasificare rămâne neclară.",
-      "constitutionalityNote": "Nu există încălcări flagrante. Legea e ordinară (art. 76 alin. 2), iar derogările de la Codul fiscal (art. 6, art. 10) sunt permise prin lege de același rang. Riscurile sunt trei. (1) Art. 1 alin. (5): lipsa de claritate și previzibilitate, prin trimiterea listei de activități la o platformă și prin lipsa definiției gospodăriei țărănești. (2) Art. 138 alin. (5): măsurile cu impact bugetar (platformă, cursuri gratuite, programe de finanțare) nu au sursă de finanțare indicată, motiv pentru care CCR a constatat în mod constant neconstituționalitatea. Riscul e atenuat de caracterul declarativ al art. 7. (3) Art. 108 și principiul legalității: un element normativ ajunge în afara unui act publicat oficial.",
-      "euLawNote": "Directiva 2018/958 (test de proporționalitate) este marginal aplicabilă, pentru că legea nu reglementează o profesie. Certificatul de la primărie este însă un regim de autorizare în sensul Directivei 2006/123 (servicii) și trebuie să fie nediscriminatoriu, justificat și proporțional, cu criterii clare. Exclusivitatea unui intermediar unic poate afecta concurența pe piața platformelor de rezervare, dacă plata prin platformă devine condiție pentru regimul fiscal. TRIS (2015/1535): legea nu impune reguli generale serviciilor societății informaționale, ci înființează o platformă de stat, deci riscul de nenotificare e redus. Este totuși recomandată o verificare, în special pentru art. 5 lit. g). Se aplică DAC7, GDPR și Directiva 2014/23 privind concesiunile.",
+      "blindSpotsCaught": "Modelul de remunerare (comision plătit de vizitatori, nu preț plătit de minister) descrie o concesiune de servicii (Legea 100/2016, Directiva 2014/23/UE), nu o „licitație publică” clasică. Încasarea fondurilor terților intră sub incidența PSD2/Legii 209/2019. Legea nu spune explicit dacă rezervarea prin platformă e obligatorie: dacă normele o impun, gospodăriile sunt captive unui singur intermediar, iar platformele private (Booking, Airbnb etc.) sunt excluse de facto. Nu există nicio trimitere la regulile ANSVSA pentru degustări sau gastronomie, la siguranța vizitatorilor ori la OG 58/1998 privind turismul, așa că nu e clar ce se întâmplă dacă gospodăria oferă și cazare.",
+      "constitutionalityNote": "Nu există o încălcare flagrantă. Art. 139 (impozite stabilite prin lege) e respectat în esență, fiindcă metoda normei de venit e prevăzută de Codul fiscal, iar ordinul doar cuantifică. Previzibilitatea cerută de art. 1 alin. (5) e însă slăbită de lipsa definiției gospodăriei țărănești, a criteriilor de acordare și refuz a certificatului și de publicarea listei activităților pe o platformă privată. Art. 7 și art. 9 generează cheltuieli bugetare fără sursă de finanțare (art. 138 alin. (5)). Pentru o inițiativă parlamentară cu impact bugetar sunt obligatorii informarea și punctul de vedere al Guvernului (art. 111). Dacă acestea lipsesc, CCR a sancționat în mod repetat asemenea legi, deși caracterul declarativ al art. 7 poate atenua riscul.",
+      "euLawNote": "Directiva 2018/958 nu se aplică, pentru că certificatul nu reglementează o profesie. Directiva 2006/123 (servicii) e relevantă doar dacă certificatul devine condiție obligatorie pentru prestarea activității. Ca înscriere voluntară într-un program, este compatibilă. TRIS 2015/1535: platforma e un serviciu public propriu, nu o regulă generală pentru alți furnizori ai societății informaționale, deci notificarea nu pare necesară, cu excepția cazului în care normele obligă gospodăriile sau intermediarii să folosească exclusiv platforma. Atribuirea operatorului trebuie să respecte directivele 2014/24 sau 2014/23. Încasarea și remiterea banilor cere autorizare PSD2. Datele fiscale și personale transmise ANAF necesită o bază și garanții conforme GDPR (art. 6 alin. (1) lit. c, minimizare), care lipsesc din text. Un ajutor de stat e puțin probabil, dar comisionul și exclusivitatea operatorului trebuie stabilite la valoare de piață.",
       "senatForm": {
-        "articleRef": "Art. 3 alin.(2), art. 4 alin.(2), art. 5 lit. f)",
-        "proposalContent": "Art. 4 (2): Platforma se administrează de MADR sau, prin concesiune de servicii atribuită conform Legii nr. 100/2016, de un operator. Comisionul maxim se stabilește prin HG și se afișează public. Art. 5 lit. f): plata online e opțională; beneficiarul poate încasa direct, declarând veniturile. Art. 3 (2): lista activităților se aprobă prin HG.",
-        "argumentation": "Legea impune un singur operator privat, cu comision nelimitat, prin care trec plățile și datele fiscale ale gospodăriilor. Remunerarea din comisioane înseamnă concesiune (Directiva 2014/23), nu licitație. Lista activităților eligibile trebuie aprobată prin act publicat, nu afișată pe un site (art. 1 alin. 5 Constituție).",
-        "otherComments": "Legea e deja adoptată (Lege 139/2026), deci modificarea cere o nouă inițiativă legislativă. Lipsesc: definiția gospodăriei țărănești, motivele de refuz al certificatului, reguli de siguranță alimentară (Reg. 852/2004), sursa de finanțare (art. 138 alin. 5), corelarea cu DAC7 și GDPR pentru datele transmise la ANAF."
+        "articleRef": "Art. 4 alin. (2) și art. 5 lit. e)-f)",
+        "proposalContent": "Art. 4 (2): Operarea platformei se atribuie conform Legii nr. 98/2016 sau 100/2016, pe durată limitată, cu comision plafonat prin HG și date deținute de MADR. Art. 5 lit. e)-f): Rezervarea și plata prin platformă sunt opționale; încasarea se face doar prin prestatori autorizați conform Legii nr. 209/2019, gospodăria putând încasa și direct.",
+        "argumentation": "Textul impune un operator privat unic, fără procedură clară (concesiune de servicii, comision plătit de utilizatori), fără plafon de comision ori regim al datelor. Încasarea banilor vizitatorilor și virarea lor către gospodării e serviciu de plată reglementat (PSD2). Obligarea de facto la platformă ar crea monopol față de platformele private.",
+        "otherComments": "Legea e deja adoptată (Lege 139/2026), așa că propunerea poate fi preluată într-o lege de modificare sau în normele metodologice. Mai trebuie clarificate: definiția gospodăriei țărănești, motivele de refuz ale certificatului, regulile ANSVSA și de siguranță a vizitatorilor, sursa de finanțare pentru art. 7 și art. 9."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 120815,
+      "durationMs": 91156,
+      "sourceEndMarker": "SF-F705738B",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Vizite plătite în gospodării rurale, printr-o platformă cu operator privat",
-      "verdictShort": "Programul poate ajuta gospodăriile să câștige din prezentarea tradițiilor, dar lasă insuficient reglementate comisionul intermediarului, gestionarea încasărilor și condițiile participării. Textul nu introduce amenzi și nu rezervă operatorului întreaga piață a turismului rural.",
-      "initiatorClaim": "Inițiatorii promit acces simplificat al gospodăriilor la turismul rural, venituri suplimentare și conservarea tradițiilor. Platforma națională și impozitarea pe norme de venit sunt prezentate ca instrumente de reducere a birocrației.",
-      "realityCheck": "Legea creează un program voluntar cu înregistrare la primărie, certificat, registru digital și platformă administrată de un operator privat selectat prin licitație. Pentru rezervările procesate prin platformă, operatorul încasează prețul și un comision stabilit conform caietului de sarcini, fără plafon sau termen de virare prevăzut în lege. Certificatul nu înlocuiește expres autorizațiile cerute de alte legi, iar impozitarea pe norme nu garantează un avantaj pentru gospodăriile cu încasări mici.",
+      "plainTitle": "Vizite plătite în gospodării rurale, cu platformă națională și impozitare la normă",
+      "verdictShort": "Programul poate ajuta gospodăriile să obțină venituri din prezentarea tradițiilor și activităților rurale. Riscurile principale sunt impozitarea la normă pentru activități cu încasări mici și dependența platformei publice de un singur operator, cu comision stabilit prin documentația licitației.",
+      "initiatorClaim": "Inițiatorii urmăresc să deschidă turismul rural gospodăriilor obișnuite, prin înregistrare simplificată, promovare și rezervări online. Ei prezintă impozitarea la normă drept un regim favorabil și simplu.",
+      "realityCheck": "Legea creează un certificat emis de primărie, registre digitale locale și o platformă națională administrată de un operator privat selectat prin licitație, care intermediază încasările și adaugă un comision suportat de vizitatori. Veniturile sunt încadrate ca activități independente impozitate la normă, însă caracterul favorabil al acestui regim nu este garantat pentru gospodăriile cu încasări reduse. Certificatul nu înlocuiește expres celelalte autorizații cerute de legislația aplicabilă, iar textul nu instituie monopol asupra întregului agroturism.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
-        "IT & AI"
+        "IT & AI",
+        "Proprietari & Imobiliare"
       ],
       "keyFindings": [
-        "Art. 2 nu definește gospodăria țărănească și nu stabilește suficient criteriile verificării, termenul eliberării certificatului sau motivele refuzului. Rămâne neclar cum atestă primăria deținerea gospodăriei numai după înregistrarea declarației.",
-        "Art. 3 alin. (2) plasează lista detaliată a activităților eligibile pe platformă, fără să identifice autoritatea și actul prin care aceasta se aprobă. Dacă lista restrânge eligibilitatea, simpla publicare online nu oferă garanții normative suficiente.",
-        "Art. 4 alin. (2) și art. 5 lit. f) concentrează administrarea și intermedierea în cadrul Programului la un operator privat. Licitația asigură concurență pentru contract, dar legea nu stabilește plafonul comisionului, termenele viramentelor sau regulile rambursărilor.",
-        "Art. 6 califică veniturile drept venituri din activități independente și stabilește un mecanism special pentru normele de venit. Nu instituie o scutire fiscală și nici o scutire expresă de contribuții; normele pot dezavantaja activitățile cu încasări reduse, în funcție de nivelurile și ajustările aplicabile.",
-        "Art. 2, 4 și 7 presupun cheltuieli pentru registre, platformă, instruire și finanțări. Textul nu precizează sursele și cuantumul finanțării, iar primăriile primesc sarcini administrative suplimentare.",
-        "Art. 10 derogă de la calendarul general al modificărilor fiscale și aplică art. 6 veniturilor anului următor publicării. Implementarea trebuie corelată cu termenul de 30 noiembrie pentru transmiterea normelor și cu operaționalizarea platformei."
+        "Art. 6 alin. (2) derogă numai de la art. 69 alin. (2) din Codul fiscal. Nu înlătură expres limita minimă a normei de venit prevăzută la alin. (3), raportată la 12 salarii minime brute. În lipsa unei alte excepții aplicabile, această limită poate face regimul împovărător pentru gospodării cu activitate redusă, chiar dacă norma admite ajustările legale.",
+        "Art. 4 alin. (2) concentrează administrarea platformei naționale la un operator privat ales prin licitație. Art. 5 lit. f) permite adăugarea comisionului său la prețul serviciului; legea trimite condițiile la caietul de sarcini, fără să stabilească ea însăși un plafon, reguli de modificare ori termene de virare către gospodării. Comisionul este un cost comercial pentru vizitator, nu o taxă fiscală.",
+        "Art. 2 nu definește gospodăria țărănească și nu precizează suficient verificările pentru eliberarea certificatului sau condițiile retragerii acestuia. Art. 3 alin. (2) plasează lista detaliată a activităților pe platformă, fără să identifice autoritatea și actul prin care se aprobă și se modifică lista.",
+        "Art. 5 lit. f)-g) combină încasarea banilor, virarea lor către persoane fizice și raportarea către ANAF. Legea nu detaliază protejarea sumelor în tranzit, rambursările ori datele transmise; aplicarea legislației generale privind plățile, consumatorii și datele personale rămâne necesară.",
+        "Art. 7 promite instruire gratuită și programe de finanțare, iar art. 2 și 4 impun infrastructură digitală locală și națională. Textul nu cuantifică aceste costuri și nu identifică expres finanțarea; fără documentele bugetare ale procedurii nu se poate stabili dacă obligațiile constituționale de fundamentare au fost respectate.",
+        "Art. 9 stabilește termene de 90 de zile pentru norme și șase luni pentru platformă. Art. 10 aplică regimul fiscal veniturilor anului următor publicării, prin derogare de la regulile generale de predictibilitate fiscală; nu introduce retroactivitate expresă, dar nu corelează complet primul an fiscal cu publicarea normelor de venit până la 30 noiembrie, cerută de art. 6 alin. (3)."
       ],
-      "blindSpotsCaught": "Denumirea de program agroturistic nu creează automat derogări de la regulile privind alimentația, cazarea, siguranța sau autorizarea activităților. De asemenea, dacă stadiul comunicat, Lege 139/2026, este corect, termenul amendamentelor a trecut: propunerea cetățeanului poate fundamenta o nouă inițiativă de modificare, nu un amendament la dosarul încheiat.",
-      "constitutionalityNote": "Principalul risc privește art. 1 alin. (5) din Constituție: definiții insuficiente, stabilirea eligibilității printr-o listă online și garanții incomplete pentru circuitul banilor. Art. 23 alin. (12) nu este incident direct, deoarece textul nu instituie infracțiuni sau pedepse. Art. 45 și art. 135 justifică examinarea proporționalității intermedierii, fără ca selectarea unui singur administrator să fie automat neconstituțională. Pentru art. 138 alin. (5), trebuie verificată stabilirea sursei finanțării; pentru art. 111 alin. (1), solicitarea informării Guvernului în condițiile constituționale. Lipsa acestor documente din materialul primit nu dovedește lipsa lor din dosar. Analiza privește textul furnizat; verificarea online a formei promulgate și a dosarului nu a fost posibilă.",
-      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile asupra profesiilor reglementate; certificatul descris nu impune calificări profesionale, deci nu rezultă că testul său este obligatoriu. Directiva (UE) 2015/1535 nu impune notificarea TRIS pentru orice platformă digitală: trebuie stabilit dacă există o regulă notificabilă care vizează specific serviciile societății informaționale; simpla creare și contractare a platformei nu demonstrează această condiție. Nu sunt reglementate sisteme AI. Procedura atribuirii trebuie corelată cu normele achizițiilor sau concesiunilor, potrivit structurii economice a contractului. Încasarea și transferul banilor trebuie organizate conform regimului serviciilor de plată, inclusiv printr-un prestator autorizat când este necesar. Art. 5 lit. g) trebuie aplicat cu respectarea GDPR, prin delimitarea responsabilităților, datelor transmise și perioadelor de păstrare. Textul singur nu dovedește existența unui ajutor de stat incompatibil.",
+      "blindSpotsCaught": "Detaliul fiscal decisiv este întinderea limitată a derogării: schimbarea autorității care stabilește normele nu elimină automat pragul minim al acestora. Separat, lista publicată pe platformă nu trebuie să devină o metodă prin care operatorul privat adaugă condiții de eligibilitate. Fișa indică deja Legea nr. 139/2026, astfel încât formularul propus poate servi unei modificări legislative ulterioare, nu amendării unei proceduri încheiate.",
+      "constitutionalityNote": "Art. 1 alin. (5) din Constituție este relevant pentru definirea beneficiarilor, condițiile certificatului și autoritatea competentă să detalieze activitățile eligibile. Normele metodologice pot organiza aplicarea, dar nu pot stabili liber elementele esențiale ale accesului la program. Art. 23 alin. (12) nu ridică o problemă directă: textul nu instituie pedepse. Stabilirea administrativă a normelor de venit nu este, singură, neconstituțională; trebuie însă respectate legalitatea impunerii și justa așezare a sarcinilor fiscale, potrivit art. 139 alin. (1) și art. 56 alin. (2). Pentru cheltuielile publice sunt relevante art. 138 alin. (5) și solicitarea informațiilor Guvernului în condițiile art. 111 alin. (1), însă lipsa acestor demersuri nu poate fi dedusă numai din text. Nu rezultă o neconstituționalitate evidentă a întregii legi.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementărilor privind profesiile reglementate; certificatul descris nu condiționează activitatea de calificări profesionale, astfel încât aplicabilitatea acestei directive nu este demonstrată. Pentru accesul la servicii trebuie examinată și Directiva 2006/123/CE, în măsura în care certificatul funcționează ca autorizație. Licitația pentru un operator unic nu dovedește, prin ea însăși, încălcarea concurenței, dar condițiile contractului trebuie să evite avantaje nejustificate și blocarea accesului furnizorilor. Directiva (UE) 2015/1535 nu impune notificarea TRIS pentru simpla existență a unei platforme: trebuie verificat dacă art. 4-5 conțin reguli obligatorii care vizează specific serviciile societății informaționale și intră în domeniul notificării. Textul nu reglementează AI, iar documentele furnizate nu dovedesc existența sau absența unei notificări. Încasările și transferurile trebuie organizate cu respectarea cadrului serviciilor de plată, inclusiv prin prestatori autorizați, după caz; raportarea și publicarea datelor trebuie să respecte RGPD.",
       "senatForm": {
-        "articleRef": "Art. 5 lit. f)",
-        "proposalContent": "f) încasarea contravalorii serviciilor printr-un prestator de servicii de plată autorizat, cu afișarea distinctă, înaintea rezervării, a comisionului operatorului și a prețului total; virarea sumelor datorate gospodăriei în cel mult 5 zile lucrătoare de la prestarea serviciului; condițiile de anulare și rambursare se comunică înaintea rezervării;",
-        "argumentation": "Textul actual permite încasarea și virarea banilor fără termen legal de plată și fără obligații exprese de informare asupra comisionului și rambursărilor. Propunerea protejează gospodăriile și vizitatorii și corelează mecanismul cu regimul serviciilor de plată.",
-        "otherComments": "La stadiul comunicat, Lege 139/2026, textul poate fi transmis Comisiei pentru agricultură ca propunere pentru o nouă inițiativă legislativă de modificare. Nu mai poate fi depus ca amendament în procedura parlamentară deja încheiată."
-      }
+        "articleRef": "Art. 6 alin. (2)",
+        "proposalContent": "(2) Prin derogare de la art. 69 alin. (2) și (3) din Legea nr. 227/2015, normele de venit și coeficienții de corecție se stabilesc prin ordin comun al ministrului agriculturii și dezvoltării rurale și al ministrului finanțelor, pe categorii de localități și proporțional cu perioada de activitate, fără limita minimă prevăzută la art. 69 alin. (3).",
+        "argumentation": "Derogarea actuală privește numai art. 69 alin. (2), lăsând aplicabilă limita minimă de la alin. (3). Pentru gospodăriile cu activitate redusă, norma poate depăși venitul efectiv. Eliminarea expresă a limitei și ajustarea după perioada de activitate susțin obiectivul declarat de încurajare a participării.",
+        "otherComments": "Fișa indică Legea nr. 139/2026; propunerea este destinată unei inițiative ulterioare de modificare. Evaluarea privește exclusiv forma furnizată. Verificarea online nu a fost disponibilă; forma actualizată a Codului fiscal și documentele procedurii trebuie confruntate înaintea depunerii."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-10T13:58:18.406Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "camera",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:36:32.413Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

@@ -1,15 +1,42 @@
 {
   "billId": "PL-x 28/2026",
   "slug": "plx-28-2026",
-  "version": "senat",
-  "updatedAt": "2026-10-29T13:37:23.575Z",
+  "version": "camera",
+  "updatedAt": "2026-11-24T15:38:08.322Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "camera",
+    "billChars": 732,
+    "ordinanceChars": 10076,
+    "memoChars": 14847,
+    "memoSupplied": 14847,
+    "marker": "SF-7E6FBF6B"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-28-2026.json",
+    "form": "camera",
+    "textHash": "7e6fbf6b2322d5de",
+    "fetchedAt": "2026-11-19T11:03:42.023Z",
+    "acts": 2,
+    "actsFound": 2,
+    "actsRepealed": 0,
+    "articlesFound": 2,
+    "articlesShown": 2,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 5749,
+    "truncated": false,
+    "included": true,
+    "key": "53a4659e178e6062"
+  },
   "consensus": {
     "riskScore": 3.3,
     "riskLevel": "green",
-    "plainTitle": "Școlile și facultățile de pedagogie își păstrează autorizările, iar voucherele culturale pentru elevi se amână până în 2027",
-    "summaryTlDr": "Lege tehnică și utilă. Fără ea, înscrierile din 2026-2027 la unele licee tehnologice și pedagogice s-ar fi blocat. Are două rezerve: autorizările se dau prin lege, fără verificare și fără termen de evaluare, iar amânarea voucherelor culturale de 250 lei nici nu apare în fișa Camerei.",
-    "initiatorClaim": "Guvernul spune că, fără OUG, elevii nu s-ar mai putea înscrie în 2026-2027 la unele calificări cerute de firmele partenere și la noile specializări pedagogice, iar formarea învățătorilor ar avea un gol la trecerea între programe. Voucherele culturale se amână fiindcă lipsește cadrul organizatoric (motivul din expunere) și pentru a limita cheltuielile bugetare (motivul din preambul).",
-    "realityCheck": "Legea aprobă OUG 1/2026 fără nicio modificare. Concret, ea face cinci lucruri: păstrează autorizarea vechiului program PIPP sub noul nume, mai ține un an masteratul didactic, scutește unele licee de pragul de elevi pentru personalitate juridică, acordă prin lege autorizare provizorie între nivelurile de calificare 3 și 4 și suspendă voucherele culturale de 250 lei pentru elevi până în 2027-2028, cu efect imediat. Autorizările se dau fără verificarea dotărilor și fără termen de evaluare. Singura măsură cu efect negativ direct pentru familii, amânarea voucherelor, lipsește din fișa Camerei, iar în expunere impactul social apare cu „Nu e cazul”.",
+    "plainTitle": "Ajustări tehnice în educație: masteratul didactic mai durează un an, voucherele culturale de 250 lei se amână",
+    "summaryTlDr": "Este o lege de aprobare a unei ordonanțe în mare parte tehnice și de continuitate, care evită blocarea înscrierilor la licee tehnologice, pedagogice și la masteratul didactic. Prețul este că elevii pierd pe moment voucherele culturale promise, iar câteva școli primesc autorizare prin efectul legii, fără evaluare.",
+    "initiatorClaim": "Guvernul spune că vrea să evite întreruperea școlarizării în 2026-2027 la calificări profesionale cerute pe piața muncii și la noile specializări pedagogice. Vrea să păstreze masteratul didactic încă un an și să reorganizeze programul universitar PIPP fără o evaluare nouă. Din motive bugetare, amână voucherele culturale pentru elevi.",
+    "realityCheck": "Mecanic, OUG face patru lucruri. (1) Transformă PIPP în PIP fără procedură nouă de autorizare sau acreditare, termenele de evaluare curgând de la autorizarea vechiului program. (2) Mută lichidarea masteratului didactic la 2027-2028. (3) Permite liceelor agricole și silvice și celor cu peste 75% elevi în sistem dual să aibă personalitate juridică sub pragul de 500 de elevi. (4) Declară autorizate provizoriu, prin efectul legii, școlile care trec de la calificări de nivel 3 la nivel 4 (sau invers) și de la vechile specializări pedagogice la cele noi. Totodată suspendă art. 248 alin. (34) din Legea 198/2023 (implementarea voucherelor culturale) până în 2027-2028, cu intrare în vigoare imediată. Expunerea de motive susține simultan că măsura are motive bugetare și că OUG nu are impact financiar.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Agricultură & Mediu",
@@ -17,110 +44,139 @@
       "Angajați & HR"
     ],
     "senatForm": {
-      "articleRef": "OUG 1/2026, art. III, alin. (4) nou",
-      "proposalContent": "Se introduce alin. (4): „Unitățile de la alin. (1)-(2) sunt evaluate extern, până la 31 august 2027, privind standardele de autorizare provizorie pentru noul nivel. Termenele pentru acreditare curg din anul școlar 2026-2027. Dacă standardele nu sunt îndeplinite, unitatea nu mai înscrie elevi noi la acel nivel, iar cei înscriși își finalizează studiile.”",
-      "argumentation": "Art. III acordă autorizare prin efectul legii, fără verificarea dotărilor și a profesorilor pentru nivelul nou (ex. nivel 4, cu acces la bacalaureat). Spre deosebire de art. 102^1 din Legea 199/2023, unde termenele de evaluare sunt fixate expres, aici lipsesc. O verificare într-un an protejează elevii și păstrează continuitatea urmărită de OUG.",
-      "otherComments": "Legea 51/2026 e deja promulgată; propunerea poate fi preluată doar ca inițiativă de modificare. Alte observații: art. III alin. (3) nu acoperă pedagogie generală, pedagogia educației nonformale și mediere școlară, deși fișa și expunerea o afirmă; „profil preponderent agricol și silvic” (art. 16 alin. 4^1) nu are un prag definit."
+      "articleRef": "Art. III OUG 1/2026 (aprobată prin art. unic)",
+      "proposalContent": "La art. III se introduce alin. (4): „Unitățile prevăzute la alin. (1)-(3) sunt supuse, până la 31 august 2027, evaluării ARACIP privind îndeplinirea standardelor pentru calificarea/specializarea nouă; neîndeplinirea lor atrage încetarea autorizării provizorii, cu asigurarea finalizării studiilor de către elevii înscriși.”",
+      "argumentation": "Autorizarea prin efectul legii, fără nicio verificare a dotărilor și a personalului, contrazice logica art. 237 din Legea 198/2023 și asigurarea calității. Pentru nivelul 4 (cu bacalaureat) standardele diferă de nivelul 3. O evaluare ulterioară păstrează continuitatea înscrierilor, dar protejează elevii de programe nesustenabile.",
+      "otherComments": "Legea fiind deja promulgată (Lege 51/2026), propunerea poate fi preluată printr-o inițiativă ulterioară. Recomand și definirea „profilului preponderent agricol și silvic” (art. 16 alin. 4¹), corectarea „effective” și clarificarea termenului de reluare a voucherelor culturale (art. IV), cu cifre bugetare reale."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 78035,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Debirocratizarea acreditării școlilor profesionale și pedagogice, la pachet cu înghețarea voucherelor culturale pentru elevi",
-      "verdictShort": "O ordonanță în proporție de 80% utilă și necesară, care salvează liceele agricole/duale de la desființare și elimină re-acreditări birocratice inutile pentru școli și universități. Pe final însă (Art. IV), Guvernul strecoară amânarea până în 2027-2028 a voucherelor culturale de 250 lei pentru elevi.",
-      "initiatorClaim": "Guvernul susține că asigură continuitatea școlarizării în învățământul tehnologic, dual, agricol și pedagogic pentru anul 2026-2027 fără blocaje birocratice de autorizare și că amână voucherele culturale pentru a avea timp să dezvolte cadrul organizatoric.",
-      "realityCheck": "Articolele I-III rezolvă pragmatic o problemă reală: echivalează din oficiu autorizările școlilor profesionale, pedagogice și ale facultăților de profil la schimbarea denumirii specializărilor și protejează personalitatea juridică a liceelor agricole și duale cu mai puțini elevi. În schimb, Art. IV îngheață Programul național „Vouchere culturale pentru elevi” până în anul școlar 2027-2028 din motive strict bugetare, deși în Expunerea de motive pretextul invocat este unul pur organizatoric.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 93882,
+      "sourceEndMarker": "SF-7E6FBF6B",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Tranziție administrativă pentru licee și facultăți pedagogice, dar amânarea voucherelor culturale",
+      "verdictShort": "Este în esență o lege tehnică utilă, care aprobă fără modificări OUG nr. 1/2026 pentru a preveni blocarea înscrierilor școlare și universitare în 2026-2027. Totuși, la final strecoară suspendarea până în 2027-2028 a voucherelor culturale de 250 lei pentru elevi și acordă autorizări provizorii automate fără un termen expres de verificare ARACIP.",
+      "initiatorClaim": "Guvernul susține că actul normativ evită blocajele de școlarizare în anul 2026-2027 pentru liceele tehnologice, duale și pedagogice, păstrează personalitatea juridică a liceelor agricole/silvice și duale și asigură continuitatea formării profesorilor (PIPP și masterat didactic).",
+      "realityCheck": "Legea aprobă în bloc OUG nr. 1/2026 (deja aplicată din 30 ianuarie 2026) și rezolvă efectiv blocajele create de reorganizarea învățământului profesional și de ridicarea pragului de personalitate juridică la 500 de elevi prin Legea nr. 141/2025. În realitate însă, pe lângă măsurile de tranziție, Art. IV suspendă imediat până în 2027-2028 Programul «Vouchere culturale pentru elevi» din motive de austeritate bugetară, iar Art. III autorizează provizoriu automat calificări de nivel 4 în școli verificate doar pentru nivel 3, fără evaluare ARACIP prealabilă și fără un termen-limită clar de control în text.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Agricultură & Mediu",
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Debirocratizare universitară și preuniversitară (Art. I și Art. III): Programul de licență „Pedagogia învățământului primar” (fost PIPP), specializările liceale pedagogice și calificările profesionale de nivel 3 și 4 CNC primesc autorizare/acreditare prin efectul legii, fără noi dosare și taxe la ARACIS/ARACIP, iar masteratul didactic se prelungește până în 2027-2028.",
-        "Protecție pentru învățământul agricol, silvic și dual (Art. II): Liceele tehnologice cu profil preponderent agricol și silvic și cele cu peste 75% elevi în sistem dual își pot păstra personalitatea juridică chiar dacă scad sub pragul minim legal de elevi, însă legea omite să definească procentual ce înseamnă „preponderent agricol și silvic”.",
-        "Măsură de austeritate omisă din rezumatul parlamentar (Art. IV): Aplicarea progresivă a voucherelor culturale de 250 lei/elev (art. 248 alin. (34) din Legea 198/2023) este suspendată până în anul școlar 2027-2028, cu intrare în vigoare imediată, prin derogare de la regula de predictibilitate de 6 luni din art. 10 alin. (2) al Legii învățământului preuniversitar."
+        "Art. I (modifică Legea nr. 199/2023 prin art. 102¹ și art. 264): reorganizează programul universitar PIPP în «Pedagogia învățământului primar» (PIP) fără o nouă procedură inițială de autorizare/acreditare, păstrând însă termenele ARACIS de evaluare de la data autorizării/acreditării inițiale, și amână cu un an (până în 2027-2028) intrarea în lichidare a masteratului didactic organizat pe Legea nr. 1/2011.",
+        "Art. II (introduce art. 16 alin. 4¹ în Legea nr. 198/2023): creează o excepție de la pragul de minimum 500 de elevi (impus prin Legea nr. 141/2025), permițând păstrarea personalității juridice cu efective mai mici pentru liceele tehnologice cu profil «preponderent» agricol/silvic și pentru liceele cu peste 75% elevi în sistem dual.",
+        "Art. III alin. (1)-(3): prin derogare de la art. 237 din Legea nr. 198/2023 (evaluarea calității), școlile autorizate/acreditate în 2025-2026 pentru calificări CNC nivel 3 sunt considerate automat autorizate provizoriu din 2026-2027 pentru nivel 4 în același domeniu (și invers), iar specializările pedagogice «învățător-educator» și «educator-puericultor» se echivalează cu «pedagogia învățământului primar», respectiv «educație timpurie».",
+        "Art. IV alin. (1)-(2): suspendă până la începutul anului școlar 2027-2028 aplicarea art. 248 alin. (34) din Legea nr. 198/2023 privind implementarea progresivă a voucherelor culturale de 250 lei pentru elevi, cu intrare în vigoare imediată, prin derogare de la regula predictibilității din art. 10 alin. (2) al Legii nr. 198/2023."
       ],
-      "blindSpotsCaught": "Există o dublă neconcordanță în documentele oficiale: (1) În Preambulul OUG, Guvernul recunoaște sincer că amână voucherele culturale din cauza „constrângerilor bugetare”, însă în Expunerea de motive invocă un pretext birocratic (identificarea operatorilor și sistemul de decontare), iar din fișa de prezentare a Camerei Deputaților această suspendare lipsește complet; (2) Expunerea de motive și fișa Camerei afirmă că liceele pedagogice primesc acreditare automată pentru toate cele 5 specializări din art. 52 alin. (2) al Legii 198/2023, dar textul normativ al Art. III alin. (3) echivalează doar 2 dintre ele (pedagogia învățământului primar și educație timpurie), omițând pedagogia generală, educația nonformală și medierea școlară.",
-      "constitutionalityNote": "Sub aspectul art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), Art. II introduce o asimetrie de redactare: în timp ce pentru liceele în sistem dual fixează un prag matematic clar („peste 75% din numărul de elevi”), pentru liceele agricole și silvice folosește termenul vag „preponderent”, fără a stabili un prag minim al efectivelor sau criterii obiective în lege. De asemenea, justificarea urgenței (art. 115 alin. (4) din Constituție) este solidă pentru Art. I-III (adoptarea cifrei de școlarizare cu 6 luni înainte de noul an școlar), dar vulnerabilă pentru Art. IV (suspendarea unor drepturi legale ale elevilor pe motiv de neîndeplinire de către Guvern a propriilor obligații de organizare).",
-      "euLawNote": "Măsurile nu ridică bariere în calea liberei circulații a serviciilor și nu încalcă Directiva (UE) 2018/958 privind testul de proporționalitate, întrucât nu introduc restricții noi în accesul la profesia didactică, ci dimpotrivă, elimină blocaje administrative în recunoașterea programelor de formare inițială. Nu există incidență pe Directiva (UE) 2015/1535 (TRIS).",
+      "blindSpotsCaught": "Trei inadvertențe notabile între prezentarea oficială și textul real: (1) Fișa Camerei Deputaților omite complet Art. IV (suspendarea voucherelor culturale), iar Expunerea de Motive declară la Secțiunea 4 «Nu are impact financiar» și invocă motive organizatorice, deși preambulul OUG recunoaște explicit că măsura limitează cheltuielile bugetare; (2) Expunerea de Motive și fișa Camerei afirmă echivalarea pentru toate cele 5 specializări pedagogice din art. 52 alin. (2), însă textul adoptat al Art. III alin. (3) acoperă strict două dintre ele; (3) spre deosebire de Art. I (universități), Art. III nu stabilește un termen-limită pentru verificarea ulterioară ARACIP a școlilor promovate automat la nivel 4.",
+      "constitutionalityNote": "Legea este adoptată cu respectarea caracterului organic (art. 76 alin. 1 raportat la art. 73 alin. 3 lit. n din Constituție). Urgența prevăzută de art. 115 alin. (4) este plauzibilă pentru Art. I-III (termenele legale pentru cifra de școlarizare 2026-2027), dar mai slab justificată pentru Art. IV (amânare bugetară a unui beneficiu legal, totuși tolerată în practica CCR). Sub aspectul clarității legii (art. 1 alin. 5), există vulnerabilități minore: sintagma «profil preponderent agricol și silvic» din Art. II nu are un prag procentual (spre deosebire de «peste 75%» din aceeași frază pentru sistemul dual), iar Art. IV suspendă art. 248 alin. (34) fără a clarifica expres efectul asupra art. 83 alin. (15).",
+      "euLawNote": "Organizarea rețelei școlare și a formării cadrelor didactice intră în competența națională a statelor membre (art. 165 TFUE), fără a afecta piața unică sau normele privind ajutoarele de stat (art. 107 TFUE). Directiva (UE) 2018/958 privind testul de proporționalitate nu este încălcată: Art. I și Art. III elimină blocaje tranzitorii de acreditare pentru calificări aliniate Cadrului European al Calificărilor (CNC 3-4) și programe pedagogice, fără a introduce bariere noi de acces la profesii. Directiva (UE) 2015/1535 (TRIS) nu este incidentă, actul nevizând servicii digitale sau reglementări tehnice.",
       "senatForm": {
-        "articleRef": "Art. II și Art. IV din OUG nr. 1/2026",
-        "proposalContent": "La Art. II, alin. (4^1) al art. 16 din Legea 198/2023 se modifică pentru a defini clar sintagma „preponderent agricol și silvic” ca reprezentând minimum 50% din efectivele de elevi sau formațiunile de studiu. La Art. IV, se elimină suspendarea voucherelor culturale sau se instituie obligația Ministerului Educației de a adopta normele metodologice până la 1 martie 2027.",
-        "argumentation": "Sintagma „preponderent agricol și silvic” din Art. II este lipsită de previzibilitate (art. 1 alin. (5) din Constituție), spre deosebire de pragul clar de 75% stabilit pentru învățământul dual. De asemenea, suspendarea voucherelor culturale (Art. IV) fără un termen ferm pentru elaborarea normelor metodologice riscă să transforme amânarea într-o blocare sine die a programului.",
-        "otherComments": "Există o neconcordanță între Expunerea de motive (care promite echivalarea tuturor celor 5 specializări pedagogice din art. 52 alin. (2) al Legii 198/2023) și textul efectiv al Art. III alin. (3), care reglementează doar două specializări (pedagogia învățământului primar și educație timpurie), lăsând descoperite celelalte trei specializări."
-      }
+        "articleRef": "Art. III din OUG nr. 1/2026 (alin. 1 și 2)",
+        "proposalContent": "Completarea Art. III cu alin. (2¹): «Unitățile de învățământ prevăzute la alin. (1) și (2) au obligația de a solicita ARACIP evaluarea externă pentru calificările autorizate provizoriu în cel mult 2 ani școlari de la începerea școlarizării, sub sancțiunea încetării autorizării provizorii.»",
+        "argumentation": "Art. III oferă automat autorizare provizorie de nivel 4 școlilor autorizate doar la nivel 3 (și invers), derogând de la art. 237 din Legea 198/2023. Spre deosebire de Art. I (universități), unde termenele de evaluare rămân exprese, Art. III nu stabilește un termen de verificare ARACIP, riscând afectarea calității pregătirii elevilor.",
+        "otherComments": "Recomandăm și definirea procentuală a sintagmei «profil preponderent agricol și silvic» din Art. II (similar pragului de 75% pentru sistemul dual) pentru previzibilitate (art. 1 alin. 5 Constituție), precum și menționarea transparentă a impactului bugetar real al suspendării voucherelor culturale (Art. IV), omis din fișa proiectului."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 207425,
+      "durationMs": 43641,
+      "sourceEndMarker": "SF-7E6FBF6B",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Școlile și facultățile de pedagogie își păstrează autorizările, iar voucherele culturale pentru elevi se amână până în 2027",
-      "verdictShort": "Lege tehnică și utilă. Fără ea, înscrierile din 2026-2027 la unele licee tehnologice și pedagogice s-ar fi blocat. Are două rezerve: autorizările se dau prin lege, fără verificare și fără termen de evaluare, iar amânarea voucherelor culturale de 250 lei nici nu apare în fișa Camerei.",
-      "initiatorClaim": "Guvernul spune că, fără OUG, elevii nu s-ar mai putea înscrie în 2026-2027 la unele calificări cerute de firmele partenere și la noile specializări pedagogice, iar formarea învățătorilor ar avea un gol la trecerea între programe. Voucherele culturale se amână fiindcă lipsește cadrul organizatoric (motivul din expunere) și pentru a limita cheltuielile bugetare (motivul din preambul).",
-      "realityCheck": "Legea aprobă OUG 1/2026 fără nicio modificare. Concret, ea face cinci lucruri: păstrează autorizarea vechiului program PIPP sub noul nume, mai ține un an masteratul didactic, scutește unele licee de pragul de elevi pentru personalitate juridică, acordă prin lege autorizare provizorie între nivelurile de calificare 3 și 4 și suspendă voucherele culturale de 250 lei pentru elevi până în 2027-2028, cu efect imediat. Autorizările se dau fără verificarea dotărilor și fără termen de evaluare. Singura măsură cu efect negativ direct pentru familii, amânarea voucherelor, lipsește din fișa Camerei, iar în expunere impactul social apare cu „Nu e cazul”.",
+      "plainTitle": "Ajustări tehnice în educație: masteratul didactic mai durează un an, voucherele culturale de 250 lei se amână",
+      "verdictShort": "Este o lege de aprobare a unei ordonanțe în mare parte tehnice și de continuitate, care evită blocarea înscrierilor la licee tehnologice, pedagogice și la masteratul didactic. Prețul este că elevii pierd pe moment voucherele culturale promise, iar câteva școli primesc autorizare prin efectul legii, fără evaluare.",
+      "initiatorClaim": "Guvernul spune că vrea să evite întreruperea școlarizării în 2026-2027 la calificări profesionale cerute pe piața muncii și la noile specializări pedagogice. Vrea să păstreze masteratul didactic încă un an și să reorganizeze programul universitar PIPP fără o evaluare nouă. Din motive bugetare, amână voucherele culturale pentru elevi.",
+      "realityCheck": "Mecanic, OUG face patru lucruri. (1) Transformă PIPP în PIP fără procedură nouă de autorizare sau acreditare, termenele de evaluare curgând de la autorizarea vechiului program. (2) Mută lichidarea masteratului didactic la 2027-2028. (3) Permite liceelor agricole și silvice și celor cu peste 75% elevi în sistem dual să aibă personalitate juridică sub pragul de 500 de elevi. (4) Declară autorizate provizoriu, prin efectul legii, școlile care trec de la calificări de nivel 3 la nivel 4 (sau invers) și de la vechile specializări pedagogice la cele noi. Totodată suspendă art. 248 alin. (34) din Legea 198/2023 (implementarea voucherelor culturale) până în 2027-2028, cu intrare în vigoare imediată. Expunerea de motive susține simultan că măsura are motive bugetare și că OUG nu are impact financiar.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Agricultură & Mediu",
-        "Angajați & HR",
-        "IMM & Antreprenori"
+        "Angajați & HR"
       ],
       "keyFindings": [
-        "Art. I pct. 1 (art. 102^1 nou din Legea 199/2023): programul PIPP devine „Pedagogia învățământului primar” fără o nouă procedură de autorizare. Termenele de acreditare curg însă de la autorizarea vechiului program, deci universitățile nu câștigă timp, ceea ce e corect. Textul nu spune nimic despre componenta preșcolară (Educație timpurie) rezultată din divizare.",
-        "Art. I pct. 2 (art. 264 din Legea 199/2023): masteratul didactic organizat după Legea 1/2011 intră în lichidare abia din 2027-2028, deci mai funcționează un an. Expunerea leagă amânarea și de sustenabilitatea proiectului „Start în carieră prin masterat didactic”, un motiv care nu apare în preambul.",
-        "Art. II (art. 16 alin. 4^1 din Legea 198/2023): liceele tehnologice cu profil preponderent agricol și silvic și liceele cu peste 75% din elevi în sistem dual pot avea personalitate juridică și cu mai puțini elevi decât cere alin. (1). Legea nu fixează niciun prag minim alternativ, iar termenul „preponderent” nu este definit.",
-        "Art. III alin. (1)-(2): unitățile autorizate doar pentru nivelul 3 (circa 30% dintre unitățile tehnologice, potrivit preambulului) devin autorizate provizoriu pentru nivelul 4 în același domeniu, iar invers la fel. Asta se întâmplă prin derogare de la art. 237 din Legea 198/2023, fără evaluare a dotărilor și profesorilor și fără termen expres de verificare.",
-        "Art. III alin. (3) echivalează doar două specializări: învățător-educator devine pedagogia învățământului primar, iar educator-puericultor devine educație timpurie. Fișa Camerei și expunerea susțin că sunt acoperite toate specializările de la art. 52 alin. (2), inclusiv pedagogie generală, pedagogia educației nonformale și mediere școlară. Textul nu face asta.",
-        "Art. IV suspendă art. 248 alin. (34) din Legea 198/2023 până la începutul anului școlar 2027-2028. Acel articol reglementează implementarea voucherelor culturale de 250 lei pe elev, prevăzute la art. 83 alin. (15). Prin derogare de la art. 10 alin. (2), suspendarea se aplică imediat, de la publicarea OUG pe 30 ianuarie 2026."
+        "Art. IV alin. (1) suspendă până la începutul anului școlar 2027-2028 art. 248 alin. (34) din Legea 198/2023, adică implementarea Programului „Vouchere culturale pentru elevi” (250 lei/elev, art. 83 alin. 15). Preambulul invocă explicit constrângeri bugetare, dar secțiunea 4 a expunerii afirmă că actul nu are impact financiar și nu cuantifică economia.",
+        "Art. III alin. (1)-(2): școlile autorizate sau acreditate în 2025-2026 doar pentru nivelul 3 (sau doar nivelul 4) devin autorizate provizoriu, prin derogare de la art. 237 din Legea 198/2023, pentru celălalt nivel din același domeniu. Nu se verifică dotarea și personalul, deși nivelul 4 (liceal, cu bacalaureat) are alte standarde decât nivelul 3. Potrivit preambulului, măsura privește circa 30% din unitățile tehnologice.",
+        "Art. I pct. 1 (art. 102¹ din Legea 199/2023): PIPP se reorganizează ca PIP prin excepție de la art. 30 alin. (3), fără evaluare ARACIS nouă. Termenele de reevaluare (art. 232 lit. c) sau art. 237 alin. 1) curg de la autorizarea sau acreditarea vechiului PIPP, deci controlul calității este amânat, nu eliminat.",
+        "Art. I pct. 2 (art. 264 din Legea 199/2023): lichidarea masteratelor didactice organizate după Legea 1/2011 începe abia în 2027-2028. Potrivit expunerii, motivul real include sustenabilitatea proiectului „Start în carieră prin masterat didactic”, deci și obligații legate de finanțare.",
+        "Art. II (art. 16 alin. 4¹ din Legea 198/2023) adaugă o nouă excepție de la pragul de 500 de elevi pentru personalitate juridică. Sintagma „profil preponderent agricol și silvic” nu este definită (preponderent după ce criteriu: clase, elevi, calificări?), iar textul conține greșeala „effective”."
       ],
-      "blindSpotsCaught": "1. Fișa oficială a Camerei omite complet suspendarea voucherelor culturale, singura măsură care ia ceva direct de la elevi. 2. Cele două documente dau motive diferite: preambulul OUG invocă economii bugetare, iar expunerea vorbește doar despre lipsa cadrului organizatoric și trece la impact social „Nu e cazul”. 3. Doar această măsură primește derogare de la art. 10 alin. (2) din Legea 198/2023, ca să producă efecte imediat, în mijlocul anului școlar. 4. Se suspendă norma de calendar (art. 248 alin. 34), nu art. 83 alin. (15). Dreptul la voucher rămâne scris în lege, iar faptul că e amânat reiese doar din expunere. 5. Pentru universități (art. 102^1 alin. 2), termenele de evaluare sunt fixate expres. Pentru liceele autorizate prin art. III, astfel de termene lipsesc.",
-      "constitutionalityNote": "Art. 115 alin. (4): urgența e obiectivă pentru art. I-III. Cifra de școlarizare se aprobă prin hotărâre de Guvern cu cel puțin 6 luni înainte de anul școlar (art. 19 alin. 8 din Legea 198/2023), deci măsurile trebuiau adoptate până în primăvara lui 2026. Pentru vouchere, motivarea bugetară și organizatorică e mai slabă, dar jurisprudența CCR admite în principiu motive economico-bugetare explicate. Măsura nu atinge nucleul dreptului la învățătură (art. 32), deci art. 115 alin. (6) nu pare încălcat. Aprobarea cu majoritatea de la art. 76 alin. (1) e corectă, fiindcă organizarea învățământului ține de legea organică (art. 73 alin. 3 lit. n). Pe art. 1 alin. (5) există rezerve moderate: „preponderent agricol și silvic” și „efective mai mici” nu au prag, iar autorizările prin efectul legii nu au termen de evaluare. Tratamentul diferit al liceelor agricole, silvice și duale are o justificare obiectivă și rezonabilă (art. 16). Legea nu instituie sancțiuni, deci art. 23 alin. (12) nu e incident.",
-      "euLawNote": "Directiva (UE) 2018/958 nu este declanșată. OUG nu introduce cerințe noi de acces la profesia didactică. Dimpotrivă, păstrează încă un an ruta masteratului didactic și redenumește un program existent fără condiții suplimentare. Directiva TRIS 2015/1535 nu e incidentă, pentru că legea nu reglementează servicii ale societății informaționale (cardurile pentru vouchere sunt doar amânate). Legea nu afectează recunoașterea calificărilor (Directiva 2005/36) și nu ridică probleme de ajutor de stat. Sistemul dual implică operatori economici, dar fără exclusivitate sau avantaj selectiv. Prelungirea masteratului didactic susține sustenabilitatea unui proiect finanțat, cerință tipică fondurilor europene.",
+      "blindSpotsCaught": "Fișa Camerei și expunerea de motive afirmă că școlile pedagogice devin autorizate pentru toate cele cinci specializări din art. 52 alin. (2) (educație timpurie, PIP, pedagogie generală, pedagogia educației nonformale, mediere școlară). Textul efectiv al art. III alin. (3) acoperă doar două echivalențe: învățător-educator → pedagogia învățământului primar și educator-puericultor → educație timpurie. Celelalte trei specializări nu beneficiază de autorizare prin efectul legii. Apoi, expunerea vorbește de suspendarea art. 83 alin. (15), dar textul suspendă art. 248 alin. (34), adică doar calendarul de implementare. Dreptul rămâne formal în lege, dar nu se aplică. În fine, art. IV alin. (2) derogă de la art. 10 alin. (2) din Legea 198/2023 ca suspendarea să producă efecte imediat, nu de la anul școlar următor.",
+      "constitutionalityNote": "Urgența (art. 115 alin. 4) este plauzibil motivată: termenul de 6 luni pentru aprobarea cifrei de școlarizare (art. 19 alin. 8 din Legea 198/2023) și calendarul admiterii 2026-2027 constituie o situație obiectivă. Riscul de încălcare a art. 115 alin. (6), adică afectarea dreptului la învățătură (art. 32), este redus. Voucherele culturale sunt un beneficiu social accesoriu, nu componentă a nucleului dreptului, iar suspendarea este temporară și datată. Claritatea (art. 1 alin. 5) are mici deficiențe: noțiunea nedefinită de „profil preponderent agricol și silvic” și neconcordanța dintre motivare și dispozitiv privind specializările pedagogice. Contradicția din expunere privind impactul bugetar (economie invocată, dar „fără impact financiar”) slăbește fundamentarea cerută de Legea 24/2000, fără a atrage în sine neconstituționalitatea. Legea de aprobare a fost adoptată cu procedura art. 76 alin. (1) și este conformă.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este relevantă: actul nu introduce cerințe noi de acces la profesii reglementate. Prelungirea masteratului didactic doar menține o rută existentă de formare, iar echivalarea specializărilor pedagogice nu restrânge accesul. Directiva TRIS 2015/1535 nu se aplică, fiind vorba de servicii publice de educație, nu de reguli tehnice sau servicii ale societății informaționale. Nu apar efecte asupra concurenței sau a ajutoarelor de stat. Singura legătură cu dreptul UE este indirectă: dacă proiectul „Start în carieră prin masterat didactic” este finanțat din fonduri europene, prelungirea art. 264 servește la respectarea obligațiilor de sustenabilitate. Acesta este un efect pozitiv.",
       "senatForm": {
-        "articleRef": "OUG 1/2026, art. III, alin. (4) nou",
-        "proposalContent": "Se introduce alin. (4): „Unitățile de la alin. (1)-(2) sunt evaluate extern, până la 31 august 2027, privind standardele de autorizare provizorie pentru noul nivel. Termenele pentru acreditare curg din anul școlar 2026-2027. Dacă standardele nu sunt îndeplinite, unitatea nu mai înscrie elevi noi la acel nivel, iar cei înscriși își finalizează studiile.”",
-        "argumentation": "Art. III acordă autorizare prin efectul legii, fără verificarea dotărilor și a profesorilor pentru nivelul nou (ex. nivel 4, cu acces la bacalaureat). Spre deosebire de art. 102^1 din Legea 199/2023, unde termenele de evaluare sunt fixate expres, aici lipsesc. O verificare într-un an protejează elevii și păstrează continuitatea urmărită de OUG.",
-        "otherComments": "Legea 51/2026 e deja promulgată; propunerea poate fi preluată doar ca inițiativă de modificare. Alte observații: art. III alin. (3) nu acoperă pedagogie generală, pedagogia educației nonformale și mediere școlară, deși fișa și expunerea o afirmă; „profil preponderent agricol și silvic” (art. 16 alin. 4^1) nu are un prag definit."
-      }
+        "articleRef": "Art. III OUG 1/2026 (aprobată prin art. unic)",
+        "proposalContent": "La art. III se introduce alin. (4): „Unitățile prevăzute la alin. (1)-(3) sunt supuse, până la 31 august 2027, evaluării ARACIP privind îndeplinirea standardelor pentru calificarea/specializarea nouă; neîndeplinirea lor atrage încetarea autorizării provizorii, cu asigurarea finalizării studiilor de către elevii înscriși.”",
+        "argumentation": "Autorizarea prin efectul legii, fără nicio verificare a dotărilor și a personalului, contrazice logica art. 237 din Legea 198/2023 și asigurarea calității. Pentru nivelul 4 (cu bacalaureat) standardele diferă de nivelul 3. O evaluare ulterioară păstrează continuitatea înscrierilor, dar protejează elevii de programe nesustenabile.",
+        "otherComments": "Legea fiind deja promulgată (Lege 51/2026), propunerea poate fi preluată printr-o inițiativă ulterioară. Recomand și definirea „profilului preponderent agricol și silvic” (art. 16 alin. 4¹), corectarea „effective” și clarificarea termenului de reluare a voucherelor culturale (art. IV), cu cifre bugetare reale."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 124330,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Tranziție mai simplă pentru școli și profesori, vouchere culturale amânate",
-      "verdictShort": "Reglementarea este predominant tehnică și facilitează continuitatea școlarizării, fără taxe sau sancțiuni noi. Problemele principale sunt amânarea voucherelor culturale, unele criterii neclare și justificarea insuficient individualizată a urgenței.",
-      "initiatorClaim": "Guvernul urmărește adaptarea autorizărilor și a formării profesorilor la reorganizarea sistemului educațional, evitând blocarea înscrierilor în 2026-2027. Invocă separat constrângeri bugetare pentru amânarea voucherelor culturale.",
-      "realityCheck": "Textul transferă anumite autorizări sau acreditări asupra programelor reorganizate, permite unor licee să păstreze personalitatea juridică sub pragurile obișnuite și prelungește admiterea la vechile programe de masterat didactic. Pentru calificările profesionale de nivel 3 și 4, acordă autorizare provizorie reciprocă în același domeniu, fără evaluarea prealabilă obișnuită. Art. IV suspendă până la începutul anului școlar 2027-2028 norma privind implementarea voucherelor culturale, fără să suspende expres articolul care instituie programul.",
+      "durationMs": 78523,
+      "sourceEndMarker": "SF-7E6FBF6B",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Continuitate pentru școli, autorizări simplificate și amânarea voucherelor culturale",
+      "verdictShort": "Majoritatea măsurilor facilitează tranziția între programe educaționale și păstrează școli specializate. Riscurile principale sunt extinderea autorizărilor fără evaluare prealabilă distinctă și amânarea voucherelor culturale printr-o normă indirectă, insuficient fundamentată financiar.",
+      "initiatorClaim": "Guvernul urmărește continuitatea formării profesorilor și a învățământului tehnologic și pedagogic, evitând blocarea înscrierilor în 2026–2027. Pentru voucherele culturale invocă limitarea cheltuielilor și necesitatea pregătirii administrative.",
+      "realityCheck": "Legea de aprobare are articol unic și aprobă fără modificări OUG nr. 1/2026: măsurile ordonanței produc deja efecte potrivit propriilor reguli temporale, nu devin toate noutăți prin aprobarea parlamentară. Ordonanța simplifică reorganizarea și autorizarea unor programe, permite anumitor licee să păstreze personalitatea juridică sub pragurile generale și prelungește organizarea masteratelor didactice în vechiul regim. La final, suspendă până la începutul anului școlar 2027–2028 dispoziția privind implementarea progresivă a voucherelor culturale, fără să suspende expres chiar articolul care instituie beneficiul.",
       "affectedGroups": [
         "Sănătate & Educație",
-        "Angajați & HR",
+        "Agricultură & Mediu",
         "IMM & Antreprenori",
-        "Agricultură & Mediu"
+        "Angajați & HR"
       ],
       "keyFindings": [
-        "Art. I pct. 1 elimină evaluarea suplimentară la reorganizarea PIPP în PIP, dar păstrează termenele legale pentru acreditare sau evaluare periodică, calculate de la autorizarea ori acreditarea programului inițial. Nu acordă automat autorizare pentru un program distinct de Educație timpurie.",
-        "Art. I pct. 2 mută intrarea în lichidare a vechilor masterate didactice în anul universitar 2027-2028. Intrarea în lichidare nu înseamnă anularea studiilor sau a diplomelor cohortelor deja înscrise.",
-        "Art. II privește efectivul necesar personalității juridice a liceului, nu reducerea automată a efectivelor claselor. Expresia «profil preponderent agricol și silvic» nu primește însă un criteriu măsurabil în textul analizat.",
-        "Art. III alin. (1)-(2) permite autorizarea provizorie pentru celălalt nivel de calificare în același domeniu. Reduce procedurile pentru școlile existente, dar apartenența la același domeniu nu dovedește singură existența tuturor resurselor pentru noua calificare.",
-        "Art. III alin. (3) transferă statutul numai între două perechi de specializări: învățător-educator către pedagogia învățământului primar și educator-puericultor către educație timpurie. Nu autorizează automat toate cele cinci specializări pedagogice enumerate în fișa descriptivă.",
-        "Art. IV afectează calendarul unui beneficiu cultural de 250 lei pentru elevi. Nu introduce obligații financiare ori raportări noi pentru cetățeni sau IMM-uri; economia bugetară și numărul beneficiarilor afectați nu pot fi calculate din fragmentul financiar furnizat."
+        "Art. I pct. 1: PIPP se reorganizează ca PIP fără o nouă procedură de autorizare și acreditare pentru reorganizare. Evaluările ulterioare rămân obligatorii, iar termenele curg de la autorizarea/acreditarea vechiului program; nu se acordă un nou termen integral și nici o scutire permanentă.",
+        "Art. I pct. 2: lichidarea masteratelor didactice organizate potrivit Legii nr. 1/2011 începe în 2027–2028. Conform documentelor explicative, se permite încă un an de organizare; această dată apare deja în textul consolidat furnizat, ca efect al OUG.",
+        "Art. II: excepția privește efectivul total necesar personalității juridice, nu numărul elevilor dintr-o clasă. Pragul dual este strict peste 75%; expresia «profil preponderent agricol și silvic» nu precizează în această dispoziție un criteriu de calcul. Alte excepții pentru școli existau deja.",
+        "Art. III alin. (1)–(2): autorizarea provizorie se extinde prin efectul legii între nivelurile 3 și 4, în ambele sensuri, în același domeniu profesional. Nu se acordă automat acreditare pentru noul nivel; riscul este începerea școlarizării fără verificarea prealabilă distinctă a resurselor necesare calificării respective.",
+        "Art. III alin. (3): transferul statutului privește exact două corespondențe: învățător–educator către pedagogia învățământului primar și educator–puericultor către educație timpurie. Textul normativ nu autorizează automat toate cele cinci specializări enumerate în prezentarea generală.",
+        "Art. IV: sunt suspendate prevederile art. 248 alin. (34), nu expres art. 83 alin. (15), care instituie voucherele. Echivalența dintre suspendarea calendarului de implementare și amânarea beneficiului trebuie verificată prin coroborarea integrală a celor două articole; intrarea imediată expresă din alin. (2) vizează această suspendare.",
+        "Fundamentarea declară «Nu are impact financiar», deși invocă economii bugetare prin amânarea voucherelor. Lipsesc cuantificarea economiilor și estimarea costurilor menținerii unor unități cu personalitate juridică; textul nu introduce taxe, amenzi sau obligații birocratice directe pentru cetățeni ori IMM-uri."
       ],
-      "blindSpotsCaught": "Expunerea de motive vorbește despre suspendarea art. 83 alin. (15), dar dispozitivul suspendă art. 248 alin. (34), adică norma de implementare. Cele două operațiuni nu sunt identice și trebuie corelate cu forma aplicabilă a legii. Termenul de amendamente indicat este deja expirat, iar stadiul declarat este Lege 51/2026. Analiza privește extrasele furnizate; verificarea online a dosarului și a textelor consolidate nu a fost posibilă.",
-      "constitutionalityNote": "Art. 1 alin. (5) impune claritate și previzibilitate: criteriul profilului «preponderent», calcularea ponderii de peste 75% și efectul suspendării normei de implementare merită precizate. Art. 23 alin. (12) privește legalitatea pedepselor și nu constituie reperul direct aici, deoarece textul nu instituie pedepse. În raport cu art. 115 alin. (4), calendarul școlar oferă o justificare concretă pentru tranziția autorizărilor, dar constrângerile bugetare și dificultățile organizatorice nu demonstrează singure caracterul extraordinar al situației voucherelor. Art. 115 alin. (6), raportat la drepturile la învățătură și acces la cultură, necesită examinarea efectului negativ concret; amânarea unui beneficiu legal nu dovedește automat neconstituționalitatea. Aprobarea parlamentară nu înlătură eventualele vicii constituționale ale ordonanței. Pentru organizarea generală a învățământului, caracterul organic și competența decizională a Senatului sunt, în principiu, concordante cu art. 73 alin. (3) lit. n), art. 75 și art. 76 alin. (1).",
-      "euLawNote": "Directiva (UE) 2018/958 nu impune un test de proporționalitate pentru orice modificare din educație: trebuie identificată o dispoziție care restrânge accesul la o profesie reglementată sau exercitarea acesteia. Reorganizarea programelor de formare didactică justifică verificarea acestui domeniu de aplicare, fără ca textul furnizat să demonstreze o restricție profesională nouă. Facilitățile pentru furnizorii existenți pot produce un avantaj procedural față de cei noi, justificabil prin continuitate și echivalența programelor; nu rezultă un monopol sau o interdicție de intrare pe piață. Directiva (UE) 2015/1535 nu este incidentă prin simplul fapt că educația poate utiliza tehnologie: textul nu stabilește reguli tehnice pentru produse ori cerințe specifice serviciilor societății informaționale și nu reglementează AI. Nu se identifică o obligație TRIS din dispozițiile reproduse.",
+      "blindSpotsCaught": "Dispoziția cu impact direct asupra sprijinului acordat elevilor este la final, în art. IV. Expunerea de motive vorbește despre suspendarea art. 83 alin. (15), dar norma suspendă art. 248 alin. (34); explicația nu poate înlocui textul normativ. Există și o neconcordanță în materialul informativ: art. 102¹ este descris ca inexistent, deși este introdus de ordonanța deja publicată. Verificarea online nu a fost disponibilă; analiza se bazează pe documentele furnizate.",
+      "constitutionalityNote": "Art. 1 alin. (5) impune clarificarea criteriului «preponderent» și a efectului suspendării asupra voucherelor. Art. 23 alin. (12) nu este incident: nu sunt instituite pedepse. Diferențele de tratament între licee pot avea justificare obiectivă, compatibilă cu art. 16 și 32, prin specificul formării și accesul la educație. Pentru art. 115 alin. (4), calendarul apropiat al școlarizării oferă o justificare concretă, însă constrângerile bugetare generale justifică mai slab urgența amânării voucherelor; caracterul previzibil al tranziției merită examinat. Art. 115 alin. (6), raportat la art. 32 și 33, impune verificarea eventualei afectări negative a drepturilor, fără ca orice amânare a unui beneficiu legal să fie automat neconstituțională. Lipsa cifrelor bugetare nu dovedește singură încălcarea art. 138 alin. (5). Din text nu rezultă o neconstituționalitate certă.",
+      "euLawNote": "Nu sunt instituite monopoluri, exclusivități profesionale ori bariere comerciale explicite; simplificarea autorizărilor avantajează însă programele și unitățile existente și trebuie susținută prin echivalența pregătirii și păstrarea standardelor de calitate. Directiva (UE) 2018/958 nu se aplică automat oricărei norme educaționale: testul este necesar dacă măsurile introduc sau modifică restricții privind accesul la o profesie reglementată ori exercitarea ei. Textul analizat nu demonstrează singur o asemenea restricție nouă; corelarea cu cerințele de calificare didactică trebuie verificată. Directiva (UE) 2015/1535 nu este incidentă prin simpla utilizare a cardurilor pentru vouchere: proiectul nu stabilește reguli pentru servicii digitale sau AI și nu rezultă o obligație TRIS.",
       "senatForm": {
-        "articleRef": "Art. II – art. 16 alin. (4¹)",
-        "proposalContent": "La finalul alineatului se adaugă: «Profilul preponderent agricol sau silvic presupune școlarizarea a peste 50% din elevii liceului în calificări agricole ori silvice. Această pondere și ponderea elevilor din sistemul dual se calculează pe baza efectivelor înregistrate la începutul anului școlar pentru care se stabilește rețeaua școlară.»",
-        "argumentation": "Definirea preponderenței și a momentului de calcul permite aplicarea uniformă a excepției privind personalitatea juridică. Se reduc interpretările diferite între autorități și se păstrează sprijinul acordat liceelor agricole, silvice și duale.",
-        "otherComments": "Potrivit datelor furnizate, termenul de amendamente din 05.02.2026 a expirat, iar proiectul a devenit Legea 51/2026. Textul poate fi trimis ca propunere pentru o inițiativă legislativă ulterioară; un e-mail nu redeschide procedura încheiată. Nu a fost verificată online forma promulgată."
-      }
+        "articleRef": "Art. IV din OUG nr. 1/2026",
+        "proposalContent": "Articolul IV se elimină.",
+        "argumentation": "Eliminarea păstrează calendarul legal al voucherelor culturale. Amânarea este justificată prin economii bugetare necuantificate, deși fundamentarea declară lipsa impactului financiar. Suspendarea normei de implementare, fără clarificarea raportului cu beneficiul instituit, creează incertitudine.",
+        "otherComments": "Stadiul indicat este Lege 51/2026, iar termenul de amendamente din 5 februarie 2026 este depășit. Propunerea poate fundamenta o inițiativă legislativă ulterioară; nu mai poate fi depusă ca amendament în procedura încheiată. Menținerea calendarului necesită asigurarea finanțării și organizarea aplicării."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T13:37:23.575Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:38:08.322Z",
+      "reasons": [
+        "text",
+        "model"
+      ]
+    }
+  ]
 }

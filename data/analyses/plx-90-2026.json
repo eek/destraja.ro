@@ -2,120 +2,176 @@
   "billId": "Pl-x 90/2026",
   "slug": "plx-90-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T06:51:12.850Z",
+  "updatedAt": "2026-11-24T15:31:14.328Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1272,
+    "ordinanceChars": 0,
+    "memoChars": 4303,
+    "memoSupplied": 4303,
+    "marker": "SF-2690DDC9"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-90-2026.json",
+    "form": "initiator",
+    "textHash": "2690ddc92952ccff",
+    "fetchedAt": "2026-11-19T10:41:54.149Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 3.7,
-    "riskLevel": "green",
-    "plainTitle": "Partidele politice nu mai primesc bani de la buget în 2026 și 2027",
-    "summaryTlDr": "Ca opțiune bugetară, ideea e legitimă și populară, dar textul e scris neglijent. O lege care intră în vigoare «la 1 ianuarie 2026», votată după această dată, devine retroactivă și neconstituțională, iar promisiunea că banii ajung la spitale și școli nu apare deloc în text.",
-    "initiatorClaim": "Expunerea de motive spune că, într-o perioadă de austeritate, partidele trebuie să renunțe la subvențiile de la buget în 2026–2027, ca gest de solidaritate. Banii, estimați la circa 656 milioane lei pe doi ani, ar urma să fie redirecționați spre sănătate, educație și protecție socială.",
-    "realityCheck": "Legea are un singur efect juridic: prin derogare de la art. 18 din Legea nr. 334/2006, suspendă subvenția anuală de la bugetul de stat pentru partide. Nu conține niciun mecanism de redirecționare, așa că banii rămân necheltuiți în bugetul AEP sau sunt tăiați la rectificare. Data de intrare în vigoare (1 ianuarie 2026) a trecut deja. Formula «nu se alocă și nu se utilizează fonduri» e destul de largă încât să sugereze returnarea sumelor deja primite și să atingă, posibil, și rambursarea cheltuielilor de campanie. Efect secundar: partidele ar depinde exclusiv de cotizații și donații private, ceea ce avantajează formațiunile cu finanțatori bogați.",
+    "riskScore": 4.7,
+    "riskLevel": "yellow",
+    "plainTitle": "Partidele nu mai primesc bani de la buget în 2026 și 2027",
+    "summaryTlDr": "Opțiunea de a tăia subvențiile partidelor este legitimă politic și chiar economisește bani publici. Dar textul are o problemă serioasă: se aplică din 1 ianuarie 2026, deși în noiembrie 2026 încă e la comisii, deci ar lucra retroactiv pe bani deja virați și cheltuiți.",
+    "initiatorClaim": "Inițiatoarea vrea ca partidele să facă un gest de solidaritate în plină criză bugetară, prin suspendarea subvențiilor pe doi ani. Banii economisiți, estimați la circa 656 milioane lei, ar urma să meargă spre sănătate, educație și protecție socială.",
+    "realityCheck": "Legea doar derogă de la art. 18 din Legea nr. 334/2006: în 2026 și 2027 nu se alocă și nu se folosesc bani de la bugetul de stat pentru partide. Redirecționarea spre programe sociale nu apare în text, ci doar în expunerea de motive, așa că sumele rămân pur și simplu necheltuite sau sunt realocate prin legea bugetului. Formula „nu se utilizează” și data de 1.01.2026 ridică problema banilor deja primiți legal în 2026: textul nu spune dacă trebuie returnați sau dacă subvenția se oprește doar pentru viitor.",
     "affectedGroups": [
+      "Justiție & Drepturi Civile",
       "Toți cetățenii",
-      "Sănătate & Educație",
-      "Justiție & Drepturi Civile"
+      "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Articolul unic și Articolul 2",
-      "proposalContent": "Art. 1: «Prin derogare de la art. 18 din Legea nr. 334/2006, de la intrarea în vigoare a prezentei legi până la 31 decembrie 2027 nu se acordă partidelor politice subvențiile prevăzute la acest articol.» Art. 2: «Legea intră în vigoare la 3 zile de la publicarea în Monitorul Oficial. Sumele acordate legal anterior nu se restituie.»",
-      "argumentation": "Data de 1 ianuarie 2026 a trecut: o lege publicată acum ar produce efecte retroactive, interzise de art. 15 alin. (2) și art. 78 din Constituție, și ar putea cere restituirea sumelor deja plătite. Formula «nu se alocă și nu se utilizează fonduri» e prea largă și poate atinge și rambursarea cheltuielilor de campanie, deși derogarea vizează doar art. 18.",
-      "otherComments": "Textul numerotează «Articol unic» și apoi «Articolul 2»; trebuie renumerotat (Legea nr. 24/2000). Redirecționarea către sănătate și educație apare doar în expunere, nu în lege: banii rămân în buget fără destinație. Cifrele din expunere nu se potrivesc (230 vs. 328 milioane lei/an). Măsura elimină și sporul legal pentru partidele cu femei alese."
+      "articleRef": "Art. 2 (intrarea în vigoare) și Articolul unic",
+      "proposalContent": "Art. 2: «Prezenta lege intră în vigoare la 3 zile de la publicarea în Monitorul Oficial și se aplică subvențiilor aferente lunilor ulterioare intrării în vigoare, până la 31 decembrie 2027. Sumele virate legal înainte de intrarea în vigoare rămân dobândite.» Renumerotarea «Articol unic» ca art. 1.",
+      "argumentation": "Data de 1.01.2026 a trecut, iar proiectul e încă la comisii. Aplicarea pe 2026 ar retrage retroactiv sume deja virate și cheltuite, contrar art. 15 alin. (2) din Constituție, și ar face legea imprevizibilă (art. 1 alin. 5). Formula propusă păstrează scopul economisirii și evită o probabilă neconstituționalitate.",
+      "otherComments": "Redirecționarea spre sănătate și educație apare doar în expunerea de motive, nu în text. Dacă se dorește, trebuie prevăzută expres sau prin legea bugetului. Cifrele din EM sunt contradictorii (230 vs 328 mil. lei/an). E necesar punctul de vedere al Guvernului (art. 111 Constituție)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 50530,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Suspendarea subvențiilor de la buget pentru partidele politice în anii 2026 și 2027",
-      "verdictShort": "O inițiativă benefică pentru bugetul public și contribuabili, care propune tăierea subvențiilor pentru partide pe doi ani, dar care este redactată neglijent și riscă să fie declarată neconstituțională din cauza datei retroactive de intrare în vigoare (1 ianuarie 2026).",
-      "initiatorClaim": "Inițiatoarea propune suspendarea subvențiilor de la bugetul de stat pentru partidele politice în anii 2026 și 2027 (economisind circa 656 milioane lei) și redirecționarea acestor bani către sănătate, educație și protecție socială.",
-      "realityCheck": "Deși oprirea alocărilor lunare către partide ar genera o economie bugetară reală, legea nu conține niciun mecanism concret prin care banii economisiți să fie transferați către spitale sau școli, al doilea paragraf fiind pur declarativ. Mai grav, textul prevede intrarea în vigoare la 1 ianuarie 2026 (dată deja trecută), ceea ce îl face neconstituțional pentru retroactivitate dacă nu este amendat în comisie.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 92152,
+      "sourceEndMarker": "SF-2690DDC9",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Suspendarea subvențiilor pentru partide în 2026–2027, cu aplicare retroactivă și fără redirecționare reală",
+      "verdictShort": "Conform textului Pl-x 90/2026 analizat, proiectul nu introduce taxe sau obligații noi pentru cetățeni și firme, dar prezintă vicii serioase de constituționalitate (intrare retroactivă în vigoare) și de tehnică legislativă. Deși expunerea de motive invocă direcționarea economiilor spre sănătate și educație, textul normativ nu conține niciun mecanism juridic care să impună această destinație.",
+      "initiatorClaim": "Potrivit expunerii de motive semnate de deputata neafiliată Raisa Enachi, propunerea suspendă temporar subvențiile bugetare pentru partide în 2026–2027 (cu economii estimate la circa 656 milioane lei) pentru a consolida bugetul, a crește încrederea publică și a redirecționa fondurile către sănătate, educație și protecție socială.",
+      "realityCheck": "În realitate, proiectul blochează alocarea și utilizarea fondurilor de la bugetul de stat pentru partide în 2026–2027, dar al doilea alineat este pur declarativ și nu creează nicio obligație legală de alocare a sumelor către spitale, școli sau programe sociale. Mai mult, stabilirea intrării în vigoare la 1 ianuarie 2026 produce efecte retroactive neconstituționale, iar formularea vagă „nu se utilizează” poate afecta inclusiv sume deja virate sau solduri reportate legal din anii anteriori.",
       "affectedGroups": [
-        "Toți cetățenii",
-        "Sănătate & Educație"
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articolul 2 impune intrarea în vigoare a legii la data de 1 ianuarie 2026, deși proiectul se află în dezbatere parlamentară în cursul anului 2026, încălcând flagrant principiul neretroactivității legii (art. 15 alin. (2) din Constituție).",
-        "Eroare elementară de tehnică legislativă: proiectul este structurat într-un „Articol unic”, dar este urmat imediat de „Articolul 2”, contrar Legii nr. 24/2000 privind normele de tehnică legislativă.",
-        "În „Articol unic” alin. (2), redirecționarea fondurilor către sănătate, educație și protecție socială este formulată doar ca o justificare teoretică („Măsura are caracter excepțional... fiind justificată de...”), fără nicio dispoziție normativă care să oblige Guvernul să aloce sumele economisite către aceste ministere."
+        "Retroactivitate neconstituțională (Articolul 2): proiectul stabilește intrarea în vigoare la 1 ianuarie 2026, deși se află încă în procedura parlamentară (termen de amendamente 5 martie 2026), contravenind art. 15 alin. (2) și art. 78 din Constituția României.",
+        "Lipsa mecanismului de redirecționare (Articol unic, alin. 2): trimiterea la sănătate, educație și protecție socială are caracter pur enunțiativ și nu modifică legile bugetare pentru a garanta cheltuirea economiilor în aceste domenii.",
+        "Ambiguitatea interdicției de utilizare (Articol unic, alin. 1): sintagma „nu se alocă și nu se utilizează fonduri de la bugetul de stat” nu distinge clar între noile tranșe din 2026–2027, sumele deja decontate în 2026 și soldurile necheltuite reportate legal din anii anteriori.",
+        "Vicii evidente de tehnică legislativă: proiectul conține atât „Articol unic”, cât și „Articolul 2” (încălcând art. 47 din Legea nr. 24/2000) și trimite la forma din 2006 a Legii nr. 334/2006, ignorând republicarea din Monitorul Oficial nr. 446/2015."
       ],
-      "blindSpotsCaught": "Inițiatoarea face derogare de la art. 18 din Legea nr. 334/2006 citând Monitorul Oficial nr. 446 din 17 iulie 2006 (forma inițială, în care subvențiile erau la art. 14), ignorând că legea a fost republicată în Monitorul Oficial nr. 446 din 23 iunie 2015. În plus, interdicția cumulativă „nu se alocă și nu se utilizează fonduri” creează o ambiguitate juridică: poate fi interpretată ca o înghețare a sumelor deja încasate de partide în anii anteriori și păstrate în conturi, ceea ce ar ridica obiecții privind dreptul de proprietate și neretroactivitatea.",
-      "constitutionalityNote": "În forma actuală, proiectul încalcă art. 15 alin. (2) și art. 78 din Constituție (intrarea în vigoare la o dată anterioară adoptării și publicării în Monitorul Oficial), precum și art. 1 alin. (5) privind calitatea și claritatea legii (trimitere greșită la actul normativ de bază nerepublicat, numerotare contradictorie a articolelor și confuzie între nealocarea bugetară viitoare și interdicția utilizării soldurilor existente).",
-      "euLawNote": "Proiectul este neutru față de dreptul Uniunii Europene. Finanțarea partidelor politice naționale ține de competența internă a statelor membre, iar propunerea nu restrânge libertățile pieței unice, nu vizează profesii reglementate (Directiva 2018/958) și nu impune reglementări tehnice sau digitale notificabile conform Directivei (UE) 2015/1535 (TRIS).",
+      "blindSpotsCaught": "Dincolo de contradicția structurală „Articol unic” + „Articolul 2” și de citarea formei nerepublicate a Legii nr. 334/2006, există un decalaj între expunerea de motive (care vizează expres art. 18 alin. 1–3, privind subvențiile lunare) și norma operativă (care interzice generic „alocarea și utilizarea fondurilor de la bugetul de stat pentru finanțarea partidelor”). Această formulare extinsă poate genera litigii privind rezervele reportate din anii anteriori sau rambursările de campanie. În plus, expunerea de motive indică 230 mil. lei pentru 2025, dar estimează economii de 328 mil. lei/an (656 mil. lei în doi ani) din Anexa 3 a bugetului pe 2025, fără a explica diferența metodologică.",
+      "constitutionalityNote": "Textul prezintă riscuri majore de neconstituționalitate din perspectiva art. 15 alin. (2) și art. 78 din Constituție, întrucât o lege nu poate intra în vigoare la o dată anterioară publicării sale în Monitorul Oficial (1 ianuarie 2026). De asemenea, ambiguitatea expresiei „nu se utilizează”, includerea de texte declarative în corpul normativ și numerotarea contradictorie vulnerabilizează proiectul pe art. 1 alin. (5) privind calitatea și previzibilitatea legii. Pe fond, Constituția nu garantează expres subvenția publică pentru partide, astfel că ajustarea ei intră în marja de apreciere a Parlamentului (art. 61 alin. 1 și art. 138 alin. 2, invocate de inițiatoare), însă o oprire bruscă la zero, fără norme tranzitorii, ridică dezbateri privind pluralismul politic (art. 8), putând favoriza formațiunile cu rezerve anterioare și crește dependența de finanțatori privați.",
+      "euLawNote": "Reglementarea finanțării partidelor politice naționale ține de competența statelor membre (art. 4 alin. 2 TUE), astfel că proiectul nu ridică probleme de compatibilitate cu dreptul Uniunii Europene. Măsura nu intră în domeniul Directivei (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate), nici al Directivei (UE) 2015/1535 (TRIS, privind reglementări tehnice și servicii digitale) și nu afectează piața unică sau concurența comercială. Ca reper european non-UE, ghidurile Comisiei de la Veneția și Recomandarea Rec(2003)4 a Consiliului Europei semnalează însă că finanțarea publică are rolul de a limita captura politică de către interese private, iar modificările ei ar trebui să fie previzibile și proporționale.",
       "senatForm": {
-        "articleRef": "Articol unic (devenit Art. I) și Articolul 2",
-        "proposalContent": "Art. I. - Prin derogare de la art. 18 din Legea nr. 334/2006, republicată în M. Of. nr. 446/2015, cu modificările ulterioare, începând cu luna următoare intrării în vigoare a prezentei legi și până la 31 decembrie 2027, nu se mai alocă subvenții de la bugetul de stat pentru partidele politice. Art. II. - Sumele economisite se alocă la rectificare către Ministerul Sănătății.",
-        "argumentation": "Forma inițiatorului conține vicii grave de tehnică legislativă care ar duce la respingerea legii la CCR: 1) prevede intrarea în vigoare retroactivă la 1 ianuarie 2026 (încălcând art. 15 alin. 2 și art. 78 din Constituție); 2) numerotează „Articol unic” urmat de „Articolul 2”; 3) citează Monitorul Oficial din 2006 în locul republicării din 2015.",
-        "otherComments": "Eliminarea sintagmei ambigue „și nu se utilizează” evită viciul de neconstituționalitate privind blocarea retroactivă a sumelor deja încasate în anii anteriori, iar introducerea Art. II transformă promisiunea politică din expunerea de motive într-o normă juridică efectivă de redirecționare bugetară la prima rectificare."
-      }
+        "articleRef": "Articol unic și Articolul 2 (renumerotare)",
+        "proposalContent": "Art. 1. - Prin derogare de la art. 18 din Legea nr. 334/2006, republicată, cu modificările și completările ulterioare, alocarea subvențiilor lunare de la bugetul de stat se suspendă de la intrarea în vigoare a prezentei legi până la 31 decembrie 2027. Art. 2. - Prezenta lege intră în vigoare în termen de 30 de zile de la publicarea în Monitorul Oficial.",
+        "argumentation": "Forma inițiatorului încalcă art. 15 alin. (2) și art. 78 din Constituție, prevăzând intrarea retroactivă în vigoare la 1 ianuarie 2026. De asemenea, conține „Articol unic” urmat de „Articolul 2” (contrar Legii nr. 24/2000), citează forma nerepublicată a Legii nr. 334/2006 și folosește sintagma ambiguă „nu se utilizează”, ce poate bloca solduri anterioare.",
+        "otherComments": "Alin. (2) al articolului unic are caracter declarativ, fără efect juridic de redirecționare bugetară, și ar trebui eliminat sau înlocuit cu un mecanism bugetar concret la rectificare. Comisia poate evalua și oportunitatea unei reduceri graduale în locul suspendării totale, pentru a preveni riscurile de predictibilitate și dependență de finanțări private."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 145251,
+      "durationMs": 37823,
+      "sourceEndMarker": "SF-2690DDC9",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Partidele politice nu mai primesc bani de la buget în 2026 și 2027",
-      "verdictShort": "Ca opțiune bugetară, ideea e legitimă și populară, dar textul e scris neglijent. O lege care intră în vigoare «la 1 ianuarie 2026», votată după această dată, devine retroactivă și neconstituțională, iar promisiunea că banii ajung la spitale și școli nu apare deloc în text.",
-      "initiatorClaim": "Expunerea de motive spune că, într-o perioadă de austeritate, partidele trebuie să renunțe la subvențiile de la buget în 2026–2027, ca gest de solidaritate. Banii, estimați la circa 656 milioane lei pe doi ani, ar urma să fie redirecționați spre sănătate, educație și protecție socială.",
-      "realityCheck": "Legea are un singur efect juridic: prin derogare de la art. 18 din Legea nr. 334/2006, suspendă subvenția anuală de la bugetul de stat pentru partide. Nu conține niciun mecanism de redirecționare, așa că banii rămân necheltuiți în bugetul AEP sau sunt tăiați la rectificare. Data de intrare în vigoare (1 ianuarie 2026) a trecut deja. Formula «nu se alocă și nu se utilizează fonduri» e destul de largă încât să sugereze returnarea sumelor deja primite și să atingă, posibil, și rambursarea cheltuielilor de campanie. Efect secundar: partidele ar depinde exclusiv de cotizații și donații private, ceea ce avantajează formațiunile cu finanțatori bogați.",
+      "plainTitle": "Partidele nu mai primesc bani de la buget în 2026 și 2027",
+      "verdictShort": "Opțiunea de a tăia subvențiile partidelor este legitimă politic și chiar economisește bani publici. Dar textul are o problemă serioasă: se aplică din 1 ianuarie 2026, deși în noiembrie 2026 încă e la comisii, deci ar lucra retroactiv pe bani deja virați și cheltuiți.",
+      "initiatorClaim": "Inițiatoarea vrea ca partidele să facă un gest de solidaritate în plină criză bugetară, prin suspendarea subvențiilor pe doi ani. Banii economisiți, estimați la circa 656 milioane lei, ar urma să meargă spre sănătate, educație și protecție socială.",
+      "realityCheck": "Legea doar derogă de la art. 18 din Legea nr. 334/2006: în 2026 și 2027 nu se alocă și nu se folosesc bani de la bugetul de stat pentru partide. Redirecționarea spre programe sociale nu apare în text, ci doar în expunerea de motive, așa că sumele rămân pur și simplu necheltuite sau sunt realocate prin legea bugetului. Formula „nu se utilizează” și data de 1.01.2026 ridică problema banilor deja primiți legal în 2026: textul nu spune dacă trebuie returnați sau dacă subvenția se oprește doar pentru viitor.",
       "affectedGroups": [
-        "Toți cetățenii",
-        "Justiție & Drepturi Civile"
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articolul unic suspendă integral, pentru 2026 și 2027, subvenția de la bugetul de stat prevăzută de art. 18 din Legea nr. 334/2006. Sunt suspendate astfel și pragul minim legal de 0,01% din PIB și sporul pentru mandatele obținute de femei.",
-        "Art. 2 fixează intrarea în vigoare la 1 ianuarie 2026, dată deja trecută. Inițiativa a fost înregistrată la Senat abia pe 2 decembrie 2025 și e încă la comisii în Camera Deputaților. În forma actuală, legea ar fi retroactivă, contrar art. 15 alin. (2) și art. 78 din Constituție.",
-        "Redirecționarea banilor spre spitale, școli și categorii vulnerabile apare doar în Expunerea de motive. Textul legii nu modifică bugetul și nu stabilește nicio destinație, deci economia poate cel mult să reducă deficitul.",
-        "Formula «nu se alocă și nu se utilizează fonduri de la bugetul de stat pentru finanțarea partidelor politice» depășește derogarea anunțată, care vizează doar art. 18. Poate fi citită ca blocând și rambursarea cheltuielilor de campanie la eventuale alegeri parțiale.",
-        "Cifrele din expunere se contrazic: pentru 2025 indică circa 230 milioane lei (0,012% din PIB), dar economia de 656 milioane lei e calculată pe baza a 328 milioane lei pe an.",
-        "Tehnica legislativă e defectuoasă: textul are «Articol unic» urmat de «Articolul 2», iar al doilea paragraf al articolului unic este o motivare, nu o normă juridică."
+        "Art. 2 fixează intrarea în vigoare la 1 ianuarie 2026, o dată deja trecută. Dacă legea e adoptată la sfârșitul lui 2026, efectul pe 2026 devine retroactiv, ceea ce intră în conflict cu art. 15 alin. (2) din Constituție.",
+        "„Articolul unic” spune că „nu se alocă și nu se utilizează” fonduri de la buget. Interdicția de utilizare poate fi citită ca o blocare a sumelor primite legal înainte de intrarea în vigoare, care nu sunt cheltuite încă. Lipsește o normă tranzitorie.",
+        "Direcționarea banilor spre sănătate, educație și copii vulnerabili există doar în expunerea de motive. Textul normativ nu creează niciun mecanism de realocare, deci promisiunea socială nu are efect juridic.",
+        "Cifrele din expunerea de motive se contrazic: întâi circa 230 milioane lei în 2025 (0,012% din PIB), apoi 328 milioane lei pe an. Fundamentarea financiară e slabă.",
+        "Redactarea e defectuoasă: textul are un „Articol unic” urmat de un „Articolul 2”. Al doilea paragraf al articolului unic e o justificare, nu o normă, și nu-și are locul în dispozitiv (Legea nr. 24/2000)."
       ],
-      "blindSpotsCaught": "Expunerea de motive citează greșit Constituția: art. 138 alin. (2) privește elaborarea bugetului de către Guvern, nu alocarea resurselor pe priorități, iar sintagma «potrivit posibilităților» nu se regăsește în art. 56 alin. (1). Legea afectează execuția bugetului de stat, deci informarea Guvernului este obligatorie (art. 111 alin. (1)). Dacă legea e adoptată spre finalul lui 2026, majoritatea tranșelor pe acest an sunt deja plătite, iar efectul real se reduce practic la 2027.",
-      "constitutionalityNote": "Constituția nu obligă statul să subvenționeze partidele. Art. 8 alin. (2) și art. 40 garantează pluralismul și libertatea de asociere, nu o anumită finanțare, iar o suspendare temporară aplicată egal tuturor partidelor intră în marja de apreciere a legiuitorului. Încadrarea ca lege organică e corectă (art. 73 alin. (3) lit. c), finanțarea partidelor politice). Problema gravă este art. 2: o lege adoptată după 1 ianuarie 2026 nu poate intra în vigoare la acea dată. Art. 78 permite intrarea în vigoare doar la 3 zile de la publicare sau la o dată ulterioară, iar art. 15 alin. (2) interzice retroactivitatea, mai ales dacă «nu se utilizează» ar viza sume deja primite legal. Ambiguitatea privind rambursarea cheltuielilor de campanie încalcă, la rândul ei, cerința de claritate și previzibilitate (art. 1 alin. (5)).",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reglementări tehnice și nici reguli privind serviciile societății informaționale. Finanțarea partidelor naționale ține de competența statelor membre, partidele nu sunt întreprinderi, deci nu se pun probleme de ajutor de stat sau de piață unică. Finanțarea partidelor politice europene din bugetul UE nu este afectată. Singurul reper european relevant e soft law-ul Consiliului Europei (Recomandarea Rec(2003)4, rapoartele GRECO). Acesta recomandă sprijin public pentru partide, ca echilibru față de donațiile private și ca protecție împotriva capturării de către finanțatori.",
+      "blindSpotsCaught": "Măsura vizează doar subvenția anuală din art. 18 din Legea nr. 334/2006. Nu atinge rambursarea cheltuielilor de campanie (art. 48 și următoarele), care rămâne o sursă publică importantă de finanțare. Efectul real asupra banilor publici din politică e deci mai mic decât sugerează titlul. În plus, suspendarea favorizează partidele cu donatori privați mari și cu multe cotizații, în dauna celor mici sau noi. Acestea depind mai mult de subvenție, iar asta poate afecta pluralismul.",
+      "constitutionalityNote": "Parlamentul poate modifica sau suspenda prin lege subvențiile, care nu sunt un drept constituțional al partidelor, iar măsura e temporară și se aplică tuturor partidelor la fel. Problemele reale sunt trei. Prima e retroactivitatea: aplicarea pe 2026, an aproape încheiat, încalcă art. 15 alin. (2) și principiul securității juridice din art. 1 alin. (5). A doua ține de procedură: fiind o propunere care afectează bugetul aprobat, e obligatorie solicitarea punctului de vedere al Guvernului (art. 111 alin. (1)). A treia ține de pluralism: art. 8 cere ca măsura să nu-i dezavantajeze disproporționat pe concurenții politici mici. Ca durată și scop, testul de proporționalitate e probabil trecut.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că nu sunt reglementate profesii. Nici TRIS 2015/1535 nu se aplică, pentru că nu sunt vizate servicii ale societății informaționale. Finanțarea partidelor naționale ține de competența statelor membre și nu afectează piața unică sau concurența economică. Ghidurile Comisiei de la Veneția recomandă o finanțare publică echilibrată a partidelor pentru a limita dependența de donatori privați. Acestea sunt soft law, nu obligații UE.",
       "senatForm": {
-        "articleRef": "Articolul unic și Articolul 2",
-        "proposalContent": "Art. 1: «Prin derogare de la art. 18 din Legea nr. 334/2006, de la intrarea în vigoare a prezentei legi până la 31 decembrie 2027 nu se acordă partidelor politice subvențiile prevăzute la acest articol.» Art. 2: «Legea intră în vigoare la 3 zile de la publicarea în Monitorul Oficial. Sumele acordate legal anterior nu se restituie.»",
-        "argumentation": "Data de 1 ianuarie 2026 a trecut: o lege publicată acum ar produce efecte retroactive, interzise de art. 15 alin. (2) și art. 78 din Constituție, și ar putea cere restituirea sumelor deja plătite. Formula «nu se alocă și nu se utilizează fonduri» e prea largă și poate atinge și rambursarea cheltuielilor de campanie, deși derogarea vizează doar art. 18.",
-        "otherComments": "Textul numerotează «Articol unic» și apoi «Articolul 2»; trebuie renumerotat (Legea nr. 24/2000). Redirecționarea către sănătate și educație apare doar în expunere, nu în lege: banii rămân în buget fără destinație. Cifrele din expunere nu se potrivesc (230 vs. 328 milioane lei/an). Măsura elimină și sporul legal pentru partidele cu femei alese."
-      }
+        "articleRef": "Art. 2 (intrarea în vigoare) și Articolul unic",
+        "proposalContent": "Art. 2: «Prezenta lege intră în vigoare la 3 zile de la publicarea în Monitorul Oficial și se aplică subvențiilor aferente lunilor ulterioare intrării în vigoare, până la 31 decembrie 2027. Sumele virate legal înainte de intrarea în vigoare rămân dobândite.» Renumerotarea «Articol unic» ca art. 1.",
+        "argumentation": "Data de 1.01.2026 a trecut, iar proiectul e încă la comisii. Aplicarea pe 2026 ar retrage retroactiv sume deja virate și cheltuite, contrar art. 15 alin. (2) din Constituție, și ar face legea imprevizibilă (art. 1 alin. 5). Formula propusă păstrează scopul economisirii și evită o probabilă neconstituționalitate.",
+        "otherComments": "Redirecționarea spre sănătate și educație apare doar în expunerea de motive, nu în text. Dacă se dorește, trebuie prevăzută expres sau prin legea bugetului. Cifrele din EM sunt contradictorii (230 vs 328 mil. lei/an). E necesar punctul de vedere al Guvernului (art. 111 Constituție)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 175491,
+      "durationMs": 86821,
+      "sourceEndMarker": "SF-2690DDC9",
       "riskScore": 5,
       "riskLevel": "yellow",
       "plainTitle": "Oprirea subvențiilor pentru partide în 2026 și 2027",
-      "verdictShort": "Reducerea cheltuielilor cu partidele poate produce economii, fără taxe sau birocrație nouă pentru cetățeni. Proiectul necesită însă corectarea datei retroactive, clarificarea fondurilor vizate și un mecanism concret pentru finanțarea programelor sociale promise.",
-      "initiatorClaim": "Inițiatoarea propune suspendarea subvențiilor ca măsură de solidaritate în contextul consolidării fiscale. Susține că economiile vor sprijini sănătatea, educația și persoanele vulnerabile, estimând un total de 656 milioane lei pentru doi ani.",
-      "realityCheck": "Articolul unic interzice alocarea și utilizarea fondurilor bugetare pentru finanțarea partidelor în 2026–2027, prin derogare de la art. 18 din Legea nr. 334/2006. Nu stabilește beneficiari, sume, termene sau operațiuni bugetare pentru transferarea economiilor către programe sociale. Formula privind utilizarea fondurilor poate genera interpretări divergente asupra subvențiilor deja încasate, iar eliminarea finanțării publice poate spori dependența de donatori privați; acesta este un risc posibil, nu un efect demonstrat.",
+      "verdictShort": "Economisirea banilor publici este un obiectiv legitim, dar proiectul are probleme juridice importante: stabilește o intrare în vigoare în trecut și formulează prea larg interdicția de finanțare. Banii economisiți nu sunt alocați efectiv sănătății sau educației prin această lege.",
+      "initiatorClaim": "Inițiatoarea propune suspendarea temporară a subvențiilor pentru partide, ca măsură de solidaritate și consolidare fiscală. Susține că economiile ar putea finanța sănătatea, educația și protecția persoanelor vulnerabile.",
+      "realityCheck": "Articolul unic interzice alocarea și utilizarea fondurilor bugetare pentru finanțarea partidelor în exercițiile 2026 și 2027, prin derogare de la art. 18 din Legea nr. 334/2006. Formularea depășește terminologic subvențiile și lasă neclar tratamentul rambursărilor electorale, al sumelor deja primite și al drepturilor aferente perioadei anterioare intrării în vigoare. Referirea la domenii sociale exprimă justificarea măsurii, fără să stabilească alocări, beneficiari sau un mecanism bugetar de redirecționare.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 2 fixează intrarea în vigoare la 1 ianuarie 2026, deși proiectul este încă în procedură parlamentară. Data trebuie înlocuită cu una conformă art. 78, cu protejarea situațiilor juridice anterioare potrivit art. 15 alin. (2). [Constituția](https://legislatie.just.ro/Public/DetaliiDocument/47355)",
-        "Articolul unic invocă sănătatea, educația și protecția socială numai ca justificare. Consiliul Legislativ califică acest alineat drept declarativ și recomandă eliminarea lui; nu există o obligație operativă de redirecționare a economiilor. [Avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2025/25L536LG.PDF?nocache=true)",
-        "Interdicția generală de finanțare este mai largă decât trimiterea exclusivă la art. 18 privind subvențiile. Trebuie precizat dacă afectează soldurile din anii anteriori și trebuie delimitată de rambursarea cheltuielilor electorale, fără a prezuma că aceasta este automat suspendată.",
-        "Expunerea indică atât aproximativ 230 milioane lei pentru 2025, cât și economii de 328 milioane lei anual, fără o reconciliere verificabilă în materialul furnizat. Economiile depind de alocările efective și de momentul aplicării; aceeași sumă nu poate fi contabilizată integral și ca reducere a deficitului, și ca cheltuială socială suplimentară.",
-        "Proiectul nu introduce taxe, autorizații, raportări sau sancțiuni pentru cetățeni ori IMM-uri. Pot exista efecte comerciale indirecte pentru furnizorii partidelor, prin reducerea comenzilor, fără ca textul să instituie monopoluri sau bariere de acces pe piață.",
-        "Redactarea combină «Articol unic» cu «Articolul 2» și identifică greșit publicarea legii de bază. Consiliul Legislativ solicită numerotarea coerentă și trimiterea la republicarea în Monitorul Oficial nr. 446 din 23 iunie 2015. [Avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2025/25L536LG.PDF?nocache=true)"
+        "Art. 2 fixează intrarea în vigoare la 1 ianuarie 2026. Dacă legea este publicată ulterior acestei date, nu poate produce retroactiv efectele propuse; trebuie stabilită o intrare în vigoare conformă art. 78 din Constituție.",
+        "Articolul unic derogă de la art. 18, dar interzice generic finanțarea partidelor din bugetul de stat. Sunt necesare delimitarea expresă la subvenții și reguli pentru plățile restante, soldurile existente și rambursările electorale.",
+        "Niciun articol nu transferă economiile către spitale, școli sau protecție socială. Pentru aceste cheltuieli sunt necesare alocări bugetare distincte; destinația socială nu este garantată de proiect.",
+        "Suspendarea integrală pentru doi ani poate afecta diferit partidele în funcție de patrimoniu și accesul la donații. Avantajarea celor cu resurse private consistente este un risc de evaluat, nu un efect demonstrat prin documentele furnizate.",
+        "Expunerea menționează aproximativ 230 milioane lei pentru 2025 și economii de 328 milioane lei anual pentru 2026–2027, fără să explice diferența dintre bazele de calcul. Economia de 656 milioane lei nu poate fi confirmată din textul furnizat.",
+        "Expunerea atribuie greșit conținut Constituției: art. 138 alin. (2) privește elaborarea și aprobarea bugetelor, iar art. 56 alin. (1) nu conține formula «potrivit posibilităților». Aceste justificări nu înlocuiesc evaluarea impactului.",
+        "Proiectul nu introduce taxe, sancțiuni sau obligații administrative pentru cetățeni ori IMM-uri. Numerotarea «Articol unic», urmată de «Articolul 2», trebuie corectată, dar această eroare nu justifică singură un scor ridicat."
       ],
-      "blindSpotsCaught": "Expunerea atribuie greșit art. 138 alin. (2) o regulă despre prioritățile alocării resurselor; articolul privește elaborarea bugetelor de către Guvern și aprobarea parlamentară. Nici expresia «potrivit posibilităților» nu apare în art. 56 alin. (1). Aceste justificări trebuie corectate. [Constituția](https://legislatie.just.ro/Public/DetaliiDocument/47355) Procedural, Senatul a respins propunerea la 16 februarie 2026, dar Camera Deputaților poate decide în continuare asupra ei; respingerea primei Camere nu închide procedura. [Fișa proiectului](https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22667)",
-      "constitutionalityNote": "Suspendarea subvențiilor nu este, în sine, interzisă constituțional; Constituția nu garantează un cuantum al finanțării publice. Eliminarea integrală trebuie însă justificată prin raportare la pluralism și funcționarea partidelor, protejate de art. 8 și 40. Ambiguitățile afectează exigențele art. 1 alin. (5), iar data trecută contravine art. 78 și, dacă produce efecte retroactive, art. 15 alin. (2). Art. 23 alin. (12) nu este incident: proiectul nu instituie pedepse. Informarea Guvernului este obligatorie conform art. 111 alin. (1); dosarul consemnează un punct de vedere, deci nu poate fi presupusă omisiunea procedurii. [Constituția](https://legislatie.just.ro/Public/DetaliiDocument/47355), [Dosarul legislativ](https://www.senat.ro/legis/lista.aspx?an_cls=2025&nr_cls=L536)",
-      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile asupra accesului la profesii reglementate sau exercitării acestora; nu impune aici testul său specific de proporționalitate. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng) Proiectul nu conține reglementări tehnice privind produse ori servicii ale societății informaționale și nu reglementează servicii digitale sau AI, astfel că nu rezultă obligația notificării TRIS. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535) Nu se identifică restricții directe asupra pieței unice; problema concurenței privește în principal competiția politică și diferențele de acces la finanțare privată.",
+      "blindSpotsCaught": "Problema principală este combinația dintre data deja trecută din art. 2 și lipsa dispozițiilor tranzitorii: proiectul nu distinge finanțarea viitoare de operațiunile și drepturile anterioare. Nu dispune expres recuperarea sumelor deja plătite, iar o asemenea obligație nu trebuie inventată prin interpretare. În plus, expunerea descrie suspendarea art. 18 alin. (1)–(3), însă articolul normativ derogă de la art. 18 în ansamblu și folosește o interdicție mai largă.",
+      "constitutionalityNote": "Există un risc serios privind art. 15 alin. (2), dacă măsura este aplicată perioadei anterioare intrării în vigoare, și art. 78, deoarece data fixată nu poate înlocui regulile constituționale de intrare în vigoare. Ambiguitățile privind întinderea interdicției și situațiile anterioare ridică probleme de previzibilitate potrivit art. 1 alin. (5). Constituția nu garantează un cuantum determinat al subvențiilor, dar efectele suspendării integrale asupra pluralismului și funcționării partidelor trebuie evaluate în raport cu art. 8 și art. 40. Finanțarea partidelor aparține domeniului legii organice, potrivit art. 73 alin. (3) lit. b); formula de adoptare prin art. 76 alin. (1) este corespunzătoare. Trebuie verificată solicitarea informării Guvernului cerută de art. 111 alin. (1) pentru modificări ale prevederilor bugetare; documentele furnizate nu stabilesc dacă aceasta există. Art. 23 alin. (12) nu este incident, deoarece proiectul nu instituie pedepse.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testul de proporționalitate pentru reglementarea profesiilor și nu se aplică finanțării partidelor politice. Directiva (UE) 2015/1535 privind notificarea reglementărilor tehnice nu este incidentă: proiectul nu stabilește cerințe pentru produse sau servicii ale societății informaționale, inclusiv AI. Nu rezultă restricții directe asupra concurenței comerciale ori pieței unice; problema concurenței dintre partide trebuie analizată distinct, prin prisma pluralismului politic.",
       "senatForm": {
-        "articleRef": "Articolul 2",
-        "proposalContent": "Prezenta lege intră în vigoare la 3 zile de la publicarea în Monitorul Oficial al României, Partea I, și se aplică până la 31 decembrie 2027, exclusiv pentru viitor. Subvențiile legal cuvenite pentru perioadele anterioare intrării în vigoare rămân datorate, iar plățile legal efectuate nu sunt afectate.",
-        "argumentation": "Data de 1 ianuarie 2026 este depășită. Art. 78 și art. 15 alin. (2) din Constituție impun intrarea în vigoare după publicare și aplicarea pentru viitor. Norma tranzitorie protejează creanțele deja născute și previne interpretarea suspendării ca recuperare retroactivă a subvențiilor legal plătite.",
-        "otherComments": "Corelați art. 1 cu noul interval; precizați regimul soldurilor anterioare și al rambursărilor electorale. Redirecționarea socială cere un mecanism bugetar distinct. Termenul de amendamente, 05.03.2026, este depășit; mesajul cetățeanului este o propunere pentru comisie, care poate fi preluată de un deputat potrivit procedurii parlamentare."
-      }
+        "articleRef": "Articolul unic și articolul 2",
+        "proposalContent": "Art. 1. Prin derogare de la art. 18 din Legea nr. 334/2006, alocarea și plata subvențiilor se suspendă de la intrarea în vigoare până la 31 decembrie 2027. Drepturile aferente perioadei anterioare și rambursările electorale nu sunt afectate. Art. 2. Legea intră în vigoare la 3 zile de la publicarea în Monitorul Oficial.",
+        "argumentation": "Aplicarea numai pentru viitor respectă art. 15 alin. (2) și art. 78 din Constituție. Delimitarea la subvenții evită extinderea interdicției asupra rambursărilor electorale și protejează drepturile deja născute. Numerotarea devine coerentă. Efectele asupra pluralismului trebuie motivate prin date.",
+        "otherComments": "Destinațiile sociale necesită alocări bugetare distincte. Termenul indicat, 05.03.2026, este depășit; posibilitatea preluării amendamentului trebuie verificată la comisie. Analiza folosește documentele furnizate; verificarea externă a stadiului și a legislației consolidate nu a fost disponibilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T06:51:12.850Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 4,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:31:14.328Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

@@ -2,121 +2,175 @@
   "billId": "PL-x 418/2025",
   "slug": "plx-418-2025",
   "version": "senat",
-  "updatedAt": "2026-11-10T14:20:30.507Z",
+  "updatedAt": "2026-11-24T15:36:29.234Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 1925,
+    "ordinanceChars": 0,
+    "memoChars": 5009,
+    "memoSupplied": 5009,
+    "marker": "SF-AACF77D4"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-418-2025.json",
+    "form": "senat",
+    "textHash": "aacf77d41add801a",
+    "fetchedAt": "2026-11-19T10:47:46.841Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1182,
+    "truncated": false,
+    "included": true,
+    "key": "08c4146557d9e713"
+  },
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 2.7,
     "riskLevel": "green",
-    "plainTitle": "Panouri solare și baterii pentru spitalele județene și regionale, ca să nu rămână fără curent în crize",
-    "summaryTlDr": "Lege cu scop util și fără sancțiuni, dar redactată neglijent. Alin.(1) spune că spitalele «pot» investi, alin.(3) spune că «trebuie» să funcționeze autonom, iar banii sunt doar promiși declarativ. Riscul nu e un abuz, ci o obligație neclară, greu de îndeplinit și nefinanțată.",
-    "initiatorClaim": "Inițiatorii USR vor ca spitalele județene și regionale, considerate infrastructură critică, să poată funcționa fără rețeaua națională în crize (război, dezastre), folosind energie solară și baterii. Ei susțin că măsura ar fi finanțată din fonduri europene, fără costuri pentru buget.",
-    "realityCheck": "Art.6¹ alin.(1) oferă doar o posibilitate («pot»), iar alin.(2) dă prioritate fotovoltaicului. Alin.(3) impune însă unităților «prevăzute de alin.(1)» obligația de a asigura continuitatea autonomă a alimentării în stări excepționale, fără să precizeze durata, puterea sau consumatorii acoperiți. Ipoteza de declanșare vizează doar «rețeaua publică de transport», deși spitalele sunt racordate la rețeaua de distribuție, iar alin.(4) privind finanțarea nu alocă niciun ban concret.",
+    "plainTitle": "Spitalele județene și regionale pot avea panouri solare și baterii proprii pentru situații de criză",
+    "summaryTlDr": "Lege benignă, mai mult declarativă: le permite spitalelor mari ceva ce pot face deja și nu creează taxe, monopoluri sau sancțiuni. Problema reală e de redactare: alin.(3) impune o obligație absolută care nu se împacă cu caracterul facultativ al alin.(1).",
+    "initiatorClaim": "Inițiatorii USR vor ca spitalele județene și regionale, considerate infrastructură critică, să funcționeze fără întrerupere în crize energetice sau de securitate, prin producție și stocare proprie de energie regenerabilă (în special solară), finanțate mai ales din fonduri europene.",
+    "realityCheck": "Art. 6¹ alin.(1) doar permite («pot să») autoconsumul din surse regenerabile, lucru deja posibil prin regimul de prosumator din Legea nr. 123/2012. Totuși, alin.(3) spune că aceleași unități «trebuie să asigure» alimentarea autonomă din surse regenerabile și baterii în stări excepționale, inclusiv cele care nu au instalat nimic, deci o obligație imposibil de îndeplinit pentru acestea. Finanțarea e enumerată generic (fonduri UE, buget de stat, alte surse), fără alocare și fără fișă financiară, iar detaliile sunt lăsate integral normelor Guvernului, de adoptat în 6 luni.",
     "affectedGroups": [
       "Sănătate & Educație",
-      "Agricultură & Mediu",
-      "Toți cetățenii"
+      "Toți cetățenii",
+      "Agricultură & Mediu"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct.1 – art.6¹ alin.(3)",
-      "proposalContent": "(3) În stare de urgență, alertă, asediu sau forță majoră care împiedică alimentarea din rețeaua electrică de transport sau de distribuție, unitățile sanitare prevăzute la alin.(1) care dețin sisteme proprii asigură prin acestea și prin surse de rezervă alimentarea consumatorilor critici (ATI, blocuri operatorii, UPU), conform normelor metodologice.",
-      "argumentation": "Textul adoptat vizează doar rețeaua de transport, deși spitalele sunt racordate la rețeaua de distribuție (Legea 123/2012), deci ipoteza s-ar declanșa rar. Alin.(1) spune «pot», iar alin.(3) «trebuie», ceea ce creează o obligație neclară și nefinanțată. Limitarea la consumatorii critici face obligația realistă și previzibilă (art.1 alin.5 din Constituție).",
-      "otherComments": "Corectați «organize» și virgula de la finalul alin.(1). Pct.2 nu modifică Legea 121/2014 și trebuie redat ca art.II, cu trimitere la art.6¹. Definiți spitalele regionale prin raportare la Legea 95/2006. Solicitați fișa financiară (art.15 din Legea 500/2002), deoarece schema UE invocată a expirat în 2025."
+      "articleRef": "Art. unic pct. 1 – art. 6¹ alin. (1) și (3)",
+      "proposalContent": "Alin.(3) devine: «În starea de urgență, alertă sau asediu ori în caz de forță majoră care întrerupe alimentarea din rețeaua electrică de interes public, unitățile sanitare care dețin sisteme potrivit alin.(1) le folosesc, împreună cu sistemele de rezervă, pentru alimentarea consumatorilor critici.»",
+      "argumentation": "Alin.(1) e facultativ («pot»), dar alin.(3) impune o obligație absolută («trebuie să asigure») inclusiv spitalelor fără panouri și baterii, iar contradicția încalcă previzibilitatea (art.1 alin.5 Constituție). Întreruperile apar mai des în rețeaua de distribuție, nu doar în cea de transport, deci declanșatorul actual e prea îngust.",
+      "otherComments": "Corectură: «organize» → «organizate». Normele (pct.2) să precizeze ce înseamnă «unități sanitare publice organizate la nivel județean și regional», cerințele tehnice de funcționare insularizată și corelarea cu EPBD 2024/1275 (instalații solare pe clădiri publice). E necesară fișa financiară (art.15 L.500/2002)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 62776,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 58300,
+      "sourceEndMarker": "SF-AACF77D4",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Panouri solare și baterii de stocare a energiei pentru spitalele județene și regionale",
-      "verdictShort": "O inițiativă pozitivă și inofensivă pentru cetățeni, care încurajează autonomia energetică a marilor spitale, dar suferă de erori de redactare: transformă o opțiune într-o obligație imposibilă la avarie și confundă rețeaua de transport cu cea de distribuție.",
-      "initiatorClaim": "Inițiatorii vor ca spitalele județene și regionale să își producă și să își stocheze propria energie verde (în special solară), folosind fonduri europene, pentru a reduce costurile și a funcționa neîntrerupt în caz de criză sau pană de curent.",
-      "realityCheck": "În realitate, spitalele pot deja instala panouri fotovoltaice fără această lege. Textul adoptat tacit de Senat conține o contradicție: la alin. (1) instalarea panourilor și a bateriilor este facultativă („pot”), dar la alin. (3) devine brusc obligatorie alimentarea din baterii în caz de avarie („trebuie”), fără termene de implementare sau buget garantat.",
+      "plainTitle": "Panouri solare și baterii pentru spitalele județene și regionale",
+      "verdictShort": "O inițiativă benignă și utilă pentru reziliența energetică a spitalelor publice, fără capcane sau sarcini noi pentru cetățeni și IMM-uri. Totuși, adoptarea tacită la Senat a lăsat în text contradicții juridice și scăpări tehnice care o pot face greu aplicabilă fără amendamente în Camera Deputaților.",
+      "initiatorClaim": "Inițiatorii susțin că proiectul asigură autonomia energetică a spitalelor publice județene și regionale prin surse regenerabile și stocare, protejând actul medical în situații de criză sau conflict, fără impact negativ asupra bugetului de stat, prin accesarea fondurilor europene.",
+      "realityCheck": "Legea introduce un singur articol nou (art. 6^1) în Legea nr. 121/2014, dar creează o contradicție directă: alin. (1) le dă spitalelor doar opțiunea („pot”) de a-și instala surse regenerabile cu stocare, în timp ce alin. (3) le impune obligația fermă („trebuie”) de a asigura continuitatea autonomă din regenerabile și baterii în stări de urgență, alertă, asediu sau forță majoră, fără termen de conformare, fără sancțiuni și fără garanții bugetare. În plus, textul vizează greșit doar avariile din rețeaua de transport, ignorând rețeaua de distribuție la care sunt racordate spitalele.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Contradicție internă la Art. 6^1: alin. (1) stabilește o posibilitate („pot să își asigure”), dar alin. (3) instituie o obligație imperativă („trebuie să asigure”) pentru aceleași spitale de a funcționa autonom pe surse regenerabile și baterii în crize, fără termen de implementare și fără a defini durata minimă de autonomie.",
+        "Eroare tehnică la Art. 6^1 alin. (3): obligația de autonomie se declanșează doar când este imposibilă furnizarea din „rețeaua publică de transport a energiei electrice” (înaltă tensiune), omițând „rețeaua publică de distribuție”, unde apar majoritatea avariilor care afectează spitalele.",
+        "Viciu de tehnică legislativă la Articol unic pct. 2: termenul de 6 luni pentru adoptarea normelor metodologice prin HG este inserat greșit ca punct de completare al Legii nr. 121/2014, în loc de articol distinct (Art. II), pe lângă erori de redactare („organize” în loc de „organizate”, virgulă la finalul alin. 1).",
+        "Neconcordanță financiară: Art. 6^1 alin. (4) menționează explicit „bugetul de stat” ca sursă de finanțare, contrazicând afirmația din Expunerea de motive privind lipsa impactului bugetar; în plus, schema europeană de 3 miliarde euro invocată în motivare era valabilă doar până la finalul anului 2025."
+      ],
+      "blindSpotsCaught": "Proiectul a trecut tacit de Senat (art. 75 alin. 2 teza a III-a), motiv pentru care nimeni nu a corectat erorile vizibile. Pe lângă confuzia tehnică între rețeaua de transport și cea de distribuție și plasarea greșită a dispoziției privind normele metodologice la pct. 2 al Articolului unic, formula „unități sanitare publice organizate la nivel județean și regional” riscă să lase pe dinafară mari spitale clinice de urgență și institute naționale (de ex. din București) care nu au statut formal județean sau regional.",
+      "constitutionalityNote": "Proiectul prezintă vulnerabilități reale față de Art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii), din cauza contradicției „pot” (alin. 1) vs. „trebuie” (alin. 3), a absenței unui termen de conformare și a încălcării normelor de tehnică legislativă (Legea nr. 24/2000). De asemenea, poate ridica probleme pe Art. 138 alin. (5) din Constituție, deoarece alin. (4) indică „bugetul de stat” pentru o obligație nouă fără a fi însoțit de o fișă financiară reală, bazându-se în Expunerea de motive pe o schemă europeană expirată la finalul anului 2025.",
+      "euLawNote": "Nu sunt incidente Directiva (UE) 2018/958 (nu reglementează profesii) și nici Directiva (UE) 2015/1535 / TRIS (nu impune reglementări tehnice produselor sau serviciilor societății informaționale). Obiectivul este aliniat cu politicile UE privind eficiența energetică (Directiva (UE) 2023/1791), autoconsumul din regenerabile (RED III - Directiva (UE) 2023/2413) și reziliența entităților critice (Directiva (UE) 2022/2557). Achiziția sistemelor fotovoltaice și de stocare va trebui să respecte normele UE privind achizițiile publice, iar o eventuală injectare comercială a surplusului în rețea va trebui corelată cu regulile privind ajutorul de stat.",
+      "senatForm": {
+        "articleRef": "Articol unic (Art. 6^1 alin. 1, 3 și pct. 2)",
+        "proposalContent": "La Art. 6^1 alin. (1) se corectează „organizate” și punctul final; la alin. (3) se introduce „rețeaua publică de transport sau distribuție” și se corelează caracterul opțional din alin. (1) cu un termen concret de conformare și prag minim de autonomie; pct. 2 devine Art. II distinct.",
+        "argumentation": "Alin. (1) prevede o facultate („pot”), dar alin. (3) impune o obligație („trebuie”) fără termen, încălcând Art. 1 alin. (5) din Constituție. Spitalele sunt racordate la rețeaua de distribuție, nu doar de transport. Totodată, normele metodologice de la pct. 2 nu pot face parte din textul Legii 121/2014 (Legea 24/2000).",
+        "otherComments": "Proiectul a trecut tacit de Senat fără corecții. Solicitați fișa financiară conform Art. 138 alin. (5) din Constituție (alin. 4 trimite la bugetul de stat, iar schema UE de 3 mld. euro invocată în expunerea de motive expira la finalul lui 2025) și includeți explicit spitalele clinice și institutele naționale."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 45152,
+      "sourceEndMarker": "SF-AACF77D4",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Spitalele județene și regionale pot avea panouri solare și baterii proprii pentru situații de criză",
+      "verdictShort": "Lege benignă, mai mult declarativă: le permite spitalelor mari ceva ce pot face deja și nu creează taxe, monopoluri sau sancțiuni. Problema reală e de redactare: alin.(3) impune o obligație absolută care nu se împacă cu caracterul facultativ al alin.(1).",
+      "initiatorClaim": "Inițiatorii USR vor ca spitalele județene și regionale, considerate infrastructură critică, să funcționeze fără întrerupere în crize energetice sau de securitate, prin producție și stocare proprie de energie regenerabilă (în special solară), finanțate mai ales din fonduri europene.",
+      "realityCheck": "Art. 6¹ alin.(1) doar permite («pot să») autoconsumul din surse regenerabile, lucru deja posibil prin regimul de prosumator din Legea nr. 123/2012. Totuși, alin.(3) spune că aceleași unități «trebuie să asigure» alimentarea autonomă din surse regenerabile și baterii în stări excepționale, inclusiv cele care nu au instalat nimic, deci o obligație imposibil de îndeplinit pentru acestea. Finanțarea e enumerată generic (fonduri UE, buget de stat, alte surse), fără alocare și fără fișă financiară, iar detaliile sunt lăsate integral normelor Guvernului, de adoptat în 6 luni.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Agricultură & Mediu"
       ],
       "keyFindings": [
-        "Contradicție normativă la Art. 6¹: alin. (1) prevede doar o posibilitate („pot să își asigure”) de a instala sisteme regenerabile și stocare, în timp ce alin. (3) impune o obligație („trebuie să asigure”) de a folosi energie din baterii în caz de forță majoră, chiar și pentru spitalele care nu au făcut investiția.",
-        "Eroare tehnică la Art. 6¹ alin. (3): textul se referă la întreruperea curentului din „rețeaua publică de transport a energiei electrice”, deși spitalele sunt racordate la rețelele electrice de distribuție (sau, generic, la Sistemul Electroenergetic Național).",
-        "Erori materiale în forma trecută tacit de Senat: la Art. 6¹ alin. (1) apare cuvântul „organize” în loc de „organizate”, iar alineatul se încheie cu virgulă în loc de punct."
+        "Art. 6¹ alin.(1) și (3) se contrazic: întâi facultativ («pot să își asigure»), apoi imperativ («trebuie să asigure continuitatea autonomă... produsă prin surse regenerabile și stocată în baterii»), fără termen și fără să condiționeze obligația de existența instalațiilor.",
+        "Art. 6¹ alin.(3) se declanșează doar la imposibilitatea furnizării din «rețeaua publică de transport». Spitalele sunt racordate de regulă la rețeaua de distribuție, unde apar cele mai multe întreruperi, așa că formularea e tehnic imprecisă și restrânge aplicarea.",
+        "Noțiunea «unități sanitare publice organizate la nivel județean și regional» nu e definită și nu e corelată cu clasificarea spitalelor din Legea nr. 95/2006. Mai apare și greșeala «organize» în alin.(1).",
+        "Art. 6¹ alin.(4) enumeră surse de finanțare fără să aloce bani. Expunerea de motive afirmă lipsa impactului bugetar, dar nu există fișă financiară (art. 15 din Legea nr. 500/2002), deși alin.(3), luat literal, ar cere investiții în stocare.",
+        "Pct. 2 (norme metodologice în 6 luni) e inserat ca punct al completării, deși e o dispoziție autonomă, care ar trebui să fie art. II. E o problemă de tehnică legislativă, nu de fond."
       ],
-      "blindSpotsCaught": "Pe lângă confuzia tehnică dintre rețeaua de transport de înaltă tensiune (Transelectrica) și rețeaua de distribuție la care sunt racordate spitalele, textul ignoră faptul că unitățile sanitare cu paturi au deja obligații stricte privind grupurile electrogene de rezervă (normativele IGSU și ANRE), iar bateriile încărcate fotovoltaic nu pot garanta singure autonomia unui spital județean în timpul unei pene de curent prelungite iarna.",
-      "constitutionalityNote": "Deși scopul legii este legitim și benefic pentru sănătatea publică (Art. 34 din Constituție), contradicția dintre caracterul facultativ al investiției la alin. (1) și obligația de rezultat de la alin. (3) afectează claritatea și previzibilitatea normei (Art. 1 alin. (5) din Constituție).",
-      "euLawNote": "Proiectul nu încalcă Directiva (UE) 2018/958 privind testul de proporționalitate și nu necesită notificare TRIS conform Directivei (UE) 2015/1535. Din contră, măsura este aliniată cu obiectivele Directivei (UE) 2023/1791 privind eficiența energetică (rolul exemplar al clădirilor publice) și ale Directivei RED III privind instalarea energiei solare pe clădirile publice.",
+      "blindSpotsCaught": "Invertoarele fotovoltaice obișnuite se deconectează automat când cade rețeaua (protecție anti-insularizare), deci panourile de pe acoperiș nu ajută singure într-o pană de curent. Pentru scopul declarat sunt necesare sisteme hibride cu funcționare insularizată și baterii, mult mai scumpe, iar legea nu spune nimic despre asta. Apoi, spitalele au deja obligații de surse de rezervă (grupuri electrogene) conform normativelor tehnice și reglementărilor Ministerului Sănătății, iar alin.(3) le menționează doar vag («și prin sisteme de rezervă»). Mai e și alegerea Legii nr. 121/2014 (eficiență energetică) ca vehicul: autoconsumul din surse regenerabile ține mai degrabă de Legea nr. 220/2008 și de Legea nr. 123/2012. În sfârșit, Senatul a adoptat proiectul tacit (art. 75 alin.(2) Constituție), deci fără dezbatere de fond acolo.",
+      "constitutionalityNote": "Nu atinge drepturi fundamentale și nu impune sarcini cetățenilor. Riscul ține de art. 1 alin.(5) (calitatea legii): contradicția dintre alin.(1) facultativ și alin.(3) imperativ, termenii nedefiniți și referirea greșită la rețeaua de transport afectează claritatea și previzibilitatea. Pe art. 138 alin.(5) și art. 111 alin.(1), o obligație care poate genera cheltuieli fără sursă concretă și fără informarea Guvernului poate fi contestată. Însă formularea facultativă a finanțării (fonduri UE, «alte surse legale») reduce riscul. Delegarea normelor către Guvern prin HG (art. 108) e în regulă.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă nu reglementează accesul la profesii. Nici TRIS (2015/1535) nu se aplică textului legii, care nu conține specificații tehnice sau servicii digitale. Dacă normele metodologice vor impune cerințe tehnice obligatorii pentru echipamente (invertoare, baterii), ar putea fi necesară notificarea. Proiectul e aliniat cu Directiva (UE) 2018/2001 (RED, modificată prin 2023/2413), care susține autoconsumul, și cu Directiva (UE) 2024/1275 (EPBD reformată), care impune treptat instalații solare pe clădirile publice. Normele ar trebui corelate cu calendarul EPBD. Concurența nu e afectată: achizițiile rămân supuse Legii nr. 98/2016, fără producători sau furnizori privilegiați. Finanțarea unor spitale publice pentru activitatea medicală nu ridică în principiu probleme de ajutor de stat.",
       "senatForm": {
-        "articleRef": "Articol unic pct. 1 - Art. 6¹ alin. (1) și (3)",
-        "proposalContent": "(1) Unitățile sanitare publice organizate la nivel județean și regional își asigură etapizat, în limita fondurilor alocate, energie pentru autoconsum din surse regenerabile și stocare. (3) În caz de avarie în rețeaua de distribuție, continuitatea alimentării se asigură prin sistemele de rezervă și, în completare, prin energia stocată în baterii.",
-        "argumentation": "Elimină contradicția dintre alin. (1), unde investiția în panouri și baterii este opțională („pot”), și alin. (3), unde utilizarea lor la avarie devine obligatorie („trebuie”). Corectează eroarea tehnică „rețeaua de transport” (spitalele sunt racordate la rețeaua de distribuție) și eroarea materială „organize” din forma adoptată tacit de Senat.",
-        "otherComments": "Proiectul are o intenție excelentă pentru reziliența energetică a spitalelor, dar la nivel tehnic bateriile solare nu pot înlocui singure generatoarele clasice de avarie pe timp de iarnă sau noapte, ci doar le pot completa. De asemenea, ar fi utilă includerea spitalelor municipale de urgență în sfera beneficiarilor eligibili."
+        "articleRef": "Art. unic pct. 1 – art. 6¹ alin. (1) și (3)",
+        "proposalContent": "Alin.(3) devine: «În starea de urgență, alertă sau asediu ori în caz de forță majoră care întrerupe alimentarea din rețeaua electrică de interes public, unitățile sanitare care dețin sisteme potrivit alin.(1) le folosesc, împreună cu sistemele de rezervă, pentru alimentarea consumatorilor critici.»",
+        "argumentation": "Alin.(1) e facultativ («pot»), dar alin.(3) impune o obligație absolută («trebuie să asigure») inclusiv spitalelor fără panouri și baterii, iar contradicția încalcă previzibilitatea (art.1 alin.5 Constituție). Întreruperile apar mai des în rețeaua de distribuție, nu doar în cea de transport, deci declanșatorul actual e prea îngust.",
+        "otherComments": "Corectură: «organize» → «organizate». Normele (pct.2) să precizeze ce înseamnă «unități sanitare publice organizate la nivel județean și regional», cerințele tehnice de funcționare insularizată și corelarea cu EPBD 2024/1275 (instalații solare pe clădiri publice). E necesară fișa financiară (art.15 L.500/2002)."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
-    "claude": {
-      "model": "claude",
-      "durationMs": 57141,
+    "codex": {
+      "model": "codex",
+      "durationMs": 60730,
+      "sourceEndMarker": "SF-AACF77D4",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Panouri solare și baterii pentru spitalele județene și regionale, ca să nu rămână fără curent în crize",
-      "verdictShort": "Lege cu scop util și fără sancțiuni, dar redactată neglijent. Alin.(1) spune că spitalele «pot» investi, alin.(3) spune că «trebuie» să funcționeze autonom, iar banii sunt doar promiși declarativ. Riscul nu e un abuz, ci o obligație neclară, greu de îndeplinit și nefinanțată.",
-      "initiatorClaim": "Inițiatorii USR vor ca spitalele județene și regionale, considerate infrastructură critică, să poată funcționa fără rețeaua națională în crize (război, dezastre), folosind energie solară și baterii. Ei susțin că măsura ar fi finanțată din fonduri europene, fără costuri pentru buget.",
-      "realityCheck": "Art.6¹ alin.(1) oferă doar o posibilitate («pot»), iar alin.(2) dă prioritate fotovoltaicului. Alin.(3) impune însă unităților «prevăzute de alin.(1)» obligația de a asigura continuitatea autonomă a alimentării în stări excepționale, fără să precizeze durata, puterea sau consumatorii acoperiți. Ipoteza de declanșare vizează doar «rețeaua publică de transport», deși spitalele sunt racordate la rețeaua de distribuție, iar alin.(4) privind finanțarea nu alocă niciun ban concret.",
+      "plainTitle": "Panouri solare și energie de rezervă pentru spitale",
+      "verdictShort": "Proiectul urmărește un obiectiv util și nu introduce taxe, monopoluri sau sancțiuni noi. Principala vulnerabilitate este obligația de autonomie energetică, formulată fără un calendar de instalare și fără finanțare garantată.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea dependenței spitalelor județene și regionale de rețeaua electrică și continuarea activității medicale în situații de criză. Ei susțin că investițiile pot fi finanțate prin programe europene fără impact bugetar negativ.",
+      "realityCheck": "Proiectul introduce un articol nou: producerea și stocarea energiei sunt facultative potrivit alin. (1), însă continuitatea autonomă devine obligatorie în situațiile descrise la alin. (3). Finanțarea poate include expres bugetul de stat, astfel încât absența impactului bugetar negativ nu rezultă din text. Termenul final de șase luni privește aprobarea normelor, fără să amâne expres obligația spitalelor.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Agricultură & Mediu",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art.6¹ alin.(1) vs. alin.(3): contradicție între «pot» (facultativ) și «trebuie» (obligatoriu). Nu este clar dacă obligația din alin.(3) privește toate spitalele județene și regionale sau doar pe cele care au optat să-și instaleze sisteme proprii.",
-        "Art.6¹ alin.(3) se referă la imposibilitatea furnizării din «rețeaua publică de transport». Legea nr.123/2012 distinge rețeaua de transport de rețeaua de distribuție, la care sunt de fapt racordate spitalele. Interpretat literal, textul s-ar aplica foarte rar.",
-        "Art.6¹ alin.(3) nu definește conținutul obligației: nici durata autonomiei, nici sarcina minimă (întregul spital sau doar ATI, blocul operator și UPU). Autonomia integrală doar din fotovoltaic și baterii este nerealistă tehnic iarna și noaptea pentru un spital județean.",
-        "Art.6¹ alin.(4) este pur declarativ. Expunerea de motive afirmă lipsa impactului bugetar, dar o obligație impusă unor unități publice generează costuri, iar fișa financiară cerută de art.15 din Legea nr.500/2002 lipsește.",
-        "Categoria «unități sanitare publice organizate la nivel regional» nu este definită prin trimitere la Legea nr.95/2006. Nu rezultă clar dacă sunt incluse spitalele municipale, cele de urgență sau cele din subordinea ministerelor.",
-        "Pct.2 (normele metodologice în 6 luni) apare ca punct al articolului unic, deși nu modifică Legea nr.121/2014. Este o greșeală de tehnică legislativă: trebuia să fie un art.II distinct. Textul mai conține erori formale («organize», virgulă în loc de punct la finalul alin.(1)).",
-        "Nu există sancțiuni și nu se impun obligații asupra cetățenilor sau IMM-urilor. Efectul pe piață este indirect și pozitiv: achiziții publice de echipamente fotovoltaice și de stocare, prin licitații deschise conform Legii nr.98/2016."
+        "Art. 6¹ alin. (1): introduce posibilitatea utilizării unor sisteme proprii de producție și stocare; nu obligă explicit toate unitățile vizate să instaleze panouri și baterii într-un termen determinat.",
+        "Art. 6¹ alin. (3): impune continuitatea autonomă, deși investițiile prealabile sunt facultative. Nu stabilește durata autonomiei, consumatorii medicali prioritari sau calendarul de conformare.",
+        "Art. 6¹ alin. (3): declararea stării de urgență, de alertă sau de asediu apare ca declanșator distinct. Condiția imposibilității alimentării este atașată explicit celorlalte situații de forță majoră, ceea ce permite interpretări diferite.",
+        "Art. 6¹ alin. (3): referirea exclusivă la rețeaua publică de transport nu acoperă explicit întreruperile din rețelele de distribuție, relevante pentru alimentarea spitalelor.",
+        "Art. 6¹ alin. (4): enumeră surse de finanțare, dar nu alocă sume și nu garantează accesul la fonduri. Investițiile, întreținerea și înlocuirea bateriilor pot genera cheltuieli publice.",
+        "Articolul unic pct. 2: cele șase luni sunt pentru normele Guvernului, nu un termen tranzitoriu de dotare a spitalelor. Proiectul nu introduce sancțiuni proprii, derogări sau abrogări și nu elimină cerințele generale existente privind siguranța alimentării."
       ],
-      "blindSpotsCaught": "Senatul a adoptat proiectul tacit, conform art.75 alin.(2) teza a III-a din Constituție, deci fără dezbatere și fără corectarea erorilor. Expunerea de motive invocă o schemă de ajutor de stat de circa 3 miliarde euro «valabilă până la sfârșitul anului 2025», care a expirat între timp, așa că argumentul finanțării fără presiune bugetară este depășit. Plasarea în Legea nr.121/2014 (eficiență energetică, art.6 privind clădirile publice) este discutabilă, întrucât autoconsumul din surse regenerabile ține mai degrabă de Legea nr.220/2008 și de Legea nr.123/2012 (prosumatori). Textul nu este corelat nici cu normativele existente privind sursele de rezervă (generatoare) obligatorii în spitale, iar sintagma «sisteme de rezervă» rămâne nedefinită.",
-      "constitutionalityNote": "Nu se pune o problemă de neconstituționalitate gravă: nu sunt afectate drepturi fundamentale și nu există sancțiuni. Există însă vulnerabilități de previzibilitate (art.1 alin.(5) din Constituție și Legea nr.24/2000): contradicția «pot»/«trebuie», obligația din alin.(3) fără conținut determinat și referirea greșită la rețeaua de transport. Dacă alin.(3) este citit ca obligație generală, intră în discuție și art.138 alin.(5) din Constituție (nicio cheltuială fără stabilirea sursei de finanțare). Simpla enumerare a surselor posibile din alin.(4) ar putea fi considerată insuficientă, mai ales în lipsa fișei financiare și a unui punct de vedere actualizat al Guvernului (art.111). Delegarea către Guvern pentru norme metodologice este legitimă, dar trimiterea ar trebui făcută la art.6¹, nu la «prezenta lege».",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă, deoarece nu se reglementează accesul la o profesie. Directiva (UE) 2015/1535 (TRIS) nu este incidentă pentru textul legii, care nu reglementează servicii digitale sau AI. Dacă însă HG-ul de aplicare va impune specificații tehnice obligatorii pentru produse (panouri, baterii), trebuie verificată obligația de notificare. Pe fond, proiectul este aliniat cu Directiva (UE) 2018/2001 (RED, autoconsum), cu Directiva (UE) 2024/1275 (EPBD, instalații solare pe clădirile publice), cu Directiva (UE) 2023/1791 (rolul exemplar al sectorului public) și cu Directiva (UE) 2022/2557 privind reziliența entităților critice, care include sectorul sănătății. Ajutorul de stat (art.107 TFUE) este în principiu neproblematic pentru activitatea medicală publică necomercială. Dacă spitalele vor vinde surplusul de energie în rețea, finanțarea trebuie însă încadrată în schemele aprobate.",
+      "blindSpotsCaught": "Autonomia promisă în expunerea de motive nu este garantată mecanic de lege: un sistem fotovoltaic cu baterii trebuie proiectat pentru funcționare la întreruperea rețelei și dimensionat pentru consumul critic. Textul nu cere expres aceste performanțe. Nici programele europene menționate în motivare, inclusiv schema indicată ca valabilă până la sfârșitul lui 2025, nu devin prin această lege finanțări disponibile sau drepturi de acces.",
+      "constitutionalityNote": "Obiectivul sprijină protejarea sănătății, potrivit art. 34 din Constituție. Art. 1 alin. (5) reclamă clarificarea beneficiarilor, a situațiilor declanșatoare și a raportului dintre investiția facultativă și obligația de continuitate. Nu există o problemă directă de legalitate a pedepselor potrivit art. 23 alin. (12), deoarece proiectul nu instituie pedepse. Pentru cheltuielile publice trebuie fundamentate costurile și sursele, în raport cu art. 138 alin. (5); simpla enumerare a surselor nu demonstrează suficiența finanțării. Din documentele furnizate nu se poate verifica respectarea procedurii de solicitare a informării Guvernului prevăzute de art. 111 alin. (1), dacă sunt incidente condițiile acesteia.",
+      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile asupra accesului la profesii reglementate sau exercitării lor; proiectul nu introduce asemenea restricții. Nu rezultă privilegii pentru furnizori ori bariere explicite de concurență, iar achizițiile rămân supuse regulilor generale. Directiva (UE) 2015/1535 nu privește exclusiv serviciile digitale: poate acoperi și reglementări tehnice pentru produse. Textul nu reglementează servicii digitale sau AI și nu justifică singur constatarea unei obligații certe de notificare TRIS; eventualele specificații tehnice obligatorii din normele viitoare trebuie evaluate separat. Enumerarea finanțărilor nu înlătură regulile europene aplicabile achizițiilor și, după caz, ajutorului de stat.",
       "senatForm": {
-        "articleRef": "Art. unic pct.1 – art.6¹ alin.(3)",
-        "proposalContent": "(3) În stare de urgență, alertă, asediu sau forță majoră care împiedică alimentarea din rețeaua electrică de transport sau de distribuție, unitățile sanitare prevăzute la alin.(1) care dețin sisteme proprii asigură prin acestea și prin surse de rezervă alimentarea consumatorilor critici (ATI, blocuri operatorii, UPU), conform normelor metodologice.",
-        "argumentation": "Textul adoptat vizează doar rețeaua de transport, deși spitalele sunt racordate la rețeaua de distribuție (Legea 123/2012), deci ipoteza s-ar declanșa rar. Alin.(1) spune «pot», iar alin.(3) «trebuie», ceea ce creează o obligație neclară și nefinanțată. Limitarea la consumatorii critici face obligația realistă și previzibilă (art.1 alin.5 din Constituție).",
-        "otherComments": "Corectați «organize» și virgula de la finalul alin.(1). Pct.2 nu modifică Legea 121/2014 și trebuie redat ca art.II, cu trimitere la art.6¹. Definiți spitalele regionale prin raportare la Legea 95/2006. Solicitați fișa financiară (art.15 din Legea 500/2002), deoarece schema UE invocată a expirat în 2025."
+        "articleRef": "Articolul unic pct. 1 – art. 6¹ alin. (3)",
+        "proposalContent": "(3) În cazul întreruperii alimentării din rețeaua electrică publică, unitățile prevăzute la alin. (1) asigură alimentarea consumatorilor medicali critici prin surse regenerabile, stocare și sisteme de rezervă. Obligația se aplică după punerea în funcțiune a instalațiilor finanțate. Normele stabilesc autonomia minimă și verificările periodice.",
+        "argumentation": "Obligația trebuie corelată cu existența instalațiilor și cu întreruperea efectivă a alimentării. Referirea la rețeaua electrică publică acoperă și distribuția. Prioritizarea consumatorilor medicali critici și stabilirea autonomiei minime permit dimensionarea și verificarea soluțiilor.",
+        "otherComments": "Comisia să completeze separat calendarul investițiilor și responsabilitățile de finanțare, pe baza costurilor estimate. Termenul de șase luni pentru norme nu amână expres obligația. Analiza privește documentele furnizate; verificarea online nu a fost disponibilă."
       },
-      "status": "ok"
-    },
-    "codex": {
-      "model": "codex",
-      "durationMs": 91860,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Panouri solare și alimentare de rezervă pentru spitale",
-      "verdictShort": "Proiectul urmărește un scop util și nu introduce taxe, monopoluri sau sancțiuni. Principalele vulnerabilități sunt obligația insuficient definită de alimentare autonomă și finanțarea nefundamentată, care pot îngreuna aplicarea.",
-      "initiatorClaim": "Inițiatorii urmăresc reducerea vulnerabilității spitalelor județene și regionale la întreruperile de electricitate, prin producție regenerabilă și stocare. Susțin că investițiile pot beneficia de fonduri europene fără impact financiar negativ asupra bugetului general consolidat.",
-      "realityCheck": "Art. 6¹ alin. (1) permite instalarea sistemelor proprii, fără să oblige fiecare unitate să investească, dar alin. (3) impune continuitatea autonomă în situațiile enumerate, fără să precizeze consumul protejat, autonomia minimă sau termenul de conformare. Declararea unei stări excepționale apare ca declanșator distinct, chiar fără întreruperea efectivă a electricității, iar întreruperile obișnuite nu sunt acoperite clar. Alin. (4) enumeră surse posibile de finanțare, fără să garanteze alocări sau eligibilitatea proiectelor.",
-      "affectedGroups": [
-        "Sănătate & Educație",
-        "Agricultură & Mediu"
-      ],
-      "keyFindings": [
-        "Art. 6¹ alin. (1) folosește «pot», iar alin. (3) folosește «trebuie»: investiția este facultativă, însă rezultatul devine obligatoriu în situații excepționale, fără o tranziție explicită. Textul nu instituie sancțiuni proprii pentru neconformare.",
-        "Art. 6¹ alin. (3) nu distinge alimentarea întregii unități de alimentarea consumatorilor medicali critici. Panourile și bateriile nu garantează singure continuitatea: sunt necesare dimensionare, funcționare izolată și integrarea sistemelor de rezervă.",
-        "Referirea exclusivă la rețeaua publică de transport este prea îngustă: întreruperea poate interveni în distribuție. Nici sintagma «unități sanitare publice, organizate la nivel județean și regional» nu identifică suficient de precis destinatarii.",
-        "Art. 6¹ alin. (4) permite folosirea bugetului de stat, contrar impresiei de neutralitate financiară din motivare. Investițiile, mentenanța și înlocuirea bateriilor implică cheltuieli; enumerarea unor fonduri nu ține locul evaluării costurilor.",
-        "Nu apar obligații directe pentru cetățeni sau IMM-uri și nici furnizori privilegiați. Pot apărea sarcini administrative pentru spitale și autoritățile finanțatoare: proiectare, achiziții, autorizare și întreținere.",
-        "Punctul 2 trebuie formulat ca dispoziție proprie a legii de completare, distinctă de textul introdus în Legea nr. 121/2014. Termenul de șase luni pentru norme nu reprezintă un termen de implementare a investițiilor."
-      ],
-      "blindSpotsCaught": "Adoptarea tacită de către Senat, conform art. 75 alin. (2) din Constituție, nu certifică examinarea pe fond sau constituționalitatea proiectului. Programele menționate în motivare nu conferă prin această lege un drept la finanțare; o schemă descrisă ca valabilă până la sfârșitul anului 2025 nu dovedește disponibilitatea banilor la implementare. Analiza folosește documentele furnizate; verificarea online a surselor și a stadiului actual nu a fost disponibilă.",
-      "constitutionalityNote": "Scopul susține protecția sănătății, potrivit art. 34 din Constituție. Riscul principal privește art. 1 alin. (5): destinatari insuficient delimitați, raport neclar între facultate și obligație și lipsa parametrilor esențiali ai continuității. Aceștia trebuie fixați suficient în lege, normele detaliind executarea. Art. 23 alin. (12), privind stabilirea și aplicarea pedepselor, nu are incidență directă deoarece proiectul nu introduce pedepse. Pentru cheltuielile generate trebuie verificată respectarea art. 138 alin. (5), iar, dacă sunt modificate prevederi bugetare, și solicitarea informării Guvernului conform art. 111 alin. (1). Documentele furnizate nu permit constatarea unei încălcări procedurale certe.",
-      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor de acces la profesii reglementate sau de exercitare a acestora; proiectul nu introduce asemenea restricții. Directiva (UE) 2015/1535 nu privește exclusiv serviciile digitale, ci și reglementările tehnice pentru produse: textul nu reglementează AI sau servicii digitale și nu stabilește specificații tehnice de produs care să evidențieze o obligație TRIS, însă eventualele norme tehnice trebuie evaluate separat. Prioritatea pentru fotovoltaice nu rezervă piața unui operator sau unei origini naționale. Finanțarea trebuie să respecte regulile programelor, achizițiile publice și, dacă beneficiarul desfășoară activități economice relevante, regulile ajutorului de stat.",
-      "senatForm": {
-        "articleRef": "Art. 6¹ alin. (3)",
-        "proposalContent": "(3) Unitățile prevăzute la alin. (1) asigură alimentarea consumatorilor medicali critici la întreruperea rețelei publice, prin sisteme de rezervă apte să funcționeze izolat, care pot include surse regenerabile cu stocare. Noile investiții se realizează etapizat, cu finanțare asigurată, fără reducerea obligațiilor legale de rezervă existente.",
-        "argumentation": "Continuitatea actului medical trebuie legată de întreruperea efectivă a alimentării, indiferent de declararea unei stări excepționale. Textul protejează consumatorii critici și permite soluții tehnice adecvate, evitând impunerea unei autonomii integrale exclusiv prin regenerabile și baterii, fără dimensionare și finanțare.",
-        "otherComments": "Solicit delimitarea unităților vizate, fundamentarea costurilor și stabilirea în lege a autonomiei minime și a termenului de implementare, pe baza evaluărilor tehnice. Dispoziția privind normele metodologice trebuie separată de modificarea Legii nr. 121/2014. Adresare: Comisia pentru industrii și servicii."
-      },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-10T14:20:30.507Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:36:29.234Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

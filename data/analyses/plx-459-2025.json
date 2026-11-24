@@ -2,139 +2,184 @@
   "billId": "Pl-x 459/2025",
   "slug": "plx-459-2025",
   "version": "initiator",
-  "updatedAt": "2026-11-19T08:58:33.653Z",
+  "updatedAt": "2026-11-24T15:21:31.225Z",
   "coverage": {
     "method": "whole-text-v1",
+    "form": "initiator",
     "billChars": 3485,
     "ordinanceChars": 0,
     "memoChars": 4135,
     "memoSupplied": 4135,
     "marker": "SF-2ED732F5"
   },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-459-2025.json",
+    "form": "initiator",
+    "textHash": "2ed732f57c23f64d",
+    "fetchedAt": "2026-11-20T07:42:18.069Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1179,
+    "truncated": false,
+    "included": true,
+    "key": "d18afe8e5b11dbcf"
+  },
   "consensus": {
     "riskScore": 7.7,
     "riskLevel": "red",
-    "plainTitle": "Control medical anual obligatoriu pentru toți adulții, cu amendă de până la 1.000 lei dacă nu mergi",
-    "summaryTlDr": "Prevenția este un scop legitim, dar mijlocul ales nu e proporțional: statul ar obliga fiecare adult la examinare medicală și analize, sub amenințarea amenzii și a pierderii unor beneficii medicale nedefinite. Mecanismul de sancționare e redactat vag, fără agent constatator, fără fișă financiară și cu sancționare automată din SIUI.",
-    "initiatorClaim": "Inițiatoarea spune că vrea să mute sistemul de sănătate de la tratarea tardivă a bolilor la prevenție. Invocă Programul Național de Evaluare a Stării de Sănătate 2007–2008 și economii pe termen lung la internări și tratamente complexe. Declară că scopul nu este sancționarea, ci responsabilizarea cetățenilor.",
-    "realityCheck": "Articolul unic introduce art. 231¹ în Legea 95/2006. Acesta transformă controlul preventiv dintr-un drept într-o obligație legală pentru orice adult cu domiciliul sau reședința în România. Neprezentarea aduce mai întâi un avertisment, apoi o amendă de 500–1.000 lei și suspendarea pe 6 luni a unor beneficii „neesențiale”, care urmează să fie stabilite prin ordin de ministru, nu prin lege. Platforma SIUI ar urma să detecteze automat neprezentările și să declanșeze sancționarea. Textul nu spune cine constată contravenția, nu are fișă financiară și nu evaluează dacă medicii de familie pot face milioane de controale suplimentare pe an.",
+    "plainTitle": "Analize medicale anuale obligatorii pentru toți adulții, cu amendă de până la 1.000 de lei dacă nu le faci",
+    "summaryTlDr": "Prevenția este un scop bun, dar mecanismul este greșit: proiectul transformă controlul medical într-o obligație generală sancționată cu amendă și cu tăierea unor beneficii medicale nedefinite. Textul este vag, nu are finanțare și are probleme constituționale serioase de proporționalitate și previzibilitate.",
+    "initiatorClaim": "Inițiatoarea spune că vrea să mute sistemul de sănătate de pe tratarea târzie a bolilor pe prevenție, prin depistare precoce, ca să scadă mortalitatea evitabilă și costurile. Expunerea de motive afirmă că scopul nu este sancționarea, ci responsabilizarea cetățenilor.",
+    "realityCheck": "Efectul mecanic este o obligație legală pentru fiecare adult cu domiciliu sau reședință în România de a merge anual la medicul de familie. Neprezentarea aduce un avertisment, iar după încă 6 luni o amendă de 500–1.000 lei și suspendarea pe 6 luni a unor „beneficii neesențiale”, pe care le va stabili un ordin de ministru. Sancționarea se declanșează automat din SIUI, dar legea nu spune cine constată contravenția, cine plătește pentru neasigurați, ce se întâmplă cu cei fără medic de familie sau cum fac față medicii de familie unui aflux de milioane de consultații pe an.",
     "affectedGroups": [
       "Toți cetățenii",
       "Sănătate & Educație",
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. 231¹ alin. (1), (4), (5) și (7) lit. c)",
-      "proposalContent": "Alin. (1) devine: „Fiecare persoană adultă cu domiciliul sau reședința în România are dreptul la un control medical preventiv anual gratuit, prin medicul de familie, cu acordul său.” Se elimină alin. (4), (5) și (7) lit. c). Se adaugă: „Efectuarea controlului poate fi încurajată prin măsuri stimulative stabilite prin lege.”",
-      "argumentation": "Obligația generală de examinare medicală sancționată cu amendă afectează integritatea fizică și viața privată (art. 22, 26 Constituție) și consimțământul pacientului (Legea 46/2003). Nu există o amenințare de sănătate publică care s-o justifice (art. 53). Beneficiile suspendabile nu sunt definite prin lege, iar agentul constatator lipsește.",
-      "otherComments": "Lipsesc fișa financiară și sursa de finanțare (art. 111, 138 alin. (5) Constituție, Legea 69/2010). Sancționarea automată pe baza SIUI ridică probleme GDPR (art. 9 și 22). Nu se evaluează capacitatea medicilor de familie. Nu e clară situația neasiguraților și a celor stabiliți în străinătate."
+      "articleRef": "Art. unic – art. 231¹ alin. (1), (4), (5), (9)",
+      "proposalContent": "Se elimină alin. (4), (5) și (7) lit. c). Alin. (1) devine: „Fiecare persoană adultă are dreptul la un control medical preventiv anual gratuit, prin medicul de familie; CNAS notifică anual persoanele care nu l-au efectuat.” Alin. (9) se completează: costurile pentru persoanele neasigurate se suportă de la bugetul de stat, prin Ministerul Sănătății.",
+      "argumentation": "Amenda de 500-1.000 lei și suspendarea unor „beneficii neesențiale” nedefinite, stabilite prin ordin, încalcă art. 1 alin. (5), art. 26 și art. 53 din Constituție: obligă la intervenții medicale asupra persoanelor sănătoase sub sancțiune, deși scopul (depistarea precoce) se atinge prin notificări și stimulente, fără constrângere.",
+      "otherComments": "Lipsesc fișa financiară (art. 138 alin. 5 Constituție, art. 15 L. 500/2002), autoritatea care constată contravenția și trimiterea la OG 2/2001. Sancționarea automată prin SIUI ridică probleme GDPR (art. 22). Capacitatea medicilor de familie și persoanele fără medic de familie nu sunt avute în vedere."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 33685,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 87203,
       "sourceEndMarker": "SF-2ED732F5",
       "riskScore": 8,
       "riskLevel": "red",
-      "plainTitle": "Control medical anual obligatoriu sub amenințarea amenzii și a suspendării serviciilor de sănătate",
-      "verdictShort": "Deși invocă prevenția medicală, proiectul instituie controale obligatorii pentru toți adulții sub sancțiunea amenzii (500–1.000 lei) și a suspendării unor servicii publice de sănătate, fără a indica organul constatator sau ce beneficii sunt suspendate. Delegarea acestor restricții către un ordin ministerial și declanșarea automată a sancțiunilor din SIUI ridică probleme grave de constituționalitate și protecție a datelor.",
-      "initiatorClaim": "Inițiatoarea (deputat neafiliat Raisa Enachi) susține în expunerea de motive că sistemul sanitar este împovărat de tratamentele tardive și că introducerea unui control preventiv anual obligatoriu va depista precoce bolile, va salva vieți și va reduce cheltuielile FNUASS pe termen lung.",
-      "realityCheck": "În textul propus, obligația vizează orice adult cu domiciliul sau reședința în România (inclusiv neasigurații sau persoanele fără medic de familie), deși articolul este plasat în secțiunea dedicată obligațiilor asiguraților. Neprezentarea atrage o amendă între 500 și 1.000 lei și suspendarea pe 6 luni a unor beneficii «neesențiale» stabilite ulterior prin ordin comun MS–CNAS, fără a desemna agentul constatator și fără a prevedea sursa de finanțare pentru costurile puse integral pe FNUASS.",
+      "plainTitle": "Control medical anual obligatoriu, cu amenzi și tăierea unor servicii de sănătate",
+      "verdictShort": "Deși pornește de la un obiectiv legitim de prevenție medicală, proiectul conține vicii grave de constituționalitate și de tehnică legislativă, impunând analize medicale obligatorii sub amenințarea amenzilor și a suspendării unor servicii publice de sănătate definite arbitrar prin ordin de ministru.",
+      "initiatorClaim": "Inițiatoarea (deputat neafiliat Raisa Enachi) susține că măsura va reduce mortalitatea evitabilă și cheltuielile cu tratarea bolilor în stadii avansate, trecând sistemul de la un model reactiv la prevenție pe modelul programului național din 2007–2008.",
+      "realityCheck": "Proiectul introduce art. 231¹ (articol nou, inexistent în prezent în Legea nr. 95/2006) și obligă toți adulții cu domiciliul sau reședința în România — nu doar asigurații — să facă anual consultații, analize de sânge/urină și screening-uri, sub sancțiunea amenzii de 500–1.000 lei și a suspendării pe 6 luni a „unor beneficii neesențiale” stabilite ulterior prin ordin comun MS–CNAS. Textul nu indică cine constată și aplică amenda, lovește și românii din diaspora cu buletin în țară sau locuitorii fără medic de familie și impune o cheltuială masivă din FNUASS fără fișă financiară.",
       "affectedGroups": [
         "Toți cetățenii",
         "Sănătate & Educație",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 231¹ alin. (5) lit. a) și b): instituie amenzi de 500–1.000 lei și suspendarea pe 6 luni a accesului la «beneficii neesențiale», fără a defini aceste beneficii în lege și fără a desemna agentul constatator conform OG nr. 2/2001.",
-        "Art. 231¹ alin. (1) și (4): obligă fiecare adult cu domiciliul sau reședința în România să facă anual controlul la medicul de familie (inclusiv persoanele neasigurate), dar calculează termenul de 12 luni de la «ultimul control», lăsând fără termen inițial persoanele fără controale anterioare.",
-        "Art. 231¹ alin. (7) și (9): obligă MS și CNAS să automatizeze identificarea cazurilor și declanșarea sancțiunilor în SIUI și pune integral costurile analizelor și screening-urilor în sarcina FNUASS, fără fișă financiară sau sursă bugetară."
+        "Sancțiune nedefinită prin lege, ci delegată la ordin de ministru: art. 231¹ alin. (5) lit. b) și alin. (8) permit suspendarea pe 6 luni a „unor beneficii neesențiale din sistemul public de sănătate”, lăsând conținutul exact al sancțiunii la latitudinea unui ordin comun MS–CNAS.",
+        "Vid procedural contravențional: art. 231¹ alin. (4)–(5) și alin. (7) lit. c) instituie avertismentul, amenda (500–1.000 lei) și „declanșarea automată a procedurii de sancționare” din SIUI, dar nu desemnează agentul constatator, autoritatea sancționatoare sau procedura de contestare conform OG nr. 2/2001.",
+        "Sferă excesivă de aplicare și excepții restrictive: deși introdus la Secțiunea „Drepturile și obligațiile asiguraților”, alin. (1) obligă „fiecare persoană adultă cu domiciliul sau reședința în România” (inclusiv neasigurați, cetățeni din diaspora cu domiciliul în țară sau rezidenți în localități fără medic de familie), iar alin. (6) admite exclusiv excepții de natură medicală.",
+        "Lipsa finanțării reale: alin. (9) pune integral în sarcina FNUASS costurile controalelor, analizelor și screening-urilor anuale pentru întreaga populație adultă (plus notificări poștale și adaptarea SIUI), fără estimare de impact bugetar sau sursă suplimentară de finanțare.",
+        "Obligație medicală invazivă fără consimțământ liber: alin. (2) lit. c) include „analize uzuale de sânge” în controlul obligatoriu sancționabil, ceea ce transformă o intervenție asupra integrității fizice într-o obligație constrânsă pecuniar, în afara unui risc epidemic colectiv."
       ],
-      "blindSpotsCaught": "Discrepanța majoră dintre plasarea normei (Titlul VIII, Secțiunea 2 – obligațiile asiguraților) și sfera destinatarilor din alin. (1) («fiecare persoană adultă cu domiciliul sau reședința»), combinată cu lipsa agentului constatator, a procedurii de contestare și a termenului inițial pentru cei fără controale anterioare. Totodată, alin. (5) lit. b) permite restrângerea accesului la servicii publice de sănătate printr-un simplu ordin comun (alin. 8), deși cetățenii contribuie obligatoriu la CASS.",
-      "constitutionalityNote": "Risc ridicat de neconstituționalitate: încalcă art. 1 alin. (5) privind calitatea și previzibilitatea legii (lipsesc agentul constatator, definirea «beneficiilor neesențiale» și termenul inițial), art. 26, art. 34 și art. 53 (impunerea de proceduri medicale obligatorii și restrângerea accesului la servicii de sănătate prin ordin ministerial, cu încălcarea proporționalității), precum și art. 138 alin. (5) (cheltuieli noi puse în sarcina FNUASS fără stabilirea sursei de finanțare).",
-      "euLawNote": "Directiva (UE) 2018/958 și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente direct, textul nereglementând accesul la profesii sau servicii comerciale ale societății informaționale. Totuși, declanșarea automată a sancțiunilor prin SIUI (alin. 7 lit. c) intră în coliziune cu Regulamentul (UE) 2016/679 (GDPR – art. 9 și art. 22 privind deciziile automate pe date de sănătate), iar efectuarea obligatorie a analizelor sub sancțiune contravine art. 3 (consimțământul liber și informat) și art. 35 din Carta Drepturilor Fundamentale a UE.",
+      "blindSpotsCaught": "Proiectul conține o contradicție temporală directă: dispoziția finală amână intrarea în vigoare cu 90 de zile de la publicare „pentru a permite elaborarea și implementarea normelor metodologice”, însă art. 231¹ alin. (8) acordă 90 de zile „de la intrarea în vigoare” pentru aprobarea acelorași norme, creând un vid normativ de 3 luni. În plus, termenul de 12 luni din alin. (4) curge „de la data efectuării ultimului control”, fără a stabili un reper inițial pentru persoanele care nu au efectuat niciodată un control preventiv înregistrat în SIUI, iar „declanșarea automată” a sancționării din alin. (7) lit. c) ignoră garanțiile GDPR privind deciziile automate.",
+      "constitutionalityNote": "Proiectul prezintă riscuri majore de neconstituționalitate: încalcă art. 1 alin. (5) (lipsă de previzibilitate și claritate: lipsesc agentul constatator, definiția beneficiilor suspendate și reperul primului termen de 12 luni) și art. 53 (restrângerea exercițiului unor drepturi nu poate fi delegată prin ordin de ministru și pare disproporționată). Obligarea la analize de sânge sub sancțiune contravine art. 22 și art. 26 (integritate fizică și autonomie personală), iar tăierea unor servicii de sănătate pentru contribuabili care plătesc CASS afectează art. 34. Totodată, alocarea de cheltuieli masive din FNUASS fără fișă financiară și surse certe vulnerabilizează legea sub art. 138 alin. (5) din Constituție.",
+      "euLawNote": "Dispozițiile privind identificarea automată și declanșarea sancționării prin SIUI (art. 231¹ alin. 7 lit. c) și prelucrarea pe scară largă a datelor medicale și de contact intră în coliziune cu Regulamentul (UE) 2016/679 (GDPR), în special art. 9 (date de sănătate) și art. 22 (decizii individuale automatizate cu efect juridic, fără garanții privind intervenția umană). Obligarea tuturor adulților cu domiciliul sau reședința în România riscă să încalce art. 21 TFUE și Regulamentul (CE) nr. 883/2004 în privința cetățenilor mobili asigurați în alte state membre UE. Consimțământul liber și informat este protejat și de art. 8 CEDO și art. 5 din Convenția de la Oviedo (ratificată prin Legea nr. 17/2001). Directiva (UE) 2018/958 (proporționalitate profesii reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente.",
       "senatForm": {
-        "articleRef": "Articol unic (art. 231¹ alin. 1, 4, 5, 7)",
-        "proposalContent": "Eliminarea caracterului obligatoriu și a sancțiunilor de la art. 231¹ alin. (4) și (5) și reformularea articolului ca drept gratuit al asiguraților la un pachet anual de prevenție decontat de CNAS, cu notificări opționale în SIUI exclusiv cu acordul pacientului și fără suspendarea beneficiilor medicale.",
-        "argumentation": "Sancționarea cu amendă și suspendarea serviciilor medicale încalcă art. 1 alin. (5), art. 26, art. 34 și art. 53 din Constituție, precum și art. 22 GDPR. Textul nu indică agentul constatator și lasă «beneficiile neesențiale» la discreția unui ordin ministerial; prevenția se face prin informare și acces facil, nu prin coerciție.",
-        "otherComments": "Proiectul nu indică sursa bugetară (art. 138 alin. 5 Constituție) pentru costurile analizelor și modificarea SIUI și creează confuzie între asigurați și adulții neasigurați. Recomandăm consultarea CNAS, a medicilor de familie și solicitarea fișei financiare conform Legii nr. 500/2002."
+        "articleRef": "Art. 231¹ din Legea nr. 95/2006",
+        "proposalContent": "Se elimină alin. (4)-(5) (sancțiunile) și se modifică alin. (1): „(1) Fiecare persoană adultă are dreptul la un control medical preventiv anual gratuit, prin medicul de familie, în baza consimțământului informat.” Alin. (7) lit. c) se elimină, iar notificările de la alin. (3) devin opționale.",
+        "argumentation": "Obligarea la analize sub amendă și suspendarea unor „beneficii neesențiale” prin ordin încalcă art. 1(5), 26, 34 și 53 din Constituție și consimțământul informat (Convenția de la Oviedo). Textul omite agentul constatator, sancționează nejustificat cetățenii din diaspora și nu respectă art. 138(5) privind sursa de finanțare.",
+        "otherComments": "Contradicție de termene: legea intră în vigoare în 90 de zile pentru a elabora normele, dar alin. (8) dă 90 de zile după intrarea în vigoare. Sancționarea automată prin SIUI (alin. 7 lit. c) încalcă art. 22 GDPR. Este necesară și o fișă financiară reală pentru FNUASS și analiza capacității medicilor de familie."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 51843,
+      "durationMs": 50989,
       "sourceEndMarker": "SF-2ED732F5",
       "riskScore": 7,
       "riskLevel": "red",
-      "plainTitle": "Control medical anual obligatoriu pentru toți adulții, cu amendă de până la 1.000 lei dacă nu mergi",
-      "verdictShort": "Prevenția este un scop legitim, dar mijlocul ales nu e proporțional: statul ar obliga fiecare adult la examinare medicală și analize, sub amenințarea amenzii și a pierderii unor beneficii medicale nedefinite. Mecanismul de sancționare e redactat vag, fără agent constatator, fără fișă financiară și cu sancționare automată din SIUI.",
-      "initiatorClaim": "Inițiatoarea spune că vrea să mute sistemul de sănătate de la tratarea tardivă a bolilor la prevenție. Invocă Programul Național de Evaluare a Stării de Sănătate 2007–2008 și economii pe termen lung la internări și tratamente complexe. Declară că scopul nu este sancționarea, ci responsabilizarea cetățenilor.",
-      "realityCheck": "Articolul unic introduce art. 231¹ în Legea 95/2006. Acesta transformă controlul preventiv dintr-un drept într-o obligație legală pentru orice adult cu domiciliul sau reședința în România. Neprezentarea aduce mai întâi un avertisment, apoi o amendă de 500–1.000 lei și suspendarea pe 6 luni a unor beneficii „neesențiale”, care urmează să fie stabilite prin ordin de ministru, nu prin lege. Platforma SIUI ar urma să detecteze automat neprezentările și să declanșeze sancționarea. Textul nu spune cine constată contravenția, nu are fișă financiară și nu evaluează dacă medicii de familie pot face milioane de controale suplimentare pe an.",
+      "plainTitle": "Analize medicale anuale obligatorii pentru toți adulții, cu amendă de până la 1.000 de lei dacă nu le faci",
+      "verdictShort": "Prevenția este un scop bun, dar mecanismul este greșit: proiectul transformă controlul medical într-o obligație generală sancționată cu amendă și cu tăierea unor beneficii medicale nedefinite. Textul este vag, nu are finanțare și are probleme constituționale serioase de proporționalitate și previzibilitate.",
+      "initiatorClaim": "Inițiatoarea spune că vrea să mute sistemul de sănătate de pe tratarea târzie a bolilor pe prevenție, prin depistare precoce, ca să scadă mortalitatea evitabilă și costurile. Expunerea de motive afirmă că scopul nu este sancționarea, ci responsabilizarea cetățenilor.",
+      "realityCheck": "Efectul mecanic este o obligație legală pentru fiecare adult cu domiciliu sau reședință în România de a merge anual la medicul de familie. Neprezentarea aduce un avertisment, iar după încă 6 luni o amendă de 500–1.000 lei și suspendarea pe 6 luni a unor „beneficii neesențiale”, pe care le va stabili un ordin de ministru. Sancționarea se declanșează automat din SIUI, dar legea nu spune cine constată contravenția, cine plătește pentru neasigurați, ce se întâmplă cu cei fără medic de familie sau cum fac față medicii de familie unui aflux de milioane de consultații pe an.",
       "affectedGroups": [
         "Toți cetățenii",
         "Sănătate & Educație",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 231¹ alin. (1) și (5): obligația de examinare medicală, inclusiv recoltare de sânge, e impusă sub sancțiune tuturor adulților. Acest lucru intră în conflict cu principiul consimțământului liber la intervenția medicală (Legea 46/2003 a drepturilor pacientului) și nu are justificarea unei amenințări epidemiologice.",
-        "Art. 231¹ alin. (5) lit. b) și alin. (8): beneficiile care pot fi suspendate sunt lăsate integral pe seama unui ordin comun MS–CNAS. O sancțiune contravențională nu poate fi definită prin ordin de ministru (OG 2/2001 permite stabilirea contravențiilor doar prin lege, HG sau hotărâri ale consiliilor locale/județene). Nici nu e clar dacă lit. a) și b) se aplică cumulativ sau succesiv, deși textul vorbește de sancțiuni „progresive”.",
-        "Art. 231¹ alin. (4)–(5): nu se arată cine emite avertismentul, cine constată contravenția și cine aplică amenda. Nu e clar nici de când curge termenul de 12 luni pentru cei care nu au făcut niciodată un control. Formula „justificare medicală” nu are criterii.",
-        "Art. 231¹ alin. (6): excepțiile sunt incoerente. Bolnavii cronici în tratament sunt scutiți, deși tocmai ei au cel mai mult nevoie de monitorizare. Nu sunt prevăzute persoanele care trăiesc efectiv în străinătate dar au domiciliul în România, cele care fac controale în privat sau în alt stat UE și nici refuzul din motive de conștiință.",
-        "Art. 231¹ alin. (7) lit. c) și alin. (3): textul cere identificarea automată în SIUI a celor care nu s-au prezentat și declanșarea procedurii de sancționare. Asta înseamnă prelucrare masivă de date de sănătate în scop punitiv. Totodată, CNAS ține evidența doar a asiguraților, deși obligația se aplică și neasiguraților.",
-        "Art. 231¹ alin. (9): costul integral se suportă din FNUASS, fără nicio estimare și fără sursă de finanțare identificată. Expunerea de motive afirmă economii pe termen lung, dar nu prezintă nicio cifră."
+        "Art. 231¹ alin. (5) lit. b): sancțiunea de „suspendare a accesului la unele beneficii neesențiale” nu este definită în lege. Conținutul ei este lăsat pe seama unui ordin comun MS–CNAS (alin. 8), deci o restricție de drepturi ar fi stabilită printr-un act infralegal. Asta ridică probleme de previzibilitate (art. 1 alin. 5 din Constituție).",
+        "Art. 231¹ alin. (5) lit. b) poate restrânge drepturi pentru care asigurații plătesc deja contribuția CASS, ca pedeapsă pentru o conduită privind propria sănătate. Asta intră în tensiune cu art. 34 din Constituție (dreptul la ocrotirea sănătății).",
+        "Art. 231¹ alin. (4)–(5): termenul de 12 luni curge „de la data efectuării ultimului control”. Pentru cine nu a făcut niciodată un control, momentul de început nu este stabilit. Nici nu e clar dacă amenda și suspendarea sunt cumulative sau alternative, deși sunt numite „progresive”.",
+        "Art. 231¹ alin. (5): legea nu desemnează agentul constatator, nu stabilește procedura și nu trimite la OG nr. 2/2001 privind regimul contravențiilor. Alin. (7) lit. c) prevede „declanșarea procedurii de sancționare” automat, din SIUI. Asta înseamnă decizii automatizate bazate pe date de sănătate, fără garanții, contrar art. 22 și art. 9 din GDPR.",
+        "Obligația vizează toate persoanele adulte cu domiciliu sau reședință, nu doar asigurații, deși articolul este plasat în Titlul VIII, Asigurările sociale de sănătate. Alin. (9) pune însă toate costurile pe FNUASS, deci fondul alimentat din contribuții ar plăti și pentru neasigurați, fără o sursă de finanțare.",
+        "Art. 231¹ alin. (6) lit. a) îi scutește tocmai pe bolnavii cronici aflați în tratament. Obligația și amenda cad astfel aproape exclusiv pe persoanele sănătoase, ceea ce slăbește justificarea de proporționalitate.",
+        "Proiectul nu are fișă financiară, deși impune cheltuieli noi din FNUASS (analize și screening pentru aproximativ 15 milioane de adulți) și adaptarea SIUI. Asta încalcă art. 138 alin. (5) din Constituție și art. 15 din Legea nr. 500/2002.",
+        "Pachetul de bază din asigurările de sănătate include deja consultații preventive periodice pentru adulți. Noutatea reală a proiectului nu este dreptul la prevenție, ci constrângerea și sancțiunea."
       ],
-      "blindSpotsCaught": "Noul articol este plasat în Secțiunea despre drepturile și obligațiile asiguraților, dar alin. (1) se aplică tuturor adulților cu domiciliul sau reședința în România. Rezultă o contradicție de sistem: neasigurații ar fi obligați la un control pe care nu au dreptul să-l primească gratuit din FNUASS, iar CNAS nu îi poate notifica. Formula introductivă spune „se modifică”, deși actul este de completare. „Avertismentul oficial” de la alin. (4) seamănă cu sancțiunea avertismentului din OG 2/2001, dar fără proces-verbal și fără cale de contestare. Textul ignoră și Directiva 2011/24/UE privind asistența medicală transfrontalieră: un control făcut în alt stat membru nu este recunoscut.",
-      "constitutionalityNote": "Riscuri serioase de neconstituționalitate. (1) Obligarea fiecărui adult la examinare medicală periodică restrânge dreptul la integritate fizică și psihică (art. 22) și la viață intimă și privată (art. 26). Constituția (art. 53) admite asemenea restrângeri doar pentru protecția sănătății publice, nu pentru sănătatea individuală a persoanei, și doar proporțional. Aici există mijloace mai puțin intruzive: stimulente, invitații active, gratuitate. (2) Textul nu e suficient de clar și previzibil (art. 1 alin. (5)): beneficiile suspendabile sunt delegate unui ordin, autoritatea sancționatoare lipsește, termenele și excepțiile sunt neclare. (3) Prin art. 111 alin. (1) și art. 138 alin. (5), propunerea creează cheltuieli bugetare fără sursă de finanțare și fără fișă financiară (Legea 69/2010, art. 15). Este necesar punctul de vedere al Guvernului. (4) Suspendarea accesului la servicii din sistemul public poate afecta dreptul la ocrotirea sănătății (art. 34), mai ales pentru persoanele care plătesc contribuții.",
-      "euLawNote": "Directiva (UE) 2018/958 privind testul de proporționalitate nu se aplică, pentru că textul nu reglementează accesul la o profesie sau exercitarea ei. Directiva TRIS (UE) 2015/1535 nu se aplică, pentru că nu sunt reglementate servicii ale societății informaționale sau produse tehnice. Relevant este însă GDPR. Datele de sănătate sunt o categorie specială (art. 9), iar prelucrarea lor în scop sancționator necesită temei legal clar, garanții și necesitate demonstrată. Identificarea automată și declanșarea sancționării prin SIUI ridică probleme legate de art. 22 GDPR (decizii exclusiv automatizate) și de principiul minimizării datelor. Este recomandabilă o evaluare de impact (DPIA) și consultarea ANSPDCP. Directiva 2011/24/UE ar impune recunoașterea controalelor făcute în alte state membre, iar textul nu o face. Aplicarea obligației cetățenilor UE care au doar reședința în România trebuie verificată și din perspectiva liberei circulații.",
+      "blindSpotsCaught": "Sancțiunea esențială, „beneficiile neesențiale” suspendate, nu există în lege și va fi inventată printr-un ordin de ministru. Sancționarea este gândită să pornească automat din SIUI, pe baza datelor de sănătate, ceea ce contravine art. 22 din GDPR fără garanții de intervenție umană. Proiectul nu prevede nimic pentru cei fără medic de familie, inclusiv în zonele rurale fără cabinet, care ar fi amendați pentru o imposibilitate obiectivă: excepția din alin. (6) lit. c) acoperă doar imposibilitatea de deplasare justificată medical, nu lipsa medicului. Termenul de 90 de zile pentru intrarea în vigoare și pentru norme este nerealist pentru adaptarea SIUI și pentru capacitatea rețelei de medicină de familie.",
+      "constitutionalityNote": "Proiectul are vulnerabilități constituționale serioase. (1) Art. 26 (viața intimă) și art. 22 (integritatea fizică): obligarea persoanelor sănătoase, sub sancțiune, să se supună unor examinări și recoltări de sânge și urină este o ingerință care trebuie să treacă testul de proporționalitate din art. 53. Scopul de depistare precoce poate fi atins prin mijloace mai puțin intruzive (notificări, stimulente, gratuitate), deci constrângerea nu pare necesară. (2) Art. 1 alin. (5): sancțiunea de la alin. (5) lit. b) este nedefinită și delegată unui ordin. Lipsesc agentul constatator și procedura, iar momentul de început al termenului este neclar. (3) Art. 34: suspendarea unor servicii medicale ca pedeapsă contrazice dreptul la ocrotirea sănătății. (4) Art. 138 alin. (5): lipsește sursa de finanțare. (5) Art. 111: este necesar punctul de vedere al Guvernului.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, deoarece proiectul nu reglementează accesul la o profesie. Directiva (UE) 2015/1535 (TRIS) nu se aplică, deoarece nu există reguli tehnice privind serviciile societății informaționale. Relevant este GDPR: prelucrarea în masă a datelor de sănătate (art. 9) pentru identificarea automată a neprezentărilor și declanșarea sancțiunilor (art. 22) cere o bază legală clară, garanții și o evaluare de impact (art. 35), care lipsesc. Obligația se aplică și cetățenilor UE cu reședință în România; lucrătorii transfrontalieri asigurați în alt stat membru ar putea fi sancționați fără acces efectiv la medicul de familie român. Acest aspect ridică probleme de coordonare cu Regulamentul (CE) 883/2004.",
       "senatForm": {
-        "articleRef": "Art. 231¹ alin. (1), (4), (5) și (7) lit. c)",
-        "proposalContent": "Alin. (1) devine: „Fiecare persoană adultă cu domiciliul sau reședința în România are dreptul la un control medical preventiv anual gratuit, prin medicul de familie, cu acordul său.” Se elimină alin. (4), (5) și (7) lit. c). Se adaugă: „Efectuarea controlului poate fi încurajată prin măsuri stimulative stabilite prin lege.”",
-        "argumentation": "Obligația generală de examinare medicală sancționată cu amendă afectează integritatea fizică și viața privată (art. 22, 26 Constituție) și consimțământul pacientului (Legea 46/2003). Nu există o amenințare de sănătate publică care s-o justifice (art. 53). Beneficiile suspendabile nu sunt definite prin lege, iar agentul constatator lipsește.",
-        "otherComments": "Lipsesc fișa financiară și sursa de finanțare (art. 111, 138 alin. (5) Constituție, Legea 69/2010). Sancționarea automată pe baza SIUI ridică probleme GDPR (art. 9 și 22). Nu se evaluează capacitatea medicilor de familie. Nu e clară situația neasiguraților și a celor stabiliți în străinătate."
+        "articleRef": "Art. unic – art. 231¹ alin. (1), (4), (5), (9)",
+        "proposalContent": "Se elimină alin. (4), (5) și (7) lit. c). Alin. (1) devine: „Fiecare persoană adultă are dreptul la un control medical preventiv anual gratuit, prin medicul de familie; CNAS notifică anual persoanele care nu l-au efectuat.” Alin. (9) se completează: costurile pentru persoanele neasigurate se suportă de la bugetul de stat, prin Ministerul Sănătății.",
+        "argumentation": "Amenda de 500-1.000 lei și suspendarea unor „beneficii neesențiale” nedefinite, stabilite prin ordin, încalcă art. 1 alin. (5), art. 26 și art. 53 din Constituție: obligă la intervenții medicale asupra persoanelor sănătoase sub sancțiune, deși scopul (depistarea precoce) se atinge prin notificări și stimulente, fără constrângere.",
+        "otherComments": "Lipsesc fișa financiară (art. 138 alin. 5 Constituție, art. 15 L. 500/2002), autoritatea care constată contravenția și trimiterea la OG 2/2001. Sancționarea automată prin SIUI ridică probleme GDPR (art. 22). Capacitatea medicilor de familie și persoanele fără medic de familie nu sunt avute în vedere."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 106287,
+      "durationMs": 98251,
       "sourceEndMarker": "SF-2ED732F5",
       "riskScore": 8,
       "riskLevel": "red",
-      "plainTitle": "Control medical obligatoriu, cu amendă și suspendarea unor beneficii medicale",
-      "verdictShort": "Prevenția gratuită este utilă, dar proiectul o transformă într-o obligație sancționată inclusiv prin restrângerea unor beneficii medicale nedefinite. Riscul major este delegarea către administrație a stabilirii accesului medical care poate fi suspendat.",
-      "initiatorClaim": "Inițiatoarea urmărește depistarea precoce a bolilor, reducerea mortalității evitabile și economii prin evitarea tratamentelor tardive. Expunerea de motive promite sprijinirea persoanelor vulnerabile și responsabilizarea populației.",
-      "realityCheck": "Textul obligă fiecare adult cu domiciliul sau reședința în România să efectueze anual consultații, analize și screeninguri prin medicul de familie, cu finanțare integrală din FNUASS. După avertisment și încă șase luni de neprezentare fără justificare medicală, prevede amendă și suspendarea unor beneficii medicale, fără să clarifice aplicarea succesivă sau cumulativă. Nu garantează accesul efectiv la programare înaintea sancționării și nu reglementează clar persoanele fără un control anterior.",
+      "plainTitle": "Control medical anual obligatoriu, cu amendă și suspendarea unor beneficii",
+      "verdictShort": "Prevenția gratuită este utilă, dar proiectul o impune prin sancțiuni insuficient definite și permite suspendarea unor beneficii medicale stabilite ulterior prin ordin. Riscul major este restrângerea accesului la sănătate fără garanții suficiente privind proporționalitatea și posibilitatea efectivă de prezentare.",
+      "initiatorClaim": "Inițiatoarea urmărește depistarea timpurie a bolilor, reducerea mortalității evitabile și scăderea cheltuielilor cu tratamentele tardive. Expunerea susține că notificările și sancțiunile vor crește participarea la prevenție, iar economiile viitoare vor depăși costurile inițiale.",
+      "realityCheck": "Proiectul obligă toate persoanele adulte cu domiciliul sau reședința în România să efectueze anual un control prin medicul de familie, finanțat integral din FNUASS, și introduce notificări și urmărire informatică. După depășirea intervalului de 12 luni de la ultimul control se emite un avertisment, iar după alte șase luni fără prezentare și fără justificare medicală sunt prevăzute amendă și suspendarea unor beneficii, fără reguli clare despre succesiunea sancțiunilor. Economiile invocate nu sunt demonstrate printr-o evaluare financiară în materialele furnizate, iar accesul efectiv la programări și investigații nu este garantat prin măsuri concrete.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 231¹ alin. (5) lit. b) permite suspendarea pentru șase luni a accesului la «unele beneficii neesențiale», dar lasă identificarea lor unui ordin comun MS–CNAS. Legea nu definește categoria și nu stabilește limite materiale suficiente ale acestei sancțiuni.",
-        "Art. 231¹ alin. (5) prevede sancțiuni «progresive», însă nu explică dacă amenda și suspendarea se aplică împreună, succesiv sau la repetarea faptei. Nu desemnează agentul constatator și autoritatea competentă să aplice sancțiunile; cadrul general contravențional nu rezolvă aceste alegeri speciale.",
-        "Art. 231¹ alin. (4) calculează termenul de la ultimul control. Pentru persoanele care nu au efectuat niciodată controlul sau al căror control nu este înregistrat nu există un reper inițial clar. Nici comunicarea avertismentului, de la care depinde termenul suplimentar, nu este reglementată suficient.",
-        "Art. 231¹ alin. (1) privește toți adulții cu domiciliul sau reședința în România, inclusiv neasigurații, deși articolul este introdus în secțiunea despre drepturile și obligațiile asiguraților. Lipsesc reguli explicite pentru accesul persoanelor fără medic de familie.",
-        "Art. 231¹ alin. (5) acceptă justificarea medicală, dar nu protejează expres persoana care nu găsește programare, nu are furnizor disponibil sau întâmpină alte obstacole obiective. Răspunderea contravențională presupune vinovăție, însă proiectul nu integrează aceste situații în mecanismul de identificare a neprezentării.",
-        "Art. 231¹ alin. (6) lit. a) exceptează toate persoanele cu tratamente continue înregistrate în SIUI, fără să ceară ca monitorizarea lor să includă prevenția prevăzută la alin. (2). În schimb, exceptarea persoanelor nedeplasabile nu le asigură servicii preventive la domiciliu.",
-        "Art. 231¹ alin. (9) identifică FNUASS drept sursă de finanțare, dar documentele furnizate nu cuantifică numărul beneficiarilor, costurile analizelor, capacitatea medicilor sau adaptările informatice. Economiile viitoare afirmate în expunerea de motive nu demonstrează acoperirea cheltuielilor inițiale.",
-        "Dispoziția finală prevede intrarea în vigoare după 90 de zile de la publicare, iar alin. (8) permite adoptarea normelor în următoarele 90 de zile de la intrarea în vigoare. Obligația legală poate, așadar, deveni aplicabilă înaintea normelor; acest decalaj nu înseamnă însă că amenzile pot fi aplicate imediat."
+        "Noutatea nu este prevenția în sine: cadrul Legii nr. 95/2006 cuprinde deja obligații ale asiguraților privind controalele profilactice și periodice. Art. 231¹ propus introduce însă o obligație anuală generală, inclusiv pentru adulții neasigurați, un conținut minim și sancțiuni specifice; nu trebuie prezentat ca prima reglementare a controalelor preventive.",
+        "Art. 231¹ alin. (5) lit. b) permite suspendarea pentru șase luni a accesului la «unele beneficii neesențiale», fără să le identifice. Definirea lor prin norme metodologice lasă administrației o decizie esențială asupra întinderii sancțiunii; textul nu permite concluzia că se suspendă toate serviciile medicale sau accesul la urgențe.",
+        "Art. 231¹ alin. (5) numește sancțiunile «progresive», dar nu precizează când se aplică amenda, când intervine suspendarea și dacă acestea se cumulează. Nu desemnează expres agenții constatatori și autoritatea competentă; cadrul general al OG nr. 2/2001 continuă să se aplice și nu poate fi considerat înlăturat, inclusiv în privința contestării.",
+        "Art. 231¹ alin. (4) calculează termenul de la ultimul control, fără să stabilească începutul obligației pentru cine nu a efectuat niciodată unul sau al cărui control anterior nu poate fi dovedit. Lipsesc dispoziții tranzitorii clare privind primul ciclu anual și folosirea controalelor anterioare intrării în vigoare.",
+        "Art. 231¹ alin. (5)-(6) recunoaște justificări medicale, dar nu reglementează explicit lipsa programărilor, indisponibilitatea analizelor ori imposibilitatea obiectivă de acces din cauze nemedicale. Aceste lacune pot produce sancționări inechitabile; ele trebuie analizate și prin condiția vinovăției din dreptul contravențional general.",
+        "Art. 231¹ alin. (1) și (9) extinde obligația și finanțarea controlului la adulții neasigurați. Amplasarea articolului în secțiunea privind asigurații nu înlătură formularea universală, dar trebuie clarificate înscrierea la medicul de familie, decontarea investigațiilor și capacitatea furnizorilor de a prelua cererea.",
+        "Termenele finale nu sunt sincronizate: legea intră în vigoare la 90 de zile de la publicare, iar alin. (8) permite aprobarea normelor în încă 90 de zile de la intrarea în vigoare. Astfel, obligația poate deveni aplicabilă înaintea normelor, deși dispoziția finală invocă tocmai pregătirea acestora și adaptarea infrastructurii.",
+        "Art. 231¹ alin. (7) cere identificarea automată a neprezentărilor și declanșarea procedurii de sancționare. Nu dispune expres aplicarea automată a sancțiunii, însă trebuie prevăzute verificarea erorilor din SIUI, examinarea justificărilor și responsabilitatea deciziei.",
+        "Art. 231¹ alin. (9) indică FNUASS ca sursă de finanțare, dar materialele nu cuantifică numărul beneficiarilor, costul investigațiilor, adaptările informatice sau administrarea notificărilor și sancțiunilor. Nu apare o taxă nouă pentru IMM-uri; sarcinile directe revin populației, furnizorilor medicali, CNAS și Ministerului Sănătății."
       ],
-      "blindSpotsCaught": "Termenul pentru norme începe la intrarea în vigoare, deși dispoziția finală justifică amânarea tocmai prin necesitatea pregătirii acestora. În plus, alin. (7) lit. c) automatizează identificarea neprezentării și declanșarea procedurii, fără să prevadă verificarea prealabilă a datelor și a obstacolelor obiective. Textul nu dispune expres aplicarea automată a sancțiunii. Nu există abrogări sau derogări finale care să remedieze aceste probleme.",
-      "constitutionalityNote": "Există un risc serios de neconstituționalitate prin raportare la art. 1 alin. (5): conduita sancționată, progresivitatea sancțiunilor și beneficiile suspendabile nu sunt suficient de previzibile. Stabilirea prin ordin a serviciilor afectate poate depăși executarea legii și poate lăsa administrației elemente esențiale ale restrângerii unui drept. Obligația de a accepta investigații medicale, susținută prin sancțiuni, trebuie evaluată prin art. 22 și art. 26 alin. (2), iar suspendarea beneficiilor prin art. 34 și condițiile art. 53. Protecția sănătății este un scop legitim, dar documentele nu demonstrează necesitatea și proporționalitatea sancțiunilor pentru întreaga populație adultă. Art. 23 alin. (12), privind legalitatea pedepselor, nu trebuie aplicat automat oricărei contravenții; critica directă de previzibilitate se sprijină în primul rând pe art. 1 alin. (5). Pentru art. 138 alin. (5), indicarea fondului este relevantă, dar evaluarea bugetară rămâne insuficient documentată; această insuficiență nu dovedește singură neconstituționalitatea.",
-      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile privind accesul la profesii reglementate sau exercitarea lor. Proiectul nu introduce evident asemenea restricții; coordonarea controlului prin medicul de familie nu demonstrează singură un monopol profesional nou sau obligația unui test potrivit directivei. Pentru Directiva (UE) 2015/1535, adaptarea SIUI și notificările electronice nu constituie, prin ele însele, o reglementare a serviciilor societății informaționale supusă notificării TRIS; nu rezultă din text un asemenea temei. Nu sunt reglementate sisteme AI. Prelucrarea datelor medicale și identificarea automată a neprezentării impun însă respectarea GDPR, inclusiv temei juridic pentru datele de sănătate, minimizarea datelor, exactitate și garanții procedurale. Art. 22 GDPR devine relevant dacă sancțiunea este decisă exclusiv automat, cu efecte juridice; simpla declanșare automată a procedurii nu dovedește această situație. Nu sunt impuse direct taxe sau obligații administrative IMM-urilor, dar cresc sarcinile furnizorilor medicali și ale CNAS.",
+      "blindSpotsCaught": "Dispoziția finală și alin. (8) produc două intervale succesive de câte 90 de zile, nu un termen comun pentru pregătirea aplicării. În plus, formula bazată pe «ultimul control» nu oferă un reper pentru prima prezentare. Excepția pentru tratamente continue înregistrate în SIUI poate depinde de completitudinea evidențelor, iar automatizarea declanșării procedurii nu trebuie confundată cu o sancționare automată.",
+      "constitutionalityNote": "Scopul prevenirii bolilor este legitim și susținut de art. 34 din Constituție. Totuși, noțiunea nedefinită de «beneficii neesențiale», mecanismul neclar al sancțiunilor și lipsa unui termen inițial previzibil ridică probleme serioase sub art. 1 alin. (5). Suspendarea accesului la beneficii medicale trebuie evaluată prin art. 34 și, în măsura restrângerii exercițiului unor drepturi, prin art. 53: întinderea restrângerii trebuie stabilită prin lege, iar necesitatea și proporționalitatea demonstrate. Obligația de examinare și investigații implică și autonomia persoanei, protejată prin art. 22 și 26; textul nu autorizează efectuarea lor prin constrângere fizică și nu înlătură expres regulile generale privind consimțământul informat. Obstacolele de acces și tratamentul persoanelor vulnerabile cer examinare prin art. 16. Art. 23 alin. (12) privește în primul rând legalitatea pedepselor și nu trebuie transpus automat oricărei contravenții. Pentru finanțare trebuie verificate fundamentarea cheltuielilor și respectarea art. 111 alin. (1), când este incident, și art. 138 alin. (5); simpla lipsă a unei estimări în expunerea furnizată nu dovedește singură neconstituționalitatea.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testarea proporționalității restricțiilor privind accesul la profesii reglementate sau exercitarea acestora. Proiectul nu introduce evident o asemenea restricție profesională nouă, astfel încât aplicabilitatea directivei nu poate fi presupusă; nici un monopol economic nou nu rezultă demonstrat din text. Adaptarea SIUI și notificările electronice nu declanșează prin ele însele notificarea TRIS potrivit Directivei (UE) 2015/1535: nu rezultă o reglementare care vizează în mod specific servicii ale societății informaționale. Prelucrarea datelor medicale trebuie însă să respecte RGPD, inclusiv temeiurile din art. 6 și 9, exactitatea, minimizarea și securitatea datelor. Art. 22 devine relevant dacă decizia cu efect juridic este luată exclusiv automat, ceea ce proiectul nu impune expres; trebuie verificată și necesitatea evaluării impactului potrivit art. 35. Nu se poate deduce o încălcare distinctă a dreptului UE al concurenței numai din organizarea controlului prin medicul de familie.",
       "senatForm": {
-        "articleRef": "Articolul unic – art. 231¹ integral",
-        "proposalContent": "Art. 231¹ – Adulții cu domiciliul sau reședința în România au dreptul la un control preventiv anual gratuit, prin medicul de familie, cu consimțământ informat, indiferent de calitatea de asigurat. Controlul se adaptează vârstei și riscului și se finanțează din FNUASS. Neprezentarea sau refuzul nu atrag sancțiuni ori restrângerea accesului la servicii medicale.",
-        "argumentation": "Prevenția trebuie susținută prin acces efectiv și informare. Suspendarea unor beneficii medicale nedefinite afectează previzibilitatea și poate compromite protecția sănătății. Textul propus păstrează finanțarea prevenției, respectă consimțământul și elimină sancționarea persoanelor care întâmpină bariere de acces.",
-        "otherComments": "Corelați dispoziția finală cu înlocuirea articolului și fundamentați costurile și capacitatea furnizorilor. Destinatar: Comisia pentru sănătate și familie a Camerei Deputaților. Analiza privește forma furnizată; verificarea online a surselor și a stadiului parlamentar nu a fost disponibilă."
+        "articleRef": "Art. 231¹ alin. (1), (4)-(6), (7) lit. c)",
+        "proposalContent": "Alin. (1) va avea următorul cuprins: «Orice persoană adultă cu domiciliul sau reședința în România are dreptul la un control medical preventiv anual, gratuit și voluntar, prin medicul de familie, indiferent de calitatea de asigurat.» Alin. (4)-(6) și alin. (7) lit. c) se elimină.",
+        "argumentation": "Prevenția trebuie susținută prin acces efectiv, informare și finanțare. Amenda și suspendarea unor beneficii medicale nedefinite pot afecta disproporționat persoanele vulnerabile și pe cele fără acces la programări. Propunerea păstrează controlul gratuit și notificările, eliminând constrângerea și mecanismul de sancționare.",
+        "otherComments": "Analiza privește forma furnizată; sursele oficiale nu au putut fi reverificate online. Termenul indicat, 17.11.2025, este expirat. Mesajul către comisie este o propunere cetățenească, pe care un deputat o poate prelua potrivit procedurii și stadiului actual. Trebuie corelate termenele normelor cu intrarea în vigoare și fundamentat bugetul."
       },
       "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 7.7,
+      "riskLevel": "red",
+      "analyzedAt": "2026-11-19T08:58:33.653Z",
+      "method": "whole-text-v1",
+      "textChars": 3485,
+      "form": "initiator",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 8,
+        "claude": 7,
+        "codex": 8
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:21:31.225Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

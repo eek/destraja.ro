@@ -2,120 +2,176 @@
   "billId": "Pl-x 53/2026",
   "slug": "plx-53-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T07:00:44.939Z",
+  "updatedAt": "2026-11-24T15:31:06.195Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 3178,
+    "ordinanceChars": 0,
+    "memoChars": 10430,
+    "memoSupplied": 10430,
+    "marker": "SF-C67E596D"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-53-2026.json",
+    "form": "initiator",
+    "textHash": "c67e596d42dd1d56",
+    "fetchedAt": "2026-11-19T10:45:53.681Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 7089,
+    "truncated": false,
+    "included": true,
+    "key": "cdbbc12f10ca3ad1"
+  },
   "consensus": {
-    "riskScore": 4,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
-    "plainTitle": "Președinții secțiilor de votare: intrare doar prin examen și excludere pe 5 ani pentru abateri",
-    "summaryTlDr": "Reformă utilă și bine țintită a corpului experților electorali: examen obligatoriu, mai multe motive de excludere și un prag de studii clar. Problemele țin de dozaj: aceeași interdicție de 5 ani pentru orice abatere și câteva formulări vagi. Toate se pot repara prin amendamente.",
-    "initiatorClaim": "Inițiatorii (deputați USR și un parlamentar PNL) spun că regulile din 2015 pentru corpul experților electorali, adică cei care pot conduce secțiile de votare, au fost depășite de scrutinurile din 2024. Vor admitere numai prin examen, motive de excludere în plus, o interdicție de reînscriere care chiar descurajează abaterile și un prag de studii clar după schimbarea legii educației.",
-    "realityCheck": "Legea închide intrarea fără examen, crește numărul motivelor de excludere de la unul la cinci și prelungește interdicția de reînscriere de la 6 luni la 5 ani. Efectul secundar este că aceeași pedeapsă de 5 ani îl lovește și pe cel care uită o declarație, și pe cel care greșește fără intenție o cifră din procesul-verbal. În plus, obligația de declarare înaintea fiecărui scrutin poate deveni imposibil de respectat la alegerile anunțate cu mai puțin de 60 de zile înainte. Costul bugetar este neglijabil, iar sarcina cade pe experți și pe AEP.",
+    "plainTitle": "Președinții secțiilor de votare: intrare doar prin examen, mai multe motive de excludere",
+    "summaryTlDr": "Reformă tehnică, în general utilă, a Corpului experților electorali: intrarea se face doar prin examen și apar motive reale de excludere. Textul are însă două scăpări care trebuie reparate: o trimitere greșită care i-ar putea scoate din corp pe experții admiși legal prin excepție și excluderea automată pentru o declarație nedepusă la timp.",
+    "initiatorClaim": "Inițiatorii vor ca accesul în Corpul experților electorali să se facă doar prin examen, ca sancțiunea excluderii să conteze cu adevărat (5 ani în loc de 6 luni) și ca AEP să poată exclude experții incompetenți, incompatibili sau care refuză să-și facă treaba. Vor și să corecteze trimiterea depășită la „învățământul general obligatoriu”.",
+    "realityCheck": "Legea abrogă admiterea pe bază de aviz pentru foștii președinți de secție (art. 16 alin. 4-5), ridică pragul minim al excepției de la „învățământul general obligatoriu” la liceu și extinde motivele de excludere de la unul (contravenții) la cinci. Noua lit. a) a alin. (9) trimite la „oricare dintre condițiile de la alin. (1)”, inclusiv licența, fără să-i excepteze pe cei admiși prin excepția de la alin. (2), care astfel ar putea fi excluși. În plus, obligația de a depune declarații înaintea fiecărui scrutin, sancționată direct cu excludere și cu o interdicție de 5 ani, poate goli corpul tocmai în zonele rurale și în diaspora, unde experții sunt deja puțini.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct. 5 (art. 16 alin. 6 L208/2015)",
-      "proposalContent": "(6) La examen poate participa orice persoană care îndeplinește condițiile de la alin. (1) sau (2) și care nu a fost exclusă în ultimii 5 ani în temeiul alin. (9) lit. a), c), d) sau e), respectiv în ultimul an în temeiul lit. b). Interdicția nu se aplică dacă excluderea s-a bazat pe alin. (1) lit. g), iar cauza s-a încheiat prin clasare sau achitare.",
-      "argumentation": "Proiectul aplică aceeași interdicție de 5 ani oricărei excluderi, de la o declarație nedepusă la abateri grave. Un expert exclus fiindcă era urmărit penal ar rămâne blocat 5 ani și după achitare, contrar prezumției de nevinovăție (art. 23 alin. 11) și proporționalității (art. 53). Trimiterea la alin. (2) păstrează accesul la examen al absolvenților de liceu.",
-      "otherComments": "Propun și: (1) o normă tranzitorie, ca termenul de 5 ani să nu se aplice excluderilor anterioare legii (art. 15 alin. 2); (2) la alin. (9) lit. d), excludere doar pentru erori săvârșite cu intenție sau din culpă gravă; (3) la alin. (16) lit. b), pentru scrutinurile anunțate cu mai puțin de 60 de zile înainte, termen de 10 zile de la stabilirea datei."
+      "articleRef": "Art. unic pct. 6 – art. 16 alin. (9) lit. a), b)",
+      "proposalContent": "La alin. (9): lit. a) devine «nu mai îndeplinește oricare dintre condițiile prevăzute la alin. (1), cu excepția lit. f) pentru persoanele admise potrivit alin. (2)»; lit. b) devine «nu își îndeplinește obligația prevăzută la alin. (16) lit. b) nici în 15 zile de la notificarea transmisă de Autoritatea Electorală Permanentă».",
+      "argumentation": "Lit. a) actuală permite excluderea experților admiși legal prin excepția de la alin. (2), care nu au licența cerută de alin. (1) lit. f). Lit. b) sancționează cu excludere și interdicție de 5 ani o simplă omisiune administrativă, fără somație. Riscul este pierderea a mii de experți și lipsa președinților de secție în mediul rural și în diaspora.",
+      "otherComments": "Art. 16 alin. (16) lit. b) cere declarații cu 60 de zile înainte de «fiecare scrutin», deși alegerile parțiale, anticipate sau referendumurile pot fi convocate cu termene mai scurte. Formula finală trebuie să citeze art. 76 alin. (1), legea fiind organică (art. 73 alin. 3 lit. a). Lipsesc dispoziții tranzitorii pentru experții admiși pe bază de aviz."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 65131,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Reforma Corpului Experților Electorali: admitere doar prin examen și excludere pentru greșeli în procesele-verbale",
-      "verdictShort": "O reformă electorală în esență pozitivă și necesară, care elimină intrarea fără examen în Corpul Experților Electorali și sancționează transcrierea greșită a voturilor în procesele-verbale. Totuși, proiectul conține o capcană birocratică: experții care uită să trimită o declarație cu 60 de zile înainte de fiecare scrutin sunt excluși automat și primesc interdicție pe 5 ani.",
-      "initiatorClaim": "Inițiatorii urmăresc profesionalizarea președinților și locțiitorilor secțiilor de votare după problemele din alegerile din 2024, prin impunerea examenului obligatoriu pentru toți experții electorali, înăsprirea motivelor de excludere și creșterea interdicției de reexaminare de la 6 luni la 5 ani.",
-      "realityCheck": "Legea închide pe bună dreptate portița din 2015 prin care persoanele puteau deveni experți electorali fără examen, doar cu avizul AEP, și introduce excluderea celor care trec greșit voturile valabil exprimate în procesele-verbale. Însă, prin combinarea art. 16 alin. (16) lit. b) cu alin. (9) lit. b) și alin. (6), o simplă omisiune administrativă (netrimiterea unei declarații cu 60 de zile înainte de fiecare scrutin, chiar dacă expertul nu dorește să participe la acele alegeri) atrage aceeași sancțiune ca frauda contravențională: excluderea din corp și interdicția de a mai susține examenul timp de 5 ani.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 93083,
+      "sourceEndMarker": "SF-C67E596D",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Reguli mai stricte și excluderi pe 5 ani pentru experții electorali",
+      "verdictShort": "Reforma propusă de inițiatori urmărește un obiectiv legitim de profesionalizare a Corpului Experților Electorali, însă forma actuală introduce sancțiuni uniforme disproporționate și termene birocratice necorelate care pot duce la excluderi masive. În plus, proiectul conține o eroare constituțională în formula de adoptare, indicând procedură de lege ordinară într-un domeniu de lege organică.",
+      "initiatorClaim": "Inițiatorii (parlamentari USR și un deputat PNL) susțin în expunerea de motive că, la peste 10 ani de la înființare, Corpul Experților Electorali trebuie reformat prin admitere exclusiv prin examen, ridicarea pragului de studii de excepție la nivel liceal, raportare periodică a integrității și sancțiuni reale (interdicție de 5 ani în loc de 6 luni) pentru a crește profesionalismul și corectitudinea alegerilor.",
+      "realityCheck": "Față de Legea nr. 208/2015 în vigoare, proiectul elimină admiterea pe baza avizului favorabil AEP (abrogând alin. 4 și 5), ridică pragul excepției de studii la liceu și extinde cauzele de excludere de la o singură situație (contravenții) la cinci (inclusiv omisiunea declarațiilor, erori de consemnare și refuzul atribuțiilor). Efectul mecanic problematic este aplicarea automată a interdicției de 5 ani chiar și pentru întârzieri administrative, necorelarea termenului de 60 de zile cu alegerile parțiale, referendumurile ori cererile de suspendare (30 de zile, alin. 12) și lipsa unor garanții procedurale împotriva deciziilor birourilor electorale ierarhic superioare.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Eliminarea admiterii fără examen (art. 16 alin. 3-5): Se abrogă posibilitatea intrării în Corpul Experților Electorali doar pe baza avizului favorabil al AEP pentru participări anterioare, examenul devenind singura cale de acces.",
-        "Excluderea pentru erori la numărarea și consemnarea voturilor (art. 16 alin. 9 lit. d): Experții care comit erori în procesele-verbale ce conduc la înscrierea incorectă a voturilor valabil exprimate pentru competitorii electorali, constatate prin decizie a biroului ierarhic superior, sunt excluși din corp și nu mai pot da examen 5 ani (alin. 6).",
-        "Capcana declarației la 60 de zile (art. 16 alin. 16 lit. b raportat la alin. 9 lit. b): Toți experții din baza de date permanentă a AEP trebuie să trimită declarații pe propria răspundere cu cel puțin 60 de zile înainte de fiecare scrutin; cine omite termenul este exclus automat pe 5 ani, în loc să fie doar omis de la tragerea la sorți pentru acel scrutin.",
-        "Clarificarea studiilor minime (art. 16 alin. 2): În localitățile cu număr insuficient de licențiați, pragul minim de studii devine absolvirea învățământului liceal, eliminând confuzia terminologică privind „învățământul general obligatoriu”."
+        "Interdicție uniformă de 5 ani indiferent de gravitate (art. 16 alin. 6 și 9): creșterea de la 6 luni la 5 ani se aplică identic atât pentru fraude/contravenții, cât și pentru nedepunerea la timp a declarației (lit. b), pierderea temporară a unei condiții precum apartenența politică sau calitatea de urmărit penal chiar dacă ulterior intervine clasarea (lit. a).",
+        "Obligație recurentă necalibrată de 60 de zile (art. 16 alin. 16 lit. b și c): toți experții trebuie să depună declarații «înainte de fiecare scrutin electoral», fără a limita cerința la circumscripția în care au loc alegeri parțiale, fără corelare cu referendumurile organizate sub 60 de zile sau cu termenul de suspendare de 30 de zile de la alin. (12), iar la lit. c) modificările de date personale apărute sub 60 de zile înaintea votului nu pot fi raportate conform textului.",
+        "Excludere la decizia birourilor electorale fără criterii de gravitate și garanții procedurale (art. 16 alin. 9 lit. d și e): orice eroare de consemnare a voturilor sau «refuzul nejustificat» ori neîndeplinirea «în mod repetat» a atribuțiilor, constatate de biroul electoral ierarhic superior (compus majoritar din reprezentanți politici), atrag excluderea fără a distinge între greșeală materială și culpă gravă și fără procedură expresă de audiere.",
+        "Omisiune de corelare privind absolvenții de liceu (art. 16 alin. 9 lit. a raportat la alin. 2): alin. (9) lit. a) impune excluderea dacă expertul nu mai îndeplinește «oricare dintre condițiile prevăzute la alin. (1)», fără a excepta condiția studiilor universitare de la alin. (1) lit. f) pentru cei admiși legal pe baza excepției de la alin. (2)."
       ],
-      "blindSpotsCaught": "Corpul Experților Electorali este o evidență permanentă cu zeci de mii de persoane, dintre care multe sunt inactive la un anumit scrutin (plecate din țară, în concediu sau indisponibile). Obligația de a depune declarații cu 60 de zile înainte de „fiecare scrutin electoral” (inclusiv alegeri parțiale sau anticipate, unde nici calendarul nu este mereu cunoscut cu 60 de zile înainte), sub sancțiunea excluderii pe 5 ani, riscă să golească artificial baza de date a AEP. În plus, la alin. (9) lit. d) nu se distinge între o eroare materială de oboseală și una intenționată, iar biroul electoral ierarhic superior (format preponderent din reprezentanți politici) poate decide excluderea fără o procedură contradictorie clară.",
-      "constitutionalityNote": "Proiectul respectă în ansamblu art. 1 alin. (5) din Constituție privind calitatea legii, mai ales prin corelarea nivelului de studii cu Legea învățământului preuniversitar nr. 198/2023. Totuși, aplicarea aceleiași sancțiuni de interdicție pe 5 ani atât pentru contravenții electorale/erori în procesele-verbale, cât și pentru simpla nedepunere în termen de 60 de zile a unei declarații administrative ridică probleme de proporționalitate a sancțiunii și de drept la apărare (art. 24 și art. 53 din Constituție).",
-      "euLawNote": "Nu are incidență directă asupra pieței unice, concurenței sau serviciilor digitale (Directiva TRIS 2015/1535 nu este aplicabilă). Din perspectiva Directivei (UE) 2018/958, funcția de președinte/locțiitor de secție de votare implică exercițiul autorității publice electorale temporare, nu o profesie reglementată pe piața muncii, însă principiul general al proporționalității sancțiunilor administrative rămâne relevant.",
+      "blindSpotsCaught": "Formula de atestare de la finalul proiectului menționează adoptarea cu respectarea art. 76 alin. (2) din Constituție (lege ordinară), deși Legea nr. 208/2015 reglementează sistemul electoral și organizarea AEP, domeniu rezervat expres legii organice conform art. 73 alin. (3) lit. a) din Constituție (art. 76 alin. 1). De asemenea, lipsesc dispozițiile tranzitorii pentru procedurile de admitere prin aviz favorabil aflate eventual în curs, iar obligația de la alin. (16) lit. b) ar putea declanșa excluderi automate în masă la simple alegeri locale parțiale.",
+      "constitutionalityNote": "Există riscuri serioase din perspectiva art. 73 alin. (3) lit. a) coroborat cu art. 76 alin. (1) (caracterul organic al legii electorale, eronat indicat ca ordinar în formula finală), a art. 1 alin. (5) privind claritatea și previzibilitatea legii (termeni nedefiniți precum «în mod repetat», «refuz nejustificat», necorelarea cu alin. 2 și alin. 12, aplicabilitatea la alegeri parțiale/referendumuri) și a principiului proporționalității și egalității (art. 16 și art. 53) prin aplicarea aceleiași interdicții de 5 ani unor abateri administrative minore sau situații fără culpă (ex. clasare după urmărire penală, în timp ce o persoană care iese dintr-un partid fără a fi fost în corp poate da examen imediat).",
+      "euLawNote": "Directiva (UE) 2018/958 privind testul de proporționalitate nu este incidentă, deoarece calitatea de expert electoral nu este o profesie reglementată, ci o funcție legată de exercitarea autorității publice în procesul electoral (art. 51 TFUE). Directiva (UE) 2015/1535 (TRIS) nu este aplicabilă, proiectul nevizând servicii digitale sau standarde tehnice. În schimb, sub aspectul Regulamentului (UE) 2016/679 (RGPD), colectarea recurentă înainte de fiecare scrutin a datelor privind opiniile politice (art. 9) și situația penală (art. 10) de la toți experții din țară, indiferent dacă scrutinul îi vizează, ridică întrebări față de principiul minimizării datelor (art. 5 alin. 1 lit. c).",
       "senatForm": {
-        "articleRef": "Art. unic pct. 6 și 7 (art. 16 alin. 9 și 16)",
-        "proposalContent": "La art. 16 alin. (9), lit. b) se elimină, iar la alin. (16) lit. b) se adaugă teza finală: „Nedepunerea declarației în termen atrage neparticiparea la tragerea la sorți pentru scrutinul respectiv.” La alin. (9) lit. d), după cuvântul „erori” se introduce sintagma „nerectificate sau săvârșite cu rea-credință”.",
-        "argumentation": "Sancționarea nedepunerii unei declarații cu 60 de zile înainte de fiecare scrutin cu excluderea din corp și interdicția de reexaminare pe 5 ani este excesivă și riscă să golească baza de date a AEP de experți inactivi temporar. Sancțiunea firească pentru nedepunerea declarației este neparticiparea la tragerea la sorți pentru acel scrutin, nu interdicția pe 5 ani.",
-        "otherComments": "De asemenea, la alin. (9) lit. d), excluderea pe 5 ani pentru orice eroare materială în procesul-verbal, chiar cauzată de epuizarea după 24 de ore de vot continuu, trebuie nuanțată pentru a viza erorile nerectificate sau vădit intenționate, cu garantarea dreptului la apărare al expertului în fața biroului ierarhic superior."
-      }
+        "articleRef": "Art. unic, pct. 5-7 (art. 16 alin. 6, 9, 16)",
+        "proposalContent": "La alin. (6), interdicția de 5 ani să vizeze doar excluderea de la alin. (9) lit. c)-e). La alin. (9) lit. a) se adaugă «cu excepția alin. (2)», iar neîndeplinirea alin. (16) lit. b) să atragă suspendarea, nu excluderea. La alin. (16) lit. b), declarația să se depună doar pentru scrutinul din circumscripția expertului, în 15 zile de la stabilirea datei.",
+        "argumentation": "Excluderea pe 5 ani pentru o omisiune administrativă este disproporționată. Termenul de 60 de zile înainte de «fiecare scrutin» e necorelat cu alegerile parțiale, referendumurile și termenul de suspendare de 30 de zile (alin. 12). Trimiterea la alin. (1) fără excepția alin. (2) riscă să îi afecteze pe experții admiși cu studii liceale.",
+        "otherComments": "Formula de adoptare invocă greșit art. 76 alin. (2) din Constituție (lege ordinară), deși art. 73 alin. (3) lit. a) impune lege organică pentru sistemul electoral și AEP (art. 76 alin. 1). Pentru alin. (9) lit. d)-e), se impun definirea erorii grave, dreptul la audiere și clarificarea căii de atac contra deciziei biroului electoral ierarhic superior."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 222407,
+      "durationMs": 57718,
+      "sourceEndMarker": "SF-C67E596D",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Președinții secțiilor de votare: intrare doar prin examen și excludere pe 5 ani pentru abateri",
-      "verdictShort": "Reformă utilă și bine țintită a corpului experților electorali: examen obligatoriu, mai multe motive de excludere și un prag de studii clar. Problemele țin de dozaj: aceeași interdicție de 5 ani pentru orice abatere și câteva formulări vagi. Toate se pot repara prin amendamente.",
-      "initiatorClaim": "Inițiatorii (deputați USR și un parlamentar PNL) spun că regulile din 2015 pentru corpul experților electorali, adică cei care pot conduce secțiile de votare, au fost depășite de scrutinurile din 2024. Vor admitere numai prin examen, motive de excludere în plus, o interdicție de reînscriere care chiar descurajează abaterile și un prag de studii clar după schimbarea legii educației.",
-      "realityCheck": "Legea închide intrarea fără examen, crește numărul motivelor de excludere de la unul la cinci și prelungește interdicția de reînscriere de la 6 luni la 5 ani. Efectul secundar este că aceeași pedeapsă de 5 ani îl lovește și pe cel care uită o declarație, și pe cel care greșește fără intenție o cifră din procesul-verbal. În plus, obligația de declarare înaintea fiecărui scrutin poate deveni imposibil de respectat la alegerile anunțate cu mai puțin de 60 de zile înainte. Costul bugetar este neglijabil, iar sarcina cade pe experți și pe AEP.",
+      "plainTitle": "Președinții secțiilor de votare: intrare doar prin examen, mai multe motive de excludere",
+      "verdictShort": "Reformă tehnică, în general utilă, a Corpului experților electorali: intrarea se face doar prin examen și apar motive reale de excludere. Textul are însă două scăpări care trebuie reparate: o trimitere greșită care i-ar putea scoate din corp pe experții admiși legal prin excepție și excluderea automată pentru o declarație nedepusă la timp.",
+      "initiatorClaim": "Inițiatorii vor ca accesul în Corpul experților electorali să se facă doar prin examen, ca sancțiunea excluderii să conteze cu adevărat (5 ani în loc de 6 luni) și ca AEP să poată exclude experții incompetenți, incompatibili sau care refuză să-și facă treaba. Vor și să corecteze trimiterea depășită la „învățământul general obligatoriu”.",
+      "realityCheck": "Legea abrogă admiterea pe bază de aviz pentru foștii președinți de secție (art. 16 alin. 4-5), ridică pragul minim al excepției de la „învățământul general obligatoriu” la liceu și extinde motivele de excludere de la unul (contravenții) la cinci. Noua lit. a) a alin. (9) trimite la „oricare dintre condițiile de la alin. (1)”, inclusiv licența, fără să-i excepteze pe cei admiși prin excepția de la alin. (2), care astfel ar putea fi excluși. În plus, obligația de a depune declarații înaintea fiecărui scrutin, sancționată direct cu excludere și cu o interdicție de 5 ani, poate goli corpul tocmai în zonele rurale și în diaspora, unde experții sunt deja puțini.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. unic pct. 2-4 (art. 16 alin. 3-5): admiterea se face exclusiv prin examen, iar calea avizului favorabil AEP pentru foștii președinți și locțiitori de secție dispare. Experții deja admiși pe această cale rămân în corp, fiindcă textul nu le retrage calitatea.",
-        "Art. unic pct. 5 (art. 16 alin. 6): interdicția de reînscriere crește de la 6 luni la 5 ani și se aplică identic pentru orice motiv de excludere, de la o declarație nedepusă până la contravenții electorale. Lipsește o normă tranzitorie pentru cei excluși înainte de intrarea în vigoare.",
-        "Art. unic pct. 6 (art. 16 alin. 9 lit. d): orice eroare din procesul-verbal care a dus la înscrierea greșită a voturilor, constatată de biroul superior, atrage excluderea. Nu există prag de gravitate și nici distincție între greșeala de bună-credință și manipulare. Lit. e) folosește „în mod repetat” fără definiție, dar e filtrată de cererea expresă de excludere a biroului superior.",
-        "Art. unic pct. 7 (art. 16 alin. 16 lit. b): declarația pe proprie răspundere privind apartenența politică și situația penală trebuie trimisă cu cel puțin 60 de zile înainte de „fiecare scrutin electoral”, sub sancțiunea excluderii. Nu e clar dacă intră aici și alegerile locale parțiale sau referendumurile locale din alte localități. Dacă data unui scrutin se stabilește cu mai puțin de 60 de zile înainte, obligația nu mai poate fi respectată. Lit. c), privind actualizarea datelor personale, nu are nicio sancțiune.",
-        "Art. unic pct. 1 (art. 16 alin. 2): sintagma „învățământul general obligatoriu” devine „cel puțin învățământul liceal”. Astfel dispare ambiguitatea creată de Legea nr. 198/2023, iar pragul pentru excepția din localitățile fără destui absolvenți de facultate urcă de la 10 la 12 clase. Textul nu precizează dacă este necesar bacalaureatul.",
-        "Impactul bugetar și birocratic este redus: nu apar taxe sau costuri pentru cetățeni ori IMM-uri. Sarcina cade pe experți, care depun o declarație înaintea fiecărui scrutin, și pe AEP, care trebuie să verifice aceste declarații și să organizeze examenele ca singură cale de admitere."
+        "Art. unic pct. 2-4: dispare admiterea pe baza avizului AEP pentru activitatea anterioară ca președinte sau locțiitor (alin. 3, 4, 5 actuale) și rămâne doar examenul. Lipsesc dispoziții tranzitorii, deși, în lipsa unei norme exprese, experții deja admiși prin aviz ar trebui să-și păstreze calitatea.",
+        "Art. unic pct. 5: perioada după care un expert exclus poate da din nou examenul crește de la 6 luni la 5 ani. Textul nu spune dacă termenul nou se aplică și excluderilor dispuse înainte de intrarea în vigoare.",
+        "Art. unic pct. 6, alin. (9) lit. a): excluderea pentru neîndeplinirea «oricăreia» dintre condițiile de la alin. (1) îi include și pe experții admiși legal prin excepția de la alin. (2), care prin definiție nu au licență (alin. 1 lit. f). E o eroare de trimitere cu efect real.",
+        "Art. unic pct. 6, alin. (9) lit. b) coroborat cu pct. 7, alin. (16) lit. b): nedepunerea declarațiilor (nu sunt membri de partid, nu sunt urmăriți penal) cu 60 de zile înaintea fiecărui scrutin duce direct la excludere, fără somație și fără termen de remediere, chiar dacă expertul nu vrea să participe la acel scrutin.",
+        "Alin. (9) lit. d): orice eroare de consemnare care a dus la înscrierea incorectă a voturilor, constatată de biroul ierarhic superior, atrage excluderea, indiferent de gravitate sau de intenție. Lit. e) folosește formula vagă «în mod repetat», dar o temperează prin cerința unei decizii care să solicite expres excluderea.",
+        "Alin. (2): trecerea la «cel puțin învățământul liceal» rezolvă necorelarea cu Legea nr. 198/2023, dar nu precizează dacă e nevoie de diplomă de bacalaureat sau ajunge absolvirea liceului."
       ],
-      "blindSpotsCaught": "Formula de adoptare din forma inițiatorului invocă art. 76 alin. (2) din Constituție, adică majoritatea pentru lege ordinară. Legea nr. 208/2015 este însă organică, iar sistemul electoral și organizarea AEP sunt domenii de lege organică (art. 73 alin. 3 lit. a). Fără majoritatea de la art. 76 alin. (1), legea riscă neconstituționalitate extrinsecă. Apoi, noul alin. (6) permite examenul doar celor care îndeplinesc condițiile de la alin. (1) și nu trimite la excepția de la alin. (2). Citit literal, textul lasă absolvenții de liceu admisibili prin excepție fără acces la examen, deși examenul devine singura cale de admitere. În fine, Expunerea de motive vorbește de „declarații anuale”, dar textul cere câte o declarație înaintea fiecărui scrutin, ceea ce în ani ca 2024 înseamnă mai multe pe an.",
-      "constitutionalityNote": "Scopul, adică birouri electorale profesioniste și imparțiale, este legitim și se leagă de art. 2 și art. 36-37 din Constituție. Examenul obligatoriu și noile motive de excludere nu ridică probleme în sine. Riscurile țin de previzibilitate și proporționalitate. Sintagmele „fiecare scrutin electoral”, „erori” fără prag și „în mod repetat” sunt vagi (art. 1 alin. 5). Interdicția uniformă de 5 ani, aplicată și unei omisiuni administrative, poate fi atacată pe temeiul art. 53. Dacă excluderea a pornit de la urmărirea penală, menținerea interdicției după clasare sau achitare intră în tensiune cu prezumția de nevinovăție (art. 23 alin. 11). Fără normă tranzitorie, extinderea interdicției la excluderile dispuse sub regimul de 6 luni poate fi văzută ca agravare retroactivă (art. 15 alin. 2). Decizia AEP rămâne contestabilă în contencios administrativ (art. 21 și 52), dar textul nu garantează dreptul expertului de a fi ascultat de biroul superior. Legea trebuie votată ca lege organică (art. 73 alin. 3 lit. a, art. 76 alin. 1).",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică. Expertul electoral nu exercită o profesie reglementată în sensul Directivei 2005/36/CE, ci o funcție civică legată de exercitarea autorității publice, iar organizarea alegerilor naționale ține de competența statelor membre. Nici Directiva (UE) 2015/1535 (TRIS) nu este relevantă, pentru că textul nu conține reglementări tehnice pentru produse sau servicii ale societății informaționale. Singurul punct de drept UE este protecția datelor. AEP prelucrează declarații despre urmărirea sau condamnarea penală, date care cad sub art. 10 GDPR și cer temei legal național și garanții adecvate. Temeiul există, dar proiectul nu spune cum se verifică declarațiile și cât timp se păstrează. Proiectul nu are efecte asupra pieței unice sau a concurenței.",
+      "blindSpotsCaught": "Formula de adoptare din finalul proiectului citează art. 76 alin. (2) din Constituție, adică majoritatea pentru legi ordinare. Legea nr. 208/2015 reglementează însă sistemul electoral și organizarea AEP, deci este lege organică (art. 73 alin. 3 lit. a) și trebuie adoptată cu majoritatea prevăzută de art. 76 alin. (1). Separat, termenul de 60 de zile «înainte de fiecare scrutin» nu se potrivește cu alegerile parțiale, anticipate, cu referendumurile sau cu turul al doilea, care pot fi stabilite cu mai puțin timp înainte. Textul nu prevede nici o somație înainte de excludere, deși poate scoate din corp mii de experți pentru o simplă omisiune administrativă.",
+      "constitutionalityNote": "Proiectul nu ridică probleme constituționale de fond. Calitatea de expert electoral nu este un drept fundamental, iar condițiile de acces și excludere țin de marja de apreciere a legiuitorului. Pe claritate și previzibilitate (art. 1 alin. 5) sunt de reparat trimiterea de la alin. (9) lit. a), care contrazice excepția de la alin. (2), și formula «în mod repetat». Aplicarea termenului de 5 ani excluderilor anterioare ar putea fi discutată prin prisma art. 15 alin. (2), dar este vorba de o condiție de acces, nu de o sancțiune nouă. Decizia de excludere emisă de AEP este act administrativ și poate fi atacată potrivit Legii nr. 554/2004 (art. 21 și art. 52 din Constituție). Formula finală trebuie corectată la art. 76 alin. (1), legea fiind organică. Modificarea nu atinge elemente fundamentale ale sistemului electoral, deci nu contravine recomandărilor Comisiei de la Veneția privind stabilitatea legislației electorale.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: expertul electoral exercită o funcție legată de autoritatea publică în organizarea alegerilor, nu o profesie reglementată în sensul directivei, iar asemenea funcții intră sub excepția art. 45 alin. (4) și art. 51 TFUE. Proiectul nu reglementează servicii ale societății informaționale, deci nu cere notificare TRIS (Directiva 2015/1535). Nu are efecte asupra pieței unice sau a concurenței. Prelucrarea datelor din declarații trebuie să respecte GDPR, dar cadrul de prelucrare există deja în art. 16 alin. (13)-(15).",
       "senatForm": {
-        "articleRef": "Art. unic pct. 5 (art. 16 alin. 6 L208/2015)",
-        "proposalContent": "(6) La examen poate participa orice persoană care îndeplinește condițiile de la alin. (1) sau (2) și care nu a fost exclusă în ultimii 5 ani în temeiul alin. (9) lit. a), c), d) sau e), respectiv în ultimul an în temeiul lit. b). Interdicția nu se aplică dacă excluderea s-a bazat pe alin. (1) lit. g), iar cauza s-a încheiat prin clasare sau achitare.",
-        "argumentation": "Proiectul aplică aceeași interdicție de 5 ani oricărei excluderi, de la o declarație nedepusă la abateri grave. Un expert exclus fiindcă era urmărit penal ar rămâne blocat 5 ani și după achitare, contrar prezumției de nevinovăție (art. 23 alin. 11) și proporționalității (art. 53). Trimiterea la alin. (2) păstrează accesul la examen al absolvenților de liceu.",
-        "otherComments": "Propun și: (1) o normă tranzitorie, ca termenul de 5 ani să nu se aplice excluderilor anterioare legii (art. 15 alin. 2); (2) la alin. (9) lit. d), excludere doar pentru erori săvârșite cu intenție sau din culpă gravă; (3) la alin. (16) lit. b), pentru scrutinurile anunțate cu mai puțin de 60 de zile înainte, termen de 10 zile de la stabilirea datei."
-      }
+        "articleRef": "Art. unic pct. 6 – art. 16 alin. (9) lit. a), b)",
+        "proposalContent": "La alin. (9): lit. a) devine «nu mai îndeplinește oricare dintre condițiile prevăzute la alin. (1), cu excepția lit. f) pentru persoanele admise potrivit alin. (2)»; lit. b) devine «nu își îndeplinește obligația prevăzută la alin. (16) lit. b) nici în 15 zile de la notificarea transmisă de Autoritatea Electorală Permanentă».",
+        "argumentation": "Lit. a) actuală permite excluderea experților admiși legal prin excepția de la alin. (2), care nu au licența cerută de alin. (1) lit. f). Lit. b) sancționează cu excludere și interdicție de 5 ani o simplă omisiune administrativă, fără somație. Riscul este pierderea a mii de experți și lipsa președinților de secție în mediul rural și în diaspora.",
+        "otherComments": "Art. 16 alin. (16) lit. b) cere declarații cu 60 de zile înainte de «fiecare scrutin», deși alegerile parțiale, anticipate sau referendumurile pot fi convocate cu termene mai scurte. Formula finală trebuie să citeze art. 76 alin. (1), legea fiind organică (art. 73 alin. 3 lit. a). Lipsesc dispoziții tranzitorii pentru experții admiși pe bază de aviz."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 139474,
+      "durationMs": 79947,
+      "sourceEndMarker": "SF-C67E596D",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Examen pentru experții electorali, dar și excluderi prea dure",
-      "verdictShort": "Examenul unic de admitere este o măsură utilă de profesionalizare. Problema este combinarea unor motive foarte diferite de excludere cu aceeași interdicție de readmitere timp de 5 ani, inclusiv pentru nedepunerea unei declarații.",
-      "initiatorClaim": "Inițiatorii urmăresc creșterea competenței și imparțialității experților electorali, eliminarea admiterii pe baza activității anterioare și sancționarea erorilor care afectează rezultatele votării. Ei susțin că numărul actual de experți permite înăsprirea condițiilor.",
-      "realityCheck": "Proiectul introduce examenul obligatoriu pentru admitere, ridică pragul educațional al accesului derogatoriu la absolvirea liceului și extinde excluderea, fără să impună expres reexaminarea tuturor membrilor existenți. Nedepunerea declarației înaintea unui scrutin, pierderea unei condiții de eligibilitate și erorile de consemnare pot conduce toate la excludere și la blocarea readmiterii pentru 5 ani, fără diferențiere după gravitate. Afirmația privind suficiența personalului trebuie nuanțată: în avizul din 2025, AEP avertizează asupra deficitelor locale și estimează că eliminarea persoanelor cu numai învățământ general obligatoriu ar produce deficit în 851 de unități administrativ-teritoriale. [Aviz AEP](https://www.senat.ro/legis/PDF/2025/25L525AEP.PDF?nocache=true)",
+      "plainTitle": "Examen obligatoriu și excluderi mai dure pentru experții electorali",
+      "verdictShort": "Profesionalizarea este justificată, dar proiectul combină obligații greu de respectat în anumite calendare electorale cu o interdicție uniformă de readmitere de 5 ani. Sunt necesare corecții privind proporționalitatea, aplicarea în timp și majoritatea parlamentară cerută pentru adoptare.",
+      "initiatorClaim": "Inițiatorii urmăresc accesul exclusiv prin examen, verificarea periodică a eligibilității și eliminarea experților care compromit corectitudinea alegerilor. Ei justifică extinderea perioadei de readmitere prin necesitatea unei sancțiuni efective.",
+      "realityCheck": "Proiectul elimină admiterea prin aviz pentru activitatea anterioară, dar nu obligă membrii deja înscriși să susțină examen; ridică pragul educațional al excepției la absolvirea liceului. Extinde excluderea și aplică aceeași interdicție de readmitere de 5 ani inclusiv pierderii unei condiții de eligibilitate sau nedepunerii declarațiilor, fără diferențiere după gravitate ori remedierea cauzei. Introduce obligații înaintea fiecărui scrutin, fără reguli tranzitorii pentru termene deja depășite la intrarea în vigoare.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 16 alin. (3), împreună cu abrogarea alin. (4)-(5), elimină admiterea pe baza avizului pentru activitatea electorală anterioară. Examenul oferă un criteriu comun de acces, dar nu garantează singur imparțialitatea și nu echivalează cu reexaminarea membrilor existenți.",
-        "Art. 16 alin. (6) și alin. (9) lit. b): omiterea declarației privind apartenența politică și situația penală poate atrage excluderea și imposibilitatea readmiterii timp de 5 ani. Textul nu prevede notificare prealabilă sau termen de remediere.",
-        "Art. 16 alin. (9) lit. a) trimite la toate condițiile alin. (1), inclusiv studiile universitare. Fără exceptarea explicită a persoanelor admise legal potrivit alin. (2), apare o contradicție care poate afecta chiar beneficiarii derogării; pierderea eligibilității trebuie, de asemenea, diferențiată de abaterea culpabilă.",
-        "Art. 16 alin. (9) lit. d) nu cere expres o eroare gravă, nerectificată sau imputabilă individual expertului. Constatarea prin decizie a biroului superior este o garanție utilă, dar nu înlocuiește stabilirea răspunderii personale și individualizarea consecințelor.",
-        "Art. 16 alin. (16) lit. b)-c) fixează obligațiile cu 60 de zile înaintea fiecărui scrutin, fără soluție pentru înscrierile în corp sau modificările datelor survenite ulterior. Termenul privind datele personale nu asigură, prin el însuși, actualizarea permanentă invocată în motivare.",
-        "Proiectul nu introduce taxe, monopoluri comerciale sau obligații directe pentru IMM-uri. Produce însă muncă administrativă suplimentară pentru experți și AEP, iar eventualele deficite locale pot majora costurile deplasărilor; materialele furnizate nu cuantifică impactul bugetar.",
-        "Lipsesc dispoziții tranzitorii clare pentru membrii existenți, cererile în curs și excluderile anterioare. Guvernul semnalează expres necesitatea clarificării situației persoanelor admise pe baza avizului AEP. [Punctul de vedere al Guvernului](https://www.senat.ro/legis/PDF/2025/25L525PV.PDF?nocache=true)"
+        "Articolul unic pct. 2-4: admiterea exclusiv prin examen înlocuiește cele două căi actuale și elimină circuitul cererilor pentru aviz prin primari și prefecți. Abrogarea alin. (4)-(5) nu anulează admiterile anterioare și nu instituie reexaminarea membrilor existenți.",
+        "Articolul unic pct. 5 și 6: perioada de readmitere crește de la peste 6 luni la minimum 5 ani și se aplică tuturor motivelor de excludere. Astfel, omiterea declarației sau pierderea temporară a unei condiții poate produce aceeași interdicție ca abateri electorale serioase.",
+        "Articolul unic pct. 6, alin. (9) lit. d): orice eroare care produce înscrierea incorectă a voturilor poate fundamenta excluderea, fără prag de gravitate, criteriu expres de imputabilitate sau diferențiere pentru erorile corectate. Constatarea prin decizia biroului superior este o garanție, dar nu rezolvă proporționalitatea consecinței de 5 ani.",
+        "Articolul unic pct. 7: declarațiile devin obligatorii înaintea fiecărui scrutin, nu anual, cum sugerează un pasaj din expunerea de motive. Lipsesc soluții pentru scrutinuri convocate cu mai puțin de 60 de zile înainte, pentru experți admiși ulterior termenului și pentru intrarea în vigoare în interiorul acestuia.",
+        "Noul alin. (16) lit. c) leagă actualizarea datelor de termenul anterior scrutinului, fără termen calculat de la modificarea efectivă. Nu clarifică gestionarea schimbărilor intervenite în ultimele 60 de zile; neîndeplinirea acestei obligații nu este inclusă expres între noile cauze de excludere.",
+        "Articolul unic pct. 1: absolvirea liceului înlocuiește învățământul general obligatoriu în excepția pentru localități cu deficit de absolvenți universitari; textul nu cere expres bacalaureat. Trimiterile la toate condițiile alin. (1), păstrate în alin. (6)-(7), trebuie corelate explicit cu excepția de la alin. (2), o problemă de corelare deja prezentă.",
+        "Formula finală invocă art. 76 alin. (2), privind legile ordinare. Întrucât intervenția privește constituirea corpului din care sunt desemnați conducătorii birourilor electorale, există un argument puternic pentru încadrarea în domeniul organic al sistemului electoral și organizării AEP, prevăzut de art. 73 alin. (3) lit. a).",
+        "Proiectul nu introduce taxe și nu reglementează activitatea IMM-urilor. Produce însă sarcini administrative pentru fiecare expert și pentru AEP: declarații repetate, verificări, examene și decizii de excludere; costurile nu sunt cuantificate în documentele furnizate."
       ],
-      "blindSpotsCaught": "Formula finală invocă art. 76 alin. (2), deși reglementarea sistemului electoral și a AEP aparține legii organice, potrivit art. 73 alin. (3) lit. a), fiind necesară majoritatea de la art. 76 alin. (1). Este o eroare de corectat în proiect, nu dovada unui vot neconstituțional deja produs. Senatul a respins propunerea la 02.02.2026; Camera Deputaților rămâne decizională, iar respingerea nu închide procedura. [Constituția](https://legislatie.just.ro/Public/DetaliiDocument/47355), [Fișa Camerei](https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22947)",
-      "constitutionalityNote": "Riscurile principale privesc art. 1 alin. (5): corelarea derogării de studii cu excluderea, termenele imposibil de respectat pentru situații ulterioare și criteriile răspunderii pentru erori. Interdicția uniformă de 5 ani necesită justificare și diferențiere în raport cu accesul la funcția publică și dreptul la muncă, protejate de art. 16 și 41; CCR califică expertul electoral drept titular al unei funcții publice în Decizia nr. 88/2020. Art. 23 alin. (12) privește legalitatea pedepsei penale și nu se aplică automat acestei măsuri administrative. Proiectul nu exclude controlul judecătoresc general, dar ar beneficia de garanții explicite de apărare și motivare. Acestea sunt vulnerabilități, nu o constatare definitivă de neconstituționalitate. [Constituția](https://legislatie.just.ro/Public/DetaliiDocument/47355), [Decizia CCR nr. 88/2020](https://legislatie.just.ro/Public/DetaliiDocument/226610)",
-      "euLawNote": "Nu rezultă un monopol economic sau o restricție asupra concurenței comerciale; este reglementat accesul la atribuții de autoritate electorală. Directiva (UE) 2018/958 vizează profesiile reglementate din domeniul Directivei 2005/36/CE, astfel că aplicabilitatea ei nu poate fi dedusă doar din denumirea de «expert» sau din existența unui examen; nu este demonstrată aici o încălcare a obligației europene de evaluare. Necesitatea și proporționalitatea restricțiilor rămân însă relevante pentru analiza constituțională. TRIS, potrivit Directivei (UE) 2015/1535, nu este incident pentru dispozițiile analizate: acestea nu stabilesc reglementări tehnice pentru produse sau norme privind servicii ale societății informaționale și nu reglementează AI. [Directiva 2018/958, art. 2](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018L0958), [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=celex%3A32015L1535)",
+      "blindSpotsCaught": "Interdicția de 5 ani nu este rezervată conduitei culpabile: ea urmează mecanic și excluderii pentru pierderea unei condiții de eligibilitate, chiar dacă situația este ulterior remediată. Nu există dispoziții tranzitorii pentru persoanele deja excluse sau pentru obligațiile cu termen anterior intrării în vigoare. Abrogarea admiterii prin aviz nu produce o reevaluare a corpului existent. Interdicția participării la campanie, excluderea pentru contravenții și condiția privind situația penală există deja; nu sunt noutăți ale proiectului.",
+      "constitutionalityNote": "Art. 1 alin. (5) impune clarificarea termenelor, corelarea excepției educaționale și reguli previzibile de aplicare în timp. Aplicarea interdicției uniforme de 5 ani unor situații foarte diferite ridică probleme de proporționalitate și de tratament juridic, relevante pentru art. 16; art. 53 intervine dacă este identificată restrângerea unui drept fundamental, accesul la această calitate nefiind automat un asemenea drept. Art. 23 alin. (12) privește pedepsele și nu se aplică automat excluderii administrative. Condiția privind urmărirea penală este preexistentă, dar extinderea excluderii și blocarea readmiterii după remedierea situației sporesc necesitatea evaluării prin prisma prezumției de nevinovăție, fără a echivala automat măsura administrativă cu o condamnare. Proiectul nu elimină expres controlul judecătoresc și nici garanțiile generale aplicabile. Formula art. 76 alin. (2) trebuie corectată dacă se confirmă caracterul organic; viciul de adoptare depinde de procedura și majoritatea efectiv folosite.",
+      "euLawNote": "Nu rezultă din textele furnizate că această funcție electorală constituie o profesie reglementată care să atragă automat Directiva (UE) 2018/958. Examenul și cerința educațională au un scop legitim de competență; dacă directiva este aplicabilă după calificarea juridică a activității, restricțiile trebuie evaluate pentru necesitate și proporționalitate. Nu se instituie monopol economic ori bariere comerciale evidente. Directiva (UE) 2015/1535 și procedura TRIS nu sunt declanșate de simpla administrare a evidenței experților: proiectul nu introduce reguli tehnice pentru produse sau servicii ale societății informaționale și nu reglementează AI. Declarațiile și actualizarea datelor rămân supuse normelor aplicabile privind protecția datelor.",
       "senatForm": {
-        "articleRef": "Art. unic pct. 6 și 7 – art. 16",
-        "proposalContent": "La pct. 6 se elimină art. 16 alin. (9) lit. b). La pct. 7, art. 16 alin. (16) lit. b) va avea cuprinsul: «b) pentru fiecare scrutin, depune la AEP declarațiile privind condițiile de la alin. (1) lit. e) și g), în 15 zile de la notificare. Nedepunerea împiedică desemnarea pentru scrutinul respectiv până la depunere, fără excluderea din corp.»",
-        "argumentation": "O declarație nedepusă nu dovedește lipsa integrității. Excluderea, cumulată cu interdicția de readmitere timp de 5 ani, este excesivă pentru o omisiune administrativă. Notificarea și blocarea desemnării până la depunere permit verificarea eligibilității și remedierea omisiunii.",
-        "otherComments": "Propunere pentru comisiile de raport ale Camerei Deputaților; un deputat o poate prelua ca amendament. Termenul din fișă, 18.02.2026, este depășit. Sunt necesare și reguli tranzitorii, individualizarea excluderii și corectarea formulei de adoptare la art. 76 alin. (1) din Constituție."
-      }
+        "articleRef": "Articolul unic pct. 5, art. 16 alin. (6)",
+        "proposalContent": "(6) La examen poate participa persoana care îndeplinește condițiile prevăzute la alin. (1), cu aplicarea excepției de la alin. (2). Persoana exclusă potrivit alin. (9) lit. a) sau b) poate participa după remedierea cauzei excluderii. Pentru excluderea potrivit alin. (9) lit. c)-e), participarea este permisă după 5 ani de la excludere.",
+        "argumentation": "Interdicția uniformă de 5 ani tratează identic pierderea remediabilă a eligibilității, omiterea declarației și abaterile electorale. Amendamentul permite readmiterea prin examen după remedierea primelor două situații și corelează accesul la examen cu excepția educațională.",
+        "otherComments": "Rămân necesare gradualitatea pentru lit. c)-e), dispoziții tranzitorii și corectarea formulei de adoptare. Termenul indicat, 18.02.2026, este depășit; trebuie verificat calendarul actual al comisiilor. Verificarea externă nu a fost disponibilă; analiza privește documentele furnizate."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T07:00:44.939Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:31:06.195Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

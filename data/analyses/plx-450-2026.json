@@ -2,23 +2,41 @@
   "billId": "PL-x 450/2026",
   "slug": "plx-450-2026",
   "version": "senat",
-  "updatedAt": "2026-11-19T12:39:36.191Z",
+  "updatedAt": "2026-11-24T15:17:44.078Z",
   "coverage": {
     "method": "whole-text-v1",
+    "form": "senat",
     "billChars": 14267,
     "ordinanceChars": 0,
     "memoChars": 13949,
     "memoSupplied": 13949,
-    "marker": "SF-F36A1CDE",
-    "form": "senat"
+    "marker": "SF-F36A1CDE"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-450-2026.json",
+    "form": "senat",
+    "textHash": "f36a1cde0909e0ea",
+    "fetchedAt": "2026-11-19T10:13:20.304Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1345,
+    "truncated": false,
+    "included": true,
+    "key": "da73ba1dbe7dffb7"
   },
   "consensus": {
-    "riskScore": 5.3,
+    "riskScore": 5,
     "riskLevel": "yellow",
-    "plainTitle": "Abonamente la legume direct de la țăran: idee bună, cu câteva capcane juridice",
-    "summaryTlDr": "Ideea este utilă: contracte directe între micii fermieri și grupuri de consumatori, cu mai puțină birocrație la vânzare. Textul are însă trei probleme serioase. Contractele devin titlu executoriu fără judecată (art. 18), primăriile primesc obligații fără sursă de finanțare (art. 11, 23), iar sancțiunile și suspendările sunt formulate vag.",
-    "initiatorClaim": "Inițiatorii vor un venit stabil și previzibil pentru micii fermieri, eliminarea intermediarilor și acces garantat la hrană locală și trasabilă pentru consumatori. Susțin că legea nu are impact bugetar negativ.",
-    "realityCheck": "Legea creează un contract tip (3–12 luni) cu conținut obligatoriu și scutește livrările ASC de casa de marcat, dacă plata se face prin bancă (art. 17), și de autorizări suplimentare de vânzare (art. 8, 19, 20). Multe dintre „beneficiile” fiscale din art. 8–9 doar repetă regimul deja existent: plafonul de scutire TVA și normele de venit. Efecte secundare: contractul încheiat între persoane fizice devine direct executabil silit, inclusiv pentru obligația de livrare (art. 18). Un fermier care nu are contractul complet, cu „plan detaliat de producție”, riscă o amendă de 1.000–5.000 lei. Consumatorii pot fi amendați la fel pentru revânzare (art. 16).",
+    "plainTitle": "Abonamente directe între micii fermieri și grupuri de consumatori: coșul de legume plătit în avans",
+    "summaryTlDr": "Ideea e bună și utilă pentru micii fermieri, dar textul e scris neglijent. Transformă orice contract scris între un fermier și cinci cumpărători în titlu executoriu, obligă primăriile să ofere spații fără să spună de unde vin banii și scutește livrările de autorizări pe care nu le definește.",
+    "initiatorClaim": "Inițiatorii vor un cadru legal pentru lanțurile scurte de tip AMAP/Solawi: fermierul primește bani în avans și un venit stabil, consumatorul primește hrană locală trasabilă, fără intermediari. Susțin că legea nu are impact bugetar negativ.",
+    "realityCheck": "Legea definește contractul ASC (3-12 luni, minimum 5 consumatori, fermier cu cel mult 15 ha) și îi stabilește un conținut obligatoriu. Ca facilități, scutește livrările de casa de marcat dacă plata e bancară (art.17), de «formalități suplimentare de autorizare» (art.19-20) și dă contractului putere de titlu executoriu (art.18). Multe dintre «beneficii» există deja în Codul fiscal: plafonul de scutire TVA de la art.310 și normele de venit de la art.105-106. În schimb, primăriile primesc obligații nefinanțate (art.11, art.23), iar fermierii mici riscă amenzi de 1.000-5.000 lei și suspendarea din ASC pe baza unor criterii vagi.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "IMM & Antreprenori",
@@ -26,24 +44,24 @@
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. 18 (titlu executoriu)",
-      "proposalContent": "Se elimină art. 18. Alternativ: „Creanțele de plată născute din contractul ASC pot fi valorificate prin ordonanța de plată sau procedura cu valoare redusă din Codul de procedură civilă. Obligațiile de livrare nu pot face obiectul executării silite în natură.”",
-      "argumentation": "Titlul executoriu pentru contracte între persoane fizice, inclusiv pentru livrări dependente de vreme, permite executarea silită fără judecată. Contrazice art. 13 alin. (4) din proiect și slăbește apărarea consumatorului (art. 21, 24 din Constituție; Directiva 93/13/CEE). Grupul de consumatori nu are formă juridică, deci nu e clar împotriva cui se execută.",
-      "otherComments": "Propun și: comasarea art. 19 cu art. 20 (dublare); sursă de finanțare pentru art. 11 alin. (1) și art. 23 (art. 138 alin. (5) din Constituție); limita de animale stabilită prin lege sau HG, nu prin ghid; procedură și durată pentru suspendarea din art. 8, 14 și 16; eliminarea sintagmei „în limita posibilităților” din art. 5 alin. (1)."
+      "articleRef": "Art.18 (titlu executoriu)",
+      "proposalContent": "Se propune eliminarea art.18. Alternativ: «Contractul de parteneriat ASC constituie titlu executoriu pentru obligațiile de plată scadente numai dacă este încheiat în formă autentică. Obligațiile de livrare se execută potrivit dreptului comun.»",
+      "argumentation": "Art.18 face titlu executoriu din orice contract scris, chiar neformal, între un fermier și minimum 5 persoane, inclusiv pentru livrări în natură expuse riscului climatic. Grupul nu are personalitate juridică, iar consumatorii sau fermierul pot fi executați fără judecată, deși art.4 lit.e) prevede împărțirea riscurilor.",
+      "otherComments": "Art.11 alin.(1) și art.23 impun primăriilor spații gratuite sau ieftine fără sursă de finanțare (art.138 alin.5 Constituție). Propun «pot» în loc de «au obligația». Art.20 inserează excepția în Legea 321/2009, care privește relația comerciant-furnizor. Trebuie definite «formalitățile suplimentare» din art.19."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 50156,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 90456,
       "sourceEndMarker": "SF-F36A1CDE",
-      "riskScore": 5,
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Parteneriate directe între fermieri mici și consumatori (ASC), cu obligații pentru primării și risc de executare silită",
-      "verdictShort": "Proiectul reglementează util modelul de Agricultură Susținută de Comunitate și scutește de casa de marcat plățile bancare, dar introduce capcane juridice serioase: transformă contractele private agricole în titluri executorii pentru livrări și plăți și impune primăriilor cheltuieli nefinanțate.",
-      "initiatorClaim": "Inițiatorii susțin în expunerea de motive că proiectul elimină intermediarii, crește veniturile micilor gospodării, reduce risipa alimentară și oferă consumatorilor hrană locală trasabilă, fără niciun impact bugetar negativ.",
-      "realityCheck": "Mecanismul contractual (3–12 luni, minim 5 consumatori) chiar simplifică plățile bancare fără casă de marcat (art. 17), însă art. 18 transformă aceste contracte private în titluri executorii directe inclusiv pentru livrarea recoltelor, în ciuda riscurilor meteo. Totodată, art. 11 și 23 obligă toate primăriile să asigure spații gratuite sau cu chirie redusă în 12 luni fără sursă de finanțare, iar definiția micului producător exclude persoanele fizice simple cu atestat de producător (art. 3 lit. b).",
+      "plainTitle": "Coșul direct de la fermier, cu capcana executării silite și birocrație ascunsă",
+      "verdictShort": "Intenția de a reglementa abonamentele directe la produse țărănești (ASC) este legitimă, dar textul adoptat de Senat are vicii juridice serioase. Cea mai periculoasă capcană este transformarea unui simplu contract privat pentru produse agricole viitoare în titlu executoriu, dublată de sancțiuni fără durată și obligații nefinanțate pentru toate primăriile.",
+      "initiatorClaim": "Inițiatorii susțin că proiectul sprijină agricultura țărănească, elimină intermediarii, asigură fermierilor venituri stabile și consumatorilor hrană locală trasabilă, fără niciun impact bugetar negativ și fără birocrație disproporționată.",
+      "realityCheck": "În practică, legea exclude țăranii persoane fizice cu atestat de producător (Legea 145/2014), acoperind doar PFA, II, IF și membrii cooperativelor, și impune noi formalități (notificare DSVSA cu 15 zile înainte, trasabilitate pe loturi, controale de la trei instituții). Beneficiile fiscale anunțate dublează sau citează eronat Codul fiscal, primăriile primesc obligații nefinanțate de a asigura spații gratuite ori ieftine, iar Art. 18 deschide ușa executărilor silite directe fără proces pe baza unor contracte private supuse riscurilor climatice.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "IMM & Antreprenori",
@@ -52,106 +70,121 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 18 conferă valoare de titlu executoriu contractelor ASC atât pentru plată, cât și pentru obligațiile de livrare, folosind formula abrogată procedural «fără a fi necesară investirea cu formulă executorie» și ignorând clauzele de partajare a riscurilor climatice din art. 4 alin. 2 lit. e.",
-        "Art. 11 alin. 1 și art. 23 obligă autoritățile locale să identifice și să pună la dispoziție spații gratuite sau cu chirii reduse în termen de 12 luni, contrazicând afirmația din expunerea de motive privind lipsa oricărui impact bugetar.",
-        "Art. 8 alin. 1 lit. b condiționează scutirea de autorizațiile de vânzare cu amănuntul de exclusivitatea în parteneriatul ASC (dacă fermierul vinde și în piață pierde beneficiul), în timp ce art. 14 menține obligația înregistrării și notificării DSVSA cu 15 zile înainte.",
-        "Art. 17 elimină obligația caselor de marcat (OUG 28/1999) pentru livrările ASC achitate prin instrumente cu trasabilitate bancară, măsură practică pentru reducerea birocrației fiscale."
+        "Art. 18 transformă parteneriatul ASC (simplu înscris sub semnătură privată cu un grup informal de minimum 5 consumatori) în titlu executoriu atât pentru plată, cât și pentru livrarea de produse agricole supuse riscului climatic (Art. 4 alin. 2 lit. e), invocând și „investirea cu formulă executorie”, procedură abrogată din Codul de procedură civilă.",
+        "Art. 3 lit. b) lasă în afara legii producătorii persoane fizice cu atestat de producător (Legea 145/2014) și deleagă stabilirea efectivului maxim de animale unui „ghid practic” al MADR (Art. 22), act fără forță normativă.",
+        "Art. 8 alin. (3), Art. 14 alin. (4) și Art. 16 alin. (3) introduc sancțiunea suspendării dreptului de a opera în ASC fără a stabili nicio durată și fără a defini „încălcările repetate”, iar Art. 16 alin. (1) lit. a) amendează cu 1.000–5.000 lei orice abatere de la cerințele minime ale contractului.",
+        "Art. 9 alin. (1) atribuie eronat ANAF stabilirea prin ordin a normelor de venit agricol (în realitate aprobate de DGRFP la propunerea structurilor MADR, conform art. 106 Cod fiscal) și creează confuzie cu plafoanele neimpozabile din art. 105, iar scutirea de TVA din Art. 8 alin. (1) lit. a) există deja în art. 310 Cod fiscal.",
+        "Art. 11 alin. (1) și Art. 23 obligă toate primăriile să identifice și să asigure în 12 luni cel puțin un spațiu gratuit sau cu chirie redusă, contrazicând afirmația din Expunerea de Motive privind absența cheltuielilor publice."
       ],
-      "blindSpotsCaught": "Art. 3 lit. b limitează definiția «micului producător» la PFA, II, IF sau membri de cooperativă (excluzând gospodăriile persoane fizice cu atestat de producător, deși expunerea de motive le invocă) și deleagă plafonul efectivelor de animale unui simplu «ghid» al MADR (art. 22), nu unui act normativ. În plus, art. 20 introduce exceptarea de la autorizare în Legea 321/2009 (care reglementează relațiile comerciale cu supermarketurile, nu autorizarea sanitară a livrărilor).",
-      "constitutionalityNote": "Apar vulnerabilități față de art. 1 alin. 5 din Constituție (claritate și previzibilitate): trimiterea la un ghid non-normativ pentru eligibilitate (art. 3 lit. b), lipsa duratei suspendării la a doua contravenție și absența trimiterii la OG 2/2001 (art. 16), respectiv termenul procedural abrogat din art. 18. Obligațiile financiare impuse UAT-urilor fără indicarea sursei de finanțare (art. 11 și 23) ridică rezerve privind art. 138 alin. 5 și autonomia locală (art. 120).",
-      "euLawNote": "Proiectul este compatibil ca principiu cu Strategia Farm to Fork și Regulamentul (UE) 2021/2115. Nu reglementează servicii ale societății informaționale sau AI (Directiva TRIS 2015/1535 nu este incidentă pe componenta digitală) și nu instituie o profesie reglementată în sensul Directivei (UE) 2018/958. Totuși, normele europene de igienă alimentară (Regulamentele CE 852/2004 și 853/2004) se aplică direct și nu pot fi înlăturate prin art. 19–20, iar spațiile publice gratuite (art. 11) necesită verificare pe regulile de ajutor de stat / de minimis.",
+      "blindSpotsCaught": "Art. 20 inserează art. 6¹ (exceptare de la autorizarea livrării directe) în Legea nr. 321/2009 imediat după art. 6, care interzice retailerilor să impună furnizorilor clauze de preț exclusiv: completarea este străină de obiectul Legii 321/2009 și intră în coliziune directă cu Art. 12 și Art. 14 din același proiect, care obligă fermierii la înregistrare DSVSA și respectarea integrală a normelor de siguranță alimentară.",
+      "constitutionalityNote": "Proiectul ridică probleme serioase față de Art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii): definirea sferei destinatarilor prin trimitere la un simplu „ghid” MADR (Art. 3 lit. b), sancțiuni complementare de suspendare fără durată (Art. 8 alin. 3, Art. 14 alin. 4, Art. 16 alin. 3), trimiterea la procedura abrogată a învestirii cu formulă executorie (Art. 18) și contradicții interne între derogările de autorizare (Art. 19–20) și obligațiile DSVSA (Art. 14). De asemenea, obligarea autorităților locale să asigure spații gratuite sau subvenționate (Art. 11 alin. 1, Art. 23) fără sursă de finanțare vulnerabilizează proiectul față de Art. 138 alin. (5) și autonomia locală (Art. 120–121).",
+      "euLawNote": "Proiectul nu reglementează o profesie reglementată (Directiva (UE) 2018/958 nu este declanșată direct) și nici servicii digitale/standarde tehnice de produs care să impună notificare TRIS (Directiva (UE) 2015/1535). Totuși, ridică două riscuri europene: (1) derogarea generică de la autorizările privind distribuția alimentelor (Art. 19–20) trebuie limitată strict la „cantități mici” de produse primare pentru a nu încălca Regulamentele (CE) nr. 852/2004 și 853/2004 privind igiena alimentară; (2) punerea la dispoziție de spații publice gratuite sau cu chirii reduse (Art. 11 alin. 1, Art. 23) către operatori economici (PFA/II/cooperative) poate constitui ajutor de stat (Art. 107 TFUE) dacă nu este încadrată în regimul de minimis.",
       "senatForm": {
-        "articleRef": "Art. 18 (Titlul executoriu)",
-        "proposalContent": "Se propune eliminarea art. 18. Alternativ, reformularea astfel: «Litigiile privind executarea obligațiilor de plată și de livrare decurgând din parteneriatele ASC se soluționează pe cale amiabilă sau de către instanțele judecătorești competente, potrivit dreptului comun.»",
-        "argumentation": "Un contract sub semnătură privată cu partajare a riscurilor climatice (art. 4 alin. 2 lit. e) nu îndeplinește condiția creanței certe, lichide și exigibile (art. 663 CPC) și expune fermierii și consumatorii la executări silite abuzive. Referirea la «investirea cu formulă executorie» este abrogată procedural.",
-        "otherComments": "Se recomandă și: 1) stabilirea limitei efectivelor de animale prin act normativ, nu prin «ghid» MADR (art. 3 lit. b); 2) clarificarea duratei suspendării la art. 16 alin. 3 și trimiterea la OG nr. 2/2001; 3) eliminarea condiției de exclusivitate de la art. 8 alin. 1 lit. b și evaluarea impactului bugetar pentru UAT-uri (art. 11 și 23)."
+        "articleRef": "Art. 18",
+        "proposalContent": "Se propune eliminarea integrală a Art. 18. În subsidiar, reformularea astfel: „Eventualele neînțelegeri privind executarea obligațiilor de plată sau de livrare din parteneriatele ASC se soluționează pe cale amiabilă sau de către instanțele judecătorești competente, potrivit dreptului comun.”",
+        "argumentation": "Un contract privat între fermier și consumatori, supus riscului climatic, nu justifică executarea silită directă fără proces. Mai mult, „investirea cu formulă executorie” este abrogată din Codul de procedură civilă, iar textul contrazice Art. 13 alin. (4) privind soluționarea litigiilor în instanță.",
+        "otherComments": "Corectați și: Art. 3 lit. b) (includeți fermierii cu atestat din Legea 145/2014; nu lăsați limitele într-un „ghid”), Art. 9 alin. (1) (normele de venit nu sunt stabilite prin ordin ANAF), Art. 16 alin. (3) (stabiliți durata suspendării), Art. 11/23 (finanțarea primăriilor) și eliminați Art. 20, străin de Legea 321/2009."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 75202,
+      "durationMs": 57062,
       "sourceEndMarker": "SF-F36A1CDE",
-      "riskScore": 5,
+      "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Abonamente la legume direct de la țăran: idee bună, cu câteva capcane juridice",
-      "verdictShort": "Ideea este utilă: contracte directe între micii fermieri și grupuri de consumatori, cu mai puțină birocrație la vânzare. Textul are însă trei probleme serioase. Contractele devin titlu executoriu fără judecată (art. 18), primăriile primesc obligații fără sursă de finanțare (art. 11, 23), iar sancțiunile și suspendările sunt formulate vag.",
-      "initiatorClaim": "Inițiatorii vor un venit stabil și previzibil pentru micii fermieri, eliminarea intermediarilor și acces garantat la hrană locală și trasabilă pentru consumatori. Susțin că legea nu are impact bugetar negativ.",
-      "realityCheck": "Legea creează un contract tip (3–12 luni) cu conținut obligatoriu și scutește livrările ASC de casa de marcat, dacă plata se face prin bancă (art. 17), și de autorizări suplimentare de vânzare (art. 8, 19, 20). Multe dintre „beneficiile” fiscale din art. 8–9 doar repetă regimul deja existent: plafonul de scutire TVA și normele de venit. Efecte secundare: contractul încheiat între persoane fizice devine direct executabil silit, inclusiv pentru obligația de livrare (art. 18). Un fermier care nu are contractul complet, cu „plan detaliat de producție”, riscă o amendă de 1.000–5.000 lei. Consumatorii pot fi amendați la fel pentru revânzare (art. 16).",
+      "plainTitle": "Abonamente directe între micii fermieri și grupuri de consumatori: coșul de legume plătit în avans",
+      "verdictShort": "Ideea e bună și utilă pentru micii fermieri, dar textul e scris neglijent. Transformă orice contract scris între un fermier și cinci cumpărători în titlu executoriu, obligă primăriile să ofere spații fără să spună de unde vin banii și scutește livrările de autorizări pe care nu le definește.",
+      "initiatorClaim": "Inițiatorii vor un cadru legal pentru lanțurile scurte de tip AMAP/Solawi: fermierul primește bani în avans și un venit stabil, consumatorul primește hrană locală trasabilă, fără intermediari. Susțin că legea nu are impact bugetar negativ.",
+      "realityCheck": "Legea definește contractul ASC (3-12 luni, minimum 5 consumatori, fermier cu cel mult 15 ha) și îi stabilește un conținut obligatoriu. Ca facilități, scutește livrările de casa de marcat dacă plata e bancară (art.17), de «formalități suplimentare de autorizare» (art.19-20) și dă contractului putere de titlu executoriu (art.18). Multe dintre «beneficii» există deja în Codul fiscal: plafonul de scutire TVA de la art.310 și normele de venit de la art.105-106. În schimb, primăriile primesc obligații nefinanțate (art.11, art.23), iar fermierii mici riscă amenzi de 1.000-5.000 lei și suspendarea din ASC pe baza unor criterii vagi.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
-        "Justiție & Drepturi Civile",
-        "Toți cetățenii"
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 18 face din orice contract ASC titlu executoriu pentru plată și livrare, fără învestire cu formulă executorie. Apar două contradicții: art. 13 alin. (4) cere soluționare amiabilă, apoi în instanță, iar o livrare de produse agricole dependente de vreme ar putea fi executată silit în natură.",
-        "Art. 11 alin. (1) și art. 23 obligă autoritățile locale să pună la dispoziție spații gratuite sau cu chirie redusă în 12 luni. Este o cheltuială pentru bugetele locale, fără sursă de finanțare și fără fișă financiară. Contrazice afirmația din expunerea de motive că legea nu are impact bugetar.",
-        "Art. 16 alin. (1) lit. a) sancționează cu 1.000–5.000 lei lipsa „cerințelor minime de validitate”, adică cele 8 elemente obligatorii din art. 4 alin. (2), inclusiv un plan detaliat de producție. Pentru o gospodărie sub 15 ha amenda poate fi disproporționată, mai ales că art. 14 alin. (3) adaugă o notificare la DSVSA cu 15 zile înainte de fiecare parteneriat.",
-        "Suspendarea dreptului de a opera în ASC apare în trei locuri, cu temeiuri diferite: art. 8 alin. (3) („autoritățile competente”, nedefinite), art. 14 alin. (4) (DSVSA) și art. 16 alin. (3) (DAJ și autoritățile locale). Lipsesc procedura, durata și calea de atac.",
-        "Art. 3 lit. b) lasă limita efectivului de animale, care decide cine intră sub incidența legii, unui „ghid” MADR. Ghidul nu este act normativ, ceea ce afectează previzibilitatea.",
-        "Art. 19 și art. 20 (noul art. 6¹ din Legea 321/2009) au practic același conținut. Este un paralelism legislativ contrar art. 16 din Legea nr. 24/2000.",
-        "Art. 8 alin. (1) lit. a) și c) și art. 9 nu acordă beneficii noi: scutirea de TVA sub plafon și impozitarea pe norme de venit există deja în Codul fiscal. Art. 17 (fără casă de marcat dacă plata are trasabilitate bancară) este singura facilitate fiscal-administrativă reală și pare rezonabilă."
+        "Art.18 face din contractul ASC titlu executoriu, fără formă autentică, fără înregistrare și fără învestire. Asta include obligațiile de livrare în natură ale fermierului, deși art.4 lit.e) prevede împărțirea riscurilor climatice. Grupul de consumatori nu are personalitate juridică, așa că nu e clar împotriva cui se execută și pentru ce cotă.",
+        "Art.11 alin.(1) și art.23 obligă autoritățile locale să pună la dispoziție spații gratuite sau cu chirie redusă și să asigure «cel puțin un spațiu» în 12 luni. Afirmația din expunerea de motive că legea nu are impact bugetar e contrazisă de text: lipsesc fișa financiară și sursa de finanțare.",
+        "Art.19 și art.20 exceptează livrarea de la «formalități suplimentare de autorizare» fără să le enumere. Între timp, art.14 menține înregistrarea la DSVSA cu 15 zile înainte de începerea parteneriatului. Excepția e inserată în Legea 321/2009, care reglementează relațiile comerciant-furnizor, nu autorizarea vânzării.",
+        "Art.3 lit.b) lasă limita efectivelor de animale, adică un element al definiției de care depind facilitățile și sancțiunile, în seama unui «ghid» MADR, care nu e act normativ. Ghidul va apărea abia la 90 de zile după intrarea în vigoare (art.22).",
+        "Art.8 alin.(1) lit.a) și c) și art.9 reiau regimuri fiscale deja existente: scutirea TVA sub plafon și normele de venit. Art.9 vorbește de norme stabilite «prin ordin al ANAF», ceea ce nu corespunde mecanismului din Codul fiscal. Nu e clar nici ce se întâmplă cu produsele procesate (brânză, conserve), care ies din sfera art.105.",
+        "Art.16 sancționează cu 1.000-5.000 lei lipsa contractului care respectă «cerințele minime de validitate», iar constatarea o fac «autoritățile locale», fără să se precizeze care. Suspendarea dreptului de a opera în ASC apare în trei locuri (art.8 alin.3, art.14 alin.4, art.16 alin.3), cu condiții și autorități diferite."
       ],
-      "blindSpotsCaught": "1) Art. 5 alin. (1) cere „metode ecologice… în limita posibilităților”, iar art. 3 lit. d) definește agricultura ecologică. Termenul „ecologic” este rezervat prin Regulamentul (UE) 2018/848 produselor certificate, deci există riscul de etichetare înșelătoare dacă producătorii necertificați îl folosesc. 2) „Grupul de consumatori” (minimum 5 persoane, art. 3 lit. c) nu are formă juridică. Nu este clar cine semnează contractul, cine răspunde solidar și împotriva cui se execută titlul executoriu din art. 18. 3) Art. 19 permite livrarea „fără formalități suplimentare”, ceea ce poate fi citit ca fiind în conflict cu înregistrarea obligatorie la DSVSA din art. 14 și cu art. 6 din Regulamentul (CE) 852/2004. 4) Art. 5 alin. (5) spune că producătorul „poate” organiza vizite „cel puțin de două ori”, o formulare contradictorie. 5) Expunerea de motive conține citări discutabile. AMAP din Franța funcționează ca asociații, nu printr-un regim dedicat în art. L.1–L.600-1 din Codul rural. Grupurile italiene GAS sunt definite în alte dispoziții ale Legii 244/2007. Cauza C-171/11 Fra.bo privește certificarea privată și libera circulație a mărfurilor, nu comerțul local. Expunerea mai afirmă că normele de venit se stabilesc prin ordin ANAF, ceea ce trebuie verificat față de procedura din Codul fiscal.",
-      "constitutionalityNote": "Art. 18 ridică cea mai serioasă problemă. Legiuitorul poate conferi caracter de titlu executoriu unor acte, dar aplicarea generalizată la contracte bilaterale între persoane fizice, inclusiv pentru obligații de a face (livrare), restrânge controlul judiciar prealabil. Acest lucru afectează art. 21 (accesul la justiție) și art. 24 (dreptul la apărare) și intră în contradicție internă cu art. 13 alin. (4). Art. 11 alin. (1) și art. 23 impun cheltuieli locale fără sursă de finanțare: sunt vizate art. 138 alin. (5) și autonomia locală (art. 120–121). Lipsa informării Guvernului ar încălca art. 111 alin. (1) teza finală. Sintagmele vagi („în limita posibilităților”, „autoritățile competente”, „încălcări repetate”) și delegarea către un ghid a criteriului de aplicare ridică probleme de claritate și previzibilitate (art. 1 alin. (5)). Suspendarea fără procedură și durată stabilite contravine exigențelor de legalitate a sancțiunilor (art. 23 alin. (12), aplicat prin analogie contravențiilor, conform jurisprudenței CCR). Restul textului este constituțional neutru.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: legea nu reglementează accesul la o profesie reglementată. Directiva (UE) 2015/1535 (TRIS) nu privește servicii digitale aici. Cerința de informare a consumatorului din art. 12 alin. (2) (origine, metodă, data recoltării) poate constitui însă o măsură națională pentru alimente nepreambalate. Aceasta trebuie notificată Comisiei conform art. 44–45 din Regulamentul (UE) 1169/2011 și, eventual, prin TRIS. Siguranța alimentară trebuie corelată cu Regulamentele (CE) 178/2002 și 852/2004: excepția pentru cantități mici livrate direct de producătorul primar permite reguli naționale, dar nu elimină înregistrarea. Folosirea termenului „ecologic” fără certificare ar încălca Regulamentul (UE) 2018/848. Spațiile gratuite sau cu chirie redusă acordate de primării producătorilor pot fi ajutor de stat. Se încadrează, probabil, în regimul de minimis agricol (Regulamentul 1408/2013, modificat), dar necesită evidență. Contractele cu consumatori-persoane fizice rămân supuse Directivei 93/13/CEE privind clauzele abuzive, inclusiv controlului din oficiu la executare, ceea ce face art. 18 problematic. Definiția „micului producător” nu discriminează după origine, deci nu apare o barieră evidentă pe piața unică.",
+      "blindSpotsCaught": "Combinația dintre art.8 alin.(1) lit.b) și art.13 alin.(3) e o capcană: exceptarea de la autorizația de comerț cu amănuntul e condiționată de «exclusivitatea» în ASC, iar produsele nu pot fi folosite comercial în afara parteneriatului. Un fermier care vinde surplusul și la piață pierde scutirea. Același surplus ar putea fi considerat «utilizare comercială externă», interzisă prin lege. Ca efect, legea ar putea descuraja tocmai fermierii mici cu canale mixte de vânzare. Pe lângă asta, art.18 intră în coliziune cu art.641 și următoarele din Codul de procedură civilă privind învestirea titlurilor, iar art.22 cere «autorităților competente» să modifice actele subsecvente fără să le identifice.",
+      "constitutionalityNote": "Art.1 alin.(5) (claritate și previzibilitate): sunt vulnerabile «formalități suplimentare de autorizare» (art.19-20), «încălcări repetate» (art.8 alin.3), «autoritățile locale» ca agent constatator (art.16 alin.2) și delegarea definiției micului producător către un ghid (art.3 lit.b). Art.138 alin.(5) și art.120 (autonomie locală): obligațiile impuse primăriilor prin art.11 alin.(1) și art.23 nu au sursă de finanțare. Lipsa fișei financiare, cerută de art.15 din Legea 500/2002, a fost invocată de CCR în decizii anterioare. Art.18 nu e în sine neconstituțional, pentru că legiuitorul poate conferi caracter executoriu unor contracte. Aplicat însă unor contracte neformale cu consumatori, inclusiv pentru prestații în natură supuse riscului climatic, ridică probleme de proporționalitate față de art.21 și art.24, deoarece se pierde controlul judecătoresc prealabil. Restul legii (contractul, informarea, trasabilitatea) e neutru constituțional.",
+      "euLawNote": "Directiva 2018/958 nu se aplică, pentru că legea nu reglementează o profesie. TRIS (2015/1535) nu e relevantă pentru servicii digitale sau AI. Notificarea ar putea deveni relevantă doar dacă art.12 alin.(2) și art.14 ar fi interpretate ca cerințe tehnice noi privind produsele, ceea ce pare puțin probabil, fiindcă trimit la legislația existentă. Regulamentul (CE) 852/2004, art.1 alin.(2) lit.c) și alin.(3), permite reguli naționale pentru livrarea directă de cantități mici de produse primare către consumatorul final. Asta susține art.19, dar înregistrarea operatorului rămâne obligatorie, iar art.14 o păstrează corect. Scutirea TVA sub plafon decurge din art.284 al Directivei 2006/112 și nu e o facilitate nouă. Nu se văd probleme de ajutor de stat sau de piață unică: avantajele sunt marginale și nu discriminează producătorii din alte state membre. Trimiterea din art.2 lit.b) la Planul european de acțiune pentru agricultura ecologică e declarativă și nu produce efecte juridice.",
       "senatForm": {
-        "articleRef": "Art. 18 (titlu executoriu)",
-        "proposalContent": "Se elimină art. 18. Alternativ: „Creanțele de plată născute din contractul ASC pot fi valorificate prin ordonanța de plată sau procedura cu valoare redusă din Codul de procedură civilă. Obligațiile de livrare nu pot face obiectul executării silite în natură.”",
-        "argumentation": "Titlul executoriu pentru contracte între persoane fizice, inclusiv pentru livrări dependente de vreme, permite executarea silită fără judecată. Contrazice art. 13 alin. (4) din proiect și slăbește apărarea consumatorului (art. 21, 24 din Constituție; Directiva 93/13/CEE). Grupul de consumatori nu are formă juridică, deci nu e clar împotriva cui se execută.",
-        "otherComments": "Propun și: comasarea art. 19 cu art. 20 (dublare); sursă de finanțare pentru art. 11 alin. (1) și art. 23 (art. 138 alin. (5) din Constituție); limita de animale stabilită prin lege sau HG, nu prin ghid; procedură și durată pentru suspendarea din art. 8, 14 și 16; eliminarea sintagmei „în limita posibilităților” din art. 5 alin. (1)."
+        "articleRef": "Art.18 (titlu executoriu)",
+        "proposalContent": "Se propune eliminarea art.18. Alternativ: «Contractul de parteneriat ASC constituie titlu executoriu pentru obligațiile de plată scadente numai dacă este încheiat în formă autentică. Obligațiile de livrare se execută potrivit dreptului comun.»",
+        "argumentation": "Art.18 face titlu executoriu din orice contract scris, chiar neformal, între un fermier și minimum 5 persoane, inclusiv pentru livrări în natură expuse riscului climatic. Grupul nu are personalitate juridică, iar consumatorii sau fermierul pot fi executați fără judecată, deși art.4 lit.e) prevede împărțirea riscurilor.",
+        "otherComments": "Art.11 alin.(1) și art.23 impun primăriilor spații gratuite sau ieftine fără sursă de finanțare (art.138 alin.5 Constituție). Propun «pot» în loc de «au obligația». Art.20 inserează excepția în Legea 321/2009, care privește relația comerciant-furnizor. Trebuie definite «formalitățile suplimentare» din art.19."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 99485,
+      "durationMs": 141563,
       "sourceEndMarker": "SF-F36A1CDE",
-      "riskScore": 6,
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Abonamente directe la fermieri, cu reguli neclare pentru autorizare și executare silită",
-      "verdictShort": "Proiectul poate ajuta fermele mici prin contracte previzibile și vânzare directă. Forma analizată necesită însă corectarea derogărilor de autorizare, a suspendării activității și a executării silite, precum și fundamentarea obligațiilor financiare locale.",
-      "initiatorClaim": "Inițiatorii promit venituri stabile pentru fermieri, produse locale sigure pentru consumatori și reducerea intermedierii și a risipei. Expunerea de motive susține că mecanismul nu produce impact bugetar negativ.",
-      "realityCheck": "Legea instituie contracte de 3–12 luni, grupuri de minimum cinci consumatori, obligații de informare și notificare, amenzi și posibilitatea suspendării participării. Articolele 17–20 adaugă derogări fiscale și de autorizare, precum și caracterul executoriu al contractelor, iar articolele 11 și 23 obligă autoritățile locale să asigure spații. Stabilitatea veniturilor și calitatea produselor rămân dependente de executarea contractelor, iar costurile publice există potențial chiar dacă expunerea de motive le neagă.",
+      "plainTitle": "Abonamente directe la fermieri, cu reguli neclare privind autorizarea și sancțiunile",
+      "verdictShort": "Proiectul poate ajuta fermele mici prin contracte și venituri previzibile. Riscurile principale sunt derogările de autorizare insuficient delimitate, suspendarea fără durată stabilită și transformarea contractelor în titluri executorii fără clarificarea obligațiilor fiecărui participant.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea intermedierii, stabilizarea veniturilor fermierilor și accesul consumatorilor la produse locale. Expunerea de motive promite simplificare administrativă și lipsa unui impact bugetar negativ.",
+      "realityCheck": "Textul instituie contracte voluntare de 3–12 luni, obligații de producție și trasabilitate, notificări DSVSA și facilități administrative, fără să garanteze veniturile sau calitatea anunțate în motivare. Scutirea de TVA sub plafon reia un mecanism fiscal existent, iar regimul fiscal agricol nu poate fi aplicat nediferențiat tuturor produselor livrate. Obligațiile impuse primăriilor și autorităților de control presupun resurse, contrar prezentării unui mecanism fără costuri publice.",
       "affectedGroups": [
-        "Agricultură & Mediu",
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Justiție & Drepturi Civile",
-        "Toți cetățenii"
+        "Agricultură & Mediu"
       ],
       "keyFindings": [
-        "Art. 8 alin. (1) lit. b), art. 19 și completarea Legii nr. 321/2009 prin art. 20 exceptează anumite autorizări fără identificarea lor precisă. Art. 12 și 14 mențin obligațiile sanitare, dar nu delimitează suficient derogarea. Rezultatul poate fi aplicarea diferită de către autorități; textul nu permite concluzia că toate autorizările sanitare dispar.",
-        "Art. 18 transformă contractul scris în titlu executoriu pentru plată și livrare. Executarea rămâne supusă condițiilor și controlului judiciar prevăzute de dreptul comun, însă creditorul poate evita un proces prealabil asupra fondului. Cantitățile variabile și împărțirea riscurilor agricole impun reguli mai clare privind exigibilitatea obligațiilor și protecția consumatorilor.",
-        "Art. 8 alin. (3), art. 14 alin. (4) și art. 16 alin. (3) prevăd suspendarea fără durată, criterii suficiente sau condiții de reluare. Art. 16 nu precizează nici intervalul relevant pentru a doua contravenție ori dacă aceasta trebuie să fie de același fel. Regimul general contravențional oferă garanții, dar nu completează toate aceste elemente.",
-        "Art. 16 alin. (1) lit. a) sancționează lipsa unui contract care respectă cerințele minime de validitate, fără să distingă între absența contractului și omiterea uneia dintre numeroasele clauze obligatorii. Nu este clar nici destinatarul sancțiunii în toate situațiile. Amenda de 1.000–5.000 lei nu este evident excesivă prin ea însăși; problema principală este delimitarea faptei.",
-        "Art. 11 alin. (1) și art. 23 impun identificarea și asigurarea de spații, inclusiv cel puțin unul în 12 luni. Pot apărea cheltuieli de amenajare, întreținere și administrare ori venituri din chirii diminuate; monitorizarea și controalele implică, de asemenea, resurse. Afirmația din expunerea de motive privind absența obligațiilor financiare nu este demonstrată de mecanismul legii.",
-        "Art. 3 lit. b) lasă pragurile pentru animale unui ghid ministerial publicat abia după intrarea în vigoare. Eligibilitatea nu ar trebui stabilită printr-un simplu instrument de bune practici. Formula «până la 15 hectare și/sau» permite și interpretarea că o exploatație cu teren peste plafon poate fi eligibilă prin criteriul animalelor.",
-        "Art. 3 lit. c), art. 4 și art. 10 nu clarifică reprezentarea grupului fără personalitate juridică, împărțirea obligațiilor de plată, retragerea unui membru sau efectul scăderii sub cinci persoane. Aceste lacune devin mai importante deoarece contractul primește caracter executoriu.",
-        "Art. 8–9 nu creează o scutire generală de taxe: beneficiul TVA este condiționat de plafonul și regulile fiscale aplicabile. Afirmațiile despre stabilirea normelor prin ordin ANAF și opțiunea pentru sistem real necesită corelare cu regimul fiscal efectiv al fiecărei activități; includerea într-un ASC nu face automat toate veniturile eligibile pentru impunere pe norme.",
-        "Art. 17 condiționează exceptarea de la aparatele de marcat de plata cu trasabilitate bancară. Nu instituie o interdicție generală a numerarului și nu elimină evidențele fiscale. Trebuie precizat raportul cu excepțiile deja existente și cu diferitele instrumente de plată.",
-        "Art. 3 lit. d) și art. 5 folosesc agricultura ecologică într-un mod care poate induce confuzie între practici agricole și statutul ecologic certificat. Participarea la ASC nu înlocuiește condițiile europene pentru comercializarea produselor ca ecologice. Obligația de a utiliza asemenea metode «în limita posibilităților» este greu de verificat.",
-        "Art. 14 adaugă notificarea DSVSA cu minimum 15 zile înainte, iar art. 4, 12 și 15 presupun documentare, trasabilitate și monitorizare. Unele cerințe servesc siguranței alimentare, dar suprapunerea peste înregistrările existente trebuie verificată. Proiectul simplifică unele formalități și introduce altele.",
-        "Art. 21–22 permit intrarea în vigoare înaintea publicării ghidului și a corelării actelor subsecvente, pentru care se acordă încă 90 de zile. Nu există reguli tranzitorii suficiente pentru eligibilitate, contractele deja în derulare și folosirea noilor derogări în acest interval."
+        "Art.4–7 creează un cadru util pentru planificarea producției, plăți și livrări regulate. Participarea este voluntară; textul nu instituie un monopol și nici o taxă nouă de participare.",
+        "Art.8 alin.(1) lit.b), art.19 și art.20 folosesc formule diferite pentru exceptarea de la autorizare, fără identificarea exactă a formalităților înlăturate. Totuși, art.12 și art.14 mențin expres obligațiile de siguranță alimentară și înregistrare DSVSA: proiectul nu poate fi prezentat ca eliminând toate controalele sanitare.",
+        "Art.20 introduce art.6¹ în Legea nr.321/2009. Art.6 actual, care interzice comerciantului să impună anumite restricții asupra prețurilor practicate de furnizor față de alți comercianți, rămâne nemodificat; noua excepție privind autorizarea este o completare distinctă.",
+        "Art.18 conferă contractelor putere executorie pentru plată și livrare. Nu elimină încuviințarea executării, cerința unei creanțe certe, lichide și exigibile sau contestația la executare; lipsa învestirii cu formulă executorie nu înseamnă executare fără instanță. Riscurile climatice și cantitățile variabile trebuie corelate cu obligațiile efectiv exigibile.",
+        "Art.3 lit.c), art.4 și art.18 nu clarifică reprezentarea grupului de minimum cinci consumatori și repartizarea creanțelor și datoriilor. Apartenența la grup nu creează automat răspundere solidară pentru plata tuturor membrilor.",
+        "Art.8 alin.(3), art.14 alin.(4) și art.16 alin.(3) prevăd suspendarea participării în formule necorelate. Lipsesc durata, criteriile și delimitarea autorităților competente; art.16 nu precizează nici intervalul în care a doua contravenție justifică suspendarea. Căile generale de contestare nu sunt însă suprimate.",
+        "Art.9 atribuie stabilirea anuală a normelor de venit unui ordin ANAF, fără corelarea necesară cu mecanismul Codului fiscal. Trebuie diferențiate produsele agricole în stare naturală de activitățile de prelucrare și clarificat pretinsul drept general de opțiune pentru sistem real. Estimările fiscale din motivare nu sunt norme și nu demonstrează încasări certe.",
+        "Art.11 și art.23 obligă autoritățile locale să asigure spații, inclusiv cel puțin unul în 12 luni. Nu prevăd sursa finanțării, criterii transparente de repartizare sau regimul juridic al folosinței gratuite ori al chiriei reduse.",
+        "Art.14 adaugă informarea DSVSA cu minimum 15 zile înaintea începerii parteneriatului, inclusiv pentru producători deja înregistrați. Art.22 lasă stabilirea ghidului pentru primele 90 de zile după intrarea în vigoare, deși art.3 trimite la acesta pentru limitele efectivelor de animale.",
+        "Art.17 condiționează derogarea de la utilizarea casei de marcat de plata prin instrumente cu trasabilitate bancară. Nu scutește încasările în numerar și nu elimină evidența fiscală; trebuie precizat efectul distinct asupra viramentelor și plăților cu cardul, raportat la excepțiile deja existente."
       ],
-      "blindSpotsCaught": "Art. 20 introduce exceptarea de autorizare și în Legea nr. 321/2009: corectarea numai a art. 19 ar lăsa în vigoare o formulare paralelă. Art. 18 este bilateral și privește inclusiv livrarea, nu doar recuperarea banilor. În plus, lipsa serviciilor digitale nu exclude automat analiza TRIS, deoarece directiva acoperă și anumite norme tehnice pentru produse. Referirea expunerii de motive la cauza C-171/11 Fra.bo nu demonstrează compatibilitatea proiectului: cauza privește libera circulație și activitatea unui organism privat de certificare.",
-      "constitutionalityNote": "Riscul principal privește art. 1 alin. (5): derogările neidentificate, eligibilitatea dependentă de un ghid și suspendarea insuficient determinată afectează previzibilitatea. Legalitatea și proporționalitatea sancțiunilor trebuie evaluate ținând cont de natura contravențională a faptelor; art. 23 alin. (12) nu trebuie aplicat mecanic ca și cum proiectul ar institui infracțiuni. Art. 18 necesită corelare cu accesul la justiție și dreptul la apărare, fără ca existența unui titlu executoriu contractual să fie neconstituțională în sine. Obligațiile locale cer evaluare prin art. 120 și art. 138 alin. (5), inclusiv identificarea finanțării cheltuielilor nou-impuse. Diferențierea în favoarea fermelor mici poate avea justificare obiectivă; nu rezultă automat discriminare sau monopol. Verificarea online a dosarului și a legislației consolidate nu a fost disponibilă; concluziile sunt formulate pe textul furnizat, fără constatarea definitivă a neconstituționalității.",
-      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementărilor profesionale din sfera recunoașterii calificărilor; proiectul nu introduce evident o profesie reglementată sau o calificare obligatorie, deci aplicabilitatea sa nu este demonstrată. Pentru Directiva (UE) 2015/1535, componenta serviciilor societății informaționale nu este incidentă pe text, dar trebuie verificat dacă noile cerințe obligatorii privind produsele, informațiile însoțitoare ori metodele de producție constituie reglementări tehnice notificabile; nu se poate afirma că notificarea lipsește fără verificarea dosarului. Derogările naționale nu pot înlătura obligațiile aplicabile din regulamentele (CE) nr. 178/2002, 852/2004 și 853/2004; excepțiile pentru livrarea directă operează numai în limitele lor. Statutul ecologic trebuie corelat cu Regulamentul (UE) 2018/848, iar contractele profesionist–consumator cu protecția împotriva clauzelor abuzive din Directiva 93/13/CEE. Spațiile gratuite sau sub prețul pieței pot necesita examinarea regulilor privind ajutoarele de stat, fără a constitui automat ajutor ilegal. Preferința pentru lanțuri locale nu instituie, prin ea însăși, o interdicție de import.",
+      "blindSpotsCaught": "Dispozițiile cu efectul juridic cel mai puternic sunt art.17–20: derogarea privind casa de marcat, titlul executoriu și exceptările de autorizare. Exclusivitatea cerută de art.8 alin.(1) lit.b) este ambiguă: nu rezultă dacă privește întreaga activitate a producătorului sau numai vânzările pentru care solicită facilitatea, ceea ce poate descuraja accesul la alte piețe. În plus, ghidul publicat ulterior intrării în vigoare ajunge să determine un criteriu de eligibilitate. Aceste efecte nu rezultă din promisiunile generale ale expunerii de motive.",
+      "constitutionalityNote": "Riscul principal privește art.1 alin.(5): derogări fără identificarea normelor vizate, eligibilitate dependentă de un ghid și suspendări insuficient determinate. Nu sunt instituite infracțiuni; art.23 alin.(12) nu trebuie tratat ca dovadă automată a unei neconstituționalități penale, deși previzibilitatea sancțiunilor rămâne necesară în materie contravențională. Suspendarea activității trebuie justificată și proporțională, inclusiv în raport cu art.45. Art.18 nu încalcă prin simpla existență a titlului executoriu accesul la justiție, dar aplicarea sa trebuie să respecte art.21 și protecția consumatorilor din art.135 alin.(2) lit.f). Obligațiile privind spațiile necesită evaluarea cheltuielilor și stabilirea finanțării potrivit art.138 alin.(5), cu respectarea autonomiei locale. Documentele furnizate nu permit constatarea lipsei unor avize sau informări obligatorii din dosarul parlamentar.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementărilor referitoare la profesii reglementate; textul nu introduce explicit calificări profesionale rezervate, astfel că aplicabilitatea ei nu este demonstrată. Nu sunt reglementate servicii digitale sau AI. Directiva (UE) 2015/1535 acoperă însă și reglementări tehnice pentru produse, inclusiv agricole: cerințele obligatorii de producție și comercializare trebuie examinate pentru eventuala notificare TRIS, fără a presupune automat obligația sau inexistența ei. Derogările naționale nu pot înlătura cerințele aplicabile din Regulamentele nr.178/2002, nr.852/2004 și nr.853/2004; excepțiile europene pentru livrări directe au condiții proprii. Utilizarea denumirilor ecologice rămâne supusă Regulamentului (UE) 2018/848. Contractele rămân supuse protecției împotriva clauzelor abuzive din Directiva 93/13/CEE. Spațiile gratuite sau sub prețul pieței necesită examinarea unui posibil ajutor de stat, în funcție de condițiile concrete. Invocarea cauzei C-171/11 Fra.bo în motivare nu dovedește compatibilitatea generală a proiectului: cauza privește certificarea și libera circulație a mărfurilor. Verificarea online a legislației consolidate nu a fost disponibilă în această sesiune.",
       "senatForm": {
-        "articleRef": "Art. 18",
-        "proposalContent": "Articolul 18 se elimină.",
-        "argumentation": "Contractele includ cantități agricole variabile și împărțirea riscurilor, iar reprezentarea grupului de consumatori nu este clarificată. Caracterul executoriu poate amplifica disputele privind obligațiile exigibile. Eliminarea păstrează dreptul ambelor părți de a solicita executarea contractului prin procedurile de drept comun.",
-        "otherComments": "Termenul de amendamente indicat, 17.06.2026, este depășit la data analizei. Observația poate fi transmisă comisiei, fără garanția preluării ca amendament. Sunt necesare și delimitarea derogărilor din art. 8, 19–20, precizarea suspendării și fundamentarea costurilor locale."
+        "articleRef": "Art.19",
+        "proposalContent": "Art.19.— Pentru livrările ASC, scutirea de formalități administrative privește exclusiv autorizarea comercială a livrării directe. Rămân aplicabile cerințele de înregistrare, autorizare sanitar-veterinară și pentru siguranța alimentelor, igienă, transport și trasabilitate prevăzute de legislația națională și a Uniunii Europene.",
+        "argumentation": "Derogarea actuală nu identifică formalitățile înlăturate și poate genera interpretări contradictorii la control. Delimitarea scutirii comerciale de obligațiile sanitare face norma previzibilă și păstrează simplificarea administrativă fără a afecta cerințele europene de siguranță alimentară.",
+        "otherComments": "Corelați art.8 alin.(1) lit.b) și art.20 cu această delimitare. Precizați că exclusivitatea privește numai operațiunile pentru care se aplică scutirea, fără a interzice producătorului alte canale legale de vânzare."
       },
       "reachedEnd": true,
       "status": "ok"
     }
   },
   "history": [
+    {
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-19T12:39:36.191Z",
+      "method": "whole-text-v1",
+      "textChars": 14267,
+      "form": "senat",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:17:44.078Z",
+      "reasons": [
+        "model"
+      ]
+    },
     {
       "riskScore": 5.3,
       "riskLevel": "yellow",

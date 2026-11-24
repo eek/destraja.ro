@@ -1,128 +1,194 @@
 {
   "billId": "guv-mf-20261029-343b2d",
   "slug": "guv-mf-20261029-343b2d",
-  "updatedAt": "2026-11-10T14:11:37.549Z",
+  "updatedAt": "2026-11-24T15:48:34.759Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "proiect",
+    "billChars": 77801,
+    "ordinanceChars": 0,
+    "memoChars": 63211,
+    "memoSupplied": 60000,
+    "marker": "SF-65ACF408"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/guv-mf-20261029-343b2d.json",
+    "form": "initiator",
+    "textHash": "65acf4089ec1c462",
+    "fetchedAt": "2026-11-24T15:47:02.483Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 4.7,
+    "riskScore": 5.7,
     "riskLevel": "yellow",
-    "plainTitle": "Rectificarea bugetului pe 2026: venituri mai mici, deficit mai mare, bani mutați între ministere",
-    "summaryTlDr": "Este o rectificare bugetară tehnică și în mare parte necesară: finanțează handicap, medicamente, transport gratuit pentru elevi și arierate locale. Riscul vine din flexibilitatea foarte largă dată MApN la Art. 7 alin. (3), din reducerea masivă a creditelor de angajament și din sume mari puțin explicate.",
-    "initiatorClaim": "Ministerul Finanțelor spune că actualizează bugetul după execuția pe 9 luni și după recalibrarea macroeconomică: PIB real -0,4% față de +1% estimat. Scopul declarat este să asigure fonduri până la final de an pentru medicamente, asistenți personali, Programul pentru școli, transportul gratuit al elevilor și plata arieratelor UAT.",
-    "realityCheck": "Mecanic, OUG scade veniturile cu 2.103,2 mil. lei și creditele bugetare cu 611,8 mil. lei, iar deficitul crește cu 1.491,4 mil. lei (Art. 2 alin. 3). Creditele de angajament scad cu 9.541,3 mil. lei, ceea ce frânează contractarea de investiții multianuale. MApN primește, prin derogare de la Legea 500/2002 și Legea 69/2010, dreptul de a vira credite între capitole până la sfârșitul anului (Art. 7 alin. 3). Alte autorizări (Curtea de Conturi, MADR, SGG) permit contracte multianuale și virări fără detalii publice în corpul OUG.",
+    "plainTitle": "Rectificarea bugetului pe 2026: venituri mai mici, deficit mai mare, plafoanele fiscale ridicate prin derogare",
+    "summaryTlDr": "Este o rectificare bugetară de rutină, cu bani pentru sănătate, handicap, protecția copilului și 2 miliarde lei pentru datoriile restante ale primăriilor. Problema este alta: prin derogări generale de la Legea 500/2002 și Legea 69/2010, Guvernul ridică plafoanele de deficit și dă ministerelor mână liberă la virări până la final de an, cu control parlamentar redus.",
+    "initiatorClaim": "Ministerul Finanțelor spune că pune bugetul de acord cu execuția pe 9 luni și cu contracția economică de 0,4%. Declară că asigură fonduri pentru medicamente, asistenți personali ai persoanelor cu handicap grav, Programul pentru școli, transportul elevilor și plata arieratelor locale.",
+    "realityCheck": "Veniturile bugetului de stat scad cu 2.103,2 mil. lei, iar cheltuielile cu doar 611,8 mil. lei, așa că deficitul crește cu 1.491,4 mil. lei (BGC: +3.505,6 mil. lei, 6,24% din PIB cash). Cheltuielile cu dobânzile cresc cu 3.498 mil. lei, iar fondurile UE și investițiile se taie masiv, adică se plătesc dobânzi pe seama absorbției. Art. 30 rescrie plafoanele din Legea 42/2026 (sold BGC -130.300 mil. lei, datorie 63% din PIB), iar art. 7 alin. (3), art. 24 și art. 28 autorizează virări de credite care ocolesc limitele art. 47 din Legea 500/2002.",
     "affectedGroups": [
-      "Toți cetățenii",
-      "Sănătate & Educație",
+      "IMM & Antreprenori",
       "Contabili & Fiscalitate",
-      "Agricultură & Mediu"
+      "Sănătate & Educație",
+      "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 7 alin. (3)",
-      "proposalContent": "Se completează art. 7 alin. (3): „Virările între capitole bugetare se pot efectua în limita a 10% din prevederile capitolului de la care se disponibilizează, cu informarea MF și a comisiilor pentru buget și apărare ale Parlamentului în 10 zile de la efectuare, cu indicarea sumelor și a justificării.”",
-      "argumentation": "Derogarea de la art. 47 din Legea 500/2002 și art. 12 din Legea 69/2010 dă MApN putere neplafonată de a muta credite între capitole până la final de an, ocolind controlul parlamentar asupra bugetului (art. 138 Constituție). Plafonul și raportarea păstrează flexibilitatea operațională, dar asigură previzibilitate și transparență.",
-      "otherComments": "Solicit publicarea anexelor complete și a opiniei Consiliului Fiscal (art. 23 Legea 69/2010), detalierea celor 717,6 mil. lei din valorificarea bunurilor MApN (art. 7) și a celor 105,5 mil. lei „alte venituri” MDLPA (art. 6), precum și impactul reducerii cu 9,54 mld. lei a creditelor de angajament asupra investițiilor."
+      "articleRef": "Art. 24 alin. (1) – virări de credite",
+      "proposalContent": "Art. 24 (1) se completează: virările efectuate prin derogare se aprobă prin ordin al ordonatorului principal, se publică pe site-ul acestuia în 5 zile lucrătoare și nu pot diminua cheltuielile de capital pentru majorarea cheltuielilor de personal. MF publică lunar situația centralizată a virărilor până la 31.12.2026.",
+      "argumentation": "Derogarea de la art. 47 din Legea 500/2002 dă tuturor ordonatorilor principali libertate aproape totală de virare până la final de an, fără control parlamentar. Publicarea virărilor și interdicția de a muta bani de la investiții la salarii păstrează transparența (art. 1 alin. 5 din Constituție) și calitatea cheltuielii publice.",
+      "otherComments": "Explicați în nota de fundamentare ce prevedeau art. 39 alin. (2) și art. 59 alin. (6) din Legea 43/2026, abrogate la art. 20, și efectul abrogării. Corectați art. 21 (alineat unic numerotat), ghilimelele de la art. 22 și dublura art. 27 alin. (1)/(3). Corelați termenul de 25.11.2026 de la art. 17 alin. (6) cu data adoptării."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 65848,
-      "riskScore": 5,
-      "riskLevel": "yellow",
-      "plainTitle": "Rectificarea bugetului de stat pe 2026: deficit mai mare cu 1,49 miliarde lei pe fondul intrării economiei în contracție",
-      "verdictShort": "Ordonanța acoperă cheltuieli sociale și medicale urgente pe final de an, dar recunoaște oficial intrarea economiei în contracție (-0,4% PIB real), majorează deficitul bugetar cu încă 1,49 miliarde lei și introduce derogări de la regulile de disciplină fiscală fără dezbatere parlamentară.",
-      "initiatorClaim": "Ministerul Finanțelor susține că rectificarea este necesară pentru corelarea bugetului cu execuția pe primele 9 luni și asigurarea fondurilor pentru medicamente, indemnizațiile persoanelor cu handicap grav, transportul elevilor, Programul pentru școli și achitarea arieratelor primăriilor și spitalelor locale.",
-      "realityCheck": "În realitate, pe lângă finanțarea unor cheltuieli sociale și curente esențiale, proiectul confirmă deteriorarea severă a prognozei economice (de la o creștere de +1% la o scădere reală a PIB de -0,4%, mascată doar nominal de inflație) și adâncește deficitul bugetar cu 1.491,4 milioane lei (veniturile scad cu 2,1 miliarde lei, iar cheltuielile cu doar 611,8 milioane lei). În plus, actul conține derogări punctuale de la Legea finanțelor publice și Legea responsabilității fiscal-bugetare care permit mutarea banilor între capitole și de la investiții sau la/de la personal.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 92273,
+      "sourceEndMarker": "SF-65ACF408",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Rectificarea bugetului 2026: deficit mai mare, datorie de 63% din PIB și bani PNRR mutați la Fondul de rezervă",
+      "verdictShort": "Deși finanțează nevoi reale urgente (medicamente, pensii, asistență socială), OUG-ul derogă masiv de la regulile fiscale, ridică plafonul datoriei la 63% din PIB și permite Guvernului să mute credite din împrumuturi PNRR în Fondul de rezervă, cu grave vicii de transparență și redactare.",
+      "initiatorClaim": "Ministerul Finanțelor susține că rectificarea este necesară urgent pentru corelarea bugetului cu execuția pe 9 luni, asigurarea medicamentelor, pensiilor, drepturilor persoanelor cu handicap, Programului pentru școli, gratuității transportului elevilor și stingerii arieratelor primăriilor.",
+      "realityCheck": "În realitate, pe fondul unei contracții economice estimate la -0,4% din PIB, deficitul consolidat crește cu 3,5 miliarde lei (ajungând la 6,24% din PIB), dobânzile urcă cu 3,5 miliarde lei, iar proiectul dezactivează prin derogări limitele din Legea finanțelor publice și Legea responsabilității fiscal-bugetare (Art. 24, 26, 30). În plus, Art. 21 permite cedarea creditelor din împrumuturi PNRR către Fondul de rezervă la dispoziția Guvernului, iar schema de 2 miliarde lei pentru datoriile primăriilor (Art. 17) se aplică discreționar („primul venit, primul servit”) și favorizează furnizorii cu datorii fiscale restante.",
       "affectedGroups": [
-        "Toți cetățenii",
-        "Sănătate & Educație",
+        "IMM & Antreprenori",
         "Contabili & Fiscalitate",
-        "Agricultură & Mediu"
+        "Sănătate & Educație",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 2 alin. (3): Veniturile bugetului de stat pe anul 2026 se diminuează cu 2.103,2 milioane lei, cheltuielile (credite bugetare) scad cu doar 611,8 milioane lei (iar creditele de angajament scad cu 9.541,3 milioane lei), rezultând o majorare directă a deficitului bugetar cu 1.491,4 milioane lei.",
-        "Nota de fundamentare recunoaște că economia României intră în contracție reală în 2026 (-0,4% față de +1,0% estimat inițial), creșterea PIB-ului nominal la 2.086,3 miliarde lei fiind umflată de șocurile inflaționiste, liberalizarea prețului energiei și majorările anterioare de TVA și accize.",
-        "Art. 7 alin. (2) și (3): Prin derogare de la art. 47 alin. (3), (4) și (13) din Legea nr. 500/2002 și de la art. 12 alin. (1) lit. e) din Legea responsabilității fiscal-bugetare nr. 69/2010, Ministerul Apărării Naționale este autorizat să efectueze virări de credite între capitole bugetare, inclusiv la și de la cheltuieli de personal și de la cheltuieli de capital.",
-        "Art. 3 și Art. 9 alin. (1): Curtea de Conturi și Ministerul Agriculturii (împreună cu instituțiile subordonate) sunt autorizate să încheie contracte multianuale la titlul 20 „Bunuri și servicii” pentru mentenanță IT, reparații curente, utilități și prestări servicii."
+        "Derogări fiscale majore și datorie peste pragul UE (Art. 30): prin derogare de la LRFB nr. 69/2010 și Legea plafoanelor nr. 42/2026, plafonul datoriei publice urcă la 63% din PIB, iar deficitul bugetului general consolidat ajunge la -130,3 miliarde lei (6,24% din PIB).",
+        "Redirectarea fondurilor PNRR către Fondul de rezervă (Art. 21): prin derogare de la OUG nr. 124/2021, creditele din componenta de împrumut a PNRR (titlul 61) pot fi cedate la Fondul de rezervă la dispoziția Guvernului, ocolind controlul parlamentar.",
+        "Slăbirea disciplinei bugetare (Art. 7, 23, 24, 26, 27, 28): ordonatorii de credite și instituțiile de apărare/securitate primesc derogări ample de la Legea nr. 500/2002 și LRFB nr. 69/2010 pentru a muta bani între capitole și de la investiții/capital către cheltuieli curente și de personal.",
+        "Schemă de compensare a arieratelor UAT de 2 miliarde lei cu riscuri de blocaj și hazard moral (Art. 17): repartizarea se face „primul venit, primul servit” (alin. 9) exclusiv pentru stingerea datoriilor fiscale restante ale furnizorilor la 30 septembrie 2026 (excluzând furnizorii bun-platnici și creanțele cesionate, cu excepția ADI-urilor de transport), iar normele metodologice au termen de 15 zile (alin. 24), riscând să apară după data limită de depunere a cererilor (25 noiembrie, alin. 6).",
+        "Contradicție directă în motivarea urgenței și vicii de redactare (Art. 15, 16, 20): preambulul invocă urgența finanțării gratuității transportului elevilor, dar Art. 16 alin. (1) lit. b) pct. (iii) taie 31,7 milioane lei de la această destinație; Art. 15 are o formulare circulară (diminuează alin. 56.72.02 pentru a asigura bani tot la alin. 56.72.02); Art. 20 pct. 4 și 6 abrogă două alineate din Legea bugetului fără nicio explicație."
       ],
-      "blindSpotsCaught": "Contradicție internă chiar în preambulul OUG: la lit. j) Guvernul invocă Legea nr. 500/2002 potrivit căreia „legile bugetare anuale pot fi modificate în cursul exercițiului bugetar prin legi de rectificare”, dar alege să modifice Legea bugetului nr. 43/2026 prin Ordonanță de Urgență, ocolind procedura parlamentară prealabilă. Totodată, derogarea de la art. 12 alin. (1) lit. e) din Legea nr. 69/2010 (Art. 7) încalcă regula fiscală menită să împiedice sacrificarea investițiilor pentru acoperirea cheltuielilor curente.",
-      "constitutionalityNote": "Sub aspectul art. 115 alin. (4) și art. 138 din Constituția României, utilizarea OUG pentru rectificarea bugetară anuală ridică probleme recurente de constituționalitate: analiza execuției bugetare la 9 luni și finanțarea unor obligații legale previzibile (transportul elevilor, Programul pentru școli, drepturile asistenților personali) reprezintă operațiuni ordinare de planificare bugetară, nu „situații extraordinare” imprevizibile. De asemenea, derogările ad-hoc de la Legea nr. 500/2002 și Legea nr. 69/2010 afectează principiul legalității și previzibilității normelor bugetare (art. 1 alin. 5 din Constituție).",
-      "euLawNote": "Proiectul nu reglementează profesii (Directiva 2018/958) și nici servicii digitale/reglementări tehnice (Directiva TRIS 2015/1535). În schimb, are relevanță directă sub cadrul de guvernanță economică al UE (Pactul de Stabilitate și Creștere reformat și procedura de deficit excesiv - art. 126 TFUE), întrucât majorează deficitul bugetar cu 1,49 miliarde lei și slăbește regulile fiscale naționale instituite prin Legea nr. 69/2010 (care transpune Directiva 2011/85/UE privind cadrele bugetare ale statelor membre).",
+      "blindSpotsCaught": "Trei capcane subtile trec ușor neobservate: (1) Capcana calendaristică din Art. 17 – consultarea publică se încheie pe 8 noiembrie 2026, normele metodologice au 15 zile de la intrarea în vigoare pentru publicare (alin. 24), deci pot apărea chiar la sau după termenul-limită de 25 noiembrie pentru depunerea cererilor UAT (alin. 6); (2) Contradicția flagrantă dintre motivarea urgenței pe transportul elevilor și tăierea efectivă cu 31,7 mil. lei din Art. 16; (3) Secțiunile obligatorii 4.4–4.7 (sursele de acoperire a deficitului, fișa financiară, compatibilitatea cu strategia fiscal-bugetară) și anexele 1–7 lipsesc din documentația publicată.",
+      "constitutionalityNote": "Există vulnerabilități serioase pe Art. 115 alin. (4) (adoptarea rectificării și modificarea plafoanelor aprobate prin lege prin OUG, cu o motivare a urgenței contrazisă parțial chiar de textul Art. 16), Art. 138 alin. (2) (ocolirea rolului constituțional al Parlamentului în aprobarea bugetului și redistribuirea spre Fondul de rezervă prin Art. 21) și Art. 1 alin. (5) privind claritatea și previzibilitatea legii (redactarea circulară a Art. 15, abrogările nemotivate de la Art. 20 pct. 4 și 6, lipsa fișei financiare și a opiniei Consiliului Fiscal din motivare).",
+      "euLawNote": "Directiva (UE) 2018/958 (testul de proporționalitate) și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente, actul fiind unul bugetar. Totuși, există riscuri importante față de dreptul UE: (1) Art. 30 stabilește plafonul datoriei publice la 63% din PIB (peste limita de 60% din Art. 126 TFUE și Protocolul nr. 12) și majorează deficitul la 6,24% din PIB, tensionând angajamentele din Procedura de Deficit Excesiv și Regulamentul (UE) 2024/1263; (2) Art. 21 riscă să afecteze trasabilitatea finanțării din Regulamentul (UE) 2021/241 (PNRR) prin cedarea creditelor la Fondul de rezervă; (3) mecanismul Art. 17 poate genera efecte anticoncurențiale/avantaje selective (Art. 107 TFUE) în favoarea firmelor cu restanțe fiscale și împotriva celor cu taxele la zi.",
       "senatForm": {
-        "articleRef": "Art. 7 alin. (2) și alin. (3)",
-        "proposalContent": "Se propune eliminarea derogărilor de la art. 12 alin. (1) lit. e) din Legea responsabilității fiscal-bugetare nr. 69/2010 și interzicerea virărilor de credite de la cheltuieli de capital (investiții) către cheltuieli curente sau de personal în cadrul art. 7 alin. (2) și (3), menținându-se regulile standard de disciplină financiară din Legea nr. 500/2002.",
-        "argumentation": "Derogarea prin OUG de la Legea nr. 69/2010 și Legea nr. 500/2002 subminează disciplina fiscal-bugetară și permite sacrificarea fondurilor de investiții în favoarea cheltuielilor curente sau de personal pe final de an, fără control parlamentar prealabil, în condițiile în care rectificarea majorează deja deficitul bugetar cu 1,49 miliarde lei.",
-        "otherComments": "Conform art. 6 din Legea nr. 500/2002 și art. 138 din Constituție, rectificarea bugetară ar trebui promovată prin proiect de lege în procedură de urgență în Parlament, nu prin OUG, execuția bugetară la 9 luni fiind un proces previzibil. De asemenea, solicităm publicarea integrală a opiniei Consiliului Fiscal înainte de adoptarea actului."
+        "articleRef": "Art. 17, Art. 21 și Art. 30",
+        "proposalContent": "1. Eliminarea Art. 21 (interzicerea cedării fondurilor PNRR la Fondul de rezervă). 2. La Art. 17: corelarea termenului de depunere (alin. 6) cu normele (alin. 24) și repartizare proporțională, nu «primul venit, primul servit». 3. Corectarea redactării circulare de la Art. 15. 4. Completarea secț. 4.4–4.7 din NF și motivarea abrogărilor de la Art. 20.",
+        "argumentation": "Art. 21 mută fonduri din împrumuturi PNRR în Fondul de rezervă, slăbind controlul parlamentar și trasabilitatea UE. La Art. 17, normele emise în 15 zile pot depăși termenul de 25 noiembrie, iar regula «primul venit» și excluderea cesiunilor generează inechități. Art. 15 e redactat circular, încălcând art. 1 alin. (5) din Constituție.",
+        "otherComments": "Solicităm publicarea anexelor 1–7 și a opiniei Consiliului Fiscal înainte de adoptare și corectarea contradicției dintre preambul (urgența transportului elevilor) și Art. 16 alin. (1) lit. b) pct. (iii), care taie 31,7 mil. lei. Derogările de la LRFB și plafonul datoriei de 63% din PIB (Art. 30) necesită dezbatere parlamentară."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 42683,
+      "durationMs": 55257,
+      "sourceEndMarker": "SF-65ACF408",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Rectificarea bugetului pe 2026: venituri mai mici, deficit mai mare, bani mutați între ministere",
-      "verdictShort": "Este o rectificare bugetară tehnică și în mare parte necesară: finanțează handicap, medicamente, transport gratuit pentru elevi și arierate locale. Riscul vine din flexibilitatea foarte largă dată MApN la Art. 7 alin. (3), din reducerea masivă a creditelor de angajament și din sume mari puțin explicate.",
-      "initiatorClaim": "Ministerul Finanțelor spune că actualizează bugetul după execuția pe 9 luni și după recalibrarea macroeconomică: PIB real -0,4% față de +1% estimat. Scopul declarat este să asigure fonduri până la final de an pentru medicamente, asistenți personali, Programul pentru școli, transportul gratuit al elevilor și plata arieratelor UAT.",
-      "realityCheck": "Mecanic, OUG scade veniturile cu 2.103,2 mil. lei și creditele bugetare cu 611,8 mil. lei, iar deficitul crește cu 1.491,4 mil. lei (Art. 2 alin. 3). Creditele de angajament scad cu 9.541,3 mil. lei, ceea ce frânează contractarea de investiții multianuale. MApN primește, prin derogare de la Legea 500/2002 și Legea 69/2010, dreptul de a vira credite între capitole până la sfârșitul anului (Art. 7 alin. 3). Alte autorizări (Curtea de Conturi, MADR, SGG) permit contracte multianuale și virări fără detalii publice în corpul OUG.",
+      "plainTitle": "Rectificarea bugetului pe 2026: venituri mai mici, deficit mai mare, plafoanele fiscale ridicate prin derogare",
+      "verdictShort": "Este o rectificare bugetară de rutină, cu bani pentru sănătate, handicap, protecția copilului și 2 miliarde lei pentru datoriile restante ale primăriilor. Problema este alta: prin derogări generale de la Legea 500/2002 și Legea 69/2010, Guvernul ridică plafoanele de deficit și dă ministerelor mână liberă la virări până la final de an, cu control parlamentar redus.",
+      "initiatorClaim": "Ministerul Finanțelor spune că pune bugetul de acord cu execuția pe 9 luni și cu contracția economică de 0,4%. Declară că asigură fonduri pentru medicamente, asistenți personali ai persoanelor cu handicap grav, Programul pentru școli, transportul elevilor și plata arieratelor locale.",
+      "realityCheck": "Veniturile bugetului de stat scad cu 2.103,2 mil. lei, iar cheltuielile cu doar 611,8 mil. lei, așa că deficitul crește cu 1.491,4 mil. lei (BGC: +3.505,6 mil. lei, 6,24% din PIB cash). Cheltuielile cu dobânzile cresc cu 3.498 mil. lei, iar fondurile UE și investițiile se taie masiv, adică se plătesc dobânzi pe seama absorbției. Art. 30 rescrie plafoanele din Legea 42/2026 (sold BGC -130.300 mil. lei, datorie 63% din PIB), iar art. 7 alin. (3), art. 24 și art. 28 autorizează virări de credite care ocolesc limitele art. 47 din Legea 500/2002.",
       "affectedGroups": [
-        "Toți cetățenii",
         "Sănătate & Educație",
-        "Justiție & Drepturi Civile",
-        "Agricultură & Mediu",
-        "IMM & Antreprenori"
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 2 alin. (3): deficitul crește cu 1.491,4 mil. lei. Calculul este corect (venituri -2.103,2, credite bugetare -611,8), dar indică presiune fiscală suplimentară în plin proces de consolidare.",
-        "Art. 2 alin. (3): creditele de angajament scad cu 9.541,3 mil. lei, de aproape 16 ori mai mult decât creditele bugetare. Efectul probabil este amânarea sau anularea unor angajamente de investiții multianuale, iar fundamentarea pe ordonatori este vizibilă doar în anexa nr. 2.",
-        "Art. 7 alin. (3): MApN poate vira credite de angajament și bugetare între capitole bugetare până la final de an, prin derogare de la art. 47 alin. (3), (4), (13) din Legea 500/2002 și art. 12 alin. (1) lit. e) din Legea 69/2010. Este o delegare amplă care slăbește controlul parlamentar asupra destinației sumelor.",
-        "Art. 7 alin. (1) lit. c): veniturile proprii ale MApN din valorificarea bunurilor cresc cu 717.624 mii lei, fără identificarea bunurilor sau a procedurii de valorificare în textul OUG.",
-        "Art. 6 alin. (1): MDLPA își majorează veniturile proprii cu 105.528 mii lei la subcapitolul vag „Alte venituri”, fără sursa explicată în articol.",
-        "Art. 8 și preambul lit. g): se alocă 3.469.384 mii lei transfer către bugetul asigurărilor sociale și fonduri pentru asistenții personali ai persoanelor cu handicap grav. Sunt măsuri sociale pozitive și necesare."
+        "Art. 2 alin. (3): veniturile bugetului de stat scad cu 2.103,2 mil. lei, creditele bugetare cu 611,8 mil. lei, iar deficitul crește cu 1.491,4 mil. lei. Conform notei, dobânzile cresc cu 3.498,1 mil. lei, iar proiectele FEN 2021-2027 scad cu 5.238,1 mil. lei.",
+        "Art. 30: derogă de la regulile fiscale ale Legii 69/2010 (art. 12, 17, 24, 26) și de la Legea 42/2026 și fixează noi plafoane: cheltuieli BGC 769.444,1 mil. lei, sold BGC -130.300 mil. lei, datorie publică 63% din PIB. Justificarea din nota de fundamentare este vagă („eventualele evoluții sub așteptări” și „prefinanțări”).",
+        "Art. 24 alin. (1): toți ordonatorii principali pot vira credite neutilizate prin derogare de la art. 47 alin. (8)-(11), (13) și art. 47^1 alin. (2) din Legea 500/2002, practic fără limitele de procent și de calendar. Art. 7 alin. (3) dă MApN dreptul de a vira chiar între capitole bugetare.",
+        "Art. 16-17: județele și Bucureștiul primesc 2.000 mil. lei din TVA pentru arierate la 30.09.2026, inclusiv la termoficare și transport public, cu mecanism de stingere a obligațiilor fiscale ale furnizorilor (SWAP). Cererile se depun până la 25.11.2026 și sunt servite în ordinea primirii, până la epuizare. Mecanismul recompensează UAT-urile cu disciplină financiară slabă.",
+        "Art. 18 alin. (2): plafonul până la care CNAS poate încheia contracte cost-volum/cost-volum-rezultat crește la 9.100.000 mii lei. FNUASS primește +3.200 mil. lei pentru medicamente și servicii medicale, iar excedentul său scade cu 2.619,9 mil. lei.",
+        "Art. 20 pct. 4 și 6 abrogă art. 39 alin. (2) și art. 59 alin. (6) din Legea 43/2026 fără ca textul sau nota de fundamentare să explice ce prevedeau acestea și ce efect are abrogarea.",
+        "Art. 21: sumele din componenta de împrumut PNRR (titlul 61) pot fi cedate Fondului de rezervă la dispoziția Guvernului, prin derogare de la art. 14 alin. (3) din OUG 124/2021. Astfel, bani cu destinație PNRR devin disponibili pentru alocări discreționare prin HG."
       ],
-      "blindSpotsCaught": "Preambulul (lit. h) menționează stingerea obligațiilor „agenților economici” față de bugetul de stat prin plata arieratelor UAT. Nota de fundamentare îi indică pe operatorii de termoficare și transport public. Dacă plata se face direct către buget în contul operatorilor, poate apărea o componentă de ajutor de stat (SIEG), care trebuie să respecte Decizia 2012/21/UE și criteriile Altmark. Textul extras nu arată nici dacă s-a obținut opinia Consiliului Fiscal cerută de art. 23 din Legea 69/2010. Consultarea durează exact 10 zile (29.10–08.11), minimul legal din Legea 52/2003, iar termenul legal de rectificare este 30 noiembrie, deci rămâne puțin timp pentru integrarea propunerilor.",
-      "constitutionalityNote": "Rectificarea bugetară prin OUG are acoperire în practica CCR, iar urgența (art. 115 alin. 4) este motivată plauzibil prin riscul de blocare a plăților până la final de an. OUG nu pare să afecteze drepturi fundamentale (art. 115 alin. 6). Punctul sensibil este Art. 7 alin. (3): delegarea către un ordonator a puterii de a muta sume între capitole, fără plafon, diluează rolul Parlamentului de a aproba bugetul (art. 138 alin. 2) și scade previzibilitatea (art. 1 alin. 5). Probabil nu duce la neconstituționalitate, dar este criticabilă. Formulări precum „alte venituri” fără sursă reduc claritatea normei.",
-      "euLawNote": "Directiva (UE) 2018/958 privind testul de proporționalitate nu se aplică: actul nu reglementează profesii. Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reglementări tehnice sau privind servicii ale societății informaționale. Sunt relevante Directiva 2011/85/UE privind cadrele bugetare, care cere transparență și fundamentare macro credibilă, și procedura de deficit excesiv în care se află România: creșterea deficitului trebuie corelată cu traiectoria convenită cu Comisia. Pentru plata arieratelor către operatorii de servicii publice trebuie verificată conformitatea cu art. 107–108 TFUE (ajutor de stat/SIEG).",
+      "blindSpotsCaught": "Art. 17 alin. (6) fixează termenul de depunere a cererilor la 25.11.2026, deși consultarea s-a închis pe 08.11.2026. Dacă OUG intră în vigoare târziu, UAT-urile rămân cu câteva zile pentru certificate fiscale, acorduri cu furnizorii și dosare, iar alocarea în ordinea primirii avantajează pe cei mai rapizi, nu pe cei mai îndatorați. Art. 17 alin. (22) exclude creanțele cesionate, dar alin. (23) le reintroduce pentru ADI-urile de transport, o diferență de tratament nemotivată. La redactare: art. 21 are doar alin. (1), art. 22 se încheie cu o ghilimea orfană, art. 27 alin. (1) și (3) se suprapun aproape integral, iar art. 28 are un punct parazit („SAFE. în anul 2026”). Art. 23 din Legea 69/2010 cere opinia Consiliului Fiscal: nota arată doar că a fost solicitată (adresa nr. 494.696/2026), fără să redea concluziile.",
+      "constitutionalityNote": "Rectificarea bugetului prin OUG a fost acceptată constant de CCR, iar urgența este plauzibilă având în vedere termenul de 30 noiembrie din art. 6 din Legea 500/2002. Riscurile constituționale sunt moderate. (1) Art. 138 alin. (5) cere sursă de finanțare pentru cheltuieli, iar majorarea deficitului este acoperită doar implicit prin împrumut. (2) Derogările generale de la Legea 69/2010 și Legea 42/2026 golesc de conținut regulile fiscale prin act al executivului, ceea ce ridică probleme de previzibilitate și de securitate juridică (art. 1 alin. 5). (3) Autorizarea virărilor între capitole (art. 7 alin. 3, art. 24) mută decizia bugetară de la Parlament (art. 138 alin. 2) la ordonatori. (4) Abrogările nemotivate de la art. 20 contravin exigențelor de motivare din Legea 24/2000. Nu se aduc atingeri drepturilor fundamentale, iar art. 115 alin. (6) nu este încălcat.",
+      "euLawNote": "Directiva 2018/958 (testul de proporționalitate pentru profesii reglementate) și Directiva 2015/1535 (TRIS) nu sunt aplicabile, deoarece actul nu reglementează profesii, produse sau servicii digitale. Relevant este cadrul fiscal UE. Directiva 2011/85/UE privind cadrele bugetare impune reguli numerice credibile, iar derogările repetate de la Legea 69/2010 le slăbesc. Deficitul de 6,24% din PIB cash trebuie corelat cu procedura de deficit excesiv (Reg. 1467/97 și noul cadru de guvernanță economică). Sumele SAFE (art. 28-29) și PNRR (art. 21) trebuie folosite conform regulamentelor UE, iar redirecționarea titlului 61 către Fondul de rezervă poate crea riscul de neeligibilitate. Compensațiile pentru transport public (art. 17, Reg. 1370/2007) trebuie verificate contra supracompensării, pentru a evita ajutorul de stat.",
       "senatForm": {
-        "articleRef": "Art. 7 alin. (3)",
-        "proposalContent": "Se completează art. 7 alin. (3): „Virările între capitole bugetare se pot efectua în limita a 10% din prevederile capitolului de la care se disponibilizează, cu informarea MF și a comisiilor pentru buget și apărare ale Parlamentului în 10 zile de la efectuare, cu indicarea sumelor și a justificării.”",
-        "argumentation": "Derogarea de la art. 47 din Legea 500/2002 și art. 12 din Legea 69/2010 dă MApN putere neplafonată de a muta credite între capitole până la final de an, ocolind controlul parlamentar asupra bugetului (art. 138 Constituție). Plafonul și raportarea păstrează flexibilitatea operațională, dar asigură previzibilitate și transparență.",
-        "otherComments": "Solicit publicarea anexelor complete și a opiniei Consiliului Fiscal (art. 23 Legea 69/2010), detalierea celor 717,6 mil. lei din valorificarea bunurilor MApN (art. 7) și a celor 105,5 mil. lei „alte venituri” MDLPA (art. 6), precum și impactul reducerii cu 9,54 mld. lei a creditelor de angajament asupra investițiilor."
+        "articleRef": "Art. 24 alin. (1) – virări de credite",
+        "proposalContent": "Art. 24 (1) se completează: virările efectuate prin derogare se aprobă prin ordin al ordonatorului principal, se publică pe site-ul acestuia în 5 zile lucrătoare și nu pot diminua cheltuielile de capital pentru majorarea cheltuielilor de personal. MF publică lunar situația centralizată a virărilor până la 31.12.2026.",
+        "argumentation": "Derogarea de la art. 47 din Legea 500/2002 dă tuturor ordonatorilor principali libertate aproape totală de virare până la final de an, fără control parlamentar. Publicarea virărilor și interdicția de a muta bani de la investiții la salarii păstrează transparența (art. 1 alin. 5 din Constituție) și calitatea cheltuielii publice.",
+        "otherComments": "Explicați în nota de fundamentare ce prevedeau art. 39 alin. (2) și art. 59 alin. (6) din Legea 43/2026, abrogate la art. 20, și efectul abrogării. Corectați art. 21 (alineat unic numerotat), ghilimelele de la art. 22 și dublura art. 27 alin. (1)/(3). Corelați termenul de 25.11.2026 de la art. 17 alin. (6) cu data adoptării."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 76434,
-      "riskScore": 5,
+      "durationMs": 81491,
+      "sourceEndMarker": "SF-65ACF408",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Rectificarea bugetului: bani redistribuiți și o neconcordanță la Apărare",
-      "verdictShort": "Finanțarea serviciilor publice este utilă, iar fragmentul nu introduce taxe sau sancțiuni pentru cetățeni. Totuși, o neconcordanță numerică la Ministerul Apărării și justificarea insuficient individualizată a urgenței necesită corecturi înaintea adoptării.",
-      "initiatorClaim": "Ministerul Finanțelor urmărește adaptarea bugetului la execuția primelor nouă luni și asigurarea fondurilor pentru funcționarea instituțiilor, servicii medicale, programe școlare și sprijinirea persoanelor cu handicap grav.",
-      "realityCheck": "Art. 2 reduce veniturile cu 2.103,2 milioane lei și cheltuielile bugetare cu 611,8 milioane lei, majorând corect aritmetic deficitul cu 1.491,4 milioane lei; reducerea creditelor de angajament privește distinct capacitatea de asumare a obligațiilor. Articolele următoare autorizează modificări bugetare, contracte multianuale și virări de credite, inclusiv derogări pentru Apărare. Fragmentul se întrerupe la art. 10 și nu include anexele, astfel încât destinația integrală a banilor și finanțarea efectivă a tuturor obiectivelor declarate nu pot fi confirmate.",
+      "plainTitle": "Rectificarea bugetului: bani pentru servicii publice și libertate sporită de redistribuire",
+      "verdictShort": "Proiectul finanțează nevoi publice reale, dar relaxează substanțial regulile de redistribuire și disciplina fiscală. Transferarea unor credite PNRR spre Fondul de rezervă, neconcordanțele numerice și calendarul procedural necesită corectare înaintea adoptării.",
+      "initiatorClaim": "Ministerul Finanțelor urmărește adaptarea bugetului la execuția primelor nouă luni și asigurarea continuității serviciilor publice, tratamentelor medicale și programelor sociale și școlare. Propune și stingerea unor datorii locale și facilitarea redistribuirilor până la sfârșitul anului.",
+      "realityCheck": "Art. 2 reduce veniturile bugetului de stat cu 2.103,2 milioane lei și cheltuielile bugetare cu 611,8 milioane lei, majorând deficitul cu 1.491,4 milioane lei; separat, nota estimează majorarea deficitului întregului buget general consolidat cu 3.505,6 milioane lei. Dispozițiile finale permit mutări extinse între destinații, cedarea unor credite aferente componentei de împrumut PNRR către Fondul de rezervă și înlocuirea unor plafoane fiscale. Proiectul nu introduce direct taxe sau sancțiuni pentru cetățeni și IMM-uri, dar poate schimba finanțarea investițiilor și accesul furnizorilor la mecanismul de plată.",
       "affectedGroups": [
+        "IMM & Antreprenori",
         "Contabili & Fiscalitate",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
         "Sănătate & Educație",
         "Agricultură & Mediu",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 7 alin. (1): modificările de venituri enumerate au un sold pozitiv de 668.322 mii lei, deși introducerea prevede redistribuiri cu încadrarea în suma totală aprobată. Lipsesc diminuări compensatorii sau o explicație care să reconcilieze cifrele cu această limită.",
-        "Art. 7 alin. (3): Ministerul Apărării primește până la sfârșitul anului flexibilitate suplimentară pentru virări între subdiviziuni și capitole, prin derogări exprese de la Legea nr. 500/2002 și Legea nr. 69/2010. Plafonul bugetar aprobat rămâne o limită expresă; textul nu autorizează cheltuieli nelimitate.",
-        "Art. 3 și art. 9 alin. (1) permit contracte multianuale în limita creditelor de angajament aprobate. Aceste autorizări nu echivalează cu disponibilitatea imediată a banilor pentru toate plățile viitoare și nu instituie, în fragment, excepții de la achizițiile publice.",
-        "Art. 8 identifică un transfer de 3.469.384 mii lei către bugetul asigurărilor sociale de stat. Nu stabilește prin el însuși majorarea drepturilor individuale ale beneficiarilor.",
-        "Fragmentul nu introduce obligații declarative, taxe, amenzi sau condiții noi de acces pe piață pentru cetățeni și IMM-uri. Efectele asupra furnizorilor depind de alocările efective, contractare și plata obligațiilor.",
-        "Preambulul invocă predominant necesități recurente de finanțare. Pentru justificarea OUG sunt necesare date concrete despre momentul epuizării fondurilor și consecințele imediate ale amânării."
+        "Art. 18 și nota de fundamentare urmăresc continuitatea tratamentelor și serviciilor medicale. Art. 18 alin. (2) stabilește limita contractelor cost-volum/cost-volum-rezultat la 9,1 miliarde lei; aceasta este o autorizare de contractare, nu dovada unor plăți deja efectuate.",
+        "Art. 21 permite cedarea creditelor bugetare de la titlul 61, aferent componentei de împrumut PNRR, către Fondul de rezervă. Operațiunea nu dovedește transferarea unor încasări europene deja primite și nu înlătură obligațiile europene, dar permite schimbarea destinației autorizării bugetare fără garanții explicite privind proiectele afectate.",
+        "Art. 24, 26 și 28 relaxează restricții privind virările, inclusiv protecția investițiilor. Art. 26 permite expres diminuarea cheltuielilor de investiții și majorarea cheltuielilor curente pentru proiectele vizate, păstrând însă totalul finanțării externe nerambursabile; această protecție trebuie recunoscută.",
+        "Art. 30 înlocuiește plafoane și derogă de la reguli ale responsabilității fiscal-bugetare: soldul bugetului general consolidat este stabilit la minus 130,3 miliarde lei, iar plafonul datoriei publice la 63% din PIB. Fără valorile inițiale verificate nu se poate cuantifica modificarea fiecărui plafon; simpla derogare legală nu demonstrează neconstituționalitatea.",
+        "Art. 16 alin. (1) lit. b) declară o suplimentare de 237.073 mii lei, însă cele 12 componente însumează 223.099 mii lei. Diferența de 13.974 mii lei trebuie reconciliată cu anexa nr. 4 și cu totalul rectificării.",
+        "Art. 7 alin. (1) prezintă modificările drept redistribuiri în limita sumei totale aprobate, dar influențele enumerate la venituri au un sold pozitiv de 668.322 mii lei. Textul trebuie să precizeze majorarea și corelarea cheltuielilor sau să indice pozițiile compensatorii lipsă.",
+        "Art. 17 rezervă 2 miliarde lei unui circuit de stingere a datoriilor locale și a obligațiilor fiscale proprii ori ale furnizorilor. Nu este o schemă generală de achitare a tuturor facturilor restante: furnizorii fără obligațiile fiscale eligibile nu beneficiază de același circuit.",
+        "Art. 17 alin. (9) și (11) instituie repartizarea în ordinea primirii cererilor, până la epuizarea fondurilor. Viteza circuitului administrativ poate decide accesul la finanțare; sunt necesare transparența ordinii și justificarea alegerii acestui criteriu.",
+        "Art. 17 alin. (6) fixează depunerea cererilor până la 25 noiembrie 2026, iar alin. (24) permite emiterea normelor în 15 zile de la intrarea în vigoare. Normele ar putea apărea după închiderea depunerii; dacă adoptarea intervine după 25 noiembrie, termenul devine inutilizabil fără modificare.",
+        "Art. 16 reduce finanțarea transportului elevilor cu 31.678 mii lei și a drepturilor copiilor cu CES din învățământul special cu 6.404 mii lei. Reducerile nu abrogă drepturile beneficiarilor; legalitatea și oportunitatea lor depind de existența unor disponibilități reale și de acoperirea necesarului rămas.",
+        "Art. 20 pct. 4 și 6 abrogă art. 39 alin. (2) și art. 59 alin. (6) din legea bugetului. Conținutul dispozițiilor eliminate nu este furnizat, astfel încât efectele acestor abrogări nu pot fi stabilite responsabil doar din proiect.",
+        "Art. 31 integrează anexele nr. 1–7, însă acestea lipsesc din materialul primit. Nota este și ea incompletă; explicațiile sale privind alocările nu înlocuiesc anexele normative și nu permit verificarea integrală a beneficiarilor, sumelor și finanțării multianuale."
       ],
-      "blindSpotsCaught": "Principala neconcordanță verificabilă este soldul pozitiv al veniturilor din art. 7 alin. (1), incompatibil aparent cu totalul declarat constant. Intervalul de consultare 29 octombrie–8 noiembrie nu dovedește singur respectarea Legii nr. 52/2003: trebuie verificate separat publicarea înaintea avizării, perioada pentru recomandări și eventuala justificare a procedurii de urgență. La data analizei, 10 noiembrie 2026, termenul comunicat pentru propuneri este deja expirat.",
-      "constitutionalityNote": "Art. 1 alin. (5) impune claritate și coerență: neconcordanța din art. 7 alin. (1) trebuie reconciliată cu anexele și corectată. Art. 115 alin. (4) cere o situație extraordinară a cărei reglementare nu poate fi amânată și motivarea urgenței; utilitatea rectificării și apropierea sfârșitului de an nu sunt, singure, suficiente. Folosirea OUG pentru rectificare nu este automat neconstituțională. Fragmentul nu demonstrează o afectare interzisă de art. 115 alin. (6). Art. 23 alin. (12) privește legalitatea pedepselor și nu este incident direct, deoarece nu sunt prevăzute pedepse. Lipsa anexelor împiedică evaluarea completă a fundamentării financiare și a respectării art. 138 alin. (5).",
-      "euLawNote": "Directiva (UE) 2018/958 privește testarea proporționalității reglementărilor privind profesiile reglementate; fragmentul nu introduce asemenea restricții. Directiva (UE) 2015/1535 nu impune notificarea TRIS doar pentru că sunt finanțate servicii IT: ar trebui identificată o reglementare tehnică notificabilă privind produse sau servicii ale societății informaționale, absentă aici. Nu rezultă un monopol sau o restricție discriminatorie a concurenței. Plata restanțelor și finanțările către operatori economici trebuie analizate în contextul mecanismului complet pentru eventuale avantaje selective; simpla achitare a unei datorii contractuale nu demonstrează ajutor de stat.",
+      "blindSpotsCaught": "Problema procedurală cea mai imediată este suprapunerea termenului fix de depunere din art. 17 cu termenul ulterior posibil al normelor, într-un mecanism în care ordinea cererilor decide accesul la bani. Art. 27 alin. (3) repetă autorizarea privind unitățile sanitare din alin. (1), dar fără enumerarea acelorași subdiviziuni bugetare, ceea ce poate crea incertitudine asupra limitelor. Potrivit datelor furnizate, consultarea s-a încheiat la 8 noiembrie 2026; la data analizei, 24 noiembrie, transmiterea formularului ar constitui o observație tardivă față de termenul anunțat, fără a putea presupune prelungirea acestuia.",
+      "constitutionalityNote": "Există un risc de motivare insuficientă în raport cu art. 115 alin. (4): necesitățile sanitare și sociale pot susține urgența, însă preambulul nu individualizează suficient situația extraordinară pentru toate derogările și abrogările. Rectificarea prin OUG nu este interzisă automat. Art. 1 alin. (5) este relevant pentru neconcordanțele numerice, calendarul dificil de aplicat și limitele autorizărilor; art. 138 impune examinarea păstrării controlului parlamentar asupra destinațiilor bugetare. Diminuările nu demonstrează singure afectarea drepturilor interzisă de art. 115 alin. (6), dar trebuie verificată continuitatea prestațiilor protejate, inclusiv prin art. 32, 34, 49 și 50. Art. 23 alin. (12) privește legalitatea pedepselor și nu are incidență directă, proiectul neinstituind pedepse. Intervalul anunțat pentru propuneri nu dovedește singur respectarea întregii proceduri din Legea nr. 52/2003; nici solicitarea opiniei Consiliului Fiscal nu dovedește primirea și examinarea ei. Evaluarea se bazează pe materialul furnizat; verificarea online a legislației și a documentelor oficiale nu a fost disponibilă.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementărilor care restrâng accesul la profesii reglementate sau exercitarea lor; proiectul nu conține asemenea restricții identificabile. Nu rezultă nici obligația notificării TRIS în temeiul Directivei (UE) 2015/1535: autorizarea cheltuielilor pentru mentenanță și servicii IT nu reprezintă, prin ea însăși, o reglementare tehnică a serviciilor digitale sau AI. Art. 17 necesită verificarea compensațiilor de transport potrivit Regulamentului (CE) nr. 1370/2007 și a eventualelor avantaje selective, fără a presupune că plata unor datorii existente constituie automat ajutor de stat. Derogările bugetare interne nu înlătură condițiile PNRR, SAFE, regulile achizițiilor și interdicția dublei finanțări. Plafonul intern al datoriei de 63% nu modifică valoarea europeană de referință de 60%; implicațiile se evaluează în cadrul supravegherii fiscale europene. Deficitul cash indicat în notă nu poate fi echivalat automat cu deficitul calculat potrivit metodologiei europene.",
       "senatForm": {
-        "articleRef": "Art. 7 alin. (1)",
-        "proposalContent": "La art. 7 alin. (1), după lit. f) se introduce: «Modificările prevăzute la lit. a)-f) se operează numai după reconcilierea lor cu totalurile din anexele bugetare, fără depășirea sumei totale aprobate. Orice compensare se identifică expres prin subdiviziune bugetară și cuantum.»",
-        "argumentation": "Modificările de venituri enumerate au un sold pozitiv de 668.322 mii lei, deși textul impune încadrarea în totalul aprobat. Trebuie identificate diminuările compensatorii sau corectate valorile înaintea adoptării, pentru coerență bugetară și respectarea art. 1 alin. (5) din Constituție.",
-        "otherComments": "Solicit publicarea anexelor complete și justificarea concretă a urgenței pentru derogările de la regulile bugetare. Termenul anunțat, 8 noiembrie 2026, este expirat la data analizei; dacă propunerea se transmite ulterior, solicit analizarea ei înaintea adoptării și comunicarea răspunsului."
+        "articleRef": "Art. 21",
+        "proposalContent": "Creditele bugetare de la titlul 61 pot fi cedate Fondului de rezervă numai în limita sumelor neangajate și fără afectarea obligațiilor și țintelor PNRR. Înaintea cedării, Ministerul Finanțelor publică sumele, proiectele afectate și justificarea disponibilității. Utilizarea ulterioară respectă condițiile europene aplicabile.",
+        "argumentation": "Derogarea permite schimbarea destinației unor credite aferente componentei de împrumut PNRR. Limitarea la disponibilități neangajate și publicarea justificării fac operațiunea verificabilă și reduc riscul afectării proiectelor. Norma internă nu poate înlătura obligațiile europene.",
+        "otherComments": "Solicit publicarea anexelor nr. 1–7 și a opiniei Consiliului Fiscal, explicarea abrogărilor din art. 20 și reconcilierea sumelor din art. 7 și 16. Termenul din art. 17 trebuie să permită depunerea după publicarea normelor. Termenul consultării anunțate a expirat la 8 noiembrie 2026."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-10T14:11:37.549Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:48:34.759Z",
+      "reasons": [
+        "metoda",
+        "model"
+      ]
+    }
+  ]
 }

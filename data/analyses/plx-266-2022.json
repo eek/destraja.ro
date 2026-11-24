@@ -2,74 +2,136 @@
   "billId": "Pl-x 266/2022",
   "slug": "plx-266-2022",
   "version": "initiator",
-  "updatedAt": "2026-11-12T09:39:51.461Z",
+  "updatedAt": "2026-11-24T15:32:42.153Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 12090,
+    "ordinanceChars": 0,
+    "memoChars": 9499,
+    "memoSupplied": 9499,
+    "marker": "SF-E4532C22"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-266-2022.json",
+    "form": "initiator",
+    "textHash": "e4532c227c60b10f",
+    "fetchedAt": "2026-11-19T10:50:34.388Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
-    "plainTitle": "Facilități tarifare și racordare pe banii rețelelor pentru parcurile eoliene și solare cu baterii",
-    "summaryTlDr": "Deși eliminarea dublei taxări a energiei stocate este necesară și benefică, proiectul este redactat deficitar: copiază mecanic o lege veche destinată hidrocentralelor prin pompaj, discriminează stocarea independentă și creează o portiță prin care dezvoltatorii își pot deconta liniile de racordare în facturile tuturor consumatorilor.",
-    "initiatorClaim": "Inițiatorii susțin în expunerea de motive că vor să debirocratizeze scoaterea terenurilor agricole neutilizate din circuitul agricol și să stimuleze investițiile în energie regenerabilă și stocare pentru a reduce importurile de electricitate.",
-    "realityCheck": "În realitate, proiectul nu modifică nicio procedură funciară (Art. IV trimite generic tot la „condițiile legii”), ci acordă scutiri de tarife de rețea, certificate verzi și cogenerare exclusiv parcurilor eoliene și fotovoltaice cu stocare. Mai mult, Art. VII alin. (9) obligă Transelectrica și distribuitorii să finanțeze liniile de evacuare până la primele stații electrice pentru centralele calificate preliminar, fără a impune o capacitate minimă a bateriei față de puterea parcului.",
+    "plainTitle": "Parcuri eoliene și solare cu baterii: scutiri de tarife și rețele plătite din tarife",
+    "summaryTlDr": "Scopul este util: stocarea ajută la echilibrarea rețelei și la tranziția energetică. Textul are însă o portiță importantă. Nu cere o capacitate minimă de stocare, așa că o baterie simbolică poate aduce scutiri de tarif și rețele noi, iar costul lor ajunge, prin tarife, la ceilalți consumatori.",
+    "initiatorClaim": "Inițiatorii spun că vor să simplifice scoaterea terenurilor din circuitul agricol pentru parcuri regenerabile, să stimuleze investițiile verzi și să reducă importurile de energie și prețul pentru consumatori.",
+    "realityCheck": "Articolul IV nu simplifică nimic: dreptul de a scoate terenul din circuitul agricol se exercită tot „în condițiile legii”, deci regulile actuale rămân neschimbate. Efectul real stă în articolele V–VII. Consumul pentru stocare este scos din cota de certificate verzi și din contribuția de cogenerare. Operatorii sunt scutiți de tarifele de transport și de sistem, iar scutirea pentru injecție (art. VI alin. 2) nu are limită în timp. În plus, liniile de evacuare și întăririle de rețea pentru proiecte calificate doar preliminar intră în investițiile operatorilor de rețea, adică în tarifele plătite de toți.",
     "affectedGroups": [
       "IMM & Antreprenori",
-      "Contabili & Fiscalitate",
       "Agricultură & Mediu",
-      "Toți cetățenii"
+      "Toți cetățenii",
+      "Proprietari & Imobiliare"
     ],
     "senatForm": {
-      "articleRef": "Art. II lit. c) și Art. VII alin. (9)",
-      "proposalContent": "La Art. II lit. c) se instituie un prag minim de stocare (ex. min. 20% din puterea instalată a centralei), iar facilitățile de la Art. V-VI se aplică nediscriminatoriu și stocării independente (stand-alone). La Art. VII alin. (9) se elimină finanțarea de către operatorii de rețea a liniilor proprii de evacuare până la prima stație.",
-      "argumentation": "Fără un prag minim de stocare, orice parc eolian/fotovoltaic poate atașa o baterie simbolică pentru a obliga operatorii de rețea (Art. VII alin. 9) să îi construiască gratuit linia de racordare, socializând costul în facturile tuturor consumatorilor. În plus, excluderea stocării independente distorsionează concurența pe piața de echilibrare.",
-      "otherComments": "Expunerea de motive invocă debirocratizarea scoaterii terenurilor din circuitul agricol, însă Art. IV alin. (1) trimite generic la „condițiile legii”, fără a modifica Legea nr. 18/1991. Textul copiază mecanic reglementarea veche dedicată hidrocentralelor cu acumulare prin pompaj (OUG nr. 88/2011), fără adaptare la specificul tehnic al bateriilor."
+      "articleRef": "Art. VI alin. (1)-(2)",
+      "proposalContent": "Scutirile de la alin. (1) și (2) se aplică doar energiei efectiv stocate și reinjectate, măsurate distinct, pentru centralele a căror capacitate de stocare reprezintă cel puțin 20% din puterea instalată, cu durată de descărcare de minimum 2 ore, pe cel mult 5 ani de la punerea în funcțiune. ANRE publică anual costul scutirilor.",
+      "argumentation": "Textul nu fixează un raport minim de stocare, așa că o baterie simbolică ar aduce scutiri plătite de ceilalți consumatori. Alin. (2) nu are limită în timp, spre deosebire de alin. (1). Pragul, contorizarea separată și raportarea publică fac măsura proporțională și previzibilă (art. 1 alin. 5 Constituție).",
+      "otherComments": "Și art. VII alin. (9) mută în tarifele de rețea costul liniilor de evacuare și al întăririlor pentru proiecte private calificate doar preliminar. Propun un plafon și condiționarea de un contract definitiv. Trimiterile la art. 3 pct. 40, 42 și art. 6 lit. d¹ din Legea 123/2012 trebuie verificate față de forma în vigoare."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 69112,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 68935,
+      "sourceEndMarker": "SF-E4532C22",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Facilități tarifare și racordare pe banii rețelelor pentru parcurile eoliene și solare cu baterii",
-      "verdictShort": "Deși eliminarea dublei taxări a energiei stocate este necesară și benefică, proiectul este redactat deficitar: copiază mecanic o lege veche destinată hidrocentralelor prin pompaj, discriminează stocarea independentă și creează o portiță prin care dezvoltatorii își pot deconta liniile de racordare în facturile tuturor consumatorilor.",
-      "initiatorClaim": "Inițiatorii susțin în expunerea de motive că vor să debirocratizeze scoaterea terenurilor agricole neutilizate din circuitul agricol și să stimuleze investițiile în energie regenerabilă și stocare pentru a reduce importurile de electricitate.",
-      "realityCheck": "În realitate, proiectul nu modifică nicio procedură funciară (Art. IV trimite generic tot la „condițiile legii”), ci acordă scutiri de tarife de rețea, certificate verzi și cogenerare exclusiv parcurilor eoliene și fotovoltaice cu stocare. Mai mult, Art. VII alin. (9) obligă Transelectrica și distribuitorii să finanțeze liniile de evacuare până la primele stații electrice pentru centralele calificate preliminar, fără a impune o capacitate minimă a bateriei față de puterea parcului.",
+      "plainTitle": "Scutiri de tarife și linii de racordare plătite de rețea pentru parcuri verzi cu baterii",
+      "verdictShort": "Proiectul atacă o problemă reală — eliminarea dublei taxări la stocarea energiei —, dar strecoară o prevedere riscantă: obligă operatorii de rețea să finanțeze liniile de evacuare ale investitorilor privați doar pe baza unei calificări preliminare, mutând riscul în facturile consumatorilor.",
+      "initiatorClaim": "Inițiatorii susțin că proiectul debirocratizează scoaterea terenurilor agricole neutilizate din circuitul agricol, stimulează investițiile în energie verde cu stocare, reduce importurile de electricitate și scade prețul la consumatorul final.",
+      "realityCheck": "În realitate, Art. IV nu modifică Legea fondului funciar și nu simplifică nicio procedură birocratică, fiind o normă pur declarativă. Efectul mecanic real stă în Art. V–VII: scutește energia stocată de certificate verzi, cogenerare și parțial de tarife de transport/sistem, dar obligă Transelectrica și distribuitorii să finanțeze liniile de evacuare și întăririle de rețea pentru proiecte doar calificate preliminar (Art. VII alin. 9), costuri ce se recuperează din tarifele plătite de toți consumatorii.",
       "affectedGroups": [
         "IMM & Antreprenori",
-        "Contabili & Fiscalitate",
         "Agricultură & Mediu",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Portiță de socializare a costurilor de racordare (Art. II lit. c și Art. VII alin. 3 și 9): Legea nu impune niciun raport minim între capacitatea bateriei și puterea parcului fotovoltaic/eolian; un investitor poate instala o capacitate de stocare simbolică, obține „calificarea preliminară” pe baza documentației și obliga operatorul de transport/distribuție să îi finanțeze linia de evacuare a puterii până la prima stație electrică, cost recuperat ulterior din tarifele plătite de toți consumatorii.",
-        "Ruptură totală între Expunerea de Motive și textul legii (Art. IV alin. 1): Expunerea de motive vorbește aproape exclusiv despre terenuri agricole degradate și „debirocratizarea scoaterii din circuitul agricol”, însă Art. IV prevede doar că investitorii au acest drept „în condițiile legii”, fără a modifica Legea fondului funciar nr. 18/1991.",
-        "Eliminarea dublei taxări la stocare, dar discriminatorie (Art. V și Art. VI): Scutirea energiei stocate de la plata certificatelor verzi, a contribuției de cogenerare și a tarifelor de transport la extragere/reintroducere în rețea este o măsură corectă tehnic, dar este acordată exclusiv centralelor eoliene și fotovoltaice, excluzând operatorii de stocare independentă (stand-alone) sau alte tehnologii."
+        "Art. VII alin. (9) obligă operatorul de transport (OTS) și operatorii de distribuție (OD) să includă în propriile programe de investiții liniile de evacuare și întăririle de rețea pentru parcurile calificate preliminar ca furnizori de servicii de restaurare a SEN, fără a cere garanții financiare în caz că investitorul abandonează proiectul.",
+        "Art. V și Art. VI elimină dubla taxare a energiei stocate (certificate verzi, contribuție cogenerare și tarife de transport/servicii de sistem pe 5 ani la extragere, respectiv fără termen limită la reintroducere), o măsură utilă economic, dar aplicată selectiv.",
+        "Beneficiile legii (Art. II, V, VI, VII) vizează exclusiv centralele eoliene și fotovoltaice cu capacități de stocare anexate, excluzând instalațiile independente de stocare (stand-alone) și alte tehnologii regenerabile.",
+        "Art. IV alin. (1) afirmă doar că investitorii pot scoate terenuri din circuitul agricol «în condițiile legii», fără a deroga concret de la Legea nr. 18/1991, contrazicând obiectivul de debirocratizare declarat în Expunerea de Motive.",
+        "Art. X condiționează aplicarea măsurilor cu elemente de ajutor de stat de aprobarea Comisiei Europene, o garanție necesară, care contrazice însă Expunerea de Motive completată cu «Nu este cazul» la impact financiar și legislație UE."
       ],
-      "blindSpotsCaught": "Textul proiectului este preluat aproape cuvânt cu cuvânt din OUG nr. 88/2011 (concepută la acea vreme pentru hidrocentrala cu acumulare prin pompaj Tarnița-Lăpuștești). Din cauza acestui copy-paste legislativ, Art. II lit. g) și Art. VII reglementează „serviciul de consumator dispecerizabil pentru restaurarea SEN după black-out” (util când o hidrocentrală pompează apă pentru a echilibra intrarea în sarcină a grupurilor nucleare/termo), ignorând că în caz de black-out sistemul are nevoie în primul rând de servicii de pornire fără tensiune (black-start) și formare de rețea, nu doar de absorbție de putere.",
-      "constitutionalityNote": "Sub aspectul Art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), proiectul prezintă carențe de tehnică legislativă (Legea nr. 24/2000): expunerea de motive nu fundamentează deloc articolele reale ale legii (Secțiunile 3-8 sunt completate integral cu „Nu este cazul”), iar lipsa unor criterii tehnice minimale pentru definirea capacității de stocare la Art. II lit. c) generează insecuritate juridică și aplicare arbitrară. De asemenea, tratamentul preferențial acordat doar stocării atașate surselor eoliene/fotovoltaice ridică probleme față de Art. 135 alin. (2) lit. a) privind protecția concurenței loiale.",
-      "euLawNote": "Directiva (UE) 2019/944 privind normele comune pentru piața internă de energie electrică și Regulamentul (UE) 2019/943 impun eliminarea dublei taxări pentru stocarea energiei, dar cer ca cadrul de reglementare și achiziția serviciilor de sistem/echilibrare să fie nediscriminatorii și neutre din punct de vedere tehnologic (incluzând instalațiile de stocare independente). Corect, Art. X condiționează aplicarea schemelor de sprijin de notificarea și aprobarea Comisiei Europene conform art. 108 TFUE (ajutor de stat).",
+      "blindSpotsCaught": "Mecanismul de la Art. II lit. g) și Art. VII (serviciu de «consumator dispecerizabil pentru restaurarea SEN» cu precontracte și linii finanțate de OTS) pare preluat după vechea schemă gândită pentru hidrocentrale cu acumulare prin pompaj, fiind insuficient adaptat bateriilor. În plus, Expunerea de Motive are Secțiunile 3–8 completate mecanic cu «Nu este cazul», ascunzând impactul asupra tarifelor de rețea și obligația de notificare la Comisia Europeană recunoscută chiar de Art. X.",
+      "constitutionalityNote": "Proiectul prezintă vulnerabilități față de Art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii): Art. IV este declarativ și necorelat cu Legea nr. 18/1991, Art. VI alin. (2) nu clarifică durata scutirii sau separarea măsurării energiei stocate de cea produsă direct (conținând și erori de redactare precum «operatorii unei unor centrale»), iar Expunerea de Motive omite evaluarea impactului cerută de Legea nr. 24/2000. Totodată, tratamentul preferențial acordat exclusiv proiectelor hibride eoliene/fotovoltaice cu stocare poate ridica probleme față de Art. 135 alin. (2) lit. a) privind asigurarea concurenței loiale.",
+      "euLawNote": "Scutirile selective de tarife (Art. VI) și finanțarea liniilor de evacuare de către OTS/OD (Art. VII alin. 9) pot constitui ajutor de stat în sensul Art. 107–108 TFUE; Art. X respectă corect obligația de notificare prealabilă la Comisia Europeană. Totuși, excluderea instalațiilor independente de stocare contravine principiului neutralității tehnologice și nediscriminării din Directiva (UE) 2019/944 și Regulamentul (UE) 2019/943 privind piața internă de energie electrică. Directivele (UE) 2018/958 (profesii reglementate) și (UE) 2015/1535 (TRIS) nu sunt incidente direct.",
       "senatForm": {
-        "articleRef": "Art. II lit. c) și Art. VII alin. (9)",
-        "proposalContent": "La Art. II lit. c) se instituie un prag minim de stocare (ex. min. 20% din puterea instalată a centralei), iar facilitățile de la Art. V-VI se aplică nediscriminatoriu și stocării independente (stand-alone). La Art. VII alin. (9) se elimină finanțarea de către operatorii de rețea a liniilor proprii de evacuare până la prima stație.",
-        "argumentation": "Fără un prag minim de stocare, orice parc eolian/fotovoltaic poate atașa o baterie simbolică pentru a obliga operatorii de rețea (Art. VII alin. 9) să îi construiască gratuit linia de racordare, socializând costul în facturile tuturor consumatorilor. În plus, excluderea stocării independente distorsionează concurența pe piața de echilibrare.",
-        "otherComments": "Expunerea de motive invocă debirocratizarea scoaterii terenurilor din circuitul agricol, însă Art. IV alin. (1) trimite generic la „condițiile legii”, fără a modifica Legea nr. 18/1991. Textul copiază mecanic reglementarea veche dedicată hidrocentralelor cu acumulare prin pompaj (OUG nr. 88/2011), fără adaptare la specificul tehnic al bateriilor."
+        "articleRef": "Art. VII alin. (9) și Art. II lit. a)-c)",
+        "proposalContent": "La Art. VII alin. (9), eliminarea obligației OTS/OD de a finanța liniile de evacuare doar pe baza calificării preliminare ori condiționarea de garanții ferme. Extinderea scutirilor de dublă taxare (Art. V-VI) la toate capacitățile de stocare, inclusiv instalațiile independente (stand-alone).",
+        "argumentation": "Finanțarea liniilor de evacuare de către OTS/OD înainte de punerea în funcțiune mută riscul comercial în tarifele plătite de consumatori. Limitarea scutirilor doar la parcuri eoliene și fotovoltaice discriminează stocarea independentă și contravine neutralității tehnologice din dreptul UE al energiei.",
+        "otherComments": "Art. IV nu modifică efectiv Legea 18/1991, fiind pur declarativ, contrar Expunerii de Motive care promite debirocratizare. De asemenea, Expunerea de Motive omite complet analiza impactului tarifar și bugetar (completată cu 'Nu este cazul'), deși Art. X confirmă existența unor elemente de ajutor de stat."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "error",
-      "durationMs": 4049,
-      "error": "You've hit your weekly limit · resets 7pm (Europe/Bucharest)"
+      "durationMs": 49680,
+      "sourceEndMarker": "SF-E4532C22",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Parcuri eoliene și solare cu baterii: scutiri de tarife și rețele plătite din tarife",
+      "verdictShort": "Scopul este util: stocarea ajută la echilibrarea rețelei și la tranziția energetică. Textul are însă o portiță importantă. Nu cere o capacitate minimă de stocare, așa că o baterie simbolică poate aduce scutiri de tarif și rețele noi, iar costul lor ajunge, prin tarife, la ceilalți consumatori.",
+      "initiatorClaim": "Inițiatorii spun că vor să simplifice scoaterea terenurilor din circuitul agricol pentru parcuri regenerabile, să stimuleze investițiile verzi și să reducă importurile de energie și prețul pentru consumatori.",
+      "realityCheck": "Articolul IV nu simplifică nimic: dreptul de a scoate terenul din circuitul agricol se exercită tot „în condițiile legii”, deci regulile actuale rămân neschimbate. Efectul real stă în articolele V–VII. Consumul pentru stocare este scos din cota de certificate verzi și din contribuția de cogenerare. Operatorii sunt scutiți de tarifele de transport și de sistem, iar scutirea pentru injecție (art. VI alin. 2) nu are limită în timp. În plus, liniile de evacuare și întăririle de rețea pentru proiecte calificate doar preliminar intră în investițiile operatorilor de rețea, adică în tarifele plătite de toți.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "Agricultură & Mediu",
+        "IMM & Antreprenori",
+        "Proprietari & Imobiliare"
+      ],
+      "keyFindings": [
+        "Art. II lit. a) și c): nu există un raport minim între capacitatea de stocare și puterea instalată și nici o durată minimă de descărcare. Orice centrală cu o baterie oricât de mică intră sub incidența legii și poate beneficia de toate facilitățile.",
+        "Art. VI: scutirea de tariful de extragere și de serviciul de sistem durează 5 ani, dar scutirea de componenta de introducere în rețea (alin. 2) nu are termen. Costul neîncasat se recuperează de la ceilalți utilizatori ai rețelei.",
+        "Art. V alin. (2)-(3): consumul pentru stocare este tratat drept consum propriu tehnologic și scos din baza pentru certificatele verzi și contribuția de cogenerare. Asta mută sarcina pe ceilalți consumatori, fără nicio estimare de impact.",
+        "Art. VII alin. (9): liniile de evacuare până la stațiile existente și întărirea rețelei din amonte se includ obligatoriu în programele de investiții ale Transelectrica și ale distribuitorilor, cu termene aliniate la proiectul privat. Beneficiul se acordă deja de la calificarea preliminară, pe baza documentației depuse la ANRE, înainte să existe vreo centrală.",
+        "Art. VII alin. (10): regimul de scoatere din circuitul agricol (art. IV) se extinde și la lucrările de rețea, inclusiv pe pajiști permanente, fără nicio condiție de mediu suplimentară.",
+        "Art. X: măsurile cu elemente de ajutor de stat se aplică doar după aprobarea Comisiei Europene. Este o garanție reală, dar poate amâna mult aplicarea legii."
+      ],
+      "blindSpotsCaught": "Serviciul de „consumator dispecerizabil pentru restaurarea SEN” este construit pe absorbția de energie la comandă, deși după un black-out restaurarea are nevoie în primul rând de surse capabile de pornire autonomă. Definiția de la art. II lit. g) amestecă cele două roluri. Expunerea de motive trece „Nu este cazul” la impactul financiar, de mediu și la compatibilitatea cu dreptul UE, deși textul acordă scutiri și cere notificarea ajutorului de stat. Trimiterile la art. 3 pct. 42, art. 3 pct. 40 și art. 6 lit. d¹) din Legea 123/2012 trebuie verificate față de forma actuală, modificată de mai multe ori din 2022.",
+      "constitutionalityNote": "Nu se vede o încălcare directă a unor drepturi fundamentale. Există însă probleme de claritate și previzibilitate (art. 1 alin. 5): lipsesc criteriile minime pentru „capacitate de stocare”, scutirea de la art. VI alin. (2) nu are durată, iar mențiunea repetată „în condițiile legii” golește de conținut art. IV. Pentru măsurile cu efect asupra contribuțiilor și a costurilor operatorilor de stat ar fi trebuit o fundamentare de impact și, unde se afectează bugetul, informarea Guvernului potrivit art. 111 alin. (1). Formula finală, cu semnăturile președinților Camerelor, ține de șablon și nu are relevanță juridică în acest stadiu.",
+      "euLawNote": "Directiva 2018/958 nu se aplică, fiindcă textul nu reglementează profesii, iar TRIS 2015/1535 nu e relevantă, fiindcă nu reglementează servicii digitale. Relevante sunt Directiva (UE) 2019/944 și Regulamentul (UE) 2019/943. Evitarea dublei taxări a stocării este compatibilă cu acestea, dar tarifele trebuie să fie nediscriminatorii și să reflecte costurile, iar serviciile de sistem care nu țin de frecvență se achiziționează pe bază de piață (art. 40 din directivă). Acordarea scutirilor doar centralelor eoliene și fotovoltaice cu stocare, nu și stocării independente sau altor tehnologii, poate fi discriminatorie. Regimul de restaurare trebuie corelat cu Regulamentul (UE) 2017/2196. Scutirile și investițiile de rețea dedicate pot fi ajutor de stat (art. 107 TFUE), iar art. X recunoaște asta.",
+      "senatForm": {
+        "articleRef": "Art. VI alin. (1)-(2)",
+        "proposalContent": "Scutirile de la alin. (1) și (2) se aplică doar energiei efectiv stocate și reinjectate, măsurate distinct, pentru centralele a căror capacitate de stocare reprezintă cel puțin 20% din puterea instalată, cu durată de descărcare de minimum 2 ore, pe cel mult 5 ani de la punerea în funcțiune. ANRE publică anual costul scutirilor.",
+        "argumentation": "Textul nu fixează un raport minim de stocare, așa că o baterie simbolică ar aduce scutiri plătite de ceilalți consumatori. Alin. (2) nu are limită în timp, spre deosebire de alin. (1). Pragul, contorizarea separată și raportarea publică fac măsura proporțională și previzibilă (art. 1 alin. 5 Constituție).",
+        "otherComments": "Și art. VII alin. (9) mută în tarifele de rețea costul liniilor de evacuare și al întăririlor pentru proiecte private calificate doar preliminar. Propun un plafon și condiționarea de un contract definitiv. Trimiterile la art. 3 pct. 40, 42 și art. 6 lit. d¹ din Legea 123/2012 trebuie verificate față de forma în vigoare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 99213,
+      "durationMs": 59223,
+      "sourceEndMarker": "SF-E4532C22",
       "riskScore": 5,
       "riskLevel": "yellow",
       "plainTitle": "Facilități pentru parcuri eoliene și solare cu stocare",
-      "verdictShort": "Proiectul urmărește un obiectiv util, dar distribuie avantaje și costuri fără suficiente criterii explicite. Riscul principal este transferarea unor costuri către utilizatorii rețelei și favorizarea anumitor investiții, nu introducerea unor sancțiuni sau taxe pentru cetățeni.",
-      "initiatorClaim": "Inițiatorii urmăresc investiții în energie regenerabilă și stocare, reducerea dependenței de importuri și simplificarea utilizării terenurilor agricole. Ei anticipează locuri de muncă și energie mai ieftină.",
-      "realityCheck": "Art. V–VI acordă facilități pentru energia stocată, iar art. VII creează un mecanism de calificare și contractare pentru servicii de restaurare a sistemului. Art. VII alin. (9) impune includerea unor lucrări de racordare și întărire în investițiile operatorilor de rețea, fără o regulă explicită privind împărțirea costurilor între investitor și ceilalți utilizatori. Art. IV păstrează condiția respectării legislației existente, astfel că simplificarea scoaterii terenurilor din circuitul agricol și reducerea facturilor nu rezultă automat din text.",
+      "verdictShort": "Proiectul susține investiții utile în energie și stocare, însă distribuirea costurilor de conectare și selecția beneficiarilor necesită garanții suplimentare. Principalul risc este favorizarea unor proiecte prin investițiile operatorilor de rețea, fără criterii și garanții suficiente în lege.",
+      "initiatorClaim": "Inițiatorii urmăresc simplificarea utilizării terenurilor agricole pentru energie regenerabilă, atragerea investițiilor și reducerea dependenței de importuri. Ei anticipează locuri de muncă și scăderea prețului energiei.",
+      "realityCheck": "Proiectul introduce scutiri de contribuții și tarife pentru energia stocată, organizează achiziția unor servicii de restaurare a SEN și impune includerea unor lucrări de conectare în investițiile operatorilor de rețea. Nu stabilește o procedură agricolă simplificată efectivă și nici nu garantează reducerea facturilor. Costurile investițiilor și serviciilor pot ajunge în tarife, în funcție de reglementările ANRE și de finanțarea utilizată.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Proprietari & Imobiliare",
@@ -77,24 +139,45 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. VII alin. (9): includerea obligatorie a lucrărilor în programele operatorilor de rețea poate conduce la recuperarea unor costuri prin tarife. Textul nu precizează contribuția beneficiarului, prioritizarea investițiilor sau evaluarea beneficiului pentru sistem.",
-        "Art. VII alin. (2)–(6): mecanismul descris favorizează centralele eoliene și fotovoltaice cu stocare. Tarifele se stabilesc concurențial, ceea ce este pozitiv, dar nu este justificată explicit diferența de tratament față de stocarea independentă ori alți furnizori tehnic capabili.",
-        "Art. VI: scutirea pentru extragerea energiei din rețea și serviciul de sistem este limitată la cinci ani; scutirea componentei de introducere în rețea, de la alin. (2), nu are un termen expres. Nu sunt suficient delimitate energia reintrodusă, pierderile și consumurile auxiliare.",
-        "Art. V: energia utilizată pentru stocare este asimilată consumului propriu tehnologic și exclusă de la obligațiile indicate privind certificatele verzi și contribuția pentru cogenerare. Sunt necesare reguli de măsurare pentru separarea stocării de consumul final.",
-        "Art. IV nu elimină expres avize, termene sau restricții agricole și de mediu. Formularea «în condițiile legii» nu autorizează automat ocuparea oricărui teren sau a oricărei pajiști permanente.",
-        "Proiectul nu introduce amenzi, infracțiuni ori obligații administrative generale pentru cetățeni. Impactul asupra acestora este predominant indirect, prin tarife, utilizarea terenurilor și funcționarea pieței.",
-        "Expunerea de motive declară impactul financiar și de mediu nerelevant, deși proiectul modifică repartizarea unor costuri și stimulează investiții pe terenuri agricole. Lipsesc cuantificarea avantajelor și evaluarea efectelor; aceasta nu dovedește, singură, existența unor cheltuieli bugetare."
+        "Art. VII alin. (9) obligă includerea liniilor de evacuare și a întăririlor de rețea în programele de investiții ale operatorilor inclusiv pentru centrale calificate doar preliminar. Lipsesc criterii explicite de prioritizare, analiza beneficiilor pentru rețea și garanții pentru abandonarea proiectelor.",
+        "Art. V exclude energia utilizată pentru stocare de la obligația certificatelor verzi și a contribuției pentru cogenerare. Art. VI alin. (1) limitează scutirea tarifelor de extragere și de sistem la cinci ani; alin. (2) nu prevede un termen pentru scutirea componentei de introducere în rețea.",
+        "Art. VII alin. (6) cere stabilirea concurențială a tarifelor serviciilor de restaurare, ceea ce reprezintă o garanție utilă. Totuși, mecanismul special privește numai centrale eoliene și fotovoltaice cu stocare, fără justificarea explicită a excluderii altor furnizori tehnic echivalenți.",
+        "Art. II nu impune un raport minim între capacitatea de stocare și puterea centralei. Rezultă posibilitatea accesării facilităților cu o instalație de stocare foarte mică, chiar dacă pentru serviciile de restaurare rămâne necesară calificarea tehnică.",
+        "Art. IV păstrează condiția respectării legislației privind scoaterea terenurilor din circuitul agricol. Nu conține o derogare expresă de la protecția pajiștilor, autorizațiile de construire sau evaluarea de mediu.",
+        "Expunerea de motive declară impactul financiar și economic ca fiind inexistent, deși art. VII prevede investiții și recuperarea costurilor serviciilor. Acestea nu reprezintă automat cheltuieli ale bugetului de stat, dar necesită evaluarea efectelor asupra tarifelor și utilizatorilor."
       ],
-      "blindSpotsCaught": "Calificarea preliminară permite precontracte înainte de funcționarea instalației și declanșează mecanismul investițiilor de rețea, fără garanții explicite pentru întârzierea sau abandonarea proiectului. Art. X condiționează implementarea măsurilor care constituie ajutor de stat de aprobarea Comisiei Europene, dar această clauză nu rezolvă separat problemele de concurență și repartizare a costurilor. Mențiunea «Nu este cazul» din expunere privind avizele nu dovedește că acestea lipsesc din dosarul parlamentar.",
-      "constitutionalityNote": "Art. 1 alin. (5) este relevant pentru delimitarea consumului de stocare, durata facilităților și criteriile de acces la mecanismul de sprijin. Tratamentul diferit trebuie justificat obiectiv în raport cu egalitatea, libertatea economică și protecția concurenței, potrivit art. 16, 45 și 135; diferențierea tehnologică nu este automat neconstituțională. Art. 23 alin. (12) nu are incidență directă, deoarece textul nu stabilește pedepse. Art. 138 alin. (5) impune identificarea sursei de finanțare dacă sunt aprobate cheltuieli bugetare, însă investițiile operatorilor și recuperarea prin tarife nu sunt automat cheltuieli ale bugetului public. Nu rezultă o neconstituționalitate certă numai din forma furnizată.",
-      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementării profesiilor; autorizarea operatorilor energetici din acest proiect nu atrage, prin ea însăși, aplicarea directivei. Proiectul nu reglementează servicii digitale sau AI și nu prezintă, în forma furnizată, o cerință tehnică de produs care să fundamenteze clar notificarea TRIS potrivit Directivei (UE) 2015/1535. Sunt relevante normele privind tarifele nediscriminatorii și stocarea din Regulamentul (UE) 2019/943, precum și achiziția transparentă și nediscriminatorie a serviciilor de sistem potrivit Directivei (UE) 2019/944. Evitarea dublei tarifări poate fi justificată, dar nu justifică automat orice scutire sau avantaj rezervat unei tehnologii. Facilitățile trebuie evaluate individual potrivit art. 107–108 TFUE; nu orice avantaj constituie automat ajutor de stat.",
+      "blindSpotsCaught": "Art. X condiționează aplicarea măsurilor care constituie ajutor de stat de notificarea și aprobarea Comisiei Europene; facilitățile respective nu devin aplicabile automat la expirarea termenului de 90 de zile din art. IX. Această protecție nu rezolvă separat cerințele privind concurența, tarifele și repartizarea costurilor.",
+      "constitutionalityNote": "Art. 1 alin. (5) justifică precizarea energiei eligibile, a măsurării separate a fluxurilor și a condițiilor pentru finanțarea lucrărilor de rețea. Diferențierea între tehnologii trebuie justificată obiectiv în raport cu libertatea economică și protecția concurenței, potrivit art. 45 și art. 135; nu rezultă automat o neconstituționalitate. Art. 23 alin. (12) nu este incident, deoarece proiectul nu instituie pedepse. Aplicarea art. 138 alin. (5) presupune identificarea unor cheltuieli bugetare concrete, care nu pot fi deduse doar din investițiile operatorilor.",
+      "euLawNote": "Directiva (UE) 2018/958 privește accesul la profesii reglementate și exercitarea acestora; mecanismul analizat nu intră, prin obiectul său, în acest domeniu. Directiva (UE) 2015/1535 nu se limitează la servicii digitale: privește și reglementări tehnice pentru produse, însă textul furnizat nu evidențiază o obligație certă de notificare TRIS și nu reglementează servicii digitale sau AI. Facilitățile selective trebuie evaluate potrivit art. 107–108 TFUE, iar art. X introduce condiția aprobării Comisiei pentru cele care constituie ajutor de stat. Scutirile tarifare și accesul la serviciile de sistem trebuie corelate cu normele europene privind tarifele de rețea, transparența și nediscriminarea, inclusiv Regulamentul (UE) 2019/943.",
       "senatForm": {
         "articleRef": "Art. VII alin. (9)",
-        "proposalContent": "Lucrările de racordare și de întărire a rețelei se includ în planurile de investiții ale operatorilor de rețea potrivit unor criterii tehnice și economice transparente, obiective și nediscriminatorii. ANRE stabilește repartizarea costurilor între beneficiari și utilizatorii rețelei, proporțional cu beneficiile pentru sistem.",
-        "argumentation": "Textul actual impune investiții ale operatorilor fără să delimiteze costurile suportate de beneficiari. Amendamentul permite investițiile necesare și cere justificarea repartizării costurilor, pentru a limita transferurile nejustificate către ceilalți utilizatori ai rețelei.",
-        "otherComments": "Analiza privește forma inițiatorului furnizată; verificarea online a dosarului și a legislației consolidate nu a fost disponibilă. Termenul indicat, 23.05.2022, este expirat. Sesizarea cetățeanului poate fi transmisă comisiei pentru eventuala preluare de către un deputat, potrivit procedurii aplicabile."
+        "proposalContent": "Pentru centralele calificate preliminar, includerea lucrărilor de racordare și întărire a rețelei în programele de investiții se bazează pe analiza cost-beneficiu și pe garanții de realizare a proiectelor. ANRE stabilește criterii transparente și nediscriminatorii și reguli de repartizare a costurilor potrivit responsabilității fiecărui beneficiar.",
+        "argumentation": "Calificarea preliminară nu garantează realizarea centralei sau prestarea serviciului. Investițiile impuse operatorilor pot genera costuri recuperabile prin tarife. Analiza cost-beneficiu, garanțiile și repartizarea transparentă a costurilor reduc riscul finanțării unor proiecte abandonate și protejează utilizatorii rețelei.",
+        "otherComments": "Propunere pentru comisia raportoare a Camerei Deputaților, pe baza formei inițiatorului. Se recomandă evaluarea impactului tarifar și justificarea tratamentului diferit față de stocarea independentă. Aplicarea măsurilor care constituie ajutor de stat rămâne condiționată de art. X."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-12T09:39:51.461Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": null,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:32:42.153Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

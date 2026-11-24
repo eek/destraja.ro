@@ -2,104 +2,140 @@
   "billId": "PL-x 217/2026",
   "slug": "plx-217-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T05:18:18.212Z",
+  "updatedAt": "2026-11-24T15:28:09.197Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 3021,
+    "ordinanceChars": 0,
+    "memoChars": 5385,
+    "memoSupplied": 5385,
+    "marker": "SF-F3893F9E"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-217-2026.json",
+    "form": "senat",
+    "textHash": "f3893f9ed6459e62",
+    "fetchedAt": "2026-11-19T10:35:20.191Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 2,
+    "articlesShown": 2,
+    "articleCap": 8000,
+    "articlesCut": 1,
+    "chars": 11217,
+    "truncated": false,
+    "included": true,
+    "key": "0cb1396889b1be05"
+  },
   "consensus": {
     "riskScore": 6.3,
     "riskLevel": "yellow",
-    "plainTitle": "Plângerile pentru mirosuri trec la Mediu, dar mirosul contează doar peste praguri",
-    "summaryTlDr": "Legea clarifică cine se ocupă de plângerile pentru miros: autoritatea de mediu. Forma Senatului face însă opusul a ce promite expunerea. Mirosul contează juridic doar peste „valori-limită” pe care legea nu le definește, iar autorizația poluatorului poate fi reexaminată „doar dacă” sunt îndeplinite condiții stricte. Câștigă claritatea instituțională, dar vecinii unei surse de miros primesc mai puțină protecție efectivă.",
-    "initiatorClaim": "Inițiatorii (prim-semnatar senatorul Cătălin Graur) spun că vor să elimine confuzia dintre autoritățile de mediu și cele de sănătate la plângerile pentru miros. Mai spun că vor să extindă definiția disconfortului olfactiv la sănătatea fizică și mentală, la calitatea vieții și la impactul social-economic, după practica statelor UE.",
-    "realityCheck": "Legea face într-adevăr din autoritatea de mediu instituția care investighează plângerile pentru miros. Sănătatea publică intervine doar la cerere („poate solicita”). Definiția adoptată de Senat nu conține însă nimic din extinderea promisă: mirosul devine juridic „disconfort olfactiv” doar peste niveluri sau valori-limită, deși standardul invocat (EN 13725) este o metodă de măsurare, nu un prag. În plus, art. 64⁶ alin. (4) permite reexaminarea autorizației operatorului „doar dacă” se depășesc limitele din autorizație sau o expertiză confirmă o legătură cauzală cu sănătatea. Acest filtru protejează mai mult operatorul decât vecinii.",
+    "plainTitle": "Plângerile pentru mirosuri trec de la DSP la Mediu, dar mirosul contează doar dacă depășește limite măsurate",
+    "summaryTlDr": "Mutarea plângerilor la autoritățile de mediu este rezonabilă. Forma Senatului îngustează însă definiția mirosului deranjant și condiționează revizuirea autorizațiilor de praguri greu de atins, așa că legea poate ajunge să protejeze mai mult poluatorul decât vecinii lui.",
+    "initiatorClaim": "Inițiatorii vor să clarifice cine răspunde de plângerile privind mirosurile și să facă din autoritatea de mediu instituția principală. Spun și că extind definiția disconfortului olfactiv, ca să cuprindă sănătatea fizică și mentală, calitatea vieții și impactul social.",
+    "realityCheck": "Competența de soluționare trece într-adevăr de la sănătate la mediu. Noua definiție (art. 2 pct. 23¹) nu cuprinde însă dimensiunile promise în expunerea de motive: disconfortul există legal doar când mirosul e măsurat standardizat și depășește niveluri-limită, iar pentru mirosuri astfel de valori lipsesc în mare parte în dreptul intern. Art. 64⁶ alin. (3)-(4) cere în plus o cauzalitate „directă” și permite revizuirea actelor de reglementare „doar dacă” sunt îndeplinite condiții restrictive, ceea ce face mult mai greu de obținut măsuri împotriva operatorului.",
     "affectedGroups": [
       "Agricultură & Mediu",
+      "Toți cetățenii",
       "Sănătate & Educație",
-      "Proprietari & Imobiliare",
-      "Toți cetățenii"
+      "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct. 1 – art. 2 pct. 23¹ OUG 195/2005",
-      "proposalContent": "„23¹. disconfortul olfactiv - efectul asupra sănătății sau calității vieții populației generat de prezența în aer a unor substanțe cu miros, determinat și evaluat prin metode standardizate (olfactometrie, determinarea frecvenței mirosului în zonele locuite), inclusiv în absența unor valori-limită stabilite legal.”",
-      "argumentation": "Forma Senatului recunoaște disconfortul olfactiv doar peste valori-limită, dar standardele EN (ex. EN 13725) sunt metode de măsurare, nu praguri, iar România nu are valori-limită generale pentru miros în aer. Plângerile riscă respingerea din start. Textul propus redă scopul din expunerea de motive (sănătate, calitatea vieții) și logica Directivei 2010/75/UE.",
-      "otherComments": "Art. 64⁶ alin.(4): nu e clar dacă lit. a) și b) sunt cumulative sau alternative, iar «doar dacă» blochează reexaminarea autorizației când mirosul persistă fără depășiri. Propun «sau» între litere și o lit. c): disconfort olfactiv repetat, constatat de Garda Națională de Mediu. Alin.(1): termen de 30 de zile și informarea petentului; corectați «discomfort»."
+      "articleRef": "Art. unic pct. 1 (art. 2 pct. 23¹ OUG 195/2005)",
+      "proposalContent": "„23¹. disconfortul olfactiv - efectul negativ asupra sănătății, bunăstării sau calității vieții populației, generat de mirosuri provenite din activități antropice, evaluat prin metode standardizate de măsurare sau prin analiza frecvenței, intensității, duratei și caracterului mirosului, inclusiv pe baza plângerilor verificate la fața locului.”",
+      "argumentation": "Forma Senatului condiționează disconfortul de depășirea unor valori-limită care, pentru mirosuri, lipsesc în mare parte, ceea ce poate face orice plângere nefondată. Expunerea de motive promite includerea sănătății și a calității vieții, iar IED tratează mirosul ca poluare fără a cere limite prestabilite. Textul propus păstrează rigoarea măsurătorilor fără a bloca protecția.",
+      "otherComments": "La art. 64⁶ alin. (4) propun înlocuirea „doar dacă” cu „și în cazul în care”, eliminarea cuvântului „directă” din alin. (3), introducerea unui termen de 30 de zile pentru soluționarea plângerii și corectarea „discomfort” în „disconfort”. Este necesară o fișă financiară pentru măsurători și expertize."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 74820,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 96165,
+      "sourceEndMarker": "SF-F3893F9E",
       "riskScore": 7,
       "riskLevel": "red",
-      "plainTitle": "Slăbirea „Legii Mirosurilor”: revizuirea autorizațiilor de mediu ale poluatorilor, blocată prin condiții aproape imposibil de dovedit",
-      "verdictShort": "Sub pretextul clarificării atribuțiilor între Mediu și Sănătate, forma adoptată de Senat face exact opusul a ceea ce promite Expunerea de motive: restrânge definiția disconfortului olfactiv și blochează reexaminarea autorizațiilor de mediu ale poluatorilor până la demonstrarea, prin expertiză medicală și științifică, a unei legături directe de cauzalitate cu îmbolnăvirea populației.",
-      "initiatorClaim": "Inițiatorii susțin că vor să extindă definiția disconfortului olfactiv (incluzând sănătatea fizică, mentală și calitatea vieții) și să desemneze autoritatea de mediu drept principal responsabil cu investigarea sesizărilor cetățenilor, reducând timpul de reacție.",
-      "realityCheck": "Dacă transferul sesizărilor către autoritățile de mediu (Art. 64^6 alin. 1) și delimitarea regulilor de protecția muncii (alin. 5-6) sunt măsuri logice, textul adoptat de Senat introduce două capcane majore. În loc să extindă definiția disconfortului olfactiv, pct. 1 o restrânge strict la depășirea unor valori-limită măsurate standardizat (eliminând percepția pe scale de mirosuri și impactul asupra mediului/sănătății din textul actual al OUG 195/2005), iar Art. 64^6 alin. (4) interzice revizuirea autorizației de mediu fără o expertiză științifică/medicală care să ateste o cauzalitate directă asupra sănătății populației.",
+      "plainTitle": "Scut pentru poluatori sub pretextul «legii mirosurilor»",
+      "verdictShort": "Deși promite extinderea protecției cetățenilor și clarificarea atribuțiilor, forma adoptată de Senat face exact opusul: restrânge definiția disconfortului olfactiv și ridică bariere probatorii care blochează revizuirea autorizațiilor de mediu ale poluatorilor.",
+      "initiatorClaim": "Inițiatorii susțin că vor să extindă definiția disconfortului olfactiv pentru a include sănătatea fizică și mentală, calitatea vieții și impactul socio-economic, mutând totodată investigarea plângerilor de la sănătate la autoritățile de mediu pentru o reacție mai rapidă.",
+      "realityCheck": "Mutarea investigării sesizărilor de la sănătate (art. 64⁶ alin. 1 în vigoare) la autoritatea de mediu este logică, dar Senatul a deturnat fondul proiectului. Definiția de la art. 2 pct. 23¹ nu include deloc sănătatea sau calitatea vieții, ci recunoaște disconfortul olfactiv numai când se depășesc valori-limită măsurate prin metode standardizate. Mai grav, față de legea actuală — unde constatarea legăturii de cauzalitate de către autoritatea de sănătate declanșa notificarea pentru revizuirea actelor de mediu —, noul art. 64⁶ alin. (4) blochează reexaminarea autorizațiilor dacă nu sunt îndeplinite cumulativ depășirea limitelor din actul existent și o expertiză științifică de cauzalitate directă.",
       "affectedGroups": [
         "Agricultură & Mediu",
+        "Toți cetățenii",
         "Sănătate & Educație",
-        "Proprietari & Imobiliare",
-        "Toți cetățenii"
+        "IMM & Antreprenori",
+        "Angajați & HR"
       ],
       "keyFindings": [
-        "Contradicție flagrantă între Expunerea de motive și textul votat de Senat la Art. 2 pct. 23^1: deși motivarea promite includerea sănătății mentale și a calității vieții, textul adoptat elimină evaluarea pe scale de mirosuri și condiționează existența disconfortului olfactiv exclusiv de depășirea unor valori-limită prin măsurători standardizate.",
-        "Probatio diabolica la Art. 64^6 alin. (3)-(4): reexaminarea sau actualizarea autorizațiilor de mediu ale operatorilor poluatori poate fi dispusă „doar dacă” sunt depășite valorile-limită ori condițiile din actul de reglementare și se confirmă prin expertiză tehnică/medicală o legătură de cauzalitate directă, măsurabilă științific, între miros și starea de sănătate a populației.",
-        "Blocaj tip „Catch-22” pentru instalațiile vechi: întrucât Art. 64^6 alin. (4) lit. a) permite actualizarea actului de reglementare doar dacă sunt depășite valorile-limită sau condițiile deja stabilite în acel act, operatorii care nu au încă prevăzute limite de miros sau planuri de gestionare a disconfortului olfactiv în autorizație devin practic imuni la actualizarea acesteia."
+        "Contradicție frontală față de Expunerea de Motive la art. 2 pct. 23¹: în loc să extindă definiția la sănătate și calitatea vieții, forma Senatului o restrânge strict la depășirea unor «niveluri sau valori-limită stabilite conform standardelor naționale, europene și internaționale», deși standardele de olfactometrie (ex. EN 13725) reglementează metode de măsurare, nu valori-limită legale universale.",
+        "Blocaj juridic la art. 64⁶ alin. (4) lit. a)-b): reexaminarea sau actualizarea actelor de reglementare «poate fi dispusă doar dacă» sunt depășite valorile-limită/condițiile stabilite deja în actele de reglementare ȘI legătura de cauzalitate directă este confirmată prin expertiză tehnică și/sau medicală. Dacă o autorizație veche nu are limite de miros, lit. a) face imposibilă actualizarea ei.",
+        "Îngreunarea probei față de legea în vigoare (art. 64⁶ alin. 3-4): textul actual cerea constatarea unei «legături de cauzalitate» de către autoritatea de sănătate; proiectul adaugă cerința de «legătură de cauzalitate directă» stabilită «exclusiv pe baza studiilor, evaluărilor și dovezilor științifice măsurabile», fără a preciza cine comandă, plătește sau în ce termen se fac aceste studii și expertize.",
+        "Participarea autorității de sănătate devine facultativă (art. 64⁶ alin. 2): autoritatea de mediu «poate solicita» sprijinul sănătății publice, fără criterii obligatorii, iar la alin. (4) reexaminarea actelor rămâne facultativă («poate fi dispusă»), spre deosebire de mecanismul imperativ al actualului alin. (2).",
+        "Dispozițiile de la art. 64⁶ alin. (5)-(6) privind separarea de obligațiile de securitate și sănătate în muncă (SSM) și medicina muncii sunt benigne, dar textul conține inconsecvențe terminologice («autoritatea publică centrală» vs. «autoritatea competentă pentru protecția mediului») și eroarea ortografică «discomfort» la alin. (1)."
       ],
-      "blindSpotsCaught": "1) La Art. 64^6 alin. (4), condițiile de la lit. a) și lit. b) sunt enumerate după sintagma restrictivă „doar dacă:” fără conjuncția „sau”, ceea ce în tehnica legislativă le transformă în condiții cumulative. 2) Art. 2 pct. 23^1 face trimitere la „valorile-limită stabilite conform standardelor naționale, europene și internaționale”, ignorând faptul că standardele tehnice (precum SR EN 13725 sau EN 16841) stabilesc metode de măsurare/olfactometrie, nu valori-limită legale de imisie sau emisie. 3) Textul oficial adoptat de Senat conține chiar și o eroare materială de redactare la Art. 64^6 alin. (1): „discomfort olfactiv” (scris cu „m”, după grafia engleză).",
-      "constitutionalityNote": "Ridică probleme de previzibilitate și calitate a legii (Art. 1 alin. 5 din Constituție), prin confuzia dintre standardele tehnice de măsurare și actele normative care stabilesc valori-limită, prin ambiguitatea caracterului cumulativ al condițiilor de la Art. 64^6 alin. (4), precum și prin afectarea dreptului la un mediu sănătos (Art. 35 din Constituție) ca urmare a instituirii unei sarcini a probei practic imposibile pentru comunitățile afectate de poluare olfactivă.",
-      "euLawNote": "Deși invocă Directiva 2010/75/UE privind emisiile industriale (IED), textul se îndepărtează de Concluziile BAT (Best Available Techniques) aferente IED: în dreptul european, măsurile corective și planurile de management al mirosurilor se impun atunci când este confirmată sau anticipată o poluare olfactivă (odour nuisance) care afectează calitatea vieții în vecinătate, fără a fi condiționate de demonstrarea unei patologii medicale directe în rândul populației. Nu intră sub incidența Directivei (UE) 2015/1535 (TRIS) sau a Directivei (UE) 2018/958 privind profesiile reglementate.",
+      "blindSpotsCaught": "Cea mai subtilă capcană este paradoxul de la art. 64⁶ alin. (4) lit. a): dacă un operator nu are limite de miros în autorizația de mediu (situație frecventă), nu poate «depăși valorile-limită stabilite în actele de reglementare», deci autoritatea este împiedicată prin lege să reexamineze autorizația tocmai pentru a introduce astfel de limite. În plus, standardele tehnice invocate generic la art. 2 pct. 23¹ sunt norme voluntare (adesea contra cost și metodologice), nu acte normative care fixează praguri obligatorii de poluare.",
+      "constitutionalityNote": "Proiectul ridică probleme serioase față de art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii): trimiterea nedeterminată la «standarde naționale, europene și internaționale în vigoare» nu clarifică ce prag se aplică în caz de lipsă ori conflict al standardelor; art. 64⁶ alin. (4) omite să reglementeze cine suportă costurile studiilor/expertizelor și termenele de soluționare, iar alin. (1) nu delimitează competența între structurile de reglementare (APM) și cele de control (Garda de Mediu). Totodată, ridicarea unor bariere probatorii aproape imposibile și blocarea actualizării autorizațiilor pot încălca obligația pozitivă a statului privind dreptul la un mediu sănătos (art. 35) și ocrotirea sănătății (art. 34).",
+      "euLawNote": "Proiectul intră în tensiune directă cu Directiva 2010/75/UE privind emisiile industriale (IED) — al cărei art. 21 alin. (5) lit. a) impune reexaminarea și actualizarea condițiilor de autorizare atunci când poluarea (care include mirosurile, conform art. 3 pct. 2) este semnificativă încât necesită revizuirea valorilor-limită existente sau introducerea unora noi — precum și cu principiul precauției din art. 191 alin. (2) TFUE, prin impunerea probei de cauzalitate directă și a încălcării prealabile a limitelor din autorizație. Directiva (UE) 2018/958 (profesii reglementate) și Directiva (UE) 2015/1535 (TRIS – servicii digitale/reglementări tehnice pentru produse) nu sunt incidente.",
       "senatForm": {
-        "articleRef": "Art. unic pct. 1 (Art. 2) și pct. 2 (Art. 64^6)",
-        "proposalContent": "La pct. 1, se menține în definiția disconfortului olfactiv percepția subiectivă pe scale de mirosuri și impactul asupra calității vieții. La pct. 2, Art. 64^6 alin. (4) se modifică astfel încât reexaminarea actelor de reglementare să poată fi dispusă la depășirea pragurilor de miros sau la confirmarea disconfortului repetat, fără condiția cumulativă a expertizei medicale de cauzalitate.",
-        "argumentation": "Textul adoptat de Senat contrazice Expunerea de motive: restrânge definiția mirosului doar la depășiri măsurate ale unor valori-limită și blochează revizuirea autorizației de mediu (Art. 64^6 alin. 4) dacă nu se demonstrează prin expertiză medicală o cauzalitate directă asupra sănătății (probatio diabolica), anulând practic efectul Legii mirosurilor nr. 123/2020.",
-        "otherComments": "În Art. 64^6 alin. (4), enumerarea condițiilor a) și b) după sintagma „doar dacă” fără conjuncția „sau” le face cumulativ-obligatorii. De asemenea, la Art. 64^6 alin. (1) trebuie corectată eroarea materială „discomfort” în „disconfort”. Standardele EN (ex. EN 13725) stabilesc metode de măsurare, nu valori-limită legale de emisie."
-      }
+        "articleRef": "Art. unic pct. 1 și 2 (art. 2 pct. 23¹ și 64⁶)",
+        "proposalContent": "La art. 2 pct. 23¹, eliminați condiționarea de valori-limită și includeți impactul asupra sănătății și calității vieții. La art. 64⁶ alin. (3)-(4), eliminați «directă» și cumulul condițiilor de la lit. a)-b), astfel încât revizuirea autorizației să fie obligatorie când se constată impact asupra sănătății, chiar fără limite în actul existent.",
+        "argumentation": "Forma Senatului contrazice expunerea de motive și blochează revizuirea autorizațiilor fără limite de miros, prin cumulul de la art. 64⁶ alin. (4). Trimiterea vagă la standarde încalcă art. 1 alin. (5) din Constituție, iar pragul excesiv de probă afectează art. 35 din Constituție, principiul precauției și Directiva 2010/75/UE (IED).",
+        "otherComments": "Corectați greșeala «discomfort» la art. 64⁶ alin. (1) în «disconfort». Clarificați cine realizează și suportă costul expertizelor, stabiliți termene maxime de soluționare a plângerilor și corelați terminologia între «autoritatea publică centrală» și «autoritatea competentă pentru protecția mediului» (art. 2 pct. 12 din OUG 195/2005)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 245108,
-      "riskScore": 6,
+      "durationMs": 49635,
+      "sourceEndMarker": "SF-F3893F9E",
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Plângerile pentru mirosuri trec la Mediu, dar mirosul contează doar peste praguri",
-      "verdictShort": "Legea clarifică cine se ocupă de plângerile pentru miros: autoritatea de mediu. Forma Senatului face însă opusul a ce promite expunerea. Mirosul contează juridic doar peste „valori-limită” pe care legea nu le definește, iar autorizația poluatorului poate fi reexaminată „doar dacă” sunt îndeplinite condiții stricte. Câștigă claritatea instituțională, dar vecinii unei surse de miros primesc mai puțină protecție efectivă.",
-      "initiatorClaim": "Inițiatorii (prim-semnatar senatorul Cătălin Graur) spun că vor să elimine confuzia dintre autoritățile de mediu și cele de sănătate la plângerile pentru miros. Mai spun că vor să extindă definiția disconfortului olfactiv la sănătatea fizică și mentală, la calitatea vieții și la impactul social-economic, după practica statelor UE.",
-      "realityCheck": "Legea face într-adevăr din autoritatea de mediu instituția care investighează plângerile pentru miros. Sănătatea publică intervine doar la cerere („poate solicita”). Definiția adoptată de Senat nu conține însă nimic din extinderea promisă: mirosul devine juridic „disconfort olfactiv” doar peste niveluri sau valori-limită, deși standardul invocat (EN 13725) este o metodă de măsurare, nu un prag. În plus, art. 64⁶ alin. (4) permite reexaminarea autorizației operatorului „doar dacă” se depășesc limitele din autorizație sau o expertiză confirmă o legătură cauzală cu sănătatea. Acest filtru protejează mai mult operatorul decât vecinii.",
+      "plainTitle": "Plângerile pentru mirosuri trec de la DSP la Mediu, dar mirosul contează doar dacă depășește limite măsurate",
+      "verdictShort": "Mutarea plângerilor la autoritățile de mediu este rezonabilă. Forma Senatului îngustează însă definiția mirosului deranjant și condiționează revizuirea autorizațiilor de praguri greu de atins, așa că legea poate ajunge să protejeze mai mult poluatorul decât vecinii lui.",
+      "initiatorClaim": "Inițiatorii vor să clarifice cine răspunde de plângerile privind mirosurile și să facă din autoritatea de mediu instituția principală. Spun și că extind definiția disconfortului olfactiv, ca să cuprindă sănătatea fizică și mentală, calitatea vieții și impactul social.",
+      "realityCheck": "Competența de soluționare trece într-adevăr de la sănătate la mediu. Noua definiție (art. 2 pct. 23¹) nu cuprinde însă dimensiunile promise în expunerea de motive: disconfortul există legal doar când mirosul e măsurat standardizat și depășește niveluri-limită, iar pentru mirosuri astfel de valori lipsesc în mare parte în dreptul intern. Art. 64⁶ alin. (3)-(4) cere în plus o cauzalitate „directă” și permite revizuirea actelor de reglementare „doar dacă” sunt îndeplinite condiții restrictive, ceea ce face mult mai greu de obținut măsuri împotriva operatorului.",
       "affectedGroups": [
         "Agricultură & Mediu",
-        "Sănătate & Educație",
-        "Proprietari & Imobiliare",
         "IMM & Antreprenori",
+        "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. unic pct. 1 (art. 2 pct. 23¹): mirosul devine „disconfort olfactiv” numai când „sunt depășite nivelurile sau valorile-limită” stabilite conform standardelor. Standardul EN 13725 invocat în expunere este o metodă de măsurare, nu un prag. Legea nu obligă nicio autoritate să adopte valori-limită pentru miros, așa că această condiție poate rămâne fără conținut.",
-        "Expunerea și textul se contrazic. Expunerea promite extinderea definiției la sănătatea fizică și mentală, la calitatea vieții și la impactul social-economic. Forma Senatului nu conține niciunul dintre aceste elemente și adaugă, în schimb, un prag de depășire.",
-        "Art. 64⁶ alin. (1): autoritatea de mediu investighează și soluționează plângerea „prin structurile subordonate”. Textul nu spune însă care structură (agenția care emite autorizațiile sau Garda Națională de Mediu, care face controalele), în ce termen, ce înseamnă concret „soluționare” și dacă petentul este informat despre rezultat.",
-        "Art. 64⁶ alin. (2)–(3): implicarea autorității de sănătate publică este facultativă. Legătura cauzală trebuie să fie „directă” și cu „operatorul investigat”, un standard foarte greu de atins pentru efectele tipice ale mirosurilor (greață, dureri de cap, insomnie, stres).",
-        "Art. 64⁶ alin. (4): reexaminarea actelor de reglementare „poate fi dispusă doar dacă” sunt îndeplinite condițiile de la lit. a) și b). Textul nu precizează dacă acestea sunt alternative sau cumulative. Dacă autorizația nu conține limite pentru miros, lit. a) nu poate fi îndeplinită niciodată. Rămâne doar expertiza tehnică sau medicală, iar legea nu spune cine o face și cine o plătește.",
-        "Art. 64⁶ alin. (5)–(6): precizarea că măsurile pentru populație nu înlocuiesc obligațiile de securitate și sănătate în muncă este utilă și neutră pentru angajatori."
+        "Art. 64⁶ alin. (1): răspunderea pentru plângerile privind mirosurile trece de la autoritatea centrală pentru sănătate, care azi doar „formulează răspunsuri”, la autoritatea centrală de mediu prin structurile subordonate, cu obligația expresă de a „investiga și soluționa”. Este o clarificare utilă, fiindcă mediul emite și controlează autorizațiile.",
+        "Art. 2 pct. 23¹: disconfortul olfactiv devine un efect „determinat și evaluat prin metode de măsurare standardizate” și există numai la depășirea unor „niveluri sau valori-limită” din standarde naționale, europene și internaționale. Standardele de tip SR EN 13725 descriu metode de măsurare a concentrației de miros, nu stabilesc limite. Fără valori-limită obligatorii, plângerile pot fi respinse sistematic.",
+        "Contradicție cu expunerea de motive: aceasta promite includerea sănătății fizice și mentale, a calității vieții și a impactului social și economic, dar textul adoptat nu menționează niciuna dintre aceste dimensiuni. Efectul real este o restrângere a definiției, nu o extindere.",
+        "Art. 64⁶ alin. (3): pragul crește de la „legătură de cauzalitate” (textul în vigoare) la „legătură de cauzalitate directă” între mirosul generat de operator și starea de sănătate. O asemenea legătură este greu de dovedit pentru expuneri cronice la mirosuri.",
+        "Art. 64⁶ alin. (4): reexaminarea sau actualizarea actelor de reglementare poate fi dispusă „doar dacă” sunt depășite valorile sau condițiile din autorizație ori cauzalitatea e confirmată prin expertiză științifică. Dacă autorizația nu conține deloc condiții privind mirosul, rămâne practic doar calea expertizei medicale, scumpă și lentă.",
+        "Art. 64⁶ alin. (2) și (6): sprijinul autorității de sănătate publică sau al instituțiilor de securitate și sănătate în muncă este facultativ („poate solicita”). Proiectul nu prevede termen de soluționare, procedură de măsurare sau cine plătește expertizele.",
+        "Art. 64⁶ alin. (5)-(6): precizarea că măsurile pentru populație nu înlocuiesc obligațiile de securitate și sănătate în muncă este corectă și neutră. Nu creează obligații noi.",
+        "Scăpare de redactare: „discomfort” (alin. 1) în loc de „disconfort”. Alin. (1) vorbește de „autoritatea publică centrală pentru protecția mediului”, iar alin. (6) de „autoritatea competentă pentru protecția mediului”, noțiune mai largă, definită la art. 2 pct. 12."
       ],
-      "blindSpotsCaught": "1. Conflictul cu legislația IED. Directiva 2010/75/UE (art. 3 pct. 2) consideră poluare și emisiile care doar afectează „serviciile de agrement și alte utilizări legitime ale mediului”, fără prag și fără dovadă medicală. Art. 21 alin. (5) lit. a) din directivă cere reexaminarea autorizației și atunci când trebuie introduse valori-limită noi. Formula „doar dacă” din art. 64⁶ alin. (4) este mai restrictivă, ceea ce creează un conflict de norme cu Legea nr. 278/2013 (care transpune directiva) pentru instalațiile IED: ferme mari, depozite de deșeuri, stații de tratare.\n\n2. Standardele sunt voluntare. Potrivit Regulamentului (UE) nr. 1025/2012, standardele sunt prin definiție de aplicare voluntară. Țări citate în expunere, precum Germania, au praguri de frecvență a mirosului fixate prin norme obligatorii. Proiectul nu împuternicește ministerul să adopte asemenea praguri.\n\n3. Unitatea terminologică. Alin. (1) scrie „discomfort”, iar textul alternează „autoritatea publică centrală” cu „autoritatea centrală” pentru sănătate. Legea nr. 24/2000 cere unitate terminologică.",
-      "constitutionalityNote": "Legea nu instituie sancțiuni, deci art. 23 alin. (12) nu este relevant. Problemele constituționale sunt următoarele:\n\n1. Previzibilitatea (art. 1 alin. (5)). Textul trimite la „nivelurile sau valorile-limită stabilite conform standardelor naționale, europene și internaționale în vigoare” fără să le identifice. La aceasta se adaugă ambiguitatea dintre lit. a) și b) din art. 64⁶ alin. (4). Cetățenii, operatorii și autoritățile rămân fără criterii clare.\n\n2. Nivelul de protecție. Restrângerea noțiunii de disconfort olfactiv poate fi contestată ca reducere a protecției garantate de art. 35 (dreptul la mediu sănătos) și art. 34 (dreptul la ocrotirea sănătății), coroborate cu art. 135 alin. (2) lit. e) și f). Nu este însă o neconstituționalitate evidentă.\n\n3. Finanțarea. Dacă structurile de mediu au nevoie de personal și echipamente noi (olfactometrie), transferul de atribuții ar cere o fișă financiară (art. 138 alin. (5) din Constituție și art. 15 din Legea nr. 500/2002).",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează o profesie. Nici Directiva (UE) 2015/1535 (TRIS) nu este incidentă: nu sunt reguli tehnice pentru produse sau servicii ale societății informaționale. Piața unică nu este afectată.\n\nRelevantă este legislația de mediu:\n- Directiva 2010/75/UE tratează ca poluare și emisiile care afectează doar folosința legitimă a mediului. Art. 21 din directivă cere reexaminarea autorizației și când trebuie introduse valori-limită noi, deci este mai larg decât „doar dacă” din art. 64⁶ alin. (4).\n- Directiva 2008/98/CE (art. 13) cere gestionarea deșeurilor fără disconfort prin mirosuri, fără vreun prag numeric.\n- Directiva (UE) 2024/1785 extinde regimul IED la mai multe ferme de porci și păsări, deci miza acestor reguli crește.\n\nPartea pozitivă: plasarea plângerilor la autoritatea de mediu se potrivește cu abordarea integrată din IED. Dreptul de acces la informații de mediu (Directiva 2003/4/CE) rămâne aplicabil, dar textul nu prevede informarea din oficiu a petentului.",
+      "blindSpotsCaught": "Principala chichiță este legătura dintre definiție și alin. (4). Definiția leagă disconfortul de valori-limită care, pentru mirosuri, lipsesc în mare parte. Alin. (4) permite revizuirea autorizației „doar dacă” limitele sunt depășite sau există expertiză medicală. Pentru fermele zootehnice sau stațiile de deșeuri fără condiții de miros în autorizație, rezultatul poate fi imposibilitatea juridică de a impune măsuri, deși Directiva 2010/75/UE tratează mirosul ca poluare și concluziile BAT cer planuri de gestionare a mirosurilor. Implicarea Comisiei pentru agricultură sugerează miza pentru zootehnia intensivă. Noua definiție se aplică, în plus, în toată OUG 195/2005, nu doar la art. 64⁶.",
+      "constitutionalityNote": "Trimiterea la „standardele naționale, europene și internaționale în vigoare” ca sursă a valorilor-limită ridică probleme de previzibilitate (art. 1 alin. 5 din Constituție). Standardele nu sunt publicate în Monitorul Oficial, nu sunt în principiu obligatorii și adesea nu conțin limite pentru miros, deci destinatarul nu poate ști când există juridic disconfort. Restrângerea condițiilor de intervenție poate fi discutată prin prisma art. 35 (dreptul la mediu sănătos și obligația statului de a-l asigura) și art. 34 (dreptul la ocrotirea sănătății), mai ales din perspectiva unui regres al protecției. Transferul de atribuții către autoritățile de mediu, fără sursă de finanțare și fără fișă financiară, poate fi contestat și prin art. 138 alin. (5) și art. 111, dacă implică cheltuieli noi pentru măsurători și expertize. Nu se identifică însă o neconstituționalitate evidentă.",
+      "euLawNote": "Directiva 2018/958 (test de proporționalitate) nu se aplică, deoarece proiectul nu reglementează profesii. Directiva 2015/1535 (TRIS) nu este relevantă, deoarece proiectul nu privește produse sau servicii ale societății informaționale. Relevantă este Directiva 2010/75/UE privind emisiile industriale (modificată prin Directiva 2024/1785), care include mirosurile în noțiunea de poluare și cere reexaminarea condițiilor de autorizare când poluarea o impune (art. 21), fără a o condiționa de depășirea unor limite prestabilite. Formularea restrictivă „doar dacă” din alin. (4) poate intra în conflict cu obligațiile de reexaminare din IED, transpuse prin Legea 278/2013. Deși legea specială ar trebui să prevaleze, ambiguitatea creează riscul de aplicare greșită. Accesul publicului la justiție în materie de mediu (Convenția de la Aarhus) poate fi afectat indirect dacă plângerile devin practic nefondate prin definiție.",
       "senatForm": {
-        "articleRef": "Art. unic pct. 1 – art. 2 pct. 23¹ OUG 195/2005",
-        "proposalContent": "„23¹. disconfortul olfactiv - efectul asupra sănătății sau calității vieții populației generat de prezența în aer a unor substanțe cu miros, determinat și evaluat prin metode standardizate (olfactometrie, determinarea frecvenței mirosului în zonele locuite), inclusiv în absența unor valori-limită stabilite legal.”",
-        "argumentation": "Forma Senatului recunoaște disconfortul olfactiv doar peste valori-limită, dar standardele EN (ex. EN 13725) sunt metode de măsurare, nu praguri, iar România nu are valori-limită generale pentru miros în aer. Plângerile riscă respingerea din start. Textul propus redă scopul din expunerea de motive (sănătate, calitatea vieții) și logica Directivei 2010/75/UE.",
-        "otherComments": "Art. 64⁶ alin.(4): nu e clar dacă lit. a) și b) sunt cumulative sau alternative, iar «doar dacă» blochează reexaminarea autorizației când mirosul persistă fără depășiri. Propun «sau» între litere și o lit. c): disconfort olfactiv repetat, constatat de Garda Națională de Mediu. Alin.(1): termen de 30 de zile și informarea petentului; corectați «discomfort»."
-      }
+        "articleRef": "Art. unic pct. 1 (art. 2 pct. 23¹ OUG 195/2005)",
+        "proposalContent": "„23¹. disconfortul olfactiv - efectul negativ asupra sănătății, bunăstării sau calității vieții populației, generat de mirosuri provenite din activități antropice, evaluat prin metode standardizate de măsurare sau prin analiza frecvenței, intensității, duratei și caracterului mirosului, inclusiv pe baza plângerilor verificate la fața locului.”",
+        "argumentation": "Forma Senatului condiționează disconfortul de depășirea unor valori-limită care, pentru mirosuri, lipsesc în mare parte, ceea ce poate face orice plângere nefondată. Expunerea de motive promite includerea sănătății și a calității vieții, iar IED tratează mirosul ca poluare fără a cere limite prestabilite. Textul propus păstrează rigoarea măsurătorilor fără a bloca protecția.",
+        "otherComments": "La art. 64⁶ alin. (4) propun înlocuirea „doar dacă” cu „și în cazul în care”, eliminarea cuvântului „directă” din alin. (3), introducerea unui termen de 30 de zile pentru soluționarea plângerii și corectarea „discomfort” în „disconfort”. Este necesară o fișă financiară pentru măsurători și expertize."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 95746,
-      "riskScore": 6,
-      "riskLevel": "yellow",
-      "plainTitle": "Reclamațiile despre mirosuri trec la Mediu, dar intervenția devine mai dificilă",
-      "verdictShort": "Desemnarea autorității de mediu ca responsabil pentru reclamații este utilă. Totuși, definiția restrictivă și condiționarea revizuirii autorizațiilor pot slăbi protecția comunităților afectate de mirosuri.",
-      "initiatorClaim": "Inițiatorii promit clarificarea competențelor, cooperare între Mediu și Sănătate și extinderea definiției disconfortului pentru protejarea sănătății și a calității vieții.",
-      "realityCheck": "Art. 64⁶ alin. (1)-(2) transferă investigarea și soluționarea reclamațiilor către autoritatea de mediu, cu sprijin facultativ din partea autorității sanitare. Contrar extinderii anunțate, noua definiție condiționează disconfortul de măsurători standardizate și depășirea unor niveluri sau valori-limită. Cerința cauzalității exista și anterior, dar proiectul o întărește prin caracterul direct al legăturii, probe exclusiv măsurabile și formula restrictivă «doar dacă» pentru reexaminarea ori actualizarea actelor.",
+      "durationMs": 76808,
+      "sourceEndMarker": "SF-F3893F9E",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Mirosurile deranjante, mai greu de recunoscut și de oprit",
+      "verdictShort": "Preluarea reclamațiilor de către autoritățile de mediu este utilă, dar proiectul introduce condiții care pot împiedica intervenția preventivă. Riscul principal este ca locuitorii să suporte mirosuri persistente până când sunt demonstrate depășiri și efecte asupra sănătății.",
+      "initiatorClaim": "Inițiatorii urmăresc clarificarea responsabilităților dintre autoritățile de mediu și sănătate și o soluționare mai eficientă a reclamațiilor. Expunerea de motive promite extinderea definiției disconfortului olfactiv pentru protejarea sănătății și calității vieții.",
+      "realityCheck": "Proiectul transferă responsabilitatea principală către autoritățile de mediu, dar definiția adoptată de Senat condiționează recunoașterea disconfortului de măsurători standardizate și depășirea unor praguri, fără să includă dimensiunile sociale și economice promise. Față de articolul 64⁶ actual, care prevede deja constatarea unei legături de cauzalitate cu sănătatea pentru notificarea autorității de mediu, noul text cere o legătură directă cu operatorul și introduce condiții restrictive pentru reexaminarea sau actualizarea actelor. Lipsa corelării acestor condiții cu mecanismele generale de autorizare creează un risc de blocare a intervențiilor preventive, fără ca proiectul să abroge expres acele mecanisme.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Angajați & HR",
@@ -110,22 +146,45 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articolul unic pct. 1 restrânge definiția: elimină alternativa percepției subiective și introduce condiția depășirii unor praguri. Definiția introdusă în 2020 permitea percepția subiectivă sau cuantificarea obiectivă. [Legea nr. 123/2020](https://legislatie.just.ro/public/DetaliiDocument/227780).",
-        "Art. 2 pct. 23¹ nu identifică pragurile aplicabile și nici regula de alegere între standardele naționale, europene și internaționale. Standardele de măsurare nu trebuie confundate cu limitele juridice de acceptabilitate; art. 64⁵ reglementează deja metodele de evaluare. [OUG nr. 195/2005](https://legislatie.just.ro/Public/DetaliiDocument/67634).",
-        "Art. 64⁶ alin. (4) nu precizează dacă lit. a) și b) sunt cumulative sau alternative. Lectura cumulativă ar putea împiedica revizuirea chiar pentru încălcarea autorizației, dacă nu este demonstrată și legătura cu sănătatea; întinderea restricției față de celelalte temeiuri legale trebuie clarificată.",
-        "Art. 64⁶ alin. (1)-(3) stabilește un responsabil principal, dar nu individualizează structura care controlează, cea care măsoară și cea care decide asupra autorizației. Solicitarea sprijinului sanitar rămâne facultativă, fără criterii pentru cazurile cu suspiciuni privind sănătatea.",
-        "Proiectul nu introduce taxe, amenzi noi, monopoluri profesionale sau obligația expresă ca petentul să plătească expertize. Investigațiile și expertizele pot genera însă costuri administrative și întârzieri; textul nu precizează finanțarea ori repartizarea costurilor, ceea ce poate afecta practic cetățenii și IMM-urile.",
-        "Art. 64⁶ alin. (5)-(6) păstrează distincte obligațiile de securitate și sănătate în muncă și permite cooperarea cu instituțiile competente. Este o clarificare utilă, fără o nouă procedură generală de autorizare."
+        "Articol unic pct. 1: existența juridică a disconfortului depinde de depășirea unor niveluri sau valori-limită. Textul nu identifică standardele aplicabile și nici pragurile relevante; un standard de măsurare nu stabilește obligatoriu și o limită de acceptabilitate. În lipsa unui prag aplicabil, reclamația riscă să nu conducă la măsuri eficiente.",
+        "Articol unic pct. 2, art. 64⁶ alin. (1)-(2): în prezent, structurile autorității de sănătate formulează răspunsurile la plângeri; proiectul pune investigarea și soluționarea în responsabilitatea structurilor de mediu. Sprijinul sănătății este însă facultativ, fără criterii care să impună solicitarea lui atunci când apar indicii de afectare a sănătății.",
+        "Art. 64⁶ alin. (3)-(4): legătura de cauzalitate cu sănătatea nu este o cerință complet nouă, dar proiectul o califică drept directă, o leagă de operatorul investigat și impune exclusiv dovezi științifice măsurabile. Acest mecanism poate îngreuna intervenția în cazul expunerilor cumulative sau al mai multor surse.",
+        "Art. 64⁶ alin. (4) lit. a)-b): formularea «doar dacă» poate face din depășirea limitelor ori condițiilor autorizației și confirmarea cauzalității două cerințe cumulative. Raportul dintre litere nu este explicit, iar norma nu delimitează clar aceste condiții de celelalte temeiuri legale de revizuire a autorizațiilor.",
+        "Art. 64⁶ alin. (5)-(6): obligațiile existente privind securitatea și sănătatea lucrătorilor sunt păstrate expres, iar cooperarea cu instituțiile competente este permisă. Aceste alineate nu introduc, prin ele însele, o nouă obligație generală de expertizare pentru fiecare angajator.",
+        "Proiectul nu introduce taxe, amenzi, exclusivități profesionale sau derogări exprese și nu conține dispoziții tranzitorii. Nu precizează transferul dosarelor în curs ori finanțarea măsurătorilor și expertizelor, dar această tăcere nu înlătură termenele și garanțiile generale aplicabile petițiilor și contestării actelor administrative."
       ],
-      "blindSpotsCaught": "Problema decisivă este posibilitatea ca autorizația existentă să conțină limite insuficiente: tocmai atunci revizuirea trebuie să rămână posibilă, fără a aștepta dovada afectării sănătății. Art. 21 alin. (5) lit. a) din Directiva 2010/75/UE prevede revizuirea pentru poluare semnificativă care impune schimbarea sau introducerea limitelor. Separat, includerea expresă a mirosurilor în definiția europeană a poluării provine din modificarea prin Directiva (UE) 2024/1785. [Art. 21 IED](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32010L0075), [modificarea din 2024](https://eur-lex.europa.eu/eli/dir/2024/1785/oj).",
-      "constitutionalityNote": "Există vulnerabilități privind claritatea și previzibilitatea, raportate la art. 1 alin. (5): praguri neidentificate, raport neclar între condițiile alin. (4) și lipsa corelării cu celelalte temeiuri de revizuire. Condiționarea prevenției de demonstrarea unei cauzalități directe ridică probleme în raport cu obligațiile statului privind sănătatea și mediul, prevăzute de art. 34 și 35. Art. 23 alin. (12) privește legalitatea pedepselor; proiectul nu introduce pedepse noi, astfel că nu rezultă o încălcare directă a acestuia. Acestea sunt riscuri de constituționalitate argumentabile, nu neconstituționalități deja constatate. [Constituția republicată](https://legislatie.just.ro/Public/DetaliiDocument/47355).",
-      "euLawNote": "Directiva (UE) 2018/958 privește accesul la profesii reglementate și exercitarea acestora; proiectul nu introduce asemenea restricții, deci testul său special nu este declanșat. Nu se identifică un monopol sau o discriminare explicită între operatori, dar condițiile de intervenție neclare pot produce aplicare neuniformă și avantaje pentru operatorii cu autorizații insuficient de exigente. TRIS nu privește exclusiv serviciile digitale: Directiva (UE) 2015/1535 acoperă și reglementări tehnice pentru produse; textul analizat nu reglementează servicii digitale/AI și nu relevă, prin el însuși, o obligație evidentă de notificare. Riscul european principal privește IED: pentru instalațiile acoperite, alin. (4) nu poate bloca revizuirea obligatorie a autorizațiilor, iar BAT 12 pentru tratarea deșeurilor cere gestionarea mirosurilor când disconfortul este anticipat sau confirmat, fără condiția demonstrării unei boli. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng), [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535), [BAT 12](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018D1147).",
+      "blindSpotsCaught": "Capcana este combinația dintre definiția bazată pe depășirea pragurilor și condiția probării unei afectări a sănătății pentru modificarea actelor de reglementare. Disconfortul care afectează folosirea locuinței sau calitatea vieții poate necesita prevenire chiar fără o boală demonstrată. În plus, reexaminarea este tocmai procedura prin care se poate constata necesitatea unor condiții noi: condiționarea ei de încălcarea condițiilor existente riscă să facă insuficiența autorizației greu de corectat. Competențele generale de control și revizuire nu sunt însă expres eliminate și trebuie interpretate împreună cu textul propus.",
+      "constitutionalityNote": "Există un risc serios în raport cu art. 1 alin. (5) din Constituție: standardele și pragurile neindividualizate, raportul neclar dintre condițiile de la alin. (4) și întinderea expresiei «doar dacă» afectează previzibilitatea. Art. 34 și 35 impun protecția sănătății și a mediului; dacă noua normă ar bloca măsurile preventive până la demonstrarea unei afectări directe a sănătății, compatibilitatea cu aceste obligații constituționale ar deveni problematică. Neconstituționalitatea nu rezultă automat, fiind necesară examinarea întregului cadru aplicabil. Art. 23 alin. (12), referitor la legalitatea pedepselor, nu este direct incident: proiectul nu instituie pedepse. Dreptul de petiționare și accesul la justiție rămân aplicabile.",
+      "euLawNote": "Principalul reper european este Directiva 2010/75/UE privind emisiile industriale, pentru instalațiile din domeniul său, împreună cu principiul precauției din art. 191 TFUE. Art. 21 al directivei prevede reexaminarea autorizațiilor în situații care nu presupun demonstrarea unei boli cauzate direct de operator; o condiție națională suplimentară care ar împiedica aceste obligații ar fi problematică. Expunerea de motive este imprecisă: art. 3 pct. 2 al directivei nu enumeră expres mirosurile, deși concluziile BAT pentru anumite sectoare prevăd gestionarea lor. Directiva 2018/958 privește restricțiile de acces la profesii reglementate sau de exercitare a acestora; simpla menționare a expertizelor nu declanșează acest test. Proiectul nu reglementează servicii digitale sau AI, iar din text nu rezultă evident o regulă tehnică notificabilă potrivit Directivei 2015/1535; TRIS poate privi însă și produse, nu doar servicii digitale. Nu apare un monopol, dar costurile probelor și protejarea operatorilor cu autorizații insuficiente pot produce dezechilibre concurențiale. Verificarea online a surselor nu a fost disponibilă; evaluarea nu reprezintă o confirmare a stadiului legislativ sau a tuturor normelor consolidate.",
       "senatForm": {
-        "articleRef": "Articol unic pct. 2 – art. 64⁶ alin. (4)",
-        "proposalContent": "(4) Reexaminarea și actualizarea actelor de reglementare pot fi dispuse în condițiile legislației de mediu, pe baza evaluării probelor disponibile și cu respectarea principiului precauției. Măsurile preventive nu sunt condiționate de dovedirea unei legături de cauzalitate directe cu afectarea sănătății populației.",
-        "argumentation": "Formula «doar dacă» poate bloca prevenția și revizuirea autorizațiilor inclusiv când limitele existente sunt insuficiente. Art. 21 din Directiva 2010/75/UE permite revizuirea pentru poluare semnificativă, fără dovada unei boli. Probele științifice trebuie evaluate proporțional, fără a transforma incertitudinea în imunitate pentru operator.",
-        "otherComments": "Corelați și art. 2 pct. 23¹: definiția trebuie să permită constatarea disconfortului fără depășirea obligatorie a unui prag și fără dovada afectării sănătății. Precizați autoritățile competente, criteriile de evaluare și finanțarea investigațiilor; nu transferați implicit costul probelor către petent."
-      }
+        "articleRef": "Articol unic pct. 2: art. 64⁶ alin. (4)",
+        "proposalContent": "Măsurile de prevenire și reducere a disconfortului olfactiv și reexaminarea ori actualizarea actelor de reglementare se dispun, în condițiile legii, pe baza evaluării probelor disponibile, cu respectarea principiului precauției. Aceste măsuri nu sunt condiționate de dovedirea unei legături de cauzalitate cu afectarea sănătății populației.",
+        "argumentation": "Disconfortul olfactiv poate necesita intervenție înainte de demonstrarea unei afectări a sănătății. Condițiile actuale pot bloca prevenirea și revizuirea autorizațiilor insuficiente. Textul propus păstrează fundamentarea deciziilor pe probe și permite aplicarea coerentă a legislației de mediu și a obligațiilor europene.",
+        "otherComments": "Corelativ, revizuiți art. 2 pct. 23¹ pentru ca lipsa unui prag aplicabil să nu excludă disconfortul. Identificați metodele și criteriile de evaluare, autoritățile competente, finanțarea investigațiilor și regulile pentru dosarele în curs. Păstrați distincte evaluarea disconfortului și evaluarea efectelor asupra sănătății."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 6.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T05:18:18.212Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 7,
+        "claude": 6,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:28:09.197Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

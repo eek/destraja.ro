@@ -2,14 +2,41 @@
   "billId": "PL-x 44/2026",
   "slug": "plx-44-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T06:56:43.519Z",
+  "updatedAt": "2026-11-24T15:29:40.919Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 875,
+    "ordinanceChars": 0,
+    "memoChars": 3025,
+    "memoSupplied": 3025,
+    "marker": "SF-707BC78C"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-44-2026.json",
+    "form": "senat",
+    "textHash": "707bc78c52a52d42",
+    "fetchedAt": "2026-11-19T10:45:18.970Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 2255,
+    "truncated": false,
+    "included": true,
+    "key": "cb0fbaa146c077df"
+  },
   "consensus": {
-    "riskScore": 3.3,
+    "riskScore": 3.7,
     "riskLevel": "green",
-    "plainTitle": "O parte mai mare din contribuția ta de pensie ajunge în contul tău de Pilon 2, până la 6%",
-    "summaryTlDr": "Scopul e bun și nu aduce nicio taxă nouă: salariul net rămâne același, doar se schimbă împărțirea CAS-ului între Pilonul 1 și contul personal. Problema e calendarul: alin.(5) cere 5,25% de la 1 ianuarie 2026, o dată deja trecută, iar costul bugetar nu e cuantificat.",
-    "initiatorClaim": "Inițiatorii vor să recupereze majorările de la Pilonul 2 amânate în ultimii 15 ani, ca participanții să strângă mai mult până la pensie, în condițiile în care Pilonul 1 va avea dificultăți după 2030. Invocă și angajamentele din PNRR (reforma C8.R6).",
-    "realityCheck": "Legea nu mărește CAS-ul de 25%. Mută doar o parte mai mare din el în conturile private: de la 4,75% (nivelul actual, după Expunere) la 5,25% și apoi la 6%, adică 1,25 puncte procentuale care nu mai intră în bugetul pensiilor de stat. Argumentul că impactul e „resorbit” de eliminarea unor facilități fiscale nu stă în picioare, pentru că acele venituri sunt deja în prognoza bugetară, nu o compensare nouă. Iar faptul că fondurile cumpără titluri de stat înseamnă că statul se împrumută, cu dobândă, din banii pe care tocmai i-a redirecționat.",
+    "plainTitle": "Mai mulți bani în pensia privată obligatorie (Pilonul 2): de la 4,75% la 6%",
+    "summaryTlDr": "Este o lege scurtă și utilă: crește cota din contribuția de pensie care merge în contul tău personal din Pilonul 2, fără să mărească nimănui taxele. Are însă o problemă serioasă de redactare: prima treaptă (5,25% de la 1 ianuarie 2026) a expirat deja, deci ar produce efecte retroactive dacă nu se modifică datele.",
+    "initiatorClaim": "Inițiatorii vor să reia majorarea cotei pentru Pilonul 2 până la 6%, cum promitea legea din 2004 și s-a amânat repetat. Invocă sustenabilitatea pensiilor după 2030 și angajamentul din PNRR (C8.R6) de a întări Pilonul 2.",
+    "realityCheck": "Articolul unic adaugă la art. 43 din Legea 411/2004 alin. (5) (5,25% din 01.01.2026) și alin. (6) (6% din 01.01.2027). Cota actuală este 4,75%, din 2024, potrivit alin. (4). Contribuția nu crește pentru salariat: se mută o parte mai mare din CAS existent dinspre bugetul de pensii de stat spre conturile individuale, deci bugetul asigurărilor sociale pierde venituri pe termen scurt. Expunerea de motive nu cuantifică această pierdere; spune doar că va fi «resorbită» din eliminarea unor facilități fiscale. Pe fond, legea nu ridică probleme de concurență și nu adaugă birocrație pentru firme.",
     "affectedGroups": [
       "Angajați & HR",
       "Contabili & Fiscalitate",
@@ -17,104 +44,136 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Articol unic – art.43 alin.(5)-(6) L.411/2004",
-      "proposalContent": "(5) Începând cu 1 ianuarie al anului următor celui în care intră în vigoare prezenta lege, cota de contribuție la fondul de pensii este de 5,25%. (6) Începând cu 1 ianuarie al celui de-al doilea an următor celui în care intră în vigoare prezenta lege, cota de contribuție la fondul de pensii este de 6%.",
-      "argumentation": "1 ianuarie 2026 a trecut: alin.(5) ar fi fie retroactiv (art.15 alin.(2) din Constituție), fie neclar, căci CNPP n-ar ști ce cotă să aplice contribuțiilor deja virate în 2026. Termenele raportate la intrarea în vigoare păstrează creșterea etapizată spre 6%, lasă timp pentru planificarea bugetului și înlătură un motiv clar de neconstituționalitate.",
-      "otherComments": "Expunerea nu cuantifică impactul: solicit fișa financiară (art.15 L.500/2002) și punctul de vedere al Guvernului (art.111 alin.(1) Constituție). Cele 1,25 pp mutate din CAS scad veniturile bugetului de pensii de stat, iar deficitul lui se acoperă din bugetul de stat. Eliminarea facilităților invocată e deja în prognoză, nu e sursă nouă."
+      "articleRef": "Articol unic – art. 43 alin. (5)-(6) L. 411/2004",
+      "proposalContent": "(5) Începând cu data de 1 ianuarie a anului următor intrării în vigoare a prezentei legi, cota de contribuție la fondul de pensii este de 5,25%.\n(6) Începând cu data de 1 ianuarie a celui de-al doilea an următor intrării în vigoare a prezentei legi, cota de contribuție la fondul de pensii este de 6%.",
+      "argumentation": "Data de 1.01.2026 din forma Senatului a trecut, iar proiectul e încă la comisie. O cotă aplicată retroactiv nu poate fi pusă în practică (contribuțiile 2026 sunt virate) și încalcă art. 15 alin. (2) și art. 1 alin. (5) din Constituție. Termenele raportate la intrarea în vigoare păstrează creșterea etapizată spre 6% și dau timp angajatorilor și bugetului să se pregătească.",
+      "otherComments": "Recomand să se ceară punctul de vedere al Guvernului (art. 111 Constituție) și o fișă de impact bugetar cu sursa de compensare a veniturilor mutate din bugetul de pensii de stat în Pilonul 2 (L. 500/2002, L. 69/2010), pentru a evita o sesizare la CCR. Pe fond, susțin creșterea cotei Pilonului 2."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 54358,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Creșterea contribuției la Pilonul II de pensii private la 5,25% și apoi la 6%",
-      "verdictShort": "Măsură pozitivă pentru salariați, care direcționează o parte mai mare din CAS-ul deja plătit către conturile lor private de pensii (Pilonul II), fără a crește taxele. Singurul viciu major este de tehnică legislativă: primul termen (1 ianuarie 2026) este deja depășit și trebuie corectat la comisii pentru a evita retroactivitatea.",
-      "initiatorClaim": "Inițiatorii propun majorarea etapizată a cotei de contribuție la Pilonul II de la 4,75% la 5,25% (din 1 ianuarie 2026) și la 6% (din 1 ianuarie 2027), invocând sustenabilitatea pensiilor după anul 2030 și jaloanele asumate în PNRR.",
-      "realityCheck": "Legea nu mărește taxele pe salariu, ci mută un procent mai mare din contribuția la pensii (CAS de 25%) de la bugetul de stat (Pilonul I) în contul privat al fiecărui angajat (Pilonul II). Însă, întrucât proiectul a ajuns în dezbaterea Camerei Deputaților abia în anul 2026, aplicarea cotei de 5,25% „începând cu 1 ianuarie 2026” a devenit retroactivă și imposibil de operat tehnic pentru lunile deja încheiate.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 62432,
+      "sourceEndMarker": "SF-707BC78C",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Creșterea contribuției la Pilonul 2 de pensii până la 6%, dar cu termene depășite",
+      "verdictShort": "Măsura în sine avantajează angajații fără să le crească taxele, dar forma adoptată tacit de Senat este neconstituțională prin retroactivitate și lipsită de sursă de finanțare pentru deficitul creat la pensiile publice.",
+      "initiatorClaim": "Inițiatorii vor să majoreze etapizat cota de contribuție la Pilonul 2 de la 4,75% la 5,25% din 2026 și la 6% din 2027, pentru a crește acumulările celor peste 8,4 milioane de participanți și a îndeplini angajamentele asumate prin PNRR.",
+      "realityCheck": "Legea nu crește taxele pe muncă (cota totală de CAS rămâne neschimbată), ci redirecționează o felie mai mare din contribuții de la stat (Pilonul 1) în conturile private (Pilonul 2). Totuși, textul a trecut tacit de Senat cu un termen deja depășit (1 ianuarie 2026), devenind retroactiv, și nu indică sursa reală de acoperire a golului produs în bugetul asigurărilor sociale.",
       "affectedGroups": [
         "Angajați & HR",
         "Contabili & Fiscalitate",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articol unic - alin. (5) nou introdus la art. 43 din Legea nr. 411/2004 majorează cota de contribuție la Pilonul II de la 4,75% la 5,25% începând cu 1 ianuarie 2026, dată deja consumată la momentul dezbaterii în Camera decizională.",
-        "Articol unic - alin. (6) nou introdus majorează cota la 6% începând cu 1 ianuarie 2027, atingând ținta promisă inițial la înființarea Pilonului II, fără a crește povara fiscală totală asupra muncii.",
-        "Transferul suplimentar de 0,5% și ulterior 1,25% din baza de calcul către fondurile private diminuează veniturile curente ale Bugetului Asigurărilor Sociale de Stat (Pilonul I), dar Expunerea de Motive nu este însoțită de calcule bugetare concrete, bazându-se doar pe afirmația generică că deficitul va fi acoperit din eliminarea facilităților fiscale din 2024-2025."
+        "Retroactivitate flagrantă la art. 43 alin. (5): textul impune cota de 5,25% de la 1 ianuarie 2026, dată deja depășită în dezbaterea de la Camera Deputaților, în timp ce legea în vigoare (art. 43 alin. 4) prevede 4,75%.",
+        "Lipsa fișei financiare și a sursei de finanțare: redirecționarea a +0,5 și apoi +1,25 puncte procentuale din CAS diminuează direct veniturile Bugetului Asigurărilor Sociale de Stat, iar Expunerea de Motive nu oferă nicio cifră de impact, invocând vag venituri din eliminarea facilităților fiscale în 2024-2025.",
+        "Efect benefic pe fond, fără birocrație nouă pentru angajatori: majorarea până la 6% (alin. 6, prevăzut pentru 1 ianuarie 2027) revine la ținta inițială a Legii nr. 411/2004 fără a mări cota totală de contribuții, dar necesită corelare tehnică cu bugetul anual al asigurărilor sociale."
       ],
-      "blindSpotsCaught": "Proiectul a trecut tacit de Senat fără actualizarea calendarului de intrare în vigoare. Dacă alin. (5) nu este amendat în Comisia pentru muncă din Camera Deputaților, legea va fi vulnerabilă la Curtea Constituțională pentru încălcarea principiului neretroactivității (art. 15 alin. (2)), întrucât declarațiile D112 și viramentele CNPP către fondurile de pensii pentru primele luni din 2026 au fost deja executate la cota de 4,75%.",
-      "constitutionalityNote": "Sub aspectul fondului, consolidarea proprietății private a participanților la Pilonul II este pe deplin constituțională (art. 44 și art. 47 din Constituție). Sub aspect tehnic însă, menținerea datei de 1 ianuarie 2026 în alin. (5) încalcă art. 15 alin. (2) (neretroactivitatea legii) și art. 1 alin. (5) (previzibilitatea normei). De asemenea, impactul asupra bugetului asigurărilor sociale de stat impune respectarea art. 138 alin. (5) privind indicarea sursei de finanțare și solicitarea fișei financiare de la Guvern.",
-      "euLawNote": "Proiectul nu ridică probleme de compatibilitate cu dreptul UE: nu restrânge accesul la profesii reglementate (Directiva 2018/958 nu este aplicabilă) și nu instituie reglementări tehnice sau privind serviciile societății informaționale (Directiva TRIS 2015/1535 nu este incidentă). Măsura este aliniată recomandărilor specifice de țară ale Comisiei Europene privind sustenabilitatea pe termen lung a sistemului de pensii.",
+      "blindSpotsCaught": "Proiectul a fost adoptat tacit de Senat (art. 75 alin. 2 teza a III-a din Constituție) fără dezbatere, iar procedura de urgență cerută în Expunerea de Motive nu a fost aprobată. Astfel, calendarul inițial a rămas blocat pe 1 ianuarie 2026, transformând o măsură favorabilă economisirii într-o lege retroactivă vulnerabilă la Curtea Constituțională.",
+      "constitutionalityNote": "Risc ridicat de neconstituționalitate în forma de la Senat pe trei temeiuri: art. 15 alin. (2) (neretroactivitatea legii, prin stabilirea cotei de 5,25% de la 1 ianuarie 2026), art. 138 alin. (5) coroborat cu art. 111 alin. (1) (lipsa fișei financiare și a sursei reale de finanțare pentru deficitul creat în Pilonul 1) și art. 1 alin. (5) (lipsa de previzibilitate și corelare bugetară).",
+      "euLawNote": "Nu intră sub incidența Directivei (UE) 2018/958 (profesii reglementate) sau a Directivei (UE) 2015/1535 (TRIS / servicii digitale). Obiectivul este aliniat recomandărilor specifice de țară și reformei PNRR (C8.R6) privind viabilitatea Pilonului 2, dar impactul imediat asupra deficitului public trebuie încadrat în traiectoria asumată de România în procedura UE de deficit excesiv.",
       "senatForm": {
-        "articleRef": "Articol unic - alin. (5) și (6) ale art. 43",
-        "proposalContent": "La art. 43, alin. (5) și (6) se modifică și vor avea următorul cuprins: „(5) Începând cu data de 1 ianuarie 2027, cota de contribuție la fondul de pensii este de 5,25%. (6) Începând cu data de 1 ianuarie 2028, cota de contribuție la fondul de pensii este de 6%.” (Alternativ, aplicarea cotei de 5,25% începând cu luna următoare intrării în vigoare a legii).",
-        "argumentation": "Forma adoptată tacit de Senat prevede creșterea cotei la 5,25% de la 1 ianuarie 2026, dată deja depășită în parcursul parlamentar de la Camera Deputaților. Menținerea acestui termen încalcă principiul neretroactivității legii (art. 15 alin. (2) din Constituție) și ar bloca tehnic decontările lunare deja efectuate de CNPP pe declarația D112.",
-        "otherComments": "Măsura este benefică pentru cei peste 8,4 milioane de salariați, crescând acumulările în conturile lor private din Pilonul II fără a majora taxarea muncii. Decalarea termenelor sau corelarea lor cu data efectivă a intrării în vigoare salvează legea de o obiecție de neconstituționalitate și permite încadrarea ordonată în legea bugetului asigurărilor sociale."
-      }
+        "articleRef": "Articol unic - art. 43 alin. (5) și (6)",
+        "proposalContent": "La art. 43, alin. (5) se recalendarizează pentru viitor (ex. 5,25% de la 1 ianuarie 2027 și 6% de la 1 ianuarie 2028 la alin. 6), cu stabilirea expresă a aplicării numai pentru viitor și corelarea cu bugetul asigurărilor sociale.",
+        "argumentation": "Data de 1 ianuarie 2026 prevăzută la alin. (5) este deja depășită, încălcând principiul neretroactivității (art. 15 alin. 2 Constituție). Fără recalendarizare și fără fișă financiară care să indice sursa de acoperire a deficitului din Pilonul 1 (art. 138 alin. 5), legea riscă invalidarea la CCR.",
+        "otherComments": "Creșterea treptată la 6% este utilă pentru viitorii pensionari și nu mărește taxele pe muncă. Vă rog să solicitați Guvernului fișa financiară conform art. 111 alin. (1) din Constituție și să evitați adoptarea unui text retroactiv imposibil de aplicat."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 126193,
+      "durationMs": 43304,
+      "sourceEndMarker": "SF-707BC78C",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "O parte mai mare din contribuția ta de pensie ajunge în contul tău de Pilon 2, până la 6%",
-      "verdictShort": "Scopul e bun și nu aduce nicio taxă nouă: salariul net rămâne același, doar se schimbă împărțirea CAS-ului între Pilonul 1 și contul personal. Problema e calendarul: alin.(5) cere 5,25% de la 1 ianuarie 2026, o dată deja trecută, iar costul bugetar nu e cuantificat.",
-      "initiatorClaim": "Inițiatorii vor să recupereze majorările de la Pilonul 2 amânate în ultimii 15 ani, ca participanții să strângă mai mult până la pensie, în condițiile în care Pilonul 1 va avea dificultăți după 2030. Invocă și angajamentele din PNRR (reforma C8.R6).",
-      "realityCheck": "Legea nu mărește CAS-ul de 25%. Mută doar o parte mai mare din el în conturile private: de la 4,75% (nivelul actual, după Expunere) la 5,25% și apoi la 6%, adică 1,25 puncte procentuale care nu mai intră în bugetul pensiilor de stat. Argumentul că impactul e „resorbit” de eliminarea unor facilități fiscale nu stă în picioare, pentru că acele venituri sunt deja în prognoza bugetară, nu o compensare nouă. Iar faptul că fondurile cumpără titluri de stat înseamnă că statul se împrumută, cu dobândă, din banii pe care tocmai i-a redirecționat.",
-      "affectedGroups": [
-        "Angajați & HR",
-        "Toți cetățenii"
-      ],
-      "keyFindings": [
-        "Articolul unic introduce alin.(5) și (6) la art.43 din Legea 411/2004: 5,25% de la 1.01.2026 și 6% de la 1.01.2027. Venitul net al salariatului și costul angajatorului nu se schimbă, fiindcă se modifică doar repartizarea în interiorul CAS-ului de 25%.",
-        "Alin.(5) are o dată de aplicare deja trecută: Senatul l-a adoptat tacit, iar în octombrie 2026 proiectul e încă la comisie. Textul e fie retroactiv, fie inaplicabil, iar CNPP n-ar avea o regulă clară pentru contribuțiile din 2026 deja virate la 4,75%.",
-        "Impactul bugetar nu e cuantificat. Fiecare punct procentual mutat la Pilonul 2 scade veniturile bugetului asigurărilor sociale, al cărui deficit se acoperă prin transferuri de la bugetul de stat, adică indirect de toți contribuabilii.",
-        "Textul doar adaugă alineate. Nu corelează și nu abrogă dispozițiile sau derogările care stabilesc azi cota de 4,75%, ceea ce poate crea paralelism legislativ (Legea 24/2000). Nimic nu împiedică nici viitoarele legi bugetare anuale să „înghețe” din nou cota, cum recunoaște chiar Expunerea că s-a întâmplat repetat.",
-        "Pentru participanți efectul e pozitiv: banii din Pilonul 2 sunt proprietate privată, în cont individual și moștenibili. Cei 7 administratori autorizați de ASF primesc și ei o bază de comisioane mai mare, fără ca piața să se închidă unor noi jucători."
-      ],
-      "blindSpotsCaught": "Expunerea cerea procedură de urgență tocmai ca legea să se aplice din 2026, dar Camera o tratează fără urgență, iar Senatul a adoptat-o tacit (art.75 alin.(2) din Constituție), fără nicio dezbatere. Și termenul din 2027 e acum în pericol: proiectul e încă la comisie, urmează plenul și promulgarea, poate și o sesizare la CCR, în timp ce bugetul pe 2027 se construiește chiar acum. Mai e un detaliu tehnic: după metodologia ESA 2010 (Eurostat), contribuțiile virate la Pilonul 2 ies din veniturile administrației publice, deci majorarea crește deficitul raportat la UE.",
-      "constitutionalityNote": "Alin.(5) încalcă art.15 alin.(2) din Constituție (legea dispune numai pentru viitor) dacă legea intră în vigoare după 1.01.2026, ceea ce e deja sigur. Problema afectează și claritatea și previzibilitatea normei (art.1 alin.(5)). În plus, măsura reduce veniturile bugetului asigurărilor sociale, deci cere punctul de vedere al Guvernului (art.111 alin.(1)), fișă financiară și sursă de compensare (art.138 alin.(5), art.15 din Legea 500/2002 și Legea 69/2010). CCR a sancționat constant lipsa acestor cerințe. Fondul măsurii nu ridică probleme: întărește dreptul la pensie (art.47) și proprietatea privată asupra activelor din cont (art.44).",
-      "euLawNote": "Directiva 2018/958 nu se aplică, pentru că legea nu reglementează accesul la o profesie. Nici TRIS (Directiva 2015/1535) nu se aplică, fiindcă nu e vorba de servicii digitale sau reguli tehnice. Nu există restricții pe piața unică: oricine îndeplinește condițiile ASF poate administra fonduri. Riscul real ține de guvernanța economică europeană. România e în procedura de deficit excesiv, iar prin metodologia ESA 2010 diminuarea veniturilor bugetare complică respectarea traiectoriei de ajustare (Regulamentul UE 2024/1263). Argumentul PNRR e invocat, dar textul nu e legat de vreun jalon concret, iar verificarea angajamentului real revine Guvernului.",
-      "senatForm": {
-        "articleRef": "Articol unic – art.43 alin.(5)-(6) L.411/2004",
-        "proposalContent": "(5) Începând cu 1 ianuarie al anului următor celui în care intră în vigoare prezenta lege, cota de contribuție la fondul de pensii este de 5,25%. (6) Începând cu 1 ianuarie al celui de-al doilea an următor celui în care intră în vigoare prezenta lege, cota de contribuție la fondul de pensii este de 6%.",
-        "argumentation": "1 ianuarie 2026 a trecut: alin.(5) ar fi fie retroactiv (art.15 alin.(2) din Constituție), fie neclar, căci CNPP n-ar ști ce cotă să aplice contribuțiilor deja virate în 2026. Termenele raportate la intrarea în vigoare păstrează creșterea etapizată spre 6%, lasă timp pentru planificarea bugetului și înlătură un motiv clar de neconstituționalitate.",
-        "otherComments": "Expunerea nu cuantifică impactul: solicit fișa financiară (art.15 L.500/2002) și punctul de vedere al Guvernului (art.111 alin.(1) Constituție). Cele 1,25 pp mutate din CAS scad veniturile bugetului de pensii de stat, iar deficitul lui se acoperă din bugetul de stat. Eliminarea facilităților invocată e deja în prognoză, nu e sursă nouă."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 139104,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Mai mulți bani din contribuția existentă pentru pensia privată",
-      "verdictShort": "Majorarea poate întări economisirea pentru pensie, fără să crească prin ea însăși contribuția totală reținută din salariu. Forma Senatului necesită însă corectarea calendarului deja depășit și fundamentarea pierderii de venituri pentru sistemul public.",
-      "initiatorClaim": "Inițiatorii urmăresc creșterea economiilor individuale pentru pensie și reducerea vulnerabilității viitorilor pensionari la îmbătrânirea populației. Ei invocă întărirea Pilonului II prin PNRR și susțin că veniturile rezultate din eliminarea facilităților fiscale vor compensa impactul bugetar.",
-      "realityCheck": "Articolul unic propune cote de 5,25% din 2026 și 6% din 2027, față de nivelul de 4,75% prevăzut la art. 43 alin. (4). Deoarece contribuția la Pilonul II este parte din CAS, efectul este redistribuirea contribuției existente către conturile private, cu diminuarea veniturilor rămase sistemului public, fără majorarea automată a CAS sau reducerea salariului net. Textul nu garantează randamente ori autofinanțarea acestei redistribuiri. [Legea nr. 411/2004, art. 42–44](https://legislatie.just.ro/Public/DetaliiDocument/83682)",
+      "plainTitle": "Mai mulți bani în pensia privată obligatorie (Pilonul 2): de la 4,75% la 6%",
+      "verdictShort": "Este o lege scurtă și utilă: crește cota din contribuția de pensie care merge în contul tău personal din Pilonul 2, fără să mărească nimănui taxele. Are însă o problemă serioasă de redactare: prima treaptă (5,25% de la 1 ianuarie 2026) a expirat deja, deci ar produce efecte retroactive dacă nu se modifică datele.",
+      "initiatorClaim": "Inițiatorii vor să reia majorarea cotei pentru Pilonul 2 până la 6%, cum promitea legea din 2004 și s-a amânat repetat. Invocă sustenabilitatea pensiilor după 2030 și angajamentul din PNRR (C8.R6) de a întări Pilonul 2.",
+      "realityCheck": "Articolul unic adaugă la art. 43 din Legea 411/2004 alin. (5) (5,25% din 01.01.2026) și alin. (6) (6% din 01.01.2027). Cota actuală este 4,75%, din 2024, potrivit alin. (4). Contribuția nu crește pentru salariat: se mută o parte mai mare din CAS existent dinspre bugetul de pensii de stat spre conturile individuale, deci bugetul asigurărilor sociale pierde venituri pe termen scurt. Expunerea de motive nu cuantifică această pierdere; spune doar că va fi «resorbită» din eliminarea unor facilități fiscale. Pe fond, legea nu ridică probleme de concurență și nu adaugă birocrație pentru firme.",
       "affectedGroups": [
         "Angajați & HR",
         "Contabili & Fiscalitate",
-        "IMM & Antreprenori",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 43 alin. (5) propus folosește data de 1 ianuarie 2026, deși adoptarea tacită în Senat s-a produs la 2 februarie 2026. Calendarul trebuie actualizat pentru aplicare exclusiv viitoare, cu precizarea lunilor de venit vizate. [Fișa Senatului](https://www.senat.ro/legis/lista.aspx?an_cls=2025&nr_cls=L449)",
-        "Creșterile sunt de 0,50 și apoi 0,75 puncte procentuale. La o bază contributivă ipotetică de 5.000 lei, transferul suplimentar către Pilonul II este de 25 lei, respectiv 62,50 lei lunar față de cota de 4,75%; sistemul public pierde corespunzător venituri. Expunerea nu cuantifică această pierdere și nici compensarea invocată.",
-        "Proiectul nu introduce autorizații, formulare, taxe suplimentare sau sancțiuni și nu rezervă contribuțiile unui administrator anume. Pot exista adaptări tehnice ale calculului și evidenței contribuțiilor; costurile acestora nu sunt evaluate."
+        "Art. 43 alin. (4) în vigoare stabilește 4,75% din 2024. Proiectul adaugă alin. (5) cu 5,25% din 01.01.2026 și alin. (6) cu 6% din 01.01.2027. Asta înseamnă +0,5 pp, apoi +0,75 pp, exact cum anunță expunerea de motive.",
+        "Data de 01.01.2026 din alin. (5) a trecut: suntem în noiembrie 2026 și proiectul este încă la comisia Camerei. Textul ar trebui aplicat pentru o perioadă anterioară intrării în vigoare, ceea ce e imposibil practic (contribuțiile 2026 sunt deja reținute și virate) și contrar art. 15 alin. (2) din Constituție.",
+        "Nu există o contribuție nouă pentru angajați sau angajatori: crește doar partea din CAS de 25% direcționată către Pilonul 2. Efectul pentru salariat este pozitiv (mai mulți bani în contul propriu, moștenibili). Costul îl suportă bugetul asigurărilor sociale de stat, care primește mai puțin.",
+        "Expunerea de motive nu conține o estimare cifrată a impactului bugetar și nicio sursă concretă de compensare. Afirmația că pierderea va fi «resorbită» din eliminarea facilităților fiscale din 2024-2025 nu este probată.",
+        "Senatul a adoptat proiectul tacit (art. 75 alin. (2) teza a III-a din Constituție), deci fără dezbatere de fond. Camera Deputaților, cameră decizională, este singurul loc unde textul poate fi corectat."
       ],
-      "blindSpotsCaught": "Adoptarea tacită este un mecanism constituțional, nu dovada unui vot favorabil pe fond. Urgența cerută în motivare nu trebuie confundată cu procedura Camerei: Senatul consemnează aprobarea urgenței la propria etapă, iar datele furnizate indică lipsa acesteia la Camera Deputaților. [Fișa Senatului](https://www.senat.ro/legis/lista.aspx?an_cls=2025&nr_cls=L449) În plus, Consiliul Legislativ semnalează alte inițiative asupra aceluiași articol, inclusiv folosirea acelorași numere de alineate pentru soluții diferite; este necesară corelarea lor. [Avizul nr. 791/2025](https://www.senat.ro/legis/PDF/2025/25L449LG.PDF?nocache=true)",
-      "constitutionalityNote": "Cotele sunt inteligibile, dar data trecută și lipsa unei reguli tranzitorii afectează previzibilitatea cerută de art. 1 alin. (5). Aplicarea majorării unor perioade anterioare intrării în vigoare ar ridica probleme de neretroactivitate, potrivit art. 15 alin. (2), și de respectare a art. 78. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident: proiectul nu instituie pedepse. Impactul asupra bugetului asigurărilor sociale impune solicitarea informării Guvernului conform art. 111 alin. (1); fișa Senatului consemnează solicitarea unui punct de vedere. Diminuarea veniturilor nu echivalează automat cu aprobarea unei cheltuieli fără sursă, interzisă de art. 138 alin. (5), dar compensarea trebuie fundamentată. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355) [Fișa Senatului](https://www.senat.ro/legis/lista.aspx?an_cls=2025&nr_cls=L449)",
-      "euLawNote": "Directiva (UE) 2018/958 nu impune aici testul special de proporționalitate: proiectul nu restrânge accesul la o profesie reglementată sau exercitarea acesteia. [Directiva, art. 1–2](https://eur-lex.europa.eu/legal-content/ro/ALL/?uri=CELEX%3A32018L0958) Nu rezultă obligația notificării TRIS: textul nu reglementează produse, servicii digitale sau AI; art. 1 alin. (4) și anexa II prevăd și o excludere pentru subiectele reglementate de dreptul UE în domeniul serviciilor financiare, inclusiv operațiuni privind fondurile de pensii. [Directiva (UE) 2015/1535](https://eur-lex.europa.eu/legal-content/RO/ALL/?uri=celex%3A32015L1535) Majorarea fluxurilor către administratorii existenți nu constituie, prin ea însăși, monopol sau restricție discriminatorie asupra pieței unice. Invocarea PNRR în motivare nu demonstrează că exact procentele și termenele propuse sunt obligatorii european.",
+      "blindSpotsCaught": "Datele fixe (2026/2027) sunt capcana principală. Dacă legea se adoptă în forma Senatului, alin. (5) devine fie retroactiv, fie inaplicabil, iar alin. (6) poate deveni la fel dacă adoptarea întârzie după 1 ianuarie 2027. Nu există o dispoziție tranzitorie care să spună ce se întâmplă cu contribuțiile deja virate în 2026 la 4,75%. Al doilea punct: proiectul reduce veniturile bugetului de asigurări sociale. Pentru astfel de inițiative, art. 111 alin. (1) teza a II-a din Constituție cere informarea Guvernului, iar art. 15 din Legea 500/2002 și Legea 69/2010 cer o fișă de impact bugetar cu sursa de compensare. Din materialele disponibile nu rezultă că acestea există. Al treilea punct: textul ar trebui corelat cu legile anuale ale bugetului asigurărilor sociale, care de-a lungul timpului au derogat de la cotele din art. 43.",
+      "constitutionalityNote": "Pe fond, majorarea cotei pentru Pilonul 2 ține de opțiunea legiuitorului și nu încalcă vreun drept fundamental. Ea sprijină chiar dreptul la pensie (art. 47 alin. (2)) și dreptul de proprietate asupra activelor din contul individual (art. 44). Problemele sunt de formă și de procedură. (1) Retroactivitatea: alin. (5), cu efect de la 01.01.2026, ar contraveni art. 15 alin. (2) și principiului previzibilității și securității juridice (art. 1 alin. (5)). (2) Sursa de finanțare: textul reduce veniturile bugetului de asigurări sociale, iar CCR a cerut constant, pentru astfel de măsuri, solicitarea punctului de vedere al Guvernului (art. 111 alin. (1)) și indicarea sursei, în spiritul art. 138 alin. (5). Lipsa acestora poate duce la neconstituționalitate extrinsecă. Ambele probleme se pot rezolva prin amendamente la Cameră.",
+      "euLawNote": "Directiva (UE) 2018/958 privind testul de proporționalitate nu se aplică: proiectul nu reglementează accesul la o profesie sau exercitarea ei. Directiva (UE) 2015/1535 (TRIS) nu este relevantă: nu există reguli tehnice și nici servicii ale societății informaționale. Libera circulație a capitalurilor și piața unică nu sunt afectate, pentru că nu se schimbă regimul administratorilor de fonduri și nu apar restricții de investire. Un context european trebuie totuși menționat: transferurile către Pilonul 2 sunt înregistrate ca cheltuieli ale bugetului general consolidat potrivit SEC 2010. Ele cresc deci deficitul calculat, relevant pentru angajamentele fiscale ale României față de UE. În sens invers, jalonul PNRR C8.R6 invocat de inițiatori susține întărirea Pilonului 2.",
       "senatForm": {
-        "articleRef": "Articol unic – art. 43 alin. (5)-(6)",
-        "proposalContent": "(5) Cota de contribuție este de 5,25%, pentru veniturile aferente lunilor începând cu prima lună calendaristică următoare intrării în vigoare a prezentei completări. (6) Cota de contribuție este de 6%, pentru veniturile aferente lunilor începând cu luna următoare împlinirii a 12 luni de aplicare a cotei prevăzute la alin. (5).",
-        "argumentation": "Data de 1 ianuarie 2026 este depășită. Aplicarea exclusiv pentru viitor evită recalculări retroactive și respectă art. 15 alin. (2) și art. 78 din Constituție. Etapizarea pe luni de venit oferă predictibilitate participanților și instituțiilor care calculează și virează contribuțiile.",
-        "otherComments": "Propunere cetățenească pentru Comisia pentru muncă și protecție socială; poate fi preluată de un deputat. Solicit cuantificarea pierderii de venituri a bugetului asigurărilor sociale și a compensării acesteia. Termenul indicat pentru amendamente, 18.02.2026, este expirat; transmiterea opiniei nu garantează preluarea."
-      }
+        "articleRef": "Articol unic – art. 43 alin. (5)-(6) L. 411/2004",
+        "proposalContent": "(5) Începând cu data de 1 ianuarie a anului următor intrării în vigoare a prezentei legi, cota de contribuție la fondul de pensii este de 5,25%.\n(6) Începând cu data de 1 ianuarie a celui de-al doilea an următor intrării în vigoare a prezentei legi, cota de contribuție la fondul de pensii este de 6%.",
+        "argumentation": "Data de 1.01.2026 din forma Senatului a trecut, iar proiectul e încă la comisie. O cotă aplicată retroactiv nu poate fi pusă în practică (contribuțiile 2026 sunt virate) și încalcă art. 15 alin. (2) și art. 1 alin. (5) din Constituție. Termenele raportate la intrarea în vigoare păstrează creșterea etapizată spre 6% și dau timp angajatorilor și bugetului să se pregătească.",
+        "otherComments": "Recomand să se ceară punctul de vedere al Guvernului (art. 111 Constituție) și o fișă de impact bugetar cu sursa de compensare a veniturilor mutate din bugetul de pensii de stat în Pilonul 2 (L. 500/2002, L. 69/2010), pentru a evita o sesizare la CCR. Pe fond, susțin creșterea cotei Pilonului 2."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 72746,
+      "sourceEndMarker": "SF-707BC78C",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Mai mult din contribuția la pensie merge la Pilonul II",
+      "verdictShort": "Creșterea economisirii pentru pensie este un obiectiv legitim, fără taxe sau sancțiuni noi introduse prin acest text. Totuși, calendarul deja depășit și justificarea bugetară insuficientă cer corecturi înaintea adoptării.",
+      "initiatorClaim": "Inițiatorii urmăresc creșterea sumelor acumulate în conturile participanților la Pilonul II și consolidarea sustenabilității pensiilor. Invocă obiectivele PNRR și revenirea la ținta de contribuție de 6%.",
+      "realityCheck": "Față de cota actuală de 4,75%, proiectul stabilește 5,25% de la 1 ianuarie 2026 și 6% de la 1 ianuarie 2027: creșteri de 0,5, respectiv 0,75 puncte procentuale. În mecanismul Pilonului II, aceasta redistribuie contribuția de asigurări sociale către conturile administrate privat, fără să majoreze prin ea însăși contribuția totală sau să garanteze un anumit cuantum al pensiei. La data analizei, 24 noiembrie 2026, prima dată este deja depășită, iar textul nu precizează tratamentul contribuțiilor aferente perioadei anterioare intrării în vigoare.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Contabili & Fiscalitate",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Articolul unic introduce exclusiv două cote noi la art. 43. Nu conține abrogări, derogări, sancțiuni, condiții noi de autorizare sau modificări ale altor legi.",
+        "Art. 43 alin. (4) prevede deja contribuția de 4,75% din 2024. Noutatea este majorarea la 5,25%, apoi la 6%, nu instituirea contribuției la Pilonul II.",
+        "Alin. (5) propus folosește data de 1 ianuarie 2026, anterioară unei eventuale intrări în vigoare după această dată. Sunt necesare reguli prospective clare; recalculările pentru perioade încheiate nu trebuie presupuse automat.",
+        "Redistribuirea unei părți mai mari din CAS către Pilonul II reduce, în celelalte condiții neschimbate, veniturile disponibile sistemului public. Expunerea de motive invocă încasări din eliminarea facilităților fiscale, fără cuantificarea pierderii, a compensării sau a sustenabilității acesteia.",
+        "Finanțarea datoriei publice prin investițiile fondurilor nu echivalează cu înlocuirea veniturilor bugetare pierdute: împrumuturile trebuie rambursate. Beneficiile investiționale invocate nu demonstrează singure neutralitatea bugetară.",
+        "Pentru angajatori și contabili, efectul administrativ previzibil este adaptarea calculului și declarării contribuțiilor potrivit regulilor aplicabile. Textul nu instituie declarații suplimentare; o aplicare retrospectivă ar putea însă genera regularizări și costuri.",
+        "Adoptarea tacită de către Senat este menționată expres prin trimitere la art. 75 alin. (2) din Constituție. Cererea de urgență din expunerea de motive nu schimbă procedura oficială indicată în fișă, care este fără urgență."
+      ],
+      "blindSpotsCaught": "Problema subtilă este decalajul dintre calendarul propus și momentul adoptării: o dată calendaristică deja trecută nu permite automat aplicarea retroactivă. De asemenea, invocarea PNRR în motivare nu dovedește că exact aceste procente și termene sunt obligatorii. Analiza folosește documentele furnizate; verificarea externă a surselor oficiale nu a putut fi realizată.",
+      "constitutionalityNote": "Riscul principal privește art. 15 alin. (2), privind neretroactivitatea, coroborat cu art. 1 alin. (5), privind claritatea și previzibilitatea: dacă majorarea ar acoperi venituri și contribuții aferente perioadelor încheiate anterior intrării în vigoare, ar apărea o problemă constituțională serioasă. Art. 78 guvernează intrarea în vigoare; data menționată în alin. (5) nu îl înlocuiește. Modificarea veniturilor bugetului asigurărilor sociale atrage obligația solicitării informării Guvernului prevăzută de art. 111 alin. (1); documentele furnizate nu permit verificarea îndeplinirii acesteia. Art. 138 alin. (5) privește aprobarea cheltuielilor fără sursă de finanțare și nu trebuie aplicat automat unei diminuări de venituri. Art. 23 alin. (12) nu este incident, deoarece proiectul nu instituie pedepse. Consolidarea Pilonului II nu relevă, prin ea însăși, o încălcare a dreptului la pensie garantat de art. 47 alin. (2).",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementării accesului la profesii reglementate și a exercitării acestora; simpla majorare a contribuției la Pilonul II nu intră în acest obiect. Proiectul nu introduce reguli tehnice pentru produse sau reguli privind servicii ale societății informaționale care să indice necesitatea notificării TRIS potrivit Directivei (UE) 2015/1535; nu reglementează servicii digitale ori AI. Creșterea contribuțiilor mărește resursele administrate pe piața pensiilor private, dar textul nu rezervă activitatea unui administrator, nu limitează intrarea pe piață și nu introduce discriminări evidente. Conformitatea cu angajamentele concrete din PNRR nu poate fi stabilită exclusiv din expunerea de motive.",
+      "senatForm": {
+        "articleRef": "Articol unic – art. 43 alin. (5) și (6)",
+        "proposalContent": "(5) Începând cu veniturile aferente lunii următoare intrării în vigoare a prezentei legi, cota de contribuție la fondul de pensii este de 5,25%. (6) Cota este de 6% începând cu veniturile aferente lunii ianuarie 2027 sau lunii următoare intrării în vigoare a prezentei legi, oricare dintre aceste luni survine mai târziu.",
+        "argumentation": "Data de 1 ianuarie 2026 este depășită. Aplicarea exclusiv pentru venituri aferente lunilor viitoare respectă neretroactivitatea și previzibilitatea, evită regularizarea perioadelor încheiate și oferă un reper lunar clar pentru calculul contribuțiilor.",
+        "otherComments": "Solicit publicarea estimării anuale a impactului asupra bugetului asigurărilor sociale și verificarea solicitării informării Guvernului conform art. 111 alin. (1) din Constituție. Veniturile invocate din eliminarea facilităților fiscale trebuie cuantificate și corelate cu pierderea estimată."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T06:56:43.519Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:29:40.919Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

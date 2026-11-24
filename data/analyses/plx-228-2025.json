@@ -2,7 +2,7 @@
   "billId": "Pl-x 228/2025",
   "slug": "plx-228-2025",
   "version": "initiator",
-  "updatedAt": "2026-11-19T15:06:36.276Z",
+  "updatedAt": "2026-11-24T15:22:20.421Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -12,13 +12,31 @@
     "memoSupplied": 3945,
     "marker": "SF-B0402C75"
   },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-228-2025.json",
+    "form": "initiator",
+    "textHash": "b0402c7541756022",
+    "fetchedAt": "2026-11-20T07:44:31.630Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 2,
+    "articlesShown": 2,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 2702,
+    "truncated": false,
+    "included": true,
+    "key": "5a3bcab817970a62"
+  },
   "consensus": {
-    "riskScore": 4.7,
+    "riskScore": 6.3,
     "riskLevel": "yellow",
-    "plainTitle": "Procuri, declarații și acorduri pentru copii, cerute online de la consulat",
-    "summaryTlDr": "Idee utilă pentru diaspora, dar scrisă în grabă. Cuvântul «exclusiv» poate transforma opțiunea online într-o obligație, iar egalarea semnăturii electronice cu actul semnat în fața consulului elimină verificarea consimțământului la procuri și la acordurile de călătorie pentru copii.",
-    "initiatorClaim": "Inițiatorii vor ca românii din străinătate, peste 4,6 milioane după expunerea de motive, să nu mai aștepte la programări și să nu mai facă drumuri lungi până la consulat. Procurile, declarațiile, acordurile de călătorie pentru minori și extrasele ar urma să se obțină online, cu identificare electronică, semnătură electronică și plată cu cardul.",
-    "realityCheck": "Legea obligă MAE să pună în funcțiune în 6 luni o platformă de servicii consulare online, cu identificare, semnătură electronică calificată și plată online, fără fișă financiară și fără sursă de finanțare. Art. 6 alin. (3) spune că patru servicii «pot fi prestate exclusiv» electronic, ceea ce contrazice art. 5¹ alin. (1), unde serviciile se pot presta «și» electronic. Citit literal, textul îi lasă fără ghișeu pe cei care nu au certificat calificat. Art. 5¹ alin. (3) face actul semnat electronic echivalent cu cel semnat în fața funcționarului consular, așa că o procură sau un acord pentru un minor ar putea produce efecte fără ca vreun funcționar să verifice cine semnează, dacă înțelege ce semnează și dacă o face liber.",
+    "plainTitle": "Servicii consulare online pentru românii din diaspora: procuri, declarații și acte, cu semnătură electronică",
+    "summaryTlDr": "Ideea este utilă și cerută de diaspora, dar textul e redactat neglijent. Înlocuiește din greșeală articolul care creează Centrul de crize consulare, iar cuvântul „exclusiv” poate lăsa fără ghișeu cetățenii care nu au semnătură electronică calificată.",
+    "initiatorClaim": "Inițiatorii vor să reducă cozile și distanțele la consulate pentru cei peste 4,6 milioane de români din străinătate. Propun o platformă MAE securizată, cu identificare electronică, semnătură electronică și plată online a taxelor.",
+    "realityCheck": "Art. 5¹ creează cadrul general, facultativ, pentru servicii consulare online. Art. 6 alin. (3) declară însă patru servicii (procuri, declarații, acorduri de călătorie pentru minori, copii după acte) prestabile «exclusiv» electronic, ceea ce contrazice art. 5¹ alin. (1). Pct. 3 rescrie integral art. 43, care azi organizează Centrul de crize consulare (evacuări, echipe mobile), deci desființează baza legală a acestuia fără ca inițiatorii să o spună. Noile prevederi sunt inserate în art. 6, care tratează relațiile consulare dintre state, și sunt executate în paralel prin ordin MAE și prin HG.",
     "affectedGroups": [
       "Toți cetățenii",
       "Justiție & Drepturi Civile",
@@ -26,114 +44,141 @@
       "IT & AI"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct. 2 – art. 6 alin. (3)",
-      "proposalContent": "(3) În prima etapă, următoarele servicii consulare pot fi solicitate și prin platforma de la art. 5¹, opțional, fără a se renunța la prestarea lor la ghișeu: a)–d) [neschimbate]. Pentru procuri și acorduri de călătorie pentru minori, identitatea și consimțământul se verifică de funcționarul consular prin videoconferință înregistrată. Lista se poate extinde prin HG.",
-      "argumentation": "Art. 5¹ alin. (1) spune că serviciile «pot fi prestate și» electronic, iar art. 6 alin. (3) le trece la «exclusiv» electronic. Contradicția încalcă art. 1 alin. (5) din Constituție și ar obliga românii din diaspora fără certificat calificat (cost anual, plătit unui furnizor privat) să-l cumpere ca să dea o procură sau acordul de călătorie al copilului.",
-      "otherComments": "Art. 5¹ alin. (3) pune semnătura electronică la egalitate cu actul semnat în fața consulului, dar autentificarea verifică și consimțământul: la o procură de vânzare a casei, nimeni nu mai vede dacă semnatarul înțelege sau e constrâns. Art. 43 se înlocuiește integral; trebuie văzut ce dispare. Ordin, HG și ordin anual pentru aceeași listă; lipsește fișa financiară."
+      "articleRef": "Art. unic pct. 2-3 (art. 6 alin.(3), art. 43)",
+      "proposalContent": "Pct. 2 și 3 se elimină, iar conținutul lor devine alin. (5)-(6) ale art. 5¹: «(5) Pot fi solicitate și electronic, opțional față de ghișeu: procuri, declarații, acorduri de călătorie pentru minori, copii și extrase după acte. (6) Taxele pentru serviciile online sunt aceleași și pot fi plătite online.» Art. 6 și art. 43 în vigoare rămân neschimbate.",
+      "argumentation": "Art. 43 în vigoare reglementează Centrul de crize consulare; înlocuirea lui ar desființa baza legală a acestuia. Art. 6 privește relațiile consulare dintre state, nu serviciile. «Exclusiv» electronic contrazice art. 5¹ alin. (1) și îi exclude pe cei fără certificat calificat (art. 16 Constituție).",
+      "otherComments": "Lipsesc fișa financiară și sursa de finanțare (art. 138 alin. (5) Constituție) pentru termenul de 6 luni. Trebuie ales un singur act de aplicare (ordin MAE sau HG, nu ambele) și prevăzute acceptarea portofelului european eIDAS (Reg. 2024/1183), protecția datelor și integrarea cu eConsulat."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
       "modelId": "gemini-4-neon-high",
-      "durationMs": 62083,
+      "durationMs": 87392,
       "sourceEndMarker": "SF-B0402C75",
-      "riskScore": 5,
-      "riskLevel": "yellow",
-      "plainTitle": "Servicii consulare online cu semnătură digitală, dar fără garanții notariale reale",
-      "verdictShort": "Intenția de a digitaliza consulatele pentru diaspora este bună, dar textul este redactat superficial și riscă să producă acte juridice vulnerabile la fraude sau respinse în România. Echivalează semnătura electronică calificată cu actul semnat în fața consulului fără nicio procedură de autentificare, conține contradicții interne de competență și nu are finanțare.",
-      "initiatorClaim": "Inițiatorii susțin că proiectul modernizează serviciile consulare pentru cei peste 4,6 milioane de români din diaspora, reducând cozile și distanțele prin crearea unei platforme securizate MAE unde procurile, declarațiile și extrasele să poată fi obținute complet online.",
-      "realityCheck": "În practică, legea nu creează o procedură legală de autentificare la distanță, ci declară printr-un singur alineat că semnătura electronică calificată echivalează cu semnătura în fața consulului, fără a corela textul cu Codul civil, Legea notarilor publici (36/1995) sau regimul ieșirii minorilor din țară (Legea 248/2005). În plus, delegă elemente esențiale unui ordin de ministru (în contradicție cu competența dată Guvernului), rescrie integral art. 43 din Legea 62/2019 și impune MAE un termen nerealist de 6 luni fără sursă de finanțare.",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Digitalizare consulară scrisă greșit: proiectul desființează accidental Centrul de crize al MAE",
+      "verdictShort": "Intenția de a digitaliza serviciile consulare pentru diasporă este necesară, dar textul legii conține erori tehnice grave: suprascrierea art. 43 șterge din greșeală baza legală a Centrului de crize consulare al MAE. În forma actuală, legea creează un haos juridic major pentru procuri, acorduri de călătorie pentru minori și protecția românilor în situații de urgență.",
+      "initiatorClaim": "Inițiatorii susțin că vor să modernizeze activitatea consulară pentru cei peste 4,6 milioane de români din străinătate, creând o platformă online securizată gestionată de MAE pentru identificare electronică, semnătură digitală, plată online și echivalarea actelor semnate electronic cu cele semnate la consulat.",
+      "realityCheck": "În realitate, proiectul pare redactat fără consultarea textului real al Legii nr. 62/2019: înlocuiește art. 43 (care reglementează Centrul de crize consulare și echipele consulare mobile de urgență) cu reguli despre taxe online și inserează lista serviciilor digitale în art. 6 (care tratează stabilirea relațiilor consulare între state). În plus, echivalează o simplă semnătură electronică calificată cu autentificarea în fața consulului pentru acte de mare risc (procuri generale, acorduri de călătorie pentru minori), fără a corela cu legislația notarială și fără a indica sursa de finanțare pentru platforma impusă în 6 luni.",
       "affectedGroups": [
         "Toți cetățenii",
         "Justiție & Drepturi Civile",
-        "Proprietari & Imobiliare"
+        "Proprietari & Imobiliare",
+        "IT & AI"
       ],
       "keyFindings": [
-        "Echivalare periculoasă a actelor autentice (Art. 5¹ alin. 3 și Art. 6 alin. 3 lit. a-c): o procură generală/specială (ex. vânzare imobil) sau un acord de călătorie pentru minori necesită verificarea discernământului și a consimțământului liber de către consul; simpla semnătură electronică calificată nu previne constrângerea sau folosirea abuzivă a certificatului și riscă respingerea actului de către notari, ANCPI sau Poliția de Frontieră.",
-        "Contradicții de competență și tehnică legislativă (Art. 5¹ alin. 4, Art. 6 alin. 3 și Anexa 1 Secțiunea IX): tipurile de servicii digitale se stabilesc simultan prin ordin al ministrului MAE și se extind prin hotărâre de Guvern; mai mult, Anexa 1 lasă ministrului libertatea de a stabili «tipurile de semnături electronice acceptate», contrazicând Art. 5¹ alin. (3) care cere certificat calificat.",
-        "Rescrierea integrală a Art. 43 și ambiguitatea termenului «exclusiv»: modificarea înlocuiește tot art. 43 din Legea 62/2019 cu două alineate despre servicii online, iar sintagma «servicii care pot fi prestate exclusiv prin mijloace electronice» (Art. 6 alin. 3) poate fi interpretată ambiguu fie ca opțiune integral digitală, fie ca eliminare a depunerii fizice.",
-        "Termen nerealist și fără acoperire bugetară (Art. 59¹): obligarea MAE să operaționalizeze în 6 luni o platformă interoperabilă cu starea civilă, cazierul judiciar, sistemele de plăți și identificare electronică, fără fișă financiară și fără corelare cu sistemul existent E-Consulat, face norma practic inaplicabilă."
+        "Abrogare accidentală a Centrului de crize consulare (Art. unic, pct. 3): modificarea art. 43 înlocuiește complet dispozițiile în vigoare privind organizarea Centrului de crize consulare al MAE și deplasarea de urgență a echipelor consulare mobile în străinătate cu două alineate despre tarife și plata online.",
+        "Inserare incoerentă și formulare ambiguă (Art. unic, pct. 2): introduce lista serviciilor digitale ca art. 6 alin. (3), deși art. 6 reglementează exclusiv consimțământul statelor pentru stabilirea relațiilor diplomatice și consulare; formula «pot fi prestate exclusiv prin mijloace electronice» generează ambiguitate între opționalitate și obligativitate.",
+        "Risc de nulitate și fraudă la acte notariale (Art. 5¹ alin. 3 și Art. 6 alin. 3): echivalează semnătura electronică calificată cu semnătura olografă în fața consulului pentru procuri generale/speciale și acorduri de călătorie pentru minori, fără verificarea discernământului sau a consimțământului liber și fără modificarea Legii notarilor publici nr. 36/1995 ori a regulilor privind trecerea frontierei de către minori.",
+        "Termen nerealist fără finanțare și citare eronată a legii (Art. 59¹ și Titlu): obligă MAE să operaționalizeze platforma în 6 luni fără a indica sursa bugetară și citează greșit data Legii nr. 62/2019 drept «26 iunie 2019» (în forma consolidată oficială este «15 aprilie 2019»).",
+        "Delegare excesivă către acte infralegale (Art. 5¹ alin. 4 și pct. 5 - Secțiunea IX): lasă la latitudinea unui ordin anual al ministrului de externe stabilirea procedurilor, a cerințelor de autentificare și a tipurilor de semnături electronice acceptate, generând impredictibilitate."
       ],
-      "blindSpotsCaught": "Proiectul ignoră complet protecția datelor sensibile (cazier judiciar – art. 10 GDPR, date ale minorilor, stare civilă) și interoperabilitatea transfrontalieră: românii din diaspora dețin adesea mijloace de identificare electronică (eID) și certificate calificate emise în statele UE unde locuiesc, iar lăsarea cerințelor de autentificare la discreția unui ordin de ministru riscă blocarea acestora, încălcând Regulamentul eIDAS 2.0. Totodată, lipsește orice integrare cu registrele naționale notariale (RNNEOS/RNNEP) pentru verificarea revocării procurilor.",
-      "constitutionalityNote": "Risc ridicat de neconstituționalitate pe Art. 1 alin. (5) (calitatea și previzibilitatea legii), din cauza contradicțiilor interne (OMAE vs. HG, certificat calificat vs. tipuri de semnături stabilite prin ordin), a delegării procedurii esențiale de autentificare la rang de ordin ministerial și a necorelării cu legile organice incidente. De asemenea, impunerea dezvoltării platformei în 6 luni fără stabilirea sursei de finanțare contravine Art. 138 alin. (5) din Constituție. Dacă formularea «exclusiv prin mijloace electronice» ar restrânge accesul fizic, ar vulnerabiliza Art. 16 (egalitatea în drepturi).",
-      "euLawNote": "Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și Directiva (UE) 2015/1535 (TRIS pentru servicii ale societății informaționale) nu sunt declanșate direct, întrucât proiectul vizează servicii publice consulare prestate de autoritatea statului, nu bariere pe piața privată. În schimb, textul intră direct sub incidența Regulamentului (UE) nr. 910/2014 (eIDAS), modificat prin Regulamentul (UE) 2024/1183 (eIDAS 2.0), și a GDPR (Regulamentul 2016/679, în special art. 10 pentru datele privind cazierul judiciar), domenii în care proiectul nu oferă garanții de recunoaștere transfrontalieră a eID/certificatelor UE și nici măsuri legale de securitate a prelucrării datelor.",
+      "blindSpotsCaught": "Cea mai gravă capcană ascunsă este înlocuirea integrală a art. 43 din Legea nr. 62/2019: autorii au presupus greșit că art. 43 privește taxele consulare, dar în legea în vigoare acesta este chiar articolul care întemeiază Centrul de crize consulare și echipele mobile trimise în zone de conflict sau calamități. Un al doilea detaliu subtil este că art. 5¹ alin. (3) confundă efectul juridic al semnăturii electronice calificate (care sub eIDAS echivalează cu o semnătură olografă sub semnătură privată) cu forța probantă a unui act autentificat în fața unui funcționar consular, ceea ce poate face ca procurile sau acordurile pentru minori emise astfel să fie refuzate de notarii, instanțele sau poliția de frontieră din România.",
+      "constitutionalityNote": "Proiectul prezintă vicii majore de neconstituționalitate raportat la art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii): abrogarea involuntară a art. 43, inserarea eterogenă în art. 6, citarea inexactă a datei legii modificate și delegarea prin ordin de ministru a unor reguli esențiale de procedură și validitate juridică a actelor publice contravin normelor de tehnică legislativă și jurisprudenței constante a CCR. De asemenea, impunerea unei platforme informatice complexe în termen de 6 luni (art. 59¹) fără indicarea sursei de finanțare încalcă art. 138 alin. (5) din Constituție, iar desființarea accidentală a Centrului de crize consulare afectează îndeplinirea obligației constituționale de protecție a cetățenilor români în străinătate (art. 17).",
+      "euLawNote": "Pe Regulamentul eIDAS (UE) nr. 910/2014 (modificat prin Regulamentul (UE) 2024/1183), art. 25 alin. (2) echivalează semnătura electronică calificată cu semnătura olografă, nu automat cu autentificarea în fața unui agent public; în plus, delegarea către MAE (Secțiunea IX) a stabilirii anuale a «tipurilor de semnături electronice acceptate» riscă să încalce obligația de recunoaștere transfrontalieră a certificatelor calificate emise în alte state membre UE (art. 25 alin. 3 eIDAS). Pe RGPD (Regulamentul (UE) 2016/679), lipsesc garanțiile specifice impuse de art. 6 alin. (3) și art. 10 pentru prelucrarea digitală a cazierului judiciar, a actelor de stare civilă și a datelor minorilor. Directivele (UE) 2015/1535 (TRIS) și (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) nu sunt direct incidente asupra unui serviciu public consular de autoritate, dar asimetria față de cerințele impuse notarilor publici creează incoerență sistemică.",
       "senatForm": {
-        "articleRef": "Art. unic pct. 1 (Art. 5¹) și pct. 2 (Art. 6)",
-        "proposalContent": "Corelarea art. 5¹ alin. (3) și art. 6 alin. (3) cu Codul civil, Legea 36/1995 și eIDAS: definirea în lege a procedurii de autentificare la distanță (video-identificare și verificarea consimțământului), eliminarea termenului «exclusiv» pentru a păstra opțiunea fizică și unificarea actului de extindere a listei serviciilor.",
-        "argumentation": "Semnătura electronică calificată nu suplinește controlul de legalitate și verificarea discernământului cerute pentru procuri autentice și acorduri pentru minori, riscând respingerea actelor în țară sau fraude. Totodată, suprapunerea OMAE cu HG și ambiguitatea termenului «exclusiv» încalcă art. 1 alin. (5) din Constituție.",
-        "otherComments": "Recomandăm solicitarea avizului UNNPR, ADR și ANSPDCP, clarificarea impactului asupra art. 43 existent din Legea 62/2019, recunoașterea explicită a mijloacelor eID din statele UE (eIDAS 2.0), indicarea sursei de finanțare (art. 138 alin. 5 Constituție) și un termen realist de implementare de minimum 12-18 luni."
+        "articleRef": "Art. unic, pct. 2 și pct. 3 (Art. 6 și Art. 43)",
+        "proposalContent": "Eliminarea pct. 3 (modificarea art. 43) pentru a nu abroga Centrul de crize consulare. Mutarea listei serviciilor digitale (pct. 2) și a regulilor de plată online în art. 5¹, cu precizarea că varianta digitală este opțională și impune verificarea video a identității și consimțământului la acte notariale.",
+        "argumentation": "În Legea 62/2019, art. 43 reglementează Centrul de crize consulare și echipele mobile de urgență, iar art. 6 privește relațiile consulare între state. Suprascrierea art. 43 desființează accidental mecanismul de criză al MAE. Actele notariale (procuri, acorduri minori) cer verificarea consimțământului și corelarea cu Legea 36/1995.",
+        "otherComments": "Corectați data Legii 62/2019 (15 aprilie 2019, nu 26 iunie 2019), stabiliți sursa de finanțare conform art. 138 alin. (5) din Constituție, extindeți realist termenul de 6 luni (art. 59¹), includeți garanții GDPR pentru cazier/minori și asigurați recunoașterea transfrontalieră eIDAS a semnăturilor calificate din UE."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 133882,
+      "durationMs": 50472,
       "sourceEndMarker": "SF-B0402C75",
-      "riskScore": 4,
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Procuri, declarații și acorduri pentru copii, cerute online de la consulat",
-      "verdictShort": "Idee utilă pentru diaspora, dar scrisă în grabă. Cuvântul «exclusiv» poate transforma opțiunea online într-o obligație, iar egalarea semnăturii electronice cu actul semnat în fața consulului elimină verificarea consimțământului la procuri și la acordurile de călătorie pentru copii.",
-      "initiatorClaim": "Inițiatorii vor ca românii din străinătate, peste 4,6 milioane după expunerea de motive, să nu mai aștepte la programări și să nu mai facă drumuri lungi până la consulat. Procurile, declarațiile, acordurile de călătorie pentru minori și extrasele ar urma să se obțină online, cu identificare electronică, semnătură electronică și plată cu cardul.",
-      "realityCheck": "Legea obligă MAE să pună în funcțiune în 6 luni o platformă de servicii consulare online, cu identificare, semnătură electronică calificată și plată online, fără fișă financiară și fără sursă de finanțare. Art. 6 alin. (3) spune că patru servicii «pot fi prestate exclusiv» electronic, ceea ce contrazice art. 5¹ alin. (1), unde serviciile se pot presta «și» electronic. Citit literal, textul îi lasă fără ghișeu pe cei care nu au certificat calificat. Art. 5¹ alin. (3) face actul semnat electronic echivalent cu cel semnat în fața funcționarului consular, așa că o procură sau un acord pentru un minor ar putea produce efecte fără ca vreun funcționar să verifice cine semnează, dacă înțelege ce semnează și dacă o face liber.",
+      "plainTitle": "Servicii consulare online pentru românii din diaspora: procuri, declarații și acte, cu semnătură electronică",
+      "verdictShort": "Ideea este utilă și cerută de diaspora, dar textul e redactat neglijent. Înlocuiește din greșeală articolul care creează Centrul de crize consulare, iar cuvântul „exclusiv” poate lăsa fără ghișeu cetățenii care nu au semnătură electronică calificată.",
+      "initiatorClaim": "Inițiatorii vor să reducă cozile și distanțele la consulate pentru cei peste 4,6 milioane de români din străinătate. Propun o platformă MAE securizată, cu identificare electronică, semnătură electronică și plată online a taxelor.",
+      "realityCheck": "Art. 5¹ creează cadrul general, facultativ, pentru servicii consulare online. Art. 6 alin. (3) declară însă patru servicii (procuri, declarații, acorduri de călătorie pentru minori, copii după acte) prestabile «exclusiv» electronic, ceea ce contrazice art. 5¹ alin. (1). Pct. 3 rescrie integral art. 43, care azi organizează Centrul de crize consulare (evacuări, echipe mobile), deci desființează baza legală a acestuia fără ca inițiatorii să o spună. Noile prevederi sunt inserate în art. 6, care tratează relațiile consulare dintre state, și sunt executate în paralel prin ordin MAE și prin HG.",
       "affectedGroups": [
+        "Toți cetățenii",
         "Justiție & Drepturi Civile",
-        "IT & AI",
-        "Toți cetățenii"
+        "IT & AI"
       ],
       "keyFindings": [
-        "Art. 6 alin. (3) introdus prin pct. 2: procurile, declarațiile notariale simple, acordurile de călătorie pentru minori și extrasele de stare civilă sau cazier sunt servicii care «pot fi prestate exclusiv prin mijloace electronice». Textul contrazice art. 5¹ alin. (1) («și prin mijloace electronice»). Citit literal, desființează ghișeul pentru aceste servicii și îl obligă pe solicitant să cumpere un certificat calificat de la un furnizor privat, cu plată anuală. Lista poate fi extinsă anual prin HG, fără niciun criteriu.",
-        "Art. 5¹ alin. (3): actele semnate cu certificat calificat devin «echivalente» cu cele semnate olograf în fața funcționarului consular. Autentificarea consulară nu e doar o semnătură. Ea include verificarea identității, a capacității și a consimțământului liber. Pentru o procură de vânzare a unui imobil (Codul civil cere ca procura să aibă forma actului) sau pentru acordul de călătorie al unui minor (Legea nr. 248/2005), garanția dispare. Textul nu prevede nicio verificare prin videoconferință.",
-        "Art. 59¹: MAE are 6 luni să facă platforma operațională, fără fișă financiară, fără sursă de finanțare și fără nicio sancțiune dacă termenul nu e respectat. Etapele următoare sunt lăsate integral pe seama unei HG. Textul nu spune dacă platforma se construiește pe sistemul de programări online existent sau de la zero.",
-        "Aceeași listă de servicii digitale e reglementată de trei acte diferite: ordin al ministrului (art. 5¹ alin. 4), hotărâre de Guvern (art. 6 alin. 3) și ordin publicat anual (Anexa nr. 1, Secțiunea IX). Legea nu spune care actul prevalează dacă ordinul și HG-ul spun lucruri diferite.",
-        "Pct. 3 înlocuiește în întregime art. 43 cu o normă despre taxe, fără să arate ce reglementa până acum acest articol. Titlul vorbește doar de «completare», dar articolul unic spune «se modifică și se completează». Noțiunea de «declarații notariale simple» nu e definită nicăieri."
+        "Art. unic pct. 3: art. 43 în vigoare (Centrul de crize consulare, gestionarea crizelor, echipele consulare mobile, ordinul de organizare) este înlocuit integral cu reguli despre taxe. Efectul mecanic este abrogarea implicită a temeiului legal al Centrului de crize consulare.",
+        "Art. unic pct. 2: noul alin. (3) se adaugă la art. 6, care reglementează stabilirea relațiilor consulare prin consimțământ reciproc între state. Plasarea este străină de materie și încalcă normele de tehnică legislativă (Legea nr. 24/2000).",
+        "Contradicție internă: art. 5¹ alin. (1) spune că serviciile «pot fi prestate și» electronic, iar art. 6 alin. (3) spune «exclusiv prin mijloace electronice». Citit literal, varianta exclusivă elimină procurile și acordurile pentru minori la ghișeu pentru cei fără certificat calificat sau fără competențe digitale.",
+        "Lipsește un singur act de executare: tipurile de servicii se stabilesc prin ordin MAE (art. 5¹ alin. 4), extinderea listei se face prin HG (art. 6 alin. 3), etapele ulterioare tot prin HG (art. 59¹), iar lista detaliată prin ordin anual (Anexa, Secț. IX).",
+        "Art. 59¹ impune operaționalizarea platformei în 6 luni, fără fișă financiară și fără sursă de finanțare indicată.",
+        "Art. 5¹ alin. (3) repetă practic efectul semnăturii electronice calificate deja recunoscut de Regulamentul eIDAS (UE) 910/2014, art. 25 alin. (2). Este util ca precizare, dar nu reprezintă o noutate juridică.",
+        "Acordurile de călătorie pentru minori și procurile semnate la distanță ridică riscuri de fraudă și de verificare a identității și a consimțământului ambilor părinți, iar textul nu prevede garanții (de exemplu videoidentificare)."
       ],
-      "blindSpotsCaught": "Acordul de călătorie pentru minori emis electronic trebuie verificat la frontieră, dar legea nu spune nimic despre format (cod QR, registru consultabil) și nici despre cum confirmă Poliția de Frontieră sau autoritățile străine autenticitatea lui. Asta e o problemă reală în dosarele de răpire internațională de copii. Secțiunea IX din anexă lasă ordinului ministrului stabilirea «tipurilor de semnături electronice acceptate», ceea ce ar permite excluderea semnăturilor calificate emise în alte state UE sau a portofelului european de identitate digitală. Pentru majoritatea românilor din diaspora, care au pașaport și nu carte electronică de identitate, varianta «exclusiv» online ar însemna un cost nou, nu o simplificare.",
-      "constitutionalityNote": "Nu apare o încălcare gravă, dar sunt probleme de previzibilitate, în sensul art. 1 alin. (5): contradicția «și»/«exclusiv», trei acte concurente pentru aceeași listă, termenul nedefinit «declarații notariale simple» și înlocuirea integrală a art. 43 fără abrogare expresă a conținutului vechi (art. 64–65 din Legea nr. 24/2000). Delegarea către Guvern a extinderii anuale a listei, fără criterii, slăbește controlul parlamentar. Măsura implică cheltuieli bugetare fără sursă de finanțare, ceea ce ridică probleme față de art. 138 alin. (5) din Constituție și art. 15 din Legea nr. 500/2002. Trebuie verificat dacă există punctul de vedere al Guvernului cerut de art. 111 alin. (1). Dacă «exclusiv» rămâne, accesul la serviciul public devine condiționat de dotări tehnice și de o cheltuială privată.",
-      "euLawNote": "Regulamentul eIDAS (UE) nr. 910/2014, modificat prin Regulamentul (UE) 2024/1183, dă deja semnăturii calificate efectul semnăturii olografe (art. 25 alin. 2). Cerințele de formă, inclusiv autentificarea, rămân la latitudinea statului (art. 2 alin. 3), deci egalarea cu actul semnat în fața consulului e o alegere națională, nu o obligație europeană. Platforma trebuie să accepte semnăturile calificate din orice stat membru (art. 25 alin. 3) și portofelul european de identitate digitală. Ordinul privind semnăturile acceptate nu are voie să favorizeze anumiți furnizori. Regulamentul GDPR cere o evaluare de impact (art. 35), mai ales pentru datele minorilor, iar Directiva (UE) 2016/2102 privind accesibilitatea site-urilor publice se aplică platformei. Directiva (UE) 2018/958 nu e relevantă, pentru că nu se reglementează accesul la o profesie. Directiva TRIS 2015/1535 probabil nu cere notificare, fiind vorba de un serviciu prestat chiar de autoritate, cu excepția cazului în care ordinul impune specificații tehnice furnizorilor sau utilizatorilor.",
+      "blindSpotsCaught": "Inițiatorii au crezut probabil că art. 43 tratează taxele consulare, dar în forma consolidată el organizează Centrul de crize consulare. Adoptat ca atare, proiectul ar lăsa MAE fără baza legală a structurii care gestionează evacuări și crize. Proiectul nu menționează nici platforma eConsulat existentă, nici protecția datelor (GDPR), nici acceptarea portofelului european de identitate digitală (Reg. 2024/1183). Trimiterea la «Anexa nr. 1, Secțiunea IX» presupune o anexă structurată pe secțiuni a cărei existență în Legea 62/2019 nu reiese din probele disponibile și trebuie verificată. Titlul vorbește doar de «completare», deși articolul unic «modifică și completează».",
+      "constitutionalityNote": "Art. 1 alin. (5), claritate și previzibilitate: contradicția «pot fi și» / «exclusiv», plasarea în art. 6 și abrogarea implicită a art. 43 fac norma imprevizibilă. Art. 16, egalitate în drepturi: prestarea exclusiv electronică poate discrimina indirect vârstnicii și pe cei fără certificat calificat, care de regulă se plătește. Art. 138 alin. (5): lipsa sursei de finanțare pentru o obligație cu termen de 6 luni expune legea criticii. Delegarea către HG și ordin este admisibilă (art. 108), dar ar trebui unificată. Nu există sancțiuni sau restrângeri de drepturi care să ridice probleme mai grave.",
+      "euLawNote": "Directiva 2018/958 nu se aplică, deoarece nu se reglementează accesul la profesii. Nici TRIS 2015/1535 nu pare aplicabilă: este un serviciu public prestat de stat, nu o regulă tehnică pentru operatori privați ai societății informaționale. Relevante sunt Regulamentul eIDAS 910/2014, modificat prin 2024/1183 (recunoașterea mijloacelor eID notificate de alte state și a portofelului UE), Regulamentul 2018/1724 privind portalul digital unic, GDPR pentru datele de identificare și Directiva 2016/2102 privind accesibilitatea site-urilor organismelor publice. Echivalarea semnăturii calificate cu cea olografă este conformă eIDAS.",
       "senatForm": {
-        "articleRef": "Art. unic pct. 2 – art. 6 alin. (3)",
-        "proposalContent": "(3) În prima etapă, următoarele servicii consulare pot fi solicitate și prin platforma de la art. 5¹, opțional, fără a se renunța la prestarea lor la ghișeu: a)–d) [neschimbate]. Pentru procuri și acorduri de călătorie pentru minori, identitatea și consimțământul se verifică de funcționarul consular prin videoconferință înregistrată. Lista se poate extinde prin HG.",
-        "argumentation": "Art. 5¹ alin. (1) spune că serviciile «pot fi prestate și» electronic, iar art. 6 alin. (3) le trece la «exclusiv» electronic. Contradicția încalcă art. 1 alin. (5) din Constituție și ar obliga românii din diaspora fără certificat calificat (cost anual, plătit unui furnizor privat) să-l cumpere ca să dea o procură sau acordul de călătorie al copilului.",
-        "otherComments": "Art. 5¹ alin. (3) pune semnătura electronică la egalitate cu actul semnat în fața consulului, dar autentificarea verifică și consimțământul: la o procură de vânzare a casei, nimeni nu mai vede dacă semnatarul înțelege sau e constrâns. Art. 43 se înlocuiește integral; trebuie văzut ce dispare. Ordin, HG și ordin anual pentru aceeași listă; lipsește fișa financiară."
+        "articleRef": "Art. unic pct. 2-3 (art. 6 alin.(3), art. 43)",
+        "proposalContent": "Pct. 2 și 3 se elimină, iar conținutul lor devine alin. (5)-(6) ale art. 5¹: «(5) Pot fi solicitate și electronic, opțional față de ghișeu: procuri, declarații, acorduri de călătorie pentru minori, copii și extrase după acte. (6) Taxele pentru serviciile online sunt aceleași și pot fi plătite online.» Art. 6 și art. 43 în vigoare rămân neschimbate.",
+        "argumentation": "Art. 43 în vigoare reglementează Centrul de crize consulare; înlocuirea lui ar desființa baza legală a acestuia. Art. 6 privește relațiile consulare dintre state, nu serviciile. «Exclusiv» electronic contrazice art. 5¹ alin. (1) și îi exclude pe cei fără certificat calificat (art. 16 Constituție).",
+        "otherComments": "Lipsesc fișa financiară și sursa de finanțare (art. 138 alin. (5) Constituție) pentru termenul de 6 luni. Trebuie ales un singur act de aplicare (ordin MAE sau HG, nu ambele) și prevăzute acceptarea portofelului european eIDAS (Reg. 2024/1183), protecția datelor și integrarea cu eConsulat."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 74686,
+      "durationMs": 102681,
       "sourceEndMarker": "SF-B0402C75",
-      "riskScore": 5,
-      "riskLevel": "yellow",
-      "plainTitle": "Servicii consulare online, cu reguli neclare despre acces și autentificare",
-      "verdictShort": "Digitalizarea consulară poate reduce drumurile și timpul pierdut. Proiectul necesită însă corecturi pentru a garanta accesul la ghișeu și pentru a separa clar semnătura electronică de autentificarea unui act.",
-      "initiatorClaim": "Inițiatorii urmăresc reducerea aglomerației și a deplasărilor la consulate prin identificare electronică, semnare și plată online. Promit servicii mai accesibile pentru românii din străinătate.",
-      "realityCheck": "Proiectul obligă MAE să operaționalizeze platforma în șase luni și include procurile, declarațiile, acordurile pentru călătoria minorilor și anumite documente publice între serviciile care «pot fi prestate exclusiv» electronic. Această formulare nu stabilește clar dacă solicitantul păstrează opțiunea ghișeului, iar plata serviciilor digitale este obligatoriu electronică. Echivalarea semnării electronice cu semnarea în fața funcționarului nu explică verificarea consimțământului și îndeplinirea formalităților de autentificare.",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Consulate online, dar cu eliminarea unor reguli pentru crize consulare",
+      "verdictShort": "Digitalizarea poate reduce drumurile și costurile pentru diaspora, însă proiectul conține o eroare cu efecte serioase: înlocuiește articolul despre gestionarea crizelor consulare cu reguli despre taxe. Sunt necesare și clarificări privind accesul fizic și autentificarea actelor la distanță.",
+      "initiatorClaim": "Inițiatorii promit servicii consulare accesibile online, identificare și semnare electronică, plăți digitale și mai puține deplasări. Platforma ar urma să devină operațională în șase luni.",
+      "realityCheck": "Proiectul introduce cadrul pentru servicii digitale, dar formula «pot fi prestate exclusiv» lasă neclar dacă serviciile enumerate vor mai fi disponibile la ghișeu; plata serviciilor digitale este explicit exclusiv electronică. Înlocuirea integrală a art. 43 elimină dispozițiile actuale despre Centrul de crize consulare, cooperarea acestuia și trimiterea echipelor consulare mobile, fără să elimine automat atribuțiile generale de protecție consulară prevăzute în alte norme. Echivalarea semnăturilor nu rezolvă singură cerințele de autentificare notarială, iar proiectul nu coordonează aplicarea noilor reguli cu operaționalizarea platformei.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
-        "Toți cetățenii"
+        "Toți cetățenii",
+        "IT & AI"
       ],
       "keyFindings": [
-        "Art. 5¹ alin. (1) permite prestarea «și» electronică, dar art. 6 alin. (3) introduce servicii care «pot fi prestate exclusiv» electronic. Relația dintre aceste formule trebuie clarificată: textul nu garantează expres alegerea canalului și nici continuitatea serviciilor când platforma nu funcționează.",
-        "Art. 5¹ alin. (3) folosește formula «semnate electronic cu certificat calificat». Certificatul calificat, singur, nu garantează existența unei semnături electronice calificate; în plus, echivalența semnăturilor nu rezolvă automat autentificarea procurilor sau verificarea consimțământului.",
-        "Art. 5¹ alin. (4), art. 6 alin. (3) și noua secțiune IX împart stabilirea serviciilor și a condițiilor între ordine ministeriale și hotărâri ale Guvernului, fără delimitare suficientă. Actele administrative nu pot modifica cerințe stabilite prin lege pentru actele notariale sau acordurile privind minorii.",
-        "Noua redactare a art. 43 impune plata electronică pentru serviciile digitale, fără să stabilească taxe sau sancțiuni noi. Pot apărea costuri pentru obținerea instrumentelor de semnare și obstacole pentru persoanele fără competențe digitale ori mijloace de plată compatibile.",
-        "Art. 59¹ prevede operaționalizarea în șase luni, dar textul furnizat nu stabilește resursele, măsurile tranzitorii și termenele pentru toate actele de aplicare. Inserarea expresiei «intrării în vigoare a prezentei legi» în legea din 2019 creează suplimentar o ambiguitate privind momentul de la care curge termenul.",
-        "Punctul 3 înlocuiește integral art. 43. Fără forma în vigoare a acestui articol, documentele furnizate nu permit identificarea completă a dispozițiilor existente care ar fi eliminate."
+        "Articolul unic pct. 3: art. 43 în vigoare reglementează Centrul de crize consulare, participarea și cooperarea instituțională, echipele mobile și organizarea centrului. Noua redactare îl înlocuiește integral cu două alineate despre taxe. Dispare astfel acest temei legal specific, fără o reglementare înlocuitoare pentru crize.",
+        "Art. 5¹ alin. (1) permite serviciile electronice ca modalitate suplimentară, însă noul art. 6 alin. (3) folosește formula ambiguă «pot fi prestate exclusiv». Nu este clar dacă cetățeanul poate alege ghișeul pentru procuri, declarații, acorduri pentru minori și documentele enumerate.",
+        "Art. 5¹ alin. (3): echivalența dintre semnătura electronică și cea olografă trebuie separată de caracterul autentic al actului. Normele generale privind forma actelor, capacitatea, consimțământul și autentificarea continuă să se aplice; proiectul nu instituie o derogare expresă și completă.",
+        "Art. 5¹ alin. (4), art. 6 alin. (3) și noua secțiune din anexă împart stabilirea serviciilor și procedurilor între ordine ministeriale și hotărâri ale Guvernului. Lipsesc criterii suficiente pentru extinderea listei și pentru stabilirea serviciilor eventual exclusiv digitale, precum și o delimitare clară între aceste acte.",
+        "Art. 59¹ acordă șase luni pentru operaționalizare, dar nu amână expres aplicarea regulilor dependente de platformă până la funcționarea acesteia. Nu sunt reglementate cererile în curs, indisponibilitatea sistemului sau soluțiile pentru persoanele fără mijloace digitale.",
+        "Noul art. 43 nu stabilește taxe noi și nu majorează cuantumurile: trimite la regimul existent. Totuși, plata exclusiv electronică poate adăuga bariere pentru cetățenii fără instrumente de plată și costuri de procesare, în funcție de implementare.",
+        "Platforma, identificarea electronică, securitatea și mentenanța presupun cheltuieli publice. Materialele furnizate nu prezintă o estimare financiară sau o sursă de finanțare; nu se poate deduce doar din această absență că documentația financiară lipsește din întregul dosar parlamentar."
       ],
-      "blindSpotsCaught": "Problema subtilă este diferența dintre validitatea semnăturii și autenticitatea actului: o semnătură electronică calificată nu dovedește, prin ea însăși, îndeplinirea tuturor verificărilor consulare. De asemenea, termenul de implementare ar trebui prevăzut distinct în legea modificatoare, pentru a evita raportarea expresiei «prezentei legi» la Legea nr. 62/2019.",
-      "constitutionalityNote": "Principalul risc privește art. 1 alin. (5): necorelarea canalelor de acces, condițiile insuficient precizate pentru autentificare și delegările suprapuse afectează previzibilitatea. Extinderea prin hotărâre a Guvernului este acceptabilă numai în limitele legii; nu poate modifica regimuri juridice rezervate legiuitorului, în raport cu art. 61 și art. 108. Dacă exclusivitatea electronică ar exclude practic anumite categorii de solicitanți, devine relevant și art. 16. Art. 23 alin. (12) nu este incident, deoarece proiectul nu instituie pedepse. Costurile platformei impun verificarea cerințelor art. 111 alin. (1) și art. 138 alin. (5), fără ca lipsa cifrelor din materialul furnizat să dovedească singură neconstituționalitatea.",
-      "euLawNote": "Regulamentul eIDAS nr. 910/2014, cu modificările ulterioare, recunoaște semnăturii electronice calificate efectul semnăturii olografe, dar nu înlătură automat cerințele naționale privind forma și autentificarea actelor. Directiva (UE) 2018/958 nu este declanșată, în principiu, deoarece proiectul nu reglementează accesul la o profesie reglementată sau exercitarea acesteia. Nici notificarea TRIS conform Directivei (UE) 2015/1535 nu rezultă automat din digitalizarea unui serviciu public consular: trebuie verificată existența unei reguli tehnice notificabile, iar serviciile prestate în exercitarea autorității publice nu devin servicii ale societății informaționale doar pentru că sunt online. Nu rezultă un monopol comercial sau o restricție concurențială directă; implementarea trebuie însă să respecte recunoașterea transfrontalieră aplicabilă identificării și semnăturilor electronice, precum și RGPD.",
+      "blindSpotsCaught": "Problema principală este înlocuirea unui articol existent cu un obiect complet diferit: actualul art. 43 privește crizele consulare, nu taxele. În plus, «semnat electronic cu certificat calificat» nu definește suficient o semnătură electronică calificată: potrivit eIDAS contează și dispozitivul calificat de creare a semnăturii. Trebuie verificate și identificarea actului normativ, deoarece datele din titlul proiectului diferă de cele ale legii indicate în materialul consolidat, precum și existența și structura anexei nr. 1.",
+      "constitutionalityNote": "Art. 1 alin. (5) este relevant pentru contradicția dintre accesul opțional și exclusiv, delegările suprapuse și lipsa coordonării temporale. Art. 61 alin. (1) și art. 108 impun ca elementele esențiale să fie stabilite prin lege, actele executive putând detalia executarea acesteia. Accesul exclusiv digital trebuie evaluat și prin prisma egalității și a protecției cetățenilor români în străinătate, potrivit art. 16 și art. 17; digitalizarea nu este în sine neconstituțională. Finanțarea trebuie verificată în raport cu art. 138 alin. (5), iar informarea Guvernului potrivit art. 111 alin. (1), dacă sunt incidente condițiile acestuia. Art. 23 alin. (12) nu are incidență directă: proiectul nu introduce pedepse. Analiza privește textele furnizate; verificarea online nu a fost disponibilă.",
+      "euLawNote": "Regulamentul eIDAS echivalează semnătura electronică calificată cu semnătura olografă, fără a înlocui automat cerințele naționale privind forma autentică a actului. Directiva (UE) 2018/958 privește restricțiile de acces sau exercitare a profesiilor reglementate; proiectul nu introduce evident asemenea restricții, astfel că testul său nu devine obligatoriu doar pentru că sunt vizate acte notariale consulare. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu rezultă automat din existența unei platforme: trebuie stabilit dacă sunt reglementate servicii ale societății informaționale în sensul directivei, ținând cont de natura de autoritate publică a prestațiilor consulare. Nu este instituit expres un monopol privat sau un furnizor obligatoriu de certificate. Implementarea trebuie să respecte recunoașterea transfrontalieră aplicabilă potrivit eIDAS și GDPR, inclusiv regulile pentru datele privind condamnările penale și evaluarea impactului atunci când prelucrarea prezintă risc ridicat.",
       "senatForm": {
-        "articleRef": "Art. unic pct. 2 – art. 6 alin. (3), debut",
-        "proposalContent": "(3) În prima etapă de implementare, următoarele servicii consulare pot fi prestate și electronic, la alegerea solicitantului, cu menținerea posibilității de acces la ghișeu și cu respectarea condițiilor legale de identificare, verificare a consimțământului și autentificare a actelor:",
-        "argumentation": "Formularea actuală nu clarifică dacă accesul la ghișeu rămâne disponibil. Alegerea expresă a canalului previne excluderea persoanelor fără instrumente digitale. Menținerea verificărilor legale protejează consimțământul și siguranța procurilor și a acordurilor privind minorii.",
-        "otherComments": "Se păstrează enumerarea de la lit. a)-d). Sunt necesare și corelarea delegărilor către Guvern și MAE, folosirea noțiunii de semnătură electronică calificată și plasarea termenului de șase luni într-o dispoziție distinctă a legii modificatoare, cu reguli tranzitorii și fundamentarea finanțării."
+        "articleRef": "Articolul unic pct. 3 — art. 43",
+        "proposalContent": "Punctul 3 al articolului unic se elimină.",
+        "argumentation": "Art. 43 în vigoare reglementează Centrul de crize consulare, cooperarea instituțională și deplasarea echipelor consulare mobile. Înlocuirea sa cu reguli despre taxe elimină acest temei legal specific, fără soluție înlocuitoare. Digitalizarea nu justifică înlăturarea acestor dispoziții.",
+        "otherComments": "Solicit separat clarificarea accesului la ghișeu, aplicarea regulilor dependente de platformă numai după operaționalizare și stabilirea garanțiilor autentificării la distanță. Verificați finanțarea, identificarea legii și structura anexei. Destinatar: Comisia pentru politică externă a Camerei Deputaților."
       },
       "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-19T15:06:36.276Z",
+      "method": "whole-text-v1",
+      "textChars": 3599,
+      "form": "initiator",
+      "agyModel": "gemini-4-neon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:22:20.421Z",
+      "reasons": [
+        "reluare"
+      ]
+    }
+  ]
 }

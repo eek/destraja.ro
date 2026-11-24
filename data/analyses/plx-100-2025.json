@@ -2,104 +2,136 @@
   "billId": "PL-x 100/2025",
   "slug": "plx-100-2025",
   "version": "senat",
-  "updatedAt": "2026-11-09T08:26:30.017Z",
+  "updatedAt": "2026-11-24T15:32:26.925Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 4993,
+    "ordinanceChars": 0,
+    "memoChars": 18875,
+    "memoSupplied": 18875,
+    "marker": "SF-903E268C"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-100-2025.json",
+    "form": "senat",
+    "textHash": "903e268c38c434d1",
+    "fetchedAt": "2026-11-19T11:20:55.985Z",
+    "acts": 2,
+    "actsFound": 2,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 1,
+    "chars": 9461,
+    "truncated": false,
+    "included": true,
+    "key": "b3fed06b7a3a3a96"
+  },
   "consensus": {
-    "riskScore": 5.3,
+    "riskScore": 5.7,
     "riskLevel": "yellow",
-    "plainTitle": "Taxa de 0,5% pe cifra de afaceri pentru petrol și gaze se extinde la firmele străine, cu garanție de 1 milion de euro, plus TVA redus și pentru bateriile panourilor solare",
-    "summaryTlDr": "Forma Senatului este mai echilibrată decât ordonanța, pentru că taxa se calculează doar pe veniturile din activitățile petroliere. Totuși, textul are o eroare de redactare chiar în formula taxei, modifică baza de calcul în timpul anului și impune doar nerezidenților o garanție fixă de 1 milion de euro, discutabilă din perspectiva dreptului UE.",
-    "initiatorClaim": "Guvernul spune că închide o breșă: traderii străini fără sediu permanent vând produse petroliere prin terminalele din România fără să plătească ICAS. De asemenea, vrea să stabilească codurile CAEN prin lege, nu prin ordin de ministru, și să excludă comercianții de lemne, peleți, lubrifianți sau antigel.",
-    "realityCheck": "Efectul concret este că ICAS (0,5%) se aplică și persoanelor juridice străine fără sediu permanent, inclusiv pentru livrările de bunuri din România. Acestea trebuie să depună o garanție de 1.000.000 euro și să desemneze un reprezentant fiscal. Ordonanța declară că ICAS nu intră sub incidența convențiilor de evitare a dublei impuneri. Senatul a restrâns baza de calcul (VT) la veniturile aferente codurilor CAEN din alin.(1²) și a înlocuit «Vs» cu «Va» (accizele). În plus, a adăugat un articol fără legătură cu obiectul ordonanței, care include «bateriile de stocare» în kitul fotovoltaic cu TVA redus (art.291).",
+    "plainTitle": "Taxa suplimentară pe cifra de afaceri pentru petrol și gaze: extinsă la firmele străine, cu garanție de 1 milion de euro, plus TVA redus și pentru bateriile fotovoltaice",
+    "summaryTlDr": "Legea aprobă o ordonanță deja în vigoare, care impune taxa ICAS și firmelor străine fără sediu în România și le cere o garanție de 1 milion de euro. Senatul a îmbunătățit formula, care acum taxează doar veniturile din activitățile petroliere. A adăugat însă o modificare fără legătură cu ICAS, la TVA-ul pe kiturile fotovoltaice, și a lăsat noua formulă fără nicio regulă despre data de la care se aplică.",
+    "initiatorClaim": "Guvernul spune că închide o portiță prin care comercianții străini de produse petroliere, care operează prin terminalele maritime și fluviale fără sediu permanent, nu plăteau ICAS. Mai spune că trece codurile CAEN din ordin de ministru în lege și scoate de sub taxă vânzătorii de lemne, peleți, cărbune sau lubrifianți.",
+    "realityCheck": "OG 3/2025, aflată deja în vigoare, taxează cu 0,5% din cifra de afaceri și livrările care pleacă din România (exporturi și livrări intracomunitare), după valoarea din declarația vamală. Prin alin.(12), declară că taxa nu intră sub convențiile de evitare a dublei impuneri. Firmele străine fără sediu permanent trebuie să constituie o garanție fixă de 1 milion de euro, oricât de mică le-ar fi activitatea, iar cele din afara UE sunt obligate să aibă un reprezentant român care răspunde solidar. Senatul limitează baza VT la veniturile din codurile CAEN petroliere și scade separat accizele (Va), ceea ce reduce sarcina fiscală pentru grupurile cu activități mixte. Nu există însă nicio estimare a impactului bugetar și nicio regulă de aplicare în timp.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
-      "Șoferi & Auto",
-      "Agricultură & Mediu"
+      "Proprietari & Imobiliare",
+      "Șoferi & Auto"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct.5 – art.46² alin.(2) Cod fiscal",
-      "proposalContent": "Lit.(iii)-(iv) din VT se rescriu: „(iii) veniturile aferente costurilor serviciilor în curs de execuție; (iv) veniturile din producția de imobilizări corporale și necorporale;”. Se corectează „productția”. Se adaugă: „Formula se aplică de la 1 ianuarie 2025 doar dacă e mai favorabilă contribuabilului; altfel, din trimestrul următor intrării în vigoare.”",
-      "argumentation": "Forma Senatului conține o eroare materială: „necorporale;” e dislocat între (iii) și (iv), iar (iv) rămâne trunchiat, ceea ce face incertă baza de impozitare (art.1 alin.5 Constituție). Formula fiind cumulativă de la începutul anului, schimbarea ei în cursul anului poate produce efecte retroactive (art.15 alin.2) și contravine art.4 Cod fiscal.",
-      "otherComments": "Garanția de 1.000.000 euro impusă doar nerezidenților fără sediu permanent, fixă și neproporțională cu volumul operațiunilor, poate încălca art.56/63 TFUE; propun plafonarea la un procent din ICAS estimat. Pct.6 (baterii de stocare, TVA) e străin de obiectul OG; fie se motivează, fie se adoptă separat. Termenul de amendamente (14.04.2025) a expirat."
+      "articleRef": "Art. unic pct.5 (art.46² alin.(2) Cod fiscal)",
+      "proposalContent": "Se corectează: «(iii) veniturile aferente costurilor serviciilor în curs de execuție; (iv) veniturile din producția de imobilizări corporale și necorporale;». Art. II nou: «Prevederile art.46² alin.(2), astfel cum au fost modificate prin prezenta lege, se aplică începând cu trimestrul următor intrării ei în vigoare.»",
+      "argumentation": "Textul adoptat de Senat are enumerarea viciată («necorporale» e rătăcit după pct.iii), iar formula nouă nu are dispoziție tranzitorie. Fără precizare, nu se știe dacă VT limitat la codurile CAEN petroliere privește și trimestrele deja declarate (art.15 alin.2 Constituție) sau doar viitorul, ceea ce va genera litigii ANAF-contribuabili.",
+      "otherComments": "Pct.6 (TVA redus la bateriile din kitul fotovoltaic, art.291 CF) nu are legătură cu ICAS și nu are fișă financiară (art.15 L.500/2002, art.111 Constituție). Recomand verificarea corelării cu modificările ulterioare ale art.291 și art.46² CF, inclusiv perioada de aplicare a ICAS după 2025, și reanalizarea garanției fixe de 1 mil. euro."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 63591,
-      "riskScore": 5,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 123894,
+      "sourceEndMarker": "SF-903E268C",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Reparații la taxa pe cifra de afaceri în petrol și gaze, garanție de 1 milion euro pentru firmele străine și TVA redus la baterii fotovoltaice",
-      "verdictShort": "Legea repară două aberații fiscale majore (exclude comercianții de lemne/lubrifianți de la taxa de 0,5% pe petrol și limitează baza de impozitare strict la activitățile din sector), plus scade TVA-ul la bateriile pentru panouri solare. Totuși, impune o garanție fixă disproporționată de 1 milion de euro firmelor străine fără sediu permanent și schimbă formula de calcul în mijlocul anului fiscal.",
-      "initiatorClaim": "Guvernul susține că vrea să elimine discriminarea dintre firmele românești și traderii străini fără sediu permanent care vând combustibili prin terminalele din România, scutind totodată micii comercianți de lemne de foc, peleți, cărbune sau lubrifianți care fuseseră prinși din greșeală în taxa pe petrol și gaze.",
-      "realityCheck": "În practică, ordonanța cârpește din mers erorile Legii 290/2024 (care eliminase plafonul de 50 milioane euro și băgase în taxă toți distribuitorii mici), dar creează o barieră uriașă de intrare pe piață prin garanția fixă de 1.000.000 euro cerută oricărei firme străine nerezidente, indiferent cât de mic îi este rulajul. Senatul a adăugat două amendamente importante: a restrâns baza de calcul a taxei (VT) doar la veniturile din codurile CAEN de petrol și gaze și a introdus bateriile de stocare în definiția kiturilor fotovoltaice cu TVA redus.",
+      "plainTitle": "Taxa pe petrol și gaze (ICAS): garanție de 1 mil. EUR și amendament-călăreț pe TVA la baterii fotovoltaice",
+      "verdictShort": "Senatul a reparat o distorsiune majoră a ICAS (limitând baza de calcul strict la veniturile din petrol și gaze, nu la toată cifra de afaceri a firmei), dar proiectul validează o garanție disproporționată de 1 milion EUR pentru firmele străine, taxează scoaterea bunurilor din țară și strecoară un amendament-călăreț pe TVA la baterii fotovoltaice fără impact bugetar.",
+      "initiatorClaim": "Guvernul susține că OG nr. 3/2025 elimină discriminarea dintre firmele românești și traderii străini fără sediu permanent din sectorul petrol și gaze (impunându-le plata ICAS și o garanție de 1 milion EUR), mută codurile CAEN în lege și scoate din sfera taxei comercianții de lemne de foc, peleți, cărbune sau lubrifianți.",
+      "realityCheck": "În forma Senatului, legea îmbunătățește formula ICAS (art. 46² alin. 2) limitând impozitul de 0,5% la veniturile aferente codurilor CAEN din petrol și gaze și adaugă bateriile de stocare la kiturile fotovoltaice cu TVA redus (art. 291). În paralel însă, consacră o garanție fixă de 1 milion EUR chiar și pentru firme UE cu tranzacții mici, taxează orice scoatere de bunuri din România, ignoră unilateral tratatele de evitare a dublei impuneri, lasă neintenționat impozitate firmele cu CAEN principal 4671/4681 care vând exclusiv lemne sau peleți și nu are nicio estimare de impact bugetar.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
-        "Șoferi & Auto",
-        "Agricultură & Mediu"
+        "Proprietari & Imobiliare",
+        "Șoferi & Auto"
       ],
       "keyFindings": [
-        "Corecție majoră la Senat (Art. unic pct. 5 / Art. 46² alin. 2 Cod fiscal): Impozitul de 0,5% (ICAS) nu se va mai aplica pe toate veniturile unei firme (VT), ci doar pe veniturile din livrări/prestări aferente codurilor CAEN din petrol și gaze, salvând firmele cu activități mixte.",
-        "Excluderea produselor nepetroliere (OG 3/2025): Comercianții de lemne de foc, peleți, brichete, cărbune, naftalină, antigel și uleiuri lubrifiante (codurile CAEN 4671, 4681, 4730) sunt scoși din sfera ICAS, după ce eliminarea plafonului de 50 milioane euro îi lovise la 1 ianuarie 2025.",
-        "Garanție fixă de 1.000.000 euro și ocolirea tratatelor fiscale: Persoanele juridice străine fără sediu permanent în România sunt obligate să desemneze reprezentant fiscal și să depună o garanție fixă de 1 milion euro, legea declarând unilateral că ICAS nu intră sub incidența convențiilor de evitare a dublei impuneri.",
-        "Amendament-surpriză pe energie verde (Art. unic pct. 9 / Art. 291 alin. 3⁶ Cod fiscal): Senatul a inclus „bateriile de stocare” în definiția kiturilor de panouri fotovoltaice care beneficiază de cota redusă de TVA."
+        "Corecție pozitivă dar redactată defectuos (Art. unic pct. 5 -> art. 46² alin. 2): Senatul restrânge indicatorul VT strict la veniturile din codurile CAEN petrol/gaze (față de forma anterioară care taxa veniturile totale ale companiei, inclusiv din activități fără legătură cu petrolul). Textul adoptat conține însă o eroare de redactare la pct. (iii)-(iv), unde cuvântul „necorporale;” a rămas deplasat deasupra literei (iv).",
+        "Garanție fixă disproporționată de 1.000.000 EUR (art. 46² alin. 16-18 din OG 3/2025 aprobată): Orice persoană juridică străină fără sediu permanent (inclusiv din UE) trebuie să blocheze 1 milion EUR în 15 zile de la înregistrare, indiferent de valoarea tranzacțiilor sau a impozitului datorat, în timp ce firmele românești nu au o astfel de obligație.",
+        "Taxarea exportului/scoaterii din țară și înlăturarea unilaterală a tratatelor fiscale (art. 46² alin. 1¹ și 12): ICAS se aplică pe „orice operațiune care presupune scoaterea bunurilor de pe teritoriul României” (pe baza declarației vamale sau documentelor intracomunitare) și declară unilateral că impozitul nu intră sub incidența convențiilor de evitare a dublei impuneri.",
+        "Capcană pentru IMM-urile care vând lemne, peleți, cărbune sau lubrifianți (art. 46² alin. 1³): Deși Expunerea de motive promite scoaterea lor de sub ICAS, textul legal scutește doar firmele a căror activitate principală este un alt cod CAEN decât cele din alin. (1²); un comerciant dedicat de lemne/peleți/lubrifianți cu CAEN principal 4671 sau 4681 rămâne obligat la taxa pe petrol și gaze.",
+        "Amendament-călăreț pe TVA fără studiu de impact (Art. unic pct. 9 -> art. 291 alin. 3⁶ pct. 2 lit. a): Senatul introduce „bateriile de stocare” în definiția kitului fotovoltaic cu TVA redus într-o lege despre impozitul petrolier, fără fișă financiară și fără formularea „după caz”, riscând interpretări rigide ale ANAF conform cărora un kit fără baterii nu ar mai fi complet."
       ],
-      "blindSpotsCaught": "Modificarea formulei indicatorului VT de către Senat (pct. 5) nu este însoțită de o normă tranzitorie expresă în legea de aprobare. Cum OG 3/2025 se aplică de la începutul anului 2025, iar legea de aprobare va intra în vigoare la mijlocul anului, contabilii riscă un haos declarativ între trimestrul I (unde VT însemna toate veniturile firmei) și restul anului (unde VT înseamnă doar veniturile din codurile CAEN vizate). În plus, amendamentul privind TVA-ul la baterii fotovoltaice (pct. 9) a obligat Senatul să rescrie chiar titlul ordonanței (pct. 1) pentru a acoperi un obiect de reglementare complet diferit.",
-      "constitutionalityNote": "Probleme de previzibilitate și calitate a legii (Art. 1 alin. 5 din Constituție): modificarea succesivă a bazei de impozitare în cursul aceluiași an fiscal încalcă principiul certitudinii impunerii (Art. 4 Cod fiscal). De asemenea, excluderea unilaterală prin lege internă a unui impozit reglementat la Titlul II (Impozitul pe profit) din sfera convențiilor de evitare a dublei impuneri ridică probleme față de Art. 11 din Constituție (îndeplinirea cu bună-credință a obligațiilor din tratatele internaționale).",
-      "euLawNote": "Risc ridicat de încălcare a liberei circulații a mărfurilor și a libertății de a presta servicii (Art. 34 și 56 TFUE): impunerea unei garanții fixe de 1.000.000 euro oricărui operator nerezident din UE fără sediu permanent în România, indiferent de valoarea livrărilor (la o taxă de 0,5%, garanția corespunde unui rulaj de 200 milioane euro), încalcă flagrant principiul proporționalității în jurisprudența CJUE și descurajează concurența transfrontalieră.",
+      "blindSpotsCaught": "Două capcane subtile trec ușor neobservate: (1) la art. 46² alin. (1³), condiția cumulativă ca „activitatea principală” să fie alta decât codurile CAEN din alin. (1²) lasă în continuare sub incidența ICAS IMM-urile românești cu CAEN principal 4671/4681 care comercializează exclusiv lemne de foc, peleți, cărbune sau lubrifianți, contrar scopului declarat în Expunerea de motive; (2) amendamentul-călăreț al Senatului la art. 291 alin. (3⁶) pct. 2 lit. a) adaugă „bateriile de stocare” în enumerarea rigidă a kitului fotovoltaic fără mențiunea „după caz” și fără nicio evaluare a impactului bugetar, iar la art. 46² alin. (2) pct. (iii)-(iv) textul votat de Senat are fraza ruptă („necorporale;” plasat greșit).",
+      "constitutionalityNote": "Există trei vulnerabilități constituționale serioase: (1) Art. 1 alin. (5) (calitatea și previzibilitatea legii) — textul corupt de la art. 46² alin. (2) pct. (iii)-(iv), ambiguitatea definiției kitului fotovoltaic, necorelarea scutirii de la alin. (1³) cu scopul declarat și modificarea repetată a Codului fiscal fără respectarea regulii de predictibilitate de 6 luni (art. 4 Cod fiscal); (2) Art. 111 alin. (1) și Art. 138 alin. (5) — Expunerea de motive recunoaște explicit la secțiunea 4.8 că nu poate estima impactul bugetar, iar Senatul a redus substanțial atât baza ICAS, cât și sfera TVA (baterii fotovoltaice) fără fișă financiară și fără indicarea sursei de finanțare/informarea Guvernului; (3) Art. 11 alin. (2) — declararea unilaterală prin lege internă (art. 46² alin. 12) că ICAS nu intră în sfera convențiilor de evitare a dublei impuneri riscă un conflict cu tratatele internaționale ratificate de România.",
+      "euLawNote": "Proiectul ridică riscuri majore de infringement pe dreptul primar al UE: (1) Garanția fixă de 1.000.000 EUR impusă în 15 zile exclusiv companiilor străine fără sediu permanent (inclusiv celor stabilite în alte state membre UE), fără legătură cu cifra de afaceri sau impozitul datorat, constituie o restricție discriminatorie și vădit disproporționată asupra libertății de stabilire și a liberei prestări a serviciilor (art. 49 și art. 56 TFUE); (2) Aplicarea unei taxe de 0,5% pe valoarea vamală/intracomunitară la „scoaterea bunurilor de pe teritoriul României” (art. 46² alin. 1¹) riscă calificarea drept taxă cu efect echivalent unei taxe vamale la export sau restricție cantitativă la export, interzise de art. 30 și art. 35 TFUE; (3) Extinderea TVA redus la bateriile de stocare (art. 291) trebuie verificată din perspectiva Anexei III a Directivei TVA 2006/112/CE. Directiva (UE) 2018/958 (profesii reglementate) și Directiva (UE) 2015/1535 (TRIS — reglementări tehnice/servicii digitale) nu sunt aplicabile direct, fiind măsuri de natură fiscală.",
       "senatForm": {
-        "articleRef": "Art. unic pct. 5 și 8 (Art. 46² Cod fiscal)",
-        "proposalContent": "La art. 46² alin. (15), cuantumul garanției se stabilește proporțional, la 1% din valoarea livrărilor/prestărilor estimate în România, dar nu mai mult de 1.000.000 euro. De asemenea, se introduce o normă tranzitorie prin care formula VT modificată la art. 46² alin. (2) se aplică cumulat începând cu 1 ianuarie 2025.",
-        "argumentation": "Garanția fixă de 1 milion euro pentru nerezidenți (la o taxă de doar 0,5%) echivalează cu un rulaj de 200 milioane euro, blocând concurența și libera circulație pe piața UE. Totodată, restrângerea bazei VT doar la codurile CAEN din petrol și gaze trebuie aplicată explicit de la 1 ianuarie 2025, pentru a evita dubla metodologie de calcul în același an fiscal.",
-        "otherComments": "Excluderea comercianților de lemne de foc, peleți și lubrifianți, precum și includerea bateriilor de stocare la TVA redus pentru kiturile fotovoltaice (pct. 9) sunt măsuri utile, dar necesită claritate privind data aplicării pentru a proteja contribuabilii de interpretări abuzive ale ANAF."
+        "articleRef": "Art. unic (art. 46² alin. 1³ și 16 Cod fiscal)",
+        "proposalContent": "La alin. (1³), eliminați condiția privind activitatea principală, scutind de ICAS veniturile din lemn, peleți, cărbune și lubrifianți indiferent de CAEN-ul principal. La alin. (16), înlocuiți garanția fixă de 1 milion EUR cu o garanție proporțională cu impozitul estimat și corectați eroarea de redactare de la alin. (2) pct. (iii)-(iv).",
+        "argumentation": "Alin. (1³) lasă sub ICAS IMM-urile cu CAEN principal 4671/4681 care vând doar lemne, peleți sau lubrifianți, contrar Expunerii de motive. Garanția fixă de 1 mil. EUR doar pentru firme străine încalcă proporționalitatea și Piața Unică (art. 49, 56 TFUE). Alin. (2) pct. (iii)-(iv) are termenul „necorporale” plasat greșit.",
+        "otherComments": "Clarificați la art. 291 alin. (3⁶) pct. 2 lit. a) formula „inclusiv bateriile de stocare, după caz”, pentru ca ANAF să nu impună bateriile ca element obligatoriu al kitului fotovoltaic cu TVA redus, și solicitați Guvernului fișa financiară (art. 111 alin. 1 Constituție). Evaluați riscul art. 30 TFUE pentru taxarea scoaterii bunurilor din țară."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 62332,
+      "durationMs": 75273,
+      "sourceEndMarker": "SF-903E268C",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Taxa de 0,5% pe cifra de afaceri pentru petrol și gaze se extinde la firmele străine, cu garanție de 1 milion de euro, plus TVA redus și pentru bateriile panourilor solare",
-      "verdictShort": "Forma Senatului este mai echilibrată decât ordonanța, pentru că taxa se calculează doar pe veniturile din activitățile petroliere. Totuși, textul are o eroare de redactare chiar în formula taxei, modifică baza de calcul în timpul anului și impune doar nerezidenților o garanție fixă de 1 milion de euro, discutabilă din perspectiva dreptului UE.",
-      "initiatorClaim": "Guvernul spune că închide o breșă: traderii străini fără sediu permanent vând produse petroliere prin terminalele din România fără să plătească ICAS. De asemenea, vrea să stabilească codurile CAEN prin lege, nu prin ordin de ministru, și să excludă comercianții de lemne, peleți, lubrifianți sau antigel.",
-      "realityCheck": "Efectul concret este că ICAS (0,5%) se aplică și persoanelor juridice străine fără sediu permanent, inclusiv pentru livrările de bunuri din România. Acestea trebuie să depună o garanție de 1.000.000 euro și să desemneze un reprezentant fiscal. Ordonanța declară că ICAS nu intră sub incidența convențiilor de evitare a dublei impuneri. Senatul a restrâns baza de calcul (VT) la veniturile aferente codurilor CAEN din alin.(1²) și a înlocuit «Vs» cu «Va» (accizele). În plus, a adăugat un articol fără legătură cu obiectul ordonanței, care include «bateriile de stocare» în kitul fotovoltaic cu TVA redus (art.291).",
+      "plainTitle": "Taxa suplimentară pe cifra de afaceri pentru petrol și gaze: extinsă la firmele străine, cu garanție de 1 milion de euro, plus TVA redus și pentru bateriile fotovoltaice",
+      "verdictShort": "Legea aprobă o ordonanță deja în vigoare, care impune taxa ICAS și firmelor străine fără sediu în România și le cere o garanție de 1 milion de euro. Senatul a îmbunătățit formula, care acum taxează doar veniturile din activitățile petroliere. A adăugat însă o modificare fără legătură cu ICAS, la TVA-ul pe kiturile fotovoltaice, și a lăsat noua formulă fără nicio regulă despre data de la care se aplică.",
+      "initiatorClaim": "Guvernul spune că închide o portiță prin care comercianții străini de produse petroliere, care operează prin terminalele maritime și fluviale fără sediu permanent, nu plăteau ICAS. Mai spune că trece codurile CAEN din ordin de ministru în lege și scoate de sub taxă vânzătorii de lemne, peleți, cărbune sau lubrifianți.",
+      "realityCheck": "OG 3/2025, aflată deja în vigoare, taxează cu 0,5% din cifra de afaceri și livrările care pleacă din România (exporturi și livrări intracomunitare), după valoarea din declarația vamală. Prin alin.(12), declară că taxa nu intră sub convențiile de evitare a dublei impuneri. Firmele străine fără sediu permanent trebuie să constituie o garanție fixă de 1 milion de euro, oricât de mică le-ar fi activitatea, iar cele din afara UE sunt obligate să aibă un reprezentant român care răspunde solidar. Senatul limitează baza VT la veniturile din codurile CAEN petroliere și scade separat accizele (Va), ceea ce reduce sarcina fiscală pentru grupurile cu activități mixte. Nu există însă nicio estimare a impactului bugetar și nicio regulă de aplicare în timp.",
       "affectedGroups": [
         "Contabili & Fiscalitate",
         "IMM & Antreprenori",
-        "Șoferi & Auto",
         "Proprietari & Imobiliare",
         "Agricultură & Mediu"
       ],
       "keyFindings": [
-        "Art. unic pct.5 (art.46² alin.(2) CF): VT include acum doar veniturile din activitățile cu codurile CAEN din alin.(1²). Este o măsură pozitivă de proporționalitate, deoarece firmele mixte nu mai plătesc ICAS pe venituri din alte activități.",
-        "Art. unic pct.5: lista excluderilor din VT are o eroare materială. Cuvântul «necorporale;» apare izolat între pct.(iii) și (iv), iar pct.(iv) se termină trunchiat cu «corporale și». Există și greșeala de tipar «productția». Astfel, baza de impozitare devine incertă.",
-        "Formula ICAS se calculează cumulat de la începutul anului fiscal 2025. Modificarea ei prin legea de aprobare, adoptată în cursul anului, poate produce efecte retroactive dacă noul indicator Va dă un rezultat mai defavorabil decât vechiul Vs.",
-        "Garanția de 1.000.000 euro (introdusă prin OG, pct.5, alin.(14)-(22)) este fixă și se aplică exclusiv persoanelor străine fără sediu permanent. Suma nu depinde de volumul operațiunilor, ceea ce pune o presiune disproporționată pe operatorii mici sau ocazionali.",
-        "Art. unic pct.9 (pct.6 nou, art.291 alin.(3⁶) CF): bateriile de stocare primesc TVA redus în cadrul kitului fotovoltaic. Măsura este benefică pentru prosumatori, dar nu are legătură cu ICAS. De aceea Senatul a modificat titlul ordonanței, care se referea doar la art.46², într-unul general («Codul fiscal»).",
-        "Conform Expunerii de motive, ICAS se aplică doar în perioada 1.01.2025–31.12.2025. Prin urmare, la data analizei (noiembrie 2026), impactul practic privește în principal regularizările și litigiile aferente anului 2025."
+        "Art. unic pct.5 (noul art.46² alin.(2) CF): VT cuprinde acum doar veniturile din livrări sau prestări aferente codurilor CAEN de la alin.(1²). Accizele reflectate în cheltuieli se scad separat (Va), la fel investițiile (I) și amortizarea (A), dar numai pentru activitățile petroliere. Ordonanța în vigoare aplica 0,5% pe toate veniturile firmei, chiar și pe cele din alte activități. Schimbarea e favorabilă contribuabililor, dar nu are dispoziție tranzitorie.",
+        "Enumerarea excluderilor din VT e coruptă în forma Senatului: cuvântul «necorporale;» apare rătăcit după pct.(iii), iar pct.(iv) se oprește la «imobilizări corporale și». Pare o eroare de tehnoredactare, dar textul publicat ar fi neclar (art.1 alin.(5) din Constituție).",
+        "Art. unic pct.9 (pct.6 nou, art.291 alin.(3⁶) pct.2 lit.a) CF) adaugă «bateriile de stocare» în definiția kitului fotovoltaic cu cotă redusă de TVA. E un «cavaler legislativ» fără legătură cu ICAS, motiv pentru care titlul ordonanței a fost schimbat în «modificarea și completarea Legii nr.227/2015». Măsura e benefică pentru prosumatori, dar nu are fișă financiară.",
+        "OG 3/2025, alin.(16)-(18): garanția fixă de 1 milion de euro, de constituit în 15 zile de la înregistrare, se aplică tuturor firmelor străine fără sediu permanent, inclusiv celor din UE. Firmele române nu au o obligație similară. Pentru un trader mic, garanția poate depăși de multe ori taxa datorată.",
+        "OG 3/2025, alin.(1¹): impozitarea livrărilor «de pe teritoriul României» (exporturi și livrări intracomunitare) lovește operațiuni care, de regulă, nu generează venit impozabil în România în lipsa unui sediu permanent. Cât despre încadrarea unei firme străine într-un cod CAEN românesc, textul nu spune cum se face."
       ],
-      "blindSpotsCaught": "Prin schimbarea titlului ordonanței dintr-unul limitat la art.46² într-unul general, Senatul a deschis loc unei prevederi despre TVA care nu are legătură cu obiectul inițial. Este o tehnică de tip «călăreț legislativ». Un al doilea aspect: Expunerea de motive recunoaște explicit că impozitarea nerezidenților fără sediu permanent «excede» convențiile de evitare a dublei impuneri și justifică acest lucru doar prin nevoia de reducere a deficitului. Este un argument bugetar, nu unul juridic. În plus, eroarea de redactare din lista excluderilor VT a trecut nesesizată de Senat.",
-      "constitutionalityNote": "Art.1 alin.(5): eroarea materială din definiția VT afectează claritatea și previzibilitatea normei fiscale, cu atât mai mult cu cât art.56 cere ca obligațiile fiscale să fie stabilite precis. Art.15 alin.(2): modificarea unei formule cumulative cu aplicare de la 1.01.2025, adoptată în cursul anului, riscă retroactivitate dacă este mai defavorabilă. Art.11 alin.(2): convențiile fiscale ratificate fac parte din dreptul intern, iar declararea unilaterală a ICAS ca fiind în afara convențiilor poate fi calificată drept încălcare a tratatelor, dacă ICAS este considerat impozit substanțial similar celui pe venit. Art.115 alin.(7): legea de aprobare poate modifica ordonanța, însă introducerea unei măsuri privind TVA, fără legătură cu obiectul acesteia, poate fi criticată pentru lipsa unității de obiect (Legea nr.24/2000).",
-      "euLawNote": "Directiva 2018/958 nu este aplicabilă, deoarece proiectul nu reglementează accesul la profesii reglementate. Directiva TRIS 2015/1535 nu este incidentă, întrucât nu există reguli privind servicii ale societății informaționale. Piața unică: garanția fixă de 1 milion de euro, impusă doar operatorilor nerezidenți fără sediu permanent, poate constitui o restricție la libera prestare a serviciilor și la libera circulație a capitalurilor (art.56 și 63 TFUE). O astfel de restricție trebuie să fie proporțională, iar o sumă fixă care nu ține cont de volumul real de activitate este vulnerabilă la critici. Directiva TVA 2006/112 (art.401): ICAS se aplică asupra veniturilor nete agregate, nu asupra fiecărei tranzacții, deci probabil nu are caracterul unei taxe pe cifra de afaceri echivalente TVA. Reducerea TVA pentru bateriile de stocare trebuie să se încadreze în Anexa III a Directivei TVA, modificată prin Directiva 2022/542, care permite cote reduse pentru panourile solare.",
+      "blindSpotsCaught": "Expunerea de motive spune că ICAS pentru firmele străine fără sediu permanent a fost instituit «pentru o perioadă limitată», 1 ianuarie - 31 decembrie 2025, dar această limită nu se regăsește în textul normativ citat. Proiectul e pe ordinea de zi în noiembrie 2026, iar termenul de amendamente a expirat pe 14.04.2025. Dacă e adoptat acum, modificarea formulei de la alin.(2) va privi perioade deja declarate și plătite. Fără o dispoziție tranzitorie, rămâne neclar dacă se pot cere restituiri pentru 2025 sau dacă norma produce efecte doar pentru viitor, ceea ce deschide litigii cu ANAF. Și art.291 CF (cotele de TVA) a fost modificat ulterior, deci trebuie verificată corelarea pct.6 cu forma lui actuală.",
+      "constitutionalityNote": "Art.1 alin.(5) (calitatea legii): enumerarea viciată de la pct.(iv) și lipsa regulilor de aplicare în timp a noii formule afectează previzibilitatea. Art.15 alin.(2): dacă noua bază de calcul ar fi aplicată perioadelor trecute, apare problema retroactivității. Art.11 și art.20: alin.(12), care scoate unilateral ICAS de sub convențiile de evitare a dublei impuneri, riscă să fie văzut ca o încălcare a tratatelor la care România e parte, mai ales că taxa e prezentată ca «suplimentară impozitului pe profit». Art.56 alin.(2) (așezarea justă a sarcinilor fiscale): o garanție fixă de 1 milion de euro, indiferent de volumul activității, ridică probleme de proporționalitate. Pct.6 (TVA la baterii) poate fi atacat pentru lipsa de legătură cu obiectul ordonanței aprobate, deși Curtea Constituțională a admis în general amendamente în legile de aprobare. Pentru măsurile care reduc veniturile bugetare, art.111 alin.(1) și art.15 din Legea 500/2002 cer informarea Guvernului și fișă financiară, iar acestea lipsesc.",
+      "euLawNote": "Directiva 2018/958 (testul de proporționalitate) nu se aplică, fiindcă nu se reglementează profesii. Nici TRIS 2015/1535 nu se aplică: nu sunt servicii ale societății informaționale. Riscul principal ține de art.49 și 56 TFUE (libertatea de stabilire și de a presta servicii): firmele din UE fără sediu permanent trebuie să constituie o garanție de 1 milion de euro, pe care firmele române nu o datorează. Jurisprudența CJUE (de exemplu, C-678/11 Comisia/Spania, privind reprezentantul fiscal obligatoriu) cere ca astfel de sarcini să fie justificate și proporționale. Taxarea livrărilor intracomunitare după valoarea lor poate fi privită ca o restricție la circulația mărfurilor (art.30 și 34-35 TFUE). Cât despre bateriile de stocare, cota redusă de TVA pare compatibilă cu Directiva 2006/112, care în Anexa III permite cote reduse pentru panourile solare de pe locuințe, dar extinderea trebuie corelată cu cotele în vigoare.",
       "senatForm": {
-        "articleRef": "Art. unic pct.5 – art.46² alin.(2) Cod fiscal",
-        "proposalContent": "Lit.(iii)-(iv) din VT se rescriu: „(iii) veniturile aferente costurilor serviciilor în curs de execuție; (iv) veniturile din producția de imobilizări corporale și necorporale;”. Se corectează „productția”. Se adaugă: „Formula se aplică de la 1 ianuarie 2025 doar dacă e mai favorabilă contribuabilului; altfel, din trimestrul următor intrării în vigoare.”",
-        "argumentation": "Forma Senatului conține o eroare materială: „necorporale;” e dislocat între (iii) și (iv), iar (iv) rămâne trunchiat, ceea ce face incertă baza de impozitare (art.1 alin.5 Constituție). Formula fiind cumulativă de la începutul anului, schimbarea ei în cursul anului poate produce efecte retroactive (art.15 alin.2) și contravine art.4 Cod fiscal.",
-        "otherComments": "Garanția de 1.000.000 euro impusă doar nerezidenților fără sediu permanent, fixă și neproporțională cu volumul operațiunilor, poate încălca art.56/63 TFUE; propun plafonarea la un procent din ICAS estimat. Pct.6 (baterii de stocare, TVA) e străin de obiectul OG; fie se motivează, fie se adoptă separat. Termenul de amendamente (14.04.2025) a expirat."
+        "articleRef": "Art. unic pct.5 (art.46² alin.(2) Cod fiscal)",
+        "proposalContent": "Se corectează: «(iii) veniturile aferente costurilor serviciilor în curs de execuție; (iv) veniturile din producția de imobilizări corporale și necorporale;». Art. II nou: «Prevederile art.46² alin.(2), astfel cum au fost modificate prin prezenta lege, se aplică începând cu trimestrul următor intrării ei în vigoare.»",
+        "argumentation": "Textul adoptat de Senat are enumerarea viciată («necorporale» e rătăcit după pct.iii), iar formula nouă nu are dispoziție tranzitorie. Fără precizare, nu se știe dacă VT limitat la codurile CAEN petroliere privește și trimestrele deja declarate (art.15 alin.2 Constituție) sau doar viitorul, ceea ce va genera litigii ANAF-contribuabili.",
+        "otherComments": "Pct.6 (TVA redus la bateriile din kitul fotovoltaic, art.291 CF) nu are legătură cu ICAS și nu are fișă financiară (art.15 L.500/2002, art.111 Constituție). Recomand verificarea corelării cu modificările ulterioare ale art.291 și art.46² CF, inclusiv perioada de aplicare a ICAS după 2025, și reanalizarea garanției fixe de 1 mil. euro."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 137020,
+      "durationMs": 110895,
+      "sourceEndMarker": "SF-903E268C",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Taxa pe vânzările de petrol și gaze și garanția de un milion de euro",
-      "verdictShort": "Proiectul restrânge util baza impozabilă la activitățile vizate, dar aprobă și un mecanism de garantare care poate împovăra disproporționat operatorii mici nerezidenți. Riscurile principale privesc proporționalitatea garanției și raportul cu tratatele fiscale, fără ca neconstituționalitatea să rezulte automat.",
-      "initiatorClaim": "Guvernul urmărește să supună ICAS și operatorii străini fără sediu permanent în România, pentru a reduce diferențele de tratament și riscul neîncasării impozitului. Mai urmărește clarificarea activităților taxabile și excluderea anumitor vânzări de produse.",
-      "realityCheck": "Impozitul exista deja; proiectul aprobă modificarea sa, iar amendamentul Senatului calculează cota de 0,5% asupra veniturilor aferente codurilor CAEN vizate, cu excluderile și deducerile enumerate. Obligațiile privind nerezidenții și garanția sunt descrise în documentele furnizate, dar alineatele corespunzătoare din OG nu sunt reproduse integral, ceea ce limitează verificarea mecanismului. Separat, Senatul introduce bateriile de stocare în definiția fiscală a kitului fotovoltaic, cu posibile efecte asupra aplicării cotei reduse de TVA.",
+      "plainTitle": "Taxa pe petrol și gaze, garanția pentru firme străine și bateriile fotovoltaice",
+      "verdictShort": "Proiectul restrânge util baza impozabilă la activitățile petroliere și de gaze, dar aprobă și mecanisme fiscale cu probleme serioase de proporționalitate. Garanția fixă de un milion de euro și excluderea generală a convențiilor fiscale justifică revizuirea textului.",
+      "initiatorClaim": "Guvernul urmărește impozitarea comparabilă a operatorilor români și străini din petrol și gaze, inclusiv a nerezidenților fără sediu permanent. Invocă prevenirea neplății și protejarea comercianților de produse care nu aparțin propriu-zis acestor sectoare.",
+      "realityCheck": "Obligațiile nerezidenților, garanția de un milion de euro și excepțiile pentru anumite produse există deja în OG nr. 3/2025; legea le aprobă, nu le introduce pentru prima dată. Noutatea substanțială a Senatului este recalcularea ICAS folosind veniturile și investițiile aferente activităților enumerate, cu indicatorii I și A raportați la achiziții/producție începând din 2025. Ultimul amendament introduce bateriile de stocare în definiția fiscală a kitului fotovoltaic, cu un efect distinct de impozitarea petrolului și gazelor.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
@@ -108,22 +140,46 @@
         "Agricultură & Mediu"
       ],
       "keyFindings": [
-        "Articolul unic pct. 5, care introduce art. I pct. 2¹ în OG: indicatorul VT este limitat la veniturile din livrări și servicii corespunzătoare codurilor CAEN vizate. Aceasta reduce riscul taxării veniturilor din activități fără legătură cu sectorul petrolului și gazelor.",
-        "Garanția de 1.000.000 euro, descrisă în fișă și motivare pentru persoanele juridice străine fără sediu permanent, echivalează cu ICAS de 0,5% aferent unei baze impozabile de 200 milioane euro. Fără ajustare după expunerea fiscală și riscul de neplată, poate crea o barieră serioasă pentru operatorii mici; garanția nu reprezintă însă, prin ea însăși, un impozit suplimentar definitiv.",
-        "Articolul unic pct. 9 introduce bateriile de stocare în definiția kitului fotovoltaic de la art. 291 alin. (3⁶) pct. 2 lit. a). Textul nu acordă explicit aceeași facilitate oricărei baterii vândute separat.",
-        "Restrângerea bazei ICAS și modificarea definiției relevante pentru TVA pot diminua încasările față de reglementarea anterioară. Documentele furnizate nu permit cuantificarea efectului net, inclusiv a eventualelor încasări suplimentare de la nerezidenți.",
-        "Pentru operatorii mici, ICAS poate apăsa asupra activităților cu marje reduse chiar dacă profitul este mic. Identificarea veniturilor eligibile și alocarea investițiilor și amortizării presupun evidențe contabile distincte; eventualele scumpiri pentru consumatori sunt efecte indirecte posibile, nu obligații instituite cetățenilor."
+        "Art. unic pct. 5: cota ICAS rămâne 0,5%; modificarea privește baza. VT este limitat la livrările și serviciile corespunzătoare codurilor CAEN enumerate, iar veniturile financiare indicate expres sunt excluse. Pentru operatorii cu activități mixte, această delimitare poate reduce impozitul.",
+        "Aceeași formulă limitează I și A la activele aferente activităților enumerate și la achiziții/producție începând din 2025. Restrângerea veniturilor taxabile trebuie evaluată împreună cu restrângerea deducerilor; avantajul net nu poate fi cuantificat fără formula anterioară integrală și datele contribuabilului.",
+        "Art. 46² alin. (16)-(18), deja introduse prin OG: nerezidenții fără sediu permanent trebuie să constituie o garanție de un milion de euro, prin instrument bancar sau consemnare de bani, în 15 zile de la înregistrare. Suma nu este proporțională cu cifra de afaceri ori impozitul estimat și poate împovăra sever operatorii mici.",
+        "Art. 46² alin. (13)-(15), deja existente în OG: reprezentantul este opțional pentru persoanele juridice stabilite în UE și obligatoriu pentru cele nestabilite în UE. Reprezentantul trebuie să fie persoană juridică română și răspunde solidar pentru declararea și plata impozitului, ceea ce poate crește costul reprezentării.",
+        "Art. 46² alin. (12), păstrat prin aprobare: simpla declarație că ICAS nu intră în convențiile de evitare a dublei impuneri nu poate modifica unilateral convențiile aplicabile. Încadrarea depinde de conținutul fiecărei convenții și de natura efectivă a impozitului.",
+        "Art. unic pct. 9: bateriile de stocare sunt incluse în definiția kitului fotovoltaic din art. 291. Textul nu acordă explicit același tratament bateriilor vândute separat; efectul fiscal concret depinde și de menținerea în vigoare a dispozițiilor privind TVA la care se face trimitere.",
+        "Expunerea de motive admite un impact bugetar necuantificat și nu fundamentează modificările adăugate ulterior de Senat privind formula ICAS și bateriile. Sunt necesare estimări privind veniturile bugetare și costurile de conformare, inclusiv evidența separată a activităților și activelor."
       ],
-      "blindSpotsCaught": "Forma Senatului modifică punctual OG și nu reproduce toate obligațiile aprobate: absența garanției din pasajele citate nu înseamnă eliminarea ei. Invers, afirmația din motivare privind aplicarea numai în 2025 nu poate înlocui verificarea dispoziției normative privind durata. Amendamentul fotovoltaic extinde obiectul inițial și necesită justificare și evaluare fiscală proprie; introducerea sa în prima Cameră nu dovedește singură încălcarea bicameralismului.",
-      "constitutionalityNote": "Art. 1 alin. (5) impune reguli previzibile privind veniturile taxabile, investițiile comune mai multor activități, estimarea obligațiilor și constituirea, executarea și restituirea garanției. Codurile CAEN și formula expresă îmbunătățesc determinarea bazei. Garanția fixă trebuie examinată prin art. 45, art. 56 alin. (2) și art. 135 alin. (2) lit. a), în raport cu justificarea diferenței de tratament și efectele asupra concurenței. Art. 23 alin. (12) privește pedepsele și nu este reperul direct pentru simpla instituire a ICAS; extrasul nu introduce pedepse. O eventuală aplicare retroactivă a unor sarcini noi ar necesita analiză prin art. 15 alin. (2), însă nu poate fi constatată numai din datele furnizate. Respectarea tratatelor fiscale angajează și art. 11, iar dreptul UE, art. 148.",
-      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementărilor care restricționează accesul la profesii reglementate sau exercitarea lor; nu impune aici un test formal doar fiindcă măsura afectează concurența. Obligațiile fiscale descrise nu reglementează specific servicii digitale sau AI și nu evidențiază un temei de notificare TRIS potrivit Directivei (UE) 2015/1535. Garanția și reprezentarea impuse operatorilor străini fără sediu permanent trebuie totuși verificate în raport cu libertățile de circulație aplicabile: colectarea eficientă poate justifica măsuri, dar cuantumul și condițiile trebuie să fie necesare și proporționale, ținând cont inclusiv de cooperarea administrativă disponibilă. Aplicabilitatea unei convenții de evitare a dublei impuneri depinde de textul convenției și natura impozitului; o calificare unilaterală în legea internă nu tranșează problema.",
+      "blindSpotsCaught": "Amendamentul privind bateriile apare chiar la final și explică lărgirea titlului ordonanței la întregul Cod fiscal. Durata limitată invocată în expunerea de motive nu poate fi tratată singură drept termen legal de încetare a impozitului. Textul OG furnizat este trunchiat, iar forma integrală actuală a articolelor fiscale nu este disponibilă în material; verificarea externă nu a fost posibilă, astfel că analiza nu certifică aplicabilitatea lor în 2026.",
+      "constitutionalityNote": "Art. 1 alin. (5), art. 56 alin. (2) și art. 139 impun o sarcină fiscală clară și așezată just. Delimitarea pe activități este utilă, dar alocarea activelor comune și aplicarea în timp a noii formule necesită clarificări; referirea la investiții din 2025 nu dovedește singură retroactivitate, însă recalcularea unor obligații deja născute ar necesita examinare prin art. 15 alin. (2). Garanția uniformă ridică probleme de proporționalitate și concurență, relevante și pentru art. 135. Excluderea convențiilor trebuie verificată prin art. 11 și regulile priorității convențiilor fiscale. Art. 23 alin. (12) privește legalitatea pedepselor: textul analizat nu introduce pedepse. Neestimarea veniturilor fiscale nu demonstrează, singură, încălcarea art. 138 alin. (5), care privește cheltuielile bugetare.",
+      "euLawNote": "Directiva (UE) 2018/958 privește reglementarea profesiilor și nu instituie un test obligatoriu pentru acest impozit sectorial. Proporționalitatea rămâne relevantă prin libertățile pieței interne: garanția fixă și condițiile reprezentării trebuie justificate inclusiv în raport cu mecanismele de recuperare din Directiva 2010/24/UE. Proiectul nu reglementează servicii digitale sau AI; nu se identifică în text o obligație evidentă de notificare TRIS potrivit Directivei (UE) 2015/1535. Includerea bateriilor trebuie corelată cu Directiva TVA 2006/112/CE și condițiile aplicabile panourilor solare, fără a presupune automat eligibilitatea bateriilor independente.",
       "senatForm": {
-        "articleRef": "Art. unic – art. I pct. 5, art. 46²",
-        "proposalContent": "Dispoziția privind garanția se înlocuiește cu: «Garanția se stabilește prin decizie motivată, proporțional cu riscul individual de neplată, în limita ICAS estimat pentru un trimestru pe baza operațiunilor declarate. Se reanalizează trimestrial și se restituie în 30 de zile de la stingerea obligațiilor garantate.»",
-        "argumentation": "Garanția fixă de 1.000.000 euro poate bloca accesul operatorilor mici fără legătură cu impozitul datorat. Individualizarea păstrează protecția colectării și reduce riscul unor restricții disproporționate asupra libertăților de circulație și asupra concurenței.",
-        "otherComments": "Numerotarea și corelările trebuie definitivate pe textul integral al OG. Termenul indicat, 14.04.2025, este depășit; posibilitatea preluării ca amendament trebuie verificată. Analiza privește forma furnizată; verificarea online a surselor oficiale nu a fost disponibilă."
+        "articleRef": "Art. 46² alin. (16) din Codul fiscal",
+        "proposalContent": "Garanția se constituie prin scrisoare de garanție bancară sau consemnare la Trezoreria Statului. Organul fiscal o stabilește motivat, în limita impozitului estimat pentru un trimestru, pe baza veniturilor realizate ori estimate justificat, a riscului de neplată și a asistenței reciproce la recuperare. Cuantumul se revizuiește trimestrial.",
+        "argumentation": "Suma fixă de 1.000.000 euro nu este calibrată la datoria fiscală și poate exclude operatorii mici. O garanție raportată la expunerea fiscală păstrează protecția bugetului și reduce riscul de restrângere disproporționată a libertăților pieței interne.",
+        "otherComments": "Se propune introducerea expresă a modificării în legea de aprobare. Garanția există deja în OG nr. 3/2025; amendamentele Senatului nu o creează. Este necesară corelarea alin. (18)-(20) cu revizuirea trimestrială și stabilirea termenelor de ajustare sau restituire."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-09T08:26:30.017Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:32:26.925Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

@@ -2,14 +2,41 @@
   "billId": "PL-x 21/2026",
   "slug": "plx-21-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T07:02:48.765Z",
+  "updatedAt": "2026-11-24T15:31:33.197Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 1928,
+    "ordinanceChars": 0,
+    "memoChars": 6464,
+    "memoSupplied": 6464,
+    "marker": "SF-1E22BB35"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-21-2026.json",
+    "form": "senat",
+    "textHash": "1e22bb35baf6bb48",
+    "fetchedAt": "2026-11-19T10:46:40.991Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 2083,
+    "truncated": false,
+    "included": true,
+    "key": "ce30895bebb8e2a9"
+  },
   "consensus": {
-    "riskScore": 6.3,
+    "riskScore": 6,
     "riskLevel": "yellow",
-    "plainTitle": "Medicii care răspândesc dezinformare medicală pot fi suspendați, apoi scoși din profesie",
-    "summaryTlDr": "Scopul e legitim: medicii antivacciniști fac rău real, măsurabil. Textul e însă prea vag și sancțiunea e automată. Prima „abatere” aduce suspendarea, a doua excluderea din profesie, fără să se spună cine decide ce e „dovadă științifică recunoscută” și fără excepția pentru dezbaterea științifică.",
-    "initiatorClaim": "Inițiatorii (PSD și USR) spun că unii medici folosesc autoritatea profesiei pentru a răspândi dezinformare, mai ales antivaccinistă, cu efecte măsurabile, cum ar fi scăderea acoperirii vaccinale și focarele de rujeolă. Ei vor sancțiuni ferme, proceduri disciplinare rapide și protejarea prestigiului profesiei.",
-    "realityCheck": "Legea adaugă o abatere nouă în art. 450 alin.(1). Prin noul art. 455 alin.(4) impune sancțiuni fixe: interdicție de profesare între o lună și un an la prima abatere și retragerea calității de membru CMR (fără de care nu se poate profesa) la a doua. Fapta e deja sancționabilă azi, prin clauza generală a art. 450 privind prestigiul profesiei și prin Codul deontologic (art. 22 lit. k, citat chiar în expunere). Efectul nou real este dispariția gradării: comisia de disciplină nu mai poate alege mustrarea, avertismentul sau amenda. Promisiunea de „proceduri rapide” nu se regăsește în text, care nu stabilește niciun termen și niciun mecanism procedural nou.",
+    "plainTitle": "Medicii care răspândesc public dezinformare medicală pot fi suspendați și apoi excluși din profesie",
+    "summaryTlDr": "Scopul, combaterea dezinformării medicale în contextul rujeolei și al scăderii vaccinării, este legitim și important. Textul are însă o formulare vagă și impune sancțiuni minime rigide: suspendare obligatorie la prima abatere și excludere automată la a doua, fără ca organul disciplinar să mai poată individualiza sancțiunea.",
+    "initiatorClaim": "Inițiatorii vor să sancționeze ferm medicii care, folosindu-se de autoritatea profesională, promovează public informații false (în special antivaccinism), cu efecte asupra acoperirii vaccinale și sănătății publice.",
+    "realityCheck": "Art. 450 alin.(1) include acum explicit printre abaterile disciplinare răspândirea publică, prin orice mijloace, a informațiilor false sau contrare dovezilor științifice recunoscute, care pot pune în pericol sănătatea publică. Noul art. 455 alin.(4) elimină pentru această faptă sancțiunile ușoare (mustrare, avertisment, vot de blam, amendă) și impune direct interdicția de exercitare de 1 lună–1 an, iar la a doua abatere retragerea calității de membru CMR, adică pierderea dreptului de a profesa. Codul deontologic CMR (art. 22) sancționează deja fapta, dar acolo există excepția dezbaterilor din comunitatea medicală, pe care legea nu o preia.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Justiție & Drepturi Civile",
@@ -17,106 +44,139 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct. 2 – art. 455 alin.(4) L.95/2006",
-      "proposalContent": "„(4) Răspândirea în spațiul public de către un medic, cu știință, a unor informații false sau contrare ghidurilor de practică aprobate potrivit legii, care pun în pericol sănătatea publică, se sancționează potrivit alin.(1) lit.c)-f), după gravitatea faptei și antecedente. Nu constituie abatere dezbaterea științifică de bună-credință, argumentată cu date.”",
-      "argumentation": "Formula „contrare dovezilor științifice recunoscute” nu indică cine stabilește consensul și sancționează fără intenție sau pericol concret. Sancțiunea automată (interdicție, apoi excludere) elimină individualizarea cerută de art. 53 din Constituție. Codul deontologic CMR (art. 22) exceptează deja dezbaterile din comunitatea medicală; legea trebuie să păstreze excepția.",
-      "otherComments": "Aliniați corelativ și art. 450 alin.(1). Precizați că „a doua abatere” cere o primă sancțiune definitivă, neradiată. Interdicția poate declanșa alerta IMI în toată UE (Directiva 2005/36, art. 56a). Pentru medicii de familie, prevedeți înlocuirea temporară, ca pacienții să nu rămână fără medic. Lipsește testul de proporționalitate cerut de Directiva 2018/958."
+      "articleRef": "Art. unic pct.2 – art.455 alin.(4) L.95/2006",
+      "proposalContent": "Art.455 alin.(4): Răspândirea de către medic, în spațiul public, a unor informații vădit false sau contrare consensului științific, care pun în pericol sănătatea publică, se sancționează, după gravitate, cu sancțiunile de la alin.(1) lit.d)-e), iar la repetarea faptei în 3 ani, cu lit.e) sau f). Nu constituie abatere dezbaterea științifică argumentată.",
+      "argumentation": "Sancțiunea minimă obligatorie și excluderea automată la a doua faptă, fără termen, elimină individualizarea și riscă să fie disproporționate (art.53 Constituție, art.10 CEDO, Frankowicz c. Poloniei). Formula „contrare dovezilor... recunoscute” e vagă. Textul preia excepția dezbaterii științifice din Codul deontologic CMR.",
+      "otherComments": "Propun definirea „spațiului public” și precizarea că fapta vizează declarațiile făcute în calitate de medic. Lipsește pct.1 și formula introductivă la modificarea art.450 alin.(1). Recomand o analiză de proporționalitate conform Directivei (UE) 2018/958 înainte de adoptare."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 66425,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 84501,
+      "sourceEndMarker": "SF-1E22BB35",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Suspendarea sau excluderea medicilor care răspândesc public informații contrare dovezilor științifice",
-      "verdictShort": "Obiectivul combaterii pseudoștiinței medicale este legitim, însă textul este formulat vag, omite excepția dezbaterilor științifice și impune sancțiuni automate drastice (suspendarea dreptului de practică la prima abatere și excluderea definitivă la a doua), fără posibilitatea individualizării sancțiunii.",
-      "initiatorClaim": "Inițiatorii urmăresc protejarea sănătății publice și creșterea acoperirii vaccinale prin sancționarea disciplinară fermă a medicilor care își folosesc autoritatea profesională pentru a promova în spațiul public teorii antivacciniste sau tratamente periculoase și nevalidate științific.",
-      "realityCheck": "Legea transformă orice afirmație publică a unui medic considerată „contrară dovezilor științifice recunoscute” într-o abatere sancționată obligatoriu cu suspendarea dreptului de practică (1-12 luni) la prima abatere și interdicția definitivă de a profesa la a doua abatere. Spre deosebire de Codul deontologic al CMR, textul legii elimină excepția dezbaterilor din comunitatea medicală și interzice comisiilor de disciplină să aplice sancțiuni graduale (precum avertismentul sau amenda) în funcție de gravitatea concretă a faptei.",
+      "plainTitle": "Medici suspendați sau excluși automat din profesie pentru dezinformare, pe criterii prea vagi",
+      "verdictShort": "Scopul combaterii dezinformării medicale este legitim și necesar pentru sănătatea publică, dar textul adoptat de Senat introduce sancțiuni automate disproporționate (până la pierderea definitivă a profesiei la a doua abatere) pe baza unor formule vagi și fără excepția dezbaterii științifice.",
+      "initiatorClaim": "Inițiatorii (parlamentari PSD și USR) urmăresc să oprească dezinformarea medicală și militantismul antivaccinist al unor medici, pe fondul prăbușirii ratei de vaccinare și al epidemiei de rujeolă, pentru a proteja sănătatea publică și prestigiul profesiei.",
+      "realityCheck": "În prezent, Codul deontologic interzice deja respingerea publică a tratamentelor validate, dar exceptează dezbaterile din comunitatea medicală, iar art. 455 din Legea 95/2006 oferă sancțiuni graduale (de la mustrare și amendă până la suspendare sau excludere). Proiectul elimină individualizarea sancțiunii și excepția dezbaterii științifice: pentru orice afirmație publică „contrară dovezilor științifice recunoscute” care „poate” pune în pericol sănătatea publică, Colegiul Medicilor este obligat să aplice suspendarea (1–12 luni) la prima abatere și retragerea calității de membru CMR (interdicția de a profesa) la a doua abatere, fără termen de prescripție a recidivei, deși dreptul de contestare în instanță din restul Legii 95/2006 rămâne nemodificat.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Sancțiuni obligatorii și rigide (Art. 455 alin. 4): Comisiile de disciplină nu mai pot aplica sancțiunile mai ușoare din lege (mustrare, avertisment, vot de blam, amendă), fiind obligate să suspende dreptul de practică (1 lună - 1 an) încă de la prima abatere și să retragă calitatea de membru CMR la a doua abatere.",
-        "Eliminarea excepției pentru dezbaterile academice (Art. 450 alin. 1): Deși Expunerea de Motive invocă art. 22 lit. k) din Codul de deontologie medicală — care protejează explicit „dezbaterile din comunitatea medicală” —, textul legii omite această garanție, riscând să sancționeze opinii științifice divergente exprimate în conferințe sau publicații publice.",
-        "Eroare de tehnică legislativă în textul adoptat de Senat: La Articolul unic lipsește formula introductivă pentru punctul 1 („1. La articolul 450, alineatul (1) se modifică și va avea următorul cuprins:”), trecându-se direct la redarea textului Art. 450 alin. (1), urmat de punctul 2."
+        "Art. 455 alin. (4) impune sancțiuni rigide și automate, eliminând treptele graduale din alin. (1) lit. a)-d): suspendarea dreptului de practică între o lună și un an este obligatorie la prima abatere, iar retragerea calității de membru CMR (care blochează exercitarea profesiei) devine obligatorie la a doua abatere, fără a preciza un termen în care operează recidiva sau o durată a interdicției.",
+        "Art. 450 alin. (1) definește abaterea prin termeni impreciși („informații false sau contrare dovezilor științifice recunoscute la nivel național și internațional”, „care pot pune în pericol sănătatea publică”), fără a cere intenția sau reaua-credință și fără a stabili cine certifică „dovezile recunoscute” atunci când consensul științific evoluează.",
+        "Deși Expunerea de motive invocă art. 22 din Codul deontologic al CMR — care exclude expres „dezbaterile din comunitatea medicală” — textul legii adoptat de Senat omite complet orice protecție pentru dezbaterea științifică, academică sau critica de bună-credință a protocoalelor.",
+        "Forma adoptată de Senat conține o eroare flagrantă de tehnică legislativă: lipsește complet partea dispozitivă a punctului 1 („1. La articolul 450, alineatul (1) se modifică și va avea următorul cuprins:”) precum și ghilimelele de închidere la finalul art. 450 alin. (1), sărind direct la punctul 2."
       ],
-      "blindSpotsCaught": "Contradicție între Expunerea de Motive și textul normativ: inițiatorii citează din Codul deontologic excepția dezbaterilor din comunitatea medicală, dar uită să o includă în lege. În plus, nu a fost realizat testul de proporționalitate obligatoriu conform Directivei (UE) 2018/958 (Legea nr. 245/2020) pentru înăsprirea regimului de exercitare a unei profesii reglementate, iar textul Senatului are o greșeală materială de numerotare la punctul 1.",
-      "constitutionalityNote": "Ridică probleme de previzibilitate (Art. 1 alin. 5 din Constituție) prin sintagma nedefinită „dovezi științifice recunoscute la nivel național și internațional”, în lipsa raportării la ghiduri și protocoale clinice oficiale. De asemenea, imposibilitatea individualizării sancțiunii sub pragul suspendării din profesie la prima abatere și excluderea automată la a doua abatere pot încălca principiul proporționalității restrângerii dreptului la muncă și al libertății de exprimare (Art. 30, Art. 41 și Art. 53 din Constituție), raportat la jurisprudența CCR privind sancțiunile fixe.",
-      "euLawNote": "Intră sub incidența Directivei (UE) 2018/958 privind efectuarea unui test de proporționalitate înainte de adoptarea unor noi reglementări referitoare la profesiile reglementate (transpusă prin Legea nr. 245/2020), întrucât instituie condiții noi de suspendare și retragere a dreptului de liberă practică medicală fără o analiză formală a proporționalității în documentele de fundamentare. De asemenea, jurisprudența CEDO (Art. 10) cere ca radierea sau suspendarea medicilor pentru declarații publice să fie o măsură de ultimă instanță, strict individualizată.",
+      "blindSpotsCaught": "Proiectul ascunde trei capcane subtile: (1) dispariția excepției pentru dezbaterile științifice/academice în trecerea de la Codul deontologic citat în Expunerea de motive la textul efectiv al art. 450 alin. (1); (2) lipsa unui termen de prescripție pentru „a doua abatere” la art. 455 alin. (4), astfel încât două declarații separate de 10-15 ani pot duce automat la pierderea profesiei; (3) omisiunea totală din forma Senatului a formulei introductive pentru punctul 1 al Articolului unic și lipsa testului de proporționalitate impus de Directiva (UE) 2018/958.",
+      "constitutionalityNote": "Deși scopul protejării dreptului la sănătate (art. 34) este legitim, textul prezintă riscuri serioase de neconstituționalitate: (1) Art. 1 alin. (5) privind calitatea și previzibilitatea legii — din cauza noțiunilor nedefinite („dovezi științifice recunoscute”, pericol abstract „pot pune în pericol”) și a erorii de tehnică legislativă de la pct. 1; (2) Art. 30 (libertatea de exprimare) și Art. 41 (dreptul la muncă/exercitarea profesiei) coroborate cu Art. 53 (proporționalitatea restrângerii) — sancțiunile disciplinare automate, fără individualizare în funcție de vinovăție și gravitate și fără salvgardarea dezbaterii științifice, pot produce un efect descurajant (chilling effect) asupra medicilor.",
+      "euLawNote": "Medicina este profesie reglementată (Directiva 2005/36/CE), iar introducerea unor restricții noi privind exercitarea ei (inclusiv sancțiuni disciplinare automate de suspendare și retragere a dreptului de practică) obligă statul membru, potrivit Directivei (UE) 2018/958, să realizeze un test prealabil de proporționalitate care să demonstreze de ce măsuri mai puțin restrictive sunt insuficiente; acest test lipsește din Expunerea de motive. De asemenea, restricțiile automate asupra exprimării profesionale trebuie să respecte art. 11 și art. 15 din Carta Drepturilor Fundamentale a UE. Directiva (UE) 2015/1535 (TRIS) nu pare incidentă direct, întrucât norma vizează răspunderea disciplinară a medicilor, nu obligații directe pentru furnizorii de servicii ale societății informaționale.",
       "senatForm": {
-        "articleRef": "Articol unic pct. 1 și 2 (Art. 450 și Art. 455)",
-        "proposalContent": "La Art. 450 (1), după „informații false sau contrare dovezilor științifice” se introduce „și ghidurilor clinice oficiale, cu excepția dezbaterilor științifice și academice,”. La Art. 455, alin. (4) se modifică pentru a permite individualizarea sancțiunii de la avertisment/amendă până la suspendare sau retragerea calității de membru CMR, în funcție de gravitatea faptei și vinovăție.",
-        "argumentation": "Deși combaterea dezinformării medicale este necesară, textul omite excepția dezbaterilor științifice (prezentă în art. 22 lit. k din Codul deontologic) și impune sancțiuni fixe drastice (suspendare de la prima abatere, excludere la a doua), fără posibilitatea individualizării proporționale a sancțiunii conform art. 53 din Constituție și jurisprudenței CCR/CEDO.",
-        "otherComments": "În forma adoptată de Senat există o eroare de tehnică legislativă (Legea 24/2000): lipsește partea introductivă a pct. 1 („1. La articolul 450, alineatul (1) se modifică și va avea următorul cuprins:”). De asemenea, proiectul necesită testul de proporționalitate pentru profesiile reglementate conform Legii nr. 245/2020 (Directiva UE 2018/958)."
-      }
+        "articleRef": "Art. 450 alin. (1) și Art. 455 alin. (4)",
+        "proposalContent": "La art. 450(1), introduceți excepția dezbaterilor științifice/academice și condiția intenției sau culpei grave. La art. 455(4), permiteți individualizarea sancțiunilor (inclusiv amendă/cursuri) și limitați retragerea calității de membru la abateri grave repetate într-un termen clar (ex. 3 ani). Corectați omisiunea părții dispozitive a pct. 1.",
+        "argumentation": "Textul actual încalcă previzibilitatea (art. 1 alin. 5) și proporționalitatea (art. 53 Constituție). Fără excepția dezbaterii științifice (prezentă în Codul deontologic) și fără cerința vinovăției, sancțiunea automată cu suspendarea la prima abatere și pierderea definitivă a dreptului de practică la a doua pot bloca critica medicală legitimă.",
+        "otherComments": "Lipsește testul de proporționalitate cerut de Directiva (UE) 2018/958 pentru noi restricții privind exercitarea profesiei medicale. În plus, forma adoptată de Senat omite formula dispozitivă a pct. 1 și ghilimelele de închidere ale art. 450(1), încălcând Legea nr. 24/2000 privind tehnica legislativă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 162398,
-      "riskScore": 6,
+      "durationMs": 44384,
+      "sourceEndMarker": "SF-1E22BB35",
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Medicii care răspândesc dezinformare medicală pot fi suspendați, apoi scoși din profesie",
-      "verdictShort": "Scopul e legitim: medicii antivacciniști fac rău real, măsurabil. Textul e însă prea vag și sancțiunea e automată. Prima „abatere” aduce suspendarea, a doua excluderea din profesie, fără să se spună cine decide ce e „dovadă științifică recunoscută” și fără excepția pentru dezbaterea științifică.",
-      "initiatorClaim": "Inițiatorii (PSD și USR) spun că unii medici folosesc autoritatea profesiei pentru a răspândi dezinformare, mai ales antivaccinistă, cu efecte măsurabile, cum ar fi scăderea acoperirii vaccinale și focarele de rujeolă. Ei vor sancțiuni ferme, proceduri disciplinare rapide și protejarea prestigiului profesiei.",
-      "realityCheck": "Legea adaugă o abatere nouă în art. 450 alin.(1). Prin noul art. 455 alin.(4) impune sancțiuni fixe: interdicție de profesare între o lună și un an la prima abatere și retragerea calității de membru CMR (fără de care nu se poate profesa) la a doua. Fapta e deja sancționabilă azi, prin clauza generală a art. 450 privind prestigiul profesiei și prin Codul deontologic (art. 22 lit. k, citat chiar în expunere). Efectul nou real este dispariția gradării: comisia de disciplină nu mai poate alege mustrarea, avertismentul sau amenda. Promisiunea de „proceduri rapide” nu se regăsește în text, care nu stabilește niciun termen și niciun mecanism procedural nou.",
-      "affectedGroups": [
-        "Sănătate & Educație",
-        "Justiție & Drepturi Civile"
-      ],
-      "keyFindings": [
-        "Art. 455 alin.(4) nou: sancțiunea e obligatorie și nu mai poate fi graduată. Prima abatere aduce interdicție de 1 lună–1 an (lit. e), a doua retragerea calității de membru CMR (lit. f). Sancțiunile de la lit. a)–d) (mustrare, avertisment, vot de blam, amendă) devin inaplicabile, indiferent de gravitate, intenție sau efectul real.",
-        "Art. 450 alin.(1): formula „informații false SAU contrare dovezilor științifice recunoscute la nivel național și internațional” nu spune cine certifică consensul (Ministerul Sănătății, ghidurile clinice, OMS, CMR?). Nu spune nici ce se întâmplă când recomandările naționale și internaționale diferă ori se schimbă.",
-        "Pericolul cerut e doar potențial („care pot pune în pericol”), iar textul nu cere intenție sau cunoașterea falsității. O eroare de bună-credință într-un interviu poate duce direct la suspendare.",
-        "Codul deontologic exceptează „dezbaterile din comunitatea medicală”, iar expunerea de motive citează chiar această excepție. Legea o omite, deși „prin orice mijloace” acoperă și conferințe, articole sau postări în care medicii contestă legitim o practică.",
-        "„A doua abatere” nu e definită: textul nu spune dacă prima sancțiune trebuie să fie definitivă și nici dacă o sancțiune radiată mai contează.",
-        "Statul nu are costuri. Costurile cad pe comisiile de disciplină ale CMR (mai multe sesizări, mai multe contestații în instanță) și pe medicii din cabinete private, pentru care o interdicție de până la un an înseamnă pierderea întregului venit."
-      ],
-      "blindSpotsCaught": "Excepția pentru dezbaterea științifică, invocată chiar de inițiatori, lipsește din lege, iar legea prevalează asupra Codului deontologic. O interdicție dispusă de CMR intră probabil în mecanismul european de alertă IMI (art. 56a din Directiva 2005/36), deci medicul ar fi semnalat în toate statele UE. Pentru un medic de familie, suspendarea lasă mii de pacienți înscriși pe listă fără medic, iar legea nu prevede înlocuirea lui. Pandemia arată riscul criteriului: în martie 2020, OMS afirma public că virusul nu se transmite pe cale aeriană, deci un medic care susținea contrariul ar fi contrazis atunci „dovezile recunoscute internațional”.",
-      "constitutionalityNote": "Protecția sănătății publice (art. 53) poate justifica restrângerea libertății de exprimare (art. 30) și a dreptului de a profesa (art. 41), dar restrângerea trebuie să fie previzibilă și proporțională. Textul are două probleme. Prima: noțiunea „contrare dovezilor științifice recunoscute”, fără autoritate de referință și fără cerința intenției, slăbește previzibilitatea cerută de art. 1 alin.(5); art. 23 alin.(12) vizează în principal sancțiunile penale, deci aici standardul vine din art. 1 alin.(5). A doua: sancțiunea fixă, care exclude individualizarea, e greu de conciliat cu proporționalitatea din art. 53 alin.(2). CEDO a constatat încălcarea art. 10 când un medic a fost sancționat disciplinar pentru o opinie profesională critică (Frankowicz c. Polonia, 2008). Pentru medicii care sunt și parlamentari, art. 72 îi protejează de răspundere pentru opiniile politice exprimate în exercitarea mandatului. Riscul de neconstituționalitate e moderat și poate fi redus prin amendamente.",
-      "euLawNote": "Directiva 2018/958: medicina e profesie reglementată. Aplicarea directivei la normele disciplinare e discutabilă, dar o interdicție obligatorie de profesare afectează exercitarea profesiei, așa că prudent ar fi un test de proporționalitate ex ante, cu motivare publică și consultarea părților interesate. Expunerea de motive nu conține un astfel de test. Directiva acceptă explicit protecția sănătății ca obiectiv, deci problema nu e scopul, ci automatismul sancțiunii. Directiva 2005/36: medicii din alte state UE care prestează temporar servicii în România sunt supuși regulilor disciplinare locale (art. 5 alin.(3)), iar interdicțiile se semnalează prin alerta IMI (art. 56a). TRIS (2015/1535) nu se aplică, fiindcă legea reglementează conduita unei profesii, indiferent de canal, nu servicii ale societății informaționale. Nici DSA nu e afectat, fiindcă legea nu impune obligații platformelor.",
-      "senatForm": {
-        "articleRef": "Art. unic pct. 2 – art. 455 alin.(4) L.95/2006",
-        "proposalContent": "„(4) Răspândirea în spațiul public de către un medic, cu știință, a unor informații false sau contrare ghidurilor de practică aprobate potrivit legii, care pun în pericol sănătatea publică, se sancționează potrivit alin.(1) lit.c)-f), după gravitatea faptei și antecedente. Nu constituie abatere dezbaterea științifică de bună-credință, argumentată cu date.”",
-        "argumentation": "Formula „contrare dovezilor științifice recunoscute” nu indică cine stabilește consensul și sancționează fără intenție sau pericol concret. Sancțiunea automată (interdicție, apoi excludere) elimină individualizarea cerută de art. 53 din Constituție. Codul deontologic CMR (art. 22) exceptează deja dezbaterile din comunitatea medicală; legea trebuie să păstreze excepția.",
-        "otherComments": "Aliniați corelativ și art. 450 alin.(1). Precizați că „a doua abatere” cere o primă sancțiune definitivă, neradiată. Interdicția poate declanșa alerta IMI în toată UE (Directiva 2005/36, art. 56a). Pentru medicii de familie, prevedeți înlocuirea temporară, ca pacienții să nu rămână fără medic. Lipsește testul de proporționalitate cerut de Directiva 2018/958."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 122354,
-      "riskScore": 7,
-      "riskLevel": "red",
-      "plainTitle": "Medicii pot pierde dreptul de practică pentru informații medicale periculoase",
-      "verdictShort": "Combaterea dezinformării medicale este legitimă și utilă, dar textul combină o abatere insuficient delimitată cu sancțiuni obligatorii foarte severe. Riscul principal este sancționarea disproporționată și descurajarea dezbaterii medicale de bună-credință.",
-      "initiatorClaim": "Inițiatorii urmăresc protejarea sănătății publice împotriva informațiilor medicale false, inclusiv a dezinformării despre vaccinare. Ei promit sancțiuni proporționale, proceduri rapide și păstrarea drepturilor fundamentale ale medicilor.",
-      "realityCheck": "Art. 450 alin. (1) introduce expres o abatere disciplinară pentru comunicarea publică a unor informații false sau contrare dovezilor științifice recunoscute, susceptibile să pericliteze sănătatea publică, fără limitare la vaccinuri. Art. 455 alin. (4) impune interdicția exercitării profesiei ori a anumitor activități pentru 1–12 luni la prima abatere și retragerea calității de membru CMR la a doua, după constatarea disciplinară. Proiectul nu introduce vaccinare obligatorie, infracțiuni sau proceduri disciplinare accelerate, iar sancțiunile rămân contestabile.",
+      "plainTitle": "Medicii care răspândesc public dezinformare medicală pot fi suspendați și apoi excluși din profesie",
+      "verdictShort": "Scopul, combaterea dezinformării medicale în contextul rujeolei și al scăderii vaccinării, este legitim și important. Textul are însă o formulare vagă și impune sancțiuni minime rigide: suspendare obligatorie la prima abatere și excludere automată la a doua, fără ca organul disciplinar să mai poată individualiza sancțiunea.",
+      "initiatorClaim": "Inițiatorii vor să sancționeze ferm medicii care, folosindu-se de autoritatea profesională, promovează public informații false (în special antivaccinism), cu efecte asupra acoperirii vaccinale și sănătății publice.",
+      "realityCheck": "Art. 450 alin.(1) include acum explicit printre abaterile disciplinare răspândirea publică, prin orice mijloace, a informațiilor false sau contrare dovezilor științifice recunoscute, care pot pune în pericol sănătatea publică. Noul art. 455 alin.(4) elimină pentru această faptă sancțiunile ușoare (mustrare, avertisment, vot de blam, amendă) și impune direct interdicția de exercitare de 1 lună–1 an, iar la a doua abatere retragerea calității de membru CMR, adică pierderea dreptului de a profesa. Codul deontologic CMR (art. 22) sancționează deja fapta, dar acolo există excepția dezbaterilor din comunitatea medicală, pe care legea nu o preia.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Justiție & Drepturi Civile",
-        "IMM & Antreprenori"
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 450 alin. (1): falsitatea și contrarietatea față de dovezile științifice sunt criterii alternative; condiția pericolului pentru sănătatea publică trebuie însă îndeplinită în ambele situații. Nu sunt precizate sursele relevante, reperul temporal al dovezilor sau delimitarea dintre afirmații factuale, ipoteze și opinii științifice.",
-        "Art. 455 alin. (4): după constatarea primei abateri, comisia nu mai poate alege doar mustrarea, avertismentul ori altă sancțiune mai ușoară. Există individualizare în privința duratei și întinderii interdicției, dar retragerea calității de membru CMR devine obligatorie la a doua abatere.",
-        "Sintagma privind posibilitatea periclitării sănătății publice permite intervenția preventivă, fără dovedirea unui pacient efectiv prejudiciat. Aceasta este justificabilă pentru protejarea sănătății, dar impune demonstrarea motivată a riscului și garanții împotriva sancționării simplelor divergențe științifice.",
-        "Retragerea calității de membru CMR nu înseamnă obligatoriu excludere pe viață: art. 457 alin. (3) permite solicitarea redobândirii după doi ani în cazul sancțiunii disciplinare, în condițiile legii. Art. 456 și 459 păstrează căile de contestare. [Legea nr. 95/2006, publicată de ANMDMR](https://www.anm.ro/_/LEGISLATIE%20FARMACOVIGILENTA/Legea%20nr.%2095-2006%20privind%20reforma%20%C3%AEn%20domeniul%20s%C4%83n%C4%83t%C4%83%C8%9Bii%2C%20republicat%C4%83%2C%20cu%20modific%C4%83rile%20%C8%99i%20complet%C4%83rile%20ulterioare.pdf).",
-        "Textul nu introduce taxe, raportări sau autorizații suplimentare pentru cetățeni ori IMM-uri și nu cuantifică un impact bugetar. Sunt posibile costuri suplimentare pentru expertize, apărare și soluționarea contestațiilor, precum și întreruperea activității cabinetelor medicilor sancționați; acestea sunt efecte potențiale, nu obligații administrative noi."
+        "Art. unic – art. 450 alin.(1): noua abatere folosește criterii vagi („contrare dovezilor științifice recunoscute la nivel național și internațional”, „pot pune în pericol”). Legea nu spune cine stabilește consensul și nici cum, iar pericolul este doar abstract, nu dovedit.",
+        "Art. unic pct.2 – art. 455 alin.(4): sancțiunea minimă obligatorie este suspendarea din profesie. Mustrarea, avertismentul, votul de blam și amenda, prevăzute azi la alin.(1) lit.a)-d), nu se mai pot aplica, indiferent de gravitate, de audiență sau de buna-credință a medicului.",
+        "Excluderea din CMR la „a doua abatere” nu are termen de recidivă. O faptă veche de 10 ani, chiar dacă sancțiunea a fost executată, ar putea atrage automat pierderea dreptului de practică.",
+        "Textul nu preia excepția din Codul deontologic CMR (art. 22 alin.11 lit.k) pentru dezbaterile din comunitatea medicală. Pot fi astfel expuse la sancțiune opiniile științifice minoritare, dar argumentate, sau poziții devenite ulterior consens.",
+        "Fapta nu este legată de calitatea de medic invocată public și nici de domeniul de competență. „Spațiul public” și „prin orice mijloace” nu sunt definite (postări private, interviuri, conferințe).",
+        "Redactare: lipsește punctul „1.” și formula introductivă la modificarea art. 450 alin.(1); textul începe direct cu ghilimelele."
       ],
-      "blindSpotsCaught": "Sintagma «la a doua abatere» nu este corelată expres cu radierea sancțiunii anterioare. Art. 457 alin. (2) prevede radierea interdicției, iar alin. (5) tratează repetarea înainte de radiere drept circumstanță agravantă; proiectul lasă neclar dacă o faptă ulterioară radierii declanșează tot retragerea obligatorie. Nu precizează nici dacă prima sancțiune trebuie să fi devenit definitivă înaintea celei de-a doua fapte. [Legea nr. 95/2006, art. 457](https://edirect.e-guvernare.ro/Uploads/Legi/36697/legea-95-2006-forma-sintetica-pentru-data-2023-12-19.pdf).",
-      "constitutionalityNote": "Există un risc serios de incompatibilitate cu cerința de claritate și previzibilitate din art. 1 alin. (5), prin imprecizia reperelor științifice și a repetării abaterii. Restrângerea exprimării și a exercitării profesiei trebuie analizată prin art. 30 și 41, raportate la art. 53: ocrotirea sănătății, protejată de art. 34, justifică intervenția, dar nu dispensează legiuitorul de necesitatea individualizării sancțiunilor. Absența unei protecții explicite pentru dezbaterea științifică de bună-credință amplifică riscul de autocenzură. Art. 23 alin. (12) privește legalitatea pedepselor în materie penală și nu trebuie aplicat automat unei sancțiuni profesionale disciplinare; analiza principală rămâne cea privind calitatea legii și proporționalitatea. Aceste vulnerabilități nu echivalează cu o constatare de neconstituționalitate. [Constituția României](https://www.cdep.ro/ords/pls/dic/site2015.page?den=act2_1&par1=2).",
-      "euLawNote": "Directiva (UE) 2018/958, în special art. 2, 4 și 7, impune evaluarea prealabilă a proporționalității restricțiilor privind exercitarea profesiilor reglementate; cadrul intern este Legea nr. 245/2020. Expunerea furnizată nu demonstrează de ce sancțiunile mai ușoare existente sunt insuficiente și de ce retragerea obligatorie la a doua abatere este necesară, dar aceasta nu dovedește că o evaluare lipsește din întregul dosar. Trebuie analizate alternativele, efectele asupra disponibilității serviciilor și concurenței; proiectul nu creează un monopol nou, însă poate exclude prestatori din piață. Sănătatea publică poate justifica restricții proporționale și nediscriminatorii. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018L0958), [Legea nr. 245/2020](https://legislatie.just.ro/Public/DetaliiDocument/298613). Din textul și motivarea furnizate nu rezultă o reglementare destinată specific serviciilor digitale sau AI; aplicarea prin orice mijloace, inclusiv online, nu declanșează singură notificarea TRIS. [Directiva 2015/1535, art. 1 alin. (1) lit. e)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32015L1535).",
+      "blindSpotsCaught": "Legea mută o regulă deontologică deja existentă din Codul CMR în lege, dar o face mai dură și mai largă: pierde excepția dezbaterii științifice și adaugă sancțiuni minime obligatorii. Rezultatul este un automatism disciplinar cu sancțiuni fixe, fără individualizare și fără termen de recidivă, într-un domeniu care atinge direct libertatea de exprimare. Nicio prevedere nu cere ca informația să fie prezentată cu invocarea calității de medic.",
+      "constitutionalityNote": "Ingerința în libertatea de exprimare (art. 30) urmărește un scop legitim, protecția sănătății publice (art. 34, art. 53). Ea trebuie însă prevăzută de o lege clară și previzibilă (art. 1 alin.5), iar criteriile vagi privind „dovezile științifice recunoscute” pot fi contestate pe acest temei. Sancțiunile minime obligatorii și excluderea automată la a doua abatere ridică probleme de proporționalitate (art. 53 alin.2) și afectează dreptul la muncă și alegerea profesiei (art. 41). Jurisprudența CEDO pe art. 10 (de ex. Frankowicz c. Poloniei, 2008) arată că sancțiunile disciplinare aplicate medicilor pentru declarații publice trebuie strict proporționale și individualizate. Legea poate trece testul de constituționalitate dacă textul este precizat și se reintroduce gradarea sancțiunilor.",
+      "euLawNote": "Directiva (UE) 2018/958 cere un test de proporționalitate înainte de introducerea unor dispoziții noi care limitează exercitarea unei profesii reglementate. Regulile disciplinare care pot duce la pierderea dreptului de practică intră plauzibil în această categorie, iar expunerea de motive nu conține nicio astfel de analiză. Directiva 2015/1535 (TRIS) nu se aplică, pentru că textul nu vizează specific serviciile societății informaționale. Directiva 2005/36 permite aplicarea regulilor disciplinare ale statului gazdă și medicilor UE care prestează temporar servicii în România. Nu există impact bugetar ori sarcini pentru IMM-uri sau cetățeni.",
       "senatForm": {
-        "articleRef": "Articolul unic pct. 2 – art. 455 alin. (4)",
-        "proposalContent": "(4) Pentru fapta privind răspândirea de informații prevăzută la art. 450 alin. (1), sancțiunea se alege dintre cele prevăzute la alin. (1), în funcție de vinovăție, gravitatea pericolului dovedit pentru sănătatea publică, amploarea difuzării și rectificarea informației. Repetarea abaterii se apreciază potrivit art. 457 alin. (5).",
-        "argumentation": "Interdicția obligatorie de la prima abatere și retragerea obligatorie la a doua împiedică alegerea unei sancțiuni mai ușoare când gravitatea este redusă. Individualizarea protejează sănătatea publică și respectă art. 30, 41 și 53 din Constituție, precum și testul de proporționalitate prevăzut de Legea nr. 245/2020.",
-        "otherComments": "Solicit și clarificarea art. 450 alin. (1): informații medicale factuale verificabile, dovezi evaluate la data comunicării și pericol motivat pe baza contextului. Trebuie protejate dezbaterea științifică de bună-credință și comunicarea incertitudinilor. Petiția privește PL-x 21/2026 și se adresează Comisiei pentru sănătate și familie a Camerei Deputaților."
-      }
+        "articleRef": "Art. unic pct.2 – art.455 alin.(4) L.95/2006",
+        "proposalContent": "Art.455 alin.(4): Răspândirea de către medic, în spațiul public, a unor informații vădit false sau contrare consensului științific, care pun în pericol sănătatea publică, se sancționează, după gravitate, cu sancțiunile de la alin.(1) lit.d)-e), iar la repetarea faptei în 3 ani, cu lit.e) sau f). Nu constituie abatere dezbaterea științifică argumentată.",
+        "argumentation": "Sancțiunea minimă obligatorie și excluderea automată la a doua faptă, fără termen, elimină individualizarea și riscă să fie disproporționate (art.53 Constituție, art.10 CEDO, Frankowicz c. Poloniei). Formula „contrare dovezilor... recunoscute” e vagă. Textul preia excepția dezbaterii științifice din Codul deontologic CMR.",
+        "otherComments": "Propun definirea „spațiului public” și precizarea că fapta vizează declarațiile făcute în calitate de medic. Lipsește pct.1 și formula introductivă la modificarea art.450 alin.(1). Recomand o analiză de proporționalitate conform Directivei (UE) 2018/958 înainte de adoptare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 63988,
+      "sourceEndMarker": "SF-1E22BB35",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Suspendarea medicilor pentru dezinformare medicală publică",
+      "verdictShort": "Protejarea pacienților de dezinformarea medicală este legitimă, dar proiectul combină o abatere insuficient delimitată cu sancțiuni obligatorii foarte severe. Textul poate descuraja inclusiv exprimarea unor opinii medicale argumentate și trebuie corectat înainte de adoptare.",
+      "initiatorClaim": "Inițiatorii urmăresc combaterea informațiilor medicale false, în special a dezinformării despre vaccinare, și protejarea sănătății publice. Ei afirmă că măsurile vor permite sancțiuni proporționale și vor respecta drepturile fundamentale ale medicilor.",
+      "realityCheck": "Proiectul introduce expres răspunderea disciplinară pentru informații publice false sau contrare dovezilor științifice recunoscute, susceptibile să pericliteze sănătatea publică; aplicarea sa depășește tema vaccinării. Sancțiunile există deja în lege, dar devin obligatorii pentru această abatere: interdicție profesională între o lună și un an la prima abatere și retragerea calității de membru CMR la a doua. Textul nu introduce proceduri accelerate, deși expunerea de motive invocă rapiditatea, și nu elimină expres garanțiile procedurale existente.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Justiție & Drepturi Civile",
+        "IMM & Antreprenori",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 450 alin. (1): «false sau contrare dovezilor științifice» formulează două ipoteze alternative. O afirmație ar putea fi cercetată disciplinar pentru contradicția cu dovezile recunoscute, fără demonstrarea distinctă a falsității sale, dacă este îndeplinită și condiția pericolului pentru sănătatea publică.",
+        "Art. 450 alin. (1): condiția «care pot pune în pericol sănătatea publică» restrânge abaterea și nu poate fi ignorată. Totuși, nu sunt precizate gravitatea sau probabilitatea riscului și nici criteriile de stabilire a dovezilor recunoscute la nivel național și internațional.",
+        "Art. 455 alin. (4): în prezent, alin. (1) permite sancțiuni de la mustrare până la retragerea calității de membru CMR. Proiectul impune pentru noua abatere direct interdicția profesională la prima constatare, excluzând sancțiunile mai ușoare; rămâne posibilă individualizarea duratei și a întinderii interdicției.",
+        "Art. 455 alin. (4): la a doua abatere este obligatorie retragerea calității de membru CMR, cu consecințe asupra exercitării profesiei. Textul nu permite alegerea unei sancțiuni mai ușoare în funcție de gravitatea concretă, dar nici nu declară expres retragerea definitivă pe viață.",
+        "Spre deosebire de formularea deontologică reprodusă în expunerea de motive, norma propusă nu menționează excepția dezbaterilor din comunitatea medicală. Expunerea de motive nu poate introduce singură această excepție în lege.",
+        "Proiectul nu precizează expres forma de vinovăție și nu distinge între eroare scuzabilă, neglijență și dezinformare deliberată. Această omisiune nu dovedește că răspunderea devine obiectivă, dar amplifică nevoia de corelare cu regulile disciplinare existente.",
+        "Nu apar taxe noi, obligații de raportare pentru populație sau cheltuieli bugetare directe cuantificate. Pot apărea costuri suplimentare de expertiză și litigii pentru medici și CMR, iar suspendarea unor medici poate afecta activitatea cabinetelor și accesul pacienților la servicii."
+      ],
+      "blindSpotsCaught": "Elementul decisiv este transformarea sancțiunilor existente într-o succesiune obligatorie, nu inventarea unor sancțiuni noi. Formula «a doua abatere» trebuie corelată cu regulile existente privind definitivarea și radierea sancțiunilor; proiectul nu le înlătură expres. De asemenea, motivarea concentrată pe vaccinare nu limitează juridic o normă aplicabilă oricărui subiect medical.",
+      "constitutionalityNote": "Scopul protejării sănătății este susținut de art. 34 din Constituție și poate justifica restrângeri ale exprimării profesionale. Totuși, delimitarea insuficientă a abaterii ridică probleme serioase de previzibilitate potrivit art. 1 alin. (5), iar severitatea obligatorie trebuie examinată prin art. 30, art. 41 și testul necesității și proporționalității din art. 53. Lipsa unei diferențieri suficiente între conduite și riscul descurajării dezbaterii medicale argumentate vulnerabilizează soluția. Art. 23 alin. (12) privește legalitatea pedepselor penale și nu se aplică automat unei sancțiuni disciplinare profesionale. Textul furnizat nu permite constatarea eliminării dreptului la apărare sau a controlului judecătoresc.",
+      "euLawNote": "Directiva (UE) 2018/958 este relevantă deoarece proiectul modifică reguli care restrâng exercitarea unei profesii reglementate. Este necesară evaluarea prealabilă a proporționalității, inclusiv justificarea sancțiunilor obligatorii, efectele asupra accesului la servicii și posibilitatea unor măsuri mai puțin restrictive; expunerea furnizată nu demonstrează efectuarea completă a acestei evaluări. Protecția sănătății este un obiectiv legitim, însă nu justifică automat orice restricție. Proiectul nu creează un monopol profesional nou, dar poate reduce oferta de servicii medicale. Directiva (UE) 2015/1535 nu pare să impună notificarea TRIS: regula vizează conduita medicilor prin orice mijloace, fără să reglementeze specific servicii ale societății informaționale sau sisteme AI. Folosirea internetului pentru comunicare nu este suficientă, singură, pentru aplicarea TRIS.",
+      "senatForm": {
+        "articleRef": "Art. unic: art. 450 alin. (1), art. 455 alin. (4)",
+        "proposalContent": "La art. 450 alin. (1), abaterea nouă va avea cuprinsul: «difuzarea publică, cu intenție sau din culpă gravă, de afirmații medicale factuale demonstrabil false, care creează un risc concret și grav pentru sănătatea publică; nu constituie abatere dezbaterea științifică de bună-credință». Se elimină art. 455 alin. (4) propus.",
+        "argumentation": "Definirea precisă protejează pacienții și permite distingerea dezinformării de eroarea scuzabilă și de controversa științifică. Eliminarea sancțiunilor obligatorii păstrează întregul sistem existent, inclusiv suspendarea și retragerea calității de membru CMR, permițând individualizarea proporțională cu gravitatea faptei.",
+        "otherComments": "Solicit documentarea testului de proporționalitate prevăzut de Directiva (UE) 2018/958 și corelarea cu regulile privind proba, contestarea și radierea sancțiunilor. Constatarea abaterii trebuie motivată prin dovezile disponibile la data comunicării și prin demonstrarea riscului concret pentru sănătatea publică."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 6.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T07:02:48.765Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 6,
+        "claude": 6,
+        "codex": 7
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:31:33.197Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

@@ -1,119 +1,179 @@
 {
   "billId": "PL-x 6/2026",
   "slug": "plx-6-2026",
-  "version": "senat",
-  "updatedAt": "2026-10-29T13:45:43.284Z",
+  "version": "camera",
+  "updatedAt": "2026-11-24T15:37:23.771Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "camera",
+    "billChars": 3293,
+    "ordinanceChars": 0,
+    "memoChars": 12722,
+    "memoSupplied": 12722,
+    "marker": "SF-F71C4977"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-6-2026.json",
+    "form": "camera",
+    "textHash": "f71c4977eb499823",
+    "fetchedAt": "2026-11-19T11:21:00.937Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 2998,
+    "truncated": false,
+    "included": true,
+    "key": "d33031e8aaf30e8c"
+  },
   "consensus": {
     "riskScore": 2,
     "riskLevel": "green",
-    "plainTitle": "Părțile aflate în alt stat UE pot participa online la procesele civile din România",
-    "summaryTlDr": "Lege tehnică și utilă. Aplică un regulament UE care se aplică de la 1 mai 2025 și scutește de drumuri și cheltuieli părțile aflate în alt stat membru. Riscul real ține de ce lipsește din text: cine cere videoconferința, dacă partea poate veni totuși în sală și ce se întâmplă când legătura cade.",
-    "initiatorClaim": "Guvernul spune că România trebuie să pună în aplicare art. 5 din Regulamentul (UE) 2023/2844. Azi, părțile aflate în alt stat membru pot fi audiate la distanță doar pentru obținerea de probe, nu pot participa propriu-zis la proces. Partea penală (art. 6 din regulament) ar fi deja acoperită de Legea 302/2004.",
-    "realityCheck": "Legea introduce art. I¹³ în OUG 119/2006. În procesele civile în care o parte sau reprezentantul ei se află în alt stat UE, instanța poate decide ca părțile să participe prin videoconferință. Decizia ține cont de tehnologia disponibilă, de opinia părților și de specificul cauzei. Citația trebuie să conțină ora orientativă și datele de acces, iar avocatul sau interpretul poate fi conectat din alt loc decât partea. Textul nu spune însă cine poate cere videoconferința, dacă partea o poate refuza și ce se întâmplă la o întrerupere a legăturii, așa că aceste goluri rămân în seama practicii fiecărei instanțe.",
+    "plainTitle": "Procese civile cu părți din alt stat UE: participare prin video, cu acordul instanței",
+    "summaryTlDr": "Lege tehnică și utilă, care aplică un regulament UE deja în vigoare din 1 mai 2025. Nu creează taxe, sancțiuni sau obligații pentru cetățeni. Lasă însă neclar ce se întâmplă la o pană tehnică și cum vorbește partea confidențial cu avocatul.",
+    "initiatorClaim": "Guvernul spune că legea română permite azi audierea prin video a părților din alt stat membru doar pentru obținerea de probe (Regulamentul 2020/1783). Proiectul vrea să aplice art. 5 din Regulamentul (UE) 2023/2844, ca părțile și reprezentanții lor să poată participa la tot procesul civil prin videoconferință.",
+    "realityCheck": "Proiectul introduce art. I¹³ în OUG 119/2006. Potrivit acestuia, în cauzele civile transfrontaliere în care o parte sau reprezentantul ei se află în alt stat UE, instanța poate decide participarea prin mijloace audiovizuale securizate. Decizia ține seama de tehnologia disponibilă, de opinia părților și de specificul cauzei. Este o facultate a instanței, nu un drept al părții. Textul nu reglementează întreruperea transmisiunii, căile de atac împotriva refuzului sau al dispunerii și canalul confidențial avocat–client. Nu prevede nici bugetul pentru echipamente, iar fișa financiară este goală.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "IMM & Antreprenori",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I¹³ din OUG 119/2006 – art. 2¹ (nou)",
-      "proposalContent": "Art. 2¹: Instanța hotărăște la cererea părții sau din oficiu, după ascultarea părților. Partea își păstrează dreptul de a se prezenta personal. Dacă legătura cade din motive neimputabile părții, aceasta nu se consideră lipsă, iar instanța reia ședința sau amână cauza. Instanța asigură accesul persoanelor cu dizabilități.",
-      "argumentation": "Textul nu spune cine cere videoconferința, dacă partea o poate refuza sau ce se întâmplă la o pană tehnică; o parte aflată în străinătate riscă să fie judecată în lipsă. Reg. 2023/2844 lasă procedura în seama dreptului național, deci legea română trebuie să o fixeze. Completarea asigură previzibilitatea (art. 1 alin. 5 Constituție) și dreptul la apărare (art. 24).",
-      "otherComments": "Legea e deja promulgată (Lege 87/2026), deci propunerea poate fi preluată doar printr-o nouă inițiativă de modificare. Fișa financiară e goală, deși instanțele au nevoie de o platformă sigură; Ministerul Justiției ar trebui să spună care e și cine o plătește. Merită unificată și denumirea „Regulamentul (UE) 2023/2844”, fără „nr.”, ca în prima mențiune."
+      "articleRef": "Art. I¹³ din OUG 119/2006 – art. 5 nou",
+      "proposalContent": "Se introduce art. 5: „(1) Dacă transmisiunea se întrerupe din motive tehnice neimputabile părții, instanța reia legătura sau amână cauza; partea nu poate fi socotită lipsă. (2) Instanța asigură, la cerere, un canal confidențial între parte și cel care o asistă sau reprezintă, înainte și în timpul ședinței.”",
+      "argumentation": "Textul nu spune ce se întâmplă la o pană tehnică, iar partea aflată în străinătate riscă suspendarea sau judecarea în lipsă. Art. 4 permite avocatului să nu stea lângă parte, fără a garanta comunicarea confidențială. Completarea protejează dreptul la apărare (art. 24 din Constituție) și art. 47 din Carta UE.",
+      "otherComments": "Corecturi: „se va desfășura” (art. 3) și „fără” (art. 4). Ar fi util să se precizeze că instanța dispune la cerere sau din oficiu și cum poate fi contestată încheierea. Fișa financiară nu estimează costul echipamentelor din instanțe."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 43168,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 53893,
+      "sourceEndMarker": "SF-F71C4977",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Participarea prin videoconferință la procesele civile transfrontaliere din UE",
-      "verdictShort": "O lege utilă și necesară care pune în aplicare Regulamentul (UE) 2023/2844, permițând românilor din diaspora europeană, firmelor și avocaților să participe online la ședințele de judecată civile. Singurul regret este că facilitatea rămâne limitată la litigiile intra-UE, fără a fi extinsă și la procesele pur interne.",
-      "initiatorClaim": "Guvernul urmărește alinierea legislației naționale la art. 5 din Regulamentul (UE) 2023/2844 privind digitalizarea cooperării judiciare, întrucât dreptul intern permitea videoconferința transfrontalieră doar pentru administrarea de probe, nu și pentru participarea efectivă a părților la dezbateri.",
-      "realityCheck": "Legea introduce art. I¹³ în OUG nr. 119/2006 și permite instanțelor să încuviințeze participarea prin telecomunicație audiovizuală a părților, avocaților, traducătorilor și interpreților aflați în alt stat membru UE, cu indicarea unui interval orar orientativ. Totuși, nu reglementează remediul procedural în cazul căderii conexiunii tehnice în timpul ședinței și creează o asimetrie față de litigiile naționale sau cu state non-UE.",
+      "plainTitle": "Procese civile prin videoconferință pentru părțile aflate în alte state UE",
+      "verdictShort": "Lege tehnică, utilă și benignă, care permite participarea la distanță prin videoconferință în procesele civile și comerciale transfrontaliere din UE. Riscurile sunt minime și țin doar de aplicarea neuniformă la instanțele slab dotate tehnic și de lipsa unor detalii privind consultarea confidențială avocat-client la distanță.",
+      "initiatorClaim": "Guvernul arată că legislația română permitea până acum videoconferința transfrontalieră doar pentru administrarea probelor, nu și pentru participarea efectivă la ședința de judecată, și urmărește punerea în aplicare a art. 5 din Regulamentul (UE) 2023/2844 (aplicabil din 1 mai 2025).",
+      "realityCheck": "Textul introduce Art. I^13 în OUG nr. 119/2006 și permite instanțelor să aprobe participarea prin videoconferință a părților, avocaților, traducătorilor și interpreților aflați în alt stat membru UE, reducând real costurile și deplasările. Totuși, decizia depinde de „disponibilitatea tehnologiei” fără ca proiectul să prevadă buget pentru dotarea instanțelor, iar legea nu reglementează mecanismul prin care partea se poate consulta confidențial cu avocatul atunci când aceștia nu sunt în aceeași încăpere.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "IMM & Antreprenori",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I¹³ (Art. 1 și 2): Instanțele pot aproba participarea online la ședințele civile în cauzele transfrontaliere UE, ținând cont de opinia părților, disponibilitatea tehnologiei și securitatea/confidențialitatea transmisiei.",
-        "Art. I¹³ (Art. 3): Citația trebuie să indice obligatoriu intervalul orar orientativ al strigării cauzei și datele tehnice de autentificare, cu înștiințare prin e-mail sau telefon chiar dacă partea are termen în cunoștință.",
-        "Art. I¹³ (Art. 4): Avocatul, consilierul, traducătorul sau interpretul poate participa la videoconferință dintr-o altă locație, fără obligația de a fi prezent fizic lângă parte."
+        "Art. I^13, Art. 1 și Art. 2: Instanțele pot aproba participarea prin mijloace audiovizuale în cauze civile transfrontaliere UE dacă sunt garantate verificarea identității, securitatea, confidențialitatea și respectarea GDPR, ținând cont de disponibilitatea tehnică, opinia părților și circumstanțele cauzei.",
+        "Art. I^13, Art. 3: Citația trebuie să indice intervalul orar orientativ al strigării cauzei și datele tehnice de acces și autentificare; părțile pot fi anunțate și prin telefon sau e-mail cu confirmare de primire, chiar dacă au termenul în cunoștință.",
+        "Art. I^13, Art. 4: Avocatul, reprezentantul, traducătorul sau interpretul pot participa la ședință prin videoconferință fără a fi prezenți fizic lângă parte, însă textul nu prevede expres obligația tehnică de a le asigura un canal privat de comunicare.",
+        "Expunerea de motive (Secțiunea a 4-a) declară lipsa impactului financiar, deși aplicarea efectivă depinde de echipamente și platforme securizate în instanțe, ceea ce poate crea diferențe practice între instanțele bine dotate și cele fără infrastructură."
       ],
-      "blindSpotsCaught": "Legea creează o „discriminare inversă” (reverse discrimination): un justițiabil aflat în alt stat UE primește acces la videoconferință și interval orar orientativ, în timp ce un cetățean aflat în alt județ din România sau într-un stat terț (Marea Britanie, SUA, R. Moldova) nu beneficiază de aceeași regulă generală în Codul de procedură civilă. De asemenea, structura OUG 119/2006 perpetuează anomalia de tehnică legislativă a numerotării unor „Art. 1-4” în interiorul „Art. I¹³”.",
-      "constitutionalityNote": "Textul este conform cu art. 21 (accesul liber la justiție), art. 24 (dreptul la apărare) și art. 148 (integrarea în UE) din Constituție.Din perspectiva art. 1 alin. (5) privind previzibilitatea legii, ar fi fost utilă precizarea consecințelor procedurale în cazul întreruperii neimputabile a conexiunii audiovizuale.",
-      "euLawNote": "Actul asigură aplicarea directă și efectivă a art. 5 din Regulamentul (UE) 2023/2844 (aplicabil de la 1 mai 2025). Nu instituie restricții privind profesiile reglementate (Directiva 2018/958), ci facilitează prestarea transfrontalieră a serviciilor avocațiale și de interpretariat, și nu necesită notificare TRIS (Directiva 2015/1535).",
+      "blindSpotsCaught": "Deși fișa Camerei Deputaților menționează art. 5 și 6 din Regulamentul (UE) 2023/2844 (inclusiv materia penală), textul legii reglementează exclusiv art. 5 (cauze civile/comerciale), deoarece Expunerea de motive consideră că în penal Legea nr. 302/2004 acoperă deja cerințele. În plus, Art. 4 nu menționează garanția consultării confidențiale avocat-client la distanță (cuprinsă în Regulamentul UE), iar textul adoptat conține două erori minore de redactare („se va desfășură” la Art. 3 și „fară” la Art. 4).",
+      "constitutionalityNote": "Conformă în ansamblu cu Constituția României, sprijinind accesul liber la justiție (art. 21) și integrarea normelor UE (art. 148). Sub aspectul calității legii (art. 1 alin. 5) și al dreptului la apărare (art. 24), lipsa unor detalii privind procedura de contestare a refuzului instanței și modul de asigurare a confidențialității comunicării avocat-client din locații separate rămâne minoră, fiind suplinită prin aplicarea directă a Regulamentului (UE) 2023/2844 și a Codului de procedură civilă. Adoptarea ca lege organică (art. 76 alin. 1) nu ridică probleme de constituționalitate.",
+      "euLawNote": "Proiectul asigură cadrul național de aplicare a art. 5 din Regulamentul (UE) 2023/2844 (în vigoare din 1 mai 2025) și trimite expres la respectarea legislației privind protecția datelor cu caracter personal (GDPR). Nu intră sub incidența Directivei (UE) 2018/958 privind testul de proporționalitate (nu restricționează accesul la profesii reglementate) și nu necesită notificare în sistemul TRIS conform Directivei (UE) 2015/1535, întrucât vizează exclusiv organizarea ședințelor de judecată în aplicarea unui regulament UE.",
       "senatForm": {
-        "articleRef": "Articol unic (Art. I^13 - Art. 3 completare)",
-        "proposalContent": "La Art. 3 din cadrul Art. I^13 se introduce un nou alineat: „(2) În cazul unei defecțiuni tehnice neimputabile părții sau reprezentantului, semnalată instanței în intervalul orar orientativ, cauza se lasă la urmă pentru reconectare sau se amână fără aplicarea de sancțiuni procedurale.”",
-        "argumentation": "Garantează dreptul la apărare și la un proces echitabil (art. 21 și 24 Constituție) în situațiile frecvente în care conexiunea audiovizuală eșuează din motive tehnice independente de voința părții aflate în alt stat membru, prevenind judecarea în lipsă sau suspendarea nejustificată a cauzei.",
-        "otherComments": "Ar fi oportună extinderea acestor reguli (videoconferință și interval orar orientativ) în Codul de procedură civilă și pentru litigiile pur interne sau cu părți din state terțe (ex. Marea Britanie, R. Moldova, SUA), pentru a evita discriminarea inversă a justițiabililor din România."
-      }
+        "articleRef": "Art. unic (Art. I^13, Art. 4)",
+        "proposalContent": "Art. 4. – Cel care asistă sau reprezintă partea, traducătorul sau interpretul poate participa la ședința de judecată desfășurată prin mijloacele prevăzute la art. 1, chiar fără a fi prezent fizic lângă parte, instanța asigurând condiții tehnice pentru comunicarea confidențială între parte și apărătorul său.",
+        "argumentation": "Dreptul la apărare (art. 24 Constituție) și Regulamentul (UE) 2023/2844 impun protejarea confidențialității comunicării avocat-client. Când avocatul și partea se conectează din locații diferite, legea ar trebui să prevadă expres posibilitatea consultării private pe durata ședinței (ex. canal separat), corectând totodată și eroarea de redactare „fară”.",
+        "otherComments": "Se recomandă și corectarea erorii de redactare „se va desfășură” din Art. 3 (corect: „se va desfășura”), precum și adoptarea de către Ministerul Justiției și CSM a unor standarde tehnice unitare, astfel încât lipsa dotărilor la anumite instanțe să nu creeze inegalități de acces la videoconferință."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 165264,
+      "durationMs": 41543,
+      "sourceEndMarker": "SF-F71C4977",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Părțile aflate în alt stat UE pot participa online la procesele civile din România",
-      "verdictShort": "Lege tehnică și utilă. Aplică un regulament UE care se aplică de la 1 mai 2025 și scutește de drumuri și cheltuieli părțile aflate în alt stat membru. Riscul real ține de ce lipsește din text: cine cere videoconferința, dacă partea poate veni totuși în sală și ce se întâmplă când legătura cade.",
-      "initiatorClaim": "Guvernul spune că România trebuie să pună în aplicare art. 5 din Regulamentul (UE) 2023/2844. Azi, părțile aflate în alt stat membru pot fi audiate la distanță doar pentru obținerea de probe, nu pot participa propriu-zis la proces. Partea penală (art. 6 din regulament) ar fi deja acoperită de Legea 302/2004.",
-      "realityCheck": "Legea introduce art. I¹³ în OUG 119/2006. În procesele civile în care o parte sau reprezentantul ei se află în alt stat UE, instanța poate decide ca părțile să participe prin videoconferință. Decizia ține cont de tehnologia disponibilă, de opinia părților și de specificul cauzei. Citația trebuie să conțină ora orientativă și datele de acces, iar avocatul sau interpretul poate fi conectat din alt loc decât partea. Textul nu spune însă cine poate cere videoconferința, dacă partea o poate refuza și ce se întâmplă la o întrerupere a legăturii, așa că aceste goluri rămân în seama practicii fiecărei instanțe.",
+      "plainTitle": "Procese civile cu părți din alt stat UE: participare prin video, cu acordul instanței",
+      "verdictShort": "Lege tehnică și utilă, care aplică un regulament UE deja în vigoare din 1 mai 2025. Nu creează taxe, sancțiuni sau obligații pentru cetățeni. Lasă însă neclar ce se întâmplă la o pană tehnică și cum vorbește partea confidențial cu avocatul.",
+      "initiatorClaim": "Guvernul spune că legea română permite azi audierea prin video a părților din alt stat membru doar pentru obținerea de probe (Regulamentul 2020/1783). Proiectul vrea să aplice art. 5 din Regulamentul (UE) 2023/2844, ca părțile și reprezentanții lor să poată participa la tot procesul civil prin videoconferință.",
+      "realityCheck": "Proiectul introduce art. I¹³ în OUG 119/2006. Potrivit acestuia, în cauzele civile transfrontaliere în care o parte sau reprezentantul ei se află în alt stat UE, instanța poate decide participarea prin mijloace audiovizuale securizate. Decizia ține seama de tehnologia disponibilă, de opinia părților și de specificul cauzei. Este o facultate a instanței, nu un drept al părții. Textul nu reglementează întreruperea transmisiunii, căile de atac împotriva refuzului sau al dispunerii și canalul confidențial avocat–client. Nu prevede nici bugetul pentru echipamente, iar fișa financiară este goală.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Art. I¹³, art. 1: participarea online este o posibilitate lăsată la aprecierea instanței („pot hotărî”). Se aplică doar în cauzele civile cu o parte sau un reprezentant aflat în alt stat UE. Nu este obligatorie și nu se aplică proceselor pur interne.",
-        "Art. 2 preia criteriile din regulament: tehnologia disponibilă, opinia părților și caracterul adecvat în cauza concretă. „Opinia” nu înseamnă acord, deci instanța poate dispune videoconferința și peste obiecția unei părți. Textul nu spune expres că partea se poate prezenta totuși personal.",
-        "Art. 3 este o garanție practică bună. Citația trebuie să cuprindă intervalul orar orientativ și modalitatea de acces și autentificare. Înștiințarea poate veni și prin telefon sau e-mail, cu confirmare de primire, chiar dacă partea are termenul în cunoștință.",
-        "Art. 4 permite ca avocatul, traducătorul sau interpretul să fie conectați din alt loc decât partea. Asta ajută părțile din diaspora cu avocat în România, dar textul nu spune cum comunică partea confidențial cu avocatul în timpul ședinței.",
-        "Fișa Camerei invocă art. 5 și 6 din regulament, dar legea aplică doar art. 5 (materie civilă și comercială). Pentru penal, Guvernul afirmă că Legea 302/2004 acoperă deja art. 6.",
-        "Legea nu creează costuri, taxe sau obligații noi pentru cetățeni și firme. Costul platformei cade pe instanțe, iar fișa financiară spune doar că proiectul „nu se referă la acest subiect”. Criteriul disponibilității tehnologiei permite instanțelor fără echipament să refuze, deci aplicarea poate fi inegală între instanțe."
+        "Art. 1 din art. I¹³: participarea prin video este o posibilitate („pot hotărî”) lăsată la aprecierea instanței și se aplică doar când o parte sau reprezentantul ei se află în alt stat membru UE. Părțile din state terțe și litigiile pur interne nu sunt acoperite.",
+        "Art. 2: criteriile preiau fidel art. 5 din Regulamentul 2023/2844: disponibilitatea tehnologiei, opinia părților (nu consimțământul lor) și caracterul adecvat în cauză. Instanța poate deci dispune video și peste obiecția unei părți.",
+        "Art. 3: citația trebuie să indice intervalul orar orientativ și modul tehnic de acces și autentificare. Părțile pot fi înștiințate suplimentar prin telefon sau e-mail, cu confirmare de primire, chiar dacă au termenul în cunoștință. Este o garanție procedurală pozitivă.",
+        "Art. 4: avocatul, traducătorul sau interpretul pot participa fără a sta fizic lângă parte. Practic, dar textul nu garantează un canal confidențial avocat–client înainte și în timpul ședinței.",
+        "Textul nu spune nimic despre întreruperea legăturii din motive tehnice. Partea din străinătate riscă să fie tratată ca lipsă (cu efecte precum suspendarea sau judecarea în lipsă după regulile CPC), fiindcă proiectul nu derogă de la acestea.",
+        "Nu există obligații, taxe sau sancțiuni noi pentru cetățeni sau firme. Costul echipamentelor revine instanțelor, iar Secțiunea 4 a fișei de impact nu îl estimează."
       ],
-      "blindSpotsCaught": "Legea nu spune ce se întâmplă dacă legătura video cade sau partea nu se poate autentifica. După regulile generale de procedură civilă, instanța poate judeca în lipsa părții legal citate, așa că o pană a sistemului poate ajunge tratată ca absență. Nu e clar nici cine poate cere videoconferința. Regulamentul are în vedere cererea părții sau, dacă legea națională prevede, decizia din oficiu, iar legea română tace. În plus, condiția dublă („cauzele transfrontaliere prevăzute de Regulament” și partea „se află în alt stat membru”) poate fi citită restrictiv, de exemplu pentru o persoană cu domiciliul în România aflată temporar în alt stat UE. Ca redactare, același act apare ca „Regulamentul (UE) 2023/2844” și apoi ca „Regulamentul (UE) nr. 2023/2844”.",
-      "constitutionalityNote": "Nu ridică probleme serioase de constituționalitate. Legea lărgește accesul liber la justiție (art. 21) pentru părțile aflate în străinătate, iar citarea cu date de acces și autentificare susține dreptul la apărare (art. 24). Previzibilitatea (art. 1 alin. 5) este însă incompletă: lipsesc regulile despre inițierea videoconferinței, dreptul părții de a se prezenta personal și efectul unei pene tehnice. Nu instituie sancțiuni, deci art. 23 alin. 12 nu este incident. Publicitatea ședinței (art. 127) nu este atinsă direct, pentru că ședința rămâne una a instanței. Adoptarea cu majoritatea de la art. 76 alin. (1) este prudentă.",
-      "euLawNote": "Legea pune în aplicare art. 5 din Regulamentul (UE) 2023/2844, care se aplică de la 1 mai 2025, cu circa un an întârziere. Regulamentul este direct aplicabil, dar lasă procedura audierii la distanță în seama dreptului național, așa că normele românești erau necesare. Criteriile din art. 2 reproduc fidel regulamentul. Directiva 2018/958 nu este relevantă, pentru că legea nu reglementează accesul la o profesie. TRIS 2015/1535 nu se aplică: legea nu impune reguli tehnice pentru servicii ale societății informaționale, ci organizează procedura în fața instanțelor. Nu afectează concurența și ajută piața unică, pentru că firmele și cetățenii din alte state membre își pot susține mai ușor cauzele în România.",
+      "blindSpotsCaught": "Titlul regulamentului vizează materia „civilă, comercială și penală”, dar proiectul reglementează doar materia civilă. Partea penală (art. 6) este considerată deja acoperită de Legea 302/2004, iar materia comercială e inclusă în procesul civil român, deci lipsa ei nu e o lacună. Expunerea de motive spune că participarea are loc „cu încuviințarea instanței”, însă textul nu precizează dacă instanța decide la cerere sau din oficiu și nici dacă încheierea se poate ataca separat. În text rămân erori de redactare: „se va desfășură” (art. 3) și „fară” (art. 4). Expunerea de motive conține și fragmente corupte, fără efect juridic.",
+      "constitutionalityNote": "Proiectul nu ridică probleme majore. Sporește accesul liber la justiție (art. 21) pentru părțile din alt stat UE, iar prezența avocatului și a interpretului prin video respectă art. 24 (dreptul la apărare) și art. 128 (folosirea limbii materne/interpret). Pentru claritatea și previzibilitatea legii (art. 1 alin. 5), lipsa regulilor pentru pana tehnică și pentru comunicarea confidențială cu avocatul este o scăpare. Ea poate fi remediată prin aplicarea CPC și a principiului contradictorialității, deci nu face textul neconstituțional. Prevederea că decizia aparține instanței, cu ascultarea părților, este compatibilă cu art. 126 alin. (2), procedura fiind stabilită prin lege.",
+      "euLawNote": "Proiectul pune în aplicare corect art. 5 din Regulamentul (UE) 2023/2844, deși regulamentul se aplică direct. Criteriile din art. 2 reproduc criteriile UE. Directiva 2018/958 nu este relevantă, pentru că nu se reglementează accesul la o profesie. Nici notificarea TRIS (Directiva 2015/1535) nu e necesară: nu se impun reguli tehnice pentru servicii ale societății informaționale, ci se organizează procedura judiciară. Proiectul favorizează libera circulație și accesul la justiție pe piața unică (art. 47 din Carta UE). Trimiterea la legislația privind datele personale acoperă GDPR.",
       "senatForm": {
-        "articleRef": "Art. I¹³ din OUG 119/2006 – art. 2¹ (nou)",
-        "proposalContent": "Art. 2¹: Instanța hotărăște la cererea părții sau din oficiu, după ascultarea părților. Partea își păstrează dreptul de a se prezenta personal. Dacă legătura cade din motive neimputabile părții, aceasta nu se consideră lipsă, iar instanța reia ședința sau amână cauza. Instanța asigură accesul persoanelor cu dizabilități.",
-        "argumentation": "Textul nu spune cine cere videoconferința, dacă partea o poate refuza sau ce se întâmplă la o pană tehnică; o parte aflată în străinătate riscă să fie judecată în lipsă. Reg. 2023/2844 lasă procedura în seama dreptului național, deci legea română trebuie să o fixeze. Completarea asigură previzibilitatea (art. 1 alin. 5 Constituție) și dreptul la apărare (art. 24).",
-        "otherComments": "Legea e deja promulgată (Lege 87/2026), deci propunerea poate fi preluată doar printr-o nouă inițiativă de modificare. Fișa financiară e goală, deși instanțele au nevoie de o platformă sigură; Ministerul Justiției ar trebui să spună care e și cine o plătește. Merită unificată și denumirea „Regulamentul (UE) 2023/2844”, fără „nr.”, ca în prima mențiune."
-      }
+        "articleRef": "Art. I¹³ din OUG 119/2006 – art. 5 nou",
+        "proposalContent": "Se introduce art. 5: „(1) Dacă transmisiunea se întrerupe din motive tehnice neimputabile părții, instanța reia legătura sau amână cauza; partea nu poate fi socotită lipsă. (2) Instanța asigură, la cerere, un canal confidențial între parte și cel care o asistă sau reprezintă, înainte și în timpul ședinței.”",
+        "argumentation": "Textul nu spune ce se întâmplă la o pană tehnică, iar partea aflată în străinătate riscă suspendarea sau judecarea în lipsă. Art. 4 permite avocatului să nu stea lângă parte, fără a garanta comunicarea confidențială. Completarea protejează dreptul la apărare (art. 24 din Constituție) și art. 47 din Carta UE.",
+        "otherComments": "Corecturi: „se va desfășura” (art. 3) și „fără” (art. 4). Ar fi util să se precizeze că instanța dispune la cerere sau din oficiu și cum poate fi contestată încheierea. Fișa financiară nu estimează costul echipamentelor din instanțe."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 100783,
+      "durationMs": 64508,
+      "sourceEndMarker": "SF-F71C4977",
       "riskScore": 2,
       "riskLevel": "green",
       "plainTitle": "Participare prin videoconferință la procese civile transfrontaliere",
-      "verdictShort": "Textul facilitează accesul la justiție și poate reduce deplasările și costurile proceselor transfrontaliere. Nu introduce taxe, sancțiuni sau monopoluri; principalele riscuri sunt dificultățile tehnice și aplicarea neuniformă.",
-      "initiatorClaim": "Guvernul urmărește să asigure cadrul național pentru participarea prin videoconferință la procese civile și comerciale transfrontaliere, în aplicarea Regulamentului (UE) 2023/2844. Pentru cooperarea penală, expunerea susține că legislația existentă este suficientă.",
-      "realityCheck": "Art. 1 permite instanței să încuviințeze participarea audiovisuală a părților și reprezentanților atunci când partea sau reprezentantul se află în alt stat membru, în cauzele acoperite de regulament. Art. 2-4 stabilesc criterii de apreciere, informațiile din citație și posibilitatea participării separate a avocatului, traducătorului sau interpretului. Textul nu extinde această posibilitate la toate procesele interne și nu reglementează distinct consecințele întreruperilor tehnice.",
+      "verdictShort": "O completare procedurală utilă, cu risc redus: poate economisi deplasări și facilita accesul la justiție. Principala vulnerabilitate practică este gestionarea conexiunilor defectuoase și a participanților fără mijloace tehnice adecvate.",
+      "initiatorClaim": "Inițiatorii urmăresc să asigure aplicarea art. 5 din Regulamentul (UE) 2023/2844, permițând participarea la procese civile transfrontaliere prin videoconferință. Expunerea discută și cooperarea penală, dar consideră că aceasta are deja cadrul național necesar.",
+      "realityCheck": "Textul adaugă articolul I¹³ în OUG nr. 119/2006, fără să modifice articolul I¹² privind Convenția de la Haga: introduce reguli pentru participarea la ședințe când partea sau reprezentantul se află în alt stat membru, în domeniul regulamentului european. Instanța decide în funcție de tehnologie, opinia părților și circumstanțele cauzei, iar citația trebuie să ofere informațiile de conectare. Nu sunt introduse taxe, sancțiuni, furnizori exclusivi sau modificări ale procedurii penale; lipsesc însă reguli speciale explicite pentru incidentele tehnice.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
-        "IMM & Antreprenori",
-        "Toți cetățenii"
+        "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Art. 1 condiționează folosirea videoconferinței de verificarea identității, securitatea, integritatea, confidențialitatea și calitatea transmisiunii, precum și de protecția datelor. Nu impune un furnizor sau o platformă comercială.",
-        "Art. 2 obligă instanța să țină seama de disponibilitatea tehnologiei, opinia părților și circumstanțele cauzei. Opinia nu echivalează, prin ea însăși, cu un drept de veto; dispoziția trebuie aplicată împreună cu cerințele regulamentului european.",
-        "Art. 3 impune comunicarea accesului și autentificării, inclusiv înștiințarea persoanelor care au termenul în cunoștință, când este cazul. Art. 4 permite participarea avocatului sau interpretului dintr-un loc diferit, ceea ce face necesară asigurarea practică a comunicării confidențiale și a interpretării efective."
+        "Art. I¹³, art. 1: creează un cadru național expres pentru participarea la ședințe prin mijloace audiovizuale în cauzele transfrontaliere vizate. Noutatea trebuie separată de posibilitățile existente privind obținerea probelor și de aplicabilitatea directă a regulamentului european.",
+        "Art. I¹³, art. 2: opinia părților este un criteriu de apreciere; textul nu instituie expres un drept de veto al fiecărei părți. Puterea instanței trebuie exercitată cu respectarea regulamentului european și a dreptului la apărare.",
+        "Art. I¹³, art. 3: citația trebuie să indice intervalul orientativ al strigării cauzei, accesul și autentificarea. Înștiințarea suplimentară îi poate privi și pe cei care au termenul în cunoștință; aceasta este o garanție practică importantă.",
+        "Art. I¹³, art. 4: avocatul, persoana care asistă partea, traducătorul sau interpretul pot participa fără să fie fizic lângă parte. Aceasta reduce deplasările, dar presupune păstrarea comunicării confidențiale necesare apărării și a interpretării efective.",
+        "Art. 1 cere verificarea identității, securitatea, integritatea, confidențialitatea și calitatea transmisiei. Nu sunt stabilite o platformă obligatorie, un operator privilegiat ori condiții noi de acces la profesii.",
+        "Expunerea nu cuantifică impactul financiar, deși echipamentele, suportul tehnic și securitatea pot presupune costuri pentru instanțe. Pentru cetățeni și IMM-uri sunt posibile economii de transport și timp; proiectul nu stabilește taxe suplimentare.",
+        "Textul furnizat se încheie după cele patru articole introduse: nu conține abrogări, derogări exprese sau dispoziții tranzitorii ascunse."
       ],
-      "blindSpotsCaught": "Un regulament UE se aplică direct; legea creează măsuri naționale de aplicare, nu îl transpune ca pe o directivă. Trimiterea la art. 5 păstrează aplicabile condițiile europene chiar dacă textul intern nu le reproduce integral. Nu există o regulă expresă pentru pierderea conexiunii, însă aceasta nu înlătură garanțiile procesuale generale. Dacă stadiul Lege 87/2026 este corect, termenul pentru amendamente la proiect este depășit: propunerea din senatForm ar necesita o nouă intervenție legislativă.",
-      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă. Normele pot sprijini accesul la justiție, dar aplicarea lor trebuie să respecte egalitatea, procesul echitabil și dreptul la apărare, potrivit art. 16, 21 și 24 din Constituție. Pentru art. 1 alin. (5), criteriile sunt identificabile; precizarea remediilor pentru incidente tehnice ar îmbunătăți previzibilitatea, fără ca omisiunea să dovedească singură neconstituționalitatea. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident: textul nu instituie pedepse. Mențiunea adoptării potrivit art. 76 alin. (1) nu dovedește singură caracterul organic; procedura civilă nu devine organică doar pentru că privește instanțele. Competența Camerelor și majoritatea necesară trebuie verificate în dosarul legislativ complet.",
-      "euLawNote": "Obiectul este compatibil, în principiu, cu aplicarea art. 5 din Regulamentul (UE) 2023/2844; normele interne nu pot restrânge garanțiile acestuia. Directiva (UE) 2018/958 nu pare incidentă, deoarece nu se introduc restricții privind accesul la profesii reglementate sau exercitarea lor. Folosirea videoconferinței în justiție nu declanșează automat notificarea TRIS: textul nu stabilește specificații pentru produse și nici reguli care vizează în mod specific servicii ale societății informaționale în sensul Directivei (UE) 2015/1535. Nu reglementează AI și nu creează bariere comerciale identificabile. Cetățenii și IMM-urile pot economisi transport și timp, dar suportă cerințe practice de conectare; eventualele cheltuieli publice pentru echipamente, securitate și asistență nu sunt cuantificate în extras. Sursele externe și stadiul legislativ nu au putut fi verificate online în această sesiune.",
+      "blindSpotsCaught": "Formula «opinia părților» nu echivalează automat cu acordul acestora. Totodată, lipsa unor reguli speciale despre întreruperea conexiunii, publicitatea ședinței sau comunicarea avocat–client nu elimină garanțiile generale existente. Confidențialitatea transmisiei nu transformă automat ședința într-una nepublică.",
+      "constitutionalityNote": "Din text nu rezultă o neconstituționalitate evidentă. Măsura poate sprijini accesul la justiție, dar aplicarea sa trebuie să respecte art. 21 și 24 privind procesul echitabil și apărarea, art. 26 privind viața privată și art. 127 privind publicitatea ședințelor. Pentru art. 1 alin. (5), ar fi utilă precizarea consecințelor incidentelor tehnice; absența unei reguli speciale nu dovedește singură lipsa previzibilității, întrucât rămân aplicabile normele procedurale generale. Art. 23 alin. (12) nu este incident direct, deoarece nu sunt instituite pedepse. Costurile necuantificate nu demonstrează, singure, încălcarea art. 138 alin. (5).",
+      "euLawNote": "Este o măsură națională de aplicare a unui regulament direct aplicabil, nu transpunerea unei directive; trebuie interpretată în limitele Regulamentului (UE) 2023/2844, cu respectarea priorității dreptului UE potrivit art. 148 din Constituție. Regimul obținerii probelor nu este înlocuit automat prin aceste reguli de participare la ședințe. Nu se identifică restricții noi privind accesul la profesii reglementate sau exercitarea acestora care să declanșeze testul Directivei (UE) 2018/958. Simpla utilizare a videoconferinței de către instanțe nu constituie, prin ea însăși, o reglementare a serviciilor societății informaționale supusă notificării TRIS potrivit Directivei (UE) 2015/1535. Nu rezultă un monopol sau o barieră concurențială expresă. Verificarea online a surselor externe nu a fost posibilă; concluziile privesc textul furnizat.",
       "senatForm": {
-        "articleRef": "Articol unic – art. I¹³, art. 2",
-        "proposalContent": "Art. 2.- Instanța hotărăște prin încheiere motivată, în condițiile art. 5 din Regulamentul (UE) 2023/2844, ținând seama de disponibilitatea și adecvarea tehnologiei și de opinia părților. Dacă defecțiunile tehnice împiedică participarea efectivă, instanța ia măsurile necesare pentru respectarea contradictorialității și a dreptului la apărare.",
-        "argumentation": "Motivarea permite verificarea aplicării criteriilor legale. Regula privind defecțiunile tehnice protejează participarea efectivă și previne tratarea unei întreruperi neimputabile ca absență voluntară, cu respectarea art. 21 și 24 din Constituție și a regulamentului european.",
-        "otherComments": "Propunerea privește textul furnizat. Dacă acesta a devenit Legea nr. 87/2026, modificarea necesită o nouă inițiativă legislativă; nu mai poate fi depusă ca amendament în procedura încheiată. Stadiul și dosarul procedural necesită verificare oficială."
-      }
+        "articleRef": "Art. I¹³, art. 2",
+        "proposalContent": "Instanța hotărăște motivat asupra participării prin mijloace de telecomunicație audiovizuală, ținând seama de disponibilitatea tehnologiei, opinia părților și circumstanțele cauzei. Defecțiunile tehnice neimputabile participantului nu se consideră neprezentare; instanța dispune reconectarea, participarea fizică ori amânarea, cu respectarea dreptului la apărare.",
+        "argumentation": "O întrerupere a conexiunii nu trebuie să împiedice partea să își susțină cauza din motive neimputabile. Regula propusă clarifică remediile, susține accesul efectiv la justiție și dreptul la apărare și face verificabilă aprecierea instanței asupra folosirii videoconferinței.",
+        "otherComments": "Stadiul indicat este Lege 87/2026, iar termenul de amendamente a trecut. Textul poate fundamenta o inițiativă ulterioară de modificare; nu mai reprezintă un amendament depus în termen la proiect. Analiza privește exclusiv forma Camerei Deputaților furnizată."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T13:45:43.284Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:37:23.771Z",
+      "reasons": [
+        "text",
+        "model"
+      ]
+    }
+  ]
 }

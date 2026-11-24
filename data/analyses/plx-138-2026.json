@@ -2,116 +2,175 @@
   "billId": "Pl-x 138/2026",
   "slug": "plx-138-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T06:48:02.543Z",
+  "updatedAt": "2026-11-24T15:29:46.040Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 3517,
+    "ordinanceChars": 0,
+    "memoChars": 34328,
+    "memoSupplied": 34328,
+    "marker": "SF-8BCAC8B1"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-138-2026.json",
+    "form": "initiator",
+    "textHash": "8bcac8b10171e1d7",
+    "fetchedAt": "2026-11-19T10:40:26.862Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1705,
+    "truncated": false,
+    "included": true,
+    "key": "52af64f064e5532d"
+  },
   "consensus": {
-    "riskScore": 2,
+    "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "Suspectul și inculpatul primesc pe hârtie acuzația și cererea de arestare",
-    "summaryTlDr": "Lege mică și favorabilă apărării: o practică aplicată azi aleatoriu devine obligație clară. Este vorba de înmânarea unei copii a procesului-verbal de acuzare și a referatului de arestare. Problemele sunt de redactare: aceeași normă e scrisă de mai multe ori, sunt greșeli materiale, iar referatul se comunică abia la termen.",
-    "initiatorClaim": "Inițiatorii afirmă că azi doar o parte dintre suspecți primesc, discreționar, o copie a procesului-verbal prin care li se aduce la cunoștință acuzația, ceea ce afectează dreptul la apărare și dreptul de a fi informat. Spun că nu creează drepturi noi, ci clarifică garanțiile existente și rolul avocatului în urmărirea penală.",
-    "realityCheck": "Efectul real este o singură obligație: înmânarea unui exemplar din procesul-verbal de aducere la cunoștință a calității de suspect sau inculpat (art. 307, art. 309 alin. 2) și din referatul cu propunere de arestare (art. 225 alin. 4¹). Obligația apare în paralel și în art. 10 și art. 83, cu formulări ușor diferite. Legea nu prevede ce se întâmplă dacă obligația e încălcată. Referatul se dă abia la termen, când timpul de pregătire e minim. Expunerea de motive anunță și reguli pentru extinderea urmăririi penale și pentru rolul avocatului, dar articolele nu le conțin.",
+    "plainTitle": "Suspecții și inculpații primesc obligatoriu, pe hârtie, acuzația și cererea de arestare",
+    "summaryTlDr": "Este o lege mică și pozitivă pentru dreptul la apărare: transformă într-o obligație o practică pe care unele parchete și instanțe o aplică deja, iar altele nu. Are însă greșeli de redactare care trebuie corectate, iar comunicarea „la termen” poate rămâne o garanție mai mult formală.",
+    "initiatorClaim": "Inițiatorii spun că practica este neunitară: unii suspecți și inculpați primesc procesul-verbal de aducere la cunoștință a acuzației și referatul de arestare, alții nu, mai ales în dosarele mari ale DNA și DIICOT. Ei vor să uniformizeze practica, invocând art. 6 §3 lit. a) și b) din CEDO.",
+    "realityCheck": "Proiectul introduce obligația de a înmâna suspectului și inculpatului un exemplar al procesului-verbal de aducere la cunoștință a calității, înainte de prima audiere (art. 10 alin. 3¹, art. 307, art. 309 alin. 2). Introduce și obligația de a le da referatul cu propunerea de arestare sau de prelungire a arestării, la termenul de judecată (art. 10 alin. 8, art. 83 lit. a³, art. 225 alin. 4¹). Nu creează costuri și nu afectează cetățenii sau firmele. Totuși, comunicarea doar „la termen” nu garantează timp real de pregătire. Legea nu stabilește nici sancțiunea pentru necomunicare, nici o excepție pentru informațiile la care procurorul a restricționat accesul.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 4 – art. 225 alin. (4¹) CPP",
-      "proposalContent": "„(4¹) Odată cu încunoștințarea despre termen, inculpatului și avocatului său li se comunică, în mod obligatoriu, câte un exemplar al referatului cu propunere de arestare preventivă, cu respectarea regulilor privind martorii protejați și informațiile clasificate. Dispozițiile se aplică în mod corespunzător propunerii de prelungire a arestării preventive (art. 235).”",
-      "argumentation": "Primit abia la termen, referatul nu lasă timp real de apărare (art. 10 alin. (1) CPP, art. 24 Constituție, art. 7 Directiva 2012/13/UE). Forma inițiatorului nu modifică art. 235 (prelungirea) și nu precizează protecția martorilor și a informațiilor clasificate. Propun o normă unică, în locul celei dublate la art. 10 alin. (8).",
-      "otherComments": "Corecturi: art. I citează „Legea nr. 135/2020” în loc de 135/2010; lipsesc ghilimelele de închidere la art. 10 alin. (8); greșeli de tipar („curpins”, „calitatății”, „comunincându-i-se”). Propun eliminarea art. 10 alin. (3¹) și (8): art. 10 enunță principii, iar aceleași obligații apar deja la art. 307, 309 și 225; norma dublată invită interpretări divergente."
+      "articleRef": "Art. I pct. 2 și 4 (art. 10 alin. 8, art. 225)",
+      "proposalContent": "Art. 225 alin. (4¹): «Referatul cu propunerea de arestare preventivă sau de prelungire a acesteia se comunică inculpatului și apărătorului său, prin grija judecătorului de drepturi și libertăți, de îndată după înregistrare și înainte de dezbateri; la cerere, apărătorului i se acordă timpul necesar studierii.» Se corectează trimiterea la Legea nr. 135/2010.",
+      "argumentation": "Comunicarea doar „la termen” nu asigură timpul și înlesnirile cerute de art. 6 §3 lit. b) CEDO și de art. 10 alin. (2) CPP. Textele propuse se contrazic: art. 10 alin. (8) vizează inculpatul, iar art. 225 alin. (4¹) trimite la avocat dacă inculpatul lipsește. Prelungirea (art. 235) nu este acoperită. O normă unică, cu organul obligat precizat, este previzibilă.",
+      "otherComments": "Expunerea de motive vizează și art. 311 (extinderea urmăririi sau a acțiunii penale, schimbarea încadrării), dar textul nu îl modifică. Propun extinderea comunicării la procesele-verbale actualizate. Corecturi necesare: «Legea nr. 135/2010», ghilimelele lipsă la pct. 2 și «comunică» la art. 10 alin. (3¹)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 47129,
-      "riskScore": 2,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 92913,
+      "sourceEndMarker": "SF-8BCAC8B1",
+      "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Obligația procurorilor și polițiștilor de a înmâna o copie scrisă a acuzației și a propunerii de arestare",
-      "verdictShort": "Un proiect benign și util pentru dreptul la apărare, care obligă organele judiciare să înmâneze fizic suspectului sau inculpatului o copie a procesului-verbal de învinuire și a referatului de arestare preventivă. Suferă însă de erori de redactare, paralelisme legislative și o formulare care riscă să permită înmânarea referatului de arestare abia în sala de judecată.",
-      "initiatorClaim": "Inițiatorii vor să elimine practica neunitară a organelor de urmărire penală care îi pun pe suspecți și inculpați doar să semneze procesul-verbal de aducere la cunoștință a acuzației, fără a le lăsa un exemplar, ori nu le comunică un exemplar propriu al referatului de arestare preventivă.",
-      "realityCheck": "Legea instituie obligația clară de comunicare a unui exemplar al procesului-verbal de înștiințare (la art. 307 și 309 CPP) și al referatului de arestare (la art. 225 CPP). Totuși, proiectul repetă inutil aceleași reguli în trei locuri diferite din Cod, uită să modifice art. 235 CPP (prelungirea arestării) și omite complet extinderea urmăririi penale sau schimbarea încadrării juridice (art. 311 CPP), deși le promitea în Expunerea de motive.",
+      "plainTitle": "Suspecții și inculpații vor primi obligatoriu copii ale acuzațiilor și referatelor de arestare",
+      "verdictShort": "Pe fond, proiectul este util și consolidează dreptul la apărare printr-o obligație clară de predare a actelor esențiale din urmărirea penală. Textul conține însă erori grave de redactare — inclusiv indicarea greșită a „Legii nr. 135/2020” în loc de Codul de procedură penală (135/2010) — și omisiuni procedurale care trebuie corectate în Comisia juridică.",
+      "initiatorClaim": "Inițiatorii vor să elimine practica neunitară a parchetelor și instanțelor, obligând organele judiciare să le predea suspecților și inculpaților copii ale proceselor-verbale de aducere la cunoștință a acuzației și ale referatelor de arestare sau prelungire a arestării preventive, pentru o apărare reală conform CEDO.",
+      "realityCheck": "Legea introduce obligația comunicării proceselor-verbale pentru suspect și inculpat (art. 10 alin. 3¹, art. 83 lit. a², art. 307, art. 309 alin. 2) și a referatelor de arestare sau prelungire (art. 10 alin. 8, art. 83 lit. a³, art. 225 alin. 4¹). În practică, efectul este însă afectat de faptul că Art. I trimite din greșeală la „Legea nr. 135/2020” (alegerile locale din 2020), că art. 311 și art. 235 CPP lipsesc din proiect, iar predarea referatului abia „la termenul fixat”, fără format electronic, poate fi tardivă și birocratică în dosarele voluminoase.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 5 și 6 (art. 307 și art. 309 alin. 2 CPP): Obligă organul de urmărire penală să înmâneze suspectului și inculpatului, înainte de prima audiere, un exemplar al procesului-verbal prin care i se aduc la cunoștință fapta, încadrarea juridică și drepturile.",
-        "Art. I pct. 2, 3 și 4 (art. 10 alin. 8, art. 83 lit. a³ și art. 225 alin. 4¹ CPP): Impune comunicarea unui exemplar al referatului cu propunere de arestare preventivă inculpatului prezent (sau avocatului său, dacă inculpatul lipsește), însă prevede că această comunicare se face „la termenul fixat”, ceea ce poate fi prea târziu pentru studierea unui referat voluminos.",
-        "Deficiențe de tehnică legislativă: Art. I modifică „Legea nr. 135/2020” în loc de Legea nr. 135/2010, lasă ghilimele neînchise la pct. 2, conține numeroase greșeli de tipar și creează paralelisme legislative prin repetarea identică a obligației în art. 10, art. 83 și art. 225/307/309 CPP."
+        "Eroare materială gravă în partea introductivă a Art. I: proiectul indică modificarea „Legii nr. 135/2020” (legea alegerilor locale din 2020) în loc de Legea nr. 135/2010 privind Codul de procedură penală, deși titlul și Monitorul Oficial nr. 486/15.07.2010 indică corect Codul; de asemenea, apare „Art. I.” fără să existe un „Art. II”.",
+        "Consolidare reală a garanțiilor procesuale (art. 10 alin. 3¹ și 8, art. 83 lit. a² și a³, art. 225 alin. 4¹, art. 307, art. 309 alin. 2): comunicarea proceselor-verbale și a referatelor de arestare/prelungire (inclusiv către avocat când inculpatul lipsește, la art. 225 alin. 4¹) devine obligatorie, nu discreționară.",
+        "Neconcordanță între Expunerea de motive și articolele propuse: expunerea justifică expres modificarea art. 311 alin. (3) și (5) CPP (extinderea urmăririi/acțiunii penale și schimbarea încadrării juridice), dar art. 311 lipsește complet din textul legii; la fel, procedura prelungirii arestării (art. 235 CPP) nu este modificată în oglindă cu art. 225.",
+        "Neclarități operaționale la art. 10 alin. (8), art. 83 lit. a³) și art. 225 alin. (4¹): nu se precizează cine comunică efectiv referatul (procurorul sau instanța), nici dacă poate fi transmis electronic, iar termenul „la termenul fixat pentru soluționarea propunerii” riscă să ofere prea puțin timp efectiv pentru studiul unui referat voluminos."
       ],
-      "blindSpotsCaught": "Există o ruptură între Expunerea de motive și textul legii: inițiatorii anunță la pct. 3 din Expunere că reglementează și „aducerea la cunoștință a extinderii urmăririi penale, a schimbării încadrării juridice sau a extinderii acțiunii penale”, dar au uitat să includă în proiect modificarea art. 311 CPP. De asemenea, deși art. 10 alin. (8) și art. 83 lit. a³) menționează referatul de prelungire a arestării preventive, proiectul modifică doar art. 225 CPP (arestarea inițială), omițând art. 235 CPP (procedura prelungirii arestării).",
-      "constitutionalityNote": "Proiectul consolidează dreptul la apărare (art. 24 din Constituție) și libertatea individuală (art. 23 alin. 8 privind informarea de îndată asupra motivelor arestării și învinuirii). Totuși, din perspectiva art. 1 alin. (5) din Constituție (calitatea și claritatea legii, raportat la art. 16 din Legea nr. 24/2000 privind evitarea paralelismelor legislative), dublarea acelorași texte în art. 10, art. 83 și articolele speciale trebuie corectată în comisie.",
-      "euLawNote": "Măsura este pe deplin convergentă cu Directiva 2012/13/UE privind dreptul la informare în cadrul procedurilor penale (art. 4, 6 și 7), care garantează dreptul persoanei suspectate sau acuzate de a primi informații detaliate privind acuzarea și documentele esențiale pentru contestarea arestării. Nu ridică probleme pe Directiva (UE) 2018/958 sau Directiva (UE) 2015/1535 (TRIS).",
+      "blindSpotsCaught": "Cea mai serioasă capcană tehnică este trimiterea greșită din Art. I la „Legea nr. 135/2020” (care reglementează alegerile locale din 2020), alături de omiterea completă a art. 311 CPP anunțat în expunerea de motive și a art. 235 CPP (lăsând nereglementată comunicarea către avocat în lipsa inculpatului la prelungirea arestării). În plus, comunicarea referatului abia „la termenul fixat” poate fi insuficientă față de exigența de acces efectiv și în timp util prevăzută de art. 7 alin. (1) din Directiva 2012/13/UE.",
+      "constitutionalityNote": "Pe fond, propunerea sprijină direct art. 21 alin. (3) (proces echitabil), art. 23 alin. (8) (aducerea la cunoștință a motivelor arestării și a învinuirii) și art. 24 (dreptul la apărare) din Constituția României. Pe formă, însă, încalcă standardele de claritate și previzibilitate ale art. 1 alin. (5) din Constituție prin indicarea eronată a actului modificat („Legea nr. 135/2020”), neprecizarea organului obligat să comunice referatul și lipsa corelării cu art. 235 și art. 309 alin. (3) CPP.",
+      "euLawNote": "Proiectul nu restricționează concurența, profesiile reglementate sau serviciile digitale, deci nu intră sub incidența Directivei (UE) 2018/958 (testul de proporționalitate) și nu necesită notificare TRIS conform Directivei (UE) 2015/1535. În domeniul cooperării judiciare în materie penală, inițiativa este aliniată și întărește aplicarea practică a Directivei 2012/13/UE privind dreptul la informare în cadrul procedurilor penale (art. 6 și art. 7 alin. 1).",
       "senatForm": {
-        "articleRef": "Art. I partea introductivă și pct. 2-4",
-        "proposalContent": "Corectarea titlului în „Legea nr. 135/2010” și eliminarea paralelismului din art. 10 alin. (8). La art. 83 lit. a³) și art. 225 alin. (4¹), comunicarea referatului de arestare/prelungire (și la art. 235 CPP) să se facă „înainte de ședința de judecată”, inclusiv în format electronic, atât inculpatului, cât și avocatului ales ori din oficiu.",
-        "argumentation": "Comunicarea referatului abia „la termenul fixat” este tardivă pentru pregătirea efectivă a apărării în cauze complexe. În plus, proiectul omite completarea art. 235 CPP (prelungirea arestării), conține paralelisme legislative contrare art. 16 din Legea nr. 24/2000 și indică greșit anul adoptării Codului de procedură penală ca fiind 2020 în loc de 2010.",
-        "otherComments": "Deși Expunerea de motive anunță reglementarea extinderii urmăririi penale și a schimbării încadrării juridice, textul proiectului omite complet art. 311 CPP. Recomandăm includerea art. 311 CPP și corelarea expresă cu Directiva 2012/13/UE privind dreptul la informare în cadrul procedurilor penale."
-      }
+        "articleRef": "Art. I partea introductivă, pct. 2 și pct. 4",
+        "proposalContent": "Corectarea „Art. I” în „Articol unic” și a „Legii nr. 135/2020” în „Legii nr. 135/2010”. La art. 10 alin. (8) și art. 225 alin. (4¹), comunicarea referatului să se facă anterior termenului (inclusiv electronic), cu indicarea organului responsabil, și completarea corespunzătoare a art. 235 și art. 311 CPP.",
+        "argumentation": "În forma actuală, Art. I trimite eronat la Legea nr. 135/2020 (alegerile locale), încălcând art. 1 alin. (5) din Constituție. Totodată, comunicarea referatului abia „la termenul fixat” limitează pregătirea apărării, iar omiterea art. 235 și art. 311 creează asimetrii procesuale față de scopul declarat și Directiva 2012/13/UE.",
+        "otherComments": "Fondul proiectului este util pentru unificarea practicii și garantarea art. 24 din Constituție. Recomandăm revizuirea tehnică în Comisia juridică: corectarea greșelilor de redactare („curpins”, „comunincându-i-se”, „arestării preventivă”), închiderea ghilimelelor la art. 10 alin. (8) și acceptarea comunicării electronice."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 160545,
+      "durationMs": 46447,
+      "sourceEndMarker": "SF-8BCAC8B1",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Suspectul și inculpatul primesc pe hârtie acuzația și cererea de arestare",
-      "verdictShort": "Lege mică și favorabilă apărării: o practică aplicată azi aleatoriu devine obligație clară. Este vorba de înmânarea unei copii a procesului-verbal de acuzare și a referatului de arestare. Problemele sunt de redactare: aceeași normă e scrisă de mai multe ori, sunt greșeli materiale, iar referatul se comunică abia la termen.",
-      "initiatorClaim": "Inițiatorii afirmă că azi doar o parte dintre suspecți primesc, discreționar, o copie a procesului-verbal prin care li se aduce la cunoștință acuzația, ceea ce afectează dreptul la apărare și dreptul de a fi informat. Spun că nu creează drepturi noi, ci clarifică garanțiile existente și rolul avocatului în urmărirea penală.",
-      "realityCheck": "Efectul real este o singură obligație: înmânarea unui exemplar din procesul-verbal de aducere la cunoștință a calității de suspect sau inculpat (art. 307, art. 309 alin. 2) și din referatul cu propunere de arestare (art. 225 alin. 4¹). Obligația apare în paralel și în art. 10 și art. 83, cu formulări ușor diferite. Legea nu prevede ce se întâmplă dacă obligația e încălcată. Referatul se dă abia la termen, când timpul de pregătire e minim. Expunerea de motive anunță și reguli pentru extinderea urmăririi penale și pentru rolul avocatului, dar articolele nu le conțin.",
+      "plainTitle": "Suspecții și inculpații primesc obligatoriu, pe hârtie, acuzația și cererea de arestare",
+      "verdictShort": "Este o lege mică și pozitivă pentru dreptul la apărare: transformă într-o obligație o practică pe care unele parchete și instanțe o aplică deja, iar altele nu. Are însă greșeli de redactare care trebuie corectate, iar comunicarea „la termen” poate rămâne o garanție mai mult formală.",
+      "initiatorClaim": "Inițiatorii spun că practica este neunitară: unii suspecți și inculpați primesc procesul-verbal de aducere la cunoștință a acuzației și referatul de arestare, alții nu, mai ales în dosarele mari ale DNA și DIICOT. Ei vor să uniformizeze practica, invocând art. 6 §3 lit. a) și b) din CEDO.",
+      "realityCheck": "Proiectul introduce obligația de a înmâna suspectului și inculpatului un exemplar al procesului-verbal de aducere la cunoștință a calității, înainte de prima audiere (art. 10 alin. 3¹, art. 307, art. 309 alin. 2). Introduce și obligația de a le da referatul cu propunerea de arestare sau de prelungire a arestării, la termenul de judecată (art. 10 alin. 8, art. 83 lit. a³, art. 225 alin. 4¹). Nu creează costuri și nu afectează cetățenii sau firmele. Totuși, comunicarea doar „la termen” nu garantează timp real de pregătire. Legea nu stabilește nici sancțiunea pentru necomunicare, nici o excepție pentru informațiile la care procurorul a restricționat accesul.",
       "affectedGroups": [
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I pct. 5 (art. 307) și pct. 6 (art. 309 alin. 2): copia procesului-verbal de aducere la cunoștință a calității de suspect, respectiv de inculpat, devine obligatorie la prima audiere. O practică azi aleatorie devine regulă uniformă și lasă persoanei o dovadă scrisă a faptei și a încadrării juridice.",
-        "Art. I pct. 4 (art. 225 alin. 4¹): inculpatul prezent primește un exemplar al referatului de arestare preventivă; dacă lipsește, îl primește avocatul. Comunicarea are loc însă la termen, nu la citare, deci adaugă puțin timp real de pregătire față de consultarea dosarului, deja permisă avocatului.",
-        "Prelungirea arestării apare doar în art. 10 alin. (8) și în art. 83 lit. a³). Art. 235, care reglementează procedura de prelungire în cursul urmăririi penale, rămâne nemodificat.",
-        "Tehnică legislativă: aceeași obligație e scrisă de două-trei ori (art. 10 alin. 3¹ și 8, art. 83 lit. a²–a³, art. 225, 307, 309), cu diferențe: art. 10 alin. (8) nu prevede comunicarea către avocat dacă inculpatul lipsește. Art. I citează greșit „Legea nr. 135/2020”, ghilimelele de la art. 10 alin. (8) nu se închid, iar „i se comunica” (fără diacritic) poate fi citit ca timp trecut.",
-        "Nicio prevedere nu stabilește consecința necomunicării. Se aplică regimul general al nulității relative (art. 282 CPP), care cere dovedirea unei vătămări, așa că obligația poate rămâne fără efect practic.",
-        "Expunerea de motive enumeră patru situații, inclusiv extinderea urmăririi penale și schimbarea încadrării juridice. Textul nu modifică art. 311 CPP, deci această parte a justificării nu se regăsește în articole.",
-        "Impact bugetar și birocratic neglijabil (costul unor copii pentru parchete și instanțe). Pentru cetățeni și IMM-uri nu apar taxe, obligații sau sancțiuni noi."
+        "Art. 307 și art. 309 alin. (2) CPP: legea actuală cere doar aducerea la cunoștință a calității, a faptei și a încadrării juridice, consemnată într-un proces-verbal. Art. 309 alin. (3) permite eliberarea, la cerere, doar a ordonanței de punere în mișcare a acțiunii penale. Proiectul adaugă înmânarea obligatorie a unui exemplar al procesului-verbal.",
+        "Art. 10 alin. (8), art. 83 lit. a³) și art. 225 alin. (4¹): referatul de arestare sau de prelungire se comunică inculpatului „la termenul fixat”, nu înainte. În lipsa unei amânări sau a unui timp de studiu, garanția din art. 6 §3 lit. b) CEDO (timpul necesar pregătirii apărării) rămâne parțial neacoperită.",
+        "Textele propuse nu sunt coerente între ele. Art. 10 alin. (8) prevede comunicarea către inculpat, pe când art. 225 alin. (4¹) trimite referatul la avocat când inculpatul lipsește. Prelungirea arestării (art. 235 CPP) nu este modificată, iar organul obligat să comunice (judecătorul sau parchetul) nu este precizat.",
+        "Expunerea de motive anunță și comunicarea proceselor-verbale actualizate la extinderea urmăririi penale, extinderea acțiunii penale sau schimbarea încadrării juridice (art. 311 CPP), dar textul de lege nu conține nicio astfel de modificare.",
+        "Partea introductivă a art. I trimite la „Legea nr. 135/2020” în loc de Legea nr. 135/2010. Art. 10 este completat „după alineatul (7)”, deși, din câte se pare, art. 10 CPP are mai puține alineate. Lipsesc ghilimelele de închidere la pct. 2, iar la art. 10 alin. (3¹) apare „comunica” în loc de „comunică”."
       ],
-      "blindSpotsCaught": "Referatul de arestare rezumă probele, iar înmânarea lui către inculpat nu e însoțită de nicio regulă pentru pasajele cu date ale martorilor protejați sau informații clasificate. În practică, asta poate duce la referate mai sărace, redactate defensiv. Art. 10 face parte din principiile procesului penal: a pune acolo detalii operaționale („un exemplar la termen”) încarcă un articol-principiu și creează o a doua sursă pentru aceeași obligație, cu formulare diferită. Termenul „exemplar” nu lămurește dacă este admisă comunicarea electronică.",
-      "constitutionalityNote": "Compatibilă și favorabilă: întărește art. 24 (dreptul la apărare), art. 21 alin. (3) (proces echitabil) și art. 23 (libertatea individuală, informarea persoanei arestate). Nu restrânge niciun drept și nu impune sarcini disproporționate. Singurul risc ține de art. 1 alin. (5) (calitatea legii): normele duplicate cu formulări diferite și erorile materiale (anul legii, ghilimele lipsă) trebuie corectate în comisie, dar nu par suficient de grave pentru o declarare a neconstituționalității. Fiind lege ordinară, traseul Senat–Cameră decizională respectă art. 75 alin. (1).",
-      "euLawNote": "Directiva 2018/958 (testul de proporționalitate pentru profesii reglementate) și Directiva 2015/1535 (TRIS) nu sunt aplicabile: legea nu reglementează accesul la o profesie, servicii digitale sau reguli tehnice și nu afectează piața unică. Relevantă este Directiva 2012/13/UE privind dreptul la informare în procedurile penale: art. 6 (informarea despre acuzație) și art. 7 alin. (1) (accesul persoanei arestate sau al avocatului la documentele esențiale pentru contestarea arestării). Propunerea merge în sensul directivei și al art. 5 alin. (4) și art. 6 alin. (3) lit. a) CEDO privind egalitatea armelor în procedurile de arestare (de ex. Lietzow c. Germaniei, 2001).",
+      "blindSpotsCaught": "Trimiterea greșită la „Legea nr. 135/2020” nu este doar o scăpare formală. Legea 135/2020 există și privește alegerile locale din 2020, așa că o lectură automată a trimiterii duce la un act cu totul străin de procedura penală. Dacă greșeala nu se corectează în comisie, rezultă o lege de modificare care trimite la alt act normativ. Al doilea punct slab: lipsește corelarea cu art. 94 alin. (4) CPP, care permite restricționarea accesului la dosar. Procesele-verbale foarte lungi din dosarele DNA sau DIICOT pot conține date despre probe încă neadministrate, iar legea nu spune dacă acestea se comunică integral sau cu pasaje omise. În plus, nu este prevăzută nicio sancțiune procesuală pentru necomunicare, deci rămâne aplicabil regimul general al nulității relative.",
+      "constitutionalityNote": "Pe fond, proiectul întărește art. 24 (dreptul la apărare) și art. 21 alin. (3) (procesul echitabil) din Constituție și nu atinge alte drepturi. Problemele țin de art. 1 alin. (5), adică de calitatea legii: trimiterea la un act normativ greșit (Legea 135/2020), trimiterea la un alineat probabil inexistent și neprecizarea organului obligat să comunice referatul pot afecta previzibilitatea normei. Aceste defecte se pot corecta în comisie și nu ridică probleme de neconstituționalitate pe fond. Legea este organică (art. 73 alin. 3 lit. h), iar Camera Deputaților este cameră decizională.",
+      "euLawNote": "Directiva 2018/958 (testul de proporționalitate pentru profesii reglementate) și Directiva 2015/1535 (TRIS) nu sunt relevante, deoarece proiectul nu reglementează profesii, servicii sau produse digitale. Relevantă este Directiva 2012/13/UE privind dreptul la informare în procedurile penale: art. 6 cere informarea promptă și detaliată asupra acuzației, iar art. 7 cere accesul la documentele esențiale pentru contestarea arestării. Proiectul aduce dreptul intern mai aproape de directivă, mai ales în privința referatului de arestare. Pentru o transpunere completă a art. 7 alin. (1), documentele ar trebui comunicate în timp util, nu doar la termen.",
       "senatForm": {
-        "articleRef": "Art. I pct. 4 – art. 225 alin. (4¹) CPP",
-        "proposalContent": "„(4¹) Odată cu încunoștințarea despre termen, inculpatului și avocatului său li se comunică, în mod obligatoriu, câte un exemplar al referatului cu propunere de arestare preventivă, cu respectarea regulilor privind martorii protejați și informațiile clasificate. Dispozițiile se aplică în mod corespunzător propunerii de prelungire a arestării preventive (art. 235).”",
-        "argumentation": "Primit abia la termen, referatul nu lasă timp real de apărare (art. 10 alin. (1) CPP, art. 24 Constituție, art. 7 Directiva 2012/13/UE). Forma inițiatorului nu modifică art. 235 (prelungirea) și nu precizează protecția martorilor și a informațiilor clasificate. Propun o normă unică, în locul celei dublate la art. 10 alin. (8).",
-        "otherComments": "Corecturi: art. I citează „Legea nr. 135/2020” în loc de 135/2010; lipsesc ghilimelele de închidere la art. 10 alin. (8); greșeli de tipar („curpins”, „calitatății”, „comunincându-i-se”). Propun eliminarea art. 10 alin. (3¹) și (8): art. 10 enunță principii, iar aceleași obligații apar deja la art. 307, 309 și 225; norma dublată invită interpretări divergente."
-      }
+        "articleRef": "Art. I pct. 2 și 4 (art. 10 alin. 8, art. 225)",
+        "proposalContent": "Art. 225 alin. (4¹): «Referatul cu propunerea de arestare preventivă sau de prelungire a acesteia se comunică inculpatului și apărătorului său, prin grija judecătorului de drepturi și libertăți, de îndată după înregistrare și înainte de dezbateri; la cerere, apărătorului i se acordă timpul necesar studierii.» Se corectează trimiterea la Legea nr. 135/2010.",
+        "argumentation": "Comunicarea doar „la termen” nu asigură timpul și înlesnirile cerute de art. 6 §3 lit. b) CEDO și de art. 10 alin. (2) CPP. Textele propuse se contrazic: art. 10 alin. (8) vizează inculpatul, iar art. 225 alin. (4¹) trimite la avocat dacă inculpatul lipsește. Prelungirea (art. 235) nu este acoperită. O normă unică, cu organul obligat precizat, este previzibilă.",
+        "otherComments": "Expunerea de motive vizează și art. 311 (extinderea urmăririi sau a acțiunii penale, schimbarea încadrării), dar textul nu îl modifică. Propun extinderea comunicării la procesele-verbale actualizate. Corecturi necesare: «Legea nr. 135/2010», ghilimelele lipsă la pct. 2 și «comunică» la art. 10 alin. (3¹)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 101126,
+      "durationMs": 88510,
+      "sourceEndMarker": "SF-8BCAC8B1",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Copii obligatorii ale actelor de acuzare și ale cererilor de arestare",
-      "verdictShort": "Proiect util pentru dreptul la apărare, cu risc redus: persoana cercetată primește obligatoriu anumite acte care o privesc. Principala slăbiciune este comunicarea referatului de arestare abia la termen, fără garantarea expresă a unui interval pentru studiere.",
-      "initiatorClaim": "Inițiatorii urmăresc eliminarea practicilor neuniforme de comunicare a acuzației și clarificarea garanțiilor suspecților, inculpaților și avocaților acestora. Expunerea invocă și schimbarea ori extinderea acuzației, însă articolele propuse nu acoperă distinct toate situațiile enumerate.",
-      "realityCheck": "Art. I pct. 1–6 instituie remiterea obligatorie a proceselor-verbale privind calitatea procesuală și a referatelor pentru arestare preventivă sau prelungirea acesteia. Efectul nou este comunicarea din oficiu a acestor înscrisuri, nu crearea de la zero a dreptului la informare sau la consultarea dosarului. Textul nu introduce taxe, monopoluri ori sancțiuni noi, dar necesită corelări privind momentul comunicării și destinatarii.",
+      "plainTitle": "Copii obligatorii ale actelor privind acuzația și arestarea",
+      "verdictShort": "Proiectul întărește dreptul la apărare prin comunicarea obligatorie a unor documente esențiale. Riscurile sunt reduse și privesc în principal comunicarea tardivă a referatelor de arestare și corelarea incompletă a procedurilor.",
+      "initiatorClaim": "Inițiatorii urmăresc uniformizarea practicii privind înmânarea proceselor-verbale de informare asupra acuzației și a referatelor pentru arestare sau prelungirea acesteia. Ei susțin că accesul efectiv la aceste înscrisuri permite pregătirea apărării.",
+      "realityCheck": "Proiectul transformă comunicarea unor copii într-o obligație expresă, fără să creeze de la zero dreptul la informare, accesul la dosar sau dreptul la timpul necesar pregătirii apărării. Pentru referatele de arestare, comunicarea este prevăzută abia la termen, ceea ce poate fi insuficient în dosare voluminoase, dar nu înlătură garanțiile generale existente. Nu introduce taxe, sancțiuni, monopoluri, derogări sau abrogări.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 1, 5 și 6: suspectul și inculpatul primesc obligatoriu exemplarul procesului-verbal înaintea primei audieri. Este o garanție practică folositoare pentru înțelegerea și verificarea acuzației.",
-        "Art. I pct. 2–4: comunicarea referatului la termen nu garantează singură pregătirea efectivă a apărării. Comunicarea avocatului în lipsa inculpatului este prevăzută expres la art. 225 pentru arestarea inițială, fără o completare echivalentă a art. 235 pentru prelungire.",
-        "Garanții există deja: art. 94 alin. (7) permite avocatului accesul la întregul material al dosarului în procedurile relevante privind măsurile privative sau restrictive de drepturi; art. 309 alin. (3) prevede eliberarea, la cerere, a copiei ordonanței de punere în mișcare a acțiunii penale. Proiectul adaugă comunicarea obligatorie a procesului-verbal, un document distinct. [Codul de procedură penală](https://legislatie.just.ro/Public/DetaliiDocument/236499)",
-        "Impactul administrativ constă în multiplicarea, remiterea și evidența comunicării unor acte deja întocmite. Costurile suplimentare pentru autorități sunt plauzibil limitate, dar extrasul nu permite cuantificarea lor; cetățenii și IMM-urile nu primesc obligații administrative noi."
+        "Identificarea legii: art. I menționează greșit Legea nr. 135/2020, deși titlul, obiectul și articolele vizate indică Legea nr. 135/2010 privind Codul de procedură penală. Textul electoral furnizat pentru comparație nu reprezintă dreptul aplicabil acestei analize; eroarea de an trebuie corectată.",
+        "Art. I pct. 1 și 5, privind art. 10 și 307: informarea suspectului despre calitate, faptă, încadrare juridică și drepturi, precum și întocmirea procesului-verbal sunt deja prevăzute. Noutatea este comunicarea obligatorie a unui exemplar înaintea primei audieri.",
+        "Art. I pct. 1, 3 și 6, privind art. 10, 83 și 309: inculpatul primește obligatoriu procesul-verbal de informare asupra calității sale. Această obligație privește un document diferit de copia ordonanței de punere în mișcare a acțiunii penale, eliberată la cerere potrivit art. 309 alin. (3), care rămâne aplicabil.",
+        "Art. I pct. 2–4: devine obligatorie comunicarea referatului pentru arestare ori prelungire. Accesul apărării la dosar și timpul necesar pregătirii apărării sunt garanții existente; noua obligație de comunicare le completează.",
+        "Art. 10 alin. (8) și art. 83 lit. a³), propuse: formularea «la termenul fixat» nu asigură prin ea însăși studierea efectivă a unui referat voluminos înaintea dezbaterilor. Predarea copiei trebuie corelată cu dreptul deja existent la timpul și înlesnirile necesare pregătirii apărării.",
+        "Art. 225 alin. (4¹), propus: pentru arestarea inițială, absența inculpatului determină expres comunicarea către avocat. Pentru prelungire, trimiterea existentă din art. 235 alin. (6) la art. 225 alin. (4) și (5) nu include explicit noul alin. (4¹); este utilă corelarea expresă.",
+        "Art. 311 nu este modificat expres, deși expunerea de motive discută actualizarea acuzației. Trimiterea din alin. (5) la art. 309 alin. (2)–(4) poate transmite noua obligație și extinderii acțiunii penale; pentru extinderea urmăririi penale și schimbarea încadrării juridice, obligația de comunicare a unui proces-verbal actualizat nu este formulată expres.",
+        "Proiectul nu instituie o nulitate specială pentru necomunicare. Consecințele încălcării se apreciază potrivit regulilor generale ale Codului, inclusiv condițiilor nulității relative, fără anularea automată a întregii proceduri.",
+        "Nu există dispoziții finale sau tranzitorii speciale. Se aplică regulile generale privind intrarea în vigoare și aplicarea legii procesual penale; proiectul nu dispune refacerea automată a actelor deja efectuate. Costurile suplimentare sunt în principal de reproducere și comunicare, suportate de autorități, fără cuantificare în documentele furnizate."
       ],
-      "blindSpotsCaught": "Caracterul nepublic al urmăririi penale nu justifică automat refuzul accesului apărării la dosar; restricțiile trebuie raportate la garanțiile legale existente. Expunerea evocă extinderea urmăririi și schimbarea încadrării juridice, dar proiectul nu modifică art. 311. Necomunicarea înscrisurilor nu este însoțită de o sancțiune specială în proiect, astfel că nu poate fi prezentată drept cauză nouă de nulitate absolută automată. [Codul de procedură penală](https://legislatie.just.ro/Public/DetaliiDocument/236499)",
-      "constitutionalityNote": "Orientarea proiectului susține art. 24 privind apărarea și art. 23 alin. (8) privind informarea persoanei reținute sau arestate. Pentru art. 1 alin. (5), trebuie clarificate momentul, responsabilul și dovada comunicării și eliminate suprapunerile; trimiterea din extras la Legea nr. 135/2020 trebuie confruntată cu originalul și corectată la 135/2010 dacă se confirmă. Art. 23 alin. (12), referitor la legalitatea pedepsei, nu este incident direct: proiectul nu stabilește pedepse. Caracterul ordinar nu este neconstituțional doar fiindcă se modifică un cod: normele procedurale analizate nu devin automat materie organică. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355)",
-      "euLawNote": "Reperul pertinent este Directiva 2012/13/UE, în special art. 6–7 privind informarea asupra acuzației și accesul la documentele esențiale contestării privării de libertate; remiterea referatului nu înlocuiește accesul la aceste documente. Comunicarea trebuie organizată astfel încât apărarea să poată fi exercitată efectiv. [Directiva 2012/13/UE](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32012L0013) Testul din Directiva 2018/958 nu este aplicabil acestor dispoziții: nu restrâng accesul la o profesie reglementată sau exercitarea ei și nu creează privilegii concurențiale. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32018L0958) Nu rezultă obligația notificării TRIS: proiectul nu introduce reglementări tehnice pentru produse ori norme specifice serviciilor societății informaționale și nu reglementează servicii digitale sau AI. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32015L1535)",
+      "blindSpotsCaught": "Comparația legislativă furnizată a urmărit legea electorală din 2020 din cauza anului greșit din art. I. Separat, noul alin. (4¹) al art. 225 nu intră automat în trimiterea punctuală din art. 235 alin. (6). Expunerea de motive descrie probleme mai ample ale urmăririi penale, dar proiectul nu schimbă condițiile dobândirii calității de suspect sau inculpat și nu impune un interval minim între acestea.",
+      "constitutionalityNote": "Direcția proiectului susține art. 24 privind apărarea, art. 21 alin. (3) privind procesul echitabil și garanțiile libertății individuale din art. 23. Art. 1 alin. (5) impune corectarea identificării legii și corelarea comunicării între proceduri. Comunicarea abia la termen poate produce dificultăți practice, însă garanțiile generale ale apărării rămân aplicabile. Art. 23 alin. (12), privind legalitatea pedepsei, nu este direct incident: proiectul nu stabilește infracțiuni sau pedepse. Formula de adoptare prin raportare la art. 76 alin. (2) nu dovedește singură neconstituționalitatea, caracterul organic depinzând de materia efectiv reglementată.",
+      "euLawNote": "Proiectul este compatibil ca orientare cu Directiva 2012/13/UE privind dreptul la informare, în special informarea asupra acuzației și accesul la documentele esențiale contestării privării de libertate. Copia referatului nu înlocuiește accesul la aceste documente. Directiva (UE) 2018/958 nu impune aici testul pentru restrângerea accesului la profesii reglementate: proiectul nu introduce asemenea restricții, inclusiv pentru avocați. Nu reglementează produse ori servicii ale societății informaționale și nu rezultă obligația notificării TRIS potrivit Directivei (UE) 2015/1535. Nu se identifică restrângeri ale concurenței sau bariere pe piața unică.",
       "senatForm": {
-        "articleRef": "Art. I pct. 2 – art. 10 alin. (8) CPP",
-        "proposalContent": "(8) Referatul cu propunerea de arestare preventivă sau de prelungire a acesteia se comunică gratuit inculpatului și avocatului său, de îndată după sesizarea judecătorului și înaintea dezbaterilor. Judecătorul asigură timpul necesar pregătirii apărării, în limitele termenelor legale. Comunicarea către inculpatul absent se face potrivit regulilor generale.",
-        "argumentation": "Comunicarea abia la termen poate lăsa apărării prea puțin timp pentru studierea motivelor privării de libertate. Textul propus asigură comunicarea și avocatului în ambele proceduri, inclusiv când inculpatul lipsește, fără a permite depășirea termenelor legale. Susține aplicarea art. 24 din Constituție și art. 7 din Directiva 2012/13/UE.",
-        "otherComments": "Corelați art. 83, art. 225 și art. 235 cu această regulă, păstrând accesul la întregul dosar potrivit art. 94 alin. (7). Verificați în original și corectați trimiterea la Legea nr. 135/2020: codul este reglementat prin Legea nr. 135/2010. Proiectul nu modifică art. 311. Termenul de amendamente indicat, 12.03.2026, este expirat."
-      }
+        "articleRef": "Art. I pct. 2 – art. 10 alin. (8)",
+        "proposalContent": "„(8) Referatul cu propunere de arestare preventivă sau de prelungire a acesteia se comunică inculpatului și avocatului său de îndată după sesizarea judecătorului, înaintea dezbaterilor, cu asigurarea timpului și înlesnirilor necesare pregătirii apărării și cu respectarea termenelor legale. Comunicarea se consemnează la dosar.”",
+        "argumentation": "Comunicarea abia la termen poate lăsa apărării un timp insuficient pentru studierea referatului. Textul propus permite pregătirea efectivă a apărării, păstrează termenele legale și asigură dovada comunicării, în acord cu art. 24 din Constituție și Directiva 2012/13/UE.",
+        "otherComments": "Corectați «135/2020» în «135/2010» și corelați art. 225 cu art. 235, inclusiv comunicarea către avocat în lipsa inculpatului. Analiza privește forma inițiatorului furnizată; verificarea online nu a fost disponibilă, iar textele consolidate relevante trebuie confruntate înaintea depunerii."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T06:48:02.543Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:29:46.040Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

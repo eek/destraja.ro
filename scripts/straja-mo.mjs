@@ -86,6 +86,38 @@ if (!days.length) {
   console.error('[mo] nicio zi citibilă în setul de date. Las datele de ieri.');
   process.exit(1);
 }
+
+// Actele pe care listele pe zile ale portalului le sar (numere întregi de Monitor, sau acte din numere listate),
+// găsite pe NAS după numărul Monitorului și, pentru legi, prin SOAP după număr: nas-exports/extra-acts.json, adus cu
+// rsync din ~/work/mo-nas/exports. Fiecare intră în ziua publicării lui, o singură dată după id-ul din portal.
+const extraFile = path.join(MO_DIR, 'nas-exports', 'extra-acts.json');
+const extraDoc = readJson(extraFile);
+const extra = Array.isArray(extraDoc) ? extraDoc : (extraDoc?.acts ?? []);
+let extraAdded = 0;
+if (extra.length) {
+  const byDate = new Map(days.map((d) => [d.date, d]));
+  const known = new Set(days.flatMap((d) => d.acts.map((a) => a.portalId)).filter(Boolean));
+  const touched = new Set();
+  for (const a of extra) {
+    const day = byDate.get(a.mo?.date);
+    if (!day || !a.portalId || known.has(a.portalId)) continue;
+    day.acts.push({ links: {}, ...a });
+    known.add(a.portalId);
+    touched.add(day);
+    extraAdded++;
+  }
+  // Legea și decretul ei de promulgare, adăugate din același număr de Monitor, se leagă ca în bin/day.mjs.
+  for (const day of touched) {
+    const byIssue = new Map();
+    for (const a of day.acts) {
+      if (!a.mo) continue;
+      const k = `${a.mo.number}:${a.mo.bis ? 'bis' : ''}`;
+      byIssue.set(k, [...(byIssue.get(k) ?? []), a]);
+    }
+    for (const group of byIssue.values()) portal.pairDecreesWithLaws(group);
+  }
+  console.log(`[mo] acte sărite de listele pe zile, adăugate din ${path.relative(MO_DIR, extraFile)}: ${extraAdded} din ${extra.length}`);
+}
 const to = days.at(-1).date;
 console.log(`[mo] ${days.length} zile citite (${days[0].date} … ${to}); format vechi: ${completed} din ${unread} acte completate din cache`);
 if (unusable.length) console.log(`[mo] zile cu partea-i.json lipsă sau stricat (numărate ca necitite): ${unusable.join(', ')}`);
